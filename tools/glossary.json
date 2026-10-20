@@ -1,0 +1,36 @@
+{
+  "_doc": "Substitutions appliquées aux textes de Calamity par tools/gen_localization.py. 'renames' : noms propres renommés par le wiki (vérifiés page par page, source : reports/renames.md). 'terms' : vocabulaire du wiki, appliqué mot entier en respectant la casse (minuscule, Capitale, MAJUSCULES). Un nom officiel qui a encore sa propre page de contenu sur le wiki n'est jamais modifié (ex. Hide of Astrum Deus, Uelibloom Brick). 'keep' : expressions laissées telles quelles (idiomes).",
+  "renames": {
+    "Scoria Bar": "Abyss Bar",
+    "Scoria Ore": "Abyss Ore",
+    "Astrum Deus": "Astral Deus",
+    "Brimstone Crags": "Brimstone Crag",
+    "Pearl Shard": "Conquest Fragment",
+    "Dark Spark": "Cruel Jewel",
+    "Divine Geode": "Divine Bar",
+    "Malachite": "Garnet",
+    "Murasama": "Graydron",
+    "Marked for Death": "Marked",
+    "Nightwither": "Moon Burnt",
+    "Grand Scale": "Parched Scale",
+    "Pristine Fury": "Pristine Annihilation",
+    "Uelibloom": "Tarragon",
+    "Draconic Swarmer": "Tempest Toddler",
+    "Sea Remains": "Victide Bar",
+    "Wulfrum Metal Scrap": "Wulfrum Bar"
+  },
+  "terms": {
+    "rogues": "spies",
+    "rogue": "spy",
+    "accessories": "coverings",
+    "accessory": "covering",
+    "post-Moon Lord": "Godseeker Mode"
+  },
+  "keep": [
+    "going rogue",
+    "gone rogue",
+    "went rogue",
+    "goes rogue",
+    "go rogue"
+  ]
+}

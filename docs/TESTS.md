@@ -16,3 +16,19 @@ Astuces : Cheat Sheet / Hero's Mod pour faire apparaître objets et PNJ ; `/calf
 - [ ] L'ennemi touché reçoit le debuff Moon Burnt (= Nightwither de Calamity), 3 s, particules violettes
 - [ ] Recette au Cosmic Anvil : Stratus Sphere, Galileo Gladius, Crescent Moon, 25 Lumenyl, 37 Depth Cells,
       4 Ascendant Spirit Essence, 8 Auric Bar (Night's Gaze manquant volontairement)
+
+---
+
+## Passe 1 — Fondations (nuit du 21/10)
+
+### 1.1 Vocabulaire et renommages du wiki (`Localization/en-US/Mods.CalamityMod.hjson`)
+
+- [ ] Le mod se charge sans erreur de localisation (pas de fichier renommé en `.legacy` dans `Localization/`)
+- [ ] Murasama s'appelle **Graydron**
+- [ ] Uelibloom Bar/Ore → **Tarragon Bar/Ore** ; Uelibloom Brick garde son nom
+- [ ] Astrum Deus (boss, barre de vie, sac, trophée, masque) → **Astral Deus** ; Hide of Astrum Deus garde son nom
+- [ ] Nightwither → **Moon Burnt** (survol du debuff sur un ennemi)
+- [ ] Rogue Emblem → **Spy Emblem** ; infobulles des armes rogue : « spy damage », « Spy » au lieu de « Rogue »
+- [ ] Contrôles : « Covering Ability 1..7 » au lieu de « Accessory Ability »
+- [ ] Draconic Swarmer (invoqué par la Dragonfolly) → **Tempest Toddler**
+- [ ] Les balises dans les infobulles s'affichent toujours (icônes `[i:...]`, buffs colorés `[cbuff:...]`)

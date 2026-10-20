@@ -1,0 +1,907 @@
+# Généré par tools/gen_localization.py depuis tools/glossary.json : ne pas éditer à la main.
+{
+	Bestiary:
+	{
+		AstrumDeus: When a star begins to die, under normal circumstances, its power simply fades as it falls to the nearest celestial body. However, some dying stars bloat and fester before falling. Astral Deus exists to consume these stars before the Astral Infection manifests in them, and it has been revered for its sacred duty since time immemorial.
+	}
+	Biomes:
+	{
+		BrimstoneCrags: Brimstone Crag
+		BrimstoneCragsBiome:
+		{
+			DisplayName: Brimstone Crag
+			TownNPCDialogueName: Brimstone Crag
+		}
+	}
+	BossChecklistIntegration:
+	{
+		AstrumDeus:
+		{
+			EntryName: Astral Deus
+		}
+		BrimstoneElemental:
+		{
+			SpawnInfo: Use a [i:CalamityMod/CharredIdol] in the Brimstone Crag or Azafure.
+		}
+	}
+	Buffs:
+	{
+		MarkedforDeath:
+		{
+			DisplayName: Marked
+		}
+		Nightwither:
+		{
+			DisplayName: Moon Burnt
+		}
+		WeaponImbueBrimstone:
+		{
+			Description: Melee, Whip, and Spy attacks ignite enemies with brimstone flames
+		}
+		WeaponImbueCrumbling:
+		{
+			Description: Melee, Whip, and Spy attacks reduce enemy damage reduction
+		}
+		WeaponImbueHolyFlames:
+		{
+			Description: Melee, Whip, and Spy attacks dissolve enemies with holy flames
+		}
+	}
+	Common:
+	{
+		CanMineUelibloom: Can mine Tarragon Ore
+		DodgeInformation:
+			'''
+			[i/Terraria:BlackBelt] Attacks that deal less than 5% of your max life in damage will not be dodged
+			[i/Terraria:BlackBelt] This dodge has a maximum cooldown of 90 seconds, shortened depending on the dodged attack's damage
+			[i/Terraria:BlackBelt] Equipping multiple coverings that give this ability to dodge will reduce the cooldown by 15% each
+			'''
+		RogueCrit: "{0}% increased spy critical strike chance"
+		RogueDamage: "{0}% increased spy damage"
+		RogueDamageCrit: "{0}% increased spy damage and critical strike chance"
+		RogueVelocity: "{0}% increased spy velocity"
+	}
+	Condition:
+	{
+		Drops:
+		{
+			DownedAD: After defeating Astral Deus
+		}
+		HasRogueArmor: While wearing spy armor
+		InCrag: In the Brimstone Crag
+	}
+	Configs:
+	{
+		CalamityClientConfig:
+		{
+			StealthInvisibility:
+			{
+				Tooltip:
+					'''
+					Enables players gradually turning invisible as their Spy Stealth increases.
+					This effect is visually similar to Shroomite armor's stealth.
+					'''
+			}
+			StealthMeter:
+			{
+				Tooltip:
+					'''
+					Enables the Stealth Meter UI, which shows the player's current stealth level.
+					The Stealth Meter is always hidden if not wearing Spy armor.
+					'''
+			}
+		}
+		CalamityServerConfig:
+		{
+			FasterTilePlacement:
+			{
+				Tooltip:
+					'''
+					Substantially increases how rapidly the player can place tiles and walls.
+					This config stacks with the Brick Layer, Portable Cement Mixer and other coverings.
+					'''
+			}
+			RemoveReforgeRNG:
+			{
+				Tooltip:
+					'''
+					Removes randomness from the Goblin Tinkerer's reforges for both weapons and coverings.
+					Disable this if using mods that change reforging on their own to prevent conflicts.
+					'''
+			}
+		}
+	}
+	DamageClasses:
+	{
+		RogueDamageClass:
+		{
+			DisplayName: spy damage
+		}
+	}
+	GameTips:
+	{
+		StealthTip: Wearing any spy class armor lets you build stealth!
+	}
+	Items:
+	{
+		Accessories:
+		{
+			Abaddon:
+			{
+				Unequipped: Equip this covering to view your current [cbuff:CalamityMod/Bane] damage
+			}
+			Apollyon:
+			{
+				Unequipped: Equip this covering to view your current [cbuff:CalamityMod/Bane] damage
+			}
+			BlunderBooster:
+			{
+				Tooltip:
+					'''
+					12% increased spy damage and 15% increased spy projectile velocity
+					Stealth generates 10% faster
+					Summons a red lightning aura around the player that electrifies nearby enemies with [cbuff:CalamityMod/VermillionFlux]
+					The aura has reduced opacity if visibility is disabled
+					Press [KEY] to consume 25% of your maximum stealth to perform a swift upwards diagonal dash
+					This dash leaves a trail of red lightning bolts
+					This effect has a 1 second cooldown before it can be used again
+					'''
+			}
+			ChaliceOfTheBloodGod:
+			{
+				Tooltip:
+					'''
+					Increases max HP by 25%
+					+2 HP/s life regen and reduces the cooldown of healing potions by 25%
+					Taking more than 5 damage converts the hit into a damage over time bleed effect
+					This bleeding does not interfere with life regeneration
+					Drinking a healing potion removes some of the remaining bleed, up to 50% of its heal value
+					Unequipping this covering while bleeding inflicts the remaining damage instantly
+					Grants immunity to [cbuffplr:Bleeding], [cbuffplr:CalamityMod/BurningBlood], [cbuffplr:CalamityMod/HeavyBleeding], and [cbuffplr:CalamityMod/Laceration]
+					'All that for a drop of blood...'
+					'''
+			}
+			CoinofDeceit:
+			{
+				Tooltip:
+					'''
+					Stealth strikes only expend 90% of your max stealth
+					6% increased spy crit chance
+					'''
+			}
+			DarkMatterSheath:
+			{
+				Tooltip:
+					'''
+					+10 maximum stealth
+					Stealth generation is boosted while moving if not attacking
+					Stealth strikes only expend 50% of your max stealth
+					6% increased spy damage and spy crit chance
+					'''
+			}
+			DragonScales:
+			{
+				Tooltip:
+					'''
+					Spy projectiles spawn slow fireballs as they travel
+					Stealth strikes create infernados where they hit
+					+10% max run speed and acceleration
+					Grants immunity to [cbuffplr:CalamityMod/Dragonfire]
+					'Only a living dragon holds true treasure'
+					'''
+			}
+			EclipseMirror:
+			{
+				Tooltip:
+					'''
+					+10 maximum stealth
+					6% increased spy damage and spy crit chance
+					Enemies are less likely to target you, even in the abyss
+					Stealth generates 25% faster when standing still and is boosted while moving if not attacking
+					Stealth strikes only expend 50% of your max stealth
+					{$Common.DodgeProvided}
+					Dodging an attack restores stealth and releases a burst of highly damaging darksun light
+					'''
+			}
+			EtherealExtorter:
+			{
+				Tooltip:
+					'''
+					Spy projectiles explode into homing souls on hit
+					8% increased spy damage and +5 maximum stealth
+					'''
+			}
+			FragmentsOfAnotherWorld:
+			{
+				Tooltip:
+					'''
+					Grants immunity to [cbuffplr:CalamityMod/WhisperingDeath]
+					{0}% increased melee speed
+					{1}x specialist ranged damage
+					{2}% reduced mana usage
+					+{3} maximum sentries
+					{4}% increased spy attack speed
+					[c/ff0000:'Don't speak of your desires to the shadows, they listen.']
+					'''
+			}
+			FrozenCube:
+			{
+				Unequipped: Equip this covering to view its statistics
+			}
+			GloveOfPrecision:
+			{
+				Tooltip:
+					'''
+					Decreases spy attack speed by 15%
+					Increases spy damage and critical strike chance by 10%, and velocity by 15%
+					'''
+			}
+			GloveOfRecklessness:
+			{
+				Tooltip:
+					'''
+					Increases spy attack speed by 15%, but decreases damage by 10% and crit by 5%
+					15% increased stealth regeneration
+					Makes spy weapons slightly inaccurate
+					'''
+			}
+			HowlsHeart:
+			{
+				Tooltip:
+					'''
+					Summons Howl to fight for you, Calcifer to light your way, and Turnip-Head to follow you around
+					Placing this covering in vanity slots will summon the trio without the combat or exploration utilities
+					'''
+			}
+			Nanotech:
+			{
+				Tooltip:
+					'''
+					Spy projectiles create nanoblades as they travel
+					Stealth strikes summon nanobeams and sparks on enemy hits
+					Stealth strikes have lifesteal, +15 armor penetration, deal 5% more damage
+					15% increased spy damage and 15% increased spy velocity
+					Stealth strikes grant lifesteal and 10% critical strike chance to non-stealth strikes for 10 seconds
+					'''
+			}
+			PlaguedFuelPack:
+			{
+				Tooltip:
+					'''
+					8% increased spy damage and 15% increased spy projectile velocity
+					Stealth generates 10% faster
+					Press [KEY] to consume 25% of your maximum stealth to perform a swift upwards diagonal dash
+					The dash leaves a lingering trail of [cbuff:CalamityMod/Plague] clouds
+					This effect has a 1 second cooldown before it can be used again
+					'''
+			}
+			ProfanedSoulCrystal:
+			{
+				FullTooltip:
+					'''
+					Provides passive buffs depending on the time of day
+					Greatly boosts the power of the Guardian's relics
+					Grants additional effects if you have {0} unused minion slots
+					Summons your own personal Guardians to fight alongside you
+					All non-summon attacks are transformed, and are empowered if no minions are active
+					[c/ffa680:Melee] [c/ffd2bf:attacks become a barrage of spears]
+					[c/99ffa7:Ranged] [c/bfffc8:attacks become a flurry of fireballs and meteors]
+					[c/8cbeff:Magic] [c/bfdbff:attacks become a giant splitting fireball, costing {1} mana]
+					[c/d791f2:Whips] [c/e1b6f2:become overtaken by profaned crystal]
+					[c/f285a2:Spy] [c/f2b6c6:attacks become a deadly crystalline spiral]
+					Thinking back, it was a boring life
+					[c/FFBF49:And so we burn it all in the name of purity]
+					'''
+			}
+			RogueEmblem:
+			{
+				DisplayName: Spy Emblem
+				Tooltip: 15% increased spy damage
+			}
+			RuinMedallion:
+			{
+				Tooltip:
+					'''
+					Stealth strikes only expend 75% of your max stealth
+					6% increased spy damage and spy crit chance
+					'''
+			}
+			StatMeter:
+			{
+				RogueStats:
+					'''
+					Max Stealth: {0} | Standing Regen: {1} / sec | Moving Regen: {2} / sec
+					Spy Velocity Boost: {3}%
+					'''
+			}
+			VampiricTalisman:
+			{
+				Tooltip:
+					'''
+					Spy critical strikes steal enemy life
+					Stealth strikes grant 15% critical strike chance and increased lifesteal to non-stealth strikes for 10 seconds
+					Stealth strikes inflict [cbuff:CalamityMod/HeavyBleeding] and [cbuff:CalamityMod/ArmorCrunch], and deal 8% more damage
+					'Possessing the talisman makes you yearn for blood'
+					'''
+			}
+			VeneratedLocket:
+			{
+				Tooltip:
+					'''
+					10% increased spy damage
+					Spy projectiles summon a clone from above the cursor
+					Stealth strikes unleash a ring of seeking cosmilite knives
+					'You'll never be alone, no matter where you go'
+					'''
+			}
+		}
+		Armor:
+		{
+			Hardmode:
+			{
+				DaedalusHeadRogue:
+				{
+					SetBonus:
+						'''
+						{$Common.RogueStealth}
+						Spy projectiles throw out crystal shards as they travel
+						'''
+				}
+				ForbiddenCirclet:
+				{
+					SetBonus:
+						'''
+						{$Common.RogueStealth}
+						{1} to call an ancient storm to the cursor location
+						The ancient storm costs {2} mana and benefits from both summon and spy bonuses
+						Spy stealth strikes will tag enemies, causing summons to spawn homing eaters on hit
+						Using summon weapons no longer reset your stealth
+						Minions no longer deal less damage while wielding spy weapons
+						'''
+				}
+				HydrothermicHeadRogue:
+				{
+					SetBonus:
+						'''
+						{$Common.RogueStealth}
+						Spy weapons unleash a volley of homing chaos flames around the player every {1} seconds
+						{$HydrothermicArmor.CommonSetBonus@2}
+						'''
+				}
+				TitanHeartMantle:
+				{
+					Tooltip: "{$Common.RogueDamage} and {1}% increased spy knockback"
+				}
+				TitanHeartMask:
+				{
+					Tooltip:
+						'''
+						{$Common.RogueDamage} and {$Common.RogueVelocity@1}
+						Spy weapons inflict [cbuff:CalamityMod/AstralInfectionDebuff]
+						'''
+				}
+				UmbraphileHood:
+				{
+					SetBonus:
+						'''
+						{$Common.RogueStealth}
+						Spy weapons have a chance to create explosions on hit
+						Stealth strikes always create an explosion
+						'''
+				}
+			}
+			PostMoonLord:
+			{
+				AuricTeslaHeadRogue:
+				{
+					SetBonus:
+						'''
+						{$Common.RogueStealth}
+						Spy Tarragon, Bloodflare and God Slayer armor effects
+						Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
+						'''
+				}
+				EmpyreanMask:
+				{
+					SetBonus:
+						'''
+						{$Common.RogueStealth}
+						Spy projectiles have special effects on enemy hits
+						Imbued with [cbuffplr:CalamityMod/EmpyreanWrath] when you are damaged or while below {1}% life
+						'''
+				}
+				GemTechHeadgear:
+				{
+					RedGemInfo: "[i:CalamityMod/GemTechRedGem] The red gem grants {0} maximum stealth, increased spy stats, and makes stealth only consumable by spy weapons"
+				}
+				GodSlayerHeadRogue:
+				{
+					SetBonusEffect:
+						'''
+						{0}% increased spy damage, critical strike chance, and velocity when at full health
+						Increased length of invincibility when taking over {1} damage in one hit
+						{$GodSlayerChestplate.CommonSetBonus@2}
+						'''
+				}
+				TarragonHeadRogue:
+				{
+					SetBonusEffect:
+						'''
+						After every {0} spy critical hits you will gain {1} seconds of damage immunity
+						This effect has a cooldown of {2} seconds
+						{$TarragonBreastplate.CommonSetBonus}
+						'''
+				}
+			}
+			PreHardmode:
+			{
+				AerospecHeadRogue:
+				{
+					SetBonus:
+						'''
+						{$Common.RogueStealth}
+						{1}% increased movement speed and spy critical strike chance
+						{$AerospecBreastplate.CommonSetBonus@2}
+						'''
+				}
+				DesertProwlerHat:
+				{
+					SetBonus:
+						'''
+						{$Common.RogueStealth}
+						[c/{1}:Sandsmoke Bomb - {2} to shroud yourself in a small cloud of sand]
+						[c/CCB648:While the sand cloud is active, gain increased mobility but heavily reduced defense]
+						[c/CCB648:Using a spy weapon instantly dispels the sand cloak, but guarantees a supercrit for {3}% damage]
+						[c/CCB648:The supercrit applies only as long as the resulting hit wouldn't exceed {4} damage]
+						[c/CCB648:Landing the killing blow on an enemy with this shot shortens the ability's cooldown to {5} {^5:second;seconds}]
+						'''
+				}
+				VictideHeadRogue:
+				{
+					SetBonus:
+						'''
+						+60 maximum stealth
+						+1.5 HP/s life regen and 10% increased spy damage while submerged in liquid
+						'''
+					Tooltip: 5% increased spy damage
+				}
+			}
+			Vanity:
+			{
+				AstrumDeusMask:
+				{
+					DisplayName: Astral Deus Mask
+				}
+			}
+		}
+		Fishing:
+		{
+			WulfrumRod:
+			{
+				Tooltip:
+					'''
+					Can fish up Wulfrum Bar and Wulfrum Energy Cores
+					'This barely works, but it's better than nothing...'
+					'''
+			}
+		}
+		Lore:
+		{
+			LoreAstrumDeus:
+			{
+				DisplayName: Astral Deus
+			}
+		}
+		Materials:
+		{
+			DivineGeode:
+			{
+				DisplayName: Divine Bar
+			}
+			GrandScale:
+			{
+				DisplayName: Parched Scale
+			}
+			PearlShard:
+			{
+				DisplayName: Conquest Fragment
+			}
+			ScoriaBar:
+			{
+				DisplayName: Abyss Bar
+			}
+			SeaRemains:
+			{
+				DisplayName: Victide Bar
+			}
+			UelibloomBar:
+			{
+				DisplayName: Tarragon Bar
+			}
+			WulfrumMetalScrap:
+			{
+				DisplayName: Wulfrum Bar
+			}
+		}
+		Misc:
+		{
+			CelestialOnion:
+			{
+				Tooltip:
+					'''
+					Permanently increases the number of covering slots
+					Enables Demon Heart's covering slot instead in Master Mode
+					Alien power pulses inside its layers
+					'''
+			}
+		}
+		Pets:
+		{
+			ThiefsDime:
+			{
+				Tooltip:
+					'''
+					Summons Goldie the spy coin to collect nearby coins and light your way
+					'Once worthless treasure, now a relic of a thief's companionship'
+					'''
+			}
+		}
+		Placeables:
+		{
+			AstralBeaconItem:
+			{
+				Tooltip: Summons Astral Deus in exchange for specific offerings
+			}
+			AstrumDeusRelic:
+			{
+				DisplayName: Astral Deus Relic
+			}
+			AstrumDeusTrophy:
+			{
+				DisplayName: Astral Deus Trophy
+			}
+			ScoriaOre:
+			{
+				DisplayName: Abyss Ore
+			}
+			UelibloomOre:
+			{
+				DisplayName: Tarragon Ore
+			}
+		}
+		Potions:
+		{
+			FlaskOfBrimstone:
+			{
+				Tooltip: Melee, Whip, and Spy attacks inflict {$Buffs.BrimstoneFlames.DisplayName}
+			}
+			FlaskOfCrumbling:
+			{
+				Tooltip: Melee, Whip, and Spy attacks inflict {$Buffs.Crumbling.DisplayName}
+			}
+			FlaskOfHolyFlames:
+			{
+				Tooltip: Melee, Whip, and Spy attacks inflict {$Buffs.HolyFlames.DisplayName}
+			}
+		}
+		SummonItems:
+		{
+			CharredIdol:
+			{
+				Tooltip:
+					'''
+					Summons the Brimstone Elemental when used in the Brimstone Crag
+					Enrages outside the Brimstone Crag
+					{$Common.NotConsumable}
+					'Anything under her gaze shall be scorched beyond recognition.'
+					'''
+			}
+			Starcore:
+			{
+				Tooltip:
+					'''
+					Summons Astral Deus at the Astral Beacon, but is not consumed
+					'May the stars guide your way'
+					'''
+			}
+		}
+		Tools:
+		{
+			AggressiveVoucher:
+			{
+				Tooltip:
+					'''
+					Favorite this item in your inventory to change the result of your next covering reforge
+					This will always either give the targeted reforge or a unique reforge
+					Targeted Reforge: {0}
+					Selectable Reforges: {1}
+					[c/aaaaaa:Shift-<right> in your inventory to cycle between targeted reforges]
+					'''
+			}
+			HurriedVoucher:
+			{
+				Tooltip:
+					'''
+					Favorite this item in your inventory to change the result of your next covering reforge
+					This will always either give the targeted reforge or a unique reforge
+					Targeted Reforge: {0}
+					Selectable Reforges: {1}
+					[c/aaaaaa:Shift-<right> in your inventory to cycle between targeted reforges]
+					'''
+			}
+			OddVoucher:
+			{
+				Tooltip:
+					'''
+					Favorite this item in your inventory to change the result of your next covering reforge
+					This will always either give the targeted reforge or a unique reforge
+					Targeted Reforge: {0}
+					Selectable Reforges: {1}
+					[c/aaaaaa:Shift-<right> in your inventory to cycle between targeted reforges]
+					'''
+			}
+			UnbreakableVoucher:
+			{
+				Tooltip:
+					'''
+					Favorite this item in your inventory to change the result of your next covering reforge
+					This will always either give the targeted reforge or a unique reforge
+					Targeted Reforge: {0}
+					Selectable Reforges: {1}
+					[c/aaaaaa:Shift-<right> in your inventory to cycle between targeted reforges]
+					'''
+			}
+		}
+		TreasureBags:
+		{
+			AstrumDeusBag:
+			{
+				DisplayName: Treasure Bag (Astral Deus)
+			}
+		}
+		Weapons:
+		{
+			Magic:
+			{
+				DarkSpark:
+				{
+					DisplayName: Cruel Jewel
+				}
+			}
+			Melee:
+			{
+				Murasama:
+				{
+					DisplayName: Graydron
+				}
+			}
+			Ranged:
+			{
+				PristineFury:
+				{
+					DisplayName: Pristine Annihilation
+				}
+			}
+			Rogue:
+			{
+				Malachite:
+				{
+					DisplayName: Garnet
+				}
+				Vega:
+				{
+					Tooltip:
+						'''
+						Throws a spear that shatters into star fragments on impact and generates Starbursts
+						Stealth strikes conjure an image of Lyra to deal immense damage in an area
+						<right> to consume 20 Starbursts and immediately perform a stealth strike, regardless of your current Stealth
+						This strike calls all star fragments to attack the damaged foe and inflicts [cbuff:CalamityMod/Voidfrost]
+						Consuming Starbursts with Vega allows using stealth for 10 seconds, even without spy armor
+						'The final song of a misunderstood genius... or just a madman'
+						'''
+				}
+				WulfrumKnife:
+				{
+					Tooltip:
+						'''
+						Fires wulfrum knives in bursts of 3 that stick in enemies
+						Stealth strikes make the knife fly further and hit several times at once
+						<right> to magnetize all stuck knives back to you, restoring stealth
+						Returning knives also temporarily allows using stealth strikes without spy armor
+						'''
+				}
+			}
+		}
+	}
+	Keybinds:
+	{
+		Accessory1:
+		{
+			DisplayName: Covering Ability 1
+		}
+		Accessory2:
+		{
+			DisplayName: Covering Ability 2
+		}
+		Accessory3:
+		{
+			DisplayName: Covering Ability 3
+		}
+		Accessory4:
+		{
+			DisplayName: Covering Ability 4
+		}
+		Accessory5:
+		{
+			DisplayName: Covering Ability 5
+		}
+		Accessory6:
+		{
+			DisplayName: Covering Ability 6
+		}
+		Accessory7:
+		{
+			DisplayName: Covering Ability 7
+		}
+	}
+	Misc:
+	{
+		GFBRogueLowercase: spy
+		GFBRogueUppercase: Spy
+		HotkeyNotEquipped: an Covering Ability hotkey
+	}
+	NPCs:
+	{
+		AstrumDeusHead:
+		{
+			DisplayName: Astral Deus
+		}
+		Bumblefuck2:
+		{
+			DisplayName: Tempest Toddler
+		}
+		DraconicSwarmer:
+		{
+			DisplayName: Tempest Toddler
+		}
+		SeaKing:
+		{
+			Help:
+			{
+				Hardmode2: If you take an idol down to the Brimstone Crag you might be able to see just what is lurking in the shadows.
+				Hardmode3: Azafure, the city founded in the Brimstone Crag, was one of the first places to support Yharim in his war. Now, it is nothing more than ruins... Just what happened there?
+				PreHardmode2: Have you heard of the city in the Brimstone Crag? It lies in the Underworld, and was constructed beneath the Abyss. It was once the oldest and largest city in the world, though it seems nothing but danger lies there now. It would be wise to avoid it.
+			}
+		}
+		WildBumblebirb:
+		{
+			DisplayName: Tempest Toddler
+		}
+	}
+	Projectiles:
+	{
+		Magic:
+		{
+			DarkSparkBeam:
+			{
+				DisplayName: Cruel Jewel Beam
+			}
+		}
+		Rogue:
+		{
+			LuxorsGiftRogue:
+			{
+				DisplayName: Luxor's Spy
+			}
+			MalachiteBolt:
+			{
+				DisplayName: Garnet
+			}
+			MalachiteProj:
+			{
+				DisplayName: Garnet
+			}
+			MalachiteStealth:
+			{
+				DisplayName: Garnet
+			}
+		}
+	}
+	Tiles:
+	{
+		UelibloomOre:
+		{
+			MapEntry: Tarragon
+		}
+	}
+	UI:
+	{
+		Communication:
+		{
+			Astral:
+			{
+				Response:
+					'''
+					The Infection has beguiled me since its surge upon this world. To study it, I retrofitted an Aureus reconnaissance model with armor intended to nullify its effects. In the end, all the protection I could muster only delayed Aureus' fall to the starborne rot. Observing your trials, I understood why it was overtaken: the lack of a thinking brain.\n
+
+					Attempts at studying it on my own failed; a body was built for the task, but the chassis fell short, even if my mind remained. Using an alternative approach, I sent hired mercenaries into the infection. Few returned, but those who did provided me with enough intel.\n
+
+					What interested me the most were the reports of an infected Astral Deus patrolling the Infection. Until the rot afflicted it fully, the closest it had ever been spotted was in Terraria's higher atmosphere. Further analysis pointed towards it being the catalyst for the infection's arrival on the surface. Though I have not found a concrete reason as to why and how this happened, I do have a hypothesis.\n
+
+					As you may know, stars are concentrations of magic that form over countless years of ambient mana gathering together in deep space. With the mana having nothing to gravitate towards but itself, it condenses until it becomes a brilliant star. Stars that grow too large begin to collapse, degenerating and forming clots of Astral Infection. Throughout the cosmos at large, this is a rare occurrence, as Astral Deus intermittently devours large stars for sustenance.\n
+
+					However, space is unfathomably large. If Astral Deus were to vanish from space for even a brief time, some number of stars should visibly degenerate into Astral Infection, observable via telescope. Yet such observations show no significant increase in the quantity of collapsed stars. Furthermore, I know from my calculations that the observable universe is far, far too large to support a scenario where Astral Deus disappears.\n
+
+					It is therefore almost certain the Astral Deus we know is simply one of many. Anything further I say on this matter is speculation.\n
+
+					The infected Astral Deus near our world may be a juvenile. This would explain why it could struggle to devour a star or fail to identify an infected star as a potential hazard. It then grew sick and crashed onto the nearest planet. As there are presumably many others of its kind, space on the whole is largely unaffected. I welcome any other hypotheses you may have.
+					'''
+			}
+		}
+		Cooldowns:
+		{
+			RogueBooster: Spy Booster Cooldown
+		}
+		MasterExpandedInfo:
+			'''
+			[c/bd5e6e:Most enemies have even more health and knockback resistance than in Expert Mode]
+			[c/bd5e6e:All foes deal even more damage than in Expert Mode]
+			[c/bd5e6e:Bosses have new exclusive vanity rewards]
+			[c/bd5e6e:Players drop ALL their coins on death]
+			[c/bd5e6e:Players gain an additional covering slot at the start of the game]
+			'''
+		StealthInfoText:
+			'''
+			Spy stealth builds while not attacking and slower while moving
+			Once you have built max stealth, you will be able to perform a Stealth Strike
+			Spy stealth only reduces when you attack, it does not reduce while moving
+			The higher your spy stealth the higher your spy damage
+			Having more stealth regeneration slightly decreases the damage bonus from stealth
+			This is offset by you being able to use stealth strikes far more often
+			'''
+		StealthShiftText: Hold Shift for more information on Spy stealth
+		WindowTitle:
+		{
+			41: Terraria: Throwing is dead, long live spy
+		}
+	}
+	Vanilla:
+	{
+		AddedTooltip:
+		{
+			Picksaw: Can mine Abyss Ore located in the Abyss
+		}
+		BuffDescription:
+		{
+			WeaponImbueCursedFlames: Melee, Whip, and Spy attacks inflict enemies with cursed flames
+			WeaponImbueFire: Melee, Whip, and Spy attacks set enemies on fire
+			WeaponImbueGold: Melee, Whip, and Spy attacks make enemies drop more gold
+			WeaponImbueIchor: Melee, Whip, and Spy attacks decrease enemies defense
+			WeaponImbueNanites: Melee, Whip, and Spy attacks confuse enemies
+			WeaponImbuePoison: Melee, Whip, and Spy attacks poison enemies
+			WeaponImbueVenom: Melee, Whip, and Spy attacks inflict acid venom on your targets
+		}
+		EditedTooltip:
+		{
+			FlaskofCursedFlames: Melee, Whip, and Spy attacks inflict enemies with cursed flames
+			FlaskofFire: Melee, Whip, and Spy attacks set enemies on fire
+			FlaskofGold: Melee, Whip, and Spy attacks make enemies drop more gold
+			FlaskofIchor: Melee, Whip, and Spy attacks decrease enemies defense
+			FlaskofNanites: Melee, Whip, and Spy attacks confuse enemies
+			FlaskofPoison: Melee, Whip, and Spy attacks poison enemies
+			FlaskofVenom: Melee, Whip, and Spy attacks inflict Acid Venom on enemies
+			Magiluminescence:
+				'''
+				Increases movement acceleration and deceleration by 1.75x
+				Increases movement speed by 1.15x. This bonus applies to running boot coverings
+				'''
+			MonkAltHead: Increases your max number of sentries by 2 and increases summon & spy damage by 20%
+			MonkAltPants: 20% increased summon damage and spy critical strike chance
+			MonkAltShirt0: 20% increased summon damage and spy velocity
+			MonkAltShirt1: 5% increased spy critical strike chance
+			MonkBrows: Increases your max number of sentries by 1 and increases spy velocity by 20%
+			MonkPants: 15% increased spy critical strike chance and 20% increased movement speed
+			MonkShirt: 20% increased summon and spy damage
+		}
+	}
+}
