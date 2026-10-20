@@ -1,0 +1,56 @@
+{{item infobox
+| stack = 1
+| auto = yes
+| type = Weapon
+| damage = 128
+| damagetype = Magic
+| mana = 24
+| use = 18
+| velocity = 10
+| knockback = 8.50
+| critical = 24%
+| tooltip = A thousand years sealed in the demon's realm will teach you a thing or two<br/>Summons beast scythes around the player in a small circle, <br/>before firing toward the cursor and home in to nearby enemies
+| rare = 14
+| sell = {{value|0|36}}
+| hardmode = yes
+| postml = yes
+| debuff = On Fire!
+| debuffduration = 3 seconds
+| debuffchance = 100%
+| debuff2 = Shadowflame
+| debuffduration2 = 1..5 seconds
+| debuffchance2 = 33.33%
+| debuff3 = Brimstone Flames
+| debuffduration3 = 2 seconds
+| debuffchance3 = 33.33%
+| debuff4 = Frostburn
+| debuffduration4 = 2.5 seconds
+| debuffchance4 = 33.33%
+| proj = Beast Scythe.png
+| projcaption = Beast Scythe
+| element1 = Dark
+| element2 = Holy
+}}
+
+The '''Recitation of the Beast''' is a craftable Godseeker Mode [[spell tome]] that is a direct upgrade to the [[Demon Scythe]]. It causes a ring of six homing Beast Scythes to appear around the player that then fly off in the direction of the player's cursor. Beast Scythes inflict several [[debuffs]]:
+*[[On Fire!]] (3 seconds)
+*[[Shadowflame]] (33.33% chance for 1.5 seconds)
+*[[Brimstone Flames]] (33.33% chance for 2 seconds)
+*[[Frostburn]] (33.33% chance for 2.5 seconds)
+**Exactly one of Shadowflame, Brimstone Flames or Frostburn will be applied each hit.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon is a reference to the spell card ''Great Magic "Devil's Recitation"'', used by the character [https://en.touhouwiki.net/wiki/Byakuren_Hijiri Byakuren Hijiri] from the ''[[wikipedia:Touhou Project|Touhou Project]]'' series. In turn, the spell card itself is a reference to the Demon God [https://en.touhouwiki.net/wiki/Shinki Shinki] from a much earlier game in the series, as it resembles the final bullet pattern from her boss fight.
+**The tooltip of the weapon reflects this, as Byakuren was sealed in [https://en.touhouwiki.net/wiki/Makai Makai] for a thousand years.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

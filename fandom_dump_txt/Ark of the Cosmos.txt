@@ -1,0 +1,85 @@
+{{item infobox
+| type = Weapon
+| tooltip = {{color|Performs a combo of swings, alternating between narrow and wide swings and throwing the blade out every 5 swings<br/>The thrown blade is held in place by constellations and will follow your cursor<br/>Releasing the mouse while the blade is out will throw the second half towards it, making the scissors snap and explode into stars|#FFD700}}<br/>{{color|Using RMB will snip out the scissor blades in front of you.<br/>Hitting an enemy with it will parry them, granting you a small window of invulnerability<br/>You can also parry projectiles and temporarily make them deal 200 less damage<br/>Parrying will empower the next 10 swings of the sword, letting you use both blades at once|#00FFFF}}<br/>{{color|Using RMB and pressing up while the Ark is empowered will throw the blades in front of you to provoke a Big Rip in spacetime, using up all your charges in the process<br/>If more than half the charges were used up, you can dash across the rip by keeping the up key pressed down|#FF69B4}}<br/>Don't run with it or bad things will happen<br/> The physical culmination of your journey, capable to rend gods asunder{{sic}}
+| damage = 2000
+| damagetype = melee
+| use = 15
+| velocity = 28
+| critical = 19%
+| knockback = 9.5
+| auto = yes
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Rending Needle.png
+| projcaption = Rending Needle
+| proj2 = Galaxia Bolt.png
+| proj2caption = Eon Bolt
+| element1 = Magic
+| element2 = Slash
+| element3 = Holy
+}}
+[[File:Ark of the Cosmos (demo).gif|frame|The Ark of the Cosmos being used against a group of [[Target Dummy|Target Dummies]] and a more distant [[Super Dummy]].|alt=]]
+
+The '''Ark of the Cosmos''' is a craftable Godseeker Mode [[broadsword]] that autoswings. It is the final upgrade of the [[Fractured Ark]] and [[Broken Biome Blade]]. Unlike most broadswords, it uses a custom swing animation and performs a five-swing combo of a small upwards slash followed by a very wide circular one that shoots 6 homing eon bolts, repeating the last two swings once, and then following it up with a medium-ranged throw, where the ark will be sent out spinning, following the player's cursor for a maximum of 2.33 seconds, before coming back to them.
+
+During the first four swings of the combo, a fast non-homing rending needle projectile will also be shot, and during the final part of the combo, the spinning ark will be connected to the player by a constellation chain that deals 10% of the weapon's base damage. The rending needle deals 70% of the weapon's base damage, and the 6 eon bolts will deal the combined amount of 70% of the weapon's base damage (11.66% base damage per bolt). If the player releases the left mouse button right in the middle of the throw (between 20% and 75% of the way through, indicated by a blip sound alongside a pulse visual effect), the second half of the Ark will be sent out and both scissor blades will snap together, boosting their damage by 120%, and shooting out 3 more homing eon bolts that deal 10% of the weapon's base damage each.
+
+Right-clicking with the weapon performs a parry attack that grants the player brief invincibility frames on direct hits and reduce the damage of projectiles. Parrying and hitting enemies with the final part of the weapon's combo will fill up the weapon's charge.
+
+{{modifier|meleealt}}
+
+== Parry and Charge System ==
+
+Right-clicking performs a parry, where the Ark's scissor blades will get rapidly snapped in front of the player. If an enemy is hit by the blades during the parry, the owner will gain a little more than half a second worth of invincibility. If a projectile is hit by the ark, the projectile's damage will be lowered by a maximum of 200 damage for one second. In both cases a sound effect will play and a line of text will pop up above the player  to indicate the parry was successful. After the parry finishes, successful or not, it will go on a cooldown, indicated by a rainbow bar above the player's head.
+
+The Ark of the Cosmos possesses a unique charge system, being able to hold up to 10 charges indicated by a small rainbow bar over the ark's inventory sprite. Swinging the sword will consume one charge per swing, hitting an enemy with the snapping blades during the throw part of the combo will restore 2 charges, and landing a parry, be it on an enemy or a projectile will entirely refill the Ark's charges. When the ark holds any amount of charges, its damage will be multiplied by 1.2 and its blades will get bigger. The charges are indicated by the two scissor blades being swung as one, instead of alternating during the combo, with the entire ark being thrown out during the last part of the combo (Functionally, it remains unchanged, but instead of throwing the second blade towards the spinning one, the two spinning blades will just shut close on their own).
+
+If the Ark holds any amount of charges, Right-Clicking while holding up will replace the parry with a Big Rip attack, where a ghostly projection of the scissor blades is thrown in the direction of the player's mouse before snapping shut, creating a damaging spacetime rip in their wake before it gets stitched back up, depleting all of the weapon's charges in the process. The damage of the rip is dependent on the amount of charges consumed to release it, on top of receiving the 120% damage boost from the Ark being charged up. The damage is equal to the base damage (alongside the charge damage boost) multiplied by half the amount of charges consumed by the blast, meaning that using the attack with all 10 charges up will give the blast a 600% damage multiplier (1.2 * 10 * 0.5), while using the attack with only one charge remaining will give the blast a 60% damage multiplier (1.2 * 1 * 0.5). 
+
+If the up key remains pressed as the rip happens, the player will quickly dash towards the blades, gaining a sixth of a second worth of invincibility frames, and creating an explosion of 5 bolts around themselves, that each deal 20% of the weapon's base damage.
+
+If the player crosses 100mph while holding this weapon, they will drop it automatically- if they are grounded, they will die instantly, with the message '(playername) ran with scissors.' This death ''cannot'' be averted with extra lives, so caution should be exerted when using the Ark of the Cosmos during boss fights.
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Ark of the Cosmos/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+
+== Notes ==
+*Due to the Ark's unique swing animation, it is entirely unaffected by the player's attack speed.
+*The parry doesn't work on harmless or static projectiles, or if the projectile is too large.
+*The parry lasts for 5.66 seconds, with the actual parry lasting a quarter of a second, and the remaining time being taken up by the cooldown.
+**The parry cooldown applies to all of the Fractured Ark's upgrades.
+**The blast attack can still be performed even if the parry is on cooldown.
+*Parrying a projectile that deals less than 200 damage will make it completely harmless for one second, but it can still work on projectiles that deal more than 200 damage, although the player will still be hit by the projectile for the remaining amount of damage.
+**This can make it dangerous to parry strong projectiles that inflict debuffs, since the player will be inflicted by them even when successfuly parrying.
+*The colored tooltip lines all alternate between two colors. 
+**The paragraph describing its combo alternates between the gold ({{color|#FFD700 ●|#FFD700}}) and goldenrod ({{color|#DAA520 ●|#DAA520}}) colors.
+**The paragraph describing its parry alternates between the cyan ({{color|#00FFFF ●|#00FFFF}}) and deep sky blue ({{color|#00BFFF ●|#00BFFF}}) colors.
+**The paragraph describing the big rip attack alternates between the hot pink ({{color|#FF69B4 ●|#FF69B4}}) and crimson ({{color|#DC143C ●|#DC143C}}) colors.
+
+== Tips ==
+
+*While parrying a projectile makes it harmless for a second, it may at times be preferable to directly hit an enemy with the parry to recieve the 0.58 seconds of invincibility, due to the latter providing immunity to every source of damage, while the former only reduces the damage of a single projectile.
+*The rip attack is best used in situations where landing all of your shots is not guaranteed, as it can be used to deal a huge burst of damage in one time, alongside having piercing capabilities. If you're confident that you can land all of the charged shots and if piercing is not needed, it may be wise to refrain from using it, since the damage scaling on the rip makes it deal a bit more than half of the damage one would have gotten if they landed every shot with the solar needles.
+**While the rip attack has infinite piercing, it has damage falloff, meaning the more enemies it hits, the less damage it will deal.
+
+== Trivia ==
+*The Ark of the Cosmos' attacks are based on a lot of attacks from its two components combined. The general function is based on the [[Ark of the Elements]], the large circular swings are taken from [[Galaxia]]'s Phoenix's Pride attunement, the constellation during the throw is based on the Aries' Wrath attunement and the dash that happens when using the big rip attack is inspired by the similar dash from the Polaris' Gaze attunement.
+**This makes Andromeda's Stride the only Galaxia attunement to not get represented in any of its attack patterns.
+*The inventory sprite of the Ark of the Cosmos has its blades fluctuate in opacity over time. However, to go along the charge meter that gets overlaid over the sprite, the blades will also become fully opaque.
+<!--Remember to write about the tooltip colors changing over time-->
+*The Big Rip attack is not only based on the scissor-like nature of the Ark of the Ancients, but also on a hypothetical model of the end of the universe also named the ''[[wikipedia:Big_Rip|Big Rip]]'', in which spacetime itself would get torn apart by the accelerating expansion of the universe.
+*Alongside its Elemental predecessor, the Ark of the Cosmos's design as a pair of cosmic scissors was inspired by the [http://kill-la-kill.wikia.com/wiki/Scissor_Blades Rending Scissors] from the 2013 Japanese anime television series ''[[wikipedia:Kill_la_Kill|Kill la Kill]]''. However, it retains some sword-like traits from Galaxia.
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

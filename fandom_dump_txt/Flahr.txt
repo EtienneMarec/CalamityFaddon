@@ -1,0 +1,31 @@
+{{item infobox
+| type = Grab bag
+| tooltip = Right click to extract flah and flah seeds
+| stack = 9999
+| consumable = True
+| rare = 7
+| sell = {{value|0|5}}
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Flahr''' is a [[grab bag]]-type [[fish]] that can be caught in water in the [[Brimstone Crag]] after [[Calamitas]] and [[Plantera]] have been defeated during a [[Blood Moon]] or a [[Solar Eclipse]] with a 10% chance. When opened, the player will recieve between 1 to 5 [[Flah]] and 5 to 15 [[Flah Seeds]].
+
+== Drops ==
+{| class="terraria"
+! colspan="2" | Anytime
+|-
+! Items !! Amount
+|-
+| {{item|Flah}}
+| 1-5
+|-
+| {{item|Flah Seeds}}
+| 5-15
+|}
+{{-}}
+{{Flah}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

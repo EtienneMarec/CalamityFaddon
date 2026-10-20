@@ -1,0 +1,24 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Ammunition
+| tooltip = Stucks in enemy's skin, dealing damage and periodically releasing life energy 
+| damage = 15
+| damagetype = ranged
+| stack = 9999
+| rare = 8
+| velocity = 4
+| consumable = yes
+| hardmode = yes
+| sell = {{value|0|0|5}}
+| element1 = Poison
+}}
+
+'''Terrestrial Darts''' are craftable [[Hardmode]] [[darts]]. Upon hitting an enemy, the dart wil stuck in it, dealing 10% of its base damage every half of a second. Additionally, every 3rd hit, a life energy projectile is released, dealing 30% of the dart's base damage. After being stuck in an enemy for 3 seconds, the dart will disappear.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+
+{{Ctota}}
+[[Category:Darts]]

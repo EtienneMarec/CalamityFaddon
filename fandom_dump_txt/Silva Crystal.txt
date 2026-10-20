@@ -1,0 +1,30 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| stack = 9999
+| rare = 0
+| color = #316463
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| use = 14
+| sell = No value
+}}
+{{dablink|For the [[minion]], see [[Silva armor]].}}
+
+'''Silva Crystal''' is a Godseeker Mode [[block]] that is crafted from [[Effulgent Feather]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}
+
+[[Category:Block items]]

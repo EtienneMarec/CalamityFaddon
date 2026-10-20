@@ -1,0 +1,42 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damage = 95
+| use = 15
+| mana = 15
+| damagetype = magic
+| knockback = 2
+| auto = yes
+| velocity = 6
+| stack = 1
+| rare = 5
+| sell = {{value|0|15|0|0}}
+| tooltip = Hypnotize your enemies to fight for you with this one!<br/>Stronger enemies could not be hypnotized easily, however...<br/>'This was used by an evil clone to hypnotize Pandora and her friends...'
+| debuff = Corrupt Hypnotization
+| debuffchance = 100%
+| debuffduration = 7 seconds (Red Music Notes)
+| debufftip = Falling into a painful trance...
+| hardmode = yes
+| element1 = Magic
+| element2 = Unholy
+}}
+{{item drops infobox
+| [[Pandora, the Hypnotized Witch]] | 1 | {{dv|25%|33.33%}}
+}}
+
+The '''Corrupt Hypno Flute''' is a [[Hardmode]] [[Magic weapons|Magic weapon]] dropped by [[Pandora, the Hypnotized Witch]]. It fires red music notes that ricochets and pierce through enemies infinitely until 5 seconds has passed. 
+
+When the notes hits an enemy, it inflicts a '''Corrupt Hypnotization''' debuff, causing inflicted enemies to lose 60 health per second. 
+Enemies killed with this debuff turns into a hypnotized ghost, keeping the same AI, but deals 75% of the weapon's base damage, have more sluggish movement speed, and trades taking damage for a 80 second timer that instantly kills them after said timer expires.
+
+{{Modifier|magic}}
+
+==Notes==
+*Bosses, Minibosses, and all Godseeker mode enemies are immune to this effect.
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category:Magic weapons]]

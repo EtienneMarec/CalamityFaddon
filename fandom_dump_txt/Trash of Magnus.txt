@@ -1,0 +1,43 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damage = 24
+| critical = 0%
+| tooltip = An attempt of Magnus' to expand into biological terrorism<br/>Despite his efforts, it was deemed a failure and discarded<br/>Fires plague bolts that inflict Plague<br/>This weapon scales with all your damage stats at once
+| knockback = 2
+| velocity = 12
+| rare = 8
+| sell = {{value|0|6}}
+| use = 20
+| stack = 1
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffduration = 8 seconds
+| debuffchance=100%
+| hardmode = yes
+| element1 = poison
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|{{dv|25%|33.33%}}
+}}
+}}
+'''Trash of Magnus''' is a [[Hardmode]] [[classless weapon]] dropped by [[The Plaguebringer Goliath]]. When used it fires a fast, green plague bolts which inflict the [[Plague]] debuff for an extended duration. 
+
+The Trash of Magnus cannot be reforged, and therefore cannot have [[modifiers]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not have any critical strike chance and cannot gain any from [[coverings]], [[Modifier]]s, [[Buff]]s and [[Covering]] bonuses.
+*As this weapon does not count as a specific weapon type, it does not provoke the penalty on minions' damage when holding a non-summoner weapon, making it an indispensable asset for [[Summon weapons|summon]]-based characters.
+*The damage multiplication is equal to the sum of all the damage multiplication across each of the 5 classes (Melee, Ranged, Mage, Summoner, [[Spy]]).
+**e.g. If the player has +10% melee damage, +30% ranged damage and +5% Spy damage, the Lunic Eye will deal 45% more damage.
+*The additional hits from the impact explosion will not replenish HP or mana, only the initial enemy hit will.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

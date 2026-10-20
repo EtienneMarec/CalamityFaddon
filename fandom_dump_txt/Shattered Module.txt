@@ -1,0 +1,28 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Covering
+| tooltip = 8% decreased damage<br/>All attacks briefly inflict Shattered Mechanism, decreasing knockback resistance and stunning enemies<br/>The debuff cannot be reapplied before running out<br/>The debuff is weakened against bosses
+| debuff = Shattered Mechanism | bufflink = no
+| debufftip = Unstable and not working
+| debuffchance = 100%
+| debuffduration = 1 seconds 
+| rare = 6
+| sell = {{value|0|2}}
+| stack = 1
+| hardmode = yes
+| element1 = Water
+| element2 = Electricity
+}}
+{{item drops infobox|[[The Forbidden Lantern]]|1|10%}}
+The '''Shattered Module''' is a [[Hardmode]] [[Equipment|covering]] that drops from [[The Forbidden Lantern]] [[Challenges|boss]]. While equipped, it decreases the player's damage by 8% and causes all of their attacks to inflict the '''Shattered Mechanism''' [[Debuffs|debuff]] for 1 second. This debuff decreases enemy's knockback resistance by 50% and stuns them for the whole duration of the debuff, preventing it from moving or attacking, similarly to the [[Glacial State]] debuff. However, the debuff will not decrease bosses' knockback resistance and will only stun them for up to 0.5 seconds. Additionally, the debuff cannot be reapplied before it has fully run out.
+
+== Notes==
+*It is advised to use weapons with high attack speed to reapply the debuff as soon as possible.
+
+{{ctota}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

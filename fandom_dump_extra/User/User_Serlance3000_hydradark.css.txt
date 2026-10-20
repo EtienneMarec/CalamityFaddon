@@ -1,0 +1,51 @@
+/* CSS placed here will affect users of the Hydradark skin */
+
+/* For elements which only display in the mobile view */
+.mobileonly {
+    display: none;
+}
+
+div#footer ul li {
+	color: #fff;
+}
+
+div#footer ul li a {
+	color: orange;
+}
+
+body, #mw-page-base {
+    background: url("https://static.wikia.nocookie.net/calamitymod_gamepedia_en/images/1/1f/Background.jpg/revision/latest") no-repeat fixed center top / cover rgb(0,0,0) !important;
+}
+
+/* Content */
+div#content {
+    margin-top: 145px;
+    background-color: rgb(32, 32, 32, 0.9) !important;
+}
+
+/* ------------------------------------------------------------------ */
+/* Visited Links Color */
+div#content a.new:visited{
+   color:#a63232
+}
+
+div#content a:visited{
+   color:#666fff;
+}
+a:visited, div#content a.external:visited, div#content a.extiw:visited{
+   color:#666fff;
+}
+.plaincollapse .mw-collapsible-toggle  a:visited {
+   color:#666fff;
+}
+#mw-panel.collapsible-nav .portal h3 a:visited,
+#mw-panel.collapsible-nav .portal.collapsed h3 a:visited {
+   color: #666fff;
+}
+div#mw-panel div.portal div.body ul li a:visited {
+   color: #666fff;
+}
+
+.terraria th{
+    background: #333;
+}

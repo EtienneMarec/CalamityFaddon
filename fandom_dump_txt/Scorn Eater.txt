@@ -1,0 +1,42 @@
+{{npc infobox
+| type = Enemy
+| ai = Scorn Eater AI
+| damage = {{dv|90|boost=0.15}}
+| life = {{dv|9,000|18,000}}
+| defense = 38
+| dr = 5%
+| knockback = 100
+| environment = The Hallow
+| environment2 = The Underworld
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| duration = 3 seconds
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Holy Flames
+| immune4 = Moon Burnt
+| banner = yes
+| money = {{value|0|0|50}}
+| Unholy Essence|2-4| 100%
+| custom| {{item|Elder Berry|note=(Once the player has used all [[Stamina Meter|Stamina Upgrades]] in [[Revengeance Mode]]|wrap=y}} ({{dv|1}})|5%
+| hardmode = yes
+| postml = yes
+| hurt = ScornHurt.wav
+| killed = ScornDeath.wav
+| sound = ScornJump.wav
+| soundtext = Jump
+}}
+
+The '''Scorn Eater''' is a Godseeker Mode [[enemy]] that spawns in the [[Hallow]] and [[Underworld]] biomes. It jumps towards the player at a high speed, then stands still and pants for a moment before jumping again. Its high contact damage and velocity, along with its large size, make it a dangerous enemy. It drops [[Unholy Essence]], a useful post-Moon Lord [[crafting material]]. 
+
+It is additionally spawned by the main [[Profaned Guardians|Proflamed Guardian]] once it reaches 50% health. These Scorn Eaters jump twice as often and drop nothing. 
+
+== Notes ==
+*The Scorn Eater is incapable of moving significant vertical distances; to make up for this, it can pass through blocks while dashing.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

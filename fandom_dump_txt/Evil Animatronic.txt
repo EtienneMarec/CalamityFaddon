@@ -1,0 +1,42 @@
+{{npc infobox
+| type = Enemy
+| ai = Fighter AI
+| environment = Solar Eclipse
+| life = {{dv|1,600|3,300}}
+| damage = {{element|Dark}} {{dv|100|200}}
+| defense = 40
+| knockback = {{dv|80%}}
+| immune1 = Kami Flu
+| debuff=Blackout
+| debuffchance=100%
+| duration = 10 seconds
+| debufftip=Light vision severely reduced
+| money = {{value|0|5|20}}
+| Darksun Fragment |1-3|75%
+| Pizza Wheel |1|12%
+| group|The following three items will always drop together|1
+| custom| {{item|Animatronic Head}}
+{{item|Animatronic Torso}}
+{{item|Animatronic Legs}}|0.87%
+| banner = no
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Magic
+| resistant4 = Machine
+}}
+
+The '''Evil Animatronic''' is a Godseeker Mode [[enemy]] that spawns during the [[Solar Eclipse]] after [[The Devourer of Gods]] has been defeated. It attacks by throwing a pizza like a boomerang. If it cannot reach the player, it will periodically emit a laugh which inflicts the player with the Blackout debuff.
+
+== Trivia ==
+*The Evil Animatronic is a direct reference to Freddy Fazbear from the game Five Nights at Freddys.
+**The enemies behavior of laughing to cause a blackout is similar to a mechanic found in said series.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-event = yes
+}}

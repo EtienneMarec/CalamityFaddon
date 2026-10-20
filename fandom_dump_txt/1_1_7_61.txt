@@ -1,0 +1,96 @@
+{{Patch infobox
+| image = Supreme Calamitas (1.1.7).png
+| patchname = Supreme Calamitas Reworks
+| release = 3/19/2017
+}}
+
+The '''1.1.7.61''' update added a new [[boss servant]] known as [[Soul Seeker]]s to the [[Calamitas]] and [[Supreme Calamitas]] fight, along with some other changes to said fights. The update also nerfed various [[coverings]], and buffed some of [[The Plaguebringer Goliath]]'s drops.
+
+== Additions ==
+*Added [[Soul Seeker]] and [[Soul Seeker (Supreme)]].
+*Added [[Alluvion]].
+*Added [[Plague Hive]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*[[Calamitas]] changes:
+**Nerfed phase 1's Brimstone Laser damage from 66 to 60.
+**Nerfed phase 2's Brimstone Laser damage from {{dv|70|88}} to {{dv|60|80}}, and Hellfireball damage from {{dv|150|180}} to {{dv|90|120}}.
+**Nerfed Cataclysm's defense from 20 to 10.
+**Nerfed Catastrophe's defense from 35 to 15.
+**Now summons a ring of Soul Seekers which orbit close to her and fire projectiles at the player upon reaching 50% health.
+*[[The Hive Mind]] changes:
+**Nerfed phase 2's health from {{dv|2570|3084}} to {{dv|2270|2724}}, its contact damage from {{dv|55|66}} to {{dv|43|51}}, its defense from 15 to 10, and its Vile Clot damage from {{dv|66|72}} to {{dv|36|44}}.
+**Nerfed both phase's [[Hive Blob]]'s contact damage from {{dv|60|72}} to {{dv|26|40}}.
+**Can no longer naturally spawn. <!---Hardmode Corruption--->
+*Decreased the size of the Flare Dust explosions created by [[Jungle Dragon, Yharon]] and the main [[Profaned Guardian]]. <!---Providence's main guardian also counts--->
+*[[The Perforators]] changes:
+**Nerfed The Perforator Hive's Blood Geyser damage from {{dv|46|56}} to {{dv|30|44}}.
+**Nerfed the small Perforator's head contact damage from {{Expert|68}} to {{Expert|58}}, body contact damage from {{Expert|42}} to {{Expert|36}}, tail contact damage from {{Expert|24}} to {{Expert|20}}, and Blood Clot projectile damage from {{dv|40|60}} to {{dv|30|44}}.
+**Nerfed the medium Perforator's head contact damage from {{Expert|84}} to {{Expert|71}}, body contact damage from {{Expert|52}} to {{Expert|44}}, tail contact damage from {{Expert|32}} to {{Expert|27}}, and Blood Clot projectile damage from {{dv|38|52}} to {{dv|28|40}}.
+**Nerfed the large Perforator's head contact damage from {{Expert|104}} to {{Expert|88}}, body contact damage from {{Expert|67}} to {{Expert|57}}, tail contact damage from {{Expert|46}} to {{Expert|39}}, and Blood Clot projectile damage from {{dv|40|60}} to {{dv|30|44}}.
+**The Perforator Hive now takes up 10 NPC slots instead of 5.
+**All Perforators no longer drop any coins.
+**Individual Perforators can no longer spawn naturally. <!---Hardmode Crimson---->
+*[[The Plaguebringer Goliath]] changes:
+**Buffed [[Plaguebringer Shade]]'s health from {{dv|7000|8190}} to {{dv|8000|9360}}, contact damage from {{dv|90|108}} to {{dv|110|132}}, nerfed stinger damage from {{dv|78|156}} to {{dv|40|80}}, and nerfed missile damage from {{dv|60|120}} to {{dv|50|100}}.
+**Plaguebringer Shades are now smaller and less transparent.
+**Increased Plague duration from Plaguebringer Shade contact from 1.33 seconds to 2.
+**Buffed [[Plague Charger]]'s contact damage from {{dv|70|77}} to {{dv|90|99}}, decreased its knockback resistance from 30% to 10%, and decreased its speed.
+**Buffed large Plague Charger's contact damage from {{dv|85|93}} to {{dv|95|104}}, decreased its knockback resistance from 15% to 5%, and increased its speed.
+*[[Slime God]] changes:
+**Nerfed all Slime Spawns' contact damages from 60 to 50.
+**Buffed [[Spiked Crimson Slime Spawn]]'s spike damage from {{dv|18|36}} to {{dv|22|44}}.
+*Nerfed [[Soul Slurper]]'s laser damage from {{dv|100|108}} to {{dv|80|60}}.
+*[[Supreme Calamitas]] changes:
+**Changed contact damage from {{dv|550|715}} to {{dv|600|660}}, and buffed her defense from 150 to 350.
+**Nerfed Brimstone Fireblast damage from {{dv|440|500}} to {{dv|260|320}}, her Brimstone Shot, Barrage, and Giga Blast damages from {{dv|540|600}} to {{dv|460|380}}, and her Brimstone Hellblast damage from {{dv|710|880}} to {{dv|380|440}}.
+**Now summons a ring of Soul Seekers which orbit far away from her and fire projectiles at the player upon reaching 10% health.
+**Now charges less.
+**Now has the ability to shoot bursts of Brimstone Barrages.
+**Decreased the frequency at which Supreme Calamitas fires projectiles.
+**Now has a DPS cap.
+**Buffed the brothers' healths from {{dv|250,000|275,000}} to {{dv|500,000|550,000}}, and their defenses from 100 to 99,999.
+**Brothers no longer deal contact damage.
+**Brothers now stay at set positions above the player on either side of them, firing Brimstone Hellblasts instead of alternating between charging at the player and shooting projectiles at them, similarly to [[Spazmatism]].
+**Brothers now start firing more frequently as Supreme Calamitas' health lowers.
+
+=== Items ===
+*[[Asgardian Aegis]], [[Asgard's Valor]], [[Ornate Shield]], and [[Shield of the Ocean]]'s tooltips now specify their defense values.
+*Halved all of [[Badge of Bravery]]'s melee speed boosts.
+*[[Baleful Harvester]]'s flames now last 4 seconds instead of 10.
+*Nerfed [[Counter Scarf]]'s true melee damage boost from 25% to 20%, and [[Scarf Cooldown]] now lasts 20 seconds instead of 15.
+*Nerfed [[Daedalus Emblem]]'s ranged critical strike chance boost from 15% to 10%, and it now uses 1 [[Core of Calamity]] in its recipe instead of 1 [[Core of Eleum]] and 30 [[Soul of Sight|Souls of Sight]].
+*Buffed [[The Hive]]'s damage from 52 to 70.
+*Nerfed [[Mana Overloader]]'s magic damage boost from 15% to 10%, it now lowers life regeneration by 3 instead of 5 if Mana is above maximum, and starts healing the player when they are under 15% health instead of 25%.
+*Nerfed [[Necklace of Vexation]]'s damage boost from 35% to 15%.
+*Buffed [[Ornate Shield]]'s defense from 3 to 4, and its defense when under 25% health from 7 to 8.
+*Buffed [[Plague Staff]]'s use time from 23 to 20, increased the spread of its fangs, and the fangs now hit every 3 frames instead of 5.
+*Nerfed thrown [[Seashell Boomerang]]'s use time from 10 to 14, and its knockback from 6.5 to 5.5.
+*Buffed [[Shield of the Ocean]]'s defense from 4 to 5.
+*Nerfed [[Sigil of Calamitas]]' mana boost from 150 to 100, its magic damage boost from 20% to 15%, and its magic critical strike chance boost from 15% to 10%.
+*Nerfed [[Statis' Ninja Belt]]'s throwing damage boost from 20% to 15%, its throwing critical strike chance boost from 15% to 10%, and its throwing velocity boost from 20% to 15%.
+*Nerfed [[Statis' Blessing]] and [[Statis' Curse]]'s summon damage boosts from 20% to 15% each.
+*Buffed [[Tarragon Helmet]]'s defense from 12 to 17.
+*Buffed [[Tarragon Breastplate]]'s defense from 20 to 27.
+*Buffed [[Tarragon Leggings]]' defense from 18 to 22, and removed the word "speed" from the line "greater speed boost if health is lower" in its tooltip.
+*Tarragon armor's heart gores now last shorter.
+*[[Temporal Floe Sword]] now uses 15 [[Cryo Bar]]s in its recipe instead of 1 [[Frostbrand]], 1 [[Broken Hero Sword]], and 1 [[Frost Core]].
+*[[Toxic Heart]] now blinds and weakens players above 85% health instead of 75%, and increased its aura's range by 50%.
+*[[Verstaltite Bar]] no longer uses 1 [[Essence of Eleum]] in its recipe.
+*Buffed [[Virulence]]'s damage from 79 to 83.
+*Nerfed [[Yharim's Insignia]]'s melee damage boost from 25% to 15%, and halved all of its melee speed boosts.
+
+=== Other ===
+*[[Plague]] now lowers defense by 8 instead of 4, and reduces movement speed by 15% instead of 10%.
+
+=== Resprites ===
+*Resprited [[Statigel Armor]], [[Statigel Greaves]], and [[Statigel Helm]].
+*Resprited [[Pestilent Defiler]].
+*Resprited [[Unholy Essence]].
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

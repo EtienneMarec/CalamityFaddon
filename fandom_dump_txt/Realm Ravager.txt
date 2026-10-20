@@ -1,0 +1,31 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 50
+| damagetype = Ranged
+| knockback = 4
+| stack = 1
+| rare = 8
+| sell = {{value|0|16}}
+| auto = yes
+| use = 22
+| velocity = 30
+| tooltip = Shoots a burst of 3 to 4 bullets<br/>Converts musket balls into explosive bullets
+| hardmode = yes
+| element1 = Fire
+| element2 = Dark
+}}
+|{{item drops infobox
+| [[Ravager]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Realm Ravager''' is a [[Hardmode]] [[gun]] that drops from the [[Ravager]]. It fires a shotgun blast of 3 to 4 bullets. If [[Musket Ball]]s are used as [[ammo]], bullets are converted into explosive bullets. Explosions resulting from the bullet deal half damage.
+
+{{Modifier|ranged}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

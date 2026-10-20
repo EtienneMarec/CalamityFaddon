@@ -1,0 +1,25 @@
+{{item infobox
+| type = Furniture
+| type2 = Light Source
+| consumable = yes
+| auto = yes
+| placeable = yes
+| width = 1
+| height = 1
+| use = 14
+| color = #d3fc03
+| stack = 9999
+| sell = {{value|0|0|1}}
+| hardmode = yes
+}}
+
+'''Plague Torches''' are [[torch]]es that can be crafted in masses. When placed or held, they emit a lime-green and release green sparks.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main = yes
+| show-furniture = yes
+}}

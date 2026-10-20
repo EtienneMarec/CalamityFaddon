@@ -1,0 +1,58 @@
+Aggro, short for aggression, is an invisible statistic that determines the distance at which [[enemies]] will begin to attack the player.
+
+All enemies target the player based on criteria set in their [[AI]]. Most will constantly try for a target, while others may only target if the player is in water, for example.
+
+[[Covering]] and other items that "increase/decrease enemy targeting" cause enemies to consider a player to be closer or farther away than they actually are. Certain [[coverings]], armor, and other sources in the Calamity Mod affect [[tgc:Aggro|Aggro]].
+
+{| class = "terraria lined"
+|-
+! Source !! Aggro change
+|-
+| [[Spy]] stealth || Aggro is decreased based on visibility to a cap of '''-900'''
+|-
+| {{item|Colossal Squid|size=80px}} || '''-750''' (while being eaten)
+|-
+| {{item|Psychotic Amulet}} || In stealth mode, aggro is decreased based on visibility to a cap of '''-750'''
+|-
+| {{item|Eclipse Mirror}} || '''-700''' (also reduces [[Abyss]] detection)
+|-
+| {{item|Abyssal Mirror}} || '''-450''' (also reduces Abyss detection)
+|-
+| {{item|Reaver armor}}|| '''-200''' ([[Reaver Headgear]], also reduces Abyss detection)
+|-
+| {{item|Mirage Mirror}} || '''-200'''
+|-
+| {{item|Wulfrum armor}}|| '''+100''' ([[Wulfrum Helm]])
+|-
+| {{item|Victide armor}}|| '''+200''' ([[Victide Helm]])
+|-
+| {{item|Aerospec armor}}|| '''+300''' ([[Aerospec Helm]])
+|-
+| {{item|Statigel armor}}|| '''+400''' ([[Statigel Helm]])
+|-
+| {{item|Daedalus armor}}|| '''+500''' ([[Daedalus Helm]])
+|-
+| {{item|Reaver armor}}|| '''+600''' ([[Reaver Helm]])
+|-
+| {{item|Hydrothermic armor}}|| '''+700''' ([[Hydrothermic Helm]])
+|-
+| {{item|Tarragon armor}}|| '''+800''' ([[Tarragon Helm]])
+|-
+| {{item|Bloodflare armor}}|| '''+900''' ([[Bloodflare Ram Mask]])
+|-
+| {{item|God Slayer armor}}|| '''+1000''' ([[God Slayer Horned Greathelm]])
+|-
+| {{item|Elysian Aegis}} || With [[Elysian Guard|guard]] activated, aggro is quickly increased to a cap of '''+1,100'''
+|-
+| {{item|Asgardian Aegis}} || With guard activated, aggro is quickly increased to a cap of '''+1,100'''
+|-
+| {{item|Auric Tesla armor}}|| '''+1,200''' ([[Auric Tesla Royal Helm]])
+|}
+
+== Notes ==
+*Aggro reductions of -750 (or more) nearly guarantee the player will not be targeted.
+*Enemies in the [[Abyss]] have their own unique detection radius system, independent of Aggro, which can be affected by items such as [[Anechoic Coating]] and [[Abyssal Diving Suit]] as well as the [[Luminous Corvina]] enemy.
+**Despite this, being eaten by [[Colossal Squid]] decreases Aggro rather than the Abyss creatures' unique detection radii.
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

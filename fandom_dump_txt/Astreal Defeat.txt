@@ -1,0 +1,48 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = ranged
+| damage = 153
+| knockback = 5.5
+| rare = 11
+| sell = {{value|0|22}}
+| use = 20
+| stack = 1
+| velocity = 4
+| tooltip = Ethereal bow of the tyrant king's mother<br/>The mother strongly discouraged acts of violence throughout her life<br/>Though she kept this bow close, to protect her family in times of great disaster<br/>All arrows are converted to Astreal Arrows that emit flames as they travel
+| hardmode = yes
+| postml = yes
+| debuff = Shadowflame
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Losing life
+| proj = Astreal Arrow.png
+| projcaption = Astreal Arrow
+| proj2 = Astreal Flame.gif
+| proj2caption = Astreal Flame
+| element1 = Dark
+| element2 = Holy
+}}
+[[File:Astreal Defeat (demo).gif|frame|right|Astreal Defeat being used against a [[Super Dummy]]. Notice the semi-randomized firing angles and spirit flame spawning.]]
+
+The '''Astreal Defeat''' is a craftable Godseeker Mode [[bow]]. It autofires streams of Astreal Arrows at four semi-randomized paths, ranging from straight forward to varying levels of curving downward, with a tendency to curve to the right as well. The arrows will begin to spawn spirit flames shortly after they're fired, which home in on nearby enemies and deal 50% of the weapon's base damage. Astreal Arrows inflict the [[Shadowflame]] [[debuff]] for 6 seconds upon striking an enemy.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Astreal Defeat/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon's spirit flames tend to home in on [[Town NPCs]] or other players in multiplayer. This behavior can make it difficult to use to its full potential.
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

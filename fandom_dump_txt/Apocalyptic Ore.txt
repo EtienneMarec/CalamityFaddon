@@ -1,0 +1,39 @@
+{{Infobox wrapper|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 100
+| stack = 9999
+| rare = 7
+| value = 875
+| color = #ccffb3
+| use = 14
+| sell = {{value|0|2|0|0}}
+| hardmode = yes
+| postml = no
+}}
+|{{item drops infobox
+|[[Famine Slime]]|10-26|100%
+|[[Pestilent Slime]]|10-26|100%
+|[[War Slime]]|10-26|100%
+|[[Death Slime]]|10-26|100%
+}}
+}}
+
+'''Apocalyptic Ore''' is an [[ore]] which is obtained from [[Famine Slime]]s, [[Pestilent Slime]]s, [[War Slime]]s, and [[Death Slime]]s. It is used to make [[Apocalyptic Bar]]s.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

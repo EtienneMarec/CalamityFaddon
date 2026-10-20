@@ -1,0 +1,48 @@
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-14 health per second and -12 defense (if player)<br/>-52 health per second and -12 defense (if enemy)
+| tooltip = An ancient cosmic affliction spreads through you
+}}
+
+'''Ancient Astral Blight''' is a [[debuff]] inflicted on the player by [[Astrum Deus]]. The player can inflict Ancient Astral Blight on enemies with the weapons it drops.
+
+If this debuff is inflicted on an enemy, it reduces their defense by 12 and causes them to lose 52 health per second, and causing them to emit yellow and purple particles. If inflicted on the player, they will lose 14 health per second and 12 defense and emit yellow and purple particles.
+
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

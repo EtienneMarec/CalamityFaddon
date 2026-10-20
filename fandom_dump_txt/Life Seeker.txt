@@ -1,0 +1,28 @@
+{{Historical content}}
+{{npc infobox
+| name = Life Seeker
+| type = Flying Enemy
+| ai = Flying AI
+| damage = 0 (Contact)<br/>{{dv|50|88}} (Lasers)
+| life = {{dv|200|400}}
+| defense = 8
+| knockback = {{dv|75%|77.5%}}<br/>100% (while the [[Boss Rush]] is active)
+| hardmode = yes
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Abyssal Flames
+| immune4 = Brimstone Flames
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = Item_12.wav
+| soundtext = Laser
+| listexclude = yes
+}}
+
+'''Life Seekers''' were [[Hardmode]] [[Enemies#Boss Servants|boss servant]] [[enemies]] that spawned during the [[Calamitas]] boss fight. They attacked by flying at players and shooting lasers at them. 
+{{-}}
+{{Historical}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

@@ -1,0 +1,43 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 98
+| knockback = 5
+| rare = 13
+| sell = {{value|0|28}}
+| stack = 1
+| auto = yes
+| velocity = 23
+| use = 6
+| hardmode = yes
+| postml = yes
+| debuff = Venom
+| debufftip = Losing life
+| debuffduration = 1-8 seconds
+| debuffchance = 100%
+| tooltip = 'Even if you can't see me, even if you can't hear me, I'll be by your side'<br/>Fires a fast stream of arrows<br/>Wooden arrows are converted into energy arrows that slash hit enemies
+| element1 = Holy
+| element2 = Poison
+| element3 = Slash
+}}
+
+The '''Rose Bow''' is a craftable Godseeker Mode [[bow]] that auto-fires. It rapidly fires arrows in a small random spread. When [[Wooden Arrow]]s are used as ammo, arrows are converted into special energy arrows which create slashes on hit enemies that deal 30% of the arrow's damage three times.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+== Trivia ==
+*The item and it's tooltip are references to Madoka from ''[[wikipedia:Peulla Magi Madoka Magica|Puella Magi Madoka Magica]]''.
+{{Magical}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

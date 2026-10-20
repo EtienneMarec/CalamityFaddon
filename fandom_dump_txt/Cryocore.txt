@@ -1,0 +1,79 @@
+{{npc infobox
+| name = Cryocore
+| type = Flying Enemy
+| environment = Snow biome
+| hardmode = yes
+| immune1 = Confused
+| immune2 = Glacial State
+| immune3 = Exo Freeze
+| immune4 = Frostburn
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_15.wav
+| listexclude = yes
+}}
+
+'''Cryocores''' are [[Hardmode]] [[enemies]] which spawn in the [[snow biome]]. There are two variants, both of which attack by accelerating towards the player.
+
+== Variants ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Cryocore
+| namesub = Small
+| image = Cryocore2.png
+| type = Flying Enemy
+| life = {{dv|220|440}}
+| damage = {{element|Cold}} {{dv|35|70}}
+| ai = Cryocore AI
+| environment = Snow biome
+| defense = 6
+| knockback = {{dv|25%|32.5%}}
+| hardmode = yes
+| Essence of Eleum| 1 | 33%
+| money={{value|0|0|3|50}}
+| debuff = Frostburn
+| debuffchance = 100%
+| duration = 1.5 seconds
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuff2 = Chilled
+| debuffchance2 = 100%
+| duration2 = 1 second
+| debufftip2 = Your movement speed has been reduced
+| resistant1 = Cold
+| vulnerable1 = Fire
+| vulnerable2 = Machine
+}}
+|{{npc infobox
+| name = Cryocore
+| namesub = Large
+| image = Cryocore1.png
+| type = Flying Enemy
+| life = {{dv|300|600}}
+| damage = {{element|Cold}} {{dv|40|80}}
+| ai = Cryocore AI
+| environment = Snow biome
+| defense = 10
+| knockback = {{dv|50%|55%}}
+| hardmode = yes
+| Essence of Eleum| 1 | 50%
+| money={{value|0|0|5|0}}
+| debuff = Frostburn
+| debuffchance = 100%
+| duration = 1.5 seconds
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuff2 = Chilled
+| debuffchance2 = 100%
+| duration2 = 1 second
+| debufftip2 = Your movement speed has been reduced
+| resistant1 = Cold
+| vulnerable1 = Fire
+| vulnerable2 = Machine
+}}
+}}
+
+== Trivia ==
+*The small Cryocore's sprite is identical to a previous sprite for the [[Cryo Stone]], and the large Cryocore's sprite is an animated version of a previous sprite for [[Ice Star]]s.
+*Both Cryocores were previously summoned during the [[Cryogen]] fight.
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

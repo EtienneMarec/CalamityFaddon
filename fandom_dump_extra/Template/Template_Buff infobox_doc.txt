@@ -1,0 +1,31 @@
+To display information on (de)buff pages.
+
+== Usage ==
+Please only use 'Caused by' and 'Duration' fields for buff potions that do not have varied causes/durations. Every field except type is optional.
+<pre>
+{{buff infobox
+| type = Buff/Debuff, adds page to category
+| cause = What potion triggers buff? Set to "potion" for "[pagename] Potion" or eg. Bowl of Soup
+| effects = Briefly describe effects
+| duration = Duration of buff
+| tooltip = Tooltip as displayed in Terraria
+}}
+</pre>
+
+== Copy/paste template ==
+<pre>
+{{buff infobox
+| type = 
+| cause = 
+| effects = 
+| duration = 
+| tooltip = 
+}}
+</pre>
+
+<includeonly>
+[[Category:Infobox templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

@@ -1,0 +1,47 @@
+{|align=right
+|{{item infobox
+| imagealt = [[File:Abyss Chest.png]] [[File:Ashen Chest.png]] [[File:Cosmilite Chest.png]]
+| type = Furniture
+| type2 = Storage
+| auto = yes
+| placeable = yes
+| width = 2
+| height = 2
+| use = 14
+| rare = Varies
+| color = Varies
+| stack = 9999
+| sell = {{value|0|0|1}} (Biome chest)
+}}
+|-
+|
+{| class="terraria" align="right" style="width:19em"
+! colspan="2" | Placed Chests
+|-
+| [[File:Placed Chests Calamity.png|center]]
+|}
+|}
+
+'''Chests''' are [[furniture]] used to store items. The Calamity Mod currently adds eighteen types of chests to the game that each correspond to their [[Furniture sets|specific set of furniture]], with the exceptions being the [[Astral Chest]], which naturally spawns in the [[Dungeon]] and corresponds to the [[Astral Infection]], the [[Rusty Chest]], which naturally spawns in the [[Sulphurous Sea]], the [[Security Chest]], which naturally spawns in underground [[Arsenal Lab]]s, and the [[Forgotten Chest]], which naturally spawns in the [[Sunken Sea]]. All Calamity Chests have a [[tile value]] of 500.
+
+== Natural Chests ==
+{| class="terraria"
+! Chest !! Found In !! Notes
+|-
+| {{item|Astral Chest|link=Astral Chest}}||[[Dungeon]] || [[Astrum Aureus]] must be defeated before opening.
+|-
+| {{item|Rusty Chest}}||[[Sulphurous Sea]] || Found in the Sulphurous Sea unlocked.
+|-
+| {{item|Security Chest}}||[[Arsenal Lab]] || Heavily Guarded.
+|-
+| {{item|Forgotten Chest}}||[[Sunken Sea]] || Locked; Requires a [[Sea-Imbued Key]] to unlock.
+|}
+
+== Crafted Chests ==
+{{recipes|result=LIKE %Chest|link=no}}
+
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:宝箱]]

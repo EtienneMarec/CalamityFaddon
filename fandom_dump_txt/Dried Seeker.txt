@@ -1,0 +1,47 @@
+{{Historical content}}
+{{npc infobox
+| type = Burrowing Enemy
+| ai = Worm AI
+| life = {{dv|100|200}}
+| knockback = 100
+| listexclude = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+The '''Dried Seeker''' was a [[Pre-Hardmode]] [[Enemies#Boss Servants|boss servant]] [[enemy]] that was summoned by the [[Desert Scourge]]. It was a small worm that attacked the player by digging through the ground towards them in order to deal contact damage.
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Dried Seeker Head
+| ai = Worm AI
+| life = {{dv|100|200}}
+| damage = {{dv|14|28|36|40}}
+| defense = 0
+| knockback = 100
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Dried Seeker Body
+| ai = Worm AI
+| life = {{dv|100|200}}
+| damage = {{dv|8|16|20|24}}
+| defense = 2
+| knockback = 100
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Dried Seeker Tail
+| ai = Worm AI
+| life = {{dv|100|200}}
+| damage = {{dv|6|12|16|18}}
+| defense = 4
+| knockback = 100
+}}
+}}
+{{historical}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

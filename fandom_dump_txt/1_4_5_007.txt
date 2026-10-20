@@ -1,0 +1,29 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Prelude: Draedon Update Hotfix
+| pair = 1.4.5.003 (music)
+| release = 11/16/2020
+}}
+The '''1.4.5.007''' (or '''1.4.5.7''') update is a hotfix of the prelude to the Draedon Update and is the final version in the 1.4 series of updates. This update fixed several tooltip and glowmask issues.
+
+== Changes ==
+*Decreased [[Romajeda Orchid]] price from {{pc|5}} to {{gc|40}} and sell price adjusted accordingly.
+*The following [[enemies]] no longer have reduced life scaling in multiplayer:
+**[[The Hungry]], [[The Hungry II]], [[Ice Queen]], [[Mothron]], [[Plantera's Tentacle]], [[Pumpking]].
+*The following enemies now have reduced life scaling in multiplayer:
+**[[Golem Fist]]s, [[Golem Head]] (Phase 2), [[Martian Probe]], [[Moon Lord]], [[Moon Lord Hand]], [[Nebula Pillar]], [[Solar Pillar]], [[Stardust Pillar]], [[Vortex Pillar]].
+
+== Fixes ==
+*Fixed the [[Adrenaline Mode]] buff tooltip, it should now reflect the correct damage boost.
+*Fixed [[Black Hawk Remote]]'s minion laser projectiles being invisible.
+*Fixed a bug that caused [[Ethereal Subjugator]] to crash the game when it was dropped in the world.
+*Fixed the [[God Slayer armor]] tooltip being outdated, it should now reflect that life regeneration is reduced by 50% instead of negated when the [[God Slayer Cooldown]] is procced.
+*Fixed the [[Matter Modulator]] tooltip being outdated, it should now reflect its current functions.
+*Fixed the [[True Caustic Edge]] tooltip mentioning an outdated function that was removed in Calamity version [[1.4.5.006]].
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}
+[[zh:{{PAGENAME}}]]

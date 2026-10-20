@@ -1,0 +1,26 @@
+{{item infobox
+| name = Test Item 
+| image = [[File:Trash Can (pet).png]]
+| type = Weapon
+| damage = 1
+| damagetype = Melee
+| auto = Yes
+| knockback = 0
+| critical = 0%
+| use = 69
+| tooltip = "By DestroyerC"
+| rare = 2
+| sell = {{value|0|0|0|1}}
+| hardmode = yes
+}}
+This is DestroyerCalamitas' Testing Grounds. Don't destroy anything please
+@Merkalto is this good enough?
+no
+{{Crafts top}}
+{{crafts row |top=y
+ | tool = By Hand | toolspan = 2
+ | result = Exoblade |
+ | Essence of Sunlight |
+ | Cosmilite Bar | 5
+}}
+{{crafts bottom}}

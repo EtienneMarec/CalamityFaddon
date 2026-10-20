@@ -1,0 +1,52 @@
+{{item infobox
+| imagealt = [[File:Locked Astral Chest.png]] [[File:Astral Chest.png]]
+| type = Furniture
+| type2 = Storage
+| rare = 0
+| auto = yes
+| placeable = Yes
+| width = 2
+| height = 2
+| stack = 9999
+| consumable = True
+| color = #AE815C
+| use = 14
+| sell = {{value|0|0|1}}
+| hardmode = yes
+}}
+
+'''Biome Chests''' are [[Hardmode]] [[Chests]] found within the [[Dungeon]]. The only Biome Chest currently in the ''Calamity Mod'' is the '''Astral Chest'''. It contains a [[Heavenfallen Stardisk]], in addition to other miscellaneous items. While Astral Chests are placed during world creation, they are initially locked and can only be opened once a certain boss is defeated. Only one Astral Chest will spawn in a particular world.
+
+To open an Astral Chest:
+
+*Defeat [[Astrum Aureus]] to allow the Astral Chest to be opened.
+*Return to the Dungeon and find the Astral Chest. Unlike vanilla biome chests, it does not require a key.
+
+== Types ==
+{| class="terraria"
+! Chest !! Content
+|-
+| {{item|Astral Chest|link=}} || {{item|Heavenfallen Stardisk}}
+|}
+
+The chest also contains items differing from the normal contents of a Biome Chest:
+{| class="terraria lined"
+! Item !! Quantity
+|-
+| {{item|Stardust}} || 30-80
+|-
+| {{item|Aureus Cell}} || 10-15
+|-
+| {{item|Zerg Potion}} || 8
+|-
+| {{item|Zen Potion}} || 3-5
+|-
+| {{item|Fallen Star}} || 12-30
+|-
+| {{item|Gold Coin}} || 30-120
+|}
+
+{{Master Template Tiles
+| show-main = yes
+| show-furniture = yes
+}}

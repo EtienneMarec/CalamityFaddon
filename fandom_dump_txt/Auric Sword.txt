@@ -1,0 +1,28 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| rare = 3
+| sell = {{value|0|0|2|30}}
+| damage = 50
+| use = 20
+| knockback = 6
+| auto = yes
+| stack =  1
+| element1 = Slash
+}}
+
+The '''Auric Sword''' is a craftable [[Pre-Hardmode]] [[broadsword]]. It has no unique effect, but deals mediocre damage for its tier and autoswings.
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Healing items]]
+[[Category:True melee]]
+[[zh:大守卫者]]

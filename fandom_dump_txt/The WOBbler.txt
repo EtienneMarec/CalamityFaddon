@@ -1,0 +1,46 @@
+{{item infobox
+| type = Tool
+| damagetype = melee
+| axe = 300
+| hammer = 250
+| auto = yes
+| damage = 550
+| knockback = 20
+| use = 8
+| rare = 15
+| stack = 1
+| sell = {{value|0|30|24}}
+| debuff = Frozen
+| debuffchance = 100%
+| debuffduration = 5 seconds (Glacier)
+| debufftip = You can't move!
+| toolspeed = 40
+| velocity = 10
+| proj = Wobglacier.png
+| projcaption = Glacier
+| hardmode = yes
+| postml = yes
+| element1 = Cold
+| element2 = Slash
+}}
+
+'''The WOBbler''' is a [[Hardmode]] [[Hamaxe]] that drops from the [[Wall of Bronze]]. Pressing right click will cause the player to toss out a small glacier. The glacier is affected by gravity, and will slide across the ground, bouncing off of walls and despawning after 6 seconds.
+
+== Notes ==
+* The glacier allows the player to get up close to enemies whilst they're frozen, and attack with the WOBblers main attack.
+
+==Trivia==
+*The weapon is a reference to the Ice Climbers, specifically their appearance in the Super Smash Bros series.
+**The glacier attack is identical to one performed by the Ice Climbers.
+**The name WOBbler is a portmanteau of WOB, which is an acronym for Wall of Bronze, and wobble, which is a technique used by the Ice Climbers in Super Smash Bros Melee.
+
+==See also==
+*The [[A M S]], a reusable bomb dropped by [[The Wall of Bronze]].
+*[[Large Father]], the drill counterpart to the WOBbler.
+
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Hamaxes]]
+[[Category:True melee]]

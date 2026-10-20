@@ -1,0 +1,28 @@
+<!--Used on:
+Rogue weapons
+Bombs
+Daggers
+Javelins
+--><includeonly>
+{{#ifeq:{{{listexclude|no}}}|yes|<!--nothing-->|
+{{!}}-
+{{!}} align=center {{!}} {{item|mode=table|{{{name|{{{%PAGE%}}}}}}|link={{{%PAGE%}}}|image={{#if:{{{imagealt|}}}|{{#invoke:String|match|s={{{imagealt|}}}|pattern=File:(.-){{!}}|nomatch=}}|{{#if:{{{image}}}|{{{image|}}}|{{{name|{{{%PAGE%}}}}}}.png}} }}|size={{#if:{{{imagealt|}}}|{{#invoke:String|match|s={{{imagealt|}}}|pattern={{!}}(.-px)|nomatch=}} }} }} {{#if:{{{namesub|}}}|<span style="color:slategray; font-size:80%;">({{{namesub}}})</span>}}
+{{!}} align=center {{!}} '''{{{damage|0}}}'''
+{{!}} data-sort-value={{{use|0}}} align=center style="line-height:15px" {{!}} {{{use|0}}} <br/> <small>({{use time|{{{use|0}}}}})</small>
+{{!}} data-sort-value={{{knockback|0}}} align=center style="line-height:15px" {{!}} {{{knockback|0}}} <br/> <small>({{knockback|{{{knockback|0}}}}})</small>
+{{!}} align=center {{!}} {{#if:{{{extraupdates|}}}|{{#expr:{{{velocity|}}}*({{{extraupdates|}}}+1)}}|{{{velocity|0}}}}}
+{{!}} align=center {{!}} {{{critical|4%}}}
+{{!}} align=center {{!}} {{{{{auto|no}}}}}
+{{!}} {{rare|{{{rare|0}}}|sort=yes}}
+{{!}} align=center {{!}} {{{{{consumable|no}}}}}
+{{!}} align=center {{!}} {{{{{hardmode|no}}}}}
+{{!}} align=center {{!}} {{{{{postml|no}}}}}
+{{!}} align=center {{!}} {{{{{epilogue|no}}}}}
+{{!}} align=right data-sort-value={{value total|{{{sell|}}}}} {{!}} {{{sell|}}}
+{{!}}-
+}}
+</includeonly>
+<noinclude>
+{{Dpl pages}}
+[[Category:DPL]]
+</noinclude>

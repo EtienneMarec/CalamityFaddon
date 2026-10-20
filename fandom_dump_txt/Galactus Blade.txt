@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 84
+| use = 16
+| velocity = 23
+| knockback = 6
+| auto = yes
+| stack = 1
+| tooltip = Forged with the fury of nuclear chaos<br/>Launches a barrage of comets from the sky
+| rare = 12
+| sell = {{value|0|24}}
+| debuff = Holy Flames
+| debuffchance = 100%
+| debuffduration = 5 seconds (Contact)<br/>3 seconds (Comet)
+| debufftip = Dissolving from holy light
+| hardmode = yes
+| postml = yes
+| proj = Galactica Comet.png
+| projcaption = Galactica Comet
+| element1 = Magic
+| element2 = Holy
+}}
+
+The '''Galactus Blade''' is a craftable Godseeker Mode [[broadsword]] that auto-swings. It rains down Galactica Comets above the cursor on swing. It inflicts the [[Holy Flames]] [[debuff]] on hit. The projectile will not pierce, but it will ignore tiles and explode on impact.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This is the first item ever added by the Calamity Mod.
+*This item used to be known as "Galactica Blade" and fired a spread of comets.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

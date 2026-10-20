@@ -1,0 +1,24 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Ammunition
+| tooltip = Swirls around you, homing onto nearby enemies 
+| damage = 25
+| damagetype = ranged
+| stack = 9999
+| rare = 9
+| velocity = 6
+| consumable = yes
+| hardmode = yes
+| sell = {{value|0|0|10}}
+| element1 = Wind
+}}
+
+'''Vortex Darts''' are cratable [[Hardmode]] [[darts]]. If there are no enemies in a 10 blocks radius from the dart, it will start to cirle around the player. Once an enemy enters the dart's radius, it will quickly home onto it. There can be only 20 darts present at the same time, replacing the oldest one whenever the limit is hit.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Ctota}}
+[[Category:Darts]]

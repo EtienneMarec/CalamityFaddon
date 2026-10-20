@@ -1,0 +1,65 @@
+<section begin="npc" infobox="" />{{npc infobox
+| name = The Wall of Gifts
+| imagealt = [[File:Wall_of_Gifts.png]]
+| type = Boss
+| environment = Brimstone Crag
+| ai = The Wall of Bronze AI
+| damage = {{dv|130|160|200|250}} (Contact)<br/>
+{{dv|300|330|400|500}} (Bronze Claw)<br/>
+{{dv|200|300|350|400}} (Laser)<br/>
+{{dv|550|600|650|800}} (Deathray)<br/>
+{{dv|130|170|220|300}} (Metal Maw)<br/>
+{{dv|160|200|250|330}} (Mechanical Leech)<br/>
+{{dv|80|100|120|150}} (Maw Fireball)<br/>
+
+| life = {{dv|1,500,300|2,200,000|2,880,090}}
+| defense = 70
+| dr = 20
+| knockback = 100
+| debuff = Horrified
+| debufftip = You have seen something nasty, there is no escape.
+| duration = While the player is within 2000 feet (1000 blocks) from the boss.
+| debuffchance = 100%
+| debuff2 = Frozen
+| debuffchance2= 100%
+| duration2 = 60 minutes
+| debufftip2 = You can't move!
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Embers of Civilization
+| money = {{value|0|0|0|0|0}}
+| Omega Healing Potion|8-14|100%
+| Present|2-5|5%
+
+| image2caption = Map Icon
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound2 = AresEnraged.wav
+| sound2text = Charge
+| sound3 = Zombie_104.wav
+| sound3text = Deathray
+| hardmode = yes
+| postml = yes
+| boxwidth = 24em
+}}[[File:Wall of Bronze Trophy.png]] <big>''"The jolly core of the Underworld, and a marvel of ancient festivity."'' </big> [[File:Wall of Bronze Trophy.png]]
+
+'''The Wall of Gifts''' (Japanese: プレゼントの壁 ''Purezento no kabe'') is a Godseeker Mode [[boss]]. It is a seasonal version of the [[The Wall of Bronze]].
+
+The Wall of Gifts can be summoned manually by throwing the General Voodoo Doll into lava while in the [[Frozen Hell]] biome during the Christmas seasonal event. Doing so will kill [[The General]] before spawning the boss.
+
+==Behavior==
+The Wall of Gifts has the exact same AI and attacks as its counterpart, The Wall of Bronze, the only change being that each of its attacks inflict the [[Debuffs|Frozen]] debuff for 60 minutes.
+
+== Tips==
+If the player equips the Hand Warmer, they will become immune to the Wall of Gifts frozen debuff, making the fight significantly easier.
+
+If you had named your player: HoHoHo, Santa Claus, or PresentsForAll 10 more presents will be dropped from the Wall of Gifts.
+
+== Trivia==  
+*The Wall of Gifts's [[Music|theme]] is [https://www.youtube.com/watch?v=Bb5ydGGxCS0 Snow], from the official Terraria soundtrack.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}
+[[zh:瘟疫使者歌莉娅]]

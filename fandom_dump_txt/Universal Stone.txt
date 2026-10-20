@@ -1,0 +1,41 @@
+{{Addon|Calamity: Community Remix}}
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = The true potential of a lesser elemental<br/>Summons an cosmic conflict construct to fight for you<br/>Summons a cosmic shield around you that inflicts God Slayer Inferno<br/>Collecting Cosmichid plants boosts damage by 1% up to 30%<br/>While the item's visibility is on, Mana Sickness is replaced with Mana Burn<br/>50% increased flight time
+| sell = {{value|0|20}}
+| rare = 14
+| damage = 4002
+| damagetype = summon
+| stack = 1
+| hardmode = yes
+| postml = yes
+| buff= Cosmic Conflict Construct (buff) | bufflink = no
+| bufftip=The cosmic conflict construct will protect you|image=CosmicStone.gif}}
+
+{{summoned|Cosmic Conflict Construct|name=Cosmic Conflict Construct|type=minion}}
+The '''Universal Stone''' is a craftable Godseeker Mode [[covering]]. Equipping it summons a Cosmic Conflict Construct to fight for you, which deals summon damage. The covering passively summons a spiky cosmic shield which inflicts [[God Slayer Inferno]] onto enemies caught within it. When the item's visibility is toggled on, consuming [[Mana Potion]]s inflicts [[Mana Burn]] which hurts the player instead of reducing their magic damage. Additionally, the player gains immunity to God Slayer Inferno, and any [[Cosmichid]] plants collected will temporarily boost the player's damage by 1%, capping at 30%. On top of all of these effects, the player also gains 50% increased flight time.
+
+The construct cycles between the following attacks:
+*Dashing at enemies while trailed by homing crystal bolts.
+*Summoning a ring of cosmic crystals around enemies which then shoot outwards and start homing.
+*Dashing horizontally over enemies while summoning Cosmichid spikes which grow upwards.
+*Shooting slow large balls of cosmic matter using its arm.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Cosmic Conflict Construct's attacks are based on the stones that make up the item.
+*The summon's name is a reference to the Crystal Conflict boss from the Jetshift mod.
+*The arm cannon's ability is based on Spamton NEO's cannon from ''[[wikipedia:Deltarune|Deltarune]]''.
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

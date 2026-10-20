@@ -1,0 +1,45 @@
+{|align=right
+|{{item infobox
+| imagealt = [[File:God Slayer Visage.png]] [[File:Silva Mask.png]] [[File:Silva Horned Helm.png]]
+| type = Vanity
+| stack = 1
+| rare = 14
+| body slot = Social Helmet
+| buy = {{gc|8}}
+| sell = {{value|0|1|60}}
+| listexclude = yes
+| hardmode = yes
+| postml = yes
+}}
+|}
+
+'''Legacy vanity headpieces''' are [[vanity items]] sold by the [[Clothier]] after [[The Devourer of Gods]] has been defeated. When paired with their respective armor sets, they cause the player to create afterimages. 
+
+== Types ==
+{{flexstart}}{{item/options|mode=table|anchor=y}}
+{| class="terraria"
+! colspan =2 | Item !! colspan =1 | Equipped !! colspan = 2 |
+|-
+| {{item|God Slayer Horned Helm|nolink=y}}
+| [[File:God Slayer Horned Helm (equipped).png]]
+|-
+| {{item|God Slayer Visage|nolink=y}}
+| [[File:God Slayer Visage (equipped).png]]
+|-
+| {{item|Silva Helm|nolink=y}}
+| [[File:Silva Helm (equipped).png]][[File:Silva Helm (equipped female).png]]
+|-
+| {{item|Silva Horned Helm|nolink=y}}
+| [[File:Silva Horned Helm (equipped).png]][[File:Silva Horned Helm (equipped female).png]]
+|-
+| {{item|Silva Mask|nolink=y}}
+| [[File:Silva Mask (equipped).png]][[File:Silva Mask (equipped female).png]]
+|}
+{{item/options|reset}}{{flexend}}
+
+== Trivia ==
+*Previously, all five helmets provided different functional effects when paired with their respective armor sets.
+{{Master Template Equipables
+| show-main = yes
+| show-vanity = yes
+}}

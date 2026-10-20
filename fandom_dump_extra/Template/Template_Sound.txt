@@ -1,0 +1,49 @@
+<includeonly><!-- 
+
+Translation can be customized via /l10n
+
+
+-->{{#dplvar:set<!-- 
+// Track Title -> Music Box  mapping.
+-->|_track_Alt Day|Alt Overworld Day<!--  
+-->|_track_Title Screen|Title<!--  
+-->|_track_Overworld Night|Night<!-- 
+-->}}<!--
+
+-->{{#vardefine:_track|{{#replace:{{{track|}}}|Alternate|Alt}}}}<!-- 
+-->{{#if:{{#dplvar:_track_{{#var:_track}}}}|{{#vardefine:_track|{{#dplvar:_track_{{#var:_track}}}}}}}}<!-- 
+
+
+-->{{#vardefine:_track|{{#if:{{{track|}}}|{{#or:{{l10n|sound|t:{{{track|}}}}}|<!-- 
+	//retireve l10n name from music boxes based on track title.
+	-->{{#if:{{#pos:{{{track|}}}|therworldly}}|<!-- 
+		-->{{l10n|sound|otherworldly_name|$name$=<!-- 
+			-->{{l10n|sound|regex|$musicbox$=<!-- 
+				-->{{tr|Otherworldly Music Box ({{#trim:{{#replace:{{#var:_track}}|(Otherworldly)|}}}})}}<!-- ow musicbox name.
+			-->}}<!-- 
+		-->}}<!--
+	-->|<!-- 
+		-->{{l10n|sound|name|$name$=<!-- 
+			-->{{l10n|sound|regex|$musicbox$=<!-- 
+				-->{{tr|Music Box ({{#var:_track}})}}<!-- musicbox name.
+			-->}}<!-- 
+		-->}}<!--
+	-->}}<!--
+-->}}}}}}<!-- 
+
+-->{{#vardefine:_desc|{{{1|[[{{tr|Music|link=y}}#{{#var:_track}}|{{#var:_track}}]]}}}}}<!-- 
+
+-->{{#vardefine:_file|{{{2|{{{file|Music-{{{track|}}}.mp3}}}}}}}}<!-- 
+
+
+--><span class="sound"><!--
+	--><span class="sound-title">{{#var:_desc}}</span><!--
+	-->{{#if:{{{nofallback|}}}<!--
+		then-->|<span style="display:none">[[File:{{#var:_file}}|class=sound-audio]]</span><!--
+		else-->|[[File:{{#var:_file}}|class=sound-audio]]<!--
+	-->}}<!--
+--></span><!--
+
+--></includeonly><!--
+
+--><noinclude>{{i18n-ready}}{{doc}}</noinclude>

@@ -1,0 +1,34 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Stealth strikes have +10 armor peneration and heal for 1 HP
+| sell = {{value|0|0|80}}
+| rare = 3
+| stack = 1
+}}
+|{{item drops infobox
+| [[The Perforators]]|1| {{dv|25%|33.33%}}
+}}
+}}
+
+The '''Bloodstained Glove''' is a craftable [[Pre-Hardmode]] [[Spy]] [[covering]] that can also be dropped by [[The Perforators]]. When equipped, the player's [[stealth strike]]s gain +10 armor penetration and [[lifesteal|heal]] the player for 1 HP.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This covering is the counterpart to the [[Filthy Glove]] dropped by [[The Hive Mind]].
+*This covering can synergize quite well with [[Sticky Spiky Ball]]s, due to the fact that their stealth strike effect throws 7 balls that each can hit up to 5 times. If all of the balls hit enemies, they can heal the player for a total of 35 health, as every hit will heal 1 HP. Furthermore, the extra armor piercing can potentially cause them to deal up to 175 extra damage compared to a stealth strike without the covering, if the enemy's defense is over 10 but not so high that the damage is reduced to 1 per hit even with the extra pierce.
+{{-}}
+{{Blood Sample}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Healing items]]
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

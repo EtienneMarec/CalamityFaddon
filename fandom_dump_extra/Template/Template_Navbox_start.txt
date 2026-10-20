@@ -1,0 +1,10 @@
+<includeonly><!-- 
+-->{{#vardefine:_collapsiable|{{#switch:{{{collapsible|}}}|n|no|off=|#default=y}}}}<!-- 
+-->{{#vardefine:_collapsed|{{#switch:{{{collapsed|}}}|y|yes|on=y|#default=}}}}<!-- 
+--><div class="navbox {{#if:{{#var:_collapsiable}}|mw-collapsible}} {{#if:{{#var:_collapsed}}|mw-collapsed}}"><!-- 
+-->{{#if:{{{page|}}}|{{navbox/v.d.e|{{{page|}}}}}}}<!-- 
+-->{{#if:{{{header|}}}|<div class="header">{{{header|}}}</div>}}<!-- 
+--><div class="content {{#if:{{#var:_collapsiable}}|mw-collapsible-content}}"><!-- 
+--></includeonly><noinclude>
+[[Category:Navigational templates‎|*]]
+</noinclude>

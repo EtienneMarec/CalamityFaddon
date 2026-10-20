@@ -1,0 +1,42 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox	
+| type = Weapon
+| damage = 220
+| damagetype = Ranged
+| knockback = 7
+| stack = 1
+| rare = 13
+| sell = {{value|0|10}}
+| auto = yes
+| tooltip = 'Memories of the deep sea'<br/>Fires out strong cake arrows that explode into puddles of damaging frosting
+| use = 150
+| velocity = 10
+| hardmode = yes
+| postml = yes
+| proj = Slice of Cake.png
+| projcaption = Cake
+| element1 = Holy
+| element2 = Cold
+| element3 = Smash
+}}
+
+The '''Confection''' is a craftable Godseeker Mode [[Bows|bow]]. It slowly fires out pieces of cake that explode into gravity effected globs of frosting. These globs pierce infinitely and last for 10 seconds each. A maximum of 40 globs can exist at once.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The word "confection" refers to a dish or delicacy made with sweet ingredients.
+*The 64 Bamboo in the item's recipe is a reference to Sugar Cane from [[wikipedia:Minecraft|Minecraft]], which can be stacked up to 64.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

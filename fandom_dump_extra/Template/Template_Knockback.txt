@@ -1,0 +1,11 @@
+<includeonly><!--
+-->{{#ifexpr:{{{1}}} = 0|No Knockback|<!--
+-->{{#ifexpr:{{{1}}} <= 1.5|Extremely Weak|<!--
+-->{{#ifexpr:{{{1}}} <= 3|Very Weak|<!--
+-->{{#ifexpr:{{{1}}} <= 4|Weak|<!--
+-->{{#ifexpr:{{{1}}} <= 6|Average|<!--
+-->{{#ifexpr:{{{1}}} <= 7|Strong|<!--
+-->{{#ifexpr:{{{1}}} <= 9|Very Strong|<!--
+-->{{#ifexpr:{{{1}}} <= 11|Extremely Strong|<!--
+-->{{#ifexpr:{{{1}}} > 11|Insane}}}}}}}}}}}}}}}}}}<!--
+--></includeonly><noinclude>{{doc}}</noinclude>

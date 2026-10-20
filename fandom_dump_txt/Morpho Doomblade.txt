@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| stack = 1
+| damage = 1430
+| damagetype = summon
+| use = 18
+| tooltip = Swings a doomblade that shoots crescent slashes<br/>Using RMB summons an Arbiter of Judgement that does not consume minion slots<br/>Attacks from the blade and arbiter inflict Whispering Death and Valfrey Burn<br/>'Now all will witness its true power!'
+| velocity = 12
+| knockback = 2.5
+| rare = 15
+| debuff = Whispering Death
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| debufftip = Death approaches; defense, movement speed, attack power and life regen reduced
+| debuff2 = Valfrey Burn
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds
+| debufftip2 = Your power is being absorbed
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| proj = Crescent Slash.png
+| projcaption = Crescent Slash
+| element1 = Holy
+| element2 = Fire
+| element3 = Slash
+}}{{summoned|Arbiter of Judgement|type=minion|name=Arbiter of Judgement}}
+The '''Morpho Doomblade''' is a craftable Godseeker Mode [[summon weapon]]. It is a direct upgrade to both the [[Wooden Butterfly Staff]] and the [[Resurrection Butterfly]]. It uniquely functions as a sword that swings and shoots crescent slashes. Right-clicking with the blade consumes 100 mana and summons an '''Arbiter of Judgement''' to attack enemies by swiftly swinging and shooting crescent slashes at them, returning to and hovering around the player afterward. All attacks from the blade and arbiter inflict the [[Whispering Death]] and '''Valfrey Burn''' [[debuff|debuffs]] for 2 seconds. Valfrey Burn deals 200 damage per second and the target loses 5% damage reduction.
+
+{{Modifier|summonactive}}
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+==Notes==
+*This weapon is essentially a Melee weapon for the Summoner class. Similar to the Wooden Butterfly Staff, it avoids the damage penalty for Minions while also scaling with Summoner equipment, giving a decent amount of damage in comparison with other classless weapons available.
+*The arbiter can be summoned with no empty Minion slots and without de-summoning pre-existing summons, although only one can exist at a time.
+*If a Summoner weapon is not held, the arbiter will instantly despawn.
+==Trivia==
+*The item is a reference to [https://kirby.fandom.com/wiki/Morpho_Knight Morpho Knight] from Kirby star allies and forgotten land, both of which are good games, and everyone who doesn't think that is wrong.
+{{-}}
+{{auric}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

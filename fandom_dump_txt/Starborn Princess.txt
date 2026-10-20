@@ -1,0 +1,264 @@
+{{addon|Deimos, the Starborn Princess}}
+{{info request|Transmogrification table is incomplete}}
+{{npc infobox
+| type = NPC
+| environment = Valid house
+| life = 200,000
+| defense = 60
+| knockback = 20
+| debuff = Holy Flames
+| duration = 3 seconds
+| debuffchance = 100%
+| debufftip = Dissolving from holy light
+| debuff2 = God Slayer Inferno
+| duration2 = 3.5 seconds
+| debuffchance2 = 100%
+| debufftip2 = Your flesh is burning off
+| vulnerable1 = Slash
+| vulnerable3 = Unholy
+| resistant1 = Holy
+| resistant2 = Magic
+| resistant3 = Fire
+| image2 = Celestialmap.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+{{NPC}}
+<big>''"The mere creation of two opposites: the divine and the irreligious. However, something tells me that she isn't really that evil as you may think she is..."''</big>
+
+The '''Starborn Princess''' is a Godseeker Mode [[NPC]] vendor that will spawn once the following conditions have been met:
+*There is an empty house.
+*[[Providence, the Profaned Goddess]] has been defeated.
+
+When threatened by [[enemies]], she will defend herself with holy spears.
+
+==Items sold==
+{{inventory
+|Profaned Crucible|{{gc|60}}|
+|Divine Bar|{{gc|6}}|
+|Bloodstone|{{gc|9}}|After defeating a [[Charm Gar]] and opening a [[Necromantic Geode]].
+|Martian Distress Beacon|{{gc|50}}|
+|Nightmare Fuel|{{gc|12}}|After defeating [[The Devourer of Gods]].
+|Endothermic Energy|{{gc|12}}|After defeating The Devourer of Gods.
+|Darksun Fragment|{{gc|12}}|After the player has experienced an upgraded [[Solar Eclipse]].
+|Profaned Soul Crystal|{{value|0|0|0|0|10}}|After defeating [[Supreme Calamitas]] and the [[The Fabricational Quartet]]
+|Rune of Kos|{{pc|2}}|When the player possesses an [[Elysian Aegis]] or its upgrades.
+|Divine Core|{{pc|5}}|
+|Deimos Plushie|{{gc|1}}|
+|The Everquartz|{{value|2|50|0|0}}|
+|Mars Bars|{{gc|1}}|
+
+}}
+
+==Transmogrification== 
+*Several items can be transmogrified using the Starborn Princess's secondary chat option. A UI will open, allowing the player to input an item marked with an aura in the player's inventory and varying amounts of a secondary material. All transmogrifications take real time to complete which cannot be sped up by any means. A full list of transmogrifications goes as follows:
+{| class="terraria sortable lined"
+!Main ingredient!!Secondary material!!Result!!Time
+|-
+|{{item|Astral Blaster}}
+|{{item|Sea Prism}} x 10
+|{{item|Clock Gatlignum}}
+|20 seconds
+|-
+|{{item|Tarragon Breastplate}}
+|{{item|Cosmilite Slag}} {{fantag|Calamity Loot Swap}} x 10
+|{{item|Prismatic Greaves}}
+| 1 minute
+|-
+|{{item|The Oracle}}
+|{{item|Fallen Star}} x 40
+|{{item|The Microwave}}
+|30 seconds
+|-
+|{{item|Pole Warper}}
+|{{item|Endothermic Energy}} x 5
+
+|{{item|North Pole}}
+|1 minute
+|-
+|{{item|Rotting Eyeball}}
+|{{item|Rotten Matter}} x 20
+|{{item|Bloody Vein}}
+|30 minutes
+|-
+|{{item|Frogfish}}
+|{{item|Sulphuric Scale}} x 5
+|{{item|Catfish}}
+|20 seconds
+|-
+|{{item|Leviathan Ambergris}}
+|{{item|Nucleogenesis}}
+|{{item|Shrimp}}
+| 20 seconds
+|-
+|{{item|Cryo Stone}}
+|{{item|Essence of Sunlight}} x 1
+|{{item|Water Bucket}}
+|Instant
+|-
+|
+{{item|Shard of Antumbra}}
+|{{item|Soul of Light}} x 5
+|{{item|Light God's Brilliance}}
+|1 minute
+
+|-
+|{{item|Yharim Bar}}
+|{{item|Unholy Essence}} x 20
+|{{item|Divine Bar}} x 20 
+| 1 minute
+|-
+|{{item|Yharim Bar}}
+|{{item|Phantoplasm}} x 10 
+|{{item|Ruinous Soul}} x 10
+|3 minutes
+|-
+|{{item|Yharim Bar}} 
+|{{item|Endothermic Energy}} x 20
+|{{item|Nightmare Fuel}} x 20
+|1 minute
+|-
+|{{item|Yharim Bar}} 
+|{{item|Nightmare Fuel}} x 20
+|{{item|Endothermic Energy}} x 20
+|1 minute
+|-
+|{{item|Yharim Bar}} 
+|{{item|Soul of Night}} x 20
+|{{item|Darksun Fragment}} x 20
+|1 minute
+|-
+|{{item|Yharim Bar}}
+|{{item|Auric Ore}} x 5 
+|{{item|Yharon Soul Fragment}} x 5
+|5 minutes
+|-
+|{{item|Yharim Bar}}
+|{{item|Ashes of Annihilation}} x 5
+|{{item|Exo Prism}} x 5
+|10 minutes
+|-
+|{{item|Yharim Bar}} 
+|{{item|Exo Prism}} x 5
+|{{item|Ashes of Annihilation}} x 5
+|10 minutes
+|-
+|{{item|Soul of Cryogen}} 
+|{{item|Cryonic Bar}} x 25
+|{{item|Delicious Meat}}
+|5 minutes
+|-
+|{{item|Soul of Pyrogen}} 
+|{{item|Hellstone Bar}} x 25
+|{{item|Delicious Meat}}
+|5 minutes
+|-
+|{{item|Soul of Phytogen}} 
+|{{item|Perennial Bar}} x 25
+|{{item|Delicious Meat}}
+|5 minutes
+|-
+|{{item|Soul of Pathogen}} 
+|{{item|Shroomite Bar}} x 25
+|{{item|Delicious Meat}}
+|5 minutes
+|-
+|{{item|Soul of Oxygen}} 
+|{{item|Aerialite Bar}} x 25
+|{{item|Delicious Meat}}
+|5 minutes
+|-
+|{{item|Soul of Carcinogen}} 
+|{{item|Scoria Bar}} x 25
+|{{item|Delicious Meat}}
+|5 minutes
+|-
+|{{item|Soul of Hydrogen}} 
+|{{item|Sea Prism}} x 25
+|{{item|Delicious Meat}}
+|5 minutes
+|-
+|{{item|Soul of Ionogen}} 
+|{{item|Corroded Fossil}} x 25
+|{{item|Delicious Meat}}
+|5 minutes
+|-
+|{{item|Washed Flah}} 
+|{{item|Orb of Boon}} x 1
+|{{item|Blessed Flah}}
+|10 seconds
+|-
+|}
+
+==Names==
+*The Starborn Princess will always be named Deimos.
+
+==Quotes==
+{{collapse top|Click to display list}}
+'''While homeless:'''
+:*"I've always been homeless, so it's sort of the norm for me."
+:*"Do you have a house? I'd like to see it!"
+:*"Not to ask for too much but... can I have a house? Is that too much to ask? Sorry..."
+
+
+'''Anytime:'''
+:*"Did you hear about that one artist? I think they are called something like Everquartz... well- I think they're weird personally."
+:*"I really like reading books and I like studying on how to warp myself to different timelines. It's an interesting sight to see, seeing yourself from the past or seeing yourself in another reality. I've seen many realities, all come in different shapes and sizes. All have different orders and different ways of running their socities. It's sooooo interesting!"
+:*"I hate both of my parents to be honest, they're both as bad as each other... sort of. I can't remember."
+:*"What is your opinion on chicken nuggets?"
+:*"*starts doing the cha cha slide* Cha cha real smooth!"
+:*"When I was 'born', I was just a mere essence existing that relied on both my mother and my father. I don't know how I was created... but if you haven't already figured that out, my parents are The Profaned Goddess and that stupid god eating creature. He's stupid, we're all stupid. I think that concludes this conversation."
+
+'''While in the [[The Hallow]]:'''
+:*"I think the Hallow is quite a deceiving place. It's quite unique, actually. I really do like it, but man those unicorns are lethal. Have you not seen them?!"
+:*"You would think that a biome full of fairies and unicorns would be a little kinder sometimes..."
+
+'''During a [[Party]]:'''
+:*"Wow! Parties are so much fun. I love hopping around and dancing and all that confetti is so fun! It's so bright and colorful! I love it!"
+:*"My mother would always disapprove of parties... so having to experience one in person now is a little odd for me, but I'm loving it!"
+
+'''During a [[Blood Moon]]:'''
+:*"Mortals and sinners like YOU should not be allowed to roam the planet in such a mess. If my mother was around, I would have personally took you to her to get a cleansing. Being cleansed isn't the most pretty sight, so be LUCKY that she is dead... I'm not too happy about that."
+:*"If the world was cleansed, my mother would be happy. You just so happened to ruin it... I do not have pity for you, sinner."
+:*"BURN, BURN, BURN! Cleanse the world of its otherworldly sins!"
+:*"I promised my mother that I would continue on my legacy as a such a divine essence, and that includes to try cleanse this world of its disgusting sins. I probably keep going on about it too much, but it's true. I must continue on to cleanse the world. My mother would be so happy to hear that I would try to continue my legacy on but guess who killed her?! See what I mean?!"
+:*"See the horns on my head? They're from goddesses. GODDESSES."
+:*"If you mention Mr Dweller again, I will dissolve your soul."
+
+'''If [[Angler]] is alive:'''
+:*"Did you hear about [Name of Angler]? Yeah, that short kid with the weird hat and stuff? Well I don't like him."
+
+'''If [[The Devourer of Gods]] has been defeated:'''
+:*"My mother was an interesting character, but I just never felt with her... the idea of burning the world just never stood right with me, but I never really verbally spoke about it because I was afraid my mother would KILL me for it. I wonder what it would've been like if my dad took me instead. I feel like he would've used me as a sentinel or something. Yikes."
+:*"Considering how weak you originally were, I do wonder if your growth will ever reach a limit. I'm curious!"
+:*"My father? Oh, well he wasn't the best character around... I hadn't really known him for that long considering I always stayed with my mother, but I heard he was just... bad. I don't know how else to describe it, but I don't like him. I would've preferred to stay with my mother, but considering she is dead- I am not too sure who to stay with. I guess that's why I stayed with you, because you have shelter... I'm alone now. I don't have anyone to rely on anymore."
+:*"It's a bit weird to say this, but thank you for defeating both of my parents. The world is much more great now without those two around. Keeping those two apart was hard work. Let's just say it would've been a universal catastrophe if this was in my earlier stages of my existence. I am glad I don't have to deal with the stress about keeping up my dad's [[Delicious Meat]] addiction. Though, I'm a bit sad that I don't have anyone to rely on now."
+
+'''If the [[Profaned Birb]] is present:'''
+:*"Is... is that my mom?! What did you do to her?! Okay I'll admit... it's REALLY funny."
+:*"Oh mom... I'm so sorry...
+
+'''If the [[Profaned Birb]] is in the same house:'''
+:*"I feel a bit bad for my mom. She's over there sort of... I dunno."
+:*"Me and mom have a bit of a rocky relationship. No pun intended but... yeah. She has a history of degrading me to 'hybrid'. I really don't like it, but I have to sort of deal with it."
+:*"Feed my mom gummy worms! She loves them!"
+
+'''If the [[Brimstone Witch]] is present:'''
+:*"That girl, Calamitas I think her name is... she looks very pretty. I'll respect her privacy, though. "
+:*"Could you please ask Calamitas something for me? Thank you!"{{collapse bottom}}
+
+== Trivia==  
+*The Starborn Princess was guest created by artist, everquartz.
+*It is heavily implied that the Starborn Princess is the daughter of [[Providence, the Profaned Goddess]] and [[The Devourer of Gods]].
+**Supporting this is that the [[Rune of Kos]], the boss summon for the [[Sentinels of the Devourer]], is dropped by [[Providence, the Profaned Goddess]].
+**Furthermore, her interaction quotes display her familial connection to [[Providence, the Profaned Goddess]] and [[The Devourer of Gods]].
+*If the player is willing to spend enough coins, they can obtain the event exclusive items for the [[Ascendant Spirit Essence]] while avoiding fighting the harder variants of the [[Pumpkin Moon]], [[Frost Moon]] and [[Solar Eclipse]] [[events]].
+*The Starborn Princess has only one possible name, sharing this trait with [[Santa Claus]], the [[Archmage]], the [[Drunk Princess]], the [[Brimstone Witch]], the [[Sea King]], and the [[Soul of the Eternal Intellect of Infinite Verboten Knowledge]].
+*In the mod's source files, the Starborn Princess is referred to as 'Rosalina'. This is an unlikely but possible reference to Princess Rosalina from the Super Mario Galaxy game series.
+*Everquartz revealed that the name 'Deimos' apparently is a reference the Greek god [[wikipedia:Deimos (deity)|Deimos]], who is the god of dread and terror. They said it was a reference to how the community reacted to the creation of The Starborn Princess; dread and terror. It is also a subtle reference to the 'type D' part of [[The Devourer of Gods]] nonstop mix.
+*It was also confirmed by everquartz that The Starborn Princess is self aware about her own existence and how she understands that she is an abomination that shouldn't exist.
+*Upon killing The Starborn Princess, [[Providence, the Profaned Goddess]] will spawn.
+*The quote "See the horns on my head? They're from goddesses. GODDESSES." from her during a blood moon is a reference to a lyric in the song called EVIL, by Melanie Martinez.
+
+{{DeimosMod}}

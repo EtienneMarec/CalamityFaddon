@@ -1,0 +1,35 @@
+{{npc infobox
+| type = Flying Enemy
+| ai = Bat AI
+| environment = Jungle
+| life = {{dv|500|1,000}}
+| damage = {{element|Poison}} {{dv|55|110}}
+| defense = 15
+| knockback = 100
+| immune1 = Kami Flu
+| immune2 = Plague
+| immune3 = Poisoned
+| immune4 = Venom
+| debuff=Plague
+| debuffchance=100%
+| duration = 3 seconds
+| debufftip=You are rotting from the inside
+| banner = yes
+| money = {{sc|10}}
+| Plague Cell Canister|1-2|100%
+| hurt = NPC_Hit_1.wav
+| killed = PlagueBoom1.wav, PlagueBoom2.wav, PlagueBoom3.wav, PlagueBoom4.wav
+| vulnerable1 = Cold
+| vulnerable2 = Fire
+| resistant1 = Poison
+}}
+
+The '''Melter''' is a [[Hardmode]] [[enemy]] that spawns in the surface of the [[Jungle]] [[biome]] after [[Golem]] has been defeated.
+
+== Trivia ==
+*It appears to be a [[Giant Flying Fox]] afflicted with the Plague.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

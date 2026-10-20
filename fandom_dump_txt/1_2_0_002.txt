@@ -1,0 +1,172 @@
+{{Patch infobox
+| image = The Devourer of Gods (1.2.0.001).png
+| patchname = Stress Update Polishing
+| release = 8/24/2017
+}}
+{{toc limit|3|right=yes}}
+The '''1.2.0.002''' update made various rebalances and changes to the [[Stress]] mechanic, [[Polterghast]], and [[The Devourer of Gods]]. The update also added fishing item drops to [[Desert Scourge]] and [[Siren and Leviathan]], added [[summoning items]] to [[Town NPC]] shops after their respective bosses have been defeated, and fixes to content introduced in [[1.2.0.001]].
+
+== Changes ==
+=== Bosses and Enemies ===
+*Increased the drop rate for [[legendary items]] from normal enemies from 0.002% to 0.001% during pre-Hardmode,  0.0004% to 0.002% in Hardmode, and 0.001% to 0.004% Godseeker Mode.
+*Increased the drop rate for legendary items from specific bosses from 0.01% to {{dv|0.2%|0.22%}} in pre-Hardmode, {{dv|0.02%|0.022%}} to {{dv|0.33%|0.4%}} in Hardmode, and {{dv|0.1%|0.13%}} to {{dv|2%|2.5}}% post-Moon Lord.
+*Various bosses and enemies now inflict [[Marked for Death]] in [[Revengeance Mode]] for varying amounts of time.
+*[[Angry Dog]] changes:
+**Nerfed health from {{dv|500|600}} to {{dv|100|110}}, its damage from {{dv|25|35}} to {{dv|12|13}}, and its defense from 6 to 4.
+**Now gains additional health, damage, and defense after [[Cryogen]] has been defeated. 
+**Now inflicts [[Bleeding]] for 1.33 seconds instead of {{dv|2.67|5}}.
+*[[Astrum Deus]]' body segments no longer fire more lasers if the player has high [[Stress]].
+*[[Brimstone Elemental]]'s Hellfireballs' speeds no longer increase with Stress.
+*Both phases of [[Calamitas]] no longer fire more brimstone lasers if the player has high Stress.
+*Nerfed [[Cnidrion]]'s health from {{dv|1300|1560}} to {{dv|900|1080}}.
+*[[Desert Scourge]] changes:
+**The main scourge, smaller scourges, and [[Dried Seeker]]s now gain addition health, contact damage, and defense after [[Skeletron]] has been defeated.
+***Main scourge gains 20 body segments.
+***Main scourge gains extra speed.
+***Smaller scourges gain 10 body segments.
+**Now drops [[Angler Earring]]s, [[Angler Hat]]s, [[Angler Pants]], [[Angler Tackle Bag]]s, [[Angler Vest]]s, [[Crate Potion]]s, [[Fisherman's Pocket Guide]]s, [[Fishing Potion]]s, [[High Test Fishing Line]]s, [[Sextant]]s, [[Sonar Potion]]s, [[Tackle Box]]es, and [[Weather Radio]]s.
+**Now drops [[Golden Bug Net]]s after Skeletron has been defeated.
+*[[The Destroyer]] no longer fires lasers more often if the player has high Stress.
+*[[The Devourer of Gods]] changes:
+**Nerfed health from {{dv|750,000|1,200,000|1,280,000}} to {{dv|650,000|1,040,000|1,120,000}}.
+**The second Devourer of Gods now spawns once The Devourer of Gods reaches 20% health instead of 50%.
+**The second Devourer of Gods now spawns after a 1 second countdown instead of instantly.
+**Now gains 150,000 base health when under 600,000 health and only one Devourer is alive.
+**Orb projectiles now gradually slow down.
+**Now spawns an additional Beam Portal.
+**Lessened amount of lasers shot by body segments.
+**Head and tail now use NPCHit13 instead of NPCHit4 for their hit sounds.
+**Tail now has an icon on the minimap. 
+*[[Eater of Worlds]] no longer fires cursed flame projectiles more often if the player has high Stress.
+*[[Golem]] no longer gets more aggressive with high Stress.
+*Increased [[Jungle Dragon, Yharon]]'s enrage distance and the distance at which his border Infernadoes spawn.
+*Yharon's border Infernadoes now have a rainbow filter, spawn quicker, instantly kill the player on contact, and are larger.
+*[[Lunatic Cultist]] now causes the player to take 1.3500000238418579x damage while active instead of 1.4500000476837158x damage.
+*[[Queen Bee]] no longer becomes more aggressive if the player has high Stress.
+*[[Phantasm Dragon]] now has a health multiplier of {{revengeance|15x}}.
+*Buffed [[Phantom Spirit]]'s damage from {{dv|110|176}} to {{dv|250|400}}.
+*Reduced the amount of dust produced by [[The Plaguebringer Goliath]] when hit.
+*Reduced the amount of dust produced by The Plaguebringer Goliath and its [[Plaguebringer Shade|Shades]]' missiles.
+*[[Polterghast]] changes:
+**Buffed base contact damage from {{dv|100|160}} to {{dv|125|200}}, buffed Necroghast's contact damage from {{dv|120|192}} to {{dv|150|240}}, and buffed Necroplasm's contact damage from {{dv|220|352}} to {{dv|250|400}}.
+**Nerfed Necroplasm's defense from 600 to 400.
+**Buffed blue phantom shot damage from {{dv|100|200}} to {{dv|110|220}}, and blue phantom blast damage from {{dv|120|240}} to {{dv|130|260}}.
+**Buffed red phantom shot damage from {{dv|120|240}} to {{dv|130|260}}, and red phantom blast damage from {{dv|130|260}} to {{dv|140|280}}.
+**Buffed [[Polterghast Hook]]'s damage from {{dv|190|266}} to {{dv|250|350}}.
+**Buffed Phantom's projectile damage from {{dv|124|200}} to {{dv|204|320}}.
+**Buffed blue [[Phantom Turret]]'s phantom shot damage from {{dv|90|180}} to {{dv|120|240}}.
+**Buffed red Phantom Turret's phantom shot damage from {{dv|106|212}} to {{dv|140|280}}.
+**Phantom Turrets now shoot phantom shots more often.
+**Now takes up 50 NPC slots instead of 25.
+**Increased resistance to [[Ichor (debuff)|Ichor]].
+*[[Providence, the Profaned God]] now uses [[Music#Unholy Insurgency|Unholy Insurgency]] as her<!---Referred to as female in the lore with the "God" title being due to her theme of oxymorons---> theme instead of [[Music#Siren's Call (Seafoam Mix)|Siren's Call (Seafoam Mix)]].
+*Providence, the Profaned God's attack pattern is now modified if any [[Profaned Guardians|Profaned Guardian]] is alive.
+*[[Plantera]] no longer gets more aggressive with high Stress.
+*[[Signus, Envoy of the Devourer]]'s fire balls' speeds no longer increase with Stress.
+*[[Siren and Leviathan]] changes:
+**The Leviathan no longer fire more meteors if the player has high Stress.
+**The Siren's projectiles no longer increase in speed with Stress.
+**Now drop [[Bottomless Water Bucket]]s, Crate Potions, Fishing Potions, [[Hotline Fishing Hook]]s, Sonar Potions, and [[Super Absorbant Sponge]]s.
+*[[Skeletron Prime]] no longer spins more often if the player has high Stress.
+*Skeletron Prime's Prime Cannon no longer fires more often if the player has high Stress.
+*[[Stasis Probes]] are now immune to [[coverings]] which have a chance to instantly kill enemies such as the [[Elemental Gauntlet]].
+*[[Storm Weaver]]'s body segments now classify as bosses.
+*[[Supreme Calamitas]] can now drop [[Crystyl Crusher]] or [[Svantechnical]].
+*Supreme Calamitas' brothers now slowly move back and forth horizontally instead of staying in a set position.
+*Supreme Calamitas' brothers now instantly despawn once Supreme Calamitas is defeated or despawns, instead of having their defenses set to 0 and damage taken multiplied by 100.
+
+=== Items ===
+*Renamed Abomination to [[Abombination]].
+*[[Abyssal Tome]]'s Abyss Balls now pierce 2 times instead of 3, and now inflict [[Brimstone Flames]] for 2 seconds instead of 6.
+*[[Aerialite Ore]], [[Astral Ore]], [[Chaotic Ore]], [[Charred Ore]], [[Cryonic Ore]], [[Perennial Ore]], and [[Uelibloom Ore]] can now be placed.
+*[[Aglet]]s can now be crafted with 5 [[Iron Bar|Iron]] or [[Lead Bar]]s at an [[Anvil]].
+*Nerfed [[Ambrosial Ampoule]]'s damage reduction boost from 12% to 6%.
+*[[Anklet of the Wind]] can now be crafted with 15 [[Cloud]]s, 15 [[Jungle Spores]], and 5 [[Pink Gel]] at an Anvil.
+*[[Bladecrest Oathsword]]'s scythes now pierce 1 time instead of 2.
+*Nerfed [[Bloodflare Core]]'s damage reduction boost when under 50% life from 15% to 10%, and its damage reduction boost when under 15% life from 30% to 20%.
+*Nerfed [[The Burning Sky]]'s damage from 210 to 170.
+*[[Eldritch Tome]]'s tentacles now pierce 3 times instead of 2, and now inflict Brimstone Flames for 2 seconds instead of 4.
+*Changes to the Cloud Elemental minion summoned by [[Eye of the Storm]] and [[Heart of the Elements]]:
+**Shifted sprite offset.
+**Increased LocalNPCHitCooldown from 10 initially, 8 post-Golem, 4 post-Moon Lord, 2 post-Devourer of Gods, and 1 post-Yharon to 20 initially, 15 post-Golem, 10 post-Moon Lord, 6 post-Devourer of Gods, and 3 post-Yharon.
+**Tornado marks now have a LocalNPCHitCooldown of 30 initially, 25 post-Golem, 20 post-Moon Lord, 16 post-Devourer of Gods, and 13 post-Yharon.
+**Increased tornado LocalNPCHitCooldown from 15 initially, 9 post-Golem, 7 post-Moon Lord, 5 post-Devourer of Gods, and 3 post-Yharon to 20 initially, 15 post-Golem, 10 post-Moon Lord, 6 post-Devourer of Gods, and 3 post-Yharon.
+**Tornadoes now only infinitely pierce after defeating the Moon Lord, and pierce 3 times beforehand. 
+**Tornadoes now last thrice as long and no longer produce dust.
+*[[Galactica Singularity|Galactica Singularities]] now only require 1 of each celestial fragment instead of 3 of each.
+*[[Gelitic Blade]]'s wave projectile now pierces 2 times instead of 3.
+*Shifted sprite offset of the Siren Lure minion summoned by Heart of the Elements and [[Pearl of Enthrallment]].
+*Changes to the Sand Elemental and Rare Sand Elemental minions summoned by Heart of the Elements, [[Rare Waifu in a Bottle]], and [[Waifu in a Bottle]]:
+**Shifted sprite offset.
+**Increased LocalNPCHitCooldown from 10 initially, 8 post-Golem, 4 post-Moon Lord, 2 post-Devourer of Gods, and 1 post-Yharon to 20 initially, 15 post-Golem, 10 post-Moon Lord, 6 post-Devourer of Gods, and 3 post-Yharon.
+**Tornado marks now have a LocalNPCHitCooldown of 30 initially, 25 post-Golem, 20 post-Moon Lord, 16 post-Devourer of Gods, and 13 post-Yharon.
+**Increased tornado LocalNPCHitCooldown from 15 initially, 9 post-Golem, 7 post-Moon Lord, 5 post-Devourer of Gods, and 3 post-Yharon to 20 initially, 15 post-Golem, 10 post-Moon Lord, 6 post-Devourer of Gods, and 3 post-Yharon.
+**Tornadoes now only infinitely pierce after defeating the Moon Lord, and pierce 3 times beforehand. 
+**Tornadoes now last thrice as long and no longer produce dust.
+*Changes to the Brimstone Elemental minion summoned by Heart of the Elements and [[Rose Stone]]:
+**Shifted sprite offset.
+**Increased LocalNPCHitCooldown from 10 initially, 8 post-Golem, 4 post-Moon Lord, 2 post-Devourer of Gods, and 1 post-Yharon to 20 initially, 15 post-Golem, 10 post-Moon Lord, 6 post-Devourer of Gods, and 3 post-Yharon.
+*Buffed [[Lashes of Chaos]]' damage from 72 to 98.
+*[[Lucky Horseshoe]]s can now be crafted with 10 Clouds, 5 [[Gold Bar|Gold]] or [[Platinum Bar]]s, and 10 [[Sunplate Block]]s at an Anvil. 
+*Nerfed [[Lunic Eye]]'s damage from 18 to 7.
+*Nerfed [[Marked Magnum]]'s damage from 8 to 3.
+*[[Phantasmal Fury]], [[Shadowbolt Staff]], and [[Venusian Trident]] now use the {{rare|14}} rarity instead of {{rare|13}}.
+*[[Primordial Earth]]'s main projectile now lasts for 3.33 seconds instead of 5 and produces less dust.
+*Nerfed [[Purge Guzzler]]'s damage from 140 to 100.
+*[[Rod of Discord]] can now be crafted with 5 [[Chaos Fish]], 30 [[Soul of Light|Souls of Light]], and 50 [[Pixie Dust]] at a Hardmode Anvil.
+*Nerfed Shadowbolt Staff's damage from 380 to 350.
+*[[Solstice Claymore]] now uses the {{rare|12}} rarity instead of {{rare|10}}.
+*Nerfed [[The Sponge]]'s damage reduction boost from 18% to 12%.
+*[[Tears of Heaven]]'s projectiles now last 4 seconds instead of 6.
+*[[Vivid Clarity]] changes:
+**Main beams now use a LocalNPCHitCooldown of 1 instead of 3.
+**Secondary beams now penetrate infinitely instead of once and now use a LocalNPCHitCooldown of 3.
+**Split beams now last for 1 second instead of 0.5 and have a LocalNPCHitCooldown of 3 instead of 5.
+*Added the line, "It's basically cheating top kek lel" to [[Yharim's Crystal]]'s tooltip.
+*[[Yharim's Stimulants]] now last for 30 minutes instead of 15.
+*Yharim's Stimulants now increase damage and melee speed by 10% and movement speed by 15% instead of increasing damage by 22%, melee speed by 12%, and movement speed by 30%.
+
+=== Other ===
+*The [[Arms Dealer]] now sells [[Musket]]s in [[Crimson]] worlds and [[The Undertaker]] in [[Corruption]] worlds.
+*Various summoning items are now sold by [[Town NPCs]] after their respective bosses have been defeated.
+**[[Slime Crown]]s, [[Desert Medallion]]s, [[Suspicious Looking Eye]]s, [[Decapodita Sprout]]s, [[Worm Food]], [[Bloody Spine]]s, [[Teratoma]]s, [[Bloody Worm Food]], [[Overloaded Sludge]], [[Truffle Worm]]s, and [[Necroplasmic Beacon]]s are sold by the [[Dryad]].
+***During [[Blood Moon]]s the opposite world evil's vanilla boss summoning item is sold.
+**[[Abeemination]]s, [[Portable Bulb]]s, [[Lihzahrd Power Cell]]s, Abombinations, [[Ancient Medallion]]s, [[Birb Pheromones]], and [[Dragon Egg (summoning)|Dragon Egg]]s are sold by the [[Witch Doctor]].
+**[[Cryo Key]]s, [[Charred Idol]]s, [[Eye of Desolation|Eyes of Desolation]]s, [[Starcore]]s, [[Celestial Sigil]]s, [[Profaned Shard]]s, and [[Profaned Core]]s are sold by the [[Wizard]].
+**[[Mechanical Eye]]s, [[Mechanical Worm]]s, and [[Mechanical Skull]]s are sold by the [[Steampunker]].
+**[[Cosmic Worm]]s are sold by the [[Cyborg]].
+*Halved the life regeneration boost granted by [[Heart Attack]] during nighttime.
+*Merged The Hive Mind and The Perforators' Boss Checklist entries.
+*[[Horror]] now lasts twice as long in [[Expert Mode]] and higher.
+*Changed Marked for Death's description from "Protection Reduced" to "Damage reduction reduced".
+*Marked for Death can now be inflicted on players.
+*The [[Merchant]] now sells [[Apprentice Bait]] after the [[Eye of Cthulhu]] has been defeated, [[Journeyman Bait]] after the Eater of Worlds or [[Brain of Cthulhu]] has been defeated, [[Master Bait]] after Skeletron has been defeated, the [[Vilethorn]] during Blood Moons in Crimson worlds, and [[The Rotted Fork]] during Blood Moons in [[Corruption]] worlds.
+*Added a Boss Checklist entry for Polterghast.
+*Revengeance Mode now grants the player 5% extra damage instead of 10% after any boss has been defeated.
+*Stress changes:
+**Talking to female Town NPCs now decreases Stress.
+**Decreased the amount of Stress gained during a Blood Moon or being in the [[Dungeon]].
+**[[Solar Eclipse]]s now increase Stress.
+**Decreased the stat boosts gained with Stress by 50%.
+**[[Blackout]] is now inflicted for 2 seconds instead of 6.
+**The player is now able to be inflicted with [[Obstructed]] for 2 seconds instead of taking damage at over 300 Stress.
+**The player now has a smaller chance to fall off [[Ropes]] at over 400 Stress, and the chance no longer scales if the player has Horror.
+**Talking to the [[Nurse]] with over 500 Stress no longer inflicts [[Potion Sickness]].
+
+=== Resprites ===
+*Resprited [[Laudanum]] and [[Pearl of Enthrallment]].
+*Resprited [[Anarchy Blade]], [[Corrupted Crusher Blade]], [[Crimson Crusher Blade]], [[Gel Dart]], [[Gelitic Blade]], [[The God's Gambit]], [[Goobow]], [[Murasama]], and [[Staff of Blushie]].
+*Resprited [[Gelpick]].
+*Resprited Staff of Blushie's chain, fire, aura, and gear.
+
+== Fixes ==
+*Fixed [[???]] not using [[Music#Siren's Call|Siren's Call]] as its theme.
+*Removed transparent pixels from The Devourer of Gods' tail's sprite.
+*Fixed Polterghast Hooks not despawning correctly.
+*Fixed most projectiles applying player-based effects to the player nearest to them instead of their owners.
+*Fixed Ravager's Boss Checklist entry still mentioning that it can spawn naturally.
+*Fixed The Siren using Siren's Call as her theme instead of [[Music#Siren's War Cry|Siren's War Cry]].
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

@@ -1,0 +1,26 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{npc infobox
+| type = Aquatic
+| environment = Sky Abyss
+| ai = Skylac Dustfish AI
+| damage = {{dv|200|||800}} (Dust)
+| life = {{dv|4000|||12000}}
+| defense = 0
+| money = {{gc|1}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Moon Burnt
+| immune4 = Evercold
+| Skylac Sand | 4-8 | 100%
+| Stratostone | 1-2 | 100%
+}}
+
+The '''Skylac Dustfish''' is an Epilogue [[enemy]] that spawns in the lower layer [[Sky Abyss]]. It swims left to right until it gest hit, After getting hit it releases clouds of Skylac Sand that damage the player.
+
+In [[Death Mode]], it also gets invisible for 4 seconds and swims to the player when getting hit.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

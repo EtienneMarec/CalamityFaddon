@@ -1,0 +1,33 @@
+{{npc infobox
+| environment = Abyss
+| type = Aquatic
+| ai = Viperfish AI
+| damage = {{dv|75|150}}
+| life = {{dv|320|640}}
+| defense = 10
+| knockback = {{dv|15%|23.5%}}
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| debuff = Crush Depth
+| debufftip = Aquatic pressure
+| debuffchance = 100%
+| duration = 2 seconds
+| banner = yes
+| money = {{value|0|0|15|0}}
+| custom | {{item|Depth Cells|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|1-2|2-3}}) | 50%
+| custom | {{item|Lumenyl|note=(After defeating [[Calamitas]])|wrap=y}}|25%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Machine
+}}
+
+The '''Viperfish''' is an [[enemy]] that spawns in the 1st, 2nd and 3rd layers of the [[Abyss]]. It will remain passive, swimming back and forth, until the player gets too close to it or attacks it. Once provoked, it will attack by charging at the player to deal contact damage.
+
+== Trivia ==
+*Like real [[wikipedia:Viperfish|Viperfish]], they both are predators and live in the extreme depths of the ocean.
+{{-}}
+{{Master Template Characters	
+| show-main = yes	
+| show-common = yes	
+}}

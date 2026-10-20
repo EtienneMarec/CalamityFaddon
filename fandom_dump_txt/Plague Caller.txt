@@ -1,0 +1,32 @@
+{{infobox wrapper
+|{{item infobox
+| type = Pet Summon
+| stack = 1
+| tooltip = Summons a baby Plaguebringer pet
+| rare = 7
+| use = 19
+| buff = Plaguebringer Bab (buff) | bufflink = no
+| bufftip = The baby plaguebringer sees you as the queen
+| sell = {{value|0|3}}
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Plaguebringer]]|1|2%
+| [[The Plaguebringer Goliath]]|1|10%
+}}
+}}
+{{summoned|Plaguebringer Bab|type=pet}}
+
+The '''Plague Caller''' is a [[pet]] summoning item that drops from [[The Plaguebringer Goliath]]. It summons a miniature Plaguebringer that is similar to the ones spawned by the [[Infected Remote]] to follow the player.
+
+== Trivia ==
+*The miniature Plaguebringer sprite is taken from an unused asset in the code for a scrapped summoner weapon of the same name and with a similar appearance. The Plague Caller summon weapon eventually got redesigned into the [[Fuel Cell Bundle]].
+**The miniature Plaguebringer is also used for one of the [[Infected Remote]]'s attacks.
+*This pet was added to the [[Community modifications#Calamity's Vanities|Calamity's Vanities]] fan mod, prior to it being added to Calamity proper.
+**The pet item from the vanity mod is called the ''[https://terrariamods.gamepedia.com/Calamity%27s_Vanities/Plaguebringer_Power_Cell Plaguebringer Power Cell]''. This is referenced in the Fuel Cell Bundle, which was the redesign of the original Plague Caller.
+
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

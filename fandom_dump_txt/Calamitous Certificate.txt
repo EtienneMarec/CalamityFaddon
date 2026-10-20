@@ -1,0 +1,29 @@
+{{Addon|Calamity: Community Remix}}
+{{infobox wrapper
+|{{item infobox
+| type = Misc
+| tooltip = Certificate awarded to <code>player name</code> for completing the Trial of the Calamity<br/>Right-click in the inventory to receive a full copy in your Documents folder
+| rare = 1
+| sell = {{value|0|0|0|0}}
+| stack = 1
+| hardmode = no
+| postml = no
+}}
+|{{item drops infobox
+| [[The Calamity]] |1|100%
+}}
+}}
+The '''Calamitous Certificate''' is an item that is dropped by [[The Calamity]]. When used right-clicked in the inventory, a PNG file will be sent to your documents folder of the full certificate image.
+==Notes==
+*If you already have a certificate file already in your documents folder, text will pop up stating "You were already mailed a certificate".
+==Trivia==
+*It's successor, the [[Calamitous Certificate EX]], does not have a full version.
+==Gallery==
+<gallery>
+File:Calamitous Certificate Full.png|The full certificate.
+</gallery>
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

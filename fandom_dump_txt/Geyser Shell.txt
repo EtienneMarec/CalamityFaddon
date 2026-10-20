@@ -1,0 +1,27 @@
+{{infobox wrapper
+|{{item infobox
+| type = Ammunition
+| tooltip = Shoots out little flak hermits which propel themselves towards enemies<br/>'Little acid buggy'
+| damage = 19
+| damagetype = ranged
+| stack = 9999
+| consumable = yes
+| knockback = 2.1
+| sell = {{value|0|0|1}}
+| rare = 6
+| velocity = 7
+| proj = Flak Hermit (Pet).png
+| projcaption = Baby Flak Crab
+}}
+|{{item drops infobox
+| [[Baby Flak Crab]] when hit with [[Bug Net]] or [[Golden Bug Net]] | 28-76 | 5%
+}}
+}}
+
+'''Geyser Shells''' are Pre-hardmode [[bullets]] that have a chance to drop from [[Baby Flak Crab]]s when hit with a [[Bug Net]] or [[Golden Bug Net]]. They release Baby Flak Crabs which start off slow but quickly accelerate by propelling themselves with steam. They attempt to home towards enemies, but due to their ever increasing speed, they often miss if not aimed carefully.
+{{-}}
+{{Master Template Consumables
+|show-main=yes
+|show-ammo=yes
+}}
+[[Category:Bullets]]

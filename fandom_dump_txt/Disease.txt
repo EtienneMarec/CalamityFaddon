@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 56
+| use = 12
+| tooltip = Enemies release plague seekers on death<br/>Shortflurry attacks summon plague seekers on each hit
+| knockback = 5.5
+| auto = yes
+| stack = 1
+| rare = 8
+| sell = {{value|0|6}}
+| hardmode = yes
+| element1 = Poison
+| element2 = Stab
+| element3 = Machine
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1| {{dv|25%|33.33%}}
+}}
+}}
+
+The '''Disease''' is a [[Hardmode]] [[shortsword]] that is dropped by [[The Plaguebringer Goliath]]. Upon killing an enemy with it, it will release homing plague seekers.
+
+When the weapon's [[Shortstrike]] ability activates, enemies hit by it will automatically spawn plague seekers regardless of living status.
+
+Like every [[shortsword]], it has an incredibly short range, but unlike most other vanilla shortswords, it has autoswing.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]
+[[Category:True melee]]

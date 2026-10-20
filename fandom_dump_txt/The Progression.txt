@@ -1,0 +1,28 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = 10% increased max mana, you heal mana every time you get damage
+| stack = 1
+| rare = 12
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|24}}
+}}
+|{{item drops infobox
+| [[Storm Weaver]]|1|10%
+}}
+}}
+
+'''The Progression''' is a Godseeker Mode [[covering]] that drops from the [[Storm Weaver]]. it increases the max mana by 10% and heals mana every time the player gets damage. The amount of mana healed is the amount of damage taken divided by 2
+
+== Crafting ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+
+{{Master Template Equipables
+|show-main=yes
+|show-coverings=yes
+}}
+[[Category:Restorative coverings]]

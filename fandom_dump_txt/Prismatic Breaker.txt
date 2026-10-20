@@ -1,0 +1,49 @@
+{{dedicated|Arche Princess|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee/Ranged
+| damage = 662
+| critical = 12%
+| knockback = 7
+| use = 13
+| tooltip = Seems to belong to a certain magical girl. Radiates with intense cosmic energy.<br/>Fire to charge for a powerful rainbow laser<br/>Right click to instead swing the sword and fire rainbow colored waves<br/>The sword is boosted by both melee and ranged damage
+| velocity = 14
+| stack = 1
+| auto = yes
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| debuff = Daybroken
+| debuffchance = 100%
+| debuffduration = 5 seconds (Contact)<br/> 2.5 seconds (Beam, Wave)
+| debufftip = Incinerated by solar rays
+| debuff2 = Moon Burnt
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (Contact)<br/> 2.5 seconds (Beam, Wave)
+| debufftip2 = Incinerated by lunar rays
+| proj = Prismatic Wave.png
+| projcaption = Prismatic Wave
+| element1=  Magic
+| element2 = Slash
+}}
+
+The '''Prismatic Breaker''' is a craftable Godseeker Mode [[broadsword]] and [[ranged weapon]]. When used with its primary fire (left-click), the player will hold the sword similarly to a staff, dealing no contact damage. After charging for roughly 1.67 seconds, an infinite-piercing laser is summoned as long as the item is held, with the laser itself being disrupted by tile contact. When used with its secondary fire (right-click), the sword is swung normally and a rainbow wave is fired, piercing tiles and up to two enemies. All attacks are affected by both melee and ranged damage bonuses. It inflicts the [[Daybroken]] and [[Moon Burnt]] [[debuffs]].
+
+{{Modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+| show-ranged = yes
+}}
+[[Category:Swords]]
+[[Category:Ranged weapons]]

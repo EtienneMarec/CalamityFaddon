@@ -1,0 +1,31 @@
+'''Rogue weapons''' are [[weapons]] belonging to the [[Spy|Rogue]] class. They deal rogue damage, a new damage type added by the Calamity Mod. They are usually thrown from the player, and may fall to the ground, return to the player, or disappear into the air. Rogue weapons may be consumable, in which they can typically be picked back up after impacting enemies or blocks, or non-consumable, which may be used infinitely without cost or drops.
+
+
+== Types ==
+<table-progress-tracking table-id="1" unique-column-index="2">
+{| class="terraria sortable lined"
+! colspan=2 | Name !! <abbr title=Damage>DMG</abbr> !! <abbr title="Use Time">UT</abbr> !! <abbr title=Knockback>KB</abbr> !! <abbr title="Shoot Speed/Velocity">SS</abbr> !! <abbr title="Critical Chance">Crit</abbr> !! Auto !! [[Rarity]] !! Consumable !! <abbr title=Hardmode>HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Boomerangs¦Bombs¦Daggers¦Javelins¦Spiky Balls
+| notcategory = Melee weapons
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦/dpl}
+| uses = Template:Item infobox
+| mode = userformat
+| count = 400
+}}
+|}
+</table-progress-tracking>
+
+== Trivia ==
+*Spy weapons were previously [[tgc:Throwing weapons|Throwing weapons]] that dealt Throwing-type damage. However, all of the Calamity Mod's throwing weapons were given the unique Spy damage type in the [[1.4.1.001]] update. This was partially done in preparation for the Throwing class's removal in [[tgc:1.4.0.1#Equipment, Armor, and Weapons|Terraria 1.4: Journey's End]].
+
+{{Master Template Weapons
+| show-main = yes
+| show-spy = yes
+}}
+
+[[Category:Weapon items| ]]
+[[Category:Spy weapons| ]]

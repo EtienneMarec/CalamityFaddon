@@ -1,0 +1,26 @@
+<includeonly>
+{{!}} align="center" rowspan="2" | {{item|{{{name}}}|link=tgc:{{{name}}}|mode=image}}
+{{!}} align="center" rowspan="2" | {{item|{{{name}}}|link=tgc:{{{name}}}|mode=text}} 
+! Old
+{{!}} align="center" | {{{pickold|-}}}
+{{!}} align="center" | {{{axeold|-}}}
+{{!}} align="center" | {{{hamold|-}}}
+{{!}} align="center" | {{{speedold|-}}}
+{{!}} align="center" | {{{boostold|-}}}
+{{!}} align="center" rowspan="2" | {{{autofire|-}}}
+{{!}} align="center" rowspan="2" | {{{truemelee|-}}}
+{{!}} align="{{#if:{{{notes|}}}|left|center}}" rowspan="2" | {{{notes|-}}} 
+{{!-}}
+! New
+{{!}} align="center" | {{{picknew|-}}}
+{{!}} align="center" | {{{axenew|-}}}
+{{!}} align="center" | {{{hamnew|-}}}
+{{!}} align="center" | {{{speednew|-}}}
+{{!}} align="center" | {{{boostnew|-}}}
+{{!}}-
+</includeonly>
+<noinclude>
+Creates a row for the [[Vanilla changes/Tool balance]] table.
+
+[[Category:Formatting templates]]
+</noinclude>

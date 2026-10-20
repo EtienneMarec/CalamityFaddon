@@ -1,0 +1,26 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = +20 max life<br/>Standing still boosts life regen
+| rare = 1
+| sell = {{value|0|0|20}}
+| stack = 1
+}}
+|{{item drops infobox
+|[[Pink Jellyfish]]| 1 |{{dv|7.5%|12.5%}}
+|[[Mirage Jelly]]| 1 |{{dv|14.29%|20%}}
+}}
+}}
+
+The '''Life Jelly''' is a [[Pre-Hardmode]] [[covering]] dropped by [[Pink Jellyfish]] and [[Mirage Jelly]]. It gives the player 20 more HP and boosts life regeneration by +4 while standing still. It can be combined with [[Mana Jelly]] and [[Vital Jelly]] in order to craft the [[Grand Gelatin]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Restorative coverings]]

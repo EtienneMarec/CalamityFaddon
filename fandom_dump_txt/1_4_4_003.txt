@@ -1,0 +1,54 @@
+{{patch infobox
+| image = Baby Flak Hermit Cage.png
+| patchname = Critter Cage Update
+| release = 4/19/2020
+| pair = 1.4.4.003 (music)
+}}
+The '''1.4.4.003''' (or '''1.4.4.3''') update added [[Critter Cages]] along with a few other items.
+
+== Additions ==
+*Added [[Baby Flak Hermit Cage]], [[Baby Ghost Bell Jar]], [[Piggy Cage]], [[Sea Minnow Jar]], and [[Twinkler in a Bottle]].
+*Added [[Living Brimstone Fire Block]], [[Living God Slayer Fire Block]], and [[Living Holy Fire Block]].
+*Added [[Relic of Convergence]] and [[Relic of Resilience]].
+*Added [[Resilience Cooldown]].
+
+== Changes ==
+=== Balance ===
+*Added [[stealth strike]] effects for [[Crystal Piercer]], [[Cursed Dagger]], [[Gel Dart]], [[Ichor Spear]], [[Lionfish]], [[Mycoroot]], and [[Sand Dollar]].
+*[[Dark Sun Ring]] now provides both of its bonuses during a [[Solar Eclipse]].
+*Nerfed [[Dormant Brimseeker]]'s damage from 50 to 42, and it now deals 50% damage to [[Aquatic Scourge]] and [[The Destroyer]].
+*[[Draconic Elixir]] and Auric Silva Revive are now half as effective.
+*Nerfed [[Endo Hydra Staff]]'s damage from 800 to 400, and increased hit cooldown from 10 to 100.
+*[[Nucleogenesis]] explosions now have a softcap of 100 damage. Any increase in base damage over 400 gets reduced to 2.5% instead of 25%.
+*[[Rainbow Gun]] now deals 25% damage to [[Aquatic Scourge]] and [[The Destroyer]].
+*[[SHPC]] explosions now deal 25% damage to [[Aquatic Scourge]].
+*Nerfed [[Spikecrag Staff]]'s damage from 120 to 70.
+*Nerfed [[Tactical Plague Engine]]'s damage from 54 to 45, but increased missile damage from 100% base damage to 150%.
+
+=== Additional Changes ===
+*Calamity [[Beds]] and [[Bathtubs]] can now be placed on tiles.
+*Added a tooltip for [[Crystal Piercer]].
+*Increased [[Gamma Slime]]'s [[Lead Core]] drop chance from 1% to 3.33%.
+*[[Hardened Sulphurous Sandstone]] now places its own tile instead of [[Sulphurous Sand]].
+*[[Sulphurous Vines]] now glow.
+
+=== Resprites ===
+*Resprited [[Alluring Bait]], [[Amidias' Pendant]], [[Anechoic Plating]], [[Spirit Glyph]].
+*Resprited [[Amidias' Trident]], [[Comet Quasher]], [[Coral Cannon]], [[Cosmic Rainbow]], [[Magical Conch]], [[Sand Dollar]], [[Shellshooter]], [[Snap Clam]], and [[Waywasher]].
+*Resprited [[Desert Medallion]], [[The Dragonfolly (Lore)]].
+*Resprited [[Burning Blood]], [[Clammed]], [[Hermit Crab (buff)]], [[Holy Flames]], [[Holy Inferno]], [[Spirit Defense]], [[Spirit Power]], and [[Spirit Regen]].
+
+== Fixes ==
+*Fixed [[Acidwood]] trees only growing on submerged [[Sulphurous Sand]].
+*Fixed an oversight where the [[Arctic Bear Paw]] is still sold at all times.
+*Fixed [[Eternity]] working on [[Town NPCs]].
+*Fixed a bug with the [[Eutrophic Shelf]].
+*Fixed [[Flak Toxicannon]] applying [[Irradiated]] to players instead of enemies.
+*Fixed [[Nuclear Terror]]'s large Nuclear Bullets not inflicting [[Sulphuric Poisoning]].
+*Fixed a bug with the [[Profaned Soul Artifact]] challenge.
+*Fixed several [[Rare item variant]] drop rate oversights.
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

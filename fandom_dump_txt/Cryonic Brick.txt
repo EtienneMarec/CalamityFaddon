@@ -1,0 +1,31 @@
+{|align=right
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| use = 14
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| auto = yes
+| rare = 0
+| color = #6383C7
+| sell = No value
+| hardmode = yes
+}}
+|}
+
+'''Cryonic Brick''' is a craftable [[Hardmode]] [[block]] crafted with [[Cryonic Ore]] and [[Stone Block]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Cryonic}}
+{{Master Template Tiles
+| show-main   = yes
+| show-blocks = yes
+}}
+[[Category:Block items]]

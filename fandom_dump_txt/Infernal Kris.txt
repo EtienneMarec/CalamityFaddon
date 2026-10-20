@@ -1,0 +1,44 @@
+{{item infobox
+| type = Weapon
+| damagetype = Spy
+|consumable = true
+| damage = 24
+| auto = yes
+| use = 17
+| knockback = 1
+| tooltip = Throws a burning dagger that starts spinning after travelling a short distance, inflicting additional damage while spinning<br/>Stealth strikes cause the dagger to be engulfed in flames, exploding on contact with walls and enemies
+| velocity = 15
+| stack = 9999
+| rare = 3
+| sell = {{value|0|0|1}}
+| debuff = On Fire!
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 1.5 seconds (Cinder)<br/>3 seconds (Explosion)<br/>3-5 seconds (Dagger)<br/>4-7 seconds (Stealth Strike Dagger)
+| proj = Infernal Kris Cinder.png
+| projcaption = Burning Cinder
+| element1 = Fire
+| element2 = Stab
+}}
+
+'''Infernal Krises''' are craftable [[Pre-Hardmode]] [[daggers]]. When used, a dagger is thrown that begins to spin after traveling a short distance. While spinning, each dagger does 75% more damage. The daggers can pierce one enemy before breaking on the second. When contacting an enemy they inflict the [[On Fire!]] [[debuff]] for two seconds. They have a 50% chance of being recovered after being thrown.
+
+Performing a [[stealth strike]] with Infernal Krises will cause the next dagger thrown to glow orange, create an explosion upon contact with a tile or an enemy and create several burning cinder projectiles when impacting.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*A [[wikipedia:Kris|kris]] is a traditional Indonesian dagger. But, unlike Infernal Krises, a real kris is used like a shortsword instead of thrown.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Daggers]]

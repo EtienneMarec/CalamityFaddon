@@ -1,0 +1,21 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Supreme Calamitas Hit Cap Hotfix
+| release = 10/14/2017
+}}
+
+The '''1.2.2.002''' update adjusted [[Supreme Calamitas]]' hit cap, and fixed a bug.
+
+{{toc limit|3|right=yes}}
+
+== Changes ==
+=== [[Bosses]] ===
+*Increased [[Supreme Calamitas]]' hit cap from {{dv|40|30|25}} to {{dv|40|35|30}}.
+
+=== Fixes ===
+*[[lol]] should now let the player properly bypass Supreme Calamitas' hit cap if they meet the conditions for it to not kill the player.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

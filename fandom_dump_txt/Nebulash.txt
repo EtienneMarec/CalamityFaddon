@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 60
+| use = 18
+| knockback = 2
+| velocity = 24
+| auto = yes
+| tooltip = Fires a whip sword that emits particle explosions on hit
+| stack = 1
+| rare = 7
+| sell = {{value|0|12}}
+| hardmode = yes
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 4 seconds (Flail)
+| proj = Nebulash Flail.png
+| projcaption = Nebulash
+| element1 = Magic
+| element2 = Machine
+|}}
+|{{item drops infobox
+| [[Astrum Aureus]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+
+The '''Nebulash''' is a [[Hardmode]] [[flail]] dropped by [[Astrum Aureus]]. It fires a swinging whip-like projectile that deals damage to [[enemies]] it comes in contact with, similar to the [[Solar Eruption]]. On enemy hits it causes a short lasting dust that deals an additional 50% damage.
+
+{{modifier|meleealt}}
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-melee = yes
+}}
+[[Category:Flails]]

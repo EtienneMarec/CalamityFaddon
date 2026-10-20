@@ -1,0 +1,76 @@
+{{npc infobox
+| type = Flying Enemy
+| type2 = Burrowing Enemy
+| type3 = Aquatic
+| environment = Sulphurous Sea
+| ai = Aquatic Seeker AI
+| life = {{dv|69|264}}
+| defense = 5
+| knockback = 100
+| money = {{sc|5}}
+| banner = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| listexclude = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| resistant1 = Water
+| resistant2 = Poison
+| vulnerable1 = Slash
+| vulnerable2 = Cold
+}}
+
+The '''Aquatic Seeker''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Sulphurous Sea]] [[biome]]. It is a horned fish that flies through the air towards the player, attempting to hurt them via contact damage and inflicting the [[Venom]] and [[Bleeding]] [[debuff]]s as it does so.
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Flying Enemy
+| type2 = Burrowing Enemy
+| type3 = Aquatic
+| name = Aquatic Seeker Head
+| ai = Aquatic Seeker AI
+| life = {{dv|69|264}}
+| damage = {{dv|20|boost=0.25}}
+| defense = 5
+| knockback = 100
+| debuff = Venom
+| debufftip = Losing life
+| debuffchance = 100%
+| duration = 2 seconds
+| debuff2 = Bleeding
+| debufftip2 = Cannot regenerate life
+| debuffchance2 = 100%
+| duration2 = 2 seconds
+}}
+|{{npc infobox
+| type = Flying Enemy
+| type2 = Burrowing Enemy
+| type3 = Aquatic
+| name = Aquatic Seeker Body
+| ai = Aquatic Seeker AI
+| life = {{dv|69|264}}
+| damage = {{dv|15|30}}
+| defense = 10
+| knockback = 100
+}}
+|{{npc infobox
+| type = Flying Enemy
+| type2 = Burrowing Enemy
+| type3 = Aquatic
+| name = Aquatic Seeker Tail
+| ai = Aquatic Seeker AI
+| life = {{dv|69|264}}
+| damage = {{dv|5|10}}
+| defense = 20
+| knockback = 100
+}}
+}}
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

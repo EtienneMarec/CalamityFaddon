@@ -1,0 +1,334 @@
+{{toc limit|3}}
+= Lunatic Cultist =
+{{collapse top|Lunatic Cultist (Click to open)|(Click to collapse)}}
+{{npc infobox
+| name = Lunatic Cultist
+| type = Boss
+| damage = 0 (contact)<br/>{{dv|36|72}} (Shadow Fireball)<br/>{{dv|70|100}} (Ice Mist)<br/>{{dv|60|80}} (Fireball)<br/>{{dv|90|120}} (Lightning Orb)<br/>{{dv|120|160}} (Ancient Light)<br/>{{dv|30|45}} (Ancient Doom)<br/>{{dv|60|180}} (Prophecy's End)
+| life = {{dv|38,400|48,000|80,000}} (total)
+| defense = 47 / 27 (≤50% health)
+| dr = 10
+| knockback = 100
+| debuff = On Fire! | debufflink = yes
+| duration = {{dv|0.5-2.5 seconds|1-5 seconds}}
+| debufftip = Slowly losing life
+| money = {{dv|{{gc|10}}|{{gc|25}}}}
+| Greater Healing Potion|5-15|100%
+| Ancient Manipulator|1|100%
+| custom| {{item|Lunatic Cultist (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|The Red Moon (Lore)|note=(During a [[Blood Moon]])|wrap=y}}|100%
+| Ancient Cultist Trophy|1|10%
+| Ancient Cultist Mask|1|14.29%
+| Eidolon Staff|1|{{dv|20%|33.33%}}
+| Thorn Blossom|1|2.5%
+| boxwidth = 24em
+| hardmode = yes
+| image2 = Map Icon Lunatic Cultist.png
+| image2caption = Map Icon
+}}<section end=npc infobox />
+{{dablink|If you were looking for the Lunatic Cultist on the vanilla wiki, click [[tgc:Lunatic Cultist|here]].}}
+
+The '''Lunatic Cultist''' is a [[Hardmode]] [[boss]]. The Lunatic Cultist can be spawned at any point in Hardmode through the use of an [[Eidolon Tablet]] or by killing the [[Cultist]]s at the [[Dungeon]] after [[Golem]] is defeated.
+
+Defeating the Lunatic Cultist grants the player the [[Ancient Manipulator]] and spawns the [[Lunar Events]], giving access to late game resources and items, and is necessary to summon the [[Moon Lord]].
+
+== Spawn ==
+The Lunatic Cultist can be summoned through either of the following methods:
+*Killing the [[Cultist]]s that spawn at the entrance of the [[Dungeon]] after defeating [[Golem]] for the first time. The Cultists respawn substantially faster than in vanilla.
+*Using an [[Eidolon Tablet]] dropped by an [[Eidolist]]. This method allows the Lunatic Cultist to be summoned at any point in Hardmode; however, the Eidolon Tablet will not work if the Lunar Events are already active.
+
+== Behavior ==
+The Cultist, his clones, and ancient dooms will no longer deal contact damage. Max health increased for Normal and [[Expert Mode]].
+
+=== In [[Revengeance Mode]] ===
+The Lunatic Cultist's attacks are buffed and certain mechanics are changed. Any projectile that homes in on the player can make sharper turns.
+Specific changes to attacks are as follows:
+
+Ritual
+*Clones do not have hitboxes
+*Homing weapons will not home in on the Cultist during this attack
+*Clones will no longer despawn if the Cultist is hit before completing this attack
+**Keep in mind that hitting the Cultist in time still prevents the Phantasmal Dragon and Ancient Vision from spawning
+*Time window to hit the Cultist during this attack is decreased as his health is lowered
+Lightning
+*Inflicts the [[Electrified]] [[Debuffs|Debuff]] for three seconds
+Ice mists
+*Fires two instead of one
+*Inflicts the [[Frozen]], [[Chilled]] and [[Frostburn]] for 1, 2 and 4 seconds respectively
+Shadow Fireballs & Ancient Doom Projectiles
+*Inflicts the [[Shadowflame]] debuff for two seconds.
+
+=== In [[Death Mode]] ===
+*Projectiles travel faster
+*Ancient dooms explode faster
+*Moves faster while relocating
+
+=== During the [[Boss Rush]] ===
+*Max health increased to {{dv|2,640,000|3,300,000|4,675,000}}
+
+== Aftermath ==
+*[[Atlas]]es spawn three times as often and gain increased stats.
+*The Lunar Events immediately begin
+
+== Tips ==
+{{dablink|For a Normal and Expert mode guide to the Lunatic Cultist, see [[tgc:Guide:Lunatic Cultist strategies|Lunatic Cultist strategies]] on the vanilla wiki.}}
+
+=== General ===
+*Though the Lunatic Cultist can be summoned at any point in Hardmode using an [[Eidolon Tablet]], defeating some early and mid-game Hardmode bosses is generally advisable before attempting the fight. Even successfully defeating the Lunatic Cultist will cause the [[Celestial Pillars]] to spawn, which can be problematic to deal with using poor equipment, and destroying the pillars always causes the [[Moon Lord]] to spawn.
+
+=== Gearing Up ===
+
+=== Armor ===
+*[[Hydrothermic armor]] is a top-tier armor for all classes.
+*[[Beetle armor]] has great defensive and offensive options for Melee users.
+*The healing bonus from [[Spectre armor]] can be useful to switch to for Mages.
+*Rangers have access to [[Plague Reaper armor]], which has a difficult-to-use but powerful set bonus.
+*Summoners can use [[Plaguebringer armor]] for more minion slots and added plague effects.
+
+==== Accessories ====
+*At this Point of the game, [[Angel Treads]] are a must.
+*The [[Asgard's Valor]] can be used to provide a dash.
+*The [[Blood Pact]] is an accessory which doubles our max health, But allows '''US''' to get critically hit 1/4th of the time.
+*The [[The Community]]'s Decent Buffs to all stats can be utilized here.
+*The [[Fishron Wings]] are almost the highest tier wings available at this point.
+** Despite that, The [[Hadal Mantle]] can be used because of it's vertical mobility.
+*The [[Celestial Shell]] should be used if the player is doing a Melee playthrough.
+*The Player should use their respective emblems to maximize the damage output.
+*The [[Vampiric Talisman]] should definetly be utilized here for rogue players
+*The [[Star-Tainted Generator]] should be utilized if the player is playing summoner 
+==== Melee ====
+*The [[Possessed Hatchet]], Still Being a vanilla weapon, is viable against it.
+*[[The Microwave]] Utilized with the [[Yoyo Bag]] can deal lots of amount of damage.
+*[[Keelhaul]] is also proved a really nice weapon since the cultist stops at one place for at least a second.
+*The [[Ultimus Cleaver]] still stands being a good weapon.
+*The [[Aegis Blade]] can demolish lunatic cultist in a minute, But it is a legendary item so it can be hard to obtain.
+*The [[Vampire Knives]] is a weapon which can provide lifesteal.
+==== Ranger ====
+*The [[Realm Ravager]] is a good option, but needs to be aimed on the cultist and is not homing.
+*The [[Star Sputter]] also acts as a really nice weapon if one has defeated [[Astrum Deus]].
+*The [[Blossom Flux]] is a weapon which absolutely shreds Lunatic cultist, However, it's a legendary weapon so it can be hard to obtain it
+*The [[Aerial Bane]] is a nice bow with extra projectiles so it magnifies the damage output.
+*The [[Snowman Cannon]] is obtained fairly easily and is a good weapon for the cultist.
+*The [[Sea's Searing]] is still a viable weapon, although It's a legendary drop so it can be hard to obtain.
+==== Mage ====
+*The [[Razorblade Typhoon]] is an awesome weapon for this purpose because of moderate DPS and homing.
+*The [[Laser Machinegun]] can be used but it drains mana extremely quickly.
+*The [[Everglade Spray]] can be utilized with any other weapon to inflict [[Ichor]]/[[Cursed Inferno]] on The Cultist.
+*The [[Forbidden Sun]] can be used because of the high DPS it gives.
+*The [[Razorpine]] will deal A lot of DPS at the cost of a bit decreased range.
+*The [[Tears of Heaven]] has very little mobility, but has stacked projectiles and are homing, So it can deal a good amount of DPS.
+==== Summoner ====
+*The [[Godspawn Helix Staff]] is a really nice weapon if you have defeated Astrum Deus.
+*The [[Resurrection Butterfly]] is a cheap weapon and is powerful against the Cultist.
+*The [[Spikecrag Staff]] is a stationary sentry so it has no mobility, but deals a lot of damage if used atleast 2.
+*The [[Hive Pod]] is another sentry weapon powerful enough to give a fight with it.
+*The [[Xeno Staff]], If used in a good number, can deal a very high amount of damage.
+*The [[Borealis Bomber]] is a summoner weapon which dosen't count summon slots but uses mana instead and deals nice DPS.
+==== Rogue ====
+*The [[Corpus Avertor]] is a nice option in the rogue class which drops from the [[Ravager]].
+*The [[Fallen Paladin's Hammer]] deals a good amount of DPS in the cost of decreased range.
+*The [[Malachite]] can absolutely shred the cultist, however, It's a legendary weapon and can be hard to obtain.
+*The [[System Bane]] can be also utilized if the player wants to use a rechargeable weapon.
+*The [[Auroradical Throw]] is a weapon which has a spliting ability and has good base damage.
+*The [[Heavenfallen Stardisk]] is a weapon obtained post-[[Astrum Aureus]] and has nice damage if stacked together.
+==== Classless ====
+*The [[Golden Gun]] gun is a weapon which deals classless damage and is nice.
+*The [[Lunic Eye]] does a similar function.
+*The [[Yanmei's Knife]] is a melee option which deals Classless damage.
+
+{{Guides
+| show-main=yes
+| show-boss=yes
+}}
+
+{{Collapse bottom}}
+{{-}}
+
+= Moon Lord =
+{{collapse top|Moon Lord (Click to open)|(Click to collapse)}}
+<section begin=npc infobox />
+{{npc infobox
+| name = Moon Lord
+| imagealt = [[File:Moon Lord.png|300px]]
+| type = Boss
+| environment = Lunar Events
+| damage = ''(Varies per attack)''
+| life = {{dv|145,000|217,500|336,000}} (total)
+| defense = ''(Varies per part)''
+| dr = 5
+| knockback = 100
+| debuff = Moon Bite | debufflink = yes
+| duration = {{dv|14 seconds|16 seconds}}
+| debufftip = You are unable to absorb healing effects
+| money = {{dv|{{pc|1}}|{{value|2|50}}}}
+| Luminite|{{dv|70-90|90-110}}|100%
+| Portal Gun|1|100%
+| Celestial Onion|1|100%
+|group|One of the following 9 items will always drop<br/>|9
+| Meowmere|1|11.1%
+| Terrarian|1|11.1%
+| Star Wrath|1|11.1%
+| S.D.M.G.|1|11.1%
+| Last Prism|1|11.1%
+| Lunar Flare|1|11.1%
+| Rainbow Crystal Staff|1|11.1%
+| Lunar Portal Staff|1|11.1%
+| Celebration|1|11.1%
+| Super Healing Potion|5-15|100%
+| Moon Lord Trophy|1|10%
+| Moon Lord Mask|1|14.29%
+| custom| {{item|Moon Lord (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Moon Lord)|Treasure Bag|note=(Moon Lord)|wrap=y}}
+: • {{item|Gravity Globe|wrap=y}}
+: • {{item|Suspicious Looking Tentacle|wrap=y}}|{{expert|100%}}
+| custom| {{item|Utensil Poker|wrap=y}}|{{dv|11.11%|12.5%}}
+| custom| {{item|Grand Dad|wrap=y}}|2.5%
+| custom| {{item|Infinity|wrap=y}}|2.5%
+| boxwidth = 24em
+| hardmode = yes
+| image2 = Map Icon Moon Lord.png
+| image2caption = Map Icon
+}}<section end=npc infobox />
+{{dablink|If you were looking for Moon Lord on the vanilla wiki, click [[tgc:Moon Lord|here]].}}
+
+'''Moon Lord''' is a [[Hardmode]] [[boss]]. Though it can technically be fought at any point after the [[Wall of Flesh]] is defeated, it is intended to be the last of the Hardmode bosses the player encounters. Defeating the Moon Lord is required to unlock the final broad group of bosses and content in the ''Calamity'' mod.
+
+While in [[Revengeance Mode]] and [[Death Mode]], Moon Lord gains several changes to its AI and stats, making it substantially more difficult to fight.
+
+== Spawn ==
+Moon Lord can be spawned by fulfilling either of these conditions:
+*Destroying all four [[Celestial Pillars]];
+*Using a [[Celestial Sigil]].
+
+== Segments ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox 
+| name = Moon Lord
+| image = Moon_Lord's_Head.gif
+| type = Boss Part
+<!--| ai = Buffed Moon Lord AI -->
+| damage = 0 (contact)<br/>{{dv|150|300}} (Phantasmal Deathray)<br/>{{dv|60|120}} (Phantasmal Bolt)
+| life = {{dv|45,000|67,500|81,000}}
+| defense = 50
+| dr = 5
+| knockback = 100
+}}
+|{{npc infobox 
+| name = Moon Lord's Hand
+| image = Moon_Lord's_Hand.gif
+| type = Boss Part
+<!--| ai = Buffed Moon Lord AI -->
+| damage = 0 (contact)<br/>80 (contact) (open eye socket)<br/>{{dv|100|200}} (Phantasmal Sphere)<br/>{{dv|60|120}} (Phantasmal Eye)<br/>{{dv|60|120}} (Phantasmal Bolt)
+| life = {{dv|25,000|37,500|45,000}}
+| defense = 40
+| dr = 5
+| knockback = 100
+}}
+|{{npc infobox 
+| name = Moon Lord's Core
+| image = Moon_Lord's_Core.gif
+| type = Boss Part
+<!--| ai = Buffed Moon Lord AI -->
+| damage = 0
+| life = {{dv|50,000|75,000|165,000}}
+| defense = 70
+| dr = 5
+| knockback = 100
+}}
+
+|}
+
+== Behavior ==
+In all modes, [[True Eye of Cthulhu|True Eyes of Cthulhu]] no longer deal contact damage.
+
+=== In [[Revengeance Mode]] ===
+
+=== Phase 1 ===
+Moon Lord spawns a minute after being summoned and immediately begins attacking, cycling through its roster of attacks. It teleports more frequently based on its distance from the player, attempting to stay close at all times.
+
+The Phantasmal Deathray attack sweeps noticeably faster, making it more difficult to avoid. Following the Deathray, the Moon Leech Clots spawned by the Tentacle heal the Moon Lord for 1,250 health each instead of 1,000. Phantasmal Sphere attacks are more spread out and move slowly initially, accelerating over time. Phantasmal Eyes home in for awhile longer than normal.
+
+Defeating each of the Moon Lord's eyes does not disable them, and will instead spawn several True Eyes of Cthulhu. The Moon Lord's eyes continue attacking afterward, but at a reduced frequency and with lower velocity projectiles. True Eyes of Cthulhu do not use their deathray attack in Revengeance Mode, and will instead stick together and attack in sync.
+
+=== Phase 2 ===
+After defeating all three of Moon Lord's eyes, its core is exposed. When this happens, players will take 10% more damage from all sources until the Moon Lord is defeated or leaves.
+
+In the second phase, the Phantasmal Deathray will now penetrate blocks, forcing the player to dodge the attack in order to avoid it. 
+
+=== In [[Death Mode]] ===
+*Clots heal for 1,500 instead of 1,250.
+*All projectiles have their velocity increased.
+*Moon Lord and True Eyes of Cthulhu are more aggressive.
+
+=== During the [[Boss Rush]] ===
+*Moon Lord is the first of the Tier 4 bosses to appear, and the final vanilla boss in the Boss Rush.
+*Moon Lord's total health is set to {{dv|3,100,000|4,650,000|7,980,000}}.
+**The Moon Lord's head is set to {{dv|600,000|900,000|1,080,000}} health.
+**The Moon Lord's hands are each set to {{dv|450,000|675,000|810,000}} health.
+**The Moon Lord's core is set to {{dv|1,600,000|2,400,000|5,280,000}} health.
+
+== Aftermath ==
+*New enemies begin spawning in the [[Hallow]] and the [[Underworld]].
+*[[Exodium Cluster]]s generate within [[Planetoid]]s and [[Floating Island]]s.
+*Enemies during [[Blood Moon]]s are buffed.
+*Enemies in the [[Dungeon]] are buffed and begin spawning [[Phantom Spirit]]s.
+*The [[Bandit]] begins selling the [[Celestial Reaper]].
+*The [[Wizard]] begins selling the [[Celestial Sigil]].
+*The Sand, Cloud, and Brimstone Elementals from the [[Heart of the Elements]] now deal contact damage 6 times per second.
+*The tornadoes from the Sand Elemental now deal damage 6 times per second and pierce infinitely.
+*Sword Spirits from the [[Gladiator's Locket]] now deal 200 damage.
+*[[Sky Crate]]s now drop [[Galactica Singularity|Galactica Singularities]].
+
+== Tips ==
+{{dablink|For a Normal and Expert mode guide to Moon Lord, see [[tgc:Guide:Moon Lord strategies|Moon Lord strategies]] on the vanilla wiki.}}
+
+=== General ===
+*Though the Moon Lord can be fought at any point in Hardmode (through the use of an [[Eidolon Tablet]] and defeating the [[Lunatic Cultist]] and proceeding [[Lunar Events]]), fighting it before the player has defeated most other Hardmode bosses and acquired proper gear is generally ill advised.
+*As in vanilla, the Moon Lord takes one minute to spawn after he is summoned regardless of the method. This period is invaluable for reaching one's arena and making other last minute preparations. 
+=== Gearing Up ===
+==== Armor ====
+*The [[Hydrothermic armor]] and [[Astral armor]] sets are the preferred types for all classes.
+*[[Beetle armor]] is a viable alternative for Melee users wishing to absorb damage. The [[Beetle Shell]] is preferable to the [[Beetle Scale Mail]], as it features the highest total defense of any armor at this stage as well as the [[Beetle Endurance]] buff.
+*The [[Plague Reaper armor]]'s armor set bonus, paired with the ''[[Plague Hive]],'' can be devastatingly effective for Rangers - however, the negative effects of the set bonus debuff make it a risky strategy.
+*Summoners can use [[Spooky armor]], [[Plaguebringer armor]], or [[Valhalla Knight armor]]. Valhalla Knight armor provides an exceptionally high defense for the Summoner class, and its damage boost synergizes well with playstyles that use fewer minions.
+==== Weapons ====
+===== Melee =====
+*The [[Astral Blade]]'s unique damage mechanic and [[Astral Infection (debuff)|Astral Infection]] debuff make it an excellent choice for the first portion of the fight. 
+*The [[Astral Pike]] is very powerful when paired with accessories that boost [[Critical hit|critical hit]] chance, and inflicts the Astral Infection debuff similar to the Astral Blade.
+*[[Terratomere]] rapidly fires homing projectiles that pass through walls, being a reliable and consistent weapon.
+*The ''[[Briny Baron]]'' has a powerful but situational left click attack that can be supplemented by its safer right click function, giving the player the versatility of multiple weapons in one.
+*The [[Solar Eruption]] and [[Daybreak]] are cost-efficient options. The Solar Eruption has a high DPS and moderate range but suffers from its unpredictable swing pattern. Daybreak is less powerful but can be used from a safer distance with more accuracy.
+*The [[Grand Guardian]] is a riskier option as it lacks a ranged projectile, but deals very high true melee damage and can lower Moon Lord's defense.
+*[[The Microwave]] is the best [[Yoyos|yoyo]] at this stage.
+===== Mage =====
+*The [[Astral Staff]] and [[Starfall]] spawn their projectiles at the cursor, making them straightforward options for the fight.
+*[[Nebula Blaze]] has homing projectiles and decent damage, but has a high mana cost. 
+*The [[Thorn Blossom]] is quite powerful, but care must be taken due to the weapon's self-damage mechanic.
+*The [[Nano Purge]] deals high damage once it has reached its full rate of fire.
+*The [[Swarmer]] is exceptionally powerful when paired with the ''[[Plague Hive]]''.
+===== Ranger =====
+*The [[Phantasm]] is an excellent option with a high DPS, especially when paired with [[Terra Arrow]]s. [[Holy Arrow]]s are a less powerful alternative.
+*The [[Conference Call]] is a rare but powerful option that can be obtained during the Lunar Events, best used with [[Hyperius Bullet]]s.
+*Both of the [[Scorpio]]'s fire modes deal high damage, though the secondary fire generally lacks the radius to damage multiple Moon Lord body parts at once.
+**The [[Spectralstorm Cannon]]'s circling projectiles '''can''' be used to hit different parts of Moon Lord's body if used properly.
+*The [[Vortexpopper]], when combined with [[Chlorophyte Bullet]]s, should make the fight fairly straightforward.
+===== Summoner =====
+*The [[Godspawn Helix Staff]] and [[Stardust Cell Staff]] have similar damage outputs, differing primarily in their movement mechanics (the Godspawn Helix spawns a probe that orbits the player in proximity, while the Stardust Cell Staff spawns cells that teleport after the player's target.)
+**Though heavily neutered from its vanilla incarnation, the [[Stardust Dragon Staff]] is still effective with maximized minion count and damage accessories, as it has a range that far exceeds either aforementioned staff's minions.
+*The [[Spikecrag Staff]] is the best sentry available.
+===== Rogue =====
+*The [[Radiant Star]] is an excellent choice for this boss due to its large area of effect and ability to hit multiple eyes.
+*The [[Regulus Riot]]'s homing capability and high damage are useful if keeping some distance from the Moon Lord.
+===== Other =====
+*The [[Golden Gun]] gun is a weapon which deals classless damage..
+*The [[Lunic Eye]] can lower damage reduction.
+*The [[Yanmei's Knife]] is a melee option which deals Classless damage.
+
+{{Guides
+| show-main=yes
+| show-boss=yes
+}}
+
+{{Collapse bottom}}
+{{-}}

@@ -1,0 +1,457 @@
+<section begin=npc infobox />
+{{infobox wrapper
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| name = The Devourer of Gods
+| ai = Torch God AI
+| imagealt = [[File:The Devourer of Gods.png|320px]]
+| life = {{dv|888,750|1,422,000|1,706,400}}
+| knockback = 100
+| debuff = Warped | debufflink = no
+| debuffchance = 100%
+| duration = Infinite (Passive / Blue)
+| debufftip = Movement is being warped
+| debuff2 = Extreme Gravity
+| debuffchance2 = 100%
+| duration2 = Infinite (Aggressive / Purple)
+| debufftip2 = Your wing time is reduced by 25%, infinite flight is disabled
+| immuneall = yes
+| hardmode = yes
+| postml = yes
+| sound = DevourerSpawn.wav
+| soundtext = Spawn
+| sound2 = Item_12.wav
+| sound2text = Laser Wall
+| sound3 = Item_109.wav
+| sound3text = Teleport Telegraph
+| sound4 = DevourerAttack.wav
+| sound4text = Teleport
+| listexclude = yes
+| boxwidth = 29em
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = Torch God 2 AI
+| name = The Devourer of Gods
+| namesub = Final Phase
+| imagealt = [[File:The Devourer of Gods (Final Phase).png|340px]]
+| life = 533,250 / 888,750<br/>{{expert|853,200 / 1,422,000}}<br/>{{revengeance|1,023,840 / 1,706,400}}
+| knockback = 100
+| debuff = Warped | debufflink = no
+| debuffchance = 100%
+| duration = Infinite (Passive / Blue)
+| debufftip = Movement is being warped
+| debuff2 = Extreme Gravity | debufflink2 = no
+| debuffchance2 = 100%
+| duration2 = Infinite (Aggressive / Purple)
+| debufftip2 = Your wing time is reduced by 25%, infinite flight is disabled
+| hardmode = yes
+| immuneall = yes
+| postml = yes
+| money = {{value|0|0|0|0|1}}{{value|20}}
+| Cosmilite Brick|{{dv|155-265|205-335}}|100%
+|group|At least one of the following 6 weapons will always drop:|6
+| Excelsus|1|{{dv|25%|33.33%}}
+| The Obliterator|1|{{dv|25%|33.33%}}
+| Deathhail Staff|1|{{dv|25%|33.33%}}
+| Eradicator|1|{{dv|25%|33.33%}}
+| Deathwind|1|{{dv|25%|33.33%}}
+| Staff of the Mechworm|1|{{dv|25%|33.33%}}
+| Nebulous Core|1|100%
+| Cosmic Discharge|1|10%
+| Norfleet|1|10%
+| Omega Healing Potion|5-15|100%
+| Devourer of Gods Mask|1|14.29%
+| Devourer of Gods Trophy|1|10%
+| Yharim Bar|{{revengeance|1-3}}|100% {{fantag|Calamity: Community Remix}}
+| custom| {{item|The Devourer of Gods (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (The Devourer of Gods)|Treasure Bag|note=(The Devourer of Gods)|wrap=y}}
+: • {{item|Cosmic Plushie|note=(In [[Death Mode]] only)<br/>(With a [[Hardcore]] character)|wrap=y}}|{{expert|100%}}
+| custom| {{item|Discordian Sigil|note=(While under the effects of [[Fabsol's Vodka]])|wrap=y}}|100%
+| custom| {{item|Genesis|note=(Provided no checklist mods are activated)|wrap=y}}|100%
+| listexclude = yes
+| boxwidth = 29em
+}}
+}}{{Addon|Fargo’s Souls DLC (Fargo Souls Mod x Calamity)}}
+<section end="npc" infobox="" />
+{{dablink|This article is about the fishing rod. For the godseeker mode boss with a similar name, see [[The Devourer of Cods]].}}
+
+[[File:Devourer_of_Gods_Trophy.png]] <big> ''"You are no god... but I shall feast upon your meat regardless! "'' </big> [[File:Devourer_of_Gods_Trophy.png]]
+
+'''The Devourer of Gods''' (Japanese: 神を食べる者 ''Amba tu kam'') is a Godseeker Mode [[boss]] that is intended to be fought imediatly after [[Amazon Prime]] has been defeated. The fight against this boss is considered very easy among much of the Calamity Playerbase, esspecially for where he is placed in the game's progression.
+
+Defeating it will cause the [[Starborn Princess]] {{fantag|Calamity: Community Remix}} to sell [[Nightmare Fuel]] and [[Endothermic Energy]], which are essential late-game crafting materials. It will also cause the [[Solar Eclipse]] to become upgraded with new, more difficult enemies.
+
+== Spawn ==
+The Devourer of Gods does not spawn on its own, and requires the player to summon it with the [[Mechanical Worm]] While in the forth layer of the [[Abyss]]. It can be fought only after completing 20 [[Angler]] quests.
+
+When summoned, he will make a {{sound|loud cosmic screech|DevourerSpawn.wav}} instead of the regular boss roar.
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| name = The Devourer of Gods Head
+| ai = Torch God AI
+| life = {{dv|888,750|1,422,000|1,706,400}}
+| damage = {{dv|300|600|650}} / {{death|680}}
+| defense = 50
+| vulnerable1 = Slash
+| resistant1 = Magic
+| resistant2 = Poison
+| resistant3 = Dark
+| knockback = 100
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 5 seconds
+| debufftip = Your flesh is burning off
+| debuff2 = Whispering Death
+| debuffchance2 = 100%
+| duration2 = 7 seconds
+| debufftip2 = Death approaches; defense, movement speed, attack power and life regen reduced
+| image2 = Devourer of Gods map.png
+| image2caption = Map Icon
+| hurt = OtherworldlyHit.wav
+| killed = NPC_Killed_14.wav
+| hardmode = yes
+| postml = yes
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| name = The Devourer of Gods Body
+| ai = Torch God AI
+| life = {{dv|888,750|1,422,000|1,706,400}}
+| damage = {{dv|180|306|340|357}} (Contact)<br/>{{dv|160|276|304|320}} (Laser)
+| defense = 70
+| dr = 92.5
+| vulnerable1 = Slash
+| resistant1 = Magic
+| resistant2 = Poison
+| resistant3 = Dark
+| knockback = 100
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 5 seconds
+| debufftip = Your flesh is burning off
+| debuff2 = Whispering Death
+| debuffchance2 = 100%
+| duration2 = 7 seconds
+| debufftip2 = Death approaches; defense, movement speed, attack power and life regen reduced
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| hardmode = yes
+| postml = yes
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| name = The Devourer of Gods Tail
+| ai = Torch God AI
+| life = {{dv|888,750|1,422,000|1,706,400}}
+| damage = {{dv|150|225|289|306}}
+| defense = 50
+| vulnerable1 = Slash
+| resistant1 = Magic
+| resistant2 = Poison
+| resistant3 = Dark
+| knockback = 100
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 5 seconds
+| debufftip = Your flesh is burning off
+| debuff2 = Whispering Death
+| debuffchance2 = 100%
+| duration2 = 7 seconds
+| debufftip2 = Death approaches; defense, movement speed, attack power and life regen reduced
+| image2 = Devourer of Gods tail map.png
+| image2caption = Map Icon
+| hurt = OtherworldlyHit.wav
+| killed = NPC_Killed_14.wav
+| hardmode = yes
+| postml = yes
+}}
+}}
+
+== Behavior ==
+The Devourer of Gods at its core is a [[Worm AI|worm enemy]], featuring a head trailed by body segments and ending with a tail, flying through the air and digging through blocks. The Devourer of Gods' body segments sport very high Damage Reduction (DR), however its head and tail segments do not and will even take increased damage, rendering them the primary targets for dealing damage. The Devourer of Gods has 82 segments in total during phase 1, and 102 segments in total during phase 2.
+
+When initially spawned, the sky will turn blue and the boss will fly and circle in the air over the player like a [[Crawltipede]]. It will not attempt to physically attack unless the player is a noticeable distance off the ground. The Devourer of Gods can move through air as if it were solid blocks in this mode, and the '''Warped''' [[debuff]] is inflicted on all players, which multiplies their Y velocity by 1.01 every frame, in turn making them slightly floatier. This effect is identical to the [[Caribbean Rum]].
+
+After fifteen seconds (initially), the sky turns purple and The Devourer of Gods descends to the ground, now continuously charging at the player regardless of their distance above the ground. It cannot fly in this state when on-screen, but it gains extremely high acceleration and top speed. Replacing Warped, the '''Extreme Gravity''' [[debuff]] is inflicted on all players, disabling infinite flight and reducing flight time by 25%. This mode also lasts for fifteen seconds, after which The Devourer of Gods turns passive to grounded players and resumes flying, the sky turns blue, and Warped replaces Extreme Gravity.
+
+These modes primarily function on a timer, periodically alternating between the two behaviors. As the Devourer of Gods' health decreases, it spends less and less time in its passive (blue) phase, eventually only switching to it for less than a second. If the player is far away from The Devourer of Gods, it will quickly switch to its aggressive (purple) phase in order to accelerate to them, regardless of the timer.
+
+=== Attacks ===
+*Charges the player if they are airborne while passive (blue). Always charges, and is affected by gravity, while aggressive (purple).
+*All segments inflict the [[God Slayer Inferno]] and [[Whispering Death]] [[debuff]]s upon contact.
+*The Devourer of Gods' movement speed increases upon reaching 92%, 84%, 76%, and 68% health.
+*Upon reaching 90% health, on intervals, fires a barrage of death lasers from the sides of the player, telegraphed by lines, in patterns shaped like an X.
+**These patterns follow a set order of from the right, from the left, from the right and left, and from all 4 cardinal directions.
+**One laser will always be aimed directly at the player.
+**Lasers travel further and faster as The Devourer of Gods loses health.
+*Upon reaching 66% health, the sky turns pitch black, making it difficult to tell which movement method The Devourer of Gods is currently following.
+
+=== Sentinels ===
+After The Devourer of Gods reaches 60% health, it will become intangible and fly into a portal, any remaining Cosmic Guardians (in Revengeance Mode or harder) will disappear, and the player is suddenly attacked by weakened versions of the Sentinels of the Devourer, each one individually attacking the player. They appear in this order, the next Sentinel spawning immediately after the previous Sentinel has been defeated:
+*[[Ceaseless Void]]
+*[[Storm Weaver]]
+*[[Signus, Envoy of the Devourer]]
+
+Should the player take over 2 minutes to kill a Sentinel, the next one will appear regardless of whether the previous one has been killed or not.
+
+If any of the Sentinels have not been defeated in a world, they will not be weakened when encountered in this phase.
+
+After each Sentinel has been defeated, The Devourer of Gods reappears in its final phase with a different appearance, buffed stats, unique movement, and different attacks.
+
+If The Devourer of Gods has reached Phase 2 in a world, this phase does not occur and the fight immediately moves onto the Final Phase once the Devourer enters its portal.
+
+=== Final Phase ===
+<big> ''"It's not over yet, kid!"'' </big>
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = The Devourer of Gods AI
+| name = The Devourer of Gods Head
+| namesub = Final Phase
+| image = The Devourer of Gods Final Phase Head.png
+| life = 533,250 / 888,750<br/>{{expert|853,200 / 1,422,000}}<br/>{{revengeance|1,023,840 / 1,706,400}}
+| damage = {{dv|350|700|750}} / {{death|780}} (Contact)<br/>{{dv|160|276|304|320}} (Laser Wall)<br/>{{dv|180|300|332|348}} (God Slayer Fireball)
+| defense = 50
+| resistant1 = Magic
+| resistant2 = Poison
+| resistant3 = Dark
+| knockback = 100
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 5 seconds (Contact)<br/>3 seconds (Laser Wall)<br/>{{revengeance|5 seconds}} (God Slayer Fireball)
+| debufftip = Your flesh is burning off
+| debuff2 = Whispering Death
+| debuffchance2 = 100%
+| duration2 = 7 seconds
+| debufftip2 = Death approaches; defense, movement speed, attack power and life regen reduced
+| image2 = Devourer of Gods final head map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| boxwidth = 25em
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = The Devourer of Gods AI
+| name = The Devourer of Gods Body
+| namesub = Final Phase
+| image = The Devourer of Gods Final Phase Body.png
+| life = 533,250 / 888,750<br/>{{expert|853,200 / 1,422,000}}<br/>{{revengeance|1,023,840 / 1,706,400}}
+| damage = {{dv|220|374|425|442}} (Contact)
+| defense = 70
+| dr = 92.5
+| resistant1 = Magic
+| resistant2 = Poison
+| resistant3 = Dark
+| knockback = 100
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 4 seconds (Contact)
+| debufftip = Your flesh is burning off
+| debuff2 = Whispering Death
+| debuffchance2 = 100%
+| duration2 = 5 seconds
+| debufftip2 = Death approaches; defense, movement speed, attack power and life regen reduced
+| image2 = Devourer of Gods final body map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| boxwidth = 25em
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = The Devourer of Gods AI
+| name = The Devourer of Gods Tail
+| namesub = Final Phase
+| image = The Devourer of Gods Final Phase Tail.png
+| life = 533,250 / 888,750<br/>{{expert|853,200 / 1,422,000}}<br/>{{revengeance|1,023,840 / 1,706,400}}
+| damage = {{dv|180|306|340|357}} (Contact)
+| defense = 50
+| resistant1 = Magic
+| resistant2 = Poison
+| resistant3 = Dark
+| knockback = 100
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 3 seconds (Contact)
+| debufftip = Your flesh is burning off
+| debuff2 = Whispering Death
+| debuffchance2 = 100%
+| duration2 = 4 seconds
+| debufftip2 = Death approaches; defense, movement speed, attack power and life regen reduced
+| image2 = Devourer of Gods final tail map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| boxwidth = 25em
+}}
+}}
+
+==== Attacks ====
+*Continues previous movement patterns, charging the player if they are airborne while passive (blue), and is gravity-affected but always charging while aggressive (purple).
+**Becomes increasingly aggressive during its passive (blue) phase as it loses health, gaining the ability to charge at the player even if they're on the ground.
+*The Devourer of Gods periodically fires {{item|image=Essence Fireball.gif|10px|nolink=y|God Slayer Fireballs}} from its mouth which inflict [[God Slayer Inferno]]. They are shot around the player or ahead of them if they are moving.
+**The fire rate increases drastically upon the boss reaching 10% health.
+*Upon reaching 45% health, The Devourer of Gods can turn partially invisible and spam quick horizontally and vertically moving laser walls from off screen, with gaps between them for the player to remain in. Occasionally the laser patterns from Phase 1 will also be included with the laser walls, either the horizontal or vertical lasers not appearing in these patterns. The lasers are telegraphed by lines which appear in front of where the lasers will be shot. This will occur every 12 seconds.
+**One laser will always be aimed at the player.
+**The first series will consist of two laser walls, with all others containing three.
+**The same laser wall pattern will never appear twice in a row.
+*Upon reaching 18% health, summons three [[Cosmic Guardian]]s and creates a portal near the player. After a few seconds, the boss will teleport to the portal in a large burst of particles and charge at the player. The boss now gains a speed boost and stops shooting laser walls.
+**The Devourer of Gods becomes invulnerable until it teleports.
+**The Cosmic Guardians cannot hurt the player, nor can the player hurt them, for around 3 seconds after spawning to prevent cheap hits.
+*Upon reaching 9% health, the sky turns pitch black once again.
+
+=== In Expert Mode ===
+*The Devourer of Gods' segments are larger.
+*During the first phase, speed increases even further upon reaching 10% health.
+*Projectiles are fired at much higher rates.
+
+=== In [[Revengeance Mode]] ===
+*During the first phase, summons one Cosmic Guardian at 90% health and two at 68% health.
+*During the final phase:
+**Immediately following a laser wall phase, or if the player strays too far away from the Devourer of Gods, the boss will create a portal near the player before teleporting there and charging at them, with the charge predicting their movement.
+***The portal will create a large explosion of God Slayer Fireballs when the Devourer charges when below 36% health.
+***The portal will disappear if a laser wall phase is about to occur.
+**The laser walls have a different pattern.
+
+=== In [[Death Mode]] ===
+*The sky no longer changes colors to indicate the phases and stays pitch black for the entire fight.
+*The Devourer of Gods always moves at maximum speed, regardless of health.
+*During the final phase:
+**The Devourer of Gods shoots Fireballs at a higher rate.
+**The Devourer of Gods changes more often between the passive and aggressive phases.
+
+=== Summons ===
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align = center |{{item|mode=table|Cosmic Guardian}} || Upon reaching 30% life in his second phase<br/>Upon reaching 75% and 20% life in his first phase in [[Revengeance Mode]]
+|
+|}
+
+== Aftermath ==
+*When the Devourer of Gods is defeated properly, an animation will play with the Devourer continuing in one direction while breaking apart segment by segment from his tail and being torn apart like fabric before exploding in a blinding light similar to [[Providence, the Profaned Goddess]].
+*Once defeated, the [[Starborn Princess]] {{fantag|Calamity: Community Remix}} begins to sell [[Nightmare Fuel]] and [[Endothermic Energy]] for {{gc|12}} each.
+*The [[Solar Eclipse]] becomes more powerful with new enemies.
+*The Offensive and Defensive Guardians from the [[Profaned Soul Artifact]] now deal 150 damage.
+*The [[Bandit]] will begin selling the [[Venerated Locket]].
+*The [[Clothier]] will begin selling all five [[Legacy vanity headpieces]].
+*The [[Agent]] will begin selling the [[Twentloon]].
+*You will maybe stop saying that the Devourer of Gods' theme is from Slap Battles.
+
+== Resistances ==
+*The Devourer of Gods takes decreased and increased damage from some items and projectiles. It takes:
+**0% damage from [[Wave Pounder]].
+**50% damage from [[Sealed Singularity]].
+**85% damage from [[Cruel Jewel]].
+**90% damage from the [[Valediction]]'s stealth strike.
+**115% damage from the [[Time Bolt]]'s stealth strike.
+
+== Notes ==
+*The boss always begins in its airborne passive mode when it spawns.
+*While the Devourer of Gods is alive, the player's horizontal movement speed is reduced, making it harder to outrun the boss.
+*All damage inflicted on the head is multiplied by 1.10, while all damage inflicted on the tail is multiplied by 1.25.
+*The head and tail segments take decreased damage the further the player is from them, up to a maximum of 25% reduced damage.
+*During the final phase, all of The Devourer of Gods' segments appear on the map.
+*The Devourer of Gods' body segments in both phases and the tail in the final phase are invulnerable for 6 seconds upon spawning. Additionally, the tail in the first is invulnerable for 12 seconds upon spawning.
+*Enraging the Devourer of Gods with [[Demonshade armor]] will instantly trigger laser walls for the debuff's duration. The Devourer of Gods will remain visible for the debuff's duration if it was visible when enraged. Similarly, it will remain invisible for the debuff's duration if it was invisible when enraged.
+*All of the Devourer of Gods' loot will spawn at the nearest segment with the exception of the [[Cosmilite Brick]]s and [[Heart]]s which will always spawn at the head.
+*While not visible, [[Boss Effects]] is still applied to players during transition from Phase 1 to Phase 2.
+*When playing in a multiplayer world, upon reaching its second phase, the Devourer of Gods will appear near the player closest to the world spawn. This can pose an issue if one is not prepared, as arenas will often be made far away from spawn, and [[Town NPC]]s kept close to it.
+*When the Boss transitions between the first phase and the following one all segments except for the tail lose their contact damage.
+*It is a requirement to kill the Devourer's Cosmic Guardians to end the fight properly. Failing to kill all three will cause the Devourer to die regularly instead of go through his special death animation.
+*The Devourer of Gods is the final boss fought during the [[Boss Rush]], and defeating him during this event will reward the player with the [[Rock]] and [[Genesis]] {{fantag|Calamity: Community Remix}}.
+
+== Tips ==
+''For more elaborate strategies on defeating The Devourer of Gods, including [[weapon]] and arena recommendations, see [[Guide:The Devourer of Gods strategies]].''
+
+*By building a very long platform at least half the screen's height off the ground and using the high-speed sprint of the [[Seraph Tracers]], The Devourer of Gods can be lured and trapped under the platform if the player temporarily drops below it while the boss is in its aggressive ground-based mode.
+*The Devourer of Gods' body has very high damage reduction. Because of this, the head and tail should be prioritized and aimed for as much as possible.
+*In [[Revengeance Mode]], save up the [[Rage Meter|Rage]] for the first Cosmic Guardian and the [[Adrenaline]] for the last two. This will make dealing with them much easier. Keep in mind that Adrenaline is set to 0 when you are hit, so be careful while holding it.
+*While The Devourer of Gods uses its laser wall spam attack during the final phase, its segments are unable to deal damage until they fully materialize back.
+*This battle can cause severe FPS drops throughout the fight on low-end devices, especially in Death Mode, thus it would be wise to not spam a lot of projectiles to reduce the lag as much as possible. This is especially the case with weapons that emit many particles or shoot many projectiles.
+**This can, however, give the player more time to react to the boss’ attacks. This is especially valuable when the boss spams the lasers in its second phase, where the player will have more time to react and avoid the lasers.
+*Avoid flying up in the air for too long if possible. Because the player has increased vertical movement, they will be susceptible for longer to the Devourer’s attacks.
+*The Devourer of Gods decreases player's horizontal speed over time, making it very difficult to outrun the boss with speed accessories like [[Angel Treads]] and [[Seraph Tracers]].
+**Dash accessories can be used to increase horizontal speed and counter the speed decrease for a short amount of time, providing a powerful combo when paired with the aforementioned speed accessories.
+*The Devourer of Gods could be fought before any other post-Moon Lord boss is defeated, though it is highly recommended that the player defeats [[Polterghast]] before attempting the fight, as the Devourer's very fast speed, high damage, and complex attack pattern makes the fight extremely difficult.
+*During phase transition the tail segment doesn't lose its contact damage and thus should still be avoided.
+*Like all other Godseeker [[Bosses]], it is adviced to use the [[Bee Wings]] as the boss inflics the [[Extreme Gravity]] debuff, which removes all flight except for [[Bee Wings]] flight.
+
+== Trivia ==
+*The Devourer of Gods' first phase [[Music|theme]] is [https://www.youtube.com/watch?v=-Syn1mJVt7U '''Scourge of The Universe'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**This theme continues to play while fighting the weakened Sentinels of the Devourer after the Devourers' first phase is defeated, despite them having their own themes during their individual boss fights.
+**If the Calamity Music add-on mod is disabled, you cant play the mod are you stupid
+**Prior to the release of Scourge of The Universe, The Devourer of Gods' theme was a remix of "Last Battle" from the game ''Cave Story'', known as [https://www.youtube.com/watch?v=-u_D3afnK7U '''Last Battle (Ballos Mix)'''], also made by DM DOKURO.
+*Before The Devourer of Gods' final phase spawns, its theme changes to [https://www.youtube.com/watch?v=srjhoxEE4Uk '''UNIVERSAL COLLAPSE'''], which was also composed by DM DOKURO.
+**If the Calamity Music add-on mod is disabled, the [[Moon Lord]]'s theme will play instead.
+*The boss is a direct reference to [https://alexs-mobs-bestiary.fandom.com/wiki/Void_Worm The Void Worm] from the [https://minecraft.fandom.com/wiki/Minecraft_Wiki Minecraft] mod [https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwigt4zN_K79AhUnArcAHZBhD2gQFnoECAgQAQ&url=https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Falexs-mobs&usg=AOvVaw12xKOklmPUkwaGNtBbkwMv Alex's Mobs,] including its ability to teleport.
+*The Devourer of Gods is a bottom.
+*In the 1.5.1.004 update, which was intended to fix a bug with The Devourer of Gods, instead got the second phase temporally removed for unknown reasons.
+*The Devourer of Gods' has a [[Draedon's Logs#Space|Draedon's Log]] entry dedicated to it (more specifically its armor) that can be found in the [[Space Bio-center Lab]].
+*The Devourer of Gods' second phase boasts 102 individual segments, making it one of the two longest bosses in the mod, the other being [[The Fabricational Quartet|Thanatos]].
+*Unlike other worm bosses, The Devourer of Gods has map icons for both its head and tail during its first phase and has directionally-accurate map icons for every single segment during its final phase.
+*In [[Death Mode]], if The Devourer of Gods' head kills the player, a special [[death message]] will appear stating "<PlayerName>'s essence was consumed by the devourer."
+**In previous version of the mod, the head would instantly kill the player and trigger the same death message.
+*The Devourer of Gods' is canonically named "Doggo".
+*Wearing the [[Cosmic Plushie]] has the ability to spawn The Devourer of Gods in its final phase if the character is named 'Terry' and is standing in a very dark area.
+*According to the [[lore]], The Devourer of Gods is the same species as the [[Storm Weaver]], meaning that it likely has the same type of flesh underneath its armor.
+*The Devourer of Gods' name is a reference to [https://darksouls3.wiki.fextralife.com/Aldrich,+Devourer+of+Gods Aldrich, Devourer of Gods] from ''[[wikipedia:Dark Souls III|Dark Souls III]]''
+*The Devourer of Gods' quote "Don't get cocky, kid!" is a reference to a line spoken by ''Senator Armstrong'' in ''[[wikipedia:Metal_Gear_Rising:_Revengeance|Metal Gear Rising: Revengeance]]''.
+**This line was, in turn, a reference to a line spoken by Han Solo in ''Star Wars Episode IV: A New Hope''
+**This quote is the same quote when the [[Cosmic Plushie]] spawns a Cosmic Guardian in a very dark area, even when The Devourer of Gods is not being fought
+*The Devourer of Gods' quote "Nothing personal, kid." is likely a reference to the "''*Teleports Behind You* Nothing Personal, Kid"'' meme.
+*The Devourer of Gods' laser wall attack was inspired by a similar attack used by [https://hollowknight.fandom.com/wiki/Radiance The Radiance] from the game ''[[wikipedia:Hollow Knight|Hollow Knight]]''.
+*All of The Devourer of Gods' quotes are internally named "EdgyBossText".
+*The Devourer of Gods is one of the two bosses that drop a Death Mode exclusive item, the other being [[Supreme Calamitas]].
+*The Devourer of Gods can be summoned sometime after the Moon Lord is defeated, as its summoning item can be crafted without needing to defeat the Sentinels of the Devourer.
+*Several Devourer of Gods features were present in previous versions of the mod that have since been removed or changed:
+**Using the [[Rod of Discord]] at any point during the fight instantly drains the all of a player's life away.
+**The Devourer of Gods used to drop the [[Murasama]] at a guaranteed rate in Revengeance Mode, however it is now found in [[The Underworld]] [[Arsenal Lab]].
+**The Devourer's first phase has had no resprites, since the developers were able to perfect the design the first tine.
+***This means that the current ingame sprite is actually its concept art.
+**The Devourer of Gods' final form's [[Boss Health Bar|boss health bar]] intentionally started at 600% instead of 100%, alluding to its increased armor and health.
+**The Devourer of Gods used to spawn [[Stasis Probe]]s and tiny worms known as [[Devourer Spawn]] when hurt, similar to [[The Destroyer]]'s spawning [[Probe]]s.
+**Getting hit by The Devourer of Gods' head in [[Death Mode]] used to result into an instant death for the player.
+***The death message for dying this way was "<PlayerName>'s essence was consumed by the devourer."
+**The Devourer of Gods was unable to take any damage that would deal half of its health, such as butcher or an incredibly powerful weapon from another mod.
+***When this happened, the quote "You think...you can butcher...ME!?" would appear. This quote was a reference to a line spoken by the [https://fallout.fandom.com/wiki/Master Master] in ''Fallout 1''.
+**The Devourer of Gods was originally considered a keystone boss that would lead to several major changes in the world including the buffings of the [[Solar Eclipse]], [[Frost Moon]], and [[Pumpkin Moon]] events, causing them to drop the seasonal essences.
+*Comments in the code for the Devourer of Gods' AI imply that, in his youth, he lived in an abandoned apartment complex in the suburbs of Detroit. This, however, is not considered to be part of Calamity lore.
+*The Devourer of Gods was one of the first bosses added to the Calamity Mod, along with the [[Desert Scourge]] and [[The Slime God]].
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, his unique despawn message will be "The Devourer of Gods eat the meat."
+
+== Quotes ==
+*"BEHOLD! THE POWER OF A WORM!" (When The Devourer of Gods is spawned)
+*"THERE CAN BE ONLY LIGHT!" (When the player gets hit by its head)
+*"AN IMPERFECTION TO BE CLEANSED! (When the player gets hit by its head)
+*"YOU ARE LESS THAN NOTHING" (When the player gets hit by its head)
+*"YOU DEFY THE LIGHT!" (When the player gets hit by its head)
+*"FOOLISHNESS TERRARIAN, FOOLISSNESS!" (When the player gets hit by its head)
+*"A MERE OBJECT!" (When the player gets hit by its tail)
+*"NOT EVEN MORTAL" (When the player gets hit by its tail)
+*"YOU'ER AN ERROR TO BE CORRECTED!" (When The Devourer of Gods drops to 66% life)
+*"THE LIGHT IS PERFECTION" (When The Devourer of Gods appears in its Final Phase)
+*"YOUR CRIME IS EXISTENCE!" (When The Devourer of Gods drops to 14% life in its Final Phase)
+*"TERRARIAN, I WILL CUT YOU DOWN, BREAK YOU APART, SPLAY THE GORE OF YOUR [[Providence, the Profaned Goddess|PROFANED]] FORM ACROSS THE [[Astrum Deus|STARS]]. I WILL GRIND YOU DOWN UNTIL THE VERY SPARKS CRY FOR MERCY! MY JAWS SHALL RELISH ENDING YOU, HERE AND NOW!" (When The Devourer of Gods is enraged)
+*"WHAT? HOW CAN THIS BE? BESTED BY THIS... THIS THING? YOU INSIGNIFICANT WORM -- wait a minute... WHATEVER, THIS IS NOT OVER! YOUR MEAT WILL BE MINE!" (When the Devourer of Gods is defeated)
+
+== See also ==
+*[[The Devourer of Universes]], a removed variant of this boss.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

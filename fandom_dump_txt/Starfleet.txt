@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = Ranged
+| damage = 68
+| tooltip = Fires a spread of plasma blasts
+| knockback = 15
+| rare = 10
+| sell = {{value|0|20}}
+| use = 55
+| velocity = 12
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Plasma Blast.png
+| projcaption = Plasma Blast
+| element1 = Magic
+}}
+
+The '''Starfleet''' is a craftable Godseeker Mode [[ranged weapon]] and is an upgrade to the [[Star Cannon EX]] and [[Electrosphere Launcher]]. It fires a shotgun burst of plasma blasts that explode into blue particles that deal damage to enemies. Plasma blasts cannot pierce enemies or pass through tiles. It uses [[Fallen Star]]s as ammo.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*Grinding the [[Astrum Deus]] is an efficient way of obtaining Fallen Stars.
+
+== Trivia ==
+*The Starfleet's name is a reference to the [https://borderlands.fandom.com/wiki/Norfleet Norfleet] from [[wikipedia:Borderlands 2|Borderlands 2]].
+*The name is also a reference to a [[wikipedia:Starfleet|fictional organization of the same name]] from the ''[[wikipedia:Star Trek|Star Trek]]'' series.
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

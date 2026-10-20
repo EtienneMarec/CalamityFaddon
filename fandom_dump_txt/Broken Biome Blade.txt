@@ -1,0 +1,189 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 47
+| use = 29
+| knockback = 5
+| auto = yes
+| stack = 1
+| velocity = 12
+| tooltip = {{color|Does nothing.. yet|#A3A3A3}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [None]<br/>Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 3
+| sell = {{value|0|0|80}}
+| element1 = Slash
+}}
+
+The '''Broken Biome Blade''' is a craftable [[Pre-Hardmode]] [[broadsword]] that auto-swings. By default it does not fire any projectile nor does it have any special effects. However if the player stands still on flat ground while holding right-click for 2 seconds, they will strike the sword into the ground, attuning it to the surrounding biome, which will let them perform unique attacks.
+
+The sword has the ability to store an extra attunement in a secondary slot, which it automatically fills with the sword's previous primary attunement when it gets replaced by another one. Using the right-click function without standing still or without holding the button down will swap between the primary and secondary attunements.
+        	
+{{modifier|melee}}
+
+The Broken Biome Blade can obtain 5 different attunements, listed below:
+
+==Attunements==
+
+{{#tag:tabber|
+Pure Clarity=
+{{Item infobox
+| float = left
+| namesub = Pure Clarity
+| damagetype = Melee
+| damage = 47
+| use = 29
+| knockback = 5
+| auto = yes
+| stack = 1
+| velocity = 12
+| tooltip= {{color|Fires a weak projectile that crushes enemy defenses|#ABB448}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [Pure Clarity]|#ABB448}}<br/>{{color|Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 3
+| sell = {{value|0|0|80}}
+| debuff = Armor Crunch
+| debufftip = Your armor is shredded
+| debuffduration = 1.5 seconds (Purity Projection)
+| debuffchance = 100%
+| proj = Purity Projection.png
+| projcaption = Purity Projection
+| element1 = Poison
+| element2 = Slash
+}}
+{{clear}}
+{{color|Pure Clarity|#ABB448}} is the Broken Biome Blade's default attunement which can be obtained if channelled in a biome that doesn't have any corresponding attunement, such as the [[Purity]] or in the [[Underground]]. When swung, it fires a medium-range Purity Projection projectile which cannot pierce through tiles nor targets. Enemies struck by the projectile are inflicted with the [[Armor Crunch]] [[debuff]], greatly reducing their defense temporarily.
+
+{{!}}-{{!}}
+Her Biting Embrace=
+{{Item infobox
+| float = left
+| image = Broken Biome Blade ( Her Biting Embrace).png 
+| namesub = Her Biting Embrace
+| damagetype = Melee
+| damage = 58
+| use = 29
+| knockback = 5
+| auto = yes
+| stack = 1
+| velocity = 12
+| tooltip= {{color|Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second|#A5EBEB}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [Her Biting Embrace]|#A5EBEB}}<br/>{{color|Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 3
+| sell = {{value|0|0|80}}
+| debuff = Glacial State
+| debufftip = Cannot move
+| debuffduration = 0.33 seconds (Third Swing)
+| debuffchance = 100%
+| element1 = Cold
+| element2 = Slash
+}}
+{{clear}}
+{{color|Her Biting Embrace|#A5EBEB}} is an attunement obtained by channelling the sword in the [[Snow biome]]. It replaces the default swing animation of the sword with a custom swing combo that can be aimed, starting with a downwards swing, followed by a bigger upwards swing, and ending with a forward thrust. The second swing deals 114% of the weapon's base damage, and the final thrust deals 140% of the weapon's base damage, while also applying the  [[Glacial State]] [[debuff]] for one third of a second on enemy hits, freezing them in place.
+
+{{!}}-{{!}}
+Arid Grandeur=
+{{Item infobox
+| float = left
+| image = Broken Biome Blade (Arid Grandeur).png 
+| namesub = Arid Grandeur
+| damagetype = Melee
+| damage = 70
+| use = 29
+| knockback = 5
+| auto = yes
+| stack = 1
+| velocity = 12
+| tooltip= {{color|Conjures searing blades in front of you that get larger and stronger the more you hit enemies. The blades can also be used to bounce off tiles when in the air|#EE9C49}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [Arid Grandeur]|#EE9C49}}<br/>{{color|Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 3
+| sell = {{value|0|0|80}}
+| element1 = Fire
+| element2 = Stab
+}}
+{{clear}}
+{{color|Arid Grandeur|#EE9C49}} is an attunement that can obtained by channelling the sword in the [[Desert]] or in [[The Underworld]]. When this attunement is selected, the sword will be held out in front of the player, with 4 extra spinning blades floating around the sword itself. Hitting enemies with the blades charges them up, which increases their size, damage and hit frequency, going from 70 damage per hit to 105 damage per hit. The blade's charge decays over time when not hitting enemies. 
+
+Alongside its damage-dealing function, this attunement doubles as a movement tool that can be used by the player to gain control over their distance to their target. When in the air, the blades will function as a pogo stick that bounce the player away from any tile they hit. Additionally, hitting an enemy while in the air will bounce the player up, and make them partly "stick" to their target, with some of the enemy's velocity being transferred over to the player.
+{{!}}-{{!}}
+Decay's Retort=
+{{Item infobox
+| float = left
+| image = Broken Biome Blade (Decays Retort).png 
+| namesub = Decays Retort
+| damagetype = Melee
+| damage = 63
+| use = 29
+| knockback = 5
+| auto = yes
+| stack = 1
+| velocity = 12
+| tooltip= {{color|Lunge forward using a ghostly rapier projection that leeches life off any struck foes. You also get bounced away from hit targets|#D34093}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [Decay's Retort]|#D34093}}<br/>{{color|Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 3
+| sell = {{value|0|0|80}}
+| element1 = Unholy
+| element2 = Stab
+}}
+{{clear}}
+{{color|Decay's Retort|#D34093}} is an attunement that can obtained by channelling the sword in [[The Corruption]] or [[The Crimson]]. When used, the player will perform a quick lunge in the direction of their cursor, with the biome blade getting thrust forwards. Hitting enemies with the blade [[Lifesteal|heals]] the player for 2 health, and will bounce them back. It is of note that while the player can only do one forward lunge before having to touch the ground again, they can pogo off of enemies as many times as they want before landing.
+{{!}}-{{!}}
+Grovetender's Touch=
+{{Item infobox
+| float = left
+| image = Broken Biome Blade (Grovetenders Touch).png 
+| namesub = Grovetender's Touch
+| damagetype = Melee
+| damage = 65
+| use = 29
+| knockback = 5
+| auto = yes
+| stack = 1
+| velocity = 12
+| tooltip= {{color|Throw out the blade using a vine whip. Striking enemies with the tip of the whip as it cracks guarantees a critical hit. The whip will also propel you towards struck tiles|#A2C855}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [Grovetender's Touch]|#A2C855}}<br/>{{color|Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 3
+| sell = {{value|0|0|80}}
+| element1 = Poison
+| element2 = Slash
+}}
+{{clear}}
+{{color|Grovetender's Touch|#A2C855}} is an attunement that can obtained by channelling the sword in the [[Jungle]], the [[Ocean]] or the [[Sulphurous Sea]]. When selected, the player will use the Biome Blade like a whip, with the sword itself being connected to the player's hand with a long vine. Hitting enemies with the vine itself will only deal 60% of the weapon's base damage, but if an enemy is hit by the blade right as the whip cracks, the resulting hit will be guaranteed to be a critical strike, and its damage will be boosted by 120%.
+
+Hitting a tile with the whip will propel the player towards it which can be used to get closer or further from a target, in order to land easier sweet spot hits.
+}}
+
+==Crafting ==
+===Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Notes==
+*Due to the way the attunement process prioritizes biomes, if a Snow or Desert biome is converted, then the Biome Blade will count it as the biome that converted it. For example, an Corruption Desert biome will be counted as the Corruption, and a Crimson Snow biome will be counted as the Crimson, with both leading to the {{color|Decay's Retort|#D34093}} attunement.
+**The order in which the biomes are checked goes as follows : '''The Desert or The Underworld''', '''The Taiga''', '''The Jungle, Ocean, or Sulphurous Sea''', '''The Corruption or The Crimson'''. If the player is in none of these biomes, they will get the {{color|Pure Clarity|#ABB448}} attunement. If the player is in multiple of these biomes, they will get the attunement corresponding to the one the furthest in this list.
+*The {{color|Her Biting Embrace|#A5EBEB}} attunement's combo state will reset itself if it remains unused for longer than five sixth of a second. This makes it impossible to store the final thrust for optimal hits.
+*Due to the way the {{color|Decay's Retort|#D34093}} bounce-off mechanic works, having more velocity on impact will bounce the player further away. This should be kept in mind as the lunge effect greatly boosts the player's velocity, leading to a very strong bounce.
+*The {{color|Grovetender's Touch|#A2C855}} whip reach can be influenced by the player's cursor position, which can help to land sweet spot hits more easily.
+*The tooltip lines describing the attunements all use unique colors.
+** By default, the lines are colored in a light gray color ({{color|#A3A3A3●|#A3A3A3}}).
+** {{color|Pure Clarity|#ABB448}}'s tooltips use an olive green color ({{color|#ABB448 ●|#ABB448}}).
+** {{color|Her Biting Embrace|#A5EBEB}}'s tooltips use a pale blue color ({{color|#A5EBEB ●|#A5EBEB}}).
+** {{color|Arid Grandeur|#EE9C49}}'s tooltips use a fiery orange color ({{color|#EE9C49 ●|#EE9C49}}).
+** {{color|Decay's Retort|#D34093}}'s tooltips use a fuchsia color ({{color|#D34093 ●|#D34093}}).
+*** Its color can be seen as a halfway point between the purples tones of The Corruption and the red hues of The Crimson.
+** {{color|Grovetender's Touch|#A2C855}}'s tooltips use a lime green color ({{color|#A2C855 ●|#A2C855}}).
+** The secondary attunement's tooltip's color is the halfway point between gray ({{color|#808080 ●|#808080}}) and the attunement's base color.
+
+== Tips ==
+*Since the {{color|Decay's Retort|#D34093}} lunge needs ground contact to reset itself, it may be ideal for the player to "pogo" on the enemy while in the air to keep themselves close to their target, as hitting an enemy with a lunge will bounce the player way further away.
+
+==Trivia==
+*Some of the attunement names are references to the popular Spylike ''[[wikipedia:Risk of Rain 2|Risk of Rain 2]]''.
+**{{color|The snow biome attunement|#A5EBEB}} directly shares its name with "[https://riskofrain2.fandom.com/wiki/Her_Biting_Embrace Her Biting Embrace]", an item dropped by glacial elites.
+**{{color|The evil biome attunement|#D34093}}'s name also partly references "[https://riskofrain2.fandom.com/wiki/N%27kuhana%27s_Retort N'kuhana's Retort]", another item dropped by elite monsters associated with corruption and sickness. N'kuhana is a goddess of decay and death, making the connection even more apparent.
+**To a lesser extent, {{color|the Jungle attunement|#A2C855}}'s name references the [https://riskofrain2.fandom.com/wiki/Grovetender Grovetender] boss, who is normally fought in the Scorched Acres, a large garden-like stage.
+*The way the {{color|Decay's Retort|#D34093}} attunement functions, letting the player pogo on enemies, works similarly to the nail-bouncing technique from ''[[wikipedia:Hollow Knight|Hollow Knight]]''.
+*The Broken Biome Blade cannot get the '''Broken''' Modifier when crafted. If the game decides to give it that reforge, it will instantly get turned into a '''Legendary Broken Biome Blade'''.
+*Before the [[1.5.1.001]] update, the Broken Biome Blade was known as the '''Biome Blade''' and is still referred as such in the files. This name has since been taken by its successor, the [[Biome Blade]], which was itself previously named the '''True Biome Blade'''.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:残缺环境刃]]

@@ -1,0 +1,61 @@
+{{Addon|Calamity: Community Remix}}
+{{item infobox
+| type = Covering
+| tooltip = Top of the food chain<br/>Summons various spirits of the world to protect you<br/>20% increase to summon damage and defense<br/>+4 life regeneration, 15% increased pick speed, and +8 max minions<br/>Increased minion knockback<br/>Minions inflict a variety of debuffs and spawn skeletal limbs on enemy hits
+| buff = The World (buff) | bufflink = no
+| bufftip = The world will protect you
+| element1 = Cold
+| element2 = Fire
+| element3 = Poison
+| element4 = Stab
+| element5 = Slash
+| element6 = Magic
+| element7 = Dark
+| element8 = Water
+| element9 = Holy
+| element10 = Unholy
+| rare = 15
+| sell = {{value|0|16}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| boxwidth = 22em
+| proj = Skeletal Limb.png
+| projcaption = Skeletal Limb
+}}
+{{summoned|type=minion|The World}}
+
+The '''Zenith Arcanum''' is a craftable Godseeker Mode [[covering]]. When equipped it has the following effects:
+*20% increased summon damage and defense.
+*15% increased mining speed.
+*4 life regeneration.
+*8 max minions.
+*Summons a Brimstone Elemental, Sand Elemental, Cloud Elemental, Plague Elemental, Sulphur Elemental, Water Elemental, Young Duke, Gladiator Swords, and Howl Trio to attack enemies, each with a base damage of 290.
+*Summons a Rare Sand Elemental to heal you.
+*Minions inflict [[Demon Flames]], [[Electrified]], [[Temporal Sadness]], [[Astral Infection (debuff)|Astral Infection]], [[Irradiated]], [[Shadowflame]], [[Sulphuric Poisoning]] and [[Holy Flames]] for 3 seconds each.
+*Skeletal hands are summoned on enemy hits which deal 660 damage each and inflict [[Vulnerability Hex]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*All of the world's attacks grant enemies 20 local [[immunity frames]], except for the Sand Elemental that grants 30 local immunity frames with contact damage.
+
+== Tips ==
+*This covering can be very helpful when performing less combat-oriented tasks such as [[Fishing|fishing]], as the elementals will keep most normal enemies at bay and allow the player's full attention to be focused on what they're doing.
+*[[Potions]] such as [[Heartreach Potion]] and [[Cadance Potion|cadence]] [[Cadance Potion|potion]] effectively grant homing to the Rare Sand Elemental's healing orbs.
+
+== Trivia ==
+*The item's name refers to the concept of [[wikipedia:Food chain|food chain]]s, the cycle of how energy is created then consumed, with the top having no competition.
+
+{{Ashes of Annihilation}}
+{{Master Template Equipables
+|show-main = yes
+|show-combat = yes
+}}
+[[Category:Healing items]]
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

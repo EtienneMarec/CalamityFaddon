@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 33
+| mana = 18
+| tooltip = Casts flaming bats
+| knockback = 5
+| rare = 3
+| sell = {{value|0|0|80}}
+| use = 24
+| stack = 1
+| velocity = 9
+| debuff = On Fire!
+| debufftip = Slowly losing life
+| debuffduration = 4 seconds
+| debuffchance = 100%
+| proj = Hellwing Pillar.gif
+| projcaption = Hellwing Bat
+| element1 = Fire
+| element2 = Unholy
+}}
+[[File:Hellwing_Staff (demo).gif|frame|The Hellwing Staff and its several bats being used against [[Target Dummy|target dummies.]]]]
+The '''Hellwing Staff''' is a craftable [[Pre-Hardmode]] [[wand]]. Upon use, four non-piercing flaming bats are summoned near the cursor, which are fired in a semi-random, generally downward, direction. These bats can travel through tiles and inflict enemies with the [[On Fire!]] [[debuff]] on hit.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*This wand is rather useful for lighting areas on your minimap, to look for chests and ores or to clear world evils using the [[Clentaminator]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]
+[[Category:Epic Items]]

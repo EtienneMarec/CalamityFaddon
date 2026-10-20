@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 340
+| knockback = 7
+| mana = 10
+| use = 9
+| auto = yes
+| tooltip = Summons a fiery draconid to fight for you<br/>Requires 5 minion slots to use
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+|buff=Fiery Draconid |bufflink= no
+|bufftip=The fiery draconid will protect you
+| element1 = Holy
+| element2 = Fire}}
+|{{item drops infobox
+| [[Jungle Dragon, Yharon]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Draconid|type=minion|name=Draconid}}
+
+The '''Yharon's Kindle Staff''' is a Godseeker Mode [[summon weapon]]. It is dropped by [[Jungle Dragon, Yharon]]. When used, it summons a draconid to attack enemies by slamming into them and rebounding away, and shooting homing fire balls. The draconid and its projectiles can pass through blocks. Each draconid requires 5 minion slots to summon.
+
+{{Modifier|summon}}
+
+== Notes ==
+*[[Supreme Calamitas]] and her brothers take only half damage from draconids.
+
+== Trivia ==
+*In previous versions of the mod, the tablet used to summon a "Son of Yharon", which is now a pet summoned by the [[McNuggets]] item.
+*The minion's sprite is referred to as "AngryChicken" in the code.
+*The item is based off of an [https://www.amazon.com/Amazon-Fire-Tablet-Family/ Amazon Kindle Fire Tablet]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

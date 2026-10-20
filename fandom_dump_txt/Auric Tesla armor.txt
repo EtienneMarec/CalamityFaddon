@@ -1,0 +1,289 @@
+{{item infobox
+| type = Armor
+| defense = 146/132/116/104/126
+| rare = 15
+| buff = Silva Crystal (buff)
+| bufftip = The crystal will protect you
+| duration = Infinite (Space Helmet)
+| buff2 = Silva Immunity
+| bufftip2 = You are unkillable and immune to most debuffs
+| duration2 = 8 seconds (On first death)
+| debuff = God Slayer Cooldown
+| debuffduration = 45 seconds (upon death)
+| debuff2 = Glacial State
+| debuffchance2 = 100%
+| debuffduration2 = 3-4 seconds (Breastplate)
+| debuff3 = God Slayer Inferno
+| debuffduration3 = 3 seconds (God Killer darts)<br/>5 seconds (God Slayer explosion and God Slayer Phantom)
+| debuffchance3 = 100%
+| debuff4 = Silva Stun
+| debuffduration4 = 0.33 seconds (Melee attacks while wearing Auric Tesla Royal Helm)
+| debuffchance4 = 25%
+| debuff5 = On Fire!
+| debuffduration5 = 5 seconds (Bloodflare fireballs)
+| debuffchance5 = 50%
+| setbonus = [[Tarragon armor|Tarragon]], [[Bloodflare armor|Bloodflare]], [[God Slayer armor|God Slayer]], and [[Silva armor|Silva]] armor effects<br/>All projectiles spawn healing auric orbs on enemy hits<br/>Max run speed and acceleration boosted by 10%<br/><br/>'''Royal Helm''': Enemies are more likely to target you<br/><br/>'''Space Helmet''': +6 max minions and 75% increased minion damage<br/><br/>'''Plumed Helm''': Spy stealth builds while not attacking and slower while moving, up to a max of 130<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+| sell = {{value|0|86|40}} (set)
+| hardmode = yes
+| postml = yes
+| boxwidth = 22em
+}}
+{{summoned|type=minion|Polterghast Mine|minion2=Silva Crystal (minion)}}
+
+{{float file box| [[File:Auric Tesla Carpet.png]] | Flying Carpet.}}
+
+The '''Auric Tesla armor''' is a craftable endgame Godseeker Mode [[Covering]] set made by combining several post-Moon Lord armors and other materials. Crafting any individual piece of Auric Tesla armor requires the corresponding piece from the [[Tarragon armor]], [[Bloodflare armor]], and [[God Slayer armor]] or [[Silva armor]]. Moving with the full set equipped will produce a trail of bright golden sparkles; if all three pieces are visible then the player will also have afterimages.
+
+It consists of the '''Auric Tesla Body Armor''' and '''Auric Tesla Cuisses''', as well as having five different headpieces suited to each class, being: the '''Auric Tesla Royal Helm''', '''Auric Tesla Hooded Facemask''', '''Auric Tesla Wire-Hemmed Visage''', '''Auric Tesla Space Helmet''', and '''Auric Tesla Plumed Helm'''. All headpieces provide boosts to the damage output of their respective class, and all of them boost the player's stats if they are not moving.
+
+== Projectiles ==
+
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" |Projectile
+|-
+| {{item|Auric Healing Orb|mode=table|nolink=y}}
+|-
+| {{item|Bloodflare Soul|ext=gif|mode=table|nolink=y}}
+|-
+| {{item|God Killer Dart|mode=table|nolink=y}}
+|-
+| {{item|God Slayer Phantom|ext=gif|mode=table|nolink=y}}
+|-
+| {{item|Leaf (projectile)|Leaf|ext=gif|mode=table|nolink=y}}
+|-
+|}
+
+== Stats ==
+Regardless of the headpiece chosen, equipping the entire Auric Tesla armor will provide the following set bonuses:
+*20% increased damage
+*10% increased critical strike chance
+*+100 max life
+*Not moving gradually increases all damage by a maximum of 20%; all critical strike chance by a maximum of 10%; and all knockback by a maximum of 50%.
+*Movement speed increased by 10%
+*Max run speed and acceleration boosted by 15%
+**Auric Tesla grants +10% and inherits Silva's +5%
+*Nearby enemies are inflicted with [[Glacial State]] for 3-4 seconds when you take damage (inherited from the [[Frost Barrier]])
+*A magic carpet activates after running out of jumps or [[Wings|wing]] time, allowing the player to briefly fly horizontally (inherited from the [[Flying Carpet]])
+*All projectiles spawn [[Lifesteal|healing]] auric orbs when striking enemies. The orbs heal 5% of the damage of the projectile that spawned them, and are capped at 50 healing.
+*Most effects from the [[Tarragon armor|Tarragon]], [[Bloodflare armor|Bloodflare]], [[God Slayer armor|God Slayer]], and [[Silva armor]] sets
+
+=== Inherited effects ===
+Effects inherited from Tarragon armor:
+
+*Increased heart pickup range.
+*Enemies have a chance to drop extra hearts on death.
+
+Effects inherited from Bloodflare armor:
+*Greatly increased life regeneration (equivalent to the [[Crimson armor]]).
+*Enemies below 50% life will drop a [[heart]] upon being struck every 3 seconds.
+*Enemies above 50% life will drop a [[Mana Star]] upon being struck every 3 seconds.
+*Enemies killed during a [[Blood Moon]] have a much higher chance to drop [[Blood Orb]]s upon death.
+
+== Helmets ==
+=== Auric Tesla Royal Helm ===
+*20% increased melee damage and critical strike chance.
+*+1,200 [[Aggro]].
+*Melee headpiece effects from the [[Tarragon armor|Tarragon]], [[Bloodflare armor|Bloodflare]], and [[God Slayer armor|God Slayer]] sets.
+Effects inherited from Tarragon armor:
+*Pressing {{key|Armor Set Bonus}} allows the player to cloak themselves in life energy, granting the [[Tarragon Cloak]] buff for 10 seconds.
+**This effect has a 30-second [[Tarragon Cloak Cooldown|cooldown]].
+*25% chance when damaged to gain the [[Tarra Life]] buff for 2-6 seconds, which grants rapid life regeneration
+Effects inherited from Bloodflare armor:
+*Causes true melee strikes to [[lifesteal|heal]] on hit.
+*Grants the player the [[Blood Frenzy]] [[buff]] for five seconds after landing 15 true melee strikes.
+**This effect has a 30 second [[Blood Frenzy Cooldown|cooldown]].
+*These bonuses only occur hitting enemies that have a damage stat of 5 or higher, with the exception of enemies spawned from [[statues]].
+Effects inherited from God Slayer armor:
+*Pressing {{key|God Slayer Dash}} allows the player to dash a great distance in 8 directions depending on what movement keys are held.
+**The player is invulnerable and immune to most debuffs while dashing.
+**Dashes have 3000 base damage and inflict enemies with the [[God Slayer Inferno]] [[debuff]] for 10 seconds.
+**This effect has a 35 second [[God Slayer Cooldown|cooldown]].
+*Taking over 80 damage in one hit will cause the wearer to release a swarm of eight high-damage god killer darts.
+**The darts deal 900 typeless damage and can not be increased by any means.
+**The darts inflicts [[God Slayer Inferno]] for 3 seconds.
+*Enemies that touch you have 2.5x their contact damage reflected back at them.
+*Attacks that would deal 80 damage or less to the wearer are decreased to 1.
+
+=== Auric Tesla Hooded Facemask ===
+*30% increased ranged damage and critical strike chance.
+*Ranged headpiece effects from the [[Tarragon armor|Tarragon]], [[Bloodflare armor|Bloodflare]], and [[God Slayer armor|God Slayer]] sets.
+Effects inherited from Tarragon armor:
+*Enemy spawn rates are decreased by 56%, and maximum spawn count is decreased by 44%.
+*Ranged projectiles have a 13% chance to split into two or three life energies on impact.
+**These deal 33% of the ranged attack's damage, capped at 65 damage.
+*Ranged critical strikes will cause an explosion of leaves.
+**The leaves deal 25% of the attack that summoned them and are softcapped at 60 damage.
+**Leaves are only generated from enemies that have a damage stat of 5 or higher, with the exception of enemies spawned from statues.
+Effects inherited from Bloodflare armor:
+*Pressing {{key|Armor Set Bonus}} allows the player to unleash sixteen Bloodflare Souls to damage enemies.
+**The souls deal 800 damage and are affected by ranged damage bonuses.
+**This effect has a 30 second [[Bloodflare Soul Cooldown|cooldown]].
+*A 2% chance for ranged weapons to fire bloodsplosion orbs.
+**The explosions deal 80% of the weapon's damage and are softcapped at 150 damage.
+Effects inherited from God Slayer armor:
+*Pressing {{key|God Slayer Dash}} allows the player to dash an great distance in 8 directions depending on what movement keys are held.
+**The player is invulnerable and immune to most debuffs while dashing.
+**Dashes have 3000 base damage and inflict enemies with the [[God Slayer Inferno]] [[debuff]] for 10 seconds.
+**This effect has a 35 second [[God Slayer Cooldown|cooldown]].
+*Every 2.5 seconds, firing a ranged weapons also fires a god-killing shrapnel round.
+**The shrapnel has 675 base damage. The round spawns 4-6 pieces of shrapnel which deal 30% of the set bonus round's damage
+
+=== Auric Tesla Wire-Hemmed Visage ===
+*30% increased magic damage and 20% increased magic critical strike chance.
+*+100 max mana
+*20% reduced mana costs
+*Magic headpiece effects from the [[Tarragon armor|Tarragon]], [[Bloodflare armor|Bloodflare]], and [[Silva armor]] sets.
+Effects inherited from Tarragon armor:
+*Enemy spawn rates are decreased by 56%, and maximum spawn count is decreased by 44%.
+*On every fifth critical strike dealt, the player fires a burst of nine to eleven leaf projectiles.
+**The leaves deal 20% of the attack that summoned them and are softcapped at 50 damage.
+*Magic projectiles [[Lifesteal|heal]] the player upon hitting an enemy every 1.5 seconds.
+**The amount healed is 2% of the projectile damage.
+Effects inherited from Bloodflare armor:
+*A 5% chance for magic weapons to fire ghostly bolts.
+**Ghostly bolts deal 130% of the attack's damage but are softcapped at 250 damage.
+*Magic critical strikes cause flame explosions every 2 seconds.
+**The fireballs have a 50% chance to inflict [[On Fire!]] for 5 seconds and deal 50% of the damage of the attack that summoned them, though they are softcapped at 120 damage.
+**Fireballs are only generated from enemies that have a damage stat of 5 or higher, with the exception of enemies spawned from statues.
+Effects inherited from Silva armor:
+* If the wearer is reduced to 0 HP, they will receive the [[Silva Immunity]] [[buff]], which makes them [[Death Prevention|unable to die]] for 10 seconds.
+**This effect only triggers once per life.
+**Taking further damage cannot reduce the wearer below 1 HP.
+**If the wearer is under the effects of the [[Draconic Surge]] buff when this activates, they will be healed to half health.
+***Unlike Silva armor, equipping the [[Silva Wings]] do not heal the wearer to half health when Silva Immunity activates.
+*All magic projectiles have a 100% chance to cause a massive explosion upon hitting an enemy every 5 seconds. This explosion deals four times the damage of the projectile that triggered it.
+**The explosions have a softcap of 720 damage, with any damage exceeding the limit dealing 66% less damage.
+
+=== Auric Tesla Space Helmet ===
+*+6 max minions.
+*90% increased summon damage.
+*Summoner headpiece effects from the [[Tarragon armor|Tarragon]], [[Bloodflare armor|Bloodflare]], and [[Silva armor]] sets.
+Effects inherited from Tarragon armor:
+*Enemy spawn rates are decreased by 56%, and maximum spawn count is decreased by 44%.
+*Summons a life aura around the player that damages nearby enemies.
+**The aura deals 200 damage per 1.33 seconds.
+**The aura does not affect enemies which do not deal contact damage.
+Effects inherited from Bloodflare armor:
+*55% increased minion damage.
+*Summons three of Polterghast's mines to circle around the player, which explode upon contact with enemies.
+**The Polterghast Mines deal 5000 damage.
+*If the player is at 90% of their life or above, they will gain 10% increased minion damage.
+*If they are at 50% of their life or below, they will gain 20 defense and +3 life regen.
+Effects inherited from Silva armor:
+*If the wearer is reduced to 0 HP, they will receive the [[Silva Immunity]] [[buff]], which makes them [[Death Prevention|unable to die]] for 8 seconds.
+**This effect only triggers once per life.
+**Taking further damage cannot reduce the wearer below 1 HP.
+**If the wearer is under the effects of the [[Draconic Surge]] buff when this activates, they will be healed to half health.
+***Unlike [[Silva armor|Silva Armor]], equipping the [[Silva Wings]] do not heal the wearer to half health when Silva Immunity activates.
+*Increases minion damage by 75%.
+* Summons a Silva Crystal above the wearer's head, which blasts enemies with pulses of life energy similarly to the [[Rainbow Crystal Staff|Rainbow Crystal]] sentry.
+** The bursts of light deal 600 damage.
+
+=== Auric Tesla Plumed Helm ===
+*20% increased [[Spy]] damage and critical strike chance.
+*5% increased movement speed
+*Gives a maximum [[Spy#Stealth|Spy stealth]] of 130
+*Spy headpiece effects from the [[Tarragon armor|Tarragon]], [[Bloodflare armor|Bloodflare]], and [[God Slayer armor|God Slayer]] sets.
+Effects inherited from Tarragon armor:
+*Enemy spawn rates are decreased by 56%, and maximum spawn count is decreased by 44%.
+*While under the effects of a debuff, the player will gain a 10% increase to Spy damage.
+*After every twenty-fifth Spy critical strike, the player gains 5 seconds of the [[Tarragon Immunity]] buff.
+**This effect has a 30-second [[Tarragon Immunity Cooldown|cooldown]].
+Effects inherited from Bloodflare armor:
+*Causes every Spy critical strike dealt to [[lifesteal|heal]] the player.
+**Heals only occur when hitting enemies that have a damage stat of 5 or higher, with the exception of enemies spawned from statues.
+*If the player is above 80% of their life, their defense is boosted by 30 and their Spy critical strike chance is boosted by 5%.
+*If the player is below 80% of their life, their Spy damage will be boosted by 15%.
+Effects inherited from God Slayer armor:
+*Pressing {{key|God Slayer Dash}} allows the player to dash an great distance in 8 directions depending on what movement keys are held.
+**The player is invulnerable and immune to most debuffs while dashing.
+**Dashes have 3000 base damage and inflict enemies with the [[God Slayer Inferno]] [[debuff]] for 10 seconds.
+**This effect has a 35 second [[God Slayer Cooldown|cooldown]].
+*While at full health, Spy damage, crit chance, and velocity are boosted by 10%.
+*If the wearer takes over 80 damage in one hit, they will be given 30 extra [[immunity frames]].
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Auric Tesla Body Armor
+| type = Armor
+| defense = 48
+| body slot = Shirt
+| tooltip = +100 max life<<br/>8% increased damage and 5% increased critical strike chance<br/>You will freeze enemies near you when you are struck
+| sell = {{value|0|28|80}}
+}}
+|{{item infobox
+| name = Auric Tesla Cuisses
+| type = Armor
+| defense = 44
+| body slot = Pants
+| tooltip = 10% increased movement speed<br/>12% increased damage and 5% increased critical strike chance<br/>Magic carpet effect
+| sell = {{value|0|21|60}}
+}}
+}}
+
+=== Helmet variants ===
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Auric Tesla Royal Helm
+| type = Armor
+| defense = 54
+| body slot = Helmet
+| tooltip = 20% increased melee damage and critical strike chance<br/>Not moving boosts all damage and critical strike chance
+| sell = {{value|0|36}}
+}}
+|{{item infobox
+| name = Auric Tesla Hooded Facemask
+| type = Armor
+| defense = 40
+| body slot = Helmet
+| tooltip = 30% increased ranged damage and critical strike chance<br/>Not moving boosts all damage and critical strike chance
+| sell = {{value|0|36}}
+}}
+|{{item infobox
+| name = Auric Tesla Wire-Hemmed Visage
+| type = Armor
+| defense = 24
+| body slot = Helmet
+| tooltip = 30% increased magic damage and critical strike chance, +100 max mana, and 20% reduced mana usage<br/>Not moving boosts all damage and critical strike chance
+| sell = {{value|0|36}}
+}}
+|{{item infobox
+| name = Auric Tesla Space Helmet
+| type = Armor
+| defense = 12
+| body slot = Helmet
+| tooltip = 15% increased minion damage<br/>Not moving boosts all damage and critical strike chance
+| sell = {{value|0|36}}
+}}
+|{{item infobox
+| name = Auric Tesla Plumed Helm
+| type = Armor
+| defense = 34
+| body slot = Helmet
+| tooltip = 20% increased Spy damage and critical strike chance, 5% increased movement speed<br/>Not moving boosts all damage and critical strike chance
+| sell = {{value|0|36}}
+}}
+}}
+
+== Crafting ==
+{{dablink|For a full crafting tree for the whole armor, see [[Auric Tesla armor/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result=LIKE Auric Tesla%|resultnot=Auric Tesla Bar}}
+
+== Notes ==
+*Reduced spawn rates do not stack with [[Calming Potion]] or [[Cadance Potion]].
+
+== Trivia ==
+*According to concept art, Lord Yharim (a prominent figure in the Calamity Mod's [[lore]]) wears a modified version of this armor.
+*Prior to the [[1.5.0.001]] update, Auric Tesla armor headpiece recipes used their corresponding God Slayer armor helmets for Mages and Summoners alongside Silva armor helmets for the Melee, Ranged and Spy Classes. Those were removed from the recipes as the aforementioned equipment became [[Vanity items]].
+**Before the [[1.5.0.002]] update, the Auric Tesla Body Armor and Cuisses' used ''both'' their corresponding God Slayer and Silva armor parts in their recipes.
+*The bloody particles produced by this armor while providing enhanced regeneration will appear as clouds if the Blood and Gore [[tgc:Setting|setting]] is turned off.
+
+{{auric}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}
+[[Category:Healing items]]

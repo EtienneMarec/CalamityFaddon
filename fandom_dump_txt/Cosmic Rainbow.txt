@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 105
+| damagetype = magic
+| velocity = 18
+| tooltip = Launches a barrage of rainbows
+| mana = 30
+| use = 35
+| knockback = 0
+| auto = yes
+| stack = 1
+| hardmode = yes
+| rare = 9
+| sell = {{value|0|19}}
+| proj = Rainbow (projectile).png
+| projcaption = Rainbow
+| element1 = Magic
+| element2 = Holy
+}}
+{{dablink|If you were looking for something other than the magic weapon, see [[Cosmic (disambiguation)]].}}
+
+The '''Cosmic Rainbow''' is a craftable [[Hardmode]] [[magic weapon]]. When fired, it spawns 3 rainbows in the direction of the cursor in a similar manner as an arrow flying out of a bow. Additionally, 2 more rainbows fall from the sky at random locations within the vicinity of the cursor. These rainbows deal constant damage to any entity that collides with them.
+
+{{Modifier|magicnokb}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Despite having the appearance of a bow, the weapon uses [[mana]] and deals magic damage.
+
+== Tips ==
+*Although this is a magic weapon, it essentially behaves like a [[Sentry]] due to the long lasting effect. This allows all classes to use it to increase their {{DPS}}.
+
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category:Magic weapons]]

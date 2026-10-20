@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 176
+| knockback = 7.5
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| auto = yes
+| velocity = 18
+| tooltip = Fires volleys of four colossal radiant arrows which can pass through walls
+| use = 20
+| hardmode = yes
+| postml = yes
+| debuff = Holy Flames
+| debuffduration = 2 seconds
+| debuffchance = 100%
+| debufftip = Dissolving from holy flames
+| proj = Energy Arrow.png
+| projcaption = Energy Arrow
+| element1 = Holy
+| element2 = Fire
+| element3 = Stab
+}}
+|{{item drops infobox
+| [[Providence, the Profaned Goddess]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Telluric Glare''' is a Godseeker Mode [[bow]] that is dropped from [[Providence, the Profaned Goddess]]. It fires four arrows in a stream that pass through blocks and explode on contact with enemies.
+
+{{Modifier|ranged}}
+
+[[File:Telluric Glare (demo).gif|frame|left|The Telluric Glare in use.]]
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

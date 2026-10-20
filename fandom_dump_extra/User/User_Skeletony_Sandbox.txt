@@ -1,0 +1,266 @@
+Ech screw this
+<!--
+
+# common css define.
+-->{{#vardefine:iblock|style="display: inline-block;"}}<!-- 
+-->{{#vardefine:listitem|class="fake-bullet"}}<!--
+-->{{#vardefine:listbox|padding:0.5em 0;}}<!--
+-->{{#vardefine:listcolumn|padding: 0 0.25em;}}<!--
+
+# NOTE: We NEED -14px left & right margin to get enough space for "enemies" and "biomes" block to show as 2-col on iphone7+ (414px width).
+--><div id="mainpage-global-wrapper"><!-- 
+
+
+!!! NOTE: Expand/collapse for header box need some javascript in common.js to function properly.
+
+[====[ HEADER start
+
+
+A-->{{flexstart|itembox|class=main-title|justify=center|alignlines=center|alignitems=center|basis=456px|grow=1|shrink=1}}
+{| width=100%
+|style="padding: 0px; margin: auto;" {{#var:box}}|<div id="mf-wikiheader"><div style="padding: 0px; margin: 0px;  text-align: center;"><span style="font-size: 180%; ">Welcome to the Official '''Calamity Mod''' Wiki</span>,<br/>the comprehensive reference written and maintained by the players.<br/> [[Special:Statistics|{{NUMBEROFACTIVEUSERS}} active editors]] (of {{NUMBEROFUSERS}} registered) are currently maintaining [[Special:Statistics|{{NUMBEROFARTICLES}} articles ({{NUMBEROFPAGES}} total pages)]] and [[Special:ListFiles|{{NUMBEROFFILES}} files]].
+{| align=center width=100% style="padding: 5px; text-align: center;"
+| width=100% {{#var:box}} | <span class="plainlinks">[https://forums.terraria.org/index.php?threads/calamity-mod.44065// '''Forum Page'''] • [https://discord.gg/9kXd2PG '''Discord'''] • [https://www.youtube.com/channel/UC1pUGckrp4_bu6XTQ4sCDsA '''Youtube Channel''']</span><hr>[[Special:RecentChanges|Recent Changes]] • [[Calamity Mod Wiki:Admin noticeboard|Admin noticeboard]] • [[Calamity Mod Wiki:Community noticeboard|Community noticeboard]] • [[Calamity Mod Wiki:Sandbox|Sandbox]] • [[Special:WikiPoints|Leaderboard]]<hr><small>Try out our custom theme! Go to [[Special:Preferences#mw-prefsection-gadgets|Special:Preferences]] and enable the WikiBackground gadget.</small>
+|}</div></div>
+|}<!--
+
+-->{{flexend|_id=mf-wikiheader}}<!--
+]====] HEADER end
+
+
+[====[ SECTION 1 start [the mod, latest versions]
+-->{{flexstart|_id=sect1}}<!-- 
+	L-->{{flexstart|item-box|id=mf-game|grow=6|shrink=1|basis=500px}}<!-- 
+		-->{{flexstart|item|id=mf-biomes|width=100%|cssclass=fp-box}}<!--
+			-->{{heading|The Mod|[[File:Sigil of Calamitas.png|30px|link=]]}}<!--
+			--><p>The Calamity Mod is a large content mod for [[tgc:Terraria|Terraria]] which adds many hours of endgame content and dozens of [[enemies]] and [[bosses]] dispersed throughout the vanilla game's progression. The Calamity Mod also features several harder difficulty modes, five new [[biomes]] and new structures, a new [[Rogue|class]], a new [[Proficiency|leveling mechanic]], more than thirty new [[Music|songs]], over fifty [[Vanilla item recipes|recipes]] for previously uncraftable vanilla items and other assorted changes to vanilla gameplay.</p><!--
+			--><p>Note: '''Much of the communication regarding the Calamity Mod Wiki is done via the [https://discord.gg/9kXd2PG Calamity Mod Discord Server].''' If you have questions or issues regarding editing this wiki, asking via Discord is the best way to get your issue addressed quickly.</p><!--
+		-->{{flexend}}<!--
+	L-->{{flexend|id=mf-game}}<!--
+	R-->{{flexstart|item-box|id=mf-latestversions|grow=2|shrink=0|basis=100px}}<!--
+		-->{{flexstart|item|id=mf-biomes|width=100%|cssclass=fp-box}}<!--
+			-->{{heading|Latest Versions}}<!--
+			-->{{flexstart|width=100%}}<!--
+				-->{{flexstart|item|grow=5|shrink=5|basis=300px|css={{#var:listbox}}}}<!--
+					-->{{:Latest Versions}}<!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		-->{{flexend}}<!--
+	R-->{{flexend|item|id=mf-latestversions}}<!--
+-->{{flexend|_id=sect1}}<!--
+]====] SECTION 1 end
+
+
+#### SECTION 2 start [items, mechanics, bosses]
+2-->{{flexstart|_id=sect-2}}<!-- 
+	L-->{{flexstart|item-box|direction=column|grow=2|shrink=2|basis=450px}}<!-- 
+		T-->{{flexstart|item-box|grow=1}}<!-- 
+			-->{{flexstart|item|id=mf-items|width=100%|cssclass=fp-box}}<!-- 
+				-->{{heading|[[Items]]|[[File:Asgard's Valor.png|link=]]}}<!-- 
+				-->{{flexstart|css={{#var:listbox}}}}<!-- 
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div {{#var:listitem}}> [[Accessories]]</div><!--
+						--><div {{#var:listitem}}> [[Weapons]] & [[Ammunition|Ammo]]</div><!-- "Ammunition" is tooooo long to layout.
+						--><div {{#var:listitem}}> [[Armor]]</div><!--
+						--><div {{#var:listitem}}> [[Bars]]</div><!--
+						--><div {{#var:listitem}}> [[Blocks]]</div><!--
+						--><div {{#var:listitem}}> [[Crafting station]]s</div><!--
+						--><div {{#var:listitem}}> [[Crafting material]]s</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div {{#var:listitem}}> [[Dedicated content]]</div><!--
+						--><div {{#var:listitem}}> [[Legendary items]]</div><!--
+						--><div {{#var:listitem}}> [[Furniture]]</div><!--
+						--><div {{#var:listitem}}> [[Minions]]</div><!--
+						--><div {{#var:listitem}}> [[Miscellaneous]]</div><!-- 
+						--><div {{#var:listitem}}> [[Mount]]s</div><!--
+						--><div {{#var:listitem}}> [[Ores]]</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div {{#var:listitem}}> [[Pets]]</div><!--
+						--><div {{#var:listitem}}> [[Potion]]s</div><!--
+						--><div {{#var:listitem}}> [[Rare item variants]]</div><!--
+						--><div {{#var:listitem}}> [[Tools]]</div><!--
+						--><div {{#var:listitem}}> [[Wall]]s</div><!--
+						--><div {{#var:listitem}}> [[Weapons]]</div><!--
+						--><div {{#var:listitem}}> [[Wings]]</div><!--
+					-->{{flexend}}<!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		T-->{{flexend}}<!-- 
+		B-->{{flexstart|item-box|grow=1}}<!-- 
+			-->{{flexstart|item|id=mf-mechanics|width=100%|cssclass=fp-box}}<!--
+				-->{{heading|Mechanics|[[File:Draedon's Remote.png|link=]]}}<!-- 
+				-->{{flexstart|css={{#var:listbox}}}}<!-- 
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div {{#var:listitem}}> [[AI]]</div><!--
+						--><div {{#var:listitem}}> [[Armageddon]]</div><!--
+						--><div {{#var:listitem}}> [[Boss Health Bar]]</div><!--
+						--><div {{#var:listitem}}> [[Buffs]]</div><!--
+						--><div {{#var:listitem}}> [[Configuration options]]</div><!--
+						--><div {{#var:listitem}}> [[Recipes|Crafting]]</div><!--
+						--><div {{#var:listitem}}> [[Death Mode]]</div><!--
+						--><div {{#var:listitem}}> [[Death Prevention]]</div><!--
+						--><div {{#var:listitem}}> [[Defense]]</div><!--
+						--><div {{#var:listitem}}> [[Defiled Feather]]</div><!--
+						--><div {{#var:listitem}}> [[Debuffs]]</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div {{#var:listitem}}> [[Drops]]</div><!--
+						--><div {{#var:listitem}}> [[Events]]</div><!--
+						--><div {{#var:listitem}}> [[Fishing]]</div><!--
+						--><div {{#var:listitem}}> [[Iron Heart]]</div><!--
+						--><div {{#var:listitem}}> [[Lifesteal]]</div><!--
+						--><div {{#var:listitem}}> [[Music]]</div><!--
+						--><div {{#var:listitem}}> [[Proficiency]]</div><!--
+						--><div {{#var:listitem}}> [[Rarity]]</div><!--
+						--><div {{#var:listitem}}> [[Revengeance Mode]]</div><!--
+						--><div {{#var:listitem}}> [[Rogue]]</div><!--
+					-->{{flexend}}<!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		B-->{{flexend}}<!-- 
+	L-->{{flexend}}<!-- 
+	R-->{{flexstart|item-box|grow=3|shrink=3|basis=450px}}<!-- 
+		-->{{flexstart|item|id=mf-enemies|width=100%|cssclass=fp-box}}<!--
+			-->{{heading|[[Bosses]] and [[Bosses#Mini Bosses|Mini Bosses]]|[[File:Hive Mind map 2.png‎|link=]]}}<!-- 
+			-->{{flexstart|id=mf-enemies}}<!-- 
+					-->{{flexstart|item|grow=1|css={{#var:listbox}}{{#var:listcolumn}}}}<!--
+						--><div style="margin-bottom: 0.25em">'''Mini Bosses'''</div><!--
+						--><div {{#var:listitem}}> [[Giant Clam]]</div><!--
+						--><div {{#var:listitem}}> [[Earth Elemental]]</div><!--
+						--><div {{#var:listitem}}> [[Cloud Elemental]]</div><!--
+						--><div {{#var:listitem}}> [[Armored Digger]]</div><!--
+						--><div {{#var:listitem}}> [[Great Sand Shark]]</div><!--
+						--><div {{#var:listitem}}> [[Plaguebringer]]</div><!--
+						--><div {{#var:listitem}}> [[Mauler]]</div><!--
+						--><div {{#var:listitem}}> [[Colossal Squid]]</div><!--
+						--><div {{#var:listitem}}> [[Reaper Shark]]</div><!--
+						--><div {{#var:listitem}}> [[Eidolon Wyrm]]s</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|css={{#var:listbox}}{{#var:listcolumn}}}}<!--
+						--><div style="margin-bottom: 0.25em">'''Pre-Hardmode bosses'''</div><!--
+						--><div {{#var:listitem}}> [[Desert Scourge]]</div><!--
+						--><div {{#var:listitem}}> [[Crabulon]]</div><!--
+						--><div {{#var:listitem}}> [[The Hive Mind]]</div><!--
+						--><div {{#var:listitem}}> [[The Perforators]]</div><!--
+						--><div {{#var:listitem}}> [[The Slime God]]</div><!--
+					-->{{flexend}}<!--
+				-->{{flexstart|item-box|grow=1}}<!-- 
+					-->{{flexstart|item|grow=1|css={{#var:listbox}}{{#var:listcolumn}}}}<!--
+						--><div style="margin-bottom: 0.25em">'''Hardmode bosses'''</div><!--
+						--><div {{#var:listitem}}> [[Cryogen]]</div><!--
+						--><div {{#var:listitem}}> [[Brimstone Elemental]]</div><!--
+						--><div {{#var:listitem}}> [[Aquatic Scourge]]</div><!--
+						--><div {{#var:listitem}}> [[Calamitas]]</div><!--
+						--><div {{#var:listitem}}> [[Anahita and Leviathan]]</div><!--
+						--><div {{#var:listitem}}> [[Astrum Aureus]]</div><!--
+						--><div {{#var:listitem}}> [[The Plaguebringer Goliath]]</div><!--
+						--><div {{#var:listitem}}> [[Ravager]]</div><!--
+						--><div {{#var:listitem}}> [[Astrum Deus]]</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|css={{#var:listbox}}{{#var:listcolumn}}}}<!--
+						--><div style="margin-bottom: 0.25em">'''Post-Moon Lord bosses'''</div><!--
+						--><div {{#var:listitem}}> [[Profaned Guardians]]</div><!--
+                                                --><div {{#var:listitem}}> [[Bumblebirb]]</div><!--
+						--><div {{#var:listitem}}> [[Providence, the Profaned Goddess]]</div><!--
+						--><div {{#var:listitem}}> [[Sentinels of the Devourer]]</div><!--
+						--><div {{#var:listitem}}> [[Polterghast]]</div><!--
+						--><div {{#var:listitem}}> [[The Devourer of Gods]]</div><!--
+						--><div {{#var:listitem}}> [[Jungle Dragon, Yharon]]</div><!--
+					--><div style="margin-bottom: 0.25em">'''Superbosses'''</div><!--
+						--><div {{#var:listitem}}> [[Supreme Calamitas]]</div><!--
+					-->{{flexend}}<!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		-->{{flexend}}<!--
+	R-->{{flexend}}<!-- 
+2-->{{flexend|_id=sect-2}}<!-- 
+#### SECTION 2 end
+
+
+
+
+#### SECTION 3 start [enemies, biomes, resources]
+3-->{{flexstart|_id=sect-3}}<!--
+        L-->{{flexstart|item-box|groww=77|shrink=77|basis=500px}}<!--
+                -->{{flexstart|item|id=mf-enemies|width=100%|cssclass=fp-box}}<!--
+                     -->{{heading|Enemies|[[File:Prism-Back.png|link=]]}}<!--
+                     -->{{flexstart|item|grow=1|basis=195px|css={{#var:listcolumn}}}}<!--
+                     --><div style="margin-bottom: 0.25em">'''Pre-Hardmode'''</div><!--
+                     --><div {{#var:listitem}}> [[???]]</div><!--
+                     --><div {{#var:listitem}}> [[Aero Slime]]</div><!--
+                     --><div {{#var:listitem}}> [[Angry Dog]]</div><!--
+                     --><div {{#var:listitem}}> [[Amber Crawler]]</div><!--
+                     --><div {{#var:listitem}}> [[Amethyst Crawler]]</div><!--
+                     --><div {{#var:listitem}}> [[Aquatic Parasite]]</div><!--
+                     --><div {{#var:listitem}}> [[Aquatic Seeker]]</div><!--
+                     --><div {{#var:listitem}}> [[Aquatic Urchin]]</div><!--
+                     --><div {{#var:listitem}}> [[Box Jellyfish]]</div><!--
+                     --><div {{#var:listitem}}> [[Catfish]]</div><!--
+                     --><div {{#var:listitem}}> [[Clam]]</div><!--
+                     --><div {{#var:listitem}}> [[Cnidrion]]</div><!--
+                     --><div {{#var:listitem}}> [[Cosmic Elemental]]</div><!--
+                     --><div {{#var:listitem}}> [[Crimulan Blight Slime]]</div><!--
+                     -->{{flexend}}<!--
+                -->{{flexend}}<!--
+        L-->{{flexend}}<!--
+	R-->{{flexstart|item-box|grow=2|shrink=2|basis=500px}}<!--
+		T-->{{flexstart|item-box|grow=1}}<!-- 
+		        -->{{flexstart|item|id=mf-biomes|width=100%|cssclass=fp-box}}<!--
+			-->{{heading|[[Biome]]s|[[File:Atlas.png|link=]]}}<!--
+			-->{{flexstart}}<!--
+				-->{{flexstart|item|grow=1|basis=190px|css={{#var:listcolumn}}}}<!--
+				--><div {{#var:listitem}}> [[Abyss]]</div><!--
+				--><div {{#var:listitem}}> [[Astral Infection]]</div><!--
+				--><div {{#var:listitem}}> [[Brimstone Crag]]</div><!--
+				--><div {{#var:listitem}}> [[Cavern]]s</div><!--
+				--><div {{#var:listitem}}> [[Desert]]</div><!--
+				--><div {{#var:listitem}}> [[Dungeon]]</div><!--
+				--><div {{#var:listitem}}> [[Jungle]]</div><!--
+				--><div {{#var:listitem}}> [[Mushroom biome]]</div><!--
+				--><div {{#var:listitem}}> [[Ocean]]</div><!--
+				-->{{flexend}}<!--
+				-->{{flexstart|item|grow=1|basis=180px|css={{#var:listcolumn}}}}<!--
+				--><div {{#var:listitem}}> [[Snow biome]]</div><!--
+				--><div {{#var:listitem}}> [[Space]]</div><!--
+				--><div {{#var:listitem}}> [[Sulphurous Sea]]</div><!--
+				--><div {{#var:listitem}}> [[Sunken Sea]]</div><!--
+				--><div {{#var:listitem}}> [[Surface]]</div><!--
+				--><div {{#var:listitem}}> [[The Corruption]]</div><!--
+				--><div {{#var:listitem}}> [[The Crimson]]</div><!--
+				--><div {{#var:listitem}}> [[The Hallow]]</div><!--
+				--><div {{#var:listitem}}> [[The Underworld]]</div><!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		T-->{{flexend}}<!-- 
+		B-->{{flexstart|item-box|grow=1}}<!-- 
+		        -->{{flexstart|item|id=mf-npc|width=100%|cssclass=fp-box}}<!--
+			-->{{heading|Resources|[[File:Aquatic Scourge (Lore).png|link=]]}}<!-- 
+			-->{{flexstart|css=clear:both;{{#var:listbox}}}}<!-- 
+				-->{{flexstart|item|grow=1|basis=200px|css={{#var:listcolumn}}}}<!--
+				--><div {{#var:listitem}}> [[Guide:Class setups|Class setups]]</div><!--
+				--><div {{#var:listitem}}> [[Community modifications]]</div><!--
+				--><div {{#var:listitem}}> [[Guides]]</div><!--
+				--><div {{#var:listitem}}> [[Lore]]</div><!--
+				--><div {{#var:listitem}}> [[Vanilla changes]]</div><!--
+				--><div {{#var:listitem}}> [[Vanilla item recipes]]</div><!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		B-->{{flexend}}<!--
+3-->{{flexend|_id=sect-3}}<!-- 
+#### SECTION 3 end
+
+
+#### FOOTER start
+--><div class="footer"><!-- 
+	--><div>''[[Calamity Mod Wiki/editcopy|<span {{#var:iblock}}>Changes to this main page</span> <span {{#var:iblock}}>can be proposed here.</span>]]''</div><!-- 
+--></div><!-- 
+#### FOOTER end
+
+
+
+--><!-- id = grobal warpper -->
+
+[[Category:Calamity Mod Wiki]] 
+<metadesc>The Calamity Mod Wiki is a complete resource for the Calamity Mod of Terraria, including gameplay, crafting, armor, and enemies.</metadesc>

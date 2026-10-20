@@ -1,0 +1,30 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Historical content}}
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = C2
+| color = #AA00FF
+| sell = {{value|0|20}}
+| use = 14
+| tooltip = Contains Chaos Energy.
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+'''Reinforced Noctiplate''' is a craftable post-[[Purgatory Arbiter, Umbrus]] [[block]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Plates}}
+{{Ctota}}

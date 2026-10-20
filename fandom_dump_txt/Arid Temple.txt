@@ -1,0 +1,51 @@
+{{Historical content}}
+{{Addon|Tranquility Mod}}
+{{Nightmare mode only}}
+
+[[File:BannerAridTemple.png|center]]
+
+[[File:Arid Temple.png|thumb|right|A picture of the Arid Temple as it's seen in game.]]
+
+The '''Arid Temple''' is an unique structure that generates in the [[Desert]]. It features a giant building resembling a temple, its entrance is located in the surface [[Desert]], this structure somehow also acts as sort of an "upgraded" version of the Desert Pyramid. The player can enter the Temple only if the [[Nightmare Mode]] is activated in the world. 
+
+Additionally, the temple has several [[tgc:Desert Chest|Desert Chests]] containing various [[Desert]]-themed loot in its inner rooms.
+
+In the "core" of the temple is located a large room, where the [[Deniquyne, the Sand Elemental|Sand Elemental]] resides. When the player enters the room, a [[Cutscenes|cutscene]] triggers:
+{{Info request|cutscene dialogues missing, gonna add 'em later.}}
+
+After the cutscene ends, the battle with the [[Deniquyne, the Sand Elemental|Sand Elemental]] begins.
+
+{{biome
+|treasures=<nowiki />
+:{{item|Sandstorm in a Bottle}}
+:{{item|Flying Carpet}}
+:{{item|Bast Statue}}
+:{{item|Magic Conch}}
+:{{item|Amber Hook}}
+
+|drop=<nowiki />
+'''From terrain:'''<br/>
+:{{item|Smooth Sandstone}}
+:{{item|Sandstone Brick}}
+:{{item|Sandstone Platform}}
+:{{item|Sandstone Candle}}
+:{{item|Sandstone Chandelier}}
+:{{item|Sandstone Lamp}}
+:{{item|Ankh Banner}}
+:{{item|Omega Banner}}
+:{{item|Snake Banner}}
+:{{item|Desert Chest}}
+:{{item|Secret of the Sands}}
+:{{item|Watchful Antlion}}
+:{{item|Ancient Tablet}}
+:{{item|Smooth Sandstone Wall}}
+:{{item|Sandstone Brick Wall}}
+}}
+
+== Trivia ==
+*Due to the Arid Temple's size, the Tranquility Mod modifies the [[Desert]] biome's width to make it wider, the biome overlap is possible if the created world has a small size.
+*If the player will try to enter the Temple without the [[Nightmare Mode]] enabled in the world, a [[Deniquyne, the Sand Elemental|Sand Elemental]]'s dialogue box will appear, and she will say:
+**"Sorry, human, i can not let you in. You must prove that you're worthy enough to enter."
+**However, if the <code> Dialogue System </code> configuration option is disabled, only the text will appear above the player on screen.
+*Despite the fight with the Sand Elemental beginning inside of the Temple, she will teleport herself and the player to the Temple's entrance, where's a large, sparse area is present.
+*This page is a WIP still.

@@ -1,0 +1,34 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 10
+| damagetype = Magic
+| use = 20
+| mana = 20
+| tooltip = Casts a serpent that follows the mouse cursor
+| velocity = 10
+| knockback = 3
+| auto = yes
+| stack = 1
+| rare = 4
+| sell = {{value|0|2|40}}
+| hardmode = yes
+| proj = Serpentine (projectile).png
+| projcaption = Serpentine
+| element1 = Water
+}}
+|{{item drops infobox
+| [[Sea Serpent]] | 1 | 25%
+}}
+}}
+
+The '''Serpentine''' is a [[Hardmode]] [[spell tome]] that is dropped by [[Sea Serpent]]s with a 1/4 (25%) chance. It casts a serpent projectile that homes in on the mouse cursor and is not affected by gravity. The projectile propels itself forward, dissipating on contact with tiles, and propels itself back to the area of the mouse cursor. It can pierce up to 4 enemies, dissipating upon contact with the fifth.
+
+{{Modifier|magic}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+
+[[Category:Spell tomes]]

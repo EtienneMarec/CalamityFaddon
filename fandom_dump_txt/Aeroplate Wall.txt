@@ -1,0 +1,28 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 3
+| use = 7
+| color = #EB6C6C
+| sell = No value
+}}
+
+'''Aeroplate Wall''' is a background [[wall]] crafted with [[Aeroplate]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main   = yes
+| show-walls = yes
+}}
+[[Category:Block items]]
+[[zh:天蓝砖墙]]

@@ -1,0 +1,31 @@
+{{infobox wrapper|
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 6
+| knockback = 2
+| use = 10
+| velocity = 18
+| tooltip = 4 summon tag damage<br/>Fires quick bursts of medium-range pellets<br/>{{color|Who needs whips when you can simply use a fusion cannon?|#83B87E}}
+| stack = 1
+| research = 1
+| auto = yes
+| rare = 1
+| sell = {{value|0|0|20}}
+| element1 = Stab
+| element2 = Machine
+}}
+|{{item drops infobox
+|[[The Inventors]] |1|{{dv|25%|33%}}
+|[[Wulfrum Excavator]] {{fantag|Calamity: Community Remix}}|1|{{dv|25%|33%}}
+}}
+}}
+The '''Wulfrum Fusion Array''' is a [[Pre-Hardmode]] [[summon weapon]] dropped by [[The Inventors]] and the [[Wulfrum Excavator]] {{fantag|Calamity: Community Remix}}. When used, it shoots a quick burst of fusion bolts that can hit multiple targets. Enemies hit causes minions to focus on the last-struck enemy and increases their damage against the target, similar to [[tgc:Whips|Whips]]. All fusion bolts fired have a default armor penetration of 6.
+
+{{Modifier|summonactive}}
+
+{{Wulfrum}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

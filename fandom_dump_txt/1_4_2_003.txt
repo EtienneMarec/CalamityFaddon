@@ -1,0 +1,278 @@
+{{Patch infobox
+| image = Profaned Crucible (placed).gif
+| patchname = Blocks and Fixes
+| pair = 1.4.2.001 (music)
+| release = 3/18/2019
+}}
+
+The '''1.4.2.003''' update added several new [[furniture]] sets, along with making various changes to most of the mod's existing [[blocks]], [[walls]], and furniture. It also added several [[configuration options]], and fixed various bugs.
+
+== Additions ==
+*Added configuration options for disabling [[Adrenaline]] and [[Rage]], moving the Adrenaline and Rage meters, undoing the [[Expert Mode]] [[Chilled]] [[Water]] changes, undoing the Expert Mode [[debuff]] duration reducal, [[Proficiency]], undoing the [[Lunar Events]] enemy wave nerf, disabling enemy spawns near towns, and boosting mining speed.
+*Added Botanic furniture:
+**Added [[Botanic Bathtub]], [[Botanic Bed]], [[Botanic Bench]], [[Botanic Bookcase]], [[Botanic Candelabra]], [[Botanic Candle]], [[Botanic Chair]], [[Botanic Chandelier]], [[Botanic Chest]], [[Botanic Clock]], [[Botanic Door]], [[Botanic Dresser]], [[Botanic Lamp]], [[Botanic Lantern]], [[Botanic Piano]], [[Botanic Planter]], [[Botanic Platform]], [[Botanic Sink]], [[Botanic Table]], and [[Botanic Work Bench]].
+*Added Eutrophic furniture:
+**Added [[Eutrophic Bathtub]], [[Eutrophic Bed]], [[Eutrophic Bench]], [[Eutrophic Bookcase]], [[Eutrophic Candelabra]], [[Eutrophic Candle]], [[Eutrophic Chair]], [[Eutrophic Chandelier]], [[Eutrophic Chest]], [[Eutrophic Door]], [[Eutrophic Dresser]], [[Eutrophic Lamp]], [[Eutrophic Lantern]], [[Eutrophic Piano]], [[Eutrophic Platform]], [[Eutrophic Shelf]], [[Eutrophic Sink]], [[Eutrophic Table]], and [[Eutrophic Work Bench]].
+*Added Otherworldly furniture:
+**Added [[Otherworldly Bathtub]], [[Otherworldly Bed]], [[Otherworldly Bookcase]], [[Otherworldly Candelabra]], [[Otherworldly Candle]], [[Otherworldly Chair]], [[Otherworldly Chandelier]], [[Otherworldly Chest]], [[Otherworldly Clock]], [[Otherworldly Door]], [[Otherworldly Dresser]], [[Otherworldly Lamp]], [[Otherworldly Lantern]], [[Otherworldly Piano]], [[Otherworldly Platform]], [[Otherworldly Sink]], [[Otherworldly Sofa]], [[Otherworldly Table]], and [[Otherworldly Work Bench]].
+*Added Plagued Plate furniture:
+**Added [[Plagued Plate Basin]], [[Plagued Plate Bathtub]], [[Plagued Plate Bed]], [[Plagued Plate Candelabra]], [[Plagued Plate Candle]], [[Plagued Plate Chair]], [[Plagued Plate Chair]], [[Plagued Plate Chandelier]], [[Plagued Plate Chest]], [[Plagued Plate Clock]], [[Plagued Plate Door]], [[Plagued Plate Dresser]], [[Plagued Plate Lamp]], [[Plagued Plate Lantern]], [[Plagued Plate Piano]], [[Plagued Plate Piano]], [[Plagued Plate Platform]], [[Plagued Plate Sink]], [[Plagued Plate Sofa]], [[Plagued Plate Table]], [[Plagued Plate Work Bench]], and [[Plague Infuser]].
+*Added Silva furniture:
+**Added [[Effulgent Manipulator]], [[Silva Bathtub]], [[Silva Bed]], [[Silva Bench]], [[Silva Bookcase]], [[Silva Candelabra]], [[Silva Candle]], [[Silva Chair]], [[Silva Chandelier]], [[Silva Chest]], [[Silva Clock]], [[Silva Door]], [[Silva Dresser]], [[Silva Lamp]], [[Silva Lantern]], [[Silva Piano]], [[Silva Platform]], [[Silva Sink]], [[Silva Table]], and [[Silva Work Bench]].
+*Added Stratus furniture:
+**Added [[Stratus Bathtub]], [[Stratus Bed]], [[Stratus Bookcase]], [[Stratus Candelabra]], [[Stratus Candle]], [[Stratus Chair]], [[Stratus Chandelier]], [[Stratus Chest]], [[Stratus Clock]], [[Stratus Door]], [[Stratus Dresser]], [[Stratus Lamp]], [[Stratus Lantern]], [[Stratus Piano]], [[Stratus Platform]], [[Stratus Sink]], [[Stratus Sofa]], [[Stratus Table]], and [[Stratus Work Bench]].
+*Added [[Profaned Crucible]].
+*Added [[Otherworldly Stone]], [[Plagued Plate]], [[Silva Crystal]], [[Smooth Navystone]] and [[Stratus Bricks]].
+*Added [[Ashen Slab Wall]], [[Astral Monolith Wall]], [[Eutrophic Sand Wall Safe]], [[Navystone Wall Safe]], [[Otherworldly Stone Wall]], [[Plagued Plate Wall]], [[Silva Wall]], [[Smooth Navystone Wall]], [[Stratus Wall]], and [[Voidstone Slab Wall]].
+
+== Changes ==
+*Increased the width of the [[Abyss]].
+*[[Asphalt]]'s speed nerf now only applies to [[Revengeance Mode]] and higher.
+*[[Astrum Deus]] changes:
+**Now enrages if gravity is flipped.
+**Now despawns slower.
+**Now despawns at daytime, and is no longer able to despawn due to distance from the player.
+*Bosses fought after nighttime bosses during [[Boss Rush]] now change the time back to day.
+*[[Chicken Cannon]]'s rockets now ignore [[Water]]. <!---Otherwise they would just infinitely stay still in Water--->
+*[[Clam Crusher]] no longer inflicts [[Silva Stun]] on bosses.
+*[[Cosmic Immaterializer]] no longer causes projectiles to deal 25% less damage.
+*[[Crystalline]] now requires 50 [[Wulfrum Knife|Wulfrum Knives]] instead of 50 [[Throwing Knife|Throwing Knives]].
+*Buffed [[Dungeon Guardian]]'s damage reduction from 99.99% to 99.9999%, and it now shoots skulls every second in Revengeance Mode.
+*[[Exoblade]]'s beams no longer heal the player.
+*[[Plasma Rifle]] changes:
+**Nerfed shot speed from 20 to 12.
+**Both projectiles no longer produce light, now have 10 extra updates, and have had their dust tweaked.
+*Buffed [[Providence, the Profaned Goddess]]' Boss Rush health from {{dv|10,000,000|16,000,000|0|19,200,000}} to {{dv|12,500,000|20,000,000|0|24,000,000}}, and she can no longer be targeted while firing her Holy Ray.
+*Enraged Revengeance [[Skeletron]] now shoots skulls every second.
+*Increased the post [[Jungle Dragon, Yharon]] [[Solar Eclipse]]'s contact damage modifier from 300% to 350%.
+*[[Lethal Lava Burn]] is now exclusive to Revengeance Mode and higher.
+*[[Starcore]] is now non-consumable and stacks to 1 instead of 20.
+*Buffed [[Starnight Lance]]'s damage from 50 to 60, and it now hits twice instead of once.
+*[[Stellar Striker]]'s flares now deal 50% of the weapon's damage instead of 70%.
+*[[Silva armor]] now requires [[Tenebris]] to craft:
+**All Silva Helmets now require 6 Tenebris.
+**Silva Armor now requires 12 Tenebris.
+**Silva Leggings now require 9 Tenebris.
+*[[Terminus]] now has a tooltip stating that it activates Boss Rush.
+*Rebalanced most Calamity pre-Hardmode [[tools]]:
+**Nerfed [[Aerial Hamaxe]]'s damage from 25 to 20, its use time from 19 to 25, increased its axe power from 20 to 25, decreased its hammer power from 75 to 65, and increased its size.
+**Nerfed [[Gelpick]]'s damage from 20 to 12, its use time from 14 to 19, and its knockback from 4 to 2.5.
+**Nerfed [[Greatbay Pickaxe]]'s damage from 13 to 9, its use time from 14 to 15, and increased its size.
+**Nerfed [[Reefclaw Hamaxe]]'s use time from 18 to 28, and buffed its knockback from 4 to 6.
+**Nerfed [[Skyfringe Pickaxe]]'s damage from 17 to 12, its use time from 8 to 15, its use animation from 14 to 15, its knockback from 4 to 2.5, and increased its size.
+**Nerfed [[Wulfrum Axe]]'s damage from 7 to 5, its use time from 7 to 25, its use animation from 15 to 25, increased its knockback from 3 to 4.5, and increased its size.
+**Nerfed [[Wulfrum Hammer]]'s use time from 7 to 28, its use animation from 15 to 28, and increased its knockback from 4 to 5.5.
+**Nerfed [[Wulfrum Pickaxe]]'s use time from 6 to 15, its use animation from 13 to 15, and increased its knockback from 1 to 2.
+*Buffed [[Vivid Clarity]]'s damage from 350 to 500.
+*Defeating the [[Wall of Flesh]] for the first time now displays a status message signifying that the Sunken Sea has been buffed.
+
+=== Blocks and Furniture === <!---Giving them their own section since they'd otherwise clog the rest of the changes--->
+*All Calamity furniture set pieces now produce dust when hit, use the ({{color|#BF8E6F ●|#BF8E6F}}) color for their map icons, and no longer have any sell value.
+*[[Abyss Gravel]] no longer produces [[Water]].
+*[[Abyss Lamp]] is now crafted with 1 [[Smooth Abyss Gravel]] and 3 [[Lumenyl]], instead of 1 Lumenyl and 3 Smooth Abyss Gravel.
+*[[Abyss Torch]] changes:
+**Now referred to as "Abyss Torch" on its map entry instead of "Torch".
+**No longer uses custom dust.
+**Changed map icon color from ({{color|#C8C8C8 ●|#C8C8C8}}) to ({{color|#FDDD03 ●|#FDDD03}}).
+*Abyss and Void furniture no longer break when submerged in water.
+*[[Aerialite Brick]] changes:
+**Changed map icon color from ({{color|#00FFFF ●|#00FFFF}}) to ({{color|#443A91 ●|#443A91}}).
+**Now uses the stone hit sound instead of the dirt hit sound.
+**No longer uses custom dust.
+**Now has a mining requirement of 50.
+**Now uses the {{rare|0}} rarity instead of {{rare|1}}.
+*Aerialite Brick, [[Ashen Slab]], [[Astral Brick]], [[Cosmilite Brick]], [[Profaned Rock]], [[Profaned Slab]], [[Runic Profaned Brick]], [[Smooth Abyss Gravel]], [[Smooth Voidstone]], [[Voidstone Slab]], and their [[Platforms]] now use stone sounds instead of dirt sounds when hit.
+*[[Aerialite Brick Wall]] changes:
+**Changed map icon color from ({{color|#00FFFF ●|#00FFFF}}) to ({{color|#332D61 ●|#332D61}}).
+**Now uses dust types 1 and 10 instead of custom dust.
+**Removed map name.
+**Now creates more dust when broken.
+*Ancient and Ashen furniture no longer break when submerged in [[Lava]].
+*Changed the light colors for [[Ancient Lamp]], [[Ashen Candelabra]], [[Ashen Candle]], [[Ashen Chandelier]], [[Ashen Lamp]], and [[Ashen Lantern]].
+*Reworded [[Ancient Altar|Ancient]] and [[Ashen Altar]]'s tooltips. <!---"Capable of creating furniture from the ashes of the Brimstone Crags Used to craft the Ashen and Ancient furniture sets, as well as brimstone tiles" to "Used for special crafting"--->
+*The [[Ancient Monolith]]'s "eye" now follows nearby players instead of picking from a random frame when placed.
+*[[Ancient Sink]], [[Ashen Sink]], and [[Profaned Sink]]'s tooltips now state that they count as Lava sources for crafting.
+*[[Ashen Chest]] can now be crafted with [[Lead Bar]]s instead of [[Iron Bar]]s, it can also now be crafted with 1 [[Ashen Key]] and 1 [[Locked Ashen Chest]].
+*[[Ashen Platform]]s now use the {{rare|3}} rarity instead of {{rare|1}}, and are crafted with 1 Smooth Brimstone Slag instead of 1 [[Cinderplate]].
+*Ashen Slab changes:
+**Changed map icon color from ({{color|#646496 ●|#646496}}) to ({{color|#281830 ●|#281830}}).
+**Now produces dust when mined.
+**Now has a mining requirement of 180 and a pickaxe resistance value of 5.
+**Now uses the {{rare|3}} rarity instead of {{rare|0}}.
+**Now crafted with 4 Smooth Brimstone Slag and 1 Unholy Core for 5 slabs instead of 1 Smooth Brimstone Slag for 1 slab.
+*Astral Brick changes:
+**Changed map icon color from ({{color|#FF99FF ●|#FF99FF}}) to ({{color|#80809E ●|#80809E}}).
+**Now has a mining requirement of 150.
+**Now uses custom dust instead of dust type 173.
+**No longer produces light.
+**Now uses the {{rare|0}} rarity instead of {{rare|1}}.
+*[[Astral Brick Wall]] changes:
+**Changed map icon color from ({{color|#FF99FF ●|#FF99FF}}) to ({{color|#4A4A61 ●|#4A4A61}}).
+**Now uses custom dust instead of dust type 173.
+**Removed map name.
+**Now creates more dust when broken.
+*Changed [[Astral Monolith]]'s map icon color from ({{color|#646496 ●|#646496}}) to ({{color|#2D243F ●|#2D243F}}) and it now uses custom dust instead of dust type 1.
+*Cosmilite Brick changes:
+**Changed map icon color from ({{color|#3C3232 ●|#3C3232}}) to ({{color|#4C4F85 ●|#4C4F85}}).
+**Changed sheeting arrangement.
+**Now has a mining requirement of 275 and a pickaxe resistance value of 5.
+**Platform to brick recipe now requires [[Draedon's Forge]].
+*Changed [[Cosmilite Brick Wall]]'s map icon color from ({{color|#050505 ●|#050505}}) to ({{color|#22213B ●|#22213B}}), and it now uses dust types 132 and 134 instead of custom dust.
+*Changed the offsets for the [[Cosmilite Chest]] and [[Void Bed]].
+*[[Cryonic Brick]] changes:
+**Changed map icon color from ({{color|#000096 ●|#000096}}) to ({{color|#6383C7 ●|#6383C7}}).
+**Now uses dust type 176 instead of custom dust.
+**Now has a pickaxe requirement of 100.
+**No longer produces light.
+**Now uses the {{rare|0}} rarity instead of {{rare|1}}.
+*[[Cryonic Brick Wall]] changes:
+**Changed map icon color from ({{color|#000096 ●|#000096}}) to ({{color|#484B7A ●|#484B7A}}).
+**Now uses dust type 176 instead of custom dust.
+**Removed map name.
+**Now creates more dust when broken.
+*[[Unsafe Eutrophic Sand Wall|Eutrophic Sand Wall]]s can no longer be crafted.
+*Locked Ashen Chest now uses the {{rare|3}} rarity instead of {{rare|0}}, can now use Lead Bars instead of Iron Bars in its recipe, and can now also be crafted with 1 Ashen Chest and 1 Ashen Key.
+*[[Navystone Wall]]s no longer produce Water.
+*[[Perennial Brick]] changes:
+**Changed map icon color from ({{color|#C8FA64 ●|#C8FA64}}) to ({{color|#11852E ●|#11852E}}).
+**Now uses dust types 128 and 60 instead of custom dust.
+**Now has a pickaxe requirement of 150.
+**No longer produces light.
+**Now use the {{rare|0}} rarity instead of {{rare|1}}.
+*[[Perennial Brick Wall]] changes:
+**Changed map icon color from ({{color|#C8FA64 ●|#C8FA64}}) to ({{color|#40742B ●|#40742B}}).
+**Now uses dust types 128 and 60 instead of custom dust.
+**Removed map name.
+**Now creates more dust when broken.
+*All profaned furniture is now crafted at a Profaned Crucible instead of an [[Ancient Manipulator]].
+*[[Profaned Crystal]] changes:
+**Changed map icon color from ({{color|#3C3232 ●|#3C3232}}) to ({{color|#B588B1 ●|#B588B1}}).
+**Now has a mining requirement of 225 and a pickaxe resistance value of 1.
+**Now uses glass sounds when hit instead of dirt sounds.
+**Now crafted with 20 [[Glass]] for a yield of 20 at a Work Bench instead of 10 Glass for a yield of 10 at an Ancient Manipulator.
+*[[Profaned Crystal Wall]] changes:
+**Changed map icon color from ({{color|#050505 ●|#050505}}) to ({{color|#7D617B ●|#7D617B}}).
+**Now uses dust type 205 instead of custom dust.
+**Now uses glass sounds when hit instead of dirt sounds.
+*Profaned Rock changes:
+**Changed map icon color from ({{color|#3C3232 ●|#3C3232}}) to ({{color|#542621 ●|#542621}}).
+**Now has a mining requirement of 225 and a pickaxe resistance value of 15.
+**Now crafted with 20 [[Stone Block]]s for a yield of 20 instead of 1 Stone Block for a yield of 1.
+**Platform to rock recipe now requires an Ancient Manipulator.
+*[[Profaned Rock Wall]] changes:
+**Changed map icon color from ({{color|#050505 ●|#050505}}) to ({{color|#29191F ●|#29191F}}).
+**Now uses dust type 206 and ProfanedTileRock dust instead of Sparkle dust.
+*Profaned Sink now requires a [[Lava Bucket]] to craft instead of a [[Water Bucket]].
+*Profaned Slab changes:
+**Changed map icon color from ({{color|#3C3232 ●|#3C3232}}) to ({{color|#7A423B ●|#7A423B}}).
+**Now has a mining requirement of 225 and a pickaxe resistance value of 10.
+**Now uses ProfanedTileRock dust instead of Sparkle dust.
+**Platform to slab recipe now requires a Work Bench instead of an Ancient Manipulator.
+*Runic Profaned Brick changes:
+**Changed map icon color from ({{color|#3C3232 ●|#3C3232}}) to ({{color|#7A423B ●|#7A423B}}).
+**Now has a mining requirement of 225 and a pickaxe resistance value of 10.
+*[[Runic Profaned Brick Wall]] changes:
+**Changed map icon color from ({{color|#050505 ●|#050505}}) to ({{color|#2B161B ●|#2B161B}}).
+**Now uses dust type 205 and ProfanedTileRock dust instead of Sparkle dust.
+**Platform to brick recipe now requires a Work Bench instead of an Ancient Manipulator.
+*[[Sea Prism]]s can now be crafted with 5 [[Prism Shard]]s at an [[Anvil]].
+*[[Smooth Abyss Gravel]] changes:
+**Changed map icon color from ({{color|#646496 ●|#646496}}) to ({{color|#31384D ●|#31384D}}).
+**Now has a mining requirement of 65 and a pickaxe resistance value of 2.
+**Platform to gravel recipe now requires a [[Void Condenser]].
+*[[Smooth Abyss Gravel Wall]] changes:
+**Changed map icon color from ({{color|#050505 ●|#050505}}) to ({{color|#1C202C ●|#1C202C}}).
+**Now uses dust type 1 instead of custom dust.
+*[[Smooth Brimstone Slag]] changes:
+**Changed map icon color from ({{color|#141414 ●|#141414}}) to ({{color|#3D283D ●|#3D283D}}).
+**Now has a mining requirement of 180 and a pickaxe resistance value of 5.
+**Removed map name.
+**No longer produces light.
+**Now uses the {{rare|3}} rarity instead of {{rare|0}}.
+*[[Smooth Brimstone Slag Wall]] changes:
+**Changed map icon color from ({{color|#141414 ●|#141414}}) to ({{color|#1E1224 ●|#1E1224}}).
+**Now uses dust types 60 and 1 instead of 53.
+**Removed map name.
+**Now uses the {{rare|3}} rarity instead of {{rare|0}}.
+*[[Smooth Voidstone]] changes:
+**Changed map icon color from ({{color|#0A0A0A ●|#0A0A0A}}) to ({{color|#1B181F ●|#1B181F}}).
+**Now has a mining requirement of 190 and a pickaxe resistance value of 7.
+**Platform to voidstone recipe now requires a Void Condenser.
+*[[Smooth Voidstone Wall]] changes:
+**Changed map icon color from ({{color|#050505 ●|#050505}}) to ({{color|#0B0B0D ●|#0B0B0D}}).
+**Now uses dust type 180 instead of custom dust.
+*[[Static Refiner]] now has a tooltip. <!---Used for special crafting--->
+*[[Statigel Block]] changes:
+**Changed map icon color from ({{color|#0A0A0A ●|#0A0A0A}}) to ({{color|#D74A79 ●|#D74A79}}).
+**Can now be crafted with 2 [[Statigel Platform]]s.
+*[[Statigel Wall]] changes:
+**Changed map icon color from ({{color|#050505 ●|#050505}}) to ({{color|#A2365A ●|#A2365A}}).
+**Now uses dust type 243 instead of custom dust.
+*[[Tenebris]] can no longer be detected by the [[Metal Detector]].
+*[[Uelibloom Brick]] changes:
+**Changed map icon color from ({{color|#00FF00 ●|#00FF00}}) to ({{color|#AE6C2E ●|#AE6C2E}}).
+**Now has a mining requirement of 200.
+**Now uses dust types 39 and 10 instead of custom dust.
+**Removed map name.
+**Now uses the {{rare|0}} rarity instead of {{rare|1}}.
+*[[Uelibloom Brick Wall]] changes:
+**Changed map icon color from ({{color|#00FF00 ●|#00FF00}}) to ({{color|#613B23 ●|#613B23}}).
+**Now uses dust types 10 and 39 instead of custom dust.
+**Removed map name.
+**Now creates more dust when broken.
+*Void Condenser now has a tooltip. <!---Used for special crafting--->
+*Voidstone Slab changes:
+**Changed map icon color from ({{color|#646496 ●|#646496}}) to ({{color|#1B181F ●|#1B181F}}).
+**Now has a mining requirement of 190 and a pickaxe resistance value of 7.
+**Now has a glowmask.
+*[[Voidstone Wall]]s now use dust type 180 instead of 187.
+
+=== Renames ===
+*Renamed Abyss Bath to [[Abyss Bathtub]].
+*Renamed Abyss Piano to [[Abyss Synth]].
+*Renamed Abyss Workbench to [[Abyss Work Bench]].
+*Renamed Ancient Bath to [[Ancient Bathtub]].
+*Renamed Ancient Piano to [[Ancient Pipe Organ]].
+*Renamed Ancient Workbench to [[Ancient Work Bench]].
+*Renamed Ashen Bath to [[Ashen Bathtub]].
+*Renamed Ashen Piano to [[Ashen Pipe Organ]].
+*Renamed Ashen Workbench to [[Ashen Work Bench]].
+*Renamed Cosmilite Bath to [[Cosmilite Bathtub]].
+*Renamed Cosmilite Workbench to [[Cosmilite Work Bench]].
+*Renamed Profaned Bath to [[Profaned Bathtub]].
+*Renamed Profaned Workbench to [[Profaned Work Bench]].
+*Renamed Statigel Bath to [[Statigel Bathtub]].
+*Renamed Statigel Workbench to [[Statigel Work Bench]].
+*Renamed Void Bath to [[Void Bathtub]].
+*Renamed Void Clock to [[Void Obelisk]].
+*Renamed Void Workbench to [[Void Work Bench]].
+
+=== Resprites ===
+*Resprited Aerialite Brick, Ashen Slab, Astral Brick, Cryonic Brick, Perennial Brick, Profaned Crystal, Profaned Rock, Runic Profaned Brick, Smooth Brimstone Slag, Smooth Voidstone, Statigel Block<!---Only changed a few variants of the block--->, Uelibloom Brick, and Voidstone.
+*Resprited [[Cosmilite Candle]], [[Profaned Dresser]], and [[Profaned Table]].
+*Resprited Aerialite Brick Wall, Astral Brick Wall, Brimstone Slag Wall, Cinderplate Wall, Cryonic Brick Wall, Perennial Brick Wall, Profaned Crystal Wall, Profaned Rock Wall, Profaned Slab Wall, Runic Profaned Brick Wall, Smooth Brimstone Slag Wall, Smooth Voidstone Wall, Statigel Wall, Uelibloom Brick Wall, and Voidstone Wall.
+*Resprited [[Elysian Aegis]]' equipped sprite.
+
+== Fixes ==
+*Fixed [[Ancient Monolith]], Ashen Monolith, [[Cosmilite Clock]], [[Profaned Clock]], and [[Statigel Clock]] not having tile highlights. 
+*Fixed Calamity beds and clocks not having smart interact.
+*Fixed Calamity beds and sofas not counting as chairs.
+*Fixed Calamity bookcases not counting as tables and not being able to be stood on.
+*Fixed Calamity chairs and dressers having their map entry names displaying in camelcase instead of with a space.
+*Fixed some tile anchoring errors on all Calamity chandeliers.
+*Fixed Calamity sinks not counting as sinks.
+*Fixed Abyss Torches being vulnerable to water in most orientations.
+*Fixed sheeting errors on [[Cosmilite Chandelier]], [[Profaned Candelabra]], and [[Void Bathtub]].
+*Fixed [[Ichor Dart]]s infinitely splitting with the [[Elemental Quiver]].
+*Fixed Plasma Rifle's hold offset.
+*Fixed the tooltips for all Silva armor set bonuses except for the melee one stating that the revive caps the player's health at 0 instead of 1.
+
+== Removals ==
+*Removed the "Calamitous creatures now roam free!" and "The ancient ice spirits have been unbound!" [[status messages]].
+*Removed [[Cosmilite Basin]]. <!---It'll come back--->
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

@@ -1,0 +1,1 @@
+<code class="code-template"{{#if:{{{background|}}}| style = "background:{{{background}}};"}}>{{{1}}}</code><noinclude>{{doc}}</noinclude>

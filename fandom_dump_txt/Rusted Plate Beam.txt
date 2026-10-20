@@ -1,0 +1,30 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| color = #4A2F27
+| sell = No value
+| use = 14
+}}
+
+'''Rusted Plate Beams''' are background [[wall]]s crafted with [[Rusted Plating]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Despite being called a beam, it does not function like regular [[tgc:Beams|beams]], instead being a wall.
+
+{{Master Template Tiles
+| show-main = yes
+| show-walls = yes
+}}
+[[Category:Block items]]

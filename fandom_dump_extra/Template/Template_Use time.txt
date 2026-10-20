@@ -1,0 +1,15 @@
+<includeonly><!--
+-->{{#vardefine:usetimenum|<!--
+	-->{{#sub:{{{1}}}|0|<!--
+		-->{{#ifeq:{{#pos:{{{1}}}|(}}|-1|{{#len:{{{1}}}}}|{{#pos:{{{1}}}|(}}}}<!--
+	-->}}<!--
+-->}}<!--
+-->{{#ifexpr:{{#var:usetimenum}} <= 8|Insanely Fast|<!--
+-->{{#ifexpr:{{#var:usetimenum}} <= 20|Very Fast|<!--
+-->{{#ifexpr:{{#var:usetimenum}} <= 25|Fast|<!--
+-->{{#ifexpr:{{#var:usetimenum}} <= 30|Average|<!--
+-->{{#ifexpr:{{#var:usetimenum}} <= 35|Slow|<!--
+-->{{#ifexpr:{{#var:usetimenum}} <= 45|Very Slow|<!--
+-->{{#ifexpr:{{#var:usetimenum}} <= 55|Extremely Slow|<!--
+-->{{#ifexpr:{{#var:usetimenum}} > 55|Snail}}}}}}}}}}}}}}}}<!--
+--></includeonly><noinclude>{{doc}}[[Category:Shortcut templates]]</noinclude>

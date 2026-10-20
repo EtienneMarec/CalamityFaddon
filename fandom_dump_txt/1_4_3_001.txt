@@ -1,0 +1,1576 @@
+{{patch infobox
+| image = Death.png
+| patchname = Death Mode, Spy, and Summoner
+| release = 2/5/2020
+| pair = 1.4.3.001 (music)
+| next = [[1.4.3.002]]
+| description = [[Death Mode]] expansion. Added new weapons and equipment for both [[Spy]] and [[Summoner]].
+}}
+
+The '''1.4.3.001''' (or '''1.4.3.1''') update added numerous equipment, especially for the [[Spy]] and Summoner classes. It also included many AI changes in [[Revengeance Mode]], balance changes, general changes, resprites, and fixes. It is especially notable for the addition of Environmental Hazards, changes to [[Bosses]] and Enemy AIs, and other miscellaneous changes that are exclusive to [[Death Mode]].
+
+{{toc limit|3|right=yes}}
+== Additions ==
+=== [[Covering]] and [[coverings]] ===
+*Added [[Fearmonger Greathelm]], [[Fearmonger Greaves]], [[Fearmonger Plate Mail]], [[Plague Reaper Mask]], [[Plague Reaper Striders]], and [[Plague Reaper Vest]].
+*Added [[Blazing Core]], [[The Camper]], [[Gravistar Sabaton]], [[Jelly-Charged Battery]], [[Venerated Locket]], [[Voltaic Jelly]], and [[Wulfrum Battery]].
+*Added [[Sulphurous Breastplate]], [[Sulphurous Helmet]], and [[Sulphurous Leggings]] as [[unobtainable items]].
+*[[Ethereal Extorter]], [[Plagued Fuel Pack]], [[Sand Cloak]], and [[Spectral Veil]] are now obtainable.
+
+=== [[Weapons]] ===
+*Added [[Abyss Shocker]], [[Ace's High]], [[Alpha Virus]], [[Borealis Bomber]], [[Burning Strife]], [[Cosmic Shiv]], [[Crescent Moon]], [[Endogenesis]], [[Event Horizon]], [[Exo Gladius]], [[Flurrystorm Cannon]], [[Forgotten Apex Wand]], [[Galileo Gladius]], [[Godspawn Helix Staff]], [[Guidelight of Oblivion]], [[Hadopelagic Echo]], [[Hypothermia]], [[Ice Barrage]], [[Magnomaly Cannon]], [[Metal Monstrosity]], [[Night's Gaze]], [[Penumbra]], [[Plantation Staff]], [[Recitation of the Beast]], [[Regulus Riot]], [[Seeking Scorcher]], [[Shock Grenade]], [[Sirius]], [[Sludge Splotch]], [[Star Sputter]], [[Stratus Sphere]], [[Supernova]], and [[Wulfrum Controller]].
+*[[Clamor Noctus]], [[Exorcism]], [[Latcher Mine]], [[The Microwave]], [[Poison Pack]], and [[Star of Destruction]] are now obtainable.
+
+=== Miscellaneous Items ===
+*Added [[Aquatic Scourge Mask]], [[Brimstone Elemental Mask]], [[Dragonfolly Mask|Bumblebirb Mask]], [[Ceaseless Void Mask]], [[Polterghast Mask]], [[Profaned Guardian Mask]], [[Ravager Mask]], [[Signus Mask]], and [[Storm Weaver Mask]].
+*Added [[Baby Ghost Bell (item)|Baby Ghost Bell]], [[Piggy (item)|Piggy]], and [[Sea Minnow (item)|Sea Minnow]] [[critter]] items.
+*Added [[Baguette]] and [[Tesla Potion]].
+*Added [[Blood Rune]].
+*Added [[Fish of Eleum]], [[Sunbeam Fish]], and [[Xerocodile]].
+*Added [[Monolith Amalgam]], [[Monolith Bathtub]], [[Monolith Bed]], [[Monolith Bench]], [[Monolith Bookcase]], [[Monolith Candelabra]], [[Monolith Candle]], [[Monolith Chair]], [[Monolith Chandelier]], [[Monolith Chest]], [[Monolith Clock]], [[Monolith Door]], [[Monolith Dresser]], [[Monolith Lamp]], [[Monolith Lantern]], [[Monolith Piano]], [[Monolith Platform]], [[Monolith Sink]], [[Monolith Table]], and [[Monolith Work Bench]].
+*Added [[Primrose Keepsake]] and [[Triboluminescent Etomer]].
+
+=== Others ===
+*Added [[Ancient Mineral Shark (buff)|Ancient Mineral Shark]], [[Astral Probe (buff)|Astral Probe]], [[Baguette (buff)|Baguette]], [[Electric Troublemaker (buff)|Electric Troublemaker]], [[Endo Cooper]], [[Furtastic Duo]], [[Plantation]], [[Sirius (buff)|Sirius]], [[Tesla's Electricity]], and [[Wulfrum Droid (buff)|Wulfrum Droid]] [[buffs]].
+*Added [[Draconic Surge Cooldown]], [[Eutrophication]], [[Flesh Totem Cooldown]], [[Frozen Lungs]], [[Plague Blackout Cooldown]], [[Sand Cloak Cooldown]], and [[Searing Lava]] [[debuffs]].
+*Added a map icon for the [[Giant Clam]] and [[Great Sand Shark]].
+*Added tanks behind the player for [[Blight Spewer]], [[Brimstone Flameblaster]], [[Cleansing Blaze]], [[Elemental Eruption]], [[The Empyrean]], [[Halley's Inferno]], [[Havoc's Breath]], [[Meowthrower]], [[Overloaded Blaster]], [[Photoviscerator]], [[Shadethrower]], [[Spark Spreader]], and [[Terra Flameburster]].
+*Added compatibility to the Boss Log from the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod].
+*Added compatibility to the Summoner's Association Card from the [https://forums.terraria.org/index.php?threads/summoners-association.30041/ Summoner's Association Mod].
+*Added <code>Boss Health Bar</code>, <code>Boss Health Bar Small Text</code>, <code>Meter Position Lock</code>, and <code>Selling Vanilla Boss Summons</code> [[configuration options]].
+*Added [[Mod Calls]] for [[Umbraphile armor]], defeating buffed [[Mothron]], defeating [[Giant Clam]], defeating [[Great Sand Shark]], drawing the [[Boss Health Bar]], turning an item or projectile into [[Spy]] class, and adding or obtaining player [[Spy stealth]].
+
+== Changes ==
+=== Bosses ===
+*Decreased afterimage length of Brimstone Darts and Brimstone Hellblasts.
+*[[Defiled Rune]] no longer affects the drop rates of [[Legendary items]]. <!-- All Legendaries as of this version: SHPC, Blossom Flux, Aegis Blade, Briny Baron, Vesuvius, Sea's Searing, The Community, Malachite-->
+*Nerfed the damage of the following [[thm:|Thorium Mod]] bosses in Revengeance and Death Mode: <!-- Matching Thorium Mod version: 1.6.1.4 -->
+**Nerfed [[The Grand Thunder Bird]]'s contact damage from {{dv|20|30|oldboost=1}} to {{dv|20|30|37|42}}.
+**Nerfed The Grand Thunder Bird's lightning barrage damage from {{dv|40|oldboost=1}} to {{dv|40|80|100|112}}. <!-- GrandThunderBirdZap -->
+**Nerfed The Grand Thunder Bird's lightning shot damage from {{dv|30|oldboost=1}} to {{dv|30|60|75|84}}. <!-- also GrandThunderBirdZap? -->
+**Nerfed The Grand Thunder Bird's tornado damage from {{dv||40|oldboost=1}} to {{dv||40|50|56}}. <!-- ThunderGust -->
+**Nerfed [[Queen Jellyfish]]'s damage from {{dv|25|oldboost=1}} to {{dv|25|50|62|70}}. <!-- Contact, BubbleBomb, QueenJellyArm, QueenTorrent -->
+**Nerfed [[Viscount]]'s damage from {{dv|30|oldboost=1}} to {{dv|30|60|72|79}}. <!-- Contact, ViscountRipple, ViscountRipple2, ViscountBlood, ViscountStomp, ViscountStomp2, ViscountRockFall -->
+**Nerfed [[Granite Energy Storm]]'s damage from {{dv|35|oldboost=1}} to {{dv|35|70|84|92}}. <!-- Contact, GraniteCharge -->
+**Nerfed [[The Buried Champion]]'s damage from {{dv|35|oldboost=1}} to {{dv|35|70|84|92}}. <!-- Contact, BuriedShock, BuriedDagger, BuriedArrow, BuriedArrow2, BuriedArrowF, BuriedArrowP, BuriedArrowC, BuriedMagic, BuriedMagicPop -->
+**Nerfed [[The Star Scouter]]'s damage from {{dv|40|oldboost=1}} to {{dv|40|80|96|105}}. <!-- Contact, MainBeamOuter, MainBeam, MainBeamCheese, VaporizeBlast, GravitonSurge, Vaporize, GravitonCharge, GravitySpark -->
+**Nerfed [[Borean Strider]]'s contact damage from {{dv|55|oldboost=1}} to {{dv|55|110|132|145}}.
+**Nerfed [[Borean Strider]]'s projectile damage from {{dv|55|oldboost=1}} to {{dv|55|110|126|136}}. <!-- BlizzardBarrage, FrostSurge, FrostSurgeR, BlizzardCascade, BlizzardBoom, BlizzardFang, IceAnomaly -->
+**Nerfed [[Borean Myte]]'s projectile damage from {{dv|40|oldboost=1}} to {{dv|40|80|92|99}}. <!-- FrostMytePro -->
+**Nerfed [[Coznix, The Fallen Beholder]]'s damage from {{dv|50|oldboost=0.75}} to {{dv|50|75|86|93}}. <!-- DoomBeholderBeam, VoidLaserPro, BeholderBeam -->
+**Nerfed [[The Lich]]'s first phase damage from {{dv|90|oldboost=1}} to {{dv|90|180|206|223}}. <!-- LichGaze, LichGazeB, LichFlareSpawn, LichFlare, LichPulse, LichMatter, SoulRenderLich, LichFlareDeathD, LichFlareDeathU -->
+**Nerfed The Lich's second phase damage from {{dv|120|oldboost=1}} to {{dv|120|240|276|297}}.
+**Nerfed [[Abyssion, The Forgotten One]]'s damage from {{dv|60|oldboost=1}} to {{dv|60|120|138|148}}. <!-- Whirlpool, AbyssionSpit, AbyssionSpit2, AquaRipple, AbyssalStrike2, OldGodSpit, OldGodSpit2 --> <!-- Some of these might be Ragnarok I cannot tell -->
+**Nerfed [[Aquaius, the Endless Tide]]'s damage from {{dv|60|oldboost=1}} to {{dv|60|120|138|148}}. <!-- WaterPulse, TyphoonBlastHostile, TyphoonBlastHostileSmaller, AquaBarrage, DeathRaySpawnR, DeathRaySpawnL, DeathRaySpawn, OmniDeath, OmniSphereOrb, FlameLash, FlamePulse, FlamePulseTorn, FlameNova, MoltenFury, RealityFury, UFOBlast -->
+**Nerfed [[Omnicide, the Life Defiler]]'s damage from {{dv|100|oldboost=1}} to {{dv|100|200|229|248}}.
+**Nerfed [[Slag Fury, the Primordial Flame]]'s damage from {{dv|60|oldboost=1}} to {{dv|60|120|138|148}}.
+**Nerfed [[Dying Reality, the Ragnarök]]'s damage from {{dv|100|oldboost=1}} to {{dv|100|200|229|248}}.
+
+==== [[Aquatic Scourge]] ====
+*Nerfed head contact damage from {{dv|80|oldboost=1}} to {{dv|80|160|184|198}}.
+*Nerfed toothed body contact damage from {{dv|65|110|oldboost=1}} to {{dv|65|110|126|136}}.
+*Nerfed toothless body contact damage from {{dv|55|93|oldboost=1}} to {{dv|55|93|106|115}}.
+*Nerfed tail contact damage from {{dv|45|76|oldboost=1}} to {{dv|45|76|91|100}}.
+*Nerfed blast damage from {{dv|56|92|oldboost=1}} to {{dv|56|92|115|128}}.
+*Nerfed tooth damage from {{dv|60|100|oldboost=1}} to {{dv|60|100|120|132}}.
+*Nerfed cloud damage from {{dv|66|112|oldboost=1}} to {{dv|66|112|128|138}}.
+*Decreased drop rate of [[Angler Earring]] from 11.11% to 8.33%.
+*Decreased drop rate of [[Angler Tackle Bag]] from 8.33% to 6.67%.
+*No longer spawns a random selection of [[Aquatic Parasite]], [[Aquatic Seeker]], or [[Aquatic Urchin]] every 3 seconds.
+*Now barfs a circle of Sand Blasts ({{expert|and Sand Poison Clouds}}) every {{dv|7||6}} seconds instead of 6.5. <!-- Boss Rush: every 5 seconds instead of 4.5 -->
+*Revengeance Mode AI changes are now inherited during the Boss Rush.
+*Every 10 seconds in Revengeance Mode, it now moves in a circle around a certain point for 3 seconds then charges at the player, while spawning three waves of Aquatic Parasites, Aquatic Seekers, and Aquatic Urchins.
+*Several Death Mode changes:
+**Increased the number of segments from 32 to 42.
+**Increased Sand Poison Cloud speed by 10%.
+**Increased Sand Teeth and Sand Blast speed by 26.67%.
+
+==== [[Astrum Aureus]] ====
+*Nerfed contact damage from {{dv|80|136|oldboost=1}} to {{dv|80|136|156|168}}.
+*Nerfed Aureus Spawn damage from {{dv|||150|172}} to {{dv|||150}}.
+*Nerfed pre-Moon Lord laser and crystal damage from {{dv|74|128|oldboost=1}} to {{dv|74|128|147|158}}.
+*Nerfed post-Moon Lord laser and crystal damage from {{dv|222|384|oldboost=1}} to {{dv|222|384|441|476}}.
+*No longer immune to [[Betsy's Curse]].
+*Several Death Mode changes:
+**Transitions into Phase 2 and 3 immediately instead of below 75% and 50% health.
+**Fires projectiles at the highest rate immediately, instead of gradually increasing rate as health lowers.
+**Runs, jumps, and falls at the highest speed immediately, instead of gradually speeding up as health lowers.
+
+==== [[Astrum Deus]] ====
+*Nerfed small worm head contact damage from {{dv|100|oldboost=1}} to {{dv|100|200|220|232}}.
+*Nerfed small worm body contact damage from {{dv|85|144||165}} to {{dv|85|144}}.
+*Nerfed small worm tail contact damage from {{dv|70|119||136}} to {{dv|70|119}}.
+*Nerfed main worm head contact damage from {{dv|120|oldboost=1}} to {{dv|120|240|264|278}}.
+*Nerfed main worm body contact damage from {{dv|100|170||195}} to {{dv|100|170}}.
+*Nerfed main worm tail contact damage from {{dv|80|136||156}} to {{dv|80|136}}.
+*Nerfed Astrum Deus Probe laser damage from {{dv|90|152||174}} to {{dv|90|152}}.
+*Nerfed laser damage from {{dv|90|152|oldboost=1}} to {{dv|90|152|174|188}}.
+*Nerfed mine damage from {{dv|120|180|oldboost=1}} to {{dv|120|180|206|223}}.
+*Increased vertical speed for the last worm alive.
+*Now takes 30% damage from [[Plaguenade]]'s main grenade.
+*Several Death Mode changes:
+**Fires projectiles at the highest rate immediately, instead of increasing rate at 65% and 30% health.
+**Moves and turns at the highest speed immediately, instead of gradually speeding up as health lowers.
+**Decreased maximum movement and turning speed.
+
+==== [[Brain of Cthulhu]] ====
+*Nerfed contact damage from {{dv|30|54|oldboost=1}} to {{dv|30|54|64|71}}.
+*Nerfed final phase contact damage from {{dv|||80|92}} to {{dv|||76|84}}.
+*Nerfed Creeper's contact damage from {{dv|20|oldboost=1}} to {{dv|20|40|50|56}}.
+*Nerfed blood geyser damage from {{dv|||60|69}} to {{dv|||60|67}}.
+*Several Death Mode changes:
+**Transitions into Phase 3, 4, and 5 immediately instead of below 90%, 70%, and 50% health. <!-- Prior to this, Death Mode already immediately transitions the boss into P2 -->
+**Hitting the boss has the least effect on delaying teleportation immediately, instead of gradually having less effect as health lowers.
+**Has 99.1% knockback resistance immediately, instead of having 58.6% knockback resistance and gradually taking less knockback as health lowers.
+**Moves at the highest speed immediately, instead of gradually speeding up as health lowers.
+**Decreased Creeper speed.
+**Decreased teleport frequency while Creepers are alive.
+
+==== [[Brimstone Elemental]] ====
+*Buffed health from {{dv|26,000|41,600|57,132}} to {{dv|30,000|48,000|65,600}}.
+*Nerfed pre-Providence contact damage from {{dv|60|96|oldboost=1}} to {{dv|60|96|115|126}}.
+*Nerfed post-Providence contact damage from {{dv|180|288|oldboost=1}} to {{dv|180|288|345|380}}.
+*Nerfed pre-Providence dart and hellblast damage from {{dv|60|100|oldboost=1}} to {{dv|60|100|105|108}}.
+*Nerfed post-Providence dart and hellblast damage from {{dv|120|220|oldboost=1}} to {{dv|120|220|231|237}}.
+*Nerfed pre-Providence fireball damage from {{dv|70|112|oldboost=1}} to {{dv|70|112|128|138}}.
+*Nerfed post-Providence fireball damage from {{dv|130|232|oldboost=1}} to {{dv|130|232|266|287}}.
+*Brimstone Elemental and Brimling are no longer immune to Betsy's Curse.
+*Added an attack in Revengeance or Death Mode at {{dv|||50%|100%}} health where she triples in defense and fires laser beams ahead of the player.
+*Death Mode now causes Brimstone Elemental to move and fire at the highest speed immediately, instead of gradually speeding up as health lowers.
+
+==== [[Bumblebirb]] ====
+*Nerfed contact damage from {{dv|160|256|oldboost=1}} to {{dv|160|256|281|296}}.
+*Nerfed charge damage from {{dv|240|384|oldboost=1}} to {{dv|240|384|422|445}}.
+*Nerfed small Bumblebirb's contact damage from {{dv|110|oldboost=1}} to {{dv|110|220|242|255}}.
+*Nerfed small Bumblebirb's charge damage from {{dv|165|oldboost=1}} to {{dv|165|330|363|382}}.
+*Nerfed feather damage from {{dv|120|200|oldboost=1}} to {{dv|120|200|220|232}}.
+*Increased maximum amount of small Bumblebirb spawns below 50% health in Death Mode from 2 to 3.
+*Death Mode now doubles the amount of feathers spawned.
+
+==== [[Calamitas]] ====
+*Nerfed pre-Providence first phase contact damage from {{dv|55|88|oldboost=1}} to {{dv|55|88|101|109}}.
+*Nerfed post-Providence first phase contact damage from {{dv|165|264|oldboost=1}} to {{dv|165|264|303|327}}.
+*Nerfed pre-Providence second phase contact damage from {{dv|70|112|oldboost=1}} to {{dv|70|112|128|138}}.
+*Nerfed post-Providence second phase contact damage from {{dv|210|336|oldboost=1}} to {{dv|210|336|386|416}}.
+*Nerfed pre-Providence Cataclysm's contact damage from {{dv|60|oldboost=1}} to {{dv|60|120|138|148}}.
+*Nerfed post-Providence Cataclysm's contact damage from {{dv|180|oldboost=1}} to {{dv|180|360|413|446}}.
+*Nerfed pre-Providence Catastrophe's contact damage from {{dv|65|oldboost=1}} to {{dv|65|130|149|161}}.
+*Nerfed post-Providence Catastrophe's contact damage from {{dv|195|oldboost=1}} to {{dv|195|390|448|483}}.
+*Nerfed Life Seeker's contact damage from {{dv|30|oldboost=1}} to {{dv|30|60|72|79}}.
+*Nerfed Soul Seeker's contact damage from {{dv|40|oldboost=1}} to {{dv|40|80|96|105}}.
+*Nerfed pre-Providence laser damage from {{dv|70|112|oldboost=1}} to {{dv|70|112|128|138}}.
+*Nerfed post-Providence laser damage from {{dv|130|232|oldboost=1}} to {{dv|130|232|266|287}}.
+*Nerfed pre-Providence laser barrage damage from {{dv|48|80|oldboost=1}} to {{dv|48|80|92|99}}.
+*Nerfed post-Providence laser barrage damage from {{dv|108|200|oldboost=1}} to {{dv|108|200|229|248}}.
+*Nerfed pre-Providence Calamitas's fireball from {{dv|84|136|oldboost=1}} to {{dv|84|136|156|168}}.
+*Nerfed post-Providence Calamitas's fireball damage from {{dv|144|256|oldboost=1}} to {{dv|144|256|294|317}}.
+*Nerfed pre-Providence Catastrophe's fireball damage from {{dv|72|116|oldboost=1}} to {{dv|72|116|133|143}}.
+*Nerfed post-Providence Catastrophe's fireball damage from {{dv|132|236|oldboost=1}} to {{dv|132|236|271|292}}.
+*Nerfed pre-Providence Cataclysm's fire damage from {{dv|76|120|oldboost=1}} to {{dv|76|120|138|148}}.
+*Nerfed post-Providence Cataclysm's fire damage from {{dv|136|240|oldboost=1}} to {{dv|136|240|276|297}}.
+*Nerfed Life Seeker laser damage from {{dv|50|88||101}} to {{dv|50|88}}.
+*Nerfed Soul Seeker dart damage from {{dv|60|100|oldboost=1}} to {{dv|60|100|105|108}}.
+*Calamitas, Cataclysm, Catastrophe, and Soul Seekers are no longer immune to Betsy's Curse.
+*Now always fires Brimstone Hellfireballs that target through tiles if the player is hidden behind them.
+*Now always fires Brimstone Hellfireballs if brothers are alive.
+*Reduced Brimstone Hellfireball lifespan from 10 seconds to 5.
+*Slightly decreased Cataclysm and Catastrophe attack rates.
+*Decreased maximum amount of [[Life Seeker]]s spawned from 10 to 3.
+*[[Soul Seeker]]s are now summoned at 35% health instead of 50%.
+*Death Mode now causes Calamitas to fire projectiles at the highest rate immediately, instead of gradually increasing rate as health lowers.
+*Increased Calamitas' overall movement speed and acceleration in Death Mode.
+
+==== [[Ceaseless Void]] ====
+*Nerfed contact damage from {{dv|150|oldboost=1}} to {{dv|150|300|330|348}}.
+*Nerfed Dark Energy's contact damage from {{dv|120|240|300|345}} to {{dv|120|240|300}}.
+*Nerfed laser and energy ball damage from {{dv|120|200|oldboost=1}} to {{dv|120|200|229|248}}.
+*In Revengeance Mode, it now spawns an even ring of 12 invincible Dark Energy Balls instead of a wave of 4 when below 50% health.
+*Decreased projectile spawn rate in Death Mode.
+*Dark Energies now take 90% damage from the [[Molten Amputator]] boomerang.
+
+==== [[Crabulon]] ====
+*Nerfed contact damage from {{dv|40|64|oldboost=1}} to {{dv|40|64|76|84}}.
+*Nerfed Crab Shroom's contact damage from {{dv|25|oldboost=1}} to {{dv|25|50|62|70}}.
+*Nerfed slam damage from {{dv|40|oldboost=1}} to {{dv|40|80|96|105}}.
+*Buffed mushroom shot damage from {{dv|28|44|oldboost=1}} to {{dv|32|48|60|67}}.
+*Increased run speed in [[Expert Mode]], and even further in Revengeance Mode.
+*Mushroom walls now move slightly diagonally when below 50% health in Revengeance Mode.
+*Increased mushroom wall fall speed by 20% in Death Mode.
+*Halved the time taken between jumps in Revengeance Mode.
+*Now varies in jump speed and frequency in Revengeance Mode based on a pattern of four jumps.
+**The second jump takes a shorter time to perform and jumps 33.33% higher.
+**The third jump takes even shorter time to perform and jumps 33.33% lower.
+**The fourth jump takes the shortest time to perform and jumps 33.33% lower but 100% farther.
+*Death Mode now causes Crabulon to behave in its final phase immediately instead of below 10% health.
+*Decreased base attack speed in Death Mode.
+
+==== [[Cryogen]] ====
+*Nerfed contact damage from {{dv|50|90|oldboost=1}} to {{dv|50|90|103|111}}.
+*Nerfed final phase contact damage from {{dv|75|135|oldboost=1}} to {{dv|75|135|155|167}}.
+*Nerfed shield contact damage from {{dv|50|oldboost=1}} to {{dv|50|100|114|124}}.
+*Nerfed Aurora Spirit's contact damage from {{dv|40|oldboost=1}} to {{dv|40|80|96|105}}.
+*Nerfed small Cryocore's contact damage from {{dv|35|oldboost=1}} to {{dv|35|70|84|92}}.
+*Nerfed large Cryocore's contact damage from {{dv|40|oldboost=1}} to {{dv|40|80|96|105}}.
+*Nerfed ice blast damage from {{dv|46|80|oldboost=1}} to {{dv|46|80|96|105}}.
+*Nerfed ice bomb damage from {{dv||100|oldboost=1}} to {{dv||100|120|132}}.
+*Nerfed ice rain damage from {{dv|52|92|oldboost=1}} to {{dv|52|92|110|121}}.
+*No longer immune to Betsy's Curse.
+*Added a new phase in Revengeance Mode at {{dv|||15%|25%}} health where it alternates between a chain of charges, spawning ice bombs, and raining ice shards.
+*Cryogen now rotates in Phase 2 and 4. <!-- Visual thing -->
+*Increased the spread of Phase 3 ice rain attack by 1.8x and decreased its gravity by 1.5x. <!-- Lower gravity = fall slower = lobs higher -->
+*Increased the spread of Phase 4 ice rain attack by 3.6x and increased its gravity by 4x.
+*Increased Ice Bomb's lifespan from 3 seconds to 5.
+*Ice shards resulting from Ice Bombs no longer have increased gravity.
+*Several Death Mode changes:
+**Transitions into Phase 2 immediately instead of below 93%.
+**Transitions into Phase 3 below 80% health instead of 76%.
+**Transitions into Phase 4 below 70% health instead of 59%.
+**Transitions into Phase 5 below 55% health instead of 42%.
+**Transitions into Phase 6 below 40% health instead of 25%.
+**Decreased ice bomb spawn frequency for the first 6 phases.
+
+==== [[Desert Scourge]] ====
+*Nerfed head contact damage from {{dv|30|66|oldboost=1}} to {{dv|30|66|79|87}}.
+*Buffed body contact damage from {{dv|16|27||31}} to {{dv|16|27|33|37}}.
+*Buffed tail contact damage from {{dv|12|20||23}} to {{dv|12|20|25|28}}.
+*Nerfed small Desert Scourge's head contact damage from {{dv|||45|53}} to {{dv|||45|50}}.
+*Buffed small Desert Scourge's body contact damage from {{dv|||20|23}} to {{dv|||25|28}}.
+*Buffed small Desert Scourge's tail contact damage from {{dv|||16|18}} to {{dv|||20|23}}.
+*Nerfed Dried Seeker's head contact damage from {{dv|14|oldboost=1}} to {{dv|14|28|35|39}}.
+*Nerfed Dried Seeker's body contact damage from {{dv|8|16||18}} to {{dv|8|16}}.
+*Nerfed Dried Seeker's tail contact damage from {{dv|6|12||13}} to {{dv|6|12}}.
+*Nerfed sand blast damage from {{dv|||60|69}} to {{dv|||60|67}}.
+*Decreased drop rate of Angler Earring from 10% to 6.67%.
+*Decreased drop rate of Angler Tackle Bag from 6.67% to 5%.
+*Death Mode now causes the Desert Scourge to move at highest speed immediately, instead of gradually speeding up as health lowers.
+
+==== [[The Destroyer]] ====
+*Nerfed head contact damage from {{dv|70|280|oldboost=1}} to {{dv|70|280|308|324}}.
+*Nerfed body contact damage from {{dv|55|93|oldboost=1}} to {{dv|55|93|111|122}}.
+*Nerfed tail contact damage from {{dv|40|68|oldboost=1}} to {{dv|44|68|81|89}}.
+*Nerfed Probe's contact damage from {{dv|50|80|oldboost=1}} to {{dv|50|80|96|105}}.
+*Nerfed death laser damage from {{dv|44|72|92|105}} to {{dv|44|72|92|100}}.
+*Nerfed frost laser damage from {{dv|||100|115}} to {{dv|||100|108}}.
+*Nerfed homing laser damage from {{dv|||108|124}} to {{dv|||108|116}}.
+*Nerfed scrap damage from {{dv|||92|105}} to {{dv|||92|100}}.
+*Nerfed Probe laser damage from {{dv|50|88||101}} to {{dv|50|88}}.
+*Buffed The Destroyer's fall speed in [[Revengeance Mode]].
+*Homing lasers now have a maximum spawn limit of {{dv|||2|3}}.
+*Nerfed Probe DR from 25% to 20%.
+*Probes no longer have increased size in Death Mode.
+*Several Death Mode changes:
+**Transitions into Phase 2 and 3 immediately instead of below 66% and 33% health.
+**Decreased laser speed and firing rate.
+**Moves at the highest speed immediately, instead of gradually speeding up as health lowers.
+**Has the highest defense immediately, instead of gradually gaining defense as health lowers.
+
+==== [[The Devourer of Gods]] ====
+*Nerfed first phase head contact damage from {{dv|250|oldboost=1}} to {{dv|250|500|525|540}}.
+*Nerfed second phase head contact damage from {{dv|300|oldboost=1}} to {{dv|300|600|630|648}}.
+*Nerfed first phase body contact damage from {{dv|180|306|oldboost=1}} to {{dv|180|306|336|354}}.
+*Nerfed first phase tail contact damage from {{dv|150|255|oldboost=1}} to {{dv|150|255|280|295}}.
+*Nerfed second phase body contact damage from {{dv|220|374|oldboost=1}} to {{dv|220|374|411|433}}.
+*Nerfed second phase tail contact damage from {{dv|180|306|oldboost=1}} to {{dv|180|306|336|354}}.
+*Nerfed Cosmic Guardian's head contact damage from {{dv|180|oldboost=1}} to {{dv|180|360|396|417}}.
+*Nerfed Cosmic Guardian's body contact damage from {{dv|130|260||299}} to {{dv|130|260}}.
+*Nerfed Cosmic Guardian's tail contact damage from {{dv|100|200||230}} to {{dv|100|200}}.
+*Nerfed fireball and laser wall damage from {{dv|160|276|oldboost=1}} to {{dv|160|276|303|320}}.
+*Nerfed body laser damage from {{dv|140|232|oldboost=1}} to {{dv|140|232|255|269}}.
+*On-hit dialogues no longer appear while the player has immunity frames.
+*Laser walls are no longer extended below 40% health in Revengeance Mode.
+*In Revengeance Mode, it now gains the ability to teleport if far away from the player or after performing a laser wall.
+*Several Death Mode changes:
+**Decreased maximum speed and time in passive phase.
+**Now always take 3 seconds in the passive phase, instead of taking 10 seconds and gradually reducing time as health lowers.
+**Now moves at highest speed immediately for both phases, instead of gradually speeding up as health lowers.
+**Fires fireballs at the highest rate immediately, instead of increasing rate below 15% second phase health.
+**Enters the laser wall phase below 90% second phase health instead of 60%.
+**Decreased laser walls firing rate.
+
+==== [[Duke Fishron]] ====
+*Nerfed first phase contact damage from {{dv|100|140|oldboost=1}} to {{dv|100|140|161|173}}.
+*Nerfed second phase contact damage from {{dv|120|201|oldboost=1}} to {{dv|120|201|231|249}}.
+*Nerfed third phase contact damage from {{dv||184|oldboost=1}} to {{dv||184|211|228}}.
+*Nerfed small Sharkron's contact damage from {{dv|100|150|oldboost=1}} to {{dv|100|150|172|186}}.
+*Nerfed large Sharkron's contact damage from {{dv|120|180|oldboost=1}} to {{dv|120|180|206|223}}.
+*Nerfed Detonating Bubble's contact damage from {{dv|100|150|oldboost=1}} to {{dv|100|150|172|186}}.
+*Nerfed Sharknado damage from {{dv|80|100|oldboost=1}} to {{dv|80|100|114|124}}.
+*Nerfed Cthulhuado damage from {{dv|160|200|oldboost=1}} to {{dv|160|200|229|248}}.
+*Death Mode now causes Duke Fishron to transition into Phase 2 immediately instead of at 66% health.
+*Increased Duke Fishron's charge speed and frequency in Death Mode.
+
+==== [[Eater of Worlds]] ====
+*Buffed head contact damage from {{dv|22|48|oldboost=1}} to {{dv|22|48|60|72}}.
+*Nerfed Vile Spit damage from {{dv||65||74}} to {{dv||65}}.
+*Nerfed cursed flame damage from {{dv|||60|69}} to {{dv|||60|68}}.
+*Several Death Mode changes:
+**Transitions into Phase 2, 3, and 4 immediately instead of below 90%, 75%, and 40% health.
+**Transitions into Phase 5 below 33% health instead of 10%. <!-- Phase 5 = increased speed and stops firing projectiles -->
+**Fires projectiles at the highest rate immediately, instead of gradually increasing rate as health lowers.
+**Moves at the highest speed immediately, instead of gradually speeding up as health lowers.
+**Slightly decreased maximum speed and acceleration.
+**Decreased player tracking distance when flying.
+
+==== [[Eye of Cthulhu]] ====
+*Nerfed Servant of Cthulhu's contact damage from {{dv|12|oldboost=1}} to {{dv|12|24|30|33}}.
+*Death Mode now causes Eye of Cthulhu to move at highest speed immediately, instead of gradually speeding up as health lowers.
+*Decreased charge frequency in Death Mode.
+
+==== [[Golem]] ====
+*Nerfed body contact damage from {{dv|72|115|oldboost=1}} to {{dv|72|115|132|142}}.
+*Nerfed head contact damage from {{dv|64|102|oldboost=1}} to {{dv|64|102|117|126}}.
+*Nerfed freed head contact damage from {{dv|80|128|oldboost=1}} to {{dv|80|128|147|158}}.
+*Nerfed fist contact damage from {{dv|59|94|oldboost=1}} to {{dv|59|94|108|116}}.
+*Nerfed fireball damage from {{dv|36-58|72-116|148|170}} to {{dv|36-58|72-116|148|160}}.
+*Nerfed laser damage from {{dv|56|112|140|161}} to {{dv|56|112|140|152}}.
+*Nerfed inferno fireball and inferno explosion damage from {{dv|||160|184}} to {{dv|||160|176}}.
+*Fists now inflicted [[Marked]] for 3 seconds.
+*Several Death Mode changes:
+**Golem Body fires lasers at the highest rate immediately, instead of increasing rate below 75%, 50%, and 25% health.
+**Golem Head fires lasers and fireballs at the highest rate immediately, instead of gradually increasing rate as health lowers.
+**Moves and jumps at the highest speed immediately, instead of gradually speeding up as health lowers.
+**Freed Golem Head transition into Phase 2 and 3 immediately instead of below 70% and 40% head health or below 85% and 70% body health.
+
+==== [[The Hive Mind]] ====
+*Nerfed first phase contact damage from {{dv|20|32|oldboost=1}} to {{dv|20|32|40|44}}.
+*Nerfed second phase contact damage from {{dv|35|63|oldboost=1}} to {{dv|35|63|75|83}}.
+*Nerfed Dank Creeper's contact damage from {{dv|25|oldboost=1}} to {{dv|25|50|62|70}}.
+*Nerfed shade rain damage from {{dv|36|56|oldboost=1}} to {{dv|36|56|67|73}}.
+*Nerfed vile clot damage from {{dv|30|48||55}} to {{dv|30|48}}.
+*Now gains the ability to perform previously [[Death Mode]]-exclusive Semicircle Dash and Nimbus Dash attacks below 66% and 33% health in Revengeance Mode.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Nerfed contact damage from {{dv|330|528|oldboost=1}} to {{dv|330|528|554|570}}.
+*Nerfed final subphase contact damage from {{dv|412|660|oldboost=1}} to {{dv|363|580|609|626}}.
+*Nerfed ranged Detonating Flame's contact damage from {{dv|100|oldboost=1}} to {{dv|100|200|220|232}}.
+*Nerfed melee Detonating Flame's contact damage from {{dv|220|oldboost=1}} to {{dv|220|440|462|475}}.
+*Nerfed flare dust explosion damage from {{dv|180|300|oldboost=1}} to {{dv|180|300|330|348}}.
+*Nerfed on death flare bomb damage from {{dv|2000|oldboost=1}} to {{dv|2000|4000|4400|4640}}.
+*Nerfed first phase flare bomb and homing flare dust damage from {{dv|180|300|oldboost=1}} to {{dv|180|300|330|348}}.
+*Nerfed second phase flare bomb, splitting fireball, and homing flare dust damage from {{dv|250|440|oldboost=1}} to {{dv|250|440|484|510}}.
+*Nerfed final subphase flare bomb, splitting fireball, and homing flare dust damage from {{dv|312|550|oldboost=1}} to {{dv|275|484|532|561}}.
+*Nerfed Flarenado damage from {{dv|200|340|oldboost=1}} to {{dv|200|340|374|394}}.
+*Nerfed Infernado damage from {{dv|300|520|oldboost=1}} to {{dv|300|520|546|561}}.
+*Nerfed ranged Detonating Flame fireball damage from {{dv|180|300||345}} to {{dv|180|300}}.
+*Buffed defense from 100 to 150.
+*Buffed Phase 1 DR from 17% to 24%.
+*Buffed Phase 2 DR from 22% to 26%.
+*Buffed charge speed in all difficulties.
+*Decreased distance from player when teleporting.
+*Increased time taken to charge after teleporting.
+*Changed Subphase 2 transition from {{dv|70%||85%|90%}} health to {{dv|70%||80%}}.
+*Changed Subphase 3 transition from {{dv|40%||60%|80%}} health to {{dv|40%||50%}}.
+*Changed Subphase 6 transition from {{dv|75%||85%|95%}} second phase health to {{dv|75%||85%}}.
+*Changed Subphase 7 transition from {{dv|50%||60%|70%}} second phase health to {{dv|50%||60%}}.
+*Changed Subphase 8 transition from {{dv|5%||10%|15%}} second phase health to {{dv|10%||20%}}.
+
+==== [[King Slime]] ====
+*Nerfed contact damage from {{dv|40|64|oldboost=1}} to {{dv|40|64|76|84}}.
+*Nerfed Spiked Slime's contact damage from {{dv|28|oldboost=1}} to {{dv|28|56|67|73}}.
+*Nerfed Crown Jewel's ruby bolt damage from {{dv|||44|50}} to {{dv|||44|48}}.
+*Death Mode now causes King Slime to behave in its final phase immediately instead of below 10% health.
+
+==== [[Lunatic Cultist]] ====
+*Buffed health in Revengeance Mode from {{revengeance|68,000}} to {{revengeance|80,000}}.
+*Nerfed Phantasm Dragon's head contact damage from {{dv|80|120|oldboost=1}} to {{dv|80|120|138|148}}.
+*Nerfed Ancient Doom's contact damage from {{dv|120|180|oldboost=1}} to {{dv|120|180|206|223}}.
+*Nerfed Ancient Vision's contact damage from {{dv|90|oldboost=1}} to {{dv|90|180|206|223}}.
+*Nerfed Ancient Light's contact damage from {{dv|120|180|oldboost=1}} to {{dv|120|180|206|223}}.
+*Nerfed clone fireball damage from {{dv|36|72|108|124}} to {{dv|36|72|108|120}}.
+*Nerfed fireball damage from {{dv|60|80|120|138}} to {{dv|60|80|120|132}}.
+*Nerfed ice mist damage from {{dv|70|100|152|174}} to {{dv|70|100|152|164}}.
+*Nerfed lightning damage from {{dv|90|120|180|207}} to {{dv|90|120|180|196}}.
+*Nerfed Ancient Doom shot damage from {{dv|90|180|200|230}} to {{dv|90|180|200|220}}.
+*Several Death Mode changes:
+**Transitions into Phase 2 and 3 immediately instead of below 80% and 60% health.
+**Transitions into Phase 4 below 70% health instead of 40%.
+**Transitions into Phase 5 below 40% health instead of 20%.
+**Decreased Ancient Light speed.
+**Ancient Doom take the least time to burst immediately, instead of taking less time below 50% and 25% health.
+
+==== [[Moon Lord]] ====
+*Nerfed deathray damage from {{dv|150|300|380|437}} to {{dv|150|300|380|420}}.
+*Nerfed sphere damage from {{dv|100|200|260|299}} to {{dv|100|200|260|284}}.
+*Nerfed eye and bolt damage from {{dv|60|120|160|184}} to {{dv|60|120|160|176}}.
+*Moon Lord now moves 1.5x faster while the player is on the Unicorn mount.
+*Death Mode now causes Phantasmal Deathray to move faster.
+*Boss Rush Moon Leech Clots now inherit Death Mode's heal boost.
+*[[Gravity Globe]] now drops in Normal Mode. <!-- Also bumped down the rarity -->
+
+==== [[The Perforators]] ====
+*Nerfed The Perforator Hive's contact damage from {{dv|30|48|oldboost=1}} to {{dv|30|48|60|67}}.
+*Nerfed Large Perforator's head contact damage from {{dv|45|oldboost=1}} to {{dv|45|90|108|118}}.
+*Nerfed Large Perforator's body contact damage from {{dv|24|38||43}} to {{dv|24|38}}.
+*Nerfed Large Perforator's tail contact damage from {{dv|18|28||32}} to {{dv|18|28}}.
+*Nerfed Medium Perforator's head contact damage from {{dv|35|oldboost=1}} to {{dv|35|70|84|92}}.
+*Nerfed Medium Perforator's body contact damage from {{dv|21|33||37}} to {{dv|21|33}}.
+*Nerfed Medium Perforator's tail contact damage from {{dv|14|22||25}} to {{dv|14|22}}.
+*Nerfed Small Perforator's head contact damage from {{dv|30|oldboost=1}} to {{dv|30|60|72|79}}.
+*Nerfed Small Perforator's body contact damage from {{dv|18|28||32}} to {{dv|18|28}}.
+*Nerfed Small Perforator's tail contact damage from {{dv|10|16||18}} to {{dv|10|16}}.
+*Nerfed blood geyser and ichor shot damage from {{dv|36|56|oldboost=1}} to {{dv|36|56|70|78}}.
+*The Perforator Hive now has a greater acceleration but lower maximum speed.
+**In Revengeance Mode, The Perforator Hive has an even greater acceleration but even lower maximum speed as The Perforators are spawned, which is even more effective while any is alive.
+*All Perforators are now immune to [[Webbed]].
+*Death Mode now causes all Perforators to move at highest speed immediately, instead of gradually speeding up as health lowers.
+*Decreased projectile firing rate in Death Mode.
+
+==== [[The Plaguebringer Goliath]] ====
+*Nerfed contact damage from {{dv|100|180|oldboost=1}} to {{dv|100|180|206|223}}.
+*Nerfed Plague Homing Missile's contact damage from {{dv|90|oldboost=1}} to {{dv|90|180|206|223}}.
+*Nerfed Plague Mine damage from {{dv||200||230}} to {{dv||200}}.
+*Nerfed smaller, boss variant of Plague Charger's contact damage from {{dv|60|oldboost=1}} to {{dv|60|120|138|148}}.
+*Nerfed larger, boss variant of Plague Charger's contact damage from {{dv|65|oldboost=1}} to {{dv|65|130|149|161}}.
+*Nerfed stinger damage from {{dv|80|128-152|160-190|184-218}} to {{dv|80|128-148|147-170|183}}.
+*Nerfed missile damage from {{dv|100|160-184|200-230|230-264}} to {{dv|100|160-184|184-207|223}}.
+*Nerfed nuke damage from {{dv|120|192|oldboost=1}} to {{dv|120|192|220|238}}.
+*No longer immune to Betsy's Curse.
+*Diagonal dashes are now exclusive to Revengeance Mode.
+*Several Death Mode changes:
+**Increased distance from the player before charging.
+**Now behaves in the final phase immediately instead of below 10% health. <!-- Many health thresholds including 80%, 66%, 75%, 50%, 40%, 33.33%, 33%, 25%, 20% and 10% -->
+**Has the highest damage and defense immediately, instead of gradually gaining damage and defense as health lowers.
+
+==== [[Plantera]] ====
+*Nerfed first phase contact damage from {{dv|50|oldboost=1}} to {{dv|50|100|114|124}}.
+*Nerfed second phase contact damage from {{dv|70|oldboost=1}} to {{dv|70|140|161|173}}.
+*Nerfed tentacle contact damage from {{dv|60|138|oldboost=1}} to {{dv|60|138|158|171}}.
+*Nerfed Spore's contact damage from {{dv|70|126|oldboost=1}} to {{dv|70|126|144|156}}.
+*Nerfed pink seed damage from {{dv|44|76|96|110}} to {{dv|44|76|96|108}}.
+*Nerfed poison seed damage from {{dv|54|96|120|138}} to {{dv|54|96|120|132}}.
+*Nerfed spiky ball damage from {{dv|62|108|136|156}} to {{dv|62|108|136|148}}.
+*Nerfed spore gas damage from {{dv|||140|161}} to {{dv|||140|152}}.
+*Added a [[status message]] "The desert sand shifts intensely!" upon defeat.
+*Several Death Mode changes:
+**Decreased movement speed and maximum distance from hooks.
+**Decreased maximum projectile firing rate for all projectiles.
+**Greatly increased movement speed when immediately transitioning into Phase 2, instead of below 25% health.
+**Hooks and tentacles move at the highest speed immediately, instead of gradually speeding up as health lowers.
+**Fires all projectiles at the highest rate immediately, instead of gradually increasing rate as health lowers.
+**Fires Poison Seeds and Thorn Balls immediately, instead of below 90% and 80% health.
+
+==== [[Polterghast]] ====
+*Nerfed Polterghast's contact damage from {{dv|150|240|oldboost=1}} to {{dv|150|240|264|278}}.
+*Nerfed Necroghast's contact damage from {{dv|180|288|oldboost=1}} to {{dv|180|288|316|334}}.
+*Nerfed Necroplasm's contact damage from {{dv|210|336|oldboost=1}} to {{dv|210|336|369|389}}.
+*Nerfed clone Polterghast's contact damage from {{dv|210|336|oldboost=1}} to {{dv|210|336|369|389}}.
+*Nerfed blue shot damage from {{dv|120|192|oldboost=1}} to {{dv|120|192|211|222}}.
+*Nerfed red shot damage from {{dv|130|212|oldboost=1}} to {{dv|130|212|233|245}}.
+*Nerfed blue blast damage from {{dv|140|240|oldboost=1}} to {{dv|140|240|264|278}}.
+*Nerfed red blast damage from {{dv|150|260|oldboost=1}} to {{dv|150|260|286|301}}.
+*Nerfed hook shot damage from {{dv|120|192|oldboost=1}} to {{dv|120|192|211|222}}.
+*Nerfed Phantom's mine damage from {{dv|150|248|oldboost=1}} to {{dv|150|248|272|287}}.
+*Polterghast can now charge at the player in all phases.
+*Slightly nerfed projectile speed of Polterghast Hook Shots.
+*Slightly nerfed charge speed in Phases 3-5 in Expert Mode and Boss Rush.
+*Now fires a spread of 4 Phantom Shots in Phases 3-5.
+*Phantom Shots no longer accelerate.
+*Phantoms now gradually rotate faster as Polterghast's health lowers.
+*Decreased limit of Happy Phantom Spirit spawns in Revengeance Mode from 3 to 2.
+*Several Death Mode changes:
+**Transitions into Phase 2 below 90% health instead of 75%.
+**Transitions into Phase 3 below 80% health instead of 50%.
+**Transitions into Phase 4 below 50% health instead of 33%.
+**Transitions into Phase 5 below 25% health instead of 10%.
+**Decreased Phantom's projectile firing rate.
+**Decreased Polterghast Hook's maximum speed and firing rate.
+**Polterghast Hooks move at the highest speed immediately, instead of gradually speeding up as health lowers.
+
+==== [[Profaned Guardians]] ====
+*Nerfed main Profaned Guardian's contact damage from {{dv|140|224|oldboost=1}} to {{dv|140|224|246|259}}.
+*Nerfed rock Profaned Guardian's contact damage from {{dv|110|176|oldboost=1}} to {{dv|110|176|202|218}}.
+*Nerfed crystal Profaned Guardian's contact damage from {{dv|90|144|oldboost=1}} to {{dv|90|144|165|178}}.
+*Nerfed spear damage from {{dv|120|200|oldboost=1}} to {{dv|120|200|220|232}}.
+*Nerfed flare dust damage from {{dv|140|220|oldboost=1}} to {{dv|140|220|242|255}}.
+*Nerfed flare dust explosion damage from {{dv|180|300|oldboost=1}} to {{dv|180|300|330|348}}.
+*Death Mode now causes the main guardian to fire spears at the highest rate immediately, instead of gradually increasing rate as its health lowers.
+
+==== [[Providence, the Profaned Goddess]] ====
+*Nerfed defensive Profaned Guardian's contact damage from {{dv|100|oldboost=1}} to {{dv|100|200|220|232}}.
+*Nerfed offensive Profaned Guardian's contact damage from {{dv|120|oldboost=1}} to {{dv|120|240|264|278}}.
+*Nerfed holy bomb and holy fire damage from {{dv|120|192|oldboost=1}} to {{dv|120|192|220|238}}. <!-- unlisted: HolyFlare -->
+*Nerfed molten blast and molten blob damage from {{dv|110|168|oldboost=1}} to {{dv|110|168|193|208}}.
+*Nerfed holy blast and holy spear damage from {{dv|130|208|oldboost=1}} to {{dv|130|208|228|241}}.
+*Nerfed crystal shard damage from {{dv|140|228|oldboost=1}} to {{dv|140|228|250|264}}.
+*Nerfed holy ray damage from {{dv|200|oldboost=1}} to {{dv|200|400|440|464}}.
+*Now only drops [[Rune of Kos]] on the first kill.
+*[[Elysian Aegis]] and [[Elysian Wings]] now drop for each player.
+*Several Death Mode changes:
+**Attack rate stops decreasing proportional to the amount of guardians when below 25% health instead of 15%.
+**Can use the Holy Ray or Crystal immediately instead of below 75% health.
+**Decreased healing rate on Healer Guardian by 50%.
+**Moves at the highest speed immediately, instead of gradually speeding up as health lowers.
+**Fires all projectiles at the highest rate and speed immediately, instead of gradually increasing rate and speed as health lowers.
+
+==== [[Queen Bee]] ====
+*Adjusted contact damage from {{dv|30|54|67-87|77-100}} to {{dv|30|54|64-88|97}}.
+*Several Death Mode changes:
+**No longer causes the boss to partially enrage.
+**Decreased stinger projectile speed.
+**Now behaves in the final phase immediately instead of below 10% health.
+**Has the highest damage and defense immediately, instead of gradually gaining damage and defense as health lowers.
+
+==== [[Ravager]] ====
+*Nerfed pre-Providence body contact damage from {{dv|120|192|oldboost=1}} to {{dv|120|192|220|238}}.
+*Nerfed post-Providence body contact damage from {{dv|240|384|oldboost=1}} to {{dv|240|384|441|476}}.
+*Nerfed pre-Providence claw contact damage from {{dv|80|oldboost=1}} to {{dv|80|160|184|198}}.
+*Nerfed post-Providence claw contact damage from {{dv|200|oldboost=1}} to {{dv|200|400|459|496}}.
+*Nerfed pre-Providence Flame Pillar damage from {{dv|100|180||207}} to {{dv|100|180}}.
+*Nerfed pre-Providence Rock Pillar damage from {{dv|120|200||230}} to {{dv|120|200}}.
+*Nerfed post-Providence Flame Pillar and Rock Pillar damage from {{dv|400|||460}} to 400.
+*Nerfed pre-Providence homing nuke damage from {{dv|120|180|oldboost=1}} to {{dv|120|180|206|223}}.
+*Nerfed post-Providence homing nuke damage from {{dv|180|300|oldboost=1}} to {{dv|180|300|345|372}}.
+*Nerfed pre-Providence fireball and homing missile damage from {{dv|80|160||184}} to {{dv|80|160}}.
+*Nerfed post-Providence fireball and homing missile damage from {{dv|140|280||322}} to {{dv|140|280}}.
+*Nerfed pre-Providence flaming spark damage from {{dv|70|140||161}} to {{dv|70|140}}.
+*Nerfed post-Providence flaming spark damage from {{dv|130|260||299}} to {{dv|130|260}}.
+*Nerfed pre-Providence laser and blue flame damage from {{dv|90|180||207}} to {{dv|90|180}}.
+*Nerfed post-Providence laser and blue flame damage from {{dv|150|300||345}} to {{dv|150|300}}.
+*No longer immune to Betsy's Curse.
+*Increased vertical jump speed by 5%.
+*Now varies in jump speed and frequency in Revengeance Mode based on a pattern of three jumps.
+**The second jump takes a shorter time to perform, jumps 50% farther but 75% as high.
+**The third jump takes even shorter time to perform, jumps 100% farther but 50% as high.
+*Several Death Mode changes:
+**Ravager Body immediately behaves as if the head, both claws, and both legs are defeated.
+**Moves and jumps at the highest speed immediately, instead of gradually speeding up as health lowers.
+**Freed Ravager Head fires lasers and missiles at the highest rate immediately, instead of increasing rate below 50%, 30%, 25%, and 10% health.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Nerfed contact damage from {{dv|175|297|oldboost=1}} to {{dv|175|297|326|344}}.
+*Nerfed Cosmic Lantern's contact damage from {{dv|110|oldboost=1}} to {{dv|110|220|242|255}}.
+*Nerfed Cosmic Mine damage from {{dv|||300|345}} to {{dv|||300}}.
+*Nerfed scythe damage from {{dv|120|192|oldboost=1}} to {{dv|120|192|211|222}}.
+*Nerfed dust trail damage from {{dv|140|240|oldboost=1}} to {{dv|140|240|264|278}}. <!-- unlisted: CosmicFlameBurst -->
+*Now applies a slightly darkening screen shader during the battle.
+*Fires Cosmic Scythes 33% less frequently on average. <!-- Delay: 40 to 65 (normal), 35 to 45 (below 50%), 30 to 45 (below 25% or Death Mode). On average this is 33% less fire rate for both DM and non-DM. -->
+*Decreased Cosmic Lantern velocity by 12%. <!-- Boss Rush unchanged -->
+*Cosmic Mines now emit light.
+*Several Death Mode changes:
+**Charges trail dust immediately instead of below 92.5% health.
+**Immune to knockback immediately instead of below 75% health.
+**Moves at the highest speed immediately, instead of speeding up below 87.5% and 75% health.
+**Fires scythes at the fastest rate immediately, instead of increasing rate below 82.5% and 75% health.
+
+==== [[Siren and Leviathan]] ====
+*Nerfed The Leviathan's contact damage from {{dv|90|153|oldboost=1}} to {{dv|90|153|175|189}}.
+*Nerfed Ice Shield's contact damage from {{dv|55|oldboost=1}} to {{dv|55|110|126|136}}.
+*Nerfed The Siren's contact damage from {{dv|70|119|oldboost=1}} to {{dv|70|119|136|147}}.
+*Nerfed The Leviathan's meteor damage from {{dv|80|132|oldboost=1}} to {{dv|80|132|151|163}}.
+*Nerfed The Siren's water spear, frost mist, and musical note damage from {{dv|64|104|oldboost=1}} to {{dv|64|104|119|128}}.
+*The Leviathan and The Siren are no longer immune to Betsy's Curse.
+*The Leviathan charges 25% slower while The Siren is alive.
+*Several Death Mode changes:
+**The Leviathan transitions into Phase 2, 3, and 4 immediately instead of below 50%, 25%, and 10% health.
+**The Leviathan now fully behaves as if The Siren is defeated at all times.
+**The Leviathan now fires meteor bombs for twice as long.
+**The Siren transitions into Phase 2 immediately instead of below 66% health.
+**The Siren transitions into Phase 3 below 66% health instead of 33%.
+**Decreased The Siren projectile firing rate in the first 2 phases.
+
+==== [[Skeletron]] ====
+*Nerfed head contact damage from {{dv|32|70|oldboost=1}} to {{dv|32|70|84|92}}.
+*Nerfed head spin damage from {{dv||91|oldboost=1}} to {{dv||91|109|120}}.
+*Nerfed hand contact damage from {{dv|20|44|oldboost=1}} to {{dv|20|44|55|61}}.
+*Nerfed skull projectile damage from {{dv||68|84|96}} to {{dv||68|84|92}}.
+*Nerfed shadowflame damage from {{dv|||76|87}} to {{dv|||76|84}}.
+*Decreased the maximum speed of Skeletron Hands in Revengeance Mode.
+*Several Death Mode changes:
+**Transitions into Phase 2 and spawns extra arms immediately instead of below 33% health.
+**Moves at the highest speed immediately, instead of gradually speeding up as health lowers.
+**Decreased teleport and attack changing frequency.
+
+==== [[Skeletron Prime]] ====
+*Nerfed head contact damage from {{dv|47|79|oldboost=1}} to {{dv|47|79|90|97}}.
+*Nerfed head spin damage from {{dv|94|158|oldboost=1}} to {{dv|94|158|181|195}}.
+*Nerfed Prime Saw's contact damage from {{dv|56|95|oldboost=1}} to {{dv|56|95|114|125}}.
+*Nerfed Prime Vice's contact damage from {{dv|52|88|oldboost=1}} to {{dv|52|88|105|116}}.
+*Nerfed Prime Laser's contact damage from {{dv|29|49|oldboost=1}} to {{dv|29|49|58|64}}.
+*Nerfed Prime Cannon's contact damage from {{dv|30|51|oldboost=1}} to {{dv|30|51|61|67}}.
+*Nerfed skull projectile damage from {{dv|||112|128}} to {{dv|||112|124}}.
+*Nerfed missile and homing rocket damage from {{dv|||132|151}} to {{dv|||132|144}}.
+*Nerfed laser damage from {{dv|50|100|124|142}} to {{dv|50|100|124|136}}.
+*Nerfed Skeletron Prime's health in Revengeance Mode from {{revengeance|50,400}} to {{revengeance|48,300}} and DR from 25% to 20%.
+*Nerfed health multiplier using [[Draedon's Remote]] from 1.6x to 1.45x.
+*Increased the maximum speed in Revengeance Mode but defeating limbs now decreases maximum speed instead of increasing it.
+*Decreased the maximum speed of all limbs in Revengeance Mode.
+*Nerfed Prime Saw DR from 25% to 20%.
+*Nerfed Prime Vice DR from 25% to 20%.
+*Prime Saw and Prime Vice now inflict Marked for 3 seconds.
+*Several Death Mode changes:
+**Transitions into Phase 2 and 3 when all limbs are defeated instead of below 66% and 33% health.
+**Decreased Skeletron Prime, Prime Laser, and Prime Cannon projectile firing rate.
+**Decreased Skeletron Prime spin duration.
+**Decreased Prime Saw and Prime Vice charge frequency.
+
+==== [[The Slime God]] ====
+*Nerfed Ebonian Slime God's contact damage from {{dv|45|76|oldboost=1}} to {{dv|45|76|91|100}}.
+*Nerfed Crimulan Slime God's contact damage from {{dv|50|85|oldboost=1}} to {{dv|50|85|102|112}}.
+*Nerfed The Slime God's contact damage from {{dv|40|80|oldboost=1}} to {{dv|40|80|96|105}}.
+*Nerfed split Ebonian Slime God's contact damage from {{dv|40|68|oldboost=1}} to {{dv|40|68|81|89}}.
+*Nerfed split Crimulan Slime God's contact damage from {{dv|45|76|oldboost=1}} to {{dv|45|76|91|100}}.
+*Nerfed winged Corrupt Slime Spawn's contact damage from {{dv|40|oldboost=1}} to {{dv|40|80|96|105}}.
+*Nerfed wingless Corrupt Slime Spawn's contact damage from {{dv|30|60||69}} to {{dv|30|60}}.
+*Nerfed spiked Crimson Slime Spawn's contact damage from {{dv|45|oldboost=1}} to {{dv|45|90|108|118}}.
+*Nerfed spikeless Crimson Slime Spawn's contact damage from {{dv|35|70||80}} to {{dv|35|70}}.
+*Nerfed purple mine's damage from {{dv||96|oldboost=1}} to {{dv||96|115|126}}.
+*Nerfed red mine's damage from {{dv||88|oldboost=1}} to {{dv||88|105|116}}.
+*Nerfed purple ball's damage from {{dv|42|68|oldboost=1}} to {{dv|42|68|81|89}}.
+*Nerfed red ball's damage from {{dv|38|64|oldboost=1}} to {{dv|38|64|76|84}}.
+*Buffed [[Crimulan Slime God]] and [[Ebonian Slime God]] charge acceleration by 16.67%.
+*Crimulan Slime God and Ebonian Slime God are now immune to Webbed.
+*Crimulan Slime God and Ebonian Slime God are no longer vulnerable to knockback while not attacking.
+*[[Corrupt Slime Spawn]] can now drop [[Vitamins]].
+*Several Death Mode changes:
+**Crimulan Slime God and Ebonian Slime God move and jump at the highest speed immediately, instead of gradually speeding up as health lowers.
+**Slime God Core is now invulnerable until both slimes are defeated.
+**All slimes are immediately enraged.
+
+==== [[Storm Weaver]] ====
+*Nerfed first phase head contact damage from {{dv|140|oldboost=1}} to {{dv|140|280|308|324}}.
+*Nerfed first phase body contact damage from {{dv|100|170||195}} to {{dv|100|170}}.
+*Nerfed first phase tail contact damage from {{dv|80|136||156}} to {{dv|80|136}}.
+*Nerfed second phase head contact damage from {{dv|180|oldboost=1}} to {{dv|180|360|396|417}}.
+*Nerfed second phase body contact damage from {{dv|120|204||234}} to {{dv|120|204}}.
+*Nerfed second phase tail contact damage from {{dv|100|170||195}} to {{dv|100|170}}.
+*Nerfed first phase Stasis Probe's contact damage from {{dv|70|140||161}} to {{dv|70|140}}.
+*Nerfed second phase Stasis Probe's contact damage from {{dv|80|160||184}} to {{dv|80|160}}.
+*Nerfed lightning damage from {{dv|150|248||285}} to {{dv|150|248}}.
+*Nerfed Stasis Probe laser damage from {{dv|120|200||230}} to {{dv|120|200}}.
+*Changed hit sound for Storm Weaver's tail. <!-- Hit4 to Hit53 -->
+*Now takes 90% damage from [[Shattered Sun]] homing daggers.
+*Now takes 75% damage from Molten Amputator, limits stealth strike boomerang pierce to 5, and limits regular boomerang pierce to 8.
+*Now takes 50% damage from [[Elemental Axe]].
+
+==== [[Supreme Calamitas]] ====
+*Nerfed Supreme Cataclysm's health from {{dv|1,800,000|2,100,000}} to {{dv|1,200,000|1,500,000}}.
+*Nerfed Supreme Catastrophe's health from {{dv|1,800,000|2,100,000}} to {{dv|1,200,000|1,500,000}}.
+*Nerfed contact damage from {{dv|350|560|oldboost=1}} to {{dv|350|560|588|604}}.
+*Nerfed hellblast, fireblast, gigablast, monster, dart, and flame skull damage from {{dv|400|600|oldboost=1}} to {{dv|400|600|630|648}}.
+*Nerfed first bullet hell damage from {{dv|500|800|oldboost=1}} to {{dv|500|800|840|864}}.
+*No longer has increased damage reduction when outside the arena at 1% health.
+
+==== [[The Twins]] ====
+*Nerfed Retinazer's first phase contact damage from {{dv|45|76|oldboost=1}} to {{dv|45|76|87|94}}.
+*Nerfed Retinazer's second phase contact damage from {{dv|67|114|oldboost=1}} to {{dv|67|114|131|141}}.
+*Nerfed Spazmatism's first phase contact damage from {{dv|50|85|oldboost=1}} to {{dv|50|85|97|105}}.
+*Nerfed Spazmatism's second phase contact damage from {{dv|75|127|oldboost=1}} to {{dv|75|127|146|157}}.
+*Nerfed laser damage from {{dv|50|92|112|128}} to {{dv|50|92|112|124}}.
+*Nerfed laser barrage damage from {{dv|36|68|84|96}} to {{dv|36|68|84|92}}.
+*Nerfed cursed fireball damage from {{dv|50|88|108|124}} to {{dv|50|88|108|120}}.
+*Nerfed homing missile damage from {{dv|||120|138}} to {{dv|||120|132}}.
+*Nerfed shadowflame fire damage from {{dv|||132|151}} to {{dv|||132|144}}.
+*Nerfed shadowflame fireball damage from {{dv|||124|142}} to {{dv|||124|136}}.
+*Several Death Mode changes:
+**Transition into Phase 2 immediately instead of below 85%.
+**Transition into Phase 3 below 50% instead of 25%.
+**Decreased Spazmatism charge frequency and charge speed.
+**Increased Spazmatism slow down time in preparation for a charge.
+
+==== [[Wall of Flesh]] ====
+*Nerfed contact damage from {{dv|50|150|oldboost=1}} to {{dv|50|150|172|186}}.
+*Nerfed The Hungry's contact damage from {{dv|30-75|60-150||69-172}} to {{dv|30-75|60-150}}.
+*Nerfed The Hungry II's contact damage from {{dv|30|oldboost=1}} to {{dv|30|60|72|79}}.
+*Nerfed Leech's head contact damage from {{dv|26|oldboost=1}} to {{dv|26|52|62|68}}.
+*Nerfed purple laser damage from {{dv|22-30|44-60|68|78}} to {{dv|22-30|44-60|68|76}}.
+*Nerfed death laser damage from {{dv|||88|101}} to {{dv|||88|96}}.
+*[[Demon Trophy]] no longer drops if it has already been used.
+*Increased laser speed in Revengeance Mode.
+*Several Death Mode changes:
+**Decreased movement speed and laser firing rate.
+**Increased time between enraged charges from 7 seconds to 10.
+**Fires red lasers immediately, instead of below 50% health.
+**Fires lasers at the higher rate immediately, instead of gradually speeding up as health lowers. <!-- Rev is faster when below 25% health -->
+**Moves at the higher speed immediately, instead of gradually speeding up as health lowers. <!-- Rev is faster when below 12.5% health -->
+**Spawns [[The Hungry]] at a higher rate immediately, instead of gradually increasing rate as health lowers. <!-- Rev is faster when below 10% health -->
+**Spawns [[Leech]]es at the highest rate and amount immediately, instead of increasing rate and amount below 66% and 33% health.
+
+=== Death Mode ===
+*Added various [[#Bosses|boss changes]] and [[#Enemies|enemy changes]].
+*Boss spawns now have a cooldown of 24 minutes.
+*No longer increases enemy or boss health.
+*No longer increases spawn rates by default.
+*No longer increases damage taken by 15% by default.
+*Blood Moons now increase spawn rates by 400% and maximum spawns by 1000%.
+*Damage over time debuffs are now more damaging.
+*The [[Nurse]] no longer heals the player while a boss is alive.
+*Added debuff effects to [[The Underworld]] while the player is not wearing heat protective gear. <!-- This is before Heat Exhaustion is added -->
+**This effect takes half as much time to occur upon contact with lava.
+*Added debuff effects during a blizzard while the player is not wearing cold protective gear. <!-- This is before Freezing Weather is added -->
+**This effect takes half as much time to occur upon contact with water while the [[Arctic Diving Gear]] is not equipped.
+*Added debuff effects to [[Space]] while the player is not wearing heat or cold protective gear during day and night respectively.
+*Increased darkness level in the [[Abyss]] and in the underground or cavern layers.
+*Damaging lightning bolts can now strike on the surface during the rain while no boss is alive.
+*Damaging ice shards can now rain down on the surface during the blizzard while no boss is alive.
+*Flame geysers can now erupt from lava blocks in The Underworld.
+*Brimstone geysers can now erupt from lava blocks in the [[Brimstone Crag]].
+*Sharknadoes can now spawn in the [[Ocean]].
+**Cthulhunadoes can also spawn in the Ocean while raining.
+*The player now has decreased gravity while in the [[Astral Infection]].
+*Increased the intensity of the sky effect in the Astral Infection by 75%.
+*[[Spike]] now inflicts [[Bleeding]] for 5 seconds.
+*[[Thorny bushes]] from [[The Corruption]] now inflict Bleeding and [[Weak]] for 5 seconds.
+*Thorny bushes from the [[Jungle]] now inflict [[Poisoned]] for 5 seconds.
+*Water in the [[Jungle]] now inflicts Bleeding for 5 seconds.
+*[[Wooden Spike]] now inflicts [[Venom]] for 5 seconds.
+*Rage and Adrenaline Modes, including their upgrades, no longer have amplified damage boosts.
+*Using [[Torrential Tear]] now causes the rain to be at high intensity for 1 minute before turning it off.
+
+=== Enemies ===
+*Nerfed various enemy damage in Revengeance and Death Mode:
+{{collapse top|List of affected enemies}}
+<!-- for boost=0.25, if damage in expert is more than 20, include it -->
+*Nerfed [[Alien Queen]]'s acid damage from {{dv|120|180|oldboost=1}} to {{dv|120|180|206|223}}.
+*Nerfed [[Angler Fish]]'s contact damage from {{dv|80|oldboost=1}} to {{dv|80|160|184|198}}.
+*Nerfed [[Angry Trapper]]'s contact damage from {{dv|100|oldboost=1}} to {{dv|100|200|229|248}}.
+*Nerfed [[Aquatic Seeker]]'s head contact damage from {{dv|20|oldboost=1}} to {{dv|20|40|50|56}}.
+*Nerfed [[Arapaima]]'s contact damage from {{dv|75|oldboost=1}} to {{dv|75|150|172|186}}.
+*Nerfed [[Armored Digger]]'s head contact damage from {{dv|90|oldboost=1}} to {{dv|90|180|206|223}}.
+*Nerfed [[Atlas]]'s pre-Astrum Aureus contact damage from {{dv|70|oldboost=1}} to {{dv|70|140|161|173}}.
+*Nerfed Atlas's post-Astrum Aureus contact damage from {{dv|100|oldboost=1}} to {{dv|100|200|229|248}}.
+*Nerfed Atlas's post-Astrum Deus contact damage from {{dv|150|oldboost=1}} to {{dv|150|300|345|372}}.
+*Nerfed [[Bee]]'s contact damage from {{dv|20|24|oldboost=1}} to {{dv|20|24|30|33}}.
+*Nerfed [[Betsy]]'s contact damage from {{dv|80|104|oldboost=1}} to {{dv|80|104|119|128}}.
+*Nerfed Betsy's fireball damage from {{dv|70|oldboost=1}} to {{dv|70|140|168|184}}.
+*Nerfed Betsy's breath damage from {{dv|70|oldboost=1}} to {{dv|70|140|168|184}}.
+*Nerfed [[Black Recluse]]'s ground contact damage from {{dv|90|oldboost=1}} to {{dv|90|180|206|223}}.
+*Nerfed Black Recluse's wall contact damage from {{dv|100|oldboost=1}} to {{dv|100|200|229|248}}.
+*Nerfed [[Blazing Wheel]]'s contact damage from {{dv|24|oldboost=1}} to {{dv|24|48|60|67}}.
+*Nerfed [[Blinded Angler]]'s contact damage from {{dv|150|oldboost=1}} to {{dv|150|300|345|372}}.
+*Nerfed [[Bobbit Worm]]'s head contact damage from {{dv|150|oldboost=1}} to {{dv|150|300|330|348}}.
+*Nerfed [[Bone Biter]]'s contact damage from {{dv|60|oldboost=1}} to {{dv|60|120|138|148}}.
+*Nerfed [[Bone Lee]]'s contact damage from {{dv|90|oldboost=1}} to {{dv|90|180|206|223}}.
+*Nerfed [[Bone Serpent]]'s head contact damage from {{dv|30|oldboost=1}} to {{dv|30|60|72|79}}.
+*Nerfed [[Butcher]]'s contact damage from {{dv|70|oldboost=1}} to {{dv|70|140|161|173}}.
+*Nerfed [[Clam]]'s contact damage from {{dv|30|oldboost=1}} to {{dv|30|60|72|79}}.
+*Nerfed [[Cnidrion]]'s contact damage from {{dv|20|oldboost=1}} to {{dv|20|40|50|56}}.
+*Nerfed [[Colossal Squid]]'s contact damage from {{dv|150|oldboost=1}} to {{dv|150|300|330|348}}.
+*Nerfed [[Corrupt Mimic]]'s contact damage from {{dv|90|oldboost=1}} to {{dv|90|180|206|223}}.
+*Nerfed [[Crawltipede]]'s head contact damage from {{dv|150|oldboost=1}} to {{dv|150|300|330|348}}.
+*Nerfed [[Crimson Mimic]]'s contact damage from {{dv|90|oldboost=1}} to {{dv|90|180|206|223}}.
+*Nerfed [[Crystal Thresher]]'s contact damage from {{dv|54|oldboost=1}} to {{dv|54|108|124|133}}.
+*Nerfed [[Deadly Sphere]]'s contact damage from {{dv|100|oldboost=1}} to {{dv|100|200|229|248}}.
+*Nerfed [[Demon]]'s sickle damage from {{dv|42|oldboost=1}} to {{dv|42|84|100|110}}.
+*Nerfed [[Devourer]]'s head contact damage from {{dv|31|oldboost=1}} to {{dv|31|62|74|81}}.
+*Nerfed [[Digger]]'s head contact damage from {{dv|45|oldboost=1}} to {{dv|45|90|108|118}}.
+*Nerfed [[Dune Splicer]]'s head contact damage from {{dv|58|oldboost=1}} to {{dv|58|116|133|143}}.
+*Nerfed [[Earth Elemental]]'s contact damage from {{dv|50|oldboost=1}} to {{dv|50|100|114|124}}.
+*Nerfed [[Eidolon Wyrm]]'s head contact damage from {{dv|170|oldboost=1}} to {{dv|170|340|374|394}}.
+*Nerfed [[Eutrophic Ray]]'s contact damage from {{dv|20|oldboost=1}} to {{dv|20|40|48|52}}.
+*Nerfed [[Everscream]]'s contact damage from {{dv|110|165|oldboost=1}} to {{dv|110|165|189|204}}.
+*Nerfed [[Evolution Beast]]'s sphere damage from {{dv|100|140|oldboost=1}} to {{dv|100|140|161|173}}.
+*Nerfed [[Flesh Reaver]]'s contact damage from {{dv|64|oldboost=1}} to {{dv|64|128|147|158}}.
+*Nerfed [[Flying Snake]]'s contact damage from {{dv|85|oldboost=1}} to {{dv|85|170|195|210}}.
+*Nerfed [[Ghost Bell]]'s contact damage from {{dv|25|oldboost=1}} to {{dv|25|50|62|70}}.
+*Nerfed [[Giant Clam]]'s contact damage from {{dv|50|oldboost=1}} to {{dv| 50|100|120|132 }}.
+*Nerfed Giant Clam's pearl damage from {{dv|70|112|oldboost=1}} to {{dv|70|112|128|138}}.
+*Nerfed [[Great Sand Shark]]'s contact damage from {{dv|100|180|oldboost=1}} to {{dv|100|180|206|223}}.
+*Nerfed Great Sand Shark's blast damage from {{dv|80|oldboost=1}} to {{dv|80|160|184|198}}.
+*Nerfed [[Gulper Eel]]'s head contact damage from {{dv|135|oldboost=1}} to {{dv|135|270|297|313}}.
+*Nerfed [[Hallowed Mimic]]'s contact damage from {{dv|90|oldboost=1}} to {{dv|90|180|206|223}}.
+*Nerfed [[Ice Queen]]'s contact damage from {{dv|120|180|oldboost=1}} to {{dv|120|180|206|223}}.
+*Nerfed Ice Queen's frost wave damage from {{dv|84|oldboost=1}} to {{dv|84|168|193|208}}.
+*Nerfed [[Lihzahrd]]'s contact damage from {{dv|38|oldboost=1}} to {{dv|38|76|91|100}}.
+*Nerfed Lihzahrd's crawler form contact damage from {{dv|60|oldboost=1}} to {{dv|60|120|138|148}}.
+*Nerfed [[Man Eater]]'s contact damage from {{dv|34|oldboost=1}} to {{dv|34|68|81|89}}.
+*Nerfed [[Martian Saucer]]'s first phase deathray damage from {{dv|100|oldboost=1}} to {{dv|100|200|229|248}}.
+*Nerfed Martian Saucer's second phase deathray damage from {{dv|160|oldboost=1}} to {{dv|160|320|368|396}}.
+*Nerfed [[Mauler]]'s contact damage from {{dv|135|oldboost=1}} to {{dv|135|270|297|313}}.
+*Nerfed [[Meteor Head]]'s contact damage from {{dv|40|oldboost=1}} to {{dv|40|80|96|105}}.
+*Nerfed [[Milkyway Weaver]]'s head contact damage from {{dv|80|oldboost=1}} to {{dv|80|160|184|198}}.
+*Nerfed [[Mimic]]'s contact damage from {{dv|80|oldboost=1}} to {{dv|80|160|184|198}}.
+*Nerfed [[Mothron]]'s contact damage from {{dv|80|oldboost=1}} to {{dv|80|160|184|198}}.
+*Nerfed Mothron's slow charge damage from {{dv|40|oldboost=1}} to {{dv|40|80|92|99}}.
+*Nerfed Mothron's fast charge damage from {{dv|100|oldboost=1}} to {{dv|100|200|229|248}}.
+*Nerfed [[Mourning Wood]]'s contact damage from {{dv|120|180|oldboost=1}} to {{dv|120|180|206|223}}.
+*Nerfed Mourning Wood's flaming wood spike damage from {{dv|100|oldboost=1}} to {{dv|100|200|229|248}} at 25% health or above.
+*Nerfed Mourning Wood's flaming wood spike damage from {{dv|150|oldboost=1}} to {{dv|150|300|345|372}} below 25% health.
+*Nerfed [[Nebula Floater]]'s laser damage from {{dv|130|200|oldboost=1}} to {{dv|130|200|229|248}}.
+*Nerfed [[Paladin]]'s contact damage from {{dv|100|oldboost=1}} to {{dv|100|200|229|248}}.
+*Nerfed Paladin's hammer damage from {{dv|120|180|oldboost=1}} to {{dv|120|180|206|223}}.
+*Nerfed [[Parasea]]'s contact damage from {{dv|50|oldboost=1}} to {{dv|50|100|114|124}}.
+*Nerfed happy [[Phantom Spirit]]'s shot damage from {{dv|130|212|oldboost=1}} to {{dv|130|212|233|245}}.
+*Nerfed [[Piranha]]'s contact damage from {{dv|25|oldboost=1}} to {{dv|25|50|60|66}}.
+*Nerfed [[Pirate Captain]]'s contact damage from {{dv|70|oldboost=1}} to {{dv|70|140|161|173}}.
+*Nerfed [[Plaguebringer]]'s contact damage from {{dv|70|oldboost=1}} to {{dv|70|140|161|173}}.
+*Nerfed Plaguebringer's stinger damage from {{dv|52|oldboost=1}} to {{dv|52|104|119|128}}.
+*Nerfed Plaguebringer's missile damage from {{dv|66|oldboost=1}} to {{dv|66|132|151|163}}.
+*Nerfed [[Predictor]]'s shot damage from {{dv|120|180|oldboost=1}} to {{dv|120|180|206|223}}.
+*Nerfed [[Present Mimic]]'s contact damage from {{dv|100|oldboost=1}} to {{dv|100|200|229|248}}.
+*Nerfed [[Prism-Back]]'s contact damage from {{dv|20|oldboost=1}} to {{dv|20|40|50|56}}.
+*Nerfed [[Psycho]]'s contact damage from {{dv|70|oldboost=1}} to {{dv|70|140|161|173}}.
+*Nerfed [[Pumpking]]'s contact damage from {{dv|50|75|oldboost=1}} to {{dv|50|75|90|99}}.
+*Nerfed Pumpking's blade contact damage from {{dv|65|oldboost=1}} to {{dv|65|130|149|161}}.
+*Nerfed Pumpking's flaming scythe damage from {{dv|120|oldboost=1}} to {{dv|120|240|276|297}}.
+*Nerfed [[Reaper]]'s contact damage from {{dv|80|oldboost=1}} to {{dv|80|160|184|198}}.
+*Nerfed [[Reaper Shark]]'s contact damage from {{dv|160|oldboost=1}} to {{dv|160|320|352|371}}.
+*Nerfed [[Sand Elemental]]'s storm damage from {{dv|60|88|oldboost=1}} to {{dv|60|88|105|116}}.
+*Nerfed [[Sand Shark]]'s contact damage from {{dv|50|oldboost=1}} to {{dv|50|100|114|124}}.
+*Nerfed [[Santa-NK1]]'s contact damage from {{dv|120|180|oldboost=1}} to {{dv|120|180|206|223}}.
+*Nerfed Santa-NK1's present damage from {{dv|100|oldboost=1}} to {{dv|100|200|229|248}}.
+*Nerfed Santa-NK1's spiky ball damage from {{dv|160|oldboost=1}} to {{dv|160|320|368|396}}.
+*Nerfed [[Scorn Eater]]'s contact damage from {{dv|90|oldboost=1}} to {{dv|90|180|206|223}}.
+*Nerfed [[Sea Serpent]]'s head contact damage from {{dv|50|oldboost=1}} to {{dv|50|100|120|132}}.
+*Nerfed [[Shark]]'s contact damage from {{dv|40|oldboost=1}} to {{dv|40|80|96|105}}.
+*Nerfed [[Snatcher]]'s contact damage from {{dv|25|oldboost=1}} to {{dv|25|50|60|66}}.
+*Nerfed [[Spike Ball]]'s contact damage from {{dv|32|oldboost=1}} to {{dv|32|64|76|84}}.
+*Nerfed [[Stargazer]]'s laser damage from {{dv|90|oldboost=1}} to {{dv|90|180|206|223}}.
+*Nerfed [[Storm Diver]]'s laser damage from {{dv|150|200|oldboost=1}} to {{dv|150|200|229|248}}.
+*Nerfed [[Vortex Pillar]]'s vortex damage from {{dv|90|oldboost=1}} to {{dv|90|180|206|223}}. <!-- VortexVortexLightning, unsure of value -->
+*Nerfed Vortex Pillar's lightning damage from {{dv|90|oldboost=1}} to {{dv|90|180|206|223}}. <!-- VortexLightning, unsure of value x2 -->
+*Nerfed [[Wall Creeper]]'s contact damage from {{dv|30|oldboost=1}} to {{dv|30|60|72|79}}.
+*Nerfed [[Werewolf]]'s contact damage from {{dv|70|oldboost=1}} to {{dv|70|140|161|173}}.
+*Nerfed [[World Feeder]]'s head contact damage from {{dv|70|oldboost=1}} to {{dv|70|140|161|173}}.
+*Nerfed [[Wraith]]'s contact damage from {{dv|65|oldboost=1}} to {{dv|65|130|149|161}}.
+*Nerfed [[Wyvern]]'s head contact damage from {{dv|80|oldboost=1}} to {{dv|80|160|184|198}}.
+{{collapse bottom}}
+*[[Angry Bones]] now inflicts [[War Cleave]] for 1 second in Hardmode.
+*Nerfed [[Aquatic Aberration]]'s contact damage from {{dv|60|oldboost=1}} to {{dv|55|110|126|136}}. <!-- actually nerfed in all difficulties so it gets excluded from the collapsible -->
+*Buffed Aquatic Parasite in Hardmode from {{dv|30|60}} health and {{dv|15|30}} damage to {{dv|200|400}} health and {{dv|35|70}} damage.
+*Buffed Aquatic Seeker in Hardmode from {{dv|60|120}} health, {{dv|20|40|50|56}} head damage, {{dv|15|30}} body damage, and {{dv|5|10}} tail damage to {{dv|500|1000}} health, {{dv|40|80|100|112}} head damage, {{dv|30|60}} body damage, and {{dv|15|30}} tail damage. Now moves at triple speed in Hardmode.
+*Buffed Aquatic Urchin in Hardmode from {{dv|50|100}} health and {{dv|25|50}} damage to {{dv|300|600}} health and {{dv|50|100}} damage.
+*Armored Digger spawn rates can now be affected by [[Battle Potion]], [[Boss Zen]], [[Calming Potion]], [[Peace Candle]], and [[Water Candle]]. Spawn rates are now significantly less affected by [[Chaos Candle]], [[Tranquility Candle]], [[Zen Potion]], and [[Zerg Potion]].
+*Armored Diggers now have 1 minute of cooldown after spawning.
+*[[Armored Skeleton]], [[Hoplite]], and [[Skeleton Archer]] can no longer drop [[Bone Sword]] while [[Defiled Rune]] is active.
+*[[Blue Armored Bones]], [[Hell Armored Bones]], and [[Rusty Armored Bones]] now inflict [[Armor Crunch]] for 2 seconds.
+*Decreased [[Bohldohr]] knockback resistance from {{dv|10%|19%}} to {{dv|5%|14.5%}}. It can now drop [[Lihzahrd Brick]]s, [[Lihzahrd Power Cell]], and [[Solar Tablet Fragment]]. It can now also spawn before Plantera is defeated.
+*[[Cloud Elemental]], Cnidrion, Earth Elemental, and Plaguebringer now each have a natural spawn limit of 1.
+*Defiled Rune now affects the drop rate of [[Butcher's Chainsaw]], [[Cascade]], [[Defective Sphere]], [[Harpoon]], [[Lizard Egg]], [[Money Trough]], [[Neptune's Shell]], [[Psycho Knife]], [[Shark Tooth Necklace]], [[Tally Counter]], [[Toxic Flask]], and [[Unholy Trident]].
+*Defiled Rune no longer affects the drop rate of Giant Harpy Feather if the enemies are spawned from statues.
+*Defiled Rune no longer affects the drop rate of [[Honeyed Goggles]], [[Inferno Fork]], [[Rifle Scope]], [[Shadowbeam Staff]], and [[Spectre Staff]].
+*[[Depth Cells]] and [[Lumenyl]] can no longer drop if [[Plantera]] is defeated instead of [[Calamitas]].
+*Earth Elemental now inflicts Armor Crunch for 3 seconds on contact, 2 seconds from large rocks, and 1 second from small rocks.
+*Eidolon Wyrm and [[Eidolist]] now drop [[Lunar Cultist Hood]] and [[Lunar Cultist Robe]] at a 10% chance instead of 100%.
+*[[Electrified]] and [[Slow]] debuffs now affect enemies. All bosses are now immune to these debuffs by default.
+*Eutrophic Rays now only drop [[Eutrophic Shank]] after Desert Scourge has been defeated.
+*[[Fearless Goldfish Warrior]] now instantly kills the player if named "Metarex" or "LordMetarex", followed by a custom death message.
+*[[Fungi Spore]] and [[Spore]] can now track players to the left in [[Expert Mode]]. <!-- Fantastic vanilla bug -->
+*[[Fusion Feeder]] kills no longer spawn the Great Sand Shark.
+*[[Gastropod]] now drops 5-10 [[Pink Gel]] at 100% chance.
+*Giant Clam now only drops [[Amidias' Pendant]] and [[Giant Pearl]] after Desert Scourge has been defeated.
+*Giant Clam now drops Amidias' Pendant in all difficulties. Decreased drop rate from 50% to 33.33%.
+*Great Sand Shark now drops 1 [[Forbidden Fragment]] at 100% chance.
+*[[Hellbat]] now inflicts [[On Fire!]] for 2 seconds in Expert Mode during Hardmode.
+*[[Hive (enemy)|Hive]] now only spawns up to a maximum of 10 [[Hiveling]]s.
+*[[Ice Golem]] no longer has modified AI in Revengeance Mode.
+*[[Lava Bat]] now inflicts On Fire! for 3 seconds.
+*Lihzahrd no longer has modified AI in Revengeance Mode.
+*[[Mirage Jelly]] now only drops [[Vital Jelly]] in Hardmode.
+*[[Overloaded Soldier]] and [[Phantom Debris]] now inflict [[War Cleave]] for 1 second.
+*[[Pinky]] can now drop [[Slime Staff]] at a 5% chance with Defiled Rune active.
+*[[Pitbull]] can now drop [[Adhesive Bandage]] at any progression instead of Hardmode only.
+*[[Radiator]] can now drop [[Lead Core]] at a 5% chance.
+*Halved Sea Serpent's turn speed and maximum speed.
+*[[Stormlion]] now has a 100% chance to drop a [[Stormlion Mandible]] instead of 50%, but only before defeating the [[Desert Scourge]].
+*Wyvern now has a boss health bar.
+*Death Mode changes to many enemies:
+**Caster AI enemies teleport and are more aggressive.
+**Demon Eye AI enemies now accelerate slower but have a higher maximum speed.
+**Fighter AI enemies can now open doors and move faster. <!-- Zombies and other similar enemies -->
+**Flying Fish AI enemies now have a higher maximum speed.
+**Flying Weapon AI enemies now spin and charge faster and are immune to knockback.
+**Bat AI, Flying AI, Jellyfish AI, and Spider AI enemies now move more aggressively.
+**Slime AI enemies jump farther and take less time to jump.
+**Swimming AI enemies move faster while the player contacts water.
+**[[Angry Dog]] curls up at 90% health instead of 50%.
+**[[Angry Nimbus]] moves faster, has a higher attack range, and rains ice shards.
+**Armored Digger now has 61 segments instead of 41 and 30,000 health instead of 20,000.
+**[[Astral Probe]] moves 50% faster and no longer gets interrupted when damaged.
+**[[Astralachnea]], Atlas, [[Box Jellyfish]], [[Giant Squid]], [[Gnasher]], [[Hadarian]], Hiveling, [[Ice Clasper]], [[Mantis Shrimp]], Overloaded Soldier, Phantom Debris, [[Small Sightseer]], and [[Viruling]] move 50% faster.
+**[[Big Sightseer]] fires projectiles 33.33% more often and projectiles move 20% faster.
+**Blazing Wheel occasionally fires cross-shaped bursts of flames.
+**[[Catfish]], [[Devil Fish]], [[Frogfish]], [[Laserfish]], [[Moray Eel]], [[Trasher]], and [[Viperfish]] move 100% faster.
+**Cloud Elemental moves at the highest speed immediately, instead of gradually speeding up as health lowers. She is now also immune to knockback at all times, instead of only below 50% health.
+**Cnidrion fires projectiles at the fastest rate immediately, instead of increasing rate below 33%, 25%, and 10% health.
+**[[Cosmic Elemental]] and [[Granite Elemental]] move faster but can be damaged at all times.
+**Earth Elemental charges at the highest rate immediately, instead of gradually increasing rate as health lowers.
+**[[Sulflounder|Flounder]] and Fearless Goldfish Warrior move 200% faster.
+**Fungi Spore and Spore now chases after the player faster.
+**Hive spawns Hivelings 50% more often.
+**[[Impious Immolator]] fires projectiles 33.33% more often and projectiles move 33.33% faster.
+**[[Luminous Corvina]] screams 50% more often.
+**[[Mantis]] moves 55% faster, jumps 20% higher, and fires projectiles 100% more often.
+**[[Nova]] moves 50% faster and has a higher chance to perform a charge.
+**Phantom Spirits move 33.33% faster for all variants.
+**Scorn Eater takes 75% less time between jumps.
+
+=== Balance and Reworks ===
+==== Armor and coverings ====
+*Buffed [[Astral armor]] maximum mana boost from 20 to 80.
+*[[Badge of Bravery]] now increases melee damage by 10%, melee critical strike chance by 5%, and melee armor penetration by 10 while the player is equipping a full set of [[Tarragon armor]].
+*[[Bat Wings]] additional effects now occur during a [[Solar Eclipse]] in addition to at night.
+*Reworked [[The Bee]]. The damage gained while at full health is now based on the player's damage reduction instead of the weapon's damage and use time. The damage bonus now works on summon weapons. Added an effect when getting hit at full health which causes the damage taken to be halved, with a 10-second cooldown.  It can now stack with the [[Bee Cloak]].
+*[[Elemental Quiver]] now inherits the effects of the [[Magic Quiver]].
+*[[Elysian Aegis]] now grants immunity to [[Holy Flames]].
+*Nerfed [[Feather Crown]]'s feather count from 10 to 6. Feather damage is now increased by 5% of the initial projectile's damage.
+*Nerfed [[Frozen Wings]]' damage and critical strike chance bonus while wearing [[Frost armor]] from 7% and 3% respectively to 2% and 1%.
+*[[Lumenous Amulet]] can now stack light level boosts with [[Shine Potion]].
+*Nerfed [[Moonstone Crown]]'s flare count from 20 to 6. Buffed base flare damage from 50 to 150 and it is now increased by 5% of the initial projectile's damage.
+*Nerfed [[Nanotech]]'s Spy damage boost from 10% to 5%. Nerfed the maximum damage stack boost from 25% to 10%, armor penetration granted on stealth strikes from 30 to 20, and stealth strike damage from 10% to 5%. Nerfed nanoblade projectile cap from 30 to 25 and damage from 15% to 10%.
+*Nerfed Nanotech and Raider's Talisman, added a cooldown of 0.5 seconds for the damage stacking effect.
+*Nanotech now causes stealth strikes to spawn 6 nano flares which deal 1000 damage added by 5% of the initial projectile's damage, which is now independent from Moonstone Crown's effect.
+*Buffed [[Necklace of Vexation]] conditional damage from 15% to 20%. It now causes attacks to inflict [[Cursed Inferno]] and [[Venom]] while the player is equipping a full set of [[Reaver armor]].
+*[[Ornate Shield]] now increases max life by 20 and damage reduction by 8% while the player is equipping a full set of [[Daedalus armor]].
+*[[Permafrost's Concoction]] now decreases mana cost by 15%. Decreased duration of Encased from 5 seconds to 3, DR provided while encased is no longer affected by the scaling formula, and the player is now immune to [[Chilled]], [[Frozen]], and [[Glacial State]] while encased.
+*[[Profaned Soul Artifact]] now requires 10 minion slots or higher for the defensive guardian to spawn instead of 8.
+*[[Shield of the Ocean]] now increases movement speed by 10% and life regeneration by 2 while the player is equipping a full set of [[Victide armor]].
+*[[Statigel armor]] jump boost can now stack with [[Shiny Red Balloon]] and its upgrades.
+*[[Tarragon armor]] ranged set bonus now only spawns energy projectiles when hitting an enemy and now has a maximum count of 20.
+*Increased [[Vampiric Talisman]] lifesteal cooldown by 33.33% and capped the healing at 6.
+
+==== Weapons ====
+*[[Alluvion]], [[Heavenly Gale]], [[Monsoon]], and [[Telluric Glare]] arrows are now affected by arrow bonuses.
+*Added stealth strike effects to [[Ballistic Poison Bomb]], [[Celestus]], [[Cosmic Kunai]], [[Crushsaw Crasher]], [[Crystalline]], [[Dune Hopper]], [[Executioner's Blade]], [[Feather Knife]], [[Ghoulish Gouger]], [[Heavenfallen Stardisk]], [[Ice Star]], [[Meteor Fist]], [[Molten Amputator]], [[Plaguenade]], [[Radiant Star]], [[The Reaper]], [[Scourge of the Desert]], [[Seafoam Bomb]], [[Shattered Sun]], [[Spear of Paleolith]], [[Stellar Knife]], [[Urchin Stinger]], and [[Wulfrum Knife]].
+*[[Aether's Whisper]] beam can no longer gain the split effect from the [[Elemental Quiver]].
+*Rebalanced [[Air Spinner]]. Nerfed damage from 21 to 20 and air time from 5.5 seconds to 3. Buffed range from 14 tiles to 18.75. The yoyo no longer retracts after 7 hits.
+*Nerfed [[Alluvion]]'s damage from 90 to 70.
+*Nerfed [[Angelic Shotgun]]'s damage from 180 to 90, use time from 14 to 26, bullet count from 8 to 5-7, bullet speed from 13 to 12, and laser damage from 500% to 300%. Reduced shotgun spread range by 13.33%.
+*Nerfed [[Aorta]]'s range from 14 tiles to 13.75. The yoyo no longer retracts after 7 hits.
+*Buffed [[Azathoth]]'s range from 21 tiles to 43.75.
+*[[Celestial Reaper]] scythe is now instantly destroyed on contact with [[Target Dummy]] or [[Super Dummy]]. <!-- To prevent bounce stacking exploits -->
+*Nerfed [[Celestus]]' damage from 960 to 850.
+*Rebalanced [[Chaotrix]]. Nerfed damage from 110 to 88. Buffed range from 18 tiles to 18.125 and velocity multiplier from 1x to 2x. The yoyo no longer retracts after 10 hits.
+*Rebalanced [[Cnidarian]]. Nerfed range from 14 tiles to 11.875. The yoyo no longer retracts after 6 hits.
+*[[Cosmic Immaterializer]] damage penalty no longer activates if the player wears a full set of [[Demonshade armor]] or [[Omega Blue armor]].
+*Nerfed [[Cosmilamp]]'s damage from 180 to 130.
+*[[Deepsea Staff]] minion can now pass through tiles.
+*Nerfed [[Desecrated Water]]'s bubble damage from 70% to 50%.
+*Nerfed [[Dragon Pow]]'s damage from 11,800 to 3900.
+*Nerfed [[Dragon's Breath]]'s damage from 320 to 260.
+*Nerfed [[Eclipse's Fall]]'s damage from 1300 to 1010 and use time from 20 to 21. Nerfed small javelin damage from 10% to 8%.
+*[[Elemental Axe]] minions now use ID-static immunity frames instead of default.
+*Nerfed [[Empyrean Knives]]' damage from 1100 to 600 for the melee variant and 520 for the Spy variant.
+*[[Everglade Spray]] now inflicts [[Ichor (debuff)|Ichor]] for 15 seconds instead of 20.
+*Nerfed [[Executioner's Blade]] damage from 550 to 420.
+*Nerfed [[Fallen Paladin's Hammer]]'s damage from 160 to 101.
+*Reworked [[Feather Knife]]. Buffed damage from 24 to 32 and velocity from 14 to 25, but nerfed use time from 11 to 18. The knife spawns sticky explosive feathers on hit and every 0.58 seconds. It no longer pierces and no longer bounces upon collision with solid tiles.
+*Nerfed [[Gael's Greatsword]]'s damage from 5660 to 4069.
+*Rebalanced [[The God's Gambit]]. Nerfed range from 21 tiles to 20. The yoyo no longer retracts after 6 hits.
+*Nerfed [[Greatbow of Turmoil]] additional arrow damage from 100% to 50%.
+*Nerfed [[Greatsword of Blah]]'s damage from 480 to 300.
+*Nerfed Heavenly Gale's damage from 585 to 570.
+*Nerfed [[Infernal Spear]]'s damage from 1500 to 1000.
+*Buffed [[Lacerator]]'s range from 23 tiles to 35.
+*[[Lunar Kunai]] explosion now uses local immunity frames with a hit cooldown of 10. Nerfed amount of daggers from the stealth strike from 12 to 5. Nerfed explosion radius from 32 to 28 pixels.
+*Nerfed [[Molten Amputator]]'s damage from 250 to 169. Decreased molten glob lifespan from 5 seconds to 3, increased immunity frames from 3 to 4, and nerfed molten glob damage from 50% to 25%.
+*Nerfed [[Nadir]]'s damage from 1100 to 800.
+*Rebalanced [[The Obliterator]]. Buffed damage from 240 to 370, range from 23 tiles to 40. Buffed laser firing range by 50% and improved its attack rate. Nerfed yoyo hit cooldown from 3 to 5.
+*Nerfed [[Oblivion]]'s range from 23 tiles to 22.5.
+*Nerfed [[Onyxia]]'s damage from 235 to 210.
+*Rebalanced [[The Oracle]]. Nerfed damage from 480 to 420, amount of charge per hit from 6 to 4, amount of hits to spawn orbs from 6 to 3, but buffed range from 20.5 tiles to 50, base aura damage from 160 to 300, and doubled aura damage scaling rate.
+*Nerfed [[P90]]'s damage from 11 to 6.
+*Nerfed [[Pandemic]]'s range from 23 tiles to 21.25.
+*[[Pestilent Defiler]] now auto-reuses.
+*Nerfed [[Phangasm]]'s damage from 112 to 86.
+*[[Phantasmal Ruin]] javelin now deals 10% less damage if 8 or more Phantasmal Souls have spawned.  Phantasmal Souls now initially deal 10% damage and gradually scale up to full damage after 0.83 seconds. Stealth strikes now deal 80% less damage.
+*Nerfed [[Prismalline]]'s damage from 22 to 18.
+*Nerfed [[Riptide]]'s range from 18 tiles to 11.25 and air time from 15 seconds to 7.5.
+*Buffed [[Quagmire]]'s range from 17 tiles to 17.1875. The yoyo no longer retracts after 8 hits.
+*Nerfed [[Sand Sharknado Staff]]'s damage from 65 to 35.
+*Nerfed [[Scourge of the Cosmos]]' damage from 2200 to 1550 for the melee variant and 1300 for the Spy variant.
+*[[Seabound Staff]] minion can now pass through tiles.
+*Reworked [[Shattered Sun]]. It now splits once into a random spread of 5 daggers instead of splitting twice each into a spread of 2 daggers. Splitting daggers no longer cause an explosion on hit and the initial wave of splitting daggers can no longer pierce. Splitting daggers now deal less damage the longer it has travelled and also inflict Holy Flames for 3 seconds. The initial wave of split daggers will now home into enemies instead of the final split daggers gaining homing abilities. Increased time taken to split from 0.2 seconds to 0.33. Nerfed main dagger on-hit explosion damage from 100% to 15%. Buffed homing dagger damage from 50% to 80%. Buffed main dagger pierce from 2 to 3. Buffed damage from 60 to 82. Nerfed use time from 11 to 12.
+*Rebalanced [[Shimmerspark]]. Nerfed range from 18 tiles to 17.1875. Buffed yoyo size by 11.11% and it no longer retracts after 8 hits.
+*Buffed [[Solar Flare]]'s range from 23 tiles to 35.
+*[[Starfleet]], [[Star Cannon]], and [[Star Cannon EX]] now fire fallen stars which can pass through platforms.
+*Nerfed [[Sylvan Slasher]], added a cooldown of 0.083 seconds for stealth gain.
+*Nerfed [[Throwing Brick]]'s knockback from 10 to 5.
+*Buffed [[Totality Breakers]]' damage from 47 to 55 and tar damage from 50% to 60%. It now has a hit cooldown of 10 upon exploding instead of -1.
+*[[Ultra Liquidator]] now inflicts Ichor, [[Frostburn]], [[On Fire!]], and [[Cursed Inferno]] for 20 seconds instead of 10.
+*Buffed [[Verdant]]'s range from 21 tiles to 25. It now uses local immunity frames with a hit cooldown of 9.
+*Reworked [[Vivid Clarity]]. It now fires a series of five beams from the player directly towards the cursor, instead of three random beams from the sky aimed near the cursor. The beams that fire directly no longer pierce, bounce, or spawn additional beams. Instead, the beams have three different on-hit effects in collision with enemies or solid tiles: spawning a flower of eight homing projectiles, spawning a large explosion, or spawning beams from the sky with the previous effects of bouncing, piercing, and spawning additional beams when close to enemies. Buffed damage from 500 to 550, its mana cost from 150 to 69, and its use time from 33 to 20.
+*Nerfed [[Winter's Fury]] damage from 40 to 28. Decreased chance to spawn frost shards and snowballs.
+*Rebalanced [[Yin-Yo]]. Nerfed range from 18 tiles to 17.1875 and air time from 16 seconds to 14. Buffed yoyo size by 11.11% and it no longer retracts after 5 hits.
+
+==== Miscellaneous ====
+*[[Abyssal Mirror]] fluid, [[Clam Crusher]] flail, [[Coral Cannon]] big coral, and [[Eutrophic Scimitar]] bolt now inflict [[#Additions|Eutrophication]] instead of [[Silva Stun]]. They can now be inflicted on enemies with a [[Lifeform Analyzer]] rarity of 2 or higher. <!-- Weirdly specific checks -->
+*Nerfed [[Acid Round]]'s damage from 28 to 20. Added damage from enemy defense is now 5% as effective instead of 10% as effective, and is now weaker the less use time the weapon has.
+*Acid Rounds now do 75% damage when used in conjunction with P90.
+*[[Adrenaline Mode]] no longer deals less damage the longer the meter is fully charged. <!-- AKA "Adrenaline Burnout" -->
+*[[Adrenaline Meter]] now reduces damage taken by 50% and resets to zero when getting hit while the meter is full.
+*[[Frostspark Bullet]] now explodes in a small area for 33.33% additional damage, but damage multiplier from hitting an enemy inflicted with Glacial State decreased from 1.2x to 1.1. Nerfed damage from 11 to 8.
+*Changed several [[lore items]]:
+**[[King Slime (Lore)]] reduces [[defense]] by 5.
+**[[The Desert Scourge (Lore)]] reduces damage by 2.5% in the given biomes.
+**[[The Eye of Cthulhu (Lore)]] [[Darkness|darkens]] the player's vision at day.
+**[[Crabulon (Lore)]] reduces movement speed by 10% in the given biomes.
+**[[The Eater of Worlds (Lore)]] halves life regen.
+**[[The Brain of Cthulhu (Lore)]] inflicts 2.5 seconds of [[Confused]] on usage.
+**[[The Hive Mind (Lore)]] reduces spawn rates in [[The Corruption]].
+**[[The Perforators and their Hive (Lore)]] increases spawn rates in [[The Crimson]].
+**[[Skeletron (Lore)]] reduces max health by 10% in the [[Dungeon]].
+**[[The Slime God (Lore)]] makes dashing more difficult and does not work with [[mounts]].
+**[[Aquatic Scourge (Lore)]] reduces critical strike chance by 1%, damage by 2.5%, defense by 1, melee speed by 2.5%, minion knockback by 25%, and movement speed by 10% without the [[Well Fed]] [[buff]].
+**[[The Destroyer (Lore)]] reduces horizontal acceleration by 5%.
+**[[Skeletron Prime (Lore)]] reduces horizontal acceleration by 5%.
+**[[The Twins (Lore)]] reduces defense by 10 when above 50% health, and reduces horizontal acceleration by 5% when below 50% health.
+**[[Leviathan and Anahita (Lore)|Leviathan and Siren (Lore)]] reduces defense by 20 and [[damage reduction]] by 10% while not submerged in liquid.
+**[[Duke Fishron (Lore)]] reduces critical strike chance by 2%, damage by 2%, and movement speed by 4% while not submerged in liquid.
+**[[Lunatic Cultist (Lore)]] darkens the player's vision during the [[Lunar Events]].
+**[[Moon Lord (Lore)]] grants the [[Featherfall Potion]] effect when not flipped in gravity.
+**[[Providence, the Profaned Goddess (Lore)]] reduces max health by 20%. Buffed its positive effect from a 1.05x damage multiplier to 1.1x.
+**[[The Devourer of Gods (Lore)]] causes the player to take 10% more damage from all sources.
+**[[Calamitas (Lore)]] now instantly kills the player while under the effects of [[Chaos State]] or [[Scarf Cooldown]].
+*[[Moon Bite]] now prevents [[lifesteal]] from [[Burnt Sienna]], [[Essence Flayer]], [[Grand Guardian]], [[Phoenix Blade]], [[Rare Elemental in a Bottle]], and [[Terra-cotta]].
+*[[Rage Meter]] no longer resets to zero when getting hit while the meter is full.
+*Buffed [[Shardlight Pickaxe]]'s tool speed from 8 to 6.
+*Nerfed various trap damage in Revengeance and Death Mode:
+**Nerfed [[Boulder]]'s damage from {{dv|140|182|oldboost=1}} to {{dv|140|182|200|211}}.
+**Nerfed [[Flame Trap]]'s flamethrower damage from {{dv|80||100|115}} to {{dv|80||92|99}}.
+**Nerfed Flame Trap's fireball damage from {{dv|80||100|115}} to {{dv|80||92|99}}.
+**Nerfed [[Spear Trap]]'s damage from {{dv|120||150|172}} to {{dv|120||138|148}}.
+**Nerfed [[Spiky Ball Trap]]'s damage from {{dv|90||112|129}} to {{dv|90||103|111}}.
+**Nerfed [[Super Dart Trap]]'s damage from {{dv|80||100|115}} to {{dv|80||96|105}}.
+
+=== Recipes ===
+*[[Abyssal Diving Gear]] is now crafted at a [[Mythril Anvil]] instead of a [[Tinkerer's Workshop]].
+*[[Abyssal Diving Suit]] is now crafted at an [[Ancient Manipulator]] instead of a Mythril Anvil.
+*[[Abyssal Mirror]] no longer requires [[Black Belt]] to be crafted.
+*[[Abyssal Tome]], [[Coral Spout]], and [[Eldritch Tome]] are now crafted at a [[Bookcase]] instead of an [[Iron Anvil]].
+*[[Alpha Ray]] is now crafted at a [[Draedon's Forge]] instead of an Ancient Manipulator.
+*Added [[Any Evil Bar]], [[Any Evil Block]], Any Evil Ore, [[Any Food Item]] and [[Any Gold Ore]] recipe groups.
+**[[Overloaded Sludge]] now uses Any Evil Block recipe group.
+**[[Silencing Sheath]] now uses Any Evil Bar recipe group.
+*[[Arid Artifact]], [[Forsaken Saber]], and [[Nychthemeron]] are now crafted at a Mythril Anvil instead of an Iron Anvil.
+*[[Augur of the Elements]], [[Biofusillade]], [[Nuclear Fury]], and [[Tome of Fates]] are now crafted at a Bookcase instead of an Ancient Manipulator.
+*[[Auric Tesla Bar]]s now require 2 [[Unholy Essence]]s to craft.
+*[[Ballistic Poison Bomb]] now requires [[Seafoam Bomb]] to craft.
+*[[Bacon]] can now be crafted with a [[Piggy (item)|Piggy]] at a [[Cooking Pot]].
+*[[Bug Net]] can now be crafted with 3 [[Any Iron Bar]]s and 30 [[Cobweb]]s at an Iron Anvil.
+*[[Burning Sea]], [[Death Valley Duster]], and [[Primordial Earth]] are now crafted at a Bookcase instead of a Mythril Anvil.
+*[[Celestus]] now requires [[Frostcrush Valari]] instead of [[Pwnagehammer]].
+*[[Cobalt Shield]] and [[Muramasa]] are now crafted at an Iron Anvil instead of a Mythril Anvil.
+*[[Contagion]] now requires [[Phangasm]] instead of [[Phantasm]].
+*[[Cosmic Immaterializer]] now requires [[Sirius]] instead of [[Sun God Staff]].
+*[[Crystyl Crusher]] now requires [[Any Lunar Pickaxe]] instead of [[Gallant Pickaxe]].
+*[[Dark Sun Ring]] is now crafted at a Draedon's Forge instead of a Mythril Anvil.
+*[[Decapodita Sprout]], [[Desert Medallion]], and [[Overloaded Sludge]] are now crafted at a [[Demon Altar]] instead of an Iron Anvil.
+*[[Desecrated Water]] now requires [[Soul of Night|Souls of Night]] instead of [[Soul of Light|Souls of Light]]. <!-- Oversight -->
+*Draedon's Forge now functions as a Demon Altar.
+*[[Equanimity]] now requires [[Flamarang]] to craft.
+**Additionally removed an alternate recipe which uses an [[Enchanted Boomerang]] instead of an [[Ice Boomerang]]. <!-- Added Ice Boomerang recipe instead -->
+*[[Everglade Spray]] now requires [[Cursed Flames]] or [[Golden Shower]] instead of 20 [[Ichor]].
+*[[Fallen Paladin's Hammer]] now requires [[Pwnagehammer]] to craft.
+*Gallant Pickaxe now requires 10 [[Luminite Bar]]s instead of Any Lunar Pickaxe.
+*Gallant Pickaxe is now part of the Any Lunar Pickaxe group.
+*[[God's Paranoia]] now requires 2 [[Endothermic Energy]] to craft.
+*[[Halley's Inferno]] now requires 6 [[Lumenyl]] to craft.
+*[[Heavenly Gale]] now requires [[Galeforce]] instead of Phangasm.
+*[[Hermes Boots]] now requires 2 [[Swiftness Potion]]s instead of 4.
+*[[Ice Boomerang]] can now be crafted with 20 [[Ice Block]]s, 10 [[Snow Block]]s, and 1 [[Shiverthorn]] at an [[Ice Machine]].
+*[[Lazinator]] now requires Space Gun to craft.
+*[[Luminous Striker]] now requires [[Turbulance]] to craft.
+*Nuclear Fury now requires [[Poseidon]] to craft.
+*[[Primordial Ancient]] is now crafted at a Bookcase instead of a Draedon's Forge.
+*[[Profaned Soul Artifact]] now requires 1 [[Core of Calamity]] and 10 [[Divine Geode]]s instead of 1 [[Core of Sunlight]] and 5 Divine Geodes.
+*[[Sand Sharknado Staff]] now requires [[Forgotten Apex Wand]] and [[Aerialite Bar]]s instead of [[Tempest Staff]] and [[Hallowed Bar]]s.
+*[[Slime Staff]] can now be crafted with 6 [[Wood]], 40 [[Gel]], and 10 [[Pink Gel]] at an Anvil.
+*[[Starmada]] now requires [[Star Sputter]] to craft.
+*[[Stratus Brick]]s now require 1 [[Exodium Cluster]] to craft. Increased its yield size from 40 to 50.
+*[[Subsuming Vortex]] now requires [[Event Horizon]] instead of Nuclear Fury and [[Relic of Ruin]].
+*[[Terra Disk]] now requires [[Equanimity]] and [[Thorn Chakram]] to craft.
+*[[Terra Lance]] now requires [[Dark Lance]] and [[Gungnir]] to craft.
+*[[Tradewinds]] is now crafted at a Bookcase instead of a [[Sky Mill]].
+*[[Turtle Shell]] can now be crafted with [[Giant Tortoise Shell]] by hand.
+*[[Ultra Liquidator]] now requires Everglade Spray instead of Cursed Flames and Golden Shower.
+*[[Umbrella]] can now be crafted with 5 [[Silk]] and 2 Any Iron Bars at a [[Loom]].
+*[[Vivid Clarity]] now requires Ultra Liquidator instead of [[Hellwing Staff]].
+
+=== Renames ===
+*Renamed BOHLDOHR to [[Bohldohr]].
+*Renamed BOHLDOHR Banner to [[Bohldohr Banner]].
+*Renamed Defensive Guardian to [[The Profaned Soul]].
+*Renamed "[[Fetid Essence|Fetid]] or [[Bloodletting Essence]]" recipe group to "[[Any Evil Essence]]".
+*Renamed Stratus Bricks to [[Stratus Brick]].
+*Renamed YinYo to [[Yin-Yo]].
+
+=== Resprites ===
+==== Armor and coverings ====
+*Resprited [[Shroomite Visage]], [[Silva Armor]], [[Silva Helm]], [[Silva Horned Helm]], [[Silva Horned Hood]], [[Silva Mask]], [[Silva Masked Cap]], and [[Silva Leggings]].
+*Resprited [[Craw Carapace]], [[Laudanum]], and [[Statis' Ninja Belt]].
+
+==== Blocks, Walls, and Furniture ====
+*Resprited [[Astral Monolith]].
+*Resprited [[Astral Monolith Wall]].
+*Resprited [[Ceaseless Void Trophy]], [[Hive Mind Trophy]], and [[Storm Weaver Trophy]].
+
+==== Buffs and Debuffs ====
+*Resprited [[Astrophage (buff)]], [[Corroslime (buff)]], [[Crimslime (buff)]], [[Dank Creeper (buff)]], [[Draconic Surge]], [[Scarf Boost]], [[Shell Speed Boost]], [[Silva Crystal (buff)]], [[Silva Invulnerability]], [[Tarragon Cloak]], and [[Tarragon Immunity]].
+*Resprited [[Abyssal Flames]], [[Armor Crunch]], [[Brimstone Flames]], [[Fish Alert]], [[Lethal Lava Burn]], [[Scarf Cooldown]], [[Silva Stun]], [[Tarragon Cloak Cooldown]], [[Tarragon Immunity Cooldown]], [[Vaporfied]], [[Vulnerability Hex]], and [[War Cleave]].
+
+==== Dust and Projectiles ====
+*Added a sprite to [[Aeries]]' Shockblast Round, [[Blissful Bombardier]]'s rocket, [[Bouncing Eyeball]]'s projectiles, [[Brimstone Elemental]]'s fireball, [[Brimstone Flameblaster]]'s fireball, [[Calamitas]]' fireball, [[Catastrophe]]'s fireball, [[Clamor Rifle]]'s projectiles, [[Consecrated Water]]'s Flame Pillar, [[Cosmic Bolter]]'s projectiles, [[Daemon's Flame]] arrow, [[Deathwind]]'s arrow, [[Dragon's Breath]] projectile, [[Effluvium Bow]]'s arrow, [[Elemental Blaster]]'s projectile, [[Energy Staff]]'s sentry, [[Enhanced Nano Round]]'s nanites, [[Eviscerator]]'s projectile, [[Fungicide]]'s projectile, [[Leviatitan]]'s blasts, [[Lunarian Bow]]'s bolts, [[Pearl God]]'s Shockblast Round, [[Pestilent Defiler]]'s bullet, [[Plague Keeper]]'s projectile, [[Proporse Pistol]]'s blast, [[Slag Magnum]]'s bullet, [[Telluric Glare]]'s arrow, and [[Virulence]]'s projectile.
+*Resprited [[Astreal Defeat]] arrow and fireball, Brimstone Dart, Brimstone Fireblast, Brimstone Flame Skull, Brimstone Gigablast, Brimstone Hellblast, [[Corroslime Staff]] minion, [[Cosmic Discharge]] flail, [[Crimslime Staff]] minion, [[Dank Staff]] minion, [[Fulguration Halberd]] spear, [[The Hive Mind]]'s Vile Clot, [[Mourningstar]] flail, [[Perfect Dark]] ball, [[Relic of Ruin]] blade, [[Shaderain Staff]] cloud, [[Shattered Sun]] projectiles, [[Silva armor]] crystal, Silva armor healing orb, and [[Terra Bullet]] projectiles.
+*Increased amount of dust generated from [[Abyss Torch]] by 300%.
+*[[Cursed Dagger]], [[Gilded Dagger]], and [[Gleaming Dagger]] now generate dust while traveling and on hits.
+*Decreased amount of dust generated from [[Holy Fire Bullet]]s on hit from 10 to 4 and allowed them to have 40%-80% increased size, defy gravity, and spread in random directions.
+*Decreased amount of dust generated from [[Providence, the Profaned Goddess (Lore)]] by 80% and dusts no longer generate light.
+*[[Spazmatism]] fireball and shadowflame dust now feature darker, larger dusts at the front and brighter, smaller dusts trailing behind.
+
+==== NPCs ====
+*Horizontally flipped both variants of [[Astrum Deus Probe]] sprites.
+*Resprited [[Bloatfish]], [[Bobbit Worm]], [[Box Jellyfish]], [[Calamity Eye]], [[Cuttlefish]], [[Dank Creeper]], [[Desert Scourge (small)]], [[Giant Squid]], [[Hive Blob]], [[Impious Immolator]], [[Laserfish]], [[Luminous Corvina]], [[Mirage Jelly]], [[Moray Eel]], [[Oarfish]], [[Stasis Probe]], [[Storm Weaver]], and [[Viperfish]].
+*Resprited Bobbit Worm, Ceaseless Void, Dank Creeper, Giant Squid, Laserfish, and Storm Weaver gores.
+
+==== Weapons ====
+*Resprited Astreal Defeat, [[Bouncing Eyeball]], [[Catastrophe Claymore]], Corroslime Staff, Cosmic Discharge, Crimslime Staff, Dank Staff, [[Death Valley Duster]], Fulguration Halberd, [[Gel Dart]], [[Gelitic Blade]], [[Gelpick]], Gilded Dagger, Gleaming Dagger, [[The God's Gambit]], [[Goobow]], [[Gunk Shot]], [[Harvest Staff]], [[Infinity]], [[Leeching Dagger]], [[Overloaded Blaster]], Perfect Dark, [[Primordial Ancient]], [[Primordial Earth]], Relic of Ruin, [[Rot Ball]], Shaderain Staff, [[Shadethrower]], [[Shadowdrop Staff]], Shattered Sun, [[Shredder]], [[Starfleet]], [[Stormfront Razor]], and [[Titanium Railgun]].
+
+==== Others ====
+*Resprited [[Armored Shell]], [[Auric Tesla Bar]], [[Shadowspec Bar]], and [[True Shadow Scale]].
+*Resprited [[Astrum Deus]] and [[Storm Weaver]]'s map icons.
+*Resprited [[Calamitas' Brew]], [[Revivify Potion]], and [[Titan Scale Potion]].
+*Resprited [[Devourer of Gods Mask]], [[Hive Mind Mask]], and [[Providence Mask]].
+*Resprited Holy Fire Bullet and [[Flash Round]].
+*Resprited [[Starcore]] and [[Teratoma]].
+*Resprited [[Stat Meter]].
+*Resprited [[Treasure Bag (The Hive Mind)]].
+*Resprited [[Aquatic Scourge (Lore)]], [[Astral Infection (Lore)]], [[Astrum Aureus (Lore)]], [[Astrum Deus (Lore)]], [[The Brain of Cthulhu (Lore)]], [[Brimstone Elemental (Lore)]], [[The Dragonfolly (Lore)|The Bumblebirbs (Lore)]], [[Calamitas (Lore)]], [[Calamitas Clone (Lore)]], [[The Corruption (Lore)]], [[Crabulon (Lore)]], [[The Crimson (Lore)]], [[Cryogen (Lore)]], [[The Desert Scourge (Lore)]], [[The Destroyer (Lore)]], [[The Devourer of Gods (Lore)]], [[Duke Fishron (Lore)]], [[The Eater of Worlds (Lore)]], [[The Eye of Cthulhu (Lore)]], [[Golem (Lore)]], [[The Hive Mind (Lore)]], [[Jungle Dragon, Yharon (Lore)]], [[King Slime (Lore)]], [[Leviathan and Anahita (Lore)|Leviathan and Siren (Lore)]], [[Lunatic Cultist (Lore)]], [[The Mechanical Bosses (Lore)]], [[Moon Lord (Lore)]], [[The Ocean (Lore)]], [[The Perforators and their Hive (Lore)]], [[The Plaguebringer Goliath (Lore)]], [[Plantera (Lore)]], [[Polterghast (Lore)]], [[The Profaned Guardians (Lore)]], [[Providence, the Profaned Goddess (Lore)]], [[Queen Bee (Lore)]], [[Ravager (Lore)]], [[The Red Moon (Lore)]], [[The Sentinels of the Devourer (Lore)]], [[Skeletron (Lore)]], [[Skeletron Prime (Lore)]], [[The Slime God (Lore)]], [[Sulphur Sea (Lore)]], [[The Twins (Lore)]], [[The Underworld (Lore)]], and [[Wall of Flesh (Lore)]].
+
+=== Additional Changes ===
+*Modified tooltips of [[Abyss Blade]], [[Amidias' Pendant]], [[Daemon's Flame]], [[Deathwind]], [[Depth Blade]], and [[Neptune's Bounty]], [[Rusted Jingle Bell]], and [[Sulphuric Poisoning]].
+*[[Abyss Torch]] now functions underwater and displays a hover text on the minimap.
+*[[Abyssal Amulet]] and [[Alluring Bait]] now count as rare fishing items. <!-- for supreme box -->
+*[[Abyssal Crate]] now contains 5-10 [[Sulphurous Sand]] at a 100% chance.
+*Abyssal Crate can now contain 5-10 [[Planty Mush]] and/or [[Tenebris]] at a 50% chance after [[Calamitas]] has been defeated.
+*[[Acid Round]], [[Enhanced Nano Round]], [[Frostspark Bullet]], [[Holy Fire Bullet]], and [[Hyperius Bullet]] projectiles now have full brightness.
+*Adjusted [[Aestheticus]]' rarity from {{rare|3}} to {{rare|21}}.
+*[[Ambrosial Ampoule]], [[Giant Pearl]], and both variants of [[Siren's Heart]] now increase Abyss light level by 1.
+*Decreased the sell price of [[Angelic Shotgun]], [[Divine Retribution]], and [[Handheld Tank]] from {{gc|28}} to {{gc|24}}.
+*[[Aquatic Emblem]], [[Arctic Diving Gear]], [[Jellyfish Necklace]], and [[Lumenous Amulet]] now only provide Abyss light level while underwater. <!-- due to this value being shared with Death Mode underground -->
+*Increased pickaxe power requirement of [[Astral Ore]] from 200% to 210%.
+*Calamity-added [[Banners]] can now attach to hammered platforms.
+*[[Bear's Eye]] is now sold regardless of [[Bandit]] name.
+*Adjusted the holdout offset for [[Blight Spewer]], [[Brimstone Flameblaster]], [[Chicken Cannon]], [[Claret Cannon]], [[Dragon's Breath]], [[Elemental Eruption]], [[The Empyrean]], [[Firestorm Cannon]], [[Havoc's Breath]], [[The Hive]], [[Meowthrower]], [[Mineral Mortar]], [[Overloaded Blaster]], [[Scorpio]], [[Spectralstorm Cannon]], [[Storm Surge]], and [[Terra Flameburster]].
+*[[Botanic Planter]] now emits light.
+*Increased sell price of [[Brimstone Fish]] from {{sc|5}} to {{sc|8}}.
+*[[Chaos Candle]] and [[Tranquility Candle]] now function while held.
+*[[Chaotic Fish]] now contain 5-10 [[Essence of Chaos|Essences of Chaos]].
+*Increased chance to catch Chaotic Fish from 8% to 14%.
+*[[Charred Lasher]] is no longer Hardmode-exclusive.
+*Decreased pickaxe power requirement of [[Cinderplate]] from 180% to 65%.
+*Increased chance to catch [[Coastal Demonfish]] from 8% to 15%.
+*Decreased sell price of [[Crag Bullhead]] from {{sc|8}} to {{sc|5}}.
+*Increased chance to catch Crag Bullhead from 8% to 15%.
+*Crag Bullhead is now the Bass substitute for the [[Brimstone Crag]] instead of the Brimstone Fish.
+*The following shop items can now be sold after destroying a [[Shadow Orb]] or [[Crimson Heart]], in addition to being sold after defeating [[Eater of Worlds]] or [[Brain of Cthulhu]]:
+**[[Band of Starpower]] or [[Panic Necklace]] from the [[Dryad]].
+**[[Crimson Rod]] or [[Vilethorn]] from the [[Merchant]].
+**[[Musket]] or [[The Undertaker]] from the [[Arms Dealer]].
+*Updated the [[Death]] item to reflect the [[#Death Mode|changes]] to [[Death Mode]].
+*[[Demon Trophy]] can no longer be used if it is already active.
+*Added "Termi", "Circuit-Jay", "Commmander Frostbite", "cytokat", "Cameron Fowlks", "Orudeon", "BumbleDoge", "John Ballard", "Naglfar", "Helixas", "Vetus Dea", "High Charity", "Devonte Plati", "Cerberus", "Brendan Kendall", "Victor Pittman", "KAT-G307", "Tombarry Expresserino", "Drip Veezy", "Glaid", "Apotheosis", "Bladesaber", "Devon Leigh", "Ruthoranium", "cocodezi_", "Mendzey", "GameRDheAsianSandwich", "Tobias", "Streakist .", "Eisaya A Cook", "Xenocrona", and "RKMoon" to the list of Patreon Donator names that the [[Drunk Princess]] mentions.
+*Increased the amount of Patreon Donator names the Drunk Princess mentions from 3 to 12.
+*Added afterimages to [[Duke's Decapitator]] axe, [[Luminous Striker]] javelin, [[Lunar Kunai]] dagger, and [[Sandslasher]] shuriken.
+*[[Dungeon Crate]] can now drop [[Phantoplasm]] after [[Moon Lord]] is defeated instead of [[Polterghast]].
+*[[Elemental in a Bottle]], [[Eye of the Storm]], [[Pearl of Enthrallment]], and [[Rose Stone]] elemental minions now have a faster animation. <!-- Also for HotE when upgraded -->
+*[[Elemental Quiver]]'s tooltip now mentions that it increases arrow speed and grants a chance to not consume arrows.
+*[[Exo Freeze]], [[Nightwither]], [[Silva Stun]], and [[War Cleave]] can now affect the player.
+*[[Gallant Pickaxe]] pickaxe power decreased from 250 to 225, knockback decreased from 6 to 5.5, and range bonus decreased from 5 to 4.
+*[[Gelpick]] can now turn while changing player directions. <!-- useTurn, as consistency with other pickaxes -->
+*Added tooltip to [[Golden Fishing Rod]], [[Invisibility]] buff, all [[Lunar Pickaxe]]s, and [[Picksaw]].
+*Added [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist] support for defeating the [[Great Sand Shark]].
+*[[Hallowed Crate]] can now drop [[Unholy Essence]] after Moon Lord is defeated instead of [[Providence, the Profaned Goddess]].
+*Hallowed Crate can now contain 1-3 [[Profaned Rage Potion]]s at a 20% chance in a [[Crimson]] world after Providence, the Profaned Goddess has been defeated.
+*Hallowed Crate can now contain 1-3 [[Holy Wrath Potion]]s at a 20% chance in a [[Corruption]] world after Providence, the Profaned Goddess has been defeated.
+*[[Hermit's Box of One Hundred Medicines]] can now be right clicked to toggle the heal effect.
+*Increased the rarity of [[Holy Fire Bullet]] from {{rare|10}} to {{rare|12}}.
+*Hyperius Bullet projectiles now alternate between red, yellow, green, turquoise, blue, and violet colors.
+*[[Iron Francisca]] and [[Lead Tomahawk]] projectile rotations are now based on their instantaneous velocity.
+*[[Jaws of Oblivion]] and [[Leviathan Teeth]] are now counted as daggers.
+*[[Living Wood]] and [[Living Wood Wall]] can now convert into [[Astral Monolith]] and [[Astral Monolith Wall]] upon converting into [[Astral Infection]]. Living Leaf are destroyed upon converting into Astral Infection.
+*Lore items now glow and float when dropped.
+*The [[Merchant]] now sells [[Ball O' Hurt]] in a Crimson world or [[The Rotted Fork]] in a Corruption world after destroying a Shadow Orb or Crimson Heart, or after defeating Eater of Worlds or Brain of Cthulhu.
+*[[The Oracle]] yoyo now lights up when thrown.
+*[[Planty Mush]] dropped from fishing now appears in stacks of 5-15.
+*[[Pots]] in the Abyss and Sulphurous Sea can now drop [[Triumph Potion]]s.
+*Decreased the rarity of [[Profaned Partisan]] from {{rare|13}} to {{rare|12}} and sell price from {{gc|28}} to {{gc|24}}.
+*Decreased the buy price of [[Profaned Shard]] from {{pc|10}} to {{pc|5}}.
+*Adjusted the buff tooltip of [[The Profaned Soul]] buff and allowed it to dynamically affect the status of all three guardians spawned by the [[Profaned Soul Artifact]].
+*Most on-hit effects now function in PvP:
+{{collapse top|List of affected attacks}}
+*[[Absolute Zero]] swing
+*[[Abyss Blade]] swing
+*[[Aegis Blade]] primary swing
+*[[Aestheticus]] projectile
+*[[Aftershock]] swing
+*[[Anarchy Blade]] swing
+*[[Ancient Crusher]] swing
+*[[Ancient Shiv]] swing
+*[[Animus]] swing
+*[[Aquatic Discharge]] swing
+*[[Archmage]] ice
+*[[Ark of the Ancients]] swing
+*[[Ark of the Cosmos]] swing
+*[[Ark of the Elements]] swing
+*[[Asgardian Aegis]] explosion and eruption
+*[[Astral armor]] star
+*[[Astral Blade]] swing
+*[[Astral Scythe]] swing
+*[[Ataraxia]] swing
+*[[Ataxia armor]] orb, flare, blaze, and geyser
+*[[Avalanche]] swing
+*[[Baleful Harvester]] swing
+*[[Ballistic Poison Bomb]] bomb and clouds
+*[[Bladecrest Oathsword]] swing
+*[[Blade of Enmity]] swing
+*[[Blast Barrel]] shrapnel
+*[[Blizzard Staff]] icicle
+*[[Bloody Edge]] swing
+*[[Bloody Rupture]] swing
+*[[Bone Arrow]] projectile
+*[[Brackish Flask]] flask, water, and explosion
+*[[Brimblade]] projectiles
+*[[Brimlash]] swing
+*[[Brimlash Buster]] swing
+*[[Brimstone Sword]] swing
+*[[Briny Baron]] swing
+*[[Burnt Sienna]] swing
+*[[Carnage]] swing
+*[[Catastrophe Claymore]] swing
+*[[Caustic Edge]] swing
+*[[Celestus]] main and split scythes
+*[[Coldheart Icicle]] swing
+*[[Comet Quasher]] swing
+*[[Corpus Avertor]] projectiles
+*[[Corrupted Crusher Blade]] swing
+*[[Crimson Crusher Blade]] swing
+*[[Crushsaw Crasher]] contact and axe
+*[[Crystal Piercer]] javelin
+*[[Cursed Dagger]] projectile
+*[[Darklight Greatsword]] swing
+*[[Deep Sea Dumbbell]] dumbbell and weights
+*[[Depth Blade]] swing
+*[[Desecrated Water]] bubble
+*[[Devastation]] swing
+*[[Devil's Devastation]] swing
+*[[Duke's Decapitator]] axe
+*[[Earth]] swing
+*[[Eclipse's Fall]] main javelin
+*[[Elemental Disk]] projectiles
+*[[Elemental Excalibur]] swing
+*[[Elemental Shiv]] swing
+*[[Elysian Aegis]] explosion and eruption
+*[[Empyrean Knives]] projectile
+*[[The Enforcer]] swing
+*[[Epidemic Shredder]] boomerang
+*[[Equanimity]] boomerang
+*[[Eradicator]] disk
+*[[Essence Flayer]] swing
+*[[Ethereal Extorter]] debuffs
+*[[Evil Smasher]] swing
+*[[Excelsus]] swing
+*[[Executioner's Blade]] projectile
+*[[Exoblade]] swing
+*[[Feralthorn Claymore]] swing
+*[[Flame Scythe]] projectile
+*[[Flameburst Shortsword]] swing
+*[[Flarefrost Blade]] swing
+*[[Forbidden Oathblade]] swing
+*[[Frost Staff]] projectile
+*[[Frostbite Blaster]] icicle
+*[[Frostbrand]] swing and projectile
+*[[Frostcrush Valari]] boomerang and icicles
+*[[Frost Daggerfish]] projectile
+*[[Frosty Flare]] projectile
+*[[Fulguration Halberd]] swing
+*[[Gael's Greatsword]] swing
+*[[Galactus Blade]] swing
+*[[Galaxia]] swing
+*[[Galaxy Smasher]] hammer
+*[[Gel Dart]] projectile
+*[[Gelitic Blade]] swing
+*[[God Slayer armor]] dart, blaze, orb, and phantom
+*[[Golden Gun]] projectile
+*[[Grand Guardian]] swing
+*[[Greentide]] swing
+*[[Hardened Honeycomb]] projectile
+*[[Heavenfallen Stardisk]] disk and energy
+*[[Hellborn]] contact
+*[[Hellfire Flamberge]] swing
+*[[Hellkite]] swing
+*[[Hell's Sun]] ball and sun orbs
+*[[Helstorm]] contact
+*[[Holy Collider]] swing
+*[[Ice Blade]] swing and projectile
+*[[Ice Boomerang]] projectile
+*[[Ice Bow]] arrow
+*[[Ice Sickle]] swing and projectile
+*[[Ice Star]] projectile
+*[[Ichor Spear]] projectile
+*[[Illustrious Knives]] projectile
+*[[Infernal Kris]] dagger, cinder, and explosion
+*[[Ink Bomb]] bomb and clouds
+*[[Jaws of Oblivion]] tooth and shockwave
+*[[Kelvin Catalyst]] boomerang and star
+*[[The Last Mourning]] swing
+*[[Leeching Dagger]] swing
+*[[Leviathan Ambergris]] water
+*[[Leviathan Teeth]] tooth
+*[[Lifehunt Scythe]] swing
+*[[Lionfish]] projectile
+*[[Lucrecia]] swing
+*[[Luminous Striker]] javelin
+*[[Lunic Eye]] projectile
+*[[Malachite]] dagger
+*[[Mangrove Chakram]] projectile
+*[[Mantis Claws]] swing
+*[[Mariana]] swing
+*[[Marked Magnum]] bullet
+*[[Meteor Fist]] projectile
+*[[Molten Amputator]] scythe
+*[[Neptune's Bounty]] swing
+*[[Night's Stabber]] swing
+*[[North Pole]] spear, projectile, and snowflake
+*[[Old Lord Oathsword]] swing
+*[[Omega Blue armor]] tentacle
+*[[Omniblade]] swing
+*[[Phantasmal Ruin]] javelin
+*[[Phoenix Blade]] swing
+*[[Plague Keeper]] swing
+*[[Plagued Fuel Pack]] cloud
+*[[Plaguenade]] grenade and bee
+*[[Profaned Partisan]] main and secondary spears
+*[[Quasar]] daggers and explosion
+*[[Radiant Star]] daggers and explosion
+*[[The Reaper]] projectile
+*[[Reaver armor]] blast
+*[[Red Sun]] swing
+*[[Roxcalibur]] swing
+*[[Scarlet Devil]] javelin
+*[[Scourge of the Desert]] javelin
+*[[Scourge of the Seas]] cloud and javelin
+*[[Shattered Sun]] daggers and explosion
+*[[Shinobi Blade]] dagger
+*[[Infested Clawmerang|Shroomerang]] projectile
+*[[Sky Stabber]] ball
+*[[Snowball]] projectile
+*[[Snowball Cannon]] projectile
+*[[Snowball Launcher]] projectile
+*[[Solstice Claymore]] swing
+*[[Soul Edge]] swing
+*[[Soul Harvester]] swing
+*[[Spear of Destiny]] projectile
+*[[Spear of Paleolith]] projectile and shard
+*[[Spore Knife]] swing
+*[[Staff of the Frost Hydra]] blast
+*[[Star Cannon EX]] astral star
+*[[Stellar Contempt]] hammer
+*[[Stellar Striker]] swing
+*[[Sticky Spiky Ball]] projectile
+*[[Submarine Shocker]] swing
+*[[Swordsplosion]] swing
+*[[Sylvan Slasher]] slash
+*[[The Syringe]] projectile, glass, and cinder
+*[[Temporal Floe Sword]] swing
+*[[Terra-cotta]] swing
+*[[Terra Edge]] swing
+*[[Terratomere]] swing
+*[[Titan Arm]] swing
+*[[Totality Breakers]] tar and fire
+*[[Triactis' True Paladinian Mage-Hammer of Might]] projectile
+*[[True Ark of the Ancients]] swing
+*[[True Bloody Edge]] swing
+*[[True Caustic Edge]] swing
+*[[True Forbidden Oathblade]] swing
+*[[True Paladin's Hammer]] projectile
+*[[Turbulance]] javelin
+*[[Tyrant Yharim's Ultisword]] swing
+*[[Umbraphile armor]] explosion
+*[[Urchin Stinger]] projectile
+*[[Utensil Poker]] projectiles
+*[[Valediction]] projectile
+*[[Vanquisher Arrow]] split arrow
+*[[Virulence]] swing
+*[[Waraxe]] swing
+*[[Warblade]] swing
+*[[Web Ball]] projectile
+*[[Xeroc armor]] blast, bubble, fire, orb, and star
+*[[Xeroc Greatsword]] swing
+*[[Xeroc Pitchfork]] projectile
+*[[Yharim's Gift]] dust and explosion
+{{collapse bottom}}
+*[[Radiating Crystal]]'s tooltip now mentions that it increases light in the Abyss.
+*Split Rage and Adrenaline Meter Positions [[configuration options]] into X and Y directions for each meter. <!-- for it to work in 0.11 TML -->
+*Increased the rarity of [[Reaper Tooth]] from {{rare|10}} to {{rare|13}} and sell price from {{gc|1}} {{sc|20}} to {{gc|1}} {{sc|40}}.
+*Decreased the rarity of [[Sand Sharknado Staff]] from {{rare|8}} to {{rare|7}} and adjusted the sell price accordingly.
+*[[Sea's Searing]] and [[Terra Disk]] now count as nature weapons. <!-- Evergreen Gin boost -->
+*[[Shattered Sun]] now counts as a fire weapon. <!-- Cinnamon Roll and Fireball boosts -->
+*Decreased chance to catch [[Spadefish]] in Hardmode from 2.5% to 1%.
+*Increased [[Starfall]]'s drop rate from {{dv|20%|25%}} to {{dv|25%|33.33%}}.
+*[[Starter Bag]] now contains [[Wulfrum Controller]] and [[Throwing Brick]] instead of [[Slime Staff]] and [[Wulfrum Knife]].
+*Added ammo and Spy item consumption chance to the [[Stat Meter]].
+*[[Sunken Crate]] now contains 1-3 [[Sea Minnow (item)|Sea Minnow]]s at a 20% chance.
+*[[Terra Disk]] now counts as boomerang.
+*Added the following [[Town NPC]] names:
+**"Drifter" for the Arms Dealer.
+**"Rythmi" for the Dryad.
+**"StreakistYT" for the [[Guide]].
+**"Daawn" and "Lilly" for the [[Mechanic]].
+**"Tyler Van Hook" for the [[Pirate]].
+**"Angel" for the [[Steampunker]].
+**"Inorim, son of Ivukey" for the [[Wizard]].
+*[[Turbulance]] now counts as javelin.
+*Turbulance wind slashes now have afterimages.
+*Decreased pickaxe power requirement of [[Uelibloom Ore]] from 250% to 225%.
+*Modified the following progress messages during world creation:
+**"Building a Tyrant's temple" to "Building the jungle temple (Calamity)"
+**"Placing a Lihzahrd altar very carefully" to "Placing a Lihzahrd altar (Calamity)"
+*Increased the rarity of [[Xeroc Cuisses]], [[Xeroc Mask]], and [[Xeroc Plate Mail]] from {{rare|9}} to {{rare|10}}.
+*[[Yharim's Crystal]] drop rate is no longer affected by [[Defiled Rune]].
+
+== Fixes ==
+=== Gameplay ===
+*Fixed [[Abyssal Mirror]] and [[Eclipse Mirror]] dodges occuring from hostile enemies or projectiles that deal 0 damage. <!-- ie. Astrum Deus Probe, no exhaustive list -->
+*Fixed various player attacks not benefitting from increased all-class damage:
+{{collapse top|List of affected attacks}}
+*[[Absolute Zero]] explosion
+*[[Aegis Blade]] blast
+*[[Aerospec armor]] valkyrie
+*[[Aftershock]] rock
+*[[The Amalgam]] Fungal Clump minion
+*[[Anarchy Blade]] explosion
+*[[Ancient Crusher]] spike
+*[[Ancient Ice Chunk]] minion
+*[[Ancient Shiv]] cloud
+*[[Aquatic Discharge]] spark
+*[[Asgard's Valor]] dash
+*[[Asgardian Aegis]] dash
+*[[Ataraxia]] homing missile
+*[[Ataxia armor]] chaos spirit
+*[[Auric Tesla armor]] Bloodflare mine, Silva crystal, and Mechworm
+*[[Avalanche]] ice bomb
+*[[Baleful Harvester]] pumpkin
+*[[Black Hawk Remote]] minion
+*[[Blood Clot Staff]] minion
+*[[Bloodflare armor]] mine
+*[[Bloody Rupture]] blood
+*[[Brimstone Sword]] explosion
+*[[Briny Baron]] tornado
+*[[Calamari's Lament]] minion
+*[[Carnage]] blood
+*[[Comet Quasher]] meteors
+*[[Corroslime Staff]] minion
+*[[Cosmic Immaterializer]] minion
+*[[Crimslime Staff]] minion
+*[[Cryogen (Lore)|Cryogen's lore item]] dash
+*[[Cryogenic Staff]] sentry
+*[[Daedalus armor]] crystal
+*[[Dank Staff]] minion
+*[[Deepsea Staff]] minion
+*[[Devil's Devastation]] explosion
+*[[Dreadmine Staff]] sentry
+*[[Earth]] RGB meteor
+*[[Elemental Axe]] minion
+*[[Elemental in a Bottle]] minion
+*[[Elysian Aegis]] dash
+*[[Energy Staff]] sentry
+*[[The Enforcer]] flame
+*[[Entropy's Vigil]] minions
+*[[Ethereal Subjugator]] minion
+*[[Evil Smasher]] spike
+*[[Exoblade]] explosion and comet
+*[[Eye of the Storm]] minion
+*[[Fabsol]] mount dash
+*[[Feralthorn Claymore]] spike
+*[[Flameburst Shortsword]] explosion
+*[[Forbidden Oathblade]] explosion
+*[[Fungal Clump]] minion
+*[[Gladiator's Locket]] minions
+*[[God Slayer armor]] mechworm
+*[[Godly Soul Artifact]] minions
+*[[Grand Guardian]] explosion and bolt
+*[[Greentide]] tooth
+*[[Heart of the Elements]] minions
+*[[Hellkite]] explosion
+*[[Herring Staff]] minion
+*[[Hive Pod]] minion
+*[[Holy Collider]] flame
+*[[Jaws of Oblivion]] shockwave
+*[[The Last Mourning]] pumpkin and skull
+*[[Luxor's Gift]] minion
+*[[Magical Conch]] minion
+*[[Mariana]] bubble
+*[[Mollusk armor]] shellfish
+*[[Night's Stabber]] energy
+*[[Old Lord Oathsword]] explosion
+*[[Omega Blue armor]] tentacle
+*[[Onyx Excavator Key]] mount dash
+*[[Pearl of Enthrallment]] minion
+*[[Phoenix Blade]] explosion
+*[[Profaned Soul Artifact]] minions
+*[[Rare Elemental in a Bottle]] minion
+*[[Reaver armor]] orb
+*[[Resurrection Butterfly]] minions
+*[[Rose Stone]] minion
+*[[Sand Sharknado Staff]] minion
+*[[Seabound Staff]] minion
+*[[Shellfish Staff]] minion
+*[[Silva armor]] crystal
+*[[Spikecrag Staff]] sentry
+*[[Spore Knife]] spore
+*[[Statigel armor]] slimes
+*[[Stellar Striker]] flare
+*[[Submarine Shocker]] spark
+*[[Sun God Staff]] minion
+*[[Sun Spirit Staff]] minion
+*[[Terra-cotta]] explosion
+*[[True Forbidden Oathblade]] explosion
+*[[Tundra Leash]] mount dash
+*[[Ultimus Cleaver]] spark
+*[[Victide armor]] urchin
+*[[Yharon's Kindle Staff]] minion
+{{collapse bottom}}
+*Fixed [[Angelic Shotgun]] laser not benefitting from increased ranged damage.
+*Fixed [[Aquatic Aberration]], Main [[Profaned Guardian]], and [[Signus, Envoy of the Devourer]] performing a downwards charge improperly.
+*Fixed [[Aquatic Scourge]] despawning when it moves out of bounds.
+*Fixed Aquatic Scourge and [[The Destroyer]] not despawning the body segments properly.
+*Fixed [[Calamitas]] resetting the [[Adrenaline Meter]] while transitioning into the second phase.
+*Fixed custom player [[immunity frames]] not granting extra immunity frames when the player has immunity frame boosting equipments such as [[Cross Necklace]]. <!-- Affects mostly PML bosses -->
+*Fixed [[The Devourer of Gods]] spawning in the second phase if the player dies during the phase transition.
+*Fixed [[Devil Fish]] being unable to be targeted by minions and sentries.
+*Fixed [[Dragon Pow]] sparks, petals, and waterfalls not benefitting from increased melee damage.
+*Fixed [[Dreadmine Staff]], [[Hive Pod]], and [[Spikecrag Staff]] sentries being unable to target the selected minions.
+*Fixed [[Duke's Decapitator]] projectile hitbox being larger than intended.
+*Fixed [[Elemental Lance]] thrusting too far from the player.
+*Fixed flasks not affecting Spy attacks with melee hitboxes such as [[Crushsaw Crasher]].
+*Fixed [[Flask of Party]] not affecting any Spy attacks.
+*Fixed [[Hell's Sun]] ball and [[Turbulance]] slash projectile hitboxes being offset.
+*Fixed Jaws of Oblivion shockwave not benefitting from increased Spy damage.
+*Fixed [[The Oracle]] orb not benefitting from increased melee damage.
+*Fixed [[Plague Keeper]] bees not having a melee damage type.
+*Fixed [[Spear of Destiny]] having a significantly lower drop rate than intended. <!-- Around 1/4000 or so -->
+*Fixed [[Town NPC]] projectiles and traps being able to activate on-hit effects from player equipment.
+
+=== Visual ===
+*Added punctuation to [[Bandit]]'s quote during a party.
+*Fixed a spelling error in [[Blast Barrel]]'s tooltip.
+*Updated [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist]'s instruction to summon [[Astrum Aureus]]. <!-- Now only summoned in the Astral -->
+*Fixed inconsistency with [[Cadance Potion]]'s tooltip. <!-- Cadence/Cadance moment -->
+*Fixed [[Godly Soul Artifact]]'s tooltip to reflect its current function. <!-- Summons 2 sons, not just give +8 slots -->
+*Fixed [[Helium Flash]] hold offset.
+*Fixed [[Monkey Dart]], [[Enchanted Axe]], [[Infernal Kris]], and [[Shinobi Blade]] projectile afterimages.
+*Fixed [[Staff of the Mechworm]] minion segments desyncing or disconnecting. <!-- Not entirely but good enough, a more complete fix is in 1.5.1.001-->
+*Fixed [[Statigel Mask]]'s tooltip to reflect its actual item consumption chance reduction. <!-- 33% to 34% -->
+*Fixed [[Stream Gouge]]'s tooltip to reflect the current projectile it fires. <!-- Changed from beam to spear clone-->
+*Fixed [[Sylvan Slasher]]'s projectile rotating improperly relative to the player.
+*Fixed [[Terratomere]]'s tooltip to reflect its current function. <!-- Only heals on true melee hits -->
+*Fixed [[Xeroc armor]]'s set bonus tooltip to reflect its current function. <!-- Only Spy projectiles have special effects -->
+*Fixed [[Young Siren]] pet not appearing properly.
+
+=== Miscellaneous ===
+*Fixed [[Astral Chest]] not loading properly.
+*Fixed [[Iron Heart]], [[Revengeance]], and [[Starter Bag]] replacing or being replaced by starting items spawned by other mods.
+*Fixed [[Jungle Temple]] causing incompatibility with mods and tools that increase world sizes above large.
+*Fixed an error with tiles generating out of bounds.
+*Fixed an error with player damage reduction if the player has negative damage reduction. <!-- somehow -->
+*Fixed an error which occurs when using a time stop function from other mods. <!-- Notably Fargo Soul Mod's Stardust Enchantment -->
+*Fixed mod configuration integration for the 0.11 update of tModLoader.
+
+== Removals ==
+*Removed [[Healer Guardian (buff)|Healer Guardian]] and [[Offensive Guardian (buff)|Offensive Guardian]] [[buffs]].
+*Removed Boss Health Bar and Boss Health Bar Small Text hotkeys. <!-- Turned into configs -->
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

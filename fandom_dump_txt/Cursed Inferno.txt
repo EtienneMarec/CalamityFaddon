@@ -1,0 +1,37 @@
+{{dablink|For the vanilla debuff page see [[tgc:Cursed Inferno|Cursed Inferno]]}}
+
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-6 life per second<br/>Target receives 20% more damage (if player)<br/>-6 life per second<br/>-20% damage reduction (if enemy)
+| tooltip = Losing life<br/>All damage taken increased by 20%
+}}
+
+'''Cursed Inferno''' is a vanilla [[debuff]] that deals damage over time to anything it afflicts. The Calamity Mod further augments this by causing those afflicted to have their DR ([[Damage Reduction]]) stat multiplicatively reduced by 20%. This effect stacks with most other damage reduction reducing effects. Players will take 20% extra damage instead of having a DR penalty.
+
+== Causes ==
+=== From Calamity Items ===
+{{item debuffs
+|{{item|mode=table|Flask of Cursed Flames}}|3-6 seconds (Spy attacks)|100%
+}}
+
+=== From Calamity NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|-
+| {{item|mode=table|Eater of Worlds Head}}||{{revengeance|3, 5, or 8 seconds}} (Cursed flames)||{{revengeance|100%}}
+|}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

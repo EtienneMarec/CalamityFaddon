@@ -1,0 +1,31 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 400
+| velocity = 30
+| use = 20
+| knockback = 10
+| tooltip = "Or is it a ponytail?"
+| rare = 14
+| sell = {{value|2|0|0}}
+| stack = 1
+| auto = yes
+| proj = Plumage Pow Flail.png
+| projcaption = Plumage Pow
+| element1 = Poison
+| element2 = Unholy
+| element3 = Smash
+| element4 = Electricity
+}}
+
+The '''Plumage Pow''' is a Godseeker-Mode [[flail]]. It throws out a severed Yharim head that fires circles of auric bolts at enemies.
+
+{{modifier|meleealt}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Flails]]

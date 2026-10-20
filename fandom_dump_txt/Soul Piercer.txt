@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 115
+| mana = 19
+| tooltip = Casts a powerful ray that summons extra rays on enemy hits
+| velocity = 6
+| knockback = 8
+| rare = 14
+| sell = {{value|0|36}}
+| use = 25
+| stack = 1
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Cold
+| element3 = Stab
+}}
+
+The '''Soul Piercer''' is a craftable Godseeker Mode [[wand]]. When used, it fires a long-range beam that, upon hitting any [[enemy]], summons 3 additional short-range beams from nearby which shoot through the same enemy. Both beam types travel instantly, pierce infinitely, cannot pass through tiles, and partially ignore enemy immunity frames. Because of their i-frame ignoring properties and the fact that short lasers are summoned every time the main laser lands a hit, an incredibly large amount of lasers may be summoned per shot depending on the size or quantity of enemies hit.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+
+== Notes ==
+*When attacking enemies on the ground, the additional lasers may spawn within the ground and instantly dissipate, reducing the weapon's effectiveness.
+*Due to the large amounts of beams summoned on enemy hits, this weapon can cause large lag spikes.
+
+{{Cosmilite}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

@@ -1,0 +1,49 @@
+{{Item infobox
+|name=Unending Void
+|tooltip={{color|Its eerie persistence gnawed at my mind. It did not just threaten me. It threatened everyone. Everything.|#2d0f33}}
+Fires a ring of dark energy orbs to home in on nearby enemies
+Orbs tear the fabrics of spacetime on enemy hits
+|damage=648
+|damagetype=Magic
+|type=Weapon
+|mana=25
+|critical=4%
+|use=40
+|velocity=35
+|rare=16
+|hardmode = yes
+|postml = yes
+|epilogue= yes
+|sell={{value|0|40}}
+|proj=Dark Energy Orb.png
+|proj2=Dark Energy Rip.gif
+|sound=Item_84.wav
+|sound2=CeaselessVoidDeathBuild.wav
+|soundtext=Use
+|sound2text=Supermassive Black Hole Buildup
+|sound3=CeaselessVoidDeath.wav
+|sound3text=Supermassive Black Hole
+|proj3=Supermassive Black Hole.png
+|projcaption=Dark Energy Orb
+|proj2caption=Spacetime Rip
+|proj3caption=Supermassive Black Hole
+|element1 = Dark
+}}
+
+The '''Unending Void''' is a craftable Epilogue [[spell tome]] that is the direct upgrade to the [[Event Horizon]] and the final upgrade of the [[Relic of Ruin]]. It fires a ring of dark energy orbs around the player that home in on nearby enemies. If no enemies are nearby, the dark energy orbs will drift off. Upon contact with enemies, they transform into lingering black holes with 75% damage and infinite piercing, rapidly dealing damage while stationary before dissipating after 2.5 seconds. Every time an orb or black hole hits an enemy, it will increase charge by 1. With 150 charge, the player can use the weapon's secondary fire (right-click) to build a supermassive black hole. The black hole summons dark energy towards it, dealing 200% damage to enemies hit by the orbs. After the black hole builds up, it will explode, dealing 1000% damage to enemies within the explosion and summon dark energy orbs that home in towards enemies, dealing 300% of the weapon's damage.
+
+Its best [[Modifiers|modifier]] is '''Mythical'''.
+
+==Crafting==
+===Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = melee
+| damage = 108
+| knockback = 4.25
+| stack = 1
+| auto = yes
+| use = 14
+| velocity = 14
+| tooltip = Striking an enemy with the blade causes an earthen eruption<br/>Right click to fire an aegis bolt
+| hardmode = yes
+| rare = 8
+| sell = {{value|0|12}}
+| proj = Aegis Bolt.png
+| projcaption = Aegis Bolt
+| element1 = Fire
+| element2 = Holy
+| element3 = Slash
+}}
+|{{item drops infobox
+| [[Golem]] | 1 | 10%
+}}
+}}
+
+[[File:Aegis Blade (demo).gif|frame|The Aegis Blade's left and right-click attacks.]]
+
+The '''Aegis Blade''' is a [[Hardmode]] [[broadsword]] that drops from [[Golem]]. When used with its primary fire (left-click), it will swing and deal contact damage in a regular manner. Upon striking an enemy, a medium-sized stationary flame explosion is produced, capable of damaging the target 6 more times, each dealing 5% less damage, before dissipating. When used with its secondary fire (right-click), the broadsword itself will not deal damage but will instead shoot a fireball that deals 85% of the weapon's damage. The fireball explodes into 3 flaming sparks on contact with a tile or enemy, dealing 75% of the fireball's damage. The sparks do not pierce and can linger on the ground for 2 seconds before disappearing. If a spark hits an enemy, it spawns a small flame explosion that deals 75% of the spark's damage.
+
+{{modifier|melee}}
+
+== Notes ==
+*Only the left-click attack receives [[true melee]] boosts.
+
+== Trivia ==
+*[[wikipedia:Aegis|Aegis]] is the name of Athena's shield from Greek mythology.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:庇护之刃]]

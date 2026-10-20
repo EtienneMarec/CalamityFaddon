@@ -1,0 +1,35 @@
+{{dablink|For the vanilla debuff page see [[tgc:Electrified|Electrified]]}}
+
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-4 health per second<br/>-16 life per second when moving left/right
+| tooltip = You cannot move
+}}
+
+'''Electrified''' is a vanilla debuff that deals damage over time to anything it afflicts. Damage over time increases when the afflicted player or enemy is moving.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From Calamity NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+| {{item|mode=table|Lunatic Cultist}}|| 2 seconds (Lightning) ||100%
+|-
+|}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

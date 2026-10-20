@@ -1,0 +1,10 @@
+<div class="nomobile">{{Ambox
+| image = [[Image:Disambig.png|30px]]
+| type = ''{{l10n|disambig|text}}''
+| border = green
+}}<br/></div><!--
+--><div class="mobileonly" style="text-align:center">[[Image:Disambig.png|30px]] ''{{l10n|disambig|text}}''<br/></div><!--
+--><includeonly>[[Category:Disambiguations]]</includeonly><noinclude>
+{{i18n-ready}}{{doc}}
+
+[[Category:Notice templates|{{PAGENAME}}]]</noinclude>

@@ -1,0 +1,41 @@
+{{Addon|Calamity: Community Remix}}
+
+{{item infobox
+| type = Potion
+| use = 17
+| stack = 9999
+| tooltip = These fine crystals feel very powerful
+| consumable = yes
+| rare = 3
+| buff = Sunken Power | bufflink = no
+| duration = 2 minutes
+| bufftip = You feel euphoric and ready for anything
+| debuff = Sunken Withdrawal | debufflink = no
+| debuffduration = 1 hour
+| debufftip = You feel like garbage
+| sell = {{value|0|50|0|0}}
+}}
+
+The '''Ashes of the Sunken Sea''' are [[Hardmode]] buff potions dropped by enemies from the [[Sunken Sea]]. It grants the user the '''Sunken Power''' [[buff]] when consumed, granting the following effects:
+*+20% movement speed
+*+10% damage
+*-50% crit chance
+*-20 defense
+
+The Sunken Power buff also applies a blur effect onto the screen when being used.
+When the Sunken Power buff runs out of time, the '''Sunken Withdrawal''' [[debuff]] is applied onto the player for 2 hours. It grants the following effects:
+*+10 defense
+*-30% movement speed
+*-20% damage
+*-30% crit chance
+*-50% mining speed
+
+Sunken Withdrawal can be cured using more Ashes- however, doing so will replenish the debuff to it's full duration once the Sunken Power buff expires. As a result, it is ill advised to use it outside of combat situations, and it must be micromanaged to avoid the debuff during them.
+
+== Trivia ==
+
+* This item is based off of [[wikipedia:Methamphetamine|Meth]] from [[wikipedia:Breaking Bad|Breaking Bad]]
+{{Master Template Consumables
+| show-main = yes
+| show-buff = yes
+}}

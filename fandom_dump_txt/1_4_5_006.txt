@@ -1,0 +1,222 @@
+{{Patch infobox
+| image = Difficulty Indicator (1.4.5.006).gif
+| patchname = Prelude: Draedon Update
+| pair = 1.4.5.003 (music)
+| release = 11/15/2020
+}}
+The '''1.4.5.006''' (or '''1.4.5.6''') update is the first of two prelude versions to the Draedon Update. This update rebalanced most of the Draedon's Arsenal weapons as well as reworked the [[Adrenaline Meter]].
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+*Added a [[Difficulty Indicator|UI indicator]] for what world difficulty the player is in.
+*Added [[Heavy Bleeding]].
+**Added a custom [[Status messages#Death Messages|death message]] for when the player dies to Heavy Bleeding.
+
+== Changes ==
+=== Bosses ===
+==== [[Aquatic Scourge]] ====
+*Now takes 75% damage from [[Hydraulic Volt Crasher]]'s stream projectiles.
+
+==== [[Ceaseless Void]] ====
+*Dark Energies now resist all piercing attacks.
+
+==== [[Cryogen]] ====
+*Ice Bomb and Ice Blast projectiles are now more visible during the day.
+
+==== [[The Destroyer]] ====
+*Slightly decreased laser velocity in [[Revengeance Mode]].
+*Now takes 30% damage from Hydraulic Volt Crasher's stream projectiles.
+*No longer amplifies its dynamic defense during the day.
+
+==== [[The Old Duke]] ====
+*Toned down aggression during the [[Boss Rush]].
+
+==== [[Providence, the Profaned Goddess]] ====
+*Shader darkness effect now acts as if it's at max distance during all attacks while any Profaned Guardian is alive.
+
+==== [[Skeletron]] ====
+*Head is now immune to all debuffs.
+
+==== [[Storm Weaver]] ====
+*Phase 1 no longer deletes infinitely piercing projectiles.
+*Now takes 40% damage from [[Wave Pounder]]'s projectiles during phase 2.
+*Phase 2 lightning now always comes from the direction it is charging from.
+*Now has increased player tracking while charging.
+
+==== [[Supreme Calamitas]] ====
+*[[Sepulcher]] no longer deletes infinitely piercing projectiles.
+*Decreased how many total projectiles Supreme Catastrophe can fire at once on all world difficulties. 
+*Adjusted how projectiles spawn during Bullet Hell 5 to make the phase less dependent on RNG.
+
+==== Enemies ====
+*[[Water Leech]]es now inflict Heavy Bleeding.
+
+=== Balance and Reworks ===
+*Several changes have been made to how the [[Adrenaline Meter]] functions:
+**The [[Adrenaline Mode]] buff now increases the player's damage by 100% (200% in total) instead of 50% (150% in total).
+***Using Adrenaline and [[Rage Mode]]s simultaneously now increases the player's damage by 280% (310% with [[Draedon's Heart]] or [[Heart of Darkness]] equipped) instead of 200% (230% with Draedon's Heart or Heart of Darkness equipped).
+**Adrenaline now takes 30 seconds to charge at all times.
+***The only exception to this rule is the Supreme Calamitas fight, which requires Adrenaline to take 45 seconds to charge.
+**The three Adrenaline upgrades ([[Ectoheart]], [[Electrolyte Gel Pack]], and [[Starlight Fuel Cell]]) now each boost Adrenaline damage by 15% and damage reduction when fully charged by 5% respectively and no longer influence how long it takes to charge Adrenaline.
+**Adrenaline now continues charging while waiting between bosses during the Boss Rush.
+*Decreased severity of boss rush [[Immunity frames]] curse from 5 seconds to 3.
+*The following melee weapons have received autoswing:
+**[[Brimlance]], [[Earthen Pike]], [[Fulguration Halberd]], [[Goldplume Spear]], [[Hellion Flower Spear]], [[Marnite Spear]], [[Sausage Maker]], [[Starnight Lance]], [[Urchin Spear]], and [[Yateveo Bloom]].
+*Increase the sword or spear size of [[Ancient Crusher]], Earthen Pike, Fulguration Halberd, [[Gauss Dagger]], [[Majestic Guard]], and [[Ultimus Cleaver]] by 50%.
+*Buffed [[Aegis Blade]], explosions' damage decreases by 5% after each hit, instead of 10%.
+*Nerfed [[Arterial Assault]]'s damage from 232 to 200.
+*Nerfed [[Asgardian Aegis]]' dash length from 32 blocks to 27.
+*Buffed [[Astral Blade]]'s damage from 95 to 110.
+*Buffed [[Astral Pike]]'s astral star projectile damage from 20% base damage to 40%, and they can now home in on enemies.
+*Buffed [[Avalanche]]'s ice shard projectile damage from 30 damage to 50% base damage.
+*Buffed [[Coin of Deceit]], now additionally makes stealth strikes only require the Stealth Meter to be 75% full.
+*Buffed [[Core of the Blood God]], now additionally increases how much HP the player receives from Healing Potions by 15% (Inherited from the [[Blood Pact]]).
+*Nerfed [[Cursed Dart]]'s lingering flame projectile base damage by 50%.
+*Buffed Earthen Pike's velocity from 6 to 8.
+*Buffed [[Elemental Quiver]]'s ranged damage boost from 10% to 15%.
+*Buffed [[Frequency Manipulator]]'s damage from 67 to 80 and charge-up duration is halved.
+*Buffed Fulguration Halberd's velocity from 6 to 8.
+*Buffed [[Galvanizing Glaive]]'s damage from 84 to 100 and hit cooldown from 8 to 6.
+*Rebalanced [[Gauss Pistol]], nerfed damage from 130 to 110. However, the green blast projectile now stays still for 50% less time.
+*Rebalanced [[Gauss Rifle]], nerfed damage from 170 to 150, its use time from 28 to 32, hit cooldown from 8 to 12, and explosion projectile now pierces infinitely but can only last for 15 frames (0.25 seconds).
+*Nerfed [[Gilded Proboscis]]' chance to heal from 100% to 50%.
+*Buffed [[God Slayer Cooldown]], player life regeneration is now decreased by 50% instead of capped at 0.
+*Buffed [[God's Bellows]]' velocity from 7.5 to 9 and flame lifespan from 1.5 seconds to 1.67. This effectively increases its range from 42.1875 tiles to 56.25.
+*Buffed [[Goldplume Spear]]'s projectile damage from 20% base damage to 40%.
+*Buffed [[Grand Guardian]], explosions' damage now decreases by 10% after each hit, instead of 20%.
+*Rebalanced Hydraulic Volt Crasher, nerfed damage from 70 to 65, and increased stream projectile damage from 35% base damage to 80%. Now always requires [[charge]] to be used.
+*Nerfed [[Insidious Impaler]]'s damage from 390 to 350.
+*[[Laudanum]] no longer grants immunity to the [[Armor Crunch]] and [[War Cleave]] debuffs, and will now instead grant the player +15 defense when inflicted with Armor Crunch, and 10% increased damage reduction while inflicted with War Cleave.
+*Reverted Luxor's Gift nerfs from [[1.4.5.004]]:
+**Buffed melee Red Orb damage from 40% base damage to 60%.
+**Buffed ranged Blue Lightning Bolt damage from 27.5% base damage to 40%.
+**Buffed orange Magic Pendant damage from 52.5% base damage to 80%.
+**Buffed purple Scorpion damage from 35% base damage to 50%.
+*Rebalanced [[Matter Modulator]], increased projectile lifespan from 6 seconds to 8. Unstable matter can now deal damage without bouncing off any tiles, allowing it to infinitely pierce but dealing 33% damage.
+*Buffed [[Mourningstar]]'s hit cooldown from 10 to 4. Explosions now use local immunity frames. The flail itself now has 1 extra update, making it twice as fast.
+*Buffed [[Onyxia]], onyx blasts now travel much further.
+*Rebalanced [[Plasma Grenade]], buffed damage from 8572 to 17,800, increased use time from 22 to 27 and decreased velocity from 19 to 14.
+*Buffed [[Pole Warper]]'s damage from 700 to 810 and hit cooldown from 24 to 12.
+*Buffed [[Pulse Dragon]], projectile now has a velocity multiplier of 2.
+*Buffed [[Pulse Rifle]]'s damage from 6560 to 10,780 and decreased charge per use from 0.3 to 0.24.
+*Adjusted [[Samurai Badge]], no longer grants an additional +20% static true melee damage and instead grants a scaling 0-30% boost similar to its other effects.
+*Buffed [[Scorpio]]'s secondary fire projectile damage from 115% base damage to 125%.
+*Rebalanced [[Shadowdrop Staff]], decreased how many projectiles are fired per-use from 20 to 6, and reduced raining projectile spread by 75%.
+*Buffed [[Soul Piercer]], split projectiles are now more accurate and can consistently hit moving targets.
+*Buffed [[Snake Eyes]]' damage from 40 to 55 and slightly increased how far away the minion can go from the player while summoned.
+*Buffed [[Statis' Void Sash]]'s dash length increased from 29 blocks to 34.
+*Rebalanced [[Taser]], nerfed damage from 28 to 22, and slightly increased the taser projectile velocity.
+*Buffed [[Tesla Cannon]]'s damage from 10,000 to 16,200, and increased split beam damage and knockback from 50% base damage to 60%.
+*Nerfed [[Tesla Potion]], decreased how long the lightning aura applies [[Electrified]] from 5 seconds to 3.
+*Nerfed [[Tracking Disk]]'s laser projectile damage from 40% base damage to 25%.
+*Nerfed [[True Caustic Edge]], caustic beam projectile no longer gains additional damage after bouncing off a block.
+*Buffed Ultimus Cleaver, now causes small explosions upon contacting an enemy with a true melee strike.
+*Buffed Wave Pounder's damage from 34 to 102.
+
+=== Recipes ===
+*All recipes involving [[Bloodletting Essence]]s, [[Cloaking Gland]]s, [[Fetid Essence]]s, [[Gypsy Powder]], and [[Maneater Bulb]]s have been changed due to their removals:
+**[[Anechoic Coating]] now only has a [[Blood Orb]] recipe.
+**All crafting instances of Bloodletting Essences have been replaced with [[Vicious Powder]], this includes the [[Blood Relic]] and [[Guide Voodoo Doll]]. [[Crimson Flask]] now requires 15 Vicious Powder instead of 3 Bloodletting Essences to be crafted.
+**All crafting instances of Fetid Essences have been replaced with [[Vile Powder]], this includes the Blood Relic and Guide Voodoo Doll. [[Corrupt Flask]] now requires 15 Vile Powder instead of 3 Fetid Essences to be crafted.
+**All crafting instances of Maneater Bulbs have been replaced with [[Vine]]s, this includes [[Bounding Potion]]s, [[Living Dew]], [[Photosynthesis Potion]]s, and [[Portabulb]].
+**All crafting instances of Gypsy Powder have been replaced with [[Butterfly Dust]], this includes [[Honey Dew]]. This however does not include the [[Resurrection Butterfly]], which still requires 2 Butterfly Dust to be crafted.
+*[[Apotheosis]] now requires a [[Spell Tome]] to be crafted instead of [[Subsuming Vortex]].
+*[[Coin of Deceit]] now additionally requires 5 [[Acidwood]] to craft.
+
+=== Renames ===
+*Renamed Weaver Trophy to [[Storm Weaver Trophy]].
+
+=== Additional Changes ===
+*Added custom rarities for a few [[Dedicated content|Developer Items]]:
+**[[Contagion]] now has a rarity color of ({{color|#CF1175 ●|#CF1175}}).
+**[[Demonshade armor]] now transitions between rarity colors of ({{color|#FF8416 ●|#FF8416}}) and ({{color|#DD5507 ●|#DD5507}}).
+**[[Earth]] now transitions between rarity colors of ({{color|#FF6392 ●|#FF6392}}), ({{color|#FFE45E●|#FFE45E}}), and ({{color|#7FC8F8 ●|#7FC8F8}}).
+**[[Illustrious Knives]] now transitions between rarity colors of ({{color|#9AFF97 ●|#9AFF97}}) and ({{color|#E497FF ●|#E497FF}}).
+**[[Red Sun]] now transitions between rarity colors of ({{color|#CC5650 ●|#CC5650}}) and ({{color|#ED458D ●|#ED458D}}).
+**[[Soma Prime]] now has a rarity color of ({{color|#FEFDEB ●|#FEFDEB}}).
+**[[Triactis' True Paladinian Mage-Hammer of Might]] now has a rarity color of ({{color|#E3E2B4 ●|#E3E2B4}}).
+*Anechoic Coating now drops from [[Cuttlefish]], [[Flounder]]s, and [[Frogfish]]. It can also be dropped in larger quantities by [[Reaper Shark]]s.
+**This was changed due to the removal of Cloaking Glands.
+*[[Armageddon]], [[Death]], [[Defiled Rune]], [[Iron Heart]], and [[Revengeance]] can no longer be toggled while any boss is alive.
+**If the player attempts to use any of the above items while a boss is alive, a custom status message will be displayed, and nothing will happen.
+*[[Astral Monolith]] now counts towards the [[Astral Infection]] biome.
+*Added several custom sounds to [[Astrum Deus]], including during its spawning animation.
+*Several [[Bars]] can now be placed as tiles:
+**[[Aerialite Bar]], [[Auric Tesla Bar]], [[Cosmilite Bar]], [[Frigid Bar]], [[Shadowspec Bar]], and [[Uelibloom Bar]].
+*[[Boss Zen]] now disables spawns from the Slime Rain event.
+*[[Brimstone Crate]] now has a 10% chance to drop 5-10 [[Hellstone]] or [[Obsidian]], and a 5% chance to drop 2-3 [[Hellstone Bar]]s.
+*Cloud Elementals can no longer drop [[Thunderstorm]] post-Providence, instead it's now dropped by Storm Weaver.
+**To match drop precedents, Thunderstorm's drop chance has been increased from 1% to 2.5%.
+*Added extra text to the tooltips of [[Cnidarian]], [[The God's Gambit]], [[Oblivion]], [[Pandemic]], [[Riptide]], [[Shimmerspark]], and [[Yin-Yo]].
+*[[Colossal Squid]]s and [[Giant Squid]]s can now drop the [[Ink Bomb]] at a 10% chance and {{dv|2.5%|4%}} / {{defiled|5%}} chance respectively.
+*Slightly adjusted the tooltip for the [[Eldritch Soul Artifact]] to reference 'ranged velocity' instead of 'shoot speed'.
+*[[Flamsteed Ring]] afterimages have been adjusted to better match its intended design.
+*The player can now turn while using Gauss Dagger and Ultimus Cleaver.
+*Gauss Rifle dust particles are now much smaller.
+*Several assets have been optimized to reduce CPU usage and improve mod performance.
+*Changed the player-name usage check on the [[Murasama]] from "Sam" to "Jetstream Sam".
+*Plasma Grenade now plays a custom sound when its projectile contacts the ground.
+*The [[Rock]] can now be placed.
+*Decreased [[Sludge Splotch]] sell price from {{sc|20}} to {{cc|40}}.
+*Decreased redundancy in [[Spent Fuel Container]]'s tooltip.
+*Slight rewording of the [[Stat Meter]] tooltip when not in the [[Abyss]].
+*Slight rewording of the [[Sulphurous Helmet]] tooltip.
+*[[Tenebris]] can no longer be mined with explosives.
+*[[Town NPCs]] spawn rate and ability to spawn at night can now be adjusted in the [[Configuration options]].
+*[[Voodoo Demon]] spawn rates have been slightly decreased and have been prevented while in the [[Brimstone Crag]].
+*Added two new Town NPC names:
+**"Gormer" for the [[Goblin Tinkerer]].
+**"Habolo" for the [[Wizard]].
+*The [[Witch Doctor]] now sells Butterfly Dust instead of Gypsy Powder.
+*[[Wulfrum Gyrator]]s, [[Wulfrum Hovercraft]]s, [[Wulfrum Pylon]]s, and [[Wulfrum Rover]]s now all have a 7% chance to drop the [[Wulfrum Battery]].
+**To compensate, [[Wulfrum Drone]]'s drop chance for the Wulfrum Battery has been decreased from 10% to 7%.
+*Decreased [[Wulfrum Knife]] sell price from {{cc|20}} to {{cc|5}}.
+
+=== Resprites ===
+*Resprited [[Luxor's Gift]] and [[Stress Pills]].
+*Resprited [[Anechoic Coating]] buff icon.
+*Resprited [[Hemagrape|Blood Orange]], Hemagrape|Blood Orange Hearts, and [[Portabulb]].
+*Resprited [[Azathoth]] projectiles, [[Belching Saxophone]] bubbles, [[Magnetic Meltdown]] orbs, [[Nuclear Fury]] typhoons, [[Profaned Soul Crystal]] small ranger projectiles, [[Scorpio]] rockets, [[Voidragon]] void blasts, [[Void Vortex]] orbs, and [[Voltaic Climax]] orbs.
+*Resprited [[Astral Slime]], [[Bloom Slime]], and [[Pestilent Slime]].
+*Resprited [[Blighted Gel]] (Crimulan) and [[Divine Geode]].
+*Resprited Azathoth, [[Demonic Pitchfork]], [[Harvest Staff]], [[Mistlestorm]], [[Molecular Manipulator]], [[Nullification Pistol]], [[Orichalcum Spiked Gemstone]], [[Prideful Hunter's Planar Ripper]], [[Raider's Glory]], [[Shroomer]], and [[Star Cannon EX]].
+*Resprited [[Astral Arcanum]]'s UI.
+
+== Fixes ==
+=== Gameplay ===
+*Fixed a bug with [[Aged Laboratory Door]] and [[Laboratory Door]] where their open and closed states would desync during multiplayer.
+*Fixed an issue with the Astral Monolith that caused it to crash worlds upon generating.
+*Fixed the [[Bandit]] not alerting players that the [[Dragon Scales]] are available after defeating [[Yharon]].
+*Fixed [[Deep Sea Dumbbell]] unintentionally having a fixed use time.
+*Fixed a bug that caused [[Gauss Rifle]] projectiles to immediately explode when fired behind corners and slopes.
+*Fixed a bug that caused [[Goblin Sorcerer]] projectiles to not deal damage except in Death Mode.
+*Fixed a bug with the Providence shader darkness where [[Holy Inferno]] would be inflicted before the shader became fully dark.
+*Fixed a bug where [[Terra Arrow]]s would instantaneously explode upon being fired.
+*Fixed a bug where yoyo projectiles would not teleport alongside the player to the Underworld for the Boss Rush [[Wall of Flesh]] fight.
+
+=== Visual ===
+*Fixed a visual error with several items' afterimages where the main projectiles appear invisible.
+*Fixed a sprite error where the [[Astral Probe (buff)|Astral Probe]] buff's lower outline was missing.
+*Fixed a visual error with [[Auric Tesla Bar]] glowmasks.
+*Fixed a sprite error where the [[Bandit]]'s hat was still present for one frame on her hatless sprite.
+*Fixed missing text being written in the chat box during the Boss Rush.
+*Fixed a visual error with the Destroyer's purple lights showing even while that segment's light was broken.
+*Fixed a sprite error where [[The Dragonfolly]]'s wings had transparent pixels on them.
+*Fixed a sprite error where Goldplume Spear's item sprite was improperly cropped.
+*Fixed a sprite error where mixels were present on the Heat Troublemaker spawned by [[Triboluminescent Etomer]].
+*Fixed the text error in the [[Game controls|hotkey setting]] for {{key|Momentum Capacitor Effect}}.
+*Fixed a drawing issue with the Murasama projectile.
+*Fixed a sprite error where [[Rouge Slash]]'s item sprite was improperly cropped.
+*Fixed a sprite error where Supreme Catastrophe's map icon was improperly cropped.
+*Fixed a sprite error where [[Wulfrum Bow]]'s item sprite was improperly cropped.
+
+== Removals ==
+*Removed the following [[crafting materials]]:
+**Bloodletting Essence, Cloaking Gland, Fetid Essence, Gypsy Powder, and Maneater Bulb.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

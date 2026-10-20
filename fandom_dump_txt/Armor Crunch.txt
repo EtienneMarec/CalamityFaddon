@@ -1,0 +1,64 @@
+{{buff infobox
+| type = Debuff
+| effects = Target's defense is reduced by 15 and damage reduction is reduced by 67%. (if player)<br/>Target's defense is reduced by 15. (if enemy)
+| tooltip = Your armor is shredded
+}}
+
+'''Armor Crunch''' is a [[debuff]] that decreases target's defense by 15. It is inflicted by the [[Broken Biome Blade]] and any of its upgrades (in certain biomes), melee and [[Spy]] attacks with the [[Armor Crumbling]] or [[Armor Shattering]] [[buff]]s, the [[Aftershock]], [[Earthen Pike]], [[Slag Magnum]], [[Spear of Paleolith]], [[The Ballista]], and [[Apotheosis]]. It is additionally inflicted by [[Golem]], [[The Leviathan]] and several enemies in the [[Dungeon]]. If inflicted on the player, damage reduction is also decreased by 67%. All enemies that are vulnerable to this debuff are also vulnerable to [[War Cleave]].
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria"
+! colspan=2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|-
+| {{item|mode=table|size=120px|Golem}}
+| 5 seconds (Body)<br/>3 seconds (Head and fists)
+| 100%
+|-
+| {{item|mode=table|Blue Armored Bones}}
+| 2 seconds
+| 100%
+|-
+| {{item|mode=table|Hell Armored Bones}}
+| 2 seconds
+| 100%
+|-
+| {{item|mode=table|Rusty Armored Bones}}
+| 2 seconds
+| 100%
+|-
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+== Notes ==
+*The lowered damage reduction effect of Armor Crunch does not work on [[The Dragonfolly]], [[Polterghast]], and [[Providence, the Profaned Goddess]].
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

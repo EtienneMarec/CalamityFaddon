@@ -1,0 +1,475 @@
+{{item/options|mode=table}}
+{| class="terraria sortable lined" width=100%
+! colspan = 2| Drop !! Type !! Dropped by !! class="unsortable" | Amount !! data-sort-type="number" | Drop Chance
+|-
+| align="center" | {{item|Amber}}
+| align=center | [[Crafting material]]
+| align=center | [[Amber Crawler]]
+| align=center | 2-4
+| align=center | 100%
+|-
+| align="center" | {{item|Amethyst}}
+| align=center | [[Crafting material]]
+| align=center | [[Amethyst Crawler]]
+| align=center | 2-4
+| align=center | 100%
+|-
+| align="center" | {{item|Diamond}}
+| align=center | [[Crafting material]]
+| align=center | [[Diamond Crawler]]
+| align=center | 2-4
+| align=center | 100%
+|-
+| align="center" | {{item|Emerald}}
+| align=center | [[Crafting material]]
+| align=center | [[Emerald Crawler]]
+| align=center | 2-4
+| align=center | 100%
+|-
+| align="center" | {{item|Ruby}}
+| align=center | [[Crafting material]]
+| align=center | [[Ruby Crawler]]
+| align=center | 2-4
+| align=center | 100%
+|-
+| align="center" | {{item|Sapphire}}
+| align=center | [[Crafting material]]
+| align=center | [[Sapphire Crawler]]
+| align=center | 2-4
+| align=center | 100%
+|-
+| align="center" | {{item|Topaz}}
+| align=center | [[Crafting material]]
+| align=center | [[Topaz Crawler]]
+| align=center | 2-4
+| align=center | 100%
+|-
+| align="center" | {{item|Bone Sword}}
+| align=center | [[Weapon]]
+| align=center | [[Cosmic Elemental]]<br/>[[Hoplite]], [[Skeleton Archer]], [[Armored Skeleton]]
+| align=center | 1
+| align=center | 10%
+|-
+| align="center" | {{item|Starfury}}
+| align=center | [[Weapon]] - [[Crafting material]]
+| align=center | [[Cosmic Elemental]]
+| align=center | 1
+| align=center | 2%
+|-
+| align="center" | {{item|Enchanted Sword}}
+| align=center | [[Weapon]] - [[Crafting material]]
+| align=center | [[Cosmic Elemental]]
+| align=center | 1
+| align=center | 1%
+|-
+| align="center" | {{item|Arkhalis}}
+| align=center | [[Weapon]] - [[Crafting material]]
+| align=center | [[Cosmic Elemental]]
+| align=center | 1
+| align=center | 0.1%
+|-
+| align="center" | {{item|Tin Helmet}}
+| align=center | [[Covering]]
+| align=center | [[Fearless Goldfish Warrior]]
+| align=center | 1
+| align=center | 100%
+|-
+| align="center" | {{item|Leather}}
+| align=center | [[Crafting material]]
+| align=center | [[Angry Dog]]
+| align=center | 1-2
+| align=center | 50%
+|-
+| align="center" | {{item|Shark Tooth Necklace}}
+| align=center | [[Covering]] - [[Crafting material]]
+| align=center | [[Shark]]
+| align=center | 1
+| align=center | {{dv|4%|6.67%}}
+|-
+| align="center" | {{item|Flipper}}
+| align=center | [[Covering]] - [[Crafting material]]
+| align=center | [[Moray Eel]]
+| align=center | 1
+| align=center | 4%
+|-
+| align="center" | {{item|Diving Helmet}}
+| align=center | [[Covering]] - [[Crafting material]]
+| align=center | [[Catfish (enemy)]]<br/>[[Trasher]]
+| align=center | 1
+| align=center | 4%
+|-
+| align="center" | {{item|Jellyfish Necklace}}
+| align=center | [[Covering]] - [[Crafting material]]
+| align=center | [[Box Jellyfish]]<br/>[[Mirage Jelly]]
+| align=center | 1
+| align=center | 1%
+|-
+| align="center" | {{item|Adhesive Bandage}}
+| align=center | [[Covering]] - [[Crafting material]]
+| align=center | [[Rotdog]]
+| align=center | 1
+| align=center | {{dv|1%|2%}}
+|-
+| align="center" | {{item|Coral}}
+| align=center | [[Crafting material]]
+| align=center |[[Desert Scourge]]
+| align=center | {{dv|5-9|7-11}}
+| align=center | 100%
+|-
+| align="center" | {{item|Seashell}}
+| align=center | [[Crafting material]]
+| align=center |[[Desert Scourge]]
+| align=center | {{dv|5-9|7-11}}
+| align=center | 100%
+|-
+| align="center" | {{item|Starfish}}
+| align=center | [[Crafting material]]
+| align=center |[[Desert Scourge]]
+| align=center | {{dv|5-9|7-11}}
+| align=center | 100%
+|-
+| align="center" | {{item|Sand Block}}
+| align=center | [[Block]] - [[Crafting material]] - [[Ammunition]]
+| align=center | [[Desert Scourge]]
+| align=center | 5-15
+| align=center | 100%
+|-
+| align="center" | {{item|Glowing Mushroom}}
+| align=center | [[Block]] - [[Crafting material]]
+| align=center | [[Crabulon]]
+| align=center | {{dv|20-30|25-35}}
+| align=center | 100%
+|-
+| align="center" | {{item|Mushroom Grass Seeds}}
+| align=center | [[Seeds]] - [[Crafting material]]
+| align=center | [[Crabulon]]
+| align=center | {{dv|3-6|5-10}}
+| align=center | 100%
+|-
+| align="center" | {{item|Rotten Chunk}}
+| align=center | [[Crafting material]]
+| align=center | [[The Hive Mind]]
+| align=center | {{dv|9-15|10-20}}
+| align=center | 100%
+|-
+| align="center" | {{item|Demonite Bar}}
+| align=center | [[Crafting material]]
+| align=center | [[The Hive Mind]]
+| align=center | {{dv|8-12|9-14}}
+| align=center | 100%
+|-
+| align="center" | {{item|Vertebrae}}
+| align=center | [[Crafting material]]
+| align=center | [[The Perforator Hive]]<br/>[[The Perforator (Small)]]<br/>[[The Perforator (Medium)]]<br/>[[The Perforator (Large)]]
+| align=center | {{dv|3-9|10-20}}<br/>1-3<br/>2-4<br/>3-5
+| align=center | 100%
+|-
+| align="center" | {{item|Crimtane Bar}}
+| align=center | [[Crafting material]]
+| align=center | [[The Perforator Hive]]<br/>[[The Perforator (Small)]]<br/>[[The Perforator (Medium)]]<br/>[[The Perforator (Large)]]
+| align=center | {{dv|2-5|9-14}}<br/>1-2<br/>2-3<br/>2-4
+| align=center | 100%
+|-
+| align="center" | {{item|Blindfold}}
+| align=center | [[Covering]] - [[Crafting material]]
+| align=center | [[Crimson Slime Spawn]], [[Spiked Crimson Slime Spawn]]
+| align=center | 1
+| align=center | {{dv|1%|2%}} 
+|-
+| align="center" | {{item|Vitamins}}
+| align=center | [[Covering]] - [[Crafting material]]
+| align=center | [[Corrupt Slime Spawn]]
+| align=center | 1
+| align=center | {{dv|1%|2%}}
+|-
+| align="center" | {{item|Gel}}
+| align=center | [[Crafting material]] - [[Ammunition]]
+| align=center | [[King Slime]]<br/>[[The Slime God]]
+| align=center | 72-100<br/>180-250
+| align=center | 100%
+|-
+| align="center" | {{item|Bacon}}
+| align=center | [[Potion]]
+| align=center | [[Piggy]]
+| align=center | 1
+| align=center | 100%
+|-
+! colspan="6" | In [[Hardmode]]
+|-
+| align="center" | {{item|Stinger}}
+| align=center | [[Crafting material]]
+| align=center | [[The Plaguebringer Goliath]]<br/>[[Plaguebringer]]<br/>[[Plague Charger]]<br/>[[Moss Hornet]]
+| align=center | 3-5<br/>2-3<br/>1<br/>1
+| align=center | 100%<br/>{{dv|25%|50%}}<br/>{{dv|25%|50%}}<br/>{{dv|66.67%|100%}}
+|-
+| align="center" | {{item|Magic Dagger}}
+| align=center | [[Weapon]]
+| align=center | [[Fearless Goldfish Warrior]]
+| align=center | 1
+| align=center | 100%
+|-
+| align="center" | {{item|Gatligator}}
+| align=center | [[Weapon]] - [[Crafting material]]
+| align=center | [[Trasher]]
+| align=center | 1
+| align=center | 10%
+|-
+| align="center" | {{item|Crystal Shard}}
+| align=center | [[Crafting material]]
+| align=center | [[Crystal Crawler]]
+| align=center | 2-4
+| align=center | 100%
+|-
+| align="center" | {{item|Pink Gel}}
+| align=center | [[Crafting material]]
+| align=center | [[Gastropod]]
+| align=center | 5-10
+| align=center | 100%
+|-
+| align="center" | {{item|Turtle Shell}}
+| align=center | [[Crafting material]]
+| align=center | [[Gnasher]] <br/>[[Sand Tortoise]]
+| align=center | 1
+| align=center | 10%<br/>10%
+|-
+| align="center" | {{item|Ectoplasm}}
+| align=center | [[Crafting material]]
+| align=center | [[Eidolist]]
+| align=center | 3-5
+| align=center | 100% Post-[[Plantera]]
+|-
+| align="center" | {{item|Lunar Cultist Hood}}
+| align=center | [[Vanity]]
+| align=center | [[Eidolist]]
+| align=center | 1
+| align=center | 10%
+|-
+| align="center" | {{item|Lunar Cultist Robe}}
+| align=center | [[Vanity]]
+| align=center | [[Eidolist]]
+| align=center | 1
+| align=center | 10%
+|-
+| align="center" | {{item|Lihzahrd Power Cell}}
+| align=center | [[Summoning]]
+| align=center | [[Bohldohr]]
+| align=center | 1
+| align=center | 2%
+|-
+| align="center" | {{item|Solar Tablet Fragment}}
+| align=center | [[Crafting material]]
+| align=center | [[Bohldohr]]
+| align=center | 1-3
+| align=center | 14.29%
+|-
+| align="center" | {{item|Lihzahrd Brick}}
+| align=center | [[Block]] - [[Crafting material]]
+| align=center | [[Bohldohr]]
+| align=center | 10-30
+| align=center | 100%
+|-
+| align="center" | {{item|Martian Conduit Plating}}
+| align=center | [[Block]] - [[Crafting material]]
+| align=center | [[Shockstorm Shuttle]]
+| align=center | 10-30
+| align=center | 100% Post-[[Golem]]
+|-
+| align="center" | {{item|Cursed Flame}}
+| align=center | [[Crafting material]]
+| align=center | [[The Hive Mind]]
+| align=center | {{dv|10-20|15-30}}
+| align=center | 100%
+|-
+| align="center" | {{item|Ichor}}
+| align=center | [[Crafting material]]
+| align=center | [[The Perforators]]
+| align=center | {{dv|10-20|15-30}}
+| align=center | 100%
+|-
+| align="center" | {{item|Frost Core}}
+| align=center | [[Crafting material]]
+| align=center | [[Cryogen]]
+| align=center | 1
+| align=center | 100%
+|-
+| align="center" | {{item|Broken Hero Sword}}
+| align=center | [[Crafting material]]
+| align=center | [[Calamitas]]
+| align=center | 1
+| align=center | 100%
+|-
+| align="center" | {{item|Lens}}
+| align=center | [[Crafting material]]
+| align=center | [[Calamity Eye]]
+| align=center | 1
+| align=center | 100%
+|-
+| align="center" | {{item|Fallen Star}}
+| align=center | [[Crafting material]] - [[Ammunition]]
+| align=center | [[Astrum Aureus]]<br/>[[Astrum Deus]]
+| align=center | {{dv|18-24|20-30}}<br/>{{dv|25-40|30-50}}
+| align=center | 100%
+|-
+| align="center" | {{item|Solar Fragment}}
+| align=center | [[Crafting material]]
+| align=center | [[Astrum Deus]]<br/>[[Corite]], [[Crawltipede]], [[Drakanian]], [[Drakomire]], [[Drakomire Rider]], [[Selenian]], [[Sroller]]
+| align=center | {{dv|16-24|20-32}}<br/>1
+| align=center | 100%<br/>{{dv|20%|25%}}
+|-
+| align="center" | {{item|Vortex Fragment}}
+| align=center | [[Crafting material]]
+| align=center | [[Astrum Deus]]<br/>[[Alien Queen]], [[Alien Hornet]], [[Alien Larva]], [[Storm Diver]], [[Vortexian]]
+| align=center | {{dv|16-24|20-32}}<br/>1
+| align=center | 100%<br/>{{dv|20%|25%}}
+|-
+| align="center" | {{item|Nebula Fragment}}
+| align=center | [[Crafting material]]
+| align=center | [[Astrum Deus]]<br/>[[Brain Suckler]], [[Evolution Beast]], [[Nebula Floater]], [[Predictor]]
+| align=center | {{dv|16-24|20-32}}<br/>1
+| align=center | 100%<br/>{{dv|20%|25%}}
+|-
+| align="center" | {{item|Stardust Fragment}}
+| align=center | [[Crafting material]]
+| align=center | [[Astrum Deus]]<br/>[[Star Cell]] (full-sized), [[Flow Invader]], [[Twinkle Popper]], [[Milkyway Weaver]], [[Stargazer]]
+| align=center | {{dv|16-24|20-32}}<br/>1
+| align=center | 100%<br/>{{dv|20%|25%}}
+|-
+! colspan="6" | Godseeker Mode
+|-
+| align="center" | {{item|Shark Fin}}
+| align=center | [[Crafting material]]
+| align=center | [[Mauler]]
+| align=center | 1-5
+| align=center | 100%
+|-
+| align="center" | {{item|Black Ink}}
+| align=center | [[Crafting material]]
+| align=center | [[Colossal Squid]]
+| align=center | 3-5
+| align=center | 100%
+|-
+| align="center" | {{item|Ectoplasm}}
+| align=center | [[Crafting material]]
+| align=center | [[Eidolon Wyrm]]<br/>[[Adult Eidolon Wyrm]]
+| align=center | 8-12<br/>21-32
+| align=center | 100%
+|-
+! colspan="6" | Crafting materials for vanilla items
+|-
+| align="center" | {{item|Blood Orb}}
+| align=center | [[Crafting material]]
+| align=center | [[Blood Moon]] enemies<br/>[[Blood Moon]] enemies (with [[Bloodflare armor]] or [[Auric Tesla armor]] equipped)
+| align=center | 1<br/>1
+| align=center | 10%<br/>50%
+|-
+! colspan="7" | Alternate [[Angler]] item drops
+|-
+| align="center" | {{item|Crate Potion}}
+| align=center | [[Potion]] - [[Crafting material]]
+| align=center | [[Leviathan and Anahita]]
+| align=center | 5-8
+| align=center | 20%
+|-
+| align="center" | {{item|Fishing Potion}}
+| align=center | [[Potion]] - [[Crafting material]]
+| align=center | [[Leviathan and Anahita]]
+| align=center | 5-8
+| align=center | 20%
+|-
+| align="center" | {{item|Sonar Potion}}
+| align=center | [[Potion]] - [[Crafting material]]
+| align=center | [[Leviathan and Anahita]]
+| align=center | 5-8
+| align=center | 20%
+|-
+| align="center" | {{item|Bottomless Water Bucket}}
+| align=center | [[Tool]]
+| align=center | [[Leviathan and Anahita]]
+| align=center | 1
+| align=center | 10%
+|-
+| align="center" | {{item|Hotline Fishing Hook}}
+| align=center | [[Tool]]
+| align=center | [[Leviathan and Anahita]]
+| align=center | 1
+| align=center | 10%
+|-
+| align="center" | {{item|Super Absorbant Sponge}}
+| align=center | [[Tool]]
+| align=center | [[Leviathan and Anahita]]
+| align=center | 1
+| align=center | 10%
+|-
+| align="center" | {{item|Golden Fishing Rod}}
+| align=center | [[Tool]]
+| align=center | [[Angler]]
+| align=center | 1
+| align=center | 8.33% in [[Hardmode]]<br/>100% if killed by a [[Trasher]] in Hardmode
+|-
+! colspan="6" | Alternate [[Biome Key]] drops
+|-
+| align="center" | {{item|Corruption Key}}
+| align=center | [[Key]]
+| align=center | [[Wall of Flesh]]
+| align=center | 1
+| align=center | 10%
+|-
+| align="center" | {{item|Crimson Key}}
+| align=center | [[Key]]
+| align=center | [[Wall of Flesh]]
+| align=center | 1
+| align=center | 10%
+|-
+| align="center" | {{item|Frozen Key}}
+| align=center | [[Key]]
+| align=center | [[Cryogen]]
+| align=center | 1
+| align=center | 20%
+|-
+| align="center" | {{item|Jungle Key}}
+| align=center | [[Key]]
+| align=center | [[Plantera]]
+| align=center | 1
+| align=center | 20%
+|-
+| align="center" | {{item|Hallowed Key}}
+| align=center | [[Key]]
+| align=center | [[Astrum Aureus]]
+| align=center | 1
+| align=center | 20%
+|-
+! colspan="6" | Modified drop chances
+|-
+| align="center" | {{item|Gladiator Helmet}}
+| align=center | [[Covering]]
+| align=center | [[Hoplite]]
+| align=center | 1
+| align=center | {{dv|10%|16%}}
+|-
+| align="center" | {{item|Gladiator Breastplate}}
+| align=center | [[Covering]]
+| align=center | [[Hoplite]]
+| align=center | 1
+| align=center | {{dv|10%|16%}}
+|-
+| align="center" | {{item|Gladiator Leggings}}
+| align=center | [[Covering]]
+| align=center | [[Hoplite]]
+| align=center | 1
+| align=center | {{dv|10%|16%}}
+|-
+| align="center" | {{item|Picksaw}}
+| align=center | [[Tool]]
+| align=center | [[Golem]]
+| align=center | 1
+| align=center | 100% on first kill only
+|-
+| align="center" | {{item|Gravity Globe}}
+| align=center | [[Covering]]
+| align=center | [[Moon Lord]]
+| align=center | 1
+| align=center | 100% in all difficulties
+|}
+{{item/options|reset}}
+
+[[Category:Game mechanics]]

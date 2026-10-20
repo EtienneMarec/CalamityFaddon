@@ -1,0 +1,29 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{npc infobox
+| type = Enemy
+| environment = Cavern
+| ai = Walkie AI
+| damage = {{dv|140|220|280|340}} (contact) {{dv|120|150|180|210}} (laser)
+| life = {{dv|24,000|36,000|48,000|60,000}}
+| defense = 60
+| banner = no
+| money = {{value|5|0|0|0|0}}
+| Stiriatic Ore|2-5| 100%
+| Crystallised Stiriatic Chunk|1|5%
+| knockback = 100
+| immune1 = Kami Flu
+| immune2 = Poisoned
+| immune3 = Nightclear
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+The '''Striatic Walkie''' is a post-[[Purgatory Arbiter, Umbrus|Umbrus]] [[Enemies|enemy]] which spawns naturally in the [[Cavern]] layer after [[Esserwyrm]] has been defeated.It attacks by either running at the player, or standind at one place and shooting 2 lasers on a random direction close to the player. They exist to drop [[Stiriatic Ore]], so that the player cannot use up all the ore available to them.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

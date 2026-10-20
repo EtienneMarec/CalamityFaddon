@@ -1,0 +1,31 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Revengeance mode only}}
+{{infobox wrapper
+|{{item infobox
+|type = Potion
+| use = 30
+|stack = 9999
+|tooltip = Chaotic power pulses inside its berries<br/>Consuming it does something that cannot be reversed
+|rare = C1
+|consumable = yes
+|sell = No value
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+|{{item drops infobox
+| [[Purgatory Arbiter, Umbrus]]|1|{{revengeance|100%}}<br>(Always on first kill)
+}}
+}}
+
+The '''Chaotic Grapes''' are a [[consumable]] dropped by the [[Purgatory Arbiter, Umbrus]]. It permanently gives the player an eighth [[covering]] slot. This effect does not stack and may only be used once per player.
+
+
+== Notes ==
+*It does nothing if an eighth covering slot (or more) has already been obtained through the use of other mods.
+
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+|show-potion = yes
+}}

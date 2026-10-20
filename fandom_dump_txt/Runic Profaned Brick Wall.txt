@@ -1,0 +1,29 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| hardmode = yes
+| postml = yes
+| use = 14
+| color = #2B161B
+| sell = No value
+}}
+
+'''Runic Profaned Brick Wall''' is a Godseeker Mode background [[wall]] crafted with [[Runic Profaned Brick]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main   = yes
+| show-walls = yes
+}}
+
+[[Category:Block items]]

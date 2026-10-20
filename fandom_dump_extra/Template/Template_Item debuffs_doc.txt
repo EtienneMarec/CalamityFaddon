@@ -1,0 +1,15 @@
+== Description ==
+This template is used to automatically transclude debuffs from item infoboxes onto their respective pages.
+
+== Usage ==
+<code>{{t|item debuffs|name ('''optional''')}}</code>
+
+; name
+The text that it will look for in the infoboxes, for example "Frostburn". Defaults to the name of the page it was called on.
+
+<includeonly>
+[[Category:Shortcut templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation]]
+</noinclude>

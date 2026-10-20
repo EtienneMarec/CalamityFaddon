@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 65
+| knockback = 7.5
+| rare = 5
+| sell = {{value|0|7|20}}
+| stack = 1
+| auto = yes
+| use = 27
+| velocity = 12
+| tooltip = Summons boulders from the sky on enemy hits
+| hardmode = yes
+| debuff = Armor Crunch
+| debufftip = Your armor is shredded
+| debuffduration = 5 seconds (Contact)
+| debuffchance = 100%
+| proj = Aftershock Rock.png
+| projcaption = Rock
+| element1 = Slash
+}}
+|{{item drops infobox
+| [[Earth Elemental]]|1|25%
+}}
+}}
+
+The '''Aftershock''' is a [[Hardmode]] [[broadsword]] that drops from [[Earth Elemental]]s. Upon hitting an enemy, it spawns a boulder that falls from the sky and pierces five enemies.
+
+{{modifier|melee}}
+
+== Tips ==
+*The Aftershock is very useful for rapidly annihilating worm-like enemies, since the falling rocks can hit several segments.
+
+== Trivia ==
+*Unlike most on-hit effects, the Aftershock's effect can be triggered by [[Target Dummy|Target Dummies]].
+**This will not work during boss fights.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:余震]]

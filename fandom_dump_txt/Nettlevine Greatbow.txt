@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 73
+| knockback = 3
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| auto = yes
+| velocity = 16
+| use = 18
+| hardmode = yes
+| postml = yes
+| debuff = Venom
+| debufftip = Losing life
+| debuffduration = 1-8 seconds (Venom Arrow)
+| debuffchance = 100%
+| tooltip = Shoots 4 arrows at once<br/>Fires 2 additional venom or chlorophyte arrows
+| element1 = Poison
+}}
+
+The '''Nettlevine Greatbow''' is a craftable Godseeker Mode [[bow]] that auto-fires. It fires a spread of four arrows, quickly followed by two more arrows that are either [[Venom Arrow|Venom]] or [[Chlorophyte Arrow|Chlorophyte Arrows]].
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Uelibloom}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

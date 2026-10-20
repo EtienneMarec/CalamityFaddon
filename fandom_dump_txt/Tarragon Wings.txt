@@ -1,0 +1,27 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| tooltip = Born of the jungle<br/>Horizontal speed: 9.5<br/>Acceleration multiplier: 2.5<br/>Great vertical speed<br/>Flight time: 250<br/>+15 defense and +2 life regen while wearing the Tarragon Armor
+| hardmode = yes
+| postml = yes
+}}
+
+'''Tarragon Wings''' are a Godseeker Mode [[Wings|wing]]-type [[covering]] that allow the player to fly and glide. If these wings are worn along with [[Tarragon armor]] with any Tarragon headpiece, the player is granted 15 defense and life regeneration is increased by 2.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in (Any Wings) ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Uelibloom}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

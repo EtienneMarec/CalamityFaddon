@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| damage = 34
+| damagetype = Spy
+| use = 15
+| knockback = 4.5
+| auto = yes
+| stack = 1
+| rare = 5
+| tooltip = Throws bouncing daggers<br/>Stealth strikes are showered in cursed fireballs
+| sell = {{value|0|7|20}}
+| velocity = 12
+| type = Weapon
+| hardmode = yes
+| debuff = Cursed Inferno
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| debufftip = Losing life<br/>All damage taken increased by 20%
+| proj = Cursed Flame (projectile).png
+| projcaption = Cursed Fireball
+| element1 = Unholy
+| element2 = Fire
+| element3 = Stab
+}}
+|{{item drops infobox
+| [[Clinger]]|1|{{dv|4%|6.67%}}
+}}
+}}
+
+The '''Cursed Dagger''' is a [[Hardmode]] non-consumable [[dagger]] that is dropped by [[Clinger]]s. It inflicts [[Cursed Inferno]] to any enemies hit and can pierce through 2 enemies or bounce twice off of tiles. It disappears upon its third impact. Like the [[Shadowflame Knife]], it is heavily affected by gravity. It is the [[Corruption]] counterpart to the [[Ichor Spear]] ({{fantag|Calamity: Community Remix}} [[Ichor Dagger]]).
+
+Performing a [[stealth strike]] with the Cursed Dagger causes the resulting dagger to release gravity-affected sparks and balls of Cursed Flames as it travels.
+
+{{Modifier|Spy}}
+
+[[File:Cursed Dagger (demo).gif|frame|left|Demonstration of the Cursed Dagger's regular attack and stealth strike.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Daggers]]

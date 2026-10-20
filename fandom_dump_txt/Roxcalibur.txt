@@ -1,0 +1,48 @@
+{{dedicated|Javyz|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 200
+| knockback = 13
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| auto = yes
+| use = 44
+| critical = 12%
+| velocity = 10
+| tooltip = You couldn’t get it out of the rock, so you just brought the rock instead<br/>A hellish entity of flesh holds the key to this weapon’s power<br/>Left click to shoot several rock shards<br/>Right click to dive downwards and bounce off enemies<br/>Diving into blocks creates a shockwave
+| hardmode = yes
+| proj = Rox (projectile).png
+| projcaption = Rox
+| element1 = Holy
+| element2 = Slash
+}}
+{{float file box|width=188px|title=Breakable Background<br/>Roxcalibur Sprite|[[File:Roxcalibur (object).png]]|}}
+'''Roxcalibur''' is a craftable [[Hardmode]] [[broadsword]] that can also be found in [[Pre-Hardmode]], though the sword cannot be swung until the [[Wall of Flesh]] is defeated.
+
+When swung, it launches three gravity affected rock shards that do 40% of the Roxcalibur's base damage. The shards are always launched upward in an arc, though their horizontal velocity is based on the cursor's position, and they have a semi-random spread.
+
+While in the air, right-clicking with the Roxcalibur will cause the player to dive downwards and bounce off tiles and on top of enemies in a similar manner to the [[Slimy Saddle]]. Upon hitting tiles, the player creates a shockwave and bounces considerably higher. The shockwave does 300 base damage and has a cooldown of 15 seconds; during that time, the player will still bounce off of blocks but will not create the shockwave, and a sound will play upon hitting a block. When the shockwave becomes available again, rock particles appear around the player and a sound plays to indicate it.
+
+Roxcalibur can be found naturally in the world, in a random location within the [[Underground]] or [[Cavern]] Layers, and can be harvested with a [[Pickaxe]].  Only one Roxcalibur can be generated per world.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*During the generation of the Roxcalibur in world creation, the message reads "I Wanna Rock."
+*The weapon is a reference to [https://castlevania.fandom.com/wiki/Excalibur Excalibur] from [https://castlevania.fandom.com/wiki/Castlevania:_Aria_of_Sorrow Castlevania: Aria of Sorrow]. Both the excalibur and roxcalibur take the typical story of a sword in a stone and twist it by having a warrior take the stone with them for use with the weapon.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:石约与胜利之剑]]

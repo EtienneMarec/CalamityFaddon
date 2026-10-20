@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = You lose up to half your defense after taking damage<br/>Lost defense regenerates over time<br/>You gain 1 health for every 1 defense gained as it regenerates
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Ravager]] (After [[Providence, the Profaned Goddess]] has been defeated)|1|100%
+}}
+}}
+{{distinguish|Bloodstone Core|a [[crafting material]] made from [[Bloodstone]]}}
+
+The '''Bloodflare Core''' is a Godseeker Mode [[covering]] dropped by the [[Ravager]] after defeating [[Providence, the Profaned Goddess]]. While equipped, all damage taken will temporarily reduce the player's [[defense]]. The amount of defense lost depends on how much damage was taken up to 50% of the player's max defense. Over time, defense will regenerate at 40 defense points per second. Each time the player regains a defense point, they are healed for 1 HP.
+
+==Crafting==
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This covering pairs well with Melee focused builds as melee armor sets tend to have the highest defense stats out of other builds.
+*While intended to be obtained from fighting the Ravager after it has been buffed, the item can alternatively be obtained alongside a wealth of crafting materials by defeating Ravager before Providence, storing the bag, and then opening it ''after'' defeating Providence. This allows a player to avoid the hassle of engaging the boosted Ravager, which can prove quite challenging even with the powerful gear obtained from Providence herself, especially in higher difficulties.
+
+== Trivia ==
+*This covering was previously tailored to low defense builds before being reworked into supporting high defense ones.
+
+{{-}}
+{{Bloodstone}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Restorative coverings]]
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

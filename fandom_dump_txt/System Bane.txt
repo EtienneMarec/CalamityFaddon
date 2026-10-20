@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 45
+| use = 14
+| velocity = 16
+| knockback = 4
+| tooltip = Can be used to quickly send out an electromagnetic blast<br/>Hurls an unstable device which sticks to the ground and shocks nearby enemies with lightning<br/>Stealth strikes make the device emit a large, damaging EMP field<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| hardmode = yes
+| sell = {{value|0|12}}
+| element1 = Stab
+| element2 = Electricity
+| element3 = Machine
+}}
+
+The '''System Bane''' is a craftable [[Hardmode]] [[spiky balls|spiky ball]]. When used, the player throws a gravity-affected electric machine that continuously deals damage to targets that come into contact with it. Occasionally if there's a target nearby, the device releases lightning to triple-strike it. Up to 5 machines can be out at a time.
+
+Performing a [[stealth strike]] with the System Bane causes the resulting machine to emit a large pulsating electric field that releases lightning into enemies within it.
+
+The weapon consumes 0.085 units of [[charge]] per use and has a maximum charge of 135.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier3}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Spiky Balls]]

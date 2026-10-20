@@ -1,0 +1,37 @@
+{{buff infobox
+| type = Debuff
+| effects = Inflicted with:<br/>{{item|mode=image|Brimstone Flames}}, {{item|mode=image|Frostbite}}, {{item|mode=image|Plague}}, {{item|mode=image|Hellfire}}.
+}}
+
+The '''Elemental Mix''' is not a single [[debuff]], but rather a set of debuffs that are always inflicted by several [[weapons]] within the Calamity Mod.
+
+It consists of:
+*{{item|Brimstone Flames}}
+*{{item|Frostbite}}
+*{{item|Plague}}
+*{{item|Hellfire}}
+
+The combined effects of the debuffs cause the target to lose 103 health per second and lose 4 defense.
+
+== Causes ==
+=== From the player ===
+{{item debuffs}}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

@@ -1,0 +1,317 @@
+<section begin="npc" infobox="" />{{npc infobox
+| name = The Wall of Bronze
+| imagealt = <Tabber>
+
+Phase 1=[[File:Wall_of_Bronze.png]]
+|-|
+Phase 2=[[File:The_Wall_of_Bronze_p2.png]]
+
+</Tabber>
+| type = Boss
+| environment = Brimstone Crag
+| ai = The Wall of Bronze AI
+| damage = {{dv|130|160|200|250}} (Contact)<br/>
+{{dv|300|330|400|500}} (Bronze Claw)<br/>
+{{dv|200|300|350|400}} (Laser)<br/>
+{{dv|550|600|650|800}} (Deathray)<br/>
+{{dv|130|170|220|300}} (Metal Maw)<br/>
+{{dv|160|200|250|330}} (Mechanical Leech)<br/>
+{{dv|80|100|120|150}} (Maw Fireball)<br/>
+
+| life = {{dv|1,500,300|2,200,000|2,880,090}}
+| defense = 70
+| dr = 20
+| knockback = 100
+| debuff = Horrified
+| debufftip = You have seen something nasty, there is no escape.
+| duration = While the player is within 2000 feet (1000 blocks) from the boss.
+| debuffchance = 100%
+| debuff2 = Embers of Civilization
+| debuffchance2= 100%
+| duration2 = 3 seconds (Plasma Lasers, Plasma Fireballs) 10 seconds (Plasma Ray)
+| debufftip2 = Ashes to ashes, bronze to bronze
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Frostbite
+| immune3 = Embers of Civilization
+| vulnerable1 = Smash
+| vulnerable2 = Water
+| vulnerable3 = Electricity
+| resistant1 = Slash
+| resistant2 = Stab
+| resistant3 = Fire
+| resistant4 = Cold
+| resistant4 = Machine
+| money = {{value|30|0|0|0|1}}
+| Omega Healing Potion|8-14|100%
+| Large Father|1|{{dv|25%|33.33%}}
+| A M S|1|{{dv|25%|33.33%}}
+| The WOBbler|1|{{dv|25%|33.33%}}
+| Wall of Bronze Mask|1|14.29%
+| Wall of Bronze Trophy|1|10%
+| custom| {{item|The Wall of Bronze (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Crate|wrap=y}}
+: • {{item|Heavy Metal Trash Can|wrap=y}}|{{expert|100%}}
+
+| image2caption = Map Icon
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound2 = AresEnraged.wav
+| sound2text = Charge
+| sound3 = Zombie_104.wav
+| sound3text = Deathray
+| hardmode = yes
+| postml = yes
+| boxwidth = 24em
+}}[[File:Wall of Bronze Trophy.png]] <big>''"The artificial core of the Underworld, and a marvel of ancient ingenuity."'' </big> [[File:Wall of Bronze Trophy.png]]
+
+'''The Wall of Bronze''' (Japanese: 青銅の壁 ''Seidō no kabe'') is a Godseeker Mode [[boss]] fought after [[Jungle Dragon, Yharon]]. It's a mechanical version of the [[tgc:Wall_of_Flesh|Wall of Flesh]].
+
+The Wall of Bronze can be summoned manually by placing a [[Bloody Vein]] into the [[Ancient Console]] found within the [[Brimstone Crag|Brimstone Crags]]. 
+
+The Wall of Bronze will also pay off the debt of the [[Town NPCs]] in exchange for an [[Soul of Hydrogen]].
+
+{{fantag}} Hitting the boss with any [[Pickaxes|pickaxe]] will give the player [[Abandoned Bronze Plating]].
+==Behavior==
+The Wall of Bronze spans from the bottom of the screen to the top, and will attempt to move from one side of the world to the other, despawning off screen if it reaches the end. The player must attack the wall's face while destroying the many weapons that generate around every 30 seconds. If 4 or more weapons are active at once, the Wall's face will gain a temporary shield and become invincible.
+
+==== Attacks====
+*Summons a Bronze Claw, which will perform a predictive lunge at the player before retracting after hitting a tile or reaching a certain distance.
+*Summons a Bronze Laser, which will begin to charge up before firing a massive death ray and slowly sweeping up or down until it reaches the face.
+* Summons a Bronze Turret. which will periodically fire {{dv|5|6|8|10}} {{item|Plasma Laser|link=|ext=gif|size=25px}}s at the player.
+*Spawns a [[Mechanical Leech]] or [[Metal Maw|Metal Maw]] from its mouth.
+*Fires {{dv|2|3|4|5}} spreads of {{item|Plasma Laser|link=|ext=gif|size=25px}}s from its eye.
+
+===In [[Expert Mode]]===
+*Weapons will take 25 seconds to spawn.
+*Face can now occasionally fire its own death ray from its mouth.
+*[[Mechanical Leech|Mechanical Leeches]] will begin to shoot {{item|Plasma Laser|link=|ext=gif|size=25px}}s.
+*[[Metal Maw|Metal Maws]] will begin to launch gravity effected {{item|Plasma Fireball|link=|ext=gif|size=}}s.
+*Bronze Lasers will charge up in half the time, and will move slightly faster.
+
+===In [[Revengeance Mode]]=== 
+*Only requires 3 or more weapons to be active in order to generate its shield.
+*Spawns [[Mechanical Leech|Mechanical Leeches]] and [[Metal Maw|Metal Maws]] much more frequently.
+*Gains a 2nd phase at 10% health.
+**The Wall of Bronze will stop generating Bronze Turrets and Bronze Lasers.
+**Speed increases by 30%.
+***The Walls speed will no longer increase for the rest of the fight.
+**The Face will begin firing lasers, and will fire deathrays much more frequently.
+**The Face will begin to fire deathrays in an arc.
+**Bronze claws become invulnerable, and move much faster.
+
+===In [[Malice Mode]]===
+*Weapons will now take 20 seconds to spawn.
+*Only requires 2 or more weapons to be  active in order to generate its shield.
+* Destroyed weapons will now go haywire before dying.
+**Bronze Claws will perform one final, very fast lunge, before exploding upon contact with a tile or reaching their range limit.
+**Bronze Lasers will explode into a massive plasma explosion, sending damaging shrapnel in several directions.
+**Bronze Turrets will fire 5 {{item|Plasma Laser|link=|ext=gif|size=25px}}s in rapid succession at random angles.
+
+===On the For the Worthy Seed=== 
+
+* Face becomes 50% smaller
+*Wall moves backwards, away from the player.
+
+==Summons==
+{| class="terraria"
+! Image !! Name 
+|-
+| align = center | {{item|mode=table|Metal Maw}} ||
+|-
+| align = center |{{item|mode=table|Mechanical Leech}}||
+|-
+|}
+===Components===
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Boss
+| vulnerable1 = Holy
+| vulnerable2 = Water
+| resistant1 = Cold
+| resistant2 = Unholy
+| resistant3 = Poison
+| resistant4 = Fire
+| name = The Wall of Bronze
+| namesub = Wall of Bronze Face
+| image = Wall of Bronze Face.png
+| life = {{dv|1,500300|2,200.000|2,880,090}}
+| damage = {{defense damage}} {{dv|550|600|650|800||660}} (Deathray)<br/>{{defense damage}} {{dv|130|160|200|250||630}} (Contact)
+| defense = 70
+| dr = 20
+| knockback = 100
+| image2 = Wall of Bronze map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debufftip = Rapid health loss
+| duration = 6 seconds (Deathray)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Frostbite
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = AresEnraged.wav
+| soundtext = Charge
+| sound2 = Zombie_104.wav
+| sound2text = Deathray
+}}
+|{{npc infobox
+| type = Boss
+| name = The Wall of Bronze
+| namesub = Bronze Laser
+| vulnerable1 = Holy
+| vulnerable2 = Water
+| resistant1 = Cold
+| resistant2 = Unholy
+| resistant3 = Poison
+| resistant4 = Fire
+| image = Bronze Laser.png
+| life = {{dv|2,000|2,700|3,000|4,000}}
+| damage = {{defense damage}} {{dv|550|600|650|800}} (Deathray)
+| defense = 50
+| dr = 20
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debufftip = Rapid health loss
+| duration = 6 seconds (Deathray)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Frostbite
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = AresEnraged.wav
+| soundtext = Charge
+| sound2 = Zombie_104.wav
+| sound2text = Deathray
+}}
+|{{npc infobox
+| type = Boss
+| name = The Wall of Bronze
+| vulnerable1 = Holy
+| vulnerable2 = Water
+| resistant1 = Cold
+| resistant2 = Unholy
+| resistant3 = Poison
+| resistant4 = Fire
+| namesub = Bronze Claw
+| image = Bronze Claw.png
+| life = {{dv|1,800|2,000|2,500|3,000}}
+| damage = {{defense damage}} {{dv|300|330|400|500}} (Contact)
+| defense = 50
+| dr = 20
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Frostbite
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+}}
+|{{npc infobox
+| type = Boss
+| name = The Wall of Bronze
+| namesub = Bronze Turret
+| image = Bronze Turret.png
+| life = {{dv|1,800|2,000|2,500|3,000}}
+| damage = {{defense damage}} {{dv|300|330|400|500}} (Contact)
+| defense = 50
+| dr = 20
+| knockback = 100
+| postml = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| vulnerable1 = Holy
+| vulnerable2 = Water
+| resistant1 = Cold
+| resistant2 = Unholy
+| resistant3 = Poison
+| resistant4 = Fire
+| debufftip = Losing health
+| duration = 10 seconds (Laser)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Frostbite
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound2 = Item_12.wav
+| sound2text = Laser
+}}
+|{{npc infobox
+| type = Boss
+| name = The Wall of Bronze
+| namesub = Wall of Bronze Face (phase 2)
+| image = Wall of Bronze Face p2.png
+| life = {{dv|||2,880,090}}
+| damage = {{defense damage}} {{dv|||800|1000}} (Deathray)<br/>{{defense damage}} {{dv|||300|400||740}} (Contact)
+| defense = 50
+| dr = 25
+| knockback = 100
+| image2 = Wall of Bronze map.png
+| image2caption = Map Icon
+| hardmode = yes
+| vulnerable1 = Holy
+| vulnerable2 = Water
+| resistant1 = Cold
+| resistant2 = Unholy
+| resistant3 = Poison
+| resistant4 = Fire
+| postml = yes
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debufftip = Rapid health loss
+| duration = 8 seconds (Deathray)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Frostbite
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = AresEnraged.wav
+| soundtext = Charge
+| sound2 = Zombie_104.wav
+| sound2text = Deathray
+}}}}
+
+==Aftermath==
+Once The Wall of Bronze is defeated, the following things happen: 
+*The [[Frozen Hell]] biome will generate in [[tgc:The_Underworld|the Underworld]].
+*A small 8x8 square of ice bricks will spawn at the point of death, which contains the Wall of Bronze's drops.
+*New [[Critters]] will begin spawning from [[Statues]].
+
+==Notes == 
+* If a player is within a range of 300 blocks behind the Wall of Bronze, they will be brought back in front of it in a similar manner to the Wall of Flesh.
+*Attempting to leave the underworld via methods such as teleportation will instantly kill the player.
+*If the wall of bronze is not close to any players for 10 seconds, it will enrage, and speed up substantially until a player enters its range again.
+*Boss minions do not count towards the faces shield.
+
+== Tips==
+{{dablink|For more elaborate strategies on defeating the Wall of Bronze, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:The Wall of Bronze strategies]].}} 
+
+*It may be a good idea to create a large walkway spanning a significant portion of the underworld and to clear out any buildings or blocks that may obstruct your path, similarly to the Wall of Flesh fight.
+*Focus on defeating the weapons before tackling the face. Not only will 4 weapons being alive cause the face to become invincible, but the walls attacks become very predictable when there are no extra weapons to worry about.
+*Leaving [[Mechanical Leech|Mechanical Leeches]] and [[Metal Maw|Metal Maws]] alive until you are low on health may be a risk worth taking, as both enemies drop hearts upon death. Just be sure you are ready to leave extra enemies alive and to grab the dropped hearts.
+*The [[Spikecrag Staff]] instantly kills the boss, however it will not generate the [[Frozen Hell]] biome or drop any items if it is defeated this way. This can be a way to save yourself if you are close to dying, however.
+
+== Trivia==  
+*The Wall of Bronze's [[Music|theme]] is [[Diabolus Ex Machina|'''Diabolus Ex Machina''']] , which was composed by the artist DM DOKURO.
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' will play instead.
+**The original theme for the Wall of Bronze was [https://www.youtube.com/watch?v=0i9oZnDdI9A&t=1s Cog in the Machine] from the game ''World of Goo''. This was likely changed due to similar copyright related reasons as [[Providence, the Profaned Goddess]]'s original theme.
+*The concept for the Wall of Bronze has existed for a long time, starting out as one of many scrapped ideas by Fabsol, before being implemented into the mod at a far later date.
+*The design of the bosses second phase was inspired by the manga Safeguard.
+*The Wall of Bronze was created by Doctor I-Zor, an obscure character in the Calamity mods lore.
+*The [[Spikecrag Staff]] instantly killing the Wall of Bronze is a reference to Plants vs Zombies, where spikeweed would instantly kill the Zomboni. 
+**This feature was inspired by a user on the Calamity Art discord server.
+* The sprite for the Metal Maw has existed in the mods files for quite a while, long before the Wall of Bronze was implemented.
+* If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The titanic machine continues its endless journey through Hell.“
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}
+[[zh:瘟疫使者歌莉娅]]

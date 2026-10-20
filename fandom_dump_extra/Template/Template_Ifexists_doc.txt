@@ -1,0 +1,21 @@
+This template is similar to [[mw:Help:ParserFunctions#.23ifexist|<nowiki>{{ #ifexist: }}</nowiki>]] as it checks the existence of the given page. The difference is that the checked page is not added to [[Special:Wantedpages|Wanted pages]].
+
+== Usage ==
+<pre>
+{{ ifexists|(pagename)|(then)|(else) }}
+</pre>
+
+; ''unnamed parameter'' 1
+Pagename without braces, including namespace.
+
+; ''unnamed parameter'' 2
+Optional. Wikitext if page exists.
+
+; ''unnamed parameter'' 3
+Optional. Wikitext if page does not exists.
+
+<includeonly>
+[[Category:Templates]]
+</includeonly><noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

@@ -1,0 +1,14 @@
+Produces an image of the best ore that can be mined with a certain pickaxe.
+
+== Usage ==
+<code><nowiki>{{pickaxe tier|Pickaxe power}}</nowiki></code>
+
+; Unnamed Parameter 1
+The power of the pickaxe.
+
+<includeonly>
+[[Category:Shortcut templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

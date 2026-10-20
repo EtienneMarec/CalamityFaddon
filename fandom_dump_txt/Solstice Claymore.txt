@@ -1,0 +1,45 @@
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| type2 = Crafting material
+| damage = 300
+| damagetype = Melee
+| knockback = 6.5
+| use = 15
+| velocity = 16
+| tooltip = Changes projectile color based on the time of year<br/>Inflicts daybroken during the day and moon burnt during the night
+| rare = 10
+| sell = {{value|0|20}}
+| hardmode = yes
+| postml = yes
+| debuff = Daybroken
+| debuffchance = 100%
+| debuffduration = 3 seconds (during day)
+| debufftip = Incinerated by solar rays
+| debuff2 = Moon Burnt
+| debufftip2 = Incinerated by lunar rays
+| debuffduration2 = 3 seconds (during night)
+| debuffchance2 = 100%
+| boxwidth = 24em
+| proj = Solstice Beam.png
+| projcaption = Solstice Beam
+| element1 = Magic
+| element2 = Slash
+}}
+
+The '''Solstice Claymore''' is a craftable Godseeker Mode [[broadsword]] that shoots a different colored sword based on the real-time season. It inflicts the [[Daybroken]] [[debuff]] during the day, causing targets to lose 100 health every second, and the [[Moon Burnt]] [[debuff]] during the night, causing targets to lose 100 health every second.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

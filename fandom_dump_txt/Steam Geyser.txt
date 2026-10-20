@@ -1,0 +1,16 @@
+{{item infobox
+| type = Block
+| damage = {{dv|30|48}} (Steam)
+| debuff = Poisoned
+| debuffchance = 100% 
+| duration = 2 seconds (Steam)
+| color = #966432
+}}
+
+'''Steam Geysers''' are tiles found at the [[Sulphurous Sea]] which shoot steam upwards when directly below a player. The steam inflicts [[Poisoned]] and will launch the player upwards. They can be broken using any [[pickaxe]] and will not drop anything.
+
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

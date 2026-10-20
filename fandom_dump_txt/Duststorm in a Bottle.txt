@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Spy
+| damage = 47
+| knockback = 5
+| velocity = 12
+| tooltip = Explodes into a dust cloud<br/>Stealth strikes form a more intense and longer lasting dust cloud
+| use = 24
+| rare = 7
+| stack = 1
+| auto = yes
+| sell = {{value|0|12}}
+| hardmode = yes
+| proj = Duststorm Cloud.gif
+| projcaption = Duststorm Cloud
+| element1 = Fire
+}}
+
+The '''Duststorm in a Bottle''' is a craftable [[Hardmode]] [[Bombs|bomb]] that hurls a jar filled with sand. The jar explodes into a large number of swirling dust clouds upon hitting an enemy or a block. The dust clouds gradually spread out, damaging any enemy that touches them and passing through walls before slowly fading away.
+
+Performing a [[stealth strike]] with the Duststorm in a Bottle causes more dust clouds to be spawned, as well as increasing the duration of the clouds.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Despite being crafted with the [[Sandstorm in a Bottle]], this item is not a jumping covering and is instead a Spy weapon.
+
+{{Grand Scale}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Bombs]]

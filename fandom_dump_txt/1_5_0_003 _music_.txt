@@ -1,0 +1,24 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Draedon Update Fixes (Music mod)
+| prev = [[1.5.0.002 (music)|1.5.0.002]]
+| next = [[1.5.1.001 (music)|1.5.1.001]]
+| pair = 1.5.0.002
+| release = 11/22/2021
+}}
+{{dablink|This is the page for the '''1.5.0.003 Music mod''' update.}}
+The '''1.5.0.003''' (or '''1.5.0.3''') Music mod update fixed an issue preventing the mod from being downloaded on the tModLoader Mod Browser.
+
+This Music Mod version is compatible with Main mod versions [[1.5.0.001]] through [[1.5.0.004]].
+
+== Fixes ==
+*Fixed an issue that prevented the mod from being installed on tModLoader or its mirror site due to the mod's large file size.
+
+== Notes ==
+*This version only exists on the tModLoader Mod Browser and is identical to the [[1.5.0.002 (music)]] version.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-music = yes
+}}

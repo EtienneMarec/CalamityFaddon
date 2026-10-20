@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 17
+| knockback = 2.5
+| use = 22
+| stack = 1
+| tooltip = Shoots two blue bolts
+| mana = 3
+| auto = yes
+| rare = 2
+| velocity = 14
+| sell = {{value|0|0|40|0}}
+| proj = Aquamarine Bolt.png
+| projcaption = Aquamarine Bolt
+| element1 = Water
+}}
+The '''Aquamarine Staff''' is a craftable [[Pre-Hardmode]] [[wand]] that fires 2 aquamarine bolts that cannot pass through blocks.
+
+{{Modifier|magiclow}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Sea Prism}}
+{{Master Template Weapons
+ | show-main      = yes
+ | show-magic     = yes
+}}
+[[Category: Wands]]
+[[zh:海水杖]]

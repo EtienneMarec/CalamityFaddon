@@ -1,0 +1,223 @@
+<div class="crafting-tree">{{diagram
+
+|Vines|_|Spore|_|Stngr|_|Mhgny|_|HalBr|_|LensN|_|LensB|_|SouS2|_|_|_|_|#
+|      _|      _|      _|      _|      _|      _|      _|      _|_|_|_|#
+|_|`|-|-|-|^|-|-|-|^|-|-|-|(|_|_|_|)|-|-|-|^|-|-|-|^|-|-|-|'|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|PHANV|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|BSprt|_|OptiS|_|DeepS|_|LiviS|_|ClayB|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|      _|      _|      _|      _|      _|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|`|-|-|-|+|-|-|-|^|-|-|-|'|_|_|_|I|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|PHFRG|_|_|_|_|#
+|_|_|_|_|BaLiT|_|LunaF|_|LumO2|_|_|I|_|_|SoulN|_|SoulL|_|Bowls|_|AWood|_|#
+|_|_|_|_|_|:|_|_|      _|      _|_|I|_|_|      _|      _|      _|      _|#
+|_|_|_|_|_|:|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|)|-|-|-|^|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|HMANV|_|_|§|_|_|_|§|_|_|HMANV|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|MiMaT|_|BarLi|_|GalaS|_|LumB2|_|Plant|_|Haunt|_|NighF|_|Raven|_|CosmB|_|#
+|      _|_|I|_|_|      _|      _|      _|      _|      _|      _|      _|#
+|_|:|_|_|_|`|-|-|-|^|-|-|-|^|-|-|-|+|-|-|-|'|_|_|_|`|-|-|-|+|-|-|-|'|_|_|#
+|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|#
+|MirMa|_|_|_|_|_|_|_|_|_|_|_|_|_|ElemA|_|AncIC|_|EnerS|_|CorHS|_|_|_|_|#
+|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|      _|      _|      _|_|_|_|#
+|_|`|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|+|-|-|-|^|-|-|-|^|-|-|-|'|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|CosmI|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+<!-- •• CRAFTING MATERIALS •• -->
+
+|CosmI_cols = 3
+|CosmI_rows = 2
+|CosmI = {{item|Cosmic Immaterializer|size=36px}}
+
+|AncIC_cols = 3
+|AncIC_rows = 2
+|AncIC = {{item|Ancient Ice Chunk}}<br/>
+( {{item|mode=image|Ice Clasper|size=16px}} )
+
+|EnerS_cols = 3
+|EnerS_rows = 2
+|EnerS = {{item|Energy Staff|size=50px}}<br/>
+( {{item|mode=image|Impious Immolator|size=24px}} )
+
+|MiMaT_cols = 3
+|MiMaT_rows = 2
+|MiMaT = ''[[Miracle Matter/Crafting tree|Miracle Matter<br/>crafting tree]]''
+
+|MirMa_cols = 3
+|MirMa_rows = 2
+|MirMa = {{item|Miracle Matter}}
+
+<!-- •••• Corvid Harbinger Staff •••• -->
+
+| Raven_cols = 3
+| Raven_rows = 2
+| Raven ={{item|Raven Staff}}<br/>
+( {{item|mode=image|image=Map Icon Pumpking.png|Pumpking|size=20px}} )
+
+| CosmB_cols = 3
+| CosmB_rows = 2
+| CosmB = {{item|Cosmilite Bar|size=26px}} × 5<br/>
+( {{item|mode=image|image=Devourer of Gods final head map.png|The Devourer of Gods|size=25px}} )
+
+| NighF_cols = 3
+| NighF_rows = 2
+| NighF = {{item|Nightmare Fuel}} × 15<br/>
+<span style="font-size:0.75em">( [[Pumpkin Moon]] )</span>
+
+| CorHS_cols = 3
+| CorHS_rows = 2
+| CorHS = {{item|Corvid Harbinger Staff|size=40px}}
+
+<!-- •••• Elemental Axe •••• -->
+
+| ClayB_cols = 3
+| ClayB_rows = 2
+| ClayB = {{item|Clay Block}} × 2
+
+| Bowls_cols = 3
+| Bowls_rows = 2
+| Bowls = {{item|Bowl}}
+
+| SoulL_cols = 3
+| SoulL_rows = 2
+| SoulL = {{item|Soul of Light}} × 5<br/>
+<div style="font-size: 0.75em">( [[Underground Hallow]] )</div>
+
+| SoulN_cols = 3
+| SoulN_rows = 2
+| SoulN = {{item|Soul of Night}} × 5<br/>
+<div style="font-size: 0.75em">( [[tgc:Underground Corruption|Underground Corruption]]/[[tgc:Underground Crimson|Crimson]] )</div>
+
+| AWood_cols = 3
+| AWood_rows = 2
+| AWood = {{item|Any Wood}} × 10
+
+| Haunt_cols = 3
+| Haunt_rows = 2
+| Haunt = {{item|Haunted Scroll}}
+
+| HalBr_cols = 3
+| HalBr_rows = 2
+| HalBr = {{item|Hallowed Bar}} × 12<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|The Twins||size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} {{item|mode=image|image=Map Icon The Destroyer.png|The Destroyer|size=20px}} {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+| SouS2_cols = 3
+| SouS2_rows = 2
+| SouS2 ={{item|Soul of Sight}} × 20<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|The Twins|size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} )
+
+| LensN_cols = 3
+| LensN_rows = 2
+| LensN = {{item|Lens}} × 2<br/>
+( {{item|mode=image|Demon Eye|size=20px}} )
+
+| LensB_cols = 3
+| LensB_rows = 2
+| LensB = {{item|Black Lens}}<br/>
+( {{item|mode=image|Demon Eye|size=20px}} )
+
+| OptiS_cols = 3
+| OptiS_rows = 2
+| OptiS = {{item|Optic Staff}}
+
+| BSprt_cols = 3
+| BSprt_rows = 2
+| BSprt = {{item|Belladonna Spirit Staff|size=30px}}
+
+| Vines_cols = 3
+| Vines_rows = 2
+| Vines = {{item|Vine|size=16px}} x 4
+
+| Spore_cols = 3
+| Spore_rows = 2
+| Spore = {{item|Jungle Spores|size=20px}} x 5
+
+| Stngr_cols = 3
+| Stngr_rows = 2
+| Stngr = {{item|Stinger|size=16px}} x 8
+
+| Mhgny_cols = 3
+| Mhgny_rows = 2
+| Mhgny = {{item|Rich Mahogany|size=20px}} x 25
+
+| DeepS_cols = 3
+| DeepS_rows = 2
+| DeepS = {{item|Deepsea Staff|size=30px}}<br/>
+( {{item|mode=image|image=Aquatic Scourge map.png|Aquatic Scourge|size=20px}} )
+
+| LiviS_cols = 3
+| LiviS_rows = 2
+| LiviS = {{item|Living Shard}} x 10<br/>
+( {{item|mode=image|image=Map Icon Plantera (first form).png|Plantera|size=20px}} )
+
+| Plant_cols = 3
+| Plant_rows = 2
+| Plant = {{item|Plantation Staff}}
+
+|LumB2_cols = 3
+|LumB2_rows = 2
+|LumB2 = {{item|Luminite Bar}} × 5
+
+|LumO2_cols = 3
+|LumO2_rows = 2
+|LumO2 = {{item|Luminite}} × 20<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=20px}} )
+
+|GalaS_cols = 3
+|GalaS_rows = 2
+|GalaS = {{item|Galactica Singularity}} × 5
+
+|LunaF_cols = 3
+|LunaF_rows = 2
+|LunaF = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 5<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+|BarLi_cols = 3
+|Barli_rows = 2
+|BarLi = {{item|Life Alloy}} × 5<br/>
+( {{item|mode=image|image=Ravager map.png|Ravager|size=20px}} )
+
+|BaLiT_cols = 3
+|BaliT_rows = 2
+|BaLiT = ''[[Life Alloy/Crafting tree|Life Alloy<br/>crafting tree]]''
+
+|ElemA_cols = 3
+|ELemA_rows = 2
+|ElemA = {{item|Elemental Axe}}
+
+<!-- •• CRAFTING STATIONS •• -->
+
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

@@ -1,0 +1,34 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = Increases max mana by 50 and magic damage by 6%<br/>Life regen lowered by 3 if mana is above 50% of its maximum<br/>Grants spectre healing, the amount healed scales with your mana<br/>The healing only works while holding a magic weapon<br/>The more mana you have, the more you heal
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+}}
+|{{item drops infobox
+| [[The Slime God]]|1| 100%
+}}
+}}
+
+The '''Mana Polarizer''' is a [[Pre-Hardmode]] [[covering]] dropped by the [[Slime God]]. It increases the player's maximum [[mana]] by 50 and magic damage by 6%. Additionally, striking an enemy with a magic-type projectile will cause a short-lasting heal orb to spawn from an enemy. Upon contact with the player, the orb [[lifesteal|heals]] for 20% of the projectile's damage multiplied by the ratio of the player's current mana over their maximum mana. This healing will only work if the user is holding a [[magic weapon]]. The more the player is healed, the less often healing orbs are spawned from an enemy. However, the Mana Polarizer will reduce the player's life regeneration by 3 while its wearer is above 50% mana.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient=Mana Overloader}}
+
+== Notes ==
+*The health drain effect directly subtracts from any life regeneration the player has. If the player naturally regenerates less than 1.5 health per second, the Mana Polarizer will cause continuous damage over time while its user is above 50% mana.
+*The health drain of the Mana Polarizer is considered a damaging debuff, which can activate the defensive bonuses of the [[Crown Jewel]].
+
+== Trivia ==
+*If the player is killed by the health drain, the death message will read ''"<PlayerName>'s life was completely converted into mana."''
+*This item was previously known as the "Mana Overloader".
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Healing items]]
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

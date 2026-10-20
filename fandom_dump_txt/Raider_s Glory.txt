@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 44
+| damagetype = Ranged
+| knockback = 2.25
+| stack = 1
+| rare = 5
+| sell = {{value|0|7|20}}
+| auto = yes
+| tooltip = Fires ichor arrows with increased velocity<br/>These arrows also cause enemies to drop more money
+| debuff = Ichor (debuff)
+| debufftip = Defense reduced by 20
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| debuff2 = Midas
+| debufftip2 = Drop more money on death
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds
+| use = 20
+| critical = 14%
+| velocity = 15
+| hardmode = yes
+| element1 = Stab
+}}
+|{{item drops infobox
+| [[Pirate Crossbower]]|1|{{dv|4%|6.67%}}
+}}
+}}
+
+The '''Raider's Glory''' is a [[Hardmode]] [[repeater]] that has a chance of dropping from [[Pirate Crossbower]]s in the [[Pirate Invasion]]. The weapon will fire one [[Ichor Arrow]] at a time, and will inflict [[Midas]] on hit enemies.
+
+{{Modifier|ranged}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]
+[[Category:Repeaters]]

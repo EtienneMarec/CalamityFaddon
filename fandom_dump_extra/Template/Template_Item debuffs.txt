@@ -1,0 +1,48 @@
+<includeonly>{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|uses = Template:item infobox
+|notcategory = Historical content
+|include = {item infobox¦:Template:Item debuffs/dpl}
+|includematch=/debuff\d?\s*=\s*{{{name|{{PAGENAME}}}}}/s
+|ordermethod = titlewithoutnamespace
+|mode = userformat
+}}{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|uses = Template:item infobox
+|notcategory = Historical content
+|include = {item infobox¦:Template:Item debuffs/dpl}
+|includematch=/debuff\d?\s*=\s*{{{name|{{PAGENAME}}}}}/s
+|mode = userformat
+|ordermethod = titlewithoutnamespace
+|offset = 500
+}}{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|uses = Template:item infobox
+|notcategory = Historical content
+|include = {item infobox¦:Template:Item debuffs/dpl}
+|includematch=/debuff\d?\s*=\s*{{{name|{{PAGENAME}}}}}/s
+|mode = userformat
+|ordermethod = titlewithoutnamespace
+|offset = 1000
+}}{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|uses = Template:item infobox
+|notcategory = Historical content
+|include = {item infobox¦:Template:Item debuffs/dpl}
+|includematch=/debuff\d?\s*=\s*{{{name|{{PAGENAME}}}}}/s
+|mode = userformat
+|ordermethod = titlewithoutnamespace
+|offset = 1500
+}}
+{{#if:{{{1|}}}|{{#fornumargs:i|v|<!-- 
+-->{{#switch:{{#expr:{{#var:i}} mod 3}}<!-- 
+	-->|1={{#dplvar:set|_item_debuffs:group_arg_1|{{#var:v}}}}<!-- 
+	-->|2={{#dplvar:set|_item_debuffs:group_arg_2|{{#var:v}}}}<!-- 
+	-->|0={{item debuffs/manual|{{#dplvar:_item_debuffs:group_arg_1}}|{{#dplvar:_item_debuffs:group_arg_2}}|{{#var:v}}}}<!-- 
+-->}}
+}}}}
+|}</includeonly><noinclude>{{doc}}</noinclude>

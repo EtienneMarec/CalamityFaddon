@@ -1,0 +1,26 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| sell = No value
+| stack = 9999
+| rare = 0
+| color = #715A47
+}}
+
+'''Sulphurous Sandstone''' is a [[Pre-Hardmode]] [[block]] that can be found in the [[Sulphurous Sea]] [[biome]], which spawns upon world generation. It composes most of the lower portion of the biome. It also can be obtained by opening [[Abyssal Crate]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

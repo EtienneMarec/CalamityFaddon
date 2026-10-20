@@ -1,0 +1,51 @@
+{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = Whenever your minions hit an enemy you will gain a random buff, does not stack with downgrades<br/>These buffs will either boost your defense, summon damage, or life regen for a while<br/>If you have the offensive boost, enemies hit by minions will sometimes be hit by stars
+| buff = Hallowed Defense | bufflink = no
+| duration = 1 second
+| bufftip = Defense boosted by 8 and damage reduction boosted by 4%
+| buff2 = Hallowed Power | bufflink2 = no
+| duration2 = 1 second
+| bufftip2 = Minion damage boosted by 10%
+| buff3 = Hallowed Regen | bufflink3 = no
+| duration3 = 1 second
+| bufftip3 = Regenerating life
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance = 100%
+| debuffduration = 3 seconds (Star)
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|7|20}}
+| proj = Hallow Star.png
+| projcaption = Hallowed Star
+| element1 = Magic
+| element2 = Holy
+}}
+
+The '''Hallowed Rune''' is a craftable [[Hardmode]] [[covering]] and the upgrade of the [[Spirit Glyph]]. While equipped, whenever a minion hits an enemy, the player will gain one of the following buffs:
+
+*'''Hallowed Power''', which increases minion damage by 10%. Additionally, while this buff is active, a hallowed star rains from the sky on hit which deals 30 summon damage. This effect has a 3-second cooldown.
+*'''Hallowed Defense''', which increases [[defense]] by 8 and damage reduction by 4%.
+*'''Hallowed Regen''', which grants +3 life regeneration.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The symbol depicted on the Hallowed Rune's sprite is a reference to the symbol of the first [https://rainworld.fandom.com/wiki/Karma Karma] rank in the game ''[[wikipedia:Rain World|Rain World]]''.
+*The shield in the Hallowed Defense buff icon is the [[Ornate Shield]].
+*The knife in the Hallowed Power buff icon uses the same palette as the [[Excalibur]].
+*The heart in the Hallowed Regen buff icon uses the same palette as the hearts the player has after using [[Life Fruit]].
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

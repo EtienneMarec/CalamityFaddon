@@ -1,0 +1,42 @@
+A template used for convenience with showing values for the different difficulty modes.
+
+== Usage ==
+<code>{{(}} difficulty value | ''<Normal Mode Value>'' | ''<Expert Mode Value>'' | ''<Revengeance Mode Value>'' | ''<Death Mode Value>'' | ''<Malice Mode Value>'' }}</code>
+
+Example: <code>{{(}} difficulty value | 1 | 2 | 3 }}</code> returns {{difficulty value|1|2|3}}.
+
+=== Other parameters ===
+; break
+Specifies whether you want the latter Revengeance and Death values to be on a separate line, for use in the NPC infobox.
+
+; boost
+Percentage boost to multiply and automatically calculate the values with in Expert, Revengeance and Death Mode. It should be expressed as a decimal value, i.e. 0.05, which equals to 5% of the value. All set values except for the Normal Mode one will be overridden if used.
+
+== Examples ==
+{|class="terraria"
+! Code !! Result
+|-
+|<code><nowiki>{{difficulty value|1}}</nowiki></code> || {{difficulty value|1}}
+|-
+|<code><nowiki>{{difficulty value|0|1}}</nowiki></code> || {{difficulty value|0|1}}
+|-
+|<code><nowiki>{{difficulty value|0|0|1}}</nowiki></code> || {{difficulty value|0|0|1}}
+|-
+|<code><nowiki>{{difficulty value|0|0|0|1}}</nowiki></code> || {{difficulty value|0|0|0|1}}
+|-
+|<code><nowiki>{{difficulty value|1|2|0|4|7}}</nowiki></code> || {{difficulty value|1|2|0|4|7}}
+|-
+|<code><nowiki>{{difficulty value|1|2|3|4|break=yes}}</nowiki></code>|| {{difficulty value|1|2|3|4|break=yes}}
+|-
+|<code><nowiki>{{difficulty value|1000|boost=0.25}}</nowiki></code> || {{difficulty value|1000|boost=0.25}}
+|}
+
+== Notes ==
+*Values of "0" or null are not displayed.
+
+<includeonly>
+[[Category:Shortcut templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

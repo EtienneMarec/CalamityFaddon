@@ -1,0 +1,14 @@
+<includeonly><!--
+
+-->{{(}}<!--
+--><span title="{{ns:10}}:{{ucfirst:{{{1}}}}}">{{{1}}}</span><!--
+-->{{#fornumargs:k|v|<!--
+	-->{{#ifexpr:{{#var:k}}!=1|<!-- skip first parameter
+		-->{{!}}{{#var:v}}<!--
+	-->}}<!--
+-->}}<!--
+-->{{)}}<!--
+
+--></includeonly><!--
+
+--><noinclude>{{doc}}</noinclude>

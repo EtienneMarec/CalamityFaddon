@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 6
+| sell = {{value|0|9|60}}
+| damage = 160
+| use = 26
+| velocity = 12
+| tooltip = Enemies explode and emit healing flames on death
+| knockback = 8
+| auto = yes
+| stack = 1
+| hardmode = yes
+| debuff = On Fire!
+| debuffduration = 3 seconds (Explosion)
+| debuffchance = 100%
+| debufftip = Slowly losing life
+| element1 = Fire
+| element2 = Slash
+}}
+The '''Phoenix Blade''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. Like the [[Breaker Blade]], it has a very large range, but it also causes explosions and spawns healing orbs when killing [[enemies]]. The healing orbs [[Lifesteal|restore]] 10 health when touched, and disappear after about 3 seconds or if the orb hits a solid tile. The sword itself is extremely large, larger than the Breaker Blade and many other swords in the game.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Phoenix Blade's name was loosely inspired by the creator of the [https://steamcommunity.com/sharedfiles/filedetails/?id=3459882292 PhoenixCore] mod, Phoenix C#.
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Healing items]]
+[[Category:True melee]]
+[[zh:凤凰之刃]]

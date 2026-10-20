@@ -1,0 +1,41 @@
+{{npc infobox
+| type = Aquatic
+| environment = Acid Rain
+| ai = Acid Eel AI
+| damage = {{dv|20|40}} (Tier 1)<br/>{{dv|50|100}} (Tier 2)<br/>{{dv|100|200}} (Tier 3)
+| life = {{dv|80|160}} (Tier 1)<br/>{{dv|240|480}} (Tier 2)<br/>{{dv|3,300|6,600}} (Tier 3)
+| defense = 4 (Tiers 1 & 2)<br/>20 (Tier 3)
+| dr = 5% (Tier 3)
+| knockback = 10% (Tiers 1 & 2)<br/>30% (Tier 3)
+| debuff = Irradiated
+| debuffchance = 100%
+| duration = 2 seconds (Contact)
+| debufftip = Your skin is burning off
+| money = {{value|0|0|1}}
+| banner = yes
+| Sulphuric Scale | 1-3 | 50%
+| custom| {{item|Slithering Eels|note=(Tiers 2 & 3)|wrap=y}} | 5%
+| custom| {{item|Vitriolic Viper|note=(Tier 3)|wrap=y}} | {{dv|5%|6%}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Zombie_32.wav
+| soundtext = Idle
+| resistant1 = Water
+| resistant2 = Poison
+| resistant3 = Fire
+| vulnerable1 = Cold
+| vulnerable2 = Slash
+| vulnerable3 = Machine
+}}
+
+The '''Acid Eel''' is a [[Pre-Hardmode]] [[enemy]] that spawns during the [[Acid Rain]] [[event]]. They patrol the sea’s shallow waters and charge horizontally into the player in high speeds, however they are stationary on land.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-event = yes
+}}

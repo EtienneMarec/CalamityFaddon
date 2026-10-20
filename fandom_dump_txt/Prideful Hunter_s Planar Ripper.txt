@@ -1,0 +1,42 @@
+{{dedicated|Fate|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damage = 86
+| damagetype = Ranged
+| velocity = 15
+| knockback = 1
+| use = 5
+| tooltip = Every fourth shot deals 135% damage<br/>Converts musket balls into lightning bolts<br/>Lightning bolts travel extremely fast and explode on enemy kills<br/>Lightning bolt crits grant a stacking speed boost to the player<br/>This stacks up to 20 percent bonus movement speed and acceleration<br/>The boost will reset if the player holds a different item<br/>33% chance to not consume ammo
+| stack = 1
+| auto = yes
+| rare = 11
+| sell = {{value|0|22}}
+| hardmode = yes
+| postml = yes
+| debuff=Electrified
+| debufftip=You cannot move
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| proj = Planar Ripper Bolt.gif
+| projcaption = Planar Ripper Bolt
+| element1 = Holy
+| element2 = Stab
+| element3 = Machine
+}}
+
+The '''Prideful Hunter's Planar Ripper''' is a craftable Godseeker Mode [[gun]]. It automatically rapidly fires bullets. Musket balls turn into fast lightning bolts which do not pierce enemies or tiles, inflict the [[Electrified]] [[debuff]], and explode when enemies are killed. Every fourth lightning bolt deals 35% more damage and in addition, critical strikes from the lightning bolts will grant a minor boost to movement speed and acceleration up to a maximum of 20%. The movement speed boost is reset if the player holds a different item.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+{{-}}
+{{PureLuminite}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

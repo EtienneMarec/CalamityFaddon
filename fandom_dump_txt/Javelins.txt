@@ -1,0 +1,28 @@
+{{dablink|For the vanilla weapon, see [[tgc:Javelin|Javelin]]}}
+'''Javelins''' are [[weapons]] belonging to the [[spy]] class. They are typically thrown far distances away from the player and pierce enemies. Most javelins are non-consumable and can be used indefinitely.
+
+== Types ==
+{| class="terraria sortable lined" id="dpl-table"
+! colspan=2 | Name !! <abbr title=Damage>DMG</abbr> !! <abbr title="Use Time">UT</abbr> !! <abbr title=Knockback>KB</abbr> !! <abbr title="Shoot Speed/Velocity">SS</abbr> !! <abbr title="Critical Chance">Crit</abbr> !! Autoswing !! [[Rarity]] !! Consumable !! <abbr title=Hardmode>HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Javelins
+| namespace = <!-- need to have it blanked to restrict it to main namespace. prevents category pages from being included-->
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦:Spy weapons/dpl}
+| mode = userformat
+}}
+|}
+
+== Notes ==
+*If the player has the [[Invisibility]] [[buff]] while holding a javelin, their armor penetration is increased by 5.
+{{-}}
+{{Master Template Weapons
+| show-main  = yes
+| show-rogue = yes
+}}
+
+[[Category:Weapon items| ]]
+[[Category:Spy weapons| ]]
+[[Category:Javelins|*]]

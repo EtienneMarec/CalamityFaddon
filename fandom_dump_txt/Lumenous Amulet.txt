@@ -1,0 +1,31 @@
+{{item infobox
+| type = Covering
+| stack = 1
+| rare = 7
+| sell = {{value|0|9|60}}
+| tooltip = Attacks inflict the Crush Depth debuff<br/>Grants immunity to the Crush Depth debuff<br/>While in the abyss you gain 25% increased max life<br/>Provides a moderate amount of light in the abyss
+| debuff = Crush Depth
+| debuffduration = 2, 4, or 6 seconds
+| debuffchance = 100%
+| debufftip = Aquatic pressure
+| hardmode = yes
+}}
+
+The '''Lumenous Amulet''' is a craftable [[Hardmode]] [[covering]]. While it is equipped, the player's attacks inflict the [[Crush Depth]] [[debuff]], and, while in the [[Abyss]], they gain 25% increased max life and increased Abyss light level by 2. It also grants immunity to the Crush Depth debuff.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*There is a 25% chance for Crush Depth to be inflicted for 6 seconds, a 37.5% chance to be inflicted for 4 seconds, and a 37.5% chance to be inflicted for 2 seconds.
+{{-}}
+{{Abyssal Gear}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

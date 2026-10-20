@@ -1,0 +1,114 @@
+Puffs are rare [[Enemy|enemies]] that spawn in certain biomes. They slowly float towards the player, rapidly increasing in size until exploding, launching 8 Projectiles  in each direction.
+
+They can be detected with the [[Lifeform Analyzer]]
+
+{{Npc infobox
+| name=Dirt Puff
+| type=Enemy
+| environment=Underground
+| ai=Moon Lord AI
+| damage= Contact {{dv|1|2|3}} <br/> Dirt Ball {{dv|46|92|128}}
+| life={{dv|30|30|30}}
+| defense=30
+| knockback=0%
+| money={{value|0|0|0|25}}
+| hurt=Dig_1.wav
+| killed=Dig_1.wav
+}}
+Dirt, Sand, Spore, Ice, Water, and Hell Puffs all spawn in [[Pre-Hardmode]], while Cheese puffs only spawn in [[Challenges|Godseeker Mode]] due to the fact that they drop [[Cheese]].{{Npc infobox
+| name=Sand Puff
+| type=Enemy
+| environment= Underground Desert
+| ai=Puff AI
+| damage= Contact {{dv|1|2|3}} <br/> Sand Balls {{dv|48|96|144}}
+| life={{dv|30|30|30}}
+| defense=30
+| knockback=0%
+| money={{value|0|0|0|25}}
+| hurt=Dig_1.wav
+| killed=Dig_1.wav
+}}
+{{Npc infobox
+| name=Spore Puff
+| type=Enemy
+| environment=Underground Jungle
+| ai=Puff AI
+| damage= Contact {{dv|1|2|3}} <br/> Spore Cloud {{dv|50|100|150}}
+| life={{dv|30|30|30}}
+| defense=30
+| knockback=0%
+| money={{value|0|0|0|25}}
+| hurt=Dig_1.wav
+| killed=Dig_1.wav
+}}
+{{Npc infobox
+| name=Ice Puff
+| type=Enemy
+| environment= Ice biome
+| ai=Puff AI
+| damage= Contact {{dv|1|2|3}} <br/> Ice Spikes {{dv|50|100|150}}
+| life={{dv|30|30|30}}
+| defense=30
+| knockback=0%
+| money={{value|0|0|0|25}}
+| hurt=Dig_1.wav
+| killed=Dig_1.wav
+}}
+{{Npc infobox
+| name=Water Puff
+| type=Enemy
+| environment= Ocean
+| ai=Puff AI
+| damage= Contact {{dv|1|2|3}} <br/> Water bolts {{dv|50|100|150}}
+| life={{dv|30|30|30}}
+| defense=30
+| knockback=0%
+| money={{value|0|0|0|25}}
+| hurt=Dig_1.wav
+| killed=Dig_1.wav
+}}
+{{Npc infobox
+| name=Hell Puff
+| type=Enemy
+| environment= Underworld
+| ai=Puff AI
+| damage= Contact {{dv|1|2|3}} <br/> Fire Balls {{dv|80|160|240}}
+| life={{dv|30|30|30}}
+| defense=30
+| knockback=0%
+| money={{value|0|0|0|25}}
+| hurt=Dig_1.wav
+| killed=Dig_1.wav
+}}
+{{Npc infobox
+| name=Cheese Puff
+| type=Enemy
+| environment=Planetoid
+| ai=Puff AI
+| damage= Contact {{dv|50|100|150}} <br/> Cheese Balls {{dv|150|273|340}}
+| life={{dv|940,000|9,400,000|94,000,000}}
+| defense=50
+| knockback=100%
+| money={{value|0|0|50|25}}
+|Cheese|1| 15%
+| hurt=YharonRoar.wav
+| killed=ExoDeath.wav
+|postml=yes}}
+
+{{-}}
+{{Master Template Characters
+| show-main=yes
+| show-common=yes
+}}{{Npc infobox
+| name=Spore Puff
+| type=Enemy
+| environment=Underground Jungle
+| ai=Puff AI
+| damage= Contact {{dv|1|2|3}} <br/> Spore Cloud {{dv|50|100|150}}
+| life={{dv|30|30|30}}
+| defense=30
+| knockback=0%
+| money={{value|0|0|0|25}}
+| hurt=Dig_1.wav
+| killed=Dig_1.wav
+}}

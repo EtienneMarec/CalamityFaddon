@@ -1,0 +1,31 @@
+{{npc infobox
+| environment = Dungeon
+| ai = Green Phantom AI
+| damage = {{element|Dark}} {{dv|200|300}}
+| life = {{dv|1200|1400}}
+| defense = 23
+| immune3 = Kami Flu
+| banner = yes
+| money = {{value|0|15|0|0}}
+| hardmode = yes
+| Ancient Bone Dust|100-255|100%
+| Bone|25-75|100%
+| Demonic Bone Ash|5-30|100%
+| Skull|7-12|100%
+| Carton of Milk|500-700|100%
+| hurt = NPC_Hit_13.wav
+| killed = NPC_Killed_22.wav
+| vulnerable1 = Holy
+| resistant1 = Unholy
+| resistant2 = Poison
+| resistant3 = Dark
+}}
+<big>''"Ough, I'm so green..."''</big>
+
+The '''Green Phantom''' is an [[enemy]] that spawns if the player kills a [[Gilded Spirit]] that spawned from a [[Phantom Spirit]] that spawned from a Dungeon Spirit. It moves slowly in random patterns, launching ghost skulls at players if it spots them.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

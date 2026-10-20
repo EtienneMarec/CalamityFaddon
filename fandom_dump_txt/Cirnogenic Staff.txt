@@ -1,0 +1,53 @@
+{{addon|Calamity: Community Remix}}
+{{dedicated|Cooper|Developer}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 128
+| mana = 12
+| use = 24
+| knockback = 3
+| damagetype = summon
+| tooltip = Summons an encharted{{sic}} ice star to fight for you<br/>Right click to switch between minion and sentry mode<br>⑨
+| rare = 14
+| sell = {{value|0|22}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 1 second (ice ball)
+| proj = Frost Bolt (projectile).png
+| projcaption = Ice Ball
+| proj2 = Ice Rain.png
+| proj2caption = Icicle
+| element1 = Cold
+| element2 = Holy
+}}
+{{summoned|Cirnogenic Sentry|type=sentry}}
+
+The '''Cirnogenic Staff''' is a craftable Godseeker Mode [[summon]] [[sentry]] hybrid. It is initially summoned as a traditional minion that rams enemies and occasionally starts rapidly spinning to fling out ice spikes in random directions. Right clicking causes the minion to switch to sentry mode, locking it in place and greatly increasing the fire rate of its flung ice spikes. In sentry mode it will also occasionally fire an endo beam in a random direction which pierces infinitely.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*It can be very powerful against large, scattered groups of enemies aside from one specific targeted enemy because of the icicles.
+
+== Trivia ==
+*The Ice Sentry's design was initially a redesign of [[Cryogen]] made by Cooper, a spriter and animator for the mod.
+*The item in general is a reference to the character Cirno from the ''[[wikipedia:Touhou Project|Touhou Project]]''.
+*The word 'enchanted' is deliberately misspelled as 'encharted' in the item's tooltip
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

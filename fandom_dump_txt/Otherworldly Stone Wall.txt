@@ -1,0 +1,27 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| color = #17171A
+| sell = No value
+| stack = 9999
+| rare = 0
+| hardmode = yes
+| postml = yes
+}}
+
+'''Otherworldly Stone Wall''' is a background [[wall]] crafted with [[Otherworldly Stone]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main = yes
+| show-walls= yes
+}}

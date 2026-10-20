@@ -1,0 +1,71 @@
+Todo list
+Calamibro health changes
+Providence rework...?
+Aquatic ab changes.
+
+{{Patch infobox
+| patchname = Update 1.2.3.007
+| release = December 17 2017
+| prev = [[1.2.3.006]]
+| current = 1.2.3.007
+| next = [[1.2.3.008]]
+| image = Cog (Calamity).png
+}}
+
+'''Calamity Mod version 1.2.3.007''' was an update which made several changes to the [[Providence, the Profaned Goddess|Providence, the Profaned God]] fight.
+
+== Additions ==
+*Added [[Ancient Ice Chunk]], [[Heavenly Gale]].
+*Added [[Supreme Bait Tackle Box Fishing Station]].
+*Added [[Ice Clasper (buff)]]
+
+== Changes ==
+
+=== [[Bosses]] and [[Enemies]] ===
+*[[Stress]] is now increased by several other Calamity bosses.
+*[[Cataclysm]] and [[Catastrophe]] no longer classify as bosses, and thus no longer drop [[Greater Healing Potion]]s and have death messages.
+*Nerfed [[Cosmic Lantern]]'s health from {{dv|6000|8400}} to {{dv|4000|5600}}.
+*[[The Devourer of Gods]] phase 2's body segments now only resist 50% of damage from infinitely piercing projectiles instead of 60%.
+*[[The Hungry II]]'s can now pass through tiles in Death Mode.
+*[[Ice Clasper]]s now only have a chance to inflict [[Glacial State]] for half a second instead of always inflicting it for 5/6 of a second.
+*[[Ice Queen]]s now drop 20 to 41 [[Endothermic Energy]] instead of 10 to 21.
+*Buffed [[Parasea]]'s health from {{dv|300|420}} to {{dv|500|700}}.
+*Paraseas can now spawn naturally at the [[Ocean]] after [[Plantera]] has been defeated.
+*Buffed [[Probe]]'s health in [[Death Mode]] from {{dv|0|0|0|375}} to {{dv|0|0|0|450}}, and their damage from {{dv|0|0|0|100}} to {{dv|0|0|0|120}}.
+*Nerfed [[Profaned Energy]]'s health from {{dv|28,000|56,000}} to {{dv|10,000|20,000}}.
+*Only one Profaned Energy can exist at a time now.
+*Renamed each of [[Providence, the Profaned Goddess|Providence, the Profaned God]]'s guardians from "A Profaned Guardian" to "A Dunkin' Donut".
+*Nerfed defensive A Dunkin' Donut's health from {{dv|30,000|42,000}} to {{dv|20,000|28,000}}.
+*Buffed offensive A Dunkin' Donut's health from {{dv|40,000|56,000}} to {{dv|50,000|70,000}}.
+*Nerfed [[Scorn Eater]]'s health from {{dv|23,000|46,000}} to {{dv|12,000|24,000}}.
+*The Siren's [[Ice Shield]] now inflicts [[Frostburn]] for 3.5 seconds instead of [[Frozen]] for 1 second.
+*[[Siren Clone]]s can now only fire water spears instead of all of the Siren's projectiles.
+*Buffed Siren Clone's water spear damage from {{dv|46|80|84|120}} to {{dv|68|112|117|168}}.
+
+=== Items ===
+*[[Angel Treads]] and [[Seraph Tracers]] now have equipped boot sprites.
+*Nerfed [[Animosity]]'s damage from 28 to 25.
+*Nerfed [[Cosmilamp]]'s damage from 230 to 150, made the Cosmilamp minions deal damage 4 times less often, and made each one take 2 minion slots.
+*Lowered [[Exoblade]]'s use time from 16 to 14.
+*Buffed [[Flare Bolt]]'s damage from 23 to 25.
+*[[Magnetic Meltdown]]'s projectiles now last shorter.
+*[[Reaver Shark]] can no longer be swung in [[Revengeance Mode]] until the [[Brain of Cthulhu]] or [[Eater of Worlds]] has been defeated.
+*[[Aquatic Heart|Siren's Heart]]s now grant extra life regeneration and defense in Hard Mode and after the [[Moon Lord]] has been defeated.
+*Made the notes from [[Anahita's Arpeggio|Siren's Song]] smaller.
+*[[Yharon's Kindle Staff]]'s Sons of Yharon now spawn flares 3 times less often.
+
+=== Other ===
+*Reduced dust on certain projectiles.
+
+=== Resprites ===
+*Resprited [[Devourer of Gods Mask]].
+*Resprited [[Victory Shard]].
+*Resprited [[Exoblade]], [[Nebulash]], [[Vivid Clarity]].
+*Resprited [[The Devourer of Gods]] phase 2's head, [[Plaguebringer]].
+*Reverted [[Earth]]'s sprite.
+
+=== Bug Fixes ===
+*Removed some gray pixels on [[Daedalus Hood]]'s item sprite.
+
+{{-}}
+{{Versions}}

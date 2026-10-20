@@ -1,0 +1,29 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 500
+| pick = 400
+| bonus = +20 range
+| knockback = 2
+| rare = C4
+| use = 1
+| toolspeed = 2
+| sell = {{value|5}}
+}}
+
+The '''Supreme Drill''' is a craftable Epilogue [[drill]]. It can mine blocks up to {{item|Thorium Ore}}
+
+{{Modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

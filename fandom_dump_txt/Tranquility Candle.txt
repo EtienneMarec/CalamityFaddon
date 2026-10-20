@@ -1,0 +1,38 @@
+{{item infobox
+| type = Furniture
+| type2 = Light Source
+| placeable = yes
+| consumable = yes
+| auto = yes
+| width = 1
+| height = 1
+| use = 14
+| rare = 0
+| stack = 9999
+| color = #EE9169
+| sell = {{value|0|0|1}}
+| buff = Tranquility Candle (buff)| bufflink = no
+| buffchance = 100% (When nearby)
+| bufftip = Spawn rates around this candle are reduced!
+| duration = Infinite (while in vicinity)
+| tooltip = The mere presence of this candle calms surrounding enemies drastically
+| hardmode = yes
+}}
+
+The '''Tranquility Candle''' is a craftable [[Hardmode]] piece of [[furniture]] that emits light and grants the Tranquility Candle [[buff]], which reduces enemy spawn rates by 28.57% and maximum spawn count by 60%.
+
+== Crafting ==
+=== Recipe ===
+{| align = top
+|{{recipes|view=infobox|result={{PAGENAME}}}}
+|}
+
+== Trivia ==
+*The Tranquility Candle is the exact opposite of the [[Chaos Candle]], which greatly ''increases'' spawn rate.
+*Similar to the [[Peace Candle]], the player can receive the effects of the candle while holding it.
+*The Tranquility Candle and its counterpart were implemented based on a community suggestion made by Celest on the mod's Discord server.
+
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

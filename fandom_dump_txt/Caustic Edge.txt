@@ -1,0 +1,44 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = melee
+| damage = 70
+| debuff = Poisoned
+| debufftip = Slowly losing life
+| debuffchance= 100%
+| debuffduration = 4 seconds
+| debuff2 = Venom
+| debufftip2 = Losing life
+| debuffchance2= 100%
+| debuffduration2 = 2 seconds
+| knockback = 5
+| auto = yes
+| stack = 1
+| rare = 2
+| sell = {{value|0|0|40}}
+| use = 26
+| tooltip = Inflicts poison and venom on enemy hits
+| element1 = Poison
+| element2 = Slash
+}}
+The '''Caustic Edge''' is a craftable [[Pre-Hardmode]] [[broadsword]]. On hit, it inflicts the [[Poisoned]] and [[Venom]] [[debuffs]].
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The Caustic Edge is available after defeating the Brain of Cthulhu or Eater of Worlds; as a result, it can be a particularly strong weapon for its tier before being replaced by stronger weapons.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:绝望之刃]]

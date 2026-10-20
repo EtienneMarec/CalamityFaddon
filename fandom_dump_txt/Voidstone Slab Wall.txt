@@ -1,0 +1,26 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| color = #131116
+| sell = No value
+| stack = 9999
+| rare = 0
+| hardmode = yes
+}}
+
+'''Voidstone Slab Walls''' are background [[wall]]s crafted with [[Voidstone Slab]]s at a [[Work Bench]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main = yes
+| show-walls= yes
+}}

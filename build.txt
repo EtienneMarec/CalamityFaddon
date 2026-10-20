@@ -1,0 +1,9 @@
+displayName = Calamity Fandom
+author = Etienne Marec
+version = 0.0.1
+modReferences = CalamityMod
+sortAfter = CalamityMod
+hideCode = false
+hideResources = false
+includeSource = true
+buildIgnore = *.csproj, *.sln, *.user, *.md, .git*, .vs\*, .vscode\*, .claude\*, bin\*, obj\*, Properties\*, lib\*, tools\*, data\*, reports\*, docs\*, wiki_edits\*, CalamityModPublic\*, fandom_dump_txt\*, fandom_dump_extra\*,fandom_sprites\*

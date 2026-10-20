@@ -1,0 +1,53 @@
+{{Patch infobox
+| image = Levi.png
+| patchname = Update 1.2.3.006
+| release = 12/3/2017
+}}
+
+The '''1.2.3.006''' update made [[The Slime God]] fight harder, added three [[Music Boxes]], and added the [[Siren's Heart]] [[coverings]].
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+*Added [[Levi]], Siren's Heart (Blue), Siren's Heart (Green).
+*Added [[Ice Shield (buff)]], [[Ice Shield Cooldown]], [[Levi (buff)]], [[Aquatic Heart|Siren (Blue)]], Siren (Green), Siren Speed.
+*Added [[Music Box (Calamitas)]], [[Music Box (Cryogen)]], [[Music Box (DoG Phase 1)]].
+
+== Changes ==
+
+=== [[Bosses]] and [[Enemies]] ===
+*[[???]] now has a 25% chance to drop either Siren's Heart in [[Revengeance Mode]].
+*[[Angry Dog]]s and [[Ice Clasper]]s can no longer spawn if the player is in the [[Dungeon]].
+*Increased the size of the [[Armored Digger]].
+*[[Desert Scourge]] now uses [[Music#Guardian of the Former Seas|Guardian of the Former Seas]] as its theme.
+*[[Irradiated Slime]]s now have a 10% chance to drop a [[Lead Core]] instead of a 20% chance.
+*Phase 2 of [[Jungle Dragon, Yharon]] now despawns quicker if no players are alive.
+*Yharon's infernadoes now last 8 seconds instead of 7.
+*Lowered the distance required for the Ebonian and Crimulan [[Slime God]]s to fly towards the player.
+*Ebonian and Crimulan Slime Gods are now more aggressive in Death Mode.
+*Lowered Slime God Core's speed.
+
+==== [[Items]] ====
+*Renamed Gun to [[Soma Prime]].
+*Renamed Viable? to [[Lacerator]], and added "Someone thought this was a viable weapon against DoG at one point lol" to its tooltip.
+*[[Staff of the Mechworm]]'s damage scaling is now capped at 10, and added the line, "The damage scaling stops growing after 10 minion slots" to its tooltip.
+
+=== Other ===
+*[[Exo Freeze]] and [[Glacial State]] now also slow down vertical movement in addition to slowing horizontal movement.
+
+=== Resprites ===
+*Resprited [[Asgardian Aegis]], [[Astral Arcanum]], [[Enchanted Pearl]].
+*Resprited [[Mechworm (buff)]].
+*Resprited The Devourer of Gods' phase 1 map icon.
+*Resprited [[Atlantis]]' spear projectile.
+
+=== Fixes ===
+*Fixed a bug where [[Signus, Envoy of the Devourer]] wouldn't despawn once every player had been killed.
+*Fixed a bug where the Slime God's large slimes wouldn't split up.
+*Fixed a bug where Yharon's infernadoes could hurt the player immediately upon spawning.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

@@ -1,0 +1,27 @@
+{{Patch infobox
+| title = 1.4.3.001
+| image = Death.png
+| patchname = Death Mode rework (Music mod)
+| prev = [[1.4.2.105 (music)|1.4.2.105]]
+| next = [[1.4.4.001 (music)|1.4.4.001]]
+| release = 2/6/2020
+| pair = 1.4.3.001
+}}
+{{dablink|This is the page for the '''1.4.3.001 Music mod''' update, for the '''1.4.3.001''' Main mod update click [[1.4.3.001|here]].}}
+The '''1.4.3.001''' (or '''1.4.3.1''') Music mod update added support for the "Boss Checklist" mod.
+
+This Music Mod version was compatible with Main mod versions [[1.4.3.001]] and [[1.4.3.002]].
+
+== Changes ==
+*Renamed Music Box (Yharon, Pre-dark sun) to [[Music Box (Yharon, Post-dark sun)]].
+*Replaced "Heaven's Hell-Sent Gift" with "The Heaven-Sent Abomination" as the music track for the [[Astral Infection]].
+*Music Boxes can now be tracked with the "Boss Checklist" mod.
+
+== Fixes ==
+*Fixed an oversight that caused [[Music Boxes]] to occasionally become unloaded tiles when updating the mod.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-music = yes
+}}

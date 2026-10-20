@@ -1,0 +1,103 @@
+{{npc infobox
+| type = NPC
+| environment = Valid house
+| ai = Passive AI
+| life = 600
+| defense = 15
+| knockback = 50
+| image2 = Agent map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+The '''Agent''' is a unique [[NPC]] vendor that will randomly spawn for one night, giving the player random items based on their progression. He is not a [[Town NPC]] and does not require his own house to spawn, and will instead spawn near [[The Codebreaker]].
+
+In order for the Agent to spawn, the player must have placed the [[The Codebreaker#Long Ranged Sensor Array|Long Ranged Sensor Array]] on [[The Codebreaker]], and a Codebreaker must exist in the world. Once this criterion has been met, the Agent has a 5% chance of spawning each night at 8:00 PM, provided no [[events]] are active (apart from a [[Blood Moon]], in which the chances of him spawning are increased to 10%.) He will leave the next day at 2:00 AM.
+
+When threatened by [[enemies]], he will defend himself with the [[Triploon]]. After defeating the [[Moon Lord]], he upgrades to the [[Twentloon]], and after the [[The Fabricational Quartet]], the [[Twenty-Twloon]].
+
+== Items given ==
+The Agent will always provide the highest-tier item in the [[Harpoon]] line possible, and one other item from the list.
+{| class = "terraria lined"
+|+'''Items given'''
+! align=top padding=10px|Item
+!Conditions
+|-
+|{{item|Harpoon}}
+|Always available.
+|-
+|{{item|Portabulb}}
+|If any [[Mechanical bosses|mechanical boss]] has been defeated, and [[Plantera]] has not been defeated.
+|-
+|{{item|Ocram's Razor}}
+|If the player has [[Draedon's Remote]] in their inventory.
+|-
+|{{item|Dualpoon}}
+|If all [[Mechanical bosses|mechanical bosses]] have been defeated.
+|-
+|{{item|Triploon}}
+|If [[Calamitas]] has been defeated.
+|-
+|{{item|Picksaw}}
+|If [[Golem]] has been defeated, and the player does not have a [[pickaxe]] with over 210% power in their inventory.
+|-
+|{{item|Eidolon Tablet}}
+|If [[The Plaguebringer Goliath]] has been defeated, and the [[Lunatic Cultist]] has not been defeated.
+|-
+|{{item|Twentloon}}
+|If [[The Devourer of Gods]] has been defeated.
+|-
+|{{item|Twenty-Twloon}}
+|If the [[The Fabricational Quartet]] have been defeated.
+|}
+
+== Names ==
+*The Agent can have one of the following names:
+**Lincoln
+**Garfield
+**McKinley
+**Kennedy
+**Mueller
+**Scully
+**Mulder
+**Hoover
+**Schrader
+**Fitzgerald
+**Snowden
+**Comey
+
+== Quotes ==
+'''Any time:'''
+*"Listen: if anyone asks, I'm dead, you're dead, it would be impossible for us to have a conversation."
+*"Yharim? You know, if we had our way, he'd be behind bars by now."
+*"Do you happen to, ah... know the individual who created your machine? We've been trying to track him down."
+*"I'm glad you aren't talking. Not only does it not alert people to my presence, it also prevents you from looking like a fool for talking to nobody."
+*"Here's our deal: I study this machine, I give you some items to stay quiet about it, and nobody knows about anything that happened."
+*"We've gathered a lot of intel on the properties of that glowy liquid. It's more powerful than you might expect."
+*"We aren't affiliated with any sort of government. We're a pack of lone wolves."
+*"No, I'm telling you, the machine is-uh... hey, do you want some free items?"
+'''During a [[Blood Moon]]:'''
+*"I find these nights easier to work under. Not only are they darker, they're also a refreshing break from the other kind of grotesque monsters."
+*"We used to have most of these creatures contained. How did so many escape?"
+'''During [[Rain]]:'''
+*"Rain. Great for cover, not great for everyday walking around."
+*"At some point, we even tried to contain the water that falls from the sky. We may have been a bit too ambitious in those days."
+'''During a [[Thunderstorm]]:'''
+*"You never heard this, but sometimes we use this electricity to get rid-what was that? ... I've been told I should stop talking."
+*"This storm seems to be disrupting my connection back to our base. This is terrible, there's no way I can survive for long without constant surveillance!"
+'''If no Codebreaker exists in the world:'''
+*"Listen... how about you set up that machine again? We don't want to have to... surprise you."
+'''When the player clicks on "Recieve Items":'''
+*"This is what I have for now. And remember: we have never interacted."
+*"These just magically appeared in your inventory, as I'm sure you know."
+
+== Trivia ==
+*All of the Agent's possible names reference assassinated presidents of the United States, which are frequently alleged to have been killed by the [https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation FBI] in conspiracy theories, other people associated with American intelligence agencies, or fictional characters who work for the United States government.
+*The Agent's spawn condition and dialogue implies that his main goal is to arrest [[Draedon]], though the exact crimes he committed are unknown.
+*The Agent is referred to as "FBIGUY" in the mod's source files, confirming that the Agent is a reference to the FBI.
+
+{{Master Template Characters
+| show-main = yes
+| show-npc = yes
+}}

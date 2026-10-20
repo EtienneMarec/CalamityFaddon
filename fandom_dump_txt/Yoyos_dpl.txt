@@ -1,0 +1,22 @@
+<includeonly>
+{{#ifeq:{{{listexclude|no}}}|yes|<!--nothing-->|
+{{!}}-
+{{!}} align=center {{!}} {{item|mode=table|{{{name|{{{%PAGE%}}}}}}|link={{{%PAGE%}}}|image={{#ifeq:{{{noimagetransclude|}}}|yes|{{{name|{{{%PAGE%}}}}}}.png|{{{imagealt|{{{image|{{{name|{{{%PAGE%}}}}}}.png}}}}}}}}}}
+{{!}} align=center {{!}} '''{{{damage|0}}}'''
+{{!}} data-sort-value={{{use|0}}} align=center style="line-height:15px" {{!}} {{{use|0}}} <br/> <small>({{use time|{{{use|0}}}}})</small>
+{{!}} data-sort-value={{{knockback|0}}} align=center style="line-height:15px" {{!}} {{{knockback|0}}} <br/> <small>({{knockback|{{{knockback|0}}}}})</small>
+{{!}} align=center style="line-height:15px" {{!}} {{{reach|0}}}
+{{!}} data-sort-value ={{#ifeq:{{{attduration|0}}}|<div style="display:inline-block; vertical-align:middle; font-size:200%; font-weight:900; text-shadow:0 0 5px #FF0066; cursor:help;" title="Infinite">∞</div>|9999999|{{#sub:{{{attduration|0}}}|0|{{#pos:{{{attduration|0}}}|s}}}}}} align=center style="line-height:15px" {{!}} {{{attduration|0}}}
+{{!}} align=center {{!}} {{{{{auto|no}}}}}
+{{!}} {{rare|{{{rare|0}}}|sort=yes}}
+{{!}} align=center {{!}} {{{{{hardmode|no}}}}}
+{{!}} align=center {{!}} {{{{{postml|no}}}}}
+{{!}} align=center {{!}} {{{{{epilogue|no}}}}}
+{{!}} align=right data-sort-value={{value total|{{{sell|}}}}} {{!}} {{{sell|}}}
+{{!}}-
+}}
+</includeonly>
+<noinclude>
+{{Dpl pages}}
+[[Category:DPL]]
+</noinclude>

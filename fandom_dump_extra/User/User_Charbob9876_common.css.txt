@@ -1,0 +1,12 @@
+
+.mcf-wrapper { display: none;} /* hides "fan feed", bottom of the page content */
+.resizable-container { /* forces max width at all times */
+ max-width:100%;
+ width:95%
+}
+.fandom-sticky-header { display:none;} /* hide header bar*/ 
+.global-navigation__logo { display: none; } /* hides top fandom logo */
+.global-navigation__links { display: none; } /* hides the nav links to other wikis on nav bar*/
+
+.main-container { margin-left: 0; } /* stretch main page to compensate for the lack of global nav */
+.global-navigation { display: none;} /* remove global nav completely*/

@@ -1,0 +1,53 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = ranged
+| damage = 135
+| knockback = 7
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| auto = yes
+| use = 20
+| velocity = 25
+| tooltip = Is it nullable or not? Let's find out!<br/>Fires a fast null bullet that distorts NPC stats
+| hardmode = yes
+| element1 = Magic
+| element2 = Electricity
+| element3 = Machine
+}}
+|{{item drops infobox
+| [[Martian Saucer]]|1|{{dv|14.29%|25%}}
+}}
+}}
+
+The '''Nullification Pistol''' is a [[Hardmode]] [[Ranged weapons|ranged weapon]] that has a chance of dropping from the [[Martian Saucer]] in the [[Martian Madness]] event. It does not use any ammo. Each shot will alter its target in some way, as long as it is not a [[boss]]. The following effects can happen at an equal chance:
+*Grow 100% bigger
+*Shrink 50% smaller
+*Deal 10 more contact damage
+*Deal 10 less contact damage
+*Become completely resistant to [[knockback]]
+*Remove all knockback resistance
+*Increase [[defense]] by 5
+*Decrease defense by 5
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The amount of contact damage increase or decrease will scale with difficulty.
+**For example, [[Great Sand Shark]] has a 60% scaling factor in [[Expert Mode]] and 15% scaling factor in [[Revengeance Mode]]. Therefore, the amount of damage increase will equal to {{dv|10|16|boost=0.15}}.
+
+== Trivia ==
+*The Nullification Pistol will work on the [[Guide]] and the [[Clothier]] with their respective [[Guide Voodoo Doll|voodoo]] [[Clothier Voodoo Doll|dolls]] equipped.
+*The Nullification Pistol used to use the player's health as ammo.
+**If the player was killed by the damage inflicted upon using the weapon, the death message "<PlayerName> was vaporized by the imbuement of his/her life." would display.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

@@ -1,0 +1,45 @@
+{{dedicated|Blackhand|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 390
+| use = 18
+| velocity = 12
+| knockback = 8
+| auto = yes
+| stack = 1
+| rare = 14
+| sell = {{value|0|28}}
+| tooltip = Fires void essences which flay nearby enemies with tentacles<br/>Ignores immunity frames<br/>’The abyss has stared back at you long enough. It now speaks, and it does not speak softly.’
+| hardmode = yes
+| postml = yes
+| proj = Nadir Spear.png
+| projcaption = Nadir
+| proj2 = Void Essence.gif
+| proj2caption = Void Essence
+| element1 = Dark
+| element2 = Stab
+}}
+
+'''Nadir''' is a craftable Godseeker Mode [[Spears|spear]]. Each use fires a writhing void essence which passes through walls, weakly homes in on enemies and erupts into gray void tentacles after traveling some distance. Void essences slow down rapidly upon touching an enemy and quickly disintegrate, dealing damage several times in the process. When near or touching enemies, the essences constantly spawn void tentacles which impale any nearby targets.
+
+The spear itself, the void essences it fires and their spawned void tentacles all ignore NPC [[immunity frames]].
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*A [[wikipedia:Nadir|nadir]] is the lowest point of something, the opposite of a [[wikipedia:Zenith|zenith]].
+*The item's tooltip references part of a quote by [[wikipedia:Friedrich Nietzsche|Friedrich Nietzsche]]: "Whoever fights with monsters should see to it that he does not become a monster in the process. And when you gaze long into an abyss the abyss also gazes into you."
+*The void essences fired by the spear are modeled after Humanity Phantoms from ''[[wikipedia:Dark Souls|Dark Souls]]'', an enemy commonly found in an area called ''Chasm of the Abyss''.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

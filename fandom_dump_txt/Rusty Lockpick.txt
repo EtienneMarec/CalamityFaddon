@@ -1,0 +1,26 @@
+{{historical content}}
+{{item infobox
+| type = Key
+| type2 = Tool
+| type3 = Crafting material
+| rare = 1
+| stack = 99
+| tooltip = Opens locked rusty chests
+| sell = {{value|0|0|20}}
+| listexclude = yes
+}}
+
+The '''Rusty Lockpick''' was a craftable item which allowed the player to access locked [[Rusty Chest]]s while in the player's inventory. A Rusty Lockpick was consumed upon use, so unlocking each Rusty Chest would require an additional key. Additionally, it could also craft items that would otherwise be found in Rusty Chests.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}|historical=only}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}|historical=only}}
+{{-}}
+{{Historical}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

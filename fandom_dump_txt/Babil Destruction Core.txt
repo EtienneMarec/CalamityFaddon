@@ -1,0 +1,29 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = 100% increased mining speed, 20% increased movement speed and 20% decreased damage reduction every time you take damage
+| buff = Incomplete Panic
+| buffduration = 5 seconds
+| rare = 6
+| sell = {{value|0|10}}
+| hardmode = yes
+}}
+{{item drops infobox
+| [[Floating Biomass]]|1||5%}}
+
+The '''Babil Destruction Core''' is a [[Hardmode]] [[covering]] that drops from [[Floating Biomass]]es. It provides certain buffs and debuffs for 5 seconds after taking damage:
+100% mining speed increase
+20% movement speed increase
+20% damage reduction decrease
+== Crafting ==
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category: coverings]]

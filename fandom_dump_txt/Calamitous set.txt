@@ -1,0 +1,43 @@
+{{infobox wrapper
+|{{item infobox
+| type = Vanity
+| type2 = Armor
+| rare = 1
+| hardmode = yes
+| postml = yes
+| sell = No value
+}}
+|{{item drops infobox
+| [[Supreme Calamitas]] | 1 | 14.29%
+}}
+}}
+{{distinguish|Set of Calamity|A vanity set that drops from [[Calamitas]]}}
+
+'''Calamitous set''' is a Godseeker Mode [[vanity]] set which consists of the '''Calamitous Hood''', '''Calamitous Robes''' and '''Calamitous Boots'''. The set is collectively dropped from [[Supreme Calamitas]] at a 14.29% chance along with the [[Ashen Horns]].
+
+== Set ==
+{{infobox wrapper|direction = row|float = none
+|{{item infobox
+| name = Calamitous Hood
+| type = Vanity
+| body slot = Social Helmet
+| listexclude = yes
+}}
+|{{item infobox
+| name = Calamitous Robes
+| type = Vanity
+| body slot = Social Shirt
+| listexclude = yes
+}}
+|{{item infobox
+| name = Calamitous Boots
+| type = Vanity
+| body slot = Social Pants
+| listexclude = yes
+}}
+}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-vanity = yes
+}}

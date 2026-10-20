@@ -1,0 +1,41 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = melee
+| tooltip = Figs? Bigs.
+| damage = 512
+| knockback = 3
+| critical = 16%
+| rare = 13
+| sell = {{value|0|24}}
+| use = 25
+| hardmode = yes
+| postml = yes
+| velocity = 24
+| debuff = Moon Burnt
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Inrcenerated{{sic}} by lunar flames
+| element1 = Dark
+| element2 = Slash
+}}
+
+'''The Archalis''' is a craftable Godseeker Mode [[melee weapon]]. While being swung, white blurred slashes will appear in the direction of the mouse, creating an illusion that the sword itself is being swung very quickly. Any enemies that are hit by the slashes will take damage and are inflicted with the [[Moon Burnt]] [[debuff]]. There is a 10% chance for a Caracal to be summoned from the sky on an enemy hit, which briefly jumps around on enemies similarly to the [[Slime Staff]] then passes out and despawns shortly after.
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*[[wikipedia:Caracal|Caracal]]s are a real world wild cat.
+*The item's name is a pun on the vanilla [[Arkhalis]] and the [[Arc]].
+{{-}}
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:True melee]]

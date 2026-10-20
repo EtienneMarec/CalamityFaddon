@@ -1,0 +1,7 @@
+<includeonly>{{#dpl:
+| category = {{{1|{{{cat}}}}}}
+| ordermethod = {{{ordermethod|titlewithoutnamespace}}}
+| order = {{{order|ascending}}}
+| include = {{{{template|item infobox}}}¦{{{format|/dpl}}}}
+| mode = userformat
+}}</includeonly><noinclude>{{doc}}</noinclude>

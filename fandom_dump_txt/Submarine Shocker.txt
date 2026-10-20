@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| tooltip = Enemies release electric sparks on hit<br/>Shortflurry attacks spawn poisonous clouds
+| damage = 42
+| use = 10
+| knockback = 7
+| auto = yes
+| stack = 1
+| rare = 5
+| sell = {{value|0|7|20}}
+| element1 = Water
+| element2 = Poison
+| element3 = Stab
+}}
+|{{item drops infobox
+|[[Aquatic Scourge]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Submarine Shocker''' is a Pre-hardmode [[shortsword]] that drops from the [[Aquatic Scourge]]; it can be considered an indirect upgrade to the [[Aquatic Discharge]]. It unleashes 1-2 sparks upon hitting an enemy, which are affected by gravity and fall through platforms. These sparks linger for 1 second and can hit up to 4 times.
+
+When the weapon's [[Shortstrike]] ability activates, [[Sulphuric Poisoning]]-inflicting clouds are spawned which linger in place.
+
+{{modifier|melee}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]
+[[Category:True melee]]

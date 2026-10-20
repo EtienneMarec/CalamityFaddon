@@ -1,0 +1,30 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = 15% increased Spy projectile velocity<br/>Stealth strikes cause feathers to fall from the sky on enemy hits
+| sell = {{value|0|0|80}}
+| rare = 3
+| stack = 1
+| proj = Sticky Feather.png
+| projcaption = Sticky Feather
+| element1 = Magic
+| element2 = Stab
+}}
+
+The '''Feather Crown''' is a craftable [[Pre-Hardmode]] [[Spy]] [[covering]]. While equipped it boosts the velocity of any thrown Spy weapon by 15%.
+
+If the player utilizes a stealth strike and hits an enemy with this covering equipped, three sticky feathers will rain down onto the target. The feathers deal 15 typeless damage which can be affected by Spy damage bonuses. This effect only triggers for the first five enemies hit, and has a cooldown of 0.25 seconds.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

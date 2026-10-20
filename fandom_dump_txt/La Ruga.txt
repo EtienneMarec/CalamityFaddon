@@ -1,0 +1,111 @@
+{{DISPLAYTITLE:<big><font color="#ff0000">'''La Ruga'''</font></big>}}
+{{npc infobox
+| type = Enemy
+| ai = La Ruga AI
+| environment = Abyss
+| environment2 = The Exosphere
+| damage = {{dv|4%|8%}} of the player's health (contact}<br/>{{dv|1%|1.5%}} of the player's health (grab)
+| life = {{dv|110,000|220,000}}
+| defense = 0
+| dr = 0
+| knockback = 100
+| debuff = Scorinfestation
+| debufftip = Consumed by magma
+| duration = 5 minutes
+| debuffchance = 5%
+| immuneall = y
+| vulnerable1 = Cold
+| resistant1 = Dark
+| resistant2 = Fire
+| resistant3 = Water
+| resistant4 = Unholy
+| money = {{value|0|0|0|0|22}}
+| 22 Hornet Round | 19-22 | 100%
+| Scoria Ore | 20-50 | 100%
+| Terminus | 1 | 100%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+'''La Ruga''' (Enchanting Table: T⍑ᒷ rᒷᓵꖌ𝙹リ╎リ⊣ ''"The Reckoning"'') is a Godseeker Mode [[mini boss]] that rarely spawns in the fourth layer of the [[Abyss]] and in the bottom left corner of [[The Exosphere]] provided the [[Mechanical Horde]] has been defeated {{fantag|Calamity: Community Remix}}. La Ruga can also spawn rarely in [[Caelus]] if it has been defeated in The Exosphere {{dei}}. It is initially passive, but upon entering a 20 block range of it or hurting it, it will emit a screaming noise then start scuttling towards the player while ignoring gravity. If it hits the player 3 times within the span of 2 seconds, it will latch onto them, dealing continuous damage 22 times before dethatching. After reaching 50% health, La Ruga can crack its neck and scream, inflicting the [[Obstructed]] debuff for 5 seconds. While the player is inflicted with Obstructed, La Ruga will stop scuttling and simply float towards the player. If the player makes contact with La Ruga during this state, they have a 5% chance to be inflicted with the '''[[Scorinfestation]]''' which gradually converts the player's items into equivalent [[Scoria Bar|Scoria items]] until La Ruga is defeated.
+
+After being defeated for the first time or defeating [[The Hive Mind]], La Ruga will have a very low chance to spawn on the surface at night. If La Ruga spawns this way, it will not hurt the player unless attacked. Right clicking La Ruga with a chunk of Scoria Ore will cause it to transform into [[Lav'e Rugamarius]]. If the player has a [[Deadflower]] in their inventory, [[La Ruga]] will not spawn naturally.
+
+Upon being defeated, La Ruga will fade away with a soft scream and drop some [[22 Hornet Round]]s, [[Scoria Ore]], and the [[Terminus]].
+
+== Trivia ==
+*While La Ruga is alive, [https://youtu.be/gdV_zPGqLm4 a custom ambience] plays, which was created by Sploopo.
+*La Ruga is a reference to a common fan theory of a creature of an identical name and appearance hiding within the realm of the gods as a looming presence.
+**This also explains the usage of the number 22, following the [[22 Bullet Theory]].
+*La Ruga can be found consuming [[Ores|Scoria Ore]] if found in The Exosphere, this is a reference to The Sealed.
+*La Ruga is french for "The Reckoning". (for now at least)
+*La Ruga has a secret ability of deleting system 32 off your computer if played on the seed 1002329123 and killed during a waxing gibbous.
+{{-}}
+== Scorinfestation transformations ==
+A full list of items that can be converted into Scoria equivalents can be found below:
+{{collapse top|Dialogue Changes (click to reveal)|Dialogue Changes (click to collapse)}}
+
+{| class="terraria lined"
+! Item group !! Conversion
+|-
+| Any [[Sword]]
+| {{item|Hellfire Flamberge}}
+|-
+| Any other [[melee weapon]]
+| {{item|Vulcanite Lance}}
+|-
+| Any [[Bow]]
+| {{item|Continental Greatbow}}
+|-
+| Any other [[ranged weapon]]
+| {{item|Helstorm}}
+|-
+| Any [[magic weapon]]
+| {{item|Forbidden Sun}}
+|-
+| Any [[Spy weapon]]
+| {{item|Subduction Slicer}}
+|-
+| Any [[summon]] or [[classless]] weapon
+| {{item|Fault Line}}
+|-
+| Any [[Block]]
+| {{item|Chaotic Brick}}
+|-
+| Any [[Wall]]
+| {{item|Chaotic Brick Wall}}
+|-
+| Any [[Pickaxe]] or [[Hammer]]
+| {{item|Seismic Hampick}}
+|-
+| Any [[Axe]]
+| {{item|Tectonic Truncator}}
+|-
+| Any [[Fishing pole]]
+| {{item|Rift Reeler}}
+|-
+| Any [[Covering]]
+| {{item|Hadal Mantle}}
+|-
+| Any Helmet
+| A random {{item|Hydrothermic Helmet}}
+|-
+| Any Chestplate
+| {{item|Hydrothermic Armor}}
+|-
+| Any Leggings
+| {{item|Hydrothermic Subligar}}
+|-
+| Any [[Potions]]
+| {{item|Scoria Ore}}
+|-
+| Any other item
+| {{item|Scoria Bar}}
+|-
+|}
+{{collapse bottom}}
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

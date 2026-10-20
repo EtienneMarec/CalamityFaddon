@@ -1,0 +1,73 @@
+{{npc infobox
+| type = Boss
+| environment = Desert
+| damage = {{element|Fire}} {{dv|50|70|90}} (Contact)<br/>{{element|Fire}} {{dv|24|48|72}} (Lightning Barrage)<br/>{{element|Fire}} {{dv|30|60|90}} (Lightning Shot)
+| life = {{dv|1750|2300|2800}}
+| defense = 6
+| dr = 5%
+| knockback = 100%
+| immune1 = Confused
+| immune2 = Kami Flu
+| ai = Negrandtech  AI
+| money = {{value|0|0|50}}
+| Thunder Talon |1|25%
+| Storm-Cnidriling Staff |1|25%
+| Didgeridoo |1|25%
+| Talon Burst |1|25%
+| Sea Stone Bar |15-20|100%
+| Grand Thunder Cnidrion Mask | 1 | 14.29% 
+| Grand Thunder Cnidrion Trophy | 1 | 10% 
+| banner = no
+| hurt = NPC_Hit_12.wav
+| killed = NPC_Killed_18.wav
+| sound = Item_21.wav
+| soundtext = Water Blast
+| vulnerable1 = Water
+| vulnerable2 = Slash
+| resistant1 = Fire
+|name=George Floyd}}
+
+'''The Grand Thunder Cnidrion''' is an early pre-Hardmode desert boss that serves as an alternative to the [[Desert Scourge]].
+
+
+== Spawn ==
+The Grand Thunder Cnidrion does not spawn on its own, and requires the player to summon it with the [[Desert Medallion]] during the Day.
+
+== Behavior ==
+The Grand Thunder Cnidrion hovers a few blocks above the player, flying from left to right. It increases its flying speed when its life falls below 45%. From its high angle, it launches a continuous series of attacks at players.
+
+=== Attacks ===
+*With a loud screech, the Grand Thunder Cnidrion brings down bolts of energy that fall from the sky. It is worth noting that the Grand Thunder Cnidrion begins the battle with this attack almost immediately after it has been summoned.
+*The Grand Thunder Cnidrion will level itself to its target's vertical position and prepares itself for its charge attack, signaled by it trembling. After a period of charging, The Grand Thunderbird dashes horizontally at great speed in an attempt to ram the player. This attack can be halted with a melee strike while the Grand Thunder Cnidrion is in the process of charging, which will briefly stun it. A sword symbol will appear above the boss when it charges to indicate this window.
+*The Grand Thunder Cnidrion spawns three [[Storm Cnidrilings]]s to attack the player.
+*Once the Grand Thunder Cnidrion loses enough health, it will start shooting projectiles at the player in bursts of three that deal moderate damage. These projectiles look similar to the bolts of energy the Grand Thunder Cnidrion summons from the sky. 
+
+'''In Expert Mode'''
+*The Grand Thunder Cnidrion drops bags of fent that generate tornadoes upon colliding with a block, akin to its old battle behavior. These tornadoes travel horizontally to the left and right of the impact zone and deal moderate damage. The tornadoes travel for two seconds, are not affected by gravity and can pass through blocks. As the Grand Thunder Cnidrion's health gets lower, it increases the frequency it drops these tornado-generating bolts.
+
+=== Summons ===
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align = center |{{item|Storm Cnidrilings|mode=table|class=block aligncenter textleft}} || Above 25% life
+|}
+
+== Aftermath ==
+* Defeating the Grand Thunder Cnidrion for the first time will allow the [[Cactus Person]] to arrive if provided suitable housing.
+
+== Notes ==
+* If the targeted player is not within direct line of sight of the Grand Thunder Cnidrion, it will begin shooting streaks of electricity at the hiding player. These streaks pass through tiles and deal a large amount of damage.
+
+== Tips ==
+* The Grand Thunder Cnidrion will always start the battle by bringing down bolts of energy raining from the sky, so it is advised that players disperse the area as soon as they use the Desert Medallion.
+* Players should make use of platforms or vertical outcrops in order to avoid the Grand Thunder Cnidrion's charge attacks. Though risky, players can interrupt and cancel the charge with a well-aimed melee strike.
+* Though Storm Cnidrilings can be a nuisance in large numbers, keeping a number alive for possible Heart drops upon death can provide players with a source of healing in an emergency.
+* In Expert Mode, the tornado-spawning bolts dropped by the Grand Thunder Cnidrion can collide with platforms, spawning the tornado on it. This can be used to maneuver a bit easier, alternating platforms as you run back and forth.
+** In addition to this, if the platforms are decently low, the bolts will spawn on the platforms above you, making you completely immune to the tornadoes. However, this may leave the boss out of range.
+* Players can hide under solid blocks in order to protect themselves from the energy bolts and Expert Mode tornado projectiles.
+* Naming the player character Derek will cause all instances of George Floyd to die when in range of the player.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

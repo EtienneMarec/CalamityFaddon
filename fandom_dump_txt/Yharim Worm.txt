@@ -1,0 +1,130 @@
+=== ''"The cloning of Yharim has been taken too far!"'' ===
+{{npc infobox
+| name = Yharim Worm
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = Yharim Worm AI
+| life = {{dv|690,000|1,380,000|2,070,000}}
+| knockback = 100
+| immune1 = Confused
+| money = {{value|90|40|75|45}}
+| image2 = Yharim Worm map.png
+| image2caption = Map Icon
+| listexclude = yes
+| boxwidth = 25em
+| resistant1 = Unholy
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+|postml=yes
+}}
+
+Yharim Worm (Japanese: ヤハリムワーム ''Yaharimuwāmu'') is a secret Godseeker Mode [[boss]] that can be fought anywhere. The player should be very prepared as the boss deals very high damage along with fast speed and projectiles. Defeating it will provide the player with a large amount of Coins and the ability to fight [[Godseeker, Yharim]]. The Yharim Worm has 100 segments in total. 
+
+== Spawn ==
+Yharim Worm does not spawn on it's own and it requires the player to put a [[tgc:Worm|Worm]] in [[The Codebreaker]] or [[Altar of the Accursed]].
+
+== Behavior ==
+Yharim Worm will attempt to ram into the player while shooting {{item|Yharimsword|nolink=yes|size=20px|Swords}} towards his direction. One a few seconds past, his segments will rapidly shoot smaller versions of the [[Lunatic Cultist]]'s fireballs at the player. His tail will also shoot swords in random directions. After reaching 50% health, Yharim Worm will become much faster then he originally was, and it's turning speed increases.
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Boss
+| image= YharWorm.png|300px
+| type2 = Burrowing Enemy
+| ai = Yharim Worm AI
+| name =Yharim Worm Head
+| environment = Jungle
+| life = {{dv|690,000|1,380,000|2,070,000}}
+| vulnerable1 = Holy
+| resistant1 = Cold
+| resistant2 = Fire
+| resistant3 = Poison
+| resistant4 = Stab
+| resistant5 = Slash
+| resistant6 = Magic
+| resistant7 = Dark
+| resistant8 = Water
+| resistant9 = Unholy
+| resistant10 = Acid
+| resistant11 = Radioactive
+| resistant12 = Wind
+| knockback = 100
+| damage = {{dv|420|840|1260|}} (Contact) {{dv|360|720|1080|}} (Swords)
+| defense = 0
+}}
+|{{npc infobox
+| type = Boss
+| image= YharWorm.png|300px
+| type2 = Burrowing Enemy
+| ai = Yharim Worm AI
+| name =Yharim Worm Body
+| environment = Jungle
+| life = {{dv|690,000|1,380,000|2,070,000}}
+| vulnerable1 = Holy
+| resistant1 = Cold
+| resistant2 = Fire
+| resistant3 = Poison
+| resistant4 = Stab
+| resistant5 = Slash
+| resistant6 = Magic
+| resistant7 = Dark
+| resistant8 = Water
+| resistant9 = Unholy
+| resistant10 = Acid
+| resistant11 = Radioactive
+| resistant12 = Wind
+| knockback = 100
+| damage = {{dv|420|840|1260|}} (Contact) {{dv|160|320|480|}} (Cultist fireball)
+| defense = 0
+}}
+|{{npc infobox
+| type = Boss
+| image= YharWorm.png|300px
+| type2 = Burrowing Enemy
+| ai = Yharim Worm AI
+| name =Yharim Worm Tail
+| environment = Jungle
+| life = {{dv|690,000|1,380,000|2,070,000}}
+| vulnerable1 = Holy
+| resistant1 = Cold
+| resistant2 = Fire
+| resistant3 = Poison
+| resistant4 = Stab
+| resistant5 = Slash
+| resistant6 = Magic
+| resistant7 = Dark
+| resistant8 = Water
+| resistant9 = Unholy
+| resistant10 = Acid
+| resistant11 = Radioactive
+| resistant12 = Wind
+| knockback = 100
+| damage = {{dv|420|840|1260|}} (Contact) {{dv|360|720|1080|}} (Swords)
+| defense = 0
+}}
+}}
+
+== Resistances ==
+{{ajax|List of resisted grenades|head=Resisted grenades|width=30%}}
+
+== Tips ==
+''For more elaborate strategies on defeating Yharim Worm, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Yharim Worm strategies]].''
+
+== Trivia ==
+*Yharim Worm's sprite is originally concept art of Yharim with his sword.
+*Yharim is also an important figure in the Calamity Mod lore. The lore of the Yharim Worm is that Draedon attempted to clone Yharim, but failed, forming a worm. As the worm escaped, it devoured Draedon's body, transforming him into [[Disgusting Creature: Dron|Disgusting Creature, Dron]].
+*The Yharim worm is based on a running joke of Calamity having too many worm bosses. Fabsol, out of spite, implemented the '''Yharim Worm''' before [[Godseeker, Yharim]] was added to the game. To this date, the boss has not been removed from the mod, and remains required to fight [[Godseeker, Yharim|Yharim]]. 
+*The [[Music|song]] heard during the battle against Yharim Worm is [[Music|Failure of a Being]].
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' will play Instead.
+*If the Boss Checklist Mod is installed, its unique despawn message will be "''The writhing, wiggling abomination of the Tyrant has smote every player.''”
+
+== Quotes ==
+"You're explicitly thy nuisance to personal fortress" (When Yharim Worm reaches 50% health)
+
+"Rude." (When Yharim Worm is defeated)
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

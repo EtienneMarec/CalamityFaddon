@@ -1,0 +1,1328 @@
+{{Patch infobox
+| image = Astrum Deus.png
+| patchname = Boss and Weapon Reworks
+| release = 7/7/2019
+| pair = 1.4.2.001 (music)
+| size = 300px
+}}
+{{toc limit|3|right=yes}}
+The '''1.4.2.102''' update retiered [[Astrum Deus]] from post-[[Plantera]] to post-[[Lunatic Cultist]], along with giving it a new spawn method. The update also reworked the [[Sentinels of the Devourer]] and [[Calamitas]], along with editing most of the mod's weapon tooltips and debuff durations. The update also reworked some of Calamity weapons to have more interesting effects, most notably on some of the mod's [[spears]], [[bows]], and [[swords]].
+
+== Additions ==
+*Added a [[Configuration option]] to buff bosses from the Thorium Mod in [[Revengeance Mode]].
+
+== Changes ==
+=== Bosses ===
+==== [[Aquatic Scourge]] ====
+*Now despawns quicker, and will despawn while not at either [[Ocean]].
+*Changed most Normal Mode drop chances:
+**Decreased the chance for [[Aero Stone]] from 20% to 11.11%.
+**Changed the chances for [[Angler Tackle Bag]]s, [[High Test Fishing Line]]s, and [[Tackle Box]]es from 6.67% in pre-Hardmode and 12.5% in Hardmode, to 8.33% at all times.
+**Changed the chances for [[Angler Earring]]s, [[Fisherman's Pocket Guide]]s, [[Sextant]]s, and [[Weather Radio]]s from 10% in pre-Hardmode and 20% in Hardmode, to 11.11% at all times.
+**Changed the chances for [[Angler Hat]]s, [[Angler Vest]]s, [[Angler Pants]], [[Fishing Potion]]s, [[Crate Potion]]s, and [[Sonar Potion]]s from 20% in pre-Hardmode and 33% in Hardmode, to 25% at all times.
+**Changed the chance for the [[Golden Bug Net]] from 5% in pre-Hardmode and 10% in Hardmode, to 6.67% at all times.
+
+==== [[Astrum Aureus]] ====
+*Now immune to [[Lava]].
+*Now drops the [[Starlight Fuel Cell]], [[Nebulash]], and [[Hallowed Key]]s.
+*Decreased hit sound volume, and slightly increased hit sound delay.
+*Now displays two status messages on defeat, indicating that the [[Astral Chest]] can be opened and that Astral Infection enemies are now buffed and have new drops.
+
+==== [[Astrum Deus]] ====
+*Buffed spectral worm's health from {{dv|25,000|40,000|57,360|86,000}} to {{dv|37,500|60,000|86,080|129,120}}, its head's contact damage from {{dv|110|176}} to {{dv|130|208}}, its body's contact damage from {{dv|80|128}} to {{dv|100|160}}, and its tail's contact damage from {{dv|55|88}} to {{dv|75|120}}.
+*Buffed smaller worms' healths from {{dv|8000|12,800|19,200|31,040}} to {{dv|12,000|19,200|28,800|46,560}}, its head's contact damage from {{dv|85|136}} to {{dv|105|168}}, its body's contact damage from {{dv|70|112}} to {{dv|90|144}}, and its tail's contact damage from {{dv|50|80}} to {{dv|70|112}}.
+*Buffed laser damage from {{dv|74|124}} to {{dv|90|140}}.
+*Buffed orbital [[Astrum Deus Probe]]'s mine damage from {{dv|90|140}} to {{dv|110|168}}.
+*Buffed flying Astrum Deus Probe's health from {{dv|900|1800}} to {{dv|1400|2800}}, and its laser damage from {{dv|74|116}} to {{dv|90|140}}.
+*Spectral worm and smaller worms will now swap vulnerability and invulnerability based on the spectral worm's health and the total health of the smaller worms. Smaller worms become transparent and deal no contact damage while the main worm is vulnerable.
+*Now resists a variety of different specific projectiles instead of taking 20% damage from all non-minion piercing projectiles.
+*Now despawns quicker, and will travel upwards instead of downwards.
+*Flying Astrum Deus Probes now instantly despawn once Astrum Deus is no longer present.
+*Now drops a spread of various celestial fragments.
+*No longer drops the Starlight Fuel Cell, Nebulash, and Hallowed Keys.
+
+==== [[Brimstone Elemental]] ====
+*Brimstone Barrages and Hellblasts now inflict [[Vulnerability Hex]].
+*[[Brimling]]s can now go through tiles and instantly despawn if Brimstone Elemental isn't present.
+
+==== [[Calamitas]] ====
+*Buffed phase 1's base health from {{dv|10,000|16,000|24,000|36,000}} to {{dv|37,500|60,000|82,800|132,400}}, her post-Providence health from {{dv|80,000|12,800}} to {{dv|112,500|180,000|246,000|397,200}}, and her Boss Rush health from {{dv|1,100,000|1,760,000|0|2,080,000}} to {{dv|4,100,000|6,560,000|0|7,360,000}}.
+*Buffed phase 2's base health from {{dv|27,500|44,000|58,800|96,400}} to {{dv|28,125|45,000|62,099|99,299}}, changed her post-Providence health from {{dv|120,000|192,000}} to {{dv|84,375|135,000|186,297|297,897}}, and buffed her Boss Rush health from {{dv|3,000,000|4,800,000|0|5,280,000}} to {{dv|3,075,000|4,920,000|0|5,520,000}}.
+*Buffed Cataclysm's health from {{dv|3000|6000|8800|10,000}} to {{dv|9000|18,000|26,400|30,000}}, and changed his post-Providence health from {{dv|35,000|70,000}} to {{dv|27,000|54,000|78,000|90,000}}.
+*Buffed Catastrophe's health from {{dv|2500|5000|7350|8800}} to {{dv|7500|15,000|22,050|26,400}}, and changed his post-Providence health from {{dv|30,000|60,000}} to {{dv|22,500|45,000|66,150|79,200}}.
+*Phase 2 now begins once phase 1 reaches 75% health instead of when it's killed.
+*Halved Brimstone Laser fire rates.
+*Halved projectile fire rates of both brothers.
+*Brothers are now summoned one at a time at 70% and 40% health, then resummoned at 10% health instead of phase 2 spawning with both brothers then resummoning {{dv|1|0|0|2}} pairs of brothers at 45% health.
+*Changed death message name from "A Calamitas Doppelganger" to "The Calamitas Clone".
+*Both brothers are no longer transparent.
+
+==== [[Ceaseless Void]] ====
+*Now deals contact damage.
+*When below 90% health, Ceaseless Void will now create rings of dust. If the player is within the ring, they are tossed around. The size of this ring increases with how much health Ceaseless Void has remaining.
+*Decreased speed.
+*Decreased how fast Dark Energies pulse in transparency and size.
+
+==== [[Desert Scourge]] ====
+*Buffed body's contact damage from {{dv|12|19}} to {{dv|16|25}}, its tail's damage from {{dv|9|14}} to {{dv|12|19}}, and nerfed its tail's defense from 18 to 12.
+*Buffed small scourge's head's damage from {{dv|13|28}} to {{dv|18|36}}, its body's damage from {{dv|9|12}} to {{dv|10|20}}, its tail's damage from {{dv|4|5}} to {{dv|8|16}}, and nerfed its tail's defense from 9 to 8.
+*Nerfed [[Dried Seeker]]'s head's damage from {{dv|23|46}} to {{dv|14|28}}, its body's damage from {{dv|9|18}} to {{dv|8|16}}, buffed its tail's damage from {{dv|5|10}} to {{dv|6|12}}, nerfed its body's defense from 5 to 4, and its tail's defense from 10 to 6.
+
+==== [[The Devourer of Gods]] ====
+*Head and tail segments in both phases and phase 2's body segments now inflict [[Whispering Death]].
+*The Devourer of Gods and [[Cosmic Guardian]]s now despawn quicker, and will travel upwards instead of downwards.
+*Sentinel phase no longer occurs on subsequent fights after phase 2 has been defeated.
+
+==== [[Duke Fishron]] ====
+*Sharknadoes and Cthulhunadoes are now able to hurt the player sooner.
+
+==== [[The Hive Mind]] ====
+*[[Hive Blob]]s now despawn instead of dying when Hive Mind is no longer present.
+
+==== [[Jungle Dragon, Yharon]] ==== 
+*Flarenadoes and Infernadoes are now able to hurt the player sooner.
+
+==== [[King Slime]] ====
+*Now drops [[Gel]].
+
+==== [[The Perforators]] ====
+*Decreased the size of The Perforator Hive's burst dusts.
+
+==== [[Plantera]] ====
+*Revengeance Mode Plantera's Tentacles now inflict [[Bleeding]] for 3 seconds and [[Poisoned]] for 2 seconds instead of 2.5 and 1.5 seconds respectively.
+
+==== [[Polterghast]] ====
+*Decreased overall aggressiveness, especially during its enrage.
+
+==== [[Providence, the Profaned Goddess]] ====
+*Now immune to the [[Coldheart Icicle]].
+*All three guardians now become completely invincible when enraged instead of setting their defense values to 99,999.
+*Tweaked sky shader color.
+
+==== [[Ravager]] ====
+*Now immune to Lava and its head can now go through tiles.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Will now try to teleport in front of the player.
+*Replaced fireballs with scythes which return back towards Signus after a delay.
+*Increased how quickly it takes for Cosmic Mines to slow down.
+*Now inflicts Whispering Death on contact.
+*Now increases more in aggressiveness as its health lowers, and stops producing dust.
+
+==== [[Siren and Leviathan]] ====
+*Siren Clones now only fire Water Spears.
+*[[Aquatic Aberration]]s and [[Parasea]]s now instantly despawn when The Leviathan is no longer present.
+
+==== [[Skeletron Prime]] ====
+*Prime Laser no longer has decreased health in Death Mode.
+
+==== [[The Slime God]] ====
+*Buffed the core's contact damage from {{dv|50|80}} to {{dv|60|96}}, its Corrupt Abyss Mine's damage from {{dv|42|84}} to {{dv|48|96}}, its Crimson Abyss Mine's damage from {{dv|38|76}} to {{dv|44|88}}, its Corrupt Abyss Ball's damage from {{dv|36|64}} to {{dv|42|76}}, and its Crimson Abyss Ball's damage from {{dv|32|56}} to {{dv|38|68}}.
+*Buffed the Ebonian Slime God's contact damage from {{dv|50|80}} to {{dv|60|96}}, its Abyss Mine damage from {{dv|42|84}} to {{dv|48|96}}, and its Abyss Ball damage from {{dv|36|64}} to {{dv|42|76}}.
+*Buffed the Crimulan Slime God's contact damage from {{dv|50|80}} to {{dv|60|96}}, its Abyss Mine damage from {{dv|38|76}} to {{dv|44|88}}, and its Abyss Ball damage from {{dv|32|56}} to {{dv|38|68}}.
+*Buffed the split Ebonian Slime God's contact damage from {{dv|40|64}} to {{dv|50|80}}, its Abyss Mine damage from {{dv|42|84}} to {{dv|48|96}}, and its Abyss Ball damage from {{dv|36|64}} to {{dv|42|76}}.
+*Buffed the split Crimulan Slime God's contact damage from {{dv|40|64}} to {{dv|50|80}}, its Abyss Mine damage from {{dv|38|76}} to {{dv|44|88}}, and its Abyss Ball damage from {{dv|32|56}} to {{dv|38|68}}.
+*The Ebonian Slime God and its split form now inflict [[Weak]] for 3 seconds instead of [[Brimstone Flames]] and [[Mana Sickness]] for 2 seconds each.
+*The Crimulan Slime God and its split form now inflict [[Cursed]] for 1.5 seconds instead of Brimstone Flames and Mana Sickness for 2 seconds each.
+*Buffed [[Spiked Crimson Slime Spawn]]'s spike damage from {{dv|20|40}} to {{dv|24|48}}, and their spikes now inflict Cursed for 1 second instead of 0.5.
+*[[Corrupt Slime Spawn]]s now inflict Weak for 1.5 seconds instead of Mana Sickness for 1 second.
+*Corrupt Abyss Balls and Mines now inflict Weak instead of Brimstone Flames and Mana Sickness.
+*Crimson Abyss Balls and Mines now inflict Cursed for 1.5 seconds instead of Cursed and Brimstone Flames for 2 seconds.
+
+==== [[Storm Weaver]] ====
+*Buffed phase 2's health from {{dv|300,000|480,000}} to {{dv|600,000|960,000}}, its health during The Devourer of Gods fight from {{dv|50,000|80,000}} to {{dv|100,000|160,000}}, and its Boss Rush health from {{dv|2,300,000|3,680,000}} to {{dv|3,300,000|5,280,000}}.
+*Both phases now have the ability to summon direct lightning strikes.
+*Now starts [[Rain]] while alive.
+*Now despawns quicker, and will travel upwards instead of downwards.
+*Increased Death Mode and Boss Rush segment lengths from 7 to 22.
+*Removed phase 1's tail's resistances.
+
+=== Enemies ===
+*All Astral Infection enemies now gain increased stats, equivalent to their old stat values, after Astrum Aureus has been defeated. All drops previously locked behind Astrum Deus are now locked behind Astrum Aureus.
+*Nerfed [[Aries]]' health from {{dv|450|900}} to {{dv|300|600}}, its damage from {{dv|85|170}} to {{dv|50|100}}, its defense from 24 to 14, and its knockback resistance from 50% to 40%.
+*Nerfed [[Astralachnea]]'s health from {{dv|750|1500}} to {{dv|500|1000}}, its damage from {{dv|90|180}} to {{dv|55|110}}, its defense from 30 to 20, and its knockback resistance in its ground form from 72% to 62%.
+*Nerfed [[Astral Probe]]'s health from {{dv|70|140}} to {{dv|50|100}}, its contact damage from {{dv|30|60}} to {{dv|20|40}}, its defense from 20 to 10, and its knockback resistance from 15% to 5%.
+*Nerfed [[Astral Slime]]'s health from {{dv|310|620}} to {{dv|200|400}}, its damage from {{dv|65|130}} to {{dv|40|80}}, and its defense from 18 to 8.
+*[[Atlas]]es, [[Bloatfish]], [[Bobbit Worm]]s, [[Calamity Eye]]s, [[Chaotic Puffer]]s, [[Cultist Assassin]]s, [[Devil Fish]], [[Giant Clam]]s, [[Impious Immolator]]s, [[Reaper Shark]]s, [[Sun Bat]]s, and [[Sunskater]]s are now immune to Lava.
+*Atlas changes:
+**Nerfed health from {{dv|1600|3200}} to {{dv|1200|2400}}, its contact damage from {{dv|75|150}} to {{dv|70|140}}, its defense from 50 to 40, and its knockback resistance from 96% to 92%.
+**Swing damage now inherits its contact damage values instead of having a fixed value of 130.
+**Killing an Atlas will now display a status message in chat until up to 3 have been killed, which will then spawn Astrum Deus.
+*Nerfed [[Big Sightseer]]'s health from {{dv|640|1280}} to {{dv|430|860}}, its contact damage from {{dv|85|170}} to {{dv|50|100}}, its spit damage from {{dv|75|150}} to {{dv|45|90}}, its defense from 30 to 20, and its knockback resistance from 30% to 20%.
+*[[Cnidrion]] now inflicts [[Wet]] for 5 seconds instead of 4.
+*[[Colossal Squid]]s and Reaper Sharks will now despawn while not in the [[Abyss]] or if the player moves extremely far away.
+*Decreased the chance for [[Dune Splicer]]s to drop [[Terra-cotta]] from {{dv|6.67%|10%}} to {{dv|3.33%|5%}}.
+*Nerfed [[Fusion Feeder]]'s health from {{dv|600|1200}} to {{dv|400|800}}, its damage from {{dv|64|128}} to {{dv|45|90}}, its defense from 22 to 12, and its knockback resistance from 30% to 20%.
+*Nerfed [[Hadarian]]'s health from {{dv|490|980}} to {{dv|330|660}}, its damage from {{dv|78|156}} to {{dv|50|100}}, its defense from 18 to 8, and its knockback resistance from 35% to 25%.
+*Nerfed [[Hive]]'s health from {{dv|700|1400}} to {{dv|470|940}}, its damage from {{dv|90|180}} to {{dv|55|110}}, and its defense from 25 to 15.
+*Nerfed [[Hiveling]]'s health from {{dv|220|440}} to {{dv|150|300}}, its damage from {{dv|50|100}} to {{dv|30|60}}, its defense from 8 to 0, and its knockback resistance from 60% to 50%.
+*Increased the chance for [[Hoplite]]s to drop [[Gladiator armor]] pieces from 1.67% to {{dv|14.29%|20%}}.
+*Nerfed [[Mantis]]' health from {{dv|510|1020}} to {{dv|340|680}}, its contact damage from {{dv|85|190}} to {{dv|55|110}}, its defense from 16 to 6, and its knockback resistance from 90% to 80%.
+*Mantis' ring now inherits its contact damage values instead of having a fixed damage value of 76, and it no longer has knockback.
+*Nerfed [[Nova]]'s health from {{dv|350|700}} to {{dv|230|460}}, its contact damage from {{dv|75|150}} to {{dv|45|90}}, its defense from 25 to 15, and its knockback resistance from 60% to 50%.
+*Nova's explosion now inherits its contact damage values instead of having a fixed damage value of 100.
+*Every 10 [[Phantom Spirit]]s killed will now display a status message in chat until Polterghast is spawned.
+*Killing 4 or 8 [[Sand Shark]]s now displays status messages in chat warning of the Great Sand Shark.
+*Nerfed [[Small Sightseer]]'s health from {{dv|460|920}} to {{dv|310|620}}, its damage from {{dv|58|116}} to {{dv|38|76}}, its defense from 26 to 16, and its knockback resistance from 52% to 42%.
+*[[Soul Slurper]]s now go through tiles.
+*Nerfed [[Stellar Culex]]'s health from {{dv|320|640}} to {{dv|210|420}}, its damage from {{dv|90|180}} to {{dv|55|110}}, its defense from 28 to 18, and its knockback resistance from 45% to 35%.
+*Decreased the chance for [[Tomb Crawler]]s to drop the [[Burnt Sienna]] from {{dv|6.67%|10%}} to {{dv|5%|6.67%}}.
+*[[Toxic Minnow]]s can no longer be homed in on until hit.
+
+=== Items ===
+*Changed most of Aquatic Scourge's Treasure Bag's drop chances:
+**Increased the chance for High Test Fishing Lines and Tackle Boxes from 6.67% to 10% each.
+**Increased the chance for an Aero Stone from 10% to 12.5% each.
+**Increased the chance for [[Angler Tackle Bag]]s from 3.33% to 10% each.
+**Increased the chance for Angler Earrings, Fisherman's Pocket Guides, Weather Radios, and Sextants from 10% to 12.5% each.
+**Increased the chance for Angler Hats, Angler Vests, Angler Pants, Fishing Potions, Sonar Potions, and Crate Potions from 20% to 33.33% each.
+**Increased the chance for a Golden Bug Net from 5% to 8.33% each.
+*Retiered all Astrum Deus drops and [[Astral Bar]] related items from post-Plantera to post-Lunatic Cultist:
+**[[Astral armor]], [[Astral Bar]], [[Astral Biome (Lore)]], [[Astral Blade]], [[Astral Blaster]], [[Astral Bow]], [[Astral Hamaxe]], [[Astral Ore]], [[Astral Pickaxe]], [[Astral Pike]], [[Astral Staff]], [[Astrum Deus (Lore)]], [[Quasar]], [[Radiant Star]], [[Starcore]], and [[Starfall]] now use the {{rare|9}} rarity instead of {{rare|7}}. 
+**All craftable items are now crafted at an [[Ancient Manipulator]] instead of a Hardmode Anvil.
+**Changed several sell prices:
+***Increased Astral Bar's sell price from {{sc|90}} to {{value|0|1|10|0}}. 
+***Increased Astral Blade's sell price from {{gc|12}} to {{gc|19}}.
+***Increased Astral Helmet's sell price from {{gc|6}} to {{gc|8}}.
+***Increased Astral Breastplate's sell price from {{value|0|4|80|0}} to {{value|0|6|40|0}}.
+***Decreased Astral Leggings' sell price from {{value|0|3|60|0}} to {{value|0|3|40|0}}.
+***Increased Astral Blaster's sell price from {{gc|12}} to {{gc|19}}.
+***Increased Astral Bow's sell price from {{gc|12}} to {{gc|19}}.
+***Increased Astral Hamaxe's sell price from {{gc|12}} to {{gc|19}}.
+***Increased Astral Pike's sell price from {{gc|12}} to {{gc|19}}.
+***Increased Astral Pickaxe's sell price from {{gc|12}} to {{gc|19}}.
+***Increased Astral Staff's sell price from {{gc|12}} to {{gc|19}}.
+***Increased [[Hide of Astrum Deus]]' sell price from {{gc|3}} to {{gc|10}}.
+***Increased Quasar's sell price from {{value|0|1|20|0}} to {{gc|19}}.
+***Increased Radiant Star's sell price from {{gc|12}} to {{gc|19}}.
+***Increased Starfall's sell price from {{gc|12}} to {{gc|19}}.
+**Buffed Astral Hamaxe's damage from 70 to 80.
+**Buffed Astral Pickaxe's damage from 58 to 65, and increased its pickaxe power from 200 to 220.
+**Starcore now uses 4 Astral Bars in its recipe.
+**[[Star Cannon EX]] now uses 10 Aureus Cells and 25 [[Stardust]] in its recipe instead of 15 Astral Bars.
+*[[Brimrose]], [[Fabsol]], [[Fox Drive]], and [[Suspicious Looking Jelly Bean]] now internally used the {{rare|9}} rarity instead of {{rare|10}}.
+*Buffed [[Cadance Potion]]'s health boost from 10% to 25%, but it now disables the effects of [[Regeneration Potion|Regeneration]] and [[Lifeforce Potion]]s.
+*[[Calamitas (Lore)]]'s tooltip now mentions that it instantly kills the player.
+*Increased [[Ceaseless Hunger Potion]]'s range.
+*Changed the first line of [[Cryogen (Lore)]]'s tooltip from "You managed to bring down what dozens of sorcerers long ago could not." to "The archmage's prison.". 
+*Nerfed [[Ectoblood]]'s sell price from {{gc|1}} to {{sc|20}}.
+*Reduced [[Effulgent Feather]]'s sell price from {{value|0|1|50|0}} to {{value|0|1|30|0}}. 
+*[[Fallen Star]]s can now be crafted with 5 Stardust.
+*[[Holy Wrath Potion]]s now disable the effects of [[Wrath Potion]]s.
+*[[Iron Heart]] now internally uses the {{rare|9}} rarity.
+*[[Leviathan and anahita (Lore)|Leviathan and Siren (Lore)]] now allows the [[Strange Orb]]'s Young Siren pet to move normally while out of [[Water]].
+*Rebalanced several [[Lore items]]:
+**Decreased the movement speed boost granted by Astrum Deus (Lore) by 33%.
+**[[The Brain of Cthulhu (Lore)]] now inflicts [[Chaos State]] for 8 seconds instead of 6.
+**Cryogen (Lore) now reduces defense by 10.
+**Nerfed [[The Desert Scourge (Lore)]]'s defense from 10 to 5.
+**Nerfed [[The Destroyer (Lore)]]'s mining speed boost from 10% to 5%.
+**Nerfed [[Duke Fishron (Lore)]]'s movement speed boost from 15% to 10%.
+**Nerfed [[The Eater of Worlds (Lore)]]'s damage boost from 20 to 10, its knockback boost from 2 to 1, and its microbes now inflict [[Cursed Inferno]] for 1.5 seconds instead of 3.
+**[[The Eye of Cthulhu (Lore)]] now only works at night.
+**[[The Hive Mind (Lore)]] now causes the player to inflict [[Cursed Inferno]] for 1.5 seconds instead of 7.5.
+**[[Jungle Dragon, Yharon (Lore)]] is now disabled during Boss Rush.
+**[[The Perforators and their Hive (Lore)]] now causes the player to inflict [[Ichor (debuff)|Ichor]] for 1.5 seconds instead of 7.5.
+**Decreased the item grab range boosts for [[Plantera (Lore)]], [[Polterghast (Lore)]], and [[Wall of Flesh (Lore)]].
+**[[Providence, the Profaned Goddess (Lore)]] now causes the player to inflict [[Holy Flames]] for 7 seconds instead of 7.5.
+**Buffed [[Ravager (Lore)]]'s damage boost from 5% to 10%.
+**Nerfed [[Skeletron (Lore)]]'s defense boost from 10 to 5.
+**[[The Slime God (Lore)]] now reduces defense by 10.
+*[[Miracle Fruit]] now uses 5 [[Aureus Cell]]s in its recipe instead of 5 Astral Bars.
+*[[Phantom Heart]] now uses 10 [[Ruinous Soul]]s in its recipe.
+*Increased [[Potion of Omniscience]]'s duration from 5 minutes to 10 minutes.
+*[[Profaned Rage Potion]]s now disable the effects of [[Rage Potion]]s.
+*[[Shattering Potion]]s now disable the effects of [[Crumbling Potion]]s.
+*[[Sulphurous Sand]] now uses the {{rare|0}} rarity instead of {{rare|1}} and is now sold for nothing.
+*Nerfed [[Triumph Potion]]'s final damage multiplier from 25% to 15%.
+
+==== Armor ====
+*[[Aerospec Headgear]] now provides a 5% movement speed boost.
+*Astral armor changes:
+**Increased set bonus' damage boost from 22% to 28%, and its movement speed boost from 17% to 21%.
+**Buffed star damage from 75 to 120.
+**Buffed Astral Helmet's defense from 13 to 17.
+**Buffed Astral Breastplate's defense from 23 to 25, and it now provides 3 minion slots instead of 2.
+**Buffed Astral Leggings' defense from 17 to 21.
+*[[Ataxia armor]] changes:
+**Merged the last two lines of [[Ataxia Headgear]] and [[Ataxia Mask]]'s tooltips.
+**[[Ataxia Helm]] now provides a 12% melee speed and movement speed boost.
+**[[Ataxia Hood]] now provides a 15% movement speed boost.
+**Ataxia Mask now reduces mana usage by 15% instead of 10%.
+**Universal set bonus' explosions, melee set bonus' geysers, magic set bonus' orbs, summoner set bonus' flames, and rogue set bonus' flares now inflict On Fire! for 3 seconds instead of 3.33.
+**Ranged set bonus' flares now inflict Brimstone Flames and On Fire! for 3 seconds instead of 3.33.
+*[[Auric Tesla armor]] changes:
+**[[Auric Tesla Plumed Helm]] now provides a 25% movement speed boost.
+**[[Auric Tesla Wire-Hemmed Visage]] now reduces mana usage by 20%.
+**Melee set bonus' [[Tarra Life]] buff now always lasts for 2 seconds instead of 1.5-2.98 seconds.
+**Set bonus' God Killer Darts now inflict God Slayer Inferno for 3 seconds instead of 8.33.
+**Magic set bonus' blaze now inflicts God Slayer Inferno for 5 seconds instead of 8.33.
+**Magic set bonus' orbs now inflict God Slayer Inferno for 3 seconds instead of 3.33.
+**Summon set bonus' phantoms now inflict God Slayer Inferno for 5 seconds instead of 10.
+*[[Bloodflare Helm]] now provides a 15% movement speed boost.
+*[[Bloodflare Horned Mask]] now reduces mana usage by 17%.
+*[[Daedalus armor]] changes:
+**Removed immunity to [[Cursed]] and gravity control from all five headpieces.
+**Buffed [[Daedalus Hat]]'s magic damage boost from 10% to 13%, nerfed its magic critical strike chance boost from 10% to 7%, increased its mana boost from 50 to 60, and it now reduces mana usage by 10%.
+**[[Daedalus Helm]] now provides a 10% melee speed and movement speed boost.
+**Buffed [[Daedalus Headgear]]'s ranged damage boost from 10% to 13%, and nerfed its ranged critical strike chance boost from 10% to 7%.
+**Buffed [[Daedalus Visor]]'s rogue damage boost from 10% to 13%, and nerfed its rogue critical strike chance boost from 10% to 7%.
+*[[God Slayer armor]] changes:
+**[[God Slayer Mask]] now provides an 18% movement speed boost.
+**[[God Slayer Visage]] now reduces mana usage by 17%.
+**Set bonus' God Killer Darts now inflict God Slayer Inferno for 3 seconds instead of 8.33.
+**Magic set bonus' blaze now inflicts God Slayer Inferno for 5 seconds instead of 8.33.
+**Magic set bonus' orbs now inflict God Slayer Inferno for 3 seconds instead of 3.33.
+**Summon set bonus' phantoms now inflict God Slayer Inferno for 5 seconds instead of 10.
+*[[Reaver armor]] changes:
+**Buffed [[Reaver Headgear]]'s rogue damage boost from 10% to 15%, and its movement speed boost from 10% to 20%.
+**Buffed [[Reaver Helm]]'s melee damage boost from 10% to 15%, ad its melee speed boost from 5% to 10%.
+**Buffed [[Reaver Mask]]'s magic damage boost from 10% to 15%, its mana reduction from 5% to 12%, and its mana boost from 75 to 80.
+**Buffed [[Reaver Visage]]'s ranged damage boost from 10% to 15%.
+**Melee set bonus' blasts now inflict Cursed Inferno for 1 second instead of 2.
+*[[Silva Mask]] now provides a 20% movement speed boost.
+*[[Silva Masked Cap]] now reduces mana usage by 19%.
+*[[Spectre armor]] with the [[Spectre Mask]]'s souls now deal 30% less damage. <!---Bugged--->
+*[[Statigel Mask]] now provides a 12% movement speed boost.
+*[[Tarragon armor]] changes:
+**[[Tarragon Helmet]] now provides a 12% movement speed boost.
+**[[Tarragon Mask]] now reduces mana usage by 15%.
+**Melee set bonus' Tarra Life buff now always lasts for 2 seconds instead of 1.5-2.98 seconds.
+*[[Xeroc armor]] changes:
+**[[Xeroc Mask]] now provides a 22% movement speed boost.
+**Orbs, bubbles, and stars now inflict On Fire! and Cursed Inferno for 2 seconds each instead of 3.33.
+**Fire now inflicts On Fire! and Cursed Inferno for 2 seconds each instead of 2.67.
+
+==== Accessories ====
+*[[Affliction]], [[The Amalgam]], [[Amalgamated Brain]], [[Aquatic Emblem]], [[Astral Bulwark]], [[Bloodflare Core]], [[Bloody Worm Scarf]], [[Bloody Worm Tooth]], [[Core of the Blood God]], [[Elysian Wings]], [[Fungal Clump]], [[Gehenna]], [[Leviathan Ambergris]], [[Nebulous Core]], [[Ocean Crest]], [[Plague Hive]], [[Rare Elemental in a Bottle]], [[Rotten Brain]], [[Soul of Cryogen]], [[Toxic Heart]], [[Void of Calamity]], [[Void of Extinction]], and [[Yharim's Gift]] now have an internal rarity of {{rare|9}}.
+*[[Alchemical Flask]] and Plague Hive's Plague Seekers now inflict [[Plague]] for 3 seconds instead of 5. 
+*The Amalgam changes:
+**Buffed Fungal Clump damage from 250 to 1000, its poisonous seawater damage from 500 to 2000, its rain damage from 500 to 2000, and its aura damage from 80 to 320.
+**Increased aura size by 50%.
+**Poisonous seawater no longer has any knockback, and reduced rain knockback from 3 to 1.
+*The Amalgam and Fungal Clump's Fungal Clump minion's orbs now travel further if the player is holding a summoner weapon.
+*The Amalgam, Gehenna, and Void of Extinction's fireballs now inflict Brimstone Flames for 2 seconds instead of 2.67.
+*Decreased [[The Bee]]'s damage multiplier cap from 150% to 35%.
+*[[Chaos Amulet]] changes:
+**Now increases life regeneration.
+**Now uses the {{rare|5}} rarity instead of {{rare|8}}.
+**Now crafted with 7 [[Essence of Chaos|Essences of Chaos]] instead of 2 [[Chaotic Bar]]s.
+*[[Counter Scarf]]'s [[Scarf Boost]] now always lasts for 9 seconds instead of 8-9.33 seconds.
+*[[Deific Amulet]] is now crafted with and inherits the effects of [[Charm of Myths]] instead of [[Celestial Cuffs]].
+*[[Elemental Quiver]]'s tooltip now elaborates on the effects it inherits from the Daedalus Emblem.
+*[[Elysian Tracers]] are now crafted at an [[Ancient Manipulator]] instead of [[Draedon's Forge]].
+*[[Ethereal Talisman]] now inherits the effects of Celestial Cuffs instead of the Charm of Myths.
+*Nerfed [[Fabled Tortoise Shell]]'s defense from 92 to 35.
+*[[Flasks]] now affect rogue weapons.
+*[[Hadarian Wings]] changes:
+**Buffed flight time from 60 to 120.
+**Now has a hover feature.
+**Now crafted at an Ancient Manipulator instead of a Hardmode Anvil.
+*[[Heart of Darkness]] now uses the {{rare|3}} rarity instead of {{rare|10}}, and decreased its sell price from {{gc|3}} to {{value|0|0|1|60}}.
+*[[Heart of the Elements]] and [[Rose Stone]]'s Brimstone Elemental's Hellfireballs now inflict [[Brimstone Flames]] for 10 seconds instead of 16.67.
+*Hide of Astrum Deus' explosion now inflicts God Slayer Inferno for 5 seconds instead of 8.33.
+*[[Luxor's Gift]]'s summoner glyph now disappears when the player dies.
+*[[Mana Overloader]] changes:
+**Decreased life regeneration penalty from 5 to 3.
+**Healing now occurs when under 10% health instead of 5%.
+**Now internally uses the {{rare|9}} rarity instead of {{rare|5}}.
+*[[Nanotech]] changes:
+**Nerfed rogue damage boost from 15% to 10%, and its rogue critical strike chance boost from 10% to 5%.
+**Now uses [[Raider's Talisman]] and [[Rogue Emblem]] in its recipe and inherits their effects.
+*Plague Hive now randomly adds 20-30 damage to all player bees instead of 10-20 if the player is using [[The Swarmer]], [[Plague Keeper]], or [[Plaguenade]]s and 70-100 with other items.
+*Nerfed [[Rampart of Deities]]' armor penetration boost from 50 to 25, and it now inherits the Charm of Myths effect instead of the Celestial Cuffs effect.
+*[[Sigil of Calamitas]] is now crafted with and inherits the effects of Celestial Cuffs instead of Charm of Myths, and replaced the [[Spell Tome]] in its recipe with 2 Chaotic Bars.
+
+==== Weapons ====
+*Decreased the summon damage nerf from -40% to -25%.
+*Modified tooltips of the following weapons:
+{{collapse top|Weapons with new tooltips (Click to open)|(Click to collapse)}}
+{| class="terraria lined"
+! Weapon !! Old Tooltip !! New Tooltip
+|-
+| [[Aeries]]
+| ''Their lives are yours''
+| ''Fires shockblast rounds that can steal enemy life''
+|-
+| [[Alpha Ray]]
+| ''Disintegrates everything<br/>Right click to change modes''
+| ''Disintegrates everything with a tri-beam of energy and lasers<br/>Right click to fire a Y-shaped beam of destructive energy and a spread of lasers''
+|-
+| [[Animus]]
+| -
+| ''Randomizes its damage on enemy hits''
+|-
+| [[Archerfish]]
+| -
+| ''Fires a stream of water''
+|-
+| [[Asteroid Staff]]
+| -
+| ''Summons asteroids from the sky''
+|-
+| [[Astral Blaster]]
+| -
+| ''Fires a homing astral round''
+|-
+| [[Astral Bow]]
+| -
+| ''Fires a burst of three arrows''
+|-
+| [[Baleful Harvester]]
+| -
+| ''Fires skulls that split into homing fire orbs on death''
+|-
+| [[Ball O' Fugu]]
+| -
+| ''Throws a fish that spews homing spikes''
+|-
+| [[The Ballista]]
+| -
+| ''Shoots greatarrows that crush enemy armor and break into shards on death''
+|-
+| [[Ballistic Poison Bomb]]
+| -
+| ''Throws a sticky bomb that explodes into spikes and poison clouds''
+|-
+| [[Barracuda Gun]]
+| -
+| ''Fires two barracudas that latch onto enemies''
+|-
+| [[Black Anurian]]
+| -
+| ''Spews bubbles and homing plankton''
+|-
+| [[Bladecrest Oathsword]]
+| ''Sword of an ancient demon lord''
+| ''Sword of an ancient demon lord<br/>Fires a blood scythe''
+|-
+| [[Brackish Flask]]
+| ''Full of poisonous saltwater''
+| ''Explodes into poisonous seawater blasts''
+|-
+| [[Brimblade]]
+| -
+| ''Throws a blade that splits on enemy hits''
+|-
+| [[Brimlash]]
+| -
+| ''Fires a brimstone bolt that explodes into more bolts on death''
+|-
+| [[Brimlash Buster]]
+| ''50% chance to do triple damage on enemy hits''
+| ''50% chance to do triple damage on enemy hits<br/>Fires a brimstone bolt that explodes into more bolts on death''
+|-
+| [[Brimstone Flameblaster]]
+| -
+| ''Fires bouncing brimstone fireballs''
+|-
+| [[Brimstone Fury]]
+| -
+| ''Fires a spread of brimstone bolts''
+|-
+| [[Burning Sea]]
+| -
+| ''Fires a bouncing brimstone fireball that splits into homing fireballs upon collision with water''
+|-
+| [[The Burning Sky]]
+| -
+| ''Summons a massive barrage of burning meteors from the sky''
+|-
+| [[Catastrophe Claymore]]
+| ''Remnant of a specular nova''
+| ''Fires explosive energy bolts''
+|-
+| [[Celestus]]
+| -
+| ''Throws a scythe that splits into multiple scythes on enemy hits''
+|-
+| [[Clock Gatlignum]]
+| ''33% chance to not consume ammo''
+| ''33% chance to not consume ammo<br/>Fires a string of high velocity bullets''
+|-
+| [[Conclave Crossfire]]
+| ''50% chance to not consume ammo''
+| ''50% chance to not consume ammo<br/>Fires two spreads of bullets, one from the gun and one from the sky''
+|-
+| [[Contagion]]
+| -
+| ''Fires contagion arrows that leave exploding orbs behind as they travel''
+|-
+| [[Cosmic Bolter]]
+| -
+| ''Fires three bouncing energy bolts''
+|-
+| [[Cosmic Rainbow]]
+| ''Launch a barrage of rainbows!''
+| ''Launches a barrage of rainbows''
+|-
+| [[Crushsaw Crasher]]
+| -
+| ''Throws bouncing axes''
+|-
+| [[Crystal Blade]]
+| -
+| ''Fires slow-moving clouds of crystal dust''
+|-
+| [[Crystalline]]
+| -
+| ''Splits into several projectiles as it travels''
+|-
+| [[Cursed Capper]]
+| -
+| ''Fires cursed bullets''
+|-
+| [[Cursed Dagger]]
+| -
+| ''Throws bouncing daggers''
+|-
+| [[Darklight Greatsword]]
+| -
+| ''Fires a darklight orb that splits on death''
+|-
+| [[Deathhail Staff]]
+| ''Rain death upon your foes!''
+| ''Rain death upon your foes!<br/>Casts a storm of nebula shots from the sky''
+|-
+| [[Deathwind]]
+| -
+| ''Fires a spread of arrows<br/>Wooden arrows are converted to nebula shots''
+|-
+| [[Devastation]]
+| ''Remnant of the big bang''
+| ''Fires galaxy blasts that explode''
+|-
+| [[Devil's Devastation]]
+| ''Wielded by the progenitor of the underworld''
+| ''Fires a spread of demonic blades and blasts<br/>Critical hits cause shadowflame explosions''
+|-
+| [[Disseminator]]
+| ''50% chance to not consume ammo''
+| ''50% chance to not consume ammo<br/>Fires a spread of bullets from the gun, above, and below''
+|-
+| [[Dragon's Breath]]
+| ''80% chance to not consume ammo''
+| ''80% chance to not consume ammo<br/>Shoots a spread of exploding fire bullets''
+|-
+| [[Dragon Rage]]
+| -
+| ''Fires a spread of five fire waves''
+|-
+| [[Dualpoon]]
+| -
+| ''Launches two harpoons''
+|-
+| [[Dune Hopper]]
+| -
+| ''Throws a spear that bounces a lot''
+|-
+| [[Effervescence]]
+| -
+| ''Shoots a massive spread of bubbles''
+|-
+| [[Effluvium Bow]]
+| -
+| ''Fires two mist arrows at once''
+|-
+| [[Eidolic Wail]]
+| -
+| ''Earrape<br/>Fires a string of bouncing sound waves that become stronger as they travel''
+|-
+| [[Eidolon Staff]]
+| ''The power of an ancient cultist resonates within this staff''
+| ''The power of an ancient cultist resonates within this staff<br/>Fires a spread of ancient light and has a chance to fire a spinning ice cluster''
+|-
+| [[Elemental Disk]]
+| ''Shred the fabric of reality!''
+| ''Throws a disk that has a chance to generate several disks if enemies are near it''
+|-
+| [[Elemental Eruption]]
+| ''90% chance to not consume gel''
+| ''90% chance to not consume gel<br/>Fires a spread of rainbow flames''
+|-
+| [[Elemental Lance]]
+| ''Rend the cosmos asunder!''
+| ''Rend the cosmos asunder!<br/>Fires a lance beam that splits multiple times as it travels''
+|-
+| [[Elemental Ray]]
+| -
+| ''Casts a rainbow ray that splits when enemies are near it''
+|-
+| [[Elemental Shiv]]
+| ''Don't underestimate the power of shivs''
+| ''Don't underestimate the power of shivs<br/>Shoots a rainbow orb that spawns shivs at multiple locations''
+|-
+| [[Empyrean Knives]]
+| -
+| ''Throws a flurry of bouncing knives that can heal the user''
+|-
+| [[Energy Staff]]
+| -
+| ''Summons a profaned energy turret to fight for you''
+|-
+| [[The Enforcer]]
+| -
+| ''Fires an essence flame burst and spawns essence flames on enemy hits''
+|-
+| [[Eradicator]]
+| -
+| ''Throws a disk that fires lasers at nearby enemies''
+|-
+| [[Eviscerator]]
+| -
+| ''Fires a slow-moving blood clot''
+|-
+| [[Excelsus]]
+| ''Summons laser fountains on enemy hits''
+| ''Fires a spread of spinning blades<br/>Summons laser fountains on enemy hits''
+|-
+| [[Executioner's Blade]]
+| -
+| ''Throws a stream of homing blades''
+|-
+| [[Fabstaff]]
+| -
+| ''Casts a bouncing beam that splits when enemies are near it<br/>The splitting can trigger long after the beam has vanished''
+|-
+| [[Firestorm Cannon]]
+| ''70% chance to not consume flares<br/>Right click to change modes''
+| ''70% chance to not consume flares<br/>Right click to fire a spread of flares''
+|-
+| [[Flak Kraken]]
+| -
+| ''Fires an energy reticle that becomes more powerful over time''
+|-
+| [[Flame Scythe]]
+| -
+| ''Throws a scythe that explodes on enemy hits''
+|-
+| [[Flarefrost Blade]]
+| -
+| ''Fires a homing flarefrost orb''
+|-
+| [[Flarewing Bow]]
+| -
+| ''Shoots a spread of arrows<br/>Wooden arrows are converted to bouncing obsidian bats''
+|-
+| [[Forbidden Sun]]
+| -
+| ''Casts a fire orb that emits a gigantic explosion on death''
+|-
+| [[Forsaken Saber]]
+| -
+| ''Shoots a sand blade that alters its velocity as it travels''
+|-
+| [[Fulguration Halberd]]
+| ''Inflicts burning blood on enemy hits<br/>Right click to change modes''
+| ''Inflicts burning blood on enemy hits<br/>Right click to use as a spear''
+|-
+| [[Fungicide]]
+| -
+| ''Shoots fungal rounds that split on death''
+|-
+| [[Galactus Blade]]
+| ''Forged with the fury of nuclear chaos''
+| ''Forged with the fury of nuclear chaos<br/>Launches a barrage of comets from the sky''
+|-
+| [[Gel Dart]]
+| -
+| ''Throws bouncing darts''
+|-
+| [[Gelitic Blade]]
+| -
+| ''Fires a gel wave that slows down on enemy hits''
+|-
+| [[Genisis]]
+| -
+| ''Fires a Y-shaped beam of destructive energy and a spread of lasers''
+|-
+| [[The God's Gambit]]
+| -
+| ''Fires a stream of slime when enemies are near''
+|-
+| [[Golden Gun]]
+| -
+| ''Shoots a straight line of ichor''
+|-
+| [[Greatsword of Blah]]
+| ''A pale white sword from a forgotten land<br/>You can hear faint yet comforting whispers emanating from the blade<br/>'No matter where you may be you are never alone.<br/>I shall always be at your side, my lord'''
+| ''A pale white sword from a forgotten land<br/>Fires a rainbow orb that emits rainbow rain on death for a time<br/>You can hear faint yet comforting whispers emanating from the blade<br/>'No matter where you may be you are never alone<br/>I shall always be at your side, my lord'''
+|-
+| [[Greatsword of Judgement]]
+| ''A pale white sword from a forgotten land<br/>You can hear faint yet comforting whispers emanating from the blade<br/>'No matter where you may be you are never alone.<br/>I shall always be at your side, my lord'''
+| ''A pale white sword from a forgotten land<br/>Fires a white orb that emits white rain on death for a time<br/>You can hear faint yet comforting whispers emanating from the blade<br/>'No matter where you may be you are never alone<br/>I shall always be at your side, my lord'''
+|-
+| [[Gunk Shot]]
+| -
+| ''Shoots a spread of bullets''
+|-
+| [[Hematemesis]]
+| -
+| ''Casts a barrage of blood geysers from below you''
+|-
+| [[Hellfire Flamberge]]
+| -
+| ''Fires a spread of fireballs''
+|-
+| [[Helstorm]]
+| -
+| ''Fires two bullets at once<br/>The gun also deals damage to enemies that touch it''
+|-
+| [[The Hive]]
+| -
+| ''Launches a variety of rockets that explode into bees on death''
+|-
+| [[Holiday Halberd]]
+| ''idk I'm miserable with names<br/>- The General''
+| ''idk I'm miserable with names<br/>- The General<br/>Fires red and green bouncing balls that emit clouds as they travel''
+|-
+| [[Hyperius Bullet]]
+| ''Your enemies might have a bad time''
+| ''Your enemies might have a bad time<br/>Spawns additional bullets on enemy hits''
+|-
+| [[Ice Star]]
+| ''Ice Stars are too brittle to be recovered after being thrown''
+| ''Throws homing ice stars<br/>Ice Stars are too brittle to be recovered after being thrown''
+|-
+| [[Icicle Staff]]
+| -
+| ''Casts icicles from the sky''
+|-
+| [[Illustrious Knives]]
+| -
+| ''Throws a flurry of homing knives that can heal the user''
+|-
+| [[Impaler]]
+| -
+| ''Fires explosive and flaming stakes''
+|-
+| [[Infernal Spear]]
+| -
+| ''Throws a homing spear that explodes on enemy hits''
+|-
+| [[Lazhar]]
+| -
+| ''Fires a bouncing laser that explodes on enemy hits''
+|-
+| [[Leviatitan]]
+| -
+| ''Fires green and normal water blasts''
+|-
+| [[Lionfish]]
+| -
+| ''Sticks to enemies and injects a potent toxin''
+|-
+| [[Lunarian Bow]]
+| -
+| ''Fires two bouncing energy bolts''
+|-
+| [[Magna Cannon]]
+| -
+| ''Fires a concentrated blast of energy''
+|-
+| [[Malevolence]]
+| -
+| ''Fires two plague arrows that explode into bees on death''
+|-
+| [[Mantis Claws]]
+| -
+| ''Explodes on enemy hits''
+|-
+| [[Marnite Rifle Spear]]
+| -
+| ''The gun damages enemies that touch it''
+|-
+| [[Meowthrower]]
+| ''Consumes gel at a 50% chance''
+| ''Consumes gel at a 50% chance<br/>Fires blue and pink flames that emit meows on enemy hits''
+|-
+| [[Meteor Fist]]
+| -
+| ''Fires a fist that explodes''
+|-
+| [[Mineral Mortar]]
+| -
+| ''Shoots an onyx bomb that explodes into sand sharks on death''
+|-
+| [[Molten Amputator]]
+| -
+| ''Throws a scythe that emits molten globs on enemy hits''
+|-
+| [[Monsoon]]
+| -
+| ''Fires a spread of 5 arrows<br/>Wooden arrows have a chance to be converted to typhoon arrows or sharks''
+|-
+| [[Mourningstar]]
+| -
+| ''Launches a solar whip sword and a solar particle trail that explodes on enemy hits''
+|-
+| [[Nano Purge]]
+| -
+| ''Fires a barrage of nano lasers''
+|-
+| [[Nebulash]]
+| -
+| ''Fires a whip sword that emits particle explosions on enemy hits''
+|-
+| [[Night's Ray]]
+| -
+| ''Fires a dark ray that splits if enemies are near it''
+|-
+| [[Onyx Chain Blaster]]
+| ''50% chance to not consume ammo''
+| ''50% chance to not consume ammo<br/>Fires a spread of bullets and an onyx shard''
+|-
+| [[Onyxia]]
+| ''50% chance to not consume ammo''
+| ''50% chance to not consume ammo<br/>Fires a storm of bullets and onyx shards''
+|-
+| [[Overloaded Blaster]]
+| ''33% chance to not consume gel''
+| ''33% chance to not consume gel<br/>Fires a large spread of bouncing slime''
+|-
+| [[Perfect Dark]]
+| -
+| ''Fires a vile ball that sticks to tiles and explodes''
+|-
+| [[Pestilent Defiler]]
+| -
+| ''Fires a plague round that explodes and splits on death''
+|-
+| [[Phangasm]]
+| -
+| ''Fires a spread of arrows and emits phantom arrows on enemy hits''
+|-
+| [[Phoenix Flame Barrage]]
+| ''Baptism by holy fire''
+| ''Baptism by holy fire<br/>Casts a barrage of fire from the sky''
+|-
+| [[Plague Keeper]]
+| -
+| ''Fires a plague and bee cloud''
+|-
+| [[Planetary Annihilation]]
+| -
+| ''Fires a storm of arrows from the sky<br/>Wooden arrows are converted to homing energy bolts''
+|-
+| [[Plasma Rifle]]
+| ''Fires a plasma blast that explodes<br/>Right click to change modes''
+| ''Fires a plasma blast that explodes<br/>Right click to fire plasma bolts''
+|-
+| [[Primordial Ancient]]
+| ''An ancient relic from an ancient land''
+| ''An ancient relic from an ancient land<br/>Casts a gigantic blast of dust''
+|-
+| [[Primordial Earth]]
+| ''An ancient relic from an ancient land''
+| ''Casts a large blast of dust''
+|-
+| [[Pwnagehammer]]
+| -
+| ''Throws an extremely fast hammer''
+|-
+| [[Red Sun]]
+| ''Over paradise''
+| ''Over paradise<br/>Drops a barrage of solar flares from the sky''
+|-
+| [[Relic of Ruin]]
+| -
+| ''Casts a spread of sand blades''
+|-
+| [[Scorpio]]
+| ''Rockets<br/>Right click to change modes''
+| ''BOOM<br/>Right click to fire a nuke''
+|-
+| [[Scourge of the Cosmos]]
+| -
+| ''Throws a bouncing cosmic scourge that emits tiny homing cosmic scourges on death and tile hits''
+|-
+| [[Scourge of the Desert]]
+| -
+| ''Gains velocity over time''
+|-
+| [[Seadragon]]
+| ''50% chance to not consume ammo''
+| ''50% chance to not consume ammo<br/>Has a chance to fire homing rockets that explode into fire shards on death''
+|-
+| [[Shroomer]]
+| -
+| ''Has a chance to fire an extremely powerful homing mushroom''
+|-
+| [[Slag Magnum]]
+| -
+| ''Shoots fossil shards that split into additional shards on death''
+|-
+| [[Soma Prime]]
+| -
+| ''Shoots extremely powerful high velocity rounds that inflict a powerful bleed debuff''
+|-
+| [[Spear of Destiny]]
+| -
+| ''Throws three spears with the outer two having homing capabilities''
+|-
+| [[Spectre Rifle]]
+| -
+| ''Fires a powerful homing soul''
+|-
+| [[Speed Blaster]]
+| -
+| ''Shoots a string of paint blasts''
+|-
+| [[Star Cannon EX]]
+| -
+| ''Fires a mix of normal, starfury, and astral stars''
+|-
+| [[Starfall]]
+| -
+| ''Casts a spread of astral stars at the mouse cursor''
+|-
+| [[Starfleet]]
+| -
+| ''Fires a spread of plasma blasts''
+|-
+| [[Starmada]]
+| -
+| ''Fires a barrage of stars and plasma blasts''
+|-
+| [[Starnight Lance]]
+| -
+| ''Shoots a starnight beam''
+|-
+| [[The Storm]]
+| -
+| ''Fires a spread of arrows from the sky<br/>Wooden arrows are converted to lightning bolts''
+|-
+| [[Storm Dragoon]]
+| -
+| ''Fires a spray of bullets''
+|-
+| [[Storm Saber]]
+| -
+| ''Fires a storm beam''
+|-
+| [[Sulphuric Acid Cannon]]
+| -
+| ''Fires an acidic bubble that sticks to enemies and emits sulphuric gas''
+|-
+| [[Svantechnical]]
+| -
+| ''Fires several barrages of bullets''
+|-
+| [[The Swarmer]]
+| -
+| ''Fires a swarm of bees and wasps''
+|-
+| [[T1000]]
+| -
+| ''Fires a spread of rainbow lasers''
+|-
+| [[Telluric Glare]]
+| -
+| ''Shoots an extremely fast energy arrow''
+|-
+| [[Temporal Floe Sword]]
+| ''The iceman cometh...''
+| ''The iceman cometh...<br/>Fires a frozen sword beam''
+|-
+| [[Terra Edge]]
+| ''Heals the player on enemy hits''
+| ''Heals the player on enemy hits<br/>Fires a beam that inflicts ichor for a short time''
+|-
+| [[Terra Lance]]
+| -
+| ''Fires a lance beam''
+|-
+| [[Terra Ray]]
+| -
+| ''Casts an energy ray that splits if enemies are near it''
+|-
+| [[Terratomere]]
+| ''Linked to the essence of Terraria<br/>Heals the player on enemy hits''
+| ''Linked to the essence of Terraria<br/>Heals the player on enemy hits<br/>Fires a barrage of homing beams that inflict several debuffs''
+|-
+| [[Titanium Railgun]]
+| -
+| ''Fires a laser''
+|-
+| [[Triactis' True Paladinian Mage-Hammer of Might]]
+| -
+| ''Explodes on enemy hits''
+|-
+| [[Trinity]]
+| -
+| ''Fires a spread of energy bolts''
+|-
+| [[Triploon]]
+| -
+| ''Launches three harpoons''
+|-
+| [[True Caustic Edge]]
+| ''Pestilent Defilement''
+| ''Fires a bouncing caustic beam<br/>Inflicts on fire, poison, and venom''
+|-
+| [[True Forbidden Oathblade]]
+| ''Sword of an ancient demon god''
+| ''Fires a spread of demonic scythes and critical hits cause shadowflame explosions''
+|-
+| [[True Paladin's Hammer]]
+| -
+| ''Explodes on enemy hits''
+|-
+| [[True Tyrant's Ultisword]]
+| ''Contains the essence of a forgotten age<br/>50% chance to give the player the tyrant's fury buff on enemy hits<br/>This buff increases melee damage by 30% and melee crit chance by 10%''
+| ''Fires blazing, hyper, and sunlight blades<br/>Gives the player the tyrant's fury buff on enemy hits<br/>This buff increases melee damage by 30% and melee crit chance by 10%''
+|-
+| [[Typhon's Greed]]
+| -
+| ''Summons water spirits while in use''
+|-
+| [[Tyrant Yharim's Ultisword]]
+| ''Necrotic blade of Jungle King Yharim<br/>50% chance to give the player the tyrant's fury buff on enemy hits<br/>This buff increases melee damage by 30% and melee crit chance by 10%''
+| ''Fires homing blazing blades<br/>Gives the player the tyrant's fury buff on enemy hits<br/>This buff increases melee damage by 30% and melee crit chance by 10%''
+|-
+| [[Undine's Retribution]]
+| -
+| ''Casts a swarm of homing spears''
+|-
+| [[Vein Burster]]
+| -
+| ''Fires a blood ball that sticks to tiles and explodes''
+|-
+| [[Virulence]]
+| -
+| ''Fires a plague cloud''
+|-
+| [[Viscera]]
+| ''The more tiles and enemies the beam bounces off of or travels through the more healing the beam does''
+| ''Fires a blood beam that heals you on enemy hits<br/>The more tiles and enemies the beam bounces off of or travels through the more healing the beam does''
+|-
+| [[Voidragon]]
+| -
+| ''Fires void blasts that explode''
+|-
+| [[Vortexpopper]]
+| -
+| ''Fires bubbles everywhere that pop into bullets''
+|-
+| [[Wingman]]
+| -
+| ''Fires a concentrated laser beam''
+|-
+| [[Wrath of the Ancients]]
+| -
+| ''Casts a granite energy pulse''
+|}
+{{collapse bottom}}
+*Changed the debuff durations of most weapons to be more consistent. A full list of changes can be found below:
+{{collapse top}}
+*[[Abyssal Warhammer]] now inflicts [[Frostburn]] for 2 seconds instead of 1.67.
+*[[Aether's Whisper]] now inflicts [[Shadowflame]] for 1 second, [[Ichor (debuff)|Ichor]] for 2 seconds, Frostburn for 3 seconds, [[On Fire!]] for 4 seconds, and [[Poisoned]] for 5 seconds instead of each debuff for 4, 6.67, 8.67, 10, and 12 seconds respectively.
+*True melee [[Fractured Ark|Ark of the Ancients]] hits now inflict [[Holy Flames]] for 5 seconds instead of 8.33, and its beam now inflicts Brimstone Flames, Glacial State, Holy Flames, and Plague instead of just Holy Flames.
+*[[Ark of the Cosmos]]' main beam now inflicts Brimstone Flames, Glacial State, Holy Flames, and Plague instead of just Holy Flames, and its other beams now inflict 2 seconds of Brimstone Flames, Glacial State, Holy Flames, and Plague instead of 8.33 seconds of each.
+*[[Ark of the Elements]] now inflicts Brimstone Flames, Glacial State, Holy Flames, and Plague for 2 seconds instead of 8.33, its main beam now inflicts Brimstone Flames, Glacial State, Holy Flames, and Plague instead of just Holy Flames, and its other beams now inflict 2 seconds of Brimstone Flames, Glacial State, Holy Flames, and Plague instead of 8.33 seconds of each.
+*Augur of the Elements now inflicts Brimstone Flames, Glacial State, Holy Flames, and Plague for 2 seconds instead of 1.67.
+*True melee Baleful Harvester hits now inflict On Fire! for 5 seconds instead of 40, and its flares now inflict it for 5 seconds instead of 10.
+*[[Beastial Pickaxe]] now inflicts [[Venom]] for 5 seconds instead of 3.33.
+*[[Berserker Waraxe]] now inflicts Venom for 5 seconds instead of 3.33.
+*Biofusillade no longer inflicts Cursed Inferno.
+*True melee Bladecrest Oathsword hits now inflict On Fire! for 4 seconds instead of 3.33.
+*[[Blade of Enmity]] now inflicts [[Brimstone Flames]] for 5 seconds instead of 33.33.
+*[[Blight Spewer]] now inflicts Plague for 5 seconds instead of 8.33.
+*[[Blossom Pickaxe]] no longer inflicts any debuffs.
+*[[Brimblade]] now inflicts Brimstone Flames for 3 seconds instead of 1.67.
+*Brimlance explosions now inflict Brimstone Flames for 10 seconds instead of 16.67, and its flares now inflict Brimstone Flames for 3 seconds instead of 2.67.
+*[[Brimrose Staff]] now inflicts Brimstone Flames for 2 seconds instead of 1.67.
+*Brimstone Fury now inflicts Brimstone Flames for 2 seconds instead of 1.67.
+*Brimstone Sword explosions now inflict Brimstone Flames for 2 seconds instead of 1.67.
+*Burning Sea now inflicts Brimstone Flames for 2 seconds instead of 1.67.
+*True melee Catastrophe Claymore hits now inflict Ichor for 2 seconds, On Fire! for 5 seconds, and Frostburn for 3 seconds instead of [[Cursed Inferno]], On Fire!, and Frostburn for 3.33 each.
+*Celestial Claymore's bombs now inflict Frostburn, On Fire!, or Ichor for 5 seconds depending on the bomb's color.
+*Celestus is now guaranteed to inflict [[Exo Freeze]] for 0.5 seconds instead of having a 3.33% chance to inflict it for 4 seconds, and now inflicts Brimstone Flames, Glacial State, Holy Flames, Plague, Cursed Inferno, Frostburn, On Fire!, and Ichor for 2 seconds each instead of 1.67.
+*[[Cleansing Blaze]] now inflicts God Slayer Inferno for 5 seconds instead of 8.33.
+*Contagion's balls now inflict Plague for 5 seconds instead of 6.
+*[[Cosmic Immaterializer]] is now guaranteed to inflict Exo Freeze for 0.5 seconds instead of having a 3.33% chance to inflict it for 4 seconds, and now inflicts Brimstone Flames, Glacial State, Holy Flames, Plague, Cursed Inferno, Frostburn, Ichor, and On Fire! for 2 seconds each instead of 1.67 each.
+*Crushsaw Crasher now inflicts Brimstone Flames for 4 seconds instead of 3.33.
+*Crystal Flare Staff's flames now inflict Frostburn for 3 seconds instead of 3.33.
+*[[Crystal Piercer]] now inflicts Frostburn for 2 seconds instead of 1.67.
+*True melee Darklight Greatsword hits now inflict Frostburn for 3 seconds instead of 1.67.
+*[[Deathhail Staff]]'s nebula beams now inflict On Fire! for 10 seconds.
+*Deathwind, Eradicator, Excelsus, and The Obliterator's lasers now inflict On Fire! for 10 seconds.
+*True melee Devastation hits now inflict Ichor for 3 seconds, On Fire! for 10 seconds, and Frostburn for 5 seconds instead of Cursed Inferno, On Fire!, and Frostburn for 3.33 each.
+*Devil's Devastation's Demon Blasts now inflict Shadowflame for 5 seconds.
+*Diseased Pike and Pandemic's Plague Seekers now inflict Plague for 3 seconds instead of 5.
+*True melee [[Draconic Destruction]] hits now inflict [[Daybreak]] for 10 seconds instead of On Fire! for 8.33, its beams now inflict Daybreak for 10 seconds instead of On Fire! for 8.33 seconds.
+*Dragon's Breath now inflicts On Fire! for 10 seconds instead of 8.33.
+*[[Drataliornus]] now inflicts Exo Freeze for 0.5 seconds and Brimstone Flames, Glacial State, Holy Flames, Plague, Cursed Inferno, Frostburn, Ichor, and On Fire! for 2 seconds each.
+*Earth's main meteor now inflicts On Fire!, Frostburn, and Cursed Inferno for 10 seconds instead of all three buffs for 8.33 seconds, its blue meteors now inflict Glacial State for 10 seconds instead of 8.33, and its red meteors now inflict Holy Flames for 10 seconds instead of 8.33.
+*[[Effluvium Bow]]'s mist arrows now inflict Frostburn for 4 seconds instead of 3.33.
+*Eidolon Staff's Ice Cluster now inflicts Glacial State for 2 seconds instead of 6, and its Ice Spikes now inflict Frostburn for 4 seconds instead of 3.33.
+*[[Elemental Axe]] now inflicts Brimstone Flames, Glacial State, Holy Flames, and Plague for 2 seconds instead of 1.67.
+*[[Elemental Blaster]] now inflicts Brimstone Flames, Glacial State, Holy Flames, and Plague for 2 seconds.
+*Elemental Disk now inflicts Brimstone Flames, Glacial State, Holy Flames, and Plague for 2 seconds instead of 1.67.
+*[[Elemental Eruption]]'s green flames now inflict Cursed Inferno for 5 seconds and Plague for 2 seconds instead of 8.33 and 4 seconds respectively. Its red flames now inflict Brimstone Flames for 2 seconds and On Fire! for 5 seconds instead of 4 and 8.33 seconds respectively.
+*Elemental Lance's spear now inflicts Brimstone Flames, Glacial State, Holy Flames, and Plague for 2 seconds instead of 5, its main beam now inflicts it for 2 seconds instead of 1.67, its secondary beam now inflicts it for 2 seconds instead of 1, its tertiary beams now inflict it for 2 seconds instead of 0.5, and its quaternary beams now inflict the debuff for 2 seconds.
+*[[Elemental Ray]] now inflicts Brimstone Flames, Glacial State, Holy Flames, and Plague for 2 seconds.
+*Elemental Shiv now inflicts Brimstone Flames, Glacial State, Holy Flames, and Plague for 2 seconds instead of 8.33.
+*[[The Empyrean]] now inflicts Cursed Inferno for 5 seconds instead of 8.33.
+*[[Enhanced Nano Round]] Nanomachines now inflict [[Confused]] for 3 seconds instead of 3.33.
+*[[Entropy's Vigil]]'s Cataclymini's flamethrower now inflicts Brimstone Flames for 2 seconds instead of 1.67. Calamitamini's lasers now inflict Brimstone Flames for 2 seconds instead of 1.
+*Eradicator now inflicts On Fire! and Frostburn.
+*Essence Flayer's scythes now inflict God Slayer Inferno for 5 seconds instead of 8.33.
+*True melee [[Essence Flayer]] hits now inflict [[God Slayer Inferno]] for 5 seconds instead of 8.33.
+*[[Eutrophic Scimitar]]'s beam now inflicts [[Silva Stun]] for 0.25 seconds instead of 0.17.
+*[[Everglade Spray]] now inflicts Cursed Inferno for 5 seconds instead of 6.67.
+*Excelsus' main blade now inflicts On Fire! for 10 seconds, and its pink blade now inflicts On Fire! instead of Frostburn.
+*[[Executioner's Blade]] now inflicts God Slayer Inferno for 5 seconds instead of 8.33.
+*[[Exoblade]] changes:
+**True melee hits now inflict Exo Freeze for 0.5 seconds and Brimstone Flames, Glacial State, Holy Flames, Plague, Cursed Inferno, Frostburn, On Fire!, and Ichor for 2 seconds instead of inflicting Exo Freeze for 8.33 seconds and all other debuffs for 3.33. 
+**Beam and comets now inflict Exo Freeze for 0.5 seconds instead of 4, and inflict all of its true melee's other debuffs for 2 seconds instead of 3.33.
+**Explosions now inflict Exo Freeze for 0.5 seconds instead of 2, and inflict Brimstone Flames, Glacial State, Holy Flames, Plague, Cursed Inferno, Frostburn, On Fire!, and Ichor for 2 seconds.
+*True melee [[Feralthorn Claymore]] hits now inflict [[Venom]] for 5 seconds instead of 3.33.
+*Flame Scythe no longer inflicts Bleeding.
+*[[Flare Bolt]] now inflicts On Fire! for 4 seconds instead of 3.33.
+*True melee Flarefrost Blade hits now inflict Frostburn and On Fire! for 5 seconds instead of 3.33.
+*[[Forbidden Sun]] now inflicts On Fire! for 10 seconds instead of 12.5.
+*Frigidflash Bolt now inflicts On Fire! and Frostburn for 5 seconds instead of 6.67.
+*[[Gallant Pickaxe]] now inflicts Cursed Inferno for 5 seconds instead of 8.33.
+*[[Gel Dart]]s now inflict Slimed for 2 seconds instead of 1.67.
+*Gelitic Blade now inflicts Slimed for 5 seconds instead of 3.33.
+*[[Gelpick]] now inflicts Slimed for 3 seconds instead of 1.67.
+*[[The God's Gambit]] now inflicts Slimed for 3 seconds instead of 3.33.
+*[[Havoc's Breath]] now inflicts Brimstone Flames for 5 seconds instead of 8.33.
+*[[Heavenly Gale]] now inflicts Exo Freeze for 0.5 seconds, and Brimstone Flames, Glacial State, Holy Flames, Plague, Cursed Inferno, Frostburn, Ichor, and On Fire! for 2 seconds each.
+*[[Hell Burst]] now inflicts On Fire! for 5 seconds instead of 4.
+*Hellfire Flamberge's medium flares now inflict On Fire! for 6 seconds instead of 6.33, and its small flares now inflict On Fire! for 4 seconds instead of 4.67.
+*[[Hellion Flower Spear]] now inflicts Venom for 5 seconds instead of 3.33.
+*Hellkite now inflicts On Fire! for 10 seconds instead of 30.
+*[[Hellwing Staff]] now inflicts On Fire! for 10 seconds instead of 8.33.
+*[[The Hive]]'s goliath rockets now inflict Plague for 5 seconds instead of 3.33.
+*Icebreaker now inflicts Frostburn for 3 seconds.
+*Illustrious Knives now inflict Holy Flames for 10 seconds instead of 8.33.
+*Impaler now inflicts On Fire! for 5 seconds instead of 4.33.
+*Increased [[Inferno Fork]]'s explosion damage by 33%.
+*Lashes of Chaos now inflicts Brimstone Flames for 10 seconds instead of 16.67.
+*[[Lifehunt Scythe]] no longer inflicts any debuffs.
+*Mangrove Chakram now inflicts Cursed Inferno for 4 seconds instead of 3.33.
+*The Obliterator now inflicts On Fire! and Frostburn for 10 seconds.
+*[[Overloaded Blaster]] now inflicts Slimed for 3 seconds instead of 3.33.
+*[[Photoviscerator]] is now guaranteed to inflict Exo Freeze for 0.5 seconds instead of having a 3.33% chance to inflict it for 4 seconds, and now inflicts Brimstone Flames, Glacial State, Holy Flames, Plague, Cursed Inferno, Frostburn, On Fire!, and Ichor for 2 seconds each instead of 1.67.
+*Plague Staff's fangs now inflict Plague for 5 seconds instead of 5.33.
+*Planetary Annihilation changes:
+**Blue bolts now inflict Frostburn for 2 seconds instead of 5.
+**Green bolts now inflict Cursed Inferno for 2 seconds instead of 5.
+**Red bolts now inflict On Fire! for 2 seconds instead of 5.
+**Yellow bolts now inflict Ichor for 2 seconds instead of 5.
+**Lavender bolts now inflict On Fire! for 1.5 seconds instead of 4.17 and Frostburn for 1 second instead of 0.83.
+**Violet bolts now inflict Frostburn for 1.5 seconds instead of 4.17, and On Fire! for 1 second instead of 4.17.
+**Orange bolts now inflict On Fire! for 1.5 seconds instead of 3.33, and Ichor for 1 second instead of 1.67.
+*Plasma Rod now inflicts Shadowflame for 1 second, Ichor for 2 seconds, Frostburn for 3 seconds, On Fire! for 4 seconds, and Poisoned for 5 seconds instead of each debuff for 2, 1.5, 4.33, 5, and 6 seconds respectively.
+*Quagmire now inflicts Venom for 5 seconds instead of 3.33.
+*True melee Red Sun hits now inflict Holy Flames for 10 seconds instead of 8.33. Its Solar Flares now inflict Holy Flames for 10 seconds instead of 15, and its smaller flares now inflict Holy Flames for 2 seconds instead of 1.67.
+*[[Shadecrystal Barrage]] now inflicts Frostburn for 2 seconds instead of 1.67.
+*[[Shardlight Pickaxe]] now inflicts Frostburn for 2 seconds instead of 1.67.
+*Shimmerspark now inflicts Frostburn for 2 seconds instead of 1.67.
+*Snowstorm Staff now inflicts Frostburn for 3 seconds instead of 3.33.
+*[[Soma Prime]] is now guaranteed to inflict Shred for 3 seconds instead of having a 10% chance to inflict it for 6.
+*[[Soul Harvester]] now inflicts Cursed Inferno and Plague for 5 seconds instead of 3.33.
+*Starnight Lance now inflicts Frostburn for 2 seconds instead of 1.67.
+*Stream Gouge's beam now inflicts God Slayer Inferno for 5 seconds instead of 8.33.
+*[[Swordsplosion]]'s swords now inflict Brimstone Flames, Glacial State, Holy Flames, and Plague instead of just Holy Flames.
+*[[Tarragon Throwing Dart]]s no longer inflict Cursed Inferno or On Fire!.
+*[[Teardrop Cleaver]] now inflicts [[Temporal Sadness]] for 2 seconds instead of 1.
+*[[Tears of Heaven]] now inflicts Holy Flames for 5 seconds instead of 16.67.
+*[[Terra Flameburster]] now inflicts Cursed Inferno and On Fire! for 5 seconds instead of 8.33.
+*Terratomere's beam is now guaranteed to inflict Glacial State for 1 seconds instead of having a 33% chance to inflict it for 2 seconds, and it now inflicts Cursed Inferno for 10 seconds, Frostburn for 5 seconds, On Fire! for 15 seconds and Ichor for 3 seconds instead of each debuff for 18.67, 11, 13.33, and 5 seconds respectively.
+*True melee [[True Ark of the Ancients]] hits now inflict Holy Flames for 5 seconds instead of 8.33, its beam now inflicts Brimstone Flames, Glacial State, Holy Flames, and Plague instead of just Holy Flames, and its green balls now inflict Cursed Inferno for 5 seconds instead of 6.67.
+*True melee True Tyrant's Ultisword hits now inflict Cursed Inferno and Venom for 5 seconds each instead of 4 and 3 seconds respectively. [[Tyrant's Fury]] is now granted to the player with a 100% chance instead of a 50% chance. Hyper Blades now inflict Venom and Cursed Inferno for 2 and 4 seconds instead of 1.67 and 3.33 seconds respectively.
+*True melee Tyrant Yharim's Ultisword hits now inflict Cursed Inferno and Venom for 5 seconds each instead of 4 and 3 seconds respectively. Tyrant's Fury is now granted to the player with a 100% chance instead of a 50% chance.
+*[[Urchin Stinger]]s now inflict Venom for 3 seconds instead of 2.5.
+*Split [[Vanquisher Arrow]]s now inflict God Slayer Inferno for 5 seconds instead of 8.33.
+*[[Venusian Trident]]'s main bolt and flares now inflict On Fire! for 10 seconds, and its explosion now inflicts it for 10 seconds instead of 12.5.
+*Verdant no longer inflicts On Fire! and Cursed Inferno.
+*Vivid Clarity now inflicts Exo Freeze for 0.5 seconds, and increased all of its other debuff durations from 1.67 seconds to 2.
+*Xeroc Greatsword's plasma balls now inflict Cursed Inferno for 5 seconds instead of 6.67.
+*[[Xeroc Pitchfork]]s now inflict Cursed Inferno for 5 seconds instead of 8.33.
+{{collapse bottom}}
+*[[Acid Round]]s now divide their damage boost by 50 before applying it.
+*Nerfed [[Air Spinner]]'s damage from 21 to 20, but it now shoots feathers at enemies.
+*[[Alluvion]] and [[Arterial Assault]]'s tooltips now specify that they convert [[Wooden Arrow]]s.
+*Alluvion's typhoons no longer deal more damage in Expert Mode.
+*Buffed [[Amidias' Trident]]'s damage from 20 to 28, but its whirlpools now penetrate 2 times instead of 3.
+*[[Anarchy Blade]] and [[Grand Dad]]'s on hit effects now don't affect enemies from a specific assigned list instead of just automatically not affecting bosses.
+*Buffed Astral Blade's damage from 90 to 135.
+*Buffed Astral Blaster's damage from 100 to 150, but nerfed its use time from 10 to 14.
+*Buffed Astral Bow's damage from 65 to 110.
+*Buffed Astral Pike's damage from 85 to 128, and it now shoots down stars on true melee hits.
+*Buffed Astral Staff's damage from 180 to 270, and doubled the speed of its projectiles.
+*[[Astreal Defeat]]'s tooltip now mentions the behavior of its special arrows, and they now have afterimages.
+*[[Atlantis]]' tooltip now mentions that its spears split as they travel.
+*Reduced the amount of dust created by [[Baleful Harvester]]'s skulls.
+*[[Banshee Hook]]'s tooltip now mentions that it fires blades.
+*[[Barinautical]] and [[Claret Cannon]]'s tooltips now state they fire a string of their respective projectiles instead of simply saying they shoot said projectiles.
+*Buffed [[Broken Biome Blade|Biome Blade]]'s damage from 42 to 48.
+*Nerfed [[Bladedge Railbow]]'s shot speed from 16 to 14, but it now fires 4 arrows at once along with two leaves instead of firing 5 arrows at once with a chance for one to turn into a [[Chlorophyte Arrow]].
+*[[Blood Bath]]'s tooltip is now written in present tense.
+*Nerfed Brimlash Buster's damage from 126 to 100.
+*[[Brimstone Sword]] can now be right clicked to be thrown.
+*Increased how quickly [[Butcher]] charges up, and its projectiles now gain more speed based on how long the weapon is charged.
+*Catastrophe Claymore's mines now have damaging explosions.
+*[[Celestial Claymore]]'s tooltip no longer specifies how long it takes for its projectiles to detonate.
+*[[Charged Dart Blaster]]'s alt fire blasts now deal 85% of the weapon's damage instead of full.
+*[[Clam Crusher]] now only inflicts [[Silva Stun]] if a boss isn't alive.
+*[[Cnidarian]] now shoots seashells at enemies.
+*Nerfed [[Coral Spout]]'s use time from 17 to 25, and its knockback from 2.5 to 2.
+*[[Corrupted Crusher Blade]] now lowers enemy defense and inflicts Cursed Inferno.
+*Nerfed Cosmic Bolter's damage from 70 to 60, but increased the amount of arrows it fires per shot from 2 to 3.
+*Reworked Cosmic Rainbow, now fires 3 rainbows towards the cursor, with 2 more rainbows falling from the sky instead of firing 7-10 rainbows in random directions.
+*[[Crimson Crusher Blade]] now lowers enemy defense and inflicts Ichor.
+*Nerfed [[Darkecho Greatbow]]'s damage from 37 to 34, and its shot speed from 16 to 12, but it now fires a [[Crystal Dart]] along with its other arrows instead of having a chance to randomly replace one with an [[Unholy Arrow]].
+*Critical true melee hits with Devil's Devastation now cause shadowflame explosions.
+*Increased [[Dragon Pow]] and [[The Oracle]]'s sell prices from {{gc|36}} to {{gc|50}}.
+*Reduced the randomness of Dragon Rage's wave speeds.
+*[[Earthen Pike]] now creates fossil shards when thrusted.
+*Buffed Elemental Lance's damage from 104 to 200, nerfed its use time from 17 to 35, its projectiles now last longer, and they now create new spears while flying instead of on death.
+*[[Entropy's Vigil]] changes:
+**Nerfed damage from 35 to 32.
+**Cataclymini's flamethrower now penetrates twice instead of infinitely, and now sets target immunity frames to 9 instead of 7.
+**Catastromini now sets target immunity frames to 9 instead of 7.
+*Eutrophic Scimitar now only inflicts Silva Stun if a boss isn't alive.
+*Nerfed Executioner's Blade's damage from 615 to 550.
+*[[Exsanguination Lance]] now explodes on enemy hits, and critical hits will now summon homing flares.
+*[[Fate's Reveal]]'s tooltip now refers to its projectiles as fireballs instead of simply fire.
+*Feralthorn Claymore now uses Item1 as its use sound instead of Item8, and true melee hits now spawn [[Vilethorn]] spikes in hit enemies.
+*Critical true melee hits with [[Forbidden Oathblade]] now cause shadowflame explosions.
+*Added some extra clarification to [[Galaxia]]'s tooltip.
+*Nerfed [[Galeforce]]'s damage from 4 to 3, but it now fires a spread of two feathers instead of arrows.
+*[[Ghoulish Gouger]]'s tooltip now mentions that it ignores immunity frames.
+*Removed the words, "This spear" from [[Gilded Proboscis]]' tooltip.
+*The God's Gambit now shoots slime directly at enemies.
+*[[Goldplume Spear]] now creates feathers.
+*Nerfed [[Goobow]]'s damage from 46 to 40, but arrows fired are now accompanied by two streams of slime.
+*Nerfed [[Grand Guardian]]'s damage from 160 to 150.
+*Nerfed [[Greatbow of Turmoil]]'s damage from 52 to 46, but it now fires 2 additional [[Cursed Arrow|Cursed]], [[Hellfire Arrow|Hellfire]], or [[Ichor Arrow]]s instead of having any of said arrows replacing its normal ones.
+*Reworded [[Heart Rapier]]'s tooltip to say that its effects apply upon "enemy hits" instead of upon "striking enemies".
+*[[Hellion Flower Spear]] now summons petals from the sky on critical hits.
+*Nerfed Hellkite's damage from 118 to 100, and it now creates explosions upon enemy hits.
+*Reworded [[Hellwing Staff]]'s tooltip to say that it "casts" flame pillars instead of saying it "unleashes" them.
+*[[Infernal Rift]]'s tooltip now mentions that its blades spawn additional blades upon enemy hits.
+*Nerfed Infernal Spear's damage from 1700 to 1500.
+*Lifehunt Scythe's tooltip now mentions that it fires scythes.
+*Decreased the damage of Lionfish and Sulphuric Acid Cannon's improved Venom debuff.
+*[[Lucrecia]] now drains the player's life in exchange for 10 immunity frames instead of having a 50% chance to trigger 15 immunity frames.
+*Increased the speed of [[Magic Conch]]'s Hermit Crabs.
+*Buffed [[Malachite]]'s damage from 58 to 62, and its alt fire now deals 175% of the weapon's damage instead of 200%.
+*[[Meowthrower]]'s flames now last for 1.5 seconds instead of 1.
+*Increased [[Mirror Blade]]'s maximum damage from 500 to 600.
+*[[Nettlevine Greatbow]] now fires 2 Chlorophyte or Venom Arrows in addition to four normal arrows instead of having a chance to replace each arrow with a Chlorophyte or Venom Arrow.
+*Buffed [[The Obliterator]]'s damage from 63 to 240.
+*Critical hits with the [[Old Lord Oathsword]] now spawn explosions.
+*Removed the word, "Points" from [[Omniblade]]'s tooltip. <!---cuts enemy defense by 50 points--->
+*Added flavor text to [[P90]]'s tooltip.
+*Nerfed [[Plaguenade]]'s use time from 11 to 14.
+*Swapped Plasma Rifle's primary and alt fires.
+*Removed unnecessary text from [[Proporse Pistol]]'s tooltip. 
+*[[Pumpler]] can now be right clicked to fire an explosive pumpkin.
+*[[Purge Guzzler]]'s tooltip now has the word "three" instead of just putting the number "3".
+*Buffed Quasar's damage from 50 to 80, its critical strike chance from 8% to 12%, and it no longer sucks in enemies while a boss is alive.
+*Buffed Radiant Star's damage from 33 to 50.
+*Buffed [[Raider's Glory]]'s damage from 37 to 40, and it now converts arrows to [[Ichor Arrow]]s.
+*Nerfed [[The Reaper]]'s damage from 350 to 325.
+*[[Sausage Maker]] now creates homing blood projectiles on enemy hits. <!---"Real-life sausage makers take meat, condense it, and push it out as a sausage. This could mean that when you strike an enemy, their flesh is condensed into the weapon, then it spits out a blob of blood."--->
+*[[Scarlet Devil]]'s main spear now lasts for 5 seconds instead of 7, now heals the player significantly more, but its balls no longer heal.
+*[[Seabow]] now fires blasts of water.
+*Buffed [[Shattered Sun]]'s damage from 40 to 50.
+*Pluralized "energy beam" in [[SHPC]]'s tooltip.
+*Soul Harvester's tooltip now mentions that it fires scythes.
+*[[Soul Piercer]]'s beam now lasts for 4 seconds instead of 3, has a localNPCHitCooldown value of 5, and now fires extra beams on enemy hits.
+*[[Spear of Paleolith]]'s fossil shards now last for 1.5 seconds instead of 2.
+*Condensed [[Spyker]]'s tooltip.
+*Buffed Starfall's damage from 39 to 59.
+*Starnight Lance's beam now makes a sound on death.
+*Reduced how much dust The Storm's bolts produce.
+*Nerfed [[Storm Ruler]]'s damage from 105 to 65, its beams now spawn tornadoes on death which suck in enemies, and its beams also produce light.
+*Condensed [[Stream Gouge]]'s tooltip.
+*Tears of Heaven's tooltip now mentions that its balls home.
+*Changed Terra Flameburster's dust type from 74 to 107.
+*Terra Lance's beam now makes a sound upon death.
+*Terra Shiv's beam now makes a sound upon death.
+*Critical true melee hits with True Forbidden Oathblade now cause shadowflame explosions.
+*[[Ultra Liquidator]]'s tooltip now mentions that its blades spawn additional blades upon enemy hits.
+*[[Urchin Spear]] now shoots stingers.
+*[[Verdant]]'s tooltip now refers to its leaves as "crystal leafs" instead of "leaf crystals".
+*Cleaned up [[Vivid Clarity]]'s tooltip and added flavor text.
+*Increased the hitscan range of [[Void Vortex]]'s orbs.
+*Wind Blade no longer sucks in enemies while a boss is alive.
+*Reworded [[Wulfrum Staff]]'s tooltip to say that it "casts" a wulfrum bolt instead of saying it "fires" one.
+*Reworded [[Xeroc Greatsword]]'s tooltip to say it fires a spread of homing plasma balls instead of directly saying it fires them.
+*Buffed [[YinYo]]'s knockback from 3.2 to 3.5.
+
+=== Other ===
+*The [[Archmage]] and [[Drunk Princess]] are now immune to Lava.
+*The Astral Chest no longer contains any Astral Bars, and can no longer be opened until Astrum Aureus has been defeated instead of Astrum Deus.
+*The [[Clothier]] now sells [[Golden Key]]s in Hardmode.
+*The Drunk Princess now sells [[Star Beam Rye]] after Astrum Aureus has been defeated instead of Astrum Deus.
+*The Drunk Princess can now mention "Ahmed Fahad Zamel Al Sharif", "Eragon3942", "TheBlackHand", "william", and "Samuel Foreman".
+*Decreased [[Mushy]]'s life regeneration boost from 5 to 1, and its description no longer specifies how much life regeneration it gives.
+*Increased several block pickaxe requirements by 1:
+**Increased [[Abyss Gravel]]'s pickaxe requirement from 64 to 65.
+**Increased [[Aerialite Ore]]'s pickaxe requirement from 274 to 275.
+**Increased Astral Ore's pickaxe requirement from 64 to 65.
+**Increased [[Auric Ore]]'s pickaxe requirement from 199 to 200.
+**Increased [[Brimstone Slag]]'s pickaxe requirement from 179 to 180.
+**Increased [[Chaotic Ore]]'s pickaxe requirement from 209 to 210.
+**Increased [[Charred Ore]]'s pickaxe requirement from 199 to 200.
+**Increased [[Cryonic Ore]]'s pickaxe requirement from 179 to 180.
+**Increased [[Exodium Cluster]]'s pickaxe requirement from 224 to 225.
+**Increased [[Navystone]]'s pickaxe requirement from 54 to 55.
+**Increased [[Perennial Ore]]'s pickaxe requirement from 199 to 200.
+**Increased [[Sea Prism]]'s pickaxe requirement from 54 to 55.
+**Increased [[Sulphurous Sand]]'s pickaxe requirement from 54 to 55.
+**Increased [[Tenebris]]'s pickaxe requirement from 199 to 200.
+**Increased [[Uelibloom Ore]]'s pickaxe requirement from 249 to 250.
+*[[Piggy]] can now drop [[Bacon]].
+*Removed [[Planty Mush]]'s pickaxe requirement.
+*[[Proficiency]] status messages now only appear for the player who just leveled up.
+*Decreased [[Smooth Voidstone]] and [[Voidstone Slab]]'s pickaxe requirements from 190 to 180.
+*Decreased [[Voidstone]]'s pickaxe requirement from 189 to 180.
+*The [[Wizard]] now sells the [[Inferno Fork]], [[Shadowbeam Staff]], and [[Spectre Staff]] after Astrum Aureus has been defeated instead of Astrum Deus.
+*Whispering Death can now be inflicted on the player and now has a proper buff description.
+
+=== Resprites ===
+*Resprited [[Alluvion]], [[Anti-materiel Rifle]], [[Cryophobia]], [[Evil Smasher]], [[Eye of Magnus]], [[Monsoon]], Quasar, [[Skullmasher]], and [[Soul Edge]].
+*Resprited [[Archaic Powder]], [[The Bee]], [[Regenator]], [[Starlight Wings]], and [[The Transformer]].
+*Resprited [[Starter Bag]].
+
+== Fixes ==
+*Fixed various multiplayer syncing errors throughout the mod.
+*Fixed sheeting errors on [[Bear's Eye]]'s Bear pet.
+*Fixed sheeting errors on the Brimrose mount.
+*Fixed [[Chaos Candle|Chaos]] and [[Tranquility Candle]] buffs being clearable.
+*Fixed a sheeting error on the Chaos Candle.
+*Fixed sheeting errors on [[The Community]], [[Dark Plasma]], [[Fetid Essence]], [[Galactica Singularity]], [[Heart of the Elements]], and [[Unholy Essence]].
+*Fixed [[Crabulon]], Giant Clam, and The Leviathan's hitboxes.
+*Fixed [[Cursed Capper]] firing nothing.
+*Fixed Dragon's Breath's hold offset.
+*Fixed Duke Fishron being able to naturally spawn at the Sulphurous Sea in Death Mode.
+*Fixed weapon offset bugs while riding the [[Fabsol]], [[Gaze of Crysthamyr]], [[Onyx Excavator Key]], [[Suspicious Looking Jelly Bean]], and [[Tundra Leash]] [[mounts]].
+*Fixed [[Fungal Symbiote]] interacting strangely with whipswords.
+*Fixed subsequent Great Sand Shark natural spawns taking significantly quicker to activate.
+*Fixed Heart of the Elements and Rose Stone's Brimstone Elemental's Hellfireballs dealing magic damage instead of summon damage.
+*Fixed Holiday Halberd's green balls having a significantly lower chance to spawn than red balls.
+*Fixed Infernal Spear and Malachite's explosions dealing ranged damage.
+*Fixed Jungle Dragon, Yharon only dropping Void Vortex in Normal Mode.
+*Fixed Piggy being able to spawn in the [[Sunken Sea]] and [[Sulphurous Sea]].
+*Fixed rogue Reaver armor's set bonus not displaying the stealth description that all other rogue armors have.
+*Fixed magic, ranged, and rogue Reaver armor set bonuses mentioning Reaver Rage when the buff is exclusive to the melee set.
+*Fixed [[Romajeda Orchid]] spawning its Kendra pet in the ground.
+*Fixed a grammar error in [[Spikecrag Staff]]'s tooltip.
+*Fixed Trinity not having an equal chance to fire each of its projectile variants.
+*Fixed Xeroc Pitchforks dealing zero damage after piercing enough times.
+
+== Removals ==
+*Removed [[SYNTAX ERROR]].
+*Removed [[NO U]].
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

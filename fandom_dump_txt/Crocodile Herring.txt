@@ -1,0 +1,44 @@
+{{addon|Calamity: Community Remix}}
+{{infobox wrapper
+|{{item infobox
+| type = Bait
+| type2 = Crafting material
+| bait = 20
+| rare = 7
+| use = 14
+| auto = yes
+| consumable = yes
+| sell = {{value|0|6}}
+| stack = 9999
+| hardmode = yes
+}}
+|{{npc infobox | boxwidth = 21em
+| type = Critter
+| environment = Ocean
+| ai = Swimming AI
+| damage = 0
+| life = 50
+| defense = 0
+| knockback = 0
+| immune1 = Confused
+| immune2 = Kami Flu
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| hardmode = yes
+| Crocodile Scale | 2-3 | 100%
+}}
+}}
+
+The '''Crocodile Herring''' is a [[critter]]. It is found in the [[Ocean]] after defeating [[Leviathan and Anahita]] which passively swims back and forth, gaining a speed boost when hitting a wall. It attempts to swim away from the player and will drop [[Crocodile Scale]]s when killed. It can also be caught with a [[Bug Net]] or [[Golden Bug Net]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+== Trivia ==
+*The Leviathan is implied to be a fully grown female individual of the Crocodile Herring species, while normal herring are male.
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}

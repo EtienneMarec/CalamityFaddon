@@ -1,0 +1,34 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 1350
+| critical = 16%
+| use = 25
+| stack = 1
+| rare = 11
+| sell = {{value|0|22}}
+| tooltip = Summons a spear that causes you to lunge towards the mouse position<br/>The spear requires a charge-up. The longer the charge, the stronger the lunge<br/>The spear disappears immediately if you are not holding this item while charging<br/>If enough time has passed or the spear collides into a wall, the spear dies and the lunge ends
+| hardmode = yes
+| postml = yes
+| element1 = Holy
+| element2 = Fire
+| element3 = Stab
+}}
+|{{item drops infobox
+| [[Profaned Guardians]] | 1 | 25%
+}}
+}}
+
+The '''Relic of Deliverance''' is a Godseeker Mode [[classless weapon]] that drops from the [[Profaned Guardians]]. When initially used, a spear is summoned at the player, spawning dust and increasing its potential lunge speed up to a maximum of 153 mph. When used again, the spear launches the player towards the direction of the cursor until the player collides with a wall or shortly after the player redirects for a total of three times. The player is able to redirect the spear by using the item again, which will change the direction to the direction of the cursor. The player can manually despawn the spear while holding a different item when charging up the spear, but not when launched.
+
+{{Modifier|none}}
+
+== Notes ==
+*Despite having a 16% critical strike chance, the Relic of Deliverance can not critically strike as it deals classless damage.
+*The Relic of Deliverance has a maximum range of ~6000 blocks, after which it will despawn.
+*This item can be very useful for dealing extra damage or travelling the world quickly.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

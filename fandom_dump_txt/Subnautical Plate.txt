@@ -1,0 +1,27 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| image = Subnautical Plate.png
+| tooltip = A bioluminescent remnant, existing long before the Golden Age of Dragons 
+| stack = 9999
+| rare = 15
+| sell = {{value|0|75|00}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+|{{item drops infobox
+| [[Adult Eidolon Wyrm]]| {{dv|22-34|32-44}} | 100%
+}}
+}}'''Subnautical Plates''' are Godseeker Mode [[crafting material]]s that drop exclusively from the [[Adult Eidolon Wyrm]]. When dropped, the item will pulse and glow blue.
+==Crafting==
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+==Trivia==
+*The item's name is a reference to the aquatic exploration game ''[[wikipedia:Subnautica|Subnautica]].''
+ {{-}}
+{{Subnautical Plate}}
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

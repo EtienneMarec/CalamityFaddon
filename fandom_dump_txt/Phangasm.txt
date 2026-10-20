@@ -1,0 +1,46 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 110
+| damagetype = ranged
+| auto = yes
+| stack = 1
+| tooltip = Fires a spread of 5 arrows and emits phantom arrows on enemy hits
+| knockback = 3
+| use = 12
+| rare = 14
+| velocity = 20
+| sell = {{value|0|36}}
+| hardmode = yes
+| postml = yes
+| proj = Phantasm Arrow.png
+| projcaption = Phantasm Arrow
+| element1 = Magic
+| element2 = Dark
+| element3 = Machine
+}}
+
+The '''Phangasm''' is a craftable Godseeker Mode [[bow]] and a direct upgrade to the [[Phantasm]]. It shoots volleys of 5 arrows at an initially low rate of fire that increases as it is used continuously. When its arrows hit an enemy, Phangasm spawns an additional barrage of phantasm arrows that home in on that enemy. It can later be used to craft the [[Contagion]].
+
+{{Modifier|ranged}}
+
+[[File:Phangasm (demo).gif|frame|Phangasm's on-hit effect demonstrated against [[Super Dummies]].]]
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Due to the high amount of projectiles shot when using [[Vanquisher Arrow]]s, firing them with this weapon can cause severe FPS drops, especially on weaker computers.
+
+== Trivia ==
+*The weapon's name sounds like 'fangasm', which is a similar theme of innuendos to the [[Golden Shower]], [[Master Bait]] or [[Mourning Wood]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

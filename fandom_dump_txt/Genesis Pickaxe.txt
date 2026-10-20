@@ -1,0 +1,39 @@
+{{item infobox
+| type = Tool
+| type2 = Crafting material
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 80
+| pick = 225
+| knockback = 5.5
+| rare = 10
+| bonus = +4 range
+| use = 11
+| toolspeed = 6
+| tooltip = Can mine Uelibloom Ore located in the Jungle
+| sell = {{value|0|20|0|0}}
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Genesis Pickaxe''' is a craftable Godseeker Mode [[pickaxe]] capable of mining {{item|Uelibloom Ore}}. It has the same [[tgc:Pickaxe power|pickaxe power]] as the [[Luminite Pickaxe]]s. It has +4 increased block breaking range and produces magenta light particles when swung.
+
+{{modifier|harvestalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient=Any Lunar Pickaxe}}
+
+== Trivia ==
+*This item was previously known as the "Gallant Pickaxe".
+
+{{Meld}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

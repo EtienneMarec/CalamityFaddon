@@ -1,0 +1,58 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| stack = 1
+| damagetype = summon
+| damage = 47
+| knockback = 4
+| rare = 6
+| sell = {{value|0|9|60}}
+| tooltip = Summons explosive energy bolts
+| use = 18
+| velocity = 7
+| hardmode = yes
+| boxwidth = 22em
+| debuff = On Fire!
+| debuffduration = 2 seconds (Red Siphonophore)
+| debuffchance = 100%
+| debufftip = Slowly losing life
+| debuff2 = Frostburn
+| debuffduration2 = 1.5 seconds (Blue Siphonophore)
+| debuffchance2 = 100%
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuff3 = Ichor (debuff)
+| debuffduration3 = 1 seconds (Yellow Siphonophore)
+| debuffchance3 = 100%
+| debufftip3 = Defense reduced by 20
+| element1 = Magic
+| element2 = Poison
+| element3 = Water
+| mana = 8
+}}
+
+The '''Catastophe Claysiphonophore''' is a craftable [[Hardmode]] [[summon weapon]]. When used it fires out one of three damaging Siphonophores, which will inflict numerous [[debuffs]] on hit, depending on their color. Unlike other minions, the Siphonophores take no minion slots, however they expire over time.
+
+{{modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Due to these properties, this weapon is essentially a Magic weapon for the Summoner class. It avoids the damage penalty for Minions while also scaling with Summoner equipment, giving a decent amount of damage in comparison with other classless weapons available.
+*The Siphonophores can be summoned with no empty Minion slots and without de-summoning pre-existing summons.
+*The Siphonophores follow any enemy on a line roughly 43 blocks width, though they will not pursue enemies behind walls.
+*The Siphonophores explode after about ten seconds if they do not explode before.
+
+== Tips ==
+*Using mana recovery potions in conjunction with Mana Flower can make this weapon more effective because the player can summon many Siphonophores without running out of mana and getting afflicted with the Mana Sickness debuff.
+
+{{Catastrophe Clay}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

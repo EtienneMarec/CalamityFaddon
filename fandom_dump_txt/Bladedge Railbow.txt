@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 28
+| knockback = 3.5
+| rare = 7
+| sell = {{value|0|12}}
+| stack = 1
+| auto = yes
+| velocity = 16
+| use = 26
+| hardmode = yes
+| tooltip = Fires 4 arrows at once<br/>Fires 2 additional leaves
+| proj = Leaf (projectile).gif
+| projcaption = Leaf
+| element1 = Poison
+| element2 = Stab
+}}
+
+The '''Bladedge Railbow''' is a craftable [[Hardmode]] [[repeater]]. It fires out 4 arrows at once, quickly followed by a pair of leaves. The leaves inflict no knockback and deal 50% of the weapon's base damage.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*It used to be called '''Bladedge Greatbow''' and, like its name would suggest, looked like a bow.
+
+{{Perennial}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]
+[[Category:Repeaters]]

@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = ranged
+| damage = 48
+| knockback = 1.5
+| rare = 10
+| sell = {{value|0|20}}
+| stack = 1
+| auto = yes
+| use = 12
+| velocity = 9.5
+| tooltip = 70% chance to not consume flares<br/>Fires a storm of lost souls and flares
+| hardmode = yes
+| debuff = On Fire!
+| debufftip = Losing life
+| debuffduration = 5 seconds (Flares) (66.67% chance)<br/>10 seconds (Flares) (33.33% chance)
+| debuffchance = 100%
+| proj = Lost Soul.gif
+| projcaption = Lost Soul
+| element1 = Dark
+| element2 = Fire
+| element3 = Smash
+}}
+
+The '''Spectralstorm Cannon''' is a craftable [[Hardmode]] [[ranged weapon]] and an upgrade of the [[Firestorm Cannon]]. It inaccurately and rapidly fires three sets of [[flare]]s and homing lost souls. It consumes flares as [[ammunition]] and has a 70% chance of not consuming flares.
+
+{{Modifier|ranged}}
+
+[[File:Spectralstorm Cannon (demo).gif|frame|right|Lost souls may circle around enemies instead of locking on directly.]]
+
+== Crafting ==
+=== Recipe ===
+{| align=top
+|{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+|}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Ranged weapons]]

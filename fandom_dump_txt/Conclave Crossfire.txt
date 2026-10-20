@@ -1,0 +1,40 @@
+{{historical content}}
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 35
+| damagetype = Ranged
+| knockback = 4.5
+| stack = 1
+| rare = 8
+| sell = {{value|0|12}}
+| auto = yes
+| use = 26
+| velocity = 12
+| tooltip = 50% chance to not consume ammo<br/>Fires two spreads of bullets, one from the gun and one from the sky
+| hardmode = yes
+| listexclude = yes
+}}
+
+The '''Conclave Crossfire''' was a craftable [[Hardmode]] [[gun]] and an upgrade to the [[Tactical Shotgun]]. It fired two shotgun blasts; one was fired from the gun itself while the other rained from the sky towards the cursor. Shots raining from the sky would not pass through tiles.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}|historical=only}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}|historical=only}}
+
+== Trivia ==
+*This weapon was a reference to the [http://borderlands.wikia.com/wiki/Conference_Call Conference Call] gun from ''[[wikipedia:Borderlands 2|Borderlands 2]]'', and was referred to by that name in the mod's source files. The weapon directly named [[Conference Call]] is referred to as "TrueConferenceCall" internally.
+*This item used to be known as "Apocalyptic Expulsor", and required [[Hyperius Bullet]]s to fire.
+
+{{-}}
+{{Historical}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

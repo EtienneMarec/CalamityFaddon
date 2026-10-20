@@ -1,0 +1,383 @@
+== Things that need doing ==
+Please bear in mind that some of these checks are '''not 100% perfect'''. They are the best I can do to get a good overview of the rules that govern these additions, so don't use them as a hard and fast checklist to see if you've done something properly or not.
+=== Crafting materials without the category ===
+{{#dpl:
+|namespace = 
+|include = *:[[%PAGE%]]<br/>
+|includematch = /===\s*Used [I|i]n\s*===/
+|notcategory = Recipes templates
+|notcategory = Crafting material items
+|notcategory = Furniture items
+|notcategory = Game mechanics
+|mode = userformat
+}}
+=== Non-materials with the category ===
+{{#dpl:
+|namespace = 
+|include = *:[[%PAGE%]]<br/>
+|includenotmatch = /===\s*Used [I|i]n\s*===/
+|category = Crafting material items
+|mode = userformat
+}}
+{{#dpl:
+|namespace = 
+|include = *:[[%PAGE%]]<br/>
+|includenotmatch = /===\s*Used [I|i]n\s*===/
+|category = Crafting material items
+|mode = userformat
+|offset = 500
+}}
+
+=== Items needing hardmode template parameter ===
+{{#dpl:
+|namespace = 
+|notcategory = Hardmode-only items
+|category = Items crafted at Hardmode Anvil{{!}}Items crafted at Ancient Manipulator{{!}}Items crafted at Draedon's Forge{{!}}Items crafted at Hardmode Forge
+}}
+{{#dpl:
+|namespace = 
+|notcategory = Hardmode-only items
+|category = Items crafted at Autohammer{{!}}Items crafted at Botanic Planter{{!}}Items crafted at Crystal Ball{{!}}Items crafted at Effulgent Manipulator
+}}
+{{#dpl:
+|namespace = 
+|notcategory = Hardmode-only items
+|category = Items crafted at Lihzahrd Furnace{{!}}Items crafted at Monolith Amalgam{{!}}Items crafted at Plague Infuser{{!}}Items crafted at Profaned Crucible
+}}
+{{#dpl:
+|namespace = 
+|notcategory = Hardmode-only items
+|category = Items crafted at Void Condenser{{!}}Items crafted at Cosmic Anvil{{!}}Items of rarity 5{{!}}Items of rarity 6
+|nottitlematch = Bear's Eye{{!}}Romajeda Orchid{{!}}Caustic Tear{{!}}Joyful Heart{{!}}Torrential Tear{{!}}Wyvern Feather
+}}
+{{#dpl:
+|namespace = 
+|notcategory = Hardmode-only items
+|category = Items of rarity 7{{!}}Items of rarity 8{{!}}Items of rarity 9{{!}}Items of rarity 10
+|nottitlematch = Magnum Rounds
+}}
+{{#dpl:
+|namespace = 
+|notcategory = Hardmode-only items
+|category = Items of rarity 11{{!}}Items of rarity 12{{!}}Items of rarity 13{{!}}Items of rarity 14
+|nottitlematch = Bloodworm{{!}}Armageddon{{!}}Death{{!}}Revengeance{{!}}Malice{{!}}Primrose Keepsake
+}}
+{{#dpl:
+|namespace = 
+|notcategory = Hardmode-only items
+|category = Items of rarity 15
+}}
+
+=== Items needing postml template parameter ===
+{{#dpl:
+|namespace = 
+|notcategory = Post-Moon Lord only items
+|nottitlematch = Music Boxes
+|category = Items crafted at Draedon's Forge{{!}}Items crafted at Botanic Planter{{!}}Items crafted at Effulgent Manipulator{{!}}Items crafted at Profaned Crucible
+}}
+{{#dpl:
+|namespace = 
+|nottitlematch = Bloodworm{{!}}Armageddon{{!}}Death{{!}}Revengeance{{!}}Malice{{!}}Primrose Keepsake{{!}}Cryogenic Staff
+|notcategory = Post-Moon Lord only items
+|category = Items crafted at Cosmic Anvil{{!}}Items of rarity 11{{!}}Items of rarity 12{{!}}Items of rarity 13
+}}
+{{#dpl:
+|namespace = 
+|notcategory = Post-Moon Lord only items
+|category = Items of rarity 14{{!}}Items of rarity 15
+}}
+
+=== Unlicensed files ===
+{{#dpl:
+|namespace = File
+|notuses = Template:Copyright CC-BY-NC-SA 3.0
+|notuses = Template:Copyright Re-Logic and CC-BY-NC-SA 3.0
+|notuses = Template:Copyright Re-Logic
+|notuses = Template:Copyright self
+}}
+
+=== Pages to be added to Master Templates ===
+{{#dpl:
+|namespace = 
+|uses = Template:Master Template Weapons
+|notlinksfrom = Template:Master Template Weapons
+|notcategory = Historical content
+|notcategory = Unobtainable content
+|nottitlematch = Challenge items{{!}}Dedicated content{{!}}Legendary items{{!}}True melee
+}}
+{{#dpl:
+|namespace = 
+|uses = Template:Master Template Tools
+|notlinksfrom = Template:Master Template Tools
+|notcategory = Historical content
+|nottitlematch = Dedicated content
+
+}}
+{{#dpl:
+|namespace = 
+|uses = Template:Master Template Equipables
+|notlinksfrom = Template:Master Template Equipables
+|notcategory = Historical content
+|notuses = Template:Unobtainable
+|nottitlematch = Challenge items{{!}}Dedicated content{{!}}Expert Mode Accessories{{!}}Legendary items{{!}}Music Box Accessories{{!}}Rare item variants{{!}}Revengeance Mode Accessories{{!}}Wings
+}}
+{{#dpl:
+|namespace = 
+|uses = Template:Master Template Consumables
+|notlinksfrom = Template:Master Template Consumables
+|notcategory = Historical content
+|notcategory = Unobtainable content
+}}
+{{#dpl:
+|namespace = 
+|uses = Template:Master Template Characters
+|notlinksfrom = Template:Master Template Characters
+|notcategory = Historical content
+|notcategory = Unspawnable NPCs
+|nottitlematch = Alternative Mechanical bosses{{!}}Bosses/Vanilla Boss Additions{{!}}Crawlers{{!}}Crown Jewel (enemy){{!}}Slimes{{!}}Wulfrum Enemies
+}}
+{{#dpl:
+|namespace = 
+|uses = Template:Master Template Tiles
+|notlinksfrom = Template:Master Template Tiles
+|notcategory = Historical content
+|nottitlematch = Furniture sets{{!}}Particle Accelerator
+}}
+{{#dpl:
+|namespace = 
+|uses = Template:Master Template Buffs
+|notlinksfrom = Template:Master Template Buffs
+|notcategory = Historical content
+}}
+
+=== Pages needing Master Templates ===
+{{#dpl:
+|namespace = 
+|notuses = Template:Master Template Weapons
+|linksfrom = Template:Master Template Weapons
+}}
+{{#dpl:
+|namespace = 
+|notuses = Template:Master Template Tools
+|linksfrom = Template:Master Template Tools
+}}
+{{#dpl:
+|namespace = 
+|notuses = Template:Master Template Equipables
+|linksfrom = Template:Master Template Equipables
+|nottitlematch = Rage Meter
+}}
+{{#dpl:
+|namespace = 
+|notuses = Template:Master Template Consumables
+|linksfrom = Template:Master Template Consumables
+|notcategory = Rogue weapons
+|nottitlematch = Adrenaline Meter{{!}}Events{{!}}Fishing{{!}}Lore items{{!}}Rage Meter{{!}}Town NPCs
+}}
+{{#dpl:
+|namespace = 
+|notuses = Template:Master Template Characters
+|linksfrom = Template:Master Template Characters
+|notuses = Template:Item infobox
+|notcategory = Environments
+|nottitlematch = Mount{{!}}Pets
+}}
+{{#dpl:
+|namespace = 
+|notuses = Template:Master Template Tiles
+|linksfrom = Template:Master Template Tiles
+}}
+{{#dpl:
+|namespace = 
+|notuses = Template:Master Template Buffs
+|linksfrom = Template:Master Template Buffs
+|uses = Template:Buff infobox
+}}
+
+=== Items not on list of items ===
+{{#dpl:
+|namespace = 
+|notlinksfrom = List of items/a-d
+|notlinksfrom = List of items/e-h
+|notlinksfrom = List of items/i-l
+|notlinksfrom = List of items/m-p
+|notlinksfrom = List of items/q-t
+|notlinksfrom = List of items/u-z
+|notlinksfrom = List of items/unobtainable
+|notcategory = Furniture items
+|notcategory = Armor items
+|notcategory = Game mechanics
+|notcategory = Historical content
+|nottitlematch = Arena Block{{!}}Bars{{!}}Boss Masks{{!}}Draedon's Logs{{!}}Dungeon Wall Unsafe{{!}}Dyes{{!}}Fishing Poles{{!}}Hair Dyes{{!}}Hooks{{!}}Lab Turret{{!}}Legacy vanity headpieces{{!}}Level Meters{{!}}Mossy Gravel Wall{{!}}Ores{{!}}Stat Meter{{!}}Schematics{{!}}Seeking Mechanisms{{!}}Spawn blockers{{!}}Steam Geyser{{!}}Treasure Bag{{!}}Wings
+|uses = Template:Item infobox
+}}
+
+=== Weapons with critical= 4 as a parameter ===
+{{#dpl:
+|namespace =
+|uses = Template:Item infobox
+|category = Weapon items
+|include = {item infobox}:[[%PAGE%]]<br/>
+|includematch = /\{{!}}\s*critical\s*=\s*4%/
+|mode = userformat
+}}
+{{#dpl:
+|namespace =
+|uses = Template:Item infobox
+|category = Weapon items
+|include = {item infobox}:[[%PAGE%]]<br/>
+|includematch = /\{{!}}\s*critical\s*=\s*4%/
+|mode = userformat
+|offset = 500
+}}
+
+=== Items with incorrect default values ===
+{{#dpl:
+|namespace =
+|uses = Template:Item infobox
+|include = {item infobox}:[[%PAGE%]]<br/>
+|includematch = /\{{!}}\s*(?:hardmode{{!}}postml{{!}}auto)\s*=\s*no/
+|mode = userformat
+}}
+{{#dpl:
+|namespace =
+|uses = Template:Item infobox
+|include = {item infobox}:[[%PAGE%]]<br/>
+|includematch = /\{{!}}\s*(?:hardmode{{!}}postml{{!}}auto)\s*=\s*no/
+|mode = userformat
+|offset = 500
+}}
+{{#dpl:
+|namespace =
+|uses = Template:Item infobox
+|include = {item infobox}:[[%PAGE%]]<br/>
+|includematch = /\{{!}}\s*(?:hardmode{{!}}postml{{!}}auto)\s*=\s*no/
+|mode = userformat
+|offset = 1000
+}}
+{{#dpl:
+|namespace =
+|uses = Template:Item infobox
+|include = {item infobox}:[[%PAGE%]]<br/>
+|includematch = /\{{!}}\s*(?:hardmode{{!}}postml{{!}}auto)\s*=\s*no/
+|mode = userformat
+|offset = 1500
+}}
+
+=== Items with no stack parameter ===
+{{#dpl:
+|namespace =
+|uses = Template:Item infobox
+|notcategory = Armor items
+|include = {item infobox}:[[%PAGE%]]<br/>
+|includenotmatch = /\{{!}}\s*stack\s*=\s*/
+|mode = userformat
+}}
+{{#dpl:
+|namespace =
+|uses = Template:Item infobox
+|nottitlematch = Adrenaline Meter{{!}}Arena Block{{!}}Armageddon{{!}}Boss Health Bar{{!}}Defiled Rune{{!}}Rage Meter{{!}}Rogue{{!}}Stress{{!}}Vanilla changes
+|notcategory = Armor items
+|include = {item infobox}:[[%PAGE%]]<br/>
+|includenotmatch = /\{{!}}\s*stack\s*=\s*/
+|mode = userformat
+|offset = 500
+}}
+{{#dpl:
+|namespace =
+|uses = Template:Item infobox
+|nottitlematch = Charge{{!}}Field Generator{{!}}Pots{{!}}Steam Geyser
+|notcategory = Armor items
+|include = {item infobox}:[[%PAGE%]]<br/>
+|includenotmatch = /\{{!}}\s*stack\s*=\s*/
+|mode = userformat
+|offset = 1000
+}}
+{{#dpl:
+|namespace =
+|uses = Template:Item infobox
+|nottitlematch = Enchantment{{!}}Lab Turret{{!}}Mossy Gravel Wall{{!}}Steam Geyser
+|notcategory = Armor items
+|include = {item infobox}:[[%PAGE%]]<br/>
+|includenotmatch = /\{{!}}\s*stack\s*=\s*/
+|mode = userformat
+|offset = 1500
+}}
+
+=== Outdated guides ===
+{{:Latest Versions}}
+{{#dpl:
+|namespace = Guide
+|uses = Template:Guide header
+|include = {guide header}:[[%PAGE%]]<br/>
+|includenotmatch = /latest\s*=\s*{{#dplvar:_version:mainmod}}/s
+|mode = userformat
+}}
+
+== Other info ==
+
+=== List of sandboxes ===
+{{#dpl:
+| namespace = User
+| titleregexp = .*/Sandbox
+| ordermethod = title
+}}
+
+=== Uses of imagealt ===
+{{#dpl:
+|namespace =
+|uses = Template:Item infobox
+|include = {item infobox}:[[%PAGE%]]<br/>
+|includematch = /\{{!}}\s*imagealt\s*=/
+|mode = userformat
+}}
+{{#dpl:
+|namespace =
+|uses = Template:Item infobox
+|include = {item infobox}:[[%PAGE%]]<br/>
+|includematch = /\{{!}}\s*imagealt\s*=/
+|mode = userformat
+|offset = 500
+}}
+{{#dpl:
+|namespace =
+|uses = Template:Item infobox
+|include = {item infobox}:[[%PAGE%]]<br/>
+|includematch = /\{{!}}\s*imagealt\s*=/
+|mode = userformat
+|offset = 1000
+}}
+{{#dpl:
+|namespace =
+|uses = Template:Item infobox
+|include = {item infobox}:[[%PAGE%]]<br/>
+|includematch = /\{{!}}\s*imagealt\s*=/
+|mode = userformat
+|offset = 1500
+}}
+
+=== Modifier uses ===
+{{#dplvar:set|modifier|meleealt}} <!-- Change this to change which modifier value we're looking for -->
+
+{{#dpl:
+|namespace =
+|uses = Template:Modifier
+|include = {modifier}:[[%PAGE%]]<br/>
+|includematch = /\{{!}}\s*{{#dplvar:modifier}}$/
+|mode = userformat
+}}
+{{#dpl:
+|namespace =
+|uses = Template:Modifier
+|include = {modifier}:[[%PAGE%]]<br/>
+|includematch = /\{{!}}\s*{{#dplvar:modifier}}$/
+|mode = userformat
+|offset = 500
+}}
+
+== DPL Testing ==
+
+== Other Testing ==
+Testing bot
+Testing bot
+Testing bot

@@ -1,0 +1,27 @@
+{{buff infobox
+| type = Buff
+| effects = Unable to die. Taking fatal damage cannot put the player below 1 hp.
+| tooltip = You are unkillable and immune to most debuffs
+}}
+
+'''Silva Immunity''' is a [[buff]] granted to the player upon reaching 0 health while wearing [[Silva armor]] or Summoner and Mage variant of [[Auric Tesla armor]] for 8 seconds. While the buff is active, the player is [[Death Prevention|unable to die]], with 1 health being the lowest health value they can reach. The player can only receive this buff once every 5 minutes.
+
+The player will become immune to the following debuffs while the Silva Immunity is active:
+{{collapse top}}
+{{:Immunity item debuffs}}
+{{collapse bottom}}
+
+The player will be healed to half health if they are under the effects of the [[Draconic Surge]] buff when the immunity activates. This will inflict [[Draconic Surge Cooldown]] for 1 minutes which makes the player unable to use [[Draconic Elixir]] and also extends [[Potion Sickness]] by 30 seconds.
+
+== Notes ==
+*With both Silva armor and [[Silva Wings]] equipped, the player will also be healed to half health when Silva Immunity triggers.
+**This does not trigger on the Summoner or Mage variant of Auric Tesla armor, despite inheriting Silva Immunity from the Silva armor.
+*This buff is only visual and can be canceled by right clicking; however, the revive will still take effect and is completely independent from the buff.
+
+== Trivia ==
+*The buff's icon still depicts the {{item|Silva Helm}}, despite said helmet becoming a [[vanity]] piece.
+ 
+{{Master Template Buffs
+| show-main = yes
+| show-buffs = yes
+}}

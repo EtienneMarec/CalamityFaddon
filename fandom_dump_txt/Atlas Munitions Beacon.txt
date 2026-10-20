@@ -1,0 +1,49 @@
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 150
+| knockback = 4.75
+| mana = 10
+| use = 10
+| velocity = 10
+| tooltip = Drops down a crate from the sky that opens up to reveal a mounted, stationary cannon
+The cannon will fire at any potential enemies within its range, and enter overdrive mode if said enemy is close to the cannon When in overdrive mode the cannon uses three barrels that each collectively fire. The cannon also heats up the more it fires in overdrive mode
+Players may right click to pick up the cannon and use it for themselves, if they are selecting an Atlas Munitions Beacon. When players fire the cannon, it automatically enters overdrive mode If the held cannon becomes hot due to overdrive mode, you are forced to drop it. Otherwise, right clicking allows you to drop it manually If the held cannon is dropped back onto the mount, it is attached again   It's surprisingly easy to pick up<br/>
+Summons an Atlas Soldier to fight for you {{fantag|Calamity Community Remix}}<br/>Takes up 3 minion slots and only one can exist
+| rare = 15
+| sell = {{value|0|30}}
+| research = 1 required
+| stack = 1
+| auto = no
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Holy
+| element3 = Machine
+}}
+{{summoned|Atlas Munitions Turret|type=sentry}}
+{{summoned|Atlas Soldier|name=Atlas Soldier {{fantag|Calamity Community Remix}}|type=minion}}
+
+Atlas Munitions Beacon is a post-Moon Lord sentry that drops from the Exo Mechs after XM-05 Thanatos has been defeated last. When used, a drop pod falls from the sky down towards the cursor's position. Upon contacting a solid tile or platform, the drop pod deploys a turret with a hold-able autocannon. While on the turret, the autocannon fires blue lasers towards nearby targets. If the target is within a 45-tile radius, the autocannon instead fires three overdriven red lasers at a slower rate. Overdriven lasers have small visual sparkles on hit, move faster, and deal 18% more damage. While in overdrive, the autocannon heats up after 100 continuous shots, signaled by a gradual increase in steam and redness, eventually causing it to stop attacking for three seconds. The autocannon also passively cools down as it stops attacking even if heat is not full.
+
+Right-clicking within a 12.5-tile radius of the turret while the item is held causes the player to pick up the autocannon. When used by the player, the autocannon automatically enters overdrive mode and attacks at a 25% faster rate. Holding another item, right-clicking again while not in proximity of the turret, or fully heating up the autocannon will immediately drop it onto the ground. If dropped or right-clicked in range of the turret, the autocannon is automatically placed back onto the turret. If the autocannon is left for too long, both the autocannon and the turret will despawn.
+
+With the [[Community modifications|Calamity Community Remix]] {{fantag|Calamity Community Remix}} mod enabled, the Atlas Munitions Beacon is reworked into a [[Hardmode]] [[summon weapon]]. When used, it summons an [[Atlas]] wearing army gear and wielding a large plasma gun to fight for you. The Atlas attacks by running towards enemies then rotating its gun towards targets and rapidly firing homing astral bullets, with a 5% chance to fire an exploding astral crystal. Each bullet deals 40% of the weapon's damage, while the crystal deals 140%. If the Atlas Soldier can't reach an enemy, it will point the gun downwards and use it to propel itself upwards. Once it is 10 tiles above its target, it will start firing while slowly falling down until the target exits its range or dies. 
+
+{{Modifier|summon}}
+
+== Crafting {{fantag|Calamity Community Remix}} ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Atlas Soldier draws heavy inspiration from Heavy from ''[[wikipedia:Team Fortress 2|Team Fortress 2]]'', wearing a similar suit to said character. {{fantag|Calamity Community Remix}}
+{{-}}
+{{Astral}}
+{{Master Template Weapons
+|show-main = yes
+|show-summon = yes
+}}

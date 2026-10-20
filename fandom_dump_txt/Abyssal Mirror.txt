@@ -1,0 +1,41 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Light does not reach the depths of the ocean<br/>Significantly reduces enemy aggression, even in the abyss<br/>Stealth generates 30% faster when standing still and 20% faster while moving<br/>Grants the ability to evade attacks, releasing a cloud of lumenyl fluid which damages and stuns nearby enemies<br/>Evading an attack grants a lot of stealth but has a 90 second cooldown<br/>This cooldown is shared with all other dodges and reflects
+| sell = {{value|0|9|60}}
+| rare = 12
+| stack = 1
+| debuff = Abyssal Evade Cooldown | debufflink = no
+| debuffchance = 100%
+| debuffduration = 90 seconds (when hit)
+| debufftip = Your Abyssal Mirror's dodge is recharging
+| debuff2 = Eutrophication
+| debuffduration2 = 6 seconds (Lumenyl fluid)
+| debuffchance2 = 100%
+| debufftip2 = Excessive nutrients restrict your movement
+| hardmode = yes
+| postml = yes
+| boxwidth = 24em
+| proj = Apoctolith Shard.png
+| projcaption = Lumenyl Fluid Particles
+| element1 = Dark
+| element2 = Water
+}}
+
+The '''Abyssal Mirror''' is a craftable Godseeker Mode [[Spy]] [[covering]] that is the direct upgrade to the [[Mirage Mirror]]. When equipped the player can build [[Spy stealth]] 30% faster while standing still and 20% faster while moving. If the player is hit by an [[enemy]], the attack will be evaded and several lumenyl fluid particles will be released from the player, which deal large amounts of damage and inflict the [[Eutrophication]] [[debuff]] onto enemies. When this effect triggers, the player’s Spy stealth will increase by 50% if Spy stealth isn’t full. The evade has a 90 second cooldown and will not activate again until the cooldown is finished. Additionally, enemy [[aggro]] towards the player is reduced significantly, by a value of 450. Enemies in the [[Abyss]] have their detection radius multiplied by 0.65.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[zh:深渊魔镜]]
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

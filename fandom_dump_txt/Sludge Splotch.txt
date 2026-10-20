@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| consumable = true
+| damage = 30
+| damagetype = Rogue
+| rare = 2
+| stack = 9999
+| sell = {{value|0|0|0|40}}
+| knockback = 1
+| use = 17
+| auto = yes
+| debuff = Slow
+| debufftip = Movement speed is reduced
+| debuffchance = 100%
+| debuffduration = 4 seconds (Sludge ball)<br/> 2 seconds (Sludge split)
+| tooltip = Slows non-boss enemies slightly<br/>Stealth strikes cause the main ball of sludge to split on hit, inflicting more damage
+| velocity = 10
+| proj = Sludge Ball Large.png
+| projcaption = Large Sludge Ball
+| proj2 = Sludge Ball Small.png
+| proj2caption = Small Sludge Ball
+| element1 = Poison
+| element2 = Dark
+}}
+
+The '''Sludge Splotch''' is a craftable [[Pre-Hardmode]] consumable [[rogue weapon]]. It throws a gravity-affected sludge ball that inflicts the [[Slow]] debuff on enemies. The sludge ball dissipates upon hitting a tile or striking an enemy.
+
+Performing a [[stealth strike]] with a Sludge Splotch causes the resulting ball to split into several smaller sludge blobs on impact. Just like the main ball, these dissipate upon hitting a tile or striking an enemy.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}

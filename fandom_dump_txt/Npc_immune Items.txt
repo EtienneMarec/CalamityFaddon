@@ -1,0 +1,186 @@
+{| width="100%"
+|<span class="ajaxHide">{{DISPLAYTITLE:npc.immune Items}}{{main|Immunity frames}}</span>
+This is a list of all items in the Calamity Mod, and their projectiles, which use <code>npc.immune</code> to modify enemy immunity frames.
+|}
+{{item/options|mode=table}}
+{| class="terraria sortable lined" style="text-align:center"
+! colspan = 2 | Item
+! width = 150px | Projectile/s
+! <code>npc.immune</code>
+|-
+| {{item|Anahita's Arpeggio}} || Clefs || 7
+|-
+| {{item|Ancient Ice Chunk}} || Ice Claspers || 7
+|-
+| {{item|Arch Amaryllis}} || Beams || 7
+|-
+| {{item|Ark of the Cosmos}} || Solar Explosions || 4
+|-
+| {{item|Asgard's Valor}} || Dashes || 6
+|-
+| {{item|Asgardian Aegis}} || Dashes || 6
+|-
+| {{item|Asteroid Staff}} || Asteroids || 2
+|-
+| {{item|Astral Pike}} || Pike || 6
+|-
+| {{item|Atlantis}} || Spears || 6
+|-
+| {{item|The Ballista}} || Greatarrows || 12
+|-
+| {{item|Ballistic Poison Bomb}} || Shrapnel || 1
+|-
+| {{item|Barracuda Gun}} || Barracudas || 8
+|-
+| {{item|Biofusillade}} || Lasers || 1
+|-
+| {{item|Blight Spewer}} || Flames || 4
+|-
+| {{item|Blissful Bombardier}} || Dust || 0
+|-
+| {{item|Brackish Flask}} || Water Blasts || 6
+|-
+| {{item|Brimlance}} || Spears<br/>Standing Flames || 7<br/>7
+|-
+| {{item|Brimstone Flameblaster}} || Balls || 5
+|-
+| {{item|Brimstone Sword}} || Thrown Sword<br/>Geysers || 6<br/>7
+|-
+| {{item|Burning Sea}} || Bouncing Fireballs || 8
+|-
+| {{item|Charged Dart Blaster}} || Energy Bolts<br/>Split Energy Bolts || 2<br/>3
+|-
+| {{item|Cleansing Blaze}} || Flames || 1
+|-
+| {{item|Crushsaw Crasher}} || Axes || 7
+|-
+| {{item|Cryogen (Lore)}} || Dashes || 6
+|-
+| {{item|Deepsea Staff}} || Stars || 5
+|-
+| {{item|Devil's Devastation}} || Demonic Scythes || 10<br/>2 (Godseeker Mode)
+|-
+| {{item|Diseased Pike}} || Pike || 6
+|-
+| {{item|Drataliornus}} || Dust<br/>Flames<br/>Exo Arrows || 0<br/>0<br/>0
+|-
+| {{item|Earthen Pike}} || Pike || 8
+|-
+| {{item|Eidolon Staff}} || Clusters || 5
+|-
+| {{item|Elysian Aegis}} || Dashes || 6
+|-
+| {{item|Essence Flayer}} || Scythes || 2
+|-
+| {{item|Everglade Spray}} || Sprays || 8
+|-
+| {{item|Feather Crown}} || Feathers || 1
+|-
+| {{item|Forbidden Sun}} || Explosions || 8
+|-
+| {{item|Frosty Flare}} || Flares || 0
+|-
+| {{item|Fulguration Halberd}} || Spears || 8
+|-
+| {{item|Galaxia}} || Solar Explosions || 4
+|-
+| {{item|God's Bellows}} || Flames || 3
+|-
+| {{item|Havoc's Breath}} || Flames || 7
+|-
+| {{item|Hell Burst}} || Spikes || 8
+|-
+| {{item|Hellion Flower Spear}} || Energy Projectiles<br/>Spear || 8<br/>8
+|-
+| {{item|Herring Staff}} || Herrings || 8
+|-
+| {{item|Impaler}} || Stakes || 5
+|-
+| {{item|Lazhar}} || Lasers || 4
+|-
+| {{item|Lucrecia}} || Helices || 5
+|-
+| {{item|Mangrove Chakram}} || Chakrams || 6
+|-
+| {{item|Meowthrower}} || Flames|| 8
+|-
+| {{item|Molten Amputator}} || Boomerangs || 3
+|-
+| {{item|Mourningstar}} || Solar Explosions || 4
+|-
+| {{item|Nuclear Fury}} || Typhoons || 5
+|-
+| {{item|Primordial Earth}} || Dusts || 6
+|-
+| {{item|Plague Keeper}} || Clouds || 5
+|-
+| {{item|Polaris Parrotfish}} || Split Energy Bolts || 3
+|-
+| {{item|Proporse Pistol}} || Energy Bolts || 7
+|-
+| {{item|Resurrection Butterfly}} || Purple Butterflies || 6
+|-
+| {{item|Rouge Slash}} || Slashes || 1
+|-
+| {{item|Shard of Antumbra}} || Javelins || 2
+|-
+| {{item|Shredder}} || Split Bolts || 3
+|-
+| {{item|Shroomer}} || Homing Shrooms || 5
+|-
+| {{item|Sky Glaze}} || Feathers || 1
+|-
+| {{item|Snowstorm Staff}} || Snowflake || 7
+|-
+| {{item|Soul Harvester}} || Scythes || 6
+|-
+| {{item|Spyker}} || Spikes || 1
+|-
+| {{item|Starnight Lance}} || Lance || 8
+|-
+| {{item|Stream Gouge}} || Beams || 2
+|-
+| {{item|Subduction Slicer}} || Scythes || 3
+|-
+| {{item|Tears of Heaven}} || Balls || 6
+|-
+| {{item|Terra Flameburster}} || Flames || 5
+|-
+| {{item|Terra Lance}} || Lance<br/>Projectiles || 5<br/>5
+|-
+| {{item|Terra Ray}} || Beams || 8
+|-
+| {{item|Terra Shiv}} || Projectiles || 7
+|-
+| {{item|Terra-cotta}} || Explosions || 6
+|-
+| {{item|Titanium Railgun}} || Lasers || 7
+|-
+| {{item|Tome of Fates}} || Tentacles || 5
+|-
+| {{item|True Bloody Edge}} || Projectiles || 9
+|-
+| {{item|True Excalibur Shortsword}} || Projectiles || 7
+|-
+| {{item|True Night's Stabber}} || Projectiles || 7
+|-
+| {{item|True Tyrant's Ultisword}} || Blazing Blades || 5
+|-
+| {{item|Tumbleweed}} || Rolling Tumbleweed || 5
+|-
+| {{item|Typhon's Greed}} || Staff || 6
+|-
+| {{item|Tyrant Yharim's Ultisword}} || Blazing Blades || 5
+|-
+| {{item|Vile Feeder}} || Eaters || 0
+|-
+| {{item|Virulence}} || Clouds || 5
+|-
+| {{item|Vulcanite Lance}} || Spears || 6
+|-
+| {{item|Yharim's Gift}} || Dust || 0
+|-
+|}
+{{item/options|reset}}
+
+[[Category:Game mechanics]]

@@ -1,0 +1,26 @@
+{{item infobox
+| type=Ammunition
+| name = Rubber Mortar Round
+| damage = 25
+| damagetype = ranged
+| stack = 9999
+| tooltip = Large blast radius<br/>Will destroy tiles on each bounce<br/>Used by normal guns
+| rare = 12
+| knockback = 7.5
+| consumable = true
+| sell = {{value|0|0|0|20}}
+| hardmode = yes
+| postml = yes
+}}
+
+'''Rubber Mortar Rounds''' are a Godseeker Mode [[bullet]] type and are a variant of the [[Mortar Round]]. They can bounce up to two times, creating an explosion that destroys tiles on each bounce. They can be used by all guns that do not shoot custom bullets.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-ammo = yes
+}}
+[[Category:Bullets]]

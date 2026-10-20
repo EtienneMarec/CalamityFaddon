@@ -1,0 +1,40 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| rare = C3
+| use = 32
+| knockback = 0
+| stack = 1
+| auto = yes
+| sell = {{value|2}}
+| debuff = Electrified
+| debuffduration = 5 seconds
+| damage = 840
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| mana = 50
+| velocity = 0
+| tooltip = Creates electric shockwaves that electrify your enemies
+| element1 = Dark
+| element2 = Water
+| element3 = Electricity
+}}
+
+'''Technomagica''' is a craftable post-[[Purgatory Arbiter, Umbrus|umbrus]] [[spell tome]]. When used, casts fast flying electric arks that damage your enemies and iflict the Electrified debuff
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

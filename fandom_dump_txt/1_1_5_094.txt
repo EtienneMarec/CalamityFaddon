@@ -1,0 +1,81 @@
+{{patch infobox
+| image = Jungle Dragon, Yharon (1.1.5.09).png
+| size = 300px
+| patchname = Yharon Rework and Balancing
+| release = 10/13/2016
+}}
+
+The '''1.1.5.094''' update made several balance changes, reworked [[Jungle Dragon, Yharon]], and added [[Trophies]].
+
+== Additions ==
+*Added [[Cryogen Trophy]], [[Desert Scourge Trophy]], [[Devourer of Gods Trophy]], [[Hive Mind Trophy]], [[Perforator Trophy]], [[Plaguebringer Goliath Trophy]], and [[Yharon Trophy]].
+*Added [[Marnite Obliterator]], [[Marnite Rifle Spear]], [[Marnite Spear]], [[Night's Stabber]], [[Proporse Pistol]], and [[True Night's Stabber]].
+*Added [[Ectoblood]].
+*Added [[Brimstone Crag Rock]] and [[Brimstone Slag]] as unobtainable [[block]]s.
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*[[Armored Digger]]s now drop Ectoblood. <!---50% chance for 3-5--->
+*[[Calamitas]] can now drop a Calamitas Trophy.
+*[[Cryogen]] can now drop a Cryogen Trophy.
+*[[Desert Scourge]] can now drop a Desert Scourge Trophy.
+*[[The Devourer of Gods]] can now drop a Devourer of Gods Trophy.
+*The Devourer of Gods now divides projectile damage based on how many times they pierce:
+**Projectiles which pierce twice and thrice have their damage divided by 2 and 3 respectively.
+**Projectiles which pierce four or more times have their damage divided by 4.
+**Infinitely piercing projectiles have their damage divided by 5.
+*[[The Hive Mind]] can now drop a Hive Mind Trophy.
+*Jungle Dragon, Yharon changes:
+**Reduced life to 600,000 for Normal Mode.
+**Reduced speed at which phoenix fire from giga flares moves.
+**Reduced frequency of giga flares.
+**Reduced damage of sky flares.
+**Made infernadoes smaller and last a lot less time.
+**Made one of the two flares that spawn flarenadoes home in on the player.
+**Yharon and his projectiles no longer inflict [[Holy Flames]].
+**All projectiles except Sky Flares do much more damage.
+**Now does much more contact damage.
+**Now gets monstrous defense when outside the [[Jungle]].
+**Now gets just slightly faster when outside the Jungle.
+**No longer moves at light speed, but only gets slightly faster in his second and third phases to encourage a Jungle-only battle.
+**Can now drop a Yharon Trophy.
+*[[The Perforators]] can now drop a Perforator Trophy.
+*[[The Plaguebringer Goliath]] can now drop a Plaguebringer Goliath Trophy.
+*[[Slime God|True Slime God]] can now drop a Slime God Trophy.
+
+=== Balancing ===
+*[[Ark of the Elements]]' projectiles now last shorter.
+*Nerfed [[Deathwind]]'s damage from 155 to 145.
+*Nerfed [[Impaler]]'s damage from 105 to 82, and its use time from 19 to 23.
+*Nerfed [[Lunarian Bow]]'s damage from 27 to 25, and its arrows now only pierce twice.
+*Nerfed [[Malevolence]]'s damage from 60 to 51.
+*[[Megalodon]] changes:
+**Nerfed damage from 61 to 28, its use time from 2 to 5, and its knockback from 3 to 2.5.
+**Decreased accuracy.
+**Decreased rarity from {{rare|10}} to {{rare|8}}.
+*Nerfed [[Pestilent Defiler]]'s damage from 145 to 135.
+*Seraph Tracers no longer have infinite flight.
+*Buffed [[Shredder]]'s damage from 22 to 24.
+*Nerfed [[Skyline Wings]]' flight time from 50 to 30.
+*Nerfed [[Spectre Rifle]] damage from 160 to 150.
+*Nerfed [[Terra Flameburster]]'s damage from 105 to 70.
+*Nerfed [[Terra Ray]]'s damage from 57 to 54.
+*[[Terratomere]]'s beams now last for 4 seconds instead of 10.
+
+=== Other ===
+*[[Ectoplasm]] can now be crafted with 3 Ectoblood.
+*[[Harpy Ring]] no longer increases flight time.
+*Impaler no longer uses a [[Core of Calamity]] in its recipe.
+*Megalodon no longer uses 1 [[Chain Gun]], 5 [[Bar of Life|Bars of Life]], and 1 Core of Calamity in its recipe, and now uses 7 [[Core of Eleum|Cores of Eleum]].
+*Shredder now uses 5 [[Galactica Singularity|Galactica Singularities]] and 5 [[Luminite Bar]]s in its recipe instead of 1 Core of Calamity.
+*Removed [[Sniper Rifle]] from Spectre Rifle's recipe.
+*Renamed Angry Chicken Staff to [[Yharon's Kindle Staff]].
+*Renamed Galactica Blade to [[Galactus Blade]].
+*Renamed Infinity Boots to [[Seraph Tracers]].
+*Resprited [[Cosmic Rainbow]], [[Floodtide]], Galactus Blade, Impaler, [[Raider's Glory]], [[Shockstorm Shuttle]], [[Terra Ray]], Terratomere, and Yharon's Kindle Staff.
+*Added "The myth, the legend, the weapon that drops more frames than any other" to Shredder's tooltip.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

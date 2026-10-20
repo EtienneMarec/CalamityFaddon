@@ -1,0 +1,28 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 3
+| color = #9323fe
+| sell = {{value|0|0|3}}
+| use = 14
+| hardmode = yes
+| tooltip = It resonates with otherworldly energy.
+}}
+
+'''Lawplate''' is a craftable [[Hardmode]] [[block]]. It can be used as a building material. Additionally, on the [[Get fixed boi]] seed, it will replace [[Chaosplate]] in the core of the [[Underworld Bio-center Lab]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Plates}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

@@ -1,0 +1,27 @@
+Several items in the Calamity Mod can prevent death if the player takes fatal damage while they are equipped. The player is revived back to a certain amount of health, or prevented from dying via other means, and is usually granted additional effects.
+
+== Sources ==
+{|class="terraria lined unsortable"
+! width=300px | Source !! width=130px | Health restored !! width=150px | Chance !! width=90px | Cooldown !! Additional effect
+|-
+| style="text-align:center" | {{item|Permafrost's Concoction}} || 30% of max health || 100% || 3 minutes ||
+*Player is frozen for 3 seconds after reviving.
+|-
+| style="text-align:center" | {{item|Nebulous Core}} || 100 || 100% || 90 seconds ||
+*None
+|-
+| style="text-align:center" |{{item|Silva armor}}
+{{item|Auric Tesla armor}}(Wire-Hemmed Visage and Space Helmet only)<br />
+| 1 (50% of max health while under the effects of the  [[Draconic Surge]] buff or while the player is wearing [[Silva Wings]]) || 100% || 5 minutes ||
+*Player is unable to die and immune to most debuffs for 8 seconds.
+|-
+| style="text-align:center" | {{item|Scroll of Rebirth}} {{fantag|Deimos, the Starborn Princess}} || 150 || 100% || 120 seconds ||
+*None
+|}
+
+== Notes ==
+*The revives have an order of priority in which they get triggered: Nebulous Core is always triggered first, Silva is triggered only if the former did not and then, Permafrost's Concoction is triggered only if the other options did not.
+*Prior to 1.5, the [[God Slayer armor]] had a revive similar to the Nebulous Core, and all variants of the [[Auric Tesla armor]] had Silva armor's revive.
+*[[Armageddon]]'s instant death effect bypasses all revives.
+
+{{Game mechanics}}

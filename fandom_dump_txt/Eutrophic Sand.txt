@@ -1,0 +1,32 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| stack = 9999
+| placeable = yes
+| consumable = yes
+| rare = 0
+| color = #646496
+| use = 14
+| sell = No value
+}}
+
+'''Eutrophic Sand''' is a [[block]] that generates in the [[Sunken Sea]] [[biome]], alongside [[Navystone]]. It can be mined with any pickaxe, but only after [[Desert Scourge]] has been defeated.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Unlike [[Sand]], Eutrophic Sand is not affected by gravity.
+*10-30 Eutrophic Sand can additionally be obtained as a drop from [[Sunken Crate]]s, even before the Desert Scourge has been defeated.
+
+{{Master Template Tiles
+| show-main   = yes
+| show-blocks = yes
+}}
+
+[[Category:Block items]]

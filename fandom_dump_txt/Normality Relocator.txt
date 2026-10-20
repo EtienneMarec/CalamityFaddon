@@ -1,0 +1,35 @@
+{{dedicated|Gibb50|Patreon Donator}}
+{{item infobox
+| image = Normality Relocator.gif
+| type = Tool
+| stack = 1
+| tooltip = I'll be there in the blink of an eye<br/>Press {{key|Normality Relocator}} to teleport to the position of the mouse<br/>Fall speed is doubled for 30 frames after teleporting<br/>Teleportation is disabled while Chaos State is active<br/>Works while in the inventory
+| hardmode = yes
+| postml = yes
+| rare = 10
+| sell = {{value|0|20}}
+| debuff = Chaos State
+| debuffchance = 100%
+| debufftip = Rod of Discord teleports are disabled
+| debuffduration = 6 seconds (When used)<br/>15 seconds (When used during a boss or event)
+}}
+'''Normality Relocator''' is a Godseeker Mode [[tool]]. While it is in the player's inventory, they may press the {{key|Normality Relocator}} key to instantly warp to the position of the cursor. Unlike the [[Rod of Discord]], the Relocator cannot be used normally like other tools via selecting it in the hotbar and pressing the {{key|Use}} key. The player's momentum is fully conserved when teleporting.
+
+Using the Relocator costs no mana or ammunition but will inflict the [[Chaos State]] [[debuff]], which prevents further teleporting for 20 seconds.
+
+Additionally, after teleporting with the item the player's maximum fall speed will be increased by 3.5 and they'll accelerate downwards much faster, similarly to holding a [[Portal Gun]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Unlike the Rod of Discord, the Normality Relocator can be used while using another item. This can prove valuable for players using weapons with slow use times.
+*The Normality Relocator does not serve as a direct upgrade to the Rod of Discord, due to its higher cooldown.
+*The Normality Relocator cannot be equipped as it's not an [[covering]]; its movement and fall speed bonuses apply when it's in the inventory.
+*Due to the Normality Relocator applying Chaos State, it is not recommended to use it in the [[Abyss]], unless the player is prepared to fight an [[adult Eidolon Wyrm]].
+{{Plates}}
+{{Master Template Tools
+| show-main = yes
+| show-other = yes
+}}

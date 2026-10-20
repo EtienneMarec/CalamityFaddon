@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| damage =  80
+| use = 14
+| knockback = 6
+| damagetype = Spy
+| rare = 5
+| tooltip = Sticks to enemies on hit and detonates after 3 seconds<br/> Breaks upon hitting blocks<br/>Stealth Strike Effect: On explosion, fire and shrapnel are released<br/>Stealth strike mines can stick to the ground and last much longer when doing so
+| velocity = 10
+| stack = 9999
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 10 seconds (Fire)
+| debufftip = Slowly losing life
+| buy = {{value|0|0|3}}
+| sell = {{value|0|0|0|60}}
+| auto = yes
+| consumable = true
+| hardmode = yes
+| proj = Latcher Mine (projectile).gif
+| projcaption = Latcher Mine
+| proj2 = Flaming Shard.gif
+| proj2caption = Flaming Shard
+| proj3 = Barrel Shrapnel.png
+| proj3caption = Barrel Shrapnels
+| element1 = Fire
+| element2 = Bomb
+}}
+
+'''Latcher Mines''' are [[Hardmode]] consumable [[Spy]] [[bombs]] that are sold by the [[Bandit]] for {{sc|3}} each after defeating one of the [[Mechanical Bosses]]. They automatically throw tiny flat mines that stick to enemies and detonate 3 seconds after latching onto them. Upon detonation or contact with blocks, a burst of 6 gravity-affected flame projectiles are flung up in the air which deals damage and inflicts the [[On Fire!]] [[debuff]].
+
+Performing a [[stealth strike]] with the Latcher Mines will cause the next mine thrown to be able to stick to the ground and explode into shrapnels. The mine thrown on the ground lasts 14 seconds and can stick onto enemies contacting it.
+
+{{Modifier|none}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Bombs]]

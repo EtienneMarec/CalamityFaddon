@@ -1,0 +1,39 @@
+{{item infobox
+| type = Furniture
+| type2 = Crafting station
+| type3 = Crafting material
+| placeable = Yes
+| use = 14
+| auto = yes
+| width = 4
+| height = 2
+| stack = 9999
+| tooltip = An otherworldly anvil capable of withstanding the pressures of stellar collapse<br/>Also functions as every previous tier of anvil
+| consumable = Yes
+| rare = 14
+| color = #9F7DC9
+| sell = {{value|2|50}}
+| hardmode = yes
+| postml = yes
+}}
+
+'''Cosmic Anvil''' is a post-[[The Devourer of Gods]] [[crafting station]] that is an upgrade to the [[Hardmode Anvil]]. It is used to craft most post-[[The Devourer of Gods]] items.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+=== Used to craft ===
+{{ajax|Recipes/Cosmic Anvil|width=40%}}
+{{-}}
+
+== Trivia ==
+*Prior to the [[1.5.0.001]] update, [[Draedon's Forge]] served as both the post-Devourer of Gods crafting station and the endgame crafting station.
+Cosmic anvils were used to make delicious meat before the 2.0.2.3 update
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

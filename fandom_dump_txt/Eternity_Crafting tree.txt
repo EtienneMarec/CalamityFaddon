@@ -1,0 +1,256 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|_|_|_|_|AeroO|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|PHFRG|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|Sunpl|_|AeroB|_|Feath|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|      _|      _|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|`|-|-|-|+|-|-|-|'|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|BOOKC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|DeseF|_|SturF|_|Trade|_|Forb1|_|MeteO|_|_|_|_|_|AuriO|_|YhaSF|_|#
+|      _|      _|      _|      _|      _|_|_|_|_|      _|      _|#
+|_|`|-|-|-|^|-|-|-|+|-|-|-|'|_|_|_|I|_|_|_|_|_|_|_|)|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|BOOKC|_|_|_|_|_|PHFRG|_|_|_|_|_|COANV|_|_|_|_|_|#
+|_|_|_|_|Ecto2|_|DeaVD|_|Forb2|_|MeteB|_|UeliO|_|AuriB|_|ExoPr|_|#
+|_|_|_|_|      _|      _|      _|      _|      _|      _|      _|#
+|_|_|_|_|_|`|-|-|-|+|-|-|-|^|-|-|-|'|_|_|_|I|_|_|_|)|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|BOOKC|_|_|_|_|_|_|_|_|_|HMFRG|_|_|I|_|_|_|_|_|_|#
+|EndoE|_|CosmB|_|PrimE|_|Forb3|_|SpelT|_|UeliB|_|_|I|_|_|CalaE|_|#
+|      _|      _|      _|      _|      _|      _|_|I|_|_|      _|#
+|_|`|-|-|-|^|-|-|-|+|-|-|-|'|_|_|_|`|-|-|-|(|_|_|_|)|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|BOOKC|_|_|_|_|_|_|_|_|_|BOOKC|_|_|₪|_|_|_|_|_|_|#
+|UnicH|_|SeetD|_|PrimA|_|Heres|_|SlitE|_|Biofu|_|ShadB|_|DarkP|_|#
+|      _|      _|      _|      _|     |_|      _|      _|      _|#
+|_|`|-|-|-|^|-|-|-|+|-|-|-|^|-|-|-|^|-|-|-|^|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|Etern|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+<!-- •• CRAFTING MATERIALS •• -->
+
+|AuTBT_cols = 3
+|AuTBT_rows = 2
+|AuTBT = ''[[Auric Bar/Crafting tree|Auric Bar<br/>crafting tree]]''
+
+<!-- ••• Primordial Ancient ••• -->
+
+|SturF_cols = 3
+|SturF_rows = 2
+|SturF = {{item|Sturdy Fossil}} × 25<br/>
+( {{item|mode=image|Basilisk|size=36px}} )
+
+|MeteO_cols = 3
+|MeteO_rows = 2
+|MeteO = {{item|Meteorite}} × 15
+
+|MeteB_cols = 3
+|MeteB_rows = 2
+|MeteB = {{item|Meteorite Bar}} × 5
+
+|AeroO_cols = 3
+|AeroO_rows = 2
+|AeroO = {{item|Aerialite Ore}} × 24<br/>
+<span style="font-size:0.75em">( [[Cavern]] / {{item|mode=image|Aero Slime|size=16px}} )</span>
+
+|AeroB_cols = 3
+|AeroB_rows = 2
+|AeroB = {{item|Aerialite Bar}} × 6
+
+|Sunpl_cols = 3
+|Sunpl_rows = 2
+|Sunpl = {{item|Sunplate Block}} × 5
+
+|DeseF_cols = 3
+|DeseF_rows = 2
+|DeseF = {{item|Desert Feather}} × 5<br/>
+( {{item|mode=image|Vulture|size=28px}} )
+
+|Feath_cols = 3
+|Feath_rows = 2
+|Feath = {{item|Feather}} × 3<br/>
+( {{item|mode=image|Harpy|size=28px}} )
+
+|Ecto2_cols = 3
+|Ecto2_rows = 2
+|Ecto2 = {{item|Ectoplasm}} × 5<br/>
+( {{item|mode=image|Ectoblood|size=14px}} × 3 / {{item|mode=image|Dungeon Spirit|size=16px}} )
+
+|Forb1_cols = 3
+|Forb1_rows = 2
+|Forb1 = {{item|Forbidden Fragment}}<br/>
+( {{item|mode=image|Sand Elemental|size=20px}} )
+
+|Forb2_cols = 3
+|Forb2_rows = 2
+|Forb2 = {{item|Forbidden Fragment}} × 3<br/>
+( {{item|mode=image|Sand Elemental|size=20px}} )
+
+|Forb3_cols = 3
+|Forb3_rows = 2
+|Forb3 = {{item|Forbidden Fragment}} × 5<br/>
+( {{item|mode=image|Sand Elemental|size=20px}} )
+
+|EndoE_cols = 3
+|EndoE_rows = 2
+|EndoE = {{item|Endothermic Energy}} × 20<br/>
+<span style="font-size:0.75em">( [[Frost Moon]] )</span>
+
+|CosmB_cols = 3
+|CosmB_rows = 2
+|CosmB = {{item|Cosmilite Bar}} × 5<br/>
+( {{item|mode=image|image=Devourer of Gods final head map.png|The Devourer of Gods|size=25px}} )
+
+|Trade_cols = 3
+|Trade_rows = 2
+|Trade = {{item|Tradewinds}}
+
+|DeaVD_cols = 3
+|DeaVD_rows = 2
+|DeaVD = {{item|Death Valley Duster}}
+
+|PrimE_cols = 3
+|PrimE_rows = 2
+|PrimE = {{item|Primordial Earth}}
+
+|PrimA_cols = 3
+|PrimA_rows = 2
+|PrimA = {{item|Primordial Ancient}}
+
+<!-- ••• Eternity ••• -->
+
+|UeliO_cols = 3
+|UeliO_rows = 2
+|UeliO ={{item|Tarragon Ore}} × 40<br/>
+<span style="font-size:0.75em">( [[Underground Jungle]] / {{item|mode=image|Bloom Slime|size=18px}} )</span>
+
+|UeliB_cols = 3
+|UeliB_rows = 2
+|UeliB = {{item|Tarragon Bar}} × 8
+
+|SpelT_cols = 3
+|SpelT_rows = 2
+|SpelT = {{item|Spell Tome}}<br/>
+( {{item|mode=image|image=Map Icon Wizard.png|Wizard|size=20px}} )
+
+|Biofu_cols = 3
+|Biofu_rows = 2
+|Biofu = {{item|Biofusillade}}
+
+|SlitE_cols = 3
+|SlitE_rows = 2
+|SlitE = {{item|Slithering Eels}}<br/>
+( {{item|mode=image|Acid Eel|size=36px}} )
+
+|SeetD_cols = 3
+|SeetD_rows = 2
+|SeetD = {{item|Seething Discharge}}<br/>
+( {{item|mode=image|image=Brimstone Elemental map.png|Brimstone Elemental|size=20px}} )
+
+|Heres_cols = 3
+|Heres_rows = 2
+|Heres = {{item|Heresy}}<br/>
+( {{item|mode=image|image=Supreme Calamitas map.png|Supreme Calamitas|size=20px}} )
+
+|DarkP_cols = 3
+|DarkP_rows = 2
+|DarkP = {{item|Dark Plasma}} × 20<br/>
+( {{item|mode=image|image=Ceaseless Void map.png|Ceaseless Void|size=28px}} )
+
+|UnicH_cols = 3
+|UnicH_rows = 2
+|UnicH = {{item|Unicorn Horn}} × 5<br/>
+( {{item|mode=image|Unicorn|Unicorn|size=36px}} )
+
+|CalaE_cols = 3
+|CalaE_rows = 2
+|CalaE = {{item|Ashes of Annihilation|size=32px}} × 5<br/>
+( {{item|mode=image|image=Supreme Calamitas map.png|Supreme Calamitas|size=20px}} )
+
+|AuriB_cols = 3
+|AuriB_rows = 2
+|AuriB = {{item|Auric Bar}} × 5
+
+|AuriO_cols = 3
+|AuriO_rows = 2
+|AuriO ={{item|Auric Ore}} × 60
+
+|YhaSF_cols = 3
+|YhaSF_rows = 2
+|YhaSF ={{item|Yharon Soul Fragment}}<br/>
+( {{item|mode=image|image=Yharon map.png|Jungle Dragon, Yharon|size=20px}} )
+
+|ShadB_cols = 3
+|ShadB_rows = 2
+|ShadB = {{item|Shadowspec Bar}} × 5
+
+|ExoPr_cols = 3
+|ExoPr_rows = 2
+|ExoPr ={{item|Exo Prism|size=22px}} x 5<br/>
+( {{item|mode=image|image=Ares map.png|XF-09 Ares|size=20px}} {{item|mode=image|image=Thanatos Head map.png|XM-05 Thanatos|size=20px}} {{item|mode=image|image=Apollo Phase 1 map.png|XS-03 Apollo|size=20px}} {{item|mode=image|image=Artemis Phase 1 map.png|XS-01 Artemis|size=20px}} )</span>
+
+|Etern_cols = 3
+|Etern_rows = 2
+|Etern = {{item|Eternity}}
+
+<!-- •• CRAFTING STATIONS •• -->
+
+| ÷_cols = 1
+| ÷_class = craft-station
+| ÷ = [[By Hand]]
+
+|BOOKC_cols = 3
+|BOOKC_class = craft-station
+|BOOKC = {{item|mode=image|Bookcase}}
+
+|Altar_cols = 3
+|Altar_class = craft-station
+|Altar = {{item|mode=image|Demon Altar}} / {{item|mode=image|Crimson Altar}}
+
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|HEFRG_cols = 3
+|HEFRG_class = craft-station
+|HEFRG = {{item|mode=image|Hellforge}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|HMFRG_cols = 3
+|HMFRG_class = craft-station
+|HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|COANV_cols = 3
+|COANV_class = craft-station
+|COANV = {{item|mode=image|Cosmic Anvil}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

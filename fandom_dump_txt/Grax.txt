@@ -1,0 +1,56 @@
+{{dedicated|Grox The Great|Developer ''and'' Influential Mod Creator}}
+{{item infobox
+| type = Tool
+| type2 = Weapon
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 472
+| use = 15
+| knockback = 8
+| hammer = 110
+| axe = 180
+| tooltip = Hitting an enemy will greatly boost your defense, melee damage, and melee crit for a short time<br/>Right click to use without hammering down walls or chopping down trees
+| buff = Grax Boost | bufflink = no
+| duration = 10 seconds
+| bufftip = Your defenses and muscles are strong
+| rare = 12
+| bonus = +5 range
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| toolspeed = 4
+| element1 = Poison
+| element2 = Slash
+| element3 = Holy
+}}
+
+The '''Grax''' is a craftable Godseeker Mode [[hamaxe]] that has a range five tiles larger than most other tools, and is the final upgrade of the [[Silver Axe]] or [[Tungsten Axe]]. Striking an enemy with it will grant the player the '''Grax Boost''' [[buff]] for 10 seconds, which increases [[defense]] by 30, damage reduction by 10% and melee damage by 20%. Right clicking with the item causes the weapon to swing without the ability to cut down [[trees]] or destroy [[walls]]. 
+
+{{modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Grax is a reference to the Terraria modder and [[tgc:Re-Logic#Grox|Re-Logic developer]] [https://forums.terraria.org/index.php?members/grox-the-great.12/ Grox The Great], known for creating the GRealm mod. The Grax's color scheme is based on the colors in Grox's profile picture.
+**Grax's color scheme is also present on [[tgc:Grox The Great's set|Grox The Great's set]].
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Axes]]
+[[Category:Hammers]]
+[[Category:Hamaxes]]
+[[Category:Melee weapons]]
+[[Category:Swords]]
+[[Category:True melee]]

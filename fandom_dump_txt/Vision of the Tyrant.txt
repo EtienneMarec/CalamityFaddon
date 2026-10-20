@@ -1,0 +1,226 @@
+{{Addon|Calamity: Community Remix}}
+
+<section begin="npc" infobox="" />{{npc infobox
+| name = Vision of the Tyrant
+| image = Vision of the Tyrant.png
+| type = Superboss
+| environment = Boss Rush
+| ai = Vision of the Tyrant AI
+| life = {{dv|2,000,000|2,800,000|3,200,000|4,800,000}}
+| defense = 80
+| knockback = 100
+| immune1 = Confused
+| immune2 = Pearl Aura
+| money = varies
+| Rock | 1 |100%
+| Genesis| 1 |100%
+| image2 = Vision of the Tyrant map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| hurt = NPC_Hit_49.wav
+| killed = NPC_Killed_51.wav
+| debuff = Whispering Death
+| debuffchance = 100%
+| duration = 8 seconds (Contact)
+| debufftip = Death approaches; defense, movement speed, attack power and life regen reduced
+| vulnerable1 = Water
+| vulnerable2 = Holy
+| resistant1 = Poison
+| boxwidth = 24em
+}}<section end=npc infobox />
+
+'''Vision of the Tyrant''' (Japanese: 暴君のビジョン ''Bōkun no bijon'') is a large ghastly Epilogue [[Superbosses|Superboss]] that is fought at the end of the [[Challenge Rush]]. It cycles between a variety of different buffed AIs, along with utilizing Boss Rush’s curses for more unique attacks. It drops the [[Rock]] and [[Genesis]] upon death, along with the amount of [[Klepticoin]]s the player should be rewarded with based on their active Curses.
+
+== Spawn ==
+Vision of the Tyrant spawns after [[Supreme Calamitas]] in the Boss Rush, or by right clicking [[Terminus]] if it has been encountered already, though it will not drop any items if summoned this way.
+
+== Behavior ==
+Vision of the Tyrant’s behavior consists of changing to different boss and enemy AI’s on set timers. Many of these AI’s are significantly buffed compared to their base forms. A full list of possible AI states and modifications to them can be found below:
+{| class="terraria sortable lined"
+! Enemy !! Phase time !! Notes
+|-
+| [[Zombie]]
+| 7 seconds
+| Has significantly increased horizontal speed, and greatly increased jump height.
+|-
+| [[Slime]]
+| 7 seconds
+| Constantly bounces and fires abyssal mines upon colliding with a tile.
+|-
+| [[Shark]]
+| 6 seconds
+| Flails around while on land. If it contacts [[Water]], Vision of the Tyrant will start ignoring gravity and start rapidly dashing towards the player while leaving behind rising bubbles.
+|-
+| [[Digger]]
+| 6 seconds
+| Digs into the ground and launches at the player at high speeds while affected by gravity. 
+|-
+| [[Demon Eye]]
+| 7 seconds
+| Tries to collide with tiles near the player while rebounding greatly. Upon tile hits, causes screen shakes and stars to fall.
+|-
+| [[Eye of Cthulhu]]
+| 4 seconds
+| Rapidly performs chain dashes. With every third dash lining up with the player horizontally and charging.
+|-
+| [[Dark Caster]]
+| 4 seconds
+| Stands stationary and shoots a barrage of shadow balls in an uneven spread towards the player.
+|-
+| [[tgc:Blazing Wheel|Blazing Wheel]]
+| 9 seconds
+| Anchors to nearby tiles and moves at high speeds while letting out a trail of damaging sparks behind it. If Vision of the Tyrant can’t reach the player, it jets upwards while shooting out sparks.
+|-
+| [[Cryogen]]
+| 7 seconds
+| Tries to hover above the player while shooting ice shards downwards, and occasional blasts of ice outwards.
+|-
+| [[Cursed Hammer]]
+| 3 seconds
+| Rapidly spins in place then launches towards the player at a high speed. If it hits a tile a large dust explosion occurs.
+|-
+| [[Skeletron Prime]]
+| 8 seconds
+| Rapidly spins towards the player while firing bursts of 8 evenly spaced lasers around it. Spawns all four Skeletron Prime arms. This can only be done once per fight.
+|-
+| [[Queen Bee]]
+| 7 seconds
+| Alternates between hovering above the player while spawning [[Queen Bee]]s, and lining up with the player horizontally and charging.
+|-
+| [[Golem]]
+| 0 seconds
+| Spawns a Golem head. This can only be done once per fight.
+|-
+| [[Plantera]]
+| 9 seconds
+| Accelerates towards the player while firing seeds.
+|-
+| [[Brain of Cthulhu]]
+| 7 seconds
+| Creates three invincible clones that mirror its positions relative to the player. Charges in a circle then charges inwards.
+|-
+| [[Ice Queen]]
+| 7 seconds
+| Flies quickly back and forth above the player while firing endo ice waves inwards.
+|-
+| [[Duke Fishron]]
+| 0 seconds
+| Summons a Cthulhunado and dashes at the player.
+|-
+| [[Martian Saucer]]
+| 4 seconds
+| Flies towards a position above the player at a moderate speed while shooting homing missiles and a deathray downwards.
+|-
+| [[Lunatic Cultist]]
+| 4 seconds
+| Remains stationary in place while firing Lunatic Cultist’s various projectiles.
+|-
+| [[Mothron]]
+| 3 seconds
+| Dashes back and forth.
+|-
+| [[Flow Invader]]
+| 3 seconds
+| Shoots a barrage of high damaging squids while moving towards the player.
+|-
+| [[Nebula Floater]]
+| 8 seconds
+| Teleports to random positions while firing lasers towards the player.
+|-
+| [[Corite]]
+| 3 seconds
+| Normal Corite behavior
+|-
+| [[Sand Elemental]]
+| 8 seconds
+| Moves towards a position below the player while summoning tornadoes.
+|-
+| [[tgc:Dreadnautilus|Dreadnautilus]]
+| 5 seconds
+| Orbits the player at high speeds while shooting blood splurts inwards.
+|-
+| [[Queen Slime]]
+| 2 seconds
+| Appears above the player then crashes downwards while trailed by gel bombs.
+|-
+| [[Empress of Light]]
+| 10 seconds
+| Hovers above the player while spawning homing bolts.
+|-
+| [[Skyfin]]
+| 6 seconds
+| Travels to a position diagonally above the player then charges inwards.
+|-
+| [[Nuclear Toad]]
+| 8 seconds
+| Stays stationary while turning red, then explodes into 20-30 nuclear bullets going outwards.
+|-
+| [[Nuclear Terror]]
+| 15 seconds
+| Stays stationary while firing two death rays that slowly get closer in positions away from the player while firing a random spread of nuclear bullets.
+|-
+| [[Astrum Aureus]]
+| 9 seconds
+| Teleports above the player and stomps downwards, spawning astral crystals.
+|-
+| [[Brimstone Elemental]]
+| 7 seconds
+| Stays stationary while firing shotgun blasts at the player and radial brimstone dart patterns.
+|-
+| [[The Old Duke]]
+| 0 seconds
+| Spawns a vortex then predictively charges at the player.
+|-
+| [[Providence, the Profaned Goddess]]
+| 16 seconds
+| Stays stationary while firing a large even spread of profaned spears outwards with a single trail of spears towards the player. If the player moves too far away, they are inflicted with Holy Inferno.
+|-
+| [[The Perforator Hive]]
+| 7 seconds
+| Tries to stay above the player while firing large amounts of Boiling Blood and Ichor upwards that fall down.
+|-
+| [[The Plaguebringer Goliath]]
+| 7 seconds
+| Charges back and forth above the player while shooting evenly spaced walls of missiles.
+|-
+| [[Supreme Cataclysm]]
+| 8 seconds
+| Hovers up and down at a position to the side of the player while firing slashes.
+|-
+|}
+
+In addition to these AI states, Vision of the Tyrant gains different passive abilities based on active Curses:
+*The Curse of Blight causes Vision of the Tyrant to regenerate health at a rate of 0.1% per second.
+*The Curse of Blundering causes Vision of the Tyrant’s dashes to be 30% quicker.
+*The Curse of Karma gives Vision of the Tyrant 5 frames of immunity when hit.
+*The Curse of the Tainted causes the Brimstone Monster to fire eight brimstone darts outwards every time Vision of the Tyrant’s AI changes.
+*The Curse of Binding causes the player’s speed to reset every third time Vision of the Tyrant’s AI changes.
+*The Curse of TIme causes Vision of the Tyrant to instantly kill the player if not killed under X minutes.
+*The Curse of Joker causes Vision of the Tyrant to disable a random item in the player’s inventory for 10 seconds every 8 AI changes.
+*The Curse of Pacifism causes Vision of the Tyrant to become invincible for the duration of an AI state every 5 AI changes. Its Golem head and Skeletron Prime arms become invincible.
+*The Curse of Encumbering causes Vision of the Tyrant to release a cross pattern of deathrays each time it changes AI.
+
+== Resistances ==
+*Vision of the Tyrant takes 50% damage from [[Murasama]], [[Nanoblack Reaper]], [[Vermillion Angel]], and [[Apotheosis]].
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating Vision of the Tyrant, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Vision of the Tyrant strategies]].}}
+*It is recommended to build a world sized arena, as many of the boss’ AI states call for long distances of movement from the player.
+*Much like the source material, Vision of the Tyrant is horrible and garbage and trash and the worst thing you could possibly put yourself through in an actual "fair" fight without killing him instantly. As such, the only winning move is not to play.
+
+== Trivia ==
+*Vision of the Tyrant's [[Music|theme]] is [https://www.youtube.com/watch?v=n_TUqsuLtcs '''Terminal Lucidity'''], which was composed by the artist [https://www.youtube.com/channel/UCO5wbMq64o-ruoKCYcQu_-Q mudeth].
+*The boss is a heavy homage to [[THE LORDE]], an ironic joke boss found within old versions of the mod that functions exactly like Delirium<ref>Technically, Delirium's AI only copies bosses seen previously in the run and speeds up the lower it's health is, while THE LORDE's AI copies all enemies and bosses and doesnt particularly care if you've seen it before and has some extra gimmicks. Also, THE LORDE does not spam projectiles in every direction regardless of AI. While this comparison may lead you to believe that THE LORDE sounds better, Delirium can easily be nuked within seconds in a god run. However, when a comparison is decided based on the fact you can do one faster, i'd say neither side is winning.</ref>. Vision of the Tyrant's sprite seems to be based on the similarity between the two.
+**[[THE LORDE]] can also be seen in [https://steamcommunity.com/sharedfiles/filedetails/?id=3237989978 Apotheosis and Friends].
+
+* The Vision of the Tyrant is a "'''Superboss'''" in this mod. In some RPG games, Superbosses are extremely powerful enemies that are very challenging even if the player has endgame equipment.
+**It shares this trait with the following bosses: [[Adult Eidolon Wyrm]], [[Purgatory Arbiter, Umbrus]], [[Disgusting Creature: Dron]], [[Esserwyrm]], [[Reactive Guardian, Sodis]], [[Nihil, the Fathomless Seeker]] and [[Exodygen]].
+
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The ghastly abomination fades back into the void."
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

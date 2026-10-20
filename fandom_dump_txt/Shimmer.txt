@@ -1,0 +1,442 @@
+'''Shimmer''' is a vanilla liquid that can transform items and enemies dropped into it. The Calamity Mod adds multiple transmutations involving shimmer.
+
+===Transmutations===
+{| class="terraria sortable lined mw-collapsible"
+! Input !! Output !! Notes
+|-
+| {{item|Ancient Essence of Merge}}
+| {{item|Essence of Merge}}
+| {{na}} {{fantag|Calamity: Tales of the Aquatic}}
+|-
+
+| {{item|Rancor}}
+| {{item|Burning Sea}}
+| {{na}}
+|-
+| {{item|Shattered Community}}
+| {{item|The Community}}
+| {{na}}
+|-
+| {{item|Cinders of Lament}}
+| {{item|Entropy's Vigil}}
+| {{na}}
+|-
+| {{item|Gruesome Eminence}}
+| {{item|Ghastly Visage}}
+| {{na}}
+|-
+| {{item|Rod of Harmony}}
+| {{item|Rod of Discord}}
+| {{na}}
+|-
+| {{item|Metastasis}}
+| {{item|Staff of the Mechworm}}
+| {{na}}
+|-
+| {{item|Yharim's Curse}}
+| {{item|Yharim's Gift}}
+| {{na}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Flame Cube}}
+| {{item|Exo Box}}
+| {{na}} {{fantag|Catalyst}}
+|-
+
+| {{item|Clock Gatlignum}}
+| {{item|Astral Blaster}}
+| The [[Starborn Princess]] has moved in and [[Astrum Deus]] has been defeated. {{dei}}
+|-
+| {{item|Prismatic Greaves}}
+| {{item|Tarragon Breastplate}}
+| The [[Starborn Princess]] has moved in. {{dei}}
+|-
+| {{item|The Microwave}}
+| {{item|The Oracle}}
+| The [[Starborn Princess]] has moved in and [[Jungle Dragon, Yharon]] has been defeated. {{dei}}
+|-
+| {{item|Catfish}}
+| {{item|Frogfish}}
+| The [[Starborn Princess]] has moved in and [[Acidsighter]] has been defeated. {{dei}}
+|-
+| {{item|Shrimp}}
+| {{item|Leviathan Ambergris}}
+| The [[Starborn Princess]] has moved in and [[The Devourer of Gods]] has been defeated. {{dei}}
+|-
+| {{item|Light God's Brilliance}}
+| {{item|Shard of Antumbra}}
+| The [[Starborn Princess]] has moved in. {{dei}}
+|-
+
+| {{item|Purified Gel}}
+| {{item|Blighted Gel}}
+| {{na}}
+|-
+| {{item|Electrolyte Gel Pack}}
+| {{item|Coco's Feather}}
+| {{na}} {{dei}}
+|-
+| {{item|Starlight Fuel Cell}}
+| {{item|Coco's Feather}}
+| {{na}} {{dei}}
+|-
+| {{item|Ectoheart}}
+| {{item|Coco's Feather}}
+| {{na}} {{dei}}
+|-
+| {{item|Platinum Coin}}
+| {{na}}
+| Item is consumed, provides 1,000,000 [[tgc:Coin Luck|Coin Luck]].
+|-
+| {{item|Cosmilite Coin}}
+| {{na}}
+| Item is consumed, provides 100,000,000 [[tgc:Coin Luck|Coin Luck]]. {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Klepticoin}}
+| {{na}}
+| Item is consumed, provides 10,000,000,000 [[tgc:Coin Luck|Coin Luck]]. {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Miracle Coin}}
+| {{na}}
+| Item is consumed, provides 1,000,000,000,000 [[tgc:Coin Luck|Coin Luck]]. {{fantag|Calamity: Tales of the Aquatic}}
+|-
+
+| {{item|Decayed Flahium}}
+| {{item|Alloy Bar}}
+| {{na}}
+|-
+| {{item|Energy Orb}}
+| {{item|Energy Core}}
+| {{na}} {{fantag|Calamity: Community Remix}}
+|-
+
+| {{item|Essence of Babil}}
+| {{item|Essence of Zot}}
+| {{na}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Essence of Chaos}}
+| {{item|Essence of Law}}
+| {{na}}
+|-
+| {{item|Essence of Eleum}}
+| {{item|Essence of Crystal}}
+| {{na}}
+|-
+| {{item|Essence of Merge}}
+| {{item|Ancient Essence of Merge}}
+| {{na}} {{fantag|Calamity: Tales of the Aquatic}}
+|-
+| {{item|Essence of Rend}}
+| {{item|Essence of Surt}}
+| {{na}} {{dei}}
+|-
+| {{item|Essence of Sunlight}}
+| {{item|Essence of Myst}}
+| {{na}}
+|-
+
+| {{item|Flahium Bar}}
+| {{item|Decayed Flahium}}
+| {{na}}
+|-
+| {{item|Pink Gel}}
+| {{item|Gel}}
+| {{na}}
+|-
+| {{item|Mushroom Plasma Root}}
+| {{item|Ha-pu Fruit}}
+| {{na}} {{dei}}
+|-
+| {{item|Infernal Blood}}
+| {{item|Ha-pu Fruit}}
+| {{na}} {{dei}}
+|-
+| {{item|Red Lightning Container}}
+| {{item|Ha-pu Fruit}}
+| {{na}} {{dei}}
+|-
+
+| {{item|Sea Prism}}
+| {{item|Platinum Ore}}
+| {{na}}
+|-
+| {{item|Aerialite Ore}}
+| {{item|Sea Prism}}
+| {{na}}
+|-
+| {{item|Victide Ore}}
+| {{item|Sea Prism}}
+| {{na}} {{fantag|Calamity: Tales of the Aquatic}}
+|-
+| {{item|Silicon Ore}}
+| {{item|Aerialite Ore}}
+| {{na}}
+|-
+| {{item|Arsenic Ore}}
+| {{item|Silicon Ore}}
+| {{na}}
+|-
+| {{item|Cobalt Ore}}
+| {{item|Arsenic Ore}}
+| {{na}}
+|-
+| {{item|Charred Ore}}
+| {{item|Orichalcum Ore}}
+| {{na}}
+|-
+| {{item|Adamantite Ore}}
+| {{item|Charred Ore}}
+| {{na}}
+|-
+| {{item|Cryonic Ore}}
+| {{item|Titanium Ore}}
+| {{na}}
+|-
+| {{item|Hallowed Ore}}
+| {{item|Cryonic Ore}}
+| {{na}}
+|-
+| {{item|Chlorophyte Ore}}
+| {{item|Hallowed Ore}}
+| {{na}}
+|-
+| {{item|Shatterite Ore}}
+| {{item|Hallowed Ore}}
+| {{na}} {{fantag|Calamity: Tales of the Aquatic}}
+|-
+| {{item|Perennial Ore}}
+| {{item|Chlorophyte Ore}}
+| {{na}}
+|-
+| {{item|Scoria Ore}}
+| {{item|Perennial Ore}}
+| {{na}}
+|-
+| {{item|Life Ore}}
+| {{item|Scoria Ore}}
+| {{na}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Apocalyptic Ore}}
+| {{item|Scoria Ore}}
+| {{na}}
+|-
+| {{item|Astral Ore}}
+| {{item|Apocalyptic Ore}}
+| {{na}}
+|-
+| {{item|Meld Ore}}
+| {{item|Apocalyptic Ore}}
+| {{na}} {{fantag|Calamity: Tales of the Aquatic}}
+|-
+| {{item|Luminite}}
+| {{item|Astral Ore}}
+| {{na}}
+|-
+| {{item|Exodium Cluster}}
+| {{item|Luminite}}
+| {{na}}
+|-
+| {{item|Cosmilite Slag}}
+| {{item|Exodium Cluster}}
+| {{na}} {{fantag|Calamity Loot Swap}}
+|-
+| {{item|Elemental Ore}}
+| {{item|Exodium Cluster}}
+| {{na}} {{fantag|Calamity: Tales of the Aquatic}}
+|-
+| {{item|Tarragon Ore}}
+| {{item|Exodium Cluster}}
+| {{na}}
+|-
+| {{item|Auric Ore}}
+| {{item|Tarragon Ore}}
+| {{na}}
+|-
+| {{item|Bloodstone Ore}}
+| {{item|Tarragon Ore}}
+| {{na}} {{fantag|Calamity: Tales of the Aquatic}}
+|-
+| {{item|Debris Ore}}
+| {{item|Bloodstone Ore}}
+| {{na}} {{fantag|Calamity: Tales of the Aquatic}}
+|-
+| {{item|Haunted Ore}}
+| {{item|Debris Ore}}
+| {{na}} {{fantag|Calamity: Tales of the Aquatic}}
+|-
+| {{item|Shadowspec Ore}}
+| {{item|Auric Ore}}
+| {{na}} {{fantag|Calamity Loot Swap}}
+|-
+| {{item|Esseric Ore}}
+| {{item|Shadowspec Ore}}
+| {{na}} {{fantag|Calamity: Tales of the Aquatic}}
+|-
+| {{item|Stiriatic Ore}}
+| {{item|Esseric Ore}}
+| {{na}} {{fantag|Calamity: Tales of the Aquatic}}
+|-
+| {{item|Natrisodic Cluster}}
+| {{item|Stiriatic Ore}}
+| {{na}} {{fantag|Calamity: Tales of the Aquatic}}
+|-
+| {{item|Thorium Ore}}
+| {{item|Natrisodic Cluster}}
+| {{na}} {{fantag|Calamity: Tales of the Aquatic}}
+|-
+
+| {{item|Blighted Gel}}
+| {{item|Pink Gel}}
+| {{na}}
+|-
+| {{item|Quark-Gluon Sludge}}
+| {{item|Purified Gel}}
+| {{na}}
+|-
+
+| {{item|Ashplate}}
+| {{item|Bloodplate}}
+| {{na}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Curseplate}}
+| {{item|Bloodplate}}
+| {{na}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Dustplate}}
+| {{item|Bloodplate}}
+| {{na}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Endoplate}}
+| {{item|Bloodplate}}
+| {{na}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Fuelplate}}
+| {{item|Bloodplate}}
+| {{na}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Ichorplate}}
+| {{item|Bloodplate}}
+| {{na}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Proviplate}}
+| {{item|Bloodplate}}
+| {{na}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Strangeplate}}
+| {{item|Bloodplate}}
+| {{na}} {{dei}}
+|-
+| {{item|Bloodplate}}
+| {{item|Navyplate}}
+| {{na}} {{fantag|Apotheosis and Friends}}
+|-
+| {{item|Navyplate}}
+| {{item|Cinderplate}}
+| {{na}}
+|-
+| {{item|Cinderplate}}
+| {{item|Mystplate}}
+| {{na}}
+|-
+| {{item|Mystplate}}
+| {{item|Plagueplate}}
+| {{na}}
+|-
+| {{item|Plagueplate}}
+| {{item|Chaosplate}}
+| {{na}}
+|-
+| {{item|Chaosplate}}
+| {{item|Lawplate}}
+| {{na}}
+|-
+| {{item|Lawplate}}
+| {{item|Elumplate}}
+| {{na}}
+|-
+| {{item|Elumplate}}
+| {{item|Crystalplate}}
+| {{na}}
+|-
+| {{item|Crystalplate}}
+| {{item|Aeroplate}}
+| {{na}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Aeroplate}}
+| {{item|Zotplate}}
+| {{na}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Zotplate}}
+| {{item|Rendplate}}
+| {{na}} {{dei}}
+|-
+| {{item|Rendplate}}
+| {{item|Surtplate}}
+| {{na}} {{dei}}
+|-
+| {{item|Surtplate}}
+| {{item|Bloodplate}}
+| {{na}} {{dei}} {{fantag|Apotheosis and Friends}}
+|-
+
+| {{item|Auric Sludge Remnant}}
+| {{item|Quark-Gluon Sludge}}
+| {{na}}
+|-
+| {{item|Rogue Emblem}}
+| {{item|Ranger Emblem}}
+| {{na}}
+|-
+| {{item|Soul of Cryogen}}
+| {{item|Shimmerspark}}
+| After defeating 2 [[Mechanical bosses]].
+|-
+| {{item|Soul of Pyrogen}}
+| {{item|Oblivion}}
+| After defeating [[Calamitas]].
+|-
+| {{item|Soul of Ionogen}}
+| {{item|The Microwave}}
+| After defeating [[Astrum Deus]].
+|-
+| {{item|Soul of Phytogen}}
+| {{item|Quagmire}}
+| After defeating [[Plantera]].
+|-
+| {{item|Soul of Pathogen}}
+| {{item|Verdant}}
+| After defeating [[Providence, the Profaned Goddess]].
+|-
+| {{item|Soul of Oxygen}}
+| {{item|Air Spinner}}
+| After defeating [[The Hive Mind]] or [[The Perforators]].
+|-
+| {{item|Soul of Carcinogen}}
+| {{item|The God's Gambit}}
+| After defeating [[The Slime God]].
+|-
+| {{item|Soul of Hydrogen}}
+| {{item|Riptide}}
+| After defeating [[Desert Scourge]].
+|-
+| {{item|Mechanical Glove}}
+| {{item|Ferro Claws}}
+| After defeating [[Moon Lord]].
+|-
+| {{item|Warrior Emblem}}
+| {{item|Rogue Emblem}}
+| {{na}}
+|-
+|}
+
+== Shimmer Recipes ==
+{{recipes|station=Shimmer|nostation=y|title={{item|Shimmer|image=Shimmer.gif}}}}
+
+== Bosses ==
+[[Gem Devourer]]
+
+* Notes
+
+*The Calamity Mod increases the maximum [[tgc:Coin Luck|Coin Luck]] capacity to '''9223372036854775807'''.
+
+== See also ==
+*[[tgc:Shimmer|Shimmer]] on the vanilla wiki

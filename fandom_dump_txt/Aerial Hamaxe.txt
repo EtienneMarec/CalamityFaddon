@@ -1,0 +1,34 @@
+{{item infobox
+| axe = 125
+| hammer = 70
+| type = Tool
+| damagetype = Melee
+| damage = 20
+| use = 25
+| knockback = 7
+| bonus = +1 range
+| auto = yes
+| stack = 1
+| rare = 3
+| sell = {{value|0|0|80|0}}
+| toolspeed = 16
+| element1 = Smash
+}}
+
+The '''Aerial Hamaxe''' is a craftable [[Pre-Hardmode]] [[Hamaxe]].
+
+{{Modifier|harvest}}
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Aerialite}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category: Hammers]]
+[[Category: Axes]]
+[[Category:Hamaxes]]
+[[zh:天蓝斧锤]]

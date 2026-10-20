@@ -1,0 +1,31 @@
+Just a place to mess around with stuff
+
+== Workspace ==
+{| class="terraria sortable lined" width=85%
+!  colspan=3 | Weapon !! Damage !! Mana Cost !! Use Time !! Knockback !! Auto-fire !! True melee !! Point blank !! Notes
+|-
+{{/Row|name=Adamantite Glaive|damageold=38|damagenew=65|notes= {{*}} Slows enemies on hit.<br/>{{*}} Slows enemies on hit.}}
+{{/Row|name=Adamantite Sword|damageold=50|damagenew=77|notes= {{*}} Slows enemies on hit.}}
+{{/Row|name=Aerial Bane|damageold=55|damagenew=41}}
+|}
+
+<!-- Hover infobox
+<div class="tooltip">[[The Sponge]]<span class="tooltiptext" style="align:right">{{#lst:User:Tymon80/Sandbox/Tooltiptesting|item infobox}}</span></div>
+-->
+
+<!-- DPL Version history
+{| class="terraria lined" style="width: 100%;"
+! style="width:10%;" | Version !! style="width:12%" | Release date !! style="width:30% | Name !! class=unsortable | Highlights and Notes
+|-
+{{#dpl:
+| category = Patches
+| nottitlematch=%(music)%
+| ordermethod = titlewithoutnamespace
+| order = descending
+| include = {patch infobox¦/dpl}
+| uses = Template:Patch infobox
+| mode = userformat
+| count = 300
+}}
+|}
+-->

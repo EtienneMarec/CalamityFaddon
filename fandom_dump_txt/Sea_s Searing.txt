@@ -1,0 +1,53 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 48
+| damagetype = Ranged
+| knockback = 5
+| stack = 1
+| auto = yes
+| use = 15
+| velocity = 11
+| tooltip = Fires a string of bubbles summoning a shower of bubbles on hit<br/>Right click to fire a slower, larger water blast that summons a water spout
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|4|80}}
+| debuff = Sulphuric Poisoning
+| debuffchance = 100%
+| debuffduration = 4 seconds (Spout)<br/>3 seconds (Bubble, Blast)
+| debufftip = The acidic water burns away your flesh
+| debuff2 = Wet
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (Bubble)
+| debufftip2 = You are dripping water
+| debuff3 = Frostburn
+| debuffchance3 = 100%
+| debuffduration3 = 3 seconds (Blast)
+| debufftip3 = Cannot move and defense is shattered
+| proj = Searing Bubble.png
+| projcaption = Searing Bubble
+| element1 = Poison
+| element2 = Water
+| element3 = Smash
+}}
+|{{item drops infobox
+| [[Aquatic Scourge]] | 1 | 10%
+}}
+}}
+
+The '''Sea's Searing''' is a [[Hardmode]] [[ranged weapon]] that drops from the [[Aquatic Scourge]]. It has two modes of attack: its primary fire (left-click) will shoot a barrage of sea bubbles that summon several additional bubbles from the sides of the screen upon contacting an [[enemy]] that inflict the [[Wet]] [[debuff]]. Its secondary fire (right-click) launches a sea blast that creates a water spout on contact with blocks and enemies, the sea blast itself inflicts the [[Glacial State]] debuff. All attacks inflict the [[Sulphuric Poisoning]] debuff onto enemies.
+
+The Sea's Searing does not require [[ammo]] to fire.
+
+{{Modifier|ranged}}
+
+== Notes ==
+*The primary fire has a fixed use time of 15 ticks, and the secondary fire has a fixed use time of 30 ticks; as a result, no modifier can increase or decrease the firing rate of the weapon.
+
+
+[[File:Sea's Searing (demo).gif|frame|left|The left-click and right-click attacks of the Sea's Searing.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

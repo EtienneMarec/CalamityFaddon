@@ -1,0 +1,52 @@
+{{distinguish|Brimstone Flames|a similar [[debuff]] inflicted by most other Brimstone-themed sources}}
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-8 health per second and -6 defense (if player)<br/>-62.5 health per second and -6 defense (if enemy)
+| tooltip = Your soul is being consumed
+}}
+
+'''Abyssal Flames''' is a [[debuff]] inflicted on the player by [[Supreme Calamitas]], her brothers, [[Sepulcher]], and [[Soul Seeker]]s. The player can inflict Abyssal Flames on enemies with melee weapons while under the effect of [[Calamitas' Brew]] or by wearing the [[Elemental Gauntlet]].
+
+If this debuff is inflicted on an enemy, it reduces their defense by 6 and causes them to lose 62.5 health per second, all while coloring them black and causing them to spew blood-red particles. If inflicted on the player, they will lose 8 health per second and 6 defense and emit bright red particles.
+
+If the target is inflicted with [[Oiled]], they lose 78.5 health per second instead of 62.5.
+
+Items that grant immunity to [[Brimstone Flames]], such as [[Abaddon]] or its upgrades, will not grant immunity to Abyssal Flames. However, the [[Fearmonger armor]] will grant immunity to this debuff.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

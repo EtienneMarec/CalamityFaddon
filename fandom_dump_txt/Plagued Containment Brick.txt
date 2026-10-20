@@ -1,0 +1,32 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| rare = 0
+| color = #33634B
+| use = 14
+| sell = No value
+| hardmode = yes
+}}
+{{distinguish|Plagueplate|a similarly-themed [[Pre-Hardmode]] block generated in [[Arsenal Lab]]s}}
+
+'''Plagued Containment Brick''' is a craftable [[Hardmode]] [[block]] crafted from [[Plague Cell Canister]]s and [[Stone Block]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This item was previosuly known as "Plagued Plate". The name was possibly changed to avoid confusion with the [[Plagueplate]].
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}
+
+[[Category:Block items]]

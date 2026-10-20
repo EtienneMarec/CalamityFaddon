@@ -1,0 +1,24 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = 5% increased damage reduction, +5 defense, and increased life regen while in the Jungle<br/>Immunity to Poison
+| rare = 3
+| sell = {{value|0|0|80}}
+| stack = 1
+}}
+
+The '''Living Dew''' is a craftable [[Pre-Hardmode]] [[covering]] that grants immunity to the [[Poisoned]] [[debuff]], increases [[defense]] by 5, damage reduction by 5%, and life regen by 2 while in the [[Jungle]]. It is used to make the [[Honey Dew]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

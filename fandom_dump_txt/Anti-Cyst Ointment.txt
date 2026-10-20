@@ -1,0 +1,18 @@
+{{item infobox
+| type = Tool
+| stack = 1
+| tooltip = Favorite this item to prevent perforator cysts from spawning near you
+| rare = 1
+| sell = {{value|0|0|20}}
+}}
+
+The '''Anti-Cyst Ointment''' is a craftable [[Pre-Hardmode]] [[spawn-blocking]] [[tool]]. While the item is favorited in the player's inventory, [[Perforator Cyst]] spawns are disabled.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-other = yes
+}}

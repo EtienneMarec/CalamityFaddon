@@ -1,0 +1,83 @@
+{{infobox wrapper
+|{{item infobox
+| imagealt = [[File:Schematic.png]] [[File:Encrypted Schematic (Planetoid).png]] [[File:Encrypted Schematic (Jungle).png]] <br/> [[File:Encrypted Schematic (Hell).png]] [[File:Encrypted Schematic (Ice).png]] [[File:Encrypted Schematic (Exosphere).png]]
+| rare = a
+| stack = 1
+| listexclude = yes
+}}
+|{{item drops infobox
+| [[Cyber Draedon]] {{fantag|Calamity: Community Remix}} (in their respective biomes and progression points)|1|100%
+| [[Mechanical Horde]]{{fantag|Calamity: Community Remix}} ([[The Exosphere|Exosphere]])|1|100%
+}}
+}}
+
+'''Schematics''' are items found in all five [[Bio-center Lab]]s. They are used to unlock various items crafted with [[Dubious Plating]] and [[Mysterious Circuitry]]. 
+{{-}}
+== Types ==
+{| class="terraria lined"
+|-
+! Variant !! Tooltip !! [[Codebreaker]] Component Required !! [[Draedon Power Cell|Power Cell]] Cost !! Decryption Message !! Unlocks
+|-
+| {{item|Schematic|nolink=y}} ([[Sunken Sea]])
+| Finely detailed diagrams of numerous devices and weaponry dance across the holographic screen.<br/>The weaponry I supply to the workers of the laboratories is weak. Hardly suited for battle.<br/>However, they suffice for self defense against any lab mechanisms or creations which may have gone rogue.<br/>Addendum: For those who think themselves powerful, search the upper bounds of this planet's atmosphere for a structure similar to that of the Sunken Seas.<br/>I will know by the end if you are worthy of battling my creations.<br/>Picking up this item or holding it in your inventory permanently unlocks new recipes
+| {{na}}
+| {{na}}
+| {{na}}
+| {{item|Decryption Computer}}
+|-
+| {{item|Encrypted Schematic|nolink=y|image=Encrypted Schematic (Planetoid).png}} ([[Planetoid]])
+| Requires a Codebreaker with a basic decryption computer to decrypt
+| {{item|Decryption Computer}}
+| 500
+| Within an army, as weapons do, the soldiers serve different purposes. That distinction is crucial, as the wrong tool in the wrong hands—no matter how potent—may as well be a wooden club.<br/>Addendum: Seek out my base of operations closest to the Lihzahrd's home. I wish you the best of luck with all sincerity, for it has been a long time since I have had a worthy test subject.
+| {{item|Frequency Manipulator}}<br/>{{item|Gauss Pistol}}<br/>{{item|Hydraulic Volt Crasher}}<br/>{{item|Long Ranged Sensor Array}}<br/>{{item|Matter Modulator}}<br/>{{item|Mounted Scanner}}
+|-
+| {{item|Encrypted Schematic|nolink=y|image=Encrypted Schematic (Jungle).png}} ([[Jungle]])
+| Requires a Codebreaker with a fine tuned, long range sensor to decrypt
+| {{item|Long Ranged Sensor Array}}
+| 950
+| As rank progresses, so often does the lethality of equipment. In the hands of competent soldiers, the weapons have the ability to make change. However, competent soldiers take no action but orders from above.<br/>Addendum: If you read this, you have come far. Do not disappoint. Go now to Hell, for the next component stored in what were once my forges.
+| {{item|Advanced Display}}<br/>{{item|Galvanizing Glaive}}<br/>{{item|Gatling Laser}}<br/>{{item|Gauss Rifle}}<br/>{{item|Pulse Turret Remote}}<br/>{{item|System Bane}}
+|-
+| {{item|Encrypted Schematic|nolink=y|image=Encrypted Schematic (Hell).png}} ([[The Underworld|Hell]])
+| Requires a Codebreaker with a sophisticated display to decrypt
+| {{item|Advanced Display}}
+| 1750
+| Only the highest ranking in the battalions of the Yharim's army held these weapons. However these are still not my most potent tools. Those...characters could not be trusted with them.<br/>Addendum: The final piece remains. Travel now from the hottest fire this land has to offer, to the most frigid cold. I cannot deny having some sense of poetic symmetry.
+| {{item|Heavy Laser Rifle}}<br/>{{item|Plasma Caster}}<br/>{{item|Pulse Dragon}}<br/>{{item|Snake Eyes}}<br/>{{item|Voltage Regulation System}}<br/>{{item|Wave Pounder}}
+|-
+| {{item|Encrypted Schematic|nolink=y|image=Encrypted Schematic (Ice).png}} ([[Ice biome|Ice]])
+| Requires a Codebreaker with a complex voltage regulation system to decrypt
+| {{item|Voltage Regulation System}}
+| 5000
+| I have since made progress to even greater weapons than these, but they remain creations to be proud of. No progress can be made without a desire that comes from dissatisfaction.<br/>Addendum: The time has come. You are ready.
+| {{item|Auric Quantum Cooling Cell}} (Without the Calamity: Community Remix mod)<br/>{{item|Phaseslayer}}<br/>{{item|Plasma Grenade}}<br/>{{item|Pole Warper}}<br/>{{item|Pulse Rifle}}<br/>{{item|Tesla Cannon}}
+|-
+| {{fantag|Calamity: Community Remix}}{{item|Encrypted Schematic|nolink=y|image=Encrypted Schematic (Exosphere).png}} ([[The Exosphere|Exosphere]])
+| Requires a Codebreaker with a complex voltage regulation system to decrypt
+| {{item|Voltage Regulation System}}
+| 9999
+| Whenever you feel you are ready.
+| {{item|Auric Quantum Cooling Cell}}<br/>{{item|Mechanical Drill}}<br/>{{item|Hypercharger}}<br/>{{item|Heavy Pulse Caster}}<br/>{{item|Cannon Remote}}<br/>{{item|Thanatos Head}} {{dei}}
+|}
+
+== Crafting ==
+=== Recipe ===
+These items can only be crafted if the player has ever picked up the respective schematics in their inventory before. They can also be crafted if the world was created before the [[1.5.0.001]] update.
+
+{{recipes|result=Schematic/LIKE %(Planetoid)/LIKE %(Jungle)/LIKE %(Hell)/LIKE %(Ice))/LIKE %(Exosphere)|link=no}}
+
+== Trivia ==
+*The drawings on the schematics each depict their respective [[Codebreaker]] components that they unlock. 
+*Additionally, the colored indicators on each schematic correspond with the respective biomes they are found in:
+**The Hell schematic's indicator is orange.
+**The Ice schematic's indicator is white.
+**The Jungle schematic's indicator is green.
+**The Planetoid schematic's indicator is yellow.
+**The Sunken Sea schematic's indicator is teal.
+**{{fantag|Calamity: Community Remix}}The Exosphere schematic's indicator is gray.
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

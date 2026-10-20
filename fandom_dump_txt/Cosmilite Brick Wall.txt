@@ -1,0 +1,29 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| hardmode = yes
+| postml = yes
+| color = #22213B
+| sell = No value
+| use = 14
+}}
+
+'''Cosmilite Brick Wall''' is a background [[wall]] crafted with [[Cosmilite Brick]], which is in turn crafted with [[Cosmilite Bar]]s.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+{{Cosmilite}}
+{{Master Template Tiles
+| show-main   = yes
+| show-walls = yes
+}}
+[[Category:Block items]]

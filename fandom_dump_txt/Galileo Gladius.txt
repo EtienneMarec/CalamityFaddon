@@ -1,0 +1,50 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 13
+| sell = {{value|0|26}}
+| damage = 110
+| knockback = 10
+| use = 10
+| tooltip = Don't underestimate the power of small space swords<br/>Shoots a homing crescent moon<br/>Spawns planetoids on enemy hits<br/>Shortflurry attacks spawn planetoids on projectile hits, increase melee speed by 50%, and give immunity to Moon Burnt
+| debuff = Moon Burnt| bufflink = yes
+| debuffchance = 100%
+| debuffduration = 5 seconds (Blade and Planets)<br/> 3 seconds (Moons)
+| debufftip = Incinerated by lunar rays
+| auto = yes
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Galileo Planet.png
+| projcaption = Galileo Planet
+| proj2 = Crescent.png
+| proj2caption = Crescent
+| element1 = Magic
+| element2 = Dark
+| element3 = Stab
+}}
+
+The '''Galileo Gladius''' is a craftable Godseeker Mode [[shortsword]]. When swung, the weapon auto-fires homing crescent moons that deal 33.33% of the weapon's base damage and pass through blocks. Hitting an enemy with a true melee hit will cause large blue planetoids to rain on the enemy. These planetoids explode on contact with tiles and enemies.
+
+When the weapon's [[Shortstrike]] ability activates, crescent moons will drop down planetoids on enemy hits. The player also gains 50% increased melee speed and immunity to [[Moon Burnt]] for 20 seconds.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*[[wikipedia:Galileo Galilei|Galileo]] was known as the "Father of observational astronomy" due to his massive contributions to the field, which gave the weapon its space theme.
+*[[wikipedia:Gladius|Gladius]] is the Latin word for "Sword", which was used widely in scholarly fields during the era Galileo was alive.
+
+{{Stratus}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]

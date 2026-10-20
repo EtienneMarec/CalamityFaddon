@@ -1,0 +1,34 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Ammunition
+| tooltip = Pierces through tiles<br/>Quickly leaps, leaving behind icicles<br/>Striking an enemy causes an ice explosion to occur and icicles to be thrown at the hit enemy 
+| damage = 40
+| damagetype = ranged
+| stack = 9999
+| rare = C1
+| velocity = 20
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| sell = {{value|0|0|50}}
+| debuff = Reactive Flames
+| debuffduration = 4 seconds (The dart)<br/>2 seconds (Icicle)
+| debufftip = Little fire particles are reacting all over you
+| debuffchance = 100%
+| proj = Icicle.png
+| projcaption = Icicle
+|debuff2=Glacial State|debuffchance2=100%|debuffduration2=2 seconds (Ice explosion)|debufftip2=Cannot move and defense is shattered| element1 = Cold}}
+
+'''Waterfrost Darts''' are craftable Epilogue [[darts]]. When fired, the dart will quickly decelerate and stop entirely, traveling about 16 blocks total. Afterwards, the dart will "leap" every 1.5 seconds, travelling about 12 blocks and leaving behind an icicle each time. Upon hitting an enemy, the dart will cause a small ice explosion, dealing additional 30% of its base damage to the enemy and inflicting the [[Glacial State]] [[Debuffs|debuff]] for 2 seconds. Icicles will also be quickly fired at the hit enemy, dealing 10% of the dart's base damage. After doing 5 leaps, the dart will explode as if it hit an enemy, but icicles will be fired at the closest enemy. Both the dart and icicles inflict the [[Reactive Flames]] debuff for 4 seconds and 2 seconds respectively. Additionally, both of them can predict the enemy's movement, but do not home, and while the dart can pierce through walls, the icicles cannot.
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+==Trivia==
+*The unique movement of the dart was inspired by [[wikipedia:Gerridae|Gerridae]], a family of insects also known as water striders.
+
+{{-}}
+{{Ctota}}
+[[Category:Darts]]

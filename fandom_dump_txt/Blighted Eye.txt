@@ -1,0 +1,34 @@
+{{npc infobox
+| type = Flying Enemy
+| environment = Surface
+| ai = Demon Eye AI
+| knockback = {{dv|40%|46%}}
+| damage = {{dv|32|64}}
+| life = {{dv|120|240}}
+| defense = 8
+| debuff = Weak
+| debuffchance = 100%
+| debufftip =  	Physical abilities are decreased
+| duration = 3 seconds
+| banner = yes
+| money = {{sc|2}}
+| Blighted Lens|1| 50%
+| immune1 = Kami Flu
+| hardmode = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1=  Holy
+| vulnerable2=  Water
+| resistant1 = Fire
+| resistant2 = Dark
+| resistant3 = Unholy
+}}
+
+'''Blighted Eyes''' are [[Hardmode]] enemies that appear at night on the [[Surface]]. They behave similarly to [[Demon Eye]]s. They can drop [[Blighted Lens]]es, which are a key ingredient in the [[Eye of Desolation]], which is used to summon [[Calamitas]].
+
+In [[Death Mode]], Blighted Eyes are capable of becoming intangible and passing through blocks for a brief period of time, in order to reach the player.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

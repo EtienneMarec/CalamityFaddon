@@ -1,0 +1,36 @@
+{{npc infobox
+| type = Flying Enemy
+| environment = Frozen Hell
+| ai = Bat AI
+| damage = {{dv|70|130}} (Contact)<br/>{{dv|100|150|}} (Fireball)
+| life = {{dv|1,100|2,000}}
+| defense = 12
+| banner = yes
+| money = {{value|0|3|50}}
+| Cog|2-5| 100%
+| Metal Feather|1| 1%
+| knockback = 75
+| debuff = On Fire!
+| debuffchance = 100% (Fireball)
+| debufftip = Losing health
+| immune1 = Kami Flu
+| immune2 = On Fire!
+| immune3 = Brimstone Flames
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = Item_8.wav
+| soundtext = Fireball
+| vulnerable1 = Fire
+| vulnerable2 = Holy
+| resistant1 = Cold
+| resistant2 = Unholy
+| resistant3 = Machine
+}}
+
+The '''Clockwork Bat''' is a Godseeker Mode [[Enemies|enemy]] which spawns in [[Frozen Hell]]. It acts similarly to most bat-type enemies, but will occasionally launch a bouncing fireball at the player.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

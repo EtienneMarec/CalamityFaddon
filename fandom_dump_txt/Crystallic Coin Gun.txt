@@ -1,0 +1,66 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| damagetype = ranged
+| damage = 20
+| use = 14
+| knockback = 2
+| velocity = 24
+| tooltip = Coins Create explosions that shoot out crystal shards
+| stack = 1
+| auto = yes
+| rare = 8
+| sell = {{value|0|5}}
+| hardmode = yes
+| debuff = Frostburn
+| debuffchance = 100%
+| debuffduration = 5 seconds (Silver) <br/> 10 seconds (Gold/Platinum)
+| proj = ccg_shard.png
+| projcaption = shard
+| element1 = Holy
+| element2 = Stab
+}}
+'''Crystallic Coin Gun''' is a [[Hardmode]] [[ranged weapon]]. The coins create explosions that shoot out crystal shards. The shard deal a solid 20 damage no matter what coin type is used
+
+{{modifier|ranged}}
+
+== Ammo Types ==
+
+{{item/options|mode=table}}
+{| class="terraria lined"
+|-
+! colspan=2 style="text-align:center" | Type !! Coin Damage !! Explosion Damage !! Shard amount
+|-
+| {{item|image=C Shot.png|Copper Coin}}
+| 40
+| 10
+| 0
+|-
+| {{item|image=S Shot.png|Silver Coin}}
+| 60
+| 15
+| 2
+|-
+| {{item|image=G Shot.png|Gold Coin}}
+| 100
+| 25
+| 5
+|-
+| {{item|image=P Shot.png|Platinum Coin}}
+| 200
+| 50
+| 10
+|-
+|}
+{{item/options|reset}}
+== Crafting ==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

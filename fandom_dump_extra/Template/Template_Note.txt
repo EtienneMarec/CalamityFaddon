@@ -1,0 +1,11 @@
+<includeonly>{{#if:{{{1|}}}|<!-- 
+-->{{#dplvar:set|_tagname|{{#if:{{{block|}}}|div|span}}}}<!--
+--><{{#dplvar:_tagname}} class="note-text {{#if:{{{small|}}}|small}}"><!-- 
+	-->{{{prefix|{{{before|}}}}}}<!-- 
+	-->{{#if:{{{paren|}}}|<!--
+		-->({{{1|}}})<!--
+	-->|<!-- 
+		-->{{{1|}}}<!-- 
+	-->}}<!--
+--></{{#dplvar:_tagname}}><!-- 
+-->}}</includeonly><noinclude>[[Category:Formatting templates]]</noinclude>

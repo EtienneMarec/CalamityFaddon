@@ -1,0 +1,3 @@
+{| class="plainlinks" align=center style="border: 1px solid #AAA; padding: 3px 15px; margin-bottom: 5px; border-radius: .7em; -moz-border-radius: .7em; -webkit-border-radius: .7em; background: #515151; color: white; line-height:23px; font-size:90%; width:700px; text-align:center;"
+| '''{{l10n|guide header|heading}}'''<br/>{{l10n|guide header|text}}<br/>{{#if:{{{latest|}}}|{{l10n|guide header|ver}} '''[[{{{latest}}}]]'''.|{{l10n|guide header|outdated}}}}
+|}<includeonly>{{#if:{{{nocat|}}}|<!--nothing-->|[[Category:Guides|{{PAGENAME}}]]}}</includeonly><noinclude>{{i18n-ready}}{{doc}}</noinclude>

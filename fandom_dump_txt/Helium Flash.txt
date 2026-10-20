@@ -1,0 +1,49 @@
+{{item infobox
+| type = Weapon
+| damage = 2727
+| auto = yes
+| use = 40
+| knockback = 9.5
+| damagetype = Magic
+| rare = 15
+| tooltip = The power of a galaxy, if only for mere moments<br/>Launches volatile star cores which erupt into colossal fusion blasts
+| sell = {{value|0|30}}
+| mana = 26
+| velocity = 15
+| stack = 1
+| debuff = Irradiated
+| debuffchance = 100%
+| debuffduration = 3 seconds (Starcore)
+| debufftip = Your skin is burning off
+| debuff2 = Daybroken
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Starcore)<br/>5 seconds (Explosion)
+| debufftip2 = Incinerated by solar rays
+| hardmode = yes
+| postml = yes
+| proj = Volatile Starcore.gif
+| projcaption = Volatile Starcore
+| element1= Fire
+| element2 = Magic
+}}
+
+The '''Helium Flash''' is a craftable Godseeker Mode [[wand]]. It fires a burning star core which bursts on impact into an enormous flaming explosion much like the [[Inferno Fork]]. The explosion ignores NPC [[immunity frames]] and inflicts the [[Daybroken]] [[debuff]] for an extended period of time. The burning star core additionally inflicts the [[Irradiated]] debuff if it strikes an enemy directly.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon is named after the [[wikipedia:Helium flash|astronomical phenomenon]] in which red giant stars reach a critical density and begin rapidly fusing helium into carbon in their cores.
+*The tooltip of this weapon references the power of real-life helium flashes. They produce as much heat as an entire galaxy for about a minute.
+
+{{auric}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

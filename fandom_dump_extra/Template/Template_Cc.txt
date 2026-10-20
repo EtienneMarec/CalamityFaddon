@@ -1,0 +1,51 @@
+<includeonly><span data-info="{{#expr:{{{1|1}}}}}" {{#if:{{{1|}}}|style="white-space:nowrap" <nowiki />}}title="{{#if:{{{1|}}}|{{{1|}}} <nowiki />}}Copper Coin{{#ifeq:{{{1|1}}}|1||s}}">{{#if:{{{1|}}}|{{{1|}}} <nowiki />}}[[File:Copper Coin.png|link=|alt=Copper Coin]]</span></includeonly><noinclude>
+A minimalist helper template to quickly create a "cc" ('''C'''opper '''C'''oin).
+
+== Standard Usage ==
+{| class="terraria"
+!<nowiki>{{cc}}</nowiki>
+|{{cc}}
+|-
+!<nowiki>{{cc|1}}</nowiki>
+|{{cc|1}}
+|-
+!<nowiki>{{cc|5}}</nowiki>
+|{{cc|5}}
+|}
+
+== Multiple coins ==
+If you want to create a price with multiple type coins, please insert a single [[wikipedia:non-breaking space|non-breaking space ( &amp;nbsp&#59; )]] between each coin:
+{| class="terraria"
+!<nowiki>{{gc|5}}&amp;nbsp&#59;{{sc|50}}</nowiki>
+|{{gc|5}}&nbsp;{{sc|50}}
+|}
+
+Or, just use [[template:Value]], which is optimized for multiple currencies.
+
+== Without a parameter ==
+Using the template without any parameters will simply generate a Copper Coin, without anything other text.
+
+== Render and link ==
+*The cc template will not generate a link, and will not be linkable (neither the text, nor the coin).
+*However, mousing over the template will create a '''hover text''' with the full English rendering, for readability:
+{| class="terraria"
+! {{cc}}
+| Copper Coin
+|-
+! {{cc|1}}
+| 1 Copper Coin
+|-
+! {{cc|5}}
+| 5 Copper Coins
+|}
+
+== See Also ==
+*[[template:pc]]: Platinum Coin.
+*[[template:gc]]: Gold Coin.
+*[[template:sc]]: Silver Coin.
+*[[template:cc]]: Copper Coin.
+*[[template:Value]]: An alternative.
+
+[[Category:Shortcut templates]]
+
+</noinclude>

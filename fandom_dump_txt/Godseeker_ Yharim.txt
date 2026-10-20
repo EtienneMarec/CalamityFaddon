@@ -1,0 +1,141 @@
+{{Addon|Calamity: Community Remix}}{{dedicated|Developers team}}{{stub}}
+<section begin="npc" infobox="" />
+{{infobox wrapper
+|{{npc infobox
+| name = Godseeker, Yharim
+| type = Boss
+| environment = Dragon's Aerie
+| imagealt = <Tabber>
+
+Phase 1=[[File:Godseeker Yharim (Phase 1).png]]
+|-|
+Phase 2=[[File:Godseeker Yharim (Phase 2).png]]
+
+</Tabber>
+| ai = Yharim AI
+| life = 3 <br/>{{expert| 4 }}<br/>{{revengeance|3,000,000}}<br/>{{death|3,750,000}}<br/>{{malice|4,000,000}}
+| damage = {{element|Fire}} {{dv|400|525|660|800}} (Contact)<br/>{{element|Fire}} {{dv|350|475|580|725}} (Draconic Orb)<br/>{{element|Fire}} {{dv|450|550|675|830}} (Infernal Projection)<br/>{{element|Slash}} {{dv|450|550|675|830}} (Melee)<br/>{{element|Fire}} {{dv|350|475|580|725}} (Flare slash)<br/>{{element|Stab}} {{dv|350|475|580|725}} (Draconic Kives)<br/>{{element|Dark}} {{dv|450|550|675|830}} (Godblood Spine)<br/>{{element|Stab}}{{dv|350|475|580|725}} (Sword Throw)
+| defense = 100
+| dr = 25
+| knockback = 100
+| immune1 = Confused
+| immune2 = Pearl Aura
+| hardmode = yes
+| postml = yes
+| Primordial Light Shard|{{dv|20-30|30-40}}|100%
+| group|One of the following 5 items will be dropped:|5
+| custom| {{item|Yharim's Ultimate Sword}}|{{dv|25%|33.33%}}
+| custom| {{item|The God Seeker}}|{{dv|25%|33.33%}}
+| custom| {{item|Draconic Knowledge}}|{{dv|25%|33.33%}}
+| custom| {{item|Auric Dragon Stave}}|{{dv|25%|33.33%}}
+| custom| {{item|Heaven Reaper}}|{{dv|25%|33.33%}}
+| Omega Healing Potion|10-20|100%
+| Godseeker's Helm|1|14.29%
+| Godseeker Yharim Trophy|1|10%
+| Yharim Bar|{{dv|15-20|20-25}}|100% {{fantag|Calamity: Community Remix}}
+| Tyrant Shield |1|100% {{fantag|Calamity: Community Remix}}
+| custom| {{item|Epilogue (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Yharim's Last Gift|wrap=y}}
+: • {{item|Intertwined Soul|wrap=y}}|{{expert|100%}}
+| image2 = Godseeker Yharim map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| sound = DraconicEnergy.wav
+| soundtext = Draconic Energy Fired
+| sound2 = GodlySpiritBlast.wav
+| sound2text = Godly Spirit Blast Fired
+| sound3 = YharimDeath.wav
+| sound3text = Killed
+| boxwidth = 28em
+| vulnerable1 = Fire
+| vulnerable2 = Magic
+| vulnerable3 = Water
+| resistant1 = Poison
+}}
+}}<section end=npc infobox/>
+
+[[File:Yharim_Trophy.png]] <big>'''''"Terrarian... I remember you're calamities..."'''''</big> [[File:Yharim_Trophy.png]]
+
+'''Godseeker, Yharim''' (Japanese: 神を求める者、ヤハリム ''Kami o motomeru mono, yaharimu''), real name '''Jake''' (Japanese: ジェイク、じぇいく ''Jeiku''), is a Godseeker Mode [[boss]] fought atop the [[Dragon's Aerie]], and the final non-[[Superbosses|superboss]] of the Calamity Mod. He can be fought after both the [[The Fabricational Quartet|Fabricational Quartet]], [[Supreme Calamitas]] and the [[Yharim Worm]] have been defeated, though it is '''highly''' recommended that both [[XC-39 Oizys]] and [[Goozma]] are defeated beforehand, as he is the final foe most players will encounter, and the gear both drop will help immensely against him the one you have heard all about in the lore he throws 17 bananas at you
+.
+
+== Spawn ==
+Yharim is encountered in the Dragon's Aerie on the final island standing alone at the Grave of Light. If approached, he will draw his blade, and the fight will begin.
+
+== Behavior ==
+While Yharim may be quite old, he is still very fast and hits very hard. Multiple attacks can overlap, as only Yharim's attack animation needs to finish for him to start another attack.
+
+=== Attacks ===
+* He throws out an infernal projection of Yharon that travels along the screen and lightly homes in on the player, inflicting Dragonfire on contact.
+* Yharim leaps towards the player and swings his sword when close enough. The swing of the blade will cause a second, much larger but less dangerous slash to appear.
+* He quickly maneuvers around and throws multiple Draconic Knives at a time at you from different angles.
+** While it may seem overwhelming at first, keeping calm is important to dodging this one.
+* Yharim stabs his sword into the ground and multiple Godblood spines will raise up from the ground all the way to the top of the arena.
+* He throws his sword at the player, and the sword will circle back after it has passed the player.
+** Constantly moving is key, as the sword travels quickly and may catch the player off guard.
+*Yharim throws out Draconic Orbs in multiple directions, which after a delay will home in on the player from various angles.
+*Yharim uses his middle finger (which is covered by a censor bar) to rapidly fire hundreds of Chlorophyte bullets at the player.
+
+=== In [[Baby Ghost Bell|Classic Mode]] ===
+
+* if Yharim stabs his sword into the ground at any moment in the entire fight and you have DELTARUNE installed, he will inexplicably create a large dark pillar where he stabs the ground before a funny looking short man spawns from said pillar and attempts to bludgeon you with a comically large GIF of a dollar sign. Getting hit by this attack for the first time will datamine your computer for your credit card information, and getting hit again will buy 400$ Apple Gift Cards shipped to an abandoned shed<ref>"Nobody has ever survived The Shed and come back with their gift cards. In my opinion, I think they all have horrendous skill issues and should just dodge." -The Calamity Mod Dev Team</ref> in the woods surrounded by bear traps and landmines and automatic sentry guns.
+
+=== In [[Expert Mode]] ===
+
+* Yharim has 5% more HP.
+* Yharim now has a gun.
+
+=== In [[Revengeance Mode]] ===
+
+* Yharim moves slightly faster.
+* Yharim now has two guns.
+
+=== In [[Death Mode]] ===
+
+* The game window is automatically locked out of fullscreen. If any of Yharim's projectiles collide with the top right corner of the screen, the window will be instantly closes as if it had hit the X button.
+* Yharim now has three guns.
+* Yharim is aided by his son Yharim Jr who is a complete copy of Yharim.
+
+=== In [[Malice Mode]] ===
+
+* Yharim will keylog the player's computer. If the player presses the "alt" key or the "f4" key, accidentally or not, Yharim will forcibly close Calamity, delete the mod from the player's computer, and corrupt the player's save file. Yharim will express surprise if the player manages to open the world to fight him again, as evidenced in his dialogue.
+* Yharim now has four guns, wielding two in each hand. 
+* In addition, if the player attacks Yharim in the back before the fight begins, he will reveal that he had a secret fifth gun under his cape. This gun will instantly kill the player. Then, it will kill the player in the next session of Terraria they play. Then, it will kill the player in the next game they play, even if it's not Terraria. 
+* If the player performs this action twice, Yharim will astral project into [[Sulphurous Sea|Real Life]], attempting to bludgeon the player to death with a [[Hammers|hammer]].
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating Godseeker, Yharim, including [[weapon]] recommendations, see [[Guide:Godseeker, Yharim strategies]].}}
+
+== Quotes ==
+
+* "You stand on the brink of infinity. Are you ready to begin my trial?" (First encounter on the Dragon's Aerie) 
+* "A grave mistake." (If the player chooses to accept the trial)
+* "It seems that you value your life." (If the player denies the trial.)
+* "I watched as you vanquished beast after beast, slaughtering all in your wake. Do you truly consider yourself better than I?" (When Yharim reaches 90% of his health)
+* "You slew what I could not. You bested even the [[Providence, the Profaned Goddess|Profaned Goddess,]] slaughtered the [[The Devourer of Gods|Devourer]] of the cosmos." (When Yharim reaches 80% of his health)
+* "Even my [[Jungle Dragon, Yharon|dragon]] noticed that you ascended beyond his control. I still did not know what his message was." (When Yharim reached 70% of his health.)
+* "A person of many titles you must be. Humbler of the [[Supreme Calamitas|Brimstone Witch.]] Destroyer of the [[The Fabricational Quartet|Fabricational Quartet.]] ''Annihilator of the [[Goozma|singularity of slime.]] Vanquisher of the [[Purgatory Arbiter, Umbrus|Entropic God.]] '''You have even defeated... what the hell? Okay, pardon the fact that I stopped acting all menacing and serious, but who the hell is "Dron?" What is this "Amazon?" Starborn Moth? Kulu-Yharon-Ku? Are you mocking my most loyal follower? I wish I wasn't gifted with these mind-reading abilities... are you making up shit to troll me? Is this whole UNIVERSE full of [[Omega Ray|misinformation]]? What is this, some sort of [[Calamity Mod Wiki|Calamity Fandom Wiki]]? Sigh...''''' (When Yharim reaches 60% of his health. Note that the ''italicized dialogue'' will only show up if [[Goozma]] and [[Purgatory Arbiter, Umbrus]] are defeated, and that the '''''bolded and italicized dialogue''''' will only show up if [[Disgusting Creature: Dron|Disgusting Creature, Dron,]] [[Amazon]][[The Starborn Moth|, The Starborn Moth,]] and [[Birdest Up, Kulu-Yharon-Ku]] are defeated.
+* "Regardless of your accomplishments, it appears I cannot underestimate you any longer. Prepare to face my tyrannical, brutal [[The Calamity|calamity.]]" (When Yharim reaches his second phase)
+* "Symptoms of paranoia are invading me." (When Yharim reaches 40% of his health)
+* "Terrarian... I remember you're calamities." (When Yharim reaches 30% of his health and if [[Unstable Calamity]] is defeated in the current world)
+* "This really is the tale of a cruel world..." (When Yharim reaches 15% of his health)
+* "For my dying wish, I want you to scatter my ashes in the wind, for in my afterlife, I wish to see the world as I had ruptured it." (When Yharim reaches 5% of his health)
+* "You have done it. You have defeated me. Looks like this truly was... a Calamitous Mod." (When Yharim is defeated)
+
+* "I'm about to YHAR!" (If the player consumes a [[Yharic Delight]])
+* "I have grown wise to these pathetic tricks. Many tried and failed during my crusade." (If the player attempts to back-strike Yharim before initiating the fight in [[Malice Mode]].)
+* "No u" (If the player tries to back-strike Yharim in Malice Mode a second time) ''After Yharim crawls out of the screen, his dialogue may vary, for he is now in [[Sulphurous Sea|Real Life]].'' 
+* "You are truly a determined one... now, go and touch some [[Plants|Grass]], for you have far too much time on your hands." (If the player reinstalls Calamity, uncorrupts the file, and tries to fight Yharim again during a Malice Mode fight where he has deleted the Calamity Mod.)
+* "There's a 99% chance that there's a [[Yharim Worm|worm version of me]]." (0.0001% chance to happen on any given tick, as long as the fight is initiated)
+
+== Trivia ==
+*The [[Music|song]] heard during the battle against Godseeker, Yharim is [https://www.youtube.com/watch?v=2Ax2A-Y8zYY '''Rise of the Jungle Tyrant'''] for the first phase, and '''[https://soundcloud.com/lilqual/stormgem-tyrannys-showdown-v2-remix Tyranny's Showdown]''' for the second phase, the former being composed by the artist [https://www.youtube.com/@Thriplerex Thriplex] and the latter being composed by the artist [https://soundcloud.com/lilqual lilquail]. Both songs are placeholders, and are confirmed to one day be replaced by new ones that Heart Plus Up! will be composing.
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' replaces Rise of the Jungle Tyrant, and the [[Moon Lord]]'s theme replaces Tyranny's Showdown.
+*Yharim is canonically 9 ft 3.5 in tall, which is taller than Robert Wadlow, the tallest human on record, and the Supreme Witch in a maid costume combined.
+*Before his reign of terror, Yharim was simply named Jake, but he changed his name to sound more "dragon-y".
+*If the player consumes a [[Yharic Delight]] during the fight, Yharim will instantly enrage for the rest of the battle.
+*A line of Yharim's dialogue is a reference to the song '''Roar of the Jungle Dragon''' by '''DM DOKURO.''' This song is a [[Cool Item|Banger;]] in fact, you should probably listen to it right now.
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

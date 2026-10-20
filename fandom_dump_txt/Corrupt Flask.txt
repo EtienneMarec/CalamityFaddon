@@ -1,0 +1,24 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| stack = 1
+| tooltip = 7% increased damage reduction and +3 defense while in the corruption
+| rare = 2
+| sell = {{value|0|0|40}}
+}}
+
+The '''Corrupt Flask''' is a [[Pre-Hardmode]] [[covering]] that increases [[defense]] by 3 and damage reduction by 7% while in [[The Corruption]]. It is the Corruption counterpart to the [[Crimson Flask]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

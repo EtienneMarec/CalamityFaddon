@@ -1,0 +1,60 @@
+{{buff infobox
+| type = Debuff
+| effects = Target loses 10 health per second, 2 defense, 10% movement speed, natural life regen is disabled, the Darkness debuff is inflicted and the target will gain persistent afterimages. (if player)<br/>-25 health per second and 15% reduced movement speed. (if enemy)
+| tooltip = Vaporizing senses and mind
+}}
+'''Vaporfied''' is a [[debuff]] inflicted by various light, rainbow, mediocre matter, and glitch themed enemies and weapons. It causes the player to lose 10 health per second, 2 defense, 10% movement speed, and their vision is reduced similar to the [[Darkness]] debuff. The player will also gain afterimages that will persist until the debuffs duration ends. If the debuff is inflicted onto an enemy, it will lose 25 health per second and 15% movement speed. The debuff will also cause enemies and the player to emit glowing, pastel rainbow flames and flash a variety of colors.
+
+== Causes ==
+=== From player ===
+{{item debuffs
+|{{item|mode=table|Rainbow Rod}}|2 seconds|100%
+|{{item|mode=table|Scroll of Night}}|10 seconds (Activated)|100%
+|{{item|mode=table|Starlight}}|2.5 seconds|100%
+|{{item|mode=table|Worst Prism}}|1.5 seconds|100%
+}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|-
+| {{item|mode=table|Ancient Vision}}||1.5 Seconds||100%
+|-
+| {{item|mode=table|Empress of Light}}||3 Seconds (Daytime Contact)||100%
+|-
+| {{item|mode=table|Jungle Mimic}}||5 Seconds||100%
+|-
+| {{item|mode=table|Rainbow Slime}}||{{dv|5||||10}} Seconds (Contact)||100%
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+== Notes ==
+*Vaporfied will not reduce the movement speed of [[Bosses|Boss]] enemies.
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

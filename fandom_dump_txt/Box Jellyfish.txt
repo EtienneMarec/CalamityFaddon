@@ -1,0 +1,39 @@
+{{npc infobox
+| type = Aquatic
+| ai = Box Jellyfish AI
+| environment = Ocean
+| environment2 = Abyss
+| life = {{dv|90|180}}
+| damage = {{dv|44|88}}
+| defense = 5
+| knockback = 0% / {{expert|10%}}
+| debuff = Venom
+| debufftip = Losing life
+| duration = 2 seconds
+| debuffchance = 100%
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| banner = yes
+| money = {{value|0|0|9|0}}
+| custom | {{item|Abyss Shocker|note=(After defeating [[Skeletron]])|wrap=y}}|{{dv|2%|2.5%}}
+| Jellyfish Necklace | 1 | 1%
+| hurt = NPC_Hit_25.wav
+| killed = NPC_Killed_28.wav
+| vulnerable1 = Cold
+| vulnerable2= Stab
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Poison
+| resistant3 = Fire
+}}
+
+The '''Box Jellyfish''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Ocean]] and the 1st layer of the [[Abyss]]. It will remain passive until the player gets too close, it will then attempt to attack the player by swimming towards them.
+
+== Trivia ==
+*The Box Jellyfish acts similarly to [[wikipedia:Box jellyfish|its real-life counterpart]]; they both remain passive until they detect something nearby that may be edible.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

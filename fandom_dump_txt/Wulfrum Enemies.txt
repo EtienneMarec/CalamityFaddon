@@ -1,0 +1,45 @@
+The Calamity Mod adds numerous '''Wulfrum''' [[enemies]] that can provide decent weaponry for the beginning of the game. All Wulfrum Enemies spawn naturally on the [[Surface]] during daytime.
+
+== Types ==
+{| class="terraria sortable lined" style="text-align:center" width="100%"
+! width=200 | Type
+! Health
+! Damage
+! width="5%" | Defense
+! width="5%" | Coins
+! width="5%" | Banner
+! width=80 | Drops
+! class="unsortable" | Additional info
+|-
+| '''{{item|Wulfrum Drone}}'''
+| {{dv|21|42}} || {{dv|16|32}} || 4 || align=right | {{value|0|0|1|20}} || [[File:Wulfrum Drone Banner.png]] || {{item|mode=image|Wulfrum Metal Scrap}} 1-3 || align=left | <small>Flies around the player and occasionally swoops down to attack. </small>
+|-
+| '''{{item|Wulfrum Gyrator}}'''
+| {{dv|18|36}} || {{dv|15|30}} || 5 || align=right | {{value|0|0|1|15}} || [[File:Wulfrum Gyrator Banner.png]] || {{item|mode=image|Wulfrum Metal Scrap}} 1-2 || align=left | <small>Rolls quickly and jumps towards the player. </small>
+|-
+| '''{{item|Wulfrum Hovercraft}}'''
+| {{dv|20|40}} || {{dv|15|30}} || 4 || align=right | {{value|0|0|1|50}} || [[File:Wulfrum Hovercraft Banner.png]] || {{item|mode=image|Wulfrum Metal Scrap}} 2-3 || align=left | <small>Hovers above the ground and dives downward before charging the player. </small>
+|-
+| '''{{item|Wulfrum Pylon}}'''
+| {{dv|49|98}} || {{dv|16|32}} || 4 || align=right | {{value|0|0|1|50}} || [[File:Wulfrum Pylon Banner.png]] || {{item|mode=image|Wulfrum Metal Scrap}} 2-3<br/> {{item|mode=image|Energy Core}} 1 || align=left | <small>Completely stationary but can supercharge other nearby Wulfrum Enemies<br/>Spawns more often on the outer two thirds of the map.</small>
+|-
+| '''{{item|Wulfrum Rover}}'''
+| {{dv|32|64}} || {{dv|10|20}} || 4 || align=right | {{value|0|0|1|15}} || [[File:Wulfrum Rover Banner.png]] || {{item|mode=image|Wulfrum Metal Scrap}} 1 || align=left | <small>Slides towards the player in order to deal contact damage</small>
+|-
+| '''{{item|Wulfrum Slime}}'''
+| {{dv|12|24}} || {{dv|8|16}} || 2 || align=right | {{value|0|0|0|30}} || [[File:Wulfrum Slime Banner.png]] || {{item|mode=image|Wulfrum Metal Scrap}} 1-2<br/> {{item|mode=image|Gel}} 1-3 || align=left | <small>Surprise attacks the player and jumps after them.</small>
+|}
+
+== Notes ==
+*All Wulfrum enemies can drop 1 [[Energy Core]] if supercharged by a [[Wulfrum Pylon]].
+
+
+== See also ==
+*Common drops [[Wulfrum Metal Scrap]]
+*The Wulfrum Enemies hardmode counterparts, the [[Exo Enemies]]
+
+{{Master Template Characters
+|show-main = yes
+|show-common = yes
+}}
+[[Category:NPCs]]

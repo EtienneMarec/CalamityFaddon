@@ -1,0 +1,98 @@
+{{npc infobox
+| type = NPC
+| environment = Valid house
+| ai = Passive AI
+| life = 250
+| defense = 15
+| knockback = 50
+| image2 = Collector map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+{{NPC}}
+
+The '''Collector''' is an [[NPC]] vendor that is part of the Calamity Mod's crossover with [https://en.wikipedia.org/wiki/Dead_Cells Dead Cells].
+
+The Collector will move into an available NPC house if the following conditions have been met:
+*There is an empty [[tgc:House|house]].
+*[[Skeletron]] has been defeated.
+*The player has entered the deeper dungeon to the depths where voided dungeon enemies can spawn.
+
+When threatened by [[enemies]], he will defend himself with a unique spinning attack. Additionally, he can heal himself to full health by drinking a flask.
+
+== Items sold ==
+{{inventory
+|Swift Sword|{{gc|40}}|After its respective blueprint has been given.
+|Wrenching whip|{{gc|25}}|After its respective blueprint has been given.
+|Hand Hook|{{gc|15}}|After its respective blueprint has been given.
+|Wrecking Ball|{{gc|75}}|After its respective blueprint has been given.
+|Emergency Door|{{gc|30}}|After its respective blueprint has been given.
+|Flint|{{gc|50}}|After its respective blueprint has been given.
+}}
+
+==Turn in blueprint==
+When the player selects the Collector's "Shop" option while possessing a [[Blueprint]] in their inventory, it will automatically be removed from the player's inventory and a new item will be unlocked to buy from him. Once this is done the respective blueprint will stop being able to drop. The Collector has two unique quotes for this interaction:
+
+'''When delivering a blueprint:'''
+*"Excellent! Bring me more of these and I'll let you in on some of my more... experimental items."
+
+'''If no item is unavailable:'''
+*"It seems you've found every unique blueprint. There's nothing left to collect..."
+
+== Names ==
+The Collector lacks a name prefix and will thus will always be referred to as "The Collector" in line with his naming in Dead Cells.
+
+== Quotes ==
+'''While Homeless:'''
+*"There's not much I can do for you without somewhere to keep my equipment."
+*"Unfortunately there are no conveniently present passages here..."
+
+'''Anytime:'''
+*"Go back! Bring me more blueprints!"
+*"Do you like my equipment? Nothing too fancy really, but necessary for an aspiring alchemist"
+*"Well, look who it is..."
+*"Are you familiar with the myth of the... oh, never mind"
+*"Welcome, my friend!"
+
+
+'''During a [[Blood Moon]]:'''
+*"Maybe I'd find some accursed cells in your empty husk..."
+*"Don't be such a cheapskate! Share with your old pal!"
+*"Bring me more, you wretched blob!"
+*"Time for your medicine!"
+
+'''While in [[Space]]:'''
+*"At least this place is somewhat suited for alchemy."
+
+'''If [[Polyphemalus]] has been defeated:'''
+*"To think such an aberration was free to roam the night..."
+
+'''If the [[Wizard]] is present:'''
+*"Glyphs and alchemy are more similar than you'd think."
+
+'''If the [[Brimstone Witch]] is present:'''
+*"I can respect Calamitas' practice, at the very least."
+
+'''If a [[Town Slimes]] or the [[Sloome]] is present:'''
+*"Those round gelatinous things defy explanation... I might try dissecting one"
+
+'''If both a [[Town Slimes]] and [[Goozmarie]] is present:'''
+*"Those round gelatinous things defy explanation... if only she would take her eyes off them for just a moment..."
+
+'''If the [[Agent]] is present:'''
+*"Who? [Name of Agent]? I've never heard of such an individual"
+
+== Trivia ==
+*The Collector is four blocks tall instead of the typical three of players and NPCs.
+*The Collector is meant to be the same collector from Dead Cells.
+**Many of the collector's quotes are based off his lines in Dead cells as well as a secret encounter with him at the end of the game.
+***The Collector's spin attack is based off his unique skill, collector's syringe.
+*The quote after defeating [[Polyphemalus]] is a reference to the boss Conjuctivius.
+*The Collector can be killed despite his healing if attacked by a boss with very high damage or is hit very rapidly.
+**If The Collector is killed, there is a chance the message in chat will instead display "Oh my god! They killed the Collector!" in reference to another rare line from Dead Cells. 
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-npc = yes
+}}

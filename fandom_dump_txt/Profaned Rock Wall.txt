@@ -1,0 +1,29 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| use = 14
+| color = #29191F
+| sell = No value
+| hardmode = yes
+| postml = yes
+}}
+
+'''Profaned Rock Wall''' is a background [[wall]] crafted with [[Profaned Rock]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main   = yes
+| show-walls = yes
+}}
+
+[[Category:Block items]]

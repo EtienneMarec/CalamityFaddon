@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 132
+| mana = 50
+| tooltip = Make it rain
+| knockback = 2
+| velocity = 6
+| rare = 12
+| sell = {{value|0|24}}
+| use = 24
+| stack = 1
+| hardmode = yes
+| postml = yes
+| element1 = Water
+| element2 = Fire
+| element3 = Electricity
+}}
+|{{item drops infobox
+| [[Storm Weaver]]|1|10%
+}}
+}}
+{{dablink|This page is about the [[magic weapon]]. For the [[event]], see [[tgc:Thunderstorm|here]].}}
+'''Thunderstorm''' is a Godseeker Mode [[magic gun]] that drops from [[Storm Weaver]]. When used it will fire a stream of green plasma bullets that explode upon contact with blocks or enemies. Each explosion causes five smaller plasma bullets to rain down within the vicinity of the explosion. Each smaller plasma bullet will do full damage and will pass through blocks for a few seconds. A decorative green circle is also created by the explosion.
+
+{{Modifier|magic}}
+
+== Trivia ==
+*This weapon is a reference to the [https://borderlands.fandom.com/wiki/Storm_(sniper_rifle) Storm] sniper rifle from ''[[wikipedia:Borderlands 2|Borderlands 2]]''.
+*Prior to the [[1.4.5.006]] update, it dropped from [[Aether Valkyrie]]s after [[Providence, the Profaned Goddess]] had been defeated.
+*It was formerly the [[rare variant]] of the [[Plasma Rifle]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Magic guns]]

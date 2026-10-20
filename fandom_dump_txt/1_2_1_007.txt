@@ -1,0 +1,65 @@
+{{Patch infobox
+| image = Cryogen (1.1.5.0948).png
+| patchname = Cryogen Reworks
+| release = 10/4/2017
+}}
+
+The '''1.2.1.007''' update reworked [[Cryogen]] and [[Supreme Calamitas]], along with adding a few weapons.
+
+== Additions ==
+*Added [[Death]].
+*Added [[Anti-materiel Rifle]], [[Aquatic Dissolution]], [[Photoviscerator]], [[Voltaic Climax]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+==== [[Cryogen]] ====
+*Stats:
+**Buffed health from {{dv|12,500|20,000|22,400}} to {{dv|13,500|21,600|24,000}}.
+**Nerfed contact damage from {{dv|65|104|130}} to {{dv|50|80|100}}.
+**Buffed ice bomb damage from {{dv|44|88|125}} to {{dv|50|100|125}}.
+**Buffed phase 5's ice blast damage from {{dv|60|92|115}} to {{dv|70|100|125}}.
+**Nerfed Cryogen's Shield's damage from {{dv|30|60|75}} to {{dv|25|50|62}}.
+*AI:
+**Transitions into its phases at higher percentages of life. From 74%, 52%, 35%, and 10% to 83%, 66%, 49%, and 15%.
+**Now creates ice bombs half as often.
+**Now spawns 8-11 minions per 17% health lost instead of 1-3 per 2% health lost.
+**Lowered chance to shoot ice blasts in phase 3.
+**Phase 4 now exclusively uses its ice shard spread attack instead of exclusively using its ice blast shotgun attack.
+**Phase 4 will now attempt to hover above the player and rain ice shards down on them.
+**Phase 5 can no longer use its ice blast shotgun attack.
+**Phase 6 can no longer use any projectile attacks.
+
+==== [[The Destroyer]] ====
+*Lowered body's defense.
+*Reduced resistance against [[Bee Cloak]], [[Holy Arrow]], [[Star Cloak]], and [[Star Veil]] stars from 83% to 75%.
+*Now sets the piercing of projectiles which pierce 2 or more times to 3 instead of 2.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Now becomes invulnerable when there are 3 [[Cosmic Lantern]]s active instead of 2.
+
+==== [[Supreme Calamitas]] ====
+*The player can no longer steal her life.
+*The player now loses or gains immunity frames depending on how much damage an attack from Supreme Calamitas does.
+*Buffed Brimstone Fireblast damage from {{dv|300|400|420}} to {{dv|400|500|625}}.
+*Buffed Brimstone Hellblast damage in Normal Mode from 360 to 400.
+*Supreme [[Soul Seeker]]s no longer deal contact damage.
+*Lowered the chance for Supreme Soul Seekers to fire a laser.
+*Buffed Supreme Soul Seeker's laser damage from {{dv|224|400|500}} to {{dv|500|600|750}}.
+
+=== Items ===
+*[[Mirror Blade]]'s projectile no longer creates a sound.
+*All Calamity [[Wings]] can now have their appearances on the player toggled with visibility.
+
+=== Other ===
+*Reduced the [[Revengeance Mode]] damage reduction multiplier from 0.5x to 0.4x, and the multiplier in all other modes from 0.6x to 0.5x.
+
+=== Resprites ===
+*Resprited [[Arcanum of the Void]].
+*Resprited [[Astreal Defeat]], [[The Ballista]], [[Brimblade]], [[Brimrose]], [[Brimstone Fury]], [[Burning Sea]], [[Flarefrost Blade]], Mirror Blade, [[Profaned Sword]], [[Terra-cotta]], and [[Vanquisher Arrow]].
+*Resprited [[Bloodstone]], [[Bloodstone Core]], [[Profaned Core]], [[Profaned Shard]], [[Unholy Core]].
+*Resprited Astreal Defeat's arrow. 
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

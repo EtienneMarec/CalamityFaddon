@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 80
+| damagetype = Spy
+| rare = 8
+| stack = 1
+| sell = {{value|0|16}}
+| knockback = 4.5
+| use = 15
+| auto = yes
+| hardmode = yes
+| tooltip = Contrary to its name, it will probably cause an epidemic if used incorrectly<br/>Throws a plagued boomerang that releases plague seekers when it hits tiles or enemies<br/>Stealth strikes cause the boomerang to release plague seekers constantly as it travels
+| debuff = Plague
+| debuffduration = 4 seconds (Boomerang)<br/>3 seconds (Plague seekers)
+| debufftip = You are rotting from the inside
+| debuffchance = 100%
+| velocity = 18
+| element1 = Poison
+| element2 = Slash
+| element3 = Machine
+}}
+
+The '''Epidemic Shredder''' is a craftable [[Hardmode]] [[Spy]] [[boomerang]]. It automatically throws a returning plague disk that pierces five times and inflicts the [[Plague]] [[debuff]]. The disk can bounce on tiles indefinitely until it reaches the player or despawns. The disk also releases homing plague seekers on each bounce and on enemy hits, dealing a quarter of the base damage and inflicting the Plague debuff.
+
+Performing a [[stealth strike]] with the Epidemic Shredder will cause the next disk to release plague seekers as it travels.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Boomerangs]]

@@ -1,0 +1,55 @@
+{{dedicated|DevilSunrise|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 80
+| velocity = 12
+| knockback = 4.5
+| rare = 9
+| sell = {{value|0|16}}
+| stack = 1
+| use = 14
+| auto = yes
+| tooltip = Inundatio ex Laminis<br/>Shoots a water spear that pierces enemies and terrain<br/>Striking enemies summon liquid blades and spears to assault the struck foe
+| hardmode = yes
+| proj = Tenebreus Tides Spear.png
+| projcaption = Tenebreus Tides
+| proj2 = Tenebreus Water Spear.png
+| proj2caption = Tenebreus Water Spear
+| proj3 = Tenebreus Water Blade.png
+| proj3caption = Tenebreus Water Blade
+| debuff = Crush Depth
+| debuffduration = 5 seconds (Main Spear)<br/>3 seconds (Water Spear)<br/>2 seconds (Additional Spear/Sword)
+| debufftip = Aquatic pressure
+| debuffchance = 100%
+| element1 = Dark
+| element2 = Water
+| element3 = Stab
+}}
+
+The '''Tenebreus Tides''' is a craftable [[Hardmode]] [[spear]]. When swung, it launches a water spear that deals 65% of the spear’s damage. When an enemy is struck with the spear or its main projectile, three swords or spears appear around the struck target. The secondary wave of swords and spears deal half the damage of the projectile that spawned them, and will disappear and return to attack an enemy up to two more times before disappearing, similarly to the [[Influx Waver]].
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Tenebreus Tides's water blade projectile only deals 50% damage to [[Astrum Deus]].
+
+== Tips ==
+*Because this weapon's projectiles pierce infinitely, they can be effective on worm enemies.
+
+== Trivia ==
+*'Inundatio ex Laminis' is Latin, and roughly translates to "Flood of Blades".
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

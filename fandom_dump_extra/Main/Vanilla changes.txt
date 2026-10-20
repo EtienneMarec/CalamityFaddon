@@ -1,0 +1,276 @@
+{{tocright}}
+The Calamity Mod changes several aspects and details regarding vanilla Terraria content, ranging from the order in which [[bosses]] can be fought in to which items are sold by [[NPC]]s.
+
+The Calamity Mod also changes multiple vanilla item recipes. To see those, click [[Vanilla item recipes|here]].
+
+The changes listed here occur as long as the Calamity Mod is installed, and are not restricted to any modded difficulty modes. See the [[Revengeance Mode]] or [[Death Mode]] pages for changes that occur exclusively within those modes.
+
+== Starting ==
+In every new player's inventory, there will be a [[Starter Bag]] and [[Revengeance]]. The Starter Bag contains numerous useful items and can be opened to help speed up the beginning of the game. Revengeance, only usable in [[Expert Mode]], will toggle it's respective difficulty mode when used. Inside the Starter Bag are also [[Death]] and [[Malice]], which each activate more challenging difficulty modes that can be toggled on and off, but only while Revengeance Mode is active.
+
+== Progression ==
+The Calamity Mod makes heavy adjustments to the progression of [[Hardmode]], removing many restrictions on the order in which bosses must be fought, and also (if the <code>Early Hardmode Progression Rework</code> [[configuration option]] is enabled) changing the obtainment method of early-Hardmode [[ores]] and [[Hallowed Bar]]s. 
+
+=== Non-linearity ===
+In vanilla Terraria, many Hardmode bosses require other bosses to be defeated before they can be fought, creating a linear sequence of progression. Calamity introduces several means through which bosses can be fought "out of order", which greatly increases the player's choices and freedom during Hardmode.
+
+*[[Life Fruit]]s are available from the start of Hardmode, without the need of defeating a Mechanical Boss.
+*[[Plantera's Bulb]]s can spawn before mechanical bosses are defeated. The [[Portabulb]] is also available to manually summon the boss.
+*The [[Temple Key]] and [[Old Power Cell|a variant of the Lihzahrd Power Cell]] are now craftable with early-Hardmode materials, meaning that [[Plantera]] does not need to be defeated in order to enter the [[Jungle Temple]] and fight the [[Golem]].
+*Using an [[Eidolon Tablet]], dropped by the [[Eidolist]]s found in the [[Abyss]], will summon the [[Lunatic Cultist]] regardless of whether or not the [[Golem]] has been defeated. Eidolists begin spawning as soon as Hardmode begins, meaning that the Lunatic Cultist, the proceeding [[Lunar Events]], and the [[Moon Lord]] can all be fought at any time after defeating the [[Wall of Flesh]].
+
+=== Ores and the Mechanical Bosses ===
+If the <code>Early Hardmode Progression Rework</code> config option is enabled, the unlocking methods of early-Hardmode ores, as well as the Mechanical Bosses' stats, will be dramatically altered:
+*Defeating the [[Wall of Flesh]] will now cause [[Cobalt Ore]] and [[Palladium Ore]] to be spawned in the world and will allow any of the Mechanical Bosses to randomly spawn at night. These effects no longer occur when [[Demon Altar|Demon]]/[[Crimson Altar]]s are destroyed.
+*Crimson and Demon Altars will now drop 10 [[Soul of Night|Souls of Night]] when broken.
+*The [[Pwnhammer]] and [[Hammush]] will now state that Crimson and Demon altars will not spawn ores when broken.
+*[[The Twins]], [[The Destroyer]], and [[Skeletron Prime]] now have dynamic stats and change depending on which Mechanical bosses the player defeats first.
+**If no Mechanical Bosses have been defeated:
+***The Mechanical Boss' base HP and damage are decreased by 20%
+**If one Mechanical Boss has been defeated:
+***The Mechanical Boss' base HP and damage are decreased by 10%
+**If two Mechanical Bosses have been defeated:
+***The Mechanical Boss has no stat adjustments.
+*The first mechanical boss defeated will now cause [[Mythril Ore]] and [[Orichalcum Ore]] to be spawned in the world.
+*The second mechanical boss defeated will now cause [[Adamantite Ore]] and [[Titanium Ore]] to be spawned in the world.
+*The third mechanical boss defeated will now cause [[Hallowed Ore]] to be spawned in the [[Underground Hallow]] [[biome]].
+*All mechanical bosses will drop [[Hallowed Bar]]s once they have all been defeated.
+
+=== Shimmer ===
+[[tgc:Shimmer|Shimmer]] is not acessable in Pre-Hardmode, since calamity removes natural pools of Shimmer from the [[The Aether|Aether]], and gates the liquid behind a ritual that consumes [[Astral Ore]] (A Hardmode resource).
+
+=== Drops ===
+{{ajax|Vanilla changes/Drops|width=100%}}
+
+=== World Generation ===
+*The [[Jungle Temple]]'s generation has been changed to guarantee a large arena to fight the [[Golem]] in.
+*The [[The Aether|Aether]] biome is changed to generate in the sky, rather than underground.
+**The modified version of the biome also generates without [[tgc:Shimmer|Shimmer]].
+
+=== Treasure ===
+The mod generates many structures containing certain items normally exclusive to different points of progression, including hardmode.
+*[[Evil Island]]s will be comprised of the evil biome opposite to the one chosen upon world generation. The corresponding [[tgc:Biome Chest|Biome Chest]]s are on these islands as well.
+*Some [[planetoid]]s contain [[Enchanted Sword Shrine]]s.
+*The [[Ice Bio-center Lab]] generates with either the [[Arctic Diving Gear]], [[Blizzard in a Balloon]] or the [[Frozen Turtle Shell]].
+*The chests in the [[Brimstone Crag]] contain several treasures:
+**Loot previously exclusive to the [[Shadow Chest]]s scattered across [[The Underworld]], making them easier to obtain.
+**The [[Magma Stone]], [[Obsidian Rose]], and the [[Philosopher's Stone]], which were exclusively enemy drops.
+
+== Mechanics ==
+=== Damage ===
+*[[Crystal Bullet]] shards will deal 40% less damage. The damage penalty takes the gun's base damage into account.
+*Hallowed Stars from [[Holy Arrow]]s will deal 30% less damage. The damage penalty takes the bow's base damage into account.
+*The damaging orbs from the [[Spectre armor]] set bonus will deal 30% less damage.
+
+=== [[Defense|Defense and DR]] ===
+[[File:DR Graph.png|right|500px]]
+*Player damage reduction now scales with diminishing returns, with all DR reducing effects (such as Marked and Cursed Inferno) being calculated after it has been scaled.
+**The scaling formula is: 1 - <sup>1</sup>&frasl;<sub>(1 + dr)</sub>
+*The [[Worm Scarf]] only provides a 10% damage reduction instead of 17%. This brings it in line with the [[Bloody Worm Scarf]].
+*The [[Frozen Turtle Shell]] only provides a 15% damage reduction when under 50% health instead of 25%.
+
+{{-}}
+=== Difficulty Indicator ===
+{{item infobox
+| name = Difficulty Indicator
+| image = Difficulty Indicator.gif
+| boxwidth = 210px
+}}
+
+The '''Difficulty Indicator''' is a UI element that is located to the left side of the player's minimap while the player's inventory is open. It holds three rune slots that help to indicate which Calamity Mod world difficulties are currently enabled:
+*If the Difficulty Indicator is empty, it means the world does not have any Calamity Mod difficulties enabled.
+*If the icon is a red skull, it indicates that [[Revengeance Mode]] is currently active.
+*If the icon is a red pentagram, it indicates that [[Death Mode]] is currently active.
+*If the icon is a brain, it indicates that [[Malice Mode]] is currently active.
+
+=== Minions ===
+*Minions are changed to automatically adjust their damage whenever the player's equipment is changed, no longer needing to be re-summoned in order to take effect.
+*All attacks labeled as [[Minions|summon]] will deal 50% less damage if the player is holding a weapon belonging to a different class.
+**Summon attacks will deal 10% greater damage while holding a [[summon weapon]].
+**This effect will not trigger when holding a [[Tool]] or [[Classless weapon]].
+
+=== Modifiers ===
+*Defensive covering [[modifier]]s now also increase damage reduction and gain more defense in Hardmode and Post-Moon Lord, with rarer defense modifiers granting a larger bonus.
+**The '''Hard''' modifier now gives a {{color|0.25%|green}} Damage Reduction and increases defense by {{color|+1|green}} / {{color|+2|green}} once Golem or Moon Lord has been defeated / {{color|+3|green}} once [[Providence]] has been defeated / {{color|+4|green}} once [[The Devourer of Gods]] has been defeated.
+**The '''Guarding''' modifier now gives a {{color|0.5%|green}} Damage Reduction and increases defense by {{color|+2|green}} / {{color|+3|green}} once Wall of Flesh has been defeated / {{color|+4|green}} once Golem has been defeated / {{color|+5|green}} once Moon Lord has been defeated / {{color|+6|green}} once Providence has been defeated / {{color|+7|green}} once [[Polterghast]] has been defeated / {{color|+8|green}} once The Devourer of Gods has been defeated.
+**The '''Armored''' modifier now gives a {{color|0.75%|green}} Damage Reduction and increases defense by {{color|+3|green}} / {{color|+4|green}} once Wall of Flesh has been defeated / {{color|+6|green}} once Golem has been defeated / {{color|+7|green}} once Moon Lord has been defeated / {{color|+9|green}} once Providence has been defeated / {{color|+10|green}} once Polterghast has been defeated / {{color|+12|green}} once The Devourer of Gods has been defeated.
+**The '''Warding''' modifier now gives a {{color|1%|green}} Damage Reduction and increases defense by {{color|+4|green}} / {{color|+6|green}} once Wall of Flesh has been defeated / {{color|+7|green}} once Golem has been defeated / {{color|+8|green}} once Moon Lord has been defeated / {{color|+9|green}} once Providence has been defeated / {{color|+10|green}} once Polterghast has been defeated / {{color|+12|green}} once The Devourer of Gods has been defeated / {{Color|+15|green}} once [[Yharon]] has been defeated.
+
+=== Environment ===
+*In the [[Snow biome|Snow]] and [[Ice biome]]s in [[Expert mode]], the player is inflicted with [[Frozen Lungs]] when submerged in water, draining their breath much faster; however, the water no longer inflicts [[Chilled]] on the player. This feature can also be reverted though editing the configuration options.
+*[[Boulder]] [[traps]] deal less damage ({{dv|140|182|227|261}}), but inflict [[Broken Armor]] for 10 seconds on hit.
+*[[Explosives|Explosive]] traps deal much less damage ({{dv|350|450||517}}), but inflict [[On Fire!]] for 10 seconds.
+*[[Sandstorm]]s cannot occur until the [[Desert Scourge]] is defeated.
+
+=== Velocity-Based Contact Damage ===
+All bosses scale their contact damage based on how fast they are moving relative to their maximum velocity. The process for calculating this is explained below.
+*Each boss is assigned one of two values to be a ''velocity scalar''; either 0.5 or 0.8.
+*The boss's velocity relative to half its maximum velocity is represented as a percentage. If it is greater than half of the maximum velocity, it is set to 100%.
+**For example, if the boss is travelling at 30% of its maximum velocity, the percentage would be 60%. However, if the boss is travelling at 70% of its maximum velocity, the percentage would be 100%, not 140%.
+*The percentage is used to find a number between the previously-assigned velocity scalar and 1.1.
+**For example, a percentage of 75%, with a velocity scalar of 0.5 would return a value exactly 75% of the way between 0.5 and 1.1, which is 0.95.
+*Contact damage is then multiplied by the number found in the previous step.
+
+=== Weak Points ===
+The Calamity Mod introduces a new mechanic known as ''Weak Point''s or ''Weak Spot''s. When an NPC is struck by a projectile in one of its designated weak points, the resulting damage will always be a critical strike. Understanding enemy weak spots is crucial for efficient combat. Identifying and exploiting these weak spots can be the key to overcoming tough adversaries.
+
+== Buffs and Debuffs ==
+*Corrected the [[Daybroken]] [[debuff]]'s tooltip misspelling.
+*The Sandstorm's [[Mighty Wind]] [[debuff]] will be disabled if a [[boss]] is active.
+*The [[Heartreach]] buff now increases the grab range of all healing projectiles by 50%.
+*The [[Chaos State]] debuff now lasts 10 seconds, up from 6 seconds if a boss is alive or an event is currently ongoing, and now prevents the usage of teleporting items like the [[Rod of Discord]] instead of damaging players upon using them.
+**When inflicted by the [[Rod of Harmony]], Chaos State's duration is increased to 15 seconds, and causes the player to deal 30% less damage.
+
+== NPCs ==
+=== Town NPCs ===
+*All [[Town NPCs]] from both Calamity and Vanilla, as well as the [[Eternia Crystal]] are made immune to every debuff.
+*All Town NPCs take 2 times as much damage from all projectiles in Normal mode and 4 times as much in [[Expert mode]]. This is to make them more consistent with the damage the player takes.
+*Clentaminator solutions cost {{sc|5}}, as opposed to the original price of {{sc|25}}.
+*Certain items with different requirements in progression are made alternatively available through Town NPCs.
+*With the exception of the Party Girl, items normally just dropped by certain Town NPCs are now sold by them.
+{{ajax|Town NPCs/Items sold|width=70%}}
+
+=== Enemies & Bosses ===
+*Debuff times in [[Expert Mode]] are no longer doubled. This can be reverted through editing the [[Configuration options]].
+*In Expert Mode, enemies will not spawn in towns. This can be reverted via configuration options.
+* When a boss is alive, the [[Boss Zen]] debuff's effects are applied upon the player.
+*While in [[Pre-Hardmode]], the spawnrate of [[Voodoo Demon]]s is increased.
+*At the beginning of Hardmode, before the player has summoned or fought any boss, all enemies are weaker. In Normal mode, all enemies have 20% less HP and attack damage. In Expert mode, they have 40% less HP and attack damage to compensate for their higher original stats.
+*[[Tomb Crawler]] health is nerfed by 40% while in Pre-Hardmode.
+*[[Dungeon Guardian]] health is nerfed by 90%.
+*The [[Eater of Worlds]] and [[The Destroyer]] take only 1% damage for a few seconds after spawning.
+*The Destroyer's segments take reduced damage from piercing projectiles. Piercing projectile damage is halved.
+*The nail projectiles from the [[Nailhead]] enemy have their damage nerfed by 25%.
+*[[Golem]] enrages if it is fought outside the [[Jungle Temple]].
+*The [[Martian Saucer]] no longer counts as a boss for the purposes of [[Adrenaline]], [[Armageddon]], or Boss Zen effects.
+*[[Duke Fishron]]'s Sharknadoes and Cthulhunadoes take a second before dealing damage.
+*[[Lunatic Cultist]]'s health in Normal Mode and Expert Mode is increased (32,000 to 38,400 / {{expert|40,000 to 48,000}}).
+*Multiplayer scaling of bosses' health is decreased. Calamity takes the boss's health on multiplayer and multiplies it by a scalar to reduce it.
+**For two players, 82% of health is contributed per player, totaling 164% of base (singleplayer) health.
+**For three players, 72% of health is contributed per player, totaling 216% of base health.
+**For four players, 64% of health is contributed per player, totaling 256% of base health.
+**For five players, 57% of health is contributed per player, totaling 285% of base health.
+**For six players, 52% of health is contributed per player, totaling 312% of base health.
+**For seven or more players, health is multiplied by 47% of health is contributed per player, totaling 329% of base health with seven players.
+*The [[Dungeon]] [[Cultist]]s are set to respawn faster.
+*The [[Celestial Pillars]] require {{expert|100}} enemies to be defeated in Expert Mode instead of 150. This can be removed through editing the configuration options.
+*Some bosses drop differing amounts of money.
+**The [[Queen Bee]] drops 5 Gold Coins.
+**[[Skeletron]] drops 7 Gold Coins.
+**[[Duke Fishron]] and the [[Lunatic Cultist]] drop 25 Gold Coins.
+**The [[Moon Lord]] drops 30 Gold Coins.
+*[[tgc:Caster AI|Caster AI]] enemies deal no contact damage.
+*[[Mimic]]s will no longer drop [[Compass]]es.
+*[[Green Jellyfish]] can now spawn during Pre-Hardmode. However, their base damage is reduced to 40 and their defense is reduced to 4.
+**Complementing this, [[Blue Jellyfish]] can now spawn during Hardmode.
+*Several vanilla enemies and bosses are now immune to [[Webbed]]:
+{{ajax|List of slow-immune NPCs|width=35%}}
+
+=== Vanilla Boss Additions ===
+The Calamity Mod changes Vanilla Boss AI in both Revengeance Mode and Death Mode. The changes are summarised below.
+{{ajax|Bosses/Vanilla Boss Additions}}
+
+== Items ==
+=== Armor ===
+*Pre-Hardmode ore armors now increase mining speed, with greater bonuses for more expensive materials. The alternate ores provide a 5% weaker buff compared to their normal counterparts, due to providing extra defense.
+**[[Copper armor]]'s set bonus now increases mining speed by 15%.
+**[[Tin armor]]'s set bonus now increases mining speed by 10%.
+**[[Iron armor]]'s set bonus now increases mining speed by 25%.
+**[[Lead armor]]'s set bonus now increases mining speed by 20%.
+**[[Silver armor]]'s set bonus now increases mining speed by 35%.
+**[[Tungsten armor]]'s set bonus now increases mining speed by 30%.
+**[[Gold armor]]'s set bonus now increases mining speed by 45%.
+**[[Platinum armor]]'s set bonus now increases mining speed by 40%.
+*Some previously classless armors have been modified to grant bonuses to the [[Spy]] class, among other changes.
+**[[Gladiator armor]]:
+***Helmet now grants 3 defense (instead of 2) and increases Spy damage by 3%.
+***Breastplate now grants 5 defense (instead of 3) and increases Spy crit chance by 3%.
+***Leggings now grant 4 defense (instead of 2) and increase Spy projectile velocity by 3%.
+***When a full set is equipped, it grants the player 3 defense and 5% increased Spy damage and 10% increased Spy velocity.
+**[[Obsidian armor]]:
+***Outlaw Hat now increases Spy damage by 3%.
+***Longcoat now increases Spy crit chance by 3%.
+***Pants now increase Spy projectile velocity by 3%.
+***When a full set is equipped, it grants the player 2 defense, 5% increased Spy damage and crit chance, the [[Lava Charm]] effect for 3 seconds, and the [[Obsidian Skull]] effect.
+*[[Hallowed armor]]:
+**Plate Mail now grants 18 defense (instead of 15).
+**Greaves now grant 13 defense (instead of 11).
+** Total defense granted is now 36/55/40 (instead of 31/50/35)
+*[[Eskimo armor]] increases the damage per second of ice-themed debuffs by 50%, reduces contact damage taken from cold enemies and grants immunity to [[Frostburn]] and [[Glacial State]].
+*[[Molten armor]]'s set bonus increases [[true melee]] damage by 20%, provides the [[Lava Charm]] effect for 5 seconds, and the [[Obsidian Skull]] effect.
+*[[Meteor armor]]'s set bonus has been nerfed to reduce the mana usage of the [[Space Gun]] by 50% (instead of 100%).
+*[[Monk armor]] now grants 15% minion damage, 10% melee damage, 10% melee criticial strike chance and 10% melee speed.
+*[[Squire armor]] now grants 3 life regen and 15% melee and minion damage.
+*[[Huntress armor]] and [[Red Riding armor]] now grant 10% minion and ranged damage.
+*[[Apprentice armor]] now grants 5% minion damage and 15% magic critical strike chance.
+*[[Shinobi Infiltrator armor]] now grants 30% minion damage, 10% melee damage, 10% melee criticial strike chance and 10% melee speed.
+*[[Valhalla Knight armor]] now grants 6 life regen and 10% melee and minion damage.
+*[[Dark Artist armor]] now grants 10% minion damage and 15% magic critical strike chance.
+*[[Beetle armor|Beetle Shell]]'s set bonus now makes the player take 10% less damage per beetle orb spawned (instead of 15%).
+*[[Spectre armor|Spectre Hood]] has been buffed to decrease magic damage by 20% (instead of 40%).
+*[[Spectre armor|Spectre Mask]]'s homing projectiles have been nerfed to deal 30% less damage.
+*[[Solar Flare armor]]'s defense is increased to a total of 94, and the dash distance performed by the Solar Blaze is increased.
+*[[Vortex armor]]'s stealth mode only provides 40% ranged damage instead of 80%, and 15% ranged crit instead of 20%.
+*[[Nebula armor]]'s [[Life Nebula|Life]] and [[Damage Nebula|Damage Booster]]s have been nerfed. The effect of the Damage Boosters is halved to increase damage by 7.5%/15%/22.5%. The effect of the Life Boosters is halved.
+*[[Stardust armor|Stardust Plate]] and [[Stardust armor|Leggings]] have their minion slot boosts reduced from 2 to 1, resulting in a net loss of 2 minion slots from the armor.
+
+=== Weapons ===
+The Calamity Mod re-balances a significant amount of vanilla [[weapons]] by buffing or nerfing certain attributes such as damage, granting auto-use, and changing mana costs.
+
+Notably, several melee weapons have had their damage increased significantly.
+{{ajax|Vanilla changes/Weapon balance|width=85%}}
+
+=== Tools ===
+The Calamity Mod re-balances many tools by buffing or nerfing certain attributes such as their respective tool powers, toolspeed, tile boost range or by granting true melee bonuses.
+
+{{ajax|Vanilla changes/Tool balance|width=85%}}
+
+*The [[Rod of Harmony]] now has a variety of different effects that have a 20% chance to occur upon teleportation. 
+
+=== Coverings ===
+*The [[Titan Glove]], [[Power Glove]], [[Mechanical Glove]], or [[Fire Gauntlet]] now boosts [[true melee]] damage by 10%.
+*The Fire Gauntlet's melee speed and damage have been increased from 10% to 14%. Its recipe also has been changed, now requiring an additional 5 [[Scoria Bar]]s to craft.
+*Several vanilla [[wings]] have been given stat boosts.
+**A list of those wing changes can be found [[Wings#Augmented Vanilla Wings|here]].
+*[[Hand Warmer]] increases life regen by 2 while wearing a full set of [[Eskimo armor]].
+*Item's that were exclusive to Expert Mode and above will now drop in Normal Mode.
+
+=== Consumables ===
+*[[tgc:Consumables#Summoning_items|Summoning Items]] for bosses are non-consumable.
+*The [[Warmth Potion]] provides immunity to the [[Chilled]], [[Frozen]], and [[Glacial State]] debuffs. The tooltips of the item and buff have also been changed accordingly to reflect this.
+**Additionally, damage dealt by [[Cryon]]s, [[Angry Dog]]s, [[Ice Clasper]]s, [[Aurora Spirit]]s and [[Cryocore]]s count as cold damage and therefore are resisted by the Warmth Potion.
+*The [[Endurance Potion]] now only provides 5% decreased damage instead of 10%.
+*All [[Flasks]] affect Spy Weapons.
+*[[Bottled Honey]] now gives [[Honey]] Buff for 2 minutes on consumption
+*[[Flask of Party]] affects all projectiles.
+*The [[Invisibility Potion]] grants several boosts while holding certain [[Spy weapons]]:
+**Holding [[Bombs|Spy bombs]] increases Spy weapon projectile velocity by 10%.
+**Holding [[Boomerangs|Spy boomerang]] boosts Spy damage by 10%.
+**Holding a [[dagger]] increases Spy stealth regeneration by 20% even while moving.
+**Holding a [[javelin]] boosts armor penetration by 5.
+**Holding a [[Spiky Balls|spiky ball]] increases Spy critical strike chance by 10%.
+
+=== Other ===
+*[[Gem]]s and [[herbs]] are obtainable through the [[Glimmering Gemfish]] and the [[Stuffed Fish]], respectively.
+*Several vanilla [[crates]] include Calamity-based loot.
+*[[Target Dummy|Target Dummies]] will only be able to be hit when a boss is not alive; this is to prevent abuse of attacks that grant buffs or bonuses to the player.
+*Several vanilla items' tooltips have been changed.
+**Certain coverings, potions, and light pets' tooltips have been changed to reflect their effectiveness in the [[Abyss]].
+**All vanilla wings now display statistics such as horizontal speed, acceleration multiplier, vertical speed and flight time.
+**All vanilla [[hooks]] now display various stats regarding tile reach, launch, and pull velocities.
+**The [[Magic Quiver]]'s tooltip has been changed to say "arrow damage," rather than simply "damage."
+*All items with a max stack size of 99 and all types of [[tgc:Explosives (class)|bombs and dynamite]] are changed to have maximum stack sizes of 999.
+**Additionally, [[Pirate Map]]s and [[Snow Globe]]s can stack up to 20 instead of 1.
+*Certain spawn-modifying items are buffed:
+**[[Water Candle]]s now increase spawn rates by 48.15% and maximum spawn count by 65% from 33% and 50% respectively.
+**[[Battle Potion]]s now increase spawn rates by 150% and maximum spawn count by 140% from 100% and 100% respectively.
+**[[Peace Candle]]s now decrease spawn rates by 30.07% and maximum spawn count by 37% from 23% and 30% respectively.
+**[[Calming Potion]]s now decrease spawn rates by 35.90% and maximum spawn count by 44% from 17% and 20% respectively.
+
+== See Also ==
+*[[Biomes]]
+*[[Events]]
+*[[Vanilla item recipes]]
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

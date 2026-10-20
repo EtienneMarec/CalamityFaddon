@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = ranged
+| damage = 52
+| knockback = 4.5
+| rare = 10
+| sell = {{value|0|20}}
+| use = 23
+| stack = 1
+| velocity = 13
+| tooltip = 50% chance to not consume ammo<br/>Fires a spread of bullets from the gun, above, and below
+| hardmode = yes
+| postml = yes
+| element1 = Stab
+}}
+
+The '''Disseminator''' is a craftable Godseeker Mode [[gun]] and a direct upgrade to the [[Conference Call]]. It fires three shotgun blasts; one is fired from the gun, the second is fired at the cursor from above, and the third is fired at the cursor from below. Unlike the Conclave Crossfire, the extra bullets can pass through tiles.
+
+{{Modifier|ranged}}
+
+[[File:Disseminator (demo).gif|frame|right|Extra bullets are less accurate than the shotgun itself.]]
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon is a reference to the [http://borderlands.fandom.com/wiki/Interfacer Interfacer] weapon from ''[[wikipedia:Borderlands 2|Borderlands 2]]'', and is even referred to as such in the mod's code. However, the firing pattern more closely resembles the firing pattern of the Conference Call weapon from the same game.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

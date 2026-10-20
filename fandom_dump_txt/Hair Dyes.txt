@@ -1,0 +1,54 @@
+{{item infobox
+| boxwidth = 14em
+| imagealt = [[File:Adrenaline Hair Dye.png]] [[File:Rage Hair Dye.png]] [[File:Stealth Hair Dye.png]] [[File:Wing Time Hair Dye.png]]
+| use = 17
+| rare = 2
+| stack = 9999
+| consumable = yes
+}}
+
+'''Hair Dyes''' are [[consumable]] items sold by the [[Stylist]] [[NPC]]. When used, they replace a player's hair color with a dynamic effect. The Calamity Mod currently adds four types of Hair Dyes to the game, all of which can be removed with the [[Hair Dye Remover]].
+
+== Types ==
+See [[Town NPCs/Items sold|here]] for Hair Dye availability conditions.
+
+{|class="terraria lined”
+!Item !!Price !!Sell !!Effect
+|-
+| {{item|Adrenaline Hair Dye|nolink=y}}
+| {{gc|7}} {{sc|50}}
+| {{gc|1}} {{sc|50}}
+| Hair color changes depending on the player’s current [[Adrenaline Meter]].<br/>While the meter is empty, hair is normal, and fades slowly to green as the Adrenaline Meter is built up.
+|-
+| {{item|Rage Hair Dye|nolink=y}}
+| {{gc|7}} {{sc|50}}
+| {{gc|1}} {{sc|50}}
+| Hair color changes depending on the player’s current [[Rage Meter]].<br/>While the meter is empty, hair is normal, and fades slowly to orange as the Rage Meter is built up.
+|-
+| {{item|Stealth Hair Dye|nolink=y}}
+| {{gc|5}}
+| {{gc|1}}
+| Hair color changes depending on the player’s current [[rogue stealth]].<br/>While the meter is empty, hair is normal, and fades slowly to purple as stealth is built up.
+|-
+| {{item|Wing Time Hair Dye|nolink=y}}
+| {{gc|7}} {{sc|50}}
+| {{gc|1}} {{sc|50}}
+| Hair color changes depending on the player’s remaining flight time.<br/>While the player has full flight time, hair is blue, and shifts to normal after flight time is exhausted.
+|}
+
+== Notes ==
+*The Stealth Hair Dye's effect will only show if stealth invisibility is toggled off in the [[configuration options]].
+
+== Tips ==
+*All hair dyes can be used as a secondary way to keep track of meters and the remaining duration of flight time.
+
+== See Also ==
+*List of Calamity [[Dyes]].
+*[[tgc:Hair Dyes|Hair Dyes]] on the Vanilla Wiki.
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}
+[[es:Tintes de pelo]]
+[[zh:染发剂]]

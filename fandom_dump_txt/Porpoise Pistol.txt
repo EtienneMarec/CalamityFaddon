@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = ranged
+| damage = 90
+| knockback = 3.5
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| auto = yes
+| use = 25
+| velocity = 20
+| tooltip = Fires a blue energy blast that bounces
+| hardmode = yes
+| proj = Proporse Bolt.png
+| projcaption = Proporse Bolt
+| element1 = Holy
+}}
+|{{item drops infobox
+| [[Dolphin]] ([[Hardmode]])|1|{{dv|4%|5%}}
+}}
+}}
+
+The '''Porpoise Pistol''' is a [[Hardmode]] [[gun]] that has a chance to drop from [[Dolphin]]s. It fires energy blasts that bounce off blocks and pierce through 2 [[enemies]], ignoring some of their [[immunity frames]].
+
+{{Modifier|ranged}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

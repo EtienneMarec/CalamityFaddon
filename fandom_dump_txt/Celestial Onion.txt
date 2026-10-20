@@ -1,0 +1,34 @@
+{{infobox wrapper
+|{{item infobox
+|type = Potion
+| use = 30
+|stack = 9999
+|tooltip = Alien power pulses inside its layers<br/>Consuming it does something that cannot be reversed
+|rare = 10
+|consumable = yes
+|sell = No value
+|hardmode = yes
+|postml = yes
+}}
+|{{item drops infobox
+| [[Moon Lord]]|1|100%
+}}
+}}
+
+The '''Celestial Onion''' is a [[consumable]] dropped by the [[Moon Lord]]. It permanently gives the player a sixth ({{expert|seventh}}) [[covering]] slot. This effect does not stack and may only be used once per player.
+
+If the player does not have a sixth covering slot yet, the Celestial Onion can be used, and it will grant the sixth covering slot. If in [[Expert Mode]], the seventh slot will not be granted until the player also consumes the [[Demon Heart]].
+
+== Notes ==
+*If the Demon Heart has also been consumed, the seventh slot does not appear in the player's inventory while in Normal Mode, whether there's an item inside it or not.
+*It does nothing if a seventh covering slot (or more) has already been obtained through the use of other mods.
+
+== Trivia ==
+*In previous versions of the mod, the onion toggled the [[Prepare to Die/Cry]] mode instead.
+**Additionally in previous versions of the mod, the slot granted by the Celestial Onion was only functional in Expert Mode worlds, like the one granted by the Demon Heart.
+**In the mod's source files, the onion is referred to as 'MLGRune2' in reference to its previous function.
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+|show-potion = yes
+}}

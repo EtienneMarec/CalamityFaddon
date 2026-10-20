@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| defense = 4
+| stack = 1
+| tooltip = 10% increased movement speed<br/>All Spy weapons inflict venom and spawn clouds on enemy hits<br/>You release a ton of clouds everywhere on hit
+| debuff = Venom
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 4 seconds (On Spy hits)
+| debuff2 = Irradiated
+| debufftip2 = Your skin is burning off
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds (Clouds)
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|7|20}}
+| proj = Corrosive Clouds.gif
+| projcaption = Corrosive Clouds
+| element1 = poison
+| element2 = Radioactive
+}}
+|{{item drops infobox
+| [[Aquatic Scourge]] |1|{{dv|10%|11.11%}}
+}}
+}}
+
+The '''Corrosive Spine''' is a [[Hardmode]] [[covering]] that drops from the [[Aquatic Scourge]]. It increases [[defense]] by 4 and movement speed by 10%. It additionally causes all Spy weapons to inflict the [[Venom]] [[debuff]] and occasionally release green toxic clouds in random directions which inflict the [[Irradiated]] debuff to enemies they hit. For stealth strikes, this effect only triggers for the first five enemies hit. The clouds are also released from the player while their [[immunity frames]] are active.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

@@ -1,0 +1,24 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| stack = 9999
+| rare = 7
+| sell = {{value|0|0|80}}
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Plantera]] | 6-9 / {{expert|8-11}} | 100%
+}}
+}}
+
+'''Living Shards''' are [[Hardmode]] [[crafting materials]] that drop from [[Plantera]], used in the crafting of [[Persistent Augmentations|permanent consumables]], "Terra" [[weapons]], and various [[broadswords]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Living Shard}}
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

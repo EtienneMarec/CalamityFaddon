@@ -1,0 +1,60 @@
+{{Patch infobox
+| image = Jungle Dragon, Yharon (1.1.5.09).png
+| size = 260px
+| patchname = Yharon Changes
+| release = 12/22/2016
+}}
+{{tocright}}
+The '''1.1.6.16''' update added several new features to the [[Jungle Dragon, Yharon]] fight, and added a few new [[items]].
+
+== Additions ==
+*Added [[Abyss Blade]], [[Apoctosis Array]], [[The Burning Sky]], [[Depth Blade]], [[Pandemic]], and [[Terra Lance]]. 
+*Added [[lol]].
+*Added [[Crush Depth]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*Buffed [[The Hive Mind]] phase 1’s Vile Clot damage after the [[Moon Lord]] has been defeated from {{expert|100}} to {{expert|104}}.
+*[[Earth Elemental]] changes:
+**Nerfed its health from {{dv|5000|6000}} to {{dv|4000|4800}}, and its damage from {{dv|55|71}} to {{dv|50|65}}.
+**Decreased its spawnrate.
+**Only one can spawn at a time.
+*[[Jungle Dragon, Yharon]] changes:
+**Buffed health from {{dv|600,000|720,000}} to {{dv|800,000|960,000}}, and his defense from 68 to 130.
+**Buffed flarenado damage from {{dv|330|400}} to {{dv|400|480}}, his infernado damage from {{dv|500|600}} to {{dv|760|960}}, and his Flare Explosion damage from {{dv|180|200}} to {{dv|260|320}}.
+**Now transitions to phases at higher amounts of health.
+**Now becomes invincible during phase transitions.
+**Flarenadoes last for 6.67 seconds instead of 12.
+**Added a new phase where he teleports near the player and becomes invisible, then becomes visible and charges at player.
+**Now creates a burst of high damaging fireballs when defeated.
+**Now gains different boosts based on the damage type of the last projectile to hit him. 
+*Decreased [[Pitbull]]'s spawnrate.
+
+=== [[Items]] ===
+*Nerfed [[Bladecrest Oathsword]]’s damage from 36 to 32.
+*Buffed [[Darklight Greatsword]]’s use time from 28 to 23.
+*[[Deathwind]] now shoots 4-8 lasers instead of 2-4 per shot.
+*Buffed [[Devastation]]’s damage from 90 to 120, and its projectiles now deal 250 damage instead of the weapon’s damage.
+*[[Elemental Lance]] now uses Terra Lance in its recipe instead of [[Starnight Lance]], [[Hellion Flower Spear]], and [[Exsanguination Lance]].
+*[[Excelsus]] now uses 1 [[Influx Waver]], 5 [[Armored Shell]]s, and 6 [[Luminite Bar]]s in its recipe instead of 9 Armored Shells and 8 Luminite Bars, it now also shoots an Influx Beam on swing.
+*Exsanguination Lance’s beam no longer inflicts [[Bleeding]]. <!---10 seconds--->
+*Buffed [[Flarewing Bow]]’s damage from 24 to 26.
+*Buffed [[Galactus Blade]]’s shot speed from 18 to 23.
+*Nerfed [[Gelitic Blade]]’s damage from 38 to 36, and its Gel Wave projectile now pierces 3 times instead of 5.
+*Buffed [[Hellfire Flamberge]]’s damage from 70 to 79, its use time from 31 to 26, and its knockback from 5.5 to 7.5.
+*Buffed [[Ichor Spear]]’s use time from 25 to 19.
+*[[Ion Blaster]]’s projectiles now fade quicker.
+*Buffed [[Magna Striker]]’s damage from 38 to 43.
+*Buffed [[Red Sun]]’s damage from 275 to 375.
+*Changed [[Scorpio]]’s tooltip from “Fires rapid-fire mini rockets” to “Rockets”.
+*Buffed [[Storm Ruler]]’s use time from 29 to 24.
+*Buffed [[Trinity]]’s damage from 50 to 57, its use time from 29 to 24, and it now shoots a spread of 3 bolts instead of 1.
+*Nerfed [[Vortexpopper]]’s damage from 50 to 40.
+
+=== Resprites ===
+*Resprited Excelsus and [[Spectralstorm Cannon]].
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

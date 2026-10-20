@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| damagetype = magic
+| damage = 18
+| knockback = 3.25
+| velocity = 20
+| mana = 20 (primary)<br/>6 (secondary)
+| stack = 1
+| rare = 5
+| sell = {{value|0|4|80}}
+| auto = yes
+| use = 50
+| tooltip = Fires plasma orbs that linger and emit massive explosions<br/>Right click to fire powerful energy beams
+| hardmode = yes
+| proj = SHPB.gif
+| projcaption = SHPB (Super Heated Plasma Ball)
+| element1 = Magic
+| element2 = Machine
+}}
+
+[[File:SHPC (demo).gif|frame|right|SHPC's left and right click attacks.]]
+
+The '''SHPC''' (or '''Soul-Harnessing Plasma Cannon''') is a craftable [[Hardmode]] [[magic gun]]. Its primary fire launches a set of energy balls that explode on impact with walls or enemies, dealing damage repeatedly in a large radius. These projectiles rapidly lose velocity and float in mid-air; if left untouched, they will explode on their own after several seconds. Holding right-click fires a volley of beams with very high velocity and rate of fire, similar to the [[Laser Machinegun]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*[[Aquatic Scourge]] takes only 50% damage from the PPAP's explosions.
+*As its primary fire has a very large radius and gives off a significant amount of light, it can also be used to efficiently light caves and other dark areas.
+*The primary fire is subject to piercing invulnerability, meaning that enemies will take as much damage from standing in one explosion as they would in three. Due to this, its relatively slow rate of fire, and the limited range of its projectiles, the primary fire is often less effective than the secondary fire in open spaces.
+*The PPAP used to be a [[Malice Mode]] exclusive drop from [https://terraria.wiki.gg/wiki/The_Destroyer The Destroyer]. Before that, it used to be a 1% [[Revengeance Mode]] exclusive drop from The Destroyer.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic guns]]

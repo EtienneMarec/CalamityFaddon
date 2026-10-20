@@ -1,0 +1,71 @@
+{{npc infobox
+| type = Burrowing Enemy
+| environment = Frozen Hell
+| ai = Bronze Serpent AI
+| life = {{dv|60,000|80,000||100,000}}
+| knockback = 100
+| money = {{value|0|20}}
+| Demonic Bone Ash|5-7| 100%
+| Cog|20-40| 100%
+| immune1 = Kami Flu
+| immune2 = On Fire!
+| immune3 = Brimstone Flames
+| banner = yes
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| vulnerable1 = Fire
+| vulnerable2 = Holy
+| vulnerable3 = Smash
+| resistant1 = Cold
+| resistant2 = Unholy
+| resistant3 = Machine
+}}
+
+The '''Bronze Serpent''' is a worm-type [[Enemies|Enenmy]] that spawns in [[Frozen Hell]]. It behaves similarly to many other worm-type enemies, burrowing in the direction at the player. Occasionally though, it will stop moving, before releasing damaging steam out from either side of each one of its body segments, before continuing to move again. In [[Expert Mode]], the Bronze Serpent can also launch volleys of plasma lasers from its head at players who are in its line of sight.
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Bronze Serpent Head
+| ai = Worm AI
+| life = {{dv|60,000|80,000||100,000}}
+| damage = {{dv|120|180}} (contact)<br/>{{dv|100|130}} (lasers)
+| defense = 15
+| dr = 15
+| knockback = 100
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound2 = Item_12.wav
+| sound2text = Laser
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Bronze Serpent Body
+| ai = Worm AI
+| life = {{dv|60,000|80,000||100,000}}
+| damage = {{dv|90|120|180}} (contact)<br/>{{dv|50|80}} (steam)
+| defense = 15
+| dr = 15
+| knockback = 100
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = ThanatosVent.wav
+| soundtext = Venting
+}}|{{npc infobox
+| type = Burrowing Enemy
+| name = Bronze Serpent Tail
+| ai = Worm AI
+| life = {{dv|60,000|80,000||100,000}}
+| damage = {{dv|50|70|180}} (contact)
+| defense = 15
+| dr = 15
+| knockback = 100
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+}}
+}}
+
+{{Master Template Characters
+| show-main = yes
+}}

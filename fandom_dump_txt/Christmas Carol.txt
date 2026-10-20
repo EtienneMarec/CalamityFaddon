@@ -1,0 +1,30 @@
+{{addon|Apotheosis and Friends}}
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 205
+| knockback = 10
+| mana = 10
+| use = 13
+| tooltip = Summons a carol bell to support you<br/>Hitting the bell with a whip causes it to unleash a damaging sound pulse
+| rare = 8
+| stack = 1
+| buy = {{gc|80}}
+| sell = {{gc|10}}
+| hardmode = yes
+| element1 = Holy
+| element2 = Cold
+}}
+{{summoned|Carol Bell|type=sentry}}
+
+The '''Christmas Carol''' is a [[Hardmode]] [[sentry]] sold by [[The General]]. It summons a Carol Bell sentry that floats in place. If the player strikes the bell with a whip, it unleashes a circular sound pulse that rapidly damages enemies caught within it. The pulse continuously grows until it reaches a radius of 300 blocks, then fades away.
+
+{{Modifier|summon}}
+
+== Trivia ==
+*The weapon is directly taken from a similar weapon from the Starlight River mod.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-summon = yes
+}}

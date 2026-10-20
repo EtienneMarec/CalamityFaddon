@@ -1,0 +1,102 @@
+{{dedicated|[[The Community]]|Developer}}
+{{item infobox
+| image = Shattered Community.gif
+| type = Covering
+| hardmode = yes
+| postml = yes
+| stack = 1
+| rare = 16
+| sell = {{value|0|40}}
+| tooltip = Ruined by unknowable hatred, it still contains (most of) the power of The Community...<br/>You generate rage over time and rage does not fade away out of combat<br/>Taking damage gives rage, this effect is not hindered by your defensive stats<br/>While Rage Mode is active, taking damage gives only half as much rage<br/>Deal damage with Rage Mode to further empower your wrath<br/>Current level: [LEVEL] (+[BOOST]% Rage Mode damage)<br/>Progress to next level: [PROGRESS RATIO]%<br/>Total Rage Mode damage: [CUMULATIVE DAMAGE DEALT]
+}}
+
+The '''Shattered Community''' is a Godseeker Mode [[covering]]. It is the [[exhumed]] form of [[The Community]]. While equipped, the player’s [[Rage Meter]] no longer depletes when out of combat. The player will also passively gain rage over time, as well as when taking damage. While the Rage Mode [[buff]] is active, the maximum amount of rage increases to 200 units, or 200%. Additionally, the player is provided with various boosts including 5% critical strike chance, 10% damage, 5% [[damage reduction]], 10 [[defense]], 15% flight time, 10% max life, 2 life regen, and 10% movement speed.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Stat Scaling ==
+The Shattered Community has a level mechanic which is based on the amount of damage dealt while the Rage Mode buff is active and the item is equipped. All stats will persist even after the buff runs out, the player dies, or takes the covering off. When level increases, a purple laser beam falls from the sky, followed by a pop-up text {{color|"The Community cracks..."|#ECD1EC}} above the user.
+
+The Shattered Community can be leveled up to a maximum of 25. Each level grants 1% extra damage with the Rage Mode buff. Both the marginal and cumulative damages required to reach each stage are listed below.
+{{collapse top|Click to open|Click to collapse}}
+{| class="terraria sortable lined"
+! Level !! Boost !! Marginal Damage Required !! Total Damage Required
+|-
+| 1 || +1% || 400,000 || 400,000 
+|-
+| 2 || +2% || 800,000 || 1,200,000
+|-
+| 3 || +3% || 1,200,000 || 2,400,000
+|-
+| 4 || +4% || 1,600,000 || 4,000,000
+|-
+| 5 || +5% || 2,000,000 || 6,000,000
+|-
+| 6 || +6% || 2,400,000 || 8,400,000
+|-
+| 7 || +7% || 2,800,000 || 11,200,000
+|-
+| 8 || +8% || 3,200,000 || 14,400,000
+|-
+| 9 || +9% || 3,600,000 || 18,000,000
+|-
+| 10 || +10% || 4,000,000 || 22,000,000
+|-
+| 11 || +11% || 4,400,000 || 26,400,000
+|-
+| 12 || +12% || 4,800,000 || 31,200,000
+|-
+| 13 || +13% || 5,200,000 || 36,400,000
+|-
+| 14 || +14% || 5,600,000 || 42,000,000
+|-
+| 15 || +15% || 6,000,000 || 48,000,000
+|-
+| 16 || +16% || 6,400,000 || 54,400,000
+|-
+| 17 || +17% || 6,800,000 || 61,200,000
+|-
+| 18 || +18% || 7,200,000 || 68,400,000
+|-
+| 19 || +19% || 7,600,000 || 76,000,000
+|-
+| 20 || +20% || 8,000,000 || 84,000,000
+|-
+| 21 || +21% || 8,400,000 || 92,400,000
+|-
+| 22 || +22% || 8,800,000 || 101,200,000
+|-
+| 23 || +23% || 9,200,000 || 110,400,000
+|-
+| 24 || +24% || 9,600,000 || 120,000,000
+|-
+| 25 || +25% || 10,000,000 || 130,000,000
+|}
+{{collapse bottom}}
+
+== Notes ==
+*The amount of rage passively gained per second is 2 units, which also equals to 2% of the full meter.
+*The non-rage stat boosts given by the Shattered Community are identical to those of a fully-powered Community, excluding melee speed and minion knockback, but the life regen boost always applies regardless of condition.
+*The amount of rage gained per hit is the following: <code><sup>True Damage Taken</sup>/<sub>Max Health</sub> * Rage Mode penalty * Max Rage penalty * 80</code>
+**The true damage taken is calculated after damage multipliers, but before defense and damage reduction.
+**Rage Mode penalty is equal to 1 by default, 0.5 if the player has Rage Mode buff.
+**Max Rage penalty is equal to 1 by default, <sup>3</sup>/<sub>(3 + Current Rage/100)</sub> if the player has at least a full meter (100 units) of Rage.
+**For example, if the player were to take 100 damage with 1000 max health, they would gain 8 units of rage. This is reduced to 4 with Rage Mode active, and further reduced to 2.5 if the player has 180 units of rage when taking the hit.
+*If the player has the Shattered Community equipped, they cannot equip [[The Community]] and vice versa.
+
+== Trivia ==
+*This covering actually has a unique rarity but is referred to here as Hot Pink for consistency between items.
+**This unique rarity alternates between dark purple ({{color|#803E80 ●|#803E80}}) and bright pink ({{color|#F569F5 ●|#F569F5}}) colors.
+*Building the [[Rage Meter]] by taking damage was previously the main way of charging it prior to its rework in the [[1.5.0.001]] update, the same update that added this covering.
+*This is the only exhumed item to be a direct upgrade to its base form, as the other exhumed items all have effects that can harm the user as well as enemies.
+
+{{-}}
+{{Exhumed}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

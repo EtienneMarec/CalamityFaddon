@@ -1,0 +1,24 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Bend light around you<br/>Reduces enemy aggression outside of the abyss<br/>Stealth generates 30% faster when standing still and 20% faster while moving
+| sell = {{value|0|0|80}}
+| rare = 3
+| stack = 1
+}}
+
+The '''Mirage Mirror''' is a craftable [[Pre-Hardmode]] [[Spy]] [[covering]]. When equipped the player can build [[Spy stealth]] 30% faster while standing still and 20% faster while moving. Enemy [[aggro]] is also reduced by 200, as long as the player is not within the [[Abyss]] biome.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

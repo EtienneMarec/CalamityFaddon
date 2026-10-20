@@ -1,0 +1,66 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Revengeance mode only}}
+{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = 12% increased summon damage<br/>Minions can slow down and confuse enemies<br/>Minions have a 50% chance to critically hit an enemy for double the damage<br/>After a minion attacks enough times or critically hit an enemy, it will explode<br/>Exploded minions release Gluttonous Worms that inflict Hemophilia and Ichor debuffs<br/>Click an enemy to lightly damage it and cause your minions to target it<br/>'The corrupted gift'
+| debuff = Confused
+| debuffchance = 25%
+| debuffduration = 3 seconds (Minions)
+| debufftip = Movement is reversed
+| debuff2 = Slow
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds (Minions)
+| debufftip2 = Movement speed is reduced
+| debuff3 = Hemophilia
+| debuffchance3 = 100%
+| debuffduration3 = Up to 15 seconds (Bloody Worms)
+| debufftip3 = Your blood is uncontrollably leaking.
+| debuff4 = Ichor
+| debuffchance4 = 100%
+| debuffduration4 = Up to 6 seconds (Ichor Worms)
+| debufftip4 = Defense is reduced by 15
+| rare = 4
+| sell = {{value|0|15}}
+| element1 = Unholy
+| element2 = Stab
+|element3=Smash}}
+
+{| align="right"
+|-
+|{{summoned|Gullet Worm|name=Gluttonous Worm (Blood)|type=minion}}
+|-
+|{{summoned|Ichor Gullet Worm|name=Gluttonous Worm (Ichor)|type=minion}}
+|}
+
+The '''Gift of the Red''' is a craftable [[Hardmode]] [[covering]] that is a direct upgrade to [[Worm Meal]], [[Dread Bone]] and [[Drained Catarachedrae]]. It is the summoner component of [[Edgeterrence]]. While equipped, it provides the following effects:
+
+*12% increased summon damage.
+*[[Minions]] have a 25% chance to inflict the [[Confused]] debuff for 3 seconds and 100% to inflict the [[Slow]] debuff for 2 seconds.
+*Minions have a 50% chance to critically hit an enemy, dealing double the damage.
+* After critically hitting an enemy or attacking 4 times, minions violently explode, leaving 2-3 '''Gluttonous Worms''' minions behind. 
+** Gluttonous Worms are fast ground minions that leave the ground only if needed to reach an enemy or the player. They latch onto the nearest enemy to bite it every half of a second, dealing 100% of the dead minion's damage and piercing up to 5 targets at the same time. Additionally, every 2nd attack, the Gluttonous Worms will inflict debuffs depending on their color. Blood worms inflict the [[Hemophilia]] debuff for 2 seconds, which stacks up to 15 seconds, and the ichor worms inflict the [[Ichor]] debuff for 2 seconds, which stacks up to 6 seconds. After attack an enemy for 3 seconds, the worms will explode, dealing no damage, and the dead minion will reappear.
+*Clicking a target will deal 3 typeless damage to it, which scales with summon damage bonuses, and cause minions to target it.
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used In===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+==Notes==
+* One player can inflict the '''Hemophilia''' debuff only onto 3 enemies.
+*One of the Gluttonous Worms will always be bloody and another one will always be ichor. The third one has a 50% chance to be either bloody, or ichor.
+*There can only be up to 16 Gluttonous Worms present at the same time. 
+**If the minion explodes while there are already too many worms present, it will be instantly resummoned.
+
+*If the Gluttonous Worm will not find a target to latch onto in 7 seconds, it will explode the same way it does after biting an enemy for 3 seconds.
+*[[tgc:Kaleidoscope|Kaleidoscope]]'s tag effect and similar effects will not cause the minion to explode after critically hit.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

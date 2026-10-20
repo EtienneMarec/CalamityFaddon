@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| tooltip = Casts a slow-moving ball of flame
+| damage = 42
+| damagetype = magic
+| mana = 12
+| use = 30
+| knockback = 5.5
+| rare = 3
+| sell = {{value|0|0|80}}
+| auto = yes
+| velocity = 7.5
+| stack = 1
+| type2 = Crafting material
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Slowly losing life
+| proj = Flare Bolt (projectile).png
+| projcaption = Flare Bolt
+| element1 = Fire
+}}
+
+The '''Flare Bolt''' is a craftable [[Pre-Hardmode]] [[spell tome]] that auto-fires a ball of fire that inflicts the [[On Fire!]] [[debuff]]. The projectile travels in a straight line, is unaffected by gravity, emits a dim light, and can damage 3 enemies or bounce off of 3 walls before dissipating.
+
+{{Modifier|magic}}
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

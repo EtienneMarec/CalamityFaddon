@@ -1,0 +1,39 @@
+<includeonly><!--  
+-->{{#ifeq:{{{1}}}|group|<!-- 
+	-->{{#dplvar:set|_npc_infobox:group|{{{3|0}}}}}<!-- 
+	--><li class="caption">{{{2|}}}</li><!-- 
+-->|<!--
+	-->{{#ifexpr:{{#dplvar:_npc_infobox:group}}|<!-- 
+		-->{{#dplvar:set|_npc_infobox:group|{{#expr:{{#dplvar:_npc_infobox:group}}-1}}}}<!-- 
+		-->{{#ifexpr:{{#dplvar:_npc_infobox:group}}|<!-- 
+			--><li><!-- 
+		-->|<!-- 
+			--><li class="group_end"><!-- 
+		-->}}<!-- 
+	-->|<!-- 
+		--><li><!-- 
+	-->}}<!--
+		--><div><!-- 
+			-->{{#ifeq:{{{1}}}|custom|<!--
+				//custom content.
+				-->{{{2|}}}<!-- 
+			-->|<!--
+				//standard mode, item and quantity.
+				-->{{#if:{{#pos:{{{1}}}|Treasure Bag}}|<!-- 
+					-->{{item|{{trim|{{{1}}}}}|{{#explode:{{{1}}}|Treasure Bag|0}}Treasure Bag|note={{#explode:{{{1}}}|Treasure Bag|1}}|wrap=y}}<!-- 
+				-->|<!-- 
+					-->{{item|{{trim|{{{1}}}}}}}<!-- 
+				-->}}<!-- 
+				-->{{#ifeq:{{{2|1}}}|1||<!-- 
+					--><nowiki/> {{nowrap|({{{2|}}})}}<!-- 
+				-->}}<!-- 
+			-->}}<!-- 
+		--></div><!-- 
+		--><div>{{{3|}}}</div><!-- 
+	--></li><!-- 
+-->}}<!--
+--></includeonly><!--
+
+--><noinclude><!--
+-->[[Category:Infobox templates]]<!--
+--></noinclude>

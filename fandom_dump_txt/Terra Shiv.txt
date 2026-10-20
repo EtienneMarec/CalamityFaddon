@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 8
+| sell = {{value|0|16}}
+| damage = 140
+| use = 13
+| velocity = 12
+| knockback = 6.5
+| tooltip = Don't underestimate the power of shivs<br/>Shortflurry attacks shoot out splitting beams that heal and inflict ichor<br/>Melee speed and DR are also boosted by 15%
+| auto = yes
+| stack = 1
+| hardmode = yes
+| proj = Terra Shortbeam.png
+| projcaption = Terra Shortbeam
+| element1 = Poison
+| element2 = Stab
+}}
+
+The '''Terra Shiv''' is a craftable [[Hardmode]] [[shortsword]] that autoswings. On each swing it will fire a green shortsword projectile that will pierce three times before stopping on the fourth enemy. The projectile only moves horizontally to the left or right.
+
+When the weapon's [[Shortstrike]] ability activates, short travelling beams are shot out which split into 3 more beams. These beams inflict [[Ichor (debuff)|Ichor]] for 20 seconds and heal the player for 5 health per hit. The player also gains 15% increased damage reduction and melee speed.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon is the shortsword counterpart to the [[Terra Blade]], and as such, everything in its crafting tree are shortsword equivalents of their Vanilla forms.
+*Despite being a direct upgrade to the [[True Night's Stabber]], the Terra Shiv has noticeably less DPS both when using the swords at melee range and from a distance.
+{{Terra}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]

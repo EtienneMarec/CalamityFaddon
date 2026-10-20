@@ -1,0 +1,28 @@
+{{item infobox
+| type = Tool
+| damagetype = melee
+| pick = 34
+| auto = yes
+| damage = 15
+| knockback = 2
+| use = 19
+| rare = 2
+| stack = 1
+| sell = {{value|0|0|40}}
+| tooltip = How can a fish be used to dig through the ground?<br/>Some questions are best left unanswered.
+| toolspeed = 10
+| element1 = Water
+}}
+
+The '''Spadefish''' is a [[Pre-Hardmode]] [[pickaxe]] that can be [[Fishing|fished up]] in the [[Underground]] Layer with a 2.5% chance. It can mine up to {{item|Gold Ore}} and {{item|Platinum Ore}}. Though it has a very low pickaxe power, its [[mining speed]] is higher than most other pickaxes of its tier.
+
+{{Modifier|harvest}}
+
+== Trivia ==
+*The Spadefish has the lowest pickaxe power of any pickaxe in either vanilla or Calamity, requiring four hits to break a [[Stone Block]].
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category: Pickaxes]]

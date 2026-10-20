@@ -1,0 +1,55 @@
+{{item infobox
+| boxwidth = 26em
+| type = Weapon
+| damage = 251
+| damagetype = Magic
+| knockback = 2
+| stack = 1
+| rare = 13
+| mana = 30
+| sell = {{value|0|28}}
+| auto = yes
+| use = 45
+| velocity = 7
+| tooltip = Fires an energy orb containing the essence of our stratosphere<br/>Up to six of these can be active at a time
+| hardmode = yes
+| postml = yes
+| proj = Stratus Sphere (projectile).gif
+| projcaption = Stratus Sphere
+| proj2 = Crescent.png
+| proj2caption = Crescent
+| image2 = Stratus Sphere Holdout.gif
+| image2caption = Holdout Orb
+| element1 = Magic
+| element2 = Dark
+}}
+
+The '''Stratus Sphere''' is a craftable Godseeker Mode [[magic weapon]]. When used, it fires a massive planetary stratus orb that can pass through tiles. The orb eventually slows down to a stop, then begins releasing sets of 6 crescent blades from itself that function similarly to boomerangs. The orb releases 5 sets of blades before fading away. Up to 6 stratus orbs can be active at a time.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{crafting recipe
+| tool = Ancient Manipulator
+| item1 = Lumenyl
+| amount1 = 5
+| item2 = Ruinous Soul
+| amount2 = 4
+| item3 = Exodium Cluster
+| amount3 = 12
+| item4 = Nebula Arcanum
+}}
+
+
+== Trivia ==
+*The name is a pun on the word "[[wikipedia:Stratosphere|stratosphere]]", a major layer of the Earth's atmosphere.
+*Unlike most weapons, the Stratus Sphere is always held out by the player while it is selected from either the hotbar or the inventory.
+
+[[File:Stratus Sphere (demo).gif|frame|left|Stratus Sphere being used at a [[Target Dummy]].]]
+{{-}}
+{{Stratus}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}

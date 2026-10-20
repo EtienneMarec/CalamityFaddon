@@ -1,0 +1,66 @@
+{| width="100%"
+|<span class="ajaxHide">{{main|Immunity frames}}</span>
+This is a list of all items in the Calamity Mod which use <code>immuneTime</code> to add or reset player immunity frames. A + next to the number represents added immunity frames whereas a lack there of represents immunity frames being set to said amount.
+|}
+{{item/options|mode=table}}
+{| class="terraria sortable lined" style="text-align:center"
+! colspan = 2 | Item
+! width = 325px | Condition
+! <code>immuneTime</code>
+|-
+| {{item|Abyssal Mirror}} || When evading || 60<br/>100 (with Cross Necklace)
+|-
+| {{item|Asgard's Valor}} || When ramming || 6
+|-
+| {{item|Asgardian Aegis}} || When ramming || 6
+|-
+| {{item|Auric Tesla Plumed Helm|note=Set bonus|wrap=y}} || Damage taken is more than 80 || +30
+|-
+| {{item|Celestial Tracers}} || Damage taken is more than 200 || +30
+|-
+| {{item|Counter Scarf}} || When dodging || 60<br/>100 (with Cross Necklace)
+|-
+| {{item|Deific Amulet}} || Damage taken is 1<br/>Damage taken is more than 1 || +5<br/>+10
+|-
+| {{item|Eclipse Mirror}} || When evading || 60<br/>100 (with Cross Necklace)
+|-
+| {{item|Elysian Aegis}} || When ramming || 6
+|-
+| {{item|Evasion Scarf}} || When dodging || 60<br/>100 (with Cross Necklace)
+|-
+| {{item|Exo Gladius}} || On true melee hits || 3
+|-
+| {{item|Fabsol's Vodka}} || Damage taken is 1<br/>Damage taken is more than 1 || +5<br/>+10
+|-
+| {{item|The Final Dawn}} || On launch || 6
+|-
+| {{item|God Slayer armor|note=Set bonus|wrap=y}} || When dodging ||60<br/>100 (with Cross Necklace)
+|-
+| {{item|God Slayer Mask|note=Set bonus|wrap=y}} || Damage taken is more than 80 || +30
+|-
+| {{item|Lucrecia}} || On hits || 5
+|-
+| {{item|Onyx Excavator Key}} || When ramming || 6
+|-
+| {{item|Ornate Shield}} || When ramming || 4
+|-
+| {{item|Phosphorescent Gauntlet}} || On hits || 15
+|-
+| {{item|Plaguebringer armor}} || When ramming || 4
+|-
+| {{item|Princess Spirit in a Bottle}} || When ramming || 6
+|-
+| {{item|Rampart of Deities}} || Damage taken is 1<br/>Damage taken is more than 1 || +5<br/>+10
+|-
+| {{item|Spectral Veil}} || When dodging || 150
+|-
+| {{item|Statigel armor|note=Set bonus|wrap=y}} || Damage taken is more than 100 || +30
+|-
+| {{item|Tarragon Helmet|note=Set bonus|wrap=y}} || After 25 rogue critical strikes || 300 (bypasses Revengeance cap)
+|-
+| {{item|Tundra Leash}} || When ramming || 6
+|-
+|}
+{{item/options|reset}}
+
+[[Category:Game mechanics]]

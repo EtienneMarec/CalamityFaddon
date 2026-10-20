@@ -1,0 +1,111 @@
+{{item infobox
+| name = The Charge Meter
+| image = Charge Bar.gif
+}}
+
+'''Charge''' is a mechanic implemented by [[Seeking Mechanisms]] and most of the [[weapons]] crafted with [[Dubious Plating]] and [[Mysterious Circuitry]]. Items that use this mechanic will display remaining charge in their tooltips. For these items, charge is required and also depleted when used, similarly to [[ammunition]]. Unlike ammunition, it does not directly require an extra inventory slot. The amount of damage on a weapon is dependent on its charge under the equation: <code>Total Damage = Base Damage * 1.087 - 0.08 / (Current Charge / Max Charge + 0.07)</code>
+
+While the amount of charge is displayed on the tooltip as a percentage, charge is actually a number that varies from 0 to 250, depending on the tier and usage of the item. The amount of charge depleted per use is a constant that varies between each item. The amount of charge lost is calculated ''after'' item use, meaning the damage penalty will only apply for the next attack.
+
+Charge can be added to weapons via the [[Charging Station]], by inputting the item into the top slot, and a [[Draedon Power Cell]] at the bottom slot. Each Draedon Power Cell increases the amount of charge by 1 unit and is created every 15 seconds at a player-placed [[Power Cell Factory]].
+
+The amount of charge depleted in one single use and the maximum charge for each item is as follows:
+
+{| class="terraria lined"
+! Items !! Charge per Use !! Max Charge
+|-
+| {{item|Gauss Dagger}}
+| 0.05
+| rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 50
+|-
+| {{item|Pulse Pistol}}
+| 0.05
+|-
+| {{item|Star Swallower Containment Unit}}
+| 0.08
+|-
+| {{item|Taser}}
+| 0.05
+|-
+| style="border-bottom: 1px solid #CCCCCC;" | {{item|Tracking Disk}}
+| style="border-bottom: 1px solid #CCCCCC;" | 0.08
+|-
+| {{item|Frequency Manipulator}}
+| 0.0125
+| rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 85
+|-
+| {{item|Gauss Pistol}}
+| 0.05
+|-
+| {{item|Hydraulic Volt Crasher}}
+| 0.032
+|-
+| {{item|Matter Modulator}}
+| 0.075
+|-
+| style="border-bottom: 1px solid #CCCCCC;" | {{item|Mounted Scanner}}
+| style="border-bottom: 1px solid #CCCCCC;" | 0.85
+|-
+| {{item|Cyan Seeking Mechanism}}
+| rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 15
+| rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 100
+|-
+| {{item|Green Seeking Mechanism}}
+|-
+| {{item|Purple Seeking Mechanism}}
+|-
+| {{item|Red Seeking Mechanism}}
+|-
+| style="border-bottom: 1px solid #CCCCCC;" | {{item|Yellow Seeking Mechanism}}
+|-
+| {{item|Galvanizing Glaive}}
+| 0.075
+| rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 135
+|-
+| {{item|Gatling Laser}}
+| 0.015
+|-
+| {{item|Gauss Rifle}}
+| 0.1125
+|-
+| {{item|Pulse Turret Remote}}
+| 1
+|-
+| style="border-bottom: 1px solid #CCCCCC;" | {{item|System Bane}}
+| style="border-bottom: 1px solid #CCCCCC;" | 0.085
+|-
+| {{item|Heavy Laser Rifle}}
+| 0.125
+| rowspan="5" style="border-bottom: 1px solid #CCCCCC;" | 190
+|-
+| {{item|Plasma Caster}}
+| 0.32 (primary)<br/>0.12 (secondary)
+|-
+| {{item|Pulse Dragon}}
+| 0.32
+|-
+| {{item|Snake Eyes}}
+| 1
+|-
+| style="border-bottom: 1px solid #CCCCCC;" | {{item|Wave Pounder}}
+| style="border-bottom: 1px solid #CCCCCC;" | 0.5
+|-
+| {{item|Phaseslayer}}
+| 0.12
+| rowspan="4" style="border-bottom: 0;" | 250
+|-
+| {{item|Pole Warper}}
+| 1.25
+|-
+| {{item|Pulse Rifle}}
+| 0.3
+|-
+| {{item|Tesla Cannon}}
+| 0.9
+|}
+
+== Notes ==
+*The Gatling Laser, Hydraulic Volt Crasher, and Phaseslayer use 0.0075, 0.002, and 0.005 charge per frame respectively. The values above are equal to the amount of charge used multiplied with the amount of use time of these weapons.
+{{-}}
+{{Game mechanics}}
+[[Category:Game mechanics]]

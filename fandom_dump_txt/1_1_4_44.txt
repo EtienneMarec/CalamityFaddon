@@ -1,0 +1,90 @@
+{{patch infobox
+| image = The Plaguebringer Goliath (1.1.4.44).png
+| patchname = Plaguebringer Goliath Update
+| release = 7/17/2016
+}}
+
+The '''1.1.4.44''' update added [[The Plaguebringer Goliath]], a variety of new [[weapons]] and items, and put buffs on bosses as the game progressed.
+
+== Additions ==
+*Added [[Calamity Eye]], [[The Plaguebringer Goliath]], [[Plaguebringer Shade]], and [[Plague Charger]].
+*Added [[Hellcaster Fragment]], [[Plague Cell Cluster]], [[Shadow Essence]], [[Shadowspec Bar]], and [[Uelibloom Ore]].
+*Added melee variants for [[Eradicator]], [[Flame Scythe]], [[Mangrove Chakram]], [[Royal Knives]], [[Seashell Boomerang]], and [[True Paladin's Hammer]].
+*Added [[Aeries]], [[Animus]], [[Barracuda Gun]], [[Devastation]], [[The Hive]], [[Impaler]], [[Malevolence]], [[Mephetic Sprayer]], [[Pestilent Defiler]], [[Phoenix Blade]], and [[Virulent Katana]].
+*Added [[Infinity Boots]] and [[Toxic Heart]].
+*Added [[Demonshade Breastplate]], [[Demonshade Helm]], and [[Demonshade Greaves]].
+*Added [[Abomination]].
+*Added [[Plague]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*All bosses will now gain boosted stats once the world reaches Hardmode and when the [[Moon Lord]] has been defeated.
+**[[Desert Scourge]] gains a 600% health boost and a 200% damage boost in Hardmode, and an additional 300% health boost and 200% damage boost upon defeating the Moon Lord.
+***Head is set from 0 defense to 10 defense in Hardmode and 25 upon defeating the Moon Lord.
+***Body is set from 8 defense to 20 defense in Hardmode and 45 upon defeating the Moon Lord.
+***Tail is set from 18 defense to 40 defense in Hardmode and 75 upon defeating the Moon Lord.
+**Both forms of the [[Slime God]] gain a 300% health boost and a 200% damage boost in Hardmode, with an additional 300% health boost and 200% damage boost upon defeating the Moon Lord.
+***Phase 1's defense is set from 10 to 25 in Hardmode, and 55 once the Moon Lord has been defeated.
+***Phase 2's Defense is set from 25 to 35 in Hardmode, and 65 once the Moon Lord has been defeated.
+**[[The Devourer of Gods]] gains a 200% health boost and a 200% damage boost once the Moon Lord has been defeated.
+***Head is set from 10 defense to 25.
+***Body is set from 35 defense to 55.
+***Tail is set from 75 defense to 125.
+**[[Calamitas]] phase 1 gains a 300% health boost, a 200% damage boost, and is set from 25 defense to 55 upon defeating the Moon Lord.
+***[[Calamitas]] phase 2 gains a 300% health boost, a 200% damage boost, and is set from 35 defense to 50.
+***[[Cataclysm]] gains a 300% health boost, a 200% damage boost, and is set from 35 defense to 55.
+***[[Catastrophe]] gains a 300% health boost, a 200% damage boost, and is set from 20 defense to 35.
+**[[The Plaguebringer Goliath]] gains a 300% health boost, a 200% damage boost, and is set from 45 defense to 65 upon defeating the Moon Lord.
+***[[Plaguebringer Shade]]s gain a 300% health boost, a 200% damage boost, and are set from 30 defense to 35.
+**All pre-Hardmode vanilla bosses, [[Creeper]]s, and [[Skeletron]]'s hands gain a 300% health boost and a 200% damage boost in Hardmode, with an additional 300% health boost and 200% damage boost upon defeating the Moon Lord.
+**All other vanilla bosses, [[Skeletron Prime]]'s arms, and [[Golem]]'s fists gain a 300% health boost and a 200% damage boost upon defeating the Moon Lord.
+*[[Slime God]] changes:
+**Increased hitbox size.
+**Given a variant of the mine projectile which will linger in place.
+**Now uses custom dust instead of [[King Slime]]'s.
+**Can now spawn during a Hardmode [[Slime Rain]].
+**Now drops [[Healing Potion]]s instead of [[Lesser Healing Potion]]s.
+**[[Crimson Slime Spawn]]s can now drop [[Nazar]].
+*[[The Devourer of Gods]] changes:
+**Now more resistant to explosive and piercing projectiles.
+**Can now spawn while the player is near the [[Nebula Pillar]], and will drop [[Meld Blob]]s if spawned this way.
+**Now drops [[Greater Healing Potion]]s instead of Lesser Healing Potions.
+*[[Desert Scourge]] changes:
+**Now more resistant to explosive and piercing projectiles.
+**Can now spawn in the [[Desert]] once Skeletron has been defeated.
+*[[Calamitas]] changes:
+**Can now spawn during a [[Blood Moon]] or [[Solar Eclipse]] after Golem has been defeated.
+**Now uses "[[Music#Boss 2 Remix|Boss 2 Remix]]" by [https://www.youtube.com/user/silentzorah silentzorah] as its theme.
+**Now drops Greater Healing Potions instead of Lesser Healing Potions.
+*[[Solar Pillar]] enemies now drop Hellcaster Fragments.
+*Post-Plantera [[Dungeon]] enemies now drop Shadow Essences.
+
+=== Items ===
+*All Calamity armors have had their damage, movement speed, and defense boosts decreased.
+*[[Calamity Ring]] now has a chance to rain down brimstone fireballs from the sky when the player is hurt.
+*[[Mana Overloader]] now heals the player when their mana is low.
+*[[Terratomere]]'s projectiles now have greater homing capabilities.
+*[[Nebulous Core]] now spawns homing nebula balls when equipped.
+*[[Ancient Fossil]] can now be crafted with [[Slush Block]]s.
+*[[Royal Knives]] now require 10 [[Luminite Bar]]s and 10 [[Hellcaster Fragment]]s to craft.
+*[[Galactica Blade]] now only requires 5 Luminite Bars to craft.
+*Nerfed [[Calamitas' Inferno]]'s damage from 90 to 80.
+*Nerfed [[Overloaded Blaster]]'s damage from 30 to 22.
+*Nerfed [[Shredder]]'s damage from 25 to 15.
+*Nerfed [[Forbidden Sun]]'s damage. <!---How much?-->
+
+=== Resprites ===
+*Resprited [[Abyssal Warhammer]], [[Darklight Greatsword]], [[Shardlight Pickaxe]], and [[Starnight Lance]].
+*Resprited [[Seabound Staff]]'s Brittle Star minion.
+
+== Fixes ==
+*Fixed a bug where projectiles would gain ludicrous speed when they started homing onto an enemy.
+*[[Aerospec armor]] set bonus tooltip spelling error fixed.
+*[[Gamma Fusillade]]'s projectiles no longer have a chance to stop midair.
+*Fixed a bug with [[Verium Bullet]]s.
+*Slight fixes to [[Staff of the Mechworm]].
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

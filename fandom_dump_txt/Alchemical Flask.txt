@@ -1,0 +1,35 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Inflicts the player with the Plague debuff<br/>2% increased damage
+| sell = {{value|0|12}}
+| rare = 8
+| stack = 1
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffduration = Indefinite (while equipped)
+| debuffchance = 100%
+| hardmode = yes
+| proj = Plaguenade Bee.gif
+| projcaption = Plague Seeker
+}}
+
+The '''Alchemical Flask''' is a craftable [[Hardmode]] [[covering]]. When equipped, the player is inflicted with the [[Plague]] [[debuff]], but their damage is increased by 2%.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*There is little reason to use this item, as the constant health loss generally outweighs the damage boost given.
+**However, with immunity to the Plague debuff, the damage boost can prove valuable for faster weapons.
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[zh:冶金烧瓶]]
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

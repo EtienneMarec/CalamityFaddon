@@ -1,0 +1,28 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| color = #484B7A
+| sell = No value
+| hardmode = yes
+| use = 14
+}}
+
+'''Cryonic Brick Wall''' is a background [[wall]] crafted with [[Cryonic Brick]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+{{Cryonic}}
+{{Master Template Tiles
+| show-main   = yes
+| show-walls = yes
+}}
+[[Category:Block items]]

@@ -1,0 +1,110 @@
+<includeonly><div style="<!-- 
+
+======= type: flexbox and/or flexitem =======
+
+//parameter: {{{1}}}, 'item' for flexitem only (not a flexbox); 'inline' or 'inlinebox' for inline-flexbox; other values for flexbox
+-->{{#switch:{{{1|}}}<!-- 
+	-->|inlinebox|inline=display:-webkit-inline-box;display:-webkit-inline-flex;display:-moz-inline-flex;display:-ms-inline-flexbox;display:inline-flex;<!-- 
+	-->|item=<!-- need nothing
+	-->|#default=display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;<!-- 
+-->}}<!-- 
+
+======= parameters for flexbox =======
+
+-->{{#ifeq:{{{1}}}|item||<!-- only if $type != item
+
+//parameter: wrap, default value is 'wrap'
+-->{{#switch:{{{wrap|}}}<!-- 
+	-->|no|nowrap=-ms-flex-wrap:none;-webkit-flex-wrap:nowrap;-moz-flex-wrap:nowrap;flex-wrap:nowrap;<!-- 
+	-->|#default=-ms-flex-wrap:wrap;-webkit-flex-wrap:wrap;-moz-flex-wrap:wrap;flex-wrap:wrap;<!-- 
+-->}}<!-- 
+
+//paramter: direction, no need to set up default, just left blank to use css default.
+-->{{#switch:{{{direction|}}}<!-- 
+	-->|=<!-- Only if explicitly specified
+	-->|row-reverse=-webkit-box-direction:reverse;-webkit-box-orient:horizontal;-moz-box-direction:reverse;-moz-box-orient:horizontal;-webkit-flex-direction:row-reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;<!--
+	-->|column=-webkit-box-direction:normal;-webkit-box-orient:vertical;-moz-box-direction:normal;-moz-box-orient:vertical;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;<!--
+	-->|column-reverse=-webkit-box-direction:reverse;-webkit-box-orient:vertical;-moz-box-direction:reverse;-moz-box-orient:vertical;-webkit-flex-direction:column-reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;<!--
+	-->|#default=-webkit-box-direction:normal;-webkit-box-orient:horizontal;-moz-box-direction:normal;-moz-box-orient:horizontal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;<!--
+-->}}<!-- 
+
+//paramter: justify, no need to set up default, just left blank to use css default.
+-->{{#switch:{{{justify|}}}|<!-- 
+	-->|=<!-- Only if explicitly specified
+	-->|left|flex-start=-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;-moz-justify-content:flex-start;justify-content:flex-start;<!--
+	-->|right|flex-end=-webkit-box-pack:end;-ms-flex-pack:end;-webkit-justify-content:flex-end;-moz-justify-content:flex-end;justify-content:flex-end;<!--
+	-->|justified|space-between=-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-justify-content:space-between;-moz-justify-content:space-between;justify-content:space-between;<!--
+	-->|space-around=-ms-flex-pack:distribute;-webkit-justify-content:space-around;-moz-justify-content:space-around;justify-content:space-around;<!--
+	-->|#default=-webkit-box-pack:{{{justify|}}};-ms-flex-pack:{{{justify|}}};-webkit-justify-content:{{{justify|}}};-moz-justify-content:{{{justify|}}};justify-content:{{{justify|}}};<!--
+-->}}<!-- 
+
+
+//paramter: alignitems, no need to set up default, just left blank to use css default.
+-->{{#switch:{{{alignitems|}}}<!-- 
+	-->|=<!-- Only if explicitly specified
+	-->|top|flex-start=-webkit-box-align:start;-ms-flex-align:start;-webkit-align-items:flex-start;-moz-align-items:flex-start;align-items:flex-start;<!--
+	-->|bottom|flex-end=-webkit-box-align:end;-ms-flex-align:end;-webkit-align-items:flex-end;-moz-align-items:flex-end;align-items:flex-end;<!--
+	-->|middle=-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-moz-align-items:center;align-items:center;<!--
+	-->|#default=-webkit-box-align:{{{alignitems|}}};-ms-flex-align:{{{alignitems|}}};-webkit-align-items:{{{alignitems|}}};-moz-align-items:{{{alignitems|}}};align-items:{{{alignitems|}}};<!--
+-->}}<!-- 
+
+//paramter: alignlines, no need to set up default, just left blank to use css default.
+-->{{#switch:{{{alignlines|}}}<!-- 
+	-->|=<!-- Only if explicitly specified
+	-->|top|flex-start=-webkit-align-content:flex-start;-ms-flex-line-pack:start;align-content:flex-start;<!--
+	-->|bottom|flex-end=-webkit-align-content:flex-end;-ms-flex-line-pack:end;align-content:flex-end;<!--
+	-->|justified|space-between=-webkit-align-content:space-between;-ms-flex-line-pack:space-between;align-content:space-between;<!--
+	-->|#default=-webkit-align-content:{{{alignlines|}}};-ms-flex-line-pack:{{{alignlines|}}};align-content:{{{alignlines|}}};<!--
+-->}}<!-- 
+
+-->}}<!-- end if $type != item
+======= parameters for flexitem =======
+
+//parameter: order
+-->{{#if:{{{order|}}}|<!-- 
+	-->-webkit-box-ordinal-group:{{#expr:{{{order|}}}+1}};-webkit-order:{{{order|}}};-moz-order:{{{order|}}};-ms-flex-order:{{{order|}}};order:{{{order|}}};<!--
+-->}}<!-- 
+
+//parameter: grow
+-->{{#if:{{{grow|}}}|<!-- 
+	-->-webkit-box-flex:{{{grow|}}};-webkit-flex-grow:{{{grow|}}};-moz-flex-grow:{{{grow|}}};-ms-flex-positive:{{{grow|}}};flex-grow:{{{grow|}}};<!--
+-->}}<!-- 
+
+//parameter: shrink
+-->{{#if:{{{shrink|}}}|<!-- 
+	-->-webkit-flex-shrink:{{{shrink|}}};-moz-flex-shrink:{{{shrink|}}};-ms-flex-negative:{{{shrink|}}};flex-shrink:{{{shrink|}}};<!--
+-->}}<!-- 
+
+//parameter: basis
+-->{{#if:{{{basis|}}}|<!-- 
+	-->-webkit-flex-basis:{{{basis|}}};-moz-flex-basis:{{{basis|}}};-ms-flex-preferred-size:{{{basis|}}};flex-basis:{{{basis|}}};<!--
+-->}}<!-- 
+
+
+//paramter: alignself, no need to set up default, just left blank to use css default.
+-->{{#switch:{{{alignself|}}}<!-- 
+	-->|=<!-- Only if explicitly specified
+	-->|top|flex-start=-ms-flex-item-align:end;-webkit-align-self:flex-start;-moz-align-self:flex-start;align-self:flex-start;<!--
+	-->|bottom|flex-end=-ms-flex-item-align:end;-webkit-align-self:flex-end;-moz-align-self:flex-end;align-self:flex-end;<!--
+	-->|middle=-ms-flex-item-align:center;-webkit-align-self:center;-moz-align-self:center;align-self:center;<!--
+	-->|#default=-ms-flex-item-align:{{{alignself|}}};-webkit-align-self:{{{alignself|}}};-moz-align-self:{{{alignself|}}};align-self:{{{alignself|}}};<!--
+-->}}<!--
+
+======= parameters for general css property or html attribute =======
+
+//parameter: width
+-->{{#if:{{{width|}}}|width:{{{width|}}};}}<!-- 
+
+//parameter: height
+-->{{#if:{{{height|}}}|height:{{{height|}}};}}<!-- 
+
+//paramter: css / style
+-->{{#if:{{{css|{{{style|}}}}}}|{{{css|{{{style|}}}}}};}}<!-- 
+
+//parameter: class arrtibute
+-->"{{#if:{{{cssclass|{{{class|}}}}}}|<nowiki/> class="{{{cssclass|{{{class|}}}}}}"}}<!-- 
+
+//parameter: id arrtibute
+-->{{#if:{{{id|}}}|<nowiki/> id="{{{id|}}}"}}<!-- 
+
+ending tag-->></includeonly><noinclude>Internal template. See [[Template:Flexbox]] for documentation.[[Category:Flexbox templates]]</noinclude>

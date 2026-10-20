@@ -1,0 +1,65 @@
+{{npc infobox
+| type = Flying Enemy
+| environment = Abyss
+| ai = Eidolist AI
+| life = 10,000
+| damage = 0 (contact)<br/>{{element|Magic}} {{dv|80|120|150|180}} (lightning orb and bolts)<br/>{{element|Cold}} {{dv|80|120|150|180}} (ice chunk and spikes)
+| knockback = 100
+| defense = 0
+| banner = yes
+| money = {{gc|1}}
+| custom | {{item|Eidolon Tablet|note=(If the [[Lunar Events]]<br/>are not currently active)|wrap=y}}|25%
+| custom | {{item|Lumenyl|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|8-10|10-14}})|100%
+| custom | {{item|Ectoplasm|note=(After defeating<br/>[[Plantera]])|wrap=y}} (3-5)|100%
+| Lunar Cultist Hood| 1 | 10%
+| Lunar Cultist Robe| 1 | 10%
+| hardmode = yes
+| immuneall = yes
+| debuff = Electrified
+| duration = 2 seconds (Lightning)
+| debuffchance = 100%
+| debufftip = You cannot move
+| debuff2 = Chilled
+| duration2 = 3 seconds (Ice Mist)
+| debuffchance2 = 100%
+| debufftip2 = Your movement speed has been reduced
+| debuff3 = Frozen
+| duration3 = 1.5 seconds (Ice Mist)
+| debuffchance3 = 100%
+| debufftip3 = You can't move!
+| hurt = NPC_Hit_13.wav
+| killed = EidolistDeath.wav
+| sound = Item_8.wav
+| soundtext = Teleport
+| vulnerable1 = Holy
+| vulnerable2 = Poison
+| vulnerable3 = Slash
+| vulnerable4 = Electricity
+| resistant1 = Dark
+| resistant2 = Water
+| resistant3 = Cold
+| resistant4 = Magic
+| resistant5 = Machine
+}}
+
+The '''Eidolist''' is a [[Hardmode]] [[enemy]] that appears in the 3rd layer of the [[Abyss]] and are also summoned by the [[adult Eidolon Wyrm]] during its first four phases.
+
+Eidolists will stay in one place until they are damaged, in which they will attempt to fly towards the player, going through blocks and teleporting periodically. Once provoked, they will release lightning orbs and ice balls that emit ice shards. Both attacks are very similar to those of the [[Lunatic Cultist]].
+
+The lightning inflicts the [[Electrified]] debuff for 2 seconds, and the ice ball and ice shards inflict [[Frozen]] for 1.5 seconds and [[Chilled]] for 3 seconds.
+
+== Notes ==
+*Eidolists do not deal contact damage which opens them up for more aggressive players who struggle to close distance without suffering heavy hits of damage.
+**For this reason, true melee weapons are extremely effective against this enemy.
+*Only one Eidolist can be alive at once.
+
+== Trivia ==
+*Judging by their appearance and behavior, they seem to be a [[Cultist]] partially transformed into an [[Eidolon Wyrm]].
+*Its design used to resemble an old sprite of the Eidolon Wyrm, which was heavily based off of the [https://subnautica.fandom.com/wiki/Ghost_Leviathan Ghost Leviathan] from the aquatic exploration game, ''[[wikipedia:Subnautica|Subnautica]]''.
+*In previous versions of the mod, Eidolists used to spawn in the [[Dungeon]] as well as in the [[Abyss]] in Pre-Hardmode. However, they would not drop the [[Eidolon Tablet]] at this stage of the game.
+
+* Pre-Boss Lunatic Cultist 7 Minute World Record (WORLD RECORD)
+{{Master Template Characters
+|show-main = yes
+|show-hardmode = yes
+}}

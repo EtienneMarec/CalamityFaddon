@@ -1,0 +1,74 @@
+{{dedicated|phantasmagoria|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = magic
+| damage = 32
+| use = 14
+| knockback = 2.75
+| mana = 10
+| velocity = 8
+| tooltip = Fires a random assortment of ocean creatures<br/>'There's no telling how long it was down there... or what lurks inside'
+| stack = 1
+| research = 1
+| auto = yes
+| rare = 7
+| sell = {{value|0|12}}
+| hardmode = yes
+| debuff = Crush Depth
+| debuffchance = 100%
+| debuffduration = 4 seconds (Isopod, Jellyfish, Lamprey, Starfish)
+| debufftip = Aquatic pressure
+| debuff2 = Acid Venom
+| debuffchance2 = 100%
+| debuffduration2 = 6 seconds (Starfish Shard)
+| debufftip2 = Losing life
+| image2 = Hadal Urn Holdout.png
+| image2caption = Hadal Urn
+| sound = Item 103.wav, HadalUrnOpen.wav
+| soundtext = Open
+| sound2 = Item 111.wav
+| sound2text = Fire
+| sound3 = Item 10.wav
+| sound3text = Isopod Death
+| sound4 = Item 42.wav
+| sound4text = Starfish Burst
+| sound5 = HadalUrnClose.wav
+| sound5text = Close
+| element1 = Dark
+| element2 = Water
+}}
+
+The '''Hadal Urn''' is a craftable [[Hardmode]] [[magic weapon]] that is a direct upgrade to the [[Black Anurian]]. When used, the player holds an urn which rapidly releases a spread of three random marine creatures.
+
+{{modifier|magic}}
+
+== Projectile Types ==
+{| class="terraria lined"
+|-
+! colspan=2 style="text-align:center" | Type !! Description
+|-
+| {{item|Abyssal Isopod|mode=table|nolink=y}}
+| Moves very quickly and has 50% increased damage. Pierces or bounces off solid tiles up to three times. Each bounce reduces damage dealt by a factor of 0.8x.
+|-
+| {{item|Mirage Jelly (projectile)|mode=table|ext=gif|nolink=y}}
+| Moves slowly and passes through tiles. Chases after enemies in small waves of movement. Stops moving and emits a small damaging aura when an enemy is in range.
+|-
+| {{item|Sea Lamprey|mode=table|ext=gif|nolink=y}}
+| Sticks onto enemies and constantly damages them. Up to five lampreys can be stuck at a time.
+|-
+| {{item|Marianan Starfish|mode=table|ext=gif|nolink=y}}
+| Bursts into five homing {{item|Starfish Shard|s|nolink=y}} every 0.6 seconds or on hit. Cannot pierce nor pass through solid tiles.
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{HadalUrn}}}}
+
+== Trivia ==
+- This item may be a reference to the story "The Urn Of 100 Poisons" in which 100 poisonous snakes, scorpions and centipedes are placed into a jar and forced to kill each other, and the surviving animal would have a much more potent poison than any in the jar it was put in.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}

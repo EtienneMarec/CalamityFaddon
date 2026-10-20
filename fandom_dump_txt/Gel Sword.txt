@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 14
+| auto = yes
+| use = 29
+| knockback = 5.25
+| stack = 1
+| tooltip = Fires a gel wave that slimes everywhere
+| rare = 4
+| debuff = Slime (debuff)
+| debufftip = You are dripping slime
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| sell = {{value|0|2|40}}
+| velocity = 9
+| proj = Gel Slash.png
+| projcaption = Gel Slash
+| element1 = Slash
+| element2 = Poison
+}}
+The '''Gel Sword''' is a craftable [[Pre-Hardmode]] [[broadsword]]. When swung, it releases a wide wave projectile with both it and the projectile emitting purple slime particles and inflicting the [[Slime (debuff)|Slime]] [[debuff]] upon striking enemies. The projectile pierces once, passes through tiles, and slows down after hitting one enemy. It is possible for the projectile to hit the same enemy twice.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:凝胶波刃]]

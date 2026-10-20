@@ -1,0 +1,80 @@
+{{dedicated|IbanPlay|Developer}}
+{|align=right
+|{{item infobox
+| type = Weapon
+| damage = 1999
+| damagetype = Summon
+| use = 9
+| knockback = 1
+| mana = 200
+| tooltip = Summons a colossal controllable mech<br/>Right click to display the mech's control panel<br/>The panel has 3 configurations, selected using the brackets on the edges of the UI<br/>Each bracket powers 2 out of 3 possible functions, represented by the circular icons.<br/>The bottom left icon miniaturizes the mech to the size of a player, but weakens its weapons.<br/>The bottom right icon is a powerful jet booster which greatly enhances movement.<br/>The top icon is the mech's weaponry. It must be powered in order to attack.<br/>Click the top icon to switch between Regicide, an enormous energy blade, and a powerful Gauss rifle.<br/>Exiting the mount while a boss is alive will temporarily hinder your movement<br/>{{color|Now, make them pay.|#87CEEB}}
+| buff = Andromeda (buff) | bufflink = no
+| bufftip = You're controlling a piece of history
+| debuff = Andromeda Cripple | debufflink = no
+| debufftip = You're slow
+| debuffduration = 6 seconds (Dismount while a boss is alive)
+| stack = 1
+| sell = {{value|0|40}}
+| rare = 16
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Andromeda Deathray.png
+| projcaption = Andromeda Deathray
+| proj2 = Regisword.gif
+| proj2caption = Regicide
+| proj2size = 210px
+| element1 = Magic
+| element2 = Slash
+| element3 = Machine
+}}
+|-
+|
+{| class="terraria" align="right" style="width:18em"
+! colspan="2" | Attack Menu
+|-
+| [[File:Andromeda UI.png|center]]
+|}
+|}
+{{summoned|Andromeda (Large)|minion2=Andromeda (Small)|type=mount}}
+
+The '''Flamsteed Ring''' is a craftable Godseeker Mode [[developer]] [[summon weapon]]. When used, the player is turned into a giant controllable robot. While mounted, most of their weapons are transformed into attacks. The attack type is determined by the top button on the interface, which is summoned by right-clicking while the item is held; the crescent symbol spawns a massive slash from the bot towards the cursor which rapidly hits all targets within the area for 5200 damage, and the cross-hair symbol fires a set of three lasers which deal 4200 damage and pierce infinite enemies. The player can transform into a player-sized version of the bot by clicking the left bracket, which can be transformed back to the large version by clicking the right bracket. While in the small transformation, certain tools such as [[Hooks|Grappling Hooks]] are enabled, the slash's damage is lowered to 1897, and the amount of lasers per fire is reduced to one. Clicking the bottom-right button turns the player into a lightning jet which is controlled by the cursor and transforms the player back into a robot upon tile collision.
+
+Left-clicking while the Flamsteed Ring is held will dismount the player. If the user dismounts while a [[boss]] is alive, they gain the '''Andromeda Cripple''' [[debuff]] , crippling their movement and disabling the use of the item in the duration of the debuff.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The phrase in the tooltip "Now, make them pay." is written in light blue ({{color|#87CEEB ●|#87CEEB}}).
+*[[Summon weapons|Summon]] and [[Classless weapons]] are exempt from transforming into unique mech attacks. However, unlike the [[Profaned Soul Crystal]], mining [[tools]] such as [[pickaxes]] will still be affected.
+*While the player is in the large transformation, their own minimap icon disappears.
+*While the player is in the small transformation, their buff icon is changed to [[File:Andromeda Small buff.png|link=]] and the description is modified to "You're controlling a small piece of history"
+*The damage type and critical strike chance of the attacks are determined by the weapons held.
+**For example, performing a laser attack while holding [[Titan Arm]] deals 4200 melee damage with a 100% chance to critically strike.
+**This also affects class-specific effects such as the [[Elemental Gauntlet]]'s debuffs being inflicted if a melee weapon is held.
+
+== Tips ==
+*Due to the mount's inability to consume [[Spy stealth]] and how the damage calculation works, equipping the [[Eclipse Mirror]] with a full-damage build will result in the highest damage output out of any loadout.
+
+== Trivia ==
+*This weapon actually has a unique rarity, but is referred to here as Hot Pink for consistency between weapons.
+**This unique rarity alternates between blue ({{color|#59E5FF ●|#59E5FF}}) and white ({{color|#FFFFFF ●|#FFFFFF}}) colors.
+*The mount's name and the buff's tooltip are references to a scrapped boss for the mod, which was also known as Andromeda.
+*The item contains several references to the web series ''[[wikipedia:Homestuck|Homestuck]]''.
+**The line in the item's tooltip, "Now, make them pay", is a reference to the page, "Make her pay".
+**Regicide and the ring's design are references to a [https://mspaintadventures.fandom.com/wiki/Bladekind#Regisword sword of a similar name and design], and a ring owned by the character [https://mspaintadventures.fandom.com/wiki/Jack_Noir Jack Noir].
+**The spirograph-shaped firework at the end of the jet attack is a reference to the [https://mspaintadventures.fandom.com/wiki/Gate repeated] [https://mspaintadventures.fandom.com/wiki/The_Reckoning use] of them in the comic.
+*The Flamsteed in the item's name is a reference to Flamsteed designations, the naming system for stars.
+*The recipe's usage of [[Excelsus]] is a reference to MG Excelsus from ''[[wikipedia:Metal_Gear_Rising:_Revengeance|Metal Gear Rising: Revengeance]]'', with both the boss and the transformation being giant robots.
+*In the mod's source files, the transformation is referred to as 'GiantIbanRobotOfDoom'.
+[[File:Flamsteed Ring (demo).gif|frame|left|The Andromeda's different transformations and attacks.]]
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

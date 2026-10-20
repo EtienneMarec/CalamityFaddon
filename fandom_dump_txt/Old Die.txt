@@ -1,0 +1,24 @@
+{{item infobox
+| type = Covering
+| tooltip = Lucky for you, the curse doesn't affect you. Mostly.<br/>Increases the randomness of attack damage
+| buy = {{value|0|40}}
+| sell = {{value|0|0|80}}
+| rare = 3
+| stack = 1
+}}
+
+The '''Old Die''' is a [[Pre-Hardmode]] [[covering]] that can be purchased from the [[Bandit]] for {{gc|40}} at any time. When equipped, the random damage deviation of each attack is increased. The minimum damage that can be rolled is -7.85% damage and the highest damage that can be rolled is +12.05% damage instead of the ±15% damage deviation that vanilla Terraria has. This means that non-[[Spy]] attacks deal 2.1% more damage on average.
+
+If the player is holding a [[Spy weapon]] or wearing a Spy [[Covering]], the damage roll is rolled twice, with the higher damage value of the two becoming the damage increase applied to the weapon. This means that Spy attacks deal 5.42% more damage on average. <!-- For future reference: expected value of the higher of two random samples from the same uniform distribution is the 2/3 mark of that distribution -->
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

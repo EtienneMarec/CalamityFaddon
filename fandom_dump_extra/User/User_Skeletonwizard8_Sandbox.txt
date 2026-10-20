@@ -1,0 +1,14 @@
+Test
+
+{| class="terraria sortable lined"
+! colspan=2 | Name !! <abbr title=Damage>DMG</abbr> !! <abbr title="Use Time">UT</abbr> !! <abbr title=Knockback>KB</abbr> !! <abbr title="Shoot Speed/Velocity">SS</abbr> !! <abbr title="Critical Chance">Crit</abbr> !! Auto !! [[Rarity]] !! <abbr title=Hardmode>HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Legendary items&Weapon items
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦:Melee weapons/dpl}
+| uses = Template:Item infobox
+| mode = userformat
+}}
+|}

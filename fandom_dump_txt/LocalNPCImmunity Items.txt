@@ -1,0 +1,522 @@
+{| width="100%"
+|<span class="ajaxHide">
+{{main|Immunity frames}}
+</span>
+This is a list of all items and their projectiles in the Calamity Mod which use <code>localNPCImmunity</code> to ignore or otherwise modify enemy immunity frames.
+|}
+{{item/options|mode=table}}
+{| class="terraria sortable lined" style="text-align:center"
+! colspan = 2 | Item
+! width = 325px | Projectiles
+! <code>localNPCHitCooldown</code>
+|-
+| {{item|Absolute Zero}} || Dark Ice Projectiles<br/>Frost Explosion || 10<br/>10
+|-
+| {{item|The Absorber}} || Sparks || 10
+|-
+| {{item|Abyss Blade}} || Tridents || 10
+|-
+| {{item|Abyssal Mirror}} || Lumenyl Fluid || -1
+|-
+| {{item|Abyssal Tome}} || Explosions || 10
+|-
+| {{item|Ace's High}} || Spade cards || 4
+|-
+| {{item|Aegis Blade}} || Bolts<br/>Small Explosions<br/>Big Explosions || 10<br/>15<br/>10
+|-
+| {{item|Aerospec armor}} || Valkyrie (Helmet only) || 20
+|-
+| {{item|Alluvion}} || Torrential Arrows<br/>Tornadoes || 1<br/>30
+|-
+| {{item|Alpha Ray}} || Triple-Beams<br/>Y-Beams || 30<br/>100
+|-
+| {{item|The Amalgam}} || Fungal Clump || 10
+|-
+| {{item|Amidias' Spark}} || Sparks || 10
+|-
+| {{item|Apoctosis Array}} || Ion Blasts || 10
+|-
+| {{item|Apotheosis}} || Projections || 1
+|-
+| {{item|Aquatic Discharge}} || Sparks || 10
+|-
+| {{item|Aquatic Dissolution}} || Jets || 8
+|-
+| {{item|Ark of the Ancients}} || Sword Beams || 14
+|-
+| {{item|Ark of the Cosmos}} || Pink Swords<br/>Cyan Swords<br/>Blue Swords<br/>Orange Swords<br/>Stars<br/>Solar Explosions || 6<br/>5<br/>4<br/>3<br/>1<br/>6
+|-
+| {{item|Ark of the Elements}} || Pink Swords<br/>Cyan Swords<br/>Blue Swords<br/>Orange Swords || 6<br/>5<br/>4<br/>3
+|-
+| {{item|Asgardian Aegis}} || Explosions<br/>Eruptions || 4<br/>2
+|-
+| {{item|Astral Scythe}} || Rings || 7
+|-
+| {{item|Ataraxia}} || Large Projectiles<br/>Small Projectiles<br/>Needles || 5<br/>5<br/>3
+|-
+| {{item|Auric Tesla armor}} || Bomb Explosions (Hooded Facemask only)<br/>Bloodflare Bolts (Wire-Hemmed Visage only)<br/>God Slayer Explosions (Wire-Hemmed Visage only)<br/>Phantoms (Space Helmet only)<br/>Mechworm (Space Helmet only)<br/>Crystal Explosions (Space Helmet only) || 2<br/>6<br/>5<br/>10<br/>4<br/>10
+|-
+| {{item|Azathoth}} || Yoyo<br/>Orbs || 1<br/>1
+|-
+| {{item|Ballistic Poison Bomb}} || Clouds || 30
+|-
+| {{item|Banshee Hook}} || Hook<br/>Scythes<br/>Explosions || 2<br/>3<br/>16
+|-
+| {{item|Barinade}} || Bolts || 10
+|-
+| {{item|Barinautical}} || Bolts || 10
+|-
+| {{item|Blast Barrel}} || Barrel<br/>Fire shards || -1<br/>-1
+|-
+| {{item|Blissful Bombardier}} || Rockets || 10
+|-
+| {{item|Blood Clot Staff}} || Blood Clot || 10
+|-
+| {{item|Bloodflare armor}} || Bomb Explosions (Horned Helm only)<br/>Bolts (Horned Mask only) || 2<br/>6
+|-
+| {{item|Bouncing Betty}} || Explosions<br/>Fire Shards || -1<br/>9
+|-
+| {{item|Brimlance}} || Explosions || 20
+|-
+| {{item|Brimstone Sword}} || Explosions || 20
+|-
+| {{item|Briny Baron}} || Typhoons<br/>Razorwind Discs || 8<br/>8
+|-
+| {{item|Calamari's Lament}} || Calamari || 30
+|-
+| {{item|Catastrophe Claymore}} || Projectiles || 10
+|-
+| {{item|Celestial Reaper}} || Scythes and Afterimages || 5
+|-
+| {{item|Celestus}} || Scythes<br/>Blades || 30<br/>40
+|-
+| {{item|Fault Line}} || Explosions || 10
+|-
+| {{item|Chicken Cannon}} || Explosions || 1
+|-
+| {{item|Contagion}} || Balls || 10
+|-
+| {{item|Corroslime Staff}} || Corroslime || 23
+|-
+| {{item|Cosmic Discharge}} || Flail<br/>Explosions || 4<br/>4
+|-
+| {{item|Cosmic Immaterializer}} || Energy Bolts<br/>Exploding Stars|| 10<br/>10
+|-
+| {{item|Cosmilamp}} || Cosmilamp || 24
+|-
+| {{item|Cranium Smasher}} || Disks<br/>Explosions || 15<br/>10
+|-
+| {{item|Crimslime Staff}} || Crimslime || 23
+|-
+| {{item|Crystal Flare Staff}} || Frost Flames || 10
+|-
+| {{item|Daemon's Flame}} || Flame Arrows || 1
+|-
+| {{item|The Dance of Light}} || Split Flames || 1
+|-
+| {{item|Dank Staff}} || Dank Creeper || 10
+|-
+| {{item|Cruel Jewel}} || Beams || 15
+|-
+| {{item|Deathhail Staff}} || Beams || 2
+|-
+| {{item|Deathwind}} || Nebula Shots || 2
+|-
+| {{item|Deific Amulet}} || Stars || 5
+|-
+| {{item|Deific Thunderbolt}} || Lightning Bolts || 10
+|-
+| {{item|Demonshade armor}} || Red Devil's Tridents  || 10
+|-
+| {{item|Devil's Sunrise}} || Slashes<br/>Energy Ball || 5<br/>15
+|-
+| {{item|Divine Retribution}} || Spears || 10
+|-
+| {{item|Dormant Brimseeker}} || Brimseeker || 10
+|-
+| {{item|Draconic Destruction}} || Beams || 1
+|-
+| {{item|Dragon Pow}} || Dragon<br/>Petals<br/>Aquatic Jets || -1<br/>-1<br/>8
+|-
+| {{item|Dragon Rage}} || Explosions || -1
+|-
+| {{item|Dragon's Breath}} || Explosions || 10
+|-
+| {{item|Dreadmine Staff}} || Mines || 10
+|-
+| {{item|Duke's Decapitator}} || Axes || 20
+|-
+| {{item|Eclipse Mirror}} || Mirror Flash || 5
+|-
+| {{item|Eidolic Wail}} || Sound Waves || 2
+|-
+| {{item|Elemental Disk}} || Primary Disks || 6
+|-
+| {{item|Elemental Eruption}} || Flames || 9
+|-
+| {{item|Elemental in a Bottle}} || Elemental/Tornadoes || 20<br/>15 (post-[[Golem]])<br/>10 (Godseeker Mode)<br/>6 (post-[[Devourer of Gods]])<br/>3 (post-[[Yharon]])
+|-
+| {{item|Elemental Lance}} || Spear<br/>Cyan Beams<br/>Blue Beams || 3<br/>6<br/>6
+|-
+| {{item|Elysian Aegis}} || Explosions<br/>Eruptions|| 4<br/>2
+|-
+| {{item|Elysian Arrow}} || Arrows || 10
+|-
+| {{item|Enchanted Axe}} || Main Axe<br/>Magical Axes || 15<br/>-1
+|-
+| {{item|The Enforcer}} || Fireballs || 10
+|-
+| {{item|Eradicator}} || Boomerangs<br/>Lasers || 3<br/>2
+|-
+| {{item|Ethereal Subjugator}} || Beams || 8
+|-
+| {{item|Eutrophic Shank}} || Beams || 10
+|-
+| {{item|Event Horizon}} || Blackhole || 8
+|-
+| {{item|Excelsus}} || Swords<br/>Lasers || 5<br/>2
+|-
+| {{item|Exoblade}} || Beams<br/>Explosions || 10<br/>1
+|-
+| {{item|Eye of Magnus}} || Explosions || 10
+|-
+| {{item|Eye of the Storm}} || Elemental || 20<br/>15 (post-[[Golem]])<br/>10 (Godseeker Mode)<br/>6 (post-[[Devourer of Gods]])<br/>3 (post-[[Yharon]])
+|-
+| {{item|Fabstaff}} || Beams || 0
+|-
+| {{item|Face Melter}} || Quarter Notes<br/>Eighth Notes || 7<br/>5
+|-
+| {{item|Fallen Paladin's Hammer}} || Explosions || 10
+|-
+| {{item|Fantasy Talisman}} || Talisman || -1
+|-
+| {{item|Fate's Reveal}} || Explosions || 10
+|-
+| {{item|Flak Kraken}} || Reticle || 4
+|-
+| {{item|Flameburst Shortsword}} || Explosions || 10
+|-
+| {{item|Forbidden Circlet}} || Mark<br/>Tornadoes || 10<br/>20
+|-
+| {{item|Forbidden Oathblade}} || Projectiles || 30
+|-
+| {{item|Fractured Ark}} || Pink Swords || 6
+|-
+| {{item|Fungal Clump}} || Fungal Clump || 10
+|-
+| {{item|Gacruxian Mollusk}} || Homing Sparks<br/>Homing Snails|| 10<br/>5
+|-
+| {{item|Galactus Blade}} || Comets || 10
+|-
+| {{item|Galaxia}} || Stars<br/>Solar Explosions || 3<br/>6
+|-
+| {{item|Galaxy Smasher}} || Hammers<br/>Lasers || 8<br/>2
+|-
+| {{item|Galvanizing Glaive}} || Gauss Flux<br/>Spear || 14<br/>6
+|-
+| {{item|Gauss Dagger}} || Gauss Flux || 14
+|-
+| {{item|Gauss Rifle}} || Blast and Explosion || 12
+|-
+| {{item|Genisis}} || Beams || 100
+|-
+| {{item|Ghastly Visage}} || Blasts || 4
+|-
+| {{item|Ghoulish Gouger}} || Scythes || 2
+|-
+| {{item|Gilded Proboscis}} || Spear || 1
+|-
+| {{item|Gladiator's Locket}} || Swords || 10<br/>8 ([[Hardmode]])<br/>6 (Post-[[Plantera]])<br/>4 (Godseeker Mode)<br/>2 (Post-[[Devourer of Gods]])
+|-
+| {{item|God Slayer armor}} || Explosions (Visage only)<br/>Phantoms (Horned Helm only)<br/>Mechworm (Horned Helm only) || 5<br/>10<br/>4
+|-
+| {{item|Golden Gun}} || Projectiles || 10
+|-
+| {{item|Grand Guardian}} || Explosions || 5
+|-
+| {{item|Heart of the Elements}} || <br/><br/>Elementals<br/><br/><br/>Brimstone Fireballs || 20<br/>15 (post-[[Golem]])<br/>10 (Godseeker Mode)<br/>6 (post-[[Devourer of Gods]])<br/>3 (post-[[Yharon]])<br/>10
+|-
+| {{item|Heavenly Gale}} || Teal Exo Arrows<br/>Orange Exo Arrows<br/>Tornadoes || 1<br/>10<br/>5
+|-
+| {{item|Helium Flash}} || Explosions || 2
+|-
+| {{item|Hell's Sun}} || Spiky Ball<br/>Exploding Sun || 40<br/>10
+|-
+| {{item|Hide of Astrum Deus}} || Explosions || 5
+|-
+| {{item|The Hive}} || Bee RPGs<br/>Hive Missiles<br/>Goliath Rockets<br/>Hive Bombs || 10<br/>10<br/>10<br/>10
+|-
+| {{item|Holy Fire Bullet}} || Explosions || 10
+|-
+| {{item|Hydraulic Volt Crasher}} || Shock || 12
+|-
+| {{item|Hydrothermic armor}} || Explosions<br/>Geysers (Helm only) || 8<br/>6
+|-
+| {{item|Icy Bullet}} || Bullets || 10
+|-
+| {{item|Impaler}} || Explosions || 10
+|-
+| {{item|Inferna Cutter}} || Explosions || 10
+|-
+| {{item|Ink Bomb}} || Clouds || -1
+|-
+| {{item|Ion Blaster}} || Ion Blasts || 10
+|-
+| {{item|Karasawa}} || Pulses<br/>Explosions || 5<br/>10
+|-
+| {{item|Keelhaul}} || Geysers (Body)<br/>Geysers (Head) || 10<br/>20
+|-
+| {{item|Kelvin Catalyst}} || Stars || 10
+|-
+| {{item|Lacerator}} || Yoyo || 5
+|-
+| {{item|Lashes of Chaos}} || Brimstone Blasts<br/>Explosions || 10<br/>10
+|-
+| {{item|Lazhar}} || Explosions || 10
+|-
+| {{item|Lazinator}} || Lasers || 10
+|-
+| {{item|Lifehunt Scythe}} || Scythes || 4
+|-
+| {{item|Light God's Brilliance}} || Explosions || 3
+|-
+| {{item|Lunic Eye}} || Explosions || 10
+|-
+| {{item|Luxor's Gift}} || Orbs<br/>Bolts<br/>Pendants<br/>Summoned Minion<br/>Scorpions || 10<br/>10<br/>10<br/>10<br/>10
+|-
+| {{item|Mad Alchemist's Cocktail Glove}} || Red Flasks<br/>Blue Clouds<br/>Mega Flasks || 10<br/>30<br/>10
+|-
+| {{item|Magical Conch}} || Hermit Crab || 10
+|-
+| {{item|Malachite}} || Large Kunais<br/>Small Kunais || 10<br/>1
+|-
+| {{item|Mantis Claws}} || Explosions || 10
+|-
+| {{item|Marksman Bow}} || Jester Arrows || 10
+|-
+| {{item|Meteor Fist}} || Fists || 10
+|-
+| {{item|Mineral Mortar}} || Explosions || 10
+|-
+| {{item|Monsoon}} || Tornadoes || 30
+|-
+| {{item|Mortar Round}} || Mortars || 10
+|-
+| {{item|Mourningstar}} || Flail<br/>Explosions || 4<br/>4
+|-
+| {{item|Mounted Scanner}} || Laser || 15
+|-
+| {{item|Navy Fishing Rod}} || Sparks || -1
+|-
+| {{item|Nadir}} || Spear<br/>Essences<br/>Tentacles || 2<br/>4<br/>4
+|-
+| {{item|Nanoblack Reaper}} || Scythes<br/>Blades|| 2<br/>8
+|-
+| {{item|Nebulash}} || Flail<br/>Explosions || 3<br/>8
+|-
+| {{item|Nebulous Core}} || Stardusts || 3
+|-
+| {{item|Neptune's Bounty}} || Thrown Tridents<br/>Descending Tridents || 1<br/>1
+|-
+| {{item|Norfleet}} || Explosions || 10
+|-
+| {{item|The Obliterator}} || Yoyo<br/>Lasers || 3<br/>2
+|-
+| {{item|Omega Blue armor}} || Tentacles || 10
+|-
+| {{item|The Oracle}} || Yoyo<br/>Orbs || 4<br/>-1
+|-
+| {{item|The Pack}} || Missiles || 5
+|-
+| {{item|Pearl God}} || Explosions || 15
+|-
+| {{item|Phaseslayer}} || Beam<br/>Sword || 6<br/>7
+|-
+| {{item|Phoenix Blade}} || Explosions || 10
+|-
+| {{item|Photoviscerator}} || Flames || 5
+|-
+| {{item|Plaguenade}} || Explosions || 10
+|-
+| {{item|Planetary Annihilation}} || Explosions || 10
+|-
+| {{item|Plasma Grenade}} || Main Explosion || -1
+|-
+| {{item|Polaris Parrotfish}} || Boost 3 Explosions || 10
+|-
+| {{item|Pole Warper}} || Minion || 12
+|-
+| {{item|Primordial Ancient}} || Dust Blasts || 2
+|-
+| {{item|Profaned Soul Artifact}} || Guardians || 6 (damage >= 700)<br/>69 (damage = 0)<br/>9 (otherwise)
+|-
+| {{item|Pulse Dragon}} || Electrosphere<br/>Flail || 3<br/>4
+|-
+| {{item|Purge Guzzler}} || Lasers<br/>Explosions || 1<br/>10
+|-
+| {{item|Quagmire}} || Clouds || 30
+|-
+| {{item|Rare Elemental in a Bottle}} || Elemental || 20<br/>15 (post-[[Golem]])<br/>10 (Godseeker Mode)<br/>6 (post-[[Devourer of Gods]])<br/>3 (post-[[Yharon]])
+|-
+| {{item|Realm Ravager}} || Bullets || 10
+|-
+| {{item|The Reaper}} || Scythes || 15
+|-
+| {{item|Reaver armor}} || Rockets (Visage only)<br/>Clouds (Mask only) || 30<br/>30
+|-
+| {{item|Relic of Deliverance}} || Spear || 8
+|-
+| {{item|Rose Stone}} || <br/><br/>Elemental<br/><br/><br/>Fireballs || 20<br/>15 (post-[[Golem]])<br/>10 (Godseeker Mode)<br/>6 (post-[[Devourer of Gods]])<br/>3 (post-[[Yharon]])<br/>10
+|-
+| {{item|Rot Ball}} || Balls || 10
+|-
+| {{item|Rubber Mortar Round}} || Mortars || 10
+|-
+| {{item|Sand Sharknado Staff}} || Mini Sand Sharks || 10
+|-
+| {{item|Sandslasher}} || Shuriken || 16
+|-
+| {{item|Sandstorm|link=Sandstorm (weapon)|image=Sandstorm (weapon).png}} || Bullets || 10
+|-
+| {{item|Vermillion Angel}} || Blasts || 1
+|-
+| {{item|Scorpio}} || Homing Rockets<br/>Big Nukes || 10<br/>10
+|-
+| {{item|Scourge of the Seas}} || Clouds || 30
+|-
+| {{item|SDFMG}} || Rockets || 10
+|-
+| {{item|Sea's Searing}} || Bubbles<br/>Bubble Copies<br/>Water Spout|| 10<br/>-1<br/>30
+|-
+| {{item|Seadragon}} || Rockets || 10
+|-
+| {{item|Seafoam Bomb}} || Explosions<br/>Bubbles || 10<br/>30
+|-
+| {{item|Serpentine}} || Serpents || 20
+|-
+| {{item|Shadowbolt Staff}} || Beams || 4
+|-
+| {{item|Shattered Sun}} || Spears<br/>Copies<br/>Explosions || 15<br/>15<br/>5
+|-
+| {{item|Shellfish Staff}} || Shellfish || 5
+|-
+| {{item|Shifting Sands}} || Explosions || 10
+|-
+| {{item|SHPC}} || Explosions || 10
+|-
+| {{item|Silva armor}} || Crystal Explosions (Helmet only)|| 10
+|-
+| {{item|Sky Stabber}} || Spiky Ball || 30
+|-
+| {{item|Slick Cane}} || Cane || 2
+|-
+| {{item|Spark Spreader}} || Flames || 10
+|-
+| {{item|Solar Flare}} || Yoyo<br/>Explosions|| 5<br/>4
+|-
+| {{item|Soul Edge}} || Souls || 10
+|-
+| {{item|Soul Piercer}} || Beams || 6
+|-
+| {{item|The Sponge}} || Sparks || 10
+|-
+| {{item|Staff of the Mechworm}} || Mechworm || 4
+|-
+| {{item|Starfleet}} || Plasma Blasts || 1
+|-
+| {{item|Starmada}} || Comets<br/>Plasma Blasts || 10<br/>1
+|-
+| {{item|Statigel armor}} || Baby Slime Gods (Hood only) || 23
+|-
+| {{item|Stellar Cannon}} || Explosions || 10
+|-
+| {{item|Storm Ruler}} || Tornadoes || 15
+|-
+| {{item|Stream Gouge}} || Spear || 1
+|-
+| {{item|Subduction Slicer}} || Explosions || 10
+|-
+| {{item|Submarine Shocker}} || Sparks || 10
+|-
+| {{item|Subsuming Vortex}} || Large Vortexes || 4
+|-
+| {{item|Sulphuric Acid Cannon}} || Bubbles<br/>Acid Clouds || 10<br/>6
+|-
+| {{item|Supernova}} || Explosions<br/>Spikes || 0<br/>5
+|-
+| {{item|System Bane}} || Projectile and Lightning || 16
+|-
+| {{item|Swordsplosion}} || Pink Swords<br/>Cyan Swords<br/>Blue Swords<br/>Orange Swords || 6<br/>5<br/>4<br/>3
+|-
+| {{item|Taser}} || Hook || 6
+|-
+| {{item|The Syringe}} || Cinders || 10
+|-
+| {{item|Tarragon Throwing Dart}} || Darts<br/>Thorns || 10<br/>10
+|-
+| {{item|Telluric Glare}} || Arrows || 1
+|-
+| {{item|Terror Blade}} || Beams<br/>Explosions || 3<br/>3
+|-
+| {{item|Thief's Dime}} || Coin || 10
+|-
+| {{item|Time Bolt}} || Knives || 5
+|-
+| {{item|Titanium Shuriken}} || Shurikens || 20
+|-
+| {{item|Tooth Ball}} || Balls || 10
+|-
+| {{item|Totality Breakers}} || Explosions || 30
+|-
+| {{item|The Transformer}} || Sparks || 10
+|-
+| {{item|Triactis' True Paladinian Mage-Hammer of Might}} || Explosions || 1
+|-
+| {{item|True Forbidden Oathblade}} || Projectiles || 30
+|-
+| {{item|True Tyrant's Ultisword}} || Hyper Blades<br/>Sunlight Blades || 4<br/>3
+|-
+| {{item|Typhon's Greed}} || Projectiles || 10
+|-
+| {{item|Ultimus Cleaver}} || Sparks || 4
+|-
+| {{item|Undine's Retribution}} || Spears || 10
+|-
+| {{item|Unstable Granite Core}} || Sparks || 10
+|-
+| {{item|Urchin Flail}} || Urchin || 3
+|-
+| {{item|Utensil Poker}} || Butcher Knife<br/>Carving Fork || 60<br/>30
+|-
+| {{item|Valediction}} || Scythes<br/>Typhoons || 15<br/>10
+|-
+| {{item|Valkyrie Ray}} || Beam || 4
+|-
+| {{item|Venusian Trident}} || Explosions<br/>Cinders || 8<br/>10
+|-
+| {{item|Victide armor}} || Seashells || 10
+|-
+| {{item|Viscera}} || Beams || 5
+|-
+| {{item|Vivid Clarity}} || Explosions<br/>Sky Beams<br/>Small Beams || 0<br/>2<br/>6
+|-
+| {{item|Voidragon}} || Explosions || 1
+|-
+| {{item|Vulcanite Lance}} || Explosions || 10
+|-
+| {{item|The Wand}} || Infernadoes || 1
+|-
+| {{item|Wave Pounder}} || Explosion || 10
+|-
+| {{item|Wind Blade}} || Cyclones || 10
+|-
+| {{item|Wrathwing}} || Thrown Spears<br/>Eruptions || 10<br/>30
+|-
+| {{item|Yharim's Crystal}} || Beams || 2
+|-
+| {{item|Yharon's Kindle Staff}} || Son of Yharon || 1
+|-
+|}
+{{item/options|reset}}
+
+[[Category:Game mechanics]]

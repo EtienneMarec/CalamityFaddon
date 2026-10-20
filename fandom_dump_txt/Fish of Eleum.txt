@@ -1,0 +1,25 @@
+{{item infobox
+| type = Grab bag
+| tooltip = Right click to extract essence
+| stack = 9999
+| consumable = True
+| rare = 2
+| sell = {{value|0|0|10}}
+}}
+
+The '''Fish of Eleum''' is a [[grab bag]]-type [[Fishing|fish]] that can be caught in the [[Snow biome|Snow]] and [[Ice biome]]s during [[Hardmode]] at an 8% chance. When opened, the player will receive between 5 to 10 [[Essence of Eleum|Essences of Eleum]].
+
+== Drops ==
+{| class="terraria"
+! colspan="2" | Anytime
+|-
+! Items !! Amount
+|-
+| {{item|Essence of Eleum}}
+| 5-10
+|}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

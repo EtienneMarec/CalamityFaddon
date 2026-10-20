@@ -1,0 +1,174 @@
+{{item infobox
+| imagebreak = yes
+| type = Armor
+| defense = 113/98/86/80/92
+| proj = Bloodflare Soul.gif
+| projcaption = Bloodflare Soul
+| buff = Blood Frenzy
+| bufftip = Contact damage is reduced and melee stats are greatly increased
+| duration = 5 seconds (15th true melee strike while wearing Mask)
+| debuff = On Fire!
+| debufftip = Slowly losing life
+| debuffchance = 50%
+| debuffduration = 5 seconds (Horned Mask fireballs)
+| debuff2 = Blood Frenzy Cooldown
+| debufftip2 = Your blood frenzy is recharging
+| debuffchance2 = 100%
+| debuffduration2 = 30 seconds (After Blood Frenzy's usage)
+| debuff3 = Bloodflare Soul Cooldown
+| debufftip3 = Your souls are recharging
+| debuffchance3 = 100%
+| debuffduration3 = 30 seconds (After Bloodflare Soul's usage)
+| setbonus = Greatly increases life regen<br/>Enemies below 50% life drop a heart when struck<br/>This Effect has a 5 second cooldown<br/>Enemies killed during a Blood Moon have a much higher chance to drop Blood Orbs<br/><br/> '''Ram Mask''': Enemies are morelikely to target you<br/>True melee strikes will heal you<br/>After striking an enemy 15 times with true melee you will enter a blood frenzy for 5 seconds<br/>During this you will gain 25% increased melee damage, critical strike chance, and contact damage is halved<br/>This effect has a 30 second cooldown<br/><br/> '''Horned Helm''': Press {{key|Armor Set Bonus}} to unleash the lost souls of polterghast <!--Yes, lowercase.--> to destroy your enemies<br/>This effect has a 30 second cooldown<br/>Ranged weapons fire bloodsplosion orbs every 2.5 seconds<br/><br/> '''Hydra Hood''': Magic weapons fire ghostly bolts every 1.67 seconds<br/>Magic critical strikes cause flame explosions every 2 seconds<br/><br/> '''Wyvern Helm''': 50% increased minion damage and +3 max minions<br/>Summons polterghast mines to circle you<br/>At 90% life and above you gain 10% increased minion damage<br/>At 50% life and below you gain 20 defense and 2 life regen<br/><br/> '''Imp Mask''': Being over 80% life boosts your defense by 30 and Spy crit by 5%<br/>Being below 80% life boosts your Spy damage by 10%<br/>Spy critical strikes have a 50% chance to heal you<br/>Spy stealth builds while not attacking and slower while moving, up to a max of 120<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+| rare = 13
+| sell = {{value|0|28|80}} (set)
+|boxwidth = 23em
+}}
+{{summoned|Polterghast Mine|type=minion}}
+
+'''Bloodflare armor''' is a craftable Godseeker Mode [[Covering]] set crafted from [[Bloodstone Core]]s and [[Ruinous Soul]]s. 40 Bloodstone Cores as well as 9 Ruinous Souls are required to craft a set utilizing one headpiece. 84 Bloodstone Cores and 17 Ruinous Souls are needed to make a set including all the headpieces. If the Body Armor, Cuisses, and one of the headpiece varieties are visible (whether equipped or in social slots), the player will have a very faint vibrating shadow behind them.
+
+It consists of the '''Bloodflare Body Armor''' and '''Bloodflare Cuisses''', as well as having five different headpieces suited to each class, being: the '''Bloodflare Ram Mask''', '''Bloodflare Horned Helm''', '''Bloodflare Hydra Hood''', '''Bloodflare Wyvern Helm''', and '''Bloodflare Imp Mask'''. All helmets share a set bonus, but also provide set bonuses specific to their respective class as well.
+
+The '''Bloodflare Body Armor''' gives 35 defense, 12% increased damage, and 8% increased critical strike chance, and +40 max life. It also gives 10 extra life regeneration and +30 defense while submerged in lava. The '''Bloodflare Cuisses''' gives 29 defense, 10% increased damage, 7% increased critical strike chance, and 17% increased movement speed.
+*The '''Bloodflare Ram Mask''' gives 49 defense, 10% increased melee damage and critical strike chance.
+*The '''Bloodflare Horned Helm''' gives 34 defense and 10% increased ranged damage and critical strike chance.
+*The '''Bloodflare Hydra Hood''' gives 22 defense, 10% increased magic damage and critical strike chance, +100 mana, and 17% reduced mana cost.
+*The '''Bloodflare Wyvern Helm''' gives 16 defense and 5% increased minion damage.
+*The '''Bloodflare Imp Mask''' gives 28 defense, 10% increased Spy damage and critical strike chance, and 5% increased movement speed.
+
+== Set Bonuses ==
+Regardless of the headpiece chosen, equipping a full set of Bloodflare armor will provide the following set bonuses:
+*Greatly increased life regeneration (equivalent to the [[Crimson armor]]).
+*Enemies below 50% life will drop a [[heart]] upon being struck every 5 seconds.
+*Enemies killed during a [[Blood Moon]] will have a 50% chance to drop [[Blood Orb]]s upon death.
+
+In addition to the above, each headpiece provides its own class-specific set bonus:
+
+'''Bloodflare Ram Mask:'''
+*+900 to [[Aggro]].
+*Causes true melee strikes to [[Lifesteal|heal]] on hit.
+*Grants the player the [[Blood Frenzy]] [[buff]] for five seconds after landing 15 true melee strikes.
+**This effect has a 30 second [[Blood Frenzy Cooldown|cooldown]].
+*These bonuses only occur hitting enemies that have a damage stat of 5 or higher, with the exception of enemies spawned from [[statues]].
+
+'''Bloodflare Horned Helm:'''
+*Pressing {{key|Armor Set Bonus}} allows the player to unleash sixteen Bloodflare Souls to damage enemies.
+**The souls deal 300 damage and are affected by ranged damage bonuses.
+**This effect has a 30 second [[Bloodflare Soul Cooldown|cooldown]].
+*Ranged weapons fire bloodsplosion orbs every 2.5 seconds.
+**The explosions deal 80% of the weapon's damage and are softcapped at 150 damage.
+
+'''Bloodflare Hydra Hood:'''
+*Magic weapons fire ghostly bolts every 1.67 seconds.
+**Ghostly bolts deal 130% of the attack's damage but are softcapped at 250 damage.
+*Magic critical strikes cause flame explosions every 2 seconds.
+**The fireballs have a 50% chance to inflict [[On Fire!]] for 5 seconds and deal 50% of the damage of the attack that summoned them, though they are softcapped at 120 damage.
+**Fireballs are only generated from enemies that have a damage stat of 5 or higher, with the exception of enemies spawned from statues.
+
+'''Bloodflare Wyvern Helm:'''
+*50% increased minion damage and +3 max minions.
+*Summons three of Polterghast's mines to circle around the player, which explode upon contact with enemies.
+**The Polterghast Mines deal 3500 damage.
+*If the player is at 90% of their life or above, they will gain 10% increased minion damage.
+*If they are at 50% of their life or below, they will gain 20 defense and +2 life regen.
+
+'''Bloodflare Imp Mask:'''
+*Spy critical strikes have a 50% chance to [[lifesteal|heal]] the player.
+**Heals only occur when hitting enemies that have a damage stat of 5 or higher, with the exception of enemies spawned from statues.
+*If the player is above 80% of their life, their defense is boosted by 30 and their Spy critical strike chance is boosted by 5%.
+*If the player is below 80% of their life, their Spy damage will be boosted by 10%.
+*Gives a maximum [[Spy stealth]] of 120.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Bloodflare Body Armor
+| type = Armor
+| type2 = Crafting material
+| defense = 35
+| tooltip = 12% increased damage and 8% increased critical strike chance<br/>You regenerate life quickly and gain +30 defense while in lava<br/>+40 max life
+| body slot = Shirt
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|9|60}}
+}}
+|{{item infobox
+| name = Bloodflare Cuisses
+| type = Armor
+| type2 = Crafting material
+| defense = 29
+| tooltip = 17% increased movement speed, 10% increased damage and 7% increased critical strike chance
+| body slot = Pants
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|7|20}}
+}}
+}}
+
+=== Helmet variants ===
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Bloodflare Ram Mask
+| type = Armor
+| type2 = Crafting material
+| defense = 49
+| tooltip = You can move freely through liquids and have temporary immunity to lava<br/>10% increased melee damage and critical strike chance
+| body slot = Helmet
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|12}}
+}}
+|{{item infobox
+| name = Bloodflare Horned Helm
+| type = Armor
+| type2 = Crafting material
+| defense = 34
+| body slot = Helmet
+| tooltip = You can move freely through liquids and have temporary immunity to lava<br/>10% increased ranged damage and critical strike chance
+| sell = {{value|0|12}}
+}}
+|{{item infobox
+| name = Bloodflare Hydra Hood
+| type = Armor
+| type2 = Crafting material
+| defense = 22
+| body slot = Helmet
+| tooltip = You can move freely through liquids and have temporary immunity to lava<br/>10% increased magic damage and critical strike chance, +100 max mana, and 17% reduced mana usage
+| sell = {{value|0|12}}
+}}
+|{{item infobox
+| name = Bloodflare Wyvern Helm
+| type = Armor
+| type2 = Crafting material
+| defense = 16
+| body slot = Helmet
+| tooltip = You can move freely through liquids and have temporary immunity to lava<br/>5% increased minion damage
+| sell = {{value|0|12}}
+}}
+|{{item infobox
+| name = Bloodflare Imp Mask
+| type = Armor
+| type2 = Crafting material
+| defense = 28
+| body slot = Helmet
+| tooltip = You can move freely through liquids and have temporary immunity to lava<br/>10% increased Spy damage and critical strike chance<br/>5% increased movement speed
+| sell = {{value|0|12}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Bloodflare%|resultnot=Bloodflare Dye}}
+
+=== Used in ===
+{{recipes|ingredient=Bloodflare Ram Mask/Bloodflare Wyvern Helm/Bloodflare Imp Mask/Bloodflare Horned Helm/Bloodflare Hydra Hood/Bloodflare Body Armor/Bloodflare Cuisses}}
+
+== Notes ==
+*[[The Old Duke]] takes only 60% damage from the blood bombs created by the ranged armor's set bonus.
+
+{{Bloodstone}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

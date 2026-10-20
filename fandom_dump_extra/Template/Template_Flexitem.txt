@@ -1,0 +1,13 @@
+{{flexstart|item|<!-- 
+  -->{{#if:{{{order|}}}|{{!}}order={{{order}}}}}<!-- 
+  -->{{#if:{{{grow|}}}|{{!}}grow={{{grow}}}}}<!-- 
+  -->{{#if:{{{shrink|}}}|{{!}}shrink={{{shrink}}}}}<!-- 
+  -->{{#if:{{{basis|}}}|{{!}}basis={{{basis}}}}}<!-- 
+  -->{{#if:{{{alignself|}}}|{{!}}alignself={{{alignself}}}}}<!-- 
+  -->{{#if:{{{width|}}}|{{!}}width={{{width}}}}}<!-- 
+  -->{{#if:{{{height|}}}|{{!}}height={{{height}}}}}<!-- 
+  -->{{#if:{{{css|}}}|{{!}}css={{{css}}}}}<!-- 
+  -->{{#if:{{{style|}}}|{{!}}style={{{style}}}}}<!-- 
+  -->{{#if:{{{cssclass|}}}|{{!}}cssclass={{{cssclass}}}}}<!-- 
+  -->{{#if:{{{id|}}}|{{!}}id={{{id}}}}}<!-- 
+-->}}{{{1|}}}{{flexend}}<noinclude>Internal template. See [[Template:Flexbox]] for documentation.[[Category:Flexbox templates]]</noinclude>

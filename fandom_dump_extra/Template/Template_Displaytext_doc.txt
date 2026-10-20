@@ -1,0 +1,66 @@
+Get display text. Used in templates with link and custom display text. For English, it will do intuitive pluralism process for plural suffixes (s/es/ies).
+
+== Usage ==
+<code><nowiki>{{displaytext|arg1|arg2|lang=<lang>}}</nowiki></code>
+The result text will be auto-translated by {{tl|tr}} (also see [[#L10n note|below]]).
+
+; Unnamed Parameter 1
+Base text (is usually the link)
+
+; Unnamed Parameter 2 (optional)
+Custom display text, or plural suffix (s/es/ies)
+
+; lang (optional)
+Language code for plural process. Default is <code>{{tl|lang}}</code>.
+
+== Examples ==
+{| class="wikitable"
+|-
+! Code !! Result !! Note
+|-
+| <code><nowiki>{{displaytext|Block}}</nowiki></code> || {{displaytext|Block}} || rowspan=4 | Regular
+|-
+| <code><nowiki>{{displaytext|Block|s}}</nowiki></code> || {{displaytext|Block|s}}
+|-
+| <code><nowiki>{{displaytext|Boss|es}}</nowiki></code> || {{displaytext|Boss|es}}
+|-
+| <code><nowiki>{{displaytext|Butterfly|ies}}</nowiki></code> || {{displaytext|Butterfly|ies}}
+|-
+| <code><nowiki>{{displaytext|  Boss  |  es  }}</nowiki></code> || {{displaytext|  Boss  |  es  }} || Spaces will be ignored.
+|-
+| <code><nowiki>{{displaytext|Boss|s}}</nowiki></code> || {{displaytext|Boss|s}} || rowspan = 10 | ''Smart'' process for "s"
+|-
+| <code><nowiki>{{displaytext|Cash|s}}</nowiki></code> || {{displaytext|Cash|s}}
+|-
+| <code><nowiki>{{displaytext|Watch|s}}</nowiki></code> || {{displaytext|Watch|s}}
+|-
+| <code><nowiki>{{displaytext|Box|s}}</nowiki></code> || {{displaytext|Box|s}}
+|-
+| <code><nowiki>{{displaytext|Butterfly|s}}</nowiki></code> || {{displaytext|Butterfly|s}}
+|-
+| <code><nowiki>{{displaytext|Mouse|s}}</nowiki></code> || {{displaytext|Mouse|s}}
+|-
+| <code><nowiki>{{displaytext|Leaf|s}}</nowiki></code> || {{displaytext|Leaf|s}}
+|-
+| <code><nowiki>{{displaytext|Staff|s}}</nowiki></code> || {{displaytext|Staff|s}}
+|-
+| <code><nowiki>{{displaytext|Knife|s}}</nowiki></code> || {{displaytext|Knife|s}} <!-- test case for -fe words. -->
+|-
+| <code><nowiki>{{displaytext|Campfire|s}}</nowiki></code> || {{displaytext|Campfire|s}} <!-- test case for other -e words. -->
+|-
+| <code><nowiki>{{displaytext|Gold Table|Golden}}</nowiki></code> || {{displaytext|Gold Table|Golden}} || Custom display text
+|-
+| <code><nowiki>{{displaytext|Draedon's Forge|s|lang=ko}}</nowiki></code> || {{displaytext|Draedon's Forge|s|lang=ko}} || i18n support.
+|}
+
+== L10n note ==
+This template is designed to work with auto translation, therefore, for non-English languages, it should be able to recognize English plural suffixes, and not treat them as custom text, even if they are not plural suffixes in the target language. Auto translation can be turned off in the code of the template.
+
+For example, for English, <code><nowiki>{{displaytext|Moon Lord|s}}</nowiki></code> will output <code>Moon Lords</code>, while for Chinese (zh), <code><nowiki>{{displaytext|Moon Lord|s}}</nowiki></code> will/should output <code>月亮领主</code> (auto-translated) or <code>Moon Lord</code> (if it cannot be auto-translated) instead of <code>s</code> only (there is no plural form grammar in Chinese, but {{tl|displaytext}} will recognize "s" as plural suffix and ignore it instead of displaying it as custom text).
+
+<includeonly>
+[[Category:Templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

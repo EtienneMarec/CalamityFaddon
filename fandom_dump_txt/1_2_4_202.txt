@@ -1,0 +1,26 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Worldgen Hotfixes
+| release = 1/19/2018
+}}
+
+The '''1.2.4.202''' update fixed some world generation issues regarding the new world generation added in [[1.2.4.201]].
+
+== Additions ==
+*Added [[Zen Potion]].
+*Added [[Zen]].
+
+== Changes ==
+*[[Asgardian Aegis]] and [[Elysian Aegis]] now have a dedicated hotkey to toggle their buff instead of being toggled with visibility.
+*All of [[The Devourer of Gods]]' final phase's segments now show up on the minimap.
+**Head segment's icon now rotates based on the head segment's rotation.
+*[[Evil Island]]s now generate on set sides in the world.
+*[[Ice Tomb]]s are now more common.
+
+== Fixes ==
+*Fixed some generation issues with the Ice Tomb.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

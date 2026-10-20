@@ -1,0 +1,63 @@
+{{item infobox
+| type = Potion
+| tooltip = Causes the player to disappear while not attacking<br/>Holding different types of rogue weapons give the player boosts<br/>Different types of rogue weapons spawn different projectiles on hit<br/>Stealth generation is increased by 10%
+| stack = 9999
+| rare = 3
+| use = 17
+| consumable = yes
+| buff = Shadow | bufflink = no
+| duration = 8 minutes
+| bufftip = You're invisible, certain rogue weapons give and gain buffs, and stealth generation is boosted.
+| debuff = Shadowflame
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 1 second (Cosmic Scythe)
+| sell = {{value|0|0|40}}
+}}
+
+The '''Shadow Potion''' is a craftable [[Pre-Hardmode]] [[Buff Potions|buff potion]] that is a direct upgrade to the [[Invisibility Potion]]. Upon consumption it grants the '''Shadow''' [[buff]], which turns the player invisible and reduces aggro while not attacking, and boosts [[stealth]] regeneration by 10% at all times. The player will also become immune to the [[Invisibility]] buff. When holding and using a certain type of [[rogue weapon]], the player will gain certain buffs and spawn certain projectiles. The effects are listed below:
+{| class="terraria"
+|-
+! Type !! Stat Buff !! Projectile
+|-
+| [[Boomerang]]s
+| Increased rogue damage by 10%
+| {{na}} [[Spectre armor|Spectre Soul]]
+|-
+| [[Javelin]]s
+| Increased armor penetration by 5
+| {{item|Penumbra Soul|link=Penumbra}}
+|-
+| [[Bombs]]
+| Increased rogue velocity by 10%
+| [[File:Blackhole.gif]] [[Sealed Singularity|Black Hole]]
+|-
+| [[Spiky Balls]]
+| Increased rogue critical strike chance by 10%
+| {{item|Cosmic Scythe|link=Cosmic Kunai}}
+|-
+|| [[Dagger]]s
+| Increased stealth regeneration by 8%
+| {{item|Dark Shard (projectile)|Dark Shard|link=Equanimity}}
+|}
+
+For stealth strikes, the additional projectiles only trigger for the first five enemies hit.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The player will turn visible if any [[bosses]] are alive.
+*All spawned projectiles have a cooldown of half-second before it can be released again
+*Spawned projectiles have a varying damage value proportionate to the projectile's damage. They have a damage softcap of 60, any higher is 90% less effective.
+**Spectre Souls deal 20% damage
+**Equanimity Dark Shards deal 15% damage
+**Penumbra Souls deal 10% damage
+**Cosmic Scythes and Black Holes deal 5% damage
+*Unlike the black hole from [[Sealed Singularity]], the Black Hole spawned from Shadow Potion doesn't suck in enemies.
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

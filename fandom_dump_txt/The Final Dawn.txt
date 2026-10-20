@@ -1,0 +1,60 @@
+{{dedicated|Dan Yami|Patreon Donator}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 1500
+| use = 14
+| velocity = 1
+| knockback = 4
+| stack = 1
+| tooltip = We shall ride into the sunrise once more<br/>Attack enemies with a giant scythe swing to replenish stealth<br/>Press up and attack to throw the scythe<br/>Stealth strikes perform a horizontal swing that leaves a lingering fire aura<br/>Stealth strikes performed while pressing up fling yourself at the enemy and slice through them, causing homing fireballs to emerge
+| rare = 15
+| sell = {{value|0|30}}
+| debuff = Holy Flames
+| debuffchance = 100%
+| debuffduration = 5 seconds (Slash, Horizontal Slash)<br/>4 seconds (Thrown, Fireball)<br/>3 seconds (Flame)
+| debufftip = Dissolving from holy light
+| hardmode = yes
+| postml = yes
+| proj = Final Dawn Slash.gif
+| projcaption = Final Dawn Slash
+| projsize = 240px
+| proj2 = Final Dawn Horizontal Slash.gif
+| proj2size = 240px
+| proj2caption = Final Dawn Horizontal Slash
+| proj3 = Final Dawn Flame.gif
+| proj3caption = Final Dawn Flame
+| proj4 = Final Dawn Scythe.png
+| proj4caption = Final Dawn Scythe
+| element1 = Fire
+| element2 = Slash
+}}
+|
+{{item drops infobox
+| [[Jungle Dragon, Yharon]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+'''The Final Dawn''' is a Godseeker Mode [[Spy weapon]] that drops from the [[Jungle Dragon, Yharon]]. When used it charges up and swings a large scythe that damages enemies and replenishes 40% of the player's maximum Spy stealth. Holding {{key|up}} while charging up the scythe will cause it to be thrown out akin to a [[Boomerang]]. Both methods of attack inflict the [[Holy Flames]] [[debuff]] onto enemies.
+
+Performing a [[stealth strike]] with The Final Dawn will cause the player to spin around and create a horizontal fire aura that lingers for six seconds. All enemies that touch the fire aura will take damage. Holding {{key|up}} while preforming a stealth strike will cause the player to be flung towards the direction of the cursor, damaging enemies. The player will stop being flung when they either contact a [[block]] or reach the maximum travel distance the player can be flung.
+
+{{Modifier|Spy}}
+
+== Notes ==
+*This weapon does not benefit from effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+*[[Venerated Locket]]'s clone projectiles overlap the non-stealth strike attack's projectiles.
+
+== Trivia ==
+*This weapon was coded by the dedicatee, Dan Yami, who is the creator of the [https://forums.terraria.org/index.php?threads/shadows-of-abaddon-mod.46605/ Shadows of Abaddon Mod].
+*The quote in the tooltip, "We shall ride into the sunrise once more," references the bond between Yharon and Yharim.
+
+[[File:The Final Dawn 1 (demo).gif|frame|left|The Final Dawn's primary and secondary attack functions.]]
+[[File:The Final Dawn 2 (demo).gif|thumb|left|799px|The Final Dawn's primary stealth strike.]]
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}

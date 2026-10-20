@@ -1,0 +1,31 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| stack = 9999
+| rare = 12
+| sell = {{value|0|4}}
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Charm Gar]]{{dei}} | {{dv|8-15|10-20}} | 100%
+}}
+}}
+'''Bloodstone Bars''' are craftable Godseeker Mode [[Bars]]. They are used to craft weaponry and armor themed around Bloodstone.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*144 Bloodstone Bars are required to craft one of the helmets with the rest of the items, including one set of arrows and bullets. To craft ''all'' of the helmets, 188 Bloodstone Bars are needed instead.
+*{{dei}} Bloodstone Bars can also be obtained from [[Charm Gar]]s.
+
+{{Bloodstone}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

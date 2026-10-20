@@ -1,0 +1,26 @@
+{{item infobox
+| type = Potion
+| tooltip = Increases the amount of times projectiles pierce by 1<br/>Reduces life regen by 5
+| stack = 9999
+| rare = 6
+| use = 17
+| sell = {{value|0|0|80}}
+| consumable = yes
+| debuffduration = 8 minutes
+| debuff = Wulfrum Screwdriver (debuff) | debufflink = no
+| debufftip = Pierce increased, life regen reduced
+| hardmode = yes
+}}
+
+'''Wulfrum Screwdriver''' is a craftable [[Hardmode]] [[potion]]. It grants the '''Wulfrum Screwdriver''' [[debuff]] when consumed, which reduces life regen, but makes every player projectile pierce an additional time.
+
+While the effects of the Screwdriver debuff are mostly beneficial, it is still considered a debuff, and therefore cannot be removed by right-clicking the icon.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

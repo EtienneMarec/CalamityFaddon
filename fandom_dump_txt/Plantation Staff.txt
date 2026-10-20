@@ -1,0 +1,57 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 55
+| use = 19
+| mana = 10
+| knockback = 1
+| damagetype = summon
+| tooltip = Summons a miniature plantera to protect you<br/>Fires seeds, spiky balls, and spore clouds from afar to poison targets<br/>Enrages when you get under 75% health and begins ramming enemies<br/>Occupies 3 minion slots and there can only be one
+| buff = Plantation | bufflink = no
+| bufftip = The miniature plantera will protect you
+| debuff = Poisoned
+| debuffchance = 100%
+| debuffduration = 5 seconds (Contact)<br/>3 seconds (Green seed, Thorn ball, Spore)<br/>1 second (Pink seed)
+| debufftip = Slowly losing life
+| debuff2 = Venom
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (Contact)<br/>3 seconds (Green seed shotgun)
+| debufftip2 = Losing life
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| hardmode = yes
+| proj = Mini Plantera Seeds.gif
+| projcaption = Mini Plantera Seeds
+| proj2 = Plantation Spore Clouds.png
+| proj2caption = Spore Clouds
+| proj3 = Plantation Thorn Ball.png
+| proj3caption = Thorn Ball
+| element1 = Poison
+}}
+{{summoned|image=[[File:Mini Plantera.gif]]|name=Mini Plantera|type=minion}}
+
+The '''Plantation Staff''' is a craftable [[Hardmode]] [[summon weapon]]. It summons a miniature Plantera that protects the player by firing seeds, spores, and thorn balls at enemies. It additionally is surrounded by six tentacles that deal contact damage. If the player reaches 75% health, the minion will enrage and begin to ram into enemies, dealing contact damage. It requires three minion slots to summon one Mini Plantera and only one Mini Plantera can be active at once. The minion itself inflicts [[Poisoned]] for 5 seconds upon contact, the green seed projectiles fired by the minion inflict Poisoned for 3 seconds and the pink seeds inflict Poisoned for 1 second.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+
+== Tips ==
+*The Plantation staff is very good for crowd-control and ground-based enemies, but does very poorly against faster flying enemies such as Calamitas, as it spends most of the time trying to catch up to them instead of attacking.
+
+== Trivia ==
+*The Mini Plantera behaves similarly to [[Plantera]] in [[Revengeance Mode]] whilst being obtainable on Normal Mode.
+*The Plantation Staff was implemented based on a community suggestion made by Providab on the mod's Discord server.
+
+{{Terra}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,57 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Summoning Item Price Changes
+| release = 8/27/2017
+| prev = [[1.2.0.002]]
+| next = [[1.2.0.004]]
+}}
+
+The '''1.2.0.003''' update made changes to the buy prices for most late [[Hardmode]] and Godseeker Mode [[summoning items]]. It also made a few balance changes and resprited several weapons and Calamity's [[Permanent Power-ups|permanent health boosting items]].
+
+== Changes ==
+=== Bosses and Enemies ===
+*[[???]] now despawns if any boss is active instead of becoming invincible if [[Duke Fishron]] is active.
+*[[The Devourer of Gods]]' body segments now set the piercing of all non-minion piercing projectiles to 1 instead of only projectiles that pierce infinitely.
+*The [[Lunatic Cultist]] now causes players to take 1.5x more damage from all sources instead of 1.3500000238418579x.
+*[[The Plaguebringer Goliath]] can now spawn 1-3 Shades at once instead of 1-2.
+*Tweaked the [[Ebonian Slime God]]'s movement.
+*Decreased [[Spazmatism]]'s health multiplier from {{revengeance|1.45x}} to {{revengeance|1.25x}}.
+*Decreased Spazmatism's charging speed.
+*Increased [[Wall of Flesh]]'s health multiplier from {{revengeance|1.3x}} to {{revengeance|1.8x}}.
+
+=== Items ===
+*[[Alpha Ray]] now uses the {{rare|12}} rarity instead of {{rare|11}}.
+*[[Crimsaber]]'s tooltip no longer ends with an exclamation point.
+*Nerfed [[Exoblade]]'s damage from 3280 to 1500.
+*[[Nullification Pistol]] now uses Item33 as its sound instead of a custom sound.
+*[[Primordial Earth]]'s main projectile now pierces 4 times instead of 8, and its split projectiles now pierce 2 times instead of infinitely.
+*Decreased the damage boost that [[The Swarmer]]'s bees gain from bee damage boosting accessories such as the [[Plague Hive]].
+
+=== Other ===
+*The [[Cyborg]] now sells [[Cosmic Worm]]s for {{pc|40}} instead of {{pc|20}}.
+*The [[Dryad]] now sells [[Necroplasmic Beacon]]s for {{pc|30}} instead of {{pc|10}}.
+*The [[Witch Doctor]] has had some of his prices adjusted:
+**[[Abombination]]s are now sold for {{gc|50}} instead of {{gc|40}}.
+**[[Ancient Medallion]]s are now sold for {{gc|50}} instead of {{gc|40}}.
+**[[Birb Pheromones]] are now sold for {{pc|20}} instead of {{pc|2}}.
+**[[Dragon Egg (summoning)|Dragon Egg]]s are now sold for {{pc|50}} instead of {{pc|30}}.
+*The [[Wizard]] has had some of his prices adjusted:
+**[[Celestial Sigil]]s are now sold for {{pc|3}} instead of {{gc|50}}.
+**[[Profaned Core]]s are now sold for {{pc|30}} instead of {{pc|5}}.
+**[[Profaned Shard]]s are now sold for {{pc|10}} instead of {{pc|1}}.
+
+=== Resprites ===
+*Resprited [[Aftershock]], [[Crimsaber]], [[Earthen Pike]], [[Ichor Spear]], [[Majestic Guard]], [[Pwnagehammer]], [[Red Sun]], and [[Slag Magnum]].
+*Resprited [[Hemagrape|Blood Orange]], [[Dragonfruit]], [[Sambucus Fruit|Elderberry]], and [[Miracle Fruit]].
+*Resprited hearts granted by the Hemagrape|Blood Orange, Dragonfruit, Elderberry, and Miracle Fruit.
+*Resprited [[Mourningstar]]'s projectile.
+
+== Fixes ==
+*Fixed [[Calamitas]] phase one not producing dust correctly when hit.
+*Fixed a bug that could occur when Calamitas transitions to her second phase.
+*Removed an erroneous transparent pixel on [[Catastrophe]].
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

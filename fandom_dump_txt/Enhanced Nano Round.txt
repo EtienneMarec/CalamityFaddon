@@ -1,0 +1,35 @@
+{{item infobox
+| type = Ammunition
+| tooltip = Confuses enemies and releases a cloud of nanites when enemies die
+| damage = 12
+| damagetype = ranged
+| stack = 9999
+| consumable = yes
+| knockback = 5.5
+| sell = {{value|0|0|1|0}}
+| rare = 3
+| velocity = 8
+| velocitymult = 4
+| hardmode = yes
+| debuff = Confused
+| debufftooltip = Movement is reversed
+| debuffduration = 5 seconds
+| debufftip = Movement is reversed
+| debuffchance = 100%
+| proj = Enhanced Nano Bullet.png
+| projcaption = Enhanced Nano Bullet
+| proj2 = Nanomachine.gif
+| proj2caption = Nanomachine
+}}
+
+'''Enhanced Nano Rounds''' are [[Hardmode]] [[bullets]] made from [[Coyote Venom]] and [[Nano Bullets]]. Upon contact with an enemy, it inflicts the [[Confused]] [[debuff]], and upon killing an enemy, releases 2 homing nanomachines that inflict damage on contact.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Bullets]]

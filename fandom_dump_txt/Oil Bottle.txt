@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = One of the ancient relics<br/>Summons a solver elemental to fight for you
+| sell = {{value|0|9|0}}
+| rare = 8
+| damagetype = summon
+| stack = 1
+| hardmode = no
+| buff = Cyn (buff) | bufflink = no
+| bufftip = Cyn will not discard you
+| proj = Absolute Translate.png
+| projcaption = Absolute Translate
+| hardmode = yes
+}}
+|{{item drops infobox
+|[[Wulfrum Drone]]<br/>[[Wulfrum Gyrator]]<br/>[[Wulfrum Hovercraft]]<br/>[[Wulfrum Pylon]]<br/>[[Wulfrum Rover]]<br/>(When Supercharged)<br/>[[Shockstorm Shuttle]]|1|0.001%
+|[[The Inventors]]<br/>[[Plague Charger]]<br/>[[Plaguebringer]]|1|0.005%
+|[[Earth Elemental]]<br/>[[Onyx Kinsman]]<br/>[[Armored Digger]]|1|0.01%
+|[[Plaguebringer Goliath]]|1|0.05%
+|[[The Wall of Bronze]]|1|0.1%
+|[[Exo Armada]]<br/>[[Exo Cube]]<br/>[[Exo Landmaster]]<br/>[[Exo Obelisk]]<br/>[[Exo Sentry]]<br/>[[Exo Sphere]]|1|0.5%
+|[[The Fabricational Quartet]]<br/>[[XP-00 Hypnos]]|1|1%
+}}
+}}{{summoned|Cyn|name=Cyn|type=minion}}
+{{dedicated|Kenadrice|Malice Mode No-Hit}}The '''Oil Bottle''' is a [[Pre-Hardmode]] [[covering]] that has a chance to be dropped by most enemies with the [[List of NPCs by Hit Sound|NPCHit4 hit sound]]. It summons Cyn to protect you, which repels all nearby non-boss enemies by using her absolute translate ability. 
+
+== Crafting==
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Notes== 
+*Cyn can push away all enemies within a 5 tile radius every 5 seconds as a default, a 10 tile radius every 4 seconds after the [[Moon Lord]] has been defeated, and a 15 tile radius every 3 seconds after [[The Devourer of Gods]] has been defeated.
+
+==Trivia==
+*The minion along with [[Serial Designation N]] are references to the Murder Drones YouTube series.
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}

@@ -1,0 +1,28 @@
+{{addon|Calamity: Community Remix}}
+{{npc infobox
+| type = Enemy
+| ai = Crawler AI
+| environment = Underground
+| environment2 = Cavern
+| life = {{dv|20|40}}
+| damage = {{element|Stab}} {{dv|10|5}}
+| defense = 0
+| knockback = {{dv|80%|82%}}
+| immune1 = Kami Flu
+| money = {{sc|1}}
+| Stone Block|3-4|100%
+| hurt = NPC_Hit_1.wav
+| killed = Item_14.wav
+| vulnerable1 = Cold
+| vulnerable2 = Water
+| vulnerable3 = Fire
+| resistant1 = Slash
+}}
+
+'''Lizard'''s are Pre-[[Hardmode]] [[enemies]] that spawn [[underground]] and in the [[cavern|caverns]]. It is mostly harmless, sleeping in place until approached then running away from nearby players. If any gem is thrown onto it, it transforms into a [[Crawlers|Gem Crawler]].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

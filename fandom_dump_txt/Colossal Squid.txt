@@ -1,0 +1,65 @@
+{{npc infobox
+| type = Flying Enemy
+| type2 = Aquatic
+| ai = Colossal Squid AI
+| environment = Abyss
+| life = {{dv|220,000|440,000}}
+| damage = {{dv|150|boost=0.1}} (Contact)<br/>{{dv|140|220||253}} (Ink bombs)<br/>{{dv|92|145||167}} (Ink clouds)
+| defense = 50
+| dr = 5%
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Slash
+| vulnerable4 = Unholy
+| vulnerable5 = Machine
+| resistant1 = Dark
+| resistant2 = Water
+| resistant3 = Cold
+| knockback = {{dv|95%|95.5%}}
+| debuff = Obstructed
+| debuffchance = 100%
+| debufftip = You can't see!
+| duration = Infinite (while eaten)
+| debuff2 = Crush Depth
+| debuffchance2 = 100%
+| debufftip2 = Aquatic pressure
+| duration2 = 5 seconds (Contact)
+| debuff3 = Darkness
+| debuffchance3 = 100%
+| debufftip3 = Decreased light vision
+| duration3 = 5 seconds (Ink Bombs)
+| immune1 = Crush Depth
+| immune2 = Confused
+| money = {{value|0|25}}
+| Black Ink| 3-5 | 100%
+| The Food Chain| 1 | 15%
+| custom | {{item|Depth Cells|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|26-38|31-45}})|50%
+| Ink Bomb|1|10%
+| custom | {{item|Calamari's Lament|note=(After defeating [[Polterghast]])|wrap=y}}|33.33%
+| hardmode = yes
+| postml = yes
+| banner = yes
+| hurt = NPC_Hit_20.wav
+| killed = NPC_Killed_23.wav
+| sound = Zombie_35.wav
+| soundtext = Idle
+| sound2 = Zombie_34.wav
+| sound2text = Enraged
+| sound3 = Item_11.wav
+| sound3text = Ink Bomb
+}}
+{{dablink|Not to be confused with the [[Giant Squid]], an enemy that spawns in the 2nd and 3rd layers of the [[Abyss]].}}
+
+The '''Colossal Squid''' (Japanese: 巨大なイカ ''Kyodaina ika'') is a [[Mini Bosses|mini boss]] that spawns in the 3rd and 4th layers of the [[Abyss]] [[biome]]. Once the player gets too close or hits it, it attempts to kill the player by ramming them and firing damaging ink bombs, which burst into hovering ink clouds. It also has the ability to latch onto the player and "eat" them, inflicting the [[Obstructed]] [[debuff]], greatly reducing visibility and inflicting rapid damage until they are released.
+
+It can be detected with the [[Lifeform Analyzer]].
+
+== Notes ==
+*While being eaten by the Colossal Squid, the player's [[Aggro]] stat will be reduced by 750, essentially meaning that enemies will not target the player when that is occurring.
+**However, creatures in the Abyss have their own unique detection radius system which is unaffected by the player's Aggro stat.
+*If the Colossal Squid has latched on to the player, attempting to teleport out of the Abyss through any means will pull the Colossal Squid with them.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

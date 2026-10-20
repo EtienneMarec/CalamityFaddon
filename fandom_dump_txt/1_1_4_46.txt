@@ -1,0 +1,26 @@
+{{patch infobox
+| image = Cultist Assassin (1.1.4.46).png
+| patchname = Enemy Expansion
+| release = 7/24/2016
+}}
+
+The '''1.1.4.46''' update focused on adding an assortment of new [[enemies]].
+
+== Additions ==
+*Added [[Amethyst Crawler]], [[Cosmic Elemental]], [[Cultist Assassin]], [[Diamond Crawler]], [[Emerald Crawler]], [[Heat Spirit]], [[Ice Clasper]], [[Pitbull]], [[Ruby Crawler]], [[Sand Tortoise]], [[Sapphire Crawler]], [[Shockstorm Shuttle]], [[Sun Bat]], and [[Topaz Crawler]].
+
+== Changes ==
+*Nerfed [[Blighted Eye Staff]]'s damage from 41 to 35, it now requires 6 [[Blighted Lens]]es to craft instead of 9, and each of its eyes now take up half a minion slot each instead of one each.
+*[[Desert Scourge]]'s body segments now have a 50% chance to spawn a tile of [[water]] when hit in Expert Mode.
+*[[Caustic Edge]] no longer uses any [[Jungle Spores]] or [[Stinger]]s in its recipe.
+*[[True Caustic Edge]] now uses 3 [[Deathweed]], 5 [[Flask of Poison|Flasks of Poison]], and 5 [[Flask of Cursed Flames|Flasks of Cursed Flames]] or 5 [[Flask of Ichor|Flasks of Ichor]] in its recipe instead of 10 Deathweed, 20 [[Vial of Venom|Vials of Venom]], and 2 [[Lava Bucket]]s.
+*Changed [[True Tyrant's Ultisword]]'s tooltip from "The one true blade that Yharim could never achieve" to "Contains the essence of a forgotten age", and it now uses 1 Core of Calamity in its recipe instead of 10 [[Core of Chaos|Cores of Chaos]], [[Core of Cinder|Cores of Cinder]], and [[Core of Eleum|Cores of Eleum]].
+*[[Tyrant Yharim's Ultisword]] now uses 15 [[Chlorophyte Bar]]s, and 5 Flasks of Cursed Flames or Flasks of Ichor in its recipe instead of 15 [[Hellstone Bar]]s, and 10 Flasks of Cursed Flames or Ichor.
+
+== Fixes ==
+*Fixed [[Staff of the Mechworm]] having odd damage scaling.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

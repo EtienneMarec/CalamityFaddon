@@ -1,0 +1,1410 @@
+'''Coverings''' is a set of clothes people wear to stop them from getting cold outside and the defense items that reduce damage taken from [[enemies]] and most other damage sources. Coverings pieces are equipped by placing them in the coverings slots of the player's inventory. Coverings can also be placed in vanity slots to change the player's appearance without affecting stats. Coverings pieces are either crafted, purchased from [[NPCs]], or dropped from enemies.
+
+Each piece of covering has a [[defense]] statistic that reduces inflicted damage by half / {{expert|3/4}} its value, rounded up. For example, a full set of [[Wulfrum Coverings]] (Melee) provides a total of 9 defense, reducing damage by 5/{{expert|6}} points. [[Statigel Coverings]] (Ranged) grant a total of 25 defense, reducing damage by 13/{{expert|19}}, after having been rounded up. An attack cannot be reduced to zero; all attacks will always deal at least 1 damage (or 2 damage for a [[critical hit]]), regardless of the quality of a player's coverings.
+
+In addition to the defense provided by individual covering pieces, most covering types provide a '''Set Bonus'''<!-- bolded because the page [[Set Bonus]] redirects here and it's an important part of the coverings topic --> when all three pieces of the same covering type are worn simultaneously. For the basic [[Pre-Hardmode]] coverings, e.g. [[Wulfrum Coverings]], this is an additional defense bonus. More advanced or unique coverings can provide other specialized set bonuses (e.g., the [[Omega Blue coverings]] will summon 6 tentacles to attack enemies and heal the player).
+
+The Calamity Mod adds 28 new covering sets. 12 sets can be obtained [[Pre-Hardmode]], 11 sets in [[Hardmode]], and 10 sets Godseeker Mode. Most covering sets have 5 different helmets for each main class (Melee, Ranged, Mage, Summoner, and [[Spy]]), though four covering sets grant universal bonuses and twelve covering sets are class-specific. In addition, several covering sets are rebalanced or given new effects.
+==Coverings Sets ==
+===Pre-Hardmode===
+{| class="terraria lined sortable"
+! rowspan="2" class="unsortable" |Appearance
+! rowspan="2" width="80" |Set
+! colspan="4" |Defense
+! rowspan="2" class="unsortable" |Bonuses / Effects / Notes
+! colspan="2" class="unsortable" |Elements
+! rowspan="2" class="unsortable" |Cost / Source / Crafted At
+|-
+! style="font-size:90%;" data-sort-type="number" |Head
+! style="font-size:90%;" data-sort-type="number" |Chest
+! style="font-size:90%;" data-sort-type="number" |Legs
+! style="font-size:95%;" data-sort-type="number" |Total
+! style="font-size:100%;" data-sort-type="number" |Resistances
+! style="font-size:100%;" data-sort-type="number" |Vulnerabilities
+|-
+|[[File:Corpulent coverings.png]]
+|[[Corpulent coverings]]
+| style="text-align:center" |<span style="display:none">0</span>3
+| style="text-align:center" |<span style="display:none">0</span>6
+| style="text-align:center" |<span style="display:none">0</span>5
+| style="text-align:center" | <span style="display:none">0</span>14
+|
+*10 melee damage
+*12% increased movement speed
+*'''Set bonus:''' Melee attacks inflict [[Burning Blood]]. The melee speed cap is removed.
+| style="text-align:center" |[[File:Unholy (element).png]][[File:Dark (element).png]]
+| style="text-align:center" |[[File:Slash (element).png]][[File:Holy (element).png]]
+| colspan="4" style="text-align:center" |
+*7 {{item|Disgusting Meat}}
+*Crafted at {{item|Loom}}
+|-
+|[[File:Grarble coverings.png]]
+|[[Grarble coverings]]
+| style="text-align:center" |<span style="display:none">0</span>3
+| style="text-align:center" |<span style="display:none">0</span>6
+| style="text-align:center" |<span style="display:none">0</span>5
+| style="text-align:center" |<span style="display:none">0</span>14
+|
+* 5% increased ranged damage
+* 3% increased ranged critical strike chance
+*7% increased movement speed
+*'''Set bonus:''' Ranged attacks hitting in succession provides up to ten defense
+| style="text-align:center" |[[File:Slash (element).png]][[File:Fire (element).png]]
+| style="text-align:center" |
+[[File:Magic (element).png]]
+| colspan="4" style="text-align:center" |
+*28 {{item|Gold Bar}} or {{item|Platinum Bar}}
+*22 {{item|Granite Block}}
+*22 {{item|Marble Block}}
+*Crafted at {{item|Iron Anvil}}
+|-
+|[[File:Banana Clown coverings.png]]
+|[[Banana Clown coverings]]
+| style="text-align:center" |<span style="display:none">0</span>2
+| style="text-align:center" |<span style="display:none">0</span>2
+| style="text-align:center" |<span style="display:none">0</span>2
+| style="text-align:center" | <span style="display:none">0</span>8
+|
+*6 magic damage
+*14% increased movement speed
+*'''Set bonus:''' Consuming [[tgc:Fruit|fruits]] increases magic damage by 10% and grants unlimited mana for 10 seconds.
+| style="text-align:center" |[[File:Unholy (element).png]][[File:Water (element).png]]
+| style="text-align:center" |[[File:Holy (element).png]][[File:Fire (element).png]][[File:Poison (element).png]]
+| colspan="4" style="text-align:center" |{{item|Banana Clown}}
+|-
+|[[File:Wulfrum coverings.png]]
+|[[Wulfrum coverings]]
+| style="text-align:center" |
+*3
+*2
+*1
+*0
+* 1
+| style="text-align:center" |<span style="display:none">0</span>2
+| style="text-align:center" |<span style="display:none">0</span>1
+| style="text-align:center" |*9
+*8
+*7
+*6
+*7
+|
+*3% increased critical strike chance
+*5% increased movement speed
+*'''Set Bonus:''' +3 defense, +5 defense when below 50% life
+*'''Wulfrum Helm:''' 10% increased melee damage
+**'''Set Bonus:''' +100 [[Aggro]]
+*'''Wulfrum Headgear:''' 10% increased ranged damage
+*'''Wulfrum Hood:''' 10% increased magic damage
+*'''Wulfrum Helmet:''' 10% increased summon damage
+**'''Set Bonus:''' +1 max minion
+*'''Wulfrum Mask:''' 10% increased spy damage
+**'''Set Bonus:''' Maximum [[spy stealth]] of 50
+| style="text-align:center" |[[File:Cold (element).png]][[File:Dark (element).png]]
+| style="text-align:center" |[[File:Fire (element).png]][[File:Magic (element).png]]
+| colspan="3" style="text-align:center" |
+* 25 {{item|Wulfrum Metal Scrap}}
+*3 {{item|Energy Core}} for one set
+*45 {{item|Wulfrum Metal Scrap}}
+*7 {{item|Energy Core}} for all pieces
+*Crafted at {{item|Iron Anvil}}
+|-
+|[[File:Snow Ruffian coverings.png]]
+|[[Snow Ruffian coverings]]
+| style="text-align:center" |<span style="display:none">0</span>1
+| style="text-align:center" | <span style="display:none">0</span>2
+| style="text-align:center" |<span style="display:none">0</span>1
+| style="text-align:center" |<span style="display:none">0</span>4
+|
+*2% increased spy damage
+*3% increased spy critical strike chance
+*5% increased movement speed
+*'''Set Bonus:''' 5% increased spy damage.  Grants the player wings to glide and negate fall damage. Maximum [[spy stealth]] of 50.
+| style="text-align:center" |[[File:Cold (element).png]][[File:Water (element).png]]
+| style="text-align:center" |
+[[File:Fire (element).png]][[File:Stab (element).png]]
+| colspan="4" style="text-align:center" |
+*60 {{item|Snow Block}}
+*30 {{item|Ice Block}}
+*90 {{item|Boreal Wood}}
+*Crafted at {{item|Iron Anvil}}
+|-
+|[[File:Old Hunter coverings.png]]
+| [[Old Hunter coverings]]
+| style="text-align:center" |<span style="display:none">0</span>2
+| style="text-align:center" |<span style="display:none">0</span>6
+| style="text-align:center" |<span style="display:none">0</span>4
+| style="text-align:center" |<span style="display:none">0</span>12
+|
+*14% Increased ranged damage
+*7% increased ranged critical strike chance
+*20% chance to not consume [[ammunition]]
+*13% increased movement speed
+*Grants immunity to the [[Mighty Wind]] [[debuff]]
+*'''Set bonus:''' Pressing {{key|down}} twice in quick succession summons a sandnado that is roughly 10 tiles tall, that the player will jet upwards and stand on. Nearby non-challenge enemies are sucked inwards and are dealt a continous 20 damage per second. The tornado dissipates after 20 seconds or if the player jumps or is knocked off.
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="4" style="text-align:center" |*10 {{item|Desert Feather}}
+*2 {{item|Antlion Mandible}}
+*1 {{item|Sandstorm in a Bottle}}
+*Crafted at {{item|Loom}}
+|-
+|[[File:Desert Prowler coverings.png]]
+|[[Desert Prowler coverings]]
+| style="text-align:center" |<span style="display:none">0</span>1
+| style="text-align:center" |<span style="display:none">0</span>3
+| style="text-align:center" | <span style="display:none">0</span>2
+| style="text-align:center" |<span style="display:none">0</span>6
+|
+*9% ranged critical strike chance
+*20% chance to not consume ammo
+*10% increased movement speed
+*Grants immunity to [[Mighty Wind]]
+*'''Set bonus:''' Ranged attacks do 1 more damage. Ranged critical strikes can rarely whip up a sandstorm.
+| style="text-align:center" |[[File:Fire (element).png]][[File:Holy (element).png]][[File:Poison (element).png]]
+| style="text-align:center" |[[File:Water (element).png]][[File:Cold (element).png]][[File:Stab (element).png]]
+| colspan="4" style="text-align:center" |
+*6 {{item|Desert Feather}}
+*23 {{item|Silk}}
+*Crafted at {{item|Loom}}
+|-
+|[[File:Fearmonger coverings.png]]
+|[[Fearmonger coverings]]
+| style="text-align:center" | <span style="display:none">0</span>2
+| style="text-align:center" | <span style="display:none">0</span>8
+| style="text-align:center" |<span style="display:none">0</span>6
+| style="text-align:center" |<span style="display:none">0</span>16
+|
+*8% increased damage reduction
+* 5% increased critical strike chance
+*30% increased summon damage
+*10% increased movement speed
+*+1 max minions
+*'''Set Bonus:''' Life regeneration temporarily increased by 2 on every minion hit. The duration increases by 1/3 of a second per minion hit, up to a maximum of 1.5 seconds. Grants the [[Panic Necklace|Panic!]] [[buff]] when the player is hit. Reduces the [[Vanilla changes#Minions|summon penalty]] to 75% instead of 50%.
+| style="text-align:center" |[[File:Unholy (element).png]][[File:Poison (element).png]][[File:Dark (element).png]]
+| style="text-align:center" |{{na}}
+|Dropped by enemies that touch [[Grimesand]] (10%)
+|-
+|[[File:Victide coverings.png]] [[File:Victide coverings female.png]]
+|[[Victide coverings]]
+| style="text-align:center" |
+*4
+*3
+*2
+*1
+* 3
+| style="text-align:center" |<span style="display:none">0</span>5
+| style="text-align:center" |<span style="display:none">0</span>4
+| style="text-align:center" |
+*13
+*12
+*11
+*10
+*12
+|
+*5% increased critical strike chance
+* 8% increased movement speed
+*5% increased damage reduction
+*+5 defense, +10% damage reduction and +30% movement speed while submerged in liquid
+*'''Set Bonus:''' 10% increase to headpiece's damage type and +3 life regen while submerged in liquid. 10% chance to throw returning seashell projectiles when using weapons.
+*'''Victide Helm:''' 5% increased melee damage
+**'''Set Bonus:''' +200 [[Aggro]]
+*'''Victide Visage:''' 5% increased ranged damage
+*'''Victide Mask:''' 5% increased magic damage
+*'''Victide Helmet:''' 10% increased summon damage
+**'''Set Bonus:''' Summons an urchin, +1 max minion
+*'''Victide Headgear:''' 5% increased spy damage
+**'''Set Bonus:''' Maximum [[spy stealth]] of 90
+| style="text-align:center" |[[File:Water (element).png]][[File:Fire (element).png]][[File:Slash (element).png]]
+| style="text-align:center" |[[File:Unholy (element).png]][[File:Cold (element).png]][[File:Poison (element).png]]
+| colspan="2" style="text-align:center" |
+*12 {{item|Victide Bar}} for one set
+*24 {{item|Victide Bar}} for set + all helm types
+*Crafted at {{item|Iron Anvil}}
+|-
+|[[File:Sulphurous coverings.png]]
+|[[Sulphurous coverings]]
+| style="text-align:center" |<span style="display:none">0</span>5
+| style="text-align:center" |<span style="display:none">0</span>6
+| style="text-align:center" |<span style="display:none">0</span>5
+| style="text-align:center" |<span style="display:none">0</span>16
+|
+* 12% increased spy damage
+*7% increased spy critical strike chance
+*10% increased movement speed
+*35% increased movement speed while submerged in liquid.
+*[[Gills Potion]] effect
+*'''Set Bonus:''' The [[Poisoned]] [[debuff]] is inflicted onto any attacking enemy. Grants a double jump that leaves behind a sulphurous bubble that floats upward and inflicts [[Venom]] on enemy hits. Striking an enemy will inflict the Poisoned debuff onto them. Maximum [[spy stealth]] of 95.
+| style="text-align:center" |[[File:Poison (element).png]][[File:Dark (element).png]][[File:Water (element).png]]
+| style="text-align:center" |{{na}}
+| colspan="5" style="text-align:center" |
+*45 {{item|Acidwood}}
+*95 {{item|Urchin Stinger}}
+* 45 {{item|Sulphurous Sand}}
+*45 {{item|Sulphuric Scale}}
+*Crafted at {{item|Iron Anvil}}
+|-
+| [[File:Aerospec coverings.png]] [[File:Aerospec coverings female.png]]
+|[[Aerospec coverings]]
+| style="text-align:center" |
+*7
+* 5
+*3
+*2
+*4
+| style="text-align:center" |<span style="display:none">0</span>7
+| style="text-align:center" |<span style="display:none">0</span>6
+| style="text-align:center" |
+*20
+*18
+*16
+*15
+*17
+|
+*3% increased critical strike chance
+*12% increased movement speed
+*'''Set Bonus:''' Increases maximum falling speed by 50% and grants immunity to falling damage. Taking over 25 damage in one hit will cause a spread of homing feathers to fall.
+*'''Aerospec Helm:''' 8% increased melee damage
+**'''Set Bonus:''' 5% increased melee critical strike chance and 5% increased movement speed. +300 [[Aggro]].
+*'''Aerospec Hood:''' 8% increased ranged damage**'''Set Bonus:''' 5% increased ranged critical strike chance and 5% increased movement speed
+*'''Aerospec Hat:''' 8% increased magic damage and +20 max mana
+**'''Set Bonus:''' 5% increased magic critical strike chance and 5% increased movement speed
+*'''Aerospec Helmet:''' 5% increased minion damage and movement speed
+**'''Set Bonus:''' +11% minion damage and +1 max minion. Summons a valkyrie
+*'''Aerospec Headgear:''' 8% increased spy damage and 5% increased movement speed
+**'''Set Bonus:''' 5% increased spy critical strike chance and 5% increased movement speed. Maximum [[spy stealth]] of 100.
+| style="text-align:center" |[[File:Unholy (element).png]][[File:Magic (element).png]]
+| style="text-align:center" |[[File:Water (element).png]][[File:Dark (element).png]]
+| colspan="5" style="text-align:center" |
+*23 {{item|Aerialite Bar}}
+*19 {{item|Cloud}}
+*9 {{item|Rain Cloud}}
+*5 {{item|Feather}} for one set
+*43 {{item|Aerialite Bar}}
+*31 {{item|Cloud}}
+*13 {{item|Rain Cloud}}
+* 9 {{item|Feather}} for all pieces
+*Crafted at {{item|Sky Mill}}
+|-
+|[[File:Statigel coverings.png]]
+|[[Statigel coverings]]
+| style="text-align:center" |
+*9
+*7
+*5
+* 4
+*6
+| style="text-align:center" |<span style="display:none">0</span>10
+| style="text-align:center" |<span style="display:none">0</span>8
+| style="text-align:center" |
+*27
+* 25
+*23
+*22
+*24
+|
+*5% increased damage
+*5% increased critical strike chance
+*5% increased movement speed
+*'''Set Bonus:''' Grants the player an extra jump and increased jump height. Taking over 100 damage in one hit makes you immune to damage for an extended period of time.
+*'''Statigel Helm:''' 10% increased melee damage and melee speed, 7% increased melee critical strike chance
+**'''Set Bonus:''' +400 [[Aggro]]
+*'''Statigel Headgear:''' 10% increased ranged damage, 7% increased ranged critical strike chance
+*'''Statigel Cap:''' 10% increased magic damage and 10% decreased mana cost, 7% increased magic critical strike chance, +30 max mana
+*'''Statigel Hood:''' Increased minion knockback
+**'''Set Bonus:''' 18% increased minion damage and +1 max minion. Summons a baby slime god.
+*'''Statigel Mask:''' 10% increased spy damage and 34% chance to not consume thrown items, 7% increased spy critical strike chance and 12% increased movement speed
+**'''Set Bonus:''' Maximum [[spy stealth]] of 100
+| style="text-align:center" |[[File:Dark (element).png]][[File:Water (element).png]][[File:Poison (element).png]][[File:Stab (element).png]][[File:Slash (element).png]]
+| style="text-align:center" | [[File:Fire (element).png]][[File:Unholy (element).png]]
+| colspan="3" style="text-align:center" |
+*19 {{item|Purified Gel}}
+*33 {{item|Hellstone Bar}} for one set
+*39 {{item|Purified Gel}}
+*69 {{item|Hellstone Bar}} for all pieces
+* Crafted at {{item|Static Refiner}}
+|}
+===Hardmode ===
+{| class="terraria lined sortable"
+! rowspan="2" class="unsortable" |Appearance
+! rowspan="2" width="80" |Set
+! colspan="4" |Defense
+! rowspan="2" class="unsortable" |Bonuses / Effects / Notes
+! colspan="2" class="unsortable" |Elements
+! rowspan="2" class="unsortable" |Cost / Source / Crafted At
+|-
+! style="font-size:90%;" data-sort-type="number" |Head
+! style="font-size:90%;" data-sort-type="number" |Chest
+! style="font-size:90%;" data-sort-type="number" |Legs
+! style="font-size:95%;" data-sort-type="number" |Total
+! style="font-size:100%;" data-sort-type="number" |Resistances
+! style="font-size:100%;" data-sort-type="number" |Vulnerabilities
+|-
+|[[File:Mollusk coverings.png]] [[File:Mollusk coverings female.png]]
+|[[Mollusk coverings]]
+| style="text-align:center" |18
+| style="text-align:center" | <span style="display:none">0</span>22
+| style="text-align:center" |<span style="display:none">0</span>15
+| style="text-align:center" |55
+|
+*27% increased damage
+*14% increased critical strike chance
+*22% decreased movement speed
+*The player can move freely through liquids
+*'''Set Bonus:''' Summons 2 shellfish. 10% increased damage and slowed horizontal movement.
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+* 60 {{item|Sea Prism}}
+*31 {{item|Mollusk Husk}}
+*Crafted at {{item|Iron Anvil}}
+|-
+|[[File:Titan Heart coverings.png]]
+|[[Titan Heart coverings]]
+| style="text-align:center" |<span style="display:none">0</span>12
+| style="text-align:center" |<span style="display:none">0</span>17
+| style="text-align:center" |<span style="display:none">0</span>14
+| style="text-align:center" |<span style="display:none">0</span>43
+|
+*9% increased spy damage
+*10% increased spy velocity
+*15% increased spy knockback
+*15% decreased spy firing speed
+*45% increased chance to not consume spy items
+* Spy weapons inflict [[Astral Infection (debuff)|Astral Infection]].
+*'''Set Bonus:''' 15% increased spy damage and knockback. Immunity to knockback. Stealth strikes deal double knockback and cause an astral explosion. Maximum [[spy stealth]] of 100.
+| style="text-align:center" |{{na}}
+| style="text-align:center" | {{na}}
+| colspan="2" style="text-align:center" |*3 {{item|Titan Heart}}
+*44 {{item|Astral Monolith}}
+*Crafted at {{item|Iron Anvil}}
+|-
+|[[File:Daedalus coverings.png]] [[File:Daedalus coverings female.png]]
+|[[Daedalus coverings]]
+| style="text-align:center" |
+* 21
+*9
+*5
+* 3
+* 7
+| style="text-align:center" |<span style="display:none">0</span>19
+| style="text-align:center" |<span style="display:none">0</span>15
+| style="text-align:center" |
+* 55
+*43
+*39
+*37
+*41
+|
+*3% increased damage
+*6% increased critical strike chance
+*10% increased movement speed
+
+*'''Daedalus Helm:''' 10% increased melee damage, critical strike chance, melee speed and movement speed
+**'''Set Bonus:''' 5% increased melee damage. +500 [[Aggro]]. Reflects projectiles back at enemies. Reflected projectiles only deal 50% damage to the player. This has a 90 second cooldown
+*'''Daedalus Headgear:''' 13% increased ranged damage and 7% increased ranged critical strike chance, reduces ammo cost by 20%
+**'''Set Bonus:''' 5% increased ranged damage. Getting hit releases a blast of crystal shards
+*'''Daedalus Hood:''' 13% increased magic damage and 7% increased magic critical strike chance, +60 max mana, 10% reduced mana cost
+**'''Set Bonus:''' 5% increased magic damage. 10% chance to absorb physical attacks and projectiles when hit. Absorbing an attack heals the player for 1/2 of that attack's damage
+*'''Daedalus Mask:''' 5% increased minion damage
+**'''Set Bonus:''' 20% increased minion damageand +2 max minions. Summons a daedalus crystal
+*'''Daedalus Facemask:''' 13% increased spy damage and 7% increased spy critical strike chance, increases spy weapon velocity by 15%, 17% increased movement speed
+**'''Set Bonus:''' 5% increased spy damage. Spy projectiles throw out crystal shards as they travel. Maximum [[spy stealth]] of 105.
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+*33 {{item|Cryonic Bar}}
+*13 {{item|Crystal Shard}}
+*6 {{item|Essence of Eleum}}
+*Crafted at {{item|Mythril Anvil}}
+|-
+|[[File:Brimflame coverings.png]]
+|[[Brimflame coverings]]
+| style="text-align:center" |<span style="display:none">0</span>11
+| style="text-align:center" |<span style="display:none">0</span>15
+| style="text-align:center" |<span style="display:none">0</span>15
+| style="text-align:center" |<span style="display:none">0</span>41
+|
+*15% increased magic damage
+*10% increased magic critical strike chance
+*5% increased movement speed
+* +70 max mana
+*10% decreased mana usage
+*Grants the effect of the [[Obsidian Rose]]
+*Immunity to [[On Fire!]], [[Brimstone Flames]], and [[Frostburn]]
+*'''Set Bonus:''' Grants an additional 15% increased damage and magic critical strike chance. Pressing {{key|Coverings Set Bonus}} will activate '''Brimflame Frenzy''' for 10 seconds, temporarily boosting the player’s damage by 30% while significantly reducing the player’s life regen and disabling mana regeneration. Brimflame Frenzy has a 30 second cooldown after its usage.
+| style="text-align:center" |{{na}}
+| style="text-align:center" | {{na}}
+| colspan="3" style="text-align:center" |*45 {{item|Ashes of Calamity}}
+*9 {{item|Unholy Core}}
+*1 {{item|Obsidian Rose}}
+*Crafted at {{item|Mythril Anvil}}
+|-
+|[[File:Seashatter Coverings.png]]
+|[[Seashatter Coverings]]
+| style="text-align:center" |<span style="display:none">0</span>20
+| style="text-align:center" |<span style="display:none">0</span>25
+| style="text-align:center" |<span style="display:none">0</span>15
+| style="text-align:center" |<span style="display:none">0</span>60
+|
+*20% increased damage
+*20% increased critical strike chance
+*60% increased stats underwater
+*'''Set Bonus:''' The player is immune to suffocation and can swim freely, Cant drown outside of [[Abyss]] but gets 20 seconds of oxygen in it.
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+*30 {{item|Shatterite Bar}}
+*1 {{item|Mollusk coverings}}
+*Crafted at {{item|Aquatic hypercomputer Vault}}
+|-
+| [[File:Fathom Swarmer coverings.png]]
+|[[Fathom Swarmer coverings]]
+| style="text-align:center" |<span style="display:none">0</span>10
+| style="text-align:center" |<span style="display:none">0</span>22
+| style="text-align:center" | <span style="display:none">0</span>15
+| style="text-align:center" |<span style="display:none">0</span>47
+|
+*6% increased damage reduction
+*15% increased minion damage
+*+30 defense, +5 life regen and 40% increased movement speed while submerged in liquids
+*Grants the ability to swim and breathe underwater.
+*Reduces breath loss, defense loss, and increases light level in the [[Abyss]]
+*'''Set Bonus:''' 10% increased minion damage and +2 max minions. 30% increased minion damage while submerged in liquids. Grants the ability to climb walls.
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="5" style="text-align:center" |
+*1 {{item|Spider coverings}}
+*26 {{item|Victide Bar}}
+*24 {{item|Planty Mush}}
+*34 {{item|Abyss Gravel}}
+*12 {{item|Depth Cells}}
+*Crafted at {{item|Mythril Anvil}}
+|-
+|[[File:Umbraphile coverings.png]]
+|[[Umbraphile coverings]]
+| style="text-align:center" |<span style="display:none">0</span>8
+| style="text-align:center" |<span style="display:none">0</span>16
+| style="text-align:center" |<span style="display:none">0</span>12
+| style="text-align:center" |<span style="display:none">0</span>36
+|
+*27% increased spy damage
+*16% increased spy critical strike chance
+*10% increased spy projectile velocity
+* 30% increased movement speed
+*'''Set Bonus:''' Spy weapons have a chance to create explosions on hit. Stealth strikes will always create an explosion. Maximum [[spy stealth]] of 110
+| style="text-align:center" |{{na}}
+| style="text-align:center" | {{na}}
+| colspan="2" style="text-align:center" |
+*44 {{item|Solar Veil}}
+*34 {{item|Hallowed Bar}}
+*16 {{item|Essence of Rend}} {{fantag|Deimos, the Starborn Princess}}
+*Crafted at {{item|Mythril Anvil}}
+|-
+| [[File:Reaver coverings.png]]
+|[[Reaver coverings]]
+| style="text-align:center" |
+*30
+*13
+* 7
+| style="text-align:center" |<span style="display:none">0</span>19
+| style="text-align:center" |<span style="display:none">0</span>14
+| style="text-align:center" |
+*73
+*46
+*40
+|
+*9% increased damage
+*9% increased critical strike chance
+*12% increased movement speed
+*+20 max life
+*Can travel freely through liquids
+*'''Reaver Helm:''' 15% increased damage reduction but 30% decreased damage. +50 max life. Passively regenerates one health point every second
+**'''Set Bonus:''' +10 defense, +3 life regen, 20% decreased movement speed and flight time. +600 [[Aggro]]. Reduces the life regen lost from damage over time debuffs by 20%. All attacks have a small chance to steal life and speed up the rate of life regen, releases thorn vines and has a chance to grant the Reaver Rage buff to the player when hit
+*'''Reaver Visage:''' 10% increased jump speed and 25% increased movement speed
+**'''Set Bonus:'''  Grants immunity to fall damage and allows constant jumping. 10% increased flight time and horizontal wing speed. Hooks fly out and retract 10% faster. Reduces the cooldown of dashes
+*'''Reaver Headgear:''' 10% increased pick speed and 20% increased block/wall placement speed. Temporary immunity to lava and can move freely through liquids
+**'''Set Bonus:'''  Causes nearby treasure to sparkle. Increased item grab range and block placement range. Mining tiles restores breath while underwater. Summons a reaver orb to light up the area around you and reduces enemy aggression, even in the abyss. Provides a small amount of light in the abyss
+| style="text-align:center" |{{na}}
+| style="text-align:center" | {{na}}
+| colspan="2" style="text-align:center" |
+*31 {{item|Perennial Bar}}
+*24 {{item|Jungle Spores}}
+*6 {{item|Essence of Sunlight}}
+*Crafted at {{item|Mythril Anvil}}
+|-
+|[[File:Prototype Coverings.png]]
+|[[Prototype Coverings]]
+| style="text-align:center" |
+*14
+| style="text-align:center" |<span style="display:none">0</span>20
+| style="text-align:center" |<span style="display:none">0</span>10
+| style="text-align:center" |*44
+|
+*25% increased magic damage
+*20% increased magic damage from a specific subclass (subclass defined by the helm)
+*+120 max mana
+*10% chance to dodge an attack
+*enemy attacks restore 5 mana and the attacking enemy get the Electrified debuff
+*10% increased jump speed, height and movement speed
+*20% decreased fall damage
+*'''Prototype Headphoned Helm:''' + 40 max life. 5% increased mana regeneration.game volume decreased by 50%
+*'''Prototype Knight Helm:''' + 80 max life. 5% increased damage reduction. Npc sell prices decreased by 10%
+*'''Prototype Siberian Helm:''' + 40 max life. 15% increased attack speed.immunity to cold water and cold environmental hazards
+*'''Prototype Turret Helm:''' + 40 max life. Magic Guns can use bullets.
+| style="text-align:center" | {{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+*40 {{item|Ectoplasm}}
+*4 {{item|Prototype Plasma Drive Core}}
+*9 {{item|Suspicious Scrap}}
+*Crafted at {{item|Aquatic hypercomputer Vault}}
+|-
+|[[File:Hydrothermic coverings.png]][[File:Hydrothermic coverings female.png]]
+| [[Hydrothermic coverings]]
+| style="text-align:center" |
+*33
+*15
+*9
+*6
+*12
+| style="text-align:center" |<span style="display:none">0</span>20
+| style="text-align:center" |<span style="display:none">0</span>14
+| style="text-align:center" |
+*67
+* 49
+*43
+*40
+*46
+|
+*+20 max life
+*8% increased damage
+*7% increased critical strike chance
+*15% increased movement speed
+*Temporary immunity to lava
+*Immunity to fire damage
+**'''Set Bonus:''' Inferno effect when below 50% life, 20% chance to emit a blazing explosion when hit
+*'''Hydrothermic Helm:''' 12% increased melee damage, melee speed and movement speed, 10% increased melee critical strike chance. Melee attacks inflict on fire
+**'''Set Bonus:''' 5% increased melee damage. +700 [[Aggro]]. Melee attacks and projectiles cause chaos flames to erupt on enemy hits
+*'''Hydrothermic Headgear:''' 12% increased ranged damage and 10% increased ranged critical strike chance, reduces ammo cost by 25%
+**'''Set Bonus:''' 5% increased ranged damage. Ranged attacks fire a homing chaos flare every 0.33 seconds
+*'''Hydrothermic Mask:''' 12% increased magic damage and 10% increased magic critical strike chance, +100 max mana
+**'''Set Bonus:''' 5% increased magic damage and 15% reduced mana cost. Magic attacks summon damaging and healing flare orbs on hit
+*'''Hydrothermic Helmet:''' 5% increased minion damage and increased minion knockback
+**'''Set Bonus:''' 40% increased minion damage and +2 max minions. Summons a hydrothermic vent
+*'''Hydrothermic Hood:''' 12% increased spy damage and 10% increased spy critical strike chance, 50% chance to not consume thrown items and 15% increased movement speed**'''Set Bonus:''' 5% increased spy damage. Spy weapons unleash a volley of homing chaos flames around the player every 2.5 seconds. Maximum [[spy stealth]] of 110.
+| style="text-align:center" |{{na}}
+| style="text-align:center" | {{na}}
+| colspan="2" style="text-align:center" |
+* 32 {{item|Scoria Bar}}
+*17 {{item|Hellstone Bar}}
+*6 {{item|Core of Chaos}}
+*Crafted at {{item|Mythril Anvil}}
+|-
+|[[File:Plague Reaper coverings.png]]
+|[[Plague Reaper coverings]]
+| style="text-align:center" |9
+| style="text-align:center" |<span style="display:none">0</span>14
+| style="text-align:center" |11
+| style="text-align:center" |34
+|
+*25% increased ranged damage
+*16% increased ranged critical strike chance
+*15% increased movement speed
+*Halves the damage taken from the [[Plague]] [[debuff]]
+*'''Set Bonus:''' 25% reduced ammo usage, 5% increased flight time. The Plague debuff causes enemies to take 10% more damage from ranged projectiles. Getting hit causes Plague Cinders to rain above the player. Pressing {{key|Coverings Set Bonus}} will blind the player for 5 seconds. While the player is blinded, their ranged damage and critical strike chance is raised by 60% and 20% respectively. This effect has a 25 second cooldown.
+| style="text-align:center" |{{na}}
+| style="text-align:center" | {{na}}
+| colspan="2" style="text-align:center" |
+*1 {{item|Necro coverings}}
+*65 {{item|Plague Cell Canister}}
+*47 {{item|Nanites}}
+*Crafted at {{item|Mythril Anvil}}
+|-
+|[[File:Plaguebringer coverings.png]]
+|[[Plaguebringer coverings]]
+| style="text-align:center" |<span style="display:none">0</span>7
+| style="text-align:center" |<span style="display:none">0</span>17
+| style="text-align:center" |<span style="display:none">0</span>8
+| style="text-align:center" |<span style="display:none">0</span>32
+|
+*40% increased summon damage
+*+20 max life
+*15% increased movement speed
+*Halves the damage taken from the [[Plague]] [[debuff]]
+* Friendly bees and wasps inflict the Plague
+*You grow flowers on the grass beneath you, alongside random dye plants on grassless dirt
+*You spawn bees while sprinting or dashing
+*'''Set Bonus:''' +3 max minions. Grants a plague dash to ram enemies and inflict the Plague. Summons a lil' plaguebringer to protect you and empower nearby minions
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |*1 {{item|Bee coverings}}
+*2 {{item|Alchemical Flask}}
+*1 {{item|Flower Boots}}
+*16 {{item|Plague Cell Canister}}
+*16 {{item|Infected Coverings Plating}}
+*Crafted at {{item|Mythril Anvil}}
+|-
+|[[File:Astral coverings.png]]
+|[[Astral coverings]]
+| style="text-align:center" |17
+| style="text-align:center" |<span style="display:none">0</span>25
+| style="text-align:center" | 21
+| style="text-align:center" |63
+|
+*15% increased movement speed
+*+20 max life and +80 max mana
+*Creature, treasure, ore, and danger detection
+*'''Set Bonus:''' 15% increased movement speed, +3 max minions, 28% increased damage, and 21% increased critical strike chance. With a 1-second cooldown, [[Critical hit|critical hits]] will cause three fallen, hallowed, and astral stars to rain down on the target and deal 130 damage
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+*30 {{item|Astral Bar}}
+*23 {{item|Meteorite Bar}}
+*Crafted at {{item|Ancient Manipulator}}
+|-
+|[[File:Winter Soldier coverings.png]] {{fantag|Apotheosis and Friends}}
+|[[Winter Soldier coverings]]
+| style="text-align:center" |<span style="display:none">0</span>19
+| style="text-align:center" |<span style="display:none">0</span>28
+| style="text-align:center" |<span style="display:none">0</span>22
+| style="text-align:center" |<span style="display:none">0</span>130
+|
+*46% increased damage
+*38% increased critical strike chance
+*+2 max minions
+*12% increased movement speed
+
+*'''Set Bonus:''' +20% damage reduction. The summoner damage penalty is removed. Hitting {{key|Coverings Set Bonus}} summons five clones of the player with a base of 20 health. The clones inherit the player's equipment and held weapon at the time of the ability's activation. The clones will move on their own, attempting to dodge enemies and their projectiles. Once the last clone has been killed, the ability will go on cooldown for 1 minute.
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+*Sold by [[The General]].
+|}
+===Godseeker Mode ===
+{| class="terraria lined sortable"
+! rowspan="2" class="unsortable" |Appearance
+! rowspan="2" width="80" |Set
+! colspan="4" |Defense
+! rowspan="2" class="unsortable" |Bonuses / Effects / Notes
+! colspan="2" class="unsortable" |Elements
+! rowspan="2" class="unsortable" |Cost / Source / Crafted At
+|-
+! style="font-size:90%;" data-sort-type="number" |Head
+! style="font-size:90%;" data-sort-type="number" |Chest
+! style="font-size:90%;" data-sort-type="number" |Legs
+! style="font-size:95%;" data-sort-type="number" |Total
+! style="font-size:100%;" data-sort-type="number" |Resistances
+! style="font-size:100%;" data-sort-type="number" |Vulnerabilities
+|-
+|[[File:God Slayer coverings.png]]
+|[[God Slayer coverings]]
+| style="text-align:center" |
+*48
+* 35
+*29
+| style="text-align:center" |<span style="display:none">0</span>41
+| style="text-align:center" |<span style="display:none">0</span>35
+| style="text-align:center" |*124
+*111
+*105
+|
+*21% increased damage
+*12% increased critical strike chance
+*18% increased movement speed
+*+60 max life
+* Enemies take damage when they hit you
+*'''Set Bonus:''' Pressing {{key|God Slayer Dash}} allows the player to dash a great distance in 8 directions depending on what movement keys are held. This has a 35 second cooldown
+*'''God Slayer Horned Greathelm:''' 14% increased melee damage and critical strike chance
+**'''Set Bonus:''' +1000 [[Aggro]]. Taking over 80 damage in one hit releases a swarm of high-damage god killer darts, gives the player an even stronger thorns effect, an attack that would deal 80 damage or less will cause the attack to be decreased to 1 damage
+*'''God Slayer Helmet:''' 14% increased ranged damage and critical strike chance
+**'''Set Bonus:''' Ranged weapons fire a god killing shrapnel round every 2.5 seconds
+*'''God Slayer Mask:''' 14% increased spy damage and critical strike chance, 18% increased movement speed
+**'''Set Bonus:''' While at full HP all spy stats are boosted by 10%. Extra [[immunity frames]] if taking more than 80 damage. Maximum [[spy stealth]] of 120
+| style="text-align:center" | {{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+*55 {{item|Cosmilite Bar}}
+*Crafted at {{item|Ancient Manipulator}}
+|-
+|[[File:Empyrean coverings.png]]
+|[[Empyrean coverings]]
+| style="text-align:center" |<span style="display:none">0</span>20
+| style="text-align:center" |<span style="display:none">0</span>27
+| style="text-align:center" |<span style="display:none">0</span>24
+| style="text-align:center" |<span style="display:none">0</span>71
+|*23% increased spy damage and critical strike chance
+* 40% increased movement speed
+*+20 max life
+*Temporary immunity to lava
+*'''Set Bonus:''' 9% increased spy damage and velocity. Grants Empyrean Rage and Empyrean Wrath buffs when hit. Grants [[Wrath]] and [[Rage]] buffs when under 50% health. Maximum [[spy stealth]] of 115. Spy projectiles can spawn a random Empyrean projectile upon striking an enemy:
+**Empyrean Star which homes in strongly on enemies. It deals 80% damage of the projectile that spawned it.
+**Two Empyrean Orbs, one damaging that homes in on enemies and one healing that homes in on the player.
+***The damaging orb deals 62.5% of the projectile's damage.
+***The healing orb heals for 10% of the projectile's damage. If piercing, it heals 5% of the second hit's damage, and does not heal for subsequent hits.
+**Empyrean Fire spark which falls to the ground and lingers for a few seconds. It deals 15% damage of the projectile that spawned it.
+**Empyrean Blast explosion that deals 20% damage of the projectile that spawned it.
+** Empyrean Bubble which homes in weakly on enemies. It deals 60% damage of the projectile that spawned it.
+| style="text-align:center" | {{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+*52 {{item|Meld Construct}}
+*36 {{item|Luminite Bar}}
+* Crafted at {{item|Ancient Manipulator}}
+|-
+|[[File:Tarragon coverings.png]]
+|[[Tarragon coverings]]
+| style="text-align:center" |
+*33
+*21
+*10
+*3
+*15
+| style="text-align:center" |<span style="display:none">0</span>37
+| style="text-align:center" | <span style="display:none">0</span>32
+| style="text-align:center" |
+*102
+*90
+*79
+*72
+*84
+|
+*16% increased damage
+*11% increased critical strike chance
+*15% increased movement speed
+*+40 max life
+*5% increased damage reduction
+*+2 life regen
+*Can move freely in liquids
+*Temporary immunity to lava
+*'''Set Bonus:''' Reduced enemy spawn rates. Increased heart pickup range. Enemies have a chance to drop extra hearts on death
+*'''Tarragon Helm:''' 10% increased melee damage and critical strike chance
+**'''Set Bonus:''' +800 [[Aggro]]. 25% chance to gain the Tarra Life buff when hit. Press {{key|Coverings Set Bonus}} to heavily reduce contact damage for 10 seconds, this has a 30 second cooldown
+*'''Tarragon Visage:''' 10% increased ranged damage and critical strike chance
+**'''Set Bonus:''' With a 1-second cooldown, ranged projectiles split into life energy and leaves on death
+*'''Tarragon Mask:''' 20% increased magic damage, 10% increased magic critical strike chance, +100 max mana and 15% reduced mana cost
+**'''Set Bonus:''' Every 5th critical strike fires a leaf storm. Magic projectiles have a 50% chance to heal on enemy hits, amount healed is based on projectile damage
+*'''Tarragon Horned Helm:''' 5% increased minion damage
+**'''Set Bonus:''' 50% increased minion damage and +3 max minion. Summons a life aura that damages nearby enemies
+*'''Tarragon Helmet:''' 10% increased spy damage and critical strike chance, 12% increased movement speed
+**'''Set Bonus:''' After every 25 spy critical hits grants 3 seconds of damage immunity with a cooldown of 30 seconds. While afflicted with a debuff, 10% increased spy damage. Maximum [[spy stealth]] of 115.
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+*33 {{item|Uelibloom Bar}}
+*36 {{item|Divine Geode}}
+*Crafted at {{item|Ancient Manipulator}}
+|-
+|[[File:Prismatic coverings.png]]
+|[[Prismatic coverings]]
+| style="text-align:center" |<span style="display:none">0</span>18
+| style="text-align:center" |<span style="display:none">0</span>33
+| style="text-align:center" |
+<span style="display:none">0</span>21
+| style="text-align:center" |<span style="display:none">0</span>72
+|
+*40% increased magic damage
+*60% decreased non-magic damage
+*39% increased magic critical strike chance
+* +20 max life
+*+40 max mana
+*2% increased jump speed and 10% increased flight time
+*While no challenges are alive, any enemy with less than 500 max health deals no contact damage to the player
+*Magic attacks have a 20% chance to fire a pair of homing explosive rockets
+*'''Set Bonus:''' +40 max mana and 15% reduced mana cost. Increased mana regeneration. Press {{key|Coverings Set Bonus}} to unleash a barrage of death lasers at the cursor for the next 5 seconds. This has a 30 second cooldown
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+*9 {{item|Coveringsed Shell}}
+* 15 {{item|Exodium Cluster}}
+*18 {{item|Divine Geode}}
+*900 {{item|Nanites}}
+*Crafted at {{item|Ancient Manipulator}}
+|-
+|[[File:Bloodflare coverings.png]] [[File:Bloodflare coverings female.png]]
+|[[Bloodflare coverings]]
+| style="text-align:center" |
+*49
+*34
+*22
+*16
+*28
+| style="text-align:center" |<span style="display:none">0</span>35
+| style="text-align:center" |<span style="display:none">0</span>29
+| style="text-align:center" |*113
+*98
+*86
+*80
+*92
+|
+*22% increased damage
+*15% increased critical strike chance
+*17% increased movement speed
+*+40 max life
+*Free movement in liquids
+*Temporary immunity to lava
+*+10 life regen and +30 defense while in lava
+*'''Set Bonus:''' Greatly increases life regeneration. Enemies below 50% life have a chance to drop hearts when struck. Enemies killed during a Blood Moon have a much higher chance to drop Blood Orbs
+*'''Bloodflare Ram Mask:''' 10% increased melee damage and critical strike chance
+**'''Set Bonus:''' +900 [[Aggro]]. True melee strikes will heal on hit. After striking an enemy 15 times with true melee, a blood frenzy is entered for 5 seconds, giving 25% increased melee damage and critical strike chance and halved contact damage. This effect has a 30 second cooldown
+*'''Bloodflare Horned Helm:''' 10% increased ranged damage and critical strike chance
+**'''Set Bonus:''' Press {{key|Coverings Set Bonus}} to unleash the lost souls of Polterghast. This effect has a 30 second cooldown. Ranged weapons have a chance to also fire bloodsplosion orbs
+*'''Bloodflare Hydra Hood:''' 10% increased magic damage and critical strike chance, +100 max mana and 17% reduced mana cost
+**'''Set Bonus:''' Magic weapons fire ghostly bolts every 1.67 seconds and magic critical strikes cause flame explosions every 2 seconds
+*'''Bloodflare Wyvern Helm:''' 5% increased minion damage
+**'''Set Bonus:''' 50% increased minion damage and +3 max minions. Summons Polterghast's mines. When above 90% life, 10% increased minion damage, and when below 50% life, +20 defense and 2 life regen
+*'''Bloodflare Imp Mask:''' 10% increased spy damage and critical strike chance, 15 % increased movement speed
+**'''Set Bonus:''' When above 80% life, +30 and 5% increased spy critical strike chance. When below 80% life, 10% increased spy damage. Spy critical strike heal the player. Maximum [[spy stealth]] of 120
+| style="text-align:center" | {{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+*40 {{item|Bloodstone Core}}
+*9 {{item|Ruinous Soul}}
+*Crafted at {{item|Ancient Manipulator}}
+|-
+|[[File:Omega Blue coverings.png]]
+|[[Omega Blue coverings]]
+| style="text-align:center" |<span style="display:none">0</span>19
+| style="text-align:center" |<span style="display:none">0</span>28
+| style="text-align:center" |<span style="display:none">0</span>22
+| style="text-align:center" |<span style="display:none">0</span>69
+|
+*36% increased damage
+*24% increased critical strike chance
+* 20% increased movement speed
+* Can move freely through liquids.
+*All attacks inflict [[Crush Depth]] on hit.
+*Negates all positive life regen.
+*'''Set Bonus:''' 10% increased damage and critical strike chance, +2 max minions, coverings penetration increased by 15. Summons six tentacles from the player, which automatically attack nearby enemies and have great lifesteal capabilities. Press {{key|Coverings Set Bonus}} to activate [[Abyssal Madness]], buffing damage and critical strike chance and giving the tentacles increased range and aggression. Abyssal Madness lasts for 5 seconds and has a 25 second cooldown.
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+*30 {{item|Reaper Tooth}}
+*19 {{item|Lumenyl}}
+*19 {{item|Tenebris}}
+*9 {{item|Ruinous Soul}}
+*Crafted at {{item|Ancient Manipulator}}
+|-
+|[[File:Hornet Round Coverings.png]]
+|[[Hornet Round Coverings]]
+| style="text-align:center" |<span style="display:none">0</span>40
+| style="text-align:center" |<span style="display:none">0</span>60
+| style="text-align:center" | <span style="display:none">0</span>22
+| style="text-align:center" |<span style="display:none">0</span>122
+|
+*122 defense
+*100% increased ranged damage
+* 100% increased minion damage
+*50% increased movement speed
+*+220 max life and mana
+*+6 max minions
+*all bullets convert into 22 hornet rounds.
+*Standing still grants +2 life regen.
+*'''Set Bonus:'''22 auric dwarfs are defending you, If you press {{key|Coverings set Bonus}} the dwarfs would dissapear but the player would become a hornet that can fly infinetely.
+**Short dwarfs melee the enemy while taller dwarfs shoot the enemy with 22 hornet rounds
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="4" style="text-align:center" |
+*3 {{item|Klepticoin}}
+*66 {{item|Scoria Bar}}
+*66 {{item|Soul of Plight}}
+*66 {{item|22 Hornet Round}}
+*Crafted at {{item|Aquatic Hypercomputer ERM}}
+|-
+|[[File:Silva coverings.png]] [[File:Silva coverings female.png]]
+|[[Silva coverings]]
+| style="text-align:center" |*21
+*13
+| style="text-align:center" |<span style="display:none">0</span>44
+| style="text-align:center" |<span style="display:none">0</span>39
+| style="text-align:center" |
+*104
+*96
+|
+*24% increased damage
+*15% increased critical strike chance
+*19% increased movement speed
+*+80 max life
+*'''Set Bonus:''' All projectiles spawn healing leaf orbs on enemy hits Max run speed and acceleration boosted by 5% If the player is reduced to 1 HP, the player will not die from any further damage for 8 seconds. This effect only triggers once per life.
+*'''Silva Masked Cap:''' 23% increased magic damage, 13% increased critical strike chance, +100 max mana and 19% reduced mana cost
+**'''Set Bonus:''' With a 5-second cooldown, magic projectiles which cannot pierce cause an explosion on enemy hits.
+*'''Silva Horned Hood:''' 10% increased minion damage
+**'''Set Bonus:''' 65% increased minion damage and +5 max minions. Summons an ancient leaf prism.
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+*22 {{item|Effulgent Feather}}
+*22 {{item|Any Gold Bar}}
+*27 {{item|Tenebris}}
+* 7 {{item|Ascendant Spirit Essence}}
+*1 {{item|Lead Core}}
+* Crafted at {{item|Cosmic Anvil}}
+|-
+|[[File:Horseslime coverings.png]]
+| [[Horseslime coverings]] {{dei}}
+| style="text-align:center" |
+* 44
+*33
+*24
+*18
+*38
+| style="text-align:center" | <span style="display:none">0</span>56
+| style="text-align:center" |<span style="display:none">0</span>44
+| style="text-align:center" |
+*144
+* 133
+*124
+*118
+*138
+|
+*7% increased [[Damage Reduction]]
+*15 extra [[Immunity frames]]
+*+5 life regen
+*+15 coverings penetration
+*20% increased movement speed
+*'''Set Bonus:''' Walking and running will leave a trail of dark slime that deals 1000 typeless damage Jump speed is increased by 20% All non-summoner attacks have a 20% chance of shooting a fireball that deals 1500 typeless damage If the player is at 50% of their life or below, they will gain 35 defense and +8 life regen Most non-class Statigel set bonus effects
+*'''Goopocalypse War Helm:''' 20% increased melee damage, 30% increased true melee damage, and 12% increased melee critical strike chance
+**'''Set Bonus:''' +700 [[Aggro]]. Melee Statigel effects. Causes true melee strikes to heal on hit
+*'''Goopocalypse Death Helmet:''' 20% increased ranged damage and 12% increased ranged critical strike chance
+**'''Set Bonus:''' Ranged Statigel effects.
+*'''Goopocalypse Famine Hat:''' 20% increased magic damage and 15% increased magic critical strike chance, +80 mana, and 15% reduced mana cost**'''Set Bonus:''' Magic Statigel effects. Grants the effects of [[Magic Cuffs]]
+*'''Goopocalypse Phantasmal Collar:''' 5% increased minion damage
+**'''Set Bonus:''' Summoner Statigel effects. 55% increased minion damage, +3 max minions, and +1 max sentries. Summons an apparition that will shoot fireballs at enemies, these fireballs deal 900 summon damage
+*'''Goopocalypse Conquest Visor:''' 25% increased spy damage and 12% increased spy critical strike chance
+**'''Set Bonus:''' Spy Statigel effects. Maximum [[spy stealth]] of 100
+| style="text-align:center" |[[File:Poison (element).png]][[File:Dark (element).png]][[File:Holy (element).png]]
+| style="text-align:center" |[[File:Fire (element).png]][[File:Magic (element).png]][[File:Unholy (element).png]]
+| colspan="2" style="text-align:center" |
+*1 {{item|Statigel coverings}}
+*20 {{item|Quark-Gluon Sludge}}
+* 20 {{item|Life Alloy}}
+* 10 {{item|Omnicidal Sludge Bar}}
+*Crafted at {{item|Entropic Refiner}}
+|-
+| [[File:Auric Tesla coverings.png]]
+| [[Auric Tesla coverings]]
+| style="text-align:center" |
+*54
+*40
+* 24
+*12
+*34
+| style="text-align:center" |<span style="display:none">0</span>48
+| style="text-align:center" | <span style="display:none">0</span>44
+| style="text-align:center" |
+*146
+*132
+*116
+*104
+*126
+|
+*20% increased damage
+*10% increased critical strike chance
+*20% increased movement speed
+* +100 max life
+* Standing still grants 20% increased damage and critical strike chance and a significant boost to knockback
+*Nearby enemies are frozen when taking damage
+*Magic carpet deploys when out of flight time
+*'''Set Bonus:''' All non-class Tarragon and Bloodflare set bonus effects Godslayer coverings set bonus effects for Auric Tesla Royal Helm, Hooded Facemask and Plumed Helm Silva coverings set bonus effects for Auric Tesla Wire-Hammed Facemask and Space Helmet All projectiles spawn healing auric orbs on enemy hits
+*'''Auric Tesla Royal Helm:''' 20% increased melee damage and critical strike chance
+**'''Set Bonus:''' +1200 [[Aggro]]. Melee Tarragon, Bloodflare, and Godslayer coverings effects.
+*'''Auric Tesla Hooded Facemask:''' 30% increased ranged damage and critical strike chance
+**'''Set Bonus:''' Ranged Tarragon, Bloodflare, and Godslayer coverings effects.
+*'''Auric Tesla Wire-Hemmed Visage:''' 30% increased magic damage, 20% increased magic critical strike chance, +100 max mana and 20% reduced mana cost
+**'''Set Bonus:''' Magic Tarragon, Bloodflare, and Silva coverings effects. Max run speed and acceleration boosted by 5%
+*'''Auric Tesla Space Helmet:''' 15% increased minion damage
+**'''Set Bonus:''' 75% increased minion damage and +6 max minions. Summoner Tarragon, Bloodflare, and Silva coverings effects. Max run speed and acceleration boosted by 5%
+*'''Auric Tesla Plumed Helm:''' 20% increased spy damage, critical strike chance, and movement speed
+**'''Set Bonus:''' Spy Tarragon, Bloodflare, and Godslayer coverings effects. Maximum [[spy stealth]] of 130
+| style="text-align:center" |{{na}}
+| style="text-align:center" | {{na}}
+| colspan="2" style="text-align:center" |
+*1 {{item|Silva coverings}}
+''or''*1 {{item|God Slayer coverings}}
+*1 {{item|Bloodflare coverings}}
+*1 {{item|Tarragon coverings}}
+* 45 {{item|Auric Bar}}
+*1 {{item|Psychotic Amulet}}
+*1 {{item|Frost Barrier}}
+*1 {{item|Flying Carpet}}
+*Crafted at {{item|Cosmic Anvil}}
+|-
+|[[File:Elderstone Coverings.png]]
+|[[Elderstone Coverings]]
+| style="text-align:center" |<span style="display:none">0</span>60
+| style="text-align:center" |80
+| style="text-align:center" |60
+| style="text-align:center" |<span style="display:none">0</span>200
+|
+*50% decreased movement speed
+*100% increased damage
+*Grants the player immunity to knockback
+*'''Set Bonus:''' Creates the [[Xeroc's Eye]] that fights for you
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+*3 {{item|Rock}}
+*Crafted at {{item|Aquatic Hypercomputer ERM}}
+|-
+|[[File:Demonshade coverings.png]]
+|[[Demonshade coverings]]
+| style="text-align:center" |<span style="display:none">0</span>50
+| style="text-align:center" |50
+| style="text-align:center" |50
+| style="text-align:center" |<span style="display:none">0</span>150
+|
+* 45% increased damage
+*30% increased critical strike chance
+*20% increased melee speed
+*30% increased movement speed
+*+200 max life and mana
+*Enemies have 100x their contact damage reflected back at them when hitting the player
+*Standing still grants +34 life regen
+*'''Set Bonus:''' 100% increased minion damage and +10 max minions. All attacks inflict [[Demon Flames]]. Shadowbeams and demon scythes will fire down when hit. Summons a friendly red devil. Pressing {{key|Coverings Set Bonus}} causes the player to receive 25% more damage but deal 125% more damage to enemies and also enrage nearby enemies.
+| style="text-align:center" |{{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |
+*45 {{item|Shadowspec Bar}}
+*Crafted at {{item|Draedon's Forge}}
+|-
+|[[File:Entropic Coverings.png]]
+| [[Entropic Coverings]]
+| style="text-align:center" |<span style="display:none">0</span>30
+| style="text-align:center" | 20
+| style="text-align:center" |30
+| style="text-align:center" |<span style="display:none">0</span>80
+|
+*80 defense
+*140% increased movement speed
+*140% increased damage
+*200 max health and mana
+*80% chance to not waste ammo/mana/consumable spy weapons
+*All attacks inflict Noxus Fumes
+| style="text-align:center" |
+{{na}}
+| style="text-align:center" |{{na}}
+| colspan="2" style="text-align:center" |*Drops from [[Purgatory Arbiter, Umbrus]]
+|}
+==Miscellaneous==
+{| class="terraria lined sortable"
+! class="unsortable " |Appearance
+! style="font-size:90%;" data-sort-type="number" |Item
+! style="font-size:90%;" data-sort-type="number" | Body Slot
+! style="font-size:90%;" data-sort-type="number" |Defense
+! class="unsortable" width="50%" |Bonuses / Effects / Notes
+! class="unsortable" |Cost / Source / Crafted At
+|-
+|[[File:Forbidden Circlet (equipped).png]] [[File:Forbidden Circlet female.png]]
+|[[Forbidden Circlet]]
+| style="text-align:center" |Head
+| style="text-align:center" |1
+|
+*10% increased summon damage and 15% increased spy velocity
+*'''Set Bonus ([[Forbidden coverings]]):'''
+**Gives a max [[stealth]] of 40.
+**Reduces the [[Vanilla changes#Minions|summon penalty]] to 75% instead of the usual 50% while holding [[spy weapons]].
+**[[Stealth strike]]s summon 6 homing Forbidden Eaters that each deals 40 base damage added by 5% of the projectile's damage on every enemy hit, with a cooldown of 0.25 second.
+**Pressing {{key|Coverings Set Bonus}} will summon an Ancient Storm for 50 mana. The storm deals 100 base damage and is affected by mana cost reduction, mana sickness, summon damage bonuses, and spy damage bonuses. The storm has a cooldown of 0.33 second before it can be summoned again.
+| style="text-align:center" |
+* 1 {{item|Forbidden Fragment}}
+*10 {{item|Any Adamantite Bar}}
+*Crafted at {{item|Mythril Anvil}}
+|-
+|
+[[File:Shroomite Visage (equipped).png]] [[File:Shroomite Visage female.png]]
+|[[Shroomite Visage]]
+| style="text-align:center" |Head
+| style="text-align:center" |11
+|
+*25% increased ranged damage for [[flamethrowers]]
+*'''Set Bonus ([[Shroomite coverings]]):''' Not moving puts you in stealth, increasing ranged ability and reducing chance for enemies to target you.
+| style="text-align:center" |
+*12 {{item|Shroomite Bar}}
+*Crafted at {{item|Mythril Anvil}}
+|}
+==Vanilla Coverings Set Changes==
+===Pre-Hardmode Ore Coverings ===
+{| class="terraria lined sortable"
+! class="unsortable" |Appearance
+! width="80" |Set
+! class="unsortable" |Bonuses / Effects / Notes
+|-
+|[[File:Copper coverings.png]]
+|[[Copper coverings]]
+|
+*'''Set Bonus:''' +2 defense and 15% increased mining speed
+|-
+|[[File:Tin coverings.png]]
+|[[Tin coverings]]
+|
+*'''Set Bonus:''' +2 defense and 10% increased mining speed
+|-
+|[[File:Iron coverings.png]]
+|[[Iron coverings]]
+|
+*'''Set Bonus:''' +2 defense and 25% increased mining speed
+|-
+| [[File:Lead coverings.png]]
+|[[Lead coverings]]
+|
+*'''Set Bonus:''' +3 defense and 20% increased mining speed
+|-
+|[[File:Silver coverings.png]]
+|[[Silver coverings]]
+|
+*'''Set Bonus:''' +3 defense and 35% increased mining speed
+|-
+| [[File:Tungsten coverings.png]]
+|[[Tungsten coverings]]
+|*'''Set Bonus:''' +3 defense and 30% increased mining speed
+|-
+|[[File:Gold coverings.png]]
+|[[Gold coverings]]
+|
+*'''Set Bonus:''' +3 defense and 45% increased mining speed
+|-
+|[[File:Platinum coverings.png]]
+|[[Platinum coverings]]
+|
+*'''Set Bonus:''' +4 defense and 40% increased mining speed
+|
+|}
+===Spy coverings ===
+{| class="terraria lined sortable"
+! class="unsortable" |Appearance
+! width="80" |Set
+! class="unsortable" |Bonuses / Effects / Notes
+|-
+|[[File:Gladiator coverings.png]]
+|[[Gladiator coverings]]
+|*3% increased spy damage
+*3% increased spy critical strike chance
+*3% increased spy velocity
+*'''Set Bonus:''' +3 defense and 5% increased spy damage and 10% increased velocity. Maximum [[spy stealth]] of 70.
+|
+|-
+|[[File:Obsidian coverings.png]]
+|[[Obsidian coverings]]
+|
+*3% increased spy damage
+*3% increased spy critical strike chance
+*3% increased spy velocity
+*'''Set Bonus:''' +2 defense and 5% increased spy damage and critical strike change. Grants immunity to fire blocks and temporary immunity to lava Maximum [[spy stealth]] of 80
+|
+|}
+===Balancing===
+{| class="terraria lined sortable"
+! class="unsortable" |Appearance
+! width="80" |Set
+! class="unsortable" |Vanilla Bonuses/Effects
+! class="unsortable" |Calamity Bonuses/Effects
+|-
+|
+[[File:Snow coverings.png]][[File:Pink_Snow_coverings.png]]
+| [[Eskimo coverings]] and
+[[Pink Eskimo coverings]]
+|{{na}}
+|*'''Set Bonus:''' All ice-themed damage over time debuffs receive a 50% damage bonus Cold enemies will deal reduced contact damage to the player Provides immunity to the Frostburn and Glacial State debuffs
+|-
+|[[File:Meteor coverings.png]]
+|[[Meteor coverings]]
+|
+*'''Set Bonus:''' Makes the mana cost of the [[Space Gun]] zero
+|*'''Set Bonus:''' Reduces the mana cost of the Space Gun by 50%
+|-
+|[[File:Molten coverings.png]]
+|[[Molten coverings]]
+|
+*'''Set Bonus:''' 17% extra melee damage.
+|
+*'''Set Bonus:''' 20% extra true melee damage. Additionally grants immunity to fire blocks, and temporary immunity to lava.
+|-
+|[[File:Gladiator coverings.png]]
+|[[Gladiator coverings]]
+|
+*Gladiator Helmet grants 2 defense
+* Gladiator Breastplate grants 3 defense
+*Gladiator Leggings grant 2 defense
+*Total defense granted is 7
+|*Gladiator Helmet grants 3 defense
+*Gladiator Breastplate grants 5 defense
+*Gladiator Leggings grant 4 defense
+* Total defense granted is 15 with set bonus.
+|-
+|[[File:Spider coverings.png]]
+|[[Spider coverings]]
+|
+* Spider Mask increases minion damage by 5%.
+*Spider Breastplate increases minion damage by 5%.
+|*Spider Mask increases minion damage by 6%.
+*Spider Breastplate increases minion damage by 6%.
+|-
+|[[File:Cobalt coverings.png]]
+|[[Cobalt coverings]]
+|*Cobalt Hat grants 2 defense and increases maximum mana by 40.
+*Cobalt Helmet grants 12 defense.
+*Cobalt Mask grants 4 defense.
+* Cobalt Breastplate grants 8 defense.
+*Cobalt Leggings grant 8 defense.
+*Total defense granted is 18/28/20.
+|
+* Cobalt Hat grants 4 defense and increases maximum mana by 60.
+*Cobalt Helmet grants 16 defense.
+*Cobalt Mask grants 7 defense.
+*Cobalt Breastplate grants 11 defense.
+*Cobalt Leggings grant 10 defense.
+*Total defense granted is 25/37/28.
+*'''Set Bonus:''' 10% increased max speed and acceleration. Gain damage and and critical strike chance boost based on your current movement speed, up to 10% each.
+|-
+|
+[[File:Palladium coverings.png]]
+|[[Palladium coverings]]
+|
+*Palladium Headgear grants 3 defense, 9% increased magic damage, and 9% increased magic critical strike chance.
+*Palladium Mask grants 14 defense.
+*Palladium Helmet grants 5 defense.
+*Palladium Breastplate grants 10 defense and 3% increased damage.
+* Palladium Leggings grant 8 defense and 2% increased damage.
+* Total defense granted is 21/32/23.
+|
+*Palladium Headgear grants 5 defense, 7% increased magic damage, and 7% increased magic critical strike chance.
+*Palladium Mask grants 15 defense
+*Palladium Helmet grants 8 defense
+*Palladium Breastplate grants 13 defense and 7% increased damage.
+*Palladium Leggings grant 11 defense and 7% increased damage.
+*Total defense granted is 29/39/32.
+*'''Set Bonus:''' Greatly increases life regeneration after striking an enemy
+|-
+|[[File:Mythril coverings.png]]
+|[[Mythril coverings]]
+|
+*Mythril Hood increases maximum mana by 60.
+*Mythril Helmet grants 8% increased melee critical strike chance, and an additional 10% melee critical strike chance with the set bonus.
+*Mythril Chainmail grants 7% increased damage.
+*Mythril Greaves grant 10% increased critical strike chance.
+|
+*Mythril Hood increases maximum mana by 80.
+*Mythril Helmet grants 5% increased melee critical strike chance, and an additional 5% melee critical strike chance with the set bonus.
+* Mythril Chainmail graints 12% increased damage.
+*Mythril Greaves grant 14% increased critical strike chance.
+*'''Set Bonus:''' Enemy hits release Mythril flares, which home in on enemies after a short delay. Mythril flares deal 40% of the damage of the attack that spawned them, softcapped at 105 damage, and have a 9 frame delay before another can be spawned.
+|-
+|[[File:Orichalcum coverings.png]]
+|[[Orichalcum coverings]]
+|
+*Orichalcum Headgear grants 4 defense.
+*Orichalcum Mask grants 19 defense, 11% increased melee damage, and 11% increased melee speed.
+*Orichalcum Helmet grants 7 defense.
+*Orichalcum Breastplate grants 13 defense and 6% increased critical strike chance.
+*Orichalcum Leggings grant 10 defense.
+*Total defense granted is 27/42/30.
+|
+*Orichalcum Headgear grants 6 defense.
+*Orichalcum Mask grants 22 defense, 7% increased melee damage, and 7% increased melee speed.
+*Orichalcum Helmet grants 10 defense.
+*Orichalcum Breastplate grants 16 defense and 10% increased critical strike chance.
+*Orichalcum Leggings grant 14 defense.
+*Total defense granted is 36/52/40.
+|-
+|[[File:Adamantite coverings.png]]
+|
+[[Adamantite coverings]]
+|
+*Adamantite Headgear grants 12% increased magic damage, 12% increased magic critical strike chance, and increases maximum mana by 80.
+*Adamantite Mask grants 10% increased ranged critical strike chance.
+* Adamantite Breastplate grants 8% increased damage.
+*Adamantite Leggings grant 7% increased critical strike chance.
+|
+*Adamantite Headgear grants 11% increased magic damage, 11% increased magic critical strike chance, and increases maximum mana by 100.
+*Adamantite Mask grants 8% increased ranged critical strike chance.
+*Adamantite Breastplate grants 6% increased damage.
+* Adamantite Leggings grant 4% increased critical strike chance.
+*'''Set Bonus:''' Half your damage reduction is added to your critical strike chance. Continuously doing damage grants an increasing amount of defense, up to 30. This defense decays while not dealing damage and can be affected by defense damage.
+|-
+|[[File:Titanium coverings.png]]
+|[[Titanium coverings]]
+|
+* Titanium Mask grants 9% increased melee damage, 9% increased melee speed, and 9% increased melee critical strike chance.
+|
+*Titanium Mask grants 8% increased melee damage, 8% increased melee speed, and 8% increased melee critical strike chance.
+|-
+|[[File:Forbidden coverings.png]]
+|[[Forbidden coverings]]
+|{{na}}
+|
+*'''Set Bonus:''' Reduces the mod's [[Vanilla Changes#Minions|summoner damage penalty]].
+|-
+|[[File:Hallowed coverings (old).png]]
+|[[Hallowed coverings]]
+|
+*Hallowed Plate Mail grants 15 defense
+*Hallowed Greaves grant 11 defense
+*Total defense granted is 31/50/35
+|
+*Hallowed Plate Mail grants 18 defense
+*Hallowed Greaves grant 13 defense
+*Total defense granted is 36/55/40
+|-
+|[[File:Beetle coverings.png]]
+|[[Beetle coverings]]
+|
+*'''Set Bonus (Shell):''' Beetles buff the player by +15% damage reduction.
+|
+*'''Set Bonus (Shell):''' Effect of the beetles is reduced to increase damage reduction by 10%/20%/30%.
+|-
+|[[File:Spectre Hood.png]]
+|[[Spectre Hood]]
+|
+*40% decreased magic damage
+|
+*20% decreased magic damage
+|-
+|[[File:Spectre Mask.png]]
+|[[Spectre Mask]]
+|
+*Set Bonus's Missiles:
+**Homing projectiles do normal damage
+|
+*Set Bonus's Missiles
+**Homing projectiles deal 30% less damage
+|-
+|[[File:Solar Flare coverings.png]]
+|[[Solar Flare coverings]]
+|
+*Solar Flare Helmet grants 24 defense
+*Solar Flare Breastplate grants 34 defense
+*Solar Flare Leggings grant 20 defense
+*Total defense granted is 78
+|
+*Solar Flare Helmet grants 29 defense
+*Solar Flare Breastplate grants 41 defense
+*Solar Flare Leggings grant 24 defense
+*Total defense granted is 94
+*The distance of its Solar Blaze is increased
+|-
+|[[File:Vortex coverings.png]]
+|[[Vortex coverings]]
+|
+*'''Set Bonus:''' Stealth mode provides 80% ranged damage and 20% ranged crit.
+|
+*'''Set Bonus:''' Stealth mode provides 40% ranged damage and 15% ranged crit.
+|-
+|[[File:Nebula coverings.png]]
+|[[Nebula coverings]]
+|
+*Set Bonus's Boosters:
+**Damage Boosters buff the player by +15% damage for 8 seconds
+**Life Boosters increase health regeneration by 5 per second for 8 seconds
+**Mana Boosters increase mana regeneration (about 10 per second) for 8 seconds
+|
+*Set Bonus's Boosters:
+**Effect of the Damage Boosters is halved to increase damage by 7.5%/15%/22.5%.
+**Effect of the Life Boosters is halved to increase life regeneration by 2.5/5/7.5 per second.
+|}
+==See also==
+*[[tgc:Coverings|Coverings]] on the vanilla Terraria wiki
+*The [[Minions#Coverings Set Minions|minions]] summoned by certain covering sets.
+{{Master Template Equipables
+|show-main = yes
+|show-coverings = yes
+}}
+[[Category:Covering items|*]]

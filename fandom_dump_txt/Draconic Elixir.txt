@@ -1,0 +1,35 @@
+{{item infobox
+| type = Potion
+| image = Draconic Elixir.gif
+| use = 17
+| stack = 9999
+| tooltip = Greatly increases wing flight time and speed and increases defense by 16<br/>Silva invincibility heals you to half HP when triggered<br/>If you trigger the above heal you cannot drink this potion again for 60 seconds and you gain 30 seconds of potion sickness
+| consumable = yes
+| rare = 15
+| buff = Draconic Surge | bufflink = no
+| duration = 8 minutes
+| bufftip = The power of a dragon courses through your veins
+| debuff = Draconic Surge Cooldown | debufflink = no
+| debufftip = A mysterious force prevents the absorption of draconic energy
+| debuffduration = 1 minute
+| sell={{value|0|0|40|0}}
+| boxwidth = 24em
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Draconic Elixir''' is a craftable Godseeker Mode [[buff potion]]. Upon consumption it grants the '''Draconic Surge''' buff which increases the flight time of [[Wings]] by 20%, increases maximum flight speed and acceleration by 15%, and grants 16 [[defense]].
+
+If the player is wearing [[Silva armor]] or Auric Tesla armor and takes fatal damage, [[Silva Immunity]] will also heal them to half their health. If either revive effect is triggered, the player loses the Draconic Surge buff, disallowing them from drinking another Draconic Elixir for 1 minute, in addition to adding 30 seconds of [[Potion Sickness]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+== Notes ==
+*The [[Philosopher's Stone]] and its upgrades will not lower the duration of Potion Sickness added by this potion.
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

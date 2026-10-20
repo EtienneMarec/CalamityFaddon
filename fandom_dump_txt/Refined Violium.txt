@@ -1,0 +1,26 @@
+{{item infobox
+| image = Refined Violium.png
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 9999
+| rare = 8
+| sell = {{value|0|2|50|0}}
+| use = 14
+| placeable = yes
+| consumable = yes
+| auto = true
+| hardmode = yes
+| postml = no
+| tooltip = Its geometric perfection mesmerizes you
+}}
+
+'''Refined Violium''' is a post-[[Fatal Circuit]] [[Bars|bar]] made with 2 [[Violium Ore]] at any [[Hardmode Forges|Hardmode Forge]]. It is used to craft various weapons and armor, as well as [[Life Alloy]] when combined with [[Refined Ferozium]] and [[Refined Aegisalt]] after [[Golem]] has been defeated.
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}

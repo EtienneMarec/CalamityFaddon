@@ -1,0 +1,38 @@
+{{dedicated|OnyxInc|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 1178
+| critical = 44%
+| knockback = 10
+| use = 300
+| tooltip = Semi-automatic sniper that fires in 5 second bursts<br/>Fires impact rounds that have an increased crit multiplier
+| velocity = 12
+| stack = 1
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| element1 = Fire
+| element2 = Stab
+}}
+
+The '''Rubico Prime''' is a craftable Godseeker Mode [[gun]] that is the direct upgrade to the [[Pestilent Defiler]]. When used, a high-velocity round is fired every half-second for a total of 10 times. The bullets pierce all tiles and enemies, dealing 25% more damage during a critical strike.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon itself is a reference to the [http://warframe.wikia.com/wiki/Rubico_Prime Rubico Prime] from the video game ''[[wikipedia:Warframe|Warframe]]''.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

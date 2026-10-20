@@ -1,0 +1,34 @@
+{{Historical content}}
+{{addon|Calamity: Tales of the Aquatic}}
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| pickreq = 250
+| stack = 9999
+| auto = yes
+| rare = C1
+| color = #00aaff
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| use = 14
+| sell = No value
+}}
+|{{item drops infobox
+| Illuminal Crystalfish | 2-5 | 100%
+}}
+}}
+
+'''Skylac Crystal''' is a [[block]] that generates in the [[Sky Abyss]]. It requires at least a [[Blossom Pickaxe]] to mine. It cannot be destroyed with [[explosive]]s. It emits light.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+|show-main = yes
+|show-blocks = yes
+}}

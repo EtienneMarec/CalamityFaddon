@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| stack = 9999
+| placeable = yes
+| consumable = yes
+| rare = 0
+| color = #4C4F85
+| auto = yes
+| sell = No value
+| use = 14
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[The Devourer of Gods]]|{{dv|155-265|205-335}}|100%
+}}
+}}
+
+'''Cosmilite Brick''' is a craftable Godseeker Mode [[block]] crafted with [[Cosmilite Bar]]s and [[Stone Block]]s. It is also dropped by [[The Devourer of Gods]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Cosmilite}}
+{{Master Template Tiles
+| show-main   = yes
+| show-blocks = yes
+}}
+[[Category:Block items]]

@@ -1,0 +1,98 @@
+{{item infobox
+| image = The Codebreaker (Completed).gif
+| type = Furniture
+| type2 = Summoning
+| placeable = yes
+| stack = 9999
+| auto = yes
+| width = 5
+| height = 8
+| use = 14
+| rare = Varies
+| color = #5C6B70
+| sell = No value
+}}
+
+'''The Codebreaker''' is a piece of constructible [[furniture]] that consists of six different components scattered throughout progression: '''Codebreaker Base''', '''Decryption Computer''', '''Long Ranged Sensor Array''', '''Advanced Display''', [[Honey Cooling Cell]], '''Voltage Regulation System''', and '''Auric Quantum Cooling Cell'''. It is used to decrypt [[schematics]] to unlock various items, to initiate the battle with [[The Fabricational Quartet]], [[XP-00 Hypnos]], and [[XB-10 Losbaf]] [[bosses]], to unlock the [[Murasama]] once the Voltage Regulation System has been installed, by inserting the Murasama into the Schematic slot and the desired gem color in the Power Cell slot, and to communicate with '''Draedon'''.
+
+== Components ==
+{{item/options|nolink=y|anchor=y}}
+<table-progress-tracking table-id="1" unique-column-index="2">
+{| class="terraria lined"
+|-
+! colspan=2 | Item !! Tooltip !! Rarity !! Function !! Placed Image
+|-
+| {{item|Codebreaker Base|mode=table}}
+| {{na}}
+| {{rare|3}}
+| Allows other components to be placed on top of
+| [[File:The Codebreaker (Base).png]]
+|-
+| {{item|Decryption Computer|mode=table}}
+| Can be placed on the Codebreaker<br/>Allows you to decrypt advanced schematics<br/>Doing so allows you to learn how to craft new things
+| {{rare|3}}
+| Allows access to the Decryption UI<br/>Capable of decrypting {{item|Encrypted Schematic (Planetoid)}}
+| [[File:The Codebreaker (Decryption Computer).gif]]
+|-
+| {{item|Long Ranged Sensor Array|mode=table}}
+| Can be placed on the Codebreaker
+| {{rare|5}}
+| Allows {{item|Encrypted Schematic (Jungle)}} to be decrypted
+| [[File:The Codebreaker (Long Ranged Sensor Array).gif]]
+|-
+| {{item|Advanced Display|mode=table}}
+| Can be placed on the Codebreaker
+| {{rare|8}}
+| Allows {{item|Encrypted Schematic (Underworld)}} to be decrypted
+| [[File:The Codebreaker (Advanced Display).gif]]
+|-
+| {{item|Honey Cooling Cell|mode=table|link=Honey Cooling Cell}}
+| Can be placed on the Codebreaker<br/>Passively spawns bees to attack enemies near the codebreaker
+| {{rare|8}}
+| Passively spawns bees to attack enemies that try to attack The Codebreaker
+| [[File:Honey Cooling Cell.png]]
+|-
+| {{item|Voltage Regulation System|mode=table}}
+| Can be placed on the Codebreaker
+| {{rare|12}}
+| Allows {{item|Encrypted Schematic (Ice)}} to be decrypted
+| [[File:The Codebreaker (Voltage Regulation System).png]]
+|-
+| {{item|Auric Quantum Cooling Cell|mode=table}}
+| Can be placed in the Codebreaker, completing it<br/>The completion of the Codebreaker allows you to make contact with its original creator<br/>{{color|Attempting to do so may have dire consequences|#8B0000}}
+| {{rare|15}}
+| Reduces decryption time from 2 minutes to 15 seconds<br/>Allows Draedon to be contacted
+| [[File:The Codebreaker (Auric Quantum Cooling Cell).gif]]
+|}
+</table-progress-tracking>
+==Communicate==
+*After defeating either [[The Fabricational Quartet]], or [[XP-00 Hypnos]], the Contact icon will appear in the codebreaker's UI, therefore allowing the player to communicate with '''Draedon'''. 
+{{info request|Needs codebreaker dialogues}}
+== Crafting ==
+=== Recipe ===
+Most components of The Codebreaker are required to be unlocked through decryption. {{schematic|tooltip|plural=1}}
+
+The requirements are listed as follows:
+*'''Codebreaker Base''' has no special requirements.
+*'''Decryption Computer''' requires the Sunken Sea schematic to be found.
+*'''Long Ranged Sensor Array''' requires the Planetoid schematic to be decrypted.
+*'''Advanced Display''' requires the Jungle schematic to be decrypted.
+*'''Voltage Regulation System''' requires the Hell schematic to be decrypted.
+*'''Auric Quantum Cooling Cell''' requires the Ice ({{fantag|Calamity: Community Remix}} Exosphere) schematic to be decrypted. However, it can also be crafted if the world was created before the [[1.5.0.001]] update.
+
+{{recipes|result=Codebreaker Base/Decryption Computer/Long Ranged Sensor Array/Advanced Display/Voltage Regulation System/Auric Quantum Cooling Cell|link=yes}}
+
+== Notes ==
+*The Codebreaker cannot be destroyed by [[explosive]]s.
+*Although the codebreaker base is only a 5x3 model, it still requires enough space for the 5x8 fully upgraded code breaker to be placed down.
+*UI scaling breaks the menu, if you are having issues with the menu try setting the UI scale to 150%.
+*Although the Honey Cooling Cell doesn't unlock any new recipes, it is still required in order to complete The Codebreaker and summon Draedon.
+
+== Trivia ==
+*The [[Music|Theme]] that plays when communicating with Draedon is a slightly altered version of [https://www.youtube.com/watch?v=Py9lmMSWhb0 Signal Recieved], composed by [https://www.youtube.com/@CDMusicYT CDMusic].
+
+{{-}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

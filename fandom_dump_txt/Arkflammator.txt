@@ -1,0 +1,49 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = ranged
+| damage = 240
+| knockback = 0
+| rare = C4
+| sell = {{value|10}}
+| stack = 2
+| auto = yes
+| use = 1
+| velocity = 50
+| debuff = Noctactricity
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Unholy
+| element2 = Dark
+| proj = Arkflammator Scythe.png
+| projcaption= Scythe
+| image2 = Arkflammator (tank).png
+| image2caption = Equipped tank
+}}
+
+
+The '''Arkflammator''' is a craftable Epilogue [[flamethrowers|flamethrower]]. It fires purple Scythes infinetely pierce enemies and tiles and create arcs that inflict the [[Noctactricity]] debuff
+
+Note that, unlike other flamethrowers, it lacks a chance to not consume gel meaning the player should make sure they do not run out of ammo at an inopportune time.
+
+It can be considered a counterpart to [[Ifflamator]]
+
+{{Modifier|ranged}}
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Flamethrowers]]

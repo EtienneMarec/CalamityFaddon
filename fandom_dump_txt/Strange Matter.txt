@@ -1,0 +1,29 @@
+{{addon|Deimos, the Starborn Princess}}
+{{infobox wrapper
+|{{item infobox
+| image = Strangematter.gif
+| type = Crafting material
+| stack = 9999
+| rare = 13
+| use = 14
+| value = 975
+| color = #FFBFCA
+| placeable = yes
+| sell = {{value|0|2|0}}
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Empyreon]]| {{dv|15-22|22-30}} | 100%
+| {{dei}} [[Rust Slime]] | 2-6 | 100%
+}}
+}}
+
+'''Strange Matter''' is a Godseeker Mode [[crafting material]] that drops from [[Empyreon]] and [[Rust Slime]]s. It can be used to craft several items including upgrades to some pre-[[The Starborn Moth|Starborn Moth]] [[tgc:Martian Madness|Martian Madness]] loot.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Starborn}}
+{{-}}
+{{DeimosMod}}

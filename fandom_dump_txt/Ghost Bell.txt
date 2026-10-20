@@ -1,0 +1,45 @@
+{{npc infobox
+| type = Aquatic
+| ai = Ghost Bell AI
+| environment = Sunken Sea
+| life = {{dv|120|240}} (in [[Pre-Hardmode]])<br/>{{dv|400|800}} (in [[Hardmode]])
+| damage = {{element|Water}} {{dv|25|boost=0.25}} (in [[Pre-Hardmode]])<br/>{{element|Water}} {{dv|75|boost=0.25}} (in [[Hardmode]])
+| defense = 0 (in [[Pre-Hardmode]])<br/>10 (in [[Hardmode]])
+| knockback = 100
+| money = {{value|0|0|20}} (pre-[[Hardmode]])<br/>{{value|0|0|2}} ([[Hardmode]])
+| debuff = Electrified
+| debuffchance = 100%
+| duration = 2 seconds
+| debufftip = You cannot move
+| boxwidth = 22em
+| banner = yes
+| custom| {{item|Voltaic Jelly|note=(After defeating [[Desert Scourge]])|wrap=y}}|20%
+| custom| {{item|Clam Chowder|note=([[Hardmode]]-only)|wrap=y}} | 2%
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Eutrophication
+| hurt = NPC_Hit_25.wav
+| killed = NPC_Killed_28.wav
+| vulnerable1 = Poison
+| vulnerable2 = Cold
+| vulnerable3 = Slash
+| resistant1 = Water
+| resistant2 = Electricity
+}}
+
+The '''Ghost Bell''' is a [[Pre-Hardmode]] enemy found within the [[Sunken Sea]] that bounces up and down. They are always passive, even if attacked by the player, and only bob up and down in the water. However, despite being passive, they are still able to deal contact damage, and will also inflict the deadly [[Electrified]] debuff on contact.
+
+Ghost Bells receive a boost to their stats when the world enters [[Hardmode]].
+
+== Trivia ==
+*If a Ghost Bell ends up outside of water, it will slowly fall to the ground, at which point it will be completely stationary.
+*Three Ghost Bells are depicted in the Sunken Sea's [[Draedon's Logs#Gallery|Draedon's Log]].
+
+== See Also ==
+*[[Baby Ghost Bell]]
+*[[Rusted Jingle Bell]]
+
+{{-}}<br />{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

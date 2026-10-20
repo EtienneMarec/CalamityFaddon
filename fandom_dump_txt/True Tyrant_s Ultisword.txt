@@ -1,0 +1,77 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 112
+| use = 17
+| velocity = 12
+| knockback = 7.5
+| auto = yes
+| stack = 1
+| tooltip = Fires blazing, hyper, and sunlight blades<br/>Gives the player the tyrant's fury buff on enemy hits<br/>This buff increases melee damage by 30% and melee crit chance by 10%
+| buff = Tyrant's Fury
+| bufftip=30% increased melee damage and 10% increased melee crit chance
+| duration = 5 seconds
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| debuff = Poisoned
+| debuffduration = 5 seconds (Contact)
+| debuffchance = 100%
+| debuff2 = Venom
+| debuffduration2 = 2.5 seconds (Contact)
+| debuffchance2 = 100%
+| debuff3 = On Fire!
+| debuffduration3 = 3 seconds (Red blades)
+| debuffchance3 = 100%
+| debuff4 = Cursed Inferno
+| debuffduration4 = 2 seconds (Green blades)
+| debuffchance4 = 100%
+| debuff5 = Holy Flames
+| debuffduration5 = 3 seconds (Yellow blades)
+| debuffchance5 = 100%
+| element1=  Unholy
+| element2 = Slash
+| element3 = Poison
+}}
+[[File:True Tyrant's Ultisword (demo).gif|frame|right|The True Tyrant's Ultisword being repeatedly swung, with Sunlight blades (non-homing) hitting a [[Target Dummy]], while Blazing Phantom and Hyper blades home in on a [[Super Dummy]].]]
+
+The '''True Tyrant's Ultisword''' is a craftable Godseeker Mode [[broadsword]] that autoswings. On each swing it fires one of three projectiles, chosen at random. Each projectile can pass through walls and hit 5 times before dissipating, and their piercing abilities vary as a result of their different damage-dealing speeds. None of the projectiles fired by the Ultisword can home in on enemies who are behind walls, nor can they chase enemies if inside a wall. If not chasing a foe, the projectiles will gradually slow down and stop similar to those fired by the [[Death Sickle]].
+
+Striking an enemy with the Ultisword itself has a 50% chance to grant the [[Tyrant's Fury]] [[buff]] to the player, increasing melee damage by 30% and melee critical strike chance by 10% for 5 seconds. The blade also inflicts [[Poisoned]] and [[Venom]] debuffs for 5 seconds and 2.5 seconds respectively.
+
+On enemies, these combined debuffs cause the target to be unable to regenerate health and lose 106 health per second. In [[Revengeance Mode|Revengeance]] and [[Death Mode]], they will also lose 20% damage reduction.
+
+{{modifier|melee}}
+
+== Projectile Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Type !! Description !! Debuffs
+|-
+| {{item|Blazing Phantom Blade|mode=table|nolink=y}}
+| Slightly homes into enemies.
+| {{item|On Fire!}} (3 seconds)
+|-
+| {{item|Hyper Blade|mode=table|nolink=y}}
+| Dramatically homes into enemies.<br/>Has a [[immunity frames|hit cooldown]] of 4.
+| {{item|Cursed Inferno}} (2 seconds)
+|-
+| {{item|Sunlight Blade|mode=table|nolink=y}}
+| Does not home into enemies.<br/>Has a hit cooldown of 3.
+| {{item|Holy Flames}} (3 seconds)
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The term “Ultisword” in the weapon’s name is a portmanteau, combining “Ultimate” and “Sword”.
+*Yharim, referred to as the Tyrant in this weapon's name, is a significant figure in the Calamity Mod's [[lore]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

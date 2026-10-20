@@ -1,0 +1,41 @@
+{{npc infobox
+| type = Slime
+| environment = Astral Infection
+| ai = Slime AI
+| damage = {{dv|40|80}} (pre-[[Astrum Aureus]])<br/>{{dv|65|130}} (post-[[Astrum Aureus]])
+| life = {{dv|200|400}} (pre-[[Astrum Aureus]])<br/>{{dv|310|620}} (post-[[Astrum Aureus]])
+| defense = 8 (pre-[[Astrum Aureus]])<br/>18 (post-[[Astrum Aureus]])
+| banner = yes
+| money = {{value|0|0|5}}
+| Stardust | 1-3 | {{dv|50%|100%}}
+| custom | {{item|Astral Ore|note=(After defeating<br/>[[Astrum Deus]])|wrap=y}} ({{dv|8-12|11-16}})| 100%
+| Titan Finger|1|2%
+| custom | {{item|Abandoned Slime Staff|note=(After defeating<br/>[[Astrum Aureus]])|wrap=y}} | 5%
+| knockback = 100
+| hardmode = yes
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance = 100%
+| duration = 2 seconds
+| immune1 = Astral Infection (debuff)
+| immune2 = Kami Flu
+| immune3 = Poisoned
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| resistant1 = Magic
+| resistant2 = Poison
+| resistant3 = Machine
+}}
+
+The '''Astral Slime''' is a [[Hardmode]] [[slime]] that spawns in the [[Astral Infection]] [[biome]]. After defeating [[Astrum Aureus]], Astral Slimes will begin to drop the [[Abandoned Slime Staff]] and after defeating [[Astrum Deus]] they will start dropping [[Astral Ore]].
+
+== Trivia ==
+*In previous versions of the mod, the slime was able to fire lasers at players flying above it.
+*The removed [[Boss]] [[Astrageldon Slime]] used to summon Astral Slimes during the fight.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

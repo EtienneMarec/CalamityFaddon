@@ -1,0 +1,40 @@
+{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = All attacks inflict the Plague debuff<br/>Releases bees when damaged that inflict the Plague<br/>Projectiles spawn plague seekers on enemy hits
+| rare = 9
+| sell = {{value|0|16}}
+| hardmode = yes
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| debuffduration = 2, 4, or 6 seconds (On attack)<br/>5 seconds (Bee/wasp projectiles)<br/>3 seconds (Plague Seekers)
+| proj = Plaguenade Bee.gif
+| projcaption = Plague Seeker
+| element1 = poison
+| element2 = stab
+}}
+
+The '''Plague Hive''' is a [[Hardmode]] [[covering]]. Equipping it grants the following benefits:
+*All of the wearer's attacks inflict the [[Plague]] [[debuff]].
+*All of the wearer's attacks spawn homing plague seekers upon hitting an enemy.
+*Surrounds the wearer in a plague aura that is approximately 40 tiles in diameter. It inflicts Plague and deals 20 damage per tick.
+**Plague seekers deal 25% damage of the attack that spawned them, capped at 30 damage.
+*When the wearer takes damage, several bees are spawned that will seek out and attack nearby enemies.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The player's attacks have a 25% chance to inflict Plague for 6 seconds, a 37.5% chance to inflict Plague for 4 seconds, and a 37.5% chance to inflict Plague for 2 seconds.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

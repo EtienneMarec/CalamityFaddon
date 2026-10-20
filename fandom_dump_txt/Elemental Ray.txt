@@ -1,0 +1,46 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| rare = 11
+| sell = {{value|0|22}}
+| damage = 90
+| velocity = 6
+| use = 16
+| knockback = 7.5
+| tooltip = Casts four celestial beams near the player<br/>Solar beams explode on enemy hits<br/>Nebula beams sweeps a little bit over time<br/>Vortex beams act like fast lightning and electrify enemies on hit<br/>Stardust beams release small stars that home on enemy hits
+| mana = 18
+| auto = yes
+| stack = 1
+| hardmode = yes
+| postml = yes
+| debuff = Elemental Mix
+| debuffduration = 2 seconds (Main beam)
+| debuffchance = 100%
+| element1 = Magic
+}}
+[[file:Elemental Ray (demo).gif|frame|right|The Elemental Ray's smaller beams.]]
+The '''Elemental Ray''' is a craftable Godseeker Mode [[wand]] that is a direct upgrade to the [[Terra Ray]]. It fires four unique beams behind the player, all aiming towards the mouse cursor, each of which behave differently:
+*{{color|Solar|#fE9E23}} beams explode on every enemies hit.
+*{{color|Nebula|#FE7EE5}} beams initially aim towards the mouse, but they immediately sweep in a short clockwise arc before disappearing.
+*{{color|Vortex|#00F2AA}} beams resemble lightning bolts. They do not pierce and are slightly inaccurate, but they inflict the [[Electrified]] debuff.
+*{{color|Stardust|#00AEEE}} beams spawn 2 slow, slightly homing Stardust Bolts upon being fired, and have a chance to spawn another 4 every time it hits an enemy.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Both this weapon and the Terra Ray only require one or two weapon components, making this a fairly simple weapon to craft for its tier.
+
+{{Elemental}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

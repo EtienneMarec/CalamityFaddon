@@ -1,0 +1,27 @@
+{{infobox wrapper
+|{{item infobox
+| image = Effulgent Feather.gif
+| type = Crafting material
+| tooltip = It vibrates with fluffy golden energy
+| stack = 9999
+| rare = 11
+| sell = {{value|0|1|30}}
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Draconic Swarmer]]| 2-4 | 100%
+| [[The Dragonfolly]]| {{dv|11-17|15-21}} | 100%
+}}
+}}
+
+'''Effulgent Feathers''' are Godseeker Mode [[crafting material]]s that drop from [[Draconic Swarmer]]s and [[The Dragonfolly]].   
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

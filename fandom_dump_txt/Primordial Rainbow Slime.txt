@@ -1,0 +1,83 @@
+{{addon|Deimos, the Starborn Princess}}
+{{npc infobox
+| type = Flying Enemy
+| type2 = Slime
+| environment = Caelus
+| ai = Primordial Rainbow Slime AI
+| damage = {{defense damage}} {{element|Fire}}{{element|Cold}}{{element|Holy}} {{dv|400|650|900}} (Contact)<br/>{{element|Fire}}{{element|Slash}}{{element|Holy}} {{dv|250|400|425}} (Exothermal Scythe)<br/>{{defense damage}} {{element|Holy}} {{dv|400|608|640|658}} (Gauss Nuke)
+| life = {{dv|1,500,000|2,300,000}}
+| defense = 150
+| dr = 22
+| knockback = 100
+| banner = no
+| money = {{value|12|5|0|0|3}}
+|group|Six/{{expert|Eight}} of the following 37 items will always drop:|37
+| Copper Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Tin Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Iron Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Lead Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Silver Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Tungsten Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Gold Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Platinum Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Demonite Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Crimtane Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Sea Prism | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Meteorite | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Obsidian | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Hellstone | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Aerialite Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Arsenic Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Silicon Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Cobalt Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Palladium Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Mythril Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Orichalcum Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Charred Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Adamantite Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Titanium Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Cryonic Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Hallowed Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Chlorophyte Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Perennial Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Scoria Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Apocalyptic Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Life Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}} {{fantag|Calamity Loot Swap}}
+| Astral Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Luminite | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Exodium Cluster | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Cosmilite Slag | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Tarragon Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Auric Ore | {{dv|20-52|40-104}} | {{dv|16.22%|21.62%}}
+| Primordial Ore | {{dv|20-52|40-104}} | 100%<br/><small>(When killed with any weapon that is crafted with [[Miracle Matter]])</small>
+| immuneall = yes
+| debuff = Vaporfied
+| debufftip = Vaporizing senses and mind
+| debuffchance = 100% 
+| duration = 7 seconds (Contact)<br/>2 seconds (Scythes)<br/>5 seconds (Gauss Nuke)
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_7.wav
+| sound = Item_33.wav
+| soundtext = Exothermal Scythes
+| sound2 = LargeWeaponFire.wav
+| sound2text = Nuke Launch
+| sound3 = TeslaCannonFire.wav
+| sound3text = Nuke Explosion
+| vulnerable1 = Dark
+| vulnerable2 = Unholy
+| resistant1 = Fire
+| resistant2 = Cold
+| resistant3 = Holy
+}}
+
+The Primordial Rainbow Slime is an Epilogue [[mini boss]] that can rarely spawn around [[Pitchblende]] planetoids found around the top of the [[Caelus]] [[subworld]]. It moves slowly around the player and attacks through releasing an even spread of {{dv|13||||20}} {{Item|Exothermal Scythe|size=30px|ext=gif|nolink=yes}}s in a burst of {{dv|3|||4}}, then immediately after this it will fire a {{item|Gauss Nuke|link=|ext=gif|size=22px}}. This attack will be repeated every {{dv|6||5}} seconds.
+
+The Primordial Rainbow Slime drops an assortment of [[ores]], as well as [[Primordial Ore]] when it is killed with any weapon that is crafted with [[Miracle Matter]]. It can also be detected by the [[Lifeform Analyzer]].
+
+== Trivia ==
+*Primordial Rainbow Slimes appear to be wearing [[Celestial Tracers]]; however, they do not drop them.
+{{-}}
+{{DeimosMod}}

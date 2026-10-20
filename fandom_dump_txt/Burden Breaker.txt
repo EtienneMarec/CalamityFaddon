@@ -1,0 +1,37 @@
+{{malice mode only}}
+{{Historical content}}
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| rare = 5
+| tooltip = The good time<br/>Go fast<br/>WARNING: May have disastrous results<br/>Increases horizontal movement speed beyond comprehension<br/>Does not work while a boss is alive
+| sell = {{value|0|4|80}}
+| stack = 1
+| hardmode = yes
+| listexclude = yes
+}}
+|{{item drops infobox
+|[[Skeletron Prime]]|1| {{malice|100%}}
+}}
+}}
+
+The '''Burden Breaker''' was a [[Hardmode]] [[Legendary]] [[covering]] dropped from [[Skeletron Prime]] in [[Malice Mode]]. When equipped, once the player reached a horizontal speed of 25 mph, it accelerated the player by a factor of 2.5% per frame (roughly 4.4x speed per second), until either a solid block was hit or they achieved a speed of 2557 mph, at which point the player's speed was reset to zero.
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Without any obstacles on their path or when using a flying mount, a player could move a horizontal distance of roughly 2600 feet with this covering before losing all speed.
+*Players could find this covering useful in larger worlds due to the immense travel speed, which could get the player to the edge of the world within seconds.
+*The item's effect is disabled during bossfights.
+*If the player unequipped the item after getting up to speed, they would still be able to maintain their speed, although no longer gaining acceleration.
+*I'm too quick.
+
+{{-}}
+{{historical}}
+{{Legendary Challenge item}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}

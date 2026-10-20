@@ -1,0 +1,27 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 3
+| color = #d4fc8c
+| sell = {{value|0|0|3}}
+| hardmode = yes
+| use = 14
+| tooltip = It resonates with otherworldly energy. <br> Reacts strongly when exposed to Shimmer.
+}}
+
+'''Crystalplate''' is a craftable [[Hardmode]] [[block]]. It can be used as a building material. Additionally, on the [[Get fixed boi]] seed, it will replace [[Elumplate]] in the core of the [[Ice Bio-center Lab]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+
+{{-}}
+{{Plates}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damage = 4
+| use = 15
+| knockback = 3.0
+| critical = 0%
+| velocity = 12
+| stack = 1
+| rare = 2
+| sell = {{value|0|0|40}}
+| tooltip = Shots reduce enemy protection<br/>This weapon scales with all your damage stats at once
+| debuff = Marked
+| debufftip = Damage reduction reduced
+| debuffduration = 8 seconds
+| debuffchance=100%
+| element1 = Dark
+}}
+{{distinguish|Magnum|a finite-use [[classless weapon]]}}
+
+The '''Marked Magnum''' is a [[Pre-Hardmode]] [[classless weapon]] which shoots pink bullet-like projectiles, which get their damage multiplied by damage bonuses from all classes. The projectile inflicts the [[Marked]] [[debuff]] to enemies, which reduces enemy damage reduction by 50%. This weapon does not consume any ammo or mana.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not have any critical strike chance and cannot gain any from [[coverings]], [[Modifier]]s, [[Buff]]s and [[Covering]] bonuses.
+*coverings such as the [[Avenger Emblem]] can contribute to the damage of this weapon many times over. This is because it benefits all damage types at once.
+{{-}}
+{{Onyx}}
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

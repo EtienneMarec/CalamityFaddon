@@ -1,0 +1,10 @@
+Use this template to display a stack limit using a digit display similar to Terraria's in-game stack counters. This is primarily for use within {{tl|item infobox}}.
+
+This takes a number, up to 3 digits, as a single unnamed parameter. <code>|size=</code> may be used to set a custom image size for the digits.
+
+<includeonly>
+<!-- Categories and interwikis go here. -->
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

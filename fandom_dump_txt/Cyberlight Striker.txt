@@ -1,0 +1,39 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 60
+| damagetype = Ranged
+| knockback = 7
+| stack = 1
+| rare = 10
+| sell = {{value|1}}
+| auto = yes
+| use = 60
+| velocity = 64
+| tooltip = Fires a very fast dart that generates bullets that strike your enemies Right click to create a bullseye, if a bullet strikes the bullseye it creates 5 homing darts that fly into the nearest enemies
+| image2 = Daawnlight Spirit Origin Regular Bullseye.png
+| image2caption = Bullseye
+| hardmode = yes
+| postml = yes
+| element1 = Stab
+| element2 = Holy
+}}
+
+The '''Cyberlight Striker''' is a craftable Godseeker Mode [[Dart guns|dart gun]]. It fires a cyberlight dart that fires bullets towards a random direction every 0.1 of a second. If a bullet strikes a bullseye created by right-clicking it converts into 5 Homing darts that deal 80% of the damage.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Dart guns]]

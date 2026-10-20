@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| rare = 3
+| sell = {{value|0|0|0|60}}
+| damage = 25
+| damagetype = Rogue
+| knockback = 3
+| velocity = 10
+| auto = yes
+| stack = 9999
+| consumable = True
+| use = 20
+| tooltip = Fires a honeycomb that shatters into fragments<br/>Grants the honey buff to the player it touches<br/>Stealth strikes can bounce off walls and enemies
+| buff = Honey (buff)
+| duration = 5 seconds
+| bufftip = Life regeneration is increased
+| proj = Honeycomb Fragments.png
+| projcaption = Honeycomb Fragments
+| element1 = Poison
+| element2 = Smash
+}}
+|{{item drops infobox
+| [[Queen Bee]] | 30-50 /<br/>{{expert|50-75}} | {{dv|25%|33.33%}}
+}}
+}}
+
+'''Hardened Honeycombs''' are craftable [[Pre-Hardmode]] consumable [[rogue weapon]]s that are also dropped by the [[Queen Bee]]. They automatically throw honeycomb projectiles that grants the [[Honey (buff)|Honey]] [[buff]] to the player. The honeycombs are affected by gravity and shatter into 3 fragments on impact with an enemy or block. The honeycomb fragments share the same properties as the main projectile but deal 30% of the weapon's base damage.
+
+Performing a [[stealth strike]] with Hardened Honeycombs will cause the next honeycomb thrown to bounce off enemies or blocks three times before shattering. Each time the honeycomb bounces, three additional fragments are released.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

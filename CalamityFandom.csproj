@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<PropertyGroup>
+		<AssemblyName>CalamityFandom</AssemblyName>
+		<!-- Matériel de référence volumineux : hors compilation et hors explorateur de solution -->
+		<DefaultItemExcludes>$(DefaultItemExcludes);CalamityModPublic\**;fandom_dump_txt\**;fandom_dump_extra\**;fandom_sprites\**;data\**;reports\**;wiki_edits\**;lib\**</DefaultItemExcludes>
+	</PropertyGroup>
+
+	<!-- CalamityMod.dll extraite du .tmod du Workshop par tools/extract_calamity_dll.py -->
+	<ItemGroup>
+		<Reference Include="CalamityMod">
+			<HintPath>lib\CalamityMod.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+	</ItemGroup>
+
+	<!-- tMLMod.targets ajoute tous les .txt/.png/.hjson comme AdditionalFiles : on retire le dump -->
+	<ItemGroup>
+		<AdditionalFiles Remove="CalamityModPublic\**" />
+		<AdditionalFiles Remove="fandom_dump_txt\**" />
+		<AdditionalFiles Remove="fandom_dump_extra\**" />
+		<AdditionalFiles Remove="fandom_sprites\**" />
+		<AdditionalFiles Remove="reports\**" />
+		<AdditionalFiles Remove="wiki_edits\**" />
+	</ItemGroup>
+
+</Project>

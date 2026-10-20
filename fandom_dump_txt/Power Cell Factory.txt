@@ -1,0 +1,80 @@
+{{item infobox
+| type = Furniture
+| placeable = yes
+| auto = yes
+| width = 4
+| height = 4
+| use = 14
+| rare = a
+| stack = 9999
+| color = #434851
+| sell = {{value|0|10}}
+| tooltip = Produces Draedon Power Cells over time</br>One cell is produced every 15 seconds
+}}
+
+'''Power Cell Factory''' is a unique piece of [[furniture]] found in [[Arsenal Lab]]s. They are naturally found inactive, but can be broken and replaced by the player to make them functional. Every 15 seconds the Power Cell Factory generates a [[Draedon Power Cell]], which can be retrieved by right-clicking the factory. These Power Cells can be used to [[charge]] certain [[weapons]]. Each Fuel Factory can hold up to 9999 Power Cells, which is equivalent to roughly 41.66 real time hours of generation.
+
+{{Fantag|Calamity Community Remix}}The Power Cell Factory can also be supercharged with certain materials, speeding up Power Cell production. A supercharged Power Cell Factory cannot be supercharged for 90 seconds after its supercharge expires. A list of superchargeable materials is shown below.
+{| class="fandom-table"
+|+
+![[Crafting materials|Materials]]
+!Supercharge Strength
+!Time
+!Total
+|-
+|{{Item|Energy Core}}
+|2.00
+|0:30
+|4 {{Item|Draedon Power Cell|Draedon Power Cells}}
+|-
+|{{Item|Hellstone Bar}}
+|3.00
+|0:45
+|9 {{Item|Draedon Power Cell|Draedon Power Cells}}
+|-
+|{{Item|Cryonic Bar}}
+|100.00
+|0:02
+|13 {{Item|Draedon Power Cell|Draedon Power Cells}}
+|-
+|{{Item|Plague Cell Canister}}
+|15.00
+|0:20
+|20 {{Item|Draedon Power Cell|Draedon Power Cells}}
+|-
+|{{Item|Scoria Bar}}
+|3.50
+|2:00
+|28 {{Item|Draedon Power Cell|Draedon Power Cells}}
+|-
+|{{Item|Astral Bar}}
+|5.00
+|1:30
+|30 {{Item|Draedon Power Cell|Draedon Power Cells}}
+|-
+|{{Item|Cosmilite Bar}}
+|7.50
+|1:30
+|45 {{Item|Draedon Power Cell|Draedon Power Cells}}
+|-
+|{{Item|Auric Bar}}
+|15.00
+|2:00
+|120 {{Item|Draedon Power Cell|Draedon Power Cells}}
+|-
+|{{Item|Shadowspec Bar}}
+|30.00
+|3:00
+|360 {{Item|Draedon Power Cell|Draedon Power Cells}}
+|-
+|{{Item|Thorium Ore}}
+|150.00
+|5:00
+|3000 {{Item|Draedon Power Cell|Draedon Power Cells}}
+|-
+|}
+The formula for the total amount of Power Cells you can obtain from supercharging is T / (15<big>/</big>S), where T is the supercharge time and S is the strength.{{-}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

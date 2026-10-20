@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = magic
+| damage = 120
+| knockback = 5.5
+| rare = 13
+| sell = {{value|0|26}}
+| stack = 1
+| mana = 20
+| auto = yes
+| use = 16
+| velocity = 1
+| tooltip = Spawns ghostly fireballs that follow the player
+| hardmode = yes
+| postml = yes
+| proj = Fate's Reveal Flame.gif
+| projcaption = Ghastly Flame
+| element1 = Dark
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Polterghast]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Fate's Reveal''' is a Godseeker Mode [[wand]] dropped by [[Polterghast]]. It creates ghostly fire around the cursor that follows the player and explodes if it comes into contact with enemies. The fire explodes after a few seconds.
+
+{{Modifier|magic}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

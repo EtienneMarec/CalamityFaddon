@@ -1,0 +1,36 @@
+{{npc infobox | boxwidth=14em
+| width = 21em
+| type = Critter
+| environment = Ocean
+| ai = Passive AI
+| damage = 0
+| life = 2000
+| defense = 0
+| knockback = 1
+| money = {{gc|2}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| vulnerable1 = Fire
+| vulnerable2 = Magic
+| resistant1 = Poison
+| resistant2 = Water
+| resistant3 = Unholy
+| Baroclaw|1|50%
+| hurt = NPC_Killed_41.wav
+| killed = Item_14.wav
+}}
+
+The '''Barocrab''' is a rare [[critter]]. It is found on the [[Ocean]] floor and passively walks back and forth. When killed, Barocrabs drop 2 [[Gold Coin]]s as well as the [[Baroclaw]], a powerful Pre-Hardmode covering and weapon.
+
+It can also be caught with a [[Bug Net]] or [[Golden Bug Net]]. It can be detected with the [[Lifeform Analyzer]].
+
+Releasing a Barocrab in a [[Glowing Mushroom biome]] while carrying 2,147,483,647 [[Delicious Meat]] will summon a more powerful version of [[Crabulon]].
+Doing this is necessary to achieve the [[Delicious Meat Ending]].
+
+{{-}}
+== Trivia ==
+*It is heavily implied that Barocrabs are [[Crabulon]]s that have not yet succumbed to [[Glowing Mushroom]]s.
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}

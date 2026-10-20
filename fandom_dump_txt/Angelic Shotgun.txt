@@ -1,0 +1,42 @@
+{{dedicated|Shotgun Angel|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = Ranged
+| tooltip = Each shot casts a radiant beam of holy light from the sky<br/>Converts musket balls into illuminated bullets<br/>Fighting ‘til the war’s won
+| damage = 96
+| knockback = 3
+| rare = 12
+| sell = {{value|0|24}}
+| use = 24
+| hardmode = yes
+| postml = yes
+| velocity = 12
+| debuff = Holy Flames
+| debuffchance = 100%
+| debuffduration = 2 seconds (Bullet)<br/>3 seconds (Laser)
+| debufftip = Dissolving from holy light
+| proj = Illuminated Bullet.png
+| projcaption = Illuminated Bullet
+| element1 = Holy
+| element2 = Stab
+}}
+
+The '''Angelic Shotgun''' is a craftable Godseeker Mode [[gun]]. Each time the weapon is fired, it shoots eight bullets and summons a radiant beam from the sky towards the cursor. The beam deals five times the damage of an individual bullet and pierces infinitely through both enemies and walls. If [[Musket Ball]]s are used as [[ammo]], the bullets are replaced with special illuminated bullets. Both the illuminated bullets and the beam inflict the [[Holy Flames]] [[debuff]] onto enemies.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The item's tooltip is a reference to the song "Angel with a Shotgun" by [[wikipedia:The Cab|The Cab]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]
+[[zh:天使圣火炮]]

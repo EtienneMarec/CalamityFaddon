@@ -1,0 +1,26 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| color = #392D26
+| sell = No value
+| stack = 9999
+| rare = 0
+}}
+
+'''Sulphurous Sandstone Walls''' are background [[wall]]s crafted from [[Sulphurous Sandstone]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-walls = yes
+}}

@@ -1,0 +1,31 @@
+{{dablink|For the vanilla debuff page see [[tgc:Darkness|Darkness]]}}
+
+{{buff infobox
+| type = Debuff
+| effects = Light vision is decreased
+| tooltip = Decreased light vision
+}}
+
+'''Darkness''' is a vanilla debuff that decreases the player's light vision.
+
+== Causes ==
+=== From Calamity NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+|ordermethod = title
+}}
+|}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

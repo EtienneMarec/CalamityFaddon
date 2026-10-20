@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 75
+| mana = 10
+| velocity = 20
+| tooltip = Casts a beaming flower that explodes into homing petals
+| knockback = 7.5
+| rare = 10
+| sell = {{value|0|20}}
+| use = 23
+| stack = 1
+| hardmode = yes
+| proj = Beaming Flower.png
+| projcaption = Beaming Flower
+| proj2 = Beaming Petal.png
+| proj2caption = Beaming Petal
+| element1 = Poison
+}}
+[[File:Arch Amaryllis (demo).gif|frame|right|Attacking with the Arch Amaryllis. Notice how the smaller bolts do not home in on the super dummy when it is behind blocks.]]
+
+The '''Arch Amaryllis''' is a craftable [[Hardmode]] [[wand]] that is an upgraded version of the [[Gleaming Magnolia]]. It fires a red flower that pierces infinitely and slows down horizontally more quickly than it does vertically, causing it to travel in an upwards or downwards curve depending on the direction it's fired. After two seconds, or upon hitting a block, the main projectile splits into six homing petals. The petals last two seconds before fading away, and deal 75% of the main damage.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*An [[wikipedia:Amaryllis|Amaryllis]] is a real life flower which this weapon visually resembles.
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

@@ -1,0 +1,55 @@
+Repurposing this for Ctota day 2025 Sky Abyss rework
+
+== Hunger and enemy interactions ==
+All of the Sky Abyss enemies have a limited amount of time they can spend without attacking and trying to eat other ones. Each enemy spawns with {{dv|50||35|20}}-{{dv|100|||75}}% of its hunger bar and loses 24 hunger points each second afterwards. Additionally, enemies lose 1 hunger point for each {{dv|5|||1}} damage recieved. Each enemy can restore a certain amount of hunger by killing and then eating another enemy.
+
+Almost all of the Sky Abyss enemies can fight each other: the hungrier an enemy gets, the more likely it will start to attack other enemies.
+
+=== Lush Layer Enemies ===
+
+{| class="terraria sortable lined"
+! Enemy!!Diet!!Hunger!!Attacks!!Hunger granted<br/>upon being eaten!!Notes
+|-
+| Finless Vacuum
+| Carnivore
+| 2500
+| Confidelance<br/>Mushhopper<br/>Hyperfish<br/>Skyline Shark<br/>Baby Skyline Shark<br/>Stratosoul<br/>Young Illuminal Crystalfish<br/>Illuminal Crystalfish<br/>Player (under 50% hunger or when provoked)
+| 500
+| {{na}}
+|-
+| Mushhopper
+| Herbivore
+| 750
+| Laceline<br/>Skylac Crystal<br/>Stratosoul (under 25% hunger) 
+| 150
+| when under 25% hunger, gains the ability to hop on other entities to reach food sources
+|-
+| Confidelance
+| Omnivore
+| 1350
+| Player<br/>Laceline<br/>Hyperfish<br/>Skyline Shark<br/>Mushhopper (under 50% hunger)<br/>Finless Vacuum (under 50% hunger)  
+| 350
+| {{na}}
+|-
+| Lacelic Slime
+| Herbivore
+| 750
+| Laceline<br/>Skylac Crystal
+| 750
+| {{na}}
+|-
+| Stratosoul
+| N/A
+| {{infinity}}
+| Player<br/>Skyline Shark<br/>Finless Vacuum<br/>Hyperfish<br/>Esseric Spike<br/>Impulsive Spike<br/>Esserwyrm<br/>Any entity with the [[Shark Mistake]] debuff
+| 1 (technically 241 and more due to disabling hunger loss) 
+| When eaten, disables any hunger loss for 10 seconds
+|-
+| Sky Lacian
+| Omnivore
+| 3000
+| Skylac Crystal (under 30% hunger)<br/> Skyline Shark<br/>Hyperfish<br/> Baby Skyline Shark<br/>Esserwyrm<br/>Any entity with the [[Shark Mistake]] debuff
+| 750
+| {{na}}
+|-
+|}

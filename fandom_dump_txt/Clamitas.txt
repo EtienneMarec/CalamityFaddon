@@ -1,0 +1,104 @@
+{{npc infobox
+| type = Enemy
+| ai = Clamitas AI
+| environment = Brimstone Crag
+| life = {{dv|5,000|10,000}} (pre-[[Hardmode]])<br/>{{dv|30,000|60,000}} ([[Hardmode]])
+| damage = {{element|Unholy}} {{dv|70|boost=0.2}} (pre-[[Hardmode]])<br/>{{element|Unholy}} {{dv|120|boost=0.2}} ([[Hardmode]])<br/>{{element|Fire}} {{dv|80|120|160|200}} (Projectiles)
+| defense = 9999 (closed)<br/>15 (open in pre-[[Hardmode]])<br/>40 (open in [[Hardmode]])<br/>
+| dr = 35%
+| knockback = 100
+| money = {{gc|5}} (pre-[[Hardmode]]) <br/>{{gc|20}} ([[Hardmode]])
+| Brimstone Slag|25-35|100%
+| Brimstone Sword|1|100%
+| custom| {{item|Mollusk Husk|note=(In [[Hardmode]])|wrap=y}} (8-15)|100%
+| group|One of the following five items will be dropped if the player is in [[Hardmode]]|5
+| custom| {{item|Brimlash|note=(In [[Hardmode]] only)|wrap=y}}|25%
+| custom| {{item|Brimstone Fury|note=(In [[Hardmode]] only)|wrap=y}}|25%
+| custom| {{item|Burning Sea|note=(In [[Hardmode]] only)|wrap=y}}|25%
+| custom| {{item|Igneous Exaltation|note=(In [[Hardmode]] only)|wrap=y}}|25%
+| custom| {{item|Brimblade|note=(In [[Hardmode]] only)|wrap=y}}|25%
+| custom| {{item|Slagspitter Pauldron|note=(In [[Hardmode]])|wrap=y}} {{dei}}|50%
+| custom| {{item|Eye of Desolation|note=(in [[Hardmode]] only)|wrap=y}}|100%
+| debuff = Clamity | debufflink = no
+| debuffchance = 100%
+| duration =  Infinite (While aggressive)
+| debufftip = The clams have been angered!
+| boxwidth = 26em
+| banner = no
+| image2 = Clamitas map.png
+| image2caption = Map Icon
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Slow
+| immune4 = Brimstone Flames
+| immune5 = Abyssal Flames
+| immune6 = Vulnerability Hex
+| immune7 = Weak Brimstone Flames
+| immune8 = Rancor Burn
+| hurt = NPC_Hit_4.wav
+| sound = ClamImpact.wav
+| soundtext = Smash
+| sound2 = BrimstoneHellblastSound.wav
+| sound2text = Brimstone Hellblast Cast
+| sound3 = BrimstoneShoot.wav
+| sound3text = Brimstone Fireblast Cast
+| sound4 = BrimstoneFireblastImpact.wav
+| sound4text = Brimstone Fireblast Impact
+| sound5 = BrimstoneBigShoot.wav
+| sound5text = Brimstone Gigablast Cast
+| sound6 = BrimstoneGigablastImpact.wav
+| sound6text = Brimstone Gigablast Impact
+| resistant1 = Fire
+| resistant2 = Unholy
+| resistant3 = Cold
+| resistant4 = Slash
+| vulnerable1 = Water
+| vulnerable2 = Holy
+| vulnerable3 = Stab
+| vulnerable4 = Smash
+| vulnerable5 = Machine
+}}
+<big>''"The fog is coming"''</big>
+
+
+<big>''"The fog is coming"''</big>
+
+
+<big>''"The fog is coming"''</big>
+
+
+<big>''"The fog is coming"''</big>
+
+
+<big>''"The fog is coming"''</big>
+
+
+<big>''"The fog is coming"''</big>
+
+
+<big>''"The fog is coming"''</big>
+
+
+<big>''"Evil ass clam"''</big>
+{{distinguish|Calamitas|a [[Hardmode]] [[boss]]}}
+
+'''Clamitas (Japanese: クラミタス <nowiki>''</nowiki>Kuramitasu<nowiki>''</nowiki>)''' is a [[Mini Bosses|mini boss]] that rarely spawns in the [[Brimstone Crag]], and is the final boss of Pre-[[Hardmode]]. During Hardmode, it gains a significant buff and starts dropping its own weapon set, as well as the [[Eye of Desolation]] used to summon [[Calamitas]]. It is initially passive and closed up, but once the player hits it 5 times, the player receives the '''Clamity''' debuff, which boosts the spawn rate of [[Clam]]s and making them aggressive while reducing the other enemies' spawn rate to 0, and Clamitas becomes aggressive.
+
+While mostly immobile, it can perform one of 2 moves every 4 seconds. Its most common move is to teleport over the player's head and fall down on them, causing a spread of {{dv|8|10|12|14}} brimstone darts to travel outwards on impact. The other, less common move is to close itself up for a short while, then summon a wall of Brimstone Hellblasts from offscreen that move horizontally towards the player.
+
+In Hardmode, it gains 2 new attacks which have a timer of 3 seconds, unrelated to its primary attacks, on top of making its tele-stomp attack faster. Its first attack is to summon a Brimstone Gigablast from above that explodes into brimstone darts downwards. Its other attack is shooting two Brimstone Fireblasts travelling horizontally away from it in both directions.
+
+It can be detected with the [[Lifeform Analyzer]].
+
+== Trivia ==
+*Unlike any other mini boss in the Calamity mod, Clamitas has its own [[Music|theme]] that plays while it is alive.
+**The theme heard during the battle against Clamitas is '''[https://youtu.be/rBK7sFGVFG4?si=cASGxrc_cK_7VYok clamity theme]''', which was composed by the artist [https://www.youtube.com/@StarvoXD StarvoXD].
+*Clamitas' name is a pun on the name "Calamitas", the titular boss of the mod and "clam".
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The charred mollusk poofs away in a plume of smoke."
+*The sprite has artifacting. I am going to cry very hard.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

@@ -1,0 +1,33 @@
+{{dedicated|Lithocite|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 1
+| knockback = 0
+| use = 45
+| velocity = 9
+| tooltip = Fires a massive spread of bouncing bullets<br/>Consumes five bullets per-use<br/>Aim? What's that?
+| rare = 3
+| sell = {{value|0|0|80}}
+| stack = 1
+| auto = yes
+| element1 = Stab
+}}
+
+The '''Bullet-Filled Shotgun''' is a craftable [[Pre-Hardmode]] [[gun]]. When used, it fires from 25 to 34 bullets per shot at an extremely large spread and varying velocity, consuming five bullets. All bullets are converted into bouncy explosive bullets, which can emit a small light and explode on hit or after three seconds have passed. These bullets can bounce once which will halve their damage, and the second bounce will cause them to explode.
+
+{{Modifier|lowdamage}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Its extreme inaccuracy can be somewhat negated with [[High Velocity Bullet]]s, though the weapon is greatly outclassed by the time they are available.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

@@ -1,0 +1,20 @@
+<includeonly>
+{{#ifeq:{{{listexclude|no}}}|yes|<!--nothing-->|
+{{!}}-
+{{!}} align=center {{!}} {{item|mode=table|{{{name|{{{%PAGE%}}}}}}|image={{{name|{{{%PAGE%}}}}}}.png}}
+{{!}} align=center {{!}} '''{{{damage|0}}}'''
+{{!}} align=center {{!}} {{#if:{{{extraupdates|}}}|{{#expr:{{{velocity|}}}*({{{extraupdates|}}}+1)}}|{{{velocity|0}}}}}
+{{!}} data-sort-value={{{use|0}}} align=center style="line-height:15px" {{!}} {{{use|0}}} <br/> <small>({{use time|{{{use|0}}}}})</small>
+{{!}} data-sort-value={{{knockback|0}}} align=center style="line-height:15px" {{!}} {{{knockback|0}}} <br/> <small>({{knockback|{{{knockback|0}}}}})</small>
+{{!}} {{rare|{{{rare|0}}}|sort=yes}}
+{{!}} align=center {{!}} {{{{{hardmode|no}}}}}
+{{!}} align=center {{!}} {{{{{postml|no}}}}}
+{{!}} align=center {{!}} {{{{{epilogue|no}}}}}
+{{!}} align=right data-sort-value={{value total|{{{sell|}}}}} {{!}} {{{sell|}}}
+{{!}}-
+}}
+</includeonly>
+<noinclude>
+{{Dpl pages}}
+[[Category:DPL]]
+</noinclude>

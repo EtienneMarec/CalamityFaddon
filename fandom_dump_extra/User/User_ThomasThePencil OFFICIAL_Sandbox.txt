@@ -1,0 +1,117 @@
+<div class="crafting-tree">{{diagram
+|Water|_|DmslF|_|Trout|_|Fethr|_|Lethr|_|SnowB|_|FrstB|_|HerbS|#
+|     |_|     |_|     |_|     |_|     |_|     |_|     |_|     |#
+|_|L|~|~|~|X|~|~|~|J|_|_|_|`|-|v|-|'|_|_|_|L|~|~|~|X|~|~|~|J|_|#
+|_|_|_|_|_|D|~|~|~|7|_|_|_|_|_|I|_|_|_|_|_|F|~|~|~|C|_|_|_|_|_|#
+|_|_|_|_|WEAVE|_|_|:|_|_|_|_|WEAVE|_|_|_|_|:|_|_|WEAVE|_|_|_|_|#
+|_|_|_|FishBoots|_|L|~|~|~|~|HerBt|~|~|~|~|J|_|SnowBoots|_|_|_|#
+|_|_|_|         |_|_|_|_|_|_|     |_|_|_|_|_|_|         |_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+<!-- CRAFTING MATERIALS -->
+|HerBt_cols = 3
+|HerBt_rows = 2
+|HerBt = {{item|Hermes Boots}}<br/>
+'''Top speed: 27 mph'''<br/>
+No special bonuses
+
+|SnowBoots_cols = 5
+|SnowBoots_rows = 2
+|SnowBoots = {{item|Flurry Boots}}<br/>
+(also comes from {{item|mode=image|Ice Chest|size=16px}})<br/>
+'''Top speed: 24 mph'''<br/>
+Increased mobility when on cold surfaces
+
+|FrSpBoots_cols = 5
+|FrSpBoots_rows = 2
+|FrSpBoots = {{item|Frostspark Boots}}<br/>
+'''Top speed: 24 mph'''<br/>
+Increased mobility when on cold surfaces
+When using a double jump
+
+|FishBoots_cols = 5
+|FishBoots_rows = 2
+|FishBoots = {{item|Sailfish Boots}}<br/>
+(also comes from [[tgc:Fishing|fishing]] in the Ocean biome)<br/>
+'''Top speed: 24 mph'''<br/>
+Increased mobility when submerged in water
+
+|Fethr_cols = 3
+|Fethr_rows = 2
+|Fethr = {{item|Feather}} x 12<br/>
+( {{item|mode=image|Harpy|size=40px}} )
+
+|Lethr_cols = 3
+|Lethr_rows = 2
+|Lethr = {{item|Leather}} × 7<br/>
+( {{item|mode=image|Rotten Chunk|size=16px}}/{{item|mode=image|Vertebrae|size=16px}} x 3)
+
+|Water_cols = 3
+|Water_rows = 2
+|Water = {{item|Bottled Water}} x 25<br/>
+( {{item|mode=image|Bottle|size=14px}} near {{item|mode=image|Water|size=16px}})
+
+|HerbS_cols = 3
+|HerbS_rows = 2
+|HerbS = {{item|Shiverthorn}} x 5<br/>
+( {{item|mode=image|Herb Bag|size=14px}} )
+
+|SnowB_cols = 3
+|SnowB_rows = 2
+|SnowB = {{item|Snow Block}} x 60
+
+|FrstB_cols = 3
+|FrstB_rows = 2
+|FrstB = {{item|Ice Block}} x 35
+
+|DmslF_cols = 3
+|DmslF_rows = 2
+|DmslF = {{item|Damselfish}} x 6<br/>
+([[tgc:Fishing|fishing]] in Sky Lakes)
+
+|Trout_cols = 3
+|Trout_rows = 2
+|Trout = {{item|Trout}} x 12<br/>
+([[tgc:Fishing|fishing]] in the Ocean)
+
+
+<!-- CRAFTING STATIONS -->
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|WEAVE_cols = 3
+|WEAVE_class = craft-station
+|WEAVE = {{item|mode=image|Loom}}
+
+|BOTTL_cols = 3
+|BOTTL_class = craft-station
+|BOTTL = {{item|mode=image|Placed Bottle}} / {{item|mode=image|Alchemy Table}}
+
+|ALCHT_cols = 3
+|ALCHT_class = craft-station
+|ALCHT = {{item|mode=image|Alchemy Table}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+
+<!-- OTHER -->
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+
+}}</div>

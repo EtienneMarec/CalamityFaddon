@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 150
+| stack = 9999
+| rare = 5
+| color = #11101A
+| use = 14
+| value = 675
+| sell = {{value|0|0|12|0}}
+| hardmode = yes
+}}
+|{{item drops infobox
+|[[Charred Slime]]|10-26|100%
+}}
+}}
+
+'''Charred Ore''' is a [[Hardmode]] [[ore]] that generates in the [[Brimstone Crag]] upon world creation. It is used to craft [[Unholy Core]]s at a [[Hellforge]]. It requires at least a [[Mythril Pickaxe|Mythril]] or [[Orichalcum Pickaxe]] to mine. It can also be obtained from [[Charred Slime]]s.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Charred Ore cannot be destroyed by explosives.
+*It is now "Infernal Suevite" ingame.
+
+== Trivia ==
+*One of its previous sprites had a similar appearance to an old sprite of the [[Arena Block]].
+{{-}}
+{{Unholy Core}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

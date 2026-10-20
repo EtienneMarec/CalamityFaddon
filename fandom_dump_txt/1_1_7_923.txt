@@ -1,0 +1,24 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Fixes
+| release = 6/17/2017
+}}
+The '''1.1.7.923''' update added the [[Potion of Omniscience]], fixed a couple of bugs, and made a couple of other small changes.
+
+== Additions ==
+*Added [[Potion of Omniscience]].
+*Added [[Omniscience]].
+
+== Changes ==
+*Resprited [[Briny Baron]].
+*Nerfed [[Crabulon]]'s mushroom projectile damage from {{dv|46|60}} to {{dv|26|44}} and decreased their gravity.
+
+== Fixes ==
+*Fixed [[Ancient Medallion]] and [[Decapodita Sprout]] not correctly spawning [[Ravager]] and [[Crabulon]] respectively.
+*Fixed the default vanilla hearts not appearing due to Calamity's [[Permanent Power-ups|health upgrades]].
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

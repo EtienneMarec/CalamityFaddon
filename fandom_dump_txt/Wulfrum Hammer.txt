@@ -1,0 +1,30 @@
+{{item infobox
+| hammer = 45
+| type = Tool
+| damagetype = Melee
+| damage = 7
+| use = 28
+| knockback = 5.5
+| auto = yes
+| rare = 1
+| stack = 1
+| sell = {{value|0|0|20}}
+| bonus = +1 range
+| toolspeed = 11
+| element1 = Smash
+}}
+
+The '''Wulfrum Hammer''' is a craftable [[Pre-Hardmode]] [[hammer]].
+
+{{modifier|harvestalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Wulfrum}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Hammers]]

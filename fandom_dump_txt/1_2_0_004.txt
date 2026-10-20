@@ -1,0 +1,99 @@
+{{Patch infobox
+| image = Polterghast.png
+| patchname = Boss Buffs and Changes
+| release = 9/09/2017
+}}
+The '''1.2.0.004''' update added an icon for the mod and made several reworks and balance changes to [[The Devourer of Gods]] and [[Polterghast]] fights. It also buffed several vanilla bosses in [[Revengeance Mode]] and resprited various [[items]].
+
+== Additions ==
+*Added an icon for the mod.
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*Increased [[Revengeance Mode]] [[Brain of Cthulhu]]'s speed.
+*Buffed [[Cosmic Lantern]]'s damage reduction from 40% to 50%.
+*[[Crabulon]] no longer becomes passive if the [[Fungal Clump]] is equipped.
+*Buffed [[Cryogen]]'s damage reduction from 20% to 33%.
+*Buffed [[Cryogen's Shield]]'s damage reduction from 50% to 60%.
+*The Revengeance Mode [[The Destroyer|Destroyer]] now has a higher chance to fire a frost laser.
+*[[The Devourer of Gods]] changes:
+**Buffed head's contact damage from {{dv|300|600}} to {{dv|350|700}}.
+**Decreased the amount of health that the second Devourer of Gods has.
+**Head and tail's damage taken modifiers now lower as its health does.
+**Head and tail no longer alternate between being vulnerable and invincible depending on the debuff inflicted on the player.
+**Tail now takes 0 damage from any attacks that would deal over 50% of the Devourer's max health.
+**Increased speed of Bolts, Nebula Shots, Gravity Bombs, and Star projectiles.
+**Orbs now last for 30 seconds instead of 20.
+*Tweaked [[Jungle Dragon, Yharon]]'s specialized damage resistance formula.
+*[[Polterghast]] changes:
+**Buffed base contact damage from {{dv|125|200}} to {{dv|175|280}}, and increased all health-based contact damage boosts.
+**Buffed Phantom's laser damage from {{dv|204|320}} to {{dv|240|400}}.
+**Buffed red [[Phantom Turret]]'s Phantom Shot damage from {{dv|140|280}} to {{dv|160|320}}.
+**Blue Phantom Shots now bounce 5 times instead of 3, and no longer decay in damage every time they bounce.
+**Red Phantom Shots now bounce 8 times instead of 5.
+**Both Phantom Turrets now produce less dust.
+**Phantom lasers now last longer and have more visible dust.
+**Tweaked specialized damage resistance formula.
+*Buffed [[Providence, the Profaned God]]'s offensive guardian's damage reduction from 33% to 45%, and her healer guardian's damage reduction from 25% to 33%.
+*Tweaked Providence's specialized damage resistance formula.
+*[[Ravager]] changes:
+**Buffed missile damage from {{dv|180|328}} to {{dv|200|368}}.
+**Buffed attached head laser damage from {{dv|98|180}} to {{dv|138|220}}.
+**Buffed detached head laser damage from {{dv|136|240}} to {{dv|156|280}}.
+**Buffed detached head homing laser damage from {{dv|116|200}} to {{dv|136|240}}.
+**Buffed body laser damage from {{dv|100|168}} to {{dv|130|208}}.
+**Buffed fireball damage from {{dv|84|168}} to {{dv|104|208}}.
+**Buffed shrapnel damage from {{dv|84|168}} to {{dv|104|208}}.
+**Increased frequency that the body fires lasers.
+*Buffed [[Signus, Envoy of the Devourer]]'s damage reduction from 25% to 33%.
+*Buffed [[Siren]]'s damage reduction from 25% to 33%.
+*Buffed Siren's [[Ice Shield]]'s damage reduction from 70% to 75%.
+*Increased [[Spazmatism]]'s health multiplier from {{revengeance|1.25x}} to {{revengeance|1.35x}}.
+*[[Supreme Calamitas]] changes:
+**Now caps damage off to 6.25% if a hit would deal more than 6.25% of her max health, instead of 12.5%.
+**Tweaked specialized damage resistance formula.
+**Tweaked Brimstone Giga Blast movement.
+
+=== [[Items]] ===
+*Adjusted the dusts for [[Fractured Ark|Ark of the Ancients]], [[Ark of the Cosmos]], [[Ark of the Elements]], and [[True Ark of the Ancients]]' Eon Beams.
+*Ark of the Cosmos and [[Galaxia]]'s orbs now resemble stars and no longer apply biome-based debuffs to enemies.
+*Decreased Ark of the Elements' shot speed, removed the random damage feature from its orbs, greatly increased speed of orbs, and made orbs last for 2.5 seconds instead of 2.
+*Decreased the amount of life regeneration [[Asgardian Aegis]] grants by 2, and decreased its health boost from 150 to 100.
+*Decreased the damage and critical strike chance boosts provided by Asgardian Aegis and [[Elysian Aegis]]' guard ability from 8% to 4% each, and their defense boosts from 20% to 10%.
+*Decreased [[Auric Tesla Body Armor]]'s health and mana boosts from 400 to 300, and removed its critical strike chance boosts.
+*Decreased [[Auric Tesla Helm]]'s damage and critical strike chance boosts from 30% to 20%.
+*Decreased [[Bloodflare Body Armor]]'s damage and critical strike chance boosts from 14% to 12%.
+*[[Blossom Flux]]'s Spore Bombs now deal 5x the weapon's damage instead of 4x, and both of its projectiles are now faster.
+*Nerfed [[The Burning Sky]]'s damage from 170 to 140.
+*Decreased [[Demonshade Breastplate]]'s health boost from 1000 to 500, but increased its movement speed boost from 10% to 20%.
+*Decreased [[Demonshade Helm]]'s damage and critical strike chance boosts from 50% to 30%, and its minion slot boost from 20 to 10.
+*Nerfed [[Exoblade]]'s damage from 1500 to 1200.
+*Nerfed [[Gamma Fusillade]]'s damage from 184 to 154, and made its lasers last for 2.5 seconds instead of 10.
+*Decreased [[God Slayer Chestplate]]'s health boost from 250 to 150.
+*Decreased [[God Slayer Helm]]'s damage and critical strike chance boosts from 15% to 14%.
+*Nerfed [[Grand Guardian]]'s damage from 300 to 275, and its explosions now deal 33% of the weapon's damage instead of 50%.
+*Buffed [[Phangasm]]'s damage from 130 to 160.
+*[[Profaned Core]] and [[Profaned Shard]]'s tooltips now specify that they must be used at day.
+*Nerfed [[Purge Guzzler]]'s damage from 100 to 88.
+*Decreased [[Seraph Tracers]]' wing time from 180 to 160.
+*Decreased [[Silva Armor]]'s health boost from 300 to 200, and removed its critical strike chance boosts.
+*Decreased [[Silva Helm]]'s damage and critical strike chance boosts from 18% to 15%.
+*Nerfed [[Soul Harvester]]'s damage from 101 to 93.
+*Decreased [[Tarragon Breastplate]]'s health boost from 150 to 100.
+*Slightly increased the maximum amount of damage that True Ark of the Ancients' balls do.
+*Nerfed [[Xeroc Mask]]'s damage reduction when under 20% health from 30% to 25%.
+*Decreased [[Xeroc Plate Mail]]'s health boost from 150 to 80.
+
+=== Other ===
+*Nerfed [[Irradiated]]'s defense reduction from 30 to 10, and its movement speed reduction from 10% to 5%.
+*Decreased the Godseeker Mode life regeneration reduction from -3 to -2.
+
+=== Resprites ===
+*Resprited [[Core of Calamity]], [[Core of Chaos]], [[Core of Cinder]], [[Core of Eleum]], and [[Ectoblood]].
+*Resprited Ark of the Ancients, Ark of the Cosmos, Ark of the Elements, [[Broken Biome Blade|Biome Blade]], [[Burnt Sienna]], [[Catastrophe Claymore]], [[Caustic Edge]], [[Cursed Capper]], [[Floodtide]], Galaxia, [[Inferna Cutter]], [[Lifefruit Scythe]], [[Mariana]], [[Mourningstar]], [[True Biome Blade|Omega Biome Blade]], [[Red Sun]], [[SDFMG]], [[Solstice Claymore]], [[Terror Blade]], [[THIS WEAPON IS A REFERENCE TO WARFRAME OH MAH GAWD]], True Ark of the Ancients, and [[Biome Blade|True Biome Blade]].
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

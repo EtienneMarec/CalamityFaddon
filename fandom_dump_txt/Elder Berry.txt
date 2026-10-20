@@ -1,0 +1,28 @@
+{{infobox wrapper
+|{{item infobox
+| type = Potion
+| tooltip = Permanently gives the player a dash<br/> Click {{key|Elder Berry Dash}} to dash
+| stack = 9999
+| consumable = yes
+| rare = 12
+| use = 30
+| sell = {{value|0|20|0}}
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Profaned Energy]]<br/>[[Impious Immolator]]<br/>[[Scorn Eater]]| 1 |{{revengeance|5%}}
+| [[Yggdrasil Ent]]| 1| {{revengeance|15%}}
+}}
+}}
+The '''Elder Berry''' is a [[permanent power-up]] item that drops from [[Scorn Eater]]s, [[Impious Immolator]]s, [[Profaned Energy|Profaned Energies]], and the [[Yggdrasil Ent]] in [[Revengeance Mode]] after the player has used all 3 [[Stamina Meter|Stamina Upgrades]]. It is the only permanent consumable in the game that gives the player a dash.
+
+== Notes ==
+*The Elder Berry's dash will be disabled by any covering that provides its own dash.
+*When dropped, it will float in place with a unique flying animation.
+
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

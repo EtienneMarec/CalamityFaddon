@@ -1,0 +1,31 @@
+{|align=right
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| stack = 9999
+| sell = No value
+| placeable = yes
+| consumable = yes
+| auto = yes
+| rare = 1
+| color = #FF0000
+| use = 14
+| hardmode = yes
+}}
+|}
+
+'''Chaotic Bricks''' are craftable [[Hardmode]] [[block]]s crafted with [[Scoria Ore]] and [[Stone Block]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Scoria}}
+{{Master Template Tiles
+| show-main   = yes
+| show-blocks = yes
+}}
+[[Category:Block items]]

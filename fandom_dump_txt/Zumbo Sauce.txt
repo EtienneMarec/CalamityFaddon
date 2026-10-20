@@ -1,0 +1,33 @@
+{| align=right
+|{{item infobox
+| image = Zumbo Sauce.png
+| type = Potion
+| type2 = Crafting material
+| buff = Exquisitely Stuffed
+| bufftip = Major improvements to all stats<br/>{{expert|Major improvements to all stats and increased life regeneration}}
+| duration = 30 minutes
+| sell = {{value|0|5}}
+| rare = 6
+| stack = 9999
+| hardmode = yes
+| sound = Item_3.wav
+| soundtext = Use
+}}
+|-
+|{{item drops infobox
+| [[Green Demon]] | 1 | 10%
+}}
+|}
+
+'''Zumbo Sauce''' is a [[hardmode]] consumable [[food item]] that drops from [[Green Demon]]s. 
+
+Unlike other food items, Zumbo Sauce can be placed on a [[Plate]].
+
+==Crafting==
+===Used in (Any Food Item)===
+{{recipes|ingredient=Any Food Item}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion=yes
+}}

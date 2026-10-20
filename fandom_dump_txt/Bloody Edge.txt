@@ -1,0 +1,44 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 3
+| sell = {{value|0|0|80}}
+| damage = 70
+| auto = yes
+| use = 22
+| knockback = 5.25
+| tooltip = Chance to heal the player on enemy hits<br/>Inflicts Burning Blood
+| stack =  1
+| debuff = Burning Blood
+| debufftip = Your blood is on fire
+| debuffchance = 100%
+| debuffduration = 1 second
+| element1 = Unholy
+| element2 = Slash
+}}
+
+The '''Bloody Edge''' is a craftable [[Pre-Hardmode]] [[broadsword]]. It is the [[Crimson]] variant of the [[Night's Edge]] and uses the same crafting recipes. Upon striking enemies, the player has a 50% chance to [[Lifesteal|recover]] 2 to 3 HP.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Bloody Edge and its upgrade were implemented based on a community suggestion made by Gouvod on the mod's Terraria Forums post.
+*The Bloody Edge briefly shot a projectile in version 2.0.0.001 before having it removed in version 2.0.0.002
+
+{{Night's}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Healing items]]
+[[Category:True melee]]
+[[zh:血锋]]

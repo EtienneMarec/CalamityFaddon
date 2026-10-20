@@ -1,0 +1,72 @@
+.theme-fandomdesktop-light {
+	--theme-border-color: #b3b3b3;
+}
+
+/* -- Header image dropshadow -- */
+ .fandom-community-header__image {
+    filter: drop-shadow(0px 0px 1px var(--theme-accent-color))
+                drop-shadow(0px 0px 1px var(--theme-accent-color))
+                drop-shadow(0px 0px 1px var(--theme-accent-color));
+}
+
+/* -- Tabber styles ([[Template: Tabber]]) -- */
+ .theme-fandomdesktop-dark
+ .page-tabber-tab {
+	border: solid #666666
+}
+ .theme-fandomdesktop-dark .page-tabber-tab.inactive-tab {
+	border-width: 1px 1px 2px;
+	background-color: #2a2a2a 
+}
+ .theme-fandomdesktop-dark .page-tabber-separator {
+	border-bottom: 2px solid #666666 
+}
+/* -- End Tabber styles ([[Template: Tabber]]) -- */
+
+/* -- Fixes to strange list styling by Fandom. Ported from Vanilla Wiki. -- */
+.page-content p+ol, .page-content p+ul, .page-content section+ol, .page-content section+ul {
+	margin-top: 2px;
+}
+
+.page-content ul, .page-content ol{
+	margin: 2px 0 2px 1.5em;
+}
+
+ul.drops.items, ul.inline {
+	margin: 2px 0 2px 0;
+}
+/* -- End list styling fixes -- */
+
+/* -- Make certain icons and logos more visible -- */
+.theme-fandomdesktop-dark .sound-title::after {
+	filter: hue-rotate(180deg) invert(100%);
+}
+
+/* ================================================================== */
+/* Main page */
+/* ================================================================== */
+
+body.mainpage .page__main {
+	padding-top: 12px;
+}
+body.mainpage .page-header {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-bottom: 0;
+}
+body.mainpage .page-header__bottom {
+	border-bottom: 0;
+	justify-content: flex-end;
+}
+body.mainpage .page-header__title-wrapper {
+	display: none;
+}
+body.mainpage .page-header__languages .wds-dropdown__toggle,
+body.mainpage .page-header__variants .wds-dropdown__toggle {
+	margin-bottom: 0;
+}
+body.mainpage .page-header__actions {
+	margin-left: 3px;
+	padding-top: 0;
+}

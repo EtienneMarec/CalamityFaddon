@@ -1,0 +1,234 @@
+{{recipes/register/note}}<!--
+
+ ============ Botanic Planter ============
+
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Bathtub | amount = 1
+| Uelibloom Brick | 14
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Bed | amount = 1
+| Uelibloom Brick | 15
+| Vine | 5
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Bench | amount = 1
+| Uelibloom Brick | 5
+| Vine | 2
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Bookcase | amount = 1
+| Uelibloom Brick | 20
+| Book | 10
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Candelabra | amount = 1
+| Uelibloom Brick | 5
+| Jungle Spores | 3
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Candle | amount = 1
+| Uelibloom Brick | 4
+| Jungle Spores | 1
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Chair | amount = 1
+| Uelibloom Brick | 4
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Chandelier | amount = 1
+| Uelibloom Brick | 4
+| Jungle Spores | 4
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Chest | amount = 1
+| Uelibloom Brick | 8
+| Any Iron Bar | 2
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Clock | amount = 1
+| Uelibloom Brick | 10
+| Any Iron Bar | 3
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Door | amount = 1
+| Uelibloom Brick | 6
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Dresser | amount = 1
+| Uelibloom Brick | 16
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Lamp | amount = 1
+| Uelibloom Brick | 3
+| Jungle Spores | 1
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Lantern | amount = 1
+| Uelibloom Brick | 6
+| Jungle Spores | 1
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Piano | amount = 1
+| Uelibloom Brick | 15
+| Bone | 4
+| Book | 1
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Platform | amount = 2
+| Uelibloom Brick | 1
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Sink | amount = 1
+| Uelibloom Brick | 6
+| Honey Bucket | 1
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Table | amount = 1
+| Uelibloom Brick | 8
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Botanic Work Bench | amount = 1
+| Uelibloom Brick | 10
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Uelibloom Brick | amount = 1
+| Botanic Platform | 2
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Uelibloom Brick | amount = 1
+| Uelibloom Brick Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Uelibloom Brick Wall | amount = 4
+| Uelibloom Brick | 1
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Floral Biomass | amount = 1
+| Murky Paste | 20
+| Blooming Bulb | 20
+| Living Shard | 20
+| Herbal Mixture | 20
+| Lush Fruit Mix | 20
+| Seed Bag | 20
+| Mulch | 20
+| Fungal Chunk | 20
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Fungal Chunk | amount = 1
+| Mushroom | 20
+| Glowing Mushroom | 20
+| Vicious Mushroom| 20
+| Vile Mushroom | 20
+| Teal Mushroom | 20
+| Green Mushroom | 20
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Blooming Bulb | amount = 1
+| Sunflower | 20
+| Yellow Marigold | 20
+| Sky Blue Flower | 20
+| Trapper Bulb | 20
+| Lime Kelp | 20
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Herbal Mixture | amount = 1
+| Flah | 20
+| Moonglow | 20
+| Daybloom | 20
+| Fireblossom | 20
+| Waterleaf | 20
+| Shiverthorn | 20
+| Blinkroot | 20
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Seed Bag | amount = 1
+| Flah Seeds | 20
+| Moonglow Seeds | 20
+| Daybloom Seeds | 20
+| Fireblossom Seeds | 20
+| Waterleaf Seeds | 20
+| Shiverthorn Seeds | 20
+| Blinkroot Seeds | 20
+| Hallowed Seeds | 20
+| Corrupt Seeds | 20
+| Crimson Seeds | 20
+| Grass Seeds | 20
+| Jungle Grass Seeds | 20
+| Ash Grass Seeds | 20
+| Mushroom Grass Seeds | 20
+| Pumpkin Seed | 20
+| Seed | 20
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Lush Fruit Mix | amount = 1
+| Pink Prickly Pear | 20
+| Blue Berries | 20
+| Orange Bloodroot | 20
+| Apple | 20
+| Apricot | 20
+| Grapefruit | 20
+| Lemon | 20
+| Peach | 20
+| Cherry | 20
+| Plum | 20
+| Blackcurrant | 20
+| Elderberry | 20
+| Blood Orange | 20
+| Rambutan | 20
+| Grapes | 20
+| Mango | 20
+| Pineapple | 20
+| Banana | 20
+| Coconut | 20
+| Dragon Fruit | 20
+| Star Fruit | 20
+| Pomegranate | 20
+| Spicy Pepper | 20
+| Pumpkin | 20
+| Cactus | 20
+}}<!--
+-->{{recipes/register
+| station = Botanic Planter
+| result = Mulch | amount = 1
+| Wood | 20
+| Boreal Wood | 20
+| Rich Mahogany | 20
+| Palm Wood | 20
+| Shadewood | 20
+| Ebonwood | 20
+| Pearlwood | 20
+| Ash Wood | 20
+| Acidwood | 20
+| Bamboo | 20
+| Acorn | 20
+}}<!--
+-->

@@ -1,0 +1,28 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| color = #FF0000
+| sell = No value
+| hardmode = yes
+| use = 14
+}}
+
+'''Chaotic Brick Wall''' is a background [[wall]] crafted with [[Chaotic Brick]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+{{Scoria}}
+{{Master Template Tiles
+| show-main   = yes
+| show-walls = yes
+}}
+[[Category:Block items]]

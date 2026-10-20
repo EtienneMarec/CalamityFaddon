@@ -1,0 +1,51 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| damage = 360
+| use = 24
+| knockback = 5
+| damagetype = Ranged
+| velocity = 11
+| tooltip = Fires a beam of Abyssal and Holy Flames
+| rare = 15
+| sell = {{value|1}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| debuff = Holy Flames
+| debuffduration = 4 seconds
+| debuffchance = 100%
+| debuff2 = Abyssal Flames
+| debuffduration2 = 4 seconds
+| debuffchance2 = 100%
+| proj = Hyperhavoc beam.png
+| projcaption = Fire Beam
+| image2 = Hyperhavoc (tank).png
+| image2caption = Equipped tank
+| element1 = Unholy
+| element2 = Fire
+}}
+
+
+The '''Hyperhavoc''' is a craftable Godseeker Mode [[Flamethrowers|flamethrower]]. It fires a beam of fire that pierces through enemies and can pierce 3 tiles through solid blocks. 
+
+{{Modifier|ranged}}
+
+== Notes ==
+*Modifiers do not affect the attack speed of the weapon.
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

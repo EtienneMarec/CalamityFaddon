@@ -1,0 +1,31 @@
+{{npc infobox
+| environment = Surface
+| type = Enemy
+| ai = Wulfrum Pylon AI
+| life = {{dv|92|184}}
+| defense = 4
+| damage = 0
+| knockback = 100%
+| money = {{value|0|0|1|50}}
+| Wulfrum Bar | 2-3 | 100%
+| Energy Core | 1 | 100%
+| Wulfrum Battery | 1 | 7%
+| banner = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Pearl Aura
+| immune4 = Slow
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| resistant1 = Machine
+| vulnerable1 = Smash
+}}
+{{dablink|For the vanilla furniture items, see [[tgc:Pylons|Pylons]].}}
+
+The '''Wulfrum Pylon''' is a [[Pre-Hardmode]] [[enemy]] found on the [[Surface]] during daytime. It is also summoned by the [https://calamitymod.fandom.com/wiki/Wulfrum_Excavator Wulfrum Excavator] [[boss]] in [[Expert Mode]] upon it transitioning to a new phase. It is completely stationary, and emits a field around it that will supercharge nearby [[Wulfrum Enemies|Wulfrum Robots]] (this includes the [https://calamitymod.fandom.com/wiki/Wulfrum_Excavator Wulfrum Excavator] [[boss]]) and increase their spawn rates by 5.5x. If a player enters this field, it spawns {{dv|1|||2}} wulfrum enemies. It spawns more frequently at the outer two-thirds of the world. Hitting a Wulfrum Pylon with any [[pickaxe]] will cause the Wulfrum Excavator to spawn (provided the player has an [[Ogscule]] {{fantag|Calamity: Community Remix}} in their inventory).
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

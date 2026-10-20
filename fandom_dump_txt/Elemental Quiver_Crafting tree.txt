@@ -1,0 +1,178 @@
+<div class="crafting-tree">{{diagram
+
+|AWood|_|Stone|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|      _|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|)|-|-|-|'|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|∑|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|Arrow|_|_|_|_|_|_|_|_|_|Phant|_|DarkF|_|NgtFl|_|EndEn|_|SSton|_|MSton|_|CCalR|#
+|      _|_|_|_|_|_|_|_|_|      _|      _|      _|      _|      _|      _|    _|#
+|_|I|_|_|_|_|_|_|_|_|_|_|_|`|-|-|-|^|-|-|-|+|-|-|-|'|_|_|_|)|-|-|-|'|_|_|_|I|_|#
+|_|%|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|@|_|_|_|_|_|_|HMANV|#
+|EnQui|_|BliLn|_|PxDst|_|SoulL|_|LunaF|_|_|I|_|_|LumiO|_|ClStn|_|RngEm|_|CoCal|#
+|      _|      _|      _|      _|      _|_|I|_|_|      _|      _|      _|    _|#
+|_|`|-|-|-|^|-|-|-|^|-|-|-|(|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|)|-|-|-|^|-|-|-|'|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|%|_|_|_|§|_|_|_|§|_|_|_|§|_|_|HMANV|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|MgQui|_|GalaS|_|AscSE|_|LumiB|_|ArtEm|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|      _|      _|      _|      _|      _|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|`|-|-|-|^|-|-|-|+|-|-|-|^|-|-|-|'|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|COANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|ElQui|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+<!-- CRAFTING STATIONS -->
+
+|∑_cols = 1
+|∑_class = craft-station
+|∑ = {{item|mode=image|Work Bench}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|COANV_cols = 3
+|COANV_class = craft-station
+|COANV = {{item|mode=image|Cosmic Anvil}}
+
+|@_cols = 1
+|@_class = craft-station
+|@ = {{item|mode=image|Tinkerer's Workshop}}
+
+|%_cols = 1
+|%_class = craft-station
+|% = {{item|mode=image|Crystal Ball}}
+
+<!-- MAGIC QUIVER -->
+
+|AWood_cols = 3
+|AWood_rows = 2
+|AWood = {{item|Wood}} x 160
+
+|Stone_cols = 3
+|Stone_rows = 2
+|Stone = {{item|Stone Block}} x 160
+
+|Arrow_cols = 3
+|Arrow_rows = 2
+|Arrow = {{item|Wooden Arrow}} x 3996<br/>
+( {{item|mode=image|Merchant|size=18px}} {{item|mode=image|Skeleton Merchant|size=20px}} {{item|mode=image|Pincushion Zombie|size=20px}} )
+
+|EnQui_cols = 3
+|EnQui_rows = 2
+|EnQui = {{item|Endless Quiver}}
+
+|BliLn_cols = 3
+|BliLn_rows = 2
+|BliLn = {{item|Blighted Lens}} x 5<br/>
+( {{item|mode=image|Blighted Eye|size=24px}} {{item|mode=image|Calamity Eye|size=24px}} {{item|mode=image|image=Calamitas map.png|Calamitas|size=24px}} )
+
+|PxDst_cols = 3
+|PxDst_rows = 2
+|PxDst = {{item|Pixie Dust}} x 10<br/>
+( {{item|mode=image|Pixie|size=24px}} )
+
+|SoulL_cols = 3
+|SoulL_rows = 2
+|SoulL = {{item|Soul of Light}} x 8
+
+|MgQui_cols = 3
+|MgQui_rows = 2
+|MgQui = {{item|Magic Quiver}}<br/>
+( {{item|mode=image|Skeleton Archer|size=18px}} )
+
+<!-- ARTEMIS EMBLEM -->
+
+|SSton_cols = 3
+|SSton_rows = 2
+|SSton = {{item|Sun Stone}}<br/>
+( {{item|mode=image|image=Map Icon Golem.png|Golem|size=20px}} )
+
+|MSton_cols = 3
+|MSton_rows = 2
+|MSton = {{item|Moon Stone}}<br/>
+( {{item|mode=image|Vampire|size=14px}} )
+
+|ClStn_cols = 3
+|ClStn_rows = 2
+|ClStn = {{item|Celestial Stone}}
+
+|RngEm_cols = 3
+|RngEm_rows = 2
+|RngEm = {{item|Ranger Emblem}}<br/>
+( {{item|mode=image|image=Map Icon Wall of Flesh.png|Wall of Flesh|size=20px}} )
+
+|CCalR_cols = 3
+|CCalR_rows = 2
+|CCalR = ''[[Core of Calamity/Crafting tree|Core of Calamity<br/>crafting tree]]''
+
+|CoCal_cols = 3
+|CoCal_rows = 2
+|CoCal = {{item|Core of Calamity}}<br/>
+( {{item|mode=image|Necromantic Geode|size=20px}} )
+
+|ArtEm_cols = 3
+|ArtEm_rows = 2
+|ArtEm = {{item|Artemis Emblem}}
+
+
+<!-- MISCELLANEOUS -->
+
+|NgtFl_cols = 3
+|NgtFl_rows = 2
+|NgtFl = {{item|Nightmare Fuel}} x 20<br/>
+<span style="font-size:0.75em">( [[Pumpkin Moon]] )</span>
+
+|EndEn_cols = 3
+|EndEn_rows = 2
+|EndEn = {{item|Endothermic Energy}} x 20<br/>
+<span style="font-size:0.75em">( [[Frost Moon]] )</span>
+
+|DarkF_cols = 3
+|DarkF_rows = 2
+|DarkF ={{item|Darksun Fragment}} × 8<br/>
+<span style="font-size:0.75em">( [[Solar Eclipse]] )</span>
+
+|Phant_cols = 3
+|Phant_rows = 2
+|Phant = {{item|Phantoplasm}} x 20<br/>
+( {{item|mode=image|image=Polterghast map.png|Polterghast|size=18px}} {{item|mode=image|Phantom Spirit|size=14px}} {{item|mode=image|Overloaded Soldier|size=18px}} {{item|mode=image|Phantom Debris|size=26px}} )
+
+|AscSE_cols = 3
+|AscSE_rows = 2
+|AscSE = {{item|Ascendant Spirit Essence}} × 4
+
+|LunaF_cols = 3
+|LunaF_rows = 2
+|LunaF = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 4<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+|GalaS_cols = 3
+|GalaS_rows = 2
+|GalaS = {{item|Galactica Singularity}} × 4
+
+|LumiO_cols = 3
+|LumiO_rows = 2
+|LumiO = {{item|Luminite}} × 32<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=20px}} )
+
+|LumiB_cols = 3
+|LumiB_rows = 2
+|LumiB = {{item|Luminite Bar}} × 8
+
+|ElQui_cols = 3
+|ElQui_rows = 2
+|ElQui = {{item|Elemental Quiver}}
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

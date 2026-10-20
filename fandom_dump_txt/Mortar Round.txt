@@ -1,0 +1,29 @@
+{{item infobox
+| type = Ammunition
+| type2 = Crafting material
+| damage = 20
+| damagetype = ranged
+| tooltip = Large blast radius. Will destroy tiles<br/>Used by normal guns
+| stack = 9999
+| consumable = true
+| knockback = 7.5
+| sell = {{value|0|0|0|20}}
+| rare = 12
+| hardmode = yes
+| postml = yes
+}}
+
+'''Mortar Rounds''' are a Godseeker Mode [[bullet]] type crafted from [[Rocket IV]]s and [[Uelibloom Bar]]s. They can be used by all [[guns]] that do not shoot custom bullets. Upon impact, it creates an explosion similar to that of [[Bomb|Bombs]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Consumables
+|show-main=yes
+|show-ammo=yes
+}}
+[[Category:Bullets]]

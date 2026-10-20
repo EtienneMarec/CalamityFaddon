@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| stack = 1
+| tooltip = 5% increased Spy damage and 15% increased Spy projectile velocity<br/>Stealth generates 10% faster<br/>Press {{key|Booster Dash}} to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of plagued clouds
+| rare = 8
+| sell = {{value|0|12}}
+| debuff = Plague
+| debuffchance = 100%
+| debuffduration = 4 seconds (Cloud)
+| debufftip = Rotting from the inside
+| hardmode = yes
+| proj = Plague Cloud.png
+| projcaption = Plague Cloud
+}}
+|{{item drops infobox
+| [[Plaguebringer]] | 1 | 10%
+}}
+}}
+
+The '''Plagued Fuel Pack''' is a [[Hardmode]] [[covering]] dropped by [[Plaguebringer]]s. While equipped, Spy damage and projectile velocity are passively increased by 5% and 15% respectively. The player's [[stealth]] also generates 10% faster.
+
+Pressing the {{key|Booster Dash}} key causes the player to dash diagonally upwards in the player's direction at the cost of 25% of the player's stealth, leaving a trail of damaging clouds that inflict the [[Plague]] [[debuff]]. The dash has a 3 second cooldown before being usable again.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Plagued Fuel Pack cannot be equipped if the player is wearing the [[Blunder Booster]] covering, and vice versa.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

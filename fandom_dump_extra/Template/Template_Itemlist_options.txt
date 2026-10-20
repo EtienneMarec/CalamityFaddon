@@ -1,0 +1,21 @@
+<includeonly><!-- 
+-->{{#switch:{{{1|}}}<!-- 
+-->|reset|resetall=<!-- 
+	-->{{#dplvar:set|_itemlist_flag_width|}}<!-- 
+	-->{{#dplvar:set|_itemlist_flag_class|}}<!-- 
+	-->{{#dplvar:set|_itemlist_flag_css|}}<!-- 
+	-->{{#dplvar:set|_itemlist_flag_boxcss|}}<!-- 
+-->|get|load=<!-- 
+	-->{{#switch:{{{2|}}}<!-- 
+		-->|width={{#dplvar:_itemlist_flag_width}}<!-- 
+		-->|class={{#dplvar:_itemlist_flag_class}}<!-- 
+		-->|css|style={{#dplvar:_itemlist_flag_css}}<!-- 
+		-->|boxcss|boxstyle={{#dplvar:_itemlist_flag_boxcss}}<!-- 
+	-->}}<!-- 
+-->|#default=<!-- 
+	-->{{#dplvar:set|_itemlist_flag_width|{{{width|{{#dplvar:_itemlist_flag_width}}}}}}}<!-- 
+	-->{{#dplvar:set|_itemlist_flag_class|{{{class|{{#dplvar:_itemlist_flag_class}}}}}}}<!-- 
+	-->{{#dplvar:set|_itemlist_flag_css|{{{css|{{{style|{{#dplvar:_itemlist_flag_css}}}}}}}}}}<!-- 
+	-->{{#dplvar:set|_itemlist_flag_boxcss|{{{boxcss|{{{boxstyle|{{#dplvar:_itemlist_flag_boxcss}}}}}}}}}}<!-- 
+-->}}<!--
+--></includeonly><noinclude>Set/get default options for {{tl|itemlist}}. See {{tl|itemlist}} for document.</noinclude>

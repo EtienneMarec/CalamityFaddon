@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = ranged
+| damage = 9
+| knockback = 1.5
+| rare = 2
+| sell = {{value|0|0|40}}
+| use = 9
+| velocity = 5.5
+| stack = 1
+| tooltip = 70% chance to not consume flares<br/>Right click to fire a spread of flares
+| debuff = On Fire!
+| debuffchance = 100%
+| debufftip = Losing life
+| debuffduration = 5 seconds (66.67% chance)<br/>10 seconds (33.33% chance)
+| element1 = Fire
+| element2 = Smash
+}}
+{{distinguish|Flurrystorm Cannon|a snow-themed [[ranged weapon]]}}
+
+The '''Firestorm Cannon''' is a craftable [[Pre-Hardmode]] [[ranged weapon]] that is a weaponized version of the [[Flare Gun]]. Like the Flare Gun, it uses [[Flare]]s as ammunition.
+
+The Firestorm Cannon has two firing modes, both of which [[Autoswing|have auto-use]]:
+*Left click will fire a constant but inaccurate stream of piercing flares; sometimes firing two flares at once. These flares disappear very quickly after sticking to a tile.
+*Right click fires an inaccurate spread of four or five flares. These flares do not pierce but last a bit longer when sticking to tiles. These flares deal 140% of the weapon's damage.
+
+{{Modifier|ranged}}
+
+[[File:Firestorm Cannon (demo).gif|frame|right|Both attacks, left then right click.]]
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Ranged weapons]]

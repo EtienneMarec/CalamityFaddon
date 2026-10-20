@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 20 (Pre-SCal)<br/>1117 (Post-SCal)
+| knockback = 6.75
+| crit = 4%
+| rare = 15
+| sell = {{value|0|16}}
+| stack = 1
+| use = 22
+| tooltip = Summons blood gloplets downwards on enemy hits<br/>The gel inside prevents it from opening (Pre-SCal)<br/>Right click at the weapon's maximum range to open the umbrella and release a storm of gloplets.
+| velocity = 10
+| hardmode = yes
+| postml = yes
+| auto = yes
+| debuff=On Fire!
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 4 seconds (Spear)<br/>3 seconds (Gloplets)
+}}
+|{{item drops infobox
+| [[Goozma]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Red Umbrella''' is a [[spear]] dropped by [[Goozma]]. Upon hitting enemies, 5-7 blood droplets downwards, dealing 20% of the weapon's damage each. After defeating [[Supreme Calamitas]], the weapon gains the ability to spew out a large blast of 20-30 blood gloplets upon right clicking once the spear reaches its maximum range.
+
+{{modifier|meleealt}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]
+[[Category:True melee]]

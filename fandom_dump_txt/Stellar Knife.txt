@@ -1,0 +1,50 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damage = 50
+| damagetype = Rogue
+| critical = 8%
+| knockback = 4
+| velocity = 10
+| use = 8
+| tooltip = Throws knives that stop middair and then home into enemies<br/>Stealth strikes throw a volley of 10 knives in a spread<br/>Za Warudo
+| rare = 7
+| stack = 1
+| sell = {{value|0|12}}
+| hardmode = yes
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 2 seconds
+| element1 = Magic
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Aries]] (After [[Astrum Aureus]] has been defeated)|1|14.29%
+}}
+}}
+[[File:Stellar Knife (demo).gif|framed|right|Stellar Knife throwing animation. Note how the knives only home in after coming to a complete stop.]]
+
+The '''Stellar Knife''' is a [[Hardmode]] [[dagger]] dropped by [[Aries]] after [[Astrum Aureus]] is defeated. When thrown, it moves and rapidly spins in the direction it was initially thrown, slowly decelerating and losing spin speed over time. Once the knife fully decelerates, it then remains still until an enemy is within its detection range for it to home in.
+
+Performing a [[stealth strike]] with the Stellar Knife causes ten knives to be thrown instead of one. If more than fifteen knives are present, this effect cannot trigger.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Stellar Knives may also be obtained from [[Astral Crate]]s after Astrum Aureus is defeated.
+
+== Trivia ==
+*The tooltip is a reference to the third story arc of ''[[wikipedia:JoJo's Bizarre Adventure|JoJo's Bizarre Adventure]]'', ''[[wikipedia:Stardust Crusaders|Stardust Crusaders]]''. In it, [https://jojo.fandom.com/wiki/The_World The World] ("Za Warudo" as pronounced in Japanese) is the Stand of [https://jojo.fandom.com/wiki/Dio_Brando Dio Brando / DIO], which allows him to stop time.
+**The way the weapon works references to how DIO often uses his knives in stopped time, stopping along with the time before accelerating once the time resumes.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

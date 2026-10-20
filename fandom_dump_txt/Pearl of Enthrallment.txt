@@ -1,0 +1,55 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Summons a water elemental to fight for you<br/> The elemental stays above you, shooting water spears, ice mist, and treble clefs at nearby enemies
+| sell = {{value|0|9|60}}
+| rare = 7
+| stack = 1
+| hardmode = yes
+| buff=Anahita (buff) | bufflink = no
+| bufftip=Anahita will protect you
+| element1 = Cold
+| element3 = Water
+| damage = 65
+| damagetype = summon
+}}
+|{{item drops infobox
+| [[Leviathan and Anahita]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Anahita|name=Anahita|type=minion}}
+
+The '''Pearl of Enthrallment''' is a [[Hardmode]] [[covering]] that is dropped by the [[Leviathan and Anahita]]. It summons a friendly Water Elemental which remains above the player's head. It fights similarly to the [[Anahita]] boss, attacking with water spears, frost mist, and magical notes.
+
+== Projectiles ==
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Type !! Note
+|-
+| {{item|Frost Mist|ext=gif|mode=table|nolink=y}}
+| Change direction after travelling around 45 blocks.
+|-
+| {{item|Magical Note|mode=table|nolink=y}}
+| Become slower after travelling around 50 blocks. Not affected by gravity.
+|-
+| {{item|Water Spear|mode=table|nolink=y}}
+| Have higher velocity than other Anahita's projectile. Not affected by gravity.
+|-
+|}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The item was previously known as the "Lure of Enthrallment", and was a [[Sentry weapons|sentry weapon]] that could place the Siren Lure at the cursor's location.
+*The item previously summoned [[Siren Clone]] as a minion.
+If the {{fantag|Tranquility Mod}} [[Tranquility Mod]] is enabled, this item becomes unobtainable, due to being replaced with [[Elemental Souls|Anahita's Soul]].
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

@@ -1,0 +1,306 @@
+{{Patch infobox
+| image = Cryogen (1.1.5.0948).png
+| size = 190px
+| patchname = Boss Changes
+| release = 1/5/2018
+}}
+
+The '''1.2.4.002''' update made a lot of changes to vanilla bosses in Calamity's difficulty modes, made some bosses more aggressive, and slightly reworked the [[Cryogen]] and [[Bumblebirb]] fights.
+
+{{toc limit|3|right=yes}}
+
+== Changes ==
+
+===[[Bosses]] ===
+
+==== [[Astrageldon Slime]] ====
+*Nerfed Godseeker Mode [[Revengeance Mode]] health from {{dv|0|0|1,800,000}} to {{dv|0|0|800,000}}.
+*Buffed post-Moon Lord Revengeance Mode laser damage from {{dv|0|0|630}} to {{dv|0|0|6300}}.
+
+==== [[Brain of Cthulhu]] ====
+*Buffed [[Brain of Cthulhu]]'s health modifier from 1.5x to 1.8x.
+*Lowered Brain of Cthulhu's knockback resistance.
+
+==== [[Brimstone Elemental]] ====
+*Increased damage during enrage by 33%.
+*Enrage now causes her to cycle through her phases much faster, and shoot barrages in quicker succession.
+
+==== [[Bumblebirb]] ====
+*Nerfed the main Bumblebirb's health from {{dv|350,000|525,000|600,000|750,000}} to {{dv|250,000|375,000|450,000|525,000}}, but buffed its contact damage from {{dv|350|525|551|787}} to {{dv|400|600|630|900}}.
+*Buffed clone damage from {{dv|250|375}} to {{dv|300|450}}.
+*Now switches between phases more often.
+*Now spawns clones much more often.
+*Now charges less often.
+*Clones can no longer spawn mores clones.
+*Greatly increased speed on clones.
+
+==== [[Calamitas]] ====
+*Buffed phase 2's health from {{dv|19,000|30,400|34,400|40,000}} to {{dv|27,000|43,200|48,000|56,000}}.
+*Increased the brothers' charging speeds.
+*Buffed [[Soul Seeker]]'s health from {{dv|2500|4000}} to {{dv|7500|12,000}}.
+
+==== [[Crabulon]] ====
+*Nerfed health from {{dv|5000|8000|9600|13,600}} to {{dv|3800|6080|7200|8800}}.
+
+==== [[Cryogen]] ====
+*Buffed health from {{dv|13,500|21,600|24,000|32,000}} to {{dv|22,500|36,000|40,000|44,800}}.
+*Buffed Cryogen's Shield's health from {{dv|500|600}} to {{dv|2000|2000}}.
+*Buffed [[Aurora Spirit]]'s health from {{dv|180|252}} to {{dv|360|504}}.
+*Buffed the normal variant of the [[Cryocore]]'s health from {{dv|200|280}} to {{dv|400|560}}.
+*Buffed the buffed variant of the Cryocore's health from {{dv|250|350}} to {{dv|500|700}}.
+*Replaced Cryogen's phase 5 where it spins in place while firing frost bolt barrages, ice shards, and star-shaped frost bolt patterns, while also summoning Cryocores and Aurora Spirits. Now Cryogen teleports near the player from time to time while continuing its other attacks.
+*Cryogen's Shield now fires extra ice blasts in addition to Cryogen's.
+*Cryocores and Aurora Spirits now spawn in pairs randomly instead of in large groups upon phase transitions.
+*Reduced dust idly spawned from both Cryogen's Shield and Cryogen itself.
+
+==== [[Desert Scourge]] ====
+*Buffed head damage in [[Death Mode]] from {{death|99}} to {{death|121}}.
+*Now only takes 65% damage from [[Molotov Cocktail]] flares in Expert Mode.
+*Now only takes 20% damage from explosives in Expert Mode.
+*Can now periodically fire blasts of sand in Revengeance Mode.
+*Small Desert Scourges no longer drop Coins.
+*Now becomes invincible while outside of the [[Desert]].
+
+==== [[The Destroyer]] ====
+*Nerfed Death Mode health modifier from {{death|1.6x}} to {{death|1.2x}}, buffed its Death Mode damage modifier from {{death|1.25x}} to {{death|1.5x}}, and nerfed its health modifier in other modes from 1.3x to 1.1x.
+*The Destroyer now gains a 1.25x damage modifier in all modes.
+*Body now forces all projectiles which pierce more than twice to pierce twice.
+*Body in Death Mode now cuts all infinitely penetrating projectile damage by 75%, and any projectiles that pierce more than once have their damage divided by how many times they pierce.
+*Probes no longer drop hearts in Revengeance Mode.
+
+==== [[The Devourer of Gods]] ====
+*Changed phase 1's health from {{dv|600,000|960,000|1,000,000|1,200,000}} to {{dv|600,000|960,000|1,040,000|1,120,000}}.
+*Buffed phase 2's head damage from {{dv|600|960}} to {{dv|750|1200}}.
+*Buffed phase 2's body damage from {{dv|300|480}} to {{dv|375|600}}.
+*Renamed Another worm boss to [[Devourer of Thots]].
+*Buffed Devourer of Thots' damage from {{dv|250|400}} to {{dv|400|640}}.
+*Now starts shooting bolts at 90% health instead of 80%.
+*Now starts shooting star projectiles at 80% health instead of 60%.
+*Now starts shooting gravity bombs at 70% health instead of 40%.
+*Now starts shooting mines at 35% health instead of 20%.
+*Speed increased for both phases.
+*Devourer of Thots' speed increased.
+*The black screen shader is now applied at all times in Death Mode.
+
+==== [[Duke Fishron]] ====
+*Nerfed Death Mode health modifier from {{death|2.3x}} to {{death|2.2x}}, and buffed its health modifier in other modes from 1.65x to 1.9x.
+*Sharkrons now gain a 30x health modifier in all modes.
+
+==== [[Eater of Worlds]] ====
+*Head now reflects projectiles in Death Mode.
+*No longer resists [[Spear]]s and projectiles which act like them, such as [[Arkhalis]].
+*Buffed Death Mode health modifier from {{death|1.25x}} to {{death|1.35x}}.
+
+==== [[Eye of Cthulhu]] ====
+*Buffed health modifier from 1.5x to 1.8x.
+
+==== [[Golem]] ====
+*Nerfed Death Mode health modifier from {{death|7x}} to {{death|6x}}.
+
+==== [[The Hive Mind]] ====
+*Nerfed phase 2's health from {{dv|4000|6400|8000|11,200}} to {{dv|3000|4800|5760|7200}}.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Buffed contact damage from {{dv|600|960}} to {{dv|650|1040}}.
+*Increased [[Yharim's Crystal]]'s drop chance from {{revengeance|0.1%}} to {{revengeance|10%}}.
+
+==== [[King Slime]] ====
+*Buffed health modifier from 1.4x to 1.7x.
+
+==== [[THE LORDE]] ====
+*Now uses the Moon Lord's theme.
+
+==== [[Moon Lord]] ====
+*Nerfed Core's Death Mode health modifier from {{death|1.6x}} to {{death|1.5x}}, and buffed its health modifier in other modes from 1.3x to 1.4x.
+*Nerfed Hand's Death Mode health modifier from {{death|1.4x}} to {{death|1.2x}}, and its health modifier in other modes from 1.2x to 1.1x.
+*Nerfed [[True Eye of Cthulhu]]'s [[Revengeance Mode]] health modifier from 250% to 200%.
+*Now opens its forehead eye more often.
+
+==== [[The Perforators]] ====
+*Increased the max time it takes for the Perforator Hive to shoot volleys of projectiles.
+*Buffed blood geyser damage from {{dv|30|48|50|67}} to {{dv|44|60|63|84}}.
+*Worms now strictly spawn at every 30% of the Hive's health lost.
+*Worms no longer spawn directly from the Hive, and now spawn offscreen.
+*Worms' distance before flying decreased.
+*No longer spawns [[Perforator Mini]]s.
+
+==== [[The Plaguebringer Goliath]] ====
+*Plague nuke barrage can now occur upon spawning in Death Mode.
+*Plague nuke barrage now begins up to 5 seconds after its dedicated status message instead of up to 20.
+*Up to 4 [[Plague Mine]]s can now spawn in Expert Mode, instead of 3 in Revengeance Mode.
+*Lowered the max amount of large Plague Chargers from 4 to 3.
+
+==== [[Plantera]] ====
+*Buffed Death Mode health modifier from {{death|1.8x}} to {{death|2.6x}}, and its health modifier in other modes from 1.4x to 2.3x.
+
+==== [[Providence, the Profaned God]] ====
+*Buffed health from {{dv|205,000|0|220,000|265,000}} to {{dv|285,000|0|300,000|324,000}}.
+
+==== [[Queen Bee]] ====
+*Buffed Death Mode health modifier from {{death|1.5x}} to {{death|1.9x}}, and its health modifier in other modes from 1.25x to 1.7x.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Nerfed health in Death Mode from {{death|512,000}} to {{death|480,000}}.
+*Nerfed [[Cosmic Lantern]]'s health from {{dv|2000|2800|2940|4200}} to {{dv|150|210|220|315}}.
+*Cosmic Lanterns now fade in and are invincible for a few seconds when spawning.
+*No longer spawns Cosmic Lanterns randomly when hurt, and now spawns them in columns of 5 on either side of the player during its charging phase.
+*Increased Cosmic Lantern limit from 5 to 10.
+*Dust explosions now last shorter.
+
+==== [[Siren and Leviathan]] ====
+*Buffed the Leviathan's health from {{dv|52,000|83,200|88,000|104,000}} to {{dv|79,000|126,400|140,800|152,000}}.
+*The Siren now cycles through phases quicker.
+*Reduced dust on the Siren when hit.
+*[[Siren Clone]]s now have a 33% chance to fire frost mist as opposed to just water spears.
+*Frost mist now emits particles twice as often.
+
+==== [[Skeletron]] ====
+*Nerfed Death Mode health modifier from {{death|1.6x}} to {{death|1.2x}}, and its health modifier in other modes from 1.3x to 1.1x.
+*Buffed Death Mode Skeletron's Hand's health modifier from {{death|1.4x}} to {{death|2.5x}}, and its health modifier in other modes from 1.2x to 2.2x.
+
+==== [[Skeletron Prime]] ====
+*Nerfed health modifier from 1.15x to 1.1x.
+*Nerfed Prime Laser's health modifier from 1.3x to 1.2x.
+
+==== [[The Slime God]] ====
+*Nerfed Core health from {{dv|1000|1600|2560|3520}} to {{dv|800|1280|1600|2240}}.
+*Core now inflicts [[Marked for Death]] for 5 seconds instead of 3.
+*Core is now more aggressive.
+*Ebonian Slime God now fires abyss mines 2x more often.
+*Split Ebonian Slime God now fires mines 4x more often.
+*Crimulan Slime God now fires mines 3x more often.
+*Increased flying [[Corrupt Slime Spawn]]'s velocity slightly.
+*Buffed flying Corrupt Slime Spawn's health from {{dv|50|70}} to {{dv|300|420}}.
+*Buffed wingless Corrupt Slime Spawn's health from {{dv|70|98}} to {{dv|120|168}}.
+*Buffed [[Crimson Slime Spawn]]'s health from {{dv|70|98}} to {{dv|200|280}}.
+*Buffed [[Spiked Crimson Slime Spawn]]'s health from {{dv|140|196}} to {{dv|250|350}}.
+	
+==== [[Storm Weaver]] ====
+*Now summons lightning orbs.
+*Nerfed armored [[Stasis Probe]]'s health from {{dv|4000|5600}} to {{dv|2000|2800}}.
+*Nerfed naked Stasis Probe's health from {{dv|5000|7000}} to {{dv|2500|3500}}.
+*Reduced Stasis Probe cap from 10 to 3.
+
+==== [[Supreme Calamitas]] ====
+*Increased [[Vulnerability Hex]] duration on contact from 5 seconds to 10.
+*No longer inflicts [[NO U]] in Death Mode.
+*Projectiles now inflict Vulnerability Hex.
+*Completely rewrote dialogue:
+
+{{collapse top|Dialogue Changes (click to reveal)|Dialogue Changes (click to collapse)}}
+
+{| class="terraria lined"
+! Trigger !! Old !! New
+|-
+| When the first bullet hell ends.
+| ''"Alright, let's get started.  Not sure why you're bothering, you will not succeed."''
+| ''"Alright, let's get started.  Not sure why you're bothering."'' 
+|-
+| Upon reaching 75% health.
+| ''"You seem so confident...yet painfully ignorant of what has yet to transpire.  I was the same way, long ago."''
+| ''"You seem so confident, even though you are painfully ignorant of what has yet to transpire."''
+|-
+| Upon reaching 50% health.
+| ''"Couldn't leave well enough alone could you?  Could have stopped after murdering his beloved dragon...but no."''
+| ''"Everything was going well until you came along."''
+|-
+| Upon reaching 40% health.
+| ''"Well done, you've passed level one of my special hell.  That's something someone like you would undoubtedly be very proud of..."''
+| ''"Don't worry, I still have plenty of tricks left."''
+|-
+| Upon reaching 30% health.
+| ''"This is no longer about vengeance, it's about preventing a monster from growing stronger."''
+| ''"Hmm...perhaps I should let the little ones out to play for a while."''
+|-
+| Upon reaching 20% health.
+| ''"Impressive...but still not good enough!  Go, my little seekers!  Burn them down!"''
+| ''"Impressive...but still not good enough!"''
+|-
+| Upon reaching 6% health.
+| ''"Just stop!  As I said earlier, you WILL NOT succeed!"''.
+| ''"Just stop!"'' 
+|-
+| Upon reaching 4% health.
+| ''"Even if you defeat me you still have my lord to contend with!  He is leagues ahead of anything you have faced thus far!"''
+| ''"Even if you defeat me you still have my lord to contend with!"''
+|-
+| Upon reaching 2% health.
+| ''"Ugh...I'm honestly not sure what side I should be fighting for anymore..."''
+| ''"To this day my lord has yet to lose a battle!"''
+|-
+| Upon reaching 1% health.
+| ''"YOU are a monster that butchers everything in their path for greater power..."``.
+| ''"Not even I could defeat him!  What hope do you have!?"''
+|-
+| 10 seconds after reaching 1% health before defeating her prior.
+| ''"My lord...is also a monster, but at least he has noble goals to justify his actions."''
+| ''"He has grown far stronger since we fought... you stand no chance."''
+|-
+| 15 seconds after reaching 1% health before defeating her prior.
+| ''"Well...I guess this is the end.  Hopefully a few of my words got through to you...if you can still think rationally after all that killing."''
+| ''"Well... I suppose this is the end..."'' 
+|-
+| 15 seconds after reaching 1% health after defeating her prior.
+| ''"Whatever, you'll just take your loot and move on as always.  Guess I'll keep fighting for Yharim then."''
+| ''"Perhaps one of these times I'll change my mind after all these deaths..."''
+|-
+| When reaching the hitcap.
+| ''"You got hit too many times...you are very pro at dodging.  Did you take lessons from Leviathan?"''
+| "''You got hit too many times...noice. Did you take lessons from Leviathan?"''
+|-
+| After defeat.
+| ''"...you know I'll just come back...right?  HAH!  I CAN'T DIE, BUT YOU CAN!  THAT'S FUNNY!  ...isn't it?"''
+| ''"At long last I am free...no...wait.  I'll just keep coming back, like you.  Funny how that works...isn't it?"''
+|-
+|}
+{{collapse bottom}}
+
+==== [[The Twins]] ====
+*Buffed the health modifier for both eyes from 1.3x to 1.4x.
+
+==== [[Wall of Flesh]] ====
+*Increased speed in Revengeance and Death Mode.
+*Reduced laser frequency in Revengeance and Death Mode.
+*Nerfed Death Mode health modifier from {{death|2.5x}} to {{death|2.2x}}.
+*Nerfed Death Mode The Hungry II's health modifier from {{death|3.5x}} to {{death|3.1x}}.
+*Buffed Death Mode [[Leech]]'s health modifier from {{death|2.5x}} to {{death|3.5x}}, and its health modifier in other modes from 2.1x to 3.1x.
+
+=== Items ===
+*[[Apotheosis]] now includes 2 [[Excelsus]]es and 77 [[Phantoplasm]] in its recipe.
+*Apotheosis now inflicts [[Armor Crunch]] for 10 seconds.
+*[[Cosmic Immaterializer]] now requires 12 minion slots to use instead of 8.
+*[[Crystal Bullet]]s now only do 12.5% damage in Revengeance Mode instead of 16.67%.
+*[[Floodtide]] can now be obtained 3x more commonly from fishing.
+*Nerfed [[Helstorm]]'s damage from 27 to 24.
+*[[Icebreaker]] can now only last for 2 seconds instead of 5.
+*Buffed [[Megalodon]]'s damage from 29 to 32.
+*Nerfed [[Superball Bullet]]'s damage from 10 to 6.
+*Superball Bullets now pierce 5 times instead of 7.
+*[[Terra Arrow]]s and [[Terra Bullet]]s now emit less dust.
+*Removed the line, "It's basically cheating top kek lel" from [[Yharim's Crystal]].
+*Yharim's Crystal's name whitelist changes:
+**Grox, Vlad, Spoopyro, and Echo are no longer whitelisted.
+**Grox the Great, MineCat, gamagamer64, and Leviathan are now whitelisted.
+*Yharim's Crystal can no longer drop from any enemy.
+*Nerfed [[Yharon's Kindle Staff]]'s damage from 300 to 250.
+
+=== Other ===
+*Put a max damage boost cap of 75% (100% when wearing Demonshade armor) on players in Revengeance and Death Mode.
+*Put a max critical strike chance boost of 75% on players in Revengeance and Death Mode.
+
+=== Resprites ===
+*Resprited [[Siren (Blue)]].
+*Resprited [[Arch Amaryllis]], [[Charred Idol]], [[Cursed Capper]], [[Earth]], [[Sigil of Calamitas]].
+
+== Fixes ==
+*Fixed a multiplayer desync bug with Astrum Deus.
+*Fixed a sheeting error on [[Brimstone Elemental]].
+*Fixed a sheeting error on [[Xeroc Wings]].
+*Fixed a bug with Calamity's dashing coverings which prevented the player from dashing again if they held the movement key down after dashing.
+*Fixed a bug where the [[damage reduction]] cap wasn't taking certain [[coverings]] and [[Buffs]] into account.
+*Fixed a bug where Perforator worms would sometimes attach heads to each other.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

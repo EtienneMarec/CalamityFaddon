@@ -1,0 +1,61 @@
+{{dedicated|Elfinlocks|Patreon Donator}}
+{{item infobox
+| stack = 1
+| type = Weapon
+| damage = 2250
+| damagetype = magic
+| mana = 180
+| use = 300
+| velocity = 2
+| tooltip = Oh dear, you are dead!<br/>Casts a deadly and powerful ice spell in the location of the cursor<br/>This ice spell locks itself to the position of nearby enemies<br/>Consumes 2 Blood Runes every time it's used
+| knockback = 6
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| debuff = Glacial State
+| debufftip = Cannot move and defense is shattered
+| debuffchance= 100%
+| debuffduration = 1 second (Spell)
+| debuff2 = Exo Freeze
+| debufftip2 = Cannot move
+| debuffchance2= 100%
+| debuffduration2 = 0.5 seconds (Spell)
+| debuff3 = Frostburn
+| debufftip3 = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance3 = 100%
+| debuffduration3 = 2 seconds (Snowflake)
+| proj = IceBlock.png
+| projcaption = Ice Block
+| proj2 = Ice Block Icicle.png
+| proj2caption = Icicle
+| proj3 = North Pole Snowflake.png
+| proj3caption = Snowflakes
+| element1 = Cold
+| element2 = Dark
+}}
+
+The '''Ice Barrage''' is a craftable Godseeker Mode [[wand]] that consumes [[Blood Rune]]s as [[ammunition]]. It creates a circle of energy around the cursor which collapses inwards, dealing a great deal of damage to any enemy within the circle. After that, it creates four large blocks of ice which fire snowflakes at enemies, eventually shattering. The center of the spell attaches to nearby enemies that enter the field.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+
+* This weapon in its entirety is a reference to the MMORPG ''[[wikipedia:Runescape|Runescape]]'', as all the data provided is relevant to Runescape.
+**The staff's appearance is a reference to the Ancient Staff, a powerful magic staff from the aforementioned game.
+**The staff's name and functionality is a reference to Ice Barrage, the highest level attack spell that can be cast using the Ancient Staff. In Runescape, Ice Barrage seals the target and the surrounding area in a giant rectangular block of ice after a delay.
+**The staff's tooltip is a reference to the message delivered to the player when they die in Runescape.
+
+[[File:Ice Barrage (demo).gif|frame|left|The Ice Barrage's powerful ice spell projectile.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

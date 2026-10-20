@@ -1,0 +1,31 @@
+{{infobox wrapper
+|{{item infobox
+|type = Crafting material
+| stack = 9999
+| rare = a
+| sell = {{value|0|0|6|0}}
+}}
+|{{item drops infobox
+| [[Armored Digger]]|4-8|100%
+| [[Cyber Draedon]] {{fantag|Calamity: Community Remix}}|20-50|100%
+| [[The Twins]] ([[Draedon's Remote]])|8-16|100%
+| [[The Destroyer]] ([[Draedon's Remote]])|8-16|100%
+| [[Skeletron Prime]] ([[Draedon's Remote]])|8-16|100%
+}}
+}}
+
+'''Dubious Platings''' are [[crafting material]]s obtained by smelting [[Arsenic Ore]] found within the [[Dungeon]], as well as by killing various Draedon related enemies. They are used to craft various [[weapons]] and [[furniture]] alongside [[Mysterious Circuitry]].
+
+Crafting all of the weapons that require Dubious Plating (in other words, Draedon's Arsenal weapons) costs 296 Platings; additionally, crafting every decoration that requires Dubious Plating requires an additional 31 Platings for a total of 327 Platings.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Draedon's Arsenal}}
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

@@ -1,0 +1,38 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 90
+| debuff = Wither
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| axe = 260
+| knockback = 8
+| rare = 13
+| use = 8
+| sell = {{value|0|12}}
+| hardmode = yes
+| postml = yes
+| toolspeed = 5
+| element1 = dark
+| element2 = slash
+}}
+
+The '''Twisted Netherite Axe''' is a craftable Godseeker Mode [[axe]] that inflicts the [[Wither]] debuff on hit.
+
+{{modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Twisted Netherite}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Axes]]

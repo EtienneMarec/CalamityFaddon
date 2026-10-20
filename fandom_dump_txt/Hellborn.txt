@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| damagetype = ranged
+| auto = yes
+| damage = 7
+| knockback = 2
+| rare = 5
+| sell = {{value|0|4|80}}
+| use = 15
+| tooltip = Fires a spread of 3 bullets<br/>Converts musket balls into explosive bullets<br/>Enemies that touch the gun while it's being fired trigger a massive explosion<br/>After the explosion, this gun gains a massive boost to damage, fire rate and knockback for 10 seconds<br/>These stat bonuses slowly decay over time
+| velocity = 12
+| hardmode = yes
+| debuff = On Fire!
+| debufftip = Slowly losing life
+| debuffduration = 6 seconds (Contact with gun)
+| debuffchance = 100%
+| element1 = Fire
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Brimstone Elemental]]|1|10%
+}}
+}}
+The '''Hellborn''' is a [[Hardmode]] [[gun]] that drops from the [[Brimstone Elemental]]. The gun fires three to five bullets per shot in an uneven spread. If [[Musket Ball]]s are used as [[ammo]], they are transformed into explosive bullets that can damage the player. The gun itself also deals contact damage to enemies, an uncommon property for a ranged weapon that it shares with weapons such as [[Marnite Bayonet]] and [[Helstorm]]. If the gun touches an enemy, a massive explosion is created, and the gun gains increased damage, fire rate, and knockback for 10 seconds. The contact damage from the gun is 10 times greater than the damage of the bullets. Enemies that take contact damage from the gun will be inflicted with the [[On Fire!]] debuff.
+
+{{Modifier|ranged}}
+
+== Notes ==
+*As the gun's hitbox does not change based on aim, it will not always hit enemies that pass through the sprite.
+*When dealing contact damage with the gun itself, the damage type is still Ranged.
+
+== Trivia ==
+*It was formerly the [[rare variant]] of the [[Helstorm]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

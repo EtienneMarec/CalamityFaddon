@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damage = 60
+| damagetype = summon
+| knockback = 1.25
+| mana = 10
+| use = 19
+| tooltip = Summons blighted probes to protect you
+| buff = Astral Probe (buff) |bufflink = no
+| bufftip = The astral blight probe will protect you
+| rare = 9
+| sell = {{value|0|19}}
+| hardmode = yes
+| proj = Blight Round.png
+| projcaption = Astral Blight Laser
+| element1 = Magic
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Astrum Deus]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Blight Probe|name=Astral Blight Probe (minion)|type=minion}}
+
+The '''Godspawn Helix Staff''' is a [[Hardmode]] [[summon weapon]] dropped by [[Astrum Deus]]. It summons an Astral Blight Probe that orbits the player and fires homing blight lasers that pass through tiles.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient=Godspawn Helix Staff}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

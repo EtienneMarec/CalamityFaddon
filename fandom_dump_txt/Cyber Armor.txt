@@ -1,0 +1,69 @@
+{{item infobox
+| imagebreak = yes
+| type = Armor
+| defense = 20
+| rare = 4
+| sell = {{value|0|6|30}} (set)
+| hardmode = yes
+| setbonus = Hold a direction after dashing to boost.<br/> Press {{key|Armor Set Bonus}} to trick!<br/> Comboing tricks together will increase your crit chance and refill some of your boost.
+}}
+
+'''Cyber Armor''' is a craftable [[Hardmode]] [[Covering]] set. While lacking the same high stats that many early Hardmode armors provide, it gives the player several movement-based abilities.
+
+It consists of the [[Cyber Head]], [[Cyber Booster]], and [[Cyber Skates]].
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+
+*20 defense
+*10% increased crit chance
+*Double tap a direction to dash
+*Gives the player the ability to run and slide down walls, similarly to the [[Hermes Boots]] and [[Climbing Claws]] respectively
+*Hold a direction while dashing to boost, charging forward quickly while lowering your boost meter
+**Waiting 5 seconds after stopping your boost will cause it to slowly recharge
+*Allows the player to grind on [[Minecart Track|Tracks]]
+**Pressing down will dismount the player from the track
+*Press {{key|Armor Set Bonus}} to perform a trick
+**Tricks will increase the players boost slightly, and will increase their crit chance by 5%, up to a maximum of 25%
+**Their crit chance will return to 0% if they are not grinding or in the air
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Cyber Head
+| type = Armor
+| defense = 9
+| tooltip = You can now grind on minecart rails. 3% increased crit chance
+| body slot = Helmet
+| sell = {{value|0|2|10}}
+}}
+|{{item infobox
+| name = Cyber Booster
+| type = Armor
+| defense = 5
+| tooltip = Double tap a direction to boost. 5% increased crit chance
+| body slot = Shirt
+| sell = {{value|0|2|10}}
+}}
+|{{item infobox
+| name = Cyber Skates
+| type = Armor
+| defense = 6
+| tooltip = You can run and slide down walls. 2% increased crit chance
+| body slot = Pants
+| sell = {{value|0|2|10}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Cyber%|resultnot=Cyberlight Brick/Cyberlight Striker}}
+
+== Notes ==
+*The players running speed is increased to 40 mph, 55 while grinding on rails, and 70 mph while boosting.
+*The player cannot stop moving forward while on rails and while boosting.
+**Turning is disabled while on rails, and is much slower while boosting.
+
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

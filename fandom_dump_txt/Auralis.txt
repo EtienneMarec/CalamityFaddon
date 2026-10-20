@@ -1,0 +1,49 @@
+{{dedicated|Goliath|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 695
+| use = 30
+| knockback = 10
+| velocity = 7.5
+| tooltip = Fires a high speed glowing bullet that inflicts debilitating debuffs<br/>Right click to zoom out<br/>Standing still provides increasing damage bonuses up to 25%<br/>Standing still for 5 or more seconds while using the scope ability will summon an aurora<br/>The aurora reduces the damage of the next projectile hit by a flat 100<br/>This effect lasts up to 20 seconds and has a 30 second cooldown<br/>50% chance to not consume bullets
+| stack = 1
+| auto = yes
+| rare = 12
+| sell = {{value|0|24}}
+| debuff = Cursed Inferno
+| debuffduration = 7 seconds
+| debuffchance = 100%
+| debufftip = Losing life<br/>All damage taken increased by 20%
+| debuff2 = Ichor (debuff)
+| debuffduration2 = 7 seconds
+| debuffchance2 = 100%
+| debufftip2 = Defense reduced by 20
+| debuff3 = Marked
+| debuffduration3 = 7 seconds
+| debuffchance3 = 100%
+| debufftip3 = Damage reduction reduced
+| hardmode = yes
+| postml = yes
+| element1 = Cold
+| element2 = Magic
+}}
+
+The '''Auralis''' is a craftable Godseeker Mode [[gun]] that is the direct upgrade to the [[Sniper Rifle]]. When used, a high-velocity blue-green dust round is fired. The bullet pierces up to four targets and inflicts [[Cursed Inferno]], [[Ichor (debuff)|Ichor]], and [[Marked]]. It has a 50% chance to not consume ammo when fired.
+
+The player builds up damage when they are standing still, up to a maximum of 25% increase to damage after 5 seconds. If the player uses a scope effect whilst having the maximum damage boost, they will form a blue-green aura akin to the [[Profaned Moonlight Dye]] for 20 seconds with a 30-second cooldown. While the aura is active, the next projectile that hits the player will deal 100 less damage, and will remove the aura. The damage boost and aura are reverted if the player moves.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

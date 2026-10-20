@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 125
+| knockback = 8
+| velocity = 12
+| tooltip = Releases a rolling tumbleweed on hit
+| use = 20
+| auto = yes
+| rare = 7
+| stack = 1
+| sell = {{value|0|12}}
+| hardmode = yes
+| proj = Tumbleweed Flail.png
+| projcaption = Tumbleweed
+| element1 = Poison
+| element2 = Fire
+| element3 = Smash
+}}
+
+The '''Tumbleweed''' is a craftable [[Hardmode]] [[flail]]. It functions like a normal flail, but it cannot be dragged by holding the mouse button. Once the flail contacts an enemy, the chain will break, releasing a rolling tumbleweed that can pierce many enemies before disappearing.
+
+{{modifier|meleealt}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Grand Scale}}
+{{Master Template Weapons
+|show-main = yes
+|show-melee = yes
+}}
+[[Category: Flails]]

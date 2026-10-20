@@ -1,0 +1,12 @@
+{{msgbox
+| image = Lua logo.svg{{!}}link=
+| text  = This template uses '''<includeonly>[[</includeonly>Module:{{ucfirst: {{{1|{{BASEPAGENAME}}}}} }}<includeonly>]]</includeonly>''', a script written in the [[wikipedia:Lua (programming language)|Lua programming language]]. Please see [[wikipedia:Lua]] and [[mw:Extension:Scribunto]] to learn more about Lua.
+| <includeonly>nocat = 1</includeonly>
+}}<includeonly>{{
+#if: {{{nocat|}}}
+|
+| {{#ifeq: {{SUBPAGENAME}} | doc
+  |
+  | [[Category:Lua-based templates]]
+  }}
+}}</includeonly><noinclude>{{doc}}</noinclude>

@@ -1,0 +1,25 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| stack = 999
+| rare = 6
+| sell = {{value|0|1|4|0}}
+| listexclude = yes
+| hardmode = yes
+}}
+|{{item drops infobox
+|[[Lava Bat]]<br/>[[Red Devil]]|{{dv|1-2|2-3}} | 50%
+|[[Wall of Flesh]]|{{dv|3-5|5-8}} | 100%
+}}
+}}
+
+'''Twisted Tendrils''' are a [[Hardmode]] [[crafting materials]] dropped by the [[Wall of Flesh]] and certain [[Underworld]] [[enemies]]. They are primarily used to make [[Chaos Serpent Shard]]s.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

@@ -1,0 +1,14 @@
+<!--
+//output:
+-->{{msgbox|text=<!--
+	-->{{l10n|i18n-ready|main_text}}<!--
+	-->{{ifexists|ns=Template|{{PAGENAME}}/l10n|<!--
+		--><br/><small>{{l10n|i18n-ready|sub_text|$link$=[[Template:{{PAGENAME}}/l10n|{{ns:Template}}:{{PAGENAME}}/l10n]]}}</small><!--
+	-->}}<!--
+-->|nocat=1}}<!-- 
+
+-->{{#if:{{{nocat|}}}||<!-- 
+	-->{{#ifeq: {{SUBPAGENAME}} | doc || [[Category:{{l10n|i18n-ready|cat}}]]}}<!-- 
+-->}}<!--
+
+--><noinclude>{{doc}}</noinclude>

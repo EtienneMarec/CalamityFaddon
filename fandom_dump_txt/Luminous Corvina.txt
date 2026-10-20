@@ -1,0 +1,50 @@
+{{npc infobox
+| environment = Abyss
+| type = Aquatic
+| ai = Luminous Corvina AI
+| damage = {{element|Water}} {{dv|10|20}}
+| life = {{dv|800|1,600}}
+| defense = 12
+| knockback = {{dv|15%|23.5%}}
+| debuff = Fish Alert | debufflink = no
+| debuffchance = 100%
+| duration = {{dv|3 seconds|6 seconds}}<br/>(scream)
+| debufftip = The abyssal creatures have spotted you!
+| debuff2 = Crush Depth
+| duration2 = 3 seconds
+| debuffchance2 = 100%
+| debufftip2 = Aquatic pressure
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| banner = yes
+| money = {{value|0|0|15|0}}
+| Voidstone|8-15|100%
+| custom | {{item|Depth Cells|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|1-2|2-3}}) |50%
+| custom | {{item|Lumenyl|note=(After defeating [[Calamitas]])|wrap=y}}|50%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = CorvinaScream.wav
+| soundtext = Scream
+| vulnerable1 = Holy
+| vulnerable2 = Poison
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Dark
+| resistant3 = Cold
+}}
+
+The '''Luminous Corvina''' is an [[enemy]] that spawns in the second layer of the [[Abyss]]. It simply swims from side to side, never attempting to chase the player, even if they damage it.
+
+If the player is in front of it for 5 seconds, it will emit a shrill scream which inflicts the '''Fish Alert''' [[debuff]], allowing Abyss enemies to notice the player more easily. Once damaged, however, it will scream every 5 seconds as long as it has a line of sight on the player.
+
+== Tips ==
+*Due to this enemy's high luminescence, the player can spot it easily in the dark waters and should make note of where not to shoot or attack in order to prevent damaging it.
+
+== Trivia ==
+*[[wikipedia:Cilus gilberti|Corvinas]] are a type of saltwater fish that inhabit the coasts of Central and South America, they are mainly known for being a highly prized food fish.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

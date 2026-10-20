@@ -1,0 +1,43 @@
+{{item infobox	
+| type = Weapon
+| damage = 20
+| damagetype = Ranged
+| knockback = 2
+| stack = 1
+| rare = 3
+| sell = {{value|0|0|80}}
+| auto = yes
+| use = 20
+| velocity = 11
+| tooltip = Fires an inaccurate spread of fireballs<br/>The brimstone sac appears to contain fuel<br/>Revenge is a dish best served flaming hot
+| debuff = Brimstone Flames
+| debuffduration = 2 seconds (Main Red Fireball)<br/>1.5 seconds (Split Red Fireball)
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| debuff2 = On Fire!
+| debuffduration2 = 3 seconds (Main Orange Fireball)<br/>2 seconds (Split Orange Fireball)
+| debufftip2 = Slowly losing life
+| debuffchance2 = 100%
+| proj = Drizzle Fire Orange.png
+| projcaption = Orange Fireball
+| proj2 = Drizzle Fire Yellow.png
+| proj2caption = Yellow Fireball
+| element1 = Fire
+}}
+
+The '''Dragoon Drizzlefish''' is a [[Pre-Hardmode]] [[flamethrowers|flamethrower]] that is rarely [[Fishing|fished]] up in the Brimstone Crags. It shoots one of two flame projectiles:
+*A gravity affected fireball that lingers for a short amount of time after halting.
+*A fireball that splits into three fireballs after traveling a short distance.
+
+Both projectiles have a 50% chance to be either orange or red. Orange projectiles inflict the [[On Fire!]] [[debuff]] onto [[enemies]] while the red projectiles inflict [[Brimstone Flames]].
+
+{{Modifier|ranged}}
+
+== Notes ==
+*Unlike other flamethrowers, this weapon does not consume [[ammo]], also lacking an equipped "tank." This is likely intentional, as referenced by the weapon's description with the line "The brimstone sac appears to contain fuel".
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

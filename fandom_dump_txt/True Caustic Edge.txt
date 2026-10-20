@@ -1,0 +1,48 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 150
+| debuff = Venom
+| debufftip = Losing life
+| debuffduration = 2.5 seconds (Contact)<br/>2 seconds (Projectile)
+| debuffchance = 100%
+| debuff3 = Poisoned
+| debufftip3 = Slowly losing life
+| debuffduration3 = 5 seconds (Contact)<br/>3 seconds (Projectile)
+| debuffchance3 = 100%
+| use = 27
+| velocity = 16
+| knockback = 5.75
+| auto = yes
+| stack = 1
+| tooltip = Fires a bouncing caustic beam<br/>Inflicts poison and venom
+| rare = 4
+| sell = {{value|0|2|40}}
+| hardmode = yes
+| proj = Caustic Beam.png
+| projcaption = Caustic Beam
+| element1 = Poison
+| element2=  Slash
+}}
+[[File:True-Caustic edge.gif|thumb|291x291px|LMB attack]]
+The '''True Caustic Edge''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. When swung, it fires a high-velocity, yellow sword beam that can bounce or pierce up to two times, and deals 75% of the weapon's damage. It inflicts the [[Poisoned]] and [[Venom]] [[debuffs]] to hit enemies.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The True Caustic Edge is available shortly after entering Hardmode; as a result, it is particularly useful as a starting weapon before being replaced by stronger weapons.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:真·绝望之刃]]

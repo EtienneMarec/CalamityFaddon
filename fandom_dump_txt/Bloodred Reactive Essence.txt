@@ -1,0 +1,33 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Crafting material
+| stack = 9999
+| rare = C1
+| sell = {{value|0|5}}
+| tooltip = "filled with blood"
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+{{item drops infobox
+| any [[Desert]] enemy|1| 10%
+| any [[Crimson]] enemy|1| 10%
+| any [[Brimstone Crag]] enemy|1| 10%
+| any [[Pot of Pain]] enemy|1| 10%
+}}
+
+'''Bloodred Reactive Essence''' is a Post-[[The Entropic God, Umbrus|Umbrus]] [[Crafting materials|crafting material]]. It is dropped from every enemy in the [[Desert]], [[Crimson]], [[Brimstone Crag]] and [[Pot of Pain]] with a 10% chance. It is used to craft various Post-Umbrus blood-themed melee equipment. 
+
+==Crafting==
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+* The essences sprite was inspired by the [[Ogscule]]
+* If an enemy is killed in a Corrupted/Astral desert it won't drop Bloodred essences
+* It is a Post-Umbrus version of Solarflare fragments
+
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

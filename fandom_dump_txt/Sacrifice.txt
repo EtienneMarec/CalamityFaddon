@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 290
+| knockback = 4
+| use = 8
+| velocity = 12
+| tooltip = Throws sacrificial daggers that lodge themselves in enemies<br/>Right click causes all stuck daggers to fly back at you and give you life<br/>Daggers stuck to enemies release bloodsplosions over time<br/>Stealth strikes provide much more life when returning to you
+| rare = 15
+| sell = {{value|0|30}}
+| element1 = Dark
+| element2 = Unholy
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Supreme Calamitas]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+
+'''Sacrifice''' is a Godseeker Mode [[dagger]] that drops from [[Supreme Calamitas]]. When used with the left-click, it rapidly throws daggers that stick to enemies and constantly deal damage for 0.83 seconds. Up to a maximum of 15 daggers can be stuck at a time. When used with the right-click, daggers that are stuck on an enemy will return to the player and [[lifesteal|heal]] for 4 health per dagger.
+
+Performing a [[stealth strike]] with the Sacrifice will cause the resulting dagger to heal for 50 health when returning to the player.
+
+{{Modifier|rogue}}
+
+==Crafting==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The player cannot gain right-click's healing effect from [[Target Dummy]] or [[Super Dummy]].
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Daggers]]

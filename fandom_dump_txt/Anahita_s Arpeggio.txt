@@ -1,0 +1,48 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = magic
+| damage = 92
+| mana = 7
+| auto = yes
+| use = 18
+| tooltip = Casts slow-moving treble clefs that confuse enemies
+| knockback = 6.5
+| velocity = 13
+| rare = 7
+| stack = 1
+| sell = {{value|0|12}}
+| debuff = Confused
+| debuffchance = 100%
+| debuffduration = 5 seconds (Clefs)
+| debufftip = Movement is reversed
+| hardmode = yes
+| proj = Arpeggio Note.png
+| projcaption = Treble Clef
+| element1 = Water
+| element2 = Holy
+}}
+|{{item drops infobox
+|[[Leviathan and Anahita]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Anahita's Arpeggio''' is a [[Hardmode]] [[magic weapon]] that is dropped by the [[Leviathan and Anahita]] and is the indirect upgrade to the [[Magical Harp]]. It fires treble clefs in random directions within about 30 degrees of the cursor. The clefs will ricochet off of blocks and pierce through all enemies while traveling, inflicting the [[Confused]] [[debuff]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*An [[wikipedia:Arpeggio|arpeggio]] is a musical technique in which the notes of a chord are played in succession in a rising or falling order.
+*This item was previously known as "Anahita's Song". Before that, it was named "Siren's Song".
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category:Magic weapons]]
+[[zh:阿娜希塔琶音]]

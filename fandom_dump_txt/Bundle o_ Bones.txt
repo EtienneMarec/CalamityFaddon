@@ -1,0 +1,34 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| rare = 3
+| sell = {{value|0|0|0|60}}
+| damage = 24
+| damagetype = Rogue
+| knockback = 2
+| velocity = 8
+| auto = yes
+| stack = 9999
+| consumable = True
+| use = 30
+| tooltip = Fires a cluster of bones that bounces and explodes into lingering fragments<br/>Stealth strikes cause the cluster to shoot a bone at the nearest enemy on every bounce
+| proj = Bone.png
+| projcaption = Bone
+| element1 = Unholy
+}}
+
+'''Bundles o' Bones''' are Pre-[[Hardmode]] consumable [[rogue weapon]]s found inside [[Shadow Chest]]s in the [[Dungeon]]. They automatically throw clusters of bones that bounce off of three enemies or tiles before falling apart into lingering bones that deal damage. The lingering bones deal 5% of the weapon's damage.
+
+Performing a [[stealth strike]] with Bundles o' Bones will cause the next cluster thrown to shoot a bone at the nearest enemy every time it bounces. These bones deal 30% of the main cluster's damage.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{Dungeon}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

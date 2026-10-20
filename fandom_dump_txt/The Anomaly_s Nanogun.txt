@@ -1,0 +1,53 @@
+{{dedicated|Uberransy|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 2000
+| knockback = 4.5
+| use = 140
+| velocity = 5
+| tooltip = Press Left Click to charge up 5 rapid-fire plasma beams<br/>Press Right Click to launch 3 fission bombs<br/>'Welcome to the party, pal'<br/>Current Charge: [CHARGE]
+| stack = 1
+| research = 1
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| proj = MPFB Devastator.gif
+| projcaption = MPFB Devastator
+| sound = AnomalysNanogunPlasmaCharge.wav
+| soundtext = Primary Charge
+| sound2 = AnomalysNanogunPlasmaShot.wav
+| sound2text = Primary Fire
+| sound3 = AnomalysNanogunMPFBShot.wav
+| sound3text = Secondary Fire
+| sound4 = AnomalysNanogunMPFBExplosion.wav
+| sound4text = Explosion
+| element1 = Machine
+}}
+
+'''The Anomaly's Nanogun''' is a craftable Godseeker Mode [[ranged weapon]]. When used with its primary fire (left-click), a reticle appears at the cannon's muzzle for 0.67 seconds. Then, it fires a solid, infinitely piercing red beam towards the cursor over five-round bursts.
+
+When used with its secondary fire, the weapon has an effective base damage of 320, base use time of 59, and base knockback of 3.6. It causes the player to recoil in the opposite direction the weapon is fired towards, and simultaneously fires three bombs with varying speeds towards the cursor. Each bomb creates a massive explosion on impact which constantly damages enemies within radius.
+
+On primary fire, {{charge|0.8|250|140}} On secondary fire, it consumes 0.375 units of charge per use. As such, the secondary fire can be used continuously from full charge 666 times, or for 11 minutes and 17 seconds. 
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier5}}
+{{recipes|view=infobox|result=The Anomaly's Nanogun}}
+
+== Trivia ==
+*The Item's name & design are a reference to the 2008 Free Indie game ''[[wikipedia:Iji|Iji]]''. The sound effects are also ripped from the game itself.
+**The tooltip is also a reference to a song from Stage 3 of ''Iji'' of the same name, "[https://www.youtube.com/watch?v=0zZ9dN9SJXQ Welcome to the Party, Pal]".
+*While the player is holding the item, there is a 5% chance for the player to play a {{sound|different sound|IjiDies.wav}} on death.
+**This sound is the player hurt sound effect from the video game ''Iji''. 
+
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+{{language info|en=The Anomaly's Nanogun}}

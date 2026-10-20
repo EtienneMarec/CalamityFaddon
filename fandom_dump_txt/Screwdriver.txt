@@ -1,0 +1,29 @@
+{{item infobox
+| type = Potion
+| tooltip = >Multiplies piercing projectile damage by 1.05<br/>Reduces life regen by 1
+| stack = 9999
+| rare = 6
+| use = 17
+| sell = {{value|0|0|80}}
+| consumable = yes
+| debuffduration = 8 minutes
+| debuff = Screwdriver (debuff) | debufflink = no
+| debufftip = Piercing projectile damage boosted, life regen reduced
+| hardmode = yes
+}}
+
+'''Screwdriver''' is a craftable [[Hardmode]] [[potion]]. It grants the '''Screwdriver''' [[debuff]] when consumed, which reduces life regen, but boosts the damage of piercing projectiles by 5%.
+
+While the effects of the Screwdriver debuff are mostly beneficial, it is still considered a debuff, and therefore cannot be removed by right-clicking the icon.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 33
+| mana = 18
+| tooltip = Casts holy flaming bats
+| knockback = 5
+| rare = 5
+| sell = {{value|0|0|80}}
+| use = 24
+| stack = 1
+| velocity = 9
+| debuff = Holy Flames
+| debufftip = Slowly losing life
+| debuffduration = 4 seconds
+| debuffchance = 100%
+| element1 = Fire
+| element2 = Holy
+| hardmode = yes
+}}
+The '''Heavenwing Staff''' is a craftable [[Hardmode]] [[wand]]. Upon use, five non-piercing holy flaming bats are summoned near the cursor, which are fired in a semi-random, generally downward, direction. These bats can travel through tiles and inflict enemies with the [[Holy Flames]] [[debuff]] on hit.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Tips ==
+*This wand is rather useful for lighting areas on your minimap, to look for chests and ores or to clear world evils using the [[Clentaminator]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

@@ -1,0 +1,26 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| color = #18101D
+| use = 14
+}}
+
+'''Brimstone Slag Wall''' is a background [[wall]]. It is crafted with [[Brimstone Slag]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main   = yes
+| show-walls = yes
+}}
+
+[[Category:Block items]]

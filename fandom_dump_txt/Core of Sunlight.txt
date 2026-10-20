@@ -1,0 +1,29 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| stack = 9999
+| rare = 8
+| sell = {{value|0|0|40}}
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Primordial Light Spawn]] {{fantag|Deimos, the Starborn Princess}}| 3-5 | 100%
+}}
+}}
+
+'''Cores of Sunlight''' are [[Hardmode]] [[crafting materials]] crafted with a [[Hallowed Bar]] and an [[Essence of Sunlight]]. They can additionally be obtained from [[Fleshy Geode|Fleshy]] and [[Necromantic Geode]]s dropped by the [[Ravager]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Its name was previously "Core of Cinder".
+
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

@@ -1,0 +1,52 @@
+{{dedicated|Blockaroz|Developer}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 130
+| use = 5
+| knockback = 2
+| auto = yes
+| stack = 1
+| tooltip = Converts musket balls into extremely powerful high velocity rounds that inflict a powerful bleed debuff
+| rare = 16
+| sell = {{value|0|40}}
+| critical = 34%
+| velocity = 9
+| debuff = Shred | debufflink = no
+| debufftip = Blood
+| debuffchance = 10%
+| debuffduration = 6 seconds
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Stab
+}}
+|{{item drops infobox
+| [[Exo Cube]] | {{dv|1}} | 0.5% (Post-[[The Fabricational Quartet]]/[[Supreme Calamitas]])}}
+}}
+
+The '''Soma Prime''' is a craftable Epilogue [[gun]]. When [[Musket Ball]]s are used as [[ammo]], it fires high-damage [[High Velocity Bullet]]s. The Soma Prime fires very rapidly and can inflict the '''Shred''' [[debuff]] on hit. This debuff deals 750 damage per second over its duration.
+
+The Soma Prime has a 50% chance to not consume ammo.
+
+{{Modifier|rangedalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used In===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+== Trivia ==
+*The weapon itself is a reference to the [http://warframe.fandom.com/wiki/Soma_Prime Soma Prime] from the video game ''[[wikipedia:Warframe|Warframe]]''. In ''Warframe'', the Soma Prime was a very popular assault rifle known for having a high rate of fire, very high critical hit chance, and consistently inflicting a bleed effect on enemies.
+*In previous versions of the mod, the Soma Prime was renamed to "THIS WEAPON IS A REFERENCE TO WARFRAME OH MAH GAWD" and was also later renamed to "Gun". However, its name was changed back to "Soma Prime" later.
+*This weapon actually has a unique [[Rarity]] but is referred here as Hot Pink rarity for consistency between weapons.
+**This unique rarity alternates between rarity colors of white ({{color|#FFFFFF ●|#FFFFFF}}) and greenish beige ({{color|#D1CC6F ●|#D1CC6F}}).
+
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

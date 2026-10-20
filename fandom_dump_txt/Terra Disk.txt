@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Spy
+| damage = 100
+| knockback = 4
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| velocity = 12
+| use = 15
+| tooltip = Throws a disk that has a chance to generate several disks if enemies are near it<br/>A max of three disks can be active at a time<br/>Stealth strikes travel slower and are rapidly orbited by the smaller disks
+| auto = yes
+| hardmode = yes
+| proj = Mini Terra Disk.png
+| projcaption = Mini Terra Disk
+| element1 = Poison
+| element2 = Slash
+}}
+
+The '''Terra Disk''' is a craftable [[Hardmode]] [[Spy]] [[boomerang]]. It automatically fires up to 3 disks that have a chance to create 6 smaller disks outwards from the disk while an enemy is near.
+
+Performing a [[stealth strike]] with the Terra Disk will cause the next disk thrown to travel slower, but also continuously generate smaller disks that will rotate around it.
+
+{{modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Terra}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

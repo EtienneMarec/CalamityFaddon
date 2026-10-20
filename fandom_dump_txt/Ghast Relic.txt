@@ -1,0 +1,33 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Whenever your minions hit an enemy they have a chance to spawn a ghost that damages your enemies
+| sell = {{value|0|1}}
+| stack = 1
+| rare = 2
+| buff = Sunken Ghost | bufflink = no
+| duration = 10 seconds
+| bufftip = A Ghost was summoned to help you
+| proj = SunkenGhost.png
+| projcaption = ghost
+| element1 = magic
+| element2 = water
+}}
+{{Item drops infobox
+| [[Clam]]|1|5%}}
+The '''Ghast Relic''' is a [[Pre-Hardmode]] [[covering]] that drops from [[Clam]]s . Whenever a [[minion]] hits an enemy it has a 10% chance to spawn a ghost that chases your enemies and walks through them dealing 20 damage per second.
+
+== Crafting ==
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

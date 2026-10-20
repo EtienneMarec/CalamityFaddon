@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 270
+| mana = 26
+| knockback = 5
+| critical = 19%
+| rare = 9
+| sell = {{value|0|19}}
+| stack = 1
+| use = 18
+| velocity = 15
+| auto = yes
+| tooltip = Summons a large crystal from the sky that has a large area of effect on impact.
+| hardmode = yes
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 4 seconds
+| proj = Astral Crystal.gif
+| projcaption = Astral Crystal
+| element1 = Magic
+| element2 = Poison
+}}
+{{distinguish|Astralachnea Staff|a [[wand]] dropped by [[Astralachnea]]}}
+
+The '''Astral Staff''' is a craftable [[Hardmode]] [[wand]]. On use, it summons a large crystal that falls from the sky on the cursor's location. This crystal has a large area of effect when hitting the ground and is capable of piercing through enemies and [[platform]]s.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Astral}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

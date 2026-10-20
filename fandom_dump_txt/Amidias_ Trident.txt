@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 12
+| use = 17
+| knockback = 4.5
+| stack = 1
+| rare = 2
+| auto = yes
+| buy = {{value|0|2}}
+| sell = {{value|0|0|40}}
+| velocity = 6
+| tooltip = Shoots homing whirlpools
+| proj = Amidias' Trident Spear.png
+| projcaption = Amidias' Trident
+| proj2 = Amidias' Whirlpool.png
+| proj2caption = Amidias' Whirlpool
+| element1 = Water
+| element2 = Stab
+| element3 = Holy
+}}
+'''Amidias' Trident''' is a [[Pre-Hardmode]] [[spear]] that is purchasable from the [[Sea King]] at any time. It shoots an aquamarine whirlpool that passes through blocks, homes in on enemies, and disappears after contacting an enemy.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The whirlpools produce a dim light; therefore, they can be a viable option to search for caverns underground.
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]
+[[zh:海王三叉戟]]

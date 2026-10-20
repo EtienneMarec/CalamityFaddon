@@ -1,0 +1,23 @@
+{{dedicated|GearsofWon|Patreon Donator}}
+{{item infobox
+| type = Covering
+| tooltip = Show me the night sky<br/>30% increased arrow damage<br/>Arrows are trailed by homing shadow arrows and void particles
+| rare = 13
+| sell = {{value|0|4}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Quiver of Nihility''' is a craftable Godseeker Mode [[covering]]. While equipped, any weapon that fires arrows will have said arrows trailed by a second shadow arrow and some purple void particles. The shadow arrow will start to aggressively home after 2.67 seconds, and does the same amount of damage as the base arrow. The purple void particles will very slowly home in on enemies, and dissipate after 16 seconds. Additionally, arrow damage is increased by a multiplicative 30%.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The purple void particles paired with the black scheme of the arrows is a reference to missing textures in [[wikipedia:Valve Corporation|Valve]] games, which take the form of black and purple squares.
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}

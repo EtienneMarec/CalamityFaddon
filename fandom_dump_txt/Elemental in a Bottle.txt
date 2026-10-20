@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Summons a sand elemental to fight for you
+| sell = {{value|0|4|80}}
+| rare = 5
+| damage = 45
+| damagetype = summon
+| stack = 1
+| hardmode = yes
+| element1 = Poison
+| element2 = Slash
+| buff= Sand Elemental (buff) | bufflink = no
+| bufftip=The sand elemental will protect you}}
+|{{item drops infobox
+|[[Sand Elemental]]|1|{{dv|20%|33.33%}}
+}}
+}}
+{{summoned|Sand Elemental (minion)|name=Sand Elemental|type=minion}}
+The '''Elemental in a Bottle''' is a [[Hardmode]] [[covering]] that has a {{dv|14.29%|20%}} chance to be dropped by [[Sand Elemental]]s. Equipping it summons a Sand Elemental to fight for you, which deals summon damage and casts sandstorms in a similar fashion to their enemy counterpart.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Sand Elemental grants enemies 30 local [[immunity frames]] on contact damage, and the tornadoes it spawns grant 20.
+
+== Trivia ==
+*This item used to be called "Waifu in a Bottle", while the Sand Elemental herself used to be called "Sand Waifu". After that, they were known as "Lady in a Bottle" and "Miss Sandy", respectively.
+*If the {{fantag|Tranquility Mod}} [[Tranquility Mod]] is enabled, this item becomes unobtainable, due to being replaced with [[Elemental Souls|Sand Elementals' Soul]].
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

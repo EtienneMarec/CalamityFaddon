@@ -1,0 +1,65 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = Transforms the holder into a water elemental<br/>Going underwater gives you a buff<br/>Greatly reduces breath loss and provides a small amount of light in the abyss<br/>Enemies become frozen when they touch you<br/>You have a layer of ice around you that absorbs 20% damage but breaks after one hit<br/>After 30 seconds the ice shield will regenerate<br/>Wow, you can swim now!<br/>Most of these effects are only active after Skeletron has been defeated
+| rare = 4
+| sell = {{value|0|2|40|0}}
+| buff = Water Elemental (buff) | bufflink = no
+| bufftip = You are a water elemental now
+| buffduration = Infinite
+| buff2 = Ocean's Blessing | bufflink2 = no
+| bufftip2 = 15% increased max speed and acceleration
+| duration2 = Infinite (in water)<br/>6 seconds (out of water)
+| buff3 = Ice Shield (buff) | bufflink3 = no
+| bufftip3 = Absorbs 20% damage from the next hit you take, then shatters
+| duration3 = Infinite (when not broken)
+| debuff = Ice Shield Cooldown | debufflink = no
+| debufftip = The shield is regenerating
+| debuffduration = 30 seconds
+| debuff2 = Glacial State
+| debuffchance2 = 100%
+| debufftip2 = Cannot move and defense is shattered
+| debuffduration2 = 3-4 seconds
+| stack = 1
+| boxwidth = 23em
+| element1 = Cold
+}}
+|{{item drops infobox
+|[[???]]|1|25%
+}}
+}}
+
+{{infobox wrapper
+|{{float file box|[[File:Aquatic Heart (equipped).png]]|Water Elemental}}
+|{{float file box|[[File:Aquatic Heart Ice Shield.png]]|Ice Shield}}
+}}
+
+The '''Aquatic Heart''' is a [[Pre-Hardmode]] [[covering]] dropped by [[???]]. Equipping it transforms the user into a water elemental and causes them to emit light. After [[Skeletron]] is defeated, they gain a wide variety of bonuses including:
+*Improved underwater breathing ability
+*The ability to move through water unhindered, and the '''Ocean's Blessing''' [[buff]] while submerged which boosts underwater movement speed even further.
+*Nearby enemies are inflicted with the [[Glacial State]] [[debuff]] when the player is hurt; the duration and range of enemies that are inflicted scales with damage taken. 
+*An '''Ice Shield''' which absorbs 20% of damage from hits (with a cooldown of 30 seconds).
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*It can be considered an upgraded version of [[Neptune's Shell]].
+*Changing the covering to "Hidden" will make the player look normal; however, the Ice Shield will still be visible.
+*A male character will always appear and sound like a female character while this covering is visible. Despite this, NPC messages and death messages are not affected.
+*The character emits pale blue light while the Ice Shield is active, and orange light when it is recharging.
+*The damage reduction provided by the Ice Shield is calculated separately from typical damage reduction. As a result, it is not affected by the Calamity Mod's DR soft cap.
+
+== Trivia ==
+*Talking to the [[Sea King]] and [[Drunk Princess]] with the Aquatic Heart equipped will display a unique quote.
+*This was formerly two items known as Siren's Hearts, which could be either blue or green.
+**Only the green heart was considered to be gamagamer's Developer item, as they insisted on adding the green variants for this item as well as the Siren itself.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[zh:渊洋之心]]
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

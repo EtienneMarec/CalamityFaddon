@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| damage = 245
+| damagetype = Rogue
+| auto = yes
+| stack = 1
+| velocity = 9
+| knockback = 3
+| use = 23
+| tooltip = Slows down when hitting an enemy. Speeds up otherwise<br/>Heals on enemy hits<br/>Stealth strikes spawn homing blood on enemy hits
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| debuff = Brimstone Flames
+| debuffduration = 3 seconds (Crashaxes)
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| element1 = Unholy
+| element2 = Fire
+| element3 = Smash
+}}
+The '''Bloodsoaked Crasher''' is a Godseeker Mode non-consumable [[rogue weapon]] that is an upgrade to the [[Crushsaw Crasher]]. It throws a gravity-affected axe that can hit enemies 6 times and bounces twice before disappearing. The axe speeds up while in flight, but slows down upon hitting an enemy, allowing it to "grind" against that enemy and hit them several times. It additionally [[Lifesteal|heals]] the player for 3HP on enemy hits.
+
+Performing a [[stealth strike]] with the Bloodsoaked Crasher will cause the next axe thrown to spawn homing blood to further heal the player on enemy hits.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+{{-}}
+{{Bloodstone}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Healing items]]

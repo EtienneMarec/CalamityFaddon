@@ -1,0 +1,21 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Covering
+| tooltip = 10% increased max health and mana. Summons 5 essence based minions to protect you, Each consuming 1 minion slot. Can inflict Vaporfied for 1.5 seconds
+| rare = 10
+| sell = {{value|0|50}}
+| stack = 1
+| hardmode = yes
+| post-ml
+|debuff=Vaporfied|debuffchance=10%|debuffduration=1.5 Seconds}}
+The '''Elementary Orbit''' is a post-[[tgc:Moonlord|Moonlord]] [[coverings|covering]], it increases the players max health and mana by 10% and creates minion's with one representing each essence around you, Each consuming 1 minion slot. They fire fast moving energy bolts at enemy's that inflict Vaporfied for 1.5 seconds and Deal ~55 DPS that ignores enemy defense.
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used in===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{Elemental}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}

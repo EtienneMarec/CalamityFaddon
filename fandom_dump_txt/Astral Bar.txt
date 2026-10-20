@@ -1,0 +1,30 @@
+{{item infobox
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 9999
+| use = 14
+| rare = 9
+| sell = {{value|0|1|20}}
+| placeable = yes
+| consumable = yes
+| auto = yes
+| hardmode = yes
+|image=Astral_Bar.gif}}
+
+'''Astral Bars''' are [[Hardmode]] [[bars]] made with 2 [[Astral Ore]] and 3 [[Stardust]] per bar. They are primarily used to create [[Astral Infection|Astral-themed]] gear and are additionally used to craft upgrades to weapons, such as the [[Radiant Star]]. As well as being used to craft weapons, Astral Bars are used to craft the [[Ethereal Core]], a [[consumable]] that can permanently raise the player's maximum [[mana]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Astral Bars can also be obtained from the [[Astral Crate]] once Astrum Deus has been defeated without needing to mine Astral Ore.
+{{Astral}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

@@ -1,0 +1,24 @@
+{{infobox wrapper
+|{{item infobox
+|type = Crafting material
+| stack = 9999
+| rare = 1
+| tooltip = A beautiful sheet of silk.
+| sell = {{value|0|50|0|0}}
+}}
+}}
+
+'''Ornate Cloth''' is a Godseeker Mode crafting material. It is used to craft many cloth-based items throughout end game progression, as well as most Silva gear.
+
+{{dei}} Ornate Cloth can also be placed.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Absolute}}
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

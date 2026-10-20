@@ -1,0 +1,42 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Whenever your minions hit an enemy they have a chance to spawn a ghost that damages your enemies or create a fire that launches orbs that spread the fire
+| sell = {{value|0|5}}
+| stack = 1
+| rare = 9
+| buff = Phantasmal Ghost | bufflink = no
+| buffduration = 10 seconds
+| bufftip = A Bigger ghost was summoned to help you
+| buffchance = 10%
+| debuff = Phantasmal Fire | bufflink = no
+| debuffduration = 10 seconds
+| debuffchance = 10%
+| element1 = magic
+| element2 = fire
+| proj = PhantasmGhost.png
+| projcaption = Ghost
+| proj2 = PhantasmOrb.png
+| proj2caption = Orb}}
+
+The '''Phantasmal Rune''' is a craftable [[Hardmode]] [[covering]] that is an upgrade to the [[Ghast Relic]] . Whenever a [[minion]] hits an enemy it has a 5% chance to do one of these things:
+
+* spawns a ghost that chases your enemies and walks through them dealing 100 damage per second
+* inflicts the enemy with a fire that deals 15 damage per second and periodically launches orbs that spread the fire on other enemies
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

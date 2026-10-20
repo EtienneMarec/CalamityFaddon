@@ -1,0 +1,23 @@
+{{historical content}}
+{{npc infobox
+| name = Anahita Clone
+| type = Flying Enemy
+| ai = Anahita Clone AI
+| environment = Ocean
+| life = 3000
+| damage = 0 (Contact)<br/>{{dv|64|104|130|149}} (Water spears)
+| defense = 0
+| knockback = 100
+| hardmode = yes
+| listexclude = yes
+| sound = Item_21.wav
+| soundtext = Water Spear
+}}
+
+The '''Anahita Clone''' was a [[Hardmode]] [[Enemies#Boss Servants|boss servant]] that used to spawn during the [[Leviathan and Anahita]] boss fight, summoned by the Anahita at {{dv|66%|||100%}} and 33% of her health. They launched water spears at the player that would be fired at an increased rate in Death Mode, and were invincible.
+{{-}}
+{{Historical}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

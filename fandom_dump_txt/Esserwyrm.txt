@@ -1,0 +1,190 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{npc infobox
+| name = Esserwyrm (Phase 1)
+| image = Esserwyrm.png
+| type = Superboss
+| type2 = Burrowing Enemy
+| ai = Esserwyrm AI
+| life = {{dv|6,800,000|8,600,000|10,400,000|12,200,000}}
+| knockback = 100
+| immune1 = Confused
+| immune2 = Evercold
+| immune3 = On Fire!
+| immune4 = Cursed Inferno
+| immune5 = Holy Flames
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| image2 = Esserwyrm map.png
+| image2caption = Map Icon
+}}
+
+{{npc infobox
+| name = Esserwyrm (Phase 2)
+| type = Superboss
+| type2 = Burrowing Enemy
+| ai = Esserwyrm AI
+| life = {{dv|3,400,000/6,800,000|4,300,000/8,600,000|5,200,000/10,400,000|6,100,000/12,200,000}}
+| knockback = 100
+| immune = all debuffs
+| money = {{value|1}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| Esseric Scale | 20 | 100%
+| Voidstone | 5-15 | 100%
+|group|At least one of the following 11 weapons will always drop:|11
+| Abysscent Derailer| 1| 20%
+| Coldetecht| 1| 20%
+| Coldant Firestarter| 1| 20%
+| Cored Line| 1|20%
+| Gluehunter| 1| 20%
+| Gluelic Blade| 1| 20%
+| Evercoldance| 1| 20%
+| Lacerang| 1|20%
+| Noctic Weaver| 1| 20%
+| Staff of the Esserwyrm| 1|20%
+| Waterfrosia| 1| 20%
+| image2 = Esserwyrm2 map.png
+| image2caption = Map Icon
+}}
+
+
+The '''Esserwyrm''' (Japanese: エッサーワーム ''Essāwāmu'') is an Epilogue [[Superboss]] that drops [[Esseric Scale]]s and various abysscent weapons. 
+
+==Spawn==
+The Esserwyrm spawns randomly in the upper layer of [[Sky Abyss]] near 8x8 squares made of [[Esseric Ore]]. When it spawns, it will orbit the square, then ram into its nearest target.
+
+==Behavior==
+The Esserwyrm doesn't attack the player if player doesn't attack the Esserwyrm, and summons will not attack the Esserwyrm if not commanded by tagging. It will instead attack nearby Lacelineous creatures.
+
+When spawning, It will do 2 circles around the square to spawn all the segments, then it will slow down, stay for 5 seconds and rapidly ram into its nearest target, then it'll slow down again, and ram near its next target, circle around it, and ram into closest 6x6 block space, and wait for 10 seconds, It will repeat the process until it gets attacked by the player. If the player attacks the Esserwyrm in the middle of a cycle, it will finish the cycle, but with the player as a possible target
+
+After the cycle restarts and it was attacked by the player, a [[Boss Health Bar]] appears on the interface, and the actual fight begins.
+The Esserwyrm tries to kill the player using the following attacks:
+
+
+* Slowly chases the player shooting fire that inflicts the [[Evercold]] debuff
+* Circles around the player making the circle smaller
+* Dashes into the player 3 times, Generating ''Scalar Stone'' on his way, ''Scalar Stone'' is a solid block that requires 200% pickaxe power to mine, the block does not drop when broken. (Revengeance Mode only)
+
+
+After the boss reaches half of its Healths, it starts growing in size and after 3 seconds it activates its 2nd phase. In this phase the boss becomes insanely fast, the following attacks can appear:
+
+* Circles around the player creating scalar stone
+* Goes to random edges of the Screen creating evercold fireballs that slowly home onto the player
+* stays at one place for 5 seconds and then dashes at the player dealing massive amounts of damage (Revengeance Mode only)
+
+The boss can heal itself by destroying other creatures:
+
+First Phase:
+* Abyss Enemies +{{dv|100|0|0|200}} health.
+* Lower Sky Abyss Enemies +{{dv|300|0|0|500}} health.
+* Weaverbug +{{dv|375|0|0|750}} health.
+* Skyline shark +{{dv|1500|0|0|3000}} health.
+* Player +{{dv|10000|0|0|20000}} heath
+
+Second Phase:
+* Any enemy with less than 10000 hp + {{dv|5000|0|0|10000}}
+* Any enemy with 10000-99999 hp + {{dv|25000|0|0|50000}}
+* Any enemy with 100000-999999 hp + {{dv|75000|0|0|150000}}
+* Any player + {{dv|100000|0|0|200000}}
+==Segments==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Burrowing Enemy
+| type2 = Boss
+| image= EssWHead.png|300px
+| ai = Esserwyrm AI
+| name = Esserwyrm Head (Phase 1)
+| environment = Sky Abyss
+| life = {{dv|6,800,000|8,600,000|10,400,000|12,200,000}}
+| knockback = 100
+| damage = {{dv|700|900|1100|1300}} (Contact) {{dv|200|400|600|800}} (Fire) {{dv|1000|1400|1800|2200}} (Dash)
+| debuff = Evercold
+| debuffduration = 5 seconds
+| defense = 60
+| image2 = Esserwyrm map.png
+| image2caption = Map Icon
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| type2 = Boss
+| image= EssWBody.png|300px
+| ai = Esserwyrm AI
+| name = Esserwyrm Body (Phase 1)
+| environment = Sky Abyss
+| life = {{dv|6,800,000|8,600,000|10,400,000|12,200,000}}
+| knockback = 100
+| damage = {{dv|300|500|700|900}} (Contact)
+| defense = 60
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| type2 = Boss
+| image= EssWTail.png|300px
+| ai = Esserwyrm AI
+| name = Esserwyrm Tail (Phase 1)
+| environment = Sky Abyss
+| life = {{dv|6,800,000|8,600,000|10,400,000|12,200,000}}
+| knockback = 100
+| damage = {{dv|400|600|800|1000}} (Contact)
+| defense = 60
+}}
+}}
+
+
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Burrowing Enemy
+| type2 = Boss
+| image= EssWHead2.png|300px
+| ai = Esserwyrm AI
+| name = Esserwyrm Head (Phase 2)
+| environment = Sky Abyss
+| life = {{dv|3,400,000/6,800,000|4,300,000/8,600,000|5,200,000/10,400,000|6,100,000/12,200,000}}
+| knockback = 100
+| damage = {{dv|500|700|900|1100}} (Contact) {{dv|200|400|600|800}} (Fire)
+| debuff = Evercold
+| debuffduration = 5 seconds
+| defense = 60
+| image2 = Esserwyrm2 map.png
+| image2caption = Map Icon
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| type2 = Boss
+| image= EssWBody2.png|300px
+| ai = Esserwyrm AI
+| name = Esserwyrm Body (Phase 2)
+| environment = Sky Abyss
+| life = {{dv|3,400,000/6,800,000|4,300,000/8,600,000|5,200,000/10,400,000|6,100,000/12,200,000}}
+| knockback = 100
+| damage = {{dv|500|700|800|1100}} (Contact)
+| defense = 40
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| type2 = Boss
+| image= EssWTail2.png|300px
+| ai = Esserwyrm AI
+| name = Esserwyrm Tail (Phase 2)
+| environment = Sky Abyss
+| life = {{dv|3,400,000/6,800,000|4,300,000/8,600,000|5,200,000/10,400,000|6,100,000/12,200,000}}
+| knockback = 100
+| damage = {{dv|600|800|1000|1200}} (Contact)
+| defense = 40
+}}
+}}
+==Tips==
+Because the Esserwyrm doesn't lower enemy spawn rates, it is recommended to use [[Zen Potion]]s and/or [[Tranquility Candle]]s to lower spawn rates, so that it heals less.
+== Trivia==
+*The Esserwyrm is considered a '''"Superboss"''' in this mod. In some RPG games, Superbosses are extremely powerful enemies that are very challenging even if the player has endgame equipment.
+**It shares this trait with the following bosses: [[Adult Eidolon Wyrm]], [[Vision of the Tyrant]], [[Purgatory Arbiter, Umbrus]], [[Disgusting Creature: Dron]], [[Reactive Guardian, Sodis]], [[Nihil, the Fathomless Seeker]] and [[Exodygen]].
+*If the Boss Checklist Mod is installed, its unique [[Status messages|despawn message]] will be "The Esseric Lord disappears into the deep blue skies."
+
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

@@ -1,0 +1,38 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 45
+| debuff = Wither
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| pick = 260
+| knockback = 8
+| rare = 13
+| use = 8
+| sell = {{value|0|12}}
+| hardmode = yes
+| postml = yes
+| toolspeed = 4
+| element1 = dark
+| element2 = stab
+}}
+
+The '''Twisted Netherite Shovel''' is a craftable Godseeker Mode [[pickaxe]] that inflicts the [[Wither]] debuff on hit. It can mine up to [[Auric Ore]].
+
+{{modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Twisted Netherite}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

@@ -1,0 +1,72 @@
+{{item infobox
+| type = Armor
+| defense = 14
+| rare = 1
+| sell = {{value|0|0|80}} (set)
+| setbonus = Removes the melee speed cap<br/>All attacks inflict burning blood
+| debuff = Burning Blood
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| debufftip = Losing life...
+| resistance1 = Unholy
+| resistance2 = Dark
+| vulnerable1 = Slash
+| vulnerable2 = Holy
+}}
+
+'''Coruplent armor''' is a craftable Pre-[[Hardmode]] [[Covering]] set. It requires 7 [[Disgusting Meat]] to craft the entire set.
+
+It consists of a '''Coruplent Mask''', '''Coruplent Chestplate''', '''Coruplent Pants''', and '''Corpulent Shoes'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*14 defense
+*10 melee damage
+*12% increased movement speed
+*Attacks inflict the [[Burning Blood]] debuff.
+*The removal of the melee speed cap.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Corpulent Mask
+| type = Armor
+| defense = 3
+| body slot = Helmet
+| tooltip = 2 melee damage
+| sell = {{sc|20}}
+}}
+|{{item infobox
+| name = Corpulent Chestplate
+| type = Armor
+| defense = 6
+| body slot = Shirt
+| tooltip = 5 melee damage
+| sell = {{sc|20}}
+}}
+|{{item infobox
+| name = Corpulent Pants
+| type = Armor
+| defense = 4
+| body slot = Pants
+| tooltip = 3 melee damage and 6% increased movement speed
+| sell = {{sc|20}}
+}}
+|{{item infobox
+| name = Corpulent Shoes
+| type = Armor
+| defense = 1
+| body slot = Boots
+| tooltip = 6% increased movement speed
+| sell = {{sc|20}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=Corpulent Mask/Corpulent Chestplate/Corpulent Pants/Corpulent Shoes}}
+
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

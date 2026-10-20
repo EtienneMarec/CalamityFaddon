@@ -1,0 +1,36 @@
+To display a short summary of what can be found in a biome.
+
+== Usage ==
+* Everything is optional
+ <nowiki>{{biome</nowiki>
+
+ | name = '''''optional:''' Table title. Default is page name.''
+
+ | monsters = '''''optional:''' characters ([[enemies]] and non-hostile critters)
+ | monsters2 = '''''optional:''' 'characters' second column''
+ | monsters3 = '''''optional:''' 'characters' third column''
+
+ | treasures = '''''optional:''' loot from chests'' 
+ | treasures2 = '''''optional:''' 'treasures' second column''
+ | treasures3 = '''''optional:''' 'treasures' third column''
+
+ | drop = '''''optional:''' drops from [[enemies]], terrain blocks, vegetation''
+ | drop2 = '''''optional:''' 'drop' second column''
+ | drop3 = '''''optional:''' 'drop' third column''
+
+ | sold = '''''optional:''' items sold by friendly NPCs''
+ | sold2 = '''''optional:''' 'sold' second column''
+ | sold3 = '''''optional:''' 'sold' third column''
+
+ | music = '''''optional:''' [[Music Boxes|music boxes]] from Calamity's music''
+ | music2 = '''''optional:''' 'music' second column''
+ | music3 = '''''optional:''' 'music' third column''
+
+ <nowiki>}}</nowiki>
+
+<includeonly>
+[[Category:Infobox templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

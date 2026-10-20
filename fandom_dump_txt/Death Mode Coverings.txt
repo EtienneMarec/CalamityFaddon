@@ -1,0 +1,29 @@
+{| width="100%"
+|<span class="ajaxHide">
+{{main|coverings}}
+</span>
+|}
+{| class="terraria lined sortable" width="100%"
+! width="215px" colspan="2" | Covering
+! Tooltip
+! Rarity
+! Hardmode
+! Godseeker Mode
+! Sell
+! Visible on<br/>Character
+{{#dpl:
+| namespace =
+| category = Covering items
+| category = Death mode content
+| ordermethod = titlewithoutnamespace
+| uses = Template:Item infobox
+| include = {item infobox¦:coverings/dpl}
+| mode = userformat
+}}
+{| width="100%"
+|<span class="ajaxHide">
+{{Master Template Equipables
+| show-acc = yes
+}}</span>
+|}
+[[Category:Covering_items|*]]

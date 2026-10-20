@@ -1,0 +1,35 @@
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-8 health per second (if player)<br/>-100 health per second (if enemy)
+| tooltip = Incinerated by lunar rays
+}}
+
+'''Moon Burnt''' is a [[debuff]] that causes players and enemies to lose 8 and 100 health per second respectively.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Trivia ==
+*This debuff was formerly known as Nightwither.
+*This debuff can be considered the opposite of [[Daybroken]].
+*Despite the debuff icon and most weapons inflicting moon burnt are blue, its particle effects on enemies are bright purple.
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

@@ -1,0 +1,169 @@
+{{Patch infobox
+| title = 1.4.2.104
+| image = Angelic Shotgun.png
+| patchname = Patron Items and Rev Boss Reworks
+| prev = [[1.4.2.103]]
+| next = 1.4.3.005
+| release = 8/21/2019
+}}
+The '''1.4.2.104''' update added new [[Dedicated content|Revengeance]] along with reworks to [[Revengeance Mode]] [[Queen Bee]], [[The Twins]], [[The Destroyer]], and [[Skeletron Prime]].
+
+== Additions ==
+* Added [[Angelic Shotgun]], [[Bloody Vein]], [[Corpus Avertor]], [[Deep Sea Dumbbell]], [[Devil's Sunrise]], [[Dodu's Handcannon]], [[Karasawa]], [[Kelvin Catalyst]], [[The Last Mourning]], [[Mad Alchemist's Cocktail Glove]], [[Nadir]], [[Resurrection Butterfly]], [[Roxcalibur]], [[Time Bolt]], and [[Yateveo Bloom]].
+* Added [[Fearless Goldfish Warrior]].
+* Added [[Hermit's Box of One Hundred Medicines]].
+
+== Changes ==
+=== Resprites ===
+* Several rare variants now have new and unique sprites. Find these
+* Resprited [[Amidias' Trident]], [[Charred Ore]], [[Corroslime Staff]], [[Giant Tortoise Shell]], [[Hell Burst]], [[Icicle Staff]], [[Impaler]], [[Lunarian Bow]], [[Plasma Rifle]], [[Stellar Contempt]], [[Vesuvius]], [[Void of Extinction]], [[The Wand]], and [[Warblade]].
+* Resprited [[Siren and Leviathan|Leviathan]]'s meteor attack.
+* Resprited the meteors used by [[Drataliornus]], [[Elysian Arrow]]s, and [[Yharim's Gift]].
+* Resprited the [[Adrenaline Meter|Adrenaline]] and [[Rage Meter]]s.
+
+=== Other Changes ===
+(!) Reduced the power of Rage and Adrenaline in Death Mode. Rage now scales from +170% to +350%; adrenaline is now +500%. Using both together is +760% with Heart of Darkness, +680% otherwise. With Heart of Darkness, rage's damage is increased by 30%.
+(!) Shadowflame can now be inflicted on the player and deals damage to them.
+(+) Added the debuff Astral Infection, which replaces God Slayer Inferno for Astral enemies, bosses, environment and equipment.
+(*) Armored Digger spawn rate is now affected by all spawn rate modifiers, not just Zen and Zerg Potions.
+(+) All Calamity arrows and bullets now make dust and sound upon impacting terrain.
+(+) Astral Slimes now drop Astral Ore after Astrum Deus has been defeated.
+(*) Fixed an oversight with Photosynthesis Potion and SCal.
+(+) Providence now drops Elysian Wings and Elysian Aegis on Normal.
+(*) Fixed an issue preventing Supreme Calamitas and Giant Clam from dropping any weapons.
+(+) Cryogen's bag actually drops Soul of Cryogen now.
+(-) Fixed Desert Scourge dropping Ocean Crest on Normal.
+(-) In Rev+, Cursed Hammers, Enchanted Swords and Crimson Axes are only immune to stunlock below 50% health instead of always.
+(-) In Rev+, Clingers, Gastropods, Giant Tortoises, Ice Tortoises, and Black Recluses are only immune to stunlock below 25% health instead of always.
+(-) In Rev+, Paladins are only immune to stunlock below 15% health instead of always.
+(+) In Rev+, Sand Tortoises and Plagued Tortoises are immune to stunlock below 25% health.
+(+) Goblin Summoner attacks (including its spawned Apparitions) inflict Shadowflame.
+(+) Goblin Sorcerer magic blasts inflict Shadowflame in Hardmode.
+(+) Defeating enraged Rev+ Skeletron Prime now rewards Burden Breaker. However, he refills to full health at dawn.
+(*) Fixed a minor issue with Sand Dollar not deploying multiple boomerangs.
+(-) Pumpkin Armor no longer provides Rogue with a larger boost than other classes (this was a bug).
+(*) Slightly cleaned up the tooltip of the Revengeance item.
+(*) Fixed the underlying rarities of Elysian Wings and Elysian Aegis because they are no longer Expert only.
+(-) Reduced the massively boosted drop rates of Gladiator armor.
+(*) Fixed the hitbox of Astralachnea Fangs.
+(+) Ravager's homing darts now have afterimages.
+(-) Yharon's fireballs no longer have fancy effects if you have a fast lighting mode selected.
+(*) Significantly adjusted Hell Burst's visual effects.
+(*) Changed Photoviscerator's dust slightly.
+(*) Edited the sound made by Yharon's fireballs.
+* A single breakable shrine item now generates per world used to obtain Roxcalibur.
+
+== Balance ==
+=== General ===
+*All rogue weapons are now internally throwing class. This means they now benefit from vanilla and other mods' throwing boosts, whether that comes from armors, accessories or potions.
+
+=== Individual ===
+==== Enemy ====
+* The Twins' health boosted in Boss Rush.
+* Skeletron Prime and all his arms have more health in Boss Rush.
+(!) Queen Bee reworked in Rev+.
+(-) Queen Bee charges less times in a row.
+(*) She fires more stingers, but they no longer have a random spread.
+(+) Can now spawn hornets in addition to regular bees.
+
+(!) The Twins majorly reworked in Rev+.
+(+) Increased the length of most large dashes performed by both Twins to make them less oppressive.
+(+) Spazmatism uses Shadowflame instead of Cursed Flames.
+(+) Spazmatism goes berserk and does super fast charges when at low HP or when Retinazer is dead.
+(-) Removed random spread from Retinazer's lasers in phase 1 (non-metal).
+(-) Reduced the amount of lasers Retinazer fires in phase 2 (metal) until at low HP or Spazmatism is dead.
+(+) Retinazer can now charge in phase 2 if Spazmatism is dead. These long charges leave behind homing laser harpoons.
+
+(*) The Destroyer majorly reworked in Rev+.
+(*) As it loses health, its speed increases but it fires lasers less frequently.
+(*) Uses only normal lasers above 66% health, only frost lasers between 33-66%, and only homing lasers below 33%.
+(*) Body segments that have lost their Probes will fire scrap instead of lasers.
+(+) Body segments with their Probes still attached have extra defense.
+(-) Body segments with their Probe detached have less defense.
+(+) Body and tail deal more damage in Rev+.
+
+(!) Skeletron Prime majorly reworked in Rev+.
+(*) Prime's head is almost immune to damage until you kill all four arms, but the arms have reduced HP. The head gains new abilities each time you kill an arm and goes berserk when all four arms are slain.
+(*) Skeletron Prime actively attacks you with two arms at once, and switches which arms he is using over time.
+(+) Skeletron Prime and his melee arms inflict Bleeding on contact.
+(-) Removed random spread from Prime's laser arm.
+(*) Fixed the incorrect spread and spacing of Prime's Rev+ laser ring.
+(+) The Cannon Arm can now fire rockets.
+(*) The Vice Arm moves less erratically.
+
+(-) King Slime's Rev+ teleports slowed down to make them more fair.
+(-) Brain of Cthulhu now definitely doesn't do contact damage in phase 1.
+(*) Slime God will no longer sometimes drop 2 sets of loot.
+(+) Cryogen is slightly faster in Revengeance Mode, Death Mode, and Boss Rush.
+(*) Fixed the incorrect spread and spacing of Brimstone Elemental's brimstone barrage ring.
+(-) The Destroyer no longer resists a large list of piercing projectiles.
+(+) The Destroyer now globally resists piercing, like Aquatic Scourge.
+(+) Lifesteal is now allowed from Providence when she is not in cocoon or laser phase.
+(-) Ceaseless Void can go extremely fast to chase players, but isn't as maneuverable. Its gravity ring is also smaller at low health.
+(+) Storm Weaver is longer now. It is no longer significantly shorter in Death Mode.
+(-) Storm Weaver is a lot slower now and doesn't enrage when not in space during the DoG sentinel phase.
+(*) Slightly adjusted Storm Weaver's pierce resistance.
+(-) Storm Weaver doesn't make it rain during the Sentinels phase of the DoG fight.
+(+) Polterghast's despawn behavior improved.
+(+) Doubled the invincibility time DoG's tail has after it spawns.
+(-) Supreme Calamitas' arena on Normal and Expert is now as small as her Revengeance arena.
+(-) Supreme Calamitas' arena no longer deletes water, lava and honey when it is created.
+(-) Supreme Calamitas' "anti-cheat" instant kill feature removed.
+(+) Supreme Calamitas can now drop all developer weapons instead of only most of them. That is, she now drops Fabstaff, Scarlet Devil, Soma Prime and Staff of Blushie.
+(*) Supreme Calamitas now drops all dev weapons with equal chance, instead of the melee/rogue hybrids having double the chance to drop.
+
+==== Item ====
+* [[Infinity]] reworked to have a more interesting fire pattern. Use time was reduced from 108000 to 1800.
+* Adjusted the use times and the amount of fired projectiles at a time for [[P90]], [[Augur of the Elements]], [[Cosmic Kunai]], [[Photoviscerator]], [[Soma Prime]], and [[Crystyl Crusher]].
+* Crystyl Crusher now mines slower.
+* Crystyl Crusher's damage and crit boosted drastically.
+* Nerfed [[Aero Stone]] and [[Heart of the Elements]] jump speed boost from 40% to 20%.
+* Buffed [[Vital Jelly]] and [[Grand Gelatin]] jump speed boost from 20% to 40%.
+* Changed [[Baleful Harvester]] recipe to now be post-[[Lunatic Cultist]].
+* Reworked Baleful Harvester projectiles.
+* Removed Baleful Harvester from [[Exoblade]] recipe.
+* [[Eldritch Tome]] no longer inflicts Brimstone Flames.
+* Eldritch Tome damage and crit chance buffed.
+* Abyssal Tome no longer inflicts Brimstone Flames.
+* Abyssal Tome damage buffed slightly.
+* Buffed the range of the [[Murasama]].
+* Increased the underwater fall speed boost of [[Iron Boots]].
+* [[Spear of Paleolith]] is now crafted at a [[Mythril Anvil|Mythril or Orichalcum Anvil]].
+* [[Lucrecia]] deals more damage, provides less invulnerability on true melee hits and consumes more health.
+* [[Cosmilite|Cosmilite Bar]] crafted weapons are now made at an [[Ancient Manipulator]] with either [[Nightmare Fuel]] or [[Endothermic Energy]], not both.
+* Vanquisher Arrows now require either Nightmare Fuel or Endothermic Energy and are made at an Ancient Manipulator.
+* [[Apotheosis]] requires far less crafting materials.
+* [[Drataliornus]] requires far less crafting materials.
+* [[Lead Wizard]]'s base damage nerfed from 88 to 70, but it now has an insanely high crit chance. Its firing pattern was also adjusted.
+* [[Vesuvius]]' base damage buffed from 70 to 75.
+* [[Ultra Liquidator]]'s base damage buffed from 96 to 145.
+* [[Devastation]]'s base damage increased by 1.
+* [[Asteroid Staff]]'s base damage buffed from 130 to 180.
+* [[Rouge Slash]]'s base damage nerfed from 90 to 70.
+* [[Mirror Blade]] is now stronger, swings a bit slower, and no longer uses mana.
+* [[Shadowbolt Staff]] base damage buffed from 170 to 200.
+* [[Neptune's Bounty]] base damage nerfed from 300 to 250.
+* [[Terror Blade]] base damage buffed from 250 to 350.
+* [[Empyrean Knives]] base damage buffed from 650 to 1100.
+* [[Scourge of the Cosmos]] base damage buffed from 1500 to 2200.
+* [[Venusian Trident]]'s unlocked full power was far too strong and it had to be nerfed.
+* Changed the use sound of the [[Anti-materiel Rifle]] to a custom sound.
+* [[Ethereal Talisman]] can now have its Mana Flower capability toggled. Turn off visibility to turn off the Mana Flower.
+* [[Astral Bulwark]], [[Astral Arcanum]], and the [[Hide of Astrum Deus]] now provide immunity to [[Astral Infection (debuff)|Astral Infection]] instead of [[God Slayer Inferno]].
+* Gave [[Shadethrower]] a chance to not consume [[Gel]].
+* Renamed the [[Daedalus armor|Daedalus]] minion helmet to "Daedalus Mask".
+* [[Titan Arm]], [[Astral Blade]], [[Astral Scythe]], [[Astral Pickaxe]], and [[Astral Hamaxe]] now inflict Astral Infection for 2 seconds.
+* [[Obsidian armor]]'s rogue bonuses reduced.
+* Increased the hitbox size of Vesuvius' asteroids.
+
+== Bug Fixes ==
+* Fixed a bug where rogue weapons were benefiting from ranged equipment.
+* Fixed Stellar Contempt using no crafting station rather than an Ancient Manipulator.
+* Fixed [[Vivid Clarity]] being crafted with [[Venusian Trident]] instead of [[Helium Flash]].
+* Fixed Devastation explosions interfering with enemy [[immunity frames]].
+* Fixed [[Eye of Magnus]] interfering with enemy immunity frames.
+* Fixed [[Lunic Eye]] interfering with enemy immunity frames.
+* Fixed [[Venusian Trident]] interfering with enemy immunity frames.
+
+{{-}}
+{{Versions}}

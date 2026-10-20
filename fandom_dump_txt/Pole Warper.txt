@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 310
+| mana = 12
+| use = 9
+| knockback = 8
+| tooltip = Magnetic devices which tear at foes by propelling themselves off their opposite counterparts<br/>Incredibly dangerous<br/>Summons a pair of floating magnets that repel each other and relentlessly swarm enemies<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| buff = Pole Warper (buff)| bufflink = no
+| bufftip = Sentient magnets are attracted to you
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| element1 = Slash
+| element2 = Machine
+}}
+{{summoned|Warper Magnets|type=minion}}
+
+The '''Pole Warper''' is a craftable Godseeker Mode [[summon weapon]]. It summons a pair of Warper Magnet minions that orbit around the player. When an enemy is found, the magnets disperse, pause for a brief moment, then charge at the target. Whilst using the item itself, the magnets independently circle around themselves and will not charge if enemies are nearby.
+
+The weapon consumes 1.25 units of [[charge]] per use and has a maximum charge of 250.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier5}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+
+== Notes ==
+
+* Unlike other minions, when you use any source of teleportation like from the [[Astral Arcanum]] or the [[Magic Mirror]], the Warper Magnets don't instantly teleport alongside you. Instead, they travel to where you went, kinda like Lad Shark from the [[Joyful Heart]] pet item. This can be really annoying, as it requires you to either spend the weapon's charge re-summoning the minions or to wait for them to catch up to you.
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

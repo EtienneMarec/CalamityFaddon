@@ -1,0 +1,79 @@
+{{item infobox
+| type = Armor
+| defense = 55
+| setbonus = Two shellfishes aid you in combat<br/>10% increased damage<br/>Your horizontal movement is slowed
+| rare = 5
+| buff = Shellfish (buff) | bufflink= no
+| bufftip = The shellfish will protect you
+| debuff = Shellfish Claps | debufflink = no
+| debufftip = Clamfest
+| sell = {{value|0|12}} (set)
+}}
+{{summoned|Shellfish|type=minion}}
+
+'''Mollusk armor''' is a craftable [[Hardmode]] [[Covering]] set crafted from several [[Sunken Sea]] materials. A total of 31 [[Mollusk Husk]]s and 60 [[Sea Prism]]s are required to craft a full set.
+
+It consists of the '''Mollusk Shellmet''', '''Mollusk Shellplate''', and '''Mollusk Shelleggings'''.
+
+== Stats ==
+The full set grants the following stats and bonuses (this includes the set bonus):
+*55 defense
+*37% increased damage
+*14% increased critical strike chance
+*22% decreased movement speed
+*Can move freely through liquids.
+*Summons two [[Shellfish Staff|Shellfishes]].
+*Decreases dash length and running speed by 33%.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Mollusk Shellmet
+| type = Armor
+| defense = 18
+| tooltip = 5% increased damage and 4% increased critical strike chance<br/>You can move freely through liquids
+| body slot = Helmet
+| hardmode = yes
+| sell = {{value|0|5}}
+}}
+|{{item infobox
+| name = Mollusk Shellplate
+| type = Armor
+| defense = 22
+| tooltip = 10% increased damage and 6% increased critical strike chance <br/> 15% decreased movement speed
+| body slot = Shirt
+| hardmode = yes
+| sell = {{value|0|4}}
+}}
+|{{item infobox
+| name = Mollusk Shelleggings
+| type = Armor
+| defense = 15
+| tooltip = 12% increased damage and 4% increased critical strike chance<br/>7% decreased movement speed
+| body slot = Pants
+| hardmode = yes
+| sell = {{value|0|3}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Mollusk%}}
+
+== Notes ==
+*The Shellfish minions deal 70 base damage upon latching onto an enemy and inflict '''Shellfish Claps'''.
+*The Shellfish minions are the same minions summoned by the [[Shellfish Staff]].
+
+== Tips ==
+*Despite the large stat increases provided by this armor, the movement speed reduction is substantial, making it impractical for bosses such as [[The Twins]] where fast speed is required.
+*This set bonus largely negates the sprinting effect of the [[Hermes Boots]], as well as its upgrades and alternatives, allowing you to choose another covering to use in its place.
+*Items such as [[Harpy Wings]], [[Vital Jelly]], [[Swiftness Potion]]s, [[Asphalt Block]]s, and [[Sunflower]]s can be combined to combat the movement speed reduction while keeping the high stat boosts.
+*This armor can be paired with the helmets of [[Titanium armor]] and [[Adamantite armor]] for the strongest offensive stats possible while avoiding the dash and sprinting reduction from the set bonus.
+
+== Trivia ==
+*The armor set itself and its minions resemble the [[Giant Clam]].
+
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

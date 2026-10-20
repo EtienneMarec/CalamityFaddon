@@ -1,0 +1,111 @@
+{{item infobox
+| imagebreak = yes
+| type = Armor
+| defense = 104/96
+| rare = 14
+| sell = {{value|0|43|20}} (set)
+| proj = Silva Healing Orb.png
+| projcaption = Silva Healing Orb
+| hardmode = yes
+| postml = yes
+| buff = Silva Crystal (buff) | bufflink = no
+| bufftip = The crystal will protect you
+| duration = Infinite (Horned Hood)
+| buff2 = Silva Immunity
+| bufftip2 = You are unkillable and immune to most debuffs
+| duration2 = 8 seconds (On first death)
+| setbonus = All projectiles spawn healing leaf orbs on enemy hits<br/>Max run speed and acceleration boosted by 5%<br/>If you are reduced to 1 HP you will not die from any further damage for 8 seconds<br/>This effect has a 5 minute cooldown. The cooldown does not decrement if any bosses or events are active.<br/><br/>'''Masked Cap''': Magic projectiles which cannot pierce will occasionally set off potent blasts of nature energy<br/><br/> '''Horned Hood''': 65% increased minion damage and +5 max minions<br/>Summons an ancient leaf prism to blast your enemies with life energy
+}}
+{{summoned|Silva Crystal (minion)|type=minion}}
+
+The '''Silva armor''' is a craftable Godseeker Mode [[Covering]] set. It is the Magic/Summoner counterpart to [[God Slayer armor]] and the last armor sets needed to craft the [[Auric Tesla armor]] for those classes. It cannot be obtained until after defeating several enemies from the upgraded [[Solar Eclipse]], [[Pumpkin Moon|Pumpkin]] and [[Frost Moon]]s as its recipe calls for [[Ascendant Spirit Essence]]. If the entire set is visible (whether equipped or in social slots), the wearer will have afterimages.
+
+It consists of the '''Silva Armor''' and '''Silva Leggings''', as well as having two different headpieces suited to the Magic and Summoner classes, being: the '''Silva Masked Cap''' and '''Silva Horned Hood'''. All helmets share some common set bonuses, but also provide set bonuses specific to their respective class as well.
+
+The '''Silva Armor''' provides 44 defense, 12% increased damage and 8% increased critical strike chance, and +80 max life. The '''Silva Leggings''' provide 39 defense, 12% increased damage and critical strike chance, and 10% increased movement speed.
+*The '''Silva Masked Cap''' gives 21 defense, 23% increased magic damage and 13% magic critical strike chance, +100 max mana, and 19% reduced mana cost
+*The '''Silva Horned Hood''' gives 13 defense and 10% increased minion damage.
+
+== Set Bonuses ==
+Regardless of the headpiece chosen, equipping a full set of Silva armor will provide the following set bonuses:
+*Occasionally spawns healing leaf orbs upon enemy hits.
+*Boosts maximum run speed and acceleration by 5%.
+*If the wearer is reduced to 0 HP, they will receive the [[Silva Immunity]] [[buff]], which makes them [[Death Prevention|unable to die]] for 8 seconds.
+**This effect has a 5 minute cooldown before it can trigger again. The cooldown does not decrement during boss fights or events.
+**If the wearer is wearing [[Silva Wings]] or is under the effects of the [[Draconic Surge]] buff when this activates, they will be healed to half health.
+
+In addition to the above, each headpiece provides its own class-specific set bonus:
+
+'''Silva Masked Cap''':
+*All magic projectiles have a 100% chance to cause a massive explosion upon hitting an enemy every 5 seconds. This explosion deals four times the damage of the projectile that triggered it. 
+**The explosion have a softcap of 720 damage, with any damage exceeding the limit dealing 66% less damage.
+
+'''Silva Horned Hood''':
+*Increases minion damage by 65% and +5 max minons.
+*Summons a Silva Crystal above the wearer's head, which blasts enemies with pulses of life energy similarly to the [[Rainbow Crystal Staff|Rainbow Crystal]] sentry.
+**The bursts of light deal 600 damage.
+
+
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Silva Armor
+| type = Armor
+| type2 = Crafting material
+| defense = 44
+| body slot = Shirt
+| tooltip = +80 max life<br/>12% increased damage and 8% increased critical strike chance
+| sell = {{value|0|14|40}}
+}}
+|{{item infobox
+| name = Silva Leggings
+| type = Armor
+| type2 = Crafting material
+| defense = 39
+| body slot = Pants
+| tooltip = 10% increased movement speed<br/>12% increased damage and critical strike chance
+| sell = {{value|0|10|80}}
+}}
+}}
+
+=== Helmet variants ===
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Silva Masked Cap
+| type = Armor
+| type2 = Crafting material
+| defense = 21
+| body slot = Helmet
+| tooltip = 23% increased magic damage and 13% magic critical strike chance<br/>+100 max mana and 19% reduced mana usage
+| sell = {{value|0|18}}
+}}
+|{{item infobox
+| name = Silva Horned Hood
+| type = Armor
+| type2 = Crafting material
+| defense = 13
+| body slot = Helmet
+| tooltip = +10% minion damage
+| sell = {{value|0|18}}
+}}
+}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result=LIKE Silva Horned Hood/Silva Masked Cap/Silva Armor/Silva Leggings}}
+
+=== Used in ===
+{{recipes|ingredient=Silva Horned Hood/Silva Masked Cap/Silva Armor/Silva Leggings}}
+
+== Notes ==
+*The Silva Immunity 5 minute cooldown can be skipped by re-entering the world. This can be useful for [[Hardcore]] characters.
+
+== Trivia ==
+*The word "silva" is Latin for 'forest' or 'woodland'.
+*Prior to the [[1.5.0.001]] update, there used to be headpiece variants for the Melee, Ranged and [[Spy]] classes. They are now [[Legacy vanity headpieces|vanity items]].
+
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

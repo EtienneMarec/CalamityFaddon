@@ -1,0 +1,46 @@
+{{infobox wrapper
+|{{item infobox
+| name  = The Needler
+| type = Weapon
+| type2 = Crafting material
+| damage = 45
+| damagetype = ranged
+| velocity = 9
+| rare = 4
+| sell = {{value|0|2|40}}
+| use = 18
+| stack = 1
+| auto = yes
+| knockback = 5.5
+| hardmode = yes
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| proj = The Needler Needle.png
+| projcaption = The Needler Needle
+| element1 = Poison
+| element2 = Stab
+| element3 = Machine
+}}
+|{{item drops infobox
+|[[Plaguebringer Goliath]]|1|{{dv|25%|33.33%}}
+}}
+}}
+''Not to be confused with the [[Needler]].''</br>
+
+''' The Needler''' is a [[Hardmode]] [[magic gun]] dropped by the [[Plaguebringer Goliath]]. It is functionally identical to the [[Needler]], but inflicts the [[Plague]] debuff.
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Trivia==
+*This weapon's name and mechanics are a reference to the creator's favorite video, Halo Video Needler 6: The Needler (full name omitted).
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+
+[[Category:Magic Guns]]

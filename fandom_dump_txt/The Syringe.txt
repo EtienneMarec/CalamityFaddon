@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Potion
+| use = 17
+| tooltip = Gives a powerful buff, with drawbacks included!<br/>'I'm pretty sure this isn't a good idea'
+| rare = 8
+| stack = 9999
+| sell = {{value|0|4|1|0}}
+| hardmode = yes
+| buff = Plagued Wrath | bufflink = no
+| bufftip = You feel like you can do anything and everything, all of the time!
+| buffduration = 30 Minutes
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|15 - 30|50%
+}}
+}}
+
+'''The Syringe''' is a [[Hardmode]] [[buff potions]] dropped by [[The Plaguebringer Goliath]]. It grants the user the '''Plagued Wrath''', granting the user:
+*+10% all damage
+*+5% critical strike chance
+*+20% movement speed
+*Immunity to [[Irradiated]], [[Plague]], [[Poisoned]], and [[Venom]].
+*-4 life regen
+*-5% [[damage reduction]]
+*-8% defense
+
+== Trivia ==
+*This item is directly based on [[wikipedia:Steroid|Steroids]] and Vaccines from real life.
+*Its debuff's tooltip references [[wikipedia:Bo_Burnham|Bo Burnham]]'s 2021 release "Welcome to the Internet".
+
+{{Master Template Consumables
+| show-main = yes
+| show-buff = yes
+}}

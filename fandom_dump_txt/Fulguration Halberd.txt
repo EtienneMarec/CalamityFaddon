@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 70
+| knockback = 5
+| rare = 5
+| tooltip = Inflicts burning blood on enemy hits<br/>Right click to use as a spear
+| sell = {{value|0|7|20}}
+| stack = 1
+| auto = yes
+| use = 21
+| velocity = 8
+| debuff = Burning Blood
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| debufftip = Your blood is on fire
+| hardmode = yes
+| element1 = Unholy
+| element2 = Stab
+| element3 = Slash
+}}
+
+The '''Fulguration Halberd''' is a craftable [[Hardmode]] [[melee weapon]] that autoswings. The Fulguration Halberd can be swung both as a [[broadsword]] and a [[spear]] by pressing left and right click respectively. It will inflict [[Burning Blood]] on each successful hit.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*[[wikipedia:Fulguration|Fulguration]], also called radiofrequency ablation, is a medical procedure in which unwanted tissue is removed using the heat generated from radio-frequency alternating current.
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:电灼长戟]]

@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 39
+| knockback = 2.75
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| tooltip = Fires three arrows at once<br/>Converts wooden arrows into sliding energy bolts
+| auto = yes
+| velocity = 10
+| use = 20
+| hardmode = yes
+| proj = Lunar Bolt.png
+| projcaption = Lunar Bolt
+| element1 = Poison
+| element2 = Magic
+}}
+
+The '''Terra Bow''' is a craftable [[Hardmode]] [[bow]] and a direct upgrade to the [[Lunarian Bow]]. It fires three arrows. Similarly to the Lunarian Bow, when [[Wooden Arrow]]s are used as [[ammo]], it fires three parallel bolts that are not affected by gravity; unlike other projectiles, the bolts tend to slide on tiles they collide with instead of bouncing off of them or disappearing.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Terra}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

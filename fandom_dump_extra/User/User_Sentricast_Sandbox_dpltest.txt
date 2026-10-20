@@ -1,0 +1,6 @@
+{{#ifeq:{{{listexclude|no}}}|yes|<!--meme-->|
+{{!}}-
+{{!}} align=center {{!}} {{item|mode=table|{{{name|{{{%PAGE%}}}}}}|image={{{name|{{{%PAGE%}}}}}}.png}}
+{{!}} align=center {{!}} {{{damage|0}}}
+{{!}}-
+}}

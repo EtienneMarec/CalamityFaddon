@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 62
+| knockback = 2.5
+| mana = 10
+| use = 20
+| tooltip = Summons a fallen human equipped with knives to fight for you<br/>Takes up 2 minion slots and only one can exist
+| rare = 5
+| sell = {{value|0|2}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| buff = Infernum Kris (buff) | bufflink = no
+| bufftip = Your choices don't matter
+| element1 = Dark
+| element2 = Fire
+| element3 = Stab
+}}
+{{summoned|Infernum Kris (minion)|type=minion}}
+{{addon|Calamity: Community Remix}}
+The '''Infernum Kris''' is a craftable [[Hardmode]] [[summon weapon]]. When used, it summons a possessed human holding a knife to attack enemies by rapidly throwing knives at them. The minion is mostly stationary, but will teleport above enemies and strike downwards if its target gets too far, also leaving behind a radial spray of 8 knives upon teleporting.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Infernum Kris is a reference to the protagonist of the game ''[[wikipedia:Deltarune|Deltarune]]'', along with the [[Community modifications|Infernum Mod]].
+**The buff's description is a reference to Deltarune's main theme.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-summon = yes
+}}

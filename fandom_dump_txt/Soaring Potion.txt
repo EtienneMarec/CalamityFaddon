@@ -1,0 +1,25 @@
+{{item infobox
+|type = Potion
+|tooltip = Increases flight time and horizontal flight speed by 10%<br/>Restores a fraction of your wing flight time after a true melee strike<br/>The amount of flight time restored scales with your melee stats and weapon swing speed
+|stack = 9999
+|rare = 4
+|use = 17
+|consumable = yes
+|buff = Soaring| bufflink = no
+|duration = 6 minutes
+|bufftip = Increased wing flight time and speed<br/>True melee hits restore wing flight time
+|sell = {{value|0|0|40|0}}
+|hardmode = yes
+}}
+
+The '''Soaring Potion''' is a craftable [[Hardmode]] [[buff potion]]. Upon consumption it grants the '''Soaring''' [[buff]], which increases wing flight time and horizontal flight speed by 10%. In addition, it restores a fraction of the player's wing time whenever an enemy is hit by a [[true melee]] weapon. The amount of flight time restored scales with the player's melee stats and weapon swing speed.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

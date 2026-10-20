@@ -1,0 +1,51 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = melee
+| damage = 400
+| knockback = 0.5
+| velocity = 24
+| stack = 1
+| auto = yes
+| use = 15
+| rare = 14
+| sell = {{value|0|28}}
+| tooltip = Striking an enemy with the flail causes glacial explosions and grants the player the cosmic freeze buff<br/>This buff gives the player increased life regen while standing still and freezes enemies near the player
+| buff = Cosmic Freeze | bufflink = no
+| duration = 5 seconds
+| bufftip = You feel as cold as the empty expanse of outer space
+| debuff = Glacial State
+| debuffchance = 33.33% chance<br/>100%
+| debuffduration = 1 second (Flail)<br/>Infinite while near player and player has Cosmic Freeze buff
+| debufftip = Cannot move and defense is shattered
+| debuff2 = Withered
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds
+| debufftip2 = Withered... Defense reduced by 20
+| debuff3 = Frostburn
+| debuffchance3 = 100%
+| debuffduration3 = 3 seconds
+| debufftip3 =  It's either really hot or really cold. Either way it REALLY hurts
+| hardmode = yes
+| postml = yes
+| proj = Electrical Discharge Flail.png
+| projcaption = Electrical Discharge
+| element1 = Machine
+| element2 = Electricity
+| element3 = Smash
+}}
+|{{item drops infobox
+| [[Wulfrum Megamechwyrm]] | 1 | 10%
+}}
+}}
+The '''Electrical Discharge''' is a Godseeker Mode [[flail]] dropped by the [[Wulfrum Megamechwyrm]]. It throws out a gravity-defying spike ball that travels through solid tiles. Upon travelling far enough or on contact with 4 targets, the flail returns to the player. On hit, the flail inflicts the '''Wither''' [[debuff]] which reduces enemy [[defense]] by 20. The first five hits spawn a blood explosion which deals 50% of the weapon's damage and provides the player with the [[Cosmic Freeze]] buff.
+
+{{modifier|meleealt}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Flails]]

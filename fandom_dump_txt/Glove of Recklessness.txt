@@ -1,0 +1,29 @@
+{{item infobox
+| type = Covering
+| tooltip = Increases Spy attack speed by 12% but decreases damage by 10%<br/>Adds inaccuracy to Spy weapons
+| buy = {{value|0|60}}
+| sell = {{value|0|9|60}}
+| rare = 7
+| stack = 1
+| hardmode = yes
+}}
+
+The '''Glove of Recklessness''' is a [[Hardmode]] [[Spy]] [[covering]] purchased from the [[Bandit]] for {{gc|60}} after [[Plantera]] has been defeated. When equipped all Spy weapons thrown by the player have 12% increased usetime but do 10% less damage. Spy weapons thrown also have a large deviation based on how much velocity the weapon thrown has; the faster the initial velocity, the higher the deviation is.
+
+== Recipe ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This covering is the direct counterpart to the [[Glove of Precision]].
+
+== Tips ==
+*This covering synergizes very poorly with [[stealth]] due to the fact that stealth strikes do not benefit from the decrease in usetime, effectively causing stealth strikes to deal 10% less damage.
+*Using this covering with homing weapons can help negate the inaccuracy penalty.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

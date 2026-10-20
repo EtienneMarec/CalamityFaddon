@@ -1,0 +1,129 @@
+Create a responsive items list. 
+
+You can use {{tl|itemlist/options}} to change default value for option parameters.
+
+== Usage ==
+Parameters:
+* '''All Unamed parameters''': contents of every list item.
+* ''optional'' '''width''': item width, accept any css width, default is 10em.
+* ''optional'' '''class''': css class(es).
+* ''optional'' '''id''': id attribute.
+* ''optional'' '''css''' or '''style''': custom css rules applied to list items.
+* ''optional'' '''boxcss''' or '''boxstyle''': custom css rules applied to wrapper box.
+
+==Example==
+<pre><nowiki>{{itemlist
+|{{item|Bucket}}
+|{{item|Bottomless Water Bucket}}
+|{{item|Super Absorbant Sponge}}
+|{{item|Bug Net|size=30px}}
+|{{item|Golden Bug Net|size=28px}}
+|{{item|Breathing Reed|size=30px}}
+|{{item|Sickle|size=30px}}
+|{{item|Binoculars}}
+|{{item|Portal Gun|size=30px}}
+|{{item|Money Trough|size=30px}}
+}}</nowiki></pre>
+will result:
+{{itemlist
+|{{item|Bucket}}
+|{{item|Bottomless Water Bucket}}
+|{{item|Super Absorbant Sponge}}
+|{{item|Bug Net|size=30px}}
+|{{item|Golden Bug Net|size=28px}}
+|{{item|Breathing Reed|size=30px}}
+|{{item|Sickle|size=30px}}
+|{{item|Binoculars}}
+|{{item|Portal Gun|size=30px}}
+|{{item|Money Trough|size=30px}}
+}}
+
+<pre><nowiki>{{itemlist|width=18em|class=terraria
+|{{item|Bucket}}
+|{{item|Bottomless Water Bucket}}
+|{{item|Super Absorbant Sponge}}
+|{{item|Bug Net|size=30px}}
+|{{item|Golden Bug Net|size=28px}}
+|{{item|Breathing Reed|size=30px}}
+|{{item|Sickle|size=30px}}
+|{{item|Binoculars}}
+|{{item|Portal Gun|size=30px}}
+|{{item|Money Trough|size=30px}}
+}}</nowiki></pre>
+will result:
+{{itemlist|width=18em|class=terraria
+|{{item|Bucket}}
+|{{item|Bottomless Water Bucket}}
+|{{item|Super Absorbant Sponge}}
+|{{item|Bug Net|size=30px}}
+|{{item|Golden Bug Net|size=28px}}
+|{{item|Breathing Reed|size=30px}}
+|{{item|Sickle|size=30px}}
+|{{item|Binoculars}}
+|{{item|Portal Gun|size=30px}}
+|{{item|Money Trough|size=30px}}
+}}
+
+<pre><nowiki>{{itemlist|width=30em
+|{{item|Bucket}}
+|{{item|Bottomless Water Bucket}}
+|{{item|Super Absorbant Sponge}}
+|{{item|Bug Net|size=30px}}
+|{{item|Golden Bug Net|size=28px}}
+|{{item|Breathing Reed|size=30px}}
+|{{item|Sickle|size=30px}}
+|{{item|Binoculars}}
+|{{item|Portal Gun|size=30px}}
+|{{item|Money Trough|size=30px}}
+}}
+</nowiki></pre>
+will result:
+{{itemlist|width=30em
+|{{item|Bucket}}
+|{{item|Bottomless Water Bucket}}
+|{{item|Super Absorbant Sponge}}
+|{{item|Bug Net|size=30px}}
+|{{item|Golden Bug Net|size=28px}}
+|{{item|Breathing Reed|size=30px}}
+|{{item|Sickle|size=30px}}
+|{{item|Binoculars}}
+|{{item|Portal Gun|size=30px}}
+|{{item|Money Trough|size=30px}}
+}}
+
+<pre><nowiki>
+{{itemlist|width=15em|boxcss=line-height: 3
+|{{item|Bucket}}
+|{{item|Bottomless Water Bucket}}
+|{{item|Super Absorbant Sponge}}
+|{{item|Bug Net|size=30px}}
+|{{item|Golden Bug Net|size=28px}}
+|{{item|Breathing Reed|size=30px}}
+|{{item|Sickle|size=30px}}
+|{{item|Binoculars}}
+|{{item|Portal Gun|size=30px}}
+|{{item|Money Trough|size=30px}}
+}}</nowiki></pre>
+will result:
+{{itemlist|width=15em|boxcss=line-height: 3
+|{{item|Bucket}}
+|{{item|Bottomless Water Bucket}}
+|{{item|Super Absorbant Sponge}}
+|{{item|Bug Net|size=30px}}
+|{{item|Golden Bug Net|size=28px}}
+|{{item|Breathing Reed|size=30px}}
+|{{item|Sickle|size=30px}}
+|{{item|Binoculars}}
+|{{item|Portal Gun|size=30px}}
+|{{item|Money Trough|size=30px}}
+}}
+
+== See also==
+*{{tl|flexbox}}
+
+<includeonly>
+[[Category:Formatting templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

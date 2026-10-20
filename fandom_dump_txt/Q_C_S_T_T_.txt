@@ -1,0 +1,66 @@
+{{stub}}
+{{addon|Deimos, the Starborn Princess}}
+{{item infobox
+| type = Tool
+| placeable = yes
+| rare = -12
+| stack = 1
+| tooltip = Cannot be sold, trashed, or decrafted
+| sell = No value
+|}}
+The '''Q.C.S.T.T.''' is a valuable [[Tool]] in the Deimos, the Starborn Princess addon that is made from the [[Bygone Chassis]]. It is used to access the various [[Subworld]]s in the addon, as well as projecting various [[Q.C.S.T.T.#Blueprints|Blueprints]] when it is placed for building various important structures. 
+
+The Q.C.S.T.T. can be upgraded as you progress through the mod through the upgrade slots found around the top of the UI. It is also able to hold all [[Lore items]] and [[Schematics|Texts from Encrypted Schematics]] within it.
+
+If the Deimos, the Starborn Princess addon is enabled while in Calamity: Distorted Memories {{fantag|Calamity: Distorted Memories}}, the tool will also have all of the effects of the [[XO-Tell]].
+
+== Crafting ==
+
+===Recipes ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{recipes|result=Mana Screen Unit/LIKE Q.C.S.T.T.%|resultnot=Q.C.S.T.T./LIKE Q.C.S.T.T. Blueprint%}}
+
+==Blueprints==
+{| class="terraria sortable lined align-center"
+! class="unsortable" |Image!!Name!!Projected Image!!Description!!Obtained From!! [[Hardmode]]!!Godseeker Mode!!Epilogue!![[Rarity]]
+|-
+| align="center" |{{item|mode=table|Mana Blueprint|link=}}
+|{{na}}
+|{{na}}
+|{{recipes/extract|result=Mana Blueprint}} 
+| {{no}}
+|{{no}}
+|{{no}}
+|{{rare|-12}}
+|-
+| align="center" |{{item|mode=table|Q.C.S.T.T. Blueprint (Apocalyptic Slime Statue)|image=Mana Blueprint.png|link=}}
+| [[File:Apocalyptic Slime Statue Blueprint Proj.png|250px]]
+|A valid structure for spawning the [[Horseslimes of the Goopocalypse]].
+| {{item|Radiant Paladin|image=Radiant_Paladin_map.png}} if the player has an [[Apocalyptic Bar]] and a Mana Blueprint in their inventory. This will consume a Mana Blueprint.
+|{{yes}} 
+|{{no}}
+|{{no}}
+|{{rare|7}}
+|-
+| align="center" |{{item|mode=table|Q.C.S.T.T. Blueprint (Exosphere Transporter)|image=Mana Blueprint.png|link=}}
+|[[File:Exosphere Transporter Blueprint Proj.png]]
+|[[The Exosphere]] portal and the [[Auric Bar]] required to be thrown on it.
+|{{recipes/extract|result=Q.C.S.T.T. Blueprint (Exosphere Transporter)}}<br />Cannot be crafted until the [[Encrypted Schematic]] from the [[Ice Bio-center Lab]] has been decrypted.
+|{{yes}}
+|{{yes}}
+|{{no}}
+|{{rare|15}}
+|-
+|}
+
+==Crafting==
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Notes==
+*The Q.C.S.T.T. in the inventory or as a dropped item cannot be trashed, despawned, sold, or decrafted in any way.
+*Only one Q.C.S.T.T. can be obtained per player.
+==Trivia==
+*What ''Q.C.S.T.T.'' means is unknown.
+{{-}}
+{{DeimosMod}}

@@ -1,0 +1,63 @@
+{{npc infobox
+| type = Flying Enemy
+| type2 = Aquatic
+| ai = Reaper Shark AI
+| environment = Abyss
+| life = {{dv|190,000|380,000}}
+| damage = {{dv|160|boost=0.1}}
+| defense = 70
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Unholy
+| vulnerable4 = Machine
+| resistant1 = Dark
+| resistant2 = Water
+| resistant3 = Cold
+| knockback = 100
+| debuff = Crush Depth
+| debufftip = Aquatic Pressure
+| debuffchance = 100%
+| duration = 5 seconds
+| debuff2 = Feral Bite
+| debufftip2 = Increase Damage, Decrease life regen, Causes status effects
+| debuffchance2 = 100%
+| duration2 = 5 seconds
+| immune1 = Crush Depth
+| immune2 = Confused
+| money = {{gc|25}}
+| Voidstone| 40-50 | 100%
+| Anechoic Coating | 2-3 | 100%
+| custom | {{item|Depth Cells|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|10-17|14-22}}) | 50%
+| custom | {{item|Deep Sea Dumbbell|note=(After defeating [[Polterghast]])|wrap=y}}|33.33%
+| custom | {{item|Valediction|note=(After defeating [[Polterghast]])|wrap=y}}|33.33%
+| custom | {{item|The Reaper|note=(After defeating [[Polterghast]])|wrap=y}}|10%
+| hardmode = yes
+| postml = yes
+| boxwidth = 26em
+| banner = yes
+| hurt = NPC_Hit_56.wav
+| killed = NPC_Killed_60.wav
+| sound = ReaperSearchRoar.wav
+| soundtext = Search Roar
+| sound2 = ReaperEnragedRoar.wav
+| sound2text = Enraged Roar
+}}{{dablink|This article is about the mini boss encountered in the [[Abyss]] biome. For the pickaxe with a similar name, see [[Ripper Shark]].}}
+
+''<big>"Arf Arf!"</big>''
+
+The '''Reaper Shark''' (Japanese: 死神ザメ ''Shinigami zame'') is a [[Mini Bosses|mini boss]] that spawns in the 3rd and 4th layers of the [[Abyss]]. It is initially stealthed as it hunts for prey, growling to indicate its presence. If approached or attacked by the player, the Reaper Shark will roar and enter an enraged state. Once enraged, it attempts to hurt the player by swimming directly into them.
+
+At 50% HP, the Reaper Shark will briefly go invincible and roar, enraging further. It will then perform a series of faster, angled dash attacks, before resuming its prior behavior. Upon being defeated, the Reaper Shark will burst into several [[Front Gar]]s.
+
+If you right click the '''Reaper Shark''' with 22 [[Scoria Bar|Scoria Bars]] in your hand, it will make an extra loud roar, swim to layer 3 of the abyss, and become the [[Volcanic Reaper Shark]], a buffed scoria-themed version of the Reaper Shark.
+
+It can be detected with the [[Lifeform Analyzer]].
+== Trivia ==
+*Despite being a [[Bosses|Mini Boss]], It plays [https://www.youtube.com/watch?v=O_zPaC5xqns '''Threats of the Ocean Floor'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+*Its name is a reference to the [https://subnautica.fandom.com/wiki/Reaper_Leviathan Reaper Leviathan] from the game ''[[wikipedia:Subnautica|Subnautica]]''.
+*Its name used to simply be "Reaper"; however, this was changed due to a conflict with a [[tgc:Reaper|vanilla enemy of the same name]].
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

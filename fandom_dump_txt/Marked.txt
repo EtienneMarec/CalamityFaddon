@@ -1,0 +1,50 @@
+{{buff infobox
+| type = Debuff
+| effects = Halves the target's damage reduction.<br/>If the target is an enemy and has no damage reduction, reduces the target's defense by 5.
+| tooltip = Damage reduction reduced
+}}
+
+'''Marked''' is a [[debuff]] inflicted by the [[Anti-materiel Rifle]], [[Auralis]], [[Caustic Staff]], [[Deep Wounder]], [[Lunic Eye]], [[Marked Magnum]], and [[Tyranny's End]]. It halves the target's [[Damage Reduction]]. If the target is an enemy that has no Damage Reduction, it instead reduces the enemy's defense by 5. When inflicted with the debuff, the target is tinted a bright purple.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+== Trivia ==
+*The debuff is a reference to a [https://darkestdungeon.gamepedia.com/Mark status effect of a similar name] from the game, ''[[wikipedia:Darkest Dungeon|Darkest Dungeon]]'' which also reduces the defense of targets.
+*This debuff was previously known as "Marked for Death" and is still referred to as such in the mod's source files.
+**This name is shared by a skill from ''Darkest Dungeon'' which inflicts Mark.
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

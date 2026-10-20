@@ -1,0 +1,43 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = Summons a gaseous Old Duke to fight for you<br/>When below 50% life, it moves much faster and additionally spawns gassy clouds on hit
+| sell = {{value|0|26}}
+| rare = 13
+| damage = 1200
+| damagetype = Summon
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Sporecloud.gif
+| projcaption = Gassy Cloud
+| buff = Gassy Duke (buff) | bufflink = no
+| bufftip = The sulphur sea needs a hero...
+| element1 = Poison
+| element2 = Water
+}}
+|{{item drops infobox
+| [[Pigron]]|1|10% (post-[[Polterghast]])
+}}
+}}
+{{summoned|Mini Old Duke (minion)|name=Gassy Old Duke|type=minion}}
+{{distinguish|Shrimpy Truffle|a vanilla [[mount]]-summoning item}}
+
+The '''Mutated Truffle''' is a Godseeker Mode [[covering]] dropped by [[Pigron]]s after [[Polterghast]] has been defeated. It summons a miniature [[Old Duke]] minion to attack nearby enemies by ramming into them, dealing 1200 base summon damage. The mini Old Duke will enrage when the player is below 50% of their health, moving and ramming at a much higher speed, also indicated by the mini Old Duke's eyes turning yellow.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This summon is a homage to the former boss The Old Duke, staying in the mod despite the Old Duke itself being removed.
+*The gaseous Old Duke minion is a reference to the Contagion Pigron from the [https://forums.terraria.org/index.php?threads/released-wip-terraria-avalon.378/ Exxo Avalon] mod.
+*The gaseous Old Duke minion is referred to as "the young duke" in the buff's tooltip, and as such it lacks Old Duke's facial hair, presumably being too young to have grown it yet.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

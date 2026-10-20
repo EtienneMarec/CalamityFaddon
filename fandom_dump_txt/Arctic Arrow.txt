@@ -1,0 +1,31 @@
+{{item infobox
+|type = Ammunition
+|tooltip = Freezes enemies for a short time
+|damage = 18
+|damagetype = ranged
+|stack = 9999
+|consumable = yes
+|knockback = 1.5
+|sell = {{value|0|0|0|12}}
+|rare = 3
+|velocity = 13
+|hardmode = yes
+|debuff= Glacial State
+|debufftip=Cannot move and defense is shattered
+|debuffchance=100%
+|debuffduration=0.5 seconds
+}}
+{{distinguish|Icicle Arrow|which is sold by the [[Archmage]]}}
+
+'''Arctic Arrows''' are [[Hardmode]] [[arrows]] made from [[Cryonic Bar]]s. Upon contacting an [[enemy]], it inflicts the [[Glacial State]] [[debuff]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Cryonic}}
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Arrows]]

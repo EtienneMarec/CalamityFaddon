@@ -1,0 +1,31 @@
+{{dedicated|Larry|Patreon Donator}}
+{{infobox wrapper
+|{{item infobox
+| type = Pet Summon
+| stack = 1
+| tooltip = Summons an amalgamated pile of flesh
+| rare = 3
+| use = 19
+| buff = Blood Bound| bufflink = no
+| bufftip = You must be desperate for company
+| sell = {{value|0|0|80}}
+}}
+|{{item drops infobox
+| [[The Perforators]]|1|10%
+}}
+}}
+{{summoned|Mini Perforator|type=pet}}
+
+The '''Bloody Vein''' is a [[pet]] summoning item dropped by [[The Perforators]]. It summons a mini Perforator Hive to follow the player.
+
+{{fantag|Calamity: Community Remix}} Placing one into [[The Codebreaker]] will summon [[XP-00 Hypnos]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

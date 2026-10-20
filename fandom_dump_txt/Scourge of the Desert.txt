@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Spy
+| damage = 16
+| tooltip = Gains velocity over time<br/>Stealth strikes gain damage as they damage enemies
+| use = 19
+| knockback = 3.5
+| velocity = 12
+| auto = yes
+| stack = 1
+| rare = 2
+| sell = {{value|0|0|40}}
+| element1 = Fire
+| element2 = Stab
+}}
+|{{item drops infobox
+|[[Desert Scourge]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{dablink|If you were looking for something other than the Scourge of the Desert, see [[Scourge (disambiguation)]].}}
+The '''Scourge of the Desert''' is a [[javelin]] dropped by the [[Desert Scourge]]. When used it automatically throws a javelin that gains velocity while in flight. Thrown javelins are slightly affected by gravity and can pierce through two enemies.
+
+Performing a [[stealth strike]] with the Scourge of the Desert causes the next javelin thrown to be less affected by gravity, pierce up to 19 enemies, and gain 20% more damage per enemy hit up to a maximum of +200% of the weapon's base damage.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon's appearance is a reference to a bug with the [[Desert Scourge]] boss when it was originally introduced. The boss' head was far larger than intended.
+*This weapon used to be [[Revengeance Mode]]-exclusive.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Javelins]]

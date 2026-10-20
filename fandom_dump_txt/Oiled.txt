@@ -1,0 +1,24 @@
+{{dablink|For the vanilla debuff page, see [[tgc:Oiled|Oiled]].}}
+{{buff infobox
+| type = Debuff
+| effects = Fires are more effective
+| tooltip = Taking more damage from being on fire
+}}
+
+'''Oiled''' is a vanilla [[debuff]] that increases the effectiveness of fire debuffs. It also affects flame debuffs within the Calamity Mod by increasing the damage per second of the following debuffs by 25%:
+*[[Abyssal Flames]]: 16 health per second (total 78.5)
+*[[Banishing Fire]]: 187.5 health per second (total 2187.5)
+*[[Brimstone Flames]]: 5 health per second (total 25)
+*[[Demon Flames]]: 312.5 health per second (total 1562.5)
+*{{dei}} [[Embers of Duality]]: 9 health per second (total 44)
+*[[God Slayer Inferno]]: 31.5 health per second (total 156.5)
+*[[Holy Flames]]: 6.5 health per second (total 31.5)
+
+== Causes ==
+=== From Calamity Items ===
+{{item debuffs}}
+{{-}}
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

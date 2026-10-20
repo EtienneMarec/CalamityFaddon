@@ -1,0 +1,51 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 210
+| stack = 9999
+| rare = 9
+| use = 14
+| value = 900
+| color = #FF99FF
+| sell = {{value|0|0|36|0}}
+| debuff = Astral Infection (debuff)
+| debuffchance = 100%
+| debuffduration = Infinite (Contact)
+| debufftip = Your flesh is melting off
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Astral Slime]] (After [[Astrum Deus]] has been defeated)|{{dv|8-12|11-16}}| 100%
+}}
+}}
+<big> ''"The seal of the stars has been broken!"'' </big>
+
+'''Astral Ore''' is a [[Hardmode]] [[ore]] which generates in the world after defeating the [[Wall of Flesh]] or [[Astrum Aureus]], converting many blocks around it into the [[Astral Infection]]. A [[Picksaw]] or a pickaxe of a higher power can mine it, but only after [[The General]] {{fantag|Apotheosis and Friends}} has been spoken to. Additionally, after Astrum Deus' defeat, [[Astral Slime]]s will begin to drop Astral Ore.
+
+Similarly to how [[Hellstone]] and [[Meteorite]] inflict [[Burning]], Astral Ore inflicts the [[Astral Infection (debuff)|Astral Infection]] [[debuff]] on contact. Up to 60-70 bars can be mined from one astral meteorite. {{fantag|Catalyst}} Mining 20 blocks of Astral Ore will cause the player's [[Stamina Meter]] to deplete by 1 point.
+
+Astral Ore is also used in order to obtain [[tgc:Shimmer|Shimmer]], via a special ritual performed in the [[The Aether]]. The player must create a 2x3 outline made out of [[Astral Ore]], and place a bucket of water in the center. This will cause the Astral Ore and water to disappear, leaving behind a small puddle of shimmer. This ritual will not work if the world is still in pre-hardmode.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Astral Ore can also be obtained from opening [[Astral Crate]]s and feeding [[Novae Slag]] or [[Celestial Remains]] into the [[Extractinator]] once [[Astrum Deus]] is defeated.
+*Astral Ore is immune to explosives, even after Astrum Deus is defeated.
+*The [[Crystyl Crusher]]'s beam can destroy Astral Ore before Astrum Deus is defeated.
+{{-}}
+{{Astral}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

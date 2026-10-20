@@ -1,0 +1,41 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| rare = 3
+| sell = {{value|0|0|0|80}}
+| damage = 32
+| damagetype = Spy
+| knockback = 1
+| velocity = 7
+| auto = yes
+| stack = 9999
+| consumable = True
+| use = 25
+| tooltip = Fires cores that emit dark radiation around them, inflicting shadowflame<br/>Stealth strikes cause the core to leave behind a damaging shadowflame gas cloud
+| debuff = Shadowflame
+| debufftime = 3 seconds
+| element1 = Dark
+| element2 = Radioactive
+| element3 = Smash
+}}
+
+'''Demon Cores''' are craftable Pre-[[Hardmode]] consumable [[Spy weapon]]s. They automatically throw dark demon cores that inflict [[Shadowflame]] on any enemy within a 4 block radius of the thrown core.
+
+Performing a [[stealth strike]] with Demon Cores will cause the next cores thrown to explode into a lingering cloud of gas that also inflicts Shadowflame upon collision with an enemy. 
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The item is a reference to real life [[wikipedia:Demon core|demon cores]], cores of atomic bombs.
+{{Night's}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}

@@ -1,0 +1,29 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| use = 14
+| hardmode = yes
+| postml = yes
+| color = #7D617B
+| sell = No value
+}}
+
+'''Profaned Crystal Wall''' is an aesthetic building material. It is crafted with [[Profaned Crystal]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main   = yes
+| show-walls = yes
+}}
+
+[[Category:Block items]]

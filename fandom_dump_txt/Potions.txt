@@ -1,0 +1,39 @@
+'''Potions''' are a group of consumable items that either recover health and/or mana or grant temporary [[buffs]]. They are more commonly found in natural chests and Pots and can also be dropped by enemies, purchased from NPCs, or crafted.
+
+The Calamity Mod adds several new potions to the game, with their purposes ranging between upgraded healing, granting new buffs, combining many buffs into one, or permanently altering the player's stats.
+
+=== [[File:Omega Healing Potion.png]] [[Recovery Potions]] ===
+These items restore health or mana and inflict [[Potion Sickness]] or [[Mana Sickness]] when used.
+{{ajax|Recovery Potions}}
+
+=== [[File:Hadal Stew.png]] [[Food and Drink Potions]] ===
+These items grant the [[Well Fed]] buff when used.
+{{ajax|Food and Drink Potions}}
+
+=== [[File:Cadance Potion.png]] [[Buff Potions]] ===
+These items grant the player a buff when used.
+{{ajax|Buff Potions}}
+
+=== [[File:Tainted Battle Potion.png]] [[Tainted Potions]] ===
+These items grant the player the reverse of a normal buff when used.
+{{ajax|Tainted Potions}}
+
+=== [[File:Fluorescent Vodka.png]] [[Alcohol]] ===
+These items grant the player positive debuffs in-exchange for specific penalties.
+{{ajax|Alcohol}}
+
+=== [[File:Elderberry.png]] [[Persistent Augmentations]] ===
+These items, when used, permanently increase the player's maximum health, mana, or [[Rage Meter|Rage]] damage, or reduce the amount of time it takes for the [[Adrenaline Meter]] to fill. They can only be used once each. The mana increases provided by the [[Comet Shard]], [[Ethereal Core]], and [[Phantom Heart]] ignore the vanilla mana cap of 400, allowing max mana to reach up to 550. 
+{{ajax|Persistent Augmentations}}
+
+== See Also ==
+*[[tgc:Potions|Potions]] on the vanilla wiki.
+*The [[Buffs]] that these potions grant.
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+| show-buff = yes
+}}
+[[Category:Consumable items]]
+[[Category:Potion items|*]]

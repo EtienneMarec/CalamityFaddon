@@ -1,0 +1,33 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| rare = 3
+| sell = {{value|0|0|50|0}}
+| damage = 28<br/>36 (stealth strike)
+| damagetype = Rogue
+| knockback = 4.5
+| velocity = 6<br/>18 (stealth strike)
+| auto = yes
+| stack = 1
+| use = 30
+| tooltip = Throws a plush that pierces enemies<br/>Stealth strike throws the plushie harder, spilling out cotton upon hitting enemies or tiles<br/>{{color|"It reeks of a dutch NEET's sweat"|#910b01}}
+| debuff = Stinky
+| debufftime = 5 seconds
+| element1 = Water
+| proj = Blobfish Plushie Projectile.png
+| projcaption = Blobfish Plush
+}}
+
+The '''Blobfish Plushie''' is a [[Pre-Hardmode]] [[Spy weapons]] obtained by fishing in the [[Sulphurous Sea]] with a 5% chance. Upon being thrown, these plushies can pierce up to 2 enemies before disappearing. Additionally, it inflicts the [[tgc:Stinky|Stinky]] debuff.
+
+Performing a [[stealth strike]] with Blobfish Plushie instead throws the plushie harder, causing them to explode into a bunch of lingering cottons upon hitting enemies/tiles. These cottons have 15 armor penetration, can pierce up to 3 enemies, and falls down slowly.
+
+{{Modifier|rogue}}
+
+== Trivia ==
+*This plushie is directly based on the same plushie that appears alongside [https://ongezellig.fandom.com/wiki/Maya Maya Schoppenboer] in the credits of every parts in the pilot of a dutch webcartoon "Ongezellig".
+
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

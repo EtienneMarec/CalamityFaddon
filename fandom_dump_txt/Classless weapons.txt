@@ -1,0 +1,31 @@
+'''Classless weapons''' are weapons that belong to no particular type of damage. There are two types of classless weapons available. Damaging classless weapons require special [[ammo]] to be fired and are not boosted by damage increasing [[coverings]], [[potions]], and [[debuffs]]. Classless support weapons are affected by damage increases. All classless weapons cannot receive modifiers.
+
+== Types ==
+<table-progress-tracking table-id="1" unique-column-index="2">
+{| class="terraria sortable lined"
+! colspan=2 | Name !! <abbr title=Damage>DMG</abbr> !! <abbr title="Use Time">UT</abbr> !! <abbr title=Knockback>KB</abbr> !! Auto !! [[Rarity]] !! <abbr title=Hardmode>HM</abbr> !! <abbr title="Godseeker Mode">GM</abbr> !! Epilogue !! Sell
+|-
+{{#dpl:
+| category = Classless weapons
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦/dpl}
+| uses = Template:Item infobox
+| mode = userformat
+}}
+|}
+</table-progress-tracking>
+
+== Notes ==
+*All classless weapons, when held, will not trigger the [[Vanilla changes#Minions|Calamity summoner damage penalty]].
+
+== Trivia ==
+*The finite ammo classless weapons (such as the [[Lightning Hawk]]) are often collectively referred to as the "[[wikipedia:Resident Evil|Resident Evil]] guns" or "RE guns" by the community, referencing their original inspiration.
+
+{{Master Template Weapons
+| show-main  = yes
+| show-classless = yes
+}}
+
+[[Category:Weapon items| ]]
+[[Category:Classless weapons|*]]

@@ -1,0 +1,32 @@
+{{item infobox
+| type = Wall
+| rare = 0
+| imagealt = [[File:Blue Brick Wall.png]] [[File:Green Tiled Wall.png]] [[File:Pink Slab Wall.png]]
+| imagebreak = yes
+| imageplaced = [[File:Blue Brick Wall (placed).png]] [[File:Green Tiled Wall (placed).png]] [[File:Pink Slab Wall (placed).png]]
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 999
+| use = 14
+| buy = {{cc|10}}
+| sell = No value
+}}
+
+'''Dungeon Walls Unsafe''' are background [[walls]] which can be bought from the [[Clothier]] for {{cc|10}} each.
+
+They come in 9 variants - brick, slab, and tiled, each in blue, green, and pink. They have the same ID as naturally occurring [[Dungeon Brick Wall]]s when placed, and thus allow [[NPC]] spawns even when placed by the player. One can use them to create a functioning Dungeon anywhere in the world, as long as the other requirements (e.g. having 250 [[Dungeon Brick]]s onscreen) are met.
+
+== Notes ==
+
+*Upon placing, destroying, and picking the walls up again the player will not receive unsafe walls and will instead get their normal variant, which when placed again will not count as a dungeon biome and will prevent NPC spawns.
+*Enemies of a certain wall type (Tiled Walls for [[Diabolist]]s, Slab Walls for [[Skeleton Sniper]]s, etc) will only spawn if that wall type is placed behind the block that they would spawn on as well. By default, Brick Wall enemies will spawn in front of all Dungeon walls regardless of type, if that same type is not also behind the floor's blocks.
+
+== Tips ==
+
+*These walls allow the player to build a sufficient arena in which the [[Ceaseless Void]] doesn't enrage.
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-walls = yes
+}}

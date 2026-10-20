@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 70
+| damagetype = melee
+| use = 24
+| knockback = 6
+| auto = yes
+| tooltip = Fires a brimstone bolt that explodes into more bolts on death
+| rare = 7
+| sell = {{value|0|12}}
+| velocity = 10
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debuffduration = 5 seconds (Contact)<br/>3 seconds (Bolts)
+| debufftip = Rapid health loss
+| stack = 1
+| hardmode = yes
+| proj = Brimlash Blade.png
+| projcaption = Brimlash Blade
+| element1 = Unholy
+| element2 = Fire
+| element3 = Slash
+}}
+|{{item drops infobox
+| [[Clamitas]] {{fantag|Calamity: Community Remix}}| 1 | 25% (in [[Hardmode]])
+}}
+}}
+
+The '''Brimlash''' is a craftable [[Hardmode]] [[broadsword]] that auto-swings. It fires out a damaging projectile that pierces infinitely and splits into 4 homing projectiles upon hitting an object or reaching the end of its range. 
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:硫火鞭]]

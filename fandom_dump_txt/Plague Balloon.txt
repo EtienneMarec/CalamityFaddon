@@ -1,0 +1,22 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Vanity
+| stack = 1
+| rare = 8
+| body slot = Balloon
+| tooltip = 'Full of Vitamin A'
+| sell = {{value|0|2}}
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|10%
+}}
+}}
+
+The '''Plague Balloon''' is a [[vanity item]] dropped by [[The Plaguebringer Goliath]]. It can be equipped in any [[covering]] slot. Upon dying with the balloon equipped, the balloon will explode into a swarm of purely visual plague bees that scatter about.
+
+{{Master Template Equipables
+| show-main = yes
+| show-vanity = yes
+}}

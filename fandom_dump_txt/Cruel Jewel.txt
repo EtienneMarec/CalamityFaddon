@@ -1,0 +1,55 @@
+{{dedicated|Vorbis|Patreon Donator}}
+{{item infobox
+| image = Cruel Jewel.gif
+| type = Weapon
+| damagetype = Magic
+| tooltip = And everything under the sun is in tune,<br/>But the sun is eclipsed by the moon.
+| damage = 60
+| use = 10
+| knockback = 0
+| velocity = 30
+| stack = 1
+| mana = 10
+| hardmode = yes
+| postml = yes
+| rare = 13
+| sell = {{value|0|26}}
+| auto = yes
+| proj = Dark Spark Beam.png
+| projcaption = Cruel Jewel Beam
+|element1=magic|element2=dark}}
+
+'''Cruel Jewel''' is a craftable Godseeker Mode [[magic weapon]] and upgrade to the [[Last Prism]]. It initially fires a single black beam of light that splits into six different beams as it charges. Over time, these beams will change to white and, eventually, various colors.
+
+Cruel Jewel projects a single thick beam that deals individual damage, splitting and spinning at a fast rate out of the tip of the weapon. Over time, this spin effect slows down. The process for charging Cruel Jewel to max takes approximately 17 seconds, each beam continuing to deal the weapon's full listed damage. The fully diverged beam deals 3.5 times the listed damage, for an output of 210 damage per hit. Each beam can hit 6 times per second individually (every 10  game ticks), which is a maximum of 36 possible hits per second (approximately every 1.7 game ticks). The mana cost will increase massively as the beam diverges.
+
+Due to the weapon's above average mana cost (10 mana 6 times per second when fully charged = 60 mana per second), players will struggle to maintain the beam for more than 8-9 seconds during the progression tier that it is first obtainable. A [[Mana Flower]], [[Celestial Cuffs]], [[Sigil of  Calamitas]], [[Nebula armor]], and a large supply of [[Super Mana Potion]]s or [[Supreme Mana Potion]]s may be required for continuous use.
+
+{{fantag|Catalyst}} Like other beam weapons, 1 point of [[Stamina]] will be removed for every second the weapon is being channeled.
+
+{{Modifier|magicnokb}}
+
+[[File:Dark Spark (demo).gif|frame|right|The Cruel Jewel being used against a single [[Target Dummy]].]]
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The weapon itself also deals contact damage to enemies. This trait is shared with the [[Hellborn]], [[Helstorm]], and [[Marnite Bayonet]].
+*Cruel Jewel's beams disappear after 1 minute of continuous use, similarly to Last Prism.
+*The Cruel Jewel only deals 85% damage to [[The Devourer of Gods]].
+
+== Trivia ==
+*The visual effects of this weapon are opposite to the [[Last Prism]].
+**However, the sound effects upon initial use and continued use are the same as the [[Last Prism]].
+*The tooltip is a quote from the song "[[wikipedia:Eclipse (Pink Floyd song)|Eclipse]]" from the [[wikipedia:Pink Floyd|Pink Floyd]] album, ''[[wikipedia:The Dark Side of the Moon|The Dark Side of the Moon]]''.
+**The cover art for ''The Dark Side of the Moon'' features a black prism with a rainbow diverging from it, which was likely the inspiration for Cruel Jewel's function.
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}

@@ -1,0 +1,84 @@
+Pingas
+
+<br />{{dedicated|Arti|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 182
+| mana = 12
+| stack = 1
+| tooltip = Fires a variety of high-velocity flasks<br/>Right click to throw a prismatic flask that inflicts many debuffs<br/>Red flasks explode violently, blue flasks contain poison gas, green flasks summon lunar flares and purple flasks explode into homing shrapnel
+| knockback = 2
+| velocity = 19
+| rare = 11
+| sell = {{value|0|22}}
+| use = 14
+| hardmode = yes
+| postml = yes
+| debuff = Crush Depth
+| debuffduration = 2 seconds
+| debuffchance = 100% (Alt-fire)
+| debuff2 = Cursed Inferno
+| debuffduration2 = 1 second
+| debuffchance2 = 100% (Alt-fire)
+| debuff3 = Frostburn
+| debuffduration3 = 2 seconds
+| debuffchance3 = 100% (Alt-fire)
+| debuff4 = Nightwither
+| debuffduration4 = 2 seconds
+| debuffchance4 = 100% (Alt-fire)
+| debuff5 = Holy Flames
+| debuffduration5 = 2 seconds
+| debuffchance5 = 100% (Alt-fire)
+| debuff6 = On Fire!
+| debuffduration6 = 2 seconds
+| debuffchance6 = 100% (Alt-fire)
+| debuff7 = Poisoned
+| debuffduration7 = 2 seconds
+| debuffchance7 = 100% (Alt-fire)
+| debuff8 = Shadowflame
+| debuffduration8 = 2 seconds
+| debuffchance8 = 100% (Alt-fire)
+| debuff9 = Venom
+| debuffduration9 = 2 seconds
+| debuffchance9 = 100% (Alt-fire)
+| element1 = Poison
+}}
+
+The '''Mad Alchemist's Cocktail Glove''' is a craftable Godseeker Mode [[magic weapon]]. When the primary-fire (left click) is used, a sequence of four flasks are thrown out towards the cursor. The different colors of flasks include red, blue, green, and purple respectively which will each contain unique on-hit effects. After all four flasks have been fired, the cycle repeats itself. When the alternate-fire (right-click) is used, a special flask is thrown that inflicts the [[Crush Depth]], [[Cursed Inferno]], [[Frostburn]], [[God Slayer Inferno]], [[Holy Flames]], [[On Fire!]], [[Poisoned]], [[Shadowflame]], and [[Venom]] [[debuff]]s.
+
+All five flasks will defy gravity for 1.5 seconds before slowing down and accelerating downwards. Upon contact with any targets or solid tiles, the flasks shatter into cosmetic glass shards along with triggering their special effects.
+
+{{Modifier|magic}}
+
+== Projectile Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Type !! On-hit Effect
+|-
+| {{item|Red Cocktail Flask|mode=table|nolink=y}}
+| Erupts into a fiery explosion, dealing 50% damage.
+|-
+| {{item|Blue Cocktail Flask|mode=table|nolink=y}}
+| Forms 9 {{item|Blue Cocktail Flask Cloud|size=22px|nolink=y}} in all directions, each dealing 50% damage.
+|-
+| {{item|Green Cocktail Flask|mode=table|nolink=y}}
+| Summons three {{item|image=Lunar Flare (projectile).gif|Lunar Flare (projectile)|mode=image|size=60px|nolink=y}} Lunar Flares from above, each dealing 50% damage.
+|-
+| {{item|Purple Cocktail Flask|mode=table|nolink=y}}
+| Bursts into four homing shrapnel, each dealing 33.33% damage.
+|-
+| {{item|Multicolored Cocktail Flask|mode=table|nolink=y}}
+| Creates a small multicolored explosion, dealing 50% damage.
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category: Magic weapons]]

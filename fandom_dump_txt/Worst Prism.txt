@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| tooltip = Will probably give enemies epilepsy
+| damage = 16
+| use = 12
+| knockback = 0
+| velocity = 24
+| stack = 1
+| mana = 10
+| rare = 3
+| sell = {{value|0|26}}
+| auto = yes
+| debuff = Vaporfied
+| debufftip = Vaporizing senses and mind
+| debuffchance = 100%
+| debuffduration = 1.5 seconds
+| element1 = Holy
+| element2 = Unholy
+}}
+[[File:Worst Prism (demo).gif|frame|The Worst Prism being used against a group of [[Target Dummy|Target Dummies]].]]
+
+'''Worst Prism''' is a craftable [[magic weapon]]. It attacks by absorbing energy for 5 seconds then firing an uneven and high spread of laser beams that reach a base 100 blocks each then randomly and rapidly pulse in length up to 100 blocks in either direction. Each beam inflicts a different debuff depending on the color of the beam.
+
+{{Modifier|magicnokb}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The weapon itself also deals contact damage to enemies. This trait is shared with the [[Hellborn]], [[Helstorm]], [[Cruel Jewel]], and [[Marnite Bayonet]].
+*Worst Prism's beams disappear after 1 minute of continuous use, similarly to Last Prism.
+*The Worst Prism only deals 85% damage to [[Aquatic Scourge]].
+
+== Trivia ==
+*The item is a parody of the [[Last Prism]].
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}

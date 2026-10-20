@@ -1,0 +1,58 @@
+{{dedicated|Lucille Karma|Developer}}
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| rare = 16
+| use = 120
+| knockback = 0
+| stack = 1
+| auto = yes
+| sell = {{value|1}}
+| damage = 840
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| mana = 30
+| velocity = 0
+| tooltip = Hexes a possible nearby enemy, trapping them in a brilliant display of destruction<br/>{{color|There's pictures of ponies in the book|#9C6CFB}}
+| proj = Eternity Crystal.png
+| projcaption = Eternity Crystal
+| image2 = Eternity Book.gif
+| image2caption = Holdout Book
+| element1 = Magic
+}}
+
+[[File:Eternity (demo).gif|Eternity being used against a [[Super Dummy]], with nearby [[Target Dummies]] to show its damaging ability. Notice that the flower-shaped beams around the Super Dummy deal damage to the Target Dummy nearby, but the infinity beam, orbiting crystals, and explosion only deal damage to the Super Dummy.|thumb|500x500px|alt=]]
+'''Eternity''' is a craftable Epilogue [[developer]] [[spell tome]]. When used, it will create a large circle, which inside will have five crystals, a beam, and a group of projectiles that create a flower shape while traveling, all of which will be centered around a nearby enemy. The beam will travel in an infinity shape. The crystals will circle the targeted enemy. The flower-shaped projectiles will also harm nearby enemies. If the attack button is held, the beam's path will slowly grow in size as the beam changes to a darker blue color. Eventually, if the attack is held for long enough, the beam will disappear and the crystal circle will collapse in on the target, causing massive flower-shaped explosions that inflict massive damage.
+
+{{Modifier|nokbalt}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Eternity/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Without an active target nearby, the tome does not perform any of the attacks when used.
+*Each time the infinity beam completes a cycle, it deals triple of the weapon's base damage only on the target. Otherwise, it deals no damage.
+*The crystals deal 8400 base magic damage upon collision.
+*The phrase in the tooltip "There's pictures of ponies in the book" alternates between lavender ({{color|#9C6CFB ●|#9C6CFB}}) and pink ({{color|#FF6CFB ●|#FF6CFB}}) colors.
+
+== Trivia ==
+*The weapon's Beam projectile path follows the mathematical sign [[Wikipedia:Infinity symbol|Infinity]] (∞), which fits with the weapon's 'Endless' theme.
+**The infinity sign (among other 8 and ∞ shaped curves) is a shape called a [[Wikipedia:lemniscate|Lemniscate]].
+*The tooltip on how the book has pictures of ponies in it is a reference to ''[[wikipedia:My Little Pony: Friendship Is Magic|My Little Pony: Friendship Is Magic]]'', a show the dedicatee is a fan of.
+**The Unicorn Horns in the recipe reference this as well.
+*This weapon actually has a unique rarity, but is referred to here as Hot Pink for consistency between weapons.
+**This unique rarity alternates between grey ({{color|#BCC0C1 ●|#BCC0C1}}), purple ({{color|#9D64B7 ●|#9D64B7}}), orange ({{color|#F9A64D ●|#F9A64D}}), pink ({{color|#FF69EA ●|#FF69EA}}), sky blue ({{color|#43CCDB ●|#43CCDB}}), yellow ({{color|#F9F563 ●|#F9F563}}), and pale purple ({{color|#ECA8F7 ●|#ECA8F7}}).
+***These colors are references to the main cast of ''My Little Pony: Friendship Is Magic'': Rarity, Twilight Sparkle, Applejack, Pinkie Pie, Rainbow Dash, Fluttershy, and Starlight Glimmer, respectively.
+
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

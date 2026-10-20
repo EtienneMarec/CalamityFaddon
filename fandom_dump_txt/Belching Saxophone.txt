@@ -1,0 +1,63 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 32
+| knockback = 2
+| mana = 10
+| use = 24
+| velocity = 20
+| tooltip = Doot<br/>Fires an array of dirty reeds, music notes, and sulphuric bubbles
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| debuffduration =3 seconds (Reed, Bubble)
+| debuff2 = Venom
+| debufftip2 = Losing life
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Mist)
+| stack = 1
+| auto = yes
+| rare = 5
+| sell = {{value|0|7|20}}
+| element1 = Poison
+| element2 = Acid
+| element3 = Radioactive
+| element4 = Water
+}}
+|{{item drops infobox
+| [[Belching Coral]] | 1 | 10%
+}}
+}}
+
+The '''Belching Saxophone''' is a Pre-hardmode [[magic weapon]] that drops from [[Belching Coral]]s. When used, it fires two volleys of projectiles, including a dirty reed and one of two possible additional projectiles with varying effects.
+
+{{Modifier|magic}}
+
+== Projectile Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Type !! colspan=2 | Description
+|-
+| align="center" | {{item|Dirty Reed|mode=table|nolink=y}}
+| align=center | Guaranteed to fire. They are affected by gravity, do not pierce, and inflict the [[Irradiated]] [[debuff]].
+|-
+| align="center" | {{item|image=Note 3.png|mode=table|nolink=y|Music Note}}
+| align=center | Can occasionally fire towards the player’s cursor, and are functionally identical to the ones fired by the [[Magical Harp]].
+|-
+| align="center" | {{item|image=Sulphuric Bubble (Belching Saxophone).gif|nolink=yes|mode=table|Sulphuric Bubble}}
+| align=center | Sticks to enemies and causes {{item|image=Sulphuric Mist (Belching Saxophone).gif|nolink=yes|mode=image|Sulphuric Mist}} Sulphuric Mists to erupt.
+|}
+
+== Notes ==
+*This weapon can also be obtained from the [[Abyssal Crate]] after completing Tier 2 [[Acid Rain]].
+
+== Trivia ==
+*The Belching Saxophone originated from a joke about one of Belching Coral's gores resembling a Saxophone.
+*"Doot" commonly refers to the sound that brass instruments, such as trumpets, make.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}

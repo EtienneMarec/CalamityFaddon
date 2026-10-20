@@ -1,0 +1,121 @@
+{{item infobox
+| name = Bars
+| imagealt = [[File:Victide Bar.png|Inventory icon]] [[File:Aerialite Bar.png|Inventory icon]] [[File:Alloy Bar.png|Inventory icon]] [[File:Shatterite Bar.png|Inventory icon]] [[File:Cryonic Bar.png|Inventory icon]] [[File:Perennial Bar.png|Inventory icon]] [[File:Scoria Bar.png|Inventory icon]] [[File:Apocalyptic Bar.png|Inventory icon]] [[File:Verdantium Bar.png|Inventory icon]] [[File:Clockwork Bar.png|Inventory icon]] [[File:Essential Essence Bar.png|Inventory icon]] [[File:Meld Bar.png|Inventory icon]] [[File:Astral Bar.png|Inventory icon]] [[File:Elemental Bar.png|Inventory icon]] [[File:Divine Bar.png|Inventory icon]] [[File:Tarragon Bar.png|Inventory icon]] [[File:Bloodstone Bar.png|Inventory icon]] [[File:Twisted Netherite Bar.png|Inventory icon]] [[File:Haunted Bar.png|Inventory icon]] [[File:Cosmilite Bar.png|Inventory icon]] [[File:Yharim Bar.png|Inventory icon]] [[File:Omnicidal Sludge Bar.png|Inventory icon]] [[File:Auric Bar.png|Inventory icon]] [[File:Flahium Bar.png|Inventory icon]] [[File:Shadowspec Bar.png|Inventory icon]] [[File:Entropic Bar.png|Inventory icon]] [[File:Esseric Bar.png|Inventory icon]] [[File:Stiriatic Bar.png|Inventory icon]] [[File:Natrisodic Alloy.png|Inventory icon]]<br/>[[File:Placed Calamity Bars.png|Placed bars]]
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| placeable = yes
+| width = 1
+| height = 1
+| use = 14
+| auto = yes
+| stack = 9999
+| consumable = yes
+| cargo = no
+}}
+
+'''Bars''' are [[crafting materials]] generally crafted from mined [[ores]] at a Furnace. Crafting most ore-related items requires that raw ores are first crafted into bars.
+
+The Calamity Mod currently adds an unknowable number of ({{fantag|Calamity: Community Remix}} 18) different bar types. Obtaining many of these only requires their respective ores as crafting ingredients. [[Astral Bar|Astral]], [[Auric Bar|Auric Tesla]], and [[Victide Bar]]s are exceptions that require secondary materials in addition. [[Cosmilite Bar]]s are not crafted but are instead dropped by [[The Devourer of Gods]] respectively. Some bars may also be obtained from [[crates]] after a certain boss is defeated.
+
+__FORCETOC__
+{{-}}
+{| class="terraria" style="text-align:center; float:right;margin:0 0 1em 1em;"
+! Bar || Rarity || Sell price
+|-
+|style="text-align:left;"|{{item|Victide Bar}}||[[File:Rarity color 2.png|Rarity Level: 2|link=Rarity]]||{{value|0|0|6|0}}
+|-
+|style="text-align:left;"|{{item|Aerialite Bar}}||[[File:Rarity color 3.png|Rarity Level: 3|link=Rarity]]||{{value|0|0|30|0}}
+|-
+|style="text-align:left;"|{{item|Alloy Bar}}||[[File:Rarity color 3.png|Rarity Level: 3|link=Rarity]]||{{value|0|50|0|0}}
+|-
+|style="text-align:left;"|{{item|Shatterite Bar}}||[[File:Rarity color 5.png|Rarity Level: 5|link=Rarity]]||{{value|0|2|50|0}}
+|-
+|style="text-align:left;"|{{item|Cryonic Bar}}||[[File:Rarity color 5.png|Rarity Level: 5|link=Rarity]]|||{{value|0|0|60|0}}
+|-
+|style="text-align:left;"|{{item|Perennial Bar}}||[[File:Rarity color 7.png|Rarity Level: 7|link=Rarity]]|||{{value|0|1|0|0}}
+|-
+|style="text-align:left;"|{{item|Abyss Bar}}||[[File:Rarity color 8.png|Rarity Level: 8|link=Rarity]]|||{{value|0|1|20|0}}
+|-
+|style="text-align:left;"|{{item|Verdantium Bar}}||[[File:Rarity color 7.png|Rarity Level: 8|link=Rarity]]|||{{value|0|1|20|0}}
+|-
+|style="text-align:left;"|{{item|Clockwork Bar}}||[[File:Rarity color 8.png|Rarity Level: 8|link=Rarity]]|||{{value|0|16|0}}
+|-
+|style="text-align:left;"|{{item|Elemental Bar}}||[[File:Rarity color 9.png|Rarity Level: 9|link=Rarity]]|||{{value|0|1|20|0}}
+|-
+|style="text-align:left;"|{{item|Apocalyptic Bar}}||[[File:Rarity color 7.png|Rarity Level: 8|link=Rarity]]|||{{value|0|2|0|0}}
+|-
+|style="text-align:left;"|{{item|Meld Bar}}||[[File:Rarity color 9.png|Rarity Level: 8|link=Rarity]]|||{{value|0|2|0|0}}
+|-
+|style="text-align:left;"|{{item|Astral Bar}}||[[File:Rarity color 9.png|Rarity Level: 9|link=Rarity]]|||{{value|0|1|20|0}}
+|-
+|style="text-align:left;"|{{Item|Essential Essence Bar|ext=gif}}||[[File:Rarity color 6.png]]|||{{value|0|0|80|0}}
+|-
+|style="text-align:left;"|{{item|Bloodstone Bar}}||[[File:Rarity color 12.png|Rarity Level: 12|link=Rarity]]|||{{value|0|3|0|0}}
+|-
+|style="text-align:left;"|{{item|Divine Bar}}||[[File:Rarity color 12.png|Rarity Level: 12|link=Rarity]]|||{{value|0|3|0|0}}
+|-
+|style="text-align:left;"|{{item|Tarragon Bar}}||[[File:Rarity color 12.png|Rarity Level: 12|link=Rarity]]|||{{value|0|3|0|0}}
+|-
+|style="text-align:left;"|{{item|Twisted Netherite Bar}}||[[File:Rarity color 13.png|Rarity Level: 12|link=Rarity]]|||{{value|0|10|0|0}}
+|-
+|style="text-align:left;"|{{Item|Haunted Bar|ext=gif}}||[[File:Rarity color 13.png]]|||{{value|0|15|20|0}}
+|-
+|style="text-align:left;"|{{item|Cosmilite Bar|ext=gif}}||[[File:Rarity color 14.png|Rarity Level: 14|link=Rarity]]|||{{value|0|20|0|0}}
+|-
+|style="text-align:left;"|{{item|Yharim Bar}}||[[File:Rarity color 14.png|Rarity Level: 14|link=Rarity]]|||{{value|0|20|0|0}}
+|-
+|style="text-align:left;"|{{item|Omnicidal Sludge Bar}}||[[File:Rarity color 14.png|Rarity Level: 14|link=Rarity]]|||{{value|0|50|0|0}}
+|-
+|style="text-align:left;"|{{item|Auric Bar|ext=gif}}||[[File:Rarity color 15.png|Rarity Level: 15|link=Rarity]]|||{{value|0|60|0|0}}
+|-
+|style="text-align:left;"|{{item|Flahium Bar}}||[[File:Rarity color 15.png|Rarity Level: 15|link=Rarity]]|||{{value|2|50|0|0}}
+|-
+|style="text-align:left;"|{{item|Shadowspec Bar|ext=gif}}||[[File:Rarity color 15.png|Rarity Level: 15|link=Rarity]]|||{{value|0|85|0|0}}
+|-
+|style="text-align:left;"|{{item|Entropic Bar}}||[[File:Rarity color 16.png|Rarity Level: 16|link=Rarity]]|||{{value|0|0|0|0|1|1}}
+|-
+|style="text-align:left;"|{{item|Esseric Bar}}||[[File:Rarity color C1.png|Rarity Level: 15|link=Rarity]]|||{{value|0|10|0|0}}
+|-
+|style="text-align:left;"|{{item|Stiriatic Bar|ext=gif}}||[[File:Rarity color C2.png|Rarity Level: 15|link=Rarity]]|||{{value|1|0|0|0}}
+|-
+|style="text-align:left;"|{{item|Natrisodic Alloy|ext=gif}}||[[File:Rarity color C2.png|Rarity Level: 15|link=Rarity]]|||{{value|10|0|0|0}}
+|}
+
+== Types ==
+{{recipes|result=LIKE %Bar
+|extrow-1-col-result={{item|Yharim Bar}}
+|extrow-1-col-ingredients={{item|The Devourer of Gods|image=Devourer of Gods final head map.png}} ''or'' {{item|Jungle Dragon, Yharon|image=Yharon map.png}} <br/> ''or'' {{item|The Fabricational Quartet|image=Ares map.png}} ''or'' {{item|XP-00 Hypnos|image=XP-00 Hypnos map.png}} ''or'' {{item|Supreme Calamitas|image=Supreme Calamitas map.png}}
+|extrow-1-col-station={{na}}
+|extrow-2-col-result={{item|Divine Bar}}
+|extrow-2-col-ingredients={{item|Starborn Princess|image=Celestialmap.png}}
+|extrow-2-col-station={{na}}
+|extrow-3-col-result={{item|Natrisodic Alloy}}
+|extrow-3-col-ingredients=see page
+|extrow-3-col-station={{item|Aquatic Hypercomputer Finished}}
+|extrow-4-col-result={{item|Entropic Bar}}
+|extrow-4-col-ingredients={{item|Purgatory Arbiter, Umbrus|image=Purgatory Arbiter, Umbrus map.png}}
+|extrow-4-col-station={{na}}
+}}
+
+== Trivia ==
+*[[Victide Bar]]s are the only bars that are not placeable.
+*[[Cosmilite Bar]]s are the only bars that are exclusively obtainable from bosses.
+**[[Perennial Bar]]s, [[Scoria Bar]]s, and [[Cryonic Bar]]s can also be obtained from [[Ravager]].
+**{{fantag|Calamity: Community Remix}} [[Yharim Bar]]s are exclusively obtained by several lategame bosses. 
+**[[Divine Bar]]s are the only bar that can only be obtained from [[Town NPCs]].
+*[[Natrisodic Alloy]]s are the only bars that arent named bars, they are counted as bars because of their sprite.
+== See Also ==
+*[[tgc:Bars|Bars]] on the vanilla wiki.
+
+{{Master Template Consumables
+|show-main=yes
+|show-ore=yes
+}}
+{{Master Template Tiles
+|show-main = yes
+|show-blocks = yes
+}}
+
+[[Category:Crafting material items]]
+[[Category:Bar items|*]]

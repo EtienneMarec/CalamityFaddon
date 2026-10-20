@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 150
+| use = 50
+| knockback = 10
+| velocity = 18
+| rare = 5
+| sell = {{value|0|7|20|0}}
+| stack = 1
+| auto = yes
+| tooltip = Launches a huge clam that stuns enemies for a short amount of time<br/>Starts being affected by gravity and does much more damage after being airborne for a while
+| debuff = Eutrophication
+| debufftip = Excessive nutrients restrict your movement
+| debuffduration = 1-2 seconds
+| debuffchance = 100%
+| hardmode = yes
+| proj = Clam Crusher Flail.png
+| projcaption = Clam Crusher
+| element1 = Cold
+| element2 = Smash
+}}
+|{{item drops infobox
+|[[Giant Clam]] (In [[Hardmode]])|1|25.0%
+}}
+}}
+The '''Clam Crusher''' is a [[Hardmode]] [[flail]] that is dropped by the [[Giant Clam]] [[mini boss]] in the [[Sunken Sea]]. It throws out a giant gravity-affected clam that will inflict the [[Eutrophication]] [[debuff]] onto [[enemies]]. The Clam will deal 4x as much damage if it is first fired into the air, then falls and lands onto an enemy. Once the clam hits a block or an enemy, it will retract back to the player.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Clam Crusher can additionally be obtained from [[Sunken Crate]]s at a 7% drop chance in Hardmode after the Giant Clam has been defeated.
+*The stun effect will not apply if any [[bosses]] are alive.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Flails]]

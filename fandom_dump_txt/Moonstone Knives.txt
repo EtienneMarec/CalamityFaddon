@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 3
+| mana = 5
+| auto = yes
+| use = 15
+| knockback = 2
+| tooltip = Throws several knives that restore the users mana
+| velocity = 13
+| stack = 1
+| rare = 2
+| sell = {{value|0|0|40}}
+| proj = Moonstone Knife.png
+| projcaption = Moonstone Knife
+| element1 = Magic
+| element2 = Stab
+}}
+
+The '''Mooonstone Knives''' is a craftable [[Pre-Hardmode]] [[magic weapon]] and are the counterpart to the [[Monstrous Knives]]. When used, the player throws 4-5 knives in quick succession. Each knife will restore 3 mana on hit. The knives shatter after a short distance.
+
+{{modifier|magicalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}

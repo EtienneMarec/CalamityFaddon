@@ -1,0 +1,33 @@
+{{item infobox
+| type = Ammunition
+| tooltip = Explodes and splits into homing terra shards on death
+| damage = 9
+| damagetype = ranged
+| stack = 9999
+| consumable = yes
+| knockback = 1.25
+| sell = {{value|0|0|4|0}}
+| hardmode = yes
+| rare = 7
+| velocity = 10
+| velocitymult = 4
+| proj = Terra Bullet (projectile).png
+| projcaption = Terra Bullet
+}}
+
+'''Terra Bullets''' are a [[Hardmode]] [[bullet]] type. Upon impact with blocks or an enemy, they will split into 2-4 terra shards which home in on enemies. The resulting bullets deal 30% the damage of the main bullet.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Tips ==
+*Despite having low base damage, Terra Bullets can have an incredibly high DPS when used with a gun that has a high enough base damage, even surpassing Godseeker Mode bullets in many cases.
+
+{{-}}
+{{Terra}}
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Bullets]]

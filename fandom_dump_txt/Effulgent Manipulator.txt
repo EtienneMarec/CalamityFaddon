@@ -1,0 +1,32 @@
+{{item infobox
+| type = Furniture
+| type2 = Crafting station
+| type3 = Light Source
+| placeable = Yes
+| auto = yes
+| width = 3
+| height = 3
+| stack = 9999
+| use = 14
+| tooltip = Used for special crafting
+| consumable = Yes
+| rare = 0
+| color = #BF8E6F
+| sell = No value
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Effulgent Manipulator''' is a Godseeker Mode [[crafting station]] used to craft the [[Furniture sets|Silva furniture set]] themed around Silva. It also counts as a [[basin]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used to craft ===
+{{ajax|Recipes/Effulgent Manipulator|width=40%}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:闪耀操纵机]]

@@ -1,0 +1,60 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 640
+| velocity = 0
+| knockback = 4
+| rare = 15
+| sell = {{value|1}}
+| stack = 1
+| use = 8
+| auto = yes
+| tooltip = Inundatio ex Terminus<br/>Summons a ball of exo energy on your cursor that sprays out a large amount of projectiles relative to your position
+| hardmode = yes
+| postml = yes
+| element1 = Cold
+| element2 = Magic
+| element3 = Holy
+| element4 = Machine
+}}
+
+The '''Totality Tides''' is a craftable Godseeker Mode [[melee weapon]]. When used, the weapon appears on the user's cursor and fires an assortement of exo projectiles in the direction that the ball is relative to the player. For example, if the player's cursor is to the right of the player, the ball will fire its slew of projectiles right. Perfectly centering the ball on the player's center will cause it to deal 200% more damage and spray projectiles in random directions.
+
+{{modifier|meleealt}}
+
+== Projectile Types ==
+{| class="terraria lined"
+|-
+! colspan=2 style="text-align:center" | Type !! Description
+|-
+| {{item|Exobeam|mode=table|nolink=y}}
+| Moves directly forwards and causes an exo explosion on enemy or tile hits.
+|-
+| {{na}}
+| Exo Arrow
+| Quickly homes in on enemies and strikes exo lightning downwards.
+|-
+| {{item|Subsuming Vortex Large Vortex|Exo Vortex|mode=table|ext=gif|nolink=y|size=200px}}
+| Slowly homes in on enemies while firing homing exo tentacles outwards.
+|-
+| {{item|Cosmic Energy|Exo Rammer|mode=table|ext=gif|nolink=y}}
+| Charges at enemies while spawning homing exo darts. Can charge three times before expiring.
+|-
+| {{item|Phantom Blade|Exo Scythe|mode=table|nolink=y}}
+| Creates a radial burst of 8 more exo scythes on enemy hits.
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*'Inundatio ex Terminus' is Latin, and roughly translates to "Flood of The End".
+
+{{-}}
+{{Exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}

@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 56
+| use = 14
+| mana = 10
+| knockback = 2
+| damagetype = Summon
+| rare = 12
+| tooltip = Summons a holy blade to fight for you
+| buff = Dazzling Stabber (buff) | bufflink= no
+| bufftip = En garde
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffduration = 3 seconds (Holy Blade)<br/>1 second (Homing Blade)
+| debuffchance = 100%
+| sell = {{value|0|24}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| element1 = Holy
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Providence, the Profaned Goddess]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Holy Blade|type=minion}}
+
+The '''Dazzling Stabber Staff''' is a Godseeker Mode [[summon weapon]] that drops from [[Providence, the Profaned Goddess]]. It summons Holy Blade minions that rally in a cone-formation above the player’s head. When enemies are nearby, the blades will dash into enemies and move in an ellipse between hits while leaving behind a purely visual glowing trail.
+
+{{Modifier|summon}}
+
+== Notes ==
+*[[Storm Weaver]] takes only 50% damage from the Dazzling Stabber Staff.
+
+== Trivia ==
+*"En garde" is French for "On [your] guard", originally used as a warning term in the sport of [[wikipedia:fencing|fencing]].
+[[File:Dazzling Stabber (demo).gif|thumb|left|x431px|The Dazzling Stabber being used on a [[Super Dummy]] and several [[Target Dummy|Target Dummies]]]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

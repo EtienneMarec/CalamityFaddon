@@ -1,0 +1,19 @@
+{{death mode only}}
+{{historical content}}
+{{buff infobox
+| type = Debuff
+| effects = Slow down the player over time
+| tooltip = The weather slows your movement as you freeze to death. You need to look for equipment to protect you from the cold.
+| listexclude = yes
+}}
+
+'''Freezing Weather''' was a [[debuff]] caused by being in a [[blizzard]] in [[Death Mode]] without any form of [[Death Mode#Temperature Protective Gear|Cold Protection]]. It reduced the player's movement speed and acceleration by 0.0167% every second the player was active with this debuff. After 30 seconds, the player would be inflicted with the [[Frozen]] debuff, and would be killed 3 seconds later.
+
+The timer raised twice as fast while the player contacted [[water]]. The debuff was removed as soon as the player exited the [[Snow biome]] or obtained Cold Immunity. However, the decreased movement speed would slowly be removed over time rather than instantly.
+
+{{-}}
+{{historical}}
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

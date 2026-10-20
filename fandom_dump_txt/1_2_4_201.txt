@@ -1,0 +1,233 @@
+{{Patch infobox
+| image = The Devourer of Gods (Final Phase) (1.2.3.007).png
+| size = 400px
+| patchname = Update 1.2.4.201
+| release = 1/19/2018
+}}
+
+The '''1.2.4.201''' update added the [[Evil Island]] and [[Ice Tomb]] structures. It also changed the health values of most of the mod's [[enemies]] and made some changes to [[The Devourer of Gods]].
+{{toc limit|3|right=yes}}
+== Additions ==
+*Added [[Evil Island]] and [[Ice Tomb]].
+
+== Changes ==
+=== Bosses ===
+==== [[Astrum Deus]] ====
+*Increased spectral worm's speed.
+*Decreased laser spread of small worms. 
+*The small worms no longer count as bosses. 
+*Now spawn [[Astrum Deus Probe]]s at a 4% chance when hit if there are no more than 5 active. 
+*Changed free Astrum Deus Probe damage from {{dv|100|140}} to {{dv|80|160}}, and their health from {{dv|2500|3500}} to {{dv|2000|4000}}. 
+
+==== [[Bumblebirb]] ====
+*Nerfed clone's health from {{dv|50,000|75,000}} to {{dv|35,000|70,000}}, and its damage from {{dv|300|450}} to {{dv|200|400}}.
+
+==== [[Brimstone Elemental]] ====
+*Now takes up 64 NPC slots instead of 32.
+*Now teleports more slowly. 
+*Now only spawns dust when not teleporting.
+
+==== [[Ceaseless Void]] ====
+*Lowered the time it takes for it to despawn when it has no target.
+*Nerfed [[Dark Energy]] health from {{dv|28,000|44,800}} to {{dv|22,000|44,000}}, and changed their damage from {{dv|190|304}} to {{dv|160|320}}.
+*Dark Energies no longer emit dust when hit. 
+
+==== [[Crabulon]] ====
+*Nerfed [[Crab Shroom]] health from {{dv|80|112}} to {{dv|25|50}}, and changed their damage from {{dv|35|49}} to {{dv|25|50}}.
+
+==== [[Calamitas]] ====
+*Lowered the amount of lasers and fireballs Calamitas fires in [[Death Mode]].
+*Changed Cataclysm's base health from {{dv|3500|5600|8800|17,600}} to {{dv|3000|6000|9000|18,000}}, and nerfed his base contact damage from {{dv|88|140}} to {{dv|70|140}}.
+*Changed Catastrophe's base health from {{dv|3000|4000|7680|16,000}} to {{dv|2500|5000|7600|16,000}}, and nerfed his base contact damage from {{dv|100|160}} to {{dv|80|160}}.
+*Nerfed [[Soul Seeker]] health from {{dv|7500|10,500}} to {{dv|5000|10,000}}, but buffed their contact damage from {{dv|60|84}} to {{dv|60|120}}.
+*Nerfed [[Life Seeker]] health from {{dv|300|420}} to {{dv|200|400}}, and changed their contact damage from {{dv|45|63}} to {{dv|35|70}}.
+
+==== [[Cryogen]] ====
+*Buffed contact damage from {{dv|50|80}} to {{dv|60|96}}.
+*Now has 10 defense.
+*Can no longer fire projectiles unless fully opaque.
+*Now teleports more slowly. 
+*Now shoots ice blasts more often.
+*No longer gains additional damage and defense based on its remaining health.
+*Nerfed [[Aurora Spirit]] health from {{dv|360|504}} to {{dv|220|440}}, and changed their damage from {{dv|70|98}} to {{dv|60|120}}. 
+*Nerfed Cryocore variant 1's health from {{dv|400|560}} to {{dv|220|440}}, and changed its damage from {{dv|55|77}} to {{dv|40|80}}.
+*Nerfed Cryocore variant 2's health from {{dv|500|700}} to {{dv|300|600}}, and changed its damage from {{dv|65|91}} to {{dv|55|110}}.
+
+==== [[Desert Scourge]] ====
+*The smaller Desert Scourges no longer count as bosses. 
+*[[Dried Seeker]] changes:
+**Pre-[[Skeletron]]:
+***Buffed health from {{dv|100|140}} to {{dv|100|200}}.
+***Buffed head damage from {{dv|23|32}} to {{dv|23|46}}.
+***Buffed body damage  from {{dv|9|12}} to {{dv|9|18}}.
+***Buffed tail damage from {{dv|5|7}} to {{dv|5|10}}.  
+**Post-Skeletron:
+***Buffed health from {{dv|500|540}} to {{dv|500|600}}.
+***Buffed head damage from {{dv|35|49}} to {{dv|35|70}}.
+***Buffed body damage from {{dv|18|25}} to {{dv|18|36}}.
+***Buffed tail damage from {{dv|10|14}} to {{dv|10|20}}.
+
+==== [[The Destroyer]] ====
+*Now shoots lasers more often in Revengeance Mode.
+*Movement speed and laser speed are now faster in Revengeance Mode.
+*Rain projectiles such as those from [[Nimbus Rod]] and [[Shaderain Staff]] now deal 35% damage to its body segments instead of 65%.
+
+==== [[The Devourer of Gods]] ====
+*Segments no longer turn transparent after taking enough damage.
+*Now occasionally teleports in phase 2 when under 60% health.
+*Phase 2 no longer spawns the [[Devourer of Thots]].
+*Devourer of Thots changes:
+**Now invincible and harmless for 3 seconds after spawning.
+**Changed health from {{dv|120,000|192,000}} to {{dv|100,000|200,000}}.
+**Nerfed head damage from {{dv|400|640}} to {{dv|300|600}}. 
+**Buffed body damage from {{dv|150|240}} to {{dv|150|300}}.
+**Buffed tail damage from {{dv|100|160}} to {{dv|100|200}}.
+
+==== [[Golem]] ====
+*Now takes up 64 NPC slots.
+
+==== [[The Hive Mind]] ====
+*Can no longer fire projectiles unless fully opaque.
+*Now teleports more slowly. 
+*Changed [[Dank Creeper]] health from {{dv|60|84}} to {{dv|45|90}}, and their damage from {{dv|25|35}} to {{dv|18|36}}. 
+*Nerfed [[Dark Heart]] health from {{dv|100|140}} to {{dv|65|130}}, and their contact damage from {{dv|30|42}} to {{dv|20|40}}.
+*Buffed Hive Blob health from {{dv|50|70}} to {{dv|75|150}}.
+*[[Hive Blob]]s no longer deal contact damage.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Changed Bumblebirb health from {{dv|100,000|150,000}} to {{dv|80,000|160,000}}, and their damage from {{dv|500|750}} to {{dv|400|800}}.
+*Nerfed Projectile Detonating Flame health from {{dv|20,000|28,000}} to {{dv|12,000|24,000}}, but buffed its contact damage from {{dv|150|210}} to {{dv|150|300}}. 
+*Nerfed Melee Detonating Flame health from {{dv|25,000|35,000}} to {{dv|16,000|32,000}}, and changed its damage from {{dv|450|630}} to {{dv|350|700}}.
+
+==== [[The Perforators]] ====
+*The individual Perforators no longer count as bosses, only the Hive does now.
+
+==== [[The Plaguebringer Goliath]] ====
+*Now takes up 64 NPC slots instead of 32.
+*Can now only spawn 1 [[Plaguebringer]] instead of 2.
+*Can now only spawn 3 [[Plague Charger]]s at a time instead of 5.
+*Changed Plague Charger health from {{dv|400|560}} to {{dv|300|600}}, and its contact damage from {{dv|90|126}} to {{dv|80|160}}.
+*Changed large Plague Charger health from {{dv|530|742}} to {{dv|400|800}}, and its contact damage from {{dv|95|133}} to {{dv|90|180}}.
+*Reduced screen shader intensity.
+
+==== [[Providence, the Profaned God]] ====
+*Nerfed offensive guardian's health from {{dv|50,000|70,000}} to {{dv|35,000|70,000}}, and changed its contact damage from {{dv|140|196}} to {{dv|120|240}}.
+*Nerfed defensive guardian's health from {{dv|25,000|35,000}} to {{dv|17,000|34,000}}, but buffed its contact damage from {{dv|100|140}} to {{dv|100|200}}.
+*Changed healer guardian's health from {{dv|20,000|28,000}} to {{dv|15,000|30,000}}, and buffed its contact damage from {{dv|95|133}} to {{dv|100|200}}.
+
+==== [[Ravager]] ====
+*Head and legs now deal {{dv|80|160}} contact damage instead of 0.
+*Pre-Providence:
+**Nerfed head's health from {{dv|25,000|40,000}} to {{dv|20,000|40,000}}.
+**Changed claw health from {{dv|16,000|25,600}} to {{dv|13,000|26,000}}, and their damage from {{dv|93|148}} to {{dv|88|176}}.
+**Changed free claw damage from {{dv|128|179}} to {{dv|100|200}}.
+**Changed leg health from {{dv|16,000|25,600}} to {{dv|13,000|26,000}}.
+*Post-Providence:
+**Nerfed head's health from {{dv|200,000|320,000}} to {{dv|120,000|240,000}}.
+**Changed claw health from {{dv|120,000|192,000}} to {{dv|100,000|200,000}}, and their damage from {{dv|210|336}} to {{dv|200|400}}.
+**Changed free claw damage from {{dv|230|322}} to {{dv|200|400}}.
+**Changed leg health from {{dv|120,000|192,000}} to {{dv|100,000|200,000}}.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Now teleports more slowly.
+*Nerfed [[Cosmic Lantern]] health from {{dv|150|210}} to {{dv|100|200}}, and changed its damage from {{dv|230|322}} to {{dv|200|400}}.
+*Cosmic Lanterns are no longer immune to [[Ichor (debuff)|Ichor]].
+
+==== [[Siren and Leviathan]] ====
+*Nerfed The Siren's health in Death Mode from {{death|100,000}} to {{death|76,000}}.
+*Slightly decreased projectile fire rate for The Siren at under 10% health.
+*Changed [[Aquatic Aberration]] health from {{dv|1500|2100||4200}} to {{dv|1100|2200||4000}}, and buffed its damage from {{dv|100|140}} to {{dv|100|200}}.
+*Nerfed [[Parasea]] health from {{dv|1000|1400}} to {{dv|650|1300}}, and changed its damage from {{dv|90|126}} to {{dv|80|160}}.
+
+==== [[The Slime God]] ====
+*The large slimes no longer count as bosses. 
+*Changed Flying [[Corrupt Slime Spawn]]'s health from {{dv|300|420}} to {{dv|220|440}}, and their damage from {{dv|50|70}} to {{dv|40|80}}.
+*Changed Wingless Corrupt Slime Spawn's health from {{dv|120|168}} to {{dv|90|180}}, and their damage from {{dv|50|70}} to {{dv|40|80}}.
+*Nerfed [[Crimson Slime Spawn]]'s health from {{dv|200|280}} to {{dv|130|260}}, and changed their damage from {{dv|50|70}} to {{dv|40|80}}.
+*Nerfed [[Spiked Crimson Slime Spawn]]'s health from {{dv|250|350}} to {{dv|160|320}}, and changed their contact damage from {{dv|50|70}} to {{dv|40|80}}.
+
+==== [[Storm Weaver]] ====
+*Nerfed armored [[Stasis Probe]] health from {{dv|2000|2800}} to {{dv|1200|2400}}, but buffed their contact damage from {{dv|35|49}} to {{dv|85|170}}.
+*Nerfed naked Stasis Probe health from {{dv|2500|3500}} to {{dv|1500|3000}}, and changed their contact damage from {{dv|125|175}} to {{dv|100|200}}.
+
+==== [[Supreme Calamitas]] ====
+*Buffed Supreme Cataclysm and Supreme Catastrophe's healths from {{dv|300,000|480,000|560,000|800,000}} to {{dv|300,000|600,000|700,000|1,000,000}}.
+*Buffed Soul Seeker health from {{dv|7500|12,000}} to {{dv|10,000|16,000}}.
+
+==== [[Wall of Flesh]] ====
+*Can now drop both the [[Corruption Key]] and [[Crimson Key]] in any world regardless of [[tgc:Evil Biome|World Evil]] instead of only dropping one of them based on World Evil.
+
+=== [[Enemies]] ===
+*Nerfed [[Aero Slime]]'s health from {{dv|120|180}} to {{dv|70|140}}, and its damage from {{dv|45|67}} to {{dv|25|50}}.
+*Nerfed [[Amber Crawler]]'s health from {{dv|130|156}} to {{dv|60|120}}, and changed its damage from {{dv|40|48}} to {{dv|25|50}}.
+*Nerfed [[Amethyst Crawler]]'s health from {{dv|70|84}} to {{dv|40|80}}, and changed its damage from {{dv|22|26}} to {{dv|15|30}}.
+*Changed [[Angry Dog]]'s pre-Cryogen health from {{dv|100|110}} to {{dv|60|120}}, its post-Cryogen health from {{dv|1500|1650}} to {{dv|1000|2000}}, and its damage from {{dv|12|13}} to {{dv|10|20}}.
+*Nerfed Aquatic Aberration's health from {{dv|6000|8400}} to {{dv|4000|8000}}, but buffed its damage from {{dv|110|154}} to {{dv|110|220}}.
+*Buffed [[Armored Digger]]'s health from {{dv|4000|6000}} to {{dv|4000|8000}}, but nerfed its head damage from {{dv|100|170}} to {{dv|70|140}}.
+*Changed [[Blighted Eye]]'s health from {{dv|250|300}} to {{dv|200|400}}, and buffed its damage from {{dv|52|67}} to {{dv|52|104}}.
+*Nerfed [[Bloom Slime]]'s health from {{dv|5000|7500}} to {{dv|3000|6000}}, and its damage from {{dv|215|322}} to {{dv|150|300}}.
+*Changed [[BOHLDOHR]]'s health from {{dv|750|900}} to {{dv|600|1200}}, and nerfed its damage from {{dv|300|510}} to {{dv|250|500}}.
+*Changed [[Calamity Eye]]'s health from {{dv|350|455}} to {{dv|250|500}}, and its damage from {{dv|82|106}} to {{dv|72|144}}.
+*Nerfed [[Chaos Slime]]'s health from {{dv|1000|1500}} to {{dv|700|1400}}, and its damage from {{dv|110|165}} to {{dv|60|160}}.
+*Nerfed [[Charred Slime]]'s health from {{dv|750|1125}} to {{dv|550|1100}}, and its damage from {{dv|80|120}} to {{dv|60|120}}.
+*Changed [[Cloud Elemental]]'s health from {{dv|7000|10,500}} to {{dv|6000|12,000}}, and buffed its contact damage from {{dv|45|67}} to {{dv|50|100}}.
+*Changed [[Cnidrion]]'s health from {{dv|900|1080}} to {{dv|600|1200}}, and nerfed its contact damage from {{dv|35|42}} to {{dv|20|40}}.
+*Nerfed [[Cosmic Elemental]]'s health from {{dv|40|60}} to {{dv|25|50}}, its damage from {{dv|35|42}} to {{dv|20|40}}, and its defense from 15 to 10.
+*Nerfed [[Crimulan Blight Slime]]'s health from {{dv|440|572}} to {{dv|170|340}}, and its damage from {{dv|65|84}} to {{dv|33|66}}.
+*Nerfed [[Cryo Slime]]'s health from {{dv|400|600}} to {{dv|230|460}}, and its damage from {{dv|60|90}} to {{dv|40|80}}.
+*Nerfed [[Crystal Crawler]]'s health from {{dv|600|720}} to {{dv|400|700}}, and changed its damage from {{dv|40|48}} to {{dv|35|70}}.
+*Crystal Crawlers now drop the [[Crystal Blade]] at a 20% chance instead of a 3.33% chance.
+*Nerfed [[Cultist Assassin]]'s health from {{dv|500|800}} to {{dv|400|800}}, and changed its damage from {{dv|100|130}} to {{dv|70|140}}.
+*Changed [[Despair Stone]]'s health from {{dv|500|600}} to {{dv|400|800}}, and buffed its damage from {{dv|70|119}} to {{dv|70|140}}.
+*Changed [[Diamond Crawler]]'s health from {{dv|180|216}} to {{dv|110|220}}, and its damage from {{dv|34|40}} to {{dv|24|48}}.
+*Changed [[Earth Elemental]]'s health from {{dv|4000|4800}} to {{dv|3200|6400}}, and its damage from {{dv|50|65}} to {{dv|40|80}}.
+*Nerfed [[Ebonian Blight Slime]]'s health from {{dv|440|572}} to {{dv|150|300}}, and its damage from {{dv|65|84}} to {{dv|33|66}}.
+*Nerfed [[Emerald Crawler]]'s health from {{dv|130|156}} to {{dv|70|140}}, and changed its damage from {{dv|28|33}} to {{dv|20|40}}.
+*Nerfed [[Heat Spirit]]'s health from {{dv|110|132}} to {{dv|60|120}}, and its damage from {{dv|66|105}} to {{dv|50|100}}.
+*Nerfed [[Ice Clasper]]'s health from {{dv|1200|1680}} to {{dv|800|1600}}, and its damage from {{dv|60|84}} to {{dv|40|80}}.
+*Nerfed [[Irradiated Slime]]'s health from {{dv|8000|12,000}} to {{dv|5000|10,000}}, and buffed its damage from {{dv|1500|2250}} to {{dv|1500|3000}}.
+*Nerfed [[Perennial Slime]]'s health from {{dv|600|900}} to {{dv|400|800}}, and its damage from {{dv|80|120}} to {{dv|60|120}}.
+*Changed [[Phantom Spirit]]'s health from {{dv|3000|3600}} to {{dv|2000|4000}}, and nerfed its damage from {{dv|200|320}} to {{dv|150|300}}.
+*Nerfed [[Pitbull]]'s health from {{dv|130|143}} to {{dv|70|140}}, and its damage from {{dv|30|42}} to {{dv|20|40}}.
+*Nerfed [[Plague Charger]]'s health from {{dv|600|780}} to {{dv|300|600}}, and changed its damage from {{dv|48|52}} to {{dv|42|84}}.
+*Changed Large Plague Charger's health from {{dv|750|975}} to {{dv|600|1200}}, and its damage from {{dv|57|62}} to {{dv|50|100}}.
+*Nerfed [[Plaguebringer]]'s health from {{dv|15,000|21,000||28,000}} to {{dv|8000|16,000||26,000}}, and changed its contact damage from {{dv|130|182}} to {{dv|100|200}}.
+*Nerfed [[Profaned Energy]]'s health from {{dv|10,000|12,000}} to {{dv|6000|12,000}}.
+*Nerfed [[Ruby Crawler]]'s health from {{dv|150|180}} to {{dv|90|180}}, and changed its damage from {{dv|31|37}} to {{dv|23|46}}.
+*Changed [[Sand Tortoise]]'s health from {{dv|630|945}} to {{dv|490|980}}, and buffed its damage from {{dv|90|135}} to {{dv|90|180}}.
+*Nerfed [[Sapphire Crawler]]'s health from {{dv|100|120}} to {{dv|60|120}}, and changed its damage from {{dv|25|30}} to {{dv|18|36}}.
+*Changed [[Scorn Eater]]'s health from {{dv|12,000|14,400}} to {{dv|8000|16,000}}, and its damage from {{dv|140|168}} to {{dv|110|220}}.
+*Changed Normal [[Scryllar]]'s health from {{dv|400|480}} to {{dv|300|600}}, and its damage from {{dv|85|144}} to {{dv|75|150}}.
+*Nerfed [[Shockstorm Shuttle]]'s health from {{dv|250|325}} to {{dv|150|300}}, its contact damage from {{dv|70|105}} to {{dv|50|100}}, and made its laser deal {{dv|80|108}} damage at all points in the game instead of dealing {{dv|100|112}} damage in Pre-Hardmode, {{dv|80|112}} in Hardmode, and {{dv|160|180}} post-Moon Lord.
+*Lowered the speed of Shockstorm Shuttle's lasers.
+*Changed [[Soul Slurper]]'s health from {{dv|300|390}} to {{dv|200|400}}, and its contact damage from {{dv|65|84}} to {{dv|55|110}}.
+*Changed [[Stormlion]]'s health from {{dv|130|156}} to {{dv|80|160}}, and buffed its damage from {{dv|25|25}} to {{dv|25|50}}.
+*Nerfed [[Sun Bat]]'s health from {{dv|250|350}} to {{dv|150|300}}, and changed its damage from {{dv|56|78}} to {{dv|50|100}}.
+*Nerfed [[Topaz Crawler]]'s health from {{dv|50|60}} to {{dv|30|60}}, and changed its damage from {{dv|19|22}} to {{dv|12|24}}.
+*Nerfed [[Wulfrum Drone]]'s health from {{dv|250|350}} to {{dv|150|300}}, and its damage from {{dv|20|28}} to {{dv|10|20}}.
+*Nerfed [[Wulfrum Slime]]'s health from {{dv|35|49}} to {{dv|22|44}}, and its damage from {{dv|13|18}} to {{dv|8|16}}.
+
+=== Items ===
+*[[Silva armor]] pieces now use [[Effulgent Feather]]s in their recipes instead of [[Yharon Soul Fragment]]s.
+*[[Auric Tesla armor]]'s [[Flying Carpet]] now has a unique sprite.
+*Adjusted the recipes of Auric Tesla armor's individual pieces to require less materials:
+**Auric Tesla Helm now requires 10 [[Life Alloy|Bars of Life]], 7 [[Core of Calamity|Cores of Calamity]], 15 [[Darksun Fragment]]s, 100 [[Endothermic Energy]], 5 [[Galactica Singularity|Galactica Singularities]], 100 [[Nightmare Fuel]], and 35 [[Phantoplasm]] instead of 20 Bars of Life, 15 Cores of Calamity, 30 Darksun Fragments, 200 Endothermic Energy, 10 Galactica Singularities, 200 Nightmare Fuel, and 70 Phantoplasm.
+**Auric Tesla Body Armor now requires 20 Bars of Life, 15 Cores of Calamity, 30 Darksun Fragments, 200 Endothermic Energy, 10 Galactica Singularities, 200 Nightmare Fuel, and 70 Phantoplasm instead of 40 Bars of Life, 30 Cores of Calamity, 60 Darksun Fragments, 400 Endothermic Energy, 20 Galactica Singularities, 400 Nightmare Fuel, and 140 Phantoplasm.
+**Auric Tesla Cuisses now require 15 Bars of Life, 10 Cores of Calamity, 20 Darksun Fragments, 150 Endothermic Energy, 7 Galactica Singularities, 150 Nightmare Fuel, and 50 Phantoplasm instead of 30 Bars of Life, 20 Cores of Calamity, 45 Darksun Fragments, 300 Endothermic Energy, 15 Galactica Singularities, 300 Nightmare Fuel, and 105 Phantoplasm.
+*[[Hermes Boots]] can now be crafted with 10 [[Silk]].
+
+== Other ==
+*The [[Adrenaline Meter]] now resets whenever a boss is killed or spawned.
+*[[Brimstone Slag]]'s pickaxe requirement has been lowered from 199 to 189, allowing it to be mined with an [[Adamantite Pickaxe|Adamantite]] or [[Titanium Pickaxe]].
+*Lowered the [[Profaned Crag]]'s spawnrate multiplier.
+*Revengeance Mode now multiplies all damage taken by {{revengeance|15%}} instead of {{revengeance|25%}}.
+*[[Water]] in the [[Snow biome]] now drains the player's breath meter quicker in [[Expert Mode]] instead of inflicting [[Chilled]].
+
+== Fixes ==
+*Fixed Brimstone Elemental, Cryogen, The Hive Mind, and Signus' contact damage going to Normal Mode values after teleporting in Expert Mode.
+*Fixed Ravager's head still drawing on its body after detaching.
+*Fixed an error in [[Revengeance]]'s tooltip where "activate" was spelt as "activae".
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

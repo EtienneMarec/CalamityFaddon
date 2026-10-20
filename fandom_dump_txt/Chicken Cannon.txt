@@ -1,0 +1,46 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 416
+| damagetype = Ranged
+| knockback = 1.5
+| stack = 1
+| auto = yes
+| use = 33
+| rare = 15
+| sell = {{value|0|30}}
+| velocity = 14.5
+| tooltip = Fires chicken flares which create enormous incendiary explosions<br/>Right click to detonate all airborne rockets
+| hardmode = yes
+| postml = yes
+| proj = Chicken Rocket.png
+| projcaption = Chicken Rocket
+| image2 = Chicken Cannon Holdout.gif
+| image2caption = Chicken Cannon
+| element1 = Fire
+| element2 = Holy
+| element3 = Bomb
+}}
+|{{item drops infobox
+| [[Jungle Dragon, Yharon]]|1|{{dv|25%|33.33%}}
+}}
+}}
+The '''Chicken Cannon''' is a Godseeker Mode [[launchers|launcher]] that can be dropped by [[Jungle Dragon, Yharon]]. It rapidly fires chicken rockets that bounce up when hitting the ground, then explode with a very large radius. The explosion lingers for a few seconds and ignores [[immunity frames]]. Right clicking while any rockets are still in the air causes them to instantly explode.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Chicken Cannon's explosions only deal 15% damage to [[Supreme Calamitas]]' Supreme Soul Seekers.
+
+[[File:Chicken Cannon (demo).gif|frame|left|The Chicken Cannon in action. Note its excessively large explosion radius. Additionally note the right click detonating the rocket in midair.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Launchers]]

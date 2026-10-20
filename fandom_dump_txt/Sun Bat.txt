@@ -1,0 +1,32 @@
+{{npc infobox
+| environment = Underground
+| ai = Bat AI
+| damage = {{dv|35|70}}
+| defense = 10
+| knockback = {{dv|35%|41.5%}}
+| life = {{dv|200|400}}
+| money = {{sc|5}}
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| duration = 2 seconds
+| Essence of Sunlight|1|33%
+| immune1 = Kami Flu
+| immune2 = Holy Flames
+| immune3 = On Fire!
+| hardmode = yes
+| type = Flying Enemy
+| banner = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_4.wav
+| vulnerable1 = Machine
+}}
+
+The '''Sun Bat''' is a [[Hardmode]] [[enemy]] found in the [[Underground]] and [[Cavern]] layers. It flies around with the typical [[tgc:AI|bat AI]], but it inflicts the [[Holy Flames]] [[debuff]] on contact, making it dangerous to get hit by. It always emits a bright yellow glow, however, making it easy to spot.
+
+It can drop [[Essence of Sunlight]] when killed, being one of the few non-[[Space]] enemies to do so.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

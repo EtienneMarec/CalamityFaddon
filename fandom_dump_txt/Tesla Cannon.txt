@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = Magic
+| tooltip = Lightweight energy cannon that blasts an intense electrical beam that explodes<br/>Beams can arc to nearby targets<br/>Current Charge: [CHARGE]
+| damage = 1050
+| knockback = 10
+| rare = a
+| sell = {{value|0|28}}
+| use = 90
+| mana = 30
+| velocity = 5
+| hardmode = yes
+| postml = yes
+| element1 = Slash
+| element2 = Electricity
+| element3 = Machine
+}}
+
+The '''Tesla Cannon''' is a Godseeker Mode [[magic gun]]. When fired, a large light-blue beam is fired that creates a large dust explosion when contacting a block or enemy. The beam will arc towards other nearby enemies once contacting an enemy.
+
+The weapon consumes 0.9 units of [[charge]] per use and has a maximum charge of 250.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier5}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The Tesla Cannon is a reference to the [https://fallout.fandom.com/wiki/Tesla_cannon_(Fallout%3A_New_Vegas) weapon of the same name] from ''[[wikipedia:Fallout: New Vegas|Fallout: New Vegas]]'', and uses the same firing sound effect.
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic guns]]

@@ -1,0 +1,55 @@
+{{infobox wrapper
+|{{npc infobox
+| type = Enemy
+| ai = Tempest Toddler AI
+| environment = Desert
+| knockback = 100
+| life = {{dv|3,375|6,750|9,500}}
+| damage = {{element|Unholy}} {{dv|60|100}}
+| defense = 20
+| hardmode = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| Desert Feather|2-4|100%
+| hurt = NPC_Hit_51.wav
+| killed = NPC_Killed_46.wav
+| vulnerable1 = Slash
+| vulnerable2 = Fire
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Poison
+}}
+|{{npc infobox
+| type = Enemy
+| ai = DTempest Toddler AI
+| namesub = Boss Servant
+| knockback = 100
+| life = {{dv|3,375|6,750|9,500}}
+| damage = {{element|Unholy}} {{dv|60|100|110|116}}
+| defense = 20
+| hardmode = yes
+| postml = yes
+| immune1 = Confused
+| hurt = NPC_Hit_51.wav
+| killed = NPC_Killed_46.wav
+| vulnerable1 = Slash
+| vulnerable2 = Fire
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Poison
+}}
+}}
+
+The '''Tempest Toddler''' is a [[Hardmode]] [[enemy]] that rarely spawns in the [[Surface]] [[Desert]], and [[Underground]] Desert at an even rarer chance. It attacks by accelerating towards the player for a short time, pauses, and repeats. It is summoned by [[The Magnificent Lightning Avian] and is more aggressive during the fight.
+
+== Notes ==
+*Tempest Toddler spawned by The Magnificent Lightning Avian will not drop any [[Desert Feather]]s.
+
+== Trivia ==
+*In previous versions of the mod, the Tempest Toddler was exclusively a [[boss servant]].
+*The Tempest Toddler is referred to as 'BumbleFolly' and 'BumbleFuck2' in the mod's source files; BumbleFolly being a combination of both of the previous names for The  Magnificent Lightning Avian.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

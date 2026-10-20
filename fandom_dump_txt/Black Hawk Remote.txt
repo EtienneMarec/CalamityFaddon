@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 32
+| knockback = 1
+| mana = 10
+| rare = 4
+| stack = 1
+| sell = {{value|0|2|40}}
+| auto = yes
+| use = 24
+| tooltip = Summons a Black Hawk jet to fight for you
+| buff = Black Hawk (buff)| bufflink = no
+| bufftip = The fighter jet will protect you
+| hardmode = yes
+| proj = Black Hawk Bullet.png
+| projcaption = Black Hawk Bullet
+| element1 = Stab
+}}
+|{{item drops infobox
+| [[Wall of Flesh]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Black Hawk|type=minion}}
+
+The '''Black Hawk Remote''' is a [[Hardmode]] [[summon weapon]] dropped by the [[Wall of Flesh]]. It summons a fighter jet which follows the player, and attacks by aiming and firing at enemies. The jets are able to target and fire bullets through blocks.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*This weapon's good dps and ability to fire through blocks make it very useful for early Hardmode.
+
+== Trivia ==
+*This weapon and its minions are likely named after the [[wikipedia:Sikorsky UH-60 Black Hawk|Sikorsky UH-60 Black Hawk]], which is a US military aircraft, although it is a utility helicopter rather than a fighter jet.
+*The Black Hawk Remote was implemented based on a community suggestion made by Aleksh on the mod's Discord server.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

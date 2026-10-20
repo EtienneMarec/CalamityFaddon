@@ -1,0 +1,85 @@
+{{historical content}}
+{{npc infobox
+| type = Burrowing Enemy
+| name = Devourer Spawn
+| ai = Worm AI
+| life = {{dv|20,000|24,000}}
+| knockback = 100
+|boxwidth = 28em
+| hardmode = yes
+| postml = yes
+| immune1 = Cursed Inferno
+| immune2 = On Fire!
+| immune3 = Poisoned
+| immune4 = Brimstone Flames
+| listexclude = yes
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+}}
+
+The '''Devourer Spawn''' was a Godseeker Mode [[Enemies#Boss Servants|boss servant]] [[enemy]] that was spawned during the fight with [[The Devourer of Gods]]. It behaved almost identically to [[Wyvern]]s and spawned periodically as the Devourer of Gods was damaged, in a similar manner to the [[Probe | Probes]] in the [[The Destroyer | Destroyer]] fight.
+
+== Segments ==
+{|
+|- style="vertical-align:bottom"
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Devourer Spawn Head
+| life = {{dv|20,000|24,000}}
+| damage = {{dv|80|136}}
+| defense = 10
+| knockback = 100
+| ai = Worm AI
+| debuff = Chilled
+| debuffchance = 100%
+| duration = {{dv|1.66 seconds|5 seconds}}
+| debufftip = Your movement speed has been reduced
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+}}
+
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Devourer Spawn Body
+| life = {{dv|20,000|24,000}}
+| damage = {{dv|50|85}}
+| defense = 25
+| knockback = 100
+| ai = Worm AI
+| debuff = Chilled
+| debuffchance = 100%
+| duration = {{dv|1.5 seconds|3 seconds}}
+| debufftip = Your movement speed has been reduced
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+}}
+
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Devourer Spawn Tail
+| life = {{dv|20,000|24,000}}
+| damage = {{dv|35|59}}
+| defense = 45
+| knockback = 100
+| ai = Worm AI
+| debuff = Chilled
+| debuffchance = 100%
+| duration = {{dv|1.5 seconds|3 seconds}}
+| debufftip = Your movement speed has been reduced
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+}}
+|}
+
+== Trivia ==
+*The Devourer Spawn shared its sprite with a previous version of the [[Staff of the Mechworm]]'s Mechworm.
+*The Devourer Spawn was a reference to the Mechanical Digger from the [https://forums.terraria.org/index.php?threads/released-wip-terraria-avalon.378/ Avalon Mod].
+{{-}}
+{{Historical}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

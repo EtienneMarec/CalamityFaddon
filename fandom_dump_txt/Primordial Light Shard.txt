@@ -1,0 +1,30 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| image = Primordial Light Shard.png
+| tooltip = A fragment of Zeratros' power, kept by the Tyrant in memory of the light.
+| stack = 9999
+| rare = 15
+| sell = {{value|1|}}
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Godseeker, Yharim]]| {{dv|20-30|30-40}} | 100%
+}}
+}}
+
+'''Primordial Light Shards''' are a Godseeker Mode [[crafting material]] that drop exclusively from the [[Godseeker, Yharim]], and are primarily used to craft [[Shadowspec Bar]]s.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The tooltip for the shards mention Zeratros, the king of dragons before his auric soul was consumed by Xeroc, the first god.
+**The shards also appear to be the last remnants of Zeratros that exist.
+
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

@@ -1,0 +1,21 @@
+{{item infobox
+| type = Potion
+| tooltip = Permanently increases maximum mana by 50
+| stack = 1
+| rare = 10
+|consumable = yes
+| sell = No value
+| use = 30
+| hardmode = yes
+| image2 = etherealcorestars.png
+| image2caption = Stars after using the Ethereal Core
+}}
+The '''Ethereal Core''' is a [[permanent power-up]] item that can only be consumed once, and upon consumption, increases the player's maximum [[mana]] by 50. The item is obtained by right clicking the [[Astral Beacon]] with a [[Bloody Vein]], which will cause the usual [[Astrum Deus]] spawn animation, but the final collision will instead spawn the Ethereal Core. There are 2 other items that function identically to this: the [[Comet Shard]] and the [[Phantom Heart]]. It can only be used once, and after that the player must use one of the remaining items to increase their maximum mana. With all of these, the player's maximum mana is capped at 350.
+
+== See also ==
+*The four items that increase the player's maximum life, as an extension to [[Life Fruit]]s: the [[Sambucus Fruit]], the [[Miracle Fruit]], the [[Hemagrape]], and the [[Dragonfruit]].
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

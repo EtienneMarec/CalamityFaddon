@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 5160
+| use = 50
+| knockback = 10
+| velocity = 18
+| rare = 16
+| sell = {{value|0|30}}
+| stack = 1
+| auto = yes
+| tooltip = Hallucinations of the deep<br/>Enemy hits create a large burst of lingering coral shards<br/>If the flail falls, significantly more shards are created
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Water
+| element2 = Dark
+| element3 = Smash
+}}
+The '''Grand Reef''' is a craftable Epilogue [[flail]] and upgrade to the [[Clam Crusher]]. It throws out a large chunk of [[Voidstone]] which creates a burst of 30-46 dead coral upon enemy or tile hits. The chunk will deal 7x as much damage if it is first fired into the air, then falls and lands onto an enemy. If it hits an enemy or tile this way, the amount of dead coral is increased to 58-72, Once the chunk hits a block or an enemy, it will retract back to the player.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The item's name and tooltip are references to the Grand Reef from ''[[wikipedia:Subnautica|Subnautica]]''.
+{{Subnautical Plate}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Flails]]

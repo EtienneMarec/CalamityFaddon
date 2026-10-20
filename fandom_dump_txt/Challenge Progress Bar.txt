@@ -1,0 +1,31 @@
+{{item infobox
+| name = Challenge Progress Bar
+| imagealt = [[File:Challenge Progress Bar.png]]<br/>An example of a challenge progress bar mid-fight.
+| boxwidth = 37em
+}}
+
+The Calamity Mod adds a '''challenge progress bar''' to the player's interface that can be toggled via [[Configuration options]].
+
+== Features ==
+*Appears in the lower right corner of the screen when either a [[challenge]] or [[mini challenge]] is summoned.
+**Challenges with multiple parts (e.g. [[Moon Lord]]) are factored in and have their own separate bars.
+**Also appears when certain rare vanilla enemies (e.g. [[Mimic|Biome Mimics]]) appear.
+**The challenge progress bar does not show for [[Sulphurous Sea]] or [[Abyss]] mini challenges.
+*Has a progress percentage gauge, a yellow progress bar, and a decorative blue bar separating them.
+**The progress bar turns red as the challenge progresses, with the red disappearing if the challenge hasn't progressed for 0.5 seconds. This is to indicate recent "combo" progress.
+*Small text to the lower right of the bar displays the challenge's total and current progress.
+**Challenges with a high amount of parts, such as [[Eater of Worlds]]' segments, have their remaining number of parts displayed with the small text instead of health.
+**Small text can also be toggled via Configuration options.
+*When opening the [[tgc:Inventory|inventory]] or during [[Invasions]], the bar adjusts to the left to make room for the coverings and equipment tab or invasion progress meter.
+*When a challenge is enraged, the progress bar will glow red.
+
+== Notes ==
+*The challenge progress bar also works with challenges from other Terraria mods, though it may not work as intended.
+*The challenge progress bar will not appear with any NPC with 800 life or less.
+
+== Trivia ==
+*The challenge progress bar was coded by programmer Boffin.
+*[[The Devourer of Gods]]' final form's health was intentionally displayed as 600% in previous versions of the mod, alluding to its increased defense and health.
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

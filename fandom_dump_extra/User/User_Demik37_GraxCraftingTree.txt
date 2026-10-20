@@ -1,0 +1,175 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|SilO1|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|PHFnc|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|Wood1|_|SilB1|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|      T|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|SilO2|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|PHAnv|_|_|_|PHFnc|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|Wood2|_|_|SilAx|_|_|_|SilB2|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|      _|_|      _|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|`|-|-|-|-|+|-|-|-|-|-|'|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|PHAnv|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|LumiO|_|PurPo|_|FelEv|_|PixDt|_|CrySh|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|      _|      _|      _|      _|      _|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|I|_|_|_|`|-|-|-|+|-|-|-|^|-|-|-|'|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|AnMan|_|_|_|_|_|HMAnv|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|LnFrg|_|LumiB|_|EChao|_|AxPur|_|SoulF|_|_|PereO|_|UeliO|_|_|_|_|_|_|_|_|#
+|      _|      _|      _|      _|      _|_|      _|      _|_|_|_|_|_|_|_|#
+|_|`|-|T|-|'|_|_|_|`|-|-|-|+|-|-|-|'|_|_|_|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|#
+|_|_|_|§|_|_|_|_|_|_|_|_|HMAnv|_|_|_|_|_|_|HMFnc|_|HMFnc|_|_|_|_|_|_|_|_|#
+|_|_|LnrHA|_|_|_|_|_|_|_|InfCt|_|_|_|_|_|_|PereB|_|UeliB|_|_|_|_|_|_|_|_|#
+|_|_|      _|_|_|_|_|_|_|      _|_|_|_|_|_|      _|      _|_|_|_|_|_|_|_|#
+|_|_|_|`|-|-|-|-|-|-|-|-|-|+|-|-|-|-|-|-|-|-|^|-|-|-|'|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|Graxx|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+
+<!-- Crafting Stations -->
+
+|PHAnv_cols = 3
+|PHAnv_class = craft-station
+|PHAnv = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|PHFnc_cols = 3
+|PHFnc_class = craft-station
+|PHFnc = {{item|mode=image|Furnace}}
+
+|HMAnv_cols = 3
+|HMAnv_class = craft-station
+|HMAnv = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|HMFnc_cols = 3
+|HMFnc_class = craft-station
+|HMFnc = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+<!-- Main Axes -->
+
+|SilAx_cols = 3
+|SilAx_rows = 2
+|SilAx = {{item|Silver Axe}}
+
+|FelEv_cols = 3
+|FelEv_rows = 2
+|FelEv = {{item|Feller of Evergreens}}
+
+|AxPur_cols = 3
+|AxPur_rows = 2
+|AxPur = {{item|Axe of Purity}}
+
+|InfCt_cols = 3
+|InfCt_rows = 2
+|InfCt = {{item|Inferna Cutter}}
+
+|Graxx_cols = 3
+|Graxx_rows = 2
+|Graxx = {{item|Grax}}
+
+<!-- Crafting Materials -->
+
+|SilO1_cols = 3
+|SilO1_rows = 2
+|SilO1 = {{item|Silver Ore}} x 36<br/>
+<span style="font-size:0.75em">( [[Underground]] / [[Cavern]] )</span>
+
+|SilO2_cols = 3
+|SilO2_rows = 2
+|SilO2 = {{item|Silver Ore}} x 40<br/>
+<span style="font-size:0.75em">( [[Underground]] / [[Cavern]] )</span>
+
+|SilB1_cols = 3
+|SilB1_rows = 2
+|SilB1 = {{item|Silver Bar}} x 9
+
+|SilB2_cols = 3
+|SilB2_rows = 2
+|SilB2 = {{item|Silver Bar}} x 10
+
+|Wood1_cols = 3
+|Wood1_rows = 2
+|Wood1 = {{item|Wood}} x 3
+
+|Wood2_cols = 3
+|Wood2_rows = 2
+|Wood2 = {{item|Wood}} x 15
+
+|PurPo_cols = 3
+|PurPo_rows = 2
+|PurPo = {{item|Purification Powder}} x 20<br/>
+( {{item|mode=image|image=Map Icon Dryad.png|Dryad}} )
+
+|PixDt_cols = 3
+|PixDt_rows = 2
+|PixDt = {{item|Pixie Dust}} x 20<br/>
+( {{item|mode=image|Pixie|size=30px}} )
+
+|CrySh_cols = 3
+|CrySh_rows = 2
+|CrySh = {{item|Crystal Shard}} x 10<br/>
+<span style="font-size:0.75em">( [[Underground Hallow]] )</span>
+
+|EChao_cols = 3
+|EChao_rows = 2
+|EChao = {{item|Essence of Chaos}} x 3<br/>
+<span style="font-size:0.75em">( Fire / Evil-related creatures )</span>
+
+|SoulF_cols = 3
+|SoulF_rows = 2
+|SoulF = {{item|Soul of Fright}} x 8<br/>
+( {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+|LnFrg_cols = 3
+|LnFrg_rows = 2
+|LnFrg = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] x 14<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+|LumiO_cols = 3
+|LumiO_rows = 2
+|LumiO = {{item|Luminite}} x 48<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=20px}} )
+
+|LumiB_cols = 3
+|LumiB_rows = 2
+|LumiB = {{item|Luminite Bar}} x 12
+
+|PereO_cols = 3
+|PereO_rows = 2
+|PereO = {{item|Perennial Ore}} x 25<br/>
+<span style="font-size:0.75em">( [[Cavern]] / {{item|mode=image|Perennial Slime|size=16px}} )</span>
+
+|UeliO_cols = 3
+|UeliO_rows = 2
+|UeliO = {{item|Uelibloom Ore}} x 25<br/>
+<span style="font-size:0.75em">( [[Underground Jungle]] / {{item|mode=image|Bloom Slime|size=16px}} )</span>
+
+|LnrHA_cols = 3
+|LnrHA_rows = 2
+|LnrHA = {{item|Solar Flare Hamaxe|mode=image}} {{item|Vortex Hamaxe|mode=image}} {{item|Nebula Hamaxe|mode=image}} {{item|Stardust Hamaxe|mode=image}} [[Luminite Hamaxes]]
+
+|PereB_cols = 3
+|PereB_rows = 2
+|PereB = {{item|Perennial Bar}} x 5<br/>
+( {{item|mode=image|image=Ravager map.png|Ravager|size=20px}} )
+
+|UeliB_cols = 3
+|UeliB_rows = 2
+|UeliB = {{item|Uelibloom Bar}} x 5
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

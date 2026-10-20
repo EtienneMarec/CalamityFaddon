@@ -1,0 +1,52 @@
+{{dedicated|Krankwagon|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 140
+| mana = 10
+| stack = 1
+| tooltip = WOOO!! FAAAAAAANTASYY WORLDDDDD!<br/>Fires music notes<br/>Right click summons an amplifier that shoots towards your mouse
+| knockback = 5
+| velocity = 20
+| rare = 14
+| sell = {{value|0|28}}
+| use = 10
+| hardmode = yes
+| postml = yes
+| proj = Melter Note Eighth.png
+| projcaption = Beamed Eighth Note
+| proj2 = Melter Note Quarter.png
+| proj2caption = Quarter Note
+| element1 = Fire
+}}
+{{summoned|Amplifier}}
+[[File:Face Melter (demo).gif|framed|right|The Face Melter being fired, and an auto-firing amplifier being summoned.]]
+
+The '''Face Melter''' is a craftable Godseeker Mode [[magic weapon]]. When the primary-fire (left click) is used, streams of two red musical notes are rapidly fired from the player in the cursor's direction. The notes can pierce up to ten enemies, travel through blocks, and linger shortly before disappearing. The darker beamed eighth notes deal 1.5x as much damage while the lighter quarter notes move 1.5x as fast.
+
+When the alternate-fire (right click) is used, an amplifier is summoned at the cursor's position. The amplifier continuously fires streams of notes in the cursor's direction; these notes behave identically to the ones fired by the Face Melter. Only one amplifier can exist at a time; attempting to create another one will despawn the first one.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The primary fire has a fixed use time of 10 ticks, and the secondary fire has a fixed use time of 20 ticks; as a result, no modifier can increase or decrease the firing rate of the weapon.
+
+== Tips ==
+*To maximize this weapon's potential, focus on increasing damage or decreasing mana cost, as its use time cannot be modified.
+*Always have an amplifier deployed, as it effectively doubles the damage output of the weapon for no extra cost.
+*Unless the enemy is exceptionally fast, aim based on the darker eighth notes. They deal the bulk of the weapon's damage, and it is quite likely that the quarter notes will hit as well anyway. 
+
+== Trivia ==
+*This weapon's name, appearance, and function are references to a <span class="plainlinks">[https://enterthegungeon.fandom.com/wiki/Face_Melter weapon of the same name]</span> from ''[[wikipedia:Enter the Gungeon|Enter the Gungeon]]''.
+*The Face Melter's tooltip is a reference to Mr. Torgue in the [https://borderlands.fandom.com/wiki/Tiny_Tina%27s_Assault_on_Dragon_Keep Borderlands 2: Tiny Tina's Assault on Dragon Keep] DLC where he says the same line during the first main mission. This is further reinforced by the fact that the [https://enterthegungeon.fandom.com/Face_Melter Enter the Gungeon Face Melter], which it is based off, also references Mr. Torgue.
+
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category: Magic weapons]]

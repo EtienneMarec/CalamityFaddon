@@ -1,0 +1,93 @@
+<section begin=npc infobox />{{npc infobox
+| name = The Magnificent Lightning Avian
+| type = Boss
+| environment = Jungle
+| ai = The Magnificent Lightning Avian AI
+| life = {{dv|158,500|253,600|304,000}}
+| damage = {{dv|160|256|288|304}} (Contact)<br/>{{dv|120|200|220|232}} (Spark)<br/>{{dv|200|300|332|356}} (Charge)
+| knockback = 100
+| defense = 40
+| dr = 10
+| debuff = Electrified
+| debufftip = You cannot move
+| duration = 1 second (Spark)<br/>2 seconds (Charge)
+| debuffchance = 100%
+| immune1 = Pearl Aura
+| immune2 = Confused
+| vulnerable1 = Magic
+| vulnerable2 = Dark
+| vulnerable3 = Machine
+| resistant1 = Holy
+| resistant2 = Fire
+| resistant3 = Electricity
+| money = {{gc|30}}
+| Effulgent Feather|{{dv|11-17|15-21}}|100%
+| group|One of the following 3 items will always be dropped:|3
+| Rouge Slash|1|{{dv|25%|33.33%}}
+| Gilded Proboscis|1|{{dv|25%|33.33%}}
+| Golden Eagle|1|{{dv|25%|33.33%}}
+| Dynamo Stem Cells|1|100%
+| Folly Feed|1|{{dv|25%|33.33%}}
+| Swordsplosion|1|10%
+| Supreme Healing Potion|5-15|100%
+|Magnificent Lightning Avian Mask|1|14.29%
+|Magnificent Lightning Avian Trophy|1|10%
+| custom| {{item|The Magnificent Lightning Avian (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (The Magnificent Lightning Avian)|Treasure Bag|note=(The Dragonfolly)|wrap=y}}
+: • {{item|Red Lightning Container|note=(In [[Revengeance Mode]] only)|wrap=y}}|{{expert|100%}}
+| image2 = Dragonfolly map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_51.wav
+| killed = NPC_Killed_46.wav
+| sound = Dd2 betsy scream.wav
+| soundtext = Scream
+| sound2 = Item_102.wav
+| sound2text = Spark Spray
+| sound3 = Dd2 betsy fireball shot 0.wav
+| sound3text = Charge
+| hardmode = yes
+| postml = yes
+}}<section end=npc infobox />
+[[File:Dragonfolly Trophy.png|size=25px]] <big>''"A failure of twisted scientific ambition..."''</big> [[File:Dragonfolly Trophy.png|size=25px]]
+
+'''The Magnificent Lightning Avian''' (Japanese: サンダー ''Thunder'') is a [[Hardmode]] [[boss]] fought in the [[Desert]].
+
+It drops [[Effulgent Feather]]s, which are needed to craft the [[Jungle Dragon Egg]], the item that summons [[Jungle Dragon, Yharon]], as well as the [[Silva armor]] set.
+
+== Spawn ==
+The Magnificent Lightning Avian can be spawned by the player by firing [[Exotic Pheromones]] out of a [[Flare Gun]] while in the [[Desert]] during the day.
+
+== Behavior ==
+Upon spawning, the Magnificent Lightning Avian will rain lightning sparks onto the player from above, which are generally easily dodged by moving to one side. Throughout the fight, it will summon Draconic Swarmers and charge at the player.
+
+=== Attacks ===
+*When it first spawns, and throughout the fight, the Magnificent Lightning Avian will cause lightning sparks to rain onto the player from above.
+*It occasionally attempts to zap the player with lightning sparks. These sparks travel from the bird to the player instead of from the sky to the player.
+*It will summon Storm Hatchlings to attack the player like bats.
+*It will hover a fixed difference beside the player, charging after a short delay. Hitting the avian while it's charging will stun it, providing an opportunity to land several more hits on the boss.
+
+== Summons ==
+=== Enemies ===
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align=center | {{item|mode=table|Draconic Swarmer}} || Phase 1 and 2
+|}
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating The Magnificent Lightning Avian, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:The Magnificent Lightning Avian strategies]].}}
+*The Magnificent Lightning Avian is incredibly quick, making high acceleration and max speed a must.
+*Focus on the Magnificent Lightning Avian as much as possible. Defeating the Draconic Swarmers is futile, as more will easily spawn in their place.
+*Circling the Swarmers is an effective way to avoid being hit, as they reduce in speed when changing direction. Make sure to dodge the spars, however, as they can easily swarm the player.
+*Although its summoning item can be crafted after [[Astrum Deus]] or the Solar Pillar is defeated, it is highly recommended that the player waits to fight this boss until after the Moon Lord is defeated, as its extremely high speed and damage can be entirely overwhelming if unprepared.
+
+== Trivia ==
+*The Magnificent Lightning Avian's [[Music|theme]] is [https://www.youtube.com/watch?v=KU7VZRgjYaE '''Murderswarm'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**This theme contains a motif from the Jungle Dragon, Yharon's first phase theme.
+**If the Calamity Music add-on mod is disabled, '''Boss 4''' will play instead.
+*In the mod's source files, it is referred to as "Bumblefuck".
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The failed experiment returns into its reproductive routine...".
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

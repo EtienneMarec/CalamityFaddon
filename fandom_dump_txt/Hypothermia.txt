@@ -1,0 +1,51 @@
+{{item infobox
+| stack = 1
+| auto = yes
+| type = Weapon
+| damage = 200
+| damagetype = Rogue
+| use = 20
+| velocity = 8
+| tooltip = Fires a constant barrage of black ice shards<br/>Stealth strikes hurl a set of razor sharp ice chunks that shatter on impact
+| debuff = Frostburn
+| debuffchance = 100%
+| debuffduration = 2 seconds (black ice shards)<br/>5 seconds (black ice chunk)
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| knockback = 3
+| critical = 20%
+| rare = 14
+| sell = {{value|0|36}}
+| hardmode = yes
+| postml = yes
+| proj = Hypothermia Shard.png
+| projcaption = Ice Shard
+| proj2 = Hypothermia Chunk.png
+| proj2caption = Ice Chunk
+| element1 = Cold
+| element2 = Dark
+| element3 = Stab
+}}
+
+The  '''Hypothermia''' is a craftable Godseeker Mode [[rogue weapon]]. It fires a constant barrage of black ice shards that ricochet off of tiles and inflict [[Frostburn]].
+
+Performing a [[stealth strike]] with the Hypothermia causes it to fire four black ice chunks that deal 130% damage and shatter into additional ice shards.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon has a strange synergy with the [[Venerated Locket]] and [[Dark God's Sheath]], as stealth strikes with Hypothermia cause multiple waves of homing knives to be released.
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+== Trivia ==
+*[[wikipedia:Hypothermia|Hypothermia]] is a condition where the body's core temperature lowers below 35.0 °C.
+*The Hypothermia could be considered a counterpart to the [[Penumbra]] due to their similar recipes.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

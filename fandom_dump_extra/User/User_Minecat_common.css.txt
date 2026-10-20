@@ -1,0 +1,54 @@
+/* CSS placed here will affect users of the 𝓶𝓮𝓶𝓮 skin */
+
+#contentSub:empty {
+    margin: 0 !important;
+}
+
+#mw-page-base {
+    background-position: top left !important;
+}
+
+body, #mw-page-base {
+    background: url("https://i.imgur.com/R9ejVMf.png") no-repeat fixed center top / cover rgb(16,16,16) !important;
+}
+
+#mw-panel {
+    background-color: rgb(16, 16, 16, 0.7);
+    border: 1px solid #101010;
+
+}
+
+html body.theme-fandomdesktop-light{
+	background-image: url("https://i.imgur.com/R9ejVMf.png");
+	background-color: #101010;
+	background-position: center bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+html body.theme-fandomdesktop-dark{
+	background-image: url("https://i.imgur.com/R9ejVMf.png");
+	background-color: #101010;
+	background-position: center bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+body.skin-fandomdesktop {
+
+    background: url('https://i.imgur.com/R9ejVMf.png') center center/auto 100% fixed no-repeat;
+
+}
+
+body.skin-fandomdesktop {
+    background: var(--theme-body-background-image) fixed center 0 / cover
+}
+
+.fandom-community-header__background::before {
+    background-image: none;
+}
+
+.fandom-community-header__background {
+    background: none;
+}

@@ -1,0 +1,57 @@
+{{historical content}}
+{{npc infobox
+| type = Flying Enemy
+| environment = Dungeon
+| ai = Phantom Turret AI
+| listexclude = yes
+| hardmode = yes
+| postml = yes
+| sound = Item_20.wav
+| soundtext = Phantom Bolt
+}}
+
+'''Phantom Turrets''' were Godseeker Mode [[Enemies#Boss Servants|boss servant]] [[enemies]] that used to spawn during the [[Polterghast]] boss fight.
+
+Once spawned, Phantom Turrets would attempt to ram the player while shooting Phantom Bolts. The red variants would fire red Phantom Bolts and moved slightly faster than their blue counterparts.
+
+== Types ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox
+| type = Flying Enemy
+| name = Phantom Turret
+| namesub = Blue
+| image = Phantom_Turret_(Blue).png
+| ai = Phantom Turret AI
+| environment = Dungeon
+| life = 200
+| damage = 100 / {{expert|140}}
+| defense = 50
+| knockback = 0
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+}}
+
+|{{npc infobox
+| type = Flying Enemy
+| name = Phantom Turret
+| namesub = Red
+| image = Phantom_Turret_(Red).png
+| ai = Phantom Turret AI
+| environment = Dungeon
+| life =  200
+| damage = 130 / {{expert|182}}
+| defense = 50
+| knockback = 0
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+}}
+|}
+
+{{Historical}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

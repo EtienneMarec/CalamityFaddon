@@ -1,0 +1,18 @@
+This list is automatically populated by {{tl|info request}}. Purge the page to update this list. 
+{| class="terraria"
+|
+{| class="sortable lined inner"
+! Article !! Requests 
+|-
+{{#dpl:
+| category = Article info requests
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {Info request¦Template:Article info requests/dpl}
+| mode = userformat
+}}
+|}
+|}
+
+__EXPECTUNUSEDCATEGORY__
+[[Category:Things to do]]

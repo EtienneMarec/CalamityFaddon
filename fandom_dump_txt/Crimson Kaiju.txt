@@ -1,0 +1,51 @@
+{{npc infobox
+| type = Enemy
+| environment = Solar Eclipse
+| ai = Same AI as red from the nes game
+| damage = {{dv|0}}
+| life = {{dv|73,000|100,000}}
+| defense = 35
+| money = {{value|0|30|50}}
+| knockback = 100
+| immune1 = Confused
+| immune2 = Eutrophication
+| immune3 = Exo Freeze
+| immune4 = Galvanic Corrosion
+| immune5 = Pearl Aura
+| immune6 = Temporal Sadness
+| immune7 = Time Distortion
+| vulnerable1 = Holy
+| vulnerable2 = Cold
+| vulnerable3 = Stab
+| resistant1 = Unholy
+| resistant2 = Dark
+| resistant3 = Fire
+| Darksun Fragment|35-45| 100%
+| Red Wings|1| 5%
+| hardmode = yes
+| hurt = NPC_Hit_8.wav
+| killed = NPC_Killed_27.wav
+}}
+
+The '''Crimson Kaiju''' is a Godseeker Mode [[mini boss]] that spawns uncommonly during the [[Solar Eclipse]] after [[The Devourer of Gods]] has been defeated. The arrival of the miniboss will be signified by the word "Run" appearing near the top of the players screen. The Crimson Kaiju will run after the player, speeding up if it is too far away. If it manages to catch up to the player, it will stand still and perform a grab attack. Getting caught by the grab will play a short animation of the player being swallowed by the miniboss, killing them instantly. If the player is too high up for the Crimson Kaiju to reach, it will enter its flying form, and fly parallel to the players vertical position. It can move through blocks similarly to the Everscream and Mourning Wood.
+
+Occasionally the Crimson Kaiju will walk backwards out of sight. Once it does this, it will perform one of two attacks:
+
+*It will stand still for a short amount of time, launching its intestine jaw at the player if they approach it.
+*It will teleport to the other side of the player, and stand still for a few seconds, launching its jaw if they get too close.
+
+
+If the player does not get caught by the Crimson Kaiju during this attack, it will give up and continue its chase.
+
+== Notes ==
+*The Crimson Kaiju's teleport can be identified by the screen visually glitching for a moment.
+
+== Trivia ==
+*The Crimson Kaiju is a direct reference to Red, who is the main antagonist of the creepypasta called NES Godzilla.
+**Its attack pattern is very similar to one of Reds bossfights from a playable version of the creepypasta.
+*It seems to follow a trend of Solar Eclipse minibosses being references to famous kaiju.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

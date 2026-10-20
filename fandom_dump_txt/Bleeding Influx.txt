@@ -1,0 +1,33 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 185
+| velocity = 13
+| use = 13
+| knockback = 3.5
+| rare = 4
+| auto = yes
+| sell = {{value|0|10|0}}
+| stack = 1
+| debuff = Hemorrhaging
+| debuffchance = 25%
+| debufftip = You're losing way too much blood
+| debuffduration = 2.5 seconds (Tooth)
+| element1 = Unholy
+| element2 = Slash
+}}
+{{item drops infobox
+| [[Destroyer of Sanity]] | 1 | {{dv|25%|33.33%}}
+}}
+
+The '''Bleeding Influx''' is a [[Pre-Hardmode]] [[Swords|Sword]] that can drop from the [[Destroyer of Sanity]]. When swung, it will fire a red sword projectile that can home into the nearest enemy. Upon making contact with an enemy or another hostile projectiles, it will conjure up to six teeth that can teleport and plunge itself into three nearby enemies, prioritizing the target, while only dealing 85% of the weapon's damage per each occurrence. These teeth can inflict the '''Hemorrhaging''' debuff, making them lose 0.3% of their max health per second.
+
+{{Modifier|melee}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

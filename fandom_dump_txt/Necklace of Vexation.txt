@@ -1,0 +1,38 @@
+{|align=right
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Revenge<br/>20% increased damage when under 50% life<br/>All attacks inflict Cursed Inferno and Venom while wearing Reaver armor
+| stack = 1
+| rare = 7
+| sell = {{value|0|9|60}}
+| hardmode = yes
+| debuff = Cursed Inferno
+| debuffchance = 100%
+| debuffduration = 1.5 seconds
+| debufftip = Losing life<br/>All damage taken increased by 20%
+| debuff2 = Venom
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds
+| debufftip2 = Losing life
+}}
+|}
+
+The '''Necklace of Vexation''' is a craftable [[Hardmode]] [[covering]] that increases damage by 20% when the player has under 50% life. While wearing [[Reaver armor]] with any headpiece, all attacks will inflict the [[Cursed Inferno]] and [[Venom]] [[debuffs]] onto enemies for two seconds.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Vexation is the state of being annoyed, frustrated, or worried.
+{{Perennial}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

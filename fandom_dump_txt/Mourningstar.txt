@@ -1,0 +1,48 @@
+{{item infobox
+|type = Weapon
+|type2 = Crafting material
+| damagetype = Melee
+| damage = 127
+| knockback = 2.5
+| velocity = 24
+| use = 10
+| tooltip = Launches two solar whip swords that explode on hit
+| rare = 12
+| sell = {{value|0|24}}
+| auto = yes
+| stack = 1
+| debuff = Daybroken
+| debufftip = Incinerated by solar rays
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| hardmode = yes
+| postml = yes
+| proj = Mourningstar Flail.png
+| projcaption = Mourningstar
+| element1 = Fire
+| element2 = Holy
+| element3 = Smash
+| element4 = Bomb
+}}
+{{distinguish|Morning Star|a vanilla whip}}
+
+The '''Mourningstar''' is a craftable Godseeker Mode [[flail]] and is the direct upgrade of the [[Solar Eruption]]. Similarly to the Solar Eruption, the Mourningstar fires two solar spear-like projectiles that extend and retract from the player's position, following a narrow arc in the general area of the cursor for the duration of their travel. The flails have infinite piercing capabilities, ignore tiles, and create explosions when hitting enemies. Both the flails and the explosions created inflict the [[Daybroken]] [[debuff]] on hit enemies.
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Mourningstar's name is a pun on the term "[[wikipedia:Morning Star|Morning Star]]", a name given to certain pre-sunrise sky objects or to a type of spiked mace, and the word "mourning", which means to grieve over someone's death.
+**It shares the "morning" and "mourning" pun with [[Mourning Wood]].
+
+{{Master Template Weapons
+|show-main = yes
+|show-melee = yes
+}}
+[[Category: Flails]]

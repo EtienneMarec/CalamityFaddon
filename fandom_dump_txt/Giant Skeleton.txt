@@ -1,0 +1,26 @@
+{{npc infobox
+| environment = Underground
+| ai = Giant Skeleton AI
+| damage = {{element|Poison}} {{dv|200|300}}
+| life = {{dv|2000|4000}}
+| defense = 20
+| immune3 = Kami Flu
+| banner = no
+| money = {{value|0|0|0|5}}
+| hardmode = yes
+| Bone|2-3|100%
+| Leather|1-2|100%
+| hurt = NPC_Hit_2.wav
+| killed = NPC_Hit_2.wav
+| resistant1 = Poison
+}}
+
+The '''Giant Skeleton''' is a [[Hardmode]] [[enemy]] that spawns underground. It flies slowly towards players, passing through blocks to reach them.
+
+Giant Skeletons will only spawn during a rare hardmode event, in which they will swarm the player en-masse for 2-5 minutes. Said event has a 1/750,000 chance to trigger every frame the player spends underground, the chance increasing by 50,000 every 5 minutes spent below surface level. The event will arrive with the message "A terrible chill runs up your spine!".
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

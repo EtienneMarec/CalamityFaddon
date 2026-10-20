@@ -1,0 +1,47 @@
+{{buff infobox
+| type = Debuff
+| effects = Target loses 15 health per second, -15% damage inflicted on enemies, uses 30% more mana and loses 3 minion slots for the duration of the debuff. (if player)<br/>-50 health per second, -15% Damage Reduction. (if enemy)
+| tooltip = Ashes to ashes, bronze to bronze
+}}
+
+'''Embers of Civilization''' is a [[debuff]] inflicted by [[The Wall of Bronze]], the [[Weapons]] it drops, and bronze [[enemies]] in [[Frozen Hell]], {{dei}} as well as enemies and weapons related to the [[Horseslimes of the Goopocalypse]] and armageddon. It causes the player to lose 15 health per second, deal 15% less damage, use 30% more [[Mana]], and lose 3 minion slots while the duration is active. This can despawn active minions, but the count will not be reduced below one.
+
+If the debuff is inflicted onto an enemy, it will lose 50 health per second and 15% damage reduction.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

@@ -1,0 +1,77 @@
+{{patch infobox
+| image = Hive_Mind_map (1.1.5).png
+| patchname = Cryogen and Evils Update
+| release = 8/26/2016
+}}
+
+The '''1.1.5''' update added [[Cryogen]], [[The Hive Mind]], [[The Perforators]], and a large assortment of new [[weapons]] and resprites.
+
+== Additions ==
+*Added Cryogen, The Hive Mind, The Perforators.
+*Added [[Aurora Spirit]], [[Cryocore]], Cryocore (buffed), [[Dank Creeper]], [[Dark Heart]], [[Perforator Mini]].
+*Added [[Accretion Disk]], [[Aorta]], [[Ark of the Elements]], [[Bittercold Staff]], [[Blood Clot Staff]], [[Cosmic Bolter]], [[Cosmic Rainbow]], [[Dank Staff]], [[Effluvium Bow]], [[Elemental Eruption]], [[Elemental Ray]], [[Eviscerator]], [[Firestorm Cannon]], [[Floodtide]], [[Glacial Crusher]], [[Ice Star]], [[Meowthrower]], [[Perfect Dark]], [[Planetary Annihilation]], [[Rot Ball]], [[Shaderain Staff]], [[Shadethrower]], [[Shadowdrop Staff]], [[Snowstorm Staff]], [[Spatial Lance]], [[Spectre Rifle]], [[Sun Spirit Staff]], [[Terra Flameburster]], [[Terra Ray]], [[Tooth Ball]], [[True Ark of the Ancients]], [[Vein Burster]], and [[Warblade]].
+*Added [[Axe of Purity]] and [[Inferna Cutter]].
+*Added [[Bloody Worm Tooth]], [[Rotten Brain]], and [[Soul of Cryogen]].
+*Added [[Blood Clot (buff)|Blood Clot]], [[Burning Blood]], [[Dank Creeper (buff)|Dank Creeper]], [[Reaver Rage]], [[Solar Spirit (buff)]], [[Tarra Life]], [[Xeroc Rage]], and [[Xeroc Wrath]].
+*Added [[Bloody Worm Food]], [[Cryo Key]], and [[Teratoma]].
+*Added [[Blood Sample]], [[Cryo Bar]], [[Galactica Singularity]], and [[True Shadow Scale]].
+
+== Changes ==
+*[[Desert Scourge]] now only has a 4% chance to spawn a tile of [[Water]] upon hit instead of 50%.
+*Decreased the effectiveness of Reaver armor's set bonus' thorns effect by 75%.
+*[[Black Lens]]es can now be crafted with 1 [[Lens]] and 1 [[Black Dye]] at a [[Dye Vat]].
+*Nerfed [[Catastrophe Claymore]]'s damage from 60 to 55, and reduced projectile range.
+*Reworked [[Coral Spout]]'s projectiles to resemble water instead of coral. <!---Visual only--->
+*Buffed [[Exsanguination Lance]]'s shot speed from 5 to 8.
+*[[Frost armor]] can now be crafted:
+**[[Frost Helmet]] can now be crafted with 6 Cryo Bars and 1 [[Frost Core]].
+**[[Frost Breastplate]] can now be crafted with 10 Cryo Bars and 1 Frost Core.
+**[[Frost Leggings]] can now be crafted with 8 Cryo Bars and 1 Frost Core.
+*[[Galactica Blade]] now uses 5 Galactica Singularities in its recipe.
+*[[Gallant Pickaxe]] now uses 1 Galactica Singularity in its recipe.
+*[[Ice Machine]]s and [[Lava Charm]]s can now be crafted with [[Lead Bar]]s instead of just [[Iron Bar]]s.
+*[[Reaver armor]]'s set bonus now grants the Reaver Rage buff when damaged instead of providing [[Titanium armor]]'s shadow dodge effect.
+*[[Tarragon armor]]'s set bonus' [[Heartreach]] and [[Calm]] buffs are now active at all times, and replaced its regeneration boost with the Terra Life buff which activates on enemy hits.
+*[[Xeroc armor]]'s set bonus now grants the Xeroc Rage and Xeroc Wrath buffs when damaged, and spawns different projectiles based on what damage is being inflicted.
+
+=== Resprites ===
+*Resprited [[The Plaguebringer Goliath]] and [[Plaguebringer Shade]].
+*Resprited [[Air Spinner]], [[Fractured Ark|Ark of the Ancients]], [[Baleful Harvester]], [[Bladecrest Oathsword]], [[Chaotrix]], [[Cnidarian]], [[Coral Spout]], [[Exsanguination Lance]], [[Flame Scythe]], [[Forbidden Sun]], [[Galeforce]], [[Gel Dart]], [[Gelitic Blade]], [[The God's Gambit]], [[Goldplume Spear]], [[Goobow]], [[Greatbow of Turmoil]], [[Gunk Shot]], [[Helstorm]], [[Hellfire Flamberge]], [[Overloaded Blaster]], [[Redtide Sword]], [[Seabow]], [[Seashell Boomerang]], [[Starfleet]], [[Tradewinds]], [[Urchin Spear]], and [[Wind Blade]].
+*Resprited [[Aerial Hamaxe]], [[Chaoswarped Slashaxe]], [[Flamebeak Hampick]], [[Gelpick]], [[Greatbay Pickaxe]], [[Reefclaw Hamaxe]], and [[Skyfringe Pickaxe]].
+*Resprited [[Discordian Wings]] and [[Shield of the Ocean]]. 
+*Resprited [[Ataxia Armor]], [[Ataxia Mask]], and [[Ataxia Subligar]].
+*Resprited [[Victide Breastplate]], [[Victide Helmet]], and [[Victide Leggings]]' equipped sprites.
+*Resprited [[Aerialite Ore]] and [[Chaotic Ore]] tiles.
+*Resprited [[Cruptix Bar]] and [[Living Shard]].
+
+== Fixes ==
+*Fixed [[Adamantite Throwing Axe]] not dealing throwing damage.
+*Fixed [[Air Spinner]] not dealing melee damage.
+*Fixed [[Baleful Harvester]]'s flares dealing magic damage instead of melee damage.
+*Fixed [[Blighted Eye Staff]]'s flames and lasers not dealing summon damage.
+*Fixed [[Brimstone Flamesprayer]] not dealing ranged damage.
+*Fixed [[Calamity Ring]]'s fire dealing magic damage.
+*Fixed [[Cobalt Kunai]] not dealing throwing damage.
+*Fixed [[Crystal Piercer]] not dealing throwing damage.
+*Fixed [[Deathwind]]'s lasers not dealing ranged damage.
+*Fixed [[Devastation]]'s comets dealing magic damage instead of melee damage.
+*Fixed [[The Eye of Calamitas]]' lasers not dealing melee damage.
+*Fixed [[Feather Knife]] not dealing throwing damage.
+*Fixed [[Gel Dart]] not dealing throwing damage.
+*Fixed [[Gelitic Blade]]'s wave not dealing melee damage.
+*Fixed [[Hellfire Flamberge]]'s flames dealing magic damage instead of melee damage.
+*Fixed [[Mephetic Sprayer]]'s flames not dealing ranged damage.
+*Fixed [[Monsoon]]'s typhoon arrows and whirlpools not dealing ranged damage.
+*Fixed [[Mythril Knife]] not dealing throwing damage.
+*Fixed [[Orichalcum Spiked Gemstone]] not dealing throwing damage.
+*Fixed [[Overloaded Blaster]]'s projectiles dealing magic damage instead of ranged damage.
+*Fixed [[Palladium Javelin]] not dealing throwing damage.
+*Fixed [[Tarragon Throwing Dart]] not dealing throwing damage.
+*Fixed [[Titanium Shuriken]] not dealing throwing damage.
+*Fixed [[Xeroc Greatsword]]'s plasma balls not dealing melee damage.
+*Fixed [[Xeroc Pitchfork]] not dealing throwing damage.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

@@ -1,0 +1,57 @@
+{{historical content}}
+{{Infobox wrapper
+|{{item infobox
+| type = Tool
+| use = 45
+| rare = 11
+| stack = 1
+| tooltip = Enables/disables Armageddon, can be used in any difficulty mode<br/>While active, any hit while a boss is alive will instantly kill you<br/>If you defeat a boss for the first time with this mode active, they will drop 5 extra treasure bags<br/>These extra bags will drop even if you are not in Expert Mode<br/>Right click with this item to toggle whether your dodges are disabled<br/>Dodges can be disabled independently of whether or not Armageddon is not enabled
+| sell = No value
+}}
+|{{item infobox
+| name = Armageddon Indicator
+| image = Armageddon Icon.png
+| image2 = Armageddon Indicator.png
+| image2caption = The Armageddon Icon as shown in the Difficulity Indicator UI.
+| boxwidth = 210px
+}}
+}}
+
+'''Armageddon''' was an item found within the [[Starter Bag]] that can be activated and deactivated. When active, it had multiple effects on gameplay:
+
+*While a [[boss]] is alive (either from Calamity Mod or vanilla), any damage to the player (such as enemy or projectile contact, fall damage, or [[Grenade]]s) would result in instant death.
+*The player's respawn time was much shorter.
+*Bosses would drop an additional 5 [[Treasure Bag]]s even in Normal Mode if said boss has never been defeated previously in the world.
+
+Right clicking with the item toggled whether or not dodges bypass the mode's instant death effect. 
+
+It could be crafted at an [[Altar]] and does not have any ingredients.
+
+While active, the Armageddon icon would be shown on the bottom-right side of the Difficulty Indicator.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}|historical=only}}
+
+== Notes ==
+*The instant death effect while the item is active bypasses [[Death prevention|revival effects]] from [[God Slayer armor]], [[Silva armor]] and [[Auric Tesla armor]], as well as the [[Invincible]] buff from [[Purified Jam]].
+*Debuffs such as [[Holy Inferno]] will not kill the player instantly. They decrease the health as usual.
+*Attempting to use Armageddon while a boss is alive will have no effect, and display a status message that reads, "You cannot change the rules now."
+*Only bosses from Calamity and Vanilla that drop Treasure Bags normally, are affected by the Armageddon Treasure Bag drop increase.
+*This was the only way to obtain treasure bags in Normal Mode.
+**This allowed the player to obtain Expert Mode exclusive items in Normal Mode.
+*If a boss from a different mod is alive, the insta-kill effect still applies, but no extra treasure bags will be dropped.
+*Killing the [[Wall of Flesh]] with Armageddon enabled would not cause it to drop treasure bags in normal mode, to prevent players from obtaining the [[Demon Heart]].
+
+== Trivia ==
+*Whenever the player dies while under the effects of this item, the [[Death messages|death message]] will always be "<PlayerName> failed the challenge at hand.", regardless of the actual cause of death.
+*This item used a similar palette to the [[Astrageldon Slime]], a removed boss. This is because the boss was a reference to the [https://terrariamods.fandom.com/wiki/Exxo_Avalon/Armageddon_Slime Armageddon Slime] from the [https://forums.terraria.org/index.php?threads/released-wip-terraria-avalon.378/ Exxo Avalon] mod, which this item shares its name with.<!-- This is not a guess. This is the actual reason. -->
+*In previous versions of the mod, bosses used to drop 10 Treasure Bags or 11 in Expert Mode or higher from killing a boss with Armageddon active.
+
+{{Historical}}
+{{Master Template Tools
+|show-main = yes
+|show-other = yes
+}}
+{{Game mechanics}}
+[[Category:Game mechanics]]

@@ -1,0 +1,47 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 24
+| mana = 10
+| knockback = 2
+| use = 19
+| tooltip = Summons a sage spirit to fight for you<br/>Inflicts Sage Poison, a debuff that becomes stronger the more spirits you own
+| buff = Sage Spirit (buff) | bufflink = no
+| bufftip = It's uncomfortably close
+| debuff = Sage Poison | debufflink = no
+| debufftip = Poisoned
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| stack = 1
+| auto = yes
+| rare = 7
+| sell = {{value|0|9|60}}
+| hardmode = yes
+| proj = Sage Needle.png
+| projcaption = Sage Needle
+| element1 = Poison
+| element2 = Stab
+}}
+{{summoned|Sage Spirit|type=minion}}
+
+The '''Viral Sprout''' is a craftable [[Hardmode]] [[summon weapon]]. When used, it summons a flower-shaped spirit that floats around the player and attacks nearby enemies by firing gravity-affected needles. When moving or attacking, the spirits will move in a group with individual circular motions, and launch an even spread of three needles upwards. Needles inflict the '''Sage Poison''' [[debuff]] which deals a constant 45 damage per second, with higher damage per tick the more spirits are present.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The amount of damage in one tick equals to the following: 20 * (Minion count <sup>0.73</sup> + Minion count <sup>1.1</sup>), rounded down
+**For example, if the player had 8 spirits when the item was applied, the resulting base damage would be 288. <code>20 * (8<sup>0.73</sup> + 8<sup>1.1</sup>)</code> = 288.24, rounded down.
+{{-}}
+{{Perennial}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

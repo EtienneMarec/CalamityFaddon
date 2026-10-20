@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 483
+| auto = yes
+| use = 17
+| velocity = 10
+| knockback = 8
+| stack = 1
+| tooltip = Striking an enemy below 20% life will trigger a bloodsplosion<br/>Bloodsplosions cause hearts to drop that can be picked up to heal you
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| element1 = Unholy
+| element2 = Slash
+}}
+'''The Mutilator''' is a Godseeker Mode [[broadsword]]. It does not fire a projectile, but striking an enemy below 20% life will cause a "bloodsplosion" to occur that spawns multiple [[heart]]s. As with most [[Bloodstone]] weapons, it has very high damage for its tier and swings quickly compared to other similar swords.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+
+== Trivia ==
+*The Mutilator is the only weapon to perform [[lifesteal]] by spawning hearts.
+
+{{Bloodstone}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Healing items]]
+[[Category:True melee]]

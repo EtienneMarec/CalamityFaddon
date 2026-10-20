@@ -1,0 +1,40 @@
+{{item infobox
+| tooltip = It seems like even the parasites are not within the mercy of the plague's wrath...<br/>Throws out a Varroa Hack to latch on to enemies and deal constant damage<br/>Explodes after a while
+| rare = 7
+| sell = {{value|0|0|5}}
+| type = Weapon
+| damage = 71
+| critical = 0%
+| use = 18
+| knockback = 1
+| velocity = 19
+| stack = 9999
+| consumable = true
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffduration = 2 seconds
+| debuffchance = 100%
+| debuff2 = Bleeding
+| debufftip2 = Cannot regenerate life
+| debuffduration2 = 2 seconds
+| debuffchance2 = 100%
+| hardmode = yes
+| element1 = Poison
+| element2 = Unholy
+| element3 = Machine
+}}
+{{item drops infobox
+| [[The Plaguebringer Goliath]]|999 - 3996|{{dv|25%|33.33%}}
+}}
+
+The '''Varroa Hack''' is a [[Hardmode]] consumable [[Classless weapons|classless weapon]] dropped by [[The Plaguebringer Goliath]]. When thrown, upon hitting an enemy, it latches on to them and deals constant damage to them while latched on, inflicting the [[Plague]] and [[Bleeding]] debuff in the process. After some time has passed, or it has hit a tile instead, it explodes, dealing 150% of its damage.
+
+{{Modifier|none}}
+
+== Trivia ==
+*The name, design and its function both references the [[wikipedia:Varroa_destructor|Varrora Destructor]], a species of parasitic mites that attacks bees, and [https://combineoverwiki.net/wiki/Manhack Manhack], an aerial weapon used by the Combine from [[wikipedia:Half-Life_2|Half-Life 2]]
+
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

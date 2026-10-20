@@ -1,0 +1,39 @@
+{{dedicated|Hannes|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 940
+| use = 71
+| knockback = 16
+| critical = 19%
+| stack = 1
+| auto = true
+| hardmode = yes
+| postml = yes
+| rare = 12
+| velocity = 72
+| sell = {{value|0|24}}
+| proj = Handheld Tank Shell.png
+| projcaption = Handheld Tank Shell
+| element1 = Fire
+| element2 = Stab
+| element3 = Machine
+| element4 = Bomb
+}}
+The '''Handheld Tank''' is a Godseeker Mode [[launcher]] that fires a small, high velocity rocket upon use. The rocket will explode on contact, damaging [[enemies]] that are in the range of its blast.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The [[Tiger Skin]] in the recipe is a reference to the German [[wikipedia:Tiger I|Tiger tank]].
+*Previously, the Handheld Tank held the title of the slowest attacking weapon in the game, taking over a second of real-time in between shots without any speed modifiers. This title now belongs to the [[Rubico Prime]] and [[Ice Barrage]].
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Launchers]]

@@ -1,0 +1,47 @@
+{{item infobox
+| hammer = 100
+| type = Tool
+| damagetype = Melee
+| damage = 65
+| stack = 1
+| use = 16
+| knockback = 12
+| hardmode = yes
+| rare = a
+| tooltip = Good for both stamping metal plates and instantly fusing them, as well as crushing enemies.<br/>An electrically charged jackhammer which shocks all nearby foes on hit
+| sell = {{value|0|4|80}}
+| toolspeed = 4
+| debuff = Electrified
+| debufftip = You cannot move
+| debuffchance = 100%
+| debuffduration = 3 seconds (Explosion)
+| proj = Hydraulic Volt Crasher Hammer.gif
+| projcaption = Hydraulic Volt Crasher
+| element1 = Electricity
+| element2 = Smash
+| element3 = Machine
+}}
+
+The '''Hydraulic Volt Crasher''' is a craftable [[Hardmode]] [[hammer]]. When an enemy is struck, a stream of electricity is released, striking all enemies within a short range. Enemies that are struck by electricity take continuous damage from the shock, equivalent to 80% of the weapon's damage and reduces by 25% every hit until it hits the target 5 times. If the target is repeatedly hit, an explosion will occur, dealing more damage and inflicting the [[Electrified]] [[debuff]]. It consumes [[charge]] on use.
+
+The weapon consumes 0.002 units of charge for each frame the weapon is held (totaling 0.032 units of charge per use) and has a maximum charge of 85.
+
+{{Modifier|harvestmech}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier2}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*[[Aquatic Scourge]] takes only 75% damage from the Hydraulic Volt Crasher.
+*This weapon is especially effective against worm-type bosses and crowds of weak enemies (such as [[Old One's Army]] or the [[Pirate Invasion]]).
+
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Hammers]]
+[[Category:True melee]]

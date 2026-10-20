@@ -1,0 +1,40 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| type2 = Crafting material
+| damage = 115
+| damagetype = Ranged
+| knockback = 7.5
+| use = 23
+| velocity = 24
+| tooltip = Converts musket balls into high-velocity reaper sharks that home onto your enemies<br/>Reaper sharks explode into multiple teeth<br/>Reaper sharks and its teeth inflict Crush Depth
+| rare = 14
+| sell = {{value|1}}
+| hardmode = yes
+| postml = yes
+| debuff = Crush Depth
+| debufftip = Aquatic pressure
+| debuffduration = 2 seconds
+| debuffchance = 100%
+| element1 = Water
+| element2 = Dark
+| proj = ReaperShullet.png
+| projcaption = Reaper shark and its tooth
+}}
+
+The '''Abysscent Pistol''' is a Godseeker Mode [[gun]] that is an upgrade to the [[Aquarel Pistol]]. If [[Musket Ball]]s are used as [[Ammunition|ammo]], it fires a reaper shark that slightly homes and explodes into 4 homing teeth with a slight spread after travelling about 12 tiles. Teeth deal 25% of the weapon's damage each. Both the reaper sharks and teeth do not pierce through enemies nor go through walls, but inflict the [[Crush Depth]] [[Debuffs|debuff]] for 2 seconds.
+
+==Crafting==
+===Recipes===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{ctota}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

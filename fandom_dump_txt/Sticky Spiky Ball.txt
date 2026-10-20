@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| damage = 10
+| consumable = yes
+| use = 19
+| knockback = 3
+| damagetype = Rogue
+| rare = 1
+| tooltip = Throws a spiky ball that sticks to everything<br/>Stealth strikes throw seven at once and last a lot longer
+| sell = {{value|0|0|0|20}}
+| velocity = 8
+| stack = 9999
+| debuff = Slime (debuff)
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| debufftip = You are dripping goo
+| auto = yes
+| element1 = Stab
+| element2 = Poison
+| element3 = Holy
+}}
+
+'''Sticky Spiky Balls''' are craftable consumable [[Pre-Hardmode]] [[spiky balls]]. They throw gravity-affected spiky balls that stick to solid blocks and platforms. They additionally latch onto enemies and deal damage every second for 5 seconds, as well as inflicting the [[Slimed]] [[debuff]]. Up to 10 balls can be stuck on an enemy at once.
+
+Performing a [[stealth strike]] with Sticky Spiky Balls causes seven spiky balls to be thrown instead of one and allows each ball to last for 20 seconds instead of the typical 5 seconds.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Spiky Balls]]
+[[Category:Consumable items]]

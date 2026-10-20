@@ -1,0 +1,48 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| stack = 1
+| damagetype = ranged
+| damage = 54
+| knockback = 2
+| rare = 6
+| sell = {{value|0|9|60}}
+| tooltip = Fires explosive energy bolts
+| use = 16
+| velocity = 14
+| hardmode = yes
+| boxwidth = 22em
+| debuff = On Fire!
+| debuffduration = 3 seconds (Contact)<br/>2 seconds (Red Bolt)
+| debuffchance = 33.33%<br/>100%
+| debufftip = Slowly losing life
+| debuff2 = Frostburn
+| debuffduration2 = 2 seconds (Contact)<br/>1.5 seconds (Blue Bolt)
+| debuffchance2 = 33.33%<br/>100%
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuff3 = Ichor (debuff)
+| debuffduration3 = 1 seconds (Contact, Yellow Bolt)
+| debuffchance3 = 33.33%<br/>100%
+| debufftip3 = Defense reduced by 20
+| element1 = Magic
+| element2 = Slash
+}}
+
+The '''Catastophe Clayscore''' is a craftable [[Hardmode]] [[bow]]. When used, it fires out one of three damaging projectiles, which will inflict numerous [[debuffs]] on hit, depending on their color.
+
+{{modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Catastrophe Clay}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

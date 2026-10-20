@@ -1,0 +1,18 @@
+
+'''Nether''' is a Pre-Hardmode [[crafting material]] that drops from [[Sigmund]]. It can be used to craft the [[Meaty Worm]], among various other items.
+
+Twisting Nether{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| stack = 9999
+| rare = 3
+| sell = {{value|0|0|4}}
+| tooltip = It remains perfectly still and unmoving inside your hand
+}}
+|{{item drops infobox
+| [[Sigmund]]| {{dv|2-3|3-4}} | 100%
+}}
+}}
+==Crafting==
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}

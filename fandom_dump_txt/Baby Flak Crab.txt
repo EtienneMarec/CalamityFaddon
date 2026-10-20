@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| rare = 6
+| use = 14
+| auto = yes
+| consumable = yes
+| Pre-hardmode = yes
+| sell = {{value|0|0|6}}
+| stack = 9999
+}}
+|{{npc infobox | boxwidth=21em
+| type = Critter
+| environment = Sulphurous Sea
+| ai = Baby Flak Crab AI
+| damage = 0
+| life = 5
+| defense = 0
+| knockback = 0
+| Pre-hardmode = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| banner = yes
+| Geyser Shell | 28-76 | 5% (when hit with [[Bug Net]] or [[Golden Bug Net]])
+| hurt = NPC_Hit_41.wav
+| killed = Dd2_wither_beast_death_0.wav
+}}
+}}
+
+The '''Baby Flak Crab''' is a Pre-hardmode [[critter]] found within the [[Sulphurous Sea]] [[biome]] after the [[Aquatic Scourge]] has been defeated. Similarly to [[Flak Crab|its adult counterpart]], it disguises itself as a geyser. If the player gets too close to one, it will reveal itself and run away until they are far enough from the player. Baby Flak Crabs can be caught with a [[Bug Net]] or [[Golden Bug Net]], and will rarely drop a few dozen [[Geyser Shell]]s when captured.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Baby Flak Crab along with the pet version are both inspired by a submission for a sulphurous sea design contest that was held on the Calamity art server. The [https://cdn.discordapp.com/attachments/404776393117925376/548223155446087691/Toxic_Hermit.gif original sprite], made by TheBlackHand#2549, was based on a more garbage wastes-like vision of the sulphurous sea.
+
+== See Also ==
+*[[Flak Crab]]
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}

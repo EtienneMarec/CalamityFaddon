@@ -1,0 +1,34 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Increased max minions by 2 and 10% increased minion damage<br/>Increased minion knockback<br/>Minions inflict holy flames on hit
+| debuff2 = Holy Flames
+| debuffduration2 = 3 seconds (On minion hits)
+| debufftip2 = Dissolving from holy light
+| debuffchance2 = 100%
+| stack = 1
+| rare = 7
+| sell = {{value|0|9|60}}
+| hardmode = yes
+}}
+{{dablink|If you were looking for another Statis-themed item, see [[Statis (disambiguation)]].}}
+
+The '''Statis' Blessing''' is a craftable [[Hardmode]] [[covering]] that grants the player the following effects:
+*Increased max minions by 2
+*10% increased summon damage
+*Increased minion knockback
+*Minions inflict the [[Holy Flames]] [[debuff]] for 3 seconds
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

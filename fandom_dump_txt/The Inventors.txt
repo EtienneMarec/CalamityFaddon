@@ -1,0 +1,150 @@
+{{npc infobox
+| imagealt = [[File:The Inventors.png]]
+| name = The Inventors
+| type = Boss
+| life = {{dv|900|1040|1128|1280}} (Total)
+| money = {{value|0|10}}
+| Egbert Grappling Gun|1|100%
+| Egbert Metal Scrap|{{dv|16-20|20-26}}|100%
+| Egbert Core|1-2|100%
+| Egbert Orb|1|100%
+| Lesser Healing Potion|8-14|100%
+| Conquest Fragment |1|100%
+|group|At least one of the following 5 weapons will always drop:|5
+| Wulfrum Egbert|1|{{dv|25%|33.33%}}
+| Wulfrum Blunderbert|1|{{dv|25%|33.33%}}
+| Wulfrum Egthesis|1|{{dv|25%|33.33%}}
+| Wulfrum Egbert Array|1|{{dv|25%|33.33%}}
+| Wulfrum Shock Egbert|1|{{dv|25%|33.33%}}
+| John Egbert Mask|1|14.29%
+| Jane Egbert Mask|1|14.29%
+| John Egbert Trophy|1|10%
+| Jane Egbert Trophy|1|10%
+| custom| {{item|The Inventors (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Wulfrum Hardhat|note=(Pacifist Drop)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (The Inventors)|wrap=y}}
+: • {{item|Metabolic Converter|note=(In [[Revengeance Mode]] only)|wrap=y}}|100%
+| custom| {{item|The Inventors Relic|note=(In [[Master Mode|Master]] or [[Revengeance Mode]] only)|wrap=y}}|{{dv|||100%||100%}}
+| listexclude = yes
+| boxwidth = 30em
+}}
+<section end="npc" infobox="" />
+
+[[File:John Wulfrum Trophy.png]] <big>''"The dumb leaders of the Wulfrum Army. Why would they make such mistake?”''</big> [[File:Jane Wulfrum Trophy.png]]
+
+'''The Inventors''' (Japanese: 発明者たち ''Hatsumei-sha-tachi'') are a duo of [[Pre-Hardmode]] [[boss|bosses]]. They are intended to be the first boss the player fights, even before the [[King Slime]].
+
+{{Fantag|Community Content Remix}} In the Community Content Remix Mod, the [[Wulfrum Excavator]] acts as an alternative boss fight.
+
+==Spawn==
+The Inventors are summoned by using a [[Draedon Power Cell]] on a [[Wulfrum Signal Transmitter]]. Doing this will send out transmission waves and the Inventors will appear.
+
+==Bosses==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = John Wulfrum
+| type = Boss
+| image = John_Wulfrum.png
+| life = {{dv|450|520|564|640}}
+| dr = 5
+| damage = {{dv|10|16|20|25}} (Contact, Wulfrum Bolt)<br/>{{defense damage}} {{dv|20|28|34|40}} (Dash, Slam)
+| defense = 10
+| knockback = 100
+| image2 = John Wulfrum map.png
+| image2caption = Map Icon
+| hardmode = no
+| postml = no
+| boxwidth = 24em
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Slow
+| vulnerable1 = Fire
+| vulnerable2 = Magic
+| resistant1 = Poison
+| resistant2 = Stab
+| resistant3 = Machine
+| hurt = NPC_Hit_4.wav
+| killed = Item_14.wav
+}}
+|{{npc infobox
+| name = Jane Wulfrum
+| type = Boss
+| image = Jane Wulfrum.png
+| life = {{dv|450|520|564|640}}
+| dr = 5
+| damage = {{dv|10|16|20|25}} (Contact, Wulfrum Shock Cutter)<br/>{{dv|5|8|16|20}} (Wulfrum Knife, Wulfrum Shard)<br/>{{defense damage}} {{dv|20|28|34|40}} (Wooden Arrow, Wulfrum Arrow, Wulfrum Sword)
+| defense = 4
+| knockback = 100
+| image2 = Jane Wulfrum map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| boxwidth = 24em
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| resistant1 = Cold
+| resistant2 = Machine
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Slow
+| hurt = NPC_Hit_4.wav
+| killed = Item_14.wav
+}}
+}}
+==Behavior==
+The Inventors behave similarly to most [[tgc:Fighter_AI|Fighter]] enemies, albeit with a slightly more complex AI and attacks. If John or Jane are not at the same health threshold, the one with the lowest health will deploy an invincible energy shield until the other has reached the same threshold.
+
+===Attacks===
+*When summoned, John will walk and jump towards the player while Jane equips a Wulfrum Bow to shoot wooden arrows behind John.
+*Upon reaching 75% health, John gains the ability to run and dash horizontally and Jane will sometimes throw a spread of Wulfrum Knives.
+*Upon reaching 50% health, John will fire Wulfrum Bolts at the start and end of a dash and Jane can use the Wulfrum Blunderbuss. If the player gets too close to Jane, she now uses a Wulfrum Sword to quickly swipe at the player.
+*Upon reaching 25% health, John will gain a jump that allows him to charge for a few seconds before jumping over the player and slamming down. Jane's Wulfrum Knives are now replaced with Wulfrum Shock Cutters.
+
+===In [[Expert Mode]]===
+*Dashing frequency and shooting speed further increased.
+*Jane shoots Wulfrum Arrows instead of Wooden Arrows, which explode into shards on impact.
+
+===In [[Revengeance Mode]]===
+*Dashing frequency and shooting speed greatly increased.
+*John can perform a dash at any direction instead of only horizontal.
+*Jane will always move while shooting.
+
+===In [[Death Mode]]===
+*Boss movement speed drastically increased.
+*John and Jane immediately begin using their next set of attacks instead of after the first threshold.
+===On the For the worthy seed=== 
+*John is much larger and moves slower while Jane is much smaller and moves faster.
+*{{Fantag|Community Content Remix}} If the Community Remix mod is active, when either inventor is defeated, John will take out a [[Wulfrum Controller]] and smash it on the ground out of frustration, causing [[Wulfrum Excavator]] to spawn as support.
+
+==Aftermath==
+*[[Energy Orb]]s will start dropping from any Wulfrum enemy at a 1% chance.
+*All Vanilla Pre-[[Hardmode]] [[ores]] start to grow over time, expanding into nearby [[Stone Block]]s or [[Ice Block]]s.
+*[[Cnidrion]]s start dropping [[Desert Medallion]]s.
+*The player is now able to summon [[The Hive Mind]].
+**Some might also claim that you'll be able to summon [[The Perforators]].
+***Do not trust them. They are lying.
+
+==Notes== 
+*If John or Jane are far from each other for too long, the one farthest from the player will leap to the other.
+
+==Tips==
+{{dablink|For more elaborate strategies on defeating The Inventors, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:The Inventors strategies]].}}
+
+==Trivia==
+*The Inventors' [[Music|theme]] is [https://www.youtube.com/watch?v=Sro_uS1_0Uo '''The Fabrication'''], which was composed by the artist [https://www.youtube.com/@BrimstonPremium Brimston Premium].
+**If the Calamity Music add-on mod is disabled, '''Boss 1''' will play instead.
+*John and Jane Wulfrum are likely based on the names "John Doe" and "Jane Doe", which are placeholder names used in most forms of media. 
+**John Wulfrum is also a long-running joke on the Calamity Discord server based off a message by the user schlockapella. The name was thought up as an answer to the question of who made the Wulfrum robots. He was later added into the game as an easter egg where if you name your character John Wulfrum, you would get unlimited uses of the [[Wulfrum Treasure Pinger]].
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "''John and Jane walked away holding hands.''”
+*During their "death" animations, John and Jane will simply be knocked out if defeated. When both are defeated, they will get up and run away offscreen.
+*In the Japanese translation, their name is "発明者たち ''Hatsumei-sha-tachi''"
+
+== Quotes ==
+* "Your gear is no match for our innovations!" (When summoned)
+* "I'll chase you until the ends of the earth!" (When John Wulfrum drops to 50% life)
+* "Call me whatever you want, but I'll call you whenever I need you!" (When Jane Wulfrum drops to 50% life)
+* "Okay okay! We get it, we won't fight anymore!" (After being defeated)"
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

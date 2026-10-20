@@ -1,0 +1,40 @@
+{{item infobox
+| damage = 70
+| damagetype = ranged
+| use = 20
+| knockback = 7.5
+| rare = 7
+| sell = {{value|0|12}}
+| element1 = Poison
+| element2 = Stab
+| element3 = Dark
+| auto = yes
+| velocity = 20
+| tooltip = Launches three harpoons
+| type = Weapon
+| stack = 1
+| hardmode = yes
+| proj = Triploon (projectile).png
+| projcaption = Triploon
+}}
+[[File:Triploon (demo).gif|frame|right|The Triploon being used against a [[Target Dummy]]. Note how the harpoons only return if they don't hit anything.]]
+The '''Triploon''' is a craftable [[Hardmode]] [[Ranged weapons|ranged weapon]] that is the direct upgrade to the [[Dualpoon]]. It can be obtained either through crafting or by receiving it from the [[Agent]]. It rapidly fires three harpoons that are unaffected by gravity. The harpoons travel a short distance before returning to the player.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Unlike the Harpoon, the Triploon has no visible chains.
+{{-}}
+{{Abyssal Gear}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Ranged weapons]]

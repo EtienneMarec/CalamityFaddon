@@ -1,0 +1,733 @@
+{{Patch infobox
+| image = Hive Pod.png
+| patchname = Astral Expansion bonus
+| release = 1/17/2019
+| pair = 1.4.1.003 (music)
+| next = [[1.4.2.001]]
+}}
+
+The '''1.4.1.003''' update cleaned up most [[item]] [[rarity|rarities]] and sell prices, along with [[enemy]] coin drop counts. It also added several new [[weapons]] dropped by [[Astral Infection]] enemies, a few new [[classless weapons]] with special [[ammo]] dropped by [[bosses]] on their first defeats, and nerfs to the [[Rage Meter|Rage]] and [[Adrenaline Meter]]s. The update was also notable for splitting off the mod's [[music]] into a separate mod.
+
+== Additions ==
+*Added [[Astral Scythe]], [[Astralachnea Staff]], [[Bazooka]], [[Elephant Killer]], [[Hive Pod]], [[Lightning Hawk]], [[Magnum]], [[Stellar Cannon]], and [[Titan Arm]].
+*Added [[Grenade Shells]] and [[Magnum Rounds]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*Changed the minimum coin drop amounts for most Calamity enemies, a full list can be found below:
+{{collapse top|New coin drop counts (Click to open)|(Click to collapse)}}
+{| class="terraria lined"
+! Enemy !! Old Minimum !! New Minimum
+|-
+| [[Aero Slime]]
+| {{sc|3}}
+| {{sc|1}}
+|-
+| [[Amber Crawler]]
+| {{cc|30}}
+| {{cc|80}}
+|-
+| [[Angry Dog]]
+| {{sc|8}}
+| {{sc|3}}
+|-
+| [[Aquatic Parasite]]
+| {{sc|1}}
+| {{cc|60}}
+|-
+| [[Aquatic Scourge]]
+| {{gc|15}}
+| {{gc|12}}
+|-
+| [[Aquatic Seeker]]
+| {{sc|5}}
+| {{cc|80}}
+|-
+| [[Aquatic Urchin]]
+| {{sc|5}}
+| {{cc|80}}
+|-
+| [[Aries]]
+| {{value|0|0|3|80}}
+| {{sc|10}}
+|-
+| [[Astral Probe]]
+| {{sc|15}}
+| {{sc|5}}
+|-
+| [[Astral Slime]]
+| {{sc|4}}
+| {{sc|10}}
+|-
+| [[Astralachnea]]
+| {{sc|9}}
+| {{sc|20}}
+|-
+| [[Astrum Aureus]]
+| {{gc|20}}
+| {{gc|15}}
+|-
+| [[Astrum Deus]]
+| {{gc|30}}
+| {{gc|20}}
+|-
+| [[Big Sightseer]]
+| {{sc|10}}
+| {{sc|20}}
+|-
+| [[Bloatfish]]
+| {{cc|1}}
+| {{sc|30}}
+|-
+| [[Bloom Slime]]
+| {{gc|3}}
+| {{sc|25}}
+|-
+| [[Bobbit Worm]]
+| {{gc|1}}
+| {{sc|50}}
+|-
+| [[BOHLDOHR]]
+| {{gc|3}}
+| {{sc|10}}
+|-
+| [[Box Jellyfish]]
+| {{sc|5}}
+| {{cc|80}}
+|-
+| [[Brimstone Elemental]] (pre-Providence)
+| {{gc|10}}
+| {{gc|12}}
+|-
+| Brimstone Elemental (post-Providence)
+| {{pc|1}}
+| {{gc|35}}
+|- 
+| [[Bumblebirb]]
+| {{pc|1}}
+| {{gc|30}}
+|-
+| [[Calamitas]] (post-Providence)
+| {{value|1|15}}
+| {{gc|35}}
+|-
+| [[Calamity Eye]]
+| {{sc|9}}
+| {{sc|5}}
+|-
+| [[Catfish (enemy)]]
+| {{sc|12}}
+| {{sc|1}}
+|-
+| [[Chaotic Puffer]]
+| {{sc|50}}
+| {{sc|30}}
+|-
+| [[Charred Slime]]
+| {{sc|15}}
+| {{sc|10}}
+|-
+| [[Ceaseless Void]]
+| {{cc|50}}
+| {{gc|35}}
+|-
+| [[Cloud Elemental]]
+| {{gc|2}}
+| {{value|0|1|50}}
+|-
+| [[Cnidrion]]
+| {{sc|50}}
+| {{sc|25}}
+|-
+| [[Colossal Squid]]
+| {{sc|25}}
+| {{gc|25}}
+|-
+| [[Cosmic Elemental]]
+| {{sc|9}}
+| {{sc|3}}
+|-
+| [[Crimulan Blight Slime]]
+| {{sc|5}}
+| {{sc|2}}
+|-
+| [[Cryo Slime]]
+| {{sc|6}}
+| {{sc|5}}
+|-
+| [[Cryogen]]
+| {{gc|10}}
+| {{gc|12}}
+|-
+| [[Cryon]]
+| {{sc|8}}
+| {{sc|5}}
+|-
+| [[Cultist Assassin]] (pre-Providence)
+| {{gc|2}}
+| {{sc|2}}
+|-
+| Cultist Assassin (post-Providence)
+| {{gc|10}}
+| {{sc|50}}
+|-
+| [[Cuttlefish]]
+| {{sc|9}}
+| {{sc|1}}
+|-
+| [[Desert Scourge]] (small)
+| {{sc|50}}
+| {{cc|0}}
+|-
+| [[Despair Stone]] (pre-Providence)
+| {{sc|50}}
+| {{sc|5}}
+|-
+| Despair Stone (post-Providence)
+| {{gc|3}}
+| {{sc|50}}
+|-
+| [[Devil Fish]]
+| {{sc|15}}
+| {{sc|10}}
+|-
+| [[The Devourer of Gods]] (phase 1)
+| {{pc|5}}
+| {{value|1|50}}
+|-
+| The Devourer of Gods (phase 2)
+| {{pc|5}}
+| {{pc|3}}
+|-
+| [[The Devourer of Thots]]
+| {{pc|1}}
+| {{cc|0}}
+|-
+| [[Diamond Crawler]]
+| {{sc|5}}
+| {{sc|2}}
+|-
+| [[Earth Elemental]]
+| {{gc|2}}
+| {{value|0|1|50}}
+|-
+| [[Ebonian Blight Slime]]
+| {{sc|5}}
+| {{sc|2}}
+|-
+| [[Eidolist]]
+| {{gc|2}}
+| {{gc|1}}
+|-
+| [[Eidolon Wyrm]] (juvenile)
+| {{pc|10}}
+| {{gc|25}}
+|-
+| Eidolon Wyrm (adult)
+| {{pc|25}}
+| {{pc|10}}
+|-
+| [[Emerald Crawler]]
+| {{cc|50}}
+| {{sc|1}}
+|-
+| [[Flounder]]
+| {{sc|5}}
+| {{cc|80}}
+|-
+| [[Frogfish]]
+| {{sc|5}}
+| {{cc|80}}
+|-
+| [[Fusion Feeder]]
+| {{sc|9}}
+| {{sc|20}}
+|-
+| [[Giant Squid]]
+| {{sc|25}}
+| {{sc|15}}
+|-
+| [[Gnasher]]
+| {{sc|10}}
+| {{cc|60}}
+|-
+| [[Gulper Eel]]
+| {{gc|5}}
+| {{sc|50}}
+|-
+| [[Hadarian]]
+| {{value|0|0|4|50}}
+| {{sc|15}}
+|-
+| [[Heat Spirit]]
+| {{sc|5}}
+| {{sc|1}}
+|-
+| [[Hive (enemy)]]
+| {{value|0|0|5|50}}
+| {{sc|15}}
+|-
+| [[The Hive Mind]]
+| {{gc|5}}
+| {{gc|6}}
+|-
+| [[Hiveling]]
+| {{sc|1}}
+| {{sc|5}}
+|-
+| [[Ice Clasper]]
+| {{sc|50}}
+| {{sc|25}}
+|-
+| [[Impious Immolator]]
+| {{gc|5}}
+| {{sc|50}}
+|-
+| [[Irradiated Slime]]
+| {{gc|5}}
+| {{sc|30}}
+|-
+| [[Jungle Dragon, Yharon]]
+| {{pc|10}}
+| {{pc|5}}
+|-
+| [[Laserfish]]
+| {{sc|20}}
+| {{sc|10}}
+|-
+| [[The Leviathan]]
+| {{gc|30}}
+| {{gc|15}}
+|-
+| [[Mantis]]
+| {{value|0|0|4|50}}
+| {{sc|15}}
+|-
+| [[Mantis Shrimp]]
+| {{sc|5}}
+| {{sc|1}}
+|-
+| [[Mauler]]
+| {{gc|5}}
+| {{gc|25}}
+|-
+| [[Mirage Jelly]]
+| {{sc|10}}
+| {{sc|25}}
+|-
+| [[Moray Eel]]
+| {{sc|10}}
+| {{sc|1}}
+|-
+| [[Nova]]
+| {{sc|11}}
+| {{sc|20}}
+|-
+| [[Oarfish]]
+| {{sc|20}}
+| {{sc|10}}
+|-
+| [[Overloaded Soldier]]
+| {{sc|4}}
+| {{sc|2}}
+|-
+| [[Perennial Slime]]
+| {{sc|12}}
+| {{sc|10}}
+|-
+| [[The Perforator Hive]]
+| {{gc|5}}
+| {{gc|6}}
+|-
+| [[Pestilent Slime]]
+| {{cc|0}}
+| {{sc|10}}
+|-
+| [[Phantom Debris]]
+| {{sc|4}}
+| {{sc|2}}
+|-
+| [[Phantom Spirit]] (normal)
+| {{gc|5}}
+| {{sc|20}}
+|-
+| Phantom Spirit (sad)
+| {{gc|5}}
+| {{sc|30}}
+|-
+| Phantom Spirit (angry)
+| {{gc|5}}
+| {{sc|40}}
+|-
+| Phantom Spirit (happy)
+| {{gc|5}}
+| {{sc|60}}
+|-
+| [[Pitbull]]
+| {{sc|4}}
+| {{sc|2}}
+|-
+| [[Plague Charger]] <!---Large one didn't get changed--->
+| {{sc|8}}
+| {{sc|5}}
+|-
+| [[Plaguebringer]]
+| {{cc|0}}
+| {{value|0|1|50}}
+|-
+| [[Plagueshell]]
+| {{sc|35}}
+| {{sc|20}}
+|-
+| [[Polterghast]]
+| {{pc|5}}
+| {{value|1|20}}
+|-
+| [[Profaned Energy]] (base)
+| {{sc|10}}
+| {{sc|50}}
+|-
+| Profaned Energy (lantern)
+| {{sc|10}}
+| {{cc|0}}
+|-
+| [[Profaned Guardian]] (main)
+| {{pc|1}}
+| {{gc|25}}
+|-
+| Profaned Guardian (rock)
+| {{pc|1}}
+| {{cc|0}}
+|-
+| Profaned Guardian (crystal)
+| {{pc|1}}
+| {{cc|0}}
+|- 
+| [[Providence, the Profaned Goddess]]
+| {{pc|3}}
+| {{pc|1}}
+|- <!---Providence's guardians--->
+| Profaned Guardian (offense)
+| {{gc|5}}
+| {{cc|0}}
+|- 
+| Profaned Guardian (defense)
+| {{gc|5}}
+| {{cc|0}}
+|- 
+| Profaned Guardian (healer)
+| {{gc|5}}
+| {{cc|0}}
+|- 
+| [[Ravager]] (pre-Providence)
+| {{gc|30}}
+| {{gc|25}}
+|-
+| Ravager (post-Providence)
+| {{pc|5}}
+| {{gc|35}}
+|-
+| [[Reaper Shark]]
+| {{gc|30}}
+| {{gc|25}}
+|-
+| [[Ruby Crawler]]
+| {{value|0|0|2|50}}
+| {{sc|1}}
+|-
+| [[Sand Tortoise]]
+| {{sc|25}}
+| {{sc|15}}
+|-
+| [[Sapphire Crawler]]
+| {{cc|45}}
+| {{sc|1}}
+|-
+| [[Scorn Eater]]
+| {{gc|10}}
+| {{sc|50}}
+|-
+| [[Scryllar]] (pre-Providence)
+| {{sc|50}}
+| {{sc|5}}
+|-
+| Scryllar (post-Providence)
+| {{gc|3}}
+| {{sc|50}}
+|-
+| [[Sea Urchin]]
+| {{sc|5}}
+| {{cc|80}}
+|-
+| [[Shockstorm Shuttle]]
+| {{gc|1}}
+| {{sc|5}}
+|-
+| [[Signus, Envoy of the Devourer]]
+| {{gc|15}}
+| {{gc|35}}
+|-
+| [[The Siren]]
+| {{gc|30}}
+| {{gc|15}}
+|-
+| Split [[Slime God]]s
+| {{gc|8}}
+| {{gc|1}}
+|-
+| [[Small Sightseer]]
+| {{sc|6}}
+| {{sc|10}}
+|-
+| [[Soul Slurper]] (pre-Providence)
+| {{sc|50}}
+| {{sc|5}}
+|-
+| Soul Slurper (post-Providence)
+| {{gc|3}}
+| {{sc|50}}
+|-
+| [[Stellar Culex]]
+| {{sc|7}}
+| {{sc|10}}
+|-
+| [[Storm Weaver]] (phase 1)
+| {{gc|30}}
+| {{cc|0}}
+|-
+| Storm Weaver (phase 2)
+| {{gc|30}}
+| {{gc|35}}
+|-
+| [[Stormlion]]
+| {{sc|9}}
+| {{sc|2}}
+|-
+| [[Sun Bat]]
+| {{sc|10}}
+| {{sc|5}}
+|-
+| [[Sunskater]]
+| {{sc|20}}
+| {{sc|5}}
+|-
+| [[Supreme Calamitas]]
+| {{cc|0}}
+| {{pc|10}}
+|-
+| [[Topaz Crawler]]
+| {{cc|10}}
+| {{cc|30}}
+|-
+| [[Toxic Minnow]]
+| {{cc|1}}
+| {{sc|5}}
+|-
+| [[Trasher]]
+| {{sc|30}}
+| {{sc|3}}
+|-
+| [[Viperfish]]
+| {{sc|15}}
+| {{sc|5}}
+|- 
+| [[Wulfrum Drone]]
+| {{sc|3}}
+| {{cc|50}}
+|-
+| [[Wulfrum Slime]]
+| {{sc|1}}
+| {{cc|30}}
+|}
+{{collapse bottom}}
+*[[Armored Digger]] now appears on the [[Boss Health Bar]].
+*Increased the delay between when all Astral Infection enemy hit sounds can play.
+*Increased the volume of [[Astrum Aureus]]' hit sound, and increased the delay between when his hit sound can play.
+*Free [[Astrum Deus Probe]]s now take up 2 NPC slots instead of 8.
+*Decreased Calamitas phase 2's speed.
+*Nerfed The Devourer of Gods phase 2's Boss Rush health from {{dv|11,000,000|17,600,000|0|19,200,000}} to {{dv|8,000,000|12,800,000|0|14,400,000}}.
+*Nerfed Jungle Dragon, Yharon's health from {{dv|2,375,000|3,800,000|4,200,000|5,000,000}} to {{dv|2,275,00|3,640,000|4,040,000|4,840,000}}, and his Boss Rush health from {{dv|9,500,000|15,200,000|0|16,800,000}} to {{dv|7,000,000|11,200,000|0|12,800,000}}.
+*[[King Slime]] no longer disables [[Hooks]].
+*Several Lumenyl drop chances have been decreased: <!---Due to Lumenyl growing on Voidstone now--->
+**Cuttlefish no longer drop [[Lumenyl]].
+**Decreased Giant Squid's Lumenyl drop count from {{dv|2-4|3-6}} to 1.
+**Decreased Gulper Eel's Lumenyl drop count from {{dv|6-8|8-11}} to {{dv|2-3|3-4}}.
+**Decreased Luminous Corvina's Lumenyl drop count from {{dv|1-2|2-3}} to 1.
+**Viperfish now have a 25% chance to drop 1 Lumenyl instead of a 50% chance to drop 1-2 and an extra {{Expert|50%}} chance to drop 1.
+*Decreased [[Moon Lord]]'s [[Revengeance Mode]] health modifier from {{revengeance|1.75x}} to {{revengeance|1.2x}}, and decreased his coin drop modifier from {{revengeance|2x}} to {{revengeance|1.5x}}.
+*[[Nailhead]]'s nails now deal 75% damage.
+*Increased the distance that The Perforator Hive hovers above the player.
+*Buffed Polterghast's health from {{dv|440,000|704,000|816,000|1,128,000}} to {{dv|550,000|880,000|1,056,000|1,408,000}}, and its Boss Rush health from {{dv|6,000,000|9,600,000|0|10,560,000}} to {{dv|7,000,000|11,200,000|0|12,160,000}}.
+*Providence, the Profaned Goddess now starts attacking more frequently at 25% health instead of 50%, and smoothened her movement during her laser attack.
+*Increased the frequency at which Ravager's body fires lasers if the player is too far above it.
+*[[Siren and Leviathan]] changes:
+**Buffed The Siren's contact damage from {{dv|60|96}} to {{dv|70|112}}.
+**Buffed The Leviathan's contact damage from {{dv|75|120}} to {{dv|90|144}}.
+**The Leviathan no longer becomes less agressive if the player is wet.
+**Buffed [[Ice Shield]]'s damage from {{dv|30|60}} to {{dv|45|90}}.
+**Buffed [[Aquatic Aberration]]'s damage from {{dv|42|84}} to {{dv|60|120}}.
+**Buffed [[Parasea]]'s damage from {{dv|34|68}} to {{dv|45|90}}.
+**Nerfed [[Siren Clone]]'s projectile damage from {{dv|96|140}} to {{dv|64|104}}.
+
+=== [[Items]] ===
+*All Calamity items with post-Moon Lord [[Rarity|rarities]] now have an internal rarity of {{rare|10}}, and thus, no longer burn in [[Lava]].
+*All Calamity items now have consistent sell prices with their rarities.
+*Changed various item rarities:
+{{collapse top}}
+**[[Abyss Blade]] now uses {{rare|7}} rarity instead of {{rare|8}}.
+**[[Aeries]] now uses {{rare|8}} rarity instead of {{rare|7}}.
+**[[Ancient Medallion]] now uses {{rare|8}} rarity instead of {{rare|9}}.
+**[[Animosity]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Arch Amaryllis]] now uses {{rare|9}} rarity instead of {{rare|10}}.
+**[[Astral Bar]] now uses {{rare|7}} rarity instead of {{rare|0}}.
+**[[Barracuda Gun]] now uses {{rare|8}} rarity instead of {{rare|9}}.
+**[[Beastial Pickaxe]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Berserker Waraxe]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Bladedge Railbow]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Brimlash]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Brimstone Flameblaster]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Carnage Ray]] now uses {{rare|4}} rarity instead of {{rare|5}}.
+**[[Catastrophe Claymore]] now uses {{rare|6}} rarity instead of {{rare|7}}.
+**[[Caustic Edge]] now uses {{rare|2}} rarity instead of {{rare|3}}.
+**[[Charged Dart Blaster]] now uses {{rare|9}} rarity instead of {{rare|8}}.
+**[[Cosmic Rainbow]] now uses {{rare|9}} rarity instead of {{rare|10}}.
+**[[Crimsaber]] now uses {{rare|5}} rarity instead of {{rare|7}}.
+**[[Crushsaw Crasher]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Crystal Flare Staff]] now uses {{rare|5}} rarity instead of {{rare|6}}.
+**[[Demonic Pitchfork]] now uses {{rare|5}} rarity instead of {{rare|6}}.
+**[[Divine Geode]] now internally uses {{rare|11}} rarity instead of {{rare|9}}. <!---Only affects item hovering--->
+**[[Entropy's Vigil]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Everglade Spray]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Feralthorn Claymore]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Firestorm Cannon]] now uses {{rare|2}} rarity instead of {{rare|3}}.
+**[[Flameburst Shortsword]] now uses {{rare|3}} rarity instead of {{rare|4}}.
+**[[Flarewing Bow]] now uses {{rare|5}} rarity instead of {{rare|7}}.
+**[[Floodtide]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Forbidden Oathblade]] now uses {{rare|5}} rarity instead of {{rare|6}}.
+**[[Greatsword of Blah]] now uses {{rare|14}} rarity instead of {{rare|15}}.
+**[[Havoc's Breath]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Hellion Flower Spear]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Hellkite]] now uses {{rare|7}} rarity instead of {{rare|8}}.
+**[[Hellwing Staff]] now uses {{rare|3}} rarity instead of {{rare|4}}.
+**[[Impaler]] now uses {{rare|8}} rarity instead of {{rare|9}}.
+**[[Inferna Cutter]] now uses {{rare|5}} rarity instead of {{rare|6}}.
+**[[Infernal Rift]] now uses {{rare|5}} rarity instead of {{rare|6}}.
+**[[Ion Blaster]] now uses {{rare|5}} rarity instead of {{rare|6}}.
+**[[Lunarian Bow]] now uses {{rare|4}} rarity instead of {{rare|5}}.
+**[[Magna Cannon]] now uses {{rare|2}} rarity instead of {{rare|3}}.
+**[[Mangrove Chakram]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Mantis Claws]] now uses {{rare|7}} rarity instead of {{rare|8}}.
+**[[Megalodon]] now uses {{rare|7}} rarity instead of {{rare|8}}.
+**[[Meowthrower]] now uses {{rare|4}} rarity instead of {{rare|3}}.
+**[[Night's Ray]]] now uses {{rare|4}} rarity instead of {{rare|5}}.
+**[[Nullification Pistol]] now uses {{rare|8}} rarity instead of {{rare|9}}.
+**[[Oblivion]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[True Biome Blade|Omega Biome Blade]] now uses {{rare|12}} rarity instead of {{rare|9}}.
+**[[Opal Striker]] now uses {{rare|2}} rarity instead of {{rare|3}}.
+**[[Overloaded Sludge]] now uses {{rare|4}} rarity instead of {{rare|5}}.
+**[[Perennial Bar]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**[[Perfect Dark]] now uses {{rare|3}} rarity instead of {{rare|4}}.
+**[[Plasma Rod]] now uses {{rare|1}} rarity instead of {{rare|3}}.
+**[[Purified Gel]] now uses {{rare|4}} rarity instead of {{rare|5}}.
+**[[Quagmire]] now uses {{rare|7}} rarity instead of {{rare|6}}.
+**All pieces of [[Reaver armor]] now use {{rare|7}} rarity instead of {{rare|6}}.
+**[[Revengeance]] now uses {{rare|11}} rarity instead of {{rare|rainbow}}.
+**[[Sand Sharknado Staff]] now uses {{rare|8}} rarity instead of {{rare|9}}.
+**[[Sandstorm's Core]] now uses {{rare|8}} rarity instead of {{rare|7}}.
+**[[Shaderain Staff]] now uses {{rare|3}} rarity instead of {{rare|2}}.
+**[[Shadowdrop Staff]] now uses {{rare|3}} rarity instead of {{rare|2}}.
+**[[Soul Harvester]] now uses {{rare|8}} rarity instead of {{rare|9}}.
+**[[Spore Knife]] now uses {{rare|2}} rarity instead of {{rare|3}}.
+**[[Staff of Blushie]] now uses {{rare|10}} rarity instead of {{rare|11}}. <!---Only affects item hovering--->
+**All pieces of [[Statigel armor]] now use {{rare|4}} rarity instead of {{rare|5}}.
+**[[Storm Surge]] now uses {{rare|3}} rarity instead of {{rare|2}}.
+**[[Terra Flameburster]] now uses {{rare|8}} rarity instead of {{rare|9}}.
+**[[Triploon]] now uses {{rare|7}} rarity instead of {{rare|8}}.
+**[[True Caustic Edge]] now uses {{rare|5}} rarity instead of {{rare|8}}.
+**[[True Paladin's Hammer]] now uses {{rare|8}} rarity instead of {{rare|9}}.
+**[[Tyrant Yharim's Ultisword]] now uses {{rare|8}} rarity instead of {{rare|9}}.
+**[[Vein Burster]] now uses {{rare|3}} rarity instead of {{rare|4}}.
+{{collapse bottom}}
+*Adjusted several [[Fishing]] requirements and chances:
+**Increased the minimum fishing power needed to catch [[Abyssal Amulet]] from 100 to 110, the maximum fishing power from 160 to 240, and decreased its chance from 6.67% to 4%.
+**Increased the maximum fishing power needed to catch [[Alluring Bait]] from 120 to 160, and decreased its chance from 6.67% to 4%.
+**Increased the maximum fishing power needed to catch [[Anechoic Plating]], [[Depths Charm]], [[Iron Boots]], and [[Strange Orb]] from 140 to 210.
+**Increased the maximum fishing power needed to catch [[Floodtide]] from 120 to 160. 
+*Several Calamity [[pickaxes]] now have tooltips that indicate what [[blocks]] they can mine: 
+**[[Blossom Pickaxe]]'s now mentions that it can mine [[Auric Ore]].
+**[[Flamebeak Hampick]]'s now mentions that it can mine [[Lihzahrd Brick]]s.
+**[[Greatbay Pickaxe]]'s now mentions that it can mine [[Meteorite]].
+**[[Skyfringe Pickaxe]]'s now mentions that it can mine [[Hellstone]].
+*[[Abombination]], [[Ancient Medallion]], [[Astral Chunk]], [[Birb Pheromones]], [[Charred Idol]], [[Desert Medallion]], [[Eye of Desolation]], [[Eye of Extinction]], [[Necroplasmic Beacon]], Overloaded Sludge, [[Profaned Core]], [[Profaned Shard]], Sandstorm's Core, [[Seafood]], and [[Starcore]]'s tooltips now mention the names of what bosses they spawn.
+*Astral Bar now uses 12 [[Stardust]] in its recipe.
+*[[Cosmic Worm]], [[Cryo Key]], and [[Decapodita Sprout]]'s tooltips now call their respective bosses by their actual names instead of titles.
+*[[Defiled Rune]] and Revengeance Mode now cause enemies to drop 50% more coins each instead of 100% more.
+*Decreased [[Draedon's Heart]]'s life regeneration boost when standing still from 8 to 4.
+*Increased [[Eldritch Soul Artifact]]'s rogue damage boost from 10% to 15%.
+*[[Elemental Lance]]'s blue beams now deal 15% base damage instead of 20%.
+*Decreased [[Infernal Blood]], [[Mushroom Plasma Root]], and [[Red Lightning Container]]'s Rage damage boosts from {{dv|0|0|20%|80%}} to {{dv|0|0|15%|60%}} each.
+*[[Level Meters]] now display exact stats in their tooltips.
+*Lumenyl can now be placed.
+*[[Profaned Soul Artifact]]'s offensive guardian can now activate if the player wears [[Omega Blue armor]].
+*Profaned Soul Artifact's offensive and defensive guardians now scale in damage after The Devourer of Gods and/or Jungle Dragon, Yharon have been defeated.
+
+==== [[Weapons]] ====
+*Nerfed Barracuda Gun's knockback from 1.05 to 1.
+*Buffed [[Chaotrix]]'s knockback from 3.6 to 4.
+*[[Cosmic Rainbow]] no longer has any knockback.
+*Buffed [[Deepsea Staff]]'s damage from 36 to 48.
+*Buffed Quagmire's knockback from 3.4 to 3.5.
+*Buffed [[Shimmerspark]]'s knockback from 3.2 to 3.5.
+*[[Terra Blade]], [[Terra Edge]], and [[Terra Shiv]] now use 7 [[Living Shard]]s in their recipes.
+*Terra Flameburster now uses 5 [[Essence of Cinder|Essences of Cinder]] and 7 Living Shards in its recipe instead of 3 Essences of Cinder, 5 Living Shards, and 3 [[Plague Cell Canister]]s.
+*[[Terra Lance]] now uses 1 [[Chlorophyte Partisan]] and 7 Living Shards in its recipe instead of 1 [[Exsanguination Lance]], 1 Hellion Flower Spear, 1 [[Starnight Lance]], and 5 Living Shards.
+*Increased the size of [[Snowstorm Staff]]'s item.
+*Increased the durations of [[Vehemence]]'s full health debuffs from 20 seconds each to 200 each, and made its projectile visible.
+
+=== Other ===
+*Renamed Irradiated to [[Irradiated|Acid Rain]].
+*Acid Rain now decreases defense by 10 and damage reduction by 10% instead of 5 and 5% respectively.
+*The Adrenaline Meter now starts burning out after 3 seconds instead of 5.
+*Adrenaline and Rage no longer despawn projectiles after they wear out.
+*Nerfed Adrenaline's base damage boost from {{dv|0|0|3.5x|11x}} to {{dv|0|0|2.5x|7x}}.
+*Revengeance Mode now causes [[Chaos State]] to make the player take 25% more damage.
+*The [[Drunk Princess]] can now mention "Mister Winchester", "Veine", or "Zacky" in her donor quote.
+*Increased the melee speed cap from 1.3 to 1.5.
+*Moved all Music Boxes and music tracks to the Music mod.
+*Decreased the amount of Rage gained when hit by 75%.
+*Nerfed Rage's base damage boost from {{dv|0|0|2x|5x}} to {{dv|0|0|1.5x|3x}}.
+*Post-Moon Lord [[Rain]] changes now only occur at the [[Sulphurous Sea]] at any point in the game.
+*[[Tenebris]] can now grow and be blown up after Calamitas has been defeated.
+*Several [[Town NPC]] names have been added:
+**"Lapp" for the [[Guide]].
+**"Vorbis" for the [[Steampunker]].
+**"Mage One-Trick" for the [[Wizard]].
+*[[Voidstone]] now grows Lumenyl after Calamitas or Plantera has been defeated.
+
+=== Resprites ===
+*Resprited Calamitas, Cataclysm, Catastrophe, Supreme Calamitas, Cataclysm (Supreme), Catastrophe (Supreme).
+*Resprited Aquatic Parasite and Plaguebringer<!---Outline recolor--->.
+*Resprited [[Calamitous Essence]]. <!---Removed 1 pixel--->
+*Resprited [[Blight Spewer]], [[Diseased Pike]], [[The Hive]], [[Malevolence]], [[Pandemic]], [[Pestilent Defiler]], [[Plague Staff]], Vehemence, and [[Virulence]].
+*Resprited [[Noseless Popo]]'s equipped head sprite. <!---Now frowns instead of smiling--->
+*Resprited Calamitas' map icons.
+*Resprited all of The Hive's rockets, Malevolence's arrows, and Plague Staff's fangs.
+
+== Fixes ==
+*Fixed Charred Idol still referring to the [[Brimstone Crag]] as the "Calamity biome." <!---Old name--->
+*Fixed a CustomTileFraming error.
+*Fixed [[Demonshade armor]]'s set bonus' description mentioning that it bypasses damage and critical strike chance caps, despite the fact that they were removed.
+*Fixed the early-Hardmode [[Life Fruit]] and Plantera's Bulb spawns added by Calamity not going away once said tiles started growing in Vanilla. <!---Lead to insane amounts of Life Fruit and Plantera Bulb spawns after mechs defeated, which also caused lag--->
+*Fixed Luminous Corvinas, Mirage Jellies, and Toxic Minnows not dropping Lumenyl after Calamitas has been defeated.
+*Fixed a sheeting error on Mauler.
+*Fixed the Profaned Guardians not despawning properly.
+*Fixed [[Raider's Talisman]]'s tooltip saying that rogue weapons boost throwing damage instead of rogue damage. <!---All other instances of rogue in the tooltip are correct--->
+
+== Removals ==
+*Removed [[Chaos Slime]].
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

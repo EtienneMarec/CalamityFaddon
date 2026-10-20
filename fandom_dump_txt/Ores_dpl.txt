@@ -1,0 +1,13 @@
+<includeonly>{{#ifeq:{{{listexclude|no}}}|yes|<!--nothing-->|
+{{!}}-
+{{!}} style="text-align:left;" {{!}} {{item|mode=table|{{{name|{{{%PAGE%}}}}}}|link={{{%PAGE%}}}|image={{#ifeq:{{{noimagetransclude|}}}|yes|{{{name|{{{%PAGE%}}}}}}.png|{{{imagealt|{{{image|{{{name|{{{%PAGE%}}}}}}.png}}}}}}}}}}
+{{!}} {{rare|{{{rare|0}}}|sort=yes}}
+{{!}} data-sort-value={{value total|{{{sell|}}}}} {{!}} {{{sell|}}}
+{{!}} data-sort-value={{{value|0}}} {{!}} {{{value|{{na}}}}}
+{{!}}-
+}}
+</includeonly>
+<noinclude>
+{{Dpl pages}}
+[[Category:DPL]]
+</noinclude>

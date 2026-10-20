@@ -1,0 +1,32 @@
+{{addon|Calamity: Community Remix}}
+{{npc infobox
+| type = Enemy
+| environment = Dungeon
+| ai = Fighter AI
+| damage = {{element|Dark}} {{dv|200|400}}
+| life = {{dv|1200|2400}}
+| defense = 23
+| knockback = {{dv|75%|77.5%}}
+| money = {{value|0|0|10}}
+| hardmode = yes
+| immune1 = Kami Flu
+| immune2 = Moon Burnt
+| Ruinous Soul|1|10%
+| Exodium Cluster|5-17|100%
+| Lumenyl|1|33.33%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_50.wav
+| sound = Item_8.wav
+| soundtext = Teleport
+| vulnerable1 = Holy
+| vulnerable2 = Cold
+| resistant1 = Fire
+| resistant2 = Water
+}}
+
+'''King of Constellations, Tenryu''' is a Godseeker Mode [[enemy]] which spawns in the [[Dungeon]] after [[Polterghast]] has been defeated. It normally acts like a regular Fighter AI enemy but after about 5 seconds they teleport closer to the player then fire a stratus bolt projectile at them. It drops materials required for Stratus items.
+{{-}}
+{{Master Template Characters
+|show-main = yes
+|show-postMoon = yes
+}}

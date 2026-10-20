@@ -1,0 +1,26 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Crafting material
+| type2 = Covering
+| damage = 20
+| tooltip = Left click anywhere to launch a hammer there, the hammer will spin for 4 seconds before vanishing. Right click anywhere to create a 3x3 square of Temporary Ice Blocks
+| stack = 9999
+| rare = 5
+| sell = {{value|0|5}}
+| hardmode = yes
+}}
+'''Architect Whirlhammer''' is a craftable [[Hardmode]] covering . It lets you do 2 things:
+left click: Launches a hammer to the mouse position, the hammer spins for 4 seconds and vanishes.
+right click: Creates a 3x3 box of temporary ice blocks at the mouse position, the blocks last for 15 seconds before vanishing. 
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]

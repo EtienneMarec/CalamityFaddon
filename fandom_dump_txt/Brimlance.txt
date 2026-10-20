@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| auto = yes
+| type = Weapon
+| damagetype = Melee
+| damage = 58
+| knockback = 7.5
+| rare = 5
+| sell = {{value|0|7|20}}
+| stack = 1
+| use = 19
+| velocity = 12
+| tooltip = Creates brimstone explosions on enemy hits
+| hardmode = yes
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| debuffduration = 4 seconds (Explosions)<br/>2 seconds (Flames)
+| proj = Brimlance Spear.png
+| projcaption = Brimlance
+| element1 = Unholy
+| element2 = Fire
+| element3 = Stab
+}}
+|{{item drops infobox
+| [[Brimstone Elemental]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Brimlance''' is a [[Hardmode]] [[spear]] that drops from [[Brimstone Elemental]]. Upon hitting an enemy, it will inflict the [[Brimstone Flames]] [[debuff]]. Enemies hit by this weapon spawn brimstone explosions and drop brimstone flames.
+
+{{modifier|meleealt}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]
+[[Category:True melee]]

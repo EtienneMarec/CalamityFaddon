@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 100
+| mana = 15
+| use = 14
+| knockback = 6
+| velocity = 6
+| auto = yes
+| stack = 1
+| tooltip = Fires a blood beam that heals you on enemy hits<br/>The more tiles and enemies the beam bounces off of or travels through the more healing the beam does
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| element1 = Unholy
+| element2 = Dark
+}}
+The '''Viscera''' is a craftable Godseeker Mode [[wand]]. It acts similarly to the [[Shadowbeam Staff]], in that it fires a beam that bounces off of walls and pierces through [[enemies]]. However, the Viscera also [[Lifesteal|heals]] the player for every enemy hit per beam.
+
+The beam's base healing value is 1, which gets multiplied by 1.4 for each time it bounces off of tiles or hits an enemy. The beam can only bounce or pierce 9 times, therefore capping the max healing per beam at about 8.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Bloodstone}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]
+[[Category:Healing items]]

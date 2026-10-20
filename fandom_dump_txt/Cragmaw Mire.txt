@@ -1,0 +1,92 @@
+{{npc infobox
+| imagealt = <Tabber>
+Phase 1=[[File:Cragmaw Mire (Phase 1).png]]
+|-|
+Phase 2=[[File:Cragmaw Mire (Phase 2).png]]
+</Tabber>
+| type = Enemy
+| ai = Cragmaw Mire AI
+| environment = Acid Rain
+| damage = {{element|Poison}} {{dv|66|112}} (Tier 2 Contact)<br/>{{element|Poison}} {{dv|60|120}} (Tier 2 Bubble)<br/>{{element|Poison}} {{dv|80|160}} (Tier 2 Beam)<br/>{{element|Poison}} {{dv|160|272}} (Tier 3 Contact)<br/>{{element|Poison}} {{dv|94|188}} (Tier 3 Bubble)<br/>{{element|Poison}} {{dv|240|480}} (Tier 3 Beam)<br/>0 (Tether)<br/>{{element|Stab}} {{dv|104|208}} (Spike)<br/>{{element|Poison}} {{dv|138|276}} (Droplet)
+| life = {{dv|4,000|6,400}} (Tier 2)<br/>{{dv|80,630|129,008}} (Tier 3)
+| defense = 25 (Tier 2)<br/>80 (Tier 3)
+| dr = 0-50
+| knockback = 100%
+| debuff = Irradiated
+| debuffchance = 100%
+| duration = 5 seconds
+| debufftip = Your skin is burning off
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Slow
+| immune4 = Irradiated
+| immune5 = Sulphuric Poisoning
+| money = {{value|0|3|60}}
+| Spent Fuel Container | 1 | 100% (Tier 2)<br/>10% (Tier 3)
+| Nuclear Rod | 1 | 100% (Tier 2)<br/>10% (Tier 3)
+| Nucleate Gello | 1 | 100% (Tier 2)<br/>10% (Tier 3)
+| Septic Skewer | 1 | {{dv|25%|33%}} (Tier 3)
+| hardmode = yes
+| killed = NPC_Killed_1.wav
+| sound = NPC_Hit_42.wav
+| soundtext = Hurt (phase 1)
+| sound2 = NPC_Hit_1.wav
+| sound2text = Hurt (phase 2)
+| sound3 = Dd2_explosive_trap_explode_0.wav
+| sound3text = Phase transition and slam
+| sound4 = Item_92.wav
+| sound4text = Spike burst
+| sound6 = Zombie_104.wav
+| sound6text = Beam
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| resistant1 = Poison
+| resistant2 = Water
+| resistant3 = Machine
+}}
+
+The '''Cragmaw Mire''' is a [[Hardmode]], post-[[Aquatic Scourge]] [[mini boss]] that spawns during the [[Acid Rain]] [[event]]. They spawn on the [[Sulphurous Sea]] floor and cannot move.
+
+== Behavior ==
+The Cragmaw Mire is gravity-affected and completely stationary enemy. It randomly spawns enemies around nearby liquid and cycles between two attacks every 7 seconds and oddly tastes like cheese.
+*For 4 seconds, it fires acid bubbles consistently which float upwards, splitting into four crosses after 2-3 seconds or upon tile collision once fully materialized. Crosses explode upon impact with tiles, dealing damage to a small area.
+*It pauses for 1 second to charge up a laser beam attack, and a column of harmless dust is formed. Then, a laser beam fires upwards and lingers for 2 seconds.
+
+=== Tier 3 ===
+*Bubbles are fired every 0.4 seconds instead of 0.83 seconds
+*While the laser is fired, acid droplets are also rapidly fired.
+*Transforms into its second phase at {{dv|70%||85%}} health, changing its appearance. In this phase, it loses the ability to spawn enemies and fire bubbles. Instead, it summons a tether that reels the player into itself, and fires a randomized spread of 16 gravity-affected spikes every 10 seconds.
+
+== Summons ==
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align = center |{{item|mode=table|Trilobite}} || -
+|-
+| align = center |{{item|mode=table|Water Leech}} || -
+|-
+| align = center |{{item|mode=table|Gamma Slime}} || Required to be Tier 3.
+|-
+| align = center |{{item|mode=table|Nuclear Toad}} || Required to be Tier 3.
+|-
+| align = center |{{item|mode=table|Orthocera}} || Required to be Tier 3.
+|
+|}
+
+== Notes ==
+*The Cragmaw Mire has 50% DR in its first phase, 30% if the player is submerged. In its second phase, its DR is dropped to 0% / {{revengeance|12.5%}}.
+*Once the bubble fully materializes after 1.67 seconds, the damage dealt drops to {{dv|40|80}} in all tiers. This damage value is also inherited to the crosses and its explosions.
+
+== Trivia ==
+*The Cragmaw Mire's appearance was inspired by a submission for a sulphurous sea design contest that was held on the Calamity art server. The [https://media.discordapp.net/attachments/424301622878011402/551911012878778376/AzufrePiercer.png original artwork], made by Ox#8375, used the name "Azufre Piercer".
+*The tether is referred to as 'CragmawVibeCheckChain' in the mod's source files.
+*The Cragmaw Mire tastes like cheese as its been proven by many scientists like draedon
+*The jaw of the Cragmaw Mire was inspired by a [[Wikipedia:bear_trap|bear trap]].
+*Cragmaw Mire could likely reference the popular Family Guy character Quagmire.
+*In the Japanese translation, the name is "クラッグマウの泥沼 ''Kuraggumau no doronuma''"
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

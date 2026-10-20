@@ -1,0 +1,186 @@
+{{addon|Apotheosis and Friends}}
+{{npc infobox
+| type = NPC
+| environment = Valid house
+| ai = Passive AI
+| life = 30,000
+| defense = 25
+| knockback = 0
+| debuff = Cursed Inferno
+| debuffchance = 100%
+| debuffduration = 2 seconds (Green gift bag)
+| debufftip = Losing life<br/>{{revengeance|All damage taken increased by 20%}}
+| debuff2 = On Fire!
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (Red gift bag)
+| debufftip2 = Slowly losing life
+| image2 = The General map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_1.wav
+| soundtext = Halberd of the Holidays
+}}
+{{NPC}}
+
+'''The General''' (Mandarin: 天秤座 ''Tiānchèngzuò'') is a [[Hardmode]] [[NPC]] vendor that will spawn once the following conditions have been met:
+
+*There is an empty house.
+*Any one of the following three conditions are met:
+**It is either December, January, or February.
+**[[Astrum Deus]] has been defeated in the [[snow biome]].
+**[[The General (miniboss)]] has been defeated.
+
+When threatened by [[enemies]], he will defend himself with the [[Halberd of the Holidays]].
+
+Talking to The General in [[Revengeance Mode]] while [[Stamina]] {{fantag|Catalyst}} is active, will fully replenish it. 
+
+{{fantag|Calamity: Community Remix}} killing The General while under the effects of Fluorescent Vodka initiates the [[22 Bullet Theory]] {{fantag|Calamity: Community Remix}} [[event]].
+
+== Items sold ==
+{{inventory
+|Delicious Meat|{{cc|20}}|Always.
+|Frigid Bar|{{sc|10}}|Always. {{fantag|Calamity: Community Remix}}
+|Enchanted Metal|{{gc|20}}|Always. {{fantag|Calamity: Community Remix}}
+|Treasure Bag (Cryogen)|{{gc|50}}|Always.
+|Pine's Penetrator|{{gc|80}}|Always.
+|Winter Breeze|{{gc|80}}|Always.
+|Snowgrave|{{gc|80}}|Always.
+|Christmas Carol|{{gc|80}}|Always.
+|Wreath of Belial|{{gc|80}}|Always.
+|Winter Soldier's Visage|{{pc|1}}|After defeating the [[Moon Lord]].
+|Winter Soldier's Chestplate|{{pc|2}}|After defeating the [[Moon Lord]].
+|Winter Soldier's Leggings|{{pc|1}}|After defeating the [[Moon Lord]].
+|Halberd of the Holidays|{{value|0|0|0|0|1}}|After defeating [[The Devourer of Gods]].
+}}
+
+== Names ==
+*The General can have one of the following names:
+**Cheng
+**Daniel
+**Daxia
+**Libra
+**Scorpio
+**Cancer
+**Sagittarius
+**Aquarius
+**Capricorn
+**Taurus
+**Leo
+**Gemini
+
+== Quotes ==
+'''Any time:'''
+:*“From one war straight into the next. At least the Jungle Tyrant’s something that you can kill.”
+:*“It’d be awfully stereotypical for me to start quoting Sun Tzu, so don’t even ask.”
+:*“You’d make a fine mercenary, but I hesitate to say the same about becoming a soldier.”
+:*“I’ve seen countless battles. Could’ve seen even more if I still had my eye.”
+:*“The wind often howls during combat. That may be my fault.”
+
+'''If named Daxia, Daniel, Cheng, or Libra:'''
+:*“There’s no glory in needless killing. You’d do well to keep that in mind.”
+:*“We all have our regrets in life. The only thing that we can do is to keep marching on.”
+
+'''If named Scorpio:'''
+:*“There’s no military genius greater than I am. I bet I could even take on the Tyrant’s forces myself!”
+:*“I’m no braggart! Stop calling me that!”
+
+'''If named Cancer:''
+:*“Are you well? Not injured? Please stay in good health. This world is doomed without you.”
+:*“You’ll conquer the heavens, and I intend to stand by you every step of the way.”
+:*“An unfortunate name, as I’ve been told. I’ve heard all the jokes.”
+
+'''If named Sagittarius:'''
+:*“This takes me back to years ago. I’d tell you stories, but we’d be here forever!”
+:*“An old soldier is a good one. It means they still haven’t been killed.”
+
+'''If named Aquarius:'''
+:*“Defy that vile Tyrant at every opportunity that presents itself. He’s earned grudges, not respect.”
+:*“Bad orders are bad orders. Don’t let fear of authority pressure you into committing war crimes.”
+
+'''If named Capricorn:'''
+:*“The Tyrant’s plans are much too haphazard to be any good. Knock some sense into him.”
+:*“Formations have a purpose! Not that it matters to a walking army like you.”
+
+'''If named Taurus:'''
+:*“The iron rule of any charge is to keep moving forwards, no matter what.”
+:*“Bad orders are still orders. So grit your teeth and accept what must be done.”
+
+'''If named Leo:'''
+:*“Don’t get too full of yourself. Not while I’m here, at least!”
+:*“There’s still plenty for you to learn. The best lessons are taught on the battlefield."
+'''If named Nishikiyama:'''
+:*“What you think you're better than me?”
+:*“Bring that shit [player name]"
+:*"How do you like this!?"
+
+'''During [[night]]:'''
+:*“I’m quite familiar with nighttime ambushes. Most of them I planned myself.”
+:*“There’s something quaintly romantic about the moon reflecting off of newly-polished weaponry.”
+:*“Planning usually happens when the soldiers are asleep. They’ll never realize that there’s not usually a plan.”
+:*“I’m no stranger to a seemingly endless slew of the undead. No stranger at all…”
+
+'''During a [[party]]:'''
+:*“I’ve often had to wine and dine with wealthy benefactors of war, so something more casual’s a refreshing change of pace.”
+
+'''If the [[Arms Dealer]] is present:'''
+:*“Peh. [Name of Arms Dealer] leaves a bad taste in my mouth. He’s just an amateur in munitions, which makes him all the more dangerous.”
+
+'''If the [[Goblin Tinkerer]] is present:'''
+:*“It’s always important to make sure that your weapons are well-maintained. I do wish that [Name of Goblin Tinkerer] would charge less, though…”
+
+'''If the [[Tax Collector]] is present:'''
+:*“Taxes and war go hand in hand. Both are pretty thankless but necessary for the common good. Send [Name of Tax Collector] my regards.”
+
+'''If the [[Pirate]] is present:'''
+:*“Who the hell let [Name of Pirate] have a cannon?! Trusting pirates with just about anything is a recipe for disaster!”
+
+'''If the [[Brimstone Witch]] is present:'''
+:*“Nice to see that our luck’s turning around. That Calamitas reminds me an awful lot of a good friend of mine…”
+
+'''If [[Rain|raining]]:'''
+:*“Rain is always terrible for morale. It’s hard to march, ruins the supplies, and you can’t tell bullets from the weather.”
+
+'''If in the [[Dungeon]]:'''
+:*“How revolting. Who’d construct a fortress this easy to invade? No wonder it’s been overrun by monsters.”
+
+'''During any invasion:'''
+:*“And they call this an army? How laughable. Put me in charge, and I’ll whip them into shape!”
+
+'''During the [[tgc:Old One's Army|Old One’s Army]]:'''
+:*“Shouldn’t you be defending something right now? Get to it! We can’t let the enemy breach our defenses!”
+
+'''If [[Astrum Deus]] is alive:'''
+:*“Splitting yourself in fragments just so that you can continue living… That hits a bit close to home. Not that you’d know.”
+
+'''If the player is under the effects of [[alcohol]]:'''
+:*“Inebriation on the battlefield is a one-way ticket to the pit. For you, though, I can make an exception.”
+
+'''If [[Signus]] has been defeated:'''
+:*“I’m no stranger to assassins. Few were as blatant as that one.”
+
+'''If the [[The Fabricational Quartet]] are destroyed, but Draedon is alive:'''
+:*“Shouldn’t that thing be retreating? Aren’t they afraid that we’d capture them for information?” 
+
+'''If the [[Cyborg]] is present:'''
+:*“Am I seeing things, or is there a weaponized drone on the loose?”
+
+'''If the [[Guide]] has never been present (eg, on a secret world seed):'''
+:*“Surely you haven’t been just running amok and somehow thwarting the Tyrant without guidance? That’s both terrifying and impressive.”
+
+'''If not in a Constant world:'''
+:*“I was starting to plan logistics, but does anyone even need to eat?”
+
+'''If the player’s name is “Aries” or “kkpro”:'''
+:*“I  KILL   YOU !  !!!”
+
+== Trivia ==
+*It’s implied that the General’s potential names correspond to different fragments of his soul.
+*The General can not be named Virgo, Aries, or Pisces despite otherwise having a Zodiac theme. The reason for this is unknown.
+**The General’s seemingly irrational hatred for people named Aries may be related.
+*The General is referred to as "YEENA" in the mod's source files, a reference to the beta tester reference in the [[Holiday Halberd]]'s flavor text, whose online username is "Yeena".
+
+{{Master Template Characters
+| show-main = yes
+| show-npc = yes
+|show-boss=yes}}

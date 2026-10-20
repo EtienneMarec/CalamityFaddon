@@ -1,0 +1,17 @@
+{{item infobox
+| type = Ammunition
+| stack = 9999
+| rare = 3
+| tooltip = Used by the Clentaminator<br/>Spreads the Astral Infection
+| buy = {{sc|5}}
+| consumable = yes
+| sell = {{value|0|0|1}}
+| hardmode = yes
+}}
+
+'''Astral Solution''' is a [[Hardmode]] [[solution]] that is sold by the [[Steampunker]]. It is usable in the [[Clentaminator]] and spreads the [[Astral Infection]] to any non-infected block.
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-ammo = yes
+}}

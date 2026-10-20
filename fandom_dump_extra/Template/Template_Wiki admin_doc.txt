@@ -1,0 +1,14 @@
+This is a simple template providing standardized formatting for entries in the [[Template:Curse wiki staff list|Curse wiki staff list]] and [[Template:Community_admins_list|community admin list]]. 
+
+'''Usage''':
+:{{tlx|Wiki admin|account name}}
+
+'''Note''': The template must be enclosed within a table and does not include a row break character.
+
+'''Example''':
+:{{tlx|Wiki admin|Game widow}}
+
+'''Result''':
+{|
+{{Wiki admin|Game widow}}
+|}

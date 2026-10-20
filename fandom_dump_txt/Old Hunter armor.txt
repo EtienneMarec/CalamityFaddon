@@ -1,0 +1,46 @@
+{{item infobox
+| type = Vanity
+| type2 = Armor
+| rare = 1
+| sell = {{value|0|0|63|15}} (set)
+}}
+
+'''Old Hunter armor''' is a craftable [[Pre-Hardmode]] [[vanity]] set. It requires 3 [[Black Ink]] and [[Desert Prowler armor]] to craft the entire set.
+
+It consists of a '''Old Hunter Hat''', '''Old Hunter Shirt''', and '''Old Hunter Pants'''.
+
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Old Hunter Hat
+| type = Vanity
+| body slot = Social Helmet
+| sell = {{value|0|0|21|5}}
+}}
+|{{item infobox
+| name = Old Hunter Shirt
+| type = Vanity
+| body slot = Social Shirt
+| sell = {{value|0|0|21|5}}
+}}
+|{{item infobox
+| name = Old Hunter Pants
+| type = Vanity
+| body slot = Social Pants
+| sell = {{value|0|0|21|5}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Old Hunter%}}
+
+== Trivia ==
+*This armor set may be a reference to "Hunter's Set" from the FromSoftware game Bloodborne.
+
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

@@ -1,0 +1,40 @@
+{{npc infobox
+| type = Enemy
+| environment = Desert
+| ai = Ogsculian Burrower AI
+| damage = {{element|Unholy}} {{dv|25|50}}
+| life = {{dv|70|140}}
+| defense = 10 
+| dr = 5%
+| knockback = 0
+| money = {{value|0|0|1|0}}
+| debuff = Vulnerability Hex
+| debuffchance = 100%
+| duration = 2 seconds
+| immune1 = Vulnerability Hex
+| immune2 = Confused
+| immune3 = Kami Flu
+| immune4 = Brimstone Flames
+| banner = yes
+| Desert Feather | 2-3 | 100%
+| hurt = NPC_Hit_42.wav
+| killed = NPC_Killed_27.wav
+| sound = Zombie_104.wav
+| soundtext = Shoot
+| vulnerable1 = Water
+| vulnerable2 = Fire
+| vulnerable3 = Cold
+| vulnerable4 = Stab
+| vulnerable5 = Slash
+| resistant1 = Magic
+| resistant2 = Unholy
+| resistant3 = Holy
+| resistant4 = Poison
+}}
+The '''Ogsculian Burrower''' is an uncommon Pre-[[Hardmode]] [[enemy]] which spawns in the [[Desert]]. They can also spawn in massive numbers during the [[Ogswarm]]. In the desert, they initially hide themselves by appearing as barely noticeable holes on the ground. Upon getting close enough, they will pop out and fire a red deathray upwards which passes through tiles and rotates in the direction away from the player. During the Ogswarm, they will always be visible and will always fire deathrays no matter how far the player is.
+{{-}}
+
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

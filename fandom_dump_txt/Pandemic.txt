@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 66
+| knockback = 2.5
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| use = 22
+| reach = 28.125
+| attduration = {{infinity}}
+| auto = yes
+| tooltip = Fires plague seekers when enemies are near<br/>A very agile yoyo
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| debuffduration = 4 seconds (Yoyo)<br/>3 seconds (Seeker)
+| hardmode = yes
+| proj = Pandemic Yoyo.png
+| projcaption = Pandemic
+| element1 = Poison
+| element2 = Machine
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Pandemic''' is a [[Hardmode]] [[yoyo]] dropped by [[The Plaguebringer Goliath]]. Similar to the [[Oblivion]], the Pandemic constantly fires plague seekers at nearby enemies; plague seekers deal 75% of the yoyo's damage. Both the yoyo and its plague seeker projectiles inflict the [[Plague]] [[debuff]].
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*A [[wikipedia:pandemic|pandemic]] is a real world event where a dangerous disease spreads to multiple different countries and regions. As we all know.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]

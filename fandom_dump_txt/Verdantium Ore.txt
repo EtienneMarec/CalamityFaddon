@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 180
+| stack = 9999
+| use = 14
+| rare = 7
+| value = 710
+| color = #C8FA64
+| sell = {{value|0|0|18|0}}
+| hardmode = yes
+}}
+|{{item drops infobox
+|[[Verdant Slime]]|10-26|100%
+}}
+}}
+<big> ''"Even energizeder plant matter has formed in the underground."'' </big>
+
+'''Verdantium Ore''' is a [[Hardmode]] [[Ores|ore]] which generates in [[Dirt Block|Dirt]], [[Mud Block|Mud]], and [[Stone Block]]s in the [[Jungle]] and [[Baron Strait]] after [[Duke Fishron]] has been defeated, and is used to craft [[Verdantium Bar]]s at an [[Adamantite Forge]] or a [[Titanium Forge]]. It requires at least an [[Seismic Hampick]] to mine. It is also dropped by [[Verdant Slime]]s.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Verdantium Ore can be destroyed by explosives, especially after Plantera has been defeated.
+*Verdantium Ore can generate in [[Astral Dirt]] or [[Astral Stone]].
+
+
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

@@ -1,0 +1,31 @@
+{{infobox wrapper
+|{{item infobox
+|type = Potion
+|tooltip = Melee, Whip, and Rogue attacks inflict Plague
+|stack = 9999
+|research = 20
+|rare = 7
+|use = 17
+|consumable = yes
+|buff = Weapon Imbue: Plague | bufflink = no
+|duration = 20 minutes
+|debuff = Plague
+|debuffchance = 100%
+|debuffduration = 3 seconds (On hits)
+|hardmode = yes
+|sell = {{value|0|0|40|0}}
+}}
+|{{item drops infobox
+|[[Plaguebringer Goliath]]|5-15|10%
+}}
+}}
+
+The '''Flask of Plague''' is a [[Hardmode]] [[flask]] dropped by [[The Plaguebringer Goliath]]. It grants the user the '''Weapon Imbue: Plague''' [[buff]] when consumed, which causes [[melee weapons|melee]], [[whip]], and [[rogue weapons]] to inflict the [[Plague]] [[debuff]] onto enemies.
+
+== Notes ==
+*1-2 Flasks of Plague can be obtained from [[Jungle Crate|Jungle]] and [[Bramble Crate]]s at a 15% chance once [[The Plaguebringer Goliath]] has been defeated.
+
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

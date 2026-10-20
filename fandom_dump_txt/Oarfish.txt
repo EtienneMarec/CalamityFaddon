@@ -1,0 +1,89 @@
+{{npc infobox
+| type = Burrowing Enemy
+| type2 = Aquatic
+| environment = Abyss
+| ai = Oarfish AI
+| life = {{dv|4,000|8,000}}
+| knockback = 100
+| hardmode = yes
+| listexclude = yes
+| debuff = Bleeding
+| debuffchance = 100%
+| duration = 5 seconds
+| debufftip = Cannot regenerate life
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| banner = yes
+| money = {{sc|20}}
+| custom | {{item|Depth Cells|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|3-5|4-7}}) | 50%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+The '''Oarfish''' is an [[enemy]] that spawns in the 2nd and 3rd layers of the [[Abyss]]. It is a long enemy with multiple segments. Like most [[Abyss]] enemies, it won't attack the player unless they get too close or they attack it. It attacks by using its very long body to trap the player.
+
+== Segments ==
+{|
+|-style="vertical-align:bottom"
+|{{npc infobox
+| type = Burrowing Enemy
+| type2 = Aquatic
+| name = Oarfish Head
+| ai = Oarfish AI
+| life = {{dv|4,000|8,000}}
+| damage = {{element|Water}} {{dv|60|120}}
+| defense = 10
+| knockback = 100
+| hardmode = yes
+| vulnerable1 = Cold
+| vulnerable2 = Poison
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Dark
+| resistant3 = Fire
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| type2 = Aquatic
+| name = Oarfish Body
+| ai = Oarfish AI
+| life = {{dv|4,000|8,000}}
+| damage = {{element|Water}} {{dv|30|60}}
+| defense = 20
+| knockback = 100
+| hardmode = yes
+| vulnerable1 = Cold
+| vulnerable2 = Poison
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Dark
+| resistant3 = Fire
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| type2 = Aquatic
+| name = Oarfish Tail
+| ai = Oarfish AI
+| life = {{dv|4,000|8,000}}
+| damage = {{element|Water}} {{dv|15|30}}
+| defense = 30
+| knockback = 100
+| hardmode = yes
+| vulnerable1 = Cold
+| vulnerable2 = Poison
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Dark
+| resistant3 = Fire
+}}
+|}
+
+== Trivia ==
+*[[wikipedia:Oarfish|Oarfish]] in real life live in deep sea away from turbulent, shallow water. The name likely refers to the discarded belief that the fish use their pelvic fins to "row" through water.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

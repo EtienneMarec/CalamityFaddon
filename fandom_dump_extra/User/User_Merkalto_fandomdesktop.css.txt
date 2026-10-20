@@ -1,0 +1,32 @@
+/* removing things */
+/* including:
+	ad grid at bottom, ad/customizable shortcut bar, category/language bar at top, license description at bottom, fandom links footer, right rail
+*/
+#mixed-content-footer, #WikiaBar, .page-header__top, .license-description, .wds-global-footer, .page__right-rail {
+	display: none;
+}
+/* sticky page side toolbar */
+.page-side-tools__wrapper {
+	display: none;
+}
+/* remove left bar, except user icon/notifications */
+.global-navigation {
+	background: none;
+    box-shadow: none;
+}
+.global-navigation__nav {
+	display: none;
+}
+.global-navigation__bottom {
+	background: none;
+}
+/* adjust page content to the extra space left by the left bar */
+.main-container {
+	margin-left: 0;
+	width: 100%;
+}
+
+/* changing background opacity to match old hydradark (rip) */
+.main.page__main {
+	background-color: rgb(32, 32, 32, 0.9) !important;
+}

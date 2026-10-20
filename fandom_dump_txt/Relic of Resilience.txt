@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Tool
+| tooltip = Summons a bulwark at the mouse position<br/>The bulwark is killed by enemies and all projectiles.<br/>On death, the bulwark explodes into a rotating burst of shards<br/>If an enemy is in the area of the shards, its next attack is much weaker. This effect has a cooldown<br/>After a bit of time, the shards come together to reform the original bulwark.<br/>This reformation can only happen 3 times.<br/>You gain a small cooldown when summoning a new bulwark.<br/>If a bulwark already exists, using this item will relocate it
+| use = 28
+| rare = 11
+| sell = {{value|0|24|0|0}}
+| stack = 1
+| debuff = Resilience Cooldown
+| debuffduration = 5 seconds
+| debufftip = You cannot re-summon a relic of resilience
+| debufflink = no
+| debuff2 = Profaned Weakness
+| debuffduration2 = 3 seconds
+| debufftip2 = You do less damage
+| debufflink2 = no
+| hardmode = yes
+| postml = yes
+| proj = Artifact of Resilience Shards.png
+| projcaption = Artifact of Resilience Shards
+}}
+|{{item drops infobox
+| [[Profaned Guardian (Rock)]] |1|25%
+}}
+}}{{summoned|Artifact of Resilience}}
+The '''Relic of Resilience''' is a Godseeker Mode [[tool]] that is dropped by the Rock [[Profaned Guardian]]. When used, it summons a spinning circular Artifact of Resilience at the mouse cursor. After taking enough damage, it will break apart into eight intangible shards that orbit around the breaking area, then slowly converge and reform back into the Artifact over the course of five seconds. Enemies near the shards will be inflicted with '''Profaned Weakness''', which reduces their next attack's damage by 45%. After the Artifact reforms three times, the next time it is damaged it will instead shatter and despawn.
+
+Using this item again while an Artifact is already deployed will cause the Artifact to move to the new location of the mouse cursor.
+
+== Notes ==
+*Both [[enemies]] and the player can destroy the Artifact.
+*Using this item while the Artifact is currently broken into pieces will not instantly reform the Artifact, it will simply move the location that the pieces orbit around and later reform to.
+
+== Trivia ==
+*In previous versions of the mod, the Relic of Resilience was able to delete any projectiles on contact. However, this was replaced with the Artifact only weakening projectiles and enemies.
+**The projectile deletion effect could instantly remove parts of [[Yharon]]'s Flarenados, [[Supreme Calamitas]]' Brimstone Monsters and even minions.
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-other = yes
+}}

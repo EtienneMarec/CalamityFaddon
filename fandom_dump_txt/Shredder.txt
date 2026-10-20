@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 27
+| knockback = 1.5
+| rare = 11
+| sell = {{value|0|22}}
+| stack = 1
+| auto = yes
+| velocity= 12
+| use = 32
+| tooltip = The myth, the legend, the weapon that drops more frames than any other<br/>Fires a barrage of energy bolts that split and bounce<br/>Right click to fire a barrage of normal bullets
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+}}
+[[file:Shredder (demo).gif|frame|thumb|right|The Shredder's primary and secondary attacks.]]
+The '''Shredder''' is a craftable Godseeker Mode [[gun]]. The primary fire (left-click) shoots a barrage of fast-moving blue energy bolts which split off in many directions and speeds upon impacting any enemy or tile and deal 85% damage. The secondary fire (right-click) shoots an equivalent barrage of normal bullets. Both firing modes shoot an identical number of projectiles and have the same firing speed and spread pattern. Each shot has a use time of 3.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Shredder's secondary fire (right-click) can use any type of bullet ammo and will ''not'' change used bullets into [[Musket Ball]]s.
+*This weapon can cause extreme lag when fired continuously. The secondary fire will cause more lag with bullets that create many particles, such as [[Chlorophyte Bullet]]s, [[Holy Fire Bullet]]s or [[Acid Round]]s.
+
+== Trivia ==
+*While the weapon was originally meant as a reference to the Shredder from ''[[wikipedia:Turok 2: Seeds of Evil|Turok 2: Seeds of Evil]]'', the item underwent changes in development and is now mainly a reference to the Shredifier (and the Infinity) from ''[[wikipedia:Borderlands 2|Borderlands 2]]''.
+*Its tooltip is in reference to the processor-intensive effects of the primary attack, causing frame rate drops on many players' devices.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

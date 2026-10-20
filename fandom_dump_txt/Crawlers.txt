@@ -1,0 +1,196 @@
+{{npc infobox
+| imagealt = [[File:Topaz Crawler.png]]&nbsp;[[File:Amethyst Crawler.png]]&nbsp;[[File:Sapphire Crawler.png]]&nbsp;[[File:Emerald Crawler.png]]<br/>[[File:Ruby Crawler.png]]&nbsp;[[File:Diamond Crawler.png]]&nbsp;[[File:Amber Crawler.png]]&nbsp;[[File:Crystal Crawler.png]]
+| type = Enemy
+| ai = Crawler AI
+| listexclude = yes
+| hurt = NPC_Hit_33.wav
+| killed = NPC_Killed_36.wav
+}}
+<big> ''"Have you seen those gemstone creatures in the caverns? Their colors are simply breathtaking!"'' </big>
+
+'''Crawlers''' are a group of primarily-[[Pre-Hardmode]] [[enemies]] that are either found in the [[Underground]] layer, the [[Cavern]] layer, or a specific underground [[biome]], depending on their type. They currently come in eight varieties:
+*One for each of the six [[gem]] types, found in either the Underground or Cavern layers depending on gem value.
+*One for [[Amber]], exclusive to the [[Underground Desert]].
+*One for [[Crystal Shard]]s, exclusive to the [[Underground Hallow]] and therefore [[Hardmode]].
+
+Crawlers spawn hiding in their gem shells. When damaged, they begin to run away from the player.
+
+== Variations ==
+=== Underground layer ===
+{{infobox wrapper|direction=row|float=none
+|{{npc infobox
+| imagealt = [[File:Topaz Crawler (Hiding).png]] [[File:Topaz Crawler.png]]
+| name = Topaz Crawler
+| type = Enemy
+| environment = Underground
+| damage = {{dv|12|24}}
+| knockback = {{dv|15%|23.5%}}
+| ai = Crawler AI
+| life = {{dv|45|90}}
+| defense = 4
+| banner = yes
+| money = {{value|0|0|0|30}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| Topaz| 2-4|100%
+| Scuttler's Jewel|1| 10%
+| vulnerable1 = Machine
+| vulnerable2 = Smash
+}}
+|{{npc infobox
+| imagealt = [[File:Amethyst Crawler (Hiding).png]] [[File:Amethyst Crawler.png]]
+| name = Amethyst Crawler
+| type = Enemy
+| environment = Underground
+| damage = {{dv|15|30}}
+| life = {{dv|60|120}}
+| defense = 4
+| knockback = {{dv|25%|32.5%}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| ai = Crawler AI
+| banner = yes
+| money = {{value|0|0|0|30}}
+| Amethyst| 2-4|100%
+| Scuttler's Jewel|1| 10%
+| vulnerable1 = Machine
+| vulnerable2 = Smash
+}}
+|{{npc infobox
+| imagealt = [[File:Sapphire Crawler (Hiding).png]] [[File:Sapphire Crawler.png]]
+| name = Sapphire Crawler
+| ai = Crawler AI
+| type = Enemy
+| knockback = {{dv|35%|41.5%}}
+| environment = Underground
+| damage = {{dv|18|36}}
+| life = {{dv|90|180}}
+| defense = 6
+| banner = yes
+| money = {{value|0|0|1|0}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| Sapphire| 2-4|100%
+| Scuttler's Jewel|1| 10%
+| vulnerable1 = Machine
+| vulnerable2 = Smash
+}}
+}}
+
+=== Cavern layer ===
+{{infobox wrapper|direction=row|float=none
+|{{npc infobox
+| imagealt = [[File:Emerald Crawler (Hiding).png]] [[File:Emerald Crawler.png]]
+| ai = Crawler AI
+| name = Emerald Crawler
+| knockback = {{dv|45%|50.5%}}
+| type = Enemy
+| environment = Cavern
+| damage = {{dv|20|40}}
+| life = {{dv|105|210}}
+| defense = 6
+| banner = yes
+| money = {{value|0|0|1|0}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| Emerald| 2-4|100%
+| Scuttler's Jewel|1| 10%
+| vulnerable1 = Machine
+| vulnerable2 = Smash
+}}
+|{{npc infobox
+| imagealt = [[File:Ruby Crawler (Hiding).png]] [[File:Ruby Crawler.png]]
+| name = Ruby Crawler
+| type = Enemy
+| ai = Crawler AI
+| knockback = {{dv|55%|59.5%}}
+| environment = Cavern
+| damage = {{dv|23|46}}
+| life = {{dv|135|270}}
+| defense = 8
+| banner = yes
+| money = {{value|0|0|1|0}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| Ruby|2-4|100%
+| Scuttler's Jewel|1| 10%
+| vulnerable1 = Machine
+| vulnerable2 = Smash
+}}
+|{{npc infobox
+| imagealt = [[File:Diamond Crawler (Hiding).png]] [[File:Diamond Crawler.png]]
+| ai = Crawler AI
+| name = Diamond Crawler
+| type = Enemy
+| knockback = {{dv|65%|68.5%}}
+| environment = Cavern
+| damage = {{dv|24|48}}
+| life = {{dv|150|300}}
+| defense = 8
+| banner = yes
+| money = {{value|0|0|2|0}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| Diamond| 2-4|100%
+| Scuttler's Jewel|1| 10%
+| vulnerable1 = Machine
+| vulnerable2 = Smash
+}}
+}}
+
+=== Biome-specific ===
+{{infobox wrapper|direction=row|float=none
+|{{npc infobox
+| imagealt = [[File:Amber Crawler (Hiding).png]] [[File:Amber Crawler.png]]
+| name = Amber Crawler
+| type = Enemy
+| environment = Underground Desert
+| ai = Crawler AI
+| damage = {{dv|25|50}}
+| life = {{dv|90|180}}
+| defense = 10
+| knockback = {{dv|70%|73%}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| banner = yes
+| money = {{value|0|0|0|80}}
+| Amber|2-4| 100%
+| Scuttler's Jewel|1| 10%
+| vulnerable1 = Machine
+| vulnerable2 = Smash
+}}
+|{{npc infobox
+| imagealt = [[File:Crystal Crawler (Hiding).png]] [[File:Crystal Crawler.png]]
+| name = Crystal Crawler
+| type = Enemy
+| ai = Crawler AI
+| environment = Underground Hallow
+| knockback = {{dv|85%|86.5%}}
+| damage = {{dv|35|70}}
+| life = {{dv|300|600}}
+| defense = 12
+| banner = yes
+| money = {{value|0|0|5|0}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| Crystal Shard|2-4|100%
+| Crystal Blade|1| 20%
+| Scuttler's Jewel|1| 10%
+| hardmode = yes
+| vulnerable1 = Machine
+| vulnerable2 = Smash
+}}
+}}
+
+== Notes ==
+*The existence of the crawlers makes farming for gems and crystals a lot easier and allows [[Amber]] to be obtained without needing to use the [[Extractinator]].
+
+== Trivia ==
+*Their damage and defense are sorted from "cheapest" gem to "most expensive" gem.
+*In previous versions of the mod, the Crawlers would attack the player with standard Fighter [[AI]] instead of hiding and fleeing.
+
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+| show-hardmode = yes
+}}

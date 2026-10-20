@@ -1,0 +1,33 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 25
+| mana = 10
+| knockback = 2
+| use = 29
+| tooltip = Summons a really hot flower over your head<br/>There can only be one flower
+| buff = Cinder Blossom (buff) | bufflink = no
+| bufftip = A hot, searing flower is floating uncomfortably close to you
+| stack = 1
+| rare = 3
+| sell = {{value|0|0|80}}
+| element1 = Fire
+}}
+{{summoned|Cinder Blossom|type=minion}}
+
+The '''Cinder Blossom Staff''' is a craftable [[Pre-Hardmode]] [[summon weapon]]. When used, it summons a fiery flower minion above the player’s head which shoots a volley of three flaming cinders above a nearby enemy. The cinders are able to linger on the ground for a short time. Unlike most minions, only one Cinder Blossom can be summoned.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

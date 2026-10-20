@@ -1,0 +1,37 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damage = 5980
+| use = 2
+| stack = 1
+| rare = 15
+| sell = {{value|0|90}}
+| tooltip = 'auric man is always useful dead or alive' - John C.A. Lamity<br/>Holds out a corpse shield that can deflect enemies or projectiles moving towards you<br/>Hit enemies are dealt a significant amount of damage<br/>Hit projectiles are deflected and empowered<br/>If either deflection occurs, the corpse won't be able to be held out for 1 minute
+| hardmode = yes
+| postml = yes
+| element1 = Holy
+| element2 = Poison
+| element3 = Smash
+}}
+
+The '''Tyrant Shield''' is a craftable Godseeker Mode [[classless weapon]]. When used it holds out a corpse of [[Yharim]] in front of the player. If an enemy is moving horizontally in the direction of the corpse and intersects with it, the enemy will take a 5980 classless damage scaling with the player's damage stats. If a projectile is moving horizontally towards the corpse and intersects, it will be reflected and the projectile will become friendly and deal 5980 damage to any enemies it hits. When either event happens, the corpse gets put on cooldown and can't be held out for 1 minute.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The corpse can not deflect projectiles or enemies that are stationary or moving horizontally away from it.
+*Any deathrays or beam attacks can not be deflected.
+*The corpse is able to destroy [[Supreme Calamitas]]' Brimstone Monsters.
+{{-}}
+{{auric}}
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

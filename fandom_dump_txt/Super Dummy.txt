@@ -1,0 +1,60 @@
+{{infobox wrapper
+|{{item infobox
+| type = Summoning
+| type2 = Crafting material
+| stack = 1
+| rare = 1
+| use = 14
+| tooltip = Creates a super dummy<br/>Regenerates 1 million life per second<br/>Will not die when taking damage over time from debuffs<br/>Right click to kill all super dummies
+| sell = No value
+}}
+|{{npc infobox	
+| type = Enemy
+| imagealt = [[File:Super Dummy (enemy).png]] [[File:Super Dummy (enemy).gif]]
+| ai = No AI
+| life = 9,999,999
+| damage = 0
+| defense = 0
+| knockback = 100
+| immune1 = Kami Flu
+| hurt = NPC_Hit_15.wav
+| killed = NPC_Killed_2.wav
+}}
+}}
+
+The '''Super Dummy''' is a craftable [[Pre-Hardmode]] [[summoning item]] which spawns a '''Super Dummy''' [[enemy]] when used with left-click. This enemy is nigh-invincible, with a whopping 9,999,999 health that it is constantly regenerating. It also cannot be killed by damage-over-time from inflicted [[debuffs]]. However, right-clicking with the Super Dummy item in hand will cause all Super Dummy enemies to immediately be killed.
+
+Due to the Super Dummy enemy's high resilience and inability to harm the player (despite being an enemy), it is considered an improved alternative to the [[Target Dummy]]. It features several practical advantages to Target Dummies, including more accurate DPS numbers when using the [[tgc:DPS Meter|DPS Meter]] or any of its successors, the ability for [[weapon]] projectiles to home in on it, and the ability for [[minions]] to target it.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Super Dummies cannot be hit if a boss is currently alive.
+**This effect also applies to the Target Dummy.
+*The Super Dummy enemy appears to be a normal Target Dummy but with a red target instead of a face, allowing the two to be differentiated.
+*Because it is an enemy, the Super Dummy will turn to face the player, unlike the Target Dummy.
+**In addition, the Super Dummy will pick up [[coins]] from the ground in [[Expert Mode]].
+
+== Tips ==
+*It can be useful to activate the special effects of weapons, such as the [[lifesteal]] of [[Vampire Knives]], or weapons that grant buffs on hit, such as [[Grax]].
+**This will not work during boss fights.
+*By spawning a handful of Super Dummies, enemy spawns will cease, due to Super Dummies counting towards the enemy max spawn. This can be very handy for building in high-spawn locations such as the [[Jungle]].
+**Be wary of where the dummies are spawned, however, as if the player moves too far away from a cluster of them, they are prone to despawning.
+
+== Trivia ==
+*It is possible to kill the Super Dummy if the player is able to deal enough damage to it to surpass its high life regeneration and it is currently not under any damage-over-time debuffs.
+*The Super Dummy is affected by the [[Nullification Pistol]] and the [[Molecular Manipulator]].
+*In earlier versions of the mod, the Super Dummy's item sprite was that of the Target Dummy's.
+
+{{Master Template Consumables
+|show-main = yes
+|show-other = yes
+}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

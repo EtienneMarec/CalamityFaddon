@@ -1,0 +1,78 @@
+{{Patch infobox
+| image = Bloodstone Core (1.1.7.861).png
+| patchname = Bloodstone Update
+| release = 5/11/2017
+}}
+The '''1.1.7.861''' update added [[Bloodstone]] and a set of [[weapons]] themed around it. The update also buffed [[The Devourer of Gods]] and focused on reducing the amount of dust created by many of the mod's [[bosses]] and [[enemies]] in order to reduce lag.
+
+== Additions ==
+*Added [[Bloodstone]] and [[Bloodstone Core]].
+*Added [[Arterial Assault]], [[Bloodfire Arrow]], [[Lacerator]], [[Mourningstar]], [[The Mutilator]], [[Phangasm]], [[Sanguine Flare]], [[Solar Flare]], [[Telluric Glare]], and [[Viscera]].
+*Added [[Bloodflare Core]] and [[Psychotic Amulet]].
+*Added [[Arid Artifact]].
+
+== Changes ==
+=== Bosses and Enemies ===
+*Defeating [[Providence, the Profaned God]] will now cause the following bosses and enemies to gain increased health, damage, defense, and coin drops along with dropping varying amounts of Bloodstone:
+**[[Brimstone Elemental]].
+**[[Calamitas]].
+**[[Cultist Assassin]].
+**[[Despair Stone]].
+**[[Ravager]].
+**[[Scryllar]].
+**[[Soul Slurper]].
+*Brimstone Elemental and [[Bumblebirb]] now have gores.
+*Calamitas changes:
+**Lasers and [[Catastrophe]]'s fireballs now produce less dust.
+**[[Cataclysm]]'s flamethrower projectiles now last 1.5 seconds each instead of 1.
+**All projectiles during the fight no longer gain increased damage in [[Prepare to Die]] and Prepare to Cry modes.
+**Brothers are now immune to all debuffs.
+*Cultist Assassins now drop 1-2 [[Essence of Chaos|Essences of Chaos]] instead of 1, and now spawn more frequently.
+*Despair Stones, Scryllars, and Soul Slurpers now drop 1-2 Essences of Chaos.
+*[[The Devourer of Gods]] changes:
+**Buffed head's contact damage from {{dv|330|650}} to {{dv|350|750}}.
+**Buffed tail's contact damage from {{dv|55|71}} to {{dv|200|320}}.
+**Now has 122 segments instead of 102.
+**Head now takes 4 times more damage.
+**Decreased base speed.
+**Now gains increases to its speed as its health lowers.
+**Now burrows into the ground and despawns if all players are dead.
+**Head and tail now take 1 damage from any attack that would deal over half of its max health,  accompanied by the message, "You think...you can butcher...ME!?" if its the head that's hit.
+**Head and tail now create less dust when hit.
+**Head no longer inflicts [[Chilled]].
+*[[The Hive Mind]]'s Vile Clot projectiles now produce less dust.
+*All of [[Jungle Dragon, Yharon]]'s projectiles and [[Detonating Flame]]s now produce less or no dust.
+*[[The Plaguebringer Goliath]] now produces less dust when hit and her missiles now explode on blocks and produce less dust.
+*All of Providence, the Profaned God's projectiles now produce less or no dust.
+*All of Providence, the Profaned God's projectiles except her Holy Spears now inflict [[Holy Flames]] for 2 seconds instead of 1.
+*Ravager can now only naturally spawn on the [[Surface]], and its spawn rate has been slightly reduced.
+
+=== Items ===
+*Buffed [[Alluvion]]'s damage from 125 to 140.
+*Buffed [[Ark of the Cosmos]]' use time from 18 to 15.
+*[[Asgardian Aegis]] and [[Elysian Aegis]]' explosion now hits every 4 frames.
+*[[Azathoth]]'s yoyo and orbs now hit every other frame and its orbs now deals the weapon's full damage instead of 75%.
+*[[The Burning Sky]]'s meteors now last for 2 seconds instead of 5.
+*[[Counter Scarf]]'s [[Scarf Cooldown]] now lasts for 5 seconds instead of 2.
+*[[Effluvium Bow]]'s arrows now collide with blocks.
+*Nerfed [[Galaxia]]'s use time from 15 to 17.
+*Altered [[Heart of the Elements]]' lighting and made it no longer passively damage enemies that get near the player.<!---Done to reduce lag--->
+*All [[legendary weapons]] now use the vanilla game's built in bools to alter their stats instead of custom ones.
+*[[The Obliterator]]'s yoyo now hits every 3 frames.
+
+=== Other ===
+*[[Aerialite Ore]] can now be blown up after the [[Eater of Worlds]] or [[Brain of Cthulhu]] have been defeated.
+*[[Chaotic Ore]] can now be blown up after [[Golem]] has been defeated, and no longer appears on the [[Metal Detector]] before Hardmode.
+*[[Charred Ore]] can now be blown up after [[Plantera]] has been defeated, and no longer appears on the Metal Detector before Hardmode.
+*[[Cryonic Ore]] can now be blown up after [[Cryogen]] has been defeated, and no longer appears on the Metal Detector before Hardmode.
+*[[Perennial Ore]] can now be blown up after [[Plantera]] has been defeated, and no longer appears on the Metal Detector before Hardmode.
+*[[Uelibloom Ore]] can now be blown up after the [[Moon Lord]] has been defeated, and no longer appears on the Metal Detector before Hardmode.
+
+== Fixes ==
+*Fixed [[Ambrosial Ampoule]] and [[Honey Dew]] not providing protection against The Plaguebringer Goliath's large [[Plague Charger]]s.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

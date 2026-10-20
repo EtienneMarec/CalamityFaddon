@@ -1,0 +1,48 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| tooltip = Industrial tool used to fuse metal together with super-heated plasma<br/>Right click for turbo mode<br/>Current Charge: [CHARGE]
+| debuff = On Fire!
+| debuffchance = 100%
+| debufftip = Losing life
+| debuffduration = 3 seconds
+| debuff2 = Cursed Inferno
+| debuffchance2 = 100%
+| debufftip2 = Losing life<br/>All damage taken increased by 20%
+| debuffduration2 = 1.5 seconds
+| damage = 705
+| use = 45
+| velocity = 5
+| knockback = 7
+| mana = 24
+| rare = a
+| sell = {{value|0|24}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| element1 = Poison
+| element2 = Electricity
+| element3 = Machine
+}}
+
+The '''Plasma Caster''' is a craftable Godseeker Mode [[magic gun]]. When used with the primary fire (left-click), it slowly fires a plasma bolt that does not pierce and creates a large explosion on hit. When used with the secondary fire (right-click), the bolts are fired three times faster, deal one third of the damage, cost one third as much mana, and have lower accuracy. Bolts are able to inflict the [[On Fire!]] and [[Cursed Inferno]] [[debuffs]].
+
+The weapon consumes 0.32 and 0.12 units of [[charge]] per use in primary-fire and secondary-fire respectively, and has a maximum charge of 190.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier4}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The Plasma Caster is a reference to the [https://fallout.fandom.com/wiki/Plasma_caster_(Fallout:_New_Vegas) weapon of the same name] from ''[[wikipedia:Fallout: New Vegas|Fallout: New Vegas]]'', and uses the same firing sound. 
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic guns]]

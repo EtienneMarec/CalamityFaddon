@@ -1,0 +1,52 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Projectile Collision Changes
+| release = 4/27/2017
+}}
+The '''1.1.7.809''' update changed various projectile interactions with [[blocks]]. It also lowered the spawn rates for a few enemies, changed the internal rarities of a few items, and tweaked [[The Devourer of Gods]]' projectiles' dusts.
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*[[Calamitas]]' lasers and [[Cataclysm]]'s fire no longer collide with blocks.
+*[[Crabulon]] no longer spawns directly on the player when using the [[Decapodita Sprout]].
+*The Devourer of Gods' gravity bombs now emit less dust, and its orbs and Beam Portals no longer emit dust.
+*Lowered [[Profaned Energy]]'s spawn rate and made them take up 3 NPC slots.
+*Buffed [[Providence, the Profaned God]]'s offensive guardian's contact damage from {{dv|0|180}} to {{dv|0|230}}.
+*Lowered [[Scorn Eater]]'s spawn rate.
+*Armored [[Stasis Probe]]s now take up 2 NPC slots instead of 1.
+*[[Ungodly Serpent]] changes:
+**Now take up 5 NPC slots instead of 3.
+**Lowered spawn rate.
+**Now flee if the player is not in [[The Hallow]] or [[The Underworld]].
+
+=== [[Items]] ===
+*The following [[weapons]]' projectiles will no longer collide with blocks:
+**[[Blight Spewer]]'s flames.
+**[[Catastrophe Claymore]]'s bolts.
+**[[Cosmilamp]]'s Cosmilamp minions.
+**[[Demonic Pitchfork]]'s pitchforks.
+**[[The Empyrean]]'s flames.
+**[[Entropy's Vigil]]'s lasers and fire.
+**[[Everglade Spray]]'s spray.
+**[[Eviscerator]]'s Blood Clots.
+**[[Havoc's Breath]]'s fireballs.
+**[[Impaler]]'s exploding stakes.
+**[[Meowthrower]]'s flames.
+**[[Oblivion]]'s lasers.
+**Thrown [[Tarragon Throwing Dart]]s.
+**[[Terra Flameburster]]'s flames.
+**[[True Bloody Edge]]'s blade projectiles.
+**[[True Excalibur Shortsword]]'s beams.
+**[[True Night's Stabber]]'s beams.
+**[[True Tyrant's Ultisword]] and [[Tyrant Yharim's Ultisword]]'s Blazing Phantom Blades.
+*Thrown [[Crystal Piercer]]s and [[Xeroc Pitchfork]]s no longer bounce.
+*Resprited [[Effulgent Feather]].
+*[[Elysian Aegis]], [[Profaned Core]], [[Rune of Kos]], [[Treasure Bag (Brimstone Elemental)]], [[Twisting Nether]], and [[Unholy Essence]] now internally use the {{rare|9}} rarity, meaning they can no longer be destroyed in [[Lava]].
+*Buffed [[Neptune's Bounty]]'s damage from 330 to 380.
+*[[Triactis' True Paladinian Mage-Hammer of Might]] now uses 1 [[True Paladin's Hammer]] in its recipe instead of 1 [[Paladin's Hammer]].
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

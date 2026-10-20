@@ -1,0 +1,51 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 324
+| critical = 4%
+| use = 60
+| knockback = 9.50
+| auto = yes
+| stack = 1
+| tooltip = Converts musket balls into .50 caliber sniper rounds that rip apart enemy defense and DR<br/>If you crit the target a second swarm of bullets will fire
+| rare = 14
+| velocity = 12
+| sell = {{value|0|36}}
+| hardmode = yes
+| postml = yes
+| debuff=Marked
+| debuffchance=100%
+| debuffduration=10 seconds
+| debufftip=Damage reduction reduced
+| proj = AMR Bullet.png
+| projcaption = AMR Bullet
+| element1 = Stab
+| element2 = Dark
+}}
+The '''Anti-materiel Rifle''' is a craftable Godseeker Mode [[gun]]. It fires a high-damage [[High Velocity Bullet]], if [[Musket Ball]]s are used as [[ammo]]. If the first bullet critically strikes an [[enemy]], a second swarm of bullets will fly towards the enemy's position from the left side of the screen regardless if the enemy died or not. Holding right click will use its zoom ability, which scrolls the viewing area of the screen in the direction of the cursor in a fashion similar to the [[Sniper Rifle]]. Bullets other than Musket Balls are shot as normal, along with a 130% damage multiplier.
+
+This weapon's bullets inflict the [[Marked]] [[debuff]] onto enemies, decreasing their damage reduction by 50%; in addition, it will also permanently reduce an enemy's defense by 25, which cannot stack with itself.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*If used in conjunction with the set bonus of [[Silva armor]], it is possible to massively heal upon shooting an enemy.
+**However, the Silva armor set is geared towards mages and summoners, so this is not very practical.
+*It is recommended to focus on boosting your critical strike chance while using the Anti-materiel Rifle, as critical strikes will greatly increase its DPS.
+
+== Trivia ==
+*In real life, an ''anti-materiel rifle'' is a rifle that is designed for use against military equipment (or "materiel" in military terminology), rather than against other combatants ("anti-personnel").
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]
+[[zh:反器材狙击步枪]]

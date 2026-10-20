@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| image = Soul of Cryogen.gif
+| type = Covering
+| type2 = Crafting material
+| tooltip = The magic of the ancient ice castle is yours<br/>Counts as wings<br/>Horizontal speed: 6.25<br/>Acceleration multiplier: 1<br/>Average vertical speed<br/>Flight time: 120<br/>7% increase to all damage<br/>All melee attacks and projectiles inflict frostburn<br/>Icicles rain down as you fly
+| rare = -11
+| sell = {{value|0|4|80}}
+| stack = 1
+| hardmode = yes
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 2, 4, or 6 seconds (Melee attacks)
+| proj = Frost Shard.gif
+| projcaption = Icicle Shard
+| element1 = Cold
+| element2 = Stab
+}}
+|{{item drops infobox
+|[[Cryogen]]|1|100%
+}}
+}}
+
+The '''Soul of Cryogen''' is a [[Hardmode]] [[covering]] and [[quest item]] dropped by [[Cryogen]]. It is a [[Wings|wing]] covering, allowing the player to fly and glide, and grants immunity to fall damage. While flying, the player continuously rains down icicle shards that harm enemies on contact, dealing 25 base damage which is boosted by all class damage boosts. The Soul of Cryogen also increases the damage the player deals by 7%, and causes all of the player's melee attacks to inflict the [[Frostburn]] [[debuff]].
+
+==[[Endings|Elemental quest]]==
+Talking to the [[Archmage]] with this item in the player's inventory will display a unique quote, prompting the player to sell the item to the NPC. Doing so initiates the Elemental quest and rewards the player with a unique string of dialogue:
+
+* "Thank you for returning my soul to me, I wasn't feeling so hot...haha."
+* "I have a favor to ask of you. Seven more elementals still exist in the world, relics of when humanity was still patient enough to master the elements. Work with me to claim their powers, and we can restore the world to what it was before it was torn apart by Auric Souls."
+
+== Recipes ==
+===Used In===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*While equipped, melee attacks have a 25% chance for Frostburn to be inflicted for 6 seconds, a 37.5% chance to be inflicted for 4 seconds, and a 37.5% chance to be inflicted for 2 seconds.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

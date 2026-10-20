@@ -1,0 +1,39 @@
+{{dedicated|Atropine Alkaloid|Patreon Donator}}
+{{infobox wrapper
+|{{item infobox
+| type = Vanity
+| type2 = Armor
+| rare = 7
+| hardmode = yes
+| sell = {{value|0|4}} (set)
+}}
+|{{item drops infobox
+| [[Calamitas]] | 1 | 10%
+}}
+}}
+{{distinguish|Calamitous set|A vanity set that drops from [[Supreme Calamitas]]}}
+
+The '''Set of Calamity''' is a [[Hardmode]] [[vanity]] set which consists of the '''Hood of Calamity''' and '''Robes of Calamity'''. The set is collectively dropped from [[Calamitas]] at a 10% chance.
+
+== Set ==
+{{infobox wrapper|direction = row|float = none
+|{{item infobox
+| name = Hood of Calamity
+| type = Vanity
+| body slot = Social Helmet
+| sell = {{value|0|2}}
+| listexclude = yes
+}}
+|{{item infobox
+| name = Robes of Calamity
+| type = Vanity
+| body slot = Social Shirt
+| sell = {{value|0|2}}
+| listexclude = yes
+}}
+}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-vanity = yes
+}}

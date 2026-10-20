@@ -1,0 +1,17 @@
+{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|uses = Template:npc infobox
+|include = {npc infobox¦:Master Template Items/dpl}
+|notcategory = Hardmode-only NPCs
+|notcategory = Godseeker Mode only NPCs
+|notcategory = Epilogue only NPCs
+|notcategory = NPC NPCs
+|notcategory = Critter NPCs
+|notcategory = Boss NPCs
+|notlinksfrom = Bosses
+|notlinksfrom = Events
+|notlinksfrom = The Exosphere
+|notlinksfrom = Frozen Hell
+|notlinksfrom = Solar Eclipse
+|noresultsheader = None.
+}}

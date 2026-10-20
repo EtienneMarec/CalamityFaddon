@@ -1,0 +1,25 @@
+{{item infobox
+| type = Crafting material
+| tooltip = Fire is a living being
+| rare = 1
+| stack = 9999
+| sell = {{value|0|0|8}}
+}}
+
+The '''Brimstone Fish''' is a [[fishing]] catch caught in [[lava]] in the [[Brimstone Crag]] with a variable chance.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Due to how the fishing catch chance is coded, the chance to catch the Brimstone Fish depends on a few variables:
+**The base chance is 40%:
+***If the player is under the effects of a [[Crate Potion]], subtract 10%
+***If the player has not yet killed [[Providence]], add 10%
+***If the world is in [[Pre-Hardmode]], add 11%
+
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

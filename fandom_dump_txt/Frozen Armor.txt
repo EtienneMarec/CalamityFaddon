@@ -1,0 +1,67 @@
+{{item infobox
+| imagebreak = yes
+| type = Armor
+| defense = 200
+| rare = 14
+| sell = {{value|2|40|0}} (set)
+| hardmode = yes
+| postml = yes
+| setbonus = Press Armor Set Bonus to create an ice shield that parries attacks. Failing to parry will cause you to overcool.
+}}
+
+'''Frozen Armor''' is a Godseeker Mode [[Melee]] [[Covering]] set crafted from materials found in [[Frozen Hell]]. It is intended as an upgrade to the [https://terraria.fandom.com/wiki/Molten_armor| Molten Armor] set. While the full set is worn, decorative snow particles will fall off of the player.
+
+It consists of the '''Frozen Visor''', '''Frozen Chestplate''', and '''Frozen Greaves'''.
+
+== Stats==
+The full set grants the following stats and bonuses:
+
+200 defense
+60% increased melee speed
+20% increased true melee size
++75 max life
+inflicts Frostburn on true melee hit
+Grants immunity to all cold-based debuffs
+
+== Set bonus==
+Press {{key|Armor Set Bonus}} to create a small ice shield around the player which can parry attacks. This shield has a 5 second cooldown
+Parrying enemies will deal 100 melee damage and will give the player a second of invulnerability
+Parrying projectiles will halve their damage
+Parrying nothing will freeze the player for a second, and cause their ice shield to be disabled for 10 seconds
+
+== Set==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Frozen Visor
+| type = Armor
+| defense = 60
+| tooltip = 60% increased melee speed<br/>+25 max life
+| body slot = Helmet
+| sell = {{value|0|60}}
+}}
+|{{item infobox
+| name = Frozen Chestplate
+| type = Armor
+| defense = 65
+| tooltip = 20% increased true melee size<br/>inflict Frostburn on hit<br/>Enemies are more likely to target you<br/>+25 max life
+| body slot = Shirt
+| sell = {{value|0|60}}
+}}
+|{{item infobox
+| name = Frozen Greaves
+| type = Armor
+| defense = 75
+| tooltip = immunity to all cold-based debuffs<br/>+25 max life
+| body slot = Pants
+| sell = {{value|0|60}}
+}}
+}}
+
+==Crafting==
+===Recipes ===
+{{recipes|view=infobox|result=LIKE Frozen%|resultnot=Frozen Turtle Shell}}
+
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

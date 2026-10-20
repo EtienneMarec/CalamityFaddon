@@ -1,0 +1,33 @@
+{{item infobox
+| research = 1
+| tooltip = BOOM!<br/>Throws out a Wulfrum Turtle that tries to find enemies and jump into them, exploding<br/>Right click to lay the turtle on the ground to cause enemies to aggro on it<br/>Only 4 turtles can be active at once
+| rare = 1
+| sell = {{value|0|0|10}}
+| type = Weapon
+| damage = 200
+| critical = 0%
+| use = 14
+| knockback = 3
+| velocity = 14
+| stack = 9999
+| consumable = true
+| element1 = Fire
+| element2 = Machine
+}}
+
+The '''Wulfrum Digging Turtle''' is a craftable [[Pre-Hardmode]] [[classless weapon]]. When used with left click, a Wulfrum Turtle is thrown out in an arch above the player. While no enemies are alive, it will walk back and fourth. When it detects an enemy, it will hops towards them and explode, killing itself and dealing 200 damage. When used with right click, the Wulfrum Turtle hides in its shell and stays stationary on the ground. Nearby enemies will try to target the turtle rather than players, and cause the turtle to explode on contact. Only 4 turtles can be active at once.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+== Trivia ==
+*The item is a reference to the Mine Turtle from [https://www.youtube.com/watch?v=tCnj-uiRCn8 asdfmovie5].
+*The item's flavor text is a reference to a line from ''[[wikipedia:Borderlands 2|Borderlands 2]]''.
+
+{{Wulfrum}}
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

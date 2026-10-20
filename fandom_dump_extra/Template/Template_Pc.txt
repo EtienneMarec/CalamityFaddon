@@ -1,0 +1,50 @@
+<includeonly><span data-info="{{#expr:{{{1|1}}}*1000000}}" {{#if:{{{1|}}}|style="white-space:nowrap" <nowiki />}}title="{{#if:{{{1|}}}|{{{1|}}} <nowiki />}}Platinum Coin{{#ifeq:{{{1|1}}}|1||s}}">{{#if:{{{1|}}}|{{{1|}}} <nowiki />}}[[File:Platinum Coin.png|link=|alt=Platinum Coin]]</span></includeonly><noinclude>
+A minimalist helper template to quickly create a "pc" ('''P'''latinum '''C'''oin).
+
+== Standard Usage ==
+{| class="terraria"
+!<nowiki>{{pc}}</nowiki>
+|{{pc}}
+|-
+!<nowiki>{{pc|1}}</nowiki>
+|{{pc|1}}
+|-
+!<nowiki>{{pc|5}}</nowiki>
+|{{pc|5}}
+|}
+
+== Multiple coins ==
+If you want to create a price with multiple type coins, please insert a single [[wikipedia:non-breaking space|non-breaking space ( &amp;nbsp&#59; )]] between each coin:
+{| class="terraria"
+!<nowiki>{{gc|5}}&amp;nbsp&#59;{{sc|50}}</nowiki>
+|{{gc|5}}&nbsp;{{sc|50}}
+|}
+
+Or, just use [[template:Value]], which is optimized for multiple currencies.
+
+== Without a parameter ==
+Using the template without any parameters will simply generate a Platinum Coin, without anything other text.
+
+== Render and link ==
+*The pc template will not generate a link, and will not be linkable (neither the text, nor the coin).
+*However, mousing over the template will create a '''hover text''' with the full English rendering, for readability:
+{| class="terraria"
+! {{pc}}
+| Platinum Coin
+|-
+! {{pc|1}}
+| 1 Platinum Coin
+|-
+! {{pc|5}}
+| 5 Platinum Coins
+|}
+
+== See Also ==
+*[[template:pc]]: Platinum Coin.
+*[[template:gc]]: Gold Coin.
+*[[template:sc]]: Silver Coin.
+*[[template:cc]]: Copper Coin.
+*[[template:Value]]: An alternative.
+
+[[Category:Shortcut templates]]
+</noinclude>

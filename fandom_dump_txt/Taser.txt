@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 998.2
+| use = 28
+| velocity = 15
+| knockback = 280
+| tooltip = A slow, simple electric weapon, meant only for low ranking guards.<br/>Shoots a hook that attaches to enemies and electrocutes them before returning<br/>Current Charge: [CHARGE]
+| debuff = Electrified
+| debufftip = You cannot move
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| stack = 1
+| auto = yes
+| rare = a
+| sell = {{value|0|0|80}}
+| proj = Taser Hook.png
+| projcaption = Taser Hook
+| element1 = Stab
+| element2 = Electricity
+| element3 = Machine
+}}
+
+The '''Taser''' is a craftable [[Pre-Hardmode]] [[ranged weapon]]. When used, a slow hook is fired from the edge of the weapon, attempting to attach to the first enemy it hits and inflicting the [[Electrified]] [[debuff]]. After a short time has passed, the hook returns to the player, hitting any targets it contacts without sticking to them.
+
+The weapon consumes 0.05 units of [[charge]] per use and has a maximum charge of 50.
+
+{{Modifier|nokbalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*A real-life [[wikipedia:Taser|taser]] fires two barbed darts attached by very thin copper wires.
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

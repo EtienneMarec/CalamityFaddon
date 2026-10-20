@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| pickreq = 180
+| stack = 9999
+| auto = yes
+| rare = 0
+| color = #0A0A0A
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| use = 14
+| sell = No value
+}}
+|{{item drops infobox
+| [[Bloatfish]]|10-20|100%
+| [[Luminous Corvina]]|8-15|100%
+| [[Eidolon Wyrm]]|30-40|100%
+| [[Adult Eidolon Wyrm]]|80-100|100%
+| [[Reaper Shark]]|40-50|100%
+}}
+}}
+
+'''Voidstone''' is a [[block]] that generates in the bottom two layers of the [[Abyss]], replacing [[Abyss Gravel]]. It requires at least an [[Adamantite Pickaxe|Adamantite]], [[Titanium Pickaxe|Titanium]], or [[Shardlight Pickaxe]] to mine. Enemies found in the lower layers of the Abyss will also drop Voidstone on death. It cannot be destroyed with [[explosive]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+|show-main = yes
+|show-blocks = yes
+}}

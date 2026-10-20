@@ -1,0 +1,46 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 33
+| use = 15
+| knockback = 5.5
+| auto = yes
+| stack = 1
+| rare = 3
+| sell = {{value|0|0|80}}
+| element1 = Unholy
+| element2 = Stab
+|tooltip=Enemies release homing blood orbs on death<br/>Shortflurry attacks create bloodsplosions on enemy hits}}
+|{{item drops infobox
+| [[The Perforators]]|1|{{dv|25%|33.33%}}
+}}
+}}
+The '''Bloody Rupture''' is a craftable [[Pre-Hardmode]] [[shortsword]] that is also dropped by [[The Perforators]]. Upon killing an enemy with it, it will release orbs of blood that home in on other enemies, and upon impact, [[Lifesteal|heal]] the player for 2 life. It functions identically to the [[Leeching Dagger]].
+
+Like every [[shortsword]], it has an incredibly short range, but unlike others, it swings automatically.
+
+When the weapon's [[Shortstrike]] ability activates, enemy hits spawn bloodsplosions that deal 120% of the weapon's damage.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*If the player has the "Blood and Gore" [[tgc:Setting|Setting]] turned off, the blood orb projectiles will look like clouds instead.
+
+{{Blood Sample}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]
+[[Category:Healing items]]
+[[Category:True melee]]

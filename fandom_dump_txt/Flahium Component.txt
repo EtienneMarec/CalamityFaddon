@@ -1,0 +1,18 @@
+{{item infobox
+| type = Crafting material
+| stack = 9999
+| rare = 10
+| sell = {{value|0|75}}
+| hardmode = yes
+}}
+'''Flahium Component''' is a [[Hardmode]] [[crafting material]]. It is solely used to craft [[Flahium Slag]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

@@ -1,0 +1,268 @@
+<section begin=npc infobox /><section end="npc" infobox="" />{{npc infobox
+| type = Boss
+| name = The Perforators
+| imagealt = [[File:The Perforators.png|320px]]
+| environment = The Crimson
+| life = {{dv|9,550|17,900|21,840|22,200}} (total)
+| knockback = 100
+| immune1 = Pearl Aura
+| immune2 = Confused
+| Blood Sample|{{dv|25-30|30-40}}|100%
+| Vertebrae|{{dv|3-9|10-20}}|100%
+| Crimson Seeds|2-4| 100%
+| Crimtane Bar|{{dv|2-5|9-14}}|100%
+| custom| {{item|Ichor|note=(In [[Hardmode]])|wrap=y}} ({{dv|10-20|15-30}})|100%
+|group|At least one of the following 8 weapons will always drop:|8
+| Aorta|1|{{dv|25%|33.33%}}
+| Sausage Maker|1|{{dv|25%|33.33%}}
+| Bloody Rupture|1|{{dv|25%|33.33%}}
+| Blood Bath|1|{{dv|25%|33.33%}}
+| Vein Burster|1|{{dv|25%|33.33%}}
+| Eviscerator|1|{{dv|25%|33.33%}}
+| Blood Clot Staff|1|{{dv|25%|33.33%}}
+| Tooth Ball|{{dv|30-50|50-75}}|{{dv|25%|33.33%}}
+| Bloody Worm Tooth|1|100%
+| Bloodstained Glove|1|{{dv|25%|33.33%}}
+| Healing Potion|5-15|100%
+| Bloody Vein|1|10%
+| Perforator Mask|1|14.29%
+| Perforator Trophy|1|10%
+| custom| {{item|The Perforators and their Hive (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| listexclude = yes
+| boxwidth = 27em
+}}
+
+
+'''The Perforators''' (Japanese: 穿孔者 ''Senkō-sha'') are a group of [[Pre-Hardmode]] [[boss]]es fought in [[The Crimson]]. They consist of 3 worms with varying appearances, sizes, and behaviors, as well as an eggplant-colored, fleshy hive.
+
+They are the Crimson counterpart to [[The Hive Mind]].
+
+== Spawn ==
+The Perforators do not spawn on their own, and require the player to summon them using a [[Bloody Worm Food]] or by dropping a [[Tissue Sample]] onto a patch of [[Grimesand]] which generates on [[tgc:Floating_Island|Floating Islands]] after breaking a [[Crimson Heart]].
+
+== Bosses ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = The Perforator Hive
+| type = Boss
+| ai = The Perforator Hive AI
+| environment = The Crimson
+| life = {{dv|4,500|7,200|8,640}}
+| damage = {{dv|30|54|63|72}} (Contact)<br/>{{dv|36|56|68|76}} (Blood Geyser)<br/>{{dv|36|56|68|76}} (Ichor Shot)
+| defense = 0
+| vulnerable1 = Holy
+| vulnerable2 = Fire
+| resistant1 = Unholy
+| resistant2 = Dark
+| knockback = 100
+| debuff = Burning Blood
+| debuffchance = 100%
+| duration = 3 seconds (Blood Geyser, Contact)
+| debufftip = Your blood is on fire
+| debuff2 = Ichor (debuff)
+| debuffchance2 = 100%
+| duration2 = 3 seconds (Ichor Shot)<br/>4 seconds (Ichor Blob)
+| debufftip2 = Defense reduced by 20
+| image2 = Perforator Hive map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_13.wav
+| killed = NPC_Killed_19.wav
+| sound = NPC_Hit_20.wav
+| soundtext = Blood Geyser and Ichor Shot
+| sound2 = NPC_Killed_23.wav
+| sound2text = Ichor Blob
+}}
+|{{npc infobox
+| name = The Perforator
+| namesub = Small
+| type = Boss
+| type2 = Burrowing Enemy
+| image = The Perforator (Small).png
+| ai = Worm AI
+| environment = The Crimson
+| life = {{dv|1,000|2,000|2,400}}
+| damage = {{dv|30|60|72|80}} (Head)<br/>{{dv|18|36|42|46}} (Body)<br/>{{dv|10|20|26|30}} (Tail)
+| defense = 0 (Head)<br/>8 (Body)<br/>18 (Tail)
+| vulnerable1 = Holy
+| vulnerable2 = Fire
+| resistant1 = Unholy
+| resistant2 = Dark
+| knockback = 100
+| debuff = Burning Blood
+| debuffchance = 100%
+| duration = 3 seconds (Head)<br/>1.5 seconds (Body)<br/>1 second (Tail)
+| debufftip = Your blood is on fire
+| money = {{value|0|5}}
+| Blood Sample|2-6|100%
+| Vertebrae|1-3|100%
+| Crimtane Bar|1-2|100%
+| image2 = Small Perforator map.png
+| image2caption = Map Icon
+| boxwidth = 28em
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Roar_1.wav
+| soundtext = Digging
+}}
+|{{npc infobox
+| name = The Perforator
+| namesub = Medium
+| type = Boss
+| type2 = Burrowing Enemy
+| image = The Perforator (Medium).png
+| ai = Worm AI
+| environment = The Crimson
+| life = {{dv|1,800|4,200|5,400|5,760}} (total)
+| damage = {{dv|35|70|84|92}} (Head)<br/>{{dv|21|42|50|54}} (Body)<br/>{{dv|14|28|34|38}} (Tail)
+| defense = 0 (Head)<br/>10 (Body)<br/>22 (Tail)
+| vulnerable1 = Holy
+| vulnerable2 = Fire
+| resistant1 = Unholy
+| resistant2 = Dark
+| knockback = 100
+| debuff = Burning Blood
+| debuffchance = 100%
+| duration = 4 seconds (Head)<br/>2 seconds (Body)<br/>1 second (Tail)
+| debufftip = Your blood is on fire
+| money = {{value|0|5}}
+| Blood Sample|3-7|100%
+| Vertebrae|2-4|100%
+| Crimtane Bar|2-3|100%
+| image2 = Medium Perforator map.png
+| image2caption = Map Icon
+| boxwidth = 31em
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Roar_1.wav
+| soundtext = Digging
+}}
+|{{npc infobox
+| name = The Perforator
+| namesub = Large
+| type = Boss
+| type2 = Burrowing Enemy
+| image = The Perforator (Large).png
+| ai = Worm AI
+| environment = The Crimson
+| life = {{dv|2,250|4,500|5,400}}
+| damage = {{dv|45|90|108|118}} (Head)<br/>{{dv|24|48|54|60}} (Body)<br/>{{dv|18|36|42|46}} (Tail)
+| defense = 0 (Head)<br/>12 (Body)<br/>25 (Tail)
+| knockback = 100
+| vulnerable1 = Holy
+| vulnerable2 = Fire
+| resistant1 = Unholy
+| resistant2 = Dark
+| debuff = Burning Blood
+| debuffchance = 100%
+| duration = 5 seconds (Head)<br/>3 seconds (Body)<br/>1.5 seconds (Tail)
+| debufftip = Your blood is on fire
+| money = {{value|0|5}}
+| Blood Sample|4-8|100%
+| Vertebrae|3-5|100%
+| Crimtane Bar|2-4|100%
+| image2 = Large Perforator map.png
+| image2caption = Map Icon
+| boxwidth = 36em
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Roar_1.wav
+| soundtext = Digging
+}}
+}}
+
+== Behavior ==
+The Perforator Hive will hover above the player and shoot falling projectiles, accelerating towards the player to attempt to actively stay above them at all times. As it loses health, it will spawn Perforator worms with different sizes, stats, and appearances. All three worms can exist at a time.
+
+The Perforators all behave like typical worms, burrowing through blocks and charging at the player. However, if their heads are too far away from the player ({{dv|18.75|15|12.5|10}} tiles), they gain the ability to fly in order to return to the fight or reach an elevated platform more easily. Each worm has a trait that differentiates one from another, from increased speed to the ability to lunge itself above the player.
+
+The Perforator Hive enrages outside of the Crimson biome and on the Surface, increasing their maximum movement speed.
+
+=== The Perforator Hive ===
+*Fires an even and parallel spread of {{dv|10|12|14|16}} {{item|Blood Geyser|s|link=}} or {{item|Ichor Shot|s|link=|ext=gif}} every 1.25-15 seconds, which inflict the [[Burning Blood]] and [[Ichor (debuff)|Ichor]] [[debuffs]] respectively. The type of projectile chosen is random.
+**These projectiles arc slightly upward, which then spread out and fall down to cover a large area. They can only pass through tiles within the first two seconds of being fired.
+**The fire rate is lower for every worm alive. Each worm equally reduces the fire rate by the same factor.
+*When below 70% health, every {{dv|10||||7.5}} seconds it positions itself above the player. After 5 seconds of positioning, it drops a spread of {{dv|3|6}} {{item|Ichor Blob|s|link=|size=14px|ext=gif}} downwards, which {{item|Ichor Blob (Ground)|splatter|link=|size=26px}} on surfaces and become stationary hazards for up to 15 seconds.
+**The Perforator Hive cannot perform this attack if one of the worms is currently alive.
+
+=== The Small Perforator ===
+*Spawns when the Perforator Hive reaches 70% health.
+*This small worm is much faster than the other two.
+*This worm has {{dv|6|8|9|10}} segments in total.
+
+=== The Medium Perforator ===
+*Spawns when the Perforator Hive reaches 40% health.
+*Similar to the [[Eater of Worlds]], each segment has an individual health pool and it can split up into smaller worms when a body segment is killed.
+*Each segment has an HP of {{dv|160|224|252}}, and there are {{dv|12|16|18|20}} segments in total.
+
+=== The Large Perforator ===
+*Spawns when the Perforator Hive reaches 10% health.
+*Similarly to the [[Desert Scourge]], upon reaching {{dv|50%|75%|100%}} health, The Large Perforator will occasionally burrow underground then rapidly lunge at the player before burrowing again from a height 37.5 tiles above the player.
+**This attack occurs every {{dv|4.5|||3.5}} seconds. After performing the attack, this timer resets on the apex of its lunge.
+**If the attack takes longer than 10 seconds, it will automatically reset to its default behavior.
+*This worm has {{dv|16|22|25|28}} segments in total.
+
+=== In [[Expert Mode]] ===
+*All Perforators can be enraged similarly to the hive, increasing their acceleration and speed. The enrage is linearly more effective the lower their health, up to doubled base movement.
+*All Perforators gain 2, 4, or 6 segments from smallest to largest and a size increase of 10%.
+*The Perforator Hive becomes invulnerable to damage while the Large Perforator is alive.
+*The Perforator Hive shoots 12 projectiles per volley instead of 10, and 6 Ichor Blobs instead of 3.
+
+=== In [[Revengeance Mode]] ===
+*All Perforators gain 1, 2, or 3 segments from smallest to largest and a size increase of 5%.
+*The Perforator Hive shoots 14 projectiles per volley instead of 12.
+*The Perforator Hive attempts to ram the player.
+**If there is only one Perforator alive, it will not ram the player but instead gain slightly increased acceleration and maximum speed.
+**It there are multiple Perforators alive, it will accelerate faster but lower its maximum speed.
+
+=== In [[Death Mode]] ===
+*All of the Perforators gain 1, 2, or 3 segments from smallest to largest and a size increase of 10%.
+*All of the Perforators' enragements are more effective.
+*The Perforator Hive shoots 16 projectiles per volley instead of 14.
+*The Perforator Hive accelerates faster but has a lower maximum speed.
+
+=== During the [[Boss Rush]] ===
+*The Perforator Hive does not enrage outside of their biomes.
+*The Perforators and their hive gain significantly higher acceleration.
+
+== Aftermath ==
+*Upon defeating the Perforators, the [[status message]] "The sky is glittering with cyan light" displays, indicating that [[Aerialite Ore]] generated in the world.
+*[[Sky Crate]]s will contain [[Aerialite Bar]]s.
+*The [[Dryad]] will begin selling the [[Rotten Brain]] in Expert Mode.
+*[[Events#Blood Moon|Blood Moon]] enemies will begin to drop the [[Catarachedrae]] in [[Revengeance Mode]].
+*[[Aero Slime]]s will begin spawning [[Underground]].
+
+== Resistances ==
+*All Perforator segments take reduced damage from non-[[Minions|minion]] piercing projectiles in [[Expert Mode]]. Projectile damage is divided by the number of times it pierces. Infinite piercing deals 50% damage.
+*All segments reduce damage from grenade-type projectiles by 80%. A list of affected projectiles is below.
+
+{{ajax|List of resisted grenades|head=Resisted grenades|width=15%}}
+
+== Notes ==
+*In normal mode, if the Perforator Hive is killed before the last Perforator (or any Perforator for that matter) it will not drop any loot.
+
+== Tips ==
+{{dablink|For elaborate strategies on defeating the Perforators, including [[Weapon]] and Arena recommendations, see [[Guide:The Perforators strategies]].}}
+
+*Building a few layers of platforms within The Crimson underground will make avoiding the Perforators much easier.
+**The Perforators have extremely high speed when tunneling horizontally, and can tunnel through platforms if they reach them. Keeping platforms around 15 blocks above the ground and each other can help prevent this.
+**Be careful: If platforms are too high the player might end up on The Crimson surface, enraging the boss and making the Hive and worms invincible.
+*When a Perforator worm is spawned, the player should target it until it's dead while avoiding damaging the Hive, this will make sure the player isn't overwhelmed by multiple worms at once.
+**The worms will drop hearts on death, the player should remember where they killed the worms so they can use these hearts later unless they are hurt enough to warrant their immediate use.
+*The Perforator Hive will consistently float above the player, so weapons with projectiles are recommended as getting close is extremely difficult without high jump speed and vertical movement accessories.
+**If using the above strategy of having a roof to destroy projectiles, a weapon that can hit through blocks or that can set up "traps" to lure the Hive into will be more effective.
+*The player can fight The Perforators at the start of the game, though it is not recommended to fight these bosses until the Brain of Cthulhu is defeated, as the multi-boss fight and high damage can easily overwhelm an unprepared player.
+*During [[Hardmode]], The Perforators can be fought to get an effective amount of [[Ichor]]. This is a highly effective way to get Ichor in a [[Corruption]] world, as The Perforators can be fought on a [[Evil Island|Crimson island]].
+
+== Trivia ==
+*Perforation is the process of making holes in something.
+*The Perforators could be considered the Crimson's version of the [[Eater of Worlds]], while [[The Hive Mind]] could be considered the [[Corruption]]'s version of the [[Brain of Cthulhu]].
+*If the player deals sufficiently high damage in a short time, the Perforator Hive can be killed before its invincibility activates. This causes the worms to move away off-screen and despawn.
+*The Perforators can be fought before any boss is defeated, as Perforator Cysts can spawn in The Crimson at any point of the game.
+*In older versions of the mod, the Perforator Hive did not exist, and instead the three Perforator worms would spawn and attack at once.
+*Previously, when any worm was killed, several smaller worms known as [[Perforator Mini]] would spawn.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, their unique despawn message will be "The parasitic hive began searching for a new host."
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

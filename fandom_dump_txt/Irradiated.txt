@@ -1,0 +1,48 @@
+{{buff infobox
+| type = Debuff
+| effects = -10 defense<br/>-10% damage reduction<br/>-10% movement speed<br/>+5% damage<br/>+50% minion knockback (if player)<br/>-10 health per second (if enemy)
+| tooltip = Your skin is burning off
+}}
+
+'''Irradiated''' is a [[debuff]] with different effects depending on what it has inflicted. If inflicted on the player, they receive various stat increases and decreases. The [[Lead Core]] [[covering]], dropped by [[Irradiated Slime]]s and [[Gamma Slime]]s, provides immunity to this debuff. If inflicted on an enemy, their health decreases over time. All enemies immune to either [[Poisoned]] or [[Crush Depth]] are also immune to Irradiated.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From Calamity NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+== Trivia ==
+*Irradiated's name was reverted after being previously known as ''Acid Rain'', which was a debuff inflicted on the player during the [[Acid Rain]] event.
+{{-}}
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

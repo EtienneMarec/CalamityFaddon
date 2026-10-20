@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 247
+| use = 25
+| knockback = 6
+| velocity = 2
+| rare = 12
+| tooltip = Swings a heavy wrecking ball that spawns more wrecking balls on hit
+| sell = {{value|0|25}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| element1 = Stab
+| element2 = Smash
+}}
+}}
+The '''Wrecking Ball''' is a Godseeker mode [[flail]] purchased from the [[Collector]] after its respective [[Blueprint]] has been turned in. It swings a metal ball like a broadsword that spawns more metal balls that fall from the sky when striking enemies. The additional balls inflict either rogue or ranged damage.
+
+{{modifier|meleealt}}
+
+== Notes==
+The [[Blueprint]] for this item can be obtained by killing the Guardian Defender if it is the last [[Profaned Guardian]] alive.
+
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Flails]]

@@ -1,0 +1,27 @@
+{{item infobox
+| type = Covering
+| tooltip = Summons two spirit swords to protect you
+| sell = {{value|0|0|80}}
+| rare = 3
+| defense = 5
+| stack = 1
+| buff = Gladiator Swords (buff) | bufflink = no
+| bufftip = The gladiator swords will protect you
+| boxwidth = 23em
+| damage = 30
+| element1 = Stab
+| element2 = Holy
+}}
+{{summoned|Sword Spirit}}
+The '''Gladiator's Locket''' is a [[Pre-Hardmode]] [[covering]] found in the Marble [[shrine]]. When equipped, two Sword Spirits will circle the player and will damage enemies that they contact. The swords orbit in opposite directions, at slightly different speeds. Each sword has a base damage of 30 and ignores enemy [[immunity frames]]. The swords deal classless damage, boosted by an average of each of the player's class damage bonuses.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 25
+| mana = 10
+| knockback = 3
+| use = 24
+| tooltip = Summons a stack of haunted dishes to fight for you
+| buff = Haunted Dishes (buff) | bufflink = no
+| bufftip = The haunted dishes will protect you
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|2|40}}
+| proj = Haunted Plate.gif
+| projcaption = Haunted Dish
+| element1 = Holy
+| element2 = Dark
+| element3 = Smash
+}}
+{{summoned|Haunted Dishes|type=minion}}
+
+The '''Haunted Scroll''' is a craftable [[Hardmode]] [[summon weapon]]. When used, it summons a stack of three haunted dishes which runs along the ground. It does not deal contact damage, but rapidly throws high velocity dishes at nearby enemies.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,48 @@
+{{Infobox wrapper|{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 70
+| knockback = 4
+| use = 15
+| tooltip = Throws out disks which release thorns upon hitting enemies<br/>Stealth strikes cause the disk to fling out seeds in random directions
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffduration = 4 seconds (Poison-I-Bee Disk)<br> 3 seconds (I-Bee-Thorn)<br> 2 seconds (I-Bee-Seed)
+| debuffchance = 100%
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 8
+| sell = {{value|0|16}}
+| proj = Poison-I-Bee-Disk.png
+| projcaption =Poison I-Bee Disk
+| proj2 = I-Bee-Thorn.png
+| proj2caption = I-Bee-Thorn
+| proj3 = I-Bee-Seed.png
+| proj3caption = I-Bee-Seed
+| element1 = Poison
+| element2 = Slash
+| element3 = Machine
+}}|{{item drops infobox
+| [[The Plaguebringer Goliath]] | 1 | {{dv|25%|33.33%}}
+}}}}
+
+The '''Poison I-Bee''' is a [[Hardmode]] [[boomerang]] dropped by the [[The Plaguebringer Goliath|Plaguebringer Goliath]]. Its primary fire rapidly throws disks that deal rogue damage and release thorns when striking enemies. The thorns deal 35% of the disk's damage, but ignore enemy [[immunity frames]].
+
+Performing a [[stealth strike]] causes the resulting disk to fire seeds in all directions inaccurately.
+
+Its best [[modifier]] is '''Flawless'''.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+The Poison I-Bee is a reference to [[wikipedia:Poison_ivy|poison ivy]], a type of plant that is infamous for causing a rash due to urushiol in the plant's sap.
+
+{{-}}
+{{Master Template Weapons
+|show-main=yes
+|show-spy = yes
+|show-rogue=yes}}
+[[Category:Boomerangs]]

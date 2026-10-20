@@ -1,0 +1,21 @@
+{{item infobox
+| type = Mount Summon
+| stack = 1
+| tooltip = Summons an angry dog mount
+| rare = 3
+| use = 20
+| buff = Angry Dog (buff) | bufflink = no
+| bufftip = You are riding an angry dog
+| sell = {{value|0|1|80|0}}
+}}
+{{summoned|Angry Dog (Mount)|type=mount|name=Angry Dog (Mount)}}
+
+The '''Tundra Leash''' is a [[Pre-Hardmode]] [[mount]] summoning item obtained from the [[Snow Biome]] [[shrine]]. When used, it summons an Angry Dog which acts similarly to the Basilisk summoned by the [[Ancient Horn]] but is much slower. The Angry Dog is capable of moving at a speed of 33 mph horizontally and can reach 41 while moving vertically. Like the Basilisk, it can charge enemies and deals 50 damage upon contact. This damage can be boosted through summoner bonuses.
+
+While horizontally moving at over half the mount's maximum run speed (16 mph), player [[damage reduction]] is increased by 10%. This is calculated independently from normal DR and is not affected by Calamity's DR scaling system.
+
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

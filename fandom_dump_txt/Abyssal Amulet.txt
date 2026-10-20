@@ -1,0 +1,30 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 3
+| stack = 1
+| sell = {{value|0|0|80}}
+| tooltip = Attacks inflict the Crush Depths debuff<br/>Grants immunity to the Crush Depth debuff<br/>While in the abyss you gain 10% increased max life
+| debuff = Crush Depth
+| debuffduration = 2, 4, or 6 seconds
+| debuffchance = 100%
+| debufftip = Aquatic pressure
+}}
+
+The '''Abyssal Amulet''' is a [[Pre-Hardmode]] [[covering]] that can be caught while [[fishing]] in the [[Sulphurous Sea]] or  [[Abyss]]. While it is equipped, the player gains 10% increased max life while in the [[Abyss]], inflicts the [[Crush Depth]] [[debuff]] on all attacks, and gains immunity to the Crush Depth debuff.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Abyssal Amulet can only be caught with a 1/25 (4%) chance if fishing with between 110 and 239 [[fishing power]].
+*There is a 25% chance for Crush Depth to be inflicted for 6 seconds, a 37.5% chance to be inflicted for 4 seconds, and a 37.5% chance to be inflicted for 2 seconds.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[zh:深渊护身符]]
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

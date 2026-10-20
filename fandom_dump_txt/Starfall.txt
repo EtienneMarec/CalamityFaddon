@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 50
+| use = 14
+| critical = 29%
+| knockback = 3.25
+| velocity = 12
+| auto = yes
+| stack = 1
+| mana = 15
+| tooltip = Casts a spread of astral blight stars at the mouse cursor
+| rare = 9
+| sell = {{value|0|19}}
+| hardmode = yes
+| debuff = Ancient Astral Blight
+| debufftip = An ancient cosmic affliction spreads through you
+| debuffchance= 100%
+| debuffduration = 3 seconds
+| proj = Blight Star.png
+| projcaption = Astral Blight Star
+| element1 = Magic
+}}
+|{{item drops infobox
+| [[Astrum Deus]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Starfall''' is a [[Hardmode]] [[spell tome]] dropped by [[Astrum Deus]]. When used, it summons 5 purple stars from the cursor's location, which travel in a downward spread at a high velocity. The stars do not pierce, but they can go through blocks.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+== Trivia ==
+*Its name and effects could make it a reference to a weapon with the same name from the [https://forums.terraria.org/index.php?threads/released-wip-terraria-avalon.378/ Exxo Avalon] mod.
+*The name may also be a reference to the World of Warcraft spell of the same name.
+[[File:Starfall (demo).gif|200px|frame|left|Attacking with the Starfall.]]
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category:Spell tomes]]

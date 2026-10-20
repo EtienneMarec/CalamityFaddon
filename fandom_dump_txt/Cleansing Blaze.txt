@@ -1,0 +1,42 @@
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 130
+| damagetype = Ranged
+| knockback = 4
+| stack = 1
+| rare = 14
+| sell = {{value|0|36}}
+| auto = yes
+| use = 12
+| velocity = 14
+| tooltip = 90% chance to not use gel
+| hardmode = yes
+| postml = yes
+| debuff = God Slayer Inferno
+| debuffduration = 4 seconds
+| debufftip = Your flesh is burning off
+| debuffchance = 100%
+| image2 = Cleansing Blaze (tank).png
+| image2caption = Equipped tank
+| element1 = Magic
+| element2 = Fire
+}}
+
+The '''Cleansing Blaze''' is a craftable Godseeker Mode [[flamethrowers|flamethrower]]. It shoots purple flames that deal great damage due to the high fire rate. Any enemy hit will be inflicted with the [[God Slayer Inferno]] debuff.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Cosmilite}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

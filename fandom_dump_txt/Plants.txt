@@ -1,0 +1,181 @@
+'''Plants''' are found all across worlds, and may grow from certain block types given various conditions. Most can be harvested for use, and different [[biomes]] generally have distinct plant life.
+
+== Trees ==
+Trees are naturally generated background objects that grow from their respective soils upon generation. They can be broken using any [[axe]], and new trees can be grown using [[Acorn]]s. 
+
+The Calamity Mod adds four new types of trees: Acidwood Trees which grow on [[Sulphurous Sand]] and drop Acidwood, and 3 types of Astral Monoliths which grow on certain [[Astral Infection]] blocks and drop [[Astral Monolith]].
+{{collapse top|Table of trees|width=40%}}
+{| class="terraria" style="text-align:center; margin-left:1em"
+! Image
+! Name
+! Drops
+! Sapling
+! Soil type
+! Location
+|-
+| [[File:Acidwood Tree.png]]
+| Acidwood Tree
+| [[Acidwood]]
+| [[File:Acidwood Saplings.png]]
+| [[Sulphurous Sand]]
+| [[Sulphurous Sea]]
+|-
+| [[File:Monolith (normal).png]]
+| Monolith (normal)
+| [[Astral Monolith]]
+| [[File:Monolith Saplings (normal).png]]
+| Astral Grass
+| [[Astral Infection]]
+|-
+| [[File:Monolith (palm).png]]
+| Monolith (palm)
+| [[Astral Monolith]]
+| [[File:Monolith Saplings (palm).png]]
+| [[Astral Sand]]
+|-
+| [[File:Monolith (snow).png]]
+| Monolith (snow)
+| [[Astral Monolith]]
+| [[File:Monolith Saplings (snow).png]]
+| [[Astral Snow]]
+| Astral [[Snow]]
+|-
+| [[File:Petrified Tree.png]]
+| Petrified Tree
+| [[Tarragon Ore]]
+| N/A
+| [[Plants#Grass|Tarragrass]]
+|-
+| [[File:Skyroot Tree.png]]
+| Skyroot Tree
+| [[Skyroot Wood]]
+| [[File:Skyroot Saplings.png]]
+| [[Plants#Grass|Aether Grass]]
+|}
+{{collapse bottom}}
+
+== Grass ==
+{| class="terraria" style="float:right; text-align:center; margin-left:1em"
+! Image
+! Name
+! Soil Type
+! Location
+! Plants
+|-
+| [[File:Astral Grass.png]]
+| Astral Grass
+| {{item|Astral Dirt}}
+| Surface of the [[Astral Infection]]
+| [[Astral Monolith]]s, wild Astral grass
+|-
+| [[File:Tarragrass.png]]
+| Tarragrass
+| {{item|Tarraground}}
+| [[Tarragon Remains]]
+| [[Plants#Trees|Petrified Trees]], [[Tarrablossom]]
+|-
+|[[File:AetherGrass.png]]
+|Aether Grass
+|{{item|Aether Dirt}}
+|[[The Aether]]
+|[[Plants#Trees|Skyroot Trees]], [[Blue Berry Bush]], wild Aether grass
+|-
+|}
+
+The Calamity Mod adds 3 new type of grass that generates in the [[Astral Infection]], [[Tarragon Remains]], and [[The Aether]].
+
+{{-}}
+== Vines ==
+{| class="terraria" style="float:right; text-align:center; margin-left:1em"
+! colspan=5 | Vines
+|-
+| [[File:Astral Vines (placed).png]]
+| [[File:Sulphurous Vines (placed).png]]
+| [[File:Viper Vines (placed).png]]
+| [[File:Skylacelineous Vines (placed).png]]
+|-
+| Astral Vines
+| Sulphurous Vines
+| Viper Vines
+| Skylacelineous Vines
+|}
+
+Vines are plants that grow downward from blocks. They block light but do not impede movement and can easily be destroyed with nearly any [[weapon]] or [[tool]]. Destroying a vine tile also destroys all tiles of the vine below it. Destroying the topmost tile or mining the block the vine hangs from will destroy it entirely. Vines can only grow from blocks that are not sloped on their underside.
+
+There are three different types of vines in the Calamity Mod, each native to a unique [[biome]]: Astral Vines (grow from [[Astral Dirt]]), Sulphurous Vines (grow from [[Sulphurous Sand]], [[Sulphurous Sandstone]], and [[Hardened Sulphurous Sandstone]] and emit bright green light), Viper Vines (grow from [[Planty Mush]]) and Skylacelineous Vines (grow from [[Skylac Crystal]]). Unlike other vines, those added by the Calamity Mod are able to grow past the ten-block limit until they reach a block below them.
+
+The [[Guide to Plant Fiber Cordage]] allows the collection of [[Vine Rope]]s from vines.
+
+== Cacti ==
+{| class="terraria" style="float:right; text-align:center; margin-left:1em"
+! colspan=2 | Cacti
+|-
+| [[File:Astral Cactus (placed).png]]
+| [[File:Sulphurous Cactus (placed).png]]
+|-
+| Astral Cactus
+| Sulphurous Cactus
+|}
+
+Cacti are functionally similar to trees in that they can be broken with any axe, however they cannot be planted with Acorns, and will instead periodically grow on their respective types of [[Sand Block]]s. 
+
+The Calamity Mod adds two types of Cacti: Astral Cacti which generate on [[Astral Sand]] in the Astral Infection biome, and Sulphurous Cacti which generate on Sulphurous Sand in the Sulphurous Sea. Both drop normal [[Cactus]] when broken.
+
+== Moss ==
+
+Calamity Mod adds one new type of moss found within [[The Void]]. Unlike moss from the vanilla game, Pale Moss can only grow on Sallowrack, and cannot spread to adjacent tiles.
+
+{| class="terraria" style="float:right; text-align:center; margin-left:1em"
+! Image
+! Item
+! Name
+! Soil Type
+! Location
+! Tool
+|-
+| [[File:Pale Moss (placed).png]]
+| [[File:Pale Moss.png]]
+| Pale Moss
+| {{item|Sallowrack}}
+| The Overgrowth sub-biome in [[The Void]]
+| Paint Scraper
+|-
+|}
+
+
+== Cosmichid ==
+'''Cosmichids''' randomly grows on [[Stone Block|Stone Blocks]], similar to [[Mushroom|green and teal mushrooms]], in the [[Space|Space layer]] during [[hardmode]] and can also be obtained by walking on stone blocks in space with [[Flower Boots|flower boots]].  Breaking it will drop 1-3 cosmichids. 
+{| class="terraria" style="float:right; text-align:center; margin-left:1em"
+! Cosmichid
+|-
+|[[File:Cosmichid.png]]
+|}
+Cosmichids can be use to inflict [[God Slayer Inferno]] on players, NPCs, and enemies in contact with it and be used to replace one type of [[Herbs|herb]] in potion crafting recipes.
+
+== Flah ==
+'''Flah''' randomly grows on [[Brimstone Slag]] after [[Moon Lord]] is defeated. Breaking it will drop [[Flah]] and 1-3 [[Flah Seeds]] while in bloom. 
+{| class="terraria" style="float:right; text-align:center; margin-left:1em"
+! Flah
+|-
+|[[File:Flah.png]]
+|}
+Flah can be used to craft various Godseeker Mode potions.
+
+== Blood Corn Stalks ==
+'''Blood Corn''' randomly grows on Crimson Grass in the [[Bloody Corn Maze]]. Breaking the stalks (which can be done with any attack) will ocassionally yeild edible [[Carnal Corn]]. Blood Corn Stalks aren't plantable, and instead will regrow on Crimson Grass that is located in the Bloody Corn Maze over time.
+
+{| class="terraria" style="float:right; text-align:center; margin-left:1em"
+! Bloody Corn Stalk
+|-
+|[[File:BloodCornStalk.png]]
+|}
+
+== See Also ==
+*[[tgc:Plants|Plants]] on the Vanilla Wiki
+
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}
+
+[[Category:Block items]]

@@ -1,0 +1,29 @@
+{{item infobox
+| type = Potion
+| tooltip = Boosts damage by 6% and critical strike chance by 2%<br/>Reduces life regen by 1 and defense by 5%
+| stack = 9999
+| rare = 6
+| use = 17
+| sell = {{value|0|0|26}}
+| consumable = yes
+| debuffduration = 8 minutes
+| debuff = Vodka (debuff) | debufflink = no
+| debufftip = Damage and critical stike chance boosted, defense and life regen reduced
+| hardmode = yes
+}}
+
+'''Vodka''' is a craftable [[Hardmode]] [[potion]]. It grants the '''Vodka''' [[debuff]] when consumed, which reduces life regen and [[defense]], but boosts damage and critical strike chance.
+
+While the effects of the Vodka debuff are mostly beneficial, it is still considered a debuff, and therefore cannot be removed by right-clicking the icon.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

@@ -1,0 +1,28 @@
+{{item infobox
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 9999
+| rare = 11
+| sell = {{value|0|10}}
+| use = 14
+| consumable = yes
+| placeable = yes
+| hardmode = yes
+| postml = yes
+| auto = true
+}}
+
+'''Elemental Bars''' are Godseeker Mode [[bars]] made with 5 [https://calamitymod.fandom.com/wiki/Galactica_Singularity Galactica Singularities] at an [[Ancient Manipulator]]. They are used to craft various post-moon lord weapons themed around space and the [[Celestial Pillars]], particularly the elemental set.
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+
+{{Elemental}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

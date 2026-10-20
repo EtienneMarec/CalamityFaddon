@@ -1,0 +1,32 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| damage = 0
+| damagetype = summon
+| use = 29
+| mana = 5
+| tooltip = Summons a slime ball that follows your cursor<br/>Slime balls will connect to eachother when close
+| knockback = 5
+| rare = 4
+| sell = {{value|0|2|40}}
+| proj = Slime Puppet.png
+| projcaption = Slime Ball
+| element1 = Poison
+}}
+|{{item drops infobox
+| [[The Slime God]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+
+The '''Slime Puppet Staff''' is a [[Pre-Hardmode]] [[summon weapon]], that drops from [[The Slime God]], which summons floating slime balls. Only 10 slime balls can exist at once, and do not take up minion slots.
+
+When the attack button is held down, a slime ball will spawn and follow the players cursor similarly to the magic missile. Releasing the button will cause the slime ball to stick in place. Any slime balls placed within approximately 2.5 blocks of one another will connect via supports. Slime balls and supports do not deal damage, but will prevent enemies from walking through them.
+
+{{Modifier|none}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

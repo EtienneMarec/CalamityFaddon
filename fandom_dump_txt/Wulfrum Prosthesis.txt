@@ -1,0 +1,32 @@
+{{infobox wrapper|
+{{item infobox
+| type = Weapon
+| damagetype = magic
+| damage = 13
+| use = 24
+| mana = 2
+| knockback = 3
+| velocity = 18
+| extraupdates = 2
+| tooltip = Casts a wulfrum bolt<br/>Right click to drain mana from creatures in front of you<br/>{{color|Technology and magic have been forever locked in an arms race of imitation and retaliation|#83B87E}}<br/>{{color|At times they work in tandem, as seen in certain prosthetic limbs|#83B87E}}
+| stack = 1
+| research = 1
+| auto = yes
+| rare = 1
+| sell = {{value|0|0|20}}
+| element1 = Stab
+| element2 = Machine
+}}
+|{{item drops infobox
+|[[The Inventors]] |1|{{dv|25%|33%}}
+|[[Wulfrum Excavator]] {{fantag|Calamity: Community Remix}}|1|{{dv|25%|33%}}
+}}
+}}
+The '''Wulfrum Prosthesis''' is a [[Pre-Hardmode]] [[magic weapon]] dropped by [[The Inventors]] and the [[Wulfrum Excavator]] {{fantag|Calamity: Community Remix}}. When used with its primary fire (left-click), it fires high-velocity blue energy bolts which cannot pierce but can curve towards nearby enemies. When used with its secondary fire (right-click), mana is not consumed and nearby enemies within a 25-tile radius emit blue particles which move towards the player. In turn, the player temporarily gains the [[Mana Regeneration]] effect and 35 bonus mana regeneration.
+
+{{Modifier|magiclow}}
+{{Wulfrum}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}

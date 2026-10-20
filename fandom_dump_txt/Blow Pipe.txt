@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = ranged
+| damage = 36
+| knockback = 1.5
+| rare = 8
+| sell = {{value|0|16}}
+| use = 14
+| velocity = 10
+| stack = 1
+| tooltip = 70% chance to not consume darts<br/>Right click to a stingy stinger
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| hardmode = yes
+| element1 = Poison
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Blow Pipe''' is a [[Hardmode]] [[Dart guns|dart gun]] dropped by [[The Plaguebringer Goliath]]. It uses [[Seeds]] or Darts as ammunition. Right clicking fires special plague stingers that inflict [[Plague]], but doubles the item's use time to 28.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Dart guns]]

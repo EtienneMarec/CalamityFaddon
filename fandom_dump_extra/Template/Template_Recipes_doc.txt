@@ -1,0 +1,178 @@
+Query crafting recipes from database and display them as a table. The original source for the data can be found on the subpages of [[Recipes]].
+
+== Usage ==
+
+'''Parameters for query constraints:'''
+
+; <code>station</code> = station1/station2/...
+List only recipes that use these stations.
+
+; <code>stationnot</code> = station1/station2/...
+Exclude recipes that use these stations.
+
+; <code>result</code> = result1/result2/...
+List only recipes that create this item. It is also possible to do pattern search using SQL LIKE syntax. Example: <code>result=LIKE %Phaseblade</code>, multiple:<code>result=Iron Bar/LIKE %Phaseblade</code>. Note that "LIKE" must be all uppercase.
+
+; <code>resultnot</code> = result1/result2/...
+Exclude recipes that create this item. It is also possible to do pattern search using SQL LIKE syntax. Example: <code>resultnot=LIKE %Phaseblade</code>, multiple:<code>resultnot=Iron Bar/LIKE %Phaseblade</code>. Note that "LIKE" must be all uppercase.
+
+; <code>ingredient</code> = ingredient1/ingredient2/...
+List only recipes that use these items as ingredients. You can use "Any xxx" as ingredient name for some [[alternative crafting ingredients]] groups; and, if you query an item in a substitutable item group, you will get "Any xxx" as well. Adding "#" as a prefix (#xxx) will turn this off for that specific item. For example, if you query by <code>|ingredient=Shadewood</code>, you will get recipes as if you query by <code>ingredient=#Shadewood/#Any Wood</code>; <code>|ingredient=#Shadewood/Iron Bar</code> equals to <code>|ingredient=#Shadewood/#Iron Bar/#Any Iron Bar</code>. It is also possible to do pattern search using SQL LIKE syntax. Example: <code>ingredient=LIKE %Phaseblade</code>, multiple:<code>ingredient=Iron Bar/LIKE %Phaseblade</code>. Note that "LIKE" must be all uppercase.
+
+NOTE: The relationship between the above parameters is "and", and the relationship of multiple values inside a single parameter is "or". For example, <code>|station=Sawmill/Loom|resultnot=Silk</code> means (in SQL style):<code>(station = Sawmill OR station = Loom) AND result <> Silk</code>
+
+; <code>where</code> = whereString
+Raw input string for where the parameter of cargo query is located. If specified, all of above parameters are ignored. Used to write complex queries when necessary, with caution.
+
+'''Other parameters:'''
+
+; <code>view</code> = infobox
+Produces an infobox-like crafting table (or a series of tables wrapped in a flexbox) similar to {{tl|crafting recipe}}. '''Note:''' Several features, like extra rows, extra columns, custom result cells, custom headers, custom title, <code>$nostation</code>, station grouping, sorting and custom css do not work with this format.
+
+; <code>title</code>
+Adds a title bar to the recipes table, with specified text.
+
+; <code>grouping</code> = n/no
+Turn off result & ext cols grouping.
+
+; <code>nostation</code> = y
+If set, the Crafting Station column will be hidden.
+
+; <code>stationgrouping</code> = n/no
+Turn off Crafting Station column grouping. Only valid when <code>nostation</code> is not set.
+
+; <code>cate</code> = no/force
+By default, this template will add transcluding page to crafting station category if crafting result is the page title itself. <code>cate=no</code> will disable this. <code>cate=force</code> will force categorization, no matter what the result and page title are.
+
+; <code>link</code> = n/no
+Set to <code>n/no</code> to stop the result items from linking to their pages.
+
+; <code>expectedrows</code> = ''number'' (<span style="color:red">Unused</span>)
+Assert the expected number of rows in this crafts table. If the expected and actual number of rows are not equal, this page will be added to Category:Recipe tables with unexpected total number of rows.
+
+; <code>sortable</code> = n/no
+Makes the table unsortable.
+
+; <code>class</code> = 
+; <code>id</code> = 
+; <code>css</code>/<code>style</code> = 
+HTML class/id/style attributes for outer wrapper div element.
+
+== Example ==
+<code><nowiki>{{recipes|ingredient=Aerialite Bar|station=Sky Mill|resultnot=Heron Rod}}</nowiki></code>
+
+Explanation: Select all recipes that have {{item|Aerialite Bar}} as an ingredient, and {{item|Sky Mill}} as a crafting station, then exclude the result {{item|Heron Rod}}.
+
+== Register Recipes ==
+Recipes in database are registered by {{tl|recipes/register}}. All recipes should be registered on the corresponding crafting station page ( Recipes/[station]/register ), e.g. [[:Recipes/Draedon's Forge/register]]. For usage of {{tl|recipes/register}}, see its [[template:recipes/register/doc|documentation]].
+
+== Advanced Usage ==
+=== Custom Result Cells ===
+<code>resulttemplate</code>  = template name used for format result cell.
+
+This template will receive the following arguments:
+* <code>link</code>: options for {{tl|item}} template used by default display.
+* <code>result</code>, <code>resultimage</code>, <code>resultname</code>, <code>resulttext</code>, <code>amount</code>: infomation about crafting result.
+
+"@@@@" in template output will be replaced with the default result display.
+
+See [[tgc:Chairs#Recipes]] for an example.
+
+=== Custom Table Header ===
+; <code>header-result</code> = content of result <nowiki><th></nowiki>, default is <code>Result</code>
+; <code>header-ingredients</code> = content of ingredients<nowiki><th></nowiki>, default is <code>Ingredients</code>
+; <code>header-station</code> = content of crafting station<nowiki><th></nowiki>, default is <code><nowiki>[[Crafting station]]</nowiki></code>
+
+=== Adding extra columns/rows around crafting stations ===
+Only valid when <code>nostation</code> is not set.
+
+'''Define cols:'''<br/>
+; <code>station-col-before-1</code><br/>
+; <code>station-col-before-2</code><br/>
+; <code>station-col-before-3</code><br/>
+...<br/>
+Column headers before crafting station column
+
+; <code>station-col-after-1</code><br/>
+; <code>station-col-after-2</code><br/>
+; <code>station-col-after-3</code><br/>
+...<br/>
+Column headers before crafting station column
+
+'''Define index key for row content:'''<br/>
+; <code>station-index-Furnace</code> = _a<br/>
+Define index key for "Furnace"(as <code>station</code> parameter), for example<br/>
+
+'''Define actual contents:'''<br/>
+; <code>_a-row-station-col-before-1</code> = <br/>
+; <code>_a-row-station-col-before-2</code> = <br/>
+...<br/>
+; <code>_a-row-station-col-after-1</code> = <br/>
+...<br/>
+Define contents for <nowiki><td></nowiki> using index key.
+
+=== Adding extra cols/rows around by crafting results ===
+'''Define columns:'''<br/>
+; <code>col-A-1</code><br/>
+; <code>col-A-2</code><br/>
+...<br/>
+; <code>col-B-1</code><br/>
+...<br/>
+; <code>col-C-1</code><br/>
+...<br/>
+; <code>col-D-1</code><br/>
+...<br/>
+The order in which all columns are displayed is:<br/>
+<code>col-A</code>s • <code>Result</code> • <code>col-B</code>s • <code>Ingredients</code> • <code>col-C</code>s • <code>station-col-before</code>s • <code>Crafting Station</code> • <code>station-col-after</code>s • <code>Col-D</code>s
+
+'''Define index key for row content:'''<br/>
+Define index key for a row(Priority in this order):<br/>
+; <code>result-index-#3</code> = _a<br/>  
+Define by row number
+; <code>result-index-Crimtane Bar-desktop console</code> = _a<br/>
+Define by result name + version info
+; <code>result-index-Copper Bar</code> = _a<br/>
+Define by result name
+
+'''Define actual contents:'''<br/>
+; <code>_a-row-col-A-1</code> = <br/>
+...<br/>
+Define contents for <nowiki><td></nowiki> using index key, corresponding to the definition of columns.
+
+=== Adding extra rows ===
+NOTE: extra rows don't count as part of <code>expectedrows</code>.
+
+Before recipe rows:
+; <code>topextrow-1-col-result</code> = <br/>
+; <code>topextrow-1-col-ingredients</code> = <br/>
+; <code>topextrow-1-col-station</code> = <br/>
+; <code>topextrow-1-col-ingredients</code> = <br/>
+; <code>topextrow-1-col-C-2</code> = <br/>
+...<br/>
+; <code>topextrow-2-col-result</code> = <br/>
+...<br/>
+
+After recipe rows:
+; <code>extrow-1-col-result</code> = <br/>
+; <code>extrow-1-col-ingredients</code> = <br/>
+; <code>extrow-1-col-station</code> = <br/>
+; <code>extrow-1-col-B-1</code> = <br/>
+; <code>extrow-1-col-C-1</code> = <br/>
+...<br/>
+; <code>extrow-2-col-result</code> = <br/>
+...<br/>
+
+See [[tgc:Bars]] and [[tgc:Recovery potions]] for examples.
+
+== Extract component ==
+Some components of the recipe can be extracted and formatted separately, see {{tl|recipes/extract}}.
+
+== Count for result rows ==
+You can use {{tl|recipes/exist}} and {{tl|recipes/count}} to check the existence and number of results of recipes that meet query constraints. Note: you should use <code><nowiki>{{#if:{{recipes/exist|<constraints>}}}}</nowiki></code> to check existence instead of  <code><nowiki>{{#ifeq:{{recipes/count|<constraints>}}|0}}</nowiki></code>, because the former is much faster and cheaper.
+ 
+<includeonly>
+[[Category:Recipes templates| ]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

@@ -1,0 +1,47 @@
+
+{{addon|Calamity: Tales of the Aquatic}}
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-100% movement speed<br/>-50% defense and damage reduction
+| tooltip = Youve been Electrified with supreme powers
+}}
+
+'''Noctactricity''' is a debuff that takes away the targets ability to move adn regenerate. And halves his defense and damage reduction.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

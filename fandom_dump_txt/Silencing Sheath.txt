@@ -1,0 +1,24 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = +10 maximum stealth
+| rare = 3
+| sell = {{value|0|0|80}}
+| stack = 1
+}}
+
+The '''Silencing Sheath''' is a craftable [[Pre-Hardmode]] [[Spy]] [[covering]]. When equipped, the player's maximum [[Spy#Stealth:~:text=it is equipped.-,Stealth,-The Stealth Meter|Stealth]] is increased by 10.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

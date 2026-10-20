@@ -1,0 +1,46 @@
+{{item infobox
+| stack = 1
+| auto = yes
+| type = Weapon
+| type2 = Crafting material
+| damage = 1008
+| damagetype = Spy
+| use = 39
+| velocity = 8
+| knockback = 8
+| tooltip = Throws a shadow bomb that explodes into homing souls<br/>Stealth strikes make the bomb manifest on the cursor and explode into more souls
+| critical = 20%
+| rare = 14
+| sell = {{value|0|36}}
+| hardmode = yes
+| postml = yes
+| element1 = dark
+| element2 = Smash
+| proj = Penumbra Soul.png
+| projcaption = Penumbra Soul
+}}
+{{distinguish|Penumbra Potion|a [[stealth]]-based [[buff potion]]}}
+
+The '''Penumbra''' is a craftable Godseeker Mode [[Spy]] [[Bombs|bomb]]. It fires shadow bombs that charge in the direction of the player's cursor and explode into homing souls.
+
+Performing a [[stealth strike]] with the Penumbra will cause a shadow bomb to appear at the location of the cursor, quickly exploding into many homing souls.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Penumbra could be considered a counterpart to the [[Hypothermia]] due to their similar recipes.
+*The penumbra is the lighter region of a shadow cast by an object.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Bombs]]

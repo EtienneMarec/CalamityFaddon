@@ -1,0 +1,43 @@
+{{Infobox wrapper|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 65
+| knockback = 6
+| use = 36
+| tooltip = Hold the attack button to charge the drill, release to fire a drill bit that increases in size and damage the more it is charged<br/>Fully charged drill bits home in towards enemies<br/> Drill bits slow down while hitting enemies<br>Enemies hit by the drill bit are infected with the Plague
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffduration = 3 seconds
+| debuffchance = 100%
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 8
+| sell = {{value|0|16}}
+| proj = Sewer_Drill_Bit.png
+| projcaption =Drill Bit
+| element1 = Poison
+| element2 = Stab
+| element3 = Machine
+}}|{{item drops infobox
+| [[The Plaguebringer Goliath]] | 1 | {{dv|25%|33.33%}}
+}}}}
+
+The '''Sewer Brewer''' is a [[Hardmode]] [[Melee weapons|melee weapon]] that autoswings. It is dropped from the [[The Plaguebringer Goliath|Plaguebringer Goliath]].
+
+When the weapon is used, the player will hold the weapon out in front of them, charging it up slowly. Releasing the attack button launches a drill bit with the size, speed, and damage varying based on the charge of the weapon, with a fully charged up drill bit dealing 600% of the weapon's base damage. Drill bits slow down while hitting enemies, getting more hits on them before despawning. Fully charged drill bits home in towards enemies.
+
+Its best [[modifier]] is '''Godly'''. It cannot get modifiers that affect size.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+A [[wikipedia:Sanitary_sewer|sewer]] is an underground pipe or tunnel system designed for carrying sewage from houses and commercial buildings.
+
+{{-}}
+{{Master Template Weapons
+|show-main=yes
+|show-melee=yes
+}}

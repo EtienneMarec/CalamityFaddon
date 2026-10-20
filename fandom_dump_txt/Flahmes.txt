@@ -1,0 +1,30 @@
+{{buff infobox
+| type = Debuff
+| effects = Target loses 500 health per second and has their damage reduction reduced by 35%
+| tooltip = Vaporizing from total flahium annihilation
+}}
+
+'''Flahmes''' is a [[debuff]] inflicted by many items crafted from [[Flahium Bar]]s. The debuff reduces the target's [[damage reduction]] by 35% and depletes 500 health per second.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

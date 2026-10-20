@@ -1,0 +1,45 @@
+{{npc infobox
+| type = Enemy
+| ai = Yggdrasil Ent AI
+| damage = {{dv|180|boost=0.15}} (Contact)<br/>{{dv|120|240}} (Roots)
+| life = {{dv|38000|76000}}
+| defense = 20
+| dr = 10%
+| knockback = 100
+| environment = The Hallow
+| environment2 = The Underworld
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| duration = 2 seconds
+| money = {{value|0|60}}
+| Profaned Shard|1|100%
+| Unholy Essence|6-8|100%
+| Pearlwood|{{dv|56-230|89-270}}|100%
+| custom| {{item|Elder Berry|note=(Once the player has used all [[Stamina Meter|Stamina Upgrades]] in [[Revengeance Mode]]|wrap=y}} ({{dv|1}})|15%
+| Yggdrasil Core|1|20%
+| hardmode = yes
+| postml = yes
+| immune1 = Confused
+| immune2 = Poisoned
+| immune3 = Holy Flames
+| hurt = ScornHurt.wav
+| killed = ScornDeath.wav
+| sound = NPC_Hit_43.wav
+| soundtext = Roots
+}}
+
+The '''Yggdrasil Ent''' (Japanese: ユグドラシルエント ''Yugudorashiruento'') is a rare Godseeker Mode [[mini boss]] that spawns in the [[Hallow]] and [[Underworld]] biomes. It initially sits still, but will start attacking the player when attacked or if the player has the [[Bloody Vein]] equipped. It attacks by summoning long thorns from random directions offscreen towards the player. When under 50% health, it will summon three [[Crackling]] to assist it. It drops the [[Profaned Shard]] when defeated, needed to summon the [[Profaned Guardians]], and consequently, [[Providence, the Profaned Goddess]].
+
+== Notes ==
+*The player should take great caution while in either biome it can spawn in, as randomly swinging a weapon may cause a stray projectile to hit the ent and enrage it. Carrying a [[Lifeform Analyzer]], or any of its upgrades, in their inventory can help warn the player in advance.
+**As it's initially stationary, the player can stay in one spot and wait for it to despawn (i.e., for the health bar to disappear or for the Lifeform Analyzer to stop indicating its presence) if they are not ready to face it yet.
+
+== Trivia ==
+*[[wikipedia:Yggdrasil|Yggdrasil]] is a sacred tree from Norse cosmology.
+*The enemy was implemented to clear up confusion on what Providence's wood is made of, that being [[Pearlwood]].
+*In the Japanese translation, the name is "ユグドラシルエント ''Yugudorashiruento''"
+{{-}}<br />{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

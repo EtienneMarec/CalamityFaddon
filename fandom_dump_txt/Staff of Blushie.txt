@@ -1,0 +1,62 @@
+{{dedicated|Blushiemagic|Developer}}
+{{item infobox
+| type = Weapon
+| damage = 1
+| damagetype = magic
+| auto = yes
+| knockback = 1
+| mana = 200
+| tooltip = Hold your mouse, wait, wait, wait, and put your trust in the power of blue magic
+| use = 30
+| stack = 1
+| rare = 16
+| sell = {{value|0|40}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| debufftip = Slowly losing life
+| debuffduration = 5 seconds
+| debuff2 = Frostburn
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuff3 = Holy Flames
+| debuffchance3 = 100%
+| debuffduration3 = 5 seconds
+| debufftip3 = Dissolving from holy light
+| element1 = Water
+| element2 = Fire
+| element3 = Magic
+}}
+[[File:Staff_of_Blushie_(demo).gif|frame|right|The Staff of Blushie's gears, chains and fireballs. Note that none of these effects actually deal damage, and the damage is instead dealt in a rectangular area around the player.]]
+
+The '''Staff of Blushie''' is a craftable Epilogue [[developer]] [[wand]]. Upon holding the {{key|use}} button with the weapon in hand, five blue gears will appear on the screen which are connected by a series of chains, and a row of blue fire appears some distance below. These effects are purely aesthetic, and will follow the player as they move. After 2 seconds, orange fire will start spawning everywhere around the player, causing an invisible aura roughly within the attack's radius to begin rapidly damaging [[enemies]] over a large area. The longer the attack is held, the more damage it deals. The weapon stops attacking after 60 seconds, regardless of whether the player is still holding the {{key|use}} button.
+
+Its best modifier is '''Zealous''' due to its unique way of damaging enemies.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The amount of damage dealt is equal to the amount of frames the projectile has lasted for, minus 120, multiplied by 4.5, and rounded down.
+**As a result, the maximum damage dealt per frame is 15,660, not accounting for critical strikes.
+**Damage is further increased by twice the target's defense.
+
+== Trivia ==
+*This weapon actually has a unique [[Rarity]] but is referred here as Hot Pink rarity for consistency between weapons.
+**This unique rarity appears as a blue ({{color|#0000FF ●|#0000FF}}) color.
+*This weapon's tooltip refers to "blue magic", which is a reference to the Bluemagic mod, now known as [https://terrariamods.fandom.com/wiki/Elemental_Unleash Elemental Unleash], developed by Blushiemagic.
+**This weapon functions similarly to the [https://terrariamods.fandom.com/wiki/Elemental_Unleash/Charm_of_Blushie Charm of Blushie] from the same mod.
+* Similar to [[The Wand]], it humorously states a damage value of 1 despite being an extremely powerful weapon.
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

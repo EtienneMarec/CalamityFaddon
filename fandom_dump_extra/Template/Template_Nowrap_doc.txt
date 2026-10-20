@@ -1,0 +1,14 @@
+Prevent line wrapping.
+
+== Usage ==
+<nowiki>{{nowrap|Text that shouldn't wrap.}}</nowiki>
+
+; Unnamed Parameter 1
+The text that you don't want to wrap.
+
+<includeonly>
+[[Category:Formatting templates‎]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

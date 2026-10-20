@@ -1,0 +1,36 @@
+<includeonly><!-- 
+-->{{#switch:{{{1|}}}<!-- 
+-->|reset|resetall=<!-- 
+	-->{{#vardefine:_item_flag_anchor|}}<!-- 
+	-->{{#vardefine:_item_flag_mode|}}<!-- 
+	-->{{#vardefine:_item_flag_wrap|}}<!-- 
+	-->{{#vardefine:_item_flag_nolink|}}<!-- 
+	-->{{#vardefine:_item_flag_class|}}<!-- 
+	-->{{#vardefine:_item_flag_css|}}<!-- 
+-->|get|load=<!-- 
+	-->{{#switch:{{{2|}}}<!-- 
+		-->|anchor={{#var:_item_flag_anchor|}}<!-- 
+		-->|mode={{#var:_item_flag_mode|}}<!-- 
+		-->|wrap={{#var:_item_flag_wrap|}}<!-- 
+		-->|nolink={{#var:_item_flag_nolink|}}<!-- 
+		-->|class={{#var:_item_flag_class|}}<!-- 
+		-->|css|style={{#var:_item_flag_css|}}<!-- 
+	-->}}<!-- 
+-->|#default=<!-- 
+	-->{{#switch:{{{anchor|}}}<!-- 
+		-->|y|yes={{#vardefine:_item_flag_anchor|y}}<!-- 
+		-->|n|no={{#vardefine:_item_flag_anchor|}}<!-- 
+	-->}}<!--
+	-->{{#switch:{{{wrap|}}}<!-- 
+		-->|y|yes={{#vardefine:_item_flag_wrap|y}}<!-- 
+		-->|n|no={{#vardefine:_item_flag_wrap|}}<!-- 
+	-->}}<!--
+	-->{{#switch:{{{nolink|}}}<!-- 
+		-->|y|yes={{#vardefine:_item_flag_nolink|y}}<!-- 
+		-->|n|no={{#vardefine:_item_flag_nolink|}}<!-- 
+	-->}}<!--
+	-->{{#vardefine:_item_flag_mode|{{{mode|{{#var:_item_flag_mode|}}}}}}}<!-- 
+	-->{{#vardefine:_item_flag_class|{{{class|{{#var:_item_flag_class|}}}}}}}<!-- 
+	-->{{#vardefine:_item_flag_css|{{{css|{{{style|{{#var:_item_flag_css|}}}}}}}}}}<!-- 
+-->}}<!--
+--></includeonly><noinclude>Set/get default options for {{tl|item}}. See {{tl|item}} for document. [[Category:Icon templates]]</noinclude>

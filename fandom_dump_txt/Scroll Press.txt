@@ -1,0 +1,26 @@
+{{addon|Deimos, the Starborn Princess}}
+{{item infobox
+| type = Furniture
+| type2 = Crafting station
+| placeable = Yes
+| use = 14
+| auto = yes
+| width = 3
+| height = 2
+| stack = 9999
+| tooltip = Used for crafting scrolls
+| consumable = Yes
+| rare = 1
+| color = #9BAB75
+| sell = No value
+}}
+
+The '''Scroll Press''' is a craftable [[Pre-Hardmode]] [[crafting station]] used to craft [[Scrolls]]. It also functions as a [[Loom]], [[Sawmill]], [[Dye Vat]], and a [[Water]] source.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used to craft ===
+{{ajax|Recipes/Scroll Press|width=420px}}
+{{-}}
+{{DeimosMod}}

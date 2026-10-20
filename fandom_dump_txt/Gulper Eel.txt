@@ -1,0 +1,89 @@
+{{npc infobox
+| type = Burrowing Enemy
+| type2 = Aquatic
+| environment = Abyss
+| ai = Gulper Eel AI
+| life = {{dv|48,000|96,000}}
+| knockback = 100
+| hardmode = no
+| listexclude = yes
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| banner = yes
+| money = {{value|0|5|0|0}}
+| custom | {{item|Depth Cells|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|6-8|8-11}}) | 50%
+| custom | {{item|Lumenyl|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|2-3|3-4}}) | 50%
+| boxwidth = 29em
+| hurt = NPC_Hit_9.wav
+| killed = NPC_Killed_13.wav
+}}
+
+The '''Gulper Eel''' is an [[enemy]] that spawns in the 3rd and 4th layers of the [[Abyss]]. It is initially passive, only becoming aggressive if the player attacks it or draws too close to it. It is a long enemy with multiple segments and a large head, which can deal a lot of damage.
+
+== Segments ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox
+| name = Gulper Eel Head
+| type = Burrowing Enemy
+| type2 = Aquatic
+| ai = Gulper Eel AI
+| life = {{dv|48,000|96,000}}
+| damage = {{element|Dark}} {{dv|135|boost=0.1}}
+| defense = 10
+| hardmode = yes
+| knockback = 100
+| debuff = Crush Depth
+| debufftip = Aquatic pressure
+| debuffchance = 100%
+| duration = 5 seconds
+| vulnerable1 = Slash
+| vulnerable2 = Poison
+| vulnerable3 = Cold
+| resistant1 = Water
+| resistant2 = Dark
+}}
+
+|{{npc infobox
+| name = Gulper Eel Body
+| type = Burrowing Enemy
+| type2 = Aquatic
+| ai = Gulper Eel AI
+| life = {{dv|48,000|96,000}}
+| damage = {{element|Dark}} {{dv|90|180}}
+| defense = 30
+| knockback = 100
+| hardmode = yes
+| vulnerable1 = Slash
+| vulnerable2 = Poison
+| vulnerable3 = Cold
+| resistant1 = Water
+| resistant2 = Dark
+}}
+
+|{{npc infobox
+| name = Gulper Eel Tail
+| type = Burrowing Enemy
+| type2 = Aquatic
+| ai = Gulper Eel AI
+| life = {{dv|48,000|96,000}}
+| damage = {{element|Dark}} {{dv|65|130}}
+| defense = 50
+| knockback = 100
+| hardmode = yes
+| vulnerable1 = Slash
+| vulnerable2 = Poison
+| vulnerable3 = Cold
+| resistant1 = Water
+| resistant2 = Dark
+}}
+|}
+
+== Trivia ==
+*Like their [[wikipedia:Pelican_eel|real life counterparts]] they both live in the extremely deep parts of the ocean and both have large jaws, but unlike Gulper Eels in real-life, they are far larger and also way more aggressive.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

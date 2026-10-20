@@ -1,0 +1,35 @@
+{{Addon|Calamity: Community Remix}}
+{{item infobox
+| type = Covering
+| rare = 15
+| stack = 1
+| tooltip = Pain<br/>Removes all negative effects from other coverings<br/>Killed enemies summon stationary Brimstone Hearts that explode after 10 seconds<br/>The hearts can also block projectiles and can be collected for health<br/>Grants a minion slot for every minion summoned that takes up multiple slots<br/>Boosts melee speed by 20%, ranged velocity by 35%, Spy damage by 45%, max minions by 8, and reduces mana cost by 75%<br/>Increases damage based on proximity to enemy
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|30}}
+}}
+
+The '''Calamitous Soul Artifact''' is a craftable Godseeker Mode [[covering]] that is a combination of all four soul artifacts. When worn, the player gains the following effects:
+*All negative effects are removed from other coverings, such as negative healing from the [[Mana Overloader]], increased damage taken from the [[Reaper Tooth Necklace]], and the reduced movement speed from [[Asgardian Aegis]]' guard.
+*When an enemy is killed, they drop a Brimstone Heart projectile. The hearts create a small explosion after 10 seconds which deals a flat 6666 damage to enemies caught within. Any projectile that hits the heart will be deleted for a maximum of 3 projectiles blocked. If the player touches the heart, it is collected, healing the player for 10 health.
+*For every minion summoned which takes up 2 or more minion slots, a new minion slot is gained.
+*20% increased melee speed.
+*35% increased ranged velocity.
+*45% increased Spy damage.
+*8 increased max minions.
+*Mana cost reduced by 75%.
+*All damage increases as the player gets near enemies for a cap of 700% damage. Damage starts to increase upon reaching a 40 tile range of an enemy.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Plates}}
+{{Ashes of Annihilation}}
+{{Master Template Equipables
+|show-main = yes
+|show-combat = yes
+}}
+[[Category:Combat coverings]]

@@ -1,0 +1,44 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox	
+| type = Weapon
+| damage = 48
+| damagetype = Ranged
+| knockback = 1
+| stack = 1
+| auto = yes
+| use = 36
+| velocity = 10
+| rare = 2
+| tooltip = Fires off a foam bullet that inherits the used bullet's effect<br/>
+Requires reloading after firing the 6th ammo<br/>
+After successfully reloading, the first three shot can bounce off up to 5 enemies<br/>
+30% chance to not consume ammo<br/>
+{{color|"A certain dutchaboo had one of these"|#f27a18}}
+| sell = {{value|0|1|50|0}}
+| proj = Foam Dart.png
+| projcaption = Foam Dart
+}}
+
+The '''Sister's Toy Rifle''' is a craftable [[Pre-Hardmode]] [[gun]] that is an upgraded version of the [[tgc:Red Ryder|Red Ryder]]. Upon use, it converts any bullets fired into Foam Bullets, which inherits used bullet's effect. It can only fire 6 times, after which it requires a reload. 
+
+{{Key|open}} causes the bar to appear. Right-clicking again the moment bar is about to be full will reload the gun, causing the first 3 shots to deal 1.5x the damage and be able to bounce off enemies up to 5 times. Depending if the reload failed or is successful, it either plays the "Boo-womp" sound, or the "Ding!" sound, respectively.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*As the recipe calls for items exclusive to [[tgc:Christmas|Christmas]] event, it can only be attained legitimately during said seasonal event.
+
+== Trivia ==
+*This weapon takes direct inspiration from various dutch rifles like [https://en.wikipedia.org/wiki/Geweer_M._95 Geweer M. 95], and the [https://en.wikipedia.org/wiki/Karabiner_98k Karabiner 98k].
+*This weapon is directly based on the same toy rifle that [https://ongezellig.fandom.com/wiki/Mymy Mymy Schoppenboer] uses in Part 1 + 2 of the pilot of the dutch webcartoon "Ongezellig".
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

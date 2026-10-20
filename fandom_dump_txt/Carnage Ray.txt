@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| rare = 4
+| sell = {{value|0|2|40}}
+| damage = 24
+| velocity = 6
+| tooltip = Fires a blood ray<br/>The farther along the ray hit enemies are, the more damage they take
+| use = 20
+| knockback = 3.25
+| mana = 10
+| auto = yes
+| stack = 1
+| element1 = Dark
+}}
+
+The '''Carnage Ray''' is a craftable [[Pre-Hardmode]] [[wand]]. It creates a red particle beam which deals much more damage the farther away the enemy is from the player, up to a maximum of 3x its base damage. It is made with [[Blood Sample]]s in [[Crimson]] worlds and is the Crimson counterpart to the [[Night's Ray]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The highly damaging piercing beam makes this weapon highly effective against worm bosses like the [[Eater of Worlds]], the [[Desert Scourge]], and even [[The Destroyer]].
+*It can be considered one of the strongest Pre-Hardmode magic weapons due to its high DPS.
+
+{{Night's}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

@@ -1,0 +1,27 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| use = 14
+| sell = No value
+| stack = 9999
+| rare = 0
+| color = #BDD3DD
+| hardmode = yes
+}}
+
+'''Astral Snow''' is a [[Hardmode]] [[block]] which replaces [[Snow Block]]s in the [[Astral Infection]] [[biome]] upon its creation.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

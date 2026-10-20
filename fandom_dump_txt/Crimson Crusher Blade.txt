@@ -1,0 +1,44 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 40
+| use = 27
+| knockback = 7
+| auto = yes
+| stack = 1
+| tooltip = Inflicts ichor and critical hits lower enemy contact damage
+| debuff = Ichor (debuff)
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| debufftip = Defense reduced by 20
+| rare = 2
+| sell = {{value|0|0|40}}
+| element1 = Unholy
+| element2 = Slash
+}}
+
+The '''Crimson Crusher Blade''' is a craftable [[Hardmode]] [[broadsword]]. When swung, it emits faint blood particles and inflicts the [[Ichor (debuff)|Ichor]] [[debuff]] upon striking enemies. While no [[bosses]] are alive, critical strikes caused by this weapon reduce the target's base contact damage by 5.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The amount of contact damage reduction will scale with difficulty.
+**For example, [[Great Sand Shark]] has a 60% scaling factor in [[Expert Mode]] and 15% scaling factor in [[Revengeance Mode]]. Therefore, the amount of damage decrease will equal to {{dv|5|8|9}}.
+*Enemies with 5 or less contact damage can only be reduced up to 1 instead of nullifying damage completely.
+*It is considered a good early game weapon due to its high damage and low crafting cost.
+*It is the [[Crimson]] counterpart to the [[Corrupted Crusher Blade]].
+
+== Trivia ==
+*Despite the Corrupted Crusher Blade emitting light while swung, the Crimson Crusher Blade does not.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:猩红碾碎刃]]

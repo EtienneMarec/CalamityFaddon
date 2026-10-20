@@ -1,0 +1,66 @@
+{{addon|Deimos, the Starborn Princess}}
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 62
+| auto = yes
+| use = 10
+| knockback = 0
+| mana = 20
+| stack = 1
+| tooltip = Fires two sets of miracle beams that converge and diverge, creating explosions when fully converged
+| rare = 15
+| velocity = 30
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| debuff = Exo Freeze
+| debuffduration = 0.5 seconds (Explosion)
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 2 seconds (Explosion)
+| debuffchance2 = 100%
+| debuff3 = Frostburn
+| debuffduration3 = 2.5 seconds (Explosion)
+| debuffchance3 = 100%
+| debuff4 = On Fire!
+| debuffduration4 = 3 seconds (Explosion)
+| debuffchance4 = 100%
+| proj = Quintessence Beam.png
+| projcaption = Quintessence Beam
+| image2 = Quintessence Cannon holdout.png
+| image2caption = Quintessence Cannon
+| element1 = Cold
+| element2 = Machine
+| element3 = Fire
+| sound = Item_15.wav
+| soundtext = Use
+| sound2 = LargeWeaponFire.wav
+| sound2text = Explosion
+}}
+
+The '''Quintessence Cannon''' is a craftable Godseeker Mode [[magic weapon]] that acts like the [[Last Prism]] and [[Cruel Jewel]]. It fires two sets of six pastel rainbow beams that alternate between being fully converged and fully diverged.
+
+The Quintessence Cannon projects six fully converged beams, as well as six fully diverged beams. As the weapon is held out, the diverged beams will begin to spin inward and converge while the converged beams will begin to spin outward and diverge. As a set of beams becomes more converged, it will begin to deal more damage. After three seconds, both sets of beams will have fully alternated between diverged and converged. When a set of beams becomes fully converged, it will release an explosion at the end of the large beam, at any enemies that were being hit by the beam when it converged, and at the held out weapon itself. These explosions deal 350% of the weapons damage and neither the Quintessence Cannon nor the explosions can deal any knockback.
+
+When the Quintessence Cannon's explosions hit an enemy, they will inflict the following [[debuffs]]:
+*[[Exo Freeze]] (0.5 seconds)
+*[[Holy Flames]] (2 seconds)
+*[[Frostburn]] (2.5 seconds)
+*[[On Fire!]] (3 seconds)
+
+
+{{fantag|Catalyst}} Like other beam weapons, 1 point of [[Stamina]] will be removed for every second the weapon is being channeled.
+
+{{Modifier|magicnokb}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Exo}}
+{{DeimosMod}}
+[[Category:Magic weapons]]

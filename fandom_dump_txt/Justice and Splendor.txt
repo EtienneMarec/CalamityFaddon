@@ -1,0 +1,58 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 632
+| use = 20
+| velocity = 16
+| knockback = 8.5
+| auto = yes
+| stack = 1
+| tooltip = Uses a powerful swinging combo that grants the holy flame buff, this combo can be followed up with a right click to dash forward<br/>hitting enemies with the dash will empower the swords for 10 seconds, allowing you to swing both at once<br/>Can be thrown if stealth is full, homing in on enemies and exploding, if thrown while the sword is empowered spectral copies can be wielded instead, allowing you to swing while the sword is thrown out<br/>"IS THAT THE BEST YOU'VE GOT?"
+| critical = 14%
+| rare = 12
+| sell = {{value|0|62}}
+| hardmode = yes
+| postml = yes
+| buff = Holy Flame | bufflink = no
+| duration = 5 seconds (true melee hits)
+| bufftip = The Holy Light Guides You...
+| proj = Justice.png
+| projcaption = Justice
+| proj2 = Splendor.png
+| proj2caption = Splendor
+| element1 = Holy
+| element2 = Slash
+}}
+
+'''Justice and Splendor''' are a pair of craftable Godseeker Mode [[broadswords]] that autoswing. Unlike most broadswords, it uses a custom swing animation and performs a three-swing combo of alternating upwards and downwards swings with the blue and gold swords. Immediately after the third hit, if the right-click is used the player will perform a fast forwards lunge as a follow-up that deals 300% of the weapon's damage and empowers the swords, causing them to glow and deal 25% increased damage.
+
+In addition to these effects, the player is granted the '''Holy Flame''' buff which increases melee speed by 15% and causes [[stealth]] to generate 5% faster.
+
+Uniquely amongst other melee weapons, Justice and Splendor is able to perform a [[stealth strike]] in which the sword is thrown towards the cursor, quickly homing in on enemies and creating an explosion on hit that deals 500% damage. 
+
+While the weapon is thrown, it is unable to be swung until it has hit a target and exploded, unless it is empowered in which case a glowing copy of the swords will be wielded instead.
+
+{{modifier|meleealt}}
+
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+
+== Notes ==
+*Due to Justice and Splendor's unique swing animation, it is entirely unaffected by the player's attack speed.
+*The player will need to wear an [[Covering]] set that generates stealth in order to utilize the weapon's stealth strike.
+** As such, if one wants to consider using this weapon, they must weigh the benefits of using Spy armor in order to utilize the stealth strike, forfeiting much of the melee damage they would otherwise have received on both the primary attack and other melee weapons. However this weapon is balanced so that the stealth strike deals very high damage, making it a viable choice either way.
+
+
+== Trivia ==
+*This weapon was inspired by [https://ultrakill.fandom.com/wiki/Gabriel#cite_ref-1 Gabriel, the Apostate of Hate], and its tooltip is directly quoted from him.
+**The stealth strike throwing homing and exploding swords, as well as being able to use copies of the swords while they are thrown, is a reference to his rematch fight.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

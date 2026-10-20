@@ -1,0 +1,29 @@
+{{item infobox
+| type = Potion
+| tooltip = Boosts damage and knockback by 4% and critical strike chance by 2%<br/>Reduces defense by 5%
+| stack = 9999
+| rare = 4
+| use = 17
+| sell = {{value|0|0|26}}
+| consumable = yes
+| debuffduration = 8 minutes
+| debuff = Whiskey (debuff) | debufflink = no
+| debufftip = Damage, critical strike chance, and knockback boosted, defense reduced
+| hardmode = yes
+}}
+
+'''Whiskey''' is a craftable [[Hardmode]] [[potion]]. It grants the '''Whiskey''' [[debuff]] when consumed, which reduces [[defense]], but boosts damage, critical strike chance and knockback.
+
+While the effects of the Whiskey debuff are mostly beneficial, it is still considered a debuff, and therefore cannot be removed by right-clicking the icon.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

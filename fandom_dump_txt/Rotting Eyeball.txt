@@ -1,0 +1,26 @@
+{{infobox wrapper
+|{{item infobox
+| type = Pet Summon
+| stack = 1
+| tooltip = Summons a corrupted conglomeration
+| rare = 3
+| use = 19
+| buff = Mini Mind | bufflink = no
+| bufftip = It knows everything
+| sell = {{value|0|0|80}}
+}}
+|{{item drops infobox
+| [[The Hive Mind]] | 1 | 10%
+}}
+}}
+{{summoned|Mini Hive Mind|type=pet}}
+
+The '''Rotting Eyeball''' is a [[pet]] summoning item that drops from [[The Hive Mind]]. It summons a miniature Hive Mind that follows the player.
+
+When inserted into a [[Luminous Altar]], [[Aetherial Guardian, Olistene]] will be spawned.
+
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

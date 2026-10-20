@@ -1,0 +1,69 @@
+{{infobox wrapper
+|{{item infobox
+| type = Coverings
+| defense = 14
+| rare = 1
+| sell = {{value|0|0|80}} (set)
+| setbonus = Consuming fruits grants unlimited mana and increased magic damage for a short period of time<br/>This effect has a 1 minute cooldown
+| resistance1 = Unholy
+| resistance2 = Water
+| vulnerable1 = Holy
+| vulnerable2 = Fire
+| vulnerable3 = Poison
+}}
+|{{item drops infobox
+| [[Banana Clown]]|1|33% (per piece)
+}}
+}}
+
+'''Banana Clown Coverings''' is a Pre-[[Hardmode]] [[Covering]] set that drops from [[Banana Clown]]s.
+
+It consists of a '''Banana Clown Mask''', '''Banana Clown Sleeves''', '''Banana Clown Pants''', and '''Banana Clown Boots'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*8 defense
+*6 magic damage
+*14% increased movement speed
+*Consuming [[tgc:Fruit|Fruits]] grants unlimited mana and 10% increased magic damage for 10 seconds with a 1 minute cooldown.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Banana Clown Mask
+| type = Coverings
+| defense = 1
+| body slot = Helmet
+| tooltip = 2 magic damage
+| sell = {{sc|20}}
+}}
+|{{item infobox
+| name = Banana Clown Sleeves
+| type = Coverings
+| defense = 2
+| body slot = Shirt
+| tooltip = 2 magic damage
+| sell = {{sc|20}}
+}}
+|{{item infobox
+| name = Banana Clown Pants
+| type = Coverings
+| defense = 2
+| body slot = Pants
+| tooltip = 2 magic damage and 7% increased movement speed
+| sell = {{sc|20}}
+}}
+|{{item infobox
+| name = Banana Clown Boots
+| type = Coverings
+| defense = 1
+| body slot = Boots
+| tooltip = 7% increased movement speed
+| sell = {{sc|20}}
+}}
+}}
+
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-Coverings=yes
+}}

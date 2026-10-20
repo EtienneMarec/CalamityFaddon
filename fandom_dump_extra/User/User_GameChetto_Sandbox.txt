@@ -1,0 +1,180 @@
+== BoC prototype page ==
+{|align=right
+|{{npc infobox
+| name = Brain of Cthulhu
+| namesub = Phase 1
+| type = Boss
+<!--| ai = Buffed Brain of Cthulhu AI-->
+| environment = The Crimson
+| life = {{dv|1,000|1,700|2,720}}
+| damage = '''Contact:''' <br/> {{dv|30|54|64|74}}
+| defense = 14
+| knockback = {{dv|50|55}}
+| money = {{gc|5}}
+| immune1 = Confused
+| immune2 = Webbed
+| immune3 = Temporal Sadness
+| immune4 = Glacial State
+| immune5 = Time Distortion
+| image2 = Map Icon Brain of Cthulhu.png
+| image2caption = Map Icon
+}}
+|-
+|{{npc infobox
+| name = Brain of Cthulhu
+| namesub = Phase 2
+| image = Brain of Cthulhu (Phase 2).png
+| type = Boss
+<!--| ai = Buffed Brain of Cthulhu AI-->
+| environment = The Crimson
+| life = {{dv|1,000|1,700|2,720}}
+| damage = '''Contact:''' <br/> {{dv|30|54|64|74}} <br/> '''Blood Geyser:''' <br/> {{dv|||60|69}}
+| defense = 14 (21 while spinning)
+| knockback = {{dv|50|55}}
+| money = {{gc|5}}
+| immune1 = Confused
+| immune2 = Webbed
+| immune3 = Temporal Sadness
+| immune4 = Glacial State
+| immune5 = Time Distortion
+| image2 = Map Icon Brain of Cthulhu.png
+| image2caption = Map Icon
+| debuff = Burning Blood
+| debuffchance = 100%
+| duration = {{revengeance| 2 seconds}} (Blood Geyser)
+| debufftip = Your blood is on fire
+| Brain of Cthulhu Mask|1|14.29%
+| Brain of Cthulhu Trophy|1|10%
+| Crimtane Ore|40-90|100%
+| Lesser Healing Potion|5-15|100%
+| Tissue Sample|30-50|100%
+| custom| {{item|The Brain of Cthulhu (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Brain of Cthulhu)|Treasure Bag|note=(Brain of Cthulhu)|wrap=y}}
+: • {{item|Brain of Confusion}}|{{expert|100%}}
+}}
+|}
+{{dablink|If you were looking for the Brain of Cthulhu on the vanilla wiki, click [[tgc:Brain of Cthulhu|here]].}}
+
+The [[Brain of Cthulhu]] is a [[Pre-Hardmode]] boss fought in [[The Crimson]] [[biome]]. It can be fought at anytime.
+
+While in [[Revengeance Mode|Revengeance]]  and [[Death Mode|Death]] mode, the Brain of Cthulhu has a buffed AI that is much stronger and more complex than the fight in Normal and Expert modes.
+
+== Spawn ==
+The Brain of Cthulhu does not spawn on its own and requires the player to either break 3 [[Crimson Heart]]s or use a [[Bloody Spine]] in the Crimson.
+
+== Behavior ==
+
+=== In [[Revengeance Mode]] ===
+The Brain of Cthulhu has two phases in Revengeance and Death Mode. This page will not be covering Normal or Expert modes for the Brain of Cthulhu. If the Brain of Cthulhu is lead outside of the Crimson, it will enrage, causing both the brain and its Creepers to become much faster. It is less aggressive when fought in the Underground Crimson.
+
+The Brain and the Creepers are capbale of inflicting multiple Debuffs upon contact damage.
+
+{| class="terraria sortable"
+! rowspan="2" | Debuff !! Duration !! Chance (Brain) !! Chance (Creepers)
+|-
+| {{item|Poisoned}} || 2.625 - 5.25 seconds || 11/243 || 11/81
+|-
+| {{item|Darkness}} || 1.5 - 3 seconds || 11/243 || 11/81
+|-
+| {{item|Cursed}} || 0.375 - 0.75 seconds || 2/243 || 2/81
+|-
+| {{item|Bleeding}} || 3.75 - 7.5 seconds || 11/243 || 11/81
+|-
+| {{item|Confused}} || 0.75 - 1.5 seconds || 2/243 || 2/81
+|-
+| {{item|Slow}} || 2.625 - 5.25 seconds || 11/243 || 11/81
+|-
+| {{item|Weak}} || 5.625 - 11.25 seconds || 11/243 || 11/81
+|-
+| {{item|Silenced}} || 0.75 - 1.5 seconds || 11/243 || 11/81
+|-
+| {{item|Broken Armor}} || 4.875 - 9.75 seconds || 11/243 || 11/81
+|}
+
+
+=== Phase 1 ===
+In the first phase of the fight, the brain itself is invulnerable but will still have contact damage, there will be 25 Creepers that spawn alongside the brain, which must be killed to progess the fight. 
+During this phase the Brain will teleport around the player, at an increasing rate as creepers are killed. It will also move towards the player after teleporting, getting faster the more Creepers are killed. 
+When only 6 Creepers remain, they will become immune to knockback.
+=== Phase 2 ===
+Once the Brain's Creepers have all been killed, the Brain transitions into phase 2 and become vulnerable to damage.
+
+During Phase 2 the brain will continue to teleport around the player and move towards them at an increased speed. There will also be 3 mirror images around the player that will mimic the Brains movement, they start somewhat transparent but become more opaque as the brain loses health, making it harder to tell which is the real one.
+
+At 70% health the brain will occasionally start to use another attack, where it will fly around the player in a quick loop before dashing towards them before teleporting.
+
+At 50% health the brain will use the circling attack every time before it teleports.
+
+At 20% health the brain will lose its minimap icon, making it not possible to use the map to tell which brain is real.
+
+===In [[Death Mode]]===
+*Can teleport much closer to the player. 
+*Creepers move faster. 
+*The minimap icon disappears when it is damaged in phase 2.
+*Gains decreased attack delay as its health decreases.
+
+===During the [[Boss Rush]]===
+*Max health increased to {{dv|1,000,000|1,700,000|2,720,000}}
+
+== Summons ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Creeper
+| type = Flying Enemy
+| environment = The Crimson
+| damage = {{dv|20|40|48|55}}
+| ai = Creeper AI
+| life = {{dv|100|170|220}}
+| defense = 10
+| knockback = {{dv|20|28}}
+| immune1 = Confused
+| Tissue Sample|{{dv|2-5|4-10}}|66.7%
+| Crimtane Ore|{{dv|5-12|10-25}}|66.7%
+}}
+}}
+
+== Aftermath ==
+*If a [[Crimson Heart]] hasn't been destroyed, the [[Merchant]] will begin selling [[Vilethorn]] and [[Ball O' Hurt]].
+*The [[Dryad]] will begin selling [[Worm Food]] and [[Bloody Spine]]s.
+*The [[Dryad]] will begin selling the [[Worm Scarf]] in Expert Mode.
+*The [[Tavernkeep]] can now spawn.
+
+== Tips ==
+{{dablink|For a Normal and Expert mode guide to Brain of Cthulhu, see [[tgc:Guide:Brain of Cthulhu strategies|Brain of Cthulhu strategies]] on the vanilla wiki.}}
+===General===
+*If being fought in the underground crimson it is wise to place platforms in the center of a Crimson chasam as they are usually the largest area in the underground and will allow for more movement.
+*Piecring weapons are useful for the first phase as they will allow you to damage multiple Creepers at once.
+*Lighting up your arena will help aleviate some of the effect from the Darkness debuff.
+
+===Weapons & Equipment===
+==== Melee ====
+*The [[Cnidarian]] is a great option due to it being very effective against creepers and the brain itself.
+**It is recommended to use yoyos with the [[White String]].
+*The [[Redtide Sword]] is a good choice due to its short but piercing whirlpools.
+*A [[Sharpening Station]] can give increased armour piercing.
+==== Ranged ====
+*The [[Aquashard Shotgun]] is a great pick to deal with the creepers.
+*The [[Firestorm Cannon]] is a good choice, especially with dealing with the creepers.
+*The [[Tendon Bow]] with [[Jester's Arrow]] is good due to the pierce, even with the brains slight resistance to it.
+*The [[Minishark]] can be good at keeping the brain away from you in the second phase.
+==== Mage ====
+*The [[Acid Gun]] is an effective choice to deal with the creepers.
+*The [[Frost Bolt]] is an all around great option for both the creepers and the brain.
+*The [[Space Gun]] has piercing which can help with the Creepers in phase one.
+**Combined with [[Meteor armor]] the Space Gun uses no mana, making it useful if you do not have a [[Mana Flower]]
+==== Summoner ====
+*The [[Frost Blossom]] paired with [[Seabound Staff]] or the [[Belladonna Spirit Staff]] are great to deal with the creepers effectively and keep the brain at bay.
+==== Rogue ====
+*The [[Meteor Fist]] is an all around decent pick for both the brain and the creepers.
+*The [[Contaminated Bile]] is a nice option for the creepers.
+*The [[Mycoroot]] is also a great pick for the brain itself.
+
+== Outdated Guide pages (credit to Temp.) ==
+{{:Latest Versions}}
+{{#dpl:
+|namespace = Guide
+|uses = Template:Guide header
+|include = {guide header}:[[%PAGE%]]<br/>
+|includenotmatch = /latest\s*=\s*{{#dplvar:_version:mainmod}}/s
+|mode = userformat
+}}

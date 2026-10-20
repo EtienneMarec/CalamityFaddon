@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 25
+| use = 12
+| knockback = 2
+| auto = yes
+| stack = 1
+| rare = 7
+| velocity = 11
+| sell = {{value|0|12}}
+| tooltip = 50% chance to not consume ammo<br/>Fires a powerful sniper round<br/>Right click to fire a burst of bullets
+| hardmode = yes
+| element1 = Fire
+| element2 = Unholy
+}}
+|{{item drops infobox
+|[[Calamitas]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Animosity''' is a [[Hardmode]] [[gun]] dropped by [[Calamitas]]. Its left click attack is slow but accurate and fires a [[High Velocity Bullet|high velocity]] shot that does heavy damage. Its right click attack is fast and fires a rapid burst of three shots.
+
+{{Modifier|ranged}}
+
+== Notes ==
+*The high velocity shot fired by Animosity's left click attack deals 580% of the weapon's overall damage, including the damage being contributed by the ammunition used.
+*The right click attack has a fixed use time of 12 ticks, with each bullet having a use time of 4, and the left click attack has a fixed use time of 35 ticks; as a result, no modifier can increase or decrease the firing rate of the gun.
+
+== Tips ==
+*Since the left click attack multiplies bullet damage by 580%, the Animosity massively amplifies the effect of high damage bullets such as [[Venom Bullet]]s or [[Acid Round]]s.
+
+== Trivia ==
+*This weapon used to be [[Revengeance Mode]]-exclusive.
+*The word "Animosity" means strong hostility.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]
+[[zh:憎恨]]

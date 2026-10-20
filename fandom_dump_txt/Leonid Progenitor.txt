@@ -1,0 +1,57 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 64
+| damagetype = Rogue
+| tooltip = Throws a bombshell that explodes, summoning a meteor to impact the site<br/>Right click to throw a spread of gravity affected comets that explode, leaving behind a star<br/>Stealth strikes lob a bombshell that additionally splits into comets on hit
+| knockback = 3
+| stack = 1
+| auto = yes
+| use = 14
+| velocity = 12
+| rare = 7
+| sell = {{value|0|9|60}}
+| debuff = Astral Infection (debuff)
+| debuffchance = 100%
+| debuffduration = 4 seconds (Bombshells, Large Comets)<br/>2 seconds (Small Comets, Stars)
+| debufftip = Your flesh is melting off
+| debuff2 = Confused
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (Explosion)
+| debufftip2 = Movement is reversed
+| hardmode = yes
+| proj = Leonid Comet Large.png
+| projcaption = Large Leonid Comet
+| proj2 = Leonid Comet Small.png
+| proj2caption = Small Leonid Comet
+| proj3 = Leonid Star.png
+| proj3caption = Leonid Star
+| element1 = Magic
+| element2 = Dark
+| element3 = Cold
+| element4 = Machine
+}}
+|{{item drops infobox
+| [[Astrum Aureus]] | 1 | 10%
+}}
+}}
+
+The '''Leonid Progenitor''' is a [[Hardmode]] [[rogue weapon]] that drops from [[Astrum Aureus]]. When used with its primary fire (left-click), gravity-affected bombshells are thrown which will explode on enemies and tiles, causing a large explosive meteor to rain down which deals half damage. When used with its secondary fire (right-click), six gravity-affected small comets are thrown out which each explodes into a stationary star which deals one-third damage. Stars may deal damage to an enemy only once but will linger around instead of disappear, shrinking after a short amount of time. Secondary attacks are 25% slower than primary attacks. All attacks inflict the [[Astral Infection (debuff)|Astral Infection]] [[debuff]].
+
+Performing a [[stealth strike]] with the Leonid Progenitor throws a bombshell regardless of attack type, which rains five small comets beneath it in addition to the large comets. The small comets behave identically to the ones fired by secondary attacks.
+
+{{Modifier|rogue}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+== Trivia ==
+*[[wikipedia:Leonids|Leonids]] are prolific meteor showers associated with a comet known as [[wikipedia:Tempel-Tuttle|Tempel-Tuttle]].
+*The star projectile from this weapon is identical to the player's mana stars after using the [[Phantom Heart]].
+
+[[File:Leonid Progenitor (demo).gif|frame|left|The Leonid Progenitor's bombs that release star and comet projectiles. Notice how the comets cannot damage the [[Target Dummy]] through walls.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

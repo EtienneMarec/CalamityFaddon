@@ -1,0 +1,22 @@
+{{item infobox
+| type = Summoning
+| stack = 1
+| tooltip = Summons a sandstorm<br/>The sandstorm will happen shortly after this item is used<br/>Not consumable
+| rare = 5
+| use = 20
+| hardmode = yes
+| sell = No value
+| consumable = yes
+}}
+
+The '''Arid Artifact''' is a craftable [[Hardmode]] item that, when used, will summon a [[Sandstorm]] shortly after. When used during a Sandstorm, it will disable the event. It can not be used until the [[Desert Scourge]] is defeated.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Forbidden}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

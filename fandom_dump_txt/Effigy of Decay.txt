@@ -1,0 +1,29 @@
+{{item infobox
+| type = Furniture
+| tooltip = When placed down, nearby players can breathe underwater<br/>This effect does not work in the abyss<br/>Nearby players are also immune to the sulphuric poisoning
+| sell = {{value|0|1|80|0}}
+| rare = 3
+| color = #715A47
+| stack = 9999
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| width = 2
+| height = 4
+| buff = Effigy of Decay (buff) | bufflink = no
+| bufftip = The sulphuric waters empower you
+| duration = Infinite (while in vicinity)
+| boxwidth = 23em
+}}
+
+The '''Effigy of Decay''' is a craftable [[Pre-Hardmode]] [[effigy]] that can also be found in [[Rusty Chest]]s. When placed down, all nearby players are granted water-breathing outside of the [[Abyss]], along with immunity to the [[Sulphuric Poisoning]] [[debuff]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

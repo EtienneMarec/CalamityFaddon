@@ -1,0 +1,393 @@
+{{Addon|Fargo’s Souls DLC (Fargo Souls Mod x Calamity)}}
+
+<section begin="npc" infobox="" />
+{{npc infobox
+| name = Goozma
+| type = Boss
+| ai = Goozma and Slime AI
+| imagealt = <Tabber>
+Pre-Hardmode=[[File:Goozma.png]]
+|-|
+Godseeker Mode=[[File:Goozma Hardmode.png]]
+|-|
+Unfulfilled=[[File:Goozma Unfulfilled.png]]
+</Tabber>
+| life = {{dv|4000|6000|8000}} (Pre-Hardmode)<br/>{{dv|5,000,000|7,500,000|10,000,000}} (Godseeker Mode)
+| defense = 100
+| immuneall = yes
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| resistant1 = Poison
+| resistant2 = Unholy
+| knockback = 100
+| damage = 0 (Contact)<br/>{{dv|10|20}} (Pre-Hardmode)<br/>{{dv|300|600}} (Godseeker Mode)
+| money = {{gc|35}}}
+| Auric Sludge Remnant|{{dv|24-32|30-40}}|100%
+| Omega Healing Potion|5-15|100%
+| custom| {{item|Genesis Auric Soul|note=(Always on first kill)|wrap=y}}|100%
+|group|At least one of the following 5 weapons will always drop:|8
+| Red Umbrella|1|{{dv|25%|33.33%}}
+| Sewage Slime Cannon|1|{{dv|25%|33.33%}}
+| Contagion Gauntlet|1|{{dv|25%|33.33%}}
+| Reformed Slime Staff|1|{{dv|25%|33.33%}}
+| Splatterspit Kunai|1|{{dv|25%|33.33%}}
+| Vassal's Royal Litter|1|50%
+| Super Slime Soaker|1|{{dv|100%}}
+| custom| {{item|Aristocratic Dainty|note=(In [[Master Mode|Master]] or [[Revengeance Mode]] only)|wrap=y}}|{{dv|||100%||100%}}
+| custom| {{item|Goozma (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Goozma Trophy}}|100%
+| custom| {{item|Treasure Trunk (Goozma)|Treasure Trunk|note=(Goozma)|wrap=y}}
+: • {{item|Dignified Jelly|note=(In [[Expert Mode]] only)|wrap=y}}|{{expert|100%}}
+| image2 = Goozma map.png
+| image2caption = Map Icon
+| boxwidth = 27em
+| sound = NPC_Hit_4.wav
+| soundtext = Hurt
+| sound2 = Item_14.wav
+| sound2text = Killed
+| sound3 = Item_155.wav
+| sound3text = Slime Mines
+| sound4 = Item_14.wav
+| sound4text = Slime Mine Explosion
+| sound5 = Item_20.wav
+| sound5text = Goozma Blobs
+| sound6 = Item_33.wav
+| sound6text = Laser Beams
+| sound7 = EoC_Expert_Roar.wav
+| sound7text = Dash
+| sound8 = Item_155.wav
+| sound8text = Homing Blobs
+| sound9 = Item_91.wav
+| sound9text = Goozma Mine Explosion
+| sound10 = Zombie_104.wav
+| sound10text = Deathray
+|image=Goozma.png|type2=Slime}}<section end="npc" infobox="" />
+[[File:Goozma Trophy.png|25px]] <big>''"...A perfect being comprised of naught but imperfect parts…"''</big> [[File:Goozma Trophy.png|25px]]
+
+'''Goozma''' <ins>(Japanese: グズマ <nowiki>''</nowiki>Guzma<nowiki>''</nowiki>)</ins> is a [[boss]] that can be summoned and fought anywhere in the game world, and can be fought in three versions: Pre-Hardmode, Godseeker Mode, and while both conditions are unfulfilled. The boss is comprised of five entities: Goozma itself, and the four evil slime vassals.
+
+Goozma fights in two phases. In the first phase, the slime vassals will attempt to kill the player with their attacks, at which point the main entity Goozma will be invulnerable. Once all four slime vassals are killed, Goozma becomes vulnerable and the player will be it. le to defeat it
+
+Goozma drops a [[Genesis Auric Soul]] upon defeat, as well as powerful items, weapons, and accessories depending on which slime vassal was killed last.
+
+Uniquely among other bosses, Goozma's fight is split across two different game tiers. He can readily be fought at the very start of the game with significantly scaled down stats, then again in Godseeker Mode.
+
+==Spawn==
+Goozma does not spawn on its own, and requires the player to drop 10 [[Overloaded Sludge]] onto [[King Slime]] only during a Slime Rain summoned with a [[Tar Gar]]. Upon successful spawning, Goozma will spawn along with its four slime vassals.
+
+If either conditions for spawning are unfulfilled, less than 10 Overloaded Sludges and Slime Rain is natural or summoned with a different item, Goozma and its vassals will spawn in their unfulfilled form and will drop no loot upon their defeat.
+
+==The Slime Vassals==
+Upon spawning Goozma, the four slime vassals below will accompany Goozma and fight for it in its first phase. In Pre-Hardmode, the vassals and Goozma are about half the size of King Slime but swell to over twice the size of the King with overly buffed stats in Godseeker Mode.
+
+Each vassal hosts a unique moveset, inspired by the Corruption, Astral, Crimson, and the Hallowed biomes for the Ebonmuck Vassal, Asgeliath Vassal, Crimglop Vassal, and and the Divingoop Vassal respectively. 
+
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Ebonmuck Vassal
+| imagealt = <Tabber>
+Powerful=[[File:Ebonian Eblobination.png]]
+|-|
+Unfulfilled=[[File:Corruption Unfulfilled.png]]
+</Tabber>
+| type = Boss
+| type2 = Slime
+| damage = {{dv|50|100}} (contact) <br/> {{dv|100|200}} (Sludge Shots)
+| life = {{dv|4000|6000|8000}} (Pre-Boss)<br/>{{dv|5,000,000|7,500,000|10,000,000}} (Godseeker Mode)
+| defense = 100
+| dr = 50
+| money = {{gc|5}}
+| knockback = 100%
+| immune1 = On Fire!
+| immune2 = Ichor (debuff)
+| immune3 = Cursed Inferno
+| immune4 = Poisoned
+| immune5 = Confused
+| immune6 = Pearl Aura
+| immune7 = Flahmes
+| vulnerable1 = Holy
+| vulnerable2 = Water
+| vulnerable3 = Stab
+| resistant1 = Unholy
+| resistant2 = Poison
+| resistant3 = Slash
+| hardmode = yes
+| postml = yes
+| image2 = Ebonian Behemuck Map.png
+| image2caption = Map Icon
+| sound = NPC_Hit_13.wav
+| soundtext = Hurt
+| sound2 = NPC_Killed_1.wav
+| sound2text = Killed
+| sound3 = Item_33.wav
+| sound3text = Slime Shots
+}}|{{npc infobox
+| name = Asgeliath Vassal
+| imagealt = <Tabber>
+Powerful=[[File:Stellar Vassal.png]]
+|-|
+Unfulfilled=[[File:Stellar Unfulfilled.png]]
+</Tabber>
+| type = Boss
+| type2 = Slime
+| damage = {{dv|60|120}} (contact)<br/>{{dv|20|40}} (Stars)<br/>{{dv|350|700}} (Black Hole)
+| life = {{dv|4000|6000|8000}} (Pre-Boss)<br/>{{dv|5,000,000|7,500,000|10,000,000}} (Godseeker Mode)
+| defense = 100
+| dr = 50
+| money = {{gc|5}}
+| knockback = 100%
+| immune1 = On Fire!
+| immune2 = Ichor (debuff)
+| immune3 = Cursed Inferno
+| immune4 = Poisoned
+| immune5 = Confused
+| immune6 = Pearl Aura
+| immune7 = Flahmes
+| vulnerable1 = Holy
+| vulnerable2 = Water
+| vulnerable3 = Stab
+| resistant1 = Magic
+| resistant2 = Poison
+| resistant3 = Slash
+| hardmode = yes
+| postml = yes
+| image2 = Stellar Geliath Map.png
+| image2caption = Map Icon
+| sound = NPC_Hit_34.wav
+| soundtext = Hurt
+| sound2 = NPC_Killed_1.wav
+| sound2text = Killed
+| sound3 = Item_9.wav
+| sound3text = Stars
+| sound4 = Item_28.wav
+| sound4text = Meteors
+| sound5 = Item_15.wav
+| sound5text = Black Hole
+}}|{{npc infobox
+| name = Crimglop Vassal
+| imagealt = <Tabber>
+Powerful=[[File:Crimulan Glopstrosity.png]]
+|-|
+Unfulfilled=[[File:Crimulan Unfulfilled.png]]
+</Tabber>
+| type = Boss
+| type2 = Slime
+| damage = {{dv|200|400}} 
+| life = {{dv|4000|6000|8000}} (Pre-Boss)<br/>{{dv|5,000,000|7,500,000|10,000,000}} (Godseeker Mode)
+| defense = 100
+| dr = 50
+| money = {{gc|5}}
+| knockback = 100%
+| immune1 = On Fire!
+| immune2 = Ichor (debuff)
+| immune3 = Cursed Inferno
+| immune4 = Poisoned
+| immune5 = Confused
+| immune6 = Pearl Aura
+| immune7 = Flahmes
+| vulnerable1 = Holy
+| vulnerable2 = Water
+| vulnerable3 = Stab
+| resistant1 = Unholy
+| resistant2 = Poison
+| resistant3 = Slash
+| hardmode = yes
+| postml = yes
+| image2 = Crimulan Globstrosity Map.png
+| image2caption = Map Icon
+| sound = NPC_Hit_20.wav
+| soundtext = Hurt
+| sound2 = NPC_Killed_1.wav
+| sound2text = Killed
+| sound3 = Item_62.wav
+| sound3text = Ground Pound
+}}|{{npc infobox
+| name = Divingoop Vassal
+| imagealt = <Tabber>
+Powerful=[[File:Divine Gargooptuar.png]]
+|-|
+Unfulfilled=[[File:Divine Unfulfilled.png]]
+</Tabber>
+| type = Boss
+| type2 = Slime
+| damage = 0 (contact)<br/>{{dv|110|220}} (Lightning)
+| life = {{dv|4000|6000|8000}} (Pre-Boss)<br/>{{dv|5,000,000|7,500,000|10,000,000}} (Godseeker Mode)
+| defense = 100
+| dr = 50
+| money = {{gc|5}}
+| knockback = 100%
+| immune1 = On Fire!
+| immune2 = Ichor (debuff)
+| immune3 = Cursed Inferno
+| immune4 = Poisoned
+| immune5 = Confused
+| immune6 = Pearl Aura
+| immune7 = Flahmes
+| vulnerable1 = Unholy
+| vulnerable2 = Water
+| vulnerable3 = Stab
+| resistant1 = Holy
+| resistant2 = Poison
+| resistant3 = Slash
+| hardmode = yes
+| postml = yes
+| image2 = Divine Gargooptuar Map.png
+| image2caption = Map Icon
+| sound = NPC_Hit_5.wav
+| soundtext = Hurt
+| sound2 = NPC_Killed_1.wav
+| sound2text = Killed
+| sound3 = Item_60.wav
+| sound3text = Light Balls
+}}
+}}
+
+
+==Behavior==
+
+==Phase 1 == 
+
+*Upon being summoned, Goozma itself will quickly summon its four vassals, '''Ebonmuck Vassal''', '''Divingoop Vassal''', '''Crimglop Vassal''', and '''Asgeliath Vassal'''. Afterwards, Goozma itself will remain above the player while occasionally firing slime mines downwards which explode with a 20 block radius after a 3 second delay. The vassals will then start taking turns attacking in a random order.
+*The Ebonmuck Vassal attacks by keeping at a long horizontal distance from the player while shooting relatively quick slime shots directly towards the player which can be deflected back with weapon hits.
+*The Divingoop Vassal attacks by orbiting the player while leaving behind light balls that connect to each other with lightning chains. The light balls themselves don't deal damage, but the chains do.
+*The Crimglop Vassal attacks by jumping above the player then falling downwards, trapping the player inside it. Once on the ground it does 3 consecutive ground pounds, each one dropping telegraphed Crimulan Blight Slimes similar to [[Astrageldon Slime]].
+*The Asgeliath Vassal attacks by floating in place while spewing out stars and meteors in random directions. After 5 seconds, if below 75% HP, it will stop firing stars then shoot a black hole at the player which loosely homes in on them for 5 seconds before floating off.
+*Goozma spews out semi-random Goozma Blobs on both side of the player, constricting their movement. Each time a slime is killed, Goozma's fire rate increases. Once all four slimes have been killed, Goozma starts firing blobs at a rate of roughly 1 blob per 5 frames.
+
+==Phase 2==  
+
+*Triggers at 50% HP remaining.
+*Goozma shoots out telegraphed laser beams in random directions.
+* Goozma fires 5 consecutive Homing Blobs at the player.
+*Goozma summons squid-like Servants of Goozma.
+*Goozma can dash at the player, leaving trails of Goozma Mines, and causing an explosion of Chromatic Shards like [[Cryogen]].
+
+==Phase 3==
+*Upon reaching 25% HP, Goozma remains stationary and summons an evenly spaced out ring of Goozma Neurons attatched to itself. The player must destroy all 12 for the battle to progress.
+*Goozma fires shotgun spreads of Goozma Blobs while summoning Servants of Goozma that explode into Entropic Shards.
+*Goozma shoots out telegraphed laser beams in random directions.
+*Goozma can use a deathray similar to that of the [[Moon Lord]], that widens into a cone after 5 seconds. It can start moving in the opposite direction halfway through.
+* During the deathray, Goozma constantly summons Servants of Goozma that explode into Chromatic Shards and exploding versions of Goozma Mines.
+* Goozma shoots out more telegraphed laser beams in random directions, at a faster pace.
+* Goozma uses the deathray attack once more, but summons Goozma Neurons instead of Servants and Mines.
+*After its health is depleted, Goozma pops and drops its loot.
+
+===[[Expert Mode]]===    
+*Goozma fires as if one slime has already been killed.
+* The Ebonmuck Vassal's distance from the player is decreased.
+*The Divingoop Vassal orbits the player faster.
+*The Crimglop Vassal falls slightly faster.
+*The Asgeliath Vassal fires 1 more star per salvo.
+
+===[[Revengeance Mode]]===
+*Goozma fires as if two slimes have already been killed.
+* The Ebonmuck Vassal's distance from the player is decreased.
+*The Divingoop Vassal orbits the player even faster.
+*The Crimglop Vassal falls somewhat faster.
+*The Asgeliath Vassal fires 3 more stars per salvo.
+
+===[[Death Mode]]=== 
+*Goozma fires as if three slimes have already been killed.
+* The Ebonmuck Vassal's distance from the player is greatly increased.
+*The Divingoop Vassal instantly explodes into lightning and dies.
+*The Crimglop Vassal instantly teleports to the ground upon slamming.
+* The Asgeliath Vassal fires a second black hole backwards.
+* Goozma can randomly delete System32.
+
+===During the [[Boss Rush]]===
+*Goozma has a simpler blue and red appearance.
+
+==Summons==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Servant of Goozma
+| imagealt = <Tabber>
+Pre-Hardmode=[[File:Servant of Goozma prehm.png]]
+|-|
+Hardmode=[[File:Servant of Goozma.png]]
+|-|
+Unfulfilled=[[File:Servant of Goozma Unfulfilled.png]] </Tabber>
+| type = Flying Enemy
+| damage = {{dv|75|150}} (Contact)<br/>{{dv|50|100}} (Entropic Shards)
+| ai = Servant of Goozma AI
+| life = {{dv|10|15|20}} (Pre-Boss)<br/>{{dv|5000|7500|10000}} (Godseeker Mode)
+| defense = 0
+| knockback = 100%
+| immuneall = yes
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| resistant1 = Cold
+| resistant2 = Dark
+| hardmode = yes
+| postml = yes
+| sound = NPC_Hit_1.wav
+| soundtext = Hurt
+| sound2 = NPC_Killed_1.wav
+| sound2text = Killed
+| sound3 = Item_14.wav
+| sound3text = Explode
+}}
+|{{npc infobox
+| name = Goozma Neuron
+| imagealt = <Tabber>
+Pre-Hardmode=[[File:Goozma Neuron prehm.png]]
+|-|
+Hardmode=[[File:Goozma Neuron.png]] 
+|-|
+Unfulfilled=[[File:Goozma Neuron Unfulfilled.png]] </Tabber>
+| type = Flying Enemy
+| damage = 0 (Contact)<br/>{{dv|250|500}} (Laser Beams)
+| ai = Goozma Neuron AI
+| life = {{dv|200|300|400}} (Pre-Boss)<br/>{{dv|20000|30000|40000}} (Godseeker Mode)
+| defense = 0
+| dr = 25%
+| knockback = 100%
+| immuneall = yes
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| resistant1 = Cold
+| resistant2 = Dark
+| hardmode = yes
+| postml = yes
+| sound = NPC_Hit_1.wav
+| soundtext = Hurt
+| sound2 = Item_14.wav
+| sound2text = Killed
+| sound3 = Item_33.wav
+| sound3text = Laser Beam
+}}
+}}
+
+== Aftermath ==
+*All crafting recipes that involve [[Gel]] no longer require Gel.
+
+==Resistances==
+*Goozma and its four diabolical slime vassals only take 1% damage from any item crafted with [[Flahium Bar]]s.
+
+== Notes== 
+*It is highly advised that the player fights Goozma before any other bosses, as the stat buffs after defeating a boss make it significantly harder.
+
+==Tips==
+:''For more elaborate strategies on defeating Goozma, including [[weapon]] and [[Guide:Arena|arena]] recommendations, see [[Guide:Goozma strategies]].'' 
+*Walking directly towards the Gelrrupt Palagel is advised as it gives more time to react to its projectiles.
+*Jumping when the Crimuwular Slime starts falling can help the player dodge the attack.
+*The Glurpy Glop's mines can be safely stood inside, helping avoid the lightning.
+*The Gragathoth's black hole grants immunity frames upon hit, allowing the player to bypass damage from the stars.
+
+==Trivia==  
+*Goozma and its vassals are a reference to the now removed Goozma boss from [[Community modifications|Emphatic Untamed Calamity]].
+*Goozma's theme is '''[https://www.youtube.com/watch?v=UEm14JrZEyU Mucilaginous Monstrosity]''' , which was composed by the artist MentoFects. 
+**This theme contains motifs from King Slime, Queen Slime, Slime God, and Astrageldon Slime's themes.
+*If the [[Community modifications|Calamity: Community Remix]] add-on is enabled, '''Supercritical Chroma''' by the artist [https://www.youtube.com/@Jteoh Jteoh] will play instead.
+**Additionally, during the second phase, '''The Gardner-Pierce Project''' by the same artist will play.
+*Enabling [[Blood and Gore]] will change Ebonmuck Vassal's sprite to show it flipping [[wikipedia:The_finger|the finger]].
+*If the Boss Checklist Mod is installed, its unique despawn message will be "Goozma goozed away."
+
+===Bestiary=== 
+*Goozma: The evolutionary god born from a singularity comprised of every [[Slime]] in the world of Calamity.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}
+[[zh:史莱姆之神]]

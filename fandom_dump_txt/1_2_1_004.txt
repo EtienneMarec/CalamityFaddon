@@ -1,0 +1,219 @@
+{{patch infobox
+| image = Astrum Deus (1.1.7.901).png
+| size = 340px
+| patchname = Boss Changes and Balancing
+| release = 9/29/2017
+}}{{tocright}}
+
+The ''' 1.2.1.004''' update featured many balance changes and other adjustments to both [[bosses]] and items, including a rework of the [[Astrum Deus]] fight, significant changes to [[The Devourer of Gods]]'s fight, and further expansion of the [[Supreme Calamitas]] fight.
+
+== Additions ==
+*Added [[The Devourer of Thots]].
+
+== Changes ==
+=== [[Bosses]] ===
+*Adjustments to boss sky shaders.
+
+==== [[Astrum Deus]] ====
+*Overhauled the battle; no longer one long worm, instead the battle takes place against a swarm of nine smaller worms.
+*Worm segment length reduced from 52 to 8. Nerfed health of each worm from {{dv|150,000|240,000|264,000}} to {{dv|18,500|29,600|32,000}}.
+*Nerfed head damage from {{dv|120|300}} to {{dv|100|160}}, and body damage from {{dv|95|152}} to {{dv|85|136}}.
+*Nerfed Astrum Deus' mine duration from 50 seconds to 20.
+*A total of 5 [[Astrum Deus Probe]]s can be active at a time instead of 6.
+*Body segments now take 66% damage and kill piercing when below 33% health instead of 50%.
+
+==== [[Bumblebirb]] ====
+*The main Bumblebirb can now only spawn up to {{dv|4|0|8}} clones instead of {{dv|10|0|30}}.
+*Bumblebirb clones can now only spawn up to {{dv|3|0|5}} clones instead of {{dv|5|0|30}}.
+
+==== [[Cryogen]] ====
+*Nerfed health from {{dv|14,000|22,400|25,600}} to {{dv|12,500|20,000|22,400}}.
+*Buffed base Ice Bomb damage from {{dv|40|80|92}} to {{dv|44|88|100}}.
+*Buffed base Ice Blast damage from {{dv|44|72}} to {{dv|52|80}}.
+*Buffed base Ice Rain damage from {{dv|60|120}} to {{dv|64|128}}.
+*Decreased speed.
+
+==== [[Desert Scourge]] ====
+*Nerfed Revengeance Mode health from {{revengeance|8320}} to {{revengeance|7200}}.
+
+==== [[The Devourer of Gods]] ====
+*Buffed health from {{dv|610,000|976,000|1,000,000}} to {{dv|1,400,000|2,240,000|2,400,000}}.
+*In Revengeance Mode, now summons [[The Devourer of Thots]] at 25% health instead of a second Devourer of Gods at 20% health. The player no longer needs to kill the newly-spawned Devourer first in order to progress through the battle. Horizontal lasers only spawn if no Devourers of Thots are active.
+*Now fires beam portals from its tail at all times, instead of alternating between its head or tail depending on phase.
+*Nerfed head damage in Expert Mode from {{expert|1400}} to {{expert|875}}.
+*All body projectiles now deal {{dv|280|360}} damage instead of having individual damage values, and decreased their speeds.
+*Body segments no longer take 0 damage from all sources. Instead, they take 15% of the damage.
+*Body segments no longer kill projectile piercing.
+*No longer shrinks to 62 segments in Revengeance Mode, remaining at 102 segments long in all modes.
+*Can now spawn up to 8 [[Stasis Probe]]s instead of 3.
+*Body segments now take 0 damage from any hit that would deal over 50% of its health.
+*Body segments fire projectiles less often.
+*Gravity bomb projectiles now inflict [[Distorted]] for 2 seconds instead of 5, produce dust on death, and have set custom transparency rather than dynamic time-based transparency.
+*Nebula orb projectiles now last for 15 seconds instead of 30, and have set custom transparency rather than dynamic time-based transparency.
+*Head and tail segments now use NPCHit4 as their hit sound instead of NPCHit13.
+*Body and tail segments now inflict [[God Slayer Inferno]] for 1 second and 0.833 seconds respectively, instead of 2.5.
+
+==== [[Duke Fishron]] ====
+*Buffed Revengeance Mode health multiplier.
+
+==== [[Jungle Dragon, Yharon]] ==== 
+*Now spawns [[Detonating Flame]]s with slower vertical velocities.
+
+==== [[The Plaguebringer Goliath]] ====
+*Now despawns faster when the player leaves the [[Jungle]].
+
+==== [[Profaned Guardians]] ====
+*Nerfed the Main Profaned Guardian's overall velocity.
+
+==== [[Providence, the Profaned God]] ====
+*Nerfed health from {{dv|235,000|376,000|400,000}} to {{dv|215,000|344,000|368,000}}.
+*Nerfed the [[Providence, the Profaned Goddess#Summons|Offense Profaned Guardian]]'s overall velocity.
+
+==== [[Polterghast]] ====
+*Nerfed health from {{dv|310,000|496,000|512,000}} to {{dv|260,000|416,000|448,000}}.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Nerfed health from {{dv|250,000|400,000|440,000}} to {{dv|230,000|368,000|400,000}}.
+
+==== [[Supreme Calamitas]] ====
+*Added more [[status message]] quotes based on how many attempts it took to defeat her.
+*While she is alive, the player's life regen is now cut by half (if it is positive).
+*[[tgc:Mechanisms|Mechanisms]] are now deactivated during the battle.
+*Bullet hell Brimstone Hellblasts no longer make a sound when killed.
+
+=== [[Enemies]] ===
+*[[Mothron]]s after Yharon Phase 1 now drop 5-8 [[Darksun Fragment]]s instead of 3-5.
+*Nerfed armored Stasis Probe's health from {{dv|12,000|16,800}} to {{dv|6000|8400}}, and its laser damage from {{dv|0|288}} to {{dv|0|240}}.
+*Nerfed naked Stasis Probe's health from {{dv|15,000|21,000}} to {{dv|7500|10,500}}, and its laser damage from {{dv|0|288}} to {{dv|0|240}}.
+*Nerfed both Stasis Probes' laser velocities by half.
+
+=== Items ===
+*The [[Cosmic Worm]] is no longer consumable, now stacks to 1 instead of 20, and the [[Cyborg]] no longer sells it after The Devourer of Gods has been defeated.
+*The [[Dragon Egg (summoning)|Dragon Egg]] is no longer consumable, its recipe now requires 10 [[Bar of Life|Bars of Life]], 10 [[Cosmilite Bar]]s, and 15 [[Effulgent Feather]]s instead of 3 of each bar and 5 feathers, it now stacks to 1 instead of 20, and the [[Witch Doctor]] no longer sells it after Yharon has been defeated.
+*The [[Eye of Extinction]] is no longer consumable, its recipe now requires 150 Cosmilite Bars, 300 [[Darksun Fragment]]s, 3000 [[Endothermic Energy|Endothermic Energies]], 3000 [[Nightmare Fuel]], and 150 [[Phantoplasm]], instead of 5 Cosmilite Bars, 1 Darksun Fragment, 3 Endothermic Energies, 3 Nightmare Fuel, and 5 Phantoplasm, and it now stacks to 1 instead of 20.
+
+==== [[Weapons]] ====
+*Before Golem has been defeated, the damages of all Duke Fishron weapon drop projectiles (excluding [[Briny Baron]]'s) is halved.
+*Buffed the damage of all vanilla [[flails]] by 2x.
+**Buffed [[Chain Guillotines]]' damage by 1.2x instead.
+*Increased [[Daedalus Stormbow]]'s damage nerf from -25% damage to -40%.
+*[[Mortar Round]]s now require a [[Ueliace Bar]] to craft instead of a [[Luminite Bar]].
+*[[Rubber Mortar Round]]s now require 5 [[Pink Gel]] to craft instead of 1 [[Unholy Essence]].
+*Water orbs fired by [[Abyss Blade]] and [[Neptune's Bounty]] produce less dust.
+*[[The Dance of Light]]'s projectiles home in on enemies faster.
+*[[Lacerator]]'s damage aura now deals 66% of the weapon's damage instead of 33%.
+*Nerfed [[Vivid Clarity]]'s damage scaling per tile bounce or enemy pierced from 2.5x and 1.1x damage to 1.1x and 1.05x damage respectively.
+*[[Vanquisher Arrow]]s no longer produce dust during flight, and produce less dust on death.
+*The following projectiles were given 1 [[tgc:Extra updates|extra update]], effectively doubling their speed:
+**[[Astreal Defeat]]'s arrows.
+**[[Elemental Blaster]]'s projectiles.
+**Plasma blasts fired by [[Starfleet]] and [[Megafleet]].
+
+*Buffed [[Alluvion]]'s damage from 55 to 62.
+*Nerfed [[Animus]]' damage from 1000 to 850. Nerfed random damage values from 1500, 2000, 4000, 8000, 18,000, and 1000 to 1000, 1250, 3500, 7000, 15,000, and 850 respectively.
+*Nerfed [[Ark of the Cosmos]]' damage from 250 to 210.
+*Nerfed [[Ark of the Elements]]' damage from 125 to 110.
+*Buffed [[Arterial Assault]]'s damage from 170 to 190.
+*Nerfed [[Astral Blaster]]'s damage from 90 to 80.
+*Nerfed [[Astral Repeater]]'s damage from 80 to 72.
+*Buffed [[Astreal Defeat]]'s damage from 93 to 103.
+*Nerfed [[Azathoth]]'s damage from 80 to 60.
+*Buffed [[Banshee Hook]]'s damage from 105 to 130.
+*Nerfed [[Bladedge Greatbow]]'s damage from 31 to 26.
+*Buffed [[Blissful Bombardier]]'s damage from 60 to 78.
+*Buffed [[The Burning Sky]]'s damage from 90 to 150.
+*Nerfed [[Chicken Cannon]]'s damage from 30 to 20.
+*Buffed [[Claret Cannon]]'s damage from 219 to 260.
+*Buffed [[Clockwork Bow]]'s damage from 120 to 130.
+*Nerfed [[Contagion]]'s damage from 270 to 200.
+*Buffed [[Cosmic Discharge]]'s damage from 150 to 320.
+*Buffed [[Daemon's Flame]]'s damage from 90 to 130.
+*Buffed [[Deathwind]]'s damage from 165 to 180, but it now only fires 4-5 projectiles per use instead of 4-7.
+*Buffed [[Devastation]]'s damage from 91 to 108.
+*Buffed [[Devil's Devastation]]'s damage from 270 to 320.
+*Nerfed [[Draconic Destruction]]'s damage from 115 to 100.
+*Buffed [[Dragon's Breath]]'s damage from 135 to 190.
+*Nerfed [[Earth]]'s projectiles' damages from the weapon's full damage to 50% of the weapon's damage.
+*Buffed [[Elemental Blaster]]'s damage from 85 to 95, but nerfed projectile speed from 24 to 18.
+*Buffed [[Elemental Disk]]'s damage from 140 to 150.
+*Nerfed [[Elemental Eruption]]'s damage from 35 to 28.
+*Nerfed [[Elemental Lance]]'s damage from 135 to 110.
+*Nerfed [[Elysian Arrow]]'s damage from 23 to 20.
+*Buffed [[The Enforcer]]'s damage from 550 to 725.
+*Nerfed [[Eradicator]]'s damage from 230 to 200.
+*Buffed [[Excelsus]]' damage from 135 to 145.
+*Nerfed [[Exoblade]]'s damage from 800 to 720.
+*Nerfed [[Gilded Proboscis]]' damage from 240 to 228.
+*Buffed [[Golden Eagle]]'s damage from 108 to 120.
+*Buffed [[Grax]]'s damage from 350 to 500.
+*Nerfed [[Soma Prime|Gun]]'s damage from 200 to 175.
+*Nerfed [[Helstorm]]'s damage from 34 to 27.
+*Nerfed [[Holy Collider]]'s damage from 200 to 160.
+*Nerfed [[Illustrious Knives]]' damage from 360 to 310.
+*Buffed [[Lacerator]]'s damage from 500 to 550.
+*Buffed [[Lifefruit Scythe]]'s damage from 88 to 100.
+*Nerfed [[Lunarian Bow]]'s damage from 20 to 18.
+*Nerfed [[Megafleet]]'s damage from 230 to 200.
+*Buffed [[Minigun]]'s damage from 250 to 280.
+*Nerfed [[Mirror Blade]]'s damage from 280 to 240.
+*Buffed [[Mourningstar]]'s damage from 220 to 290.
+*Buffed [[Neptune's Bounty]]'s damage from 270 to 285.
+*Nerfed [[Nettlevine Greatbow]]'s damage from 135 to 110.
+*Nerfed [[The Obliterator]]'s damage from 70 to 62.
+*Buffed [[True Biome Blade|Omega Biome Blade]]'s damage from 150 to 220.
+*Buffed [[Onyx Chain Blaster]]'s damage from 55 to 60, but the onyx projectile now moves 10% slower.
+*Buffed [[Phangasm]]'s damage from 82 to 140.
+*Buffed [[SDFMG]]'s damage from 129 to 140.
+*Buffed [[Shredder]]'s damage from 18 to 24.
+*Nerfed [[Solar Flare]]'s damage from 110 to 95.
+*Nerfed [[Starfleet]]'s damage from 70 to 65.
+*Buffed [[Stellar Striker]]'s damage from 250 to 280.
+*Buffed [[The Storm]]'s damage from 55 to 75, and its projectiles now go through tiles.
+*Buffed [[Storm Dragoon]]'s damage from 125 to 135.
+*Nerfed [[Subsuming Vortex]]'s damage from 140 to 110.
+*Buffed [[Telluric Glare]]'s damage from 54 to 82.
+*Nerfed [[Terror Blade]]'s damage from 260 to 210.
+*Nerfed [[Triactis' True Paladinian Mage-Hammer of Might]]'s damage from 2500 to 2100.
+*Nerfed [[True Tyrant's Ultisword]]'s damage from 150 to 132.
+*Nerfed Vanquisher Arrow's damage from 30 to 24.
+*Nerfed [[Verdant]]'s damage from 248 to 215.
+*Buffed Vivid Clarity's damage from 80 to 120.
+
+==== [[coverings]] and [[Covering]] ====
+*Nerfed [[Necklace of Vexation]]'s damage boost under 50% health from 15% to 10%.
+*Nerfed the base damage of the waifus summoned by [[Eye of the Storm]], [[Rare Waifu in a Bottle]], [[Rose Stone]], and [[Waifu in a Bottle]] from 60 to 45.
+*Nerfed [[Pearl of Enthrallment]]'s pre-[[Moon Lord]] damage from 100 to 80, and post-Moon Lord damage from 500 to 200.
+*Nerfed [[Heart of the Elements]]' damage and critical strike chance boosts from 10% to 5%. Nerfed pre-Moon Lord waifu damage from 100 to 60, and post-Moon Lord damage from 300 to 100.
+*[[Starlight Wings]] now require 20 [[Soul of Flight|Souls of Flight]] to craft instead of 30.
+*Nerfed [[Aureate Booster]]'s flight time from 90 frames to 70. It now requires 20 Souls of Flight to craft instead of 30.
+*Nerfed [[Discordian Wings]]' flight time from 150 to 125. It now requires 20 Souls of Flight to craft instead of 30.
+*Nerfed [[Xeroc Wings]]' flight time from 210 to 170. It now requires 20 Souls of Flight to craft instead of 30.
+*[[Seraph Tracers]] now require 5 [[Luminite Bar]]s instead of 5 [[Meldiate Bar]]s. They also now use {{rare|12}} rarity instead of {{rare|10}}, and now have an internal rarity of {{rare|0}}.
+
+*Various armor sets' life-based stat boosts were nerfed by varying amounts, ranging from a 50% reduction to an 80% one. Life-based boosts are now approximately exponential instead of linear. The following armors were changed:
+**[[Daedalus armor]].
+**[[Reaver armor]].
+**[[Ataxia armor]].
+**[[Xeroc armor]] (only 40%-to-20% life range stats were nerfed).
+
+=== [[Buffs]] and [[Debuffs]] ===
+*Adjusted the [[Irradiated]] [[debuff]]:
+**Nerfed defense reduction from {{dv|-10||-20}} defense to {{dv|-5||-10}}.
+**Nerfed DR reduction from {{dv|-0.1%||-0.2%}} DR to {{dv|-0.05%||-0.1%}}.
+**No longer boosts melee speed (previously boosted by 5%).
+*Nerfed [[Grax Boost]]'s defense boost from 50 to 30, melee speed boost from 10% to 5%, melee damage boost from 15% to 10%, and melee critical strike chance boost from 20% to 10%.
+*[[Vulnerability Hex]] no longer deals damage over time.
+
+=== Resprites ===
+*Resprited [[Firestorm Cannon]], [[Raider's Glory]], and [[Terra-cotta]].
+
+== Fixes ==
+*Fixed Providence, the Profaned God not despawning if the player dies.
+
+== Removals ==
+*Removed [[Ungodly Serpent]].
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

@@ -1,0 +1,38 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| stack = 1
+| tooltip = True melee strikes deal 10% more damage<br/>Grants the ability to dash; dashing into an attack will cause you to dodge it<br/>After a successful dodge you must wait 15 seconds before you can dodge again<br/>This cooldown will be twice as long if you have Chaos State<br/>While on cooldown, Chaos State will last twice as long
+| debuff = Scarf Cooldown | debufflink = no
+| debufftip = Your dodge is recharging
+| debuffduration = 15 seconds
+| rare = 3
+| buy = {{value|0|10}}
+| sell = {{value|0|0|80}}
+}}
+
+The '''Counter Scarf''' is a [[Pre-Hardmode]] [[covering]] sold by the [[Clothier]] NPC for {{gc|10}}.
+
+Wearing the scarf grants the player the ability to dash a base distance of 14 blocks left or right by double tapping the {{key|1=left}} or {{key|1=right }} key. While dashing, the player will dodge attacks and is granted the '''Scarf Cooldown''' [[debuff]]. This debuff will temporarily prevent the user from dodging any more attacks, though they are still able to dash.
+
+The scarf also increases damage for [[true melee]] weapons by 10%.
+
+== Notes ==
+*The Counter Scarf cannot be equipped if the player is wearing the [[Evasion Scarf]] covering, and vice versa.
+*If the player is under the [[Chaos State]] debuff from the [[Rod of Discord]], or [[Normality Relocator]], the scarf's cooldown will last 30 seconds instead. Alternatively, if the player is under the Scarf Cooldown debuff, Chaos State will be applied longer upon the player when the Rod of Discord is used.
+*Like the Potion Sickness debuff, the Scarf Cooldown debuff can not be cured by the [[Nurse]].
+*Wearing multiple coverings that grant dashes will not provide any bonuses.
+
+== Trivia ==
+*This item used to be a [[Malice Mode]]-exclusive drop from the [[Eye of Cthulhu]].
+** Before that, it used to be a [[Revengeance Mode]]-exclusive drop.
+***Before that, it used to be a [[Prepare to Die]]-exclusive drop.
+*In previous versions of the mod, Counter Scarf would grant the {{item|Scarf Boost}} buff if the player successfully dodged an attack, which gave +10% damage, +5% crit chance, and 5% melee speed.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

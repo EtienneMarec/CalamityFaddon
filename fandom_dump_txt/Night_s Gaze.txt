@@ -1,0 +1,45 @@
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 531
+| damagetype = Rogue
+| knockback = 1
+| stack = 1
+| rare = 13
+| sell = {{value|0|26}}
+| auto = yes
+| use = 19
+| velocity = 30
+| tooltip = Strike your foes with this spear of the night<br/>Throws a spear that shatters when it hits an enemy<br/>Stealth strikes cause the spear to summon homing stars as it flies
+| hardmode = yes
+| postml = yes
+| debuff = Moon Burnt
+| debuffduration = 5 seconds (Spear)<br/>2 seconds (Sparks and Stars)
+| debufftip = Incinerated by lunar rays
+| debuffchance = 100%
+| proj = Stratus Star.png
+| projcaption = Stratus Star
+| element1 = Dark
+| element2 = Magic
+| element3 = Stab
+}}
+
+The '''Night's Gaze''' is a craftable Godseeker Mode [[javelin]]. It throws a rapid stratus spear that breaks upon hitting a tile and explodes upon striking an enemy, releasing 4 stratus stars that inflict [[Moon Burnt]]. These stars can pierce for a short amount of time and the explosion from the spear will not be triggered if the spear doesn't strike an enemy.
+
+Performing a [[stealth strike]] with the Night's Gaze will summon stars that travel along parallel to the trajectory of the spear and will home in if an enemy is near.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Stratus}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Javelins]]

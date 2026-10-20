@@ -1,0 +1,48 @@
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-8 health per second (if player)<br/>-25 health per second (if enemy)
+| tooltip = Dissolving from holy light
+}}
+
+'''Holy Flames''' is a [[debuff]] inflicted by various sources. It causes the player to lose 8 health per second and emit glowing, yellow flames. If inflicted onto enemies, 25 health is lost per second instead.
+
+If the target is inflicted with [[Oiled]], they lose 31.5 health per second instead of 25.
+
+== Causes ==
+=== From player ===
+In addition to the causes listed below, items that inflict [[Elemental Mix]] will inflict Holy Flames as a part of that.
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

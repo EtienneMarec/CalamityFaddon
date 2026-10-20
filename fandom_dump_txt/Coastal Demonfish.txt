@@ -1,0 +1,18 @@
+{{item infobox
+| type = Crafting material
+| tooltip = The horns lay a curse on those who touch it
+| rare = 1
+| stack = 9999
+| sell = {{value|0|0|8}}
+}}
+
+The '''Coastal Demonfish''' is a [[fishing]] catch caught in [[lava]] in the [[Brimstone Crag]] with an 8% chance. It is used for the crafting of the [[Hadal Stew]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

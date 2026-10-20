@@ -1,0 +1,123 @@
+{{npc infobox
+| type = NPC
+| environment = Valid house
+| ai = Passive AI
+| life = 20,000
+| defense = 15
+| knockback = 20
+| debuff = Frostburn
+| duration = 3 seconds (Dark Ice attack)
+| debuffchance = 100%
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuff2 = Glacial State
+| duration2 = 0.5 seconds (Dark Ice attack)
+| debuffchance2 = 100%
+| debufftip2 = Cannot move and defense is shattered
+| image2 = Archmage map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_8.wav
+| soundtext = Dark Ice
+}}
+{{NPC}}
+
+The '''Archmage''' is a [[Hardmode]] [[NPC]] vendor that will spawn once the following conditions have been met:
+
+*There is an empty house.
+*[[Cryogen]] has been defeated.
+
+When threatened by [[enemies]], he will defend himself with a dark ice crystal. He, [[Crabulon]] and [[Green Demon]] are incapable of attacking each other.
+
+== Items sold ==
+{{inventory
+|Warmth Potion|{{gc|2}}|
+|Coldheart Icicle|{{gc|36}}| If the player has the [[Community modifications|Calamity Community Remix]] {{fantag|Calamity Community Remix}} mod enabled, 
+|Frostbite Blaster|{{gc|36}}|
+|Icicle Trident|{{gc|36}}|
+|Ice Star|{{sc|5}}|
+|Arctic Bear Paw|{{gc|48}}|After defeating all [[Mechanical Boss]]es.
+|Frosty Flare|{{sc|8}}|After defeating all Mechanical Bosses.
+|Cryophobia|{{gc|36}}|After defeating all Mechanical Bosses.
+|Cryogenic Staff|{{gc|48}}|After defeating all Mechanical Bosses.
+|Absolute Zero|{{gc|80}}|After defeating the [[Frost Moon]].
+|Eternal Blizzard|{{gc|80}}|After defeating the Frost Moon.
+|Winter's Fury|{{gc|80}}|After defeating the Frost Moon.
+|Icy Bullet|{{cc|80}}|After defeating the Frost Moon.
+|Icicle Arrow|{{cc|80}}|After defeating the Frost Moon.
+|Permafrost's Concoction|{{gc|36}}|
+|Super Mana Potion|{{sc|15}}|
+|Delicious Meat|{{gc|20}}|
+|Magic Scarf and Hat|{{pc|5}}|
+|Blood Rune|{{gc|1}}|When the player possesses an [[Ice Barrage]].
+}}
+
+== Names ==
+*The Archmage will always be named Permafrost.
+
+== Quotes ==
+'''While homeless:'''
+:*"I deeply appreciate you rescuing me from being trapped within my frozen castle.... It's been many, many years..."
+:*"I have not seen such a sky in decades. Who are you, to so brazenly march against that Tyrant?"
+:*"I am finally free... how could I ever repay you? Oh, I know. Want some Delicious Meat? {{fantag|Apotheosis and Friends}}"
+
+'''Anytime:'''
+:*"The tundra’s unnatural state is not all my doing. Decades ago, I came across it and amplified the climate with my magic."
+:*"If you have a request, make it quick. I am in the process of weaving a spell, which requires great focus."
+:*"You have the makings of a gifted mage. Tell me, what do you think of ice magic?"
+:*"Flowers and the like don’t hold a candle to the beauty of intricately formed ice."
+:*"Tasty and delicious, yummy and nutritious! Buy Delicious Meat today! {{fantag|Apotheosis and Friends}}"
+
+'''Anytime if [[Truffle]] is present:'''
+:*"That truffle fellow doesn’t seem too fond of the food I’m selling."
+:*"So few of us here know of the Shroom Garden {{fantag|Apotheosis and Friends}}. Great place, honestly."
+
+'''During the daytime while not in the [[snow biome]]:'''
+:*"The sun beats down harshly upon my creations here. If you would allow me to conjure a blizzard every now and then..."
+:*"I must admit, I’m not quite used to this weather. It's far too warm for my tastes..."
+
+'''During the [[night]] or in the snow biome:'''
+:*"Nightfall is a good time for practicing magic. We mages often rely on celestial bodies and their fragments to enhance our mana."
+:*"Necromancy was never a field I found interesting. Why utilize the rotting corpses of people, when you could form far more elegant servants of ice?"
+
+'''During a [[Party]]:'''
+:*"Sometimes... I feel like all I'm good for during these events is making ice cubes and slushies."
+:*"I brought some Delicious Meat for everyone to enjoy. {{fantag|Apotheosis and Friends}}"
+
+'''During a [[Blood Moon]]:'''
+:*"If your blood were to thoroughly freeze, it would be quite fatal."
+:*"The undead which roam tonight are still monsters of blood and guts, but they seem... fresher."
+:
+
+'''After either [[tgc:Plantera|Plantera,]] [[Calamitas|The Calamitas Clone]] or [[The Derellect]]  has been defeated prior to [[Polyphemalus|Polyphemalus']] defeat.'''
+:*"r we srsly gunna gloss ova da fax dat teh eyes r angurr??/??"
+:
+
+'''Prior to [[Unstable Calamity|Unstable Calamity's]] defeat:'''
+:*"'''Unstable Calamity?''' Oh, they're quite EVIL all right.."
+
+'''If [[Moon Lord]] has been defeated:'''
+:*"It is shocking, to see you have come so far. I wish you the best of luck on your future endeavours."
+:*"You, having bested so many beings, even deities, I wonder if I have anything left to offer you. Oh right, want some Delicious Meat? {{fantag|Apotheosis and Friends}}"
+:
+== Notes ==
+*When defeated for the first time, Cryogen will drop the Archmage from wherever it is defeated.
+
+== Trivia ==
+*The [[Archmage]] works with [[Crabulon]] to produce and sell Delicious Meat.
+*The Archmage, along with the [[Sea King]], are two characters who appear in the mod's [[lore]].
+**Further supporting this, Permafrost refers to [[Cryogen]] as his ice castle, which is a reference to the lore, where it states that Yharim trapped him in his castle, which is Cryogen.
+*The Archmage has a [[Draedon's Logs#Ice biome|Draedon's Log]] entry dedicated to him that can be found in the [[Ice Bio-center Lab]].
+*The Archmage drops from Cryogen when it is defeated for the first time, once again referencing the lore.
+*Real life [[wikipedia:Permafrost|permafrost]] is ground that consistently remains at low temperatures below 0°C (32°F) for more than 2 years.
+*His self-defense projectile is visually identical to the ice crystal fired by [[Absolute Zero]]; however, the Archmage's ice crystal pierces enemies and does not deal additional damage when it explodes.
+*The Archmage has only one possible name, sharing this trait with [[Santa Claus]], the [[Brimstone Witch]], and the Sea King.
+**The Wizard expresses attraction for the Archmage in one of his dialogues.
+***This info has absolutely nothing to do with the prior fact.
+*The quote "r we srsly gunna gloss ova da fax dat teh eyes r angurr??/??" is reference to [https://calamitymod.fandom.com/wiki/Polyphemalus Polyphemalus]' [[Music|theme]], [https://youtu.be/eBliz_IvFDo| the eyes are anger], which was composed by the artist [https://www.youtube.com/@gummyleeches GummyLeeches.]
+*In the mod's source files, the Archmage is referred to as 'DILF'.
+
+{{Master Template Characters
+| show-main = yes
+| show-npc = yes
+}}

@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 346
+| use = 20
+| knockback = 10
+| stack = 1
+| rare = 14
+| auto = no
+| sell = {{value|0|20|0}}
+| velocity = 20
+| tooltip = Right click to throw your trident. Right click again to strike it with lightning.
+| proj = Guardians Wrath Spear.png
+| projcaption = Guardians Wrath
+| hardmode = yes
+| postml = yes
+| element1 = Dark
+| element2 = Water
+| element3 = Stab
+| element4 = Electricity
+}}
+'''Guardians Wrath''' is a Godseeker Mode [[spear]] that is dropped by the [[Cuboid Curse]]. Left click will cause the Guardians Wrath to act like a regular spear. Right clicking will throw the weapon, removing it from your inventory. The trident can stick into blocks and enemies. Right clicking again will summon lightning to strike the trident, dealing immense damage and returning the weapon to your inventory.
+
+{{modifier|meleealt}}
+
+== Notes ==
+*If the player exits the world while the Guardians Wrath is stuck in something, they will have it in their inventory when they enter a world again. The weapon can also not despawn or be deleted while in its thrown state.
+
+== Trivia ==
+*The Guardians Wrath is a reference to the trident from Minecraft.
+**Guardians are a type of enemy in Minecraft that live in the ocean.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

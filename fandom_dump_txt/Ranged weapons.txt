@@ -1,0 +1,24 @@
+'''Ranged weapons''' are [[weapons]] which deal ranged damage, usually on contact with a projectile shot by the weapon, and consume [[ammunition]] when used. They come in the form of [[bows]], [[guns]], [[launchers|rocket launchers]], [[dart guns]] and [[flamethrowers]], which use [[arrows]], [[bullets]], [[rocket]]s, darts and [[Gel]] respectively, among other unclassified weapons which use specialized ammo or do not require ammo.
+
+== Types ==
+{| class="terraria sortable lined"
+! colspan=2 | Name !! <abbr title="Base Damage">DMG</abbr> !! <abbr title="Use Time">UT</abbr> !! <abbr title=Knockback>KB</abbr> !! <abbr title="Shoot Speed/Velocity">SS</abbr> !! <abbr title="Critical Chance">Crit</abbr> !! Auto !! [[Rarity]] !! <abbr title=Hardmode>HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Ranged weapons
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦:Melee weapons/dpl}
+| uses = Template:Item infobox
+| mode = userformat
+| count = 300
+}}
+|}
+
+{{Master Template Weapons
+| show-main  = yes
+| show-ranged = yes
+}}
+
+[[Category:Weapon items| ]]
+[[Category:Ranged weapons|*]]

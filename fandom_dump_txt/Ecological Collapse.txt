@@ -1,0 +1,42 @@
+{{dedicated|Garganto|Developer}}
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 2000
+| auto = yes
+| use = 39
+| knockback = 7
+| velocity = 7
+| rare = 16
+| sell = {{value|0|30}}
+| stack = 1
+| tooltip = And there was no more ground to be seen...<br/>Throws out up to 10 lumenous mines with lightning auras<br/>Stealth strikes ignore the 10 mine cap, but dissipate quicker
+| proj = Apoctolith Shard.png 
+| projcaption = Lumenyl Shard
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Water
+| element2 = Dark
+| element3 = Smash
+}}
+
+The '''Ecological Collapse''' is a craftable Epilogue non-consumable [[spiky balls|spiky ball]]. It throws out up to 10 Lumenous Mines which decelerate until stopping. Once stationary, they will create a lightning aura with a 20 tiles radius that completely ignores [[immunity frames]] of enemies caught within. Once the mine has existed for 20 seconds, it will explode into 8-10 Lumenyl shards.
+
+Performing a [[stealth strike]] with the Ecological Collapse will throw out a mine regardless of how many currently exists, which will explode into 20-30 shards. However said mines will only last for 8 seconds.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+== Trivia ==
+*The item's name and tooltip refer to the Crater Edge/Ecological Dead Zone from ''[[wikipedia:Subnautica|Subnautica]]''.
+{{Subnautical Plate}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Spiky Balls]]

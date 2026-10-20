@@ -1,0 +1,33 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damage = 26
+| damagetype = Spy
+| velocity = 14
+| knockback = 3.5
+| use = 14
+| tooltip = Stacks up to 2<br/>Stealth strikes throw 2 long ranged sand dollars that explode into coral shards on enemy hits
+| rare = 2
+| stack = 2
+| buy = {{value|0|1}}
+| sell = {{value|0|0|20}}
+| proj = Small Coral.png
+| projcaption = Small Coral
+| element1 = Water
+| element2 = Slash
+}}
+
+The '''Sand Dollar''' is a [[Pre-Hardmode]] [[Spy]] [[boomerang]] that is purchased by the [[Sea King]] at any time. This weapon can be stacked up to two. The amount of boomerangs thrown is dependent on stack size.
+
+Performing a [[stealth strike]] with Sand Dollar causes two sand dollars to be thrown out regardless of stack size. They travel farther before returning to the player and spawns a gravity-affected coral shard on enemy hits.
+
+{{Modifier|none}}
+
+== Trivia ==
+*In real life, [[wikipedia:Sand dollar|sand dollars]] are a type of burrowing sea urchin, known for possessing a skeleton reminiscent of the old [[wikipedia:Spanish dollar|Spanish dollar]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

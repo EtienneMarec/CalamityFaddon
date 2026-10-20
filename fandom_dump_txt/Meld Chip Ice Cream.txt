@@ -1,0 +1,29 @@
+{{item infobox
+| type = Potion
+| type2 = Crafting material
+| stack = 999
+| tooltip = Better eat it before it melds<br/>Major improvements to all stats<br/>Increases life regeneration
+| consumable = Yes
+| rare = 7
+| use = 17
+| buff = Exquisitely Stuffed
+| bufftip = Major improvements to all stats<br/>{{expert|Major improvements to all stats and increased life regeneration}}
+| duration = 4 minutes
+| sell = {{value|0|10|0}}
+| hardmode = yes
+}}
+{{item drops infobox
+|[[Lunar Events]] Enemies | 3%
+}}
+
+'''Meld Chip Ice Cream''' is a consumable [[food item]] that drops from [[Lunar Events]] enemies. When consumed, it grants the [[Exquisitely Stuffed]] buff for 4 minutes.
+
+==Crafting==
+===Used in (Any Food Item)===
+{{recipes|ingredient=Any Food Item}}
+{{-}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion=yes
+}}

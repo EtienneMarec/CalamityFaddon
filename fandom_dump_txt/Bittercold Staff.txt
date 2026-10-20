@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 40
+| mana = 17
+| tooltip = Fires a spread of homing ice spikes
+| knockback = 5
+| rare = 5
+| sell = {{value|0|4|80}}
+| use = 25
+| velocity = 10
+| stack = 1
+| hardmode = yes
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 4 seconds
+| proj = Ice Rain.png
+| projcaption = Ice Spike
+| listexclude = yes
+}}
+|{{item drops infobox
+| [[Cryogen]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Bittercold Staff''' is a [[Hardmode]] [[Wands|wand]] that is dropped by [[Cryogen]]. Upon use, the staff fires 2 to 4 small ice spikes that home on enemies and inflict the [[Frostburn]] [[debuff]] on contact.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

@@ -1,0 +1,46 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 1740
+| use = 40
+| knockback = 6.5
+| velocity = 40
+| tooltip = Derails your enemies
+| stack = 1
+| auto = yes
+| rare = C2
+| sell = {{value|0|75}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Evercold
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| element1 = Cold
+| element2 = Water
+| element3 = Dark
+| element4 = Bomb
+| proj = RailBomb.png
+| projcaption = Bomb
+| proj2 = Railglow.png
+| proj2caption = Railglow
+}}
+|{{item drops infobox
+| [[Esserwyrm]]|1|20%
+}}
+}}
+'''Abysscent Derailer'''  is an Epilogue [[Launchers|launcher]] that is either crafted or dropped from the [[Esserwyrm]]. lt converts rockets into a very fast bombs. After thebomb hits an enemy or a wall, it explodes into 5 4-pointed stars that slowly home onto enemies, deal 150% of the damage, and inflict the [[Evercold]] Debuff.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Launchers]]

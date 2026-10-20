@@ -1,0 +1,42 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| tooltip = Throws out a spread of daggers that aggressively dart towards enemies<br/>The daggers stick into hit enemies and deal continous damage, with a max of 20 daggers at once<br/>After 10 seconds, each dagger explodes into a cross of laser beams<br/>Stealth strikes double the amount of beams on dissipation into an 8 pointed star
+| damage = 426
+| knockback = 8
+| use = 10
+| velocity = 64
+| rare = 15
+| sell = {{value|0|40}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| proj = Exodimus Dagger.png
+| projcaption = Secondary Dagger
+| element1 = Holy
+| element2 = Cold
+| element3 = Stab
+}}
+
+'''Exodimus''' is a craftable Godseeker Mode [[dagger]] that is an upgrade to the [[Seraphim]]. When used it throws an even spread of 5 infinitely piercing daggers, with the second and fourth daggers inflicting [[Vulnerability Hex]] if [[Supreme Calamitas]] has been defeated. After half a second has passed, all five daggers will rapidly dart towards enemies or the cursor if no enemies exist, and stick onto them, dealing continous damage. A maximum of 20 daggers can be latched onto an enemy at once. After 10 seconds have passed, each dagger explodes into a cross of laser beams.
+
+Performing a [[stealth strike]] with Exodimus modifies the laser beam pattern to have 8 beams in a star pattern instead of a 4 beamed cross.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+The item's sprite is a recolored [[Grand Guardian]].
+
+{{-}}
+{{exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

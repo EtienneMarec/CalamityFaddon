@@ -1,0 +1,42 @@
+{{addon|Calamity: Community Remix}}
+{{dedicated|Zest|Developer}}
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 468
+| knockback = 1
+| mana = 10
+| rare = 15
+| sell = {{value|0|40}}
+| auto = yes
+| use = 12
+| stack = 1
+| tooltip = Beneath the tree's roots lies the pain of a thousand souls<br/>Summons a pair of crystalline butterflies to fight for you<br/>Each pair takes up 4 minion slots<br/>Each active purple butterfly increases your damage by 10%<br/>Each active pink butterfly increases your life regeneration by 2
+| buff = Resurrection Butterfly (buff) | bufflink = no
+| bufftip = Aren't they beautiful?
+| hardmode = yes
+| postml = yes
+| boxwidth = 21em
+| proj = Sakura Bullet.png
+| projcaption = Sakura Bullet
+| element1 = Magic
+| element2 = Poison
+| element3 = Slash
+}}
+{{summoned|Purple Crystalline Butterfly|minion2=Pink Crystalline Butterfly|type=minion}}
+
+'''The Dreaming Ghost''' is a craftable Godseeker Mode [[Summon weapon|summon weapon]]. Upon use with four or more minion slots, The Dreaming Ghost summons a purple and pink butterfly. The purple butterfly will visciously ram into enemies while spawning crystal shards on enemy hits, while the pink butterfly will remain stationary and fire a swarm of sakura bullets. Each purple butterfly active increases the player's damage by 10%, while each pink butterfly increases the player's life regeneration by 2.
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon's description is a reference to the character [https://en.touhouwiki.net/wiki/Yuyuko_Saigyouji Saigyouji Yuyuko] from the ''[[wikipedia:Touhou Project|Touhou Project]]'' series.
+*This weapons sprite is a bigger version of the [[Resurrection Butterfly]] from the calamity mod.
+{{-}}
+{{Master Template Weapons	
+| show-main = yes
+| show-summon = yes
+}}

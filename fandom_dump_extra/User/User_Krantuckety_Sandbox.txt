@@ -1,0 +1,86 @@
+[[File:BiomeBannerAcidRain.png|center|460px]]
+<big> ''"A toxic downpour falls over the wasteland seas!"'' </big>
+{{float file box|[[File:Acid Rain Icon.png]]|Progress bar icon}}
+
+The '''Acid Rain''' is a weather event added by the Calamity Mod. It has a 1/360,000 chance of occuring every tick once the [[Eye of Cthulhu]] has been defeated, or can be summoned through the use of a [[Caustic Tear]]. While the Event is active, Sulphuric Rain droplets will rain from the sky and inflict [[Irradiated]] onto the player.
+
+The Event has multiple levels of difficulty that are encountered at different stages in progression similar to the [[Old One's Army]], with each tier unlocking after the player has defeated a specific boss. The first tier of the event will be unlocked after the [[Eye of Cthulhu]] has been defeated, the next tier will unlock after the [[Aquatic Scourge]] has been defeated and the final tier will unlock after the [[Polterghast]] has been defeated.
+
+To complete the event, the player must use a Caustic Tear or kill 180 enemies. In Multiplayer, the players must kill the amount of enemies calculated by the equation (floor(180 * ln(total players + E - 1))) based on how many players are in the world at the start of the event. 
+
+
+== Content ==
+{{Biome
+|monsters=<nowiki />
+:{{item|Acid Eel|size=55px}}
+:{{item|Nuclear Toad|size=40px}}
+:{{item|Radiator}}
+:{{item|Skyfin|size=45px}}
+:{{item|Water Leech}}
+
+'''If [[Aquatic Scourge]] has been defeated:'''
+:{{item|Flak Crab}}
+:{{item|Irradiated Slime}}
+:{{item|Orthocera}}
+:{{item|Sulphurous Skater}}
+:{{item|Trilobite}}
+:{{item|note=(Miniboss)|Cragmaw Mire|image=Cragmaw Mire (Phase 1).png|size=55px}}
+
+'''If [[Polterghast]] has been defeated:'''
+:{{item|note=(Critter)|Bloodworm}}
+:{{item|Gamma Slime}}
+:{{item|note=(Miniboss)|Nuclear Terror|size=110px}}
+
+'''Bosses:''
+
+'
+:{{item|The Old Duke|size=140px}}
+
+|drop=
+'''From [[Acid Eel]]s, [[Radiator]]s,<br/> and [[Skyfin]]s:'''
+:{{item|Sulphuric Scale}}
+'''From [[Flak Crab]]s, [[Orthocera]]s, <br/> [[Sulphurous Skater]]s, and [[Trilobite]]s:'''
+:{{item|Corroded Fossil}}
+'''From [[Flak Crab]]s:'''
+:{{item|Flak Toxicannon}}
+'''From [[Orthocera]]s:'''
+:{{item|Orthocera Shell}}
+'''From [[Sulphurous Skater]]s:'''
+:{{item|Sulphurous Grabber}}
+'''From [[Acid Eel]]s after defeating the [[Aquatic Scourge]]:'''
+:{{item|Slithering Eels}}
+'''From [[Skyfin]]s after defeating the [[Aquatic Scourge]]:'''
+:{{item|Skyfin Bombers}}
+
+|drop2=
+'''From [[Cragmaw Mire]]:'''
+:{{item|Spent Fuel Container}}
+:{{item|Nuclear Rod}}
+
+'''From [[The Old Duke]]:'''
+:{{item|Insidious Impaler}}
+:{{item|Fetid Emesis}}
+:{{item|Septic Skewer}}
+:{{item|Vitriolic Viper}}
+:{{item|Cadaverous Carrion}}
+:{{item|Toxicant Twister}}
+:{{item|Old Duke's Scales}}
+:{{item|Old Duke Mask}}
+:{{item|Old Duke Trophy}}
+:{{item|Old Duke (Lore)|note=(Always on first kill)|wrap=y}}
+:{{item|Treasure Bag (The Old Duke)|Treasure Bag|note=(The Old Duke)|wrap=y}}
+}}
+
+== Notes ==
+*While the Acid Rain event is active, Rain will be active across the rest of the world.
+*The events enemies will override the [[Sulphurous Sea]]s enemies, similarly to [[Meteor Head]]s.
+*As it is a weather event, other events such as the [[Goblin Invasion]] may happen simultaneously.
+
+== Trivia ==
+*The Acid Rains [[Music|theme]] is Acidic Downpour, which was composed by wiki editor [https://calamitymod.gamepedia.com/UserProfile:RoverdriveZ RoverdriveZ].
+*It is the first event ever added to the Calamity Mod.
+*Some of the events enemies are based on extinct aquatic lifeforms, such as the [[Orthocera]] and [[Trilobite]].
+*The event used to be a variation of the [[Rain]] event in the [[Sulphurous Sea]], similar to [[Blizzard]]s in the [[Snow]] Biome.
+
+== Tips ==
+*This event is very dangerous for early game players due to the high spawnrates of enemies.

@@ -1,0 +1,27 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Grants immunity to the irradiated debuff
+| rare = 5
+| sell = {{value|0|4|80}}
+| stack = 1
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Irradiated Slime]]<br/>[[Gamma Slime]]| 1 | 3.33%
+}}
+}}
+
+The '''Lead Core''' is a [[Hardmode]] [[covering]] that provides immunity to the [[Irradiated]] [[debuff]]. It is dropped by [[Irradiated Slime]]s and [[Gamma Slime]]s with a 3.33% chance.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

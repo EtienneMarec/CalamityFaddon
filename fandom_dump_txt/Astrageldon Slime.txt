@@ -1,0 +1,109 @@
+{{npc infobox
+| type = Boss
+| environment = Astral Infection
+| ai = Astrageldon Slime AI
+| damage = '''Melee:'''<br/>{{dv|10-200|16-216||24-324}}<br/>'''Fireball:'''<br/>{{dv|90|140||210}} (pre-[[Moon Lord]])<br/>{{dv|0|0||10,500}} (Godseeker Mode)
+| life = {{dv|105,000|156,000|200,000}}
+| defense = 40
+| knockback = 100
+| money = {{value|1|0|0|0}}
+| debuff = Astral Blight
+| debuffchance = 100%
+| duration = {{dv|4 seconds}}
+| debufftip = Your flesh is boiling away
+| Stardust|30-40|100%
+| Astral Jelly|{{dv|9-12|12-16}}|100%
+| Astral Lash|1|100%
+| Super Healing Potion|5-15|100%
+| Astrageldon Mask|1|14.29%
+| Astrageldon Trophy|1|10%
+| custom| {{item|Astrageldon (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Pod (Astrageldon )|Treasure Pod|note=(Astrageldon Slime)|wrap=y}}
+: • {{item|Suspicious Looking Jelly Bean|note=(in Revengeance Mode only)<br/>(Godseeker Mode)|wrap=y}}|{{expert|100%}}
+| hardmode = yes
+| image2 = Astrageldon map.png
+| image2caption = Map Icon
+| listexclude = yes
+| boxwidth = 25em
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_33.wav
+| soundtext = Fireball
+| sound2 = Item_109.wav
+| sound2text = Teleport
+}}
+[[File:Astrageldon Trophy.png]] <big>''"A gelatinous singularity that has consumed many universes in its wake..."''</big> [[File:Astrageldon Trophy.png]]
+
+'''Astrageldon''' (Japanese: アストラゲルドン ''Asutoragerudon'') is a [[boss]] fought in [[Hardmode]]. It takes the appearance of a gigantic slime infected with the Astral Blight with a slew of different unnatural abilities.
+
+==Spawn==
+Astrageldon is summoned by using the Astral Communicator dropped by Ascended Astral Slimes in the Astral Infection before defeating the Moon Lord. If Astrageldon's first phase had been defeated prior, the item would automatically summon it in its second phase, with its first phase becoming spawnable through its alternate function. If Astrageldon had been defeated prior, it could be resummoned after defeating the Moon Lord.
+==Behavior==
+Astrageldon behaves similarly to most [[Slime]]s and will attempt to leap towards the player. Its damage, defense, movement speed and firing speed increases significantly as its health lowers. Astrageldon itself is massive, roughly twice as big as [[King Slime]]. Like King Slime, it will teleport near the player if they get too far away.
+
+===Attacks===
+*Periodically teleports into the air above the player in an attempt to crush them.
+*Fired eight fireballs of varying speeds in a symmetrical, star-like shape.
+*Attempts to shoot fireballs directly at the player, and fires faster as its health decreases.
+*Spawns [[Astral Slime]]s as it took damage.
+
+===In [[Revengeance Mode]]===
+*Phase 1 health increased to 200,000. Phase 2 health increased to 336,000.
+*Damage increased to 246.
+*Has time-based damage reactive damage reduction in phase 2.
+*Phase 1 gained a new attack occurring after its Nova Slime rain where Astrageldon jumps, fires a floral pattern of stars, then slams downwards while chasing the player. This will occur three times before transitioning to its Asteroid Belt attack.
+*Shockwaves travel an extra 10% longer.
+*Phase 1 slams spawn rocks upon reaching 50% life instead of 40%.
+*Fired 1 extra Nebula Residue Mine every time it shoots for a total of 6 Mines.
+
+=== In [[Death Mode]]===
+*Damage increased to 275.
+*Shockwaves travel an extra 10% longer.
+*Phase 1 laser attacks shoot out 12 spokes of lasers instead of 10.
+*Summons 1 more Nova Slime per wave.
+*Slams create rocks upon reaching 75% life instead of 50%.
+*Summons an additional pair of Nova Slimers on subsequent waves for a total of 10 pairs.
+
+===Summons ===
+{| class="terraria"
+! Image!! Name!!Condition
+|-
+| align="center" |{{item|mode=table|Astral Slime}}||When damaged
+|
+|}
+
+== Notes== 
+*When Astrageldon is alive, the following events would be disabled:
+**Rain
+**Slime Rain
+**Parties
+**Sandstorms
+*The lock on spawning Astrageldon is indicated by a status message, meaning that dying to the Moon Lord would not cause the boss to become locked off. 
+**This means that the player could clear the Lunar Events then die to the Moon Lord if they wished to fight the boss without any pillars active.
+
+==Aftermath== 
+*Spiral clusters of Metanova Ore will generate in the underground Astral Infection.
+*Nova Slimes will start spawning on the surface Astral Infection.
+*Metanova Slimes will start spawning in the Cavern.
+
+==Tips ==
+*Due to the use of Interstellar Corruption in the fight, the [https://terraria.fandom.com/wiki/Rod_of_Discord| Rod of Discord] should not be relied on as the debuff would instantly kill players inflicted by it, unless the player could avoid the Nova Slimers and the bordering arena.
+*The Astral Communicator becomes unusable after defeating the Moon Lord, meaning players shouldn't wait to fight the boss with stronger gear as it would become inaccessible.
+* Running away from the waves of Nova Slimes was more advisable than attempting to kill all of them as they could become overwhelming to kill while also avoiding the boss.
+*Baiting Astrageldon into dashing across the border of the arena then flying to the opposite side during its grid mine attack could be a useful alternate strategy as it left most of the mines unable to hit the player, though this method was not reliable and the player should be prepared to wedge into a safe spot if an unlucky pattern occurred.
+
+== Trivia==
+*Astrageldon's phase 1 [[Music|theme]] is [https://www.youtube.com/watch?v=ibFdltiLuKM '''Cosmic Disgust'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**This theme's introduction contains a motif from [[The Slime God]]'s theme.
+*Before Astrageldon's final phase initiates, its theme switched to [https://www.youtube.com/watch?v=03HfmXZha2M '''Galactic Destruction'''], which was composed by the artist [https://www.youtube.com/channel/UCUPRIDdzQIBWPK5IARZo2HQ Heart Plus Up!]
+**If the Calamity Music add-on mod was disabled, the [[Moon Lord]]'s theme would play instead.
+*Like [[Armageddon]], Astrageldon is a reference to the [https://terrariamods.fandom.com/wiki/Exxo_Avalon/Armageddon_Slime Armageddon Slime] from the [https://forums.terraria.org/index.php?threads/released-wip-terraria-avalon.378/ Exxo Avalon] mod.
+*Its name is a portmanteau of the words ''astral'', ''armageddon'' and ''gel''.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message would be "The multiversal terror returns to its consumption."
+{{Historical}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}
+
+[[es:Astrageldon]]

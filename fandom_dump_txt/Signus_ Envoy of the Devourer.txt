@@ -1,0 +1,216 @@
+<section begin=npc infobox />{{npc infobox
+| name = Sigmus, Envoy of the Devourer
+| image = signusPG.png
+| type = Boss
+| environment = The Underworld
+| ai = Sigmus, Envoy of the Devourer AI
+| life = {{dv|297,000|475,200|570,240}}
+| defense = 60
+| knockback = 100
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Whispering Death
+| vulnerable1 = Slash
+| vulnerable2 = Cold
+| resistant1 = Magic
+| resistant2 = Dark
+| resistant3 = Fire
+| listexclude = yes
+| money = {{gc|35}}
+| Twisting Nether|{{dv|2-3|3-4}}|100%
+| Cosmic Kunai|1|{{dv|25%|33.33%}}
+| Cosmilamp|1|{{dv|25%|33.33%}}
+| Spectral Veil|1|100%
+| Supreme Healing Potion|5-15|100%
+| Signus Mask|1|14.29%
+| group|The following three items will always drop together|1
+| custom| {{item|Ancient God Slayer Helm}}
+{{item|Ancient God Slayer Chestplate}}
+{{item|Ancient God Slayer Leggings}}|5%
+| Signus Trophy|1|10%
+| custom| {{item|The Sentinels of the Devourer (Lore)|note=(Always on first kill if [[Storm Weaver]]<br/>and [[Ceaseless Void]] are defeated)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Signus)|Treasure Bag|note=(Signus)|wrap=y}}
+: • {{item|Ever Ink|note=(In [[Revengeance Mode]] only)|wrap=y}}|{{expert|100%}} {{fantag|Catalyst}}
+| image2 = Signus map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_49.wav
+| killed = NPC_Killed_51.wav
+| sound = Item_8.wav
+| soundtext = Teleport
+| sound2 = Item_122.wav
+| sound2text = Mine Spawn
+| sound3 = Item_73.wav
+| sound3text = Scythe / Dust Shot
+| sound4 = Item_74.wav
+| sound4text = Scythe / Dust Explosion
+| debuff = Whispering Death
+| debuffchance = 100%
+| duration = 7 seconds (Contact)
+| debufftip = Death approaches; defense, movement speed, attack power and life regen reduced
+| boxwidth = 24em
+}}<section end=npc infobox />
+
+'''Sigmus, Envoy of the Devourer''' (Japanese: 貪り食う者の使者シグナス ''Musabori kuu mono no shisha shigunasu'') is a Godseeker Mode [[boss]] and is one of the [[Sentinels of the Devourer]]. It drops [[Twisting Nether]] which is a [[crafting material]] required to craft the [[Cosmic Worm]].
+
+== Spawn ==
+Sigmus is summoned by using the [[Rune of Kos]] in [[The Underworld]] at any time.
+
+== Phases ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Sigmus, Envoy of the Devourer
+| namesub = Phase 1
+| image = signusPG.png
+| type = Boss
+| ai = Sigmus, Envoy of the Devourer AI
+| damage = {{dv|175|315|351|369}} (Contact)
+| life = {{dv|297,000|475,200|570,240}}
+| defense = 60
+| knockback = 100
+}}
+|{{npc infobox
+| name = Sigmus, Envoy of the Devourer
+| namesub = Phase 2
+| image = Signus, Envoy of the Devourer (Phase 2).png
+| type = Boss
+| ai = Sigmus, Envoy of the Devourer AI
+| damage = {{dv|175|315|351|369}} (Contact)<br/>{{dv|110|220|242|256}} (Essence Dust)<br/>{{dv|120|192|212|224}} (Homing Scythe)
+| life ={{dv|297,000|475,200|570,240}}
+| defense = 60
+| knockback = 100
+| debuff = Whispering Death
+| debuffchance = 100%
+| duration = 3 seconds (Homing Scythe)
+| debufftip = Death approaches; defense, movement speed, attack power and life regen reduced
+| debuff2 = God Slayer Inferno
+| debuffchance2 = 100%
+| duration2 = 3 seconds (Essence Dust)
+| debufftip2 = Your flesh is burning off
+}}
+|{{npc infobox
+| name = Sigmus, Envoy of the Devourer
+| namesub = Phase 3
+| image = Signus, Envoy of the Devourer (Phase 3).png
+| type = Boss
+| ai = Sigmus, Envoy of the Devourer AI
+| damage = {{dv|175|315|351|369}} (Contact)<br/>{{dv|110|220|242|256}} (Essence Dust)
+| life = {{dv|297,000|475,200|570,240}}
+| defense = 60
+| knockback = 100
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 3 seconds (Essence Dust)
+| debufftip = Your flesh is burning off
+}}
+}}
+
+== Behavior ==
+Sigmus has 3 phases, each with their own unique behavior, appearance, and methods of attack. Sigmus cycles through these phases randomly; the same phase never appears twice in a row. Sigmus will always start the fight in Phase 1. Sigmus will do {{dv|4|3|2|1}} attack/s per phase before cycling to the next.
+
+Throughout the fight, it summons Cosmic Lantern [[enemies]] that chase the player at high speeds in an attempt to deal contact damage. A maximum of 10 Lanterns can be summoned at a time.
+
+=== Attacks ===
+==== Phase 1 ====
+*Sigmus flies towards the player and teleports, each to random nearby locations. During this phase, Sigmus ''will'' take knockback, which can slow its advance. Below 50% HP, however, Sigmus will become completely immune to knockback.
+**As its health gets lower, it teleports more quickly and moves toward the player more quickly.
+*Below 30% health, Sigmus will not enter this phase.
+
+==== Phase 2 ====
+*Sigmus flies very quickly back and forth above the player and launches 3 bursts of 3 scythes that inflict [[Whispering Death]].
+**The lower Sigmus' health, the faster it shoots these bursts.
+**Scythes eventually turn around in an attempt to hit the player again.
+
+==== Phase 3 ====
+*Sigmus flies above the player and lunges down at them extremely quickly.
+**As Sigmus' health gets lower, its lunges become even faster.
+*Sigmus occasionally spawns a wall of five Cosmic Lanterns in front of the player to block them.
+*Below 75% health, it summons trails of essence dust behind it while lunging. The essence dust explodes after a short delay.
+
+=== In [[Revengeance Mode]] ===
+*After it teleports, Sigmus summons two pink Cosmic Mines, which chase the player and explode if in close proximity to them or after a short time.
+**The Cosmic Mine grows up to three times of its size before exploding.
+
+=== In [[Death Mode]] ===
+*Sigmus is generally more aggressive and cycles through phases faster as its health decreases.
+
+== Summons ==
+{{npc infobox
+| float = none
+| name = Cosmic Lantern
+| type = Flying Enemy
+| image = Cosmic_Lantern.png
+| environment = The Underworld
+| damage = {{dv|110|220|242|256}}
+| ai = Cosmic Lantern AI
+| life = 25 / {{expert|50}}
+| defense = 85
+| knockback = {{dv|15|23}}
+| immuneall = yes
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_53.wav
+| killed = NPC_Killed_44.wav
+| boxwidth = 24em
+}}
+
+=== In Revengeance Mode ===
+{{npc infobox
+| float = none
+| name = Cosmic Mine
+| type = Flying Enemy
+| image = Cosmic_Mine.png
+| environment = The Underworld
+| ai = Cosmic Mine AI
+| life = 3900
+| damage = {{dv|||300|320}}
+| defense = 0
+| knockback = 100
+| immuneall = yes
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_53.wav
+| killed = NPC_Killed_44.wav
+| sound = Item_14.wav
+| soundtext = Explode
+| boxwidth = 24em
+}}
+
+== Resistances ==
+*Sigmus takes decreased damage from some items and projectiles. It takes:
+**90% damage from [[Time Bolt]].
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating Signus, Envoy of the Devourer, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Signus, Envoy of the Devourer strategies]].}}
+*Building a large arena to dodge Sigmus' attacks is a good idea in order to give more room to move around.
+*Avoid traveling in a straight horizontal line while fighting Sigmus to avoid Cosmic Lanterns that spawn on each side of the player.
+*The [[Lacerator]] is great for destroying Cosmic Lanterns and for doing large amounts of damage to Sigmus while staying at a good distance.
+*Using the [[Seadragon]] along with [[Holy Fire Bullet]]s can decimate Sigmus.
+*The [[Nuclear Fury]] is a great weapon for the Cosmic Lanterns as its area of effect can easily keep them at bay.
+**However, options such as [[Mistlestorm]] and [[Sanguine Flare]] will have much higher direct damage.
+*[[Elemental Axe]]s paired with the [[Golden Gun]] and minion slot boosting [[coverings]] can be a deadly combination for defeating Sigmus.
+**Additionally, the life aura from summoner [[Tarragon armor]] instantly kills Cosmic Lanterns as they draw near.
+*The [[Molten Amputator]] is an excellent [[Spy]] option that deals great damage when the boomerangs stack on top of one another.
+*Sigmus' Cosmic Fireballs can be difficult to evade, thus using the [[Normality Relocator]] or a [[Rod of Discord]] is highly recommended.
+*The [[Ark of the Elements]] is still a decent option for Melee users.
+*coverings such as the [[Flesh Totem]] and [[Elysian Aegis]] are extremely useful for dealing with Sigmus' massive contact damage.
+*If not already equipped, the [[Seraph Tracers]] are very useful for keeping up with Sigmus' speed.
+*Sigmus' AI is very similar to [[Brimstone Elemental]]'s AI. Practicing her before fighting Sigmus may result in an easier fight.
+*It is possible to lure Sigmus out of The Underworld and on to the [[Surface]]. This can give the player much more vertical space to fight in, and will not change its behavior.
+*While Sigmus can be fought before any other post-Moon Lord boss, it is not recommended to fight until [[Providence]] is defeated, its high speed, damage, and unpredictable nature make the fight very challenging.
+
+== Trivia ==
+*Sigmus' [[Music|theme]] is a segment from [https://www.youtube.com/watch?v=dt30jWRMjLk '''Servants of the Scourge'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**This theme contains a motif from [[The Devourer of Gods]]' theme.
+**If the Calamity Music add-on mod is disabled, '''Boss 4''' will play instead.
+*Sigmus' name was inspired by community member CygnusPrawn's username.
+*Sigmus, along with [[Storm Weaver]] and [[Ceaseless Void]], can be summoned right after the Moon Lord is defeated, as their summoning item only requires Solar Fragments, Luminite Bars, and [[Unholy Essence]]s.
+*Signus was formerly referred to as 'CosmicWraith' in the mod's source files.
+**This was due to Cosmic Wraith being the working name for Sigmus during development.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The Devourer's assassin has finished its easy task."
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

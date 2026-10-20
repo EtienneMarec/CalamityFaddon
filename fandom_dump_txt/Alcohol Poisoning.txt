@@ -1,0 +1,16 @@
+{{buff infobox
+| type = Debuff
+| effects = Reduces the player's life regen based on the amount of drinks consumed.
+| tooltip = You drank too much and you are now dying
+}}
+
+'''Alcohol Poisoning''' is a [[debuff]] that is inflicted on the player when they have more than 3 debuffs active from the drinks sold by the [[Drunk Princess]]. It prevents any positive life regen and decreases the player's life regen by 3 for every drink debuff currently active.
+
+== Notes ==
+*[[Everclear]] counts as 2 alcohols for the purposes of alcohol poisoning.
+*If the player gets killed by the debuff, the custom [[death message]] "''<PlayerName>'s liver failed.''" or "''<PlayerName> downed too many shots.''" is used.
+{{-}}
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

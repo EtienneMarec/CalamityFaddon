@@ -1,0 +1,28 @@
+{{Addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Pet Summon
+| stack = 1
+| tooltip = Summons a stiriatic walkie to follow you around
+| rare = C2
+| use = 19
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| buff = Stiriatic Walkie (buff)| bufflink = no
+| bufftip = Stiriatic Walkie (:
+| sell = {{value|15}}
+}}
+{|align=right
+|{{summoned|Stiriatic Walkie|type=pet}}
+|}
+{{item drops infobox
+| [[Stiriatic Walkie]]|1|10%}}
+The '''Crystallised Stiriatic Chunk''' is a [[pet]] summoning item obtained from [[Stiriatic Walkie]]s. It summons an a Striatic Walkie to follow the player.
+
+== Trivia ==
+*The items sprite is the old sprite for [[Stiriatic Ore]]
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

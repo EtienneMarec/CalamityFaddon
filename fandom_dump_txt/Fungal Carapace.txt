@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip =  You emit a mushroom spore explosion when you are hit
+| sell = {{value|0|2|40}}
+| defense = 6
+| stack = 1
+| rare = 4
+| proj = Truffle Spore.gif
+| projcaption = Mushroom Spore
+| element1 = Poison
+}}
+|{{item drops infobox
+| [[Anomura Fungus]]|1|{{dv|15%|25%}}
+}}
+}}
+
+The '''Fungal Carapace''' is a [[Pre-Hardmode]] [[covering]] dropped by the [[Anomura Fungus]] in the [[Glowing Mushroom biome]]. It increases [[defense]] by 6 as well as releases 4 floating mushroom spores randomly placed near the player when the player is hit. The mushroom spores explode after 5 seconds, dealing 70 damage. It is used to craft [[The Absorber]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*One can create an artificial [[Surface]] glowing mushroom biome in order to obtain this covering during [[Pre-Hardmode]].
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

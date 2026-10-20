@@ -1,0 +1,30 @@
+{{infobox wrapper
+|{{item infobox
+|type = Ammunition
+|tooltip = Inflicts War Cleave
+|damage = 9
+|damagetype = spy
+|stack = 1
+|consumable = no
+|knockback = 1.5
+|sell = {{value|0|0|0|1.5}}
+|rare = 1.5
+|velocity = 13
+|hardmode = yes
+|debuff= War Cleave
+|debuffchance=100%
+|debuffduration=4 seconds
+}}
+|{{item drops infobox
+| [[Goblin Archer]]| 25-68/{{expert|37-120}} | {{dv|2.5%|5%}}
+}}
+}}
+
+'''War Arrows''' are Pre-[[Hardmode]] [[arrows]] dropped by [[Goblin Archer]]s. Upon contacting an [[enemy]], it inflicts the [[War Cleave]] [[debuff]].
+
+{{War}}
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Arrows]]

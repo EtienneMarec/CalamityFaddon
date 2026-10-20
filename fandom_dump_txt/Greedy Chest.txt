@@ -1,0 +1,20 @@
+{{item infobox
+| type = Item
+| rare = 15
+| auto = no
+| placeable = Yes
+| stack = 9999
+| consumable = True
+| use = 14
+| sell = {{value|0|20|}}
+| hardmode = yes
+}}
+{{summoned|Greedy Mimic}}
+
+The '''Greedy Chest''' is a Godseeker Mode [[Traps|Trap]] bought from the [[Snowman]]. Right clicking a [[Chests|Chest]] with the item in your hand will apply it to the chest. When the chest is next opened, it will summon a Greedy Mimic, which will bite the player who opened it, causing them to lose 25% of their [[Coins]]. Said coins will be put into the chest.
+
+The Greedy Chest can be removed from a chest via using [[Wire Cutter|Wire Cutters]] on it. The chest cannot be opened until the mimic is removed. (The greedy Grinner will often show up if the chest is open again)
+
+{{Master Template Tiles
+| show-main = yes
+}}

@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = magic
+| damage = 60
+| knockback = 4
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| velocity = 12
+| auto = yes
+| use = 49
+| mana = 40
+| tooltip = Launches a diamond cross of supercharged magnet spheres
+| hardmode = yes
+| postml = yes
+| proj = Magnetic Orb.gif
+| projcaption = Magnetic Orb
+| element1 = Magic
+| element2 = Electricity
+}}
+{{item drops infobox
+| [[Magnetostorm Shuttle]]| 1 | 100%
+}}
+
+
+The '''Magnetic Meltdown''' is a craftable Godseeker Mode [[wand]]. It fires 4 purple orbs which go through blocks; the orbs travel a short distance and stay in the air for a couple of seconds, continuously shooting [[enemies]] around them with shadowbolts. The orbs act similarly to the orbs fired by the [[Magnet Sphere]] with higher damage and a larger range; thus, the Magnetic Meltdown can be considered a direct upgrade of the Magnet Sphere.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+
+[[Category:Wands]]

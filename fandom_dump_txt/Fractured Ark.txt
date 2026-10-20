@@ -1,0 +1,60 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 80
+| knockback = 6.25
+| rare = 4
+| sell = {{value|0|2|40}}
+| tooltip = {{color|Using RMB will extend the Ark out in front of you. Hitting an enemy with it will parry them, granting you a small window of invulnerability<br/>You can also parry projectiles and temporarily make them deal 100 less damage<br/>Parrying will empower the next 10 swings of the sword, boosting their damage and letting them throw projectiles out|#6495ED}}<br/>A worn down and rusty blade once wielded against the evil of this world, ready to be of use once more
+| use = 22
+| velocity = 15
+| boxwidth = 22em
+| proj = Ancient Beam.png
+| projcaption = Ancient Beam
+| element1 = Magic
+| element2 = Slash
+}}
+
+The '''Fractured Ark''' is a craftable [[Pre-Hardmode]] [[broadsword]] that auto-swings. Unlike most broadswords, it uses a custom swing animation and performs a simple combo of a downwards slash followed by an upwards one. 
+ 	
+Right-clicking with the weapon performs a parry attack that grants the player brief invincibility frames on direct hits and reduce the damage of projectiles. Successful parries will also fill up the weapon's charge.
+
+{{modifier|meleealt}}
+
+== Parry and Charge System ==
+
+Right-clicking performs a parry, where the Ark will get rapidly extended in front of the player. If an enemy is hit by the sword during the parry, the owner will gain a little more than half a second worth of invincibility. If a projectile is hit by the sword, the projectile's damage will be lowered by a maximum of 100 damage for one second. In both cases a sound effect will play and a line of text will pop up above the player  to indicate the parry was successful. After the parry finishes, successful or not, it will go on a cooldown, indicated by a rainbow bar above the player's head.
+
+The Fractured Ark possesses a unique charge system, being able to hold up to 10 charges indicated by a small rainbow bar over the sword's inventory sprite. Swinging the sword will consume one charge per swing, and landing a parry, be it on an enemy or a projectile will entirely refill the Ark's charges. When the ark holds any amount of charges, its damage will be multiplied by 1.75, the sword will get bigger, and each swing will fire a medium-ranged Ancient Beam projectile which deals 80% of the weapon's damage (Functionally 140% of the weapon's base damage, if accounting for the 1.75 damage multiplier from the Ark being charged up).
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Due to the Ark's unique swing animation, it is entirely unaffected by the player's attack speed.
+*The parry doesn't work on harmless or static projectiles, or if the projectile is too large.
+*The parry lasts for 5.66 seconds, with the actual parry lasting a quarter of a second, and the remaining time being taken up by the cooldown.
+**The parry cooldown applies to all of the Fractured Ark's upgrades.
+*Parrying a projectile that deals less than 100 damage will make it completely harmless for one second, but it can still work on projectiles that deal more than 100 damage, although the player will still be hit by the projectile for the remaining amount of damage.
+**This can make it dangerous to parry strong projectiles that inflict debuffs, since the player will be inflicted by them even when successfuly parrying.
+*The paragraph describing the parry function is colored in a cornflower blue color ({{color|#6495ED ●|#6495ED}}) 
+
+== Tips ==
+*While parrying a projectile makes it harmless for a second, it may at times be preferable to directly hit an enemy with the parry to recieve the 0.58 seconds of invincibility, due to the latter providing immunity to every source of damage, while the former only reduces the damage of a single projectile. 
+
+== Trivia ==
+*The Fractured Ark was formerly known as the '''Ark of the Ancients''' and is still referred as such in the files. This name has since been taken by its successor, the [[Ark of the Ancients]], which was itself previously named the '''True Ark of the Ancients'''.
+*The fact that it fires a beam when charged may be a reference to the Master Sword (The Legend of Zelda)'s ability to fire a beam when Link has full health.
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:破碎方舟]]

@@ -1,0 +1,32 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = C2
+| color = #0088AA
+| sell = {{value|0|20}}
+| use = 14
+| tooltip = Contains Freezing Energy.
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+'''Reinforced Freezeplate''' is a craftable post-[[Purgatory Arbiter, Umbrus]] [[block]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Plates}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

@@ -1,0 +1,43 @@
+{{npc infobox
+| imagealt = <Tabber>
+No Bubble=[[File:Sulphurous Skater.png]]
+|-|
+With Bubble=[[File:Sulphurous Skater (With Bubble).png]]
+</Tabber>
+| type = Aquatic
+| environment = Acid Rain
+| ai = Sulphurous Skater AI
+| damage = {{dv|48|96}} (Tier 2)<br/>{{dv|85|170}} (Tier 3)
+| life = {{dv|280|560}} (Tier 2)<br/>{{dv|3,850|7,700}} (Tier 3)
+| defense = 3 (Tier 2)<br/>15 (Tier 3)
+| dr = 15% (Tier 3)
+| knockback = 20% (Ground)<br/>50% (Flying)
+| debuff = Irradiated
+| debuffchance = 100%
+| duration = 2 seconds (Contact)
+| debufftip = Your skin is burning off
+| money = {{value|0|0|1}}
+| Corroded Fossil | 1-3 | 33.33% (Tier 2)<br/>6.67% (Tier 3)
+| Sulphurous Grabber | 1 | 5%
+| banner = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| vulnerable1 = Machine
+| resistant1 = Acid
+| resistant2 = Poison
+| resistant3 = Radioactive
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+The '''Sulphurous Skater''' is a [[Hardmode]] [[enemy]] that spawns during tiers 2 and 3 of the [[Acid Rain]] [[event]]. They move slowly on land and will jump around often. Sulphurous skaters will target [[Sulphurous Sea]] bubbles and upon latching onto them, they will gain the ability to fly around and chase the player. If the bubble is popped by the player, it will return to jumping around.
+
+== Trivia ==
+*The Sulphurous Skater was taken from a submission for a sulphurous sea design contest that was held on the Calamity art server. [https://media.discordapp.net/attachments/424301622878011402/551913271750295553/SulfSkeet.png Here] is the  original artwork, made by Kerubii#0625.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-event = yes
+}}

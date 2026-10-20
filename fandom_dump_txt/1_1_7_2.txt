@@ -1,0 +1,58 @@
+{{Patch infobox
+| image = The Perforator Hive (1.1.7.2).png
+| patchname = Perforator Hive Update
+| release = 2/5/2017
+}}
+
+The '''1.1.7.2''' update reworked [[The Perforators]] fight, made a few changes to [[Prepare to Die\Cry]] modes, and added several new [[ammunition]] types.
+
+== Additions ==
+*Added [[Perforator Cyst]] and [[The Perforator Hive]].
+*Added [[Arcanum of the Void]].
+*Added [[Acceleration Round]], [[Acid Round]], [[Elysian Arrow]], [[Flash Round]], [[Frostspark Bullet]], [[Holy Fire Bullet]], [[Terra Bullet]], and [[Vanquisher Arrow]].
+*[[Spore Knife]] is now obtainable.
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*Increased Prepare to Cry contact damage multipliers for [[King Slime]], [[Eye of Cthulhu]], [[Eater of Worlds]], [[Brain of Cthulhu]], [[Creeper]], [[Queen Bee]], [[Skeletron]], the large unsplit [[Slime God]]s, and [[Wall of Flesh]] from 4x to 5x.
+*Buffed [[Abyssion, The Forgotten One]] from the Thorium Mod's Prepare to Die (Demon Trophy) health and contact damage boosts from 8000 and 60 to 38,000 and 130 respectively, and buffed his Prepare to Die (Celestial Onion) health and damage boosts from 4000 and 40 to 15,000 and 90 respectively.
+*[[Ceaseless Void]], [[Signus, Envoy of the Devourer]], and [[Storm Weaver]] now have map icons.
+*[[Dark Energy|Dark Energies]], Storm Weaver, Signus, [[Cosmic Lantern]]s, [[Providence, the Profaned God]], and [[Profaned Guardians]] now have their health and contact damage boosted by Prepare to Die/Cry modes. <!---Same post-ml multiplier--->
+*Nerfed [[Cosmic Elemental]]'s health from {{dv|70|105}} to {{dv|40|60}} and its defense from 20 to 15.
+*[[The Devourer of Gods]]' body segments no longer passively spawn [[Stasis Probe]]s at day time, and no longer spawn [[Devourer Spawn]]s at all.
+*[[Eye of Cthulhu]] is now faster in Prepare to Die mode, buffed its Prepare to Die (Demon Trophy) contact damage boost from 3x to 5x, and buffed its Prepare to Die (Celestial Onion) health and damage boosts from 5x and 2x to 6x and 3x respectively.
+*[[The Perforators]] changes:
+**Buffed small Perforator's Blood Clot damage from {{expert|36}} to {{expert|44}}.
+**Buffed medium Perforator's Blood Clot damage from {{expert|44}} to {{expert|52}}.
+**Buffed large Perforator's Blood Clot damage from {{expert|48}} to {{expert|60}}.
+**The fight now begins with The Perforator Hive instead of all three Perforators at once, with the Hive spawning each of the three Perforators at different amounts of health.
+**The large Perforator no longer has scaling defense in Expert Mode based on which of the other Perforators are still alive.
+**The large Perforator no longer drops the [[Perforator Trophy]], [[Perforator Mask]], and [[Treasure Bag]]. <!---Now the Hive does--->
+**The Perforators no longer spawn [[Perforator Mini]]s. <!---Now the hive does--->
+**Decreased the small Perforator's [[Blood Sample]] drop count from 3-5 to 2-5, its [[Vertebrae]] drop count from 1-4 to 1-3, and increased its [[Crimtane Bar]] drop count from 1 to 1-2.
+**Decreased the medium Perforator's Blood Sample drop count from 5-10 to 3-7, and its Vertebrae drop count from 2-7 to 2-4.
+**Decreased the large Perforator's Blood Sample drop count from 7-14 to 4-8, its Vertebrae drop count from 3-9 to 3-5, and its Crimtane Bar drop count from 2-5 to 2-4.
+*Signus, Envoy of the Devourer now spawns a [[Cosmic Lantern]] for every 25 hits instead of 15.
+
+=== [[Items]] ===
+*[[Bloody Worm Food]] now requires 5 Blood Samples in its recipe instead of 5 Tissue Samples.
+*Nerfed [[Hyperius Bullet]]'s damage from 25 to 21, and removed the period from its tooltip.
+*Nerfed [[Mariana]]'s damage from 95 to 82, but buffed its use time from 27 to 26.
+*Buffed [[Planetary Annihilation]]'s damage from 95 to 195, and adjusted its projectile spawning formula.
+*Nerfed [[Verium Bullet]]'s damage from 15 to 12.
+
+== Fixes ==
+*Fixed [[???]] not animating correctly.
+*Fixed Abyssion, the Forgotten One from the Thorium Mod not being affected by Prepare to Die modes or its added immunites to [[Armor Crunch]], [[Glacial State]], and [[Temporal Sadness]].
+*Fixed [[Dried Seeker]]s not despawning if all players died.
+*Fixed [[Sausage Maker]] being crafted at a [[Sky Mill]] instead of an Evil Altar.
+*Fixed Signus, Envoy of the Devourer and Storm Weaver not spawning their servants correctly in multiplayer.
+
+== Removals ==
+*Removed Devourer Spawn.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

@@ -1,0 +1,36 @@
+{{npc infobox
+| name = Parasea
+| type = Flying Enemy
+| ai = Parasea AI
+| environment = Ocean
+| damage = {{element|Water}} {{dv|50|100}}
+| life = {{dv|450|900}}
+| defense = 9
+| knockback = 100
+| hardmode = yes
+| banner = yes
+| money = {{sc|6}}
+| debuff = Bleeding
+| duration = 2 seconds
+| debuffchance = 100%
+| debufftip = Cannot regenerate life
+| immune1 = Confused
+| immune2 = Kami Flu
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Cold
+| vulnerable2 = Slash
+| vulnerable3 = Machine
+| resistant1 = Poison
+| resistant2 = Water
+}}
+
+The '''Parasea''' is an enemy that spawns in the [[Ocean]] after [[Plantera]] or [[Calamitas]] has been defeated. It circles around the player and slowly spins closer, dealing contact damage to the player. It gains increased speed in [[Death Mode]].
+
+== See also ==
+*[[Aquatic Aberration]]
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

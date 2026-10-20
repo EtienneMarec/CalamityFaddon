@@ -1,0 +1,27 @@
+{{npc infobox
+| type = Enemy
+| type2 = Aquatic
+| ai = Sea Floaty AI
+| environment = Sunken Sea
+| life = {{dv|50|100}}
+| damage = {{dv|5|10}}
+| defense = 0
+| knockback = {{dv|50%|55%}}
+| money = {{value|0|0|0|50}}
+| boxwidth = 21em
+| banner = yes
+| custom| {{item|Clam Chowder|note=([[Hardmode]]-only)|wrap=y}} | 2%
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Eutrophication
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Machine
+}}
+
+'''Sea Floaties''' are [[Pre-Hardmode]] [[Enemies]] that spawn in the [[Sunken Sea]] [[biome]] that crawl along the seafloor and never chase the player. Upon being hit, they will swim through blocks and escape.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

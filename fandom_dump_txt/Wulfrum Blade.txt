@@ -1,0 +1,32 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 12
+| knockback = 3.75
+| rare = 1
+| sell = {{value|0|0|20}}
+| stack = 1
+| research = 1
+| auto = yes
+| use = 19
+| sound = Item_1.wav
+| soundtext = Use
+| element1 = Slash
+}}
+
+The '''Wulfrum Blade''' is a craftable Pre-Hardmode broadsword that autoswings.
+
+Its best modifier is '''Legendary'''.
+
+==Crafting==
+{{recipes|view=infobox|result=Wulfrum Blade}}
+
+==Tips==
+
+*The early availability and autoswing feature make it a viable choice for early Pre-Hardmode.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

@@ -1,0 +1,37 @@
+{{dablink|For the vanilla debuff page see [[tgc:Ichor (debuff)|Ichor]]}}
+
+{{buff infobox
+| name = Ichor
+| image = Ichor (debuff).png
+| type = Debuff
+| effects = Defense reduced by 20
+| tooltip = Defense reduced by 20
+}}
+
+'''Ichor''' is a vanilla [[debuff]] that reduces the defense of anything it afflicts by 20.
+
+== Causes ==
+=== From Calamity Items ===
+{{item debuffs|name=Ichor
+|{{item|mode=table|Flask of Ichor}}|10-19 seconds (Spy attacks)|100%
+}}
+
+=== From Calamity NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*Ichor/s
+|mode = userformat
+}}
+|}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 69
+| mana = 21
+| tooltip = Shoots piercing icicles
+| knockback = 7
+| rare = 5
+| buy = {{value|0|36}}
+| sell = {{value|0|7|20}}
+| use = 25
+| velocity = 12
+| stack = 1
+| hardmode = yes
+| debuff = Glacial State
+| debufftip = Cannot move and defense is shattered
+| debuffchance = 100%
+| debuffduration = 0.5 seconds
+| debuff2 = Frostburn
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds
+| proj = Trident Icicle.png
+| projcaption = Trident Icicle
+| element1 = Cold
+| element2 = Stab
+}}
+
+The '''Icicle Trident''' is a [[Hardmode]] [[wand]] sold by the [[Archmage]] NPC. It shoots out volleys of three icicle shards which will pierce through enemies once and inflict the [[Frostburn]] and [[Glacial State]] [[debuff]]s.
+
+{{Modifier|magic}}
+
+== Notes ==
+*The Icicle Trident can be considered to be the counterpart to the [[Poison Staff]] as both function similarly, have similar damage and both inflict strong debuffs.
+*Despite shooting three icicle shards at once, an enemy can only be hit once at any given time, instead of taking damage from up to three of them.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

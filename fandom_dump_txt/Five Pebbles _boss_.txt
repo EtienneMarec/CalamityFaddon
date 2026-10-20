@@ -1,0 +1,301 @@
+
+= Five pebbles =
+Edit
+Cryogen
+
+Statistics
+{| class="fandom-table"
+!Type
+|[[Boss]]
+|-
+![[Environment]]
+|[[Snow biome]] – [[Ice biome]]
+|-
+!AI Type
+|Cryogen AI
+|-
+!Damage
+|50 / '''<abbr>115</abbr>''' / '''<abbr>138</abbr>''' / '''<abbr>161</abbr>''' (Contact)
+46 / '''<abbr>80</abbr>''' / '''<abbr>96</abbr>''' / '''<abbr>108</abbr>''' (Ice Blast)
+52 / '''<abbr>92</abbr>''' / '''<abbr>112</abbr>''' / '''<abbr>124</abbr>''' (Ice Shard)
+
+'''<abbr>100</abbr>''' / '''<abbr>120</abbr>''' / '''<abbr>132</abbr>''' (Ice Bomb)
+|-
+!Max Life
+|30,000 / '''<abbr>48,000</abbr>''' / '''<abbr>57,600</abbr>'''
+|-
+![[Defense]]
+|12
+|-
+!<abbr>DR</abbr>
+|10%
+|-
+![[Knockback|KB]] Resist
+|100%
+|-
+!Immune to
+|
+|-
+![[Element|Vulnerable to]]:
+|
+|-
+![[Element|Resistant to]]:
+|
+|}
+Drops
+{| class="fandom-table"
+![[Drops|Coins]]
+|10 
+|}
+
+* Item'''<small>(Quantity)</small>Rate'''
+* [[Frozen Key]]  20%
+* [[Essence of Eleum]] (4-8 / '''<abbr>5-9</abbr>''')  100%
+* At least one of the following 5 weapons will always drop:
+* [[Effluvium Bow]]  25% / '''<abbr>33.33%</abbr>'''
+* [[Glacial Crusher]]  25% / '''<abbr>33.33%</abbr>'''
+* [[Icebreaker]]  25% / '''<abbr>33.33%</abbr>'''
+* [[Avalanche]]  25% / '''<abbr>33.33%</abbr>'''
+* [[Snowstorm Staff]]  25% / '''<abbr>33.33%</abbr>'''
+* [[Soul of Cryogen]]  100%
+* [[Cryo Stone]]  20%
+* [[Frost Flare]]  20%
+* [[Cold Divinity]]  10%
+* [[Greater Healing Potion]] (5-15)  100%
+* [[Cryogen Mask]]  14.29%
+* [[Cryogen Trophy]]  10%
+* [[Cryogen (Lore)]](Always on first kill)  100%
+
+Sounds
+
+Hurt
+
+Killed
+
+Projectiles
+
+'''''Map Icon'''''
+{| class="fandom-table"
+|'''[[Community modifications|Community Content]]'''
+
+This content is community created.
+
+It originates from the: '''Fargo’s Souls DLC (Fargo Souls Mod x Calamity)''' addon.
+|}
+<big>''"The archmagess's prison."''</big> 
+
+'''Cryogen''' (Japanese: 寒剤 ''Kanzai'') is a [[Hardmode]] [[boss]] that can be fought in the [[Snow biome|Snow]] or [[Ice biome|Ice biomes]]. Cryogen possesses many phases that it transitions to as its health decreases, and features a multitude of projectiles and enemies that it uses against the player.
+
+Defeating Cryogen will free the [[The Big Cheese|Big Cheese]], as well as generate Ambrosium in the [[The Aether|Aether]] biome.
+
+== Contents ==
+
+* [[Cryogen#Spawn|1Spawn]]
+* [[Cryogen#Behavior|2Behavior]]
+** [[Cryogen#Attacks|2.1Attacks]]
+*** [[Cryogen#Phase 1|2.1.1Phase 1]]
+*** [[Cryogen#Phase 2|2.1.2Phase 2]]
+*** [[Cryogen#Phase 3|2.1.3Phase 3]]
+*** [[Cryogen#Phase 4|2.1.4Phase 4]]
+*** [[Cryogen#Phase 5|2.1.5Phase 5]]
+** [[Cryogen#In Expert Mode|2.2In Expert Mode]]
+** [[Cryogen#In Revengeance Mode|2.3In Revengeance Mode]]
+** [[Cryogen#In Death Mode|2.4In Death Mode]]
+** [[Cryogen#During the Boss Rush|2.5During the Boss Rush]]
+* [[Cryogen#Summons|3Summons]]
+* [[Cryogen#Aftermath|4Aftermath]]
+* [[Cryogen#Notes|5Notes]]
+* [[Cryogen#Tips|6Tips]]
+* [[Cryogen#Trivia|7Trivia]]
+
+== Spawn ==
+Cryogen does not spawn on its own and requires the player to summon it with a [[Cryo Key]] while in the Snow biome or Ice biome at any time.  Cryogen is additionally able to be summoned by killing 20 [[Primal Aspid|Primal Aspids]].
+
+== Behavior ==
+Cryogen has six phases, each of which has its own attack pattern and AI. It will progress through these phases as it loses health.
+
+Cryogen also spawns with an ice shield which protects it and inflicts contact damage; this shield must be destroyed to directly attack Cryogen and will regenerate 18 / '''<abbr>12</abbr>''' seconds after being destroyed. When destroyed, the shield will explode into a cross-shaped burst of 4 Ice Blasts.
+
+Leaving the Snow biome will cause Cryogen to enrage, almost doubling its speed and acceleration. Entering the Hell biome will triple its speed and acceleration.
+
+=== Attacks ===
+
+==== Phase 1 ====
+
+* Slowly chases and levels with the player.
+* Fires an evenly-spaced ring of 16 Ice Blasts every 2 seconds.
+
+==== Phase 2 ====
+
+* Transitions at 80 / '''<abbr>85%</abbr>''' health.
+* Attempts to fly above the player while continuing to fire bursts of Ice Blasts.
+** The amount of Ice Blasts are reduced from 16 to 12 from this phase onwards.
+* After firing 3 bursts of Ice Blasts, briefly spins in place before charging at the player and firing two concentric rings of ten Ice Blasts before flying up and resuming its pattern.
+
+==== Phase 3 ====
+
+* Transitions at 60% / '''<abbr>70%</abbr>''' health.
+* Slowly chases the player but stays slightly below the player.
+* After firing 3 bursts of Ice Blasts, briefly spins in place before charging at the player and fires three concentric rings of eight Ice Blasts. Cryogen performs this charge twice before resuming its pattern.
+
+==== Phase 4 ====
+
+* Transitions at 40% / '''<abbr>55%</abbr>''' health.
+* Slowly chases the player.
+* Loses the ability to regenerate its shield.
+* Fires Ice Blasts at double the frequency.
+* Every 5 seconds, Cryogen will teleport somewhere near the player and start attacking again.
+** The location it teleports to is surrounded by a cloud of blue dust two seconds prior to telegraph its location.
+
+==== Phase 5 ====
+
+* Transitions at 20% / '''<abbr>40%</abbr>''' health.
+* Stops firing either projectiles for the remainder of the fight.
+* Rapidly and loosely accelerates towards the player, charging at them when it gets close.
+** Its rotation speed will increase when below 5% / '''<abbr>7.5%</abbr>''' and even further when below 2.5% / '''<abbr>5%</abbr>''' / '''<abbr>30%</abbr>''' health.
+
+=== In [[Expert Mode]] ===
+
+* Regenerates its shield every 12 seconds instead of 18.
+* Every 10 seconds, Cryogen releases a cross-shaped burst of 4 Ice Bombs, with a 50% chance for it to be rotated 45 degrees. After these bombs hit tiles or 5 seconds pass, they explode into a hexagonal burst of 6 gravity-affected Ice Shards.
+** This occurs in all of the above phases alongside other attacks.
+** Ice Bombs are smaller and cannot hurt the player or inflict status effects for the first 2 seconds after they're spawned.
+** They also inflict [[Glacial State]] for 1 second, [[Chilled]] for 1.5 seconds, and [[Frostburn]] for 2 seconds on contact.
+
+=== In [[Revengeance Mode]] ===
+
+* Transitions into Phase 2 at 85% health, Phase 3 at 70%, Phase 4 at 55%, and Phase 5 at 40%.
+* Cryogen and its projectiles are slightly faster.
+* Gains a new phase when below '''<abbr>25%</abbr>''' health:
+** Cryogen loses the ability to summon servants.
+** Attempts to hover above the player.
+** The Ice Bomb attack no longer occurs every 10 seconds. Instead, a set of Ice Bombs is spawned every 1.25 seconds while hovering.
+** After spawning 2 sets of ice bombs, it rapidly charges the player 3 times before repeating this pattern.
+** Below '''<abbr>15%</abbr>''' health, its appearance will change one last time and its charges will each fire three concentric rings of Ice Blasts.
+*** The outer and center rings have four Ice Blasts, while the center ring has eight.
+
+=== In [[Death Mode]] ===
+
+* Cryogen and its projectiles are even more aggressive and faster.
+
+=== During the [[Boss Rush]] ===
+
+* Releases more Ice Blasts during the whole fight.
+
+== Summons ==
+Cryogen's Shield
+
+Statistics
+{| class="fandom-table"
+!Type
+|[[Flying Enemy]]
+|-
+![[Environment]]
+|[[Snow biome]]
+|-
+!AI Type
+|Cryogen's Shield AI
+|-
+!Damage
+|50 / '''<abbr>100</abbr>''' / '''<abbr>120</abbr>''' / '''<abbr>134</abbr>''' (Contact)
+46 / '''<abbr>80</abbr>''' / '''<abbr>96</abbr>''' / '''<abbr>108</abbr>''' (Ice Blast)
+|-
+!Max Life
+|1400
+|-
+![[Defense]]
+|0
+|-
+!<abbr>DR</abbr>
+|40%
+|-
+![[Knockback|KB]] Resist
+|10% / '''<abbr>19%</abbr>'''
+|-
+!Inflicts [[debuff]]
+|[[Frostburn]]
+|-
+!Debuff duration
+|1.5 seconds
+|-
+!Debuff tooltip
+|''It's either really hot or really cold. Either way it REALLY hurts''
+|-
+!Inflicts [[debuff]]
+|[[Chilled]]
+|-
+!Debuff duration
+|1 second
+|-
+!Debuff tooltip
+|''Your movement speed has been reduced''
+|-
+!Inflicts [[debuff]]
+|[[Frozen]]
+|-
+!Debuff duration
+|0.5 seconds (Ice Blast)
+|-
+!Debuff tooltip
+|''You can't move!''
+|-
+!Immune to
+|
+|-
+![[Element|Vulnerable to]]:
+|
+|-
+![[Element|Resistant to]]:
+|
+|}
+Sounds
+
+Hurt
+
+Killed
+
+== Aftermath ==
+
+* Once Cryogen is defeated for the first time, Ambrosium spawns in the Aether biome.
+* If at least two [[mechanical bosses]] have been defeated, [[Cryo Slime|Cryo Slimes]] will begin to spawn in the Cavern layer.
+* The [[Archmage]] will begin to arrive if provided suitable housing.
+** If the Archmage isn't in the player's current world, he will drop alongside Cryogen's loot.
+* The [[Angry Dog]] enemy's stats are increased and will start dropping [[Essence of Eleum]].
+
+== Notes ==
+
+* While Cryogen is alive, the sky above the player is filled with a waving rainbow aurora effect. Unlike most screen effects from other bosses, it cannot be toggled off by lighting options in the Settings Menu.
+* Cryogen's projectiles are colored deep blue during the day and white at night.
+* All Ice Shards/Blasts are fired in fixed patterns throughout the fight.
+** In the case of Ice Bombs, two spreads of three Ice Shards are fired when they explode, one in each direction parallel to the direction the Ice Bomb was moving.
+* Cryogen will not fire projectiles if it does not have a direct line of sight to the player, with the exception of Ice Bombs. All of Cryogen's projectiles are also unable to travel through blocks.
+* If Cryogen is close to the player when it enters Phase 5, it will briefly spin in place to give the player time to get away from its dash.
+
+== Tips ==
+
+: ''For more elaborate strategies on defeating Cryogen, including [[weapon]] and arena recommendations, see [[Guide:Cryogen strategies]].''
+
+* It is easier to see Cryogen's projectiles during the night.
+* A wide arena with several levels of platforms can help in dodging Cryogen's attacks.
+** Putting a roof of solid blocks above the platforms can help protect you during Cryogen's second phase.
+** Be careful: Building platforms too far above the ground could cause the player to exit the Snow biome and enrage Cryogen.
+* Moving at a constant speed will cause Cryogen to hover in the same place relative to the player, making it an easy target for ranged weapons.
+** Moving slowly enough will cause Cryogen to hover directly above the player, this makes it very easy to hit, but be wary of its ice bombs and it potentially getting up close.
+* Avoid getting hit by Cryogen's Ice Blasts at all costs as they will [[Frozen|freeze]] the player, possibly leading to a swift death.
+* Cryogen's final phase is one of its most deadly. If on [[Revengeance Mode|Revengeance]] or [[Death Mode]], saving [[Rage]] and/or [[Adrenaline]] to quickly finish it off during this phase could be a life-saving decision.
+* While Cryogen is fought as the first boss in Hardmode, caution is still advised as the fast speed and many projectiles will make this boss tough for an unprepared player.
+* In multiplayer, Cryogen does not despawn when off-screen and moves slowly across the map, allowing players to slowly kill the boss.
+
+== Trivia ==
+
+* Cryogen's [[Music|theme]] is '''Antarctic Reinforcement''', which was composed by the artist DM DOKURO.
+** While in production the theme was originally intended to be called "Frostbite."
+** If the Calamity Music add-on mod is disabled, the [[Frost Moon]]'s theme will play instead.
+* Cryogen was previously an alternative for [[The Destroyer]] because of its previous ability to drop [[Soul of Might|Souls of Might]].
+* Cryogen is often fought at the start of Hardmode, as its summoning item only requires Souls of Light and Night, and Ice Blocks.
+* Originally, every time upon entering phase 6, a status message would say "Cryogen is derping out!".
+** There is now a 1% (5% if the day is April Fools' Day) chance that this message is displayed when entering phase 6.
+* If Cryogen is lured into [[The Underworld]], it will enter an "enranged prime" state that triples stats.
+** However, none of Cryogen's items will drop normally if this is done, nor will ambrosium spawn until it is defeated properly - though, the Big Cheese NPC will still drop out of it.
+* If the Boss Checklist Mod is installed, its unique despawn message will be "Cryogen drifts away, carried on a freezing wind."
+* Cryogen is actually Cryo hypostasis from Genshin Impact.

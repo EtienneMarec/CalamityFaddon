@@ -1,0 +1,37 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Revengeance mode only}}
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Creates a sanguine aura<br/>Click while an enemy is inside the aura to deal damage to it and slow it down<br/>Enhacing it with too much blood would likely create terryfying results...<br/>'The empty vessel, ready to be used'
+| rare = 2
+| sell = {{value|0|2}}
+| stack = 1
+| debuff = Slow
+| debuffchance = 100%
+| debufftip = Movement speed is reduced
+| debuffduration = 2 seconds
+| element1 = Stab
+}}
+
+The '''Drained Catarachedrae''' is a [[Pre-Hardmode]] [[Equipment|covering]] that is obtained by throwing [[Catarachedrae]] into [[Shimmer]]. While equipped, it creates a sanguine aura around the player's cursor, the radius of which is 4 blocks. Clicking will exsanguinate any enemy in the aura, dealing 12 typeless damage to them, which scales with the most powerful class, and inflicting the [[Slow]] debuff for 2 seconds.
+
+Similarly to Catarachedrae, its drained variant has another use — throwing it into [[Sanguine Shimmer]] will absorb the blood, transforming it back to [[Shimmer]] prematurely. Additionally, the player will get the normal variant of Catarachedrae.
+
+==Crafting==
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Notes==
+*Drained Catarachedrae will not be affected by Shimmer.
+*Unlike its normal variant, Catarachedrae, the player can click a lot faster, up to 30 times per second.
+*Drained Catarachedrae is extremely useful for crowd control during [[events]], although it can still deal good single target damage to [[Challenges|bosses]].
+==Trivia==
+*Drained Catarachedrae is used to represent the typeless damage type.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Combat coverings]]

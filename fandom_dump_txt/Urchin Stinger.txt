@@ -1,0 +1,48 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| consumable = true
+| damage = 17
+| damagetype = Spy
+| knockback = 1.5
+| use = 13
+| auto = yes
+| stack = 9999
+| rare = 1
+| sell = {{value|0|0|0|40}}
+| velocity = 12
+| debuff = Venom
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Losing life
+| tooltip = Stealth strikes stick to enemies while releasing sulfuric bubbles
+| proj = Sulphuric Acid Bubble.gif
+| projcaption = Sulphuric Acid Bubble
+| element1 = Water
+| element2 = Poison
+| element3 = Stab
+}}
+|{{item drops infobox
+| [[Sea Urchin]]<br/>[[Aquatic Urchin]]<br/>[[Famine Slime]]| 15-25 |100%
+}}
+}}
+
+'''Urchin Stingers''' are [[Pre-Hardmode]] [[Spy weapon]]s dropped by [[Sea Urchin]]s and [[Aquatic Urchin]]s. It fires an urchin spike which pierces once, and travels a short distance before being affected by gravity. On hit it inflicts the [[Venom]] debuff. They have a 50% chance of being recovered after being thrown.
+
+Performing a [[stealth strike]] with Urchin Stingers will cause the next stinger thrown to stick onto an enemy for 10 seconds. Whilst the stinger is stuck onto an enemy, it occasionally releases bubbles in random directions which float upwards.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Despite resembling a [[tgc:Darts|Dart]], the stingers behave more like knives.
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}

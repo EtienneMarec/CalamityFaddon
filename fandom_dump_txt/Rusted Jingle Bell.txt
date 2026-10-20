@@ -1,0 +1,24 @@
+{{infobox wrapper
+|{{item infobox
+| type = Pet Summon
+| stack = 1
+| tooltip = Summons a baby ghost bell light pet<br/>Provides a moderate amount of light while underwater
+| rare = 3
+| use = 19
+| buff = Baby Ghost Bell (buff)| bufflink = no
+| bufftip = Be careful not to pop the bubble
+| sell = {{value|0|5}}
+}}
+|{{item drops infobox
+| [[Baby Ghost Bell]] when hit with [[Bug Net]] or [[Golden Bug Net]]|1|5%
+}}
+}}
+{{summoned|Baby Ghost Bell (Pet)|type=light pet}}
+
+The '''Rusted Jingle Bell''' is a [[light pet]] summoning item dropped from [[Baby Ghost Bell]]s when hit with a [[Bug Net]] or rarely by [[fishing]] in the [[Sunken Sea]]. It summons a Baby Ghost Bell to follow the player and provide a moderate amount of light while underwater. 
+
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

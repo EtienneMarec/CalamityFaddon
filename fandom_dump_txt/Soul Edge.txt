@@ -1,0 +1,46 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| tooltip = Fires the ghastly souls of long-deceased abyss dwellers
+| damage = 174
+| use = 22
+| damagetype = melee
+| knockback = 5.5
+| auto = yes
+| velocity = 12
+| stack = 1
+| rare = 13
+| sell = {{value|0|26}}
+| hardmode = yes
+| postml = yes
+| debuff = Crush Depth
+| debufftip = Aquatic pressure
+| debuffduration = 5 seconds (Contact)<br/>3 seconds (Large Soul)<br/>2 seconds (Medium Soul)<br/>1 second (Small Soul)
+| debuffchance = 100%
+| proj = Ghastly Souls.gif
+| projcaption = Ghastly Souls
+| element1 = Dark
+| element2 = Water
+}}
+|{{item drops infobox
+| [[Eidolon Wyrm]] (After [[Polterghast]] has been defeated)|1| 33.33%
+| [[Adult Eidolon Wyrm]] |1| 100%
+}}
+}}
+
+The '''Soul Edge''' is a Godseeker Mode [[broadsword]] that drops from [[Eidolon Wyrm]]s after [[Polterghast]] is defeated, as well as from the [[Adult Eidolon Wyrm]]. The Soul Edge's projectiles inflict [[Crush Depth]]. When swinging the blade, 2-3 [[Phantom Spirit]]s will be released and seek out nearby enemies. If no enemies are near they will hover around the player until an enemy gets in range, similar to the [[Exoblade]].
+
+{{modifier|melee}}
+
+== Trivia ==
+
+* The weapon is a reference to the [https://terrariamods.fandom.com/wiki/Exxo_Avalon/Soul_Edge Soul Edge] weapon from the [https://forums.terraria.org/index.php?threads/released-wip-terraria-avalon.378/ Exxo Avalon] mod.
+** Although, most likely a coincidence, it shares the same name as the evil sword from the Soul Calibur series, Soul Edge
+
+[[File:Soul Edge (demo).gif|frame|left|The Phantom Spirits released by the Soul Edge homing in on the player, and then on a [[Super Dummy]].]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

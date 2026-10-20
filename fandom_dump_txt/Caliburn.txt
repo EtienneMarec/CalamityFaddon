@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 5
+| sell = {{value|0|7|20}}
+| damage = 70
+| use = 10
+| knockback = 5.25
+| tooltip = Don't underestimate the power of shortswords
+| auto = yes
+| stack = 1
+| hardmode = yes
+| element1 = Holy
+| element2 = Stab
+}}
+
+The '''Caliburn''' is a craftable [[Hardmode]] [[shortsword]] that autoswings. It emits light with a sparkle effect when swung.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon is a reference to the [https://terrariamods.fandom.com/wiki/SGAmod/Spirits_of_Caliburn Weapons and Bosses of a similar name] from the [https://forums.terraria.org/index.php?threads/sgamod.78876/ SGAmod].
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]
+[[Category:True melee]]

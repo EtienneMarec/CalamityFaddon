@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 95
+| knockback = 7
+| use = 15
+| tooltip = Give your enemies the taste of death!
+| buff = Well Fed
+| buffchance = 100%
+| buffduration = 10 seconds
+| debufftip = Minor improvements to all stats
+| stack = 1
+| auto = yes
+| rare = 14
+| sell = {{value|0|12|0}}
+| hardmode = yes
+| postml = yes
+| element1 = Water
+| element2 = Dark
+}}
+
+'''The Food Chain''' is a Godseeker Mode [[whip]] that drops from [[Colossal Squid|Colossal Squids]]. Striking enemies will apply the Well Fed buff to the player.
+
+Its best modifier is '''Legendary'''.
+
+== Crafting ==
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*A food chain is the name for the web of interactions between predators, prey, and producers in an ecosystem.
+*The Weapon seems to be made out of a chain of raw squid rings, which are a type of food.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}
+[[Category:Whips]]

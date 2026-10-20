@@ -1,0 +1,128 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Armor
+| defense = 35 (All)
+| rare = 7
+| sell = {{value|0|15}} (set)<br/> {{value|0|30}} (every item)
+| hardmode = yes
+| debuff = Electrified
+| debuffduration = 6 seconds
+| debuffchance = 100%
+| debufftip = Moving hurts!
+| setbonus = Being hurt summons lightnings on your enemies<br/><br/>'''{{item|Prototype Siberian Helm|Siberian Helm|link=|size=20px}}''': Press {{key|Armor Set Bonus}} to cause the wand in your hands to circle around you<br/>Each circling wand slightly decreases your defense and life regen<br/>Wands return to you after 20 seconds<br/><br/>'''{{item|Prototype Turret Helm|Turret Helm|link=|size=20px}}''': Magic guns release bubbles<br/>Bubbles will shot any type of ranger ammo<br/>Ammo deals magic damage<br/>Magic weapons use 2 more mana<br/><br/>'''{{item|Prototype Knight Helm|Knight Helm|link=|size=20px}}''': Press {{key|Armor Set Bonus}} to become a speedy wheel with bad vertical movement<br/>Hold down {{key|Armor Set Bonus}} on ground to charge up a strong jump<br/><br/>'''{{item|Prototype Headphoned Helm|Headphoned Helm|link=|size=20px}}''': Press {{key|Armor Set Bonus}} to graze a projectile near you<br/>Grazing projectiles will increase your offensive stats and slow down enemies
+}}
+
+'''Prototype armor''' is a craftable [[Hardmode]] mage [[Equipment|covering]] set.
+
+It consists of the '''Prototype Dress''' and '''Prototype Springs''', as well as 4 different headpieces variants: '''Prototype Siberian Helm''', '''Prototype Turret Helm''', '''Prototype Knight Helm''', and '''Prototype Headphoned Helm''', geared towards increasing the damage of specific mage weapon types.
+
+==Stats==
+The full set grants the following stats and bonuses (this includes the set bonus): 
+*+24 [[defense]]
+*+20% magic damage
+*+20% magic critical strike chance
+*+8% movement speed
+*+12% jump speed
+*Jump height is increased by 4 blocks.
+*+40 max mana
+*10% of yours maximum mana is restored every second.
+*Getting hit will cause a lightning to strike down onto your enemies, dealing 200% of the damage you've been hit for and inflicting the [[Electrified]] [[Debuffs|debuff]] for 6 seconds.
+
+*'''With {{item|Prototype Siberian Helm|Siberian Helm|link=|size=20px}}:'''
+**+11 defense (35 total)
+**+15% multiplicative damage (for [[wands]] only)
+**+6% magic critical strike chance (26% total)
+**Pressing {{key|Armor Set Bonus}} will cause the hold wand to circle around you.
+***Wands that circle around the player will always face the cursor, fire in its direction whenever the player attacks. However, those wands deal only half of its original damage, cost 50% more mana to use and will decrease the player's defense by 2 and life regen by 3 (-1.5 HP/s) for each one present. There can be only 6 wands present at the same time and wands will come back to the player after approximately 20 seconds have passed.
+
+*'''With {{item|Prototype Turret Helm|Turret Helm|link=|size=20px}}:'''
+**+11 defense (35 total)
+**+15% multiplicative damage (for [[magic guns]] only)
+**+6% magic critical strike chance (26% total)
+** Magic guns will release 5-6 small bubbles, similarly to [[Xenopopper]].
+***If there is any type of [[Ammunition|ammo]] (except gel) present in the player's inventory, bubbles will release it with a 90% chance to conversate it. Otherwise, the bubbles will quickly home onto the closest enemy, bursting after 3 seconds and dealing 20% of the weapon's damage.
+**All ammo deals magic damage.
+**All magic weapons use 2 more mana.
+
+*'''With {{item|Prototype Knight Helm|Knight Helm|link=|size=20px}}:'''
+**+11 defense (35 total)
+**+20% multiplicative damage (for other magic weapons only, like [[Hadal Urn]])
+**+6% magic critical strike chance (26% total)
+**Pressing {{key|Armor Set Bonus}} will transform the player into a wheel for 2 seconds.
+***While being a wheel, the player's movement speed is increased by 70%, acceleration and deceleration are increased by 50%, and dash cooldown is decreased by 50%. However, the player's attack speed is decreased by 20%, jump height is decreased by 6 blocks, jump speed is decreased by 8% and the ability to fly, use mounts or hooks is disabled. This ability has a 1 second cooldown after the player turns back into themselves.
+** Holding down {{key|Armor Set Bonus}} for 1 second will cause the player to almost completely stop and start to charge up a strong jump for up to 2 seconds.
+***The distance covered up by the jump is increased linearly, by 100% every second starting from 200% and up to 400%, or quadruple the distance covered up by the player's base jump. This ability doesn't have a cooldown, but cannot be used in the air.
+
+*'''With {{item|Prototype Headphoned Helm|Headphoned Helm|link=|size=20px}}:'''
+**+11 defense (35 total)
+**+15% multiplicative damage (for [[magic guns]] only)
+**+6% magic critical strike chance (26% total)
+**A small dust circle with a radius of 3 blocks is created around the player.
+**Pressing {{key|Armor Set Bonus}} while a projectile is inside the circle will graze it, granting the player +4% magic damage and +2% critical strike chance, up to +20% and +10% each. Additionally, every hostile NPC will slightly slow down each time a projectile is grazed, up to 80% of its original speed. This ability has a 2 second cooldown and a stack will deplete after 5 seconds.
+
+==Set==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Prototype Dress
+| type = Armor
+| defense = 16
+| body slot = Shirt
+| tooltip = 12% increased magic damage and critical strike chance<br/>10% of your max mana restored every second<br/>+40 max mana
+| sell = {{value|0|5}}
+}}
+|{{item infobox
+| name = Prototype Springs
+| type = Armor
+| defense = 8
+| body slot = Pants
+| tooltip = 8% increased movement speed<br/>12% increased jump speed<br/>4 increased jump height<br/>The weaver can auto-jump<br/>Bouncy!
+| sell = {{value|0|5}}
+}}
+|{{item infobox
+| name = Prototype Headphoned Helm
+| type = Armor
+| defense = 11
+| body slot = Helmet
+| tooltip = 6% increased magic critical strike chance<br/>1.15x increased damage of spell tomes
+| sell = {{value|0|5}}
+}}
+|{{item infobox
+| name = Prototype Knight Helm
+| type = Armor
+| defense = 11
+| body slot = Helmet
+| tooltip = 6% increased magic critical strike chance<br/>1.2x increased damage of all unique magic weapons<br/>Those include Belching Saxophone, Hadal Urn and alike
+| sell = {{value|0|5}}
+}}
+|{{item infobox
+| name = Prototype Siberian Helm
+| type = Armor
+| defense = 11
+| body slot = Helmet
+| tooltip = 6% increased magic critical strike chance<br/>1.15x increased damage of wands
+| sell = {{value|0|5}}
+}}
+|{{item infobox
+| name = Prototype Turret Helm
+| type = Armor
+| defense = 11
+| body slot = Helmet
+| tooltip = 6% increased magic critical strike chance<br/>1.15x increased damage of magic guns
+| sell = {{value|0|5}}
+}}
+}}
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result=LIKE Prototype%}}
+
+==Notes==
+*The extra mana effect from knight helm's set bonus is not affected by decreased mana cost and will always be applied after it.
+
+==Trivia==
+*The helmet sprites use slightly changed versions of [[Suspicious Scrap]] sprite.
+
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

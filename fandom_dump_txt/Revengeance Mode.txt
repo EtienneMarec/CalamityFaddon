@@ -1,0 +1,404 @@
+{{distinguish|Revengeance|the item that activates this gamemode}}
+{{float file box
+| [[File:Revengeance Icon.png]]<hr/>[[File:Revengeance Indicator.png]]
+| The Revengeance Mode icon as seen in the Difficulty Indicator UI.
+| width = 210px
+}}
+<big>''"Do you enjoy going through hell?"''</big>
+
+'''Revengeance Mode''' is a new gamemode introduced in the Calamity Mod, serving as an increased difficulty level to [[Expert Mode]]. It is activated by using the [[Revengeance]] item, which is added to a newly spawned player's inventory in an Expert Mode world. The item can also be crafted at any [[Altar]] and does not have any ingredients. Attempting to activate it in a Normal Mode world has no effect, and using the item during a boss battle will do nothing, with the message "You cannot change the rules right now." The transition to Revengeance Mode is reversible by using the Revengeance item again. It is further succeeded in difficulty by [[Death Mode]].
+
+While active, the Revengeance Mode icon will be shown on the Difficulty Indicator.
+{{toc limit|3}}
+
+== General Changes ==
+*Adds two new mechanics into the game, [[Rage Meter]] and [[Adrenaline Meter]].
+*All enemies drop 50% more money.
+*Enemy spawn rates are boosted by 17.65%.
+*Life regen scales from 50% effectiveness at full HP to 100% effectiveness at 1 HP.
+*[[Immunity frames]] are capped at 2 seconds.
+*Allows usage of [[Death]].
+*[[Titanium armor|Titanium armor's]] Shadow Dodge set bonus lasts 6 seconds instead of 30.
+
+== Enemy AI Changes ==
+*Many vanilla enemies are made immune to certain forms of [[lifesteal]].
+*[[Mimic]]s, [[Present Mimic]]s, [[tgc:Reaper|Reaper]]s, [[Sand Elemental]]s, and [[Wraith]]s are immune to knockback.
+*In Hardmode, projectiles fired by [[Goblin Sorcerer]]s, [[Goblin Summoner]]s, [[Shadowflame Apparation]]s, and [[Tim]] inflict [[Shadowflame]].
+*[[Ice Golem]]s move and shoot faster as they lose health.
+*[[Crimson Axe]]s, [[Cursed Hammer]]s, and [[Enchanted Sword (NPC)|Enchanted Swords]] attack the player without interruption, even when hit, when their HP is below 50%.
+*[[Black Recluse]]s, [[Clinger]]s, [[Gastropod]]s, [[Giant Tortoise]]s, [[Ice Tortoise]]s, [[Plagueshell|Plagueshells]], and [[Sand Tortoise|Sand Tortoises]] attack the player without interruption, even when hit, when their HP is below 25%.
+*[[Paladin]]s attack the player without interruption, even when hit, when their HP is below 15%.
+*[[Mother Slime]]s spawn more [[Baby Slime]]s when killed.
+*[[Dungeon Guardian]]s shoot homing skulls, which deal about 10x the damage of the Dungeon Guardian itself.
+*[[Mothron]]s are larger.
+
+== Boss AI Changes ==
+This is a list of all boss fight changes caused by Revengeance Mode. The names of vanilla bosses are ''italicized''.
+
+=== Pre-Hardmode ===
+==== ''[[King Slime]]'' ====
+Teleports more frequently and takes less time to teleport. Contact damage increased by 25%. Moves and jumps faster. Moves faster and jumps higher depending on how high the player is. Spawns all kinds of [[slimes]] when damaged. Summons an invincible [[Crown Jewel (enemy)|Crown Jewel]] under 50% life, which hover above the player and fires Ruby Bolts, Ruby Bolt damage is 55% of King Slime contact damage.
+
+==== [[Desert Scourge]] ====
+HP increased to 4,800.
+
+Spawns with two smaller Desert Scourges, but only the main worm needs to be defeated to count as a boss defeat. Can perform the burrowing attack from the start of the fight. Occasionally shoots sand blasts at the player.
+
+==== ''[[Eye of Cthulhu]]'' ====
+HP increased to 4,732.
+
+Charges more often in phase 1. Enters phase 2 at 75% HP. Charges more quickly and more randomly in phase 2. Contact damage increased to 40 in phase 1, and to 48 in Phase 2. Gains much more contact damage in the end of phase 2. Servants of Cthulhu no longer drop hearts. Has 4 sub-phases during phase 2 to which it changes at 65%, 55%, and 40% HP respectively. During sub-phase 1 it does 3 normal dashes. During sub-phase 2 it does 3 normal dashes and then 2-4 rapid chain dashes. During sub-phase 3 it does 5 rapid chain dashes. During sub-phase 4 it does 4-6 rapid chain dashes and then a long lined up horizontal dash which vomits Servants of Cthulhu.
+
+==== [[Crabulon]] ====
+HP increased to 6,400.
+
+Moves and jumps faster. [[Crab Shroom]]s drift quicker and fall faster. Summons a horizontal wall of evenly-spaced mushrooms above itself that fall downwards after the third jump in its jump cycle. When below 66% HP, changes its jump and Crab Shroom wall pattern, and Crab Shroom walls are slightly tilted.
+
+==== ''[[Eater of Worlds]]'' ====
+Segment HP increased to 273. Total HP increased to 21,567.
+
+Segment count increased to 79. No longer spawns coiled up. Head segments can retain the velocity of the head or body segment that was just killed. Vile Spits are no longer always shot, and instead begin firing when there are 71 segments remaining. Head segments begin firing [[Cursed Flame]]s when there are 59 segments remaining. Slightly more defensive to piercing damage. Head segments deal 23% more contact damage, whereas other segments do 25% more. Moves faster and fires Cursed Flames and Vile Spits far more often the less segments that are alive. Now enrages when leaving the Corruption instead of fleeing, causing it to continuously fly towards the player more aggressively. Less aggressive when in the Underground Corruption.
+
+==== ''[[Brain of Cthulhu]]'' ====
+HP increased to 2,720. [[Creeper]] HP increased to 220. Total HP increased to 8,220.
+
+Summons 25 Creepers. The Brain has 22% more contact damage and Creepers have 25% more. The Brain has a small amount of pierce resistance. When 6 or fewer Creepers are remaining, they become immune to knockback. The Brain moves faster and teleports more often as its Creepers die in phase 1, and has increased knockback resistance in phase 2. When the Brain reaches 70% HP, it will occasionally fly quickly in a large loop and then dashing straight towards the player before teleports. Circling dashes occur before every teleport when below 50% HP. Minimap icon disappears when below 20% HP. Now enrages when leaving the Crimson instead of fleeing, causing the Brain and its Creepers to move much faster. Now less aggressive when in the Underground Crimson.
+
+==== [[The Hive Mind]] ====
+Total HP increased to 14,976.
+
+Moves much faster in phase 2 and takes less time to teleport, but can no longer summon enemies when reeling back. Circling lunges can be used from the start of phase 2 and occur after every teleport. When below 66% health, every other circling lunge is replaced with a new attack, where the Hive Mind appears below the player and flies in a semicircle, spawning several enemies as it moves - The Hive Mind can summon Dark Hearts among these enemies. When below 33% health, either attack has a chance to be replaced with an attack where the Hive Mind appears above the player and then dashes horizontally, creating many short-lived shade clouds in its wake. The same attack is never performed twice in a row.
+
+==== [[The Perforators]] ====
+Total HP increased to 21,126.
+
+The Perforator Hive shoots more projectiles and hovers at the player's height in an attempt to ram them. The Hive will not ram if a Perforator is alive, but will gain slightly increased acceleration. The Perforators have more segments, shoot projectiles more often and the projectiles travel faster.
+
+==== ''[[Queen Bee]]'' ====
+HP increased to 5,712.
+
+Spawns [[Bee]]s much faster and also sometimes spawns Large Bees. Shoots stingers much faster but no longer shoots them in a cone of spread while stationary, instead traveling linearly towards the player and shooting directly at them. Enrages while on the Surface; shoots stingers rapidly and charges much faster.
+
+==== ''[[Skeletron]]'' ====
+Head HP decreased to 6,600. Hand HP decreased to 1,404.
+
+Hands attack more often and more aggressively. Head defense is increased by 250 per hand, and homing projectiles and summons cannot home in on the head while any hands are alive. Homing skulls inflict [[Weak]]. Slowly gains more speed while spinning. Head has 25% more contact damage. After both hands are killed, Skeletron occasionally teleports, firing a spread of 3 bolts from the location the head teleports to. Increased attack frequency as health lowers. Respawns both hands at 33% of Head HP. Skeletron Head spins and teleports at a slower pace while hands are revived.
+
+==== [[The Slime God]] ====
+Total HP increased to 23,360. 
+
+The Ebonian and Crimulan Slime Gods shoot orbs more often. The Slime God Core moves faster. When the Core enters phase 2, it will teleport near the player every 6 seconds and circle while firing abyss orbs towards them.
+
+==== ''[[Wall of Flesh]]'' ====
+HP increased to 21,280.
+
+Moves faster. Laser bursts are capped at 3 shots, and deal more damage. When it reaches 50% HP it starts using even stronger red Death Lasers. [[The Hungry|Hungry II]] health increased to 117 and [[Leech]] health increased to 100. Both deal slightly more damage. Shoots out a demon scythe when it releasing a [[Leech]]. Charges rapidly towards the player if they move too far away or if neither eye has line of sight with them for a few seconds, afterwards firing a barrage of lasers for 6 seconds from both eyes that can pass through tiles, aim ahead of the player, and start off slow before accelerating.
+
+=== Hardmode ===
+
+==== [[Queen Slime]] ====
+HP increased to 51,840 (66,096 in Master Mode).
+
+Jump speed and height increased. Gains jump height the higher up the player is. Jump speed increases as life decreases, as well as the longer she jumps in one direction. Can't use the same attack two times in a row in phase 1. In phase 1, Regal Gels are fired in rings of 12 and have increased velocity. In phase 2, Regal Gels are fired in downward semi-circles and are no longer affected by gravity. Flying speed in phase 2 increased, and attempts to fly further above the player. Attack speed in phase 2 increases as life decreases. Below 30% life, alternates between firing streams of crystals to the side while slamming down and firing an upward semi-circle of crystals after landing. Performs both of these extra attacks each slam below 15% life.
+
+==== [[Cryogen]] ====
+HP increased to 44,184.
+
+Faster projectile speed. Enters phase 6 at 25% HP. Transitions faster and gains a new phase under 10% HP. Unlike other phases, it doesn't change its appearance. In the new phase, Cryogen hovers above the player. The ice bombs are no longer fired out every 10 seconds, but 2 waves are released during this attack, then it rapidly charges the player 3 times before repeating the pattern.
+
+==== ''[[The Destroyer]]'' ====
+HP increased to 400,000.
+
+Can fly like a [[Wyvern]] and has 110% damage reduction for 10 seconds after spawning. Body segments are larger, and gain a defense boost which increases as its health gets lower, up to a maximum of 10. Lasers move slowly when initially shot then accelerate. Speed of the Destroyer and the lasers fired increase as health lowers. Lasers are no longer fired in a random spread, and are instead fired in a stream starting from the head and ending at the tail. The fire rate of the lasers staggers the more time passes. Red lasers inflict [[Electrified]] for 4 seconds. When below 85% HP, it can additionally fire green lasers which inflict [[Shadowflame]] for 2 seconds. When below 70% HP, it can fire blue lasers which inflict [[On Fire!]] for 1 second. Probe-less parts have 10 less defense. Probes no longer drop hearts, instead they drop [[Unsafe Eutrophic Sand Wall|Unsafe Eutrophic Sand Walls]]. The Destroyer gains increased aggression the lower its health, eventually being able to charge similarly to a Wyvern below 50% health. Its segments containing probes change to a purple color during this phase. The Destroyer switches to its Wyvern phase more often as its health lowers. When below 25% HP, it gains the ability to harvest town NPCs.
+
+The Destroyer enrages during the day. It moves faster and more aggressively, only fires blue lasers which accelerate faster, and its body segments take reduced damage, leaving only the head and tail vulnerable.
+
+==== [[Aquatic Scourge]] ====
+HP increased to 147,200.
+
+Every 11 seconds, the Aquatic Scourge performs a circle around a certain point at its path for 2 seconds before charging the player. While spinning, it fires three barrages of three sand blasts at the player. The Aquatic Scourge moves faster and vomited sand blasts and teeth travel at a greater velocity.
+
+==== ''[[The Twins]]'' ====
+Spazmatism HP increased to 46,575, Retinazer HP increased to 39,000. Total HP increased to 85,575.
+
+Both Twins enter phase 2 at 70% health. Contact damage increased by 25% and Cursed Flames damage increased by 25%. Both Twins must be in phase 2 at the same time otherwise the other Twin will take almost no damage.
+
+Retinazer shoots lasers faster and lasers are more accurate in phase 1. Laser damage increased by 16%. Retinazer's Death Laser does 20% more damage and its Rapid Fire Laser deals 30% more damage. Enters phase 3 at 25% HP, or if Spazmatism is defeated first. In phase 3 it gains the ability to perform 2 long dashes after its normal laser attacks. Retinazer's first dash will release several homing darts that inflict 124 damage. If Spazmatism is defeated first, its laser attacks become much faster and it will dash 4 times, releasing homing darts on the first and last dashes.
+
+Spazmatism shoots Cursed Flames faster in phase 1. Spazmatism breathes Shadowflame Breath instead of Cursed Flames in phase 2, which inflicts the [[Shadowflame]] [[debuff]], and has 16% more damage than the Cursed Flames. Enters phase 3 at 25% HP, or if Retinazer is defeated first. In phase 3 Spazmatism performs the flamethrower attack for less time, stops to hover below the player and fire semi-homing Shadowflame Fireballs, then charges four times. If Retinazer is defeated first, the flamethrower attack no longer occurs, and Spazmatism performs five charges, with the last one traveling farther than the others. When dashing, contact damage is increased by 10%. 
+
+The Twins enrage during the day, where they move more aggressively, charge further, fire projectiles faster, and projectiles move faster. Spazmatism's flamethrower has a longer range in this state.
+
+==== [[Brimstone Elemental]] ====
+HP increased to 65,600 (328,000 post-[[Providence]]).
+
+Summons a [[Brimling]] after each teleport in phase 1, which shoots brimstone hellfireballs at the player. A maximum of 2 can exist at once. Movement speed during Phase 1 is increased. When below 50% HP, she will only teleport once during Phase 1 and gains a new phase where she fires a laser from her eye. The ray is telegraphed by a line. The ray doesn't aim at where the player is, rather where they will be by the time the ray fires. The whole ray appears instantly upon being fired but does not move after being fired, and it remains for 1 second. It then releases two rows of Brimstone Darts perpendicular to it, which move slowly before accelerating. This will repeat one more time. She slows to a stop upon firing the first ray.
+
+==== ''[[Skeletron Prime]]'' ====
+HP increased to 50,400 (80,625 including limbs).
+
+The Head gains 8 defense per limb alive. Speed while spinning is increased, also increases as it loses more health. Head does not perform the spin attack while any limbs are alive. Prime Laser no longer shoots in a cone of spread; it alternates between firing single lasers and laser circles. Prime Cannon fires rockets instead of bombs; it alternates between firing single rockets and three rockets at once. Prime Laser and Prime Cannon alternate attacks. Prime Saw and Prime Vice are more aggressive. As limbs are killed, the remaining limbs gain increased speed and fire rate. When Prime Laser is killed, the Head begins to fire laser circles. When Prime Cannon is killed, the Head begins to fire rockets. When all limbs are killed, it spins in circles near the player before every spin attack after the first, shooting Cursed Skulls. When the Head reaches 66% health, all limbs still alive are instantly destroyed, and the head itself is able to fire circles of lasers while spinning. When the Head reaches 33% health, every other spin attack is replaced with a barrage of homing Martian Missiles, the Cursed Skull attack only occurs before Martian Missile attacks, and the spin attack duration is reduced by 2 seconds. Upon enraging when it turns to [[day]], the head will heal to 300 life if is currently below that, and it fires Cursed Skulls similarly to the Dungeon Guardian.
+
+==== [[Calamitas]] ====
+Total HP increased to 72,000 (144,000 post-[[Providence]]).
+
+Fires hellfireballs and lasers quicker. Calamitas and the brothers attack and shoot more aggressively. When Calamitas is below 70% HP, she charges at the player twice following her fireball and laser attacks while no brothers are alive. Charges are slightly predictive.
+
+==== ''[[Plantera]]'' ====
+HP increased to 126,000.
+
+Fires seeds that deal 25% more damage and are significantly faster in phase 1. Deals 15% more contact damage during phase 2. Regains the ability to shoot Thorns Balls when under 25% HP, only 3 can exist at one time. Summons tentacles at periodic amounts of health, with larger bursts of tentacles spawned at 75%, 50%, and 20% HP. The tentacles deal more damage. The more tentacles that are alive, the higher her defense is. Fires seeds, moves faster to catch up to the player and belches lingering spore clouds that spread out over time when all tentacles are dead. Hook and projectiles spread decrease as health decreases. She spawns multiple bees during the fight, and spawns a huge amount during phase 2. Hooks no longer spawn tentacles. Becomes more aggressive the less active tiles there are around her. If enraged during the day, she will regain health over time. If enraged during the night, she gains a massive defense boost. Plantera must be fought underground when its enraged as it just gains any damage dealt back.
+
+==== [[Leviathan and Anahita]] ====
+Anahita HP increased to 66,560, Leviathan HP increased to 116,096 (182,656 total).
+
+The Leviathan shoots faster. 
+
+==== [[Astrum Aureus]] ====
+HP increased to 171,200 (468,000 Godseeker Mode).
+
+Uses all attacks regardless of health; it only shoots one wave of astral flame crystals above 50% HP. Astrum Aureus spawns [[Aureus Spawn]]s after astral flame crystal attacks, they are initially passive, but will become homing bombs if enough damage is dealt to them. A maximum of 2 can exist at once. In Godseeker Mode, its health and projectile damage are buffed.
+
+==== ''[[Golem]]'' ====
+Head HP increased to 36,000. Body HP increased to 54,000. Total HP increased to 111,000.
+
+Shoots eye lasers and fireballs faster. Head is invulnerable until fists are destroyed, and can shoot eye lasers at all times when vulnerable. All parts deal 25% more damage. The head, body, and fists inflict the [[Broken Armor]] debuff for 3 seconds. The body fires bursts of lasers in phase 2. The head is now vulnerable in phase 2 with 28,050 HP, changes its movement pattern and starts firing explosive fireballs when the body is under 44% HP. The freed head cannot inflict contact damage. When the head is dead, the body will jump more aggressively and higher and releases 3 fireballs from each of its sides upon hitting the ground.
+
+==== [[The Plaguebringer Goliath]] ====
+HP increased to 170,400.
+
+Moves faster, can perform diagonal dashes below 80% HP, missiles travel faster and spawns more projectiles. Can spawn more [[Plague Charger]]s at once.
+
+==== ''[[Duke Fishron]]'' ====
+HP increased to 117,000.
+
+Becomes invulnerable while transitioning between phases. Transitions to phase 2 at 70% HP and phase 3 at 40% HP. Contact in all phases and almost all attacks damage increased by 25%, Sharknado damage increased by 50%, and Cthulhunado's damage increased by 12.5%. Vastly increased defense. Significantly faster charges. Spawns 3 Sharknadoes in phase 1, in a different pattern. [[Sharkron]] health increased to 750. Spawns a bunch of Sharkrons as well as bubbles when spinning in Phase 2. Size of Cthulhunado and its Sharkrons increased. Spawns Cthulhunados during Phase 3, about every 10 seconds. Below 20% health, gains a new dash pattern, charging 3 times, teleporting, and then 4 times before repeating the cycle, and stops spawning Cthulhunados. Can cycle through the normal attack pattern while enraged, instead of only charging. While enraged, the delay between charges is much shorter, the bubble attack in phase 1 lasts much shorter, and the phase 2 spin attack spawns much more bubbles and Sharkrons.
+
+==== [[Ravager]] ====
+Total HP increased to 206,805 (1,034,025 post-Providence).
+
+Drill missiles track the player more accurately and much faster. Fires more projectiles. Jumps more often, and Flame Pillars shoot projectiles faster.
+
+==== [[Empress of Light]] ====
+Total HP increased to 176,400 (224,190 in Master Mode).
+
+Now uses attacks in semi-random order instead of a fixed pattern. Attacks no longer instantly kill the player during the daytime, instead transitioning to her [[Malice Mode]] attack pattern. Acceleration increased, and tries to stay further away from the player. Deals no contact damage unless dashing. Dashes travel much further and also spawn Prismatic Bolts. Everlasting Rainbows are fired in ovals instead of circles in phase 2. Waves of Ethereal Lances can be either the spaced walls in Normal Mode or the converging walls in Expert Mode. Both waves of laces are more densely packed.
+
+==== ''[[Lunatic Cultist]]'' ====
+HP increased to 80,000.
+
+Lunatic Cultist, its clones, and Ancient Dooms deal no contact damage. Time window to defeat the illusions decreases as the Cultist's health decreases. Homing weapons ignore Lunatic Cultist while it is performing the ritual. Clones no longer disappear. Any projectile that tracks the player can make sharper turns, and are faster. While the Lunatic Cultist is alive, the player takes 15% more damage from all sources. Lightning is slightly predictive and inflicts the [[Electrified]] debuff for 3 seconds. Ice Mists home in towards the player, and inflict the [[Frozen]] debuff for 2 seconds and the [[Chilled]] debuff for 3 seconds. When below 70% HP, fires 2 Ice Mists at once. Ancient Light attack can always be used. Ancient Lights are much faster, are indestructible, and inflict the [[Holy Flames]] debuff for 3 seconds. When below 55% HP, three bursts of Ancient Lights are fired instead of two. Ancient Doom projectiles and Shadow Fireballs inflict the [[Shadowflame]] debuff for 2 seconds. Ancient Doom attack can always be used. Ancient Dooms fire 8 projectiles in the cardinal and ordinal directions which are faster. When below 55% HP, Ancient Dooms will circle the player before exploding into 4 projectiles in the cardinal directions.
+
+==== [[Astrum Deus]] ====
+Total HP increased to 1,152,000.
+
+Increased movement speed. Inflicts [[Extreme Gravity]] for the entire fight.
+
+==== ''[[Moon Lord]]'' ====
+Total HP increased to 336,000. Hands HP increased to 45,000 each (90,000 both), Head HP increased to 81,000, Core HP increased to 165,000.
+
+Speed increased, except when the head eye is open. All of Moon Lord's attacks inflict [[Nightwither]]. Teleports more frequently based on distance from the player. The Phantasmal Deathray sweeps faster in the first phase, and passes through tiles between it and the player in the second phase. The eyes inside Moon Lord aren't destroyed when defeated, but they instead spawn a [[True Eye of Cthulhu]] and continue attacking. After defeating an eye, its attacks will spawn less projectiles that move slower. True Eyes of Cthulhu stick closer to each other and their attacks are synced. True Eyes of Cthulhu no longer use their deathray attack. Phantasmal Sphere attacks are slightly more spread out and initially move slowly, accelerating over time. Phantasmal Eyes home on the player for a while and don't travel downwards all the time. While the Moon Lord's Core is revealed, the player takes 10% more damage from all sources. Clots heal for 1250 HP instead of 1000.
+
+=== Godseeker Mode ===
+==== [[Profaned Guardians]] ====
+Total HP increased to 224,250.
+
+The main Guardian is faster, and it deals much more damage after the other two have been killed.
+
+==== [[The Dragonfolly]] ====
+HP increased to 303,000.
+
+Enters phase 2 at 75% HP and phase 3 at 25% HP.
+
+==== [[Providence, the Profaned Goddess]] ====
+HP increased to 600,000.
+
+The Healer Guardian heals every 1.5 seconds. During her Holy Ray phase, she fires two Holy Rays instead of one, which converge inward towards each other, leaving a small gap in between. Providence's movement and firing methods during the Blast, Molten, and Bomb phases are modified. Providence continuously increases in speed when flying in the same direction, up to a maximum of roughly double speed, but will go back to normal speed when she changes direction.
+
+==== [[Storm Weaver]] ====
+Moves faster. Lightning inflicts the [[Electrified]] debuff for 3 seconds. During Phase 2, it can charge directly at the player after a telegraph where it changes to a blue color, additionally summoning lightning from above.
+
+==== [[Ceaseless Void]] ====
+HP increased to 123,648.
+
+[[Dark Energy]] swarms are increased in numbers and are more aggressive. At 50% HP more Dark Energies are spawned; however, they are invincible and rotate around the point they were spawned. During the laser portal attack, the Ceaseless Void additionally summons a set of four invincible Dark Energy projectiles, which orbit around the spot they're spawned from, the size of the orbit varies between each of the projectiles, and they will disappear shortly after being spawned. If below 50% HP or enraged, the attack is replaced by an even ring of 12 invincible Dark Energy projectiles.
+
+==== [[Signus, Envoy of the Devourer]] ====
+HP increased to 570,240.
+
+Performs 2 attacks per phase. Moves faster and shoots projectiles more often. Being close to Signus will cause the screen to get darker. After teleporting, Signus summons two Cosmic Mines, which chase the player and blow up if the player is close to them after a short period of time.
+
+==== [[Polterghast]] ====
+HP increased to 672,000.
+
+Moves faster in all phases, spawns more [[Phantom Spirit]]s, has more damage reduction, and enters phase 3 at 50% HP. [[Phantom]]s shoot more often. Spawns [[Happy Phantom Spirit]]s at 33% HP, and moves much faster at 10% HP.
+
+==== [[The Old Duke]] ====
+HP increased to 792,000.
+
+Enters phase 2 at 70% HP and phase 3 at 35% HP. Switches between its attacks faster and has increased movement speed. Charges are faster in velocity and occur more frequently.
+
+==== [[The Devourer of Gods]] ====
+Total HP increased to 1,706,400.
+
+In Phase 1, spawns a [[Cosmic Guardian]] after reaching 90% HP and two more after reaching 68% HP. The Cosmic Guardians can't hurt the player and the player can't hurt it for 3 seconds. Increased godslayer fireball fire rate in phase 2, the fire rate is dramatically increased again at 10% HP. If the player strays too far away from it, it will create a portal near the player before teleporting there and charging at them.
+
+==== [[Jungle Dragon, Yharon]] ====
+HP increased to 2,074,800.
+
+Teleports and charges closer to the player. Yharon's enrage is reduced to 555 blocks high from the spawning position and the Arena Infernadoes spawn 125 blocks away from the spawn position. Enters subphases 2 and 5 at 80% HP, and subphases 3 and 6 at 50% HP. Gains a new 7th subphase, which it enters at 20% HP. In this subphase, Yharon teleports, performs two fast charges, then teleports and performs a bullet hell attack before repeating the cycle.
+
+==== [[Supreme Calamitas]] ====
+HP increased to 1,840,000.
+
+Massively increased speed and moves more aggressively. Spawns 4 Brimstone Monsters during bullet hell 4.
+
+==== [[Godseeker, Yharim]] ====
+HP increased to 3,000,000.
+
+Massively increased speed and damage reduction, gains a second firearm on top of the previously added Expert firearm.
+
+== Unique Items ==
+=== Consumables ===
+{| class="terraria lined"
+! colspan="4" | [[Rage Mode]] Upgrades
+|-
+! style="padding: 5px" width = "10%" | Item
+! style="padding: 5px" width = "20%" | Obtained from
+! width = "60%" | Effect
+|-
+| {{item|Mushroom Plasma Root}}
+| {{item|Crabulon|size=100px}}
+| Permanently increases the [[Rage Mode]] duration by one second.<br/>Exclusive to [[Revengeance Mode]] and [[Death Mode]].
+|-
+| {{item|Infernal Blood}}
+| {{item|Ravager|size=150px}}
+| Permanently increases the [[Rage Mode]] duration by one second.<br/>Exclusive to [[Revengeance Mode]] and [[Death Mode]].
+|-
+| {{item|Red Lightning Container}}
+| {{item|The Dragonfolly|size=75px}}
+| Permanently increases the [[Rage Mode]] duration by one second.<br/>Exclusive to [[Revengeance Mode]] and [[Death Mode]].
+|-
+| {{item|Rage of the Cosmos}}
+| {{recipes/extract|result=Rage of the Cosmos}}
+| Permanently increases the [[Rage Mode]] duration by three seconds.<br/>Exclusive to [[Revengeance Mode]] and [[Death Mode]].
+|-
+! colspan="4" | [[Adrenaline Mode]] Upgrades
+|-
+! style="padding: 5px" width = "10%" | Item
+! style="padding: 5px" width = "20%" | Obtained from
+! width = "60%" | Effect
+|-
+| {{item|Electrolyte Gel Pack}}
+| {{item|The Slime God|size=150px}}
+| Permanently increases Adrenaline Mode damage by 15% and damage reduction by 5%.<br/>Exclusive to [[Revengeance Mode]] and [[Death Mode]].
+|-
+| {{item|Starlight Fuel Cell}}
+| {{item|Astrum Aureus|size=100px}}
+| Permanently increases Adrenaline Mode damage by 15% and damage reduction by 5%.<br/>Exclusive to [[Revengeance Mode]] and [[Death Mode]].
+|-
+| {{item|Ectoheart}}
+| {{item|Polterghast|size=40px}}
+| Permanently increases Adrenaline Mode damage by 15% and damage reduction by 5%.<br/>Exclusive to [[Revengeance Mode]] and [[Death Mode]].
+|-
+| {{item|Adrenaline of the Gods}}
+| {{recipes/extract|result=Adrenaline of the Gods}}
+| Permanently increases Adrenaline Mode damage by 45% and damage reduction by 15%.<br/>Exclusive to [[Revengeance Mode]] and [[Death Mode]].
+|-
+! colspan="4" | [[Stamina]] Upgrades {{fantag|Catalyst}}
+|-
+! style="padding: 5px" width = "10%" | Item
+! style="padding: 5px" width = "20%" | Obtained from
+! width = "60%" | Effect
+|-
+| {{item|Dust Bunny}}
+| {{item|Deerclops|size=70px}}
+| Permanently increases maximum Stamina by 100.<br/>Exclusive to [[Revengeance Mode]] and [[Death Mode]].
+|-
+| {{item|Magma Booster}}
+| {{item|Calamitas|size=60px}}
+| Permanently increases maximum Stamina by 150.<br/>Exclusive to [[Revengeance Mode]] and [[Death Mode]].
+|-
+| {{item|Ever Ink}}
+| {{item|Signus, Envoy of the Devourer|size=60px}}
+| Permanently increases maximum Stamina by 250.<br/>Exclusive to [[Revengeance Mode]] and [[Death Mode]].
+|-
+| {{item|Stamina of the Vengeful}}
+| {{recipes/extract|result=Stamina of the Vengeful}}
+| Permanently increases maximum Stamina by 500.<br/>Exclusive to [[Revengeance Mode]] and [[Death Mode]].
+|-
+! colspan="4" | Other Upgrades {{fantag}}
+|-
+! style="padding: 5px" width = "10%" | Item
+! style="padding: 5px" width = "20%" | Obtained from
+! width = "60%" | Effect
+|-
+| {{item|Sunwitch}}
+| {{recipes/extract|result=Sunwitch}} {{fantag|Catalyst}}
+| Permanently increases the [[Rage Mode]] duration by three seconds.<br/>Permanently increases Adrenaline Mode damage by 45% and damage reduction by 15%.<br/>Permanently increases maximum Stamina by 502.<br/>Exclusive to [[Revengeance Mode]] and [[Death Mode]].
+|-
+| {{item|Ha-pu Fruit}} {{fantag|Deimos, the Starborn Princess}}
+| {{item|Purgatory Arbiter, Umbrus|size=125px}}
+| Permanently increses flight time by 35%.<br/>Exclusive to [[Revengeance Mode]] and [[Death Mode]].
+|-
+| {{item|Chaotic Grapes}}
+| {{item|Purgatory Arbiter, Umbrus}}
+| adds an eighth [[coverings|covering]] slot
+|}
+
+=== coverings ===
+{{ajax|Revengeance Mode coverings}}
+
+=== Pets===
+{| class="terraria lined"
+! colspan="4" | Pets
+|-
+!Item
+!Obtained from
+!Pet
+|-
+|{{item|Charred Relic}}
+|{{item|mode=image|Brimstone Elemental|size=40px}}
+|{{item|mode=image|Brimling (Pet)|Brimling}}
+|-
+|{{item|Fox Drive}}
+|{{item|mode=image|Jungle Dragon, Yharon|size=80px}}
+|{{item|mode=image|Fox Pet}}
+|-
+|}
+
+===Mounts===
+{| class="terraria lined"
+! colspan="4" | Mounts
+|-
+!Item
+!Obtained from
+!Mount
+|-
+|{{item|Plagued Minecart}}
+|{{item|mode=image|The Plaguebringer Goliath|size=80px}}
+|{{item|mode=image|Plague Cart|Plague Cart}}
+|}
+
+== Messages ==
+*"Revengeance is active." (When activated)
+*"Revengeance is not active." (When deactivated)
+
+== Trivia ==
+*Revengeance Mode is a replacement for previous difficulty modes added by the Calamity Mod, which were known as [[Prepare to Die]] and [[Prepare to Cry]].
+*The name of this mode is a reference to a difficulty in ''[[wikipedia:Metal_Gear_Rising:_Revengeance|Metal Gear Rising: Revengeance]].''
+*Several Revengeance Mode features were present in previous versions of the mod that have since been removed or changed:
+**Talking to the [[Nurse]] during a boss battle would summon a giant meteor (similar to the ones fired by [[The Leviathan]]) onto the player, instantly killing them and nearby NPCs.
+**[[Meteorite]]s would not be mineable and the [[Reaver Shark]] couldn't be swung until defeating the [[Brain of Cthulhu]] or [[Eater of Worlds]].
+**Soft caps on damage and crit chance were present, both of which have been removed, and a DR soft cap, which has been made global to [[Vanilla changes|all modes]].
+**All attacks labelled as [[Summon weapons|summon]] will deal less damage if the player is holding a weapon belonging to a different class. This nerf scaled with progression. This change is now global to [[Vanilla changes|all modes]] and no longer scales.
+**Revengeance Mode was a permanent change upon using the Revengeance item. It is now togglable.
+*Prior to the [[1.4.5.004]] update, Revengeance Mode would affect bosses from the [[thm:Thorium Mod Wiki|Thorium Mod]], and it could be disabled in the config.
+
+== See also ==
+*[[Expert Mode]]
+*[[Death Mode]]
+*[[Malice Mode]]
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

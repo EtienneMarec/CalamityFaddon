@@ -1,0 +1,46 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 65
+| damagetype = Rogue
+| use = 17
+| knockback = 7
+| auto = yes
+| stack = 1
+| tooltip = Throws bouncing axes<br/>Stealth strikes throw five at once
+| rare = 7
+| sell = {{value|0|12}}
+| proj =Crushax.png
+| projcaption = Crushsaw Crasher Axe
+| velocity = 11
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Rapid health loss
+| hardmode = yes
+| element1 = Unholy
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Catastrophe]]|1|{{dv|8.33%|10%}}
+}}
+}}
+
+The '''Crushsaw Crasher''' is a [[Hardmode]] [[rogue weapon]] that has a 8.33% ({{expert|10%}}) chance to drop from [[Catastrophe]]. When used it auto-fires a homing, spinning axe that can pierce one enemy or bounce once before disappearing on its next impact. The axe inflicts [[Brimstone Flames]] upon any enemy it hits.
+
+Performing a [[stealth strike]] with the Crushsaw Crasher will cause five axes to be thrown instead of one.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

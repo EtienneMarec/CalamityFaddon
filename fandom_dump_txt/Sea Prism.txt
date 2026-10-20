@@ -1,0 +1,37 @@
+{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| use = 14
+| stack = 9999
+| rare = 2
+| color = #0096C8
+| sell = {{value|0|0|10|0}}
+}}
+
+'''Sea Prisms''' are a [[Pre-Hardmode]] [[ore]] found naturally generated within the [[Sunken Sea]]. Alternatively, the [[Adult Eidolon Wyrm]] being defeated before the [[Desert Scourge]] and [[Aquatic Scourge]] spawns Sea Prisms in the [[Abyss]]. They can also be crafted using [[Prism Shard]]s. They can be mined with any pickaxe but are only mineable after the player has defeated the [[Aquatic Scourge]]. Sea Prisms are used as crafting materials in several [[weapons]] themed around the Sunken Sea, as well as [[Mollusk armor]] and pieces of the [[Eutrophic Shelf|Eutrophic furniture set]]. They are also used to craft [[Tesla Potion]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*2-5 Sea Prisms can also be obtained from [[Sunken Crate]]s at a 20% drop chance after the Desert Scourge has been defeated.
+*These and [[Prism Shard]]s are also obtainable from the hollow cores of the large Geodes that generate inside the Sunken Sea.
+**Alternatively, you can get 56 Sea Prisms from the [[Sunken Sea Bio-center Lab]].
+
+{{Sea Prism}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

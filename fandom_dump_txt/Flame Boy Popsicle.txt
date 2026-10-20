@@ -1,0 +1,106 @@
+{{addon|Calamity: Community Remix}}
+{{dedicated|Split0282|Developer}}
+{{item infobox
+| type = Weapon
+| damage = 1050
+| use = 10
+| damagetype = Spy
+| critical = 10%
+| knockback = 5
+| auto = yes
+| velocity = 40
+| stack = 1
+| rare = 16
+| sell = {{value|1|0|0|0}}
+| tooltip = Freestyle your opponents with this one!<br/>Stealth Strike empowers its potential<br/>{{color|'You think you can be cool doing sick popsicle tricks like me? mmmm? mmmmm???'|#FE581C}}
+| debuff = Miracle Blight
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| debufftip = Exotic resonance shreds your corporeal form
+| hardmode = yes
+| postml = yes
+| element1 = Fire
+| element2 = Cold
+| element3 = Unholy
+| element4 = Smash
+}}
+
+The '''Flame Boy Popsicle''' is a craftable Epilogue [[Spy weapons|Spy Weapon]] that throws out a gravity-affected Popsicle. Upon hitting an enemy, it bounces off, being able to be picked up again. Picking it up empowers the weapon, alongside increasing the rank they currently have. The rank mechanic are as follows:
+{| class="terraria"
+|+
+!Ranks
+!Seconds Before Reset
+!Damages
+!Critical Chance
+!Additional Effects
+!Notes
+|-
+| <center>D</center>
+| 10
+| 1,575
+| 20%
+| <center>{{no}}</center>
+| <center>{{no}}</center>
+|-
+| <center>C</center>
+| 9
+| 2,363
+| 30%
+| <center>{{no}}</center>
+| <center>{{no}}</center>
+|-
+| <center>B</center>
+| 8
+| 3,545
+| 40%
+| <center>A fiery red explosion is created, dealing 50% the weapon's damage and inflicting them with the [[Vulnerability Hex]] Debuff.</center>
+| <center>{{no}}</center>
+|-
+| <center>A</center>
+| 6
+| 5,318
+| 50%
+| <center>The explosion's damage is increased to 75% its weapon's damage.</center>
+| <center>From here, 2 pick up is needed to advance to the next rank. Additionally, stealth increases faster by 50%.</center>
+|-
+| <center>S</center>
+| 4
+| 7,977
+| 60%
+| <center>Its explosion now deals 150% its weapon's damage.<br/>Additionally, a miracle whirlwind will be triggered around the player, destroying most enemy projectiles. Picking up the Popsicle at this state triggers it again.</center>
+| <center>From here, 3 pick up is needed instead.</center>
+|-
+| <center>S+</center>
+| 3.5
+| 11,966
+| 75%
+| <center>Its explosion now deals 300% its weapon's damage and increase the whirlwind's size by 150%.</center>
+| <center>From here, 5 pick up is needed instead.</center>
+|-
+| <center>U</center>
+| 3
+| 17,949
+| 90%
+| <center>Upon impact, it now explodes into multiple ice shards that deals 500% its damage and aggressively homes into the targeted enemy.</center>
+| <center>Once hitting the enemy, the rank will reset.</center>
+|}
+
+[[Spy|Stealth Strike]] throws the weapon harder, increasing the current damage dealt by twice the usual amount, while also having its pickup range increased.
+
+{{Modifier|spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon actually has a unique [[Rarity]] but is referred here as Hot Pink rarity for consistency between weapons.
+**This unique rarity appears as a Lusty Orange ({{color|#EEB2AA ●|#EEB2AA}}) color.
+*The weapon's mechanic is directly inspired by the [https://soul-knight.fandom.com/wiki/%22Lollipop%22 "Lollipop"] from the game [https://soul-knight.fandom.com/wiki/Soul_Knight_Wiki Soul Knight].
+*The weapon is based off the dedicatee's OC, Miracle Boy, and the popsicle he is sometimes depicted with.
+
+{{shadowspec}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}

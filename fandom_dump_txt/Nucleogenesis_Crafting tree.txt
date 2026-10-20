@@ -1,0 +1,262 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|ASand|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|PHFRG|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|Glass|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|PHFRG|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|Bottl|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|±|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|NecrS|_|HercB|_|Ecto1|_|EsseS|_|BottW|_|PixiD|_|HSeed|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|      _|      _|      _|      _|      _|      _|      _|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|)|-|-|-|'|_|_|_|`|-|-|-|(|_|_|_|)|-|-|-|^|-|-|-|'|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|@|_|_|_|_|_|_|_|_|_|_|HMANV|_|_|÷|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|NighF|_|Phant|_|PapyS|_|PygmN|_|SummE|_|CoreS|_|HolyW|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|      _|      _|      _|      _|      _|      _|      _|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|`|-|-|-|(|_|_|_|)|-|-|-|^|-|-|-|^|-|-|-|^|-|-|-|'|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|I|_|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|EndoE|_|_|I|_|_|StatB|_|TheFS|_|StarF|_|LifAT|_|WulfB|_|VoltJ|_|PuriG|_|StoMa|_|#
+|      _|_|I|_|_|      _|      _|     |_|      _|      _|      _|      _|      _|#
+|_|`|-|-|-|(|_|_|_|)|-|-|-|^|-|-|-|'|_|_|_|:|_|_|_|`|-|-|-|+|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|_|HMANV|_|PHANV|_|PHANV|_|_|_|_|_|_|_|_|_|#
+|DarkF|_|_|I|_|_|_|I|_|_|LunaF|_|LumiO|_|LifAL|_|NuRod|_|JelCB|_|StarC|_|_|_|_|_|#
+|      _|_|I|_|_|_|I|_|_|      _|      _|      _|      _|     |_|      _|_|_|_|_|#
+|_|`|-|-|-|(|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|`|-|-|-|+|-|-|-|^|-|-|-|'|_|_|_|_|_|_|#
+|_|_|_|_|_|§|_|_|_|§|_|_|_|§|_|_|_|§|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|AscSE|_|StatC|_|GalaS|_|LumiB|_|_|_|_|_|StaTG|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|      _|     |_|      _|     |_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|`|-|-|-|^|-|-|-|^|-|-|-|^|-|-|-|-|-|-|-|'|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|COANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|Nucle|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+<!-- •• CRAFTING MATERIALS •• -->
+
+| Bottl_cols = 3
+| Bottl_rows = 2
+| Bottl = {{item|Bottle}} × 30
+
+| BottW_cols = 3
+| BottW_rows = 2
+| BottW = {{item|Bottled Water}} × 30
+
+| ASand_cols = 3
+| ASand_rows = 2
+| ASand = {{item|Any Sand}} × 30
+
+| Glass_cols = 3
+| Glass_rows = 2
+| Glass = {{item|Glass}} × 15
+
+| HolyW_cols = 3
+| HolyW_rows = 2
+| HolyW = {{item|Holy Water}} × 30
+
+| HSeed_cols = 3
+| HSeed_rows = 2
+| HSeed = {{item|Hallowed Seeds}} × 3<br/>
+( {{item|mode=image|image=Map Icon Dryad.png|Dryad|size=20px}} )
+
+| PixiD_cols = 3
+| PixiD_rows = 2
+| PixiD = {{item|Pixie Dust}} × 6<br/>
+( {{item|mode=image|Pixie|size=28px}} )
+
+| NecrS_cols = 3
+| NecrS_rows = 2
+| NecrS = {{item|Necromantic Scroll}}<br/>
+( {{item|mode=image|image=Map Icon Mourning Wood.png|Mourning Wood|size=20px}} )
+
+| HercB_cols = 3
+| HercB_rows = 2
+| HercB = {{item|Hercules Beetle}}<br/>
+(<span style="font-size:0.75em"> {{item|mode=image|image=Map Icon Witch Doctor.png|Witch Doctor|size=25px}} In [[Jungle]] with {{item|mode=image|Pygmy Staff|size=28px}} )
+
+| PapyS_cols = 3
+| PapyS_rows = 2
+| PapyS = {{item|Papyrus Scarab}}
+
+| PygmN_cols = 3
+| PygmN_rows = 2
+| PygmN = {{item|Pygmy Necklace}}<br/>
+(<span style="font-size:0.75em"> {{item|mode=image|image=Map Icon Witch Doctor.png|Witch Doctor|size=25px}} with {{item|mode=image|Pygmy Staff|size=28px}} at [[Night]] )
+
+| SummE_cols = 3
+| SummE_rows = 2
+| SummE = {{item|Summoner Emblem}}<br/>
+( {{item|mode=image|image=Map Icon Wall of Flesh.png|Wall of Flesh|size=20px}} )
+
+| Ecto1_cols = 3
+| Ecto1_rows = 2
+| Ecto1 = {{item|Ectoplasm}} × 2 <br/>
+( {{item|mode=image|Dungeon Spirit|size=16px}} )
+
+| EsseS_cols = 3
+| EsseS_rows = 2
+| EsseS = {{item|Essence of Sunlight}} × 2<br/>
+<span style="font-size:0.75em">( Sky / Storm / Sun related creatures )
+
+| CoreS_cols = 3
+| CoreS_rows = 2
+| CoreS = {{item|Core of Sunlight}} × 5<br/>
+( {{item|mode=image|Fleshy Geode|size=20px}} {{item|mode=image|Necromantic Geode|size=20px}} )
+
+| StarF_cols = 3
+| StarF_rows = 2
+| StarF = {{item|Stardust Fragment}} × 10<br/>
+( {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+| StatB_cols = 3
+| StatB_rows = 2
+| StatB = {{item|Statis' Blessing}}
+
+| StatC_cols = 3
+| StatC_rows = 2
+| StatC = {{item|Statis' Curse}}
+
+| TheFS_cols = 3
+| TheFS_rows = 2
+| TheFS = {{item|The First Shadowflame}}<br/>
+( {{item|mode=image|Goblin Summoner|size=18px}} )
+
+| NuRod_cols = 3
+| NuRod_rows = 2
+| NuRod = {{item|Nuclear Rod}}<br/>
+( {{item|mode=image|Cragmaw Mire|size=24px}} )
+
+| StarC_cols = 3
+| StarC_rows = 2
+| StarC = {{item|Starbuster Core}}<br/>
+( {{item|mode=image|Stellar Culex|size=30px}} )
+
+| VoltJ_cols = 3
+| VoltJ_rows = 2
+| VoltJ = {{item|Voltaic Jelly}}<br/>
+( {{item|mode=image|Ghost Bell|size=14px}} )
+
+| WulfB_cols = 3
+| WulfB_rows = 2
+| WulfB = {{item|Wulfrum Battery}}<br/>
+( {{item|mode=image|Wulfrum Drone|size=24px}} )
+
+| PuriG_cols = 3
+| PuriG_rows = 2
+| PuriG = {{item|Purified Gel}} × 10<br/>
+( {{item|mode=image|image=Slime God Core map.png|The Slime God|size=20px}} )
+
+| StoMa_cols = 3
+| StoMa_rows = 2
+| StoMa = {{item|Stormlion Mandible}} × 2<br/>
+( {{item|mode=image|Stormlion|size=26px}} )
+
+| JelCB_cols = 3
+| JelCB_rows = 2
+| JelCB = {{item|Jelly-Charged Battery}}
+
+| LifAT_cols = 3
+| LifAT_rows = 2
+| LifAT = ''[[Life Alloy/Crafting tree|Life Alloy<br/>crafting tree]]''
+
+| LifAL_cols = 3
+| LifAL_rows = 2
+| LifAL = {{item|Life Alloy}} × 3<br/>
+( {{item|mode=image|Necromantic Geode|size=20px}} )
+
+| StaTG_cols = 3
+| StaTG_rows = 2
+| StaTG = {{item|Star-Tainted Generator}}
+
+| EndoE_cols = 3
+| EndoE_rows = 2
+| EndoE = {{item|Endothermic Energy|size=20px}} × 20<br/>
+<span style="font-size:0.75em">( [[Frost Moon]] )</span>
+
+| NighF_cols = 3
+| NighF_rows = 2
+| NighF = {{item|Nightmare Fuel|size=20px}} × 20<br/>
+<span style="font-size:0.75em">( [[Pumpkin Moon]] )</span>
+
+| DarkF_cols = 3
+| DarkF_rows = 2
+| DarkF ={{item|Darksun Fragment}} × 8<br/>
+<span style="font-size:0.75em">( [[Solar Eclipse]] )</span>
+
+| Phant_cols = 3
+| Phant_rows = 2
+| Phant = {{item|Phantoplasm|size=20px}} × 20<br/>
+( {{item|mode=image|image=Polterghast map.png|Polterghast|size=18px}} {{item|mode=image|Phantom Spirit|size=14px}} {{item|mode=image|Overloaded Soldier|size=18px}} {{item|mode=image|Phantom Debris|size=26px}} )
+
+| AscSE_cols = 3
+| AscSE_rows = 2
+| AscSE = {{item|Ascendant Spirit Essence}} × 4
+
+| LunaF_cols = 3
+| LunaF_rows = 2
+| LunaF = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 4<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+| GalaS_cols = 3
+| GalaS_rows = 2
+| GalaS = {{item|Galactica Singularity}} × 4
+
+| LumiO_cols = 3
+| LumiO_rows = 2
+| LumiO = {{item|Luminite}} × 32<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=20px}} )
+
+| LumiB_cols = 3
+| LumiB_rows = 2
+| LumiB = {{item|Luminite Bar}} × 8
+
+| Nucle_cols = 3
+| Nucle_rows = 2
+| Nucle = {{item|Nucleogenesis}}
+
+<!-- •• CRAFTING STATIONS •• -->
+
+| ÷_cols = 1
+| ÷_class = craft-station
+| ÷ = [[By Hand]]
+
+| ±_cols = 1
+| ±_class = craft-station
+| ± = {{item|mode=image|Water|size=24px}}
+
+| @_cols = 1
+| @_class = craft-station
+| @ = {{item|mode=image|Tinkerer's Workshop}}
+
+| PHANV_cols = 3
+| PHANV_class = craft-station
+| PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+| HMANV_cols = 3
+| HMANV_class = craft-station
+| HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+| COANV_cols = 3
+| COANV_class = craft-station
+| COANV = {{item|mode=image|Cosmic Anvil}}
+
+| PHFRG_cols = 3
+| PHFRG_class = craft-station
+| PHFRG = {{item|mode=image|Furnace}}
+
+| §_cols = 1
+| §_class = craft-station
+| § = {{item|mode=image|Ancient Manipulator}}
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

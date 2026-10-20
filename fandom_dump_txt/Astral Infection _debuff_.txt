@@ -1,0 +1,47 @@
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-10 health per second, -6 defense and -15% movement speed (if player)<br/>-37.5 health per second and -6 defense (if enemy)
+| tooltip = Your flesh is melting off
+}}
+
+{{dablink|For the biome, see [[Astral Infection]].}}
+
+'''Astral Infection''' is a [[debuff]] inflicted by enemies found in the [[Astral Infection]] [[biome]] and [[Weapons]] themed around it. It functions as a weaker version of the [[God Slayer Inferno]] debuff; damaging both players and enemies it afflicts, as well as reducing defense of both enemies and players by 6 and reducing their movement speed by 15%.
+
+== Causes ==
+=== From the player and the environment ===
+{{item debuffs|name=Astral Infection}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*Astral Infection/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

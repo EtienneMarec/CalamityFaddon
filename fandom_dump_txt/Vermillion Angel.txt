@@ -1,0 +1,51 @@
+{{dedicated|Phupperbat|Developer}}
+{{item infobox
+| type = Weapon
+| auto = yes
+| stack = 1
+| damagetype = Spy
+| damage = 800
+| knockback = 9
+| rare = 16
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| critical = 24%
+| velocity = 30
+| sell = {{value|0|40}}
+| use = 80
+| tooltip = Throws an ultra high velocity spear, which creates more projectiles that home in<br/>The spear creates a Vermillion Blast upon hitting an enemy<br/>Stealth strikes grant summon a star of projectiles upon hitting an enemy<br/>"It all comes tumbling down tumbling down tumbling down."
+| proj = Scarlet Bullet.png
+| projcaption = Vermillion Bullet
+| element1 = Fire
+| element2 = Dark
+}}
+
+The '''Vermillion Angel''' is a craftable Epilogue [[developer]] [[javelin]]. It fires an extremely-high velocity spear that leaves behind projectiles as it travels. The projectiles are not affected by gravity and home in on nearby enemies slightly after being spawned. Upon contact with an enemy, the spear creates a Vermillion Blast which rapidly damages any enemy caught in its blast radius. The spear and its projectiles can travel through blocks and only hit one enemy.
+
+Performing a [[stealth strike]] with the Vermillion Angel will cause the next spear thrown to create a hexagram pattern of projectiles which, similarly to its normal attack, home in on enemies.
+
+{{Modifier|spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The item is a reference to the ''Spear of Longinus'', a weapon used by [https://evangelion.fandom.com/wiki/Evangelion_Unit-01 Eva-01] from the anime ''[https://evangelion.fandom.com/wiki/Neon_Genesis_Evangelion Neon Genesis Evangelion]''.
+**The name of the weapon is a reference to the Angels, who are the main antagonists of the show.
+**The weapons tooltip are lyrics from the song "The End of Evangelion".
+*This weapon actually has a unique rarity, but is referred to here as Hot Pink for consistency between weapons.
+**This unique rarity alternates between red ({{color|#BF2D47 ●|#BF2D47}}) and lavender ({{color|#B9BBFD ●|#B9BBFD}}) colors.
+*The weapons previous design was called the 'Scarlet Devil' and was a reference to a character from the Touhou Project series.
+*In the [[1.5.0.001]] update, the weapon's base damage was reduced from 40,000 to 800. With a total loss of 39,200 damage, this makes Vermillion Angel the weapon with the most drastic damage stat change in one update in the mod's history.
+
+[[File:Scarlet Devil (demo).gif|frame|left|The Vermillion Angel and its stealth strike being used.]]
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Healing items]]
+[[Category:Javelins]]

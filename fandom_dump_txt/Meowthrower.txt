@@ -1,0 +1,51 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = ranged
+| damage = 28
+| knockback = 1.25
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| auto = yes
+| use = 30
+| velocity = 5.5
+| tooltip = 50% chance to not consume gel<br/>Fires blue and pink flames that emit meows on enemy hits
+| hardmode = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Slowly losing life
+| debuff2 = Frostburn
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| image2 = Meowthrower (tank).png
+| image2caption = Equipped tank
+| element1 = Magic
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Wall of Flesh]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+[[File:Meowthrower (demo).gif|frame|right|The Meowthrower being used against [[Target Dummy|Target Dummies]], showing the aesthetic bursts of flame, random spread, infinite piercing, and debuffs.]]
+
+The '''Meowthrower''' is a [[Hardmode]] [[flamethrowers|flamethrower]] that uses [[gel]] as [[ammunition]] and drops from the [[Wall of Flesh]]. It shoots blue and pink flames at a short range and with a more random spread than most flamethrowers. The flames inflict the [[On Fire!]] and [[Frostburn]] [[debuff]]s on contact and pierce infinitely. Upon hitting an enemy, an aesthetic burst of flame occurs, and it makes a meowing sound.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon is themed around [[Meowmere]], sharing its pink and blue cat aesthetic and its meow sound effects.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

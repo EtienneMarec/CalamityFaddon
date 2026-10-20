@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| type = Furniture
+| tooltip = Nameless... <br/> Summons Monstro when interacted with a blood clot
+| placeable = yes
+| stack = 9999
+| auto = yes
+| width = 2
+| height = 3
+| use = 14
+| rare = 2
+| color = #2B132A
+| sell = No value
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Mysterious Manager]]|1|25%
+}}
+}}
+
+The '''Anomaly 109''' is a [[furniture]] item. When right-clicked with a [[Bloody Vein]], it is used to summon [[Monstro]].
+
+== Notes ==
+*The Anomaly 109 cannot be destroyed by [[explosive]]s.
+*The Anomaly 109 can be highlighted by the [[Spelunker Potion]] effect.
+*This item is a reference to [https://bindingofisaacrebirth.fandom.com/wiki/Dataminer Dataminer]  from the hit game ''The Binding of Isaac''
+
+{{-}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

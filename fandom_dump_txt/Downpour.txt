@@ -1,0 +1,32 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 43
+| mana = 10
+| tooltip = Fires a spray of water that drips extra trails of water
+| knockback = 3
+| rare = 5
+| sell = {{value|0|7|20}}
+| use = 15
+| velocity = 14
+| stack = 1
+| hardmode = yes
+| element1 = Water
+}}
+|{{item drops infobox
+| [[Aquatic Scourge]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Downpour''' is a [[Hardmode]] [[wand]] dropped by the [[Aquatic Scourge]]; it can be considered an indirect upgrade to the [[Storm Spray]]. It fires a stream of water that, at evenly spaced points throughout, drips extra streams of water downward.
+
+{{Modifier|magic}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

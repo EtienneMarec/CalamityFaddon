@@ -1,0 +1,218 @@
+<section begin=npc infobox />
+{{infobox wrapper
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = Wulfrum Megamechwyrm AI
+| name = Wulfrum Megamechwyrm
+| imagealt = [[File:Wulfrum Megamechwyrm.png|340px]]
+| life = 533,250 / 888,750<br/>{{expert|853,200 / 1,422,000}}<br/>{{revengeance|1,023,840 / 1,706,400}}
+| knockback = 100
+| debuff = Extreme Gravity 
+| debufflink = no
+| debuffchance = 100%
+| duration = Infinite (Aggressive / Purple)
+| debufftip = Your wing time is reduced by 25%, infinite flight is disabled
+| hardmode = yes
+| immuneall = yes
+| postml = yes
+| money = {{value|0|0|0|0|1}}{{value|20}}
+| Refined Wulfrum Bar|{{dv|155-265|205-335}}|100%
+|group|At least one of the following 6 weapons will always drop:|6
+| Wulfrum Greatblade|1|{{dv|25%|33.33%}}
+| Vortex|1|{{dv|25%|33.33%}}
+| Thundering Staff|1|{{dv|25%|33.33%}}
+| Extermination|1|{{dv|25%|33.33%}}
+| Piercing Gale|1|{{dv|25%|33.33%}}
+| Staff of the Megamechworm|1|{{dv|25%|33.33%}}
+| Supercharged Heart|1|100%
+| Electrical Discharge|1|10%
+| Omega Healing Potion|5-15|100%
+| Wulfrum Megamechwyrm Mask|1|14.29%
+| Wulfrum Megamechwyrm Trophy|1|10%
+| Yharim Bar|{{revengeance|1-3}}|100% {{fantag|Calamity: Community Remix}}
+| custom| {{item|Wulfrum Megamechwyrm (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Wulfrum Megamechwyrm)|Treasure Bag|note=(Wulfrum Megamechwyrm)|wrap=y}}
+| custom| {{item|Genesis|note=(Provided no checklist mods are activated)|wrap=y}}|100%
+| listexclude = yes
+| boxwidth = 29em
+}}
+}}<section end=npc infobox />
+
+[[File:Wulfrum_Megamechwyrm_Trophy.png|25px]] <big> ''"Beep boop..."'' </big> [[File:Wulfrum_Megamechwyrm_Trophy.png|25px]]
+
+'''Wulfrum Megamechwyrm''' (Japanese: --- ''---'') is a Godseeker Mode [[boss]].
+
+== Spawn ==
+Wulfrum Megamechwyrm does not spawn on its own, and requires the player to summon it with the [[Refined Wulfrum Signal Beacon]] While in [[The Exosphere]]. 
+
+When summoned, he will make a {{sound|loud cosmic screech|DevourerSpawn.wav}} instead of the regular boss roar.
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| name = Wulfrum Megamechwyrm Head
+| ai = Wulfrum Megamechwyrm AI
+| life = {{dv|888,750|1,422,000|1,706,400}}
+| damage = {{dv|300|600|650}} / {{death|680}}
+| defense = 50
+| vulnerable1 = Slash
+| resistant1 = Magic
+| resistant2 = Poison
+| resistant3 = Dark
+| knockback = 100
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 5 seconds
+| debufftip = Your flesh is burning off
+| debuff2 = Whispering Death
+| debuffchance2 = 100%
+| duration2 = 7 seconds
+| debufftip2 = Death approaches; defense, movement speed, attack power and life regen reduced
+| image2 = Devourer of Gods map.png
+| image2caption = Map Icon
+| hurt = OtherworldlyHit.wav
+| killed = NPC_Killed_14.wav
+| hardmode = yes
+| postml = yes
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| name = Wulfrum Megamechwyrm Body
+| ai = Wulfrum Megamechwyrm AI
+| life = {{dv|888,750|1,422,000|1,706,400}}
+| damage = {{dv|180|306|340|357}} (Contact)<br/>{{dv|160|276|304|320}} (Laser)
+| defense = 70
+| dr = 92.5
+| vulnerable1 = Slash
+| resistant1 = Magic
+| resistant2 = Poison
+| resistant3 = Dark
+| knockback = 100
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 5 seconds
+| debufftip = Your flesh is burning off
+| debuff2 = Whispering Death
+| debuffchance2 = 100%
+| duration2 = 7 seconds
+| debufftip2 = Death approaches; defense, movement speed, attack power and life regen reduced
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| hardmode = yes
+| postml = yes
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| name = Wulfrum Megamechwyrm Tail
+| ai = Wulfrum Megamechwyrm AI
+| life = {{dv|888,750|1,422,000|1,706,400}}
+| damage = {{dv|150|225|289|306}}
+| defense = 50
+| vulnerable1 = Slash
+| resistant1 = Magic
+| resistant2 = Poison
+| resistant3 = Dark
+| knockback = 100
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 5 seconds
+| debufftip = Your flesh is burning off
+| debuff2 = Whispering Death
+| debuffchance2 = 100%
+| duration2 = 7 seconds
+| debufftip2 = Death approaches; defense, movement speed, attack power and life regen reduced
+| image2 = Devourer of Gods tail map.png
+| image2caption = Map Icon
+| hurt = OtherworldlyHit.wav
+| killed = NPC_Killed_14.wav
+| hardmode = yes
+| postml = yes
+}}
+}}
+
+== Behavior ==
+TBD
+
+=== Attacks ===
+TBD
+
+=== Sentinels ===
+After Wulfrum Megamechwyrm reaches 60% health, it will become intangible and fly into a portal, any remaining Wulfrum Excavators (in Revengeance Mode or harder) will disappear, and the player is suddenly attacked by strengthened versions of the Sentinels of the Flesh, each one individually attacking the player. They appear in this order, the next Sentinel spawning immediately after the previous Sentinel has been defeated:
+*[[Ceasing Void II]]
+*[[Weaver II]]
+*[[Sigmund II]]
+
+Should the player take over 2 minutes to kill a Sentinel, the next one will appear regardless of whether the previous one has been killed or not.
+
+If any of the Sentinels have not been defeated in a world, they will not be weakened when encountered in this phase.
+
+After each Sentinel has been defeated, Wulfrum Megamechwyrm reappears in its final phase with a different appearance, buffed stats, unique movement, and different attacks.
+
+If Wulfrum Megamechwyrm has reached Phase 2 in a world, this phase does not occur and the fight immediately moves onto the Final Phase once the Megamechwyrm enters its portal.
+
+=== Final Phase ===
+
+==== Attacks ====
+TBD
+
+=== In Expert Mode ===
+*Wulfrum Megamechwyrm' segments are larger.
+*During the first phase, speed increases even further upon reaching 10% health.
+*Projectiles are fired at much higher rates.
+
+=== In [[Revengeance Mode]] ===
+
+
+
+=== In [[Death Mode]] ===
+
+
+=== Summons ===
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align = center |{{item|mode=table|Wulfrum Excavator}} || Upon reaching 30% life in his second phase<br/>Upon reaching 75% and 20% life in his first phase in [[Revengeance Mode]]
+|
+|}
+
+== Aftermath ==
+*When Wulfrum Megamechwyrm is defeated properly, an animation will play with the Devourer continuing in one direction while breaking apart segment by segment from his tail and being torn apart like fabric before exploding in a blinding light similar to [[Providence, the Profaned Goddess]].
+*The Offensive and Defensive Guardians from the [[Profaned Soul Artifact]] now deal 150 damage.
+*The [[Bandit]] will begin selling the [[Charged Amulet]].
+
+== Resistances ==
+*Wulfrum Megamechwyrm takes decreased and increased damage from some items and projectiles. It takes:
+**0% damage from [[Wave Pounder]].
+**50% damage from [[Sealed Singularity]].
+**85% damage from [[Cruel Jewel]].
+**90% damage from the [[Valediction]]'s stealth strike.
+**115% damage from the [[Time Bolt]]'s stealth strike.
+
+== Notes ==
+*While Wulfrum Megamechwyrm is alive, the player's horizontal movement speed is reduced, making it harder to outrun the boss.
+*All damage inflicted on the head is multiplied by 1.10, while all damage inflicted on the tail is multiplied by 1.25.
+*The head and tail segments take decreased damage the further the player is from them, up to a maximum of 25% reduced damage.
+*Wulfrum Megamechwyrm' body segments in both phases and the tail in the final phase are invulnerable for 6 seconds upon spawning. Additionally, the tail in the first is invulnerable for 12 seconds upon spawning.
+*Enraging Wulfrum Megamechwyrm with [[Demonshade armor]] will instantly trigger laser walls for the debuff's duration. Wulfrum Megamechwyrm will remain visible for the debuff's duration if it was visible when enraged. Similarly, it will remain invisible for the debuff's duration if it was invisible when enraged.
+*All of Wulfrum Megamechwyrm' loot will spawn at the nearest segment with the exception of the [[Wulfrum Bar]]s and [[Heart]]s which will always spawn at the head.
+*While not visible, [[Boss Effects]] is still applied to players during transition from Phase 1 to Phase 2.
+*When playing in a multiplayer world, upon reaching its second phase, Wulfrum Megamechwyrm will appear near the player closest to the world spawn. This can pose an issue if one is not prepared, as arenas will often be made far away from spawn, and [[Town NPC]]s kept close to it.
+*When the Boss transitions between the first phase and the following one all segments except for the tail lose their contact damage.
+*It is a requirement to kill the Devourer's Cosmic Guardians to end the fight properly. Failing to kill all three will cause the Devourer to die regularly instead of go through his special death animation.
+
+== Tips ==
+''For more elaborate strategies on defeating Wulfrum Megamechwyrm, including [[weapon]] and arena recommendations, see [[Guide:Wulfrum Megamechwyrm strategies]].''
+
+== Trivia ==
+*If the Calamity Music add-on mod is disabled, you cant play the mod are you stupid
+*Wulfrum Megamechwyrm' laser wall attack was inspired by a similar attack used by [https://hollowknight.fandom.com/wiki/Radiance The Radiance] from the game ''[[wikipedia:Hollow Knight|Hollow Knight]]''.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

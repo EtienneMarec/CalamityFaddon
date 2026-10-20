@@ -1,0 +1,75 @@
+{{item infobox
+| type = Weapon
+| tooltip = Ancient blade of Yharim's weapons and armors expert, Draedon<br/> Fires a spread of exo beams with different effects based on the beam's color<br/>Killing an enemy with true melee strikes causes a large explosion that freezes nearby enemies
+| damage = 1680
+| use = 11
+| damagetype = melee
+| knockback = 9
+| auto = yes
+| velocity = 15
+| stack = 1
+| rare = 15
+| sell = {{gc|30}}
+| hardmode = yes
+| postml = yes
+| debuff = Exo Freeze
+| debuffduration = 30 seconds
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 2 seconds
+| debuffchance2 = 100%
+| debuff3 = Frostburn
+| debuffduration3 = 2.5 seconds
+| debuffchance3 = 100%
+| debuff4 = On Fire!
+| debuffduration4 = 3 seconds
+| debuffchance4 = 100%
+| proj = Exobeam.png
+| projcaption = Exobeam
+| element1 = Cold
+| element2 = Slash
+| element3 = Machine
+}}
+
+The '''Exoblade''' is a craftable Godseeker Mode [[broadsword]] that auto-swings. It has one of the most complex crafting trees of all swords in the Calamity Mod.
+
+On swing, it fires a spread of colorful projectiles with different effects related to its components. These include:
+*[[Terratomere|A homing green exo beam]] that explodes into multiple homing swords with lingering slashs on enemy hits.
+*[[Flarefrost Blade|A fast red exo beam]] that chooses an enemy then orbits around them while firing fireballs inwards.
+*[[Flarefrost Blade|A slow blue exo beam]] that chooses an enemy then orbits around them while firing icicles inwards.
+*[[Stellar Striker|A mint green exo beam]] that summons lunar flares above hit enemies.
+*[[Anarchy Blade|An orange exo beam]] that creates a colossal flaming explosion on enemy hits.
+
+True melee hits will cause all of the onhit effects from the above projectiles, but with a 230% damage modifier. If an enemy is killed by the Exoblade's true melee strikes, a large colorful explosion occurs that inflicts [[Exo Freeze]] onto all enemies within a 40 tile radius for 30 seconds. 
+
+When Exoblade and its projectiles hit an enemy, they will inflict the following [[debuffs]]:
+*[[Exo Freeze]] (0.5 seconds)
+*[[Holy Flames]] (2 seconds)
+*[[Frostburn]] (2.5 seconds)
+*[[On Fire!]] (3 seconds)
+*[[Plague]] (3 seconds)
+*[[Ichor]] (3 seconds)
+*[[Cursed Flames]] (3 seconds)
+*[[Brimstone Flames]] (3 seconds)
+
+{{modifier|melee}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Exoblade/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*In the mod's source files, the Exoblade is referred to as 'DraedonsExoblade'.
+
+{{-}}
+{{Exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Healing items]]

@@ -1,0 +1,901 @@
+A hefty work in progress. Being made because the current way weapon pages are displayed is confusing and ugly.
+
+== Pre-Hardmode ==
+
+=== Swords ===
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! Damage !! Acquired / Made From !! Notes
+|-
+| align=center | {{item|mode=table|Wulfrum Blade}}
+| align=center | 12 || {{recipes/extract|result=Wulfrum Blade}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Feller of Evergreens}}
+| align=center | 15 || {{recipes/extract|result=Feller of Evergreens}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Depth Crusher}}
+| align=center | 22 || {{item|Moray Eel|size=80px}} (6.67% / {{expert|10%}} chance)
+| align=center |
+* Inflicts [[Crush Depth]] for 3 seconds.
+|-
+| align=center | {{item|mode=table|Waraxe}}
+| align=center | 26 || {{item|Skeleton}} or {{item|Hoplite}} (5% / {{expert|6.67%}} chance)
+| align=center |
+* Inflicts [[War Cleave]] for 15 seconds on critical hit.
+|-
+| align=center | {{item|mode=table|Spore Knife}}
+| align=center | 33 || {{recipes/extract|result=Spore Knife}}
+| align=center |
+* Enemies release damaging spore gases upon kill.
+|-
+| align=center | {{item|mode=table|Caustic Edge}}
+| align=center | 44 || {{recipes/extract|result=Caustic Edge}}
+| align=center |
+* Inflicts [[Poisoned]] for 8 seconds and [[Venom]] for 4 seconds.
+|-
+| align=center | {{item|mode=table|Mandible Claws}}
+| align=center | 14 || {{item|Antlion}}, {{item|Antlion Charger}}, or {{item|Antlion Swarmer}} (2.5% / {{expert|3.33%}} chance)
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Burnt Sienna}}
+| align=center | 14 || {{item|Tomb Crawler|size=100px}} (20% chance)
+| align=center |
+* Spawns healing orbs upon kill.
+|-
+| align=center | {{item|mode=table|Redtide Sword}}
+| align=center | 20 || {{recipes/extract|result=Redtide Sword}}
+| align=center |
+* Fires whirlpools that grow in size, pierce once, and deal half the weapon's base damage before popping.
+|-
+| align=center | {{item|mode=table|Warblade}}
+| align=center | 27 || {{item|Goblin Warrior}} (4% / {{expert|5%}} chance)
+| align=center |
+* Inflicts [[War Cleave]] for 7.5 seconds on critical hit.
+|-
+| align=center | {{item|mode=table|Aquatic Discharge}}
+| align=center | 23 || {{item|Desert Scourge|size=100px}} (25% / {{expert|33.33%}} chance)
+| align=center |
+* Enemies release small electric sparks upon kill that do constant damage.
+|-
+| align=center | {{item|mode=table|Seashine Sword}}
+| align=center | 26 || {{recipes/extract|result=Seashine Sword}}
+| align=center |
+* Fires aquamarine sword beams.
+|-
+| align=center | {{item|mode=table|Eutrophic Shank}}
+| align=center | 24 || {{item|Eutrophic Ray|size=80px}} (33.33% chance)
+| align=center |
+* Fires electrical sparks that linger on the ground and do 40% of the weapon's base damage.
+|-
+| align=center | {{item|mode=table|Teardrop Cleaver}}
+| align=center | 27 || {{item|Eye of Cthulhu|size=40px}} (20% / {{expert|33.33%}} chance)
+| align=center |
+* Inflicts [[Temporal Sadness]] for 1 second.
+|-
+| align=center | {{item|mode=table|Basher}}
+| align=center | 17 || {{recipes/extract|result=Basher}}
+| align=center |
+* Inflicts [[Irradiated]] for 2 seconds.
+|-
+| align=center | {{item|mode=table|Mycelial Claws}}
+| align=center | 14 || {{item|Crabulon|size=60px}} (25% / {{expert|33.33%}} chance)
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Flameburst Shortsword}}
+| align=center | 35 || {{recipes/extract|result=Flameburst Shortsword}}
+| align=center |
+* Inflicts [[On Fire!]] for 5 seconds.
+|-
+| align=center | {{item|mode=table|Biome Blade}}
+| align=center | 38 || {{recipes/extract|result=Biome Blade}}
+| align=center |
+* Fires sword projectiles that inflict different debuffs depending on what biome the user is in.
+|-
+| align=center | {{item|mode=table|Bladecrest Oathsword}}
+| align=center | 25 || {{item|Demon|size=50px}} or {{item|Voodoo Demon|size=50px}} (2% / {{expert|2.5%}} chance)
+| align=center |
+* Fires out scythe projectiles that pierce once. 
+* Both the blade and the projectiles inflict [[On Fire!]] for 4 or 3 seconds, respectively.
+|-
+| align=center | {{item|mode=table|Old Lord Oathsword}}
+| align=center | 34 || {{item|Bone Serpent|size=100px}} (6.67% / {{expert|10%}} chance)
+| align=center |
+* Creates fiery explosions that deal 100% percent of the weapon's base damage and inflict [[On Fire!]] for 10 seconds on critical hit.
+|-
+| align=center | {{item|mode=table|Perfect Dark}}
+| align=center | 22 || {{item|The Hive Mind|size=40px}} (25% / {{expert|33.33%}} chance) '''or'''<br/> {{recipes/extract|result=Perfect Dark}}
+| align=center |
+* Fires spherical projectiles that explode, dealing damage to all enemies in a small radius upon enemy hit or after being stuck to a small surface for 4 seconds.
+|-
+| align=center | {{item|mode=table|Vein Burster}}
+| align=center | 22 || {{item|The Perforators|size=60px}} (25% / {{expert|33.33%}} chance) '''or'''<br/> {{recipes/extract|result=Vein Burster}}
+| align=center |
+* Fires spherical projectiles that explode, dealing damage to all enemies in a small radius upon enemy hit or after being stuck to a small surface for 4 seconds.
+|-
+| align=center | {{item|mode=table|Leeching Dagger}}
+| align=center | 26 || {{item|The Hive Mind|size=40px}} (25% / {{expert|33.33%}} chance) '''or'''<br/> {{recipes/extract|result=Leeching Dagger}}
+| align=center |
+* Enemies release leeching orbs upon kill.
+* Leeching orbs home in on enemies that heal the user for 5 life upon impact.
+|-
+| align=center | {{item|mode=table|Bloody Rupture}}
+| align=center | 26 || {{item|The Perforators|size=60px}} (25% / {{expert|33.33%}} chance) '''or'''<br/> {{recipes/extract|result=Bloody Rupture}}
+| align=center |
+* Enemies release leeching orbs upon kill.
+* Leeching orbs home in on enemies that heal the user for 5 life upon impact.
+|-
+| align=center | {{item|mode=table|Wind Blade}}
+| align=center | 27 || {{recipes/extract|result=Wind Blade}}
+| align=center |
+* Fires a wind cyclone that deals half the sword's damage, pierces once, and drags non-boss enemies toward it.
+|-
+| align=center | {{item|mode=table|Gauss Dagger}}
+| align=center | 30 || {{recipes/extract|result=Gauss Dagger}}
+| align=center |
+* Spawns an energy flux on top of enemies struck twice. The flux repeatedly damages enemies that come in contact with it for 3 seconds.
+|-
+| align=center | {{item|mode=table|Ancient Shiv}}
+| align=center | 35 || {{item|Dark Caster}} (4% / {{expert|5%}} chance)
+| align=center |
+* Enemies release a blue aura cloud that deal double the sword's base damage upon kill.
+|-
+| align=center | {{item|mode=table|Bloody Edge}}
+| align=center | 52 || {{recipes/extract|result=Bloody Edge}}
+| align=center |
+* Has a 50% chance to heal the user for 1 to 3 health upon striking an enemy.
+|-
+| align=center | {{item|mode=table|Night's Stabber}}
+| align=center | 52 || {{recipes/extract|result=Night's Stabber}}
+| align=center |
+* Enemies release homing projectiles upon kill.
+|-
+| align=center | {{item|mode=table|Carnage}}
+| align=center | 55 || {{item|Blood Zombie}} (0.5% chance after [[Skeletron]] has been defeated) or {{item|Crimulan Blight Slime|size=40px}} (1% chance after [[Skeletron]] has been defeated).
+| align=center |
+* 6-8 homing blood bolts erupt out of enemies upon kill.
+* Each bolt deals damage and heals the user for 5 health upon enemy hit.
+|-
+| align=center | {{item|mode=table|Gelitic Blade}}
+| align=center | 38 || {{recipes/extract|result=Gelitic Blade}}
+| align=center |
+* Fires out a gel wave that pierces once, passes through tiles, and slows down after hitting an enemy.
+* Both the blade and gel wave inflict [[Slime]] for 5 seconds.
+|-
+| align=center | {{item|mode=table|Corrupted Crusher Blade}}
+| align=center | 39 || {{recipes/extract|result=Corrupted Crusher Blade}}
+| align=center |
+* Inflicts [[Cursed Inferno]] for 2 seconds.
+* While no bosses are alive, critical strikes reduce the target's base defense by 5.
+|-
+| align=center | {{item|mode=table|Crimson Crusher Blade}}
+| align=center | 38 || {{recipes/extract|result=Crimson Crusher Blade}}
+| align=center |
+* Inflicts [[Ichor]] for 2 seconds.
+* While no bosses are alive, critical strikes reduce the target's base defense by 5.
+|}
+
+=== Yoyos ===
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! Damage !! Acquired / Made From !! Notes
+|-
+| align=center | {{item|mode=table|Cnidarian}}
+| align=center | 18 || {{recipes/extract|result=Cnidarian}}
+| align=center |
+* Fires out small seashell projectiles when enemies are nearby.
+* Seashells deal 75% of the yoyo's base damage, pierce once, and return toward the user.
+|-
+| align=center | {{item|mode=table|Riptide}}
+| align=center | 18 || {{recipes/extract|result=Riptide}}
+| align=center |
+* Fires a spiral aqua stream in a random direction that deals 22.22% of the yoyo's base damage.
+|-
+| align=center | {{item|mode=table|Aorta}}
+| align=center | 26 || {{item|The Perforators|size=60px}} (25% / {{expert|33.33%}} chance) '''or'''<br/> {{recipes/extract|result=Aorta}}
+| align=center |
+* Fires a homing blood clot towards nearby enemies that deals 25% of the yoyo's base damage.
+|-
+| align=center | {{item|mode=table|Air Spinner}}
+| align=center | 20 || {{recipes/extract|result=Riptide}}
+| align=center |
+* Fires small feathers that deal 50% of the yoyo's base damage when enemies are nearby.
+|-
+| align=center | {{item|mode=table|The God's Gambit}}
+| align=center | 33 || {{recipes/extract|result=The God's Gambit}}
+| align=center |
+* Constantly drops damaging slime blobs that apply [[Slime]] when enemies are nearby.
+|}
+
+=== Spears ===
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! Damage !! Acquired / Made From !! Notes
+|-
+| align=center | {{item|mode=table|Marnite Spear}}
+| align=center | 20 || {{recipes/extract|result=Marnite Spear}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Yateveo Bloom}}
+| align=center | 22 || {{recipes/extract|result=Yateveo Bloom}}
+| align=center |
+* Also functions as a flail that has 30 base damage.
+|-
+| align=center | {{item|mode=table|Urchin Spear}}
+| align=center | 17 || {{recipes/extract|result=Urchin Spear}}
+| align=center |
+* Fires a stinger that slowly homes into enemies.
+* The stinger inflicts [[Poisoned]] for 10 seconds and [[Venom]] for 3 seconds.
+|-
+| align=center | {{item|mode=table|Amidias' Trident}}
+| align=center | 12 || Sold by {{item|Sea King}}.
+| align=center |
+* Fires an aquamarine whirlpool that passes through blocks and homes in on enemies; disappears after contact with an enemy.
+|-
+| align=center | {{item|mode=table|Sausage Maker}}
+| align=center | 29 || {{item|The Perforators|size=60px}} (25% / {{expert|33.33%}} chance) '''or'''<br/> {{recipes/extract|result=Sausage Maker}}
+| align=center |
+* Fires a homing blood upon upon enemy hit.
+|-
+| align=center | {{item|mode=table|Goldplume Spear}}
+| align=center | 23 || {{recipes/extract|result=Goldplume Spear}}
+| align=center |
+* Fires three gravity-affected feathers that deal 40% of the weapon's base damage.
+|}
+
+=== Boomerangs ===
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! Damage !! Acquired / Made From !! Notes
+|-
+| align=center | {{item|mode=table|Seashell Boomerang}}
+| align=center | 15 || {{recipes/extract|result=Seashell Boomerang}}
+| align=center |
+* Can be thrown an infinite amount of times at once.
+|}
+
+=== Flails ===
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! Damage !! Acquired / Made From !! Notes
+|-
+| align=center | {{item|mode=table|Yateveo Bloom}}
+| align=center | 30 || {{recipes/extract|result=Yateveo Bloom}}
+| align=center |
+* Pierces indefinitely.
+* Inflicts [[Poisoned]] for 3 seconds and [[Venom]] for 1.5 seconds.
+* Also functions as a spear that has 22 base damage.
+|-
+| align=center | {{item|mode=table|Urchin Flail}}
+| align=center | 20 || Sold by {{item|Sea King}}.
+| align=center |
+* Throws out an urchin that fires out a spike that inflicts [[Venom]] for 5 seconds.
+|-
+| align=center | {{item|mode=table|Ball O' Fugu}}
+| align=center | 40 || {{item|mode=image|Shadow Chest|s}} in the [[Abyss]]
+| align=center |
+* Throws out a pufferfish that fires out multiple homing spikes.
+* Both the pufferfish and the homing spikes inflict [[Venom]] for 4 or 3 seconds, respectively.
+|}
+
+=== Other ===
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! Damage !! Acquired / Made From !! Notes
+|-
+| align=center | {{item|mode=table|Monstrous Knives}}
+| align=center | 4 || {{recipes/extract|result=Monstrous Knives}}
+| align=center |
+* Fires a spread of 3-6 gravity-affected knives that have a 33.33% chance to heal the user for 7.5% to 90% of damage dealt.
+* Fade away after a short time, losing 10% damage and knockback every 0.5 seconds.
+|}
+
+== Hardmode ==
+
+=== Swords ===
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! Damage !! Acquired / Made From !! Notes
+|-
+| align=center | {{item|mode=table|Ancient Crusher}}
+| align=center | 55 || {{recipes/extract|result=Ancient Crusher}}
+| align=center |
+* Creates fossil spikes for a few seconds on enemies hit.
+|-
+| align=center | {{item|mode=table|Evil Smasher}}
+| align=center | 55 || {{item|Basilisk|}} (0.5% chance)
+| align=center |
+* Creates fossil spikes for a few seconds on enemies hit.
+* Has a 33.33% chance for stats to double on hit, and has a 66.67% chance to revert back on hit afterwards.
+* Rare variant of the [[Ancient Crusher]].
+|-
+| align=center | {{item|mode=table|True Caustic Edge}}
+| align=center | 100 || {{recipes/extract|result=True Caustic Edge}}
+| align=center |
+* Fires a high-velocity sword beam that deals 75% of the blade's base damage and inflicts [[On Fire!]] for 4 seconds and [[Venom]] for 2 seconds.
+* The blade itself inflicts [[On Fire!]] for 5 seconds, [[Poisoned]] for 10 seconds, and [[Venom]] for 5 seconds.
+|-
+| align=center | {{item|mode=table|Axe of Purity}}
+| align=center | 43 || {{recipes/extract|result=Axe of Purity}}
+| align=center |
+* Right click fires damaging [[Purification Powder]] for 85% of the axe's damage and spreads the [[Purity]].
+|-
+| align=center | {{item|mode=table|Crystal Blade}}
+| align=center | 45 || {{recipes/extract|result=Crystal Blade}}
+| align=center |
+* Fires a slow-moving cloud of multicolored dust.
+|-
+| align=center | {{item|mode=table|Fulguration Halberd}}
+| align=center | 53 || {{recipes/extract|result=Fulguration Halberd}}
+| align=center |
+* Inflicts [[Burning Blood]] for 5 seconds.
+* Also functions as a spear with right click.
+|-
+| align=center | {{item|mode=table|Roxcalibur}}
+| align=center | 65 || {{recipes/extract|result=Roxcalibur}} '''or'''</br>found by breaking [[File:Roxcalibur (object).png]].
+| align=center |
+* Launches three gravity-affected rock shards upward that do 40% of the weapon's base damage.
+* On right click in mid-air, the user will dive downward and bounce, creating shockwaves on tiles that deal 300 base damage and have a cooldown of 15 seconds.
+|-
+| align=center | {{item|mode=table|Celestial Claymore}}
+| align=center | 60 || Drops from any [[Mimic|Biome Mimic]] (14.29% / {{expert|20%}} chance)
+| align=center |
+* Spawns three blue, red, or yellow flame stars above the user on swing.
+* Blue stars inflict [[Frostburn]] for 10 seconds, red stars inflict [[On Fire!]] for 5 seconds, and yellow stars inflict [[Ichor]] for 2 seconds.
+|-
+| align=center | {{item|mode=table|Eutrophic Scimitar}}
+| align=center | 130 || {{item|Blinded Angler|}} (25% chance)
+| align=center |
+* Fires an electric shock projectile that briefly stuns enemies.
+* Stun does not apply if any bosses are alive.
+|-
+| align=center | {{item|mode=table|Aftershock}}
+| align=center | 60 || {{item|Earth Elemental|size=60px}} (25% chance)
+| align=center |
+* Spawns a boulder that falls from the sky upon enemy hit.
+|-
+| align=center | {{item|mode=table|Storm Saber}}
+| align=center | 68 || {{item|Cloud Elemental|size=40px}} (20% chance)
+| align=center |
+* Fires one sword projectile from the sword and another that comes from the sky at the position of the cursor.
+|-
+| align=center | {{item|mode=table|Forsaken Saber}}
+| align=center | 65 || {{recipes/extract|result=Forsaken Saber}}
+| align=center |
+* Fires a sand blade that stops for 1 second, then rapidly moves toward the cursor.
+|-
+| align=center | {{item|mode=table|Glacial Crusher}}
+| align=center | 59 || {{item|Cryogen|size=40px}} (25% / {{expert|33.33%}} chance)
+| align=center |
+* Fires a slow, icy projectile that deals more damage and inflicts [[Glacial State]] longer depending on how far it travels.
+* Enemies affected by Glacial State take triple the damage from the blade; immune enemies take twice as much damage from the weapon.
+* Projectile will only inflict Glacial State if it has been out for longer than 0.5 seconds, and only for up to 5 seconds.
+|-
+| align=center | {{item|mode=table|Avalanche}}
+| align=center | 60 || {{item|Cryogen|size=40px}} (25% / {{expert|33.33%}} chance)
+| align=center |
+* Creates ice bombs that inflict [[Glacial State]] for 1 second around the user on enemy hit.
+* Ice bombs explode into shards that deal 50% of the weapon's base damage on enemy hit or after 2 seconds.
+|-
+| align=center | {{item|mode=table|Coldheart Icicle}}
+| align=center | 1 || Sold by {{item|Archmage}}.
+| align=center |
+* Enemies struck by this weapon lose 2% of their max health.
+* Cannot inflict critical hits.
+|-
+| align=center | {{item|mode=table|Trinity}}
+| align=center | 50 || {{recipes/extract|result=Trinity}}
+| align=center |
+* Fires four glowing projectiles in a random spread that can be red, purple, or blue.
+* Red projectiles pierce four times.
+|-
+| align=center | {{item|mode=table|Darklight Greatsword}}
+| align=center | 75 || {{recipes/extract|result=Darklight Greatsword}}
+| align=center |
+* Fires darklight blades that explode after hitting enemy or block, splitting into 3-4 smaller orbs.
+* The blade, darklight blades, and split orbs inflict [[Frostburn]] for 3 seconds, 4 seconds, and 2 seconds respectively.
+|-
+| align=center | {{item|mode=table|Flarefrost Blade}}
+| align=center | 65 || {{recipes/extract|result=Flarefrost Blade}}
+| align=center |
+* Fires homing projectiles that inflict [[On Fire!]] and [[Frostburn]] for 5 seconds.
+|-
+| align=center | {{item|mode=table|Excalibur Shortsword}}
+| align=center | 70 || {{recipes/extract|result=Excalibur Shortsword}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Ark of the Ancients}}
+| align=center | 92 || {{recipes/extract|result=Ark of the Ancients}}
+| align=center |
+* Fires either an Eon Beam or Enchanted Sword beam that each do 33.33% of the weapon's base damage alongside two hallow stars which fall from the sky at the cursor that do 50% of the weapon's base damage.
+* The Eon Beam inflicts [[Elemental Mix]] for 2 seconds and pierces twice.
+* True melee strikes have a 50% chance of inflicting [[Holy Flames]] for 5 seconds.
+|-
+| align=center | {{item|mode=table|Submarine Shocker}}
+| align=center | 60 || {{item|Aquatic Scourge|size=100px}} (25% / {{expert|33.33%}} chance)
+| align=center |
+* Enemies release small electric sparks upon kill that do constant damage.
+|-
+| align=center | {{item|mode=table|Majestic Guard}}
+| align=center | 60 || {{recipes/extract|result=Majestic Guard}}
+| align=center |
+* Has a 20% chance to lower struck enemies' defense by 10.
+* The user is healed for 6 health on strike if the enemy's defense is equal to or less than 0.
+|-
+| align=center | {{item|mode=table|Forbidden Oathblade}}
+| align=center | 64 || {{recipes/extract|result=Forbidden Oathblade}}
+| align=center |
+* Fires out a demonic scythe that pierces twice.
+* Critical hits create purple explosions on the target that deal 200% of the weapon's base damage and can not critically strike.
+* The blade, projectiles, and explosions inflict [[On Fire!]] and [[Shadowflame]] for 4 seconds, 3 seconds, and 12 seconds respectively.
+|-
+| align=center | {{item|mode=table|Catastrophe Claymore}}
+| align=center | 67 || {{recipes/extract|result=Catastrophe Claymore}}
+| align=center |
+* Fires out damaging projectiles that can be either red, blue, or yellow.
+* The blade has a 33.33% chance to inflict [[On Fire!]], [[Frostburn]], and [[Ichor]] for 5 seconds.
+* Red projectiles inflict [[On Fire!]] for 10 seconds, blue projectiles inflict [[Frostburn]] for 5 seconds, and yellow projectiles inflict [[Ichor]] for 2 seconds.
+|-
+| align=center | {{item|mode=table|Inferna Cutter}}
+| align=center | 110 || {{recipes/extract|result=Inferna Cutter}}
+| align=center |
+* Releases several sparks that have a 33.33% chance to inflict [[On Fire!]] for 2-3 seconds.
+* The blade inflicts [[On Fire!]] and [[Brimstone Flames]] for 5 seconds each.
+* Creates an explosion on critical hits.
+|-
+| align=center | {{item|mode=table|Phoenix Blade}}
+| align=center | 120 || {{recipes/extract|result=Phoenix Blade}}
+| align=center |
+* Creates explosions and healing orbs upon enemy kill.
+* The healing orbs health 10 health if touched but disappear after 3 seconds or if they touch a tile.
+|-
+| align=center | {{item|mode=table|Brimlash}}
+| align=center | 64 || {{recipes/extract|result=Brimlash}}
+| align=center |
+* Fires a brimstone bolt that split into four homing projectiles upon hitting an enemy or tile.
+* Automatically fires the homing projectiles if fired straight horizontally or vertically.
+* Inflicts [[Brimstone Flames]] for 5 seconds.
+|-
+| align=center | {{item|mode=table|Tyrant Yharim's Ultisword}}
+| align=center | 64 || {{recipes/extract|result=Tyrant Yharim's Ultisword}}
+| align=center |
+* Shoots out a red blade that homes in on enemies, gradually slowing to a stop.
+* Hitting an enemy with the sword has a 50% chance of granting the [[Tyrant's Fury]] buff for 3 seconds.
+* The sword projectile and blade inflict [[On Fire!]] and [[Venom]] for 3 seconds and 2 seconds, respectively.
+|-
+| align=center | {{item|mode=table|True Bloody Edge}}
+| align=center | 70 || {{recipes/extract|result=True Bloody Edge}}
+| align=center |
+* Shoots out a yellow sword projectile that inflicts [[Ichor]] for 1 second and pierces twice.
+* If an enemy is hit by the blade, there is a 50% chance that the user is healed for 1-6 health
+* The sword projectile and blade inflict [[On Fire!]] and [[Venom]] for 3 seconds and 2 seconds, respectively.
+|-
+| align=center | {{item|mode=table|Brimstone Sword}}
+| align=center | 75 || {{recipes/extract|result=Brimstone Sword}}
+| align=center |
+* Summons a small brimstone geyser when an enemy is hit with the blade.
+* Right click throws the sword similarly to a spear, which creates explosions that deal 50% of the weapons damage.
+* The blade and geysers, thrown blade, and explosions inflict [[Brimstone Flames]] for 2 seconds, 3 seconds, and 10 seconds respectively.
+|-
+| align=center | {{item|mode=table|True Night's Stabber}}
+| align=center | 75 || {{recipes/extract|result=True Night's Stabber}}
+| align=center |
+* Fires out a projectile that pierces twice.
+|-
+| align=center | {{item|mode=table|True Excalibur Shortsword}}
+| align=center | 70 || {{recipes/extract|result=True Excalibur Shortsword}}
+| align=center |
+* Fires out a projectile that pierces twice.
+|-
+| align=center | {{item|mode=table|Anarchy Blade}}
+| align=center | 110 || {{recipes/extract|result=Anarchy Blade}}
+| align=center |
+* Enemy strikes create a large explosion.
+* 10% of the user's missing health is added to the base damage of the sword.
+* If the user is below 50% health, there is a 20% chance a strike will instantly kill a non-boss enemy.
+* Inflicts Brimstone Flames for 5 seconds.
+|-
+| align=center | {{item|mode=table|Floodtide}}
+| align=center | 89 || {{recipes/extract|result=Floodtide}} '''or'''<br/> fishing after [[Calamitas]] has been defeated under the effect of [[Gills]].
+| align=center |
+* Fires 2 mini Sharkrons.
+|-
+| align=center | {{item|mode=table|Mariana}}
+| align=center | 90 || {{recipes/extract|result=Mariana}}
+| align=center |
+* Killed enemies explode into 4-5 damaging bubbles that can bounce off of tiles and pierce twice.
+|-
+| align=center | {{item|mode=table|Abyss Blade}}
+| align=center | 90 || {{recipes/extract|result=Abyss Blade}}
+| align=center |
+* Fires a trident that deals 67% of the weapon's base damage that explodes after a short distance or contacting a block.
+* The sword and trident inflict [[Crush Depth]] for 5 seconds and 3 seconds respectively.
+|-
+| align=center | {{item|mode=table|True Ark of the Ancients}}
+| align=center | 98 || {{recipes/extract|result=True Ark of the Ancients}}
+| align=center |
+* Fires an Eon Beam that does 75% of the weapon's base damage alongside either one or two hallow stars and homing terra star which fall from the sky at the cursor that do 33.33% of the weapon's base damage and pierce once.
+* True melee strikes have a 50% chance of inflicting [[Holy Flames]] for 5 seconds.
+|-
+| align=center | {{item|mode=table|Terra Edge}}
+| align=center | 112 || {{recipes/extract|result=Terra Edge}}
+| align=center |
+* Fires a beam that deals 75% of the weapon's base damage.
+* If the blade hits a target, the user is healed for 2-3 health.
+* Both the beam and blade inflict [[Ichor]] for 1 second or 2 seconds respectively.
+|-
+| align=center | {{item|mode=table|Terra Shiv}}
+| align=center | 140 || {{recipes/extract|result=Terra Shiv}}
+| align=center |
+* Fires a beam that pierces thrice.
+|-
+| align=center | {{item|mode=table|Feralthorn Claymore}}
+| align=center | 63 || {{recipes/extract|result=Feralthorn Claymore}}
+| align=center |
+* Creates four thorn pillars around the user upon hitting an enemy.
+* The blade inflicts [[Venom]] for 5 seconds.
+|-
+| align=center | {{item|mode=table|Hellkite}}
+| align=center | 100 || {{recipes/extract|result=Hellkite}}
+| align=center |
+* Summons a damaging geyser on struck enemies.
+* Inflicts [[On Fire!]] for 10 seconds.
+|-
+| align=center | {{item|mode=table|Mantis Claws}}
+| align=center | 120 || {{item|Mantis Shrimp}} (20% chance after [[Plantera]] has been defeated).
+| align=center |
+* Only benefits from 25% of melee swing speed bonuses.
+|-
+| align=center | {{item|mode=table|Temporal Floe Sword}}
+| align=center | 95 || {{recipes/extract|result=Temporal Floe Sword}}
+| align=center |
+* Fires an ice beam that deals 65% of the blade's damage.
+* Ice beam splits into two that deal 32.5% of the blade's damage, the direction depending on the in-game time based on an analog clock.
+* Both the sword and beam have a 33.33% chance to inflict [[Glacial State]] for 2 seconds and a 100% chance to inflict [[Frostburn]] for 10 seconds and 4 seconds respectively.
+|-
+| align=center | {{item|mode=table|Comet Quasher}}
+| align=center | 120 || {{recipes/extract|result=Comet Quasher}}
+| align=center |
+* Summons three falling meteors that do 50% of the sword's damage upon striking an enemy.
+|-
+| align=center | {{item|mode=table|True Biome Blade}}
+| align=center | 160 || {{recipes/extract|result=True Biome Blade}}
+| align=center |
+* Fires sword projectiles that inflict different debuffs depending on what biome the user is in.
+|-
+| align=center | {{item|mode=table|Terra-cotta}}
+| align=center | 125 || {{item|Dune Splicer|size=100px}} (3.33% / {{expert|5%}} chance after [[Plantera]] has been defeated)
+| align=center |
+* Creates an explosion upon enemy kills that spawn yellow orbs that heal players for 9 health when picked up.
+|-
+| align=center | {{item|mode=table|Holiday Halberd}}
+| align=center | 98 || {{item|Present Mimic}} (14.29% / {{expert|20%}} chance)
+| align=center |
+* Fires a gift bag which has a 66.67% chance to be red and a 33.33% chance to be green that will fire out spore clouds every 0.25 seconds that deal 75% of the bag's damage.
+* Red gift bags inflict [[On Fire!]] for 5 seconds while green gift bags inflict [[Cursed Inferno]] for 2 seconds.
+|-
+| align=center | {{item|mode=table|Absolute Zero}}
+| align=center | 120 || Sold by {{item|Archmage}} after defeating all [[Frost Moon]] minibosses.
+| align=center |
+* Fires a dark ice crystal which explodes upon impact.
+* Striking with the blade creates large frost explosions.
+* The blade and projectile inflict both Frostburn for 10 seconds and 8 seconds, and Glacial State for 5 seconds and 1.5 seconds respectively.
+|-
+| align=center | {{item|mode=table|Greentide}}
+| align=center | 95 || {{item|Leviathan and Anahita|size=100px}} (25% / {{expert|33.33%}} chance)
+| align=center |
+* Teeth rain from the sky near the cursor upon striking an enemy, which inflict [[Venom]] for 6 seconds.
+|-
+| align=center | {{item|mode=table|Titan Arm}}
+| align=center | 60 || {{item|Atlas|size=60px}} (14.29% chance after [[Astrum Aureus]] has been defeated.)
+| align=center |
+* Has an absurdly high knockback.
+* 100% critical hit chance.
+|-
+| align=center | {{item|mode=table|Astral Scythe}}
+| align=center | 120 || {{item|Mantis|size=60px}} (14.29% chance after [[Astrum Aureus]] has been defeated.)
+| align=center |
+* Fires out spinning rings which deal 60% of the scythe's base damage and can pierce seven times.
+|-
+| align=center | {{item|mode=table|Aegis Blade}}
+| align=center | 68 || {{item|Golem|size=60px}} ({{revengeance|1%}} chance)
+| align=center |
+* Creates a stationary flame explosion that can hit a target up to 6 times before disappearing.
+* Right clicking shoots a fireball that deals 85% of the weapon's base damage, which explodes into three flaming sparks on contact that deal 75% of the fireball's damage.
+* Sparks that hit an enemy spawn a small flame explosion that do 75% of the spark's damage.
+|-
+| align=center | {{item|mode=table|Soul Harvester}}
+| align=center | 98 || {{recipes/extract|result=Soul Harvester}}
+| align=center |
+* Inflicts [[Plague]] for 5 seconds.
+* Shoots out spinning scythes that pierce, stop after a certain time, and inflict [[Plague]] and [[On Fire!]] for 5 seconds each.
+* The scythe inflicts [[Cursed Inferno]] for 2 seconds.
+|-
+| align=center | {{item|mode=table|Hellfire Flamberge}}
+| align=center | 90 || {{recipes/extract|result=Hellfire Flamberge}}
+| align=center |
+* Fires out two small and one large fireball with slightly randomized angles and speeds that deal 50% and 75% of the weapon's base damage respectively.
+* The sword, small fireballs, and large fireball inflict [[On Fire!]] for 5 seconds, 4 seconds, and 8 seconds respectively.
+|-
+| align=center | {{item|mode=table|Omniblade}}
+| align=center | 63 || {{recipes/extract|result=Omniblade}}
+| align=center |
+* Has a 20% chance to inflict [[Whispering Death]] for 6 seconds.
+* Only benefits from 25% of melee swing speed bonuses.
+* Can only hit up to 4 enemies per swing.
+|-
+| align=center | {{item|mode=table|Lucrecia}}
+| align=center | 90 || {{recipes/extract|result=Lucrecia}}
+| align=center |
+* Costs 5 health per swing.
+* Fires a double helix directly left or right of the cursor that goes through terrain.
+* If an enemy is hit by the blade or double helix, the user is granted 5 immunity frames.
+|-
+| align=center | {{item|mode=table|Blade of Enmity}}
+| align=center | 158 || {{recipes/extract|result=Blade of Enmity}}
+| align=center |
+* Inflicts [[Brimstone Flames]] for 10 seconds.
+* Only benefits from 25% of melee swing speed bonuses.
+|-
+| align=center | {{item|mode=table|Virulence}}
+| align=center | 96 || {{item|The Plaguebringer Goliath|size=60px}} (25% / {{expert|33.33%}} chance)
+| align=center |
+* Inflicts [[Plague]] for 4 seconds.
+* Fires a plague wave that deals 85% of the weapon's base damage, pierces indefinitely, and goes through walls.
+|-
+| align=center | {{item|mode=table|True Forbidden Oathblade}}
+| align=center | 150 || {{recipes/extract|result=True Forbidden Oathblade}}
+| align=center |
+* Fires out three demonic scythe that pierce twice which deal 50% of the weapon's base damage.
+* Critical hits create purple explosions on the target that deal 200% of the weapon's base damage and can not critically strike.
+* The blade, projectiles, and explosions inflict [[On Fire!]] and [[Shadowflame]] for 5 seconds, 3 seconds, and 15 seconds respectively.
+|-
+| align=center | {{item|mode=table|Briny Baron}}
+| align=center | 75 || {{item|Duke Fishron|size=60px}} ({{revengeance|1%}} chance)
+| align=center |
+* Creates a briny typhoon that deals 50% of the weapon's base damage in rapid succession.
+* Right clicking fires homing razorblade typhoons that pierce twice.
+|-
+| align=center | {{item|mode=table|Ultimus Cleaver}}
+| align=center | 130 || {{item|Ravager|size=60px}} (20% chance)
+| align=center |
+* Fires out five homing, gravity-affected sparks that pierce up to four times and deal 10% of the weapon's base damage.
+* True melee strikes create explosions that cannot critically strike.
+|-
+| align=center | {{item|mode=table|Storm Ruler}}
+| align=center | 80 || {{recipes/extract|result=Storm Ruler}}
+| align=center |
+* Shoots out a beam that creates a small tornado upon hitting an enemy or tile.
+* The tornado lasts 10 seconds, hitting four times per second with infinite piercing and pulling enemies in.
+* The blade, projectiles, and explosions inflict [[On Fire!]] and [[Shadowflame]] for 5 seconds, 3 seconds, and 15 seconds respectively.
+|-
+| align=center | {{item|mode=table|Brimlash Buster}}
+| align=center | 126 || {{recipes/extract|result=Brimlash Buster}}
+| align=center |
+* Shoots either four brimstone bolts to the left, right, and diagonals of the user; or a large brimstone bolt aimed at the cursor.
+* Inflicts [[Brimstone Flames]] for 5 seconds.
+|-
+| align=center | {{item|mode=table|Grand Guardian}}
+| align=center | 150 || {{recipes/extract|result=Grand Guardian}}
+| align=center |
+* Has a 20% chance to lower struck enemies' defense by 15.
+* The user is healed for 4 health on strike if the enemy's defense is equal to or less than 0.
+* Striking enemies causes large explosions.
+* Hitting enemies under 50% health releases rainbow bolts.
+* Enemies killed spawn healing orbs on death which heal players for 8 health each.
+|-
+| align=center | {{item|mode=table|Baleful Harvester}}
+| align=center | 160 || {{recipes/extract|result=Baleful Harvester}}
+| align=center |
+* Shoots fiery orange skulls that inflict [[On Fire!]] for 10 seconds and break into 3 homing orbs upon hitting an enemy.
+* Striking enemies with the blade spawns homing pumpkins off-screen.
+|-
+| align=center | {{item|mode=table|Astral Blade}}
+| align=center | 110 || {{recipes/extract|result=Astral Blade}}
+| align=center |
+* Increases its damage, knockback, and critical strike by the remaining percentage of the target's health.
+* Only benefits from 25% of melee swing speed bonuses.
+|-
+| align=center | {{item|mode=table|Terratomere}}
+| align=center | 125 || {{recipes/extract|result=Terratomere}}
+| align=center |
+* Fires a barrage of 4-5 homing beams that can pass through blocks which deal 50% of the weapon's base damage.
+* True melee strikes heal the user for 2-4 health.
+* The sword and beams inflict [[Glacial State]] for 2 seconds and 1 second respectively.
+|-
+| align=center | {{item|mode=table|Entropic Claymore}}
+| align=center | 90 || {{recipes/extract|result=Entropic Claymore}}
+| align=center |
+* Fires 4-5 plasma balls that can either be large, medium, or small per swing.
+* Large balls deal 80% of the weapon's base damage, medium balls deal 65%, and small balls deal 50%.
+|}
+
+=== Yoyos ===
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! Damage !! Acquired / Made From !! Notes
+|-
+| align=center | {{item|mode=table|Yin-Yo}}
+| align=center | 34 || {{recipes/extract|result=Yin-Yo}}
+| align=center |
+* Fires Dark Shards toward the target and Light Shards away from the target when enemies are near.
+* Shards will travel back and forth five times, passing through walls and infinitely piercing.
+|-
+| align=center | {{item|mode=table|Shimmerspark}}
+| align=center | 36 || {{recipes/extract|result=Shimmerspark}}
+| align=center |
+* Randomly fires slow-moving hallow stars at enemies when they are nearby.
+* Hallow stars pierce once before disappearing.
+|-
+| align=center | {{item|mode=table|Sulphurous Grabber}}
+| align=center | 45 || {{item|Sulphurous Skater}} (5% chance)
+| align=center |
+* Occasionally releases a ring of seven purple or green damaging bubbles that deal 25% of yoyo's base damage.
+* If a green bubble is touched by the yoyo, it increases its damage and causes it to release bubbles more often.
+* The yoyo inflicts [[Irradiated]] for 2 seconds.
+|-
+| align=center | {{item|mode=table|Oblivion}}
+| align=center | 41 || {{item|Calamitas|size=60px}} (25% / {{expert|33.33%}} chance)
+| align=center |
+* Fires brimstone lasers at nearby enemies for 50% of the yoyo's base damage.
+* The yoyo and brimstone lasers inflict [[Brimstone Flames]] for 5 seconds and 1 second respectively.
+|-
+| align=center | {{item|mode=table|Quagmire}}
+| align=center | 52 || {{recipes/extract|result=Quagmire}}
+| align=center |
+* Randomly and continuously emits spore clouds which deal 50% to 70% of the yoyo's base damage.
+* The yoyo inflicts [[Venom]] for 5 seconds.
+|-
+| align=center | {{item|mode=table|Fault Line}}
+| align=center | 88 || {{recipes/extract|result=Fault Line}}
+| align=center |
+* Creates a small, fiery explosion every time it hits an enemy which deals additional damage.
+|-
+| align=center | {{item|mode=table|Pandemic}}
+| align=center | 66 || {{item|The Plaguebringer Goliath|size=60px}} (25% / {{expert|33.33%}} chance)
+| align=center |
+* Constantly fires plague seekers at nearby enemies for 75% of the yoyo's base damage.
+* The yoyo and plague seekers inflict [[Plague]] for 10 seconds and 5 seconds respectively.
+|-
+| align=center | {{item|mode=table|The Microwave}}
+| align=center | 65 || {{item|Astrum Deus|size=100px}} (25% / {{expert|33.33%}} chance)
+| align=center |
+* Inflicts [[Astral Infection (debuff)|Astral Infection]] for 5 seconds.
+* Is surrounded by a small aura that continuously damages nearby enemies for 35% of the yoyo's base damage.
+|}
+
+=== Spears ===
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! Damage !! Acquired / Made From !! Notes
+|-
+| align=center | {{item|mode=table|Fulguration Halberd}}
+| align=center | 53 || {{recipes/extract|result=Fulguration Halberd}}
+| align=center |
+* Inflicts [[Burning Blood]] for 5 seconds.
+* Also functions as a sword with left click.
+|-
+| align=center | {{item|mode=table|Earthen Pike}}
+| align=center | 50 || {{item|Earth Elemental|size=60px}} (25% chance)
+| align=center |
+* Releases four fossil shards that deal 50% of the spear's damage.
+* The spear and fossil shards nflict [[Armor Crunch]] for 4 seconds and 1 second respectively.
+|-
+| align=center | {{item|mode=table|Starnight Lance}}
+| align=center | 95 || {{recipes/extract|result=Starnight Lance}}
+| align=center |
+* Inflicts [[Frostburn]] for 2 seconds.
+* Fires out a beam that pierces twice.
+|-
+| align=center | {{item|mode=table|Brimlance}}
+| align=center | 100 || {{item|Brimstone Elemental|size=60px}} (33.33% chance)
+| align=center |
+* Killed enemies spawn damaging brimstone explosions and flames.
+* The explosion and flames inflict [[Brimstone Flames]] for 10 seconds and 3 seconds respectively.
+|-
+| align=center | {{item|mode=table|Terra Lance}}
+| align=center | 88 || {{recipes/extract|result=Terra Lance}}
+| align=center |
+* Fires out a beam that deals 70% of the spear's base damage and knockback, pierces infinitely, and goes through blocks.
+|-
+| align=center | {{item|mode=table|Hellion Flower Spear}}
+| align=center | 135 || {{recipes/extract|result=Hellion Flower Spear}}
+| align=center |
+* Inflicts [[Venom]] for 5 seconds.
+* Fires out a spike that pierces twice.
+* A damaging flower petal will fly toward a target if it receives a critical strike.
+|-
+| align=center | {{item|mode=table|Vulcanite Lance}}
+| align=center | 77 || {{recipes/extract|result=Vulcanite Lance}}
+| align=center |
+* Inflicts [[On Fire!]] for 5 seconds.
+* Creates explosions upon enemy hits.
+* On critical hits, two flares will fly in from off-screen, homing into a target to deal 50% of the spear's damage.
+|-
+| align=center | {{item|mode=table|Diseased Pike}}
+| align=center | 66 || {{item|The Plaguebringer Goliath|size=60px}} (25% / {{expert|33.33%}} chance)
+| align=center |
+* Inflicts [[Plague]] for 6 seconds.
+* Fires plague seekers at nearby enemies for 75% of the yoyo's base damage.
+|-
+| align=center | {{item|mode=table|Galvanizing Glaive}}
+| align=center | 100 || {{recipes/extract|result=Galvanizing Glaive}}
+| align=center |
+* Spins around, releasing five gauss energy projectiles that do 40% of the spear's base damage each.
+* If an enemy is struck by the spear, there is a 1/12 chance for an energy flux to spawn on the enemy that deals continuous damage.
+* Consumes 0.075 units of charge per use and has a maximum charge of 135.
+|-
+| align=center | {{item|mode=table|Tenebreus Tides}}
+| align=center | 80 || {{recipes/extract|result=Tenebreus Tides}}
+| align=center |
+* Launches a water spear that deals 65% of the spear's base damage.
+* If an enemy is struck by the spear or its projectile, three swords or spears will surround the target, then dealing half the damage of the projectile that spawned them up to two times.
+|-
+| align=center | {{item|mode=table|Astral Pike}}
+| align=center | 128 || {{recipes/extract|result=Astral Pike}}
+| align=center |
+* On critical hits, three astral stars move in a diagonal pattern towards the player, homing into nearby enemies and dealing 40% of the spear's base damage.
+|}
+
+=== Boomerangs ===
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! Damage !! Acquired / Made From !! Notes
+|-
+| align=center | {{item|mode=table|Kelvin Catalyst}}
+| align=center | 70 || {{item|Cryogen|size=40px}} ({{revengeance|1%}} chance)
+| align=center |
+* Spawns eight ice stars upon enemy contact, which do 1/6 of the boomerang's base damage, go through tiles, and sharply home-in on enemies.
+* The boomerang and ice stars inflict [[Frostburn]] for 4 seconds and 1 second respectively.
+|-
+| align=center | {{item|mode=table|Pwnagehammer}}
+| align=center | 210 || {{recipes/extract|result=Pwnagehammer}}
+| align=center |
+* Has a 20% of homing in on enemies, which will spawn an additional homing spectral hammer that are guaranteed to do a critical hit upon hitting one.
+* The normal hammer does 75% base damage.
+|-
+| align=center | {{item|mode=table|Terra Disk}}
+| align=center | 100 || {{recipes/extract|result=Terra Disk}}
+| align=center |
+* Has a chance to create smaller disks outward from the source disk if an enemy is near.
+|-
+| align=center | {{item|mode=table|Mangrove Chakram}}
+| align=center | 84 || {{recipes/extract|result=Mangrove Chakram}}
+| align=center |
+* Inflicts [[Cursed Inferno]] for 2 seconds.
+|-
+| align=center | {{item|mode=table|Fallen Paladin's Hammer}}
+| align=center | 87 || {{recipes/extract|result=Fallen Paladin's Hammer}}
+| align=center |
+* Hammer inflicts [[Brimstone Flames]] for 5 seconds.
+* Creates small explosions which inflict [[On Fire!]] for 5 seconds upon striking enemies.
+|-
+| align=center | {{item|mode=table|Subduction Slicer}}
+| align=center | 90 || {{recipes/extract|result=Subduction Slicer}}
+| align=center |
+* Creates small explosions which inflict [[On Fire!]] for 5 seconds upon striking enemies.
+* Can be continuously thrown even if initial scythe has not returned.
+|}
+
+=== Flails ===
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! Damage !! Acquired / Made From !! Notes
+|-
+| align=center | {{item|mode=table|Clam Crusher}}
+| align=center | 100 || {{item|Giant Clam|size=60px}} (25% chance)
+| align=center |
+* Inflicts [[Eutrophication]] for 0.5-1 seconds.
+* Deals 2.5x more damage if fired into the air before landing on an enemy.
+|-
+| align=center | {{item|mode=table|Tumbleweed}}
+| align=center | 125 || {{recipes/extract|result=Tumbleweed}}
+| align=center |
+* Chain will break upon contacting an enemy, releasing a rolling tumbleweed that can pierce multiple enemies.
+|-
+| align=center | {{item|mode=table|Nebulash}}
+| align=center | 66 || {{item|Astrum Aureus|size=60px}} (25% / {{expert|33.33%}} chance)
+| align=center |
+* Creates a short lasting dust that deals 50% of the weapon's base damage after enemy contact.
+|}

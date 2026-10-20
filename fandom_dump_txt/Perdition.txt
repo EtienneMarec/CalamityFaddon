@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 444
+| knockback = 4
+| mana = 10
+| use = 9
+| tooltip = Summons a beacon at the position of the mouse<br/>When a target is manually selected via right click it releases torrents of souls from below onto the target<br/>Only one beacon may exist at a time
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| buff = Perdition (buff) | bufflink = no
+| bufftip = How unfortunate
+| proj = Redirecting Gilded Soul.gif
+| projcaption = Gilded Soul
+| proj2 = Redirecting Lost Soul.gif
+| proj2caption = Lost Soul
+| proj3 = Redirecting Vengeful Soul.gif
+| proj3caption = Vengeful Soul
+| image2 = Perdition Cross.png
+| image2caption = Perdition Cross
+| element1 = Unholy
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Supreme Calamitas]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Perdition Beacon|type=sentry}}
+
+'''Perdition''' is a Godseeker Mode [[sentry]] that drops from [[Supreme Calamitas]]. When used, a floating beacon sentry follows the player around. When an enemy is targeted via right-clicking with most summon weapons, a cross appears on the marked target, a large area lights up with fire dust, and various types of homing souls appear from below.
+
+{{Modifier|summon}}
+
+[[File:Perdition (demo).gif|frame|left|The Perdition in use.]]
+
+== Trivia ==
+*Perdition is a state of eternal punishment originating from Christianity, that sinful people are sentenced to after death.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-summon = yes
+}}

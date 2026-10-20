@@ -1,0 +1,37 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Whenever you crit an enemy with a Spy weapon your Spy damage increases<br/>This effect can stack up to 150 times<br/>Max Spy damage boost is 15%<br/>Spy Crit Level: [LEVEL HERE]
+| sell = {{value|0|0|40}}
+| rare = 2
+| stack = 1
+}}
+
+The '''Raider's Talisman''' is a [[Pre-Hardmode]] [[Spy]] [[covering]]. It is craftable as soon as the player is able to obtain [[Obsidian]].
+
+Every time the player lands a critical strike with a Spy weapon, the player's Spy damage increases by 0.1%. The damage bonus stacks up to 150 times at a cap of 15%.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*If the player un-equips the covering then re-equips it, the bonus is not reset.
+*If the player dies or quits the game, the bonus is lost and has to be rebuilt.
+*Damage can only be stacked from hitting enemies that have a damage stat of 5 or higher, with the exception of enemies spawned from [[statues]].
+
+== Trivia ==
+
+* The Raider's Talisman is a reference to an item of the same name from ''Darkest Dungeon'', although the two are similar only in appearance and class application.
+
+
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

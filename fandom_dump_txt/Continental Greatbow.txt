@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 34
+| knockback = 4
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| auto = yes
+| velocity = 17
+| use = 20
+| hardmode = yes
+| debuff = Ichor (debuff)
+| debuffduration = 10 seconds (Ichor Arrow)
+| debuffchance = 100%
+| debufftip = Defense reduced by 20
+| debuff2 = Cursed Inferno
+| debuffduration2 = 7 seconds (Cursed Arrow)
+| debuffchance2 = 100%
+| debufftip2 = Losing life<br/>All damage taken increased by 20%
+| tooltip = Wooden arrows are set alight with fire<br/>Fires 3 arrows at once<br/>Fires 2 additional cursed, hellfire, or ichor arrows
+| element1 = Fire
+}}
+
+The '''Continental Greatbow''' is a craftable [[Hardmode]] [[bow]]. It fires 3 arrows at once, quickly followed by two more arrows that will always be either [[Cursed Arrow|Cursed]], [[Ichor Arrow|Ichor]], or [[Hellfire Arrow]]s. Each of the two additional arrows can be different or the same type. All [[Wooden Arrow]]s fired will convert into [[Flaming Arrow]]s.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This item's name used to be "Greatbow of Turmoil".
+
+{{Scoria}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

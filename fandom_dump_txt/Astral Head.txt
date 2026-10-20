@@ -1,0 +1,22 @@
+{{npc infobox
+| type = Flying Enemy
+| environment = Astral Infection
+| ai = Astral Head AI
+| damage = {{dv|50|100||150}}
+| life = {{dv|60|120}}
+| defense = 5
+| knockback = 60
+| money = {{value|0|0|5|0}}
+| Stardust|1| 50%
+| hardmode = yes
+| listexclude = yes
+| hurt = NPC_Hit_3.wav
+| killed = NPC_Killed_3.wav
+}}
+
+The '''Astral Head''' is a [[Hardmode]] [[enemy]] that spawns in the [[Astral Infection]] [[Biome]]. They behave similarly to [[Meteor Head]]s, flying towards the player while being able to pass through blocks.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

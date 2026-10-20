@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 360
+| knockback = 8
+| use = 28
+| velocity = 14.5
+| tooltip = Releases electric mines outward that connect to each-other via arcs
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| proj = Prism Mine.png
+| projcaption = Prism Mine
+| element1 = Fire
+| element2 = Magic
+| element3 = Electricity
+| element4 = Machine
+}}
+|{{item drops infobox
+| [[The Fabricational Quartet]] (Ares) | 1 | {{dv|50%|66.67%}}
+}}
+}}
+
+'''The Jailor''' is a Godseeker Mode [[gun]] that drops from the [[The Fabricational Quartet]] after [[XF-09 Ares]] has been defeated last.  It fires an infinitely piercing electric mine that decelerates to a stop after as it travels. The mine detects other mines in a 75-tile radius and forms a damaging electric chain between them. On hit, the damage of all mines and electric chains that are connected are exponentially decreased, to a lower bound of 42.5% of its original damage.
+
+{{Modifier|ranged}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon is a reference to [https://hearthstone.fandom.com/wiki/The_Jailer the ''Hearthstone'' card of the same name.]
+{{-}}
+[[File:The Jailor (demo).gif|frame|left|The Jailor firing connecting electric mines and damaging a group of [[Target Dummy|Target Dummies]].]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

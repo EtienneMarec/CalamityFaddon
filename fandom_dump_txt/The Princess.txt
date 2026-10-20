@@ -1,0 +1,48 @@
+{{dedicated|Eimadel|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = magic
+| damage = 166
+| mana = 12
+| use = 21
+| velocity = 23.5
+| knockback = 4.25
+| tooltip = Casts a holy fireball that explodes into 6 flames<br/>So you're telling me that the princess imploded, and then turned into ice?<br/>-Taco, the shrine maiden
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| debuff = Moon Burnt
+| debufftip = Inccenrated by solar rays{{sic}}
+| debuffchance = 100%
+| debuffduration = 3 seconds (Fireball)<br/>1 second (Fire)
+| proj = The Prince Fireball.gif
+| projcaption = Holy Fireball
+| proj2 = The Prince Fire.gif
+| proj2caption = Holy Fire
+| element1 = Poison
+| element2 = Fire
+| element3 = Dark
+}}
+
+'''The Princess''' is a craftable Godseeker Mode [[wand]] which is an upgrade to the [[Arch Amaryllis]]. When used, it casts a gravity-defying holy fireball. It explodes into six smaller homing flames after hitting four enemies, colliding with a solid tile, or after 0.58 seconds. The flames last four seconds before fading away, and deal 66% of the original damage. After exploding, the main fireball slows down and dissipates in 0.42 seconds.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+== Trivia ==
+*The dark bulb is based on The Queen from the [[wikipedia:Minecraft|Minecraft]] Orespawn mod, who uses a black color palette and drops a familiar known as The Princess.
+*The blue lava on the sprite is based on Night Providence.
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| rare = 8
+| buy = {{value|0|80}}
+| sell = {{value|0|16}}
+| damage = 120
+| use = 19
+| velocity = 3
+| tooltip = Ancient ice blade imbued with the Archmage of Ice's magic<br/>Shoots dark ice crystals<br/>The blade creates frost explosions on direct hits
+| knockback = 4
+| auto = yes
+| stack = 1
+| hardmode = yes
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 5 seconds (Contact)<br/>3 seconds (Projectiles)
+| debuff2 = Glacial State
+| debufftip2 = Cannot move and defense is shattered
+| debuffchance2 = 100%
+| debuffduration2 = 1 second (Contact)<br/>0.5 second (Projectiles)
+| proj = Dark Ice Crystal.png
+| projcaption = Dark Ice Crystal
+| element1 = Cold
+| element2 = Slash
+}}
+
+The '''Absolute Zero''' is a [[Hardmode]] [[broadsword]] that autoswings, and is sold by the [[Archmage]] NPC for {{gc|80}} after defeating all three [[minibosses]] in the [[Frost Moon]] [[event]]. When swung, it fires a dark ice projectile which explodes upon impact with any [[enemy]] or surface, potentially hitting twice. Uniquely, its projectiles deal 50% less damage if they critically hit. Striking an enemy directly also creates large frost explosions. Both the blade and its projectiles always inflict the [[Frostburn]] and [[Glacial State]] [[debuffs]] on enemies.
+
+{{modifier|melee}}
+
+== Trivia ==
+*[[wikipedia:Absolute zero|Absolute zero]] is the scientific term for 0 Kelvin, the asymptotic lowest possible temperature for anything to reach.
+*The projectiles fired by Absolute Zero are visually identical to the projectiles fired by the [[Archmage]]; however, the Absolute Zero's ice crystals explode and deal additional damage on hit.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:绝对零度]]

@@ -1,0 +1,50 @@
+{{npc infobox
+| type = Flying Enemy
+| environment = Snow biome
+| environment2 = Ice biome
+| ai = Ice Clasper AI
+| damage = {{element|Cold}} {{dv|32|64}} (Contact)<br/>{{element|Cold}} {{dv|90|180}} (Frost Bolt)
+| life = {{dv|600|1,200}}
+| defense = 12
+| knockback = {{dv|65%|68.5%}}
+| debuff = Frostburn
+| debuffchance = 100%
+| duration = 1.5 seconds
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuff2 = Chilled
+| debuffchance2 = 33.33%
+| duration2 = 1 second
+| debufftip2 = Your movement speed has been reduced
+| banner = yes
+| money = {{value|0|0|25|0}}
+| Essence of Eleum| 1 | 100%
+| Ancient Ice Chunk| 1 | 33.33%
+| Frost Barrier| 1 | 10%
+| hardmode = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Glacial State
+| immune4 = Exo Freeze
+| immune5 = Frostburn
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_7.wav
+| sound = Item_28.wav
+| soundtext = Frost Bolt
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| resistant1 = Cold
+| resistant2 = Dark
+}}
+{{dablink|For the [[minion]] of the same name and appearance, see [[Ancient Ice Chunk]].}}
+
+The '''Ice Clasper''' is an uncommon [[Hardmode]] [[enemy]] that spawns in the [[Snow biome|Snow]] and [[Ice biome]]s. Ice Claspers attempt to ram and shoot frost bolts at the player. Though they normally collide with tiles, they are able to become intangible and travel quickly through tiles in order to reach the player. On contact it will inflict [[Frostburn]] and sometimes [[Chilled]], leaving the player open to be attacked by it again or by anything else in the area.
+
+It can be detected with the [[Lifeform Analyzer]].
+
+== Trivia ==
+*It appears to be an ice version of the [[Corruptor]] in both appearance and attacks, though Ice Claspers are faster and have the ability to travel through tiles.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

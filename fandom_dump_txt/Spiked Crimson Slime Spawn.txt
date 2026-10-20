@@ -1,0 +1,27 @@
+{{npc infobox
+| type = Slime
+| ai = Slime AI
+| damage = {{dv|45|boost=0.2}} (Contact)<br/>{{dv|24|48|60|68}} (Spike)
+| life = {{dv|160|320}}
+| defense = 10
+| knockback = 0
+| debuff = Darkness
+| debuffchance = 100%
+| duration = 1.5 seconds
+| debufftip = Decreased light vision
+| immune1 = Poisoned
+| immune2 = Confused
+| Blindfold|1|{{dv|1%|2%}}
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_17.wav
+| soundtext = Spike
+}}
+
+The '''Spiked Crimson Slime Spawn''' is a [[Enemies#Boss Servants|boss servant]] [[slime]] summoned during [[The Slime God]] battle when the [[Crimulan Slime God]] takes damage. It will fire upward bursts of falling spikes when the player draws near. They always inflict [[Darkness]].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

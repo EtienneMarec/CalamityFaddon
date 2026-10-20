@@ -1,0 +1,1749 @@
+# Contenu absent de Calamity
+
+_Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne correspond à aucun DisplayName de Calamity. Attention : des objets vanilla ou des pages renommées peuvent s'y glisser.
+
+## Weapon (522)
+
+- [ ] A M S
+- [ ] AAMG (Disperse) — pas de sprite; addon: Calamity: Tales of the Aquatic
+- [ ] Abysscent Derailer — addon: Calamity: Tales of the Aquatic
+- [ ] Abysscent Pistol — addon: Calamity: Tales of the Aquatic
+- [ ] Ace's Low — addon: Calamity: Community Remix
+- [ ] Acid Bow
+- [ ] Acidic Rain Barrel
+- [ ] Aergian Technistaff — addon: Hypnos in Calamity
+- [ ] Aeries
+- [ ] Aero Bolt — addon: Calamity: Community Remix
+- [ ] Aero Dynamite
+- [ ] Aflaming Crystalliser
+- [ ] Aftershock
+- [ ] Alpha Ray
+- [ ] Alpha Virus
+- [ ] Ancient Crusher
+- [ ] Ancient Shiv
+- [ ] Angel's Thesis — addon: Calamity: Community Remix
+- [ ] Animus
+- [ ] Aquarel Pistol — addon: Calamity: Tales of the Aquatic
+- [ ] Aquatic Discharge
+- [ ] Aquatic Dissolution
+- [ ] Arkflammator — addon: Calamity: Tales of the Aquatic
+- [ ] Arngren — addon: Calamity: Community Remix
+- [ ] Aspect of the End — addon: Calamity: Community Remix
+- [ ] Aspid Blaster
+- [ ] Asteroid Staff
+- [ ] Astral Blade
+- [ ] Astral Bow
+- [ ] Astralence — addon: Calamity: Tales of the Aquatic
+- [ ] Augar of the Elements
+- [ ] Auric Sword
+- [ ] Axisdriver
+- [ ] Azathoth
+- [ ] Bad Apple
+- [ ] Baow — addon: Calamity: Community Remix
+- [ ] Bazooka
+- [ ] Bittercold Staff
+- [ ] Blade of Enmity
+- [ ] Bleeding Influx — addon: Calamity: Community Remix
+- [ ] Blobfish Plushie — addon: Calamity: Community Remix
+- [ ] Blood Clot Staff
+- [ ] Bloodinator 1 — pas de sprite
+- [ ] Bloody Edge
+- [ ] Bloody Rupture
+- [ ] Blow Pipe
+- [ ] Bolide Launcher — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [ ] Bouncing Betty
+- [ ] Bouncy Spiky Ball
+- [ ] Brackish Flask
+- [ ] Breakthrough
+- [ ] Brimlash Buster
+- [ ] Brimstone Flameblaster
+- [ ] Bucket of Coal — addon: Calamity: Community Remix
+- [ ] Bundle o: Bones — addon: Calamity: Community Remix
+- [ ] Butcher (weapon)
+- [ ] Calamitous Vortex — addon: Calamity: Tales of the Aquatic
+- [ ] Calamity Sword
+- [ ] Caliburn
+- [ ] Carnage Ray
+- [ ] Catastrophe Claycore
+- [ ] Catastrophe Claymore
+- [ ] Catastrophe Clayscore
+- [ ] Catastrophe Claysiphonophore
+- [ ] Catastrophe Clayspore
+- [ ] Caustic Claw
+- [ ] Celestial Nuke — addon: Deimos, the Starborn Princess
+- [ ] Celesticus
+- [ ] Cent Striker — addon: Calamity: Tales of the Aquatic
+- [ ] Chain Spear — addon: Calamity: Community Remix
+- [ ] Chain-Saw — addon: Polyphemalus
+- [ ] Charged Dart Blaster
+- [ ] Charity — addon: Calamity: Tales of the Aquatic
+- [ ] Chemicircle — addon: Calamity: Tales of the Aquatic
+- [ ] Chilled Soda Blade — addon: Calamity: Community Remix
+- [ ] Christmas Carol — addon: Apotheosis and Friends
+- [ ] Chrononimbus — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [ ] Cirnogenic Staff — addon: Calamity: Community Remix
+- [ ] Cirrhotipede — addon: Calamity: Community Remix
+- [ ] Clamor Noctus
+- [ ] Clamor Noxus — addon: Calamity: Community Remix
+- [ ] Cobadium Rifle — addon: Calamity: Tales of the Aquatic
+- [ ] Cold Divinity
+- [ ] Coldant Firestarter
+- [ ] Coldetecht — addon: Calamity: Tales of the Aquatic
+- [ ] Conclave Crossfire
+- [ ] Confection — addon: Calamity: Community Remix
+- [ ] Consequences of Power
+- [ ] Contaminated Dish — addon: Calamity: Community Remix
+- [ ] Coral Cannon
+- [ ] Cored Line — addon: Calamity: Tales of the Aquatic
+- [ ] Corrosive Eye Staff
+- [ ] Corroslime Staff
+- [ ] Corrupt Hypno Flute — addon: Calamity: Community Remix
+- [ ] Corrupted Crusher Blade
+- [ ] Creature Capsule
+- [ ] Crimsaber
+- [ ] Crimslime Staff
+- [ ] Crimson Crusher Blade
+- [ ] Crius Prime — addon: Deimos, the Starborn Princess
+- [ ] Crustalline
+- [ ] Crystal Blade
+- [ ] Crystal Flare Staff
+- [ ] Crystallic Coin Gun — addon: Calamity: Tales of the Aquatic
+- [ ] Cursed Capper
+- [ ] Cursed Spear — addon: Calamity: Community Remix
+- [ ] Cyberlight Striker — addon: Calamity: Tales of the Aquatic
+- [ ] Dark Energy Staff — addon: Calamity: Community Remix
+- [ ] Dark Harvest Staff — addon: Calamity: Community Remix
+- [ ] Dart Sun — addon: Calamity: Tales of the Aquatic
+- [ ] Dead Star's Laser Rifle — addon: Tranquility Mod
+- [ ] Death-Needle Stinger — addon: Calamity: Community Remix
+- [ ] Deathhail Staff
+- [ ] Deathwind
+- [ ] Deck of Souls — pas de sprite; addon: Apotheosis and Friends
+- [ ] Decomposition
+- [ ] Decreator — addon: Calamity: Tales of the Aquatic
+- [ ] Deeepscale Bomb
+- [ ] Deicide — addon: Calamity: Community Remix
+- [ ] Deific Thunderbolt
+- [ ] Demon Core — addon: Calamity: Community Remix
+- [ ] Demonic Pitchfork
+- [ ] Dethermination — addon: Calamity: Tales of the Aquatic
+- [ ] Devastation
+- [ ] Devious Aestheticus — addon: Fargo's Soul Mod
+- [ ] Digital Cheese Spear — addon: Calamity: Community Remix
+- [ ] Diminishing Victory
+- [ ] Dirt Clump
+- [ ] Disease
+- [ ] Diseased Pike
+- [ ] Disseminator
+- [ ] Dissfusion Disk — addon: Calamity: Tales of the Aquatic
+- [ ] Divine Retribution
+- [ ] Doctrine Spear — addon: Calamity: Tales of the Aquatic
+- [ ] Dodu's Handcannon
+- [ ] Draftogen — addon: Calamity: Community Remix
+- [ ] Dragon Flame Barrage — addon: Calamity: Community Remix
+- [ ] Driftorcher — addon: Calamity: Community Remix
+- [ ] Dual Cane — addon: Calamity: Community Remix
+- [ ] Dualpoon
+- [ ] Duet Hit — addon: Calamity: Tales of the Aquatic
+- [ ] EXO-LOTL Staff — addon: Calamity: Community Remix
+- [ ] Earthen Clicker
+- [ ] Earthshooter — addon: Calamity: Tales of the Aquatic
+- [ ] Ecological Collapse
+- [ ] Effluvium Bow
+- [ ] Electrical Discharge
+- [ ] Elemental Axe
+- [ ] Elemental Bow
+- [ ] Elemental Claymore
+- [ ] Elemental Disk
+- [ ] Elemental Eruption
+- [ ] Elemental Excalibur
+- [ ] Elemental Lance
+- [ ] Elemental Ray
+- [ ] Elemental Saw Launcher
+- [ ] Elemental Shiv
+- [ ] Elusive Feather
+- [ ] Endentant Bow — addon: Calamity: Tales of the Aquatic
+- [ ] Energy Staff
+- [ ] Eradicator
+- [ ] Ethereal Knives
+- [ ] Eutrophic Scimitar
+- [ ] Eutrophic Shank
+- [ ] Evercoldance — addon: Calamity: Tales of the Aquatic
+- [ ] Exactory Dartshooter — addon: Calamity: Tales of the Aquatic
+- [ ] Excelsus
+- [ ] Exif Fist
+- [ ] Exo Dragonblade
+- [ ] Exo Gladius
+- [ ] Exodimus — addon: Calamity: Community Remix
+- [ ] Exterminator — addon: Calamity: Tales of the Aquatic
+- [ ] Eye of Light
+- [ ] Fakenado Staff
+- [ ] Fina's Gun — addon: Calamity: Community Remix
+- [ ] First Crescent — addon: Calamity: Tales of the Aquatic
+- [ ] Flame Boy Popsicle — addon: Calamity: Community Remix
+- [ ] Flaming Ice Bow — addon: Calamity: Community Remix
+- [ ] Flare Blade
+- [ ] Fleshly Megaphone — addon: Calamity: Community Remix
+- [ ] Flint
+- [ ] Flounder Mortar — addon: Calamity: Community Remix
+- [ ] Fracture Staff — addon: Calamity: Community Remix
+- [ ] Fracturing Fist — addon: Calamity: Community Remix
+- [ ] Frequency Manipulator
+- [ ] Frightshooter — addon: Calamity: Tales of the Aquatic
+- [ ] Frost Blade
+- [ ] Frostflow Edge — addon: Calamity: Tales of the Aquatic
+- [ ] Fulguration Halberd
+- [ ] Gamma Ray Burst — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [ ] Garth
+- [ ] Gatling Laser
+- [ ] Gauss Dagger
+- [ ] Gauss Pistol
+- [ ] Gauss Rifle
+- [ ] Gearwork Shield — addon: Calamity: Community Remix
+- [ ] Gel Sword
+- [ ] Gel Wand
+- [ ] Genisis
+- [ ] Ghoststreaker — addon: Calamity: Tales of the Aquatic
+- [ ] Glacial Crusher
+- [ ] Gloomy Trident — addon: Calamity: Community Remix
+- [ ] Gluehunter — addon: Calamity: Tales of the Aquatic
+- [ ] Gluelic Blade — addon: Calamity: Tales of the Aquatic
+- [ ] God's Bellows
+- [ ] Godspawn Helix Staff
+- [ ] Golden Gun
+- [ ] Gourdler — addon: Calamity: Community Remix
+- [ ] Grand Gar
+- [ ] Grand Purification — addon: Calamity: Community Remix
+- [ ] Grand Reef
+- [ ] Grarble Bayonet — addon: Calamity: Community Remix
+- [ ] Grarble Spear — addon: Calamity: Community Remix
+- [ ] Gravitonomy Pike
+- [ ] Greatsword of Blah
+- [ ] Guardians Wrath
+- [ ] H/S Trident
+- [ ] HPST (Malign) — pas de sprite; addon: Calamity: Tales of the Aquatic
+- [ ] Hadopelagic Echo
+- [ ] Hailberd
+- [ ] Hailstorm
+- [ ] Halberd of the Holidays — addon: Apotheosis and Friends
+- [ ] Hand Hook
+- [ ] Hand of God
+- [ ] Heart Rapier
+- [ ] Heavenwing Staff
+- [ ] Heavy Laser Rifle
+- [ ] Helios Partisan — addon: Calamity: Tales of the Aquatic
+- [ ] Hell Burst
+- [ ] Hell's Bells
+- [ ] Hell's Sun
+- [ ] Hemorr-Rang — addon: Calamity: Community Remix
+- [ ] Heterochromia — addon: Polyphemalus
+- [ ] Hi-Scan Camera
+- [ ] Holiday Halberd
+- [ ] Holy Mackerel Staff — addon: Calamity: Community Remix
+- [ ] Holy Napalm Launcher — addon: Calamity: Tales of the Aquatic
+- [ ] Holy Purge — addon: Tranquility Mod
+- [ ] Hyperhavoc — addon: Calamity: Tales of the Aquatic
+- [ ] Ichor Dagger — addon: Calamity: Community Remix
+- [ ] Ifflamator — addon: Calamity: Tales of the Aquatic
+- [ ] Impaler
+- [ ] Incandescent Nox — addon: Deimos, the Starborn Princess
+- [ ] Infected Dagger Misses No Skeptics — addon: Calamity: Community Remix
+- [ ] Infernum Kris — addon: Calamity: Community Remix
+- [ ] Interfacer Staff
+- [ ] Jake
+- [ ] Jet Engine — addon: Calamity: Community Remix
+- [ ] Justice and Splendor
+- [ ] Lacelinous Nocturne — addon: Calamity: Tales of the Aquatic
+- [ ] Lacescent Pistol — addon: Calamity: Tales of the Aquatic
+- [ ] Latcher Mine
+- [ ] Lazhar
+- [ ] Lazinator
+- [ ] Lead Wizard
+- [ ] Leeching Dagger
+- [ ] Li/l Mine — addon: Calamity: Community Remix
+- [ ] Lightning Hawk
+- [ ] Luminous Striker
+- [ ] Lunatic Beats — addon: Calamity: Community Remix
+- [ ] Magical Conch
+- [ ] Magna Striker
+- [ ] Magnic Circularity — addon: Calamity: Tales of the Aquatic
+- [ ] Magnum
+- [ ] Majestic Gar
+- [ ] Mambel-Jambo
+- [ ] Mandible Bow
+- [ ] Mandible Claws
+- [ ] Mariana
+- [ ] Marked Magnum
+- [ ] Marnite Bayonet
+- [ ] Marnite Spear
+- [ ] Matter Modulator
+- [ ] Megaskeet — addon: Apotheosis and Friends
+- [ ] Meridian — addon: Calamity: Community Remix
+- [ ] Metal Ball
+- [ ] Microcell Cut — addon: Calamity: Tales of the Aquatic
+- [ ] Microhavoc — addon: Calamity: Tales of the Aquatic
+- [ ] Midas: Handshake
+- [ ] Minigun
+- [ ] Miracle Smacker — addon: Calamitous Journeys
+- [ ] Molecular Manipulator
+- [ ] Molten Piercer
+- [ ] Monkey Darts
+- [ ] Moonstone Knives
+- [ ] Morpho Doomblade
+- [ ] Neural Whipper-Snapper — addon: Calamity: Community Remix
+- [ ] Neuraze — addon: Hypnos in Calamity
+- [ ] Neutron Star
+- [ ] Night's Gaze
+- [ ] Night's Stabber
+- [ ] Nightic Blaster — addon: Calamity: Tales of the Aquatic
+- [ ] Noctic Weaver — addon: Calamity: Tales of the Aquatic
+- [ ] Nocturnal Odyssey — addon: Calamity: Tales of the Aquatic
+- [ ] Noxcalibur
+- [ ] Nychthemeron
+- [ ] Nystagmus — addon: Polyphemalus
+- [ ] OPFT (Sublimate) — pas de sprite
+- [ ] Obsidigun
+- [ ] Ogscule — addon: Calamity's Vanities
+- [ ] Old Lord Oathsword
+- [ ] Omega Ray — addon: Calamity: Community Remix
+- [ ] Onyx Gunblade — addon: Calamity: Community Remix
+- [ ] Onyx Minigun
+- [ ] Onyx Purge
+- [ ] Onyx Staff — addon: Calamity: Community Remix
+- [ ] Ore Spawner Staff
+- [ ] Outplanetary Dartshooter — addon: Calamity: Tales of the Aquatic
+- [ ] Overloaded Combatant Blaster — addon: Calamity: Tales of the Aquatic
+- [ ] P/G/D/R/
+- [ ] Pandora's Chest — addon: Calamity: Community Remix
+- [ ] Pastranion
+- [ ] Pearl Gloves
+- [ ] Phangasm
+- [ ] Phantom Lance
+- [ ] Phlegm
+- [ ] Phoenix Blade
+- [ ] Phototerminator
+- [ ] Pine's Penetrator — addon: Apotheosis and Friends
+- [ ] Pizza Wheel
+- [ ] Plague Caller MK III — addon: Calamity: Community Remix
+- [ ] Plague Keeper — addon: Catalyst
+- [ ] Plaguecom Tablet — addon: Calamity: Community Remix
+- [ ] Planetarium — addon: Calamity: Community Remix, Hypnos in Calamity
+- [ ] Planterror Staff
+- [ ] Plasmaflash Bolt — addon: Cataclysm
+- [ ] Plumage Pow
+- [ ] Poison I-Bee
+- [ ] Poison Pack
+- [ ] Porpoise Pistol
+- [ ] Prism Destroyer — addon: Calamity: Community Remix
+- [ ] Profaned Nucleus — addon: Calamity: Community Remix
+- [ ] Profaned Whiplash — addon: Tranquility Mod
+- [ ] Prominence — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [ ] Pulse Pistol
+- [ ] Pulse Rifle
+- [ ] Pumplerfaust — addon: Calamity: Community Remix
+- [ ] Pungent Bomber
+- [ ] Purgatory Blaster — addon: Calamity: Tales of the Aquatic
+- [ ] Quadlens Staff — addon: Calamity: Community Remix
+- [ ] Quasar
+- [ ] Quintessence Cannon — addon: Deimos, the Starborn Princess, Catalyst
+- [ ] RGB Graydron
+- [ ] Raider's Glory
+- [ ] Raito
+- [ ] Ram's Revenge — addon: Calamity: Community Remix
+- [ ] Razor Teeth
+- [ ] Reactor Accelerator — addon: Calamity: Tales of the Aquatic
+- [ ] Red Umbrella
+- [ ] Redtide Spear
+- [ ] Redtide Sword
+- [ ] Reemergence
+- [ ] Revolvin: Mc/Coy — addon: Calamity: Community Remix
+- [ ] Ribbon Flintlock Rifle Cannon
+- [ ] Rivers of Frost — addon: Calamity: Community Remix
+- [ ] Rods from God
+- [ ] Rose Bow — addon: Calamity: Community Remix
+- [ ] Rox — addon: Calamity: Community Remix
+- [ ] SDOMG
+- [ ] Salt Booklet — addon: Cataclysm
+- [ ] Salt Water Bolt — addon: Cataclysm
+- [ ] Sandslasher
+- [ ] Sandstorm (weapon)
+- [ ] Sea Stone Shuriken
+- [ ] Sea Stone Sickle
+- [ ] Seabound Staff
+- [ ] Seabow
+- [ ] Seared Shredder
+- [ ] Seashell Boomerang
+- [ ] Severed Eye/exe — addon: Calamity: Community Remix
+- [ ] Sewer Brewer
+- [ ] Shading Manual — addon: Calamity: Tales of the Aquatic
+- [ ] Shadow's Descent
+- [ ] Shadowdrop Staff
+- [ ] Shattered Pistol — addon: Calamity: Tales of the Aquatic
+- [ ] Shattered Sun
+- [ ] Shock Grenade
+- [ ] Sign of the Operator
+- [ ] Sillyshark
+- [ ] Sister's Toy Rifle — addon: Calamity: Community Remix
+- [ ] Skull Fracture — addon: Calamity: Community Remix
+- [ ] Skullmasher
+- [ ] Sky Clearer — addon: Calamity: Tales of the Aquatic
+- [ ] Sky Stabber
+- [ ] Slick Cane
+- [ ] Slime Gun EX
+- [ ] Smoldering Seahorses
+- [ ] Snowgrave — addon: Apotheosis and Friends
+- [ ] Solar Flare
+- [ ] Soul Edge
+- [ ] Spear of Liberty — addon: Calamity: Community Remix, Calamity: Community Remix
+- [ ] Spectre Rifle
+- [ ] Squirrel Baron Staff
+- [ ] Squirrel Count Staff
+- [ ] Squirrel Duke Staff
+- [ ] Squirrel King Staff
+- [ ] Squirrel Knight Staff
+- [ ] Squirrel Prince Staff
+- [ ] Squirrel Viscount Staff
+- [ ] Staff of the Mechworm
+- [ ] Star Cannon EX
+- [ ] Star Flare — addon: Deimos, the Starborn Princess, Sloome
+- [ ] Starfall
+- [ ] Steel Blade
+- [ ] Steel Kunai
+- [ ] Stellar Kunai
+- [ ] Sticky Spiky Ball
+- [ ] Storm Dragoon
+- [ ] Storm Spray
+- [ ] Stratoctrine Spear — addon: Calamity: Tales of the Aquatic
+- [ ] Stringstreaker — addon: Calamity: Tales of the Aquatic
+- [ ] Summit Breaker
+- [ ] Sun God Staff
+- [ ] Supercharged Dart Blaster
+- [ ] Swift Sword
+- [ ] Sylvan Slasher
+- [ ] Talon Burst
+- [ ] Taser
+- [ ] Technicate — addon: Calamity: Tales of the Aquatic
+- [ ] Technomagica — addon: Calamity: Tales of the Aquatic
+- [ ] Temporal Floe Sword
+- [ ] Tendon Tides — addon: Catalyst
+- [ ] Tenebris Tides — addon: Catalyst
+- [ ] Terra Bow
+- [ ] Terra Disk
+- [ ] Terra Edge
+- [ ] Terra Flameburster
+- [ ] Terra Lance
+- [ ] Terra Ray
+- [ ] Terra Shiv
+- [ ] Terra-cotta
+- [ ] Terreye Staff — addon: Calamity: Community Remix
+- [ ] Terriblade
+- [ ] Tetrachromancy — addon: Polyphemalus
+- [ ] The Archalis — addon: Calamity: Community Remix
+- [ ] The Dreaming Ghost — addon: Calamity: Community Remix
+- [ ] The Enforcer
+- [ ] The First Fracturer — addon: Calamity: Community Remix
+- [ ] The Food Chain
+- [ ] The Generator
+- [ ] The Inflator's Controller — addon: Calamity: Community Remix
+- [ ] The Insacred Texts
+- [ ] The King's Gambit — addon: Calamity: Community Remix
+- [ ] The Last Lightice — addon: Calamity: Community Remix
+- [ ] The Needler
+- [ ] The Ones Striker — addon: Calamity: Tales of the Aquatic
+- [ ] The Otherside
+- [ ] The Princess
+- [ ] The Reaper
+- [ ] The Watered Pew Pew — addon: Calamity: Tales of the Aquatic
+- [ ] Thunder Bolt — addon: Cataclysm
+- [ ] Thunderstorm
+- [ ] Tiny Planet
+- [ ] Titan Tides — addon: Catalyst
+- [ ] Titanslayer
+- [ ] Tomatus
+- [ ] Tome of Fates
+- [ ] Totality Tides — addon: Calamity: Community Remix
+- [ ] Toxic Wisdom
+- [ ] Tracking Disk
+- [ ] Trash of Magnus
+- [ ] Trinity
+- [ ] Triploon
+- [ ] True Bloody Edge
+- [ ] True Caliburn
+- [ ] True Caustic Edge
+- [ ] True Forbidden Oathblade
+- [ ] True Night's Stabber
+- [ ] True Tyrant's Ultisword
+- [ ] Twentloon
+- [ ] Twenty-Twloon
+- [ ] Twin Cranes — addon: Calamity: Community Remix
+- [ ] Twisted Netherite Scythe — addon: Calamity: Community Remix
+- [ ] Twisted Netherite Sword — addon: Calamity: Community Remix
+- [ ] Tyrant Shield — addon: Calamity: Community Remix
+- [ ] Tyrant Yharim's Ultisword
+- [ ] Unending Void
+- [ ] Unloxcalibur — addon: Calamity: Community Remix
+- [ ] Unsealed Singularity — addon: Calamity: Community Remix
+- [ ] Urchin Flail
+- [ ] Urchin Spear
+- [ ] UserGrahkon/Sandbox — pas de sprite
+- [ ] Varroa Hack
+- [ ] Vehement Gemstone
+- [ ] Vehicle-Borne Improvised Explosive Device — pas de sprite; stub; addon: Calamity: Community Remix
+- [ ] Venus Flytrap
+- [ ] Verdant
+- [ ] Vermillion Angel
+- [ ] Virid Vangar
+- [ ] Vitreomance
+- [ ] Wakasagihime — addon: Wakasagihime
+- [ ] War Staff
+- [ ] Warbell
+- [ ] Warblade
+- [ ] Warbow
+- [ ] Warglaive
+- [ ] Waterfrosia — addon: Calamity: Tales of the Aquatic
+- [ ] Whipped Bouquet Blade — addon: Calamity: Community Remix
+- [ ] Wind Turbine Blade — addon: Calamity: Community Remix
+- [ ] Winter Breeze — addon: Apotheosis and Friends
+- [ ] Wisdom of Survival — addon: Calamity: Tales of the Aquatic
+- [ ] Wooden Butterfly Staff
+- [ ] Worst Prism
+- [ ] Wrath of the Ancients
+- [ ] Wrath of the Cosmos — addon: Calamity: Community Remix
+- [ ] Wrath of the Dragons — addon: Calamity: Community Remix
+- [ ] Wrath of the Eldritch — addon: Calamity: Community Remix
+- [ ] Wrath of the Gods — addon: Calamity: Community Remix
+- [ ] Wreath of Belial — addon: Calamity: Community Remix
+- [ ] Wrecking Ball
+- [ ] Wrenching whip
+- [ ] Wulfrum Blade
+- [ ] Wulfrum Bow — addon: Calamity: Community Remix
+- [ ] Wulfrum Fusion Array — addon: Calamity: Community Remix
+- [ ] Wulfrum Leech Dagger
+- [ ] Wulfrum Shock Cutter — addon: Calamity: Community Remix
+- [ ] Wulfrum Staff — addon: Calamity: Community Remix
+- [ ] XB-: Hekate — addon: Calamity: Community Remix
+- [ ] Xemilumeniscent Staff — addon: Tranquility Mod
+- [ ] Xenon Cutlass — addon: Calamity: Community Remix
+- [ ] Yanmei's Knife
+- [x] Zweihandromeda
+
+## Crafting material (149)
+
+- [ ] Absolute Gel
+- [ ] Absolute Spirit Essence
+- [ ] Abyssal Jelly — addon: Calamity: Tales of the Aquatic
+- [ ] Accidated Reactive Core — addon: Calamity: Tales of the Aquatic
+- [ ] Accidated Reactive Essence — addon: Calamity: Tales of the Aquatic
+- [ ] Ancient Feather
+- [ ] Architect Whirlhammer — addon: Calamity: Tales of the Aquatic
+- [ ] Ashen Key
+- [ ] Astral Arcanoid Base — addon: Calamity: Tales of the Aquatic
+- [ ] Astral Pearl — addon: Calamity: Community Remix
+- [ ] Auric Soul
+- [ ] Baronacre — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [ ] Blank Scroll — addon: Deimos, the Starborn Princess
+- [ ] Blessed Flah
+- [ ] Blighted Lens
+- [ ] Blood Sample
+- [ ] Bloodletting Essence
+- [ ] Bloodred Reactive Core — addon: Calamity: Tales of the Aquatic
+- [ ] Bloodred Reactive Essence — addon: Calamity: Tales of the Aquatic
+- [ ] Bloodstone Bar
+- [ ] Blooming Bulb
+- [ ] Brimstone Fish
+- [ ] Chaos Serpent Shard
+- [ ] Charged Wulfrum Battery
+- [ ] Cloaking Gland
+- [ ] Clockwork Bar
+- [ ] Condensed Energy
+- [ ] Core of Babil — addon: Calamity: Community Remix, Deimos, the Starborn Princess
+- [ ] Core of Chaos — addon: Deimos, the Starborn Princess
+- [ ] Core of Eleum — addon: Deimos, the Starborn Princess
+- [ ] Core of Rend — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [ ] Core of Sunlight — addon: Deimos, the Starborn Princess
+- [ ] Coyote Venom — addon: Calamity: Community Remix
+- [ ] Crocodile Scale — addon: Calamity: Community Remix
+- [ ] Crystal of the Cyborg — addon: Calamity: Community Remix
+- [ ] Crystal of the Dryad — addon: Calamity: Community Remix
+- [ ] Crystal of the Wicked — addon: Calamity: Community Remix
+- [ ] Crystallite
+- [ ] Demonic Bone Ash
+- [ ] Desert Feather
+- [ ] Diamond Dust
+- [ ] Ectoblood
+- [ ] Eldritch Pie Recipe
+- [ ] Electrolyte Matter — addon: Calamity: Tales of the Aquatic
+- [ ] Enchanted Metal
+- [ ] Enhanced Plasma Drive Core
+- [ ] Entropic Bar
+- [ ] Entropic Frond
+- [ ] Essence Core
+- [ ] Essence of Absolute — addon: Calamitous Absolution
+- [ ] Essence of Babil — addon: Calamity: Community Remix
+- [ ] Essence of Chaos — addon: Catalyst
+- [ ] Essence of Crystal
+- [ ] Essence of Law
+- [ ] Essence of Myst
+- [ ] Essence of Rend — addon: Deimos, the Starborn Princess
+- [ ] Essence of Surt — addon: Deimos, the Starborn Princess
+- [ ] Essence of Zot
+- [ ] Essential Essence Bar
+- [ ] Esserfish — addon: Calamity: Tales of the Aquatic
+- [ ] Esseric Bar — addon: Calamity: Tales of the Aquatic
+- [ ] Esseric Scale — addon: Calamity: Tales of the Aquatic
+- [ ] Exo Core
+- [ ] Exoplasm — addon: Catalyst
+- [ ] Eye of Architectory — addon: Calamity: Tales of the Aquatic
+- [ ] Fae Dust — addon: Deimos, the Starborn Princess
+- [ ] Fetid Essence
+- [ ] Flah
+- [ ] Flahium Component
+- [ ] Flashing Light Essence — addon: Calamity: Tales of the Aquatic
+- [ ] Floral Biomass
+- [ ] Fungal Chunk
+- [ ] Galactica Singularity
+- [ ] Garon Scale Fragment
+- [ ] Glittering Astral Eye — addon: Calamity: Community Remix
+- [ ] Godterminal Arcanoid Base — addon: Calamity: Tales of the Aquatic
+- [ ] Grandiose Gland
+- [ ] Gypsy Powder
+- [ ] Hadarian Membrane
+- [ ] Hardened Chitin
+- [ ] Hateful Energy — addon: Caeles Mod
+- [ ] Herbal Mixture
+- [ ] Hydrastatic Energy — addon: Calamity: Tales of the Aquatic
+- [ ] IOU an item
+- [ ] Illucenic Eye — addon: Calamity: Tales of the Aquatic
+- [ ] Laceline — addon: Calamity: Tales of the Aquatic
+- [ ] Lacoplasm — addon: Calamity: Tales of the Aquatic
+- [ ] Lethal Disease Canister — addon: Calamity: Tales of the Aquatic
+- [ ] Living Dew Droplet
+- [ ] Lunar Arcanoid Base — addon: Calamity: Tales of the Aquatic
+- [ ] Lush Fruit Mix
+- [ ] Maneater Bulb
+- [ ] Mars Bars — addon: Calamity: Community Remix, Calamity: Community Remix
+- [ ] Mediocre Matter — addon: Calamity: Community Remix
+- [ ] Meld Bar
+- [ ] Metal Feather
+- [ ] Miracle Plating
+- [ ] Mulch
+- [ ] Murky Paste
+- [ ] Murky Sludge
+- [ ] Mystery Meat
+- [ ] Natrisodic Alloy — addon: Calamity: Tales of the Aquatic
+- [ ] Nether
+- [ ] Noctic Reactive Core — addon: Calamity: Tales of the Aquatic
+- [ ] Noctic Reactive Essence — addon: Calamity: Tales of the Aquatic
+- [ ] Orb of Boon
+- [ ] Orb of Crystal — addon: Deimos, the Starborn Princess
+- [ ] Orb of Law — addon: Deimos, the Starborn Princess
+- [ ] Orb of Myst — addon: Deimos, the Starborn Princess
+- [ ] Orb of Surt — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [ ] Orb of Zot — addon: Deimos, the Starborn Princess
+- [ ] Ornate Cloth
+- [ ] Phantoplasm — addon: Calamity: Community Remix, Deimos, the Starborn Princess
+- [ ] Primordial Life
+- [ ] Primordial Light Shard
+- [ ] Prototype Plasma Drive Core — addon: Calamity: Community Remix
+- [ ] Pulsing Night Essence — addon: Calamity: Tales of the Aquatic
+- [ ] Quark-Gluon Sludge — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [ ] Rare Plantera Fruit
+- [ ] Raw Miracle
+- [ ] Reassembled Electronics
+- [ ] Reclaimed Flah
+- [ ] Rotten Matter
+- [ ] Scarred Angelfish
+- [ ] Seed Bag
+- [ ] Shattered Message Block — addon: Calamity: Community Remix, Calamity: Community Remix
+- [ ] Shattered Prism — addon: Calamity: Tales of the Aquatic
+- [ ] Shattered Start Block — addon: Calamity: Community Remix, Calamity: Community Remix
+- [ ] Shatterite Bar — addon: Calamity: Tales of the Aquatic
+- [ ] Skyline Tooth — addon: Calamity: Tales of the Aquatic
+- [ ] Something
+- [ ] Soul Flux
+- [ ] Soul of Bright
+- [ ] Soul of Plight — addon: Calamity: Community Remix
+- [ ] Stardust
+- [ ] Stiriatic Bar — addon: Calamity: Tales of the Aquatic
+- [ ] Strange Matter — addon: Deimos, the Starborn Princess
+- [ ] Subnautical Plate
+- [ ] The sword is inside the core
+- [ ] Trapper Bulb
+- [ ] Twisted Netherite Bar
+- [ ] Twisted Tendril
+- [ ] Unholy Blood Cells
+- [ ] Unpurified Gel
+- [ ] Voidant Substance — addon: Calamity: Tales of the Aquatic
+- [ ] Voidwave Ink — addon: Calamity: Tales of the Aquatic
+- [ ] Waterfreeze Reactive Core — addon: Calamity: Tales of the Aquatic
+- [ ] Waterfreeze Reactive Essence — addon: Calamity: Tales of the Aquatic
+- [ ] Weaver Lac — addon: Calamity: Tales of the Aquatic
+
+## Covering (149)
+
+- [ ] Abyssal Amulet
+- [ ] Aegis Core — addon: Calamity: Tales of the Aquatic
+- [ ] Alchemical Flask
+- [ ] Amidias: Spark
+- [ ] Ancient Essence of Merge — addon: Calamity: Tales of the Aquatic
+- [ ] Aquatic Shardstone — addon: Calamity: Tales of the Aquatic
+- [ ] Arcanoid Orb — addon: Calamity: Tales of the Aquatic
+- [ ] Arcanum of the Void
+- [ ] Archangel Wings
+- [ ] Armageddon Wings — addon: Deimos, the Starborn Princess
+- [ ] Assortegelatin
+- [ ] Astral Arcanum
+- [ ] Astral Bulwark
+- [ ] BFB
+- [ ] Babil Destruction Core — addon: Calamity: Tales of the Aquatic
+- [ ] Bellwings — addon: Calamity: Community Remix
+- [ ] Blazing Core
+- [ ] Blazing Powder — addon: Calamity: Community Remix
+- [ ] Blood Element — addon: Calamity: Tales of the Aquatic
+- [ ] Bloodflare Wings
+- [ ] Bloodred Alliance — addon: Calamity: Tales of the Aquatic
+- [ ] Brain of the Legendary — addon: Calamity: Tales of the Aquatic
+- [ ] Burden Breaker
+- [ ] Butcher's Glove — addon: Calamity: Tales of the Aquatic
+- [ ] Calamitous Orbit — addon: Calamity: Tales of the Aquatic
+- [ ] Calamitous Soul Artifact — addon: Calamity: Community Remix
+- [ ] Catarachedrae — addon: Calamity: Tales of the Aquatic
+- [ ] Celestial Jewel
+- [ ] Celestial Tracers
+- [ ] Cobalt Night Circuit — addon: Calamity: Tales of the Aquatic
+- [ ] Core of the Blood God
+- [ ] Corrupt Flask
+- [ ] Cosmic Stone
+- [ ] Crimson Flask
+- [ ] Dark God's Sheath
+- [ ] Deteriorating Lens — pas de sprite
+- [ ] Determination Breaker
+- [ ] Dimensional Soul Artifact
+- [ ] Disorderful Soul Artifact
+- [ ] Drained Catarachedrae — addon: Calamity: Tales of the Aquatic
+- [ ] Dread Bone — addon: Calamity: Tales of the Aquatic
+- [ ] Dreamy Belt — addon: Calamity: Community Remix
+- [ ] Drew's Fins
+- [ ] Drew's Wings
+- [ ] Earth Destruction Core — addon: Calamity: Tales of the Aquatic
+- [ ] Edgeterrence — addon: Calamity: Tales of the Aquatic
+- [ ] Eldritch Soul Artifact
+- [ ] Elemental Quiver
+- [ ] Elementary Orbit — addon: Calamity: Tales of the Aquatic
+- [ ] Elysian Tracers
+- [ ] Enchanted Tumor — addon: Deimos, the Starborn Princess
+- [ ] Essence of Merge — addon: Calamity: Tales of the Aquatic
+- [ ] Eternal Pillow — addon: Calamity: Community Remix
+- [ ] Exo Gel
+- [ ] Exotic Beacon
+- [ ] Fancy Flesh Skull — addon: Calamity: Tales of the Aquatic
+- [ ] Fathomless Soul Artifact
+- [ ] Ferro Claws
+- [ ] Frigid Bulwark
+- [ ] Fungal Carapace
+- [ ] Gehenna
+- [ ] Ghast Relic — addon: Calamity: Tales of the Aquatic
+- [ ] Gift of the Red — addon: Calamity: Tales of the Aquatic
+- [ ] Godly Soul Artifact
+- [ ] Gravistar Sabaton
+- [ ] Holy Mantle — addon: Calamity: Community Remix
+- [ ] Icicle Ring
+- [ ] Inverted Gar
+- [ ] Jewel Core — addon: Calamity: Tales of the Aquatic
+- [ ] Landscapist Mobilite Fragment — addon: Calamity: Tales of the Aquatic
+- [ ] Lead Core
+- [ ] Level Meters — pas de sprite
+- [ ] Lul
+- [ ] Lumenous Amulet
+- [ ] Lunarspectre Tracers — addon: Calamity: Tales of the Aquatic
+- [ ] Magna Core — addon: Calamity: Community Remix
+- [ ] Mana Jelly
+- [ ] Metamorphic Stone
+- [ ] Microxodonta
+- [ ] Mirage Jelly (item)
+- [ ] Mobilite Core — addon: Calamity: Tales of the Aquatic
+- [ ] Music Boxes — pas de sprite
+- [ ] Nameless Rat — addon: Calamity: Community Remix
+- [ ] Night Cloak — addon: Calamity: Tales of the Aquatic
+- [ ] Nightform — addon: Calamity: Tales of the Aquatic
+- [ ] Nuclear Rod
+- [ ] Nucleate Gello
+- [ ] Oil Bottle
+- [ ] Palladium Light Circuit — addon: Calamity: Tales of the Aquatic
+- [ ] Phantasmal Rune — addon: Calamity: Tales of the Aquatic
+- [ ] Plague Balloon
+- [ ] Plague Hive
+- [ ] Polypebral Shield
+- [ ] Prehistoric Tablet
+- [ ] Psychotic Amulet
+- [ ] Quantum Flahium Ejection Device
+- [ ] Quantum Flahium Militia Device
+- [ ] Quantum Flahium Shock Device
+- [ ] Quantum Flahium Transcendental Device
+- [ ] Quiver of Madness — addon: Calamity: Community Remix
+- [ ] Rampart of Deicide — addon: Calamity: Tales of the Aquatic
+- [ ] Rare Elemental in a Bottle — addon: Tranquility Mod
+- [ ] Ravenous Soul Artifact
+- [ ] Red Bow
+- [ ] Red Wings
+- [ ] Regenator
+- [ ] Regeterrence — addon: Calamity: Tales of the Aquatic
+- [ ] Rusty Medallion
+- [ ] Sanguined Catarachedrae — addon: Calamity: Tales of the Aquatic
+- [ ] Seascapist Mobilite Fragment — addon: Calamity: Tales of the Aquatic
+- [ ] Shadowspectre Tracers — addon: Calamity: Tales of the Aquatic
+- [ ] Shattered Module — addon: Calamity: Tales of the Aquatic
+- [ ] Shatterspectre Tracers — addon: Calamity: Tales of the Aquatic
+- [ ] Silva Module — addon: Calamity: Tales of the Aquatic
+- [ ] Silver Heart
+- [ ] Slimelgamation — addon: Calamity: Community Remix
+- [ ] Slimy Wisdom Tooth — addon: Calamity: Community Remix
+- [ ] Socratic Sapphire — addon: Calamity: Community Remix
+- [ ] Soul of Carcinogen
+- [ ] Soul of Hydrogen
+- [ ] Soul of Ionogen
+- [ ] Soul of Oxygen
+- [ ] Soul of Pathogen
+- [ ] Soul of Phytogen
+- [ ] Soul of Pyrogen
+- [ ] Spy Emblem
+- [ ] Spy's Lootbox — addon: Calamity: Community Remix
+- [ ] Static Wings
+- [ ] Sulfuric Scale
+- [ ] Surgical Glove
+- [ ] Terraformance — addon: Calamity: Tales of the Aquatic
+- [ ] The Everquartz — stub; addon: Catalyst
+- [ ] The Godfather — addon: Calamity: Community Remix
+- [ ] The Progression — addon: Calamity: Tales of the Aquatic
+- [ ] The Verboten One — addon: Calamity: Community Remix
+- [ ] Thrower's Gauntlet — addon: Calamity: Community Remix
+- [ ] Treasured Family Pendant — addon: Calamity: Community Remix
+- [ ] Tree-Crown Wings
+- [ ] Universal Stone — addon: Calamity: Community Remix
+- [ ] Void Artifact — addon: Calamity: Tales of the Aquatic
+- [ ] Void of Extinction
+- [ ] Warbanner of the Sun
+- [ ] Wings — pas de sprite
+- [ ] Worm Meal
+- [ ] Wrath of the Machines
+- [ ] Yggdrasil Core — addon: Calamity: Tales of the Aquatic
+- [ ] Yharim's Curse — addon: Calamity: Community Remix
+- [ ] Yharim's Insignia
+- [ ] Zenith Arcanum — addon: Calamity: Community Remix
+
+## Block (115)
+
+- [ ] Abandoned Bronze Plating — addon: Calamity: Tales of the Aquatic
+- [ ] Aegisalt Ore
+- [ ] Aeroplate — addon: Calamity: Community Remix
+- [ ] Aether Dirt
+- [ ] Alloy Bar
+- [ ] Angelinite Ore
+- [ ] Antlion Bar
+- [ ] Antlion Ore
+- [ ] Apocalyptic Bar
+- [ ] Apocalyptic Ore
+- [ ] Arean Conduit Plating
+- [ ] Arena Block — pas de sprite
+- [ ] Arsenic Ore
+- [ ] Ashplate — addon: Calamity: Community Remix
+- [ ] Auric Dirt
+- [ ] Baron Brine
+- [ ] Baronautical Plating
+- [ ] Baronsand
+- [ ] Bars — pas de sprite; addon: Calamity: Community Remix
+- [ ] Bloodplate — addon: Apotheosis and Friends
+- [ ] Bloodstone Ore — addon: Calamity: Tales of the Aquatic
+- [ ] Brinerack
+- [ ] Catastrophe Clay Ore
+- [ ] Chaosplate
+- [ ] Chaotic Brick
+- [ ] Charred Ore
+- [ ] Compressed Mana — addon: Deimos, the Starborn Princess
+- [ ] Compressed Stone Blocks — pas de sprite
+- [ ] Cosmilite Slag — addon: Calamity Loot Swap, Deimos, the Starborn Princess
+- [ ] Cryoglass Brick
+- [ ] Crystalplate
+- [ ] Curseplate — addon: Calamity: Community Remix
+- [ ] Cyberlight Brick — addon: Calamity: Tales of the Aquatic
+- [ ] Darksand — addon: Calamity: Tales of the Aquatic
+- [ ] Debris Ore — addon: Calamity: Tales of the Aquatic
+- [ ] Dustplate — addon: Calamity: Community Remix
+- [ ] Elemental Bar
+- [ ] Elemental Brick
+- [ ] Elemental Ore — addon: Calamity: Tales of the Aquatic
+- [ ] Endoplate — addon: Calamity: Community Remix
+- [ ] Esseric Brick — addon: Calamity: Tales of the Aquatic
+- [ ] Esseric Cake — addon: Calamity: Tales of the Aquatic
+- [ ] Esseric Ore — addon: Calamity: Tales of the Aquatic
+- [ ] Exoterrestrial Dust — addon: Calamity: Tales of the Aquatic
+- [ ] Ferozium Ore
+- [ ] Field Generator
+- [ ] Flah Bricks — stub
+- [ ] Flahium Bar — stub
+- [ ] Flahium Slag
+- [ ] Freezing Mindustrial Plating — addon: Calamity: Tales of the Aquatic
+- [ ] Frigid Bar
+- [ ] Frozen Ash
+- [ ] Frozen Hellstone
+- [ ] Fuelplate — addon: Calamity: Community Remix
+- [ ] Grimesand
+- [ ] Haunted Bar — addon: Calamity: Community Remix
+- [ ] Haunted Brick — addon: Calamity: Tales of the Aquatic
+- [ ] Haunted Ore — addon: Calamity: Tales of the Aquatic
+- [ ] Ichorplate — addon: Calamity: Community Remix
+- [ ] Invincible Titanic Snow — pas de sprite
+- [ ] Lawplate
+- [ ] Life Ore — addon: Calamity: Community Remix
+- [ ] Lightly Weathered Waxed Copper Brick
+- [ ] Meld Brick
+- [ ] Meld Gunk
+- [ ] Meld Ore — addon: Calamity: Tales of the Aquatic
+- [ ] Mystplate
+- [ ] Natrisodic Cluster — addon: Calamity: Tales of the Aquatic
+- [ ] Omnicidal Sludge Bar — addon: Deimos, the Starborn Princess
+- [ ] Ores — pas de sprite; addon: Calamity Loot Swap, Calamity Tales of the Aquatic, Catalyst
+- [ ] Overgrown Gravel — addon: Calamity: Tales of the Aquatic
+- [ ] Overgrown Plagued Stone
+- [ ] Pew — pas de sprite
+- [ ] Plagued Clay
+- [ ] Plagued Grass
+- [ ] Plagued Mud
+- [ ] Plagued Sand
+- [ ] Plagued Silt
+- [ ] Plagued Stone
+- [ ] Primordial Ore — addon: Deimos, the Starborn Princess, Calamity Loot Swap
+- [ ] Proviplate — addon: Calamity: Community Remix
+- [ ] Refined Aegisalt
+- [ ] Refined Ferozium
+- [ ] Refined Violium
+- [ ] Reinforced Acidplate — addon: Calamity: Tales of the Aquatic
+- [ ] Reinforced Noctiplate — addon: Calamity: Tales of the Aquatic
+- [ ] Sallowrack
+- [ ] Scalar Esseric Brick — addon: Calamity: Tales of the Aquatic
+- [ ] Scorching Mindustrial Plating — addon: Calamity: Tales of the Aquatic
+- [ ] Shadowspec Ore — addon: Calamity Loot Swap, Catalyst
+- [ ] Shatterite Brick
+- [ ] Shatterite Ore — addon: Calamity: Tales of the Aquatic
+- [ ] Silicon Ore
+- [ ] Skylac Crystal — addon: Calamity: Tales of the Aquatic
+- [ ] Skylac Sand — addon: Calamity: Tales of the Aquatic
+- [ ] Skylac Stone — addon: Calamity: Tales of the Aquatic
+- [ ] Smooth Skylac Stone — addon: Calamity: Tales of the Aquatic
+- [ ] Sporezol
+- [ ] Steam Geyser
+- [ ] Stiriatic Ore — addon: Calamity: Tales of the Aquatic
+- [ ] Stratostone — addon: Calamity: Tales of the Aquatic
+- [ ] Stratus Star Brick — addon: Calamity: Tales of the Aquatic
+- [ ] Tanzanite Glass
+- [ ] Tarraground
+- [ ] Tenebris
+- [ ] Thorium Ore — addon: Calamity: Tales of the Aquatic
+- [ ] Titanic Shale — addon: Calamity: Tales of the Aquatic
+- [ ] Titanic Snow — addon: Calamity: Tales of the Aquatic
+- [ ] Torrefied Tephra
+- [ ] Verdantium Bar
+- [ ] Verdantium Ore
+- [ ] Victide Ore — addon: Calamity: Tales of the Aquatic
+- [ ] Violium Ore
+- [ ] Yharim Bar — addon: Calamity: Community Remix
+- [ ] Zotplate
+
+## Potion (64)
+
+- [ ] Active Healing Potion — addon: Calamity: Tales of the Aquatic
+- [ ] Adrenaline of the Gods — addon: Catalyst
+- [ ] Ashes of the Sunken Sea — addon: Calamity: Community Remix
+- [ ] Bagel Nuts
+- [ ] Barolegs
+- [ ] Cadance Potion
+- [ ] Calamitas: Brew
+- [ ] Calamitea
+- [ ] Carnal Corn
+- [ ] Chaotic Grapes — addon: Calamity: Tales of the Aquatic
+- [ ] Cheese
+- [ ] Chez
+- [ ] Clam Chowder
+- [ ] Cobalt Skin Potion — addon: Calamity: Tales of the Aquatic
+- [ ] Coco's Feather — addon: Deimos, the Starborn Princess
+- [ ] Cookie Bunny — addon: Calamity: Community Remix
+- [ ] Crimtato — addon: Calamity: Community Remix
+- [ ] Crumbling Potion
+- [ ] Demon Potion
+- [ ] Demon Trophy — addon: Calamity: Community Remix
+- [ ] Draconic Elixir
+- [ ] Dragonfruit
+- [ ] Dust Bunny — addon: Catalyst, Deimos, the Starborn Princess
+- [ ] Elder Berry
+- [ ] Esseric Skin Potion — addon: Calamity: Tales of the Aquatic
+- [ ] Ever Ink — addon: Catalyst, Deimos, the Starborn Princess
+- [ ] Expired Medication
+- [ ] Flask of Plague
+- [ ] Fluorescent Vodka — pas de sprite; addon: Apotheosis and Friends, Calamity: Community Remix
+- [ ] Ham Pie
+- [ ] Hemagrape
+- [ ] Holy Wrath Potion
+- [ ] JOOZ — addon: Calamity: Community Remix
+- [ ] Juzie
+- [ ] KEX
+- [ ] Leaves of Crabulon — addon: Calamity: Community Remix
+- [ ] Magma Booster — addon: Catalyst, Deimos, the Starborn Princess
+- [ ] Meld Chip Ice Cream
+- [ ] Meld Skin Potion — addon: Calamity: Tales of the Aquatic
+- [ ] Metabolic Converter — addon: Catalyst
+- [ ] Penumbra Potion
+- [ ] Potato Cat — addon: Calamity: Community Remix
+- [ ] Potion of Triboluminescence
+- [ ] Profaned Rage Potion
+- [ ] Purified Jam
+- [ ] Rage of the Cosmos — addon: Catalyst
+- [ ] Revivify Potion
+- [ ] SAUS — addon: Calamity: Community Remix
+- [ ] Sacred Meat — pas de sprite
+- [ ] Sambucus Fruit
+- [ ] Shattering Potion
+- [ ] Slagspitter Pauldron — addon: Deimos, the Starborn Princess, Calamity: Community Remix
+- [ ] Stamina of the Vengeful — addon: Catalyst
+- [ ] Stratus Beverage
+- [ ] Sugars of Calamity — addon: Calamity: Community Remix
+- [ ] Sunwitch — addon: Catalyst
+- [ ] Supreme Strange Brew — addon: Deimos, the Starborn Princess
+- [ ] Titan Finger
+- [ ] Titan Scale Potion
+- [ ] Triumph Potion
+- [ ] YashBrowns — addon: Calamity: Community Remix
+- [ ] Yharic Delight
+- [ ] Yharim's Stimulants
+- [ ] Zumbo Sauce
+
+## Boss (60)
+
+- [ ] Acidsighter
+- [ ] Aetherial Guardian: Olistene — addon: Deimos, the Starborn Princess
+- [ ] Amazon
+- [ ] Artificial Sentience System: AX-P03 — pas de sprite
+- [ ] Astrageldon Slime
+- [ ] Birdest Up: Kulu-Yharon-Ku — pas de sprite
+- [ ] Carcinogen
+- [ ] Ceasing Void
+- [ ] Cumulomenace
+- [ ] Cyrogen — pas de sprite; addon: Catalyst
+- [ ] Destroyer of Sanity — addon: Calamity: Community Remix
+- [ ] Devil of Vehemence
+- [ ] Dihidrogen Monoxide — pas de sprite
+- [ ] Dihydrogen Monoxide
+- [ ] Empyreon — addon: Deimos, the Starborn Princess
+- [ ] Fatal Circuit — pas de sprite
+- [ ] Garon — addon: Calamity: Community Remix
+- [ ] Godseeker: Yharim — stub; addon: Calamity: Community Remix, Calamity: Community Remix
+- [ ] Goozma — addon: Fargo’s Souls DLC (Fargo Souls Mod x Calamity)
+- [ ] Goozmageldon — pas de sprite
+- [ ] Grand Thunder Cnidrion
+- [ ] Horseslimes of the Goopocalypse — pas de sprite; addon: Deimos, the Starborn Princess, Calamity Loot Swap
+- [ ] Hydrogen
+- [ ] Ionogen
+- [ ] Jungle Dragon: Yharon — addon: Fargo’s Souls DLC (Fargo Souls Mod x Calamity), Calamity: Community Remix
+- [ ] Mechanical Horde — pas de sprite; addon: Calamity: Community Remix
+- [ ] Mirage Mallah
+- [ ] Monstro
+- [ ] Necron — pas de sprite
+- [ ] Oxygen
+- [ ] Pandora: the Hypnotized Witch — pas de sprite
+- [ ] Pathogen
+- [ ] Phytogen
+- [ ] Polyphemalus — addon: Polyphemalus
+- [ ] Profaned Guardians
+- [ ] Profusion: the Viral God — stub
+- [ ] Provig — stub; addon: Wrath of the Gods
+- [ ] Pyrogen
+- [ ] Serial Designation N — addon: Sloome
+- [ ] Sigmund — addon: Catalyst
+- [ ] The Derellect — addon: Calamity: Community Remix
+- [ ] The Forbidden Lantern — addon: Calamity: Tales of the Aquatic
+- [ ] The Inventors — addon: Community Content Remix
+- [ ] The Magnificent Lightning Avian
+- [ ] The Rot — addon: Fargo’s Souls DLC (Fargo Souls Mod x Calamity), Catalyst
+- [ ] The Scrapyard Ensemble — pas de sprite; stub
+- [ ] The Sludge
+- [ ] The Starborn Moth — stub; addon: Deimos, the Starborn Princess
+- [ ] The Wall of Bronze
+- [ ] The Wall of Gifts — pas de sprite
+- [ ] Twisted Tyrant: Bizhaarim
+- [ ] Unstable Calamity
+- [ ] Void Hydra — pas de sprite; stub
+- [ ] Wulfrum Excavator
+- [ ] Wulfrum Megamechwyrm — addon: Calamity: Community Remix
+- [ ] XB-10 HuY — pas de sprite
+- [ ] XC-39 Oizys — stub; addon: Calamity: Community Remix
+- [ ] XP-00 Hypnos
+- [ ] Xernocaloxusatros — addon: Wrath of the Mammoth
+- [ ] Yharim Worm
+
+## Enemy (59)
+
+- [ ] Angry Dog
+- [ ] Asura
+- [ ] Banana Clown
+- [ ] Barocraw — addon: Deimos, the Starborn Princess
+- [ ] Blockhound
+- [ ] Bloody Burrower
+- [ ] Blue Demon
+- [ ] Boar Cat
+- [ ] Chasm Beast
+- [ ] Clamitas
+- [ ] Crackling — addon: Calamity: Community Remix
+- [ ] Crazed Mechanic — pas de sprite; addon: Tranquility Mod
+- [ ] Crimson Kaiju
+- [ ] Cuboid Curse
+- [ ] Cultist Assassin
+- [ ] Cyber Draedon — addon: Calamity: Community Remix
+- [ ] Darkscule
+- [ ] Depressed Cephalopod
+- [ ] Diviner Valkyrie
+- [ ] Dollarbob
+- [ ] Everquartz — addon: Calamity: Community Remix
+- [ ] Evil Animatronic
+- [ ] Exo Armada
+- [ ] Exo Cube
+- [ ] Exo Landmaster
+- [ ] Exo Mine
+- [ ] Exo Sentry
+- [ ] Exo Sphere
+- [ ] Exoquartz
+- [ ] Frigidemon
+- [ ] Frost Hog
+- [ ] Frost Imp
+- [ ] Glitch
+- [ ] Glowflies
+- [ ] Green Demon
+- [ ] Heavenly Ogsculite
+- [ ] Hive Cyst
+- [ ] King of Constellations: Tenryu — addon: Calamity: Community Remix
+- [ ] La Ruga — addon: Calamity: Community Remix
+- [ ] Lizard — addon: Calamity: Community Remix
+- [ ] Mosquito
+- [ ] Mysterious Manager — addon: Calamity: Community Remix
+- [ ] Nightmare Burrower
+- [ ] Ogsculian Burrower
+- [ ] Onyx Kinsman
+- [ ] Perforator Mini
+- [ ] Phantom Debris
+- [ ] Plague Emperor
+- [ ] Province Pilferer
+- [ ] Puff enemies — pas de sprite
+- [ ] R/OST
+- [ ] Rodent/tmod
+- [ ] Sand Tortoise
+- [ ] Sea Urchin
+- [ ] Stiriatic Walkie — addon: Calamity: Tales of the Aquatic
+- [ ] Tall Man
+- [ ] Wulfrum Mine
+- [ ] Wulfrum Pylon — addon: Calamity: Community Remix
+- [ ] Yggdrasil Ent
+
+## Tool (56)
+
+- [ ] Abysscent Pickaxe — addon: Calamity: Tales of the Aquatic
+- [ ] Anti-Moth Ointment
+- [ ] Anti-Starspawn Ointment
+- [ ] Armageddon
+- [ ] Astral Axe
+- [ ] Astral Hammer
+- [ ] Aurikia-5220 — addon: Calamity: Community Remix
+- [ ] Braxaxe — addon: Deimos, the Starborn Princess
+- [ ] Carapace Hammer
+- [ ] Catastrophe Claybore
+- [ ] Charger Test Item
+- [ ] Crayfish Pickaxe
+- [ ] Daylight
+- [ ] Death
+- [ ] Deathwish — addon: Tranquility Mod
+- [ ] Defiled Feather
+- [ ] Destinary — addon: Calamity: Community Remix
+- [ ] Dusty Axe
+- [ ] Fishing Poles — pas de sprite
+- [ ] Gem of Exodygen — addon: Sloome
+- [ ] Grarble Obliterator — addon: Calamity: Community Remix
+- [ ] Gusthammer
+- [ ] Heaven Piercer — addon: Calamity: Community Remix
+- [ ] Honey Cooling Cell
+- [ ] Impact Adjuster
+- [ ] Iron Heart
+- [ ] Large Father
+- [ ] Lithos Pickaxe
+- [ ] Moonlight
+- [ ] Onyx Overlord's Gunsaw — addon: Calamity: Community Remix
+- [ ] Protective Shield — pas de sprite; addon: Tranquility Mod
+- [ ] Psy Rod — addon: Calamity: Community Remix
+- [ ] Q/C/S/T/T/ — stub; addon: Deimos, the Starborn Princess, Calamity: Distorted Memories
+- [ ] Reactive Pickaxe — addon: Calamity: Tales of the Aquatic
+- [ ] Revengeance
+- [ ] Ripper Shark
+- [ ] Rod of Harmony
+- [ ] Rod of Misery
+- [ ] Romulus
+- [ ] Sigil of the Nightmare — pas de sprite; addon: Tranquility Mod
+- [ ] Skyline Attractor
+- [ ] Spawn blockers
+- [ ] Supreme Onyx Drill — addon: Calamity: Tales of the Aquatic
+- [ ] The Codseeker — addon: Calamity: Community Remix
+- [ ] The WOBbler
+- [ ] Tormented Mind of Malice
+- [ ] Twisted Netherite Axe — addon: Calamity: Community Remix
+- [ ] Twisted Netherite Pickaxe — addon: Calamity: Community Remix
+- [ ] Twisted Netherite Shovel — addon: Calamity: Community Remix
+- [ ] Umbren Sprayer — addon: Catalyst
+- [ ] Waraxe
+- [ ] Windslasher
+- [ ] World Breaker — addon: Deimos, the Starborn Princess
+- [ ] Wulfrum Axe
+- [ ] Wulfrum Hammer
+- [ ] XO-Tell — addon: Calamity: Distorted Memories
+
+## Debuff (49)
+
+- [ ] Abyssal Flames
+- [ ] Accelerated Photosynthesis
+- [ ] Ancient Astral Blight
+- [ ] Astral Infection (debuff)
+- [ ] Bleeding — pas de sprite
+- [ ] Blood Frenzy Cooldown
+- [ ] Bloodflare Soul Cooldown
+- [ ] Chaos State — pas de sprite
+- [ ] Confused — pas de sprite
+- [ ] Cursed Inferno — pas de sprite
+- [ ] Darkness — pas de sprite
+- [ ] Deadlock — pas de sprite; addon: Tranquility Mod
+- [ ] Defiled One
+- [ ] Demon Flames
+- [ ] Electrified — pas de sprite
+- [ ] Embers of Civilization
+- [ ] Embers of Duality — addon: Deimos, the Starborn Princess
+- [ ] Envoidment — addon: Tranquility Mod
+- [ ] Eradication — addon: Calamity: Tales of the Aquatic
+- [ ] Evercold — addon: Calamity: Tales of the Aquatic
+- [ ] Flahmes
+- [ ] Flesh Totem Cooldown
+- [ ] Flight Curse — addon: Tranquility Mod
+- [ ] Freezing Weather
+- [ ] Frostburn — pas de sprite
+- [ ] Glacial State
+- [ ] God Slayer Cooldown
+- [ ] Heat Exhaustion
+- [ ] Hemophilia
+- [ ] Hemorrhaging
+- [ ] Horror
+- [ ] Ichor (debuff) — pas de sprite
+- [ ] Lunar Aura
+- [ ] Nightclear — addon: Calamity: Tales of the Aquatic
+- [ ] Noctactricity — addon: Calamity: Tales of the Aquatic
+- [ ] Oiled — pas de sprite
+- [ ] Omnislime — addon: Deimos, the Starborn Princess
+- [ ] On Fire/ — pas de sprite
+- [ ] Poisoned — pas de sprite
+- [ ] Punishment
+- [ ] Reactive Flames — addon: Calamity: Tales of the Aquatic
+- [ ] Silva Stun
+- [ ] Slow — pas de sprite
+- [ ] Tarragon Cloak Cooldown
+- [ ] Tarragon Immunity Cooldown
+- [ ] Umbric Fumes — addon: Apotheosis and Friends
+- [ ] Venom — pas de sprite
+- [ ] War Cleave
+- [ ] Webbed — pas de sprite
+
+## Flying Enemy (35)
+
+- [ ] Aether Valkyrie
+- [ ] Angery Flame
+- [ ] Aquatic Seeker
+- [ ] Astral Head
+- [ ] Astrum Deus Probe
+- [ ] Baby Skeletron Head/exe — addon: Calamity: Community Remix
+- [ ] Big Sightseer
+- [ ] Blighted Eye
+- [ ] Charm Gar — addon: Deimos, the Starborn Princess
+- [ ] Cinderlamitas — addon: Deimos, the Starborn Princess
+- [ ] Clockwork Bat
+- [ ] Cosmic Elemental
+- [ ] Crown Jewel (enemy)
+- [ ] Cryocore
+- [ ] Dark Statis — addon: Catalyst
+- [ ] Detonating Flame
+- [ ] Distortion Essence Sphere — addon: Deimos, the Starborn Princess
+- [ ] Elemental Spawns — addon: Deimos, the Starborn Princess
+- [ ] Fat Blighted Eye — addon: Calamity: Community Remix
+- [ ] Floating Biomass — addon: Calamity: Community Remix
+- [ ] Gilded Spirit
+- [ ] Life Seeker
+- [ ] Magnetostorm Shuttle
+- [ ] Mastaba — addon: Calamity: Community Remix
+- [ ] Metal Maw
+- [ ] Mushroom Elemental
+- [ ] Parasea
+- [ ] Phantom Turret
+- [ ] Primal Aspid — addon: Catalyst
+- [ ] Primordial Rainbow Slime — addon: Deimos, the Starborn Princess, Calamity Loot Swap
+- [ ] Siren Clone
+- [ ] Small Sightseer
+- [ ] Stasis Probe
+- [ ] Sun Bat
+- [ ] Volcanic Reaper Shark — addon: Polyphemalus
+
+## Ammunition (29)
+
+- [ ] 22 Hornet Round — addon: Calamity: Community Remix, Polyphemalus
+- [ ] Acceleration Round
+- [ ] Acid Round
+- [ ] Arctic Arrow
+- [ ] Cosmilite Coin — addon: Calamity: Community Remix
+- [ ] Enhanced Nano Round
+- [ ] Explosive Shotgun Shell
+- [ ] Exterminative Dart — addon: Calamity: Tales of the Aquatic
+- [ ] Flah Round
+- [ ] Flarrow
+- [ ] Frostspark Bullet
+- [ ] Grenade Shells
+- [ ] Icy Bullet
+- [ ] Jellyfish Cannonball
+- [ ] Klepticoin — addon: Calamity: Community Remix
+- [ ] Magnum Rounds
+- [ ] Miracle Coin — addon: Calamity: Tales of the Aquatic
+- [ ] Napalm Arrow
+- [ ] Nighterrial Dart — addon: Calamity: Tales of the Aquatic
+- [ ] Profaned Crystal Dart — addon: Calamity: Tales of the Aquatic
+- [ ] Profaned Fire Dart — addon: Calamity: Tales of the Aquatic
+- [ ] Superball Bullet
+- [ ] Terra Arrow
+- [ ] Terra Bullet
+- [ ] Terrestrial Dart — addon: Calamity: Tales of the Aquatic
+- [ ] Verium Bullet
+- [ ] Vortex Dart — addon: Calamity: Tales of the Aquatic
+- [ ] War Arrow
+- [ ] Waterfrost Dart — addon: Calamity: Tales of the Aquatic
+
+## Furniture (28)
+
+- [ ] Abyss Torch
+- [ ] Advanced Void Condenser — addon: Calamity: Tales of the Aquatic
+- [ ] Ancient Console
+- [ ] Anomaly 109
+- [ ] Apocalyptic Slime Statue — addon: Deimos, the Starborn Princess
+- [ ] Aquatic Hypercomputer — stub; addon: Calamity: Tales of the Aquatic
+- [ ] Astral Effigy
+- [ ] Banners — pas de sprite
+- [ ] Bronze Smelter
+- [ ] Cave Entrance
+- [ ] Condenser
+- [ ] Deimos Plushie — addon: Deimos, the Starborn Princess
+- [ ] Effigies — pas de sprite
+- [ ] Effulgent Manipulator
+- [ ] Emergency Door
+- [ ] Entropic Refiner — addon: Deimos, the Starborn Princess
+- [ ] Forgotten Chest
+- [ ] Hallow Effigy
+- [ ] Luminous Altar — addon: Deimos, the Starborn Princess
+- [ ] Particle Accelerator
+- [ ] Plague Torch
+- [ ] Portative Forging Station — pas de sprite; addon: Tranquility Mod
+- [ ] Pots — pas de sprite
+- [ ] Scroll Press — addon: Deimos, the Starborn Princess
+- [ ] Strange Meteorite
+- [ ] Tables (CTotA) — pas de sprite; addon: Calamity: Tales of the Aquatic
+- [ ] Work Benches (CTotA) — pas de sprite; addon: Calamity: Tales of the Aquatic
+- [ ] Wulfrum Signal Transmitter
+
+## NPC (27)
+
+- [ ] Agent
+- [ ] Arc
+- [ ] Archivist — addon: Calamity: Distorted Memories
+- [ ] Brimstone Elemental (Town NPC) — stub; addon: Tranquility Mod
+- [ ] Collector
+- [ ] Disassembly Drone — addon: Sloome
+- [ ] Drunk Princess
+- [ ] Falconer
+- [ ] Goozmarie
+- [ ] Light Wraith — addon: Tranquility Mod
+- [ ] Profaned Birb — addon: Profaned Birb
+- [ ] Sloome
+- [ ] Snowman
+- [ ] Soul of the Eternal Intellect of Infinite Verboten Knowledge — pas de sprite; addon: Deimos, the Starborn Princess
+- [ ] Starborn Princess — addon: Deimos, the Starborn Princess, Calamity Loot Swap
+- [ ] The Big Cheese
+- [ ] The General — addon: Apotheosis and Friends, Calamity: Community Remix, Catalyst
+- [ ] The Observer — pas de sprite
+- [ ] The True Jewel — addon: Calamity: Tales of the Aquatic
+- [ ] The Turtle
+- [ ] Town NPCs — pas de sprite; addon: Apotheosis and Friends, Calamity: Community Remix, Calamity: Tales of the Aquatic, Sloome, Tranquility Mod
+- [ ] Town Slimes — pas de sprite
+- [ ] Void Man — addon: Tranquility Mod
+- [ ] Voidseer Mole
+- [ ] Wet Rat — addon: Calamity: Tales of the Aquatic
+- [ ] Youkai Miko — pas de sprite
+- [ ] Zeratros — addon: Calamity: Community Remix
+
+## Summoning (25)
+
+- [ ] Artificial Reactive Matter — addon: Calamity: Tales of the Aquatic
+- [ ] Astral Communicator — addon: Deimos, the Starborn Princess
+- [ ] Astralination — addon: Deimos, the Starborn Princess
+- [ ] Blood Relic
+- [ ] Calamitous Certificate EX — addon: Calamity: Community Remix
+- [ ] Celestial Geode — addon: Deimos, the Starborn Princess
+- [ ] Disassembly Signal — addon: Sloome
+- [ ] Draedon Power Pie
+- [ ] Draedon's Remote — addon: Calamity: Community Remix
+- [ ] Eschaton — addon: Sloome
+- [ ] Fleshly Horn — addon: Calamity: Community Remix
+- [ ] Fused Eye — addon: Polyphemalus
+- [ ] Gooz Sayer's Coin — addon: Deimos, the Starborn Princess
+- [ ] Jungle Dragon Egg
+- [ ] Kos Fragment
+- [ ] Lantern Shard — addon: Calamity: Tales of the Aquatic
+- [ ] Martian Distress Beacon — addon: Deimos, the Starborn Princess
+- [ ] Nameless Fish of Light
+- [ ] Oddest Mushroom
+- [ ] Old Power Cell
+- [ ] Poisoned Sclera
+- [ ] Puffy Abomination
+- [ ] Rune of Kos
+- [ ] Tar Gar
+- [ ] Vehement Prayer
+
+## ? (23)
+
+- [ ] Amazon Prime
+- [ ] Baby Skyline Shark
+- [ ] Challenge Progress Bar
+- [ ] Charge — pas de sprite
+- [ ] Chip
+- [ ] Complimentary Mint
+- [ ] Compressed Void Chunk — addon: Tranquility Mod
+- [ ] Divine Hunters Staff
+- [ ] Dogscule
+- [ ] Dracula's Charm
+- [ ] Dragon
+- [ ] Dung Defender
+- [ ] Exo Avalon
+- [ ] Giant Skeleton
+- [ ] Green Phantom
+- [ ] Mega Flocko
+- [ ] Mud Cannon — pas de sprite
+- [ ] Sanity — pas de sprite
+- [ ] Spy — pas de sprite
+- [ ] Stamina Meter — pas de sprite; addon: Catalyst, Calamity: Community Remix
+- [ ] Stress — pas de sprite
+- [ ] Vanilla changes — pas de sprite
+- [ ] Wyvern Feather
+
+## Armor (22)
+
+- [ ] Abyssal armor
+- [ ] Animatronic Armor
+- [ ] Corpulent coverings
+- [ ] Cyber Armor
+- [ ] Elderstone Armor — addon: Calamity: Tales of the Aquatic
+- [ ] Entropic Armor — addon: Calamity: Tales of the Aquatic
+- [ ] Frozen Armor
+- [ ] Gel Armor
+- [ ] Hadopelagic armor
+- [ ] Hornet Round Armor — addon: Calamity: Tales of the Aquatic
+- [ ] Horseslime armor — pas de sprite; addon: Deimos, the Starborn Princess
+- [ ] Prototype Armor — addon: Calamity: Tales of the Aquatic
+- [ ] Reaver Helmet
+- [ ] Reaver Mask
+- [ ] Seashatter Armor — addon: Calamity: Tales of the Aquatic
+- [ ] Shroomite Visage
+- [ ] Twisted Netherite armor
+- [ ] Winter Soldier armor — addon: Apotheosis and Friends
+- [ ] Wulfrum Hardhat
+- [ ] Wulfrum Lenses
+- [ ] Wulfrum Mining Helmet
+- [ ] Wulfrum armor
+
+## Grab bag (17)
+
+- [ ] Abyssal Crate
+- [ ] Babilfish — addon: Calamity: Community Remix
+- [ ] Bleached Angling Kit
+- [ ] Chaotic Fish
+- [ ] Contusion Fish — addon: Deimos, the Starborn Princess
+- [ ] Crates — pas de sprite; addon: Calamity: Community Remix
+- [ ] Fish of Light
+- [ ] Fish of Night
+- [ ] Flahr
+- [ ] Front Gar
+- [ ] Rear Gar
+- [ ] Robo Puffer
+- [ ] Sandy Angling Kit
+- [ ] Shattered Carp — addon: Calamity: Tales of the Aquatic
+- [ ] Side Gar
+- [ ] Sunken Crate
+- [ ] Xerocodile
+
+## Slime (17)
+
+- [ ] Accidated Slime
+- [ ] Arsenous Slime
+- [ ] Auric Slime
+- [ ] Chaos Slime
+- [ ] Charred Slime
+- [ ] Cosmilite Slime — addon: Calamity Loot Swap
+- [ ] Death Slime
+- [ ] Esseric Slime — addon: Calamity: Tales of the Aquatic
+- [ ] Famine Slime
+- [ ] Glacial Slime
+- [ ] Life Slime — addon: Calamity Loot Swap
+- [ ] Shadowspec Slime — addon: Calamity: Tales of the Aquatic
+- [ ] Side Mollusk
+- [ ] Silicic Slime
+- [ ] Spiked Crimson Slime Spawn
+- [ ] War Slime
+- [ ] Wulfrum Slime
+
+## Superboss (13)
+
+- [ ] Abyssal Jewel — addon: Calamity: Tales of the Aquatic
+- [ ] Adult Eidolon Wyrm — addon: Apotheosis and Friends
+- [ ] DWN-/: Zero
+- [ ] Disgusting Creature: Dron — stub
+- [ ] Esserwyrm — addon: Calamity: Tales of the Aquatic
+- [ ] Exodygen
+- [ ] Nihil: the Fathomless Seeker — pas de sprite
+- [ ] Poobis Prime — pas de sprite; addon: Buh Deez
+- [ ] Purgatory Arbiter: Umbrus — addon: Calamity Loot Swap
+- [ ] Reactive Guardian: Sodis — addon: Calamity: Tales of the Aquatic
+- [ ] The Fallen Ascended Master: Xeroc
+- [ ] The Unimaginable Deity: Yald/xoroath — addon: Wrath of the God's
+- [ ] Vision of the Tyrant — addon: Calamity: Community Remix
+
+## Pet Summon (12)
+
+- [ ] Batfly Bait
+- [ ] Celestial Clump — addon: Deimos, the Starborn Princess
+- [ ] Cool Item — addon: Calamity: Tales of the Aquatic
+- [ ] Crystallised Stiriatic Chunk — addon: Calamity: Tales of the Aquatic
+- [ ] Cute Scales — addon: Calamity: Tales of the Aquatic
+- [ ] Disgusting Seawater
+- [ ] Elemental Delight — addon: Deimos, the Starborn Princess
+- [ ] Everflute
+- [ ] Heavy Metal Trash Can
+- [ ] Suspicious Looking Chicken Nugget
+- [ ] Triboluminescent Etomer
+- [ ] Violet Heart of Calamity — addon: Calamity: Community Remix
+
+## Aquatic (11)
+
+- [ ] Aquatic Parasite
+- [ ] Catfish (enemy)
+- [ ] Flounder
+- [ ] Hyperfish — addon: Calamity: Tales of the Aquatic
+- [ ] Illuminal Crystalfish — addon: Calamity: Tales of the Aquatic
+- [ ] Lava Squid
+- [ ] Sealed One — pas de sprite; addon: Tranquility Mod
+- [ ] Sky Lacian — addon: Calamity: Tales of the Aquatic
+- [ ] Skylac Dustfish — addon: Calamity: Tales of the Aquatic
+- [ ] Skyline Shark — addon: Calamity: Tales of the Aquatic
+- [ ] Stratosoul — addon: Calamity: Tales of the Aquatic
+
+## Item (11)
+
+- [ ] Derelah
+- [ ] Desolate Flah
+- [ ] Empress Flah
+- [ ] Greedy Chest
+- [ ] Hemorraize
+- [ ] Lunar Flah
+- [ ] Meld Flah
+- [ ] Merge Flah
+- [ ] Molten Flah
+- [ ] Uncharged Flahium
+- [ ] Washed Flah
+
+## Wall (10)
+
+- [ ] Abandoned Bronze Wall
+- [ ] Aeroplate Wall — addon: Calamity: Community Remix
+- [ ] Chaosplate Wall
+- [ ] Chaotic Brick Wall
+- [ ] Dungeon Wall Unsafe — pas de sprite
+- [ ] Mossy Gravel Wall — pas de sprite
+- [ ] Reinforced Acidplate Wall — addon: Calamity: Tales of the Aquatic
+- [ ] Reinforced Freezeplate Wall — addon: Calamity: Tales of the Aquatic
+- [ ] Reinforced Noctiplate Wall — addon: Calamity: Tales of the Aquatic
+- [ ] Reinforced Redplate Wall — addon: Calamity: Tales of the Aquatic
+
+## Burrowing Enemy (9)
+
+- [ ] Armored Digger
+- [ ] Bronze Serpent
+- [ ] Devourer Spawn
+- [ ] Dried Seeker
+- [ ] Lav/e Rugamarius — addon: Polyphemalus
+- [ ] Mechanical Leech
+- [ ] Mechawyrm — addon: Deimos, the Starborn Princess
+- [ ] Secretary
+- [ ] Ungodly Serpent
+
+## Critter (7)
+
+- [ ] Aerbunny
+- [ ] Aerwhale
+- [ ] Barocrab
+- [ ] Dust Mite
+- [ ] Enchanted Jellyfish — addon: Calamity: Tales of the Aquatic
+- [ ] Phyg
+- [ ] Weaverbug — addon: Calamity: Tales of the Aquatic
+
+## Bait (7)
+
+- [ ] Arctic Lacewing
+- [ ] Crocodile Herring — addon: Calamity: Community Remix
+- [ ] Gullet Worm
+- [ ] Minnows Prime — addon: Calamity: Community Remix
+- [ ] Scaly Foot Snail
+- [ ] Shimmer Skimmer
+- [ ] Snow Fly
+
+## Buff (6)
+
+- [ ] Absolute Rage
+- [ ] Elysian Gar
+- [ ] Fungal Clump (buff)
+- [ ] Provi's Blessing — addon: Profaned Birb
+- [ ] Shell Speed Boost
+- [ ] Tyrant's Fury
+
+## Soul (6)
+
+- [ ] Anahita's Soul — stub; addon: Tranquility Mod
+- [ ] Brimstone Elemental's Soul — addon: Tranquility Mod
+- [ ] Cloud Elemental's Soul — stub; addon: Tranquility Mod
+- [ ] Providence's Soul — stub; addon: Tranquility Mod
+- [ ] Sand Elemental's Soul — stub; addon: Tranquility Mod
+- [ ] Ultimate Soul — stub; addon: Tranquility Mod
+
+## Vanity (5)
+
+- [ ] Archangel set
+- [ ] Ash's Cloak
+- [ ] Blank Stare
+- [ ] Catarachedrae Vanity Outfit — addon: Calamity: Tales of the Aquatic
+- [ ] Sloome Totem
+
+## Mount Summon (5)
+
+- [ ] Discordian Sigil
+- [ ] Flame Cube — addon: Catalyst
+- [ ] Mantis Leg Plate — addon: Calamity: Tales of the Aquatic
+- [ ] Plague Station — addon: Catalyst
+- [ ] Plagued Minecart — addon: Calamity: Community Remix
+
+## Key (3)
+
+- [ ] Brimstone Key
+- [ ] Rusty Lockpick
+- [ ] Sea-Imbued Key
+
+## Miscellanous (2)
+
+- [ ] Brimstone Elemental Soul Container — addon: Tranquility Mod
+- [ ] Soul Container — addon: Tranquility Mod
+
+## Misc (2)
+
+- [ ] Calamitous Certificate — addon: Calamity: Community Remix
+- [ ] Otherworldly Log
+
+## Equipment (2)
+
+- [ ] Deadflower — addon: Calamity: Tales of the Aquatic
+- [ ] Flower of Happiness — addon: Calamity: Tales of the Aquatic
+
+## Miscellaneous (2)
+
+- [ ] Divine Core — addon: Calamity: Community Remix
+- [ ] Draedon's Logs — pas de sprite
+
+## Challenge (2)
+
+- [ ] Future bosses — pas de sprite
+- [ ] The Calamity
+
+## Coverings (1)
+
+- [ ] Banana Clown armor
+
+## Crafting materials (1)
+
+- [ ] Broken Modem
+
+## Consumable (1)
+
+- [ ] Calamity Spawner
+
+## Energy Source (1)
+
+- [ ] Char Matter — addon: Calamity: Distorted Memories
+
+## Crafting material. (1)
+
+- [ ] Cosmic Flah
+
+## Junk (1)
+
+- [ ] Decayed Flahium
+
+## Fixable Item (1)
+
+- [ ] Derelict Brick — addon: Calamity: Distorted Memories
+
+## Seeds (1)
+
+- [ ] Flah Seeds
+
+## Background Object (1)
+
+- [ ] Giant Plantera Bulb
+
+## critter (1)
+
+- [ ] Godslayerling
+
+## coverings (1)
+
+- [ ] Grarble coverings
+
+## Undead Enemy (1)
+
+- [ ] Irate Bones — pas de sprite
+
+## Other (1)
+
+- [ ] Profaned Core Fragment
+
+## Quest Item (1)
+
+- [ ] Raggedy Plush
+
+## weapon (1)
+
+- [ ] Rusty Flamethrower
+
+## Scroll (1)
+
+- [ ] Scrolls — stub; addon: Deimos, the Starborn Princess
+
+## Bar (1)
+
+- [ ] Sea Stone Bar
+
+## Accessory (1)
+
+- [ ] Supreme Barrier
+
+## basic Enemy (1)
+
+- [ ] The Melter — pas de sprite
+

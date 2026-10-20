@@ -1,0 +1,42 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 63
+| knockback = 6
+| rare = 4
+| sell = {{value|0|2}}
+| stack = 1
+| auto = yes
+| use = 28
+| velocity = 5
+| extraupdates = 1
+| tooltip = Fires a fist that splits into two more fists upon collision<br/>Stealth strikes make the fist ricochet between enemies up to 4 times while spawning crystal shards
+| hardmode = yes
+| element1 = Holy
+| element2 = Smash
+| element3 = Bomb
+}}
+
+The '''Fracturing Fist''' is a craftable [[Hardmode]] [[Bombs|bomb]] that fires a high-velocity projectile which leaves a particle trail behind. The projectile is slightly affected by gravity, and explodes into two halves on contact with enemies or solid blocks, which will then rapidly home in on enemies. The split fists deal 40% of the weapon's damage. The explosion ignores [[enemy]] [[immunity frames]].
+
+Performing a [[stealth strike]] with the Fracturing Fist will cause the next fist thrown to bounce between enemies up to four times while spawning crystal shards that deal 10% of the weapon's damage on each bounce before exploding.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The particle trail it leaves behind is very useful for exploring, and can also be used to find an [[Roxcalibur]] easily.
+
+{{fracture}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Bombs]]

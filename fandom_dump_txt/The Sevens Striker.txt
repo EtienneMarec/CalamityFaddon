@@ -1,0 +1,98 @@
+{{dedicated|deltaVexator|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = ranged
+| damage = 777
+| use = 30
+| knockback = 9
+| velocity =24
+| tooltip = Left click to consume 1 coin and play a slot machine<br/>Quality of the outcome depends on the coin used<br/>Right click to rapidly fire a barrage of coins<br/>Right click has an 80% chance to not consume coins and will not fire platinum coins<br/>'A gun given to a great gunslinger<br/>Forged by the arms of a man given no name'
+| stack = 1
+| research = 1
+| auto = yes
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| debuff = Midas
+| debuffchance = 100%
+| debuffduration = 7 minutes (Platinum Coin)
+| debufftip = Drop more money on death
+| image2 = The Sevens Striker Holdout.gif
+| image2caption = The Sevens Striker
+| sound = Item 108.wav, SevensStrikerRoulette.wav
+| soundtext = Reel Spin
+| sound2 = SevensStrikerRouletteTick.wav
+| sound2text = Reel Click
+| sound3 = SevensStrikerBust.wav
+| sound3text = Bust
+| sound4 = SevensStrikerDoubles.wav
+| sound4text = Doubles
+| sound5 = SevensStrikerTriples.wav
+| sound5text = Triples
+| sound6 = SevensStrikerJackpot.wav
+| sound6text = Jackpot
+| sound7 = SevensStrikerCoinShot.wav
+| sound7text = Coin Shot
+| element1 = Unholy
+| element2 = Poison
+| element3 = Stab
+}}
+
+'''The Sevens Striker''' is a craftable Godseeker Mode [[ranged weapon]]. When used with its primary fire (left-click), the slot machine on the gun spins for two seconds, rolling one of four attacks at a random chance based on the type of coin. When used with its secondary fire (right-click), a burst of 10 coins are inaccurately fired, each coin having a 20% chance to be consumed.
+
+{{modifier|ranged}}
+
+== Attack Types ==
+=== Primary Fire ===
+{| class="terraria lined"
+|-
+! rowspan=2|Type !! colspan=4|Chance !! rowspan=2|Description
+|-
+! {{item|Copper Coin}} !! {{item|Silver Coin}} !! {{item|Gold Coin}} !! {{item|Platinum Coin}}
+|-
+| {{color|Bust|#808080}} || 50% || 20% || 5% || 0% || Fires a gravity-affected {{item|Throwing Brick}}.
+|-
+| {{color|Doubles|#FFA500}} || 30% || 50% || 30% || 0% || Fires a large spread of seven gravity-affected {{item|Sevens Striker Orange|oranges|link=}}. Each orange deals 200% damage and burst into orange clouds on hit or upon contact with solid tiles.
+|-
+| {{color|Triples|#FF0000}} || 15% || 20% || 50% || 0% || Fires a very large spread of seven {{item|Sevens Striker Grape|bundle of grapes|link=}} followed by a medium spread of seven {{item|Sevens Striker Cherry|bundle of cherries|link=}}. Each bundle of grape deals 33.3% damage and pierces infinitely. Each bundle of cherry splits into three {{item|Sevens Striker Cherry Split|cherries|link=}} on hit or upon contact with solid tiles.
+|-
+| {{color|Jackpot|#FFD700}} || 5% || 10% || 15% || 100% || Fires seven bursts of seven {{item|image=P Shot.png|Platinum Coin|s}} in a large spread. Each platinum coin deals 50% damage and inflicts the [[Midas]] [[debuff]].
+|}
+
+=== Secondary Fire ===
+{{item/options|mode=table}}
+{| class="terraria lined"
+|-
+! colspan=2 style="text-align:center" | Type !! Coin Damage !! Damage Multiplier !! Effective Damage
+|-
+| {{item|image=C Shot.png|Copper Coin}}
+| 25
+| 0.04x
+| 32
+|-
+| {{item|image=S Shot.png|Silver Coin}}
+| 50
+| 0.08x
+| 66
+|-
+| {{item|image=G Shot.png|Gold Coin}}
+| 100
+| 0.16x
+| 140
+|}
+{{item/options|reset}}
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The type of coin chosen differs for each type of fire:
+**For the primary fire, the coin prioritized is the one at the highest slot, regardless of value.
+**For the secondary fire, the coin prioritized is the one with the highest value. If no Gold Coins are available, Platinum Coins are automatically consumed by breaking down into Gold Coins on use.
+*Coins can only be taken from the player's inventory and not from the player's [[Piggy Bank]], [[Safe]], [[Defender's Forge]], or [[Void Vault]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

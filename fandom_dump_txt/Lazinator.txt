@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 55
+| damagetype = magic
+| auto = yes
+| knockback = 2
+| velocity = 20
+| mana = 4
+| tooltip = Zap
+| rare = 6
+| sell = {{value|0|9|60}}
+| use = 7
+| stack = 1
+| hardmode = yes
+| element1 = Magic
+}}
+
+The '''Lazinator''' is a craftable [[Hardmode]] [[magic gun]]. When used, it automatically rapidly fires a straight, gravity-defying purple or green laser projectile. Green lasers are very slightly shorter and slower than purple ones. Each lasers pierce up to two targets before disappearing on the third.
+
+{{Modifier|magiclow}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Lazinator's model and name are a reference to the [[Zapinator]], which in turn is a reference to a light gun peripheral for the NES.
+*The Lazinator was implemented based on a community suggestion made by Gouvod on the mod's Terraria Forums post, where it was called "Zapper".
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Magic guns]]

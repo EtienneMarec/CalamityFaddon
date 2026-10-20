@@ -1,0 +1,43 @@
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 9
+| damagetype = Ranged
+| knockback = 0
+| stack = 1
+| rare = 2
+| sell = {{value|0|0|40}}
+| auto = yes
+| use = 20
+| velocity = 6
+| tooltip = Fires a string of opal strikes
+| proj = Opal Strike.png
+| projcaption = Opal Strike
+| element1 = Holy
+}}
+
+The '''Opal Striker''' is a craftable [[Pre-Hardmode]] [[gun]] that is an upgrade of the [[Flintlock Pistol]]. It fires four projectiles in quick succession, consuming four [[bullets]] with pauses between volleys. Each bullet has a use time of 5.
+
+{{Modifier|rangednokb}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*Although the projectiles appear to grow in size as they travel, their hit profile does not change from that of a standard bullet.
+*Unlike the [[Clockwork Assault Rifle]], the Opal Striker actually consumes one bullet per projectile.
+*Using a [[modifier]] that increase firing speed may enable this weapon to shoot more bullets in one volley, but will still consume a bullet for each shot.
+
+== Trivia ==
+*The Opal Striker was implemented based on a community suggestion made by Gouvod on the mod's Terraria Forums post.
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged= yes
+}}
+
+[[Category:Guns]]

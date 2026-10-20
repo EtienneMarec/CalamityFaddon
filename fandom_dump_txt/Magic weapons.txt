@@ -1,0 +1,24 @@
+'''Magic weapons''' are [[weapons]] that consume [[mana]]. They mostly come in the form of [[Wands|staves]], [[spell tomes]] and [[magic guns]]. Magic weapons have a wide variety of attacks that are usually not seen in other types of weapons. (i.e. firing lasers, raining down stars, creating explosions, etc.)
+
+== Types ==
+{| class="terraria sortable lined"
+! colspan=2 | Name !! <abbr title=Damage>DMG</abbr> !! <abbr title="Use Time">UT</abbr> !! <abbr title=Knockback>KB</abbr> !! <abbr title="Shoot Speed/Velocity">SS</abbr> !! Mana !! <abbr title="Critical Chance">Crit</abbr> !! Auto !! [[Rarity]] !! <abbr title=Hardmode>HM</abbr> !!  <abbr title="Godseeker Mode">GM</abbr> !! Epilogue !! Sell
+|-
+{{#dpl:
+| category = Magic weapons
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦/dpl}
+| uses = Template:Item infobox
+| mode = userformat
+| count = 300
+}}
+|}
+
+{{Master Template Weapons
+| show-main  = yes
+| show-magic = yes
+}}
+
+[[Category:Weapon items| ]]
+[[Category:Magic weapons|*]]

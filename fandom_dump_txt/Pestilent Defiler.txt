@@ -1,0 +1,56 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| tooltip = Converts musket balls into plague rounds that explode and split apart on death
+| damage = 135
+| use = 37
+| knockback = 9.5
+| stack = 1
+| rare = 8
+| sell = {{value|0|16}}
+| velocity = 12
+| hardmode = yes
+| auto = yes
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| debuffduration = 6 seconds (Main shot)<br/>3 seconds (Split shots)
+| debuff2 = Poisoned
+| debufftip2 = Slowly losing life
+| debuffchance2 = 100%
+| debuffduration2 = 6 seconds (Main shot)<br/>3 seconds (Split shots)
+| debuff3 = Venom
+| debufftip3 = Losing Life
+| debuffchance3 = 100%
+| debuffduration3 = 6 seconds (Main shot)<br/>3 seconds (Split shots)
+| proj = Sickness Round.png
+| projcaption = Sickness Round
+| element1 = Poison
+| element2 = Machine
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Pestilent Defiler''' is a [[Hardmode]] [[gun]] that is dropped by [[The Plaguebringer Goliath]]. It fills the role of a sniper rifle, slowly firing extremely powerful shots at high velocity. If [[Musket Ball]]s are used as [[ammo]], bullets are converted into plague rounds that inflict [[Plague]], [[Poisoned]] and [[Venom]] [[debuffs]], causing up to 360 additional damage over several seconds. This plague round also splits into three smaller projectiles on impact that fly in random directions, potentially hitting other nearby enemies. Its extreme knockback helps repel enemies, making its slow fire rate more manageable.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The Pestilent Defiler can hit the same enemy multiple times due to its splitting projectiles.
+
+== Trivia ==
+*The Pestilent Defiler is based on a legendary pistol from ''[[wikipedia:Borderlands (video game)|Borderlands]]'', known as the [http://borderlands.fandom.com/wiki/Defiler_(revolver) Defiler].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

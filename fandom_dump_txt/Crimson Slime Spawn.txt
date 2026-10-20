@@ -1,0 +1,29 @@
+{{npc infobox
+| type = Slime
+| ai = Slime AI
+| damage = {{element|Unholy}} {{dv|35|70}}
+| life = {{dv|110|220}}
+| defense = 10
+| knockback = 100
+| debuff = Darkness
+| debuffchance = 100%
+| duration = 1.5 seconds
+| debufftip = Decreased light vision
+| immune1 = Poisoned
+| immune2 = Confused
+| Blindfold|1|{{dv|1%|2%}}
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Slash
+| vulnerable2 = Fire
+| resistant1 = Poison
+| resistant2 = Unholy
+}}
+
+'''Crimson Slime Spawns''' are [[Enemies#Boss Servants|boss servant]] [[slime]]s summoned during [[The Slime God]] battle when the [[Crimulan Slime God]] takes damage. They behave like normal slimes and always inflict [[Darkness]].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

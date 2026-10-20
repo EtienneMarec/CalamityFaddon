@@ -1,0 +1,20 @@
+<includeonly>
+{{!}} align="center" rowspan="2" | {{item|{{{name}}}|link=tgc:{{{name}}}|mode=image}}
+{{!}} align="center" rowspan="2" | {{item|{{{name}}}|link=tgc:{{{name}}}|mode=text}} 
+! Old
+{{!}} align="center" | {{{damageold|-}}}
+{{!}} align="center" | {{{manaold|-}}}
+{{!}} align="center" | {{{useold|-}}}
+{{!}} align="center" | {{{kbold|-}}}
+{{!}} align="center" rowspan="2" | {{{autofire|-}}}
+{{!}} align="center" rowspan="2" | {{{truemelee|-}}}
+{{!}} align="center" rowspan="2" | {{{pointblank|-}}}
+{{!}} align="{{#if:{{{notes|}}}|left|center}}" rowspan="2" | {{{notes|-}}} 
+{{!-}}
+! New
+{{!}} align="center" | {{{damagenew|-}}}
+{{!}} align="center" | {{{mananew|-}}}
+{{!}} align="center" | {{{usenew|-}}}
+{{!}} align="center" | {{{kbnew|-}}}
+{{!}}-
+</includeonly>

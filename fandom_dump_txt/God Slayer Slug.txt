@@ -1,0 +1,36 @@
+{{item infobox
+| type = Ammunition
+| tooltip = Heavy ammunition with unlimited piercing that tears through spacetime<br/>After a slug lands a hit, if it strikes a wall or runs out of targets to pierce,<br/>it warps backwards through space and supercharges, exploding on impact
+| damagetype = ranged
+| damage = 28
+| knockback = 3
+| velocity = 6
+| velocitymult = 6
+| stack = 9999
+| sell = {{value|0|0|0|28}}
+| rare = 14
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| proj = God Slayer Slug (projectile).png
+| projcaption = God Slayer Slug
+| proj2 = God Slayer Slug (supercharged).png
+| proj2caption = Supercharged God Slayer Slug
+| element1 = Magic
+| element2 = Cold
+}}
+
+'''God Slayer Slugs''' are Godseeker Mode [[bullets]] crafted from [[Cosmilite Bar]]s. They initially behave similarly to [[Luminite Bullet]]s, piercing infinitely and moving at a high velocity. Upon contact with an enemy, their lifespan will be limited and they will gain the ability to warp after despawning. Warping causes the bullets to appear behind the player, turn blue, aiming semi-accurately at the cursor, and cause a small explosion on contact for 28% of the original damage.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+==Trivia==
+*A slug is a type of shotgun ammunition that, when fired, shoots one bullet rather than a large spread of bullets.
+{{-}}
+{{Cosmilite}}
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Bullets]]

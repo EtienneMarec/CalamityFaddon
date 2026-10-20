@@ -1,0 +1,45 @@
+{| align=right
+|{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 200
+| tooltip = Throws a stream of homing blades<br/>Stealth strikes summon a guillotine of blades on hit
+| knockback = 6.75
+| use = 8
+| velocity = 26
+| rare = 14
+| auto = yes
+| sell = {{value|0|36}}
+| hardmode = yes
+| postml = yes
+| stack = 1
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| debuffduration = 3 seconds (Homing Blade)<br/>4 seconds (Falling Blade)
+| debufftip = Your flesh is burning off
+| element1 = Magic
+| element2 = Dark
+| element3 = Slash
+}}
+|}
+
+The '''Executioner's Blade''' is a craftable Godseeker Mode [[rogue weapon]]. It auto-fires a continuous stream of homing purple blades that explode on impact, inflicting [[God Slayer Inferno]] on any enemies hit. The blades can pass through walls and travel for quite some distance before being affected by gravity. Thrown blades cannot home in on enemies while they are inside of solid blocks. Each use of the weapon throws a set of three blades, but when the attack button is held down the stream of blades is continuous.
+
+Performing a [[stealth strike]] with the Executioner's Blade causes a row of twenty identical blades, each dealing 361% damage, to fall swiftly downwards once the resulting blades strike. The row of blades will not home onto enemies unlike the main blades.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+*The Executioner's Blade's stealth strike only deals 90% damage to [[Supreme Calamitas]]'s Supreme Soul Seekers.
+
+{{-}}
+{{Cosmilite}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}

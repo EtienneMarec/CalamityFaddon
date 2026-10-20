@@ -1,0 +1,215 @@
+<section begin=npc infobox />
+{{npc infobox
+| name = Crabulon
+| type = Boss
+| environment = Glowing Mushroom biome
+| life = {{dv|3,350|5,360|6,400|||8,040|9,600}}
+| defense = 12
+| immune1 = Pearl Aura
+| immune2 = Confused
+| resistant1 = Cold
+| resistant2 = Fire
+| resistant3 = Poison
+| resistant4 = Stab
+| resistant5 = Slash
+| resistant6 = Magic
+| resistant7 = Dark
+| resistant8 = Water
+| resistant9 = Holy
+| resistant10 = Unholy
+| knockback = 100
+| buff = Mushy | bufflink = yes
+| bufftip = Increased defense and life regen
+| buffduration= Infinite (while passive)
+| damage = 0 (Passive)<br/>{{defense damage}} {{dv|40|64|80|88||120}} (Contact)<br/>{{dv|32|48|60|68||90}} (Mushroom)
+| money = {{value|0|10}}
+| Glowing Mushroom|{{dv|20-30|25-35}}|100%
+| Mushroom Grass Seeds|{{dv|3-6|5-10}}|100%
+|group|At least one of the following 6 weapons will always drop:|6
+| Mycoroot|1|{{dv|25%|33.33%}}
+| Hyphae Rod|1|{{dv|25%|33.33%}}
+| Mycelial Claws|1|{{dv|25%|33.33%}}
+| Fungicide|1|{{dv|25%|33.33%}}
+| Infested Clawmerang|1|{{dv|25%|33.33%}}
+| Puff Shroom|1|{{dv|25%|33.33%}}
+| Fungal Clump|1|100%
+| Delicious Meat|4-7|100%
+| Leaves of Crabulon|4-7|100%
+| Crabulon Mask|1|14.29%
+| Crabulon Trophy|1|10%
+| custom| {{item|Crabulon (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Crabulon)|Treasure Bag|note=(Crabulon)|wrap=y}}
+: • {{item|Mushroom Plasma Root|note=(In [[Revengeance Mode]] only)|wrap=y}}|{{expert|100%}}
+| custom| {{item|Crabulon Relic|note=(In [[Master Mode|Master]] and [[Revengeance Mode]] only)|wrap=y}}|{{dv|||100%|||100%}}
+| image2 = Crabulon map.png
+| image2caption = Map Icon
+| boxwidth = 27em
+| hurt = NPC_Hit_45.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_14.wav
+| soundtext = Slam
+| sound2 = Item_42.wav
+| sound2text = Mushroom
+}}{{Addon|Fargo’s Souls DLC (Fargo Souls Mod x Calamity)}}
+
+<section end="npc" infobox="" />
+[[File:Crabulon Trophy.png|25px]] <big>''"A crab love story."''</big> [[File:Crabulon Trophy.png|25px]]
+
+'''Crabulon''' (Japanese: クラブロン ''Kuraburon'') is a [[Pre-Hardmode]] [[boss]]. It has the appearance of a giant, gray, fungus-covered crab, with several glowing mushrooms attached to it. It is capable of communication with the player and is likely the owner of the [[Shroom Gardens|Shroom Garden]]. Crabulon is also the boss required to achieve the [[Delicious Meat Ending]].
+
+== Spawn ==
+Crabulon is summoned by bringing a [[Mushroom Elemental]] and a [[Barocrab]] within a short distance of eachother. This will play a short animation of the elemental entering the crab, spawning the boss.
+Alternatively, Crabulon can be spawned by standing in a 15 tile radius of a [[Barocrab]] in a Mushroom Forest while carrying 2,147,483,647 [[Delicious Meat]]. To summon Crabulon with this method, it must have been [[Taming|tamed]] before. Note that this will significantly alter Crabulons behavior, increasing the difficulty of the fight.
+
+== Behavior ==
+When spawned, Crabulon will be passive towards the player, completely still and dealing no contact damage. While Crabulon is passive, the player is granted the [[Mushy]] [[buff]], increasing [[defense]] by 5 and life regen by 1. It will become hostile if the player attacks it. If the player does not attack it, however, it will drop 4-7 [[Delicious Meat]] and burrow away, ending the fight without counting as a win. This event only occurs once {{fantag}}. 
+
+Once hostile, Crabulon will begin walking around and jumping at the player, all while firing a series of mushroom projectiles. It also starts summoning small Crab Shroom minions, which slowly float downward while drifting towards the player.
+
+Crabulon skips the passive phase if summoned with [[Delicious Meat]] and immediately begins attacking the player. Additionally, it aggressively changes the hue of itself and its surroundings in this state, implying that it may be [[Odd Mushroom|intoxicated]]. The intoxicated Crabulon is able to fly, has a unique attack set and can summon [[Pigron]] minions with scaling health and damage depending on the player's progression.
+
+Crabulon enrages outside of the Glowing Mushroom biome and on the [[Surface]], increasing its running speed. The enrage is even more effective if both conditions are met.
+
+=== Attacks ===
+*Every 5.75 seconds while idling, launches one {{item|Mushroom Shot|link=|ext=gif}} at the player, which is affected by gravity.
+*After 6 seconds of idling, repeatedly slam its claws around. While in this animation, Crabulon jumps towards the player two times each with a five-second delay.
+*When 5% of its health is lost, the resulting hit launches {{dv|2|2-3||3}} {{item|Crab Shroom|s|link=}} upwards.
+**Crab Shrooms drift back and forth around the player, and have a constant falling acceleration.
+*When Crabulon reaches 10% health, it enters its second phase:
+**Burrows underground, releasing Fungal Blasts towards the player rapidly
+**The player is granted the [[Mushy]] buff once more, and a barrage of attacks ensue:
+***5 Fungi Bombs spawn in a circle around the player, exploding into 3 Mushroom Shots each once a few seconds have passed
+***10 Mushroom Shots launch from the ground in random directions
+***Crabulon crawls up from the ground, then dashes at the player three times
+***8 Fungi Bombs spawn in a triangular pattern around the player, exploding into 3 Mushroom Shots after one second
+***Launches 2 sets of 30 Falling Mushrooms towards the player
+**Crabulon continues its attacks from phase 1 for the rest of the fight, but is much more aggressive.
+*Once Crabulon reaches 1% health, it will burrow away, dropping its loot and counting as defeated.
+
+=== In [[Expert Mode]] ===
+*Gains the ability to leap through solid tiles.
+*When below 66% health:
+**The number of Mushroom Shots increases from one to three
+**Fires Mushroom Shots 33.33% faster
+**Increases horizontal and projectile speed
+**Reduces the delay between jumps by 50%
+**Jumps four times instead of three
+*When below 33% health:
+**The number of Mushroom Shots increases from three to six
+**Fires Mushroom Shots 45% faster
+**Increases horizontal and projectile speed
+**Reduces the delay between jumps by 30%
+*Enters phase 2 at 20% health and Fungal Bombs explode twice as fast.
+
+=== In [[Revengeance Mode]] ===
+*A wall of 20 evenly-spaced {{item|Mushroom Shot|Falling Mushrooms|link=|ext=gif}} is summoned 56.25 tiles above Crabulon on every final jump it makes in each sequence.
+**Mushroom walls are slightly tilted below 66% health. The direction of the tilt corresponds to the direction of the player relative to the boss.
+*Crabulon's jumps scale in height based on vertical distance to the player and attempts to intercept them if they are moving.
+*Each jump varies in length and delay.
+**The first jump is normal in length and delay.
+**The second jump is higher and slightly shorter delay.
+**The third jump is lower and very short delay.
+**The fourth jump is lower but longer and extremely short delay.
+*Crab Shrooms have a 25% higher terminal fall speed.
+*Enters phase 2 at 35% health and Fungal bombs release 4 Mushroom Shots each.
+*Crab Shrooms travel twice as fast.
+
+=== In [[Death Mode]] ===
+*Idles for less time the lower its health, up to two seconds less.
+*Moves faster, and even faster as its health decreases.
+*Enters phase 2 at 50% health and does a second attack barrage at 25% health.
+
+=== In [[Malice Mode]] ===
+*Movement speed greatly increased.
+*Launches Mushroom Shots more frequently.
+*Jumps have less delay between each other.
+*Walls of Falling Mushrooms are much wider and have smaller gaps.
+*Does a third attack barrage at 10% health.
+*Fungal Blasts travel 3 times as fast.
+*Inflicts Distorted for 5 seconds on contact.
+
+=== On the [[tgc:For_the_worthy|For the worthy]] seed ===
+*Defense increased to 25.
+*Moves faster.
+*Is 150% larger.
+*Mushroom walls are summoned more frequently and are faster.
+*Crab Shrooms have their health increased to {{dv|50|100}}.
+
+=== In [[Delicious Meat Ending]] route ===
+*Health, Defense and Damage scales with player progression.
+*Consuming [[Delicious Meat]] while the boss is alive increases damage dealt and taken by a factor of 1.3.
+*Cycles through the following attacks while above 69% health:
+**Shoots a volley of  {{item|Mushroom Shot|Falling Mushrooms|link=|ext=gif}} into the sky which rain down on the player dashes at them three times.
+***In [[Expert Mode]] or higher, these shots can also include Fungi Bombs.
+**Positions itself above the player, falling down afterwards and releasing {{item|Mushroom Shot|Mushroom Shots|link=|ext=gif}} moving horizontally. When the bottom of the screen is reached, shoots two circles of mushroom lasers and burrows itself away.
+***This interaction is also triggered if a tile is touched.
+**Quickly circles around the player, limiting their movement by spawning Spore Clouds and [[Pigron|Pigrons]]. Afterwards, shoots a rotating Mushy Deathray at the player while occasionaly releasing bursts of {{item|Mushroom Shot|Falling Mushrooms|link=|ext=gif}}.
+**Shoots an undodgeable Homing Missile dealing 1 damage and inflicting a [[Odd Mushroom|Trippy]] debuff while spraying Spore Clouds outwards that slowly home in towards the center.
+**Stands still for 1.5 seconds, then summons a Mushroom Shield and five [[Pigron|Pigrons]] circling around Crabulon that explode into a damaging [[Delicious Meat]] explosion if killed.
+***Health and Defense of the shield also scale with player strength
+*When below 69% health, Pauses and gives some dialogue, then cycles through new attacks:
+**
+
+== Summons ==
+{{npc infobox
+| float = none
+| name = Crab Shroom
+| type = Flying Enemy
+| environment = Glowing Mushroom biome
+| damage = {{dv|25|50|62|70||75}}
+| life = {{dv|25|50||||75}}
+| defense = 0
+| knockback = {{kbauto|25}}
+| immune1 = Confused
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+== Notes ==
+*If Crabulon is stuck and cannot get to the player, it can swim through blocks, similarly to the [[Mourning Wood]] and [[Everscream]].
+*Attempting to consume a [[Yharic Delight]] while Crabulon is alive will replace all Yharic Delights in the player's inventory with Delicious Meat.
+*Crabulons missile attack in the [[Delicious Meat Ending]] can trigger dodging items, significantly reducing their effectiveness.
+*After defeating Crabulon in the [[Delicious Meat Ending|meat route]], it will not be possible to summon the boss again.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating Crabulon, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Crabulon strategies]].}}
+
+*Stay underground when summoning the boss, as going to the surface will cause Crabulon to enrage, even if the player is in the Glowing Mushroom biome.
+*The player should try to stay above Crabulon, as its stomp attacks deal great amounts of damage. However, be wary of Crabulon's other attacks like its exploding mushrooms and Crab Shrooms.
+**Keep staying ''directly'' above Crabulon as many projectiles will miss you and go to the sides.
+*Although Crabulon can be fought as the first boss, be careful as the boss can easily overwhelm an unprepared player.
+*In [[Revengeance Mode|Revengeance]] and [[Death Mode]], move slowly during Crabulon's falling mushroom wall attack in order to easily dodge them.
+**This attack always happens on Crabulon's 3rd jump.
+*Crabulon’s bullet hell attacks can easily be dodged by running away.
+*It is highly recommended to not take damage by getting good.
+
+== Trivia ==
+*Crabulon's [[Music|theme]] is [https://www.youtube.com/watch?v=17IZjvr5c1I '''1NF3$+@+!0N'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**When 1NF3$+@+!0N is played through a [[wikipedia:Vectorscope|vectorscope]], portions of the song create shapes that resemble something or another. If you know, please tell me...
+**The theme's name reads "Infestation".
+**If the Calamity Music add-on mod is disabled, '''Boss 4''' will play instead.
+*Crabulon’s second phase dialogue is a reference to [[Duke Fishron]].
+**The later half of the dialogue references the song [https://www.youtube.com/watch?v=5GcPA3C0QeI Roar of The Jungle Dragon], more specifically, the part where the lyrics says "If they can, it would easily butcher you whole, while you’re blinded by your depression."
+*As seen in some of the signs in the Shroom Gardens, Crabulon manages the growth and sale of the Shroom Garden truffles. It also works with the [[Archmage]] to produce Delicious Meat.
+*Crabulon can be fought before any boss is defeated.
+*In previous versions of the mod, Crabulon's stomp attack was able to destroy non-glowing mushroom biome blocks.
+*Crabulon is often referred to as "The Perfect One" in the player base in reference to its former lore where it was given the title.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The mycelium crab has gotten too crabby to fight."
+*In the Japanese translation, the name is "クラブロン ''Kuraburon''"
+
+{{bestiary|Crabulon|Crab Shroom}}
+
+== Quotes ==
+
+* "Hello, are you here to place a delivery for my world-famous Delicious Meat, made with Frosted Pigron and Blue Truffles (now 70% bluer)?” (When summoned)
+* "No? Please do be careful with that weapon, though, it looks kinda dangerous. Honestly, you seem quite... crabby. Get it?!” (When Crabulon is attacked)
+* "You must be kidding. You’re just another one of those desperate Delicious Meat fans that don’t care to pay up for our hard work that was put into making these. For shame.” (When Crabulon reaches 75% health)
+* “You remind me of that giant mushroom pig flying fish thing. If it could, it would easily butcher you whole, while you’re blinded by your depression or whatever.” (When Crabulon reaches its second phase)
+* "AAAAAAAAAh” (When Crabulon is defeated)
+* "Oh, you don’t have any Shroom Coins? That’s too bad, here’s a free sample." (When Crabulon is left alone)
+* "Is that a Yharic Delight I see? What poor taste you have! Try my Delicious Meat instead!" (When the player attempts to consume a Yharic Delight)
+* Buy Delicious Meat! So Very Delicious! 20% Off! Buy Today! (1% chance to replace summon dialogue on April Fool’s day)
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

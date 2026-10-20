@@ -1,0 +1,27 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| use = 14
+| sell = No value
+| stack = 9999
+| auto = yes
+| rare = 0
+| color = #2D243F
+| hardmode = yes
+}}
+
+'''Plagued Mud''' is a [[Hardmode]] [[block]] which replaces [[Mud Block]]s in the [[Plagued Jungle]] [[biome]] upon its creation.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

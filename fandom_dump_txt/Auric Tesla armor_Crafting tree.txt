@@ -1,0 +1,221 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|Phan1|_|Endo1|_|Nigh1|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|      _|      _|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|`|-|-|-|+|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|#
+|BloOr|_|Phan3|_|BloSt|_|UelOr|_|Phan2|_|Nigh2|_|Endo2|_|_|_|_|_|_|_|_|_|_|_|_|_|Feath|_|LeadC|_|AscS1|_|GoldO|_|#
+|      _|      _|      _|      _|      _|      _|      _|_|_|_|_|_|_|_|_|_|_|_|_|      _|      _|      _|      _|#
+|_|`|-|-|-|+|-|-|-|'|_|_|_|I|_|_|_|`|-|-|-|^|-|-|-|(|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|`|-|-|-|^|-|-|-|(|_|_|_|I|_|_|#
+|_|_|_|_|HMFRG|_|_|_|_|_|HMFRG|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|PHFRG|_|#
+|AuTBT|_|BloCo|_|RuinS|_|UeliB|_|DivGe|_|Cosmi|_|AscS2|_|Cloth|_|SoulL|_|SoulN|_|DarkS|_|Teneb|_|_|I|_|_|GoldB|_|#
+|      _|      _|      _|      _|      _|      _|      _|      _|      _|      _|      _|      _|_|I|_|_|      _|#
+|_|:|_|_|_|)|-|-|-|'|_|_|_|)|-|-|-|'|_|_|_|)|-|-|-|'|_|_|_|`|-|-|-|+|-|-|-|'|_|_|_|`|-|-|-|^|-|-|-|+|-|-|-|'|_|_|#
+|_|₪|_|_|_|§|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|#
+|AuTB1|_|BloFl|_|_|_|_|_|Tarra|_|_|_|_|_|GodSl|_|_|_|_|_|_|_|_|_|FlyCa|_|_|_|_|_|PsycA|_|FrosB|_|Silva|_|_|_|_|_|#
+|      _|      _|_|_|_|_|      _|_|_|_|_|     |_|_|_|_|_|_|_|_|_|     |_|_|_|_|_|     |_|      _|_|_|_|_|_|_|_|_|#
+|_|`|-|-|-|^|-|-|-|-|-|-|-|^|-|v|-|-|-|-|-|^|-|-|-|-|-|-|-|-|-|-|-|^|-|-|-|-|-|-|-|^|-|-|-|^|-|-|-|'|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|AuTes|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+<!-- •• CRAFTING MATERIALS •• -->
+|AuTes_cols = 3
+|AuTes_rows = 2
+|AuTes = {{item|Auric Tesla armor|size=100px}}
+
+|FlyCa_cols = 3
+|FlyCa_rows = 2
+|FlyCa = {{item|Flying Carpet|size=30px}}<br/>
+<div style="font-size: 0.75em">( {{item|mode=image|image=Gold Chest.png|Gold Chest|size=20px}} [[Pyramid]] )</div>
+
+|PsycA_cols = 3
+|PsycA_rows = 2
+|PsycA = {{item|Psychotic Amulet|size=30px}}<br/>
+( {{item|mode=image|Possessed Armor|size=26px}} )
+
+|FrosB_cols = 3
+|FrosB_rows = 2
+|FrosB = {{item|Frost Barrier|size=30px}}<br/>
+( {{item|mode=image|Ice Clasper|size=16px}} / {{item|mode=image|image=Map Icon Traveling Merchant.png|Traveling Merchant|size=30px}} )
+
+|Tarra_cols = 3
+|Tarra_rows = 2
+|Tarra = {{item|Tarragon armor|size=100px}}
+
+|BloFl_cols = 3
+|BloFl_rows = 2
+|BloFl = {{item|Bloodflare armor|size=100px}}
+
+|GodSl_cols = 3
+|GodSl_rows = 2
+|GodSl = {{item|God Slayer armor|size=100px}}
+
+|Silva_cols = 3
+|Silva_rows = 2
+|Silva = {{item|Silva armor|size=100px}}
+
+|BloCo_cols = 3
+|BloCo_rows = 2
+|BloCo = {{item|Bloodstone Core}} × 40<br/>
+
+|RuinS_cols = 3
+|RuinS_rows = 2
+|RuinS = {{item|Ruinous Soul}} × 9<br/>
+( {{item|mode=image|image=Polterghast map.png|Polterghast|size=20px}} )
+
+|BloSt_cols = 3
+|BloSt_rows = 2
+|BloSt = {{item|Bloodstone}} × 100<br/>
+<div style="font-size: 0.75em">( {{item|mode=image|image=Brimstone Elemental map.png|Brimstone Elemental|size=20px}} {{item|mode=image|image=Calamitas map.png|Calamitas|size=20px}} {{item|mode=image|image=Ravager map.png|Ravager|size=20px}} [[Brimstone Crag]] )</div>
+
+|BloOr_cols = 3
+|BloOr_rows = 2
+|BloOr = {{item|Blood Orb}} × 40<br/>
+<div style = "font-size: 0.75em">( [[Blood Moon]] )</div>
+
+|Phan3_cols = 3
+|Phan3_rows = 2
+|Phan3 ={{item|Phantoplasm}} × 20</br>
+( {{item|mode=image|Phantom Spirit|size=14px}} {{item|mode=image|Overloaded Soldier|size=18px}} {{item|mode=image|Phantom Debris|size=26px}} )
+
+|UeliB_cols = 3
+|UeliB_rows = 2
+|UeliB = {{item|Tarragon Bar}} × 33<br/>
+
+|UelOr_cols = 3
+|UelOr_rows = 2
+|UelOr = {{item|Tarragon Ore}} × 165<br/>
+<div style = "font-size: 0.75em">( {{item|mode=image|Bloom Slime|size=14px}} [[Underground Jungle]] )</div>
+
+|DivGe_cols = 3
+|DivGe_rows = 2
+|DivGe = {{item|Divine Geode}} × 36<br/>
+( {{item|mode=image|image=Providence map.png|Providence, the Profaned Goddess|size=20px}} )
+
+|Cosmi_cols = 3
+|Cosmi_rows = 2
+|Cosmi = {{item|Cosmilite Bar}} × 55<br/>
+( {{item|mode=image|image=Devourer of Gods final head map.png|size=20px}} )
+
+|AscS2_cols = 3
+|AscS2_rows = 2
+|AscS2 ={{item|Ascendant Spirit Essence}} × 5
+
+|Phan2_cols = 3
+|Phan2_rows = 2
+|Phan2 ={{item|Phantoplasm}} × 25</br>
+( {{item|mode=image|Phantom Spirit|size=14px}} {{item|mode=image|Overloaded Soldier|size=18px}} {{item|mode=image|Phantom Debris|size=26px}} )
+
+|Nigh2_cols = 3
+|Nigh2_rows = 2
+|Nigh2 = {{item|Nightmare Fuel}} × 25<br/>
+<span style="font-size:0.75em">( [[Pumpkin Moon]] )</span> 
+
+|Endo2_cols = 3
+|Endo2_rows = 2
+|Endo2 = {{item|Endothermic Energy}} × 25<br/>
+<span style="font-size:0.75em">( [[Frost Moon]] )</span>
+
+|Teneb_cols = 3
+|Teneb_rows = 2
+|Teneb = {{item|Tenebris}} × 27<br/>
+<div style = "font-size: 0.75em">( [[Abyss]] )</div>
+
+|GoldB_cols = 3
+|GoldB_rows = 2
+|GoldB = {{item|Any Gold Bar}} × 22<br/>
+
+|GoldO_cols = 3
+|GoldO_rows = 2
+|GoldO = {{item|Any Gold Ore}} × 88<br/>
+
+|AscS1_cols = 3
+|AscS1_rows = 2
+|AscS1 ={{item|Ascendant Spirit Essence}} × 7
+
+|Phan1_cols = 3
+|Phan1_rows = 2
+|Phan1 ={{item|Phantoplasm}} × 35</br>
+( {{item|mode=image|Phantom Spirit|size=14px}} {{item|mode=image|Overloaded Soldier|size=18px}} {{item|mode=image|Phantom Debris|size=26px}} )
+
+|Nigh1_cols = 3
+|Nigh1_rows = 2
+|Nigh1 = {{item|Nightmare Fuel}} × 35<br/>
+<span style="font-size:0.75em">( [[Pumpkin Moon]] )</span> 
+
+|Endo1_cols = 3
+|Endo1_rows = 2
+|Endo1 = {{item|Endothermic Energy}} × 35<br/>
+<span style="font-size:0.75em">( [[Frost Moon]] )</span>
+
+|Feath_cols = 3
+|Feath_rows = 2
+|Feath = {{item|Effulgent Feather}} × 22<br/>
+( {{item|mode=image|image=Dragonfolly map.png|The Dragonfolly|size=20px}} )
+
+|DarkS_cols = 3
+|DarkS_rows = 2
+|DarkS = {{item|Darksun Fragment}} × 22<br/>
+<span style="font-size:0.75em">( [[Solar Eclipse]] )</span>
+
+|LeadC_cols = 3
+|LeadC_rows = 2
+|LeadC = {{item|Lead Core}}<br/>
+( {{item|mode=image|Irradiated Slime|size=30px}} / {{item|mode=image|Gamma Slime|size=24px}} )
+
+|AuTB1_cols = 3
+|AuTB1_rows = 2
+|AuTB1 = {{item|Auric Bar}} × 42
+
+|SoulL_cols = 3
+|SoulL_rows = 2
+|SoulL = {{item|Soul of Light}} × 10<br/>
+<div style="font-size: 0.75em">( [[Underground Hallow]] )</div>
+
+|SoulN_cols = 3
+|SoulN_rows = 2
+|SoulN = {{item|Soul of Night}} × 10<br/>
+<div style="font-size: 0.75em">( [[tgc:Underground Corruption|Underground Corruption]]/[[tgc:Underground Crimson|Crimson]] )</div>
+
+|Cloth_cols = 3
+|Cloth_rows = 2
+|Cloth = {{item|Ancient Cloth}} × 10<br/>
+( {{item|mode=image|image=Ghoul.png|Ghouls|size=20px}} )
+
+<!-- •• CRAFTING TREES •• -->
+|AuTBT_cols = 3
+|AuTBT_rows = 2
+|AuTBT = ''[[Auric Bar/Crafting tree|Auric Bar<br/>crafting tree]]''
+
+<!-- •• CRAFTING STATIONS •• -->
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|HMFRG_cols = 3
+|HMFRG_class = craft-station
+|HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+| HMANV_cols = 3
+| HMANV_class = craft-station
+| HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

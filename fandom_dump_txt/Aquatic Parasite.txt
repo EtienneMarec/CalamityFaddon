@@ -1,0 +1,35 @@
+{{npc infobox
+| type = Aquatic
+| environment = Sulphurous Sea
+| ai = Aquatic Parasite AI
+| damage = {{dv|15|30}} (in [[Pre-Hardmode]])<br/>{{dv|35|70}} (in [[Hardmode]])
+| life = {{dv|30|60}} (in [[Pre-Hardmode]])<br/>{{dv|200|400}} (in [[Hardmode]])
+| defense = 5
+| knockback = 0% / {{expert|10%}}
+| banner = yes
+| money = {{value|0|0|0|60}}
+| debuff = Irradiated
+| debuffchance = 100%
+| duration = 2 seconds
+| debufftip = Your skin is burning off
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| resistant1 = Poison
+| resistant2 = Water
+| vulnerable1 = Slash
+}}
+
+The '''Aquatic Parasite''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Sulphurous Sea]]. It swims towards the player and can jump out of the water very high in an attempt to catch them.
+
+== Trivia ==
+*Its original sprite was intended to be a resprite of the [[Desert Medallion]].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

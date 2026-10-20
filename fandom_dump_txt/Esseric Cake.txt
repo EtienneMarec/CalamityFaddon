@@ -1,0 +1,35 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Block
+| placeable = yes
+| consumable = yes
+| auto = yes
+| tooltip = "Real.... or cake?"
+| pickreq = 0
+| stack = 9999
+| use = 14
+| rare = C1
+| value = 1700
+| color = #00aaff
+| sell = {{value|-22}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+'''Esseric Cake''' is a Godseeker Mode [[ore]] that generates in the [[Sky Abyss]] biome after defeating [[Purgatory Arbiter, Umbrus|Purgatory Arbiter, Umbrus]] if he was defeated on April First, replacing 5% of the Generating [[Esseric Ore]]
+
+Once a Player picks up Esseric Cake, every item in their inventory's Display name, tooltip and asset change to the ones of Esseric Cake and the player gets inflicted with [[Evercold]] until they dispose of the real Esseric Cake from their inventory
+
+Esseric Cake is the only item in the mod to have a negative sell price, having the player lose money when trying to sell it.
+
+=== Trivia ===
+* The Item's tooltip is a reference to a popular trend on video sharing platforms where people create cakes that resemble everyday objects
+{{Master Template Consumables
+| show-main = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}
+{{Ctota}}

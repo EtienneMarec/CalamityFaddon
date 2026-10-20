@@ -1,0 +1,42 @@
+{{npc infobox
+| environment = Abyss
+| type = Aquatic
+| knockback = {{dv|10%|19%}}
+| ai = Bloatfish AI
+| damage = {{dv|5|10}}
+| life = {{dv|7,200|14,400}}
+| defense = 100
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| debuff = Crush Depth
+| debufftip = Aquatic pressure
+| debuffchance = 100%
+| duration = 5 seconds
+| banner = yes
+| money = {{sc|30}}
+| Voidstone| 10-20 |100%
+| custom | {{item|Depth Cells|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|5-7|7-10}}) |50%
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| resistant1 = Water
+| resistant2 = Dark
+| vulnerable1 = Poison
+| vulnerable2 = Stab
+| vulnerable3 = Machine
+}}
+
+The '''Bloatfish''' is an [[enemy]] that spawns in lowest layer of the [[Abyss]]. While it is not aggressive and will not chase the player to attack them, it can still slightly hurt them via its low contact damage. It serves primarily as a meat-shield for other enemies, as it absorbs projectiles and gets larger as it takes damage, potentially reaching 3 times its original size.
+
+== Notes ==
+*The Bloatfish nullifies the piercing capabilities of any projectiles that come in contact with it, effectively absorbing them.
+
+== Trivia ==
+*Although the Bloatfish is based on the [[wikipedia:Ocean sunfish|ocean sunfish]], which lives in the warmer and higher places of the water column, the Bloatfish only spawns at the very bottom of the Abyss.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

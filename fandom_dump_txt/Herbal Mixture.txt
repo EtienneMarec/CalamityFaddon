@@ -1,0 +1,24 @@
+{{infobox wrapper
+|{{item infobox
+|type = Crafting material
+| stack = 9999
+| rare = 1
+| tooltip = A brew of various lush herbs.
+| sell = {{value|0|50|0|0}}
+}}
+}}
+
+'''Herbal Mixture''' is a [[Hardmode]] Mode crafting material.
+
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Absolute}}
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

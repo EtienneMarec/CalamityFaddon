@@ -1,0 +1,41 @@
+{{addon|Calamity: Community Remix}}
+{{dedicated|Antiblock|Developer}}
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 50
+| damagetype = Ranged
+| knockback = 0
+| stack = 1
+| auto = yes
+| use = 3
+| velocity = 26
+| hardmode = yes
+| rare = 9
+| tooltip = 80% chance to not consume ammo
+| sell = {{value|0|8}}
+| element1 = Unholy
+}}
+
+The '''Arngren''' is a craftable [[Hardmode]] [[gun]] that is an upgraded version of the [[Clock Gatlignum]]. It shoots at an incredibly high rate, but with a large 45 degree random spread, sacrificing accuracy for higher speed and damage.
+
+{{Modifier|rangedalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Arngren's low damage prevents it from being viable against anything with a decent amount of defense.
+
+== Trivia ==
+*Arngren is the name of a gadget selling website.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

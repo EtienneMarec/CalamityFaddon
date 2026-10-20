@@ -1,0 +1,28 @@
+{{dedicated|Aleksh|Developer ''and''  Donator}}
+{{infobox wrapper
+|{{item infobox
+| type = Pet Summon
+| stack = 1
+| tooltip = It's oddly warm. Attracts the forbidden one.
+| rare = 5
+| use = 19
+| buff = The Father | bufflink = no
+| bufftip = A father of many floats around you
+| sell = {{value|0|1}}
+}}
+|{{item drops infobox
+| [[Shark]] | 1 | {{dv|4%|6.67%}}
+}}
+}}
+{{summoned|Lad Shark|type=pet}}
+
+The '''Joyful Heart''' is a [[pet]] summoning item that drops from [[Shark]]s. It summons a white shark pet to fly around the player, occasionally spinning around itself. It has a 1 in 10000 chance every frame to squeak and causes all players, [[enemies]], [[critters]], and [[Town NPCs]] within a 15-block radius to emit heart particles similarly to a [[Love Potion]].
+
+== Notes ==
+*If the player is named "Aleksh" or "Shark Lad", the player can obtain the Joyful Heart from the [[Starter Bag]].
+*Lad Shark behaves the same way as the Baby Skeletron Head summoned by the [[Bone Key]], and the two will tend to overlap if both are summoned.
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

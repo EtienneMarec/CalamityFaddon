@@ -1,0 +1,151 @@
+<big>''"Hung low in orbit, masses of ground and various parts of the world provide a secluded and distant point for research."''</big>
+
+'''Planetoids''' are structures added by the Calamity Mod that are created in the [[Space]] layer during world generation. They are floating spheres of blocks with varying sizes and materials, often containing valuable loot. There are 6 different types of planetoids: the Main Planetoid, Life Crystal Planetoids, Ore Planetoids, Jungle Planetoids, Beehive Planetoids, and Mushroom Planetoids. After defeating the [[Moon Lord]], a few new planetoids made entirely of [[Exodium Cluster]]s and Luminite with two distinct variants; one with the middle filled with Luminite with a crust of Exodium Clusters and/or a planetoid with Exodium Clusters making up most of the planetoid with sections filled with Luminite along with small outcrops of Exodium Clusters on the surface. {{fantag|Calamity Loot Swap}} Additionally, all Planetoids will generate veins of [[Cosmilite Slag]], which are used to craft [[Cosmilite Bar]]s. Most planetoids are generated within the middle 3rd of the map, although sometimes planetoids can be generated farther out from the center.
+
+== Main Planetoid ==
+[[File:Main Planetoid.png|300px|thumb|The Main Planetoid.]]
+The Main Planetoid will always be located around the center of the map. It is the largest of the planetoids, and the size of the planetoid scales with the map size. At the center, there is a unique [[Space Bio-center Lab]], containing the [[schematic]] used to craft the second tier of Draedon's arsenal and decrypt the third schematic.
+
+{{biome
+|drop=<nowiki />
+'''[[Critter]]s:'''
+:{{item|Grasshopper|image=Grasshopper (NPC).png}}
+:{{item|Worm|image=Worm (NPC).png}}
+:{{item|Gold Grasshopper|image=Gold Grasshopper (NPC).png}}
+:{{item|Gold Worm|image=Gold Worm (NPC).png}}
+|drop2=
+'''From terrain:'''
+:{{item|Mushroom}}
+:{{item|Daybloom}}
+:{{item|Daybloom Seeds}}
+:{{item|Seed|note=(with [[Blowpipe]])|wrap=y}}
+:{{item|Hay|note=(with [[Sickle]])|wrap=y}}
+}}
+
+== Life Crystal Planetoids ==
+[[File:Life Crystal Planetoid.png|150px|thumb|A Life Crystal Planetoid containing diamonds.]]
+Life Crystal Planetoids are the smallest and most common of the planetoids and are made of [[Stone Block|stone]] that is covered in a random type of [[Tgc:Moss|moss]]. They will always contain a [[Life Crystal]] encased in either [[Platinum Brick]] or [[Gold Brick]] and will typically contain a cluster of a specific type of [[gem]]; however, there is a small chance that a gem cluster will not be generated.
+{{biome
+
+|drop=<nowiki />
+'''From terrain:'''
+:{{item|Life Crystal}}
+:{{item|Gem}}
+:{{item|Platinum Brick}} / {{item|Gold Brick}}
+:{{item|Platinum Brick Wall}} / {{item|Gold Brick Wall}}
+|drop2=
+
+}}
+
+== Ore Planetoids ==
+[[File:Ore Planetoid.png|250px|thumb|An Ore Planetoid with a tent and a campfire]]
+
+[[File:Enchanted ore planetoid.png|250px|thumb|An Ore Planetoid with an enchanted shrine.]]
+{{historical content|section=yes}}Ore Planetoids are large planetoids containing streaks of a [[Ore|Pre-Hardmode Ore]]. The ore will always be the counterpart to one of the Pre-Hardmode ores generated in its world (for instance, if the world generated with [[Copper Ore|Copper]], a planetoid would contain [[Tin Ore|Tin]]). They occasionally have a [[campfire]] and a [[tent]] on top of them or a pyramid-like structure (comparable to an [[Enchanted_Sword_Shrine|Enchanted Sword Shrine]]) constructed of Stone Slabs with [[Lamp|Shadewood Lamps]] on either side.
+{{biome
+|monsters=
+'''[[Critter]]s:'''
+:{{item|Grasshopper|image=Grasshopper (NPC).png}}
+:{{item|Worm|image=Worm (NPC).png}}
+:{{item|Gold Grasshopper|image=Gold Grasshopper (NPC).png}}
+:{{item|Gold Worm|image=Gold Worm (NPC).png}}
+
+|drop=<nowiki />
+'''From terrain:'''
+:{{item|Campfire}}
+:{{item|Stone Slab|size=15px}}
+:{{item|Shadewood Lamp}}
+:{{item|Copper Ore}} / {{item|Tin Ore}}
+:{{item|Iron Ore}} / {{item|Lead Ore}}
+:{{item|Silver Ore}} / {{item|Tungsten Ore}}
+:{{item|Gold Ore}} / {{item|Platinum Ore}}
+:{{item|Enchanted Sword}} / {{item|Arkhalis}}
+:{{item|Mushroom}}
+:{{item|Daybloom}}
+:{{item|Daybloom Seeds}}
+:{{item|Seed|note=(with [[Blowpipe]])|wrap=y}}
+:{{item|Hay|note=(with [[Sickle]])|wrap=y}}
+|drop2=
+
+}}
+{{-}}
+
+== Jungle Planetoids ==
+[[File:Jungle Planetoid.png|200px|thumb|A Jungle Planetoid.]]
+Jungle Planetoids are average sized planetoids made of [[Mud Block|mud]] and [[Jungle grass]]. They always contain a pool of water in the center with an accompanying [[Water Chest]], and can generate with Jungle Trees on top of them. After [[Golem]] has been defeated, [[Miracle Fruit]] will begin generation inside.
+{{biome
+|monsters=
+'''[[Critter]]s:'''
+:{{item|Grubby}}
+:{{item|Sluggy}}
+:{{item|Buggy}}
+|treasures=
+'''From [[Water Chest]]s:'''
+:{{item|Trident}}
+:{{item|Breathing Reed}}
+:{{item|Flipper}}
+:{{item|Water Walking Boots}}
+:{{item|Diving Helmet}}
+|drop=<nowiki />
+'''From terrain:'''
+:{{item|Water Chest}}
+:{{item|Moonglow}}
+:{{item|Moonglow Seeds}}
+'''From terrain post-[[Golem]]:'''
+:{{item|Miracle Fruit}}
+|drop2=
+
+}}
+{{-}}
+
+== Beehive Planetoids ==
+[[File:Beehive Planetoid.png|200px|thumb|A Beehive Planetoid.]]
+Beehive Planetoids are very similar to Jungle Planetoids, as they are both made of mud and Jungle grass and are around the same size. The Beehive Planetoid, however, will contain a [[Bee Hive]] with some [[honey]] and a [[Honey Chest]]. Like Jungle Planetoids, Jungle Trees can generate on top of Beehive Planetoids.
+{{biome
+
+|monsters=<nowiki />
+:{{item|Bee}}
+|monsters2='''[[Critter]]s:'''
+:{{item|Grubby}}
+:{{item|Sluggy}}
+:{{item|Buggy}}
+|treasures='''From [[Honey Chest]]s:'''
+:{{item|Bezoar}}
+:{{item|Nature's Gift}}
+:{{item|Sharpening Station}}
+|drop=<nowiki />
+'''From terrain:'''
+:{{item|Hive}}
+:{{item|Hive Wall}}
+:{{item|Honey Chest}}
+:{{item|Moonglow}}
+:{{item|Moonglow Seeds}}}}
+
+{{-}}
+
+== Mushroom Planetoids ==
+[[File:Mushroom Planetoid.png|200px|thumb|A Mushroom Planetoid.]]
+Mushroom Planetoids are uncommon, average sized planetoids composed of mud and [[Mushroom grass]].
+{{biome
+
+|drop=<nowiki />
+'''From terrain:'''
+:{{item|Glowing Mushroom}}
+:{{item|Mushroom Grass Seeds}}
+}}
+{{-}}
+
+== Notes ==
+*It is possible for [[Meteorite (biome)|Meteors]] to land on Planetoids. However, due to [[Meteorite_(biome)#Conditions|how meteorite crash sites are determined]], this is extremely unlikely to occur.
+
+== Tips ==
+*Because the main planetoid is always close to the center of the map, the player can easily find and reach it at the start of the game by building a line of ropes up from their spawn point. This allows them to acquire a large amount of herbs for brewing potions in the early game, including fireblossom, which would otherwise require reaching the [[Underworld]].
+*Like with Floating Islands, [[Gravitation Potion]]s are an extremely useful asset in locating Planetoids.
+*Having a Mushroom Planetoid in your world is also very useful, as it allows [[Crabulon]] to be fought before finding the [[Glowing Mushroom biome]] underground and allows the [[Truffle]] to be acquired easily.
+
+== Trivia ==
+*A concept [[Music|theme]] for the Planetoids has been made by [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO], known as [https://www.youtube.com/watch?v=BvR7dzXBQSE '''Blessing of the Moon'''], but it is not intended to be a part of the mod.
+*A small Planetoid is depicted in the Space's [[Draedon's Logs#Gallery|Draedon's Log]].
+*The [[Cinderplate]] in the the center of the Main Planetoid is based off of the core of the Earth.
+
+{{Biomes}}

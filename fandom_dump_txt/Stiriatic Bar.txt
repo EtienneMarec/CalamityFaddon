@@ -1,0 +1,30 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{infobox wrapper
+|{{item infobox
+| image = Stiriatic Bar.gif
+| imagebreak = yes
+| stack = 9999
+| type = Crafting material
+| rare = C2
+| sell = {{value|1|0}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+}}
+
+'''Stiriatic Bars''' are craftable Post-[[Purgatory Arbiter, Umbrus]] [[bars]]. They are used for creating post-[[Esserwyrm]] equipment.
+
+==Crafting==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Stiriatic}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+[[Category:Bar items]]

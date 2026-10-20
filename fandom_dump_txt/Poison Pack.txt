@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| damage = 20
+| critical = 8%
+| use = 18
+| knockback = 1.8
+| damagetype = Rogue
+| rare = 1
+| tooltip = Throws a poisonous spiky ball. Stacks up to 3.<br/>Stealth strikes cause the balls to release spore clouds<br/>Right click to delete all existing spiky balls
+| sell = {{value|0|0|6|60}}
+| velocity = 7
+| stack = 3
+| debuff = Poisoned
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 4 seconds (Ball)
+| proj = Spore Gases.png
+| projcaption = Spore Gases
+| element1 = Poison
+| element2 = Stab
+}}
+
+The '''Poison Pack''' is a craftable [[Pre-Hardmode]] [[spiky balls|spiky ball]]. It throws up to 3 gravity-affected spiky balls, with the amount of balls thrown depending on stack size. The balls inflict the [[Poisoned]] [[debuff]], bounce and slide on contact with solid blocks, and decelerate to a stop as it travels. The balls will despawn after a long amount of time, or after right-clicking with the weapon.
+
+Performing a [[stealth strike]] with the Poison Pack will cause the next spiky ball thrown to release spore clouds as it travels.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Spiky Balls]]

@@ -1,0 +1,39 @@
+{{item infobox
+| type = Tool
+| type2 = Crafting material
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 92
+| pick = 250
+| knockback = 6.5
+| rare = 12
+| bonus = +5 range
+| use = 11
+| toolspeed = 4
+| tooltip = Can mine Auric Ore
+| sell = {{value|0|24|0|0}}
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Blossom Pickaxe''' is a craftable Godseeker Mode [[pickaxe]] capable of mining {{item|Auric Ore}}. It has +5 increased block breaking range and produces green light particles when swung.
+
+{{modifier|harvestalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Blossom Pickaxe is tied with the [[Astral Pickaxe]] for third highest mining speed, after the [[Shroomite Digging Claw]] and [[Crystyl Crusher]].
+
+{{Uelibloom}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

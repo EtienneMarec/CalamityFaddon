@@ -1,0 +1,122 @@
+<section begin=npc infobox />
+{{npc infobox
+| type = Burrowing Enemy
+| ai = Worm AI
+| life = {{dv|50,000|100,000}}
+| knockback = 100
+| listexclude = yes
+| hardmode = yes
+| postml = yes
+| immuneall = yes
+| boxwidth = 28em
+| money = {{value|0|25|50|0|0}}
+| Cosmilite Slag|{{dv|5-10|20-25}}|100%
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+}}<section end=npc infobox />
+
+The '''Cosmic Guardian''' is a Godseeker Mode [[enemy]] that spawns rarely underground. A [[Enemies#Boss Servants|boss servant]] variant is also spawned during the fight with [[The Devourer of Gods]]. In [[Revengeance Mode]], it spawns when the Devourer of Gods reaches 60% health, and an additional two appear at 20% health. Another three will spawn in the Devourer of Gods' final phase at 30% health in all difficulties. It will fly up high and despawn once the Devourer of Gods is defeated in its first phase. It can also be spawned by the [[Chibii Devourer]] pet.
+
+It behaves almost identically to a [[Wyvern]], albeit with significantly increased speed, health, and damage. After [[The Devourer of Gods]] is defeated, it will begin dropping [[Cosmilite Slag]].
+
+{{fantag|Deimos, the Starborn Princess}} Cosmic Guardians can also spawn around [[Distortion Essence Sphere]]s during the post-[[The Starborn Moth|Starborn Moth]] [[Martian Madness]] event.
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Cosmic Guardian Head
+| life = {{dv|50,000|100,000}}
+| damage = {{dv|180|boost=0.1}}
+| defense = 0
+| vulnerable1 = Slash
+| resistant1 = Magic
+| resistant2 = Poison
+| resistant3 = Dark
+| knockback = 100
+| ai = Worm AI
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 3 seconds (Contact)
+| debufftip = Your flesh is burning off
+| debuff2 = Darkness
+| debuffchance2 = 100%
+| duration2 = 3 seconds (Contact)
+| debufftip2 = Decreased light vision
+| hardmode = yes
+| postml = yes
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Cosmic Guardian Body
+| life = {{dv|50,000|100,000}}
+| damage = {{dv|130|260}}
+| defense = 0
+| ai = Worm AI
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| vulnerable1 = Slash
+| resistant1 = Magic
+| resistant2 = Poison
+| resistant3 = Dark
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 2 seconds (Contact)
+| debufftip = Your flesh is burning off
+| debuff2 = Darkness
+| debuffchance2 = 100%
+| duration2 = 2 seconds (Contact)
+| debufftip2 = Decreased light vision
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Cosmic Guardian Tail
+| life = {{dv|50,000|100,000}}
+| damage = {{dv|100|200}}
+| defense = 0
+| ai = Worm AI
+| vulnerable1 = Slash
+| resistant1 = Magic
+| resistant2 = Poison
+| resistant3 = Dark
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 1.5 seconds (Contact)
+| debufftip = Your flesh is burning off
+| debuff2 = Darkness
+| debuffchance2 = 100%
+| duration2 = 1.5 seconds (Contact)
+| debufftip2 = Decreased light vision
+}}
+}}
+
+== Resistances ==
+*All segments take reduced damage from non-[[Minions|minion]] piercing projectiles in [[Expert Mode]]. Projectile damage is divided by the number of times it pierces. Infinite piercing deals 50% damage.
+*All segments reduce damage from grenade-type projectiles by 80%. A list of affected projectiles is below.
+
+{{ajax|List of resisted grenades|head=Resisted grenades|width=15%}}
+
+== Notes ==
+*The Devourer of Gods spawns one Cosmic Guardian when reduced to 60% life. At 20% life, it will spawn two more Cosmic Guardians. In the final phase three Cosmic Guardians spawn at 30% life.
+*The Cosmic Guardian cannot damage or be damaged by the player for 3 seconds after spawning.
+*Due to lacking a special resistance to piercing weapons like most worm bosses, the Cosmic Guardian is highly vulnerable to weapons such as [[Valediction]] or [[Blissful Bombardier]].
+*If all three Cosmic Guardians spawn at once while the Devourer of Gods is alive, some Cosmic Guardians may spawn without a few segments or lacking their entire body besides the head. This is the result of the many worms' segments reaching the NPC cap, preventing additional segments from spawning.
+*The Cosmic Guardian can also be spawned by getting stabbed by the [[Cosmic Plushie|Chibii Devourer]] Pet. If the player's name is Terry, getting stabbed will instead summon the Devourer Of Gods' final phase.
+*Just like The Devourer of Gods, the Cosmic Guardian cannot be hurt by any attack that would deal more than 1/2 of their health in one hit, such as another mod's butcher function or an incredibly powerful weapon. When hit by such an attack, the damage is reduced to 0.
+*Guardians spawned by the Devourer of Gods, or by the Chibi Devourer pet, do not drop money or items.
+
+== Trivia ==
+*The Cosmic Guardian used to be called "Another worm boss" as a reference to the prevalence of [[Worm AI|worm]] [[bosses]] in the mod. After that, it was known as "Devourer of Thots", in reference to the memetic slang term "thot" to refer to a promiscuous woman.
+*Before the Cosmic Guardian was introduced, a second Devourer of Gods would spawn in its place.
+**The player would have to defeat the newly spawned Devourer of Gods first because if the new Devourer reached 25% life after the old Devourer had been defeated, a ''third'' Devourer of Gods would spawn, and the process would begin anew.
+**Only two Devourers of Gods could exist at once, so by defeating the newly spawned Devourer of Gods first, the original Devourer of Gods (which would already be below 25% life) could be defeated without worry of another spawning.
+*Due to the Cosmic Guardian previously being only a boss minion, it is one of the few enemies that do not have [[Banners]].
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

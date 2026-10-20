@@ -1,0 +1,22 @@
+{{item infobox
+| type = Pet Summon
+| stack = 1
+| tooltip = Summons a Microbial Cluster to light your way
+| rare = 4
+| use = 19
+| buff = Microbial Cluster (buff) | bufflink = no
+| bufftip = <nowiki>'Where is it?'</nowiki>
+| sell = {{value|0|0|20}}
+}}
+{{summoned|Microbial Cluster|type=pet}}
+
+The '''Disgusting Seawater''' is a [[pet]] summoning item obtained by using a [[Bug Net]] or one of its upgrades on a [[Microbial Cluster]]. It summons a Microbial Cluster to follow the player and provide a small amount of light.
+
+== Trivia ==
+*The flavor text is a reference to how the Microbial Cluster has no sprite, and can only be identified by the dust it produces.
+
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,40 @@
+{{item infobox
+| type = Covering
+| tooltip = Spy projectiles create nanoblades as they travel<br/>Stealth strikes summon nanobeams and sparks on enemy hits<br/>Stealth strikes have +20 armor penetration, deal 5% more damage, and heal for 1 HP<br/>12% increased Spy damage and 15% increased Spy velocity<br/>Whenever you crit an enemy with a Spy weapon your Spy damage increases<br/>This effect can stack up to 150 times<br/>Max Spy damage boost is 15%<br/>Spy Crit Level: [LEVEL HERE]
+| rare = 14
+| sell = {{value|0|28}}
+| element1 = Slash
+| element2 = Dark
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Nanoblade.png
+| projcaption = Nanoblade
+}}
+
+The '''Nanotech''' is a Godseeker Mode [[Covering]] for the [[Spy]] class. When equipped, Spy projectiles release a nanoblade while active for every half a second, up to a maximum of five blades at once. Nanoblades deal 60 typeless damage which can be affected by Spy damage bonuses and can slightly home into enemies. The covering grants the effects of the [[Raider's Talisman]] and [[Electrician's Glove]]. It also grants +12% increased Spy damage and 15% increased Spy velocity.
+
+If the player utilizes a stealth strike and hits an enemy with this covering equipped, three nano flares will rain down onto the target. Nano flares deal 120 typeless damage which can be affected by Spy damage bonuses. This effect only triggers for the first five enemies hit, and has a cooldown of one second.
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Nanotech/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The projectiles created by weapons like the [[Vermillion Angel]] and [[Gacruxian Mollusk]] also leave nanoblades in their wake.
+*If the player un-equips the covering then re-equips it, the Raider's Talisman bonus is not reset.
+*If the player dies or quits the game, the bonus is lost and has to be rebuilt.
+*Damage can only be stacked from hitting enemies that have a damage stat of 5 or higher, with the exception of enemies spawned from [[statues]].
+*This covering can be considered the counterpart to the [[Eclipse Mirror]], as that focuses more on the stealth aspect of the Spy class, whereas this covering focuses more on the damage aspect.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Healing items]]
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

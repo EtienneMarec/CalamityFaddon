@@ -1,0 +1,123 @@
+{{item infobox
+| imagebreak = yes
+| type = Armor
+| defense = 124/111/105
+| rare = 14
+| sell = {{value|0|28}} (set)
+| proj = God Killer Dart.png
+| projcaption = God Killer Dart
+| hardmode = yes
+| postml = yes
+| debuff = God Slayer Cooldown
+| debufftip = God Slayer dash is recharging
+| debuffduration = 35 seconds (After God Slayer Dash usage)
+| debuff2 = God Slayer Inferno
+| debufftip2 = Your flesh is burning off
+| debuffduration2 = 2 seconds (God Killer darts)<br/>5 seconds (God Slayer Dash)
+| debuffchance2 = 100%
+| setbonus = Allows you to dash for an immense distance in 8 directions<br/>Press {{key|God Slayer Dash}} while holding down the movement keys in the direction you want to dash<br/>Enemies you dash through take massive damage<br/>During the dash you are immune to most debuffs<br/>The dash has a 35 second cooldown<br/><br/> '''Horned Greathelm''': Enemies are more likely to target you<br/>Taking over 80 damage in one hit will cause you to release a swarm of high-damage god killer darts<br/>Enemies take a lot of damage when they hit you<br/>An attack that would deal 80 damage or less will have its damage reduced to 1<br/><br/> '''Helmet''': You fire a god killer shrapnel round while firing ranged weapons every 2.5 seconds<br/><br/>'''Mask''': While at full HP all of your Spy stats are boosted by 10%<br/>If you take over 80 damage in one hit you will be given extra immunity frames<br/>Spy stealth builds while not attacking and slower while moving, up to a max of 120<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+|boxwidth = 22em
+}}
+
+'''God Slayer armor''' is a Godseeker Mode [[Covering]] set crafted from [[Cosmilite Bar]]s and [[Ascendant Spirit Essence]]. Making a set with one headpiece requires 55 Cosmilite Bars which requires 275 [[Cosmilite Slag]]. It is the Melee/Ranged/[[Spy]] counterpart to [[Silva armor]]. If the Chestplate, Leggings, and any of the three headpieces of the set are visible (whether equipped or in social slots), the player will have afterimages.
+
+It consists of the '''God Slayer Chestplate''' and '''God Slayer Leggings''', as well as having three different headpieces suited to the Melee, Ranged, and Spy classes, being: the '''God Slayer Horned Greathelm''', '''God Slayer Helmet''', and '''God Slayer Mask.''' All helmets share a set bonus, but also provide set bonuses specific to their respective class as well.
+
+The '''God Slayer Chestplate''' provides 41 defense, 11% increased damage and 6% increased critical strike chance, a thorns effect, and +60 max life. The '''God Slayer Leggings''' provides 35 defense, 10% increased damage and critical strike chance, and 5% increased movement speed.
+
+*The '''God Slayer Horned Greathelm''' gives 48 defense and 14% increased melee damage and critical strike chance.
+*The '''God Slayer Helmet''' gives 35 defense and 14% increased ranged damage and critical strike chance.
+*The '''God Slayer Mask''' gives 29 defense, 14% increased Spy damage and critical strike chance and 5% increased movement speed.
+
+== Set Bonuses ==
+Regardless of the headpiece chosen, equipping a full set of God Slayer armor will provide the following set bonuses:
+*Pressing {{key|God Slayer Dash}} allows the player to dash a great distance in 8 directions depending on what movement keys are held.
+**The player is invulnerable and immune to most debuffs while dashing.
+**Dashes have 3000 base damage and inflict enemies with the [[God Slayer Inferno]] [[debuff]] for 10 seconds.
+**This effect has a 35 second [[God Slayer Cooldown|cooldown]].
+In addition to the above, each headpiece provides its own class-specific set bonus:
+
+'''God Slayer Horned Greathelm''':
+*+1,000 to [[Aggro]].
+*Taking over 80 damage in one hit will cause the wearer to release a swarm of eight high-damage god killer darts.
+**The darts deal 900 typeless damage and can not be increased by any means.
+**The darts inflicts God Slayer Inferno for 3 seconds.
+*Enemies that touch you have 2.5x their contact damage reflected back at them.
+*Attacks that would deal 80 damage or less to the wearer are decreased to 1.
+'''God Slayer Helmet''':
+*Every 2.5 seconds, firing a ranged weapons also fires a god-killing shrapnel round.
+**The shrapnel has 675 base damage. The round spawns 4-6 pieces of shrapnel which deal 30% of the set bonus round's damage.
+'''God Slayer Mask''':
+*While at full health, Spy damage, crit chance, and velocity are boosted by 10%.
+*If the wearer takes over 80 damage in one hit, they will be given 30 extra [[immunity frames]].
+*Gives a maximum [[Spy#Stealth|Spy stealth]] of 120.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = God Slayer Chestplate
+| type = Armor
+| type2 = Crafting material
+| defense = 41
+| body slot = Shirt
+| tooltip = +60 max life<br/>Enemies take damage when they hit you<br/>11% increased damage and 6% increased critical strike chance
+| sell = {{value|0|12}}
+}}
+|{{item infobox
+| name = God Slayer Leggings
+| type = Armor
+| type2 = Crafting material
+| defense = 35
+| body slot = Pants
+| tooltip = 5% increased movement speed<br/>10% increased damage and critical strike chance
+| sell = {{value|0|9}}
+}}
+}}
+
+=== Helmet variants ===
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = God Slayer Horned Greathelm
+| type = Armor
+| type2 = Crafting material
+| defense = 48
+| body slot = Helmet
+| tooltip = 14% increased melee damage and critical strike chance
+| sell = {{value|0|15}}
+}}
+|{{item infobox
+| name = God Slayer Helmet
+| type = Armor
+| type2 = Crafting material
+| defense = 35
+| body slot = Helmet
+| tooltip = 14% increased ranged damage and critical strike chance
+| sell = {{value|0|15}}
+}}
+|{{item infobox
+| name = God Slayer Mask
+| type = Armor
+| type2 = Crafting material
+| defense = 29
+| body slot = Helmet
+| tooltip = 14% increased Spy damage and critical strike chance, 5% increased movement speed
+| sell = {{value|0|15}}
+}}
+}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result=LIKE God Slayer%|resultnot=God Slayer Slug}}
+
+=== Used in ===
+{{recipes|ingredient=God Slayer Chestplate/God Slayer Leggings/God Slayer Horned Greathelm/God Slayer Helmet/God Slayer Mask}}
+
+== Trivia ==
+*God Slayer armor was implemented based on a community suggestion made by Vladimier on the mod's Terraria Forums post.
+*Prior to the [[1.5.0.001]] update, God Slayer armor also consisted of helmets for Mages and Summoners. These are now [[Legacy vanity headpieces|vanity armor]].
+
+{{Cosmilite}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

@@ -1,0 +1,32 @@
+{{item infobox
+| type = Weapon
+| damage = 6666
+| damagetype = magic
+| auto = yes
+| knockback = 2
+| velocity = 1
+| mana = 66
+| stack = 1
+| tooltip = Fires full color rays aimed at enemies
+| rare = C4
+| sell = {{value|66|66}}
+| use = 15
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Magic
+| element2 = Cold
+| element3 = Slash
+| element4 = Machine
+}}
+
+The '''Vehement Gemstone''' is a craftable post-[[Umbrus]] [[magic weapon]]. It fires spreads of 15 full color rays towards enemies, hitting up to 10 enemies per attack within a radius of the screen.  66 mana is consumed per each attack, regardless of the number of enemies struck. No mana is consumed if the Vehement Stone is used while no enemies are within range.
+
+==Crafting ==
+
+===Recipe===
+{{Recipes|result={{PAGENAME}}|view=infobox}}
+
+[[Category:Epilogue-only items]]
+[[Category:Craftable items]]
+[[Category:Magic weapons]]

@@ -1,0 +1,43 @@
+{{item infobox
+|type = Weapon
+|damage = 85
+|damagetype = Spy
+|knockback = 5
+|use = 14
+|tooltip = The Subterranean Sun in the palm of your hand.<br/>Shoots a gravity-defying spiky ball. Stacks up to 10.<br/>Once stationary, periodically emits small suns that explode on hit<br/>Stealth strikes emit suns at a faster rate and last for a longer amount of time<br/>Right click to delete all existing spiky balls
+|auto = yes
+|stack = 10
+|velocity = 5
+|rare = 11
+|debuff = Holy Flames
+|debuffchance = 100%
+|debuffduration = 3 seconds (Ball)<br/>2 seconds (Sun)
+|debufftip = Dissolving from holy light
+|sell = {{value|0|2|40}}
+| hardmode = yes
+| postml = yes
+| proj = Explosive Sun.png
+| projcaption = Explosive Sun
+| element1 = Holy
+| element2 = Stab
+}}
+
+The '''Hell's Sun''' is a Godseeker Mode [[Spy]] [[spiky balls|spiky ball]]. It automatically fires up to 10 spiky balls, with the amount of balls thrown depending on stack size. The balls move slowly and decelerate to a stop after travelling a short distance. Once the ball comes to a stop, sun orbs of varying speeds and sizes are released in all directions, which do not pierce. The balls go through tiles and will despawn after landing 20 enemy hits or after a long amount of time. Right-clicking with the weapon will delete all the existing spiky balls.
+
+Performing a [[stealth strike]] with the Hell's Sun will cause the next ball thrown to last longer and pierce more enemies before disappearing. Additionally, sun orbs are released at a faster rate.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The name of the weapon, "Hell's Sun", and the weapon's tooltip are references to the character [https://en.touhouwiki.net/wiki/Utsuho_Reiuji Reiuji Utsuho] from the ''[[wikipedia:Touhou Project|Touhou Project]]'' series.
+*The behavior of the weapon references a few of the spell cards that Utusho uses, most notably her second spellcard, "Explosion Sign: Peta Flare", in which she summons suns in a similar method to how the weapon does.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Spiky Balls]]

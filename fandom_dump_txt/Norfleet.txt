@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| damagetype = ranged
+| auto = yes
+| damage = 354
+| knockback = 15
+| tooltip = Fire everything!
+| rare = 14
+| sell = {{value|0|28}}
+| use = 75
+| velocity = 30
+| hardmode = yes
+| postml = yes
+| proj = Galactica Comet.png
+| projcaption = Comet
+| element1 = Magic
+| element2 = Machine
+}}
+|{{item drops infobox
+| [[The Devourer of Gods]]|1|10%
+}}
+}}
+The '''Norfleet''' is a Godseeker Mode [[ranged]] [[weapon]] that drops from [[The Devourer of Gods]]. When used, it fires ten large stars that explode upon contact with an enemy. Upon collision, each star will create a massive explosion similar to that of the Starmada. It uses [[Fallen Star]]s as ammo and consumes six fallen stars per shot fired.
+
+{{Modifier|ranged}}
+
+== Notes ==
+
+*Similarly to the Starmada, this weapon fires faster the longer the player uses it, and emits a particle ring to indicate when the maximum fire rate has been reached. However, it still fires very slowly, even at the maximum fire rate.
+
+== Trivia ==
+*The projectiles from this weapon were intentionally prevented from splitting with the [[Elemental Quiver]], when the covering still had that effect.
+*This weapon is a reference to a [https://borderlands.fandom.com/wiki/Norfleet weapon of the same name] from ''[[wikipedia:Borderlands 2|Borderlands 2]]''.
+*It was formerly the [[rare variant]] of the [[Starmada]].
+[[File:Norfleet (demo).gif|frame|right|The Norfleet's star projectiles and massive explosion. Note how the explosion damages [[Target Dummy|target dummies]] that are behind blocks.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

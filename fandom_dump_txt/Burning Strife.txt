@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 96
+| use = 24
+| knockback = 0
+| critical = 12%
+| damagetype = Spy
+| rare = 5
+| tooltip = Throws a shadowflame spiky ball that bursts into flames<br/>Stealth Strikes make the ball linger and explode more violently<br/>'Definitely not pocket safe'
+| sell = {{value|0|7|20|0}}
+| proj = Shadowflame Sticky Ball.png
+| projcaption = Shadowflame Sticky Ball
+| velocity = 8
+| stack = 1
+| auto = yes
+| hardmode = yes
+| debuff = Shadowflame
+| debuffduration = 3 seconds
+| debufftip = Losing life
+| debuffchance=100%
+| element1 = Dark
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Goblin Summoner]] | 1 | {{dv|20%|33.33%}}
+}}
+}}
+
+The '''Burning Strife''' is a [[Hardmode]] non-consumable [[Spy]] [[spiky balls|spiky ball]] that is dropped by [[Goblin Summoner]]s. It throws a gravity-affected shadowflame spiky ball that bounces off of solid blocks. Upon contact with an enemy, the spiky ball will explode and inflict the [[Shadowflame]] [[debuff]] to all nearby enemies, as well as dealing 33% damage to them.
+
+Performing a [[stealth strike]] with Burning Strife causes the next spiky ball thrown to deal 130% and pierce through four enemies before being destroyed on contact with a fifth. Whenever the spiky ball strikes an enemy, it releases an explosion that is larger than the non-stealth version and deals 42.9% damage.
+
+{{Modifier|Spy}}
+
+{{-}}
+== Trivia ==
+*The Burning Strife was implemented based on a community suggestion made by Iris Cassandra Saintclaire (known as Lilith Saintclaire at the time) on the mod's Discord server, where it was called "Shadowflame Core".
+
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Spiky Balls]]

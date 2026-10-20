@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 5
+| sell = {{value|0|7|20}}
+| damage = 70
+| use = 21
+| knockback = 7.5
+| tooltip = Lowers enemy defense by 1 with every strike<br/>If enemy defense is 0 or below your attacks will heal you
+| auto = yes
+| stack =  1
+| hardmode = yes
+| element1 = Holy
+| element2 = Slash
+}}
+
+The '''Majestic Gar''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. While it does not shoot a projectile, it has a very large range and enough knockback to keep most [[Hardmode]] [[enemies]] away from the player. Every time it strikes an enemy, its defense will be lowered by 1. If the hit enemy's defense is less than or equal to 0 when struck, the player is [[Lifesteal|healed]] for 3 HP. This effect works on any enemy, including bosses.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The defense reduction applied by the weapon can stack as long as the enemy's defense is over 0 or they haven't changed their base defense values (e.g. When a boss changes phases).
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]  [[Category:Healing items]]
+[[Category:True melee]]
+[[zh:雄伟之护]]

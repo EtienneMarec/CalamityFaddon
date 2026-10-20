@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 20
+| reach = 18.75
+| attduration = 4 seconds
+| knockback = 4
+| use = 22
+| stack = 1
+| auto = yes
+| tooltip = Fires feathers when enemies are near<br/>A very agile yoyo
+| rare = 3
+| sell = {{value|0|0|80}}
+| proj = Air Spinner Yoyo.png
+| projcaption = Air Spinner
+| proj2 = Golden Aero Feather.png
+| proj2caption = Golden Aero Feather
+| element1 = Holy
+}}
+
+The '''Air Spinner''' is a craftable [[Pre-Hardmode]] [[yoyo]]. While the yoyo is deployed and enemies are nearby, small feathers will be fired from the yoyo that deal 50% of the main throw's damage.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The Air Spinner moves extremely quickly compared to other yoyos, allowing it to more easily track fast enemies; however, its short airtime can severely hinder the usefulness of its speed.
+
+{{-}}
+{{Aerialite}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]
+[[zh:空旋]]

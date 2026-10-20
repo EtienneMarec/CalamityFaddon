@@ -1,0 +1,199 @@
+/* this CSS governs the responsive 3 column main page layout */
+.fpmain {
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.fpbanner {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #505050;
+    box-shadow: 0 2px 5px #505050;
+    color: #B3B4B7;
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    min-height: 80px;
+}
+
+.fpbannertable {
+    display: table;
+    border: none;
+    background: transparent;
+    width: 100%; 
+    min-height: 75px;
+    margin: 0;
+    padding: 5px;
+}
+
+.fpbannercell {
+    display: table-cell; 
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.fpbannerblock {
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.75);
+    font-size: 132%;
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+}
+
+.fpmidsections {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+.fpbox {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #505050;
+    box-shadow: 0 2px 5px #505050;
+    color: #B3B4B7;
+    margin: 5px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.fpbox .mainheading {
+    border: none;
+    border-bottom: 1px solid #505050;
+    font-size: 150%;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+    overflow: auto;
+}
+
+.fpbox .heading {
+    border: none;
+    border-bottom: 1px solid #505050;
+    text-align: center;
+    font-size: 132%;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+    overflow: auto;
+}
+
+.fpmain .columns .leftcol {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fpmain .columns .rightcol {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fpsection1, .fpsection2, .fpsection3, .fpsection4 {
+    float: left;
+    clear: both; 
+    width: 100%;
+}
+
+div.fp2columnonly, div.fp3columnonly {
+    display: none; 
+}
+
+@media (min-width: 790px) {
+  .fpsection1 {
+    float: left;
+    clear: none;
+    width: 50%;
+  }
+
+  .fpmidsections {
+    clear: none;
+    float: right;
+    width: 50%;
+  }
+
+  .fpsection4 {
+    float: left;
+    clear: none;
+    width: 50%;
+  }
+
+  div.fp2columnonly {
+    display: block; 
+  }
+}
+
+@media (min-width: 990px) {
+  .fpmain .columns .leftcol {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .fpmain .columns .rightcol {
+    float: right;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1390px) {
+  .fpmidsections {
+    clear: none;
+    float: right;
+    width: 66.667%;
+  }
+
+  .fpsection1 {
+    clear: none;
+    width: 33.333%;
+  }
+
+  .fpsection2 {
+    clear: none;
+    width: 50%;
+  }
+
+  .fpsection3 {
+    clear: none;
+    width: 50%;
+  }
+ 
+  .fpsection4 {
+    clear: left;
+    width: 33.333%;
+  }
+
+  div.fp2columnonly {
+    display: none; 
+  }
+
+  div.fp3columnonly {
+    display: block; 
+  }
+}
+
+.fpbox.plain {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.fpimagelist ul {
+    list-style-type: none;
+    list-style-image: none;
+}
+
+.fpvideos {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.fpvideo {
+    display: inline-block;
+    margin: 0 5px;
+}

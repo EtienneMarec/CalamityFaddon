@@ -1,0 +1,23 @@
+{{revengeance mode only}}{{infobox wrapper
+|{{item infobox
+|type = Potion
+|consumable = yes
+| use = 30
+|tooltip = Permanently unlocks the usage of Rage and Adrenaline (and Stamina {{fantag|Catalyst}})<br/>Revengeance drop
+| rare = 2
+| sell = No value
+| stack = 1
+| research = 1v
+| soundtext = Use
+}}
+|{{item drops infobox
+| [[The Inventors]]|1|{{revengeance|100%}}
+}}
+}}The '''Metabolic Converter''' is a [[permanent power-up]] item obtained from the [[Treasure Bag]] dropped from [[Crabulon|The Inventors]]. It unlocks the usage of [[Rage Meter|Rage]] and [[Adrenaline Meter|Adrenaline]] (and [[Stamina]] {{fantag|Catalyst}}) and can only be used once.
+
+== Notes ==
+*If the metabolic converter was consumed and Revengeance Mode is not active, the meters will not show up until Revengeance Mode is active again.
+{{-}}{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

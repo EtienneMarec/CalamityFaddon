@@ -1,0 +1,29 @@
+{{Patch infobox
+| title = 1.4.4.003
+| image = Baby Flak Hermit Cage.png
+| patchname = Critter Cage Update (Music mod)
+| prev = [[1.4.4.001 (music)|1.4.4.001]]
+| next = [[1.4.4.004 (music)|1.4.4.004]]
+| pair = 1.4.4.003
+| release = 4/19/2020
+}}
+{{dablink|This is the page for the '''1.4.4.003 Music mod''' update.}}
+The '''1.4.4.003''' (or '''1.4.4.3''') Music mod update fixed a few oversights and bugs.
+
+This Music Mod version was compatible with Main mod version [[1.4.4.003]].
+
+== Changes ==
+*Renamed Music Box (Bumblebirb) to [[Music Box (The Dragonfolly)]].
+*Renamed the <code>Title Screen - Toggling this requires a reload to take effect</code> [[Configuration option]] to <code>TitleScreenOverride</code>.
+
+== Fixes ==
+*Fixed an issue that would cause dedicated multiplayer servers to crash when a Music mod track would play.
+
+== Trivia ==
+*This update was incorrectly labled as '''1.4.5.002''' internally.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-music = yes
+}}

@@ -1,0 +1,25 @@
+{{item infobox
+| type = Summoning
+| type2 = Crafting material
+| rare = 11
+| stack = 9999
+| tooltip = Cores of the unholy flame<br/>Summons Providence when placed within 40 slots of your inventory simultaneously.
+| hardmode = yes
+| postml = yes
+| sell = No value
+}}
+
+The '''Profaned Core''' is a Godseeker Mode [[crafting material]]. It can also be used to [[Summoning items|summon]] [[Providence, the Profaned Goddess]] in the [[Underworld]] or [[Hallow]] by having at least one Core in 40 different slots within your inventory, afterwhich 1 core from each slot will be consumed and Providence will awaken.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+| show-material = yes
+}}

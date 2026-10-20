@@ -1,0 +1,61 @@
+{{item infobox
+| type = Grab bag
+| tooltip = Right click to extract gems
+| stack = 9999
+| consumable = True
+| rare = 2
+| sell = {{value|0|0|50}}
+}}
+
+The '''Glimmering Gemfish''' is a [[grab bag]]-type [[Fishing|fish]] that can be caught in the [[Cavern]] at a 6.67% chance. It contains various [[Gem]]s.
+
+== Contents ==
+{| class="terraria"
+! colspan="3" | Anytime
+|-
+! Items !! Chance !! Amount
+|-
+| {{item|Amethyst}}
+| 50%
+| rowspan="7" | 1-3
+|-
+| {{item|Topaz}}
+| 40%
+|-
+| {{item|Sapphire}}
+| 30%
+|-
+| {{item|Amber}}
+| 25%
+|-
+| {{item|Emerald}}
+| 20%
+|-
+| {{item|Ruby}}
+| 15%
+|-
+| {{item|Diamond}}
+| 10%
+|}
+
+If the [http://forums.terraria.org/index.php?threads/the-thorium-mod.40788/ Thorium Mod] is enabled, the following gems can also be dropped:
+
+{| class="terraria"
+! colspan="3" | Anytime
+|-
+! Items !! Chance !! Amount
+|-
+| {{item|Pearl}}
+| rowspan="3" | 25%
+| rowspan="7" | 1-3
+|-
+| {{item|Opal}}
+|-
+| {{item|Onyx}}
+|}
+
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

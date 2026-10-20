@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 48
+| use = 24
+| velocity = 10
+| knockback = 4.25
+| auto = yes
+| tooltip = Fires a vile ball that sticks to tiles and explodes
+| stack = 1
+| rare = 3
+| sell = {{value|0|0|80}}
+| proj = Dark Ball.png
+| projcaption = Dark Ball
+| element1 = Unholy
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[The Hive Mind]]|1|{{dv|25%|33.33%}}
+}}
+}}
+[[File:Perfect Dark (demo).gif|frame|The Perfect Dark's swing animation. Notice how the vile balls don't travel in a straight line, but are affected by gravity.]]
+The '''Perfect Dark''' is a craftable [[Pre-Hardmode]] [[broadsword]] that also drops from [[The Hive Mind]]. When swung, it fires a small spherical projectile that deals damage to the target hit and sticks to the first surface it touches. After sticking onto a surface for 4 seconds, it explodes - emitting purple particles and dealing damage to all enemies in a small radius. It is the [[Corruption]] counterpart to the [[Vein Burster]].
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon's name is a reference to the Nintendo 64 game, ''[[wikipedia:Perfect Dark|Perfect Dark]]''.
+{{-}}
+{{Rotten Matter}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:阴雷]]

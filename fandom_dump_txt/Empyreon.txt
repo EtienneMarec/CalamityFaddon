@@ -1,0 +1,145 @@
+{{addon|Deimos, the Starborn Princess}}
+{{npc infobox
+| type = Boss
+| ai = Empyreon AI
+| life = {{dv|400,000|600,000|725,000}}
+| damage = 0 (Contact)<br/>{{element|Magic}} {{dv|110|175|184}} (Celestial Bolt)<br/>{{defense damage}} {{element|Fire}} {{dv||200}} (Martian Rocket)<br/>{{defense damage}} {{element|Fire}}{{element|Magic}} {{dv|150|225|250}} (Celestial Blast)<br/>{{element|Magic}} {{dv|90|150|170|190}} (Celestial Flare)<br/>{{defense damage}} {{element|Magic}} {{dv|125|200|215}} (Lightning Orb)<br/>{{element|Fire}} {{dv|95|boost=0.125}} (Celestial Fire)<br/>{{defense damage}} {{element|Magic}} {{dv|150|225|250}} (Celestial Beam)<br/>{{element|Magic}} {{dv|125|205|212}} (Celestial Bomb)<br/>{{defense damage}} {{element|Fire}}{{element|Slash}} {{dv|90|150|170}} (Saucer Scrap)<br/>{{defense damage}} {{element|Magic}} {{dv|200|350}} (Celestial Deathbeam)
+| environment = Martian Madness
+| defense = 75
+| dr = 25 
+| knockback = 100 
+| hardmode = yes
+| postml = yes
+| money = {{pc|35}}
+| Martian Conduit Plating|{{dv|300-600|600-900}}|100%
+| Arean Conduit Plating|{{dv|100-200|200-300}}|100%
+| Supreme Healing Potion|5-15|100%
+| Strange Matter|{{dv|15-22|22-30}}|100%
+| Empyreon Trophy|1|10%
+| debuff = Embers of Duality
+| debufftip = Celestial voids are manifesting around you; defense and damage reduction reduced
+| debuffchance = 100%
+| duration = 2 seconds (Celestial Beam)<br/>3 seconds (Celestial Deathbeam)
+| immune1 = Confused 
+| immune2 = Pearl Aura
+| immune3 = God Slayer Inferno 
+| immune4 = Holy Flames
+| immune5 = Moon Burnt
+| immune6 = Electrified
+| immune7 = Embers of Duality
+| vulnerable1 = Dark
+| vulnerable3 = Unholy
+| resistant1 = Cold
+| resistant2 = Magic
+| resistant3 = Stab
+| resistant4 = Machine
+| image2 = Empyreon map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = NPC_Killed_7.wav
+| soundtext = Spawn
+| sound2 = Item_122.wav
+| sound2text = Celestial Energy Spawn
+| sound3 = Item_122.wav
+| sound3text = Enrage
+| sound4 = NPC_Hit_53.wav
+| sound4text = Celestial Bolt
+| sound5 = Item_14.wav
+| sound5text = Martian Rocket
+| sound6 = Item_117.wav
+| sound6text = Teleport Telegraph
+| sound7 = Item_124.wav
+| sound7text = Teleport
+| sound8 = ProvidenceHolyBlastShoot.wav
+| sound8text = Celestial Blast Shot
+| sound9 = NPC_Hit_53.wav
+| sound9text = Celestial Blast Impact
+| sound10 = Item_121.wav
+| sound10text = Lightning Orb
+| sound11 = Item_34.wav
+| sound11text = Celestial Fire
+| sound12 = Item_68.wav
+| sound12text = Celestial Beam
+| sound13 = Item_33.wav
+| sound13text = Celestial Bomb
+| sound14 = Item_9.wav
+| sound14text = Celestial Bomb Explosion
+| sound15 = ThanatosVent.wav,LargeWeaponFire.wav
+| sound15text = Phase Transition
+| sound16 = LaserCannon.wav
+| sound16text = Celestial Deathbeam Telegraph
+| sound17 = TeslaCannonFire.wav
+| sound17text = Celestial Deathbeam
+}}
+
+'''Empyreon''' (Japanese: エンピレオン ''Enpireon'') is a Godseeker Mode [[mini boss]] that is fought at the end of the post-[[The Starborn Moth|Starborn Moth]] [[Martian Madness]] [[event]].
+
+== Spawn ==
+Empyreon spawns on its own during wave 12 of the [[Martian Madness]] event after defeating [[The Starborn Moth]], appearing from a portal that spawned when the wave started and followed the player, six seconds after the start of the wave. Empyreon can also be manually spawned by using an [[Astral Communicator]] on the [[Surface]] outside of the martian madness event. 
+
+
+== Behavior ==
+Empyreon will try to stay close to the player, every two seconds, a Celestial Energy will be spawned:
+*Celestial Energies will float and rotate around the boss, up to four energies can be alive at once.
+
+
+When the player is 40 tiles or more away from Empyreon, it will enrage, drastically increasing its attack speed until the player goes within the 40 tile zone around Empyreon.
+
+=== Attacks ===
+Empyreon uses a set of five attacks:
+
+*Empyreon will fire an even spread of {{dv|10|12|10|12}} Celestial Bolts around it, while moving around the player slowly in a circle.
+**In [[Revengeance Mode]], Empyreon will fire a series of {{item|Martian Rocket|ext=gif|link=}}s during this attack.
+*Empyreon will teleport around the player twice, above the player then below the player, and fire two Celestial Blasts each teleport, one that predicts player movement, and one that is fired directly at the player.
+**Celestial Blasts behave similarily to the Holy Blasts fired by [[Providence, the Profaned Goddess]], but they break into multiple Celestial Flares on death instead of Holy Flames.
+**Teleport positions are telegraphed with a portal similar to [[The Devourer of Gods]].
+**In [[Expert Mode]], Empyreon will also fire a series of {{item|Martian Rocket|ext=gif|link=}}s around it whenever it teleports.
+*Empyreon will then teleport to either the right or the left of the player and fire two {{item|Lightning Orb|ext=gif|link=}}s, one at the player and the other opposite to the player, then will begin making a long stream of Celestial Fire.
+*Empyreon will create two lines, one that predicts player movement, and one that is directly at the player, as well as two more that are directly opposite to the first two lines. After two seconds, these lines will expand into short-lived Celestial Beams that create homing Celestial Flares on death.
+**In [[Expert Mode]], Empyreon will also fire a volley of Celestial Bolts at the player during this attack.
+*Empyreon will fire small Celestial Bombs near the player, which then explode into {{dv|2|4|6}} Celestial Flares after a second.
+**In [[Expert Mode]], Empyreon's Celestial Bombs will also explode into {{dv||3|4}} sparkling {{item|Saucer Scrap|ext=gif|link=}}s.
+
+=== Phase 2 ===
+When Empyreon reaches 10% health in [[Expert Mode]], it will enter a sort of desperation phase with only one repeated attack:
+
+*Creates an even spread of eight stationary lines, oriented so one line is directly on the player, which then expand into Celestial Deathbeams that linger for half of a second. When these beams are created, multiple even spreads around the boss of twelve Celestial Bolts are fired.
+**Empyreon will be entirely stationary during this.
+**This attack is repeated every {{dv||3||2}} seconds until the boss is defeated.
+**Celestial Energies will also stop being spawned in phase 2.
+
+== Summons ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Flying Enemy
+| environment = Martian Madness
+| name = Celestial Energy
+| life = {{dv|10,000|12,500||15,000}}
+| damage = {{defense damage}} {{element|Magic}} {{dv|100|180}}
+| defense = 0
+| ai = Celestial Energy AI
+| debuff = Embers of Duality
+| debufftip = Celestial voids are manifesting around you; defense and damage reduction reduced
+| debuffchance = 100%
+| duration = 3 seconds (Contact)
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_53.wav
+| killed = NPC_Killed_14.wav
+}}
+}}
+
+== Aftermath ==
+*When defeated, the [[Martian Madness]] event will end.
+*[[Rust Slime]]s will begin to spawn in the [[Space]] layer if [[Providence, the Profaned Goddess]] and [[The Devourer of Gods]] have also been defeated.
+
+== Tips ==
+''For elaborate strategies on defeating Empyreon, including [[Weapon]] and Arena recommendations, see [[Guide:Empyreon strategies]].''
+
+== Trivia ==
+*The [[Music|theme]] heard while fighting Empyreon is '''Boss 1 (Otherworldly)'''.
+*'''Empyreon''' was formerly known as '''Empyreal Saucer'''.
+{{-}}
+{{DeimosMod}}

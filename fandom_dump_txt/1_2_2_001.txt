@@ -1,0 +1,200 @@
+{{Patch infobox
+| image = The Devourer of Gods (Final Phase) (1.2.2.001).png
+| size = 400px
+| patchname = Devourer of Gods Final Phase Update
+| release = 10/14/2017
+}}
+
+The '''1.2.2.001''' update gave [[The Devourer of Gods]] a second phase and added several new features to the [[Supreme Calamitas]] fight. The update also added new drops for [[Astrum Deus]] and [[Ravager]], [[Lore items]], and a variety of resprites.
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+*Added [[Hematemesis]], [[Nebulash]], [[Starfall]].
+*Added [[Lore items]]: The Desert Scourge, Death of the Desert Scourge, The Eye of Cthulhu, Death of The Eye of Cthulhu, Crabulon, Profaned Crag, The Underworld, The Crimson, The Corruption, The Ocean, The Brain of Cthulhu, The Eater of Worlds, The Perforators and their Hive, The Hive Mind, The Slime God, Queen Bee, Skeletron, Wall of Flesh, Cryogen, The Mechanical Bosses.
+*Added [[Blood Pact]] and [[Flesh Totem]].
+
+== Changes ==
+=== [[Bosses]] ===
+==== [[Astrageldon Slime]] ====
+*Buffed laser damage in Normal Mode from 62 to 72.
+*Nerfed the amount of defense it gains while its health lowers.
+*Lasers now inflict [[God Slayer Inferno]] for 1.3 seconds instead of 2.5.
+*Now rapidly fires lasers at the player if a tile is between it and the player.
+
+==== [[Astrum Deus]] ====
+*Mines now last for 15 seconds instead of 20.
+*Can now drop Nebulash and Starfall.
+
+==== [[Calamitas]] ====
+*Projectile stat changes:
+**Buffed phase 1's brimstone laser damage in Normal Mode from 50 to 60.
+**Buffed phase 1's rapid laser damage in Normal Mode from 42 to 50.
+**Buffed phase 2's Brimstone Hellfireball damage in Normal Mode from 80 to 108.
+**Buffed phase 2's rapid laser damage in Normal Mode from 56 to 60.
+**Split brimstone lasers now deal 25% less damage.
+**Brimstone lasers and split brimstone lasers no longer produce dust, and now have altered colors.
+*Brother changes:
+**Buffed [[Cataclysm]]'s health from {{dv|4000|5600|8400}} to {{dv|4500|7200|10,400}}.
+**Buffed [[Catastrophe]]'s health from {{dv|3000|4200|6160}} to {{dv|4000|6400|9280}}.
+**Both brothers now switch between attacks twice as fast.
+**Both brothers now despawn quicker when off screen.
+*[[Brimstone Flames]] durations:
+**Calamitas phase 1 now inflicts Brimstone Flames for 3.3 seconds in Normal Mode instead of 2.5.
+**Calamitas phase 2 now inflicts Brimstone Flames for 5 seconds In Normal Mode instead of 5.8.
+**Cataclysm now inflicts Brimstone Flames for 3 seconds in Normal Mode instead of 1.3.
+**Catastrophe now inflicts Brimstone Flames for 3 seconds in Normal Mode instead of 2.5.
+*Other:
+**Calamitas in both phases and her brothers no longer idly produce dust.
+
+==== [[Ceaseless Void]] ====
+*Now always despawns if the player is killed.
+
+==== [[Crabulon]] ====
+*Lowered chance to fire mushrooms.
+
+==== [[The Destroyer]] ====
+*Lowered body's defense multiplier as its health gets lower by 40%.
+
+==== [[The Devourer of Gods]] ====
+*Phase 1:
+**Nerfed health from {{dv|1,200,000|1,920,000|2,080,000}} to {{dv|600,000|960,000|1,000,000}}.
+**Now switches between phases more often.
+**Laser portals moved from phase 1's tail to its final phase's tail.
+**No longer occasionally spawns lasers to the left and right of the player.
+**Now has higher resistance against damage.
+**Now drops a [[Rod of Discord]].
+**No longer drops any of its previous items.
+**Body and tail are now immune to [[Exo Freeze]].
+*[[Devourer of Thots]]:
+**Nerfed health from {{dv|600,000|960,000|1,040,000}} to {{dv|150,000|240,000}}.
+**No longer spawns [[Stasis Probe]]s.
+**No longer broadcasts messages to the chat.
+**Now has a unique sprite instead of using [[Armored Digger]]'s.
+*Final phase:
+**Now has a final phase which spawns soon after phase 1 is defeated.
+**Will occasionally spawn 2 walls of lasers to the left and right of the player. Upon reaching 40% health, the laser wall can spawn above the player, and upon reaching 10% health, they can spawn below the player.
+**Laser portals and their lasers no longer pulsate, and instead just have a light cyan filter.
+**Laser portals now last for 20 seconds instead of 30.
+**Laser portal lasers can no pass through tiles.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Now cancels [[Rain]] if it's currently occurring.
+
+==== [[The Plaguebringer Goliath]] ====
+*Buffed health from {{dv|48,000|76,800|89,600}} to {{dv|52,000|83,200|89,600}}.
+*Lowered her speed.
+*Increased screen shader intensity.
+
+==== [[Plantera]] ====
+*Increased speed.
+*Now only gains 2x damage and 2x defense when enraged instead of when in her normal state.
+*Buffed phase 1's defense from 46 to 52, and her contact damage from {{dv|87|174|217}} to {{dv|90|180|225}}.
+*Buffed phase 2's defense from 26 to 27.
+
+==== [[Polterghast]] ====
+*Now cancels Rain if it's currently occurring.
+*No longer naturally spawns if it has been defeated prior or if no players are alive.
+*Nerfed hook contact damage from {{dv|250|350|437}} to {{dv|200|280|350}}.
+*Lowered hook speed.
+
+==== [[Providence, the Profaned God]] ====
+*Now cancels [[Rain]] if it's currently occurring.
+*Holy burn orb now lasts for 5 seconds instead of 8.
+*Holy light now lasts for 5 seconds instead of 8.
+
+==== [[Ravager]] ====
+*Can now drop Blood Pact, Flesh Totem, and Hematemesis.
+
+==== [[Siren and Leviathan]] ====
+*Nerfed [[Ice Shield]]'s health from {{dv|1900|2660}} to {{dv|1500|1800}}.
+*Ice Shield now inflicts [[Frozen]] for 1 second instead of 2.
+*Frost mist now inflicts [[Glacial State]] for 0.5 seconds instead of 1.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Increased speed.
+*Cosmic fireball velocity increased.
+*[[Cosmic Lantern]]s now spawn half as much dust when hit.
+
+==== [[Storm Weaver]] ====
+*Decreased segment count in both phases by 10.
+*Phase 1's tail now takes 10x damage instead of 5x damage.
+
+==== [[Supreme Calamitas]] ====
+*Attacks:
+**Now spawns large Brimstone Monsters starting from bullet hell 4.
+**Bullet hell 5 now contains Brimstone Skull projectiles which waver up and down.
+**Now fires Brimstone Gigablasts more often when a bullet hell isn't occuring.
+*Brothers:
+**Buffed brothers' Brimstone Hellblast's damage from {{dv|280|400|500}} to {{dv|500|600|750}}.
+**Brothers no longer drop [[Supreme Healing Potion]]s.
+*Mechanics:
+**Now cancels Rain if it's currently occurring.
+**Now has a hitcap. If the player is hit too many times during the fight ({{dv|40|30|25}} times), they will be instantly killed. 
+**Now has a player damage cap. If a player takes 200 or less damage during the fight from an attack, they are instantly killed. 
+**Now cuts the player's life regeneration depending on how much health she has left.
+**Now despawns all other NPCs alive aside from Town NPCs and her servants.
+
+==== [[Wall of Flesh]] ====
+*Nerfed red laser damage from {{dv|70|140|175}} to {{dv|44|88|110}}.
+
+=== Items ===
+*[[Abaddon]] now has an equipped sprite.
+*Adjusted the color of the stars created by [[Astral Staff]] and [[Astral armor]].
+*Lowered the range it takes for [[Astral Blaster]]'s projectile to start homing in on a target.
+*Lessened the damage reduction penalty inflicted by [[Ataxia armor]]'s set bonus.
+*Renamed Gamma Fusillade to [[Biofusillade]].
+*[[Crimsaber]] can no longer spawn projectiles upon striking The Destroyer's body segments.
+*Renamed Lacerator to [[Not Viable]].
+*Renamed Lifefruit Scythe to [[Lifehunt Scythe]], and reworded its tooltip from "Heals the player when attacking enemies" to "Heals the player on enemy hits".
+*Halved the amount of dust created by [[Nebulous Core]] and [[God Slayer armor]]'s revives.
+*[[Pearl of Enthrallment]] now uses {{rare|7}} rarity instead of {{rare|5}}.
+*Lessened the damage reduction penalty inflicted by [[Reaver armor]]'s set bonus, and lessened the speed bonus granted by it.
+*[[Siren's Song]]'s notes now always infinitely penetrate instead of having a 33% chance to.
+*[[Stream Gouge]]'s beam now creates 3x more dust.
+*Removed the word "after" from [[Torrential Tear]]'s tooltip.
+*[[Tarragon armor]]'s life regeneration now activates at a 20% chance when getting hit instead of when hitting enemies.
+*[[Terratomere]] now uses [[Floodtide]] in its recipe instead of [[Mariana]].
+
+=== Balance ===
+*Buffed [[Astral Blade]]'s damage from 82 to 90, but nerfed its use time from 6 to 9.
+*Nerfed [[Astral Blaster]]'s damage from 80 to 72.
+*Nerfed [[Astral Repeater]]'s damage from 72 to 65.
+*Buffed [[Cosmic Kunai]]'s damage from 65 to 90.
+*Buffed [[Cosmilamp]]'s damage from 180 to 230.
+*Buffed [[Energy Staff]]'s damage from 158 to 210.
+*Buffed [[Eradicator]]'s damage from 190 to 195.
+*Nerfed [[Ethereal Subjugator]]'s damage from 255 to 200.
+*Buffed [[Executioner's Blade]]'s damage from 180 to 190.
+*Buffed [[Ghoulish Gouger]]'s damage from 100 to 150.
+*Buffed [[Illustrious Knives]]' damage from 300 to 315.
+*Buffed [[Infernal Spear]]'s damage from 650 to 720.
+*Nerfed [[Staff of the Mechworm]]'s damage from 62 to 25.
+*Buffed [[Tarragon Throwing Dart]]'s damage from 140 to 160.
+*Nerfed [[Yharon's Kindle Staff]]'s damage from 400 to 300.
+
+=== Other ===
+*Reduced file sizes on the mod's music.
+*The player now takes 2.7x damage from the post-Devourer of Gods [[Pumpkin Moon]] instead of 2.5x.
+*[[Warped]] now increases the player's Y velocity by 1.01x instead of 1.02x.
+
+=== Resprites ===
+*Resprited [[Blighted Lens]], [[Hemagrape|Blood Orange]], [[Cadance Potion]], [[Darksun Fragment]], [[Dragonfruit]], [[Sambucus Fruit|Elderberry]], [[Miracle Fruit]], [[Twisting Nether]], [[Ueliace Bar]].
+*Resprited [[Blighted Eye]], [[Calamity Eye]].
+*Resprited [[Abaddon]], [[Badge of Bravery]], [[Gehenna]], [[MOAB]]'s equipped sprite, [[Pearl of Enthrallment]], [[Statis' Ninja Belt]], [[Tarragon Wings]].
+*Resprited [[Acid Round]], [[Biofusillade]], [[Crystal Flare Staff]], [[Frigidflash Bolt]], [[Holy Fire Bullet]], [[Icebreaker]], [[Lifehunt Scythe]], [[Lucrecia]], [[Nettlevine Greatbow]], [[Permafrost]], [[Seething Discharge]], [[Shroomer]], [[Tarragon Throwing Dart]], [[Verdant]].
+*Resprited [[Blossom Pickaxe]], [[Cosmolight]], [[Daylight]], [[Moonlight]].
+*Resprited [[Calamitas Mask]], [[Leviathan Mask]], [[Tarragon Breastplate]], [[Tarragon Leggings]], [[Tarragon Leggings]].
+*Resprited Calamity's [[Permanent Power-ups|permanent life upgrade]] hearts.
+*Resprited The Devourer of Gods' gores.
+*Resprited [[Uelibloom Ore]].
+*Resprited Supreme Calamitas' Brimstone Barrages and Brimstone Hellblasts, Exoblade's exobeams, Plaguebringer Goliath's missiles, Providence's spears, Verdant's projectile.
+
+== Fixes ==
+*Fixed a sheeting error with [[Ceaseless Void]].
+*Fixed a bug where Supreme Calamitas and her brothers weren't immune to Exo Freeze.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

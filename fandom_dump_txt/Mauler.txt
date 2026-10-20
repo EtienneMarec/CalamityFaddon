@@ -1,0 +1,62 @@
+{{npc infobox
+| type = Aquatic
+| environment = Acid Rain
+| ai = Mauler AI
+| damage = {{element|Poison}} {{dv|135|boost=0.1}} (Contact)<br/>{{element|Poison}} {{dv|100|180||207}} (Sulphuric mist bursts)<br/>{{element|Poison}} {{dv|100|200}} (Sulphuric ring)<br/>{{element|Poison}} {{dv|200|400}} (Death explosion ring)
+| life = {{dv|165,000|330,000}}
+| defense = 50
+| dr = 5%
+| knockback = 100
+| money = {{value|0|25}}
+| Shark Fin|1-5|100%
+| custom|{{item|Sulphuric Acid Cannon}}|33.33%
+| custom|{{item|Fetid Emesis}}|{{dv|25%|33.33%}}
+| custom|{{item|Prehistoric Tablet}}|8%
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| duration = 7 seconds
+| immune1 = Confused
+| immune2 = Irradiated
+| immune3 = Sulphuric Poisoning
+| banner = yes
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_60.wav
+| sound = MaulerRoar.wav
+| soundtext = Dash Roar
+| sound2 = Dd2_flameburst_tower_shot_0.wav
+| sound2text = Charge
+| sound3 = Zombie_97.wav
+| sound3text = Bubble Burst Roar
+| sound4 = Item_96.wav
+| sound4text = Bubble Burst
+| sound5 = Item_95.wav
+| sound5text = Acid
+| vulnerable1 = Cold
+| vulnerable2 = Machine
+| resistant1 = Poison
+| resistant2 = Water
+| resistant3 = Dark
+}}
+
+The '''Mauler''' (Japanese: 傷つける者 ''Kizutsukeru mono'') is a Godseeker Mode, post-[[Polterghast]] [[mini boss]] that spawns when using a fishing rod during [[Acid Rain]] during Tier 3. It swims towards the player and alternates between three attacks at random, each telegraphed by a different roar.
+
+* Quickly lunges at the player.
+* Fires three spreads of sulphuric bubbles that home in on the player after a delay.
+* Charging horizontally and firing a large barrage of sulphuric droplets upwards, which home in on the player after a delay.
+
+If it is out of the water for too long, it will start repeatedly using its charge attack until it lands back in water again.
+
+It can be detected with the [[Lifeform Analyzer]].
+== Notes ==
+*[[Shark Fin]]s dropped by the Mauler will be brown in color, much like the Shark Fins dropped by [[Sand Shark]]s.
+
+== Trivia ==
+*The Mauler used to spawn rarely in the [[Sulphurous Sea]], even in pre-hardmode.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

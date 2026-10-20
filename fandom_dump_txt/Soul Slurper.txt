@@ -1,0 +1,36 @@
+{{npc infobox
+| type = Flying Enemy
+| environment = Brimstone Crag
+| ai = Soul Slurper AI
+| damage = '''Contact:'''<br/>{{dv|30|60}} (pre-[[Providence]])<br/>{{dv|60|120}} (post-[[Providence]])<br/>'''Brimstone dart:'''<br/>{{dv|60|88}} (pre-Providence)<br/>{{dv|120|208}} (post-Providence)
+| life = {{dv|60|120}} (pre-[[Providence]])<br/>{{dv|2,000|4,000}} (post-[[Providence]])
+| defense = 30 (pre-[[Providence]])<br/>45 (post-[[Providence]])
+| dr = 15%
+| knockback = {{dv|35%|41.5%}}
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| duration = 3 second (Laser)
+| debufftip = Rapid health loss
+| banner = yes
+| immune1 = Kami Flu
+| immune2 = Confused
+| immune3 = Abyssal Flames
+| immune4 = Brimstone Flames
+| money = {{sc|5}}
+| custom| {{item|Essence of Chaos|note=(In [[Hardmode]])|wrap=y}}|33.33%
+| custom| {{item|Slagspitter Pauldron|note=(In [[Hardmode]])|wrap=y}} {{dei}}|5%
+| custom| {{item|Bloodstone|note=(After defeating [[Providence]])|wrap=y}}|50%
+| Slurper Pole |1| 10% (In [[Pre-Hardmode]])<br/>3.33% (In [[Hardmode]])
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+}}
+{{distinguish|Soul Seeker|a [[Enemies#Boss Servant|Boss Servant]] summoned by [[Calamitas]] and [[Supreme Calamitas]]}}
+
+The '''Soul Slurper''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Brimstone Crag]]. It continuously faces the player while attempting to ram into them. It also fires Brimstone Darts at the player, which inflict the [[Brimstone Flames]] [[debuff]].
+
+Its stats receive a significant boost and starts dropping [[Bloodstone]] after [[Providence, the Profaned Goddess]] is defeated.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

@@ -1,0 +1,32 @@
+{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = 10% increased Spy damage<br/>Using a Spy weapon summons a copy of the projectile that falls from the sky<br/>Stealth strikes cause a circular fan of seeking cosmilite knives to be thrown<br/>You'll never be alone, no matter where you go
+| rare = 14
+| buy = {{value|25}}
+| sell = {{value|0|28}}
+| element1 = Magic
+| element2 = Dark
+| hardmode = yes
+| postml = yes
+| proj = Cosmilite Knives.png
+| projcaption = Cosmilite Knives
+}}
+
+The '''Venerated Locket''' is a Godseeker Mode [[covering]] purchased from the [[Bandit]] for {{pc|25}} after [[The Devourer of Gods]] has been defeated. While equipped, it increases [[Spy weapons|Spy]] damage by 10%. While a Spy weapon is thrown, a weaker copy of the weapon's projectile rains down from the sky. The copy projectiles deal 6.5% of the weapon's damage and deal typeless damage. When the player performs a [[stealth strike]], a circular fan of 15 homing cosmilite knives are thrown out that deal 35 typeless damage which can be affected by Spy damage bonuses.
+
+== Recipe ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Projectiles created by the Venerated Locket will also create nanoblades when the [[Nanotech]] is equipped.
+*The [[Sylvan Slasher]] will not trigger any effects from this covering.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

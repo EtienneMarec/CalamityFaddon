@@ -1,0 +1,44 @@
+{{addon|Calamity: Community Remix}}
+{{dedicated|JellyBloop|Developer}}
+{{item infobox
+| type = Covering
+| tooltip = 25% increased Spy damage and +50 armor penetration<br/>Stealth Strikes causes 4 life-stealing wisdom teeth to be thrown<br/>Wait, can slimes even have wisdom tooth in the first place..?
+| rare = 16
+| sell = {{value|1}}
+| debuff = Infectious Breaks | debufflink = no
+| debuffchance = 100%
+| debuffduration = 6 Seconds
+| debufftip = You are very prone to diseases now...
+| debuff2 = Exo Annihilate | debufflink = no
+| debuffchance2 = 100%
+| debuffduration2 = 2 Seconds
+| debufftip2 = Your existence is quickly fading
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+The '''Slimy Wisdom Tooth''' is a craftable '''Epilogue''' [[Coverings|covering]]. It grants the following while equipped:
+*+25% Spy damage
+*+50 armor penetration
+*Performing a [[Spy|Stealth Strike]] fires out 4 wisdom teeth that inherits 150% of the main weapon's damage. These teeth can inflict the '''Infectious Breaks''' debuff, making all DOT deal 2x more damage. The teeth also makes the enemy take 15% more damage, and heals the player 25% of its damage, capping at 120 health healed.
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+==Tips==
+*This covering massively benefits from Spy weapons with an already high damage (i.e. [[Dynamic Pursuer]], [[Ecological Collapse]], [[Vermillion Angel]], [[Digital Cheese Spear]], etc)
+==Trivia==
+*Talking to [[Sloome]] with this covering equipped will display a unique dialogue.
+*This covering actually has a unique [[Rarity]] but is referred here as Hot Pink rarity for consistency between weapons.
+**This unique rarity alters between Mango Green ({{color|#96ff00 ●|#96FF00}}) and Lotion Blue ({{color|#15f2fd ●|#15F2FD}}) color.
+
+{{-}}
+{{Shadowspec}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

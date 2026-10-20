@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = +1 defense and 5% increased movement speed<br/>Press {{key|Sand Cloak Effect}} to consume 25% of your maximum stealth to create a protective dust veil which provides +6 defense and +2 life regen<br/>This effect has a 30 second cooldown before it can be used again
+| rare = 2
+| sell = {{value|0|0|40}}
+| proj = Sand Cloak Veil.png
+| projcaption = Sand Veil
+| projsize = 250px
+| debuff = Sand Cloak Cooldown|debufflink=no
+| debufftip = Your Sand Cloak is recharging
+| debuffchance = 100%
+| debuffduration = 30 seconds (After cloak's usage)
+| boxwidth = 24em
+}}
+|{{item drops infobox
+| [[Desert Scourge]]|1|{{dv|10%|11.11%}}
+}}
+}}
+
+The '''Sand Cloak''' is a [[Pre-Hardmode]] [[covering]] dropped by the [[Desert Scourge]]. While equipped, it increases [[defense]] by 1 and movement speed by 5%. Pressing the {{key|Sand Cloak Effect}} key will create a large, stationary damaging dust veil around the player that lingers for 15 seconds at the cost of 25% of the player's [[stealth]]. The player gains an additional 6 defense and 2 life regen while staying in the ring. The cloak has a 30 second cooldown after deploying the dust veil before being able to use again.
+
+== Recipe ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The dust veil deals 7 typeless damage, cannot critically strike, and does not scale with any damage boosts.
+
+[[File:Sand Cloak Aura.png|frame|left|The Sand Cloak's deployed dust veil.]]
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]
+
+[[es:Sand Cloak]]

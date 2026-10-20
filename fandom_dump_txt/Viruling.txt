@@ -1,0 +1,39 @@
+{{npc infobox
+| type = Flying Enemy
+| ai = Viruling AI
+| environment = Jungle
+| life = {{dv|400|800}}
+| damage = {{dv|60|120}}
+| defense = 38
+| knockback = 100
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Plague
+| immune4 = Poisoned
+| immune5 = Venom
+| vulnerable1 = Smash
+| debuff = Plague
+| debuffchance = 100%
+| duration = 3 seconds
+| debufftip = You are rotting from the inside
+| hardmode = yes
+| money = {{sc|10}}
+| Plague Cell Canister|1-2|100%
+| banner = yes
+| hurt = NPC_Hit_22.wav
+| killed = PlagueBoom1.wav, PlagueBoom2.wav, PlagueBoom3.wav, PlagueBoom4.wav
+}}
+
+The '''Viruling''' is a [[Hardmode]] [[enemy]] that spawns in the [[Jungle]] surface during the day after [[Golem]] has been defeated. It hovers through the air towards the player, and inflicts the [[Plague]] [[debuff]] on contact.
+
+== Tips ==
+*The Viruling cannot fire any projectiles, so any non-melee attacks are useful for killing it.
+
+== Trivia ==
+*It appears to be a [[Derpling]] afflicted with the plague, although its behavior has changed as a result.
+**The Plague also seems to have made it much more machine-like.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

@@ -1,0 +1,30 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 5
+| sell = {{value|0|5}}
+| stack = 1
+| tooltip = Grants a dash that suffocates the nearby enemies, only works underwater.
+| debuff = Suffocation
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| hardmode = yes
+}}
+
+
+The '''Seascapist Mobilite Fragment''' is a craftable [[Hardmode]] [[covering]] that provides a 25 tile dash which creates waves that inflict Suffocation on your enemies, the dash only works if the player is fully submerged in water.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Shatterite}}
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

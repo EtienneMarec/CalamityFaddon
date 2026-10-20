@@ -1,0 +1,53 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = Magic/Summon {{fantag|Calamity: Community Remix}}
+| damage = 110
+| mana = 20
+| velocity = 12
+| tooltip = The power of an ancient cultist resonates within this staff<br/>Fires a spread of ancient light and has a chance to fire a spinning ice cluster<br/><br/> Summons a Juvenile Eidolon Wyrm to fight for you which takes up 4 minion slots<br/>Right click to fire out Ice Clusters<br/>When an Ice Cluster intersects with the Wyrm, it explodes into homing icicles<br/>Only one wyrm can exist at a time {{fantag|Calamity: Community Remix}}
+| knockback = 7
+| rare = 13
+| sell = {{value|0|28}}
+| use = 18
+| stack = 1
+| hardmode = yes
+| postml = yes
+| debuff = Glacial State
+| debufftip = Cannot move and defense is shattered
+| debuffduration = 0.5 seconds (Ice Cluster)
+| debuffchance = 100%
+| proj = Ice Mist.png
+| projcaption = Ice Cluster
+| proj2 = Star Blast.png
+| proj2caption = Ancient Light
+| element1 = Water
+| element2 = Dark
+}}
+|{{item drops infobox
+| [[Eidolon Wyrm]]|1|10%
+}}
+}}
+{{summoned|Eidolon Wyrm|name=Eidolon Wyrm {{fantag|Calamity: Community Remix}}|type=minion}}
+
+The '''Eidolon Staff''' is a Godseeker Mode [[wand]] that drops from [[Eidolon Wyrm]]s. It fires either blue stars or an ice ball that acts like the Lunatic Cultist's. The ice ball, on contact with an enemy, spawn several more ice balls, which remain stationary on the enemy until it is killed.
+
+With the [[Community modifications|Calamity: Community Remix]] {{fantag|Calamity: Community Remix}} addon enabled, the Eidolon Staff becomes a [[summon weapon]]. It summons a [[Juvenile Eidolon Wyrm]] which cycles between charging at enemies, spinning in circles while calling down lightning, and spinning around its target while summoning Prophecy's Ends which home in on enemies and explode into shadow balls. The wyrm takes up 4 minion slots and only one can be summoned at any given time. When right click is used, the staff fires out an Ice Cluster. If the Eidolon Wyrm's head intersects with the Ice Cluster, it will detonate, dealing 700% damage and summoning a floral pattern of icicles which each deal 50% damage.
+
+{{Modifier|magic}}
+
+==Notes== 
+*[[Astrum Deus]] takes only 75% damage from the Eidolon Staff's ice balls.
+
+== Trivia ==
+* The name and appearance of this weapon is a reference to the Eidolon Wyrm.
+*The weapon was previously known as the "Stardust Staff", but was renamed and had its sprite replaced to avoid confusion.
+*If cast at a [[Target Dummy]], the spawned ice ball will stationary on it, dealing damage to any enemy that comes in contact with it. The ice balls will keep refreshing on the target dummy until it is removed by a player, or the world is reloaded. Doing so on multiple target dummies can cause large amounts of lag due to the particle effects of the spell, it can lock up your game if you use it to fight bosses with multiple segments such as [[The Destroyer]].
+*The tooltip of this weapon heavily implies that Eidolon Wyrms are transformed cultists.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

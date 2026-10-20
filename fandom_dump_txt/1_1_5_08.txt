@@ -1,0 +1,107 @@
+{{patch infobox
+| image = Conclave Crossfire (1.1.5.08).png
+| patchname = Removals and Balancing
+| release = 9/14/2016
+}}
+
+The ''' 1.1.5.08''' update removed several items from the mod, made some balance changes, and resprited a handful of items.
+
+== Additions ==
+*Added [[Charged Dart Blaster]], [[Crystal Flare Staff]], [[Plasma Rifle]], [[Scorpio]], and [[Sun God Staff]].
+*Added [[Solar God Spirit (buff)]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*[[The Devourer of Gods]] changes:
+**Frost beams now deal 40 damage at night, 50 at day, and 60 after the [[Moon Lord]] has been defeated.
+**Nebula lasers now deal {{dv|30|46}} damage at night, {{dv|35|70}} at day, and {{dv|45|50}} after the Moon Lord has been defeated.
+**Lightning bolts now deal {{dv|100|120}} damage at night, {{dv|150|300}} at day, and {{dv|120|140}} after the Moon Lord has been defeated.
+**Nebula piercers now deal {{dv|40|52}} damage at night, {{dv|45|90}} at day, and {{dv|60|70}} after the Moon Lord has been defeated.
+**Gravity spit now deals {{dv|35|42}} damage at night, {{dv|40|80}} at day, and {{dv|43|56}} after the Moon Lord has been defeated.
+**Now has dialogue based on if the player is hit by its tail or head.
+**Now has screen shaders.
+**All segments now inflict [[Darkness]] and [[Frostburn]].
+**Reduced [[Chilled]] duration from Head contact from {{dv|6.67|16.67}} seconds to 3.33.
+**Body and tail segments no longer inflict Chilled.
+*Blighted Gel can now drop from [[Crimulan Blight Slime]]s.
+*[[The Perforators]] and [[Desert Scourge]] now have movement similar to The Devourer of Gods.
+*Increased [[Plantera]]'s [[Living Shard]] drop count from {{dv|4-6|6-8}} to {{dv|6-8|8-10}}.
+*[[The Plaguebringer Goliath]]'s damage now lowers as her health does.
+*[[Wyvern]]s no longer drop [[Wyvern Feather]]s.
+
+=== Renames ===
+*Renamed Apocalyptic Expulsor to [[Conclave Crossfire]].
+*Renamed Braelor's Shield to [[Asgard's Valor]].
+*Renamed Calamitas' Scroll to [[Sigil of Calamitas]].
+*Renamed Ebonian Gel to [[Blighted Gel]].
+*Renamed Falcon Boots to [[Angel Treads]].
+
+=== Items ===
+*Broke up the tooltips for [[Ataxia Armor]], [[Ataxia Subligar]], [[Calamity Ring]], [[Daedalus Breastplate]], [[Daedalus Emblem]], [[Daedalus Leggings]],  [[Mana Overloader]], [[Monsoon]], [[Nebulous Core]], [[Necklace of Vexation]], [[Reaver Cuisses]], [[Reaver Scale Mail]], [[Statigel Armor]], [[Statigel Greaves]], [[Statis' Ninja Belt]], [[Xeroc Cuisses]], [[Xeroc Plate Mail]], and [[Yharim's Insignia]] into separate lines instead of having their entire tooltips take up one line.
+*Lowered the amount of dust created by [[Night's Ray]].
+*Nerfed [[Conclave Crossfire]]'s shot speed but increased bullet size.
+*[[Aeries]] changes:
+**Nerfed damage from 45 to 32.
+**Nerfed knockback from 6.5 to 5.5.
+**Rarity lowered from {{rare|9}} to {{rare|7}}.
+*[[Core of Calamity|Cores of Calamity]] now stack up to 69 instead of 5.
+*[[Darklight Greatsword]]'s projectiles now deal 75% of the weapon's damage instead of 50%.
+*Buffed [[Discordian Wings]]’ horizontal speed from 9 to 10, but nerfed its horizontal acceleration from 3 to 2.5.
+*Thrown [[Eradicator]]s now last for 4 seconds instead of 10.
+*[[Galactica Singularity|Galactica Singularities]] now stack up to 69 instead of 1.
+*Buffed [[Galeforce]]'s damage from 14 to 16.
+*[[Flarewing Bow]] now converts [[Wooden Arrow]]s into flaming obsidian bats.
+*Flarewing Bow now lowers all arrow damage by 50% except for Wooden Arrows.
+*Flarewing Bow now buffs Wooden Arrow damage by 25%.
+*[[The God's Gambit]] now produces less slime.
+*[[Hyperius Bullet]]s can now be used by all guns.
+*Hyperius Bullets and [[Verium Bullet]]s are now completely invisible aside from their dusts they emit.
+*[[Lunarian Bow]]'s projectiles now emit half as much dust.
+*Monsoon changes:
+**Now only has a 1 in 25 chance of shooting a typhoon arrow.
+**Tornadoes are now smaller and last for less time.
+**Now has a 1 in 12 chance to shoot a shark.
+*[[Overloaded Blaster]] changes:
+**Nerfed damage from 22 to 16, and its use time from 11 to 16.
+**Projectiles now pierce 2 times instead of 3.
+**Now has a 33% chance to not consume [[Gel]].
+*All Calamity [[wings]] now give a description of their flight times.
+*Simplifed [[Tarragon Breastplate]]’s tooltip.
+
+=== Recipes ===
+*[[Aerospec Breastplate]] no longer uses 1 [[Emerald]] in its recipe.
+*[[Aerospec Helm]] no longer uses 1 Emerald in its recipe.
+*Aeries now requires 1 [[Phoenix Blaster]], 5 [[Shroomite Bar]]s, and 5 [[Spectre Bar]]s instead of 1 [[Venus Magnum]], 3 [[Bar of Life|Bars of Life]], 1 Core of Calamity, and 6 [[Core of Cinder|Cores of Cinder]] in its recipe.
+*Conclave Crossfire no longer uses 1 [[Xenopopper]], 5 Bars of Life, and 1 Core of Calamity in its recipe, and instead uses 7 Cores of Chaos.
+*Darklight Greatsword now requires 5 [[Fallen Star]]s, 1 [[Soul of Light]], and 1 [[Soul of Night]].
+*[[Devastation]] now requires 10 [[Stardust]] instead of 5 Crystallite, 8 Fallen Stars, 3 Souls of Light, 3 Souls of Night, and 20 Stardust.
+*Monsoon now requires 5 [[Shark Fin]]s and 10 [[Vortex Fragment]]s in its recipe instead of 20 [[Ectoplasm]] and 9 [[Verstaltite Bar]]s.
+*Replaced [[Chaos Serpent Shard]] with 1 Core of Chaos in [[Cruptix Bar]]'s recipe.
+*[[Cobalt Shield]] can now be crafted with 15 [[Cobalt Bar|Cobalt]] or [[Palladium Bar]]s.
+*Core of Calamity now uses 1 Core of Chaos in its recipe instead of 1 [[Essence of Chaos]].
+*Replaced [[Crystallite]] with 4 [[Stardust]] in [[Verstaltite Bar]]'s recipe.
+*Replaced [[Ancient Feather]] with 1 Essence of Cinder in [[Draedon Bar]]'s recipe.
+*Removed [[Energy Orb]] from [[Ueliace Bar]]'s recipe.
+*Replaced [[Diamond Dust]] with [[Feather]]s in the recipes for [[Blizzard in a Bottle]], [[Cloud in a Bottle]], and [[Sandstorm in a Bottle]].
+*[[Muramasa]] can now be crafted with 15 Cobalt or Palladium Bars.
+*[[True Paladin's Hammer]] now requires 5 Cruptix Bars in its recipe instead of 7 Cruptix Bars, 25 [[Soul of Fright|Souls of Fright]], and 10 Souls of Night.
+*All items made at the [[Particle Accelerator]] are now crafted at a [[Mythril Anvil|Hardmode anvil]] or [[Bookcase]].
+
+=== Resprites ===
+*Resprited [[Caustic Edge]], Conclave Crossfire, [[Firestorm Cannon]], Flarewing Bow, [[Megafleet]], [[Megalodon]], [[Meowthrower]], Monsoon, [[Shredder]], [[Spectre Rifle]], [[True Caustic Edge]], [[True Tyrant's Ultisword]], and [[Tyrant Yharim's Ultisword]].
+*Resprited Megafleet and [[Starfleet]]'s plasma blast projectiles.
+*Animated [[The Hive Mind]]'s sprite.
+*Resprited [[Skyline Wings]].
+*Resprited Aerospec Breastplate, Aerospec Helm, and [[Aerospec Leggings]].
+
+== Fixes ==
+*Fixed a capitalization error in [[Mana Overloader]]'s tooltip.
+
+== Removals ==
+*Removed [[Particle Accelerator]].
+*Removed Ancient Feather, Chaos Serpent Shard, [[Crimulan Gel]], Crystallite, Diamond Dust, Energy Orb, [[Living Dew Droplet]], [[Spectral Feather]], [[Twisted Tendril]].
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

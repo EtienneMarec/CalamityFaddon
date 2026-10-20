@@ -1,0 +1,14 @@
+<includeonly><!--
+//register localization info:
+
+-->{{l10n/register|schematic|en<!--
+	-->|tier1=<esc>{{#if:$plural$||The&nbsp;}}{{#replace:{{PAGENAME}}|The |}}{{#if:$plural$|s|}} cannot be crafted until the [[Schematic]] from the [[Sunken Sea Bio-center Lab]] is found.</esc><!--
+	-->|tier2=<esc>{{#if:$plural$||The&nbsp;}}{{#replace:{{PAGENAME}}|The |}}{{#if:$plural$|s|}} cannot be crafted until the [[Encrypted Schematic]] from the [[Space Bio-center Lab]] is decrypted.</esc><!--
+	-->|tier3=<esc>{{#if:$plural$||The&nbsp;}}{{#replace:{{PAGENAME}}|The |}}{{#if:$plural$|s|}} cannot be crafted until the [[Encrypted Schematic]] from the [[Jungle Bio-center Lab]] is decrypted.</esc><!--
+	-->|tier4=<esc>{{#if:$plural$||The&nbsp;}}{{#replace:{{PAGENAME}}|The |}}{{#if:$plural$|s|}} cannot be crafted until the [[Encrypted Schematic]] from the [[Underworld Bio-center Lab]] is decrypted.</esc><!--
+	-->|tier5=<esc>{{#if:$plural$||The&nbsp;}}{{#replace:{{PAGENAME}}|The |}}{{#if:$plural$|s|}} cannot be crafted until the [[Encrypted Schematic]] from the [[Ice Bio-center Lab]] is decrypted.</esc><!--
+	-->|tooltip=<esc>If the {{#if:$plural$|requirements have|requirement has}} not been met, two lines of tooltip are added at the bottom of {{#if:$plural$|these items|the item}}:<br/>{{color|You don't have sufficient knowledge to create this yet|#00FFFF}}<br/>{{color|A specific schematic must be deciphered first|#00FFFF}}</esc><!--
+	-->|error=(Please input a valid value. See {{tl|schematic}}.)<!--
+-->}}<!-- en l10n end
+
+--></includeonly>

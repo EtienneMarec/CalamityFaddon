@@ -1,0 +1,23 @@
+This template is used to define the dynamically displayed text used by {{tl|l10n}}. See that template's documentation and [[Help:I18n & l10n for Templates]] for more information.
+
+Use {{tl|l10n/register}} as a shortcut.
+
+== Usage ==
+<pre>{{l10n/register|<namespace>|<lang>
+	| <key> = <value>
+	| <key> = <value>
+	...
+}}</pre>
+
+; Parameter 1
+Namespace. Part of the unique identifier that consists of a namespace–key combination and is used to retrieve the string later on. To avoid conflicts across templates, this should usually be the template's name (since that is guaranteed to be unique in the wiki).
+
+; Parameter 2
+Language code. This is the anchor for {{tl|lang}} (or, very rarely, the {{code|lang}} parameter of {{tl|l10n}}) so that {{tl|l10n}} knows which database (among the translations) to use.
+
+; Named parameters
+All string definitions. <code>&lt;key&gt;</code> is the other part of the identifier and <code>&lt;value&gt;</code> is the string.
+
+<includeonly>
+[[Category:I18n-ready templates| ]]
+</includeonly>

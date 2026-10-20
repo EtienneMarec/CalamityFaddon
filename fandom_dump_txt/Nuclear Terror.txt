@@ -1,0 +1,64 @@
+{{npc infobox
+| type = Enemy
+| ai = Nuclear Terror AI
+| environment = Acid Rain
+| damage = {{element|Radioactive}} 229 (Contact)<br/>{{element|Radioactive}} {{dv|96|192||220}} (Bullet, Mist)
+| life = 198,230
+| defense = 50
+| dr = 30
+| knockback = 100
+| debuff = Irradiated
+| debuffchance = 100%
+| duration = 5 seconds (Contact)
+| debufftip = Your skin is burning off
+| debuff2 = Sulphuric Poisoning
+| debuffchance2 = 100%
+| duration2 = 4 seconds (Medium bullets)<br/>5 seconds (Large bullets)
+| debufftip2 = The acidic water burns away your flesh
+| debuff3 = Venom
+| debuffchance3 = 100%
+| duration3 = 2 seconds (Acid mist)
+| debufftip3 = Losing life
+| immune1 = Confused
+| immune2 = Irradiated
+| immune3 = Sulphuric Poisoning
+| money = {{value|0|20}}
+| Phosphorescent Gauntlet | 1 | 33.33%
+| Gamma Heart | 1 | 33.33%
+| Microxodonta | 1 | 33.33%
+| Sulfuric Scale | 1 | 10%
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_56.wav
+| killed = NPC_Killed_60.wav
+| sound = NPC_Killed_13.wav
+| soundtext = Bubbles
+| vulnerable1 = Cold
+| vulnerable2 = Magic
+| vulnerable3 = Holy
+| resistant1 = Radioactive
+| resistant2 = Fire
+| resistant3 = Dark
+| resistant4 = Unholy
+}}
+
+The '''Nuclear Terror''' (Japanese: 核テロ ''Kaku tero'') is a Godseeker Mode, post-[[Polterghast]] [[mini boss]] that spawns during [[Acid Rain]] during Tier 3. It has 3 special attacks and 2 other attacks which it uses when not using the special attacks. The three special attacks are as follows:
+
+*Fires 3-shot bursts of small nuclear bullets at the player, which will return to their firing position shortly after being fired.
+*Fires a barrage of larger nuclear bullets at the player.
+*Fires two converging streams of large nuclear bullets to trap the player.
+
+After it has used a special attack, it will stay in place for approximately 1 second (the cooldown is shorter when under 50% life), and then it will lunge at the player multiple times, returning to using a special attack afterwards. It can also teleport to the player, which is telegraphed by green dust.
+
+If the player is below it, it will teleport to the same layer as the player, even if it is in the middle of attacking.
+
+Upon death, the Nuclear Terror will explode into a number of large nuclear bullets and acid mist in all directions.
+
+== Trivia ==
+*The Nuclear Terror's design was inspired by the [https://nuclear-throne.fandom.com/wiki/Horror Horror] character from the game ''[[wikipedia:Nuclear Throne|Nuclear Throne]]''.
+*The Nuclear Terror’s previous health of 360,420 prior to the Draedon Update was a reference to the memes '360 NoScope' and '420 Blaze it'.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

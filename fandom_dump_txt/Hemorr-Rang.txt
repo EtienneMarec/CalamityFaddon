@@ -1,0 +1,34 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 105
+| auto = yes
+| use = 16
+| critical = 4%
+| knockback = 6
+| velocity = 17
+| tooltip = Enemies caught in its way will be turned into a fine red mist<br/>Stealth strike throws out 3 more rangs, for 3 times more devastation
+| rare = 4
+| sell = {{value|0|10}}
+| stack = 1
+| element1 = Stab
+| element2 = Dark
+}}
+{{item drops infobox
+| [[Destroyer of Sanity]] | 1 | {{dv|25%|33.33%}}
+}}
+
+The '''Hemorr-Rang''' is a [[Pre-Hardmode]] [[Spy]] [[Boomerangs|Boomerang]] dropped by the [[Destroyer of Sanity]]. When hitting an enemy, it marks them as a target. Once that enemy's marked, it will frequently, aggressively charge at them, dealing 150% its base damage and ripping out 1 spike [[file:Hemorr-Rang Degrading.gif]] per successful hits to stick to an enemy, dealing 50% the main weapon's damage per tick. Once all the spikes are gone, the next hit will make the boomerang return to the player.
+
+[[Spy|Stealth Strike]] fires out 3 more Hemorr-Rangs to orbit the main boomerang, and supercharges all of them for 10 seconds. While in this state, they are much faster, and does not lose their spikes after making contact with a marked enemy while charging. Once the supercharged state has passed, the 3 boomerangs orbiting the around it will fly off for some time before homing into the marked enemy again, adhering to their effects.
+
+{{Modifier|spy}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Boomerangs]]
+[[Category:Spy Weapons]]

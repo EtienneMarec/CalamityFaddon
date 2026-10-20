@@ -1,0 +1,27 @@
+{{npc infobox
+| environment = Frost Moon
+| environment = Ice Biome
+| ai = idk
+| damage = {{element|Cold}} {{dv|1000|2000}}
+| life = {{dv|800|1600}}
+| defense = 1
+| immune1 = Frozen
+| immune2 = Frostburn
+| immune3 = Kami Flu
+| banner = yes
+| money = {{value|0|10|5|0}}
+| hardmode = yes
+| Snowball|2-5|5%
+| hurt = NPC_Hit_12.wav
+| killed = NPC_Killed_13.wav
+| vulnerable1 = Fire
+| resistant1 = Cold
+}}
+
+The '''Mega Flocko''' is an [[enemy]] that spawns in the Ice Biome during a Frost Moon. It moves slowly in random patterns, launching ice shards at players if it spots them.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

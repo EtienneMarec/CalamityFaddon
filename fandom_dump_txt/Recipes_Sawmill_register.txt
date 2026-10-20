@@ -1,0 +1,47 @@
+{{recipes/register/note}}<!--
+
+ ============ Sawmill ============
+
+-->{{recipes/register
+| station = Sawmill
+| result = Acidwood Bathtub | amount = 1
+| Acidwood | 14
+}}<!--
+-->{{recipes/register
+| station = Sawmill
+| result = Acidwood Bed | amount = 1
+| Acidwood | 15
+| Silk | 5
+}}<!--
+-->{{recipes/register
+| station = Sawmill
+| result = Acidwood Bench | amount = 1
+| Acidwood | 8
+}}<!--
+-->{{recipes/register
+| station = Sawmill
+| result = Acidwood Bookcase | amount = 1
+| Acidwood | 20
+| Book | 10
+}}<!--
+-->{{recipes/register
+| station = Sawmill
+| result = Acidwood Clock | amount = 1
+| Any Iron Bar | 3
+| Glass | 6
+| Acidwood | 10
+}}<!--
+-->{{recipes/register
+| station = Sawmill
+| result = Acidwood Dresser | amount = 1
+| Acidwood | 16
+}}<!--
+-->{{recipes/register
+| station = Sawmill
+| result = Acidwood Piano | amount = 1
+| Bone | 4
+| Acidwood | 15
+| Book | 1
+}}<!--
+
+-->

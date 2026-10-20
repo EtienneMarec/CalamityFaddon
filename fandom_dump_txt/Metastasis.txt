@@ -1,0 +1,74 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 666
+| knockback = 2
+| mana = 10
+| use = 9
+| tooltip = Summons a sepulcher to fight for you<br/>While the sepulcher is active brimstone hearts will begin to appear and orbit you<br/>It will attempt to attack you more and more frequently depending on how many hearts are present<br/>It takes up 4 minion slots and it can only be summoned once<br/>{{color|A contemplated possible future of the cosmic serpent,|#C61B40}}<br/>{{color|A gruesome warning for those blinded by the hunger for power.|#C61B40}}
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| buff = Sepulcher (buff)| bufflink = no
+| bufftip = It is not benevolent
+| debuff = Brimstone Flames
+| debuffduration = 4 seconds (Dart)
+| debuffchance = 100%
+| debufftip = Rapid health loss
+| proj = BrimstoneBarrage.gif
+| projcaption = Brimstone Dart
+| element1 = Unholy
+| element2 = Dark
+| element3 = Smash
+}}
+|{{npc infobox
+| float = none
+| type = Flying Enemy
+| name = Exhumed Brimstone Heart
+| image = Brimstone Heart.png
+| ai = Exhumed Brimstone Heart AI
+| life = 51,740
+| damage = 0
+| defense = 0
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| resistant1 = Unholy
+| resistant2 = Dark
+| vulnerable1 = Stab
+| vulnerable2 = Slash
+| vulnerable3 = Holy
+}}
+}}
+{{summoned|image=[[File:Sepulcher.png|350px]]|Sepulcher|type=minion}}
+
+The '''Metastasis''' is a Godseeker Mode [[summon weapon]]. It is the [[exhumed]] form of the [[Staff of the Mechworm]]. It summons a full-sized [[Sepulcher]] which follows the player. Sepulcher takes four minion slots and attacks by alternating between firing Brimstone Darts from its segments and rapidly charging the target back and forth. '''Exhumed Brimstone Hearts''' begin spawning around the player. If there are over two hearts present, each additional heart will increase the chance for Sepulcher to enrage by 25%. The first Exhumed Brimstone Heart takes roughly 3 seconds to spawn, while further hearts take a logarithmically increasing amount of time (plateauing at around 7 seconds). The amount of Exhumed Brimstone Hearts effectively softcaps at 10, as further hearts take a vastly increased amount of time to appear. When enraged, Sepulcher will charge towards the player, dealing {{dv|160-180|320-360}} damage to the player. Sepulcher will not target nor directly damage the Brimstone Hearts.
+
+Only one Sepulcher may be summoned at once, regardless of how many minion slots the player has.
+
+{{Modifier|summon}}
+
+==Crafting==
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*This weapon is best used alongside other summons that can take care of the Brimstone Hearts, while the Sepulcher stays focused on enemies.
+*Desummoning and resummoning the Sepulcher will despawn all the hearts, allowing the player's other summons to focus elsewhere.
+
+== Trivia ==
+*The weapon's name is a reference to the Colombian telenovela [[wikipedia:Metástasis|Metastasis]], well-known for inspiring the critically acclaimed American crime drama [[wikipedia:Breaking_Bad|Breaking Bad]].
+**[[wikipedia:Metastasis|Metastasis]], as a medical term, refers to the process where cancer cells spread from the place where they formed to another area of the body. This is a major theme in the shows mentioned prior, as well as in Sepulcher's cancerous and demonic appearance.
+*The weapon's tooltip heavily implies that the Sepulcher is what [[The Devourer of Gods]] could become should it continue to blindly aim for more power. This is reinforced by the fact that this weapon is the Exhumed variant of the Staff of the Mechworm.
+*The damage amount of 666 refers to the biblical Revelation, specifically the number of the beast.
+*The Exhumed Brimstone Heart softcap references the fact that when [[Supreme Calamitas]] spawns a Sepulcher, the player must either destroy 10 Brimstone Hearts or summon the [[Mastaba]]. 
+{{-}}
+{{Exhumed}}
+<br />{{Master Template Weapons
+|show-main = yes
+|show-summon = yes
+}}

@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 80
+| knockback = 7.25
+| rare = 7
+| sell = {{value|0|12}}
+| stack = 1
+| auto = yes
+| tooltip = Summons thorns on enemy hits
+| use = 12
+| hardmode = yes
+| debuff = Venom
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 5 seconds (Blade)
+| proj = Vilethorn (end projectile).png
+| projcaption = Feralthorn Tip
+| proj2 = Vilethorn (projectile).png
+| proj2caption = Feralthorn Base
+| element1 = Poison
+| element2 = Stab
+}}
+
+The '''Feralthorn Claymore''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. Upon hitting an enemy, two pillars of thorns will rise up from random locations around the player, striking enemies from below but not piercing through them. The blade itself inflicts the [[Venom]] debuff.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Perennial}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:荆棘长刃]]

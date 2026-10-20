@@ -1,0 +1,48 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 60
+| damagetype = Magic
+| knockback = 3
+| stack = 1
+| mana = 6 (primary)<br/>9 (secondary)
+| auto = yes
+| use = 15
+| velocity = 20
+| rare = 8
+| sell = {{value|0|12}}
+| buff = Molten | bufflink = no
+| duration = 6 seconds
+| bufftip = Resistant to cold effects
+| tooltip = Asteroids give the Molten buff on enemy hits<br/>Calls down a swarm of molten asteroids<br/>Right click to fire a spread of molten asteroids from the staff
+| hardmode = yes
+| proj = Asteroid Molten.png
+| projcaption = Molten Asteroids
+| element1 = Fire
+}}
+|{{item drops infobox
+| [[Ravager]] | 1 | 10%
+}}
+}}
+
+The '''Vesuvius''' is a [[Hardmode]] [[wand]] that drops from [[Ravager]]. Its left-click attack is similar to the [[Meteor Staff]]; it calls down a swarm of molten asteroids that explode upon hitting a tile or an enemy. Its right-click attack launches several high-speed molten asteroids towards the cursor.
+
+Any asteroid that strikes an enemy grants the '''Molten''' [[buff]] to the user for 6 seconds, which grants resistance to cold attacks similarly to the [[Warmth Potion]].
+
+{{Modifier|magic}}
+
+== Notes ==
+*The cold resistance granted from the Molten buff does not stack with the [[Frost Flare]] [[covering]] or [[Warmth]] [[buffs|buff]].
+
+== Trivia ==
+*The weapon gets its name from [[wikipedia:Mount Vesuvius|Mt. Vesuvius]], a volcano best known for the destruction and burying of the ancient Roman city of Pompeii.
+*This used to be a [[Malice Mode]]-exclusive item prior to the [[1.5.1.001]] update.
+
+[[File:Vesuvius (demo).gif|frame|left|Vesuvius' left and right-click attacks.]]
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

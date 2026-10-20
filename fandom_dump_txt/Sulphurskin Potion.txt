@@ -1,0 +1,29 @@
+{{item infobox
+|type = Potion
+|tooltip = Reduces the effects of the sulphuric waters
+| stack = 9999
+|rare = 2
+|use = 17
+|consumable = yes
+|buff = Sulphurskin| bufflink = no
+|duration = 2 minutes
+|bufftip = The sulphuric waters have a lesser effect on you
+|sell = {{value|0|0|40|0}}
+}}
+
+The '''Sulphurskin Potion''' is a craftable [[Pre-Hardmode]] [[Buff Potions|buff potion]]. Upon consumption it grants the '''Sulphurskin''' [[buff]], which reduces the damage over time dealt by the water in the [[Sulphurous Sea]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The Sulphurskin's effect of reducing severity of the water in the [[Sulphurous Sea]] stacks with the [[Sulphurous armor]]'s set bonus in the following manner:
+**While the buff is active without the set bonus, the amount of minimum life regen lost is 2 instead of 8, and further reduced by 1 every 5.83 seconds instead of 4.17 seconds.
+**With both the armor and the Sulphurskin buff, the amount of minimum life regen lost is 1, and further reduced by 1 every 8.33 seconds.
+**Both reduce the amount of life regen lost from the [[Sulphuric Poisoning]] [[debuff]] by 2 and can stack with each other.
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

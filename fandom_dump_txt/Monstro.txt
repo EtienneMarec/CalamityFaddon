@@ -1,0 +1,84 @@
+<section begin="npc" infobox="" />{{npc infobox
+| name = Monstro
+| type = Boss
+| imagealt = [[File:Boss_Monstro_ingame.png]]
+| ai = Monstro AI
+| environment = Forest
+| life = {{dv|2,000|2,100|2,200}}
+| damage = {{dv|10|12|15|20}} (Contact)<br/>{{dv|30|40|50|60}} (Slam)<br/>{{dv|11|13|15|18}} (Blood Shot)
+| defense = 0
+| dr = 0%
+| knockback = 200
+| money = {{gc|20}}
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| vulnerable3 = Water
+| vulnerable4 = Machine
+| resistant1 = Unholy
+| resistant2 = Cold
+| Monstro's Tooth|{{dv|4-8|5-9}}| 100%
+|group|At least one of the following 4 weapons will always drop:|5
+| Basement Blaster|1|{{dv|25%|33.33%}}
+| Sob Story|1|{{dv|25%|33.33%}}
+| Cat o' Nine Tails|1|{{dv|25%|33.33%}}
+| The Creeper|1|{{dv|25%|33.33%}}
+| Lesser Healing Potion|5-15|100%
+| Monstro Mask|1|14.29%
+| custom| {{item|Monstro Trophy}}|10%
+| custom| {{item|Monstro (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| image2 = Monstro map.webp
+| image2caption = Map Icon
+| boxwidth = 24em
+| hurt = NPC_Hit_13.wav
+| killed = NPC_Killed_19.wav
+| sound = NPC_Hit_20.wav
+| soundtext = Projectiles
+}}<section end="npc" infobox="" />[[File:Monstro Trophy.png|32x32px]] <big> ''"An anomaly from another world, brought forth by your meddling."'' </big> [[File:Monstro Trophy.png|32x32px]]
+
+'''Monstro''' (Japanese: モンスター ''Monsutā'') is a [[Pre-Hardmode]] [[boss]] that can be fought [[Underground]]. A massive blob of flesh, Monstro prefers to throw his weight around in battle, dealing devastating damage to any players caught beneath his slam attacks and wreaking havoc with his blood barrages.
+
+Defeating Monstro will generate [[tgc:Copper_Ore|Copper]] or [[tgc:Tin_Ore|Tin]] ore, depending on the world's seed.
+
+==Spawn==
+Monstro doesn't normally spawn, However you can cause him to spawn by launching The Binding Of Isaac: Rebirth (Or the Flash version of Isaac) through Steam or running "isaac-ng.exe" if you can't find it. From there, explore the first two levels and fight the bosses that spawn there. One of them will eventually be Monstro if you keep restarting. 
+==Behavior ==
+Monstro will spawn shortly after the Bloody Vein is inserted. He starts off dazed, giving the player time to run. When this grace period ends, he will begin to bound closer. Once Monstro reaches a distance of 10 blocks from the player, he will begin to attack.
+===Attacks===
+*Hops toward the player, then slams on their current position.
+*Fires a shotgun burst of blood toward the player.  
+**The initial shot is semi-predictive, but cannot adjust once fired.
+* Hops offscreen, creating an indicator line above the player. Once it expires, Monstro will land on the player's current position. Many disorganized blood shots are fired in all directions on impact.
+*Coughs up several Demon Eyes.
+===In [[Expert Mode]]===  
+*Attacks faster.
+*Prediction is more accurate.
+=== In [[Revengeance Mode]]=== 
+*Prediction is even more accurate.
+*Gains a new Phase 2 at 50% HP:
+*Monstro's flesh sloughs off, firing disorganized projectiles in one direction. One of his eyes will burst out, orbiting him. 
+**This attack is only performed once upon phase transition and changes Monstro's appearance for the rest of the fight.
+*Winds up for a moment, then fires a blood laser straight forward.   
+**This will instantly kill any remaining minions caught in it, causing them to burst into a cross of projectiles.
+*Slams onto both edges of the screen, firing a circle of blood shots upon landing.
+
+===In [[Death Mode]]===
+*Slams are now predictive.
+
+===On the [[tgc:For_the_worthy|For the worthy]] seed===  
+*Summons Wandering Eyes instead of Demon Eyes.
+==Aftermath==   
+*Once Monstro is defeated for the first time, either [[tgc:Copper_Ore|Copper]] or [[tgc:Tin_Ore|Tin]] ore will spawn in the world.
+
+==Tips==
+{{dablink|For more elaborate strategies on defeating Monstro, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Monstro strategies]].}}
+*Monstro has a damage vulnerability to projectile-based weapons; though the options are limited, using one can help maximize your damage output very easily,
+*A flat arena can help avoid being cornered.
+==Trivia== 
+*Monstro's [[Music|theme]] is [https://youtu.be/D7bcp2EfB1Y '''Juggernaut'''], which was composed by the artist Ridiculon.
+**If the Calamity Music add-on mod is disabled, the [[Pumpkin Moon]]'s theme will play instead.
+*Monstro is a direct reference to the boss of the same name from The Binding of Isaac. The main strategy to defeating it is even similar to how you would in the game!
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "Monstro confusedly returns home..."
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

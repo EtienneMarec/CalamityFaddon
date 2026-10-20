@@ -1,0 +1,91 @@
+{| width="100%"
+|<span class="ajaxHide">{{main|Immunity frames}}</span>
+This is a list of NPCs and their projectiles which have their immunity frame <code>cooldownSlot</code> set to 0 or 1, as opposed to the default value of -1, thereby only preventing hits from sources with the same value and ignoring <code>immuneTime</code> modifications by any items except [[Cross Necklace]] (and its inheritors).
+|}
+{{item/options|mode=table}}
+{| class="terraria sortable lined" style="text-align:center"
+! colspan = 2 | Damage Source
+! <code>cooldownSlot</code>
+|-
+| {{item|Adult Eidolon Wyrm|size=200px|note=• Contact (Head)|wrap=y}} || 1
+|-
+| {{item|Brimstone Elemental|size=70px|note=• Brimstone Dart<br/>• Brimstone Hellblast|wrap=y}} || 1
+|-
+| {{item|Ceaseless Void|size=120px|note=• Laser Portal<br/>• Laser<br/>• {{revengeance|Dark Energy projectile}}|wrap=y}} || 1
+|-
+| {{item|Cosmic Guardian|size=170px|note=• {{revengeance|Contact (All segments)}}|wrap=y}} || 1
+|-
+| {{item|Cosmic Lantern|note=• Contact|wrap=y}} || 0
+|-
+| {{item|Dark Energy|size=60px|note=• Contact|wrap=y}} || 1
+|-
+| {{item|Detonating Flame|note=• Contact|wrap=y}} || 1
+|-
+| {{item|The Devourer of Gods|size=190px|note=• Contact (Head)<br/>• Laser|wrap=y}} || 1
+|-
+| {{item|The Devourer of Gods (Final Phase)|size=230px|note=• Contact (Head)<br/>• Laser Wall<br/>• {{revengeance|God Slayer Fireball}}|wrap=y}} || 1
+|-
+| {{item|The Devourer of Gods|size=190px|note=• Contact (Body & Tail)|wrap=y}} || 0
+|-
+| {{item|The Devourer of Gods (Final Phase)|size=230px|note=• Contact (Body & Tail)|wrap=y}} || 0
+|-
+| {{item|The Dragonfolly|size=85px|note=• Contact<br/>• Lightning Feather|wrap=y}} || 1
+|-
+| {{item|Happy Phantom Spirit|note=• Ghost Shot|wrap=y}} || 1
+|-
+| {{item|Jungle Dragon, Yharon|size=150px|note=• Contact<br/>• Flare Bomb<br/>• Flare Dust<br/>• Flarenado<br/>• Infernado<br/>• Border Infernado<br/>• Yharon Fireball|wrap=y}} || 1
+|-
+| {{item|The Old Duke|size=100px|note=• Contact<br/>• Sulphurous Gore<br/>• Sulphurous Vortex|wrap=y}} || 1
+|-
+| {{item|Phantom|note=• Phantom Mine|wrap=y}} || 1
+|-
+| {{item|Polterghast|size=60px|note=• Contact<br/>• Phantom Shot (Blue & Red)<br/>• Phantom Blast (Blue & Red)<br/>• Hook Phantom Shot|wrap=y}} || 1
+|-
+| {{item|Profaned Energy|note=• Holy Bomb<br/>• Holy Flare|wrap=y}} || 1
+|-
+| {{item|Profaned Guardian (Defense)|size=70px|note=• Contact|wrap=y}} || 1
+|-
+| {{item|Profaned Guardian (Main)|size=70px|note=• Flare Dust<br/>• Profaned Spear|wrap=y}} || 1
+|-
+| {{item|Profaned Guardian (Offense)|size=70px|note=• Contact<br/>• Flare Dust|wrap=y}} || 1
+|-
+| {{item|Profaned Guardian (Rock)|size=70px|note=• Profaned Spear|wrap=y}} || 1
+|-
+| {{item|Providence, the Profaned Goddess|size=170px|note=• All projectiles (except Molten Glob)|wrap=y}} || 1
+|-
+| {{item|Providence, the Profaned Goddess|size=170px|note=• Molten Glob|wrap=y}} || 0
+|-
+| {{item|Ravager|size=170px|note=• Contact (Body)|wrap=y}} || 1
+|-
+| {{item|Sepulcher|size=190px|note=• Brimstone Dart|wrap=y}} || 1
+|-
+| {{item|Signus, Envoy of the Devourer|size=70px|note=• Contact<br/>• Scythe<br/>• Essence Dust|wrap=y}} || 1
+|-
+| {{item|Soul Seeker|note=• Brimstone Dart|wrap=y}} || 1
+|-
+| {{item|Soul Seeker (Supreme)|note=• Brimstone Dart|wrap=y}} || 1
+|-
+| {{item|Storm Weaver|size=200px|note=• Contact (All segments)|wrap=y}} || 1
+|-
+| {{item|Storm Weaver (Naked)|size=200px|note=• Contact (All segments)|wrap=y}} || 1
+|-
+| {{item|Sulphurous Sharkron|size=90px|note=• Contact<br/>• Sulphurous Gore|wrap=y}} || 1
+|-
+| {{item|Supreme Calamitas|size=80px|note=• Contact<br/>• All projectiles|wrap=y}} || 1
+|-
+| {{item|Supreme Cataclysm|size=80px|note=• Brimstone Flame Skull|wrap=y}} || 1
+|-
+| {{item|Supreme Catastrophe|size=80px|note=• Brimstone Hellblast|wrap=y}} || 1
+|-
+| {{item|Tooth Ball (Old Duke)|note=• Contact|wrap=y}} || 1
+|-
+| {{item|Pumpkin Moon|note=All non-[[boss]] enemies, post-[[Devourer of Gods]]<br/>• Contact |wrap=y}} || 1
+|-
+| {{item|Frost Moon|note=All non-[[boss]] enemies, post-[[Devourer of Gods]]<br/>• Contact|wrap=y}} || 1
+|-
+| {{item|Solar Eclipse|note=All non-[[boss]] enemies, post-[[Yharon]] Phase 1<br/>• Contact|wrap=y}} || 1
+|-
+|}
+{{item/options|reset}}
+
+[[Category:Game mechanics]]

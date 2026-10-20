@@ -1,0 +1,46 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = Spy
+| damage = 26
+| knockback = 2
+| velocity = 20
+| rare = 6
+| sell = {{value|0|7|20}}
+| use = 19
+| stack = 1
+| hardmode = yes
+| debuff = Cursed Inferno
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| debufftip = Losing life<br/>All damage taken increased by 20%
+| tooltip = Throws three spears with the outer two having homing capabilities<br/>Stealth strikes cause all three spears to home in, ignore tiles, and pierce more
+| element1 = Unholy
+| element2 = Stab
+}}
+The '''Spear of Liberty''' is a craftable [[Hardmode]] [[javelin]] that also has a small chance of being dropped by enemies in the corruption (1.4%). When fired, it throws out a projectile identical to the Cursed Spear, alongside two rapidly moving spears which will aggressively home in onto enemies. Each spear will inflict the [[Cursed Inferno]] [[debuff]] and pierce once. It is the [[Corruption]] counterpart is the {{fantag|Calamity: Community Remix}} [[Spear of Destiny]].
+
+Performing a [[stealth strike]] with the Spear of Destiny will cause all three spears to aggressively home, ignore tiles, and pierce two additional times.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The homing of the spear is so strong that it will often return to hit the same enemy again after piercing once.
+
+== Trivia ==
+*The Spear of Liberty is a play on the name Spear of Destiny, with "Liberty" being the antonynm for "Destiny".
+*It was formerly the [[rare variant]] of the [[Cursed Spear]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue= yes
+}}
+[[Category:Spy weapons]]
+[[Category:Javelins]]

@@ -1,0 +1,29 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip =  Summons release an astral explosion on enemy hits<br/>+1 max minion
+| sell = {{value|0|9|60}}
+| stack = 1
+| rare = 7
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Stellar Culex]] (On collision with a [[Unicorn]])|1|14.29%}}
+}}
+
+The '''Starbuster Core''' is a [[Hardmode]] [[covering]] dropped by [[Stellar Culex]] upon intersecting with a [[Unicorn]], exploding into a crater of [[Astral Ore]] with the core in the middle (after [[Astrum Aureus]] has been defeated). While equipped the player gains +1 minion slots and all minion attacks spawn a small astral explosion on enemy hits with a one-second cooldown, dealing 40 summon damage.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The explosion effect is identical to that of the [[Star-Tainted Generator]], will be overridden by the [[Nucleogenesis]]'s sparks, and will override [[Nuclear Rod]]'s aura and [[Jelly-Charged Battery]]'s orbs.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

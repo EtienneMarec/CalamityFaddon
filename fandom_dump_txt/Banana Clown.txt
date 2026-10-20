@@ -1,0 +1,29 @@
+{{npc infobox
+| type = Enemy
+| environment = Night
+| ai = Fighter AI
+| damage = {{dv|40|80}} (contact)<br/>{{dv|30|60}} (bomb)
+| life = {{dv|160|320}}
+| defense = 5
+| knockback = {{dv|75%|77.5%}}
+| money = {{value|0|0|20}}
+| immune1 = Kami Flu
+| immune2 = Abyssal Flames
+| immune3 = Brimstone Flames
+| Banana Clown armor|1|33.33% (per piece)
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_50.wav
+| vulnerable1 = Fire
+| vulnerable2 = Holy
+| vulnerable3 = Cold
+| vulnerable4 = Machine
+| resistant1 = Dark
+| resistant2 = Unholy
+}}
+
+The '''Banana Clown''' is a Pre-[[Hardmode]] [[enemy]] which spawns uncommonly on the surface during [[Night]]. They act like a regular Fighter AI enemy but will occasionally throw banana bombs that destroy tiles.
+{{-}}
+{{Master Template Characters
+|show-main = yes
+|show-common = yes
+}}

@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 150
+| use = 32
+| velocity = 27
+| knockback = 30
+| tooltip = A large and slow weapon, the concussive force of its projectiles do well in clearing large groups<br/>Fires a devastating high velocity blast with absurd knockback<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| sell = {{value|0|12}}
+| hardmode = yes
+| element1 = Fire
+| element2 = Slash
+| element3 = Machine
+}}
+
+The '''Gauss Rifle''' is a craftable [[Hardmode]] [[ranged weapon]]. When used, it fires a high velocity stream of blue particles, exploding on impact with an enemy or blocks. It consumes [[charge]] on use.
+
+The weapon consumes 0.1125 units of [[charge]] per use and has a maximum charge of 135.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier3}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+== Trivia ==
+*The Gauss Rifle is a reference to the [https://fallout.fandom.com/wiki/Gauss_rifle Gauss Rifle] from the ''[[wikipedia:Fallout (series)|Fallout]]'' series, and uses the same firing sound effect.
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

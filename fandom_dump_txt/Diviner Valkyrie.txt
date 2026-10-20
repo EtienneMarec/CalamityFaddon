@@ -1,0 +1,47 @@
+{{npc infobox
+| type = Enemy
+| environment = Space
+| ai = Harpy AI
+| damage = {{dv|50|boost=0.15}} (Contact)<br/>{{dv|100|200}} (Spears)
+| life = {{dv|5,000|8,000}}
+| defense = 20
+| dr = 10%
+| knockback = 100
+| money = {{value|0|1|50}}
+| Spear of Liberty|1|100%
+| Sky Fracture|1|{{dv|20%|33.33%}}
+| hardmode = yes
+| resistant1 = Cold
+| resistant2 = Poison
+| vulnerable1 = Machine
+}}
+
+
+<big>''"Rigged"''</big>
+
+
+The '''Diviner Valkyrie''' is a secret [[miniboss]] encountered via [[Falconer]]'s 30 {{item|Essence of Babil}} quest. Upon activation of the quest, she will perch on a [[Floating Island]] and will remain neutral towards the player until directly attacked. 
+
+Diviner Valkyrie has the following attacks:
+*A torrent of spears which chase the player similarly to a fast [[Wyvern]].
+*Gusts of non-homing wind which blow in linearly from around the player, similar to those from the [[Turbulance]].
+*A flurry of claw scratches telegraphed by dialogue in chat.
+*If the player moves too far from the Diviner, rapid lightning strikes will appear ahead of the direction the player is moving.
+
+{{dei}} Diviner Valkyries can also spawn as a regular enemy in Godseeker Mode at around the height [[Floating Island]]s are found.
+
+== Notes ==
+*{{dei}} Diviner Valkyries that spawn outside of the quest will not drop the [[Spear of Liberty]] or [[Sky Fracture]].
+
+==Quotes==
+*The Sky Fracturer must not be freed!
+*Do not seek the engraved prison of the ensnared wind amidst the [[Planetoid]]s!
+*Especially avoid doing so on a particularly windy day!
+*Do not bring anything magnetic used to locate labs to these skies!
+*A terrible calamity will befall those who shed blood with [[Onyx]]!
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

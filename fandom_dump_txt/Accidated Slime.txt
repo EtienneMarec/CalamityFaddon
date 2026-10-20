@@ -1,0 +1,24 @@
+{{npc infobox
+| type = Slime
+| environment = Jelly Monsoon
+| ai = Slime
+| damage = {{dv|50|100||125}}
+| life = {{dv|300|600}}
+| defense = 25
+| money = {{value|0|0|40|0}}
+| Accidated Reactive Essence|10-26| 100%
+| knockback = 100
+| hardmode = yes
+| listexclude = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+The '''Accidated Slime''' is an [[Epilogue]] [[slime]] that spawns naturally during the [[Jelly Monsoon]] after [[Purgatory Arbiter, Umbrus]] has been defeated. It exists to drop [[Accidated Reactive Essence]].
+
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-event = yes
+}}

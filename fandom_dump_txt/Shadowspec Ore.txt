@@ -1,0 +1,43 @@
+{{addon|Calamity Loot Swap}}
+{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 250
+| stack = 9999
+| use = 14
+| rare = 15
+| value = 1600
+| color = #52204F
+| sell = {{value|0|1}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+<big> ''"Darkness fills the underworld..."'' </big>
+
+'''Shadowspec Ore''' is a Godseeker Mode [[Ores|ore]] which generates in the [[Underworld]] after [[Purgatory Arbiter, Umbrus]] {{fantag|Catalyst}} has been defeated. It is used to craft [[Shadowspec Bar]]s at [[Draedon's Forge]]. It requires at least a {{item|Blossom Pickaxe}} to mine.
+
+== Crafting ==
+
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Shadowspec Ore cannot be destroyed by explosives, even after Purgatory Arbiter, Umbrus has been defeated.
+*Shadowspec Ore has no correlating [[slime]].
+
+{{shadowspec}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

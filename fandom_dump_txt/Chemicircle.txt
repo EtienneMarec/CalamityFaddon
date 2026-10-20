@@ -1,0 +1,51 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Dedicated|PrinceebetGD|Suggestor}}
+{{item infobox
+| image = Chemicircle.gif
+| type = Weapon
+| damagetype = Melee
+| damage = 80
+| knockback = 2.5
+| rare = 8
+| sell = {{value|0|20}}
+| stack = 1
+| use = 22
+| reach = 32
+| attduration = {{infinity}}
+| auto = yes
+| tooltip = "K2Cr2O7 + 6H2SO4 + 4NaCl --(heat)-> 2KHSO4 + 4NaHSO4 + 2CrO2Cl2 + 3H2O" <br/> Releases carcinogenic gasses at your enemies<br/>Extreme damage chances only take +1% from Lucky reforges, and they take 50% benefit from critical strikes.
+| debuff = Cancer | bufflink = no
+| debuffchance = 100%
+| debuffduration = 5 seconds (Gas)
+| hardmode = yes
+| proj = Chemicircle Yoyo.png
+| projcaption = Chemicircle
+| proj2 = Chemicircle Gas.png
+| proj2caption = Gas
+| element1 = Poison
+| element2 = Machine
+}}
+
+
+The '''Chemicircle''' is a [[Hardmode]] [[yoyo]]. It fires a spinning yoyo that constantly releases damaging gasses, the gasses deal 120% of the damage and inflict the Cancer debuff, the debuff halves a random stat of your enemy and has a {{dv|5%||8%}} to deal from 550 to 900 damage.
+{{modifier|meleealt}}
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+
+== Trivia ==
+
+* The name "Chemicircle" is a portmanteau of the words ''chemical'' and ''circle''.
+* The weapon's tooltip references the synthesis of chromyl chloride, which is a carcinogen.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]

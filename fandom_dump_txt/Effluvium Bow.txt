@@ -1,0 +1,49 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 56
+| knockback = 4
+| rare = 5
+| sell = {{value|0|7|20}}
+| stack = 1
+| auto = yes
+| velocity = 12
+| use = 25
+| tooltip = Fires two arrows at once<br/>Converts wooden arrows into mist arrows
+| hardmode = yes
+| debuff = Glacial State
+| debufftip = Cannot move and defense is shattered
+| debuffchance = 100%
+| debuffduration = 0.5 seconds (Mist Arrow)
+| debuff2 = Frostburn
+| debuffchance2= 100%
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuffduration2 = 3 seconds (Mist Arrow)
+| proj = Mist Arrow.gif
+| projcaption = Mist Arrow
+| element1 = Cold
+| element2 = Water
+}}
+|{{item drops infobox
+| [[Cryogen]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Effluvium Bow''' is a [[Hardmode]] [[bow]] that is dropped by [[Cryogen]]. When fired, two arrows are shot in a random spread. If [[Wooden Arrow]]s are used as [[ammo]], the arrows are converted into icy mist arrows, which inflict the [[Frostburn]] and [[Glacial State]] [[debuffs]].
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*An effluvium is a harmful or pungent odor.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

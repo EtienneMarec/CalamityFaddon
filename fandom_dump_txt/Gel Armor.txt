@@ -1,0 +1,110 @@
+{{item infobox
+| type = Armor
+| defense = 16/15/13/13/14
+| rare = 4
+| sell = {{value|0|2|40}} (set)
+| buff = Baby Slime (buff) | bufflink = no
+| bufftip = The slime will protect you
+| duration = Infinite (Hood)
+| setbonus = When you take over 100 damage in one hit you become immune to damage for an extended period of time<br/>Grants increased jump height<br/>6% increased jump speed<br/><br/>'''Helm''': Enemies are more likely to target you<br/><br/>'''Hood''': 6% increased minion damage and +1 max minion. Summons a mini Slime to fight for you<br/><br/>'''Mask''': Spy stealth builds while not attacking and slower while moving, up to a max of 50<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+| resistance1 = Water
+| resistance2 = Poison
+| resistance3 = Stab
+| resistance4 = Slash
+| vulnerable1 = Fire
+| vulnerable2 = Unholy
+}}
+{{summoned|Baby Slimetype=minion}}
+
+'''Gel armor''' is a craftable [[Pre-Hardmode]] [[Covering]] set made from [[Unpurified Gel]]. It can be upgraded into [[Statigel armor]] once the Slime Gods have been defeated.
+
+It consists of '''Gel Armor''', '''Gel Greaves''' and five different headpieces: '''Gel Helm''', '''Gel Headgear''', '''Gel Cap''',  '''Gel Hood''' and '''Gel Mask'''.
+
+The '''Gel Armor''' gives 7 defense and +3% increased critical strike chance; and the '''Gel Greaves''' give 5 defense, 3% increased damage, and 5% increased movement speed.
+
+*The '''Gel Helm''' gives 4 defense, 5% increased melee damage, 4% increased melee critical strike chance, and 5% increased melee speed.<br/>Its set bonus grants an additional 200 [[Aggro]].
+*The '''Gel Headgear''' gives 3 defense, 5% increased ranged damage, and 4% increased ranged critical strike chance.
+*The '''Gel Cap''' gives 1 defense, 5% increased magic damage, 4% increased magic critical strike chance, 5% decreased mana cost, and +30 max mana.
+*The '''Gel Hood''' gives 1 defense, increased minion knockback<br/>Its set bonus gives an additional 6% minion damage and +1 max minion, and summons a Baby Slime that will attack enemies.
+**The Baby Slime moves and attacks like any other slime minion, dealing 13 damage.
+*The '''Gel Mask''' gives 2 defense, 5% increased Spy damage, 4% increased Spy critical strike chance, 3% increased movement speed and 15% chance to not consume thrown items.<br/>Its set bonus gives a maximum [[Spy stealth]] of 50.
+
+Equipping a full set will always increase the player's jump height by 3 blocks and jump speed by 6%, along with adding an extra jump which emits blue gel-like particles below the player when performed. Additionally, taking over 100 damage in one hit grants the player 30 extra [[immunity frames]].
+
+A full set will always provide a total of at least 13 defense, 3% increased damage, critical strike chance, and movement speed.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox| name = Gel Armor
+| type = Armor
+| defense = 7
+| body slot = Shirt
+| tooltip = 3% increased critical strike chance
+| sell = {{value|0|0|80}}
+}}
+|{{item infobox
+| name = Gel Greaves
+| type = Armor
+| defense = 5
+| body slot = Pants
+| tooltip = 3% increased damage and 5% increased movement speed
+| sell = {{value|0|0|60}}
+}}
+}}
+
+=== Helmet variants ===
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Gel Helm
+| type = Armor
+| defense = 4
+| body slot = Helmet
+| tooltip = 5% increased melee damage and melee speed<br/>3% increased melee critical strike chance
+| sell = {{value|0|1}}
+}}
+|{{item infobox
+| name = Gel Headgear
+| type = Armor
+| defense = 3
+| body slot = Helmet
+| tooltip = 5% increased ranged damage<br/>3% increased ranged critical strike chance
+| sell = {{value|0|1}}
+}}
+|{{item infobox
+| name = Gel Cap
+| type = Armor
+| defense = 1
+| body slot = Helmet
+| tooltip = 5% increased magic damage and 5% decreased mana cost<br/>3% increased magic critical strike chance and +30 max mana
+| sell = {{value|0|1}}
+}}
+|{{item infobox
+| name = Gel Hood
+| type = Armor
+| defense = 1
+| body slot = Helmet
+| tooltip = Increased minion knockback
+| sell = {{value|0|1}}
+}}
+|{{item infobox
+| name = Gel Mask
+| type = Armor
+| defense = 2
+| body slot = Helmet
+| tooltip = 5% increased Spy damage and 15% chance to not consume thrown items<br/>3% increased Spy critical strike chance and 3% increased movement speed
+| sell = {{value|0|1}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=Gel Armor/Gel Greaves/Gel Helm/Gel Headgear/Gel Cap/Gel Hood/Gel Mask}}
+
+=== Used in ===
+{{recipes|ingredient=Gel Helm/Gel Headgear/Gel Cap/Gel Hood/Gel Mask/Gel Armor/Gel Greaves}}
+
+
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

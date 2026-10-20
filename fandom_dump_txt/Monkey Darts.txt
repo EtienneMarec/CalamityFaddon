@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| stack = 9999
+| auto = yes
+| damagetype = Rogue
+| damage = 150
+| critical = 22%
+| knockback = 4
+| velocity = 8
+| consumable = yes
+| rare = 7
+| tooltip = Stealth strikes throw 3 bouncing darts at high speed<br/>'Perfect for popping'
+| buy = {{value|0|0|4}}
+| sell = {{value|0|0|0|80}}
+| use = 19
+| hardmode = yes
+| proj = Monkey Dart Projectile.png
+| projcaption = Monkey Dart
+| element1 = Stab
+}}
+
+'''Monkey Darts''' are consumable [[Hardmode]] [[daggers]] purchased from the [[Bandit]] for {{sc|4}} each after [[Plantera]] has been defeated. When used, they throw a gravity affected dart that has a 50% chance of breaking upon contact with an [[enemy]] or [[block]].
+
+Performing a [[stealth strike]] with Monkey Darts will cause three bouncing darts to be thrown instead of one. Only one dart will be consumed when this occurs.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This item is a reference to the ''[[wikipedia:Bloons|Bloons]]'' game series, in which monkeys throw darts at balloons.
+**This includes its stealth strike effect, which is a reference to the [https://bloons.fandom.com/wiki/Triple_Darts Triple Darts] upgrade.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

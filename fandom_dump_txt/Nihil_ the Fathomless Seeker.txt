@@ -1,0 +1,152 @@
+{{Npc infobox|name=Nihil, the Fathomless Seeker|type=Superboss|boxwidth=26em|image=Nihil.png|ai=Nihil AI|damage={{dv|500|715|833|950}} (Bathyscleave Maw, Contact, Hypothermic Rapture)<br/>
+{{dv|400|651|700|816}} (Bathysmal Torrent, Hiemalgaze Fragment, Fathomless Beam)<br/>
+{{dv|460|700|815|900}} (Darkshot Glaive, Annihilating Seeker, Coldblaze Anchor)<br/>
+{{dv|610|755|875|1011}} (Hiemalgaze Mortar, Portal explosion)<br/>
+{{dv|750|885|980|1125}} (Frost Arcturus)
+x2 damage (Enraged)|life={{dv|8,000,000|13,600,000|18,330,000|21,660,000}}|defense=145|dr=14|knockback=100|money={{value|0|0|0|0|99}}|hardmode=1|postml=1|debufftip=Your molecules are being torn apart by maleficent shadows|debuffchance=100%|debuff=Shadowrend Affliction|duration=2 seconds (all projectiles)<br/>10 seconds (Frost Arcturus)
+| Essence of Nihility| 50〜75| 100%
+| Hyperboreal| 1| 20%
+| Unfathomable| 1| 20%
+| Solitarius| 1| 20%
+| Glazepiercer| 1| 20%
+| Bathysphere| 1| 20%
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Holy
+| vulnerable4 = Unholy
+| resistant1 = Cold
+| resistant2 = Dark
+| resistant3 = Magic
+| resistant4 = Slash
+| epilogue = yes
+|image2=nihil-map.png|image2caption=Map Icon|Omega Healing Potion|10-30|100%}}'''''"In search of sating your fury, you have found yourself shattered. Now, I am here to collect what is left of you."'''''
+
+'''Nihil, the Fathomless Seeker''' (Japanese: ニヒル、底知れぬ探求者 ''Nihiru, sokoshirenu tankyū-sha'') is an optional Epilogue [[Superbosses|Superboss]].
+
+== Spawn ==
+Nihil can be summoned by using [[Genesis]] whilst [[Delicious Meat]] is in the first slot of the hotbar only at night and only if [[Purgatory Arbiter, Umbrus]] has been defeated. Genesis will glow blue instead of red and a shockwave will call Nihil into existence, but not before a brief delay.
+
+Nihil can be fought anywhere at any time.
+
+== Behaviour ==
+Upon spawning, Nihil will commence entrance dialogue. During this period, Nihil will pulse noticeably brighter, almost touching the edges of the screen with its glow. Nihil will also cover the background with a deep blue visual effect, though this effect will strengthen the nearer the player is to Nihil. When the player is within close range of Nihil, their screen will also be blinded by blue light, obscuring vision. After 20 seconds of unskippable dialogue, the fight starts.
+
+If the player is more than 200 tiles away from Nihil, it will enrage for 10-30 seconds, resulting in x2 damage output and heavily increased aggressiveness and speed, as well as increasing all projectile speed by 75%. While enraged, its pulse glows brighter and players near it are blinded within a larger range.
+
+In Expert Mode, Nihil will enrage in its third phase. In Revengeance Mode, enrage from entering its third phase can stack with its enrage from player distancing, extending damage output to 3x and increasing aggressiveness and speed even more, with all projectile speed being raised by 206.25%. In Death Mode, Nihil gains its fourth phase, in which its attack intervals are further decreased by 15%.
+
+=== Phase 1 Attack Cycle ===
+In phase 1, each hit the player takes will decrease Nihil's attack interval by 30% for 10 seconds, which stacks multiplicatively. Attacks are selected randomly from the following list.
+
+* Nihil unleashes a sequence of blinks, left or right. After a 1-second delay, Nihil extends its tentacles in an attack sequence determined by the blinks, dealing contact damage. When the left tentacle attacks, {{Item|bathysmaltorrent|Bathysmal Torrents|nolink=yes}} are fired upward to the left, sweeping the left side of the screen. When the right tentacle attacks, Bathysmal Torrents are fired upward to the right.
+* Nihil charges up by sucking in energy balls, glows briefly, then shoots a fast predictive {{Item|bathyscleavemaw|Bathyscleave Maw|nolink=yes}} which travels a short distance in the player's direction.
+* Nihil surrounds itself with a rune circle whilst shooting fast-moving, gravity-affected {{Item|hiemalgazemortar|Hiemalgaze Mortars|nolink=yes}} with telegraphed trajectories. Some Mortars glow cyan after a moment and then explode, splitting into 5 {{Item|hiemalgazefrag|Hiemalgaze Fragments|nolink=yes}}.
+* Shoots {{Dv|normal=3|expert=5|revengeance=6|death=10}} {{Item|darkshotglaive|Darkshot Glaives|nolink=yes}} in a wide spread. All Darkshot Glaives stop moving after a brief period and then aim themselves predictively at the player with trajectories telegraphed for {{Dv|normal=1|expert=0.75|revengeance=0.5|death=0.3}} seconds before moving again at a massively increased speed.
+* Flies above the player and then flashes its glow before shooting {{Dv|normal=5|expert=7|revengeance=9|death=11}} Bathysmal Torrents in a tight spread downward. Afterward, disappears through a portal and re-appears in a portal situated a distance in the movement direction of the player and shoots the same tight spread of Torrents towards the player. This is repeated thrice.
+* Flies around the player whilst firing homing {{Item|annihilatingseeker|Annihilating Seekers|nolink=yes}}.
+
+=== Phase 2 Attack Cycle ===
+Phase 2 begins at {{Dv|normal=70%|expert=75%|revengeance=80%|death=80%}} health. All of Nihil's attacks are replaced or upgraded. In phase 2, each hit the player takes will decrease Nihil's attack interval by 50% for 5 seconds, which stacks multiplicatively. Nihil will pause and be invincible for 10 seconds to accommodate for interphase unskippable dialogue, and then flash its glow before starting the second phase.
+
+* Nihil unleashes a sequence of blinks and then attacks, similar to the first phase, but also fires Hiemalgaze Mortars simultaneously, which split into Hiemalgaze Fragments. This attack is ALWAYS performed first when Phase 2 begins.
+* Nihil charges up and then sucks in all players whilst firing accelerating Bathysmal Torrents in random directions for 10 seconds.
+* Nihil hovers to the left/right of the player and alternates between firing a spread of {{Dv|normal=5|expert=9|revengeance=11|death=15}} Darkshot Glaives and firing a spread of homing {{Dv|normal=3|expert=4|revengeance=5|death=7}} Annihilating Seekers.
+* Bathyscleave Maw attack, but repeated thrice with further range and faster speed.
+* Rune circle attack, but with additional {{Item|hypothermicrapture|Hypothermic Raptures|nolink=yes}} being shot periodically in the player's direction from Nihil as the origin.
+* Portal attack, except performed faster, and Bathysmal Torrents are shot twice.
+* Summons {{Dv|normal=25|expert=30|revengeance=40|death=50}} Darkshot Glaives in a ring sequentially, which all aim and telegraph predictive trajectories for {{Dv|normal=1|expert=0.75|revengeance=0.5|death=0.3}} seconds before firing.
+* Hovers at the bottom of the player and shoots Hypothermic Raptures in a wave pattern upwards.
+
+=== Phase 3 Attack Cycle ===
+Phase 3 begins at {{Dv|normal=30%|expert=35%|revengeance=35%|death=40%}} health. All of Nihil's attacks are replaced and Nihil is enraged in expert+ difficulty. In phase 2, each hit the player takes will decrease Nihil's attack interval by 30% for 20 seconds, which stacks multiplicatively. Nihil does not pause to say its dialogue.
+
+* Spawns a projection of itself which phases and charges in from below/above/left/right, dealing contact damage and fading away, while Nihil itself circles around the player whilst shooting Darkshot Glaives. This attack is ALWAYS performed first when Phase 3 begins.
+* Hovers and shoots a Fathomless Beam which rotates around it. It slowly fires more beams simultaneously up to {{Dv|normal=2|expert=3|revengeance=4|death=5}} beams. In Revengeance Mode and higher, it starts sucking in players for the second half of the attack.
+* Hovers below the player and then telegraphs a predictive Fathomless Beam before shooting it for only a moment. Repeats this {{Dv|normal=3|expert=4|revengeance=5|death=6}} times within 5 seconds. With every Fathomless Beam shot, it also shoots a random spread of 6 Hypothermic Raptures in the same direction.
+* Fires a ring of {{Dv|normal=15|expert=20|revengeance=25|death=30}} Bathysmal Torrents before disappearing through a portal. {{Item|nihil_portal|Portals|nolink=yes}} are then rapidly spawned around the player in random positions aiming towards the player which shoot Darkshot Glaives and explode. After all portals explode, Nihil abruptly phases into existence and charges towards the player with a Bathyscleave Maw projection.
+* Hovers above the player and shoots a stream of decelerating Hiemalgaze Mortars, all eventually coming to a stop mid-air. When Nihil flashes, all Mortars plummet simultaneously and explode after a short time. During the slow-down duration, the screen receives a visual freezing effect.
+* Charges up {{Item|coldblazeanchor|Coldblaze Anchors|nolink=yes}} and shoots {{Dv|normal=3|expert=4|revengeance=5|death=6}} of them, which anchor themselves to mid-air. Coldblaze Anchors suck players into them. After shooting a ring of {{Dv|normal=15|expert=20|revengeance=25|death=30}} Bathysmal Torrents, all Coldblaze Anchors explode, dealing AoE damage, before retracting and causing Nihil to leave in a giant Portal explosion. Nihil reappears elsewhere and becomes stunned for 4 seconds.
+
+=== Phase 4 Attack Cycle ===
+Phase 4 begins at {{Dv|death=10%}} health in Death mode. Nihil stops all attacks to do a 5 second unskippable dialogue sequence. Nihil flashes brightly and turns fully blue before starting phase 4.
+
+Nihil is '''invincible''' in phase 4 and can only be damaged by itself. It performs different attacks repeatedly until a certain health threshold is reached, until it is defeated.
+
+* 10% health: Swings a Coldblaze Anchor around itself whilst dashing towards the player. After 10 seconds, the Anchor hits Nihil and does 0.5% of its health in damage. Nihil roars and disappears through a portal, before reappearing near the player and dashing towards the player, swinging another Coldblaze Anchor towards the player. If this attack is dodged, the anchor hits Nihil and it is damaged for another 0.5% of its health. This cycle of 2 attacks is repeated until Nihil reaches 7% health.
+* 7% health: Nihil fades into the background and is unable to do Contact damage. Nihil begins a bullet hell where it launches Hiemalgaze Mortars whichs split into Hiemalgaze Fragments while Bathysmal Torrents come in from all directions. Occasionally, a Portal may spawn on the player's location and explode. Nihil's health drains steadily until it reaches 3% health after 30 seconds.
+* 3% health: Nihil emerges from a massive portal and uses the remaining 2.9% of its health to charge up a {{Item|frostarcturus|Frost Arcturus|nolink=yes}}. The Frost Arcturus moves slowly towards the player whilst shooting Annihilating Seekers which arc onto the player. Nihil emerges from a portal every 4 seconds to dash into the player. If Nihil hits the Frost Arcturus, the fight ends with a death animation, concluding in a massive purely visual explosion.
+
+=== In Revengeance Mode ===
+
+* Enrage from entering its third phase can stack with its enrage from player distancing, extending damage output to 3x and increasing aggressiveness and speed even more, with all projectile speed being raised by 206.25%.
+* Faster movespeed
+* Reduced interval between attacks
+
+=== In Death Mode ===
+
+* Fourth phase with faster attacks
+* Overall faster movespeed
+* 15% more projectile speed
+
+=== In Master Mode ===
+
+* Fourth phase starts at 15%, with the subphases lasting proportionally.
+* Nihil is 10% bigger.
+* Nihil becomes immune to [[Demonshade armor]]'s enrage mechanic.
+* All projectiles are 20% bigger.
+* Fathomless Beams are 50% thicker.
+
+=== On For the Worthy Seed ===
+
+* All projectiles are 15% bigger, extends Master Mode's modification.
+* Portal explosions are 50% bigger.
+* Nihil is 15% bigger, extends Master Mode's modification.
+* Nihil is twice as fast while charging.
+* All projectiles move 12% faster.
+
+== Aftermath ==
+
+* [[Boss Rush]] bosses gain 200% more health and 150% more damage, with For the Worthy modifications.
+* All enemies in the [[Sky Abyss]] gain 100% damage and 50% health.
+
+== Resistances ==
+
+* 60% damage from [[Scarlet Devil|Scarlet Devil’s]] stealth strike.
+* 50% damage from [[Lacelinous Nocturne]].
+* 85% damage from [[Vehemence]].
+
+== Notes ==
+
+* Nihil is invincible while vanished.
+* [[Heart|Hearts]] (such as from Heart Statues) hurt for its healing amount instead of heals, making it difficult to recover health, similar to [[Purgatory Arbiter, Umbrus]]'s fight.
+* Nihil ignores invincibility frames.
+
+== Trivia ==
+
+* The theme heard during the battle against Nihil is [https://www.youtube.com/watch?v=izGwDsrQ1eQ&pp=ygUQY2FyZWxlc3Mgd2hpc3Blcg%3D%3D '''Careless Whisper'''] by George Michael.
+* Nihil is considered a '''"Superboss"''' in this mod. In some RPG games, Superbosses are extremely powerful enemies that are very challenging even if the player has endgame equipment.
+**It shares this trait with the following bosses: [[Adult Eidolon Wyrm]], [[Vision of the Tyrant]], [[Purgatory Arbiter, Umbrus]], [[Disgusting Creature: Dron]], [[Esserwyrm]], [[Reactive Guardian, Sodis]] and [[Exodygen]].
+* Nihil doesn't own an air fryer.
+* Nihil's name means "nothing" in latin.
+
+== Quotes ==
+
+* "Hahaha...I am so evil. You have come to me. Know you the waters of oblivion? In search of sating your fury, you have found yourself shattered. Now, I am here to collect what is left of you." (When summoned)
+* "Come back here bruh" (When enraged)
+* "LETS GOOOO" (When entering second phase)
+* "You have cleansed this world of filth, but in doing so, you have become one of them." (When at 50% health)
+* "And now, we reveal the truth." (When entering third phase)
+* "It's Nihiling time" (When using Fathomless Beam attack)
+* "I'll piss your pants, motherfucker" (When swinging Coldblaze Anchor)
+* "I've heard about you from your wife" (When entering fourth phase)
+* "You...are but mere flesh...What makes you think you can destroy me too?" (10% health)
+* "I...am Infinite...everlasting!" (7% health)
+* "You truly are fascinating. This is where...I must exert myself." (Summoning Frost Arcturus)
+* "You...You...I cannot find my words. Such a tremendous force, yet so unfounded. What do you feel? What are you composed of? The answer...eludes me... SODAAAAAAAAAAA!!!!!! (Joseph Robinette Biden reference)" 
+* "I cannot find it in myself to play Terraria anymore. My gacha addiction is too strong. You have won this time."
+(Death animation)
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}
+[[Category:Boss NPCs]]

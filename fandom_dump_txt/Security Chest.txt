@@ -1,0 +1,148 @@
+{{item infobox
+| type = Furniture
+| type2 = Storage
+| rare = 0
+| color = #827773
+| auto = yes
+| placeable = Yes
+| width = 2
+| height = 2
+| stack = 9999
+| consumable = True
+| use = 14
+| sell = {{value|0|0|1}}
+}}
+
+'''Security Chests''' are [[chests]] found only in the [[Arsenal Lab]]s that contain rare and unique items. Each Security Chest will contain two or more unique items depending on the type of lab, along with other standard loot.
+
+== Loot ==
+
+=== Standard Laboratory Loot ===
+The following set of loot can be found in all Abandoned Workshops and Bio-center Labs. Primary items can only be found in one chest per Bio-center Lab, despite each labs containing two chests.
+
+If the [http://forums.terraria.org/index.php?threads/the-thorium-mod.40788/ Thorium Mod] is enabled, {{item|Marine Kelp Planter Box|es}} can also be found alongside other Planter Boxes.
+{|
+|- style="vertical-align: top"
+|
+{| class="terraria lined"
+|-
+! Primary Items !! Quantity !! Lab Type
+|-
+| {{item|Draedon's Logs|image=Draedon's Log - Space.png}}
+| 1
+| Any Bio-center Labs
+|-
+| {{item|Encrypted Schematic (Ice)}}
+| 1
+| Ice Bio-center Lab
+|-
+| {{item|Encrypted Schematic (Hell)}}
+| 1
+| Underworld Bio-center Lab
+|-
+| {{item|Encrypted Schematic (Jungle)}}
+| 1
+| Jungle Bio-center Lab
+|-
+| {{item|Encrypted Schematic (Planetoid)}}
+| 1
+| Space Bio-center Lab
+|-
+| {{item|Murasama}}
+| 1
+| Underworld Bio-center Lab
+|-
+| {{item|Herb Bag}}
+| 12-17
+| rowspan="7" style="border-bottom: 0;" | Space Bio-center Lab
+|-
+| {{item|Deathweed Planter Box}}
+| rowspan="6" style="border-bottom: 0;" | 5-9
+|-
+| {{item|Daybloom Planter Box}}
+|-
+| {{item|Fireblossom Planter Box}}
+|-
+| {{item|Moonglow Planter Box}}
+|-
+| {{item|Shiverthorn Planter Box}}
+|-
+| {{item|Waterleaf Planter Box}}
+|}
+|
+{| class="terraria lined"
+|-
+! Items !! Quantity
+|-
+| {{item|Dubious Plating}}
+| 8-14
+|-
+| {{item|Mysterious Circuitry}}
+| 7-12
+|-
+| {{item|Torch}}
+| 15-29
+|-
+| {{item|Gold Coin}}
+| 5-11
+|-
+| {{item|Healing Potion}}
+| 5-7
+|-
+| {{item|Bomb}}
+| 6-7
+|-
+| {{item|Endurance Potion}}
+|rowspan="4" style="border-bottom: 0;" | 3-5
+|-
+| {{item|Gravitation Potion}}
+|-
+| {{item|Heartreach Potion}}
+|-
+| {{item|Lifeforce Potion}}
+|}
+|}
+
+=== Abandoned Research Facility Loot ===
+The following set of loot can be found in all Abandoned Research Facilities.
+{| class="terraria lined"
+|-
+! Items !! Quantity
+|-
+| {{item|Dubious Plating}}
+| 10-17
+|-
+| {{item|Mysterious Circuitry}}
+| 10-15
+|-
+| {{item|Torch}}
+| 20-40
+|-
+| {{item|Gold Coin}}
+| 8-16
+|-
+| {{item|Healing Potion}}
+| 7-10
+|-
+| {{item|Dynamite}}
+| 4-6
+|-
+| {{item|Endurance Potion}}
+|rowspan="4" style="border-bottom: 0;"  | 4-7
+|-
+| {{item|Gravitation Potion}}
+|-
+| {{item|Heartreach Potion}}
+|-
+| {{item|Lifeforce Potion}}
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-furniture = yes
+}}

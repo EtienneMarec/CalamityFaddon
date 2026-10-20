@@ -1,0 +1,30 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| pickreq = 250
+| stack = 9999
+| auto = yes
+| rare = C1
+| color = #000022
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| use = 14
+| sell = No value
+}}
+
+'''Smooth Skylac Stone''' is a [[block]] that is either crafted or generated in the [[Sky Abyss]]. It requires at least a [[Blossom Pickaxe]] to mine. It cannot be destroyed with [[explosive]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+|show-main = yes
+|show-blocks = yes
+}}

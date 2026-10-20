@@ -1,0 +1,30 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| color = #302D2E
+| sell = No value
+| use = 14
+}}
+
+'''Laboratory Plate Beam''' is a background [[wall]] crafted with [[Laboratory Plating]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Despite being called a beam, it does not function like regular [[tgc:Beams|beams]], instead being a wall.
+
+{{Master Template Tiles
+| show-main = yes
+| show-walls = yes
+}}
+[[Category:Block items]]

@@ -1,0 +1,44 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 480
+| knockback = 12
+| use = 12
+| tooltip = The whip creates a core that shoots 4 lines in random direction
+| debuff = Evercold
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| debufftip = Your life is freezing
+| stack = 1
+| auto = yes
+| rare = C2
+| sell = {{value|0|75|0}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Cold
+| element2 = Water
+| element3 = Dark
+| proj = Jewel Core.png
+| projcaption = core
+}}
+{{item drops infobox
+| [[Esserwyrm]]|1|20%
+}}
+
+The '''Cored Line''' is a post-[[Purgatory Arbiter, Umbrus|umbrus]] [[whip]] that is either crafted or dropped from the [[Esserwyrm]]. The used whip creates a core on its end, the core shoots 4 damaging lines in random directions
+Its best modifier is '''Legendary'''.
+
+== Crafting == 
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}
+[[Category:Whips]]

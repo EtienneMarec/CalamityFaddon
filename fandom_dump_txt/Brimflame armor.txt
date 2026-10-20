@@ -1,0 +1,69 @@
+{{item infobox
+| type = Armor
+| defense = 41
+| rare = 7
+| sell = {{value|0|36}} (set)
+| setbonus = Grants an additional 15% increased damage and magic crit<br/>Press {{key|Armor Set Bonus}} to trigger a brimflame frenzy effect<br/>While under this effect, your damage is significantly boosted<br/>However, this comes at the cost of rapid life loss and no mana regeneration<br/>This can be toggled off, however, a brimstone frenzy has a 30 second cooldown
+| buff = Brimflame Frenzy
+| duration = 10 seconds (Upon activation) | bufflink = no
+| bufftip = Dark magic empowers your attacks at the cost of your life
+| debuff = Brimflame Frenzy Cooldown | debufflink = no
+| debuffchance = 100%
+| debuffduration = 30 seconds (After usage)
+| debufftip = Your use of brimstone magic has left you exhausted
+| hardmode = yes
+| boxwidth = 25em
+}}
+
+'''Brimflame armor''' is a [[Hardmode]] [[Covering]] set. It requires 17 [[Ashes of Calamity]], 9 [[Unholy Core]]s, and an [[Obsidian Rose]] to craft the entire set. The armor mainly grants bonuses to the mage class. If the full set is visible (whether equipped or in social slots), the player will have a tiny pulsating aura around them.
+
+It consists of a '''Brimflame Cowl''', '''Brimflame Robes''', and '''Brimflame Boots'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*41 defense
+*30% increased magic damage
+*25% increased magic critical strike chance
+*5% increased movement speed
+*+70 max mana
+*10% decreased mana usage
+*Grants the effect of the [[Obsidian Rose]]
+*Immunity to [[On Fire!]], [[Brimstone Flames]], and [[Frostburn]]
+*Pressing {{key|Armor Set Bonus}} will activate '''Brimflame Frenzy''' for 10 seconds, temporarily multiplying the player's magic projectile damage by 1.3x. However, the player’s life regen is reduced by 42 (causing heavy damage over time) and mana regeneration is disabled for the duration. Brimflame Frenzy has a 30 second cooldown after its usage.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Brimflame Cowl
+| type = Armor
+| defense = 11
+| body slot = Helmet
+| tooltip = 5% increased magic damage and critical strike chance<br/>Increases maximum mana by 70 and reduces mana usage by 10%<br/>Immunity to On Fire!, Brimstone Flames, and Frostburn
+| sell = {{value|0|12}}
+}}
+|{{item infobox
+| name = Brimflame Robes
+| type = Armor
+| defense = 15
+| body slot = Shirt
+| tooltip = 5% increased magic damage and critical strike chance<br/>Grants obsidian rose effects
+| sell = {{value|0|12}}
+}}
+|{{item infobox
+| name = Brimflame Boots
+| type = Armor
+| defense = 15
+| body slot = Pants
+| tooltip = 5% increased magic damage<br/>5% increased movement speed
+| sell = {{value|0|12}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Brimflame%|resultnot=Brimflame Dye}}
+
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

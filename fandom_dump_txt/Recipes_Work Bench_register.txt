@@ -1,0 +1,662 @@
+{{recipes/register/note}}<!--
+
+ ============ Work Bench ============
+
+-->{{recipes/register
+| station = Work Bench
+| result = Floral Wall | amount = 4
+| Perennial Brick | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Perennial Brick | amount = 1
+| Floral Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Abyss Gravel | amount = 1
+| Abyss Gravel Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Abyss Gravel Wall | amount = 4
+| Abyss Gravel | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Acidwood Candelabra | amount = 1
+| Acidwood | 5
+| Torch | 3
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Acidwood Candle | amount = 1
+| Acidwood | 4
+| Torch | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Acidwood Chair | amount = 1
+| Acidwood | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Acidwood Chest | amount = 1
+| Acidwood | 8
+| Any Iron Bar | 2
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Acidwood Door | amount = 1
+| Acidwood | 6
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Acidwood Lamp | amount = 1
+| Acidwood | 3
+| Torch | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Acidwood Lantern | amount = 1
+| Acidwood | 6
+| Torch | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Acidwood Sink | amount = 1
+| Acidwood | 6
+| Water Bucket | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Acidwood Table | amount = 1
+| Acidwood | 8
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Aerialite Brick | amount = 1
+| Aerialite Brick Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Aerialite Brick Wall | amount = 4
+| Aerialite Brick | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Ashen Slab | amount = 1
+| Ashen Slab Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Ashen Slab Wall | amount = 4
+| Ashen Slab | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Astral Brick | amount = 1
+| Astral Brick Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Astral Brick Wall | amount = 4
+| Astral Brick | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Astral Dirt | amount = 1
+| Astral Dirt Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Astral Dirt Wall | amount = 4
+| Astral Dirt | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Astral Ice | amount = 1
+| Astral Ice Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Astral Ice Wall | amount = 4
+| Astral Ice | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Astral Monolith | amount = 1
+| Astral Monolith Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Astral Monolith Wall | amount = 4
+| Astral Monolith | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Astral Sandstone | amount = 1
+| Astral Sandstone Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Astral Sandstone Wall | amount = 4
+| Astral Sandstone | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Astral Snow | amount = 1
+| Astral Snow Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Astral Snow Wall | amount = 4
+| Astral Snow | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Astral Stone | amount = 1
+| Astral Stone Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Astral Stone Wall | amount = 4
+| Astral Stone | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Bouncy Spiky Ball | amount = 20
+| Spiky Ball | 20
+| Pink Gel | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Brimstone Slag | amount = 1
+| Brimstone Slag Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Brimstone Slag Wall | amount = 4
+| Brimstone Slag | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Celestial Remains | amount = 1
+| Celestial Remains Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Celestial Remains Wall | amount = 4
+| Celestial Remains | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Chaotic Brick | amount = 1
+| Chaotic Brick Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Chaotic Brick Wall | amount = 4
+| Chaotic Brick | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Chaos Candle | amount = 1
+| Water Candle | 5
+| Living Fire Block | 1
+| Lava Bucket | 2
+| Celestial Onion | 144
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Chaosplate | amount = 1
+| Chaosplate Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Chaosplate Wall | amount = 4
+| Chaosplate | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Cinderplate | amount = 1
+| Cinderplate Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Cinderplate Wall | amount = 4
+| Cinderplate | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Cryonic Brick | amount = 1
+| Cryonic Brick Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Cryonic Brick Wall | amount = 4
+| Cryonic Brick | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Cosmilite Brick | amount = 1
+| Cosmilite Brick Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Cosmilite Brick Wall | amount = 4
+| Cosmilite Brick | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Elumplate | amount = 1
+| Elumplate Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Elumplate Wall | amount = 4
+| Elumplate | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Eutrophic Sand | amount = 1
+| Eutrophic Sand Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Eutrophic Sand | amount = 1
+| Unsafe Eutrophic Sand Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Eutrophic Sand Wall | amount = 4
+| Eutrophic Sand | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Eutrophic Shelf | amount = 1
+| Navystone | 10
+| Sea Prism | 5
+| Prism Shard | 5
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Exo Plating | amount = 1
+| Exo Plating Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Exo Plating Wall | amount = 4
+| Exo Plating | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Exo Prism Panel | amount = 1
+| Exo Prism Panel Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Exo Prism Panel Wall | amount = 4
+| Exo Prism Panel | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Hardened Astral Sand | amount = 1
+| Hardened Astral Sand Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Hardened Astral Sand Wall | amount = 4
+| Hardened Astral Sand | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Hardened Sulphurous Sandstone | amount = 1
+| Hardened Sulphurous Sandstone Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Hardened Sulphurous Sandstone Wall | amount = 4
+| Hardened Sulphurous Sandstone | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Hazard Chevron Panels | amount = 10
+| Laboratory Panels | 10
+| Yellow Paint | 1
+| Black Paint | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Hazard Chevron Panels | amount = 1
+| Hazard Chevron Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Hazard Chevron Wall | amount = 4
+| Hazard Chevron Panels | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Laboratory Panels | amount = 1
+| Laboratory Panel Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Laboratory Panel Wall | amount = 4
+| Laboratory Panels | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Laboratory Plate Beam | amount = 4
+| Laboratory Plating | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Laboratory Plate Pillar | amount = 4
+| Laboratory Plating | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Laboratory Plating | amount = 1
+| Laboratory Plate Beam | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Laboratory Plating | amount = 1
+| Laboratory Plate Pillar | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Laboratory Plating | amount = 1
+| Laboratory Plating Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Laboratory Plating Wall | amount = 4
+| Laboratory Plating | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Leather | amount = 1
+| Celestial Onion | 5
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Monolith Amalgam | amount = 1
+| Astral Monolith | 20
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Nasty Cholla | amount = 15
+| Acorn | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Navyplate | amount = 1
+| Navyplate Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Navyplate Wall | amount = 4
+| Navyplate | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Navystone | amount = 1
+| Navystone Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Navystone | amount = 1
+| Unsafe Navystone Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Navystone Wall | amount = 4
+| Navystone | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Otherworldly Stone | amount = 1
+| Otherworldly Stone Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Otherworldly Stone Wall | amount = 4
+| Otherworldly Stone | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Perennial Brick | amount = 1
+| Perennial Brick Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Perennial Brick Wall | amount = 4
+| Perennial Brick | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Plagueplate | amount = 1
+| Plagueplate Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Plagueplate Wall | amount = 4
+| Plagueplate | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Profaned Crystal | amount = 1
+| Profaned Crystal Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Profaned Crystal Wall | amount = 4
+| Profaned Crystal | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Profaned Rock | amount = 1
+| Profaned Rock Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Profaned Rock Wall | amount = 4
+| Profaned Rock | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Profaned Slab | amount = 1
+| Profaned Slab Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Profaned Slab Wall | amount = 4
+| Profaned Slab | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Runic Profaned Brick | amount = 1
+| Runic Profaned Brick Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Runic Profaned Brick Wall | amount = 4
+| Runic Profaned Brick | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Rusted Plate Beam | amount = 4
+| Rusted Plating | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Rusted Plate Pillar | amount = 4
+| Rusted Plating | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Rusted Plating | amount = 1
+| Rusted Plate Beam | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Rusted Plating | amount = 1
+| Rusted Plate Pillar | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Rusted Plating | amount = 1
+| Rusted Plating Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Rusted Plating Wall | amount = 4
+| Rusted Plating | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Shock Grenade | amount = 100
+| Grenade | 2
+| Bomb | 1
+| Stratus Brick | 5
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Smooth Abyss Gravel | amount = 1
+| Abyss Gravel | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Smooth Brimstone Slag | amount = 1
+| Brimstone Slag | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Smooth Brimstone Slag | amount = 1
+| Smooth Brimstone Slag Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Smooth Brimstone Slag Wall | amount = 4
+| Smooth Brimstone Slag | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Smooth Navystone | amount = 1
+| Navystone | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Smooth Navystone | amount = 1
+| Smooth Navystone Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Smooth Navystone Wall | amount = 4
+| Smooth Navystone | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Smooth Voidstone | amount = 1
+| Voidstone | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Squirrel Squire Staff | amount = 1
+| Dirt | 10
+| Squirrel | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Sticky Spiky Ball | amount = 20
+| Celestial Onion | 20
+| Gel | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Stratus Brick | amount = 1
+| Stratus Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Stratus Wall | amount = 4
+| Stratus Brick | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Sulphurous Sand | amount = 1
+| Sulphurous Sand Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Sulphurous Sand Wall | amount = 4
+| Sulphurous Sand | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Sulphurous Sandstone | amount = 1
+| Sulphurous Sandstone Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Sulphurous Sandstone Wall | amount = 4
+| Sulphurous Sandstone | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Tranquility Candle | amount = 1
+| Torch | 3
+| Living Fire Block | 3
+| Copper Coin | 2
+| Water Candle | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Unsafe Eutrophic Sand Wall | amount = 4
+| Eutrophic Sand | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Unsafe Navystone Wall | amount = 4
+| Navystone | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Voidstone | amount = 1
+| Voidstone Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Voidstone Wall | amount = 4
+| Voidstone | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Martian Conduit Plating | amount = 100
+| Mars Bars | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Worm Meal | amount = 1
+| Gullet Worm | 1
+| Stinkfish | 3
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Aeroplate Wall | amount = 4
+| Aeroplate | 1
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Aeroplate | amount = 1
+| Aeroplate Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Work Bench
+| result = Golden Eagle | amount = 2
+|Golden Eagle| 1}}<!--
+
+}}-->

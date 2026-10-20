@@ -1,0 +1,32 @@
+{{buff infobox
+| type = Debuff
+| effects = Target cannot move
+| tooltip = Cannot move
+}}
+
+'''Exo Freeze''' is a [[debuff]] that makes the target completely unable to move for its duration. Almost all [[enemies]] are susceptible to this debuff, as well as some [[bosses]]. It is inflicted by several [[Miracle Matter|Exo weapons]] along with [[Apotheosis]], [[Drataliornus]], [[Endogenesis]], [[Ice Barrage]], and the [[Elemental Excalibur]].
+
+Exo Freeze does nothing while the [[Boss Rush]] is active.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

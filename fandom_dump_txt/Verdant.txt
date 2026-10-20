@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 86
+| reach = 35
+| knockback = 6
+| rare = 12
+| use = 22
+| sell = {{value|0|24}}
+| stack = 1
+| attduration = {{infinity}}
+| auto = yes
+| tooltip = Fires crystal leaves when enemies are near<br/>A very agile yoyo
+| hardmode = yes
+| postml = yes
+| proj = Verdant Yoyo.png
+| projcaption = Verdant
+| proj2 = Crystal Leaf (projectile).png
+| proj2caption = Crystal Leaf Shot
+| element1 = poison
+|}}
+
+The '''Verdant''' is a Godseeker Mode [[yoyo]] crafted from [[Uelibloom Bar]]s. If enemies are nearby, the Verdant will randomly fire leaf crystals at them, which deal 80% of the yoyo's damage. The leaves can pass through tiles but cannot pierce enemies.
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Uelibloom}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]

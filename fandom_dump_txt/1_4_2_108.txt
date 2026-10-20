@@ -1,0 +1,181 @@
+{{Patch infobox
+| image = Auric Bar.gif
+| patchname = Fishing Update Bonus
+| release = 11/24/2019
+| pair = 1.4.2.105 (music)
+| prev = [[1.4.2.107]]
+}}
+
+The '''1.4.2.108''' update expanded upon [[Fishing]] by adding in several new items that the player can hook as well as continued to lay down the groundwork for the Spy expansion update.
+
+== Additions ==
+*Added [[Baby Ghost Bell]] and [[Radiator]].
+*Added [[Bloodstained Glove]], [[Electrician's Glove]], [[Fantasy Talisman]], [[Filthy Glove]], and [[Vampiric Talisman]].
+*Added [[Dragoon Drizzlefish]], [[Sea's Searing]], [[Spadefish]], and [[Sparkling Empress]].
+*Added [[Aldebaran Alewife]], [[Auric Tesla Bar]], [[Bloodfin]], [[Brimlish]], [[Brimstone Crate]], [[Brimstone Fish]], [[Chaotic Fish]], [[Coastal Demonfish]], [[Coralskin Foolfish]], [[Crag Bullhead]], [[Glimmering Gemfish]], [[Greenwave Loach]], [[Prismatic Guppy]], [[Scarred Angelfish]], [[Shadowfish]], [[Slurpfish]], [[Solar Veil]], [[Stat Meter]], [[Stuffed Fish]], [[Sunken Crate]], and [[Sunken Sailfish]].
+*Added [[Abyssal Madness]], [[Abyssal Madness Cooldown]], [[Blood Frenzy]], [[Blood Frenzy Cooldown]], [[Bloodflare Soul Cooldown]], [[Elysian Guard]], [[Tarragon Cloak]], [[Tarragon Cloak Cooldown]], [[Tarragon Immunity]], and [[Tarragon Immunity Cooldown]].
+*Added [[Serpent's Bite]].
+*Added [[Radiating Crystal]] and [[Rusted Jingle Bell]].
+*Added [[Astral Clay]], [[Astral Snow]], [[Celestial Remains]], and [[Novae Slag]].
+*Added a Snow variant for the [[Astral Monolith]] tree.
+*Added three new quests to the [[Angler]] [[Town NPC]].
+*[[Bouncing Betty]] and [[Hell's Sun]] are now obtainable.
+*Added [[Gael's Greatsword]], [[Insidious Impaler]], [[Septic Skewer]], and [[Totality Breakers]] as unobtainable items.
+*Added [[Umbraphile armor]] as an unobtainable armor set.
+
+== Changes ==
+=== Balance and Reworks===
+*Reworked [[Astreal Defeat]], no longer fires arrows that move in a rectangular grid pattern. It now fires a stream of arrows that move erratically in an arc.
+*Buffed [[Blizzard Staff]], it now inflicts the [[Frostburn]] debuff for 4 seconds on hit.
+*The following weapons are no longer boosted by [[Cinnamon Roll]] and [[Fireball]]:
+**[[Brand of the Inferno]], [[The Empyrean]], [[Flarefrost Blade]], [[Frigidflash Bolt]], [[Photoviscerator]], [[Sky Dragon's Fury]], [[Sleepy Octopod]], and [[Tears of Heaven]].
+*Buffed [[Deep Sea Dumbbell]], flexing now powers up the Spy weapon's stealth strikes dramatically.
+*The following items are now boosted by [[Evergreen Gin]]:
+**[[Clam Crusher]], [[Clamor Rifle]], [[Coral Cannon]], [[Gacruxian Mollusk]], [[Lionfish]], [[Magical Conch]], [[Polaris Parrotfish]], [[Sand Dollar]], [[Serpentine]], [[Shellfish Staff]], [[Shellshooter]], [[Snap Clam]], [[Urchin Flail]], and [[Yateveo Bloom]].
+*Buffed [[Frost Daggerfish]], it now inflicts the Frostburn debuff for 3 seconds on hit.
+*Buffed [[Frostbrand]], it now inflicts the Frostburn debuff for 10 seconds on true melee hits and 8 seconds with its projectile.
+*Buffed [[Frost Staff]], it now inflicts the Frostburn debuff for 8 seconds on hit.
+*[[Heartreach]] now increases the grab range of all healing projectiles by 50%.
+*Nerfed [[Heavenly Gale]], teal exo arrows now deal 16% of the weapon's damage and green exo arrows now deal 77% of the weapon's damage.
+*Nerfed [[Kelvin Catalyst]]'s damage from 100 to 70.
+*Buffed [[Ice Blade]], it now inflicts the Frostburn debuff for 10 seconds on true melee hits and 4 seconds with its projectile.
+*Buffed [[Ice Boomerang]], it now inflicts the Frostburn debuff for 4 seconds on hit.
+*Buffed [[Ice Bow]]'s damage from 46 to 61, and it now inflicts the Frostburn debuff for 8 seconds on hit.
+*Buffed [[Ice Sickle]], it now inflicts the Frostburn debuff for 10 seconds on true melee hits and 8 seconds with its projectile.
+*Buffed [[Marrow]]'s damage from 40 to 53, and it now inflicts the [[Armor Crunch]] debuff for 5 seconds on hit.
+*[[Molten armor]]'s set bonus now grants the effects of the [[Lava Charm]] and [[Obsidian Skull]].
+*Buffed [[North Pole]], it now inflicts the Frostburn debuff for 10 seconds on true melee hits, 8 seconds with its clone projectile, and 4 seconds with its snowflake projectiles.
+*[[Profaned Soul Artifact]] now always gives +1 max minions even while the player is [[Burnt Out]].
+*Buffed [[Snowball]], it now inflicts the Frostburn debuff for 2 seconds on hit.
+*[[Statis' Belt of Curses]] and [[Statis' Ninja Belt]] can now have their dashes toggled using visibility.
+*Nerfed [[Throwing Brick]]'s damage from 20 to 14.
+
+=== NPCs ===
+*An audio cue is now played when an [[adult Eidolon Wyrm]] targets and attacks a player.
+*[[Astrum Aureus]], [[Brimling]]s, [[Brimstone Elemental]], [[Calamitas]], [[Cataclysm]], [[Catastrophe]], [[Great Sand Shark]], [[Melter]]s, [[Pestilent Slime]]s, [[Plague Charger]]s, [[Plaguebringer]]s, [[The Plaguebringer Goliath]], [[Plagueshell]]s, [[Ravager]], [[Siren and Leviathan]], and [[Viruling]]s are no longer immune to [[Frostburn]].
+*[[Ceaseless Void]] now has a unique hit sound.
+*[[The Devourer of Gods]] now has unique Cosmic Worm summoning and hit sound effects.
+*[[Eidolist]]s now have a unique death sound and no longer automatically aggro a player while a boss is alive.
+*[[Irradiated Slime]]s are now immune to all debuffs.
+*[[Jungle Dragon, Yharon]] no longer becomes fully invisible when teleporting, and swapped the two music tracks that play during the first and second phase of the fight. <!---This is NOT a music mod change, this is a Main mod source code edit. Merkalto -->
+*[[King Slime]] in Revengeance Mode can now only spawn [[Rainbow Slime]]s during [[Hardmode]].
+*All enemies that spawn during the [[Old One's Army]] event except [[Etherian Wyvern]]s and [[Kobold Glider]]s are now immune to [[Slow]] and [[Webbed]].
+*[[Overloaded Soldier]]s and [[Phantom Debris]] now have mirrored AI.
+*[[Providence, the Profaned Goddess]] now has unique spawn, hit, laser, and death sound effects.
+*All [[Sand Shark]] variants can now tunnel through Astral Sand and Astral Sandstone blocks.
+*[[Scorn Eater]]s now have unique hit, death, and jumping sounds, and can now pass through tiles while super jumping.
+*All Solar Eclipse enemies now have a {{dv|4%|6%}} chance to drop 1 [[Darksun Fragment]] after a buffed Mothron has been defeated.
+*[[Supreme Calamitas]]' Brimstone Monster projectiles now emit a droning sound effect when near the player.
+*Voodoo Demon's drop rates are now affected by the [[Defiled Rune]].
+
+=== Recipes ===
+*All instances of [[Auric Ore]] in recipes have been replaced with Auric Tesla Bars with a 20:1 ratio.
+*[[Asgard's Valor]] recipe now requires 1 [[Core of Calamity]] instead of 3 Cores of Chaos, Eleum, and Sunlight to be crafted.
+*[[Astral Breastplate]] recipe now also requires 6 [[Meteorite Bar]]s to be crafted.
+*[[Astral Helm]] recipe now also requires 9 Meteorite Bars to be crafted.
+*[[Astral Leggings]] recipe now also requires 8 Meteorite Bars to be crafted.
+*[[Ataxia Armor]] recipe now also requires 3 [[Core of Chaos|Cores of Chaos]] and 8 [[Hellstone Bar]]s to be crafted.
+*[[Ataxia Headgear]], [[Ataxia Helm]], [[Ataxia Helmet]], [[Ataxia Hood]], and [[Ataxia Mask]] recipes all now also require 1 Core of Chaos and 4 Hellstone Bars to be crafted.
+*[[Ataxia Subligar]] recipe now also require 2 Cores of Chaos and 5 Hellstone Bars to be crafted.
+*[[Daedalus Breastplate]] recipe now also requires 3 [[Essence of Eleum|Essences of Eleum]] to be crafted.
+*[[Daedalus Facemask]], [[Daedalus Headgear]], [[Daedalus Helm]], [[Daedalus Hood]], and [[Daedalus Mask]] recipes all now also require 1 Essence of Eleum to be crafted.
+*[[Daedalus Leggings]] recipe now also require 2 Essences of Eleum to be crafted.
+*[[Elemental Excalibur]] recipe now requires 10 Shadowspec Bars instead of 10 Nightmare Fuel, Endothermic Energy, Calamitous Essences, Darksun Fragments, and Yharon Soul Fragments.
+*[[Gravity Normalizer Potion]] recipe now requires an Aldebaran Alewife to be crafted.
+*[[Hadal Stew]] recipe now requires 1 Coastal Demonfish to be crafted.
+*[[Hermes Boots]] recipe now also requires 4 [[Swiftness Potion]]s to be crafted.
+*[[Magic Quiver]] recipe can now be crafted with an [[Endless Quiver]], 5 [[Blighted Lens]]es, 10 [[Pixie Dust]], and 8 [[Soul of Light|Souls of Light]] at a [[Crystal Ball]].
+*[[Reaver Cuisses]] recipe now also require 2 [[Essence of Sunlight|Essences of Sunlight]] and 8 [[Jungle Spores]] to be crafted.
+*[[Reaver Headgear]], [[Reaver Helm]], [[Reaver Helmet]], [[Reaver Mask]], and [[Reaver Visage]] recipes all now also require 1 Essence of Sunlight and 6 Jungle Spores to be crafted.
+*[[Reaver Scale Mail]] recipe now also requires 3 Essences of Sunlight and 12 Jungle Spores to be crafted.
+*[[Revivify Potion]] recipe now requires a Scarred Angelfish to be crafted.
+*[[Shadowspec Bar]] recipe now requires 1 Auric Tesla Bar and 1 Calamitous Essence to be crafted.
+*[[Soaring Potion]] recipe now requires a Sunken Sailfish to be crafted.
+*[[Titan Scale Potion]] recipe now requires a Coralskin Foolfish to be crafted.
+*[[Dragon Pow]] recipe now requires 4 Yharon Soul Fragments instead of 5 Cosmilite Bars.
+
+== Additional Changes ==
+*Abaddon and Abyssal Diving Gear now work when equipped as either a helmet or an covering.
+*[[Acceleration Round]]s, [[Acid Round]]s, Astral Round projectile, [[Enhanced Nano Round]]s, [[Flash Round]]s, [[Frostspark Bullet]]s, [[Holy Fire Bullet]]s, [[Hyperius Bullet]]s, [[Superball Bullet]]s, and [[Verium Bullet]]s now have more afterimages.
+*Added a glowmask to [[Ectoheart]].
+*Added a mod compatibility call to turn Calamity's various difficulty modes on or off. Unlike when using the item, this will not kill anyone, and does work while bosses are alive.
+*Added a tooltip to Dragon Pow.
+*Added an internal listing of ice-themed weaponry.
+*Added new progress messages to Calamity's improved Lihzahrd Temple generation to make it obvious that it has been modified.
+*Added numerous recipe groups to Calamity's recipe code. This has no visible effect in-game.
+*Added several items to the drop pools of vanilla fishing crates:
+**[[Wooden Crate]]s now have a 25% chance to yield 3-5 Wulfrum Shards.
+**[[Iron Crate]]s now have a 25% chance to yield 5-8 Wulfrum Shards, and a 25% chance to yield 5-8 Ancient Bone Dust.
+**[[Corrupt Crate]]s now have a 25% chance to yield 5-8 Fetid Essences.
+**[[Crimson Crate]]s now have a 25% chance to yield 5-8 Bloodletting Essences.
+**Corrupt and Crimson Crates now have a 25% chance to yield 5-8 Blighted Gel, and a 25% chance to yield 1-3 Murky Sludge.
+**[[Jungle Crate]]s now have a 20% chance to yield 1-3 Murky Paste, a 20% chance to yield 1-3 Maneater Bulbs, a 20% chance to yield 1-3 Trapper Bulbs in Hardmode, a 25% chance to yield 5-10 Perennial Bars post-Plantera, a 20% chance to yield 3-6 Plague Cell Canisters post-Golem, and a 25% chance to yield 5-10 Uelibloom Bars post-Providence.
+**[[Sky Crate]]s now have a 25% chance to yield 5-10 Aerialite Bars post-Hive Mind/Perforators, a 20% chance to yield 5-15 Essences of Sunlight in Hardmode, and a 10% chance to yield 1-3 Galactica Singularities post-Moon Lord.
+**[[Dungeon Crate]]s now have a 30% chance to yield 5-10 Ectoplasm post-Plantera, and a 20% chance to yield 5-10 Phantoplasm post-Polterghast.
+**[[Hallowed Crate]]s now have a 20% chance to yield 5-10 Unholy Essences post-Providence.
+*All Spy armor sets now explain how to use Stealth Strikes in their set bonus tooltip.
+*All grappling hooks now show their stats in their tooltips.
+*Astral Crates now have a 25% chance to drop 5-10 Meld Blobs post-[[Astrum Deus]].
+*Astral Sand is no longer valid ammunition for the Sandgun.
+*Caribbean Rum and Warped's vertical velocity effects no longer work while mounted.
+*[[Code 1]] no longer counts as true melee.
+*[[Flamebeak Hampick]] can now be used as a hammer as its alternative fire.
+*Heavenly Gale's Exo Tornadoes are now more transparent.
+*Increased the item stack limit of Cinnamon Roll and Evergreen Gin from 1 to 30.
+*Increased the lifesteal cap from {{dv|60|50|40|20}} to {{dv|80|70|60|50}}.
+*Iron Franciscas and Lead Tomahawks are now only recovered 25% of the time instead of 50% of the time.
+*Nanotech and Raider's Talisman's tooltips will now list the player's current stacked crit boost.
+*Reduced the catch chance of Fish of Light and Fish of Night from 3% to 2%.
+*Removed unnecessary light produced by Silva healing orbs.
+*Removed unnecessary sounds from the Biome Blade projectiles.
+*Increased Shadowspec Bar sell price from {{value|0|27|50}} to {{gc|70}}.
+*Significantly reduced the number of Souls granted by opening Soul Fish.
+*The Steampunker now sells Astral Solution outside of the Astral Infection.
+*The Sulphurous Sea has a new map background.
+*Reduced the amount of dust produced by main Terra Bullets by 33%, and split Terra Bullets by 50%.
+*The [[Blast Barrel]], [[Consecrated Water]], [[Epidemic Shredder]], [[Luminous Striker]], [[Slick Cane]], [[The Syringe]], and [[Utensil Poker]] now have flavor tooltips.
+*Using any non-weapon item will no longer consume Spy stealth.
+
+=== Resprites ===
+*Resprited [[Aerial Hamaxe]], [[Air Spinner]], [[Anarchy Blade]], [[Dragoon Drizzlefish]], [[Feather Knife]], [[Forsaken Saber]], [[Galeforce]], [[Goldplume Spear]], [[Skyfringe Pickaxe]], [[Spear of Paleolith]], [[Tradewinds]], [[Waraxe]], and [[Wind Blade]].
+*Resprited [[Aerialite Bar]], [[Aerialite Ore]], [[Harpy Ring]], [[Skyline Wings]], [[Spirit Glyph]], and [[Uelibloom Ore]].
+*Resprited [[Aerospec Breastplate]], [[Aerospec Hat]], [[Aerospec Headgear]], [[Aerospec Helm]], Aerospec Helmet]], [[Aerospec Hood]], and [[Aerospec Leggings]].
+*Resprited [[Aerialite Brick]], [[Aerialite Brick Wall]], [[Astral Dirt]], [[Astral Ice]], [[Astral Sand]], [[Astral Sandstone]], [[Astral Stone]], [[Hardened Astral Sand]], [[Overloaded Soldier Banner]], [[Phantom Debris Banner]],
+*Resprited Aquatic Dissolution projectile, The Ballista shard and arrow projectiles, Biome Blade projectile, Brimlash projectiles, Forsaken Saber projectile, Greatsword of Blah light projectile, Greentide projectile, Holiday Halberd projectiles, Sky Glaze feather projectile, Stream Gouge projectiles, and Tradewinds feather projectile.
+*Resprited [[Spirit Defense]], [[Spirit Power]], [[Spirit Regen]], and [[Valkyrie (buff)]].
+*Resprited [[Aero Slime]], [[Overloaded Soldier]], and [[Phantom Debris]].
+*Resprited the Valkyrie from Aerospec Helmet's set bonus.
+
+== Fixes ==
+*Fixed a bug where Celestial Reaper could damage Town NPCs or the Eternia Crystal.
+*Fixed a bug where Golem was dropping Essences of Sunlight directly in Expert Mode.
+*Fixed a bug where Lunar Kunai hitboxes were much larger than intended.
+*Fixed a bug where Skeletron's magic attacks were dealing way too much damage post-Moon Lord.
+*Fixed a bug where Yharon was permanently enraged in multiplayer.
+*Fixed a bug where defeating Astrum Aureus would crash the game in multiplayer.
+*Fixed a bug where most Calamity mod compatibility calls didn't work.
+*Fixed a bug where the Bandit sold Bear's Eye randomly instead of when her name was Laura.
+*Fixed a bug where the Traveling Merchant would literally say "[Name of Merchant]".
+*Fixed a bug where you could continue to accrue negative lifesteal points (blocking lifesteal for extended periods of time) by attacking enemies, even those immune to lifesteal.
+*Fixed a bug with Calamity's biome syncing code.
+*Fixed a bug with Calamity's improved Lihzahrd Temple generation which caused other mod worldgen to break.
+*Fixed a bug with Ethereal Subjugator where it couldn't summon its last minion (e.g. only 3 ghosts instead of 4 if you have 2 minion slots).
+*Fixed a despawning problem with enraged Plaguebringer Goliath.
+*Fixed an issue that prevented Amidias' party hat from being properly placed.
+*Fixed an issue where Aquatic Scourge wouldn't drop its weapons outside of Hardmode on Normal difficulty.
+*Fixed an issue where Galeforce's arrows didn't go the right way.
+*Fixed an issue with the immunity frames of Heavenly Gale's green Exo Arrows (and the Exo Tornadoes they spawned).
+*Fixed miscellaneous harmless tile framing errors.
+*Fixed the held positions of many Calamity wands and staves.
+*Fixed the tooltip of Alluring Bait listing its fishing power in percents.
+*Forced Terraria's netcode into providing more sync packets for Rev+ Eye of Cthulhu, Queen Bee and Spazmatism. This should help ease desync issues with these bosses.
+*Hopefully fixed a bug with the adult Eidolon Wyrm's multiplayer targeting.
+*Improved the visuals of The Syringe and fixed minor hitbox errors.
+*[[Moon Lord]] will no longer unintentionally drop its loot during Boss Rush.
+*Eidolists, Providence, the Profaned Goddess, and Scorn Eaters are all now forcibly classified as organic for the purposes of finite use weaponry.
+*Fixed Radiant Star and Quasar's falling stars not dealing Spy damage.
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

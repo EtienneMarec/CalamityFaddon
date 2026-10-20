@@ -1,0 +1,533 @@
+/* this CSS governs the responsive 2 column main page layout */
+
+.fpcontent {
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.fpmaybecols {
+    overflow: hidden;
+    margin: -5px 0 -5px 0;
+}
+
+.fpmaybecols + .fpmaybecols {
+    margin: 0 0 -5px 0;
+}
+
+.fpbox {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 2px solid #505050;
+    box-shadow: 0 0 0 2px #505050 inset;
+    color: #e0e0e0; /* change for hydra (light) wikis */
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+.fpplainbox {
+    padding: 5px 8px 10px 8px;
+    margin: 0 5px 10px 5px;
+    vertical-align: top;
+}
+
+.fpbox .welcome {
+    border-bottom: 1px solid #505050;
+    color: #e0e0e0; /* change for hydra (light) wikis */
+    font-size: 150%;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.fpbox .heading {
+    border-bottom: 1px solid #505050;
+    color: #e0e0e0; /* change for hydra (light) wikis */
+    font-size: 132%;
+    font-variant: small-caps;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+}
+
+.fpbox .heading .smalllink {
+    color: #e0e0e0; /* change for hydra (light) wikis */
+    font-size: 75%;
+    font-weight: bold;
+}
+
+.fpbox hr {
+    border: none;
+    border-bottom: 2px solid #505050;
+}
+
+.fplinks {
+    margin: -5px;
+}
+
+.fplinks .linkslabel {
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid #505050;
+    margin: 15px 5px 5px 5px;
+    padding: 0 0 5px 0;
+}
+
+.fplink {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Yeah, using display: table makes for a lot of extra markup, but it makes proportionate sizing and vertical centering a lot easier, so going with it */
+.fplink .box {
+    border-collapse: separate;
+    border-spacing: 5px;
+    display: table;
+    width: 100%;
+}
+
+.fplink .box .row {
+    display: table-row;
+}
+
+.fplink .box .row .cell {
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #505050;
+    border-radius: 2px;
+    box-shadow: 0 0 0 2px #505050 inset;
+    color: #e0e0e0; /* change for hydra (light) wikis */
+    display: table-cell;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.fplink.wide .box .row .cell {
+    padding: 0 5px;
+}
+
+#fptopsection .fplink.image,
+#fpflexsection .fplink.image,
+#fpbottomsection .fplink.image 
+    height: 114px;{
+    width: 114px;
+}
+
+.fplink.image .box .row .cell {
+    height: 100px;
+    width: 100px;
+    vertical-align: bottom;
+}
+
+.fplink.image .box .row .cell .image img {
+    height: 100px;
+    width: 100px;
+}
+
+@media (min-width: 470px) {
+  .fplink {
+    width: 50%;
+  }
+
+  .fplink.wide {
+    width: 100%;
+  }
+}
+
+@media (min-width: 580px) {
+  .fplink {
+    width: 33.333%;
+  }
+
+  .fplink.wide {
+    width: 66.666%;
+  }
+}
+
+@media (min-width: 690px) {
+  .fplink {
+    width: 25%;
+  }
+
+  .fplink.wide {
+    width: 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  .fplink {
+    width: 20%;
+  }
+
+  .fplink.wide {
+    width: 40%;
+  }
+}
+
+@media (min-width: 910px) {
+  .fplink {
+    width: 16.666%;
+  }
+
+  .fplink.wide {
+    width: 33.333%;
+  }
+}
+
+@media (min-width: 990px) {
+  .fpcontent { 
+    padding-right: 520px; 
+    width: auto; 
+  }
+
+  #fptopsection { 
+    float: left; 
+    width: 100%; 
+  }
+
+  #fpflexsection { 
+    float: right;
+    width: 520px;
+    margin-right: -520px 
+  }
+
+  #fpbottomsection { 
+    float: left; 
+    width: 100%; 
+    margin-top: -5px; 
+  }
+
+  #fptopsection .fplink, #fpbottomsection .fplink {
+    width: 50%;
+  }
+
+  #fptopsection .fplink.wide, #fpbottomsection .fplink.wide {
+    width: 100%;
+  }
+
+  #fpflexsection .fplink {
+    width: 25%;
+  }
+
+  #fpflexsection .fplink.wide {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1100px) {
+  #fptopsection .fplink, #fpbottomsection .fplink {
+    width: 33.333%;
+  }
+
+  #fptopsection .fplink.wide, #fpbottomsection .fplink.wide {
+    width: 66.666%;
+  }
+}
+
+@media (min-width: 1210px) {
+  #fptopsection .fplink, #fpbottomsection .fplink {
+    width: 25%;
+  }
+
+  #fptopsection .fplink.wide, #fpbottomsection .fplink.wide {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1320px) {
+  #fptopsection .fplink, #fpbottomsection .fplink {
+    width: 20%;
+  }
+
+  #fptopsection .fplink.wide, #fpbottomsection .fplink.wide {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1430px) {
+  #fptopsection .fplink, #fpbottomsection .fplink {
+    width: 16.666%;
+  }
+
+  #fptopsection .fplink.wide, #fpbottomsection .fplink.wide {
+    width: 33.333%;
+  }
+
+  .fplink a {
+    padding: 3px 5px;
+  }
+}
+
+@media (min-width: 1540px) {
+  #fptopsection .fplink, #fpbottomsection .fplink {
+    width: 14.285%;
+  }
+
+  #fptopsection .fplink.wide, #fpbottomsection .fplink.wide {
+    width: 28.571%;
+  }
+
+  #fptopsection .fpmaybercol .fpbox, #fpbottomsection .fpmaybercol .fpbox {
+    background-image: none;
+  }
+
+  .fpmaybelcol {
+    float: left;
+    width: 70.886%;
+  }
+
+  #fptopsection .fpmaybelcol .fplink, #fpbottomsection .fpmaybelcol .fplink {
+    width: 20%;
+  }
+
+  #fptopsection .fpmaybelcol .fplink.wide, #fpbottomsection .fpmaybelcol .fplink.wide {
+    width: 40%;
+  }
+
+  .fpmaybercol {
+    float: right;
+    width: 29.113%;
+  }
+
+  #fptopsection .fpmaybercol .fplink, #fpbottomsection .fpmaybercol .fplink {
+    width: 50%;
+  }
+
+  #fptopsection .fpmaybercol .fplink.wide, #fpbottomsection .fpmaybercol .fplink.wide {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1650px) {
+  #fptopsection .fplink, #fpbottomsection .fplink {
+    width: 12.5%;
+  }
+
+  #fptopsection .fplink.wide, #fpbottomsection .fplink.wide {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1697px) {
+  #fptopsection .fpmaybelcol .fplink, #fpbottomsection .fpmaybelcol .fplink {
+    width: 16.666%;
+  }
+
+  #fptopsection .fpmaybelcol .fplink.wide, #fpbottomsection .fpmaybelcol .fplink.wide {
+    width: 33.333%;
+  }
+}
+
+@media (min-width: 1760px) {
+  #fptopsection .fplink, #fpbottomsection .fplink {
+    width: 11.111%;
+  }
+
+  #fptopsection .fplink.wide, #fpbottomsection .fplink.wide {
+    width: 22.222%;
+  }
+}
+
+@media (min-width: 1850px) {
+  #fptopsection .fpmaybelcol .fplink, #fpbottomsection .fpmaybelcol .fplink {
+    width: 14.285%;
+  }
+
+  #fptopsection .fpmaybelcol .fplink.wide, #fpbottomsection .fpmaybelcol .fplink.wide {
+    width: 28.571%;
+  }
+}
+
+@media (min-width: 1870px) {
+  #fptopsection .fplink, #fpbottomsection .fplink {
+    width: 10%;
+  }
+
+  #fptopsection .fplink.wide, #fpbottomsection .fplink.wide {
+    width: 20%;
+  }
+
+  #fptopsection .fplink.image, #fpbottomsection .fplink.image {
+    width: 134px;
+    height: 134px;
+  }
+
+  #fptopsection .fplink.image .box .row .cell, #fpbottomsection .fplink.image .box .row .cell {
+    width: 120px;
+    height: 120px;
+  }
+
+  #fptopsection .fplink.image .box .row .cell .image img, #fpbottomsection .fplink.image .box .row .cell .image img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (min-width: 1918px) {
+  #fptopsection .fpmaybercol .fplink, #fpbottomsection .fpmaybercol .fplink {
+    width: 33.333%;
+  }
+
+  #fptopsection .fpmaybercol .fplink.wide, #fpbottomsection .fpmaybercol .fplink.wide {
+    width: 66.666%;
+  }
+}
+
+@media (min-width: 1980px) {
+  #fptopsection .fplink, #fpbottomsection .fplink {
+    width: 9.09%;
+  }
+
+  #fptopsection .fplink.wide, #fpbottomsection .fplink.wide {
+    width: 18.181%;
+  }
+}
+
+@media (min-width: 2006px) {
+  #fptopsection .fpmaybelcol .fplink, #fpbottomsection .fpmaybelcol .fplink {
+    width: 12.5%;
+  }
+
+  #fptopsection .fpmaybelcol .fplink.wide, #fpbottomsection .fpmaybelcol .fplink.wide {
+    width: 25%;
+  }
+}
+
+@media (min-width: 2090px) {
+  #fptopsection .fplink, #fpbottomsection .fplink {
+    width: 8.33%;
+  }
+
+  #fptopsection .fplink.wide, #fpbottomsection .fplink.wide {
+    width: 16.666%;
+  }
+}
+
+@media (min-width: 2161px) {
+  #fptopsection .fpmaybelcol .fplink, #fpbottomsection .fpmaybelcol .fplink {
+    width: 11.111%;
+  }
+
+  #fptopsection .fpmaybelcol .fplink.wide, #fpbottomsection .fpmaybelcol .fplink.wide {
+    width: 22.222%;
+  }
+}
+
+@media (min-width: 2200px) {
+  #fptopsection .fplink, #fpbottomsection .fplink {
+    width: 7.692%;
+  }
+
+  #fptopsection .fplink.wide, #fpbottomsection .fplink.wide {
+    width: 15.384%;
+  }
+}
+
+@media (min-width: 2296px) {
+  #fptopsection .fpmaybercol .fplink, #fpbottomsection .fpmaybercol .fplink {
+    width: 25%;
+  }
+
+  #fptopsection .fpmaybercol .fplink.wide, #fpbottomsection .fpmaybercol .fplink.wide {
+    width: 50%;
+  }
+}
+
+@media (min-width: 2310px) {
+  #fptopsection .fplink, #fpbottomsection .fplink {
+    width: 7.142%;
+  }
+
+  #fptopsection .fplink.wide, #fpbottomsection .fplink.wide {
+    width: 14.285%;
+  }
+}
+
+@media (min-width: 2316px) {
+  #fptopsection .fpmaybelcol .fplink, #fpbottomsection .fpmaybelcol .fplink {
+    width: 10%;
+  }
+
+  #fptopsection .fpmaybelcol .fplink.wide, #fpbottomsection .fpmaybelcol .fplink.wide {
+    width: 20%;
+  }
+}
+
+@media (min-width: 2420px) {
+  #fptopsection .fplink, #fpbottomsection .fplink {
+    width: 6.666%;
+  }
+
+  #fptopsection .fplink.wide, #fpbottomsection .fplink.wide {
+    width: 13.333%;
+  }
+
+  .fplink a {
+    padding: 5px 5px;
+  }
+
+  #fptopsection .fplink.image, #fpbottomsection .fplink.image {
+    width: 164px;
+    height: 164px;
+  }
+
+  #fptopsection .fplink.image .box .row .cell, #fpbottomsection .fplink.image .box .row .cell {
+    width: 150px;
+    height: 150px;
+  }
+
+  #fptopsection .fplink.image .box .row .cell .image img, #fpbottomsection .fplink.image .box .row .cell .image img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.fplink.image .image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 75%;
+  z-index: 1;
+}
+
+.fplink.image a {
+  z-index: 2;
+}
+
+.fplink a {
+  display: block;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1px 5px;
+}
+
+.fplink.image .image a {
+  padding: 0;
+}
+
+.fplink.image .link a {
+  background: rgba(0, 0, 0, 0.1);
+  border-top: 2px solid #505050;
+}
+
+.fplink.wide a {
+  margin: 0 -5px;
+}
+
+.fpvideos {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.fpvideo {
+  display: inline-block;
+  margin: 0 5px;
+}

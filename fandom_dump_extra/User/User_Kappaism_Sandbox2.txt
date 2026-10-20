@@ -1,0 +1,32 @@
+table testing with alt color scheme
+
+{{#vardefine:style|background-color: #671e1e; color: #ffffff;}}
+
+There are bla bla bla LOLOLOL AI types: <noinclude>
+{| class="terraria"
+! ID
+! Name
+! width="55%" | Description
+! NPCs
+|-
+| 0
+| z
+| bla bla bla
+| example
+|- style="{{#var:style}}"
+| 1
+| a
+| bla bla bla
+| example 
+|-
+| 2
+| b
+| bla bla bla
+| example 
+|- style="{{#var:style}}"
+| 3
+| c
+| bla bla bla
+| example 
+|-
+|}

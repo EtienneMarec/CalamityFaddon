@@ -1,0 +1,30 @@
+{{item infobox
+| type = Covering
+| rare = 14
+| stack = 1
+| tooltip = Bloodlust<br/>Boosts all aggro by 500%<br/>Dashing into enemies deals 500 damage and cooldown is shortened.
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|28}}
+}}	
+
+The '''Ravenous Soul Artifact''' is a craftable Godseeker Mode [[covering]]. When worn, [[aggro]] is boosted by 500%. It allows the player to perform a homing dash with a short cooldown, then bounce off enemies dealing 500 damage. Dashing into projectiles reduces damage taken by 90%. 
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The homing in the dashing cannot be controlled manually and tends to choose the enemy closest horizontally to the player.
+== Trivia ==
+*The design of this item and tooltip are a reference to the design of [[Acidsighter]].
+*The sprite resembles peppermint candy.
+
+{{Master Template Equipables
+|show-main = yes
+|show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

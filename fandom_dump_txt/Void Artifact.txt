@@ -1,0 +1,31 @@
+{{Historical content}}
+{{addon|Calamity: Tales of the Aquatic}}
+{{dedicated|eq.|Tranquility Addon original creator}}
+{{item infobox
+| type = Covering
+| tooltip = 100% increased max health, elementals dont attack you, creates a void man ally
+| rare = 15
+| sell = {{value|2}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| debuff = nullified
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = you are voided
+| element1 = Dark
+}}
+{{summoned|type=minion|void man ctota}}
+The '''Void Artifact''' is a post-[[The Entropic God, Umbrus|Umbrus]] [[coverings|covering]], it doubles the players xp, makes all elementals peaceful and creates an "ally" that casts void orbs at enemies that inflict the nullified debuff
+ 
+== Crafting ==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+
+== Trivia ==
+The item is a reference to [[Tranquility Mod]], a Calamity addon originally made by eq.
+
+{{Ctota}}
+[[Category:Restorative coverings]]

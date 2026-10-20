@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 35
+| use = 15
+| knockback = 5.5
+| auto = yes
+| tooltip = Enemies explode on hit<br/>Shortflurry attacks inflict Hellfire
+| stack = 1
+| rare = 3
+| sell = {{value|0|0|80}}
+| debuff = On Fire!
+| debuffduration = 3 seconds (Explosion)
+| debuffchance = 100%
+| debufftip = Slowly losing life
+}}
+The '''Tomatus''' is a craftable [[Pre-Hardmode]] [[shortsword]] that auto-swings. Hitting an enemy will make a small explosion.
+
+Like every shortsword, it has an incredibly short range. However, this [[shortsword]] can auto-swing.
+
+When the weapon's [[Shortstrike]] ability activates, enemies hit by it and its explosions are inflicted with [[Hellfire]].
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon gets its name from [[wikipedia:El Totumo|El Totumo]], a small volcano.
+*The weapon was previously named Flameburst Shortsword.
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+
+[[Category:Swords]]
+[[Category:Shortswords]]
+[[Category:True melee]]

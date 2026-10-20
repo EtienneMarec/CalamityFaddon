@@ -1,0 +1,49 @@
+{{Addon|Polyphemalus}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 125
+| knockback = 6.5
+| critical = 0%
+| tooltip = Hitting enemies stores charge, which progressively blinds you, but increases your crit chance.<br>Right-Click with charge to fire a projectile and consume it all<br>Does not benefit from Critical Strike Chance boosts.<br>'Chain-saw'! Get it?
+| rare = 8
+| sell = {{value||10|0}}
+| stack = 1
+| research = 1
+| hardmode = yes
+| auto = yes
+| use = 15
+| sound = Item_12.wav
+| soundtext = Use
+| element1 = Dark
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Polyphemalus]]<br/>(When Exotrexia is defeated last)|1|100%
+}}
+}}
+
+The ''Chain-Saw'' is a [[Hardmode]] [[Melee weapon]] that autoswings. It is dropped by [[Polyphemalus]], when Exotrexia is defeated last. Despite being a chainsaw both visually and in name, it does not have the ability to cut down trees. When an enemy is struck with the blade, Chain-Saw applies a stacking darkness effect. As more stacks are gained, the player is applied the [[Darkness]], [[Blackout]], and [[Obstructed]] debuffs. Over time, when not hitting an enemy, darkness stacks will decay. A player can see the amount of darkness they have by looking at the item's name, which will have a darkness percentage attached to the end. The darkness effect provides boosts to critical strike, and all stacks can be consumed with a right-click to shoot homing eye projectiles.
+
+{{modifier|meleealt}}
+
+==Notes==
+* On hit, 10 (1.6%) darkness charge is applied, and a one-second cooldown before darkness charge starts decaying is applied. If Chain-Saw gets a critical hit, 20 (3.3%) charge is applied instead. Chain-Saw's charge maxes out at 600 (100%). Once darkness charge starts decaying, one charge will be removed once every four frames, for a total of 15 (2.5%) per second. When a right-click attack is used, the darkness charge will be reset to 0.
+* the [[Darkness]] debuff is applied if the character has any darkness charge. the [[Blackout]] debuff is applied if the character has more than 30% charge, and the [[Obstructed]] debuff is applied if the character has more than 60% charge.
+* As darkness charge increases, so does the critical strike chance of the weapon. This increases linearly, with 0% critical strike with no darkness and 100% critical strike when at 90% darkness.
+* When a right click is used, the amount of eyes shot depends on the darkness level. Unlike the critical strike chance, this is done in discreet increments instead of a smooth scaling. 
+** If the player has any darkness charge, 3 eyes will be shot
+** If they have more than 30% charge, 9 eyes will be shot
+** If they have more than 60% charge, 18 eyes will be shot
+** If they have more than 90% charge, 27 eyes will be shot
+** If they have full charge, 32 eyes will be shot.
+
+==Tips==
+*The debuffs this weapon provides allows it to synergize really well with the [[Laudanum]], cancelling its obstructive effect while granting a grand total of +95 defense and +85% damage increase.
+**While it also grants +45% critical chance boost, this boost is redundant due to it not benefitting from any critical chance boost aside from itself.
+{{-}}
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}

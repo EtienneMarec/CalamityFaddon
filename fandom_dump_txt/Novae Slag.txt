@@ -1,0 +1,76 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| use = 14
+| sell = No value
+| stack = 9999
+| rare = 0
+| color = #854573
+| hardmode = yes
+}}
+
+'''Novae Slag''' is a [[Hardmode]] [[block]] which replaces [[Silt Block]]s and [[Slush Block]]s in the [[Astral Infection]] [[biome]] upon its creation. Like its counterpart, it can be used in the [[Extractinator]].
+
+== Crafting ==
+=== Used in (Any Silt) ===
+{{recipes|ingredient=Any Silt}}
+
+== Extractinator Loot ==
+{| class="terraria sortable lined"
+! Item !! Chance !! Quantity
+|-
+| {{item|Copper Coin}} || 30% || 1–99
+|-
+| {{item|Silver Coin}} || 7% || 1–99
+|-
+| {{item|Gold Coin}} || 1% || 1–99
+|-
+| {{item|Platinum Coin}} || 0.03% || 1–10
+|-
+| {{item|Fallen Star}} || 10% during nighttime || 1–20
+|-
+| {{item|Stardust}} || 10% || 1–20
+|-
+| {{item|Diamond}} || 3% || 1–20
+|-
+| {{item|Ruby}} || 3% || 1–20
+|-
+| {{item|Topaz}} || 3% || 1–20
+|-
+| {{item|Emerald}} || 3% || 1–20
+|-
+| {{item|Sapphire}} || 3% || 1–20
+|-
+| {{item|Amethyst}} || 3% || 1–20
+|-
+| {{item|Amber}} || 0.5% || 1–20
+|-
+| {{item|Cobalt Ore}} || 2.25% || 1–16
+|-
+| {{item|Palladium Ore}} || 2.25% || 1–16
+|-
+| {{item|Mythril Ore}} || 2% after defeating one Mechanical Boss || 1–16
+|-
+| {{item|Orichalcum Ore}} || 2% after defeating one Mechanical Boss || 1–16
+|-
+| {{item|Adamantite Ore}} || 1.75% after defeating two Mechanical Bosses || 1–16
+|-
+| {{item|Titanium Ore}} || 0.75% after defeating two Mechanical Bosses || 1–16
+|-
+| {{item|Astral Ore}} || 11.47% after defeating [[Astrum Deus]] || 1
+|-
+|}
+
+== Notes ==
+*If the condition for getting Fallen Stars or Astral Ore from the Extractinator is not met but the player succeeds in rolling either of those items, the vanilla loot table is used instead.
+*If the condition for the tier 2 and 3 Hardmode ores are not met, the highest unlocked tier is extracted instead.
+*Unlike Silt and Slush, Novae Slag is not affected by gravity.
+*Although both Silt and Slush can get converted into Novae Slag, purifying Novae Slag will only turn it into Silt.
+
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

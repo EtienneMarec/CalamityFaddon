@@ -1,0 +1,24 @@
+{{npc infobox
+| type = Slime
+| environment = Jelly Monsoon
+| ai = Slime
+| damage = {{dv|50|100||125}}
+| life = {{dv|300|600}}
+| defense = 25
+| money = {{value|0|0|40|0}}
+| Scoria Ore|10-26| 100%
+| knockback = 100
+| hardmode = yes
+| listexclude = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+The '''Chaos Slime''' is a [[Hardmode]] [[slime]] that spawns naturally during the [[Jelly Monsoon]] after [[Golem]] has been defeated. It exists to drop [[Scoria Ore]].
+
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-event = yes
+}}

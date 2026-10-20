@@ -1,0 +1,40 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| damage = 425
+| damagetype = Ranged
+| knockback = 7.5
+| use = 30
+| velocity = 18
+| tooltip = Converts musket balls into chunks of skylac stone that shatters into smaller pieces<br/>The stone inflicts Evercold
+| rare = C1
+| sell = {{value|4}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Evercold
+| debuffduration = 2 seconds
+| debuffchance = 100%
+| debufftip = Your life is freezing
+| element1 = Water
+| element2 = Dark
+| element3 = Cold
+| proj = Skylac_Stone.png
+| projcaption = Skylac Stone
+}}
+The '''Lacescent Pistol''' is a Post-[[Purgatory Arbiter, Umbrus]] [[gun]] that is an upgrade of [[Abysscent Pistol]] and the final upgrade to [[Shattered Pistol]]. If [[Musket Ball]]s are used as [[Ammunition|ammo]], it fires a skylac stone that shatters into 3-5 smaller pieces with a slight spread after travelling about 5 tiles. The skylac stone deals 150% of the weapon's damage, while the pieces deal 25% each. Both the skylac stone and the pieces do not pierce through enemies nor go through walls, but inflict the [[Evercold]] [[Debuffs|debuff]] for 2 seconds.
+
+==Crafting==
+===Recipes===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+==Trivia==
+*The gun's sprite resembles [[Skyline Shark]], a mob encountered in the [[Sky Abyss]] biome.
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

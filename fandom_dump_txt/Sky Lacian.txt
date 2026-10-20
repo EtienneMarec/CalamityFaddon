@@ -1,0 +1,37 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{npc infobox
+| environment = Sky Abyss
+| type = Aquatic
+| ai = Sky Lacian AI
+| damage = {{dv|180|||480}} (contact) {{death|120}} (flames)
+| life = {{dv|8,000|||22,000}}
+| defense = 60
+| knockback = 50%
+| debuff = Shark Mistake
+| debufftip = everyone thinks youre a shark, accept it
+| debuffchance = 100%
+| duration = until the fish is dead
+| debuff2 = Evercold
+| debuffchance2 = {{death|100%}}
+| duration2 = 5 seconds
+| immune1 = Crush Depth
+| immune2 = Evercold
+| immune3 = Confused
+| immune4 = Kami Flu
+| money = {{value|0|1}}
+| Stratostone |2-5| 100%
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+The '''Sky Lacian''' is a post-[[Umbrus]] [[Enemies|enemy]] that spawns in the Lower Layer of the [[Sky Abyss]]. It dashes towards Skyline Sharks dealing contact damage, if a player or any enemy attacks it the player is also considered a Shark.
+
+In death mode its much faster and can cast Evercold flames at its enemies, if it gets lower than 30% life the flames start orbitting the fish providing 30 Defense, similar to the [[Coldant Firestarter]].
+
+== Trivia ==
+* On every June 1st (International Children Day) the enemy gets renamed into "Baby Eater"
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

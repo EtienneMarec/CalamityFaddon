@@ -1,0 +1,35 @@
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 15
+| axe = 55
+| hammer = 60
+| knockback = 6
+| rare = 2
+| use = 28
+| sell = {{value|0|0|40|0}}
+| toolspeed = 11
+}}
+
+The '''Crayfish Pickaxe''' is a craftable [[Pre-Hardmode]] [[axe]].
+
+{{Modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+== Trivia ==
+*Despite being called a pickaxe, the tool functions as an axe.
+{{Victide}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Axes]]

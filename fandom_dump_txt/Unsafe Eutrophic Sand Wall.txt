@@ -1,0 +1,23 @@
+{{item infobox
+| type = Wall
+| auto = yes
+| consumable = yes
+| placeable = yes
+| stack = 9999
+| rare = 0
+| use = 14
+| color = #646496
+| sell = No value
+}}
+
+'''Unsafe Eutrophic Sand Wall''' is a background [[wall]] that generates naturally in the [[Sunken Sea]] [[biome]], alongside [[Unsafe Navystone Wall]]. Eutrophic Sand Walls will release water whenever the nearby tiles update. It can be removed using any hammer, but only after [[Desert Scourge]] is defeated.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Tiles
+| show-main   = yes
+| show-walls = yes
+}}

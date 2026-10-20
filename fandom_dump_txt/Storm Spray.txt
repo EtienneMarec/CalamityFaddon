@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 14
+| mana = 8
+| tooltip = Fires a spray of water that drips extra trails of water
+| knockback = 2
+| velocity = 10
+| rare = 2
+| sell = {{value|0|0|40}}
+| use = 33
+| stack = 1
+| element1 = Water
+}}
+|{{item drops infobox
+| [[Desert Scourge]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Storm Spray''' is a [[Pre-Hardmode]] [[wand]] obtained from the [[Desert Scourge]]. When used, it fires an arc of water particles that damage [[enemies]]. From points across the arc, extra trails of water fire downward which damage enemies as well.
+
+{{Modifier|magic}}
+
+== Notes ==
+*The Storm Spray is very similar to the [[Aqua Scepter]], the main differences being the Storm Spray's dripping trails effect and that it can be obtained before fighting [[Skeletron]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

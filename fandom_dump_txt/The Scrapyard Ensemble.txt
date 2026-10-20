@@ -1,0 +1,67 @@
+{{stub}}
+{{npc infobox
+| name = The Scrapyard Ensemble
+| type = Boss
+| imagealt = [[File:Scrapyard Ensemble.png|500px]]
+| life = {{dv|75,000|100,000|150,000|||100,000|150,000}} (total)
+| knockback = 100
+| hardmode = no
+| postml = no
+| listexclude = yes
+|Wulfrum Bar|{{dv|120-240|380-760}}|100%
+|Wulfraprism|{{dv|25-30|40-60}}|100%
+| Box of Schematics|1|100%
+| Draedon Mask|1|28.57%
+| custom| {{item|The Scrapyard Ensemble (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Draedon Relic|note=(In [[Master Mode|Master]] and [[Revengeance Mode]] only)|wrap=y}}|{{dv|||100%|||100%}}
+| group|If Wulfrares has been defeated last:|4
+| custom| {{item|Cloak of Shards}}|100%
+| custom| {{item|Unstable Core}}|100%
+| custom| {{item|Elemental Miniblaster}}|100%
+| custom| {{item|Wulfrares' Ribcage}}|100%
+| custom| {{item|Wulfrares Mask}}|28.57%
+| custom| {{item|Wulfrares Trophy}}|100%
+| group|If Wulfrartemis and Wulfrapollo have been defeated last:|6
+| custom| {{item|Sight Seer}}|100%
+| custom| {{item|Wulfrum Jaws}}|100%
+| custom| {{item|Oversized Flame Blaster}}|100%
+| custom| {{item|Wulfrartemis Mask}}|28.57%
+| custom| {{item|Wulfrapollo Mask}}|28.57%
+| custom| {{item|Wulfrartemis Trophy}}|100%
+| custom| {{item|Wulfrapollo Trophy}}|100%
+| group|If Wulfranatos has been defeated last:|4
+| custom| {{item|Energized Lasher}}|100%
+| custom| {{item|The Chomper}}|100%
+| custom| {{item|Wulfranatos Mask}}|28.57%
+| custom| {{item|Wulfranatos Trophy}}|100%
+| boxwidth = 30em
+}}
+[[File:The Scrapyard Ensemble (Lore).png]] <big> ''"A collaboration between 3 great engineers, which ended in catastrophe."''</big> [[File:The Scrapyard Ensemble (Lore).png]]
+
+'''The Scrapyard Ensemble''' (Japanese: スクラップヤードアンサンブル ''Sukurappuyādoansanburu'') is a gang of post-[[The Slime God|Slime God]] [[Wulfrumechs]] that are intended to be fought around the same time as the [[tgc:Wall_of_Flesh|Wall of Flesh]]. The battle consists of the four Exo Mechs: '''XS-1B Wulfrartemis''' and '''XS-3B Wulfrapollo''', '''XM-5B Wulfranatos''', and '''XF-9B Wulfrares'''. They are the meant to be the final boss before [[tgc:Hardmode|Hardmode]].
+
+Defeating them will provide the player with a large amount of [[Wulfrum Bar]]s, a [[crafting material]] for various earlygame equipment.
+
+==Spawn==
+'''The Scrapyard Ensemble''' do not spawn on their own, and require the player to construct [[The Codebreaker]] and a [[The Codebreaker|Decryption Computer]]. Once constructed, the player can interact (right-click) with [[The Codebreaker]]. The '''Contact''' option is supposed to appear later on by default when an [[The Codebreaker|Auric Cooling Cell]] is placed. To summon the Scrapyard Ensemble, the player must insert an [[Energy Core]] into the [[Draedon Power Cell]] slot, then click the '''Contact''' button.
+
+Once summoned, Draedon will allow the player to choose a Wulfrumech that will be spawned first.
+
+*{{item|Wulfranatos Head Map|link=|mode=image}} Wulfranatos, a intimidating land excavator with gigantic jaws, impenetrable armor, and cores of energy.
+*{{item|Wulfrares Map|link=|mode=image}} Wulfrares, a hooded amalgamation of many wulfrum enemies, bearing 4 charged blasters.
+*{{item|Wulfrapollo Map|link=|mode=image}}Wulfrartemis and Wulfrapollo, a pair of surveillance robots with hidden superweapons.
+
+==Bosses==
+
+W.I.P
+
+== Trivia ==
+
+* The theme heard when Draedon is summoned to give the player the choice of which mech to fight first is an ambient theme composed by PinpinNeon, only officially known in-game as '''Draedon's Ambience'''.
+** Unlke other soundtracks, this theme is present in the base Calamity Mod content, and it does not require the music addon to be installed.
+* The theme of the Scrapyard Ensemble fight is '''Scrapped Fabrications''', which was composed by '''CDMusic'''.
+** If the Calamity Music add-on mod is disabled, '''Boss 3''' will play instead.
+* The designs of the Wulfrumechs are comprised of many Wulfrum items and enemies.
+** Wulfrares is made up of Wulfrum Pylons, Wulfrum Batteries, Wulfrum Rovers, the now replaced Wulfrum Shards, and an Energy Core.
+** Wulfrapollo and Wulfrartemis are made up of  Wulfrum Gyrators and the now replaced Wulfrum Shards.
+** Wulfranatos is made up of the now replaced Wulfrum Shards and Energy Cores.

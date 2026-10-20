@@ -1,0 +1,69 @@
+{{patch infobox
+| image = Calamitas (1.1.4.43).png
+| patchname = Weapons and Boss Resprites
+| release = 7/2/2016
+}}
+
+The '''1.1.4.43''' update added a variety of [[yoyo]]s, throwing weapons, and summoner weapons. It also resprited all of the mod's bosses.
+
+== Additions ==
+=== Accessories ===
+*Added [[Daedalus Emblem]], [[Statis' Blessing]], [[Statis' Ninja Belt]].
+
+=== Weapons ===
+*Added [[Air Spinner]], [[Azathoth]], [[Chaotrix]], [[Cnidarian]], [[The Eye of Calamitas]], [[The God's Gambit]], [[Quagmire]], [[Shimmerspark]], and [[Verdant]].
+*Added [[Blighted Eye Staff]], [[Brimstone Flamesprayer]], [[Corroslime Staff]], [[Crimslime Staff]], [[Deathhail Staff]], [[Eradicator]], [[Flame Scythe]], [[Gelitic Blade]], [[Goobow]], [[Mangrove Chakram]], [[Monsoon]], [[Primordial Earth]], [[Royal Knives]], [[Seabound Staff]], [[Staff of the Mechworm]], [[True Paladin's Hammer]], and [[True Tyrant's Ultisword]].
+
+=== Tools ===
+*Added [[Gelpick]].
+
+=== Buffs ===
+*Added [[Blighted Eyes (buff)|Blighted Eyes]], [[Brittle Star (buff)|Brittle Star]], [[Corro slime (buff)]], [[Crim slime (buff)]], [[Mechworm (buff)|Mechworm]].
+*Added [[Glacial State]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*[[Blight Slime]]s now only spawn after [[Skeletron]] has been defeated.
+*Blight Slimes now drop 17 of their respective gels instead of 15.
+*[[Calamitas]] changes:
+**Nerfed phase 1 health from {{dv|27,000|44,500}} to {{dv|14,000|23,100}}.
+**Nerfed phase 2 health from {{dv|25,000|41,250}} to {{dv|15,000|24,750}}.
+**Speed increased.
+**Now inflicts [[Brimstone Flames]] for only {{expert|3.3}} seconds instead of {{expert|5}} in Expert Mode.
+**Can now drop Blighted Eye Staff, Brimstone Flamesprayer, and The Eye of Calamitas.
+**[[Catastrophe]] now charges like Expert Mode [[Eye of Cthulhu]].
+**Brothers now have increased range for their flamethrowers.
+**Brothers' speed increased.
+*Cleaned up [[Desert Scourge]] and [[Dried Seeker]] AI.
+*Desert Scourge can now drop Seabound Staff.
+*Buffed [[The Devourer of Gods]]' head and body damage.
+*The Devourer of Gods now has heavy resistance against [[Daedalus Stormbow]].
+*The Devourer of Gods now drops Deathhail Staff, Eradicator, and Staff of the Mechworm.
+*True Slime God can now drop Corroslime Staff and Crimslime Staff.
+
+=== Items ===
+*Each piece of [[Aerospec armor]] has had its defense increased by 1.
+*[[Desert Medallion]] recipe now requires higher amounts of materials, along with [[Coral]].
+*Nerfed [[Galeforce]]'s damage from 19 to 14, and its use time from 12 to 19.
+*All Calamity pickaxes now mine much faster.
+*Repurposed [[Reefclaw Axe]] into a Hamaxe, and renamed it to Reefclaw Hamaxe.
+*Nerfed [[Seabow]] use time from 14 to 25.
+*Nerfed [[Tarragon armor]] set bonus defense from 10 to 7.
+*[[Temporal Floe Sword]], [[Terratomere]], and their projectiles now inflict Glacial State.
+*Nerfed [[Xeroc Mask]] defense from 28 to 25.
+*Nerfed [[Xeroc Plate Mail]] defense from 27 to 23.
+
+=== Resprites ===
+*Resprited [[Calamitas]], [[Desert Scourge]], [[The Devourer of Gods]], [[Devourer Spawn]], [[Slime God]], True Slime God.
+*Resprited [[Aerial Hamaxe]], Galeforce, [[Goldplume Spear]], [[Skyfringe Pickaxe]], [[Tradewinds]], [[Wind Blade]].
+*Resprited [[Greatbay Pickaxe]], [[Redtide Sword]], Reefclaw Hamaxe, [[Seabow]], [[Urchin Spear]].
+*Resprited [[Titanium Shuriken]].
+*Resprited [[Tarragon Wings]].
+
+== Fixes ==
+*Slime God and True Slime God now despawn when the player dies.
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

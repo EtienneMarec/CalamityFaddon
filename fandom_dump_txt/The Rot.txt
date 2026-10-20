@@ -1,0 +1,102 @@
+<section begin=npc infobox />{{npc infobox
+| name = The Rot
+| type = Boss
+| imagealt = <Tabber>
+Normal = [[File:The_rot.png]]
+</Tabber>
+| ai = The Rot AI
+| environment = Five Pebbles
+| life = {{dv|300,000|480,000|570,600}}
+| damage = {{dv|500|1150|1380|1610}} (Contact)<br/>{{dv|46|80|96|108}} (Rot Tentacle)<br/>{{dv|5200|9200|11200|12400}} (Consume)
+| defense = 120
+| dr = 50%
+| knockback = 50
+| money = {{gc|50}}
+| Rotting matter|5={{dv|4-8|5-9}}|6=100%|7=group| image2 = Rot Map.png
+| image2caption = Map Icon
+| debuff = The Rot
+| debuffchance = 100%
+| duration = inf seconds (Contact, Consume)
+| debufftip = Super Cancer
+| debuffchance4 = 100%
+| debuffduration4 = 1 second (Ice Bomb)
+| debufftip4 = Cannot move and defense is shattered
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Glacial State
+| immune4 = Exo Freeze
+| immune5 = Frostburn
+| resistant1 = Fire
+| resistant2 = Water
+| resistant3 = Magic 
+| resistant4 = Slash
+| hardmode = yes
+| boxwidth = 24em
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_15.wav
+| sound = Item_28.wav
+| soundtext = Projectiles
+}}{{Addon|Fargo’s Souls DLC (Fargo Souls Mod x Calamity)}}<section end=npc infobox />
+ <big> ''"A God's demise."'' </big>
+
+
+
+'''The Rot''' (Japanese: 腐敗 ''Fuhai''), also known as Daddy Long Legs, is a [[Hardmode]] [[boss]] that can be fought in the [[Five Pebbles]] biome. The Rot possesses many tentacles that it uses against the player.
+
+Defeating Cryogen will generate [[Rotting matter]] in the [[Five Pebbles]] biome.
+
+== Spawn ==
+{{fantag|Catalyst}} The Rot is able to be summoned by killing 30 [[Neuron Flies]] which spawn in the Five Pebbles biome at any time.
+== Behavior ==
+The Rot has two phases.
+
+The Rot is blind, and instead relies on hearing and touch to locate enemies.
+
+Leaving the Five Pebbles biome will cause Cryogen to enrage, almost doubling its speed and acceleration. Entering the [[Looks To The Moon]] biome will triple its speed and acceleration.
+
+=== Attacks ===
+==== Phase 1 ====
+*Slowly chases and levels with the player.
+*Attempts to grab players with its Tentacles
+If Successful, Consumes the player.
+
+==== Phase 2 ====
+*Transitions at {{dv|20%||40%|}} health.
+*Rapidly and loosely accelerates towards the player, charging at them when it gets close.
+
+=== In [[Expert Mode]] ===
+
+*Has one additional tentacle
+
+=== In [[Revengeance Mode]] ===
+*Transitions into Phase 2 at 40%.
+*The Rot and its Tentacles are slightly faster.
+
+=== In [[Death Mode]] ===
+
+*The Rot and its tentacles are even more aggressive and faster.
+
+=== During the [[Boss Rush]] ===
+
+* Replaced with [[Terror Rot|Terror Long Legs]] instead
+
+== Aftermath ==
+*Once The Rot is defeated for the first time, [[Rotting Matter]] spawns in the Five Pebbles biome.
+*If [[Five Pebbles (Boss)]] has been defeated, Brother Long Legs will begin to spawn in the cavern biome.
+
+== Notes ==
+*While The Rot is alive, the sky above the player is filled with a dark blue pulsating wall. It cannot be toggled off by lighting options in the Settings Menu.
+*If The Rot is close to the player when it enters Phase 2, it will briefly spin in place to give the player time to get away from its dash.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating The Rot, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:The Rot strategies]].}}
+
+*It is easier to see The Rot during the day.
+*A wide arena with several levels of platforms can help in dodging The Rot's attacks.
+**Be careful: The Rot uses walls and platforms as its grip to move.
+*Take advantage of the fact that The Rot relies on hearing.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

@@ -1,0 +1,90 @@
+{{stub}}
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Furniture
+| type2 = Crafting station
+| type3 = Light Source
+| placeable = Yes
+| use = 14
+| auto = yes
+| width = 4
+| height = 3
+| stack = 9999
+| tooltip = A hypercomputer capable of reconstructing reality.
+| consumable = Yes
+| rare = Varies
+| color = #3333aa
+| sell = {{value|27|50}}
+| hardmode = yes
+| postml = yes
+|imageplaced=[[File:AquaticComputer.gif]]}}
+
+'''Aquatic Hypercomputer''' is a pre-hardmode crafting station used for crafting items from Calamity Tales of the Aquatic addon, it can be upgraded by adding new modules to it
+
+
+== Components ==
+{{item/options|nolink=y|anchor=y}}
+{| class="terraria lined"
+|-
+! colspan=2 | Item !! Tooltip !! Rarity !! Function !! Placed Image
+|-
+| {{item|Aquatic Hypercomputer|mode=table}}
+| A hypercomputer capable of reconstructing reality
+| {{rare|1}}
+|  The crafting station itself, allows the Static Hypermodule to be placed on top of it
+| [[File:Aquatic Hypercomputer (placed).png]]
+|-
+| {{item|Static Hypermodule|mode=table}}
+| Can be placed on the hypercomputer to increase its reconstructing power
+| {{rare|3}}
+| Allows you to craft late-pre-hardmode and early-hardmode items
+| [[File:Aquatic Hypercomputer Static.png]]
+|-
+| {{item|Capsule Vault module|mode=table}}
+| Can be placed on the hypercomputer if it has a Static Hypermodule.
+| {{rare|5}}
+| Now shoots a low damage slowing laser at enemies within 25 blocks of range.
+| [[File:Aquatic hypercomputer Vault.png]]
+|-
+| {{item|Elemental Capsule Box|mode=table}}
+| Contains capsules that can be placed in the Capsule vault to increase Hypercomputer's powers
+| {{rare|10}}
+| Allows the crafting of post-moonlord items
+| [[File:Aquatic hypercomputer Capsules.png]]
+|-
+| {{item|Enchanted Reconstruction Module|mode=table}}
+| Can be placed on the Hypercomputer after The capsule vault was filled.
+| {{rare|14}}
+| Allows the crafting of post-Devourer of Gods items
+| [[File:Aquatic Hypercomputer ERM.png]]
+|-
+| {{item|Abyssblast Laser Module|mode=table}}
+| Can be placed on the Hypercomputer after the Enchanted Reconstruction Module to increase its power. Creates an aura that Evercolds your enemies
+| {{rare|15}}
+| Allows post-Abyssal Jewel items to be crafted, Creates a 20x20 aura that inflicts Evercold on enemies.The Hypercomputer now inherits the function of [[Draedon's Forge]].
+| [[File:Aquatic Hypercomputer Finished.png]]
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{recipes|view=infobox|result=Static Hypermodule}}
+{{recipes|view=infobox|result=Capsule Vault Module}}
+{{recipes|view=infobox|result=Elemental Capsule Box}}
+{{recipes|view=infobox|result=Enchanted Reconstruction Module}}
+{{recipes|view=infobox|result=Abyssblast Laser Module}}
+
+=== Used to craft ===
+{{ajax|Recipes/Aquatic Hypercomputer|width=40%}}
+{{ajax|Recipes/Aquatic Hypercomputer Static|width=40%}}
+{{ajax|Recipes/Aquatic hypercomputer Vault|width=40%}}
+{{ajax|Recipes/Aquatic Hypercomputer Capsules|width=40%}}
+{{ajax|Recipes/Aquatic Hypercomputer ERM|width=40%}}
+{{ajax|Recipes/Aquatic Hypercomputer Finished|width=40%}}
+
+== Trivia ==
+
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

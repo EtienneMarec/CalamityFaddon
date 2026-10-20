@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damage = 50
+| critical = 8%
+| use = 14
+| knockback = 2
+| damagetype = Rogue
+| rare = 3
+| tooltip = Shoots a gravity-defying spiky ball. Stacks up to 4.<br/>Stealth strikes make the balls rain feathers onto enemies when they hit<br/>Right click to delete all existing spiky balls
+| sell = {{value|0|0|20}}
+| velocity = 2
+| stack = 4
+| proj = Sticky Feather.png
+| projcaption = Sticky Aero Feather
+| element1 = Holy
+| element2 = Stab
+}}
+
+The '''Sky Stabber''' is a craftable [[Pre-Hardmode]] [[spiky balls|spiky ball]]. It throws up to 4 gravity-ignoring spiky balls, with the amount of balls thrown depending on stack size. The balls move very slowly and decelerate to a stop after travelling a short distance. The balls bounce off tiles and will despawn after landing 20 enemy hits or after a long amount of time. Right-clicking with the weapon will delete all the existing spiky balls.
+
+Performing a [[stealth strike]] with the Sky Stabber will cause the next spiky ball thrown to rain down a spread of 4 homing feathers for each enemy hit. The feathers released are similar to the Set Bonus of the [[Aerospec armor]].
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Aerialite}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Spiky Balls]]

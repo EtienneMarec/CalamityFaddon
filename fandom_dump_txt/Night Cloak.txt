@@ -1,0 +1,41 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Dedicated|InxieRatZey|C:TotA owner}}
+{{Revengeance mode only}}
+{{item infobox
+| type = Covering
+| tooltip = triple max hp and mana, immunity to umbrus fumes and holy flames, all attacks deal double the damage. If any Elemental is alive, The player gets the Obstructed Debuff, but all the attacks inflict Holy flames and deal quadruple the damage
+| debuff = Obstructed
+| debufftip = You can't see!
+| debuff2 = Holy Flames
+| debuffduration2 = 5 seconds
+| rare = C4
+| sell = {{value|0|0|0|0|1}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+The '''Night Cloak''' is a post-[[Purgatory Arbiter, Umbrus]] [[covering]] , That gives the following bonuses:<br>
+200% increased max HP and Mana<br>
+Immunity to Umbrus Fumes and Holy Flames<br>
+200% increased damage<br>
+
+If any Elemental is alive:<br>
+The player gets the obstructed debuff<br>
+400% increased damage<br>
+all the player's attacks inflict Holy Flames
+
+== Notes ==
+The covering cant be equipped if the player has [[The Verboten One]], [[Zenith Arcanum]], [[Heart of the Elements]] or any of its ingredients equipped.
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Combat coverings]]

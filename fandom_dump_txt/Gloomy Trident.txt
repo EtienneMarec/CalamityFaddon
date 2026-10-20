@@ -1,0 +1,64 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox	
+| type = Weapon
+| damage = 447
+| crit = 8%
+| damagetype = Melee
+| knockback = 5
+| stack = 1
+| auto = yes
+| use = 20
+| velocity = 30
+| rare = 13
+| auto = yes
+| postml = yes
+| tooltip = Fires out Black Pearls for the first 2 swings, then creates a strong maelstrom upon thrusting.<br/>
+Slowly generates rage while held<br/>
+Replaces rage mode with the mirage of the Sovereign of the Duskgloom Sea herself, resulting in a far stronger maelstrom<br/>
+This attack has a 60 second cooldown<br/>
+{{color|'You can hear an sorrowful, yet spiteful cries of a certain siren... Best not to venture too far into the gloomy sea, for those who dare sails the sea will be doomed to never see dry lands again.'|#0e1829}}
+| debuff = Crush Depth
+| debufftip = Aquatic Pressure
+| debuffchance = 100%
+| debuffduration = 3 seconds (Black Pearls)/8 seconds (True Melee)
+| debuff2 = Electrified
+| debufftip2 = Moving hurts!
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds (Lightning Bolts)
+| debuff3 = Terror of the Abyss | debufflink3 = no
+| debufftip3 = You feel like you're being silenced by the abyss itself...
+| debuffchance3 = 100%
+| debuffduration3 = 5 seconds (Mirage's Maelstrom)
+| element1 = Stab
+| element2 = Dark
+| element3 = Water
+| element4 = Unholy
+| element5 = Wind
+| element6 = Electricity
+| sell = {{value|0|50|0|0}}
+| proj = Gloomy Trident Full.png
+| projcaption = Gloomy Trident
+}}
+
+The 'Gloomy Trident' is a craftable Godseeker Mode [[Spears]] that autoswings. On use, it performs a 3-hit combo, first swinging at an upward arc, then again on a downward arc, then finally being thrusted. The first 2 swings fires out a volley of black pearls that inflicts the [[Crush Depth]] debuff. Upon thrusting, it casts out a Maelstrom that lingers for a bit, casting down lightning bolts on its path.
+
+In [[Revengeance Mode]], Rage builds up slowly as you hold the weapon. Hitting the {{Key|Rage Mode}} key conjures a mirage of the Sovereign of the Duskgloom Sea, leaving behind a far stronger maelstrom that sucks up any enemies and inflicts the 'Terror of the Abyss' debuff to all enemies on-screen, reducing their DR by 50%, Damage by 30%, and Defense by 60, along with casting greater amount of lightning bolts and dealing up to 2x the weapon's base damage, all while setting the player's rage to 0. The size of the mirage, and therefore, the power of said maelstrom, is proportional to the amount of rage the player had upon activation, and is also affected by melee bonus. This effect has a 60 second cooldown. If the player stops holding the weapon, their Rage is set to 0 and its mechanics returns to normal functionality.
+
+{{Modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*[[The Devourer of Gods]], [[The Fabricational Quartet|XM-05 Thanatos]], [[The Fabricational Quartet|XF-09 Ares]], and [[Adult Eidolon Wyrm]] only take 80% of the damage from The normal maelstrom, and 50% of the damage from the Mirage and the following bigger maelstrom.
+
+== Trivia ==
+*This weapon directly references [https://cookierunkingdom.fandom.com/wiki/Black_Pearl_Cookie Black Pearl Cookie] from the Action Role-Playing Gacha game [https://cookierunkingdom.fandom.com/wiki/Cookie_Run:_Kingdom_Wiki Cookie Run: Kingdom], with the rage skill being directly based on her skill "Duskgloom's Sovereign", and the weapon design itself.
+*Its tooltip also references the [https://en.wikipedia.org/wiki/Bermuda_Triangle Bermuda Triangle], an urban legend focused on a loose area of the North Atlantic Ocean where most planes and ships disappeared without any reason why.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

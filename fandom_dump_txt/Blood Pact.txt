@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Doubles your max HP<br/>Allows you to be critically hit 25% of the time<br/>After a critical hit, you gain various buffs for ten seconds<br/>Any healing potions consumed during this time period heal 50% more health
+| rare = 8
+| sell = {{value|0|12}}
+| stack = 1
+| hardmode = yes
+| buff = Bloody Boost | bufflink = no
+| duration = 10 seconds
+| bufftip = Increased offensive and defensive stats<br/>Healing potions grant more health
+}}
+|{{item drops infobox
+| [[Ravager]]|1|{{dv|33.33%|50%}}
+}}
+}}
+
+The '''Blood Pact''' is a [[Hardmode]] [[covering]] that drops from the [[Ravager]]. It doubles the player's max health when equipped, but allows [[enemies]] and projectiles to land critical hits at a 25% chance, which deal 2.25 times the normal damage. After being critically hit, the player gains the '''Bloody Boost''' [[buff]], which grants 5% damage, 20 [[defense]], 10% [[damage reduction]], increased [[immunity frames]] (identical to the [[Cross Necklace]]), increased life regeneration (identical to the [[Crimson armor]]), and increased [[Recovery Potions|healing potions]]' effectiveness by 50%.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The critical hit function of the covering causes enemies to deal 31.25% more damage on average. When this is combined with the doubled max hp, the covering gives roughly 52.38% extra maximum life. The 50% boosts to potion healing and life regen from Bloody Boost means that the player's overall healing is similar with this covering than without it. Having more max hp also increases life regen due to the [[tgc:Health regeneration#Technical explanation|life regen formula]].
+*The health potion increasing effect stacks additively with that of the Core of the Blood God.
+
+== Tips ==
+*This covering increases the effectiveness of the [[Hide of Astrum Deus]] by increasing the damage you take on average, resulting in a longer length and duration of the [[True melee]] damage increase.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Restorative coverings]]

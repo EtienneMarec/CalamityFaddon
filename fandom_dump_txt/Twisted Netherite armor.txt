@@ -1,0 +1,73 @@
+{{item infobox
+| type = Armor
+| defense = 175
+| rare = 13
+| sell = {{value|0|80}} (set)
+| setbonus = Dropped items no longer despawn over time or when exiting worlds {{sic}}<br/>All attacks inflict [[Wither]].
+| debuff = Wither
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| debufftip = Losing life...
+| hardmode = yes
+| postml = yes
+}}
+
+'''Twisted Netherite armor''' is a craftable Godseeker Mode [[Covering]] set. It requires 24 [[Twisted Netherite Bar]] to craft the entire set. If the entire set is visible (regardless of whether it is equipped or in social slots), the wearer will have a faint pulsing aura.
+
+It consists of a '''Twisted Netherite Helmet''', '''Twisted Netherite Chestplate''', '''Twisted Netherite Leggings''', and '''Twisted Netherite Boots'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*175 defense
+*50% damage reduction
+*200% increased damage
+*2% increased movement speed
+*Attacks inflict the [[Wither]] debuff.
+*All dropped items are intended to never despawn, even when reloading worlds.
+**Due to a bug, this currently does not work.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Twisted Netherite Helmet
+| type = Armor
+| defense = 20
+| body slot = Helmet
+| tooltip = 50% increased damage, 12.5% increased damage reduction
+| sell = {{value|0|24}}
+}}
+|{{item infobox
+| name = Twisted Netherite Chestplate
+| type = Armor
+| defense = 80
+| body slot = Shirt
+| tooltip = 50% increased damage, 12.5% increased damage reduction
+| sell = {{value|0|24}}
+}}
+|{{item infobox
+| name = Twisted Netherite Leggings
+| type = Armor
+| defense = 45
+| body slot = Pants
+| tooltip = 50% increased damage, 12.5% increased damage reduction
+| sell = {{value|0|24}}
+}}
+|{{item infobox
+| name = Twisted Netherite Boots
+| type = Armor
+| defense = 30
+| body slot = Boots
+| tooltip = 50% increased damage, 2% increased movement speed, 12.5% increased damage reduction
+| sell = {{value|0|24}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=Twisted Netherite Helmet/Twisted Netherite Chestplate/Twisted Netherite Leggings/Twisted Netherite Boots}}
+
+{{-}}
+{{Netherite}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

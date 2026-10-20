@@ -1,0 +1,33 @@
+{{npc infobox
+| environment = Abyss
+| type = Aquatic
+| knockback = {{dv|15%|23.5%}}
+| ai = Giant Squid AI
+| damage = {{element|Dark}} {{dv|100|200}}
+| life = {{dv|800|1600}}
+| defense = 18
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| banner = yes
+| money = {{value|0|10|5|0}}
+| hardmode = yes
+| custom | {{item|Depth Cells|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|2-4|3-6}}) | 50%
+| Torch God's Favor|99-100|{{dv|2.5%|4%}}
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Poison
+| vulnerable2 = Cold
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Dark
+| resistant3 = Stab
+}}
+
+The '''Lava Squid''' is an [[enemy]] that spawns around [[Scoria Ore]] in the [[Abyss]]. It moves slowly in random patterns, launching fireballs at players if it spots them. Lava squids can be easily spotted due to their bioluminescence.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

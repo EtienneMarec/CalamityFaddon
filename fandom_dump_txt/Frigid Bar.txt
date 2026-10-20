@@ -1,0 +1,34 @@
+{{Historical content}}
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 999
+| tooltip = Cold to the touch
+| rare = 5
+| sell = {{value|0|0|60|0}}
+| use = 14
+| placeable = yes
+| consumable = yes
+| auto = true
+| hardmode = yes
+| listexclude = yes
+}}
+|{{item drops infobox
+| [[Cryogen]]| {{dv|15-25|20-40}} | 100%
+}}
+}}
+{{distinguish|Cryonic Bar|a post-[[Cryogen]] [[bar]] crafted using [[Cryonic Ore]]s}}
+
+'''Frigid Bars''' were [[Hardmode]] [[bars]] dropped by [[Cryogen]]. They were used to make various ice-themed items.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}|historical=only}}
+
+{{historical}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

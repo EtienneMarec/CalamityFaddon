@@ -1,0 +1,30 @@
+{{item infobox
+| type = Potion
+| use = 17
+| stack = 9999
+| tooltip = The wonders of angiogenesis<br/>Grants a buff that boosts life regen for 10 seconds<br/>The life regen boost is stronger if below 75% health
+| hheal = 240
+| consumable = yes
+| rare = 12
+| sell = {{value|0|5}}
+| buff = Bloodfin Boost |bufflink=no
+| bufftip = Don't let the blood get to your head
+| duration = 10 seconds
+| hardmode = yes
+| postml = yes
+}}
+
+'''Bloodfin''' is a Godseeker Mode [[food item]] that is [[fishing|fished]] up in the [[Brimstone Crag]] once [[Providence, the Profaned Goddess]] has been defeated, at a 10% chance. It heals 240 health and grants the player the '''Bloodfin Boost''' [[buff]] on consumption which boosts the player's life regen by 5, and an additional 5 while the player is suffering from a damage over time [[debuff]]. Once consumed, the player receives [[Potion Sickness]] for 60 seconds. If the player is below 75% life, they receive an additional 4 life regen.
+
+== Notes ==
+*Bloodfins can be considered an indirect upgrade to [[Honeyfin]]s, given similar names and obtaining methods.
+*Bloodfins can be considered the alternative to [[Supreme Healing Potion]]s, as both are obtainable around the same time, and heal the player for a similar amount. However, the Bloodfin is arguably superior due to its life regen boosts, especially at low life, with only slightly less immediate healing.
+
+== Trivia ==
+*[[wikipedia:Angiogenesis|Angiogenesis]] in its tooltip refers to the process by which blood vessels are formed.
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}
+[[Category:Healing items]]

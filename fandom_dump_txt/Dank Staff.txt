@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| rare = 3
+| sell = {{value|0|0|80}}
+| damage = 7
+| mana = 10
+| use = 29
+| knockback = 2.25
+| tooltip = Summons a dank creeper to fight for you
+| buff = Dank Creeper (buff) | bufflink= no
+| bufftip = The dank creeper will protect you
+| auto = yes
+| stack = 1
+| element1 = Unholy
+}}
+|{{item drops infobox
+|[[The Hive Mind]]|1|{{dv|25%|33.33%}}
+}}
+}}{{summoned|Dank Creeper (minion)|type=minion}}
+
+The '''Dank Staff''' is a craftable [[Pre-Hardmode]] [[summon weapon]] that can also be dropped by [[The Hive Mind]]. It is statistically identical to its [[Crimson]] counterpart, the [[Blood Clot Staff]]. When used, it summons a small dank creeper minion, which deals contact damage and will stay on enemies for as long as possible.
+
+{{Modifier|summonalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Tips ==
+*The Dank Staff is very helpful for multiple enemies stacked in one location, so it can be good for [[tgc:Events|invasions]].
+*Although its base damage is lower than other summons of the same tier, the dank creeper's tendency to hover on top of enemies causes it to deal damage rapidly.
+
+{{Rotten Matter}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

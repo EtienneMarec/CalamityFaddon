@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = ranged
+| rare = 3
+| sell = {{value|0|0|80}}
+| damage = 65
+| critical = 29%
+| use = 60
+| knockback = 7.5
+| auto = yes
+| tooltip = Converts musket balls into slow-moving blood clots
+| stack = 1
+| velocity = 22
+| proj = Blood Clot Bullet.png
+| projcaption = Blood Clot
+| element1 = Unholy
+}}
+|{{item drops infobox
+|[[The Perforators]]|1|{{dv|25%|33.33%}}
+}}
+}}
+The '''Eviscerator''' is a craftable [[Pre-Hardmode]] [[gun]] that can also be dropped by [[The Perforators]]. When [[Musket Ball]]s are used as [[ammo]], it fires a medium-speed blood clot projectile that does a large amount of damage for its tier. However, the Eviscerator has one of the slowest firing speeds of all ranged weaponry, meaning it has a somewhat low DPS, despite the high base damage. The blood clot does not pierce enemies.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not have a [[Corruption]] variant.
+
+== Trivia ==
+*If the player has the "Blood and Gore" [[tgc:Setting|Setting]] turned off, the projectile will look like clouds instead of blood.
+
+{{Blood Sample}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

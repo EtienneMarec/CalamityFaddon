@@ -1,0 +1,47 @@
+{{addon|Deimos, the Starborn Princess}}
+{{npc infobox
+| type = Flying Enemy
+| environment = Blood Moon
+| ai = Charm Gar AI
+| damage = {{element|Water}}{{element|Unholy}} {{dv|200|300}} (Contact)<br/>{{element|Fire}}{{element|Unholy}} {{dv|120|150}} (Bloodflare Bomb)<br/>{{element|Fire}}{{element|Unholy}} {{dv|75|120}} (Bloodflare Fireball)
+| life = {{dv|65,000|95,000}}
+| defense = 45
+| dr = 25
+| knockback = 100
+| banner = no
+| money = {{pc|1}}
+| Blood Orb | 30-75 | 100%
+| Bloodstone | 35-50 | 100%
+| Bloodstone Bar | {{dv|8-15|10-20}} | 100%
+| Bloodflare Rod | 1 | {{dv|25%|50%}}
+| immune1 = Confused
+| immune2 = Brimstone Flames
+| immune3 = Burning Blood
+| immune4 = Crush Depth
+| debuff = Crush Depth
+| debuffchance = 100% 
+| debufftip = Aquatic pressure
+| duration = 5 seconds (Contact)
+| debuff2 = Brimstone Flames
+| debuffchance2 = 100% 
+| debufftip2 = Rapid health loss
+| duration2 = 2.5 seconds (Contact)<br/>6 seconds (Bloodflare Bomb)<br/>{{dv|3||4}} seconds (Bloodflare Fireball)
+| hardmode = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_14.wav
+| sound = Item_122.wav
+| soundtext = Bloodflare Bomb
+| vulnerable1 = Cold
+| vulnerable2 = Poison
+| vulnerable3 = Stab
+| vulnerable4 = Machine
+| resistant1 = Fire
+| resistant2 = Water
+| resistant3 = Unholy
+}}
+
+The '''Charm Gar''' (Japanese: チャームガー ''Chāmugā'') is a Godseeker Mode [[mini boss]] summoned by [[fishing]] during a [[Blood Moon]] after [[Providence, the Profaned Goddess]] has been defeated. It behaves similarly to [[Duke Fishron]], repeatedly lunging towards the player 4 times while predicting their movement. After these dashes, it will stop and summon a large Bloodflare Bomb that follows the player for 2 seconds before exploding into an even spread of {{dv|8||||12}} Bloodflare Fireballs.
+
+The Charm Gar drops large amounts of [[Blood Orb]]s, [[Bloodstone]], and [[Bloodstone Bar]]s, as well as the [[Bloodflare Rod]].
+{{-}}
+{{DeimosMod}}

@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| image= Chaos Stone.gif
+| type = Covering
+| tooltip = One of the ancient relics<br/>Mana Sickness from drinking mana potions is replaced by Mana Burn<br/>Mana Burn deals damage over time relative to the intensity of the debuff<br/>This debuff does not reduce your magic damage
+| debuff = Mana Burn | debufflink = no
+| debufftip = The excess of mana sears your body and mind
+| sell = {{value|0|9|60}}
+| rare = 7
+| stack = 1
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Calamitas]]|1|20%
+}}
+}}
+
+The '''Chaos Stone''' is a [[Hardmode]] [[covering]] dropped by [[Calamitas]] with a 20% chance. While equipped, the [[Mana Sickness]] [[debuff]] is replaced by '''Mana Burn''', which deals damage over time to the player. The damage per second increases exponentially the more time is left on the debuff, peaking at 36 damage per second at the maximum duration.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Identically to Mana Sickness, the Mana Burn duration increases by 5 seconds every time a [[Mana Potion]] is consumed, and cannot exceed 10 seconds.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 71
+| use = 24
+| velocity = 10
+| knockback = 4.25
+| auto = yes
+| tooltip = Fires a blood ball that sticks to tiles and explodes
+| stack = 1
+| rare = 3
+| sell = {{value|0|0|80}}
+| proj = Blood Ball.png
+| projcaption = Blood Ball
+| element1 = Unholy
+}}
+|{{item drops infobox
+| [[The Perforators]]|1|{{dv|25%|33.33%}}
+}}
+}}
+[[File:Vein Burster (demo).gif|frame|The Vein Burster's swing animation. Notice how the orbs do not travel in a straight line, but are rather affected by gravity.]]
+
+The '''Vein Burster''' is a craftable [[Pre-Hardmode]] [[broadsword]] that also drops from [[The Perforators]]. When swung, it fires a small spherical projectile that deals damage to the target hit and sticks to the first surface it touches. After sticking onto a surface for 4 seconds, it explodes - emitting red projectiles and dealing damage to all enemies in a small radius. It is the [[Crimson]] counterpart to the [[Perfect Dark]].
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Blood Sample}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:血肉之雷]]

@@ -1,0 +1,48 @@
+{{dedicated|Prelzbus|Developer}}{{item infobox
+| type = Weapon
+| damage = 212
+| damagetype = Spy
+| knockback = 4
+| use = 19
+| tooltip = Shoots a shadow ball that ignores gravity and slows down after a short time.<br/>While stationary, it shoots spirits and covers an area in a large shadow<br/>Stealth strikes also emit dark pulses while stationary<br/>Right click to delete all existing shadow balls<br/>'They didn't understand its nature, so it was sealed away...'
+| auto = yes
+| stack = 1
+| velocity = 5
+| rare = 16
+| debuff = Shadowflame
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| debufftip = Losing life
+| sell = {{value|0|40|0|0}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Dark
+| element2 = Stab
+| element3 = Smash
+}}
+
+'''Shadow's Descent''' is a craftable Epilogue [[Spy]] [[Spiky balls|spiky ball]]. It throws up to 5 gravity-defying shadow balls that move slowly and decelerate to a stop after travelling a short distance. Once the ball comes to a stop, it will emit homing shadow spirits and create an aura that deals increasing damage to enemies lingering inside it. The balls will despawn after landing 50 enemy hits or after a long amount of time. Right-clicking with the weapon will delete all existing shadow balls. Shadow balls go through tiles and inflict the [[Shadowflame|Shadowflame debuff]] for 10 seconds.
+
+Performing a [[stealth strike]] with Shadow's Descent causes the next shadow ball to also emit dark pulses when it comes to a stop. The Shadow's Descent stealth strike pulse inflicts several debuffs:
+*[[Demon Flames]] (5 seconds)
+*[[God Slayer Inferno]] (10 seconds)
+*[[Nightwither]] (20 seconds)
+*[[Shadowflame]] (30 seconds)
+
+
+{{Modifier|Spy}}
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+==Trivia==
+*The weapon is a reference to the Dark Gaming Terraria server's zombies map called Shadow's Descent.
+**The tooltip's quote is a reference to the map being removed from the maps pool due to being difficult for newer players.
+**The recipe uses final weapon upgrades obtainable on the map.
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Spiky Balls]]

@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| stack = 1
+| damagetype = ranged
+| damage = 30
+| knockback = 3.25
+| rare = 10
+| sell = {{value|0|20}}
+| use = 16
+| auto = yes
+| velocity = 50
+| tooltip = Fires bubbles everywhere that pop into bullets
+| hardmode = yes
+| proj = Xenopopper (projectile).png
+| projcaption = Xenopopper
+| element1 = Magic
+| element2 = Water
+}}
+{{distinguish|Effervescence|a [[magic weapon]] that also fires bubbles}}
+
+The '''Vortexpopper''' is a craftable [[Hardmode]] [[gun]]. Much like the [[Xenopopper]], it fires bubbles which erupt into bullets after a short delay. The Vortexpopper fires many more bubbles than the Xenopopper and summons extra bubbles off-screen while in use, causing bullets to fly towards the cursor from every direction at once.
+
+{{Modifier|ranged}}
+
+[[File:Vortexpopper (demo).gif|frame|right|The Vortexpopper producing bubbles and launching bullets at a [[Target Dummy]].]]
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The Vortexpopper is especially potent when paired with [[Chlorophyte Bullet]]s or [[Verium Bullet]]s, as its inaccuracy will no longer be a concern. Be wary that the extreme number of glowing dust particles on screen can cause FPS to drop.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

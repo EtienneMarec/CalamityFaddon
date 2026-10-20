@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = melee
+| damage = 28
+| knockback = 5.5
+| rare = 1
+| sell = {{value|0|0|20}}
+| velocity = 5
+| use = 20
+| tooltip = Causes enemies to erupt into healing projectiles on death
+| element1 = Holy
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Tomb Crawler]]|1|{{dv|4%|6.67%}}
+}}
+}}
+The '''Burnt Sienna''' is a [[Pre-Hardmode]] [[broadsword]] that drops from [[Tomb Crawler]]s. When swung, the blade releases cosmetic light particles. Upon killing an enemy, three small, bright-yellow orbs will shoot out, which will [[Lifesteal|heal]] the player for 3 HP when picked up.
+
+{{modifier|melee}}
+
+== Notes ==
+*The orbs spawned by upon killing an enemy will home-in on the player if they have the [[Heartreach]] [[buff]].
+
+== Trivia ==
+*"Burnt sienna" is a reddish-brown color, which this sword approximately features.
+*The Burnt Sienna was formerly used to craft the [[Terra-cotta]].
+
+[[File:Burnt Sienna (demo).gif|frame|left|The Burnt Sienna's swing animation. Notice how orbs only heal the player when picked up.]]
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]][[Category:Healing items]]
+[[Category:True melee]]
+[[zh:灼炎弯刀]]

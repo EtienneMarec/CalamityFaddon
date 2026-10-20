@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Summons an aether valkyrie to fight for you
+| sell = {{value|0|4|80}}
+| rare = 5
+| damage = 45
+| damagetype = summon
+| hardmode = yes
+| buff = Cloud Elemental (buff) | bufflink = no
+| bufftip = The aether valkyrie will protect you
+| element1 = Slash
+| element2 = Wind
+| stack = 1
+}}
+|{{item drops infobox
+|[[Aether Valkyrie]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Cloud Elemental (minion)|name=Aether Valkyrie|type=minion}}
+The '''Eye of the Storm''' is a [[Hardmode]] [[covering]] which drops from the [[Aether Valkyrie]]. While equipped, it will summon a friendly Aether Valkyrie to fight for you. She fights by dashing repeatedly towards enemies.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Aether Valkyrie's attacks grant enemies 20 local [[immunity frames]].
+
+== Trivia ==
+*The Aether Valkyrie minion used to be called "Aether Waifu". After that, she was known as "Miss Aether".
+*If the {{fantag|Tranquility Mod}} [[Tranquility Mod]] is enabled, this item becomes unobtainable, due to being replaced with [[Elemental Souls|Aether Valkyrie's Soul]].
+
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

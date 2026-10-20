@@ -1,0 +1,194 @@
+{{Patch infobox
+| image = Sepulcher (1.2.4.204).png
+| patchname = Armor Rebalancing
+| release = 1/27/2018
+}}
+
+The '''1.2.4.204''' update rebalanced a large amount of the weapons obtained in the Godseeker Mode stage of the game along with rebalancing most of the mod's armor sets. It also added the [[Sepulcher]] [[boss servant]] to the [[Supreme Calamitas]] fight.
+{{toc limit|3|right=yes}}
+
+== Additions ==
+*Added [[Brimrose]].
+*Added [[Brimrose Mount]].
+*Added [[Brimstone Heart]] and [[Sepulcher]].
+
+== Changes ==
+
+=== Bosses and Enemies ===
+*[[Astrageldon Slime]] now drops {{dv|12-20|18-30}} [[Nebula Fragment|Nebula]], [[Solar Fragment|Solar]], [[Stardust Fragment|Stardust]], and [[Vortex Fragment]]s after the [[Moon Lord]] has been defeated.
+*[[Brimstone Elemental]] now drops the Brimrose in [[Revengeance Mode]] after [[Providence, the Profaned God]] has been defeated.
+*Buffed [[Bumblebirb]]'s health from {{dv|250,000|375,000|450,000|825,000}} to {{dv|380,000|570,000|750,000|1,125,000}}.
+*[[Cosmic Lantern]]s are now immune to [[Ichor (debuff)|Ichor]].
+*Renamed THE LORDE to [[SELF-INSERT BOSS UNCREATIVE AS FUCK BABY RAGE K U LOL BAI]].
+*The large [[Slime God]]s now teleport above the player if they are too far away from them.
+*[[Supreme Calamitas]] changes:
+**Bullet hells now last half as long.
+**Now has a new phase after her first bullet hell and at 8% life, which spawns 10 Brimstone Hearts based on arena size, along with the Sepulcher.
+**Halved the amount of time it takes for her projectiles to despawn upon reaching 1% life.
+**The fight must now last at least 75 seconds for her to drop loot instead of 150.
+**Increased the speed of her Brimstone Monsters.
+**Now directly spawns her brothers instead of using projectiles to spawn them.
+**Brimstone Darts now collide with tiles.
+**Brothers no longer despawn if the player is too far away.
+**Adjusted the brothers' speeds.
+**Reduced hitcap from {{dv|0|25|20|10}} to {{dv|0|20|15|5}}.
+**Simplified enemy spawn reduction code.
+
+=== Items ===
+*[[Galaxia]] now fires the fireballs from [[Cursed Flames]] while in [[The Corruption]] instead of [[Vilethorn]]'s projectile.
+*Tweaked [[Subsuming Vortex]]'s dusts.
+*[[Suspicious Looking Jelly Bean]] now blocks extra jumps from coverings like [[Cloud in a Bottle]].
+
+== Balance ==
+
+=== [[Covering]] and [[coverings]] ===
+*[[Aerospec armor]]'s set bonus no longer scales with the player's health and gives 5% critical strike chance and movement speed at all times.
+*Revengeance Mode [[Affliction]] changes:
+**Nerfed life regeneration boost from 4 to 3.
+**Nerfed damage reduction boost from 8% to 7%.
+**Nerfed defense boost from 45 to 40.
+**Nerfed damage boost from 15% to 12%.
+**Nerfed health boost from 20% to 15%.
+*[[Astral armor]] changes:
+**Set bonus no longer provides highly increased movement speed scaling with the player's health, and instead now grants 22% increased damage and critical strike chance along with an additional 25% increased movement speed.
+**Astral Helmet no longer provides damage and critical strike chance boosts.
+*[[Ataxia armor]] changes:
+**Set bonus no longer provides increased damage, defense, and critical strike chance as the player's health lowers, and instead provides a 5% increased damage and critical strike chance boost at all times.
+**Increased Ataxia Armor's damage boost from 5% to 8%.
+**Increased Ataxia Subligar's critical strike chance boost from 5% to 7%.
+**Chaos Spirit's chaos flares now last 2 seconds instead of 5.
+*[[Auric Tesla armor]] changes:
+**Set bonus no longer provides stat boosts as the player's health lowers.
+**Removed the second "and" from the line “20% increased damage and critical strike chance and +7 max minions" in the Helm's tooltip and replaced it with a comma.
+**Auric Tesla Body Armor now provides an 8% damage boost and a 5% critical strike chance boost.
+**Auric Tesla Cuisses now provide a 12% damage boost and a 10% critical strike chance boost.
+*[[Bloodflare armor]] changes:
+**Bloodflare Mask now provide a 10% damage and critical strike chance boost.
+**Increased Bloodflare Body Armor's defense from 33 to 35, and decreased its critical strike chance boost from 12% to 7%.
+**Bloodflare Body Armor's tooltip now specifies the critical strike chance boost it gives.
+**Bloodflare Cuisses now provide a 10% damage and critical strike chance boost.
+**Set bonus now has a cooldown between hits for when it can spawn [[Heart]]s and [[Mana Star]]s.
+*[[Daedalus armor]] changes:
+**Decreased Daedalus Brestplate damage and critical strike chance boosts from 5% to 3%.
+**Set bonus no longer provides increased damage, critical strike chance, and defense as health lowers, and instead provides a 5% damage and critical strike chance boost at all times.
+*[[Demonshade armor]] changes:
+**Rewrote Demonshade Helmet's tooltip to say "critical strike chance" instead of "crit. chance".
+**Changed Demonshade Breastplate's tooltip to say "critical strike chance" instead of "crit".
+*[[Elemental Quiver]] now splits projectiles 25% less often and split projectiles now deal 50% damage instead of 80%.
+*[[God Slayer armor]] changes:
+**Removed the second "and" from the line “14% increased damage and critical strike chance and +3 max minions" in the Helm's tooltip and replaced it with a comma.
+**God Slayer Leggings now provide a 10% damage and critical strike chance boost.
+*[[Reaver armor]] changes:
+**Set bonus no longer provides increased damage, critical strike chance, defense, and speed as the player's health lowers, and instead provides a 10% damage and speed boost and a 5% critical strike chance boost at all times.
+**Merged movement speed tooltip line with [[Lava]] and [[Cursed Inferno]] immunity tooltip line.
+**All five helmets now have the word "and" between the damage and critical strike chance boosts in their tooltips.
+**Reaver Cuisses now provide 9% increased damage and 4% increased critical strike chance instead of 5% increased damage and critical strike chance.
+*[[Silva armor]] changes:
+**Decreased Silva Helm's damage and critical strike chance boosts from 15% to 13%.
+**Silva Armor now provides a 12% damage and 9% critical strike chance boost.
+**Silva Leggings now provide a 12% damage and 10% critical strike chance boost.
+*[[Statigel armor]] changes:
+**Set bonus now provides a 10% damage and 7% critical strike chance boost instead of a 7% damage boost and 5% critical strike chance boost.
+**Set bonus no longer provides increased stats as the player's health lowers.
+*[[Tarragon armor]] changes:
+**Set bonus no longer provides increased stats as the player's health lowers.
+**Buffed Tarragon Helm's defense from 27 to 30.
+**Tarragon Helm now provides a 10% damage and critical strike chance boost.
+**Buffed Tarragon Breastplate's defense from 30 to 42, but lowered its critical strike chance boost from 10% to 5%.
+**Tarragon Leggings now provide a 10% damage and critical strike chance boost.
+*[[Victide armor]] changes:
+**Lowered set bonus' damage boost from 15% to 10%.
+**Victide Breastplate now provides a 5% critical strike chance boost.
+*[[Xeroc armor]] changes:
+**Set bonus no longer provides increased stats as the player's health lowers.
+**Increased Xeroc Mask's damage and critical strike chance boosts from 10% to 12%.
+**Xeroc Plate Mail now provides a 6% damage and critical strike chance boost.
+**Decreased Xeroc Plate Mail's movement speed boost from 12% to 6%.
+**Decreased Xeroc Cuisses' critical strike chance boost from 7% to 5%.
+
+=== [[Weapons]] ===
+*Buffed [[Aether's Whisper]]'s damage from 500 to 1000.
+*Nerfed [[Alluvion]]'s damage from 52 to 50.
+*The water spouts spawned by Alluvion and [[Monsoon]]'s typhoon arrows now only last 1 second instead of 2 and have a localNPCHitCooldown of 6 instead of 5.
+*Nerfed [[Anti-materiel Rifle]]'s damage from 4500 to 4000.
+*Nerfed [[Apoctosis Array]]'s damage from 75 to 58.
+*The [[Terrarian]] orbs, mini star cells, ichor shots, and water bolt projectiles from [[Ark of the Cosmos]] and Galaxia now pierce once.
+*Buffed [[Arterial Assault]]'s damage from 210 to 232.
+*Nerfed [[The Ballista]]'s damage from 110 to 90.
+*[[Banshee Hook]]'s blade projectiles now deal 1.75x the weapon's base damage.
+*Nerfed [[Biofusillade]]'s damage from 70 to 58.
+*Nerfed [[Blissful Bombardier]]'s damage from 95 to 85.
+*[[Briny Baron]]'s briny typhoons and razorwind blades now pierce three times instead of infinitely.
+*Nerfed [[Celestus]]' damage from 90 to 85.
+*Nerfed [[Claret Cannon]]'s damage from 280 to 255.
+*Buffed [[Cleansing Blaze]]'s damage from 120 to 150.
+*Buffed [[Cosmic Kunai]]'s damage from 90 to 108.
+*[[Cosmilamp]]'s cosmic lanterns are now more inaccurate and have a localNPCHitCooldown of 24 instead of 16.
+*Buffed [[Deathhail Staff]]'s damage from 90 to 100.
+*Buffed [[Deathwind]]'s damage from 160 to 200.
+*Buffed [[Devil's Devastation]]'s damage from 310 to 342.
+*Nerfed [[Effervescence]]'s damage from 38 to 23.
+*Nerfed [[Elemental Blaster]]'s damage from 90 to 73.
+*Nerfed [[Elemental Eruption]]'s damage from 30 to 26.
+*Nerfed [[Elemental Lance]]'s damage from 110 to 99.
+*Nerfed [[Elemental Ray]]'s damage from 180 to 171.
+*Nerfed [[Elemental Shiv]]'s damage from 150 to 135.
+*[[Elysian Arrow]]'s meteors now scale with the player's ranged damage instead of always dealing 100 damage.
+*Buffed [[Energy Staff]]'s damage from 210 to 231.
+*Buffed [[The Enforcer]]'s damage from 825 to 1650.
+*Buffed [[Essence Flayer]]'s damage from 220 to 280.
+*Buffed [[Ethereal Subjugator]]'s damage from 200 to 240.
+*Buffed [[Excelsus]]' damage from 140 to 161.
+*Nerfed [[Fate's Reveal]]'s damage from 73 to 60.
+*Nerfed Galaxia's damage from 130 to 98.
+*Nerfed [[Genisis]]' damage from 35 to 24.
+*Buffed [[Gilded Proboscis]]' damage from 228 to 320.
+*Buffed [[The God's Gambit]]'s damage from 26 to 28.
+*Buffed [[Golden Eagle]]'s damage from 115 to 145.
+*Nerfed [[Greatsword of Judgement]]'s damage from 66 to 58.
+*Buffed [[Holy Collider]]'s damage from 160 to 400.
+*Nerfed [[Holy Fire Bullet]]'s damage from 25 to 23, and its explosions now deal 33% damage.
+*Buffed [[Magnetic Meltdown]]'s damage from 90 to 127.
+*Nerfed [[Mineral Mortar]]'s damage from 41 to 27.
+*Buffed [[Minigun]]'s damage from 260 to 310.
+*Buffed [[Mirror Blade]]'s damage from 220 to 260, and decreased its use time from 14 to 9.
+*Nerfed [[Mistlestorm]]'s damage from 80 to 75.
+*Buffed [[Molecular Manipulator]]'s damage from 530 to 636.
+*Nerfed Monsoon's damage from 63 to 52.
+*Buffed [[Mourningstar]]'s damage from 290 to 330.
+*Increased [[Murasama]]'s size and decreased its localNPCHitCooldown from 3 to 2.
+*Buffed [[The Mutilator]]'s damage from 420 to 630.
+*Nerfed [[Napalm Arrow]]'s fire shard damage from 30 to 12.
+*Buffed [[Neptune's Bounty]]'s damage from 265 to 330.
+*Nerfed [[Nettlevine Greatbow]]'s damage from 110 to 104.
+*Buffed [[Nuclear Fury]]'s damage from 80 to 92.
+*Buffed [[The Obliterator]]'s damage from 55 to 88.
+*Buffed [[Phangasm]]'s damage from 120 to 220.
+*Buffed [[Phantasmal Fury]]'s damage from 300 to 400.
+*Buffed [[Primordial Ancient]]'s damage from 190 to 230.
+*Buffed [[Purge Guzzler]]'s damage from 39 to 80.
+*Buffed [[Sanguine Flare]]'s damage from 165 to 182.
+*Buffed [[SDFMG]]'s damage from 140 to 172.
+*Buffed [[Shadowbolt Staff]]'s damage from 113 to 126.
+*[[Shredder]]'s energy blasts now deal 75% of the weapon's base damage instead of dealing full damage.
+*[[Shroomer]]'s mushroom projectile now penetrates 2 times instead of 5 and lasts for 2 seconds instead of 5.
+*Buffed [[Solar Flare]]'s damage from 80 to 88.
+*Buffed [[Solstice Claymore]]'s damage from 270 to 300.
+*Buffed [[Soul Piercer]]'s damage from 120 to 150.
+*Buffed [[Stellar Striker]]'s damage from 320 to 640.
+*Nerfed [[The Storm]]'s damage from 80 to 44.
+*Buffed [[Storm Surge]]'s damage from 18 to 22, and decreased its use time from 22 to 15.
+*Buffed [[Stream Gouge]]'s damage from 230 to 280.
+*Buffed Subsuming Vortex's damage from 110 to 130.
+*Buffed [[T1000]]'s damage from 142 to 174.
+*Buffed [[Terror Blade]]'s damage from 200 to 330.
+*Buffed [[Vanquisher Arrow]]'s damage from 18 to 33.
+
+=== Other ===
+*Reduced the strength of [[Extreme Gravity]] and [[Icarus' Folly]]'s horizontal velocity debuffs.
+*Being inflicted with [[Vulnerability Hex]] no longer instantly kills the [[Nurse]].
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

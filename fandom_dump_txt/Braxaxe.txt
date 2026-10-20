@@ -1,0 +1,48 @@
+{{addon|Deimos, the Starborn Princess}}
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 100
+| pick = 299
+| axe = 3001
+| hammer = 3001
+| knockback = 0
+| rare = 15
+| tooltip = Left click to rip apart blocks and trees<br/>Right click to tear down trees and walls
+| use = 1
+| toolspeed = 1
+| bonus = +20 range
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| element1 = Smash
+| element2 = Stab
+}}
+
+The '''Braxaxe''' is a craftable Godseeker Mode [[Pickaxe]], [[Axe]], and [[Hammer]] combination. When used with the left mouse button, it will quickly mines tiles and [[trees]]. And when used with the right mouse button, it will quickly mine trees and [[walls]]. It has a range twenty tiles larger than most other tools.
+
+Mining [[Primordial Ore]] with the tool will drop the ore in its direct item form.
+
+Its best [[modifier]] is '''Godly''' or '''Demonic'''. Both modifiers increase its average damage output by the same amount.
+
+{{tota}} With the Calamity: Tales of the Aquatic addon Enabled, its pickaxe power gets changed to 300% making it capable of mining [[Esseric Ore]]
+== Crafting ==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The name of the tool is a reference to the [https://terrariamods.fandom.com/wiki/SGAmod/Braxsaw Braxsaw] drill from the [https://forums.terraria.org/index.php?threads/sgamod.78876/ SGAmod].
+{{-}}
+{{Exo}}
+{{DeimosMod}}
+[[Category:True melee]]
+[[Category:Pickaxes]]
+[[Category:Axes]]
+[[Category:Hamaxes]]
+[[Category:Hammers]]

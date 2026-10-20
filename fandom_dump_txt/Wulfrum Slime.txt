@@ -1,0 +1,40 @@
+{{npc infobox
+| imagealt = <Tabber>
+Default=[[File:Wulfrum Slime.png]]
+|-|
+Supercharged=[[File:Wulfrum Slime (Supercharged).png]]
+</Tabber>
+| type = Slime
+| environment = Surface
+| ai = Slime AI
+| damage = {{dv|8|16}}
+| life = {{dv|12|24}}
+| defense = 2
+| knockback = 100
+| banner = yes
+| immune1 = Kami Flu
+| immune2 = Poisoned
+| money = {{value|0|0|0|30}}
+| custom | {{item|Wulfrum Metal Scrap|wrap=y}} (1-2) {{expert|+1 extra}} | 100%
+| custom | {{item|Energy Core|note=(While supercharged)|wrap=y}} | 100%
+| Gel | 1-3 | 100%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| resistant1 = Machine
+| resistant2 = Smash
+| vulnerable1 = Stab
+| vulnerable2 = Slash
+}}
+
+The '''Wulfrum Slime''' is a [[Pre-Hardmode]] [[slime]]. It spawns in a semi-transparent stealth mode, and won't move until approached by a player, which will cause it to activate, and gain a shield. It is immune to knockback.
+
+It can be supercharged by the [[Wulfrum Pylon]] enemy, causing its lights to turn from green to blue, and causing its jumps to end in a small explosion.
+
+== Trivia ==
+*It had previously been removed from the mod during the update which added several [[Wulfrum Enemies]], but was added back into the mod in its reworked form later.
+**At the time of its removal, it did not spawn naturally, the only way of it existing in a world was through manual spawn options from other mods. (e.g. Cheat Sheet)
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

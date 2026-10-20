@@ -1,0 +1,33 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| damage = 900
+| damagetype = Ranged
+| knockback = 0
+| use = 34
+| velocity = 34
+| tooltip = creates 4 lines and fires very fast bullets on them
+| rare = C3
+| sell = {{value|2}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Water
+| element2 = Fire
+}}
+The '''Ghoststreaker''' is a craftable Post-[[Purgatory Arbiter, Umbrus]] [[gun]]. It creates 4 lines that deal 900 damage per second, it periodically fires bullets on those line, the bullets deal 1100 damage
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

@@ -1,0 +1,626 @@
+{{patch infobox
+| image = Squirrel Squire Staff.png
+| patchname = Deathly Balancing
+| release = 3/9/2020
+| pair = 1.4.3.001 (music)
+}}
+
+The '''1.4.3.002''' (or '''1.4.3.2''') update included a few additions, more changes to [[Death Mode]], balance changes, resprites, and minor bug fixes.
+
+{{toc limit|3|right=yes}}
+== Additions ==
+*Added [[Abandoned Slime Staff]], [[Deific Thunderbolt]], [[Prideful Hunter's Planar Ripper]], and [[Squirrel Squire Staff]].
+*Added [[Ancient God Slayer Chestplate]], [[Ancient God Slayer Helm]], and [[Ancient God Slayer Leggings]].
+*Added [[Astral Jelly (buff)|Astral Jelly]] and [[Squirrel Squire (buff)|Squirrel Squire]] [[buffs]].
+*Added [[Bobbit Hook]].
+*Added [[Brimstone Jewel]].
+*Added [[Fearless Goldfish Warrior Banner]] and [[Radiator Banner]].
+*Added the [[Galvanic Corrosion]] [[debuff]].
+*Added unsafe [[Brimstone Slag Wall]] <!-- Naturally generating only -->, and [[Sulphurous Sand Wall]].
+*Added [[Sulphurous Sandstone]], and [[Sulphurous Sandstone Wall]] as [[unobtainable items]].
+*Added [[Mod Calls]] for detecting and setting [[Abyss]] light levels, and Death Mode heat and cold immunity.
+
+== Changes ==
+=== Bosses ===
+==== General ====
+*Each [[Adrenaline]] and [[Rage]] upgrade now only drops if said upgrade hasn't been consumed yet.
+*Death Mode natural spawns for time sensitive bosses can now only happen during the beginning of their respective time conditions.
+
+==== [[Astrum Aureus]] ====
+*Increased the drop rates for the [[Borealis Bomber]] and [[Nebulash]] from {{dv|20%|25%}} to {{dv|25%|33.33%}}.
+
+==== [[Astrum Deus]] ====
+*Now takes 20% damage from [[The Empyrean]] instead of 30%.
+*Now takes 50% damage from [[Eldritch Tome]], [[Lazhar]], [[Resurrection Butterfly]], [[Tome of Fates]], and bee projectiles.
+
+==== [[Brimstone Elemental]] ====
+*Telegraph ray can now pass through tiles.
+
+==== [[Bumblebirb]] ====
+*Nerfed clone health from {{dv|25,000|50,000|60,000}} to {{dv|20,000|40,000|50,000}}.
+*Reworked lightning feathers, they now float for 2 seconds, home in on a player, slow down, then predictively shoot towards the player instead of only shooting towards the player once.
+
+==== [[Calamitas]] ====
+*Brothers now have a separate health bar from Calamitas.
+
+==== [[Ceaseless Void]] ====
+*[[Dark Energy|Dark Energies]] no longer despawn unless Ceaseless Void isn't active.
+
+==== [[Cryogen]] ====
+*No longer rains down ice while above the player.
+*No longer drops [[Ice Star]]s.
+*[[Aurora Spirit]]s and [[Cryocore]]s now emit more light.
+*Projectiles now emit light.
+
+==== [[Desert Scourge]] ====
+*No longer drops the [[Angler Tackle Bag]].
+
+==== [[The Destroyer]] ====
+*Upon reaching {{dv|0|0|50%|100%}} health, The Destroyer will begin to move more similarly to a [[Wyvern]] compared to a regular worm enemy. When it moves like this, it will move more in the air and will not use the ground to accelerate towards mid-air players.
+*No longer fires lasers if a player is too close to its body in Revengeance Mode.
+*Now takes 50% damage from [[Hell Burst]].
+
+==== [[The Devourer of Gods]] ====
+*No longer inflicts [[Darkness]] on contact.
+*Decreased Death Mode speed boosts.
+
+==== [[Golem]] ====
+*Revengeance Mode's head now sticks to its body better.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Tornado spawning flares no longer idly produce dust.
+*Tornadoes are now forced to spawn at most 26 blocks below the player.
+*Infernado spawning flares are now 50% larger.
+*Infernadoes are now smaller and sway less.
+*Infernadoes now last for 12 seconds instead of 10.
+
+==== [[Lunatic Cultist]] ====
+*Ancient Lights are now immune to damage for a longer period of time in Revengeance Mode.
+*Now takes 60% damage from Resurrection Butterfly instead of 50%.
+
+==== [[Moon Lord]] ====
+*Now spawns True Eyes of Cthulhu in Revengeance Mode. <!-- Ft. a new reworked AI compared to when removed -->
+*Reduced the Moon Lord's base aggression, but it now increases with each True Eye of Cthulhu out.
+
+==== [[The Perforators]] ====
+*Each worm now has a separate health bar from the hive.
+
+==== [[The Plaguebringer Goliath]] ====
+*Decreased missile spread from 90 degrees to 60, but increased the missile count from 5 to 8.
+*Increased missile speed during Boss Rush from 9 to 12, and missiles now gain extra speed while enraged.
+*Tweaked missile pattern.
+*Reduced timings between dashes.
+
+==== [[Polterghast]] ====
+*Polterghast's clone is now invincible.
+*No longer gains damage reduction while its clone is alive.
+*Increased [[Ruinous Soul]] drop count from {{dv|5-8|6-10}} to {{dv|7-15|10-20}}.
+*Increased phase 1's damage reduction from 10% to 15%, phase 2's damage reduction from 15% to 20%, and phase 3's damage reduction from 35% to 50%.
+*Will now despawn if it can't find a target.
+
+==== [[Profaned Guardians]] ====
+*The main guardian no longer gains increased spear fire rates in Death Mode.
+
+==== [[Providence, the Profaned Goddess]] ====
+*Increased base damage reduction from 25% to 35%.
+*Reordered attack pattern. <!-- This is incredibly difficult to word specifically due to the sheer amount of phases -->
+*Cocoon flames now move inwards if the player is too close to Providence.
+*Holy Flares now last for 14 seconds instead of 10.
+*Now despawns her Holy Flares and Holy Fire projectiles when she goes into a cocoon phase.
+*Attack rates no longer scale with active guardians at {{death|20%}} health instead of {{death|25%}}.
+
+==== [[Queen Bee]] ====
+*Charges are now sped up while enraged.
+
+==== [[Ravager]] ====
+*Claws now have a longer delay before they can launch after spawning.
+*Body parts can no longer despawn unless the body isn't active.
+
+==== [[Skeletron]] ====
+*Skeletron and its hands no longer take 85% damage from [[Gael's Greatsword]]'s projectiles.
+*Hands now teleport along with its head.
+
+==== [[The Slime God]] ====
+*Buffed the core's health from {{dv|3000|4800|6000}} to {{dv|4000|6400|8000}}.
+*Nerfed the split Ebonian Slime God's health from {{dv|2000|3200|4400}} to {{dv|1000|1600|2200}}.
+*Nerfed the split Crimulan Slime God's health from {{dv|1750|2800|3851}} to {{dv|875|1400|1928}}.
+*Buffed Flying [[Corrupt Slime Spawn]]'s health from {{dv|160|320}} to {{dv|180|360}}.
+*The core can now enter the large slimes and empower them.
+*In phase 2, the core will now occasionally teleport near the player then circle them while firing balls.
+*Decreased overall speed of large slimes.
+*Flying Corrupt Slime Spawns no longer accelerate in speed.
+*No longer drops [[Gel Dart]]s.
+*Increased opacity on the core, the large slimes, and all slime spawns.
+
+==== [[Siren and Leviathan]] ====
+*The Leviathan's speed at which she vertically lines up with the player now increases at {{revengeance|66%}} and {{revengeance|33%}} health instead of {{revengeance|25%}} and {{revengeance|10%}}.
+
+==== [[Supreme Calamitas]] ====
+*Will now start flashing red before dashing.
+*Decreased frequency of most projectile spawns during 4th and 5th bullet hells.
+*Doubled the spawn frequency of Brimstone Giga Blasts in her 4th bullet hell.
+*Brimstone Monsters now despawn upon entering her acceptance phase.
+*No longer spawns Brimstone Monsters during her fifth bullet hell.
+*Brimstone Monsters now push each other away.
+*Brimstone Monsters move slower if any [[Soul Seeker]]s are alive.
+*Skulls now move less harshly vertically, but last for 20 seconds instead of 10.
+
+==== [[Wall of Flesh]] ====
+*Adjusted health based speed boosts in Death Mode.
+*Scraps now last for 18 seconds.
+
+=== Enemies ===
+*[[Abyss Shocker]]'s drop rate is now affected by [[Defiled Rune]].
+*Multiple [[Bobbit Worm]]s can now exist at once.
+*[[Calamity Eye]] changes:
+**Now spawns in the [[Brimstone Crag]] at any time instead of the surface at night after [[Plantera]] has been defeated.
+**Now inflicts [[Horror]] for 3 seconds.
+**Now has a 33.33% chance to drop an [[Essence of Chaos]] in Hardmode, and a 50% chance to drop [[Bloodstone]] after Providence, the Profaned Goddess has been defeated.
+**Now gains increased stats after Providence, the Profaned Goddess has been defeated.
+*[[Charred Slime]] changes:
+**Now spawns in the Brimstone Crag instead of all of the Underworld.
+**Decreased minimum coin drop count from {{sc|10}} to {{sc|5}}.
+**Now inflicts Horror for 3 seconds.
+**Now has a 33.33% chance to drop an Essence of Chaos in Hardmode, and a 50% chance to drop Bloodstone after Providence, the Profaned Goddess has been defeated.
+**Now gains increased stats after Providence, the Profaned Goddess has been defeated.
+*Decreased Death Mode [[Cnidrion]]'s speed.
+*Added new Death Mode AIs:
+**[[tgc:Devourer|Devourer]]s, [[Digger]]s, [[World Feeder]]s, and [[Dune Splicer]]s gain the ability to split.
+**Most Worm AI enemies are longer, faster, and have more defense.
+**Plant AI enemies gain longer range and faster charges.
+**[[Antlion]]s now vomit a large shotgun blast of [[Sand Block]]s.
+**[[tgc:Spike Ball|Spike Ball]]s gain a longer chain and faster rotation speed.
+**Hovering AI enemies hover higher and are more aggressive.
+**[[Unicorn]], [[Herpling]], [[Giant Tortoise]], [[Mimic]], [[Corite]], and [[Martian Probe]] AI enemies are more aggressive. 
+**[[Tesla Turret]]s have predictive aim.
+**Mothron Eggs gain extra defense, are larger, and can hatch into fully grown Mothrons.
+*Various enemies have lost immunities to [[debuffs]]. A full list can be found below:
+{{collapse top}}
+*All vanilla bosses, all Thorium bosses in Revengeance Mode, [[Mothron]], and [[Old One's Army]] enemies are now immune to [[Pearl Aura]].
+*All enemies and bosses during the [[Boss Rush]] are now immune to Eutrophication, Exo Freeze, Glacial State, Pearl Aura, Silva Stun, Slow, Temporal Sadness, Tesla Freeze, Time Distortion, and Webbed, and are additionally immune to the [[Spiteful Candle]].
+*Small Desert Scourges, The Perforators, all of the Slime God's large slimes, and Calamitas' brothers are now immune to Glacial State, Temporal Sadness, Time Distortion, Tesla Freeze, Eutrophication, Pearl Aura, Webbed, and Slow.
+*[[Astral Infection]] enemies are now immune to [[Astral Infection (debuff)|Astral Infection]].
+*Astrum Aureus is no longer immune to [[Celled]], [[Dryad's Bane]], and [[Oiled]].
+*Brimstone Elemental, [[Brimling]], Calamitas and her brothers, Cryogen, [[Great Sand Shark]], [[The Leviathan]], [[The Siren]], all 3 [[Profaned Guardians]], [[Ravager]]'s body, and [[Signus, Envoy of the Devourer]] are no longer immune to Astral Infection, Celled, Dryad's Bane, and Oiled.
+*Bumblebirb is no longer immune to [[Betsy's Curse]] and [[Daybroken]], and its clones are no longer immune to [[Abyssal Flames]], [[Armor Crunch]], [[Demon Flames]], [[God Slayer Inferno]], [[Nightwither]], [[Shred]], [[Silva Stun]], and [[Whispering Death]].
+*Calamitas' Soul Seekers are no longer immune to Abyssal Flames, Armor Crunch, [[Cursed Inferno]], Daybroken, Demon Flames, [[Frostburn]], God Slayer Inferno, Holy Flames, [[Marked for Death]], Nightwither, Plague, Shred, Silva Stun, Sulphuric Poisoning, and Whispering Death.
+*Small [[Desert Scourge]] head segments are no longer immune to all debuffs, and their body and tail segments are no longer immune to Glacial State.
+*[[Giant Clam]] is no longer immune to every debuff except [[Ichor (debuff)|Ichor]] and Cursed Inferno, and is now only immune to Eutrophication, Galvanic Corrosion, Glacial State, Pearl Aura, Slow, Temporal Sadness, Tesla Freeze, Time Distortion, and Webbed.
+*Great Sand Shark is no longer immune to God Slayer Inferno.
+*The Plaguebringer Goliath is no longer immune to Celled and Oiled.
+*Polterghast and its clone are no longer immune to Celled, Daybroken, and Oiled.
+*Providence, the Profaned Goddess and her attacker guardian are no longer immune to Astral Infection, Betsy's Curse, and Celled.
+*Providence, the Profaned Goddess' healer and defender guardians are no longer immune to Astral Infection, Betsy's Curse, Celled, and Oiled.
+*The Slime God's large slimes and The Perforators are now immune to Time Distortion.
+{{collapse bottom}}
+*Reduced the speed of Death Mode [[Demon Eye]] and Flying AI enemies.
+*[[Depth Crusher]] is now dropped from [[Moray Eel]]s instead of [[Shark]]s.
+*[[Dungeon Guardian]]s now have 90% less health.
+*[[Eradicator]]'s variants now share their drop chance.
+*Juvenile [[Eidolon Wyrm]]s now only drop [[Ectoplasm]] after Plantera has been defeated.
+*[[Fearless Goldfish Warrior]] now gains extra contact damage in [[Revengeance Mode]].
+*Increased the animation speeds for [[Impious Immolator]]s.
+*[[Slurper Pole]]'s drop rate now decreases to 3.33% in [[Hardmode]].
+*Decreased [[Titan Arm]]'s drop rate from 100% to 14.29%.
+
+=== Balance and Reworks ===
+*Buffed [[Abyss Shocker]]'s damage from 21 to 28, and its use time from 20 to 19.
+*[[Abyssal Mirror]] now increases stealth generation by 30% while standing still and 20% while moving instead of 15% only while moving.
+*[[Aftershock]] now has a localNPCHitCooldown value of 10.
+*Nerfed [[Aquashard Shotgun]]'s use time from 25 to 26.
+*[[Fractured Ark|Ark of the Ancients]] and [[True Ark of the Ancients]]' beams now pierce once instead of twice, and true melee hits and beams no longer inflict [[Brimstone Flames]], Glacial State, [[Holy Flames]], and [[Plague]].
+*Nerfed [[Ark of the Cosmos]]' damage from 680 to 500.
+*Nerfed [[Ark of the Elements]]' damage from 126 to 116, and its projectiles now deal 50% of the weapon's damage instead of 100%.
+*[[Asgardian Aegis]] now provides immunity to God Slayer Inferno.
+*Nerfed [[Astral Blaster]]'s damage from 150 to 120.
+*Nerfed [[Astral Bow]]'s damage from 110 to 90, its use time from 4 to 5, and its use animation from 12 to 15.
+*Buffed [[Astral Staff]]'s use time from 35 to 18, its crystals now travel twice as fast, and its explosions now deal the weapon's damage and knockback instead of a flat 50 and 4 respectively.
+*Nerfed [[Astreal Defeat]]'s damage from 150 to 140, its use time from 3 to 4, and its use animation from 15 to 20.
+*[[Ataraxia]] changes:
+**Nerfed damage from 5600 to 3651, and use time from 17 to 18.
+**Main and side rockets no longer use local NPC immunity.
+**Main rocket now infinitely penetrates and has a localNPCHitCooldown value of 10 when exploding.
+**Needle rockes now deal 5% of the weapon's damage instead of 7.5%, and have a localNPCHitCooldown value of 6 instead of 3.
+*Increased [[Baguette]]'s [[Well Fed]] buff duration from 20 minutes to 80.
+*[[Ballistic Poison Bomb]]'s clouds now deal 30% of the weapon's damage instead of 50%, and its clouds now have a localNPCHitCooldown value of 40 instead of 30.
+*Increased [[Barinade]]'s use time from 20 to 26, its arrows now have knockback, and its arrows now deal 60% of the weapon's damage.
+*Decreased [[Bat Wings]]' night and Solar Eclipse defense boost from 20 to 15, its damage boost from 15% to 10%, and its critical strike chance boost from 7% to 5%. Additionally, it no longer boosts movement speed and its jump speed boost now only takes effect at night or during a Solar Eclipse.
+*[[Beastial Pickaxe]] and [[Wulfrum Pickaxe]] now have 1 tile of extra reach.
+*The [[Broken Biome Blade|Biome Blade]] line now accounts for the Astral Infection:
+**Ark of the Cosmos and [[Galaxia]] now grant the [[Gravity Normalizer]] buff, and spawn astral star projectiles.
+**All five weapons now inflict the Astral Infection debuff.
+**The Biome Blade, [[True Biome Blade]], and [[True Biome Blade|Omega Biome Blade]]'s beams now turn orange.
+*Increased [[Blast Barrel]]'s chance to spawn shrapnel from 25% to 33%, but its molotov sparks now deal 75% of the weapon's damage instead of 100%, last for 5 seconds, and no longer infinitely penetrate.
+*[[Blossom Flux]]'s spore bombs now deal 400% of the weapon's damage instead of 600%, and its spore gases now deal 25% of the bomb's damage instead of 50%.
+*Buffed [[Celestus]]' damage from 850 to 1130.
+*[[Chaos State]] now disables teleports instead of causing the player to take 25% more damage. <!-- Former was rev+-->
+*[[Charged Dart Blaster]] changes:
+**Nerfed damage from 126 to 100.
+**Now fires a spread of 2-4 darts in addition to its charged blast with its primary fire.
+**Primary fire blast now deals 50% of the weapon's damage instead of 100%.
+**Alt fire now deals 200% of the weapon's damage instead of 85%.
+*Nerfed [[Clockwork Bow]]'s damage from 70 to 50.
+*[[Cnidarian]]'s shells now deal 50% of the yoyo's damage instead of 33%.
+*[[Cosmic Rainbow]]'s rainbows now have a localNPCHitCooldown value of 10.
+*[[Craw Carapace]], [[Demonshade Breastplate]], [[Fabled Tortoise Shell]], and [[Giant Tortoise Shell]]'s contact damages are now additive instead of set.
+*[[Crystyl Crusher]] changes:
+**Reworked, now fires a beam that goes to the player's cursor when channeling left click instead of firing blasts of dust on right click.
+**Increased use time from 1 to 5.
+**Now has a custom use sound instead of Item1.
+*[[Dark God's Sheath]] now increases stealth generation while moving instead of standing still.
+*Depth Crusher is now a hammer.
+*[[Devastation]]'s blasts now deal 50% of the weapon's damage instead of 100%.
+*Buffed [[Devil's Devastation]]'s damage from 470 to 520.
+*Devil's Devastation, [[Forbidden Oathblade]], and [[True Forbidden Oathblade]]'s scythes now always set target immunity frames to 10 instead of scaling with progression.
+*Nerfed [[Disseminator]]'s damage from 55 to 50, its use time from 21 to 23, and its bullets now deal 70% of the weapon's damage instead of 100%.
+*Buffed [[Dragon Pow]]'s damage from 3900 to 4500.
+*Buffed [[Drataliornus]]' damage from 640 to 700.
+*[[Eclipse Mirror]] changes:
+**Now increases rogue damage and critical strike chance by 6% instead of 8%.
+**Now causes stealth to generate 20% faster while standing still, and to increase exponentially while moving instead of 20% while moving and exponentially while standing still.
+*Buffed [[Eclipse's Fall]]'s damage from 1010 to 1060.
+*Nerfed [[Elemental Eruption]]'s damage from 50 to 40, its use time from 5 to 7, and its use animation from 10 to 14.
+*[[Elemental Gauntlet]] no longer causes the player to inflict [[On Fire!]] and [[Poisoned]].
+*Nerfed [[Elemental Ray]]'s damage from 150 to 120, its use time from 16 to 20, and its split orbs now deal 70% of the bolt's damage instead of 100%.
+*Increased [[Elysian Wings]]' flight time from 180 to 200, and its horizontal acceleration from 250% to 270%.
+*Nerfed [[The Empyrean]]'s damage from 92 to 80, its use time from 5 to 6, and its use animation from 15 to 18.
+*Nerfed [[The Enforcer]]'s damage from 2200 to 1900.
+*[[Eskimo armor]] now causes ice weapons to deal 10% more damage, cold damage to deal 10% less damage, and provides immunity to Frostburn and Glacial State.
+*Reworked [[Eternal Blizzard]], nerfed its damage from 48 to 32 and its use time from 19 to 20, it now fires an additional icicle arrow along with whatever arrow is used as ammo instead of replacing arrows with icicle arrows.
+*[[Ethereal Extorter]] now increases stealth by 10 during new moons.
+*Nerfed [[Exo Gladius]]' damage from 3001 to 2700.
+*Nerfed [[Exoblade]]'s damage from 6700 to 5000.
+*Nerfed [[Flame Scythe]]'s damage from 130 to 100, and its use time from 19 to 21.
+*[[Frost Daggerfish]] now inflict [[Frostburn]] for 4 seconds with a 20% chance and 2 seconds with a 33% chance on fail instead of always inflicting it for 4 seconds.
+*[[Frost Staff]] and [[Ice Boomerang]] now inflict Frostburn for 4 seconds with a 20% chance and 2 seconds with a 33% chance on fail instead of always inflicting it for 4 seconds.
+*Nerfed Galaxia's damage from 425 to 385.
+*Nerfed [[Gelitic Blade]]'s damage from 36 to 33, but its wave can now pass through tiles.
+*Buffed [[Gelpick]]'s use time from 19 to 15.
+*Nerfed [[Genisis]]' damage from 65 to 55, its use time from 3 to 4, decreased its small laser damage from 75% to 65%, and lowered its small laser knockback by 40%.
+*[[Gilded Dagger|Gilded]] and [[Gleaming Dagger]]'s normal attacks now only pierce once.
+*Reduced [[Gladiator armor]]'s stealth boost from 100 to 70, and its set bonus' rogue damage boost from 10% to 5%.
+*Reduced [[Gladiator Helmet]] and [[Obsidian Outlaw Hat]]'s rogue damage boosts from 5% to 3%.
+*Reduced [[Gladiator Breastplate]] and [[Obsidian Longcoat]]'s rogue critical strike chance boosts from 5% to 3%.
+*Reduced [[Gladiator Leggings]] and [[Obsidian Pants]]' rogue velocity boosts from 5% to 3%.
+*[[Glove of Precision]] now increases rogue velocity by 25% instead of 20%.
+*Buffed [[Godspawn Helix Staff]]'s damage from 43 to 50.
+*Nerfed [[Golden Eagle]]'s use time from 7 to 10.
+*Nerfed [[Goobow]]'s damage from 40 to 30, and its use time from 20 to 22.
+*Buffed [[Grax]]'s damage from 450 to 500, and its use time from 19 to 15.
+*Buffed [[Greatsword of Judgement]]'s damage from 52 to 60.
+*[[Hand Warmer]] now provides a regeneration boost while wearing Eskimo armor.
+*Nerfed [[Heavenfallen Stardisk]]'s damage from 165 to 115, and its use time from 23 to 25.
+*Buffed [[Heavenly Gale]]'s damage from 570 to 720, but nerfed its use time from 9 to 11, and its use animation from 18 to 22.
+*Nerfed [[Helium Flash]]'s damage from 1280 to 1110.
+*Nerfed Hell Burst's damage from 40 to 30, and its use time from 30 to 31.
+*Buffed [[Hell's Sun]]'s damage from 74 to 84, and its stealth strike damage multiplier from 45% to 60%.
+*[[Hoverboard]] now increases each [[Shroomite armor|Shroomite]] helmet's respective damage by 10%.
+*Nerfed [[Hyperius Bullet]]'s damage from 21 to 18, and its secondary bullets now deal 60% of the main bullet's damage instead of 80%.
+*Nerfed [[Ice Barrage]]'s damage from 9000 to 5800, but decreased its mana cost from 530 to 180, and it now tracks enemies.
+*[[Ice Blade]] now inflicts Frostburn for 6 seconds with a 20% chance and 2 seconds with a 33% on fail instead of always inflicting it for 6 seconds.
+*[[Infernal Kris]] now inflicts On Fire! for 3-5 seconds on normal attacks and 4-7 seconds on stealth strikes instead of always inflicting it for 2 seconds, and its cinders and explosion now deal 40% of the weapon's damage instead of a flat 10 damage.
+*Buffed [[Iron Francisca]]'s damage from 7 to 8, but it now only deals increased damage for the first 0.17 seconds active instead of 0.33.
+*Nerfed [[Karasawa]]'s damage from 1400 to 1380.
+*Decreased the King Slime [[lore item]]'s defense penalty from 5 to 3.
+*Nerfed [[Lacerator]]'s damage from 150 to 100, and increased its localNPCHitCooldown from 5 to 8.
+*Buffed [[Lazhar]]'s damage from 75 to 100.
+*Buffed [[Lead Tomahawk]]'s damage from 7 to 8, but it now only deals increased damage for the first 0.17 seconds active instead of 0.33.
+*[[Leaf Wings]] now grant the [[Dryad's Blessing]] buff while worn with [[Tiki armor]].
+*Nerfed [[Luminous Striker]]'s damage from 150 to 149, and its shards now deal 25% of the weapon's damage instead of 50%.
+*Nerfed [[Lunarian Bow]]'s damage from 28 to 15, and its use time from 18 to 22.
+*Nerfed [[Magna Cannon]]'s damage from 19 to 17.
+*Increased the maximum range that [[Magnetic Meltdown]] and [[Voltaic Climax]]'s magnet orbs can fire projectiles from.
+*Nerfed Magnetic Meltdown's damage from 135 to 90.
+*Buffed [[Magnomaly Cannon]]'s damage from 1401 to 1600.
+*Reworked [[Margarita]], it now decreases the duration of [[debuffs]] instead of making the player immune to them.
+*[[Mirage Mirror]] now increases stealth generation by 30% while standing still and 20% while moving instead of 10% only while moving.
+*[[Monsoon]] changes:
+**Buffed damage from 63 to 142, its use time from 22 to 12, and increased its shot speed from 10 to 15.
+**Increased rarity from {{rare|9}} to {{rare|13}}.
+**Increased its chance to fire a sharkron from 8.33% to 20%.
+**Increased its chance to fire a typhoon arrow from 4% to 6.67%.
+**Wooden Arrows, sharkrons, and typhoon arrows now deal 10% more damage and move twice as fast.
+*Nerfed [[Nano Purge]]'s damage from 70 to 50.
+*Increased [[Nanotech]]'s rogue damage boost from 5% to 12%, but it no longer increases rogue critical strike chance by 5%.
+*Nerfed [[Nasty Cholla]]'s damage from 20 to 9, it no longer use local NPC immunity, and the damage formula for its spikes have been tweaked.
+*Nerfed [[Norfleet]]'s damage from 1280 to 1000.
+*Nerfed [[Obsidian armor]]'s stealth boost from 100 to 80.
+*Nerfed [[Onyx Chain Blaster]]'s damage from 58 to 40 and its use time from 10 to 15, but bullets now deal 25% increased damage. <!-- Dart doesn't -->
+*Nerfed [[The Oracle]]'s base aura damage from 300 to 120, its maximum aura damage from 450 to 400, and its base yoyo damage from 420 to 380.
+*Nerfed [[The Pack]]'s damage from 3000 to 2500, its critical strike chance from 10% to 8%, and its use time from 50 to 52.
+*Nerfed [[Pandemic]]'s damage from 100 to 66, and reduced the frequency it spawns Plague Seekers by 50%.
+*Reworked [[Penumbra Potion]], it now increases stealth generation by 15% while moving at day, 15% while standing still at night, and 20% during [[Solar Eclipse]]s instead of increasing all stealth regeneration by 10%, 20%, and 30% respectively.
+*Buffed [[Phantasm]]'s damage from 38 to 45.
+*Nerfed [[Phantasmal Fury]]'s damage from 320 to 260.
+*Buffed [[Photoviscerator]]'s damage from 250 to 270.
+*Nerfed [[Plague Keeper]]'s damage from 90 to 80, its use time from 17 to 19, and its projectile now sets target immunity frames to 8 instead of 5.
+*[[Plagued Fuel Pack]] now increases rogue damage by 5% instead of 8%.
+*Nerfed [[Planetary Annihilation]]'s damage from 75 to 65, and its use time from 22 to 23, but its bolts now count as arrows, allowing them to be boosted by arrow bonuses such as the [[Archery Potion]].
+*Buffed [[Plantation Staff]]'s damage from 60 to 70.
+*Nerfed [[Poseidon]]'s damage from 58 to 48, reduced its mana cost from 15 to 12, and its typhoon now randomly pierces between 3 and 9 times instead of always piercing 9 times.
+*Nerfed [[Primordial Ancient]]'s damage from 385 to 305, and its use time from 17 to 18.
+*Nerfed [[Profaned Partisan]]'s damage from 410 to 231, and its use time from 15 to 18.
+*Nerfed [[Pumpler]]'s damage from 9 to 8, and its primary fire's use time from 9 to 10.
+*Buffed [[Radiant Star]]'s damage from 50 to 55, it now creates 5 extra knives on stealth strikes instead of 6, its extra knives now deal 50% of the main knife's damage, and its explosions now deal 75% of the knife's damage.
+*[[Raider's Glory]] now inflicts [[Midas]].
+*[[Raider's Talisman]]'s critical strike effect now stacks to 150 for a total damage boost of 15% instead of stacking to 250 with a total damage boost of 25%.
+*Nerfed Resurrection Butterfly's damage from 40 to 25.
+*[[Scorpio]] changes:
+**Nerfed damage from 95 to 60, its primary fire's use time from 13 to 14, and its alt fire's use time from 39 to 42.
+**Alt fire rockets now deal 229.99% of the weapon's damage instead of 300%.
+**Alt fire rockets now deal 50% less damage when they explode.
+**Increased the explosion radius of its primary fire's rockets.
+*Nerfed [[Scourge of the Cosmos]]' damage from 1300 to 1100.
+*Nerfed [[SDFMG]]'s damage from 250 to 200, and its critical strike chance from 16% to 15%.
+*Nerfed [[Seabow]]'s damage from 14 to 11, and its water now deals 40% of the weapon's damage instead of 50%.
+*Nerfed [[Seafoam Bomb]]'s damage from 16 to 12, and its use time from 22 to 25.
+*[[Shock Grenade]]s no longer increase the player's defense by 6 and life regeneration by 2 if they stand inside its aura.
+*Nerfed [[Shredder]]'s damage from 28 to 25, its use time from 3 to 4, its reuse delay from 10 to 12, and its use animation from 24 to 32. <!-- Also moved Charged Dart Blaster lower in its recipe-->
+*Nerfed [[Shroomer]]'s damage from 200 to 150, and its use time from 26 to 27.
+*Decreased the Siren and Leviathan lore item's defense penalty from 20 to 8, and its damage reduction penalty from 10% to 5%.
+*[[Silencing Sheath]] now boosts stealth regeneration by 15% at all times instead of only when the player isn't moving.
+*Summoner [[Silva armor]]'s crystal beams now detonate twice as fast.
+*Buffed [[Skyfringe Pickaxe]]'s use time from 15 to 13.
+*[[Snowball Cannon]] now inflicts Frostburn for 2 seconds with a 10% chance and 1 second with a 20% chance on fail instead of always for 2 seconds.
+*Increased [[Solar Flare]]'s localNPCHitCooldown from 5 to 8, and its explosions now deal 75% of the yoyo's damage instead of 100%.
+*Nerfed [[Soul Piercer]]'s damage from 185 to 155, and its use time from 18 to 20.
+*Buffed [[Spectralstorm Cannon]]'s damage from 44 to 48, but nerfed use time from 3 to 4, its use animation from 9 to 12, and its souls now last for 10 seconds.
+*Decreased [[Spooky Wings]]' summon damage boost while wearing [[Spooky armor]] from 10% to 5%.
+*Buffed [[Star Sputter]]'s damage from 98 to 112.
+*Nerfed [[Stardust Dragon Staff]]'s damage from 40 to 20, and it now grants enemies 10 immunity frames instead of 6.
+*Nerfed [[Starfall]]'s damage from 59 to 50.
+*Nerfed [[Starmada]]'s damage from 308 to 222.
+*Decreased maximum stealth boosts to various accessories and armor bonuses:
+**[[Dark God's Sheath]], [[Eclipse Mirror]], and Silencing Sheath now increase maximum stealth by 20 instead of 50.
+**[[Ataxia armor]] now increases maximum stealth by 110 instead of 120.
+**[[Auric Tesla armor]] now increases maximum stealth by 130 instead of 160.
+**[[Bloodflare armor]] now increases maximum stealth by 120 instead of 135.
+**[[Daedalus armor]] now increases maximum stealth by 105 instead of 110.
+**[[God Slayer armor]] now increases maximum stealth by 120 instead of 140.
+**[[Reaver armor]] now increases maximum stealth by 110 instead of 115.
+**[[Silva armor]] now increases maximum stealth by 125 instead of 150.
+**[[Statigel armor]] now increases maximum stealth by 100 instead of 105.
+**[[Tarragon armor]] now increases maximum stealth by 115 instead of 130.
+**[[Umbraphile armor]] now increases maximum stealth by 110 instead of 115.
+**[[Victide armor]] now increases maximum stealth by 90 instead of 100.
+**[[Xeroc armor]] now increases maximum stealth by 115 instead of 125.
+*Nerfed [[Stellar Knife]]'s damage from 60 to 50, and its use time from 8 to 9.
+*Buffed [[Storm Ruler]]'s damage from 65 to 95, its tornadoes now last for 10 seconds instead of 20, and they now have a localNPCHitCooldown value of 15 and pierce infinitely instead of both stats scaling with progression.
+*Nerfed [[Stratus Sphere]]'s damage from 500 to 419.
+*The player no longer gains a 10% damage boost to minions while holding a [[tool]]. <!-- Still gets the boost if holding a summon weapon -->
+*Buffed [[Supernova]]'s damage from 1349 to 2250.
+*Nerfed [[T1000]]'s damage from 370 to 300.
+*Split [[Terra Arrow]]s now deal 25% of the main arrow's damage instead of 40%.
+*Nerfed [[Terratomere]]'s damage from 135 to 125, and its use time from 19 to 20.
+*Nerfed [[Throwing Brick]]'s damage from 14 to 7.
+*Nerfed [[Tome of Fates]]' damage from 120 to 110.
+*Buffed [[Tradewinds]]' damage from 17 to 25, increased its shot speed from 20 to 25, and its use time from 13 to 12.
+*True Ark of the Ancients changes:
+**Nerfed damage from 100 to 98.
+**Beams now have a localNPCHitCooldown value of 12.
+**Its green stars now inflict Cursed Inferno for 3 seconds instead of 5.
+**Gave it a 50% chance to fire two stars instead of three.
+*[[Utensil Poker]]'s stealth strike knife now deals 140% of the weapon's damage instead of 180%.
+*Nerfed [[Venusian Trident]]'s damage from 450 to 180.
+*Nerfed [[Verdant]]'s damage from 218 to 128, decreased the chance for it to fire a leaf by 50%, and its leaves now deal 60% of the yoyo's damage instead of 100%.
+*Nerfed [[Vivid Clarity]]'s damage from 550 to 515, but decreased its mana cost from 69 to 42.
+*Nerfed [[Void Vortex]]'s damage from 300 to 195, but decreased its use time from 45 to 41.
+*Nerfed Voltaic Climax's damage from 90 to 80, and its use time from 30 to 33.
+*Buffed [[Vortexpopper]]'s damage from 20 to 22.
+*[[The Wand]] changes:
+**Now deals magic damage.
+**Buffed damage from 390 to 998, increased use time from 19 to 250, decreased mana cost from 500 to 150, and increased its knockback from 0 to 0.5.
+**Is now held out instead of swung.
+**Infernadoes now fade in and out slower.
+**Infernadoes now become more transparent when intersecting a block.
+**Infernadoes now have a localNPCHitCooldown value of 1 instead of 5.
+**The initial spark projectile now inflicts Daybroken and On Fire! onto hit enemies for 15 seconds.
+*Nerfed [[Web Ball]]'s damage from 12 to 8.
+*Nerfed [[Xeroc Greatsword]]'s damage from 95 to 90, and its use time from 24 to 25.
+*Nerfed [[Xeroc Pitchfork]]'s damage from 360 to 280.
+*[[Yharim's Crystal]] changes:
+**Buffed damage from 240 to 350 and its mana cost from 100 to 15. 
+**Now fires six red-orange beams instead of seven pink beams, converging into one big yellow beam. 
+**Increased localNPCHitCooldown from 2 to 5, but moves and turns slightly faster. 
+**Now consumes less and smooth amounts of mana instead of jumping in mana cost when converged. 
+**The beam now gets a 3x buff instead of 2.7x during convergence and damage scaling is smoothened. 
+**Renamed held projectile from "Crystal" to "Yermes Crystal".
+**Can now be used without [[Jungle Dragon, Yharon]] being defeated.
+
+=== Recipes ===
+*[[Abyssal Tome]], [[Avalanche]], [[Bittercold Staff]], [[Corroslime Staff]], [[Crimslime Staff]], [[Effluvium Bow]], [[Eldritch Tome]], [[Gel Dart]], [[Glacial Crusher]], [[Ice Star]], [[Icebreaker]], [[Overloaded Blaster]], and [[Snowstorm Staff]] can no longer be crafted.
+*[[Archery Potion]]s can now alternatively be crafted with a [[Blighted Lens]] instead of a normal [[Lens]].
+*Asgardian Aegis is now crafted at an [[Ancient Manipulator]] instead of [[Draedon's Forge]].
+*[[Blizzard in a Bottle]], Ice Machine, and Ice Boomerang now use [[Any Snow Block]] in their recipes instead of just normal [[Snow Block]]s.
+*[[Broken Biome Blade|Biome Blade]] now uses [[Any Evil Block]] in its recipe instead of either [[Ebonstone Block]]s or [[Crimstone Block]]s. It additionally also now requires 10 [[Astral Monolith]].
+*[[Brimlash]] now requires [[Ashes of Calamity]] instead of [[Living Shard]]s.
+*Celestus now uses [[Alpha Virus]] and [[Enchanted Axe]] in its recipe instead of [[Phantasmal Ruin]] and [[Shattered Sun]].
+*[[Cryo Key]], [[Frost Bolt]], [[Ice Boomerang]], [[Ice Mirror]], [[Ice Machine]], [[Ice Skates]], and [[Icicle Staff]] now use [[Any Ice Block]]s in their recipes instead of just normal [[Ice Block]]s.
+*Eclipse's Fall now requires [[Night's Gaze]] instead of [[Daybreak]].
+*[[Elemental Axe]] now uses a Plantation Staff in its recipe instead of an [[Inferna Cutter]].
+*[[Eskimo Coat]] can now be crafted with 8 [[Silk]], 1 [[Leather]], and 18 [[Boreal Wood]] at a [[Loom]].
+*[[Eskimo Hood]] can now be crafted with 4 Silk, 1 Leather, and 12 Boreal Wood at a Loom.
+*[[Eskimo Pants]] can now be crafted with 6 Silk, 1 Leather, and 15 Boreal Wood at a Loom.
+*Gilded Dagger now requires 12 [[Gold Bar]]s instead of 2.
+*Gleaming Dagger now requires 12 [[Platinum Bar]]s instead of 2.
+*Grax now uses an Inferna Cutter and 5 [[Uelibloom Bar]]s in its recipe instead of the [[Feller of Evergreens]].
+*Hand Warmer can now be crafted with 5 Silk, 1 [[Shiverthorn]], and 10 of [[Any Snow Block]] at a Loom.
+*Heavenly Gale no longer uses a [[Flarewing Bow]] in its recipe. <!-- Due to monsoon getting it-->
+*Hell Burst now requires 5 [[Soul of Fright|Souls of Fright]].
+*[[Magnomaly Cannon]] now requires The Pack.
+*Monsoon now uses 6 [[Reaper Tooth|Reaper Teeth]] and a Flarewing Bow instead of 15 [[Vortex Fragment]]s.
+*Increased the amount of [[Cactus|Cacti]] in [[Nasty Cholla]]'s recipe from 2 to 3.
+*All pieces of [[Silva armor]] now use [[Any Gold Bar]]s in their recipes instead of [[Cosmilite Bar]]s.
+*[[Silva Crystal]]s no longer require Cosmilite Bars.
+*Supernova now requires [[Penumbra]] and [[Star of Destruction]].
+*Throwing Bricks now yield 15 per craft instead of 25, and require 5 [[Red Brick]]s instead of 1.
+*[[Uelibloom Brick]]s are now crafted at a Hardmode Forge instead of a [[Furnace]].
+*Uelibloom Bricks can now also be crafted with 2 [[Botanic Platform]]s.
+*Several block and wall recipes have been changed to use unique crafting stations:
+**[[Astral Monolith]]s are now be crafted back and forth from [[Astral Monolith Wall]]s with the [[Monolith Amalgam]] instead of a [[Work Bench]].
+**[[Plagued Plate]]s are now be crafted back and forth from [[Plagued Plate Wall]]s with the [[Plague Infuser]] instead of a Work Bench.
+**[[Silva Crystal]]s are now be crafted back and forth from [[Silva Wall]]s with the [[Effulgent Manipulator]] instead of a Work Bench.
+**[[Smooth Abyss Gravel]] is now be crafted back and forth from [[Smooth Abyss Gravel Wall]]s with the [[Void Condenser]] instead of a Work Bench.
+**[[Smooth Voidstone]] is now be crafted back and forth from [[Smooth Voidstone Wall]]s with the Void Condenser instead of a Work Bench.
+**[[Statigel Block]]s are now be crafted back and forth from [[Statigel Wall]]s with the [[Static Refiner]] instead of a Work Bench.
+**Statigel Blocks are now crafted from [[Statigel Platform]]s with the Static Refiner instead of a Work Bench.
+**[[Voidstone Slab]]s are now be crafted back and forth from [[Voidstone Slab Wall]]s with the Void Condenser instead of a Work Bench.
+**[[Uelibloom Brick Wall]]s are now crafted from Uelibloom Bricks with the [[Botanic Planter]] instead of a Work Bench.
+
+=== Renames ===
+*Renamed Depth Blade to Depth Crusher.
+
+=== Resprites ===
+*Resprited [[Alluring Bait]], [[Archaic Powder]], and [[Honey Dew]].
+*Resprited [[Cryon]] and [[Plagueshell]].
+*Resprited [[Abyss Blade]], [[Aftershock]], [[Barracuda Gun]], [[Clockwork Bow]], Depth Crusher, Disseminator, [[Drataliornus]], [[Earthen Pike]], [[Ichor Spear]], [[Neptune's Bounty]], [[Slag Magnum]], [[Soul Harvester]], and [[Yateveo Bloom]].
+*Resprited [[Demonic Bone Ash]], [[Endothermic Energy]], and [[Nightmare Fuel]].
+*Resprited [[Enhanced Nano Round]] and [[Rubber Mortar Round]].
+*Resprited [[Bloodfin]], [[Ethereal Core]], and [[Zerg Potion]].
+*Resprited Aftershock's rock, Barracuda Gun's barracuda, [[Borealis Bomber]]'s Aureus Bombers, Drataliornus' arrow, Fallen Star projectiles from [[Star Cannon]], [[Star Cannon EX]], and Starmada, Soul Harvester's scythes, and Yateveo Bloom's spear and flail head.
+*Resprited [[Bloodfin Boost]], [[Mushy]], [[Radiator (buff)]], and [[Tyrant's Fury]].
+
+=== Additional Changes ===
+*[[Abaddon]] and [[Abyssal Diving Gear]] now display on the player's face layer instead of their head layer.
+*[[Alpha Ray]], [[Auric Ore]], [[Draedon's Heart]], [[Dragonfruit]], [[Eclipse's Fall]], [[Empyrean Knives]], [[Event Horizon]], [[Greatsword of Blah]], [[Helium Flash]], [[Onyxia]], [[Scourge of the Cosmos]], and Voltaic Climax now use the {{rare|15}} rarity instead of {{rare|14}}.
+*[[Abyss]] stats now scale more smoothly.
+*Added new visual flame effects for the [[Abyss Torch]], [[Ancient Altar]], [[Ancient Basin]], [[Ancient Chandelier]], [[Ancient Lamp]], [[Ancient Lantern]], [[Ashen Altar]], [[Ashen Basin]], [[Ashen Candelabra]], [[Ashen Candle]], [[Ashen Chandelier]], [[Ashen Lamp]], [[Ashen Lantern]], [[Chaos Candle]], [[Profaned Candelabra]], [[Profaned Candle]], [[Profaned Lamp]], [[Profaned Lantern]], [[Statigel Candelabra]], [[Statigel Candle]], [[Statigel Chandelier]], [[Statigel Lamp]], [[Statigel Lantern]], and [[Tranquility Candle]].
+*Held Abyss Torches now use dust 180 instead of 135.
+*[[Ancient Sink]]s, [[Ashen Sink]]s, and [[Profaned Sink]]s now count as [[Lava]] sources for crafting.
+*Added the name "Dazren" to the [[Angler]].
+*The [[Archmage]] now sells [[Ice Star]]s.
+*All pieces of [[Auric Tesla armor]], [[Draedon's Forge]], [[Elemental Gauntlet]], [[Elemental Quiver]], [[Ethereal Talisman]], [[Nanotech]], and [[Yharon Soul Fragment]]s now use the {{rare|15}} rarity instead of {{rare|rainbow}}.
+*The [[Bandit]] now sells [[Deep Wounder]] after Calamitas has been defeated instead of Plantera, and now sells [[Gel Dart]]s once the Slime God has been defeated.
+*[[Black Hawk Remote]] now uses dust 258 instead of 180 upon use.
+*[[Blazing Core]], [[The Camper]], and [[Mining Helmet]] now provide light in the Abyss.
+*Blazing Core now gives immunity to Death Mode heat and cold effects.
+*Death Mode [[Blizzard]]s no longer apply their effects if the player is [[underground]].
+*Death Mode Blizzard and [[Underworld]] effect timers now reset upon death.
+*The houses in the Brimstone Crag now contain Ancient furniture instead of Obsidian furniture.
+*[[Botanic Sink]]s now count as a [[Honey]] source for crafting.
+*Buffed Pumpkin and Frost Moon enemies now deal 160 extra contact damage instead of 200, and {{dv|200|400}} extra projectile damage instead of {{dv|240|480}}.
+*Buffed Solar Eclipse enemies now deal 210 extra contact damage instead of 250, and {{dv|140|280}} extra projectile damage instead of {{dv|180|360}}. 
+*Death Mode cave darkness now fades more smoothly.
+*[[Chaos Candle|Chaos]] and [[Tranquility Candle]]s can now be held.
+*All items that provide immunity to Death Mode's heat and cold effects now have tooltips that inform players that they do as such.
+*Death Mode natural boss spawns can no longer occur during the [[Frost Moon]], [[Pumpkin Moon]], or [[Old One's Army]] events.
+*Death Mode lightning is now telegraphed, inflicts Electrified for 1 second instead of 2, and can no longer occur during the Moon Lord countdown or any events. <!-- Thank you adir! -->
+*Increased the animation speed of the [[Energy Staff]]'s Profaned Energy sentry.
+*[[Exorcism]] now plays a sound upon collision.
+*Exorcism and Night's Gaze's stars now idly play sounds.
+*[[Flask of Party]] now affects all weapons regardless of class.
+*[[Floodtide]] can now only be fished up after Calamitas has been defeated instead of Plantera.
+*[[God Slayer Inferno]] now darkens the player's screen.
+*Godspawn Helix Staff's lasers are now quieter.
+*[[Iron Francisca]]s, [[Lead Tomahawk]]s, and [[Wulfrum Bow]] no longer have auto reuse.
+*[[Lethal Lava Burn]] is now always on in Death Mode. <!-- Also gets a shoutout in Death (item)'s tooltip-->
+*[[lul]] now accepts the names, "TotalBiscuit", "Total Biscuit", and "Total biscuit" in order to access its invincibility effects.
+*Increased [[Jelly-Charged Battery]]'s rarity from {{rare|2}} to {{rare|3}}.
+*The SetDifficultyActive and GetDifficultyActive Mod Calls now support the Boss Rush.
+*Added the name "Farsni" to the [[Nurse]].
+*[[Permafrost's Concoction]] now provides cold protection.
+*Removed a line from The Perforators' lore item's tooltip. <!-- No longer a posthumous BoC-->
+*[[Plagued Fuel Pack]]'s tooltip now dynamically updates based on the player's chosen key for it.
+*The [[Rusted Jingle Bell]] and [[Strange Orb]]'s light pets now provide less light if the player isn't submerged in [[Water]].
+*Death Mode natural [[Sharkron]]s from Sharknadoes now deal {{dv|25|50}} damage, and ones from Cthulhunadoes now deal {{dv|50|100}} damage.
+*The [[Starter Bag]] now contains the Squirrel Squire Staff instead of a [[Wulfrum Controller]].
+*The [[Stat Meter]] now only display stats regarding each class type if a weapon from said class is being held.
+*Reduced the required pickaxe power for [[Stratus Brick]]s from 250 to 225.
+*[[Tarragon Throwing Dart]]s now sell for {{sc|3}} instead of {{sc|50}}.
+*[[Tenebris]] now only spreads after [[Calamitas]] has been defeated instead of either Calamitas or Plantera.
+*[[Tesla Potion]] changes:
+**Aura can no longer hurt [[Critters]].
+**Now inflicts Galvanic Corrosion instead of Tesla's Electricity.
+**Can now inflict Galvanic Corrosion on other players. <!-- Didn't debuff other players before -->
+**Aura now despawns upon player death.
+*Reduced the amount of light produced by Wulfrum Controller and [[Wulfrum Staff]]'s bolts.
+*Edited various lines of text. A full list can be found below:
+{{collapse top}}
+*Removed single quotation marks from [[Akato (buff)]]'s description.
+*Replaced "do" in [[Amidias' Spark]]'s tooltip with "deal".
+*[[Burden Breaker]]'s tooltip now elaborates on its effect.
+*Moved the flavor texts for [[Apotheosis]], [[Astreal Defeat]], [[Caribbean Rum]], [[Celestial Tracers]], [[Cinnamon Roll]], [[Eclipse Mirror]], [[Elysian Tracers]], [[Everclear]], [[Evergreen Gin]], [[Face Melter]], [[Fearmonger Greathelm]], [[Fireball]], [[Gael's Greatsword]], [[Grape Beer]], [[Greatsword of Blah]], [[Greatsword of Judgement]], [[Helium Flash]], [[Ice Barrage]], Luminous Striker, [[Magic Scarf and Hat]], [[Margarita]], [[Moonshine]], [[Moscow Mule]], [[Old Die]], [[The Oracle]], [[Plague Hive]], [[Red Wine]], [[Rum]], [[Screwdriver]], [[Seraph Tracers]], [[Star Beam Rye]], [[Tarragon Helm]], [[Tarragon Leggings]], [[Tequila]], [[Tequila Sunrise]], [[Vodka]], [[Whiskey]], and [[White Wine]] to the first lines of their respective tooltips.
+*Added the line "Blessed by the Profaned Flame" to [[Elysian Aegis]] and Elysian Wings' tooltips.
+*Elysian Wings' tooltip now mentions its movement speed increase.
+*All [[Flasks]] now mention that they affect rogue attacks.
+*[[Forbidden armor]]'s armor set bonus now mentions that minions deal full damage when holding any weapon.
+*[[Terminus]]' tooltip now mentions that Boss Rush disables [[mounts]].
+{{collapse bottom}}
+*Reduced the frequency of Death Mode Underworld geysers.
+*Victide armor's set bonus' description now states it provides increased underwater mobility.
+*Increased potency of [[Zen Potion|Zen]] and [[Zerg Potion]]s' spawnrate manipulating effects.
+
+== Fixes ==
+=== Gameplay ===
+*Fixed [[Apotheosis]] lagging the game in multiplayer.
+*Fixed [[Aquatic Scourge]] despawning Town NPCs.
+*Fixed [[Astral Scythe]] not firing projectiles if the player was too close to blocks.
+*Fixed Death Mode Bat AI movement breaking.
+*Fixed Calamity [[Candles]] not being able to be broken by right clicking.
+*Fixed [[Cosmic Discharge]], [[Crescent Moon]], [[Mourningstar]], and Nebulash not cutting grass.
+*Fixed [[Cranium Smasher]], [[Exorcism]], [[Meteor Fist]], and Star of Destruction not counting as [[bombs]].
+*Fixed [[Crystalline]] firing extra daggers with its stealth strike.
+*Fixed [[Dark Spark]] not dealing damage for 2 seconds upon use.
+*Fixed Death Mode underground darkness not applying to all players.
+*Fixed The Devourer of Gods phase 2's body segments not gaining invincibility after teleports.
+*Fixed difficulty changes not despawning all enemies when used.
+*Fixed [[Drataliornus]] triggering [[Phantasm]]'s extra arrows.
+*Fixed [[Elemental in a Bottle]] and [[Heart of the Elements]]' tornadoes not properly dealing summon damage.
+*Fixed [[Grand Guardian]]'s rainbow bolts not properly scaling with the player's damage.
+*Fixed Jungle Dragon, Yharon not becoming chaseable properly.
+*Fixed the [[Merchant]] selling multiple [[Flare]]s if the player had both the [[Flare Gun]] and any of its upgrades.
+*Fixed The Leviathan moving too high up when lining up her charge.
+*Fixed [[Navy Fishing Rod]]'s passive sparks and summoner [[Tarragon armor]]'s aura not functioning properly.
+*Fixed some velocity issues on the Revengeance Mode Perforator Hive.
+*Fixed a bug with [[Permafrost's Concoction]], [[Star Beam Rye]] and Calamity's [[mana]] upgrade's maximum mana boosts.
+*Fixed Plague Keeper's bees not scaling with the player's damage boosts.
+*Fixed [[Plantation Staff]]'s mini Plantera not targeting enemies properly.
+*Fixed [[Psycho]] and [[Swamp Thing]] AIs breaking in Death Mode.
+*Fixed [[Profaned Soul Artifact]] not checking the player's minion slots properly.
+*Fixed [[Sand Cloak]], Shock Grenade, and Tesla Potion's auras knocking back enemies immune to knockback.
+*Fixed [[Sirius]] not properly consuming all minion slots on use.
+*Fixed Sirius and Sun God Staff not hitting enemies with a smaller hitbox.
+*Fixed Soul Harvester's explosion not dealing damage.
+*Fixed [[Sparkling Empress]]' shards not scaling with the player's damage.
+*Fixed Stratus Sphere not dealing magic damage.
+*Fixed [[Town NPC]]s taking more damage than intended on [[Expert Mode]].
+*Fixed Venusian Trident's projectiles not being affected by damage bonuses.
+*[[Wulfrum Drone]]s now spawn properly in Death Mode.
+
+=== Visual ===
+*Fixed dust visuals on Alpha Ray, [[Carnage Ray]], [[Genisis]], Elemental Ray, [[Fabstaff]], Magnetic Meltdown, [[Night's Ray]], [[Terra Ray]], [[Viscera]], Vivid Clarity, and Voltaic Climax's rays.
+*Fixed [[Badge of Bravery]]'s tooltip referring to [[Tarragon armor]] as "Uelibloom armor".
+*Fixed a typo in [[The Camper]]'s tooltip. <!-- dependant -->
+*Fixed a typo in [[Cosmic Shiv]]'s tooltip. <!-- Definintely -->
+*Fixed The Devourer of Gods phase 2 having incorrect gores across its segments.
+*Fixed various apostrophes in the [[Drunk Princess]] and [[Sea King]]'s dialogues.
+*Fixed Exoblade's tooltip stating it has a chance to inflict [[Exo Freeze]] when it is guaranteed to inflict it.
+*Fixed Gilded Dagger, Gleaming Dagger, and [[Shinobi Blade]]'s thrown projectiles rotating improperly.
+*Fixed the rotation on Godspawn Helix Staff's probes.
+*Fixed a sheeting error on the Impious Immolator and the Energy Staff's Profaned Energy sentry.
+*Fixed the afterimages of [[Jaws of Oblivion]] and [[Leviathan Teeth]]'s projectiles.
+*Fixed [[Jelly-Charged Battery]]'s tooltip stating the incorrect amount of minion damage given. <!-- 10% in the tooltip, actually gives 7% -->
+*Fixed [[Laserfish]]'s glowmask.
+*Added some extra spaces to [[Mothron Wings]]' tooltip.
+*Fixed only one Mourningstar's solar whip swords appearing.
+*Fixed Mourningstar's tooltip saying it only fires one solar whip sword instead of two.
+*Fixed a typo and grammar error in [[Neptune's Bounty]]'s tooltip. <!-- incorrect line break and a missing comma -->
+*Fixed the [[Profaned Chest]] playing its animation in reverse.
+*Fixed a sheeting error on the Profaned Sink.
+*Added an exclamation point at the end of [[The Profaned Soul]]'s buff tooltip while only the healer is active.
+*Fixed a grammar error in Profaned Soul Artifact's tooltip.
+*Fixed [[Staff of the Mechworm]]'s segments detaching at high speeds.
+*Fixed an incorrect line break in the [[Stat Meter]]'s tooltip.
+*Fixed the [[Suspicious Looking Tentacle]] using the {{rare|10}} rarity instead of {{rare|rainbow}}. <!-- Vanilla bug -->
+*Fixed vanilla wings missing hover text in their tooltips.
+
+=== Miscellaneous ===
+*Fixed a crash with the [[Astral Chest]].
+*Falling [[Astral Sand]] can no longer place while out of bounds.
+*Fixed [[Planetoid]]s causing incompatibility with mods and tools that increase world sizes above large.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

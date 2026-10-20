@@ -1,0 +1,24 @@
+To be used on top of pages to alert users of similar pages.
+
+== Usage ==
+Place {{tl|about|This page description|Other page description|Other page name}} on top of the page.
+
+; Unnamed Parameter 1
+The description of the page it is placed on.
+
+; Unnamed Parameter 2
+The description of the other page that is similar.
+
+; Unnamed Parameter 3
+The name of the other page that is similar.
+
+== See also ==
+* {{tl|dablink}}
+* {{tl|distinguish}}
+
+<includeonly>
+[[Category:Formatting templates‎]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

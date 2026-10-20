@@ -1,0 +1,48 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = Rogue
+| damage = 80
+| knockback = 0
+| velocity = 20
+| rare = 9
+| critical = 16%
+| tooltip = Succ<br/>Stealth strikes spawn more explosions
+| sell = {{value|0|16}}
+| use = 11
+| hardmode = yes
+| stack = 1
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 2 seconds (Explosion and Astral stars)<br/>3 seconds (Knives)
+| proj = Astral Star.png
+| projcaption = Astral Star
+| proj2 = Fallen Star (Calamity).png
+| proj2caption = Fallen Star
+| proj3 = Hallow Star.png
+| proj3caption  = Hallowed Star
+}}
+|{{item drops infobox
+| [[Astrum Deus]]|1|10%
+}}
+}}
+The '''Quasar''' is a [[Hardmode]] non-consumable [[dagger]] dropped by [[Astrum Deus]]. It functions identically to the [[Radiant Star]] with the main difference being that the explosion will pull in enemies. The black hole-like effect do not affect [[bosses]]. If an enemy is hit by a Quasar knife that is caught up in the explosion, astral, fallen, and hallowed stars will rain down on them, dealing full damage of the Quasar knife. Unlike the Radiant Star, the split knives of Quasar do not home in on enemies.
+
+Performing a [[stealth strike]] with the Quasar will cause the split Quasar knives to emit explosions on contact that rain down astral, holy, and fallen stars as long as an enemy is within the explosion.
+
+{{Modifier|rogue}}
+
+== Trivia ==
+*This item is a reference to the [https://borderlands.fandom.com/wiki/Quasar item of the same name] from ''[[wikipedia:Borderlands 2|Borderlands 2]]''.
+*A [[wikipedia:Quasar|quasar]] is an extremely bright astronomical object which consists of a supermassive black hole constantly sucking in gas from an accretion disk around it, generating massive amounts of energy in the process.
+*The tooltip is a reference to a meme where the word "suck" is purposely spelled as "succ".
+*The color palette of the weapon is a reference to the [[Astral Infection|astral]] palette in previous versions of the mod.
+*It is formerly the [[rare variant]] of the [[Radiant Star]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue= yes
+}}
+[[Category:Daggers]]

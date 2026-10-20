@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 180
+| knockback = 7
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| auto = yes
+| use = 11
+| velocity = 9
+| tooltip = The amount of contact damage an enemy does is added to this weapons' damage<br/>You must hit an enemy with the blade to trigger this effect
+| hardmode = yes
+| postml = yes
+| proj = Mirror Blast.png
+| projcaption = Mirror Blast
+| element1 = Magic
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Ceaseless Void]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Mirror Blade''' is a Godseeker Mode [[broadsword]] that autoswings. It is dropped by the [[Ceaseless Void]]. It fires projectiles that resemble a mirror. Projectiles move based on player movement.
+
+If an enemy is struck by the blade, the amount of contact damage that enemy deals is added to the weapon's damage. It cannot deal more than 750 damage.
+
+{{modifier|melee}}
+
+== Notes ==
+*Though it initially deals noticeably less DPS than most other weapons of its tier, striking an enemy with very high contact damage (such as [[The Devourer of Gods]] or [[Polterghast]]) will significantly increase its damage output.
+
+== Trivia ==
+*This weapon used to have a mana cost of 5 on previous versions of the mod.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

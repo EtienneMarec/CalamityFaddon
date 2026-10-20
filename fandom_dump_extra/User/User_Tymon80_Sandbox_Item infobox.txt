@@ -1,0 +1,256 @@
+<includeonly>{{#vardefine:autotext|{{#switch:{{{damagetype|}}}
+|melee
+|Melee = Auto-swing
+|ranged
+|Ranged
+|magic
+|Magic = Autofire
+|#default = {{#switch:{{{type|}}}|tool|Tool = Auto-swing|#default = Auto-use}}
+}} }}
+{| class="infobox" style="font-size:89%; width:{{{boxwidth|21em}}}; -moz-border-radius: .7em; -webkit-border-radius: .7em; border-radius: .7em;"
+|-
+! colspan="2" style="background-color: #E4F0F7; color: #063B5E; font-size:120%; padding:0.5em;" | <div style="line-height:17px;">{{{name|{{BASEPAGENAME}}}}}{{#if:{{{namesub|}}}|<br/><span style="color:slategray; font-size:80%;">(''{{{namesub|}}}'')</span>}}</div>
+|- style="text-align:center"
+| colspan="2" style="padding:0.5em; position:relative" | <div style="position:absolute; right:10px; bottom:0;"> 
+{| style="text-align:center; background:none; "
+| {{#iferror:{{#expr:{{{stack|}}}>0}}|<!--nothing-->|<span title="Max Stack: {{{stack|}}}">{{stack|{{{stack|}}}}}</span>}} 
+|}</div><div style="position:absolute; left:10px; bottom:0;"> 
+{| style="text-align:center; background:none; "
+| {{#if:{{{auto|}}}|<span title="{{#var:autotext}}">[[File:Auto icon.png|18px|link=Autoswing|{{#var:autotext}}]]</span>}} 
+|}</div><!--
+
+-->{{{image|[[File:{{{name|{{BASEPAGENAME}}}}}.png|{{{name|{{BASEPAGENAME}}}}} inventory icon]]}}}<!--
+
+-->{{#if: {{{imageplaced|}}} |<!--
+-->{{#ifeq:{{{imagebreak|}}}|yes|<p></p>}}<!--
+
+--><div style="{{#ifeq:{{{imagebreak|}}}|yes|display:block;|display:inline-block; padding-left:9px; margin-left:9px; border-left:1px #ccc solid;}}"><!--
+-->{{#ifeq:{{{imagebreak|}}}|yes|<center><hr style="width:50%; border-color:#ccc; color:#ccc; background-color:#ccc; margin:8px 0 5px 0;"></center>}}<!--
+-->{{{imageplaced|}}}<!--
+--></div>|<!--
+
+-->{{#ifexist: Media:{{{name|{{BASEPAGENAME}}}}} (placed).gif |<!--
+-->{{#ifeq:{{{imagebreak|}}}|yes|<p></p>}}<!--
+--><div style="{{#ifeq:{{{imagebreak|}}}|yes|display:block;|display:inline-block; padding-left:9px; margin-left:9px; border-left:1px #ccc solid;}}"><!--
+-->{{#ifeq:{{{imagebreak|}}}|yes|<center><hr style="width:50%; border-color:#ccc; color:#ccc; background-color:#ccc; margin:8px 0 5px 0;"></center>}}<!--
+-->[[File:{{{name|{{BASEPAGENAME}}}}} (placed).gif|{{{name|{{BASEPAGENAME}}}}} placed graphic]]<!--
+--></div>|<!--
+
+-->{{#ifexist: Media:{{{name|{{BASEPAGENAME}}}}} (placed).png |<!--
+-->{{#ifeq:{{{imagebreak|}}}|yes|<p></p>}}<!--
+--><div style="{{#ifeq:{{{imagebreak|}}}|yes|display:block;|display:inline-block; padding-left:9px; margin-left:9px; border-left:1px #ccc solid;}}"><!--
+-->{{#ifeq:{{{imagebreak|}}}|yes|<center><hr style="width:50%; border-color:#ccc; color:#ccc; background-color:#ccc; margin:8px 0 5px 0;"></center>}}<!--
+-->[[File:{{{name|{{BASEPAGENAME}}}}} (placed).png|{{{name|{{BASEPAGENAME}}}}} placed graphic]]<!--
+--></div><!--
+
+-->}} }}<!--
+-->}}<!--
+
+The following line is included to prevent used images from appearing in the Special:Unused files listing. 
+
+--><div style="display:none;">{{#ifexist:Media:{{{name|{{BASEPAGENAME}}}}} (placed).png|This file does exist}} {{#ifexist:Media:{{{name|{{BASEPAGENAME}}}}} (placed).gif|This file does exist}}</div>
+|-
+! colspan="2" style="background-color: #E4F0F7; color: #063B5E; padding:0em;" | {{#if: {{{type|}}}| Statistics |{{#if: {{{rare|}}}| Statistics }} }}
+|-
+{{#ifexpr: ({{{hammer|0}}}+{{{pick|0}}}+{{{axe|0}}})>0|
+{{!}} colspan=3 style="text-align:center" {{!}} <span style="cursor:pointer" title="Pickaxe Power">[[File:Pickaxe icon.png|16px|link=]] {{{pick|0}}}%</span> &nbsp; <span style="cursor:pointer" title="Hammer Power">[[File:Hammer icon.png|16px|link=]] {{{hammer|0}}}%</span> &nbsp; <span style="cursor:pointer" title="Axe Power">[[File:Axe icon.png|16px|link=]] {{{axe|0}}}%</span>
+}}
+|-
+{{#if: {{{type|}}}|
+{{!}} style="width:100px" {{!}} '''Type'''
+{{!}}  {{#ifexist: {{{type}}} | [[{{{type}}}]] | {{{type}}} }} {{
+#if: {{{type2|}}} | &#32;&ndash;&#32;{{#ifexist: {{{type2}}} | [[{{{type2}}}]] | {{{type2}}} }} }} }}
+|-
+{{#if: {{{bait|}}}|
+{{!}} '''[[Bait]] Power:'''
+{{!}} {{{bait|}}}% }}
+|-
+{{#if: {{{damage|}}}|
+{{!}} '''Damage'''
+{{!}} {{{damage|}}} <span style="font-size:80%">{{#switch:{{{damagetype|}}}
+|melee = '''(Melee)'''
+|ranged = '''(Ranged)'''
+|magic = '''(Magic)'''
+|summon = '''(Summon)'''
+|throwing =
+|thrown = '''(Throwing)'''
+|melee/throwing =
+|melee/thrown =
+|thrown/melee =
+|throwing/melee = '''(Melee/Throwing)'''
+|#default = {{#switch:{{{type|}}}|tool|Tool = '''(Melee)'''|#default={{#if:{{{damagetype|}}}|'''({{{damagetype|}}})'''|<!--nothing-->}}}}
+}}</span> }}
+|-
+{{#if: {{{knockback|}}}|
+{{!}} '''[[Knockback]]'''
+{{!}} {{{knockback|}}} <span style="font-size:80%">'''({{knockback|{{{knockback}}}}})</span> }}
+|-
+{{#if: {{{defense|}}}|
+{{!}} '''Defense'''
+{{!}} {{{defense|}}} }}
+|-
+{{#if: {{{bonus|}}}|
+{{!}} '''Bonus'''
+{{!}} {{{bonus|}}} }}
+|-
+{{#if: {{{placeable |}}}|
+{{!}} '''[[Placement|Placeable]]'''
+{{!}} {{#switch:{{{placeable|}}}|yes|Yes = {{yes}}|no|No = {{no}}|#default={{{placeable|}}}}} }}
+|-
+{{#if: {{{width|}}}{{{height|}}}|
+{{!}} '''Dimensions'''
+{{!}} {{#if: {{{width|}}}|{{{width}}} wide}}{{#switch: |{{{width|}}}|{{{height|}}}=|&nbsp;ˣ&nbsp;}}{{#if:{{{height|}}}|{{{height}}} high}}}}
+|-
+{{#if: {{{mana|}}}|
+{{!}} '''[[Mana]]'''
+{{!}} {{{mana|}}} }}
+|-
+{{#if: {{{mregen|}}}|
+{{!}} '''[[Mana]] regen'''
+{{!}} {{{mregen|}}} }}
+|-
+{{#if: {{{mheal|}}}|
+{{!}} '''Heal [[Mana]]'''
+{{!}} {{{mheal|}}} }}
+|-
+{{#if: {{{lregen|}}}|
+{{!}} '''Life regen'''
+{{!}} {{{lregen|}}}}}
+|-
+{{#if: {{{hheal|}}}|
+{{!}} '''Heal [[Health]]'''
+{{!}} {{{hheal|}}}}}
+|-
+{{#if: {{{critical|   {{#ifeq:{{{type|}}}|Weapon|4%}}   }}}|
+{{!}} '''[[Critical hit|Critical chance]]'''
+{{!}} {{{critical|4%}}}}}
+|-
+{{#if: {{{body slot|}}}|
+{{!}} '''Body slot'''
+{{!}} {{{body slot|}}}}}
+|-
+{{#if: {{{use|}}}|
+{{!}} '''[[Use time]]'''
+{{!}} {{{use|}}} <span style="font-size:80%">'''({{use time|{{{use}}}}})'''</span> }}
+|-
+{{#if: {{{sspeed|}}}|
+{{!}} '''[[Velocity]]'''
+{{!}} {{{sspeed|}}}}}
+|-
+{{#if: {{{velocity|}}}|
+{{!}} '''[[Velocity]]'''
+{{!}} {{{velocity|}}}}}
+|-
+{{#if: {{{toolspeed|}}}|
+{{!}} '''Tool speed'''
+{{!}} {{{toolspeed|}}}}}
+|-
+{{#if: {{{tool|}}}|
+{{!}} '''Tool'''
+{{!}} {{{tool|}}}}}
+|-
+{{#if: {{{tooltip|}}}|
+{{!}} style="vertical-align:middle" {{!}} '''Tooltip'''
+{{!}} style="font-style:italic;" {{!}} {{{tooltip|}}} }}
+|-
+{{#if: {{{buff|}}}|
+{{!}} class="infobox_highlight" style="vertical-align:middle;" {{!}} '''Grants [[buff]]'''
+{{!}} class="infobox_highlight" {{!}} <span style="white-space:nowrap">{{#ifeq:{{{bufflink|}}}|no|'''{{item|{{{buff}}}}}'''|{{#ifexist:{{{buff|}}}|'''{{item link|{{{buff}}}}}'''|'''{{item|{{{buff}}}}}'''}}}}</span> }}
+|-
+{{#if: {{{duration|}}}|
+{{!}} class="infobox_highlight" style="vertical-align:middle;" {{!}} <span style="white-space:nowrap">'''Buff duration'''</span>
+{{!}} class="infobox_highlight" {{!}} {{{duration|}}} }}
+|-
+{{#if: {{{bufftip|}}}|
+{{!}} class="infobox_highlight" style="vertical-align:middle;" {{!}} '''Buff tooltip'''
+{{!}} class="infobox_highlight" style="font-style:italic;" {{!}} {{{bufftip|}}} }}
+|-
+{{#if: {{{buffchance|}}}|
+{{!}} class="infobox_highlight" style="vertical-align:middle;" {{!}} <span style="white-space:nowrap">'''Buff chance'''</span>
+{{!}} class="infobox_highlight" {{!}} {{{buffchance|}}} }}
+|-
+{{#if: {{{buff2|}}}|
+{{!}} class="infobox_highlight" style="vertical-align:middle;" {{!}} '''Grants [[buff]]'''
+{{!}} class="infobox_highlight" {{!}} <span style="white-space:nowrap">{{#ifeq:{{{bufflink2|}}}|no|'''{{item|{{{buff2}}}}}'''|{{#ifexist:{{{buff2|}}}|'''{{item link|{{{buff2}}}}}'''|'''{{item|{{{buff2}}}}}'''}}}}</span> }}
+|-
+{{#if: {{{duration2|}}}|
+{{!}} class="infobox_highlight" style="vertical-align:middle;" {{!}} <span style="white-space:nowrap">'''Buff duration'''</span>
+{{!}} class="infobox_highlight" {{!}} {{{duration2|}}} }}
+|-
+{{#if: {{{bufftip2|}}}|
+{{!}} class="infobox_highlight" style="vertical-align:middle;" {{!}} '''Buff tooltip'''
+{{!}} class="infobox_highlight" style="font-style:italic;" {{!}} {{{bufftip2|}}} }}
+|-
+{{#if: {{{debuff|}}}|
+{{!}} class="infobox_highlight" style="vertical-align:middle;" {{!}} '''Inflicts [[debuff]]'''
+{{!}} colspan=2 class="infobox_highlight" {{!}} <span style="white-space:nowrap">{{#ifeq:{{{debufflink|}}}|no|'''{{item|{{{debuff}}}}}'''|{{#ifexist:{{{debuff|}}}|'''{{item link|{{{debuff}}}}}'''|'''{{item|{{{debuff}}}}}'''}}}}</span> }}
+|-
+{{#if: {{{debuffduration|}}}|
+{{!}} class="infobox_highlight" style="vertical-align:middle;" {{!}} <span style="white-space:nowrap">'''Debuff duration'''</span>
+{{!}} colspan=2 class="infobox_highlight" {{!}} {{{debuffduration|}}} }}
+|-
+{{#if: {{{debufftip|}}}|
+{{!}} class="infobox_highlight" style="vertical-align:middle;" {{!}} '''Debuff tooltip'''
+{{!}} colspan=2 class="infobox_highlight" style="font-style:italic;" {{!}} {{{debufftip|}}} }}
+|-
+{{#if: {{{debuffchance|}}}|
+{{!}} class="infobox_highlight" style="vertical-align:middle;" {{!}} <span style="white-space:nowrap">'''Debuff chance'''</span>
+{{!}} class="infobox_highlight" {{!}} {{{debuffchance|}}} }}
+|-
+{{#if: {{{debuff2|}}}|
+{{!}} class="infobox_highlight" {{!}} '''Inflicts [[debuff]]'''
+{{!}} colspan=2 class="infobox_highlight" {{!}} <span style="white-space:nowrap">{{#ifeq:{{{debufflink2|}}}|no|'''{{item|{{{debuff2}}}}}'''|{{#ifexist:{{{debuff2|}}}|'''{{item link|{{{debuff2}}}}}'''|'''{{item|{{{debuff2}}}}}'''}}}}</span> }}
+|-
+{{#if: {{{debuffduration2|}}}|
+{{!}} class="infobox_highlight" style="vertical-align:middle;" {{!}} <span style="white-space:nowrap">'''Debuff duration'''</span>
+{{!}} colspan=2 class="infobox_highlight" {{!}} {{{debuffduration2|}}} }}
+|-
+{{#if: {{{debufftip2|}}}|
+{{!}} class="infobox_highlight" style="vertical-align:middle;" {{!}} '''Debuff tooltip'''
+{{!}} colspan=2 class="infobox_highlight" style="font-style:italic;" {{!}} {{{debufftip2|}}} }}
+|-
+{{#if:{{{stack|}}}|{{#iferror:{{#expr:{{{stack|}}}>0}}|
+{{!}} '''Max stack'''
+{{!}} {{{stack|}}} |<!--nothing-->}} }}
+|-
+{{#if: {{{rare|}}}|
+{{!}} '''[[Rarity]]'''
+{{!}} {{rare2| {{{rare|}}} }} }}
+|-
+{{#if: {{{buy|}}}{{{sell|}}}|{{#vardefine:sep|{{#switch: |{{{buy|}}}|{{{sell|}}}=|{{#pos:{{{buy|}}}{{{sell|}}}|//}}}}}}
+{{!}} '''[[Value|{{#if: {{{buy|}}}|Buy}}<!--
+-->{{#switch: |{{{buy|}}}|{{{sell|}}}=|{{#if:{{#var:sep}}||&nbsp;/&nbsp;}}}}<!--
+-->{{#if:{{{sell|}}}|{{#if:{{#var:sep}}||Sell}}}}]]'''
+{{!}} {{#if: {{{buy|}}}|{{#replace:{{{buy}}}|//|}}}}{{#if:{{#var:sep}}||{{#switch: |{{{buy|}}}|{{{sell|}}}=||&nbsp;/&nbsp;}}{{#if:{{{sell|}}}|{{{sell}}}}}}}
+{{#if:{{#var:sep}}|
+{{!}}-
+{{!}} '''[[Value|Sell]]'''
+{{!}} {{#replace:{{{sell}}}|//|}}}} }}
+{{!}}-
+{{#if:{{{image2|}}}|
+! colspan="3" {{!}} <hr />[[File:{{{image2|}}}|center|{{{image2}}}]]|}}{{#if:{{{image2caption|}}}|''{{{image2caption|}}}''}}
+{{!}}-
+{{#if:{{{id|}}}{{{idbuff|}}}{{{idtile|}}}{{{idwall|}}}{{{idmount|}}}|
+{{!}}-
+{{!}} colspan="3" style="padding-top:3px;" {{!}} <!--nothing-->}}
+|}{{#ifeq:{{NAMESPACE}}|{{ns:0}}|<!--
+-->{{#if:{{{type|}}}|[[Category:{{{type}}} items]]}}<!--
+-->{{#if:{{{type2|}}}|[[Category:{{{type2}}} items]]}}<!--
+-->{{#if:{{{hammer|}}}|[[Category:Hammers]]}}<!--
+-->{{#if:{{{pick|}}}|[[Category:Pickaxes]]}}<!--
+-->{{#if:{{{axe|}}}|[[Category:Axes]]}}<!--
+-->{{#ifeq:{{lc:{{{consumable|}}}}}|true|[[Category:Consumable items]]}}<!--
+-->{{#ifeq:{{lc:{{{damagetype|}}}}}|melee|[[Category:Melee weapons]]}}<!--
+-->{{#ifeq:{{lc:{{{damagetype|}}}}}|ranged|[[Category:Ranged weapons]]}}<!--
+-->{{#ifeq:{{lc:{{{damagetype|}}}}}|magic|[[Category:Magic weapons]]}}<!--
+-->{{#ifeq:{{lc:{{{damagetype|}}}}}|summon|[[Category:Summon weapons]]}}<!--
+-->{{#ifeq:{{lc:{{{damagetype|}}}}}|throwing|[[Category:Throwing weapons]]}}<!--
+-->{{#ifeq:{{lc:{{{damagetype|}}}}}|thrown|[[Category:Throwing weapons]]}}<!--
+-->{{#ifeq:{{lc:{{{damagetype|}}}}}|throwing/melee|[[Category:Throwing weapons]] [[Category:Melee weapons]]}}<!--
+-->{{#ifeq:{{lc:{{{damagetype|}}}}}|thrown/melee|[[Category:Throwing weapons]] [[Category:Melee weapons]]}}<!--
+-->{{#ifeq:{{lc:{{{damagetype|}}}}}|melee/throwing|[[Category:Throwing weapons]] [[Category:Melee weapons]]}}<!--
+-->{{#ifeq:{{lc:{{{damagetype|}}}}}|melee/thrown|[[Category:Throwing weapons]] [[Category:Melee weapons]]}}<!--
+-->{{#if:{{{listcat|}}}|[[Category:{{{listcat}}}]]}}<!--
+-->{{#if:{{{listcat2|}}}|[[Category:{{{listcat2}}}]]}}<!--
+-->{{#ifeq:{{{hardmode|}}}|yes|[[Category:Hardmode-only items]]}}<!--
+-->}}</includeonly>

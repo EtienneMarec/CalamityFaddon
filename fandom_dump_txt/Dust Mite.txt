@@ -1,0 +1,26 @@
+{{npc infobox | boxwidth=14em
+| width = 21em
+| type = Critter
+| environment = Cavern
+| ai = Dust Mite AI
+| damage = 0
+| life = 10
+| defense = 0
+| knockback = -5
+| money = {{cc|1}}
+| vulnerable2 = Wind
+| hurt = Dd2 ogre hurt 1.wav
+| killed = Abigail attack.wav
+|image=Dust mite.png}}
+
+The '''Dust Mite''' is a [[critter]] found typically within [[Cavern]]s and passively flies around [[tgc:Soils|Soil]] blocks. When killed, Dust Mites drop 1 [[tgc:Coins|Copper Coin]].
+
+It can be caught with a [[Bug Net]] or [[Golden Bug Net]].
+
+{{-}}
+==Trivia==
+*Dust Mites are based off of a real life experience one of the Calamity developers had, where they accidentally inhaled a dust mite.
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}

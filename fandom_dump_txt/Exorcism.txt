@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| damage = 55
+| use = 19
+| knockback = 1
+| damagetype = Rogue
+| rare = 5
+| tooltip = Throws a hallowed cross which explodes into a flash of light that damages nearby enemies, closer enemies receiving more damage<br/>As the cross travels downwards, the damage inflicted by both the cross and flash increases constantly<br/>Stealth strikes cause the cross to be thrown with full damage immediately. Hallowed stars fall when the cross explodes
+| sell = {{value|0|4|80}}
+| velocity = 10
+| stack = 1
+| auto = yes
+| hardmode = yes
+| proj = Exorcism Star.png
+| projcaption = Exorcism Star
+| element1 = Holy
+| element2 = Smash
+}}
+
+The '''Exorcism''' is a craftable [[Hardmode]] [[Bombs|bomb]]. It automatically throws a gravity-affected hallowed cross that explodes into a large explosion which deals more damage to enemies closer to it. The amount of damage increases as the cross falls, releasing white particles when fully charged.
+
+Performing a [[stealth strike]] with the Exorcism will cause the next cross thrown to be fully charged with 115% damage, and hallowed stars additionally fall from the sky when the cross explodes, each dealing 57.5% damage.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Bombs]]

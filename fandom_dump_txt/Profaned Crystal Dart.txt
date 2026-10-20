@@ -1,0 +1,27 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Ammunition
+| tooltip = Bounces between enemies<br/>Spawns a profaned rock upon hitting an enemy or a block
+| damage = 20
+| damagetype = ranged
+| stack = 9999
+| rare = 10
+| velocity = 12
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|0|15}}
+|debuff=Holy Flames|debuffchance=100%|debuffduration=2 seconds|debufftip=Dissolving from holy light
+| proj = ProfanedRock.png
+| projcaption = Profaned Rock
+| element1 = Holy}}
+
+'''Profaned Crystal Darts''' are craftable Godseeker Mode [[darts]] that are an upgrade to [[tgc:Crystal Dart|Crystal Darts]]. It ricochets up 6 times from walls and enemies, piercing them. Every time the dart ricochets, it summons a small profaned rock that homes onto the closest enemy. The profaned rock deals 10% of the dart's base damage and inflict the [[Holy Flames]] [[Debuffs|debuff]] for 2 seconds. Profaned Crystal Darts serve as a counterpart to [[Profaned Fire Dart]]s.
+
+==Crafting ==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+
+{{Ctota}}
+[[Category:Darts]]

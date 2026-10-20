@@ -1,0 +1,15 @@
+{{flexstart|{{#if:{{{inline|}}}|inline}}<!-- 
+  -->|wrap={{{wrap|}}}<!-- 
+  -->|direction={{{direction|}}}<!-- 
+  -->|justify={{{justify|}}}<!-- 
+  -->|alignitems={{{alignitems|}}}<!-- 
+  -->|alignlines={{{alignlines|}}}<!-- 
+  -->|width={{{width|}}}<!-- 
+  -->|height={{{height|}}}<!-- 
+  -->|css={{{css|}}}<!-- 
+  -->|style={{{style|}}}<!-- 
+  -->|cssclass={{{cssclass|{{{class|}}}}}}<!-- 
+  -->|id={{{id|}}}<!-- 
+-->}}<!-- 
+  -->{{#fornumargs:_|v|{{#var:v}}}}<!-- 
+-->{{flexend}}<noinclude>{{doc}}</noinclude>

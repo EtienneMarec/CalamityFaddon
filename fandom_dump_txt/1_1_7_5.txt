@@ -1,0 +1,248 @@
+{{Patch infobox
+| image = Brimstone Elemental (1.1.7.5).png
+| patchname = Bosses, Potions, and Ammo
+| release = 2/14/2017<!---(Valentine's Day)--->
+}}
+
+The '''1.1.7.5''' update added two new bosses known as [[Brimstone Elemental]], and [[Bumblebirb]]. It also added several new [[potions]] and [[ammunition]] types, and made several balance changes to late game bosses.
+
+== Additions ==
+*Added [[Brimstone Elemental]], [[Bumblebirb]], Bumblebirb (clone), and [[Scryllar]] (rage).
+*Added [[Ark of the Cosmos]] and [[Asteroid Staff]].
+*Added [[Abaddon]], [[Gehenna]], and [[Void of Extinction]].
+*Added [[Arctic Arrow]], [[Enhanced Nano Round]], [[Mortar Round]], [[Napalm Arrow]], [[Rubber Mortar Round]], [[Superball Bullet]], and [[Terra Arrow]].
+*Added [[Cadence Potion]], [[Calamitas' Brew]], [[Supreme Healing Potion]], [[Titan Scale Potion]], and [[Yharim's Stimulants]].
+*Added [[Charred Idol]], [[Effulgent Feather]], and [[IOU an item]].
+*Added [[Abyssal Flames]], [[Abyssal Weapon]], [[Cadence]], [[Titan Scale]], and [[Yharim's Power]].
+*Added Boss Checklist support for Calamity bosses.
+
+== Changes ==
+=== Bosses and Enemies ===
+*[[???]], [[Amber Crawler]]s, [[Blighted Eye]]s, [[BOHLDOHR]]s, [[Calamitas]], [[Calamity Eye]]s, [[Cloud Elemental]]s, [[Crimulan Blight Slime]]s, [[Cryogen]], [[Crystal Crawler]]s, [[Desert Scourge]], [[Ebonian Blight Slime]]s, [[The Hive Mind]], [[Ice Clasper]]s, [[Perforator Cyst]]s, [[The Perforators]], [[Pitbull]]s, [[Plague Charger]]s, [[The Plaguebringer Goliath]], [[Sand Tortoise]]s, [[Scorn Eater]]s, [[Shockstorm Shuttle]]s, [[Stormlion]]s, and [[Ungodly Serpent]]s no longer spawn if the player is near a Celestial Pillar.
+*???, Cloud Elementals, [[Earth Elemental]]s, and Perforator Cysts can now be detected by the [[Lifeform Analyzer]].
+*Calamitas now drops {{dv|1-2|1-3}} [[Blighted Lens]]es instead of {{dv|1|1-2}}.
+*The [[Expert Mode]] [[The Destroyer|Destroyer]] now makes all non-minion projectiles pierce 3 times at most instead of taking reduced damage based on how many times a projectile pierces.
+*[[The Devourer of Gods]] changes:
+**Buffed health from {{dv|650,000|975,000}} to {{dv|950,000|1,045,000}}.
+**Buffed head's contact damage from {{dv|200|500}} to {{dv|325|650}}, and its body's contact damage from {{dv|120|156}} to {{dv|250|325}}.
+**Buffed Nebula Shot damage from {{expert|220}} to {{expert|260}}, its bolt damage from {{expert|260}} to {{expert|300}}, its star damage from {{expert|260}} to {{expert|280}}, and its orb damage from {{expert|240}} to {{expert|260}}.
+**Now drops Supreme Healing Potions instead of [[Super Healing Potion]]s.
+*Nerfed Earth Elemental's knockback resistance from 100% to 2%, and it's now slower.
+*[[Eye of Cthulhu]] is now faster and charges quicker in Prepare to Die mode.
+*[[The Hive Mind]] now despawns quicker.
+*[[Jungle Dragon, Yharon]] changes:
+**Buffed his Giga Flare damage from {{expert|340}} to {{expert|380}}, his Sky Flare damage from {{expert|240}} to {{expert|300}}, his base Flare Dust damage from {{dv|160|200}} to {{dv|200|280}}, his Flare Bomb damage from {{expert|440}} to {{expert|500}}, his Flarenado damage from {{dv|400|480}} to {{dv|600|800}}, and his Infernado damage from {{dv|760|960}} to {{dv|960|1160}}. <!---Damages were buffed due to the introduction of God Slayer armor in 1.1.7--->
+**Now drops Supreme Healing Potions instead of Super Healing Potions.
+*[[King Slime]] now teleports much quicker to the player when they are far away in Prepare to Die mode.
+*Perforator Cysts no longer take up any NPC slots.
+*[[The Perforator Hive]] now has a unique map icon instead of reusing the large Perforator's, and now spawns a [[Perforator Mini]] for every 30 hits instead of 15.
+*Plague Charger changes:
+**Increased [[Plague Cell Canister]] drop count for normal Plague Chargers from 1 to 1-2, and for large Plague Chargers from 2 to 2-3.
+**Increased spawnrates.
+*The Plaguebringer Goliath changes:
+**Buffed health from {{dv|45,000|52,650}} to {{dv|48,000|56,160}}, and her contact damage from {{dv|115|138}} to {{dv|125|150}}.
+**Buffed base stinger damage from {{dv|78|156}} to {{dv|130|260}}, her base missile damage from {{dv|120|240}} to {{dv|170|340}}, and her base buffed stinger damage from {{dv|48|96}} to {{dv|68|136}}. <!---"Stinger damage" is mentioned twice-->
+**Nerfed [[Plaguebringer Shade]]'s health from {{dv|7500|8775}} to {{dv|3800|4446}}.
+**Nerfed Plague Charger's health from {{dv|300|390}} to {{dv|250|325}}, buffed its damage from {{dv|48|52}} to {{dv|70|77}}, nerfed its knockback resistance from 100% to 30%, and increased its size.
+**Buffed large Plague Charger's health from {{dv|350|455}} to {{dv|500|650}}, its damage from {{dv|57|62}} to {{dv|85|93}}, nerfed its knockback resistance from 100% to 15%, and increased its size.
+**Decreased [[Plague]] duration from contact from 6 seconds to 2.
+**Decreased Plague duration from Plaguebringer Shade contact from 2 seconds to 1.33.
+**Decreased Plague duration from large Plague Charger contact from {{dv|4.67|5}} seconds to 1.33.
+**Increased overall aggressiveness for both The Plaguebringer Goliath and her shades. 
+**No longer increases in speed and damage after the Moon Lord has been defeated.
+**Plaguebringer Shade's projectiles no longer increase in damage after the Moon Lord has been defeated.
+**Both The Plaguebringer Goliath and her shades now use the NPCHit8 sound effect when spawning Plague Chargers instead of NPCHit1.
+**Both The Plaguebringer Goliath and her shades now use the Item42 sound effect when shooting projectiles instead of Item17.
+**Now takes up 10 NPC slots instead of 7.
+**Plague Chargers now have more circular movement instead of directly moving towards the player. <!---This change only applies to PBG's Plague Chargers--->
+*[[Plantera]] now shoots projectiles more frequently in Prepare to Die mode.
+*[[Providence, the Profaned God]] changes:
+**Buffed health from {{dv|350,000|420,000}} to {{dv|360,000|432,000}}, and her contact damage from {{dv|90|108}} to {{dv|110|132}}.
+**Buffed the offensive guardian's health from {{dv|50,000|60,000}} to {{dv|80,000|96,000}}, its contact damage from {{dv|100|120}} to {{dv|150|180}}, its spear damage from {{expert|180}} to {{expert|260}}, and its Flare Dust damage from {{expert|200}} to {{expert|240}}.
+**Buffed the defender guardian's health from {{dv|40,000|48,000}} to {{dv|60,000|72,000}}, its contact damage from {{dv|100|120}} to {{dv|125|150}}, and its spear damage from {{expert|180}} to {{expert|260}}.
+**Buffed the healer guardian's health from {{dv|25,000|30,000}} to {{dv|35,000|42,000}}, its contact damage from {{dv|75|90}} to {{dv|95|114}}, and its negative healing orb damage from 20 to 32.
+**Buffed Holy Blast damage from {{expert|280}} to {{expert|320}}, her Holy Fire damage from {{expert|200}} to {{expert|260}}, her Molten Blast damage from {{expert|260}} to {{expert|320}}, her Holy Bomb damage from {{expert|220}} to {{expert|280}}, and her negative healing flame damage from {{dv|70|100}} to {{dv|100|260}}.
+**Holy Blasts now last for 2 seconds instead of 3.
+**[[Icarus' Folly]] is now inflicted for 10 seconds instead of 8.
+**Now cycles through phases about 50% quicker.
+**Decreased size by 25%.
+**The offensive guardian now takes up 1 NPC slot instead of 10.
+*[[Queen Bee]] now shoots stingers more frequently and switches phases more frequently in Prepare to Die mode.
+*[[Skeletron]] now does its spinning attack more often in Prepare to Die mode.
+*[[Skeletron Prime]] changes:
+**Prime Cannon can now shoot missiles while the head is spinning in Prepare to Cry mode.
+**Can now shoot Skeletron's skulls, with the frequency at which they are shot scaling with its remaining health.
+*[[Siren Lure and Leviathan]] changes:
+**Nerfed Siren Lure's health from {{dv|39,000|42,900}} to {{dv|38,000|41,800}}, and buffed her contact damage from {{dv|75|90}} to {{dv|85|102}}.
+**Nerfed The Leviathan's contact damage from {{dv|130|156}} to {{dv|110|121}}.
+**Buffed [[Aquatic Aberration]]'s health from {{dv|300|360}} to {{dv|800|960}}.
+**Buffed [[Parasea]]'s health from {{dv|150|180}} to {{dv|200|240}}, and its damage from {{dv|60|72}} to {{dv|65|78}}.
+**Buffed Siren Lure's projectile damage values in Expert Mode:
+***Projectile damage value changes while over 75% health:
+****Buffed Music Note damage while dry from {{expert|108}} to {{expert|120}}, and their damage while wet from {{expert|88}} to {{expert|100}}.
+****Buffed Frost Mist damage while dry from {{expert|84}} to {{expert|104}}, and their damage while wet from {{expert|64}} to {{expert|84}}.
+****Buffed Water Spear damage while dry from {{expert|76}} to {{expert|96}}, and their damage while wet from {{expert|56}} to {{expert|76}}.
+***Projectile damage value changes while under 75% health, and above 50% health:
+****Buffed Music Note damage while dry from {{expert|116}} to {{expert|136}}, and their damage while wet from {{expert|96}} to {{expert|116}}.
+****Buffed Frost Mist damage while dry from {{expert|92}} to {{expert|112}}, and their damage while wet from {{expert|72}} to {{expert|92}}.
+****Buffed Water Spear damage while dry from {{expert|84}} to {{expert|104}}, and their damage while wet from {{expert|64}} to {{expert|84}}.
+***Projectile damage value changes while under 50% health, but above 25% health:
+****Buffed Music Note damage while dry from {{expert|120}} to {{expert|140}}, and their damage while wet from {{expert|100}} to {{expert|120}}.
+****Buffed Frost Mist damage while dry from {{expert|100}} to {{expert|120}}, and their damage while wet from {{expert|80}} to {{expert|100}}.
+****Buffed Water Spear damage while dry from {{expert|88}} to {{expert|108}}, and their damage while wet from {{expert|68}} to {{expert|88}}.
+***Projectile damage value changes while under 25% health:
+****Buffed Music Note damage while dry from {{expert|124}} to {{expert|144}}, and their damage while wet from {{expert|104}} to {{expert|124}}.
+****Buffed Frost Mist damage while dry from {{expert|108}} to {{expert|128}}, and their damage while wet from {{expert|88}} to {{expert|108}}.
+****Buffed Water Spear damage while dry from {{expert|100}} to {{expert|120}}, and their damage while wet from {{expert|80}} to {{expert|100}}.
+**Increased the speeds for her projectiles.
+*[[Storm Weaver]] now despawns twice as quickly.
+*[[Supreme Calamitas]] changes:
+**Supreme Calamitas and her brothers now have their stats boosted in Prepare to Die/Cry modes. <!---Same multiplier that other Post-ML bosses use---> 
+**Buffed base Brimstone Shot, Brimstone Barrage, and Brimstone Giga Blast damages from {{dv|226|264}} to {{dv|406|420}}, her base Brimstone Hellfireball damage from {{dv|360|400}} to {{dv|540|572}}, and her base Brimstone Fireblast damage from {{dv|240|280}} to {{dv|340|356}}.
+**Increased the speed and spread of her Brimstone Shots.
+**Now drops Supreme Healing Potions instead of Super Healing Potions.
+**Now has the ability to drop [[Animus]], [[Azathoth]], [[Contagion]], [[Demonshade Breastplate]], [[Demonshade Greaves]], [[Demonshade Helm]], [[Draconic Destruction]], [[Earth]], [[Illustrious Knives]], [[Megafleet]], [[Red Sun]], [[Svantechnical]], and [[Triactis' True Paladinian Mage-Hammer of Might]] in Expert Mode. <!---Only one drops. Also yes, Soma Prime isn't included--->
+**Now inflicts [[Vulnerability Hex]] on contact. <!---10 seconds--->
+*[[Wall of Flesh]] changes:
+**[[The Hungry]] and [[The Hungry II]] now inherit the Wall of Flesh's stat boosts in Prepare to Die/Cry modes.
+**The Hungry and The Hungry II are now immune to [[Armor Crunch]], [[Glacial State]], and [[Temporal Sadness]].
+**Now shoots lasers more frequently in Prepare to Die mode.
+
+=== [[Items]] ===
+*Most craftable items obtained after defeating the [[Lunatic Cultist]] are now crafted at an [[Ancient Manipulator]] instead of a Hardmode Anvil, a full list can be found below:
+{{collapse top}}
+*[[Alpha Ray]].
+*Animus.
+*[[Apoctosis Array]].
+*[[Asgardian Aegis]].
+*[[Astreal Defeat]].
+*Azathoth.
+*[[Brimlash Buster]].
+*[[Cleansing Blaze]].
+*[[Clockwork Bow]].
+*Contagion.
+*[[Cosmic Rainbow]].
+*[[Cosmic Worm]].
+*[[Crystyl Crusher]].
+*Demonshade Breastplate.
+*Demonshade Greaves.
+*Demonshade Helm.
+*[[Devastation]].
+*[[Devil's Devastation]].
+*Draconic Destruction.
+*[[Dragon Egg (summoning)]].
+*Earth.
+*[[Effervescence]].
+*[[Elemental Axe]].
+*[[Elemental Blaster]].
+*[[Elemental Disk]].
+*[[Elemental Eruption]].
+*[[Elemental Lance]].
+*[[Elemental Ray]].
+*[[Elemental Shiv]].
+*[[Elysian Arrow]].
+*[[Elysian Tracers]].
+*[[The Empyrean]].
+*[[The Enforcer]].
+*[[Essence Flayer]].
+*[[Executioner's Blade]].
+*[[Eye of Extinction]].
+*[[Galactica Singularity]].
+*[[Galactus Blade]].
+*[[Galaxia]].
+*[[Gallant Pickaxe]].
+*[[Genisis]].
+*[[God Slayer Chestplate]].
+*[[God Slayer Helm]].
+*[[God Slayer Leggings]].
+*[[Grand Guardian]].
+*[[Grax]].
+*[[Greatsword of Judgement]].
+*[[Holy Fire Bullet]].
+*Illustrious Knives.
+*[[Lazhar]].
+*Megafleet.
+*[[Meldiate Bar]].
+*[[Monsoon]].
+*[[Nano Purge]].
+*[[True Biome Blade|Omega Biome Blade]].
+*[[Onyx Chain Blaster]].
+*[[Planetary Annihilation]].
+*[[Profaned Shard]].
+*Red Sun.
+*[[SDFMG]].
+*[[Seraph Tracers]].
+*[[Shadowspec Bar]].
+*[[Shredder]].
+*[[Shroomer]].
+*[[Soma Prime]].
+*[[Spectralstorm Cannon]].
+*[[Starfleet]].
+*[[Statis' Curse]].
+*[[Storm Ruler]].
+*[[Stream Gouge]].
+*Svantechnical.
+*[[The Swarmer]].
+*[[Terratomere]].
+*Triactis' True Paladinian Mage-Hammer of Might.
+*[[Vanquisher Arrow]].
+*[[Xeroc Cuisses]].
+*[[Xeroc Greatsword]].
+*[[Xeroc Mask]].
+*[[Xeroc Pitchfork]].
+*[[Xeroc Plate Mail]].
+*[[Xeroc Wings]].
+{{collapse bottom}}
+*Alpha Ray now has a right click ability that fires a ray which splits into two more rays at a certain distance.
+*Ark of the Elements now uses 1 [[Core of Calamity]] in its recipe instead of 3.
+*[[Asgard's Valor]] now requires 1 Abaddon to craft.
+*Astreal Defeat now uses 5 Luminite Bars in its recipe.
+*Nerfed [[Ataxia Mask]]'s magic damage boost from 15% to 12%, its magic damage boost when under 25% health from 50% to 25%, and its damage reduction penalty while under 25% health from 50% to 25%.
+*Nerfed [[Ataxia Subligar]]'s magic critical strike chance boost from 7% to 5%.
+*[[Atlantis]], [[Brackish Flask]], [[Greentide]], [[Leviatitan]], [[Lure of Enthrallment]], and [[Siren's Song]] can now be crafted with 1 IOU an Item and 1 [[Living Shard]] at a Hardmode Anvil.
+*[[Augur of the Elements]] and [[Tome of Fates]] are now crafted at an Ancient Manipulator instead of a [[Bookcase]].
+*Nerfed [[Brimrose Staff]]'s damage from 67 to 47, but reduced its mana cost from 16 to 14.
+*Nerfed [[Brimstone Fury]]'s damage from 38 to 27.
+*Buffed [[Conclave Crossfire]]'s damage from 32 to 34.
+*Cosmic Rainbow now uses 5 [[Meldiate Bar]]s in its recipe instead of 10.
+*[[Counter Scarf]]'s [[Scarf Cooldown]] now lasts for 15 seconds instead of 10, but increased Scarf Boost's duration from 6-10 seconds to 8-15.
+*Nerfed [[Daedalus Helm]]'s ranged damage boost when under 75% health from 10% to 5%, its damage reduction boost when under 25% health from 15% to 10%, and its ranged damage boost when under 25% health from 15% to 10%.
+*Buffed Demonshade Breastplate's defense from 35 to 42.
+*Buffed Demonshade Greaves' defense from 28 to 32.
+*Buffed Demonshade Helm's defense from 30 to 35.
+*Buffed [[Draconic Destruction]]'s damage from 270 to 500.
+*[[Dragon Egg (summoning)]] now requires 10 Effulgent Feathers in its recipe instead of 1 [[Galactica Singularity]].
+*[[Earth]]'s meteors now deal 50% base damage instead of full, and heals 20-69 health instead of 35-69.
+*Nerfed [[Elemental Eruption]]'s damage from 60 to 59.
+*Elemental Shiv now uses 5 Luminite Bars in its recipe instead of 8.
+*Buffed [[Firestorm Cannon]]'s damage from 12 to 14, and it now has a right click ability that fires bursts of flares.
+*[[Flarewing Bow]]'s bats now deal 135% base damage instead of 125%.
+*Nerfed Galactus Blade's damage from 188 to 173.
+*Genisis now uses 5 Luminite Bars in its recipe instead of 10.
+*Buffed Illustrious Knives' damage from 115 to 255.
+*Removed [[Marnite Obliterator]]'s [[hammer]] function.
+*[[Nuclear Fury]] is now crafted at an Ancient Manipulator instead of a [[Crystal Ball]].
+*Buffed [[Plasma Rifle]]'s damage from 10 to 130, its use time from 79 to 39, decreased its mana cost from 30 to 20, and reintroduced its right click ability.
+*Nerfed [[Reaver Cuisses]]' melee critical strike chance boost from 10% to 5%, and their movement speed boost from 15% to 12%.
+*Nerfed [[Reaver Helm]]'s melee damage boost from 15% to 12%, its melee damage boost when under 75% health from 20% to 5%, its melee critical strike chance boost when under 75% health from 15% to 5%, its movement speed boost when under 50% health from 12% to 10%, its melee speed boost when under 25% health from 25% to 15%, and its melee damage boost when under 25% health from 25% to 10%.
+*Buffed Red Sun's damage from 475 to 650.
+*Reintroduced [[Scorpio]]'s right click ability.
+*Nerfed SDFMG's damage from 137 to 129.
+*[[Seabound Staff]]'s Brittle Star minion is now much slower and less aggressive. 
+*Nerfed [[Terra Ray]]'s damage from 47 to 40.
+*[[Yharon's Kindle Staff]]'s tooltip now mentions how many minion slots each Son of Yharon uses.
+
+=== Other ===
+*[[Aerialite Ore]], [[Chaotic Ore]], [[Charred Ore]], [[Cryonic Ore]], [[Perennial Ore]], and [[Uelibloom Ore]] can now be detected by the [[Metal Detector]].
+*The [[Calamity Biome]] now requires 100 [[Brimstone Slag]] or Charred Ore tiles to count as the biome instead of 150.
+*Talking to the [[Nurse]] while inflicted with Vulnerability Hex now instantly kills her.
+
+=== Resprites ===
+*Resprited [[Yharon Mask]].
+*Resprited Plague Charger.
+*Resprited [[Lure of Enthrallment]]'s Siren Lure sentry.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

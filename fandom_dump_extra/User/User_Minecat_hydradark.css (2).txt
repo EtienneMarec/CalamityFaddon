@@ -1,0 +1,987 @@
+/* CSS placed here will affect users of the Hydradark skin */
+
+#contentSub:empty {
+    margin: 0 !important;
+}
+
+/* Template documentation */
+.documentation {
+    margin: 0em auto 1em;
+    border: 1px solid #AAAAAA;
+    padding: 1em;
+    background: #333;
+}
+
+.documentation_title {
+    padding-bottom: 3px; 
+    border-bottom: 1px solid #AAAAAA; 
+    margin-bottom: 1ex;
+}
+
+/* For elements which only display in the mobile view */
+.mobileonly {
+    display: none;
+}
+
+/* Expert */
+.expert_value {
+    color:#FFBA75; 
+}
+
+/* Revengeance */
+.revengeance_value {
+    color:#D32A2A; 
+}
+
+/* Death Mode */
+.death_value {
+    color:#C040DB;
+}
+
+/* Defiled */
+.defiled_value {
+    color:#DCFF84;
+}
+
+/* Auto line separators for tables */
+table.lined td {
+    border-bottom: 1px #666 solid;
+}
+
+table.lined tr:last-of-type td {
+    border-bottom: 0;
+}
+
+table tr.bottomline td {
+    border-bottom: 1px #666 solid;
+}
+
+table tr.topline td {
+    border-top: 1px #666 solid;
+}
+
+/* Crafts tables */
+table.crafts{
+   border: 1px solid #aaa;
+   border-radius: 8px;
+   padding: 6px;
+   background-color: #515151;
+   color: white;
+   margin: auto 0 0.5em;
+}
+table.crafts table.inner {
+    border-collapse: collapse;
+    background:inherit; 
+    width:100%;
+}
+table.crafts table.inner th {
+    border:solid #515151; 
+    border-width:2px 2px 2px 2px;
+    background: #373D40;
+}
+
+/* Main page */
+.mainInner {
+    background:#333;
+    border:#FFB0B0 1px solid;
+}
+
+/* logo drop shadow */
+.mw-wiki-logo {
+    -webkit-filter: drop-shadow(0px 0px 1px #fff);
+    filter: drop-shadow(0px 0px 3px #fff) drop-shadow(0px 0px 3px #fcaa2d);
+}
+
+/* Allows limiting TOCs to generate links for only header levels 
+   below a limit, for instance only level-3 (=== ===) and below.
+   Use [[Template:Toc limit]] */
+.toclimit-2 .toclevel-1 ul,
+.toclimit-3 .toclevel-2 ul,
+.toclimit-4 .toclevel-3 ul,
+.toclimit-5 .toclevel-4 ul,
+.toclimit-6 .toclevel-5 ul,
+.toclimit-7 .toclevel-6 ul { display: none !important; }
+
+/* Tabs */
+#left-navigation {
+    margin-top: 185px;
+}
+
+#right-navigation {
+    margin-right: 0.5em;
+    margin-top: 185px;
+}
+
+/* Content */
+div#content {
+    margin-top: 145px;
+}
+
+/* Logo */
+#p-logo {
+    height: 175px !important;
+    padding: 0;
+    position: absolute;
+    width: 487px !important;
+    z-index: 4;
+}
+
+#p-logo a {
+    height: 175px !important;
+    width: 487px !important;
+}
+#p-logo {
+   left: 50vw;
+   margin-left: -244px;
+}
+ 
+/* Hide main page header */
+body.page-Calamity_Mod_Wiki h1.firstHeading {
+    display:none;
+}
+
+/* for "edit this page" tab and "discussion" tab etc */
+.pagetab {
+     border-style: solid solid none;
+     border-width: thin;
+     border-color: #808080;
+     padding: 0.25ex 1ex 0ex;
+     font-size: 95%;
+}
+
+.ambox {
+    background-color: #282828;
+    border-bottom-color: #383838;
+    border-right-color: #383838;
+    border-top-color: #383838;
+    border-collapse: collapse;
+    font-size: 95%;
+    margin: 0 auto 2px auto;
+    width: 80%;
+}
+
+.ambox-gray {
+    border-left-color: #383838;
+}
+
+.ambox.ambox-tiny {
+    font-size: 90%;
+    margin: 2px 0;
+    width: auto;
+}
+
+.ambox + .ambox {
+     margin-top: -2px;
+}
+
+.ambox-text {
+     padding: 0.25em 0.5em;
+}
+
+.ambox-image {
+     padding: 2px 0px 2px 0.5em;
+     text-align: center;
+     width: 60px;
+}
+
+.ambox-tiny .ambox-image {
+     padding: 2px 0.5em;
+     text-align: left;
+     width: auto;
+}
+
+/* Ambox colors */
+.ambox-blue {
+     border-left: 10px solid #1e90ff;
+}
+
+.ambox-red {
+     border-left: 10px solid #b22222;
+}
+
+.ambox-orange {
+     border-left: 10px solid #f28500;
+}
+
+.ambox-yellow {
+     border-left: 10px solid #f4c430;
+}
+
+.ambox-purple {
+     border-left: 10px solid #9932cc;
+}
+
+.ambox-gray {
+     border-left: 10px solid #bba;
+}
+
+.ambox-green {
+     border-left: 10px solid #228b22;
+}
+
+/* Ambox small text */
+.amsmalltext {
+     font-size: smaller;
+     margin-left: 0.8em;
+     margin-top: 0.5em;
+}
+
+/* -- item link ----------------------------------------------------- */
+.item-link{
+   white-space:nowrap;
+   color: #E0E0E0;
+   display: inline-block;
+}
+.item-link > a, 
+.item-link > img{ 
+   display: inline-block;
+   line-height: 0.1;
+   vertical-align: middle;
+   margin-left: 2px;
+}
+.item-link > span{
+   display: inline-block;
+   margin-left: 3px;
+   text-align: left;
+}
+.item-link > a:first-child,
+.item-link > img:first-child,
+.item-link > span:first-child{
+   margin-left: auto;
+}
+.item-link.multi-line > span,
+.item-link.-w > span{
+   vertical-align: middle;
+   line-height: 1.25;
+}
+.item-link .note{
+   color: #fff;
+   font-size: 85.7142%; /*12px/14px*/
+}
+.item-link div.note{ /*note2*/
+   font-size: 100%;
+   line-height: 1;
+}
+.item-link span.note{
+   margin-left: 3px;
+}
+.item-link.-w span.note:last-child{
+   display: block;
+   margin-left: auto;
+   line-height: 1;
+}
+.item-link.boldname >span span:first-child{
+   font-weight: bold;
+}
+.item-link.notecolor span.note{
+   color: inherit;
+}
+.item-link.note2color div.note{
+   color: inherit;
+}
+.item-link.block,
+.item-link.block > span{
+   display: block;
+}
+.item-link.notesize span.note{
+   font-size: 100%;
+}
+.item-link.note2size div.note{
+   font-size: 100%;
+   font-size: 85.7142%; /*12px/14px*/
+}
+.item-link.alignleft{
+   text-align: left;
+}
+.item-link.aligncenter{
+   text-align: center;
+}
+.item-link.alignright{
+   text-align: right;
+}
+.item-link.textleft>span{
+   text-align: left;
+}
+.item-link.textcenter>span{
+   text-align: center;
+}
+.item-link.textright>span{
+   text-align: right;
+}
+/* ------------------------------------------------------------------ */
+
+/
+/* -- Infobox & infobox wrapper template style ---------------------- */
+/* some rules just kept for "old" template. */
+.infobox td, .infobox th {
+   vertical-align: top; 
+}
+.infobox caption {
+   font-size: larger;
+   margin-left: inherit;
+}
+.infobox.bordered {
+   border-collapse: collapse;
+}
+.infobox.bordered td,
+.infobox.bordered th {
+   border: 1px #AAA solid;
+}
+.infobox.bordered .borderless td,
+.infobox.bordered .borderless th {
+   border: 0;
+}
+/* styles for latest template */
+.infobox{
+   border: 1px solid #aaa;
+   border-radius: 8px;
+   padding: 6px;
+   float: right;
+   font-size: 12px;
+   background-color: #515151;
+   color: white;
+   margin: 0 0 0.5em 1em;
+}
+@media(max-width:450px){
+   .infobox{
+      float: none;
+   }
+}
+.infobox.float-right{
+   float: right;
+   margin: 0 0 0.5em 1em;
+}
+.infobox.float-left{
+   float: left;
+   margin:0 1em 0.5em 0;
+}
+.infobox.float-none{
+   float: none;
+   margin:0 1em 0.5em 0;
+}
+.infobox table{
+   background-color: transparent;
+   width: 100%;
+   border-spacing: 0;
+}
+.infobox table th{
+   white-space: nowrap;
+   padding: 2px;
+   text-align: right;
+   border-right: 1px solid #515151;
+   width: 5em;
+   vertical-align: middle;
+}
+.infobox table td{
+   padding: 2px;
+   vertical-align: middle;
+}
+.infobox .title{
+   background-color: #373d40;
+   color: #ffffff;
+   font-weight: bold;
+   text-align: center;
+   padding: 2px 0;
+}
+.infobox > .title{
+   font-size: 15px;
+   padding: 8px 0;
+   line-height: 1.2;
+}
+.infobox > .title span{
+   display: block;
+   font-size: 12px;
+   color: slategray;
+   font-style: italic;
+}
+.infobox > .title span::before{
+   content: "(";
+   font-style: normal;
+}
+.infobox > .title span::after{
+   content: ")";
+   font-style: normal;
+}
+.infobox .variant{
+   background-color: #373d40;
+   color: #ffffff;
+   font-weight: bold;
+   text-align: center;
+   font-size: 12px;
+   padding: 4px 0;
+   line-height: 1.2;
+}
+.infobox .images{
+   position: relative;
+   padding: 6px 0;
+   min-height: 40px;
+   text-align: center;
+   display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;
+   /* direction=column, for IE11 */
+   -webkit-box-direction:normal;-webkit-box-orient:vertical;-moz-box-direction:normal;-moz-box-orient:vertical;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;
+   -webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;-moz-justify-content:center;justify-content:center;
+   -webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-moz-align-items:center;align-items:center;
+}
+.infobox ul{
+   list-style: none;
+   margin: auto;
+   text-align: center;
+}
+.infobox .stat td > small{
+   font-size: 10.5px;
+   font-weight: bold;
+}
+.infobox .stat td > small::before{
+   content: "(";
+}
+.infobox .stat td > small::after{
+   content: ")";
+}
+.infobox tr.buff th, .infobox tr.buff td{
+   background-color: #373d40;
+   border: 1px solid #515151;
+}
+.infobox tr.buff th{
+   border-left: 0;
+}
+.infobox tr.buff td{
+   border-right: 0;
+   padding-left: 3px;
+}
+.infobox tr.buff td b{
+   font-weight: bold;
+}
+.infobox .variant{
+   margin-bottom: 2px;
+   white-space: nowrap;
+}
+.infobox .drops td:first-child{
+   text-align: left;
+}
+.infobox .drops td:last-child{
+   text-align: right;
+}
+.infobox .drops th:first-child{
+   text-align: left;
+   border-right: 0;
+}
+.infobox .section.drops{
+   margin-top: 6px;
+   margin-bottom: 6px;
+}
+.infobox .drops.money{
+   margin: 2px auto;
+}
+.infobox .image2{
+   text-align: center;
+   padding-top: 3px;
+   margin-top: 6px;
+   border-top: 1px solid #aaa;
+}
+.infobox .drops.items{
+   margin-bottom: 1px;
+}
+.infobox .drops.items li{
+   border-bottom: 1px #AFCFE2 solid;
+   padding: 3px 0;
+   margin-bottom: auto;
+   display:-webkit-box;
+   display:-webkit-flex;
+   display:-moz-flex;
+   display:-ms-flexbox;
+   display:flex;
+   -ms-flex-wrap:nowrap;
+   -webkit-flex-wrap:nowrap;
+   -moz-flex-wrap:nowrap;
+   flex-wrap:nowrap;
+   -webkit-box-direction:normal;
+   -webkit-box-orient:horizontal;
+   -moz-box-direction:normal;
+   -moz-box-orient:horizontal;
+   -webkit-flex-direction:row;
+   -ms-flex-direction:row;
+   flex-direction:row;
+   -webkit-box-pack:justify;
+   -ms-flex-pack:justify;
+   -webkit-justify-content:space-between;
+   -moz-justify-content:space-between;
+   justify-content:space-between;
+   -webkit-box-align:center;
+   -ms-flex-align:center;
+   -webkit-align-items:center;
+   -moz-align-items:center;
+   align-items:center;
+}
+.infobox .drops.items li:first-child{
+   background-color: #373d40;
+   color: #ffffff;
+   padding: 2px 3px 0;
+}
+.infobox .drops.items li > div{
+   display: block;
+}
+.infobox .drops.items li > div:first-child{
+   text-align: left;
+}
+.infobox .drops.items li > div:last-child{
+   text-align: right;
+}
+
+.infobox .drops.items li:last-child{
+   border-bottom: none;
+}
+
+.infobox .drops.items li.caption{
+   border-top:2px #AFCFE2 solid;
+   margin-top: 2px;
+   line-height:1;
+   text-align: center;
+   color:#ffffff;
+   font-size: 10.5px;
+   background:#373d40;
+   padding-top: 5px;
+   display: block;
+}
+.infobox .drops.items li.group_end{
+   border-bottom:5px #AFCFE2 solid;
+   position: relative;
+}
+.infobox .drops.items li.group_end::after{
+   content: "";
+   display: block;
+   position: absolute;
+   left: 0;
+   bottom: -4px;
+   width: 100%;
+   height: 2px;
+   background-color: #515151;
+}
+/* for item infobox */
+.item.infobox{
+   width: 21em;
+}
+.item.infobox .images .auto, .infobox.item .images .stack{
+   position: absolute;
+   right: 3px;
+}
+.item.infobox .images .instrument {
+   position: absolute;
+   left: 3px;
+}
+.item.infobox .images .auto{
+   top: 3px;
+} 
+.item.infobox .images .stack, .item.infobox .images .instrument{
+   bottom: 3px;
+}
+.item.infobox .images ul.inline li{
+   display: inline-block;
+   padding: 0 8px 0 9px;
+   margin: 2px auto;
+   position: relative;
+}
+.item.infobox .images ul.inline li::before{
+   content: "";
+   display: block;
+   width: 1px;
+   background: #ccc;
+   height: 80%;
+   position: absolute;
+   left: 0;
+   top: 10%;
+}
+.item.infobox .images ul.inline li:first-child::before{
+   display: none;
+}
+.item.infobox .images ul.block li{
+   display: block;
+   padding: 13px 0 0 0;
+   margin: auto;
+   position: relative;
+}
+.item.infobox .images ul.block li::before{
+   content: "";
+   display: block;
+   height: 1px;
+   background: #ccc;
+   width: 80%;
+   position: absolute;
+   left: 10%;
+   top: 6px;
+}
+.item.infobox .images ul.block li:first-child{
+   padding-top: 0;
+}
+.item.infobox .images ul.block li:first-child::before{
+   display: none;
+}
+.item.infobox ul.toolpower{
+   padding: 6px 0;
+   cursor: pointer;
+}
+.item.infobox ul.toolpower li{
+   display: inline-block;
+   padding: 0 0.5em;
+}
+/* for npc infobox */
+.npc.infobox{
+   width: 23em;
+}
+.npc.infobox .statistics table th{
+   width: 6em;
+}
+.npc.infobox .images .map{
+   position: absolute;
+   left: 3px;
+   top: 3px;
+}
+/* infobox wrapper */
+.infobox-wrapper.float-right{
+   float: right;
+   margin-left: 0.5em;
+}
+.infobox-wrapper.float-left{
+   float: left;
+   margin-right: 0.5em;
+}
+.infobox-wrapper.float-none{
+   float: none;
+}
+.infobox-wrapper.float-right.direction-row .infobox,
+.infobox-wrapper.float-right.direction-row-reverse .infobox,
+.infobox-wrapper.float-right.direction-row .infobox.float-left,
+.infobox-wrapper.float-right.direction-row-reverse .infobox.float-left,
+.infobox-wrapper.float-right.direction-row .infobox.float-right,
+.infobox-wrapper.float-right.direction-row-reverse .infobox.float-right,
+.infobox-wrapper.float-right.direction-row .infobox.float-none,
+.infobox-wrapper.float-right.direction-row-reverse .infobox.float-none{
+   float: none;
+   margin: 0 0 0.5em 0.5em;
+}
+.infobox-wrapper.float-left.direction-row .infobox,
+.infobox-wrapper.float-left.direction-row-reverse .infobox,
+.infobox-wrapper.float-left.direction-row .infobox.float-left,
+.infobox-wrapper.float-left.direction-row-reverse .infobox.float-left,
+.infobox-wrapper.float-left.direction-row .infobox.float-none,
+.infobox-wrapper.float-left.direction-row-reverse .infobox.float-none,
+.infobox-wrapper.float-left.direction-row .infobox.float-right,
+.infobox-wrapper.float-left.direction-row-reverse .infobox.float-right,
+.infobox-wrapper.float-none.direction-row .infobox,
+.infobox-wrapper.float-none.direction-row-reverse .infobox,
+.infobox-wrapper.float-none.direction-row .infobox.float-left,
+.infobox-wrapper.float-none.direction-row-reverse .infobox.float-left,
+.infobox-wrapper.float-none.direction-row .infobox.float-none,
+.infobox-wrapper.float-none.direction-row-reverse .infobox.float-none,
+.infobox-wrapper.float-none.direction-row .infobox.float-right,
+.infobox-wrapper.float-none.direction-row-reverse .infobox.float-right{
+   float: none;
+   margin: 0 0.5em 0.5em 0;
+}
+.infobox-wrapper.float-left.direction-column .infobox,
+.infobox-wrapper.float-left.direction-column-reverse .infobox,
+.infobox-wrapper.float-left.direction-column .infobox.float-left,
+.infobox-wrapper.float-left.direction-column-reverse .infobox.float-left,
+.infobox-wrapper.float-left.direction-column .infobox.float-none,
+.infobox-wrapper.float-left.direction-column-reverse .infobox.float-none,
+.infobox-wrapper.float-left.direction-column .infobox.float-right,
+.infobox-wrapper.float-left.direction-column-reverse .infobox.float-right{
+   float: left;
+   margin: 0 0.5em 0.5em 0;
+}
+.infobox-wrapper.float-none.direction-column .infobox,
+.infobox-wrapper.float-none.direction-column-reverse .infobox,
+.infobox-wrapper.float-none.direction-column .infobox.float-right,
+.infobox-wrapper.float-none.direction-column-reverse .infobox.float-right{
+   float: right;
+   margin: 0 0 0.5em 0.5em;
+}
+.infobox-wrapper.float-none.direction-column .infobox.float-left,
+.infobox-wrapper.float-none.direction-column-reverse .infobox.float-left,
+.infobox-wrapper.float-none.direction-column .infobox.float-none,
+.infobox-wrapper.float-none.direction-column-reverse .infobox.float-none{
+   float: left;
+   margin: 0 0.5em 0.5em 0;
+}
+.infobox-wrapper.float-right.direction-column .infobox,
+.infobox-wrapper.float-right.direction-column-reverse .infobox,
+.infobox-wrapper.float-right.direction-column .infobox.float-left,
+.infobox-wrapper.float-right.direction-column-reverse .infobox.float-left,
+.infobox-wrapper.float-right.direction-column .infobox.float-none,
+.infobox-wrapper.float-right.direction-column-reverse .infobox.float-none,
+.infobox-wrapper.float-right.direction-column .infobox.float-right,
+.infobox-wrapper.float-right.direction-column-reverse .infobox.float-right{
+   float: right;
+   margin: 0 0 0.5em 0.5em;
+}
+/* ------------------------------------------------------------------ */
+
+/* Claim wiki button - this section can be removed if you remove the claim button from the main page */
+.claimwikibutton {
+    text-align: center;
+}
+
+.claimwikibutton a {
+    background: url("https://media-mercury.cursecdn.com/attachments/1/716/claim_wiki_button.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    display: block;
+    height: 57px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 200px;
+}
+
+.claimwikibutton a:hover {
+    background: url("https://media-mercury.cursecdn.com/attachments/1/717/claim_wiki_button_hover.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+}
+
+/* copyright images tweak */
+.skin-hydradark .copyright-icon {
+    background-image: url("https://commons.gamepedia.com/media/commons.gamepedia.com/thumb/5/58/Copyright_darkwiki.png/32px-Copyright_darkwiki.png");
+    background-size: 100%;
+    height: 32px;
+    width: 32px;
+}
+
+/* interwiki table bg fix for active entries */
+.mw-interwikitable-local,
+.mw-interwikitable-trans {
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.feature {
+    background: rgba(0, 0, 0, 0.05);
+    border: 2px solid darkred;
+    border-radius: 5px; 
+    padding: 10px;
+}
+
+/* Navbox template style */
+table.navbox {
+    border: 1px solid #aaa;
+    clear: both;
+    /*font-size: 12px;*/
+    margin-top: 0.75em !important;
+    /*text-align: center;*/
+    width: 100%; 
+    border-radius: 8px;
+    padding: 6px;
+    background-color: #515151;
+}
+
+/* Border between adjacent navboxes */
+table.navbox + table.navbox {
+    margin-top: -1px;
+}
+
+.navbox-title,
+.navbox-abovebelow,
+table.navbox th {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+
+.navbox-group {
+    font-weight: bold;
+    padding-left: 1em;
+    padding-right: 1em;
+    white-space: nowrap;
+}
+
+/* Base background */
+.navbox, .navbox-subgroup {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.navbox-list {
+    border-color: rgba(0, 0, 0, 0.1); /* Must match background color */
+}
+
+/* ------------------------------------------------------------------ */
+/* For Template:Key */
+div.key {
+   pointer-events: none;
+}
+div.key span {
+   cursor: pointer;
+   white-space: nowrap;
+   pointer-events: all;
+}
+div.key a:-webkit-any-link {
+   text-decoration: none;
+}
+/* ------------------------------------------------------------------ */
+
+/* Level 1 color */
+.navbox-title,
+table.navbox th {
+    background: #373D40;
+    color: #fff;
+}
+
+/* Level 2 styling */
+.navbox-abovebelow,
+.navbox-group,
+.navbox-subgroup .navbox-title {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+/* Level 3 styling */
+.navbox-subgroup .navbox-group,
+.navbox-subgroup .navbox-abovebelow {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/* Even row striping */
+.navbox-even {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+/* Odd row striping */
+.navbox-odd {
+    background: transparent;
+}
+ 
+.collapseButton {
+    font-weight: normal;
+    width: auto;
+}
+
+.navbox .collapseButton {
+    width: 6em;
+}
+ 
+.navbar {
+    font-size: 88%;
+    font-weight: normal;
+}
+
+.navbox .navbar {
+    font-size: 100%;
+}
+ 
+table.collapsed tr.collapsible {
+    display: none;
+}
+/* End of new Navbox styling */
+
+/* -- "terraria" box style. ------------------------------------------*/
+.terraria{
+    border: 1px #aaa solid;
+    padding: 8px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    position: relative;
+}
+.terraria th{
+    background: #333;
+}
+.terraria > .heading,
+.terraria > .mw-collapsible-content > .heading {
+    background: #373d40;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2;
+    min-height: 1em;
+    margin: auto -4px;
+    padding: 0;
+    font-size: inherit;
+    margin-top: 8px;
+}
+.terraria > .heading:first-child,
+.terraria > .mw-collapsible-content > .heading:first-child {
+    margin-top: auto;
+}
+.terraria > .heading + *,
+.terraria > .mw-collapsible-content > .heading + * {
+    padding-top: 8px;
+}
+.terraria > .mw-collapsible-toggle {
+    position: absolute;
+    line-height: 1;
+    right: 12px;
+    top: 12px;
+    font-size: 12px;
+}
+.terraria > .mw-collapsible-toggle > .mw-collapsible-bracket {
+    display: none;
+}
+.terraria > .mw-collapsible-toggle:before {
+    content: "";
+    vertical-align: middle;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    transform: rotate(45deg);
+    position: relative;
+    left: -3px;
+    border-left: 2px solid #aaa;
+    border-top: 2px solid #aaa;
+    border-right: 0;
+    border-bottom: 0;
+    top: 1px;
+}
+.terraria > .mw-collapsible-toggle.mw-collapsible-toggle-collapsed:before {
+    border-left: 0;
+    border-top: 0;
+    border-right: 2px solid #aaa;
+    border-bottom: 2px solid #aaa;
+    top: -2px;
+}
+}
+
+#mw-page-base {
+    background-position: top left !important;
+}
+
+body, #mw-page-base {
+    background: url("https://i.imgur.com/R9ejVMf.png") no-repeat fixed center top / cover rgb(16,16,16) !important;
+}
+
+#mw-panel {
+    background-color: rgb(16, 16, 16, 0.7);
+    border: 1px solid #101010;
+}
+
+div.vectorTabs li.selected, div.vectorTabs ul li {
+    /* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkAQAAAABvV2fNAAAADElEQVR4AWNoGB4QAInlMgFKeRKBAAAAAElFTkSuQmCC); */
+    background-color: transparent !important;
+}
+
+div#content {
+    background-color: rgb(32, 32, 32, 1) !important;
+
+}
+.mw-wiki-logo {
+    filter: drop-shadow(0px 0px 3px #fff) drop-shadow(0px 0px 3px #fc2d76);
+}
+
+/* ------------------------------------------------------------------ */
+/* Visited Links Color */
+div#content a:visited{
+   color:#2673bf;
+}
+a:visited, div#content a.external:visited, div#content a.extiw:visited{
+   color:#2673bf;
+}
+.plaincollapse .mw-collapsible-toggle  a:visited {
+   color:#2673bf;
+}
+#mw-panel.collapsible-nav .portal h3 a:visited,
+#mw-panel.collapsible-nav .portal.collapsed h3 a:visited {
+   color: #2673bf;
+}
+div#mw-panel div.portal div.body ul li a:visited {
+   color: #2673bf;
+}
+
+/* ------------------------------------------------------------------ */
+/* unvisited link */
+a:link {
+  color: #2673bf;
+}

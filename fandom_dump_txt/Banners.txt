@@ -1,0 +1,201 @@
+{{item infobox
+| imagealt = [[File:Calamity Eye Banner (placed).png]] [[File:Plaguebringer Banner (placed).png]] [[File:Eidolon Wyrm Juvenile Banner (placed).png]] [[File:Amethyst Crawler Banner (placed).png]]
+| type = Furniture
+| placeable = Yes
+| auto = yes
+| tooltip = Nearby players get a bonus against: [enemy name]
+| stack = 9999
+| width = 1
+| height = 3
+| rare = 1
+| color = #0D5882
+| consumable = True
+| buff = Banner (buff)
+| bufftip = Increased damage and defense from the following: [enemy name(s)]
+| sell = {{value|0|0|2}}
+| use = 14
+| boxwidth = 20em
+}}
+
+The Calamity Mod features [[tgc:Banners_(enemy)|banners]] for many of the [[enemies]] introduced in the mod's various biomes.
+
+== Pre-Hardmode ==
+{| class="terraria" style="margin:3px 0"
+|-
+| {{banner|enemy=Acid Eel}}
+| {{banner|enemy=Aero Slime}}
+| {{banner|enemy=Amber Crawler}}
+| {{banner|enemy=Amethyst Crawler}}
+| {{banner|enemy=Angry Dog}}
+|-
+| {{banner|enemy=Aquatic Parasite}}
+| {{banner|enemy=Aquatic Seeker}}
+| {{banner|enemy=Aquatic Urchin}}
+| {{banner|enemy=Baby Flak Crab}}
+| {{banner|enemy=Baby Ghost Bell}}
+|-
+| {{banner|enemy=Box Jellyfish}}
+| {{banner|enemy=Calamity Eye}}
+| {{banner|enemy=Catfish}}
+| {{banner|enemy=Clam}}
+| {{banner|enemy=Cnidrion}}
+|-
+| {{banner|enemy=Cosmic Elemental}}
+| {{banner|enemy=Crimulan Blight Slime}}
+| {{banner|enemy=Cuttlefish}}
+| {{banner|enemy=Despair Stone}}
+| {{banner|enemy=Devil Fish}}
+|-
+| {{banner|enemy=Diamond Crawler}}
+| {{banner|enemy=Ebonian Blight Slime}}
+| {{banner|enemy=Emerald Crawler}}
+| {{banner|enemy=Eutrophic Ray}}
+| {{banner|enemy=Fearless Goldfish Warrior}}
+|-
+| {{banner|enemy=Flounder}}
+| {{banner|enemy=Frogfish}}
+| {{banner|enemy=Giant Clam}}
+| {{banner|enemy=Ghost Bell}}
+| {{banner|enemy=Gnasher}}
+|-
+| {{banner|enemy=Irradiated Slime}}
+| {{banner|enemy=Mantis Shrimp}}
+| {{banner|enemy=Moray Eel}}
+| {{banner|enemy=Nuclear Toad}}
+| {{banner|enemy=Ogsculian Burrower}}
+| {{banner|enemy=Piggy}}
+|-
+| {{banner|enemy=Prism-Back}}
+| {{banner|enemy=Radiator}}
+| {{banner|enemy=Rotdog}}
+| {{banner|enemy=Ruby Crawler}}
+| {{banner|enemy=Sapphire Crawler}}
+|-
+| {{banner|enemy=Scryllar}}
+| {{banner|enemy=Sea Floaty}}
+| {{banner|enemy=Sea Minnow}}
+| {{banner|enemy=Sea Urchin}}
+| {{banner|enemy=Skyfin}}
+|-
+| {{banner|enemy=Soul Slurper}}
+| {{banner|enemy=Stormlion}}
+| {{banner|enemy=Sunskater}}
+| {{banner|enemy=Topaz Crawler}}
+| {{banner|enemy=Toxic Minnow}}
+|-
+| {{banner|enemy=Trasher}}
+| {{banner|enemy=Viperfish}}
+| {{banner|enemy=Water Leech}}
+| {{banner|enemy=Wulfrum Drone}}
+| {{banner|enemy=Wulfrum Gyrator}}
+|-
+| {{banner|enemy=Wulfrum Hovercraft}}
+| {{banner|enemy=Wulfrum Pylon}}
+| {{banner|enemy=Wulfrum Rover}}
+| {{banner|enemy=Wulfrum Slime}}
+|}
+
+== [[Hardmode]] ==
+{| class="terraria" style="margin:3px 0"
+|-
+| {{banner|enemy=Anthozoan Crab}}
+| {{banner|enemy=Aquatic Aberration}}
+| {{banner|enemy=Aries}}
+| {{banner|enemy=Armored Digger}}
+| {{banner|enemy=Astralachnea}}
+|-
+| {{banner|enemy=Astral Probe}}
+| {{banner|enemy=Astral Slime}}
+| {{banner|enemy=Atlas}}
+| {{banner|enemy=Belching Coral}}
+| {{banner|enemy=Big Sightseer}}
+|-
+| {{banner|enemy=Blighted Eye}}
+| {{banner|enemy=Blinded Angler}}
+| {{banner|enemy=Bohldohr}}
+| {{banner|enemy=Charred Slime}}
+| {{banner|enemy=Aether Valkyrie}}
+|-
+| {{banner|enemy=Cryon}}
+| {{banner|enemy=Cryo Slime}}
+| {{banner|enemy=Crystal Crawler}}
+| {{banner|enemy=Cultist Assassin}}
+| {{banner|enemy=Earth Elemental}}
+|-
+| {{banner|enemy=Eidolist}}
+| {{banner|enemy=Flak Crab}}
+| {{banner|enemy=Fusion Feeder}}
+| {{banner|enemy=Giant Squid}}
+| {{banner|enemy=Great Sand Shark}}
+|-
+| {{banner|enemy=Gulper Eel}}
+| {{banner|enemy=Hadarian}}
+| {{banner|enemy=Heat Spirit}}
+| {{banner|enemy=Hive|link=Hive (enemy)}}
+| {{banner|enemy=Ice Clasper}}
+|-
+| {{banner|enemy=Laserfish}}
+| {{banner|enemy=Luminous Corvina}}
+| {{banner|enemy=Mantis}}
+| {{banner|enemy=Melter}}
+| {{banner|enemy=Mirage Jelly}}
+|-
+| {{banner|enemy=Nova}}
+| {{banner|enemy=Oarfish}}
+| {{banner|enemy=Orthocera}}
+| {{banner|enemy=Overloaded Soldier}}
+| {{banner|enemy=Parasea}}
+|-
+| {{banner|enemy=Perennial Slime}}
+| {{banner|enemy=Pestilent Slime}}
+| {{banner|enemy=Phantom Debris}}
+| {{banner|enemy=Plaguebringer}}
+| {{banner|enemy=Plague Charger}}
+|-
+| {{banner|enemy=Plagueshell}}
+| {{banner|enemy=Sand Tortoise}}
+| {{banner|enemy=Sea Serpent}}
+| {{banner|enemy=Shockstorm Shuttle}}
+| {{banner|enemy=Small Sightseer}}
+|-
+| {{banner|enemy=Stellar Culex}}
+| {{banner|enemy=Sulphurous Skater}}
+| {{banner|enemy=Sun Bat}}
+| {{banner|enemy=Trilobite}}
+| {{banner|enemy=Viruling}}
+|}
+
+== Godseeker Mode ==
+{| class="terraria" style="margin:3px 0"
+|-
+| {{banner|enemy=Bloatfish}}
+| {{banner|enemy=Bloom Slime}}
+| {{banner|enemy=Bobbit Worm}}
+| {{banner|enemy=Chaotic Puffer}}
+| {{banner|enemy=Chasm Beast}}
+|-
+| {{banner|enemy=Colossal Squid}}
+| {{banner|enemy=Eidolon Wyrm Juvenile|link=Eidolon Wyrm}}
+| {{banner|enemy=Side Mollusk}}
+| {{banner|enemy=Gamma Slime}}
+| {{banner|enemy=Impious Immolator}}
+| {{banner|enemy=Mauler}}
+|-
+| {{banner|enemy=Phantom Spirit}}
+| {{banner|enemy=Profaned Energy}}
+| {{banner|enemy=Reaper Shark}}
+| {{banner|enemy=Scorn Eater}}
+| {{banner|enemy=Secretary}}
+|}
+
+
+== Trivia ==
+*The [[Draconic Swarmer]], [[Twinkler]], and the [[Super Dummy]] are the only non boss-exclusive NPCs without a banner. This is due to Twinkler being a similar [[Critter]] to the [[Firefly]], the Draconic Swarmer is normally a boss summon, and the Super Dummy being a utility NPC.
+
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+
+[[Category:Furniture items]]
+[[zh:旗帜]]

@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damage = 48
+| damagetype = Rogue
+| knockback = 4.50
+| velocity = 15
+| use = 28
+| tooltip = The bottle is surprisingly dusty<br/>Throws a holy flask of water that explodes into a sacred flame pillar on death<br/>The pillar is destroyed if there's no tiles below it<br/>Stealth strikes create three flame pillars instead of one on impact
+| rare = 5
+| stack = 1
+| sell = {{value|0|4|80}}
+| hardmode = yes
+| proj = Consecrated Flame Pillar.gif
+| projcaption = Consecrated Flame Pillar
+| element1 = Water
+| element2 = Holy
+}}
+The '''Consecrated Water''' is a craftable [[Hardmode]] [[Bombs|bomb]]. When used, a gravity affected flask is thrown that breaks upon contact with [[enemies]] and blocks. Upon breaking, the flask releases a 20 block high flame pillar that damages enemies and dissipates after three seconds.
+
+Performing a [[stealth strike]] with the Consecrated Water will cause the next flask thrown to spawn two additional flame pillars to the left and right of the main pillar.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon is a reference to the [https://castlevania.fandom.com/wiki/Holy_Water Holy Water] sub-weapon from the ''[[wikipedia:Castlevania|Castlevania]]'' game series, and functions very similarly to it.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Bombs]]

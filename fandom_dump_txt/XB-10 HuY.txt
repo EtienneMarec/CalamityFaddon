@@ -1,0 +1,176 @@
+{{DISPLAYTITLE:XB-10 HuY}}
+<big>''"Draedon's ultimate machine, worked on behind the scenes to do what the past machines couldn't."''</big>{{Npc infobox|Exo Prism|{{dv|24-32|30-40}}|100%|Miracle Plating|{{dv|15-21|26-41}}|100%|Draedon's Heart|1|100%|Exo Box|1|100%|Draedon Mask|1|28.7%|custom|{{item|XB-10 HuY (Lore)|note=(Always on first kill)|wrap=y}}|100%|custom|{{item|Exo Dragonblade}}|{{dv|25%|33.33%}}|custom|{{item|Titanslayer}}|{{dv|25%|33.33%}}|custom|{{item|Spectral Assassin}}|{{dv|25%|33.33%}}|custom|{{item|Witch Hunt}}|{{dv|25%|33.33%}}|custom|{{item|HuY Mask}}|28.57%|custom|{{item|HuY Trophy}}|100%|name=XB-10 HuY|type=Boss|boxwidth=27em|ai=XB-10 HuY AI|defense=100|life={{dv|1,980,000|2,640,000|3,300,000}}|damage={{dv|400|500|600}} (Contact)<br/>{{dv|200|250|300|350}} (Yellow Exothermal Laser)<br/>{{dv|450|500|550|600}} (Exothermal Scythe)<br/>{{dv|300|350|400|450}} (Purple Exothermal Laser)<br/>{{dv|500|600|800|900}} (Exothermal Deathray)|knockback=100|immune1=Confused|immune2=Pearl Aura|immune3=ExoFreeze|money={{pc|20}}|hurt=ExoHit1.wav, ExoHit2.wav, ExoHit3.wav, ExoHit4.wav|killed=ExoDeath.wav|soundtext=Shoot|sound=PlasmaBolt.wav|sound2=PlasmaCasterFire.wav|sound2text=Charge|image2=XB-10 HuY map.png|image2caption=Map Icon|sound3=Item_42.wav|sound3text=Exothermal Scythe|sound4=TeslaCannonFire.wav|sound4text=Deathray|image=XB-10 HuYPhase1.png | vulnerable1 = Stab | vulnerable2 = Water | vulnerable3 = Fire | resistant1 = Machine | resistant2 = Smash | resistant3 = Poison}}
+'''XB-10 HuY''' (Japanese: XB-10 ロスバフ ''XB - 10 ???'') is a Epilogue [[boss]] that is intended to be fought after both the [[The Fabricational Quartet]] and [[Supreme Calamitas]] have been defeated.
+
+Defeating it will provide the player with [[Miracle Plating]], a crafting material for various endgame equipment. As well, XB-10 HuY can drop Exo Prisms, providing a viable alternative for players who are more comfortable with a singular target rather than a host of venerable foes, while also giving them a challenge.
+
+==Spawn==
+XB-10 HuY does not spawn on its own, and requires the player to construct [[The Codebreaker]] and an [[Auric Quantum Cooling Cell]]. Once constructed, the player can interact (right-click) and press the '''Contact''' button. Unlike the The Fabricational Quartet, to initiate the encounter with XB-10 HuY, the player must insert a [[Shadowspec Bar]] into The Codebreaker's [[Draedon Power Cell]] slot. Once this is performed, the normal Exo Mech encounter is overridden by the only option to fight XB-10 HuY, but can be toggled back by inputting a [[Draedon Power Cell]]. It can also be summoned using a [[Shady Gazing Skull]]. XB-10 HuY can be fought in any biome at any time.
+
+Once summoned, Draedon will allow the player to choose only one option:
+
+*[[File: XB-10 HuY map.png]] XB-10 HuY, a horrifying amalgamation of every mech with untold power.
+
+==Behavior==
+When spawned, XB-10 HuY will appear in the background and charge into the foreground. XB-10 HuY will attempt to keep up with the player while hovering above them. XB-10 HuY can either fire projectiles, summon minions, or ram toward the player.
+
+===Attacks===
+
+====Phase 1====
+
+*XB-10 HuY stays above the player until an attack overrides this behavior, and will perform several different attacks.
+**XB-10 HuY fires four bursts of {{dv|3|4|4=5}} {{Item|Yellow Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s and follows up with a spread of {{dv|5|3=6}} {{Item|Yellow Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s.
+***HuY Peepers will fire one {{Item|Yellow Exo Pulse Laser|size=36px|ext=gif|nolink=yes}} for each burst, including the final one.
+**XB-10 HuY charges at the player and moves toward the bottom of the screen. XB-10 HuY will fire {{Item|Exothermal Scythe|size=36px|ext=gif|nolink=yes}}s in a cone shape. The cone of scythes will get smaller, and the boss will fire additional {{Item|Exothermal Scythe|size=36px|ext=gif|nolink=yes}}s inside the cone.
+***HuY Peepers will fire {{Item|Yellow Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s inside the cone, making it even tighter.
+**XB-10 HuY telegraphs a predictive charge at the player while leaving a trail of {{Item|Exothermal Scythe|size=36px|ext=gif|nolink=yes}}s. This attack repeats {{dv|2|4=4|3=3}} more times.
+***HuY Peepers will fire {{Item|Yellow Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s at the player while XB-10 HuY is charging.
+**XB-10 HuY dashes above the player before telegraphing a volley of {{Item|Yellow Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s that rotate until they return to their original position.
+***HuY Peepers will fire a volley of {{Item|Yellow Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s in front of the player, punishing them for going too fast.
+**XB-10 HuY spins and summons two HuY Peepers. XB-10 HuY gains {{dv|30%|40%|4=60%|50%}} DR while a HuY Peeper is alive.
+***This attack will not be performed if a HuY Peeper is alive.
+
+====Phase 2====
+
+*Upon reaching {{dv|50%|60%|4=75%}} health, the second phase of the fight will begin.
+**XB-10 HuY fires {{dv|4|3=5}} rapid bursts of {{dv|5|4=7|3=6}} {{Item|Yellow Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s and {{Item|Exothermal Scythe|size=36px|ext=gif|nolink=yes}}s, and follows up with a spread of {{dv|7|8|4=10|9}} {{Item|Yellow Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s. This attack is repeated two more times.
+***HuY Peepers will fire bursts of two {{Item|Yellow Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s. {{Revengeance|For the final burst, they will fire four Purple Exo Pulse lasers.}}
+**XB-10 HuY goes to any corner of the screen and telegraphs a four sided deathray. While the deathray is active, XB-10 HuY will fire a ring of {{dv|8|4=16}} {{Item|Exothermal Scythe|size=36px|ext=gif|nolink=yes}}s.
+***Leaving the deathray's range will enrage the boss. While enraged, damage is tripled, damage reduction is increased to 90% regardless if a HuY Peeper is alive, and attacks are faster.
+***HuY Peepers will orbit XB-10 HuY and fire {{Item|Purple Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s at the player.
+**XB-10 HuY telegraphs predictive charges at the player while firing a spray of {{Item|Yellow Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s. Once a charge ends, XB-10 HuY will create two rings of {{Item|Exothermal Scythe|size=36px|ext=gif|nolink=yes}}s, with the second ring being slower. This attack repeats two more times.
+***HuY Peepers will fire a volley of four {{Item|Purple Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s while following the boss. They will fling themselves at the player if close enough.
+**XB-10 HuY spins and summons four HuY Peepers. XB-10 HuY only gains {{dv|10%|20%|4=40%|30%}} DR while a HuY Peeper is alive, but can summon up to {{Dv|8|9|10|12}} HuY Peepers.
+===In [[Expert Mode]]===
+
+*XB-10 HuY gains a new attack in Phase 1.
+**XB-10 HuY will fire three outward rings of {{Item|Exothermal Scythe|size=36px|ext=gif|nolink=yes}}s, which circle inward.
+*HuY Peepers will occasionally charge toward the player.
+===In [[Revengeance Mode]]===
+
+*Gains a third phase at 25% health.
+**XB-10 HuY will fire a continuous spread of {{Item|Purple Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s for 1.5 seconds, and turns 90 degrees. This attack repeats three more times.
+***HuY Peepers will fire a burst of four {{Item|Yellow Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s every time XB-10 HuY turns.
+**XB-10 HuY fires five outward rings of {{Item|Exothermal Scythe|size=36px|ext=gif|nolink=yes}}s, which circle inward and rotate.
+***HuY Peepers will follow the rings while firing {{Item|Yellow Exo Pulse Laser|size=36px|ext=gif|nolink=yes}}s, and creating medium sized explosions.
+**XB-10 HuY telegraphs a six sided deathray that rotates for 7 seconds.
+***HuY Peepers will fire bursts of 4 {{Item|Exothermal Scythe|size=36px|ext=gif|nolink=yes}}s. Odd numbered HuY Peepers fire horizontally and vertically, and even numbered HuY Peepers fire diagonally.
+**XB-10 HuY performs these attacks after performing all Phase 2 attacks.
+
+===In [[Death Mode]]===
+*Performs a random Phase 2 attack every 5 attacks in Phase 1, and performs a random Phase 3 attack every 3 attacks below 50% health.
+*The cooldown between attacks is decreased.
+*Attack speed is increased.
+===On the [[Tgc:For the worthy|For the worthy]] seed===
+*Is 25% larger.
+*Moves faster.
+*Projectiles are 50% larger.
+*For the entirety of Phase 1, two invulnerable HuY Peepers will be accompanying the boss. During Phase 2, three HuY Peepers will be accompanying the boss. During Phase 3, four HuY Peepers will be accompanying the boss. The boss will no longer summon HuY Peepers.
+*HuY Peepers are 40% smaller.
+*Becomes enraged at 10% health. Damage is increased by 15%, and damage reduction is set to 75%.
+==Summons==
+{{Npc infobox|name=HuY Peeper|type=Boss servant|damage=0 (Contact)<br/>{{dv|300|375|450|525}} (Hostile Contact)<br/>{{dv|200|250|300|350}} (Yellow Exo Pulse Laser)<br/>{{dv|300|350|400|450}} (Purple Exo Pulse Laser)<br/>{{dv|350|450|500|600}} (Exothermal Scythe)|ai=HuY Peeper|life={{dv|65,000|70,000|82,500|104,000}}|defense=50|knockback=100%|immuneall=yes|hurt=NPC_Hit_4.wav|killed=Item_14.wav|sound=LaserCannon.wav|soundtext=Shoot|float=none|sound2=Dd2_kobold_explosion_1.wav|sound2text=Explosion}}
+
+==Notes==
+{{npc infobox
+| type = Boss
+| name = Draedon
+| life = 16,000
+| damage = 0
+| defense = 100
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| killed = NPC_Killed_14.wav
+| sound = DraedonTeleport.wav
+| soundtext = Spawn
+| sound2 = DraedonAmbience.wav
+| sound2text = Ambience
+| sound3 = FlareSound.wav
+| sound3text = XB-10 HuY Summon
+| sound4 = DraedonLaugh.wav
+| sound4text = Laugh
+}}
+*Draedon appears in this fight, nearly identical to how he appears during the The Fabricational Quartet fight.
+*Draedon exists as an NPC. However, he does not perform any attacks, instead moving away from the player to observe the battle. Once XB-10 HuY is defeated, he can be damaged during the closing monologue. "Killing" him will cause another invincible hologram of him to spawn, prompting an extra dialogue. He will continue the monologue as usual even after interrupted.
+**Draedon will take 56x damage from any sources and will cause all damage to turn into critical strikes. If the damage taken is somehow not enough to "kill" him, damage is increased to a range varying from 32,100 to 33,500 damage.
+*During the fight, the sky turns grey and lightning strikes occasionally occur in the background. Specific events of XB-10 HuY will also cause a set amount of lightning strikes to occur.
+**While entering phase two, 5 lightning bolts appear.
+**While entering phase three, 8 lightning bolts appear.
+**While going berserk, 12 lightning bolts appear.
+*After Draedon says "I must acknowledge your triumph, but I will return now to my machinery.", Draedon will start fading, before reappearing to say "Oh, and don't forget to replace your modification with one of my power cells, for as I do not want to be humiliated again."
+
+==Tips==
+{{dablink|For more elaborate strategies on defeating XB-10 HuY, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:XB-10 HuY strategies]].}}
+
+* Try to fly vertically during the predictive charge and move the opposite direction of XB-10 HuY, it'll give you more time to dodge the next charge.
+* Stay centered when XB-10 HuY fires the rings of Exothermal Scythes, since it'll give you more time to look for an opening. You will have to move in order to not get caught in the HuY Peepers' explosions during its third phase.
+
+==Trivia==
+*XB-10 HuY's [[Music|theme]] is '''[https://www.youtube.com/watch?v=GPDJQg7hZ30 Catastrophic Fabrications]''', which was composed by the artist [https://www.youtube.com/@pinpinneon9353 PinpinNeon].
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "An imperfection after all… what a shame."
+*XB-10 HuY is based on [[tgc:Ocram|Ocram]], a removed boss, which dropped [[tgc:Soul_of_Blight|Souls of Blight]].
+*''HuY'' is the word for "crab" in Draedon's native language, [[Draedonian]].
+**''HuY'' spelled backwards is ''Ozzatron'', the lead developer of the Calamity Mod. This is a coincidence.
+*Despite technically being a separate boss from the The Fabricational Quartet, XB-10 HuY shares their Treasure Bag, and Covering.
+*Unlike the other Exo themed bosses, XB-10 HuY is not named after Greek mythology.
+*XB-10 HuY's sprite is eerily similar to [https://forums.terraria.org/index.php?threads/gratga-is-thread.61019/post-1491230 gratga's resprite of Ocram]. It's obvious that the sprite was edited to create HuY, and the creator of said image most likely did not have permission for the image, making this plagiarized, but it is uncertain.
+*HuY used to have a different name that is based on mythology that name is (idk really i forgot:( )
+==Quotes==
+
+===When spawned===
+
+====When Draedon is spawned for the first time====
+
+*"How curious."
+*"Your configurations to my machine have created a paradox in time."
+*"You will confront one of my future endeavors."
+*{{Color|"I hope you've prepared well, for as this battle will be very challenging."|#D5040B}}
+
+====When Draedon is spawned in subsequent battles====
+
+*"Proceed when ready."
+
+===In Battle===
+
+====In Phase 2====
+
+*"I've assessed every inaccuracy from all my previous creations, and improved on all aspects, or will have done."
+*"Do not get overconfident, for as that will be your final mistake."
+
+====In Phase 3====
+
+*"Absurd."
+*"I will not toy around with my work of art for any longer."
+*"I shall show you the full fury of my grand creation."
+
+===When Defeated===
+
+*"Fascinating."
+*"My masterpiece that had matched even the mightiest of gods, completely annihilated."
+*"Not even a speck of my intellect had expected this outcome."
+*"...Excuse my introspection. I must gather my thoughts after that display."
+*"This land has become stale and stiff with blood that has been spilled until now."
+*"You have also spilled blood, but it may be enough to usher a new age... Of what, I do not know. But it is something I am eager to see."
+*"Now. You wish to reach the Tyrant. I cannot assist you in that."
+*"It is not a matter of spite, for I would wish nothing more than to observe such a conflict."
+*"But you have managed before. You will find a way eventually."
+*"I must acknowledge your triumph, but I will return now to my machinery."
+*"Oh, and don't forget to replace your modification with one of my power cells, for as I do not want to be humiliated again."
+
+===When Draedon is attacked during his closing monologue===
+
+*"...Quite unnecessary."
+*"...What?"
+*"You want to complain about the name of a currently non-existent machine?"
+*"Fine. I suppose the old name will be lost to history, seeing as how it can't exist anymore."
+*"...I suppose this contributed to my theories of time."
+*"But returning to my previous thoughts..."
+== See Also ==
+
+* [[The Fabricational Quartet]], an alternative route of the fight.
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}
+*

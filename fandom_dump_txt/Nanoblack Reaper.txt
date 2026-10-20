@@ -1,0 +1,48 @@
+{{dedicated|NanoNova|Developer}}
+{{item infobox
+| type = Weapon
+| damage = 36720
+| auto = no
+| use = 14
+| knockback = 40
+| damagetype = Rogue
+| rare = 16
+| tooltip = Annihilates anything it touches with one large swing<br/>Takes 10 seconds to charge, each 10% of charge will release homing 75 energy blades <br/>Holding it uncharged will rapidly heal you<br/>Stealth strikes will release 575 energy blades on hit<br/>'She smothered them in Her hatred'
+| sell = {{value|0|200}}
+| velocity = 27
+| stack = 1
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Nanoblack Blade.png
+| projcaption = Nanoblack Blade
+| element1 = Dark
+| element2 = Slash
+| element3 = Machine
+}}
+The '''Nanoblack Reaper''' is a craftable Epilogue rogue [[boomerang]]. Holding down the attack button will slowly charge the Nanoblack Reaper for 10 seconds while releasing 75 Energy Blades every second. After being charged for 10 seconds, the Nanoblack Reaper is thrown, quickly homing onto an enemy while being extremely fast and damaging. It pierces every target within a 75 block radius once, then explodes in a large radius dealing 50% of its attack damage.
+
+If the player holds the Nanoblack Reaper but does not charge it, they will heal at a rate of around 93 health per second.
+
+Performing a [[stealth strike]] with the Nanoblack Reaper causes the weapon’s explosion to release 575 Energy Blades, as well as having the blast radius tripled.
+
+{{modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Tips ==
+*Using the Nanoblack Reaper to heal is always a priority over attacking. The sheer power of its healing is enough to fully heal most players in under 10 seconds, and only then should the player continue attacking.
+
+== Trivia ==
+*The Nanoblack Reaper was intentionally designed to be powerful when used in conjunction with [[Nanotech]] due to their similar names and themes.
+*This weapon actually has a unique rarity, but is referred to here as Hot Pink for consistency between weapons.
+**This unique rarity alternates between grey ({{color|#565656 ●|#565656}}) and light turquoise ({{color|#56FFD6 ●|#56FFD6}}) colors.
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Boomerangs]]

@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 11
+| damagetype = Summon
+| knockback = 2
+| use = 34
+| auto = yes
+| mana = 10
+| tooltip = Summons a brittle star to fight for you
+| buff = Brittle Star (buff) | bufflink = no
+| bufftip = The brittle star will protect you
+| rare = 2
+| sell = {{value|0|0|40}}
+| stack = 1
+| element1 = Water
+| element2 = Smash
+}}
+|{{item drops infobox
+| [[Desert Scourge]]|1|{{dv|25%|33.33%}}
+}}
+}}{{summoned|Brittle Star|type=minion}}
+
+The '''Seabound Staff''' is a [[Pre-Hardmode]] [[summon weapon]] that is dropped by the [[Desert Scourge]]. It summons a starfish-like minion, which follows the player and attacks [[enemies]] with short dashes, dealing damage on contact.
+
+{{Modifier|summonalt}}
+
+== Tips ==
+*The Seabound Staff is rather slow to attack, but lunges similarly to the [[Eye of Cthulhu]]'s second phase in [[Expert Mode]]. It pierces and is very swift when attacking.
+
+== See also ==
+*[[Deepsea Staff]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

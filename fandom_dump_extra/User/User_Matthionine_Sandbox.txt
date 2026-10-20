@@ -1,0 +1,168 @@
+= EoC Prototype Page =
+''If you were looking for the Eye of Cthulhu on the vanilla wiki, [[Eye of Cthulhu|click here]].''
+<section begin=npc infobox />
+{{Infobox wrapper
+|{{npc infobox
+| name = Eye of Cthulhu
+| namesub = Phase 1
+| type = Boss
+| environment = Night
+| image = Eye of Cthulhu.png
+| life = {{dv|3050|3965|4758}}
+| ai = Eye of Cthulhu AI
+| damage = '''Contact:'''<br/>{{dv|15|30|40|60}}
+| defense = 12
+| knockback = 100
+| immune1 = Confused
+| image2 = Map Icon Eye of Cthulhu (first form).png
+| image2caption = Map Icon
+}}
+|{{Npc infobox
+| name = Eye of Cthulhu
+| namesub = Phase 2
+| type = Boss
+| environment = Night
+| image = Eye_of_Cthulhu_(Phase_2).png
+| life = {{dv|1525|2577|3568}}
+| ai = Eye of Cthulhu AI
+| damage = '''Contact:'''<br/>{{dv|23|36|48|72}}
+| defense = 0
+| knockback = 100
+| immune1 = Confused
+| money = {{gc|3}}
+|group|Only in a corruption world|3
+| Demonite Ore|30-90| 100%
+| Unholy Arrow|20-50| 100%
+| Corrupt Seeds|1-3| 100%
+|group|Only in a crimson world|2
+| Crimtane Ore |30-90| 100%
+| Crimson Seeds |1-3| 100%
+| Binoculars |1| 2.5%
+| Lesser Healing Potion |5-15| 100%
+| Teardrop Cleaver |1| 10%
+| Victory Shard |{{dv|2-4|3-5}}| 100%
+| Eye of Cthulhu Trophy |1| 10%
+| Eye of Cthulhu Mask |1| 14.29%
+| Shield of Cthulhu |1| 100%
+| custom| {{item|The Eye of Cthulhu (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|0x33's Aviators|note=(Only in expert as Hardcore character)|wrap=y}}|{{expert|100%}}
+| image2 = Map Icon Eye of Cthulhu (second form).png
+| image2caption = Map Icon
+}}
+}}<section end=npc infobox />
+
+The '''Eye of Cthulhu''' is a [[pre-Hardmode]] [[boss]], fought anywhere during the [[Night]].
+
+While in [[Revengeance Mode|Revengeance]] and [[Death Mode]], the Eye of Cthulhu dashes more aggressively and more often as its health gets lower.
+
+== Spawn ==
+The Eye of Cthulhu can be summoned manually using a [[Suspicious Looking Eye]] at night.
+
+It also has a 1/3 (33.33%) chance of spawning automatically each night, if the following conditions apply:
+*The Eye of Cthulhu has not yet been defeated in the current world.
+*At least one player in the world has at least 200 maximum health and more than 10 defense.
+*At least four town NPCs are present.
+
+If spawning this way, its arrival is announced by the status message "You feel an evil presence watching you...". Once this message plays, the Eye of Cthulhu will spawn after 81 seconds. If the player is sufficiently far underground, the Eye of Cthulhu will not spawn until they return to the Surface. If they remain underground all night, the boss will not spawn at all.
+
+== Behavior ==
+=== In [[Revengeance Mode]] ===
+The Eye of Cthulhu has two phases and 4 sub-phases during phase 2, it can fly through blocks in all of these.
+
+=== Phase 1 ===
+It attempts to float directly above the player, while spawning 3–4 [[Servant of Cthulhu|Servants of Cthulhu]] which drop [[Mana Star]]s on death. Afterward, it charges at the player three times in succession, before repeating the cycle.
+
+=== Phase 2 ===
+Upon reaching 75% health, the Eye will transform into its second phase. When this happens, it will spawn 4-5 Servants of Cthulhu. In phase 2 its defense will drop to 0, but its contact damage will increase to 48. In this phase it will do 3 normal dashes towards the player with a small break between each set of 3.
+
+Upon reaching 65% health, it gains a rapid chain dash attack. During this subphase it will do 3 normal dashes and then 2-4 rapid chain dashes with a short delay before it repeats.
+
+Upon reaching 55% health, it will no longer do normal dashes and instead does 5 rapid chain ones.
+
+Upon reaching 40% health, it gains another new attack, a long horizontal dash which spawns many Servants of Cthulhu. During this phase it will do 4-6 rapid dashes and then a horizontal one.
+
+=== In [[Death Mode]] ===
+*Dashes faster and more often as its health decreases but also performs fewer chain dashes.
+
+=== In the [[Boss Rush]] ===
+*Max health increased to {{dv|450,000|585,000|731,250}}
+*Sets the time to 7:30pm
+
+== Summons ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Servant of Cthulhu
+| type = Flying Enemy
+| image = Servant_of_Cthulhu.png
+| ai = Flying AI
+| life = {{dv|8|12}}
+| knockback = 0
+| immune1 = Confused
+| damage = '''Contact:'''<br/>{{dv|12|24|30|34}} 
+| defense = 0
+}}
+}}
+
+== Aftermath ==
+*The [[Merchant]] will begin selling [[Apprentice Bait]].
+*[[Harpy|Harpies]] will begin dropping the [[Sky Glaze]].
+*The [[Acid Rain]] [[event]] may now begin naturally.
+*[[Rotdog]]s begin spawning on the [[Surface]] at Night.
+
+== Terrain Preparation ==
+It is recommended to have 2 layers of platforms, around 120 blocks in length, with vertical platforms interspersed for grappling onto to dodge the Eye's dashes. Alternatively, using 1 layer of an even longer platform could help with dodging Eye of Cthulhu's rampant dashes.
+
+== Gearing Up ==
+{{dablink|For a Normal and Expert mode guide to Eye of Cthulhu, see [[tgc:Guide:Eye of Cthulhu strategies|Eye of Cthulhu strategies]] on the vanilla wiki.}}
+
+=== Armor ===
+*[[Victide armor]] is a viable option for every class.
+*[[Platinum armor]] is the preferred set for melee users due to its very high defense.
+*[[Desert Prowler armor]] is good for rangers due to its bonuses to ranged damage.
+*The combination of the [[Wizard Hat]], [[Diamond Robe]] and [[Jungle Pants]] is the best damage set for mages.
+**However, full [[Jungle armor]] and [[Meteor armor]] provide more defense. Meteor armor should only be used in conjunction with the [[Space Gun]].
+*[[Snow Ruffian armor]], [[Obsidian armor]] and [[Gladiator armor]] are ideal for rogues.
+
+=== Accessories ===
+*The [[Hermes Boots]] or any of their upgrades are heavily recommended so that the player can keep up with the Eye's pace.
+*Any double jump, preferably the [[Sandstorm in a Bottle]] or [[Blizzard in a Bottle]] are heavily recommended for dodging the dashes from the Eye's 3rd phase.
+**The [[Bundle of Balloons]] combines three double jumps into one, making it very useful, though it requires more effort to obtain.
+*[[Luxor's Gift]] is a great accessory which provides powerful damage boosts for all classes.
+*The [[Shark Tooth Necklace]] provides armor penetration, increasing the damage of all weapons. This is especially helpful for low damage and fast firing weapons such as the Minishark.
+*The [[Feral Claws]] are good for melee players due to their increase to melee speed.
+*The [[Rusty Medallion]] can be used by rangers to increase damage output.
+*Mages can make use of the [[Magic Cuffs]], as mana is vital this early in the game.
+*Summoners can use the [[Voltaic Jelly]] and the [[Spirit Glyph]] to buff their minions and increase their minion slots.
+*The [[Raider's Talisman]] is a great accessory for rogues, especially if fully stacked up.
+*Any [[Hooks|Hook]] can allow the player to move out of the way of the Eye's dashes, especially if they have an areana with multiple layers.
+
+=== Weapons ===
+==== Melee ====
+*The [[Cnidarian]] or [[Riptide]] paired with the [[Strings|String]] accessory should make the fight simple for melee users.
+*The [[Mandible Claws]] are a good true melee option which can decimate the Eye of Cthulhu if used properly.
+*The [[Redtide Sword]] is another good option due to its whirlpools.
+*The [[Bladecrest Oathsword]] has very high DPS with solid range, at the cost of being somewhat difficult to obtain.
+**The 3 weapons mentioned above all benefit immensely from the [[Fungal Symbiote]].
+*The [[Amidias' Trident]] shoots homing projectiles, however it has slightly lower DPS than the other options.  
+
+==== Ranger ====
+*The [[Minishark]] is a good option for rangers, especially when paired with the [[Shark Tooth Necklace]].
+*The [[Boomstick]] is another great option for rangers.
+*The [[Seabow]] is another decent choice, however it can struggle with the Eye's rapid dashes.
+
+==== Mage ====
+*The [[Waywasher]]'s DPS should make the fight simple for mages.
+*The [[Diamond Staff]] can also be used, having lower DPS but having the ability to pierce once and using up less mana.
+*The [[Space Gun]] paired with [[Meteor armor]] is a very powerful option as well.
+*The [[Demon Scythe]] trivializes the fight, however is very difficult to obtain this early on.
+
+==== Summoner ====
+*The [[Frost Blossom Staff]] and [[Sun Spirit Staff]] are very important support options, as they are the only summons capable of keeping up with the Eye's speed due to their instant projectiles.
+*The [[Belladonna Spirit Staff]] paired with the [[Shark Tooth Necklace]] can do lots of DPS, however it can struggle to keep up with the Eye, especially during its 2nd and 3rd phases.
+*The [[Seabound Staff]] is another good option, being quite a bit faster, at the cost of DPS.
+*The [[Magic Conch]] does insane DPS, however it can be somewhat inconsistent due to its lack of flight and poor AI.
+
+==== Rogue ====
+*The [[Crystalline]] is a very good option for rogue players, its low range is mostly mitigated by the Eye's rampant dashes. 
+*The [[Seafoam Bomb]] is another very good choice, it does good DPS and the Eye tends to dash into the bubbles quite often.
+*The [[Meteor Fist]] is also very good.

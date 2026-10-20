@@ -1,0 +1,63 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 230
+| auto = yes
+| use = 10
+| knockback = 2
+| stack = 1
+| tooltip = 90% chance to not consume gel<br/>Fires a stream of exo flames and light that explodes into homing sparks<br/>Right click to fire homing flares which stick to enemies and incinerate them
+| rare = 15
+| velocity = 18
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| proj = Exo Spark.png
+| projcaption = Exo Spark
+| image2 = Photoviscerator (tank).png
+| image2caption = Equipped tank
+| debuff = Exo Freeze
+| debuffduration = 0.5 seconds
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 2 seconds
+| debuffchance2 = 100%
+| debuff3 = Frostburn
+| debuffduration3 = 2.5 seconds
+| debuffchance3 = 100%
+| debuff4 = On Fire!
+| debuffduration4 = 3 seconds
+| debuffchance4 = 100%
+| element1 = Cold
+| element2 = Holy
+| element3 = Fire
+| element4 = Machine
+}}
+
+The '''Photoviscerator''' is a craftable Godseeker Mode [[flamethrowers|flamethrower]] that  uses [[gel]] as [[ammunition]]. When used with its primary fire (left-click), it rapidly fires five sets of a semi-accurate stream of two purple, green, and rarely yellow exo flames that travel very far, pierce infinitely and ignore enemy [[immunity frames]]. Two explosive exo light bombs are also fired at a 12.5% chance per set that travel to, and circle around the player’s cursor and deal damage. Exo light bombs will explode on contact with blocks and enemies, and release several purple, green, or yellow homing sparks. When used with its secondary fire (right-click), it fires five non-explosive exo flares that sharply home into nearby enemies and pass through tiles. Once an enemy is hit, the flare is stuck to the target, continuously dealing 427% of the weapon's base damage. Exo flares disappear after three seconds.
+
+When the Photoviscerator's flames, flares, and sparks hit an enemy, they will inflict the following [[debuffs]]:
+*[[Exo Freeze]] (0.5 seconds)
+*[[Holy Flames]] (2 seconds)
+*[[Frostburn]] (2.5 seconds)
+*[[On Fire!]] (3 seconds)
+
+{{Modifier|ranged}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Photoviscerator/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The primary fire has a fixed use time of 10 ticks, and the secondary fire has a fixed use time of 27 ticks; as a result, no modifier can increase or decrease the firing rate of the weapon.
+*The sparks do not spawn in Multiplayer, lowering its DPS drastically.
+{{-}}
+{{Exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

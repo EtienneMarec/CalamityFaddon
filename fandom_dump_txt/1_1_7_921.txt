@@ -1,0 +1,84 @@
+{{Patch infobox
+| image = Phantoplasm (1.1.7.921).png
+| patchname = Phantoplasm Update
+| release = 6/16/2017
+}}
+The '''1.1.7.921''' update added the [[Phantoplasm]] [[crafting material]] to the mod, dropped by a new enemy know as the [[Phantom Spirit]]. It added a few new items using the material as an ingredient, as well as incorporating it into various existing recipes. The update also resprited the [[Cosmilite]] weapon set.
+
+== Additions ==
+*Added [[Phantom Spirit]].
+*Added [[Blood Orb]] and [[Phantoplasm]].
+*Added [[Fabstaff]] and [[T1000]].
+*Added [[Bloodflare Body Armor]], [[Bloodflare Cuisses]], and [[Bloodflare Mask]].
+*Added [[Omega Healing Potion]].
+
+== Changes ==
+=== Bosses and Enemies ===
+*Enemies in the [[Dungeon]] after [[Providence, the Profaned God]] has been defeated now have buffed stats and have a {{dv|10%|16.67%}} chance to spawn a Phantom Spirit on death.
+*[[Revengeance Mode]] [[The Hive Mind|Hive Mind]]'s first phase now spawns [[Hive Blob]]s every 5 seconds instead of 7.
+*Defeating Providence, the Profaned God for the first time will now broadcast a status message to chat informing the player of new enemies dropping Bloodstone.
+*[[Supreme Calamitas]] changes:
+**[[Soul Seeker]]s are now twice as likely to fire Brimstone Barrage shots every second.
+**Brothers now occasionally fire their projectiles directly downwards.
+**Now drops [[Vehemence]] in Revengeance Mode.
+*Revengeance Mode [[Wall of Flesh]] no longer drops Vehemence.
+
+=== Items ===
+*[[Abomination]], [[Ancient Medallion]], [[Astral Chunk]], [[Birb Pheromones]], [[Bloody Worm Food]], [[Charred Idol]], [[Cosmic Worm]], [[Cryo Key]], [[Decapodita Sprout]], [[Desert Medallion]], [[Dragon Egg (summoning)]], [[Eye of Desolation]], [[Eye of Extinction]], [[Profaned Core]], [[Profaned Shard]], [[Rune of Kos]], [[Overloaded Sludge]], [[Starcore]], and [[Teratoma]] now use the boss roar sound effect instead of Item44 when used, and now spawn bosses directly instead of with an invisible projectile.
+*Buffed [[Aerospec Breastplate]]'s defense from 6 to 7.
+*Buffed [[Aerospec Leggings]]' defense from 5 to 6.
+*[[Ammo Reservation Potion]]s, [[Archery Potion]]s, [[Battle Potion]]s, [[Builder Potion]]s, [[Calming Potion]]s, [[Crate Potion]]s, [[Dangersense Potion]]s, [[Endurance Potion]]s, [[Featherfall Potion]]s, [[Fishing Potion]]s, [[Flipper Potion]]s, [[Gender Change Potion]]s, [[Gills Potion]]s, [[Gravitation Potion]]s, [[Heartreach Potion]]s, [[Hunter Potion]]s, [[Inferno Potion]]s, [[Invisibility Potion]]s, [[Ironskin Potion]]s, [[Lifeforce Potion]]s, [[Love Potion]]s, [[Magic Power Potion]]s, [[Mana Regeneration Potion]]s, [[Mining Potion]]s, [[Night Owl Potion]]s, [[Obsidian Skin Potion]]s, [[Rage Potion]]s, [[Regeneration Potion]]s, [[Shine Potion]]s, [[Stink Potion]]s, [[Sonar Potion]]s, [[Spelunker Potion]]s, [[Summoning Potion]]s, [[Swiftness Potion]]s, [[Teleportation Potion]]s, [[Thorns Potion]]s, [[Titan Potion]]s, [[Warmth Potion]]s, [[Water Walking Potion]]s, [[Wormhole Potion]]s, and [[Wrath Potion]]s can now be crafted with 10 Blood Orbs and 1 [[Bottled Water]] at an [[Ancient Manipulator]].
+*[[Arid Artifact]] now stacks to 20 instead of 999.
+*The following items now use the {{rare|13}} rarity instead of {{rare|12}}:
+**[[Arterial Assault]].
+**[[Bloodfire Arrow]].
+**[[Bloodstone]].
+**[[Bloodstone Core]].
+**[[Claret Cannon]].
+**[[Lacerator]].
+**[[The Mutilator]].
+**[[Sanguine Flare]].
+**[[Viscera]].
+*Bloodstone Core's recipe now yields 2 cores instead of one, now requires 1 Phantoplasm, and now requires 5 Bloodstone instead of 1.
+*[[Cadence Potion]] and [[Yharim's Stimulants]]' recipes now yield 1 of their respective potions instead of 3.
+*The Mutilator's tooltip now mentions its on hit effect again, and now refers to the weapon's user as "you" instead of "the player".
+*Increased the amount of arrows that [[Phangasm]] fires per salvo.
+*The following items now use Phantoplasm in their recipes:
+**[[Alluvion]] now uses 5 Phantoplasm in its recipe.
+**[[Asgardian Aegis]] now uses 5 Phantoplasm in its recipe.
+**[[Devil's Devastation]] now uses 5 Phantoplasm in its recipe.
+**[[Elysian Tracers]] now use 5 Phantoplasm in their recipe.
+**[[Exoblade]] now uses 50 Phantoplasm in its recipe.
+**[[Eye of Extinction]] now uses 5 Phantoplasm in its recipe.
+**[[Galaxia]] now uses 5 Phantoplasm in its recipe.
+**[[Minigun]] now uses 5 Phantoplasm in its recipe.
+**[[Neptune's Bounty]] now uses 5 Phantoplasm in its recipe.
+**[[Phangasm]] now uses 5 Phantoplasm in its recipe.
+**[[Phantasmal Fury]] now uses 5 Phantoplasm in its recipe.
+**[[SDFMG]] now uses 5 Phantoplasm in its recipe.
+**[[Shadowspec Bar]] now uses 3 Phantoplasm in its recipe.
+**[[The Sponge]] now uses 5 Phantoplasm in its recipe.
+**[[Subsuming Vortex]] now uses 50 Phantoplasm in its recipe.
+**[[Venusian Trident]] now uses 5 Phantoplasm in its recipe.
+**[[Vivid Clarity]] now uses 50 Phantoplasm in its recipe.
+*Merged several lines in The Sponge's tooltip.
+*[[Tarragon armor]] is now crafted at an [[Ancient Manipulator]] instead of a Hardmode Anvil.
+*[[Vehemence]] changes:
+**Buffed damage from 6 to 10 and its rarity from {{rare|5}} to {{rare|10}}.
+**Damage is now capped at 1,000,000 instead of 150,000.
+**Increased damage multiplier from x5 to x7.
+
+=== Other ===
+*The [[Solar Eclipse]]'s enemies now gain increased stats after the [[Moon Lord]] has been defeated.
+
+=== Resprites ===
+*Resprited [[Cleansing Blaze]], [[The Enforcer]], [[Essence Flayer]], [[Executioner's Blade]], [[Shadowbolt Staff]], [[Soul Piercer]], and [[Stream Gouge]].
+
+== Fixes ==
+*Fixed [[Betsy's Wings]] not counting towards the [[Any Wings]] recipe group.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

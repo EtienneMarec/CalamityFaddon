@@ -1,0 +1,50 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| defense = 18
+| tooltip = Blessed by the Profaned Flame<br/>Grants immunity to knockback, and the Burning, On Fire! and Holy Flames debuffs<br/>+30 max life<br/>Grants a supreme holy flame dash<br/>Can be used to ram enemies<br/>Press {{key|Elysian Gar}} to activate buffs to all damage, crit chance, and defense<br/>Activating this buff will reduce your movement speed and increase enemy aggro
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| buff = Elysian Gar
+| duration = Infinite (While active)
+| bufftip = Movement speed reduced, other stats buffed
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| debuffduration = 4 seconds (Holy eruptions)
+}}
+|{{item drops infobox
+| [[Providence, the Profaned Goddess]] (When summoned in [[The Underworld]])|1|100%
+}}
+}}
+
+The '''Elysian Aegis''' is a Godseeker Mode [[covering]] dropped by [[Providence, the Profaned Goddess]] when she is summoned in [[The Underworld]]. It grants 18 defense, immunity to fire blocks, knockback and the Holy Flames debuff, +30 max life.
+
+While equipped, the wearer can double-tap a horizontal movement key to perform a supreme holy flame dash with a base distance of 28 blocks. Striking enemies during the shield dash will heavily damage them, cause holy explosions, and leave behind a lingering Holy Eruption which damages enemies that touch it. Every time an enemy is struck, the wearer is given 6 [[immunity frames]].
+
+Tapping the {{key|Elysian Gar}} keybinding with this covering equipped grants the [[Elysian Gar]] buff.
+
+This covering's max life and defense stack with the [[Asgardian Aegis]]. However, the Elysian Gar bonuses will not stack if both shields are worn at the same time.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Directly colliding with an enemy during the shield dash deals 250 melee damage. This direct hit is affected by melee damage bonuses and the wearer's melee critical strike chance.
+*The explosion produced upon colliding with an enemy deals 120 damage. This is boosted by the average of all damage stats.
+*The Holy Eruption left behind after colliding with an enemy deals 80 damage and can strike 6 times per second. This is boosted by the average of all damage stats. The Holy Eruption inflicts [[Holy Flames]] for 4 seconds to all enemies which touch it.
+*Activating Elysian Gar only decreases the player's acceleration, not their top speed. The slow acceleration can be countered by dashing to reach higher speeds immediately.
+*The Elysian Gar buff will be deactivated when using [[Mounts]].
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

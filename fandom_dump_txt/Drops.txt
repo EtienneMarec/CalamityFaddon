@@ -1,0 +1,25 @@
+Most enemies drop loot when the player kills them. Besides dropping money, some of them also drop items. All of the dropped items are listed below.
+
+{| class="terraria sortable lined" width=100%
+! colspan = 2| Drop !! Type !! Dropped by !! class="unsortable" | Amount !! data-sort-type="number" | Drop Chance
+|-
+{{#dpl:
+| namespace = <!-- blanked to get main namespace -->
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item drops infobox¦/dpl}
+| uses = Template:Item drops infobox
+| notcategory = Historical content
+| mode = userformat
+| count = 500
+}}
+|}
+== See Also ==
+*[[tgc:Drops|Drops]] on the vanilla wiki.
+
+{{Master Template Consumables
+ | show-main = yes
+ | show-drop = yes
+}}
+{{Game mechanics}}
+[[Category:Game mechanics]]

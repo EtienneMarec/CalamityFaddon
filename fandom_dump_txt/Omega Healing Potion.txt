@@ -1,0 +1,34 @@
+{{infobox wrapper
+|{{item infobox
+| type = Potion
+| stack = 9999
+| hheal = 300
+| use = 17
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| rare = 14
+| sell = {{value|0|1|40}}
+|}}
+|{{item drops infobox
+| [[The Devourer of Gods]]<br/>[[Jungle Dragon, Yharon]]<br/>[[XF-09 Ares]]<br/>[[XM-05 Thanatos]]<br/>[[XS-03 Apollo]]<br/>[[Supreme Calamitas]]<br />[[Purgatory Arbiter, Umbrus]]|5-15|100%
+}}
+}}
+
+The '''Omega Healing Potion''' is a craftable Godseeker Mode [[potion]] that heals the player for 300 health, and inflicts the [[Potion Sickness]] [[debuff]] upon use. It is also dropped from the [[Adult Eidolon Wyrm]], [[The Devourer of Gods]], each individual member of [[The Fabricational Quartet]], [[Jungle Dragon, Yharon]] and [[Supreme Calamitas]]. 
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+== Notes ==
+
+* Since it is dropped by Adult Eidolon Wyrm, you can obtain it before defeating The Devourer of Gods.
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}
+[[Category:Healing items]]

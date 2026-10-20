@@ -1,0 +1,66 @@
+{{addon|Apotheosis and Friends}}
+{{item infobox
+| type = Armor
+| defense = 130
+| setbonus = Increases damage reduction by 20%<br/>Removes the summoner damage penalty<br/>Press {{key|Armor Set Bonus}} to summon five lower soldiers that copy all of your equipped gear<br/>Each soldier has their own healthbar and are susceptible to damage<br/>This ability has a 1 minute cooldown
+| rare = 11
+| buy = {{pc|1}}/{{pc|2}}/{{pc|1}}
+| sell = {{value|1|8|25}} (set)
+| boxwidth = 25em
+| hardmode = yes
+| postml = yes
+}}
+
+'''Winter Soldier armor''' is a Godseeker Mode [[Covering]] set sold by [[The General]] after the [[Moon Lord]] has been defeated.
+
+It consists of an '''Winter Soldier's Visage''', '''Winter Soldier's Chestplate''', and '''Winter Soldier's Leggings'''.
+
+== Stats ==
+The full set grants the following stats and bonuses (this includes the set bonus):
+*130 defense
+*20% damage reduction
+*46% increased damage
+*38% increased critical strike chance
+*+2 max minions
+*12% increased movement speed
+*The summoner damage penalty is removed
+*Hitting {{key|Armor Set Bonus}} summons five clones of the player with a base of 20 health. The clones inherit the player's equipment and held weapon at the time of the ability's activation. The clones will move on their own, attempting to dodge enemies and their projectiles. Once the last clone has been killed, the ability will go on cooldown for 1 minute.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Winter Soldier's Visage
+| type = Armor
+| defense = 19
+| tooltip = 12% increased damage and 8% increased critical strike chance
+| body slot = Helmet
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|35}}
+}}
+|{{item infobox
+| name = Winter Soldier's Chestplate
+| type = Armor
+| defense = 28
+| tooltip = +2 max minions, 12% increased damage, and 8% increased critical strike chance
+| body slot = Shirt
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|38}}
+}}
+|{{item infobox
+| name = Winter Soldier's Leggings
+| type = Armor
+| defense = 22
+| tooltip = 12% increased movement speed<br/>12% increased damage and critical strike chance
+| body slot = Pants
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|35|25}}
+}}
+}}
+
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

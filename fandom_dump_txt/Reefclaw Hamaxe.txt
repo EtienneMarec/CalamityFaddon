@@ -1,0 +1,36 @@
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 15
+| axe = 55
+| hammer = 60
+| knockback = 6
+| rare = 2
+| use = 28
+| sell = {{value|0|0|40|0}}
+| toolspeed = 11
+| element1 = Smash
+| element2 = Stab
+}}
+
+The '''Reefclaw Hamaxe''' is a craftable [[Pre-Hardmode]] [[Hamaxe]].
+
+{{Modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The item used to be an [[axe]] known as "Reefclaw Axe", and was the first item in the mod to be renamed.
+{{-}}
+{{Victide}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Hammers]]
+[[Category:Axes]]
+[[Category:Hamaxes]]

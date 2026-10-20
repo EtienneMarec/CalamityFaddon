@@ -1,0 +1,40 @@
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| type2 = Crafting material
+| damage = 28
+| damagetype = summon
+| mana = 10
+| use = 24
+| tooltip = Summons ancient mineral sharks to take on your foes.<br/>Seems to have lost its jaw some time in the past
+| buff = Ancient Mineral Shark (buff) | bufflink = no
+| bufftip = Ancient yet so dangerous
+| velocity = 12
+| knockback = 4
+| rare = 5
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| element1 = Dark
+| element2 = Fire
+| element3 = Smash
+}}
+{{summoned|Ancient Mineral Shark|type=minion}}
+
+The '''Forgotten Apex Wand''' is a craftable [[Hardmode]] [[summon weapon]]. It summons an Ancient Mineral Shark that follows the player and charges at nearby enemies, slamming into them and rebounding away.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Forbidden}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

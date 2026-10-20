@@ -1,0 +1,48 @@
+{{dedicated|Cooper|Developer}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 50
+| mana = 10
+| use = 24
+| knockback = 4
+| damagetype = summon
+| tooltip = Summons an animated ice construct to protect you<br/>Fire rate and range increase the longer it targets an enemy
+| rare = 11
+| buy = {{value|0|48}}
+| sell = {{value|0|7|20}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 1 second (ice ball)
+| proj = Frost Bolt (projectile).png
+| projcaption = Ice Ball
+| proj2 = Ice Rain.png
+| proj2caption = Icicle
+| element1 = Cold
+}}
+{{summoned|Ice Sentry|type=sentry}}
+[[File:Cryogenic Staff (demo).gif|frame|right|The Cryogenic Staff's ice balls and area of effect icicle attacks. Notice how the fire rate of the ice balls increases the longer the sentry attacks an enemy.]]
+
+The '''Cryogenic Staff''' is a [[Hardmode]] [[sentry]] sold by the [[Archmage]] NPC for {{gc|48}} after defeating all the [[Mechanical Boss]]es. When summoned, the ice sentry fires an ice ball that inflicts the [[Frostburn]] [[debuff]], as well as their rate increasing the longer an enemy is targeted. After targeting an enemy for three seconds, the sentry goes into a frenzied state, spinning around rapidly and firing ice balls with significantly increased fire rate as well as icicles in all directions.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*It can be very powerful against large, scattered groups of enemies aside from one specific targeted enemy because of the icicles.
+*Because it is a sentry rather than a minion, it does not consume minion slots and can be effective when fighting bosses for bonus damage.
+
+== Trivia ==
+*The Ice Sentry's design was initially a redesign of [[Cryogen]] made by Cooper, a spriter and animator for the mod.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

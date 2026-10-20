@@ -1,0 +1,43 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 65
+| knockback = 8.5
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| use = 20
+| velocity = 10
+| auto = yes
+| tooltip = Fires plague seekers on hit
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| debuffduration = 5 seconds (Spear)<br/>3 seconds (Seeker)
+| hardmode = yes
+| proj = Diseased Pike Spear.png
+| projcaption = Diseased Pike
+| element1 = Poison
+| element2 = Stab
+| element3 = Machine
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Diseased Pike''' is a [[Hardmode]] [[spear]] dropped by [[The Plaguebringer Goliath]]. On enemy hits, it will fire out plague seekers that deal 75% of the weapon's damage and inflict [[Plague]] [[debuff]].
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]
+[[Category:True melee]]

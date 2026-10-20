@@ -1,0 +1,202 @@
+{{#lst:Providence, the Profaned Goddess|npc infobox}}
+[[File:Providence_Trophy.png|25px]] <big>''"The profaned flame blazes fiercely..."''</big> [[File:Providence_Trophy.png|25px]]
+
+'''Providence, the Profaned Goddess''' is a post-[[Moon Lord]] [[boss]] fought in the [[Hallow]] or [[Underworld]] biome. The [[Expert Mode]]-exclusive rewards for defeating her will differ based on where she is defeated. 
+
+After Providence has been defeated, [[Calamitas]], [[Brimstone Elemental]], [[Ravager]] and [[Brimstone Crag]] [[enemies]] will be buffed and start to drop [[Bloodstone]].
+
+==Spawn==
+Providence does not spawn on her own and requires the player to summon her with the [[Profaned Core]] while in the [[Hallow]] or [[Underworld]] biome. Unlike most bosses, Providence can only be summoned during the [[Day]], and will despawn if it becomes nighttime.
+
+== Behavior ==
+Providence herself deals no contact damage, instead utilizing her wide array of projectiles, as well as minions, to deal damage. Providence's attacks and behavior vary depending on which phase and health she is currently in. She switches through these multiple phases pseudo-randomly, spending several seconds in one before choosing another.
+
+If the player exits the Hallow or the Underworld for more than 5 seconds while fighting Providence, she will become completely immune to damage until they return.
+
+===In all Phases===
+* Providence and her attacks become more aggressive as her health gets lower.
+** If the player exits the Hallow or the Underworld, the Guardians will take very little damage from attacks until they return.
+* Straying too far away from Providence will cause her maximum horizontal speed to constantly increase, and the '''Holy Inferno''' [[debuff]] will be inflicted onto the player, causing damage over time which exponentially increases in severity. These effects ends once the player returns to Providence's proximity.
+* Upon reaching 75% of her full health, Providence summons a giant crystal that follows directly above the player.
+** The giant crystal periodically rains down 10 smaller crystal shards, which deal damage to the player if touched.
+* Upon reaching 50% health, Providence is now capable of entering her Holy Ray Phase.
+* When reaching 33% of her full health she will spawn weaker versions of the [[Profaned Guardians]].
+** While the healer Guardian is alive, Providence's health will slowly recover at a rate of about 713 per second (in Normal Mode).
+* Upon reaching 15% of her full health, Providence attacks more aggressively and uses every attack possible towards to the player.
+
+===Phases===
+====Blast Phase====
+* Providence flies back and forth above the player and fires massive {{item|HolyBlast|nolink=yes|ext=gif|size=48px|Holy Blasts}} that erupt into {{item|HolyFire2|nolink=yes|ext=gif|size=16px|Holy Flames}} on impact. The Holy Flames spread out in all directions before briefly homing in on the player.
+
+====Flame Phase====
+* Providence flies directly above the player and drops {{item|HolyFire|nolink=yes|ext=gif|size=16px|Holy Flames}} that stop in the air, then split into more Holy Flames which travel either horizontally or vertically.
+
+====Cocoon Phase====
+* Providence hides in her cocoon, increasing her DR to 90%. While hiding in her cocoon she can do one of two attacks.
+* She emits waves of damaging Holy Flame Orbs, which instantly decrease the player's health regardless of defense, damage reduction, or invincibility frames, by {{dv|100|150||300}} health on contact.
+** She also fires a few green Healing Flame Orbs, which heal the player for {{dv|35|50}} health on contact, interspersed with the damaging flames.
+* She fires a barrage of {{item|HolySpear|nolink=yes|size=12px|Holy Spears}} from herself, while other horizontally-moving Holy Spears spawn in the area around the player.
+** She fires the spears from herself with increasing frequency as her health gets lower, eventually to the point where it is an unbroken stream.
+* After a certain amount of time, a [[status message]] stating "The air is burning..." appears in the chat and the '''Icarus' Folly''' [[debuff]] is applied to all players near the boss for 50 seconds. Icarus' Folly cripples mobility by decreasing wing flight time by 75%, decreasing the player's horizontal speed, and blocking infinite flight.
+
+====Molten Phase====
+* Providence flies back and forth above the player and fires {{item|MoltenBlast|nolink=yes|ext=gif|size=18px|Molten Blasts}} that explode on impact into several {{item|MoltenGlob|nolink=yes|ext=gif|size=11px|Molten Globs}}. The Molten Globs stay on the ground for some time and deal damage if touched.
+
+====Bomb Phase====
+* Providence flies directly above the player and drops {{item|HolyBomb|nolink=yes|ext=gif|size=18px|Flare Bombs}} that linger in place. Flare Bombs continually emit {{item|HolyFlare|nolink=yes|ext=gif|size=12px|Holy Flares}} that drift towards the player.
+** This attack is similar to that of a [[Profaned Energy]].
+
+====Holy Ray Phase====
+* Occurs when Providence drops below 50% health.
+* Providence's movement speed will slow and she'll begin to charge up energy, then, shortly after, fires a continuous Holy Ray. The ray sweeps around the area in a circular motion, and deals massive damage upon contact with the player.
+
+===In [[Expert Mode]]===
+* The Healing Flame Orbs heal for 50 instead of 35.
+* The healer Guardians heal Providence at a rate of about 820 health per second.
+
+===In [[Revengeance Mode]]===
+* The healer Guardians heal Providence at a rate of about 1,173 health per second.
+
+===In [[Death Mode]]===
+* Has a new, different pattern which is significantly more difficult and harder to predict.
+* Will never emit Healing Flame Orbs while hiding in her cocoon.
+* The healer Guardians heal Providence at a rate of about 7,250 health per second.
+
+===Summons===
+{|
+|- style="vertical-align:top"
+|{{npc infobox 
+| name = Profaned Guardian
+| namesub = Offense
+| type = Boss 
+| image = Profaned Guardian (Offense).png
+| ai = Profaned Guardian AI
+| environment = The Hallow
+| environment2 = The Underworld
+| life = {{dv|37,500|75,000}}
+| damage = {{dv|80|160||240}} (melee)<br/>{{dv|96|132||198}} (spear)<br/>{{dv|100|136||204}} (flare)
+| defense = 58
+| dr = {{revengeance|30}}
+| hardmode = yes
+| postml = yes
+| knockback = 100
+| immuneall = yes <!-- Adding this will change the meaning of immune1, immune2 etc to vulnerability -->
+| immune1 = Ichor (debuff)
+| immune2 = Cursed Inferno
+| immune3 = Abyssal Flames
+| immune4 = Armor Crunch
+| immune5 = Demon Flames
+| immune6 = God Slayer Inferno
+| immune7 = Nightwither
+| immune8 = Shred
+| immune9 = Whispering Death
+| immune10 = Silva Stun
+}}
+
+|{{npc infobox 
+| name = Profaned Guardian
+| namesub = Defense
+| type = Boss 
+| image = Profaned Guardian (Defense).png
+| ai = Profaned Guardian AI
+| environment = The Hallow
+| environment2 = The Underworld
+| life = {{dv|21,875|43,750}}
+| damage = {{dv|80|160||240}} (melee)<br/>{{dv|96|132||198}} (spear)
+| defense = 88
+| dr = {{revengeance|40}}
+| hardmode = yes
+| postml = yes
+| knockback = 100
+| immuneall = yes <!-- Adding this will change the meaning of immune1, immune2 etc to vulnerability -->
+| immune1 = Ichor (debuff)
+| immune2 = Cursed Inferno
+| immune3 = Abyssal Flames
+| immune4 = Armor Crunch
+| immune5 = Demon Flames
+| immune6 = God Slayer Inferno
+| immune7 = Nightwither
+| immune8 = Shred
+| immune9 = Whispering Death
+| immune10 = Silva Stun
+}}
+
+|{{npc infobox 
+| name = Profaned Guardian
+| namesub = Healer
+| type = Boss 
+| image = Profaned Guardian (Healer).png
+| ai = Profaned Guardian AI
+| environment = The Hallow
+| environment2 = The Underworld
+| life = {{dv|37,500}}
+| damage = 0 (melee)<br/>{{dv|112|152||228}} (fire orb)
+| defense = 38
+| dr = {{revengeance|15}}
+| hardmode = yes
+| postml = yes
+| knockback = 100
+| immuneall = yes <!-- Adding this will change the meaning of immune1, immune2 etc to vulnerability -->
+| immune1 = Ichor (debuff)
+| immune2 = Cursed Inferno
+| immune3 = Abyssal Flames
+| immune4 = Armor Crunch
+| immune5 = Demon Flames
+| immune6 = God Slayer Inferno
+| immune7 = Nightwither
+| immune8 = Shred
+| immune9 = Whispering Death
+| immune10 = Silva Stun
+}}
+|}
+
+== Aftermath ==
+* When the Providence is killed, she leaves her drops in a floating, fully-enclosed frame of [[Profaned Rock]]s.
+*Once defeated, [[Uelibloom Ore]] will be generated in mud blocks.
+* [[Brimstone Elemental]], [[Calamitas]], [[Ravager]], and [[enemies]] within the [[Brimstone Crag]] will become buffed and begin dropping [[Bloodstone]].
+* [[Overloaded Soldier]]s and [[Phantom Debris]] will begin dropping [[Phantoplasm]].
+
+== Notes ==
+* Providence's [[Damage Reduction|damage reduction]] works differently from other bosses. Both Ichor and Cursed Inferno reduce her DR by 5% (resulting in 20% DR).
+* As her Healer guardians restore her health, her attacks reduce in aggressiveness.
+** If she is brought back above 50% health, the giant crystal will disappear shortly after and she will no longer enter her Holy Ray Phase until she is brought back below 50% health.
+* While Providence is alive, the world is tinted an orange color. This will only happen if the Lighting option in the Settings Menu is set to "Color" or "White".
+
+== Tips ==
+* Pay close attention to your surroundings. This fight can potentially be very chaotic and hard to manage, so extra care must be taken to keeping track of and dodging projectiles.
+* Focus on the guardians whenever they spawn, their varied effects can make Providence a nightmare en masse.
+* When Providence enters her Cocoon Phase, she will hide in her cocoon and emanate orange and green flames. When she does this, try to run into the green flames, as these will heal you.
+** Take extra care to dodge the orange damaging flames, as they can potentially kill the player very quickly due to their ignoring of immunity frames.
+** Try not to stray too far away from her during this phase, as the projectiles speed up over time and can become very hard to dodge.
+** In Death Mode, the healing green flames do not spawn, and are instead replaced by normal orange flames.
+* When Providence is in her Holy Ray Phase, her movement speed will drastically decrease, the player should use this to their advantage to easily dodge it.
+** Dodging the ray should be the players primary objective during this phase due to the fact that the ray can quickly deplete the player’s health.
+** Similar to the [[Moon Lord]]'s Phantasmal Deathray, Providence's Holy Rays can not pass through blocks, making blocks useful for dodging.
+* Having a multi-layered arena can make the fight mucheasier as the player can land on platforms to reset their flight time. 
+** This is especially valuable when the player is afflicted with the Icarus’ Folly debuff as it reduces flight time, movement speed, and vertical flying speed.
+* Placing actuated hallowed blocks in the middle of the player’s arena can ensure that the player stays in the Hallow while fighting Providence.
+* The [[Ark of the Elements]] does excellent damage against both Providence and the Profaned Guardians, as both its fire rate and projectiles make it a powerful melee weapon.
+* The [[Elemental Lance]] makes it easier to defeat the Profaned Guardians due to its projectile split.
+* The [[Onyx Chain Blaster]] and the [[Shredder]] are both extremely powerful ranged weapons that can quickly decimate Providence.
+* [[Elemental Ray]]'s splitting projectiles and high base damage makes it a good magic weapon against Providence.
+* The [[Energy Staff]]’s excellent range and tracking makes it powerful sentry against Providence for any classes, as her movement speed may make it difficult for summons to target.
+* [[Elemental Disk]] is extremely powerful for both melee and rogue class that can quickly decimate Providence.
+* A really long bridge-type arena will work well against this boss if paired with [[Seraph Tracers]].
+* Accessories that reduce taken damage such as [[Worm Scarf]] are very useful during the fight. Keep in mind that this will not affect damage taken from the cocoon flames.
+
+== Trivia ==
+* Providence's [[Music|theme]] is [https://www.youtube.com/watch?v=6Q57JfIz2Mg '''Unholy Insurgency'''], which was made by the artist [https://www.youtube.com/channel/UC6-OiaulQM8w6EAYaCNpoGg DM DOKURO].
+** If the Calamity Music addon mod is disabled, the [[Moon Lord]]'s theme will play instead.
+** The old theme for Providence used to be the final boss music for ''Mario & Luigi: Dream Team'', known as [https://www.youtube.com/watch?v=f6e0CGXOS2Q Adventure's End]. This was changed due to copyright-related reasons.
+** A few weeks before Unholy Insurgency was introduced, Providence's theme was changed to [https://www.youtube.com/watch?v=1LyxKOIVGbI&t=200s Siren's Call (Seafoam Mix)], which was also composed by DM DOKURO. 
+* Like all other post-Moon Lord bosses, she lacks a [[Lore item]].
+* The name of the debuff "Icarus' Folly" references Icarus from Greek mythology, who used wings created with wax to achieve flight. However, he tested his limits and flew too close to the sun, melting his wings and causing him to fall back to Earth to his death.
+* If the player dies from the damaging cocoon flames, it will show the death message as "<PlayerName> was licked.".
+* If the player dies under the effects of the Holy Inferno debuff, the unique death message will say "<PlayerName> fell prey to their sins.".
+* She was previously named "Providence, the Profaned ''God"''. This was changed due to Providence being referred to as female in [[lore]] entries and by the developers, and "goddess" is the feminine word for "god".
+* The word "Providence" is often used as a name synonymous with God, particularly the [[wikipedia:God_in_Christianity|Christian God]].
+
+== Lore ==
+Fire has no desires to speak of, nor does it have pains to lament. It has but a purpose: to burn is its meaning, to turn to ash is its resolve. Such is Providence, a being of alleviating light, and corrupting twilight. Born from a colossal impact of dark and light magic, during the ancient conflicts between angels and devils, her creation was of holy and demonic origins, and her presence embodied that concept in its denial of both. An indifferent crystal, formed in the heat and power of the mana. Within, a conscious spark took a mind of its own. In the midst of the torrent of magic, Providence felt the good, and the evil: the utmost desires of the world, for ill-intent and to live. It was disgusted. Held in limbo between both forces, it began to take a form of its own; from the land itself, a shell of stone, and from the blaze of battle, her wings. Anything her flames swept across was cleansed, purified, and reduced to an impartial ash. In life and death, there is vice, there is virtue. In purity, where nothing lives and nothing dies, neither sin exists. That is her objective. A world cleansed of desire. 
+
+However, in the Devourer’s and its servant’s mad search to consume her, such deeds are risky, and the scouring of a world is not an action which would escape its knowledge. Thus, Providence basks in the center of the sun, where she remains dormant, gathering power from the energy of the nuclear fusion. It is there that she waits, patient and dispassionate, to one day be able to descend upon the earth, consuming all in a purifying flame. Nothing would be able to withstand the heat of the Goddess, tempered by the sun, and fueled by a singular purpose. She would leave nothing but an uncanny, sinless world behind. However, if you were able to grasp one of her relics, a substantial core of her power, it would surely incite her wrath. She would descend unto the land prematurely, not having gathered enough energy, nor with her relic properly harnessed, leaving her weak. Her aim would be to reclaim her artifact, and annihilate the culprit. However, with proper exploitation of the method described, a skilled enough opponent could potentially destroy her in battle, to avert the fate of the world

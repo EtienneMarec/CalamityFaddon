@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 65
+| stack = 9999
+| rare = 1
+| color = #00FFFF
+| use = 14
+| sell = {{value|0|0|6|0}}
+| value = 450
+}}
+|{{item drops infobox
+|[[Aero Slime]]|10-26|100%
+|[[Aether Valkyrie]]|45-60|100%
+}}
+}}
+<big> ''"The ground is glittering with cyan light."'' </big>
+
+'''Aerialite Ore''' is a [[Pre-Hardmode]] [[ore]] which generates anywhere in the [[Underground]] upon defeating the [[Aether Valkyrie]]. It is used to craft [[Aerialite Bar]]s at a [[Furnace]]. It requires at least a [[Nightmare Pickaxe]] or a [[Deathbringer Pickaxe]] to mine. It is also dropped by [[Aero Slime]]s.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Aerialite Ore can be destroyed by explosives after the [[Brain of Cthulhu]] or [[Eater of Worlds]] have been defeated.
+{{-}}
+{{Aerialite}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore= yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}
+[[zh:天蓝矿]]

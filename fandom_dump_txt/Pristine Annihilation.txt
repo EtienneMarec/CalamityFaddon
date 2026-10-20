@@ -1,0 +1,53 @@
+{{infobox wrapper
+|{{item infobox
+| image = Pristine Annihilation.gif
+| noimagetransclude = yes
+| type = Weapon
+| damage = 77
+| use = 15
+| knockback = 5
+| damagetype = Ranged
+| velocity = 11
+| tooltip = Fires an intense helix of flames that explode into a column of fire<br/>Right click to fire a short ranged cloud of lingering flames
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffduration = 4 seconds
+| debuffchance = 100%
+| element1 = Holy
+| element2 = Fire
+| image2 = Pristine Fury (tank).png
+| image2caption = Equipped tank
+}}
+|{{item drops infobox
+| [[Providence, the Profaned Goddess]] | 1 | 10%
+}}
+}}
+
+The '''Pristine Annihilation''' is a Godseeker Mode [[Flamethrowers|flamethrower]] that drops from [[Providence, the Profaned Goddess]]. When used with its primary fire (left-click), it will rapidly fire a string of five flame helices that do not pierce but will create a small explosion and form a visual pillar of flame dust. When used with its secondary fire (right-click), it will rapidly fire a set of four fiery dust clouds that decelerate to a complete stop and linger for a short while before dissipating, attacking all enemies in its path. Dust clouds deal 120% damage.
+
+{{Modifier|ranged}}
+
+== Notes ==
+*The primary fire has a fixed use time of 15 ticks, and the secondary fire has a fixed use time of 20 ticks; as a result, no modifier can increase or decrease the firing rate of the weapon.
+*[[Storm Weaver]] takes only 50% damage from the Pristine Annihilation.
+
+== Crafting ==
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Pristine Annihilation likely refers to Providence's goal to purify the world.
+[[File:Pristine Fury (demo).gif|frame|left|The Pristine Annihilation's left and right-click attacks.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = Rogue
+| damage = 50
+| knockback = 4
+| velocity = 12
+| rare = 5
+| sell = {{value|0|4|80}}
+| use = 21
+| stack = 1
+| tooltip = Throws a spear that bounces a lot<br/>Stealth strikes throw three high speed spears
+| hardmode = yes
+| element1 = Water
+| element2 = Stab
+}}
+{{distinguish|Scourge of the Seas|a visually similar [[javelin]] dropped by the [[Aquatic Scourge]]}}
+The '''Wave Skipper''' is a craftable [[Hardmode]] [[javelin]] that is an upgraded version of the [[Scourge of the Desert]]. When used it will throw a Wave Skipper that will bounce five times before disappearing.
+
+Performing a [[stealth strike]] with the Wave Skipper will cause three javelins to be thrown instead of one. The three javelins have slightly higher velocity.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*It was formerly known as '''Dune Hopper'''.
+*It was formerly the [[rare variant]] of the [[Scourge of the Desert]].
+** It was formerly the Pre-Hardmode weapon.
+***Additionally, it was formerly a [[challenge item]] dropped by [[Desert Scourge]] in [[Malice Mode]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue= yes
+}}
+[[Category:Javelins]]

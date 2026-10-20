@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| tooltip = 80% chance to not consume gel
+| damagetype = ranged
+| damage = 43
+| use = 15
+| knockback = 3.25
+| rare = 8
+| sell = {{value|0|16}}
+| auto = yes
+| velocity = 7.5
+| stack = 1
+| hardmode = yes
+| debuff2 = Cursed Inferno
+| debufftip2 = Losing life<br/>All damage taken increased by 20%
+| debuffchance2 = 100%
+| debuffduration2 = 1.5 seconds
+| image2 = Terra Flameburster (tank).png
+| image2caption = Equipped tank
+| element1 = Poison
+| element2 = Stab
+}}
+
+The '''Terra Flameburster''' is a craftable [[Hardmode]] [[Flamethrowers|flamethrower]]. It fires a long-range stream of green flames that pierces through infinite enemies but can not go through blocks. The flames inflicts the [[On Fire!]] and [[Cursed Inferno]] [[debuffs]] to enemies hit by them.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Terra}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

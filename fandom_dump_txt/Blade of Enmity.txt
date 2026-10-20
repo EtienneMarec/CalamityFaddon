@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 190
+| use = 9
+| knockback = 8
+| auto = yes
+| stack = 1
+| rare = 8
+| sell = {{value|0|16}}
+| hardmode = yes
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debufftip = Rapid health loss
+| debuffduration = 5 seconds
+| element1 = Unholy
+| element2 = Fire
+}}
+
+The '''Blade of Enmity''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. It has an average range and no projectile but swings very quickly and deals high damage. The blade inflicts the [[Brimstone Flames]] [[debuff]].
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon only benefits from 25% of melee swing speed bonuses.
+*This weapon can be considered an alternative to the [[Omniblade]], another true melee weapon which can be crafted at the same progression point. The Blade of Enmity has higher base damage, knockback, and is easier to craft, while the Omniblade is larger, has a higher critical chance, and inflicts a defense-reducing debuff.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:憎恨之锋]]

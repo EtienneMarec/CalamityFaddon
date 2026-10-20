@@ -1,0 +1,32 @@
+{{item infobox
+|type = Potion
+|tooltip = Increases melee and Spy damage and critical strike chance by 8%<br/>Melee and Spy attacks break enemy armor<br/>While this potion's buff is active the Crumbling Potion's buff is disabled
+|stack = 9999
+|rare = 8
+|use = 17
+|consumable = yes
+|buff = Armor Shattering | bufflink = no
+|duration = 8 minutes
+|bufftip = Melee and Spy attacks break enemy armor
+|debuff = Armor Crunch
+|debuffchance = 100%
+|debuffduration = 2, 4 or 6 seconds
+|debufftip = Your armor is shredded
+|hardmode = yes
+|sell = {{value|0|0|40|0}}
+}}
+
+The '''Shattering Potion''' is a craftable [[Hardmode]] [[Buff Potions|buff potion]] that is a direct upgrade to the [[Crumbling Potion]]. Upon consumption it grants the '''Armor Shattering''' [[buff]], causing all melee and [[Spy]] attacks to inflict the [[Armor Crunch]] [[debuff]] as well as increasing melee and Spy damage and critical strike chance by 8%. The player will also become immune to the [[Armor Crumbling]] buff.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*On attack, there is a 25% chance for [[Armor Crunch]] to be inflicted for 6 seconds, a 37.5% chance to be inflicted for 4 seconds, and a 37.5% chance to be inflicted for 2 seconds.
+*Crafting a Shattering Potion with [[Blood Orb]]s directly saves 10 Blood Orbs compared to crafting 2 Crumbling Potions and then crafting them into a Shattering Potion.
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

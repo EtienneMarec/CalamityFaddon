@@ -1,0 +1,153 @@
+'''Taming''' is a new mechanic that allows players to "tame" every boss in the game. Taming a boss involves performing a series of different steps during the bossfight in order to please them. When a boss is tamed, they will appear happy, and will disappear, leaving behind their loot as well as a unique item to reward players for their pacifistic efforts.
+
+The player cannot harm the boss during the fight if they wish to tame it. If, at any point, the boss does take damage, the player will have to allow it to despawn before trying again. Killing a boss will make it untamable, and they must pay the [[Zoologist]] to '''Soothe''' the boss before they can try again.
+
+== Soothing ==
+Soothing is a new option presented by the Zoologist. If a boss has become untamable, they will show up in the Zoologists soothing menu. The player can pay an amount of [[Coins]] for the Zoologist to soothe said boss, allowing them to once again be tamed. Only one boss can be soothed per day.
+
+== Taming Methods ==
+{{item/options|mode=table}}
+{| class="terraria lined sortable" style="margin:0; width:100%"
+! colspan="7" | Pre Hardmode
+|-
+! style = "width: 15%"| Boss
+! style = "width: 5%"| Name
+! style = "width: 65%" | Method
+! style = "width: 10%" | Reward
+! style = "width: 5%"| Reward Name
+|-
+| {{item|The Inventors|size=80px}}||Give the Inventors a [[Diamond Ring]].||{{item|Wulfrum Hardhat}}
+|-
+| {{item|Wulfrum Excavator|size=200px}}||Lead the Wulfrum Excavator to 10 veins of naturally spawning ore, which it will dig up automatically.||{{item|Wulfrum Lenses}}
+|-
+| {{item|King Slime|size=100px}}||Spray King Slime with the [[Slime Gun]] for a combined total of 5 minutes. He will grow larger as he is sprayed, reaching a maximum size of 100% larger then his initial state.||{{item|Bloated Gel}}
+|-
+| {{item|Desert Scourge|size=170px}}||Lead Desert Scourge to the [[Ocean]].||{{item|Hydrated Pendant}}
+|-
+| {{item|Eye of Cthulhu|size=70px}}||Make 30 circles around the Eye of Cthulhu. All circles must be in the same direction, as changing rotations will result in restarting the counter.||{{item|Dizzy Lens}}
+|-
+| {{item|Crabulon|size=130px}}||Consume a [[Yharic Delight]] while Crabulon is passive right after spawning.||{{item|Blessed Fungus}}
+|-
+| {{item|Eater of Worlds|size=180px}}||Consume 3 [[Food and Drink Potions|Food]] items throughout the fight. Note that the [[Well Fed]] buff must run out before another food item can be counted as eaten. ||{{item|Worm Platter}}
+|-
+| {{item|Brain of Cthulhu|size=80px}}||Beat the Brain of Cthulhu at chess using the [[Holographic Chessboard]].||{{item|En Passant}}
+|-
+| {{item|The Hive Mind|size=80px}}||Place 100 books during the fight.||{{item|Blighted Tome}}
+|-
+| {{item|The Perforators|size=170px}}||Spawn 50 worms during the fight. Each worm will transform into an [[Estranged Son]] after around 5 seconds. The Estranged Sons cannot be killed for the tame to work.||{{item|Ball of Worms}}
+|-
+| {{item|Queen Bee|size=80px}}||Bring 100 bees into a hive biome. Upon doing so, Queen Bee will spawn, and will instantly be tamed.||{{item|Motherbrain}}
+|-
+| {{item|Skeletron|size=140px}}||Arm Wrestle the [[Old Man]]. The 'Arm Wrestle' option can be accessed by going down 3 options, permanently revealing it.||{{item|Skeletron's Fist}}
+|-
+| {{item|The Slime God|size=160px}}||Have both slime gods absorb 20 of their respective [[Blight Slime]]. Note that blight slimes will ignore boss zen while the Slime God is alive.||{{item|}}
+|-
+| {{item|Wall of Flesh|size=100px}}||Lead the Wall of Flesh to the [[Guide]]. They must be at most 50 blocks from each other for this to count, and it must be the eyes and/or the mouth.||{{item|Fate}}
+|}
+{{item/options|reset}}
+
+{{item/options|mode=table}}
+{| class="terraria lined sortable" style="margin:0; width:100%"
+! colspan="7" | Hardmode
+|-
+! style = "width: 15%"| Boss
+! style = "width: 5%"| Name
+! style = "width: 65%" | Method
+! style = "width: 10%" | Reward
+! style = "width: 5%"| Reward Name
+|-
+| {{item|Queen Slime|size=80px}}||Throw 100 [[Sparkle Slime Balloon]]s at Queen Slime. She will grow 1% larger with each balloon, adding up to a maximum of 100% larger then her initial size. At 50 balloons, she will enter phase 2.||{{item|}}
+|-
+| {{item|Cumulomenace|size=120px}}||Lure Cumulomenace into a heap of cloud blocks of any type ten times when it is charging towards a player. No longer works once it enters phase 3.||{{item|}}
+|-
+| {{item|Cryogen|size=100px}}||Lead Cryogen into the [[Brimstone Crag]]s.||{{item|Melting Ice Cube}}
+|-
+| {{item|Pyrogen|size=120px}}||Lead Pyrogen into the Surface [[Snow biome]].||{{item|Frozen Heater}}
+|-
+| {{item|The Twins|size=110px}}||Stare at each twin for at least 1 minute. You cannot break line of sight for more then 1 second, or the counter will reset.||{{item|}}
+|-
+| {{item|The Destroyer|size=190px}}||Dash directly into the Destroyers head segment with a dash 5 times. Note that the dash must not deal damage to the boss.||{{item|Shiny Lipstick}}
+|-
+| {{item|Skeletron Prime|size=60px}}||Have the [[Skull]] equipped.||{{item|}}
+|-
+| {{item|Aquatic Scourge|size=180px}}||Bring Aquatic Scourge into the [[Ocean]].||{{item|}}
+|-
+| {{item|Brimstone Elemental|size=60px}}||Have five new [[Town NPCs]] move into the brimstone crag while the Brimstone Elemental is alive. Note that if the player doesn't have any remaining npcs that have not moved in yet, that respawning npcs will count towards this goal as well.||{{item|}}
+|-
+| {{item|Plantera|size=80px}}||Survive on the surface with Plantera for 3 minutes.||{{item|}}
+|-
+| {{item|Calamitas|size=80px}}||Give Calamitas a hug.||{{item|}}
+|-
+| {{item|The Derellect|size=100px}}||Perform 100 "true melee hits" on the Derellect with a Wrench.||{{item|}}
+|-
+| {{item|Polyphemalus|size=80px|ext=webp}}||Perform 70 laps around polyphemalus.||{{item|}}
+|-
+| {{item|Leviathan and Anahita|size=200px}}||Spawn 100 goldfish and allow  Leviathan to kill them. Spawning a goldfish during the fight will cause Leviathan to awaken early.||{{item|}}
+|-
+| {{item|Astrum Aureus|size=150px}}||Use [[Draedon's Remote]] while Astrum Aureus is alive.||{{item|}}
+|-
+| {{item|Golem|size=90px}}||Hit a beach ball 50 times while Golem is alive. Beachball hits by Golem will count towards this total.||{{item|}}
+|-
+| {{item|The Plaguebringer Goliath|size=110px}}||Use 200 Green Solution with the [[Clentaminator]] on the Plaguebringer Goliath.||{{item|}}
+|-
+| {{item|Duke Fishron|size=110px}}||Bring Duke Fishron to one naturally spawning [[Truffle Worm]].||{{item|}}
+|-
+| {{item|Empress of Light|size=140px}}||Survive from dawn to dusk.||{{item|}}
+|-
+| {{item|Ravager|size=140px}}||Cause Ravager to fall into a pool of Shimmer.||{{item|}}
+|-
+| {{item|Lunatic Cultist|size=40px}}||Wear the [[Cultist set]], and walk in between the two [[Lunatic Devotee]]s. This will cause the Lunatic Cultist to appear, and instantly be tamed.||{{item|Worship 101}}
+|-
+| {{item|The Dragonfolly|size=90px}}||Give the Dragonfolly a [[Yharon Soul Fragment]].||{{item|}}
+|-
+| {{item|Astrum Deus|size=180px}}||Have Astrum Deus be hit by a fallen star.||{{item|}}
+|-
+| {{item|Moon Lord|size=160px}}||Bring Moon Lord to the 4th layer of the abyss, and wait for a [[Colossal Squid]] to spawn. Note that colossal squids will ignore the boss zen buff while Moon Lord is alive.||{{item|}}
+|}
+{{item/options|mode=table}}
+{| class="terraria lined sortable" style="margin:0; width:100%"
+! colspan="7" | Hardmode
+|-
+! style = "width: 15%"| Boss
+! style = "width: 5%"| Name
+! style = "width: 65%" | Method
+! style = "width: 10%" | Reward
+! style = "width: 5%"| Reward Name
+|-
+| {{item|Yharim Worm|size=120px}}||Give the Yharim Worm a [[True Tyrant's Ultisword]].||{{item|}}
+|-
+| {{item|Profaned Guardians|size=80px}}||Summon Providence, the Profaned Goddess while the Profaned Guardians are alive.||{{item|}}
+|-
+| {{item|Providence, the Profaned Goddess|size=130px}}||Take Providence to all 4 corners of the world.||{{item|}}
+|-
+| {{item|Ceaseless Void|size=100px}}||Allow Ceaseless Void to absorb 50 rolling Boulders. Note that boulders will not damage Ceaseless Void, but can damage Dark Energies.||{{item|}}
+|-
+| {{item|Storm Weaver|size=120px}}||Feed 10 Wyverns. Note that Wyverns will ignore boss zen while Storm Weaver is alive.||{{item|}}
+|-
+| {{item|Signus, Envoy of the Devourer|size=60px}}||Survive for 8 minutes without taking damage.||{{item|}}
+|-
+| {{item|Polterghast|size=50px}}||Place 100 graves in the dungeon. After doing so, Polterghast will show up, and instantly be tamed.||{{item|}}
+|-
+| {{item|The Devourer of Gods|size=150px}}||Send 150 messages in chat. Sentences mentioning the words "DoG" "sucks" "stupid" "bad boss" and "worm boss" bring the counter down by an extra point per word. The word "providence" will enrage the Devourer of Gods, but will count for 5 points.||{{item|}}
+|-
+| {{item|Jungle Dragon, Yharon|size=130px}}||Survive for 5 minutes without taking damage.||{{item|}}
+|-
+| {{item|The Wall of Bronze|size=120px}}||Lead the Wall of Bronze to the opposite side of the world.||{{item|}}
+|-
+| {{item|The Fabricational Quartet|size=200px}}||File Draedons Taxes.||{{item|}}
+|-
+| {{item|XP-00 Hypnos|size=80px}}||Defeat Hypnos at chess.||{{item|}}
+|-
+| {{item|Supreme Calamitas|size=40px}}||Tame all previous bosses, and then press alt-f4 once Calamitas is at 5% HP.||{{item|}}
+|-
+|}
+{{item/options|reset}}
+
+== Notes ==
+*All [[Superbosses]] are exempt from the taming mechanic.
+
+== Trivia ==
+*The taming mechanic is a reference to the game Undertale and its pacifist route.
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

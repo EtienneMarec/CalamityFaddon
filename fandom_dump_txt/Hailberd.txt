@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 980
+| mana = 30
+| knockback = 10
+| tooltip = Summons a group of halberds near your cursor.
+| velocity = 15
+| rare = 15
+| sell = {{value|0|20}}
+| use = 20
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Hailberd Projectile.png
+| projcaption = Hailberd
+| element1 = Cold
+| element2 = Magic
+| element3 = Unholy
+| element4 = Stab
+}}
+{{item drops infobox
+|[[Frigidemon]]|1|3.33%
+}}
+
+The '''Hailberd''' is a Godseeker Mode [[wand]]. It summons a group of 4-5 halberds in a circular formation at your mouse cursor, pointing inwards towards it. The halberds will slowly accelerate over time, and can fly through tiles.
+
+{{Modifier|magic}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

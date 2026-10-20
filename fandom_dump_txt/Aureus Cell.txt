@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Potion
+| use = 17
+| type2 = Crafting material
+| stack = 9999
+| tooltip = Grants increased mana regeneration and magic power
+| mheal = 200
+| consumable = yes
+| rare = 7
+| hardmode = yes
+| sell = {{value|0|0|90}}
+| buff = Mana Regeneration
+| duration = 6 minutes
+| bufftip = Increased mana regeneration
+| buff2 = Magic Power
+| duration2 = 6 minutes
+| bufftip2 = 20% increased magic damage
+}}
+|{{item drops infobox
+|[[Astrum Aureus]]| {{dv|9-12|12-16}} | 100%
+}}
+}}
+
+The '''Aureus Cell''' is a [[Hardmode]] [[potion]] dropped by [[Astrum Aureus]]. When consumed, it restores the player for 200 mana, inflicting the [[Mana Sickness]] [[debuff]], and granting [[Mana Regeneration]] and [[Magic Power]] [[buff]]s for 6 minutes. It is additionally used as a [[crafting material]] for several items.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Aureus Cells may also be obtained from [[Astral Crate]]s after Astrum Aureus is defeated.
+
+== Trivia ==
+*The item was previously known as "Astral Jelly", and was dropped from the [[Astrageldon Slime]].
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+| show-drop = yes
+}}
+[[Category:Healing items]]

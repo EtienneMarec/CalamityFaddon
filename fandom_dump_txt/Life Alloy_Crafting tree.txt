@@ -1,0 +1,72 @@
+<div class="crafting-tree">{{diagram
+
+|ChaoO|_|CryoO|_|PrenO|#
+|_|_|_|_|_|_|_|_|_|_|_|#
+|_|I|_|_|_|I|_|_|_|I|_|#
+|HMFRG|_|HMFRG|_|HMFRG|#
+|ChaoB|_|CryoB|_|PrenB|#
+|_|_|_|_|_|_|_|_|_|_|_|#
+|_|`|-|-|-|+|-|-|-|'|_|#
+|_|_|_|_|HMANV|_|_|_|_|#
+|_|_|_|_|BarLi|_|_|_|_|#
+
+|BarLi_cols = 3
+|BarLi_rows = 2
+|BarLi = {{item|Life Alloy}}<br/>
+( {{item|mode=image|Necromantic Geode|size=20px}} )
+
+| CryoO_cols = 3
+| CryoO_rows = 2
+| CryoO = {{item|Cryonic Ore}} × 5<br/>
+<span style="font-size:0.75em">( [[Ice biome]] / {{item|mode=image|Cryo Slime|size=16px}} )</span>
+
+| CryoB_cols = 3
+| CryoB_rows = 2
+| CryoB = {{item|Cryonic Bar}}<br/>
+( {{item|mode=image|Fleshy Geode|size=20px}} {{item|mode=image|Necromantic Geode|size=20px}} )
+
+|ChaoO_cols = 3
+|ChaoO_rows = 2
+|ChaoO = {{item|Scoria Ore}} × 5<br/>
+<span style="font-size:0.75em">( [[Abyss]] / {{item|mode=image|Devil Fish|size=30px}}{{item|mode=image|Chaotic Puffer|size=20px}} )</span>
+
+|ChaoB_cols = 3
+|ChaoB_rows = 2
+|ChaoB = {{item|Scoria Bar}}<br/>
+( {{item|mode=image|Fleshy Geode|size=20px}} {{item|mode=image|Necromantic Geode|size=20px}} )
+
+|PrenB_cols = 3
+|PrenB_rows = 2
+|PrenB = {{item|Perennial Bar}}<br/>
+( {{item|mode=image|Fleshy Geode|size=20px}} {{item|mode=image|Necromantic Geode|size=20px}} )
+
+|PrenO_cols = 3
+|PrenO_rows = 2
+|PrenO = {{item|Perennial Ore}} × 5<br/>
+<span style="font-size:0.75em">( [[Cavern]] / {{item|mode=image|Perennial Slime|size=16px}} )</span>
+
+<!-- CRAFTING STATIONS -->
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|HMFRG_cols = 3
+|HMFRG_class = craft-station
+|HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+<!-- OTHER -->
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+}}
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

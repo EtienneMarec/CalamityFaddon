@@ -1,0 +1,51 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Rogue
+| damage = 50
+| knockback = 4.5
+| use = 34
+| velocity = 15
+| tooltip = War Never Changes<br/>Throws a fuel container with trace amounts of plutonium that causes a nuclear explosion<br/>The explosion does not occur if there are no tiles below it<br/>Stealth strikes leave a lingering irradiated zone after the explosion dissipates
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| debuffduration = 5 seconds (Explosion)<br/>10 seconds (Stealth Strike Explosion)
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|4|80}}
+| proj = Sulphuric Nukesplosion.gif
+| projcaption = Sulphuric Nukesplosion
+| element1 = Poison
+| element2 = Fire
+| element3 = Bomb
+}}
+|{{item drops infobox
+| [[Cragmaw Mire]] | 1 | 100% (Tier 2)<br/>10% (Tier 3)
+}}
+}}
+
+The '''Spent Fuel Container''' is a [[Hardmode]] [[Bombs|bomb]] that drops from the [[Cragmaw Mire]] [[mini boss]]. When used, a gravity-affected flask is thrown, which erupts into a nuclear explosion on impact and inflicting the [[Irradiated]] [[debuff]]. The explosion does not occur if no tiles are below it.
+
+Performing a [[stealth strike]] with the Spent Fuel Container causes the resulting flask to erupt into a lingering Irradiated explosion that persists after the nuclear explosion disappears and rapidly hits enemies.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon can also be obtained from the [[Abyssal Crate]] after completing Tier 2 [[Acid Rain]].
+
+== Trivia ==
+*The tooltip of this weapon is a reference to the popular game franchise, ''[[wikipedia:Fallout (series)|Fallout]]''.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Bombs]]

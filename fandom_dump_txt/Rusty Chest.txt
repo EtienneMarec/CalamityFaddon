@@ -1,0 +1,82 @@
+{{item infobox
+| type = Furniture
+| type2 = Storage
+| rare = 0
+| color = #BF8E6F
+| auto = yes
+| placeable = Yes
+| width = 2
+| height = 2
+| stack = 9999
+| consumable = True
+| use = 14
+| sell = {{value|0|0|1}}
+}}
+
+'''Rusty Chests''' are [[chests]] found only in the [[Sulphurous Sea]] that contains rare and unique items. Each Rusty Chest will contain one unique item along with other standard loot.
+
+== Loot ==
+The Rusty Chest always contains one primary item and a few common items.
+
+{|
+|- style="vertical-align: top"
+|
+{| class="terraria"
+|-
+! Primary Items
+|-
+| {{item|Broken Water Filter}}
+|-
+| {{item|Effigy of Decay}}
+|-
+| {{item|Rusty Beacon Prototype}}
+|-
+| {{item|Rusty Medallion}}
+|}
+|
+{| class="terraria lined"
+|-
+! Item !! Quantity !! Chance
+|-
+| {{item|Hadal Stew}}
+|rowspan="5" | 1-2
+|rowspan="5" | 50%
+|-
+| {{item|Water Walking Potion}}
+|-
+| {{item|Shine Potion}}
+|-
+| {{item|Gills Potion}}
+|-
+| {{item|Flipper Potion}}
+|-
+| {{item|Flipper}}
+| 1
+| 33%
+|-
+| {{item|Sulphurskin Potion}}
+| 4-7
+| 100%
+|-
+| {{item|Torch}}
+| 15-29
+| 100%
+|-
+| {{item|Gold Coin}}
+| 2-4
+| 100%
+|-
+|}
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*In previous versions of the mod, Rusty Chests were initially locked [[File:Locked Rusty Chest.png]] and required [[Rusty Lockpick]]s to unlock.
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-furniture = yes
+}}

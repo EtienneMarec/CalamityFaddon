@@ -1,0 +1,37 @@
+{{npc infobox
+| imagealt = <Tabber>
+Default=[[File:Wulfrum Hovercraft.png]]
+|-|
+Supercharged=[[File:Wulfrum Hovercraft (Supercharged).png]]
+</Tabber>
+| environment = Surface
+| type = Enemy
+| ai = Wulfrum Hovercraft AI
+| life = {{dv|20|40}}
+| damage = {{dv|15|30}}
+| defense = 4
+| knockback = 90%
+| money = {{value|0|0|1|50}}
+| Wulfrum Bar | 2-3 | 100%
+| custom | {{item|Energy Core|note=(While supercharged)|wrap=y}} | 100%
+| Wulfrum Battery | 1 | 7%
+| banner = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| resistant1 = Machine
+| vulnerable1 = Smash
+}}
+
+The '''Wulfrum Hovercraft''' is a [[Pre-Hardmode]] [[enemy]] found on the [[Surface]] during daytime. It is also summoned by the [https://calamitymod.fandom.com/wiki/Wulfrum_Excavator Wulfrum Excavator] [[boss]] in [[Expert Mode]] upon it transitioning to a new phase. It is initially stationary when it first spawns, moving to attack only when the player is considerably close and has direct line of sight. It attacks by hovering above the ground and diving downward before charging the player. It will stop attacking if the line of sight is broken. If enough time has passed without the hovercraft detecting a player, it will fly straight up, passing through tiles, and despawn.
+
+It can be supercharged by the [[Wulfrum Pylon]] enemy, causing its lights to turn from green to blue and making them fly and charge faster.
+
+== Notes ==
+*Hitting the Hovercraft with a melee strike will stun it for some time, paralyzing it but also removing its knockback resistance. The stun duration gets refreshed on every hit.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

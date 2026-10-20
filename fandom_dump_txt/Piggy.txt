@@ -1,0 +1,48 @@
+{{dedicated|Littlepiggy|Patreon Donator|type=NPC}}
+{{infobox wrapper
+|{{item infobox
+| image = Piggy (item).png
+| type = Crafting material
+| rare = 1
+| use = 14
+| auto = yes
+| consumable = yes
+| sell = {{value|0|10}}
+| stack = 9999
+}}
+|{{npc infobox | boxwidth=14em
+| width = 21em
+| type = Critter
+| environment = Surface
+| ai = Passive AI
+| damage = 0
+| life = 2000
+| defense = 0
+| knockback = 1
+| money = {{gc|2}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| banner = yes
+| Bacon|1|100%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+}}
+
+The '''Three Little Piggies:''' One built a stick house, another built a wooden plank house, and the last one built a metal house. The wolf made it through all of the houses besides the metal one, Oh, the poor little piggies...
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Unlike most critters, the Piggy has a much higher health stat and drops a hefty amount of gold coins.
+*If the player is lucky, they can encounter and catch a Piggy very early on in their playthrough, which will help immensely due to the large amount of money it sells for.
+*Despite having the same sell value as a [[tgc:Critters#Gold critters|Gold Critter]] ({{gc|10}}), the Piggy cannot be detected by the [[Lifeform Analyzer]].
+
+== Trivia ==
+*Piggy is a reference to [https://www.youtube.com/user/xBaumProductions BaumProductions] and his ''Terraria Necro Mod'' series on YouTube.
+*In prior versions of the mod, the Piggy used to drop a much larger amount of money (around {{gc|10-20}}).
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}

@@ -1,0 +1,70 @@
+{{Patch infobox
+| image = Slime God Core (1.1.6.13).png
+| patchname = Shrine Update
+| release = 1/30/2018
+}}
+
+The '''1.2.4.205''' update added [[Shrine]]s and several buffs to some Godseeker Mode weapons. It also added [[Treasure Bag]]s for a few [[bosses]] missing them, and made some adjustments to [[The Slime God]] fight. This update was the final version in the 1.2 series of updates.
+
+== Additions ==
+*Added [[Treasure Bag (Astrum Deus)]], [[Treasure Bag (Bumblebirb)]], and [[Treasure Bag (Ravager)]].
+*Added Cavern Shrine, Corruption Shrine, Crimson Shrine, Desert Shrine, Granite Shrine, Ice Shrine, Marble Shrine, Mushroom Shrine, Surface Shrine, and Underworld Shrine.
+
+== Changes ==
+=== Bosses and Enemies ===
+*[[Astrum Deus]], [[Bumblebirb]], and [[Ravager]] now drop their respective Treasure Bags.
+*[[The Devourer of Gods]] no longer drops the [[Murasama]].
+*[[Slime God]] changes:
+**Buffed the Ebonian Slime God's health from {{dv|4000|6400|8000|16,000}} to {{dv|5000|8000|9600|16,000}}.
+**Buffed the Crimulan Slime God's health from {{dv|3000|4800|6400|12,800}} to {{dv|4000|6400|8000|12,800}}.
+**Buffed the split Ebonian Slime God's health from {{dv|2000|3200|4000|8000}} to {{dv|2500|4000|4800|8000}}.
+**Buffed the split Crimulan Slime God's health from {{dv|1500|2400|3200|6400}} to {{dv|2000|3200|4000|6400}}.
+**Lowered the speed of the large slimes.
+**Split large slimes now spawn further apart.
+**Split large slimes now have a longer distance before they speed up towards the player.
+**Tweaked split large slimes' speeds.
+*[[Supreme Calamitas]] changes:
+**Decreased hit cap in Revengeance Mode from {{revengeance|15}} to {{revengeance|10}}.
+**Adjusted [[Ichor (debuff)|Ichor]] resistance in Normal, Expert, and Revengeance Mode.
+**Brimstone Hearts are now invincible for 10 seconds after spawning.
+
+=== [[Items]] ===
+*Buffed [[The Burning Sky]]'s damage from 165 to 210.
+*Buffed [[Celestus]]' damage from 85 to 104.
+*Buffed [[Chicken Cannon]]'s damage from 20 to 22.
+*Buffed [[Dragon Rage]]'s damage from 450 to 683.
+*Buffed [[Dragon's Breath]]'s damage from 205 to 236.
+*Buffed [[Greatsword of Blah]]'s damage from 195 to 247.
+*Buffed [[Infernal Spear]]'s damage from 720 to 1040.
+*Murasama changes:
+**Decreased localNPCHitCooldown from 2 to 0. 
+**Changed tooltip to say "ID and power-level locked.  Prove your strength or have the correct user ID to wield this sword." instead of "Revengeance drop".
+**Can now only be used if [[Jungle Dragon, Yharon]] has been defeated or if the player is named "Sam" or "Samuel Rodrigues". 
+*Buffed [[Photoviscerator]]'s damage from 46 to 50.
+*Nerfed [[Vivid Clarity]]'s damage from 160 to 136.
+*[[Void of Calamity]] now provides a 15% increase to all damage instead of increasing summon damage by 10% and all other damage types by 15%.
+*[[Void of Extinction]] changes:
+**Increased damage boost from 10% to 15%.
+**Now grants temporary immunity to [[Lava]] and 25% increased damage while submerged in it.
+**Now requires a [[Magma Stone]] to craft.
+*Buffed [[Voltaic Climax]]'s damage from 100 to 110.
+*Buffed [[The Wand]]'s infernado damage from 280 to 390.
+*Tweaked the coloring of [[Yharim's Crystal]]'s beam.
+*Nerfed [[Yharon's Kindle Staff]]'s damage from 250 to 232.
+
+=== Other ===
+*Non-minion player projectiles now despawn after [[Adrenaline Mode]] wears off.
+*Tweaked how fast players respawn in Expert Mode.
+*Completely overhauled the generation of the [[Profaned Crag]]. 
+
+=== Resprites ===
+*Resprited The Wand and Yharim's Crystal.
+*Resprited [[Rune of Kos]].
+
+== Fixes ==
+*Fixed [[Elysian Aegis]]' tooltip erroneously stating that the player must double tap down to activate [[Elysian Guard]] instead of using its dedicated hotkey.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

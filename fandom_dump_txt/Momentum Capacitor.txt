@@ -1,0 +1,14 @@
+{{item infobox
+| type = Covering
+| tooltip = Greatly increased minion speed...
+| buy = {{value|0|60}}
+| sell = {{value|0|7|20}}
+| rare = 5
+| stack = 1
+| hardmode = yes
+}}
+The '''Momentum Capacitor''' is a [[Hardmode]] item purchased from [[Bandit]] for {{gc|60}} after all three [[Mechanical Bosses]] have been defeated. When holding left-click, all summoned minions start gaining speed with a factor of +1.02 per frame. This caps at 500% of the minion's original speed, causing most minions to either fling themselves offscreen or become significantly more aggressive. Minion speeds reset to normal once the player stops using the item.
+
+{{Template:Master Template Tools
+| show-main = yes
+| show-other = yes}}

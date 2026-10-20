@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 80
+| use = 9
+| knockback = 5
+| auto = yes
+| tooltip = Converts musket balls into toxic and normal water blasts
+| stack = 1
+| rare = 7
+| sell = {{value|0|12}}
+| velocity = 12
+| hardmode = yes
+| debuff = Poisoned
+| debuffchance = 100%
+| debuffduration = 5 seconds (Toxic Aqua Blast)
+| debufftip = Slowly losing life
+| debuff2 = Venom
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (Toxic Aqua Blast)
+| debufftip2 = Losing life
+| proj = Aqua Blasts.gif
+| projcaption = Aqua Blasts
+| element1 = Water
+| element2 = Poison
+}}
+|{{item drops infobox
+|[[Leviathan and Anahita]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{dablink|If you were looking for something other than the Leviatitan, see [[Leviathan (disambiguation)]].}}
+
+The '''Leviatitan''' is a [[Hardmode]] [[gun]] which is dropped by the [[Leviathan and Anahita]]. It converts [[Musket Ball]]s into sea water blasts, with a 1/4 chance of firing a poisonous sea water blast instead, which inflicts both the [[Poisoned]] and [[Venom]] [[debuffs]] onto enemies.
+
+{{Modifier|ranged}}
+
+== Trivia ==
+*The name of this weapon is a portmanteau of the words "Leviathan" and "Titan".
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

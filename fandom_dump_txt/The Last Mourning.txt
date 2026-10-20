@@ -1,0 +1,47 @@
+{{dedicated|Mister Winchester|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = melee
+| tooltip = Summons flaming pumpkins and mourning skulls that split into fire orbs on enemy hits
+| damage = 360
+| knockback = 8.5
+| rare = 13
+| sell = {{value|0|26}}
+| use = 19
+| hardmode = yes
+| postml = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| debufftip = Slowly losing life
+| element1 = Fire
+| element2 = Slash
+| element3 = Dark
+| proj = Mourning Skull.png
+| projcaption = Mourning Skull
+| proj2 = Flaming Jack.gif
+| proj2caption = Flaming Jack
+}}
+
+'''The Last Mourning''' is a craftable Godseeker Mode [[melee weapon]] that is an upgrade to the [[Baleful Harvester]]. Upon striking an enemy, Mourning Skulls and Flaming Pumpkins will spawn from all directions off-screen and move in towards the enemy that was struck. Mourning Skulls explode into two fire orbs upon hitting an enemy. The sword, the Mourning Skulls and their fire orbs inflict the [[On Fire!]] [[debuff]].
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Last Mourning's sprite was inspired by the [https://doomwiki.org/wiki/Crucible_(Doom_Eternal) Crucible] from ''[[wikipedia:Doom Eternal|Doom Eternal]]''.
+{{-}}
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]

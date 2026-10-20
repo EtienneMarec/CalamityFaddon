@@ -1,0 +1,45 @@
+{{item infobox	
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 5185
+| mana = 41
+| velocity = 16
+| tooltip = Casts intense bolts of hellish power that explode into skulls<br/>Direct hits inflict Demon Flames for an extended period of time
+| knockback = 5.75
+| rare = 15
+| sell = {{value|0|30}}
+| use = 43
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Vehemence (projectile).png
+| projcaption = Vehemence
+| proj2 = Vehemence Skull Cloud.gif
+| proj2caption = Skull Cloud
+| debuff = Demon Flames
+| debuffchance = 100%
+| debuffduration = 30 seconds (Hellish Bolt)
+| element1 = Unholy
+| element2 = Poison
+| element3 = Stab
+}}
+
+The '''Vehemence''' is a Godseeker Mode [[wand]]. It fires a high-velocity hellish bolt that explodes into skulls on contact with [[enemies]] or tiles. Direct hits with the main projectile inflict the [[Demon Flames]] [[debuff]] for 30 seconds.
+
+{{Modifier|magic}}
+
+== Trivia ==
+*Vehemence means "the display of strong feeling or passion".
+*In previous versions of the Calamity Mod, the Vehemence used to drop from the [[Wall of Flesh]] in [[Prepare to Die]] mode.
+*In the mod's source files, the Vehemence is referred to as "Vehemenc".
+**When the weapon used to drop from Wall of Flesh, the source name was properly "Vehemence". It was changed to "Vehemenc" when it was moved to drop from Supreme Calamitas in update [[1.1.7.921]], causing previous instances of "Vehemence" items to become invalid and unusable. This was done in order to prevent those who had obtained it before the update to suddenly have an overpowered item early.
+*The Vehemence used to be a [[Revengeance Mode]] drop from [[Supreme Calamitas]].
+**The old version of Vehemence had a base damage of 1,000,000; changing according to damage multipliers. The less health the enemy had, the less damage the weapon dealt.
+{{Ashes of Annihilation}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

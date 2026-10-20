@@ -1,0 +1,40 @@
+{{item infobox
+| image = Core of the Blood God.gif
+| type = Covering
+| tooltip = 8% increased damage and damage reduction<br/>Boosts your max HP by 10%<br/>Healing Potions are 15% more effective<br/>Halves enemy contact damage<br/>When you take contact damage this effect has a 20 second cooldown
+| rare = 14
+| sell = {{value|0|28}}
+| stack = 1
+| debuff = Flesh Totem Cooldown
+| debufftip = The Flesh Totem effect is recharging
+| debuffduration = 20 seconds
+| hardmode = yes
+| postml = yes
+| boxwidth = 23em
+}}
+
+The '''Core of the Blood God''' is a craftable Godseeker Mode [[covering]]. It boosts the wearer's maximum health by 10%, causes [[Recovery Potions|Health Potions]] to heal 15% more HP, and provides an 8% increase to all damage and damage reduction. All received contact damage is halved from enemies; this effect has a 20 second cooldown.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*While it is crafted from the [[Blood Pact]], it does ''not'' give enemies the ability to perform critical strikes on the player. In compensation, the player's maximum health is increased by 10% rather than doubled.
+*If the player dashes through an enemy using a shield (such as the [[Elysian Aegis]] or [[Asgardian Aegis]]), the effect of halved contact damage will be put on cooldown despite the fact that no damage was taken.
+*While it is equipped, Healing Potions will have their tooltips updated to reflect on their boosted effects.
+*The health potion increasing effect stacks additively with that of the Blood Pact.
+
+== Trivia ==
+*Its name may be a reference to the memetic phrase "Blood for the Blood God", from the ''[[wikipedia:Warhammer 40,000|Warhammer 40,000]]'' game series.
+*It can be considered the counterpart to [[The Amalgam]].
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

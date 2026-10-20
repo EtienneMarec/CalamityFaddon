@@ -1,0 +1,182 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Draedon Update fixes
+| pair = 1.5.0.003 (music)
+| release = 11/30/2021
+}}
+
+The '''1.5.0.003''' (or '''1.5.0.3''') update adjusted the [[The Fabricational Quartet]] boss fight, buffed several Pre-Hardmode weapons, and fixed several issues from the [[1.5.0.001]] and [[1.5.0.002]] versions.
+
+{{toc limit|3|right=yes}}
+<!-- This one wasn't that bad either compared to v1.5.0.1. We're going on break for real this time… I hope. - Merkalto -->
+== Additions ==
+*Added [[Supreme Cataclysm Trophy]] and [[Supreme Catastrophe Trophy]]. <!-- 10% drop chance from their corresponding bro. - Merkalto -->
+
+== Changes ==
+=== Bosses ===
+*Teleportation effects are now only disabled while the player has the [[Boss Effects]] debuff instead of while any boss is alive.
+*[[Brain of Cthulhu]] Creepers and [[Eater of Worlds]] segments now have a 50% damage resistance to the [[Demon Scythe]] projectiles.
+*Brain of Cthulhu Creepers and Eater of Worlds segments can now drop [[Heart]]s when they are killed on [[Revengeance Mode]].
+*Eater of Worlds segments now have a 40% damage resistance to the feathers from the [[Sky Glaze]] and [[Feather Crown]].
+*[[The Hive Mind]] shaderain now inflicts [[Shadowflame]] for 1 second instead of [[Cursed Inferno]] for 1.5 seconds.
+*Decreased [[Skeletron]]'s [[Reactive Damage Reduction]] timer from 2 minutes and 30 seconds to 2 minutes.
+*[[The Slime God]]'s Abyss Ball projectiles now accelerate over time. Increased their duration from 4 seconds to {{dv|5|8|9|10|13}} seconds for the Corrupt variant and {{dv|4|6.5|7.33|8.17|10.67}} for the Crimson variant.
+*Nerfed [[XF-09 Ares]] Gauss Spark damage from {{dv|300|451|472|484}} to {{dv|250|376|394|404}}.
+*Decreased XF-09 Ares Tesla Sphere projectile velocity by 16.67% while it is firing Exo Overload Beams or when all three mechs are alive.
+*Nerfed XF-09 Ares Exo Overload Beam damage from {{dv|500|752|788|808}} to {{dv|450|676|712|732}}, Exothermal Laser damage from {{dv|450|676|712|732}} to {{dv|400|600|632|648}}, Pulse Laser, Plasma Blast, and Tesla Sphere damages from {{dv|350|528|556|572}} to {{dv|320|480|504|532}}, and Exoplasma Bolt damage from {{dv|280|422|444|457}} to {{dv|256|384|403|425}}.
+*Nerfed [[XM-05 Thanatos]] Exo Pulse Laser damage from {{dv|350|528|556|572}} to {{dv|320|480|504|532}}.
+*[[XS-01 Artemis]] and [[XS-03 Apollo]] player prediction ability on Malice Mode has been decreased slightly.
+*XS-01 Artemis and XS-03 Apollo now swap phases slightly less often on all difficulties.
+*XS-01 Artemis and XS-03 Apollo fire their Pulse Laser and Plasma Blast projectiles less frequently.
+*Decreased XS-01 Artemis Exo Pulse Laser projectile velocity by 25%.
+*Nerfed XS-01 Artemis Exothermal Beam damage from {{dv|450|676|712|732}} to {{dv|400|600|632|648}} and Pulse Laser damage from {{dv|350|528|556|572}} to {{dv|320|480|504|532}}.
+*Nerfed XS-03 Apollo Plasma Blast damage from {{dv|350|528|556|572}} to {{dv|320|480|504|532}}, Plasma Rocket damage from {{dv|450|676|712|732}} to {{dv|400|600|632|648}}, and Exoplasma Bolt damage from {{dv|280|422|444|457}} to {{dv|256|384|403|425}}.
+
+=== Enemies ===
+*[[Cnidrion]]s can now only spawn on the surface [[Desert]] biome, decreased how fast it can swim through tiles by 50% and its spawn rate by 60%.
+*[[Lava Slime]]s can no longer spawn lava when killed on Expert Mode or higher.
+*[[Mimic]]s can no longer drop the [[Compass]].
+**This was due to an oversight.
+*Decreased [[Wulfrum Drone]] velocity by 25%, and its fly away timer from 8 seconds to 6. Increased its tile detection range for the player from 57.5 tiles to 60.
+*Decreased [[Wulfrum Gyrator]] movement speed by 25% and jump speed by 11.11%.
+*Decreased [[Wulfrum Hovercraft]] velocity while searching and swooping by 20%. Increased its tile detection range for the player from 57.5 tiles to 60 and its fly away timer from 3 seconds to 6.
+*Decreased [[Wulfrum Rover]] movement speed by 25%.
+
+=== Balance and Reworks ===
+*Buffed [[Abyssal Tome]]'s base damage from 30 to 33.
+*Rebalanced [[Acid Gun]], buffed base damage from 15 to 17, but increased its use time from 20 to 45.
+*Buffed [[Air Spinner]]'s base damage from 21 to 26.
+*[[Alpha Ray]] will now properly fire a spread of lasers with its alternative fire. <!-- This is actually a bug fix. - Merkalto -->
+**Nerfed the spread lasers' knockback from 100% of base to 40% of base.
+*Buffed [[Amber Staff]]'s use time from 28 to 25.
+*Buffed [[Amethyst Staff]], decreased its mana cost from 3 to 2.
+*Buffed [[Aorta]]'s base damage from 23 to 29.
+*Buffed [[Aqua Scepter]]'s base damage from 15 to 21, and the velocity of its projectiles from 37.5 to 75.
+*Rebalanced [[Aquamarine Staff]], buffed base damage from 10 to 17, increased its use time from 15 to 22, and increased its projectile velocity from 9 to 14.
+*Reworked [[Avalanche]], its ice bomb projectiles that spawn on hit now travel in an "X" or "+" pattern and explode into gravity affected ice shard projectiles after 3 seconds. Buffed base damage from 60 to 100, but nerfed its use time from 19 to 34.
+*Buffed [[Bee Gun]]'s base damage from 9 to 11.
+*Buffed [[Bee Keeper]]'s base damage from 44 to 55.
+*All Bee and Giant Bee projectiles can now pierce enemies once.
+*Buffed [[Black Anurian]]'s base damage from 36 to 43.
+*Buffed [[Blood Bath]]'s base damage from 25 to 31.
+*Buffed [[Bloody Rupture]]'s base damage from 26 to 33.
+*Buffed [[Book of Skulls]] projectile velocity from 3.5 to 9.
+*Buffed [[Carnage]]'s base damage from 55 to 69.
+*Nerfed [[Carnage Ray]]'s maximum damage multipler from 4x to 3x.
+*Buffed [[Coral Spout]]'s base damage from 13 to 17.
+*Buffed [[Crimson Rod]], its rain projectiles now inflict the [[Burning Blood]] debuff for 1 second on hit.
+*Buffed [[Daedalus Golem Staff]], its minions will now stand on either side of the player or enemies instead of exclusively standing on the right side. Additionally, its minions can now walk on one-block thick floors as intended.
+*Decreased [[Defense damage]] recovery delay from 0.5 seconds to 0.17 and minimum total regeneration time from 1 second to 0.83.
+*Buffed Demon Scythe's base damage from 26 to 33, its mana cost from 14 to 10, and gave it autouse.
+*Buffed [[Diamond Staff]]'s base damage from 23 to 26.
+*Nerfed [[Eldritch Tome]]'s base damage from 48 to 42.
+*Rebalanced [[Emerald Staff]], buffed its base damage from 19 to 28, but it can no longer pierce enemies.
+*Rebalanced [[Flamelash]], buffed its base damage from 40 to 75, but increased its use time from 20 to 38.
+*Rebalanced [[Flare Bolt]], buffed its base damage from 27 to 42, but increased its use time from 20 to 30.
+*Buffed [[Flower of Fire]]'s base damage from 48 to 60 and gave it autoswing.
+*Buffed [[Frost Bolt]]'s base damage from 10 to 14.
+*Rebalanced the following projectiles' explosions, removed the 70% decreased damage from the explosion but increased local immunity frames given from 10 to 600: <!-- All these projectiles use the FuckYou explosion in source, as of 1.5.0.003 -->
+**[[Dragon Rage]], [[Dragon's Breath]], [[Elemental Ray]], [[Fallen Paladin's Hammer]], [[Fault Line]], [[Flameburst Shortsword]], [[Holy Fire Bullet]]s, [[Impaler]], [[Inferna Cutter]], [[Lazhar]], [[Phoenix Blade]], [[Purge Guzzler]], [[Subduction Slicer]] and [[Vulcanite Lance]].
+*Buffed [[Gauss Dagger]]'s base damage from 20 to 25.
+*Buffed [[Goldplume Spear]]'s base damage from 38 to 48.
+*Buffed [[Harvest Staff]]'s base damage from 15 to 26.
+*Rebalanced [[Hellwing Staff]], buffed its base damage from 20 to 33, and its use time from 33 to 24. However, its projectiles can no longer pierce enemies.
+*Buffed Holy Fire Bullets, explosions no longer deal 25% less damage and instead deal 33% of the bullet's base damage. <!-- This is a buff because HFB are affected by the explosion's damage being buffed -->
+*Decreased the projectile homing delay on the [[Hydrothermic Headgear]] and [[Hydrothermic Hood]] set bonuses.
+*Buffed [[Hyphae Rod]]'s base damage from 15 to 20.
+*Buffed [[Icicle Staff]]'s use time from 15 to 7 and its use animation from 30 to 14.
+*Buffed [[Leeching Dagger]]'s base damage from 26 to 33.
+*Buffed [[Magic Missile]]'s base damage from 27 to 48 and its use time from 18 to 15.
+*Buffed [[Magna Cannon]]'s base damage from 17 to 26.
+*Rebalanced [[Mana Rose]], buffed its base damage from 10 to 20, but increased its use time from 27 to 38.
+*Nerfed [[Parasitic Scepter]]'s use time from 25 to 35.
+*Buffed [[Perfect Dark]]'s base damage from 38 to 48.
+*Buffed [[Plasma Rod]]'s use time from 36 to 20 and increased its projectile velocity from 6 to 11.
+*Buffed [[Pulse Pistol]]'s base damage from 22 to 26.
+*Buffed [[Ruby Staff]]'s base damage from 21 to 23.
+*Buffed [[Sapphire Staff]]'s base damage from 17 to 25 and gave it autouse.
+*Buffed [[Sausage Maker]]'s base damage from 29 to 36.
+*Buffed [[Shaderain Staff]]'s base damage from 17 to 21 and its rain projectiles now inflict the [[Shadowflame]] debuff for 1 second on hit.
+*Buffed [[Shadowdrop Staff]]'s base damage from 19 to 25, decreased its mana cost from 13 to 6, and increased its projectile velocity from 8 to 14.
+*Buffed [[Space Gun]]'s base damage from 17 to 25.
+*[[Sparkling Empress]] beam can no longer create shards when killing enemies that deal less than 5 contact damage.
+*Buffed [[Squirrel Squire Staff]] acorns' extraUpdates from 0 to 1. Additionally, its minions can now stand properly on platforms.
+*Nerfed [[Storm Spray]]'s use time from 23 to 33.
+*Buffed [[Tradewinds]]' base damage from 25 to 31 and its mana cost from 7 to 5.
+*Buffed [[Topaz Staff]], decreased its mana cost from 4 to 2.
+*Buffed [[Vein Burster]]'s base damage from 57 to 71.
+*Buffed [[Vilethorn]]'s base damage from 10 to 14.
+*Buffed [[Wand of Sparking]]'s base damage from 8 to 15 and gave it autoswing.
+*Rebalanced [[Waywasher]], buffed its base damage from 15 to 16, but increased use time from 12 to 15.
+*Buffed [[Water Bolt]]'s base damage from 19 to 28.
+*Buffed [[Wind Blade]]'s base damage from 33 to 41.
+*Buffed [[Wulfrum Staff]]'s base damage from 12 to 13 and its mana cost from 4 to 2.
+
+=== Recipes ===
+*[[Aquashard Shotgun]] now also requires 2 [[Aerialite Bar]]s to be crafted.
+*[[Stratus Brick]]s can now be crafted from 2 [[Stratus Star Platform]]s at an [[Ancient Manipulator]].
+
+=== Renames ===
+*Renamed Eye of Extinction to [[Ceremonial Urn]].
+
+=== Resprites ===
+*Resprited [[Totality Breakers]].
+*Resprited Totality Tar projectile.
+*Resprited [[Vampiric Talisman]].
+*Resprited [[Auric Tesla Body Armor]], [[Auric Tesla Cuisses]], [[Auric Tesla Royal Helm]], [[Auric Tesla Hooded Facemask]], [[Auric Tesla Wire-Hemmed Visage]], [[Auric Tesla Space Helmet]], [[Auric Tesla Plumed Helm]], [[Umbraphile Boots]], [[Umbraphile Regalia]], and [[Umbraphile Hood]].
+*Resprited Ceremonial Urn, [[Penumbra Potion]], and [[Solar Veil]].
+
+=== Additional Changes ===
+*All items that can stack to 99 or 999 now stack to 9999.
+*[[Aerialite Brick]], [[Chaosplate]], [[Cinderplate]], [[Cosmilite Brick]], [[Cryonic Brick]], [[Elumplate]], [[Navyplate]], [[Otherworldly Stone]], [[Perennial Brick]], [[Plagued Containment Brick]], [[Plagueplate]], [[Profaned Crystal]], [[Profaned Slab]], [[Runic Profaned Brick]], [[Silva Crystal]], [[Smooth Abyss Gravel]], [[Smooth Brimstone Slag]], [[Smooth Navystone]], [[Smooth Voidstone]], [[Stratus Brick]], and [[Uelibloom Brick]] no longer have a pickaxe power requirement. <!-- Apparently Astral Brick lost its pickreq a long time ago, I'll have to check GitHub to see when that changed. - Merkalto -->
+**Additionally, Chaotic Bricks no longer have a map entry.
+*Increased Aquashard Shotgun rarity from {{rare|2}} to {{rare|3}} and increased its sell price accordingly.
+*Updated the [[Arms Dealer]] custom name from "Barney" to "Barney Calhoun".
+*[[Cosmilite Dye]] sell price changed from {{sc|5}} to {{gc|5}}.
+**This was due to an oversight.
+*[[Daawnlight Spirit Origin]] now properly displays its bullseyes when holding [[Condemnation]].
+*[[Exo Box]] now has a custom {{key|Exo Chair Slow Down}} keybind.
+*Feathers from the Feather Crown and Sky Glaze now set [[Immunity frames#npc.immune|npc.immune]] to 1.
+*[[Genesis Pickaxe]], [[Nebula Pickaxe]], [[Picksaw]], [[Solar Flare Pickaxe]], [[Stardust Pickaxe]], and [[Vortex Pickaxe]] tooltips are now more descriptive of where Calamity Ores they are capable of mining are located.
+*The [[Giant Clam]] now has a chance to drop more than one of its weapons at once. <!-- At least one weapon is still guaranteed every kill. -->
+*Updated the [[Malice]] tooltip slightly.
+*"empyrean" can now be used as a substitute for the "xerocSet" mod call.
+*[[The Reaper]] no longer triggers [[Bandit]]'s "Oh man, did you rip that off a shark!? Now that's a weapon!" dialog.
+*Removed the [[Sea King]]'s "Ah, the dragon Yharon is fickle. You may find that he will refuse to use his full power unless you are strong enough to unleash the power of the Dark Sun." and "The dungeon is a dark place. None of us know of its true purpose, however, the ancient Eidolist cultists used it for worship before Lord Yharim took it over." dialogs.
+*[[Scarlet Devil]] now mentions that its stealth strikes create a star of projectiles in its tooltip.
+*The [[Starter Bag]] now drops [[Armageddon]].
+**Additionally, the [[Defiled Feather]] is now dropped on all worlds instead of just Expert Mode worlds.
+
+== Fixes ==
+*Fixed a bug that caused the [[Daedalus Helm]] and [[The Transformer]] to remove all damage from reflected projectiles.
+*Fixed a bug that prevented the [[Aquatic Scourge]] from dealing contact damage while aggroed.
+*Fixed a bug that prevented the Eater of Worlds from being marked as dead when killed on Revengeance Mode.
+*Fixed a bug that prevented [[The Leviathan]] from spawning.
+*Fixed a bug that prevented [[Schematics]] from unlocking Arsenal Weapon and Codebreaker component recipes in multiplayer.
+*Fixed [[Abyss Torch]] flames being slightly offset.
+*Fixed a rotation issue with the [[Taser]] hook.
+*Fixed an issue that allowed [[The Community]] to drop outside of the world.
+*Fixed an issue that caused [[The Devourer of Gods]] phase 2 music to desync with its spawning animation.
+*Fixed an issue that caused the [[Sulphurous armor]] and [[Statigel armor]] set bonus extra-jumps to be reset when hitting a ceiling.
+*Fixed an issue that prevented the [[Elemental Ray]] from firing its Stardust Beam if the weapon had a speed modifier. <!-- This is fixed by increasing use time by 1 -->
+*Fixed an issue that prevented the [[Pole Warper]] tooltip from updating when its recipe is unlocked. <!-- This is separate from the aforementioned multiplayer issue. - Merkalto -->
+*Fixed an issue that prevented the [[Skeletron Prime]] flaming skull projectiles from dealing damage on Revengeance Mode.
+*Fixed an oversight that caused the [[Arms Dealer]] to sell [[Stake]]s twice in his shop.
+*Fixed an oversight that lowered [[Queen Bee]]'s Normal Mode item drop rates from 33% to 25%. <!-- This happened when we moved all Vanilla bosses to the 25%/33% drop chance thing. QB by default already drops her loot with a 33% chance. - Merkalto -->
+*Fixed [[Ice Mimic]]s unintentionally dropping normal Mimic drops.
+*Fixed inconsistent uses of "Stealth strikes" on the [[Luminous Striker]], [[Spear of Paleolith]], and [[Stormfront Razor]] tooltips. <!-- LS and SoP now say "Stealth strikes" instead of "Stealth Strikes", SR now pluralizes "Stealth strikes", and individualized "cause". - Merkalto -->
+*Fixed [[Metastasis]] Sepulcher minion desyncing in multiplayer.
+*Fixed [[Meteor Fist]] clipping through smaller enemies without dealing damage. <!-- This is done by giving Meteor Fist a 2x velocity multiplier, but decreasing the base velocity from 10 to 5 -->
+*Fixed [[Surge Driver]] projectiles dealing melee damage instead of ranged damage.
+*Fixed the [[Titanium armor]] set bonus not being disabled from the [[Armageddon]] dodge toggle. <!-- This also affects 1.4 Hallowed Armor, but not yet of course… - Merkalto -->
+*Removed a duplicate line on the [[Spear of Destiny]]'s tooltip.
+*Removed an outdated tooltip line on the Daedalus Helm set bonus.
+
+== Removals ==
+*Removed [[Dried Seeker]]s.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

@@ -1,0 +1,41 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Revengeance mode only}}
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Striking an enemy makes it bleed<br/>Additional attacks makes the bleed stronger<br/>After hitting an enemy 6 times, creates a powerful bloody explosion<br/>The explosion slows enemies down and blinds them<br/>'The true evil that nature couldn't make'
+| sell = {{value|0|2}}
+| stack = 1
+| debuff = Obstructed
+| debuffchance = 100%
+| debufftip = You can't see!
+| debuffduration = 5 seconds
+| element1 = Unholy
+| element2 = Stab
+|element3=Dark|rare=3}}
+
+The '''Sanguined Catarachedrae''' is a [[Pre-Hardmode]] [[Equipment|covering]] that is obtained by throwing [[Catarachedrae]] into [[Sanguine Shimmer]]. While equipped, hitting an enemy will cause it to bleed for 4 seconds, dealing 6 flat damage every second, similarly to most [[debuffs]]. This effect stacks up to 5 times, dealing maximum of 30 DPS. If the player hits the bleeding enemy a 6th time, it will instead create a bloody explosion with a radius of 2 blocks. The explosion deals 50 typeless damage, which scales with the most powerful class, pierces infinite amount of enemies, although dealing damage only once per target, and inflicts the [[tgc:Obstructed|Obstructed]] debuff for 5 seconds, slowing down enemies considerably and making them unable to target the player.
+
+==Crafting ==
+
+===Recipe ===
+{{recipes|result={{PAGENAME}}}}
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Notes==
+*If the player strikes an enemy with a weapon that deals [[True melee|true melee]] damage, the explosion will deal 80 base damage instead.
+*If the player strikes an enemy with a [[Minions|minion]], the explosion will deal 20 base damage instead.
+*Sanguined Catarachedrae has a good synergy with fast weapons that deal low damage, because they can trigger the explosion much more often.
+*Since the DoT effect isn't considered a debuff, it cannot be empowered or weakened, and can fully damage enemies that are immune to all debuffs or have high [[defense]] and [[Damage Reduction|damage reduction]], such as [[tgc:Skeletron|Skeletron]].
+*Unlike other variants of Catarachedrae, Sanguined one doesn't have a use besides being a covering.
+
+==Trivia==
+*Sanguined Catarachedrae is used to represent the true melee damage type.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Combat coverings]]

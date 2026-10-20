@@ -1,0 +1,49 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Revengeance mode only}}
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-120 health per second and -100% damage reduction. (if player)<br/>-1000 health per second and -100% damage reduction (if enemy)
+| tooltip = You're getting destroyed by powers that go against all rules of humanity
+}}
+
+'''Eradication''' is a [[debuff]] inflicted by various sources. It causes the player to lose 80 health per second and all of damage reduction, or 600 health per second and all damage reduction if the debuff is inflicted to an enemy instead. It also prevents natural life regeneration. 
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+== Trivia ==
+Eradication is the hardest threat (difficulty) level in the game Mindustry. It also refers to the fact that most of the sources that inflict the debuff are references to the mentioned game.
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

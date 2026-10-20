@@ -1,0 +1,48 @@
+{{dablink|For the vanilla debuff page see [[tgc:Bleeding|Bleeding]]}}
+{{buff infobox
+| type = Debuff
+| effects = Unable to regenerate health naturally
+| tooltip = Cannot regenerate life
+}}
+
+'''Bleeding''' is a vanilla debuff that prevents natural life regeneration when inflicted.
+
+== Causes ==
+=== From Calamity Weapons ===
+{{Item debuffs}}
+=== From Calamity NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|-
+| {{item|mode=table|Mauler}}||5 seconds (Contact)||100%
+|-
+| {{item|mode=table|Plantera}}||{{revengeance|5 seconds}} (Contact in Phase 2)||{{revengeance|100%}}
+|-
+| {{item|mode=table|Plantera's Tentacle}}||{{revengeance|3 seconds}}||{{revengeance|100%}}
+|-
+| {{item|mode=table|Prime Saw}}||{{revengeance|5 seconds}}||{{revengeance|100%}}
+|-
+| {{item|mode=table|Prime Vice}}||{{revengeance|5 seconds}}||{{revengeance|100%}}
+|-
+| {{item|mode=table|Reaper Shark|size=200px}}||5 seconds||100%
+|-
+| {{item|mode=table|Skeletron Prime}}||{{revengeance|5 seconds}} (Contact)||{{revengeance|100%}}
+|-
+| {{item|mode=table|Spazmatism}}||{{revengeance|5 seconds}} (Contact)||{{revengeance|100%}}
+|-
+|}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

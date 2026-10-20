@@ -1,0 +1,298 @@
+{{Patch infobox
+| image = Astrum Deus (1.2.4.001).png
+| size = 240px
+| patchname = Astrum Deus Rework
+| release = 12/26/2017
+}}
+
+The '''1.2.4.001''' update reworked [[Astrum Deus]], added some new weapons, and added a variety of resprites, including some for 2 of the mod's bosses.
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+*Added [[Aether's Whisper]], [[Apotheosis]], [[Cosmic Immaterializer]], [[Disseminator]], [[Mistlestorm]], [[Molecular Manipulator]], [[Seadragon]].
+*Added [[Purified Jam]].
+*Added [[Cosmic Energy (buff)|Cosmic Energy]], [[Invincible]].
+*Added [[Astrum Deus Mask]].
+
+== Changes ==
+
+=== [[Bosses]] ===
+
+==== [[Astrum Deus]] ====
+*The fight now includes a larger "spectral" worm which is invincible and cannot hurt the player until all of the small worms have been defeated. This worm does not inherit the [[Astrum Deus Probe]] ring.
+*Nerfed small worm health from {{dv|18,500|29,600|32,000|40,000}} to {{dv|11,000|17,600|20,800|28,800}}.
+*Decreased small worm length from 8 to 6.
+*Small worms no longer drop Coins and [[Lesser Healing Potion]]s.
+*Astrum Deus Probes now fire mines half as often.
+*Mines now last for 20 seconds instead of 10.
+*Now inflicts the [[Extreme Gravity]] debuff for the entire fight.
+*Increased velocity on mines.
+*Can now drop an [[Astrum Deus Mask]].
+
+==== [[Brimstone Elemental]] ====
+*Increased damage during enrage by 33%.
+*No longer invincible outside of the [[Profaned Crag]], and instead gains 9999 defense.
+*Can no longer harm players when fading in or out.
+*Massively lowered speed of phase 3's brimstone barrage projectiles, and lowered the amount of barrages fired.
+*Lowered the amount of dust she spawns idly. 
+
+==== [[Calamitas]] ====
+*Buffed phase 1's brimstone laser damage from {{dv|60|88|92|132}} to {{dv|70|100|105|150}}, and her rapid laser damage from {{dv|50|72|75|108}} to {{dv|60|88|92|132}}.
+*Buffed phase 2's health from {{dv|19,000|30,400|34,400|40,000}} to {{dv|27,000|43,200|48,000|56,000}}, her contact damage from {{dv|50|80|84|120}} to {{dv|70|112|117|168}}, her hellfireball damage from {{dv|108|148|155|222}} to {{dv|118|168|176|252}}, and her brimstone laser damage from {{dv|60|92|96|138}} to {{dv|70|104|109|156}}.
+*Buffed [[Cataclysm]]'s contact damage from {{dv|78|124|130|186}} to {{dv|88|140|147|210}} and his brimstone flamethrower damage from {{dv|52|92|96|138}} to {{dv|64|104|109|156}}.
+*Buffed [[Catastrophe]]'s contact damage from {{dv|90|144|151|216}} to {{dv|100|160|168|240}}, and his fireball damage from {{dv|60|100|105|150}} to {{dv|72|116|121|174}}.
+*Buffed [[Soul Seeker]]'s health from {{dv|1500|2100}} to {{dv|7500|12,000}}, and its brimstone dart damage from {{dv|48|84|88|126}} to {{dv|66|100|105|150}}.
+*The brothers now have a higher despawn range.
+*[[Bloodstone]], [[Chaos Stone]], and [[Animosity]] now drop from the Treasure Bag instead of directly from the boss in Expert Mode.
+
+==== [[Cryogen]] ====
+*[[Cryo Stone]], [[Frost Flare]], and [[Frozen Key]] now drop from the Treasure Bag instead of directly from the boss in Expert Mode.
+
+==== [[The Destroyer]] ====
+*Now limits projectile piercing to 2 instead of 3.
+
+==== [[The Devourer of Gods]] ====
+*Head no longer instantly kills the player in Revengeance Mode, and now only does so in Death Mode.
+*Lowered piercing resistance on body segments.
+*[[Murasama]] and [[Fabsol]] now drop from the Treasure Bag instead of directly from the boss in Expert Mode.
+
+==== [[Duke Fishron]] ====
+*Now fires Cthulhunadoes in phase 3 in Death Mode.
+
+==== [[Eye of Cthulhu]] ====
+*[[Teardrop Cleaver]] and [[Victory Shard]]s now drop from the Treasure Bag instead of directly from the boss in Expert Mode.
+
+==== [[The Hive Mind]] ====
+*Buffed phase 2's health from {{dv|2000|3200|4800|11,200}} to {{dv|4000|6400|8060|11,200}}.
+*No longer deals contact damage in phase 1.
+*Phase 2 is no longer invincible outside of [[The Corruption]], and instead gains 9999 defense.
+*Phase 2 can no longer harm players when fading in or out.
+*[[Dark Heart]]s now hover higher above the player.
+*Changed vile clot projectile color from purple to green, and made them inflict [[Cursed Inferno]].
+*Now spawns [[Dank Creeper]]s and [[Devourer]]s 25% more often.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Any damage dealt to Yharon which would take over 10% of his health will now deal no damage.
+*[[Drew's Wings]] now drop from the Treasure Bag instead of directly from the boss in Expert Mode.
+
+==== [[THE LORDE]] ====
+*Now becomes near invincible upon reaching 1% life for a minute before becoming vulnerable again.
+*Now inflicts [[NO U]] constantly if summoned before [[Supreme Calamitas]] has been defeated.
+*Despawn distance decreased.
+
+==== [[Lunatic Cultist]] ====
+*Revengeance Mode projectile rain can now go through blocks.
+
+==== [[The Plaguebringer Goliath]] ====
+*Buffed [[Plague Mine]] damage in Death Mode from {{death|560}} to {{death|600}}.
+*Now spawns up to 2 [[Plaguebringer]]s in Death Mode.
+
+==== [[Polterghast]] ====
+*Now immune to [[Exo Freeze]].
+
+==== [[Profaned Guardians]] ====
+*Flares now spawn at 7 second intervals instead of 10 second intervals.
+
+==== [[Providence, the Profaned God]] ====
+*Renamed A Dunkin' Donut to A Profaned Guardian.
+*Defensive guardian spears now spawn at 10 second intervals instead of 7 second intervals.
+*Removed the Healer guardian's negative healing projectiles.
+*Offensive guardian flares now spawn at 7 second intervals instead of 10 second intervals.
+*Increased vertical acceleration speed.
+*[[Icarus' Folly]] now cuts horizontal wing speed.
+*Now disables wiring.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Nerfed [[Cosmic Lantern]] health from {{dv|4000|5600|5880|8400}} to {{dv|2000|2800|2940|4200}}.
+*No longer invincible outside of [[The Underworld]], and instead gains 9999 defense.
+*Can no longer harm players when fading in or out.
+*Now switches between attack modes much more quickly.
+*Now charges more violently.
+*Reduced dust spawned idly.
+
+==== [[Siren and Leviathan]] ====
+*The Siren now cycles between phases quicker.
+*The Siren now has a 50% chance to spawn with an alternate, more green, sprite.
+
+==== [[The Slime God]] ====
+*Now drops Purified Jam in Revengeance Mode if it has never been defeated before in the same world and/or by the same player.
+
+==== [[Supreme Calamitas]] ====
+*Lowered hitcap from {{dv|40|35|30|15}} to {{dv|30|25|20|10}}.
+*Now stops [[Slime Rain]] if it's occurring when she's summoned.
+*Supreme Soul Seekers now produce less dust.
+*Supreme Soul Seekers now fire less often.
+*Completely rewrote dialogue.
+
+{{collapse top|Dialogue (click to reveal)|Dialogue (click to collapse}}
+
+{| class="terraria lined"
+! Trigger !! Old !! New
+|-
+| Upon spawning after having been defeated four times.
+| ''"You're really kind of a freak, ain't ya?"''
+| ''"Don't get me wrong, I like pain too, but you're just ridiculous."''
+|-
+| When the first bullet hell ends.
+| ''"Here we go."''
+| ''"Alright, let's get started.  Not sure why you're bothering, you will not succeed."''
+|-
+| Upon reaching 75% health.
+| ''"Look, I gave up trying to fight him a long time ago.''
+| ''"You seem so confident...yet painfully ignorant of what has yet to transpire.  I was the same way, long ago."''
+|-
+| Upon reaching 50% health.
+| ''"After seeing what you did to his dragon..."''
+| ''"Couldn't leave well enough alone could you?  Could have stopped after murdering his beloved dragon...but no."''
+|-
+| Upon reaching 45% health.
+| ''"I can't afford to let you live any longer."''
+| ''"Brothers, could you assist me for a moment?  Dealing with this fool is growing tiresome."''
+|-
+| Upon reaching 40% health.
+| ''"Alright, now you're just pissing me off."''
+| ''"Well done, you've passed level one of my special hell.  That's something someone like you would undoubtedly be very proud of..."''
+|-
+| Upon reaching 30% health.
+| ''"Just give up already!  It'll make this a lot less painful..."''
+| ''"This is no longer about vengeance, it's about preventing a monster from growing stronger."''
+|-
+| Upon reaching 20% health.
+| ''"Just who do you think you are!?  You can't kill ME!  I'm supposed to kill YOU!"''
+| ''"Impressive...but still not good enough!  Go, my little seekers!  Burn them down!"''
+|-
+| Upon reaching 10% health.
+| ''"HERE WE GO AGAIN!  BURN IN HELL YOU MURDEROUS LITTLE WORM!"''
+| ''"I'm just getting started!"''
+|-
+| Upon reaching 8% health.
+| ''"Ugh...uh, y'know, we don't have to keep fighting."''
+| ''"What!?  How are you still alive!?"''
+|-
+| Upon reaching 6% health.
+| ''"Huff...can we just stop all this?  You can't kill me...and I can't kill you."''
+| ''"Just stop!  As I said earlier, you WILL NOT succeed!"''.
+|-
+| Upon reaching 4% health.
+| ''"You'll just keep coming back...over and over again.  And I'll keep reforming over and over again."''
+| ''"Even if you defeat me you still have my lord to contend with!  He is leagues ahead of anything you have faced thus far!"''
+|-
+| Upon reaching 2% health.
+| ''"And, y'know...if I can just become invincible...I might as well just do that...forever."''
+| ''"Ugh...I'm honestly not sure what side I should be fighting for anymore..."''
+|-
+| Upon reaching 1% health.
+| ''"So...yeah.  Guess we get to sit here now..."''
+| ''"YOU are a monster that butchers everything in their path for greater power..."``.
+|-
+| 10 seconds after reaching 1% health before defeating her prior.
+| ''"...well...it seems I can't really move or cast spells anymore..."''
+| ''"My lord...is also a monster, but at least he has noble goals to justify his actions."''
+|-
+| 15 seconds after reaching 1% health before defeating her prior.
+| ''"...just kill me.  I don't have enough energy to fight you or run away."''
+| ''"Well...I guess this is the end.  Hopefully a few of my words got through to you...if you can still think rationally after all that killing."''
+|-
+| 15 seconds after reaching 1% health after defeating her prior.
+| ''"...let's just get to the point.  Kill me again."''
+| ''"Whatever, you'll just take your loot and move on as always.  Guess I'll keep fighting for Yharim then."''
+|-
+| When reaching the hitcap
+| ''"You got hit too many times.  Get doused on."''
+| ''"You got hit too many times...you are very pro at dodging.  Did you take lessons from Leviathan?"''
+|-
+| When defeated by using an overpowered weapon or with any butcher function.
+| ''"You dirty hacker."''
+| ''"Go to hell."''
+|-
+| After defeat.
+| ''"So...guess that's it then...huh..."''
+| ''"...you know I'll just come back...right?  HAH!  I CAN'T DIE, BUT YOU CAN!  THAT'S FUNNY!  ...isn't it?"''
+|-
+|}
+{{collapse bottom}}
+
+=== [[Enemies]] ===
+*[[Aquatic Aberration]]s are now rarer.
+*[[Parasea]]s are now more common.
+*Nerfed Death Mode [[Plaguebringer]]'s health from {{death|29,400}} to {{death|28,000}}, and buffed Death Mode hive bomb damage from {{death|150}} to {{death|180}}.
+*Plaguebringers can now only spawn a maximum of 5 large Plague Chargers at a time.
+*[[Sun Bat]]s no longer emit light themselves, and now only use dust for lighting.
+
+=== Items ===
+*[[Asgardian Aegis]] and [[Elysian Aegis]]' dashes are now quicker.
+*[[Counter Scarf]]'s [[Scarf Cooldown]] now lasts for 11 seconds instead of 8.
+*[[Crystal Blade]]'s dust now penetrates 3 times instead of 2.
+*[[Daedalus Stormbow]] now only gets nerfed in Revengeance and Death Mode.
+*[[Death]] now requires a [[Crimson Altar]] or a [[Demon Altar]] to craft.
+*[[Draedon's Heart]] now gives immunity to [[Horror]].
+*[[Dualpoon]] and [[Triploon]]'s harpoon projectiles no longer last forever.
+*[[Duke Fishron]]'s weapons now only get stat nerfs pre-[[Golem]] in Revengeance and Death Mode.
+*[[Elemental Quiver]]'s split projectiles no longer recover ammo.
+*Elemental Quiver's split projectiles now last shorter.
+*[[Exoblade]]'s explosions now last for 0.5 seconds instead of 1, and have a localNPCHitCooldown of 1 instead of 3.
+*Vanilla [[Flails]] now only gain a buff in Revengeance and Death Mode.
+*Reduced [[God Slayer Chestplate]]'s thorns effect by 50%.
+*[[Megafleet]] now uses 1 [[Seadragon]] in its recipe instead of 1 [[Megalodon]].
+*[[Nanotech]]'s nanoblades are no longer affected by gravity and can home in on enemies.
+*[[Nebulash]] now has a LocalNPCHitCooldown of 2 instead of 4.
+*[[Revengeance Mode|Revengeance]]-exclusive items now have a tooltip stating "Revengeance drop".
+*[[Siren's Heart]]'s Ice Shield Cooldown now lasts for 60 seconds instead of 30.
+
+==== Balance ====
+*Buffed [[Anti-materiel Rifle]]'s damage from 3000 to 4500.
+*Decreased [[Ataxia Headgear]]'s chaos flare damage.
+*Increased Ataxia Hood's chaos flame damage.
+*[[Crystal Bullet]]s now only do 16.67% damage in Revengeance Mode.
+*Buffed [[Exoblade]]'s damage from 800 to 1800.
+*Buffed [[Flame Scythe]]'s damage from 83 to 98.
+*Nerfed [[Greatbow of Turmoil]]'s damage from 70 to 52.
+*Buffed [[Hell Burst]]'s damage from 34 to 36.
+*Nerfed [[Helstorm]]'s damage from 27 to 24.
+*Buffed Megalodon's damage from 27 to 32, and increased its accuracy.
+*Nerfed [[Seashell Boomerang|Seashell Boomerang (Melee)]]'s use time from 11 to 15, and knockback from 6.5 to 5.5.
+*Nerfed [[Storm Dragoon]]'s damage from 150 to 110.
+*Nerfed [[Superball Bullet]]'s damage from 10 to 6.
+*[[Terratomere]]'s projectiles now only deal 33% of the weapon's base damage instead of 50%.
+*Nerfed [[Vanquisher Arrow]]'s damage from 32 to 18.
+*Nerfed [[Verium Bullet]]'s damage from 12 to 11.
+
+=== Other ===
+*All Calamity buffs from [[Potions]] now save upon leaving worlds.
+*Death Mode now boosts enemy damage by {{death|50%}} instead of {{death|40%}}.
+*Extreme Gravity now slightly decreases the player's vertical speed.
+
+=== Resprites ===
+*Resprited [[Fungal Clump (buff)]], [[NO U]].
+*Resprited [[Abombination]], [[Acid Round]], [[Blood Orb]], [[Darksun Fragment]], [[Treasure Bag (The Plaguebringer Goliath)]], [[Unholy Essence]].
+*Resprited [[Alchemical Flask]], [[Aureate Booster]]'s equipped sprite, [[Bloodflare Core]], [[Bloom Stone]], [[Leviathan Ambergris]], [[Plague Hive]], [[Toxic Heart]], [[Void of Extinction]], [[Xeroc Wings]].
+*Resprited [[Corroslime Staff]], [[Crimslime Staff]], [[Crystal Blade]], [[Cursed Capper]], [[Cursed Dagger]], [[Hellion Flower Spear]], [[Lucrecia]], [[Nebulash]], [[Starfall]].
+*Resprited [[Arterial Assault]], [[Bloodfire Arrow]], [[Bloodflare Body Armor]], [[Bloodflare Cuisses]], [[Bloodflare Mask]], [[Claret Cannon]], [[Lacerator]], [[The Mutilator]], [[Sanguine Flare]], [[Viscera]].
+*Resprited [[Astral Head]], [[Astral Probe]], [[Astral Slime]], [[Astrum Deus]], [[Astrum Deus Probe]], [[Brimstone Elemental]], [[Sun Bat]].
+*Resprited Astrum Deus' mines, Lucrecia's DNA, [[Mirror Blade]]'s projectile.
+*Resprited The Devourer of Gods' laser portals, lasers, gravity bombs, and orb projectiles.
+*Resprited [[Ceaseless Void]]'s map icon.
+*Resprited [[Music Box (Cryogen)]].
+
+== Fixes ==
+*Fixed improper cropping on the [[Abyssal Warhammer]].
+*Fixed a bug where Bumblebirb would furiously ram into the ground and rebound repeatedly when trying to spawn clones.
+*Fixed a bug where [[Clockwork Bow]]'s arrows would drop upon collision.
+*Fixed a bug where Draedon's Heart would not give its defense boost while standing still with [[Demonshade armor]].
+*Fixed a typo in [[Frostspark Bullet]]'s tooltip which said "Electicity" instead of "Electricity".
+*Fixed an oversight where the [[Heart of the Elements]]' components could also be equipped at the same time, resulting in duplicate summons.
+*Fixed a bug with modded dash accessories that would cause players to move more slowly occasionally.
+*Fixed hold offsets for the Megafleet, Megalodon, [[Nullification Pistol]], and [[Pumpler]].
+*Fixed multiplayer desync bugs for most bosses.
+*Fixed a bug where Supreme Calamitas would display her 50 death chat message at 49 deaths.
+*Fixed Yharon's hitbox becoming small during phase 2.
+
+== Removals ==
+*Removed Death Mode boss checks for the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist] mod.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

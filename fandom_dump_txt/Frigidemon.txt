@@ -1,0 +1,34 @@
+{{npc infobox
+| type = Enemy
+| ai = Flying Enemy AI
+| environment = Frozen Hell
+| life = {{dv|11,000|21,00}}
+| damage = {{dv|200|360}}
+| defense = 26
+| knockback = {{dv|80%}}
+| immune1 = Kami Flu
+| immune2 = Frostburn
+| debuff=Frostburn
+| debuffchance=50%
+| duration = 8 seconds
+| debufftip=It's either really hot or really cold. Either way it REALLY hurts
+| money = {{sc|1|20}}
+| Frozen Hellstone|5-7|100%
+| Hailberd|1|3.33%
+| banner = yes
+| hurt = AngryDogHit.wav
+| killed = NPC_Killed_27.wav
+| vulnerable1 = Holy
+| vulnerable2 = Fire
+| resistant1 = Cold
+| resistant2 = Unholy
+| resistant3 = Smash
+}}
+
+The '''Frigidemon''' is a Godseeker Mode [[enemy]] that spawns in [[Frozen Hell]]. They attack by summoning 5 sets of 3 hailberds near the player. These projectiles accelerate over time, and can move through walls. Upon reaching {{dv|25%|60%}} HP, they will power up, increasing their speed and increasing their number of attacks from 5 to 8.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

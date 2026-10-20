@@ -1,0 +1,277 @@
+{{npc infobox
+| type = Superboss
+| type2 = Burrowing Enemy
+| environment = Abyss
+| ai = Adult Eidolon Wyrm AI
+| imagealt = <Tabber>
+
+Phase 1=[[File:Adult Eidolon Wyrm.png|400px]]
+|-|
+Phase 2=[[File:Adult Eidolon Wyrm2.png|400px]]
+
+</Tabber>
+| life = {{dv|2,012,500|3,220,000|3,864,000}}
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| listexclude = yes
+| immune1 = Crush Depth
+| immune2 = Confused
+| money = {{value|0|0|0|0|10}}
+| Voidstone|80-100|100%
+| custom | {{item|Subnautical Plate|note=(After defeating<br/>[[Moon Lord]])|wrap=y}} ({{dv|22-34|32-44}})|100%
+| custom | {{item|Lumenyl|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|50-108|65-135}})|100%
+| custom | {{item|Ectoplasm|note=(After defeating<br/>[[Plantera]])|wrap=y}} (21-32)|100%
+| Eidolic Wail|1|100%
+| Soul Edge|1|100%
+|Halibut Cannon|1|100%
+| boxwidth = 35em
+| image2 = Adult Eidolon Wyrm map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_6.wav
+| sound = Scare.wav
+| soundtext = Spawn
+| sound2 = EidolonWyrmRoarClose.wav
+| sound2text = Charge
+| sound3 = LightningStrike.wav
+| sound3text = Lightning
+| sound4 = WyrmScream.wav
+| sound4text = Eidolon Wyrm Spawn
+| sound5 = EidolistDeath.wav
+| sound5text = Eidolist Spawn
+|Omega Healing Potion|5-15|100%}}
+{{dablink|Not to be confused with the [[mini boss]], [[Eidolon Wyrm]].}}
+
+The '''Adult Eidolon Wyrm''' (Japanese: ゴーストリヴァイアサン ''Gōsutorivu~aiasan'') is a [[Superboss]] battled in the 4th layer of the [[Abyss]]. While it can be summoned at any time, it is intended to be fought after [[Godseeker, Yharim]] has been defeated.
+
+Its drops [[Subnautical Plate]]s, an endgame [[crafting material]], and generates [[Sea Prism]]s in the abyss if the [[Desert Scourge]] and [[Aquatic Scourge]] haven't been defeated yet.
+
+== Spawn ==
+The Adult Eidolon Wyrm does not spawn on its own and will spawn at any time if a player is wearing the [[Abyss Shell Fossil]] pet or has the [[Chaos State]] [[debuff]] (given by [[Rod of Discord]], [[Normality Relocator]], and similar items) while in any layer of the Abyss.
+
+When {{sound|spawned|Scare.wav}}, the Adult Eidolon Wyrm will cause the world to [[rain]].
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Superboss
+| type2 = Burrowing Enemy
+| environment = Abyss
+| name = Adult Eidolon Wyrm Head
+| ai = Adult Eidolon Wyrm AI
+| damage = {{dv|400|800|850|880}}(Contact)<br/>{{dv|500|752|788|808}} (Lightning)<br/>{{dv|400|600|632|648}} (Ice Mist)<br/>{{dv|400|600|632|648}} (Ancient Doom)
+| defense = 100
+| dr = 40
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Unholy
+| resistant1 = Dark
+| resistant2 = Slash
+| resistant3 = Magic
+| resistant4 = Water
+| resistant5 = Cold
+| resistant6 = Machine
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Crush Depth
+| duration = 10 seconds (Contact)
+| debuffchance = 100%
+| debufftip = Aquatic pressure
+| debuff2 = Electrified
+| duration2 = 2 seconds (Lightning)
+| debuffchance2 = 100%
+| debufftip2 = You cannot move
+| debuff3 = Shadowflame
+| duration3 = 2 seconds (Ancient Doom)
+| debuffchance3 = 100%
+| debufftip3 = Losing life
+| debuff4 = Chilled
+| duration4 = 3 seconds (Ice Mist)
+| debuffchance4 = 100%
+| debufftip4 = Your movement speed has been reduced
+| debuff5 = Frozen
+| duration5 = 1.5 seconds (Ice Mist)
+| debuffchance5 = 100%
+| debufftip5 = You can't move!
+}}
+|{{npc infobox
+| type = Superboss
+| type2 = Burrowing Enemy
+| environment = Abyss
+| name = Adult Eidolon Wyrm Body
+| ai = Adult Eidolon Wyrm AI
+| damage = 0 (Contact)<br/>{{dv|360|540|630|675}} (Ancient Light)
+| defense = 0
+| dr = 0
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Unholy
+| resistant1 = Dark
+| resistant2 = Slash
+| resistant3 = Magic
+| resistant4 = Water
+| resistant5 = Cold
+| resistant6 = Machine
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Holy Flames
+| duration = 3 seconds (Ancient Light)
+| debuffchance = 100%
+| debufftip = Dissolving from holy light
+}}
+|{{npc infobox
+| type = Superboss
+| type2 = Burrowing Enemy
+| environment = Abyss
+| name = Adult Eidolon Wyrm Tail
+| ai = Adult Eidolon Wyrm AI
+| damage = 0
+| defense = 0
+| dr = 0
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Unholy
+| resistant1 = Dark
+| resistant2 = Slash
+| resistant3 = Magic
+| resistant4 = Water
+| resistant5 = Cold
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+}}
+
+== Behavior ==
+The Adult Eidolon Wyrm is an aerial worm-like enemy with 42 segments in total. Its body and tail segments can neither take damage nor deal contact damage. Additionally, the head cannot take damage or deal contact damage unless it is fully visible. It performs a variety of attacks on a cycle, which changes slightly based on each phase transition. When transitioning between phases, the wyrm will choose the next attack in its next phase's cycle. Upon contact with the head, the player is inflicted with the [[Crush Depth]] debuff for 10 seconds.
+
+While it can be spawned in any layer of the Abyss, it will enrage outside of the 4th layer. When enraged, the wyrm moves and spins faster, lightning bolts and {{item|Ice Mist|s|link=|size=20px}} are more predictive, and 2 extra {{item|Eidolist|s|size=20px}} and {{item|Ancient Doom|s|link=|size=20px}} are summoned in their respective attacks.
+
+=== Phase 1 ===
+*Performs the following attacks in a cycle:
+**Teleports, {{sound|roars|EidolonWyrmRoarClose.wav}}, turns visible, accelerates towards the player for {{dv|5|4|3.5|3|2}} seconds with very precise turn speeds, then moves away and fades out. It charges three times before transitioning into the next attack.
+**For {{dv|3||||2.5}} seconds, summons three lightning bolts from the sky every 0.5 seconds. One lightning bolt aims ahead of the player, one lightning bolt aims directly at the player, and the other aims behind the player. During this attack, the wyrm itself flies upwards and stays invisible.
+***Lightning bolts inflict [[Electrified]] for 2 seconds.
+**Charges at the player once in a similar manner to the Charge Combo, although with 1.5x the speed.
+**Summons an {{item|Eidolon Wyrm|size=60px}} if there are none alive, accompanied by a {{sound|sound effect|WyrmScream.wav}}. During this attack, the wyrm itself flies downwards. It transitions into the next attack after {{dv|3|2.5|2.25|2|1.5}} seconds.
+**Performs another Charge Combo attack.
+**For {{dv|3||||2.5}} seconds, summons three homing {{item|Ice Mist|s|link=|size=20px}} from below every 1 second. One mist aims ahead of the player, one mist aims directly at the player, and the other aims behind the player. During this attack, the wyrm itself flies downwards and stays invisible.
+***Ice Mists inflict [[Chilled]] for 3 seconds and [[Frozen]] for 1.5 seconds.
+**Performs another Fast Charge attack.
+**Summons {{dv|3|4|5|6|7}} {{item|Eidolist|s|size=20px}} if there are none alive, accompanied by a {{sound|sound effect|EidolistDeath.wav}}. During this attack, the wyrm itself flies downwards. It transitions into the next attack after {{dv|3|2.5|2.25|2|1.5}} seconds.
+
+=== Phase 2 ===
+*Transitions at 80% health.
+*The second charge of the first Charge Combo in the attack cycle is replaced. Instead, the wyrm spins around the player and fires projectiles from its body segments for {{dv|5|4.5|4.25|4|3.5}} seconds before transitioning into the next attack.
+**During this attack, the wyrm itself temporarily becomes immune to most slowing or freezing debuffs including [[Eutrophication]], [[Exo Freeze]], [[Galvanic Corrosion]], [[Glacial State]], [[Kami Flu]], [[Slow]], [[Temporal Sadness]], [[Time Distortion]], and [[Webbed]].
+**10 main segments simultaneously fire {{item|Ancient Light|link=|size=20px}} every {{dv|2|1.83|1.75|1.67|1.5}} seconds.
+**20 alternate segments simultaneously fire {{item|Shadow Fireball|link=|ext=gif|size=20px}} every {{dv|1.5|1.33|1.25|1.17|1}} seconds.
+
+=== Phase 3 ===
+*Transitions at 60% health.
+*The second charge of the second Charge Combo in the attack cycle is replaced. Instead, the wyrm summons a ring of {{dv|4|5|6|7|8}} {{item|Ancient Doom|s|link=|size=20px}} which orbit around the player before bursting into four {{item|Prophecy's End|link=|ext=gif}} in each cardinal direction. After {{dv|2|1.75|1.67|1.58|1.33}} seconds, another ring appears until three rings have appeared in which it will transition into the next attack.
+**While performing this attack, the wyrm itself flies upwards and stays invisible.
+**The Ancient Doom ring has a radius of {{dv|37.5|34.38|33.44|32.5|30}} tiles from the player.
+**Ancient Dooms and their projectiles inflict [[Shadowflame]] for 2 seconds.
+
+=== Phase 4 ===
+*Transitions at 40% health.
+*The final charge of both Charge Combo attacks in the attack cycle are replaced. Instead, the wyrm accelerates towards the player for {{dv|3|2.5|2.25|2|1.5}} seconds. Then, it teleports, {{sound|roars|EidolonWyrmRoarClose.wav}}, fades in, charges to the left or right of the player, summons a wall of {{dv|4|6|8|10|12}} lightning bolts from the direction of the charge towards the player, and then fades out.
+
+=== Phase 5 ===
+*Transitions at 20% health.
+*Performs Fast Charge attacks instead of spawning Eidolists and Eidolon Wyrms.
+
+=== Phase 6 ===
+*Transitions at 5% health.
+*For the remainder of the fight, it becomes immune to most slowing or freezing debuffs including Eutrophication, Exo Freeze, Galvanic Corrosion, Glacial State, Kami Flu, Slow, Temporal Sadness, Time Distortion, and Webbed.
+*Replaces all previous attacks with one final attack, combining the elements of the Firing Spin and Ancient Doom Ring attacks. The wyrm itself alternates between flying upwards for a very short time and spinning around the player.
+**A ring of {{dv|4|5|6|7|8}} {{item|Ancient Doom|s|link=|size=20px}} is summoned every {{dv|2|1.75|1.67|1.58|1.33}} seconds.
+**10 main segments simultaneously fire {{item|Ancient Light|link=|size=20px}} every {{dv|2|1.83|1.75|1.67|1.5}} seconds.
+**20 alternate segments simultaneously fire {{item|Shadow Fireball|link=|ext=gif|size=20px}} every {{dv|1.5|1.33|1.25|1.17|1}} seconds.
+
+=== In [[Expert Mode]] ===
+*Moves and charges faster with a greater predictiveness.
+*Lightning bolts and Ice Mists travel faster.
+*Ancient Dooms spawn closer to the player.
+*Takes less time to perform most attacks excluding Lightning Rain and Ice Mist Barrage attacks.
+*Summons more Eidolists, Ancient Dooms, and lightning bolts during the Lightning Charge attacks.
+
+=== In [[Revengeance Mode]] ===
+*Moves and charges faster with a greater predictiveness.
+*Lightning bolts and Ice Mists travel faster.
+*Ancient Dooms spawn closer to the player.
+*Takes less time to perform most attacks excluding Lightning Rain and Ice Mist Barrage attacks.
+*Summons more Eidolists, Ancient Dooms, and lightning bolts during the Lightning Charge attacks.
+
+=== In [[Death Mode]] ===
+*Moves and charges faster with a greater predictiveness.
+*Lightning bolts and Ice Mists travel faster.
+*Ancient Dooms spawn closer to the player.
+*Takes less time to perform most attacks excluding Lightning Rain and Ice Mist Barrage attacks.
+*Summons more Eidolists, Ancient Dooms, and lightning bolts during the Lightning Charge attacks.
+
+=== In [[Malice Mode]] ===
+*Moves and charges faster with a greater predictiveness.
+*Lightning bolts and Ice Mists travel faster.
+*Ancient Dooms spawn closer to the player.
+*Takes less time to perform all attacks.
+*Summons more Eidolists, Ancient Dooms, and lightning bolts during the Lightning Charge attacks.
+
+== Notes ==
+*The Adult Eidolon Wyrm's awakening depends only on whether or not the player has the [[Chaos State]] debuff while in the Abyss, and will therefore spawn if the player enters the biome with the debuff already applied, even if the Rod of Discord or other items which inflict Chaos State are not actually being used within the Abyss.
+**As a result, if the player has the Chaos State debuff and is in the Abyss when they kill the Adult Eidolon Wyrm, it will immediately respawn.
+**Unlike the [[Rod of Discord]] or other items introduced by the Calamity mod that inflict the [[Chaos State]] debuff upon usage, the [[Rod of Harmony]] upon usage in any layer of the [[Abyss]] will instead kill the player instantly, displaying a stretched-out, low-resolution image of the Adult Eidolon Wyrm across the screen while a rendition of the popular organ piece, "Toccata and Fugue in D minor" plays.
+***This is likely a reference to the popular internet bait-and-switch [https://knowyourmeme.com/memes/blue-lobster meme] where a memetic character and image macro of a blue lobster appears as a jumpscare at the end of viral videos.
+*The Adult Eidolon Wyrm does not require [[Polterghast]] to be defeated in order to drop weapons. This means that, if the player has the strategy and the patience to do so, they can acquire those immensely powerful weapons only after obtaining a Rod of Discord at the beginning of [[Hardmode]].
+*Enemies spawned by the Adult Eidolon Wyrm do not drop items or coins.
+*With items from other mods, such as the Spirit Mod's Windshear Pearl, the Adult Eidolon Wyrm can be summoned in early Pre-Hardmode, providing an immensely difficult challenge that, if completed, could make the entire game ridiculously easy.
+*All projectiles fired from the Adult Eidolon Wyrm glow, which can help the player spot them.
+*During the entire fight, the player is granted unlimited breathing in all layers of the Abyss, although you will start drowing rapidly if you don't have [[Hadopelagic armor]] equipped once you defeat the Adult Eidolon Wyrm.
+*the calamity mod
+
+== Trivia ==
+*The Adult Eidolon Wyrm's [[Music|theme]] is [https://www.youtube.com/watch?v=O_zPaC5xqns '''Threats of the Ocean Floor'''], which was made by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' will play instead.
+*An [[wikipedia:Eidolon|eidolon]] in Greek Literature is a spirit-like image of a person, either living or dead.
+*Its ice and lightning attacks are similar to those performed by the [[Lunatic Cultist]]. As well as "Eidolon" being a term used to describe something idolized (potentially in the fashion of a cult), this further establishes a connection between these enemies.
+**It may also be related to the [[Eidolist]], as they have similar names and both spawn in the Abyss.
+*Its design is based on a creature from the aquatic exploration game ''[[wikipedia:Subnautica|Subnautica]]'', known as the [http://subnautica.fandom.com/wiki/Ghost_Leviathan Ghost Leviathan]. The original sprite was also a copy of the Ghost Leviathan's design.
+**The different life-stages makes this more evident, as there are both juvenile and adult Ghost Leviathans.
+**The Adult versions of both creatures share the similar purpose of preventing the player from doing something (Adult Ghost Leviathans protect the crater edge, while the Adult Eidolon Wyrm prevents the player from using the Rod of Discord or other short ranged teleportation items).
+*The Adult Eidolon Wyrm is a "'''Superboss'''" in this mod. In some RPG games, Superbosses are extremely powerful enemies that are very challenging even if the player has endgame equipment.
+**It shares this trait with the following bosses: [[Vision of the Tyrant]], [[Purgatory Arbiter, Umbrus]], [[Disgusting Creature: Dron]], [[Esserwyrm]], [[Reactive Guardian, Sodis]], [[Nihil, the Fathomless Seeker]] and [[Exodygen]].
+*The Adult Eidolon Wyrm could be considered the Calamity Mod version of the [[Dungeon Guardian]] since both are extremely strong enemies that are intended to prevent the player from performing a certain action.
+*In previous versions of the mod, the Adult Eidolon Wyrm could spawn at any time in the 3rd and 4th layers of the [[Abyss]] after [[Polterghast]] had been defeated. 
+**Similarly to the [[Eidolon Wyrm]], it would spawn as a passive NPC, and only attack the player if they were affected with the Chaos State debuff, or if it was attacked.
+*Prior to the [[1.3.4.001]] update, the Adult Eidolon Wyrm had the highest health of any NPC in the mod, with a whopping {{dv|30,000,000|60,000,000}} health.
+*Prior to the [[1.5.0.001]] update, the Adult Eidolon Wyrm used to be considered a Mini boss.
+*Prior to the [[1.5.1.001]] update, the Adult Eidolon Wyrm used to be unable to be hurt by any attack that would deal more than 10% of its health in one hit, such as another mod's butcher function or an incredibly powerful weapon. When hit by such an attack, the damage is reduced to 0.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "Weak.”
+*The canonical name for the [[Eidolon Wyrm]] is Jared.
+This originates from a [https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3DvyVeF9xtmjI&psig=AOvVaw2xCgqeTyMnqNqmDO3cqIgu&ust=1694045296949000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCPj9udLYlIEDFQAAAAAdAAAAABAj popular video] by Hectique, where he refers to the worm as Jared.
+*The Eidolon Wyrm was formerly a homage to the  [https://barotraumagame.com/wiki/Endworm Endworm] from ''[https://en.m.wikipedia.org/wiki/Barotrauma_(video_game) Barotrauma]''.
+
+*Eidolon could also be a reference to Warframe, though this is unlikely.
+*You may be thinking "oh jeabz, this fish is drowing" But contrary to popular belief, Jared has gills that allow him to do this.
+
+== Quotes {{fantag|Apotheosis and Friends}} ==
+
+* "You are foolish to think you can invade our lands, mortal.” (When summoned)
+* "Oh? So you are stronger than I thought... this will be fun. Have you come to take that little artifact we have guarded for all of eternity?” (When the Adult Eidolon Wyrm reaches its second phase)
+* "Soon, you will cease to exist. How naive, to think that you possess even a fraction of my power.” (When the Adult Eidolon Wyrm reaches its third phase)
+* “For millions of years, I have ruled this sea, undefeated. Your pointless existence will not change that.” (When the Adult Eidolon Wyrm reaches its fourth phase)
+* "Do you think you can POSSIBLY defeat me? I am Jared, the primordial being, the abyssal god, and you think you could ever stand a chance?!" (When the Adult Eidolon Wyrm reaches its fifth phase)
+* "Your actions are useless! You came here to slaughter us and take our treasures, but we will not let that happen. You will never truly defeat us. Even if you were to kill me, dozens more of the sea’s young wyrms will take my place. Do you want this? Do you want this world to erupt into chaos?” (When the Adult Eidolon Wyrm reaches its sixth phase)
+* This is just the beginning of the calamity. Your enemies are ascending beyond your control... or was that all your intention? (When the Adult Eidolon Wyrm reaches 1% health)
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

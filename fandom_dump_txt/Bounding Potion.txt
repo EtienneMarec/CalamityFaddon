@@ -1,0 +1,25 @@
+{{item infobox
+|type = Potion
+|tooltip = Grants 5% increased jump speed, 25 extra blocks of fall damage resistance, and increased jump height
+|stack = 9999
+|rare = 1
+|use = 17
+|consumable = yes
+|buff = Bounding | bufflink = no
+|duration = 5 minutes
+|bufftip = Increased jump height, jump speed, and fall damage resistance
+|sell = {{value|0|0|40|0}}
+}}
+
+The '''Bounding Potion''' is a craftable [[Pre-Hardmode]] [[Buff Potions|buff potion]]. Upon consumption it grants the '''Bounding''' [[buff]], increasing the player's jump height by 10, their jump speed by 5%, and fall resistance increases by 25 blocks, allowing the player to fall 50 blocks before taking fall damage.
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+== Notes ==
+*The Bounding buff can be considered a consumable version of the [[Frog Leg]], due to its similar but varied stats.
+
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

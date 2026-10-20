@@ -1,0 +1,29 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Final 1.5.1 fixes
+| pair = 1.5.1.001 (music)
+| release = 3/31/2022
+}}
+
+The '''1.5.1.005''' (or '''1.5.1.5''') update fixed a few remaining issues and oversights from previous Calamity updates, and removed random boss spawns from [[Death Mode]].
+
+== Changes ==
+*[[Cadance Potion]]s are no longer crafted using [[Calming Potion]]s.
+*Removed Death Mode random boss spawns.
+*Increased [[The Devourer of Gods]] aggression during its first phase in all world difficulties. 
+*The [[Eidolon Staff]] can no longer drop from the [[Eidolon Wyrm]] unless [[Polterghast]] has been defeated.
+*Increased [[Frost Staff]]'s use animation from 20 to 50 to match its use time value.
+*Increased [[Ravager]]'s despawn range in [[Malice Mode]] by 150%.
+*Seraphim's projectiles are now classified as [[Daggers]].
+== Fixes ==
+*Fixed a bug that prevented augmented vanilla leg armor from giving the player their bonuses.
+*Fixed an issue that caused the cooldown rack icon sizes to scale incorrectly on higher screen resolutions due to the UI scaling being applied twice.
+*Fixed an issue that caused the mod to unload on startup due to cooldown rack shader not being compiled correctly for all devices.
+*Fixed an issue that caused The Devourer of Gods to despawn while below 60% health.
+*Fixed an issue that with the [[Broken Biome Blade]] weapon line tooltips that caused the game to crash when using a [[Community modifications#Translations|Translation mod]].
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 80
+| damagetype = Ranged
+| knockback = 7.5
+| stack = 1
+| rare = 12
+| sell = {{value|0|24}}
+| auto = yes
+| use = 15
+| velocity = 24
+| tooltip = Fires flare rockets
+| hardmode = yes
+| postml = yes
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| debuffduration = 2 seconds  (Midair bursts)
+| proj = Flare Rocket.gif
+| projcaption = Flare Rocket
+| element1 = Holy
+| element2 = Fire
+| element3 = Bomb
+}}
+|{{item drops infobox
+| [[Providence, the Profaned Goddess]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Blissful Bombardier''' is a Godseeker Mode [[launcher]] dropped by [[Providence, the Profaned Goddess]]. It rapidly fires rockets that explode in a large radius. As the rockets travel, they periodically emit small explosive bursts, which are capable of dealing damage as well; these midair bursts always inflict the [[Holy Flames]] [[Debuffs|debuff]] on hit enemies.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Launchers]]

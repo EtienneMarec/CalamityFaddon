@@ -1,0 +1,246 @@
+<br /><section begin="npc" infobox="" />{{infobox wrapper
+|{{npc infobox
+| name = Calamitas
+| type = Boss
+| ai = Retinazer AI
+| life = {{dv|55,500|75,000|90,000}} (pre-Providence)<br/>{{dv|150,000|190,000|220,000}} (post-Providence)
+| knockback = 100
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| duration = 2 seconds (Brimstone Laser)<br/>4 seconds (Brimstone Hellfireball and Explosions)<br/>3 seconds (Contact)
+| debufftip = Rapid health loss
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Abyssal Flames
+| immune4 = Brimstone Flames
+| damage = '''{{element|Dark}} Contact:'''<br/>{{dv|70|112|128|136}} (pre-[[Providence]])<br/>{{dv|240|336|384|408}} (post-Providence)<br/>'''{{element|Fire}} Brimstone Hellblast:'''<br/>{{dv|70|112|128|140}} (pre-Providence)<br/>{{dv|130|232|290|333}} (post-Providence)<br/>'''{{element|Fire}} Brimstone Hellfireball:'''<br/>{{dv|84|136|170|195}} (pre-Providence)<br/>{{dv|144|256|320|368}} (post-Providence)
+| defense = 25 (pre-Providence)<br/>75 (post-Providence)<br/>
+| dr = 15%
+| money = {{value|0|15}}
+| Ashes of Annihilation|{{dv|9-14|14-18}}| 100%
+| Essence of Chaos|{{dv|4-8|5-9}}| 100%
+| Blighted Lens|{{dv|5-12|10-16}}| 100%
+| Broken Hero Sword|1|100%
+| custom| {{item|Bloodstone|note=(Once Providence is defeated)|wrap=y}} ({{dv|30-40|35-45}})|100%
+|group|At least one of the following 4 weapons will always drop:|4
+| Animosity|1|{{dv|25%|33.33%}}
+| Lashes of Chaos|1|{{dv|25%|33.33%}}
+| Oblivion|1|{{dv|25%|33.33%}}
+| Entropy's Vigil|1|{{dv|25%|33.33%}}
+| Void of Calamity|1|100%
+| Chaos Stone|1| 20%
+| Regenator|1|10%
+| Blood Element|1|{{revengeance|10%}}
+| Greater Healing Potion|5-15|100%
+| Calamitas Mask|1| 14.29%
+| group|The following two items will always drop together|1
+| custom| {{item|Hood of Calamity}}
+{{item|Robes of Calamity}}|10%
+| Calamitas Trophy|1| 10%
+| custom| {{item|Calamitas Clone (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Calamitas)|Treasure Bag|note=(Calamitas)|wrap=y}}
+: • {{item|Magma Booster|note=(In [[Revengeance Mode]] only)|wrap=y}}|{{expert|100%}} {{fantag|Catalyst}}
+| image2 = Calamitas map.png
+| image2caption = Map Icon
+| boxwidth = 25em
+| hardmode = yes
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = Item_20.wav
+| soundtext = Fireballs
+| sound2 = Item_109.wav
+| sound2text = Bullet Hell Begin
+| sound3 = Item_74.wav
+| sound3text = Seeker Ring Spawn
+| vulnerable1 = Water
+| vulnerable2 = Holy
+| resistant1 = Fire
+| resistant2 = Unholy
+| resistant3 = Magic
+| resistant4 = Slash
+}}}}<section end=npc infobox />
+{{distinguish|Supreme Calamitas|a Godseeker Mode [[boss]]}}
+[[File:Calamitas Trophy.png]] <big>''"You underestimate my rizzing..."'' </big> [[File:Calamitas Trophy.png]]
+
+'''CaIamitas''' (Japanese: カラミタスのクローン Boku no pico) is a super [[Hardmode]] [[boss]] fought at night. She is a significant mid-Hardmode boss that is intended to be challenged soon before, or alternatively to, [[Plantera]].
+
+She increases substantially in difficulty once [[Providence, the Profaned Goddess]] has been defeated, boosting the health and damage of her and her brothers and she will begin dropping [[Bloodstone]].
+
+== Spawn ==
+CaIamitas does not spawn on her own and requires the player to summon her with the [[Eye of Desolation]] during the Night.
+
+== Behavior ==
+CaIamitas will behave primarily like Retinazer firing projectiles and chasing the player. At different points throughout the fight, she will summon minions and her brothers to assist her. If it becomes daytime during the battle, CaIamitas and her brothers will enrage, moving faster and shooting higher velocity projectiles. Cataclysm's flamethrower range will also greatly increase.
+
+=== Attacks ===
+*CaIamitas alternates between hovering above the player and firing two Brimstone Hellfireballs that accelerate over time and explode on contact with tiles, and horizontally leveling herself with the player and firing 4 accelerating Brimstone Hellblasts at them.
+**If the player is wielding a [[True melee]] weapon, CaIamitas will have decreased acceleration while performing these attacks.
+*Upon reaching 70% HP, her sprite will change as she goes invisible and invulnerable, before summoning a "bullet hell" of horizontal and vertiCaI moving Brimstone Hellblasts which lasts 15 seconds. While the attack is in progress, CaIamitas will hover above the player, but will not attack.
+*When CaIamitas' health reaches 40%, she goes invisible and summons the metallic brother Catastrophe and the fleshy brother Cataclysm. Catastrophe will alternate between spitting bouncing brimstone fireballs and quickly charging at the player four times, while Cataclysm will alternate between breathing a brimstone flamethrower and charging at the player three times.
+**Neither brother will fire anything until shortly after spawning, to prevent cheap hits.
+**CaIamitas herself will stop firing Brimstone Hellblasts while the brothers are alive.
+**Catastrophe and Cataclysm must be defeated in order to continue damaging CaIamitas.
+*When CaIamitas' health reaches 10%, she will go invulnerable and initiate a second bullet-hell attack, this time with added Brimstone Fireblasts fired from offscreen which home in on the player and explode into rings of Brimstone Darts.
+
+=== In [[Expert Mode]] ===
+*When CaIamitas' health reaches 35%, she will summon an orbiting ring of five [[Soul Seeker]]s around her.
+*CaIamitas and her brothers attack and shoot more aggressively.
+
+=== In [[Revengeance Mode]] ===
+*CaIamitas and her brothers attack and shoot even more aggressively.
+*When CaIamitas' health is below 75%, she charges at the player twice following her fireball and hellblast attacks whenever no brothers are alive.
+*When CaIamitas' health is below 10%, she will begin charging repeatedly until she is defeated.
+**She will not attack for a few moments after the final bullet hell ends to prevent cheap hits.
+
+=== In [[Death Mode]] ===
+*CaIamitas shoots more projectiles more aggressively.
+*Every other Hellblast attack is replaced with two faster charge attacks.
+*CaIamitas' brothers are significantly larger.
+*She summons a ring of ten Soul Seekers around her instead of five when she reaches 35% health.
+*After the final bullet hell, CaIamitas' charges leave behind trails of accelerating Brimstone Hellblasts.
+
+=== On the For the worthy seed ===
+
+* Contact damage is doubled.
+* Dashes are twice as fast.
+* Calamitas and her brothers are 45% smaller.
+
+== Summons ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Catastrophe
+| namesub = Brother of Calamitas
+| type = Flying Enemy
+| image = Catastrophe.png
+| ai = Catastrophe AI
+| life = {{dv|9,200|18,400|22,050}} (pre-Providence)<br/>{{dv|18,400|36,800|44,100}} (post-Providence) <!-- 2x Post-Providence -->
+| knockback = 100
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| duration = 2 seconds (Brimstone Fireball)<br/>3 seconds (Contact)
+| debufftip = Rapid health loss
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Abyssal Flames
+| immune4 = Brimstone Flames
+| damage = '''{{element|Dark}} Contact:'''<br/>{{dv|65|130|150|162}} (pre-[[Providence]])<br/>{{dv|195|boost=0.15}} (post-Providence)<br/>'''{{element|Fire}} Brimstone Fireball:'''<br/>{{dv|72|116|136|144}} (pre-Providence)<br/> {{dv|132|236|295|339}} (post-Providence)
+| defense = 10 (pre-Providence)<br/>30 (post-Providence)<br/>
+| dr = 15%
+| Crushsaw Crasher|1|{{dv|8.33%|10%}} | Catastrophe Trophy|1|10%
+| Catastrophe Clay Ore|10-26|100%
+| image2 = Catastrophe map.png
+| image2caption = Map Icon
+| hardmode = yes
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = Roar_0.wav
+| soundtext = Charge
+| sound2 = Item_34.wav
+| sound2text = Fireball
+| vulnerable1 = Water
+| vulnerable2 = Holy
+| vulnerable3 = Stab
+| resistant1 = Fire
+| resistant2 = Unholy
+| resistant3 = Magic
+| resistant4 = Slash
+}}
+|{{npc infobox
+| name = Spazmatyzm 2.0
+| namesub = Brother of Calamitas
+| knockback = 100
+| type = Flying Enemy
+| image = Cataclysm.png
+| ai = Cataclysm AI
+| life = {{dv|11,000|22,000|26,400}} (pre-Providence)<br/>{{dv|22,000|44,000|52,800}} (post-Providence) <!-- 2x Post-Providence -->
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| duration = 3 seconds (Brimstone Flamethrower)<br/>3 seconds (Contact)
+| debufftip = Rapid health loss
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Abyssal Flames
+| immune4 = Brimstone Flames
+| damage = '''{{element|Dark}} Contact:'''<br/>{{dv|60|120|138|148}} (pre-[[Providence]])<br/>{{dv|170|boost=0.15}} (post-Providence)<br/>'''{{element|Fire}} Brimstone Flamethrower:'''<br/>{{dv|76|120|140|152}} (pre-Providence)<br/>{{dv|136|240|300|345}} (post-Providence)
+| defense = 10 (pre-[[Providence]])<br/>80 (post-Providence)<br/>
+| dr = 15%
+| Havoc's Breath|1|{{dv|8.33%|10%}}
+| Brimstone Flameblaster|1|{{dv|8.33%|10%}}
+| Cataclysm Trophy|1|10%
+| image2 = Cataclysm map.png
+| image2caption = Map Icon
+| hardmode = yes
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = Roar_0.wav
+| soundtext = Charge
+| sound2 = Item_34.wav
+| sound2text = Flamethrower
+| vulnerable1 = Water
+| vulnerable2 = Holy
+| vulnerable3 = Slash
+| resistant1 = Fire
+| resistant2 = Unholy
+| resistant3 = Magic
+| resistant4 = Stab
+}}
+}}
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align = center |{{item|mode=table|Soul Seeker}} || At 35% health
+|}
+
+== Aftermath ==
+*Once defeated, enemies in the [[Abyss]] begin dropping [[Depth Cells]] and [[Lumenyl]].
+*[[Tenebris]] will begin spreading into nearby [[Planty Mush]] in the Abyss.
+*[[Abyssal Crate]]s will contain [[Lumenyl]], [[Depth Cells]], [[Tenebris]], and [[Planty Mush]].
+*The [[Bandit]] will begin selling the [[Deep Wounder]].
+*The [[Agent]] will begin selling the [[Triploon]].
+*The [[Floodtide]] will be obtainable via [[Fishing]].
+*[[Aquatic Aberration]]s and [[Parasea]]s begin spawning in the [[Ocean]].
+**The same occurs if Plantera is defeated before CaIamitas.
+*[[tgc:Reaper|Reaper]]s and [[Psycho]]s will begin dropping [[Solar Veil]]s.
+**The same occurs if Plantera is defeated before CaIamitas.
+*if [[Plantera]] has also been defeated, [[Flah]] will begin to grow on [[Brimstone Slag]] and [[Flahr]]s can be caught.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating Calamitas, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Calamitas strategies]].}}
+
+*Making a large circle or oval around CaIamitas, and/or going up and down with the help of platforms will allow you to dodge many of her attacks and her brother's charges.
+*CaIamitas’ brothers can quickly overwhelm you especially on [[Revengeance Mode|Revengeance]] or [[Death Mode]], make sure to deal with them as quickly as possible; [[Adrenaline]] can be very helpful.
+*Use a [[Rod of Discord]] to avoid the brothers when they spawn to avoid any unnecessary contact damage.
+
+== Trivia ==
+
+* During a previous version, she would shoot lasers instead of brimstone that would split into 2 more lasers.
+** There was also no bullet hell in the previous version.
+*On April 1st (April Fools Day), the brothers of Calamitas are replaced by the Twins.
+
+*The [[Music|theme]] of CaIamitas is [https://www.youtube.com/watch?v=ysBWFTxxoak '''Raw, Unfiltered CaIamity'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**Prior to her current theme being introduced, her theme was a [https://www.youtube.com/watch?v=HtGHxPIrkm8 remix of the Boss 2 theme] made by [https://www.youtube.com/user/silentzorah silentzorah].
+**The song features motifs from previous bosses in the CaIamity Mod:
+***Guardian of the Former Seas / Outcast of the Sulphurous Seas ([[Desert Scourge]] / [[Aquatic Scourge]]) are remade into the song's introduction.
+***Blood Coagulant ([[The Perforators]]) can be heard at 0:44, but is rarely acknowledged as it is very subtle in the song's background.
+***Antarctic Reinforcement ([[Cryogen]]) plays at 1:01 into the song.
+***1NF3$+@+!0N ([[Crabulon]]) plays at 1:23.
+***Return to Slime ([[The Slime God]]) plays at 1:45.
+***The Filthy Mind ([[The Hive Mind]]) plays at 2:06.
+***Left Alone ([[Brimstone Elemental]]) plays at 2:28.
+**If the CaIamity Music add-on mod is disabled, '''Boss 2''' will play instead.
+*CaIamitas is Latin for "disaster".
+*The names of CaIamitas and her brothers all denote a kind of violent event or destruction, all of which start with the letter C (CaIamitas, Catastrophe, and Cataclysm).
+*When she is defeated, her death message reads "The CaIamitas Clone has been defeated!"
+**Reinforcing this, her entry on the official CaIamity Mod forum post and her lore item refers to her as "CaIamitas Clone" as well. These, along with the lore item's mention of the "bloody inferno" still lingering, are foreshadowing [[Supreme Calamitas|Supreme CaIamitas]].
+**Prior to the 1.4.2.102 update, the death message was "A CaIamitas Doppelganger has been defeated!"
+**As a result, CaIamitas is often referred to as "Clonelamitas" by the community.
+***Another common nickname for Calamitas is Calamiclone.
+*The quote said by CaIamitas "Impressive child, most impressive," is likely a reference to Senator Armstrong from ''[[wikipedia:Metal_Gear_Rising:_Revengeance|Metal Gear Rising: Revengeance]]'', who says the line "Impressive, Jack, most impressive".
+*Prior to her current lore entry, CaIamitas used the lore entry that is currently used by Supreme CaIamitas.
+*When first introduced, her original sprite was a recolor of Retinazer's second form.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, her unique despawn message will be "If you wanted a fight, you should've come more prepared."
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

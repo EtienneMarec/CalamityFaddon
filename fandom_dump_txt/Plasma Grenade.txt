@@ -1,0 +1,50 @@
+{{item infobox
+| type = Weapon
+| type2 = Ammunition
+| damagetype = Rogue
+| consumable = true
+| damage = 1378
+| use = 26
+| velocity = 14
+| knockback = 3
+| tooltip = Each grenade contains a heavily condensed and heated unit of plasma. Use with care<br/>Throws a grenade that explodes into plasma on collision<br/>Stealth strikes explode violently on collision into a vaporizing blast
+| stack = 9999
+| auto = yes
+| rare = a
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|0|10}}
+| proj = Plasma Explosion Large.gif
+| projcaption = Large Plasma Explosion
+| projsize = 210px
+| proj2 = Plasma Explosion Small.gif
+| proj2caption = Small Plasma Explosion
+| proj2size = 180px
+| element1 = Poison
+| element2 = Electricity
+| element3 = Machine
+| element4 = Bomb
+}}
+
+'''Plasma Grenades''' are craftable Godseeker Mode [[bombs]]. When used, the bomb is affected by gravity after a short time. When it collides with a surface or enemy, it explodes, dealing damage within the area.
+
+Performing a [[stealth strike]] with the Plasma Grenade causes the resulting explosion to be larger and strike twice.
+
+The weapon can also be used as [[ammunition]] for the [[SDOMG]].
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier5|plural=1}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The Plasma Grenade is a reference to the [https://fallout.fandom.com/wiki/Plasma_grenade weapon of the same name] from the ''[[wikipedia:Fallout (series)|Fallout]]'' series.
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Bombs]]

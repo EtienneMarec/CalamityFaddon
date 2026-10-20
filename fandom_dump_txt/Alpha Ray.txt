@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 130
+| mana = 5
+| tooltip = Disintegrates everything with a tri-beam of energy and lasers<br/>Right click to fire a Y-shaped beam of destructive energy and a spread of lasers
+| knockback = 1.5
+| velocity = 6
+| rare = 14
+| sell = {{value|0|28}}
+| use = 4
+| stack = 1
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+}}
+[[File:Alpha Ray (demo).gif|size=600px|thumb|right|The Alpha Ray's two different modes.|543x543px]]
+The '''Alpha Ray''' is a craftable Godseeker Mode [[magic gun]] with two firing modes. The left-click mode has three main parallel laser beams and also shoots laser projectiles rapidly. The right-click mode shoots a beam that splits into two like the [[Genisis]], although lacking the scattered laser-fire. All projectiles fired from this weapon travel through blocks and all particle beams pierce indefinitely. The three particle beams deal 80% of the weapon's damage, the secondary-fire's beam deals 166.25% of the weapon's damage, and the additional laser projectiles deal 40% of the weapon's damage with 40% of the weapon's knockback.
+
+{{Modifier|magicalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The left-click mode's main beams deal Alpha Ray's actual listed damage while the secondary laser projectiles deal only half of it. On the other hand, right-click mode beams deal double the weapon's damage. Despite that, left-click mode actually reaches higher DPS due to faster fire rate and additional fired projectiles.
+
+== Trivia ==
+*The Alpha Ray's sprite resembles a combination of the weapons used to craft it.
+*The Alpha Ray was implemented based on a community suggestion made by Gouvod on the mod's Terraria Forums post.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic guns]]
+[[zh:阿尔法射线]]

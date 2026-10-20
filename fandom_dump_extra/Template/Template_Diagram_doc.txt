@@ -1,0 +1,361 @@
+This is a template for rendering simple diagrams consisting of boxes and connecting lines such as a family tree based on an ASCII art-like syntax. The trees are displayed as HTML tables using CSS attributes, and may contain arbitrary wiki markup within the boxes.
+
+The template was originally ported from [https://witcher.gamepedia.com/Template:Family_tree Template:Family tree on The Witcher Wiki] by [[User:Rye Greenwood|Rye Greenwood]]. To adjust it to the needs of Terraria Wiki, [[User:Westgrass|Westgrass]] completely rewrote it, improving the function and greatly optimizing the performance.
+
+'''Please note that some line drawing symbols are different from the original.'''
+
+__TOC__
+
+== Parameters ==
+The <code>|summary=text</code> parameter should be used to describe the overall layout of the tree. This summary is for [[wikipedia:accessibility|accessibility]]: it is read aloud to visually impaired readers who use [[wikipedia:Screen reader|screen readers]], and is invisible to sighted readers.
+
+=== Layout ===
+All unnamed parameters describe the contents of the diagram table. Each parameter specifies a '''tile''' or a '''box'''.
+* '''Tiles''' are line drawing symbols consisting of horizontal and vertical lines and various corners and crossings thereof. Tiles are specified using single-character symbols that more or less approximate the shape of the tile in appearance.
+
+There are some special cases:
+** '''Empty tile''', specified by empty parameter input (empty string <code></code> or space character(s) <code> </code>). It will simply be ignored and will not produce any cell.
+** '''Space tile''', specified by a <code>_</code>, <code>0</code> or <code>O</code> character. It will produce a space cell that lacks content but takes cell space like other cells.
+** '''New row''', specified by a <code>#</code> character. It will end the current row and start another row at the next parameter.
+A table of supported tiles is given below.
+{{flexstart}}
+{|style="margin-left:1em"
+|+ '''Solid lines:'''
+|-
+| <code>,</code> ||style="border:1px solid gray"| {{diagram|,}}
+| <code>v</code> ||style="border:1px solid gray"| {{diagram|v}}
+| <code>.</code> ||style="border:1px solid gray"| {{diagram|.}}
+| <code>6</code> ||style="border:1px solid gray"| {{diagram|6}}
+|-
+| <code>)</code> ||style="border:1px solid gray"| {{diagram|)}}
+| <code>+</code> ||style="border:1px solid gray"| {{diagram|+}}
+| <code>(</code> ||style="border:1px solid gray"| {{diagram|(}}
+| <code>9</code> ||style="border:1px solid gray"| {{diagram|9}}
+|-
+| <code>`</code> ||style="border:1px solid gray"| {{diagram|`}}
+| <code>^</code> ||style="border:1px solid gray"| {{diagram|^}}
+| <code>'</code> ||style="border:1px solid gray"| {{diagram|'}}
+| <code>&</code> ||style="border:1px solid gray"| {{diagram|&}}
+|-
+| <code>-</code> ||style="border:1px solid gray"| {{diagram|-}}
+| <code>I</code> ||style="border:1px solid gray"| {{diagram|I}}
+| <code>_</code> ||style="border:1px solid gray"| {{diagram|_}}
+| <code>?</code> ||style="border:1px solid gray"| {{diagram|?}}
+|}
+{| style="margin-left:1em"
+|+ '''Dashed lines:'''
+|-
+| <code>F</code> ||style="border:1px solid gray"| {{diagram|F}}
+| <code>V</code> ||style="border:1px solid gray"| {{diagram|V}}
+| <code>7</code> ||style="border:1px solid gray"| {{diagram|7}}
+| <code>;</code> ||style="border:1px solid gray"| {{diagram|;}}
+|-
+| <code>D</code> ||style="border:1px solid gray"| {{diagram|D}}
+| <code>X</code> ||style="border:1px solid gray"| {{diagram|X}}
+| <code>C</code> ||style="border:1px solid gray"| {{diagram|C}}
+| <code>"</code> ||style="border:1px solid gray"| {{diagram|"}}
+|-
+| <code>L</code> ||style="border:1px solid gray"| {{diagram|L}}
+| <code>A</code> ||style="border:1px solid gray"| {{diagram|A}}
+| <code>J</code> ||style="border:1px solid gray"| {{diagram|J}}
+| <code>a</code> ||style="border:1px solid gray"| {{diagram|a}}
+|-
+| <code>~</code> ||style="border:1px solid gray"| {{diagram|~}}
+| <code>:</code> ||style="border:1px solid gray"| {{diagram|:}}
+| <code>0</code> ||style="border:1px solid gray"| {{diagram|0}}
+| <code>e</code> ||style="border:1px solid gray"| {{diagram|e}}
+|}
+{|style="margin-left:1em"
+|+ '''Mixed (1):'''
+|-
+| <code>r</code> ||style="border:1px solid gray"| {{diagram|r}}
+| <code>y</code> ||style="border:1px solid gray"| {{diagram|y}}
+| <code>n</code> ||style="border:1px solid gray"| {{diagram|n}}
+|-
+| <code>]</code> ||style="border:1px solid gray"| {{diagram|]}}
+| <code>$</code> ||style="border:1px solid gray"| {{diagram|$}}
+| <code>[</code> ||style="border:1px solid gray"| {{diagram|[}}
+|-
+| <code>c</code> ||style="border:1px solid gray"| {{diagram|c}}
+| <code>h</code> ||style="border:1px solid gray"| {{diagram|h}}
+| <code>j</code> ||style="border:1px solid gray"| {{diagram|j}}
+|}
+{|style="margin-left:1em"
+|+ '''Mixed (2):'''
+|-
+| <code>p</code> ||style="border:1px solid gray"| {{diagram|p}}
+| <code>u</code> ||style="border:1px solid gray"| {{diagram|u}}
+| <code>q</code> ||style="border:1px solid gray"| {{diagram|q}}
+|-
+| <code>E</code> ||style="border:1px solid gray"| {{diagram|E}}
+| <code>x</code> ||style="border:1px solid gray"| {{diagram|x}}
+| <code>3</code> ||style="border:1px solid gray"| {{diagram|3}}
+|-
+| <code>b</code> ||style="border:1px solid gray"| {{diagram|b}}
+| <code>t</code> ||style="border:1px solid gray"| {{diagram|t}}
+| <code>d</code> ||style="border:1px solid gray"| {{diagram|d}}
+|}
+{|style="margin-left:1em"
+|+ '''Mixed (3):'''
+|-
+| <code>/</code> ||style="border:1px solid gray"| {{diagram|/}}
+| <code>Y</code> ||style="border:1px solid gray"| {{diagram|Y}}
+| <code>\</code> ||style="border:1px solid gray"| {{diagram|\}}
+|-
+| <code>B</code> ||style="border:1px solid gray"| {{diagram|B}}
+| <code>O</code> ||style="border:1px solid gray"| {{diagram|O}}
+| <code>G</code> ||style="border:1px solid gray"| {{diagram|G}}
+|-
+| <code>R</code> ||style="border:1px solid gray"| {{diagram|R}}
+| <code>U</code> ||style="border:1px solid gray"| {{diagram|U}}
+| <code>4</code> ||style="border:1px solid gray"| {{diagram|4}}
+|}
+{|style="margin-left:1em"
+|+ '''Mixed (4):'''
+|-
+| <code>i</code> ||style="border:1px solid gray"| {{diagram|i}}
+| <code>M</code> ||style="border:1px solid gray"| {{diagram|M}}
+|-
+| <code>!</code> ||style="border:1px solid gray"| {{diagram|!}}
+| <code>W</code> ||style="border:1px solid gray"| {{diagram|W}}
+|-
+| <code>&lt;</code> ||style="border:1px solid gray"| {{diagram|<}}
+| <code>2</code> ||style="border:1px solid gray"| {{diagram|2}}
+|-
+| <code>&gt;</code> ||style="border:1px solid gray"| {{diagram|>}}
+| <code>5</code> ||style="border:1px solid gray"| {{diagram|5}}
+|}
+{|style="margin-left:1em"
+|+ '''Mixed (5):'''
+|-
+| <code>P</code> ||style="border:1px solid gray"| {{diagram|P}}
+| <code>H</code> ||style="border:1px solid gray"| {{diagram|H}}
+| <code>f</code> ||style="border:1px solid gray"| {{diagram|f}}
+| <code>g</code> ||style="border:1px solid gray"| {{diagram|g}}
+|-
+| <code>K</code> ||style="border:1px solid gray"| {{diagram|K}}
+| <code>N</code> ||style="border:1px solid gray"| {{diagram|N}}
+| <code>k</code> ||style="border:1px solid gray"| {{diagram|k}}
+| <code>s</code> ||style="border:1px solid gray"| {{diagram|s}}
+|-
+| <code>T</code> ||style="border:1px solid gray"| {{diagram|T}}
+| <code>Z</code> ||style="border:1px solid gray"| {{diagram|Z}}
+| <code>o</code> ||style="border:1px solid gray"| {{diagram|o}}
+| <code>m</code> ||style="border:1px solid gray"| {{diagram|m}}
+|-
+| <code>S</code> ||style="border:1px solid gray"| {{diagram|S}}
+| <code>Q</code> ||style="border:1px solid gray"| {{diagram|Q}}
+| <code>w</code> ||style="border:1px solid gray"| {{diagram|w}}
+| <code>z</code> ||style="border:1px solid gray"| {{diagram|z}}
+|}
+{{flexend}}
+* '''Boxes''' can contain arbitrary wiki markup.  The contents of boxes are specified using additional named parameters appended to the template call. Boxes can have any name that is a valid template parameter name, although single character names may be avoided to prevent conflicts with tile symbols.<br/>
+Each box is '''3 tiles wide and 1 tile height''' by default, and normally has a 2 pixels wide blue border. The size of the box can be changed like this:
+<pre style="overflow:auto;">
+{{diagram
+|_| FOO |~|~|y|~| BAR |_|#
+|_|_|,|-|-|-|^|-|-|.|_|_|#
+|_|_|I|_|_|_|_|   BAR2  |#
+|  FOO2 |_|_|_|         |#
+|_|_|_|_|_|_|_|         |#
+|FOO=Box 1
+|BAR=Box 2
+|FOO2=Box 3
+|FOO2_cols = 4
+|BAR2=Box 4
+|BAR2_cols = 5
+|BAR2_rows = 3
+}}
+</pre>
+which produces a result like this:
+{{diagram
+|_| FOO |~|~|y|~| BAR |_|#
+|_|_|,|-|-|-|^|-|-|.|_|_|#
+|_|_|I|_|_|_|_|   BAR2  |#
+|  FOO2 |_|_|_|         |#
+|_|_|_|_|_|_|_|         |#
+|FOO=Box 1
+|BAR=Box 2
+|FOO2=Box 3
+|FOO2_cols = 4
+|BAR2=Box 4
+|BAR2_cols = 5
+|BAR2_rows = 3
+}}
+'''Note:''' If you make a multi-rows cell, you must put the box name in the '''first row'''.
+
+=== Style ===
+Optional <code>|style=</code>, <code>|class=</code> and <code>|id=</code> parameters can be used to set CSS styles/class/id for the diagram table itself.
+
+The appearance of the boxes may be controlled by the optional parameter <code>|boxstyle=</code>. It is used to append arbitrary CSS declarations directly to the box style attributes. For example, the following code:
+
+<pre style="overflow:auto;">
+{{diagram
+|summary=Box 1 married to Box 2, with children Box 3 and Box 4
+
+|boxstyle=background:#dfd; color:#000;
+
+|_| FOO |y| BAR |_|#
+|_|_|,|-|^|-|.|_|_|#
+|_| FOO2|_| BAR2|_|#
+
+|FOO=Box 1|BAR=Box 2
+|FOO2=Box 3|BAR2=Box 4
+}}
+</pre>
+will produce a result like this:
+{{diagram
+|summary=Box 1 married to Box 2, with children Box 3 and Box 4
+
+|boxstyle=background:#dfd; color:#000;
+
+|_| FOO |y| BAR |_|#
+|_|_|,|-|^|-|.|_|_|#
+|_| FOO2|_| BAR2|_|#
+
+|FOO=Box 1|BAR=Box 2
+|FOO2=Box 3|BAR2=Box 4
+}}
+
+Style attributes can even be set for individual boxes, as in the example below:
+
+<pre style="overflow:auto;">
+{{diagram
+|summary = White box with three children Red box, Green box, Blue box, all married to each other
+
+|_|_|_|_|WHITE|_|_|_|_|#
+|_|,|-|-|'|!|`|-|-|.|_|#
+| RED |~|GREEN|~|BLUE |#
+
+|WHITE= White box
+|WHITE_boxstyle = background-color: #fff; color:#000;
+
+|RED = Red box
+|RED_boxstyle   = background-color: #faa; color:#000;
+
+|GREEN = Green box
+|GREEN_boxstyle = background-color: #afa; color:#000;
+
+|BLUE = Blue box
+|BLUE_boxstyle  = background-color: #aaf; color:#000;
+}}
+</pre>
+which produces the output:
+{{diagram
+|summary = White box with three children Red box, Green box, Blue box, all married to each other
+
+|_|_|_|_|WHITE|_|_|_|_|#
+|_|,|-|-|'|!|`|-|-|.|_|#
+| RED |~|GREEN|~|BLUE |#
+
+|WHITE= White box
+|WHITE_boxstyle = background-color: #fff; color:#000;
+
+|RED = Red box
+|RED_boxstyle   = background-color: #faa; color:#000;
+
+|GREEN = Green box
+|GREEN_boxstyle = background-color: #afa; color:#000;
+
+|BLUE = Blue box
+|BLUE_boxstyle  = background-color: #aaf; color:#000;
+}}
+
+Also, you can assign CSS by class/id, like this:
+<pre style="overflow:auto;">
+{{diagram
+|summary = White box with three children Red box, Green box, Blue box, all married to each other
+
+|_|_|_|_|WHITE|_|_|_|_|#
+|_|,|-|-|'|!|`|-|-|.|_|#
+| RED |~|GREEN|~|BLUE |#
+
+|boxclass = box
+
+|WHITE = White box
+|WHITE_id = white-box | WHITE_class = type-A
+
+|RED = Red box
+|RED_class = box-red
+
+|GREEN = Green box
+|GREEN_class = type-A box-green
+
+|BLUE = Blue box
+|BLUE_class = type-B box-blue
+}}
+</pre>
+and CSS:
+<pre style="overflow:auto;">
+.box{
+  /* for all boxes */
+}
+.type-A{
+  /* styles for all type-A boxes */
+}
+.type-B{
+  /* styles for all type-B boxes */
+}
+#white-box{
+  /* styles for WHITE */
+}
+.box-red{
+  /* styles for RED */
+}
+.box-green{
+  /* styles for GREEN */
+}
+.box-blue{
+  /* styles for BLUE */
+}
+</pre>
+
+'''Note:''' The diagram itself will always have a <code>.diagram</code> class, and all boxes in diagrams will always have a <code>.diagram-box</code> class.
+
+== Example usage ==
+The code:
+<pre style="overflow:auto;">
+{{diagram
+|summary=I have a brother Joe and a little sister: my mom married my dad, and my dad's parents were Gladys and Sydney; they had another child, Aunt Calanthe.
+
+|_|_|_| GMa |~|y|~| GPa |_|#
+|_|_|_|_|_|_|_|)|-|-|-|.|_|#
+|_|_| MOM |y| DAD |_|DAISY|#
+|_|,|-|-|-|+|-|-|-|.|_|_|_|#
+| JOE |_| ME  |_| SIS |_|_|#
+
+|GMa=Gladys
+|GPa=Sydney
+|JOE=My brother Joe
+|ME='''Me!'''
+|SIS=My little sister
+|MOM=Mom
+|DAD=Dad
+|DAISY=[[Nymph|Aunt Calanthe]]
+}}
+</pre>
+produces this:
+{{diagram
+|summary=I have a brother Joe and a little sister: my mom married my dad, and my dad's parents were Gladys and Siyney; they had another child, Aunt Calanthe.
+
+|_|_|_| GMa |~|y|~| GPa |_|#
+|_|_|_|_|_|_|_|)|-|-|-|.|_|#
+|_|_| MOM |y| DAD |_|DAISY|#
+|_|,|-|-|-|+|-|-|-|.|_|_|_|#
+| JOE |_| ME  |_| SIS |_|_|#
+
+|GMa=Gladys
+|GPa=Sydney
+|JOE=My brother Joe
+|ME='''Me!'''
+|SIS=My little sister
+|MOM=Mom
+|DAD=Dad
+|DAISY=[[Nymph|Aunt Calanthe]]
+}}
+<includeonly>
+[[Category:Formatting templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

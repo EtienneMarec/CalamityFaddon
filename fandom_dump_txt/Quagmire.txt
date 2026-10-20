@@ -1,0 +1,58 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 52
+| knockback = 3.5
+| reach = 25
+| attduration = 12 seconds
+| rare = 7
+| sell = {{value|0|12}}
+| stack = 1
+| auto = yes
+| use = 22
+| tooltip = Fires spore clouds
+| debuff = Venom
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 3 seconds (Yoyo)
+| hardmode = yes
+| proj = Quagmire Yoyo.png
+| projcaption = Quagmire
+| element1 = Poison
+}}
+The '''Quagmire''' is a craftable [[Hardmode]] [[yoyo]]. While in use, the yoyo randomly and continuously emits spore clouds which deal 50% to 70% of the yoyo's damage. Only the yoyo itself inflicts the [[Venom]] [[debuff]]. When the yoyo returns to the player, it will be automatically re-thrown if they are still holding the fire button.
+
+{{modifier|meleealt}}
+
+== Projectile Types ==
+
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Type !! Damage !! Chance (per frame)
+|-
+| {{item|Spore Sac (projectile 3)|Spore Gas 1|mode=table|nolink=y}}
+| align=center | 50%
+| align=center | 10%
+|-
+| {{item|Spore Sac (projectile 4)|Spore Gas 2|mode=table|nolink=y}}
+| align=center | 60%
+| align=center | 3.33%
+|-
+| {{item|Spore Sac (projectile 5)|Spore Gas 3|mode=table|nolink=y}}
+| align=center | 70%
+| align=center | 2%
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*A [[wikipedia:Quagmire|quagmire]] or mire is the general name for wetland areas such as bogs, fens, marshes or swamps.
+
+{{Perennial}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]

@@ -1,0 +1,46 @@
+{{dedicated|DarkTiny|Developer}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = ranged
+| damage = 73
+| knockback = 1
+| rare = 16
+| sell = {{value|0|40}}
+| use = 9
+| stack = 1
+| velocity = 18
+| tooltip = 75% chance to not consume ammo<br/>Fires void blasts that explode every other shot
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Void Blast.png
+| projcaption = Void Blast
+| element1 = Dark
+| element2 = Magic
+}}
+}}
+
+The '''Voidragon''' is a craftable Epilogue [[developer]] [[gun]] which is the upgraded version of [[Megaskeet]] and the final upgrade to the [[Minishark]]. It rapidly fires a stream of bullets, which have a 50% chance of not being consumed. Every other shot, it will instead shoot explosive void blasts, which do not consume ammo.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+{{-}}
+
+== Trivia ==
+*This item used to be known as "Megafleet", and consumed [[Fallen Star]]s to fire explosive blue blasts similar to the weapon's current void blasts.
+**It is still referred to such in the mod's source code.
+**It also used to include [[Starfleet]] in its recipe and was the final upgrade in the [[Star Cannon]] line. This role is now occupied by [[Starmada]].
+
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

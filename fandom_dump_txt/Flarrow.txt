@@ -1,0 +1,32 @@
+{{item infobox
+| type = Ammunition
+| consumable = yes
+| damage = 16
+| damagetype = ranged
+| velocity = 6
+| stack = 9999
+| knockback = 2
+| element1 = Unholy
+| element2 = Holy
+| element3 = Fire
+| rare = 16
+| tooltip = Slowly homes in on enemies before charging at high speeds.
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|0|5|00}}
+}}
+'''Flarrows''' are Godseeker Mode [[arrows]] crafted from [[Flahium Bar]]s. Fired Flarrows will slowly home in on nearby enemies for 2 seconds before charging towards them at very high velocity. Flarrows will pierce through tiles to reach enemies.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*[[Goozma]] and its despicable vassals only take 1% damage from Flarrows.
+{{-}}
+{{Flah}}
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Arrows]]

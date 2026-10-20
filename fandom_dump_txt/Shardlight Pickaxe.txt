@@ -1,0 +1,34 @@
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 28
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| pick = 180
+| knockback = 4
+| rare = 5
+| use = 14
+| bonus = +1 range
+| sell = {{value|0|7|20|0}}
+| hardmode = yes
+| toolspeed = 8
+}}
+
+The '''Shardlight Pickaxe''' is a craftable [[Hardmode]] [[pickaxe]] capable of mining {{item|Adamantite Ore}} and {{item|Titanium Ore}}. On strike, it inflicts the [[Frostburn]] [[debuff]].
+
+{{modifier|harvestalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Cryonic}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

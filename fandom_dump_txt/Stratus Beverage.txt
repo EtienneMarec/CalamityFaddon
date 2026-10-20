@@ -1,0 +1,34 @@
+{{item infobox
+| type = Potion
+| tooltip = Causes all projectile shooting weapons to fire two extra homing stars<br/>Decreases weapon damage by 33%
+| stack = 9999
+| rare = 13
+| use = 17
+| sell = {{value|0|10}}
+| consumable = yes
+| debuffduration = 2 minutes
+| debuff = Stratus Beverage (debuff) | debufflink = no
+| debufftip = Starstruck eyes
+| hardmode = yes
+| postml = yes
+}}
+
+'''Stratus Beverage''' is a craftable Godseeker Mode [[potion]]. It grants the '''Stratus Beverage''' [[debuff]] when consumed, which reduces damage by 33%, but causes projectile shooting weapons to fire out two extra homing stratus stars that deal the weapon's damage. These stars scale with the player's highest damage stat.
+
+While the effects of the Everclear debuff are mostly beneficial, it is still considered a debuff, and therefore cannot be removed by right-clicking the icon.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This alcohol counts as two alcohols for the purposes of [[Alcohol Poisoning]], unlike most other alcohols crafted at the [[Keg]].
+
+== Trivia ==
+*The Stratus Beverage is based on an image where [[Whiskey]] was pointed out to be similar looking to the Stratus Astronaut.
+{{stratus}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

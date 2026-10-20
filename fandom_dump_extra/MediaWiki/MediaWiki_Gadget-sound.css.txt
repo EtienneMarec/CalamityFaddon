@@ -1,0 +1,20 @@
+/* Ported from https://terraria.fandom.com/wiki/MediaWiki:Gadget-sound.css. */
+
+/* These styles are only loaded via JS */
+.sound {
+	cursor: pointer;
+}
+.sound-title::after {
+	background: url(https://static.wikia.nocookie.net/terraria_gamepedia/images/e/e8/Speaker.svg/revision/latest);
+	background-size: contain;
+}
+
+@supports ( ( mask: url() ) or ( -webkit-mask: url() ) ) {
+	.sound-playing > .sound-title::after {
+		background: #80B640;
+		-webkit-mask: url(https://static.wikia.nocookie.net/terraria_gamepedia/images/e/e8/Speaker.svg/revision/latest);
+		-webkit-mask-size: contain;
+		mask: url(https://static.wikia.nocookie.net/terraria_gamepedia/images/e/e8/Speaker.svg/revision/latest);
+		mask-size: contain;
+	}
+}

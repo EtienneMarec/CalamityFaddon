@@ -1,0 +1,48 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 260
+| knockback = 8
+| use = 24
+| velocity = 1
+| tooltip = Releases 3 fast metallic whips outward<br/>Once all three collide, a prism of light is shot outward<br/>If an enemy is within the line of sight of the whips on collision, the light will fire towards it
+| rare = 15
+| sell = {{value|0|30}}
+| element1 = Stab
+| element2 = Holy
+| element3 = Machine
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| proj = Spine of Thanatos Flail.png
+| projcaption = Spine of Thanatos
+}}
+|{{item drops infobox
+| [[The Fabricational Quartet]] (Thanatos) | 1 | {{dv|50%|66.67%}}
+}}
+}}
+The '''Spine of Thanatos''' is a Godseeker Mode [[flail]] that drops from the [[The Fabricational Quartet]] after [[XM-05 Thanatos]] has been defeated last. It launches one flail forward towards the cursor with two flails swiping from the sides. The three flails collide and return to the player, spawning an explosion and 12 rainbow rays when the flails collide. Rainbow rays deal 75% damage, can home into nearby targets including ones behind solid tiles, and explode on hit. The explosion persists for 0.75 seconds and deals constant 200% damage to targets in its range.
+
+{{Modifier|meleealt}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+
+[[File:Spine of Thanatos (demo).gif|left|The Spine of Thanatos attacking a group of [[Target Dummy|Target Dummies]], exploding, and homing the rays into the [[Super Dummy]].|frame]]
+
+
+{{-}}
+
+== Trivia ==
+*Internally, the code used to provide the Spine of Thanatos's visual effects is labelled <code>thanosSnapDust</code>. This may be a reference to the weapon's overreliance on dust particles in comparison to the other The Fabricational Quartet' weapons and XM-05 Thanatos being internally referenced as "T Hanos."
+**Additionally, this is a clear reference to the Marvel character Thanos infamously reducing half of the universe to dust.
+
+
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Flails]]

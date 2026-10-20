@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 244
+| use = 9
+| knockback = 2.5
+| velocity = 14
+| auto = yes
+| stack = 1
+| rare = 15
+| sell = {{value|0|30}}
+| tooltip = Hold the blade to the sky, and witness Armageddon
+| debuff = Daybroken
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Incinerated by solar rays
+| hardmode = yes
+| postml = yes
+| proj = Burning Meteor.png
+| projcaption = Burning Meteor
+| element1 = Fire
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Jungle Dragon, Yharon]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+'''The Burning Sky''' is a unique Godseeker Mode [[melee weapon]] dropped by [[Jungle Dragon, Yharon]]. When used, the player holds the weapon out similarly to a [[wand]], and a stream of burning meteors rain down from the sky in the direction of the cursor. The meteors inflict melee damage, and can travel through tiles but do not pierce enemies. The meteors inflict the [[Daybroken]] [[debuff]] for 10 seconds on contact. The weapon itself does not deal damage.
+
+{{modifier|meleealt}}
+
+== Notes ==
+*This weapon can be considered an indirect upgrade to the [[Star Wrath]], with far higher DPS but somewhat reduced accuracy and no direct sword swing, essentially functioning like a mage weapon.
+
+== Trivia ==
+*The Burning Sky was originally implemented based on a community suggestion made by Vladimier on the mod's Terraria Forums post.
+[[File:The Burning Sky (demo).gif|frame|left|The Burning Sky being used on several [[Target Dummy|Target Dummies]]. Note the lack of a swing, with the weapon being pointed like a staff.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}

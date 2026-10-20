@@ -1,0 +1,31 @@
+{|align=right
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| stack = 9999
+| sell = No value
+| rare = 0
+| color = #443A91
+| use = 14
+| placeable = yes
+| consumable = yes
+| auto = yes
+| hardmode = yes
+}}
+|}
+
+'''Aerialite Brick''' is a craftable [[block]] crafted with [[Aerialite Ore]] and [[Stone Block]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Aerialite}}
+{{Master Template Tiles
+| show-main   = yes
+| show-blocks = yes
+}}
+[[Category:Block items]]

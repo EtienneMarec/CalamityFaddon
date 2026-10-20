@@ -1,0 +1,44 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{infobox wrapper
+|{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| type2 = Crafting material
+| damage = 60
+| damagetype = Ranged
+| knockback = 5.5
+| use = 21
+| velocity = 24
+| tooltip = Converts musket balls into seashatter bullets that shatter into smaller ones<br/>Seashatter bullets inflict Suffocation and Wet
+| rare = 5
+| sell = {{value|0|15}}
+| hardmode = yes
+| debuff = Suffocation
+| debuffduration = 2 seconds
+| debufftip = Losing life
+| debuffchance = 100%
+| debuff2 = Wet
+| debuffduration2 = 2 seconds
+| debufftip2 = You are dripping water
+| debuffchance2 = 100%
+| element1 = Water
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[The Forbidden Lantern]]|1|5%
+}}
+}}
+
+The '''Shattered Pistol''' is a [[Hardmode]] [[gun]] dropped from [[The Forbidden Lantern]] boss. If [[Musket Ball]]s are used as [[Ammunition|ammo]], it fires a seashatter bullet that shatters into 6 smaller ones with a slight spread after travelling about 8 tiles. The smaller bullets deal 25% of the weapon's damagae each. Both the seashatter and the smaller bullets do not pierce through enemies nor go through walls, but inflict the [[Suffocation]] and [[Wet]] [[debuffs]] for 2 seconds.
+
+==Crafting==
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Shatterite}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

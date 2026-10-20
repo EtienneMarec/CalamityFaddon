@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 7
+| sell = {{value|0|12}}
+| damage = 90
+| velocity = 9
+| use = 25
+| tooltip = Fires short-range tridents<br/>Hitting enemies will inflict the crush depth debuff<br/>The lower the enemies' defense, the more damage they take from this debuff
+| debuff = Crush Depth
+| debuffduration = 5 seconds (Contact)<br/>2 seconds (Trident)
+| debufftip = Aquatic pressure
+| debuffchance = 100%
+| knockback = 8
+| auto = yes
+| stack = 1
+| hardmode = yes
+| proj = Depth Trident.png
+| projcaption = Depth Trident
+| element1 = Water
+| element2 = Dark
+}}
+
+The '''Abyss Blade''' is a craftable [[Hardmode]] [[broadsword]] that is the direct upgrade to the [[Depth Crusher]]. When swung, it fires short-ranged tridents that deals 67% of the weapon's base damage, does not pierce enemies, and explode after traveling a short distance or contacting a block. Both the sword and the projectile inflict the [[Crush Depth]] [[debuff]].
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Although its predecessor functions as a hammer, this weapon does not have any hammer properties.
+{{-}}
+{{Abyssal Gear}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:深渊之刃]]

@@ -1,0 +1,65 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Armor
+| defense = 200
+| rare = 15
+| sell = {{sc|30}} (set)
+| setbonus = Creates a Xeroc Eye's Clone that fights for you
+| buff = Xeroc Eye's Clone
+| bufftip = Xeroc's eye considers you worthy
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+'''Elderstone armor''' is a craftable post-[[Boss Rush]] multiclass [[Covering]] set crafted from [[Rock|rocks]]. The full set requires 3 rocks to be crafted.
+
+It consists of an '''Elderstone Headplate''', '''Elderstone Chestplate''', and '''Elderstone Legplate'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*200 defense
+*50% decreased movement speed
+*100% increased damage
+*Grants the player immunity to knockback
+*Creates the Xeroc's Eye that fights for you
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Elderstone Headplate
+| type = Armor
+| defense = 60
+| body slot = Helmet
+| tooltip = 60% increased damage, 40% decreased movement speed.
+| sell = {{value|0|0|10}}
+}}
+|{{item infobox
+| name = Elderstone Chestplate
+| type = Armor
+| defense = 80
+| body slot = Shirt
+| tooltip = 20% increased damage, 40% decreased movement speed, Knockback immunity.
+| sell = {{value|0|0|10}}
+}}
+|{{item infobox
+| name = Elderstone Legplate
+| type = Armor
+| defense = 60
+| body slot = Pants
+| tooltip = 20% increased damage, 30% increased movement speed.
+| sell = {{value|0|0|10}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=Elderstone Headplate}}
+{{recipes|view=infobox|result=Elderstone Chestplate}}
+{{recipes|view=infobox|result=Elderstone Legplate}}
+
+
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

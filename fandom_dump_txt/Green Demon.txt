@@ -1,0 +1,61 @@
+{{npc infobox
+| type = Enemy
+| ai = Green Demon AI
+| image = Green Demon.gif
+| environment = Solar Eclipse
+| life = {{dv|20000|30000}}
+| damage = {{dv|400|450|500|550}} (Contact)<br/>{{dv|1000|1500|2000|3000}} (Glock-19)<br/>{{dv|1000|1000|1000|1000}} (Ground Slam)<br/>{{dv|200|300|350|400}} (Vegetable Projectile)<br/>{{dv|100|200|250|300}} (Fruit Projectile)<br/>
+| defense = 4
+| knockback = {{dv|40%}}
+| immuneall = yes
+| money = {{pc|1}}
+| resistant1 = Unholy
+| resistant2 = Magic
+| resistant3 = Stab
+| vulnerable1 = Holy
+| vulnerable2 = Fire
+| Green Demon Head | 1 | 100%
+| Zumbo Sauce | 1 | 10%
+| hurt = AngryDogHit.wav
+| killed = NPC_Killed_27.wav
+| hardmode = yes
+}}
+[[File:Green demon trophy.png|25x25px]] <big>''"Eat vegetables and fruits to become strong. '''LIKE ME!'''"''</big> [[File:Green demon trophy.png|25x25px]]
+
+The '''Green Demon''' is a [[Hardmode]] [[mini boss]] that rarely spawns during a [[Solar Eclipse]] after [[Leviathan and Anahita]] has been defeated. This menacing creature is a real test of a player's skill and courage, and can take lots of mental preparation to defeat. Fighting the Green Demon is not for everyone, but it rewards the player with the dazzling [[Green Demon Head|Green Demon Head.]]
+
+==Appearance==
+The [[Green Demon]] has a distinct and unsettling appearance. It is a giant green creature with big arms and legs, and an unnerving smile. It has beady eyes which constantly stare at the player.
+
+==Behavior==
+This malevolent entity is no pushover when it comes to combat. It has a few tricks up its spectral sleeves:
+
+* '''Chasing Prey:''' The [[Green Demon]] relentlessly pursues the player, moving quickly and with determination. You'll need to stay on your toes to avoid its advances. It moves at a whopping '''150 MPH''', so you'll need a [[Momentum Capacitor]] to escape it.
+* '''Projectile Attacks:''' As if its pursuit weren't enough, the [[Green Demon]] also launches deadly projectiles towards its target. These projectiles can deal significant damage, so dodging them is essential.
+* '''Ground Slam:''' The nefarious [[Green Demon]] will often slam the ground, propelling the player into the air. This will instantly kill the player as soon as they hit a block, so be careful.
+* '''Glock-19:''' The devious [[Green Demon]] will pull out a Glock-19 when at 50% HP, and shoot the player, ignoring defense and dealing a whole '''1000 / 1500 / 2000 / 3000''' damage.
+* '''Health Drain:''' In a chilling twist, the [[Green Demon]] can leech health from its victims, restoring its own vitality as it damages the player. This makes it an even tougher adversary.
+
+==Strategies==
+[[tgc:Death|Surviving]] an [[tgc:NPC spawning|encounter]] with the [[Green Demon]] [[tgc:Tin Can|can]] [[tgc:Bee|be]] quite a [[Challenges|challenge]], especially if [[tgc:Player|you]]'re not adequately [[Guide:Mod progression|prepared]]. Here are some [[tgc:Tips|tips]]:
+
+* '''[[tgc:Cog|Gear]] [[tgc:Universal Pylon|Up]]:''' Ensure [[tgc:Player|you]] [[tgc:Inventory|have]] [[Guide:Mod progression|top-tier]] [[coverings|equipment]], [[Covering]], and [[Weapons]] to [[tgc:Armor stand|stand]] a [[tgc:Luck|chance]] against this formidable [[Enemies|foe]].
+* '''[[wikipedia:Tax Evasion|Evasion]]:''' [[Master Mode|Mastering]] [[Movement coverings|movement]] and [[tgc:Black Belt|dodging]] is [[tgc:Critical hit|crucial]]. Stay [[tgc:Mobile version|mobile]] to [[tgc:Black Belt|avoid]] the [[Green Dye|Green]] [[tgc:Demon|Demon]]'s [[tgc:Projectile IDs|projectiles]] and [[tgc:AI|attacks]].
+* '''[[tgc:Team|Team]] [[tgc:Universal Pylon|Up]]:''' Consider [[tgc:Team|teaming]] [[tgc:Universal Pylon|up]] with other [[tgc:Player|players]] in [[tgc:Multiplayer|multiplayer]] [[Revengeance Mode|mode]]. The [[tgc:Stack|more]] [[Allies]] [[tgc:Player|you]] [[tgc:Inventory|have]], the [[wikipedia:butter|better]] [[tgc:Player|your]] [[tgc:Luck|chances]] of [[tgc:Death|defeating]] the [[Green Demon]].
+
+[[tgc:Death|Defeating]] the [[Green Demon]] is a significant [[Achievements|accomplishment]] in the [https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416 Calamity Mod], and it's sure to [[Grab bags|give]] [[tgc:Player|you]] a [[Boss Rush|rush]] of [[Adrenaline Meter|adrenaline]]. Just remember to stay [[Vigilance|vigilant]] and never underestimate its [[Polterghast|spectral]] [[tgc:Soul of Might|might]]!
+
+== Trivia ==
+
+* Green Demon's [[Music|theme]] is '''El Gran Josué''', which was composed by the artist Jteoh.
+** If the Calamity Music add-on mod is disabled, '''Eerie''' will play instead.
+** The theme's volume depends on the proximity to the player, with 0% volume starting at 150 blocks away, and 100% volume being 0 blocks away.
+* Green Demon has a striking, unexpected, and confusing resemblance to [https://gartenofbanban.fandom.com/wiki/Jumbo_Josh Jumbo Josh] from the hit game [https://gartenofbanban.fandom.com/f Garten of Banban]. It is unknown which came first though. (likely Green Demon came first)
+{{-}}
+
+* Green Demon is famously wanted by the [https://www.irs.gov/ IRS] for busting the [[Archmage]] out of prison, but he stopped busting him out after the 18th time he got kidnapped by [[Cryogen]], as by the 14th time he got imprisoned [[Crabulon]] was the best [[Delicious Meat]] dealer on the market.
+** This is also why Green Demon cannot do damage to [[Archmage]].
+{{Master Template Characters
+| show-main = yes
+| show-event = yes
+}}

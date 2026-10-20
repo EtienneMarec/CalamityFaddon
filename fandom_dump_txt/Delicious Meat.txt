@@ -1,0 +1,50 @@
+{{item infobox
+| type = Potion
+| type2 = Crafting material
+| stack = 999
+| tooltip = Medium improvements to all stats<br/>'So very delicious'<br/>Increases life regeneration
+| consumable = Yes
+| rare = 5
+| use = 17
+| buff = Plenty Satisfied
+| bufftip = Medium improvements to all stats<br/>{{expert|Medium improvements to all stats and increased life regeneration}}
+| duration = 2 hours
+| buy = {{gc|20}}
+| sell = {{value|0|4|0}}
+| hardmode = yes
+}}
+{{item drops infobox
+| [[Crabulon]]|4-7|100%
+| [[Duke Fishron]]|45-92|50%
+| [[The Fabricational Quartet]]|{{dv|4800-6400|6000-8000}}|100%| [[Frost Hog]]|1|100%}}
+The '''Delicious Meat''' is a consumable [[food item]] sold by the [[Archmage]] NPC for {{Gc|20}} and dropped by [[Frost Hog|Frost Hogs]], [[Crabulon]], [[Duke Fishron]], and the [[The Fabricational Quartet]]. It also has a chance to be found in the [[Shroom Gardens|Shroom Garden]]. When consumed, it grants the [[Plenty Satisfied]] buff for 2 hours {{fantag|Apotheosis and Friends}}.
+
+In addition to its culinary usage, Delicious Meat can be used as a crafting material, and is a key ingredient in numerous end-game recipes.
+
+==Crafting==
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+===Used in ===
+{{recipes|ingredient=Delicious Meat}}
+===Used in (Any Food Item)===
+{{recipes|ingredient=Any Food Item}}
+{{-}}
+
+==Trivia==
+
+*The tooltip of Delicious Meat is a reference to the [[Delicious Meat]].
+*Delicious Meat is part of many crafting recipes. This is likely due to the item’s [[Lore]] significance, where Crabulon operates a popular business that sells Delicious Meat.
+**Crabulon works with the [[Archmage]] to produce Delicious Meat.
+**Draedon is sponsored by Crabulon to advertise and ship Delicious Meat to customers.
+**Duke Fishron, known for being summoned with [[Truffle Worm|Truffle Worms]] in vanilla Terraria, also seems to be attracted to Delicious Meat products.
+**The three aforementioned bosses all drop Delicious Meat in varying amounts.
+**Crabulon’s [[Lore items|Lore Item]] implies that it won Yharim’s (now discontinued) cooking show using a modified Delicious Meat recipe.
+**The [[The Devourer of Gods|Devourer of Gods]] is said to have a crippling addiction to Delicious Meat, which was possibly caused by the [[Starborn Princess]].
+*Using Bacon to craft Delicious Meat has been a hotly debated topic throughout the community. Generally, crafting Delicious Meat is preferred over just Bacon, however the more potent (albeit shorter) effects of Bacon may be preferred if the player has a large enough supply of it.
+**A good money-making strategy is to craft as much Delicious Meat as possible and sell it, yielding 20 gold per craft.
+* Crafting one of every item that can be crafted with Delicious Meat requires a total of 75,293 Delicious Meat, costing a total of{{Value|58|60|||50|1}}.
+**This does not include Aerialite Bars. If it did, then the value of the Delicious Meats required would go past the 32-bit integer limit.
+{{Master Template Consumables
+| show-main = yes
+| show-potion=yes
+}}

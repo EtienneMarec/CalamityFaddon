@@ -1,0 +1,45 @@
+{{item infobox
+| type = Tool
+| damagetype = melee
+| pick = 280
+| auto = yes
+| damage = 465
+| knockback = 18
+| use = 15
+| rare = 15
+| stack = 1
+| sell = {{value|0|30|24}}
+| toolspeed = 40
+| hardmode = yes
+| postml = yes
+| element1 = Fire
+| element2 = Stab
+}}
+{{item drops infobox
+| [[The Wall of Bronze]]|1|{{dv|25%|33.33%}}
+}}
+
+The '''Large Father''' is a [[Hardmode]] [[Drill]] that drops from the [[Wall of Bronze]]. It is the second fastest [[Pickaxe]] in the game, and has a unique attack. Upon right clicking, the player will swing the Large Father in an arc, dealing heavy damage, knockback, and mining a significant area ahead of the player.
+
+== Crafting ==
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*While the swing attack is useful for destroying a large amount of blocks relatively quickly, its slow swing speed makes this function inefficient for mining tunnels.
+*Although primarily a tool, the Large Fathers alt attack can make it a somewhat decent [[Melee weapons|Melee Weapon]].
+
+==Trivia==
+*The weapon is a reference to the Big Daddy enemies from the video game Bioshock, which are equipped with large drills on their right hands.
+
+==See also==
+*[[The WOBbler]], the hamaxe counterpart to the Large Father.
+*The [[A M S]], a reusable bomb dropped by [[The Wall of Bronze]].
+
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]
+[[Category:True melee]]

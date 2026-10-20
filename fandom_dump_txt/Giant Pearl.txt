@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| stack = 1
+| type = Covering
+| tooltip = You have a light aura around you<br/>Enemies within the aura are slowed down<br/>Does not work while a boss is alive<br/>Provides a small amount of light in the abyss
+| rare = 2
+| debuff = Pearl Aura | debufflink = no
+| debufftip = Slowed down
+| debuffchance = 100%
+| debuffduration = Infinite (while in aura)
+| sell = {{value|0|0|40}}
+}}
+|{{item drops infobox
+| [[Giant Clam]] (Once [[Desert Scourge]] has been defeated) | 1 | 33.33%
+}}
+}}
+
+The '''Giant Pearl''' is a [[Pre-Hardmode]] [[covering]] dropped by the [[Giant Clam]] [[mini boss]] after the [[Desert Scourge]] has been defeated. When equipped, it causes the player to emit light and inflict all [[enemies]] within a 3 block radius with the '''Pearl Aura''' [[debuff]], which slows down their horizontal and vertical speeds considerably.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The slowing effect of Pearl Aura does not take effect while any [[bosses]] are alive.
+
+== Trivia ==
+*Despite being a debuff, Pearl Aura's icon has a blue background like a [[buff]].
+*Destructible projectiles, such as Chaos Balls or Water Spheres fired by [[Goblin Sorcerer]]s or [[Dark Caster]]s are slowed more the closer they are to the player, and can even be completely stopped. When said projectiles are stopped entirely, they cannot deal damage to the player, making this item very useful in certain environments or under certain conditions.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

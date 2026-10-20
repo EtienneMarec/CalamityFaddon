@@ -1,0 +1,32 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = Taking damage releases a blast of sparks
+| sell = {{value|0|0|20}}
+| rare = 1
+| stack = 1
+| element1 = Magic
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Cnidrion]]|1|25%
+}}
+}}
+
+'''Amidias' Spark''' is a [[Pre-Hardmode]] [[covering]] dropped by [[Cnidrion]]s in the [[Underground Desert]]. When equipped, the player will release 8 gravity-affected sparks around them when harmed by any source of damage. These sparks linger for 2 seconds, partially ignore [[immunity frames]], and deal 6 damage.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The sparks are able to travel through platforms.
+*The sparks deal melee damage.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[zh:阿米迪亚斯电火花石]]
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

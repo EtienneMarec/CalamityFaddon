@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| tooltip = 50% chance to not consume ammo<br/>Fires a spread of bullets and an onyx shard
+| damagetype = Ranged
+| damage = 40
+| use = 15
+| knockback = 4.5
+| auto = yes
+| velocity = 24
+| rare = 10
+| sell = {{value|0|20}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Onyx Blaster (projectile).png
+| projcaption = Onyx Blast
+| element1 = Dark
+| element2 = Stab
+}}
+
+The '''Onyx Chain Blaster''' is a craftable Godseeker Mode [[gun]] that is a combination of the [[Onyx Blaster]] and the [[Chain Gun]]. It rapidly fires onyx blasts and volleys of bullets. Onyx blasts deal 250% of the weapon's damage.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Onyx}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

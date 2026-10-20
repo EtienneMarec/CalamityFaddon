@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = Periodically rains down prism shards that can briefly stun enemies
+| stack = 1
+| rare = 2
+| sell = {{value|0|0|40}}
+| debuff2 = Eutrophication
+| debuffduration2 = 0.25 seconds (Small Prism)<br/>0.5 seconds (Large Prism)
+| debuffchance2 = 100%
+| debufftip2 = Excessive nutrients restrict your movement
+| proj = Small Prism Shards.png
+| projcaption = Small Prism Shards
+| proj2 = Large Prism Shard.png
+| proj2caption = Large Prism Shard
+| element1 = magic
+}}
+|{{item drops infobox
+| [[Giant Clam]] (Once [[Desert Scourge]] has been defeated) | 1 | 33.33%
+}}
+}}
+
+'''Amidias' Pendant''' is a [[Pre-Hardmode]] [[covering]] that is dropped by the [[Giant Clam]] [[mini boss]] after the [[Desert Scourge]] has been defeated. It causes three different Prism Shards to fall from the sky every 2 seconds: 2 small functionally identical shards that deal 15 damage, and a large shard that deals 30 damage and homes in onto enemies.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*When the Prism Shards hit blocks, they release a considerable amount of light, which can be used for exploration underground.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[zh:阿米迪亚斯之垂饰]]
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

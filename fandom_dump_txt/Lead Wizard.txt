@@ -1,0 +1,40 @@
+{{malice mode only}}
+{{Historical content}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| damagetype = ranged
+| auto = yes
+| damage = 58
+| knockback = 5
+| rare = 8
+| sell = {{value|0|12}}
+| use = 9
+| tooltip = Something's not right...<br/>33% chance to not consume ammo
+| critical = 34%
+| velocity = 20
+| hardmode = yes
+| listexclude = yes
+}}
+|{{item drops infobox
+| [[Golem]]|1|{{malice|100%}}
+}}
+}}
+The '''Lead Wizard''' was a [[Hardmode]] [[gun]] that dropped from [[Golem]] in [[Malice Mode]]. When fired, bullets were transformed into yellow high-velocity bullets that shoot out from the gun at angles above and below the cursor's position forming roughly a 30 degree angle.
+
+{{Modifier|ranged}}
+
+== Trivia ==
+*This weapon's name was a reference to [https://bindingofisaacrebirth.fandom.com/wiki/The_Wiz The Wiz] from ''[[wikipedia:The Binding of Isaac: Rebirth|The Binding of Isaac: Rebirth]]'', which also makes the player's shots fire at a 30-degree angle away from wherever they are aiming.
+*This weapon's tooltip was a reference to an earlier version of the mod in which this weapon did not work correctly, instead shooting bullets erratically from the player and not from 30 degrees away as mentioned above.
+*This weapon performed well against [[Worm AI|worm]]-type [[enemies]], due to their size allowing both streams of bullets to hit.
+*It was formerly the [[rare variant]] of the [[Clock Gatlignum]].
+{{-}}
+{{historical}}
+{{Challenge item}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

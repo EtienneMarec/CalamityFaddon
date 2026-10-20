@@ -1,0 +1,30 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Revengeance mode only}}
+{{item infobox
+| type = Crafting material
+| type2 = Covering
+| damage = 260
+| tooltip = Summons an Arcanoid orb that flies around the player, Left click anywhere to move the orb to that place. The Orb creates an aura that damages enemies and lowers their stats. 
+| debuff = Lunar Aura
+| debuffduration = While inside aura
+| debuffchance = 100%
+| debufftip = The pressure of the moon rips you apart.
+| stack = 1
+| rare = 10
+| sell = {{value|0|20}}
+| hardmode = yes
+| postml = yes
+}}
+'''Lunar Arcanoid Base''' is a Godseeker Mode upgrade to [[Astral Arcanoid Base]]. It summons a Lunar Arcanoid Orb that doesn't move by itself and requires the player to move it manually, The Orb creates an aura that damages and weakens your enemies. The Orb itself deals 260 contact damage, the aura deals 60 damage per second, and your enemies deals 20% less damage.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]

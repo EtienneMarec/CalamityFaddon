@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 100
+| mana = 10
+| use = 24
+| knockback = 0
+| tooltip = A device used to defend against the weaker, less cognizant rogue creations of Draedon<br/>Summons a pulse turret which eradicates nearby foes with focused energy blasts<br/>Only one pulse turret may exist at a time<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| sell = {{value|0|12}}
+| hardmode = yes
+| element1 = Dark
+| element2 = Stab
+| element3 = Machine
+}}
+{{summoned|Pulse Turret|type=sentry}}
+
+The '''Pulse Turret Remote''' is a craftable [[Hardmode]] [[sentry]]. It summons a stationary turret sentry that fires a purple homing pulse blast towards nearby enemies. Every third shot, a spread of three blasts is fired.
+
+The weapon consumes [[charge]] on use and has a maximum charge of 135.
+
+{{Modifier|summonnokb}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier3}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,58 @@
+{{Historical content}}
+{{item infobox
+| tooltip = Has a chance to freeze enemies and explode into electricity<br/>Enemies that are immune to being frozen take more damage from these bullets
+| type = Ammunition
+| damage = 8
+| damagetype = ranged
+| stack = 9999
+| consumable = yes
+| knockback = 1.25
+| sell = {{value|0|0|1|20}}
+| rare = 3
+| velocity = 14
+| velocitymult = 2
+| debuff = Glacial State
+| debuff2 = On Fire!
+| debuff3 = Frostburn
+| debufftip = Cannot move and defense is shattered
+| debufftip2 = Losing life
+| debufftip3 = It's either really hot, or really cold, but it REALLY hurts
+| debuffduration = 4 seconds
+| debuffduration2 = 8 seconds
+| debuffduration3 = 8 seconds
+| debuffchance = 100%
+| debuffchance2 = 100%
+| debuffchance3 = 100%
+| hardmode = yes
+| proj = Frostspark Bullet (projectile).png
+| projcaption = Frostspark Bullet
+| listexclude = yes
+}}
+{{distinguish|Icy Bullet|which is sold by the [[Archmage]]}}
+
+'''Frostspark Bullets''' were [[Hardmode]] [[bullets]] made from [[Cryonic Bar]]s. They inflicted the following [[debuffs]]:
+*[[On Fire!]] (8 seconds, 100% chance)
+*[[Frostburn]] (8 seconds, 100% chance)
+*[[Glacial State]] (4 seconds, 100% chance)
+
+On enemies, these combined debuffs caused the target to be unable to regenerate life, and lose 12 health per second for 8 seconds. Additionally, for 4 seconds, they would be completely unable to move as well as having their defense cut in half.
+
+If the target was immune to the Glacial State [[debuff]], the bullet inflicted 20% extra damage.
+
+== Crafting ==
+=== Recipe ===
+{{crafting recipe 
+| tool = Ice Machine 
+| item1 = Musket Ball
+| amount1 = 150
+| item2 = Cryonic Bar
+| resultAmount = 150 
+}}
+{{-}}
+{{historical}}
+{{Cryonic}}
+{{Master Template Consumables
+|show-main=yes
+|show-ammo=yes
+}}
+[[Category:Bullets]]

@@ -1,0 +1,51 @@
+{{Addon|Calamity: Community Remix}}
+{{item infobox
+| type = Covering
+| rare = 15
+| tooltip = Melee attacks and projectiles inflict a variety of debuffs<br/>30% increased melee speed, damage, and 25% increased melee critical strike chance<br/>100% increased true melee damage<br/>Temporary immunity to lava<br/>Increased melee knockback<br/>Triples Yoyos, spawns 5 Counterweights, and quadruples yoyo range<br/>
+| stack = 1
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| debuff = On Fire!
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| debufftip = Slowly losing life
+| debuff2 = Frostburn
+| debuffduration2 = 5 seconds
+| debuffchance2 = 100%
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuff3 = Holy Flames
+| debuffduration3 = 5 seconds
+| debuffchance3 = 100%
+| debufftip3 = Dissolving from holy light
+|image=Thrower's_Gauntlet.gif}}
+
+The '''Thrower's Gauntlet''' is a craftable Godseeker Mode [[covering]] that is the final upgrade to the [[Titan Glove]] and [[Feral Claws]]. It provides a 30% increase to melee speed and damage and a 25% increase to melee critical strike chance, a 100% increase to [[true melee]] damage, increases melee knockback, and gives the player temporary immunity to lava. The covering also inherits the effects of the [[Yoyo Bag]], giving two extra yoyos, 5 Counterweights, and four times the yoyo range.
+
+While wearing the Thrower's Gauntlet, any enemy struck by a melee attack will be inflicted with these [[debuffs]]:
+*[[Demon Flames]] for 5 seconds
+*[[On Fire!]] for 5 seconds
+*[[Frostburn]] for 5 seconds
+*[[Holy Flames]] for 5 seconds
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The effects of this also apply to melee damage dealt by friendly NPCs.
+*The true melee damage bonus from the covering does not stack with its Gauntlet-themed downgrades ([[Elemental Gauntlet]] and lower).
+**However, [[Yharim's Insignia]] isn't affected by this, totalling 30% increased true melee damage when stacked.
+
+== Trivia ==
+*The covering provides no benefits to the thrower or Spy classes despite its name.
+{{Ashes of Annihilation}}
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

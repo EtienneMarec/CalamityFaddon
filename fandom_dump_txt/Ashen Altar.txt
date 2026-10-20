@@ -1,0 +1,32 @@
+{{item infobox
+| name = Ashen Altar
+| type = Furniture
+| type2 = Crafting station
+| type3 = Light Source
+| auto = yes
+| placeable = Yes
+| width = 3
+| height = 3
+| stack = 9999
+| use = 14
+| tooltip = Used for special crafting
+| consumable = Yes
+| rare = 3
+| color = #BF8E6F
+| sell = No value
+| hardmode = yes
+}}
+
+The '''Ashen Altar''' is a [[Hardmode]] [[crafting station]] used to craft the [[Furniture sets|Ashen furniture set]] themed around the [[Brimstone Crag]]. It is also able to create a [[Music Boxes|Music Box]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used to craft ===
+{{ajax|Recipes/Ashen Altar|width=40%}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:灰烬祭坛]]

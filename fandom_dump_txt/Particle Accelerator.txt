@@ -1,0 +1,38 @@
+{{historical content}}
+{{item infobox
+| name = Particle Accelerator
+| type = Furniture
+| type2 = Crafting station
+| placeable = Yes
+| use = 14
+| auto = yes
+| width = 3
+| height = 2
+| stack = 99
+| tooltip = Used for advanced crafting
+| consumable = Yes
+| rare = 0
+| sell = {{value|0|10|0|0}}
+| color = #C8C8C8
+| hardmode = yes
+| listexclude = yes
+}}
+
+The '''Particle Accelerator''' was a [[hardmode]] [[crafting station]] used to craft "advanced" items. It counted as a [[Hardmode Forge]] and a [[Hardmode Anvil]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}|historical=only}}
+
+=== Used to craft ===
+{{ajax|Recipes/Particle Accelerator|width=40%}}
+
+== Trivia ==
+*The Particle Accelerator's item sprite was reused for [[lul]]'s first sprite.
+*[[Draedon's Forge]] can be seen as a replacement for the Particle Accelerator.
+
+{{Historical}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

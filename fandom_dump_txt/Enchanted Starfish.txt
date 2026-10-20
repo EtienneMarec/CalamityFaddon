@@ -1,0 +1,19 @@
+{{item infobox
+| type = Potion
+| tooltip = Permanently increases maximum mana by 20
+| stack = 9999
+| consumable = yes
+| rare = 2
+| use = 30
+| sell = {{value|0|0|50}}
+}}
+The '''Enchanted Starfish''' is a [[permanent power-up]] item found by [[fishing]] on the [[Surface]] at [[night]] that increases the player maximum mana by 20 when consumed. It acts as an alternative to a [[Mana Crystal]] in that multiple Starfish can be consumed, but only until the player's maximum mana is at 200. Once the player is at 200 mana, they must use the [[Comet Shard]], [[Ethereal Core]] and [[Phantom Heart]] to increase their maximum mana further.
+
+== Notes ==
+*If used at the maximum amount of mana, the player will complete the normal animation of holding the Enchanted Starfish up, but it will have no effect, and the item will still be used.
+
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

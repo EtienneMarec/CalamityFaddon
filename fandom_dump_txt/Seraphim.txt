@@ -1,0 +1,47 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| tooltip = Throws an extraordinarily fast dagger which slows down exponentially and dissipates into light<br/>Once dissipation has ended, 6 fast, splitting blades that aim at and slice nearby targets are released, along<br/>with a large laserbeam<br/>Stealth strikes release a volley of 9 lights which explode into smaller laser beams along with the dagger
+| damage = 332
+| knockback = 6
+| use = 12
+| velocity = 64
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| proj = Seraphim Dagger.png
+| projcaption = Splitting Dagger
+| proj2 = Seraphim Light.gif
+| proj2caption = Angelic Light
+| element1 = holy
+| element2 = stab
+}}
+
+The '''Seraphim''' is a craftable Godseeker Mode [[dagger]] that is an upgrade to the [[Shattered Sun]]. It throws an infinitely piercing holy dagger that travels through tiles and emits light. Each enemy hit slows down the dagger by 60%, and it naturally slows down exponentially. After 0.83 seconds, it bursts into six daggers and an angelic light orb. Splitting daggers deal half damage and are aimed toward the target if any is present in a 100-tile radius, or travel upwards otherwise. The angelic light orb bursts into a laser after 0.16 seconds which has covers a 62.5-tile distance.
+
+Performing a [[stealth strike]] with the Seraphim causes a spread of nine angelic light orbs to release from the player. The orbs travel a short distance before bursting into lasers after 1.58 seconds. Lasers from these orbs deal 140% damage.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*[[XM-05 Thanatos]] takes 16.25% damage from Seraphim's lasers.
+
+== Trivia ==
+*Seraphim is the plural form of a [[wikipedia:seraph|seraph]], an angel of the highest order in Christianity.
+{{-}}
+{{auric}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

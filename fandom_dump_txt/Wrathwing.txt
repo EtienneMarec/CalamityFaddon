@@ -1,0 +1,50 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Rogue
+| damage = 592
+| knockback = 5
+| stack = 1
+| rare = 15
+| sell = {{value|0|30}}
+| use = 12
+| tooltip = Throws an agile, homing winged spear that constantly spits fire<br/>Stealth strikes create an eruption of cinders on hit
+| velocity = 28
+| auto = yes
+| hardmode = yes
+| postml = yes
+| debuff = Daybroken
+| debuffchance = 100%
+| debuffduration = 5 seconds (Spear)
+| debufftip = Incinerated by solar rays
+| proj = Infernal Spear Projectile.gif
+| projcaption = Infernal Spear
+| proj2 = Infernal Fireball.gif
+| proj2caption = Infernal Fireball
+| element1 = Fire
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Jungle Dragon, Yharon]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Wrathwing''' is a Godseeker Mode [[javelin]] that is dropped by [[Jungle Dragon, Yharon]]. It automatically throws fiery javelins which home in on enemies while releasing gravity-affected fireballs as they travel, explode violently on contact with them and apply the [[Daybroken]] debuff.
+
+Performing a [[stealth strike]] with the Wrathwing will cause it to erupt into thirteen gravity-affected fireballs on enemy hits.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon was previously known as the "Infernal Spear", and before that, it was known as the "Profaned Trident". Both of these name changes were made in order to prevent any kind of unwanted connections with [[Providence, the Profaned Goddess]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Javelins]]

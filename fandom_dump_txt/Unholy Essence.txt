@@ -1,0 +1,31 @@
+{{infobox wrapper
+|{{item infobox
+| image = Unholy Essence.gif
+| type = Crafting material
+| tooltip = The essence of profaned creatures
+| stack = 9999
+| rare = 11
+| sell = {{value|0|1|30|0}}
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Profaned Energy]]<br/>[[Impious Immolator]]<br/>[[Scorn Eater]]| 2-4 |100%
+| [[Providence, the Profaned Goddess]]| {{dv|20-30|25-35}} | 100%
+| [[The Starborn Moth]]{{dei}}| {{dv|25-40|40-60}} | 100%
+}}
+}}
+
+'''Unholy Essence''' is a Godseeker Mode [[crafting material]] that drops from [[Scorn Eater]]s, [[Impious Immolator]]s, [[Profaned Energy|Profaned Energies]], [[Everquartz]] and [[Providence, the Profaned Goddess]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*5-10 Unholy Essences can be obtained from [[Hallowed Crate]]s at a 15% chance once Moon Lord has been defeated.
+
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

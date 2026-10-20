@@ -1,0 +1,21 @@
+{| class="terraria sortable lined"
+! colspan = 2 | Name !! <abbr title="Health Points">HP</abbr> !! <abbr title=Damage>DMG</abbr> !! <abbr title=Defense>DEF</abbr> <small><abbr title="Damage Reduction">(DR)</abbr></small> !! <abbr title="Knockback Resist">KBR</abbr>!! AI !! Type !! Environment !! <abbr title="Hardmode">HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr>
+|-
+{{#dpl:
+| namespace = <!-- need to have it blanked to restrict it to main namespace. prevents category pages from being included-->
+| notcategory = Passive AI NPCs
+| notcategory = Historical content
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {npc infobox¦/dpl}
+| uses = Template:Npc infobox
+| mode = userformat
+| count = 500
+}}
+|}
+
+{{Master Template Characters
+| show-main = yes
+}}
+
+[[Category:Enemy NPCs|*]]

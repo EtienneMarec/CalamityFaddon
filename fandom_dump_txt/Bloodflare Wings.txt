@@ -1,0 +1,27 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 13
+| sell = {{value|0|24}}
+| stack = 1
+| tooltip = <br/>Horizontal speed: 9.5<br/>Acceleration multiplier: 2.5<br/>Great vertical speed<br/>Flight time: 250<br/>+20% max life while wearing Bloodflare Armor
+| hardmode = yes
+| postml = yes
+}}
+
+'''Bloodflare Wings''' are a Godseeker Mode [[Wings|wing]]-type [[covering]] that allow the player to fly and glide. If these wings are worn along with [[Bloodflare armor]] with any Bloodflare headpiece, the player is granted 20% increased max life.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in (Any Wings) ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Bloodstone}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

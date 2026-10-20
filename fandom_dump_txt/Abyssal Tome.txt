@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 33
+| mana = 15
+| use = 25
+| velocity = 9
+| knockback = 6
+| auto = yes
+| stack = 1
+| tooltip = Casts a slow-moving ball of dark energy
+| rare = 4
+| sell = {{value|0|2|40}}
+| proj = Abyss Ball.png
+| projcaption = Abyss Ball
+| element1 = Unholy
+| element2 = Poison
+}}
+|{{item drops infobox
+| [[Slime God]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Abyssal Tome''' is a [[Pre-Hardmode]] [[spell tome]] that drops from [[The Slime God]]. It fires a slow moving Abyss Ball that can travel through blocks and is not affected by gravity, and will slowly decelerate until stopping in place. After hitting an enemy twice or after 5 seconds from being shot, it will explode, dealing damage to anything caught in the explosion. It is the [[Corruption]] counterpart to the [[Eldritch Tome]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]
+[[zh:深渊之书]]

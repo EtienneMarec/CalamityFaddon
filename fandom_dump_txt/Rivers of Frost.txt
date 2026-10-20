@@ -1,0 +1,56 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| tooltip = Drains a percentage of enemy health on hit<br/>Right click to drain all current mana and a percentage of your own health to empower the sword<br/>Cannot inflict critical hits<br/>Oh boy another INT katana!
+| damage = 1
+| damagetype = melee
+| use = 15
+| knockback = 3
+| auto = yes
+| stack = 1
+| rare = 14
+| sell = {{value|0|36}}
+| hardmode = yes
+| postml = yes
+| proj = Glacial Wave.png
+| projcaption = Glacial Piler Wave
+| element1 = Cold
+| element2 = Slash
+}}
+
+The '''Rivers of Frost''' is a unique Godseeker Mode [[broadsword]]. It always deals 1 damage to enemies, regardless of any modifiers or attack boosts the player may have, and it cannot inflict critical hits. Whenever an enemy is struck with this weapon, their health is decreased by 1% of their max health, ignoring all defense and damage reduction. Additionally, the secondary fire (right-click) will cause the player to lose 6.5% of their maximum health and all of their current mana, in exchange for imbuing the sword for one minute. During this time, swings will unleash a longer-ranged blade of frost that will decrease enemy health by 0.5%, as well as buffing true melee strikes to decrease by 2% per hit.
+
+Its best [[modifier]] is '''Light''', as the Rivers of Frost has minimal knockback and does not benefit from increased damage or critical strike chance.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+
+== Notes ==
+*The enemy or boss must be vulnerable to damage for this weapon to be effective. The Rivers of Frost cannot damage enemies that are completely unable to be hit.
+*[[Providence, the Profaned Goddess]] only takes 0.5% health reduction from true melee strikes and is immune to the glacial waves.
+*Its life reduction effect applies to the head segment of worm enemies, but not body or tail segments.
+*The [[Invincible]] buff's effects will not apply when this weapon is held.
+*Its life reduction effect is not affected by [[rage]] or [[adrenaline]] damage increases.
+
+== Tips ==
+*It benefits most from equipment and covering modifiers that maximize melee speed.
+**It also benefits from melee size buffs, if only to make it easier to land hits.
+*This weapon can become excessively powerful against enemies with very high health, due to the percentage-based life drain effect.
+*As the empowering right click cannot be used when mana is not full, it may be worth using [[Mana Regeneration Potions]] or [[Astral Injection]] even on a melee build.
+*This weapon can be useful against bosses which enter periods of very high defense and/or DR, such as [[Brimstone Elemental]]'s encased phase, as the player can continue to deal decent damage to them when they would normally be dealing very little. Due to the weapon's very short range, caution should be taken to avoid excessive contact damage from the boss.
+
+== Trivia ==
+*The Rivers of Frost does not work on [[Target Dummies]], but does work on [[Super Dummies]].
+*Dying to the self inflicted damage will display a unique death message "<PlayerName> cut themselves and died of ice loss"
+*This item is a reference to the [https://eldenring.wiki.fextralife.com/Rivers+of+Blood Rivers of Blood] katana from [https://en.m.wikipedia.org/wiki/Elden_Ring Elden Ring].
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

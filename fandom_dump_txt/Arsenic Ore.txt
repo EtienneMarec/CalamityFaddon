@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| use = 14
+| rare = d
+| value = 710
+| color = #ADA3A6
+| sell = {{value|0|0|2|0}}
+}}
+|{{item drops infobox
+| [[Arsenous Slime]] | 10-26| 100%
+}}
+}}
+
+'''Arsenic Ore''' is a Pre-[[Hardmode]] [[Ores|ore]] which generates on worldgen inside of the [[Dungeon]] in small patches. It can be mined with any pickaxe and is solely used to craft [[Dubious Plating]]. It is also dropped from [[Arsenous Slime]]s.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Due to Calamity's progression modifications, the ore can be obtained before defeating [[Skeletron]] as it is no longer a requirement for [[Dungeon Guardian]]s to stop spawning.
+{{Draedon's Arsenal}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

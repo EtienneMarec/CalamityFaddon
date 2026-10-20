@@ -1,0 +1,34 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 100
+| damagetype = Ranged
+| knockback = 7
+| stack = 1
+| rare = 13
+| sell = {{value|0|50}}
+| auto = yes
+| use = 20
+| velocity = 22
+| tooltip = Makes stars fall from the sky, The stars pierce blocks at night
+| hardmode = yes
+| postml = yes
+| element1 = Stab
+| element2 = Magic
+}}
+
+The '''Nightic Blaster''' is a craftable Godseeker Mode [[Dart guns|dart gun]]. It creates a slaw darts that summons stars from the sky, the stars break when they touch anything and deal 200% of damage. During nighttime, the stars will pierce through blocks.
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Stratus}}
+{{Ctota}}
+
+[[Category:Dart guns]]

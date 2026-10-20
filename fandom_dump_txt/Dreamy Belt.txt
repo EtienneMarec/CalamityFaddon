@@ -1,0 +1,40 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Covering
+| tooltip = Grants various benefits, offensively and defensively<br/>Nightmare butterflies spawns periodically<br/>{{Key|Butterfly Release}} to release said butterflies<br/><font face="thecalamity" color="#3c1d59">''''Until the world is shrouded in sweet dreams... The festival must go on.''''</font>
+| sell = {{value|0|30|0|0}}
+| debuff= Moon Burnt
+| debuffchance= 100%
+| debuffduration= 4 seconds
+| debufftip= Incinerated by lunar rays
+| rare = 12
+| stack = 1
+}}
+
+The '''Dreamy Belt''' is a craftable Godseeker Mode [[Covering]]. While worn, it grants the following effects:
+*+15% increased Melee and Magic damage
+*+20% increased True Melee damage
+*+35% Max Life and Mana
+*+15 Defense and Armor Penetration
+*+0.1 Luck
+
+Additionally, every 3 seconds, a butterfly spawns from the player, orbiting them and firing homing bullets at an enemy. Pressing the {{Key|Butterfly Release}} Key sends out all the active butterflies, aggressively homing in to the cursor's current location. While all butterflies are active, True Melee attacks fires out a crescent wave that pierces infinitely for some time and inflicts the [[Moon Burnt]] debuff. This has a cooldown of 5 seconds before they can fire out the waves again, indicated by a sound effect upon its cooldown ending.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The Butterflies' bullets deal 150 magic damage, and as such, can be boosted by any magic damage-increasing buffs.
+**The Butterfly Release butterflies, on the other hand, deals 200% its usual damage, accounting in buffs too. Both attacks can not receive any critical strike buffs.
+*The crescent wave inherits 50% of the currently swung true melee weapon's damage and size. Like its other attacks, it can not receive any critical strike buffs.
+
+== Trivia ==
+*This Covering is a direct reference to the [https://maplestory.fandom.com/wiki/Dreamy_Belt belt covering of the same name] from ''[[wikipedia:MapleStory|Maplestory]]''.
+**In turn, its attacks, and its tooltip directly references [https://maplestory.fandom.com/wiki/Lucid Lucid] from the same game.
+
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Combat coverings]]

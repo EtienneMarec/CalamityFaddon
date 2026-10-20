@@ -1,0 +1,43 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 180
+| stack = 9999
+| rare = 5
+| color = #000096
+| use = 14
+| value = 675
+| sell = {{value|0|0|12|0}}
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Cryo Slime]] | 10-26| 100%
+}}
+}}
+<big> ''"The ice caves are crackling with frigid energy."'' </big>
+
+'''Cryonic Ore''' is a [[Hardmode]] [[ore]] which generates in the [[Ice biome]] upon [[Cryogen]]'s defeat. It is used to craft [[Cryonic Bar]]s at an [[Adamantite Forge]] or [[Titanium Forge]]. It requires at least an [[Adamantite Pickaxe]] or [[Titanium Pickaxe]] to mine. It is also dropped by [[Cryo Slime]]s. This ore glows slightly which makes it easy to spot through walls. 
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Cryonic Ore cannot be destroyed by explosives, even after Cryogen has been defeated.
+*Unlike most other ores, it is visible without the use of a [[Spelunker Potion]], as it naturally glows a dark blue color.
+**Though, it is the dimmest glowing ore in the mod, and the glow can be overpowered by other nearby glowing ores.
+
+{{Cryonic}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

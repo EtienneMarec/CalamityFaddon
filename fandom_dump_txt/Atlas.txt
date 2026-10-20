@@ -1,0 +1,59 @@
+{{npc infobox
+| type = Enemy
+| environment = Astral Infection
+| ai = Atlas AI
+| damage = {{dv|70|boost=0.15}} (pre-[[Astrum Aureus]])<br/>{{dv|100|boost=0.15}} (post-[[Astrum Aureus]])<br/>{{dv|150|boost=0.15}} (post-[[Lunatic Cultist]])
+| life = {{dv|1,200|2,400}} (pre-[[Astrum Aureus]])<br/>{{dv|1,600|3,200}} (post-[[Astrum Aureus]])<br/>{{dv|2,400|4,800}} (post-[[Lunatic Cultist]])
+| defense = 40 (pre-[[Astrum Aureus]])<br/>50 (post-[[Astrum Aureus]])<br/>75 (post-[[Lunatic Cultist]])<br/>
+| dr = 15%
+| knockback = {{dv|92%|92.8%}} (pre-[[Astrum Aureus]])<br/>{{dv|96%|96.4%}} (post-[[Astrum Aureus]])<br/>100% (post-[[Lunatic Cultist]])
+| money = {{value|0|0|18|0}}
+| Stardust|{{dv|6-8|7-9}}|100%
+| Titan Finger|1|15%
+| Titan Heart|1|100%
+| custom| {{item|Titan Arm|note=(After defeating [[Astrum Aureus]])|wrap=y}}|14.29%
+| hardmode = yes
+| banner = yes
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance = 100%
+| duration = 5 seconds
+| immune1 = Astral Infection (debuff)
+| immune2 = Confused
+| immune3 = Kami Flu
+| immune4 = Poisoned
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Magic
+| resistant4 = Machine
+| vulnerable1 = Fire
+| vulnerable2 = Holy
+| boxwidth = 24em
+| hurt = AtlasHurt1.wav,AtlasHurt2.wav,AtlasHurt3.wav
+| killed = AtlasDeath.wav
+| sound = AtlasIdle0.wav,AtlasIdle1.wav
+| soundtext = Idle
+| sound2 = AtlasSad0.wav
+| sound2text = Found Target
+| sound3 = AtlasSad1.wav
+| sound3text = Lost Target
+| sound4 = AtlasSwing.wav
+| sound4text = Attack
+}}
+
+'''Atlas''' is a [[Hardmode]] [[enemy]] which spawns on the [[Surface]] [[Astral Infection]] [[biome]]. It is initially idle, in which it stands still and occasionally turns around. If it notices the player, it will walk slowly towards them, attempting to jump over any obstacles in the way. When Atlas gets close enough to the player, it will uppercut them with its big arm and launch them far away, after which the attack will enter a short cooldown. If it loses sight of the player for long enough, it will return to its idle behavior.
+
+If the [[Lunatic Cultist]] is defeated but [[Astrum Deus]] has not yet been defeated in the current world, Atlases will spawn three times as often.
+
+== Notes ==
+*Using a [[Cobalt Shield]] and its upgrades completely nullifies the uppercut's knockback.
+*There is a 1 in 1000 chance that the uppercut attack will knock the player about 3 times farther away.
+
+== Trivia ==
+*In Greek mythology, [[wikipedia:Atlas (mythology)|Atlas]] is the Titan of endurance, strength and astronomy who was meant to hold up the celestial heavens for eternity.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

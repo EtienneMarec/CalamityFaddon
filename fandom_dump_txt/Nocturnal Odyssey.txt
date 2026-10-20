@@ -1,0 +1,38 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| rare = C1
+| use = 120
+| knockback = 0
+| stack = 1
+| auto = yes
+| sell = {{value|0|50}}
+| damage = 460
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| mana = 55
+| velocity = 0
+| tooltip = creates a circle of orbs that circle around your enemies and explode
+| proj = Shadingorb.png
+| projcaption = Orb
+| element1 = Unholy
+}}
+
+'''Nocturnal Odyssey''' is a craftable post-[[Purgatory Arbiter, Umbrus|umbrus]] [[spell tome]]. When used, it creates 5 orbs that circle around your enemies, one orbs explodes every seconds, damaging your enemy and making the circle smaller, if your enemy is bigger than the circle all the circles explode at once dealing 50% of the damage, You cant summon a new circle of orbs if the previous circle isnt destroyed yet. The orbs cant circle around different enemies. It should be used with other weapons.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

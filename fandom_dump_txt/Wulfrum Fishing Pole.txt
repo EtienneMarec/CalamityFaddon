@@ -1,0 +1,25 @@
+{{item infobox
+| type = Tool
+| stack = 1
+| use = 7
+| fish = 10
+| rare = 1
+| tooltip = This barely works, but it's better than nothing.
+| sell = {{value|0|0|20}}
+| proj = Wulfrum Fishing Pole (bobber).png
+| projcaption = Bobber
+}}
+
+The '''Wulfrum Fishing Pole''' is a craftable [[Pre-Hardmode]] [[fishing pole]]. It has slightly higher [[fishing power]] than the [[Wood Fishing Pole]], and has no special effects.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Wulfrum}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}

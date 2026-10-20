@@ -1,0 +1,107 @@
+<!-- Commented out rows have changes listed in the source, but since all 'new' values are the same as the old ones, effectively no changes are made
+-->{| class="terraria lined" width=85%
+!  colspan=3 | Tool !! Pickaxe Power !! Axe Power !! Hammer Power !! Toolspeed !! Tile Boost !! Auto-fire !! [[True melee]] !! Notes
+|-
+{{/Row|name=Adamantite Chainsaw|axeold=100|axenew=90|speedold=6|speednew=4|truemelee={{yes}}}}
+{{/Row|name=Adamantite Drill|speedold=7|speednew=4|boostold=0|boostnew=+1|truemelee={{yes}}}}
+{{/Row|name=Adamantite Pickaxe|speedold=7|speednew=8|boostold=0|boostnew=+1}}
+{{/Row|name=Adamantite Waraxe|axeold=100|axenew=160|speedold=6|speednew=10|boostold=0|boostnew=+1}}
+{{/Row|name=Blood Lust Cluster|axeold=75|axenew=100|speedold=15|speednew=13}}
+{{/Row|name=Bone Pickaxe|pickold=50|picknew=55|speedold=11|speednew=6}}
+{{/Row|name=Boreal Wood Hammer|hamold=35|hamnew=25|speedold=23|speednew=11}}
+{{/Row|name=Butcher's Chainsaw|speedold=8|speednew=3|truemelee={{yes}}}}
+{{/Row|name=Cactus Pickaxe|pickold=35|picknew=34|speedold=15|speednew=9}}
+{{/Row|name=Candy Cane Pickaxe|speedold=16|speednew=9|boostold=0|boostnew=+1}}
+{{/Row|name=Chlorophyte Chainsaw|axeold=115|axenew=120|speedold=7|speednew=3|boostold=+1|boostnew=0|truemelee={{yes}}}}
+{{/Row|name=Chlorophyte Drill|speedold=7|speednew=4|boostold=+1|boostnew=+2|truemelee={{yes}}}}
+{{/Row|name=Chlorophyte Greataxe|axeold=115|axenew=165|speedold=7|speednew=6|boostold=+1|boostnew=+2}}
+{{/Row|name=Chlorophyte Jackhammer|speedold=7|speednew=5|boostold=+1|boostnew=0|truemelee={{yes}}}}
+{{/Row|name=Chlorophyte Pickaxe|boostold=+1|boostnew=+2}}
+{{/Row|name=Chlorophyte Warhammer|speedold=14|speednew=8|boostold=+1|boostnew=+2}}
+{{/Row|name=Cobalt Chainsaw|speedold=8|speednew=4|boostold=0|boostnew=-1|truemelee={{yes}}}}
+{{/Row|name=Cobalt Drill|pickold=110|picknew=130|speedold=13|speednew=5|truemelee={{yes}}}}
+{{/Row|name=Cobalt Pickaxe|pickold=110|picknew=130|speedold=13|speednew=9}}
+{{/Row|name=Cobalt Waraxe|axeold=70|axenew=125|speedold=8|speednew=12}}
+{{/Row|name=Copper Axe|axeold=35|axenew=50|speedold=21|speednew=16|boostold=-1|boostnew=0}}
+{{/Row|name=Copper Hammer|speedold=23|speednew=12|boostold=-1|boostnew=0}}
+{{/Row|name=Copper Pickaxe|pickold=35|picknew=34|speedold=15|speednew=10|boostold=-1|boostnew=0}}
+{{/Row|name=Deathbringer Pickaxe|speedold=14|speednew=10}}
+{{/Row|name=Drax|truemelee={{yes}}|speedold=7|speednew=4|boostold=0|boostnew=+1}}
+{{/Row|name=Ebonwood Hammer|hamold=40|hamnew=25|speedold=20|speednew=9}}
+{{/Row|name=Flesh Grinder|hamold=55|hamnew=70|speedold=19|speednew=13}}
+{{/Row|name=Gold Axe|axeold=55|axenew=80|speedold=18|speednew=14}}
+{{/Row|name=Gold Hammer|hamold=55|hamnew=60|speedold=23|speednew=9}}
+{{/Row|name=Gold Pickaxe|speedold=17|speednew=9}}
+{{/Row|name=Hammush|speedold=14|speednew=10|boostold=0|boostnew=+1}}
+{{/Row|name=Iron Axe|axeold=45|axenew=60|speedold=19|speednew=15}}
+{{/Row|name=Iron Hammer|hamold=40|hamnew=45|speedold=20|speednew=11}}
+{{/Row|name=Iron Pickaxe|speedold=13|speednew=8}}
+{{/Row|name=Laser Drill|pickold=230|picknew=220|axeold=150|axenew=120|speedold=7|speednew=4}}
+{{/Row|name=Lead Axe|axeold=50|axenew=60|speedold=19|speednew=15}}
+{{/Row|name=Meteor Hamaxe|hamold=60|hamnew=70}}
+{{/Row|name=Molten Hamaxe|hamold=70|hamnew=75|axeold=150|axenew=125}}
+{{/Row|name=Mythril Chainsaw|truemelee={{yes}}|axeold=85|axenew=80|speedold=8|speednew=4|boostold=0|boostnew=-1}}
+{{/Row|name=Mythril Drill|truemelee={{yes}}|pickold=150|picknew=160|speedold=10|speednew=4}}
+{{/Row|name=Mythril Pickaxe|pickold=150|picknew=160|speedold=10|speednew=8}}
+{{/Row|name=Mythril Waraxe|axeold=85|axenew=140|speedold=8|speednew=11}}
+{{/Row|name=Nebula Chainsaw|truemelee={{yes}}}}
+{{/Row|name=Nebula Drill|truemelee={{yes}}|speedold=9|speednew=3}}
+{{/Row|name=Nebula Hamaxe|axeold=150|axenew=175|speedold=7|speednew=5}}<!--
+{{/Row|name=Nebula Pickaxe}}-->
+{{/Row|name=Nightmare Pickaxe|pickold=65|picknew=66|speedold=15|speednew=9}}
+{{/Row|name=Orichalcum Chainsaw|truemelee={{yes}}|axeold=90|axenew=80|speedold=7|speednew=4|boostold=0|boostnew=-1}}
+{{/Row|name=Orichalcum Drill|truemelee={{yes}}|pickold=165|picknew=160|speedold=10|speednew=4}}
+{{/Row|name=Orichalcum Pickaxe|pickold=165|picknew=160}}
+{{/Row|name=Orichalcum Waraxe|axeold=90|axenew=140|speedold=7|speednew=11}}
+{{/Row|name=Palladium Chainsaw|truemelee={{yes}}|axeold=75|axenew=70|speedold=8|speednew=4|boostold=0|boostnew=-1}}
+{{/Row|name=Palladium Drill|truemelee={{yes}}|speedold=11|speednew=5}}
+{{/Row|name=Palladium Pickaxe|speedold=11|speednew=9}}
+{{/Row|name=Palladium Waraxe|axeold=75|axenew=125|speedold=8|speednew=12}}
+{{/Row|name=Palm Wood Hammer|hamold=35|hamnew=25|speedold=23|speednew=11}}
+{{/Row|name=Pearlwood Hammer|hamold=45|hamnew=25|speedold=19|speednew=4|notes={{*}}useAnimation decreased from 29 to 20<br/>{{*}}Damage increased from 9 to 36}}
+{{/Row|name=Pickaxe Axe|boostold=0|boostnew=+1}}<!--
+{{/Row|name=Picksaw}}-->
+{{/Row|name=Platinum Axe|axeold=60|axenew=80|speedold=17|speednew=14}}
+{{/Row|name=Platinum Hammer|hamold=59|hamnew=60|speedold=21|speednew=9}}
+{{/Row|name=Platinum Pickaxe|pickold=59|picknew=55|speedold=15|speednew=9}}
+{{/Row|name=Pwnhammer|speedold=14|speednew=11|boostold=0|boostnew=+1}}
+{{/Row|name=Reaver Shark|speedold=18|speednew=16}}
+{{/Row|name=Rich Mahogany Hammer|hamold=35|hamnew=25|speedold=23|speednew=10}}
+{{/Row|name=Rockfish|hamold=70|hamnew=50|speedold=14|speednew=10}}
+{{/Row|name=Sawtooth Shark|truemelee={{yes}}|axeold=70|axenew=45|speedold=8|speednew=4|boostold=0|boostnew=-1}}
+{{/Row|name=Shadewood Hammer|hamold=40|hamnew=25|speedold=20|speednew=9}}<!--
+{{/Row|name=Shroomite Digging Claw}}-->
+{{/Row|name=Silver Axe|axeold=50|axenew=70|speedold=18|speednew=14}}
+{{/Row|name=Silver Hammer|hamold=45|hamnew=55|speedold=19|speednew=10}}
+{{/Row|name=Silver Pickaxe|pickold=45|picknew=50}}
+{{/Row|name=Solar Flare Chainsaw|truemelee={{yes}}}}
+{{/Row|name=Solar Flare Drill|truemelee={{yes}}|speedold=9|speednew=3}}
+{{/Row|name=Solar Flare Hamaxe|axeold=150|axenew=175|speedold=7|speednew=5}}<!--
+{{/Row|name=Solar Flare Pickaxe}}-->
+{{/Row|name=Spectre Hamaxe|axeold=150|axenew=170|boostold=+3|boostnew=+4}}
+{{/Row|name=Spectre Pickaxe|speedold=10|speednew=8|boostold=+3|boostnew=+4}}
+{{/Row|name=Stardust Chainsaw|truemelee={{yes}}}}
+{{/Row|name=Stardust Drill|truemelee={{yes}}|speedold=9|speednew=3}}
+{{/Row|name=Stardust Hamaxe|axeold=150|axenew=175|speedold=7|speednew=5}}<!--
+{{/Row|name=Stardust Pickaxe}}
+{{/Row|name=The Axe}}-->
+{{/Row|name=The Breaker|hamold=55|hamnew=70|speedold=19|speednew=13}}
+{{/Row|name=Tin Axe|axeold=40|axenew=50|speedold=20|speednew=16}}
+{{/Row|name=Tin Hammer|hamold=38|hamnew=35|speedold=21|speednew=12}}
+{{/Row|name=Tin Pickaxe|speedold=14|speednew=10}}
+{{/Row|name=Titanium Chainsaw|truemelee={{yes}}|axeold=105|axenew=90|speedold=6|speednew=4}}
+{{/Row|name=Titanium Drill|truemelee={{yes}}|pickold=190|picknew=180|speedold=7|speednew=4|boostold=0|boostnew=+1}}
+{{/Row|name=Titanium Pickaxe|pickold=190|picknew=180|speedold=7|speednew=8|boostold=0|boostnew=+1}}
+{{/Row|name=Titanium Waraxe|axeold=105|axenew=160|speedold=6|speednew=10|boostold=0|boostnew=+1}}
+{{/Row|name=Tungsten Axe|axeold=55|axenew=70|speedold=18|speednew=14}}
+{{/Row|name=Tungsten Hammer|hamold=50|hamnew=55|speedold=25|speednew=10}}
+{{/Row|name=Tungsten Pickaxe|speedold=19|speednew=11}}
+{{/Row|name=Vortex Chainsaw|truemelee={{yes}}}}
+{{/Row|name=Vortex Drill|truemelee={{yes}}|speedold=9|speednew=3}}
+{{/Row|name=Vortex Hamaxe|axeold=150|axenew=175|speedold=7|speednew=5}}<!--
+{{/Row|name=VortexPickaxe}}-->
+{{/Row|name=War Axe of the Night|axeold=75|axenew=100|speedold=15|speednew=13}}
+{{/Row|name=Wooden Hammer|speedold=25|speednew=11|boostold=-1|boostnew=0}}
+|}
+
+[[Category:Game mechanics]]

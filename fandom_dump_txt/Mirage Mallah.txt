@@ -1,0 +1,77 @@
+<section begin=npc infobox />
+{{npc infobox
+| name = Mirage Mallah
+| type = Boss
+| ai = Mirage Mallah AI
+| environment = Desert
+| life = {{dv|125,000|150,000|175,000|200,000}}
+| damage = {{dv|80|155|195|230}} (Fists)
+| defense = 40
+| dr = 25
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| duration = {{dv|2.5|4}} seconds (Fists)
+| debuffchance = 100%
+| knockback = 100
+| money = {{gc|60}}
+| Accursed Artifact|{{dv|4-6|7-9}}|100%
+| Forbidden Fragment|{{dv|1-3|3-5}}|100%
+| hardmode = yes
+| boxwidth = 26em
+| banner = no
+| immune1 = Confused
+| image2 = Mirage Mallah map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+}}<section end=npc infobox />
+<big>''"Twisted spirits have begun shifting the sands..."''</big>
+
+The '''Mirage Mallah''' is a post-[[Golem]] [[boss]].
+
+The Mirage Mallah enrages outside of the desert, causing his speed and defense to drastically increase.
+
+== Spawn ==
+The Mirage Mallah does not spawn on his own, and can only be summoned in the [[Desert]] using a [[Canopic Jar]].
+
+== Behavior ==
+Upon being summoned, Mirage Mallah will conjure 2 tall sand tornadoes that serves as the arena's border. These tornadoes deals a huge amount of DOTs, and when leaving beyond the border, it will enrage the boss. Going back in will turn the boss back to normal.
+===Attacks===
+
+====Phase 1====
+*'''Greater Sandnado:''' It summons 2 great sand tornadoes, which fires large sandstones and sand sharks at the player.
+*'''Shadow Fists:''' It positions their hands between the player, predicting their movement before punching them. This happens 3/{{revengeance|4}} times, with its last attack being empowered, moving faster and gaining the ability to stun the player for 3/{{expert|5}} seconds.
+*'''Mallah Shock:''' It uses its hands to fire purple lightning bolts that can weakly arc to the player's current location.
+*'''Sand Pillar:''' Mirage Mallah summons sand pillars from below on the player's position, which then either topples left or right, depending on where the player is when the pillar began falling.
+
+====Phase 2====
+Once phase 2 begins, its mask flies off, revealing its true form. In this new phase, he ditches the greater sandnado attack in exchange for a few new attacks:
+*'''Puppet Summon:''' It will call in 2 medjed puppets from the top, controlled on a string by the shadow hands. These puppets fire egyptian runes that inflicts the [[Holy Flames]] debuff, and are seperate entities from the boss itself.
+*'''Shadow Grab:''' Mirage Mallah opens its hands in preparation of grabbing the player. The hands then lunges at the player 2/{{revengeance|3}} times. If it successfully grabs the player, a quick-time event ensues where the player must press their movement keys in the correct direction to make the hand loses its grasps. If unsuccessful, the hand will throw the player to the border sandnadoes.
+*'''Shadow Cloning:''' Mallah will teleport, leaving behind a clone that shoots the aforementioned purple lightning bolts for a few seconds before dissipating. At lower health, the clones will last longer and fires faster.
+
+====Phase 3====
+Upon reaching phase 3, it will burst into a ton of shadow locusts and hides in one of them. During this, the border sandnadoes intensifies and merges into one wide sandstorm that the player is in. If the player attempts to leave the arena, they will be forced back in, inflicting the [[Dazed]] debuff.
+
+The Player must locate the locusts that the boss is currently possessing, and then attack it at close proximity, as it is only tangible when close. The possessed locust can always be identified by the bright red eyes that they sport. They have 120/{{Revengeance|90}}/{{Death|60}} seconds to hunt down 10 possessed locusts. If they fail in that time frame, the mask will return and instakills the player, akin to the [[Dungeon Guardian]].
+
+However, while they are attempting to locate the possessed locust, they must traverse through the storm's many debris it has picked up, as follows:
+*Sand Sharks
+*Skeletal remains of the Great Sand Shark, which can deal massive damage and sports high defense damage.
+*Palm Trees, which sometimes drops its associated fruits.
+*Various Crates, which explodes into various associated damaging treasures upon contact
+*Large Sandstones
+*Barrel of Smoke Bombs, which fogs the player's vision
+
+As the fight goes on, more debris will be thrown at the player, and the sandstorm effect will be much harsher, nearly obstructing the player's vision.
+
+If the player successfully kills the 10th possessed locusts, the boss's soul will be dissipated, dropping its loot, and the raging sandstorm will calm itself down, ending the fight for good.
+==Summons==
+
+==Trivia==
+*The Mirage Mallah was a boss in the works for several years thought to have been scrapped dating back to around 2016-2017.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

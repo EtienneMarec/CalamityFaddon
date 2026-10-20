@@ -1,0 +1,36 @@
+{{npc infobox
+| type = Enemy
+| environment = Ogswarm
+| ai = Bloody Burrower AI
+| damage = {{element|Unholy}} {{dv|30|60}}
+| life = {{dv|100|180}}
+| defense = 15 
+| dr = 5%
+| knockback = 0
+| money = {{value|0|0|1|0}}
+| debuff = Slow
+| debuffchance = 25%
+| duration = 10 seconds
+| immune1 = Vulnerability Hex
+| immune2 = Confused
+| immune3 = Kami Flu
+| immune4 = Brimstone Flames
+| banner = yes
+| Vertebra | 1 | 33.3%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_8.wav
+| soundtext = Teleport
+| vulnerable1 = Holy
+| vulnerable2 = Magic
+| vulnerable3 = Fire
+| resistant1 = Poison
+| resistant2 = Unholy
+}}
+The '''Bloody Burrower''' is a Pre-[[Hardmode]] [[enemy]] which spawns during the [[Ogswarm]] in a [[The Crimson|Crimson]] world. It slowly floats through the air toward the player while teleporting randomly, similar to the [[Brain of Cthulhu]]. While in the air, it will randomly fire a slow-moving laser at the player.
+{{-}}
+
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

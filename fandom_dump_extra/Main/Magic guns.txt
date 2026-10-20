@@ -1,0 +1,22 @@
+'''Magic guns''' are [[magic weapons]] that are similar to [[guns]] in their design, but instead of consuming [[bullet|bullets]] or other [[ammunition]], they use [[mana]] to produce a projectile inflicting magic damage.
+{| class="terraria sortable lined" id="dpl-table"
+! colspan=2 |  Name !! Damage !! Use Time !! Knockback !! Velocity !! Mana !! Critical Chance !! Autoswing !! [[Rarity]] !! <abbr title="Hardmode">HM</abbr> !! <abbr title="Godseeker Mode">GM</abbr> !! Epilogue !! Sell
+|-
+{{#dpl:
+| category = Magic guns
+| namespace = <!-- need to have it blanked to restrict it to main namespace. prevents category pages from being included-->
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦:Magic weapons/dpl}
+| mode = userformat
+}}
+|}
+
+{{Master Template Weapons
+| show-main  = yes
+| show-magic = yes
+}}
+
+[[Category:Weapon items| ]]
+[[Category:Magic weapons| ]]
+[[Category:Magic guns|*]]

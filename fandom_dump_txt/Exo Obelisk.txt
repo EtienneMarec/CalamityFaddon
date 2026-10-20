@@ -1,0 +1,35 @@
+{{npc infobox
+| imagealt = <Tabber>
+Default=[[File:Exo Obelisk.png]]
+|-|
+Supercharged=[[File:Exo Obelisk Charged.png]]
+</Tabber>
+| environment = Surface
+| environment2 = The Exosphere
+| type = Enemy
+| ai = Exo Obelisk AI
+| life = {{dv|49,000|98,000}}
+| damage = 0 (Contact)<br/>{{element|Holy}} {{dv|500|1000}} (Prismatic Deathray)
+| defense = 65
+| knockback = 0%
+| money = {{value|0|0|0|0|1}}
+| Exo Prism | 2-3 | 100%
+| Exo Core | 1 | 100%
+| immune1 = Kami Flu
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound4 = DevourerAttack.wav
+| sound4text = Deathray
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Magic
+| resistant1 = Poison
+| resistant2 = Water
+| resistant3 = Machine
+}}
+The '''Exo Obelisk (Japanese: エクソオベリスク Ekusooberisuku)''' is an [[enemy]] found on the [[Surface]] during daytime, or in [[The Exosphere]]. It is completely stationary, but will activate when approached, emitting an aura around it that will supercharge other [[Exo Enemies]]. It will also begin to occasionally charge up and fire a high damaging Prismatic Deathray.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

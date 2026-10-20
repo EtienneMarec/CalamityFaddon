@@ -1,0 +1,25 @@
+{{item infobox
+| type = Covering
+| rare = 12
+| stack = 1
+| tooltip = Completely disables your damage reduction, but gives you 2 times more speed and 3 times more attack speed
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|20}}
+}}	
+
+The '''Disorderful Soul Artifact''' is a craftable [[Godseeker Mode]] [[covering]] that reduces the players [[Damage Reduction]] to 0, while doubles the movement speed and triples the attack speed.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Plates}}
+{{Master Template Equipables
+|show-main = yes
+|show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

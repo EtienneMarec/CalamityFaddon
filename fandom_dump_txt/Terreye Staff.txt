@@ -1,0 +1,39 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| stack = 1
+| auto = yes
+| damagetype = summon
+| damage = 129
+| use = 29
+| mana = 10
+| knockback = 1
+| tooltip = Takes up 4 minion slots to summon a trio of floating biomasses to shoot at and ram at enemies<br/>Hold right click on an enemy to channel a sigil on them<br/>Once the sigil reaches full size, the trio rapidly converge on it, dealing massive damage and spawning healing life hearts<br/>Only one set of eyes can exist
+| buff = Terreyes (buff) | bufflink = no
+| bufftip = It's not easy being green
+| rare = 7
+| sell = {{value|0|2}}
+| proj = Living Shard.png
+| projcaption = Life Heart
+| hardmode = yes
+| element1 = Poison
+}}
+{{summoned|Floating Biomass|type=minion|image=[[File:Floating Biomass.png]]}}
+
+The '''Terreye Staff''' is a craftable [[Hardmode]] [[summon weapon]]. It summons a trio of [[Floating Biomass]]es that follow slightly above the player. When an enemy is nearby, one eye will start rapidly charging into them while spawning homing terra seekers, the second eye will stay at a distance unleashing a stream of terra flames, and the third eye will quickly orbit targets while firing terra beams inwards. If the player holds right click directly on an enemy for 5 seconds, all 3 eyes will rapidly charge into said enemy. All 3 eyes will reach the enemy at the same time, regardless of distance, and once they converge, a burst of 10-20 terra disks are shot in random directions and two tarra hearts are spawned. Tarra hearts are affected by gravity and heal players for 10 health when picked up. Only one set of biomasses can exist at once.
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Terra}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

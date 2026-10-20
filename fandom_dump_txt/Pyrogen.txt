@@ -1,0 +1,146 @@
+<section begin="npc" infobox="" />{{npc infobox
+| name = Pyrogen
+| type = Boss
+| imagealt = [[File:Pyrogen.png]]
+| ai = Pyrogen AI
+| environment = The Underworld
+| life = {{dv|44,000|52,000|66,600}}
+| damage = {{dv|70|130|145|172}} (Contact)<br/>{{dv|46|80|96|108}} (Magma Blast)<br/>{{dv|42|54|78|112}} (Obsidian Shard)<br/>{{dv||300|500|6666}} (Hellstorm)
+| defense = 24
+| dr = 20%
+| knockback = 200
+| money = {{gc|20}}
+| Essence of Chaos|{{dv|4-8|5-9}}| 100%
+| Core of Sunlight|{{dv|4-8|5-9}}| 100%
+| Core of Chaos|{{dv|4-8|5-9}}| 100%
+| Core of Eleum|{{dv|4-8|5-9}}| 100%
+|group|At least one of the following 5 weapons will always drop:|5
+| Obsidigun|1|{{dv|25%|33.33%}}
+| Seared Shredder|1|{{dv|25%|33.33%}}
+| Molten Piercer|1|{{dv|25%|33.33%}}
+| The Generator|1|{{dv|25%|33.33%}}
+| Hell's Bells|1|{{dv|25%|33.33%}}
+| Soul of Pyrogen|1|100%
+| Pyro Stone|1|20%
+| Hell Flare|1|20%
+| Heated Profanity|1|10%
+| Greater Healing Potion|5-15|100%
+| Pyrogen Mask|1|14.29%
+| Pyrogen Trophy|1|10%
+| custom| {{item|Pyrogen (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| image2 = Pyrogen-IconT2.png
+| image2caption = Map Icon
+| debuff = On Fire!
+| debuffchance = 100%
+| duration = 20 seconds
+| debufftip = Slowly losing life
+| debuff2 = Armor Crunch
+| debuffchance2 = 100%
+| duration2 = 5 seconds (Contact), 20 seconds (Obsidian Shard)
+| debufftip2 = Your armor is shredded
+| debuff3 = Dragon Fire
+| debuffchance3 = 100%
+| debuffduration3 = 1 second (Contact), 30 minutes (Hellstorm)
+| debufftip3 = Losing life, reduced movement speed
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Glacial State
+| immune4 = Exo Freeze
+| immune5 = Frostburn
+| immune6 = Dragon Fire
+| immune7 = Brimstone Flames
+| immune8 = On Fire!
+| vulnerable1 = Water
+| vulnerable2 = Stab
+| vulnerable3 = Smash
+| resistant1 = Cold
+| resistant2 = Unholy
+| resistant3 = Magic 
+| resistant4 = Slash
+| resistant5 = Fire
+| hardmode = yes
+| boxwidth = 24em
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_15.wav
+| sound = Item_28.wav
+| soundtext = Projectiles
+}}<section end="npc" infobox="" />[[File:Pyrogen-Trophy.png]] <big> ''""Yo chat Pyrogen is so so hot be so for real" -Tsun Zhu, The Art of War"'' </big> [[File:Pyrogen-Trophy.png]]
+
+'''Pyrogen''' (Japanese: パイロジェン ''Pairojen'') is the final [[Hardmode]] [[boss]] that can be fought in the [https://terraria.fandom.com/wiki/The_Underworld%7CUnderworld Underworld] or [[Brimstone Crag]]. Being a construct of the same nature as [[Cryogen]], Pyrogen possesses many similarities to it in battle.
+
+Defeating Pyrogen will free the [[Guide]], as well as generate [[Scoria Ore]] in the [[Abyss]].
+==Spawn==
+Pyrogen does not spawn on its own and requires the player to throw a [[Cryo Key]] into lava.
+==Behavior==
+Pyrogen has four phases, cycling to the next after a set amount of time has passed. The speed and intensity of each phase increases as the boss loses health. 
+
+Pyrogen also spawns with an obsidian shield which destroys all incoming projectiles. Certain attacks will seperate Pyrogen from it's shield, allowing the player to attack it. 
+
+Leaving the Underworld will cause Pyrogen to enrage, causing it's attack speeds to dramatically increase alongside it's phases. The speed of which each attack is performed is also sharply increased under the same conditions.
+===Attacks===
+====Phase 1====
+*Slowly chases and attempts to orbit the player.
+*Fires a tightly-packed burst of 13 {{item|Obsidian Shard|s|link=}} at the player every 4 seconds.
+**These Obsidian Shards are unique in that they do not inflict any debuffs.
+*After four revolutions, charges at the player. Upon reaching the edge of the screen, performs a predictive dash at the player's position. This separates the boss from it's shield for 4 seconds.
+
+====Phase 2====
+*Attempts to hover above the player, firing gravity-affected Obsidian Shards upward.
+*After all shards stick in the ground, they then explode and send shrapnel in all directions.
+*After firing 2 bursts of Obsidian Shards, briefly locks in a set position below the player, then aggressively charges at them multiple times in quick succession. 
+*Upon reaching a stop, the boss's shield slides away for a moment. The boss will fire rings of Magma Blasts outward for the duration of it's vulnerable state.
+====Phase 3====
+*Slowly chases the player, keeping a minimum distance.
+*Each shield piece will rise from below the player, maintaining evenly-spaced gaps.
+====Phase 4====
+*Quickly chases the player.
+*Shield pieces extend outward to increase Pyrogen's melee range, allowing the player to shoot between them.
+*Fires Magma Blasts at double the frequency.
+*Every 5 seconds, Pyrogen will teleport somewhere near the player and continue chasing from the new position.
+**The location it teleports to is surrounded by a cloud of orange dust two seconds prior to telegraph its location.
+**This dust maintains a relative distance to the player, so running away will not gain distance.
+**Furthermore, locations ahead of the player's current trajectory are prioritized.
+====Phase 5====
+*Only used after {{dv|44%||55%|}} health.
+*Shield explodes, and the boss begins to spin into a Hellstorm.
+**Incoming damage to the boss is halved during this time.
+*The hellstorm will pull the player in, pulling rings of Obsidian Shards inward.
+*Upon the attack's conclusion, fires a massive cluster of Obsidian at the player, which will then explode into a massive cluster of Obsidian Shards.
+===In [[Expert Mode]]===
+*Phases transition faster.
+*Inflicts Hellfire instead of On Fire.
+
+===In [[Revengeance Mode]]===
+*Pyrogen and its projectiles are slightly faster.
+*Pyrogen's shield will now aggressively ram the player during downtime after 25% health.
+*Pyrogen and its projectiles are even more aggressive and faster.
+
+===In [[Death Mode]]===
+*Now teleports regardless of phase.
+
+===On the [[tgc:For_the_worthy|For the worthy]] seed===
+*Pyrogen is 50% smaller.
+*Pyrogen's shield is 100% bigger.
+**The amount of shards comprising Pyrogen's shield is doubled in order to make up for this.
+*Pyrogen's shield now deflects projectiles instead of destroying them.
+**These deflections have the exact same damage and debuffs as the original projectile.
+
+==Aftermath==
+*Once Pyrogen is defeated for the first time, [[Scoria Ore]] spawns in the [[Abyss]].
+*The [[Guide]] will begin to arrive if provided suitable housing.
+**If the Guide isn't in the player's current world, he will drop alongside Pyrogen's loot.
+==Tips==
+{{dablink|For more elaborate strategies on defeating Pyrogen, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Pyrogen strategies]].}}
+*Pyrogen's shield can be bypassed by long-ranged True melee weapons.
+*A flat arena can help avoid being cornered.
+==Trivia==
+*Pyrogen's [[Music|theme]] is [https://www.youtube.com/watch?v=cyireJiPCdU '''Searing Ferocity'''], which was composed by the artist [https://www.youtube.com/@BrimstonPremium Brimston Premium].
+**If the Calamity Music add-on mod is disabled, the [[Pumpkin Moon]]'s theme will play instead.
+*If Pyrogen is lured into an Ice biome, it will freeze over, defeating it instantly.
+**However, none of Pyrogen's items will drop normally if this is done, nor will Scoria ore spawn until it is defeated properly - though, the Guide NPC will still drop out of it.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "Pyrogen settles once more into the searing lake."
+*While it may generate Scoria ore, you still need to beat golem for the picksaw in order to mine it.
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

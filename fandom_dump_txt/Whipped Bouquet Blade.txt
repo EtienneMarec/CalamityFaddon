@@ -1,0 +1,68 @@
+{{dedicated|CreamRoseWhippy|Patreon Donator}}
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damage = 620
+| use = 30
+| damagetype = melee
+| knockback = 5
+| auto = yes
+| velocity = 6
+| stack = 1
+| rare = 15
+| sell = {{value|0|25|0|0}}
+| tooltip = Cast out a volley of Cream Pearl every swing
+Graze enemy projectiles to gain cream points
+Gaining 120 cream points adds a Dessert Charge, increasing defense by 20 and damage by 5%
+{{Key|open}} to use up all stored charges, firing out dessert bouquets that explodes into more cream petals
+'As light as the sound of falling morning dew...'
+| hardmode = yes
+| postml = yes
+| element1 = Holy
+| element2 = Slash
+}}
+
+The '''Whipped Bouquet Blade''' is a craftable Godseeker Mode [[broadsword]] that autoswings. When swung, it fires a volley of 4 cream pearls that explodes on enemy/solid tile impact, casting down 6-8 cream petals on the site where said pearl exploded.
+
+Uniquely, it also has a graze mechanic where Cream points are attained from grazing enemy projectiles. These cream points are instantly diminished by switching out to another weapons, being out of combat for too long, or getting hit. Getting 120 cream points adds a Dessert charges, indicated by a glowing white feather orbiting the player. These dessert charges increases defense by 20 and damage by 5%. {{Key|open}} releases all the dessert charges at once, firing off gravity-affected bouquets that explodes on enemy contact, creating more petals in a flower-like pattern upon doing so. Up to 6 Dessert charges (720 cream points) can be stored at once, and for every dessert charges, an extra bouquet will be fired.
+
+{{Modifier|melee}}
+
+== Projectile Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Type !! Damage !! Description
+|-
+| {{item|Cream Pearl|Cream Pearl|mode=table|nolink=y}}
+| 80%
+| Explodes on impact, calling down a volley of Cream petals from above.
+|-
+| {{item|Cream Petals|Cream Petals|mode=table|nolink=y}}
+| 10%
+| Can pierce through enemies and tiles.
+|-
+| {{item|Cream Bouquet|Cream Bouquet|mode=table|nolink=y}}
+| 150%
+| Explodes into many cream petals in a flower-like pattern.
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Successfully grazing an enemy attack is indicated by a sound effect and a pink (blue if its maxed out) sparkle.
+*The graze has a radius of 12 tiles.
+*Each graze adds +5 Cream points.
+**This means 144 grazes are needed to reach the maximum.
+
+== Trivia ==
+*This item is a direct reference to [https://cookierun.fandom.com/wiki/Whipped_Cream_Cookie Whipped Cream Cookie] from the [https://en.wikipedia.org/wiki/Cookie_Run Cookie Run] franchise.
+**Its tooltip quote is directly taken from one of his quotes from Cookie Run: Ovenbreak, the game he first debut in.
+*Its graze mechanic is based off the same mechanic found in the [https://en.wikipedia.org/wiki/Touhou_Project Touhou Project] Series.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

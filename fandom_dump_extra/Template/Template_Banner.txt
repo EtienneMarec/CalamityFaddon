@@ -1,0 +1,11 @@
+<includeonly><span style="white-space:nowrap;"><!-- 
+-->{{#vardefine:__banner_name|{{{1|{{{enemy|}}} Banner}}}}}<!-- 
+-->{{#if:{{{anchor|}}}||<span class="anchor" id="{{#var:__banner_name}}"></span>}}<!-- 
+
+-->[[File:{{#var:__banner_name}} (placed).png|{{#var:__banner_name}} placed|link=]] <!-- 
+-->{{item|{{#var:__banner_name}}|link={{{link|{{{enemy|}}}}}}|id={{{id|}}}}}<!-- 
+
+--></span></includeonly><!--
+
+--><noinclude><!--
+-->{{doc}}<!--

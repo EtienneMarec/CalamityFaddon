@@ -1,0 +1,113 @@
+<section begin=npc infobox />
+{{npc infobox
+| name = Pandora, the Hypnotized Witch
+| type = Boss
+| imagealt = <Tabber>
+Phase 1 = [[File:Pandora.png]]
+|-|
+Phase 2 = [[File:PandoraPhase2.png]]
+</Tabber>
+| ai = Pandora AI
+| life = {{dv|40,000|60,500|81,000|101,500}}
+| damage = '''{{element|Unholy}} Contact: '''{{dv|100|215|330|460}}<br/>'''{{element|Fire}} Fireball: '''{{dv|50|75|100|125}}<br/>'''{{element|Dark}} Shadow ball: '''{{dv|100|150|200|250}}<br/>'''Focused Laser: '''{{dv|150|250|325}}<br/>'''Laser Wall: '''{{dv|80|120|240}}<br/>'''{{element|Magic}} Falling Stars: '''{{dv|80|120}}
+| defense = 50
+| dr = 15
+| debuff = Daybroken
+| debufftip = Incinerated by solar rays
+| duration = {{dv|1.5|3|6}} seconds (Fireball)
+| debuff2 = Shadowflame
+| debufftip2 = Losing life
+| duration2 = {{dv|2.5|4}} seconds (Nebula Blaze)<br/>{{dv|0.5|2}} seconds (Nebula Laser)
+| debuff3 = Marked
+| debufftip3 = Damage reduction reduced
+| duration3 = {{dv|0.5|2|4}} seconds (Focused Laser)
+| knockback2 = 100
+| money = {{gc|30}}
+| Shattered Start Block|{{dv|5-6|8-10|12-15|}}|100%
+| Shattered Message Block|{{revengeance|7-10|}}|{{Revengeance|100%}}
+|group|At least one of the following 5 weapons will always drop:|5
+| Severed Eye.exe|1|{{dv|25%|33.33%}}
+| Fina's Gun|1|{{dv|25%|33.33%}}
+| Corrupt Hypno Flute|1|{{dv|25%|33.33%}}
+| Pandora's Chest|1|{{dv|25%|33.33%}}
+| Mambel-Jambo|1|{{dv|25%|33.33%}}
+| Pandora Trophy|1| 10%
+| Pandora Mask|1| 14.29%
+| custom| {{item|Pandora, the Hypnotized Witch (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Pandora)|Treasure Bag|note=(Pandora)|wrap=y}}
+| hardmode = yes
+| boxwidth = 26em
+| banner = no
+| immune1 = Confused
+| immune2 = Pearl Aura
+| image2 = Pandora map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_39.wav
+| vulnerable1 = Poison
+| vulnerable2 = Holy
+| vulnerable3 = Radioactive
+| vulnerable4 = Acid
+| vulnerable5 = Stab
+| resistant1 = Fire
+| resistant2 = Unholy
+| resistant3 = Magic
+| resistant4 = Machine
+}}<section end=npc infobox />
+
+'''Pandora, the Hypnotized Witch''' (Japanese: 催眠術にかかった魔女パンドラ ''Saimin-jutsu ni kakatta majo Pandora'') is an optional [[Hardmode]] [[Challenges|boss]] fought anywhere. While she can be fought at anytime in Hardmode, she is generally intended to be fought after the Mechanical Bosses.
+
+==Spawn==
+Pandora, the Hypnotized Witch can be summoned by putting a [[Skeletron Mask]] in an [[Chests|Ashen Chest]], and renaming that Chest "Infernal_Fire.exe", while there is a [[Events|Blood Moon]]. This will consume the Mask inside it, and Pandora will appear.
+
+==Behavior==
+When summoned, Pandora, the Hypnotized Witch will appear above the player. She tends to teleport near the player upon attacking. After reaching a certain threshold, she will conjure {{dv|1|2}} Nebula Blazes per attack. There can only be 10 nebula blazes at a time, and upon hitting that limit, will be fired out in all directions, homing onto the  player after a given time.
+
+===Attacks===
+
+====Phase 1====
+*Fires out a barrage of {{dv|1|2|3}} Shadow Balls and {{dv|2|3|4}} Fireballs at the player, both of them aggressively homing at the player for a certain time before expiring.
+*After {{dv|5|4}} rounds of Shadow Balls and Fireballs, fires 2 laser walls at the player. The order goes from Left-Right, Up-Down, Left-Right, Up-Down, and finally in all 4 cardinal directions.
+*After the 2nd barrage, Fires out a volley of {{dv|3|6}} Focused lasers in a spread. These lasers can come in 2 colors: Purple and Red. These are merely visuals.
+*After the 3rd barrage, Conjures a raining barrage of falling stars for 5 seconds. While this is happening, she begins summoning {{dv|2|4}} more nebula blazes. They share the same limits as ones summoned in between her attacks, and functions the same as one conjured by the former.
+
+====Phase 2====
+Upon reaching {{dv|50%|60%|70%}} health, She transitions into Phase 2, turning all red and black in the process. Her Phase 1 attacks remains, but she gains a new attack in conjunction with the starfall attack.
+
+*She now rains falling stars while performing her Laser Wall and Focused Laser attack.
+*After the 3rd barrage, she now teleports and follow below the player, and then fires a spread of Focused lasers {{dv|2|3}} times, with the shot predicting the player's movement.
+
+===In Expert Mode===
+*Laser walls are much faster, and now repeats 2 times.
+*Focused lasers are much faster.
+
+===In [[Revengeance Mode]]===
+*In Phase 2, after the 1st barrage, she summons a [[Baby_Skeletron_Head.exe]] to aid her in the fight.
+**Only one can be out at a time.
+*In a Laser Wall attack, She periodically fires a focused laser at the player.
+
+
+===In [[Death Mode]]===
+*Two Baby_Skeletron_Head.exe can now be out at a time.
+
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align = center |{{item|mode=table|Baby_Skeletron_Head.exe}} || Always in [[Revengeance Mode]] and in the [[Boss Rush]].
+|}
+
+==Notes==
+*
+==Tips==
+*
+==Trivia==
+*The [[Music|theme]] of Pandora, the Hypnotized Witch is [https://www.youtube.com/watch?v=3bIy-eaLmKc Twisted Garden], which was composed by the artist [https://www.youtube.com/@ENNWAY ENNWAY].
+**Her Phase 2 music is just the lower pitched version of the same song.
+**This song is just a placeholder for her upcoming theme. Currently, this unique theme is not being worked on.
+**If the Calamity Music add-on mod is disabled, '''Boss 5''' will play instead.
+* The [[Bestiary]] entry for Pandora, the Hypnotized Witch: “A magical girl who was brainwashed by an evil clone, along with her friends. Her friends' whereabout is still unknown...”
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = ranged
+| damage = 70
+| knockback = 2.5
+| rare = 12
+| sell = {{value|0|24}}
+| use = 5
+| stack = 1
+| velocity = 16
+| tooltip = 50% chance to not consume ammo<br/>Fires streams of water every other shot<br/>Fires a homing rocket every 18 shots, which explodes into fire shards on death
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 3-6 seconds (Fire shards)
+| debufftip = Slowly losing life
+| hardmode = yes
+| postml = yes
+| proj = Seadragon rocket.png
+| projcaption = Seadragon Rocket
+| element1 = Water
+| element2 = Fire
+| element3 = Stab
+}}
+
+The '''Seadragon''' is a craftable Godseeker Mode [[Guns|gun]] that is an upgrade to the [[Megalodon]]. It rapidly fires bullets, with every other shots turning into a stream of water that does not consume ammo. Every 18 shots, it will instead fire a homing rocket that explodes into fire shards, which also does not consume ammo.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon acts similar to the [[SDFMG]].
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

@@ -1,0 +1,33 @@
+{{addon|Apotheosis and Friends}}
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 3
+| color = #EB6C6C
+| sell = {{value|0|0|3}}
+| use = 14
+| tooltip = It resonates.
+}}
+
+'''Bloodplate''' is a craftable [[Pre-Hardmode]] [[block]]. Unlike similar items, it does not appear naturally and can only be crafted.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Trivia==
+*Unlike the other "plates," this item does not appear to resemble an element traditionally found in other video games.
+**This plate likely serves to represent the [[Bleeding]] debuff dealt by physical weapons, which is often accompanied by "Poison" elements (represented by [[Plagueplate]]).
+{{-}}
+{{Plates}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

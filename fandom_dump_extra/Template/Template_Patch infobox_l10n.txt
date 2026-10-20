@@ -1,0 +1,16 @@
+{{l10n/register|patch infobox|en<!--
+	-->|patchnameformat="$patchname$"<!--
+	-->|release_date=Release date<!--
+	-->|dateformat=F j, Y<!-- See the table on the right on https://www.mediawiki.org/wiki/Help:Extension:ParserFunctions##time for documentation
+	-->|tba=TBA<!--
+	-->|chronology=Version chronology<!--
+	-->|prev=Previous<!--
+	-->|next=Next<!--
+	-->|useful_links=Useful links<!--
+	-->|versionhistory_link=Version history<!--
+	-->|versionhistory=Version history<!--
+	-->|all_patches=All patches<!--
+	-->|cate=Patches<!--
+    -->|music_mod=Music Mod version<!--
+    -->|main_mod=Main Mod version<!--
+-->}}

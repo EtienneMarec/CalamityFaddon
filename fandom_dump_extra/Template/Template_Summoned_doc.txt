@@ -1,0 +1,20 @@
+Use this on pages describing pet, minion, or mount summon items, to illustrate the summoned entity and its buff icon. This template is intended to merge the three pages that were initially used on this wiki to describe each summon item (item page, summoned entity page, buff page).
+
+== Usage ==
+{{code|<nowiki>{{</nowiki>summoned <br/>
+<nowiki>|</nowiki> ''pet/minion/mount image filename''<br/>
+<nowiki>|</nowiki> ''optional: buff icon filename (deprecated, enter buff info in infobox)''<br/>
+<nowiki>|</nowiki> type <nowiki>=</nowiki> ''optional: enter'' '''pet''', '''light pet''', '''minion''', ''or'' '''mount'''<br/>
+<nowiki>|</nowiki> name <nowiki>=</nowiki> ''optional: displayed pet/minion name, if different from image filename''<br/>
+<nowiki>}}</nowiki>
+}}
+* At least a pet image is required. Everything else is optional, though you should specify a <code>type</code>.  
+* Filenames should be entered bare, without <code><nowiki>[[File: ]]</nowiki></code> or an extension (<code>.png</code>). PNG is assumed. 
+* To use images with different extensions, add <code>image = </code> for the pet image, and/or <code>buffimage = </code> for the buff icon, and enter the entire <code><nowiki>[[File:example.gif]]</nowiki></code> code.
+
+<includeonly>
+[[Category:Infobox templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

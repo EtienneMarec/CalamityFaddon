@@ -1,0 +1,35 @@
+<section begin=npc infobox />
+{{addon|Calamity: Community Remix}}
+{{npc infobox
+| type = Flying Enemy
+| ai = Dungeon Guardian AI
+| life = 399
+| damage = '''Contact:''' 250 / {{Death|500}}<br/>'''{{Element|Fire}} Greek Fire:''' {{dv|50|75|125|210}}<br/>'''Focused Laser:''' 100 / {{Death|200}}
+| defense = 999
+| dr = 80%
+| knockback = 100
+| immuneall = Immune All
+| hardmode = yes
+| debuff = Whispering Death
+| debufftip = Death approaches; defense, movement speed, attack power and life regen reduced
+| debuffchance = 100%
+| duration = 1 / {{Death|5}} seconds (Contact)
+| debuff2 = Dragon Fire
+| debufftip2 = Losing life, reduced movement speed
+| debuffchance2 = 100%
+| duration2 = 3 seconds (Greek Fire)
+| hurt = NPC_Hit_2.wav
+| killed = NPC_Killed_2.wav
+}}<section end=npc infobox />
+
+'''Baby Skeletron Head.exe''' is a [[Hardmode]] [[Enemies#Boss Servants|boss servant]] [[enemies]] that are spawned by [[Pandora, the Hypnotized Witch]] in [[Revengeance Mode]] or during [[Boss Rush]].
+
+==Behavior==
+Baby Skeletron Head.exe are summoned whenever Pandora finishes her 1st barrage in phase 2, appearing wherever she was before teleporting. A maximum of one / {{Death|two}} can exist at a time during the fight: Pandora can not summon more if there are already that many out at once. They act similarly to the [[Dungeon Guardian]], slowly flying at the player, while spewing out greek fires all over when close to the player. It also periodically fires focused laser at the player if they're far away from them. Any homing projectiles will prioritize targeting this enemy instead.
+
+==Trivia==
+* The [[Bestiary]] entry for Baby Skeletron Head.exe: “An unstable little dungeon guardian, eternally aflame and bleeding for some reason. Pandora must have shoved a malicious soul into them, hence their instability.”
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

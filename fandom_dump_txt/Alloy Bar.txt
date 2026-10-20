@@ -1,0 +1,27 @@
+{{item infobox
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 9999
+| rare = 3
+| sell = {{value|0|50|0|0}}
+| use = 14
+| placeable = yes
+| consumable = yes
+| hardmode = no
+| auto = true
+}}
+
+Alloy Bars are pre-Hardmode [[bars]] that are made with every pre-Hardmode bar. They are used in lots of late pre-Hardmode and early Hardmode recipes.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

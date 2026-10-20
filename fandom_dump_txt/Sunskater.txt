@@ -1,0 +1,36 @@
+{{npc infobox
+| type = Flying Enemy
+| environment = Space
+| ai = Sunskater AI
+| damage = {{dv|20|40}}
+| life = {{dv|100|200}}
+| defense = 4
+| knockback = {{dv|30%|37%}}
+| money = {{sc|5}}
+| debuff = Holy Flames
+| debuffchance = 100%
+| debufftip = Dissolving from holy light
+| duration = 2 seconds
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Holy Flames
+| immune4 = On Fire!
+| banner = yes
+| custom| {{item|Essence of Sunlight|note=(In [[Hardmode]])|wrap=y}}|33%
+| vulnerable1 = Machine
+| hurt = NPC_Hit_50.wav
+| killed = Sunskater.wav
+}}
+
+The '''Sunskater''' is a [[Pre-Hardmode]] [[enemy]] that spawns in [[Space]]. It flies peacefully in one direction and turns around when it hits a block. Once attacked, it starts diving into the player at a fast speed in order to ram them.
+
+== Trivia ==
+*When the player is fully submerged in water, the Sunskater will stop attacking the player.
+**Additionally, if the Sunskater is submerged in water, it will become stationary and sink to the bottom.
+*It is the only Pre-Hardmode enemy able to inflict the [[Holy Flames]] [[debuff]].
+*The [[Hadopelagic Echo]] has a small chance to play the Sunskater death sound instead of the normal use sound.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

@@ -1,0 +1,30 @@
+{{item infobox
+| auto = yes
+| stack = 1
+| research = 1
+| type = Weapon
+| damage = 19
+| damagetype = Ranged
+| knockback = 13.5
+| velocity = 16
+| use = 25
+| rare = 2
+| sell = {{value|0|0|40}}
+| tooltip = Fires a high-pressure stream of bubbles<br/>{{color|The Old Sea Kingdom never truly sought to expand beyond its initial borders.|#5C95A1}}<br/>{{color|However, they had a perfect track record of repelling any invasions, thanks to their insurmountable advantage in the water.|#5C95A1}}
+| sound = PistolShrimpBubbleBurst.wav
+| soundtext = Use
+| sound2 = Item_21.wav
+| sound2text = Water Blast
+| element1 = Water
+}}The '''Reed Blowgun''' is a craftable [[Pre-Hardmode]] [[ranged weapon]]. It fires a stream of high velocity bubbles, and does not consume any ammo.
+
+{{Modifier|ranged}}
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+==Trivia==
+*The weapon's attack is based on [[wikipedia:Alpheidae shrimp|pistol shrimp]], which can shoot a high-pressure stream of bubbles for offense.
+{{Sea Remains}}{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

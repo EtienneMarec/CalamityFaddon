@@ -1,0 +1,29 @@
+{{buff infobox
+| type = Debuff
+| effects = All flight is disabled.
+| tooltip = Your wing time is mine now, infinite flight is disabled
+}}
+
+'''Extreme Gravity''' is a [[debuff]] inflicted by certain [[bosses]] that disables both infinite flight and the player's wing time, except for the flight granted by [[Bee Wings]]
+
+== Notes ==
+It is adviced to bring Bee Wings to most bossfights, as they are not affected by this debuff.
+== Causes ==
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

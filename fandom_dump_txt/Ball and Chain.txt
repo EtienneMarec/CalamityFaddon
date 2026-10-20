@@ -1,0 +1,24 @@
+{{item infobox
+| type = Tool
+| stack = 1
+| tooltip = So heavy…<br/>Favorite this item to disable any dashes granted by equipment.
+| rare = 1
+| sell = No value
+}}
+
+The '''Ball and Chain''' is a unique [[tool]] that works in the player's inventory. If the item is favorited, all dashes that are activated by double tapping {{key|Left}} and {{key|Right}} keys (such as the [[Shield of Cthulhu]], [[Tabi]], or [[Asgard's Valor]]) are disabled.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Tips ==
+*This item is useful when trying to achieve precise movement while not accidentally shooting off in a direction undesirably, such as when building or during bullet hell fights like [[Supreme Calamitas]].
+
+== Trivia ==
+*In previous versions of the mod, the ability to dash with certain [[coverings]] was tied to the visibility of that covering, where the dash was enabled if visibility was on and disabled if visibility was off. The Ball and Chain replaced this system due to players complaining about their characters' desired appearance being affected.
+
+{{Master Template Tools
+| show-main = yes
+| show-other = yes
+}}

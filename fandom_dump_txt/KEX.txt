@@ -1,0 +1,20 @@
+{{item infobox
+|type = Potion
+|consumable = yes
+| use = 30
+|tooltip = A cereal that packs alot of energy, perfect for starting your day!<br/>Permanently increases attack and movement speed by 15%
+| rare = 3
+| sell = {{gc|50}}
+| stack = 1
+}}
+
+The '''KEX''' is a craftable [[Hardmode]] [[Permanent Power-ups|Permanent Power-up]] item that grants the player a permanent 15% increase in attack, movement speed, and acceleration. It can only be used once.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

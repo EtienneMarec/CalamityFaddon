@@ -1,0 +1,30 @@
+{{infobox wrapper
+|{{item infobox
+| stack = 1
+| type = Covering
+| type2 = Crafting material
+| tooltip = +1 max minions<br/>Minion attacks inflict Electrified
+| rare = 2
+| sell = {{value|0|0|40}}
+| debuff = Electrified
+| debuffchance = 20%
+| debuffduration = 1 second (On minion hits)
+| debufftip = You cannot move
+}}
+|{{item drops infobox
+| [[Ghost Bell]] (Once [[Desert Scourge]] has been defeated)| 1 | 20%
+}}
+}}
+
+The '''Voltaic Jelly''' is a [[Pre-Hardmode]] [[covering]] dropped by [[Ghost Bell]]s after [[Desert Scourge]] has been defeated. While equipped, it grants +1 minion slots and a chance for [[minions]] to inflict the [[Electrified]] [[debuff]] for one second.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

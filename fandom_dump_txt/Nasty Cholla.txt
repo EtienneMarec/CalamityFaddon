@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damage = 9
+| use = 19
+| knockback = 3
+| damagetype = Rogue
+| rare = 0
+| tooltip = Throws a spiky ball that sticks to everything<br/>Explodes into cactus spikes after roughly 3 seconds<br/>Can hurt town NPCs<br/>Stealth strikes throw five at once
+| sell = {{value|0|0|0|10}}
+| velocity = 8
+| stack = 9999
+| consumable = yes
+| proj = Cactus Needle.png
+| projcaption = Cactus Needle
+| element1 = Poison
+| element2 = Stab
+}}
+
+The '''Nasty Cholla''' is a craftable consumable [[Pre-Hardmode]] [[spiky balls|spiky ball]]. It throws a gravity affected cactus ball that explodes into three to four cactus needles after landing, each dealing 25% of the ball's damage. The cactus ball will stick to all blocks and enemies. Unlike most weapons, the Nasty Cholla can damage [[Town NPCs]].
+
+Performing a [[stealth strike]] with Nasty Chollas will cause five cactus balls to be thrown instead of one.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*"Cholla" is the common name of the [[wikipedia:Cylindropuntia|Cylindropuntia]] genus of cactus.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Spiky Balls]]

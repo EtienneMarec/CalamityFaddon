@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 17
+| knockback = 1.5
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| auto = yes
+| velocity = 16
+| use = 30
+| tooltip = Shoots a spread of 5 arrows<br/>Wooden arrows are converted into bouncing obsidian bats
+| hardmode = yes
+| proj = Flare Bat.gif
+| projcaption = Obsidian Bat
+| element1 = Fire
+| element2 = Unholy
+}}
+
+The '''Flarewing Bow''' is a craftable [[Hardmode]] [[bow]]. When used, it auto-fires a group of 5 parallel arrows per shot, only consuming one arrow to do so. It converts normal [[Wooden Arrow]]s into fast obsidian bat projectiles, which bounce off of tiles similarly to [[Chlorophyte Arrow]]s and swoop in a wide clockwise motion. Obsidian bats can either ricochet off tiles or pierce enemies twice, before dissipating on the third tile or enemy impact.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

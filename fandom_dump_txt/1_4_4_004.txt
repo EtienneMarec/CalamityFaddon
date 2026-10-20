@@ -1,0 +1,228 @@
+{{patch infobox
+| image = Sunken Water Fountain.png
+| patchname = Dyes, Fountains, and Rebalances
+| release = 5/10/2020
+| pair = 1.4.4.004 (music)
+}}
+The '''1.4.4.004''' (or '''1.4.4.4''') update added several new items, most notably [[Dyes]] and [[Water Fountains]], along with many balance and boss changes.
+
+{{toc limit|3|right="yes"}}
+
+== Additions ==
+*Added [[Forbidden Circlet]].
+*Added [[Abyss Water Fountain]], [[Astral Water Fountain]], [[Sulphuric Water Fountain]], and [[Sunken Water Fountain]].
+*Added [[Lion Heart]], [[Relic of Deliverance]], [[Tundra Flame Blossoms Staff]], and [[Valkyrie Ray]].
+*Added [[Astral Blue Dye]], [[Astral Orange Dye]], [[Astral Swirl Dye]], [[Ceaseless Dye]], [[Defiled Flame Dye]], [[Dragon Soul Dye]], [[Elemental Dye]], [[Endothermic Dye]], [[Nightmare Dye]], [[Reaver Dye]], [[Shadowspec Dye]], and [[Stratus Dye]].
+*Added [[Adrenaline Hair Dye]], [[Rage Hair Dye]], [[Stealth Hair Dye]], and [[Wing Time Hair Dye]].
+*Added [[Joyful Heart]].
+*Added [[The Father]] and [[Tundra Flame Blossom (buff)|Tundra Flame Blossom]] [[buffs]].
+*Added [[Energy Shell Cooldown]] and [[Profaned Weakness]] [[debuffs]].
+
+== Changes ==
+=== Bosses ===
+*Added the [[Reactive Damage Reduction]] system.
+*Reduced anti-butcher trigger from 10% of boss health to 50% of boss health.
+*Forced some boss drops to not appear outside the world bounds.
+
+==== [[Astrum Deus]] ====
+*Slightly separated the worms from each other.
+*Now drops {{dv|80-150|100-180}} Fallen Stars.
+
+==== [[Brimstone Elemental]] ====
+*Buffed passive [[damage reduction]] from 0% to 15%.
+*Nerfed Brimling damage reduction from 20% to 15%.
+*Now fires an arc of hellblasts rather than a random shotgun.
+
+==== [[Calamitas]] ====
+*Added a small delay to the charge attack in [[Revengeance Mode]].
+
+==== [[Cryogen]] ====
+*Now forces the rain to stop.
+
+==== [[Duke Fishron]] ====
+*Increased damage reduction in Revengeance Mode from 0% to 10%.
+
+==== [[Golem]] ====
+*Removed a status message when defeated.
+
+==== [[Lunatic Cultist]] ====
+*Increased damage reduction in Revengeance Mode from 5% to 10%.
+
+==== [[The Old Duke]] ====
+*Now forces the rain to stop.
+
+==== [[Plantera]] ====
+*Buffed damage reduction in Revengeance Mode from 0% to 15%.
+*Buffed tentacles' damage reduction in Revengeance Mode from 0% to 10%.
+
+==== [[Skeletron Prime]] ====
+*Now gains 8 defense per limb alive in Revengeance Mode instead of 9999.
+*In Revengeance Mode, if the head's health is reduced to 66%, all limbs are instantly killed and it moves to the next phase.
+
+==== [[The Slime God]] ====
+*Increased fire rates of the core’s mines in the final phase, but decreased the teleportation frequency.
+
+==== [[Supreme Calamitas]] ====
+*Slowed down Brimstone Monsters.
+*Brimstone Gigablasts now explode on tile contact at all times.
+
+==== [[Wall of Flesh]] ====
+*Now triggers the "A bloody red inferno lingers in the night..." status message when defeated instead of Brimstone Elemental or Skeletron Prime.
+
+=== Enemies ===
+*Nerfed Tier 3 [[Acid Eel]] health from {{dv|6,650|10,640}} to {{dv|5,500|8,800}}, damage from {{dv|160|272}} to {{dv|120|204}}, and damage reduction from 30% to 5%. Reduced max speed and acceleration for all tiers.
+*Nerfed Tier 3 [[Flak Crab]] health from {{dv|7,500|12,000}} to {{dv|7,000|11,200}}.
+*Nerfed [[Gamma Slime]] health from {{dv|6,410|10,256}} to {{dv|5,915|9,464}}, damage from {{dv|145|246}} to {{dv|130|221}}, and damage reduction from 25% to 15%.
+*Nerfed Tier 3 [[Orthocera]] health from {{dv|5,700|14,820}} to {{dv|4,500|7,200}}, and damage from {{dv|180|432}} to {{dv|160|272}}. Nerfed Tier 2 health from {{dv|605|1,573}} to {{dv|605|968}}, and damage from {{dv|75|180}} to {{dv|75|127}}. Reduced max speed and acceleration for Tier 3.
+*Nerfed Tier 2 [[Skyfin]] damage reduction from 10% to 5%. Nerfed Tier 3 health from {{dv|6,300|10,080}} to {{dv|1,001|1,601}}, damage from {{dv|175|297}} to {{dv|150|255}}, and damage reduction from 20% to 5%. Reduced max speed in all tiers.
+*Nerfed Tier 3 [[Sulphurous Skater]] health from {{dv|6,600|10,560}} to {{dv|5,000|8,000}}, and damage from {{dv|140|238}} to {{dv|100|170}}. Reduced max speed in all tiers.
+*Nerfed Tier 3 [[Trilobite]] health from {{dv|7,200|11,520}} to {{dv|4,900|7,840}}, and damage from {{dv|160|272}} to {{dv|120|204}}. Reduced max speed for Tier 3.
+*Nerfed Tier 2 [[Water Leech]] damage from {{dv|100|170}} to {{dv|80|136}}. Nerfed Tier 3 damage from {{dv|172|292}} to {{dv|120|204}}.
+
+=== Recipes ===
+*[[Barracuda Gun]] now uses 1 additional [[Life Alloy]].
+*[[Clock Gatlignum]] now uses 3 Life Alloys instead of 5 [[Hallowed Bar]]s.
+*[[Crystal Flare Staff]] now uses 3 [[Core of Eleum|Cores of Eleum]], 8 [[Cryonic Bar]]s, and a [[Frost Core]] instead of 3 [[Essence of Eleum|Essences of Eleum]] and 15 [[Crystal Shard]]s.
+*[[Eye of Desolation]] no longer requires Souls of Fright.
+*Increased [[Fantasy Talisman]]s crafted per set from 100 to 150.
+*[[Lazinator]] now uses 1 [[Soul of Fright]], [[Soul of Might|Might]], and [[Soul of Sight|Sight]].
+
+=== Renames ===
+*Renamed Daedalus Emblem to [[Artemis Emblem]].
+*Renamed Mana Overloader to [[Mana Polarizer]].
+
+=== Balance and Reworks ===
+==== Melee ====
+*Nerfed [[Aegis Blade]]'s fireball and flame damage from 100% base damage to 85% and 75% respectively.
+*Buffed [[Ark of the Cosmos]]' damage from 500 to 501.
+*Nerfed [[Astral Scythe]]'s projectile damage from 100% base damage to 60%.
+*Nerfed [[Briny Baron]]'s damage from 80 to 75.
+*Nerfed [[Diseased Pike]]'s projectile damage from 100% base damage to 75%.
+*Nerfed [[Gael's Greatsword]]'s damage from 4069 to 3900.
+*Nerfed [[Hellfire Flamberge]]'s damage from 102 to 90.
+*Buffed [[Hellion Flower Spear]]'s damage from 120 to 135.
+*Buffed [[Holiday Halberd]]'s damage from 94 to 98.
+*Buffed [[Inferna Cutter]]'s damage from 100 to 110.
+*Nerfed [[Influx Waver]]'s damage from 110 to 82.
+*Halved [[Nebulash]]'s explosion damage. Buffed damage from 54 to 60.
+*Nerfed [[Roxcalibur]]'s damage from 120 to 80. Increased shockwave cooldown from 10 seconds to 15.
+*Nerfed [[Starfury]]'s star lifespan to 0.75 seconds.
+*[[Storm Ruler]]'s tornado now scales with melee damage boosts. Nerfed damage from 95 to 80.
+*Reworked [[Temporal Floe Sword]]. Buffed damage from 85 to 95. Main beam's damage decreased from 100% base damage to 65%. When the main beam hits a target or block, it splits into two beams that each deal halved damage, the directions of the secondary beams depend on the world time.
+*Nerfed [[Terra Blade]]'s damage from 114 to 95.
+*Nerfed [[Terra Edge]]'s projectile damage from 100% base damage to 75%.
+*Nerfed [[Terra Lance]]'s projectile damage from 85% base damage to 70%.
+*Nerfed [[True Ark of the Ancients]]' beam damage from 100% base damage to 75%.
+*Nerfed [[Virulence]]'s projectile damage from 100% base damage to 85%.
+
+==== Ranged ====
+*Nerfed [[Aeries]] and [[Pearl God]]'s lifesteal from 10% of bullet damage to 5%.
+*Nerfed [[Barracuda Gun]]'s damage from 76 to 63.
+*Nerfed [[Bladedge Railbow]]'s damage from 26 to 25, and its use time from 23 to 26.
+*Nerfed [[Clock Gatlignum]]'s damage from 60 to 55, and its use time from 6 to 9.
+*Nerfed [[Cosmic Bolter]]'s damage from 60 to 35.
+*Nerfed [[Electrosphere Launcher]]'s damage from 40 to 30.
+*Nerfed [[Lead Wizard]]'s damage from 70 to 58, and its use time from 6 to 9.
+*Nerfed [[Magna Striker]]'s damage from 42 to 35.
+*Nerfed [[Magnomaly Cannon]]'s damage from 1600 to 1450.
+*Nerfed [[Megalodon]]'s damage from 32 to 28.
+*Nerfed [[Photoviscerator]]'s damage from 270 to 250.
+*Nerfed [[Star Cannon EX]]'s damage from 100 to 95.
+*Nerfed [[Terra Flameburster]]'s damage from 56 to 43.
+*Buffed [[Venus Magnum]]'s damage from 28 to 38.
+*Nerfed [[Xenopopper]]'s damage from 45 to 33.
+
+==== Magic ====
+*Nerfed [[Alpha Ray]]'s alternate fire damage from 210% base damage to 175%.
+*Nerfed [[Apoctosis Array]]'s damage from 50 to 45, and mana cost from 12 to 14. It now deals 40% less damage while the player has the [[Astral Injection]] buff.
+*Buffed [[Bat Scepter]]'s damage from 45 to 49.
+*Nerfed [[Blizzard Staff]]'s damage from 43 to 40.
+*Buffed [[Crystal Flare Staff]]'s damage from 30 to 50.
+*Nerfed [[Effervescence]]'s use time from 11 to 15.
+*Nerfed [[Laser Machinegun]]'s damage from 60 to 36.
+*Buffed [[Last Prism]]'s damage from 85 to 100.
+*Buffed [[Lazinator]]'s damage from 40 to 55, and its use time from 10 to 7. Now uses local [[immunity frames]].
+*Nerfed [[Primordial Earth]]'s damage from 85 to 60.
+*Nerfed [[Razorpine]]'s damage from 45 to 36.
+*Buffed [[Shadowbeam Staff]]'s damage from 53 to 106.
+*[[Shifting Sands]] now auto-fires and uses local immunity frames. Nerfed damage from 90 to 85, and its use time from 18 to 30.
+*Nerfed [[Tears of Heaven]]'s damage from 72 to 64.
+*Nerfed [[Terra Ray]]'s damage from 85 to 50, and its use time from 19 to 24.
+*Nerfed [[Wingman]]'s damage from 54 to 49, and its use time from 11 to 15.
+*Nerfed [[Winter's Fury]]'s damage from 69 to 59, and its use time from 9 to 12.
+
+==== Summon ====
+*Buffed [[Cold Divinity]]'s damage from 52 to 60.
+*Nerfed [[Corvid Harbinger Staff]]'s damage from 301 to 275.
+*Buffed [[Godspawn Helix Staff]]'s damage from 50 to 60.
+*Buffed [[Sand Sharknado Staff]'s damage from 30 to 35, and increased Sharknado's aggression range.
+*Nerfed [[Spikecrag Staff]]'s damage from 70 to 56.
+
+==== Rogue ====
+*Rogue weapons now benefit from throwing critical strike chance boosts.
+*Added [[stealth strike]]s for [[Icebreaker]], [[Infernal Spear]], [[Rot Ball]], [[Tarragon Throwing Dart]], [[Time Bolt]], [[Titanium Shuriken]], [[Tooth Ball]], and [[Valediction]].
+*Halved [[Brackish Flask]]'s explosion damage. Buffed damage from 40 to 60.
+*Nerfed [[Celestus]]' phantom blade damage from 100% base damage to 70%.
+*Nerfed [[Deep Wounder]]'s damage from 125 to 106.
+*Buffed [[Defective Sphere]]'s damage from 115 to 130, and increased projectile return speed.
+*Buffed [[Fantasy Talisman]]'s damage from 80 to 93.
+*Buffed [[Frostcrush Valari]]'s damage from 70 to 100.
+*Nerfed [[Shock Grenade]]'s damage from 100 to 90.
+*Nerfed [[Supernova]]'s energy damage from 80% base damage to 50%.
+
+==== Multi-class and Classless ====
+*Nerfed [[Fallen Paladin's Hammer]]'s damage from 101 to 81.
+*Nerfed [[Subduction Slicer]]'s damage from 100 to 90.
+
+==== Other ====
+*Removed Calamity's melee speed hard-cap of 100%.
+*Most [[true melee]]-weapon based effects such as the [[Fungal Symbiote]] can now be triggered by most melee weapons on true melee strikes.
+*[[Artemis Emblem]] no longer grants minion knockback.
+*[[Mana Polarizer]] now grants the player [[lifesteal]] at all times, with the amount of healing depending on mana ratio.
+
+=== Additional Changes ===
+*Added some new patron NPC names.
+**Dazren for the [[Angler]].
+**Finchi for the [[Arms Dealer]].
+**Joeseph Jostar for the [[Clothier]].
+**Farsni for the [[Nurse]].
+*Changed [[Death Mode]] hazards in various ways:
+**Reduced the speed of icicle attacks.
+**Telegraphed the lightning and geyser attacks.
+**Added a [[configuration option]] to customize the frequency of hazards.
+*[[Astral Crate]]s now have a 50% chance to contain 10-20 Meteorite, and a 25% chance to contain 5-10 Meteorite Bars.
+*[[Baby Ghost Bell Jar]] now counts as a light source.
+*[[Bloodworm]] now shows up on the [[Lifeform Analyzer]] and its upgrades.
+*[[Boss Rush]] no longer disables [[mounts]].
+*Changed [[Gael's Greatsword]]'s tooltip.
+*[[Harpy|Harpies]] can now drop [[Essence of Sunlight|Essences of Sunlight]] in [[Hardmode]].
+*The [[Hermit's Box of One Hundred Medicines]] blessing can now be deactivated.
+*Increased [[Lead Core]]'s drop chance from 1% to 3.33%.
+*[[Lead Wizard]] now drops from [[Golem]] instead of [[Armored Digger]]s.
+*Added [[Marine Kelp Planter Box]]es in [[Planetoid]] [[chests]] if the [http://forums.terraria.org/index.php?threads/the-thorium-mod.40788/ Thorium Mod] is enabled.
+*The [[Merchant]] now sells [[Angel Statue]]s if the [[Bandit]] is present.
+*[[Relic of Resilience]] no longer has health and instantly breaks from any damage. In return, any enemy near the shards are inflicted with the [[Profaned Weakness]] debuff.
+*[[Stuffed Fish]] now include herbs from the [https://forums.terraria.org/index.php?threads/shadows-of-abaddon-mod.46605/ Shadows of Abaddon Mod] if it is enabled.
+
+=== Resprites ===
+*Resprited [[Abyssal Amulet]], [[Depths Charm]], [[Ethereal Talisman]], and [[Lumenous Amulet]].
+*Resprited [[Chaos Candle (buff)]] and [[Tranquility Candle (buff)]].
+*Resprited [[Carnage Ray]], [[Cryophobia]], [[Dark Spark]], [[Floodtide]], [[Greatsword of Judgement]], [[Magnetic Meltdown]], [[Mariana]], [[Night's Ray]], and [[Proporse Pistol]].
+*Resprited [[Melter Banner]], [[Mirage Jelly Banner]], [[Pestilent Slime Banner]], [[Plaguebringer Banner]], [[Plagueshell Banner]], and [[Viruling Banner]].
+*Resprited [[Aurora Spirit]].
+*Resprited [[Depth Cells]], [[Galactica Singularity]], and [[Lumenyl]].
+
+== Fixes ==
+*Fixed the [[Adrenaline]] and [[Rage Meter]]s disappearing in dedicated Multiplayer servers.
+*Fixed a bug where [[Dark Energy|Dark Energies]] do not despawn.
+*Fixed a bug where [[The Devourer of Gods]] respawned if it was killed too quickly.
+*Fixed a tooltip error with the [[Draconic Elixir]] where it displayed outdated numbers.
+*Fixed [[Sulphurous Sand]] being placed when the player tries to place down [[Hardened Sulphurous Sandstone]].
+*Fixed an oversight where player-placed [[Sulphurous Sand]] didn't count towards an artificial [[Sulphurous Sea]] [[biome]].
+*Fixed the [[Super Dummy]] disappearing in Multiplayer.
+*Fixed an oversight where the custom [[rarity]] for the [[Svantechnical]] wasn't properly used.
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

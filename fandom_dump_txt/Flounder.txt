@@ -1,0 +1,41 @@
+{{npc infobox
+| type = Aquatic
+| environment = Sulphurous Sea
+| ai = Flounder AI
+| damage = {{element|Poison}} {{dv|10|20}} (Contact)<br/>{{element|Poison}} {{dv|70|100}} (Sulphuric mist)
+| life = {{dv|40|80}}
+| defense = 15
+| knockback = {{dv|65%|68.5%}}
+| banner = yes
+| money = {{sc|5}}
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| duration = 2 seconds
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| Flounder Mortar | 1 | {{dv|6.67%|10%}}
+| Anechoic Coating | 1 | 50%
+| hurt = NPC_Hit_50.wav
+| killed = NPC_Killed_53.wav
+| sound = Item_111.wav
+| soundtext = Sulphuric Mist
+| vulnerable1 = Cold
+| vulnerable2 = Slash
+| resistant1 = Poison
+| resistant2 = Water
+}}
+{{dablink|Not to be confused with [[tgc:Flounder|the vanilla fish of the same name]], which is obtained from fishing.}}
+
+The '''Flounder''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Sulphurous Sea]]. It initially stays invisible on the sand, waiting for the player to come near or hit it, in which it will then become visible and hostile. It attacks by slowly swimming towards the player while spraying sulphuric mist projectiles at them.
+
+== Trivia ==
+*In real life, [[wikipedia:Flounders|flounders]] are a group of flatfish species. They are found at the bottom of oceans around the world; some species will also enter estuaries.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

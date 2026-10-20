@@ -1,0 +1,26 @@
+{{item infobox
+| type = Covering
+| stack = 1
+| rare = 1
+| sell = {{value|0|0|20}}
+| tooltip = 30 increased fishing power during the day<br/>45 increased fishing power during the night<br/>60 increased fishing power during a solar eclipse<br/>Greatly increases chance of catching potion ingredient fish
+}}
+
+'''Alluring Bait''' is a [[Pre-Hardmode]] [[covering]] that is caught while [[fishing]] in the [[Sulphurous Sea]] or [[Abyss]]. It increases the player's fishing power by 30 during day, 45 during night, and 60 during a [[Solar Eclipse]]. It also increases the chance to catch fish that are materials in [[Potion]]s.
+
+Alluring Bait increases the chance to catch potion fish through the formula (Fishing Power/10)%, capping the chance at 33.33%. In order to reach this cap, the player must have 333 fishing power or greater.
+
+== Recipes ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Alluring Bait can only be caught with a 1/25 (4%) chance if fishing with between 40 and 159 [[fishing power]].
+*Despite having "Bait" in its name, it is an [[covering]] and not [[tgc:Bait|fishing bait]].
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Fishing coverings]]
+[[zh:诱惑鱼饵]]

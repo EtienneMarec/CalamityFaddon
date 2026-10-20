@@ -1,0 +1,14 @@
+<includeonly>
+{{#forargs:debuff|number|name|{{#ifeq:{{#var:name}}|{{ROOTPAGENAME}}|
+{{!}}-
+{{!}} {{!}} {{item|mode=table|{{{name|{{{%PAGE%}}}}}}|image={{{name|{{{%PAGE%}}}}}}.png}}
+{{!}} {{!}} {{{debuffduration{{#var:number}}|missing}}}
+{{!}} {{!}} {{{debuffchance{{#var:number}}|missing}}}
+{{!}}-
+|}}
+}}
+</includeonly>
+<noinclude>
+{{Dpl pages}}
+[[Category:DPL]]
+</noinclude>

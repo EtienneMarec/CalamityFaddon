@@ -1,0 +1,80 @@
+{{npc infobox
+| type = NPC
+| environment = Valid house
+| ai = Passive AI
+| life = 1,000,000
+| defense = 120
+| knockback = 20
+| image2 = Brimstone Witch map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_6.wav
+| sound = Item_20.wav
+| soundtext = Brimstone Hellblast
+}}
+{{NPC}}
+
+The '''Brimstone Witch''' is a Godseeker Mode [[NPC]] vendor that will spawn once the following conditions have been met:
+*There is an empty house.
+*[[Supreme Calamitas]] has been defeated in the world (that is intended to house her) for the first time.
+
+Compared to her boss form, Supreme Calamitas is replaced with a deer due to the effects of her own final attack.
+
+When threatened by [[enemies]], she will defend herself with brimstone hellblasts.
+*The Brimstone Witch will always be named Calamitas.
+
+== Enchant ==
+{{dablink|For a full explanation on this mechanic, see [[Enchantment]].}}
+For an expensive price, the Brimstone Witch is capable of [[enchant]]ing the player's items, granting them new power with some drawback. She is also capable of "exhuming" certain items, transforming them into entirely new items.
+
+== Curses {{fantag|Calamity: Community Remix}} ==
+With the [[community modifications|Calamity: Community Remix]] addon enabled, the Brimstone Witch gains a secondary chat option for enabling ``Curses`` for the [[Boss Rush]] event. Curses yield varying amounts of [[Klepticoin]]s {{fantag|Calamity: Community Remix}} when beaten and grant permanent buffs to the player.
+{{ajax|Boss Rush/curses}}
+
+== Quotes ==
+'''While homeless:'''
+:*"I'm considering moving back to that old cave of mine."
+:*"I certainly can't return to the Tyrant's old dwellings now, have you got any places to stay?"
+
+'''Anytime:'''
+:*"I can't pay rent, but if you've got any dead relative you want me to try and... what? You don't?"
+:*"One of these days, I was thinking of starting a garden with the flowers from the old capitol of hell. I love the smell of brimstone in the morning."
+:*"I think I've settled comfortably, thank you very much."
+:*"I think I'm a bit addicted to this tea."
+:*"Many seasons have gone by since I first met with the Tyrant, and only now did I break free. I wish I'd been stronger..."
+:*"If you've got any curses you want dispelled... well I'm not your person."
+
+'''Only at [[night]]:'''
+:*"These undead are horrific, I can't stand to look at them. How could anyone be satisfied with such amateur work?"
+:*"I don't think it's a stretch to say that astrology is utter nonsense... but it was a hobby of mine once."
+
+'''During a [[Blood Moon]]:'''
+:*"Such an unnatural shade of red. Nothing like my Brimstone flames."
+:*"I can't work with nights like these. The stars seem to have shrunk away in fear."
+
+'''During a [[party]]:'''
+:*"If another person asks me if I can dance or not, I will light their hat on fire."
+
+'''When [[Sea King]] is present:'''
+:*"I cannot understand the Sea King. He does not seem to want me dead. That amount of compassion I just can't understand."
+
+'''When [[Archmage]] is present:'''
+:*"That frosty old man... even if you ignore our brands of magic and our old alliances, I doubt I'd ever get along with him."
+
+'''When [[Drunk Princess]] is present:'''
+:*"I wonder if Cirrus ever feels cold given how revealing her dress is. Perhaps she should cover up a bit more."
+
+== Notes ==
+*All dialogue has a 1/4444 chance to be replaced with "Mrrp is cringe."
+
+== Trivia ==
+*In the mod's source files, the Brimstone Witch is referred to as 'WITCH'.
+*The Tyrant's chariot can not be stopped.
+*Her HP is the same amount as her boss form in Normal Mode. 
+
+<!--== Lore ==
+{{lore|Brimstone Witch}} This is where we force Mrrp to write something-->
+{{Master Template Characters
+| show-main = yes
+| show-npc = yes
+}}

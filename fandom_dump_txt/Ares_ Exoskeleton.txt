@@ -1,0 +1,94 @@
+{| align = right
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 625
+| use = 9
+| mana = 80
+| knockback = 1
+| velocity = 10
+| tooltip = Creates a panel with four slots and four choices above it: Plasma, Tesla, Laser, and Gauss<br/>Clicking one of the choices and then clicking one of the slots allows you to summon a cannon that stays close to you and attacks nearby enemies<br/>Clicking on a slot that's already occupied destroys its associated cannon and clears the slot<br/>Cannons take 3 minion slots each
+| buff = Ares' Cannons | bufflink= no
+| bufftip = Pulse cannon not included
+| stack = 1
+| research = 1
+| rare = 15
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| image2 = Ares' Exoskeleton (Remote).png
+| image2caption = Remote
+| sound = Item 117.wav
+| soundtext = Use
+| sound2 = Zombie 66.wav
+| sound2text = Cannon Deployed
+| sound3 = Item 74.wav
+| sound3text = Cannon Destroyed
+| sound4 = PlasmaCasterFire.wav
+| sound4text = Plasma Cannon Fire
+| sound5 = Item 93.wav
+| sound5text = Plasma Explosion
+| sound6 = PlasmaBolt.wav
+| sound6text = Tesla Cannon Fire
+| sound7 = LaserCannon.wav
+| sound7text = Laser Cannon Fire
+| sound8 = LargeWeaponFire.wav
+| sound8text = Gauss Nuke Launch
+| sound9 = TeslaCannonFire.wav
+| sound9text = Nuke Explosion
+| element1 = Fire
+| element2 = Poison
+| element3 = Electricity
+| element4 = Machine
+}}
+|-
+|{{item drops infobox
+| [[The Fabricational Quartet]] (Ares) | 1 | 100%
+}}
+|-
+|
+{| class="terraria" align=right style="width:19em"
+! Cannon UI
+|-
+| [[File:Ares' Exoskeleton UI.png|center]]
+|}
+|}
+'''Ares' Exoskeleton''' is a Godseeker Mode [[summon weapon]] that drops from the [[The Fabricational Quartet]] after [[XF-09 Ares]] has been defeated last. When used, the player throws out a box which opens up a control panel. The control panel features four weapon choices on top and weapon slots on the bottom. Each weapon slot takes up three minion slots and summons a cannon attached to an arm outwards from the player. The order of the weapon's positions are fixed onto the player. From the leftmost slot to rightmost slot, the cannons appear at the bottom right, bottom left, top right, and top left of the player respectively.
+
+{{Modifier|summon}}
+
+== Minion Types ==
+{| class="terraria lined"
+|-
+! Icon !! colspan=2 style="text-align:center" | Type !! Description
+|-
+| [[File:Exoskeleton Plasma Icon.gif|link=]]
+| {{item|Exoskeleton Plasma Cannon|mode=table|link=}}
+| Fires a homing {{item|Volatile Plasma Blast|link=|ext=gif|size=12px}} every 0.5 seconds which explodes into a cloud of 15 damaging plasma gas particles on hit or upon colliding with a solid tile. The plasma blast and gas deal 90% of the weapon's damage.
+|-
+| [[File:Exoskeleton Tesla Icon.gif|link=]]
+| {{item|Exoskeleton Tesla Cannon|mode=table|link=}}
+| Fires an infinitely piercing {{item|Tesla Sphere|link=|ext=gif|size=18px}} every 0.6 seconds which creates a connecting electric arc with other spheres within a 93.75-tile radius. The cannon aims ahead of its target by accounting for its movement and can attack through solid tiles. The tesla sphere and arc deal 110% of the weapon's damage.
+|-
+| [[File:Exoskeleton Laser Icon.gif|link=]]
+| {{item|Exoskeleton Laser Cannon|mode=table|link=}}
+| Fires an infinitely piercing {{item|Red Exo Pulse Laser|Exothermal Laser|link=|ext=gif|size=36px}} every 0.25 seconds five times, then fire an Exothermal Deathray which lasts for 1.25 seconds. Neither attacks can pass through tiles. The laser and deathray deal 110% of the weapon's damage.
+|-
+| [[File:Exoskeleton Gauss Icon.gif|link=]]
+| {{item|Exoskeleton Gauss Nuke|mode=table|link=}}
+| Launches itself towards an enemy every 4 seconds with strong homing. Creates an enormous damaging explosion on hit or upon colliding with a solid tile.
+|}
+
+==Crafting==
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*When a cannon is present, the item sprite changes from [[File:Ares' Exoskeleton.png|link=]] to [[File:Ares' Exoskeleton (Remote).png|link=]], and vice versa.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

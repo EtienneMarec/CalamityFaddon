@@ -1,0 +1,60 @@
+{{addon|Catalyst}}
+{{dedicated|Tomat|Patreon Donator}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = Melee
+| tooltip = Striking enemies spawns sparks and homing meteor heads and grants the holy flame buff<br/>The holy flame buff increases melee speed and stealth regen<br/>Can be thrown if your stealth is full<br/>'You're getting rusty, machine!'
+| damage = 25
+| knockback = 3
+| rare = 2
+| sell = {{value|0|0|10}}
+| use = 10
+| velocity = 6
+| buff = Holy Flame | bufflink = no
+| duration = 5 seconds (true melee hits)
+| bufftip = The Holy Light Guides You...
+| debuff = Hell Judgement | debufflink = no
+| debuffchance = 100%
+| debuffduration = 5 seconds 
+| debufftip = You feel as if the apostate of hate has turned his gaze...
+| proj = Flaming Shard.gif
+| projcaption = Flaming Shard
+| proj2 = Meteor Head.png
+| proj2caption = Meteor Head
+| element1 = Holy
+| element2 = Unholy
+| element3 = Fire
+| element4 = Slash
+}}
+|{{item drops infobox
+| [[Meteor Head]]|1|5%
+}}
+}}
+
+The '''Divine Intervention''' is a Pre-[[Hardmode]] [[broadsword]] that is dropped rarely by [[Meteor Head]]s. Upon striking an enemy with the blade, 3-5 gravity-affected sparks fling outwards from the hit enemy, and a meteor head is summoned from offscreen that homes in on enemies. The sparks deal 10% of the weapon's damage each, and the meteor head does 200% of the weapon's damage. 
+
+In addition to these effects, the player is granted the '''Holy Flame''' buff which increases melee speed by 15% and causes [[stealth]] to generate 5% faster. Enemies hit by the blade or any of its projectiles are inflicted with '''Hell Judgement''' which deals 3 damage per second to enemies and reduces their defense by 3.
+
+Uniquely amongst other melee weapons, the Divine Intervention is able to perform a [[stealth strike]] in which the sword is thrown towards the cursor. 
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The player will need to wear an [[Covering]] set that generates stealth in order to utilize the weapon's stealth strike.
+
+== Trivia ==
+*The Hell Judgement debuff is likely a reference to the character Gabriel from the game ''[[wikipedia:ULTRAKILL|ULTRAKILL]]'' who is known as the apostate of hate.
+*Continuing from the last point, one of Gabriels themes are called ''[[https://www.youtube.com/watch?v=HZY-9V1YX_U|| Divine Intervention]]'', so that may be a further reference.
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]

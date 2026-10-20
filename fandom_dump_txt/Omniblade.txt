@@ -1,0 +1,41 @@
+{{dedicated|Omnir|Influential Mod Creator}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 100
+| use = 9
+| knockback = 6
+| auto = yes
+| stack = 1
+| critical = 49%
+| tooltip = An ancient blade forged by the legendary Omnir
+| rare = 8
+| sell = {{value|0|16}}
+| hardmode = yes
+| proj = Omniblade Slash.gif
+| projcaption = Omniblade Slash
+| projsize = 240px
+| element1 = Holy
+| element2 = Slash
+}}
+
+The '''Omniblade''' is a craftable [[Hardmode]] [[broadsword]]. Attacking with this weapon swings a 90° holdout projectile that swings from the top of the player to the horizontal axis, similar to that of the [[Murasama]], however, it cannot be controlled with the cursor. It has a fast auto-swing rate and a considerable large slash area.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Tips ==
+*Its immense base critical strike chance makes it easy for the right covering or armor setup to bring it to 100%, effectively doubling its damage.
+
+== Trivia ==
+*'Omnir' in the tooltip is a reference to Omnir, the creator of Omnir's mod, one of the first highly popular Terraria mods.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:True melee]]
+[[zh:全能之刃]]

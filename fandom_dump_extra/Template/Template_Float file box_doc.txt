@@ -1,0 +1,10 @@
+It is used to display an image to the left of an infobox, but it additionally accommodates placing long captions on small images (small images usually cause long captions to cut off and/or break into many unsightly lines). It will also accommodate placing one caption under multiple small images.
+
+== Usage ==
+* Enter the complete image code with brackets as the first parameter, omitting only the caption text. Multiple images allowed.
+* Enter the caption text as the second template parameter instead.
+* Optional: Enter a width for the outer frame box (including "px"). Default is 150px.
+
+Example:
+
+{{code| '''<nowiki>{{</nowiki> float file box {{!}} ''' ''<nowiki>[[</nowiki>File:Something.png<nowiki>]]</nowiki>'' {{!}} ''this is a long image caption. this is a long image caption.'' {{!}} ''width<nowiki>=</nowiki>200px '' '''<nowiki>}}</nowiki>'''}}

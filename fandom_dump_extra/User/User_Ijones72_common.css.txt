@@ -1,0 +1,36 @@
+#mw-page-base {
+    background-position: top left;
+}
+
+body, #mw-page-base {
+    background: url(https://cdn.discordapp.com/attachments/496768616814084106/501567338265706507/Calamitas_Aura_wiki_nitro.png) no-repeat fixed center top / cover rgb(0,0,0);
+}
+
+#mw-panel {
+    background-color: rgb(16, 16, 16, 0.7);
+    border: 1px solid #FF9900;
+}
+
+div.vectorTabs li.selected {
+    /* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkAQAAAABvV2fNAAAADElEQVR4AWNoGB4QAInlMgFKeRKBAAAAAElFTkSuQmCC); */
+}
+
+div.vectorTabs li.selected {
+    background-color: transparent;
+}
+
+div.vectorTabs ul li {
+    background-color: transparent;
+}
+
+div#content {
+    background-color: rgb(32, 32, 32, 0.9);
+
+}
+.mw-wiki-logo {
+    filter: drop-shadow(0px 0px 3px #fb6100b3) drop-shadow(0px 0px 3px #fc2d76);
+}
+
+.mw-wiki-logo {
+    background-image: url(https://cdn.discordapp.com/attachments/496768616814084106/501572091548663858/huh3.png);
+}

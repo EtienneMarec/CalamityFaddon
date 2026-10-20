@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 140
+| auto = yes
+| use = 30
+| knockback = 6
+| tooltip = Throws a fast homing scythe<br/>The scythe will bounce after hitting an enemy up to six times<br/>Stealth strikes create damaging afterimages
+| velocity = 20
+| stack = 1
+| rare = 10
+| sell = {{value|0|20}}
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Dark
+| element3 = Slash
+}}
+
+The '''Celestial Reaper''' is a Godseeker Mode [[Spy weapon]] that is sold by the [[Bandit]] for {{pc|2}} after the [[Moon Lord]] has been defeated. When thrown, it will home in on an enemy and will bounce back from the enemy when it hits, allowing it to redirect itself to hit and bounce off of a different enemy, or simply turn around and hit the same enemy again. It will do this up to six times or 10 seconds, slowing down after each hit. After it hits for the sixth time or after the weapon lingers for 10 seconds, it splits into several fast, damaging afterimages, each dealing 50% damage.
+
+Performing a [[stealth strike]] with the Celestial Reaper will cause the next scythe to deal 90% damage and leave behind additional damaging afterimages as it travels; these spawn in greater quantities as the main scythe hits more enemies, but deal 22.5% damage.
+
+{{Modifier|Spy}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+== Tips ==
+*Due to its high damage potential and the relatively aggressive homing capabilities, this weapon is viable to use against many early post-Moon Lord bosses, even all the way to [[Polterghast]].
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}

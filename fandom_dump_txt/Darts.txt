@@ -1,0 +1,21 @@
+{{addon|Calamity: Tales of the Aquatic}}
+'''Darts''' are a form of [[ammunition]] consumed by [[Dart guns]]. The Calamity: Tales of the Aquatic addon adds several dart types.
+
+== Types ==
+<onlyinclude><includeonly>''For more information, see [[Darts]].''</includeonly>
+{| class="terraria sortable lined" id="dpl-table"
+! Name !! Damage !! Velocity !! Velocity Multiplier !! Knockback !! [[Rarity]] !! <abbr title=Hardmode>HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Darts
+| namespace = <!-- need to have it blanked to restrict it to main namespace. prevents category pages from being included-->
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦:arrows/dpl}
+| mode = userformat
+}}
+|}</onlyinclude>
+
+{{Ctota}}
+
+[[Category:Ammunition items| ]]

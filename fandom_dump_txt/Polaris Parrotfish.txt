@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 50
+| auto = yes
+| use = 21
+| knockback = 2.25
+| velocity = 15
+| tooltip = It carries the mark of the Northern Star<br/>Projectile hits grant buffs to the weapon and the player<br/>Buffs are removed on hit
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| buff = Polaris Boost | bufflink = no
+| buffchance = 100%
+| buffduration = 3 seconds
+| bufftip = The Northern Star empowers your weapon
+| hardmode = yes
+| element1 = Magic
+| element2 = Water
+}}
+
+The '''Polaris Parrotfish''' is a non-consumable [[ranged weapon]] that can be fished up in the [[Astral Infection]]. When used, it fires deadly lasers which will increase in power the more shots you hit. If the laser damages an enemy, the player will be granted the '''Polaris Boost''' [[buff]], which increases the player's defense by 2, Damage Reduction by 1%, and life regen by 1. After the player has hit an [[enemy]] ten times without losing the Polaris Boost buff, the laser will boost in power. After the first boost, lasers will split into several smaller lasers. After the second boost, lasers will home in on enemies and explode. If the player is hit or holds a different item, the player loses the Polaris Boost buff and any boosts to the weapon.
+
+{{Modifier|ranged}}
+
+== Trivia ==
+*The Polaris Parrotfish is a reference to the "Polar Star" gun from the game ''[[wikipedia:Cave Story|Cave Story]]''. The first line of the tooltip is directly quoted from its tooltip in Cave Story.
+**The Polaris Boost Buff and the weapon getting more powerful as hits are landed without being hit yourself is somewhat reminiscent of Cave Story's weapon EXP mechanic. In it, weapons level up when enough EXP crystals are picked up, but the equipped weapon loses EXP when you are hit, and can level down.
+*Additionally, the name is a reference to [[wikipedia:Polaris|Polaris]], also known as the North Star.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-ranged = yes
+}}

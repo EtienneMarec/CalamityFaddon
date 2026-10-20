@@ -1,0 +1,36 @@
+{{npc infobox
+| type = Enemy
+| environment = The Void
+| ai = Glowfly AI
+| damage = {{dv|0}}
+| life = {{dv|5|10}}
+| defense = 0
+| knockback = {{dv|5%}}
+| banner = no
+| immune1 = Kami Flu
+| hurt = NPC_Hit_51.wav
+| killed = NPC_Killed_54.wav
+| vulnerable1 = Water
+| vulnerable2 = Fire
+| resistant1 = Holy
+| resistant2 = Dark
+| resistant3 = Unholy
+| resistant4 = Poison
+| hardmode = yes
+| postml = yes
+}}
+
+'''Glowflies''' are [[Enemies]] that spawn in [[The Void]]. They spawn in groups of 5, and fly erratically around until they locate a player, which they will then swarm around. Glowflies do not deal damage, and instead give off light, which can attract other enemies found in The Void.
+
+== Notes ==
+* Glowflies will not attract certain enemies until they are locked onto a player.
+
+{{npc infobox
+| name = Glowfly
+}}
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

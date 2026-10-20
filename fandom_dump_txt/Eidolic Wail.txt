@@ -1,0 +1,57 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 126
+| damagetype = magic
+| auto = yes
+| stack = 1
+| knockback = 1
+| mana = 10
+| velocity = 8
+| use = 36
+| tooltip = Earrape<br/>Fires a string of bouncing sound waves that become stronger as they travel
+| rare = 13
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| debuff=Crush Depth
+| debuffchance=100%
+| debuffduration = 4 seconds
+| debufftip=Aquatic pressure
+| proj = Eidolic Sound Wave.png
+| projcaption = Eidolic Sound Wave
+| element1 = Dark
+| element2 = Water
+}}
+|{{item drops infobox
+| [[Eidolon Wyrm]] (After [[Polterghast]] has been defeated)|1| 33.33%
+| [[Adult Eidolon Wyrm]] |1| 100%
+}}
+}}
+[[File:Eidolic Wail (demo).gif|frame|right|The Eidolic Wail being used on three [[Target Dummy|Target Dummies]]. Note how the projectiles grow significantly in size and slow down while dealing increasing damage to each dummy.]]
+
+The '''Eidolic Wail''' is a Godseeker Mode [[magic gun]] that drops from [[Eidolon Wyrm]]s after [[Polterghast]] has been defeated, as well as from the [[Adult Eidolon Wyrm]]. It fires a burst of three sound waves that can pierce infinitely and ricochet off of walls in quick succession. The wave initially deals 2% damage with a smaller size and grows to full size and damage after 0.83 seconds.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The sound waves are fired 17 ticks apart, with a 30 tick delay between each group of three sound waves.
+
+== Tips ==
+*The Eidolic Wail uses very little mana and can deal extreme damage, making it a reliable weapon for any mage player once acquired.
+*Because the sound waves gain more damage as they grow, this weapon does significantly increased DPS at a distance.
+*This weapon is near useless versus individual targets because its projectiles are so slow. However, its ability to ignore NPC immunity frames and pierce infinitely makes it incredibly powerful for dealing with crowds of enemies.
+
+== Trivia ==
+*Earrape is a term for music or sounds that have been heavily distorted or bass boosted for comedic purposes.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic guns]]

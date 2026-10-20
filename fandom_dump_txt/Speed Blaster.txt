@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 26
+| use = 24
+| tooltip = Shoots a string of paint blasts
+| knockback = 2.25
+| auto = yes
+| stack = 1
+| rare = 5
+| sell = {{value|0|7|20}}
+| velocity = 20
+| hardmode = yes
+| element1 = Stab
+}}
+
+The '''Speed Blaster''' is a craftable [[Hardmode]] [[Ranged weapons|ranged weapon]] that acts as a direct upgrade to the vanilla [[Paintball Gun]]. It fires in rapid bursts of six paintballs, and like the Paintball Gun, it does not consume ammo, making it a very reliable weapon. Its high damage potential is somewhat offset by the gravity effect drop and relatively low projectile velocity.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Calamity Mod allows the [[Painter]] to sell the Paintball Gun, allowing the player to obtain the weapon without having to kill the NPC.
+*Having the cursor extremely close to the character will slightly slow down the velocity of the shots.
+
+== Tips ==
+*Though lacking any piercing ability, the extraordinary damage output makes the Speed Blaster very effective against individual enemies with very high health.
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

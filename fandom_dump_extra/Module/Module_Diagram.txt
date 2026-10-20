@@ -1,0 +1,333 @@
+local trim = mw.text.trim
+local inputArgs
+
+local function getArg(key)
+	local v = trim(inputArgs[key] or '')
+	if v=='' then
+		return nil
+	else
+		return v
+	end
+end
+
+local function tableStartTag()
+	local t
+	local str =  '<table class="diagram'
+	t = getArg('class')
+	if t then
+		str = str .. ' ' .. t
+	end
+	str = str .. '"'
+	t = getArg('id')
+	if t then
+		str = str .. ' id="' .. t ..'"'
+	end
+	t = getArg('style') or getArg('css')
+	if t then
+		str = str .. ' style="' .. t ..'"'
+	end
+	t = getArg('summary')
+	if t then
+		str = str .. ' title="' .. t ..'"'
+	end
+	return str .. '>'
+end
+
+--------------------------------------------------------------
+return {
+	render = function(frame)
+		--currentFrame = frame
+		inputArgs = frame:getParent().args
+
+		local str = tableStartTag()
+
+		local _i = 1
+		local v
+		local row1 = ''
+		local row2 = ''
+		local boxclass = getArg('boxclass')
+		local boxstyle = getArg('boxstyle')
+		while true do
+			v = inputArgs[_i]
+			if not v then
+				break
+			end
+			_i = _i+1
+			v  = trim(v)
+
+			if v == '#' then
+				str = str .. '<tr class="x"> '..row1 .. '</tr><tr class="y">' .. row2 .. '</tr>'
+				row1 = ''
+				row2 = ''
+			elseif v == '_' or v == '0' or v == 'O' then
+				row1 = row1 .. '<td class="l nr nb"></td><td class="l"></td>'
+				row2 = row2 .. '<td class="l"></td><td class="l"></td>'
+			elseif v == '-' then
+				row1 = row1 .. '<td colspan="2" class="l sb"></td>'
+				row2 = row2 .. '<td class="l nr"></td><td class="l"></td>'
+			elseif v == 'I' then
+				row1 = row1 .. '<td rowspan="2" class="l sr"></td><td class="l nb"></td>'
+				row2 = row2 .. '<td class="l"></td>'
+			elseif v == ',' then
+				row1 = row1 .. '<td class="l cf"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == 'v' then
+				row1 = row1 .. '<td colspan="2" class="l sb"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == '.' then
+				row1 = row1 .. '<td class="l sb"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l sr"></td>'
+			elseif v == ')' then
+				row1 = row1 .. '<td rowspan="2" class="l sr"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l"></td>'
+			elseif v == '+' then
+				row1 = row1 .. '<td class="l sr sb"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == '(' then
+				row1 = row1 .. '<td class="l sb sr"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l sr"></td>'
+			elseif v == '`' then
+				row1 = row1 .. '<td class="l sr"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == '^' then
+				row1 = row1 .. '<td class="l sr sb"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == "'" then
+				row1 = row1 .. '<td class="l sr sb"></td><td class="l"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == '~' then
+				row1 = row1 .. '<td colspan="2" class="l db"></td>'
+				row2 = row2 .. '<td class="l nr"></td><td class="l"></td>'
+			elseif v == ':' then
+				row1 = row1 .. '<td rowspan="2" class="l dr"></td><td class="l nb"></td>'
+				row2 = row2 .. '<td class="l"></td>'
+			elseif v == 'F' then
+				row1 = row1 .. '<td class="l cf"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == 'V' then
+				row1 = row1 .. '<td colspan="2" class="l db"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == '7' then
+				row1 = row1 .. '<td class="l db"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l dr"></td>'
+			elseif v == 'D' then
+				row1 = row1 .. '<td rowspan="2" class="l dr"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l"></td>'
+			elseif v == 'X' then
+				row1 = row1 .. '<td class="l dr db"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == 'C' then
+				row1 = row1 .. '<td class="l db dr"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l dr"></td>'
+			elseif v == 'L' then
+				row1 = row1 .. '<td class="l dr"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == 'A' then
+				row1 = row1 .. '<td class="l dr db"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == 'J' then
+				row1 = row1 .. '<td class="l dr db"></td><td class="l"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == 'r' then
+				row1 = row1 .. '<td class="l cf"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == 'y' then
+				row1 = row1 .. '<td colspan="2" class="l db"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == 'n' then
+				row1 = row1 .. '<td class="l db"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l sr"></td>'
+			elseif v == ']' then
+				row1 = row1 .. '<td rowspan="2" class="l sr"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l"></td>'
+			elseif v == '$' then
+				row1 = row1 .. '<td class="l sr db"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == '[' then
+				row1 = row1 .. '<td class="l db sr"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l sr"></td>'
+			elseif v == 'c' then
+				row1 = row1 .. '<td class="l sr"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == 'h' then
+				row1 = row1 .. '<td class="l sr db"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == 'j' then
+				row1 = row1 .. '<td class="l sr db"></td><td class="l"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == 'p' then
+				row1 = row1 .. '<td class="l cf"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == 'u' then
+				row1 = row1 .. '<td colspan="2" class="l sb"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == 'q' then
+				row1 = row1 .. '<td class="l sb"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l dr"></td>'
+			elseif v == 'E' then
+				row1 = row1 .. '<td rowspan="2" class="l dr"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l"></td>'
+			elseif v == 'x' then
+				row1 = row1 .. '<td class="l dr sb"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == '3' then
+				row1 = row1 .. '<td class="l sb dr"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l dr"></td>'
+			elseif v == 'b' then
+				row1 = row1 .. '<td class="l dr"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == 't' then
+				row1 = row1 .. '<td class="l dr sb"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == 'd' then
+				row1 = row1 .. '<td class="l dr sb"></td><td class="l"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == '/' then
+				row1 = row1 .. '<td class="l dr db"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == 'Y' then
+				row1 = row1 .. '<td class="l dr sb"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == '\\' then
+				row1 = row1 .. '<td class="l dr sb"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == 'B' then
+				row1 = row1 .. '<td class="l sr db"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == 'G' then
+				row1 = row1 .. '<td class="l sr sb"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == 'R' then
+				row1 = row1 .. '<td class="l sr db"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == 'U' then
+				row1 = row1 .. '<td class="l sr sb"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == '4' then
+				row1 = row1 .. '<td class="l sr sb"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == '!' then
+				row1 = row1 .. '<td class="l sr nb"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l dr"></td>'
+			elseif v == 'i' then
+				row1 = row1 .. '<td class="l dr nb"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l sr"></td>'
+			elseif v == '<' then
+				row1 = row1 .. '<td class="l sb nr"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == '>' then
+				row1 = row1 .. '<td class="l db nr"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == '9' then
+				row1 = row1 .. '<td class="l sr nb"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l"></td>'
+			elseif v == '6' then
+				row1 = row1 .. '<td colspan="2" class="l nb"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == '&' then
+				row1 = row1 .. '<td class="l sb nr"></td><td class="l"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == '?' then
+				row1 = row1 .. '<td class="l nr"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == '"' then
+				row1 = row1 .. '<td class="l dr nb"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l"></td>'
+			elseif v == ';' then
+				row1 = row1 .. '<td colspan="2" class="l nb"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == 'a' then
+				row1 = row1 .. '<td class="l db nr"></td><td class="l"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == 'e' then
+				row1 = row1 .. '<td class="l nr"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == 'M' then
+				row1 = row1 .. '<td class="l dr db"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == 'W' then
+				row1 = row1 .. '<td class="l sr db"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == '2' then
+				row1 = row1 .. '<td class="l dr sb"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == '5' then
+				row1 = row1 .. '<td class="l dr db"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == 'f' then
+				row1 = row1 .. '<td class="l sr nb"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == 'g' then
+				row1 = row1 .. '<td class="l sr db"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l dr"></td>'
+			elseif v == 'k' then
+				row1 = row1 .. '<td class="l dr nb"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == 's' then
+				row1 = row1 .. '<td class="l dr db"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l sr"></td>'
+			elseif v == 'o' then
+				row1 = row1 .. '<td class="l nr sb"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == 'm' then
+				row1 = row1 .. '<td class="l nr db"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == 'w' then
+				row1 = row1 .. '<td class="l dr sb"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == 'z' then
+				row1 = row1 .. '<td class="l dr db"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == 'P' then
+				row1 = row1 .. '<td class="l dr nb"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == 'H' then
+				row1 = row1 .. '<td class="l dr sb"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l sr"></td>'
+			elseif v == 'K' then
+				row1 = row1 .. '<td class="l sr nb"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l dr"></td><td class="l"></td>'
+			elseif v == 'N' then
+				row1 = row1 .. '<td class="l sr sb"></td><td class="l" rowspan="2"></td>'
+				row2 = row2 .. '<td class="l dr"></td>'
+			elseif v == 'T' then
+				row1 = row1 .. '<td class="l nr db"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == 'Z' then
+				row1 = row1 .. '<td class="l nr sb"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l sr"></td><td class="l"></td>'
+			elseif v == 'S' then
+				row1 = row1 .. '<td class="l sr db"></td><td class="l sb"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == 'Q' then
+				row1 = row1 .. '<td class="l sr sb"></td><td class="l db"></td>'
+				row2 = row2 .. '<td class="l" colspan="2"></td>'
+			elseif v == '' then
+				-- just skip.
+			else
+				-- content box
+				local cols = tonumber(getArg(v..'_cols') or 3)
+				local rows = tonumber(getArg(v..'_rows') or 1)
+				row1 = row1 .. '<td colspan="' .. tostring(cols*2) .. '" rowspan="' .. tostring(rows*2) .. '" class="diagram-box'
+				local t = getArg(v..'_class')
+				if boxclass or t then
+					row1 = row1 .. ' ' .. tostring(boxclass) .. ' ' ..tostring(t)
+				end
+				row1 = row1 .. '"'
+				t = getArg(v..'_id')
+				if t then
+					row1 = row1 .. ' id="' .. t ..'"'
+				end
+				t = getArg(v..'_boxstyle') or getArg(v..'_style') or getArg(v..'_css')
+				if boxstyle or t then
+					row1 = row1 .. ' style="' .. tostring(boxstyle) .. ';' .. tostring(t) .. '"'
+				end
+				row1 = row1 .. '>' .. trim(inputArgs[v] or '') .. '</td>'
+			end
+		end
+		if row1 ~= '' then
+			str = str .. '<tr class="x"> '..row1 .. '</tr><tr class="y">' .. row2 .. '</tr>'
+		end
+		return str .. '</table>'
+	end,
+}

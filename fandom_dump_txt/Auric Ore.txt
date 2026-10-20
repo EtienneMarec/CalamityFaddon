@@ -1,0 +1,51 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| tooltip = Laced with the dormant power of a deity
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 250
+| stack = 9999
+| rare = 15
+| value = 1000
+| color = #FFC800
+| use = 14
+| sell = {{value|0|4}}
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+|[[Auric Slime]]|10-26|100%
+}}
+}}
+<big> ''"A godly aura has blessed the world's caverns."'' </big>
+
+'''Auric Ore''' is a Godseeker Mode [[ore]] found on the first and second islands of the [[Dragon's Aerie]]. Its main use is to craft [[Auric Bar]]s, which are used in creating some of the most powerful gear in the ''Calamity Mod''. It requires at least a [[Blossom Pickaxe]] to mine. It also drops from [[Auric Slime]]s.
+
+Unlike most other ores, Auric Ore spawns in enormous clusters. The largest veins can easily have 150 blocks of ore or more; to compensate, Auric Bars require a significantly number of Auric Ore to craft compared to other bars.
+
+== Crafting ==
+
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+**However, 30-40 can be obtained from [[Titanium Crate]]s at a 15% drop chance after Yharon has been defeated.
+*Auric Ore cannot be destroyed by explosives, even after Yharon has been defeated.
+*Like [[Cryonic Ore]], it can be seen without the use of light sources (e.g., torches, light pets, etc.)
+
+{{auric}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}
+[[es:Auric Ore]]

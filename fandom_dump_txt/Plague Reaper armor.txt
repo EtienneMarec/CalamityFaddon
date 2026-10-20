@@ -1,0 +1,75 @@
+{{item infobox
+| type = Armor
+| defense = 34
+| rare = 8
+| sell = {{value|0|36}} (set)
+| proj = Plague Cinder.gif
+| projcaption = Plague Cinder
+| setbonus = 25% reduced ammo usage and 5% increased flight time<br/>Enemies receive 10% more damage from ranged projectiles when afflicted by the Plague<br/>Getting hit causes the plague cinders to rain from above<br/>Press the {{key|Armor Set Bonus}} key to blind yourself for 5 seconds but massively boost your ranged damage<br/>This has a 25 second cooldown.
+| hardmode = yes
+| debuff = Plague
+| debuffchance = 100%
+| debufftip = Rotting from the inside
+| debuffduration = 2 seconds (Plague Cinders)
+| debuff2 = Plague Blackout Cooldown | debufflink2 = no
+| debuffchance2 = 100%
+| debuffduration2 = 25 seconds (After usage)
+| debufftip2 = Your plague blackout ability is recharging
+| boxwidth = 24em
+}}
+{{distinguish|Plaguebringer armor|a Hardmode armor set based on the summoner class}}
+
+'''Plague Reaper armor''' is a [[Hardmode]] [[Covering]] set that is an upgrade to the [[Necro armor]]. It requires an entire Necro armor set along with 65 [[Plague Cell Canister]]s and 47 [[Nanites]] to craft the entire set. The armor mainly grants bonuses to the ranged class. If the entire set is visible (regardless of whether it is equipped or in social slots), the wearer will have a faint pulsing aura.
+
+It consists of a '''Plague Reaper Mask''', '''Plague Reaper Vest''', and '''Plague Reaper Striders'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*34 defense
+*25% increased ranged damage
+*16% increased ranged critical strike chance
+*15% increased movement speed
+*25% reduced ammo usage
+*5% increased flight time
+*Halves the damage taken from the [[Plague]] [[debuff]]
+*The Plague debuff causes enemies to take 10% more damage from ranged projectiles
+*Getting hit causes Plague Cinders to rain above the player which are affected by ranged damage bonuses.
+*Pressing {{key|Armor Set Bonus}} will blind the player similarly to the [[Blackout]], [[Darkness]], and [[Obstructed]] debuffs for 5 seconds. While the player is blinded, their ranged damage and critical strike chance is raised by 60% and 20% respectively. This effect has a 25 second cooldown.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Plague Reaper Mask
+| type = Armor
+| defense = 9
+| body slot = Helmet
+| tooltip = 10% increased ranged damage and 8% increased ranged critical strike chance
+| sell = {{value|0|6}}
+}}
+|{{item infobox
+| name = Plague Reaper Vest
+| type = Armor
+| defense = 14
+| body slot = Shirt
+| tooltip = Reduces the damage caused to you by the plague<br/>15% increased ranged damage and 5% increased ranged critical strike chance
+| sell = {{value|0|4|80}}
+}}
+|{{item infobox
+| name = Plague Reaper Striders
+| type = Armor
+| defense = 11
+| body slot = Pants
+| tooltip = 3% increased critical strike chance<br/>15% increased movement speed
+| sell = {{value|0|3|60}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Plague Reaper%}}
+
+== Trivia ==
+*The set is based off of the [[wikipedia:Plague_doctor|plague doctor]]s; physicians who treated [[wikipedia:bubonic plague|the bubonic plague]].
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

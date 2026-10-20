@@ -1,0 +1,201 @@
+'''Mounts''' are creatures or objects that act as vehicles that a player can use for transportation or dealing damage. When a mount-summoning item is used, it applies an unlimited [[buff]] to the player, spawns the mount, and places the player on or in it. Mount movement can be controlled using the player's usual movement keys. Like [[pets]] and [[minions]], mounts can be used endlessly, and their summoning items are not consumed. Only one mount can be in effect at a time. Mounts will un-equip automatically when the player dies.
+
+[[Weapons]] and [[tools]] (as well as any other item, except [[hooks]]) can be used while riding a mount, except for the [[Onyx Excavator Key]].
+
+All mounts that do damage (e.g [[Onyx Excavator Key]]) will do Summon damage.
+
+All mount items can be placed in the mount slot and then summoned with {{key|mount}}, and can be dyed. Mount-summoning items cannot be reforged and therefore cannot have any modifiers.
+
+There are currently 7 new Mounts added to the Calamity Mod, each with varying abilities and movement statistics.
+
+== Types ==
+=== Pre-Hardmode ===
+{| class="terraria lined"
+! width="150" colspan="2" | Item
+! width="125" colspan="2" | Mount
+! Description
+! Height (ft)
+! Speed ([[mph]])
+! Source
+|-
+| {{item|mode=table|Onyx Excavator Key}}
+| {{item|mode=table|Onyx Excavator}}
+| style="font-size:90%" |
+*Fast movement speed
+*Mines terrain ({{key|use}})
+*Charging though enemies inflicts summon damage
+| align=center | 3
+|
+*40
+| [[Cavern]] [[Shrine]]
+|-
+| {{item|mode=table|Tundra Leash}}
+| {{item|mode=table|Angry Dog (Mount)|Angry Dog}}
+| style="font-size:90%" |
+*Fast movement speed
+*Charging though enemies inflicts summon damage
+| align=center | 20
+|
+*33 (horizontal)
+*41 (vertical)
+| [[Snow biome]] [[Shrine]]
+|}
+
+=== Hardmode ===
+{| class="terraria lined"
+! width="150" colspan="2" | Item
+! width="125" colspan="2" | Mount
+! Description
+! Height (ft)
+! Speed ([[mph]])
+! Source
+|-
+| {{item|mode=table|Plague Station}} {{fantag|Catalyst}}
+| {{item|mode=table|Plague Throne}}
+| style="font-size:90%" |
+*Infinite flight
+*Can float in place and fly somewhat fast
+*Halves speed with {{key|Exo Chair Slow Down}}
+*Doubles speed with {{key|Exo Chair Speed Up}}
+| align=center | {{infinity}}
+|
+*52 (horizontal)
+*52 (vertical)
+| {{item|The Plaguebringer Goliath|size=50px}}
+|-
+| {{item|mode=table|Plagued Minecart}} {{fantag|Community Remix}}
+| align=center | {{item|mode=table|Plague Cart}}
+| style="font-size:90%" |
+*Only works on Minecart tracks
+*Allows the player to perform a dash with a base distance of 60 tiles, firing off homing plague rockets in the process
+*This dash has a cooldown of 5 seconds
+*Can only be attained in [[Revengeance Mode]]
+| align=center | 7
+|
+*68
+*152 (While Dashing)
+| {{item|The Plaguebringer Goliath|size=50px}}
+|}
+
+=== Godseeker Mode ===
+{| class="terraria lined"
+! colspan="2" width="150" | Item
+! colspan="2" |Mount
+! Description
+! Height (ft)
+! Speed ([[mph]])
+! Source
+|-
+| {{item|mode=table|Brimrose}}
+| align=center | {{item|mode=table|Brimrose Mount}}
+| style="font-size:90%" |
+*Infinite flight
+*Can float in place and fly very fast
+| align=center | {{infinity}}
+|
+*62 (horizontal)
+*41 (vertical)
+| {{item|Brimstone Elemental|size=50px}} (After [[Providence, the Profaned Goddess]] has been defeated)
+|-
+| {{item|mode=table|Folly Feed}}
+| align=center | {{item|mode=table|Bumbledoge}}
+| style= "font-size:90%" |
+*Limited flight time
+*Horizontal hovering with {{key|down}}+{{key|jump}}.
+| align=center | 234
+|
+*72 (horizontal)
+*31 (vertical)
+| {{item|The Dragonfolly|size=50px}}
+|-
+| {{item|mode=table|Suspicious Looking Jelly Bean}}
+| align=center | {{item|mode=table|Squishy Bean Mount|Squishy Bean}}
+| style="font-size:90%" |
+*Can jump very high and fall down quickly
+| align=center | 110
+|
+*40 (horizontal)
+*102 (vertical)
+| {{item|Astrum Aureus|size=50px}} (After [[Moon Lord]] has been defeated)
+|-
+| {{item|mode=table|Discordian Sigil}}
+| align=center | {{item|mode=table|Alicorn Mount|Alicorn}}
+| style="font-size:90%" |
+*Limited flight time
+*Fast running and flight
+| align=center | 818
+|
+*107 (horizontal)
+*61 (vertical)
+|{{item|The Devourer of Gods|size=80px}} (while wearing [[Permafrost's Concoction]])
+|-
+| {{item|mode=table|The Cart of Gods}}
+| align=center | {{item|mode=table|Devourer Cart}}
+| style="font-size:90%" |
+*Only works on Minecart tracks.
+*Has 18 individual segments
+| align=center | 7
+|
+*112
+| {{recipes/extract|result=The Cart of Gods}}
+|-
+| {{item|mode=table|Gaze of Crysthamyr}}
+| align=center | {{item|mode=table|Shadow Dragon (Mount)|Shadow Dragon}}
+| style="font-size:90%" |
+*Limited flight time
+*Horizontal hovering with {{key|down}}+{{key|jump}}.
+| align=center | 1350
+|
+*77 (horizontal)
+*69 (vertical)
+| {{recipes/extract|result=Gaze of Crysthamyr}}
+|-
+| {{item|mode=table|Exo Box}}
+| align=center | {{item|mode=table|Draedon's Gamer Chair}}
+| style="font-size:90%" |
+*Infinite flight
+*Can float in place and fly very fast
+*Halves speed with {{key|Exo Chair Slow Down}}
+*Doubles speed with {{key|Exo Chair Speed Up}}
+| align=center | {{infinity}}
+|
+*61 (horizontal)
+*61 (vertical)
+| {{item|The Fabricational Quartet|image=Draedon.png}}
+|-
+| {{item|mode=table|Flame Cube}}
+| align=center | {{item|mode=table|Brimthrone}}
+| style="font-size:90%" |
+*Infinite flight
+*Can float in place and fly very fast
+*Halves speed with {{key|Exo Chair Slow Down}}
+*Doubles speed with {{key|Exo Chair Speed Up}}
+| align=center | {{infinity}}
+|
+*62 (horizontal)
+*62 (vertical)
+| {{item|Exhume|image=Enchantment_Rune_Exhumed.png}} {{item|Exo Box|image=Exo_Box.png}}
+|-
+| {{item|mode=table|Mantis Leg Plate}}
+| align=center | {{item|mode=table|Mantis Legs}}
+| style="font-size:90%" |
+*Insane running speed.
+*Allows you to jump up to 100 tiles, creating reactive flames.
+| 
+|
+*170 (horizontal)
+| {{item|Reactive Guardian, Sodis}}
+|}
+
+== Notes ==
+*Riding a mount will increase the player's height – for example, they cannot go through doors or enter a 3-tile-high tunnel. If there isn't enough headroom available for the mount, trying to activate the mount will fail.
+**However, the player's width is unchanged – they can still fall, jump, and/or fly up and down a 2-tile-wide vertical tunnel.
+
+== See Also ==
+*[[tgc:Mounts|Mounts]] on the vanilla wiki.
+
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}
+[[Category:Mount Summon items|*]]

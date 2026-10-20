@@ -1,0 +1,22 @@
+{{npc infobox
+| type = Critter
+| ai = Aerbunny AI
+| environment = Aether
+| life = 5
+| damage = 0
+| defense = 0
+| knockback = 0%
+| custom |4=White String|5=1|6=2.5%| hurt = NPC_Hit_25.wav
+| killed = NPC_Killed_28.wav
+}}
+
+The '''Aerbunny''' is a [[Pre-Hardmode]] [[Critters|Critter]] that spawns in [[The Aether]] during the day. Aerbunnys have a 2.5% chance to drop [[tgc:White_String|White String]] when slain, although they don't drop money.
+
+== Trivia ==
+*The Aerbunny was the first NPC to be teased for the "''Aether Update''"
+*The texture used for the Aerbunny is a modified version of the vanilla [[tgc:Bunny|Bunny]]
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

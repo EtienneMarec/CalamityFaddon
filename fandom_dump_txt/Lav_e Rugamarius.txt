@@ -1,0 +1,145 @@
+{{DISPLAYTITLE:<big><big><big><font color="#ff0000">'''𝕷𝖆𝖛'𝖊 𝕽𝖚𝖌𝖆𝖒𝖆𝖗𝖎𝖚𝖘'''</font></big></big></big>}}
+{{addon|Polyphemalus}}
+{{npc infobox
+| imagealt = [[File:Lav'e Rugamarius.png|350px]]
+| type = Burrowing Enemy
+| life = {{dv|600,000||645,000}}
+| ai = Worm AI
+| damage = {{element|Unholy}} {{dv|4%|8%}} of the player's health (contact)<br/>{{element|Unholy}} {{dv|0.02%|0.04%}} (grab)<br/>{{element|Unholy}} {{dv|1%|1.5%}} of the player's health (bite)
+| defense = 22
+| dr = 20
+| knockback = 100
+| listexclude = yes
+| hardmode = yes
+| postml = yes
+| boxwidth = 31em
+| debuff = Scorinfestation
+| debufftip = Consumed by magma
+| duration = 5 minutes
+| debuffchance = 5%
+| immuneall = yes
+| hurt = NPC_Hit_1.wav
+| killed = SepulcherDeath.wav
+| resistant1 = Fire
+| resistant2 = Water
+| resistant3 = Poison
+| resistant4 = Magic
+| resistant5 = Stab
+| resistant6 = Dark
+| resistant7 = Unholy
+| vulnerable1 = Cold
+| vulnerable2 = Slash
+| vulnerable3 = Holy
+}}
+
+'''Lav'e Rugamarius''' (Enchanting Table: ∷ᒷᓵꖌ𝙹リ╎リ⊣ ᓭℸ ̣ ᔑ╎リ 𝙹⎓ ⊣𝙹↸ ''"The Reckoning Stain of God"'') is a Godseeker Mode [[mini boss]] that is summoned by right clicking [[La Ruga]] on the surface at night with a chunk of [[Scoria Ore]]. 
+
+It attacks by trying to crawl into the player similar to most other worm enemies while ignoring gravity and making swift turns. If the player narrowly doges Lav'e Rugamarius but is within range of its arms, the arms on its nearest segment will make a cracking noise then extend outwards. The arms will then attempt to swat at the player, dealing damage if they hit. Upon reaching 50% health, Lav'e Rugamarius will make a loud screech, causing the screen to dim and all light sources to burn out for the duration of the encounter. Instead of swatting at the player with its arms, the arms will try to grab the player then drag them into Lav'e Rugamarius' mouth, locking the player in place and dealing damage to them 22 times. Upon being defeated Lav'e Rugamarius doesn't die and instead spins in a circle then dives downwards and despawns. 
+
+Defeating Lav'e Rugamarius unlocks the monitor room in the [[Arsenal Labs|Exosphere Lab]].
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Lav'e Rugamarius Head
+| ai = Worm AI
+| life = {{dv|600,000||645,000}}
+| damage = {{element|Unholy}} {{dv|4%|8%}} of the player's health<br/>{{element|Unholy}} {{dv|1%|1.5%}} of the player's health (bite)
+| defense = 22
+| dr = 20
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| resistant1 = Fire
+| resistant2 = Water
+| resistant3 = Poison
+| resistant4 = Magic
+| resistant5 = Stab
+| resistant6 = Dark
+| resistant7 = Unholy
+| vulnerable1 = Cold
+| vulnerable2 = Slash
+| vulnerable3 = Holy
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Lav'e Rugamarius Body
+| ai = Worm AI
+| life = {{dv|600,000||645,000}}
+| damage = {{element|Unholy}} {{dv|0.02%|0.04%}} (grab)<br/>{{element|Unholy}} {{dv|5%|9.5%}} of the player's health (slap)
+| defense = 22
+| dr = 20
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| resistant1 = Fire
+| resistant2 = Water
+| resistant3 = Poison
+| resistant4 = Magic
+| resistant5 = Stab
+| resistant6 = Dark
+| resistant7 = Unholy
+| vulnerable1 = Cold
+| vulnerable2 = Slash
+| vulnerable3 = Holy
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Lav'e Rugamarius Body
+| namesub = Weak
+| image = Lav'e Rugamarius Body (Weak).png
+| ai = Worm AI
+| life = {{dv|600,000||645,000}}
+| damage = {{element|Unholy}} {{dv|0.02%|0.04%}} (grab)<br/>{{element|Unholy}} {{dv|5%|9.5%}} of the player's health (slap)
+| defense = 22
+| dr = 20
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| resistant1 = Fire
+| resistant2 = Water
+| resistant3 = Poison
+| resistant4 = Magic
+| resistant5 = Stab
+| resistant6 = Dark
+| resistant7 = Unholy
+| vulnerable1 = Cold
+| vulnerable2 = Slash
+| vulnerable3 = Holy
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Lav'e Rugamarius Tail
+| ai = Worm AI
+| life = {{dv|600,000||645,000}}
+| defense = 22
+| dr = 20
+| damage = {{element|Unholy}} 22
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| resistant1 = Fire
+| resistant2 = Water
+| resistant3 = Poison
+| resistant4 = Magic
+| resistant5 = Stab
+| resistant6 = Dark
+| resistant7 = Unholy
+| vulnerable1 = Cold
+| vulnerable2 = Slash
+| vulnerable3 = Holy
+}}
+}}
+
+== Notes ==
+*Lav'e Rugamarius has 22 segments in total including its head and tail.
+
+== Trivia ==
+*Lav'e Rugamarius when reorganized roughly translates to "Reckoning Stain of God" in French.
+*As with La Ruga, Lav'e Rugamarius features prominent usage of the number 22, following the [[22 Bullet Theory]].
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

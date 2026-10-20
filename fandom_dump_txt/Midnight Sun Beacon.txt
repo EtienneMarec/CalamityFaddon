@@ -1,0 +1,47 @@
+{{item infobox	
+| type = Weapon
+| damage = 191
+| damagetype = Summon
+| knockback = 1
+| stack = 1
+| mana = 10
+| rare = 15
+| sell = {{value|0|30}}
+| auto = yes
+| use = 9
+| velocity = 10
+| tooltip = Summons a UFO to vaporize enemies
+| hardmode = yes
+| postml = yes
+| buff = Midnight Sun UFO (buff) | bufflink = no
+| bufftip = A strange UFO is observing you, and it's making you very uncomfortable
+| debuff = Electrified
+| debuffchance = 100%
+| debuffduration = 3 seconds (Sweeping laser beam)
+| debufftip = You cannot move
+| proj = Midnight Sun Laser.png
+| projcaption = Midnight Sun Laser
+| proj2 = Midnight Sun Beam.png
+| proj2caption = Midnight Sun Laser Beam
+| element1 = Dark
+| element2 = Holy
+| element3 = Magic
+| element4 = Electricity
+}}
+{{summoned|Midnight Sun UFO|type=minion}}
+
+The '''Midnight Sun Beacon''' is a craftable Godseeker Mode [[summon weapon]] that is the direct upgrade to the [[Xeno Staff]] and the [[Lunar Portal Staff]]. When used it throws out a Midnight Sun Beacon that summons a Midnight Sun UFO after a few seconds. The Midnight Sun UFO will track an enemy and fire small lasers towards them. After a few seconds of consecutively firing, it will circle above an enemy and fire a concentrated laser beam thats length is determined by the size of the enemy it's targeting. After firing its concentrated laser beam, it will return to firing lasers.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Starborn}}
+{{auric}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

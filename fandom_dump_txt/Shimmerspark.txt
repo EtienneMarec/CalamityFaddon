@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 41
+| knockback = 3.5
+| rare = 5
+| reach = 21.875
+| attduration = 8 seconds
+| sell = {{value|0|7|20}}
+| stack = 1
+| auto = yes
+| use = 25
+| tooltip = Fires stars when enemies are near<br/>A very agile yoyo
+| hardmode = yes
+| debuff = Frostburn
+| debuffchance = 100%
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffduration = 2 seconds (Yoyo)
+| proj = Shimmerspark Yoyo.png
+| projcaption = Shimmerspark
+| proj2 = Hallow Star.png
+| proj2caption = Hallow Star
+| element1 = Holy
+| element2 = Stab
+}}
+The '''Shimmerspark''' is a craftable [[Hardmode]] [[yoyo]]. If enemies are nearby, the yoyo will randomly fire slow-moving purple stars at them. The fired stars can pierce one enemy but will not go through walls. When the yoyo returns to the player, another one will be automatically thrown if they are still holding the fire button.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+== Notes ==
+*The Shimmerspark will not perfectly follow the cursor while thrown.
+*When using the [[Yoyo Glove]] or [[Yoyo Bag]], the second yoyo will also fire stars at enemies.
+{{-}}
+{{Cryonic}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]

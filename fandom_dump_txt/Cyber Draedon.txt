@@ -1,0 +1,56 @@
+{{addon|Calamity: Community Remix}}
+{{npc infobox
+| type = Enemy
+| ai = Cyber Draedon AI
+| environment = Arsenal Labs
+| damage = {{dv|5%|10%}} of the player's health (contact)<br/>{{dv|2.5%|5%|10%}} of the player's health (laser slashes)
+| life = {{dv|3000|5000}} (pre-[[Hardmode]])<br/>{{dv|10,000|16,000}} (pre-[[Golem]])<br/>{{dv|40,000|60,000}} (pre-[[Providence]])<br/>{{dv|100,000|120,000}} (pre-[[Yharon]])<br/>{{dv|200,000|260,000}} (post-[[Yharon]])<br/>
+| defense = 0
+| dr = 10
+| knockback = 100
+| immuneall = y
+| vulnerable1 = Fire
+| vulnerable2 = Water
+| vulnerable3 = Magic
+| resistant1 = Slash
+| resistant2 = Stab
+| resistant3 = Dark
+| resistant4 = Machine
+| money = {{value|0|1|20}}
+| Dubious Plating | 20-50 | 100%
+| Mysterious Circuitry | 20-50 | 100%
+| custom| {{item|Schematic|note=(When defeated in the [[Sunken Sea]])|wrap=y}}|100%
+| custom| {{item|Encrypted Schematic (Planetoid)|note=(When defeated in [[Space]] during [[Hardmode]])|wrap=y}}|100%
+| custom| {{item|Encrypted Schematic (Jungle)|note=(When defeated in the [[Jungle]] post-[[Golem]]])|wrap=y}}|100%
+| custom| {{item|Encrypted Schematic (Hell)|note=(When defeated in [[Underworld]] post-[[Providence]])|wrap=y}}|100%
+| custom| {{item|Encrypted Schematic (Ice)|note=(When defeated in [[Ice biome]] post-[[Devourer of Gods]])|wrap=y}}|100%
+| Suspicious Scrap | 1 | 20%
+| custom| {{item|Prototype Plasma Drive Core|note=(When defeated in [[Space]] during [[Hardmode]])|wrap=y}}|10%
+| Graydron | 1 | 1%
+| hurt = NPC_Hit_4.wav
+| killed = Item_14.wav
+| sound = ELRFire.wav
+| soundtext = Laser Slash
+}}
+
+'''Cyber Draedon''' (Japanese: サイバードレドン ''Saibādoredon'') is a pre-[[Hardmode]] [[mini boss]] that can be summoned by inserting the [[Bloody Vein]] into a [[Lab Hologram Projector]], causing the projector to explode and Cyber Draedon to spawn at its location. Cyber Draedon cycles between standing still and slashing horizontally towards the player and dashing horizontally in the player's direction. After reaching 50% health, Cyber Draedon's slashes will fire out ranged {{item|Graydron Slash|Laser Slashes|image=Graydron Slash.gif|nolink=y|size=20px}} that travel for 40 blocks and pass through tiles. Uniquely among other enemies, Cyber Draedon's attacks deal percentage based damage instead of dealing flat damage, rendering him dangerous throughout the entire game. 
+
+Upon being defeated, Cyber Draedon will drop a large amount of [[Dubious Plating]] and [[Mysterious Circuitry]], as well as some otherwise non-renewable materials found in [[Security Chest]]s.
+
+== Tips ==
+*As Cyber Draedon's attacks deal percentage based damage, defense and health-based effects are useless, meaning the player can focus on buffing their damage instead.
+**This also means that the downsides of items such as the [[Regenator]] and [[Dimensional Soul Artifact]] are harmless, as damage taken will always be the same.
+
+== Quotes ==
+=== When Spawned ===
+*"Organic breach detected. Preparing extermination."
+=== At 50% health ===
+*"Most interesting- a worthy research subject."
+*"Disabling laser inhibitors." 
+=== When the player is defeated ===
+*"Threat detained. Returning to normal operation."
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

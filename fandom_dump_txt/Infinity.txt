@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| stack = 1
+| damagetype = ranged
+| auto = yes
+| damage = 45
+| knockback = 1
+| rare = 14
+| sell = {{value|0|36}}
+| use = 18
+| tooltip = Fires a barrage of energy bolts that split and bounce<br/>Right click to fire a barrage of normal bullets<br/>They say infinity is neverending, yet you hold it in your hands
+| velocity = 12
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+}}
+The '''Infinity''' is a craftable Godseeker Mode [[gun]] that is the upgraded version of the [[Shredder]]. The gun rapidly fires two streams of bullets that swerve up and down to form a helix shape. The gun has two firing modes. Pressing left-click will cause the gun to rapidly fire out energy bolts that explode into smaller bolts that bounce after traveling a short distance. Pressing right-click will cause the gun to rapidly fire out whatever [[bullets]] the player had currently equipped.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Infinity is a reference to the [https://borderlands.fandom.com/wiki/Infinity gun of the same name] from ''[[wikipedia:Borderlands 2|Borderlands 2]]''.
+*It was formerly the [[rare variant]] of the [[Shredder]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

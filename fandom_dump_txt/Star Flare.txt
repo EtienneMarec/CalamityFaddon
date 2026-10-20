@@ -1,0 +1,53 @@
+{{addon|Deimos, the Starborn Princess}}
+{{dedicated|Everquartz|Developer}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 12
+| reach = 50
+| attduration = {{infinity}}
+| knockback = 2.5
+| critical = 8%
+| use = 25
+| stack = 1
+| rare = 16
+| sell = {{sc|20}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| tooltip = Dead Deimos attack me in the Hallow!
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| debuffduration = 2 seconds (Decap Attack)
+| debuff2 = God Slayer Inferno
+| debufftip2 = Your flesh is burning off
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds (Decap Attack)
+| debuff3 = Embers of Duality
+| debufftip3 = Celestial voids are manifesting around you; defense and damage reduction reduced
+| debuffchance3 = 100%
+| debuffduration3 = 6 seconds (Decap Attack)
+| element1 = Magic
+| element2 = Dark
+| element3 = Holy
+| proj = Star Flare yoyo.png
+| projcaption = Star Flare
+| proj2 = Decap Attack projectile.png
+| proj2caption = Decap Attack
+}}
+|{{item drops infobox
+| [[Starborn Princess]]|1|100%<br/><small>(After [[Purgatory Arbiter, Umbrus]] has been defeated)</small>
+}}
+}}
+
+The '''Star Flare''' is an Epilogue [[yoyo]] that drops from the [[Starborn Princess]] [[Town NPC]] after [[Purgatory Arbiter, Umbrus]] has been defeated. While in use, the yoyo will constantly release fast-moving homing celestial heads which move through tiles, deal 200000% of the yoyo's damage, and will always critically hit. The heads will also move through tiles and inflict the [[Holy Flames]] and [[God Slayer Inferno]] debuffs.
+
+{{modifier|meleealtlate}}
+
+== Notes ==
+*If the Sloome {{fantag|Sloome}} addon is enabled, [[Exodygen]] will take no damage from the yoyo.
+{{-}}
+{{DeimosMod}}
+[[Category:Yoyos]]

@@ -1,0 +1,32 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 3
+| color = #F2D883
+| sell = {{value|0|0|3}}
+| use = 14
+| tooltip = It resonates with otherworldly energy.
+}}
+
+'''Cinderplate''' is a craftable [[Pre-Hardmode]] [[block]] that can also be found in the core of the [[Space Bio-center Lab]] of a world. It can be used as a building material, and is also required to craft the [[Normality Relocator]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Cinderplate's name references [[Essence of Sunlight]]'s older name, which was Essence of Cinder.
+*Before the introduction of the other 'plate' blocks ([[Chaosplate]], [[Navyplate]], [[Plagueplate]] and [[Elumplate]]), Cinderplate was used to craft all of the Soul Artifacts as well as the Normality Relocator and resembled Chaosplate.
+
+{{Plates}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

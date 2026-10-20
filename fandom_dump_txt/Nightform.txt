@@ -1,0 +1,24 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Covering
+| tooltip = increases the players max mana by 25% at night.
+| rare = 6
+| sell = {{value|0|2}}
+| stack = 1
+| hardmode = yes
+}}
+{{item drops infobox|
+[[Wall of Flesh]]|1|100%}}
+The '''Nightform''' is a [[Hardmode]] [[coverings|covering]], it increases the players max mana by 25% during Nighttime
+
+== Crafting ==
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Restorative coverings]]

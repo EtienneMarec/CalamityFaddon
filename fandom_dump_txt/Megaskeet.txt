@@ -1,0 +1,44 @@
+{{addon|Apotheosis and Friends}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = ranged
+| damage = 129
+| knockback = 2
+| rare = 15
+| sell = {{value|0|90}}
+| use = 3
+| stack = 1
+| velocity = 22
+| tooltip = 50% chance to not consume ammo<br/>Fires streams of hard sunlight every other shot<br/>Fires a homing sunskater every 17 shots, which explodes into cinder shards on death
+| debuff = Holy Flames
+| debuffchance = 100%
+| debuffduration = 3-6 seconds (Cinder shards)
+| debufftip = Slowly losing life
+| hardmode = yes
+| postml = yes
+| proj = Sunskater.png
+| projcaption = Sunskater
+| element1 = Holy
+| element2 = Stab
+}}
+
+The '''Megaskeet''' is a craftable Godseeker Mode [[Guns|gun]] that is an upgrade to the [[SDOMG]]. It rapidly fires bullets, with every other shots turning into a stream of infinitely piercing light that does not consume ammo. Every 17 shots, it will instead fire a predictively homing [[Sunskater]] that explodes into 2-3 cinder shards, which also does not consume ammo.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The item's name is a pun on the [[Megafleet]] weapon and "Sunskeeter", a common fan name for the Sunskater.
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

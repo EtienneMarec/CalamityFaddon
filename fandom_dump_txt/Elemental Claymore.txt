@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 115
+| use = 19
+| velocity = 16
+| knockback = 8.5
+| auto = yes
+| stack = 1
+| tooltip = A heavenly blade infused with the essence of Terraria
+| critical = 14%
+| rare = 11
+| sell = {{value|0|22}}
+| debuff = Elemental Mix
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Slash
+}}
+The '''Elemental Claymore''' is a craftable Godseeker Mode [[broadsword]] that autoswings. It fires an Eon Beam of random colors when swung, including pink, green, blue, and orange. These beams can pierce twice and ignore tiles. Each beam color also has varying [[immunity frames]] on hit, with pink at a highest value of 6 and decreasing in the mentioned order to orange's value of 3. A column of four elemental dust orbs are also fired inaccurately towards the cursor, which are capable of ignoring tiles and homing into enemies. Each dust orb deals 50% of the weapon's base damage. The swing itself, along with the beams and dust balls all inflict the [[Elemental Mix]] [[debuff]].
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Elemental}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:元素方舟]]

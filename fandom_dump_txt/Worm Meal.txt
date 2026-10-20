@@ -1,0 +1,49 @@
+{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = Minions drop parasitic worms whenever they strike an enemy<br/>Parasitic worms latch onto enemies, slowing down and confusing them<br/>'A lovely dish for all of your pets!'
+| debuff = Confused
+| debuffchance = 100%
+| debuffduration = 2 seconds (Parasitic Worms)
+| debufftip = Movement is reversed
+| rare = 1
+| sell = {{value|0|8|50}}
+| debuff2 = Slow
+| debuffchance2 = 100%
+| debufftip2 = Movement speed is reduced
+| debuffduration2 = 2 seconds (Parasitic Worms)
+}}
+
+{| align="right"
+|-
+|{{summoned|Gullet Worm|name=Parasitic Worm|type=minion}}
+|}
+
+The '''Worm Meal''' is a craftable [[Pre-Hardmode]] [[Equipment|covering]]. While equipped, the player's [[minions]] will drop 1-2 '''Parasitic Worms''' upon hitting an enemy.
+
+Parasitic Worms act similarly to other ground minions — they will try to stay on the ground as much as possible, leaving it only by jumping to reach the enemy or by flying up to catch up the player. The worms have both high speed and jump height.
+
+After reaching an enemy, Parasitic Worms will latch onto it, dealing damage every 0.66 seconds and inflicting the [[Confused]] and [[Slow]] [[debuffs]] for 2 seconds each bite. The base damage of Parasitic Worms is 12, which scales with summon damage bonuses. After latching for 2 seconds, Parasitic Worms will violently explode into particles and its gores. This explosion does not deal any damage.
+
+There can only be up to 5 Parasitic Worms present at the same time.
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used In===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+==Notes==
+
+*If the Parasitic Worm will not find a target to latch onto in 5 seconds, it will explode the same way it does after biting an enemy for 2 seconds.
+
+==Trivia==
+*The name of this item is likely a reference to real life [[wikipedia:Mealworm|Mealworms]].
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

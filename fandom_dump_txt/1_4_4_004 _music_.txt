@@ -1,0 +1,30 @@
+{{Patch infobox
+| title = 1.4.4.004
+| image = Sunken Water Fountain.png
+| patchname = Dyes, Fountains, and Rebalances (Music mod)
+| prev = [[1.4.4.003 (music)|1.4.4.003]]
+| next = [[1.4.4.005 (music)|1.4.4.005]]
+| pair = 1.4.4.004
+| release = 6/3/2020
+}}
+{{dablink|This is the page for the '''1.4.4.004 Music mod''' update.}}
+The '''1.4.4.004''' (or '''1.4.4.4''') Music mod update added a music track for the Acid Rain tier 3 event.
+
+This Music Mod version was compatible with Main mod version [[1.4.4.004]].
+
+== Additions ==
+*Added [[Music Box (Sulphuric Monsoon)]].
+*Added "raidoactive", the [[Acid Rain]] Tier 3 music track.
+
+== Changes ==
+*Added a check that disables the "Calamity" music track from playing on the Title Screen while the "Terraria Overhaul" mod is enabled. 
+*Renamed the <code>TitleScreenOverride</code> [[Configuration option]] to <code>ReplaceTitleMusic</code>.
+
+== Fixes ==
+*Fixed an issue that caused custom music tracks to occasionally not play during boss fights.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-music = yes
+}}

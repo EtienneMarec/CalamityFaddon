@@ -1,0 +1,39 @@
+{{Addon|Hypnos in Calamity}}
+{{infobox wrapper
+|{{item infobox
+|type=Weapon
+|damage=125
+|damagetype=magic
+|mana=20
+|stack=1
+|research=1
+|tooltip=Charges up a laser beam that scales with mana remaining. 
+|use=10
+|knockback=8
+|rare=15
+|sell={{value|0|30}}
+|hardmode=yes
+|postml=yes
+|element1 = Fire
+}}
+|{{item drops infobox
+|[[XP-00 Hypnos]]|1|25%
+}}
+}}
+
+The '''Neuraze''' is a Godseeker Mode [[magic gun]] dropped by [[XP-00 Hypnos]]. When used it starts charging up energy. Upon being released, it shoots a laser beam, with size and damage scaling with the amount of time charged, up to a full minute. A fully charged laser beam deals approximately 2000x damage, with the beam itself reaching approximately 10 blocks in width.
+
+{{modifier|magicalt}}
+
+==Crafting==
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+
+{{Master Template Weapons
+|show-main=yes
+|show-magic=yes
+}}
+[[Category:Magic guns]]

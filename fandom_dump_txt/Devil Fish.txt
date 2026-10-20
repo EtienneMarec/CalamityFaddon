@@ -1,0 +1,60 @@
+{{npc infobox
+| imagealt = <Tabber>
+Default=[[File:Devil Fish.png]]
+|-|
+Alternate=[[File:Devil Fish (Alternate).png]]
+|-|
+Unmasked=[[File:Devil Fish (Unmasked).png]]
+</Tabber>
+| environment = Abyss
+| type = Aquatic
+| ai = Devil Fish AI
+| damage = {{element|Unholy}} {{dv|90|180}}
+| life = {{dv|400|800}}
+| defense = 999999 (masked)<br/>15 (unmasked)
+| knockback = {{dv|85%|86.5%}}
+| debuff = Crush Depth
+| debufftip = Aquatic pressure
+| debuffchance = 100%
+| duration = 3 seconds
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| banner = yes
+| money = {{value|0|0|15|0}}
+| custom | {{item|Depth Cells|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|1-2|2-3}}) | 50%
+| custom | {{item|Lumenyl|note=(After defeating<br/>[[Calamitas]])|wrap=y}}|50%
+| custom| {{item|Scoria Ore|note=(After defeating<br/>[[Golem]])|wrap=y}} (3-9)|100%
+| killed = NPC_Killed_1.wav
+| sound = NPC_Hit_4.wav 
+| soundtext = Hurt (masked)
+| sound2 = NPC_Hit_1.wav
+| sound2text = Hurt (unmasked)
+| sound3 = DevilMaskBreak.wav
+| sound3text = Mask Break
+| vulnerable1 = Stab
+| vulnerable2 = Machine
+| resistant1 = Water
+| resistant2 = Fire
+| resistant3 = Unholy
+| resistant4 = Slash
+}}
+
+The '''Devil Fish''' is an [[enemy]] that spawns in the 1st and 2nd layers of the [[Abyss]].
+
+It remains passive, swimming back and forth, until the player reaches under 1/4 of their max health, after which it will become aggressive and attempt to attack the player.
+
+Its mask also protects it from 5 hits, after which it will break and the Devil Fish will become permanently aggressive. When the mask is broken, it receives a speed boost.
+
+== Notes ==
+*Unlike other fish in the Abyss, summons currently do not target or damage the Devil Fish even when it is hit with another weapon.
+*The Devil Fish can spawn with one of two different masks, featuring different horn shapes.
+
+== Trivia ==
+*The Devil Fish's masked state is tied with the [[Flak Crab]]'s disguised state for having the highest defense of any enemy in the mod.
+*The sound that plays when the Devil Fish's mask breaks is an edited version of the sound made by [https://minecraft.fandom.com/wiki/Zombie Zombies] breaking [https://minecraft.fandom.com/wiki/Door Doors] from the game ''[[wikipedia:Minecraft|Minecraft]]''.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

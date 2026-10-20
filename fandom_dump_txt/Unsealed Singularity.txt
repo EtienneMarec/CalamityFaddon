@@ -1,0 +1,45 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Rogue
+| damage = 520
+| knockback = 10
+| use = 48
+| tooltip = Cold and alone in the void...<br/>Throws a volley of five void flasks which shatter on impact<br/>Shattered flasks summon blackholes which pull in enemies and purple void matter<br/>Stealth strikes throw one flask that creates a gigantic blackhole with significantly larger purple void matter
+| velocity = 12
+| stack = 1
+| auto = yes
+| rare = 14
+| sell = {{value|0|40}}
+| hardmode = yes
+| postml = yes
+| proj = Blackhole.gif
+| projcaption = Black Hole
+| proj3 = Sealed Singularity Fragment.png
+| proj3caption = Sealed Singularity Fragments
+| element1 = Dark
+| element2 = Smash
+}}
+
+The '''Unsealed Singularity''' is a craftable Godseeker Mode [[bombs|bomb]] that hurls 5 circular, void-containing flasks. Each flask stops moving after a short time, shattering if enough time has passed or upon any collision with solid tiles or enemies. Once shattered, a black hole is formed at the center of the impact, along with 3 gravity-affected shards which each deal 25% damage. The black hole lasts 5 seconds and pulls in nearby enemies, gaining more strength the more black holes are present at a time. The black hole additionally summons damaging purple squares from roughly 300 blocks away from it which are dragged in and deal 25% damage to any enemies that cross their paths.
+
+Performing a [[stealth strike]] with the Unsealed Singularity throws a single flask which creates a larger, stronger black hole which pulls in purple squares that deal 100% damage and are 5 times larger.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+== Trivia ==
+*The purple squares are a reference to missing textures from ''[[wikipedia:Minecraft|Minecraft]]''.
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Bombs]]

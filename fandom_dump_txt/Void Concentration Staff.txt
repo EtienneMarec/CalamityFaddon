@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| damagetype = summon
+| damage = 150
+| use = 14
+| mana = 10
+| knockback = 4
+| tooltip = Summons a foreboding aura that attacks by firing void orbs<br/>Minion damage is increased by 5% while the aura is active<br/>Requires three minion slots to use<br/>Only one may exist<br/>Right click to launch a black hole that grows in size
+| buff = Concentrated Void | bufflink = no
+| bufftip = The infinite void yearns for more...
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| proj = Void Concentration Orb.gif
+| projcaption = Void Orb
+| proj2 = Void Concentration Blackhole.gif
+| proj2caption = Black Hole
+| element1 = Dark
+}}
+|{{item drops infobox
+| [[Ceaseless Void]] | 1 | 25% / {{expert|33.33%}}
+}}
+}}
+{{summoned|Void Concentration Aura|type=minion}}
+
+The '''Void Concentration Staff''' is a Godseeker Mode [[summon weapon]] that drops from [[Ceaseless Void]]. When used with its primary fire (left-click), it will engulf the player with a void aura which uses up three minion slots and increases the player's summon damage by 5%. When enemies are nearby, homing void orbs are rapidly fired out of the player, dealing 75% of the weapon's damage. If the aura is active, the player can use their secondary fire (right-click) to remove it and launch a black hole. The black hole deals 500% of the weapon's damage and scales up to 2.5x its size before exploding. While the black hole is active, nearby enemies are pulled towards it, with an attraction radius of 0-15.625 tiles depending on its scale.
+
+{{Modifier|summon}}
+{{-}}
+<references/>
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

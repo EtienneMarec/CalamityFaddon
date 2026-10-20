@@ -1,0 +1,55 @@
+{{item infobox
+| type = Weapon
+| damage = 655
+| use = 39
+| damagetype = Ranged
+| knockback = 8
+| auto = yes
+| velocity = 12
+| stack = 1
+| rare = 15
+| tooltip = Shoots a burst of 3 exo bullets that tear through enemies<br/>
+Critical hits rain elemental bolts from above<br/>Right click to fire an explosive homing exo bullet<br/>50% chance to not consume bullets
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| debuff = Exo Freeze
+| debuffduration = 0.5 seconds
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 2 seconds
+| debuffchance2 = 100%
+| debuff3 = Frostburn
+| debuffduration3 = 2.5 seconds
+| debuffchance3 = 100%
+| debuff4 = On Fire!
+| debuffduration4 = 3 seconds
+| debuffchance4 = 100%
+| proj = Exo Bullet.png
+| projcaption = Exo Bullet
+| proj2 = Prism Explosion Small.gif
+| proj2caption = Exo Bullet Explosion
+| element1 = Cold
+| element2 = Slash
+| element3 = Machine
+|critical=28%}}
+The '''Axisdriver''' is a craftable Godseeker Mode [[Guns|gun]]. When used, it fires a burst of 3 fast exo bullets that can go through tiles and pierce 10 times.  When used with its secondary fire (right-click), it fires a single homing exo bullet that deals 500% of the weapon's damage and explodes on contact with an enemy. Both types of exo bullets summon 5 homing elemental bolts on critical strikes and have a 50% to not consume bullets. Exo bullets, elemental bolts, and exo bullet explosions inflict the following [[debuffs]]:
+*[[Exo Freeze]] (0.5 seconds)
+*[[Holy Flames]] (2 seconds)
+*[[Frostburn]] (2.5 seconds)
+*[[On Fire!]] (3 seconds)
+Elemental bolts additionally inflict [[Brimstone Flames]] for 2 seconds.
+
+{{Modifier|ranged}}
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used In===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}{{-}}
+{{Exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

@@ -1,0 +1,46 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = ranged
+| damage = 120
+| knockback = 2
+| rare = C4
+| sell = {{value|5}}
+| stack = 1
+| auto = yes
+| use = 1
+| velocity = 30
+| debuff = Ancient Astral Blight
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Unholy
+| element2 = Poison
+| image2 = Ifflamator (tank).png
+| image2caption = Equipped tank
+}}
+
+
+The '''Ifflamator''' is a craftable post-[[Umbrus]] [[flamethrowers|flamethrower]]. It shoots yellow flames that rapidly orbit around the cursor and inflict the [[Ancient Astral Blight]] [[debuff]]. The flames dissapear once they get 10 tiles away from the cursor
+
+Note that, unlike other flamethrowers, it lacks a chance to not consume gel meaning the player should make sure they do not run out of ammo at an inopportune time.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Lethal}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Flamethrowers]]

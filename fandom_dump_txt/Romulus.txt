@@ -1,0 +1,24 @@
+{{item infobox
+| type = Tool
+| stack = 1
+| research = 1
+| use = 7
+| fish = 20
+| rare = 2
+| tooltip = Teach a bee to fish...?
+| sell = {{value|0|0|40}}
+| sound = Item_1.wav
+| soundtext = Use
+}}
+
+'''Romulus''' is a unique [[Hardmode]] [[fishing rod]] dropped by the [[Plaguebringer Goliath]]. Deploying Romulus will cause him to leave the player's inventory, sit down, and fish automatically in the closest [[Water]]. Romulus is completely autonomous and does not need to be given [[bait]] to fish. Left clicking Romulus will pick him up as an item. Right clicking Romulus will withdraw all his caught fish.
+
+If Romulus takes at least 500 total damage, he will die.
+
+==Trivia==
+*Despite the tooltip, Romulus is not a bee.
+{{
+Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}

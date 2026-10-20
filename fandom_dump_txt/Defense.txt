@@ -1,0 +1,223 @@
+{{dablink|For defense mechanics, refer to [[tgc:Defense|Defense]] on the Terraria Wiki}}
+
+'''Defense''' is a player statistic that determines how much damage can be taken per hit. The damage the player takes is reduced by {{dv|half|three quarters}} of their defense value. Defense can be increased by equipping [[Covering]] and [[coverings]], or temporarily boosted by various [[buffs]].
+
+Some forms of damage are impossible to reduce through defense. Damage from health-draining [[debuffs]] like [[Plague]] or drowning in water are not reduced by defense. Damage taken from lava, however, can be reduced through defense.
+
+== Damage Reduction ==
+{{dablink|Main Article: [[Damage Reduction]]}}
+Damage Reduction (DR) is a stat alongside defense that decreases damage that both the player and other NPCs take based on a percentage. The player can boost their damage reduction with certain [[coverings]], although it scales diminishingly as more damage reduction is gained.
+
+== Defense Boosts ==
+{| class="terraria lined" style="width:65%"
+ ! style="padding: 5px" | Source !! style="padding: 5px;" | Defense !! style="padding: 5px;" | Condition
+|-
+| {{item|Aquatic Emblem}} || 0 to 50 || Gradually builds while submerged in liquid.
+|-
+| {{item|Baguette}} || 2 || When Well Fed buff is active.
+|-
+| {{item|Delicious Meat}} || 2 || When Well Fed buff is active.
+|-
+| {{item|Hadal Stew}} || 2 || When Well Fed buff is active.
+|-
+| {{item|Utensil Poker}} || 2 || When Well Fed buff is active.
+|-
+| {{item|Polaris Parrotfish}} || 2 || When [[Polaris Boost]] buff is active.
+|-
+| {{item|Sea Shell}} || 2<br/>+3 || Always.<br/>When submerged in liquid.
+|-
+| {{item|Shield of the Ocean}} || 2<br/>+5 || Always.<br/>When submerged in liquid.
+|-
+| {{item|Corrupt Flask}} || 3 || While in the [[Corruption]].
+|-
+| {{item|Craw Carapace}} || 3 || Always.
+|-
+| {{item|Crimson Flask}} || 3 || While in the [[Crimson]].
+|-
+| {{item|Frost Barrier}} || 4 || Always.
+|-
+| {{item|Stress Pills}} || 4 || Always.
+|-
+| {{item|Artemis Emblem}} || 5 || Always.
+|-
+| {{item|Crabulon|size=100px}} || 5 || When Mushy buff is active.
+|-
+| {{item|Elemental Quiver}} || 5 || Always.
+|-
+| {{item|Gladiator's Locket}} || 5 || Always.
+|-
+| {{item|Honey Dew}} || 5 || While in the Jungle.
+|-
+| {{item|Living Dew}} || 5 || While in the [[Jungle]].
+|-
+| {{item|Shroomerang}} || 5 || When Mushy buff is active.
+|-
+| {{item|Tequila}} || 5 || During the daytime when [[Tequila]] debuff is active.
+|-
+| {{item|Titan Scale Potion}} || 5<br/>+25 || When [[Titan Scale]] buff is active.<br/>10 seconds after a [[true melee]] strike during the buff.
+|-
+| {{item|Ambrosial Ampoule}} || 6 || Always.
+|-
+| {{item|Fungal Carapace}} || 6 || Always.
+|-
+| {{item|Giant Shell}} || 6 || Always.
+|-
+| {{item|Regenator}} || 6 || Always.
+|-
+| {{item|Spirit Glyph}} || 6 || When [[Spirit Defense]] buff is active.
+|-
+| {{item|Asgard's Valor}} || 8<br/>+16 || Always.<br/>When submerged in liquid.
+|-
+| {{item|Deep Diver}} || 8<br/>+15 || Always.<br/>When submerged in liquid.
+|-
+| {{item|Elysian Aegis}} || 8<br/>+40 || Always.<br/>While [[Elysian Gar]] is active.
+|-
+| {{item|Frigid Bulwark}} || 8 || Always.
+|-
+| {{item|Hallowed Rune}} || 8 || When [[Hallowed Defense]] buff is active.
+|-
+| {{item|Ornate Shield}} || 8 || Always.
+|-
+| {{item|Yharim's Stimulants}} || 8 || When [[Yharim's Power]] buff is active.
+|-
+| {{item|The Absorber}} || 10<br/>+3 || Always.<br/>When submerged in liquid.
+|-
+| {{item|Affliction}} || 10 || While equipped or when [[Afflicted]] buff is active
+|-
+| {{item|Archaic Powder}} || 10 || While [[Underground]] or in the [[Underworld]].
+|-
+| {{item|Asgardian Aegis}} || 10<br/>+20<br/>+40 || Always.<br/>When submerged in liquid.<br/>While Elysian Gar is active.
+|-
+| {{item|Crimson Effigy}} || 10 || When [[Crimson Effigy]] buff is active.
+|-
+| {{item|Crown Jewel}} || 10 || While under the effects of a damaging debuff.
+|-
+| {{item|Dark Sun Ring}} || 10<br/>+15 || Always.<br/>During night or [[Solar Eclipse]].
+|-
+| {{item|Frost Flare}} || 10 || When below 25% life.
+|-
+| {{item|Laudanum}} || +10<br/>+15<br/>+20<br/>+30<br/>+50 || When [[Weak]] debuff is active.<br/>When [[Darkness]] debuff is active.<br/>When [[Ichor (debuff)|Ichor]] debuff is active.<br/>When [[Blackout]] or [[Confused]] debuff is active.<br/>When [[Obstructed]] debuff is active.
+|-
+| {{item|Moonshine}} || 10 || When [[Moonshine]] debuff is active.
+|-
+| {{item|Rover Drive}} || 10 || When 10-second shield is active.
+|-
+| {{item|Tequila Sunrise}} || 10 || During the daytime when [[Tequila Sunrise]] debuff is active.
+|-
+| {{item|Giant Tortoise Shell}} || 12 || Always.
+|-
+| {{item|Rampart of Deities}} || 12 || Always.
+|-
+| {{item|Celestial Jewel}} || 15 || While under the effects of a damaging debuff.
+|-
+| {{item|Profaned Soul Crystal}} || 15<br/>-15 || At night or when submerged in water or honey.<br/>At day or when submerged in lava.
+|-
+| {{item|Draconic Elixir}} || 16 || When [[Draconic Surge]] buff is active.
+|-
+| {{item|Astral Arcanum}} || 20 || While under the effects of a damaging debuff.
+|-
+| {{item|Blood Pact}} || 20 || When [[Bloody Boost]] buff is active.
+|-
+| {{item|Leviathan Ambergris}} || 20 || While submerged in water.
+|-
+| {{item|The Sponge}} || 20<br/>+3 || Always.<br/>When submerged in liquid.
+|-
+| {{item|Ursa Sergeant}} || 20 || Always.
+|-
+| {{item|Grax}} || 30 || When [[Grax Boost]] buff is active.
+|-
+| {{item|Permafrost's Concoction}} || 30 || When [[Encased]] buff is active.
+|-
+| {{item|Yharim's Gift}} || 30 || Always.
+|-
+| {{item|Flame-Licked Shell}} || 36<br/>-18 || Always.<br/>When under the [[Shell Speed Boost]] buff
+|-
+| {{item|Draedon's Heart}} || +75% || While standing still.
+|-
+| {{item|Grape Beer}} || -3% || When [[Grape Beer]] debuff is active.
+|-
+| {{item|Bloody Mary}} || -4% || During a [[Blood Moon]] when [[Bloody Mary]] debuff is active.
+|-
+| {{item|Rum}} || -5% || When [[Rum]] debuff is active.
+|-
+| {{item|Vodka}} || -5% || When [[Vodka]] debuff is active.
+|-
+| {{item|Whiskey}} || -5% || When [[Whiskey]] debuff is active.
+|-
+| {{item|Margarita}} || -6% || When [[Margarita]] debuff is active.
+|-
+| {{item|Star Beam Rye}} || -6% || When [[Star Beam Rye]] debuff is active.
+|-
+| {{item|White Wine}} || -6% || When [[White Wine]] debuff is active.
+|-
+| {{item|Caribbean Rum}} || -10% || When [[Caribbean Rum]] debuff is active.
+|-
+| {{item|Cinnamon Roll}} || -10% || When [[Cinnamon Roll]] debuff is active.
+|-
+| {{item|Fluorescent Vodka}} || -10% || When [[Fluorescent]] debuff is active.
+|-
+| {{item|Everclear}} || -30% || When [[Everclear]] debuff is active.
+|}
+
+== Armor Penetration ==
+Armor penetration is a statistic that reduces the defense of the player's targets. For instance, a [[tgc:Purple Slime|Purple Slime]] normally has 6 defense. If the player has 5 Armor penetration and attacks the slime, then the slime will take damage as if it only had 1 defense instead.
+{| class="terraria lined" style="width:65%"
+ ! style="padding: 5px;" | Source !! style="padding: 5px;" | Armor penetration bonus !! style="padding: 5px;" | Condition
+|-
+| {{item|Badge of Bravery}} || 5 || Always.
+|-
+| {{item|Invisibility Potion}} || 5  || While [[Invisibility]] buff is active when holding a [[Javelins|javelin]].
+|-
+| {{item|Shadow Potion}} || 5  || While [[Shadow]] buff is active when holding a javelin.
+|-
+| {{item|Filthy Glove}} || 10 || When performing [[stealth strike]]s.
+|-
+| {{item|Sand Shark Tooth Necklace}} || 10 || Always.
+|-
+| {{item|Reaper Tooth Necklace}} || 15 || Always.
+|-
+| {{item|Omega Blue armor}} || 15 || Set bonus.
+|-
+| {{item|Electrician's Glove}} || 20 || When performing stealth strikes.
+|-
+| {{item|Nanotech}} || 20 || When performing stealth strikes.
+|}
+
+== Defense Reduction ==
+Several weapons can permanently lower an [[enemy]]'s defense on hit. These defense reduction effects cannot stack with themselves or each other, unless marked with the + symbol.
+{| class="terraria lined" style="width:50%"
+ ! style="padding: 5px" | Source !! style="padding: 5px;" | Defense Reduction
+|-
+| {{item|Earth}} || +1
+|-
+| {{item|Grand Gar}} || +1
+|-
+| {{item|Majestic Gar}} || +1
+|-
+| {{item|Corrupted Crusher Blade}} || 10
+|-
+| {{item|Apoctolith}} || 15
+|-
+| {{item|Anti-materiel Rifle}} || 25
+|-
+| {{item|Skullmasher}} || 25
+|-
+| {{item|Grand Dad}} || Sets non-[[Boss]] enemy defense to 0
+|}
+
+== [[Vanilla changes]] ==
+Defensive covering [[modifier]]s now also increase damage reduction and gain more defense in Hardmode and Post-Moon Lord, with rarer defense modifiers granting a larger bonus.
+*Hard provides 0.25% damage reduction; and increases 2 defense in Hardmode and 3 defense in Post-Moon Lord instead of 1.
+*Guarding provides 0.5% damage reduction; and increases 3 defense in Hardmode and 4 defense in Post-Moon Lord instead of 2.
+*Armored provides 0.75% damage reduction; and increases 4 defense in Hardmode and 6 defense in Post-Moon Lord instead of 3.
+*Warding provides 1% damage reduction; and increases 6 defense in Hardmode and 8 defense in Post-Moon Lord instead of 4.
+
+Several items had their defense values changed.
+
+*A full set of [[Gladiator armor]] now provides 21 defense instead of 7.
+*A full set of [[Obsidian armor]] now provides 19 defense instead of 16.
+*The [[Hallowed armor|Hallowed Plate Mail]] now provides 18 defense instead of 15 and the Hallowed Greaves now provide 13 defense instead of 11.
+*A full set of [[Solar Flare armor]] now provides 94 defense instead of 78.
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

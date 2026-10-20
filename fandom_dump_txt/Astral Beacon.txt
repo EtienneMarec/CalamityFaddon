@@ -1,0 +1,31 @@
+{{item infobox
+| type = Furniture
+| tooltip = Summons Astrum Deus in exchange for specific offerings
+| pickreq = 200
+| placeable = yes
+| stack = 9999
+| auto = yes
+| width = 5
+| height = 4
+| use = 14
+| rare = 9
+| color = #80809E
+| sell = No value
+| hardmode = yes
+}}
+
+The '''Astral Beacon''' is a [[Hardmode]] [[furniture]] item that can be crafted or found naturally on a pillar of [[Astral Monolith]] after the [[Astral Infection]] has generated. When right-clicked during the [[night]], it is used to summon [[Astrum Deus]] while a [[Titan Heart]] or [[Starcore]] is in the player's inventory. Upon successfully summoning the boss, one Titan Heart is removed from the player's inventory if the player does not have a Starcore, and two stars rise up from the beacon, summoning Astrum Deus shortly after. If used during the day, the player is given a [[status message]] "The god of the stars rejects your offering. The ritual can only be performed at night." The beacon can also be right clicked with the [[Bloody Vein]], which will cause the usual spawn animation to play, but with the last collision spawning an [[Ethereal Core]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Astral Beacons cannot be destroyed by [[explosive]]s.
+*Astral Beacons can be highlighted by the [[Spelunker Potion]] effect.
+*If a [[Meteorite (biome)|meteorite]] hits the Astral Beacon, it may be destroyed and the player will have to craft another.
+
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

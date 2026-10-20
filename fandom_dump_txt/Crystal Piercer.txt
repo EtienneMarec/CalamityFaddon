@@ -1,0 +1,41 @@
+{{item infobox
+|type = Weapon
+|type2 = Crafting material
+|damage = 52
+|damagetype = Rogue
+|consumable = true
+|tooltip = Throws a crystal javelin that pierces infinitely<br/>Stealth strikes travel through blocks, ignore gravity, and summon crystal shards as they fly
+|knockback = 6
+|use = 16
+|auto = yes
+|velocity = 20
+|hardmode = yes
+|debuff = Frostburn
+|debuffchance = 100%
+|debufftip = It's either really hot or really cold. Either way it REALLY hurts
+|debuffduration = 3 seconds
+|stack = 9999
+| rare = 5
+| sell = {{value|0|0|5}}
+| proj = Crystal Piercer Shard.png
+| projcaption = Crystal Shard
+| element1 = Holy
+}}
+
+'''Crystal Piercers''' are craftable [[Hardmode]] [[javelins]]. They are spear-like projectiles that pierce indefinitely and inflict the [[Frostburn]] [[debuff]] on contact. They travel a short distance before being affected by gravity. They have a 50% chance of being recovered after being destroyed.
+
+Performing a [[stealth strike]] with Crystal Piercer causes the resulting javelin to fly through tiles, completely ignore gravity, and summon crystal shards alongside itself as it flies.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Cryonic}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Javelins]]

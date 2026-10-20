@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 88
+| critical = 24%
+| knockback = 6
+| use = 45
+| velocity = 5
+| tooltip = Converts wooden arrows into slow, powerful shells that trail an irradiated aura
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| debuffduration = 2 seconds (Aura)<br/>1 second (Shell)
+| debuff2 = Sulphuric Poisoning
+| debufftip2 = The acidic water burns away your flesh
+| debuffchance2 = 100%
+| debuffduration2 = 0.5 seconds (Shell)
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|7|20}}
+| proj = Corroded Shell.png
+| projcaption = Corroded Shell
+| element1 = Acid
+| element2 = Radioactive
+| element3 = Water
+}}
+
+The '''Corroded Caustibow''' is a craftable [[Hardmode]] [[bow]]. When [[Wooden Arrow]]s are used as [[ammo]], It fires slow gravity-affected toxic shells that emit a wet aura along its path which deals 15% of the weapon's damage and inflicts the [[Irradiated]] [[debuff]]. The toxic shell itself pierces five enemies and breaks upon contact with tiles, inflicting both Irradiated and [[Sulphuric Poisoning]] onto enemies.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

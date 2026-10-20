@@ -1,0 +1,122 @@
+{|class="terraria navbox mw-collapsible {{#ifeq: {{{show-main|}}} | yes | |mw-collapsed }}" style="width:80%; margin: auto"
+!style="font-size:120%" | {{navbar/left|Master Template Tools}} <small>{{trl|Tools}}: [[File:Blossom Pickaxe.png|30px]] {{l10n|Master Template Tools|usual}}{{•}}[[File:Charred Relic.png|22px]] {{l10n|Master Template Tools|summon}}{{•}}[[File:Cosmolight.png|22px]] {{l10n|Master Template Tools|other}}</small> {{navbar/right}}
+|-
+ 
+|
+
+<!-------------------- USUAL TOOLS -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-tool|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=3 | Usual Tools
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Pickaxes}}
+|style="padding: 0.2em 0.5em" colspan = 2 | {{trl|Abysscent Pickaxe}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Astral Pickaxe}}{{•}}{{trl|Beastial Pickaxe}}{{•}}{{trl|Blossom Pickaxe}}{{•}}{{trl|Crystyl Crusher}}{{•}}{{trl|Gelpick}}{{•}}{{trl|Genesis Pickaxe}}{{•}}{{trl|Greatbay Pickaxe}}{{•}}{{trl|Lithos Pickaxe}}{{•}}{{trl|Reactive Pickaxe}} {{tota}}{{•}}{{trl|Ripper Shark}}{{•}}{{trl|Shardlight Pickaxe}}{{•}}{{trl|Skyfringe Pickaxe}}{{•}}{{trl|Spadefish}}{{•}}{{trl|Twisted Netherite Pickaxe}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Twisted Netherite Shovel}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|World Breaker}} {{dei}}{{•}}{{trl|Wulfrum Drill}}{{•}}{{trl|Wulfrum Pickaxe}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Axes}}
+|style="padding: 0.2em 0.5em" colspan = 2 | {{trl|Astral Axe}}{{•}}{{trl|Axe of Purity}}{{•}}{{trl|Berserker Waraxe}}{{•}}{{trl|Crayfish Pickaxe}}{{•}}{{trl|Destinary}}{{•}}{{trl|Feller of Evergreens}}{{•}}{{trl|Inferna Cutter}}{{•}}{{trl|Onyx Overlord's Gunsaw}}{{•}}{{trl|Photon Ripper}}{{•}}{{trl|Tectonic Truncator}}{{•}}{{trl|Twisted Netherite Axe}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Waraxe}}{{•}}{{trl|Windslasher}}{{•}}{{trl|Wulfrum Axe}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Hammers}}
+|style="padding: 0.2em 0.5em" colspan = 2 | {{trl|Abyssal Warhammer}}{{•}}{{trl|Astral Hammer}}{{•}}{{trl|Carapace Hammer}}{{•}}{{trl|Depth Crusher}}{{•}}{{trl|Gusthammer}}{{•}}{{trl|Hydraulic Volt Crasher}}{{•}}{{trl|Impact Adjuster}}{{•}}{{trl|Wulfrum Hammer}}
+|-
+!style="padding: 0.2em 0.5em" rowspan=3 | Multi-use Tools
+!style="padding: 0.2em 0.5em" | Pickaxe and Axe
+|style="padding: 0.2em 0.5em" | {{trl|Grarble Obliterator}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Heaven Piercer}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Large Father}}{{•}}{{trl|Marnite Obliterator}}{{•}}{{trl|Space Render}} {{dei}}
+|-
+
+!style="padding: 0.2em 0.5em" | Hammer and Axe
+|style="padding: 0.2em 0.5em" | {{trl|Aerial Hamaxe}}{{•}}{{trl|Astral Hamaxe}}{{•}}{{trl|Grax}}{{•}}{{trl|Reefclaw Hamaxe}}{{•}}{{trl|The WOBbler}}
+|-
+
+!style="padding: 0.2em 0.5em" | Pickaxe and Hammer
+|style="padding: 0.2em 0.5em" | {{trl|Seismic Hampick}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Fishing Poles}}
+|style="padding: 0.2em 0.5em" colspan = 2 | {{trl|The Codseeker}}{{•}}{{trl|The Devourer of Cods}}{{•}}{{trl|Early Bloom Rod}}{{•}}{{trl|Feral Double Rod}}{{•}}{{trl|Heron Rod}}{{•}}{{trl|Navy Fishing Rod}}{{•}}{{trl|Rift Reeler}}{{•}}{{trl|Romulus}}{{•}}{{trl|Skyline Attractor}}{{•}}{{trl|Slurper Pole}}{{•}}{{trl|Verstaltite Fishing Rod}}{{•}}{{trl|Wulfrum Fishing Pole}}{{•}}{{trl|Wulfrum Lure}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Hooks}}
+|style="padding: 0.2em 0.5em" colspan = 2 | {{trl|Bobbit Hook}}{{•}}{{trl|Relative Hook}} {{dei}}{{•}}{{trl|Serpent's Bite}}
+|-
+|}
+
+<!-------------------- SUMMONING TOOLS -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-summon|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=2 | Summoning Tools
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Pets}}
+|style="padding: 0.2em 0.5em" | {{trl|Abyss Shell Fossil}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Astrophage}}{{•}}{{trl|Bear's Eye}}{{•}}{{trl|Bloody Vein}}{{•}}{{trl|Brimstone Jewel}}{{•}}{{trl|Celestial Clump}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Charred Relic}}{{•}}{{trl|Cool Item}} {{tota}}{{•}}{{trl|Cosmic Plushie}}{{•}}{{trl|Crystallised Stiriatic Chunk}} {{tota}}{{•}}{{trl|Disgusting Seawater}}{{•}}{{trl|Elemental Delight}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Everflute}}{{•}}{{trl|Forgotten Dragon Egg}}{{•}}{{trl|Fox Drive}}{{•}}{{trl|Geyser Shell}}{{•}}{{trl|Heavy Metal Trash Can}}{{•}}{{trl|Hermit's Box of One Hundred Medicines}}{{•}}{{trl|Joyful Heart}}{{•}}{{trl|Levi}}{{•}}{{trl|McNuggets}}{{•}}{{trl|Pineapple}}{{•}}{{trl|Plague Caller}}{{•}}{{trl|Primrose Keepsake}}{{•}}{{trl|Romajeda Orchid}}{{•}}{{trl|Rotting Eyeball}}{{•}}{{trl|Suspicious Looking Chicken Nugget}}{{•}}{{trl|Trash Can (pet)|Trash Can}}{{•}}{{trl|Triboluminescent Etomer}}{{•}}{{trl|Violet Heart of Calamity}} {{fantag|Calamity: Community Remix}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Light Pets}}
+|style="padding: 0.2em 0.5em" | {{trl|Chromatic Orb}}{{•}}{{trl|Enchanted Butterfly}}{{•}}{{trl|Little Light}}{{•}}{{trl|Radiating Crystal}}{{•}}{{trl|Rusted Jingle Bell}}{{•}}{{trl|Strange Orb}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Mount}}s
+|style="padding: 0.2em 0.5em" | {{trl|Brimrose}}{{•}}{{trl|Discordian Sigil}}{{•}}{{trl|Exo Box}}{{•}}{{trl|Flame Cube}}{{•}}{{trl|Folly Feed}}{{•}}{{trl|Gaze of Crysthamyr}}{{•}}{{trl|Gootured Saddle}} {{dei}}{{•}}{{trl|Mantis Leg Plate}} {{tota}}{{•}}{{trl|Onyx Excavator Key}}{{•}}{{trl|Plague Station}} {{fantag|Catalyst}}{{•}}{{trl|Suspicious Looking Jelly Bean}}{{•}}{{trl|The Cart of Gods}}{{•}}{{trl|Tundra Leash}}
+|-
+|}
+
+<!-------------------- OTHER TOOLS -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-other|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=4 | Other Tools
+|-
+
+!style="padding: 0.2em 0.5em" | Combat
+|style="padding: 0.2em 0.5em" | {{trl|Ball and Chain}}{{•}}{{trl|Gem of Exodygen}} {{fantag|Sloome}}{{•}}{{trl|Momentum Capacitor}}{{•}}{{trl|Umbren Sprayer}} {{fantag}}{{•}}{{trl|Relic of Convergence}}{{•}}{{trl|Relic of Resilience}}{{•}}{{trl|Wulfrum Scaffold Kit}}
+|-
+
+!style="padding: 0.2em 0.5em" | Informative
+|style="padding: 0.2em 0.5em" | {{trl|Brimstone Locus}}{{•}}{{trl|Q.C.S.T.T.}} {{dei}}{{•}}{{trl|Seeking Mechanisms}}{{•}}{{trl|Stat Meter}}
+|-
+
+!style="padding: 0.2em 0.5em" | [[Spawn blockers|Spawn Blockers]]
+|style="padding: 0.2em 0.5em" | {{trl|Anti-Cyst Ointment}}{{•}}{{trl|Anti-Moth Ointment}}{{•}}{{trl|Anti-Starspawn Ointment}}{{•}}{{trl|Anti-Tumor Ointment}}{{•}}{{trl|Bleach Ball}}{{•}}{{trl|Broken Water Filter}}{{•}}{{trl|Sirenproof Earmuffs}}{{•}}{{trl|Voodoo Demon Voodoo Doll}}
+|-
+
+!style="padding: 0.2em 0.5em" | Teleportation
+|style="padding: 0.2em 0.5em" | {{trl|Normality Relocator}}{{•}}{{trl|Psy Rod}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Rod of Harmony}}{{•}}{{trl|Rod of Misery}}
+|-
+
+!style="padding: 0.2em 0.5em" | Time
+|style="padding: 0.2em 0.5em" | {{trl|Cosmolight}}
+|-
+
+!style="padding: 0.2em 0.5em" | Scrolls {{fantag|Deimos, the Starborn Princess}}
+|style="padding: 0.2em 0.5em" | {{trl|Abzu}} {{dei}}{{•}}{{trl|Aeroscript}} {{dei}}{{•}}{{trl|The Black Death}} {{dei}}{{•}}{{trl|Carbon Fiber Fabric}} {{dei}}{{•}}{{trl|Edda}} {{dei}}{{•}}{{trl|Elysian Scrawl}} {{dei}}{{•}}{{trl|Emperor}} {{dei}}{{•}}{{trl|Innovation}} {{dei}}{{•}}{{trl|Main Sequence}} {{dei}}{{•}}{{trl|Sacrificial Writings}} {{dei}}{{•}}{{trl|Scroll of Light}} {{dei}}{{•}}{{trl|Scroll of Night}} {{dei}}{{•}}{{trl|Scroll of Rebirth}} {{dei}}{{•}}{{trl|Selene}} {{dei}}{{•}}{{trl|Sickly Parchment}} {{dei}}{{•}}{{trl|Sticky Parchment}} {{dei}}{{•}}{{trl|Stratosphere}} {{dei}}{{•}}{{trl|Troposphere}} {{dei}}{{•}}{{trl|Viral Paper}} {{dei}}{{•}}{{trl|The Voidlands}} {{dei}}{{•}}{{trl|Woven Fragments of Destruction}} {{dei}}{{•}}{{trl|Woven Fragments of the Clone}} {{dei}}{{•}}{{trl|Writings of the Creator}}
+|-
+
+!style="padding: 0.2em 0.5em" | Mechanics
+|style="padding: 0.2em 0.5em" | {{trl|Death}}{{•}}{{trl|Revengeance}}{{•}}{{trl|Tormented Mind of Malice}}
+|-
+|}
+|}<noinclude>{{i18n-ready}}[[Category:Navigational templates]]
+
+== Usage ==
+Place the following at the end of a page:
+*<code><nowiki>{{Master Template Tools}}</nowiki></code>
+
+The default behavior is for the entire template to remain collapsed. 
+
+'''To show all sub-sections in collapsed form,''' use this:
+
+ <nowiki>{{Master Template Tools
+  | show-main = yes
+ }}</nowiki>
+
+'''To cause one or more sub-sections to appear expanded by default,''' add one of the following ("show-main = yes" must also be set) :
+* <code> | show-tool   = yes </code>
+* <code> | show-summon = yes </code>
+* <code> | show-other = yes </code>
+
+'''For example, to show the "Summoning Tools" section expanded,''' use this:
+
+ <nowiki>{{Master Template Tools
+  | show-main = yes
+  | show-summon = yes
+ }}</nowiki>
+
+</noinclude>

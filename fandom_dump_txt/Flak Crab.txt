@@ -1,0 +1,57 @@
+<br />{{npc infobox
+| imagealt = <Tabber>
+Active state=[[File:Flak Crab.png]]
+|-|
+Disguised state=[[File:Flak Crab (disguised).png]]
+</Tabber>
+| type = Aquatic
+| environment = Acid Rain
+| ai = Flak Crab AI
+| damage = '''Contact:''' 0<br/>{{element|Poison}} '''Flak Shot:''' {{dv|46|72}} (Tier 2)<br/>{{element|Poison}} '''Flak Shot:''' {{dv|84|128}} (Tier 3)
+| life = {{dv|300|600}} (Tier 2)<br/>{{dv|4,125|8,250}} (Tier 3)
+| defense = 999999 (disguised)<br/>20 (moving)
+| dr = 20% (Tier 3)
+| knockback = 100% (Disguised)<br/>80% (Moving)<br/>40% (Jumping)
+| debuff = Irradiated
+| debuffchance = 100%
+| duration = 2 seconds (Flak Shot)
+| debufftip = Your skin is burning off
+| money = {{value|0|0|1|11}}
+| Corroded Fossil | 1-3 | 33.33% (Tier 2)<br/>6.67% (Tier 3)
+| Flak Toxicannon | 1 | 5%
+| Cadaverous Carrion | 1 | {{dv|5%|6%}} (Tier 3)
+| banner = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| hurt = NPC_Hit_41.wav
+| killed = Dd2_wither_beast_death_0.wav
+| vulnerable1 = Cold
+| vulnerable2 = Stab
+| vulnerable3 = Machine
+| resistant1 = Poison
+| resistant2 = Water
+| resistant3 = Fire
+}}
+
+
+The '''Flak Crab''' is a [[Hardmode]] enemy that spawns during tiers 2 and 3 of the [[Acid Rain]] [[event]]. They disguise themselves as a geyser and will move around after taking damage. When disguised, it will shoot Flak Shots, which will inflict the [[Irradiated]] [[Debuffs|debuff]].
+
+== Notes ==
+
+* The enemy itself does not have any contact damage, only the Flak Shot damages the player.
+
+== Trivia ==
+
+* This enemy is a reference to the Hermit Crab enemy from ''Risk of Rain 2''.
+* The way Flak Crabs attack is a reference to the Aeroflak Cannon from ''Robocraft''.
+* The Flak Crab's disguised state is tied with the [[Devil Fish]]'s masked state for having the highest defense of any enemy in the mod.
+
+== See Also ==
+
+* [[Baby Flak Crab]]
+{{-}}<br />{{Master Template Characters
+| show-main = yes
+| show-event = yes
+}}

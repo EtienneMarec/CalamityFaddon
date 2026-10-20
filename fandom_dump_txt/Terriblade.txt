@@ -1,0 +1,48 @@
+{{item infobox
+| type = Weapon
+| tooltip = At the mercy of the obsidian's stability
+| damage = 200
+| use = 11
+| damagetype = melee
+| knockback = 9
+| auto = yes
+| velocity = 15
+| debuff = Vaporfied
+| debufftip = Vaporizing senses and mind
+| debuffchance = 100%
+| debuffduration = 1.5 seconds
+| stack = 1
+| rare = 3
+| sell = {{gc|30}}
+| element1 = Unholy
+| element2 = Slash
+}}
+
+The '''Terriblade''' is a craftable [[broadsword]] that auto-swings.
+
+On swing, it randomly performs one of the following effects:
+*Swings normally.
+*Inflicts [[On Fire!]] (3 seconds).
+*throws a [[Cryon]] at an enemy and inflicts [[Glacial State]] (3 seconds).
+*Summons a lightning bolt on screen in a random location and inflicts [[Electrified]] (3 seconds).
+*inflicts [[Bleeding]] (3 seconds).
+*Fires like a [[boomerang]] and lodges into the enemy for 5 seconds. The sword can be swung again.
+*Explodes into shrapnel which deals 20% damage to everything around them.
+*Gets thrown and, skipping on ground and water.
+*swings up, Launching the player vertically into the air (similarly to [[Plagued Fuel Pack]]).
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

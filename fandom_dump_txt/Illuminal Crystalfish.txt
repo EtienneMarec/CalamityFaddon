@@ -1,0 +1,33 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{npc infobox
+| environment = Sky Abyss
+| type = Aquatic
+| ai = Illuminal Crystalfish AI
+| damage = {{dv|320|||620}} (contact)
+| life = {{dv|4,000|||12,000}}
+| defense = 60
+| knockback = 50%
+| debuff = Moon Burnt
+| debuffchance = 100%
+| duration = {{dv|5|||20}} seconds
+| immune1 = Crush Depth
+| immune2 = Moon Burnt
+| immune3 = Confused
+| immune4 = Kami Flu
+| money = {{value|0|1}}
+| Stratostone |2-5| 100%
+| Skylac Crystal |2-5| 100%
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| image2 = ICGhost.png
+| image2caption = Ghost
+}}
+
+The '''Illuminal Crystalfish''' is a post-[[Umbrus]] [[Enemies|enemy]] that spawns in the Lower Layer of the [[Sky Abyss]]. It rapidly swims towards its enemies dealing massive amounts of contact damage.
+
+In death mode it creates a Ghost clone every 5 seconds, the clone has infinite health and only dies when the original fish is dead.
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

@@ -1,0 +1,37 @@
+{{patch infobox
+| image = The Devourer of Gods (1.1).png
+| patchname = Devourer of Gods additions
+| release = 6/13/2016
+}}
+
+The '''1.1.4.2''' update reworked [[The Devourer of Gods]] and introduced multiple buffs, nerfs, and resprites.
+
+== Changes ==
+*All [[ores]] can no longer be destroyed by explosives.
+*All ores are now affected by the [[Spelunker Potion]] and items with similar effects.
+*[[Nebulous Core]] now has a tooltip describing its effects.
+*[[Deathwind]] can no longer pierce.
+*Buffed [[Greatbow of Turmoil]] damage from 42 to 49.
+*Buffed [[Nettleline Greatbow]] damage from 46 to 52.
+*All bosses now have map icons.
+*[[Desert Scourge]] changes:
+**Speed lowered.
+**Now cuts explosive damage in half.
+*The Devourer of Gods changes:
+**Projectiles now only fire based on the Devourer of Gods' health.
+**Speed increased.
+**Projectiles can now inflict [[Distorted]] while under 25% health.
+**Now fires lightning portals, similar to the ones spawned from the [[Lunatic Cultist]].
+
+=== Resprites ===
+*Resprited [[Calamitas]] phase 2.
+*Resprited [[Beastial Pickaxe]], [[Berserker Waraxe]], [[Bladedge Greatbow]].
+
+== Fixes ==
+*Nebulous Core no longer stacks to 999.
+*[[Calamitas]] no longer has a chance to clone herself at daytime.
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

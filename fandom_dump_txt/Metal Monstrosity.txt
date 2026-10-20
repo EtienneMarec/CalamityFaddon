@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 30
+| auto = yes
+| use = 39
+| knockback = 7
+| velocity = 7
+| rare = 3
+| sell = {{value|0|0|80}}
+| stack = 1
+| tooltip = Just looking at it makes you feel ill...<br/>Hurls a heavy metallic abomination that shatters on impact<br/>Stealth strikes cause the object to release spikes as it travels
+| proj = Metal Shards.png
+| projcaption = Metal Shards
+| proj2 = Spiky Ball.png
+| proj2caption = Spiky Ball
+| element1 = Stab
+| element2 = Dark
+}}
+
+The '''Metal Monstrosity''' is a craftable [[Pre-Hardmode]] non-consumable [[spiky balls|spiky ball]]. It throws a heavy gravity-affected metal ball that breaks upon hitting a tile or enemy. Upon breaking it releases 3 spiky balls and 3 spikes that stick into enemies inflicting damage over the time and fading away shortly after.
+
+Performing a [[stealth strike]] with the Metal Monstrosity will make the metal ball shoot several spikes in random directions until the metal ball breaks.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{crafts bottom}}
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Spiky Balls]]

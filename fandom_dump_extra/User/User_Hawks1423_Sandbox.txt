@@ -1,0 +1,203 @@
+
+<section begin=npc infobox />
+{{npc infobox
+| name = Golem
+| type = Boss
+| environment = Jungle Temple
+| life = {{dv|39,000|58,500|92,250}} (total)<br/>{{dv|16,000|24,000|47,250}} (head)<br/>9000 / {{expert|13500}} (body)<br/> 7000 / {{expert|10500}} (fists)
+<!--| ai = Buffed Golem AI-->
+| immune1 = Poisoned
+| immune2 = Venom
+| immune3 = On Fire!
+| immune4 = Confused
+| immune5 = Webbed
+| immune6 = Temporal Sadness
+| immune7 = Glacial State
+| immune8 = Time Distortion
+| money = {{gc|15}}
+|group|One of the following 8 items will always be dropped|8
+| custom|{{item|Stynger}}
+:+ {{item|Stynger Bolt}} (60-99) |12.5%
+| Possessed Hatchet|1|12.5%
+| Sun Stone|1|12.5%
+| Eye of the Golem|1|12.5%
+| custom| {{item|Picksaw|note=(100% on first kill)|wrap=y}}|12.5%
+| Heat Ray|1|12.5%
+| Staff of Earth|1|12.5%
+| Golem Fist|1|12.5%
+| Lead Wizard|1|2.5%
+| Golem Trophy|1|10%
+| Greater Healing Potion|5-15|100%
+| Beetle Husk|4-8|100%
+| Essence of Sunlight|{{dv|5-10|8-13}}| 100%
+| Golem Mask|1|14.29%
+| custom| {{item|Golem (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Golem)|Treasure Bag|note=(Golem)|wrap=y}}
+: • {{item|Shiny Stone}}|{{expert|100%}}
+| custom| {{item|Aegis Blade|note=(In [[Revengeance Mode]] only)|wrap=y}}|{{revengeance|1%}}
+| boxwidth = 24em
+| hardmode = yes
+| image2 = Map Icon Golem.png
+| image2caption = Map Icon
+}}<section end=npc infobox />
+{{dablink|If you were looking for Golem on the vanilla wiki, click [[tgc:Golem|here]].}}
+'''Golem''' is a [[Hardmode]] [[boss]] fought in the [[Jungle Temple]]. It can only be fought after Plantera has been defeated in the current world. 
+
+While in [[Revengeance Mode|Revengeance]] and [[Death Mode]], Golem has a buffed AI that is much stronger and more complex than the fight in Normal and Expert modes.
+
+==Spawn==
+Golem does not spawn on its own, instead, it is summoned by either right-clicking the [[Lihzahrd Altar]] located in the [[Jungle Temple]] with a [[Lihzahrd Power Cell]]. Alternatively, Golem can be spawned by using a [[Old Power Cell]] anywhere in the Jungle Temple even before [[Plantera]] has been defeated.
+
+==Segments==
+===First Phase===
+{|
+|- style="vertical-align:top"
+|{{npc infobox 
+| name = Golem Fist
+| namesub = Left Golem Fist
+| image = Left Golem Fist.png
+| type = Boss
+<!--| ai = Buffed Golem AI-->
+| damage = '''Contact:'''<br/>{{dv|59|94|108|116}}
+| life = {{dv|7,000|10,500}}
+| defense = 28
+| knockback = 100
+| debuff = Armor Crunch
+| debuffchance = 100%
+| duration = {{revengeance|5 seconds}} (Contact)
+| debufftip = Your armor is shredded
+| debuff2 = Broken Armor
+| debuffchance2 = 100%
+| duration2 = {{revengeance|3 seconds}} (Contact)
+| debufftip2 = Defense is cut in half
+}}
+
+|{{npc infobox 
+| name = Golem Fist
+| namesub = Right Golem Fist
+| image = Right Golem Fist.png
+| type = Boss
+<!--| ai = Buffed Golem AI-->
+| damage = '''Contact:'''<br/>{{dv|59|94|108|116}}
+| life = {{dv|7,000|10,500}}
+| defense = 28
+| knockback = 100
+| debuff = Armor Crunch
+| debuffchance = 100%
+| duration = {{revengeance|5 seconds}} (Contact)
+| debufftip = Your armor is shredded
+| debuff2 = Broken Armor
+| debuffchance2 = 100%
+| duration2 = {{revengeance|3 seconds}} (Contact)
+| debufftip2 = Defense is cut in half
+}}
+|}
+
+===Second Phase===
+{|
+|- style="vertical-align:top"
+|{{npc infobox 
+| name = Golem Head
+| namesub = Attached
+| image = Golem Head.png
+| type = Boss
+<!--| ai = Buffed Golem AI-->
+| damage = '''Contact:'''<br/>{{dv|64|102|117|126}}<br/>'''Fireball:'''<br/>{{dv|36|72|148|160}}<br/>'''Laser:'''<br/>{{dv|56|112|140|152}}
+| life = {{dv|16,000|24,000|36,000}}
+| defense = 20
+| knockback = 100
+| debuff = On Fire!
+| debuffchance = 100%
+| duration = 7 seconds (Fireball)
+| debufftip = Slowly losing life
+}}
+|}
+===Third Phase===
+{|
+|- style="vertical-align:top"
+|{{npc infobox 
+| name = Golem
+| namesub = Core
+| image = Golem Core.png
+| type = Boss
+<!--| ai = Buffed Golem AI-->
+| damage = '''Contact:'''<br/>{{dv|72|115|197|213}}
+| life = {{dv|9,600|13,500|54,000}}
+| defense = 26
+| knockback = 100
+}}
+
+|{{npc infobox 
+| name = Golem Head
+| namesub = Free
+| image = Golem Head.png
+| type = Boss
+<!--| ai = Buffed Golem AI-->
+| damage = '''Contact:'''<br/>{{dv|80|128|147|158}}<br/>'''Fireball:'''<br/>{{dv|58|116|148|160}}<br/>'''Laser:'''<br/>{{dv|56|112|140|152}}<br/>'''Inferno Fireball & Explosion:'''<br/>{{dv|||160|176}}
+| life = {{dv|11,000|16,500|36,000}}
+| defense = 32
+| knockback = 100
+| debuff = On Fire!
+| debuffchance = 100%
+| duration = 7 seconds (Fireball)<br/>14 seconds (Explosion)
+| debufftip = Slowly losing life
+}}
+|}
+
+==Behavior==
+Golem has three phases in Revengeance and Death Mode. Note that this page will not cover the Golem fight in Normal and Expert Mode. Additionally, if Golem is fought outside of the [[Jungle Temple]], it will enrage, increasing the speed of its attack pattern and defense.
+===Phase 1===
+Golem spawns above the player's head, falling down to the ground. It will begin to cycle through its attacks. Golem will fire high-velocity bouncing fireballs every three seconds and jump towards the player. Each time Golem jumps it will slam into the ground, creating a line of dust particles. Golem will also throw its fist towards the player at the same rate. Only the left and right fists can be damaged during this phase and must be destroyed to progress the fight.
+===Phase 2===
+After destroying the fists. Golem will begin to fire two yellow lasers at the same rate as the fireballs. Only Golem's head can be damaged during this phase and must be destroyed to progress the fight.
+===Phase 3===
+Golem's head will regen its health to full, detach, and begin flying above the player. One the Golem body reaches 90% health, the Golem Head will begin to fly in a rectangle pattern. The head will fire two sets of lasers twice and one lingering fireball before moving. The lingering fireball will create an explosion that will linger for four seconds. Golem's body will also begin to fire two lasers. Golem will also launch three bouncing fireballs each time it slams the ground. When the Golem body reaches 10% health, it will fire two additional lasers. Both the head and the body can be damaged in this phase. Only Golem's body needs to be destroyed to end the fight.
+===In [[Death Mode]]===
+*Golem jumps much further and more rapidly.
+*The Golem Head in phase 2 fires lasers more rapidly.
+*The Golem Body fires four lasers regardless of health in phase 3.
+*The Golem Head fires lingering fireballs regardless of health in phase 3.
+
+==Aftermath==
+*Several [[Plague]] themed enemies begin spawning in the [[Jungle]].
+*The [[Bandit]] will begin selling the [[Ethereal Extorter]].
+*The [[Drunk Princess]] will begin selling [[Moonshine]], [[Moscow Mule]], [[Cinnamon Roll]], and [[Tequila Sunrise]].
+*The [[Witch Doctor]] will begin selling [[Solar Tablet]]s, [[Lihzahrd Power Cell]]s, and [[Gypsy Powder]].
+*The [[Wizard]] will begin selling the [[Spectre Staff]], [[Inferno Fork]], and [[Shadowbeam Staff]].
+*The [[Arms Dealer]] will begin selling the [[Tactical Shotgun]] and [[Sniper Rifle]].
+*The [[Cyborg]] will begin selling the [[Rocket Launcher]].
+*[[Devil Fish]] and [[Chaotic Puffer]]s will begin dropping [[Scoria Ore]].
+*[[Devil Fish]] will begin dropping [[Hellborn]].
+*[[Shockstorm Shuttle]]s will begin dropping [[Martian Conduit Plating]].
+*The Sand, Cloud, and Brimstone Elementals from the [[Heart of the Elements]] now deal contact damage 4 times per second.
+*The tornadoes from the Sand Elemental now deal damage 4 times per second.
+
+==Tips==
+{{dablink|For a Normal and Expert mode guide to Golem, see [[tgc:Guide:Golem strategies|Golem strategies]] on the vanilla wiki.}}
+===General===
+*Take advantage of the space in the Jungle Temple altar room and make sure to clear out any [[Traps]] that may be present.
+*Moving in a horseshoe shape is not recommended for this fight on Revengeance and Death Mode, as the lingering explosions are often still present when rebounding to the other side.
+*While fighting Golem outside of the Jungle Temple enrages it, the fighting Golem on the [[Surface]] can make the fight easier for experienced players due to the large open space available.
+*While not required, destroying the Golem Head during the third phase can make the rest of the fight much easier and less overwhelming.
+**Using [[Rage Meter|Rage]] or [[Adrenaline Meter|Adrenaline]] can help quickly take out the head.
+===Weapons & Equipment===
+*The [[Terra Disk]] is a good option for both Melee and Rogue players as the splitting projectiles can deal large damage to Golem's fists.
+*[[True Ark of the Ancients]] can deal massive damage to Golem due to its powerful projectiles and debuffs.
+*The [[Scourge of the Corruptor]] can spawn lingering projectiles just before beginning the fight, giving players a way to deal large damage to Golem as it spawns in.
+*[[Conclave Crossfire]] combined with [[Terra Bullet]]s can decimate Golem.
+*The [[Star Cannon EX]] is a powerful choice for Golem, although it does require [[Fallen Star]]s as ammo which can potentially take a while to obtain.
+*The [[Astralachnea Staff]]'s homing fangs allow players to focus more on dodging, while still dealing decent damage to Golem.
+*[[Lashes of Chaos]] is a very powerful option for Mages due to the large area of effect projectile it fires.
+*The [[Hive Pod]] combined with the [[Plantation Staff]] can make quick work of Golem.
+*[[Borealis Bomber]] is another useful summon, but requires constant resummoning of the Aureus Bomber.
+*Both the [[Brackish Flask]] and the [[Duststorm in a Bottle]] are extremely effective against Golem due to their lingering projectiles.
+*The [[Heavenfallen Stardisk]] decimates Golem, but requires more effort to use effectively.
+*[[Stellar Knife]] can be a powerful option for Rogue players if the altar room is large enough for the knives to move freely in.
+*Any dashing accessory such as the [[Tabi]] can allow the player to quickly dodge the Golem Head and its several projectiles.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}
+{{collapse bottom}}

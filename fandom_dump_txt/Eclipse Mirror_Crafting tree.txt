@@ -1,0 +1,261 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|_|_|_|_|GoPlO|_|CoTiO|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|      _|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|PHFRG|_|PHFRG|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|HellO|_|CharO|_|GoPlB|_|CoTiB|_|Awood|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|BlInk|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|      _|      _|      _|      _|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|`|-|-|-|(|_|_|_|)|-|-|-|^|-|-|-|'|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|HMFRG|_|PHANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|¶|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|UCore|_|CoDec|_|EssCh|_|CoWeb|_|DeCrO|_|_|_|_|_|_|_|_|_|ChloO|_|BlDye|_|WLens|_|MagMT|_|_|_|_|_|_|#
+|_|_|_|_|      _|      _|      _|      _|      _|_|_|_|_|_|_|_|_|      _|      _|      _|      _|_|_|_|_|_|#
+|_|_|_|_|_|`|-|-|-|^|-|-|-|(|_|_|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|`|-|-|-|(|_|_|_|:|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|∞|_|_|PHFRG|_|_|_|_|_|_|_|_|_|HMFRG|_|_|_|_|_|_|¶|_|_|PHANV|_|_|_|_|_|_|#
+|_|_|_|_|StarD|_|MelBl|_|_|I|_|_|Silky|_|DeCrB|_|SSoTS|_|PriSh|_|ChloB|_|Ecto1|_|BLens|_|MagiM|_|Bones|_|_|#
+|_|_|_|_|      _|      _|_|I|_|_|      _|      _|      _|      _|      _|      _|      _|      _|      _|_|#
+|_|_|_|_|_|`|-|-|-|(|_|_|_|I|_|_|_|`|-|-|-|+|-|-|-|'|_|_|_|I|_|_|_|`|-|-|-|(|_|_|_|)|-|-|-|^|-|-|-|'|_|_|_|#
+|_|_|_|_|_|_|_|_|_|§|_|_|HMANV|_|_|_|_|_|_|@|_|_|_|_|_|_|PHANV|_|_|_|_|_|HMFRG|_|_|@|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|MelBr|_|RuiMe|_|_|_|_|_|SilSh|_|Lumen|_|SeaPr|_|DeptC|_|SpecB|_|MiraM|_|iBomb|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|      _|      _|_|_|_|_|      _|      _|      _|      _|      _|      _|      _|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|`|-|-|-|+|-|-|-|-|-|-|-|'|_|_|_|`|-|-|-|^|-|-|-|+|-|-|-|^|-|-|-|^|-|-|-|'|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|DGSth|_|_|_|_|_|DSFra|_|_|_|_|_|_|_|_|_|AbyMi|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|      _|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|`|-|-|-|-|-|-|-|+|-|-|-|-|-|-|-|-|-|-|-|'|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|COANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|EclMi|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+<!-- ABYSSAL MIRROR -->
+|EclMi_cols = 3
+|EclMi_rows = 2
+|EclMi = {{item|Eclipse Mirror|size=35px}}
+
+|AbyMi_cols = 3
+|AbyMi_rows = 2
+|AbyMi = {{item|Abyssal Mirror|size=20px}}
+
+|Lumen_cols = 3
+|Lumen_rows = 2
+|Lumen = {{item|Lumenyl}} × 5<br/>
+<span style="font-size:0.75em">( [[Abyss]] )</span>
+
+|DeptC_cols = 3
+|DeptC_rows = 2
+|DeptC = {{item|Depth Cells}} × 5<br/>
+<span style="font-size:0.75em">( [[Abyss]] )</span>
+
+|SpecB_cols = 3
+|SpecB_rows = 2
+|SpecB = {{item|Spectre Bar}} × 8
+
+|ChloB_cols = 3
+|ChloB_rows = 2
+|ChloB = {{item|Chlorophyte Bar}} × 8
+
+|ChloO_cols = 3
+|ChloO_rows = 2
+|ChloO = {{item|Chlorophyte Ore}} × 48
+
+|MiraM_cols = 3
+|MiraM_rows = 2
+|MiraM = {{item|Mirage Mirror}}
+
+|Ecto1_cols = 3
+|Ecto1_rows = 2
+|Ecto1 = {{item|Ectoplasm|size=20px}} × 4<br/>
+( {{item|mode=image|Ectoblood|size=14px}} × 3 / {{item|mode=image|Dungeon Spirit|size=16px}} )
+
+|iBomb_cols = 3
+|iBomb_rows = 2
+|iBomb = {{item|Ink Bomb|size=16px}}<br/>
+( {{item|mode=image|Cuttlefish|size=24px}} {{item|mode=image|Giant Squid|size=12px}} {{item|mode=image|Colossal Squid|size=24px}} )
+
+|MagiM_cols = 3
+|MagiM_rows = 2
+|MagiM = {{item|Magic Mirror}} / {{item|Ice Mirror}}
+
+|MagMT_cols = 3
+|MagMT_rows = 2
+|MagMT = ''[[Magic Mirrors/Crafting tree|Magic Mirror / Ice Mirror<br/>crafting tree]]''
+
+|BLens_cols = 3
+|BLens_rows = 2
+|BLens = {{item|Black Lens}}<br/>
+( {{item|mode=image|Demon Eye|size=20px}} )
+
+|Bones_cols = 3
+|Bones_rows = 2
+|Bones = {{item|Bone}} × 50<br/>
+( {{item|mode=image|Angry Bones|size=16px}} {{item|mode=image|Dark Caster|size=16px}} {{item|mode=image|Cursed Skull|size=16px}} )
+
+|DSFra_cols = 3
+|DSFra_rows = 2
+|DSFra = {{item|Darksun Fragment}} × 20<br/>
+<span style="font-size:0.75em">( [[Solar Eclipse]] )</span>
+
+|WLens_cols = 3
+|WLens_rows = 2
+|WLens = {{item|Lens}}<br/>
+( {{item|mode=image|Demon Eye|size=20px}} )
+
+|BlDye_cols = 3
+|BlDye_rows = 2
+|BlDye = {{item|Black Dye}}
+
+|BlInk_cols = 3
+|BlInk_rows = 2
+|BlInk = {{item|Black Ink}}<br/>
+( {{item|mode=image|Squid|size=16px}} {{item|mode=image|Colossal Squid|size=24px}} )
+
+<!-- DARK GOD'S SHEATH -->
+|DGSth_cols = 3
+|DGSth_rows = 2
+|DGSth = {{item|Dark God's Sheath|size=24px}}
+
+|SilSh_cols = 3
+|SilSh_rows = 2
+|SilSh = {{item|Silencing Sheath|size=24px}}
+
+|RuiMe_cols = 3
+|RuiMe_rows = 2
+|RuiMe = {{item|Ruin Medallion|size=20px}}
+
+|MelBr_cols = 3
+|MelBr_rows = 2
+|MelBr = {{item|Meld Construct|size=24px}} × 5
+
+|MelBl_cols = 3
+|MelBl_rows = 2
+|MelBl = {{item|Meld Blob|size=24px}} × 12<br/>
+<span style="font-size:0.75em">( [[Celestial Pillars|Celestial Pillar Enemies]] )</span>
+
+|StarD_cols = 3
+|StarD_rows = 2
+|StarD = {{item|Stardust|size=30px}} × 6<br/>
+<span style="font-size:0.75em">( [[Astral Infection|Astral Infection Enemies]] )</span>
+
+|EssCh_cols = 3
+|EssCh_rows = 2
+|EssCh = {{item|Essence of Chaos|size=24px}} × 2
+
+|CoDec_cols = 3
+|CoDec_rows = 2
+|CoDec = {{item|Coin of Deceit|size=20px}}
+
+|UCore_cols = 3
+|UCore_rows = 2
+|UCore = {{item|Unholy Core|size=24px}} × 4
+
+|HellO_cols = 3
+|HellO_rows = 2
+|HellO = {{item|Hellstone}} × 16<br/>
+<div style="font-size: 0.75em">( [[Underworld]] )</div>
+
+|CharO_cols = 3
+|CharO_rows = 2
+|CharO = {{item|Charred Ore}} × 16<br/>
+<div style="font-size: 0.75em">( [[Underworld]] )</div>
+
+|GoPlB_cols = 3
+|GoPlB_rows = 2
+|GoPlB = {{item|Gold Bar|size=24px}} × 4 / {{item|Platinum Bar|size=24px}} × 4
+
+|GoPlO_cols = 3
+|GoPlO_rows = 2
+|GoPlO = {{item|Gold Ore}} × 16 / {{item|Platinum Ore}} × 16
+
+|CoTiB_cols = 3
+|CoTiB_rows = 2
+|CoTiB = {{item|Copper Bar|size=24px}} × 8 / {{item|Tin Bar|size=24px}} × 8
+
+|CoTiO_cols = 3
+|CoTiO_rows = 2
+|CoTiO = {{item|Copper Ore}} × 24 / {{item|Tin Ore}} × 24
+
+|SSoTS_cols = 3
+|SSoTS_rows = 2
+|SSoTS = {{item|Shadow Scale}} × 3 / {{item|Tissue Sample}} × 3
+
+|Silky_cols = 3
+|Silky_rows = 2
+|Silky = {{item|Silk}} × 10
+
+|DeCrB_cols = 3
+|DeCrB_rows = 2
+|DeCrB = {{item|Demonite Bar}} × 8 / {{item|Crimtane Bar}} × 8
+
+|DeCrO_cols = 3
+|DeCrO_rows = 2
+|DeCrO = {{item|Demonite Ore}} × 24 / {{item|Crimtane Ore}} × 24
+
+|CoWeb_cols = 3
+|CoWeb_rows = 2
+|CoWeb = {{item|Cobweb}} × 70
+
+|Awood_cols = 3
+|Awood_rows = 2
+|Awood = {{item|Acidwood}} x 5
+
+| SeaPr_cols = 3
+| SeaPr_rows = 2
+| SeaPr = {{item|Sea Prism}} × 10<br/>
+<span style="font-size:0.75em">( [[Sunken Sea]] )</span>
+
+| PriSh_cols = 3
+| PriSh_rows = 2
+| PriSh = {{item|Prism Shard}} × 50<br/>
+<span style="font-size:0.75em">( [[Sunken Sea]] / {{item|mode=image|Prism-Back|size=28px}} {{item|mode=image|Blinded Angler|size=28px}} )</span>
+
+<!-- CRAFTING STATIONS -->
+| COANV_cols = 3
+| COANV_class = craft-station
+| COANV = {{item|mode=image|Cosmic Anvil}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|HEFRG_cols = 3
+|HEFRG_class = craft-station
+|HEFRG = {{item|mode=image|Hellforge}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|HMFRG_cols = 3
+|HMFRG_class = craft-station
+|HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+| @_cols = 1
+| @_class = craft-station
+| @ = {{item|mode=image|Tinkerer's Workshop}}
+
+|∞_cols = 1
+|∞_class = craft-station
+|∞ = {{item|mode=image|Loom}}
+
+|¶_cols = 1
+|¶_class = craft-station
+|¶ = {{item|mode=image|Dye Vat}}
+
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

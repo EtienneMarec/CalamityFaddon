@@ -1,0 +1,43 @@
+{{item infobox
+| type = Tool
+| damagetype = melee
+| pick = 50
+| axe = 30
+| auto = yes
+| damage = 13
+| knockback = 1
+| use = 24
+| rare = 1
+| stack = 1
+| sell = {{value|0|0|20}}
+| toolspeed = 6
+}}
+
+The '''Marnite Obliterator''' is a craftable [[Pre-Hardmode]] [[Drill]] and [[Axe]] combination. It can mine blocks up to {{item|Gold Ore}} / {{item|Platinum Ore}}.
+
+{{Modifier|harvestmech}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*It can be crafted before defeating any [[boss]], making it a good tool to stick with until the player acquires a [[Nightmare Pickaxe|Nightmare]] or [[Deathbringer Pickaxe]].
+
+== Trivia ==
+*Marnite is a portmanteau of the words marble and granite, which is what the tool is made of.
+
+== See also ==
+*The [[Marnite Bayonet]], a pre-boss gun.
+*The [[Marnite Spear]], a pre-boss spear.
+
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]
+[[Category:Axes]]
+[[Category:True melee]]

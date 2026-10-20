@@ -1,0 +1,26 @@
+{{item infobox
+| image = Sigil of Calamitas.gif
+| type = Covering
+| type2 = Crafting material
+| tooltip = 15% increased magic damage and 10% decreased mana usage<br/>+100 max mana<br/>Increases pickup range for mana stars
+| rare = 8
+| sell = {{value|0|12}}
+| stack = 1
+| hardmode = yes
+}}
+
+The '''Sigil of Calamitas''' is a craftable [[Hardmode]] [[covering]]. It grants the user a variety of bonuses to magic damage and max mana, these being an additional 15% increased magic damage, and additional 100 maximum mana, and a 10% decrease in mana usage. The Sigil will also increase pickup range for mana stars.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Healing items]]
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

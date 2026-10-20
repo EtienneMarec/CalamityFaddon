@@ -1,0 +1,24 @@
+'''Launchers''' are [[ranged weapons]] that use [[Rocket]]s as ammunition and fire powerful explosive projectiles.
+
+== Types ==
+{| class="terraria sortable lined" id="dpl-table"
+! colspan = 2 | Name !! Damage !! Use Time !! Knockback !! Velocity !! Critical !! Autoswing !! [[Rarity]] !! <abbr title="Hardmode">HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Launchers
+| namespace = <!-- need to have it blanked to restrict it to main namespace. prevents category pages from being included-->
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦:Melee weapons/dpl}
+| mode = userformat
+}}
+|}
+
+{{Master Template Weapons
+| show-main  = yes
+| show-ranged = yes
+}}
+
+[[Category:Weapon items| ]]
+[[Category:Ranged weapons| ]]
+[[Category:Launchers|*]]

@@ -1,0 +1,45 @@
+{{dedicated|bummerman222|Patreon Donator}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 120
+| knockback = 10
+| velocity = 7
+| mana = 20
+| tooltip = Casts a meteor star for the player to ride in the direction of the cursor<br/>The meteor star explodes after hitting an enemy, crashing into a wall, or after 6 seconds<br/>This explosion hurts both enemies and the player<br/>Releasing the cursor before the star explodes will cause it to explode prematurely for less damage<br/>Mounts are disabled while this weapon is in use
+| use = 30
+| auto = yes
+| rare = 4
+| stack = 1
+| sell = {{value|0|2|40}}
+| hardmode = yes
+| proj = Meteor Star.gif
+| projcaption = Meteor Star
+| proj2 = Meteor Star Explosion.gif
+| proj2caption = Meteor Star Explosion
+| element1 = Magic
+}}
+|{{item drops infobox
+| [[Nova]] | 1 | 14.29%
+}}
+}}
+
+The '''Glorious End''' is a [[Hardmode]] [[wand]] that drops from [[Nova]]s. Upon use, it summons a star on the player's feet which causes the player to move in the direction of the mouse cursor, up to a top speed of 72mph. The star explodes when released, upon contact with an enemy or solid tile, or after 6 seconds. The explosion deals 300% damage to the enemy and 100-120 damage to the player. If the player releases, the explosion deals 50% damage to enemies and 50-60 damage to the player instead. The player is also granted 60 [[immunity frames]] (100 under the effects of [[Cross Necklace]] or its upgrades) after being hit by the explosion.
+
+{{Modifier|magic}}
+
+== Trivia ==
+*This item is a reference to the [https://kirby.fandom.com/wiki/Star_Rod Star Rod] and [https://kirby.fandom.com/wiki/Warp_Star Warp Star] from the ''Kirby'' series.
+**It being dropped from Novas is a reference to the [https://kirby.fandom.com/wiki/Galactic_Nova Galactic Nova].
+*Using the Glorious End does not deactivate any active [[Hooks|hook]].
+**This allows reaching and attaching additional hooks much further than the hook's regular reach
+
+{{-}}
+
+* A glitch from slamming into blocks allows the player to go through blocks.
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

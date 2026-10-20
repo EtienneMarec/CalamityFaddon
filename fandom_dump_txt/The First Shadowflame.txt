@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| image = The First Shadowflame.gif
+| type = Covering
+| type2 = Crafting material
+| tooltip = It is said that in the past, Prometheus descended from the heavens to grant man fire.<br/>If that were true, then it is surely the demons of hell that would have risen from below to do the same.<br/>Increases max minions by 1 and minions inflict the Shadowflame debuff on enemies.
+| debuff = Shadowflame
+| debuffchance = 100%
+| debuffduration = 3 seconds (On minion hits)
+| debufftip = Losing life
+| rare = 5
+| sell = {{value|0|4|80}}
+| stack = 1
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Goblin Summoner]]|1|{{dv|20%|33.33%}}
+}}
+}}
+
+'''The First Shadowflame''' is a [[Hardmode]] [[covering]] dropped by the [[Goblin Summoner]] during a [[Goblin Invasion]]. It grants all [[minion]]s the ability to inflict the [[Shadowflame]] [[debuff]], which prevents health regeneration and deals 15 damage per second, and lasts for 3 seconds.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*Although it lacks any minion damage boosts, this covering allows minions to inflict its debuff, as opposed to the [[Jelly-Charged Battery]] and [[Nuclear Rod]] which only grant a chance to inflict their debuffs.
+
+== Trivia ==
+*This item's name is likely a reference to the [http://darksouls.fandom.com/wiki/First_Flame First Flame] from the ''[[wikipedia:Dark Souls|Dark Souls]]'' series.
+*The tooltip mentions the Greek mythological figure [[wikipedia:Prometheus|Prometheus]].
+*It is the counterpart to [[The Last Lightice]] {{fantag|Calamity: Community Remix}} with both being Spy drops from early Hardmode events. 
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

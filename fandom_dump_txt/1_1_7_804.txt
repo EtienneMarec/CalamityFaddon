@@ -1,0 +1,18 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Spawn Chance Changes
+| release = 4/22/2017
+}}
+The '''1.1.7.804''' update changed various [[enemy]] spawn chances, and fixed a bug.
+
+== Changes ==
+*[[Armored Digger]]s, [[Blight Slime]]s, [[BOHLDOHR]]s, [[Brimstone Elemental]], [[Bumblebirb]], [[Calamitas]], [[Calamity Eye]]s, [[Cloud Elemental]]s, [[Cosmic Elemental]]s, [[Crabulon]], [[Crawlers]], [[Cryogen]], [[Desert Scourge]], [[Earth Elemental]]s, [[Heat Spirit]]s, [[Hive Cyst]]s, [[Ice Clasper]]s, [[Jungle Dragon, Yharon]], [[Perforator Cyst]]s, [[Pitbull]]s, [[The Plaguebringer Goliath]], [[Plague Charger]]s, [[Profaned Energy|Profaned Energies]], [[Ravager]], [[Sand Tortoise]]s, [[Scorn Eater]]s, [[Shockstorm Shuttle]]s, [[Stormlion]]s, [[Sun Bat]]s, and [[Ungodly Serpent]]s now use vanilla enemy spawn chances instead of custom ones.
+
+== Fixes ==
+*Fixed bosses not registering on the Boss Checklist mod's Boss Checklist.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

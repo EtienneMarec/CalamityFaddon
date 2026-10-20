@@ -1,0 +1,47 @@
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-15 health per second, -10 defense and -15% movement speed. Blackout debuff is inflicted. (if player)<br/>-125 health per second and -10 defense (if enemy)
+| tooltip = Your flesh is burning off
+}}
+
+'''God Slayer Inferno''' is a [[debuff]] inflicted by various sources. It causes the player to lose 15 health per second, 10 defense, and 15% movement speed, or 125 health and 10 defense if the debuff is inflicted to an enemy instead. It also prevents natural life regeneration and inflicts the [[Blackout]] debuff effect on the player. It can be considered a stronger version of the [[Astral Infection (debuff)|Astral Infection]] debuff.
+
+If the player has the [[Profaned Soul Crystal]] equipped, they lose 17.5 health per second instead of 15. If the target is inflicted with [[Oiled]], they lose 156.5 health per second instead of 125.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

@@ -1,0 +1,38 @@
+{{npc infobox
+| type = Enemy
+| environment = Snow biome
+| imagealt = [[File:Angry Dog.png]]<br/>[[File:Angry Dog 2.png]]
+| ai = Angry Dog AI
+| damage = {{dv|10|20}} (pre-[[Cryogen]])<br/>{{dv|60|120}} (post-[[Cryogen]])
+| life = {{dv|50|100}} (pre-[[Cryogen]])<br/> {{dv|1,000|2,000}} (post-[[Cryogen]])
+| defense = 4 (pre-[[Cryogen]])<br/> 10 (post-[[Cryogen]])
+| knockback = {{dv|70%|73%}}
+| debuff = Frostburn
+| debuffchance = 100%
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| duration = 2 seconds
+| banner = yes
+| immune1 = Kami Flu
+| immune2 = Glacial State
+| immune3 = Exo Freeze
+| immune4 = Frostburn
+| money = {{sc|3}}
+| Leather| 1-2 | 50%
+| custom| {{item|Essence of Eleum|note=(After defeating<br/>[[Cryogen]])|wrap=y}}|33.33%
+| hurt = AngryDogHit.wav
+| killed = NPC_Killed_5.wav
+| sound = AngryDogGrowl.wav
+| soundtext = Idle
+| vulnerable1 = Fire
+| vulnerable2 = Machine
+| resistant1 = Cold
+| resistant2 = Stab
+| resistant3 = Slash
+}}
+
+The '''Angry Dog''' is a rare [[Pre-Hardmode]] [[enemy]] that spawns in the [[Snow biome]]. It charges and rams into the player at high speeds, although it is slow at turning around. When damaged to {{dv|50%|||90%}} health, it will curl up into a ball and roll towards the player with increased maneuverability. It also inflicts the [[Bleeding]] debuff on contact. It gets significantly stronger after [[Cryogen]] has been defeated, with boosts to its damage, maximum life, and defense.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

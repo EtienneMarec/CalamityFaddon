@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 616
+| knockback = 8.5
+| use = 16
+| velocity = 18
+| tooltip = Fires a huge prismatic disk shuriken<br/>The shuriken shatters moments after impact into homing rockets<br/>Stealth strikes shatter into many more rockets
+| rare = 15
+| sell = {{value|0|30}}
+| element1 = Slash
+| element2 = Dark
+| element3 = Machine
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| proj = Prism Rocket.png
+| projcaption = Prism Rocket
+}}
+|{{item drops infobox
+| [[The Fabricational Quartet]] (Thanatos) | 1 | {{dv|50%|66.67%}}
+}}
+}}
+
+The '''Refraction Rotor''' is a Godseeker Mode [[rogue weapon]] that drops from the [[The Fabricational Quartet]] after [[XM-05 Thanatos]] has been defeated last. It throws out a gravity-defying disk that travels through solid tiles and pierces up to nine times. When destroyed, the disk shatters into 6 homing rockets which each deal 49.5% damage, along with 6 gravity-affected metallic gore chunks which do not deal damage.
+
+Performing a [[stealth strike]] with the Refraction Rotor will cause the resulting disk to burst into more rockets instead of gore chunks. The rockets replacing the gore will travel faster than normal, and deal 60% damage. The main disk will deal 75% damage and the main rockets will deal 37.125% damage.
+
+{{Modifier|rogue}}
+
+==Crafting==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}

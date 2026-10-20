@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| stack = 1
+| auto = yes
+| damagetype = summon
+| damage = 24
+| use = 29
+| mana = 10
+| knockback = 1
+| tooltip = Summons a diseased eyeball that attaches to enemies and inflict cursed flames
+| buff = Eye of Night (buff) | bufflink = no
+| bufftip = It eerily watches
+| debuff = Cursed Inferno
+| debufftip = Losing life<br/>All damage taken increased by 20%
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| rare = 3
+| sell = {{value|0|0|80}}
+| proj = Eye of Night Cell.png
+| projcaption = Eye Cell
+| element1 = Unholy
+}}
+{{summoned|Eye of Night|type=minion|image=[[File:Eye of Night (minion).png]]}}
+{{distinguish|Deathstare Rod|a [[summon weapon]] that drops from the [[Eye of Cthulhu]]}}
+
+The '''Eye of Night''' is a craftable [[Pre-Hardmode]] [[summon weapon]]. It is the [[Corruption]] counterpart of the [[Flesh of Infidelity]]. It summons a tiny floating eyeball that follows slightly above the player. When an enemy is nearby, the eye orbits around it and fires cells which stick to enemies to damage enemies up to two times, inflicting the [[Cursed Inferno]] [[debuff]]. Up to 4 cells can be stuck to an enemy at once.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Night's}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

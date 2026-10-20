@@ -1,0 +1,47 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 108
+| damagetype = Magic
+| knockback = 9
+| velocity = 19
+| use = 25
+| mana = 20
+| stack = 1
+| tooltip = Casts an infernal trident that erupts into a gigantic explosion of fire and magma shards
+| auto = yes
+| hardmode = yes
+| postml = yes
+| rare = 13
+| sell = {{value|0|28}}
+| debuff = On Fire!
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 5 seconds (Trident, Explosion)<br/>2.5 seconds (Shard)
+| proj = Venusian Bolt.png
+| projcaption = Infernal Trident
+| proj2 = Flaming Shard.gif
+| proj2caption = Flaming Shard
+| element1 = Unholy
+| element2 = Fire
+}}
+[[File:Venusian Trident (demo).gif|frame|The Venusian Trident being used on [[Target Dummy|target dummies.]]]]
+The '''Venusian Trident''' is a craftable Godseeker Mode [[wand]] that is an upgraded version of the [[Inferno Fork]]. It shoots out a fiery trident which erupts into a giant explosion with a radius slightly larger than [[Explosives]] upon impacting any tile or enemy. Each explosion emits four to nine cinders which fall to the floor and deal contact damage. The explosion lingers for about 2 seconds and inflicts the [[On Fire!]] [[debuff]]. Each cinder deals 75% of the weapon's damage.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Venusian Trident is similar to the [[Phantasmal Fury]] and [[Shadowbolt Staff]] in that they are all crafted using a [[Sentinels of the Devourer|Sentinel]] drop and [[Haunted Bar]]s, and directly upgrade post-[[Plantera]] magic weapons.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

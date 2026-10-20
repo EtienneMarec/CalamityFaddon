@@ -1,0 +1,110 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| imagealt = [[File:Seashatter Armor.png|88px]]
+| type = Armor
+| defense = 75
+| setbonus = Press {{key|Armor Set Bonus}} to summon a sunken lantern, causing you to act as if you were in water<br/>The lantern emits shock wave, highlighting every enemy it hits<br/><br/>'''{{item|Seashatter Conch Helmet|Conch Helmet|link=|size=20px}}''': 15% increased attack speed<br/>Critical strikes are 25% less often<br/>You emit powerful sound waves once in a while<br/><br/>'''{{item|Seashatter Snail Mask|Snail Mask|link=|size=20px}}''': 12% increased damage reduction<br/>-50 max life<br/>Projectiles and enemies deal less damage from your back<br/>Enemies are more likely to target you
+| stack = 1
+| debuff = Shine
+| debuffchance = 100%
+| debufftip = Emitting light
+| debuffduration = 1 second (Shock Wave)
+| buff = Sunken Lantern (Buff)
+| bufftip = A small piece of the bigger picture...
+| rare = 7
+| sell = {{value|0|30}} (set)
+}}
+
+{{summoned|type=minion|Sunken Lantern}}
+
+'''Seashatter armor''' is a craftable [[Hardmode]] [[covering]] set that is a direct upgrade to [[Mollusk armor]]. 
+
+It consists of the '''Seashatter Conch Helmet''', '''Seashatter Snail Mask''', '''Seashatter Breastplate''', and '''Seashatter Leggings'''.
+
+==Stats==
+The full set grants the following stats and bonuses (this includes the set bonus): 
+*+45 [[defense]]
+* +15% damage
+*+13% critical strike chance
+*+12% movement speed
+*Allows to move freely through liquids.
+*Allows to breathe indefinitely underwater and increases breath loss rate in the [[Abyss]] by 10.
+*Pressing {{key|Armor Set Bonus}} will summon a '''Sunken Lantern''' minion.
+**While the minion is present, the player will act as if they were underwater. This will also trigger the submerged effects, like the ones granted by headpieces of the '''Seashatter Armor''' set.
+**The Sunken Lantern minion will produce a blue-ish light wave once every 2-3 seconds, dealing 130 typeless damage with no ability to deal critical hits. Additionally, the minion's attacks inflict the [[Shine Potion|Shine]] [[Buffs|buff]] for 1 second, causing the hit enemies to glow.
+**The Sunken Lantern minion produces light, as powerful as the one produced by [[tgc:Wisp in a Bottle|Wisp in a Bottle]]. However, it also reduces the player's vision, leaving clear only a small circle, the radius of which is about 6 blocks.
+*'''With {{item|Seashatter Conch Helmet|Conch Helmet|link=|size=20px}}:'''
+**+9 defense (54 total)
+**+16% damage (30% total)
+**+1% critical strike chance (14% total)
+**+15% attack speed
+**Grants following stats while submerged in liquid:
+***+15% multiplicative damage
+***+10% attack speed (25% total)
+***-8 defense (46 total)
+***-2% critical strike chance (12% total)
+**The player will quickly launch 3 sound waves in rapid succession in nearby enemies every 4 seconds, dealing 80 typeless damage each with no ability to deal critical hits.
+**Critical strike chance is multiplied by 0.75, rounded up to the nearest number.
+*'''With {{item|Seashatter Snail Mask|Snail Mask|link=|size=20px}}:'''
+**+32 defense (77 total)
+**+6% damage (21% total)
+**+3% critical strike chance (16% total)
+**+12% flat [[Damage Reduction|damage reduction]]
+** +800 [[Aggro]]
+**-50 max health
+** Grants following stats while submerged in liquid:
+***+20 defense (97 total)
+***-2 life regen (1 HP/s)
+***-6% damage (15% total)
+***-3% critical strike chance (13% total)
+**All projectiles and enemies will deal 15% less damage from the player's back.
+
+==Set==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Seashatter Conch Helmet
+| type = Armor
+| defense = 9
+| tooltip = 16% increased damage<br/>1% increased critical strike chance<br/>Converts defense into power while submerged in liquid
+| body slot = Helmet
+| hardmode = yes
+| sell = {{value|0|10}}
+}}
+|{{item infobox
+| name = Seashatter Snail Mask
+| type = Armor
+| defense = 32
+| tooltip = 6% increased damage<br/>3% increased critical strike chance<br/>Converts power into defense while submerged in liquid
+| body slot = Helmet
+| hardmode = yes
+| sell = {{value|0|10}}
+}}
+|{{item infobox
+| name = Seashatter Breastplate
+| type = Armor
+| defense = 26
+| tooltip = 8% increased damage and critical strike chance<br/>You can breathe infinitely underwater
+| body slot = Shirt
+| hardmode = yes
+| sell = {{value|0|10}}
+}}
+|{{item infobox
+| name = Seashatter Scalecrosses
+| type = Armor
+| defense = 19
+| tooltip = 7% increased damage<br/>5% increased critical strike chance<br/>12% increased movement speed<br/>You can move freely through liquids
+| body slot = Pants
+| hardmode = yes
+| sell = {{value|0|10}}
+}}
+}}
+
+== Crafting==
+===Recipes===
+{{recipes|view=infobox|result=LIKE Seashatter%|link=no}}
+
+{{Shatterite}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

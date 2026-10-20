@@ -1,0 +1,30 @@
+{{item infobox
+| type = Ammunition
+| tooltip = Bounces at extreme speeds
+| damage = 6
+| damagetype = ranged
+| stack = 9999
+| knockback = 1.5
+| consumable = yes
+| sell = {{value|0|0|0|50}}
+| rare = 1
+| velocity = 1
+| velocitymult = 2
+| proj = Superball Bullet (projectile).png
+| projcaption = Superball Bullet
+}}
+
+'''Superball Bullets''' are a [[Pre-Hardmode]] [[bullet]] type made from [[Parched Scale|Parched Scales]] and [[Meteor Shot]]s. They start off with a slow velocity, which increases each time they bounce on a block or pierce an enemy, to a maximum of 5 times.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*These are the only bullets with a lower base damage than [[Musket Ball]]s. However, they make up for it with piercing, allowing them to do damage up to 5 times.
+
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Bullets]]

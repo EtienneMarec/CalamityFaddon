@@ -1,0 +1,203 @@
+= EoW Prototype Page =
+''If you were looking for the Eater of Worlds on the vanilla wiki, [[Eater of Worlds|click here]].''
+
+{{npc infobox | boxwidth = 250px
+| type = Boss
+| type2= Burrowing Enemy
+| imagealt = [[File:Eater_of_Worlds.png|350px]]
+| name = Eater of Worlds
+| environment = The Corruption
+| ai = Worm AI
+| life = {{dv|7485|10479|21538|22903}}
+| knockback = 100
+| debuff = Weak
+| debuffchance = {{expert|5%}}
+| duration = 10 minutes
+| debufftip = Physical abilities are decreased
+| immune1 = Poisoned 
+| immune2 = On Fire!
+| immune3 = Cursed Inferno
+| immune4 = Confused
+| immune5 = Venom
+| immune6 = Shadowflame
+| Shadow Scale|{{dv|50-100|100-150}}|100%
+| Demonite Ore|{{dv|100-250}}|100%
+| Lesser Healing Potion|{{dv|5-15}}|100%
+| Eater of Worlds Mask|1|14.29%
+| Eater of Worlds Trophy|1|10%
+| Eater's Bone|1|5%
+| custom| {{item|The Eater of Worlds (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Eater of Worlds)|Treasure Bag|note=(Eater of Worlds)|wrap=y}}
+: • {{item|Worm Scarf}}|{{expert|100%}}
+|hardmode = no
+}}<section end=npc infobox />
+
+'''The Eater of Worlds''' is a [[Pre-Hardmode]] [[boss]] fought in the [[Corruption]].
+
+While in [[Revengeance Mode|Revengeance]] and [[Death Mode]],
+
+== Spawn ==
+The Eater of Worlds is summoned using [[Worm Food]] while inside The Corruption, or by destroying 3 [[Shadow Orb]]s that spawn in Corruption worlds. It can be summoned at any time of day.
+
+== Segments ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox
+| name = Eater of Worlds
+| namesub = Eater of Worlds Head
+| image = Eater of Worlds Head.png
+| type = Burrowing Enemy
+| environment = Corruption
+| ai = Worm AI
+| damage = {{dv|22|48|60|69}} (contact)<br/>{{dv|||60|69}} (Cursed Flame)
+| life = {{dv|65|91|117}}
+| defense = {{dv|2|4}}
+| knockback = 100
+| debuff = Cursed Inferno
+| debuffchance = 100%
+| duration = 3, 5, or 8 seconds (Cursed flames)
+| debufftip = Losing life. All damage taken increased by 20%
+| immune1 = Poisoned 
+| immune2 = On Fire!
+| immune3 = Cursed Inferno
+| immune4 = Confused
+| immune5 = Venom
+| immune6 = Shadowflame
+}}
+|{{npc infobox
+| name = Eater of Worlds
+| namesub = Eater of Worlds Body
+| image = Eater of Worlds Body.png
+| type = Burrowing Enemy
+| environment = Corruption
+| ai = Worm AI
+| damage = {{dv|13|20|25|28}} (Contact)<br/>{{dv||65||74}} (Vile Spit)
+| life = {{dv|150|210|273}}
+| defense = {{dv|4|6}}
+| knockback = 100
+| immune1 = Poisoned 
+| immune2 = On Fire!
+| immune3 = Cursed Inferno
+| immune4 = Confused
+| immune5 = Venom
+| immune6 = Shadowflame
+}}
+|{{npc infobox
+| name = Eater of Worlds
+| namesub = Eater of Worlds Tail
+| image = Eater of Worlds Tail.png
+| type = Burrowing Enemy
+| environment = Corruption
+| ai = Worm AI
+| damage = {{dv|11|17|21|24}}
+| life = {{dv|220|308|400}}
+| defense = {{dv|8|10}}
+| knockback = 100
+| immune1 = Poisoned 
+| immune2 = On Fire!
+| immune3 = Cursed Inferno
+| immune4 = Confused
+| immune5 = Venom
+| immune6 = Shadowflame
+}}
+|}
+
+== Behavior ==
+Has increased damage reduction a few sections after spawning.
+
+=== In [[Revengeance Mode]] ===
+
+The Eater of Worlds will try to hit the player directly with its head segment, only stopping to turn around once it has gone past them. The body segments and tail will follow behind the head, with a body segment becoming a head if the Eater of Worlds is split and there are at least 2 segments, as that is the minimum length an Eater of Worlds can be. 
+
+If the Eater of Worlds splits into multiple worms, each one will act the same as a fully connected version, meaning that they will all attack the player with no regard for each other.
+
+All segments share some characteristics:
+*Can go through blocks
+*Unaffected by liquids
+*Immune to knockback
+*Can shoot vile spit when there are only 71 segments remaining
+
+The Head segment of an Eater of Worlds has the lowest defense and health but the most damage. They also have the ability to shoot [[Cursed Flames]] once there are 59 segments remaining. They retain their previous momentum if they have just been transformed from a body segment. 
+
+The Body segment of an Eater of Worlds is a middle ground of defense and attack between the Head and the Tail. They can also turn into a Head segment if they become the front segment of a Worm, or a Tail segment if they become the back segment of a Worm.
+
+The Tail segment of an Eater of Worlds is the most resistant to damage but also has the least attack.
+
+When fought in the Underground Corruption, the Eater of Worlds will be less aggressive. However, when taken out of the Corruption it will enrage and continuously fly towards the player.
+
+=== In [[Death Mode]] ===
+*Starts with 84 segments. All segments begin shooting vile spit when 75 segments remain. Head begins shooting cursed flames at 62 segments.
+*Can fly at players who are out of reach easier. It will also get increased acceleration and top speed as it's health decreases. 
+
+=== During the [[Boss Rush]] ===
+*Max health increased to {{dv|2,500,000|3,500,000|4,550,000}}
+*Becomes immune to all [[debuffs]] except [[Enraged]], [[Kami Flu]], and [[Shellfish Claps]] 
+*Takes 99.9% less damage for ten seconds after spawning
+
+== Aftermath ==
+*If a [[Shadow Orb]] hasn't been destroyed, the [[Merchant]] will begin selling [[Crimson Rod]] and [[The Rotted Fork]].
+*The [[Dryad]] will begin selling [[Worm Food]] and [[Bloody Spine]]s.
+*The [[Dryad]] will begin selling the [[Brain of Confusion]] in Expert Mode.
+
+== Terrain Preparation ==
+The Eater of Worlds should be fought on the Surface of the Corruption. It is recommended to have a flat area, above which are 2-3 layers of platforms, each layer being around 120 platforms long. Make sure that you do not leave the corruption or else the boss will enrage.
+
+You may also add [[Campfire|Campfires]] and [[Heart Lantern|Heart Lanterns]] for extra health regen, [[Sunflower|Sunflowers]] for the Happy! buff and a [[Star in a Bottle]] for extra mana regen.
+
+== Gearing Up ==
+{{dablink|For a Normal and Expert mode guide to The Eater of Worlds, see [[tgc:Guide:Eater of Worlds strategies|Eater of Worlds strategies]] on the vanilla wiki.}}
+=== Armor ===
+
+*[[Victide armor]] is a viable option for every class.
+*[[Platinum armor]] can be used by melee players who wish to maximize on defense.
+*[[Desert Prowler armor]] is the best choice for ranged players due to it's bonuses to ranged damage and it's set bonus.
+*[[Obsidian armor]] and [[Gladiator armor]] are the best choices for Rogue players.
+*The [[Wizard Hat]], [[Diamond Robe]] and [[Jungle Pants]] is the best combination for Mage players.
+
+=== Accessories ===
+
+*It is heavily recommended to have [[Spectre Boots]] or any of it's upgrades due to it's boosts to mobility and allowing the user to fly.
+*The [[Counter Scarf]] is the best dash available for the fight.
+*Any double jump, such as the [[Sandstorm in a Bottle]] is recommended.
+**The [[Bundle of Balloons]] combines 3 double jumps into one and increases jump height, however it requires significantly more effort to obtain. 
+*The [[Luxor's Gift]] is a great all-class accessory which increases DPS.
+*The [[Shark Tooth Necklace]] is great when paired with weapons with low base damage, such as the [[Pumpler]] or [[Mycelial Claws]]
+*Melee players can use the [[Feral Claws]] to increase their melee stats.
+*Rangers can use the [[Rusty Medallion]] to increase their damage output.
+*Mages should use the [[Celestial Cuffs]] to keep their mana in check.
+*Summoners should use the [[Voltaic Jelly]] and [[Spirit Glyph]] to increase their minion slots and overall stats.
+*Rogues should consider using the [[Raider's Talisman]] to increase their DPS.
+
+=== Weapons ===
+==== Melee ====
+
+*The [[Riptide]]'s DPS and piercing projectile should make the fight relatively simple for melee users.
+**It is best paired with the [[tgc:Strings|String]] and the [[Counterweight]] accessories. 
+**The [[Cnidarian]] is a good alternative.
+*The [[Seashell Boomerang]] is a decent pick due to its pierce.
+*The [[Arkhalis]] can be used to decimate the boss, however it's main drawbacks are that you have to stay close to the boss to damage it and that it is very hard to obtain.
+**The [[Mycelial Claws]] or [[Mandible Claws]] paired with the [[Fungal Symbiote]] are significantly easier to obtain, while still dealing insane DPS.
+
+==== Ranged ====
+*The [[Seabow]] is an all around decent option for rangers.
+**It is highly recommended to use any piercing arrows with this bow, especially [[Jester's Arrow|Jester's Arrows]], as they can decimate the boss.
+*The [[Aquashard Shotgun]] is a great choice due to its piercing shrapnel that deal greatly with the Eater and his spits.
+*The [[Pumpler]] is another decent choice for Rangers.
+
+==== Mage ====
+*The [[Water Bolt]] is the best choice for mages by far, however it is not guaranteed that the player can acquire it in this stage of the game.
+*The [[Sky Glaze]] is a decent pick for mages due to its explosive damage.
+*The [[Acid Gun]] is also a great pick due to its piercing spray.
+*The [[Storm Spray]] is a very good pick if used correctly.
+
+==== Summoner ====
+*The [[Magical Conch]] and [[Stormjaw Staff]] can decimate the boss, however they are limited by being bound to the ground.
+*The [[Seabound Staff]] has slightly lower DPS, however it's summons can fly and are better at hitting the boss.
+*The [[Belladonna Spirit Staff]] when paired with the Shark Tooth Necklace is another great choice
+*The [[Frost Blossom Staff]] is a good support option when paired with the weapons listed above.
+
+==== Rogue ====
+*The [[Crystalline]] is a decent pick to deal with multiple segments at once.
+*The [[Seafoam Bomb]] is a good choice due to its explosive damage.
+*The [[Dune Hopper]] is a great option due to its pierce and overall high damage.
+**Note that this is a [[Rare item variants|rare item]] so it may be difficult to obtain

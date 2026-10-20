@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 14
+| auto = yes
+| use = 17
+| knockback = 1
+| velocity = 15
+| tooltip = Throws a shiny blade that ricochets towards another enemy on hit<br/>Stealth strikes cause the blades to home in after ricocheting, with each ricochet dealing 20% more damage<br/>Stealth strikes also have increased piercing
+| proj = Gleaming Dagger (projectile).png
+| projcaption = Gleaming Dagger
+| rare = 1
+| sell = {{value|0|0|20}}
+| stack = 1
+| element1 = Stab
+}}
+
+The '''Gleaming Dagger''' is a craftable [[Pre-Hardmode]] non-consumable [[dagger]]. It throws a fast moving platinum dagger that ricochets towards the nearest target after hitting an enemy. The dagger pierces once and breaks on contact with blocks.
+
+Performing a [[stealth strike]] with the Gleaming Dagger will cause the next dagger thrown to pierce three times and home in on enemies after ricocheting, as well as granting it 20% increased damage per ricochet.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon functions identically to the [[Gilded Dagger]].
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Daggers]]

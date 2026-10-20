@@ -1,0 +1,30 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 5
+| sell = {{value|0|5}}
+| stack = 1
+| tooltip = Grants a dash that plagues the nearby enemies, only works if the player is touching a block and isnt touching any liquids.
+| debuff = Plague
+| debuffchance = 50%
+| debuffduration = 1 seconds
+| hardmode = yes
+}}
+|}
+
+The '''Landscapist Mobilite Fragment''' is a craftable [[Hardmode]] [[covering]] that provides a 25 tile dash which creates leaves that inflict Plague on your enemies, the dash only works if the player is touching a solid block and if its not touching any liquids.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

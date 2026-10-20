@@ -1,0 +1,20 @@
+{{item infobox
+| type = Covering
+| image = Melee Level Meter.png
+| tooltip = Tells you how high your [CLASS] proficiency is<br/>While equipped you will gain [CLASS] proficiency faster
+| buy = {{value|0|5}}
+| sell = {{value|0|1|20}}
+| rare = 1
+| stack = 1
+}}
+{{dablink|Not to be confused with the [[Stat Meter]], the informational covering that displays player stats.}}
+
+'''Level Meters''' are [[coverings]] purchased from the [[Goblin Tinkerer]] that tell the player their current levels of [[proficiency]] with a certain class, as well as the exact stats gained depending on the class. In addition to this, if they are equipped, they give the player a 10% chance to earn double proficiency if their current proficiency is not divisible by 100.
+
+== Trivia ==
+*The sprite used for all five Level Meters is based on [https://dragonball.fandom.com/wiki/Scouter Scouters] from ''[[wikipedia:Dragon Ball Z|Dragon Ball Z]]''.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}

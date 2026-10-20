@@ -1,0 +1,8 @@
+== Description ==
+This template is used to produce a total [[tgc:Coin|coin]] value number from values entered using the value template: {{tl|value}}. It essentially converts coins to their Copper Coin values and adds them together, displaying the total Copper Coin value for all coins entered.
+
+This is primarily for use in {{tl|dpl}} listings, to produce values for <code>data-sort-value</code> in a sortable table's "sell value" column, which can enable accurate sorting where coin values are displayed by coin templates. See [[Melee weapons/dpl]] for an example of the code, and [[Swords]] for an example of the accurate sorting it can produce. 
+
+This template takes a single parameter: a value template call. The complete contents of most "sell" or "buy" fields in {{tl|item infobox}} can be used as this parameter.
+
+<noinclude>[[Category:Template documentation]]</noinclude>

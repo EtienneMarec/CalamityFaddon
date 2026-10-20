@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| tooltip = Summons rapid fire shadecrystals, can shoot two crystals at once
+| damage = 23
+| damagetype = magic
+| mana = 4
+| use = 6
+| knockback = 5.5
+| rare = 5
+| sell = {{value|0|7|20}}
+| auto = yes
+| velocity = 16
+| stack = 1
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| hardmode = yes
+| proj = Shadecrystal.png
+| projcaption = Shadecrystal
+| element1 = Holy
+| element2 = Dark
+}}
+
+The '''Shadecrystal Barrage''' is a craftable [[Hardmode]] [[spell tome]]. When used it fires an inaccurate storm of purple crystals that inflict the [[Frostburn]] [[debuff]] to any enemies hit. Each use has a chance to fire two crystals instead of one. Unlike [[Crystal Storm]], the crystals produced by this weapon will never ricochet off walls.
+
+{{Modifier|magiclow}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*While its damage is less than the Crystal Storm, it makes up for it with increased fire rate, knockback, and the added Frostburn debuff.
+
+{{Cryonic}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Spell tomes]]

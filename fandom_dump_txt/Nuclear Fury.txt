@@ -1,0 +1,51 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 114
+| damagetype = magic
+| auto = yes
+| knockback = 5
+| velocity = 16
+| mana = 13
+| stack = 1
+| tooltip = Casts a torrent of cosmic typhoons
+| use = 25
+| rare = 10
+| sell = {{value|0|20}}
+| hardmode = yes
+| postml = yes
+| debuff = Wet
+| debufftip = You are dripping water
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| proj = Nuclear Fury Typhoon.png
+| projcaption = Cosmic Typhoon
+| element1 = Water
+| element2 = Magic
+| element3 = Wind
+}}
+[[File:Nuclear Fury (demo).gif|200px|frame|right|The Nuclear Fury being used against a [[Super Dummy]]. Note the projectiles' inability to home through solid tiles.]]
+
+The '''Nuclear Fury''' is a craftable Godseeker Mode [[spell tome]] that is a direct upgrade to the [[Razorblade Typhoon]]. It shoots out 8 cosmic typhoons evenly distributed in a circle around the player. These projectiles can pass through walls and home in on any enemy in range, though they will not actively target enemies behind walls or when the projectile itself is in a wall.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Nuclear Fury only deals 50% damage to [[Ceaseless Void]]'s Dark Energies.
+
+== Trivia ==
+*An [[thm:Nuclear Fury|item of the same name and similar function]] exists in the [http://forums.terraria.org/index.php?threads/the-thorium-mod.40788/ Thorium Mod].
+**This is due to it being a donator item from Calamity's creator, Fabsol, otherwise known as MountainDrew.
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Spell tomes]]

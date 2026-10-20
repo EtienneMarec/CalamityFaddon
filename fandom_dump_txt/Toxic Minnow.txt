@@ -1,0 +1,32 @@
+{{npc infobox
+| environment = Abyss
+| type = Aquatic
+| ai = Toxic Minnow AI
+| damage = {{dv|20|40}} (Contact)<br/>{{dv|60|120}} (Skull cloud)
+| life = {{dv|240|480}}
+| defense = 20
+| knockback = {{dv|85%|86.5%}}
+| debuff = Poisoned
+| debuffchance = 100%
+| duration = 2 seconds (Contact)<br/>10 seconds (Toxic cloud)
+| debufftip = Slowly losing life
+| immune1 = Crush Depth
+| immune2 = Poisoned
+| immune3 = Confused
+| immune4 = Kami Flu
+| vulnerable1 = Machine
+| banner = yes
+| money = {{value|0|0|0|1}}
+| custom | {{item|Depth Cells|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|2-3|4-6}}) | 50%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+The '''Toxic Minnow''' is an [[enemy]] that spawns in the 1st, 2nd and 3rd layers of the [[Abyss]]. It swims in one direction and turns around when it hits a wall, dealing contact damage if the player touches it. It never moves to attack the player or fires projectiles of any kind, even if it is approached or hit.
+
+Once killed, it bursts into roughly 10 toxic green skull clouds, which deals damage and inflicts the [[Poisoned]] [[debuff]] onto anything they touch, including enemies. These clouds linger for 10 seconds before vanishing.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

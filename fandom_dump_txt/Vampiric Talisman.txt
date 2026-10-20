@@ -1,0 +1,27 @@
+{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = Spy projectiles give lifesteal on crits<br/>12% increased Spy damage
+| rare = 7
+| sell = {{value|0|9|60}}
+| hardmode = yes
+}}
+
+The '''Vampiric Talisman''' is a craftable [[Hardmode]] [[covering]]. While equipped, it increases [[Spy weapons|Spy]] damage by 12% and [[Lifesteal|heals]] the player on Spy weapon critical hits. The amount healed is 1.5% the damage dealt, rounded down and up to a maximum of 6, meaning a minimum of 68 damage (a crit of 34) must be dealt in order to receive any healing. The lifesteal is indicated by a red streak travelling from the hit enemy back the player.
+<!--Technically the minimum damage is 67, however critical hits cannot be odd numbers.-->
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*This covering works well when equipped alongside the [[Dark God's Sheath]], which makes all [[stealth strike]]s have a 100% critical strike chance.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

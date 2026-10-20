@@ -1,0 +1,313 @@
+{{Patch infobox
+| image = Galaxy Smasher.png
+| patchname = Optimizations and Fixes
+| release = 7/30/2019
+| pair = 1.4.2.001 (music)
+}}
+
+The '''1.4.2.103''' update made various optimizations to the mod in both its code and actual content. The update also adjusted the stats of several [[Revengeance Mode]] vanilla bosses and added a few new [[weapons]].
+
+== Additions ==
+*Added [[Galaxy Smasher]], [[Helium Flash]], [[Nanoblack Reaper]], and [[Stellar Contempt]].
+
+== Changes ==
+=== [[Bosses]] ===
+*Added afterimages to the following projectiles:
+{{collapse top}}
+*[[Aquatic Scourge]] and [[Desert Scourge]]'s sand blasts.
+*[[Astrum Aureus]]' flame crystals and lasers.
+*[[Astrum Deus]]' lasers.
+*[[Brimstone Elemental]] and [[Supreme Calamitas]]' Brimstone Barrages and Hellblasts.
+*[[Bumblebirb]]'s lightning feathers.
+*[[Great Sand Shark]]'s sand blasts.
+*[[Jungle Dragon, Yharon]]'s flarenado spawners and splitting fireballs.
+*[[Mantis]]' scythes.
+*[[The Plaguebringer Goliath]]'s missiles.
+*[[Profaned Guardians]]' spears.
+*[[Providence, the Profaned Goddess]]' spears.
+*[[Signus, Envoy of the Devourer]]'s scythes.
+*[[The Siren]]'s Ice Mists and Water Spears.
+{{collapse bottom}}
+
+==== Aquatic Scourge ====
+*Nerfed head's defense from 40 to 20, its body's defense from 60 to 35, and its tail's defense from 90 to 45.
+*Now takes 20% damage from infinitely piercing non-minion projectiles and divides the damage of other piercing projectiles by the amount of times they pierce instead of just having a 50% resistance to [[Holy Arrow]] stars and [[Crystal Bullet]] shards.
+
+==== Astrum Aureus ====
+*Buffed health from {{dv|80,000|128,000|163,200|252,800}} to {{dv|96,000|153,600|195,200|299,200}}, and nerfed its defense from 120 to 70.
+*Buffed post-Moon Lord health from {{revengeance|640,000}} to {{revengeance|704,000}}.
+*Buffed Boss Rush health from {{dv|1,200,000|1,920,000|0|2,240,000}} to {{dv|1,400,000|2,240,000|0|2,560,000}}.
+*Flame crystals are now easier to see.
+
+==== Astrum Deus ====
+*Increased the amount of celestial fragments dropped from {{dv|6-11|6-12}} to {{dv|12-20|20-32}}, and reworked its movement.
+
+==== [[Brain of Cthulhu]] ====
+*Revengeance Mode changes:
+**Buffed health multiplier from {{dv|0|0|1.4x|1.9x}} to {{dv|0|0|1.6x|2.3x}}.
+**Creepers now have a health multiplier of {{dv|0|0|1.2x|1.4x}}.
+**Creepers no longer respawn.
+**Can no longer hit the player in phase 1.
+
+==== [[Calamitas]] ====
+*Now drops [[Animosity]] in all difficulty modes.
+*Nerfed [[Soul Seeker]] health from {{dv|3750|7500}} to {{dv|2500|5000}}.
+
+==== [[Cryogen]] ====
+*Increased overall speed.
+
+==== [[The Devourer of Gods]] ====
+*Increased the amount of [[Cosmilite Brick]]s dropped from 5-15 to {{dv|155-265|205-335}}.
+
+==== [[The Destroyer]] ====
+*Nerfed health multiplier from {{dv|0|0|1.8x|2.7x}} to {{dv|0|0|1.25x|1.6x}}, and reduced its Death Mode size modifier.
+*Nerfed [[Probe]]'s health multiplier from {{dv|0|0|1.6x|1.9x}} to {{death|1.25x}}, and removed its Death Mode size modifier.
+
+==== [[Plantera]] ====
+*Revengeance Mode changes:
+**Buffed health multiplier from {{dv|0|0|1.9x|2.9x}} to {{dv|0|0|2.3x|3.4x}}.
+**Plantera's Tentacles no longer gain extra health.
+**Now starts shooting seeds once all tentacles have been defeated.
+
+==== [[Polterghast]] ====
+*Now only enrages when taken to the surface.
+
+==== Providence, the Profaned Goddess ====
+*Now drops her biome exclusive drops for all players in multiplayer.
+
+==== [[Skeletron Prime]] ====
+*Nerfed Revengeance Mode Skeletron Prime and his arms' health multiplier from {{dv|0|0|1.6x|2.9x}} to {{dv|0|0|1.15x|1.5x}}.
+
+==== [[Storm Weaver]] ====
+*Reworked how movement works.
+
+==== [[The Twins]] ====
+*Revengeance Mode changes:
+**Nerfed Retinazer's health multiplier from {{dv|0|0|1.8x|3x}} to {{dv|0|0|1.25x|1.4x}}.
+**Nerfed Spazmatism's health multiplier from {{dv|0|0|1.8x|3x}} to {{dv|0|0|1.3x|1.45x}}.
+**Decreased speeds slightly.
+
+=== [[Enemies]] ===
+*[[Colossal Squid]]s, [[Eidolon Wyrm]]s, and [[Reaper Shark]]s no longer block each others spawn rates.
+*Hardmode [[Dungeon Guardian]]s now drop the [[Burden Breaker]].
+*Nerfed [[Giant Clam]]'s pearl burst damage from {{dv|150|200}} to {{dv|70|112}}, and its pearl rain damage from {{dv|100|120}} to {{dv|70|112}}.
+
+=== [[Items]] ===
+*Added afterimages to the following projectiles:
+{{collapse top}}
+*[[Aerospec armor]]'s sticky feathers.
+*[[Apoctosis Array]] and [[Ion Blaster]]'s Ion Blasts.
+*[[Ark of the Cosmos]] and [[Galaxia]]'s stars.
+*[[Arterial Assault]]'s Bloodfire Arrows.
+*[[Asteroid Staff]]'s asteroids.
+*[[Astral armor]]'s stars.
+*[[Astralachnea Staff]]'s fangs.
+*[[Astral Pike]]'s stars.
+*[[Astral Scythe]]'s blades.
+*[[Astral Staff]]'s crystal.
+*Ranged [[Auric Tesla armor]] and [[Bloodflare armor]]'s souls. 
+*Auric Tesla armor and [[God Slayer armor]]'s darts.
+*[[The Ballista]]'s arrow.
+*[[Biofusillade]]'s lasers.
+*[[Blossom Flux]]'s arrows.
+*[[Bloodfire Arrow]]s.
+*[[The Burning Sky]]'s meteors.
+*[[Celestus]].
+*[[Claret Cannon]]'s Bloodfire Bullet.
+*[[Contagion]]'s arrow.
+*[[Crystal Piercer]]s.
+*[[Devil's Devastation]]'s scythes.
+*[[Divine Retribution]]'s spears.
+*[[Draconic Destruction]]'s beams.
+*[[Dragon Rage]]'s waves.
+*[[Eidolic Wail]]'s wails.
+*[[Eidolon Staff]]'s projectiles.
+*[[Elemental Disk]].
+*[[Elemental Shiv]]'s beams.
+*[[Elysian Arrow]]s.
+*[[Empyrean Knives]].
+*[[Eradicator]].
+*[[Essence Flayer]]'s scythes.
+*[[Executioner's Blade]].
+*[[Exoblade]]'s beams.
+*[[Flak Kraken]]'s reticle.
+*[[Forbidden Oathblade]]'s scythes.
+*[[Forsaken Saber]]'s blades.
+*[[Galactus Blade]]'s comets.
+*[[Gelitic Blade]]'s waves.
+*[[Ghastly Visage]]'s projectiles.
+*[[Glacial Crusher]]'s iceberg.
+*[[Heavenfallen Stardisk]].
+*[[Hellion Flower Spear]]'s spikes.
+*[[Hive Pod]]'s Hivelings.
+*[[Ice Star]]s.
+*[[Illustrious Knives]].
+*[[Infernal Spear]].
+*[[Lifehunt Scythe]]'s scythes.
+*[[Luxor's Gift]].
+*[[Magna Striker]]'s projectiles.
+*[[Malachite]].
+*[[Malevolence]]'s projectiles.
+*[[Mineral Mortar]]'s sharks.
+*[[Mirror Blade]]'s projectile.
+*[[Molten Amputator]].
+*[[Neptune's Bounty]]'s orbs.
+*[[Norfleet]]'s comets.
+*[[Opal Striker]]'s projectile.
+*[[Pwnagehammer]].
+*[[Quasar]].
+*[[Radiant Star]].
+*[[Relic of Ruin]]'s scythes.
+*[[Sandstorm]]'s sand.
+*[[Scourge of the Cosmos]].
+*[[Scourge of the Desert]].
+*[[Seething Discharge]]'s projectiles.
+*[[Shattered Sun]].
+*[[Shifting Sands]]' sand dart.
+*[[Shroomer]]'s mushrooms.
+*[[Sky Glaze]]'s feathers.
+*[[Snowstorm Staff]]'s ice star.
+*[[Soul Edge]]'s souls.
+*[[Soul Harvester]]'s scythes.
+*[[Spear of Destiny]].
+*[[Spear of Paleolith]].
+*[[Spyker]]'s bolts.
+*[[Star Cannon EX]]'s stars.
+*[[Starfall]]'s stars.
+*[[Starfleet]]'s blasts.
+*[[Starmada]]'s blasts.
+*[[Starnight Lance]]'s beams.
+*[[Stellar Cannon]]'s crystals.
+*[[Stellar Knife]].
+*[[The Storm]]'s bolt arrows.
+*[[Storm Ruler]]'s beam.
+*[[Storm Saber]]'s beam.
+*[[Subsuming Vortex]]'s vortices.
+*[[Terror Blade]]'s beam.
+*[[Tradewinds]]' feathers.
+*[[Triactis' True Paladinian Mage-Hammer of Might]].
+*[[True Bloody Edge]]'s beam.
+*[[True Caustic Edge]]'s beam.
+*[[True Paladin's Hammer]].
+*[[True Tyrant's Ultisword]]'s blades.
+*[[Tyrant Yharim's Ultisword]]'s blades.
+*[[Undine's Retribution]]'s spears.
+*[[Valediction]].
+*[[Vehemence]].
+*[[Vesuvius]]' asteroids.
+*[[Voidragon]]'s blasts.
+*[[Xeroc Pitchfork]]s.
+*[[YinYo]].
+{{collapse bottom}}
+*[[Amidias' Trident]] changes:
+**Nerfed damage from 28 to 12.
+**Can now fire whirlpools at all times instead of only after [[Skeletron]] has been defeated.
+**Whirlpools can now only hit once.
+*Buffed [[Ark of the Ancients]]' damage from 55 to 58.
+*Improved the visuals of [[Astreal Defeat]] and [[Scarlet Devil]]'s afterimages.
+*Buffed [[Ataraxia]]'s damage from 3120 to 5600, but removed its damage scaling.
+*[[Axe of Purity]] now works as an axe when right clicked.
+*Buffed [[Biome Blade]]'s damage from 48 to 70.
+*Increased the size of [[Briny Baron]]'s tornadoes.
+*Burden Breaker can no longer be crafted.
+*[[Celestial Onion]]'s tooltip now says "Alien power pulses inside its layer" instead of "Doesn't do anything currently...or does it!?".
+*Buffed Celestus' damage from 480 to 960, but nerfed its use time from 9 to 19.
+*[[Chaos Candle]] now uses 4 [[Essence of Chaos|Essences of Chaos]] in its recipe instead of 6 [[Core of Chaos|Cores of Chaos]].
+*Nerfed [[Crystal Flare Staff]]'s damage from 49 to 30.
+*Reworded [[Demonshade armor]]'s Enraged buff's description to say that "All damage taken is increased by 25%" instead of saying "Enemies are enraged and do 1.5 times damage."
+*Buffed Devil's Devastation's damage from 450 to 500.
+*Buffed [[Dragon Pow]]'s damage from 6600 to 11,800.
+*Nerfed [[Elemental Lance]]'s damage from 200 to 155, and its use time from 25 to 29.
+*Elysian Arrows now explode on impact, but their meteors now deal 50% damage.
+*Buffed [[Excelsus]]' damage from 235 to 360.
+*Improved the visuals of [[Flarefrost Blade]], [[Holiday Halberd]], [[Shadecrystal Barrage]], and [[Xeroc Greatsword]]'s projectiles.
+*Buffed Flarefrost Blade's damage from 58 to 65, and increased the effectiveness of its homing.
+*Buffed [[Forbidden Oathblade]]'s damage from 61 to 64.
+*Buffed [[Elemental Shiv]]'s damage from 140 to 150.
+*Buffed Galactus Blade's damage from 95 to 110, and replaced the 10 [[Ectoplasm]] in its recipe with 10 [[Divine Geode]]s.
+*Glacial Crusher's iceberg now uses an actual sprite instead of dust.
+*[[Grape Beer]] can now be used by quick heal.
+*Nerfed [[Greatsword of Judgement]]'s damage from 58 to 52.
+*Renamed Sunken Stew to [[Hadal Stew]].
+*Decreased [[Hellborn]]'s holdout's [[On Fire!]] duration from 6.67 seconds to 6.
+*[[Hellfire Flamberge]]'s flares now deal 100% of the weapon's damage instead of 75%, it now fires 3 flares instead of 3-4, and now plays a sound while shooting them.
+*Buffed Ice Star's damage from 35 to 45, but they now penetrate 3 times instead of infinitely.
+*[[Lashes of Chaos]] changes:
+**Nerfed damage from 98 to 88 and its shot speed from 16 to 9.
+**Fireball now has a localNPCHitCooldown of 10 instead of 15 and penetrates 2 times instead of infinitely.
+**Now creates less dust.
+*Buffed [[Lunic Eye]]'s damage from 7 to 9, and its tooltip now reflects any damage boosts the player has that affects the weapon.
+*[[Majestic Guard]] can no longer heal off of [[Target Dummy|Target Dummies]].
+*[[Margarita]] can now be used by quick heal and quick buff.
+*Buffed [[Marked Magnum]]'s damage from 3 to 4, and its tooltip now reflects any damage boosts the player has that affects the weapon.
+*Reworded [[Meowthrower]]'s tooltip to say "50% chance to not consume gel" instead of "Consumes gel at a 50% chance" for consistency with other ammo consumption tooltips.
+*Neptune's Bounty changes:
+**Nerfed damage from 540 to 300, its use time from 16 to 21, and its shot speed from 25 to 12.
+**Decreased sell price from {{gc|36}} to {{gc|28}}.
+**Now uses the {{rare|13}} rarity instead of {{rare|14}}.
+**Now uses 5 [[Ruinous Soul]]s in its recipe instead of 5 [[Cosmilite Bar]]s.
+*Nerfed [[The Oracle]]'s damage from 1360 to 480, but its aura now deals 160 damage instead of 40.
+*[[Penumbra Potion]] now makes stealth generate faster at all times instead of making it always generate at night and during [[Solar Eclipse]]s.
+*Nerfed [[Plague Keeper]]'s damage from 110 to 95.
+*[[Profaned Soul Artifact]]'s offensive guardian's buff description now says that it will "fight for you" instead of "protect you".
+*Buffed [[Rainbow Rod]]'s damage from 74 to 130.
+*[[Red Wine]] is now used by quick heal instead of quick buff.
+*Buffed [[Spectre Staff]]'s damage from 144 to 216.
+*Reworded [[Star Beam Rye]]'s buff description to be less confusing.
+*[[Star Wrath]]'s comets no longer pierce.
+*Decreased [[Swordsplosion]]'s true melee [[Brimstone Flames]], [[Glacial State]], [[Holy Flames]], and [[Plague]] durations from 8.33 seconds to 8 each.
+*Split [[Terra Arrow]]s now deal 40% of the original arrow's damage instead of 50%.
+*Nerfed [[Terra Blade]]'s damage from 127 to 114.
+*Decreased [[Terratomere]]'s true melee [[Cursed Inferno]] duration from 11.33 seconds to 10, and its [[Frostburn]] duration from 10.33 seconds to 10.
+*Buffed [[Tome of Infinite Wisdom]]'s damage from 29 to 30.
+*Triactis' True Paladinian Mage-Hammer of Might now uses Galaxy Smasher in its recipe instead of True Paladin's Hammer.
+*[[Victide armor]]'s seashells now have a localNPCHitCooldown value of 10.
+*[[Vigorous Candle]] now heals the player more smoothly.
+*Decreased the size of [[Wind Blade]]'s cyclones.
+
+=== Other ===
+*[[Adrenaline Mode]] and [[Rage Mode]]'s descriptions now dynamically change based on difficulty mode.
+*Nerfed Revengeance Mode [[Chaos State]]'s damage penalty from 50% to 25%.
+*Chaos State, [[Cursed Flames]], and [[Ichor (debuff)|Ichor]] now display their Revengeance Mode damage taken boosts in their buff descriptions.
+*[[Cinderplate]] changes:
+**Now uses stone mining sounds.
+**Now has a glowmask.
+**Now has a minimum pickaxe power of 180.
+**Changed map icon color from ({{color|#611639 ●|#611639}}) to ({{color|#AD3446 ●|#AD3446}}).
+*Reduced [[Death Mode]]'s damage increase from 25% to 15%.
+*[[Everclear]]'s buff description now gives exact stats.
+*Grape Beer's buff description no longer mentions its life regeneration penalty.
+*The [[Nurse]] is now more expensive in Revengeance Mode depending on progression.
+*The Nurse is now 5 times more expensive while a boss is alive in Revengeance Mode. 
+*Increased [[Smooth Voidstone]] and [[Voidstone Slab]] pickaxe power requirements from 180 to 190.
+
+=== Resprites ===
+*Resprited Ark of the Cosmos, Astralachnea Staff, [[Broken Biome Blade|Biome Blade]], Galaxia, [[True Biome Blade|Omega Biome Blade]], and [[Biome Blade|True Biome Blade]].
+*Resprited [[Brimstone Slag]], [[Profaned Crystal]], [[Profaned Slab]], and [[Runic Profaned Brick]].
+*Resprited [[Arena Block]] and [[Stratus Bricks]] tiles.
+*Resprited [[Brimstone Slag Wall]].
+*Resprited Ark of the Cosmos and Galaxia's stars, and [[Drataliornus]], Elysian Arrow, and [[Yharim's Gift]]'s flares.
+
+== Fixes ==
+*Fixed [[Ace's Apron of Affection]] not counting as a vanity item.
+*Fixed the [[Astral Chest]] causing several bugs, including crashing the game.
+*Fixed [[Aureus Cell]]s and [[White Wine]] not working properly with quick buff, quick heal, and any [[Mana Flower]]-like effects.
+*Fixed [[Brimlance]]'s tooltip incorrectly mentioning that hits create explosions.
+*Fixed [[Frozen Turtle Shell]]'s buff tooltip saying that the buff grants 25% damage reduction instead of 15%.
+*Fixed Hadal Stew interacting strangely with quick buff and quick heal.
+*Fixed [[King Slime]] only dropping Gel on its first kill.
+*Fixed [[Hide of Astrum Deus]] being labeled as an Expert Mode item.
+*Fixed [[Moon Lord]]'s core being vulnerable in phase 1.
+*Fixed [[Riptide]] having a messed up animation.
+*Fixed [[Siren's Heart]]'s Ice Shield buff's description saying the buff absorbs 20% damage instead of 15%.
+*Fixed The Slime God only dropping Gel in Normal Mode.
+*Fixed [[Spectre armor]] with the [[Spectre Mask]]'s souls not being affected by its 30% damage nerf.
+*Fixed [[Statigel Wall]]s being unable to be crafted back into [[Statigel Block]]s.
+*Fixed [[Svantechnical]] dropping twice as commonly from Supreme Calamitas as other weapons.
+*Fixed [[Grenade Shells]], [[Explosive Shotgun Shell]]s, and [[Magnum Rounds]] only dropping from [[Spazmatism]].
+*Fixed [[Victide armor]]'s set bonus activating when using [[Murasama]].
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

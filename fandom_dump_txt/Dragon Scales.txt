@@ -1,0 +1,33 @@
+{{item infobox
+| type = Covering
+| tooltip = Only a living dragon holds true treasure<br/>Spy projectiles create slow fireballs as they travel<br/>Stealth strikes create infernados on death<br/>+10% max run speed and acceleration
+| buy = {{value|40}}
+| sell = {{value|0|30}}
+| element1 = Fire
+| element2 = Holy
+| rare = 15
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Dragon Scales Fireball.gif
+| projcaption = Fireball
+| proj2 = Infernado (friendly).gif
+| proj2caption = Infernado
+| proj2size = 230px
+}}
+
+'''Dragon Scales''' are Godseeker Mode [[Spy]] [[covering]] purchased from [[Bandit]] for {{pc|40}} after [[Jungle Dragon, Yharon]] has been defeated. When equipped, the player's movement speed and acceleration is increased by 10%, and all Spy projectiles create fireballs as they travel. Fireballs are spawned every 0.83 seconds the projectile has been active, slowly homing into nearby enemies, or spin in place otherwise. Additionally, all [[stealth strike]]s executed will create a massive infernado on enemy hits, which lingers for a significant amount of time. Infernadoes and fireballs deal 550 and 80 typeless damage respectively which are affected by Spy damage bonuses, up to five fireballs can exist at a time, and only one infernado can exist at a time.
+
+== Recipe ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The fireballs created from Spy projectiles are called 'DragonShit' in the source code.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

@@ -1,0 +1,70 @@
+{{item infobox
+| type = Armor
+| defense = 36
+| rare = 7
+| sell = {{value||14|40}} (set)
+| setbonus = Spy weapons have a chance to create explosions on hit<br/>Stealth strikes always create an explosion<br/>Penumbra potions always build stealth at max effectiveness<br/>Spy stealth builds while not attacking and slower while moving, up to a max of 110<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+| debuff = Daybroken
+| debuffchance = 100%
+| debuffduration = 3 seconds (Explosion)
+| debufftip = Incinerated by solar rays
+| debuff2 = Moon Burnt
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Explosion)
+| debufftip2 = Incinerated by lunar rays
+| hardmode = yes
+}}
+
+'''Umbraphile armor''' is a [[Hardmode]] [[Covering]] set crafted from [[Solar Veil]]s, [[Hallowed Bar]]s, and [[Essence of Rend]] {{fantag|Deimos, the Starborn Princess}} which grants stats to the [[Spy]] class. It requires 44 Solar Veils, 34 Hallowed Bars, and 16 Essence of Rend to make the whole set. While wearing all three set pieces, a motion blur afterimage is displayed while the player is walking.
+
+It consists of a '''Umbraphile Hood''', '''Umbraphile Regalia''', and '''Umbraphile Boots'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*36 defense
+*27% increased Spy damage
+*16% increased Spy critical strike chance
+*10% increased Spy projectile velocity
+*20% increased movement speed
+*Attacking with a Spy weapon will have a 25% chance to create a large explosion that inflicts [[Daybroken]] or [[Moon Burnt]] [[debuffs]] with the same chance when contacting an [[enemy]]. All [[Stealth strike]]s perform this effect.
+**The explosions deal 25% of the projectile's base damage, soft-capped at 50. All damage past this cap is reduced to 2.5% instead of 25%.
+**Explosions can only trigger from the first five enemies hit by the projectile.
+*[[Penumbra Potion]]s always boost stealth regeneration by 20% regardless of time.
+*Gives a max [[stealth]] of 110.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Umbraphile Hood
+| type = Armor
+| defense = 8
+| body slot = Helmet
+| tooltip = 8% increased Spy damage and 10% increased Spy velocity
+| sell = {{value|0|6}}
+}}
+|{{item infobox
+| name = Umbraphile Regalia
+| type = Armor
+| defense = 16
+| body slot = Shirt
+| tooltip = 10% increased Spy damage and 10% increased Spy crit
+| sell = {{value|0|4|80}}
+}}
+|{{item infobox
+| name = Umbraphile Boots
+| type = Armor
+| defense = 12
+| body slot = Pants
+| tooltip = 9% increased Spy damage and 6% increased Spy crit<br/>20% increased movement speed
+| sell = {{value|0|3|60}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Umbraphile%}}
+
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

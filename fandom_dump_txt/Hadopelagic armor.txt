@@ -1,0 +1,57 @@
+{{Item infobox|imagebreak=yes|rare=12|type=Armor|type2=Crafting material|setbonus=Increases max movement speed and acceleration while underwater but you move slowly outside of water<br/>The armor's plates reduce damage taken by 15%<br/>The plates will only take damage if the damage taken is over 50<br/>After the armor has taken too much damage its armored plates will take 3 minutes to regenerate<br/>Reduces the damage caused by the pressure of the abyss while out of breath<br/>Greatly reduces breath loss in the abyss<br/>Grants immunity to the sulphurous waters|defense=100|sell={{value|0|72}} (set)
+| hardmode = yes
+| postml = yes}}'''Hadopelagic armor''' is a Godseeker Mode [[Covering]] set crafted from [[Luminite Bar|Luminite Bars]], [[Scoria Bar|Scoria Bars]], [[Uelibloom Bar|Uelibloom Bars]], and [[Mollusk Husk|Mollusk Husks]]. It requires 20 Luminite Bars, 25 Scoria Bars, 10 Uelibloom Bars, and 35 Mollusk Husks to craft one full set.
+Abyssal armor
+It consists of the '''Hadopelagic Helmet''', '''Hadopelagic Body Armor,''' and '''Hadopelagic Greaves'''.
+
+The Hadopelagic Helmet gives 33 defense and reduces breath loss in the [[Abyss]]. It also reduces the amount of breath taken away by the Abyss by 30%.
+
+The Hadopelagic Body Armor gives 34 defense and reduces breath loss in the Abyss. It also removes the Bleeding effect from Layers 1-3 in the Abyss. It also grants the effect of [[Anechoic Plating]].
+
+The Hadopelagic Greaves gives 33 defense and grants the ability to swim freely through water and improves mobility on ice. It also allows the player to fall faster in liquids.
+
+The full set reduces the damage taken when out of breath in the abyss by 60 damage per second, the player's movement speed underwater is increased by 5%, but on land is reduced by 60%. The amount of breath taken away by the Abyss is fully restored. It also grants immunity to [[Irradiated]] and [[Sulphuric Poisoning]]. 
+
+The full set also possesses "armored plates" that [[Damage Reduction#Alternative Damage Reduction|reduce damage]] dealt to the player by 15% (lowered by 3% for each missing durability point on the armored plates). However, the plates will be damaged if the player takes more than 50 damage in one hit. The plates can sustain 3 of these hits before breaking. Once broken, they will take 3 minutes to regenerate. While the plates are recharging, the player will not benefit from their damage reduction bonus.
+
+== Set ==
+{{Infobox wrapper|{{item infobox
+| name = Hadopelagic Helmet
+| type = Armor
+| defense = 33
+| tooltip = Reduces breath loss in the abyss
+| body slot = Helmet
+| research = 1
+| sell = {{value|0|24}}
+}}|{{item infobox
+| name = Hadopelagic Body Armor
+| type = Armor
+| defense = 34
+| tooltip = Reduces breath loss in the abyss<br/>Removes the bleed effect caused by the abyss in all layers except the deepest one<br/>Reduces creature's ability to detect you in the abyss<br/>Reduces the defense reduction that the abyss causes
+| body slot = Shirt
+| research = 1
+| sell = {{value|0|24}}
+}}|{{item infobox
+| name = Hadopelagic Greaves
+| type = Armor
+| defense = 33
+| tooltip = Grants the ability to swim<br/>Grants extra mobility on ice<br/>Allows you to fall faster while in liquids
+| body slot = Pants
+| research = 1
+| sell = {{value|0|24}}
+}}|direction=row|float=none}}
+
+== Crafting ==
+
+=== Recipe ===
+{{Recipes|result=Hadopelagic Helmet/Hadopelagic Body Armor/Hadopelagic Greaves|view=infobox}}
+
+=== Used in ===
+{{Recipes|ingredient=Hadopelagic Helmet/Hadopelagic Body Armor/Hadopelagic Greaves|view=infobox}}
+
+== Notes ==
+* The damage reduction provided by the set bonus' plates is calculated separately from typical damage reduction. As a result, it is not affected by the Calamity Mod's [[Vanilla Changes#Defense and DR|DR scaling system]].
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

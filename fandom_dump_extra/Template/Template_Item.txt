@@ -1,0 +1,36 @@
+<includeonly><!-- 
+// l10n content is in Module:item/l10n //
+
+-->{{#vardefine:__lang|{{{lang|{{lang}}}}}}}<!-- 
+-->{{#invoke:item|go|<!-- 
+	//arg1: item (english) name.
+	-->@name:{{#vardefineecho:__item:itemname|{{{1|}}}}}^<!-- en name
+	//arg2: display text
+	-->@text:{{#or:{{{t|}}}|{{#if:{{{2|}}}|<!--
+		-->{{displaytext|{{#var:__item:itemname}}|{{{2|}}}|lang={{#var:__lang}}}}<!-- 
+	-->|<!-- 
+		-->{{#if:{{{1|}}}|{{tr|{{{1|}}}|lang={{#var:__lang}}}}|{{tr|{{#var:__item:itemname}}|lang={{#var:__lang}}}}}}<!--
+	-->}}}}^<!--
+	-->@mode:{{{mode|{{#var:_item_flag_mode|}}}}}^<!-- 
+	-->@rowspan:{{{rowspan|}}}^<!-- 
+	-->@image:{{{image|}}}^<!-- 
+	-->@scale:{{{scale|{{#var:_item_flag_scale|}}}}}^<!-- 
+	-->@size:{{{size|}}}^<!-- 
+	-->@maxsize:{{{maxsize|{{#var:_item_flag_maxsize|}}}}}^<!-- 
+	-->@ext:{{{ext|}}}^<!-- 
+	-->@nolink:{{#vardefineecho:_nl|{{{nolink|{{#var:_item_flag_nolink|{{#if:{{{link|-link-}}}||y}}}}}}}}}^<!--  if $nolink or $nolink_flag or $link == ''
+	-->@link:{{{link|{{#if:{{#var:_nl|}}||{{tr|{{#var:__item:itemname}}|link=y|lang={{#var:__lang}}}}}}}}}^<!--
+	-->@anchor:{{{anchor|{{#var:_item_flag_anchor|}}}}}^<!-- 
+	-->@note:{{{note|}}}^<!-- 
+	-->@note2:{{{note2|}}}^<!-- 
+	-->@id:{{{id|}}}^<!-- in module:item, {{<type>IdFromName}} will be called if needed.
+	-->@showid:{{{showid|{{#var:_item_flag_showid|}}}}}^<!-- 
+	-->@type:{{{type|}}}^<!-- 
+	-->@wrap:{{{wrap|{{#var:_item_flag_wrap|}}}}}^<!-- 
+	-->@class:{{{class|{{#var:_item_flag_class|}}}}}^<!-- 
+	-->@css:{{{css|{{{style|{{#var:_item_flag_css|}}}}}}}}^<!-- 
+	-->@lang:{{#var:__lang}}^<!--  
+-->}}<!--
+--></includeonly><noinclude>{{lua}}{{i18n-ready}}<!--
+-->{{#cargo_attach:_table=Imageinfo}}<!--
+-->{{doc}}</noinclude>

@@ -1,0 +1,24 @@
+== Usage ==
+<pre>
+{{inventory
+|<item name>|<value>|<availability>
+...
+|<item name>|<value>|<availability>
+}}
+</pre>
+
+; Unnamed Parameter 1, 4, 7, etc
+The name of the sold item.
+
+; Unnamed Parameter 2, 5, 8, etc
+The value at which said item is sold at. {{tl|cc}}, {{tl|sc}}, {{tl|gc}} and {{tl|pc}} are used.
+
+; Unnamed Parameter 3, 6, 9, etc
+The circumstances under which the item is sold. Leave empty for "Always available."
+
+<includeonly>
+[[Category:Templates‎]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

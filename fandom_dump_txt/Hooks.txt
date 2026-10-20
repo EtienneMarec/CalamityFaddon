@@ -1,0 +1,79 @@
+{{item infobox
+| name = Hooks
+| type = Tool
+| image = Bobbit Hook.png
+| stack = 1
+}}
+'''Hooks''' are [[tools]] which aid the player in traversing terrain. When used, hooks fire a chain that latches to a surface or [[platform]] and pulls the player towards it. The ''Calamity Mod'' adds three new hooks, and also augments the descriptions of vanilla hooks by adding various stats regarding tile reach, launch, and pull velocities.
+
+==Hooks==
+{| class="sortable terraria lined align-center"
+|- style="line-height: 1.25;"
+!Item
+! class="unsortable" |Source
+!Reach<br /><small>(tiles)</small>
+!Velocity
+!Hooks
+!Latching
+! data-sort-type="number" |Sell
+![[Rarity]]
+!Notes
+|-
+| '''{{item|Wulfrum Grappling Gun|link=}}'''
+|[[The Inventors]] (100%)
+|17.5
+|26
+|1
+|Individual
+|{{value|3=10}}
+|{{rare|2}}
+|
+*Fires a single hook that continuously latches onto a surface.
+*Causes the player to swing with momentum from gravity, instead of pulling the player towards the point of contact
+|-
+|'''{{item|Serpent's Bite|link=}}'''
+|[[Fishing]] in the [[Sunken Sea]] while in [[Hardmode]]
+|28.125
+|18
+|2
+|Simultaneous
+|{{value|0|7|20}}
+|{{rare|5}}
+|
+*Can fire 3 times in rapid succession.
+|-
+|'''{{item|Tapehook|link=}}'''
+|[[The Plaguebringer Goliath]] (10%)
+|20.40
+|30
+|8
+|Simultaneous
+|{{value|0|10|22}}
+|{{rare|8}}
+|
+*Can fire 8 times in rapid succession.
+*Successfully grappling an enemy heals the player by 10 life and deals 500 classless damage. This has a cooldown of 7 seconds.
+|-
+|'''{{item|Bobbit Hook|link=}}'''
+|[[Bobbit Worm]] after defeating [[Polterghast]] (33.33%)
+|60.25
+|43
+|1
+|Individual
+|{{value|0|28}}
+|{{rare|13}}
+|
+*Can fire 2 times in rapid succession.
+*Two hooks can be fired, but only one may be latched at a time.
+*Successful grapples will summon a Bobbit Worm projectile that lunges at the nearest enemy once, dealing 15,520 damage. Has a cooldown of 5 seconds.
+|}
+
+==See Also==
+*[[tgc:Hooks|Hooks]] on the vanilla wiki.
+
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Tool items]]

@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 60
+| auto = yes
+| use = 20
+| critical = 12%
+| knockback = 4
+| velocity = 9
+| tooltip = How could you even miss your mark with this thing?<br/>Stealth strikes breaks off all 5 pieces held together.
+| rare = 5
+| sell = {{value|0|20}}
+| stack = 1
+| element1 = Stab
+| element2 = Slash
+}}
+{{item drops infobox
+| [[Pandora, the Hypnotized Witch]] | 1 | {{dv|25%|33.33%}}
+}}
+
+The '''Mambel-Jambo''' is a [[Hardmode]] [[Spy weapons|Spy weapon]] dropped by [[Pandora, the Hypnotized Witch]]. It can travel a modest distance before homing to a targeted enemy. Once it begins homing, one or two of its pieces breaks off and flies into a random direction, dealing 50% of the weapon's base damage. Each pieces that is broken off has a unique effect, as shown here:
+*The Iron Sword blade can pierce through multiple enemies and deal a [[Bleeding]] debuff to said enemies.
+*The Sickle blade can home into the nearest target and inflicts [[Armor Crunch]].
+*The Cobalt Dagger blade can stick to an enemy and deal constant damage to said enemy for some time before disappearing.
+*The Gold Pick blade can inflict [[Midas]] and [[Ichor (debuff)|Ichor]] debuff to struck enemy.
+
+Stealth Strike immediately breaks off all the pieces of the weapon and begin homing at the nearest enemy.
+
+{{Modifier|rogue}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]
+[[Category:Spy Weapons]]

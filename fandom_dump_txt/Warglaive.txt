@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 15
+| auto = yes
+| consumable = true
+| use = 10
+| knockback = 2
+| velocity = 10
+| tooltip = Stealth strikes stick to tiles
+| stack = 9999
+| rare = 1
+| sell = {{value|0|0|4}}
+| debuff = War Cleave
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| element1 = Slash
+}}
+|{{item drops infobox
+| [[Goblin Thief]]| 25-68/{{expert|37-120}} | {{dv|2.5%|5%}}
+}}
+}}
+'''Warglaives''' are [[Pre-Hardmode]] [[rogue weapon]]s dropped by [[Goblin Thief|Goblin Thieves]]. When used, it throws out a gravity-affected glaive which pierces through 3 enemies before dissipating on the fourth while inflicting [[War Cleave]] on every hit enemy.
+
+Performing a [[stealth strike]] with Warglaives causes the glaive to stick to tiles. The stuck glaive will despawn after 10 seconds or after damaging an enemy four times.
+
+{{Modifier|none}}
+
+{{-}}
+{{War}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

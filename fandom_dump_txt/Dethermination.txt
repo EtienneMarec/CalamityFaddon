@@ -1,0 +1,34 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox	
+| type = Weapon
+| damage = 800
+| damagetype = Ranged
+| knockback = 60
+| stack = 1
+| rare = C1
+| sell = {{value|1}}
+| auto = yes
+| use = 72
+| velocity = 120
+| tooltip = shoots out an INSANELY fast waterfreezing dart, that creates slashes along the way
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Reactive Flames
+| debuffduration = 2 seconds
+| debuffchance = 100%
+| element1 = Unholy
+}}
+
+The '''Dathermination''' is a post-[[Purgatory Arbiter, Umbrus]] [[Dart guns|dart gun]] that is crafted from [[Waterfreeze Reactive Essence]]s. the shot dart has insanely fast speed and knockback, and leaves slashes as it moves. The slashes deal 200% of the weapon's damage and inflict [[Reactive Flames]]. The slashes can go through tiles, and exist for 5 seconds.
+
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Dart guns]]

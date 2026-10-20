@@ -1,0 +1,939 @@
+'''Minions''' are secondary characters and the main vessel of attack for the Summoner class. The Calamity Mod adds a variety of new minions that can be summoned with weapons, accessories or armor sets.
+
+== Weapons ==
+'''[[Summon weapons]]''' are [[weapons]] which summon a minion to fight for the player. They act similarly to [[magic weapons]] in that they consume [[mana]], but while magic weapons deal damage directly from the weapon, summon weapons attack autonomously from the player's input and targets can be manually switched with the {{key|Interact}} (defaults to right click) key to a different target. All minions will do 50% less damage if the player is holding a weapon belonging to a different class. [[Tools]] and [[Classless weapons]] will not inflict the penalty when held, and certain [[Covering]] reduces the summoner penalty altogether. However, while holding a summon weapon, all minion damage is increased by 10%.
+
+The mod currently adds 23 Pre-Hardmode, 26 Hardmode, and 27 Post-Moon Lord summon weapons along with 2 Pre-Hardmode, 6 Hardmode, and 4 Post-Moon Lord sentry weapons.
+
+==== Pre-Hardmode ====
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! colspan=2 | Minion !! Damage !! Acquired / Made From !! Notes
+|-
+| align=center | {{item|mode=table|Wulfrum Controller}}
+| align=center | [[File:Wulfrum Droid (minion).png]] || Wulfrum Droid
+| align=center | 10 || {{recipes/extract|result=Wulfrum Controller}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Wooden Butterfly Staff}}
+| align=center | [[File:Butterfly Staff Minion.png]] || Angry Butterflies
+| align=center | 12 || {{recipes/extract|result=Wooden Butterfly Staff}}
+| align=center | 
+*Butterflies do not take up any minion slots.
+*Only three may exist at a time.
+*The butterfly disappears after attacking an enemy 3 times.
+|-
+| align=center | {{item|mode=table|Belladonna Spirit Staff}}
+| align=center | [[File:Belladonna Spirit.png]] || Belladonna Spirit
+| align=center | 5 || {{recipes/extract|result=Belladonna Spirit Staff}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Frost Blossom Staff}}
+| align=center | [[File:Frost Blossom.png]] || Frost Blossom
+| align=center | 10 || {{recipes/extract|result=Frost Blossom Staff}}
+| align=center |
+*Only one can be summoned at a time.
+*Floats over the player's head.
+|-
+| align=center | {{item|mode=table|Sun Spirit Staff}}
+| align=center | [[File:Solar Pixie.png]] || Solar Spirit
+| align=center | 12 || {{recipes/extract|result=Sun Spirit Staff}}
+| align=center |
+*Only one can be summoned at a time.
+*Floats over the player's head.
+|-
+| align=center | {{item|mode=table|Stormjaw Staff}}
+| align=center | [[File:Baby Stormlion.png]] || Baby Stormlion
+| align=center | 8 || {{item|Stormlion}} (20% chance)
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Seabound Staff}}
+| align=center | [[File:Brittle Star.png]] || Brittle Star
+| align=center | 11 || {{item|Desert Scourge|size=100px}} ({{dv|25%|33.33%}} chance)
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Magical Conch}}
+| align=center | [[File:Hermit Crab.png]] || Hermit Crab
+| align=center | 20 || Sold by {{item|Sea King}}.
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Deathstare Rod}}
+| align=center | [[File:Miniature Eye of Cthulhu.png]] || Miniature Eye of Cthulhu
+| align=center | 33 || {{item|Eye of Cthulhu|size=40px}} ({{dv|25%|33.33%}} chance)
+| align=center | 
+*Only one can be summoned at a time.
+*Floats over the player's head.
+|-
+| align=center | {{item|mode=table|Rusty Beacon Prototype}}
+| align=center | [[File:Rusty Drone.png]] || Rusty Beacon
+| align=center | 0 || {{item|Rusty Chest|s}} in the [[Sulphurous Sea]] '''or'''<br/>{{recipes/extract|result=Rusty Beacon Prototype}}
+| align=center |
+*Inflicts [[Irradiated]] for 1 second.
+|-
+| align=center | {{item|mode=table|Vile Feeder}}
+| align=center | [[File:Baby Eater of Souls.png]] || Baby Eater of Souls
+| align=center | 9 || {{recipes/extract|result=Vile Feeder}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Scab Ripper}}
+| align=center | [[File:Baby Blood Crawler.png]] || Baby Blood Crawler
+| align=center | 15 || {{recipes/extract|result=Scab Ripper}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Dank Staff}}
+| align=center | [[File:Dank Creeper (minion).png]] || Dank Creeper
+| align=center | 7 || {{recipes/extract|result=Dank Staff}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Blood Clot Staff}}
+| align=center | [[File:Blood Clot.png]] || Blood Clot
+| align=center | 7 || {{recipes/extract|result=Blood Clot Staff}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Star Swallower Containment Unit}}
+| align=center | [[File:Star Swallower.png]] || Star Swallower
+| align=center | 24 || {{recipes/extract|result=Star Swallower Containment Unit}}
+| align=center |
+*Deals more damage against enemies with high defense.
+|-
+| align=center | {{item|mode=table|Staff of Necrosteocytes}}
+| align=center | [[File:Small Skeleton.png]] || Small Skeleton
+| align=center | 31 || {{item|Dark Caster}} ({{dv|4%|5%}} chance)
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Eye of Night}}
+| align=center | [[File:Eye of Night (minion).png]] || Eye of Night
+| align=center | 24 || {{recipes/extract|result=Eye of Night}}
+| align=center | 
+*Inflicts [[Cursed Inferno]] for 2 seconds.
+|-
+| align=center | {{item|mode=table|Flesh of Infidelity}}
+| align=center | [[File:Flesh Ball.png]] || Flesh Ball
+| align=center | 23 || {{recipes/extract|result=Flesh of Infidelity}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Cinder Blossom Staff}}
+| align=center | [[File:Cinder Blossom.png]] || Cinder Blossom
+| align=center | 25 || {{recipes/extract|result=Cinder Blossom Staff}}
+| align=center |
+*Only one can be summoned at a time.
+*Floats over the player's head.
+|-
+| align=center | {{item|mode=table|Herring Staff}}
+| align=center | [[File:Herring.png]] || Herring
+| align=center | 20|| {{item|mode=image|Shadow Chest|s}} in the [[Abyss]]
+| align=center |
+*Each minion takes up half of a minion slot.
+|-
+| align=center | {{item|mode=table|Corroslime Staff}}
+| align=center | [[File:Corroslime (minion).png]] || Corroslime
+| align=center | 24 || {{item|Slime God Core|The Slime God|link=The Slime God|size=30px}} ({{dv|25%|33.33%}} chance)
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Crimslime Staff}}
+| align=center | [[File:Crimslime (minion).png]] || Crimslime
+| align=center | 24 || {{item|Slime God Core|The Slime God|link=The Slime God|size=30px}} ({{dv|25%|33.33%}} chance)
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Slime Puppet Staff}}
+| align=center | [[File:Slime Puppet.png]] || Slime Puppet
+| align=center | 26 || {{item|Slime God Core|The Slime God|link=The Slime God|size=30px}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Slime Puppets do not take up any minion slots.
+*The minions disappear upon impact with the target.
+|}
+
+==== Hardmode ====
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! colspan=2 | Minion !! Damage !! Acquired / Made From !! Notes
+|-
+| align=center | {{item|mode=table|Black Hawk Remote}}
+| align=center | [[File:Black Hawk.png]] || Black Hawk
+| align=center | 32 || {{item|Wall of Flesh|size=40px}} ({{dv|20%|33.33%}} chance)
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Caustic Staff}}
+| align=center | [[File:Caustic Dragon.png]] || Caustic Dragon
+| align=center | 15 ||  {{recipes/extract|result=Caustic Staff}}
+| align=center |
+*Inflicts [[Marked]], [[On Fire!]], [[Cursed Inferno]], [[Venom]] and [[Ichor (debuff)|Ichor]] for 3 seconds.
+|-
+| align=center | {{item|mode=table|Eye of Light}}
+| align=center | [[File:Fractal Crawler.png]] || Fractal Crawler
+| align=center | 43 || {{recipes/extract|result=Fracture Staff}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Fracture Staff}}
+| align=center | [[File:Eye of Light (minion).png]] || Eye of Light
+| align=center | 24 || {{recipes/extract|result=Eye of Light}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Haunted Scroll}}
+| align=center | [[File:Haunted Dishes.png]] || Haunted Dishes
+| align=center | 25 || {{recipes/extract|result=Haunted Scroll}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Ancient Ice Chunk}}
+| align=center | [[File:Ice Clasper (minion).png]] || Ice Clasper
+| align=center | 35 || {{item|Ice Clasper|size=25px}} (33.33% chance)
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Shellfish Staff}}
+| align=center | [[File:Shellfish.png]] || Shellfish
+| align=center | 70 || {{item|Giant Clam|size=50px}} (25% chance)
+| align=center |
+*Each minion takes up 2 minion slots.
+*Damage is primarily inflicted through a damage over time debuff.
+|-
+| align=center | {{item|mode=table|Forgotten Apex Wand}}
+| align=center | [[File:Ancient Mineral Shark.png]] || Ancient Mineral Shark
+| align=center | 28 || {{recipes/extract|result=Forgotten Apex Wand}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Cold Divinity}}
+| align=center | [[File:Cryo Shield.png]] || Cryo Shield
+| align=center | 48 || {{item|Cryogen|size=60px}} (10% chance)
+| align=center |
+*[[Legendary weapon]] drop.
+*Spikes orbit the player.
+*Spikes inflict [[Frostburn]] for 5 seconds.
+|-
+| align=center | {{item|mode=table|Dormant Brimseeker}}
+| align=center | [[File:Brimseeker.png]] || Brimseeker
+| align=center | 42 || {{item|Brimstone Elemental|size=50px}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Fireballs inflict [[Brimstone Flames]] for 4 seconds.
+*Summons a brimstone aura when no more minions slots are available, which buffs minion damage.
+|-
+| align=center | {{item|mode=table|Deepsea Staff}}
+| align=center | [[File:Aquatic Star.png]] || Aquatic Star
+| align=center | 48 || {{item|Aquatic Scourge|size=100px}} ({{dv|25%|33.33%}} chance)
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Tundra Flame Blossoms Staff}}
+| align=center | [[File:Tundra Flame Blossom.png]] || Tundra Flame Blossom
+| align=center | 45 || {{recipes/extract|result=Tundra Flame Blossoms Staff}}
+| align=center |
+*Three flowers are summoned, taking up three minion slots.
+*Orbit the player.
+|-
+| align=center | {{item|mode=table|Mounted Scanner}}
+| align=center | [[File:Mounted Scanner (minion).png]] || Mounted Scanner
+| align=center | 41 || {{recipes/extract|result=Mounted Scanner}}
+| align=center |
+*Deals less damage against enemies with high defense.
+*Floats over the player's head.
+|-
+| align=center | {{item|mode=table|Holy Mackerel Staff}}
+| align=center | [[File:Holy Mackerel.png]] || Holy Mackerel
+| align=center | 42 || {{recipes/extract|result=Holy Mackerel Staff}}
+| align=center |
+*Takes up half a minion slot.
+|-
+| align=center | {{item|mode=table|Igneous Exaltation}}
+| align=center | [[File:Igneous Blade.png]] || Igneous Blade
+| align=center | 34 || {{recipes/extract|result=Igneous Exaltation}}
+| align=center |
+*Blades orbit the player.
+|-
+| align=center | {{item|mode=table|Daedalus Golem Staff}}
+| align=center | [[File:Daedalus Golem.png]] || Daedalus Golem
+| align=center | 70 || {{recipes/extract|result=Daedalus Golem Staff}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Sun God Staff}}
+| align=center | [[File:Solar God Spirit.png]] || Solar God Spirit
+| align=center | 60 || {{recipes/extract|result=Sun God Staff}}
+| align=center |
+*Only one can be summoned at a time.
+*Floats over the player's head.
+|-
+| align=center | {{item|mode=table|Entropy's Vigil}}
+| align=center | [[File:Calamitamini.png]] || Calamitamini<br/>Catastromini<br/>Cataclymini
+| align=center | 35 || {{item|Calamitas|image=Calamitas (Phase 2).png|size=40px}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*The three Calamitamini are summoned as two minions.
+|-
+| align=center | {{item|mode=table|Viral Sprout}}
+| align=center | [[File:Sage Spirit.png]] || Sage Spirit
+| align=center | 24 || {{recipes/extract|result=Viral Sprout}}
+| align=center |
+*Inflicts [[Sage Poison]] for 5 seconds.
+|-
+| align=center | {{item|mode=table|Plantation Staff}}
+| align=center | [[File:Mini Plantera.gif]] || Mini Plantera
+| align=center | 70 || {{recipes/extract|result=Plantation Staff}}
+| align=center |
+*The Mini Plantera takes up 3 minion slots.
+*Only one can be summoned at a time.
+|-
+| align=center | {{item|mode=table|Terreye Staff}}
+| align=center | [[File:Floating Biomass.png]] || Floating Biomass
+| align=center | 129 || {{recipes/extract|result=Terreye Staff}}
+| align=center | Takes up four minion slots to summon one set of three biomasses
+|-
+| align=center | {{item|mode=table|Gastric Belcher Staff}}
+| align=center | [[File:Gastric Aberration.png]] || Gastric Aberration
+| align=center | 60 || {{item|Leviathan and Anahita|size=50px}} ({{dv|25%|33.33%}} chance)
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Borealis Bomber}}
+| align=center | [[File:Aureus Bomber.png]] || Aureus Bomber
+| align=center | 35 || {{item|Astrum Aureus|size=40px}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Aureus Bombers do not take up any minion slots.
+*The minions disappear upon impact with the target.
+*Impact and explosion inflict [[Astral Infection (debuff)|Astral Infection]] for 2 seconds.
+|-
+| align=center | {{item|mode=table|Abandoned Slime Staff}}
+| align=center | [[File:Astral Jelly (minion).png]] || Astral Jelly
+| align=center | 56 || ({{item|Astral Slime}} 3% chance)
+| align=center |
+*Consumes all available minion slots when summoned.
+*Damage and size are increased for each extra minion slot consumed.
+*Inflicts [[Astral Infection (debuff)|Astral Infection]] for 2 seconds.
+|-
+| align=center | {{item|mode=table|Sand Sharknado Staff}}
+| align=center | [[File:Sandnado.png]] || Sandnado
+| align=center | 35 || {{recipes/extract|result=Sand Sharknado Staff}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Resurrection Butterfly}}
+| align=center | [[File:Purple Butterfly.png]] [[File:Pink Butterfly.png]] || Butterflies
+| align=center | 65 || {{recipes/extract|result=Resurrection Butterfly}}
+| align=center |
+*The two butterflies are summoned as one minion.
+|-
+| align=center | {{item|mode=table|Fuel Cell Bundle}}
+| align=center | [[File:Mini Plaguebringer.png]] || Mini Plaguebringer
+| align=center | 20 || {{item|The Plaguebringer Goliath|size=80px}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Inflicts [[Plague]] for 3 seconds.
+|-
+| align=center | {{item|mode=table|Infected Remote}}
+| align=center | [[File:Plague Elemental.png]] || Plague Elemental
+| align=center | 75 || {{item|The Plaguebringer Goliath|size=80px}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Consumes all available minion slots when summoned.
+*Inflicts [[Plague]] for various lengths.
+|-
+| align=center | {{item|mode=table|Wither Blossoms Staff}}
+| align=center | [[File:Wither Blossom.png]] || Wither Blossom
+| align=center | 61 || {{recipes/extract|result=Wither Blossoms Staff}}
+| align=center |
+*Four flowers are summoned, taking up two minion slots.
+*Orbit the player.
+*Inflicts [[Plague]] for 3 seconds.
+|-
+| align=center | {{item|mode=table|Godspawn Helix Staff}}
+| align=center | [[File:Astral Probe.png]] || Astral Probe
+| align=center | 60 || {{item|Astrum Deus|size=80px}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Probe minions orbit the player.
+|-
+| align=center | {{item|mode=table|Atlas Munitions Beacon}}
+| align=center | [[File:Atlas Soldier.png]] || Atlas Soldier
+| align=center | 280 || {{recipes/extract|result=Atlas Munitions Beacon}}
+| align=center |
+|}
+
+==== Post-Moon Lord ====
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! colspan=2 | Minion !! Damage !! Acquired / Made From !! Notes
+|-
+| align=center | {{item|mode=table|Tactical Plague Engine}}
+| align=center | [[File:Plague Jet.png]] || Plague Jet
+| align=center | 52 || {{recipes/extract|result=Tactical Plague Engine}}
+| align=center |
+*Consumes [[bullet]]s.
+*Sometimes shoots a missile instead of [[bullets]].
+*Missiles inflict [[Plague]] for 3 seconds.
+|-
+| align=center | {{item|mode=table|Elemental Axe}}
+| align=center | [[File:Elemental Axe (minion).gif]] || Elemental Axe
+| align=center | 50 || {{recipes/extract|result=Elemental Axe}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Flowers of Mortality}}
+| align=center | [[File:Elemental Eye Mass.png]] || Elemental Eye Mass
+| align=center | 129 || {{recipes/extract|result=Quadlens Staff}}
+| align=center | 
+*Takes up four minion slots.
+*Only one can exist.
+|-
+| align=center | {{item|mode=table|Quadlens Staff}}
+| align=center | [[File:Eye of Light (minion).png]] || Eye of Light
+| align=center | 24 || {{recipes/extract|result=Eye of Light}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Dazzling Stabber Staff}}
+| align=center | [[File:Holy Blade.png]] || Holy Blade
+| align=center | 56 || {{item|Providence, the Profaned Goddess|size=60px}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Holy Blades float above the player's head.
+|-
+| align=center | {{item|mode=table|Virid Vanguard}}
+| align=center | [[File:Vanguard Blades.png]] || Vanguard Blades
+| align=center | 280 || {{recipes/extract|result=Virid Vanguard}}
+| align=center |
+*Each blade takes up 1.5 minion slots.
+*Blades orbit the player.
+|-
+| align=center | {{item|mode=table|Snake Eyes}}
+| align=center | [[File:Snake Eyes (minion).png]] || Snake Eyes
+| align=center | 36 || {{recipes/extract|result=Snake Eyes}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Void Concentration Staff}}
+| align=center | [[File:Void Concentration Aura.png]] || Void Concentration Aura
+| align=center | 150 || {{item|Ceaseless Void|size=30px}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Each minion takes up 3 minion slots.
+*Only one can be summoned at a time.
+|-
+| align=center | {{item|mode=table|Cosmilamp}}
+| align=center | [[File:Cosmilamp (minion).png]] || Cosmilamp
+| align=center | 89 || {{item|Signus, Envoy of the Devourer|size=30px}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Each minion takes up 2 minion slots.
+|-
+| align=center | {{item|mode=table|Dragonblood Disgorger}}
+| align=center | [[File:Skeletal Dragons.png]] || Skeletal Dragons
+| align=center | 160 || {{recipes/extract|result=Dragonblood Disgorger}}
+| align=center |
+*Only one family can be summoned at a time.
+|-
+| align=center | {{item|mode=table|Ethereal Subjugator}}
+| align=center | [[File:Phantom (minion).png]] || Phantom
+| align=center | 45 || {{item|Polterghast|size=35px}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Each minion takes up half of a minion slot.
+|-
+| align=center | {{item|mode=table|Calamari's Lament}}
+| align=center | [[File:Calamari.png]] || Calamari
+| align=center | 95 || {{item|Colossal Squid|size=60px}} (33.33% chance after [[Polterghast]] has been defeated)
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Sirius}}
+| align=center | [[File:Sirius (minion).png]] || Sirius
+| align=center | 160 || {{recipes/extract|result=Sirius}}
+| align=center |
+*Floats over the player's head.
+*Each re-summon consumes another minion slot and grants a boost to the minion's damage.
+|-
+| align=center | {{item|mode=table|Gamma Heart}}
+| align=center | [[File:Gamma Hydra.png]] || Gamma Hydra
+| align=center | 173 || {{item|Nuclear Terror|size=45px}} (33.33% chance)
+| align=center |
+*Heads float above the player's head.
+*Inflicts [[Sulphuric Poisoning]] for 4 seconds.
+|-
+| align=center | {{item|mode=table|Staff of the Mechworm}}
+| align=center | [[File:Mechworm.png]] || Mechworm
+| align=center | 161 || {{item|The Devourer of Gods (Final Phase)|The Devourer of Gods|size=120px}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Each extra minion summoned adds a segment to the Mechworm.
+|-
+| align=center | {{item|mode=table|Cosmic Viper Engine}}
+| align=center | [[File:Cosmic Gunship.png]] || Cosmic Gunship
+| align=center | 138 || {{recipes/extract|result=Cosmic Viper Engine}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Corvid Harbinger Staff}}
+| align=center | [[File:Dark Raven.png]] || Dark Raven
+| align=center | 114 || {{recipes/extract|result=Corvid Harbinger Staff}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Endo Hydra Staff}}
+| align=center | [[File:Endo Hydra.png]] || Endo Hydra
+| align=center | 225 || {{recipes/extract|result=Endo Hydra Staff}}
+| align=center |
+*Heads float above the player's head.
+*If the entity already exists, using this item with cause the entity to gain more heads.
+|-
+| align=center | {{item|mode=table|Saros Possession}}
+| align=center | [[File:Radiant Aura (minion).png]] || Radiant Aura
+| align=center | 171 || {{recipes/extract|result=Saros Possession}}
+| align=center |
+*Floats over the player's head.
+*Consumes all available minion slots and grants a boost to the minion's damage for each slot taken.
+|-
+| align=center | {{item|mode=table|Pole Warper}}
+| align=center | [[File:Warper Magnets.png]] || Warper Magnets
+| align=center | 310 || {{recipes/extract|result=Pole Warper}}
+| align=center |
+*Summons in pairs.
+|-
+| align=center | {{item|mode=table|Yharon's Kindle Staff}}
+| align=center | [[File:Draconid.png|center|frameless]] || Draconid
+| align=center | 340 || {{item|Jungle Dragon, Yharon|size=90px}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Each minion takes up 5 minion slots.
+|-
+| align=center | {{item|mode=table|The Dreaming Ghost}}
+| align=center | [[File:Purple Crystalline Butterfly.png]] [[File:Pink Crystalline Butterfly.png]] || Crystalline Butterflies
+| align=center | 458 || {{recipes/extract|result=The Dreaming Ghost}}
+| align=center |
+*The two butterflies are summoned as one minion that take two slots each.
+|-
+| align=center | {{item|mode=table|Midnight Sun Beacon}}
+| align=center | [[File:Midnight Sun UFO.png]] || Midnight Sun UFO
+| align=center | 191 || {{recipes/extract|result=Midnight Sun Beacon}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Morpho Doomblade}}
+| align=center | [[File:Arbiter of Judgement.png]] || Arbiter of Judgement
+| align=center | 1430 || {{recipes/extract|result=Morpho Doomblade}}
+| align=center | {{na}}
+|-
+| align=center | {{item|mode=table|Prism Destroyer}}
+| align=center | [[File:Prism Destroyer.png]] || Prism Destroyer
+| align=center | 528 || {{recipes/extract|result=Prism Destroyer}}
+| align=center | 
+*Only one can be summoned.
+*Uses the player's mana to fire stars that deal magic damage.
+*Can be thrown to deal Spy and melee damage.
+*If a stealth strike is performed with the throw, arrows are summoned that deal ranged damage.
+|-
+| align=center | {{item|mode=table|Aergian Technistaff}}
+| align=center | [[File:Small Aergia Neuron.png]] || Small Aergia Neuron
+| align=center | 127 || {{item|XP-00 Hypnos}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Rotate around the player.
+*Can be charged with the staff to generate an electric ring then be thrown.
+|-
+| align=center | {{item|mode=table|Vigilance}}
+| align=center | [[File:Vigilance Soul Seeker Minion.png]] || Soul Seeker
+| align=center | 150 || {{item|Supreme Calamitas}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Inflicts [[Brimstone Flames]] for 3 seconds.
+|-
+| align=center | {{item|mode=table|Metastasis}}
+| align=center | {{item|mode=image|Sepulcher|size=100px}} || Sepulcher
+| align=center | 666 || [[Exhumed]] [[Staff of the Mechworm]]
+| align=center |
+*Can harm the player and [[Town NPCs]]
+*Summons Exhumed Brimstone Hearts, the more there are, the more agressive the minion is towards the player
+*Inflicts [[Brimstone Flames]] for 4 seconds.
+|-
+| align=center | {{item|mode=table|Cinders of Lament}}
+| align=center | {{item|mode=image|Supreme Cataclysm|size=80px}}<br/>{{item|mode=image|Supreme Catastrophe|size=80px}} || Cataclysm<br/>Catastrophe 
+| align=center | 1666 || [[Exhumed]] [[Entropy's Vigil]]
+| align=center |
+*Can harm the player and [[Town NPCs]]
+*Does not consume minion slots
+|-
+| align=center | {{item|mode=table|Cosmic Immaterializer}}
+| align=center | [[File:Cosmic Energy.gif]] || Cosmic Energy
+| align=center | 560 || {{recipes/extract|result=Cosmic Immaterializer}}
+| align=center |
+*Each minion takes up 10 minion slots.
+*Only one can be summoned at a time.
+*Deals 34% less damage if the player is not wearing the Tarragon, Bloodflare, God Slayer, Silva, or Auric summoner armor set.
+*Inflicts a variety of debuffs.
+|-
+| align=center | {{item|mode=table|Vitreomance}}
+| align=center | [[File:Miracle Blighted Eye.png]] || Miracle Blighted Eye
+| align=center | 213 || {{recipes/extract|result=Vitreomance}}
+| align=center | 
+*Takes up five minion slots to summon a set of five.
+*Only one can exist.
+|-
+| align=center | {{item|mode=table|Eidolon Staff}}
+| align=center | {{item|mode=image|Eidolon Wyrm|size=200px}} || Juvenile Eidolon Wyrm
+| align=center | 820 || {{recipes/extract|result=Eidolon Staff}}
+| align=center |
+*Each minion takes up 4 minion slots.
+*Only one can be summoned at a time.
+*Ice Clusters from the weapon that touch it detonate.
+|-
+| align=center | {{item|mode=table|Endogenesis}}
+| align=center | [[File:Endo Cooper.png]] || Endo Cooper
+| align=center | 1,300 || {{recipes/extract|result=Endogenesis}}
+| align=center |
+*Each minion takes up 10 minion slots.
+*Only one can be summoned at a time.
+*Minion has four distinct behaviors which are cycled through when re-summoned.
+|-
+| align=center | {{item|mode=table|Temporal Umbrella}}
+| align=center | [[File:Magic Hat (minion).png]] || Magic Hat
+| align=center | 193 || {{recipes/extract|result=Temporal Umbrella}}
+| align=center |
+*Each minion takes up 5 minion slots.
+*Only one can be summoned at a time.
+*Floats over the player's head.
+|}
+
+=== Sentry Summons ===
+==== Pre-Hardmode ====
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Item !! colspan=2 | Minion !! Damage !! Acquired / Made From
+|-
+| align=center | {{item|mode=table|Squirrel Squire Staff}}
+| align=center | [[File:Squirrel Squire.png]] || Squirrel Squire
+| align=center | 8 || {{item|mode=image|Starter Bag}} '''or''' {{recipes/extract|result=Squirrel Squire Staff}}
+| align=center |
+|-
+| align=center | {{item|mode=table|Caustic Croaker Staff}}
+| align=center | [[File:Nuclear Toad (sentry).png]] || Nuclear Toad
+| align=center | 8 || {{recipes/extract|result=Caustic Croaker Staff}}
+| align=center |
+|-
+| align=center |{{Item|Polyp Launcher|mode=table|}}
+| align=center |[[File:Polyp Bunch.png|frameless]]||Polyp Bunch
+| align=center | 12 || Sold by {{item|Sea King}}.
+| align-center |
+|}
+
+==== Hardmode ====
+{| class="terraria lined"
+|-
+! colspan="2" style="padding:0 15px" | Item!! colspan="2" |Minion!!Damage!! Acquired / Made From !!Notes
+|-
+|-
+| align=center | {{item|mode=table|Angel's Thesis}}
+| align=center | [[File:Animated Statue.png]] || Animated Statue
+| align=center | 37 || {{recipes/extract|result=Angel's Thesis}}
+| align=center | {{na}}
+|-
+| align=center |{{item|mode=table|Cryogenic Staff}}
+| align=center |[[File:Ice Sentry.png]]||Ice Sentry
+| align=center |50||Sold by {{item|Archmage}} (after all [[Mechanical Bosses]] have been defeated)
+| align=center |{{na}}
+|-
+| align=center |{{item|mode=table|Orthocera Shell}}
+| align=center |[[File:Flying Orthocera.png]]||Flying Orthocera
+| align=center |53||{{item|Orthocera}} (5% chance)
+| align=center |{{na}}
+|-
+| align=center |{{item|mode=table|Dreadmine Staff}}
+| align=center |[[File:Dreadmine Turret.png]]||Dreadmine Turret
+| align=center |60||{{recipes/extract|result=Dreadmine Staff}}
+| align=center |{{na}}
+|-
+| align=center |{{item|mode=table|Hive Pod}}
+| align=center | [[File:Hive (sentry).png]]||Hive
+| align=center |75||{{item|Hive (enemy)|size=25px}} (14.29% chance)
+| align=center |{{na}}
+|-
+| align=center |{{item|mode=table|Bad Apple}}
+| align=center |[[File:Utsuho Reiuji.png]]||Utsuho Reiuji
+| align=center |11||{{item|The Plaguebringer Goliath|size=100px}} ({{dv|25%|33.33%}} chance)
+| align=center | 
+*Takes up five minion slots.
+*Only one can be summoned.
+|-
+| align=center |{{item|mode=table|Decomposition}}
+| align=center |[[File:Plague Hive (sentry).png]]||Plague Hive
+| align=center |75||{{item|The Plaguebringer Goliath|size=100px}} ({{dv|25%|33.33%}} chance)
+| align=center |{{na}}
+|-
+| align=center |{{item|mode=table|Pulse Turret Remote}}
+| align=center |[[File:Pulse Turret.png]]|| Pulse Turret
+| align=center |100||{{recipes/extract|result=Pulse Turret Remote}}
+| align=center |
+*Deals more damage against inorganic enemies.
+|-
+| align=center |{{item|mode=table|Spikecrag Staff}}
+| align=center |[[File:Spikecrag.png]]||Spikecrag
+| align=center |56||{{item|Ravager|size=100px}} ({{dv|25%|33.33%}} chance)
+| align=center |{{na}}
+|-
+| align=center |{{item|mode=table|Christmas Carol}}
+| align=center |[[File:Carol Bell.png]]||Carol Bell
+| align=center |205||Sold by {{item|The General|size=100px}}
+| align=center |Has to be struck with whips to unleash pulses.
+|}
+
+==== Post-Moon Lord ====
+{| class="terraria lined"
+|-
+! colspan="2" style="padding:0 15px" |Item!! colspan="2" |Minion!!Damage!!Acquired / Made From !!Notes
+|-
+|-
+| align=center | {{item|mode=table|Energy Staff}}
+| align=center |[[File:Profaned Energy (sentry).png]]||Profaned Energy
+| align=center |128||{{item|Impious Immolator|size=35px}} (6.67% chance)
+| align=center |{{na}}
+|-
+| align=center |{{item|mode=table|Guidelight of Oblivion}}
+| align=center |[[File:Soul Lantern.png]]||Soul Lantern
+| align=center |188||{{item|Scryllar|size=40px}} (5% chance after [[Providence]] has been defeated)
+| align=center |
+*Inflicts [[Brimstone Flames]] for 3 seconds.
+|-
+| align=center |{{item|mode=table|Cadaverous Carrion}}
+| align=center |[[File:Old Duke Head.png]]||Old Duke Head
+| align=center |384||{{item|The Old Duke|size=100px}} ({{dv|25%|33.33%}} chance)
+| align=center |{{na}}
+|-
+| align=center |{{item|mode=table|Perdition}}
+| align=center |[[File:Perdition Beacon.png]]||Perdition Beacon
+| align=center |444||{{item|Supreme Calamitas}} ({{dv|25%|33.33%}} chance)
+| align=center |
+*Only one beacon may exist at a time
+|}
+
+==Accessories==
+====Pre-Hardmode====
+{| class="terraria lined"
+|-
+! colspan="2" style="padding:0 15px" |Item!! colspan="2" | Minion!!Damage!!Acquired / Made From!!Notes
+|-
+| align=center | {{item|mode=table|Luxor's Gift}}
+| align=center | [[File:Green Sign (minion).png]]||Green Sign
+| align=center |Varies||[[Desert]] [[Shrine]]
+| align=center |
+*Damage is shared with the weapon used to summon the minion.
+*Only one can be summoned at a time.
+*Does not use a buff.
+|-
+| align=center |{{item|mode=table|Fungal Clump}}
+| align=center |[[File:Fungal Clump (minion).png]]||Fungal Clump
+| align=center |10||{{item|Crabulon|size=150px}} (100% chance)
+| align=center |
+*Heals the player.
+|}
+
+====Hardmode ====
+{| class="terraria lined"
+|-
+! colspan="2" style="padding:0 15px" |Item!! colspan="2" |Minion !!Damage!!Acquired / Made From !!Notes
+|-
+| align=center |{{item|mode=table|Elemental in a Bottle}}
+| align=center |[[File:Sand Elemental (minion).png|40px]]||Sand Elemental
+| align=center |45||{{item|Sand Elemental|size=50px}} ({{dv|20%|33.33%}} chance)
+| align=center |
+{{na}}
+|-
+| align=center |{{item|mode=table|Rare Elemental in a Bottle}}
+| align=center |[[File:Rare Sand Elemental.png|50px]]||Rare Sand Elemental
+| align=center |{{na}}||{{item|Sand Elemental|size=50px}} ({{dv|10%|16.67%}} chance)
+| align=center |
+*Heals the player.
+*Deals no damage.
+|-
+| align=center |{{item|mode=table|Metamorphic Stone}}
+| align=center |[[File:Earth Elemental.png|60px]]||Earth Elemental
+| align=center |{{na}}||{{item|Earth Elemental|size=50px}} ({{dv|20%|33.33%}} chance)
+| align=center |
+*Attacks enemies with several different attacks
+*Inflicts [[Armor Crunch]] and [[War Cleave]]
+|-
+| align=center |{{item|mode=table|Eye of the Storm}}
+| align=center |[[File:Cloud Elemental (minion).png|60px]]||Aether Valkyrie
+| align=center |45||{{item|Aether Valkyrie|size=60px}} ({{dv|25%|33.33%}} chance)
+| align=center |
+{{na}}
+|-
+| align=center |{{item|mode=table|Nucleate Gello}}
+| align=center |[[File:Nucleate Gello.png|30px]] || Nucleate Gello
+| align=center |30||{{item|Cragmaw Mire|size=40px}} (100% (tier 2)/10% (tier 3))
+| align=center |
+|-
+| align=center |{{item|mode=table|Rose Stone}}
+| align=center |[[File:Brimstone Elemental (minion).png|70px]]||Brimstone Elemental
+| align=center |60||{{item|Brimstone Elemental|size=70px}} (10% chance)
+| align=center |
+{{na}}
+|-
+| align=center |{{item|mode=table|Pearl of Enthrallment}}
+| align=center |[[File:Anahita.png|50px]]||Anahita
+| align=center |65||{{item|Leviathan and Anahita|size=150px}} ({{dv|25%|33.33%}} chance)
+| align=center | 
+*Floats over the player's head.
+|-
+|}
+
+====Post-Moon Lord====
+{| class="terraria lined"
+|-
+! colspan="2" style="padding:0 15px" |Item!! colspan="2" | Minion!!Damage!!Acquired / Made From!!Notes
+|-
+| align=center |{{item|mode=table|Profaned Soul Artifact}}
+| align=center |[[File:Healer Guardian.png]]||Healer Guardian
+| align=center |{{na}}||{{recipes/extract|result=Profaned Soul Artifact}}
+| align=center |
+*Heals the player.
+*Deals no damage.
+|-
+| align=center |{{item|mode=table|Profaned Soul Artifact}}
+| align=center |[[File:Defensive Guardian.png]]||Defensive Guardian
+| align=center |75||{{recipes/extract|result=Profaned Soul Artifact}}
+| align=center | 
+*Summoned when the player has 10 minion slots.
+*Grants stat bonuses when summoned.
+*Damage is increased to 100 after defeating [[The Devourer of Gods]].
+* Damage is increased to 225 after defeating [[Jungle Dragon, Yharon]].
+|-
+| align=center |{{item|mode=table|Profaned Soul Artifact}}
+| align=center | [[File:Offensive Guardian.png]]||Offensive Guardian
+| align=center | 75||{{recipes/extract|result=Profaned Soul Artifact}}
+| align=center |
+*Summoned when the player is wearing the [[Tarragon armor]] summoner set or higher.
+*Grants stat bonuses when summoned.
+*Damage is increased to 100 after defeating [[The Devourer of Gods]].
+*Damage is increased to 225 after defeating [[Jungle Dragon, Yharon]].
+|-
+| align=center |{{item|mode=table|Heart of the Elements}}
+| align=center |[[File:Sand Elemental (minion).png|25px]] [[File:Rare Sand Elemental.png|30px]]  [[File:Cloud Elemental (minion).png|35px]]  [[File:Brimstone Elemental (minion).png|32px]] [[File:Anahita.png|25px]] [[File:Sulpher Elemental.png|20px]] [[File:Plague Elemental.png|30px]]||Elementals
+| align=center |90<br />{{na}}<br />90<br />90<br />90<br />90||{{recipes/extract|result=Heart of the Elements}}
+| align=center |
+*Water Elemental floats over the player's head.
+*Rare Sand Elemental heals the player instead of attacking.
+|-
+| align=center |{{item|mode=table|Mutated Truffle}}
+| align=center |[[File:Mini Old Duke (minion).png]]||Mini Old Duke
+| align=center |1200||{{item|The Old Duke|size=100px}} (100% chance)
+| align=center |
+*Enrages when the player is below 50% health.
+|-
+| align=center |{{item|mode=table|Slimelgamation}}
+| align=center |[[File:Slime Core.png|50px]] || Slime Core
+| align=center |200||{{recipes/extract|result=Slimelgamation}}
+| align=center |
+|-
+| align=center |{{item|mode=table|Zenith Arcanum}}
+| align=center |[[File:The World.png|200px]] || The World
+| align=center |290||{{recipes/extract|result=Zenith Arcanum}}
+| align=center |
+*Rare Sand Elemental heals the player instead of attacking.
+|-
+| align=center |{{item|mode=table|Universal Stone}}
+| align=center |[[File:Cosmic Conflict Construct.png|80px]] || Cosmic Conflict Construct
+| align=center |4002||{{recipes/extract|result=Universal Stone}}
+| align=center |
+|-
+| align=center |{{item|mode=table|The Godfather}}
+| align=center |[[File:Critical Slime Core.png|100px]] || Critical Slime Core
+| align=center |580||{{recipes/extract|result=The Godfather}}
+| align=center |
+*Assimilates wild slimes for extra damage.
+|-
+| align=center |{{item|mode=table|Angelic Alliance}}
+| align=center |[[File:Angelic Alliance Archangel.gif|70px]]||Archangel
+| align=center |{{na}}||{{recipes/extract|result=Angelic Alliance}}
+| align=center |
+*Heals the player.
+*Fires lasers at enemies dealing 25% of the minion's damage and splitting for more damage
+|-
+| align=center |{{item|mode=table|Profaned Soul Crystal}}
+| align=center |[[File:Healer Guardian.png]] [[File:Defensive Guardian.png]] [[File:Offensive Guardian.png]]||Profaned Guardians
+| align=center |645 (Defensive and Offensive Guardians)||{{item|Providence, the Profaned Goddess|size=50px}} ({{expert|100%}} chance if defeated only with the Profaned Soul Artifact, {{expert|0.5%}} pre-[[Supreme Calamitas]], {{expert|10%}} post-Supreme Calamitas) '''or'''<br />{{recipes/extract|result=Profaned Soul Crystal}}
+| align=center |
+*Only functional after [[Supreme Calamitas]] and the [[The Fabricational Quartet]] have been defeated.
+*Similar functionality to the Profaned Soul Artifact variants.
+|-
+| align=center |{{item|mode=table|The Verboten One}}
+| align=center |[[File:The Universe.png|200px]] || The Universe
+| align=center |Varies||{{recipes/extract|result=The Verboten One}}
+| align=center |
+*Rare Sand Elemental heals the player instead of attacking.
+*Critical Slime Core Assimilates wild slimes for extra damage.
+|}
+
+==Armor Set Minions==
+====Pre-Hardmode====
+{| class="terraria lined"
+|-
+! colspan="2" style="padding:0 15px" |Armor!! colspan="2" |Minion!!Damage!!Notes
+|-
+| align=center |{{item|mode=table|Victide Helmet}}
+| align=center |[[File:Sea Urchin (minion).png]]||Sea Urchin
+| align=center |7
+| align=center |
+*Floats over the player's head.
+* Inflicts [[Poisoned]] for 3 seconds.
+|-
+| align=center |{{item|mode=table|Aerospec Helmet}}
+| align=center |[[File:Valkyrie.png]]|| Valkyrie
+| align=center | 25
+| align=center |{{na}}
+|-
+| align=center |{{item|mode=table|Statigel Hood}}
+| align=center |[[File:Baby Slime God.png]]||Baby Slime God
+| align=center |33
+| align=center |
+*Color depends on which [[Evil Biome]] the world has.
+|-
+|}
+
+====Hardmode====
+{| class="terraria lined"
+|-
+! colspan="2" style="padding:0 15px" |Armor!! colspan="2" | Minion!!Damage!!Notes
+|-
+| align=center |{{item|mode=table|Mollusk armor}}
+| align=center |[[File:Shellfish.png]]|| Shellfish
+| align=center |70
+| align=center |
+*Two Shellfish are summoned by the armor.
+|-
+| align=center |{{item|mode=table|Forbidden Circlet}}
+| align=center |[[File:Forbidden Sign.png]]||Forbidden Sign
+| align=center |100
+| align=center |
+*Floats behind the player.
+*Pressing {{key|Armor Set Bonus}} will summon an Ancient Storm for 50 mana.
+*Affected by Summoner and [[Spy]] base damages.
+|-
+| align=center |{{item|mode=table|Daedalus Mask}}
+| align=center |[[File:Daedalus Crystal.png]]||Daedalus Crystal
+| align=center |95
+| align=center |
+*Floats over the player's head.
+*Inflicts [[Frostburn]] for 3 seconds.
+|-
+| align=center |{{item|mode=table|Hydrothermic Helmet}}
+| align=center |[[File:Hydrothermic Vent.png]]||Hydrothermic Vent
+| align=center |190
+| align=center |
+*Floats over the player's head.
+* Inflicts [[On Fire!]] for 3.33 seconds.
+|-
+| align=center |{{item|mode=table|Plaguebringer armor}}
+| align=center |[[File:Lil' Plaguebringer.png]]||Lil' Plaguebringer
+| align=center |80
+| align=center |
+*Inflicts [[Plague]] for 2 seconds.
+*Nearby summons deal 10-20 extra flat damage.
+|-
+|}
+
+====Post-Moon Lord====
+{| class="terraria lined"
+|-
+! colspan="2" style="padding:0 15px" |Armor!! colspan="2" |Minion !!Damage !!Notes
+|-
+| align=center |{{item|mode=table|Bloodflare Wyvern Helm}}
+| align=center |[[File:Polterghast Mine.png]]||Polterghast Mine
+| align=center |3750
+| align=center |
+*Three mines are summoned, orbiting the player.
+|-
+| align=center |{{item|mode=table|Silva Horned Hood}}
+| align=center |[[File:Silva Crystal (minion).png]]||Silva Crystal
+| align=center |600
+| align=center |
+*Floats over the player's head.
+|-
+| align=center |{{item|mode=table|Auric Tesla Space Helmet}}
+| align=center |[[File:Polterghast Mine.png|20px]] [[File:Silva Crystal (minion).png|20px]]||Post-Moon Lord Armor set minions
+| align=center |3750<br/>600
+| align=center |
+* Three mines are summoned, orbiting the player.
+*Silva Crystal floats over the player's head.
+|-
+| align=center |{{item|mode=table|Demonshade armor}}
+| align=center |[[File:Red Devil (minion).png]]||Red Devil
+| align=center |10000
+| align=center |
+*The Red Devil is affected by magic damage bonuses.
+|}
+
+{{Game mechanics}}
+[[Category:Weapon items| ]]
+[[Category:Summon weapons|*]]

@@ -1,0 +1,46 @@
+{{npc infobox
+| environment = Abyss
+| type = Flying Enemy
+| type2 = Aquatic
+| ai = Mirage Jelly AI
+| damage = {{element|Dark}} {{dv|100|200}}
+| life = {{dv|6,000|12,000}}
+| defense = 10
+| knockback = 100
+| debuff = Electrified
+| debuffchance = 100%
+| duration = 1 second
+| debufftip = You cannot move
+| debuff2 = Venom
+| debuffchance2 = 100%
+| duration2 = 4 seconds
+| debufftip2 = Losing life
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| banner = yes
+| money = {{value|0|0|8|50}}
+| custom | {{item|Depth Cells|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|5-7|10-14}}) | 50%
+| custom | {{item|Abyss Shocker|note=(After defeating [[Skeletron]])|wrap=y}}|10%
+| Jellyfish Necklace | 1 | 1%
+| Life Jelly| 1 | {{dv|14.29%|20%}}
+| Mana Jelly| 1 | {{dv|14.29%|20%}}
+| Mirage Jelly (item)| 1 | {{dv|14.29%|20%}}
+| Vital Jelly| 1 | {{dv|14.29%|20%}}
+| hurt = NPC_Hit_25.wav
+| killed = NPC_Killed_28.wav
+| vulnerable1 = Slash
+| vulnerable2 = Stab
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Dark
+| resistant3 = Holy
+| resistant4 = Electricity
+}}
+
+The '''Mirage Jelly''' is an [[enemy]] which spawns in the third layer of the [[Abyss]]. It slowly swims upward, ignoring all blocks in its way, and will occasionally teleport somewhere else on the screen upon taking damage. It never moves to directly attack the player, serving more as a living hazard than an enemy.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

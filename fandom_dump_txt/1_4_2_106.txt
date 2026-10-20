@@ -1,0 +1,599 @@
+{{Patch infobox
+| image = Bandit.png
+| patchname = Spy Expansion Part 1
+| release = 10/26/2019
+| pair = 1.4.2.105 (music)
+}}
+{{toc limit|3|right=yes}}
+The '''1.4.2.106''' update added a variety of new [[weapons]] and [[coverings]] for the [[Spy]] class, along with a dedicated [[Town NPC]] known as the [[Bandit]]. The update also reworked the [[defense]] and [[damage reduction]] systems, made several changes to the [[Boss Rush]] event, added new [[fishing]] items to the [[Astral Infection]], and made a heavy amount of optimizations to the mod's performance.
+
+== Additions ==
+=== [[Weapons]] ===
+*Added [[Blast Barrel]], [[Blazing Star]], [[Bloodsoaked Crasher]], [[Bouncing Eyeball]], [[Celestial Reaper]], [[Consecrated Water]], [[Eclipse's Fall]], [[Enchanted Axe]], [[Gacruxian Mollusk]], [[Iron Francisca]], [[Kylie]], [[Lead Tomahawk]], [[Monkey Darts]], [[Scourge of the Seas]], [[Slick Cane]], [[Stormfront Razor]], [[Throwing Brick]], and [[Utensil Poker]]. <!---Spy--->
+*Added [[Black Hawk Remote]], [[Elemental Excalibur]], [[Halley's Inferno]], [[Polaris Parrotfish]], and [[Spark Spreader]]. <!---Not Spy--->
+*Added [[The Syringe]] as an unobtainable item.
+*[[Cinquedea]] and [[Glaive]] are now obtainable.
+
+=== [[coverings]] ===
+*Added [[Abyssal Mirror]], [[Coin of Deceit]], [[Dark God's Sheath]], [[Dragon Scales]], [[Eclipse Mirror]], [[Feather Crown]], [[Glove of Precision]], [[Glove of Recklessness]], [[Ink Bomb]], [[Mirage Mirror]], [[Momentum Capacitor]], [[Moonstone Crown]], [[Old Die]], [[Ruin Medallion]], [[Silencing Sheath]], [[Thief's Dime]], and [[Ursa Sergeant]].
+
+=== [[Buffs]] and [[Debuffs]] ===
+*Added [[Abyssal Evade Cooldown]], [[Astrophage (buff)]], [[Eclipse Evade Cooldown]], [[Ink Bomb Cooldown]], [[Polaris Boost]], and [[Sulphuric Poisoning|Vile Toxins]].
+
+=== Other ===
+*Added [[Bandit]].
+*Added [[Twinkler]].
+*Added [[Astral Crate]].
+*Added [[Arcturus Astroidean]].
+*Added [[Piggy Banner]].
+*Added [[Procyonid Prawn]] and [[Twinkling Pollox]].
+*Added [[Astrophage]].
+*Added a [[Mod Call]] for adding damage reduction to NPCs.
+*Added custom death messages for dying to [[Alcohol Poisoning]], [[Abyss]] drowning, [[Armageddon]], [[Calamitas (Lore)]], [[Vulnerability Hex]], [[Brimstone Crag]] [[Lava]], [[Lethal Lava Burn]], [[Holy Inferno]], [[Shadowflame]], [[Crush Depth]], [[Plague]], [[Astral Infection (debuff)]], [[Iron Heart]], [[Nullification Pistol]] and [[Molecular Manipulator]], Boss Rush's immunity curse, Boss Rush and Death Mode [[Devourer of Gods]]' head, [[Thorn Blossom]], [[Cosmic Plushie]], and [[Mana Overloader]].
+
+== Changes ==
+=== [[Bosses]] ===
+*Adjusted most Boss Rush health values with the goal of making each fight last approximately 30 seconds to a minute. A full list can be found below: 
+{{collapse top}}
+*Buffed [[Queen Bee]]'s health from 420,000 to 3,150,000.
+*Buffed [[Brain of Cthulhu]]'s health from 200,000 to 1,000,000.
+*Buffed Creeper's health from 20,000 to 100,000.
+*Buffed [[King Slime]]'s health from 500,000 to 3,000,000.
+*Buffed [[Blue Slime]]'s health from 12,000 to 36,000.
+*Buffed Spiked Slime's health from 24,000 to 72,000.
+*Buffed [[Skeletron Prime]]'s health from 980,000 to 1,100,000.
+*Buffed [[Golem]]'s health from 450,000 to 500,000.
+*Buffed the main [[Profaned Guardian]]'s health from {{dv|500,000|800,000|0|960,000}} to {{dv|1,650,000|2,640,000|0|2,880,000}}.
+*Buffed [[Astrum Aureus]]' health from {{dv|1,400,000|2,240,000|0|2,560,000}} to {{dv|8,400,000|13,440,000|0|1,440,000}}.
+*Buffed [[Eater of Worlds]]' head, body, and tail healths from 20,000, 30,000, and 40,000 all to 2,500,000.
+*Buffed [[Probe]]'s health from 50,000 to 100,000.
+*Buffed [[Spazmatism]]'s health from 1,300,000 to 1,500,000.
+*Buffed [[Retinazer]]'s health from 900,000 to 1,250,000.
+*Buffed [[Bumblebirb]]'s health from {{dv|900,000|1,440,000|0|1,600,000}} to {{dv|3,000,000|4,800,000|0|5,120,000}}.
+*Buffed [[Wall of Flesh]]'s health from 2,400,000 to 4,500,000.
+*Buffed [[The Hive Mind]] phase 2's health from {{dv|1,400,000|2,240,000|0|2,560,000}} to {{dv|3,000,000|4,800,000|0|5,120,000}}.
+*Buffed Dark Heart's health from {{dv|12,000|24,000}} to {{dv|18,000|36,000}}.
+*Buffed [[Skeletron]]'s head health from 1,300,000 to 1,600,000, and its hands' healths from 500,000 to 600,000.
+*Buffed [[Storm Weaver]]'s health from {{death|5,280,000}} to {{death|5,600,000}}.
+*Buffed [[Aquatic Scourge]]'s health from {{dv|4,000,000|6,400,000|0|6,880,000}} to {{dv|10,000,000|16,000,000|0|17,600,000}}.
+*Buffed [[Desert Scourge]]'s health from {{dv|4,100,000|6,560,000|0|7,200,000}} to {{dv|16,500,000|26,400,000|0|28,000,0000}}.
+*Buffed [[Lunatic Cultist]]'s health from 1,100,000 to 2,200,000.
+*Buffed [[Phantasm Dragon]]'s health from 400,000 to 600,000.
+*Buffed [[Ancient Vision]]'s health from 300,000 to 500,000.
+*Buffed [[Crabulon]]'s health from {{dv|2,000,000|3,200,000|0|3,680,000}} to {{dv|10,000,000|16,000,000|0|17,600,000}}.
+*Buffed Crab Shroom's health from {{dv|90,000|180,000}} to {{dv|150,000|300,000}}.
+*Nerfed [[Plantera]]'s health from 2,100,000 to 1,600,000.
+*Buffed Plantera's Hook health from 90,000 to 400,000.
+*Buffed [[Cryogen]]'s health from {{dv|2,700,000|4,320,000|0|4,800,000}} to {{dv|3,000,000|4,800,000|0|5,120,000}}.
+*Buffed [[Brimstone Elemental]]'s health from {{dv|2,000,000|3,200,000|0|3,680,000}} to {{dv|6,500,000|10,400,000|0|11,200,000}}.
+*Buffed [[Signus, Envoy of the Devourer]]'s health from {{dv|2,200,000|3,520,000|0|3,840,000}} to {{dv|2,400,000|3,840,000|0|4,160,000}}.
+*Buffed [[Ravager]]'s body's health from {{dv|2,100,000|3,360,000|0|3,680,000}} to {{dv|4,600,000|7,360,000|0|7,680,000}}.
+*Buffed [[Duke Fishron]]'s health from 2,500,000 to 2,900,000.
+*Buffed [[Moon Lord]]'s core's health from 1,400,000 to 1,600,000.
+*Buffed [[Moon Leech Clot]]'s health to 8000.
+*Buffed [[Polterghast]]'s health from {{dv|2,500,000|4,000,000|0|4,480,000}} to {{dv|3,250,000|5,200,000|0|5,600,000}}.
+*Buffed Plague Homing Missile's health from {{dv|200|400}} to {{dv|20,000|40,000}}.
+*Buffed Plague Mine's health from 100 to {{dv|10,000|20,000}}.
+*Buffed [[Calamitas]]' phase 1 health from {{dv|4,100,000|6,560,000|0|7,360,000}} to {{dv|5,200,000|8,320,000|0|8,800,000}}.
+*Buffed [[Calamitas]]' phase 2 health from {{dv|3,075,000|4,920,000|0|5,520,000}} to {{dv|3,900,000|6,240,000|0|6,600,000}}.
+*Nerfed Cataclysm's health from {{death|2,000,000}} to {{death|1,800,000}}.
+*Buffed Catastrophe's health from {{dv|700,000|1,400,000|0|1,600,000}} to {{dv|800,000|1,600,000|0|1,800,000}}.
+*Nerfed Ice Shield's health from {{dv|400,000|800,000}} to {{dv|10,000|20,000}}.
+*Nerfed The Leviathan's health from {{death|12,800,000}} to {{death|12,000,000}}.
+*Nerfed the Ebonian Slime God's health from {{death|4,000,000}} to {{death|3,840,000}}.
+*Nerfed the Crimulan Slime God's health from {{death|3,200,000}} to {{death|2,720,000}}.
+*Nerfed split Ebonian Slime God's health from {{death|2,000,000}} to {{death|1,920,000}}.
+*Nerfed split Crimulan Slime God's health from {{death|1,600,000}} to {{death|1,360,000}}.
+
+{{collapse bottom}}
+*All Death Mode changes now apply to bosses and their servants during Boss Rush.
+*All bosses are now immune to [[Exo Freeze]], [[Glacial State]], and [[Temporal Sadness]] if they weren't already.
+
+==== [[Aquatic Scourge]] ====
+*Nerfed head's contact damage from 100 to 80, and its defense from 20 to 10.
+*Nerfed body's contact damage from {{dv|100|160}} to {{dv|65|110}}, its Sand Tooth damage from {{dv|74|104}} to {{dv|60|100}}, and its defense from 35 to 20.
+*Nerfed alternate body's contact damage from {{dv|100|160}} to {{dv|55|93}}, its Sand Blast damage from {{dv|80|120}} to {{dv|56|92}}, and its defense from 25 to 15.
+*Nerfed tail's contact damage from {{dv|100|160}} to {{dv|45|76}}, and its defense from 45 to 25.
+*Nerfed Sand Blast vomit damage from {{dv|66|112}} to {{dv|56|92}}, buffed its Sand Tooth vomit damage from {{expert|96}} to {{expert|100}}, and nerfed its Poison Cloud vomit damage from {{dv|72|124}} to {{dv|66|112}}.
+*Poison Clouds now last for 30 seconds instead of 25, and now have their Death Mode time value for Boss Rush.
+*Poison Clouds can no longer hit the player when they are about to despawn.
+
+==== [[Astrum Aureus]] ====
+*Nerfed contact damage from {{dv|90|144}} to {{dv|80|128}}, and its defense from 70 to 50.
+*Aureus Spawns no longer deal increased damage in Death Mode.
+*Aureus Spawns no longer deal contact damage.
+
+==== [[Astrum Deus]] ====
+*Small worm stat changes:
+**Changed head contact damage from {{dv|105|168}} to {{dv|100|200}}, and nerfed their defense from 30 to 20.
+**Nerfed body contact damage from 90 to 85, and their defense from 45 to 40.
+**Buffed tail contact damage from {{expert|112}} to {{expert|119}}.
+*Spectral worm stat changes:
+**Changed head's contact damage from {{dv|130|208}} to {{dv|120|240}}, and nerfed its defense from 40 to 25.
+**Buffed body's contact damage from {{expert|160}} to {{expert|170}}, laser damage from {{expert|140}} to {{expert|152}}, and nerfed its defense from 60 to 50.
+**Buffed tail's contact damage from {{dv|75|120}} to {{dv|80|136}}, and nerfed its defense from 80 to 75.
+*Overhauled movement behavior to be smoother and more deadly.
+*Smaller worms are slower and do not fire lasers from their bodies.
+*Adjusted the way Astrum Deus gains speed at lower health.
+*Lasers now last for 4 seconds instead of 3.
+*Mines now last for 17 seconds instead of 20.
+*Buffed orbital [[Astrum Deus Probe]]'s mine damage from {{dv|110|168}} to {{dv|120|180}}.
+*Buffed flying Astrum Deus Probe's laser damage from {{expert|140}} to {{expert|152}}.
+
+==== [[Brimstone Elemental]] ====
+*Nerfed defense from 20 to 15.
+*Buffed Brimstone Hellfireball damage from {{dv|64|96}} to {{dv|70|112}}, and her Brimstone Hellblast and Barrage damage from {{expert|88}} to {{expert|100}}.
+*Changed post-[[Providence]] health from {{dv|300,000|480,000}} to {{dv|208,000|332,800|457,056|691,840}}, nerfed her contact damage from {{dv|210|336}} to {{dv|180|288}}, and nerfed her defense from 210 to 60.
+*Buffed [[Brimling]]'s Brimstone Hellblast damage from {{dv|64|96}} to {{dv|70|112}}.
+*Now has an indicator for where she is going to teleport.
+*Increased teleport speed.
+
+==== [[Bumblebirb]] ====
+*Now has individual Revengeance and Death Mode health values of {{dv|0|0|48,000|56,000}}, and a Death Mode Boss Rush health value of {{death|104,000}}.
+*Nerfed clone's defense from 25 to 20.
+*Buffed lightning feather damage from {{expert|180}} to {{expert|200}}.
+
+==== [[Calamitas]] ====
+*Nerfed phase 1's base contact damage from {{dv|70|112}} to {{dv|55|88}}, buffed her slow Brimstone Laser damage from {{dv|60|96}} to {{dv|70|112}}, and her rapid laser damage from {{dv|44|60}} to {{dv|48|80}}.
+*Buffed phase 1's post-Providence contact damage from {{dv|150|240}} to {{dv|165|264}}, and nerfed defense from 130 to 45.
+*Nerfed phase 2's base contact damage from {{dv|80|128}} to {{dv|70|112}}, and buffed her Brimstone Laser damage from {{dv|60|96}} to {{dv|70|112}}.
+*Buffed phase 2's post-Providence contact damage from {{dv|160|256}} to {{dv|210|336}}.
+*Buffed Cataclysm's base flamethrower damage from {{dv|64|104}} to {{dv|76|120}}.
+*Buffed Cataclysm's post-Providence contact damage from {{dv|170|340}} to {{dv|180|360}}, and nerfed his defense from 80 to 50.
+*Nerfed Catastrophe's post-Providence contact damage from {{dv|200|400}} to {{dv|195|390}}, and his defense from 95 to 50.
+*Nerfed [[Life Seeker]]'s contact damage from {{dv|35|70}} to {{dv|30|60}}, and its defense from 20 to 8.
+*Nerfed [[Soul Seeker]]'s contact damage from {{dv|60|120}} to {{dv|40|80}}, its laser damage from {{expert|88}} to {{expert|100}}, and its defense from 20 to 10.
+*No longer enrages in Boss Rush.
+
+==== [[Ceaseless Void]] ====
+*Buffed beam portal damage from {{dv|116|168}} to {{dv|120|200}}.
+*Nerfed Dark Energy's defense from 68 to 50.
+*Dark Energies now deal {{revengeance|600}} damage in Revengeance Mode instead of inheriting its Expert Mode damage value of {{expert|480}}.
+*Now permanently enrages during Boss Rush.
+*Laser portal and lasers can no longer hit the player when they are fading away.
+
+==== [[Cryogen]] ====
+*Nerfed contact damage from {{dv|60|96}} to {{dv|50|90}}, and buffed its defense from 10 to 12.
+*Buffed Ice Bomb damage from {{dv|44|88}} to {{dv|50|100}}, and made them slower.
+*Buffed Ice Shield's contact damage from {{dv|25|50}} to {{dv|50|100}}.
+*Buffed [[Aurora Spirit]]'s defense from 5 to 8.
+*Buffed [[Cryocore]]'s defense from 5 to 6.
+*Buffed Cryocore (buffed)'s damage from {{dv|37|74}} to {{dv|40|80}}.
+*Now has an indicator for where it is going to teleport.
+*Now teleports quicker.
+*Decreased how many ice shards are created during Cryogen's ice rain attack.
+
+==== [[Desert Scourge]] ====
+*Stat changes:
+**Changed head's contact damage from {{dv|20|72|0|180}} to {{dv|30|66}}.
+**Buffed body's contact damage from {{expert|25}} to {{expert|27}}, and nerfed its defense from 8 to 6.
+**Buffed tail's contact damage from {{expert|19}} to {{expert|20}}, and nerfed its defense from 12 to 9.
+**Nerfed sand blast damage from {{expert|60}} to {{expert|48}}.
+*Nerfed smaller scourge's body's defense from 5 to 4, and its tail's defense from 8 to 7.
+*Nerfed [[Dried Seeker]]'s body's defense from 4 to 2, and its tail's defense from 6 to 4.
+*No longer gets a speed boost after Skeletron has been defeated.
+*Smaller scourges no longer gain an increased segment count after Skeletron has been defeated.
+*Decreased maximum amount of Dried Seekers from 5 to 3.
+
+==== [[The Destroyer]] ====
+*Removed resistance to [[Holy Arrow]]'s stars.
+
+==== [[The Devourer of Gods]] ====
+*Phase 1 stat changes:
+**Buffed head's contact damage from {{expert|400}} to {{expert|500}}, and its defense from 0 to 30.
+**Buffed body's contact damage from {{expert|288}} to {{expert|306}}, and its defense from 0 to 70.
+**Buffed tail's contact damage from {{expert|240}} to {{expert|255}}, and its defense from 0 to 50.
+**Buffed laser damage from {{dv|136|220}} to {{dv|140|232}}.
+*Phase 2 stat changes:
+**Buffed head's contact damage from {{expert|480}} to {{expert|600}}, and its defense from 0 to 50.
+**Buffed body's contact damage from {{expert|352}} to {{expert|374}}, and its defense from 0 to 70.
+**Buffed tail's contact damage from {{expert|288}} to {{expert|306}}, and its defense from 0 to 50.
+*Buffed [[Cosmic Guardian]]'s head's defense from 0 to 40, its body's defense from 0 to 60, and its tail's defense from 0 to 70.
+
+==== [[Golem]] ====
+*Now permanently enrages during Boss Rush.
+*Now drops {{dv|5-10|8-13}} [[Essence of Sunlight|Essences of Sunlight]].
+
+==== [[The Hive Mind]] ====
+*Buffed phase 1's contact damage from {{dv|10|16}} to {{dv|20|32}}.
+*Nerfed phase 2's contact damage from {{dv|40|64}} to {{dv|35|56}}.
+*Buffed Dank Creeper's contact damage from {{dv|24|48}} to {{dv|25|50}}, and its defense from 5 to 6.
+*Buffed Dark Heart's health from {{dv|65|130}} to {{dv|150|300}}, decreased how much rain it creates, and it no longer deals contact damage.
+*Reduced maximum amount of Dank Creepers and Dark Hearts in phase 2 from 2 to 1 each.
+*Shaderain clouds now rain down less rain.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Buffed phase 2 projectile damage from {{expert|424}} to {{expert|440}}, and nerfed his defense from 200 to 100.
+*Nerfed projectile [[Detonating Flame]]'s defense from 150 to 50.
+*Nerfed melee Detonating Flame's defense from 150 to 75.
+*Can now drop [[Drew's Wings]] on any difficulty mode.
+
+==== [[King Slime]] ====
+*All slimes now have increased health during Boss Rush.
+
+==== [[Moon Lord]] ====
+*Reworked Revengeance Mode AI:
+**Buffed core's health multiplier from {{dv|0|0|1.9x|2.4x}} to {{dv|0|0|2.2x|2.7x}}.
+**Massively increased movement speed.
+**Attacks all now deal more damage directly instead of only some of his attacks being boosted by Revengeance Mode's boost list.
+**Now slows down while firing the Phantasmal Deathray.
+**Once Moon Lord's core is exposed, the Phantasmal Deathray goes through tiles and rotates much quicker.
+**Once all three of Moon Lord's eyes are killed, his attack pattern becomes much faster.
+**True Eyes of Cthulhu completely removed from the Rev+ fight. Moon Lord's eyes never detach on Rev+.
+
+==== [[The Perforators]] ====
+*Nerfed the Hive's contact damage from {{dv|35|56}} to {{dv|30|48}}, and buffed its defense from 0 to 4.
+*Small Perforator stat changes:
+**Nerfed head's damage from {{expert|69}} to {{expert|60}}.
+**Nerfed body's contact damage from {{dv|20|28}} to {{dv|18|28}}, and its defense from 8 to 4.
+**Buffed tail's contact damage from {{expert|14}} to {{expert|16}}, and nerfed its defense from 18 to 8.
+**Buffed blood clot damage from {{dv|22|36}} to {{dv|30|48}}.
+*Medium Perforator stat changes:
+**Nerfed head's damage from {{expert|80}} to {{expert|70}}, and buffed its defense from 0 to 2.
+**Nerfed body's contact damage from {{dv|25|35}} to {{dv|21|33}}, and its defense from 10 to 6.
+**Changed tail's damage from {{dv|15|21}} to {{dv|14|22}} and nerfed its defense from 22 to 10.
+**Buffed blood clot damage from {{dv|22|36}} to {{dv|30|48}}.
+*Large Perforator stat changes:
+**Changed head's damage from {{dv|40|92}} to {{dv|45|90}}, and buffed its defense from 0 to 4.
+**Nerfed body's contact damage from {{dv|30|42}} to {{dv|24|38}}, and its defense from 12 to 8.
+**Nerfed tail's damage from 20 to 18, and its defense from 25 to 12.
+**Buffed blood clot damage from {{dv|22|36}} to {{dv|30|48}}.
+
+==== [[The Plaguebringer Goliath]] ====
+*Nerfed defense from 55 to 40, buffed her weaker missile damage from {{expert|112}} to {{expert|128}}, and her barrage missile damage from {{dv|114|168}} to {{dv|120|192}}.
+*Nerfed [[Plague Charger]]'s defense from 20 to 15.
+*Nerfed large Plague Charger's defense from 23 to 20.
+*Buffed Plague Mine's health from {{expert|100}} to {{expert|200}}.
+*Is now faster earlier in the fight, but slower at lower health.
+*Charges are more aggressive at higher health.
+*Increased top speed.
+
+==== [[Plantera]] ====
+*No longer enrages during Boss Rush.
+*Revengeance Mode spore clouds can no longer hit the player for a short period of time.
+
+==== [[Polterghast]] ====
+*Nerfed base defense from 150 to 90.
+*Buffed Polterghast's Phantom Shot damage from {{dv|110|184}} to {{dv|120|192}}, and its Phantom Blast damage from {{dv|120|104}} to {{dv|140|240}}.
+*Buffed Necroghast's Phantom Shot damage from {{dv|120|196}} to {{dv|130|212}}, and its Phantom Blast damage from {{dv|130|212}} to {{dv|150|260}}. 
+*Buffed Polterghast's Hook's health from 50,000 to 100,000.
+*Nerfed Polterghast's Hook's Phantom Shot damage from {{expert|240}} to {{expert|192}}.
+*Buffed Phantom's health from 1500 to {{dv|1500|3000}}.
+*Buffed Phantom's Phantom Mine damage from {{dv|140|232}} to {{dv|150|248}}.
+*Now drops {{dv|10-20|20-30}} [[Phantoplasm]].
+*The [[Reaper Shark]]'s roar will now play when defeated for the first time.
+
+==== [[Profaned Guardians]] ====
+*Buffed the main guardian's contact damage from {{dv|100|160}} to {{dv|140|224}}, its spear damage from {{dv|96|132}} to {{dv|120|200}}, and its Flare Dust damage from {{dv|112|152}} to {{dv|140|110}}.
+*Buffed the rock guardian's contact damage from {{dv|80|112}} to {{dv|110|176}}, its defense from 40 to 50, and its spear damage from {{dv|96|132}} to {{dv|120|200}}.
+*Buffed the crystal guardian's contact damage from {{dv|80|112}} to {{dv|90|144}}, and its defense from 25 to 35.
+
+==== [[Providence, the Profaned Goddess]] ====
+*Buffed Holy Blast damage from {{dv|126|184}} to {{dv|130|208}}, her Holy Fire damage from {{dv|118|160}} to {{dv|120|192}}, her Molten Blast damage from {{expert|156}} to {{expert|168}}, her Holy Bomb damage from {{expert|176}} to {{expert|192}}, her Holy Shot damage from {{expert|192}} to {{expert|208}}, and her crystal's damage from {{expert|208}} to {{expert|228}}.
+*Buffed the defensive guardian's contact damage from {{dv|80|160}} to {{dv|100|200}}, and its defense from 40 to 50.
+*Buffed the healer guardian's defense from 30 to 35.
+*Buffed the offensive guardian's contact damage from {{dv|100|200}} to {{dv|120|240}}, and its defense from 30 to 40.
+
+==== [[Queen Bee]] ====
+*Now always charges three times in Revengeance Mode.
+*Now significantly more aggressive while enraged in Revengeance Mode.
+
+==== [[Ravager]] ====
+*Original fight stat changes:
+**Buffed body's contact damage from {{dv|100|160}} to {{dv|120|192}}, changed its laser damage from {{dv|96|136}} to {{dv|90|180}}, buffed its fireball damage from {{expert|112}} to {{expert|160}}, changed its flare damage from {{dv|80|112}} to {{dv|70|140}}, and nerfed its defense from 80 to 55.
+**Buffed head's nuke damage from {{expert|160}} to {{expert|180}}, and nerfed its defense from 70 to 50.
+**Buffed free head's nuke damage from {{expert|160}} to {{expert|180}}, nerfed its defense from 70 to 50, and changed its missile damage from {{dv|84|120}} to {{dv|80|160}}.
+**Nerfed claw's damage from {{dv|88|176}} to {{dv|80|160}}, and its defense from 50 to 40.
+**Nerfed leg's defense from 60 to 40.
+*Post-Providence fight stat changes:
+**Changed body's health from {{dv|350,000|560,000}} to {{dv|298,900|478,240|599,200|1,008,000}}, buffed its contact damage from {{dv|100|160}} to {{dv|200|320}}, and nerfed its defense from 180 to 110.
+**Nerfed Flame Pillar contact damage from {{dv|180|500}} to {{dv|100|360}}, and buffed its flame damage from {{expert|128}} to {{expert|180}}.
+**Nerfed Rock Pillar damage from {{dv|180|500}} to {{dv|120|400}}.
+*Flame Pillars and Rock Pillars are no longer vulnerable to [[Ichor (debuff)|Ichor]].
+*Free head no longer gains any additional health or defense after Providence has been defeated.
+*Free head no longer deals any contact damage. <!--Fun fact, the head did no contact damage after Provi was defeated, but did contact damage in the original fight--->
+*Removed leg stomp attack.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Nerfed scythe damage from {{dv|124|196}} to {{dv|120|192}}, and buffed essence dust damage from {{dv|104|196}} to {{dv|140|240}}.
+*Nerfed Cosmic Lantern's defense from 85 to 50.
+*Decreased teleport speed.
+*Removed cosmic flame burst attack.
+*Now has an indicator for where it is going to teleport.
+
+==== [[Siren and Leviathan]] ====
+*Buffed The Siren's contact damage from {{expert|112}} to {{expert|119}}, and nerfed her defense from 25 to 20.
+*Buffed The Leviathan's contact damage from {{expert|144}} to {{expert|153}}, and nerfed her meteor damage from 96 to 80.
+*Buffed Ice Shield's contact damage from 45 to 55.
+*The Siren's Frost Mists no longer home while The Leviathan is alive.
+*While The Siren isn't present, The Leviathan can now only spawn up to 6 Paraseas and 2 Aquatic Aberrations at a time instead of 10 Paraseas and 4 Aquatic Aberrations. 
+*While The Siren is present, The Leviathan can now only spawn up to 3 Paraseas and 2 Aquatic Aberrations at a time instead of 5 Paraseas and 2 Aquatic Aberrations.
+
+==== [[Skeletron]] ====
+*Now has an indicator for where it is going to teleport.
+*Decreased the speed of Revengeance Mode hands.
+
+==== [[Skeletron Prime]] ====
+*Revengeance Mode [[Skeletron Prime]] no longer fires homing skulls while its arms are alive.
+*Revengeance Mode Prime Laser and Prime Cannon now move more quickly.
+
+==== [[The Slime God]] ====
+*Nerfed the core's contact damage from {{dv|60|96}} to {{dv|40|80}}, nerfed its Ebonian Abyss Ball damage from {{expert|76}} to {{expert|68}}, nerfed its Crimulan Abyss Ball damage from {{expert|68}} to {{expert|64}}, and buffed its defense from 0 to 6.
+*Nerfed the Ebonian Slime God's contact damage from {{dv|60|96}} to {{dv|45|76}}, its Abyss Ball damage from {{expert|76}} to {{expert|68}}, and its defense from 15 to 10.
+*Nerfed the Crimulan Slime God's contact damage from {{dv|60|96}} to {{dv|50|80}}, its Abyss Ball damage from {{expert|68}} to {{expert|64}}, and its defense from 20 to 12.
+*Nerfed the split Ebonian Slime God's contact damage from {{dv|50|80}} to {{dv|40|68}}, its Abyss Ball damage from {{expert|76}} to {{expert|68}}, and its defense from 10 to 8.
+*Nerfed the split Crimulan Slime God's contact damage from {{dv|50|80}} to {{dv|45|76}}, its Abyss Ball damage from {{expert|68}} to {{expert|64}}, and its defense from 15 to 10.
+*Buffed flying [[Corrupt Slime Spawn]]'s contact damage from {{dv|30|60}} to {{dv|40|80}}, and nerfed its defense from 10 to 6.
+*Nerfed grounded Corrupt Slime Spawn's defense from 10 to 4.
+*Buffed [[Crimson Slime Spawn]]'s contact damage from {{dv|30|60}} to {{dv|35|70}}, and nerfed its defense from 10 to 4.
+*Buffed [[Crimson Slime Spawn (spiked)]]'s contact damage from {{dv|30|60}} to {{dv|45|90}}, and nerfed its defense from 10 to 6.
+*Renamed Spiked Crimson Slime Spawn to Crimson Slime Spawn.
+*Mines now have randomized slowdown values.
+
+==== [[Storm Weaver]] ====
+*Phase 1's head and body segments now take low amounts of damage instead of setting all damage to zero, nerfed both of their defenses from 99,999 to 0 and 1 respectively.
+*Buffed phase 1's body's contact damage from {{expert|160}} to {{expert|170}}, and its tail's contact damage from {{expert|128}} to {{expert|136}}.
+*Buffed phase 2's body's contact damage from {{expert|192}} to {{expert|204}}, and its tail's contact damage from {{expert|160}} to {{expert|170}}.
+*Buffed lightning damage from {{dv|140|200}} to {{dv|150|248}}.
+*Nerfed armored [[Stasis Probe]]'s laser damage from 140 to 120, and its defense from 100 to 60.
+*Nerfed naked Stasis Probe's laser damage from 140 to 120, and buffed its defense from 10 to 30.
+
+==== [[Supreme Calamitas]] ====
+*Buffed defense from 0 to 120.
+*Buffed the brothers' healths from {{dv|1,200,000|2,400,000|2,800,000|2,000,000}} to {{dv|1,800,000|3,600,000|4,200,000|3,000,000}}, and nerfed their defenses from 150 to 100.
+*Nerfed Soul Seeker's defense from 100 to 80.
+*Supreme Calamitas and her brothers no longer resist [[Apotheosis]].
+
+=== [[Enemies]] ===
+*Adjusted various enemy defense values. A full list can be found below:
+{{collapse top}}
+*Nerfed [[Aero Slime]]'s defense from 10 to 6.
+*Nerfed [[Amber Crawler]]'s defense from 18 to 10.
+*Nerfed [[Amethyst Crawler]]'s defense from 8 to 4.
+*Nerfed [[Angry Dog]]'s defense from 20 to 10.
+*Nerfed [[Armored Digger]]'s body's defense from 40 to 30, and its tail's defense from 55 to 45.
+*Nerfed [[Aquatic Aberration]]'s defense from 18 to 14.
+*Nerfed [[Blighted Eye]]'s defense from 18 to 8.
+*Nerfed [[Bloom Slime]]'s defense from 50 to 25.
+*Nerfed [[BOHLDOHR]]'s defense from 28 to 18.
+*Nerfed [[Calamity Eye]]'s defense from 24 to 12.
+*Nerfed [[Charred Slime]]'s defense from 20 to 10.
+*Nerfed [[Cloud Elemental]]'s defense from 40 to 18.
+*Nerfed [[Cnidrion]]'s defense from 10 to 6.
+*Nerfed [[Crimulan Blight Slime]]'s defense from 12 to 8.
+*Nerfed [[Cryo Slime]]'s defense from 12 to 8.
+*Nerfed [[Cryon]]'s defense from 20 to 10.
+*Nerfed [[Crystal Crawler]]'s defense from 18 to 12.
+*Nerfed [[Diamond Crawler]]'s defense from 16 to 8.
+*Nerfed [[Earth Elemental]]'s defense from 30 to 20.
+*Nerfed [[Ebonian Blight Slime]]'s defense from 12 to 8.
+*Nerfed [[Emerald Crawler]]'s defense from 12 to 6.
+*Nerfed [[Fearless Goldfish Warrior]]'s defense in Hardmode from 20 to 10.
+*Nerfed [[Heat Spirit]]'s defense from 20 to 8.
+*Nerfed [[Ice Clasper]]'s defense from 23 to 12.
+*Nerfed [[Irradiated Slime]]'s defense from 100 to 10.
+*Nerfed [[Melter]]'s defense from 35 to 15.
+*Nerfed [[Overloaded Soldier]]'s defense from 28 to 18.
+*Nerfed [[Parasea]]'s defense from 9 to 8.
+*Nerfed [[Perennial Slime]]'s defense from 16 to 12.
+*Nerfed [[Pestilent Slime]]'s defense from 25 to 12.
+*Nerfed [[Phantom Debris]]' defense from 35 to 20.
+*Nerfed [[Phantom Spirit]] (normal)'s defense from 40 to 10.
+*Nerfed Phantom Spirit (sad)'s defense from 50 to 20.
+*Nerfed Phantom Spirit (angry)'s defense from 70 to 30.
+*Nerfed Phantom Spirit (happy)'s defense from 100 to 40.
+*Nerfed [[Pitbull]]'s defense from 12 to 4.
+*Buffed large [[Plague Charger]]'s defense from 23 to 25.
+*Nerfed [[Plagueshell]]'s defense from 48 to 32.
+*Nerfed [[Profaned Energy]]'s defense from 58 to 50.
+*Nerfed [[Ruby Crawler]]'s defense from 14 to 8.
+*Nerfed [[Sand Tortoise]]'s defense from 34 to 30.
+*Nerfed [[Sapphire Crawler]]'s defense from 10 to 6.
+*Nerfed [[Shockstorm Shuttle]]'s defense from 20 to 15.
+*Nerfed [[Stormlion]]'s defense from 9 to 8.
+*Nerfed [[Sun Bat]]'s defense from 20 to 10.
+*Nerfed [[Sunskater]]'s defense from 10 to 4.
+*Nerfed [[Topaz Crawler]]'s defense from 6 to 4.
+*Nerfed [[Viruling]]'s defense from 38 to 18.
+*Nerfed [[Wulfrum Drone]]'s defense from 6 to 4.
+*Nerfed [[Wulfrum Slime]]'s defense from 4 to 2.
+{{collapse bottom}}
+*Changed Aquatic Aberration's health from {{dv|1100|2200|0|4400}} to {{dv|1600|3200}}, and they can now spawn naturally after [[Calamitas]] has been defeated.
+*Calamity [[critters]] can no longer be targeted by homing weapons.
+*All [[Celestial Pillars|Celestial Pillar]] enemies now drop their respective celestial fragments.
+*[[Hive Cyst|Hive]] and [[Perforator Cyst]]s now spawn more frequently after either vanilla evil boss has been defeated, but before either Calamity evil boss has been defeated.
+*Removed unused [[Impious Immolator]] code that attempted to make them inflict [[On Fire!]] and [[Holy Flames]] on contact.
+*Buffed Parasea's damage from {{dv|45|90}} to {{dv|50|100}}, and it can now spawn naturally after Calamitas has been defeated.
+*Changed happy Phantom Spirit's Phantom Shot damage from {{dv|120|240}} to {{dv|130|212}}.
+*Nerfed [[Plaguebringer]]'s contact damage from {{dv|80|160}} to {{dv|70|140}}, buffed its stinger damage from {{dv|40|80}} to {{dv|52|104}}, and its missile damage from {{dv|50|100}} to {{dv|66|132}}.
+*Shockstorm Shuttles now only drop [[Martian Conduit Plating]] after Golem has been defeated.
+*All Calamity [[slimes]] are now pacified by [[Royal Gel]].
+*[[Toxic Minnow]] clouds now last significantly shorter, and will no longer hurt the player while fading out.
+*Wulfrum Drones now use NPCHit4 as their hit sound instead of NPCHit1.
+
+=== Items ===
+*[[The Absorber]] and [[The Sponge]] now inherit [[Sea Shell]]'s effect.
+*[[Acceleration Round]]s, [[Astral Blaster]]'s Astral Round, [[Enhanced Nano Round]]s, [[Flare Bolt]], [[Flash Round]]s, [[Frigidflash Bolt]], [[Frost Bolt]], [[Frostspark Bullet]]s, [[Holy Fire Bullet]]s, [[Hyperius Bullet]]s, [[Superball Bullet]]s, [[Tears of Heaven]], and [[Verium Bullet]]s now use sprites for their projectiles instead of just dust.
+*Reduced [[Arctic Arrow]]'s sell price from {{value|0|0|2|40}} to {{cc|24}}.
+*[[Arid Artifact]] now requires Desert Scourge to be defeated, but can now stop existing [[Sandstorm]]s.
+*[[Astral Sand]] can now be fired from the [[Sandgun]] and can be used to craft [[Glass]].
+*Summoner [[Auric Tesla armor]] now has an additional minion slot.
+*Melee [[Bloodflare armor]]'s healing bonus no longer ignores enemies with lifesteal immunity.
+*All Calamity [[buff]] [[potions]] now stack to 999 instead of 30.
+*All Calamity [[Candles]], [[Lumenyl]], and [[Prism Shard]]s now count as light sources.
+*[[Cosmic Discharge]] now inflicts [[Nightwither]] for 5 seconds.
+*Decreased the volume on [[Deep Sea Dumbbell]].
+*[[Deific Amulet]] and [[Rampart of Deities]] now inherit [[Jellyfish Necklace]]'s abilities.
+*[[Dragon Pow]]'s direct hits no longer count as true melee.
+*[[Ethereal Talisman]] and [[Sigil of Calamitas]]' [[Spelunker Potion]] effect can now be toggled by visibility.
+*[[Fire Gauntlet]] now gives 14% melee damage and speed instead of 10%, but now uses 5 [[Chaotic Bar]]s in its recipe.
+*[[Firestorm Cannon]] and [[Spectralstorm Cannon]]'s flares now deal ranged damage.
+*[[Flare Bolt]], [[Frigidflash Bolt]], and [[Frost Bolt]]'s projectiles now last for 8 seconds.
+*[[Gel Dart]]s now penetrate 4 times instead of 5.
+*Nerfed [[Heavenly Gale]]'s damage from 700 to 585, massively reduced its lag, its tornadoes last for 4 seconds instead of 5, and its tornadoes now have a localNPCHitCooldown value of 6 instead of 5.
+*Reduced [[Ice Star]]'s sell price from {{sc|6}} to {{value|0|0|1|20}}.
+*Nerfed [[Lionfish]]'s damage from 54 to 45.
+*Renamed Marnite Rifle Spear to [[Marnite Bayonet]].
+*[[Mollusk armor]] and [[Shellfish Staff]]'s shellfish no longer deal any damage to any enemy with over 99% damage reduction instead of only Ceaseless Void and the adult [[Adult Eidolon Wyrm|Eidolon Wyrm]].
+*Nerfed [[Mourningstar]]'s damage from 650 to 230, decreased its sell price from {{gc|36}} to {{gc|27}}, it now uses 6 Cores of Chaos, 6 [[Core of Sunlight|Cores of Sunlight]], and 6 [[Divine Geode]]s in its recipe instead of 5 [[Cosmilite Bar]]s and 5 [[Phantoplasm], and now requires an [[Ancient Manipulator]] to craft instead of a [[Draedon's Forge]].
+*[[Nanotech]] now uses a Moonstone Crown in its recipe, and inherits its effects.
+*The [[Obsidian Rose]] can now be crafted with 10 [[Hellstone]], 1 [[Jungle Rose]], and 10 [[Obsidian]] at an Anvil.
+*The [[Onyx Excavator Key]]'s drill mount can now destroy [[Dungeon]] bricks if Skeletron has been defeated, but can no longer break [[Demon Altar]]s, [[Crimson Altar]]s, and [[Arena Block]]s.
+*[[The Oracle]]'s direct hits no longer count as true melee.
+*All four health boosting [[Permanent power-up]] items now have flavor text:
+**[[Hemagrape|Blood Orange]]: It has a distinctly sweet flavor and a strong aroma.
+**[[Dragonfruit]]: Though somewhat bland, what taste can be described is unlike any other experienced.
+**[[Sambucus Fruit|Elderberry]]: A tangy, tart flavor with a somewhat earthen touch.
+**[[Miracle Fruit]]: Refreshing and cool, perhaps even a bit minty.
+*Buffed [[Photoviscerator]]'s damage from 165 to 250, and it now uses Halley's Inferno in its recipe.
+*[[Pirate Map]]s and [[Snow Globe]]s now stack to 20.
+*[[Plague Staff]]'s fangs now last for only 5 seconds.
+*The [[Rare Elemental in a Bottle]]'s healing projectiles are now slower, but heal for 25 health instead of 15.
+*[[Revivify Potion]]s now last for 30 seconds instead of 15.
+*The Slime God's uncraftable weapon drops are now craftable for consistency:
+**[[Abyssal Tome]] is now craftable with 20 [[Blighted Gel]], 1 [[Book]], and 10 [[Purified Gel]] at an Anvil.
+**[[Eldritch Tome]] is now craftable with 20 Blighted Gel, 1 Book, and 10 Purified Gel at an Anvil.
+**[[Overloaded Blaster]] is now craftable with 30 [[Gel]], 5 [[Hellstone Bar]]s, and 15 Purified Gel at an Anvil.
+*[[Soaring Potion]]s now restore flight time when the player hits an enemy with true melee.
+*Made several balancing changes to enemy spawn rate modifying items:
+**Tier shifted Calamity's spawn rate modifying items:
+***[[Chaos Candle]] now uses 2 [[Core of Eleum|Cores of Eleum]] in its recipe instead of 4 [[Pixie Dust]].
+***[[Tranquility Candle]] now uses 2 [[Core of Chaos|Cores of Chaos]] in its recipe instead of 4 [[Essence of Chaos|Essences of Chaos]].
+***[[Zen Potion]] now uses 3 Cores of Eleum in its recipe instead of 3 Essences of Eleum, and its [[Blood Orb]] recipe now uses a Core of Eleum.
+***[[Zerg Potion]] now uses 3 Cores of Chaos in its recipe instead of 3 Essences of Chaos, and its Blood Orb recipe now uses a Core of Chaos.
+**Changed the effectiveness of several spawn rate-affecting items:
+***Battle Potion now increases spawn rates by 150% instead of 100%, and max spawns by 140% instead of 100%.
+***Calming Potion now decreases spawn rates by 31% instead of 17%, and max spawns by 36% instead of 20%.
+***Decreased Chaos Candle's spawn rate boost from 5000% to 66%, and max spawn boost from 150% to 100%. <!-- Yes, that's a 5000% boost, 50x -->
+***Peace Candle now decreases spawn rates by 30% instead of 23%, and max spawns by 37% instead of 30%.
+***Decreased Tranquility Candle's spawn rate reduction from 96% to 28.57%, and max spawn reduction from 98% to 60%.
+***Water Candle now increases spawn rates by 48.15% instead of 33%, and max spawns by 65% instead of 50%.
+***Decreased Zen Potion's spawn rate reduction from 98% to 33%.
+***Decreased Zerg Potion's spawn rate boost from 10000% to 200%. <!-- FUCKING 10000%, a 100x boost, lmao these were so broken -->
+**Tranquility Candles and Zen Potions now work at full power in the [[Abyss]].
+*The [[Spiteful Candle]] now only functions on enemies with less than 99% damage reduction.
+*The [[Starter Bag]] now contains 3 [[Recall Potion]]s.
+*The player now must be wearing a Spy armor set to gain [[stealth]].
+*The [[Suspicious Looking Jelly Bean]] mount now makes the player immune to fall damage.
+*The summoner [[Level Meter]] now shows minion slots.
+*[[Svantechnical]]'s tooltip now mentions its zooming ability.
+*Reduced [[Terra Arrow]]'s sell price from {{sc|4}} to {{cc|40}}.
+*[[Titan Scale Potion]]s now provide 25 defense and 10% damage reduction while holding a true melee weapon.
+*Nerfed [[True Tyrant's Ultisword]]'s damage from 200 to 185.
+*Nerfed [[Verdant]]'s damage from 247 to 218.
+*[[Water Bolt]] can now be crafted with a [[Spell Tome]], a [[Water Candle]], and 3 [[Waterleaf]] at a [[Bookcase]].
+*Most [[Wings]] now have special effects:
+**[[Angel Wings]] provide +20 max life, 15 defense and +3 life regeneration.
+**[[Aureate Booster]] provides 15% movement speed if worn with [[Reaver armor]].
+**[[Bat Wings]] provide +10% movement speed and +100% jump speed. They also provide 20 defense, +15% damage, +7% crit chance and an additional +10% movement speed at night.
+**[[Bee Wings]] constantly provide the health regeneration of standing in [[Honey]].
+**[[Beetle Wings]] provide 15 defense and 10% DR if worn with the [[Beetle Shell]] set, and +10% melee damage and crit chance if worn with the [[Beetle Scale Mail]] set.
+**[[Bone Wings]] provide 30 defense, +15% movement speed, +12% ranged damage and +16% ranged crit chance if worn with [[Necro armor]].
+**[[Butterfly Wings]] provide +50 max mana, -5% mana usage, +10% magic damage and +5% magic crit chance.
+**[[Demon Wings]] provide +10% damage and crit chance.
+**[[Discordian Wings]] provide +10% damage if worn with [[Ataxia armor]].
+**[[Fairy Wings]] provide +80 max life.
+**[[Festive Wings]] provide +50 max life.
+**[[Fin Wings]] provide underwater breathing, unimpaired underwater movement, faster underwater falling speed, +20% movement speed and +180% jump speed.
+**[[Flame Wings]] provide +10% melee damage and +5% melee crit chance.
+**[[Frozen Wings]] provide +7% melee and ranged damage and +3% melee and ranged crit chance if worn with [[Frost armor]].
+**[[Hadarian Wings]] provide +20% movement speed and +40% jump speed if worn with [[Astral armor]].
+**[[Harpy Wings]] provide +30% movement speed.
+**[[Mothron Wings]] provide 10 defense, +10% damage, +5% crit chance, +10% movement speed and +120% jump speed.
+**[[Nebula Mantle]] provides +20 max mana, +5% magic damage and crit chance, and -5% mana usage if worn with [[Nebula armor]].
+**[[Solar Wings]] provide +7% melee damage and +3% melee crit chance if worn with [[Solar Flare armor]].
+**[[Spectre Wings]] provide 10 defense and 5% DR if worn with the [[Spectre Hood]] set, and +20 max mana, +5% magic damage and crit chance, and -5% mana usage if worn with the [[Spectre Mask]] set.
+**[[Spooky Wings]] provide +1 minion and +10% minion damage if worn with [[Spooky armor]].
+**[[Stardust Wings]] provide +1 minion and +5% minion damage if worn with [[Stardust armor]].
+**[[Starlight Wings]] provide +5% damage and crit chance if worn with [[Daedalus armor]].
+**[[Steampunk Wings]] provide 10 defense, +10% movement speed, and +5% damage and crit chance.
+**[[Tarragon Wings]] provide 15 defense and +2 life regen if worn with [[Tarragon armor]].
+**[[Tattered Fairy Wings]] provide +5% damage and crit chance.
+**[[Vortex Booster]] provides +3% ranged damage and +7% ranged crit chance if worn with [[Vortex armor]].
+**[[Xeroc Wings]] provide +5% Spy damage and crit chance if worn with [[Xeroc armor]].
+*[[Yharon Soul Fragment]]s now float.
+
+=== Other ===
+*The [[Archmage]], [[Drunk Princess]], and [[Sea King]] can now be teleported to [[King Statue]]s.
+*The [[Arms Dealer]] now sells the [[Sniper Rifle]] and [[Tactical Shotgun]] after Golem has been defeated.
+*Each Boss Rush tier now has a damage floor which increases for each wave.
+*[[Boulder]]s now deal 35% less damage in all difficulty modes, but now inflict [[Broken Armor]] for 10 seconds.
+*The [[Cyborg]] now sells the [[Rocket Launcher]] after Golem has been defeated.
+*Adjusted the stat decreases from several Calamity [[debuffs]]:
+**Armor Crunch now only reduces defense by 15 flat instead of cutting it by 66%.
+**[[Astral Infection (debuff)]] now reduces both the player and NPCs' defense by 6.
+**[[Brimstone Flames]] and [[Abyssal Flames]] now reduce both the player and NPCs' defense by 6.
+**[[Glacial State]] now only reduces defense by 10 flat instead of cutting it by 50%.
+**[[God Slayer Inferno]] now reduces both the player and NPCs' defense by 10.
+**[[Plague]] now only reduces defense by 6 instead of 8.
+**[[Whispering Death]] now only reduces defense by 20 instead of 50.
+*Made several changes to the damage reduction and defense systems:
+**Damage reduction now applies after defense for enemies instead of before.
+**Defense counts for 50% instead of 25% for enemies with damage reduction.
+**Damage reduction is now a diminishing returns system instead of a soft cap.
+**The player will always get 75% defense effectiveness in Revengeance Mode, instead of it scaling.
+**Defense increasing covering modifiers now scale with progression.
+*Explosives now deal {{dv|65%|77.5%}} less damage, but now inflict On Fire! for 10 seconds.
+*The [[Jungle Temple]] is now forced to generate a gigantic room for the Golem fight.
+*[[Auric Ore]] is now worth more than everything on the [[Metal Detector]].
+*[[Uelibloom Ore]] is now worth more than everything but Auric Ore on the Metal Detector.
+*The [[Pirate]] now sells Pirate Maps.
+*Moved several [[summoning item]]s to different town NPCs:
+**The [[Archmage]] now sells [[Cryo Key]]s instead of the [[Wizard]].
+**The [[Goblin Tinkerer]] now sells [[Goblin Battle Standard]]s instead of the [[Dryad]].
+**The [[Sea King]] now sells [[Desert Medallion]]s and [[Seafood]] instead of the Dryad.
+*The [[Witch Doctor]] now sells [[Gypsy Powder]] after Golem has been defeated.
+
+=== Resprites ===
+*Resprited [[Irradiated Slime]].
+*Resprited [[Aegis Blade]], [[Beastial Pickaxe]], [[Berserker Waraxe]], [[Bladedge Railbow]], [[Cosmic Rainbow]], [[Draconic Destruction]], [[Everglade Spray]], [[Feralthorn Claymore]], [[Galactus Blade]], [[Hellion Flower Spear]], [[Lunarian Bow]], [[Mangrove Chakram]], [[Plague Keeper]], [[Quagmire]], [[Stellar Striker]], [[Teardrop Cleaver]], [[The Swarmer]], and [[Ultimus Cleaver]].
+*Resprited [[Reaver Cap]], [[Reaver Cuisses]], [[Reaver Helm]], [[Reaver Helmet]], [[Reaver Mask]], [[Reaver Scale Mail]], and [[Reaver Visage]].
+*Resprited [[The Amalgam]], [[Aureate Booster]], [[Chaos Stone]], [[Necklace of Vexation]], and [[Reaper Tooth Necklace]].
+*Resprited [[Perennial Bar]].
+*Resprited [[Astral Dirt]], [[Astral Ice]], and [[Uelibloom Brick]] items.
+*Resprited placed [[Aerialite Brick]], [[Astral Brick]], [[Astral Dirt]], [[Plants|Astral Grass]], [[Astral Monolith]], [[Astral Sand]], [[Astral Sandstone]], [[Astral Stone]], [[Charred Ore]], [[Cinderplate]], [[Cosmilite Brick]], [[Cryonic Brick]], [[Hardened Astral Sand]], [[Perennial Ore]], [[Sea Prism]], [[Smooth Abyss Gravel]], [[Smooth Brimstone Slag]], [[Smooth Navystone]], [[Smooth Voidstone]], [[Stratus Bricks]], and [[Voidstone]]. <!---Mostly just tile merge stuff--->
+*Resprited [[Profaned Bathtub]], [[Profaned Bed]], [[Profaned Bench]], [[Profaned Bookcase]], [[Profaned Candelabra]], [[Profaned Candle]], [[Profaned Chandelier]], [[Profaned Chest]], [[Profaned Clock]], [[Profaned Door]], [[Profaned Dresser]], [[Profaned Lamp]], [[Profaned Piano]], [[Profaned Sink]], [[Profaned Table]], and [[Profaned Work Bench]].
+*Resprited [[Irradiated Slime Banner]] and [[Perennial Slime Banner]].
+*Resprited placed [[Aero Slime Banner]], [[Amber Crawler Banner]], [[Amethyst Crawler Banner]], [[Angry Dog Banner]], [[Aquatic Aberration Banner]], [[Aquatic Parasite Banner]], [[Aquatic Seeker Banner]], [[Aquatic Urchin Banner]], [[Aries Banner]], [[Armored Digger Banner]], [[Astralachnea Banner]], [[Astral Probe Banner]], [[Astral Slime Banner]], [[Atlas Banner]], [[Big Sightseer Banner]], [[Blighted Eye Banner]], [[Blinded Angler Banner]], [[Bloatfish Banner]], [[Bloom Slime Banner]], [[Bobbit Worm Banner]], [[BOHLDOHR Banner]], [[Box Jellyfish Banner]], [[Calamity Eye Banner]], [[Catfish Banner]], [[Chaotic Puffer Banner]], [[Charred Slime Banner]], [[Clam Banner]], [[Cloud Elemental Banner]], [[Cnidrion Banner]], [[Colossal Squid Banner]], [[Cosmic Elemental Banner]], [[Crimulan Blight Slime Banner]], [[Cryon Banner]], [[Cryo Slime Banner]], [[Crystal Crawler Banner]], [[Cultist Assassin Banner]], [[Cuttlefish Banner]], [[Despair Stone Banner]], [[Devil Fish Banner]], [[Diamond Crawler Banner]], [[Earth Elemental Banner]], [[Ebonian Blight Slime Banner]], [[Eidolist Banner]], [[Eidolon Wyrm Juvenile Banner]], [[Emerald Crawler Banner]], [[Eutrophic Ray Banner]], [[Flounder Banner]], [[Frogfish Banner]], [[Fusion Feeder Banner]], [[Ghost Bell Banner]], [[Ghost Bell Small Banner]], [[Giant Clam Banner]], [[Giant Squid Banner]], [[Gnasher Banner]], [[Great Sand Shark Banner]], [[Gulper Eel Banner]], [[Hadarian Banner]], [[Heat Spirit Banner]], [[Hive Banner]], [[Ice Clasper Banner]], [[Impious Immolator Banner]], [[Laserfish Banner]], [[Luminous Corvina Banner]], [[Mantis Banner]], [[Mauler Banner]], [[Melter Banner]], [[Mirage Jelly Banner]], [[Moray Eel Banner]], [[Nova Banner]], [[Oarfish Banner]], [[Overloaded Soldier Banner]], [[Parasea Banner]], [[Pestilent Slime Banner]], [[Phantom Debris Banner]], [[Phantom Spirit Banner]], [[Pitbull Banner]], [[Plague Charger Banner]], [[Plaguebringer Banner]], [[Plagueshell Banner]], [[Prism Turtle Banner]], [[Profaned Energy Banner]], [[Reaper Shark Banner]], [[Ruby Crawler Banner]], [[Sand Tortoise Banner]], [[Sapphire Crawler Banner]], [[Scorn Eater Banner]], [[Scryllar Banner]], [[Sea Floaty Banner]], [[Sea Minnow Banner]], [[Sea Serpent Banner]], [[Sea Urchin Banner]], [[Shockstorm Shuttle Banner]], [[Small Sightseer Banner]], [[Soul Slurper Banner]], [[Stellar Culex Banner]], [[Stormlion Banner]], [[Sun Bat Banner]], [[Sunskater Banner]], [[Topaz Crawler Banner]], [[Toxic Minnow Banner]], [[Trasher Banner]], [[Viperfish Banner]], [[Viruling Banner]], [[Wulfrum Drone Banner]], and [[Wulfrum Slime Banner]]. <!---Metal line on top--->
+*Resprited [[Astral Dirt Wall]], [[Chaotic Brick Wall]], [[Uelibloom Brick Wall]], and [[Voidstone Wall]].
+*Resprited Draconic Destruction's beams, Quagmire's yoyo, and Reaver armor's Reaver Orb.
+*Resprited [[Absolute Rage]], [[Cosmic Freeze]], [[Holy Flames]], [[Reaver Orb (buff)]], and [[Reaver Rage]].
+
+== Fixes ==
+*Fixed [[Aquatic Parasite]] and Cryogen's Shield's gores spawning in the wrong place.
+*Fixed a sheeting error on [[Plants#Trees|Astral Monolith saplings]].
+*Fixed a bug with Astrum Deus' mines, which caused them to damage the player before becoming stationary.
+*Fixed [[Aureus Spawn]]s not spawning in Boss Rush.
+*Fixed Calamity [[Bathtubs]] not counting as [[Tables]].
+*Fixed Boss Rush Eater of Worlds not spawning correctly.
+*Fixed Brimstone Elemental's cocoon barrages not always going in the right direction.
+*Fixed the [[Cosmilite Sconce]] causing other mods that added furniture to crash.
+*Fixed Calamity's defense reducing debuffs not working properly.
+*Fixed a bug that caused The Destroyer to be nearly invincible in Normal and Expert Mode.
+*Fixed certain projectiles causing the player's dodges to activate even if said projectile deals no damage.
+*Fixed an issue that caused the [[Eidolon Staff]] to make more noise than intended.
+*Fixed a bug preventing the player from despawning [[Elemental Axe]]'s minions.
+*Fixed a tModLoader bug which caused the player to take fall damage while on mounts while wearing Calamity wings.
+*Fixed Calamity furniture activating right click functions of items when clicked.
+*Fixed a sheeting error on [[Hive (enemy)|Hive]].
+*Fixed Jungle Dragon, Yharon's Infernadoes dealing no damage.
+*Fixed [[Omniblade]]'s hitbox.
+*Fixed a bug where the Onyx Excavator Key's drill could destroy [[Chest]]s.
+*Fixed the [[Plague Infuser]] not being placed properly.
+*Fixed a bug with [[Plague Mine]]'s contact damage.
+*Fixed a vanilla bug where Plantera's Expert Mode contact damage was lower than intended.
+*Fixed [[Revengeance]]'s tooltip saying that Adrenaline burnout happens after 3 seconds instead of 5.
+*Fixed [[Sanguine Flare]] looking odd when held out.
+*Fixed Signus, Envoy of the Devourer's scythes spawning in the wrong place.
+*Fixed the hold offsets for [[Slag Magnum]] and [[Voidragon]].
+*Fixed an issue where [[Terra Edge]] was making the wrong use sound.
+*Fixed [[The Transformer]]'s tooltip spelling "electrical" as "elctrical".
+
+== Removals ==
+*Removed [[Ashen Key]].
+*Removed [[Locked Ashen Chest]].
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

@@ -1,0 +1,30 @@
+{{item infobox
+|name = Eutrophic Shelf
+|type = Furniture
+|type2 = Crafting station
+|placeable = Yes
+|auto = yes
+|width = 3
+|height = 3
+|stack = 9999
+|consumable = Yes
+|rare = 0
+| color = #BF8E6F
+|use = 14
+| tooltip = Used for special crafting
+| sell = No value
+}}
+
+The '''Eutrophic Shelf''' is a [[Pre-Hardmode]] [[crafting station]] used to craft the [[Furniture sets|Eutrophic furniture set]] themed around the [[Sunken Sea]]. It can only be placed sideways on blocks.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used to craft ===
+{{ajax|Recipes/Eutrophic Shelf|width=40%}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:富养制造架]]

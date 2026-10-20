@@ -1,0 +1,53 @@
+{|align=right
+|{{item infobox
+| imagealt = [[File:Abyss Water Fountain.png]] [[File:Astral Water Fountain.png]] [[File:Sulphuric Water Fountain.png]] [[File:Sunken Water Fountain.png]]
+| type = Furniture
+| auto = yes
+| placeable = yes
+| width = 2
+| height = 4
+| use = 14
+| rare = 0
+| stack = 9999
+| color = Varies
+| buy = {{gc|4}}
+| sell = {{value|0|0|80}}
+}}
+|-
+|
+{| class="terraria" align="right" style="width:19em"
+! colspan="2" | Placed Water Fountains
+|-
+| [[File:Water Fountains (Calamity).gif|center]]
+|}
+|}
+
+'''Water Fountains''' are [[furniture]] items that change the color of all nearby water. They can be activated via right-click or wiring. The Calamity Mod currently adds four different fountains to the game, all of which are purchased from the [[Witch Doctor]] for {{gc|4}}. Abyss and Astral Water Fountains are only available in [[Hardmode]].
+
+{| class="terraria lined"
+! Water Fountain
+! Water Color
+! Map Color
+|-
+| {{item|Abyss Water Fountain|nolink=y}} || Deep blue as in [[Abyss]]. || {{color|#475D6B ●|#475D6B}}
+|-
+| {{item|Astral Water Fountain|nolink=y}} || Light Purple as in [[Astral Infection]]. || {{color|#3B324D ●|#3B324D}}
+|-
+| {{item|Sulphuric Water Fountain|nolink=y}} || Turquoise as in [[Sulphurous Sea]]. || {{color|#68C3FF ●|#68C3FF}}
+|-
+| {{item|Sunken Water Fountain|nolink=y}} || Cyan as in [[Sunken Sea]]. || {{color|#68C3FF ●|#68C3FF}}
+|-
+|}
+
+== Notes ==
+*Unlike vanilla Water Fountains, these are automatically activated when placed.
+*The effects of the Fountains are purely cosmetic. They have no effect on [[Fishing]], etc.
+*Water Fountains will ''not'' color [[Waterfall Block]]s, or their respective wall.
+*Water Fountains will change the color of water when the player is within about 100 blocks of the fountain.
+
+{{-}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:喷泉]]

@@ -1,0 +1,103 @@
+{{item infobox
+| image = Heart of the Elements.gif
+| type = Covering
+| tooltip = The bart of the world<br/>Summons all elementals to protect you
+| buff = Bart of the Elements (buff) | bufflink = no
+| bufftip = All elementals will protect you
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| debuffduration = 4 seconds (Brimstone fireballs)
+| element1 = Cold
+| element2 = Fire
+| element3 = Poison
+| element4 = Stab
+| element5 = Slash
+| element6 = Dark
+| element7 = Water
+| element8 = Unholy
+| rare = rainbow
+| sell = {{value|0|16}}
+| stack = 1
+| hardmode = yes
+| damage = 90
+| damagetype = Summon
+| boxwidth = 22em
+}}
+{{summoned|type=minion|Sulphur Elemental|name=Sulphur Elemental|minion2=Sand Elemental|minion3=Rare Sand Elemental|minion4=Anahita|minion5=Cloud Elemental (minion)|minion6=Brimstone Elemental (minion)|minion7=Plague Elemental}}
+
+The '''Heart of the Elements''' is a craftable Godseeker Mode [[covering]]. It will summon all of the Elementals to assist the player and attack enemies.
+
+When equipped, the Heart of the Elements will summon a [[Rose Stone|Brimstone Elemental]], a [[Elemental in a Bottle|Sand Elemental]], a [[Eye of the Storm|Cloud Elemental]],a [[Prehistoric Tablet|Sulphur Elemental]], a [[Infected Remote|Plague Elemental]], and a [[Pearl of Enthrallment|Water Elemental]] to attack nearby enemies and a [[Rare Elemental in a Bottle| Rare Sand Elemental]] to heal the player. Elementals have a base damage of 90, and are affected by summon damage bonuses.
+
+== Projectiles ==
+{| class="terraria lined"
+|-
+! colspan=2 style="padding:0 15px" | Type !! Source !! Note
+|-
+| {{item|Brimstone Hellfireball|ext=gif|mode=table|nolink=y}}
+| Brimstone Elemental
+| Pierces once and inflicts the [[Brimstone Flames]] debuff. On impact with an object, the brimstone fireball explodes, lasting for about 1 second. Not affected by gravity
+|-
+| {{item|Frost Mist|ext=gif|mode=table|nolink=y}}
+| Anahita
+| Change their direction after travelling around 45 blocks.
+|-
+| {{item|Magical Note|mode=table|nolink=y}}
+| Anahita
+| Become slower after travelling around 50 blocks. Not affected by gravity.
+|-
+| {{item|Water Spear|mode=table|nolink=y}}
+| Anahita
+| Have higher velocity than Anahita's other projectiles. Not affected by gravity.
+|-
+| {{item|Mini Plaguebringer|mode=table|nolink=y}}
+| Plague Elemental
+| Charge at enemies up to five times before disappearing.
+|-
+| {{item|Sulphuric Raincloud|ext=gif|mode=table|nolink=y}}
+| Sulphur Elemental
+| Rains down projectiles that inflict [[Sulphuric Poisoning]].
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*All of the elementals' attacks grant enemies 20 local [[immunity frames]], except for the Sand Elemental that grants 30 local immunity frames with contact damage.
+*The Heart of the Elements will not work if used along with the [[Heart of the Machines]].
+
+== Tips ==
+*This covering  can be very helpful when performing less combat-oriented tasks such as [[Fishing|fishing]], as the elementals will keep most normal enemies at bay and allow the player's full attention to be focused on what they're doing.
+*[[Potions]] such as [[Heartreach Potion]] and [[Cadance Potion|cadence]] [[Cadance Potion|potion]] effectively grant homing to the Rare Sand Elemental's healing orbs.
+
+== Trivia ==
+*This item has the {{rare|rainbow}} rarity despite not being an [[Expert Mode]]-exclusive item.
+*Despite being an "elemental" covering similar to the [[Elemental Gauntlet]] or [[Elemental Quiver|Quiver]], it is craftable before defeating The Devourer of Gods.
+*Elementals summoned by this covering formerly had different names:
+**The Sand Elemental minion used to be called "Sand Waifu". After that, she was known as "Miss Sandy".
+**The Rare Sand Elemental minion used to be called "Rare Sand Waifu". After that, she was known as "Madame Sandy".
+**The Cloud Elemental minion used to be called "Cloudy Waifu". After that, she was known as "Miss Cloudy".
+**The Brimstone Elemental minion used to be called "Brimmy Waifu". After that, she was known as "Miss Brimmy".
+**The Sulphur Elemental minion used to be called "Acid Waifu". After that, she was known as "Miss Sophie".
+**The Anahita minion used to be called "Siren Lure", which spawned during previous versions of the [[Leviathan and Anahita]] fight.
+*Fittingly for the item's name and summons, most of the Elemental minions seem to correspond to one of the classical Greek elements:
+**The Brimstone Elemental minion corresponds to fire.
+**The Cloud Elemental minion corresponds to air.
+**The two Sand Elemental minions correspond to earth.
+**The Anahita minion and Sulphur Elemental both correspond to water.
+**The Plague Elemental is the only exception to this, with her inclusion being a reference to the retroactive addition to the horseman of Pestilence to the [[wikipedia:Four_Horsemen_of_the_Apocalypse|Four Horsemen of the Apocalypse]].
+*If the {{fantag|Tranquility Mod}} [[Tranquility Mod]] is enabled, this item becomes unobtainable, due to being replaced with [[Elemental Souls|Elemental Soul]].
+
+{{Master Template Equipables
+|show-main = yes
+|show-combat = yes
+}}
+[[Category:Healing items]]
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]
+[[Category:Legendary+ Items]]

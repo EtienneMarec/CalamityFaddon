@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 20
+| mana = 14
+| tooltip = Fires a spread of brimstone beams
+| knockback = 7
+| rare = 5
+| sell = {{value|0|7|20}}
+| use = 30
+| velocity = 6
+| stack = 1
+| hardmode = yes
+| debuff = Brimstone Flames
+| debuffduration = 2 seconds
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| element1 = Unholy
+| element2 = Fire
+| element3 = Poison
+}}
+{{distinguish|Brimrose|a Godseeker Mode [[mount]]-summoning item}}
+[[File:Brimrose Staff (demo).gif|frame|right|The Brimrose Staff's splitting and rebounding beams.]]
+
+The '''Brimrose Staff''' is a craftable [[Hardmode]] [[wand]]. When used, it fires a single short laser beam that instantly splits into two beams, with the resulting beams also splitting into two more beams. There are a total of four splits, resulting in an immediate flower of 16 beam-endings being created a short distance from the player in the direction fired. The beams inflict the [[Brimstone Flames]] [[debuff]] and do not pierce enemies. The beams will bounce off of tiles, causing subsequent splits to have skewed angles and be shorter in size.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Unholy Core}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

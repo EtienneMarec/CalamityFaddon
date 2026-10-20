@@ -1,0 +1,413 @@
+{{Patch infobox
+| image = The Plaguebringer Goliath (1.2.2.005).png
+| patchname = Boss Health Bar Update
+| release = 7/22/2018
+}}
+{{toc limit|3|right=yes}}
+
+The '''1.3.4.001''' update added the [[Boss Health Bar]], reworked [[The Plaguebringer Goliath]], and overhauled the [[Profaned Crag]] [[biome]]. It also added 9 new [[lore items]], adjusted the health values and resistances of most of the game's bosses, and buffed the [[Cursed Inferno]] debuff.
+
+== Additions ==
+*Added Boss Health Bar.
+*Added [[Halibut Cannon]].
+*Added [[Brimling]] and [[Plague Homing Missile]].
+*Added [[Revivify Potion]].
+*Added [[Revivify]].
+*Added [[Iron Heart]].
+*Added [[Brimstone Slag]] (item) and [[Smooth Brimstone Slag]].
+*Added [[Brimstone Slag Wall]] and [[Smooth Brimstone Slag Wall]].
+*Added [[Music Box (Crabulon)]], [[Music Box (Desert Scourge)]], and [[Music Box (Slime God)]].
+*Added [[Astrageldon Trophy]], [[Astrum Deus Trophy]], and [[Brimstone Elemental Trophy]].
+*Added [[Lore items]] for [[Aquatic Scourge]], [[Astrageldon Slime]], [[Astrum Deus]], [[Brimstone Elemental]], [[Golem]], [[The Plaguebringer Goliath]], [[Ravager]], [[Blood Moon|The Red Moon]], and [[Siren and Leviathan]].
+<!---Duke Fishron and Cultist got lore items which replaced Death of DS and EoC respectively--->
+*Added a unique map background for the [[Sulphurous Sea]].
+
+== Changes ==
+=== Bosses ===
+==== [[Aquatic Scourge]] ====
+*Buffed health from {{dv|63,000|100,800|110,400|184,320}} to {{dv|73,000|116,800|129,600|152,000}}.
+*Now fires less sand teeth in Normal Mode.
+*Now drops its own lore item.
+*Now takes 50% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Astrageldon Slime]] ====
+*Nerfed base health from {{dv|83,000|132,800|150,400|240,000}} to {{dv|61,000|97,600|112,800|164,000}}.
+*Can now drop an Astrageldon Trophy.
+*Now drops its own lore item.
+*Now takes 50% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Astrum Deus]] ====
+*Nerfed spectral worm health from {{dv|40,000|64,000|80,000|128,000}} to {{dv|25,000|40,000|54,000|82,000}}.
+*Nerfed small worm health from {{dv|11,000|17,600|20,800|41,600}} to {{dv|8000|12,800|17,280|26,240}}.
+*Can now drop an Astrum Deus Trophy.
+*Now drops its own lore item.
+*Both the spectral worm and smaller worms now take 50% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Brain of Cthulhu]] ====
+*Lowered health modifier from {{dv|0|0|1.8x|3.4x}} to {{dv|0|0|1.25x|1.75x}}.
+*Increased rate at which Creepers spawn.
+*Now has a maximum of 15 Creepers at a time instead of 10.
+
+==== [[Brimstone Elemental]] ====
+*Now spawns Brimlings throughout the fight.
+*No longer enrages and gains 99,999 defense when out of [[The Underworld]].
+*Reduced aggression when out of the [[Profaned Crag]].
+*Can now drop a Brimstone Elemental Trophy.
+*Now drops its own lore item.
+*Now takes 50% damage if the player has [[Vortex armor]]'s stealth active and 12.5% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Bumblebirb]] ====
+*Nerfed health in Death Mode from {{death|1,200,000}} to {{death|1,000,000}}.
+*Both the main Bumblebirb and its clones are no longer immune to [[Cursed Inferno]].
+*Now takes 50% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Calamitas]] ====
+*Nerfed phase 1's base health from {{dv|12,000|19,200|21,600|48,000}} to {{dv|10,000|16,000|21,600|32,800}}.
+**Nerfed post-Providence health from {{dv|140,000|224,000}} to {{dv|80,000|128,000}}.
+*Changed phase 2's base health from {{dv|27,000|43,200|48,000|96,000}} to {{dv|27,500|44,000|54,000|90,000}}.
+**Nerfed post-Providence health from {{dv|200,000|320,000}} to {{dv|120,000|192,000}}.
+*Nerfed Cataclysm's base health from {{dv|||9000|18,000}} to {{dv|||8100|9000}}.
+**Nerfed post-Providence health from {{dv|60,000|120,000}} to {{dv|35,000|70,000}}.
+*Nerfed Catastrophe's base health from {{dv|||7600|16,000}} to {{dv|||6750|8000}}.
+**Nerfed post-Providence health from {{dv|50,000|100,000}} to {{dv|30,000|60,000}}.
+*Nerfed [[Soul Seeker]]'s health from {{dv|5000|1000}} to {{dv|3750|7500}}.
+*Both phases and both brothers now take 50% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Crabulon]] ====
+*Nerfed health from {{dv|3800|6080|7200|16,800}} to {{dv|1800|2880|3520|9240}}.
+*Now spawns less [[Crab Shroom]]s in Normal Mode.
+
+==== [[Cryogen]] ====
+*Nerfed health from {{dv|22,500|36,000|40,000|88,000}} to {{dv|17,900|28,640|32,400|49,200}}.
+*Nerfed Cryogen's Shield's health from 2000 to 1200.
+*No longer becomes invincible when out of the [[Snow biome]].
+*Increased aggressiveness when outside of the Snow biome.
+*Now takes 50% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Desert Scourge]] ====
+*Nerfed health from {{dv|4000|6400|7200|16,320}} to {{dv|2300|3680|4000|7840}}.
+*No longer takes 80% damage from and reduces piercing of [[Molotov Cocktail]]s.
+*No longer takes 50% damage from explosives.
+*No longer drops Duke Fishron (lore item).
+
+==== [[The Destroyer]] ====
+*Changed health modifier from {{dv|0|0|1.1x|2.1x}} to {{dv|0|0|1.15x|1.5x}}.
+*Now takes 50% damage from Crystal Bullet crystal shards and Holy Arrow stars.
+*No longer forces projectiles to pierce at most 4 times.
+*No longer takes 65% damage from [[Crystal Serpent]]'s split projectiles, [[Crimson Rod]], [[Nimbus Rod]], and [[Shaderain Staff]]'s rain projectiles, or [[Vilethorn]]-like projectiles in Revengeance Mode.
+
+==== [[The Devourer of Gods]] ====
+*Phase 2 no longer gains new laser patterns as its health lowers and is instead now able to use all of them immediately once hitting 60% health.
+*All of phase 1's segments now take 12.5% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets instead of 50%.
+
+==== [[Duke Fishron]] ====
+*Lowered health modifier from {{dv|0|0|1.9x|3.2x}} to {{dv|0|0|1.5x|3.175x}}.
+*Now drops Duke Fishron (lore item).
+*Body now takes 25% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Eater of Worlds]] ====
+*Lowered health modifier from {{dv|0|0|1.35x|2.05x}} to {{dv|0|0|1.25x|1.35x}}.
+
+==== [[Eye of Cthulhu]] ====
+*Lowered health modifier from {{dv|0|0|1.8x|4.6x}} to {{dv|0|0|1.1x|2.15x}}.
+*No longer drops Lunatic Cultist (lore item).
+
+==== [[Golem]] ====
+*Lowered body's health modifier from {{dv|0|0|5x|10x}} to {{dv|0|0|2.5x|7.5x}}.
+*Now drops its own lore item.
+*Body now takes 25% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[The Hive Mind]] ====
+*[[Hive Blob]]s no longer fire vile clot projectiles.
+*Greatly decreased speeds of all of phase 2's attacks.
+*Phase 2 can now spawn up to 4 Hive Blobs at a time instead of 3.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Nerfed health from {{dv|2,400,000|3,840,000|4,000,000|7,200,000}} to {{dv|1,900,000|3,040,000|3,360,000|4,000,000}}.
+*No longer immune to Cursed Inferno, [[Demon Flames]], and [[Shred]].
+*Bumblebirbs are no longer immune to Cursed Inferno.
+*Now takes 12.5% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets instead of 50%.
+*Tweaked damage resistance formula.
+
+==== [[King Slime]] ====
+*Lowered health modifier from {{dv|0|0|1.7x|2.9x}} to {{death|1.75x}}.
+
+==== [[Lunatic Cultist]] ====
+*Lowered health modifier from {{dv|1.5x||2x|4x}} to {{dv|1.15x||1.3x|2x}}.
+*Lowered Phantasm Dragon's health modifier from {{dv|0|0|8x|16x}} to {{dv|0|0|5x|10x}}.
+*Now drops Lunatic Cultist (lore item) and The Red Moon.
+*Now takes 25% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Moon Lord]] ====
+*Changed hand and head health modifiers from {{dv|0|0|1.1x|1.6x}}to {{dv|0|0|1.5x|1.15x}}.
+*Changed core's health modifier from {{dv|0|0|1.4x|2.5x}} to {{dv|0|0|1.5x|2x}}.
+*True Eyes of Cthulhu no longer gain a {{death|300x}} health modifier in Death Mode and now share Revengeance Mode's {{revengeance|150x}} health modifier.
+*Lowered how long it takes for its head eye to fire Phantasmal Deathrays in Death Mode.
+*Body, True Eyes of Cthulhu, hands, and head now take 25% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[The Perforators]] ====
+*Nerfed The Perforator Hive's health from {{dv|2800|4480|6400|15,200}} to {{dv|2500|4000|5000|7000}}.
+*Nerfed the small Perforator's health from {{dv|2500|3500}} to {{dv|2000|2800}}.
+*Nerfed the medium Perforator's health from {{dv|3500|4900}} to {{dv|3000|4200}}.
+*Nerfed the large Perforator's health from {{dv|4500|6300}} to {{dv|3500|4900}}.
+*The Perforator Hive now only becomes invincible when the large Perforator is alive.
+*The Perforator Hive now plays a sound and creates a small, harmless dust burst whenever it shoots a volley of projectiles.
+*Slightly increased the speed of all three Perforators.
+*The Perforator Hive now drops {{expert|15-31}} [[Ichor]] in Hardmode in Expert Mode. 
+
+==== [[The Plaguebringer Goliath]] ====
+*Changed health from {{dv|52,000|83,200|89,600|296,000}} to {{dv|58,500|93,600|113,400|160,000}}.
+*Nuke barrage attack reworked:
+**No longer a spread of missiles that launch downwards from above the player.
+**The Plaguebringer Goliath will now move upwards, to either side of the player then charge back and forth while launching several rounds of missiles.
+*Now spawns Plague Homing Missiles.
+*Now drops her own lore item.
+*Can now charge at the player diagonally instead of needing to line up with them horizontally before charging.
+*Decreased missile explosion size by 50%. 
+*No longer immune to Cursed Inferno.
+*Now takes 25% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+*Tweaked screen shader.
+
+==== [[Plantera]] ====
+*Lowered health modifier from {{dv|0|0|2.3x|6.2x}} to {{dv|0|0|1.35x|2.381x}}.
+
+==== [[Polterghast]] ====
+*Nerfed health from {{dv|330,000|528,000|560,000|1,000,000}} to {{dv|300,000|480,000|560,000|760,000}}.
+*Polterghast and its clone are longer immune to [[Abyssal Flames]], Demon Flames, [[God Slayer Inferno]], [[Nightwither]], and Shred.
+*Polterghast and its clone now take 12.5% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets instead of 25%.
+*Tweaked damage resistance formula.
+
+==== [[Profaned Guardians]] ====
+*Buffed main guardian's health from {{dv|80,000|128,000}} to {{dv|102,500|164,000}}.
+*Buffed rock guardian's health from {{dv|30,000|42,000}} to {{dv|40,000|56,000}}.
+*Buffed crystal guardian's health from {{dv|20,000|28,000}} to {{dv|25,000|35,000}}.
+*All three guardians are no longer immune to Cursed Inferno.
+
+==== [[Providence, the Profaned Goddess]] ====
+*Renamed from Providence, the Profaned God to Providence, the Profaned Goddess.
+*Nerfed health in Death Mode from {{death|800,000}} to {{death|560,000}}.
+*Nerfed offensive guardian's health from {{dv|40,000|80,000}} to {{dv|37,500|75,000}}.
+*Buffed defensive guardian's health from {{dv|20,000|40,000}} to {{dv|21,875|43,750}}.
+*Buffed healer guardian's health from {{dv|30,000|60,000}} to {{dv|37,500|75,000}}.
+*Increased offensive guardian's speed.
+*Increased minimum distance required for the player to be inflicted with [[Holy Inferno]].
+*Providence and all three of her guardians are longer immune to Cursed Inferno.
+*Now takes 12.5% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets instead of 25%.
+*No longer takes 70% damage from [[Galactus Blade]]'s comets.
+*Tweaked damage resistance formula.
+
+==== [[Queen Bee]] ====
+*Lowered health modifier from {{dv|0|0|1.7x|3.1x}} to {{death|1.5x}}.
+
+==== [[Ravager]] ====
+*Nerfed body health from {{dv|61,000|97,600|104,000|272,000}} to {{dv|42,700|68,320|82,080|136,000}}.
+*Nerfed head health from {{dv|40,000|80,000}} to {{dv|30,705|61,410}}.
+*Nerfed claw health from {{dv|13,000|26,000}} to {{dv|10,120|20,240}}.
+*Nerfed leg health from {{dv|26,000|52,000}} to {{dv|20,010|40,020}}.
+*Now drops its own lore item.
+*All body parts are no longer immune to Cursed Inferno.
+*Body now takes 25% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Siren and Leviathan]] ====
+*Changed The Siren's health from {{dv|21,000|33,600|40,000|76,000}} to {{dv|23,800|38,080|45,952|64,000}}.
+*Nerfed The Leviathan's health from {{dv|79,000|126,400|140,800|352,000}} to {{dv|60,000|96,000|114,880|240,000}}.
+*Nerfed [[Ice Shield]]'s health from {{dv|800|1600}} to {{dv|500|1000}}.
+*The Siren now switches phases quicker.
+*Now drops their own lore item.
+*Both the Siren and Leviathan now take 50% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Nerfed health from {{dv|300,000|480,000||1,000,000}} to {{dv|280,000|448,000||856,000}}.
+**Nerfed health during the Devourer of Gods fight from {{dv|160,000|256,000||320,000}} to {{dv|140,000|224,000|248,000}}.
+*No longer immune to Cursed Inferno.
+*Now takes 50% damage if the player has Vortex armor's stealth active and 12.5% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Skeletron]] ====
+*Lowered health modifier from {{dv|0|0|1.1x|2.3x}} to {{dv|0|0|0|1.15x}}.
+*Lowered hand health modifier from {{dv|0|0|2.2x|4.6x}} to {{dv|0|0|1.2x|1.3x}}.
+
+==== [[Skeletron Prime]] ====
+*Changed health modifier for the head, cannon, saw, and vice from {{dv|0|0|1.1x|2.2x}} to {{dv|0|0|1.35x|2x}}.
+*Can now do its laser ring attack in Death Mode regardless of whether or not the Prime Laser is alive.
+
+==== [[The Slime God]] ====
+*Buffed the core's health from {{dv|2400|3840|4800|8000}} to {{dv|3000|4800|6000|8400}}.
+*Nerfed Ebonian Slime God's health from {{dv|5000|8000|9600|16,000}} to {{dv|4000|6400|8000|11,200}}.
+*Nerfed Crimulan Slime God's health from {{dv|4000|6400|8000|12,800}} to {{dv|3500|5600|7000|9800}}.
+*Nerfed split Ebonian Slime God's health from {{dv|2500|4000|4800|8000}} to {{dv|2000|3200|4000|5600}}.
+*Nerfed split Crimulan Slime God's health from {{dv|2000|3200|4000|6400}} to {{dv|1750|2800|3500|4900}}.
+
+==== [[Storm Weaver]] ====
+*Head and tail segments for both phases now take 50% damage if the player has Vortex armor's stealth active and 12.5% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Supreme Calamitas]] ====
+*Nerfed health from {{dv|5,500,000|8,800,000|10,000,000|20,000,000}} to {{dv|5,000,000|8,000,000|8,800,000|10,000,000}}.
+*Nerfed brothers' healths in Death Mode from {{death|2,000,000}} to {{death|1,000,000}}.
+*Nerfed [[Brimstone Heart]] health in Death Mode from {{death|400,000}} to {{death|300,000}}.
+*Nerfed Soul Seeker's health from {{dv|10,000|20,000}} to {{dv|5000|10,000}}.
+*Now takes no damage from hits that take 4% or more of her max health instead of 5%.
+*No longer immune to Cursed Inferno.
+*Now take 12.5% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets instead of 25%.
+*Now takes 4% damage from [[Apotheosis]]' jaws and lasers.
+*Tweaked damage resistance formula.
+
+==== [[The Twins]] ====
+*Lowered the health modifier for both eyes from {{dv|0|0|1.4x|2.5x}} to {{dv|0|0|1.35x|1.6x}}.
+
+==== [[Wall of Flesh]] ====
+*Lowered health modifier from {{dv|0|0|1.9x|4.2x}} to {{dv|0|0|1.5x|2.05x}}.
+
+=== Enemies ===
+*Most [[Abyss]] enemies can now drop the Halibut Cannon at varying rates. These rates can be found here:
+{{collapse top|Halibut Cannon drop rates (Click to open)|(Click to collapse)}}
+{| class="terraria lined"
+! Drop Chance !! Enemies
+|-
+| 0.01%
+| [[Bloatfish]] {{-}} [[Bobbit Worm]] {{-}} [[Giant Squid]] {{-}} [[Gulper Eel]] {{-}} [[Laserfish]] {{-}} [[Luminous Corvina]] {{-}} [[Mirage Jelly]] {{-}} [[Oarfish]] {{-}} [[Toxic Minnow]] {{-}} [[Viperfish]]
+|-
+| 1%
+| [[Colossal Squid]] {{-}} [[Eidolon Wyrm (juvenile)]] {{-}} [[Reaper Shark]]
+|-
+| 10%
+| [[Eidolon Wyrm (adult)]]
+|}
+{{Collapse bottom}}
+*Enemy damage reduction is now exclusive to Revengeance and Death Mode.
+*Lowered post-Moon Lord's health modifier on enemies from 7x to 3.5x.
+*Lowered Irradiated Rain's health modifier on enemies from 1.25x to 1.15x.
+*Lowered post-Moon Lord [[Dungeon]]'s health modifier on enemies from 5x to 2.5x.
+*Lowered post-Devourer of Gods [[Pumpkin Moon]]'s health modifier on enemies from 15x to 7.5x.
+*Lowered post-Devourer of Gods [[Frost Moon]]'s health modifier on enemies from 12x to 6x.
+*Lowered buffed [[Solar Eclipse]]'s health modifier on enemies from 65x to 32x.
+*Nerfed [[Aquatic Parasite]]'s health from {{dv|40|80}} to {{dv|30|60}}.
+*Nerfed [[Aquatic Seeker]]'s health from {{dv|100|200}} to {{dv|60|120}}.
+*Nerfed [[Aquatic Urchin]]'s health from {{dv|80|160}} to {{dv|50|100}}.
+*Nerfed [[Astral Head]]'s health from {{dv|110|220}} to {{dv|60|120}}.
+*Nerfed [[Astral Probe]]'s health from {{dv|120|240}} to {{dv|70|140}}.
+*Nerfed [[Astral Slime]]'s health from {{dv|150|300}} to {{dv|90|180}}.
+*Nerfed [[Bloatfish]]'s health from {{dv|20,000|40,000}} to {{dv|12,000|24,000}}.
+*Nerfed [[Bobbit Worm]]'s health from {{dv|10,000|20,000}} to {{dv|7000|14,000}}.
+*Nerfed [[Box Jellyfish]]'s health from {{dv|85|170}} to {{dv|45|90}}.
+*Nerfed [[Catfish (enemy)|Catfish]]'s health from {{dv|200|400}} to {{dv|120|240}}.
+*Nerfed [[Colossal Squid]]'s health from {{dv|250,000|500,000}} to {{dv|165,000|330,000}}.
+*Colossal Squids and Reaper Sharks are no longer immune to Cursed Inferno.
+*Nerfed [[Cultist Assassin]]'s base health from {{dv|150|300}} to {{dv|80|160}}.
+*Nerfed [[Cuttlefish]]'s health from {{dv|90|180}} to {{dv|55|110}}.
+*Nerfed [[Despair Stone]]'s base health from {{dv|200|400}} to {{dv|120|240}}.
+*[[Diabolist]]s, [[Necromancer]]s, [[Ragged Caster]]s, and [[Rune Wizard]]s no longer have modified behavior when hit.
+*Nerfed [[Eidolist]]'s health from {{dv|16,000|32,000}} to {{dv|13,000|26,000}}.
+*Nerfed [[juvenile Eidolon Wyrm]]'s health from {{dv|300,000|600,000}} to {{dv|200,000|400,000}}.
+*Nerfed [[adult Eidolon Wyrm]]'s health from {{dv|30,000,000|60,000,000}} to {{dv|1,000,000|2,000,000}}.
+*Nerfed [[Flounder]]'s health from {{dv|60|120}} to {{dv|40|80}}.
+*Nerfed [[Frogfish]]'s health from {{dv|110|220}} to {{dv|80|160}}.
+*Nerfed [[Giant Squid]]'s health from {{dv|300|600}} to {{dv|200|400}}.
+*Nerfed [[Gnasher]]'s health from {{dv|65|130}} to {{dv|35|70}}.
+*[[Great Sand Shark]] now takes 50% damage from Crystal Bullet crystal shards and Holy Arrow stars.
+*Buffed [[Gulper Eel]]'s health from {{dv|25,000|50,000}} to {{dv|35,000|70,000}}.
+*Nerfed [[Laserfish]]'s health from {{dv|200|400}} to {{dv|120|240}}.
+*Nerfed [[Luminous Corvina]]'s health from {{dv|500|1000}} to {{dv|400|800}}.
+*Nerfed [[Mantis Shrimp]]'s health from {{dv|50|100}} to {{dv|30|60}}.
+*Nerfed [[Mauler]]'s health from {{dv|180,000|360,000}} to {{dv|120,000|240,000}}.
+*Nerfed [[Mirage Jelly]]'s health from {{dv|7500|15,000}} to {{dv|5000|10,000}}.
+*Mirage Jellies now drop [[Life Jelly]], [[Mana Jelly]], or [[Vital Jelly]] at a {{dv|14.29%|20%}} chance each.
+*Nerfed [[Moray Eel]]'s health from {{dv|180|360}} to {{dv|110|220}}.
+*Nerfed [[Oarfish]]'s health from {{dv|3000|6000}} to {{dv|2000|4000}}.
+*Nerfed Reaper Shark's health from {{dv|226,000|452,000}} to {{dv|150,000|300,000}}.
+*Nerfed [[Scryllar]] (normal)'s base health from {{dv|150|300}} to {{dv|90|180}}.
+*Nerfed Scryllar (rage)'s base health from {{dv|90|180}} to {{dv|50|100}}.
+*Nerfed [[Sea Urchin]]'s health from {{dv|50|100}} to {{dv|30|60}}.
+*Nerfed [[Soul Slurper]]'s health from {{dv|100|200}} to {{dv|60|120}}.
+*Flipped the sprites for both [[Stasis Probe]]s.
+*Nerfed [[Stormlion]]'s defense from 18 to 9.
+*Nerfed [[Toxic Minnow]]'s health from {{dv|300|600}} to {{dv|240|480}}.
+*Nerfed [[Trasher]]'s health from {{dv|350|700}} to {{dv|200|400}}.
+*Nerfed [[Viperfish]]'s health from {{dv|120|240}} to {{dv|80|160}}.
+
+=== Items ===
+*[[Arch Amaryllis]]' main bolt now ignores 7 [[immunity frames]] instead of 1.
+*Nerfed [[Archerfish]]'s damage from 26 to 23.
+*Magic [[Auric Tesla armor]]'s set bonus' healing now has a cooldown of 1.5 seconds instead of having a 50% chance to activate on projectile hits and now heals the player for 1% of their health instead of 0.5%.
+*Ranged [[Bloodflare armor|Bloodflare]] and [[Tarragon armor]]'s critical strike chance induced damage boosts now cap at 15%.
+*[[Bloody Worm Scarf]] now has an equipped sprite.
+*Nerfed [[Clockwork Bow]]'s damage from 130 to 100.
+*[[Counter Scarf]]'s [[Scarf Boost]] now boosts melee damage by 20% instead of 20.00000476837158%.
+*[[Dark Sun Ring]] no longer raises the Revengeance Mode damage and critical strike chance caps by 5%.
+*Reworked the Death of The Desert Scourge lore item into a Duke Fishron lore item.
+**Increased rarity from {{rare|1}} to {{rare|8}}.
+**Changed tooltip from "I pitied its very existence. At least you put it out of its starvation-fueled misery." to "The mutant terror of the sea was once the trusted companion of an old king who tamed it using its favorite treat. Long ago, the creature flew in desperation from the raging bloody inferno consuming its home, ultimately finding its way to the ocean."
+*Reworked the Death of The Eye of Cthulhu lore item into a Lunatic Cultist lore item.
+**Increased rarity from {{rare|1}} to {{rare|9}}.
+**Changed tooltip from "Must have been some poor monstrosity shunned by those more powerful than it. ...or perhaps it is just one of many that lurk in the night." to "The gifted one that terminated my grand summoning so long ago with his uncanny powers over the arcane. Someone I once held in such contempt for his actions is now...deceased, his sealing ritual undone...prepare for the end. Your impending doom approaches..."
+*[[Determination Breaker]] no longer drains life from enemies.
+*Increased [[Flamebeak Hampick]]'s pickaxe power from 205 to 210.
+*Nerfed [[Galactus Blade]]'s damage from 105 to 95.
+*Buffed [[Genisis]]' damage from 26 to 52.
+*Nerfed [[Helstorm]]'s damage from 24 to 21.
+*Nerfed [[Leviatitan]]'s damage from 103 to 93.
+*[[Lunic Eye]] and [[Marked Magnum]] now inflict [[Marked for Death]] for 2.5 seconds instead of 5.
+*Nerfed [[Magna Striker]]'s damage from 48 to 42.
+*Nerfed [[Mistlestorm]]'s damage from 60 to 54.
+*Increased [[Omniblade]]'s use time from 7 to 10.
+*[[Plasma Rod]] now inflicts [[Ichor (debuff)|Ichor]] for 1.5 seconds instead of 3.33.
+*[[Reaper Tooth Necklace]] no longer raises the Revengeance Mode damage and critical strike chance caps by 10%.
+*[[Shredder]] changes:
+**Nerfed damage from 33 to 25.
+**Left click blasts now deal 120% of the weapon's damage instead of 75%.
+**Right click mode no longer fires barrages of exploding, bouncing blasts, and instead, now fires barrages of normal bullets.
+**Left click blasts now produce more dust.
+*Magic [[Tarragon armor]]'s set bonus' healing now has a cooldown of 1.5 seconds instead of having a 50% chance to activate on projectile hits and now heals the player for 2% of their health instead of 1%.
+*Nerfed [[Telluric Glare]]'s damage from 85 to 70.
+*[[Terra Blade]] now deals 66% more damage.
+*Buffed [[Terra Edge]]'s damage from 87 to 150.
+*[[Terra Shiv]] changes:
+**Buffed damage from 85 to 140.
+**Beam now penetrates 4 times instead of 3, and lasts 2 seconds instead of 1.
+**Beam no longer ignores any extra immunity frames. <!---Previously ignored 5--->
+*[[Terratomere]]'s beams now deal 50% of the weapon's damage instead of 40%.
+*Nerfed [[True Forbidden Oathblade]]'s damage from 90 to 80.
+*Nerfed [[Vortexpopper]]'s damage from 23 to 15.
+
+=== Other ===
+*[[Aerialite Brick|Aerialite]], [[Astral Brick|Astral]], [[Chaotic Brick|Chaotic]], [[Perennial Brick|Perennial]], and [[Uelibloom Brick]]s now merge with all block types and can be blown up at all times.
+*Aerialite Brick, Charred Ore, and Uelibloom Bricks are now lighted.
+*Astral Brick can now be mined before Astrum Deus is defeated.
+*[[Betsy's Curse]] and Ichor no longer reduce enemy defense.
+*Brimstone Slag can now be collected.
+*Cursed Inferno now reduces enemy damage reduction by 20%.
+*The player now takes more damage when inflicted by either Cursed Inferno or Ichor in Revengeance Mode.
+*The [[Dryad]] now sells both [[Worm Food]] and [[Bloody Spine]]s regardless of world evil.
+*The player now begins with 1 Iron Heart.
+*[[Life Fruit]]s and Plantera's Bulbs are now more common.
+*Melee speed is now capped at 130% instead of 150%.
+*The Profaned Crag now generates with more houses.
+*Houses in the Profaned Crag now have natural [[Obsidian Brick Wall]]s instead of safe ones.
+*Temporal Sadness now makes the player take 50% less damage against enemies inflicted with the debuff instead of reducing enemy damage by 15.
+
+=== Resprites ===
+*Resprited [[Abyssal Flames]], [[Brimstone Flames]], and [[Demon Flames]].
+*Resprited [[Amalgamated Brain]], [[Bloody Worm Scarf]], [[Heart of Darkness]], and [[lul]].
+*Resprited [[Crabulon Trophy]] and [[Providence Trophy]].
+*Resprited [[Treasure Bag (The Slime God)]].
+*Resprited [[Eidolic Wail]], [[Herring Staff]], Leviatitan, [[Lionfish]], [[Opal Striker]], [[Soma Prime]], [[Spectralstorm Cannon]], [[Triactis' True Paladinian Mage-Hammer of Might]], and True Forbidden Oathblade.
+*Resprited Brimstone Slag and [[Charred Ore]].
+*Resprited [[Omega Healing Potion]] and [[Supreme Healing Potion]].
+*Resprited [[Wulfrum Axe]] and [[Wulfrum Hammer]].
+*Resprited [[Perennial Slime]], [[Plague Mine]], and [[Shockstorm Shuttle]]. 
+*Resprited [[Slime God Core]]'s map icon.
+*Resprited [[Cosmic Immaterializer]]'s Cosmic Energy, The Hive's Hive Bombs, and [[Strange Orb]]'s Young Siren.
+
+== Fixes ==
+*Fixed some internal inconsistencies with [[Cosmic Discharge]]'s use time.
+*Fixed Cryogen not enraging when out of the Snow biome in Death Mode.
+*Fixed several issues surrounding The Hive Mind's first phase teleportation.
+*Fixed Abyssal Flames, [[Armor Crunch]], [[Glacial State]], God Slayer Inferno, Ichor, [[Plague]], and [[Whispering Death]]'s defense reduction effects on enemies not resetting.
+*Fixed [[Mortar Round]]s having their old sprite when fired.
+*Fixed some drawing errors on Mortar Round and [[Rubber Mortar Round]]'s projectiles.
+*Fixed the Slime God Core dropping items even if any large, unsplit slime is alive.
+*Fixed some sheeting errors with [[Tarragon Helmet]], [[Tarragon Horned Helm]], [[Tarragon Mask]], and [[Tarragon Visage]].
+*Fixed all [[yoyos]] not dealing melee damage. 
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

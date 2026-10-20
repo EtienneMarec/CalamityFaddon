@@ -1,0 +1,33 @@
+<includeonly><!--
+//register localization info:
+
+-->{{l10n/register|modifier|en<!--
+	-->|none=<esc>The {{#replace:{{BASEPAGENAME}}|The |}} cannot be reforged, and therefore cannot have [[modifiers]].</esc><!--
+	-->|melee=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Legendary'''.</esc><!--
+	-->|meleealt=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Godly'''. It cannot get modifiers that affect size.</esc><!--
+	-->|meleealtlate=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Godly'''. It cannot get modifiers that affect size. '''Ruthless''' might be preferred if the player already has 100% critical strike chance.</esc><!--
+	-->|speedy=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Godly''' or '''Demonic''' for maximum damage-per-hit, or '''Deadly''' for increased speed.</esc><!--
+	-->|harvest=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Light''' for harvesting purposes and '''Legendary''' for combat purposes.</esc><!--
+	-->|harvestalt=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Legendary'''. While '''Light''' may seem to provide a better speed boost by percentages, rounding reveals that Legendary and Light [[Mining speed|mine at equal speeds]] for this tool.</esc><!--
+        -->|harvestmech=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Godly''' or '''Demonic'''. Both modifiers increase {{#if:$plural$|their|its}} average damage output by the same amount. Mechanical tools can only have universal prefixes, because they can't have their speed modified.</esc><!--
+	-->|ranged=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Unreal'''.</esc><!--
+        -->|rangedalt=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Unreal'''. But the weapon's firing speed will not be affected.</esc><!--
+	-->|rangednokb=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Unreal'''. But the weapon's knockback will not be affected due to already being 0.</esc><!--
+	-->|nokb=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Demonic''' or '''Deadly''', as it does not have any knockback and thus cannot get modifiers that affect it.</esc><!--
+        -->|nokbalt=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Demonic''', as it does not have any knockback and thus cannot get modifiers that affect it.</esc><!--
+	-->|magic=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Mythical'''.</esc><!--
+        -->|magicalt=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Mythical'''. But the weapon's use time will not be affected.</esc><!--
+        -->|magicalt2=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Godly''' or '''Mythical'''. The Mythical modifier cannot affect use time nor mana cost, making it identical to Godly.</esc><!--
+	-->|magicsummon=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Ruthless'''. The '''Mythical''' modifier provides the widest array of stat bonuses, but the only stats that improve damage output are damage and critical chance. Switching to a different magic weapon causes existing projectiles to use that weapon's critical chance instead, meaning that {{BASEPAGENAME}}'s $dps$ is optimized with the Ruthless modifier when used in the intended way.</esc><!--
+	-->|magicnokb=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Mythical'''. But the weapon's knockback will not be affected due to already being 0.</esc><!--
+	-->|magiclow=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Mythical'''. But the weapon's mana cost will not be affected.</esc><!--
+	-->|summon=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Ruthless'''. The Mythical modifier provides the widest array of stat bonuses, but these primarily affect the initial summon rather than the resulting minion. Additionally, minions cannot deal [[critical hit]]s. The only lasting advantage a Mythical {{BASEPAGENAME}} has over a Ruthless one is [[knockback]].</esc><!--
+        -->|summonnokb=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Ruthless'''. But the weapon's knockback will not be affected due to already being 0.</esc><!--
+	-->|summonalt=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Mythical'''. While '''Ruthless''' may seem to provide a bigger damage by percentages, rounding reveals that Mythical and Ruthless boost the damage equally for this weapon.</esc><!--
+	-->|summonactive=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Mythical''', due to {{#if:$plural$|their|its}} unique nature of not requiring minion slots to be used and being able to be summoned in large numbers with a low enough use time, resulting in high damage output.</esc><!--
+	-->|spy=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Flawless'''.</esc><!--
+	-->|lowdamage=<esc>{{#if:$plural$|Their|Its}} best [[modifier]] is '''Agile''' due to {{#if:$plural$|their|its}} unusually low base damage, resulting in an inability to obtain damage boosts from modifiers.</esc><!--
+	-->|error=(Please input a valid value. See {{tl|modifier}}.)<!--
+-->}}<!-- en l10n end
+
+--></includeonly>

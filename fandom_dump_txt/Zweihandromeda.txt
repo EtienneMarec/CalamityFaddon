@@ -1,0 +1,36 @@
+===== The Zweihandromeda is a craftable [[Godseeker Mode]] true melee weapon based off of Stratus, an equaly important figure in Calamity's Lore and its weapons. =====
+It swings in a back and forth pattern and summons fallen stars from the sky on a sucessful attack plus inflicts the moon burn defuff for 3 seconds when it hits an enemy. 
+{{item infobox	
+| type = Weapon
+| damage = 400
+| damagetype = Melee
+| knockback = 1
+| stack = 1
+| rare = 13
+| sell = {{value|0|26}}
+| auto = yes
+| use = 19
+| hardmode = yes
+| postml = yes
+| debuff = Moon Burnt
+| debuffduration = 3 seconds
+| debufftip = Incinerated by lunar rays
+| debuffchance = 100%
+| proj = Stratus Star.png
+| projcaption = Stratus Star
+| element1 = Dark
+| element2 = Magic
+| element3 = Stab
+}}
+
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+- Due to the swords massive size, it can easily outrange weapons such as the holy collider and murasama, making it a strong option to use against the exo-mechs in a true melee playthrough.
+
+- This weapon has one of the largest sprites in the mod, even comparing to such weapons in the calamity overhaul addon. {{Stratus}}
+{{Master Template Weapons
+|show-main = yes
+|show-melee = yes
+}}
+[[Category:Swords]]

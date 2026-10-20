@@ -1,0 +1,76 @@
+<table class="terraria">
+<onlyinclude><tr {{#if:{{{top|}}}{{#var:_crafts_very_beginning}}|{{#vardefine:_crafts_very_beginning|}}|style="border-top:1px solid #999;"}}>
+<td rowspan={{{rows|1}}} style="text-align:center;width:1%">{{#ifeq:{{{link|}}}|no|[[File:{{{result}}}.png]]|{{item|{{{result}}}|mode=image}}}}</td>
+<td rowspan={{{rows|1}}} ><div style="padding:0; margin:0;">{{#ifeq:{{{link|}}}|no|'''{{{result}}}'''|[[{{{result}}}]]}}{{#if:{{{resultamount|}}}|&nbsp;({{{resultamount}}})}}</div>
+{{crafts sub row
+|item = {{{item}}}
+|amount = {{{amount}}}
+|top = yes}}
+{{#if:{{{tool|}}}|<td style="text-align:center; border-left:1px solid #999" rowspan={{{toolspan|1}}}>{{#switch:{{{tool}}}
+|By Hand=[[By Hand]]
+|Lead Anvil
+|Iron Anvil={{item|Iron Anvil}} /<br/> {{item|Lead Anvil}}
+|Orichalcum Anvil
+|Mythril Anvil={{item|Mythril Anvil}} /<br/> {{item|Orichalcum Anvil}}
+|Demon Altar
+|Crimson Altar
+|Altar={{item|Demon Altar}} /<br/> {{item|Crimson Altar}}
+|Titanium Forge
+|Adamantite Forge={{item|Adamantite Forge}} /<br/> {{item|Titanium Forge}}
+|Furnace={{item|Furnace|Any Furnace}}
+|Altars={{item|Ancient Altar}} /<br/> {{item|Ashen Altar}}
+|Draedon's Forge
+|Ancient Altar
+|Ashen Altar
+|Botanic Planter
+|Effulgent Manipulator
+|Eutrophic Shelf
+|Monolith Amalgam
+|Plague Infuser
+|Profaned Crucible
+|Static Refiner
+|Void Condenser
+|Particle Accelerator
+|Work Bench
+|Sawmill
+|Tinkerer's Workshop
+|Dye Vat
+|Table
+|Chair
+|Loom
+|Cooking Pot
+|Keg
+|Hellforge
+|Alchemy Station
+|Bookcase
+|Autohammer
+|Imbuing Station
+|Blend-O-Matic
+|Meat Grinder
+|Solidifier
+|Autohammer
+|Ice Machine
+|Heavy Work Bench
+|Bone Welder
+|Steampunk Boiler
+|Sky Mill
+|Lihzahrd Furnace
+|Honey Dispenser
+|Glass Kiln
+|Flesh Cloning Vat
+|Ancient Manipulator
+|Crystal Ball
+|Living Loom={{item|{{{tool}}}}}
+|Water
+|Sink={{item|Water}}<br/>&nbsp;&nbsp;&nbsp;''or''<br/>{{item|Sink}}
+|Bottle only
+|Placed Bottle only={{item|Placed Bottle}}
+|Alchemy Table only={{item|Alchemy Table}}
+|Alchemy Table
+|Bottle
+|Placed Bottle= {{item|Placed Bottle}}<br/>&nbsp;&nbsp;&nbsp;''or''<br/>{{item|Alchemy Table}}
+|Profaned Crucible and Lava = {{item|Profaned Crucible}}<br/>&nbsp;&nbsp;&nbsp;''and''<br/>{{item|Lava}}
+|#default={{{tool}}}
+}}</td>}}</tr></onlyinclude>
+</table>Internal subtemplate. See [[Template:Crafts]] for documentation.
+[[Category:Deprecated Crafting templates]]

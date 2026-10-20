@@ -1,0 +1,8 @@
+* hotCat[ResourceLoader]|hotCat.js
+* syntaxHighlight[ResourceLoader]|syntaxHighlight.js
+
+== default-gadgets ==
+* previewTab[ResourceLoader|default|dependencies=mediawiki.api]|previewTab.js
+* flashAnchored[ResourceLoader|default]|flashAnchored.js
+* sound[ResourceLoader|default|targets=desktop,mobile|peers=sound-styles]|sound.js|sound.css
+* sound-styles[ResourceLoader|hidden|targets=desktop,mobile]|sound-styles.css

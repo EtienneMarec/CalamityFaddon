@@ -1,0 +1,43 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 175
+| knockback = 7
+| use = 40
+| stack = 1
+| velocity = 2
+| tooltip = Launches an explosive astral crystal
+| auto = yes
+| rare = 7
+| sell = {{value|0|12}}
+| hardmode = yes
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 5 seconds
+| proj = Astral Crystal.gif
+| projcaption = Astral Crystal
+| element1 = Magic
+| element2 = Fire
+| element3 = Smash
+| element4 = Stab
+| element5 = Machine
+}}
+|{{item drops infobox
+| [[Nova]] (After [[Astrum Aureus]] has been defeated)|1| 14.29%
+}}
+}}
+
+The '''Stellar Cannon''' is a [[Hardmode]] [[ranged weapon]] that is dropped from [[Nova]]s after [[Astrum Aureus]] has been defeated. It fires explosive astral crystals that explode on contact with enemies, inflicting the [[Astral Infection (debuff)|Astral Infection]] [[debuff]]. The astral crystal fired requires no ammo and will pass through blocks.
+
+{{Modifier|ranged}}
+
+== Notes ==
+*This weapon can also be obtained from the [[Astral Crate]] after Astrum Aureus has been defeated.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

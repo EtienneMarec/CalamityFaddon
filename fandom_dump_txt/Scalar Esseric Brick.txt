@@ -1,0 +1,25 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| rare = C1
+| color = #35394A
+| use = 14
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| sell = {{value|0|0|10|0}}
+}}
+
+Scalar Esseric Brick is an Epilogue block created using [[Esseric Ore]] and [[Esseric Scale]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{ctota}}
+[[Category:Block items]]

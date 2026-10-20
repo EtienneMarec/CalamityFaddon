@@ -1,0 +1,40 @@
+{{item infobox
+| type = Ammunition
+| tooltip = Heavy ammunition that bounces when striking an enemy or an obstacle, when it bounces it makes a small explosion before finally releasing a large flahium blast.
+| damagetype = ranged
+| damage = 40
+| knockback = 7
+| velocity = 6
+| velocitymult = 6
+| stack = 9999
+| debuff = Flahmes
+| debuffduration = 3 seconds (Explosion)
+| debuffchance = 100%
+| debufftip = Vaporizing from total flahium annihilation 
+| sell = {{value|0|0|5|00}}
+| element1 = Unholy
+| element2 = Holy
+| element3 = Fire
+| rare = 16
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| proj = Flah Round (projectile).png
+| projcaption = Flah Round
+}}
+
+'''Flah Rounds''' are Godseeker Mode [[bullets]] crafted from [[Flahium Bar]]s. Upon contact with anything, it explodes and bounces. It can bounce 9 times before finally releasing a large explosion similar to [[Flash Round]]s. Small explosions deal 33% of the damage of the initial shot and the final explosion deals 150% of the damage of the initial shot.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*[[Goozma]] and its four wicked vassals take only 1% damage from Flah Rounds.
+{{-}}
+{{Flah}}
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Bullets]]

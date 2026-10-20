@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = melee
+| damage = 25
+| knockback = 4
+| stack = 1
+| rare = 3
+| auto = yes
+| sell = {{value|0|0|80}}
+| use = 24
+| velocity = 6
+| tooltip = Sword of an ancient demon lord<br/>Fires a blood scythe
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 4 seconds (Blade)<br/>3 seconds (Scythe)
+| debufftip = Slowly losing life
+| proj = Blood Scythe.png
+| projcaption = Blood Scythe
+| element1 = Unholy
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Demon]]<br/>[[Voodoo Demon]] | 1 | {{dv|4%|6.67%}}
+}}
+}}
+The '''Bladecrest Oathsword''' is a [[Pre-Hardmode]] [[broadsword]] dropped by [[Demon]]s and [[Voodoo Demon]]s in [[The Underworld]]. When swung, it fires a scythe projectile that pierces once, emits a faint red light, and inflicts the [[On Fire!]] [[debuff]] on hit.
+
+{{modifier|melee}}
+[[File:Screen Recording 2022-07-04 at 10.57.07 AM.mov|thumb|The Bladecrest Oathsword attacking some target dummies.]]
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon was previously the only sword in the Calamity Mod to not have autoswing.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:诅咒之剑]]

@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 144
+| damagetype = Ranged
+| knockback = 6
+| tooltip = Fires an acidic shot that sticks to enemies and dissolves them
+| use = 18
+| auto = yes
+| hardmode = yes
+| postml = yes
+| velocity = 16
+| rare = 13
+| sell = {{value|0|26}}
+| stack = 1
+| proj = Sulphuric Blast.gif
+| projcaption = Sulphuric Blast
+| element1 = Poison
+| element2 = Acid
+| element4 = Smash
+}}
+|{{item drops infobox
+| [[Mauler]] (After [[Polterghast]] has been defeated)| 1 | 33.33%
+}}
+}}
+
+The '''Sulphuric Acid Cannon''' is a Godseeker Mode [[ranged weapon]] that is dropped by the [[Mauler]] after [[Polterghast]] has been defeated. It fires homing sulphuric blasts at enemies. The blasts shot by this weapon will stick on to enemies hit and continue to deal damage repeatedly before vanishing two seconds after sticking to an enemy. The sulphuric blasts can travel through solid tiles.
+
+{{Modifier|ranged}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

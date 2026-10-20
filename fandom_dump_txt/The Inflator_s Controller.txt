@@ -1,0 +1,111 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 150
+| knockback = 3
+| use = 10
+| tooltip = Awaken the bloon from the murky depth to fight off enemies<br/>Holding {{Key|use}} fills it with a copious amount of Bloons, which is spewed out on release<br/>What it spews out depends on the player's amount of life currently
+| mana = 50
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffduration = 3 seconds (Plagued cloud)
+| debuffchance = 100%
+| debuff2 = Sulphuric Poisoning
+| debufftip2 = The acidic water burns away your flesh
+| debuffduration2 = 3 seconds (Plagued cloud)
+| debuffchance2 = 100%
+| buff = Bloonarius' presence
+| bufflink = no
+| bufftip = The sludge behemoth towers above you...
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 8
+| sell = {{value|0|20}}
+| element1 = Poison
+| element2 = Acid
+| element3 = Water
+| element4 = Wind
+| element5 = Machine
+}}
+{{summoned|Bloonarius|type=minion}}
+{{item drops infobox
+| [[The Plaguebringer Goliath]] | 1 | {{dv|25%|33.33%}}
+}}
+
+'''The Inflator's Controller''' is a [[Hardmode]] [[Summon weapons|summon weapon]] dropped by [[The Plaguebringer Goliath]]. When held out, The Bloonarius will spawn above the player and hover at that position. When holding {{Key|use}}, it begins charging up a spewing attack, storing 30 bloons in the process. At full charge (indicated by its shaking), when released, will spew out those stored Bloons. These bloons are as follows:
+*The Ceramics deals 65% of the weapon's damage, and upon impact, splits into various colored bloons that deals 50% of the weapons damage.
+*The MOABs deals 125% of the weapon's damage, and splits into 4 ceramics upon impact.
+*The BFBs deals 200% of the weapon's damage, and homes into an enemy, splitting into 2 MOABs on impact.
+*The ZOMGs deals 150% of the weapon's damage, and explodes into a plagued clouds, dealing 80% of the weapon's damage, and inflicting the [[Plague]] and [[Sulphuric Poisoning]] Debuff. Additionally, it fires out 2 BFBs after exploding.
+*The DDTs deals the same damage and split into 4 ceramics as the MOABs, can home into an enemy like the BFBs, and can increase minion damage against struck target by 45.
+*The BADs deals 300% of the weapon's damage, and explodes into various shrapnels, which lingers and deals 90% of the weapon's damage. It additionally splits into 2 ZOMGs and 3 DDTs upon impact.
+
+The bloons' chance to be spewed out are determined by the player's current amount of life and has a limit to how many they can be around. They have a set chance of replacing a ceramic bloons, as it follows:
+
+{| class="terraria"
+|+
+!Bloon Types
+!Limits
+!100% Max life
+!75% Max life
+!50% Max life
+!25% Max life
+!Notes
+|-
+| MOABs
+|30
+|50%
+|30.3%
+|15.7%
+|6.66%
+|<center>{{no}}</center>
+|-
+| BFBs
+|10
+|10%
+|25.4%
+|18.6%
+|12.9%
+|<center>{{no}}</center>
+|-
+| ZOMGs
+|5
+|5%
+|11.1%
+|23.5%
+|26.8%
+|At least 1 is guaranteed to spawn if the player's at 25% life or below
+|-
+| DDTs (Extra)
+|3
+|1.33%
+|10.33%
+|21.33%
+|33.33%
+|At least 1 is guaranteed to replace a single ceramic bloons, no matter the player's current life. 
+|-
+| BADs
+|1
+|0%
+|2.43%
+|8.61%
+|12.12%
+|<center>{{no}}</center>
+|}
+{{Modifier|summonactive}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*Because of its nature as a summon weapon that acts as a magic weapon, it can negate the Summoner penalty, along with being a more viable weapon on its tier compared to the classless weapons offered at this point.
+== Trivia ==
+*The weapon's name, its minion that accompanies it, and its mechanic is directly inspired by [https://bloons.fandom.com/wiki/Bloonarius_the_Inflator_(BTD6) Bloonarius the Inflator] from the [[wikipedia:Bloons|Bloons]] franchise, more specifically, its spinoff series [https://bloons.fandom.com/wiki/Bloons_Tower_Defense_(disambiguation) Bloons Tower Defense].
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

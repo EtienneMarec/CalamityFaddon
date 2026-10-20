@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 60
+| use = 15
+| knockback = 6.5
+| auto = yes
+| stack = 1
+| tooltip = Don't underestimate the power of stabby knives<br/>Enemies release homing dark energy on hit<br/>Shortflurry attacks heal the player, spawn night vines,<br/>Inflict Cursed Inferno, and increase melee speed
+| rare = 3
+| sell = {{value|0|0|80}}
+| element1 = Unholy
+| element2 = Stab
+}}
+
+The '''Night's Stabber''' is a craftable [[Pre-Hardmode]] [[shortsword]]. Upon hitting an enemy with it, the enemy will release a homing projectile.
+
+While it has an incredibly short range like most [[shortsword]]s, it also has auto-swing, rendering it slightly more effective.
+
+When the weapon's [[Shortstrike]] ability activates, enemy hits heal the player by 3 health, and have nightshade vines spawned on them that sprawl outwards for 5 tiles. Additionally, enemies are inflicted with [[Cursed Inferno]], and the player's melee speed is increased by 5%.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Night's}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]
+[[Category:True melee]]

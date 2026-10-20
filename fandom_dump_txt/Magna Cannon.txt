@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 26
+| mana = 12
+| tooltip = Fires a concentrated blast of energy
+| knockback = 3.5
+| velocity = 12
+| rare = 2
+| sell = {{value|0|0|40}}
+| use = 32
+| stack = 1
+| element1 = Magic
+}}
+
+The '''Magna Cannon''' is a craftable [[Pre-Hardmode]] [[magic gun]] that fires a blue charge. Despite not being able to penetrate enemies like the [[Space Gun]], it can still be considered a direct upgrade due to the fact that it fires 3 stacked projectiles per shot, effectively tripling its damage output against single targets.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+
+[[Category:Magic guns]]

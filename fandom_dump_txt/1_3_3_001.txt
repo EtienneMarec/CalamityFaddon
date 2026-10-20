@@ -1,0 +1,432 @@
+{{Patch infobox
+| image = Polterghast.png
+| patchname = Nonlinearity Update
+| release = 6/14/2018
+| prev = [[1.3.2.001]]
+| next = [[1.3.3.002]]
+}}
+{{toc limit|3|right=yes}}
+
+The '''1.3.3.001''' update focused on making the game a less linear experience, with various recipe tweaks to move [[summoning items]] lower in progression, along with removing various anti-cheat features from boss fights. The update also reworked [[Polterghast]], split most Godseeker Mode [[Covering]] sets into several classes with multiple helmets, and resprited [[The Hive Mind]], [[The Perforators]], and various weapon projectile sprites.
+
+== Additions ==
+*Added [[Dark Sun Ring]].
+*Added [[Auric Tesla Hooded Facemask]], [[Auric Tesla Plumed Helm]], [[Auric Tesla Wire-Hemmed Visage]], [[Bloodflare Helm]], [[Bloodflare Helmet]], [[Bloodflare Horned Helm]], [[Bloodflare Horned Mask]], [[God Slayer Helmet]], [[God Slayer Horned Helm]], [[God Slayer Mask]], [[God Slayer Visage]], [[Silva Horned Helm]], [[Silva Mask]], [[Silva Masked Cap]], [[Tarragon Helmet]], [[Tarragon Horned Helm]], and [[Tarragon Visage]].
+*Added [[Armageddon]].
+*Added [[Blood Relic]], [[Draedon's Remote]], and [[Eidolon Tablet]].
+*Added [[Cosmic Mine]].
+*Added [[Silva Stun]].
+
+== Changes ==
+=== Bosses ===
+==== [[Astrum Deus]] ====
+*Now removes the early-Hardmode nerf to enemy health and damage when defeated.
+
+==== [[Astrageldon Slime]] ====
+*Now removes the early-Hardmode nerf to enemy health and damage when defeated.
+
+==== [[Aquatic Scourge]] ====
+*Buffed health from {{dv|50,000|80,000|92,800|152,320}} to {{dv|63,000|100,800|110,400|184,320}}.
+*Now drops {{dv|20-41|25-41}} [[Soul of Sight|Souls of Sight]].
+*All segments now cap projectile penetration at 4 instead of 2 in Revengeance Mode.
+*Projectiles from [[Crimson Rod]], [[Crystal Serpent]], [[Nimbus Rod]], [[Shaderain Staff]], and [[Vilethorn]]-like weapons now do 65% damage instead of 35% in Revengeance Mode.
+*Now takes 80% damage from infinitely piercing projectiles instead of 25% in Revengeance Mode.
+*No longer divides projectile damage by the amount of times that said projectile penetrates in Revengeance Mode.
+*Now removes the early-Hardmode nerf to enemy health and damage when defeated.
+
+==== [[Brimstone Elemental]] ====
+*Hellfireballs now inflict [[Brimstone Flames]] for 6 seconds instead of 4.
+*Can now trigger the 'A bloody red inferno lingers in the night...' status message.
+*Now drops {{dv|20-41|25-41}} [[Soul of Fright|Souls of Fright]].
+*Now removes the early-Hardmode nerf to enemy health and damage when defeated.
+
+==== [[Bumblebirb]] ====
+*Buffed health from {{dv|380,000|608,000}} to {{dv|440,000|704,000}}, and contact damage from {{dv|200|320}} to {{dv|250|400}}.
+*Buffed clone health from {{dv|35,000|70,000}} to {{dv|70,000|140,000}}, and contact damage from {{dv|140|280}} to {{dv|200|400}}.
+*No longer immune to [[Abyssal Flames]], [[Armor Crunch]], [[Demon Flames]], [[God Slayer Inferno]], [[Nightwither]], [[Shred]], and [[Whispering Death]].
+
+==== [[Calamitas]] ====
+*No longer drops a [[Broken Hero Sword]] if defeated during a [[Solar Eclipse]].
+*Brimstone lasers now inflict Brimstone Flames for 2 seconds instead of 1.
+*Phase 2's Hellfireballs now inflict Brimstone Flames for 6 seconds instead of 4.
+*Cataclysm's flamethrower and Catastrophe's fireballs now inflict Brimstone Flames for 4 seconds instead of 3.
+*Now removes the early-Hardmode nerf to enemy health and damage when defeated.
+
+==== [[Ceaseless Void]] ====
+*Buffed damage resistance from 99.99% to 99.9999%.
+*Can now be targeted by homing weapons and minions.
+
+==== [[Cryogen]] ====
+*Now drops {{dv|20-41|25-41}} [[Soul of Might|Souls of Might]].
+*Now removes the early-Hardmode nerf to enemy health and damage when defeated.
+*[[Aurora Spirit]]s, [[Cryogen's Shield]], and both [[Cryocore]]s are now affected by the early Hardmode damage and health nerfs.
+
+==== [[Desert Scourge]] ====
+*Tweaked movement of both the large and small worms.
+*Now takes 80% damage from [[Molotov Cocktail]]s instead of 65%.
+*Now takes 50% damage from explosives instead of 20%.
+*Now takes 80% damage from infinitely piercing projectiles instead of 25% in Revengeance Mode.
+*No longer divides projectile damage by the amount of times that said projectile penetrates in Revengeance Mode.
+
+==== [[The Destroyer]] ====
+*Frost lasers no longer inflict [[Glacial State]] if the player is already inflicted with it.
+*Body segments now cap projectile penetration at 4 instead of 2 in Revengeance Mode.
+*Projectiles from Crimson Rod, Crystal Serpent, Nimbus Rod, Shaderain Staff, and Vilethorn-like weapons now do 65% damage instead of 35% in Revengeance Mode.
+*Now takes 80% damage from infinitely piercing projectiles instead of 25% in Revengeance Mode.
+*No longer divides projectile damage by the amount of times that said projectile penetrates in Revengeance Mode.
+*[[Probe]]s are now affected by the early Hardmode damage and health nerfs.
+
+==== [[The Devourer of Gods]] ====
+*Phase 1 no longer fires gravity bombs and orbs.
+*Decreased phase 1's laser spread.
+*Tweaked phase 1's movement.
+*Defeating phase 1 will now spawn weakened versions of the [[Sentinels of the Devourer]].
+*Phase 2 will now spawn 42 seconds after phase 1 has been defeated instead of 10.
+*Phase 2 now switches between phases slower.
+*Phase 2 now gains increased damage resistance if any of the sentinels are alive.
+*No longer disables [[mount]]s, portal physics, and wiring in Death Mode.
+*No longer causes [[Rod of Discord|Chaos State]] to damage the player over time in Death Mode.
+
+==== [[Duke Fishron]] ====
+*Now removes the early-Hardmode nerf to enemy health and damage when defeated.
+
+==== [[Eater of Worlds]] ====
+*Now takes 80% damage from infinitely piercing projectiles instead of 25% in Revengeance Mode.
+*No longer divides projectile damage by the amount of times that said projectile penetrates in Revengeance Mode.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Buffed Bumblebirb contact damage from {{dv|180|360}} to {{dv|200|400}}.
+*Phase 2 can now only be initiated if the player has the Darksun Ring equipped and both The Devourer of Gods and Providence, the Profaned God have been defeated. 
+**Silva armor can no longer initiate phase 2.
+*Phase 2's fireballs are now able to home upwards occasionally. 
+*[[Angery Flame]] is now exclusive to Death Mode.
+*Angery Flame now gets more aggressive when Yharon hits 50% and 30% health in phase 2 instead of 80% and 40%.
+*No longer disables [[mount]]s, portal physics, and wiring in Death Mode.
+
+==== [[Lunatic Cultist]] ====
+*Increased health multiplier from {{dv|0|0|2x|3x}} to {{dv|0|0|3x|6x}}.
+*Reduced projectile rain fire rate, and removed fire rate scaling as its health lowers.
+*Now removes the early-Hardmode nerf to enemy health and damage when defeated.
+
+==== [[The Perforators]] ====
+*Decreased small Perforator's segment count from 12 to 8.
+*Decreased medium Perforator's segment count from {{dv|22|0|0|8}} to {{dv|12|0|0|7}}.
+*Decreased large Perforator's segment count from {{dv|32|0|0|12}} to {{dv|17|0|0|9}}.
+*The Perforator Hive now has a 50% chance to shoot a volley of ichor shots instead of blood geysers.
+*Tweaked movement of all three Perforators.
+
+==== [[The Plaguebringer Goliath]] ====
+*Tweaked how The Plaguebringer Goliath despawns if the player is too far away.
+*Now removes the early-Hardmode nerf to enemy health and damage when defeated.
+
+==== [[Plantera]] ====
+*Now removes the early-Hardmode nerf to enemy health and damage when defeated.
+
+==== [[Polterghast]] ====
+*Buffed Polterghast Hook's health from 20,000 to {{dv|50,000|0|60,000|100,000}}. <!---Polterghast Hooks are unkillable, but this change was made regardless.--->
+*Now spawns a clone in phase 3.
+*No longer fires shots in phase 3.
+*Polterghast Hooks will now detach in phase 2, and periodically open up and fire phantom shots.
+*3 [[Phantom]]s will now spawn and orbit the player closely instead of a single Phantom keeping a distance from the player.
+*Blue phantom shots now bounce 4 times instead of 2, and pink phantom shots now bounce 5 times instead of 3.
+
+==== [[Profaned Guardians]] ====
+*All three guardians are no longer immune to Abyssal Flames, Armor Crunch, Demon Flames, God Slayer Inferno, Nightwither, Shred, and Whispering Death.
+*Swapped the sprites for the main and rock guardians.
+
+==== [[Providence, the Profaned God]] ====
+*Buffed health from {{dv|200,000|320,000|352,000|720,000}} to {{dv|230,000|368,000|416,000|800,000}}.
+*Buffed offensive guardian's health from {{dv|35,000|70,000}} to {{dv|40,000|80,000}}.
+*Buffed defender guardian's health from {{dv|17,000|34,000}} to {{dv|20,000|40,000}}.
+*Can now drop [[Divine Geode]]s in Normal Mode.
+*Providence and her three guardians are no longer immune to Abyssal Flames, Armor Crunch, Demon Flames, God Slayer Inferno, Nightwither, Shred, and Whispering Death.
+*Swapped the sprites for the offensive and defender guardians.
+*No longer disables wiring.
+
+==== [[Ravager]] ====
+*Now removes the early-Hardmode nerf to enemy health and damage when defeated.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Buffed health from {{dv|230,000|368,000|400,000}} to {{dv|300,000|480,000|528,000}}.
+*Now spawns Cosmic Mines during teleports in phase 1.
+*No longer immune to Abyssal Flames, Armor Crunch, Demon Flames, God Slayer Inferno, Nightwither, Shred, and Whispering Death.
+
+==== [[Siren and Leviathan]] ====
+*Now remove the early-Hardmode nerf to enemy health and damage when defeated.
+
+==== [[Skeletron Prime]] ====
+*Limbs are now affected by the early Hardmode damage and health nerfs.
+
+==== [[Storm Weaver]] ====
+*Decreased segment count in both phases from 52 to 32.
+*Phase 1's head can no longer be targeted by homing weapons and minions.
+*No longer enrages when outside of [[Space]].
+*Tweaked phase 2's movement.
+
+==== [[Supreme Calamitas]] ====
+*Tweaked damage resistance.
+*Buffed [[Sepulcher]]'s damage resistance from 99.99% to 99.999%.
+*No longer disables [[mount]]s, portal physics, and wiring in Death Mode.
+
+=== Enemies ===
+*[[???]]'s chances of spawning in Pre-Hardmode have been reduced, but spawn rates otherwise have been increased.
+*[[Blight Slime]]s can now spawn at any point in the game instead of only after Skeletron has been defeated.
+*Bloatfish, [[Bobbit Worm]]s, [[Colossal Squid]]s, [[Giant Squid]]s, [[Gulper Eel]]s, [[Oarfish]], [[Reaper Shark]]s, and [[Viperfish]] can now drop [[Depth Cells]] after [[Calamitas]] has been defeated.
+*Bloatfish now get larger when hit.
+*Enemies now have a 16.66% chance to drop [[Blood Orb]]s during [[Blood Moon]]s instead of 20%.
+*[[Colossal Squid]]s and [[Adult Eidolon Wyrm]]s now take 50% damage from most vanilla minions if the player is wearing [[Statis' Belt of Curses]].
+*[[Cuttlefish]], Giant Squids, Gulper Eels, and [[Laserfish]] can now drop [[Lumenyl]] after [[Calamitas]] has been defeated.
+*[[Dungeon]] enemies are now buffed after the Moon Lord has been defeated instead of Providence, and have had their damage modifier increased from 2x to  2.5x. 
+*[[Eidolist]] changes:
+**Can now spawn at the beginning of Hardmode instead of only after Plantera has been defeated.
+**Can now drop Eidolon Tablets.
+**Decreased aggression.
+*[[Juvenile Eidolon Wyrm]]s can now drop [[Ectoplasm]] and Lumenyl after Calamitas has been defeated.
+*[[Hive Cyst]]s and [[Perforator Cyst]]s can now spawn at any point of the game instead of only after Eater of Worlds or Brain of Cthulhu has been defeated.
+*Nerfed Hive Cyst's health from 2000 to 1000.
+*Nerfed Perforator Cyst's health from 2000 to 1000.
+*Buffed happy [[Phantom Spirit]]'s health from {{dv|3000|6000}} to {{dv|9000|18,000}}, and increased its phantom shot's speed.
+*Nerfed [[Plaguebringer]]'s health from {{dv|6000|12,000|0|16,000}} to {{dv|5000|10,000|0|12,000}}.
+*[[Soul Slurper]]'s brimstone lasers now inflict Brimstone Flames for 2 seconds instead of 1.
+
+=== Items ===
+*Increased the size of [[Ataxia armor]]'s damaging and healing flare orbs' dusts.
+*Ataxia armor's damaging orbs now produce less dust and no longer produce dust when destroyed.
+*Renamed Auric Tesla Helm to [[Auric Tesla Royal Helm]].
+*[[Blood Clot Staff]]'s Blood Clots now charge at enemies instead of latching onto them.
+*[[Bloodflare armor]] no longer increases the chance for [[Blood Moon]]s to occur.
+*Wearing Bloodflare armor with a Bloodflare Mask now causes true melee strikes to heal the player, and every 15 true melee strikes causes the player to enter a blood frenzy state, increasing damage, critical strike chance, and halving damage taken for 5 seconds with a 30 second cooldown.
+*[[Death Valley Duster]] now uses the {{rare|5}} rarity instead of {{rare|8}}.
+*[[Flarefrost Blade]] now uses the {{rare|5}} rarity instead of {{rare|6}}.
+*[[Frigidflash Bolt]] now uses the {{rare|5}} rarity instead of {{rare|6}}.
+*Renamed God Slayer Helm to [[God Slayer Horned Greathelm]].
+*Melee God Slayer armor now has a thorns effect.
+*Renamed Winter's Fury to [[Icicle Staff]].
+*[[Primordial Earth]] now uses the {{rare|8}} rarity instead of {{rare|10}}.
+*[[Reaper Tooth Necklace]] now increases the Revengeance Mode damage and critical strike chance caps by 10%.
+*[[Reaver Shark]] can now be swung at all times in Revengeance Mode instead of only after Eater of Worlds or Brain of Cthulhu has been defeated.
+*Changed the first lines of [[Rune of Kos]]' tooltip from "Used to seal the sentinels of the cosmic devourer" to "A relic of the profaned flame. Contains the power hunted relentlessly by the sentinels of the cosmic devourer".
+*Melee Silva armor now causes true melee strikes to have a 25% chance to deal 10x more damage, halves contact damage after Silva Invulnerability is over, and causes melee projectiles to inflict Silva Stun.
+*Silva armor's invulnerability now produces less dust and its dust is no longer affected by gravity.
+*Melee Tarragon armor now has a cloaking ability bound to a hotkey which reduces contact damage for 10 seconds and has a 30 second cooldown.
+*Throwing class items can now be reforged.
+*[[Void of Extinction]] now makes the player immune to [[Lava]].
+*Increased the size of [[Xeroc armor]]'s damaging and healing orbs' dusts.
+
+==== Recipes ====
+*[[Anti-materiel Rifle]] no longer uses 1 [[Spectre Rifle]] in its recipe.
+*[[Astral Chunk]] now uses 10 [[Fallen Star]]s and 15 [[Stardust]] in its recipe instead of 5 Fallen Stars, 3 [[Living Shard]]s, and 10 Stardust.
+*[[Birb Pheromones]] are now crafted at an [[Ancient Manipulator]] instead of [[Draedon's Forge]], and now use 3 [[Luminite Bar]]s and 5 [[Solar Fragment]]s in its recipe instead of 1 [[Cosmilite Bar]], 2 Luminite Bars, and 4 Solar Fragments.
+*[[Cosmic Worm]] no longer uses 3 [[Ruinous Soul]]s in its recipe.
+*[[Charred Idol]] no longer uses 5 [[Hallowed Bar]]s in its recipe.
+*[[Dragon Egg (summoning)]] now uses 15 [[Bar of Life|Bars of Life]] in its recipe instead of 10 Bars of Life and 10 Cosmilite Bars.
+*[[Eye of Desolation]] now uses 7 [[Essence of Chaos|Essences of Chaos]], 10 [[Hellstone Bar]]s, and 5 Souls of Fright in its recipe instead of 5 Hallowed Bars, 3 Souls of Fright, 3 Souls of Might, and 3 Souls of Sight.
+*[[Omniblade]] now uses 1 [[Katana]] in its recipe.
+*Rune of Kos can now be crafted with 10 Luminite Bars, 5 Solar Fragments, and 40 [[Unholy Essence]]s at an Ancient Manipulator.
+*[[Seafood]] now uses 5 [[Starfish]] and 3 [[Shark Fin]]s in its recipe instead of 2 Shark Fins, 3 [[Soul of Might|Souls of Might]], 3 Souls of Sight, and 3 Starfish.
+*[[Starcore]] now use 25 Stardust in its recipe instead of 4 Hallowed Bars and 15 Stardust.
+
+==== Balance ====
+*True melee weapons no longer have a use time cap.
+*[[Astral armor]]'s set bonus' stars now have a cooldown of 2 seconds instead of 3.
+*Auric Tesla armor changes:
+**Buffed Auric Tesla Royal Helm's defense from 40 to 54.
+**Auric Tesla Royal Helm now only provides melee boosts instead of boosts to all classes.
+**Inherited God Slayer reflect bonus is now applied to Auric Tesla Body Armor instead of the set bonus.
+**Buffed thorns effect by 300%.
+*Bloodflare armor changes:
+**Buffed Bloodflare Mask's defense from 28 to 49.
+**Bloodflare Mask now only provides melee boosts instead of boosts to all classes.
+*God Slayer armor changes:
+**Buffed God Slayer Horned Greathelm's defense from 30 to 48.
+**God Slayer Horned Greathelm now only provides melee boosts instead of boosts to all classes.
+**God Slayer Horned Greathelm's god killer darts and invulnerability to low damage attacks have been moved to God Slayer armor's set bonus.
+*Silva armor changes:
+**Buffed Silva Helm's defense from 35 to 52.
+**Silva Helm now only provides melee boosts instead of boosts to all classes.
+**Increased Silva armor's invincibility period from 10 seconds to 15.
+*Tarragon armor changes:
+**Buffed Tarragon Helm's defense from 25 to 33.
+**Buffed Tarragon Leggings' defense from 23 to 32.
+**Tarragon Helm now only provides melee boosts instead of boosts to all classes.
+**Tarragon armor's boosts to damage and critical strike chances have been moved to each respective class' helmet instead of its set bonus.
+**Increased chance to be granted [[Tarra Life]] from 20% to 25% and made it exclusive to melee Tarragon armor.
+*Summon weapons now deal 90% damage in pre-Hardmode, 66% damage in Hardmode, and 33% damage post-Moon Lord when holding a weapon of a different class instead of 33% damage at all times.
+*Buffed [[Abyss Blade]]'s damage from 76 to 80.
+*Buffed [[Aegis Blade]]'s damage from 44 to 49.
+*Buffed [[Aeries]]' damage from 30 to 36.
+*Buffed [[Aether's Whisper]]'s damage from 1000 to 1050.
+*Buffed [[Aftershock]]'s damage from 50 to 60.
+*Buffed [[Alluvion]]'s damage from 50 to 53.
+*Buffed [[Alpha Ray]]'s damage from 38 to 40.
+*Buffed [[Anarchy Blade]]'s damage from 100 to 110.
+*Buffed [[Ancient Crusher]]'s damage from 52 to 55.
+*Buffed [[Animus]]' base damage from 850 to 1500.
+**Buffed random damages from 1000, 1250, 3500, 7000, 15,000, and 850 to 2000, 2750, 4000, 10,000, 25,000, and 1500 respectively.
+*Buffed [[Apotheosis]]' damage from 177 to 267.
+*Buffed [[Aquatic Dissolution]]'s damage from 140 to 154.
+*Nerfed [[Archerfish]]'s damage from 30 to 28.
+*Buffed [[Fractured Ark|Ark of the Ancients]]' damage from 52 to 55.
+*Buffed [[Ark of the Cosmos]]' damage from 315 to 320.
+*Buffed [[Ark of the Elements]]' damage from 120 to 126.
+*Buffed [[Astreal Defeat]]'s damage from 103 to 109.
+*Buffed [[Augur of the Elements]]' damage from 70 to 74.
+*Buffed [[Azathoth]]'s damage from 60 to 100.
+*Buffed [[Baleful Harvester]]'s damage from 105 to 110.
+*Buffed [[The Ballista]]'s damage from 90 to 95.
+*Buffed [[Barracuda Gun]]'s damage from 72 to 76.
+*Buffed [[Broken Biome Blade|Biome Blade]]'s damage from 40 to 42.
+*Buffed [[Blade of Enmity]]'s damage from 150 to 158.
+*The player can now turn when using [[Bloody Edge]] or [[Caustic Edge]].
+*Buffed [[Blossom Flux]]'s damage from 20 to 22.
+*Buffed [[Brimlash Buster]]'s damage from 120 to 126.
+*Buffed [[Briny Baron]]'s damage from 60 to 66.
+*Buffed [[Burnt Sienna]]'s damage from 25 to 30.
+*Buffed [[Butcher (weapon)|Butcher]]'s damage from 15 to 17.
+*Buffed [[Calamari's Lament]]'s damage from 150 to 158.
+*Buffed [[Carnage Ray]]'s damage from 28 to 30.
+*Buffed [[Catastrophe Claymore]]'s damage from 61 to 67.
+*Buffed Caustic Edge's damage from 40 to 44.
+*Buffed [[Celestus]]' damage from 125 to 130.
+*Buffed [[Charged Dart Blaster]]'s damage from 120 to 126.
+*Buffed [[Clock Gatlignum]]'s damage from 41 to 45.
+*Buffed [[Conclave Crossfire]]'s damage from 28 to 30.
+*Buffed [[Contagion]]'s damage from 200 to 300.
+*Buffed [[Cosmic Discharge]]'s damage from 1000 to 1050.
+*Buffed [[Cosmic Rainbow]]'s damage from 100 to 105.
+*[[Crystal Bullet]] shards now deal 25% damage in Revengeance Mode instead of 12.5%.
+*Buffed [[Crystal Flare Staff]]'s damage from 45 to 49.
+*Buffed [[Crystalline]]'s damage from 16 to 18.
+*[[Daedalus Stormbow]] no longer deals 80% damage in Revengeance Mode.
+*Buffed [[The Dance of Light]]'s damage from 235 to 385.
+*Buffed Death Valley Duster's damage  from 88 to 97.
+*Buffed [[Devastation]]'s damage from 108 to 114.
+*Buffed [[Devil's Devastation]]'s damage from 342 to 359.
+*Buffed [[Disseminator]]'s damage from 53 to 55.
+*Buffed [[Draconic Destruction]]'s damage from 90 to 150.
+*Buffed [[Dualpoon]]'s damage from 49 to 53.
+*Weapons dropped by Duke Fishron no longer do 50% damage before Golem has been defeated in Revengeance Mode.
+*[[Earth]]'s initial meteors now deal the weapon's full damage instead of 50% damage.
+*Buffed [[Earthen Pike]]'s damage from 46 to 50.
+*Buffed [[Effervescence]]'s damage from 23 to 24.
+*Buffed [[Eidolic Wail]]'s damage from 150 to 158.
+*Buffed [[Elemental Axe]]'s damage from 135 to 140.
+*Buffed [[Elemental Blaster]]'s damage from 73 to 77.
+*Buffed [[Elemental Disk]]'s damage from 150 to 157.
+*Buffed [[Elemental Eruption]]'s damage from 26 to 28.
+*Buffed [[Elemental Lance]]'s damage from 99 to 104.
+*Buffed [[Elemental Ray]]'s damage from 171 to 178.
+*Buffed [[Elemental Shiv]]'s damage from 135 to 140.
+*Nerfed [[Empyrean Knives]]' damage from 1000 to 800.
+*Nerfed [[Ethereal Subjugator]]'s damage from 240 to 110.
+*Buffed [[Exoblade]]'s damage from 2000 to 2100.
+*Buffed [[Fabstaff]]'s damage from 300 to 330.
+*[[Firestorm Cannon]]'s primary fire's flares now deal 85% of the weapon's damage instead of 85.000002384185791%.
+*Buffed [[Flare Bolt]]'s damage from 25 to 27.
+*Buffed Flarefrost Blade's damage from 55 to 58.
+*Flarefrost Blade now sells for {{gc|10}} instead of {{gc|11}}.
+*Buffed [[Flarewing Bow]]s damage from 22 to 25.
+*Buffed [[Forbidden Oathblade]]'s damage from 58 to 61.
+*Buffed [[Forsaken Saber]]'s damage from 55 to 65.
+*Buffed Frigidflash Bolt's damage from 41 to 45.
+*Buffed [[Galactus Blade]]'s damage from 98 to 105.
+*Buffed [[Galaxia]]'s damage from 325 to 336.
+*Buffed [[Heavenly Gale]]'s damage from 200 to 210.
+*Buffed [[Hell Burst]]'s damage from 36 to 40.
+*[[Holy Arrow]] stars now deal 50% damage in Revengeance Mode instead of 25%.
+*Buffed [[Illustrious Knives]]' damage from 315 to 1200.
+*Buffed [[Impaler]]'s damage from 85 to 90.
+*Buffed [[Infernal Rift]]'s damage from 40 to 42.
+*Buffed [[Lucrecia]]'s damage from 72 to 75.
+*Buffed [[Lunarian Bow]]'s damage from 18 to 21.
+*Buffed [[Magna Cannon]]'s damage from 17 to 19.
+*Buffed [[Malachite]]'s damage from 42 to 46.
+*Buffed [[Mariana]]'s damage from 70 to 75.
+*Buffed [[Megafleet]]'s damage from 210 to 370.
+*Buffed [[Mineral Mortar]]'s damage from 27 to 30.
+*Nerfed [[Mistlestorm]]'s damage from 69 to 60.
+*Buffed [[Molecular Manipulator]]'s damage from 636 to 700.
+*Buffed [[Monsoon]]'s damage from 52 to 55.
+*Buffed [[Neptune's Bounty]]'s damage from 330 to 345.
+*Buffed [[Night's Ray]]'s damage from 28 to 30.
+*Buffed [[Night's Stabber]]'s damage from 49 to 52, and its knockback from 6 to 6.5.
+*Buffed [[Nuclear Fury]]'s damage from 92 to 95.
+*[[Omega Healing Potion]]s now heal the player for 300 health instead of 500.
+*Buffed Omniblade's damage from 80 to 84.
+*Buffed [[Onyx Chain Blaster]]'s damage from 60 to 63.
+*Buffed [[Photoviscerator]]'s damage from 80 to 84.
+*Buffed [[Planetary Annihilation]]'s damage from 70 to 75.
+*Buffed [[Plasma Rifle]]'s damage from 402 to 422.
+*Buffed [[Primordial Ancient]]'s damage from 230 to 235.
+*Buffed Primordial Earth's damage from 75 to 80.
+*Buffed [[Red Sun]]'s damage from 400 to 700.
+*Buffed [[Scorpio]]'s damage from 90 to 95.
+*Buffed [[Seadragon]]'s damage from 150 to 158.
+*Buffed [[SHPC]]'s damage from 16 to 18.
+*Buffed [[Shredder]]'s damage from 30 to 33.
+*Buffed [[Solstice Claymore]]'s damage from 300 to 315.
+*Buffed [[Soma Prime]]'s damage from 170 to 300.
+*Buffed [[Soul Edge]]'s damage from 250 to 265.
+*Buffed [[Soul Harvester]]'s damage from 93 to 98.
+*Buffed [[Speed Blaster]]'s damage from 24 to 26.
+*Buffed [[Spyker]]'s damage from 172 to 182.
+*Buffed [[Starfleet]]'s damage from 65 to 70.
+*Buffed [[Storm Ruler]]'s damage from 100 to 105.
+*Nerfed [[Submarine Shocker]]'s damage from 80 to 70.
+*Buffed [[Subsuming Vortex]]'s damage from 130 to 144.
+*Buffed [[Sulphuric Acid Cannon]]'s damage from 210 to 220.
+*[[Supreme Healing Potion]]s now heal the player for 250 health instead of 300.
+*Buffed [[Svantechnical]]'s damage from 190 to 350.
+*Buffed [[The Swarmer]]'s damage from 27 to 30.
+*Buffed [[Tears of Heaven]]'s damage from 61 to 65.
+*Buffed [[Terra-cotta]]'s damage from 117 to 125.
+*[[Terratomere]]'s beams now deal 40% of the weapon's damage instead of 33.000001311302185%.
+*Terratomere's beams now have a 50% chance to heal the player instead of 33.33%.
+*Buffed [[Triactis' True Paladinian Mage-Hammer of Might]]'s damage from 1900 to 3500.
+*Buffed [[Triploon]]'s damage from 65 to 70.
+*Buffed [[True Ark of the Ancients]]'s damage from 77 to 82.
+*Buffed [[True Forbidden Oathblade]]'s damage from 84 to 90.
+*Buffed [[True Paladin's Hammer]]'s damage from 120 to 128.
+*Buffed [[True Tyrant's Ultisword]]'s damage from 158 to 165.
+*Buffed [[Tyrant Yharim's Ultisword]]'s damage from 60 to 64.
+*Buffed [[Ultra Liquidator]]'s damage from 92 to 96.
+*Buffed [[Valediction]]'s damage from 430 to 450.
+*Buffed [[Vesuvius]]'s damage from 50 to 55.
+*Buffed [[Vivid Clarity]]'s damage from 136 to 145.
+*Buffed [[Yharim's Crystal]]'s damage from 100 to 110.
+
+=== Other ===
+*Removed the 'Rotten cysts are oozing from the corrupt land...' and 'Bloody cysts are erupting from the crimson's flesh...' messages when Eater of Worlds or Brain of Cthulhu are defeated.
+*Removed the 'Blighted sludge spreads throughout the world's evil...' message when [[Skeletron]] is defeated.
+*[[Life Fruit]]s and Plantera's Bulbs can now generate as soon as Hardmode starts.
+*[[Meteorite]] can now be blown up at all times in Revengeance Mode instead of only after Eater of Worlds or Brain of Cthulhu has been defeated.
+
+=== Resprites ===
+*Resprited [[Blood Sample]] and [[True Shadow Scale]].
+*Resprited [[Comet Shard]].
+*Resprited [[Astral Chunk]], [[Bloody Worm Food]], and [[Teratoma]].
+*Resprited [[Treasure Bag (The Hive Mind)]], [[Treasure Bag (The Perforators)]], [[Treasure Bag (Providence)]].
+*Resprited [[Aorta]], [[Blood Bath]], [[Blood Clot Staff]], [[Bloody Rupture]], [[Dank Staff]], [[Devastation]], [[Elysian Arrow]], [[Eviscerator]], [[Lazhar]], [[Leeching Dagger]], [[Needler]], [[Perfect Dark]], [[Rot Ball]], [[Sausage Maker]], [[Scorpio]], [[Shadethrower]], [[Shadowdrop Staff]], [[Spyker]], [[Tooth Ball]], [[Valediction]], and [[Vein Burster]].
+*Resprited [[Auric Tesla Helm]], [[God Slayer Helm]], [[Hive Mind Mask]], [[Perforator Mask]], [[Silva Armor]], [[Silva Helm]], [[Silva Leggings]], and [[Tarragon Mask]].
+*Resprited [[Bloody Worm Tooth]], [[Frost Barrier]], and [[Rotten Brain]].
+*Resprited [[Bloatfish]], [[Cnidrion]], [[Dank Creeper]], [[Dark Heart]], [[Hive Blob]], [[Hive Cyst]], [[The Hive Mind]], [[Laserfish]], [[The Perforators]], [[Profaned Energy]], [[Reaper Shark]].
+*Resprited The Hive Mind, The Perforators, and Providence the Profaned God's map icons.
+*Resprited [[Astral Ore]] (tile) and [[Auric Ore]].
+*Resprited [[Ceaseless Void Trophy]], [[Devourer of Gods Trophy]], [[Hive Mind Trophy]], and [[Perforator Trophy]].
+*Resprited [[Blood Clot (buff)]], [[Dank Creeper (buff)]], and [[Yharim's Power]].
+*Resprited Aorta's yoyo, [[Ark of the Elements]]' beams, [[Elemental in a Bottle]]'s Sand Elemental, all of [[Elemental Lance]]'s beams, [[Elemental Shiv]]'s beam, [[Hell Burst]]'s beam, [[Fox Drive]]'s fox pet, [[Gelitic Blade]]'s wave, [[Hellfire Flamberge]]'s fireballs, Icicle Staff's icicle, [[Lifehunt Scythe]]'s scythe, Needler's bolts, Oathblade projectiles created by [[Devil's Devastation]], [[Forbidden Oathblade]], and [[True Forbidden Oathblade]], Perfect Dark's dark balls, [[Solstice Claymore]]'s beam, [[Soul Harvester]]'s soul scythe, [[Spyker]]'s bolt, [[Starnight Lance]]'s beam, [[Terra Lance]]'s beam, [[Terratomere]]'s beam, [[Terror Blade]]'s beam, [[True Caustic Edge]]'s beam, and Vein Burster's blood ball.
+
+== Fixes ==
+*Fixed Ancient Medallion, Astral Chunk, [[Decapodita Sprout]], and Teratoma spawning their respective bosses directly on top of the player.
+*Fixed The Devourer of Gods' segments not despawning properly. 
+*Fixed some positioning errors with [[Energy Staff]]'s Profaned Energy sentry.
+*Fixed main and rock Profaned Guardians having switched sprites.
+
+== Removals ==
+*Removed the curse of the eldritch life regeneration nerf caused by defeating the Moon Lord.
+*Removed [[Phantom Turret]]s.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

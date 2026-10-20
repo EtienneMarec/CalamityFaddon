@@ -1,0 +1,32 @@
+This template is used to display additional crafting requirements of items through the use of [[Schematics]].
+
+== Usage ==
+<code>{{(}} schematic | ''&lt;item category&gt;'' | plural = 1 ('''optional''') }}</code>
+
+; List of item categories
+
+{| class="terraria lined"
+! Parameter value !! Description
+|-
+| {{code|tier1}} || Items that require the Sunken Sea schematic to be found.
+|-
+| {{code|tier2}} || Items that require the Space/Planetoid schematic to be decrypted.
+|-
+| {{code|tier3}} || Items that require the Jungle schematic to be decrypted.
+|-
+| {{code|tier4}} || Items that require the Hell/Underworld schematic to be decrypted.
+|-
+| {{code|tier5}} || Items that require the Ice schematic to be decrypted.
+|-
+| {{code|tooltip}} || Items that include extra tooltips while locked.
+|}
+
+== Example ==
+<code><nowiki>{{schematic|tooltip|plural=1}}</nowiki></code> → {{schematic|tooltip|plural=1}}
+
+<includeonly>
+[[Category:Templates‎]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

@@ -1,0 +1,32 @@
+{{npc infobox	
+| type = Enemy
+| ai = Perforator Cyst AI
+| environment = The Crimson	
+| life = {{dv|1,000}}
+| damage = 0
+| defense = 0	
+| knockback = 0
+| banner = no
+| Crimtane Ore | 10-26|100%
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Pearl Aura
+| immune4 = Slow
+| hurt = NPC_Hit_13.wav
+| vulnerable1 = Holy
+| vulnerable2 = Slash
+| resistant1 = Unholy
+}}
+
+The '''Perforator Cyst''' is a rare [[Pre-Hardmode]] stationary [[enemy]] that spawns in [[The Crimson]] biome. They exist to drop [[Crimtane Ore]], so that the player cannot use up all the ore available to them.
+
+The Perforator Cyst can be detected by the [[Lifeform Analyzer]] and its upgrades.
+
+== See also ==
+*[[Hive Cyst]]
+
+{{-}}
+{{Master Template Characters
+|show-main=yes
+|show-common=yes
+}}

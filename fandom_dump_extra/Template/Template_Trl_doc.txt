@@ -1,0 +1,11 @@
+This template is used for making translated links more easily and simply.
+
+== Parameters ==
+'''1:''' The first unnamed parameter is the English text for the link.
+
+'''(optional) 2:''' The second unnamed parameter is optional, and will be translated to replace the link text.
+
+== Usage ==
+
+*<code><nowiki>{{trl|Turbulance}}</nowiki></code> generates {{trl|Turbulance}}.
+*<code><nowiki>{{trl|Butcher (weapon)|Butcher}}</nowiki></code> generates {{trl|Butcher (weapon)|Butcher}}.

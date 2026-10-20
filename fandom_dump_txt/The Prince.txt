@@ -1,0 +1,44 @@
+{{dedicated|Doveda|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = magic
+| damage = 166
+| mana = 12
+| use = 21
+| velocity = 23.5
+| knockback = 4.25
+| tooltip = Casts a holy fireball that explodes into 6 flames<br/>So you're telling me that the prince exploded, and then turned into a flower?<br/>-Dain, the sailor druid
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| debuffduration = 3 seconds (Fireball)<br/>1 second (Fire)
+| proj = The Prince Fireball.gif
+| projcaption = Holy Fireball
+| proj2 = The Prince Fire.gif
+| proj2caption = Holy Fire
+| element1 = Poison
+| element2 = Fire
+}}
+
+'''The Prince''' is a craftable Godseeker Mode [[wand]] which is an upgrade to the [[Arch Amaryllis]]. When used, it casts a gravity-defying holy fireball. It explodes into six smaller homing flames after hitting four enemies, colliding with a solid tile, or after 0.58 seconds. The flames last four seconds before fading away, and deal 66% of the original damage. After exploding, the main fireball slows down and dissipates in 0.42 seconds.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

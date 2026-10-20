@@ -1,0 +1,24 @@
+{{item infobox
+| type = Armor
+| defense = 3
+| imageequipped = [[File:Wulfrum Mining Helmet Equipped.png]]
+| body slot = Helmet
+| tooltip = Become the ultimate spelunker.
+| rare = 1
+| stack = 1
+| sell = {{value|0|0|60|0}}
+| hardmode = no
+}}
+
+The '''Wulfrum Mining Helmet''' is a [[Pre-Hardmode]] helmet that combines the effects of the [[Wulfrum Lenses]] and [[Wulfrum Hardhat]]. It creates a blue beam of light in front of the player that highlights treasure, and gives them full immunity to traps.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Wulfrum}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

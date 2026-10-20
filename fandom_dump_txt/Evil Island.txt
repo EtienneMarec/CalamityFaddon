@@ -1,0 +1,58 @@
+[[File:BiomeBannerEvilIsland.png|center|460px]]
+'''Evil Island''' is a unique sky island that contain content of the [[Evil Biome]] that was not chosen.
+
+== Crimson Evil Island ==
+[[File:Crimson Island.png|300px|thumb|A Crimson Island.]]
+
+If the player chose [[The Corruption]], the island will generate in the ''right'' half of the world and be made of and contain [[Crimson]]-themed content. The usual sky house is located on top of the island, and the house has a locked [[Crimson Chest]] which contains the [[Vampire Knives]].
+
+{{biome
+|treasures=<nowiki />
+:{{item|Vampire Knives|size=20px}}
+
+|drop=<nowiki />
+'''From terrain:'''
+:{{item|Cloud}}
+:{{item|Crimsandstone Block|link=tgc:Crimsandstone Block|size=15px}}
+:{{item|Hardened Crimsand Block|link=tgc:Hardened Crimsand Block|size=15px}}
+:{{item|Crimtane Ore|size=15px}}
+:{{item|Crimson Chest|size=20px}}
+:{{item|Shadewood Table}}
+:{{item|Shadewood Chair}}
+:{{item|Shadewood Door}}
+:{{item|Crimtane Brick}}
+:{{item|Crimtane Brick Wall}}
+:{{item|Glass Wall}}
+}}
+
+== Corruption Evil Island ==
+[[File:Corruption Island.png|300px|thumb|A Corruption Island.]]
+
+If the player chose [[The Crimson]], the island will generate in the ''left'' half of the world and be made of and contain [[Corruption]]-themed content. The usual sky house is located on top of the island, and the house has a locked [[Corruption Chest]] which contains the [[Scourge of the Corruptor]].
+
+{{biome
+|treasures=<nowiki />
+:{{item|Scourge of the Corruptor|size=30px}}
+
+|drop=<nowiki />
+'''From terrain:'''
+:{{item|Cloud}}
+:{{item|Ebonsandstone Block|link=tgc:Ebonsandstone Block|size=15px}}
+:{{item|Hardened Ebonsand Block|link=tgc:Hardened Ebonsand Block|size=15px}}
+:{{item|Demonite Ore|size=15px}}
+:{{item|Corruption Chest|size=20px}}
+:{{item|Ebonwood Table}}
+:{{item|Ebonwood Chair}}
+:{{item|Ebonwood Door}}
+:{{item|Ebonstone Brick}}
+:{{item|Ebonstone Brick Wall}}
+:{{item|Glass Wall}}
+}}
+
+== Notes ==
+*The islands are made of their respective evil's [[tgc:Sandstone Block|sandstone]] variant, meaning that evil mushrooms (for [[tgc:Vile Powder|Vile Powder]]/[[tgc:Vicious Powder|Vicious Powder]]) do not grow unless grass is manually placed on the island.
+*[[Space]] enemies will spawn instead of the evil's enemies if the island generates high enough.
+*Meteors may land on the edges of these islands. They will not land in the middle, however, due to the presence of the chest.
+*Because the ore is above ground, it can be mined with any pickaxe at any point in time.
+*It will not spawn if the player chose '''random evil biome''', only if they actually selected one of the 2 options.
+{{Biomes}}

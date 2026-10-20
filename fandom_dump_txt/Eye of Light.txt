@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| stack = 1
+| auto = yes
+| damagetype = summon
+| damage = 24
+| use = 29
+| mana = 10
+| knockback = 1
+| tooltip = Summons a holy eyeball that attaches to enemies and summons stars from above
+| buff = Eye of Light (buff) | bufflink = no
+| bufftip = I watch over you my friend
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| rare = 4
+| sell = {{value|0|0|80}}
+| proj = Hallow Star.png
+| projcaption = Star
+| element1 = Holy
+| element2 = Smash
+}}
+{{summoned|Eye of Light|type=minion|image=[[File:Eye of Light (minion).png]]}}
+
+The '''Eye of Light''' is a craftable [[Hardmode]] [[summon weapon]]. It summons a tiny floating eyeball that follows slightly above the player. When an enemy is nearby, the eye attaches to the enemy and rapidly summons holy stars down onto them that deal the minion's full damage.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

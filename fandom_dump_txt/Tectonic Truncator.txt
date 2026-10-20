@@ -1,0 +1,37 @@
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 68
+| debuff = On Fire!
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| axe = 190
+| bonus = +2 range
+| knockback = 7
+| rare = 8
+| use = 16
+| sell = {{value|0|16}}
+| hardmode = yes
+| toolspeed = 6
+}}
+
+The '''Tectonic Truncator''' is a craftable [[Hardmode]] [[axe]] that, when swung, produces light particles. On strike, it inflicts the [[On Fire!]] debuff.
+
+{{modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*This tool used to be known as "Chaoswarped Slashaxe".
+{{-}}
+{{Scoria}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Axes]]

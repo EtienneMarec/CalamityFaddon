@@ -1,0 +1,41 @@
+{{addon|Calamity: Community Remix}}
+{{npc infobox
+| type = Enemy
+| ai = Wing Ding Gaster AI
+| damage = 0 (contact) <br/>{{element|Dark}} {{dv|25|boost=0.15}} (blasters)
+| life = {{dv|2006|4012}}
+| defense = 6
+| dr = 6%
+| knockback = 100
+| environment = The Underworld
+| debuff = Moon Burnt
+| debufftip = Incenerated by lunar rays
+| debuffchance = 50%
+| duration = 2 seconds
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Moon Burnt
+| money = {{value|0|0|50}}
+|Wing Ding Gaster| 6 | 100%
+| Anomaly 109 | 1 | 25%
+| hurt = NPC_Hit_49.wav
+| killed = NPC_Killed_51.wav
+| vulnerable1 = Fire
+| resistant1 = Holy
+| resistant2 = Dark
+| resistant3 = Slash
+|name=Wing Ding Gaster}}
+
+"I'm Wing Gaster, the Royal Scientist." -Wing Ding Gaster 
+
+Wing Ding Gaster is a Pre-[[Hardmode]] [[enemy]] that spawns rarely in the [[Underworld]]. He remains completely stationary until being touched after which he will disappear and summon {{dv|2-3|3-4|4-5|5-6|6-7}} stationary blasters which deal no contact damage which shoot deathrays in the direction they are facing after 2 seconds. If the player stays alive until the blasts dissipate, after which the [[Anomaly 109]] item will drop on the ground.
+
+==Trivia==
+
+* Wing Ding Gaster was one of the first original designs Fabsol created while making the Calamity Mod.
+* Wing Ding Gaster was originally named "Death's killer".
+* 66
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

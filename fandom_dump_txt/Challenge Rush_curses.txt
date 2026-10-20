@@ -1,0 +1,63 @@
+{| class="terraria lined"
+|+'''Boss Rush Curses'''
+! width=50 align=top | Name
+!Effects
+!Vision of the Tyrant Changes
+!Reward
+!Money
+|-
+| Curse of Blight
+| Removes all positive life regeneration
+| Regenerates health at a rate of 0.1% per second
+| A permanent 20% increase of health
+| {{value|0|0|0|0|0|5}}
+|-
+| Curse of Blundering
+| Disables all player dashes from items such as the [[Ornate Shield]]
+| Dashes are 30% quicker
+| Increases the immunity time from dodges by 30%.
+| {{value|0|0|0|0|0|3}}
+|-
+| Curse of Karma
+| Causes the player to enter a high tension state upon being hit<br/>While in this state, any damage taken will instantly kill the player<br/>This effect lasts for 3 seconds
+| Gains 5 immunity frames when hit
+| Doubles the player's immunity frames
+| {{value|0|0|0|0|0|3}}
+|-
+| Curse of the Tainted
+| Summons a Brimstone Monster that follows the player.<br/>The monster instantly kills the player when touched and is always onscreen.
+| Brimstone Monster fires 8 Brimstone Darts outwards when the Vision's AI changes
+| +5 minion slots
+| {{value|0|0|0|0|0|2}}
+|-
+| Curse of Binding
+| Every boss now summons an [[Arena Block|arena]] identical to Supreme Calamitas'
+| The player's speed resets on every third AI change
+| Increases movement speed by 50%
+| {{value|0|0|0|0|0|5}}
+|-
+| Curse of Time
+| All bosses gain reactive damage reduction, causing them to take less damage if the player is killing them too quickly.
+| The player will instantly die if the Vision of the Tyrant is not killed in under 3 minutes
+| Increases damage by 50%
+| {{value|0|0|0|0|0|2}}
+|-
+| Curse of the Joker
+| Disables the player's last used weapon once a boss is killed<br/>Said weapon must have done 50% or more of the boss' health or else another weapon is chosen
+| Every 8 AI changes, a random item in the player's inventory is disabled for 10 seconds
+| Increases inventory size by 10 more slots.
+| {{value|0|0|0|0|0|8}}
+|-
+| Curse of Pacifism
+| Causes most boss minions to become invulnerable to damage.<br/>Only one [[Astrum Deus]] is damageable<br/>All 3 Perforators must be killed to damage the hive<br/>Calamitas and Supreme Calamitas continue their fights after summoning their now invincible brothers.
+| All minions that the Vision of the Tyrant can summon become invincible, and the Vision now becomes invincible for a full AI cycle after every 5th change
+| Increases damage reduction by 20%
+| {{value|0|0|0|0|0|5}}
+|-
+| Curse of Encumbering
+| Puts specific locks on each weapon class<br/>All melee weapons can no longer fire projectiles<br/>Ranged projectiles disappear 75% quicker<br/>Mana Potions are disabled and Mana Regeneration is reduced by 80%<br/>Minion slots are capped at 8<br/>Rogue stealth is disabled
+| Releases a cross pattern of deathrays on every AI change
+| Increases critical strike chance by 50%
+| {{value|0|0|0|0|0|10}}
+|-
+|}

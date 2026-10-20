@@ -1,0 +1,29 @@
+{|align=right
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| sell = No value
+| stack = 9999
+| rare = 0
+| color = #413853
+| hardmode = yes
+}}
+|}
+
+'''Tarraground''' is a Godseeker-Mode [[block]] which replaces [[Mud Block]]s in the [[Tarragon Remains]] [[biome]] upon its creation. It spontaneously creates Tarragrass, though it can also generate grass using [[Tarragrass Seeds]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

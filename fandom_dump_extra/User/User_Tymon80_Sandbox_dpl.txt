@@ -1,0 +1,10 @@
+<includeonly>
+{{#ifeq:{{{listexclude|no}}}|yes|<!--nothing-->|
+{{!}}-
+{{!}} align=center {{!}} [[{{{%PAGE%}}}]]
+{{!}} align=center {{!}} {{#time:F j, Y|{{{release|}}}}}
+{{!}} align=center {{!}} {{{patchname|}}}
+{{!}} {{{description|}}}
+{{!}}-
+}}
+</includeonly>

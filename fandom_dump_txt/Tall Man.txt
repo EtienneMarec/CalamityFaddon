@@ -1,0 +1,35 @@
+{{npc infobox
+| type = Enemy
+| ai = Tall Man AI
+| environment = Solar Eclipse
+| life = {{dv|6,000|8,800}}
+| damage = {{dv|0}}
+| defense = 12
+| knockback = {{dv|100%}}
+| immune1 = Kami Flu
+| money = {{value|1|5|00}}
+| Darksun Fragment |7|100%
+| Sign of the Operator |1|20%
+| Blank Stare |1|5%
+| banner = no
+| hurt = NPC_Hit_36.wav
+| killed = NPC_Killed_39.wav
+}}
+
+The '''Tall Man''' is a powerful Godseeker Mode [[enemy]] that spawns rarely during the [[Solar Eclipse]] after [[The Devourer of Gods]] has been defeated. The Tall Man stands immobile, and will teleport every 10 seconds. While the Tall Man is visible on the players screen, tv static will begin to creep in from the screens border. If the Tall Man does not leave the players vision after 10 seconds, a realistic depiction of the Tall Mans face will appear on the screen for a short moment, and the player will die instantly, regardless of their health or armor.
+
+== Notes ==
+*The radius of the Tall Man's attack is dependent on the games zoom level.
+**The player can attempt to avoid the attack by zooming in, however this may leave them vulnerable to attacks from other enemies and is not very useful overall.
+
+== Trivia ==
+*The Tall Man is a direct reference to the Slenderman urban legend.
+**The enemies attack behavior is very similar to that of the Slenderman from the infamous horror game Slender and the Eight Pages.
+**The name Operator is a reference to the series Marble Hornets, which features Slenderman as its main antagonist.
+*Tall Man is the only enemy in the game to have a jumpscare.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-event = yes
+}}

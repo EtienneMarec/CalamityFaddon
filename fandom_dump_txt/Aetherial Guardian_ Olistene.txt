@@ -1,0 +1,219 @@
+{{addon|Deimos, the Starborn Princess}}
+{{npc infobox
+| type = Boss
+| environment = Caelus
+| ai = Olistene AI
+| life = {{dv|30,000|50,000|60,000}}
+| damage = {{defense damage}} {{element|Magic}} {{dv|50|boost=0.22}} (Contact)<br/>{{element|Holy}} {{dv|50|75|100|125}} (Mine)<br/>{{element|Stab}}{{element|Holy}} {{dv|40|75|90|100}} (Light Bolt)<br/>{{element|Fire}}{{element|Stab}}{{element|Holy}} {{dv|50|75|100|125}} (Incandescent Light Spear)<br/>{{element|Stab}}{{element|Holy}} {{dv|30|54|76|90}} (Homing Spears)<br/>{{element|Slash}}{{element|Holy}} {{dv|55|76|86|100}} (Slash)<br/>{{element|Magic}} {{dv|50|90|100|130}} (Lightning Sphere)<br/>{{element|Stab}}{{element|Holy}} {{dv||65|85|100}} (Light Spear)
+| defense = 15
+| dr = 15
+| debuff = Vaporfied
+| debufftip = Vaporizing senses and mind
+| duration = 2 seconds (Contact)
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debufftip2 = Dissolving from holy light
+| duration2 = 0.5 seconds
+| debuffchance2 = 100%
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Scorinfestation
+| hardmode = yes
+| vulnerable1 = Dark
+| vulnerable2 = Unholy
+| resistant1 = Stab
+| resistant2 = Magic
+| resistant3 = Holy
+| knockback = 100
+| money = {{value|0|25}}
+| Compressed Mana|{{dv|15-25|25-35}}|100%
+|group|At least one of the following 5 weapons will always drop:|5
+| Starspite|1|{{dv|25%|33.33%}}
+| Stardust Cannon|1|{{dv|25%|33.33%}}
+| Abyssal Sky|1|{{dv|25%|33.33%}}
+| Astrosphere Staff|1|{{dv|25%|33.33%}}
+| Incandescent Nox|1|{{dv|25%|33.33%}}
+| Olistene Trophy|1|10%
+| custom| {{item|Caelus (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| image2 = Olistene map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_7.wav
+| sound = Item_92.wav
+| soundtext = Dash
+| sound2 = Item_33.wav
+| sound2text = Mine Spawn
+| sound3 = Item_14.wav
+| sound3text = Mine Explosion
+| sound4 = Item_84.wav
+| sound4text = Incandescent Light Spear
+| sound5 = Item_93.wav
+| sound5text = Incandescent Light Spear Split
+| sound6 = Item_71.wav
+| sound6text = Slash
+| sound7 = Item_92.wav
+| sound7text = Light Sphere Spawn
+| sound8 = Item_60.wav
+| sound8text = Light Spear
+}}
+
+'''Aetherial Guardian, Olistene''' (Japanese: イセリアルガーディアン オリステネ ''Iseriarugādian orisutene'') is a [[boss]] that is intended to be fought shortly before the first mechanical boss.
+
+Defeating her will allow the [[Radiant Paladin]] [[Town NPC]] to move in.
+
+==Spawn==
+Aetherial Guardian, Olistene does not spawn on her own, and requires the player to summon her manually by inserting a [[Rotting Eyeball]] into the [[Luminous Altar]] found near the center of [[Caelus]].
+
+== Behavior ==
+The Boss will fly around the player and use a variety of attacks.
+
+=== Attacks ===
+==== Phase 1 ====
+*Flies around the player for {{dv|3||1.5}} seconds.
+*Dashes directly at the player while creating a series of mines in her direction that will explode into three evenly spaced Light Bolts after {{dv|3||2}} seconds.
+
+==== Phase 2 ====
+*Transitions at {{dv|80||85%|}} health.
+These attacks are added to her arsenal:
+*Throws an Incandescent Light Spear at the player, which will split into {{dv|4|6}} smaller homing spears after 1.5 seconds.
+*Attempts to get close to the player while making short ranged Slashes.
+
+==== Phase 3 ====
+*Transitions at {{dv|60%||70%|}} health.
+These attacks are added to her arsenal:
+*Creates a {{item|link=|Lightning Orb|ext=gif|size=20px}} that will fire {{dv|3||2}} bolts of lightning towards the player.
+*Launches {{dv|3||4}} Light Spheres that will orbit the player then explode into four slow moving Light Blots in a cross pattern.
+
+==== Phase 4 ====
+*Transitions at {{dv|40%||55%|}} health.
+This attack are added to her arsenal:
+*Dashes directly at the player and creates a Light Portal, the portal will spawn a variety of enemies until killed.
+**The Boss will stop attacking the player while a portal is active.
+**When a portal is killed, all enemies it spawns will be killed with it.
+
+==== Phase 5 ====
+*Transitions at {{dv|15%||30%|}} health.
+All other attacks are removed and Olistene only uses two attacks:
+*Tries to get close to the player while making medium range slashes
+*Fires a semi circle of 3 Light Spears 2 times
+
+==== Desperation Phase ====
+*Once Olistene's health is at 1%, she will cease all attacks, and transform into a planetoid similar to the ones in Caelus, before ramming at the player
+**Once she hits a block, the fight will end and she will drop her items
+
+
+=== In [[Expert Mode]] ===
+*Creates a spread of Light Spears every {{dv||1|0.75|0.5}} seconds while flying around the player.
+*When a Portal is killed, it will explode into {{dv||6||8|14}} evenly spaced Light Bolts.
+*All attacks are 15% faster
+
+=== In [[Revengeance Mode]] ===
+*Portals will create an even spread of 5 Light Bolts every {{dv|||2.5|2}} seconds.
+*She will launch two Lightning Orbs perpendicular to the player instead of one.
+*All attacks are 15% faster, adding up with the Expert buff to 30%.
+
+== Summons ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Light Portal
+| type = Flying Enemy
+| ai = Light Portal AI
+| life = 100
+| damage = {{element|Slash}}{{element|Holy}} {{dv|60|85|90|100}} (Contact)<br/>{{element|Stab}}{{element|Holy}} {{dv||65|85|100}} (Light Spear)<br/>{{element|Stab}}{{element|Holy}} {{dv|||75|85}} (Light Bolt)
+| knockback = 100%
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| duration = 1 second
+| debuffchance = 100%
+| immune1 = Confused
+| resistant1 = Holy
+| hurt = NPC_Hit_53.wav
+| killed = NPC_Killed_14.wav
+| sound = Item_117.wav
+| soundtext = Enemy Spawned
+| sound2 = Item_105.wav
+| sound2text = Light Bolt
+}}
+|{{npc infobox
+| name = Light Cluster
+| type = Flying Enemy
+| type2 = Burrowing Enemy
+| ai = Worm AI
+| life = 100
+| damage = {{element|Holy}} {{dv|50|75|83|90}} (Contact)
+| knockback = 100%
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| duration = 0.5 seconds
+| debuffchance = 100%
+| immune1 = Confused
+| hurt = NPC_Hit_53.wav
+| killed = NPC_Killed_7.wav
+}}
+|{{npc infobox
+| name = Light Floater
+| type = Flying Enemy
+| ai = Nebula Floater AI
+| life = 100
+| damage = {{element|Holy}} {{dv|50|75|83|90}} (Contact)<br/>{{element|Holy}} {{dv|36|53|67|75}} (Light Beam)
+| knockback = 100%
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| duration = 0.5 seconds
+| debuffchance = 100%
+| immune1 = Confused
+| hurt = NPC_Hit_53.wav
+| killed = NPC_Killed_7.wav
+}}
+|{{npc infobox
+| name = Light Pod
+| type = Flying Enemy
+| ai = Demon Eye AI
+| life = 100
+| damage = {{element|Holy}} {{dv|50|75|83|90}} (Contact)
+| knockback = 100%
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| duration = 0.5 seconds
+| debuffchance = 100%
+| immune1 = Confused
+| hurt = NPC_Hit_53.wav
+| killed = NPC_Killed_7.wav
+}}
+|{{npc infobox
+| name = Light Slime
+| type = Flying Enemy
+| ai = Biome Mimic AI
+| life = 100
+| damage = {{element|Holy}} {{dv|50|75|83|90}} (Contact)
+| knockback = 100%
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| duration = 0.5 seconds
+| debuffchance = 100%
+| immune1 = Confused
+| hurt = NPC_Hit_53.wav
+| killed = NPC_Killed_7.wav
+}}
+}}
+
+== Aftermath ==
+*The [[Radiant Paladin]] will begin to arrive if provided suitable housing.
+*The [[Luminous Altar]] will become mineable.
+
+== Tips ==
+{{dablink|For elaborate strategies on defeating Aetherial Guardian, Olistene, including [[Weapon]] and Arena recommendations, see [[Guide:Aetherial Guardian, Olistene strategies]].}}
+
+== Trivia ==
+*The [[Music|theme]] heard while fighting Aetherial Guardian, Olistene is '''Boss 1 (Otherworldly)'''.
+
+
+==Quotes==
+*"How bold of you to challenge me." (When summoned)
+*"I have seen what your kind do. Horrible." (When Phase 2 is started)
+*"Ngh..impressive." (When Phase 3 is started)
+*"What is this? I have killed thousands of you! This isn't possible!" (When Phase 4 is started)
+*"ENOUGH! I will not let the remains of Caelus be consumed as well!" (When Phase 5 is started)
+*"NO! I WON'T DIE!" (Desperation Phase)
+{{-}}
+{{DeimosMod}}

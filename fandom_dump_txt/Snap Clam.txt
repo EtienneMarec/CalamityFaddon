@@ -1,0 +1,38 @@
+{| align="right"
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damage = 14
+| damagetype = Rogue
+| velocity = 12
+| knockback = 3
+| use = 24
+| tooltip = Can latch on enemies and deal damage over time<br/>Stealth strikes throw five clams at once that cause increased damage over time
+| rare = 2
+| stack = 1
+| buy = {{value|0|2}}
+| sell = {{value|0|0|40}}
+| proj = Snap Clam projectile.gif
+| projcaption = Snap Clam
+| debuff = Clammed | debufflink = no
+| debufftip = Clam clap
+| debuffchance = 100%
+| debuffduration = 4 seconds<br/>6 seconds (stealth strike)
+| element1 = Water
+}}
+|}
+
+The '''Snap Clam''' is a [[Pre-Hardmode]] [[rogue weapon]] that can be purchased from the [[Sea King]] for {{gc|2}} at any time. For the first half second upon being thrown, the snap clam is open. Afterwards, the clam will visually close up and deal 20 percent less damage. Upon hitting an enemy, the snap clam will cling to them and deal damage over time. Enemies will lose 30 health per second per clam, up to a maximum of 60 health per second at 2 or more clams.
+
+Performing a [[stealth strike]] with the Snap Clam will cause five clams to be thrown out at once. The Clammed debuff will also cause enemies to lose 75 health per second.
+
+{{Modifier|rogue}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

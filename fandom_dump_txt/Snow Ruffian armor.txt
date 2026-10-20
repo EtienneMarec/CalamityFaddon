@@ -1,0 +1,75 @@
+{{item infobox
+| type = Armor
+| defense = 4
+| rare = 1
+| sell = {{value|0|0|60}} (set)
+| setbonus = 5% increased Spy damage<br/>You can glide to negate fall damage<br/>Spy stealth builds while not attacking and slower while moving, up to a max of 50<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+| resistance1 = Cold
+| resistance2 = Water
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+}}
+
+'''Snow Ruffian armor''' is a craftable [[Pre-Hardmode]] [[Spy]] [[Covering]] set. It requires 60 [[Snow Block]]s, 30 [[Ice Block]]s, and 90 [[Boreal Wood]]  to craft the entire set.
+
+It consists of a '''Snow Ruffian Mask''', '''Snow Ruffian Chestplate''', and '''Snow Ruffian Leggings''', and '''Snow Ruffian Greaves'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*4 defense
+*7% increased Spy damage
+*3% increased Spy critical strike chance
+*5% increased movement speed
+*The player can glide by holding the {{key|Jump}} key, which negates fall damage.
+*A max [[stealth]] of 50
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Snow Ruffian Mask
+| type = Armor
+| defense = 1
+| body slot = Helmet
+| tooltip = 2% increased Spy damage
+| sell = {{value|0|0|15}}
+}}
+|{{item infobox
+| name = Snow Ruffian Chestplate
+| type = Armor
+| defense = 2
+| body slot = Shirt
+| tooltip = 3% increased Spy critical strike chance
+| sell = {{value|0|0|15}}
+}}
+|{{item infobox
+| name = Snow Ruffian Leggings
+| type = Armor
+| defense = 1
+| body slot = Pants
+| tooltip = 2% increased movement speed
+| sell = {{value|0|0|15}}
+}}
+|{{item infobox
+| name = Snow Ruffian Greaves
+| type = Armor
+| defense = 1
+| body slot = Boots
+| tooltip = 3% increased movement speed
+| sell = {{value|0|0|15}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Snow Ruffian%}}
+
+== Notes ==
+*The player must be gliding when they land on the ground, otherwise they will take the full fall damage. Gliding before touching the ground does not affect the fall damage taken.
+
+== Tips ==
+*Although this is a Spy armor, it can be used by all classes to negate fall damage during early game.
+
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

@@ -1,0 +1,35 @@
+{{addon|Cataclysm}}
+{{item infobox
+| type = Weapon
+| tooltip = A copy of a mass-produced tome phased out in favor of stronger spells  </br> Casts a cube of salt
+| damage = 10
+| damagetype = magic
+| mana = 12
+| use = 30
+| knockback = 5.5
+| rare = 1
+| sell = {{value|0|0|0|2}}
+| auto = yes
+| velocity = 7.5
+| stack = 1
+| type2 = Crafting material
+| proj = Salt Cube.png
+| projcaption = Salt Cube
+| element1 = Poison
+}}
+
+The '''Salt Booklet''' is a [[spell tome]] that fires a cube of salt. It can be obtained by using [[Sulphurous Sand]] at the [[Extractinator]]. The projectile travels a short distance before falling to the ground. It dissipates immediately after hitting a block or enemy.
+{{Modifier|magic}}
+
+==Crafting==
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*In alchemy, salt symbolizes the principle of combustibility.
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

@@ -1,0 +1,218 @@
+
+==Duke Fishron==
+{{npc infobox
+|name= Duke Fishron
+|image= Duke Fishron.png
+|type= Boss
+|environment= Ocean
+|ai= Duke Fishron AI
+|damage= {{dv|100|140|161|185}} (Contact) <br/> {{dv|100|140|161|185}} (Detonating Bubble) <br/> {{dv|100|150|172|198}} (Small Sharkron)
+|life= {{dv|81,250|97,500|117,000}}
+|knockback= 100%
+|immune1= Confused
+|immune2= Glacial State
+|immune3= Slow
+|immune4= Temporal Sadness
+|immune5= Time Distortion
+|immune6= Galvanic Corrosion
+|immune7= Eutrophication
+|immune8= Pearl Aura
+|immune9= Webbed
+|image2= Map Icon Duke Fishron.png
+|image2caption= Map Icon
+}}
+{{npc infobox
+|name= Duke Fishron Phase 2
+|image= Duke Fishron (Phase 2).png
+|ai= Duke Fishron AI
+|type= Boss
+|environment= Ocean
+|damage= {{dv|120|201|231|265}} (Contact) <br/> {{dv||184|211|243}} (Phase 3) <br/> {{dv|160|200|230|260}} (Cthulunado) <br/> {{dv|100|140|161|185}} (Detonating bubble) <br/> {{dv|120|180|207|238}} (Large Sharkron)
+|life={{dv|25,000|30,000|77,700}}
+|knockback= 100%
+|immune1= Poisoned
+|immune2= Venom
+|immune3= On Fire!
+|immune4= Confused
+|immune5= Frostburn
+|immune6= Glacial State
+|immune7= Slow
+|immune8= Temporal Sadness
+|immune9= Time Distortion
+|immune10= Galvanic Corrosion
+|immune11= Eutrophication
+|immune12= Pearl Aura
+|immune13= Webbed
+|group|One Of The Following 6 Items Will Drop:|6
+|Bubble Gun|1|16.66%
+|Flairon|1|16.66%
+|Razorblade Typhoon|1|16.66%
+|Tempest Staff|1|16.66%
+|Tsunami|1|16.66%
+|Duke's Decapitator|1|16.66%
+|money= {{gc|25}}
+|Greater Healing Potion|(5-15)|100%
+|Fishron Wings|1|6.67%
+|Duke Fishron Mask|1|14.29%
+|Duke Fishron Trophy|1|10%
+|custom|{{item|Duke Fishron (Lore)|note=(Always On First Kill)|wrap=y}}|100%
+|custom|{{item|Treasure Bag (Duke Fishron)|Treasure Bag|note=(Duke Fishron)|wrap=y}}
+: * {{item|Shrimpy Truffle}}|{{dv||100%}}
+|custom|{{item|Briny Baron|note=([[Revengeance]] Mode Only)|wrap=y}}|{{dv|||1%}}
+}}
+
+''If you were looking for Duke Fishron on the vanilla Wiki, click [[tgc:Duke_Fishron|here]]''
+
+
+
+'''Duke Fishron''' Is a Hardmode Boss which can be summoned at any point of the game using a [[Truffle Worm]]. It is Originally Intended to fight after [[Plantera]]. 
+
+In [[Revengeance Mode|Revengeance]] and [[Death Mode|Death]] mode, Duke fishron gains various changes to attack patterns and changes phases at different times.
+
+==Spawn ==
+The Duke Fishron is summoned by fishing in the ocean using a truffle worm, which is found in the [[Glowing Mushroom biome]]. 
+
+==Behavior==
+
+===   In [[Revengeance Mode]]   ===
+*Becomes invulnerable when it changes phases. 
+*Transitions to phase 2 at 70% and phase 3 at 40% health.
+*Sharknados and Cthulunados only take a second to initialize their hitbox.
+*Vastly increased defense. 
+*Top speed increased. 
+*Spawns 3 Sharknados in phase 1 in a triangular pattern around it.
+*Spawns a large amount of Sharkrons as well as bubbles when spinning in phase 2. 
+*Spawns Cthulunados about every 10 seconds in phase 3. 
+*Gains a new pattern when below 20% health. Charges 3 times, Teleports, and charges 4 times then repeats the cycle and stops spawning Cthulhunados.
+
+===   In [[Death Mode]]   ===
+*Increased dash displacement.
+*Minimap icon disappears during phase 3.
+*When Below 20% health, charges endlessly at the player.
+*All projectiles have increased velocity.
+
+===   During the [[Boss Rush]]   ===
+*Max Life Increased to {{dv|2,900,000|3,480,000|6,438,000}}
+
+== Summons ==
+{{infobox wrapper|direction=row|float=none
+|{{npc infobox
+|name= Sharkron
+|image= Sharkron.png
+|type= Enemy
+|environment= Ocean
+|ai= Sharkron AI
+|immune1= Poisoned
+|immune2= Venom
+|immune3= On Fire!
+|immune4= Confused
+|immune5= Frostburn
+|immune6= Glacial State
+|immune7= Slow
+|immune8= Temporal Sadness
+|immune9= Time Distortion
+|immune10= Galvanic Corrosion
+|immune11= Eutrophication
+|immune12= Pearl Aura
+|immune13= Webbed
+|damage= {{dv|100|150|172|198}} (Phase 1) <br/> {{dv|120|180|207|238}} (Phase 2)
+|knockback= 100%
+|life= {{dv|100|150|750}}
+}}
+|{{npc infobox
+|name= Detonating Bubble
+|image= Detonating Bubble.png
+|type= Projectile
+|environment= Ocean
+|life= 1
+|damage= {{dv|100|140|161|185}}
+|ai= Detonating Bubble AI
+|knockback= 100%
+|debuff= Wet
+|debuffchance= 100%
+|duration= 3-8 seconds
+|debufftip= You are dripping water
+}}
+}}
+==Tips==
+''If you are looking for a guide on normal or Expert Mode Duke Fishron, click [[tgc:Guide:Duke_Fishron_strategies|here]]''
+
+===Accessories===
+
+*Mobility is a must at this fight, so [[Angel Treads]] should be utilized.
+*[[Betsy's Wings]] provide the best mobility available at this point in the game, but require grinding [[Old One's Army]] to acquire.
+**The [[Hadal Mantle]] is a decent option alongside [[Hydrothermic Armor]] for its damage boost.
+**The [[Steampunk Wings]] are another viable option.
+*[[Asgard's Valor]] is incredibly valuable for this fight as it provides a dash that can be used to parry Duke Fishron's charges, various defensive bonuses, knockback resistance, and immunity to all possible debuffs caused by [[Feral Bite]].
+*[[The Community]] provides minor buffs to all stats at this point.
+*Melee players should use the [[Celestial Shell]] and [[Fire Gauntlet]] for their great melee stat boosts.
+**If the player is using any yoyo, the [[Yoyo Bag]] is a must.
+*Rangers should use a [[Sniper Scope]] For longer range and for some more damage.
+*The [[Star-Tainted Generator]] and [[Statis' Blessing]] should be used by summoners due to the minion slots and damage bonuses they provide.
+
+=== Armor===
+
+*The [[Hydrothermic armor]] is a viable option for all classes.
+*If [[The Plaguebringer Goliath]] has been defeated, [[Plaguebringer armor]] is arguably the best available option for summoners at this point. [[Spooky armor]] is an option for players who prefer a glass cannon playstyle. [[Valhalla Knight armor]] can also be utilized for its incredible survivability and bonus sentry slots.
+*Ranged users can use [[Plague Reaper armor]] for its great offensive boosts.
+*Melee users can use [[Beetle armor]] with either chest piece for great offensive or defensive boosts respectively.
+
+=== Weapons ===
+====Melee ====
+
+*The [[Soul Harvester]]'s lingering projectiles can deal massive damage on the duke over time.
+*The [[Pandemic]] is also a solid weapon that can inflict the [[Plague]] on Duke.
+*The [[Fallen Paladin's Hammer]] deals really good damage.
+*The [[Ultimus Cleaver]]'s projectiles will deal slow, but massive damage to Duke.
+**This weapon will deal very high damage when Duke stops on your top right or left to attack
+
+==== Ranged ====
+
+*The [[Aerial Bane]]'s extra projectiles can deal a lot more damage to Duke.
+*The [[Continental Greatbow]] provides [[Ichor]] and [[Cursed Inferno]] support.
+*[[The Hive]] can be used for taking out the Duke Fishron fairly easily.
+*The [[Snowman Cannon]] can deal a lot of damage to  the duke.
+*The [[Xenopopper]] used with [[Chlorophyte Bullet]]s can absoultely shred Duke Fishron.
+
+==== Mage ====
+
+*[[Betsy's Wrath]] Is the best option which can absoultely destroy duke here.
+** However, it requires the player to fight Old One's Army, a rather time consuming event.
+*The [[Everglade Spray]] can be used to inflict Ichor and Cursed Inferno.
+*The [[Tears of Heaven]] is a decent choice due to its homing projectiles.
+*The [[Laser Machinegun]] can deal lots of damage, but consumes mana extremely quickly.
+*If The Plaguebringer Goliath has been defeated, the [[Gatling Laser]] is one of the highest DPS options available. 
+
+==== Summoner ====
+
+*The [[Hive Pod]] can deal great damage while Duke is not dashing.
+*The [[Pulse Turret Remote]] performs nicely against Duke.
+*The [[Resurrection Butterfly]] is mobile enough to be a very solid weapon in this fight. 
+*The [[Spikecrag Staff]] is stationary, but if at least two are used, it can shred duke in under a minute. 
+
+==== Rogue ====
+
+*The [[Cranium Smasher]] is a really nice rogue weapon which deals slow but massive damage.
+*The [[Fallen Paladin's Hammer]] deals a good DPS at the cost of some range.
+*The [[Malachite]] is an amazing weapon, but it is a legendary so it can be hard to obtain.
+* The [[System Bane]] is a good weapon and also very satisfying to use.
+*[[The Syringe]] is also another very nice way to inflict the plague on the duke.
+
+== Terrain Preperation ==
+One possible arena consists of 4-6 platforms, each around 15-20 blocks apart, and around the length of your ocean should work. Place campfire, Heart Lanterns, and candles from the [[Drunk Princess]]. It is not recommended to place honey bubbles because they slow down your speed. 
+
+== The Fight ==
+=== Phase 1 ===
+Phase 1 of the fight is similar to the battle in vanilla, except three Sharknados are spawned instead of two. Remain aware of the position of the Sharknados and this phase is relatively straightforward. 
+=== Phase 2 ===
+Phase 2 occurs at 70% health. Continue the triangle pattern until he begins spinning, move away to dodge any Sharkrons he fires, and destroy the Detonating Bubbles he spawns. When he fires the projectile that spawns the Cthulhunado, move to a position where the Cthulhunado will be out of the way to make the fight easier for yourself. Repeat this until He reaches 40%  health.
+=== Phase 3 ===
+In phase 3, Duke turns invisible except for his eyes. He charges once, teleports near you, charges twice, teleports again, charges three times, teleports again, and the pattern repeats. Each teleport alternates between him appearing on your left and right side. Every 10 seconds while doing this, he will summon a Cthulhunado. The player should use dashes to dodge the charges while moving away from the Cthulhunados to minimize the number of Sharkrons they need to dodge. This repeats until he reaches 20% health at which point he ceases spawning Cthulhunados and gains a new AI. In Revengeance Mode he will dash 3 times, teleport, dash 4 times, teleport again, and then repeat. In Death Mode, Duke Fishron will continuously charge at you instead. This can be avoided by keeping moving in a triangular motion and dashing past Duke's charges, rather than away from them. 
+
+== Notes ==
+*The Sharkrons spawned by Duke Fishron have a smaller, square hitbox to eliminate the confusion of where the hitbox is caused by the old one.
+
+{{Guides
+| show-main=yes
+| show-boss=yes
+}}

@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Spy
+| damage = 16
+| auto = yes
+| use = 17
+| critical = 8%
+| knockback = 3
+| velocity = 10
+| rare = 2
+| sell = {{value|0|0|40}}
+| stack = 1
+| tooltip = Splits into several projectiles as it travels<br/>Stealth strikes make the blade split more and create crystals when destroyed
+| element1 = Stab
+}}
+[[File:Crystalline (demo).gif|frame|The Crystalline's daggers splitting upon traveling a short distance. Note how the left [[Target Dummy|target dummy]] doesn't spawn the extra daggers.]]
+The '''Crystalline''' is a craftable [[Hardmode]] non-consumable [[dagger]] which automatically throws a gemstone dagger that is affected by gravity. Shortly after being thrown, the dagger emits three copies of itself that deal less damage and are not affected by gravity, with each disappearing shortly after spawning. The dagger cannot pass through walls nor pierce through enemies. If the original dagger hits an enemy or a wall before splitting, the extra daggers will not appear.
+
+Performing a [[stealth strike]] with the Crystalline will cause each of the dagger copies created by the resulting dagger to split into four more short-ranged clones. Additionally, all daggers explode into damaging crystal dust when destroyed. Crystals deal 10% of the base damage.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The Crystalline can be a useful weapon for Spys in the early game and even up to [[Skeletron]] because of the combined damage output of all the daggers.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+
+[[Category:Daggers]]

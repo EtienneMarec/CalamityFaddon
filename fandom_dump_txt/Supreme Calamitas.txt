@@ -1,0 +1,454 @@
+<section begin="npc" infobox/>
+{{infobox wrapper
+|{{npc infobox
+| name = Supreme Calamitas
+| namesub = Phase 2
+| type = Boss
+| imagealt = <Tabber>
+
+Hooded=[[File:Supreme_Calamitas_Hooded.png]]
+|-|
+Unhooded=[[File:Supreme_Calamitas.png]]
+
+</Tabber>
+| ai = Supreme Calamitas AI
+| life = {{dv|900,000|1,600,000|1,840,000}}
+| damage = {{dv|350|560|592|608}} (Contact)<br/>{{dv|350|528|556|572}} (Brimstone Dart)<br/>{{dv|450|676|712|732}} (Brimstone Fireblast)<br/>{{dv|400|600|632|648}} (Brimstone Gigablast, Hellblast)<br/>{{dv|500|750|790|810}} (Bullet Hell 1)
+| defense = 100
+| dr = 25
+| knockback = 100
+| debuff = Abyssal Flames
+| debuffchance = 100%
+| duration = 3 seconds (Brimstone Dart, Brimstone Hellblast)<br/>4 seconds (Brimstone Fireblast, Brimstone Gigablast)
+| debufftip = Your soul is being consumed
+| debuff2 = Vulnerability Hex
+| debuffchance2 = 100%
+| duration2 = 10 seconds (Contact)<br/>2 seconds (Brimstone Dart, Brimstone Hellblast)<br/>3 seconds (Brimstone Fireblast, Brimstone Gigablast)
+| debufftip2 = You are weak
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Abyssal Flames
+| immune4 = Brimstone Flames
+| vulnerable1 = Cold
+| vulnerable2 = Water
+| vulnerable3 = Stab
+| vulnerable4 = Holy
+| resistant1 = Fire
+| resistant2 = Dark
+| resistant3 = Unholy
+| hardmode = yes
+| postml = yes
+| image2 = Supreme Calamitas map.png
+| image2caption = Map Icon
+| image3 = Supreme Calamitas Hooded map.png
+| image3caption = Map Icon (Hooded)
+| boxwidth = 26em
+}}
+|{{npc infobox
+| name = Supreme Calamitas
+| namesub = Phase 2
+| type = Boss
+| imagealt = <Tabber>
+
+Hooded=[[File:Supreme Calamitas Hooded (Phase 2).png]]
+|-|
+Unhooded=[[File:Supreme Calamitas (Phase 2).png]]
+
+</Tabber>
+| ai = Supreme Calamitas AI
+| life = 400,000 / 1,000,000<br/>{{expert|640,000 / 1,600,000}}<br/>{{revengeance|736,000 / 1,840,000}}
+| damage = {{dv|350|560|592|608}} (Contact)<br/>{{dv|350|528|556|572}} (Brimstone Dart)<br/>{{dv|450|676|712|732}} (Brimstone Fireblast)<br/>{{dv|400|600|632|648}} (Brimstone Flame Skull, Gigablast, Hellblast)<br/>{{dv|500|752|788|808}} (Brimstone Monster)
+| defense = 100
+| dr = 25
+| knockback = 100
+| debuff = Abyssal Flames
+| debuffchance = 100%
+| duration = 3 seconds (Brimstone Dart, Brimstone Hellblast, Brimstone Flame Skull)<br/>4 seconds (Brimstone Fireblast, Brimstone Gigablast)<br/>15 seconds (Brimstone Monster)
+| debufftip = Your soul is being consumed
+| debuff2 = Vulnerability Hex
+| debuffchance2 = 100%
+| duration2 = 10 seconds (Contact)<br/>2 seconds (Brimstone Dart, Brimstone Hellblast, Brimstone Flame Skull)<br/>3 seconds (Brimstone Fireblast, Brimstone Gigablast)<br/>5 seconds (Brimstone Monster)
+| debufftip2 = You are weak
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Abyssal Flames
+| immune4 = Brimstone Flames
+| vulnerable1 = Cold
+| vulnerable2 = Water
+| vulnerable3 = Stab
+| vulnerable4 = Holy
+| resistant1 = Fire
+| resistant2 = Dark
+| resistant3 = Unholy
+| hardmode = yes
+| postml = yes
+| Calamitea | 10 |100%
+| Ashes of Calamity|{{dv|18-27|25-35}}|100%
+| Calamity|1|100%
+| Omega Healing Potion|5-15|100%
+| group|The following four items will always drop together|1
+| custom| {{item|Ashen Horns}}
+{{item|Calamitous Hood}}
+{{item|Calamitous Robes}}
+{{item|Calamitous Boots}}|14.29%
+| Supreme Calamitas Trophy|1|10%
+| Yharim Bar|{{dv|6-8|7-9|9-11}}|100% {{fantag|Calamity: Community Remix}}
+| custom| {{item|Calamitas (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Coffer|wrap=y}}
+: • {{item|Brimstone Jewel|wrap=y}}|{{expert|100%}}
+| custom| {{item|Violet Heart of Calamity|note=(In [[Revengeance Mode]] only)|wrap=y}}|{{revengeance|100%}}
+| custom| {{item|Levi|note=(In [[Death Mode]] only)|wrap=y}}|{{death|100%}}
+| custom| {{item|Gael's Greatsword|note=(In [[Malice Mode]] only)|wrap=y}}|{{malice|100%}}
+| image2 = Supreme Calamitas map (phase 2).png
+| image2caption = Map Icon
+| image3 = Supreme Calamitas Hooded map (phase 2).png
+| image3caption = Map Icon (Hooded)
+| hurt = NPC_Hit_1.wav
+| sound = SupremeCalamitasSpawn.wav
+| soundtext = Laugh
+| sound2 = SCalDash.wav
+| sound2text = Charge
+| sound3 = BrimstoneHellblastSound.wav
+| sound3text = Brimstone Hellblast Cast
+| sound4 = BrimstoneShoot.wav
+| sound4text = Brimstone Fireblast Cast
+| sound5 = BrimstoneFireblastImpact.wav
+| sound5text = Brimstone Fireblast Impact
+| sound6 = BrimstoneBigShoot.wav
+| sound6text = Brimstone Gigablast Cast
+| sound7 = BrimstoneGigablastImpact.wav
+| sound7text = Brimstone Gigablast Impact
+| sound8 = BrimstoneMonsterSpawn.wav
+| sound8text = Brimstone Monster Spawn
+| sound9 = BrimstoneMonsterDrone.wav
+| sound9text = Brimstone Monster Idle
+| sound10 = Dd2_dark_mage_cast_heal_0.wav, SepulcherSpawn.wav
+| sound10text = Sepulcher Spawn
+| sound11 = Dd2_dark_mage_heal_impact_0.wav
+| sound11text = Brothers and Seeker Spawns
+| boxwidth = 26em
+}}
+}}<section end=npc infobox/>
+{{distinguish|Calamitas|a [[Hardmode]] [[boss]]}}
+
+[[File:Supreme_Calamitas_Trophy.png]] <big>'''''"Do you know the way your fate will take you? "'''''</big> [[File:Supreme_Calamitas_Trophy.png]]
+
+'''Supreme Calamitas''' (Japanese: カラミタス <nowiki>''</nowiki>Karamitasu<nowiki>''</nowiki>) is a post-[[Jungle Dragon, Yharon]] boss, that is intended to be fought around the same time as [[The Fabricational Quartet]]. She is currently one of the most challenging bosses in the Calamity Mod.
+
+Defeating her will cause the lookalike [[Town NPC]] named the Brimstone Witch to move in, granting players access to the [[Enchantment]] mechanic.
+
+== Spawn ==
+Supreme Calamitas does not spawn on her own and requires the player to summon her at the [[Altar of the Accursed]] after the [[Dark Seal]] has been broken and [[Supreme Cryogen]] has been defeated. This is done by selecting the "Summon Witch" option, which uses [[Ashes of Calamity]] or the [[Ceremonial Urn]]; upon using said items at the Altar, the screen will darken, shake, and become tinted red before Supreme Calamitas herself appears above the Altar. The Ceremonial Urn is reusable, so Supreme Calamitas may be summoned any number of times. When Supreme Calamitas is fully summoned, she will laugh devilishly instead of using the regular boss roar. Supreme Calamitas can be fought in any biome at any time.
+
+If the [[Brimstone Witch]] NPC is currently alive in the world, she will disappear when Supreme Calamitas is summoned.
+
+== Behavior ==
+Upon spawning, Supreme Calamitas will create a 159x159 (inner available area is 157x157) square arena made of mostly unbreakable [[Arena Block|Arena Blocks]]. Leaving it will cause Supreme Calamitas to enrage, significantly increasing the velocity of all of her attacks and giving her 99% irreducible damage reduction.
+
+Supreme Calamitas has several powerful attacks that she will switch between in a consistent cycle. She always remains either directly above or to the side of the player, only breaking position during Bullet Hell phases or during her devastating dash attacks.
+
+=== Attacks ===
+While Supreme Calamitas is mobile, she will switch between these attacks in a well defined cycle.
+*She condenses her force field into a demonic skull and charges at the player at an incredibly high speed, dealing massive damage. This occurs either 2 or 4 times in a row, depending on the position in the cycle.
+**At the start of the attack prior to charging, she will become translucent as a warning.
+**Once she enters her second phase, she will charge half as many times in a row.
+
+*She attempts to hover above the player, shooting bursts of 8  {{item|BrimstoneBarrage|nolink=yes|ext=gif|size=9px|Brimstone Darts}} at the player, leaving similar-sized gaps between the projectiles. She performs either 3 or 4 bursts during an attack.
+**Some of the bursts are randomly replaced with firing a {{item|BrimstoneGigaBlast|nolink=yes|ext=gif|size=18px|Brimstone Fireblast}} or a {{item|BrimstoneFireblast|nolink=yes|ext=gif|size=26px|Brimstone Gigablast}}, which both home in on the player and explode into rings of Brimstone Darts after some time, or upon contact with blocks. This is the only occurence of randomness in her attack pattern.
+
+*She remains at the player's side and launches either 2 or 4 Brimstone Gigablasts (depending on the position in the cycle) with a constant delay between them.
+*She remains at the player's side and fires a barrage of {{item|BrimstoneHellblast|nolink=yes|ext=gif|size=27px|Brimstone Hellblasts}}, which accelerate towards the player. She shoots the Hellblasts horizontally once she has taken her position to the left/right of the player - however, she can already start shooting while in the process of homing towards this position. This can cause bullets to fly in non-horizontal directions.
+
+
+Once she enters her second phase at 40% HP, the delays between her attacks as well as inside her attacks become shorter; she charges more aggressively and only half as often per attack.
+
+=== Attack Cycle ===
+Supreme Calamitas has a constant attack cycle which only interrupts when she is not attacking at all. Neither going through bullet-hell phases, nor switching to her second phase changes the current position in this cycle. It repeats once it is finished.
+
+The attack cycle (starting as soon as the first Sepulcher is summoned): 
+
+# Shoots bursts of Brimstone Darts
+# Shoots a horizontal barrage of Brimstone Hellblasts
+# Launches 2 Brimstone Gigablasts
+# Charges 4 times (2 times in the second phase)
+# Launches 2 Brimstone Gigablasts
+# Shoots a horizontal barrage of Brimstone Hellblasts
+# Shoots bursts of Brimstone Darts
+# Charges 2 times (once in the second phase)
+# Shoots bursts of Brimstone Darts
+# Shoots a horizontal barrage of Brimstone Hellblasts
+# Launches 4 Brimstone Gigablasts
+# Shoots a horizontal barrage of Brimstone Hellblasts
+# Charges 2 times (once in the second phase)
+# Shoots bursts of Brimstone Darts
+# Launches 4 Brimstone Gigablasts
+# Charges 4 times (2 times in the second phase)
+# Shoots bursts of Brimstone Darts
+# Charges 2 times (once in the second phase)
+# Shoots bursts of Brimstone Darts
+# Charges 2 times (once in the second phase)
+
+
+
+Note that every time she shoots bursts of Brimstone Darts, some bursts are replaced by Brimstone Fire- and Gigablasts.
+
+Since it is a relatively long cycle with multiple occurences of every type of attack, it is time consuming to fully memorize and comprehend it. Whilst it is not necessary to do so, it proves beneficial when playing in harder difficulties and/or with special constraints, like the [[Iron Heart]], [[Defiled Feather]] or [[Armageddon]].
+
+==== Progression ====
+Supreme Calamitas will perform these attacks once, triggered by her reaching certain amounts of health.
+*'''Upon spawning''', she will summon a randomized "Bullet Hell" of vertical and horizontal Brimstone Hellblasts which travel from one edge of the player's screen to the other. She will be invincible and immobile until the Bullet Hell ends. The sequence of the Hellblasts' direction will always be the same during the Bullet Hell.<nowiki><br/></nowiki>After the Bullet Hell ends, she will teleport to the upper-right corner of the arena and summon the <nowiki>[[Sepulcher]]</nowiki> to assist her before becoming mobile. Ten immobile Brimstone Hearts will spawn along with it, positioned in the upper corners of the arena. When the last of these hearts are destroyed, the Sepulcher will die. The Sepulcher doesn't deal contact damage but instead shoots bursts of Brimstone Darts in diagonal directions from its body segments (in descending order; from last to first segment). Supreme Calamitas will be invincible until the Sepulcher is killed.
+**While the Sepulcher is alive, Supreme Calamitas will shoot slower and only fire half as many projectiles per attack.
+*Upon reaching '''75% health''', the second Bullet Hell triggers, in which Brimstone Fireblasts are also fired at the player from offscreen. This occurs in every Bullet Hell hereafter.
+*Upon reaching '''50% health''', the third Bullet Hell triggers, in which Brimstone Gigablasts are also fired at the player along with the previous projectiles. This occurs in every Bullet Hell hereafter.
+*Upon reaching '''45% health''', she will pause briefly and then summon her brothers, Supreme Catastrophe and Supreme Cataclysm, to assist her. Supreme Calamitas will be invincible and immobile while they are alive. They both remain a set distance to the left and right of the player, slowly moving up and down. Supreme Cataclysm is on the right and will fire  {{item|Supreme Cataclysm Fist Alt|nolink=y|ext=gif|size=44px|mode=image}} {{item|Supreme Cataclysm Fist|nolink=y|ext=gif|size=44px|fists}} player, and Supreme Catastrophe is on the left and will fire  {{item|Supreme Catastrophe Top Slash|nolink=y|ext=gif|size=44px|mode=image}} {{item|Supreme Catastrophe Bottom Slash|nolink=y|ext=gif|size=44px|slashes}} at the player. Both will periodically shoot bursts of Brimstone Darts around themselves; their fire rate for all attacks goes up as they lose health. When one of the brothers is killed, the other will shoot his respective projectile and Brimstone Darts even more frequently, and will move up and down faster. When both brothers are killed, Supreme Calamitas immediately resumes attacking the player.
+*Upon reaching '''40% health''', she laughs and transitions into her second phase, signified by a glowing aura around her and her attack animations becoming more pronounced. From now on, she will attack faster, but perform half as many charge attacks in a row. Immediately after transitioning, she will always shoot several bursts of Brimstone Darts before resuming her attack cycle from the last position.
+**From this point on, her force field will visibly start flickering, with the intensity of the flickering growing as she loses health.
+*Upon reaching '''30% health''', the fourth Bullet Hell triggers, and Supreme Calamitas will summon massive invincible {{item|BrimstoneMonster|nolink=yes|size=30px|Brimstone Monsters}} which move towards the player at varying speeds and persist throughout the rest of the fight (they despawn after 10 minutes, but the fight does not last this long under normal circumstances). The Monsters do not interact and can stack on top of each other.
+**In Normal Mode, they will not spawn.
+**In Expert Mode, {{expert|two}} will spawn.
+**In Revengeance and Death Mode, {{revengeance|four}} will spawn.
+*Upon reaching '''20% health''', she will summon a large rotating ring of 20 [[Soul Seeker (Supreme)|Supreme Soul Seekers]] around herself, which fire synchronous volleys of Brimstone Darts at the player. Supreme Calamitas is invulnerable to damage and the Brimstone Monsters move slower until the [[Soul Seeker]]s are killed.
+*Upon reaching '''10% health''', the fifth and final Bullet Hell triggers, featuring every projectile introduced thus far, with the inclusion of {{item|BrimstoneWave|nolink=yes|ext=gif|size=24px|Brimstone Flame Skulls}} which fly in a wave pattern. Her damage reduction increases by 20% (from 25% to 30%) for the remainder of the battle.
+*Upon reaching '''8% health''', she will summon the [[Sepulcher]] and its 10 Brimstone Hearts again. Supreme Calamitas will once again become invulnerable until its hearts are killed.
+*Upon reaching '''1% health''', she will lose all her other abilities, the Brimstone Monsters will disappear, she will stop moving, she will no longer inflict contact damage, and she becomes invulnerable. After several [[status message]]s and a delay, Supreme Calamitas will vanish in a beam of red light and reappear at the Altar of the Accursed as the [[Brimstone Witch]] NPC, leaving her loot at the Altar.
+
+=== In [[Revengeance Mode]] ===
+*Massively increased speed and moves far more aggressively.
+
+=== In [[Death Mode]] ===
+*The arena created by Supreme Calamitas is now 127x127 (inner available area is 125x125) blocks.
+*Supreme Calamitas will emit an extremely loud sound randomly if the game detects that headphones or another audio device is plugged in, giving the player the "Tinnitus" debuff in real life.
+
+=== On the For the worthy seed ===
+
+* All projectiles summoned by Supreme Calamitas and her minions move 50% faster.
+* Supreme Calamitas’s shield is 30% smaller, except during a dash attack, in which it reverts to its normal size temporarily.
+* The arena created by Supreme Calamitas is now 93x90 (inner available area is 91x88) blocks.
+* At 6%, Supreme Calamitas speaks a special line, and an incredibly difficult bullet hell initiates. She becomes invincible and follows the following patterns in order:
+** Goes to the arena’s center.
+** Launches Brimstone Dart rings 22 times with a delay of 0.5 seconds.
+** Launches Brimstone Dart rings 9 times with a delay of 1 second, while Calamity Monsters follow the player with twice the acceleration.
+** Brimstone Monsters slow down to half of their original acceleration, and Supreme Calamitas begins her final attack.
+*** A Brimstone Hellblast bullet hell is summoned.
+*** 5 seconds later, Sepulcher is summoned once more. There are no Brimstone Hearts, meaning Sepulcher cannot be killed.
+*** 5 seconds later, both Brimstone Fireblasts and Gigablasts attack the player periodically.
+*** 5 seconds later, the brothers are summoned again, attacking with half speed. The brothers are invincible.
+*** 5 seconds later, Supreme Calamitas begins attacking the player with half attack speed.
+*** 10 seconds later, the Brimstone Monsters go back to their original acceleration.
+*** 5 seconds later, a ring of 10 Supreme Soul Seekers attack alongside Supreme Calamitas. They are invincible.
+*** 5 seconds later, Brimstone Flame Skulls will start spawning.
+*** 15 seconds later, all of Supreme Calamitas’s attacks will cease and all of her minions will vanish.
+** The end of the fight will proceed as usual, with Supreme Calamitas becoming vulnerable again at 6% HP, but only if you have Yharim's eye equipped.
+
+=== Summons ===
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Supreme Catastrophe
+| namesub = Brother of Supreme Calamitas
+| type = Flying Enemy
+| image = Supreme_Catastrophe.png
+| ai = Supreme Catastrophe AI
+| life = {{dv|240,000||276,000}}
+| dr = 25
+| debuff = Abyssal Flames
+| debuffchance = 100%
+| duration = 3 seconds (Brimstone Hellblast)
+| debufftip = Your soul is being consumed
+| debuff2 = Vulnerability Hex
+| debuffchance2 = 100%
+| duration2 = 2 seconds (Brimstone Hellblast)
+| debufftip2 = You are weak
+| damage = 0 (Contact)<br/>{{dv|350|528|556|572}} (Brimstone Dart)<br/>{{dv|400|600|632|648}} (Slash)
+| defense = 80
+| knockback = 100
+| Supreme Catastrophe Trophy|1|10%
+| image2 = Supreme Catastrophe map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| boxwidth = 24em
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Abyssal Flames
+| immune4 = Brimstone Flames
+| vulnerable1 = Cold
+| vulnerable2 = Water
+| vulnerable3 = Holy
+| resistant1 = Fire
+| resistant2 = Dark
+| resistant3 = Unholy
+| resistant4 = Wind
+| hurt = Dd2_ogre_roar_0.wav
+| killed = NPC_Killed_52.wav
+| sound = BrimstoneShoot.wav
+| soundtext = Brimstone Dart Barrage, Slash
+| Catastrophe Clay Ore|100-260|100%
+}}
+|{{npc infobox
+| name = Supreme Cataclysm
+| namesub =  Brother of Supreme Clamitas
+| type = Flying Enemy
+| image = Supreme_Cataclysm.png
+| ai = Supreme Cataclysm AI
+| life = {{dv|240,000||276,000}}
+| dr = 25
+| debuff = Abyssal Flames
+| debuffchance = 100%
+| duration = 3 seconds (Brimstone Flame Skull)
+| debufftip = Your soul is being consumed
+| debuff2 = Vulnerability Hex
+| debuffchance2 = 100%
+| duration2 = 2 seconds (Brimstone Flame Skull)
+| debufftip2 = You are weak
+| damage = 0 (Contact)<br/>{{dv|350|528|556|572}} (Brimstone Dart)<br/>{{dv|400|600|632|648}} (Fist)
+| defense = 80
+| knockback = 100
+| Supreme Cataclysm Trophy|1|10%
+| image2 = Supreme Cataclysm map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| boxwidth = 24em
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Abyssal Flames
+| immune4 = Brimstone Flames
+| vulnerable1 = Cold
+| vulnerable2 = Water
+| vulnerable3 = Holy
+| resistant1 = Fire
+| resistant2 = Dark
+| resistant3 = Unholy
+| resistant4 = Wind
+| hurt = Dd2_ogre_roar_0.wav
+| killed = NPC_Killed_52.wav
+| sound = BrimstoneHellblastSound.wav
+| soundtext = Punch
+| sound2 = BrimstoneShoot.wav
+| sound2text = Brimstone Dart Barrage
+}}
+}}
+
+{| class="terraria"
+! Image !! Name !!Condition
+|-
+| align = center | {{item|mode=table|Sepulcher}} || After the first Bullet Hell and upon reaching 8% health.
+|-
+| align = center |{{item|mode=table|Soul Seeker (Supreme)}}|| Upon reaching 20% health.
+|-
+|}
+
+== Resistances ==
+*Supreme Calamitas takes decreased damage from some items and projectiles. She takes:
+**90% damage from [[Onyxia]].
+**50% damage from the Draconid [[minion]] summoned by [[Yharon's Kindle Staff]].
+*Supreme Calamitas' brothers take: 
+**90% damage from [[Phoenix Flame Barrage]].
+*Supreme Soul Seekers take:
+**15% damage from [[Chicken Cannon]]'s explosion.
+**65% damage from [[Murasama]].
+**75% damage from [[Yharim's Crystal]].
+**90% damage from [[Executioner's Blade]]'s stealth strike and [[Celestus]].
+
+== Aftermath ==
+*The [[Brimstone Witch]] will begin to arrive if provided suitable housing, allowing the player to utilize the [[Enchantment]] system.
+*In subsequent rematches, she will appear unhooded and will use a different set of dialogue lines.
+
+== Notes ==
+*Each Bullet Hell segment lasts for an exact 15 seconds.
+*During Bullet Hell segments, brothers phase, or when at 1% health, Supreme Calamitas cannot deal contact damage to the player.
+*[[Heart]]s (such as from [[Heart Statue]]s) have halved healing amounts while Supreme Calamitas is alive, making it harder to recover health.
+*The [[Adrenaline Meter]] in Revengeance and Death Mode will fill up at a slower rate. It will take 45 seconds to fill up during this fight rather than the typical 30 seconds.
+*Supreme Calamitas and her brothers have decreased acceleration if the player is wielding a [[True melee]] weapon.
+*Supreme Calamitas' attacks seem to ignore invincibility frames, this can be proven if [https://terrariamods.fandom.com/wiki/Joostmod Joost Mod] is installed and the player holds a cheat item from the mod (e.g. The Ultimate Fist or Tome of Greater Manipulation) which provides infinite i-frames, therefore proving that her attacks ignore said i-frames.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating Supreme Calamitas, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Supreme Calamitas strategies]].}}
+*Making an arena can potentially increase mobility, which is useful for dodging Supreme Calamitas' fast attacks.
+*Supreme Calamitas' dash is fast and can sometimes deal fatal damage, so it's recommended to attack with weapons that have decent range and/or homing ability which will make it easier to dodge her dashes.
+*Don't bother trying to attack Supreme Calamitas during the Bullet Hell phases or when the [[Sepulcher]] and its Brimstone Hearts are still alive. She will be immune to damage during them.
+*Try to master the first Bullet Hell phase. The projectiles are far more damaging at the beginning and they deal less damage in the further phases, so it's better to take as little damage as possible in the first attack.
+*During the first Bullet Hell phase, do not panic and move about too much as the blasts in this phase are extremely deadly and occasionally spawn in groups. Getting hit during this phase could potentially lead to the player's early demise.
+*During Bullet Hell phases, it's good in some cases to stick to a wall when the projectiles are only moving from one side, as it may be easier to dodge them. Be sure to watch out for the Fireblasts and Gigablasts that home in on the player.
+*It is recommended to move vertically before a bullet hell ends to prevent getting hit by Supreme Calamitas' projectiles as she resumes her attacks.
+*Fly in the direction of the Brimstone Hellblasts Supreme Calamitas spawns during her Bullet Hell phases and be sure to ''fly slowly''. This will help prevent the player from being hit by unnoticed projectiles or dashing/running into them.
+*If Supreme Calamitas' brothers are alive and the player is at low health, it may be advisable to delay attacking the brothers and heal. Especially when only one is alive, many of the projectiles are simple to dodge, so it may prove as a good opportunity to regenerate health or even wait for [[Rage Meter|Rage]] or [[Adrenaline Meter|Adrenaline]] to charge up in Revengeance Mode.
+*At the end of each Bullet Hell phase, all of Supreme Calamitas' projectiles spawned during the phase will fade out and disappear. While fading out, these projectiles will not deal damage.
+*Defeating the [[The Fabricational Quartet]] and using the weapons that drop from them is a potential last resort should the player be struggling too much.
+
+== Trivia ==
+*The [[Music|song]] heard during the battle against Supreme Calamitas is [https://www.youtube.com/watch?v=MT6HTpY_OyE '''Stained, Brutal Calamity'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO]. This song contains full lyrics sung by a choir as well as DM DOKURO himself. Different sections of the song play as the fight progresses (at 100% / 50% / 30% / 1% boss health), each section representing a different perspective of the fight.
+**The version that plays in-game is slightly modified in order for the track to loop properly:
+***"Grief" plays from the start of the battle to the third Bullet Hell.
+***"Lament" plays from the third Bullet Hell until the fourth.
+***"Epiphany" plays from the fourth Bullet Hell until she stops attacking.
+***"Acceptance" plays when she stops attacking.
+***Grief and Lament represents Supreme Calamitas' and the player's view points respectively, Epiphany represents a 3rd voice, and Acceptance represents Supreme Calamitas' defeat.
+**The video for this song features Alice Kensington, also known as [https://www.patreon.com/otherbuttons OtherButtons], as a voice actress for Supreme Calamitas.
+**Despite not being composed with the same gimmick as Raw, Unfiltered Calamity, the theme contains a few motifs from past themes in Calamity's soundtrack.
+***The majority of the song contains motifs from Raw, Unfiltered Calamity ([[Calamitas]]), Now Stop Asking Where (a previous placeholder theme) and The Step Below Hell / Left Alone ([[Brimstone Crag]] / [[Brimstone Elemental]]).
+***The theme also contains motifs from two of DM DOKURO's older songs, which are not related to the Calamity Mod.
+**If the Calamity Music add-on mod is disabled, '''Boss 2''' replaces Grief, '''Boss 3''' replaces Lament, the [[Moon Lord]]'s theme replaces Epiphany, and '''Eerie''' replaces Acceptance.
+**Previously, her theme was a [https://www.youtube.com/watch?v=HtGHxPIrkm8 remix of the Boss 2 theme] made by [https://www.youtube.com/user/silentzorah silentzorah]. It was then changed to Calamitas' theme, [https://www.youtube.com/watch?v=ysBWFTxxoak Raw Unfiltered Calamity], made by DM DOKURO. It was then changed again to an original track by [https://www.youtube.com/channel/UCPF6rg3cwhJiM8tkyI6TAIg ENNWAY], known as [https://www.youtube.com/watch?v=oU1tRoaZe4Q Now Stop Asking Where], a reference to the fervent and frequent requests sent to DM DOKURO asking him when he would compose Supreme Calamitas' dedicated theme.
+*The person other than the player mentioned in some of her quotes is referring to the Jungle Tyrant, Yharim, whom she is enslaved to until she is defeated, as stated in the mod's [[lore]].
+*Supreme Calamitas is one of only two bosses to drop a [[Death Mode]]-exclusive item, the other being [[The Devourer of Gods]].
+*In older versions of the Calamity Mod, Supreme Calamitas had a hit-counter mechanic (better known as a "Hit Cap") where players could only be hit a certain number of times until they were killed instantly, regardless of damage taken. She would say "''You got hit too many times...noice. Did you take lessons from Leviathan?''" The same quote was used if the player died under the effects of Armageddon.
+**The "Leviathan" mentioned in her Armageddon/hit-cap quote is a reference to the YouTuber [https://www.youtube.com/channel/UCgzWiRT3thPJBu-veBa0y3A Leviathan], who is known for his challenges and documentation about the Calamity Mod, including numerous fights against Supreme Calamitas.
+*Before the Calamitas Clone was given its own lore entry, Supreme Calamitas' lore entry simply stated: "The true battle. The first one was just a clone."
+**Previous versions of the mod also had Supreme Calamitas and her brothers use upgraded sprites of their eye forms instead of the humanoid ones they have now, further tying into this.
+*Supreme Calamitas used to be a "[[Superboss]]" in this mod. In some RPG games, superbosses are extremely powerful enemies that are very challenging even if the player has endgame equipment. 
+*In the previous version of the mod, Supreme Calamitas used to be unable to take any damage by any attack that would deal more than 50% of her health in one hit, such as another mod's butcher function or an incredibly powerful weapon. When hit by such an attack, the damage of the attack is reduced to 0.
+*She previously had horns on her sprite, but they were removed for visual clarity.
+**They can still be seen on her map icons.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, her unique despawn message will be "Please don't waste my time."
+*In the Japanese translation, the name is "カラミタス <nowiki>''</nowiki>Karamitasu<nowiki>''</nowiki>
+
+== Quotes ==
+*"Do you enjoy going through hell?" (When summoned)
+*"You should have just died..." (When the fight begins after the first bullet hell)
+*"It wasn't too long ago you barely managed to defeat my doppelganger. Quite the failure, wasn't it?" (During the second bullet hell)
+*"You've harnessed great power, but you wield it for no one but yourself." (During the third bullet hell)
+*"Would you like to meet my family? Horrible, isn't it?" (When summoning Supreme Cataclysm and Supreme Catastrophe)
+*"You will suffer greatly." (When transitioning into her second phase)
+*"It's absurd to even think of trying to get away. As long as you live, you will suffer." (During the fourth bullet hell)
+*"An upstart who recklessly stole and killed their way to power. I wonder, who does that remind me of...?" (When summoning the Supreme Soul Seekers)
+*"You have no stake in this battle. No one gave you any say in this matter!" (During the fifth bullet hell)
+*"The problem is not your brother. The problem is your cousin." (In the For the Worthy seed, during the fifth bullet hell)
+*"Once the dust has settled and only one remains, if it is you, what value will this have had?!" (When summoning Sepulcher for the second time)
+*“Fine... things are about to get calamitous!” (In the For the Worthy seed, once Supreme Calamitas is at 6% HP or lower)
+*The following quotes play consecutively once Supreme Calamitas is at 5% HP or lower:
+**"Just stop!"
+**"What is you're problem?"
+**"Like, just stop."
+**"This won't get you anywhere."
+*The following quotes play consecutively once Supreme Calamitas is at 1% HP or lower:
+**"Even if he has thrown all else away, his power remains."
+**"I have no more energy left to resent him, or you..."
+**"It will all be in your hands now."
+
+
+'''Rematch'''
+*"If you're looking for some fourth-degree burns, you've got the right person." (When rematched)
+*"When the time comes, would you like to join my creation?" (When the rematch fight begins after the first bullet hell)
+*"You'll still have to work hard for this victory." (During the second bullet hell when rematched)
+*"I haven't had such an interesting target dummy to test my magic on in a long time." (During the third bullet hell when rematched)
+*"Empty shells of their former selves. I doubt even a scrap of their spirits remain." (When summoning Supreme Cataclysm and Supreme Catastrophe during a rematch)
+*"Here we go again." (When transitioning into her second phase during a rematch)
+*"I wonder if you've seen these in your nightmares since our first battle?" (During the fourth bullet hell when rematched)
+*"Your skill hasn't faltered in the least." (When summoning the Supreme Soul Seekers during a rematch)
+*"Isn't this exciting?" (During the fifth bullet hell when rematched)
+*"You're just a pea in my bowl." (In the For the Worthy seed, during the fifth bullet hell when rematched)
+*"Here comes the crawling tomb, one last time." (When summoning Sepulcher for the second time during a rematch)
+*“Do you think you can survive my final calamity once more? (In the For the Worthy seed, once Supreme Calamitas is at 6% HP or lower)
+*The following quotes play consecutively once Supreme Calamitas is at 5% HP or lower during a rematch:
+**"A terrific display, I concede this match to you."
+**"No doubt you will face enemies stronger than I."
+**"I trust you will not make the same mistakes he did."
+**"I can't imagine what your future holds now."
+**"And never forget..."
+**"I am, and will always be... Supreme Calamitas!"
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

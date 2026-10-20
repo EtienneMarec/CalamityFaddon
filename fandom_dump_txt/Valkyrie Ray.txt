@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 73
+| knockback = 8.5
+| use = 47
+| stack = 1
+| tooltip = Casts a devastating ray of holy power
+| mana = 26
+| rare = 5
+| velocity = 25
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| proj = Valkyrie Ray Beam.png
+| projcaption = Valkyrie Beam
+| element1 = Holy
+| element2 = Stab
+}}
+[[File:Valkyrie Ray (demo).gif|frame|right|The Valkyrie Ray in use. Notice how the Valkyrie Beam cannot be aimed after it is fired.]]
+The '''Valkyrie Ray''' is a craftable [[Hardmode]] [[wand]]. When used, it charges for half a second, then releases a straight magenta laser beam that fades out very shortly after. The beam pierces infinitely, cannot pass through tiles, and cannot be aimed after its release. The beam also partially ignores enemy [[immunity frames]], and will strike enemies 6 times per shot if the beam remains in contact with them.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Valkyrie Ray's knockback always launches foes to the right. Combined with its high knockback and hits per second, it can be dangerous to attack enemies not resistant to knockback that are on the player's left, as they will often be launched towards the player. 
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

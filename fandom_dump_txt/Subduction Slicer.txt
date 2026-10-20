@@ -1,0 +1,51 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Spy
+| damage = 90
+| knockback = 8.5
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| auto = yes
+| use = 19
+| tooltip = Throws a scythe that explodes on enemy hits<br/>Stealth strikes also summon an orange pillar of fire on enemy hits
+| velocity = 16
+| hardmode = yes
+| debuff = On Fire!
+| debuffduration = 4 seconds (Scythe, Pillar)<br/>3 seconds (Explosion)
+| debuffchance = 100%
+| debufftip = Slowly losing life
+| debuff2 = Daybroken
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds (Pillar)
+| debufftip2 = Incinerated by solar rays
+| proj = Fire Pillar.gif
+| projcaption = Fire Pillar
+| element1 = fire
+| element2 = slash
+}}
+
+The '''Subduction Slicer''' is a craftable [[Hardmode]] [[Spy]] [[boomerang]] that auto-fires. When the scythe impacts an enemy, it inflicts the [[On Fire!]] [[debuff]] and creates a small explosion. It can be continuously thrown regardless of whether the first scythe has returned.
+
+Performing a [[stealth strike]] with the Subduction Slicer will create a pillar of fire on enemy hits, dealing 150% of the weapon's damage.
+
+{{modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*[[wikipedia:Subduction|Subduction]] is a geological event in which, when two [[wikipedia:Plate tectonics|tectonic plates]] collide, one tectonic plate gets pushed underneath the other.
+*This weapon was formerly known as the "Flame Scythe".
+
+{{Scoria}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

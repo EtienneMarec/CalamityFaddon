@@ -1,0 +1,286 @@
+{{addon|Fargo’s Souls DLC (Fargo Souls Mod x Calamity)}}
+<section begin=npc infobox />{{npc infobox
+| name = Desert Scourge
+| type = Boss
+| type2 = Burrowing Enemy
+| imagealt = [[File:Desert_Scourge.png|300px]]
+| environment = Desert
+| ai = Desert Scourge AI
+| life = {{dv|350,000|600,000|850,000}}
+| knockback = 100
+| immune1 = Pearl Aura
+| immune2 = Confused
+| money = {{value|0|30}}
+| Sandy Angling Kit|1|100%
+| Parched Scale|{{dv|7-14|10-16}}|100%
+| Profaned Shard|1|100%
+| Coral|{{dv|5-9|7-11}}|100%
+| Seashell|{{dv|5-9|7-11}}|100%
+| Starfish|{{dv|5-9|7-11}}|100%
+| Abyss Bar|note=(Post-Golem)|{{dv|3-8|10-17|14-23}}|100%
+| Sand Block|261-820|100%
+| Conquest Fragment |1|100%
+|group|At least one of the following 5 weapons will always drop:|5
+| Seabound Staff|1|{{dv|25%|33.33%}}
+| Barinade|1|{{dv|25%|33.33%}}
+| Storm Spray|1|{{dv|25%|33.33%}}
+| Aquatic Discharge|1|{{dv|25%|33.33%}}
+| Scourge of the Desert|1|{{dv|25%|33.33%}}
+| Ocean Crest|1|100%
+| Delicious Meat|4|20%
+| Sand Cloak|1|{{dv|10%|11.11%}}
+| Lesser Healing Potion|8-14|100%
+| Desert Scourge Mask|1|14.29%
+| Desert Scourge Trophy|1|10%
+| custom| {{item|The Desert Scourge (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| image2 = Desert Scourge map
+| image2caption = Map Icon
+| listexclude = yes
+| boxwidth = 25em
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = DesertScourgeRoar.wav
+| soundtext = Roar
+| sound2 = Item_21.wav
+| sound2text = Sand Blast
+}}<section end=npc infobox />
+{{dablink|If you were looking for something other than the Desert Scourge, see [[Scourge (disambiguation)]].}}
+[[File:Desert Scourge Trophy.png]] <big>''"Keep reading these quotes! I swear they're funny!”''</big> [[File:Desert Scourge Trophy.png]]
+
+The '''Desert Scourge''' is a [[Hardmode]] [[boss]]. It is intended to be one of the first bosses fought by the player and is considered to be one of the easiest of all of the bosses added by the Calamity Mod. It is intended to be fought before the Eye of Cthulhu.
+
+The Desert Scourge does not spawn on its own, and requires the player to summon it with the [[Desert Medallion]] at night. It must be summoned within the [[Underground Desert]] or the [[Abyss]]. if it is feeling silly, or if there is an active Sandstorm, you can summon the Desert Scourge on the [[Planetoid]].
+
+== Segments ==
+{{infobox wrapper|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = Desert Scourge AI
+| name = Desert Scourge Head
+| environment = Desert
+| life = {{dv|260,000|416,000|480,000}}
+| knockback = 100
+| damage = {{dv|300|660|840|990}}
+| defense = 0
+| debuff = Bleeding
+| debufftip = Cannot regenerate life
+| debuffchance = 100%
+| duration = 8 seconds
+| vulnerable1 = Water
+| vulnerable2 = Stab
+| resistant1 = Fire
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = Desert Scourge AI
+| name = Desert Scourge Body
+| environment = Desert
+| life = {{dv|260,000|416,000|480,000}}
+| knockback = 100
+| damage = {{dv|160|320|400|440}} (Contact)<br/>{{dv|||60|68}} (Sand Blast)
+| defense = 8
+| dr = 5%
+| debuff = Bleeding
+| debufftip = Cannot regenerate life
+| debuffchance = 100%
+| duration = 8 seconds
+| vulnerable1 = Water
+| vulnerable2 = Slash
+| resistant1 = Fire
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = Desert Scourge AI
+| name = Desert Scourge Tail
+| environment = Desert
+| life = {{dv|260,000|416,000|480,000}}
+| knockback = 100
+| damage = {{dv|12|24|30|32}}
+| defense = 18
+| dr = 10%
+| debuff = Bleeding
+| debufftip = Cannot regenerate life
+| debuffchance = 100%
+| duration = 8 seconds
+| vulnerable1 = Water
+| vulnerable2 = Slash
+| resistant1 = Fire
+}}
+}}
+
+== Behavior ==
+In its 1st phase, the Desert Scourge behaves similarly to a regular worm [[enemy]], moving through blocks and attempting to charge at the player. The Desert Scourge has {{dv|54|64|74|84}} segments in total. 
+
+It becomes enraged if the player leaves the Desert [[biome]] or the underground, increasing its speed and acceleration by 75% (150% if both enrage conditions are met).
+
+=== Attacks ===
+*Upon reaching {{dv|85%|90%|95%}} health, the Desert Scourge will occasionally burrow underground and {{sound|roar|DesertScourgeRoar.wav}}, then rapidly lunge at the player while firing sand blasts before burrowing again from a height 37.5 tiles above the player.
+**This attack occurs every {{dv|9|||6}} seconds. After performing the attack, this timer resets on the apex of its lunge.
+**If the attack takes longer than 10 seconds, it will automatically reset to its default behavior.
+*There are 3 different variants of the sand blast attack:
+**A common attack where the Desert Scourge lunges at the player from underground along with 20 sand blasts upwards in a semicircle formation.
+**A rare attack where the Desert Scourge leaps behind the player, going above them, and fires 10 sand blasts downward.
+**A rare attack where the Desert Scourge leaps below the player, firing 2 sets of 15 sand blasts upwards.
+*In the [[Abyss]], the Desert Scourge will always be enraged. Additionally, an aggressive [[Eidolon Wyrm]] will spawn alongside the Desert Scourge, making the fight much more difficult than it needs to be.
+
+=== In [[Expert Mode]] ===
+*Segment number is increased from 54 to 64 and lunge speed is increased by 25%.
+*Gains up to 50% bonus speed and acceleration as its health lowers.
+*Sand blasts travel 50% faster.
+
+=== In [[Revengeance Mode]] ===
+*Segment number is increased from 64 to 74 and lunge speed is increased by 50%.
+*200 {{item|A Desert Nuisance|Desert Nuisances|link=|size=120px}} are spawned alongside the main worm, each with a total of 14 segments.
+**These worms act independently and are not required to be defeated to progress through the fight.
+
+=== In [[Death Mode]] ===
+*Segment number is increased from 74 to 84 and lunge speed is increased by 75%.
+*Gains up to 25% bonus acceleration and speed as its health lowers, on top of the boost in Expert Mode.
+
+=== In [[Malice Mode]] ===
+*Fires Sand Blasts constantly and very rapidly.
+*Movement speed and aggressiveness are greatly increased.
+*Makes much sharper turns.
+* Desert Nuisances are much faster and make sharper turns.
+=== On the For the worthy seed ===
+
+* Is 50% smaller, but has double the amount of segments (for a total of 168 segments).
+* Players take twice as much knockback, and any form of knockback immunity is removed for the duration of the fight.
+* Is significantly more aggressive.
+* Desert Nuisances are even more aggressive.
+
+== Summons ==
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+|{{item|A Desert Nuisance|mode=table|nolink=y|size=250px}} || Always in [[Revengeance Mode]] or in [[Boss Rush]]
+|
+|}
+
+{{infobox wrapper|direction = row|float = none|css=margin-top:5px;
+|{{npc infobox
+| type = Burrowing Enemy
+| ai = Worm AI
+| name = Desert Nuisance Head
+| image = A Desert Nuisance Head.png
+| environment = Desert
+| life = {{revengeance|1,120}}
+| knockback = 100
+| damage = {{dv|||60|70}}
+| defense = 0
+| immune1 = Pearl Aura
+| immune2 = Confused
+| debuff = Bleeding
+| debufftip = Cannot regenerate life
+| debuffchance = 100%
+| duration = 3 seconds
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Water
+| vulnerable2 = Stab
+| resistant1 = Fire
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| ai = Worm AI
+| name = Desert Nuisance Body
+| image = A Desert Nuisance Body.png
+| environment = Desert
+| life = {{revengeance|1,120}}
+| knockback = 100
+| damage = {{dv|||32|36}}
+| defense = 4
+| immune1 = Pearl Aura
+| immune2 = Confused
+| debuff = Bleeding
+| debufftip = Cannot regenerate life
+| debuffchance = 100%
+| duration = 1 second
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Water
+| vulnerable2 = Slash
+| resistant1 = Fire
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| ai = Worm AI
+| name = Desert Nuisance Tail
+| image = A Desert Nuisance Tail.png
+| environment = Desert
+| life = {{revengeance|1,120}}
+| knockback = 100
+| damage = {{dv|||20|24}}
+| defense = 7
+| immune1 = Pearl Aura
+| immune2 = Confused
+| debuff = Bleeding
+| debufftip = Cannot regenerate life
+| debuffchance = 100%
+| duration = 0.5 seconds
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Water
+| vulnerable2 = Slash
+| resistant1 = Fire
+}}
+}}
+
+== Aftermath ==
+*The [[Sunken Sea]]'s tiles become breakable and [[Prism-Back]]s will begin dropping [[Prism Shard]]s.
+*The [[Sea King]] will begin to arrive if provided suitable housing and [[Giant Clam]] is defeated.
+*If the [[Sea King]] isn't in the player's current world, defeating the [[Giant Clam]] will now summon the Sea King.
+*[[Sandstorm]]s can now occur, indicated by a sandstorm starting upon its defeat.
+*[[Ghost Bell]]s will begin dropping the [[Voltaic Jelly]].
+*[[Eutrophic Ray]]s will begin dropping the [[Eutrophic Shank]].
+*[[Antlion]]s, [[Antlion Swarmer]]s, and [[Tomb Crawler]]s will have 25% more health, [[Dungeon Guardian]]s will have 10% more health (for some reason), and Antlions and Antlion Swarmers will have 50% more defense.
+
+== Resistances ==
+*All segments take reduced damage from non-[[Minions|minion]] piercing projectiles in [[Expert Mode]]. Projectile damage is divided by the number of times it pierces. Infinite piercing deals 50% damage.
+*All segments reduce damage from grenade-type projectiles by 80%. A list of affected projectiles is below.
+
+{{ajax|List of resisted grenades|head=Resisted grenades|width=30%}}
+
+== Notes ==
+*Desert Scourge, along with [[The Leviathan]] and the [[Aquatic Scourge]], can drop items rewarded by the Angler for completing his quests.
+*All of the Desert Scourge's loot will spawn at the nearest segment, with the exception of the [[Sand Block]]s and [[Heart]]s, which will always spawn at the head.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating the Desert Scourge, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Desert Scourge strategies]].}}
+
+*Building a few layers of platforms across the Desert will make avoiding the Scourge much easier, however, you must be careful to not enrage him.
+**Another alternative is to build a rope, however, make sure the rope is inside the Desert, or the Scourge will become enraged.
+**The Scourge will tunnel through platforms if it reaches them, keeping platforms around 40 blocks above the ground and each other can help prevent this.
+**Be careful: If platforms are too high the player might leave the Desert while on them, enraging the Scourge.
+**Despite this, it is still suggested to build a bridge roughly 30-40 blocks up, as this will give the player a height advantage over the Scourge as long as they make sure to stay moving.
+*Avoid its head at all costs, especially in [[Expert Mode]] or higher difficulties.
+*Always keep moving, as the Desert Scourge can easily kill an immobile target.
+**This becomes even more important in [[Revengeance Mode]] or higher, as its speed is boosted.
+*While the player can fight the Desert Scourge as the first boss, caution is still advised as its size and speed can easily take down an unprepared player.
+*The Desert Scourge is a good boss to farm for money in Pre-Hardmode, dropping 30 gold per kill.
+
+== Trivia ==
+*Desert Scourge's [[Music|theme]] is [https://www.youtube.com/watch?v=hPEQLU-aD3I '''Guardian of the Former Seas'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**If the Calamity Music add-on mod is disabled, '''Boss 1''' will play instead.
+*The Aquatic Scourge is a hydrated version of the Desert Scourge, although it has been mutated by the toxic waters of the [[Sulphurous Sea]]. 
+**If the Desert Scourge was to stay in the Sulphurous Sea for over 3 minutes, it will get slower until reaching 10 mph, then turn into a passive [[Aquatic Scourge]].
+*This boss and the Aquatic Scourge can all drop several fishing drops, making them the only two bosses to share a drop outside of crafting materials or potions.
+**Leviathan and Anahita also have various fishing related drops, however, this doesn't count, as their drops are different from the ones dropped by the Scourges.
+*The Desert Scourge can be fought before any boss is defeated, as its summoning item only requires Sand Blocks, Cacti, Antlion and [[Stormlion Mandible|Stormlion Mandibles]].
+*The Desert Scorge used to spawn small worms called [[Dried Seeker]]s when it reached 75% health.
+*The Desert Scourge was one of the first bosses to be added to the Calamity Mod, along with [[The Slime God]] and [[The Devourer of Gods]].
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "''The scourge of the desert delved back into the sand.''”
+*In the Japanese translation, its name is "砂漠の惨劇 ''Sabaku no sangeki".''
+
+==Ancient Sprites==
+<br />
+==See also==
+*[[Aquatic Scourge]], the cousin of the Desert Scorge
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}
+[[zh:荒漠灾虫]]

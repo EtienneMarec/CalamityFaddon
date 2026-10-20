@@ -1,0 +1,41 @@
+{{item infobox
+| auto = yes
+| type = Weapon
+| damagetype = Melee
+| damage = 28
+| knockback = 5
+| rare = 2
+| sell = {{value|0|0|40}}
+| stack = 1
+| use = 25
+| tooltip = Poisons enemies and fires short-range stingers
+| velocity = 4
+| debuff = Poisoned
+| debuffchance = 100%
+| debuffduration = 10 seconds (Spear)
+| debufftip = Slowly losing life
+| debuff2 = Venom
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Stinger)
+| debufftip2 = Losing life
+| proj = Urchin Spike.png
+| projcaption = Urchin Spike
+| element1 = Water
+| element2 = Poison
+| element3 = Stab
+}}
+
+The '''Urchin Spear''' is a craftable [[Pre-Hardmode]] [[spear]]. When used, it shoots a stinger that homes in slowly on enemies and inflicts the [[Poisoned]] and [[Venom]] debuffs.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Victide}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

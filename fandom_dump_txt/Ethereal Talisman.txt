@@ -1,0 +1,27 @@
+{{item infobox
+| type = Covering
+| tooltip = 15% increased magic damage, 5% increased magic critical strike chance, and 10% decreased mana usage<br/>+150 max mana<br/>Increases pickup range for mana stars<br/>You automatically use mana potions when needed if visibility is on
+| rare = 14
+| sell = {{value|0|28}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Ethereal Talisman''' is a craftable Godseeker Mode [[covering]], which is an upgrade to the [[Sigil of Calamitas]]. It provides a 15% increase to magic damage, a 5% increase to magic critical strike chance, a 10% decrease in mana usage, +150 max mana, increases pickup range for mana stars, and will automatically use mana potions when needed. Toggling this covering’s visibility allows you to disable the [[Mana Flower]] effects.
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Ethereal Talisman/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+
+[[Category:Healing items]]
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

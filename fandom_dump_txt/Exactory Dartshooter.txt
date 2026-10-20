@@ -1,0 +1,52 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 220
+| damagetype = Ranged
+| knockback = 7
+| stack = 1
+| rare = 15
+| sell = {{value|10}}
+| auto = yes
+| use = 24
+| velocity = 32
+| tooltip = Primary attack: fires a normal dart and 10 curve-flying fireballs that inflict almost all the fire debuffs<br/>Secondary attack: fires a strong fast dart that causes exo fireballs fall from the sky.
+| hardmode = yes
+| postml = yes
+| proj = Exo Fireball.gif
+| projcaption = Fireball
+| element1 = Stab
+| element2 = Cold
+| element3 = Fire
+| element4 = Machine
+}}
+
+The '''Exactory Dartshooter''' is a craftable Godseeker Mode [[Dart guns|dart gun]]. It has 2 attacks:
+
+Primary: normally fires darts and 10 homing fireballs that fly in curves and inflict:
+<br/>[[On Fire!]]
+<br/>[[tgc:Hellfire|Hellfire]]
+<br/>[[Cursed Inferno]]
+<br/>[[Brimstone Flames]]
+<br/>[[Holy Flames]]
+<br/>[[God Slayer Inferno]]
+<br/>[[Dragon Fire]]
+
+Secondary: fires a fast darts with 2 times more damage and 3 times slower firerate, it causes Exo Fireballs rain from the top of the screen, the fireballs inflict the debuffs above, pierce through everything and fly in a random curve-like path. Depending on the zoom from 8 to 16 Fireballs are summoned for every shot.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{Exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Dart guns]]

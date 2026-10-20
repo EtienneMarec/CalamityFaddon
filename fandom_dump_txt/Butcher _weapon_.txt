@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| name = Butcher
+| image = Butcher (weapon).png
+| tooltip = Fires faster and more accurately the longer you hold the trigger
+| damage = 18
+| use = 40
+| rare = 4
+| sell = {{value|0|2|40}}
+| knockback = 1
+| damagetype = ranged
+| auto = yes
+| velocity = 12
+| stack = 1
+| hardmode = yes
+| element1 = Unholy
+}}
+{{dablink|For the enemy that spawns during the [[Solar Eclipse]], see [[Butcher|here]].}}
+
+The '''Butcher''' is a craftable [[Hardmode]] [[gun]] that shoots slowly and inaccurately at first, but increases fire rate and accuracy over time while firing, capping at 600% of its original fire rate.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*It takes about 30 seconds of continuous firing in order to reach maximum speed and accuracy.
+
+== Trivia ==
+*Its model, name, and effects are similar to a [http://borderlands.fandom.com/wiki/Butcher_(Borderlands_2) weapon] in the action first-person shooter game, ''[[wikipedia:Borderlands 2|Borderlands 2]]''.
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

@@ -1,0 +1,33 @@
+{{item infobox
+| type = Weapon
+| damage = 250
+| critical = 0%
+| use = 39
+| knockback = 0
+| velocity = 5
+| stack = 9999
+| rare = 3
+| sell = {{value|0|0|8}}
+| tooltip = You don't need an aerodynamics major to use this<br/>Throws a floaty explosive that defies gravity
+| consumable = true
+| element1 = Holy
+| element2 = Bomb
+}}
+
+'''Aero Dynamite''' is a craftable [[Pre-Hardmode]] consumable [[explosive]]. When thrown, it explodes following a 5-second delay, breaking most nearby blocks, similarly to its predecessor [[Dynamite]]. Unlike other dynamites, the Aero Dynamite is not affected by gravity and smoothly bounces off surfaces. The explosion will also not harm the player.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The name "Aero Dynamite" is a pun on the word "aerodynamic", which is enforced by the usage of the word in the tooltip.
+{{-}}
+{{Aerialite}}
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}
+[[zh:天蓝炸药]]

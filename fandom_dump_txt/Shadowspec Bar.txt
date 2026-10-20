@@ -1,0 +1,28 @@
+{{dedicated|ThatTerrariaGuy/AstroKnight|Developer}}
+{{item infobox
+| image = Shadowspec Bar.gif
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 9999
+| rare = 15
+| sell = {{value|1|92}}
+| use = 14
+| tooltip = A vile, black metal, so horrendous and powerful as to defy explanation
+| placeable = yes
+| consumable = yes
+| auto = true
+| hardmode = yes
+| postml = yes
+}}'''Shadowspec Bars''' are Godseeker Mode [[Bars]] used to craft various [[Dedicated content|Developer Items]]. They can be considered a direct upgrade to [[Auric Bar]]s, crafted using [[Ashes of Annihilation]], [[Exo Prism|Exo Prisms]], [[Primordial Light Shard|Primordial Light Shards]]. [[Entropic Frond|Entropic Fronds]], and [[Subnautical Plate|Subnautical Plates]].
+==Crafting==
+===Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Shadowspec}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

@@ -1,0 +1,110 @@
+{{infobox wrapper
+|{{npc infobox
+| name = DWN-∞, Zero
+| type = Superboss
+| imagealt = [[File:DWN-∞, Zero.png]]
+| ai = DWN-∞, Zero AI
+| life = {{dv|2,600,000|2,920,000|3,150,000}}
+| damage = {{dv|250|300|340|392}} (First Saber swing, Second Saber swing, Ranbu)<br/>{{dv|350|600|692|733}} (Third Saber Swing, Saber Uppercut, Saber Stab, Ensuizan, Ranbu Final)<br/>{{dv|250|280|335|370}} (Saber Thrust, Rakukojin Projectile, Denjin Sparks, Danchien Explosions)<br/>{{dv|370|425|475|550}} (Dive Kick)<br/>{{dv|450|500|566|610}} (Shipuuga, Hisuisho)<br/>{{dv|580|660|700|735}} (Rakuhouha, Arc Blade projectiles, Hyoroga)<br/>{{dv|600|660|720|600}} (Double Charge Wave)<br/>{{dv|680|740|800|864}} (Saber Swing Projectile)<br/>{{dv|725|800|850|900}} (Charged Saber, Rekkoha)<br/>{{dv|400|435|480|520}} (Falling Debris, Starfall)
+| defense = {{dv|250||350|400}}
+| dr = {{dv|25|||35}}
+| knockback = 100
+| debuff = Defiled One
+| debuffchance = 100%
+| duration = Infinite
+| debufftip = Your wings falter <br/> Wing time and double jumps disabled; new double jump given
+|immuneall = yes
+| resistant1 = Fire
+| resistant2 = Wind
+| resistant3 = Water
+| resistant4 = Poison
+| resistant5 = Acid
+| resistant6 = Radioactive
+| resistant7 = Electricity
+| resistant8 = Stab
+| resistant9 = Slash
+| resistant10 = Smash
+| resistant11 = Bomb
+| resistant12 = Magic
+| resistant13 = Dark
+| resistant14 = Holy
+| resistant15 = Unholy
+| resistant16 = Machine
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| Z-Saber |1|100%
+| image2 = Zero Map.png
+| image2caption = Map Icon
+| boxwidth = 26em
+}}
+}}<section end=npc infobox/>
+
+'''''"I understand everything, now... My mind has become so clear. This is who I truly am..."'''''
+
+'''DWN-∞, Zero''' is an Epilogue [[Superbosses|Superboss]], that is intended to be fought around the same time as the [[Boss Rush]] [[Events|event]].
+
+However, if the Wrath of the Gods addon is enabled, DWN-∞, Zero will be locked out of progression if the player fights [[Purgatory Arbiter, Umbrus]], and will be unlocked once the player defeats [[The Fallen Ascended Master, Xeroc]].
+
+== Spawn ==
+
+
+DWN-∞, Zero can not be spawned by the player and must be encountered in the [[Forgotten Labs]] structure. Once the player has entered, he will begin his introduction cutscene and the fight will commence. A large warning sign will cover the screen to alert the player that the boss has been engaged, and cannot leave the structure.
+
+== Behavior ==
+
+Zero can perform various moves depending on the position of both himself and the player. It is recommended to take note of where he is and where he moves.
+
+Throughout the entire fight, the player will endure the [[Defiled One]] debuff, removing the player's use of [[Wings|flight]], multi-jump [[Equipment|equipment]], and [[Mount|mounts]]
+
+=== Attacks ===
+
+*Saber Swings: DWN-∞, Zero's most signature move during the fight involves using his saber to perform a three-slash combo. This combo ignores player [[Immunity frames]]
+*Charged Saber: Particles will surround DWN-∞, Zero, before he hits the ground with a larger saber swing.
+**This swing will cause debris to fall from above in an attempt to hit the player
+*Double Charge Wave: Zero will fire out two large projectiles towards the player, and followed by a Saber Swing Projectile.
+**If the player is too close, DWN-∞, Zero will backdash away from the player to keep his distance.
+*Saber Swing Projectile: Zero's saber will fire an beam that will be aimed depending on the player's vertical position. Zero can perform this move independently as its own attack, however.
+*Saber Uppercut: Also known as rising, if Zero dashes towards the player, Zero has a chance to uppercut the player. This can be avoided by either dashing away or using the [[Asgardian Aegis]] to dash into Zero.
+*Saber Stab: If Zero jumps, or is, above the player, there is a chance Zero will use his saber in an attempt to punish the player for being underneath.
+*Saber Thrust: Zero will occasional reach further distances with his saber by thrusting it in the direction of the player. This attack is imbued with the stab element and ignores immunity frames.
+*Rakuhouha: Zero will drive his fist into the ground, leading to 9 projectiles to spread from his body outward in a semi-circle.
+*Shippuuga: During a dash on the ground, Zero has a chance to strike mid-dash at the player, ending the dash pre-emptively.
+*Rekkoha: Zero will occasionally strike the ground, and 6 beams of light will begin circling around him. Zero is completely invulnerable during this attack.
+**This attack cannot be used again for 25 seconds.
+*Ensuizan: While Zero is in the air, there is a chance he will spin rapidly with his saber to form a spiral shape in an attempt to hit the player.
+*Ranbu: When DWN-∞, Zero reaches 50% HP, he could now leap forward, immobilizing the player if caught, and will hit 7 times, with the final hit being a Saber Uppercut. This attack ignores immunity frames.
+*Genmu: After approximately 3 minutes of real-world time, Zero will grow impatient and perform Genmu, marking him invulnerable.
+**This attack is unavoidable and will instantly kill the player, regardless of health, defense, or damage reduction. If the player somehow survives, Zero will repeatedly use Genmu.
+*Block: If the player hits Zero far too often, he will begin using his arm to deflect most oncoming projectiles, rendering him invulnerable.
+
+=== In Expert Mode ===
+
+*Ryuenjin: Saber Uppercut is replaced with Ryuenjin, imbuing the fire element into the attack and inflicting fire-based debuffs onto the player.
+*Hyouretsuzan: Saber Stab is replaced with Hyouretsuzan, imbuing the cold element into the attack and inflicting ice-based debuffs onto the player.
+*Raijingeki: Saber Thrust is replaced with Raijingeki, imbuing the electric element into the attack and inflicting electric-based debuffs onto the player.
+*The Double Charge Wave will be much faster and will be fired in quicker succession.
+*Messenkou: Rakuhouha will be replaced with Messenkou, giving the projectiles a purple tint and imbuing the stab and dark elements into the attack, and gives 50 armor penetration.
+*Dive Kick: Zero obtains a new attack in the form of a diagonal kick. This will have a chance of occurring if Zero is in the air and the player is either left or right of Zero. This can happen after jumping, air-dashing, or performing Ryuenjin.
+
+=== In Revengeance Mode ===
+
+*Denjin: Ryuenjin is replaced with Denjin, replacing the fire element with the electric element and inflicting electric-based debuffs onto the player. There will now also be small projectiles trickling down from Denjin's position, making the area underneath hazardous.
+*Danchien: Hyouretsuzan is replaced with Danchien, replacing the cold element with the fire element and inflicting fire-based debuffs onto the player. Once Zero collides with a surface while performing Danchien, a large wheel of fire will surround the area, dealing damage and inflicting fire debuffs to the player if approached. This fire wheel lasts for 3 seconds.
+*Raikousen: Raijingeki is replaced with Raikousen. Zero will now disappear from view while performing this attack, only to appear further forward from his initial location. The distance between both points of position will be covered with continuous lightning. This lightning lasts for the entire attack.
+*Shipuu: While dashing on the ground, Zero can stop mid-dash to project a purple, transparent silhouette of himself, going 150% further than his normal dash, and dealing Shipuuga damage on contact. This silhouette is also imbued with the wind element.
+*Arc Blade: Ensuizan will now fire 7 crescent waves during the attack.
+*Hisuisho: Zero's air-dash will now be barricaded in ice, giving him an extra 50 defense and 5% damage reduction. Contact damage from the air-dash is now cold element, inflicting ice-based debuffs onto the player.
+*Saber Swing Projectile's velocity is further increased.
+
+=== In Death Mode ===
+
+*Shingetsurin: Double Charge Wave is replaced with Shingetsurin, replacing the large projectiles with projectiles that lock onto the player. Once they reach near the player's previous location, they will lock onto the player's new current location.
+**The Saber Swing Projectile remains untouched for this attack.
+*Starfall: The debris that falls from Charged Saber are replaced with large stars, which, upon impact, will shatter into several projectiles.
+*Rakukojin: Dive Kick will now create a bouncing projectile that will bounce around the arena 3 times before disappearing.
+*Hyoroga: Zero now can jump onto the ceiling of the arena, swinging 3 ice projectiles on each side of him. There is a possibility Zero will dash on the ceiling to a different area of the arena to perform Hyoroga again.
+**After the attack, there is a possibility Zero will either perform Danchien or Rakukojin, depending on the player's position.
+*Shin Messenkou: Messenkou is replaced with Shin Messenkou. During this, Zero performs an altered Messenkou, punching the ground to launch a series of projectiles upwards. He is likely to use this if the player moves above him.
+*Ranbu can now be performed a second time if the initial Ranbu dash misses.
+*Rekkoha will now heal Zero during invulnerability for approximately 10% of his max HP.

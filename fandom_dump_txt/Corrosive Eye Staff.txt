@@ -1,0 +1,19 @@
+{{infobox wrapper|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 21
+| mana = 10
+| use = 14
+| knockback = 3
+| auto = yes
+| stack = 1
+| tooltip = Summons corroded eyes that orbit you and shoot acid shots
+| buff = Corrosive Eye
+| bufftip = The corrosive eyes are orbiting you
+| rare = 2
+| sell = {{value|0|2|40}}
+}}|{{item drops infobox
+| [[Acidsighter]]|1|{{dv|25%|33.33%}}
+}}}}The '''Corrosive Eye Staff''' is a [[Pre-Hardmode]] summon weapon that is dropped by the [[Acidsighter]]. It summons corrosive eyes that circle around you and fire acid shots at nearby enemies.
+
+Its best [[modifier]] is '''Ruthless'''. The Mythical modifier provides the widest array of stat bonuses, but these primarily affect the initial summon rather than the resulting minion. Additionally, minions cannot deal [[Critical hit|critical hits]]. The only lasting advantage a Mythical Corrosive Eye Staff has over a Ruthless one is [[knockback]].{{summoned|Corrosive Eye|type=minion|image=[[File:Corrosive Eye (minion).png]]}}

@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 20
+| auto = yes
+| use = 28
+| knockback = 2.25
+| stack = 1
+| tooltip = The gun damages enemies that touch it
+| rare = 1
+| velocity = 22
+| sell = {{value|0|0|20}}
+| element1 = Stab
+}}
+
+The '''Marnite Bayonet''' is a craftable [[Pre-Hardmode]] [[gun]] that can be considered an earlier alternative to the [[Musket]] or [[The Undertaker]]. Upon use, it auto-fires [[bullets]] at an average rate. The gun itself also deals contact damage to enemies, an uncommon property for a [[ranged weapon]] that it shares with weapons such as [[Helstorm]] and [[Hellborn]].
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*As the gun's hitbox does not change based on aim, it will not always hit enemies that pass through the sprite.
+*When dealing contact damage with the gun itself, the base damage is the same and the damage type is still Ranged.
+
+== Tips ==
+*Though it requires the player to find [[Granite]] and [[Marble]] caves, its relatively low cost and decent rate of fire make the Marnite Bayonet a good choice for newer players.
+
+== Trivia ==
+*Marnite is a portmanteau of the words marble and granite, which is what the weapon is made of.
+*This weapon was previously named the '''Marnite Rifle Spear'''. This was changed to avoid confusion with the [[Marnite Spear]].
+
+== See also ==
+*The [[Marnite Obliterator]], a pre-boss drill/axe combo tool.
+*The [[Marnite Spear]], a pre-boss spear.
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

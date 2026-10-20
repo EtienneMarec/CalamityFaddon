@@ -1,0 +1,23 @@
+To place on media wiki pages of gadges to give a description of what the gadget does.
+
+== Usage ==
+Example: <nowiki>{{gadget|UTC Clock|Display a live clock at the top of all pages to show the current UTC time, for comparison with the wiki's timestamps. Click the clock to [[Help:Purge|purge]] the current page's server cache.|utcClock|default=no}}</nowiki>
+
+; Unnamed Parameter 1
+Name of the gadget
+
+; Unnamed Parameter 2
+Description of the gadget
+
+; Unnamed Parameter 3
+Source of the gadget as found on <nowiki>[[MediaWiki:Gadget-</nowiki>'''SOURCE'''<nowiki>.js]]</nowiki>
+
+; Parameter default
+Use default=yes to point out that the gadget is enabled by default.
+
+<includeonly>
+[[Category:Extension templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

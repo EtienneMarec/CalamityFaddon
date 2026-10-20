@@ -1,0 +1,45 @@
+{{addon|Calamity: Tales of the Aquatic}}{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-45 health per second and -50% damage reduction (If player)<br/>-350 health per second (If enemy)
+| tooltip = Little fire particles are reacting all over you
+}}
+
+'''Reactive Flames''' are a [[debuff]] inflicted by various sources. It causes the player to lose 45 health per second and reduces damage reduction by 50%, and deals 350 damage per second if the debuff is inflicted to an enemy instead. It also prevents natural life regeneration.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

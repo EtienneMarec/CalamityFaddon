@@ -1,0 +1,113 @@
+{{dedicated|ThatTerrariaGuy/AstroKnight|Developer}}
+{{item infobox
+| type = Armor
+| defense = 150
+| setbonus = 100% increased minion damage and +10 max minions<br/>All attacks inflict the [[Demon Flames|demon flame debuff]]<br/>Shadowbeams and demon scythes will fire down when you are hit<br/>A friendly red devil follows you around<br/>Press {{key|Armor Set Bonus}} to enrage nearby enemies with a dark magic spell for 10 seconds<br/>This makes them do 25% more damage but they also take 125% more damage
+| rare = 16
+| sell = {{value|3}} (set)
+| proj = Unholy Trident (projectile).png
+| projcaption = Unholy Trident
+| proj2 = Demon Scythe (projectile).gif
+| proj2caption = Demon Scythe
+| buff = Red Devil (buff) | bufflink = no
+| bufftip = The red devil will protect you
+| duration = Infinite
+| debuff = Enraged | debufflink = no
+| debufftip = All damage taken is increased by 25%
+| debuffduration = 10 seconds
+| debuffchance = 100%
+| debuff2 = Demon Flames
+| debufftip2 = Another flames debuff...
+| debuffduration2 = 2, 4, or 6 seconds
+| debuffchance2 = 100%
+| hardmode = yes
+| postml = yes
+}}
+{{summoned|Red Devil (minion)|name=Red Devil}}
+'''Demonshade armor''' is a craftable Godseeker Mode [[developer]] [[Covering]] set crafted from [[Ashes of Annihilation]]. It takes a total of 45 Ashes of Annihilation to craft a full set. Demonshade Armor is arguably the most powerful armor set available in the Calamity Mod, although the wider array of status effects granted by the [[Auric Tesla armor]] may make that desirable in some cases. If the full set is visible (whether equipped or in social slots), the player will have afterimages. If the full set is equipped, the player will leave behind purple dust as they move regardless of any social slot items worn.
+
+It consists of a '''Demonshade Helm''', '''Demonshade Breastplate''', and '''Demonshade Greaves'''.
+
+== Stats ==
+The full set grants the following stats and bonuses (this includes the set bonus):
+*150 defense
+*45% increased damage
+*100% increased minion damage
+*30% increased critical strike chance
+*20% increased melee speed
+*30% increased movement speed
+*+200 max life and mana
+*+10 max minions
+*Standing still grants +34 life regen.
+*Enemies have 100x their contact damage reflected back at them when hitting the player
+*All attacks inflict the [[Demon Flames]] [[debuff]] on hit.
+**There is a 25% chance for Demon Flames to be inflicted for 6 seconds, a 37.5% chance to be inflicted for 4 seconds, and a 37.5% chance to be inflicted for 2 seconds.
+*Shadowbeams and demon scythes will drop from the sky when you take damage.
+**The beams deal 5000 typeless damage, and the scythes deal 3000 typeless damage on hit.
+*A [[Red Devil]] follower is summoned.
+**The devil fires piercing tridents at a high velocity which deal 12000 typeless damage.
+
+=== Enraged ===
+Pressing the {{key|Armor Set Bonus}} key will inflict the '''Enraged''' debuff to both nearby enemies and the player for 10 seconds. While inflicted with the Enraged debuff:
+*Players take 25% more damage from all sources. This stacks with other damage increasing effects.
+*Players deal 125% more damage to enemies. This applies ''before'' Damage Reduction mechanics.
+*Enemies are tinted red and emit steam particles.
+
+== Set ==
+{|
+|-style="vertical-align:top"
+|{{item infobox
+| name = Demonshade Helm
+| type = Armor
+| defense = 50
+| tooltip = 30% increased damage and 15% increased critical strike chance
+| body slot = Helmet
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|40}}
+}}
+|{{item infobox
+| name = Demonshade Breastplate
+| type = Armor
+| defense = 50
+| tooltip = 20% increased melee speed, 15% increased damage and critical strike chance<br/>Enemies take ungodly damage when they touch you<br/>Increased max life and mana by 200<br/>Standing still lets you absorb the shadows and boost your life regen
+| body slot = Shirt
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|40}}
+}}
+|{{item infobox
+| name = Demonshade Greaves
+| type = Armor
+| defense = 50
+| tooltip = Shadow speed
+| body slot = Pants
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|40}}
+}}
+|}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Demonshade%}}
+
+== Notes ==
+*Pressing {{key|Armor Set Bonus}} while currently Enraged will refresh the duration of the debuff to the player, but it ''does not'' refresh the duration of the debuff to nearby enemies.
+*The boosted life regeneration from the Breastplate is overridden by the effects of the [[Shiny Stone]]. However, it overrides the effects of [[Cosmic Freeze]], [[Draedon's Heart]], and [[Photosynthesis]].
+
+== Tips ==
+*Although this is an endgame armor, in some aspects it is inferior to [[Auric Tesla armor]], as it lacks several [[Death prevention|revives]] and [[lifesteal]].
+**Demonshade armor can be considered a damage-focused ''alternative'' to Auric Tesla, due to many of its effects focusing on dealing extreme damage to enemies, despite the lack of survivability benefits.
+
+== Trivia ==
+*This armor actually has a unique rarity, but is referred to here as Hot Pink for consistency between items.
+**This unique rarity alternates between orange ({{color|#FF8416 ●|#FF8416}}) and dark orange ({{color|#DD5507 ●|#DD5507}}) colors.
+*The [[Red Devil]] summoned by this armor set can only be disabled by having the [[Cosmic Plushie]] equipped or by unequipping the armor.
+*The Enraged mechanic is a reference to ''[[wikipedia:Metal_Gear_Rising:_Revengeance|Metal Gear Rising: Revengeance]]'', specifically to the Jetstream Sam DLC where taunting enemies causes them to enrage, both taking and dealing more damage.
+
+{{Shadowspec}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

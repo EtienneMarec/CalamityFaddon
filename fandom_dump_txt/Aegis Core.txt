@@ -1,0 +1,65 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Covering
+| defense = 34
+| damage = 400
+| tooltip = Grants immunity to knockback<br/>
+Immune to most debuffs<br/>
++50 max life and increased life regeneration<br/>
+20% increased jump speed<br>
+Gives you the ability to climb walls and dodge attacks<br/>
+The dodge has a 20 second cooldown that is shared with all other dodges and reflects<br/>
+Grants a dash that leaves scythes which inflict Reactive Flames and Evercold <br/>
+Allows constant jumping<br/>
+Can be used to ram enemies<br/>
+Press {{key|Abysscent Guard}} to activate buffs to all damage, crit chance, and defense<br/>
+Activating this buff will reduce your movement speed and increase enemy aggro<br/>
++40 defense while submerged in liquid
+| buff = Abysscent Guard
+| duration = Infinite (While active)
+| bufftip = Movement speed reduced, other stats buffed
+| debuff = Reactive Flames
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| debuff2 = Evercold
+| debuffduration2 = 5 seconds
+| debuffchance2 = 100%
+| rare = C2
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| sell = {{value|20}}
+| stack = 1
+| element1 = Dark
+| element2 = Cold
+| element3 = Magic
+}}
+
+The '''Aegis Core''' is a craftable post-[[Purgatory Arbiter, Umbrus]] [[covering]] with a wide array of defensive and mobility effects. It provides:
+
+* 34 defense (74 in liquids)
+* immunity to knockback
+* Immunity to most debuffs
+* +50 max life and increased life regeneration by 1
+* 20% increased jump speed
+* Ability to climb walls
+* Ability to dodge attacks with a 40 sec cooldown
+* A 50 tile dash that deals 400 damage and leaves scythes behind. The scythes infict Evercold and Reactive Flames
+* constant jumping
+* {{key|Abysscent Guard}} to activate buffs to all damage, crit chance, and defense but reducing your movement speed and increases enemy aggro
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The Aegis Core provides immunity to [[On Fire!]], [[Bleeding]], [[Broken Armor]], [[Burning]], [[Chilled]], [[Confused]], [[Cursed]], [[Darkness]], [[Frostburn]], [[Poisoned]], [[Searing Lava]], [[Silenced]], [[Slow]], [[Weak]], [[Brimstone Flames]], [[Glacial State]], [[God Slayer Inferno]], [[Evercold]], and [[Holy Flames]].
+*The guard debuff doesnt get deactivated when using mounts
+* The covering cannot be used with [[The Verboten One]].
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

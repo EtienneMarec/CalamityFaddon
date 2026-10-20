@@ -1,0 +1,301 @@
+<div class="crafting-tree">{{diagram
+
+|_|GolO1|_|PlaO1|_|_|_|_|_|GolO2|_|PlaO2|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|      _|      _|_|_|_|_|      _|      _|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|I|_|_|_|I|_|_|_|_|_|_|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|I|_|_|_|I|_|_|_|_|_|F|~|$|~|~|~|$|~|7|_|_|_|_|_|_|_|_|_|_|_|#
+|_|PHFRG|_|PHFRG|_|_|_|_|:|PHFRG|_|PHFRG|:|_|_|_|_|_|_|_|_|_|_|_|#
+|_|Gold1|_|Plat1|_|_|_|_|:|Gold2|_|Plat2|:|_|_|_|_|_|_|_|_|_|_|_|#
+|_|      _|      _|_|_|_|:|      _|      :|VicS2|_|Diam1|_|Ruby1|#
+|_|_|I|_|_|_|I|_|_|_|_|_|L|~|~|~|y|~|~|~|J|      _|      _|     |#
+|_|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|`|-|-|-|-|-|^|-|-|-|+|-|-|-|'|_|#
+|F|~|$|~|~|~|$|~|7|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|#
+|:|PHANV|_|PHANV|:|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|#
+|:|GolBS|_|PlaBS|:|VicS1|_|FalSt|_|CoppO|_|_|_|_|_|_|I|_|_|HallO|#
+|:|      _|      :|      _|      _|      _|_|_|_|_|_|I|_|_|     |#
+|L|~|~|~|y|~|~|~|J|_|I|_|_|_|I|_|_|_|I|_|_|_|_|_|_|_|I|_|_|_|I|_|#
+|_|_|_|_|`|-|-|-|-|-|^|-|-|-|(|_|_|_|I|_|_|_|_|_|_|_|I|_|_|_|I|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|I|_|F|~|~|~|~|~|$|~|7|_|I|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|PHANV|_|PHFRG|:|_|_|_|_|PHANV|:|HMFRG|#
+|_|_|_|_|_|_|_|_|_|PurGe|_|Starf|_|CoppB|:|Arkha|±|EnchS|:|HallB|#
+|_|_|_|_|_|_|_|_|_|      _|      _|      :|              :|     |#
+|_|_|_|_|_|_|_|_|_|_|I|_|_|_|I|_|_|_|I|_|L|~|~|~|y|~|~|~|J|_|I|_|#
+|_|_|_|_|_|_|_|_|_|_|`|-|-|-|^|-|-|-|+|-|-|-|-|-|'|_|_|_|_|_|I|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|HMANV|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|CoCaT|_|BroHS|_|Excal|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|      _|      _|      #
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|:|_|_|_|`|-|-|-|(|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|PHANV|_|HMANV|_|_|_|_|_|HMANV|#
+|_|CoCaT|_|BaLiT|_|LunF2|_|LumO2|_|FracA|_|CoCa1|_|LivS2|_|TruEx|#
+|_|      _|_|:|_|_|      _|      _|      _|      _|      _|     |#
+|_|_|:|_|_|_|:|_|_|_|I|_|_|_|I|_|_|_|)|-|-|-|^|-|-|-|^|-|-|-|'|_|#
+|_|HMANV|_|HMANV|_|_|§|_|_|_|§|_|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|CoCa2|_|BaLi2|_|GalS2|_|LumB2|_|ArkAn|_|GalaT|_|AuriO|_|YhaSF|#
+|_|      _|      _|      _|      _|      _|      _|      _|     |#
+|_|_|`|-|-|-|^|-|-|-|^|-|-|-|^|-|-|-|(|_|_|_|:|_|_|_|)|-|-|-|'|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|§|_|_|COANV|_|COANV|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|ArkEl|_|Galax|_|AuTBa|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|      _|      _|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|)|-|-|-|^|-|-|-|'|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|COANV|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|ArkCo|_|_|_|_|_|_|_|_|_|_|_|_|#
+|BaLiT_cols = 3
+|BaliT_rows = 2
+|BaLiT = ''[[Life Alloy/Crafting tree|Life Alloy<br/>crafting tree]]''
+
+|CoCaT_cols = 3
+|CoCaT_rows = 2
+|CoCaT = ''[[Core of Calamity/Crafting tree|Core of Calamity<br/>crafting tree]]''
+
+|GalaT_cols = 3
+|GalaT_rows = 2
+|GalaT = ''[[Galaxia/Crafting tree|Galaxia<br/>crafting tree]]''
+
+|AuriO_cols = 3
+|AuriO_rows = 2
+|AuriO ={{item|Auric Ore}} × 60
+
+|YhaSF_cols = 3
+|YhaSF_rows = 2
+|YhaSF ={{item|Yharon Soul Fragment}}<br/>
+( {{item|mode=image|image=Yharon map.png|Jungle Dragon, Yharon|size=20px}} )
+
+|GolO1_cols = 3
+|GolO1_rows = 2
+|GolO1 = {{item|Gold Ore}} × 32<br/>
+<div style="font-size: 0.75em">( [[Underground]] )</div>
+
+|PlaO1_cols = 3
+|PlaO1_rows = 2
+|PlaO1 = {{item|Platinum Ore}} × 32<br/>
+<div style="font-size: 0.75em">( [[Underground]] )</div>
+
+|Gold1_cols = 3
+|Gold1_rows = 2
+|Gold1 = {{item|Gold Bar}} × 8
+
+|Plat1_cols = 3
+|Plat1_rows = 2
+|Plat1 = {{item|Platinum Bar}} × 8
+
+|GolBS_cols = 3
+|GolBS_rows = 2
+|GolBS = {{item|Gold Broadsword}}
+
+|PlaBS_cols = 3
+|PlaBS_rows = 2
+|PlaBS = {{item|Platinum Broadsword}}
+
+|VicS1_cols = 3
+|VicS1_rows = 2
+|VicS1 = {{item|Victory Shard}} × 3<br/>
+( {{item|mode=image|image=Desert Scourge map.png|Desert Scourge|size=30px}}  )
+
+|VicS2_cols = 3
+|VicS2_rows = 2
+|VicS2 = {{item|Victory Shard}} × 10<br/>
+( {{item|mode=image|image=Desert Scourge map.png|Desert Scourge|size=30px}}  )
+
+|FalSt_cols = 3
+|FalSt_rows = 2
+|FalSt = {{item|Fallen Star}} × 10 
+
+|Starf_cols = 3
+|Starf_rows = 2
+|Starf = {{item|Starfury}}<br/>
+( {{item|mode=image|image=Skyware Chest.png|Skyware Chest|size=20px}} )
+
+|HallB_cols = 3
+|HallB_rows = 2
+|HallB = {{item|Hallowed Bar}} × 12<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|The Twins||size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} {{item|mode=image|image=Map Icon The Destroyer.png|The Destroyer|size=20px}} {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+|HallO_cols = 3
+|HallO_rows = 2
+|HallO = {{item|Hallowed Ore}} × 48<br/>
+<span style="font-size:0.75em">( [[Underground Hallow]] )</span>
+
+|Excal_cols = 3
+|Excal_rows = 2
+|Excal = {{item|Excalibur|size=32px}}
+
+|TruEx_cols = 3
+|TruEx_rows = 2
+|TruEx = {{item|True Excalibur|size=32px}}
+
+|Arkha_cols = 3
+|Arkha_rows = 2
+|Arkha = {{item|Arkhalis}}<br/>
+( {{item|mode=image|image=Enchanted Sword comparison.png|Enchanted Sword Shrine|size=60px}} / {{item|mode=image|Cosmic Elemental|size=28px}} )
+
+|EnchS_cols = 3
+|EnchS_rows = 2
+|EnchS = {{item|Enchanted Sword}}<br/>
+( {{item|mode=image|image=Enchanted Sword comparison.png|Enchanted Sword Shrine|size=60px}} / {{item|mode=image|Cosmic Elemental|size=28px}} )
+
+|Diam1_cols = 3
+|Diam1_rows = 2
+|Diam1 = {{item|Diamond}} × 1<br/>
+<span style="font-size:0.75em">( [[Underground]] / {{item|mode=image|Diamond Crawler|size=28px}} )</span>
+
+|Ruby1_cols = 3
+|Ruby1_rows = 2
+|Ruby1 = {{item|Ruby}} x 1<br/>
+<span style="font-size:0.75em">( [[Underground]] / {{item|mode=image|Ruby Crawler|size=28px}} )</span>
+
+|Gold2_cols = 3
+|Gold2_rows = 2
+|Gold2 = {{item|Gold Bar|size=16px}} × 12<br/>
+
+|Plat2_cols = 3
+|Plat2_rows = 2
+|Plat2 = {{item|Platinum Bar|size=16px}} × 12<br/>
+
+|GolO2_cols = 3
+|GolO2_rows = 2
+|GolO2 = {{item|Gold Ore}} × 48<br/>
+<div style="font-size: 0.75em">( [[Underground]] )</div>
+
+|PlaO2_cols = 3
+|PlaO2_rows = 2
+|PlaO2 = {{item|Platinum Ore}} × 48<br/>
+<div style="font-size: 0.75em">( [[Underground]] )</div>
+
+|LivS2_cols = 3
+|LivS2_rows = 2
+|LivS2 = {{item|Living Shard}} × 3<br/>
+( {{item|mode=image|image=Map Icon Plantera (first form).png|Plantera|size=20px}} )
+
+|LunF2_cols = 3
+|LunF2_rows = 2
+|LunF2 = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 5<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+|LumO2_cols = 3
+|LumO2_rows = 2
+|LumO2 = {{item|Luminite}} × 20<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=20px}} )
+
+|LumB2_cols = 3
+|LumB2_rows = 2
+|LumB2 = {{item|Luminite Bar}} × 5
+
+|GalS2_cols = 3
+|GalS2_rows = 2
+|GalS2 = {{item|Galactica Singularity}} × 5
+
+|BroHS_cols = 3
+|BroHS_rows = 2
+|BroHS = {{item|Broken Hero Sword|size=26px}}<br/>
+( {{item|mode=image|Mothron|size=30px}} {{item|mode=image|image=Calamitas map.png|size=24px}})
+
+|Galax_cols = 3
+|Galax_rows = 2
+|Galax = {{item|Galaxia|size=32px}}
+
+|ArkAn_cols = 3
+|ArkAn_rows = 2
+|ArkAn = {{item|Ark of the Ancients|size=32px}}
+
+|FracA_cols = 3
+|FracA_rows = 2
+|FracA = {{item|Fractured Ark|size=32px}}
+
+|ArkEl_cols = 3
+|ArkEl_rows = 2
+|ArkEl = {{item|Ark of the Elements|size=32px}}
+
+|CoCa1_cols = 3
+|CoCa1_rows = 2
+|CoCa1 = {{item|Core of Calamity}}<br/>
+( {{item|mode=image|Necromantic Geode|size=20px}} )
+
+|CoCa2_cols = 3
+|CoCa2_rows = 2
+|CoCa2 = {{item|Core of Calamity}} × 5<br/>
+( {{item|mode=image|Necromantic Geode|size=20px}} )
+
+|ChaB2_cols = 3
+|ChaB2_rows = 2
+|ChaB2 = {{item|Chaotic Bar}} × 10
+
+|ArkCo_cols = 3
+|ArkCo_rows = 2
+|ArkCo = {{item|Ark of the Cosmos|size=40px}}
+
+|BaLi2_cols = 3
+|BaLi2_rows = 2
+|BaLi2 = {{item|Life Alloy}} × 5<br/>
+( {{item|mode=image|Necromantic Geode|size=20px}} )
+
+|AuTBa_cols = 3
+|AuTBa_rows = 2
+|AuTBa = {{item|Auric Bar}} × 5
+
+|CoppB_cols = 3
+|CoppB_rows = 2
+|CoppB = {{item|Copper Bar}} × 10
+
+|CoppO_cols = 3
+|CoppO_rows = 2
+|CoppO = {{item|Copper Ore}} × 30
+
+|PurGe_cols = 3
+|PurGe_rows = 2
+|PurGe = {{item|Purified Gel}} × 5<br/>
+( {{item|mode=image|image=Slime God Core map.png|The Slime God|size=20px}} )
+
+<!-- CRAFTING STATIONS -->
+|WORKB_cols = 3
+|WORKB_class = craft-station
+|WORKB = {{item|mode=image|Work Bench}}
+
+|Altar_cols = 3
+|Altar_class = craft-station
+|Altar = {{item|mode=image|Demon Altar}} / {{item|mode=image|Crimson Altar}}
+
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|HEFRG_cols = 3
+|HEFRG_class = craft-station
+|HEFRG = {{item|mode=image|Hellforge}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|HMFRG_cols = 3
+|HMFRG_class = craft-station
+|HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+| COANV_cols = 3
+| COANV_class = craft-station
+| COANV = {{item|mode=image|Cosmic Anvil}}
+
+
+<!-- OTHER -->
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

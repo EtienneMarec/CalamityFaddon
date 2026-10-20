@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 114
+| use = 9
+| mana = 10
+| knockback = 2
+| tooltip = Nevermore.<br/>Summons a powerful raven which teleports and dashes
+| buff = Raven (buff) | bufflink= no
+| bufftip = The powerful raven will protect you
+| rare = 14
+| sell = {{value|0|50}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| element1 = Dark
+}}
+{{summoned|Dark Raven|type=minion}}
+The '''Corvid Harbinger Staff''' is a craftable Godseeker Mode [[summon weapon]] that is an upgrade to the [[Raven Staff]]. It summons a dark raven minion that flies around and rapidly charges towards enemies, occasionally teleporting near them and leaving a ring of dust before continuing its charge.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The word corvid is derived from [[wikipedia:Corvidae|Corvidae]], the scientific family containing birds such as crows and ravens.
+*The item's tooltip is a direct reference to "[[wikipedia:The Raven|The Raven]]", a poem by [[wikipedia:Edgar Allan Poe|Edgar Allan Poe]].
+*This weapon can be seen as a counterpart of the [[Endo Hydra Staff]], as the two summon weapon's recipes contain post-[[Plantera]] items and have similar [[Crafting materials]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

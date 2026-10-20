@@ -1,0 +1,90 @@
+{{stub}}
+{{Npc infobox
+|type=Boss
+|boxwidth=24em
+| environment = Glowing Mushroom biome
+|image=Profusion, the Viral God.gif
+|life={{dv|777,000|888,360|1,300,000|||8,040|9,600}}
+|damage=0 (Contact)<br/>{{dv|200|300|400|1000||90}} (Spore Soul)
+|defense=40
+| dr = 25%
+|knockback=100
+|immune1=Confused
+|immune2=Poisoned
+|immune3=Venom
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| vulnerable3 = Machine
+| resistant1 = Poison
+| resistant2 = Water
+| resistant3 = Dark
+| image2 = Profusion map.png
+| image2caption = Map Icon
+| money = {{value|||||2}} {{pc|50}}
+| Mushroom|4999-9999|100%
+| Supreme Glowing Mushroom | 10 - 22 | 100%
+| Supreme Healing Potion|5-15|100%
+| Profusion Mask|1|14.29%
+| Profusion Trophy|1|10%
+| custom| {{item|Profusion (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| hurt = NPC_Hit_13.wav
+| killed = NPC_Killed_24.wav
+| sound = Item_28.wav
+| soundtext = Projectiles
+| sound2 = NPC_Killed_14.wav
+| sound2text = Minion Spawn
+| sound3 = Item_42.wav
+| sound3text = Thorns
+}}
+
+'''Profusion, the Viral God''' (Japanese: 豊富、ウイルスの神 ''Hōfu, uirusu no kami'') is a Godseeker Mode [[boss]] intended to be fought after [[The Starborn Moth]] but before the [[The Devourer of Gods]]. It is the god of fungal beings, capable of controlling all the fungal things in the world.
+
+== Spawn ==
+Profusion, the Viral God does not spawn on its own, and requires the [[Oddest Mushroom]] to be used in the Glowing Mushroom Field Biome.
+
+== Behavior ==
+Upon being spawned, the player is permanently afflicted with a disorienting effect nearly similar to that of the [[Odd Mushroom]], but without the damage boost. The player additionally loses half of their wing time while the boss is alive, and they lose all their wing time after phase 2 hits. Mount is also disabled during this fight.
+
+=== Attacks ===
+
+====Phase 1====
+*'''Virulent Assault:''' The Boss fires out volleys of Green Mushroom Shots from above at the player, being able to inflict the [[Plague]] debuff.
+*'''Shroom tree Thorns:''' It positions itself above the player, before slamming down to the ground. This creates a spaced out pillars of thorny shroom trees. These trees also fires out Mushroom shots from its top bulb.
+*'''Mycelian Stalactite:''' It casts a volley of huge shroomy stalactite from above, dropping them after some time passes. These stalactites explodes into a cluster of damaging spore clouds.
+*'''Agaric Laser:''' The Boss charges up a short red laser deathray, which it then fires on to the player, turning quickly to their current position. This leaves behind damaging red mushrooms that dissipates after some time. This attack becomes slower in phase 2.
+*'''Charge Attack:''' The boss predicts its movement before charging at the player 2/{{expert|3}} times. This deals a high amount of defense damage.
+
+====Phase 2====
+Upon reaching phase 2 at 50%/{{Revengeance|65%}}, it summons various platforms in any available space, all spaced out from one another. The floor of the arena will then be covered in mushroom spikes, dealing defense damage to the player if stepped on. Additionally, it gains a few new attacks, as follows:
+*'''Corrupted Blossom:''' The Boss conjures a Corrupted flowers that fires seed projectiles at a radial pattern. These linger on for 5/{{expert|7}}/{{death|9}} seconds before dissipating. Its bullets can inflict the [[Moon Burnt]] debuff.
+*'''Mushroom Bomb Volley:''' It fires out 4/{{revengeance|5}} explosive mushrooms that follows the players wherever they go, exploding when in close proximity.
+
+===In [[Expert Mode]]===
+*The boss charges at you faster and longer.
+*The Corrupted Blossom fires faster.
+
+===In [[Revengeance Mode]]===
+*The boss can fire a 2nd laser right after the 1st one.
+*It gains 2 new attacks on phase 2:
+**'''Myocordical Wheel:''' it summons a mushroom wheel that bounces off tiles 8 times before dissipating, with each bounce firing off bigger volleys of spores.
+**'''Psychedelic Nuke:''' It stands above a random platform and conjures a psychedelic mushroom nuke that explodes after a few seconds, dealing massive damage in a wide range. The only safe spot to go to is the platform Profusion is on. After this, Profusion sends out a shockwave that knocks back the player, and attacks as normal.
+
+===In [[Death Mode]]===
+*The Agaric Laser attack is not slowed anymore in phase 2.
+*The Myocordical Wheel attack also leaves behind corrupted blossoms after every bounce.
+
+== Aftermath ==
+*Harvesting [[Glowing Mushroom]] has a chance of dropping its supreme variants instead.
+== Tips ==
+*Wings are not necessary for this fight, especially on phase 2, where flight is disabled.
+**The [[BFB]] can serve as an alternative to wings for this fight.
+**Alternatively, one can forego the above, and instead use Hooks for the fight, allowing space for more valuable accessories.
+== Trivia ==
+*The song heard during the battle with the Profusion, the Viral God is '''[https://www.youtube.com/watch?v=QwU2jFvTWpY Suliman]''', which was made by the artist [https://www.youtube.com/channel/UCrbvoMC0zUvPL8vjswhLOSw Infected Mushroom].
+== Lore ==
+
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

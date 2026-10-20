@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 54
+| use = 10
+| knockback = 0
+| auto = yes
+| tooltip = Fires an energy reticle that becomes more powerful over time
+| stack = 1
+| rare = 7
+| velocity = 30
+| sell = {{value|0|12}}
+| hardmode = yes
+| proj = Flak Reticle.png
+| projcaption = Flak Reticle
+| element1 = Dark
+| element2 = Water
+}}
+[[File:Flak Kraken (demo).gif|frame|right|The Flak Kraken in use.]]
+
+The '''Flak Kraken''' is a unique craftable [[Hardmode]] [[ranged weapon]]. It summons a yellow reticle at the cursor's location that deals constant damage to any enemy within it, piercing infinitely. Similarly to other weapons such as the [[Phantasm]], the Flak Kraken will "spin up" the longer the fire button is held, increasing its damage per second and area of effect.
+
+{{Modifier|nokbalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*It takes 8.33 seconds of firing in order to reach maximum power.
+**Continued usage at this power will stop the reticle but the weapon can still be used afterwards.
+*When at full power, this weapon deals noticeably higher damage per second than other weapons of its tier, reaching upwards of 1000 DPS without armor or accessories.
+
+== Trivia ==
+*This weapon's design may be based on the [[wikipedia:8.8 cm Flak 18/36/37/41|8.8 cm flak cannons]] used by Germany in WW2.
+{{-}}
+{{Abyssal Gear}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

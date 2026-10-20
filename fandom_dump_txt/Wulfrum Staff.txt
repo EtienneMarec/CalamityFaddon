@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 13
+| mana = 2
+| knockback = 3
+| velocity = 9
+| rare = 1
+| tooltip = Casts a wulfrum bolt
+| sell = {{value|0|0|20}}
+| use = 20
+| stack = 1
+| element1 = Stab
+}}
+|{{item drops infobox
+|[[Wulfrum Excavator]] {{fantag|Calamity: Community Remix}}|1|{{dv|25%|33%}}
+}}
+}}
+
+The '''Wulfrum Staff''' is a craftable [[Pre-Hardmode]] [[wand]]. It shoots slow moving green projectiles in a straight line. The projectiles are not affected by gravity and pierce a single enemy.
+
+{{Modifier|magiclow}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Wulfrum}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

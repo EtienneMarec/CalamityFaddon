@@ -1,0 +1,22 @@
+<!--Used on:
+Expert Mode Accessories
+Fishing Accessories
+Mining Accessories
+Revengeance Mode Accessories
+--><includeonly>
+{{#ifeq:{{{listexclude|no}}}|yes|<!--nothing-->|
+{{!}}-
+{{!}} {{!}} {{item|mode=table|{{{name|{{{%PAGE%}}}}}}|image={{{name|{{{%PAGE%}}}}}}.png}}
+{{!}} {{!}} {{{tooltip|}}}
+{{!}} {{rare|{{{rare|0}}}|sort=yes}}
+{{!}} align="center" {{!}} {{#if:{{{hardmode|}}}|{{yes}}|{{no}}}}
+{{!}} align="center" {{!}} {{#if:{{{postml|}}}|{{yes}}|{{no}}}}
+{{!}} align="right" data-sort-value={{value total|{{{sell|}}}}} {{!}} {{{sell|}}}
+{{!}} align="center" {{!}} {{{imageequipped|{{ifexists| File:{{{name|{{{%PAGE%}}}}}} (equipped).png|[[File:{{{name|{{{%PAGE%}}}}}} (equipped).png]]|{{no}}}}}}}
+{{!}}-
+}}
+</includeonly>
+<noinclude>
+{{Dpl pages}}
+[[Category:DPL]]
+</noinclude>

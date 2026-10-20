@@ -1,0 +1,33 @@
+{{npc infobox
+| type = Slime
+| type2 = Flying Enemy
+| environment = Cavern
+| ai = Bat AI
+| damage = {{dv|18|36}}
+| life = {{dv|50|100}}
+| defense = 10
+| banner = yes
+| money = {{value|0|0|3}}
+| Aerialite Ore|10-26| 100%
+| Skyline Wings|1| 3%
+| knockback = 100
+| immune1 = Kami Flu
+| immune2 = Poisoned
+| immune3 = Confused
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Fire
+| vulnerable2 = Dark
+| resistant1 = Poison
+| resistant2 = Holy
+}}
+
+The '''Aero Slime''' is a [[Pre-Hardmode]] [[slime]] which spawns naturally in the [[Cavern]] and [[Space]] layers after the player has defeated [[The Hive Mind]] or [[The Perforators]].  They exist to drop [[Aerialite Ore]], so that the player cannot use up all the ore available to them. Unlike other ore slimes, they can fly around freely.
+
+== Trivia ==
+*The Aero Slime's sprite uses a recolored and slightly modified version of the [[Skyline Wings]] for part of its wing animation.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

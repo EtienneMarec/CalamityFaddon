@@ -1,0 +1,228 @@
+<section begin=npc infobox />
+{{infobox wrapper
+|{{npc infobox
+| name = The Hive Mind
+| namesub = Phase 1
+| type = Boss
+| environment = The Corruption
+| image = The Hive Mind (Phase 1).png
+| ai = Draedon AI
+| life = {{dv|7,800|12,480|14,976}}
+| immune1 = Pearl Aura
+| immune2 = Confused
+| damage = {{dv|20|36|45|54}}
+| defense = 8
+| vulnerable1 = Holy
+| resistant1 = Unholy
+| resistant2 = Dark
+| knockback = 100
+| image2 = Hive Mind map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| weakspot = Groin
+}}
+|{{npc infobox
+| name = The Hive Mind
+| namesub = Phase 2
+| type = Boss
+| environment = The Corruption
+| image = The Hive Mind (Phase 2).png
+| ai = Draedon AI
+| life = 6,240 / 7,800<br/>{{expert|9,984 / 12,480}}<br/>{{revengeance|11,980 / 14,976}}
+| immune1 = Pearl Aura
+| immune2 = Confused
+| damage = {{dv|35|63|81|90}} (Contact)<br/>{{dv|36|56|68|76}} (Shaderain)
+| defense = 8
+| vulnerable1 = Holy
+| resistant1 = Unholy
+| resistant2 = Dark
+| knockback = 100
+| debuff2 = Shadowflame
+| debuffchance2 = 100%
+| duration2 = 1 second (Shaderain)
+| debufftip2 = Losing life
+| money = {{value|0|5}}
+| Rotten Matter|{{dv|25-30|30-40}}|100%
+| Rotten Chunk|{{dv|9-15|10-20}}| 100%
+| Corrupt Seeds|2-4| 100%
+| Demonite Bar|{{dv|8-12|9-14}}|100%
+| custom| {{item|Cursed Flame|note=(In [[Hardmode]])|wrap=y}} ({{dv|10-20|15-30}})|100%
+|group|At least one of the following 7 weapons will always drop:|7
+| Shaderain Staff|1|{{dv|25%|33.33%}}
+| Leeching Dagger|1|{{dv|25%|33.33%}}
+| Perfect Dark|1|{{dv|25%|33.33%}}
+| Shadethrower|1|{{dv|25%|33.33%}}
+| Shadowdrop Staff|1|{{dv|25%|33.33%}}
+| Dank Staff|1|{{dv|25%|33.33%}}
+| Rot Ball|{{dv|30-50|50-75}}|{{dv|25%|33.33%}}
+| Rotten Brain|1|100%
+| Filthy Glove|1|{{dv|25%|33.33%}}
+| Healing Potion|5-15|100%
+| Rotting Eyeball|1|10%
+| Hive Mind Mask|1|14.29%
+| Hive Mind Trophy|1|10%
+| custom| {{item|The Hive Mind (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| image2 = Hive Mind map 2.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Roar_0.wav,EoC_Expert_Roar.wav
+| soundtext = Roar
+}}
+}}<section end=npc infobox />
+[[File:Hive Mind Trophy.png|25px]] <big>''"A mound of rotting biomass"''</big> [[File:Hive Mind Trophy.png|25px]]
+
+'''The Hive Mind''' (Japanese: 集合意識 ''Shūgō ishiki'') is a [[Pre-Hardmode]] [[boss]] unlocked after defeating [[The Inventors]]. The Hive Mind is fought in [[The Corruption]], and has an immobile first phase and a floating second phase.
+
+It is the Corruption counterpart to [[The Perforators]].
+
+== Spawn ==
+The Hive Mind does not spawn on its own, and requires the player to summon it using a [[Teratoma]] or by dropping a [[Shadow Scale]] onto a patch of [[Grimesand]] which generates on [[Floating Island]]s after breaking a [[Shadow Orb]].
+
+== Behavior ==
+The Hive Mind is stationary in all of Phase 1, summoning enemies at intervals based if it feels like doing so. In Phase 2, it starts drifting slowly away from the player while performing various attacks, such as teleporting and its special blue attack. 
+
+The Hive Mind enrages in the Crimson biome, which greatly reduces its burrowing time in Phase 1. In Phase 2, its speed is greatly increased and attack transition time is greatly decreased while it's enraged.
+
+=== Attacks ===
+==== Phase 1 ====
+*Remains stationary where it was spawned and immediately summons {{dv|15|16|18|21}} {{item|Hive Blob|s|link=|size=16px}} by its side.
+**Hive Blobs stick around the hive and fire nuclear warheads every six seconds as long as they are farther than four hundred tiles away from the player, so they don't take damage themselves, as being close to a nuclear detonation does not sound very fun.
+*Burrows into the ground and reemerges near the player every {{dv|4|3|2|1}} seconds, to prevent them from straying too far away.
+*Has a 1/69 chance to spawn {{item|Devourer|s|link=tgc:Devourer|size=120px}} when you take damage.
+*Summons {{dv|1-2|6-7|12-13|45-49}} {{item|Hive Blob|s|link=|size=16px}} or {{item|Dank Creeper|s|link=|size=25px}} upon reaching 96%, 69%, and 3% health.
+**There may only be up to {{dv|5|8|23|1}} Dank Creepers summoned at once.
+**Dank Creepers accelerate upwards.
+**This means that Dank Creepers are high.
+**Hence the name.
+
+==== Phase 2 ====
+*Transitions at 46% health.
+*Slowly drifts away from  the player for {{dv|13|12|5|37}} seconds.
+*Lets out a higher pitched moan then dashes away from the player while fading out and spawns a {{item|Dank Creeper|link=|size=25px}} and a {{item|Devourer|link=tgc:Devourer|size=120px}}..
+**These enemies will not be spawned again until they are killed.
+*After fully fading out, the hive briefly teleports to [[The Underworld]] to regroup, and repeats its attack.
+
+=== In [[Expert Mode]] ===
+*During Phase 1, The Hive Mind gains 99.99% DR when any Dank Creeper is alive. This damage reduction cannot be reduced by any means.
+*When a Dank Creeper is killed, it spawns a {{item|Shade Nimbus|ext=gif|link=}} which lasts six seconds and rains shade every 0.75 seconds.
+*In Phase 2, drifts for less time and moves faster the lower its health.
+*After every two drift-dashes, the next teleport will be closer to [[The Underworld]]. The hive will fully fade in while circling the player, lunge at them when at full opacity, then slows down and drifts towards the player.
+
+=== In [[Revengeance Mode]] ===
+*Drift-dashes no longer spawn enemies.
+*Spin-lunges occur after every time you take damage.
+*Gains a new attack below 53% health. The hive appears below the player, flies in a semi-circle while spawning a {{item|Dank Creeper|link=|size=25px}}, {{item|Dark Heart|link=|size=20px}}, and{{item|Devourer|link=tgc:Devourer|size=120px}}, then slows down and drifts towards the player.
+**Dark Hearts rain shade onto the player every 0.004 seconds when above them.
+**This attack occurs between each spin-lunge attack.
+**These enemies will not be spawned again until they are killed.
+*Gains another new attack below 27% health. The hive appears above the player, dashes horizontally while spawning 10 {{item|Shade Nimbus|es|ext=gif|link=}}, then slows down and drifts towards the player.
+**This attack is randomly arranged with the spin-lunge and semicircle-dash attacks, and is never performed in Florida, as laws prevent this.
+
+=== In [[Death Mode]] ===
+*Gains 73% more health.
+*Can teleport to any biome once in phase two.
+
+=== In [[Malice Mode]] ===
+
+*You will die.
+
+== Summons ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Hive Blob
+| type = Blob Enemy
+| environment = The Corruption
+| ai = Duke Fishron AI
+| life = 100
+| damage = 0 (Contact)<br/>{{dv|30|48|60|68}} (Vile Clot)
+| defense = 0
+| vulnerable1 = Holy
+| vulnerable2 = Slash
+| resistant1 = Unholy
+| resistant2 = Dark
+| knockback = {{dv|0%|10%}}
+| debuff = Cursed Inferno
+| duration = 1 second (Vile Clot)
+| debuffchance = 100%
+| debufftip = Losing life<br/>All damage taken increased by 20%
+| immune1 = Confused
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_20.wav
+| soundtext = Vile Clot
+}}
+|{{npc infobox
+| type = High Enemy
+| name = Dank Creeper
+| environment = The Corruption
+| ai = Marijuana AI
+| damage = {{dv|25|50|62|68}} (Contact)<br/>{{dv||56|68|76}} (Shaderain)
+| life = {{dv|90|180}}
+| defense = 6
+| vulnerable1 = Holy
+| resistant1 = Unholy
+| resistant2 = Dark
+| knockback = {{dv|70%|73%}}
+| debuff = Shadowflame
+| debuffchance = {{expert|100%}}
+| duration = {{expert|1 second}} (Shaderain)
+| debufftip = Losing life
+| immune1 = Confused
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+|{{npc infobox
+| type = Dying Enemy
+| name = Dark Heart
+| environment = The Corruption
+| ai = Wyvern AI
+| life = 0
+| damage = 999999 (Contact)<br/>{{dv|36|56|68|76}} (Shaderain)
+| defense = 2
+| vulnerable1 = Holy
+| vulnerable2 = Stab
+| resistant1 = Unholy
+| resistant2 = Dark
+| knockback = {{dv|60%|64%}}
+| debuff = Shadowflame
+| debuffchance = 100%
+| duration = 1 second (Shaderain)
+| debufftip = Losing life
+| immune1 = Confused
+| hurt = NPC_Hit_13.wav
+| killed = NPC_Killed_21.wav
+}}
+}}
+
+== Aftermath ==
+
+[https://youtu.be/yBpvgZ-4NAg?si=SN7Ow6knPk9pHzOF Aftermath] (also known as Afterclysm) is a 1.9/2.0 Extreme Demon mega-collaboration level by Exenity, initially verified by Satcho, with an update verified by DaMeister. It is the third and final instalment of the community-designated 'Apocalyptic Trilogy' of similarly-themed Extreme Demon levels, after Cataclysm and Bloodbath, following the former levels in music, gameplay and design.
+
+It was initially unrated due to a hacked verification before being verified and formerly published by Satcho (Trollfacedash in-game). The level has now been moved to Exenity's account after DaMeister verified an official update. Its level ID is 25610878, and it has literally nothing to do with this.
+
+== Notes ==
+*During phase 1, The Hive Mind won't die while burrowing until it fully emerges.
+*During phase 2, The Hive Mind won't deal contact damage while it is teleporting and not fully opaque, but it can still die.
+*During the non-existent phase 3, The Hive Mind won't die.
+
+== Tips ==
+*Entering [[The Crimson|The Corrimson]] will enrage The Hive Mind, making it more deadly.
+**Keep this in mind if building an arena; building too close to the Crimson might enrage The Hive Mind
+*Be wary of the Hive Mind, as it will kill you.
+**Don't let it kill you.
+*The player can fight The Hive Mind after defeating [[The Inventors]], though it is not recommended to fight this boss until the [[The Wall of Bronze]] is defeated, as its high speed and attack pattern can easily overwhelm you.
+
+== Trivia ==
+*The Hive Mind's [[Music|theme]] is [https://www.youtube.com/watch?v=1NbQFGnQaCE '''The Filthy Mind'''], which was composed by the artists [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO] and [https://www.youtube.com/user/badoosh12 SixteenInMono]. the name of the song is a reference to the internet.
+**If the Calamity Music add-on mod is disabled, '''Black knife''' will play instead.
+*The Hive Mind can only be summoned after [[The Inventors]] are defeated.
+*The Hive Mind could be considered the Corrimsons's version of the [[Brain of Cthulhu]], while [[The Perforators]] could be considered the [[Crimson|Crimson's]] version of the [[Eater of Worlds]].
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The Filthy Mind has decided not to die today."
+*The Hive Mind is not at [[wikipedia:Arrowhead_Stadium|Arrowhead Stadium]], but rather [https://youtube.com/shorts/FXP_c0F-kuk?si=Gd6xnH_x1tdf5FTx The Nolan] is there instead.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

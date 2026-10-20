@@ -1,0 +1,29 @@
+{{npc infobox
+| environment = Surface
+| type = Flying Enemy
+| type2 = Aquatic
+| ai = Cannonball Jelly AI
+| damage = {{element|Fire}} {{dv|300|400}}
+| life = {{dv|10,000|14,000}}
+| defense = 100
+| knockback = 100
+| immune1 = Confused
+| immune2 = Kami Flu
+| money = {{value|0|0|0|0}}
+| Jellyfish Cannonball | 15 | 100%
+| hurt = NPC_Hit_25.wav
+| killed = NPC_Killed_28.wav
+| vulnerable1 = Slash
+| vulnerable2 = Holy
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Dark
+}}
+
+The '''Cannonball Jelly''' is an [[enemy]] which spawns when the player attempts to craft [[Jellyfish Cannonball]]s. They will spawn directly on top of the player, and will deal heavy contact damage.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

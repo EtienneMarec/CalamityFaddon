@@ -1,0 +1,12 @@
+bin/
+obj/
+.vs/
+*.user
+
+# Matériel de référence volumineux (gardé en local)
+CalamityModPublic/
+fandom_sprites/
+lib/
+
+# Généré par tools/wiki_index.py
+data/

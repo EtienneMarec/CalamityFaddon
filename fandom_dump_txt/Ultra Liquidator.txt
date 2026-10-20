@@ -1,0 +1,57 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damage = 120
+| damagetype = magic
+| mana = 25
+| use = 15
+| critical = 34%
+| knockback = 5
+| velocity = 16
+| stack = 1
+| rare = 11
+| sell = {{value|0|22}}
+| tooltip = Summons liquidation blades that summon more blades on enemy hits<br/>The blades inflict ichor, cursed inferno and brimstone flames
+| hardmode = yes
+| postml = yes
+| debuff = Ichor (debuff)
+| debuffduration = 1.5 seconds (Main Blade)<br/>1 second (Secondary Blade)
+| debuffchance = 100%
+| debufftip = Defense reduced by 20
+| debuff2 = Brimstone Flames
+| debuffduration2 = 3 seconds (Main Blade)<br/>2 seconds (Secondary Blade)
+| debuffchance2 = 100%
+| debufftip2 = Rapid health loss
+| debuff3 = Cursed Inferno
+| debuffduration3 = 1.5 seconds (Main Blade)<br/>1 second (Secondary Blade)
+| debuffchance3 = 100%
+| debufftip3 = 	Losing life<br/>All damage taken increased by 20%
+| element1 = Holy
+| element2 = Water
+| element3 = Stab
+}}
+[[File:Ultra Liquidator (demo).gif|frame|right|Attacking with the Ultra Liquidator]]
+
+The '''Ultra Liquidator''' is a craftable Godseeker Mode [[wand]] which is a direct upgrade to the [[Infernal Rift]]. It automatically fires a set of five rainbow tridents, which summon block-piercing blades that fly from the left and right on enemy hits. Both projectiles inflict [[Cursed Inferno]], [[Brimstone Flames]], and [[Ichor (debuff)|Ichor]] [[debuffs]].
+
+The Ultra Liquidator also boasts a very high base critical strike chance of 34%, greatly improving its damage.
+
+{{Modifier|magic}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Ultra Liquidator/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*Because of the multitude of debuffs this weapon inflicts, it's a good weapon to weaken opponents with.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

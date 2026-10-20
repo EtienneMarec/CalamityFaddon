@@ -1,0 +1,20 @@
+:root{
+	--fandom-notifications-background-color: #272822;
+	--fandom-notifications-read-card-background-color: #272822;
+	--fandom-banner-notification-background-color: #272822;
+	--fandom-global-nav-background-color: #bbbabc;
+	--fandom-dropdown-background-color: #272822;
+	/*^^^ Global and notifications color */ 
+}
+
+.global-navigation__top{
+	background-color: #272822;
+}
+
+.global-navigation__bottom{
+	background-color: #272822;
+}
+
+.global-navigation{
+	background-color: #272822;
+}

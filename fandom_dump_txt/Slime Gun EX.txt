@@ -1,0 +1,27 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 30 (Pre-SCal)<br/>150 (Post-SCal)
+| damagetype = Ranged
+| knockback = 3.5
+| stack = 1
+| rare = 15
+| sell = {{value|0|2|40}}
+| auto = yes
+| tooltip = Slowly fires balls of ebonian goop that explode upon enemy contact<br/>It appears the barrel is clogged up (Pre-SCal)<br/>Rapidly fires balls of ebonian goop that stick to enemies<br/>Right clicking causes all stuck globs to explode, dealing more damage  depending on amount of stuck globs (Post-SCal)
+| use = 67 (Pre-SCal)<br/>13 (Post-SCal)
+| velocity = 5
+}}
+|{{item drops infobox
+| [[Goozma]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Slime Gun EX''' is a [[ranged weapon]] that drops from [[Goozma]]. At first it slowly fires out balls of ebonian goup which create medium sized explosions upon hitting enemies or tiles. After defeating [[Supreme Calamitas]], the weapon's fire rate is greatly increased, and globs will stick to enemies, dealing damage over time instead of immediately exploding. Right clicking causes all stuck globs to detonate, dealing a base of 2x the weapon's damage and increasing by 5% for each glob stuck.
+
+{{Modifier|ranged}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

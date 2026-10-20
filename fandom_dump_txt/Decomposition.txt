@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 75
+| knockback = 4
+| mana = 10
+| use = 19
+| stack = 1
+| tooltip = Summons a diseased hive to protect you
+| rare = 7
+| auto = yes
+| sell = {{value|0|12}}
+| hardmode = yes
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance= 100%
+| debuffduration = 1 second (Bee)
+| element1 = Poison
+| element2 = Machine
+}}
+|{{item drops infobox
+| [[Plaguebringer Goliath]] |1|25% / {{expert|33.33%}}
+}}
+}}
+{{summoned|Plague Hive (sentry)|type=sentry}}
+The '''Decomposition''' is a [[Hardmode]] [[sentry]] that is dropped from the [[Plaguebringer Goliath]]. It summons a wasp nest which spawns bees similarly to the [[Plaguenade]].
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The bees summoned by this sentry deal [[Spy]] damage.
+
+== Trivia ==
+*This weapon is a reference to Southern Hospitality from [[wikipedia:Team Fortress 2|Team Fortress 2]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

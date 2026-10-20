@@ -1,0 +1,38 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 102
+| auto = yes
+| use = 42
+| knockback = 5
+| stack = 1
+| rare = 8
+| velocity = 17
+| sell = {{value|0|1}}
+| tooltip = Hold left click to inflate a white pumpkin at the tip of the weapon's barrel<br/>Release to shoot the pumpkin, which will explode on impact<br/>If the pumpkin is fully charged, it will create a massive explosion with lingering mist
+| hardmode = yes
+| element1 = Fire
+| element2 = Holy
+| element3 = Poison
+| element4 = Bomb
+}}
+
+The '''Pumplerfaust''' is a craftable [[Hardmode]] [[ranged weapon]]. When used, a white pumpkin appears at the barrel of the gun. As the player channels the weapon, the pumpkin will slowly increase in size for 5 seconds until lighting up, indicated with a sound effect. Upon releasing, the pumpkin is launched towards the cursor and causes a colossal explosion upon hitting a tile or an enemy, leaving behind a damaging white mist. Releasing before the pumpkin is fully charged will cause the pumpkin to create a significantly smaller explosion with no lingering mist. This weapon uses no [[ammo]]. The weapon deals extra damage to [[Diamond Crawler]]s.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon is a reference to the White Pumpkin from ''[[wikipedia:Minecraft: Story Mode|Minecraft: Story Mode]]''.
+**The pumpkin dealing more damage to Diamond Crawlers is a reference to the YouTuber, DanTDM (The '''Diamond''' Minecart) who is killed by the White Pumpkin.
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

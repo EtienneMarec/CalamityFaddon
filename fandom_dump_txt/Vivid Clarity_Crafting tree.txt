@@ -1,0 +1,381 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|F|~|~|~|~|~|~|~|7|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|:|_|_|_|_|_|_|_|:|_|_|_|_|#
+|_|_|_|_|Gelll|_|Wood2|_|_|_|_|_|_|_|_|_|_|_|_|:|RMatt|±|BlooS|:|_|_|_|_|#
+|_|_|_|_|     |_|     |_|_|_|_|_|_|_|_|_|_|_|_|:|             |:|_|_|_|_|#
+|_|_|_|_|_|)|-|-|-|'|_|_|_|_|_|_|_|_|_|_|_|_|_|L|~|$|~|~|~|$|~|J|_|_|_|_|#
+|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|,|-|-|'|_|_|_|`|-|-|.|_|_|_|#
+|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|F|~|~|~|~|~|~|~|7|I|_|_|_|#
+|_|_|_|_|_|÷|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|:|_|_|_|_|_|_|_|:|I|_|_|_|#
+|FalSt|_|Torch|_|Wood1|_|Amber|_|SturF|_|_|_|I|:|Vilet|±|CrimR|:|I|_|_|_|#
+|     |_|     |_|     |_|     |_|     |_|_|_|I|:|             |:|I|_|_|_|#
+|_|`|-|-|-|^|-|-|-|(|_|_|_|)|-|-|-|'|_|_|_|_|I|L|~|$|~|~|~|$|~|J|I|_|_|_|#
+|_|_|_|_|_|_|_|_|PHANV|_|PHANV|_|_|_|_|_|_|_|`|-|-|(|_|_|_|)|-|-|'|_|_|_|#
+|AreO1|_|HalO2|_|WandS|_|AmbeS|_|MagiM|_|PuriG|_|_|I|_|_|_|I|_|_|NatuG|_|JungR|_|Moong|_|HalO1|_|#
+|     |_|      _|     |_|     |_|     |_|     |_|_|I|_|_|_|I|_|_|     |_|     |_|     |_|      _|#
+|_|I|_|_|_|I|_|_|_|`|-|-|-|^|-|-|-|^|-|-|-|^|-|-|-|+|-|-|-|(|_|_|_|)|-|-|-|^|-|-|-|'|_|_|_|I|_|_|#
+|PHFRG|_|HMFRG|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|I|_|_|PHANV|_|_|_|_|_|_|_|_|_|HMFRG|_|#
+|AreB1|_|HalB2|_|Ruby1|_|SoulM|_|SoulS|_|SoulF|_|_|I|_|_|_|I|_|_|ManaR|_|_|_|_|_|_|_|_|_|HalB1|_|#
+|     |_|     |_|     |_|     |_|     |_|     |_|_|I|_|_|_|I|_|_|      _|_|_|_|_|_|_|_|_|      _|#
+|_|`|-|-|-|^|-|-|-|^|-|-|-|^|-|-|-|+|-|-|-|'|_|_|_|I|_|_|_|I|_|_|_|)|-|-|-|-|-|-|-|-|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|F|~|$|~|~|~|$|~|7|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|HMANV|_|_|_|_|:|Altar|_|Altar|:|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|MetO1|_|ValkR|_|LiviS|:|NighR|±|CarnR|:|GleaM|_|NebuF|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|     |_|     |_|     |:|             |:|     |_|     |_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|I|_|_|_|I|_|L|~|~|~|$|~|~|~|J|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|PHFRG|_|_|`|-|-|-|^|-|-|-|-|-|^|-|.|_|_|_|)|-|-|-|'|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|LumiO|_|SoulL|_|MetB1|_|PixiD|_|LunaF|_|LumiO|_|_|I|_|_|_|I|_|_|DarkP|_|SpecS|_|ArmoS|_|ShaBS|_|#
+|_|_|_|_|     |_|     |_|     |_|     |_|     |_|     |_|_|I|_|_|_|I|_|_|     |_|     |_|     |_|     |_|#
+|_|_|_|_|_|I|_|_|_|`|-|-|-|+|-|-|-|'|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|`|-|-|-|(|_|_|_|`|-|-|-|(|_|_|#
+|_|_|_|_|_|§|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|§|_|_|_|§|_|_|HMANV|_|_|I|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|I|_|_|#
+|MiMaT|_|LumiB|_|_|_|_|_|MeteS|_|UltrT|_|GalaS|_|LumiB|_|TerrR|_|_|I|_|_|RuinS|_|_|I|_|_|RuinS|_|_|I|_|_|#
+|      _|     |_|_|_|_|_|     |_|     |_|     |_|     |_|     |_|_|I|_|_|     |_|_|I|_|_|     |_|_|I|_|_|#
+|_|:|_|_|_|`|-|-|-|-|-|-|-|(|_|_|_|:|_|_|_|`|-|-|-|^|-|-|-|(|_|_|_|I|_|_|_|`|-|-|-|(|_|_|_|`|-|-|-|(|_|_|#
+|_|₪|_|_|_|_|_|_|_|_|_|_|_|§|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|§|_|_|_|§|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|§|_|_|#
+|MirMa|_|_|_|_|_|_|_|_|_|AsteS|_|UltrL|_|_|_|_|_|_|_|_|_|ElemR|_|ArchA|_|_|_|_|_|PhanF|_|_|_|_|_|ShadS|_|#
+|      _|_|_|_|_|_|_|_|_|     |_|     |_|_|_|_|_|_|_|_|_|     |_|     |_|_|_|_|_|     |_|_|_|_|_|     |_|#
+|_|`|-|-|-|-|-|-|-|-|-|-|-|^|-|-|-|^|-|-|-|-|-|-|-|-|-|-|-|+|-|-|-|^|-|-|-|-|-|-|-|^|-|-|-|-|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|ViviC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+<!-- •• CRAFTING MATERIALS •• -->
+
+|ViviC_cols = 3
+|ViviC_rows = 2
+|ViviC = {{item|Vivid Clarity|size=36px}}
+
+|UltrL_cols = 3
+|UltrL_rows = 2
+|UltrL = {{item|Ultra Liquidator|size=36px}}
+
+|UltrT_cols = 3
+|UltrT_rows = 2
+|UltrT = ''[[Ultra Liquidator/Crafting tree|Ultra Liquidator<br/>crafting tree]]''
+
+|MiMaT_cols = 3
+|MiMaT_rows = 2
+|MiMaT = ''[[Miracle Matter/Crafting tree|Miracle Matter<br/>crafting tree]]''
+
+|MirMa_cols = 3
+|MirMa_rows = 2
+|MirMa = {{item|Miracle Matter}}
+
+<!-- ••• Elemental Ray ••• -->
+
+|ElemR_cols = 3
+|ElemR_rows = 2
+|ElemR = {{item|Elemental Ray|size=36px}}
+
+|TerrR_cols = 3
+|TerrR_rows = 2
+|TerrR = {{item|Terra Ray|size=36px}}
+
+| SoulM_cols = 3
+| SoulM_rows = 2
+| SoulM = {{item|Soul of Might}}<br/>
+( {{item|mode=image|image=Map Icon The Destroyer.png|The Destroyer|size=20px}} )
+
+|SoulS_cols = 3
+|SoulS_rows = 2
+|SoulS ={{item|Soul of Sight}}<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|The Twins|size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} )
+
+|SoulF_cols = 3
+|SoulF_rows = 2
+|SoulF ={{item|Soul of Fright}}<br/>
+( {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+|HalB2_cols = 3
+|HalB2_rows = 2
+|HalB2 = {{item|Hallowed Bar}} × 12<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|The Twins||size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} {{item|mode=image|image=Map Icon The Destroyer.png|The Destroyer|size=20px}} {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+|HalO2_cols = 3
+|HalO2_rows = 2
+|HalO2 = {{item|Hallowed Ore}} × 48<br/>
+<span style="font-size:0.75em">( [[Underground Hallow]] )</span>
+
+|AreB1_cols = 3
+|AreB1_rows = 2
+|AreB1 = {{item|Aerialite Bar}} × 6<br/>
+
+|AreO1_cols = 3
+|AreO1_rows = 2
+|AreO1 = {{item|Aerialite Ore}} × 24<br/>
+<span style="font-size:0.75em">( [[Underground]] / {{item|mode=image|Aero Slime|size=24px}} )</span>
+
+|Ruby1_cols = 3
+|Ruby1_rows = 2
+|Ruby1 = {{item|Ruby}}<br/>
+<span style="font-size:0.75em">( [[Underground]] / {{item|mode=image|Ruby Crawler|size=28px}} )</span>
+
+|ValkR_cols = 3
+|ValkR_rows = 2
+|ValkR = {{item|Valkyrie Ray|size=36px}}
+
+|GalaS_cols = 3
+|GalaS_rows = 2
+|GalaS = {{item|Galactica Singularity}} × 5
+
+|LunaF_cols = 3
+|LunaF_rows = 2
+|LunaF = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 5<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+
+|LiviS_cols = 3
+|LiviS_rows = 2
+|LiviS = {{item|Living Shard}} × 7<br/>
+( {{item|mode=image|image=Map Icon Plantera (first form).png|Plantera|size=20px}} )
+
+<!-- •••• Night's Ray / Carnage Ray •••• -->
+
+|NighR_cols = 3
+|NighR_rows = 2
+|NighR = {{item|Night's Ray|size=36px}}
+
+|CarnR_cols = 3
+|CarnR_rows = 2
+|CarnR = {{item|Carnage Ray|size=36px}}
+
+|PuriG_cols = 3
+|PuriG_rows = 2
+|PuriG = {{item|Purified Gel}} × 10<br/>
+( {{item|mode=image|image=Slime God Core map.png|The Slime God|size=20px}} )
+
+|WandS_cols = 3
+|WandS_rows = 2
+|WandS = {{item|Wand of Sparking|size=18px}}
+
+|FalSt_cols = 3
+|FalSt_rows = 2
+|FalSt = {{item|Fallen Star}}
+
+|Wood1_cols = 3
+|Wood1_rows = 2
+|Wood1 = {{item|Wood}} × 5
+
+|Wood2_cols = 3
+|Wood2_rows = 2
+|Wood2 = {{item|Wood}}
+
+|Gelll_cols = 3
+|Gelll_rows = 2
+|Gelll = {{item|Gel}}<br/>
+<div style="font-size: 0.75em">( [[Slimes]] )</div>
+
+|Torch_cols = 3
+|Torch_rows = 2
+|Torch = {{item|Torch}} × 3
+
+|AmbeS_cols = 3
+|AmbeS_rows = 2
+|AmbeS = {{item|Amber Staff|size=30px}}
+
+|Amber_cols = 3
+|Amber_rows = 2
+|Amber = {{item|Amber}} × 8<br/>
+( {{item|mode=image|Amber Crawler|size=28px}} )
+
+|SturF_cols = 3
+|SturF_rows = 2
+|SturF = {{item|Sturdy Fossil}} × 15<br/>
+( {{item|mode=image|Basilisk|size=36px}} )
+
+|MagiM_cols = 3
+|MagiM_rows = 2
+|MagiM = {{item|Magic Missile|size=22px}}<br/>
+( {{item|mode=image|Locked Gold Chest|size=24px}} {{item|mode=image|Golden Lock Box|size=24px}} {{item|mode=image|image=Map Icon Wizard.png|Wizard|size=20px}} )
+
+|Vilet_cols = 3
+|Vilet_rows = 2
+|Vilet = {{item|Vilethorn|size=24px}}<br/>
+( {{item|mode=image|Shadow Orb (placed)|size=20px}} )
+
+|RMatt_cols = 3
+|RMatt_rows = 2
+|RMatt = {{item|Rotten Matter}} × 15<br/>
+( {{item|mode=image|image=Hive Mind map.png|Hive Mind|size=24px}} )
+
+|CrimR_cols = 3
+|CrimR_rows = 2
+|CrimR = {{item|Crimson Rod|size=24px}}<br/>
+( {{item|mode=image|Crimson Heart (placed)|size=20px}} )
+
+|BlooS_cols = 3
+|BlooS_rows = 2
+|BlooS = {{item|Blood Sample}} × 15<br/>
+( {{item|mode=image|image=Perforator Hive map.png|The Perforators|size=20px}} )
+
+<!-- ••• Asteroid Staff ••• -->
+
+|AsteS_cols = 3
+|AsteS_rows = 2
+|AsteS = {{item|Asteroid Staff|size=20px}}
+
+|MeteS_cols = 3
+|MeteS_rows = 2
+|MeteS = {{item|Meteor Staff|size=36px}}
+
+|LumiB_cols = 3
+|LumiB_rows = 2
+|LumiB = {{item|Luminite Bar}} × 5
+
+|LumiO_cols = 3
+|LumiO_rows = 2
+|LumiO = {{item|Luminite}} × 20<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=20px}} )
+
+|MetB1_cols = 3
+|MetB1_rows = 2
+|MetB1 = {{item|Meteorite Bar}} × 20
+
+|MetO1_cols = 3
+|MetO1_rows = 2
+|MetO1 = {{item|Meteorite}} × 60
+
+|SoulL_cols = 3
+|SoulL_rows = 2
+|SoulL = {{item|Soul of Light}} × 10<br/>
+<div style="font-size: 0.75em">( [[Underground Hallow]] )</div>
+
+|PixiD_cols = 3
+|PixiD_rows = 2
+|PixiD = {{item|Pixie Dust}} × 10<br/>
+( {{item|mode=image|Pixie|size=28px}} )
+
+<!-- ••• Arch Amaryllis ••• -->
+
+|ArchA_cols = 3
+|ArchA_rows = 2
+|ArchA = {{item|Arch Amaryllis|size=36px}}
+
+|GleaM_cols = 3
+|GleaM_rows = 2
+|GleaM = {{item|Gleaming Magnolia|size=36px}}
+
+|NebuF_cols = 3
+|NebuF_rows = 2
+|NebuF = {{item|Nebula Fragment}} × 10<br/>
+( {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+|ManaR_cols = 3
+|ManaR_rows = 2
+|ManaR = {{item|Mana Rose|size=26px}}
+
+|HalB1_cols = 3
+|HalB1_rows = 2
+|HalB1 = {{item|Hallowed Bar}} × 5<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|The Twins||size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} {{item|mode=image|image=Map Icon The Destroyer.png|The Destroyer|size=20px}} {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+|HalO1_cols = 3
+|HalO1_rows = 2
+|HalO1 = {{item|Hallowed Ore}} × 20<br/>
+<span style="font-size:0.75em">( [[Underground Hallow]] )</span>
+
+|NatuG_cols = 3
+|NatuG_rows = 2
+|NatuG = {{item|Nature's Gift}}<br/>
+<span style="font-size:0.75em">( [[Underground Jungle]] / {{item|mode=image|image=Map Icon Dryad.png|Dryad|size=30px}} )</span>
+
+|JungR_cols = 3
+|JungR_rows = 2
+|JungR = {{item|Jungle Rose}}<br/>
+<span style="font-size:0.75em">( [[Underground Jungle]] / {{item|mode=image|image=Map Icon Dryad.png|Dryad|size=30px}} )</span>
+
+|Moong_cols = 3
+|Moong_rows = 2
+|Moong = {{item|Moonglow}} × 5<br/>
+<span style="font-size:0.75em">( [[Underground Jungle]] )</span>
+
+<!-- ••• Phantasmal Fury ••• -->
+
+|PhanF_cols = 3
+|PhanF_rows = 2
+|PhanF = {{item|Phantasmal Fury|size=36px}}
+
+|SpecS_cols = 3
+|SpecS_rows = 2
+|SpecS = {{item|Spectre Staff|size=36px}}<br/>
+( {{item|mode=image|Ragged Caster|size=36px}} )
+
+|RuinS_cols = 3
+|RuinS_rows = 2
+|RuinS = {{item|Ruinous Soul}} × 2<br/>
+( {{item|mode=image|image=Polterghast map.png|Polterghast|size=18px}} )
+
+|DarkP_cols = 3
+|DarkP_rows = 2
+|DarkP = {{item|Dark Plasma}}<br/>
+( {{item|mode=image|image=Ceaseless Void map.png|Ceaseless Void|size=20px}} )
+
+<!-- ••• Shadowbolt Staff ••• -->
+
+|ShadS_cols = 3
+|ShadS_rows = 2
+|ShadS = {{item|Shadowbolt Staff|size=36px}}
+
+|ShaBS_cols = 3
+|ShaBS_rows = 2
+|ShaBS = {{item|Shadowbeam Staff|size=36px}}<br/>
+( {{item|mode=image|Necromancer|size=36px}} )
+
+|ArmoS_cols = 3
+|ArmoS_rows = 2
+|ArmoS = {{item|Armored Shell}} × 3<br/>
+( {{item|mode=image|image=Storm Weaver map.png|Storm Weaver|size=20px}} )
+
+<!-- •• CRAFTING STATIONS •• -->
+
+|BOOKC_cols = 3
+|BOOKC_class = craft-station
+|BOOKC = {{item|mode=image|Bookcase}}
+
+| ÷_cols = 1
+| ÷_class = craft-station
+| ÷ = [[By Hand]]
+
+|Altar_cols = 3
+|Altar_class = craft-station
+|Altar = {{item|mode=image|Demon Altar}} / {{item|mode=image|Crimson Altar}}
+
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|HMFRG_cols = 3
+|HMFRG_class = craft-station
+|HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

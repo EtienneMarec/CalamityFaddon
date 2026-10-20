@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = 10% increased damage when below 75% life<br/>5% decreased movement speed when below 50% life<br/>Shade rains down when you are hit
+| rare = 3
+| sell = {{value|0|0|80}}
+| stack = 1
+| proj = Aura Rain.png
+| projcaption = Shade Rain
+}}
+|{{item drops infobox
+|[[The Hive Mind]]|1|100%
+}}
+}}
+
+The '''Rotten Brain''' is a [[Pre-Hardmode]] [[covering]] dropped by [[The Hive Mind]]. It will grant a 10% increase to all damage types when below 75% hp, decrease movement speed by 5% when below 50% health and makes shade rain down on you when you are hit. It is also sold by the [[Dryad]] after [[The Perforators]] are defeated.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Shade rain deals magic damage and benefits from magic bonuses. However, its damage cannot be increased through any means.
+*The shade rain has a base damage of 18.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

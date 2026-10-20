@@ -1,0 +1,50 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 5022
+| knockback = 12
+| use = 42
+| velocity = 2
+| critical = 22%
+| tooltip = In the end remained two numbers painted in the blood of the gods...<br/>Slowly throws out punches that increase in speed over time<br/>After 10 seconds, homing sacrilegious fists will be fired with each punch<br/>After 30 seconds, a dark wreathe is formed around the player that increases their damage by 22%<br/>Punching gradually causes the player to be fueled with malice, eventually causing an instant death<br/>Activating Rage while using this weapon will fire a powerful .22 hornet round at the cursor
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| proj = Supreme Cataclysm Fist.gif
+| projcaption = Sacrilegious Fist
+| element1 = Unholy
+| element2 = Dark
+| element3 = Poison
+| element4 = Smash
+}}
+
+'''Deicide''' is a craftable Godseeker Mode [[melee weapon]]. When used, the player will perform slow short distanced punches, with the rate at which punches are thrown increasing very quickly until roughly 20 punches are thrown a second after 8 seconds of continuous punching. After 10 seconds of punching, homing fists will start shooting outwards that deal 20% of the weapon's damage. After 30 seconds, a dark wreathe surrounds the player which boosts their melee damage by 30%. 
+
+Overtime, the player will become increasingly red, and eventually start fuming once 50 seconds have passed. Once a minute has passed, the player is instantly killed and bursts into harmless orange liquid. The player must stop using any weapons in order for the redness to go away. 
+
+If the [[Rage Meter]] is used while using the weapon, a [[22 Hornet Round|.22 Hornet Round]] is fired at the cursor with a damage modifier of 22x, ricocheting off of 21 enemies.
+
+{{Modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Despite not behaving like standard swords or spears, it can deal [[true melee]] damage, and will receive bonuses from gear that boosts true melee damage.
+
+== Trivia ==
+*The weapon's tooltip is a continuation of the [[Phosphorescent Gauntlet]]'s, with the resulting death of the gods leaving a morbid stain depicting the number 22.
+**This connection references the "[[22 Bullet Theory|22 bullet]]" theory, a conspiracy theory which claims that an arch-god fired a .22 hornet bullet which pierced through and killed 22 normal gods.
+*The liquid particle that the player bursts into is referred to in the files as "SoupDrop".
+*Deicide is the act of killing a god.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-melee = yes
+}}
+[[Category:True melee]]

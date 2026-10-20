@@ -1,0 +1,39 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = ranged
+| damage = 120
+| knockback = 1
+| rare = C3
+| sell = {{value|2}}
+| use = 3
+| stack = 1
+| velocity = 18
+| tooltip = 75% chance to not consume ammo<br/>Shot bullets clone themselves into 3 new ones every half a second
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Dark
+| element2 = Water
+}}
+
+
+The '''Technicate''' is a craftable post-[[Purgatory Arbiter, Umbrus|Umbrus]] [[gun]]. Any bullets fired create 2 new bullets besides themselves every 0.5 a second.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+{{-}}
+
+
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

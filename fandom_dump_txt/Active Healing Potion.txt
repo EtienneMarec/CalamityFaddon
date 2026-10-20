@@ -1,0 +1,29 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Potion
+| stack = 9999
+| hheal = 600
+| use = 17
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| rare = 15
+| sell = {{value|0|20}}
+}}
+
+
+The '''Active Healing Potion''' is a craftable post-[[Purgatory Arbiter, Umbrus]] [[potion]] that heals the player for 600 health, and inflicts the [[Potion Sickness]] [[debuff]] for 40 seconds upon use.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}
+[[Category:Healing items]]

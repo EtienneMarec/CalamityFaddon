@@ -1,0 +1,12 @@
+{| class="terraria lined sortable inner" style="max-width:600px;"
+|+ '''[[:Category:Article info requests|Article info requests]]'''
+! Article !! Requests
+{{#dpl:
+| category = Article info requests
+| include = {Info request¦Template:Article info requests/dpl}
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| mode = userformat
+| noresultsheader = {{!}}-\n{{!}} colspan=2 style="text-align:center; color:gray;" {{!}} None
+}}
+|}<noinclude>{{doc}}</noinclude>

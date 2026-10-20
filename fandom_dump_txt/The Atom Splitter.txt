@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 320
+| knockback = 7
+| use = 24
+| velocity = 24
+| tooltip = Throws a quantum-superimposed javelin that strikes from numerous timelines at once<br/>Stealth strikes perform far more simultaneous strikes
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| element1 = Magic 
+| element2 = Slash
+| element3 = Stab
+| element4 = Machine
+}}
+|{{item drops infobox
+| [[The Fabricational Quartet]] (Artemis and Apollo) | 1 | {{dv|50%|66.67%}}
+}}
+}}
+
+'''The Atom Splitter''' is a Godseeker Mode [[javelin]] that drops from the [[The Fabricational Quartet]] after [[XS-01 Artemis]] and [[XS-03 Apollo]] have been defeated last. It throws out a gravity-defying javelin that travels through tiles and emits light. Upon contact with an enemy, 15 rainbow javelins randomly appear from all sides of the target, each dealing 70% damage and pierces twice but have a very short lifespan.
+
+Performing a [[stealth strike]] with The Atom Splitter will cause the resulting javelin to spawn 100 rainbow javelins with 14.4% damage each.
+
+{{Modifier|rogue}}
+
+== Trivia ==
+*The item's name refers to how, in real life, the act of splitting an atom has the potential to release excessive amounts of heat, or even create large explosions. 
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Javelins]]

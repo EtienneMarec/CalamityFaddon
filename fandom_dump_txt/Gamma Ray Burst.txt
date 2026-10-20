@@ -1,0 +1,44 @@
+{{addon|Deimos, the Starborn Princess}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 75
+| knockback = 7.5
+| debuff = Embers of Duality
+| debufftip = Celestial voids are manifesting around you; defense and damage reduction reduced
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| element1 = Slash
+| element2 = Magic
+| element3 = Holy
+| rare = 13
+| attduration = {{infinity}}
+| reach = 35
+| sell = {{gc|24}}
+| stack = 1
+| use = 20
+| auto = yes
+| hardmode = yes
+| postml = yes
+| proj = Gamma Ray Burst Yoyo.png
+| projcaption = Gamma Ray Burst
+| sound = NPC_Hit_53.wav
+| soundtext = Enemy Hit
+}}
+|{{item drops infobox
+| {{fantag|Deimos, the Starborn Princess}} [[The Starborn Moth]]|1|{{dv|33.33%|50%}}
+}}
+}}
+
+The '''Gamma Ray Burst''' is a Godseeker Mode [[yoyo]] dropped by [[The Starborn Moth]]. The Gamma Ray Burst ignores NPC immunity frames, allowing it to rapidly bounce off of enemies and inflict much more damage than its damage stat would indicate. 
+
+{{modifier|meleealtlate}}
+
+== Recipe ==
+{{recipes|result={{PAGENAME}}}}
+
+{{-}}
+{{Fae}}
+{{DeimosMod}}
+[[Category:Yoyos]]

@@ -1,0 +1,47 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 30
+| use = 18
+| knockback = 3.50
+| velocity = 12
+| tooltip = Casts a swarm of homing spears
+| stack = 1
+| mana = 15
+| auto = yes
+| rare = 7
+| debuff = Crush Depth
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Aquatic Pressure
+| sell = {{value|0|12}}
+| hardmode = yes
+| proj = Undine Spear.gif
+| projcaption = Undine Spear
+| element1 = Holy
+| element2 = Water
+| element3 = Dark
+| element4 = Stab
+}}
+'''Undine's Retribution''' is a craftable [[Hardmode]] [[wand]]. It summons several aqua javelins from the ground that home in on enemies and inflict the [[Crush Depth]] [[debuff]]. The spears can also go through blocks, and will disappear after a moderate time if no enemy is hit. If no enemies are nearby, the spears will instead home in on the player.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon is a reference to [[wikipedia:Undine|Undines]], which are female spirits or nymphs that inhabit water.
+**The sprites of the weapon and its projectiles are also references to the character [http://undertale.fandom.com/wiki/Undyne Undyne] from the game ''[[wikipedia:Undertale|Undertale]]''.
+{{-}}
+{{Abyssal Gear}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

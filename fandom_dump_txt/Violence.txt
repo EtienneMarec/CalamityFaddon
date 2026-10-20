@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 404
+| knockback = 9
+| use = 25
+| velocity = 15
+| tooltip = Releases a blazing fork which stays near the mouse and shreds enemies, racking up Violence Points that can be used for strong attacks
+| rare = 15
+| sell = {{value|0|30}}
+| element1 = Fire
+| element2 = Dark
+| element3 = Unholy
+| element4 = Smash
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Supreme Calamitas]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+
+'''Violence''' is a Godseeker Mode [[melee weapon]] that drops from [[Supreme Calamitas]]. The player throws out a rapidly spinning spear which follows the cursor and rapidly deals contact damage. The spear is followed by an orange-red trail as it travels. Attacking enemies for sustained periods of time will lead to the player gaining Violence Points. When the player reaches the limit of 2,500 Violence Points, their next attack will deal 425x more damage and have +340% critical hit chance.
+
+{{Modifier|meleealt}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+
+
+<br />{{Master Template Weapons
+|show-main = yes
+|show-melee = yes
+}}

@@ -1,0 +1,2176 @@
+== 1.4.2.103 ==
+
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Furniture Fixes
+| release = 7/30/2019
+}}
+
+The '''1.4.2.103''' update...
+
+== Additions ==
+=== [[Buffs]] and [[Debuffs]] ===
+*Added [[Astral Infection (debuff)]], [[Shadowflame]], and [[Time Distortion]].
+*Added [[Blood Bound]], [[Resurrection Butterfly (buff)]], and [[Third Sage (buff)]].
+
+=== [[Items]] ===
+*Added rogue variants for [[Galaxy Smasher]], [[Nanoblack Reaper]], and [[Stellar Contempt]]
+*Added [[Angelic Shotgun]], [[Bloody Vein]], [[Corpus Avertor]], [[Deep Sea Dumbbell]], [[Devil's Sunrise]], [[Dodu's Handcannon]], [[Karasawa]], [[Kelvin Catalyst]], [[The Last Mourning]], [[Mad Alchemist's Cocktail Glove]], [[Nadir]], [[Resurrection Butterfly]], [[Roxcalibur]], [[Time Bolt]], and [[Yateveo Bloom]].
+*Added [[Hermit's Box of One Hundred Medicines]].
+
+=== [[Enemies]] ===
+*Added [[Fearless Goldfish Warrior]].
+
+=== Worldgen ===
+*Added Roxcalibur background object.
+
+== Changes ==
+
+=== Items ===
+*Replaced most instances of [[God Slayer Inferno]] with Astral Infection:
+**[[Hide of Astrum Deus]] now provides immunity to and inflicts Astral Infection onto enemies instead of God Slayer Inferno.
+**[[Astral Arcanum]] and [[Astral Bulwark]] now provide immunity to Astral Infection instead of God Slayer Inferno.
+*Buffed [[Abyssal Tome]]'s damage from 40 to 42.
+*Nerfed [[Aero Stone]]'s jump speed boost from 200% to 100% without auto jump, and 40% to 25% with auto jump.
+*Changed [[Anti-materiel Rifle]]'s use sound from PlasmaBlast to LargeWeaponFire.
+*Decreased the amounts of [[Cosmilite Bar]]s, [[Darksun Fragment]]s, [[Endothermic Energy|Endothermic Energies]], [[Nightmare Fuel]]s, and [[Phantoplasm]] needed to craft [[Apotheosis]] from 77 to 33 each, and decreased the amount of [[Staff of the Mechworm|Staffs of the Mechworm]] needed from 3 to 2.
+*Buffed [[Asteroid Staff]]'s damage from 130 to 180.
+*[[Astral Blade]], [[Astral Hamaxe]], [[Astral Scythe]], [[Astral Pickaxe]], [[Astral Pike]], and [[Titan Arm]] now inflict Astral Infection.
+*Buffed [[Augur of the Elements]]' damage from 74 to 150, and decreased its reuse delay from 10 to 5.
+*Buffed [[Cosmic Kunai]]'s damage from 75 to 150, but nerfed its use animation from 5 to 10.
+*Items previously made purely with [[Cosmilite Bar]]s at [[Draedon's Forge]] now require varying amounts of seasonal energy at an [[Ancient Manipulator]]:
+**[[Vanquisher Arrow]]s now require 1 seasonal energy.
+**[[Essence Flayer]] and [[Executioner's Blade]] now require 5 seasonal energy each.
+**[[Cleansing Blaze]] and [[Soul Piercer]] now require 6 seasonal energy.
+**[[The Enforcer]] and [[Stream Gouge]] now require 7 seasonal energy.
+*Buffed [[Crystyl Crusher]]'s damage from 255 to 500]] and gave it a 25% chance to land a critical strike.
+*Renamed Daedalus Circlet to [[Daedalus Mask]].
+*Buffed [[Devastation]]'s damage from 114 to 115.
+*Decreased the amounts of [[Auric Ore]], Darksun Fragments, Endothermic Energies, and Nightmare Fuel needed to craft [[Drataliornus]] from 80 to 30 each, decreased the amount of [[Effulgent Feather]]s needed from 160 to 60, and decreased the amount of [[Yharim's Gift]]s needed from 8 to 3.
+*Buffed [[Eldritch Tome]]'s damage from 32 to 36, and its critical strike chance from 3 to 5.
+*[[Elysian Aegis]] and [[Elysian Wings]] now use the {{rare|12}} rarity instead of {{rare|expert}}.
+*Buffed [[Empyrean Knives]]' damage from 650 to 1100.
+*[[Ethereal Talisman]]'s [[Mana Flower]] effect can now be toggled with visibility.
+*[[Exoblade]] no longer uses Baleful Harvester in its recipe.
+*Increased [[Face Melter]]'s use animation from 5 to 10, and increased its mana cost from 5 to 10.
+*Buffed [[Grand Gelatin]] and [[Vital Jelly]]'s jump speed boosts from 100% to 200%, but they are now 75% less affective if the player has auto jump.
+*Buffed [[Greatsword of Blah]]'s damage from 280 to 480.
+*Nerfed [[Heart of the Elements]]' jump speed boost from 200% to 100% (220% to 110% when the elementals are hidden).
+*Nerfed [[Infernal Blood]], [[Mushroom Plasma Root]], and [[Red Lightning Container]]'s Rage Mode damage boosts in Death Mode from 60% to 50% each.
+*Buffed [[Lucrecia]]'s damage from 75 to 90.
+*Buffed [[Murasama]]'s shot speed from 15 to 24.
+*Nerfed [[Neptune's Bounty]]'s damage from 300 to 250.
+*Nerfed [[Obsidian armor]]'s rogue damage and critical strike chance boosts from 10% to 5%, its defense from 3 to 2, and its lava invulnerability from 5 seconds to 3.
+*Buffed [[P90]]'s use animation from 2 to 1 and it now fires 2 bullets per use.
+*Increased [[Photoviscerator]]'s use animation from 5 to 10, and it now fires 2 streams of fire per use instead of 1.
+*[[Pumpkin armor]] no longer boosts rogue damage. 
+*[[Revengeance]]'s tooltip no longer states that Rage and Adrenaline are new stats. <!---"Which is a new stat"--->
+*Nerfed [[Rouge Slash]]'s damage from 90 to 70.
+*Buffed [[Scourge of the Cosmos]]' damage from 1500 to 2200.
+*Decreased [[SDFMG]]'s use animation from 4 to 2.
+*Increased [[Shadethrower]]'s chance to not consume [[Gel]] from 33% to 66%.
+*Buffed [[Shadowbolt Staff]]'s damage from 170 to 200.
+*Decresed [[Soma Prime]]'s use animation from 3 to 2, and it now fires 2 bullets per use.
+*[[Spear of Paleolith]] is now crafted at any Hardmode anvil instead of any pre-hardmode one.
+*Stellar Contempt now requires an Ancient Manipulator to craft.
+*Buffed [[Terror Blade]]'s damage from 250 to 350.
+*Buffed [[Ultra Liquidator]]'s damage from 96 to 145.
+*Buffed [[Venusian Trident]]'s damage from 225 to 450.
+*Buffed [[Vesuvius]]' damage from 70 to 75.
+*[[Vivid Clarity]] now uses [[Helium Flash]] in its recipe instead of Venusian Trident.
+
+=== Other ===
+*Changed [[Charred Ore]]'s light color and changed its map color from ({{color|#800000 ●|#800000}}) to ({{color|#11101A ●|#11101A}}).
+*The [[Drunk Princess]] can now mention "Christopher Pham", "DemoN K!ng", "Malik Ciaramella", "Ryan Baker-Ortiz", "Aleksanders Denisovs", "TheSilverGhost", "Lucazii", "Shay", "Prism", "BobIsNotMyRealName", "Guwahavel", "Azura", "Joshua Miranda", "Doveda", "William Chang", "Arche", "DevilSunrise", "Yanmei", "Chaos", "Ryan Tucker", "Fish Repairs", "Melvin Brouwers", "Vroomy Has -3,000 IQ", "The Goliath", and "DaPyRo".
+*Rogue damage is now internally counted as throwing damage instead of ranged.
+
+=== Resprites ===
+*Resprited Rage and Adrenaline meters.
+*Resprited [[The Evolution]], [[Fabled Tortoise Shell]], [[Giant Tortoise Shell]], Hide of Astrum Deus, [[Samurai Badge]], and [[Void of Extinction]].
+*Resprited [[Amidias' Trident]], [[Arbalest]], [[Conference Call]], [[Corroslime Staff]], [[Hell Burst]], [[Icicle Staff]], [[Impaler]], [[Lead Wizard]], [[Lunarian Bow]], [[Marnite Rifle Spear]], [[Marnite Spear]], [[Pearl God]], [[Plasma Rifle]], [[The Reaper]], Stellar Contempt, [[Swordsplosion]], [[Thunderstorm]], [[Vesuvius]], [[The Wand]], and [[Warblade]]. 
+*Resprited [[Marnite Obliterator]].
+*Resprited [[Charred Ore]].
+*Resprited The Leviathan's meteor vomit, and Vesuvius' meteors.
+
+== Fixes ==
+*Fixed [[Heart of Darkness]], [[Laudanum]], and [[Stress Pills]] dropping much more often than intended.
+*Fixed [[Soul of Cryogen]] being unobtainable. <!---"SoulfofCryogen"--->
+*Fixed Vesuvius always dropping from [[Betsy]].
+
+{{-}}
+<!---{{Versions
+| show-main = yes
+| show-mod = yes
+}}--->
+
+
+
+
+
+1.4.3.002	March 8, 2020		
+1.4.3.001	February 6, 2020		
+1.4.2.107	November 5, 2019		
+1.4.2.106	October 26, 2019		
+1.4.2.105	September 25, 2019		
+1.4.2.104	August 21, 2019		
+1.4.2.103	July 30, 2019		
+1.4.2.102	July 7, 2019		
+1.4.2.101	May 26, 2019		
+1.4.2.004	April 1, 2019
+
+
+= DoU segments =
+{{collapse top}}
+<!---Note: Most is just copy pasted DoG phase 2 at the moment. Only health is accurate--->
+==== Segments ====
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = The Devourer of Universes Head
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = The Devourer of Universes AI
+| image = The Devourer of Gods Final Phase Head.png
+| life = {{dv|1,650,000|2,640,000|3,000,000|4,896,000|break=yes}}
+| knockback = 100
+| damage = Instant Kill (Contact)<br/>{{dv|160|276|304|320}} (Laser Wall)<br/>{{dv|180|360|332|348}} (God Slayer Fireball)
+| defense = 50
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 5 seconds (Contact)<br/>3 seconds (Laser Wall)<br/>{{revengeance|5 seconds}} (God Slayer Fireball)
+| debufftip = Your flesh is burning off
+| debuff2 = Frostburn
+| debuffchance2 = 100%
+| duration2 = 5 seconds (Contact)<br/>{{revengeance|5 seconds}} (God Slayer Fireball)
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuff3 = Whispering Death
+| debuffchance3 = 100%
+| duration3 = 7 seconds
+| debufftip3 = Death approaches; defense, attack power, and life regen reduced
+| image2 = Devourer of Gods final head map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| boxwidth = 25em
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| name = The Devourer of Universes Body
+| ai = The Devourer of Universes AI
+| image = The Devourer of Gods Final Phase Body.png
+| life = {{dv|1,650,000|2,640,000|3,000,000|4,896,000|break=yes}}
+| knockback = 100
+| damage = {{dv|220|374|425|442}} (Contact)
+| defense = 70
+| dr = {{dv|95.5%|||97%}}
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 4 seconds (Contact)
+| debufftip = Your flesh is burning off
+| debuff2 = Frostburn
+| debuffchance2 = 100%
+| duration2 = 4 seconds (Contact)
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuff3 = Whispering Death
+| debuffchance3 = 100%
+| duration3 = 5 seconds
+| debufftip3 = Death approaches; defense, attack power, and life regen reduced
+| image2 = Devourer of Gods final body map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| boxwidth = 25em
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| name = The Devourer of Universes Tail
+| ai = The Devourer of Universes AI
+| image = The Devourer of Gods Final Phase Tail.png
+| life = {{dv|1,650,000|2,640,000|3,000,000|4,896,000|break=yes}}
+| knockback = 100
+| damage = {{dv|180|306|340|357}} (Contact)
+| defense = 50
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 3 seconds (Contact)
+| debufftip = Your flesh is burning off
+| debuff2 = Frostburn
+| debuffchance2 = 100%
+| duration2 = 3 seconds (Contact)
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuff3 = Whispering Death
+| debuffchance3 = 100%
+| duration3 = 4 seconds
+| debufftip3 = Death approaches; defense, attack power, and life regen reduced
+| image2 = Devourer of Gods final tail map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| boxwidth = 25em
+}}
+}}
+{{collapse bottom}}
+{{collapse top}}
+= Todo Projectiles =
+*[[Temporal Umbrella]] - [[User:Lilsigtum/Sandbox#Todo Projectile Colors|projectiles]]
+
+= Todo Projectile Colors =
+
+*Axe 0, 255, 111
+*Bat 80, 200, 120
+*[[File:Magic Bird.gif]] 255, 239, 0
+*Hammer 255, 56, 0
+*Rifle 148, 0, 211
+*Umbrella 75, 255, 255
+*[[File:Plague Missile.gif]] 50, 250, 50
+{{collapse bottom}}
+
+= Projectiles =
+WIP list of every projectile.
+{{collapse top}}
+{{item/options|mode=table}}
+{| class="terraria lined"
+! Name 
+! Image 
+! Behavior<!---I'm not doing this---> 
+! Source
+|-
+| Abyssal Mirror Shard
+| [[File:Apoctolith Shard.png]]
+| Rogue
+| [[Abyssal Mirror]]
+|-
+| Abyss Ball 
+| [[File:Abyss Ball.png]]
+| Magic
+| [[Abyssal Tome]]
+|-
+| Abyss Ball Volley (Crimulan)
+| [[File:Abyss Ball Crimson.png]]
+| Hostile
+| [[Crimulan Slime God]] {{-}} [[Slime God Core]]
+|-
+| Abyss Ball Volley (Ebonian)
+| [[File:Abyss Ball.png]]
+| Hostile
+| [[Ebonian Slime God]] {{-}} [[Slime God Core]]
+|-
+| Abyss Mine (Crimulan)
+| [[File:Abyss Ball Crimson.png]]
+| Hostile
+| [[Crimulan Slime God]] {{-}} [[Slime God Core]]
+|-
+| Abyss Mine (Ebonian)
+| [[File:Abyss Ball.png]]
+| Hostile
+| [[Ebonian Slime God]] {{-}} [[Slime God Core]]
+|-
+| Acceleration Bullet
+| [[File:Acceleration Bullet.png]]
+| Ranged
+| [[Acceleration Round]]
+|-
+| Elemental Disk (main)
+| [[File:Elemental Disk.png]]
+| Varies
+| [[Elemental Disk]]
+|-
+| Elemental Disk (split)
+| [[File:Elemental Disk.png]]
+| Varies
+| [[Elemental Disk]]
+|-
+| Acid Droplet (Acidic Rain Barrel)
+| [[File:Acid Droplet.png]]
+| Rogue
+| [[Acidic Rain Barrel]]
+|-
+| Acid Bullet
+| [[File:Acid Bullet.png]]
+| Ranged
+| [[Acid Round]]
+|-
+| Acid Droplet (Cragmaw Mire)
+| [[File:Acid Droplet.png]]
+| Hostile
+| [[Cragmaw Mire]]
+|-
+| Acid Gun Stream
+| {{na}}
+| Ranged
+| [[Acid Gun]]
+|-
+| Acidic Reed
+| [[File:Dirty Reed.png]]
+| 
+| [[Belching Saxophone]]
+|-
+| Acidic Sax Bubble
+| [[File:Sulphuric Bubble (Belching Saxophone).gif]]
+| 
+| [[Belching Saxophone]]
+|-
+| Acidic Sax Mist
+| [[File:Sulphuric Mist (Belching Saxophone).gif]]
+| 
+| [[Belching Saxophone]]
+|-
+| Acid Shrapnel
+| [[File:Barrel Shrapnel.png]]
+| 
+| [[Acidic Rain Barrel]]
+|-
+| Adamantite Throwing Axe (thrown)
+| [[File:Adamantite Throwing Axe.png]]
+| 
+| [[Adamantite Throwing Axe]]
+|-
+| Aegis Bolt
+| [[File:Aegis Bolt.png]]
+| Melee
+| [[Aegis Blade]]
+|-
+| Aegis Blast
+| {{na}}
+| 
+| [[Aegis Blade]]
+|-
+| Aegis Blast (small)
+| {{na}}
+| 
+| [[Aegis Blade]]
+|-
+| Aegis Flame
+| {{na}}
+| 
+| [[Aegis Blade]]
+|-
+| Aether Beam
+| {{na}}
+| 
+| [[Aether's Whisper]]
+|-
+| Aftershock Rock
+| [[File:Aftershock Rock.png]]
+| Melee
+| [[Aftershock]]
+|-
+| Air Spinner Yoyo
+| [[File:Air Spinner Yoyo.png]]
+| Melee
+| [[Air Spinner]]
+|-
+| Akato
+| [[File:Akato.png]]
+| 
+| [[Forgotten Dragon Egg]]
+|-
+| Alpha Seeker
+| {{na}}
+| 
+| [[Alpha Virus]]
+|-
+| Alpha Virus Aura
+| [[File:Alpha Virus Aura.png|160px]]
+| Rogue
+| [[Alpha Virus]]
+|-
+| Alpha Virus (thrown)
+| [[File:Alpha Virus.png]]
+| 
+| [[Alpha Virus]]
+|-
+| Amidias' Trident
+| [[File:Amidias' Trident Spear.png]]
+| Melee
+| [[Amidias' Trident]]
+|-
+| Amidias' Whirlpool
+| [[File:Amidias' Whirlpool.png]]
+| Melee
+| [[Amidias' Trident]]
+|-
+| Amplifier
+| [[File:Amplifier.png]]
+| Magic
+| [[Face Melter]]
+|-
+| AMR Bullet
+| [[File:AMR Bullet.png|1px]]
+| Ranged
+| [[Anti-materiel Rifle]] {{-}} [[Skullmasher]]
+|-
+| AMR Bullet (secondary)
+| [[File:AMR Bullet.png|1px]]
+| Ranged
+| [[Anti-materiel Rifle]] {{-}} [[Skullmasher]]
+|-
+| Ancient Blast 
+| {{na}}
+| 
+| [[Primordial Ancient]]
+|-
+| Ancient Blast (secondary)
+| {{na}}
+| 
+| [[Primordial Ancient]]
+|-
+| Andromeda Deathray
+| [[File:Andromeda Deathray.png]]
+| 
+| [[Flamsteed Ring]]
+|-
+| Regislash
+| [[File:Regisword.gif|200px]]
+| 
+| [[Flamsteed Ring]]
+|-
+| Angelic Beam
+| {{na}}
+| 
+| [[Angelic Shotgun]]
+|-
+| Shard of Antumbra (thrown)
+| [[File:Shard of Antumbra.png]]
+| 
+| [[Shard of Antumbra]]
+|-
+| Aorta Yoyo
+| [[File:Aorta Yoyo.png]]
+| Melee
+| [[Aorta]]
+|-
+| Apex Shark
+| [[File:Ancient Mineral Shark.png]]
+| 
+| [[Forgotten Apex Wand]]
+|-
+| Apoctolith (thrown)
+| [[File:Apoctolith.png]]
+| 
+| [[Apoctolith]]
+|-
+| Apoctolith Shard
+| [[File:Apoctolith Shard.png]]
+| Rogue
+| [[Apoctolith]]
+|-
+| Apotheosis Jaw
+| Part of [[File:Apotheosis Head.png|100px]]
+| 
+| [[Apotheosis]]
+|-
+| Apotheosis Head
+| Part of [[File:Apotheosis Head.png|100px]]
+| 
+| [[Apotheosis]]
+|-
+| Nucleogenesis Spark
+| [[File:Nucleogenesis Spark.gif]]
+| 
+| [[Nucleogenesis]]
+|-
+| Aqua Blast
+| Part of [[File:Aqua Blasts.gif]]
+| Ranged
+| [[Leviatitan]]
+|-
+| Aqua Blast (toxic)
+| Part of [[File:Aqua Blasts.gif]]
+| Ranged
+| [[Leviatitan]]
+|-
+| Aquamarine Bolt
+| [[File:Aquamarine Bolt.png]]
+| Magic
+| [[Aquamarine Staff]]
+|-
+| Aquashard
+| [[File:Aquashard.png]]
+| 
+| [[Aquashard Shotgun]]
+|-
+| Aquashard (split)
+| [[File:Aquashard.png]]
+| 
+| [[Aquashard Shotgun]] {{-}} [[Prismalline]] {{-}} [[Sparkling Empress]]
+|-
+| Riptide Stream
+| {{na}}
+| 
+| [[Riptide]]
+|-
+| Aquatic Star
+| [[File:Aquatic Star.png]]
+| 
+| [[Deepsea Staff]]
+|-
+| Archerfish Stream
+| {{na}}
+| 
+| [[Archerfish]]
+|-
+| Arctic Arrow (projectile)
+| [[File:Arctic Arrow.png]]
+| 
+| [[Arctic Arrow]]
+|-
+| Arctic Bear Paw (projectile)
+| [[File:Arctic Bear Paw (projectile).png]]
+| 
+| [[Arctic Bear Paw]]
+|-
+| Artifact of Resilience
+| [[File:Artifact of Resilience.png]]
+| 
+| [[Relic of Resilience]]
+|-
+| Artifact of Resilience Shards
+| [[File:Artifact of Resilience Shards.png]]
+| 
+| [[Relic of Resilience]]
+|-
+| Ashen Debris
+| [[File:Ashen Debris.png]]
+| 
+| [[Ashen Stalactite]]
+|-
+| Ashen Stalactite (thrown)
+| [[File:Ashen Stalactite.png]]
+| 
+| [[Ashen Stalactite]]
+|-
+| Ashen Stalagmite
+| [[File:Ashen Stalagmite.png]]
+| 
+| [[Ashen Stalactite]]
+|-
+| Asteroid
+| [[File:Asteroid.png]]
+| 
+| [[Asteroid Staff]]
+|-
+| Molten Asteroid
+| [[File:Asteroid Molten.png|150px]]
+| 
+| [[Vesuvius]]
+|-
+| Astrageldon Laser
+| [[File:Astrageldon Laser.gif]]
+| 
+| [[Abandoned Slime Staff]]
+|-
+| Astral Jelly
+| [[File:Astral Jelly (minion).png]]
+| 
+| [[Abandoned Slime Staff]]
+|-
+| Astralachnea Fang
+| [[File:Astralachnea Fang.png]]
+| 
+| [[Astralachnea Staff]]
+|-
+| Astral Crystal (Stellar Cannon)
+| [[File:Astral Crystal.gif]]
+| 
+| [[Stellar Cannon]]
+|-
+| Astral Crystal (Astral Staff)
+| [[File:Astral Crystal.gif]]
+| 
+| [[Astral Staff]]
+|-
+| Astral Explosion (Astral Staff)
+| {{na}}
+| 
+| [[Astral Staff]]
+|-
+| Astral Sand Ball (hostile)
+| [[File:Astral Sand Ball.png]]
+| 
+| [[Astral Sand]]
+|-
+| Astral Crystal (hostile)
+| [[File:Astral Crystal.gif]]
+| 
+| [[Astrum Aureus]]
+|-
+| Astral Laser 
+| Image 
+| 
+| [[Astrum Aureus]]
+|-
+| Astral Pike
+| [[File:Astral Pike Spear.png]]
+| 
+| [[Astral Pike]]
+|-
+| Astral Probe Round
+| [[File:Astral Round.png]]
+| 
+| [[Godspawn Helix Staff]]
+|-
+| Astral Probe
+| [[File:Astral Probe.png]]
+| 
+| [[Godspawn Helix Staff]]
+|-
+| Astral Round
+| [[File:Astral Round.png]]
+| 
+| [[Astral Blaster]]
+|-
+| Astral Sand Ball (friendly)
+| [[File:Astral Sand Ball.png]]
+| 
+| [[Sandgun]] {{-}} [[Sandstorm (weapon)]]
+|-
+| Astral Scythe Ring
+| [[File:Astral Scythe Ring.gif]]
+| 
+| [[Astral Scythe]]
+|-
+| Astral Shot
+| Image
+| 
+| [[Astrum Deus]]
+|-
+| Astral Spray
+| Image
+| 
+| [[Astral Solution]]
+|-
+| Astral Star
+| [[File:Astral Star.png]]
+| 
+| [[Astral Arcanum]] {{-}} [[Astral Bulwark]] {{-}} [[Astral Pike]] {{-}} [[Galaxia]] {{-}} [[Hide of Astrum Deus]] {{-}} [[Star Cannon EX]] {{-}} [[Starmada]] {{-}} [[Radiant Star]]
+|-
+| Astral Star (magic)
+| [[File:Astral Star.png]]
+| 
+| [[Alula Australis]] {{-}} [[Astral armor]] <!---Might be the normal one, idk--->{{-}} [[Starfall]]
+|-
+| Astreal Arrow
+| [[File:Astreal Arrow.png]]
+| 
+| [[Astreal Defeat]]
+|-
+| Astreal Flame
+| [[File:Astreal Flame.gif]]
+| 
+| [[Astreal Defeat]]
+|-
+| Astrophage
+| [[File:Astrophage.png]]
+| 
+| [[Astrophage]]
+|-
+| Ataraxia Homing
+| [[File:Ataraxia Homing.gif]]
+| 
+| [[Ataraxia]]
+|-
+| Ataraxia Main
+| [[File:Ataraxia Main.gif]]
+| 
+| [[Ataraxia]]
+|-
+| Ataraxia Side
+| [[File:Ataraxia Side.gif]]
+| 
+| [[Ataraxia]]
+|-
+| Ataraxia Split
+| [[File:Ataraxia Split.png]]
+| 
+| [[Ataraxia]]
+|-
+| Hydrothermic Healing Orb
+| {{na}}
+| 
+| [[Hydrothermic armor]]
+|-
+| Hydrothermic Orb
+| {{na}}
+| 
+| [[Hydrothermic armor]]
+|-
+| Atlantis Spear
+| [[File:Atlantis Spear.png]]
+| 
+| [[Atlantis]]
+|-
+| Aurora Australis
+| {{na}}| 
+|
+| [[Alula Australis]]
+|-
+| Auroradical Star
+| [[File:Auroradical Star.png]]
+| 
+| [[Auroradical Throw]]
+|-
+| Aurora Fire
+| {{na}}
+| 
+| [[Aurora Blazer]]
+|-
+| Azathoth Yoyo
+| [[File:Azathoth Yoyo.png]]
+| 
+| [[Azathoth]]
+|-
+| Baby Blood Crawler
+| [[File:Baby Blood Crawler.png]]
+| 
+| [[Scab Ripper]]
+|-
+| Baby Ghost Bell
+| [[File:Baby Ghost Bell (Pet).png]]
+| 
+| [[Rusted Jingle Bell]]
+|-
+| Mini Plaguebringer
+| [[File:Plaguebringer Bab.png]]
+| 
+| [[Infected Remote]]
+|-
+| Pumpkin Skull
+| [[File:Pumpkin Skull.png]]
+| 
+| [[Baleful Harvester]]
+|-
+| Ballista Great Arrow
+| [[File:Ballista Great Arrow.png]]
+| 
+| [[The Ballista]]
+|-
+| Ballistic Poison Bomb (thrown)
+| [[File:Ballistic Poison Bomb (projectile).png]]
+| 
+| [[Ballistic Poison Bomb]]
+|-
+| Ballistic Poison Spike
+| [[File:Supernova Spike.png]]
+| 
+| [[Ballistic Poison Bomb]]
+|-
+| Ballistic Poison Cloud
+| [[File:Ballistic Poison Cloud.gif]]
+| 
+| [[Ballistic Poison Bomb]]
+|-
+| Ball O' Fugu Flail
+| [[File:Ball O' Fugu (projectile).png]]
+| 
+| [[Ball O' Fugu]]
+|-
+| Banshee Hook Spear
+| [[File:Banshee Hook.png]]
+| 
+| [[Banshee Hook]]
+|-
+| Banshee Scythe
+| [[File:Banshee Scythe.png]]
+| 
+| [[Banshee Hook]]
+|-
+| Barrel Shrapnel
+| [[File:Barrel Shrapnel.png]]
+| 
+| [[Blast Barrel]] {{-}} [[Latcher Mine]]
+|-
+| Beaming Flower
+| [[File:Beaming Flower.png]]
+| 
+| [[Arch Amaryllis]]
+|-
+| Beaming Petal
+| [[File:Beaming Petal.png]]
+| 
+| [[Arch Amaryllis]]
+|-
+| Beaming Thorned Flower
+| [[File:Beaming Thorned Flower.png]]
+| 
+| [[Thorn Blossom]]
+|-
+| Beaming Thorned Petal
+| [[File:Beaming Thorned Petal.png]]
+| 
+| [[Thorn Blossom]]
+|-
+| Bear
+| [[File:Bear.png]]
+| 
+| [[Bear's Eye]] {{-}} [[Primrose Keepsake]]
+|-
+| Beast Scythe
+| [[File:Beast Scythe.png]]
+| 
+| [[Recitation of the Beast]]
+|-
+| Bee RPG
+| [[File:Bee RPG.png]]
+| 
+| [[The Hive]]
+|-
+| Belching Coral Spike
+| image
+| 
+| [[Belching Coral]]
+|-
+| Belladonna Petal
+| [[File:Belladonna Petal.png]]
+| 
+| [[Belladonna Spirit Staff]]
+|-
+| Belladonna Spirit
+| [[File:Belladonna Spirit.png]]
+| 
+| [[Belladonna Spirit Staff]]
+|-
+| Yuu
+| [[File:Yuu.png]]
+| 
+| [[Chromatic Orb]]
+|-
+| Bouncing Betty Explosion
+| {{na}}
+| 
+| [[Bouncing Betty]]
+|-
+| Genisis Ray
+| {{na}}
+| 
+| [[Alpha Ray]] {{-}} [[Genisis]]
+|-
+| Genisis Ray (secondary)
+| {{na}}
+| 
+| [[Alpha Ray]] {{-}} [[Genisis]]
+|-
+| Big Coral
+| [[File:Big Coral.png]]
+| 
+| [[Coral Cannon]]
+|-
+| Infernado Flare
+| [[File:Flare.gif]]
+| 
+| [[Jungle Dragon, Yharon]]
+|-
+| Infernado Flare 2
+| [[File:Flare.gif]]
+| 
+| [[Jungle Dragon, Yharon]]
+|-
+| Big Nuke
+| [[File:Big Nuke.gif]]
+| 
+| [[Scorpio]]
+|-
+| Bile Explosion
+| {{na}}
+| 
+| [[Contaminated Bile]] {{-}} [[Skyfin Bombers]]
+|-
+| Biome Beam
+| [[File:Biome Blade (projectile).png]]
+| 
+| [[Biome Blade]]
+|-
+| Dragonfolly Pillar
+| Image
+| 
+| [[The Dragonfolly]]
+|-
+| Dragonfolly Pillar Flare
+| {{na}}
+| 
+| [[The Dragonfolly]]
+|-
+| Black Anurian Bubble
+| [[File:Black Anurian Bubble.png]]
+| 
+| [[Black Anurian]]
+|-
+| Blank Plankton
+| [[File:Black Plankton.gif]]
+| 
+| [[Black Anurian]]
+|-
+| Blank Hawk Bullet
+| [[File:Black Hawk Bullet.png]]
+| 
+| [[Black Hawk Remote]]
+|-
+| Blank Hawk
+| [[File:Black Hawk.png]]
+| 
+| [[Black Hawk Remote]]
+|-
+| Blast Barrel (thrown)
+| [[File:Blast Barrel.png]]
+| 
+| [[Blast Barrel]]
+|-
+| Blazing Phantom Blade
+| [[File:Blazing Phantom Blade.png]]
+| 
+| [[True Tyrant's Ultisword]] {{-}} [[Tyrant Yharim's Ultisword]]
+|-
+| Blazing Star (thrown)
+| [[File:Blazing Star.png]]
+| 
+| [[Blazing Star]]
+|-
+| Blazing Sun
+| [[File:Blazing Sun.gif]]
+| 
+| [[Blazing Core]]
+|-
+| Blinding Light
+| {{na}}
+| 
+| [[The Dance of Light]]
+|-
+| Blood
+| {{na}}
+| 
+| [[Bloodsoaked Crasher]] {{-}} [[Bloody Rupture]] {{-}} [[Carnage]]
+|-
+| Blood 2
+| {{na}}
+| 
+| [[Aorta]] {{-}} [[Sausage Maker]]
+|-
+| Blood Ball
+| [[File:Blood Ball.png]]
+| 
+| [[Vein Burster]]
+|-
+| Blood Beam
+| [[File:Blood Beam.png]]
+| 
+| [[Blood Bath]]
+|-
+| Blood Blast
+| {{na}}
+| 
+| [[Hematemesis]]
+|-
+| Blood Fire
+| {{na}}
+| 
+| [[Blood Boiler]]
+|-
+| Blood Clot Bullet
+| [[File:Blood Clot Bullet.png]]
+| 
+| [[Eviscerator]]
+|-
+| Blood Clot
+| [[File:Blood Clot.png]]
+| 
+| [[Blood Clot Staff]]
+|-
+| Bloodfire Arrow
+| [[File:Bloodfire Arrow.png]]
+| 
+| [[Bloodfire Arrow]]
+|-
+| Bloodfire Bullet
+| [[File:Bloodfire Bullet (projectile).png]]
+| 
+| [[Bloodfire Bullet]]
+|-
+| Bloodflare Soul
+| [[File:Bloodflare Soul.gif]]
+| 
+| [[Bloodflare armor]]
+|-
+| Blood Geyser
+| [[File:Blood Geyser.png]]
+| 
+| [[The Perforators|Perforator Hive]]
+|-
+| Blood Ray Split
+| {{na}}
+| 
+| [[Carnage Ray]]
+|-
+| Blood Rain
+| {{na}}
+| 
+| [[Scab Ripper]]
+|-
+| Blood Ray
+| {{na}}
+| 
+| [[Carnage Ray]]
+|-
+| Bloody Scythe
+| [[File:Blood Scythe.png]]
+| 
+| [[Bladecrest Oathsword]]
+|-
+| Bloodsoaked Crashax (thrown)
+| [[File:Bloodsoaked Crasher.png]]
+| 
+| [[Bloodsoaked Crasher]]
+|-
+| Blood Spit
+| [[File:Blood Spit.gif]]
+| 
+| [[Dragonblood Disgorger]]
+|-
+| Bloody Blade
+| [[File:Bloody Blade.png]]
+| 
+| [[True Bloody Edge]]
+|-
+| Blue Aura
+| {{na}}
+| 
+| [[Ancient Shiv]]
+|-
+| Blue Bubble
+| [[File:Blue Bubble.png]]
+| 
+| [[Effervescence]]
+|-
+| Blue Exo Arrow
+| {{na}}
+| 
+| [[Heavenly Gale]]
+|-
+| Blue Exo Arrow (secondary)
+| {{na}}
+| 
+| [[Heavenly Gale]]
+|-
+| Consecrated Flame Pillar
+| [[File:Consecrated Flame Pillar.gif]]
+| 
+| [[Consecrated Water]]
+|-
+| Blunder Booster Aura
+| image
+| 
+| [[Blunder Booster]]
+|-
+| Blunder Booster Lightning
+| [[File:Blunder Booster Lightnings.gif]]
+| 
+| [[Adamantite Throwing Axe]] {{-}} [[Blunder Booster]]
+|-
+| Blushie Staff
+| {{na}}
+| 
+| [[Staff of Blushie]]
+|-
+| Bobbit Hook Head
+| Image
+| 
+| [[Hooks|Bobbit Hook]]
+|-
+| Storm Bolt
+| [[File:Storm Bolt.png]]
+| 
+| [[The Storm]]
+|-
+| Bolt Arow
+| [[File:Bolt Arrow.png]]
+| 
+| [[Barinade]] {{-}} [[Barinautical]]
+|-
+| Bonebreaker Fragment 1
+| Part of [[File:Bonebreaker Fragments.png]]
+| 
+| [[Bonebreaker]]
+|-
+| Bonebreaker Fragment 2
+| Part of [[File:Bonebreaker Fragments.png]]
+| 
+| [[Bonebreaker]]
+|-
+| Bonebreaker Fragment 3
+| Part of [[File:Bonebreaker Fragments.png]]
+| 
+| [[Bonebreaker]]
+|-
+| Bonebreaker (thrown)
+| [[File:Bonebreaker projectile.png]]
+| 
+| [[Bonebreaker]]
+|-
+| Bone Matter 1
+| Part of [[File:Bone Matter.gif]]
+| 
+| [[Staff of Necrosteocytes]]
+|-
+| Bone Matter 2
+| Part of [[File:Bone Matter.gif]]
+| 
+| [[Staff of Necrosteocytes]]
+|-
+| Bouncing Betty (thrown)
+| [[File:Bouncing Betty.png]]
+| 
+| [[Bouncing Betty]]
+|-
+| Betty Shrapnel
+| [[File:Betty Shrapnel.png]]
+| 
+| [[Bouncing Betty]]
+|-
+| Bouncing Eyeball
+| [[File:Bouncing Eyeball.png]]
+| 
+| [[Bouncing Eyeball]]
+|-
+| Bouncing Eyeball Enraged
+| [[File:Bouncing Eyeball Enraged.png]]
+| 
+| [[Bouncing Eyeball]]
+|-
+| Bouncy Spiky Ball
+| [[File:Bouncy Spiky Ball.png]]
+| 
+| [[Bouncy Spiky Ball]]
+|-
+| Brackish Flask (thrown)
+| [[File:Brackish Flask.png]]
+| 
+| [[Brackish Flask]]
+|-
+| Brackish Water Bubble
+| [[File:Brackish Water Bubble.png]]
+| 
+| [[Brackish Flask]]
+|-
+| Brackish Explosion
+| {{na}}
+| 
+| [[Brackish Flask]]
+|-
+| Throwing Brick (thrown)
+| [[File:Throwing Brick.png]]
+| 
+| [[Throwing Brick]]
+|-
+| Throwing Brick Fragments
+| [[File:Brick Fragments.png]]
+| 
+| [[Throwing Brick]]
+|-
+| Brimblade (thrown)
+| [[File:Brimblade.png]]
+| 
+| [[Brimblade]]
+|-
+| Brimblade (split)
+| [[File:Brimblade.png]]
+| 
+| [[Brimblade]]
+|-
+| Brimblast
+| {{na}}
+| 
+| [[Brimstone Sword]]
+|-
+| Brimlance Explosion
+| {{na}}
+| 
+| [[Brimlance]]
+|-
+| Brimlance Spear
+| [[File:Brimlance.png]]
+| 
+| [[Brimlance]]
+|-
+| Brimlance Fire
+| {{na}}
+| 
+| [[Brimlance]]
+|-
+| Brimlash Blade
+| [[File:Brimlash Blade.png]]
+| 
+| [[Brimlash]] {{-}} [[Brimlash Buster]]
+|-
+| Brimlash Blade Split
+| [[File:Brimlash Blade.png]]
+| 
+| [[Brimlash]] {{-}} [[Brimlash Buster]]
+|-
+| Brimling
+| [[File:Brimling (Pet).png]]
+| 
+| [[Charred Relic]]
+|-
+| Brimseeker Aura Ball
+| [[File:Brimseeker Aura Ball.png]]
+| 
+| [[Dormant Brimseeker]]
+|-
+| Brimstone Ball (hostile)
+| [[File:Brimstone Ball.png]]
+| 
+| [[Catastrophe]]
+|-
+| Brimstone Ball (friendly)
+| [[File:Brimstone Ball.png]]
+| 
+| [[Brimstone Flameblaster]]
+|-
+| Brimstone Barrage
+| [[File:BrimstoneBarrage.gif]]
+| 
+| [[Brimstone Elemental]] {{-}} [[Sepulcher]] {{-}} [[Supreme Calamitas]] {{-}} [[Supreme Cataclysm]] {{-}} [[Supreme Catastrophe]] {{-}} [[Soul Seeker|Soul Seeker (supreme)]]
+|-
+| Brimstone Beam
+| {{na}}
+| 
+| [[Brimrose Staff]]
+|-
+| Brimstone Beam Split 1
+| {{na}}
+| 
+| [[Brimrose Staff]]
+|-
+| Brimstone Beam Split 2
+| {{na}}
+| 
+| [[Brimrose Staff]]
+|-
+| Brimstone Beam Split 3
+| {{na}}
+| 
+| [[Brimrose Staff]]
+|-
+| Brimstone Beam Split 4
+| {{na}}
+| 
+| [[Brimrose Staff]]
+|-
+| Brimstone Bolt
+| {{na}}
+| 
+| [[Brimstone Fury]]
+|-
+| Brimstone Explosion (melee)
+| {{na}}
+| 
+| [[Anarchy Blade]]
+|-
+| Brimstone Elemental
+| [[File:Brimstone Elemental (minion).png]]
+| 
+| [[Heart of the Elements]] {{-}} [[Rose Stone]]
+|-
+| Brimstone Explosion (summon)
+| {{na}}
+| 
+| [[Heart of the Elements]] {{-}} [[Rose Stone]]
+|-
+| Brimstone Fire (hostile)
+| {{na}}
+| 
+| [[Cataclysm]]
+|-
+| Brimstone Fireball
+| [[File:Brimstone Fireball.png]]
+| 
+| [[Burning Sea]]
+|-
+| Brimstone Fireball (summon)
+| [[File:Brimstone Hellfireball.gif]]
+| 
+| [[Heart of the Elements]] {{-}} [[Rose Stone]]
+|-
+| Brimstone Fireblast
+| [[File:BrimstoneGigaBlast.gif]]
+| 
+| [[Supreme Calamitas]]
+|-
+| Brimstone Fire (ranged)
+| {{na}}
+| 
+| [[Brimstone Flameblaster]]
+|-
+| Brimstone Fire (summon)
+| {{na}}
+| 
+| [[Entropy's Vigil]]
+|-
+| Brimstone Geyser
+| {{na}}
+| 
+| [[Lava]]
+|-
+| Brimstone Giga Blast
+| [[File:BrimstoneFireblast.gif]]
+| 
+| [[Supreme Calamitas]]
+|-
+| Brimstone Hellblast
+| [[File:BrimstoneHellblast.gif]]
+| 
+| [[Brimstone Elemental]] {{-}} [[Supreme Calamitas]]
+|-
+| Brimstone Hellblast (bullet hell)
+| Image
+| 
+| [[Supreme Calamitas]]
+|-
+| Brimstone Hellfireball (hostile)
+| [[File:Brimstone Hellfireball.gif]]
+| 
+| [[Brimling]] {{-}} [[Brimstone Elemental]]
+|-
+| Brimstone Hellfireball (friendly)
+| [[File:Brimstone Hellfireball.gif]]
+| 
+| [[Lashes of Chaos]]
+|-
+| Brimstone Hellfireball (friendly) 2
+| {{na}}
+| 
+| [[Gehenna]] {{-}} [[Void of Extinction]]
+|-
+| Aquatic Spear
+| [[File:Aquatic Spear.gif]]
+| Melee
+| [[Aquatic Dissolution]]
+|-
+|}
+{{collapse bottom}}
+
+
+
+= Developers =
+{{Collapse top}}
+*Here is a list of all of most of the mod's developers, both former and current: <!---Please add or kill and roles I got wrong or add other information--->
+{| class="terraria sortable lined"
+! Name !! Items !! Role !! Feats !! Current
+|-
+| Fabsol {{-}} MountainDrew {{-}} Drew
+| <!---removed until further notice [[File:Azathoth.png|Azathoth]] [[Azathoth]] {{-}} [[File:Animus.png]] [[Animus]] {{-}}---> 
+<!---The below comments are things that reference Fabsol, but aren't mentioned to be dedicated on the dedicated content page--->
+<!---[[File:Drew's Wings.png]] [[Drew's Wings]] {{-}}---> [[File:Drunk Princess.png]] [[Drunk Princess]] {{-}} <!---[[File:Fabsol's Vodka.png]] [[Fabsol's Vodka]] {{-}}--->
+[[File:Fabstaff.png]] [[Fabstaff]] {{-}} [[File:Discordian Sigil.png]] [[Discordian Sigil]]
+| Lead Developer {{-}} Programmer {{-}} Former spriter
+| Created the mod.
+| {{Yes}}
+|-
+| AstroKnight {{-}} Fizz_ {{-}} Shadow {{-}} ThatTerrariaGuy
+| [[File:Demonshade armor.png]] [[Demonshade armor]] {{-}} [[File:Shadowspec Bar.png]] [[Shadowspec Bar]]
+| Spriter
+| 
+| {{No}}
+|-
+| AdipemDragon
+|
+| Spriter
+|
+| {{No}}
+|-
+| Amadis
+| [[File:Draconic Destruction.png]] [[Draconic Destruction]]
+| Spriter
+| 
+| {{No}}
+|-
+| Amber {{-}} MishiroUsui 
+| [[File:Profaned Soul Crystal.png]] [[Profaned Soul Crystal]]
+| Programmer
+|
+| {{Yes}}
+|-
+| Aleksh
+| [[File:Joyful Heart.png]] [[Joyful Heart]]
+| Spriter
+|
+| {{Yes}}
+|-
+| Alterra
+|
+| Programmer {{-}} Spriter
+|
+| {{Yes}}
+|-
+| Ben {{-}} Termi
+| [[File:Temporal Umbrella.png]] [[Temporal Umbrella]] {{-}} [[File:Triboluminescent Etomer.png]] [[Triboluminescent Etomer]]
+| Programmer
+|
+| {{Yes}}
+|-
+| Blockaroz
+|
+| Spriter
+| Made the previous sprites for [[Astrum Deus]] and [[The Plaguebringer Goliath]] 
+| {{No}}
+|-
+| Boffin
+| 
+| Programmer
+|
+| {{No}}
+|-
+| Bravioli
+|
+| Beta tester
+|
+| {{Yes}}
+|-
+| CDMusic {{-}} Charlie {{-}} Charliedebnam
+|
+| Composer
+|
+| {{yes}}
+|-
+| Cobalion
+| [[File:Universe Splitter.png]] [[Universe Splitter]]
+| Spriter
+|
+| {{Yes}}
+|- 
+| Cooper
+| [[File:Cryogenic Staff.png]] [[Cryogenic Staff]] {{-}} [[File:Endogenesis.png]] [[Endogenesis]]
+| Spriter
+| Animated various bosses such as [[Astrum Aureus]] and [[Calamitas]]
+| {{Yes}}
+|-
+| Daim
+|
+| Spriter
+|
+| {{Yes}}
+|-
+| DarkTiny {{-}} FIPS {{-}} Gouvod
+| [[File:Voidragon.png]] [[Voidragon]]
+| Spriter
+| Helped sprite [[Jungle Dragon, Yharon]]
+| {{No}}
+|-
+| DM Dokuro
+|
+| Composer
+| Composed most of the mod's soundtrack
+| {{No}}
+|-
+| Dominic Karma
+| [[File:Eternity.png]] [[Eternity]]
+| Programmer
+| Coded most of the [[Acid Rain]]'s enemies
+| {{Yes}}
+|-
+| Earth
+| [[File:Earth.png]] [[Earth]]
+| Spriter
+|
+| {{No}}
+|-
+| EchoDuck
+|
+| Spriter
+|
+| {{No}}
+|-
+| Enreden
+| 
+| Spriter
+| Sprited [[The Devourer of Gods]]
+| {{Yes}}
+|-
+| Frous
+|
+| Spriter
+| Sprited many of the mod's bosses, including [[Supreme Calamitas]] 
+| {{No}}
+|-
+| Gahtao
+| 
+| Spriter
+| Sprited Calamitas' second sprite.
+| {{No}}
+|-
+| Gamagamer64
+| 
+| Concept artist {{-}} Spriter
+|
+| {{No}}
+|-
+| Gram {{-}} GramOfSalt
+| 
+| Spriter
+| Sprited [[Storm Weaver]]
+| {{Yes}}
+|-
+| Graydee
+| [[File:Crystyl Crusher.png]] [[Crystyl Crusher]]
+| Programmer
+| Coded the original generation for the [[Brimstone Crag]]
+| {{No}}
+|-
+| Grox {{-}} Grox the Great
+| [[File:Grax.png]] [[Grax]]
+| Programmer
+| Helped code the [[Abyss]]
+| {{No}}
+|-
+| Huggles
+|
+| Spriter
+|
+| {{No}}
+|-
+| IbanPlay
+| [[File:Flamsteed Ring.png]] [[Flamsteed Ring]]
+| Spriter
+| Animated [[Leviathan]] and [[The Dragonfolly]] and sprited [[The Hive Mind]]
+| {{Yes}}
+|-
+| Inanis
+| 
+| Concept artist {{-}} Spriter
+| 
+| {{Yes}}
+|-
+| JaceDaDorito
+| 
+| Spriter
+|
+| {{No}}
+|-
+| Jenosis
+|
+| Programmer
+|
+| {{No}}
+|-
+| Khaelis
+|
+| Programmer
+|
+| {{No}}
+|-
+| Lilac
+| [[File:Bear's Eye.png]] [[Bear's Eye]] {{-}} [[File:Primrose Keepsake.png]] [[Primrose Keepsake]]
+| Concept artist {{-}} Lore writer
+|
+| {{Yes}}
+|-
+| LordMetarex
+| [[File:Primrose Keepsake.png]] [[Primrose Keepsake]] {{-}} [[File:Romajeda Orchid.png]] [[Romajeda Orchid]]
+| Spriter
+| Sprited [[Polterghast]]
+| {{Yes}}
+|-
+| Leviathan
+| [[File:Gael's Greatsword.png]] [[Gael's Greatsword]] {{-}} [[File:Levi.png]] [[Levi]]
+| Beta tester
+|
+| {{Yes}}
+|-
+| MarieArk
+|
+| Spriter
+|
+| {{Yes}}
+|-
+| Merkalto
+| 
+| Changelog Writer {{-}} Programmer
+|
+| {{Yes}}
+|-
+| Minecat
+| 
+| Wiki administrator
+|
+| {{Yes}}
+|-
+| Mrrp
+| [[File:Hermit's Box of One Hundred Medicines.png]] [[Hermit's Box of One Hundred Medicines]]
+| Lore writter
+|
+| {{Yes}}
+|-
+| Nao
+| 
+| Spriter
+| 
+| {{No}}
+|-
+| Nincity
+| [[File:Angelic Alliance.png]] [[Angelic Alliance]]
+| Concept artist {{-}} YouTube channel manager
+|
+| {{No}}
+|-
+| Niorin
+|
+| Spriter
+|
+| {{Yes}}
+|-
+| Nitro
+| 
+| Concept artist {{-}} Spriter
+| Sprited [[Providence, the Profaned Goddess]] and [[Leviathan]]
+| {{No}}
+|-
+| NyctoDarkMatter
+|
+| Spriter
+| Helped resprite the original [[The Plaguebringer Goliath|Plaguebringer Goliath]]
+| {{No}}
+|-
+| Ozzatron
+| [[File:Nanoblack Reaper.png]] [[Nanoblack Reaper]]
+| Programmer
+|
+| {{Yes}}
+|-
+| Phantasmal Deathray
+| [[File:Illustrious Knives.png]] [[Illustrious Knives]]
+| Spriter
+| 
+| {{No}}
+|-
+| Pbtopacio 
+| 
+| Spriter
+|
+| {{No}}
+|-
+| PhoenixBlade
+|
+| Programmer {{-}} Spriter
+|
+| {{No}}
+|-
+| Piky
+| 
+| Beta Tester {{-}} Lore writter
+| 
+| {{Yes}}
+|-
+| Phupperbat
+| [[File:Brimrose.png]] [[Brimrose]] {{-}} [[File:Charred Relic.png]] [[Charred Relic]] {{-}} [[File:Scarlet Devil.png]] [[Scarlet Devil]]
+| Programmer
+|
+| {{Yes}}
+|-
+| Pinkie Poss
+| [[File:Rainbow Party Cannon.png]] [[Rainbow Party Cannon]]
+| Composer {{-}} Programmer 
+|
+| {{Yes}}
+|-
+| Pixlgray
+| 
+| Lore writer
+|
+| {{Yes}}
+|-
+| Poly {{-}} PolySproote
+|
+| Concept artist {{-}} Spriter
+| Sprited the [[Profaned Guardians]] and [[Signus, Envoy of the Devourer]]
+| {{No}}
+|-
+| Popo
+| [[File:Magic Scarf and Hat.png]] [[Magic Scarf and Hat]]
+| Spriter
+| Sprited [[The Hive Mind]]'s previous sprite.
+| {{Yes}}
+|-
+| Puff
+|
+| Spriter
+|
+| {{No}}
+|-
+| Purple Necromancer
+| 
+| Spriter
+|
+| {{No}}
+|-
+| RandomZachofKindness {{-}} Zach
+| [[File:The Dance of Light.png]] [[The Dance of Light]] {{-}} [[File:Fox Drive.png]] [[Fox Drive]]
+| Programmer {{-}} Spriter
+| 
+| {{No}}
+|-
+| RoverdriveX
+|
+| Composer {{-}} Sound design {{-}} Wiki administrator
+| 
+| {{Yes}}
+|-
+| Runefield
+| 
+| Spriter
+| Sprited [[Astrageldon Slime]]
+| {{Yes}}
+|-
+| Shucks
+| 
+| Programmer
+|
+| {{No}}
+|-
+| SixteenInMono
+|
+| Composer
+| Helped compose several pre-hardmode boss themes
+| {{No}}
+|-
+| Skeletony
+|
+| Spriter
+|
+| {{Yes}}
+|-
+| Sok
+|
+| Spriter
+|
+| {{Yes}}
+|-
+| Spider {{-}} Spideradult {{-}} spooktacular
+|
+| Composer
+|
+| {{yes}}
+|-
+| Spoopyro {{-}} Spoops
+| [[File:Red Sun.png]] [[Red Sun]]
+| Spriter
+| Did a large amount of work on the Desert Update's content
+| {{No}}
+|-
+| Svante
+| [[File:Svantechnical.png]] [[Svantechnical]]
+| Spriter
+| Made one of [[The Devourer of Gods]]' previous sprites
+| {{No}}
+|-
+| Terry {{-}} Terry N. Muse
+| [[File:Apotheosis.png]] [[Apotheosis]] {{-}} [[File:Cosmic Plushie.png]] [[Cosmic Plushie]]
+| Lore writer {{-}} Programmer
+| Coded The Hive Mind and wrote various lore entries
+| {{No}}
+|-
+| Tinymanx
+|
+| Spriter
+|
+| {{Yes}}
+|-
+| Tri/Triactis
+| [[File:Contagion.png]] [[Contagion]] {{-}} [[File:Soma Prime.png]] [[Soma Prime]] {{-}} [[File:Triactis' True Paladinian Mage-Hammer of Might.png]] [[Triactis' True Paladinian Mage-Hammer of Might]]
+| Spriter
+|
+| {{No}}
+|-
+| Trixavy
+|
+| Programmer
+|
+| {{No}}
+|-
+| Turquoise
+|
+| Composer {{-}} Programmer
+|
+| {{No}}
+|-
+| Uncle Danny
+| [[File:Trash Can (pet).png]] [[Trash Can (pet)|Trash Can]]
+| Wiki administrator
+|
+| {{Yes}}
+|-
+| Vaikyia
+| 
+| Spriter
+| Sprited several bosses such as [[Desert Scourge]] and [[Ravager]]
+| {{No}}
+|-
+| Vladimier
+| 
+| Spriter
+| Textured [[Jungle Dragon, Yharon]]'s current sprite
+| {{No}}
+|-
+| Yuyutsu
+|
+| Spriter
+|
+| {{No}}
+|-
+| Ziggums
+| [[File:Suspicious Looking Jelly Bean.png]] [[Suspicious Looking Jelly Bean]]
+| Spriter {{-}} Concept artist {{-}} Lore writer
+| Made sprites for nearly all of the mod's bosses and crated various concept art pieces.
+| {{No}}
+|-
+|}
+{{Collapse bottom}}
+{{collapse top}}
+= List of media references =
+{{collapse top}}
+'''The Calamity Mod,''' like the base game, adds a number of references and allusions to other media and pop culture.
+{{toc limit|2}}
+==Other Videogames==
+===Borderlands Series===
+
+*{{item|Evil Smasher}}, a reference to the [https://borderlands.fandom.com/wiki/Evil_Smasher weapon of the same name] from Borderlands 2.
+*{{item|Carnage}}, shares the same name as the [https://borderlands.fandom.com/wiki/Carnage_(Borderlands_2) Carnage weapon] from Borderlands 2.
+*{{item|Swordsplosion}}, a reference to the [https://borderlands.fandom.com/wiki/SWORDSPLOSION!!! weapon of the same name] from Borderlands 2.
+*{{item|Conference Call}}, a reference to a [https://borderlands.fandom.com/wiki/Conference_Call weapon of the same name] from Borderlands 2.
+*{{item|Infinity}}, a reference to a [https://borderlands.fandom.com/wiki/Infinity weapon of the same name] from Borderlands 2.
+*{{item|Norfleet}}, a reference to a [https://borderlands.fandom.com/wiki/Norfleet weapon of the same name] from Borderlands 2.
+*{{item|Pearl God}}, a reference to the [https://borderlands.fandom.com/wiki/Aries Aries] revolver from Borderlands. The name of the weapon is likely a reference to the [https://borderlands.fandom.com/wiki/Pearlescent Pearlescent] rarity type.
+*{{item|Cryophobia}}, a reference to the [https://borderlands.fandom.com/wiki/Cryophobia gun of the same name] from Borderlands: The Pre-Sequel.
+*{{item|Thunderstorm}}, a reference to the [https://borderlands.fandom.com/wiki/Storm_(sniper_rifle) Storm] sniper rifle from Borderlands 2.
+*{{item|Shredder}}, a reference to the [https://borderlands.fandom.com/wiki/Shredifier Shredifier] assault rifle from Borderlands 2.
+*{{item|Pestilent Defiler}}, a reference to the [https://borderlands.fandom.com/wiki/Defiler_(revolver) Defiler] revolver from Borderlands.
+*{{item|Disseminator}}, a reference to a [https://borderlands.fandom.com/wiki/Interfacer the interfacer] shotgun from Borderlands 2, and is even referred to as such in the mod's code.
+*{{item|Butcher (weapon)}}, a reference to a [https://borderlands.fandom.com/wiki/Butcher_(Borderlands_2) weapon of the same name] from Borderlands 2.
+*{{item|The Bee}}, a reference to a [https://borderlands.fandom.com/wiki/The_Bee weapon of the same name] from Borderlands 2.
+*{{item|Flame-Licked Shell}}, a reference to the [https://borderlands.fandom.com/wiki/Fabled_Tortoise Fabled Tortoise shield] from Borderlands 2.
+*{{item|The Evolution}}, a reference to a [https://borderlands.fandom.com/wiki/Evolution weapon of the same name] from Borderlands 2.
+*{{item|Hide of Astrum Deus}}, a reference to the [https://borderlands.fandom.com/wiki/Hide_of_Terramorphous Hide of Terramorphous] shield from Borderlands 2
+*{{item|Regenator}}, a reference to the [https://borderlands.fandom.com/wiki/Reogenator Reogenator] shield from Borderlands: The Pre-Sequel.
+*{{item|Samurai Badge}}, likely a reference in both name and effect to [https://borderlands.fandom.com/wiki/Sheriff%27s_Badge Sheriff's Badge] from Borderlands 2.
+*{{item|The Transformer}}, a reference to the [https://borderlands.fandom.com/wiki/The_Transformer Transformer] shield from Borderlands 2.
+*{{item|Face Melter}}, tooltip is a reference to Mr. Torgue in the Borderlands 2: Tiny Tina's Assault on Dragon Keep DLC.
+*{{item|Thief's Dime}}, tooltip is likely a reference to a [https://borderlands.fandom.com/wiki/Ye_Scurvy_Dogs side mission] of Borderlands 2: ''Captain Scarlett and Her Pirate's Booty'' DLC.
+*{{item|Hyperius Bullet}},  a reference to the boss enemy in Borderlands 2, named [https://borderlands.fandom.com/wiki/Hyperius_the_Invincible_(enemy) Hyperius the Invincible]. The effect of the bullet is also a reference to the [https://borderlands.fandom.com/wiki/Conference_Call Conference Call] weapon, found in Borderlands 2.
+
+===The Binding of Isaac===
+
+*{{item|Old Die}}, a reference to the [https://bindingofisaacrebirth.fandom.com/Cracked_Dice Craked Dice] trinket from ''The Binding of Isaac. The tooltip also shares similarities.''
+*{{item|Void of Calamity}}, tooltip likely references many items with the same description from ''The Binding of Isaac, such as [https://bindingofisaacrebirth.fandom.com/wiki/Guppy's_Tail Guppy's Tail].''
+
+===Undertale===
+
+*{{item|Undine's Retribution}}, a reference to the character [https://undertale.fandom.com/wiki/Undyne Undyne] from the game ''Undertale'' due to the weapon's behavior and resemblance to spears.
+
+===Luxor===
+
+*{{item|Luxor's Gift}}, a reference to the video game ''Luxor.''
+
+===Starcraft Series===
+
+*{{item|Zerg Potion}}, a reference to the [https://starcraft.fandom.com/wiki/Zerg Zerg], a race from the game Starcraft which are known for overwhelming the enemy with large numbers.
+
+===Fallout Series===
+
+*The Devourer of Gods' quote "You think...you can butcher...ME!?" is a reference to a line spoken by the [https://fallout.fandom.com/wiki/Master Master] in ''Fallout 1.''
+*{{item|Gatling Laser}}, a reference to a [https://fallout.fandom.com/wiki/Gatling_laser weapon of the same name] from the series, which borrows sound effects from it.
+*{{item|Gauss Pistol}}, a reference to a [https://fallout.fandom.com/wiki/Gauss_pistol_(Fallout_2) weapon of the same name] from ''Fallout 2'', which borrows sound effects from the series.
+*{{item|Gauss Rifle}}, a reference to a [https://fallout.fandom.com/wiki/Gauss_rifle weapon of the same name] from the series, which borrows sound effects from it.
+*{{item|Heavy Laser Rifle}}, a reference to a [https://fallout.fandom.com/wiki/Laser_rifle weapon of the same name] from the series, and uses its sound effect from ''Fallout: New Vegas''.
+*{{item|Matter Modulator}}, a reference to a [https://fallout.fandom.com/wiki/Q-35_matter_modulator weapon of a similar name] from ''Fallout: New Vegas''.
+*{{item|Plasma Caster}}, a reference to a [https://fallout.fandom.com/wiki/Plasma_caster_(Fallout:_New_Vegas) weapon of the same name] from ''Fallout: New Vegas'', which uses the same shoot sound.
+*{{item|Plasma Grenade}}, a reference to a [https://fallout.fandom.com/wiki/Plasma_grenade weapon of the same name] from the series.
+*{{item|Pulse Pistol}}, a reference to a [https://fallout.fandom.com/wiki/Pulse_pistol_(Fallout_2) weapon of the same name] from ''Fallout 2''.
+*{{item|Spent Fuel Container}}, its tooltip is a reference to the series.
+*{{item|Tesla Cannon}}, a reference to a [https://fallout.fandom.com/wiki/Tesla_cannon_(Fallout%3A_New_Vegas) weapon of the same name] from ''Fallout: New Vegas'', which uses the same shoot sound.
+
+
+===Warhammer 40000===
+
+*{{item|Blood Pact}} and {{item|Core of the Blood God}} names are references of cults and phrases respectively from said game.
+*Drunk Princess NPC has a special quote on blood moon that reads "More blood for the blood gods!", another reference to the [https://knowyourmeme.com/memes/blood-for-the-blood-god popular phrase] in the game.
+
+===Touhou Series===
+
+*{{item|Dark Spark}}, a reference to a spell-card used by the character [https://en.touhouwiki.net/wiki/Marisa_Kirisame Marisa Kirisame] from the ''Touhou Project'' series.
+*{{item|Event Horizon}}, reference to the spell-card used by the character [https://en.touhouwiki.net/wiki/Marisa_Kirisame Marisa Kirisame] from the ''Touhou Project'' series.
+*{{item|Hell's Sun}}, a reference to the character [https://en.touhouwiki.net/wiki/Utsuho_Reiuji] from the ''Touhou Project'' series.
+*{{item|Pristine Fury}}, its name was inspired by the song "Pure Furies", the theme of [https://touhouwiki.net/wiki/Junko Junko] from ''Legacy of Lunatic Kingdom''.
+*{{item|Recitation of the Beast}}, a reference to a spell-card used by the character [https://en.touhouwiki.net/wiki/Byakuren_Hijiri Byakuren Hijiri] from the ''Touhou Project'' series. Its tooltip is a reference to said character being sealed in [https://en.touhouwiki.net/wiki/Makai Makai] for a thousand years.
+*{{item|Resurrection Butterfly}},  a reference to a spell-card used by the character [https://en.touhouwiki.net/wiki/Yuyuko_Saigyouji Yuyuko Saigyouji] from the ''Touhou Project'' series.
+*{{item|Scarlet Devil}}, a reference to a spell-card used by the character [https://en.touhouwiki.net/wiki/Remilia_Scarlet Remilia Scarlet] from  the ''Touhou Project'' series.
+*{{item|Hermit's Box of One Hundred Medicines}}, a reference to the character [https://en.touhouwiki.net/wiki/Kasen_Ibaraki Ibaraki Kasen] from the ''Touhou Project'' series.
+*Three of the {{item|Bandit}}'s possible names, [https://en.touhouwiki.net/wiki/Marisa_Kirisame Marisa], [https://en.touhouwiki.net/wiki/Maribel_Hearn Maribel], and [https://en.touhouwiki.net/wiki/Maribel_Hearn Heam] are references to characters of the same or similar names from the series. One of her quotes refers to Marisa's habit of stealing from youkai with the justification that her human lifespan is shorter than theirs.
+
+===Paper Mario: The Thousand Year Door===
+
+*{{item|Keelhaul}}, The tooltip, [https://www.mariowiki.com/Keelhaul_Key name] and means of getting it are a reference to ''Paper Mario: The Thousand Year Door.''
+
+===Street Fighter===
+
+*{{item|Trinket of Chi}}, a reference to the prayer beads worn by [[wikipedia:Akuma_(Street_Fighter)|Akuma]] in the ''Street Fighter'' game series, and the kanji he draws energy from.
+
+===Banjo-Kazooie===
+
+*Increased breath loss in the Snow biome is a reference to the [https://banjokazooiewiki.com/wiki/Icy_water icy water hazard] from Banjo-Kazooie.
+
+===Axiom Verge===
+
+*{{item|Ion Blaster}}, a reference to the [https://axiom-verge.fandom.com/wiki/Axiom_Disruptor Axiom Disruptor] from Axiom Verge.
+
+===Turok 2: Seeds of Evil===
+
+*{{item|Charged Dart Blaster}}, a reference to the [https://turok.fandom.com/wiki/Shredder Shredder] in Turok 2: Seeds of Evil.
+*{{item|Plasma Rifle}}, a reference to the [https://turok.fandom.com/wiki/Plasma_Rifle weapon of the same name] in Turok 2: Seeds of Evil.
+*{{item|Scorpio}}, a reference to the [https://turok.fandom.com/wiki/Scorpion_Launcher Scorpion Launcher]] in Turok 2: Seeds of Evil.
+
+===Cave Story===
+
+*{{item|Polaris Parrotfish}}, a reference to the [https://cavestory.fandom.com/wiki/Polar_Star "Polar Star"] gun from the game ''Cave Story''. The first line of the tooltip is directly quoted from its tooltip in Cave Story.
+
+===Armored Core===
+
+*{{item|Karasawa}}, likely a reference to the  [https://borderlands.fandom.com/wiki/Evolution weapon of the same name] from [https://armoredcore.fandom.com/wiki/KARASAWA Armored Core].
+
+===World of Warcraft===
+
+*{{item|Onyxia}}, a reference to the [https://wow.fandom.com/Onyxia dragon of the same name] from ''World of Warcraft''.
+
+===Warframe===
+
+*{{item|Soma Prime}}, a reference to the [https://warframe.fandom.com/wiki/Soma_Prime gun of the same name] from Warframe.
+
+===Donkey Kong Series===
+
+*{{item|Blast Barrel}}, a reference to the ''Donkey Kong'' game series, which frequently features explosive barrels that launch the player in certain directions. It can also be a reference to the [[wikipedia:Donkey_Kong_Barrel_Blast|Wii game of similar name.]]
+
+===Destiny===
+
+*{{item|The Pack}}, a reference to the [https://www.destinypedia.com/Gjallarhorn Gjallarhorn] rocket launcher from Destiny.
+
+===The Elder Scrolls V: Skyrim===
+
+*{{item|Eye of Magnus}}, a reference to the [https://elderscrolls.fandom.com/wiki/Staff_of_Magnus_(Skyrim) Staff of Magnus] from ''The Elder Scrolls V: Skyrim''.
+
+===Bloons Tower Defense Series===
+
+*{{item|Monkey Darts}}, a reference to the ''Bloons'' series. The main character uses these [https://bloons.fandom.com/wiki/Dart_Monkey darts] as his main weapon.
+*{{item|Glaive}}, a reference to the ''Bloons'' series between BTD3 and BTD6. [https://bloons.fandom.com/wiki/Glaives A unit in those games] can throw said weaponry.
+*{{item|Kylie}}, a reference to the ''Bloons'' series in BTD6. [https://bloons.fandom.com/wiki/Kylie_Boomerang A unit in those games] can throw said weaponry.
+
+===Halo Series===
+
+*{{item|Needler}}, a reference to a [https://halo.fandom.com/wiki/Type-33_Guided_Munitions_Launcher weapon of the same name] from Halo series.
+
+===FromSoftware Games=== 
+
+*{{item|Greatsword of Judgement}}, a reference to the Dark Souls 3 [https://darksouls3.wiki.fextralife.com/Greatsword+of+Judgment weapon of the same name]. The rain of homing energy is reminicent of one of Lothric's attacks, which is a boss in DS3.
+*{{item|Lifehunt Scythe}}, both name and item effect are a reference to the Dark Souls 3 [http://darksouls.wikidot.com/lifehunt-scythe weapon and spell of the same name].
+*{{item|Nadir}}, The void essences fired by the spear are modeled after [https://darksouls.fandom.com/wiki/Humanity_Phantom Humanity Phantoms] from ''Dark Souls'', a prominent entity in the series.
+*{{item|Storm Ruler}}, a reference to the recurrent [https://darksouls3.wiki.fextralife.com/Storm+Ruler sword of the same name] of the series.
+*{{item|The First Shadowflame}}, a reference to the [https://darksouls.fandom.com/wiki/First_Flame First Flame] from the ''Dark Souls'' series.
+*{{item|Defiled Feather}}, a reference to the [https://bloodborne.wiki.fextralife.com/Defiled+Chalice Defiled Chalice] from the game ''Bloodborne'', and it had some similar functions to it previously.
+*{{item|Rune of Kos}}, a reference to the [https://bloodborne.wiki.fextralife.com/Orphan+of+Kos Orphan of Kos] from the ''game Bloodborne.''
+*The stat boosts given by the Lore items were inspired by the use of [https://sekiroshadowsdietwice.wiki.fextralife.com/Memory memories] in Sekiro to boost attack power.
+
+===Epic Battle Fantasy Series===
+
+*{{item|Devil's Sunrise}}, a reference to the [https://epicbattlefantasy.fandom.com/wiki/Devil%27s_Sunrise weapon of the same name] from the ''Epic Battle Fantasy'' line of games.
+
+===The Legend of Zelda Series===
+
+*{{item|Barinade}}, a reference to a boss in ''The Legend of Zelda: Ocarina of Time'' of the same name. In the game, [https://zelda.fandom.com/Barinade Barinade] is a large anemone which attacks via electric shocks.
+*In the mod's source files, the Bandit is referred to as 'THIEF',  a reference to the game The Legend of Zelda: Link's Awakening, in which the player's name is permanently changed to 'THIEF' if they ever steal from a shop.
+
+===Enter The Gungeon===
+
+*{{item|Face Melter}}, a reference to the [https://enterthegungeon.fandom.com/wiki/Face_Melter weapon of the same name] from Enter the Gungeon.
+
+===Chiken Invaders Series===
+
+*{{item|Utensil Poker}},  a reference to the [https://chickeninvaders.fandom.com/wiki/Utensil_Poker weapon of the same name] from the ''Chicken Invaders'' game series.
+
+===Portal 2===
+
+*One of the quotes of the Cyborg NPC after Moon lord has been defeated will read "Always shoot for the moon! It has clearly worked before.",  reference to the ending of the game Portal 2.
+
+===Metroid Series===
+
+*[[Astrum Aureus]] design was inspired by the [https://metroid.fandom.com/wiki/Security_Robot_B.O.X. Security Robot B.O.X] from Metroid Fusion, as both their appearance and movements are similar, and are also both cyborgs that have been infected by a space infection.
+*Also both Astrum Aureus and Astral enemies have hit sounds taken from Super Metroid.
+
+===Subnautica===
+
+*{{item|Eidolon Wyrm|s}}, Their designs are based on a creature from the aquatic exploration game Subnautica, known as the [https://subnautica.fandom.com/wiki/Ghost_Leviathan Ghost Leviathan]. 
+
+===Hollow Knight===
+
+*{{item|Iron Heart}},a reference to the game ''Hollow Knight's mode, [https://hollowknight.fandom.com/wiki/Steel_Soul_Mode "Steel Soul".]''
+*On [[Boss Rush|Boss rush]], there are five curses that can be enabled through the [[configuration options]]. Curses were inspired by the Pantheon Bindings from the game Hollow Knight. These Bindings would limit the stats of the player character and their abilities decently.
+
+===Minecraft===
+
+*{{item|Iron Heart}}, likely a reference to the appearance of hearts in [https://minecraft.fandom.com/Hardcore "Hardcore" mode.]
+
+===Pokémon===
+
+*{{item|Suspicious Looking Jelly Bean}}, a reference to [https://bulbapedia.bulbagarden.net/wiki/Pyukumuku_(Pok%C3%A9mon) Pyukumuku], a Pokémon from Pokémon Sun and Moon.
+
+===Resident Evil Series===
+
+*{{item|Hydra}}, a reference to the [https://residentevil.fandom.com/wiki/Hydra_(SG) gun of the same name] from the game ''Resident Evil 5''.
+*{{item|Lightning Hawk}}, a reference to the [https://residentevil.fandom.com/wiki/Lightning_Hawk gun of the same name] from the game ''Resident Evil 6''.
+*{{item|Elephant Killer}}, a reference to the [https://residentevil.fandom.com/wiki/Elephant_Killer gun of the same name] from the game ''Resident Evil 6''.
+
+===Metal Gear Series===
+
+*{{item|Excelsus}}, a reference to the second to last boss fight in ''Metal Gear Rising: Revengeance'', which is a massive robot known as [https://metalgear.fandom.com/wiki/Metal_Gear_EXCELSUS MG Excelsus.]
+*{{item|Murasama}}, both appearance and description are a reference to the sword being carried by one of the game's main antagonists, [https://metalgear.fandom.com/wiki/Samuel_Rodrigues Jetstream Sam.]
+*{{item|Red Sun}}, both name and tooltip are a reference to the antagonist [https://metalgear.fandom.com/wiki/Sundowner "Sundowner"] from Metal Gear Rising: Revengeance. Sundowner's boss song is named 'Red Sun' and the lyrics contain the line 'Red Sun over Paradise'.
+*{{item|Revengeance}}, a reference to Metal Gear Rising: Revengeance, Revengeance being the highest difficulty of the game.
+*{{item|Draedon's Heart}}, effects and former tooltip (Nanomachines, son) are a reference to the final boss of the game, [https://metalgear.fandom.com/wiki/Steven_Armstrong Armstrong Senator.]
+*The mod also includes a [[Boss Health Bar|health bar]] that shares appearance with the health bar of Metal Gear Raising: Revengeance.
+*One of the quotes of the Drunk Princess NPC after the devourer of gods has been defeated will read "I hear it's amazing when the famous purple-stuffed worm out in flap-jaw space with the tuning fork does a raw blink on Hara-kiri rock. I need scissors! 61!",  reference to the lines spoken by the ''[https://metalgear.fandom.com/wiki/Colonel_(AI) Colonel]'' in Metal Gear Solid 2: Sons of Liberty.
+
+===Kirby Series===
+
+*{{item|Galaxia}}, likely a reference to the [https://kirby.fandom.com/wiki/Galaxia weapon of the same name] of the ''Kirby'' game franchise.
+
+===Castlevania Series===
+
+*{{item|Consecrated Water}},  a reference to the [https://castlevania.fandom.com/wiki/Holy_Water Holy Water sub-weapon] from the ''Castlevania'' game series, and functions very similarly to it.
+
+== Animation ==
+===Dragon Ball Z===
+
+*{{item|Titan Arm}}, The base knockback statistic of 9001 is a reference to the famous quote [https://knowyourmeme.com/memes/its-over-9000 "It's over 9000!"] from the television series ''Dragon Ball Z.''
+
+===Jojo's Bizarre Adventure===
+
+*{{item|Stellar Knife}}, The tooltip is a reference to [https://jojo.fandom.com/wiki/The_World The World] ("Za Warudo"), a Stand capable of stopping time and is commonly used in conjunction with throwing knives.
+
+===Spongebob Squarepants===
+
+*One of the quotes of the Drunk Princess NPC during the night will read "That's west, [Name of Player]. You're fired again.", a reference to Spongebob Squarepants.
+
+== Films and Music ==
+
+===Poison===
+
+*{{item|Thorn Blossom}}, a reference to the power ballad, [[wikipedia:Every_Rose_Has_Its_Thorn|Every Rose Has Its Thorn]], by the American glam metal band Poison.
+
+===Beeltejuice===
+
+*{{item|Beetle Juice}}, a reference to the to the 1988 film [[wikipedia:Beetlejuice|Beetlejuice.]]
+
+===Ghostbusters===
+
+*One of the quotes of the Clothier NPC after Moon Lord has been defeated will read "Who you gonna call?.", a reference to the theme of the show Ghostbusters.
+
+===Blade Runner===
+
+*One of the quotes of the Cyborg NPC during rain will read "All these moments will be lost in time. Like tears...in the rain", a reference to a famous monologue from the 1982 film Blade Runner.
+
+===Godzilla===
+
+*{{item|Scryllar}}, its sprite is based on [[wikipedia:Gigan|Gigan]] from the ''Godzilla'' franchise.
+
+===Star Wars===
+
+*One of the quotes of the Guide NPC will read "I have this sudden shiver up my spine, like a meteor just fell and thousands of innocent creatures turned into monsters from the stars.", a reference to Obi-Wan Kenobi's "Disturbance in the Force" quote from Star Wars.
+
+===Indiana Jones===
+
+*The Bandit’s name ''Indiana'', and her quote regarding snakes is a reference to the character Indiana Jones from the ''Indiana Jones franchise''.
+
+===Frozen===
+
+*One of the quotes of the Painter NPC if Archmage is present will read "Do you think [Name of Archmage] knows how to 'let it go?" ,a reference to the popular song [https://www.youtube.com/watch?v=moSFlvxnbgk Let It Go.]
+
+===The Cab===
+
+*{{item|Angelic Shotgun}},  tooltip and name are a reference to the song "Angel with a Shotgun" by The Cab.
+
+===Pink Floyd===
+
+* {{item|Dark Spark}}, The tooltip is a quote from the song ''Eclipse'' from the Pink Floyd album, ''The Dark Side of the Moon''.
+
+==Literature and Comics==
+===The Iceman Cometh===
+
+*{{item|Temporal Floe Sword}}, The tooltip is a reference to [[wikipedia:The_Iceman_Cometh|The Iceman Cometh]], a play that premiered in October 1946.
+
+===Marvel===
+
+*{{item|Omega Blue armor}},  name for this armor is based on the ''Marvel'' character [[wikipedia:Omega_Red|Omega Red]], who also possesses tentacles.
+
+===H.P Lovecraft===
+
+* {{item|Azathoth}},  a reference to a H.P. Lovecraft deity, [[wikipedia:Azathoth|Azathoth]] is said to be the king of the Outer Gods, whose dream constitutes all of reality.
+
+==Other Media==
+===Discord===
+
+*{{item|Conference Call}}, the tooltip is a reference to the @everyone and @here pings that the ''Discord'' software has.
+
+===Nintendo===
+
+*{{item|Lazinator}}, a reference to the [[Zapinator]], which in turn is a reference to a light gun peripheral for the NES.
+
+===Twitch===
+
+*{{item|lul}}, a reference to the commonly used Twitch emote of the same name.
+
+==Popular Culture==
+===Memes===
+
+*{{item|Grand Dad}}, the name and the weapon damage and knockback is a reference to a meme known as "7 GRAND DAD," a Chinese bootleg copy of ''The Flintstones,'' popularized by Vargskelethor a.k.a Joel from Vinesauce.
+*{{item|Burden Breaker}}, the tooltip is a reference to the popular [https://knowyourmeme.com/memes/gotta-go-fast "Gotta go fast"] meme catchphrase, popularised by Sega character Sonic.
+*{{item|Trash Can (pet)}}, is based on a famous episode from the show ''[[wikipedia:It's_Always_Sunny_in_Philadelphia|It's Always Sunny in Philadelphia]]'', in which Danny DeVito, playing as Frank Reynolds, becomes a wrestler known as The Trash Man.
+*One of the quotes of the Drunk Princess NPC if Moon Lord has been defeated will read "There's chemicals in the water...and it's turning the frogs gay!", a [https://knowyourmeme.com/memes/alex-jones-gay-frogs-conspiracy reference] to American radio show host and conspiracy theorist Alex Jones.
+*One of the quotes of the Merchant NPC during a solar eclipse will read "Are you daft?! Turn off those lamps!.", a reference to the [https://knowyourmeme.com/memes/moth-lamp "moth lamp"] meme, mothron being a giant moth.
+*The Devourer of Gods' quote "Nothing personal, kid." is a reference to the [https://knowyourmeme.com/memes/teleports-behind-you-nothing-personal-kid "''*Teleports Behind You* Nothing Personal, Kid"''] meme.
+
+== Other Mods ==
+===Tremor Mod===
+
+*{{item|Axe of Purity}}, The Purification effect of the axe is a reference to the [https://tremormod.fandom.com/Gloriana_Wrath Gloriana Wrath] from the Tremor Mod.
+
+===Omnir's Mod===
+
+*{{item|Omniblade}}, Said 'Omnir' in the tooltip is a reference to Omnir's mod, one of the first highly popular Terraria mods.
+
+===Thorium Mod===
+
+*{{item|Nuclear Fury}}, a reference the the [[thm:Nuclear_Fury|weapon of the same name]] from the Thorium mod.
+
+===Avalon and Exxo Avalon===
+
+*{{item|Ambrosial Ampoule}}, its large recipe is a reference to the [https://terrariamods.fandom.com/Exxo_Avalon/Dragon_Orb Dragon Orb] from the Exxo Avalon mod.
+*{{item|Azathoth}}, the behavior of its projectiles are based on the [https://terrariamods.fandom.com/wiki/Exxo_Avalon/Berserker_Nightmare Berserker Nightmare] from the Avalon mod.
+*{{item|Dualpoon}}, a reference to the [https://avalonmod.fandom.com/wiki/Dual_Harpoon Dual Harpoon] from the Avalon mod.
+*{{item|Elemental Excalibur}}, a reference to a [https://avalonmod.fandom.com/wiki/Elemental_Excalibur weapon of the same name] from the Avalon and Exxo Avalon mods for Terraria 1.1.2 and 1.2.4 respectively.
+*{{item|Greatsword of Blah}}, a reference to Blahblahbal, the creator of the Avalon mod.
+*{{item|Soul Edge}}, a reference to the weapon of the same name from the Exxo Avalon mod.
+*{{item|Onyx Excavator Key}}, a reference to the Acceleration Drill item from the Avalon mod, with both digging through tiles in a similar way.
+*{{item|Phantoplasm}}, a reference to an [https://terrariamods.fandom.com/Exxo_Avalon/Phantoplasm item of the same name] from the Exxo Avalon mod.
+*{{item|Primordial Ancient}} and its respective crafting tree are a reference to a [https://avalonmod.fandom.com/wiki/Ancient weapon of similar name] from the Avalon mod.
+*{{item|Starfall}}, a reference the the [https://avalonmod.fandom.com/wiki/Starfall weapon of the same name] from the Avalon mod.
+*{{item|Victory Shard}}, a reference to [https://terrariamods.fandom.com/wiki/Exxo_Avalon/Victory_Piece Victory Pieces] from the Exxo Avalon mod.
+*{{item|Armageddon}},  a [https://avalonmod.fandom.com/wiki/Armageddon_Slime reference] along with the now deprecated Armageddon Slime from the Exxo Avalon mod.
+*Permanent HP Power-Ups such as {{item|Blood Orange}} are likely a reference to [https://avalonmod.fandom.com/wiki/Greater_Life_Crystal Greater Life Crystals] from Avalon mod.
+
+===Elemental Unleash Mod===
+
+*{{item|Staff of Blushie}}, tooltip refers to "blue magic", which is a reference to the Bluemagic mod, now known as Elemental Unleash, developed by Blushiemagic. This weapon's effect may also be a reference to the Charm of Blushie, a weapon from said mod.
+
+*
+
+==See Also==
+
+*[[tgc:Crossover_content|Crossover content]] in the official terraria wiki.
+{{Game mechanics}}
+{{collapse bottom}}

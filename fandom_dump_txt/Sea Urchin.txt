@@ -1,0 +1,29 @@
+{{npc infobox
+| type = Enemy
+| type2 = Aquatic
+| environment = Ocean
+| ai = Sea Urchin AI
+| damage = {{dv|20|40}}
+| life = {{dv|30|60}}
+| defense = 10
+| knockback = {{dv|20%|28%}}
+| banner = yes
+| money = {{cc|80}}
+| Urchin Stinger| 15-25 | 100%
+| immune1 = Kami Flu
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_15.wav
+| vulnerable1 = Machine
+| resistant1 = Poison
+}}
+
+The '''Sea Urchin''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Ocean]]. It bounces high towards the player in an attempt to hurt them, and can also bounce when out of the water.
+
+== See also ==
+*[[Aquatic Urchin]]
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

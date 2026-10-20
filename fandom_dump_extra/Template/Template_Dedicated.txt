@@ -1,0 +1,8 @@
+{| cellspacing="2px" style="text-align: left; margin: 1em auto; border: 2px solid #AAA; padding: .3em 1.3em .2em; border-radius: .7em; -moz-border-radius: .7em; -webkit-border-radius: .7em; background: #515151; color: white;"
+| align="center" style="vertical-align:top;"|<div style="display:inline-block">[[File:Cosmic Plushie.png|22px]]</div><div style="display:inline-block;vertical-align:top;padding:0px 10px 2px 10px;line-height:20px;"><span style="font-size:1.3em">'''[[{{tr|Dedicated content|link=y}}|{{l10n|dedicated|linktext}}]]'''</span></div> <div style="display: {{{display|inline-block}}}; -moz-transform: scaleX(-1); -ms-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1);">[[File:Cosmic Plushie.png|22px]]</div><div>{{#if:{{{2|}}}|''{{{2|}}}''|}}</div><div>{{#if:{{{1|}}}|{{l10n|dedicated|dedicated_to_text|$type$={{{type|{{l10n|dedicated|item}}}}}}} '''{{{1|}}}'''|}}</div>
+|}<includeonly>
+[[Category:Dedicated]]</includeonly><noinclude>
+{{i18n-ready}}
+[[Category:Notice templates]]
+{{doc}}
+</noinclude>

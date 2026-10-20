@@ -1,0 +1,27 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{revengeance mode only}}
+{{item infobox
+| type = Crafting material
+| type2 = Covering
+| damage = 320
+| tooltip = Summons an Arcanoid orb that flies around the player, Left click anywhere to move the orb to that place. The Orb shoots Cluster Bullets and creates an aura that inflicts God Slayer Inferno 
+| debuff = God Slayer Inferno
+| stack = 1
+| rare = 13
+| sell = {{value|0|50}}
+| hardmode = yes
+| postml = yes
+}}
+'''Godterminal Arcanoid Base''' is an upgrade to [[Lunar Arcanoid Base]]. It summons a Lunar Arcanoid Orb that doesnt move by itself and requires the player to move it manually, The Orb creates an aura inflicts God Slayer Inferno. The orb itself deals 320 contact damage, It also shoots out Cluster Projectiles, That deal 80 damage, after they collide with something they shatter into 4 projectiles 30 damage each
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]

@@ -1,0 +1,69 @@
+{{npc infobox
+| type = Slime
+| environment = Frozen Hell
+| ai = Slime AI
+| damage = '''Contact:''' {{dv|110|220}}<br/>'''Glacier:''' {{dv|90|144}}
+| life = {{dv|10,500|14,700}}
+| defense = 30
+| dr = 10
+| debuff = Frozen
+| debuffchance = 25% (glacier)
+| duration = 10 seconds
+| debufftip = You can't move!
+| knockback = 90
+| banner = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Frozen
+| immune4 = Frostburn
+| money = {{value|0|3|75}}
+| Frozen Hellstone|3-6| 100%
+| Gel|23-30| 100%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_28.wav
+| soundtext = High Jump
+| vulnerable1 = Holy
+| vulnerable2 = Fire
+| vulnerable3 = Smash
+| resistant1 = Cold
+| resistant2 = Unholy
+}}
+
+The '''Glacial Slime''' is a Godseeker Mode [[slime]] that spawns in [[Frozen Hell]]. It behaves like a normal slime, but will perform a high jump every 6 jumps, creating a large glacier when it lands.
+
+== Summons ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Glacier
+| type = Obstacle
+| ai = Glacier AI
+| environment = Frozen Hell
+| life = {{dv|3,000|7,000}}
+| damage = {{dv|100|150|500}}
+| defense = 0
+| dr = 0%
+| knockback = 100%
+| debuff = Frozen
+| debuffchance = 25%
+| duration = 10 seconds
+| debufftip = You can't move!
+| immuneall = yes
+| hurt = NPC_Hit_11.wav
+| killed = NPC_Killed_15.wav
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| resistant1 = Cold
+}}
+}}
+
+== Notes ==
+*Glaciers are coded to be prioritized by homing attacks, making them act as barriers to protect the slime and other enemies.
+
+== Trivia ==
+*The Glacial Slime is one of very few calamity slimes that drop Gel.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+}}

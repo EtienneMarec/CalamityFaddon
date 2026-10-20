@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| image = The Evolution.gif
+| type = Covering
+| tooltip = You reflect projectiles when they hit you<br/>Reflected projectiles deal no damage to you<br/>This reflect has a 120 second cooldown which is shared with all other dodges and reflects<br/>If this effect triggers you get a health regeneration boost for 5 seconds<br/>If the same enemy projectile type hits you again you will resist its damage 15%
+| stack = 1
+| rare = 12
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|24}}
+| element1 = magic
+}}
+|{{item drops infobox
+| [[Ceaseless Void]]|1|100%
+}}
+}}
+
+'''The Evolution''' is a Godseeker Mode [[covering]] that drops from the [[Ceaseless Void]]. Any projectile that strikes the player will be reflected. When a projectile is reflected, it will deal 10 times its original damage to any enemy it touches, and the player will gain a life regeneration boost. This effect can only occur every 120 seconds. Additionally, if the next projectile to hit the player is of the same type, the projectile will deal 15% less damage. This effect will only trigger once per projectile type. So, if the player were to get hit by three projectiles of the same type - reflecting the first - only the second projectile would deal 15% less damage.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This covering is a reference to the [https://borderlands.fandom.com/wiki/Evolution Evolution] and [https://borderlands.fandom.com/wiki/Antagonist Antagonist] shields from ''[[wikipedia:Borderlands 2|Borderlands 2]]''.
+*It was formerly the [[rare variant]] of the [[Arcanum of the Void]].
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

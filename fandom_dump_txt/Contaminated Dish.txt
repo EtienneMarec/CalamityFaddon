@@ -1,0 +1,51 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damage = 80
+| use = 20
+| damagetype = Spy
+| knockback = 2
+| auto = yes
+| velocity = 13
+| stack = 1
+| rare = 8
+| sell = {{value|0|10|0|0}}
+| tooltip = Tosses out a really old Petri dish that explodes upon hitting enemies or tiles, releasing plague nanobots in the process<br/>Stealth strike causes them to be thrown harder, sticking glass shards into them in the process<br/>'This thing's really old by now, best not breathe it in too much...'
+| debuff = Plague
+| debuffchance = 100%
+| debuffduration = 5 seconds (Plague Nanobots)
+| debufftip = Rotting from the inside
+| debuff2 = Bleeding
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (Glass Shards)
+| debufftip2 = Cannot regenerate life
+| hardmode = yes
+| proj = Petri Dish (Projectile).png
+| projcaption = Petri Dish
+| proj2 = Glass Shards.png
+| proj2caption = Glass Shards
+| element1 = Poison
+| element2 = Smash
+}}
+{{item drops infobox
+| [[The Plaguebringer Goliath]] | 1 | {{dv|25%|33.33%}}
+}}
+
+The '''Contaminated Dish''' is a [[Hardmode]] [[Bomb]] that drops from [[The Plaguebringer Goliath]]. Upon hitting enemies/tiles, it explodes into harmless glass shards, releasing nanobot clouds that inflicts the [[Plague]] Debuff in the process. Said clouds deal 65% of the weapon's base damage, but grants a shorter invincibility frame, at 5 instead of the usual 10 i-frame.
+
+Performing a [[Spy|Stealth Strike]] causes the dish to be thrown much harder, exploding into damaging glass shards that sticks into struck enemy instead, dealing periodic damage for a while before disappearing.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Note ==
+*The clouds that it releases has an extraupdate of 5, causing it to deal more damage in one tick.
+
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Bombs]]

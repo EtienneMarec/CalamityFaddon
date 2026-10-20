@@ -1,0 +1,32 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = The Dark God’s void<br/>+20 maximum stealth<br/>20% increased Spy crit chance in space<br/>Stealth strikes launch dark meteor blasts<br/>Spy projectile velocity is doubled
+| sell = {{value|0|16}}
+| element1 = Magic
+| element2 = Dark
+| rare = 9
+| stack = 1
+| hardmode = yes
+}}
+
+The '''Dark God’s Sheath''' is a craftable [[Hardmode]] [[Spy]] [[covering]]. When equipped:
+*The player’s [[Spy stealth]] cap is increased by 20.
+*The player receives 20% increased critical strike chance in the space layer of the world.
+*All [[stealth strike]]s launch dark meteor blasts at the cursor’s location.
+*The player's Spy projectile velocity is doubled.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Meld}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

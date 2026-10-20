@@ -1,0 +1,41 @@
+{{npc infobox
+| type = Slime
+| environment = Cavern
+| ai = Slime AI
+| damage = {{element|Holy}} {{dv|30|60}}
+| life = {{dv|120|240}}
+| defense = 12
+| knockback = 100
+| banner = yes
+| money = {{value|0|0|5|0}}
+| Cryonic Ore|10-26| 100%
+| debuff= Frostburn
+| debuffchance = 100%
+| duration = 2 seconds
+| debufftip= It's either really hot or really cold. Either way it REALLY hurts
+| debuff2= Chilled
+| debuffchance2 = 100%
+| duration2 = 1.5 seconds
+| debufftip2= Your movement speed is reduced
+| immune1 = Kami Flu
+| immune2 = Frostburn
+| immune3 = Poisoned
+| hardmode = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Fire
+| vulnerable2 = Machine
+| resistant1 = Poison
+| resistant2 = Holy
+}}
+
+The '''Cryo Slime''' is a [[Hardmode]] [[slime]] which spawns in the [[Cavern]] layer after the player has defeated [[Cryogen]] and two [[mechanical bosses]]. They exist as an alternative way to obtain [[Cryonic Ore]] aside from mining it.
+{{-}}
+
+==Trivia ==
+*Cryo Slime's [[Music|theme]] is [https://youtu.be/NwqBqIV_aMk| '''Antarctic Reinsertion'''], which was composed by the artist [https://www.youtube.com/@Jteoh Jteoh].
+
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

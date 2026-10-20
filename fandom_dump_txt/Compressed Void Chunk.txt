@@ -1,0 +1,30 @@
+{{Addon|Tranquility Mod}}
+{{Historical content}}
+{{infobox wrapper
+|{{item infobox
+| image = Compressed void chunk.png
+| stack = 1
+| rare = 0
+| sell = {{value|0|0|0|1}}
+| tooltip = It's utterly useless. Why would you ever need it?
+| use = 14
+| consumable = no
+| placeable = no
+| auto = no
+}}
+}}
+
+<big> ''"What? You thought it's a joke that it's utterly useless?..."'' </big>
+
+
+The '''Compressed Void Chunk''' is an item with a sole purpose: it's the one of the two requirements for the [[Void Man]] to spawn.
+
+==Trivia==
+*Despite its tooltip, it's not utterly useless, as it has at least one purpose.
+*Compressed Void Chunk spawns the exact same way as the [[tgc:Gems|gemstones]] do: spawns at any side of an any tile upon the worldgen stage, the message when a Compressed Void Chunk generates will show up: "Bringing something utterly useless to this world."
+*Upon the first interaction with the [[Void Man]] and if the player has this item in their inventory, it will disappear from their inventory.
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

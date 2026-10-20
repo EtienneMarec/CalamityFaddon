@@ -1,0 +1,37 @@
+{{item infobox
+| auto = yes
+| type = Weapon
+| damagetype = Melee
+| damage = 110
+| knockback = 6
+| rare = 5
+| sell = {{value|0|7|20}}
+| stack = 1
+| tooltip = Shoots a starnight beam
+| use = 23
+| velocity = 6
+| hardmode = yes
+| debuff=Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| proj = Starnight Beam.png
+| projcaption = Starnight Beam
+| element1 = Holy
+| element2 = Stab
+}}
+
+The '''Starnight Lance''' is a craftable [[Hardmode]] [[spear]]. On each swing it will fire out a projectile that inflicts the [[Frostburn]] [[debuff]] that pierces two enemies, disappearing on the third.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Cryonic}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

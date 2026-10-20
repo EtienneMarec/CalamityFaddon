@@ -1,0 +1,75 @@
+{{dedicated|Akeeli/Sygilin|Revengeance Mode No-Hit}}
+{{item infobox	
+| type = Weapon
+| damage = 129
+| damagetype = Ranged
+| knockback = 1
+| stack = 1
+| rare = 15
+| sell = {{value|0|50}}
+| auto = yes
+| use = 24
+| velocity = 18
+| tooltip = Fires an escalating stream of fireballs.<br/>Fireballs rain meteors, leave dragon dust trails, and launch additional bolts at max speed.<br/>Taking damage while firing the stream will interrupt it and reduce your wing flight time.<br/>Right click to fire two devastating barrages of five empowered fireballs.<br/>'Just don't get hit'
+| hardmode = yes
+| postml = yes
+| debuff1 = Daybroken
+| debuffduration1 = 4 seconds (Fireballs)<br/>3 seconds (Exo Beam)
+| debuffchance1 = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 4 seconds (Fireballs)<br/>3 seconds (Exo Beam)
+| debuffchance2 = 100%
+| debuff3 = Exo Freeze
+| debuffduration3 = 0.5 seconds (Exo Beam)
+| debuffchance3 = 100%
+| debuff4 = Frostburn
+| debuffduration4 = 2.5 seconds (Exo Beam)
+| debuffchance4 = 100%
+| debuff5 = On Fire!
+| debuffduration5 = 3 seconds (Exo Beam)
+| debuffchance5 = 100%
+| proj = Drataliornus Arrow.png
+| projcaption = Drataliornus Arrow
+| proj2 = Holy Meteor.gif
+| proj2caption = Holy Meteor
+| element1 = Fire
+| element2 = Stab
+}}
+
+'''Drataliornus''' is a craftable Godseeker Mode [[Bows|bow]]. It is an upgrade to [[Blossom Flux]]. Its left click initially shoots fireballs at a very low rate, but increases in speed until reaching its highest fire rate after six seconds. The fireballs will create small explosions similar to Heavenly Gale's orange bolts and always inflict [[Daybroken]] and [[Holy Flames]] for 5 seconds.
+
+On enemies, these combined debuffs cause the target to be unable to regenerate life, lose 60 defense, lose 95 health per second, and have their damage reduction cut by 34%.
+
+When the left click is at full speed, Drataliornus' fireballs become much stronger, leave trails of exploding dragon dust, rain meteors on direct hits, summon high-speed exo beams when hitting anything, and occasionally home in on enemies. The exploding dragon dust inflicts [[Holy Flames]] for 2 seconds. However, taking damage while using the left click will reset the bow to its lowest speed and temporarily halve wing flight time.
+
+Exo beams also inflict the following [[debuffs]] on hit enemies:
+*[[Exo Freeze]] (0.5 seconds)
+*[[Frostburn]] (2.5 seconds)
+*[[On Fire!]] (3 seconds)
+*[[Daybroken]] (3 seconds)
+*[[Holy Flames]] (3 seconds)
+
+Its right click fires two waves of five fireballs each, with a very long pause between volleys of two. These fireballs have the same properties as fireballs fired with left click at full speed but 60% damage. There is no special penalty for taking damage while using Drataliornus' right click.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+== Notes ==
+*Its left click has a fixed use time, starting at 34 ticks and then decreasing to 4 ticks at maximum speed.
+*Its right click has a use time of 12 ticks per shot, with a 48 tick delay every two shots.
+*Drataliornus' fireballs can travel through tiles when fired point-blank into a surface. They lose this property upon exiting blocks.
+
+== Trivia ==
+*Drataliornus was implemented as a reward for Akeeli (known as Sygilin at the time) after defeating all bosses in Revengeance Mode without taking damage.
+**The [[Blossom Flux]] in this weapon's recipe is a reference to Akeeli defeating all bosses with only the Blossom Flux.
+*In previous versions of the mod, Drataliornus would inflict the '''{{item|Backfire|nolink=y|anchor=y}}''' debuff if the player got hit while firing, which would heavily decrease their damage reduction, defense, damage, and wing flight time.
+
+{{auric}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category: Bows]]

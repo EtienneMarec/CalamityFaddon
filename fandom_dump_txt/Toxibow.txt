@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 20
+| knockback = 3
+| use = 35
+| velocity = 15
+| tooltip = Converts wooden arrows into slow arrows that inflict irradiated
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| debuffduration = 8 seconds (Toxic Arrow)
+| stack = 1
+| auto = yes
+| rare = 2
+| sell = {{value|0|0|40}}
+| proj = Toxic Arrow.png
+| projcaption = Toxic Arrow
+| element1 = Poison
+}}
+
+The '''Toxibow''' is a craftable [[Pre-Hardmode]] [[bow]]. When [[Wooden Arrow]]s are used as [[ammo]], it fires toxic arrows that emit a tiny explosion upon contact with tiles or enemies, dealing an additional 50% of the weapon’s damage and has a small chance to inflict the [[Sulphuric Poisoning]] [[debuff]].
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Sulphuric Scale}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

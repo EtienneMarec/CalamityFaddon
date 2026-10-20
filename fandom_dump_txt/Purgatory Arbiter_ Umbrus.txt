@@ -1,0 +1,238 @@
+{{npc infobox
+| name = Purgatory Arbiter, Umbrus
+| type = Superboss
+| imagealt = [[File:Purgatory Arbiter, Umbrus.png]]
+| ai = Umbrus AI
+| life = {{dv|3,750,440|5,630,000|7,120,500|9,331,000}}
+| damage = {{dv|430|671|715|833}} (Contact, Nox Blast, Nox Explosion, Nox Fireball, Nox Rift)<br/>{{dv|350|560|592|608}} (Nox Comet, Nox Shard, Nox Spike)<br/>{{dv|940|1021|1170|1350}} (Nox Ray)<br/> All damage 2x (Enraged)
+| defense = 130
+| dr = 23
+| knockback = 100
+| debuff = Umbric Fumes
+| debuffchance = 100%
+| duration = 10 seconds (Contact, Nox Explosion, Nox Ray)<br/>5 seconds (Nox Blast, Nox Comet, Nox Fireball, Nox Shard, Nox Spike)
+| debufftip = A cosmic affliction spreads throughout your body
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Holy Flames
+| immune4 = God Slayer Inferno
+| immune5 = Astral Infection (debuff)
+| vulnerable1 = Holy
+| vulnerable2 = Stab
+| resistant1 = Dark
+| resistant2 = Unholy
+| resistant3 = Magic
+| resistant4 = Slash
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| money = {{value|0|0|0|0|25}}
+| Umbren Sprayer|1|100%
+| Eldritch Pie Recipe |1|100%
+| Omega Healing Potion|15-25|100%
+| Entropic Frond |{{dv|25-35|35-45}}|100%
+| Entropic Bar |{{dv|15-30|25-40}}|100%
+| Entropic Skull|1|50%
+| Entropic Tunic|1|50%
+| Entropic Boots|1|50%
+| Chaotic Grapes|1|{{revengeance|100%}}<br/>(Always on first kill)
+| image2 = Purgatory Arbiter, Umbrus map.png
+| image2caption = Map Icon
+| boxwidth = 26em
+}}
+'''''"Chaos is ever expanding, permanent. It is in your very nature."'''''
+
+'''Purgatory Arbiter, Umbrus''' (Japanese: 混沌の神、ノクサス ''Konton no kami, nokusasu'') is an Epilogue [[Superbosses|Superboss]] that can be fought after completing the [[Boss Rush]] [[Events|event]].
+
+== Spawn==
+Umbrus does not spawn on its own and requires the player to summon it with [[Genesis]]. While using it, Genesis will glow similarly to [[Terminus]] until Umbrus falls from above.
+
+Umbrus can be fought in any biome at any time.
+
+==Behavior==
+Umbrus both deals and takes 25% more damage if a [[Rock]] is placed in the world.
+
+Umbrus has 2 phases:
+
+=== Phase 1 Attack Cycle ===
+Umbrus uses attacks in a well defined cycle during Phase 1.
+
+*Umbrus will randomly teleport around the player and leave behind{{item|NoxExplosion|nolink=yes|ext=gif|maxsize=42px|Nox Explosions}} each time.
+*It will hover above the player, telegraphing its fall path and the paths of  {{item|NoxSpike|nolink=yes|ext=png|size=9px|Nox Spikes}} before going down.
+*It flies directly at the player while shooting {{item|NoxComet|nolink=yes|ext=png|size=9px|Nox Comets}} that move in a wave formation.
+*{{item|NoxRift|nolink=yes|ext=png|maxsize=105px|Nox Rifts}} open up near the player that shoot {{item|NoxBlast|nolink=yes|ext=PNG|maxsize=65px|Nox Blasts}} .
+
+===Phase 2 Attack Cycle ===
+Umbrus switches to simpler attacks, but Umbrus' stats are also increased.
+
+*It teleports then charges at the player 3 times. After every charge, a trail of {{item|NoxExplosion|nolink=yes|ext=gif|maxsize=42px|Nox Explosions}} is left in its wake.
+*It will hover at the player's side and shoot a wide spread of {{item|NoxSpike|nolink=yes|ext=png|size=9px|Nox Spikes}}.
+*It flies back and forth above the player, raining down {{item|NoxComet|nolink=yes|ext=png|size=9px|Nox Comets}} that move in a wave formation.
+*It will stay immobile while its hands move up and down from the corners of the screen and fire Nox Spikes along with {{item|NoxFireball|nolink=yes|ext=gif|maxsize=42px|Nox Fireballs}} at the player that leave behind a Nox Explosion on impact or after a certain distance.
+* It revolves around the player while shooting homing {{item|NoxShard|nolink=yes|ext=gif|maxsize=42px|Nox Shards}}.
+
+===Progression===
+Umbrus will perform specific actions once, triggered by it reaching certain amounts of health.
+
+* Upon '''spawning''', Umbrus summons a small ring of Nox Spikes directly on the player. The Nox Spikes are initially harmless and immobile, but they will fly outward and be able deal damage after a few seconds. This is done 5 times total.
+*Upon reaching '''{{dv|85|'''90|95|100'''}}%''' health, Umbrus will become invincible and stationary while 3 Chaos Constructs are summoned. The cycle will continue once all Construct have been defeated. Chaos Constructs behave similarly to the Astrageldon Slime and have the following attacks:
+**Periodically teleport into the air above the player in an attempt to crush them.
+**Fire 9 Nox Spikes of varying speeds in large, asymmetrical shapes.
+**Attempt to shoot Nox Spikes directly at the player, and it fires faster as its health decreases.
+**Spawn damaging chaos mist platforms in midair to reach the player if they're barely out of reach.
+**Teleport near the player if they got too far away.
+*Upon reaching '''{{dv|75|'''80|85|90'''}}%''' health, Umbrus will randomly use two of its Phase 1 attacks simultaneously (e.g., charging while both shooting Nox Shards and leaving behind Nox Explosions).
+*Upon reaching '''{{dv|60|'''65|70|80'''}}%''' health, Umbrus roars and transitions into its second phase. The background also becomes covered in a dark veil of smoke.
+*Upon reaching '''{{dv|45|'''50|55|80'''}}%''' health, {{dv|1|1|1|2}} invincible Chaos Construct is summoned and will fight until the battle ends.
+*Upon reaching '''{{dv|10|'''10|10|20'''}}%''' health, Umbrus gains a new attack:
+**Umbrus will charge up a {{item|NoxRay|nolink=yes|ext=png|maxsize=42px|Nox Ray}} that shatters the screen, causing immense lag.
+
+===In Revengeance Mode===
+Massively increased speed and attack cycle is faster.
+Transitions into phases faster.
+Summons more projectiles.
+Projectiles are 15% faster.
+
+===In Death Mode===
+The combat zone is smaller.
+Summons 3 Chaos Constructs immediately upon spawning while attacking the player with Nox Spikes.
+Transitions into phases even faster.
+Damage is further increased by 33% on top of Death Mode's damage increase.
+Invincible Chaos Constructs are summoned immediately upon reaching phase 2.
+
+===In Malice Mode===
+The combat zone is smaller.
+Partially enrages Umbrus, increasing the speed of its projectiles by 60%.
+Chaos Constructs move 25% faster.
+Umbrus moves 33% faster.
+
+===In Master Mode===
+One additional Chaos Construct is summoned in every move that summons them.
+Vulnerable Chaos Constructs have 33% more HP on top of Master Mode's health increase.
+Umbrus and Chaos Constructs have 15% more damage reduction.
+Invincible Chaos Constructs delete projectiles.
+Chaos Constructs are 10% larger.
+Chaos Constructs gain immunity to [[Demonshade armor]]'s Enrage mechanic, but take 25% more damage from the armour's Red Devil follower.
+Enraging Umbrus instantly heals the player for -25% of their health.
+
+===On the For the Worthy seed===
+Umbrus is 45% smaller.
+Chaos Constructs are 60% bigger.
+All projectiles move 25% faster.
+All projectiles are 15% bigger.
+All attacks inflict [[Astral Infection (debuff)|Astral Infection]] and [[God Slayer Inferno]], further increasing damage taken.
+
+
+=== Summons===
+{{infobox wrapper|direction = row|float = none
+
+| {{npc infobox
+
+| name = Chaos Construct
+
+| type = Slime
+
+| imagealt = [[File:Chaos_Construct.png]]
+
+| ai = Chaos Construct AI
+
+| life = {{dv|550,440|748,000}}
+
+| damage = {{dv|350|560}} (Contact, Nox Spike)<br/>706 (Chaos Mist)
+
+| defense = 81
+
+| dr = 21
+
+| knockback = 100
+
+| debuff = Umbric Fumes
+
+| debuffchance = 100%
+
+| duration = 5 seconds (Contact, Nox Spike)<br/>
+
+| debufftip = A cosmic affliction spreads throughout your body
+
+| immune1 = Confused
+
+| immune2 = God Slayer Inferno
+
+| immune3 = Astral Infection (debuff)
+| vulnerable1 = Holy
+| vulnerable2 = Stab
+| resistant1 = Dark
+| resistant2 = Slash
+
+| hardmode = yes
+
+| postml = yes
+
+| boxwidth = 26em
+
+}}
+
+}}
+
+== Aftermath ==
+*[[Shadowspec Ore]] {{fantag|Calamity Loot Swap}} generates in [[The Underworld]].
+*[[Shadowspec Slime]]s begin spawing in the Underworld
+*[[Sky Abyss]] biome containing [[Esseric Ore]] generates above the [[Sulphurous Sea]] 
+*All [[enemies]] now have 50% more hp and double more damage. 
+*Enemies in the Desert, Crimson, [[Brimstone Crag]] and the [[Pot of Pain]] now drop [[Bloodred Reactive Essence|Bloodred Reactive Essences]] 
+*Enemies in the Tundra, [[Frozen Hell|Frozen hell]], [[Abyss]], Ocean and Space now drop [[Waterfreeze Reactive Essence|Waterfreeze Reactive Essences]] 
+*Enemies in the Jungle,  Mushroom biome and the exosphere now drop [[Accidated Reactive Essence|Accidated Reactive Essences]] 
+*Enemies in the Corruption, Underworld, [[Astral Infection|Astral infection]] and the Dungeon now drop [[Noctic Reactive Essence|Noctic Reactive Essences]] 
+
+== Resistances==
+Umbrus takes decreased damage from some items and projectiles. It takes:
+
+*85% damage from  [[Halibut Cannon]], [[Temporal Umbrella]], and [[Vehemence]].
+*65% damage from [[Axisdriver]] and [[Heavenly Gale]].
+*50% damage from [[Vermillion Angel]]'s stealth strike.
+
+==Notes==
+
+*Umbrus only deals contact damage while not in an immobile state.
+*[[Heart|Hearts]] (such as from Heart Statues) hurt for its healing amount instead of heals, making it difficult to recover health.
+*The Adrenaline Meter in Revengeance and Death Mode will fill up at a slower rate. It will take 40 seconds to fill up during its fight rather than the typical 30 seconds.
+*Umbrus ignores invincibility frames.
+
+==Tips==
+{{dablink|For more elaborate strategies on defeating Umbrus, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Umbrus strategies]].}}
+*It is highly recommended to complete the Boss Rush a few times with different [[Boss Rush#Boss Rush Curses|curses]] before attempting Umbrus, as doing so will provide permanent buffs.
+*Avoid touching Umbrus at all costs, as its contact damage ignores immunity frames and will result in a swift death.
+== Trivia ==
+
+*The theme heard during the battle against Umbrus is '''REALITY FAILURE''', which was composed by the artist [https://www.youtube.com/@Jteoh Jteoh].
+**If the Calamity Music add-on mod is disabled, the '''Moon Lord's theme''' will play during the entire fight instead.
+*Umbrus is considered a '''"Superboss"''' in this mod. In some RPG games, Superbosses are extremely powerful enemies that are very challenging even if the player has endgame equipment.
+**It shares this trait with the following bosses: [[Adult Eidolon Wyrm]], [[Vision of the Tyrant]], [[Disgusting Creature: Dron]], [[Esserwyrm]], [[Reactive Guardian, Sodis]], [[Nihil, the Fathomless Seeker]] and [[Exodygen]].
+*Umbrus is one of two bosses that drops no weapons and only a tool(s), the other being the [[Profaned Guardians]].
+*Umbrus, as the compilation of many other dark gods, is a major Calamity lore figure that is indirectly responsible for the creation of Xeroc, Yharim's rise to power and ultimately the Terrarian's existence. 
+*Some of Umbrus’ quotes start with "Hmm…", similar to the quotes said during the Boss Rush event.
+**Additionally, Umbrus’ final quote is a callback to the quote said upon entering Tier 5 of the event.
+*If the Boss Checklist Mod is installed, its unique despawn message will be "Hmm… you were not as useful as expected. Pathetic."
+*If the Calamity Umbrus (Addon Version) Voiceover Mod is installed, Umbrus will audibly speak.
+*Umbrus' concept sprite was later reused for [[The Godfather]]'s Critical Slime Core.
+
+==Quotes==
+Unlike every other boss in the Calamity mod, Purgatory Arbiter, Umbrus introduces audible dialogue for each message, all of which are voiced by [https://www.youtube.com/@theexiiedfeiiow4748/featured The ExiIed FeIIow]. This is only possible if the Calamity Umbrus (Addon Version) Voiceover Mod is installed. Every voice line can be heard in this [https://www.youtube.com/watch?v=6vjtx-VTT7M video].
+*"Hmm… You have managed to demolish whatever your adversaries made, for they failed to comprehend you." (When summoned)
+* "Show me what you can do." (After the first attack)
+*"Your movement is orderly, uniform. You will face punishment for it." (When enraged)
+*"Life’s purpose is to fulfill entropy. I enforce it." (When at 85% health)
+*"No entity is out of my reach, disorder always prevails." (When at 75% health)
+*"Hmm… contrary to what others think, I now see you have great potential." (When at 60% health)
+*"Chaos is ever expanding, permanent. It is in your very nature." (When at 45% health)
+* "Only if you embrace entropy shall you become your true self." (When at 35% health)
+*"We shall see how it ends now." (When at 25% health)
+*Umbrus during its death animation:
+**"Hmm… your path is clear."
+**"The perfect tool of chaos."
+**"Go forth and conquer 'til the end of time, my child."
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

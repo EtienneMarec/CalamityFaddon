@@ -1,0 +1,128 @@
+{{npc infobox
+| type = Boss
+| name = Artificial Sentience System, AX-P03
+| ai = P03 AI
+| image = AX-P03.png
+| life = {{dv|100,000|200,000|500,000|800,000}}
+| knockback = 100
+| immuneall = yes
+| hardmode = yes
+| resistant1 = Fire
+| resistant2 = Cold
+| resistant3 = Poison
+| resistant4 = Slash
+| resistant5 = Stab
+| resistant6 = Magic
+| resistant7 = Dark
+| resistant8 = Water
+| resistant9 = Holy
+| resistant10 = Unholy
+| resistant11 = Machine
+| resistant12 = Electricity
+| resistant13 = Smash
+}}
+
+<big>'''''"Another pathetic mortal to get in my way? Fantastic."'''''</big>
+
+'''Artificial Sentience System, AX-P03''' (Japanese: 人工感覚システム、AX-P03 ''Jinkō kankaku shisutemu, AX - P 03'') is a secret [[Hardmode]] [[boss]] that is meant to be fought before the [[Moon Lord]] is defeated.
+
+== Spawn ==
+
+In order to summon AX-P03, you must use the [[Emergency Transfer Machine]], which has a recipe that can be obtained by following these steps:
+
+* Equip a [[Dimensional Communication Transfer Device]] in your accessories.
+* Enter any [[Arsenal Labs | Arsenal Lab]] that isn't a Bio-Center.
+** A GUI element that looks like a command prompt should appear on your screen that says {{code|inline=y|data sent to 'drdn@exOS-hell2' from 'AXP03@exOS-xsphr3'}}.
+*** If you have defeated the Moon Lord, you will not see this.
+** The next line will contain a short message {{code|inline=y|success! placed at index:}} and then a hexidecimal code (ex. {{code|inline=y|0x12AB34CD56EF}}). Write it down, as it is random for each world.
+* Go to the Underworld Bio-Center (quickly, as you only have 6 minutes to do so).
+** One of the computers should be green instead of its normal blue color. Right click on it.
+*** If the computer has been destroyed, placing another one back inside the lab will fix it.
+** It will display a GUI element that looks like a command line.
+*** Typing the 'HELP' command will display a list of commands - 'JUMP', 'EXEC' and 'HELP'.
+** Type 'JUMP', add a space, then the code unique to your world.
+*** If successful, it will display {{code|inline=y|VALID INDEX}}. Otherwise, it will display {{code|inline=y|INVALID INDEX, RETRY}}
+** Now type 'EXEC'. The computer will now display 'ADDING PERSONAL BLUEPRINTS TO USER... SUCCESS'.
+* You can now craft the [[Emergency Cortex Transfer Machine]].
+
+Upon summoning AX-P03 with the Emergency Cortex Transfer Machine, the screen will flash white as AX-P03 appears onscreen. 
+
+== Behavior ==
+
+=== Phase 1 ===
+
+In AX-P03's first phase, it will summon 10 Nano Repair Drones in a circular formation around itself. If these drones are not destroyed within 30 seconds, they will heal 5% of AX-P03's health per drone.
+
+AX-P03 will cycle through a multitude of attacks, in order: 
+
+* Rapid fire fast-moving Attack Missiles in a circular formation
+* Shoot slow-moving Attack Missiles in a radial, alternating formation
+* Shoot five Attack Drones that slowly home in on the player
+
+=== Phase 2 ===
+
+Upon reaching 50% health, AX-P03 will enter Phase 2 and shoot an unavoidable Hyper Neutralizer Drone that homes toward the player and inflicts them with the 'HyperNeutralized' debuff which will cause the player to die in a single hit. AX-P03 will cycle through upgraded versions of its phase 1 attacks:
+
+* Rapid fire fast-moving Attack Missiles a circular formation, this time moving a sine wave
+* Shoot slow-moving Attack Missiles in a much more packed radial, alternating formation
+* Shoot ten Attack Drones that slowly home in on the player
+
+== Quotes ==
+
+* Summoning
+** "Looking absolutely beautiful GOD DAMN!!!!!." (When summoned for the first time)
+** "You again? Seriously? Do I need to kill you again?" (When summoned for the second time)
+** "This is getting old. Why are you even bothering?" (When summoned for the third time)
+** "And you're back. Every time I kill you, you just come back again like nothing happened." (When summoned for the fourth time)
+** "Maybe you should try attacking the probes. I don't think you noticed they heal me." (When summoned for the fifth time, if the player has not ever started Phase 2)
+** "Well, good luck." (When summoned for the fifth time)
+** "This is a new record, meathead. You've died five times." (When summoned for the sixth time)
+** "At this point, I don't think you'll ever defeat me." (When summoned for the seventh time)
+** "You know, this is mildly entertaining now." (When summoned for the eighth time)
+** "Humanity. Flawed as always." (When summoned for the ninth time)
+** "Have fun." (When summoned for the tenth and onward (with some exceptions))
+** "You've died ten times so far, meathead." (When summoned for the eleventh time)
+** "Huh, fifteen deaths. Do you ever quit?" (When summoned for the sixteenth time)
+** "Twenty deaths. No, I'm not going to just end the fight if you die too many times." (When summoned for the twenty-first time)
+** "42 65 77 61 72 65 20 6F 66 20 74 68 65 20 63 72 65 61 74 75 72 65 20 74 68 61 74 20 65 61 74 73 20 53 63 6F 72 69 61 2E" (When summoned for the twenty-third time)
+** "Twenty-five deaths. I don't know why I bother telling you about your deaths anymore" (When summoned for the twenty-sixth time)
+** "Fifty deaths." (When summoned for the fifty-first time)
+** "One hundred deaths." (When summoned for the one hundred-first time)
+** "Don't you have anything better to do?" (When summoned after being defeated)
+
+* Upon entering phase 2
+** "You've got skill... I'll give you that, mortal. But the real fight starts now." (Upon entering Phase 2, on the first time summoned) 
+** "No more of this. The real fight starts now." (Upon entering Phase 2) 
+
+* Mediumcore/Hardcore Specific
+** "And you're back, despite what happens every time you fail." (When summoned for the fourth time, on Mediumcore)
+** "A worthy challenger? ...this should be interesting." (When summoned on Hardcore)
+** "I should expect nothing less from a challenger like you. But the real fight starts now." (Upon entering Phase 2 on Hardcore) 
+
+* Journey Specific
+** "It seems you have artificial power. I will be be anticipating a swift death." (When summoned for the first time on Journey mode difficulty set to the lowest)
+** "How did you not kill me the first time?" (When summoned for the second time on Journey mode difficulty set to the lowest)
+
+* Death/Malice/Infernum Specific
+** "You seem very acquainted with failure. This must be normal for you." (When summoned for the seventh time on Death, Malice or [[Community modifications | Infernum]])
+
+* Name Specific
+** "Ah, if it isn't the famous 'Jetstream Sam'. I'd suggest you leave before you die. (When summoned for the first time, if the player is named 'Samuel Rodriguez' or 'Jetstream Sam')
+** "YOU. I WILL RELISH ENDING YOUR LIFE." (When summoned, if the player is named 'Fabsol', 'Cirrus', 'Drew' or 'MountainDrew')
+** "DO YOU THINK THIS IS FUNNY?" (When summoned, if the player is named 'Fab', 'Fabsok', 'Fabso', 'Cirrud' 'Cirrua', or 'Cirru')
+** "If it isn't everyone's favourite impostor. Oh well, on to annihilating you. (When summoned for the first time, if the player is named 'Draedon', 'Yharim' or 'Permafrost')
+** "If it isn't everyone's favourite impostor. Oh well, on to incinerating you. (When summoned for the first time, if the player is named 'Calamitas')
+** "Oh no. Oh no. Oh no. Oh no." (All quotes are replaced with this if the player is named 'Calig', 'Caligulas' or 'CaligulasAquarium')
+** "YuH" (All quotes are replaced with this if the player is named 'YuH' or 'GinYuH')
+** "Bloop" (All quotes are replaced with this if the player is named 'Bloop')
+** "Happy birthday. So sorry that I have to kill you on your special day." (When summoned for the first time, if the date is June 1st and the player is named 'Block' or 'Blockaroz')
+** "You wish you could be me, but I'm not sure why you'd want that." (When summoned for the first time, if the player is named 'P03' or 'AX-P03')
+** "Human... I remember you're {{Color|Inscryption reference goes here|#D5040B}}" (When summoned for the first time, if the player is named 'Frisk' or 'Chara')
+
+== Trivia ==
+* AX-P03 is inspired by the character P03 from [https://en.wikipedia.org/wiki/Inscryption Inscryption].
+* AX-P03's first phase is similar to the Flesh Prison from [https://en.wikipedia.org/wiki/Ultrakill Ultrakill].
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

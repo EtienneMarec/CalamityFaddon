@@ -1,0 +1,61 @@
+{{dedicated|OneGuy/Nincity|Developer}}
+{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = Call upon the force of heaven to empower your attacks and minions <br/> Courage, Enlightenment, Bliss. United in Judgement <br/> +2 max minions, 15% increased summon damage, and 8% increased damage to all other classes <br/> Life regeneration is boosted while jumping <br/> Press {{key|Angelic Alliance Blessing}} to grace yourself in divinity for 15 seconds <br/> While under the effects of Divine Bless, a holy construct of the One Order is summoned which scales in damage for every minion you have <br/> All minion attacks inflict Banishing Fire and you are granted a flat health boost of four health per second <br/> This effect has a cooldown of 1 minute
+| buff = Divine Bless | bufflink = no
+| duration = 15 seconds
+| bufftip = Increased health regen and minions inflict Banishing Fire
+| debuff = Divine Recharge | debufflink = no
+| debuffchance = 100% (After blessing usage)
+| debuffduration = 1 minute
+| debufftip = Your divine powers are recharging
+| debuff2 = Banishing Fire | debufflink2 = no
+| debuffchance2 = 100%
+| debuffduration2 = 1 second (Minions)<br/>5 seconds (Construct Beam)
+| debufftip2 = You shall not be forgiven for your sins
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| rare = 16
+| sell = {{value|0|40}}
+| proj = Angelic Alliance Archangel.png
+| projcaption = OneConstruct
+| image2 = Alliance Triangle.png
+| image2caption = Alliance Triangle
+| element1 = Holy
+| element2 = Fire
+}}
+
+The '''Angelic Alliance''' is a craftable Godseeker Mode [[covering]]. While equipped, the player is granted +2 max minions, +15% increased summon damage and +8% increased damage to all non-summoner classes. In addition, the player is granted +4 life regen while jumping or flying. Pressing the {{key|Angelic Alliance Blessing}} key will grant the '''Divine Bless''' [[buff]] for 15 seconds. While under the effects of Divine Bless, the player gains +5% increased damage and 2.5x health regen, along with a flat health regen boost of four health per second. All minion attacks will inflict the '''Banishing Fire''' [[debuff]] for one second, which deals different damage depending on the maximum health of the enemy being attacked:
+*If the enemy has less than 1,000,000 max health, Banishing Fire deals 2,000 damage per second.
+*If the enemy has 1,000,000 or more max health, Banishing Fire deals 0.2% of the enemy's max health as damage per second (which would result in a minimum of 2,000 damage per second).
+Furthermore, a holy construct from the One Order is summoned while Divine Bless is activated, which has a flat damage stat of 3020 and scales by 30% with each minion slot the player has. The construct will spawn and instantly heal the player for two health. The construct then starts accelerating towards enemies and stabbing them with its sword to create translucent copies of the angel from random positions near hit enemies that strike inwards.
+
+When the effects of Divine Bless run out, the player will be inflicted with the debuff '''Divine Recharge''' for one minute, which prevents the user from activating Divine Bless for the duration of the debuff. When Divine Recharge runs out, a triangle of light will emit from the player, signalling that Divine Bless is able to be activated again.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The [[Oiled]] [[debuff]] increases the damage over time from Banishing Fire by 187.5 damage per second.
+
+== Trivia ==
+*This item, its buff icon and recipe are references to the [https://heroes.thelazy.net//index.php/Angelic_Alliance Angelic Alliance] artifact from ''[[wikipedia:Heroes_of_Might_and_Magic_III|Heroes of Might and Magic III]]''.
+*Its recharge animation is a reference to Prophet Velen's animation from the game ''[[wikipedia:Hearthstone|Hearthstone]]''.
+*The translucent copies are a reference to the unimplemented [[First Fractal]] weapon from the vanilla game, which summons copies of the player.
+*This covering actually has a unique rarity, but is referred to here as Hot Pink for consistency between items.
+**This unique rarity alternates between light orange ({{color|#FFC437 ●|#FFC437}}), yellow ({{color|#FFE76B ●|#FFE76B}}), and pale ({{color|#FFFEF3 ●|#FFFEF3}}).
+
+{{-}}
+{{Shadowspec}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 56
+| knockback = 3
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| auto = yes
+| velocity = 12
+| use = 18
+| tooltip = Fires two arrows at once<br/>Converts wooden arrows into plague arrows that explode into bees on death
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| hardmode = yes
+| proj = Plague Arrow.png
+| projcaption = Plague Arrow
+| proj2 = Bee 1.png
+| proj2caption = Bee
+| element1 = Poison
+| element2 = Stab
+| element3 = Machine
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Malevolence''' is a [[Hardmode]] [[bow]] that is dropped by [[The Plaguebringer Goliath]]. It fires two arrows in a slight spread. If [[Wooden Arrow]]s are used as [[ammo]], the arrows are replaced with plague arrows that explode into bees upon tile or enemy contact, inflicting the [[Plague]] debuff onto any hit enemy.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

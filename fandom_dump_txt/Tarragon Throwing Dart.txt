@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damage = 380
+| damagetype = Spy
+| consumable = true
+| knockback = 4.5
+| use = 10
+| velocity = 12
+| stack = 9999
+| tooltip = Fires a piercing dart with reduced immunity frames<br/>Stealth strikes erupt into thorns on enemy hits
+| rare = 12
+| sell = {{value|0|0|0|30}}
+| hardmode = yes
+| postml = yes
+| auto = yes
+| element1 = stab
+| element2 = poison
+}}
+
+'''Tarragon Throwing Darts''' are craftable Godseeker Mode [[daggers]]. They fire a long, spear-like projectile which pierces twice. They travel a significantly further distance than most other thrown items. They have a 50% chance of being recovered after being thrown.
+
+Performing a [[stealth strike]] with Tarragon Throwing Darts causes a circle of eight thorns to encircle enemies on the resulting hit. Each thorn deals 25% of the dart's damage.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Uelibloom}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Spy weapons]]
+[[Category:Daggers]]

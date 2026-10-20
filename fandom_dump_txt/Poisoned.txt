@@ -1,0 +1,53 @@
+{{dablink|For the vanilla debuff page see [[tgc:Poisoned|Poisoned]]}}
+
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-2 life per second<br/>-10% movement speed (if player)<br/>-2 life per second (if enemy)
+| tooltip = Slowly losing life
+}}
+
+'''Poisoned''' is a vanilla [[debuff]] that deals damage over time and prevents natural life regeneration to anything it afflicts. The Calamity Mod causes the Poisoned debuff to also reduce the player's movement speed by 10%.
+
+== Causes ==
+=== From Calamity Items ===
+{{item debuffs
+|{{item|mode=table|Flask of Poison}}|5-9 seconds (Spy attacks)|100%
+}}
+
+=== From Calamity NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+| {{item|mode=table|Plantera}}||{{revengeance|4 seconds}} (Thorn ball)<br/>{{revengeance|5 seconds}} (Contact in Phase 2)||{{revengeance|100%}}
+|-
+| {{item|mode=table|Plantera's Tentacle}}||{{revengeance|2 seconds}}||{{revengeance|100%}}
+|-
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

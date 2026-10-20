@@ -1,0 +1,446 @@
+{| class="terraria lined"
+! style="padding:0px 80px" | NPC
+! style="padding:0px 80px" | Item
+! style="padding:0px 20px" | Price
+! Conditon
+|-
+| rowspan = 17 style="text-align:center" | {{item|Merchant}}
+| {{item|Bottle}}
+| {{value|0|0|0|20}}
+| Always Available
+|-
+| {{item|Wormhole Potion}}
+| {{value|0|0|25|0}}
+| Always Available
+|-
+| {{item|Archery Potion}}
+| {{value|0|2|0|0}} in [[Pre-Hardmode]]<br/>{{value|0|4|0|0}} in [[Hardmode]]<br/>{{value|0|8|0|0}} Post [[Moon Lord]]
+| After [[Eye of Cthulhu]] has been defeated.
+|-
+| {{item|Titan Potion}}
+| {{value|0|2|0|0}}
+| After [[Skeletron]] has been defeated.
+|-
+| {{item|Flare}}
+| {{value|0|0|0|7}}
+| When the player possesses a [[Firestorm Cannon]] or [[Spectralstorm Cannon]].
+|-
+| {{item|Apprentice Bait}}
+| {{value|0|0|5|0}}
+| After [[Eye of Cthulhu]] has been defeated.
+|-
+| {{item|Healing Potion}}
+| {{value|0|0|10|0}}
+| After [[Brain of Cthulhu]] or [[Eater of Worlds]] has been defeated.
+|-
+| {{item|Mana Potion}}
+| {{value|0|0|2|50}}
+| After [[Brain of Cthulhu]] or [[Eater of Worlds]] has been defeated.
+|-
+| {{item|Journeyman Bait}}
+| {{value|0|0|15|0}}
+| After [[Skeletron]] has been defeated.
+|-
+| {{item|Crimson Rod}}
+| {{value|0|1|0|0}}
+| After destroying a [[Shadow Orb]].
+|-
+| {{item|Vilethorn}}
+| {{value|0|1|0|0}}
+| After destroying a [[Crimson Heart]].
+|-
+| {{item|The Rotted Fork}}
+| {{value|0|2|70|0}}
+| After destroying a [[Shadow Orb]].
+|-
+| {{item|Ball O' Hurt}}
+| {{value|0|2|70|0}}
+| After destroying a [[Crimson Heart]].
+|-
+| {{item|Master Bait}}
+| {{value|0|0|50|0}}
+| After [[Plantera]] has been defeated.
+|-
+| {{item|Angel Statue}}
+| {{value|0|5|0|0}}
+| If there is a [[Bandit]] in the world.
+|-
+| {{item|Snow Globe}}
+| {{value|0|5|0|0}}
+| If there is a [[Snowman]] in the world.
+|-
+| {{item|Ultrabright Torch}}
+| {{value|0|0|3|0}}
+| In [[Death Mode]].
+|-
+| rowspan = 6 style="text-align:center"| {{item|Demolitionist}}
+| {{item|Mining Potion}}
+| {{value|0|1|0|0}}
+| After [[Eye of Cthulhu]] has been defeated.
+|-
+| {{item|Ironskin Potion}}
+| {{value|0|1|0|0}}
+| After [[Eye of Cthulhu]] has been defeated.
+|-
+| {{item|Shine Potion}}
+| {{value|0|1|0|0}}
+| After [[Eye of Cthulhu]] has been defeated.
+|-
+| {{item|Spelunker Potion}}
+| {{value|0|2|0|0}}
+| After [[Eater of Worlds]] or [[Brain of Cthulhu]] has been defeated.
+|-
+| {{item|Obsidian Skin Potion}}
+| {{value|0|2|0|0}}
+| After [[Skeletron]] has been defeated.
+|-
+| {{item|Endurance Potion}}
+| {{value|0|2|0|0}} in [[Pre-Hardmode]]<br/>{{value|0|4|0|0}} in [[Hardmode]]<br/>{{value|0|8|0|0}} Post [[Moon Lord]]
+| After [[Skeletron]] has been defeated.
+|-
+| rowspan = 13 style="text-align:center"| {{item|Dryad}}
+| {{item|Thorns Potion}}
+| {{value|0|1|0|0}}
+| Always Available
+|-
+| {{item|Featherfall Potion}}
+| {{value|0|1|0|0}}
+| Always Available
+|-
+| {{item|Regeneration Potion}}
+| {{value|0|2|0|0}}
+| After [[Eater of Worlds]] or [[Brain of Cthulhu]] has been defeated.
+|-
+| {{item|Swiftness Potion}}
+| {{value|0|2|0|0}} in [[Pre-Hardmode]]<br/>{{value|0|4|0|0}} in [[Hardmode]]<br/>{{value|0|8|0|0}} Post [[Moon Lord]]
+| After [[Eater of Worlds]] or [[Brain of Cthulhu]] has been defeated.
+|-
+| {{item|Jungle Rose}}
+| {{value|0|2|0|0}}
+| Always available.
+|-
+| {{item|Nature's Gift}}
+| {{value|0|10|0|0}}
+| Always available.
+|-
+| {{item|Panic Necklace}}
+| {{value|0|5|0|0}}
+| After destroying a [[Shadow Orb]].
+|-
+| {{item|Band of Starpower}}
+| {{value|0|5|0|0}}
+| After destroying a [[Crimson Heart]].
+|-
+| {{item|Brain of Confusion}}
+| {{value|0|5|0|0}}
+| After [[Eater of Worlds]] has been defeated in [[Expert Mode]].
+|-
+| {{item|Worm Scarf}}
+| {{value|0|5|0|0}}
+| After [[Brain of Cthulhu]] has been defeated in [[Expert Mode]].
+|-
+| {{item|Bloody Worm Tooth}}
+| {{value|0|9|0|0}}
+| After [[The Hive Mind]] has been defeated in [[Expert Mode]].
+|-
+| {{item|Rotten Brain}}
+| {{value|0|9|0|0}}
+| After [[The Perforators]] have been defeated in [[Expert Mode]].
+|-
+| {{item|Romajeda Orchid}}
+| {{value|0|40|0|0}}
+| Always available.
+|-
+| rowspan = 2 style="text-align:center" | {{item|Dye Trader}}
+| {{item|Exotic Scimitar}}
+| {{value|0|15}}
+| Always available.
+|-
+| {{item|Defiled Flame Dye}}
+| {{value|0|10}}
+| In [[Hardmode]].
+|-
+| rowspan = 5 style="text-align:center" | {{item|Stylist}}
+| {{item|Stylish Scissors}}
+| {{value|0|15|0|0}}
+| Always available.
+|-
+| {{item|Adrenaline Hair Dye}}
+| {{value|0|7|50|0}}
+| In [[Revengeance Mode]].
+|-
+| {{item|Rage Hair Dye}}
+| {{value|0|7|50|0}}
+| In [[Revengeance Mode]].
+|-
+| {{item|Stealth Hair Dye}}
+| {{value|0|5|0|0}}
+| If the player has a maximum [[Spy]] [[Spy Stealth|stealth]] value greater than zero.
+|-
+| {{item|Wing Time Hair Dye}}
+| {{value|0|7|50|0}}
+| If the player has a maximum flight time greater than zero.
+|-
+| rowspan = 2 style="text-align:center" | {{item|Skeleton Merchant}}
+| {{item|Calcium Potion}}
+| {{value|0|1|0|0}}
+| Always Available
+|-
+| {{item|Marrow}}
+| {{value|0|36}}
+| In [[Hardmode]].
+|-
+| rowspan = 13 style="text-align:center" | {{item|Arms Dealer}}
+| {{item|Stake}}
+| {{value|0|0|0|15}}
+| When the player possesses an [[Impaler]].
+|-
+| {{item|Magnum Rounds}}
+| {{value|0|6|0|0}} in [[Pre-Hardmode]]<br/>{{value|0|12|0|0}} in [[Hardmode]]<br/>{{value|0|24|0|0}} Post [[Moon Lord]]
+| When the player possesses a [[Magnum]], [[Lightning Hawk]], or [[Elephant Killer]].
+|-
+| {{item|Grenade Shells}}
+| {{value|0|10|0|0}} in [[Pre-Hardmode]]<br/>{{value|0|20|0|0}} in [[Hardmode]]<br/>{{value|0|40|0|0}} Post [[Moon Lord]]
+| When the player possesses a [[Bazooka]].
+|-
+| {{item|Explosive Shotgun Shell}}
+| {{value|0|14|0|0}} in [[Pre-Hardmode]]<br/>{{value|0|28|0|0}} in [[Hardmode]]<br/>{{value|0|56|0|0}} Post [[Moon Lord]]
+| When the player possesses a [[Hydra]].
+|-
+| {{item|Ammo Reservation Potion}}
+| {{value|0|1|0|0}}
+| Always available.
+|-
+| {{item|Hunter Potion}}
+| {{value|0|2|0|0}}
+| Always available.
+|-
+| {{item|Battle Potion}}
+| {{value|0|2|0|0}}
+| After [[Eater of Worlds]] or [[Brain of Cthulhu]] has been defeated.
+|-
+| {{item|The Undertaker}}
+| {{value|0|10|0|0}}
+| After destroying a [[Shadow Orb]].
+|-
+| {{item|Musket}}
+| {{value|0|10|0|0}}
+| After destroying a [[Crimson Heart]].
+|-
+| {{item|Boomstick}}
+| {{value|0|20|0|0}}
+| After [[Queen Bee]] has been defeated.
+|-
+| {{item|Tactical Shotgun}}
+| {{value|0|25|0|0}}
+| After [[Golem]] has been defeated.
+|-
+| {{item|Sniper Rifle}}
+| {{value|0|25|0|0}}
+| After [[Golem]] has been defeated.
+|-
+| {{item|Rifle Scope}}
+| {{value|0|25|0|0}}
+| After [[Golem]] has been defeated.
+|-
+| style="text-align:center" | {{item|Painter}}
+| {{item|Paintball Gun}}
+| {{value|0|15|0|0}}
+| Always available.
+|-
+| rowspan = 7 style="text-align:center" | {{item|Goblin Tinkerer}}
+| {{item|Stink Potion}}
+| {{value|0|1|0|0}}
+| Always available.
+|-
+| {{item|Melee Level Meter}}
+| {{value|0|5|0|0}}
+| Always available.
+|-
+| {{item|Ranged Level Meter}}
+| {{value|0|5|0|0}}
+| Always available.
+|-
+| {{item|Magic Level Meter}}
+| {{value|0|5|0|0}}
+| Always available.
+|-
+| {{item|Summon Level Meter}}
+| {{value|0|5|0|0}}
+| Always available.
+|-
+| {{item|Spy Level Meter}}
+| {{value|0|5|0|0}}
+| Always available.
+|-
+| {{item|Stat Meter}}
+| {{value|0|5|0|0}}
+| Always available.
+|-
+| rowspan = 11 style="text-align:center" | {{item|Witch Doctor}}
+| {{item|Momentum Capacitor}}
+| {{gc|60}}
+| After all three Mechanical Bosses have been defeated.
+|-
+| {{item|Summoning Potion}}
+| {{value|0|2|0|0}} in [[Pre-Hardmode]]<br/>{{value|0|4|0|0}} in [[Hardmode]]<br/>{{value|0|8|0|0}} Post [[Moon Lord]]
+| Always available.
+|-
+| {{item|Calming Potion}}
+| {{value|0|1|0|0}}
+| Always available.
+|-
+| {{item|Rage Potion}}
+| {{value|0|2|0|0}} in [[Pre-Hardmode]]<br/>{{value|0|4|0|0}} in [[Hardmode]]<br/>{{value|0|8|0|0}} Post [[Moon Lord]]
+| Always available.
+|-
+| {{item|Wrath Potion}}
+| {{value|0|2|0|0}} in [[Pre-Hardmode]]<br/>{{value|0|4|0|0}} in [[Hardmode]]<br/>{{value|0|8|0|0}} Post [[Moon Lord]]
+| Always available.
+|-
+| {{item|Inferno Potion}}
+| {{value|0|2|0|0}}
+| Always available.
+|-
+| {{item|Sulphuric Water Fountain}}
+| {{value|0|4|0|0}}
+| Always Available.
+|-
+| {{item|Sunken Water Fountain}}
+| {{value|0|4|0|0}}
+| Always Available.
+|-
+| {{item|Abyss Water Fountain}}
+| {{value|0|4|0|0}}
+| In [[Hardmode]].
+|-
+| {{item|Astral Water Fountain}}
+| {{value|0|4|0|0}}
+| In [[Hardmode]].
+|-
+| {{item|Butterfly Dust}}
+| {{value|0|10|0|0}}
+| After [[Golem]] has been defeated.
+|-
+| rowspan = 8 style="text-align:center" | {{item|Clothier}}
+| {{item|Dungeon Brick Wall Unsafe}}
+| {{value|0|0|0|10}}
+| Always available.
+|-
+| {{item|Counter Scarf}}
+| {{value|0|10|0|0}}
+| Always available.
+|-
+| {{item|Golden Key}}
+| {{value|0|5|0|0}}
+| In [[Hardmode]].
+|-
+| {{item|God Slayer Horned Helm}}
+| {{value|0|8|0|0}}
+| After [[The Devourer of Gods]] has been defeated
+|-
+| {{item|God Slayer Visage}}
+| {{value|0|8|0|0}}
+| After [[The Devourer of Gods]] has been defeated
+|-
+| {{item|Silva Helm}}
+| {{value|0|8|0|0}}
+| After [[The Devourer of Gods]] has been defeated
+|-
+| {{item|Silva Horned Helm}}
+| {{value|0|8|0|0}}
+| After [[The Devourer of Gods]] has been defeated
+|-
+| {{item|Silva Mask}}
+| {{value|0|8|0|0}}
+| After [[The Devourer of Gods]] has been defeated
+|-
+| style="text-align:center" | {{item|Traveling Merchant}}
+| {{item|Frost Barrier}}
+| {{value|0|5|0|0}}
+| During a [[tgc:Full moon|Full moon]].
+|-
+| rowspan = 10 style="text-align:center" | {{item|Wizard}}
+| {{item|Mana Regeneration Potion}}
+| {{value|0|2|0|0}} in [[Pre-Hardmode]]<br/>{{value|0|4|0|0}} in [[Hardmode]]<br/>{{value|0|8|0|0}} Post [[Moon Lord]]
+| Always available.
+|-
+| {{item|Magic Power Potion}}
+| {{value|0|2|0|0}} in [[Pre-Hardmode]]<br/>{{value|0|4|0|0}} in [[Hardmode]]<br/>{{value|0|8|0|0}} Post [[Moon Lord]]
+| Always available.
+|-
+| {{item|Gravitation Potion}}
+| {{value|0|2|0|0}}
+| Always available.
+|-
+| {{item|Howl's Heart}}
+| {{value|0|12|0|0}}
+| Always available.
+|-
+| {{item|Magic Missile}}
+| {{value|0|5|0|0}}
+| Always available.
+|-
+| {{item|Rod of Discord}}
+| {{value|20|0|0|0}}
+| When spoken to in a [[Hallow]] or [[Underground Hallow]].
+|-
+| {{item|Spectre Staff}}
+| {{value|0|25|0|0}}
+| After [[Golem]] has been defeated.
+|-
+| {{item|Inferno Fork}}
+| {{value|0|25|0|0}}
+| After [[Golem]] has been defeated.
+|-
+| {{item|Shadowbeam Staff}}
+| {{value|0|25|0|0}}
+| After [[Golem]] has been defeated.
+|-
+| {{item|Magnet Sphere}}
+| {{value|0|25|0|0}}
+| After [[Golem]] has been defeated.
+|-
+| style="text-align:center" | {{item|Steampunker}}
+| {{item|Astral Solution}}
+| {{value|0|0|5|0}}
+| Always available.
+|-
+| rowspan = 3 style="text-align:center" | {{item|Cyborg}}
+| {{item|Rocket Launcher}}
+| {{value|0|25|0|0}}
+| After [[Golem]] has been defeated.
+|-
+| {{item|Martian Distress Beacon}}
+| {{value|0|50|0|0}}
+| After [[Golem]] has been defeated.
+|-
+| {{item|Lion Heart}}
+| {{value|1|40|0|0}}
+| After [[Polterghast]] has been defeated.
+|-
+| style="text-align:center" | {{item|Mechanic}}
+| {{item|Builder Potion}}
+| {{value|0|1|0|0}}
+| Always available.
+|-
+| rowspan = 4 style="text-align:center" | {{item|Party Girl}}
+| {{item|Heartreach Potion}}
+| {{value|0|2|0|0}}
+| Always available.
+|-
+| {{item|Lifeforce Potion}}
+| {{value|0|4|0|0}} in [[Hardmode]]<br/>{{value|0|8|0|0}} Post [[Moon Lord]]
+| Always available.
+|-
+| {{item|Love Potion}}
+| {{value|0|1|0|0}}
+| Always available.
+|-
+| {{item|Gender Change Potion}}
+| {{value|0|1|0|0}}
+| Always available.
+|-
+|}
+
+[[Category:Game mechanics]]

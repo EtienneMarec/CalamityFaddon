@@ -1,0 +1,36 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| image = Statis' Curse.gif
+| tooltip = Increased max minions by 3, does not stack with downgrades<br/>10% increased minion damage<br/>Increased minion knockback<br/>Minions inflict holy flames and shadowflames on hit
+| debuff = Shadowflame
+| debuffduration = 3 seconds (On minion hits)
+| debuffchance = 100%
+| debufftip = Losing life
+| debuff2 = Holy Flames
+| debuffduration2 = 3 seconds (On minion hits)
+| debufftip2 = Dissolving from holy light
+| debuffchance2 = 100%
+| covering = True
+| rare = 10
+| hardmode = yes
+| stack = 1
+| sell = {{value|0|20}}
+}}
+{{dablink|If you were looking for another Statis-themed item, see [[Statis (disambiguation)]].}}
+
+The '''Statis' Curse''' is a craftable [[Hardmode]] [[covering]]. It increases the player's max [[minion]]s by 3, which doesn't stack with downgrades, increases minion damage by 10%, increases minion knockback, and gives minions the ability to inflict the [[Shadowflame]] and [[Holy Flames]] [[debuff]]s on [[enemy]] hits for 3 seconds.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

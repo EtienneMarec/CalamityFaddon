@@ -1,0 +1,33 @@
+wasn't Innstellar Stomper put in the new update? [[Special:Contributions/24.112.247.53|24.112.247.53]] 15:08, 17 June 2019 (UTC)
+
+:No Intersteller Stomper is currently not in-game. However, it will be added with the next update alongside the other two new astral tracks. [[User:Merkalto|Merkalto]] ([[User talk:Merkalto|talk]]) 15:41, 17 June 2019 (UTC)
+
+== Astrum Aureus crashes game when generating Astral Meteor (Multiplayer) ==
+
+Terraria Version: v1.3.5.3
+tModLoader Version: v0.11.8
+
+Current Mods: 
+Magic Storage
+Calamity No Music
+
+
+Immediately after killing Astral Aureus, the game crashes and the "Lost Connection" screen comes up. After reviewing the server logs, it looks like an Unhandled Exception is occurring when trying to generate the Astral Meteor as seen below:
+
+
+[14:25:38] [13/ERROR] [tML]: Unhandled Exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.WorldGen.KillTile(Int32 i, Int32 j, Boolean fail, Boolean effectOnly, Boolean noItem)
+   at CalamityMod.World.WorldGenerationMethods.GenerateAstralMeteor(Int32 i, Int32 j) in CalamityMod\World\WorldGenerationMethods.cs:line 622
+   at CalamityMod.World.WorldGenerationMethods.PlaceAstralMeteor() in CalamityMod\World\WorldGenerationMethods.cs:line 427
+   at CalamityMod.World.WorldGenerationMethods.AstralMeteorThreadWrapper(Object context) in CalamityMod\World\WorldGenerationMethods.cs:line 334
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+If there is any way I can help, please feel free to reach out to me. I am a software engineer and am willing to volunteer my help in solving this issue. Have a great day!
+
+:Don't report bugs on the Wiki, there is a dedicated channel in the Discord server for this. [[User:Temp35|Temp35 (The One True King)]] ([[User talk:Temp35|talk]]) 23:10, 6 January 2021 (UTC)

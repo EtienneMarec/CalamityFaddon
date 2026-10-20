@@ -1,0 +1,21 @@
+<includeonly>
+<infobox>
+  <title source="title1"/>
+  <data source="row1"/>
+</infobox>
+</includeonly>
+<noinclude>
+Example usage:
+<pre>
+{{Informational Impact
+
+  | title1=Example
+
+  | row1=Example
+
+}}
+</pre>
+<templatedata>
+{"params":{"title1":{"suggested":true},"row1":{"suggested":true}},"sets":[],"maps":{}}
+</templatedata>
+</noinclude>

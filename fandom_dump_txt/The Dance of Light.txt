@@ -1,0 +1,48 @@
+{{dedicated|RandomZachOfKindness|Developer}}
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 415
+| critical = 24%
+| knockback = 4
+| mana = 6
+| use = 8
+| velocity = 14
+| auto = yes
+| stack = 1
+| tooltip = Barrages enemies with a hailstorm of Light Blades<br/>'I said ooh, I'm blinded by the lights'
+| rare = 16
+| sell = {{value|0|40}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Dancing Light Blade.png
+| projcaption = Dancing Light Blade
+| element1 = Holy
+| element2 = Slash
+}}
+[[File:The Dance of Light (demo).gif|frame|The Dance of Light being used against a group of [[Target Dummy|Target Dummies]], causing a flash of light after many hits that damages all Target Dummies including the one behind the player.]]
+
+'''The Dance of Light''' is a craftable Epilogue [[developer]] [[spell tome]]. Upon use, it rapidly summons four pairs of fast inaccurate Light Blade projectiles from a cone around the player towards the cursor's direction. Each pair of light blades will curve, converge, and home with each other; each projectile piercing up to two targets and pass through tiles. Once the blades have struck something 300 times, all nearby blades vanish and a flash of light appears from above to damage all enemies in a large area. The flash of light deals 16,000 magic damage added by the damage of all blades that vanished, then divided by the number of targets, and will always be a critical hit.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The flash of light does not appear when in Retro or Trippy color modes.
+
+== Trivia ==
+*This weapon actually has a unique rarity, but is referred to here as Hot Pink for consistency between weapons.
+**This unique rarity alternates between pink ({{color|#FF80FF ●|#FF80FF}}) and light pink ({{color|#FFD9FF ●|#FFD9FF}}) colors.
+*The second part of the tooltip is a reference to the song "Blinding Lights" by The Weeknd.
+*The flash of light at the end of the weapon's attack cycle might also be a reference to said song.
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

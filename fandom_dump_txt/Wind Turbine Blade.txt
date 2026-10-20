@@ -1,0 +1,32 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 90
+| knockback = 2
+| rare = 9
+| sell = {{value|0|10}}
+| stack = 1
+| auto = yes
+| use = 10
+| velocity = 5
+| tooltip = Thrusts towards the cursor when used<br/>Right clicking after stabbing 3 times will result in a much larger swing, accompanied by a gust of wind
+| hardmode = yes
+| element1 = Holy
+| element2 = Slash
+| element3 = Stab
+}}
+
+The '''Wind Turbine Blade''' is a craftable [[Hardmode]] [[melee weapon]]. When used, the weapon is thrusted towards the player's cursor. After using the weapon 3 times, it will go on a 1 second cooldown before being usable again. If the player right clicks during this cooldown period, the side of the weapon grows by 200% and launches a homing tornado that ignores immunity frames.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}

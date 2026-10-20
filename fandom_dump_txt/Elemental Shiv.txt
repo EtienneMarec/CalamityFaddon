@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 11
+| sell = {{value|0|22}}
+| damage = 168
+| use = 10
+| velocity = 14
+| knockback = 8.5
+| tooltip = Don't underestimate the power of shivs<br/>Shoots a rainbow shiv that spawns additional shivs on hit<br/>Shortflurry attacks split into more beams and increase melee speed, DR, and defense by 15%
+| auto = yes
+| stack = 1
+| hardmode = yes
+| postml = yes
+| debuff = Elemental Mix
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| proj = Elemental Shiv Blade.png
+| projcaption = Elemental Shiv Blade
+| element1 = Magic
+| element2 = Stab
+}}
+
+The '''Elemental Shiv''' is a craftable Godseeker Mode [[shortsword]] that autoswings. It fires a homing projectile that can pass through blocks but cannot pierce enemies. Once these projectiles impact an enemy, six magical shivs are summoned off-screen to the left and right-side of the player, flying towards the hit enemy. As with the initial projectile, the summoned shivs will pierce blocks. The initial projectile will fire horizontally to the right or left, until enemies are nearby, which will cause the shots to curve into the enemy.
+
+When the weapon's [[Shortstrike]] ability activates, short travelling beams are shot out which split into 5 more beams which also create more summoned shivs and heal the player for 5 health per hit. Additionally, player melee speed, defense, and damage reduction are boosted by 15%.
+{{modifier|melee}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Elemental Shiv/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Elemental}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]

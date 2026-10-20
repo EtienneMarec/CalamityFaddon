@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 64
+| knockback = 5.5
+| mana = 18
+| use = 15
+| velocity = 5.5
+| debuff = Plague
+| debuffchance = 100%
+| debufftip = Rotting from the inside
+| debuffduration = 5 seconds
+| auto = yes
+| stack = 1
+| tooltip = 'What? I do not remember this being made. I do not know if it ever even had an effect, but I guess it was sprited. Do what you wish. -Draedon'
+| rare = 8
+| sell = {{value|0|16}}
+| hardmode = yes
+| element1 = Poison
+| element2 = Water
+| element3 = Machine
+}}
+
+The '''Toxic Wisdom''' is a  [[Hardmode]] [[spell tome]] that drops from the [[Plaguebringer Goliath]]. It fires poisonous hieroglyphs and wisps of [[Pigron]]s which inflict [[Plague]]. 
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The name is a reference to the theme of [[The Old Duke]].
+*This is the only tooltip where [[Draedon]] directly communicates with the player.
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

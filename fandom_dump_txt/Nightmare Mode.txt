@@ -1,0 +1,184 @@
+{{Historical content}}
+{{Addon|Tranquility Mod}}
+<big> ''"Brace yourself before the face of the nightmare..."'' </big>
+
+{{float file box
+| [[File:Nightmare_Mode.png]]<hr/>[[File:Nightmare_Mode_Indicator.png]]
+| The Nightmare Mode icon as it can be seen in the Difficulty Indicator UI
+| width = 210px
+}}
+
+'''Nightmare Mode''' is the fourth and an ultimate difficulty mode, that can be activated by right-clicking the [[Apocalyptic Jewel]] only while the [[Death Mode]] is activated.
+Activating it in a world without the [[Death Mode]] activated would display a message in the chat saying "You have to be worthy enough to withstand the Nightmare." and will not activate the mode. Once activated, a sound: [[File:DemonicLaughter.wav]] will play and the message in the chat will be displayed: "Brace yourself before the face of the Nightmare!", the mode's icon would be shown on the Difficulty Indicator, replacing the [[Death Mode]]'s icon. The mode can also be disabled by right-clicking the [[Apocalyptic Jewel]], upon disabling the mode, a message in the chat will display saying: "<PlayerName> couldn't withstand the Nightmare." Trying to disable the mode while a boss is alive will crash the game.
+
+== General Changes ==
+*Boosts stats of all [[Enemies|enemies]] throughout the game and all enemies are now immune to knockback, also buffs or reworks AIs of most enemies, as well as some bosses.
+*All bosses have a 20% chance to reflect almost any non-minion projectile back at the player, some enemies have a 33% chance to reflect almost any non-minion projectile back at the player.
+*All bosses' attacks ignore 100% of the player's defense, rendering it useless, all enemies' attacks ignore 50% of the player's defense.
+*Some bosses' attacks completely ignore the player's immunity frames.
+*Overwhelming majority of hostile projectiles have their velocity multiplied by 1.5x.
+*Some hostile projectiles have a random chance of splitting upon contacting a tile or player. Split hostile projectiles always home into the player.
+*All bosses' contact damage has a 33% chance to critically hit the player, dealing more damage, up to 3x. All bosses' projectiles have a chance to instakill the player.
+*[[tgc:Heart|Hearts]] and [[tgc:Star|mana stars]] no longer drop from statues, rendering them useless, and now only drop from killed enemies, it doesn't work while a [[Bosses|boss]] is alive.
+*[[Lifesteal]] is now capped at 10 HP and every time it activates, this amount decreases by 1, until it will drop to 1.
+*Reintroduces the environmental hazards and random boss spawns from the [[Death Mode]], as well as some features from the previous versions of the Calamity Mod.
+
+== All Changes ==
+{{collapse top|Click to display list}}
+*Player's [[tgc:Immunity frames|immunity frames]] are now capped at 60.
+*On the [[tgc:Mediumcore|Mediumcore mode]] the player can only die 10 times before dying permanently (the Permadeath mechanic is similar to the [[tgc:Hardcore|hardcore mode]]), and the respawn time is now always reduced to 1 second when out of combat.
+*Healing potions now only heal you by 50% of their original amount, but also have the [[tgc:Potion Sickness|Potion Sickness]] debuff permanently decreased to 30 seconds, and this debuff now decreases the player's [[tgc:Life Regen|life regen]] by 10, [[tgc:Mana Sickness|Mana Sickness]] debuff now decreases the player's mana regen by 10.
+*All [[Potions|buff potions]] have their effects' efficiency reduced by 50%, however, the [[Buffs|buffs]] remain after the player dies, the buff durations are permanently doubled.
+*The player has a 2.5% chance by default to survive an attack that would normally instakill them.
+*Increased overall spawnrates by 2x, increased spawnrates in the [[tgc:Jungle|Jungles]] by 3x, in the [[tgc:Dungeon|Dungeon]] by 4x and in the [[tgc:Underworld|Underworld]] by 5x. However, effects that decrease enemy spawnrates are now twice as effective.
+*Buffed several Vanilla and Calamity Mod's [[Debuffs]], particularly their effects while inflicted on player.
+*Any [[True melee|true melee]] weapon has a 20% chance to reflect almost any hostile projectile back to the attacker with increased damage.
+*Placed boss [[Trophies]] and/or relics now decrease respective boss' damage by 10% and DR by 5% while in vicinity.
+*[[Town NPCs]] can no longer die from hostile damage (enemies and bosses no longer deal damage to Town NPCs, but they can still die from [[tgc:Lava|lava]]/[[tgc:Drowning|drowning]]/[[Debuffs]]).
+*All [[Mounts]] are now disabled during the bossfights, and during the fight with some bosses they inflict a [[Flight Curse]] debuff on player.
+*All of the player's stats get a permanent boost by 1% after killing any boss.
+*Sleeping in a [[Beds|bed]] boosts the player's [[tgc:Life Regen|life regen]] by 10.
+*Introduces the custom [[Achievements]].
+*The following structures/locations become accessible: [[Arid Temple]], [[Cloud Outpost]], [[Lost Shrine]], [[Shattered Court]] and the [[Profaned Domain]].
+*Reintroduces some features from the previous versions of the Calamity Mod:
+**Reintroduces the [[Lore items]]' stat boosts while placed in the inventory.
+**Reintroduces the [[Rare item variants]], [[Legendary items|Legendary]] and [[Challenge items]].
+**Reintroduces the slightly changed version of the [[Horror]] debuff.
+**Reintroduces the [[Purified Jam]]s, they are now Nightmare Mode-exclusive.
+**The [[The Devourer of Gods|DoG]]'s head in both phases and [[Jungle Dragon, Yharon|Yharon]]'s Bordernadoes will instakill the player upon touching them, as well as the [[Supreme Calamitas|SCal]]'s arena borders.
+*And more. <!---This is a WIP still.--->
+{{collapse bottom}}
+
+== Boss AI Changes ==
+{{Stub}}
+This is a list of all bossfight changes introduced by the Nightmare Mode. Note that the mode only changes the boss AIs, minibosses are unaffected.
+=== Pre-Hardmode ===
+==== [[Desert Scourge]] ====
+HP increased to 6,000. Segment count increased to 50. Head's contact damage is multiplied by 2x.
+
+Bossfight reworked:
+
+The fight begins with an opening cutscene of the [[Desert Scourge]] burrowing through the sand of the [[Desert]] and drawing near to the player.
+
+No longer enrages while outside of the [[Desert]] and instead, enrages if the player is 100 or more tiles away from it.
+
+Can now burrow under the ground and become invulnerable, spawning the 3 [[A Desert Nuisance|Desert Nuisances]] that charge at the player and spew the [[File:Sand Blast.png]] Sand Blasts from the mouth.
+
+Every 10 seconds will try and charge at the player's position at a high speed in order to devour them, also firing the homing Sand Spikes from its body.
+
+After its HP will drop below 20%, it will burrow deep underground once, spawn 5 Desert Nuisances and reappear after 5 seconds. In this phase the boss will remain stationary, attach to the ground and fire homing [[File:Sand Blast.png]] Sand Blasts from its mouth. Every 10 seconds it will charge at the player at a high speed and change its ground attachement position, firing the homing Sand Spikes from its body. 
+
+Upon death it will spawn a large amount of Sand Spikes, homing [[File:Sand Blast.png]] Sand Blasts and 5 Desert Nuisances.
+
+==== [[Crabulon]] ====
+HP increased to 7.500.
+
+Bossfight reworked:
+
+The fight begins with an opening cutscene of the [[Crabulon]]'s corpse appearing from the ground and turning alive by the mushroom crabs that cover its body.
+
+No longer enrages while outside of the [[Glowing Mushroom biome]] and on surface, and instead enrages if the player is 100 and more tiles away from it.
+
+Its stomps can now break some tiles, and the stomps now track the player, their speed, height and length scale depending on the player's position.
+
+Every 5 seconds summons 1-3 Mycelial Crabs that act as stationary turrets: they will fire a random amount of [[File:Mushroom Shot.gif]] Mushroom Shots at the player's position. The Mycelial Crabs have 100 HP and no defense.
+
+Occasionally will summon a streak of 5 tightly-spaced walls of mushrooms above itself.
+
+After its HP will drop below 25%, it will occasionally use the mushrooms that cover its body to heal an amount of its health. This process will stop after the boss will take 150 and more damage. The Mycelial Crabs will also begin to shoot the homing [[File:Mushroom Shot.gif]] Mushroom Shots at the player. Its stomps will have a faster rate and will have a 20% chance every time it lands to spawn a random enemy from the [[Glowing Mushroom biome]].
+
+Upon death it will play a cutscene where the [[Crabulon]] will fall to the ground and burrow, and the mushroom crabs will cover its corpse.
+
+==== [[The Hive Mind]] ====
+HP increased to 20,000.
+
+Bossfight reworked:
+
+The fight begins with an opening cutscene of it forming from the [[Hive Cyst]], if summoned this way, or forming from [[The Corruption]]'s microbes if summoned using a [[Teratoma]].
+
+No longer enrages while outside of [[The Corruption]] and on surface, and instead enrages if the player is 125 and more tiles away from it.
+
+Now attempts to stun-lock the player, making the chain of 10 high-speed lunges at the player's position, if it fails to reach the player, it will circle around them instead. Upon being hit, it has a 20% chance of spawning a random enemy from [[The Corruption]].
+
+After its HP will drop below 75%, every 10 seconds it will summon the [[File:Hive Blob.png|30px]] [[Hive Blob|Hive Blobs]] that fire a streak of 5 high-velocity [[File:Vile Clot.png]] Vile Clots at the player's position, killing each [[File:Hive Blob.png|30px]] [[Hive Blob]] will release 3-5 homing [[File:Vile Clot.png]] Vile Clots at the player.
+
+After its HP will drop below 10%, every 7 seconds it will randomly spawn enemies from [[The Corruption]], [[File:Dank Creeper.png|30px]] Dank Creepers, that home into the player at high speeds and dying upon contacting the player, on death spawning 1-3 [[File:Shade Nimbus.gif]] Shade Nimbi launch the homing [[File:Hive Blob.png|30px]] [[Hive Blob|Hive Blobs]] at the player and spew out a large amounts of high-velocity [[File:Vile Clot.png]] Vile Clots. It can no longer circle or lunge at the player in this phase.
+
+Upon death it will spawn a large amount of [[File:Dank Creeper.png|30px]] Dank Creepers, [[File:Hive Blob.png|30px]] [[Hive Blob|Hive Blobs]] and enemies from [[The Corruption]].
+
+==== [[The Perforators]] ====
+Total HP increased to 25,750.
+
+Bossfight reworked:
+
+The fight begins with an opening cutscene of the [[Perforator Cyst]] absorbing the blood of [[The Crimson]]'s ground and forming, if summoned this way, or it appearing from the Crimson's ground if summoned using a [[Bloody Worm Food]].
+
+No longer enrages outside of [[The Crimson]], and instead enrages if the player is 100 or more tiles away from any its part (either the Hive or Worms).
+
+==== [[The Slime God]] ====
+Total HP increased to 28,500. 
+
+Bossfight reworked:
+
+The fight begins with an opening cutscene of the Crimulan and Ebonian [[Blight Slime|Blight Slimes]] forming into the [[The Slime God]]'s core and it spewing out them as the [[Ebonian Slime God]] and [[Crimulan Slime God]] respectively.
+
+The Slime God now enrages if the player is 150 and more tiles away from its every part (either the Core, or Slimes).
+
+The [[Ebonian Slime God]] and [[Crimulan Slime God]] attack simultaneously: they perform the large jumps, their speed, height and length scales depending on the player's position, every time a Slime lands, it spawns [[File:Abyss Ball.png]] [[File:Abyss Ball Crimson.png]] 5-7 high-velocity Abyss Balls, that are affected by gravity. For every 1% HP a Slime lost, it spawns one corresponding [[File:Corrupt Slime Spawn.png]] [[File:Crimson Slime Spawn.png]] Slime Spawn.
+
+After either [[Ebonian Slime God]] or [[Crimulan Slime God]] dies, the second one becomes enraged, increasing its speed and attack rate by 1.5x.
+
+After both Slime Gods are killed, the [[Slime God Core]] absorbs their remains and begins to attack the player: it charges at the player at a high speed, spawning the [[File:Abyss Ball.png]] [[File:Abyss Ball Crimson.png]] Abyss Balls that home into the player, after the Core hits the player or after 5 seconds if it haven't managed to, it circles around the player, leaving a converging circle of [[File:Abyss Ball.png]] [[File:Abyss Ball Crimson.png]] 10 Abyss Balls.
+
+After the Core's HP drops below 20%, it will as well begin to drop the damaging Slime Splatters that linger on the ground as it flies, the Slime Splatters inflict the Slime [[Debuffs|debuff]] on player.
+
+After the Core's HP will drop to 1, it will enrage and rapidly and erratically use its attacks with a random order for 10 more seconds, after what the cutscene of [[The Slime God]] fleeing away and dropping a large amount of Slime Splatters on the ground.
+
+==== [[Aquatic Scourge]] ====
+HP increased to 170,000.
+
+Bossfight reworked:
+
+The fight begins with an opening cutscene of the [[Aquatic Scourge]]'s silhouette appearing in the [[Sulphurous Sea]]'s waters and after a couple of seconds, it appearing from the water.
+
+No longer enrages outside of the [[Sulphurous Sea]], and instead enrages if the player is 150 or more tiles away from it.
+
+[i have to elaborate it as well...]
+
+=== Hardmode ===
+
+=== Post-Moonlord ===
+
+== Unique Items ==
+{{Stub}}
+
+== See Also ==
+*[[Expert Mode]]
+*[[Revengeance Mode]]
+*[[Death Mode]]
+*[[Malice Mode]]
+
+== Trivia ==
+*The Nightmare Mode's icon's outline on the difficulty indicator will pulse with purple colour once it's enabled.
+*The enemies' stat buffs increase throughout the progression: stats are increased by 25% while in [[tgc:Pre-Hardmode|Pre-Hardmode]], by 50% while in [[tgc:Hardmode|Hardmode]] and by 100% while in post-[[tgc:Moon Lord|Moon Lord]].
+*The projectile reflection will not work with some projectiles like [[tgc:Last Prism|Last Prism]]-like projectiles, whips, and unique projectiles like that of [[Abyss Shocker]], the player cannot reflect projectiles such as [[Supreme Calamitas|SCal]]'s Brimstone Monsters, [[The Old Duke|Old Duke]]'s Sulphurous Vortexes, [[Providence, the Profaned Goddess|Providence]]'s Holy Blasts and other large projectiles.
+*The bosses' contact damage critical hits' increased damage is based off the boss' damage, ranging from 1.1x to 3x (for example, the [[Crabulon]]'s contact damage will only be increased by 1.1x, while the [[Jungle Dragon, Yharon|Yharon's]] contact damage will be multiplied by 3x.)
+*All hostile projectiles with damage more than 1 have a chance to instakill the player:
+**If the projectile's damage is between 1 and 5, the chance is 1%.
+**If the projectile's damage is between 6 and 50, the chance is 2.5%.
+**If the projectile's damage is between 51 and 100, the chance is 5%.
+**If the projectile's damage is between 101 and 200, the chance is 10%.
+**If the projectile's damage is between 201 and 500, the chance is 25%.
+**If the projectile's damage is 501 or higher, the chance is 50%.
+**This only applies to the Vanilla and Calamity Mod's bosses.
+*Bosses' DR decrease while being near the respective boss' relic affects every boss from both Vanilla and Calamity Mod, regardless of their DR, als including the [[The Devourer of Gods|DoG]]'s body segments.
+*Stat increase affects every player's stat but immunity frames and max health and mana.
+*Despite the fact that [[Achievements]]' UI is available regardless of Nightmare Mode is enabled or not, it cannot be interacted unless the mode is enabled.
+*Despite the fact that the described structures generate in every newly created world with the Tranquility Mod enabled, the player cannot interact/enter them unless the Nightmare Mode is enabled in the world; the [[Profaned Domain]] subworld is completely inaccessible without the Nightmare Mode enabled.
+*[[Lore items]]' stat boosts slightly differ from these of original versions that were present in the Calamity Mod prior to the [[1.5.0.001]] update, and they now also work if placed in a portative storage like [[tgc:Piggy Bank|Piggy Bank]].
+*The [[Legendary items|Legendary]]/[[Challenge items]] and [[Rare item variants]], and the reintroduced ones will drop with a 100% chance from a corresponding boss if the Nightmare Mode is enabled, as well as in the [[Death Mode]].
+*The reintroduced [[Purified Jam]]s will not protect the player from all sorts of damage; the player still anyway will be instakilled by some attacks, e.g. the [[Jungle Dragon, Yharon|Yharon]]'s Bordernadoes or [[Supreme Calamitas|SCal]]'s arena borders.
+*This page is still a WIP.
+<!---I decided to make it like infernum mode, but cooler.--->
+{{Game mechanics}}
+[[Category:Game mechanics]]

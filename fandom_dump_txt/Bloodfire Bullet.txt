@@ -1,0 +1,41 @@
+{{item infobox
+| type = Ammunition
+| tooltip = Accelerates your life regeneration on hit<br/>Deals bonus damage based on your current life regeneration
+| damage = 26
+| damagetype = ranged
+| stack = 9999
+| consumable = yes
+| knockback = 4.5
+| sell = {{value|0|0|0|80}}
+| rare = 12
+| velocity = 4.8
+| velocitymult = 5
+| hardmode = yes
+| postml = yes
+| proj = Bloodfire Bullet (projectile).png
+| projcaption = Bloodfire Bullet
+| element1 = Unholy
+}}
+
+'''Bloodfire Bullets''' are Godseeker Mode [[bullets]] made from [[Bloodstone Core]]s. Upon contact with an enemy, they accelerate the regeneration rate of the player. Additionally, their base damage is increased by the player's life regeneration, which calculates when the enemy has been hit.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Bloodfire Bullets increase the player's <code>lifeRegenTime</code> variable by 2 frames per enemy hit.
+**The variable represents the number of frames since the last time the player has been hit, with a maximum of 3600 frames, or 60 seconds. The higher the number, the higher the regeneration. An exact formula of the regeneration rate which depends on this variable can be found [[tgc:Health Regeneration|here]].
+*The amount of damage boosted by the Bloodfire Bullet is equal to <code>(1 + 0.1 * lifeRegen) * lifeRegenTime / 100</code>
+**This does ''not'' apply if the player's life regeneration is less than zero.
+**Since the damage application only occurs when the enemy has been hit, this damage addition is flat and is therefore calculated after all other damage bonuses.
+**For example, if the player hasn't been hit for 10 seconds before the bullet hits the enemy and the player has a life regeneration of 14, the amount of damage boosted would equal 14.<code>(1 + 0.1 * 14) * 602 / 100 = 2.4 * 602 / 100 = 14.448</code>, rounded down.
+*This pairs well with the [[Regenator]], which increases the player's life regeneration by 12, dealing a lot of extra damage.
+
+{{-}}
+{{Bloodstone}}
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Bullets]]

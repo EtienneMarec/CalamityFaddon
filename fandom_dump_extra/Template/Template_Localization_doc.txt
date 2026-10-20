@@ -1,0 +1,110 @@
+This template is used to dynamically display predefined text (which is stored via {{tl|localization/register}}), mainly within templates, depending on the Terraria language wiki it is used on. It is the core template of the effort of standardizing template code across language wikis and preventing outdated templates. See [[Help:I18n & l10n for Templates]] for more information.
+
+Use {{tl|l10n}} as a shortcut.
+
+== Basic concept ==
+In a template, all English texts and other language-specific strings (e.g. category names) are stored in an "l10n database" at the top of the template, i.e. their inline mentions are replaced by a variable pointing to their database entry in the l10n database. This facilitates storing translations of one string in the database and choosing between them upon template call, depending on the wiki's language.
+
+The database is set up using {{tl|l10n/register}}. It assigns every string a unique two-level identifier consisting of ''namespace'' and ''key''. The namespace is usually the template's name and the key a descriptive "name" of the string.
+
+Upon retrieving the stored strings (which is done using this template), their namespace and key have to be specified. The differentiation between which translation to choose is handled by {{tl|lang}}, which determines the wiki's language automatically. If there is no string available for the specified namespace–key combination in the respective language, the English version will be used.
+
+== Usage ==
+<code>{{(}} l10n | ''&lt;namespace&gt;'' | ''&lt;key&gt;'' | ''&lt;lang&gt; ('''optional''')'' }}</code>
+
+; Parameter 1
+Namespace. 
+
+; Parameter 2 
+Key.
+
+; Parameter 3 (optional)
+Language. This can be used to display the stored value of a specific language. By default, this is what {{tl|lang}} returns.
+
+; All named parameters prefixed with <code>$</code> 
+Placeholders for formatting. They will be replaced in the output by a string that is the same for every language. Placeholders can also be defined recursively. See the following example:
+
+<pre>{{l10n/register|test|en
+|abc=input: $x
+|mn=abc$de$fg
+|t = zzz
+}}
+A: {{l10n|test|abc|$x=xyz}}
+
+B: {{l10n|test|mn|$d=kkkk|$f=jjjj}}
+
+C: {{l10n|test|abc|$x={{l10n|test|mn|$d=x|$f=y}} }}</pre>
+
+Result:
+
+<code>{{l10n/register|test|en
+|abc=input: $x
+|mn=abc$de$fg
+}}
+A: input: xyz
+
+B: abckkkkejjjjg
+
+C: input: abcxeyg</code>
+
+== Register localization info ==
+The l10n database is declared by {{tl|l10n/register}}. It is possible to either have it load automatically or register it manually. In the end, both methods require a manual definition of the database – the only difference is that with autoload, this is not done in the template source code itself but in a separate template.
+
+=== Manual registration ===
+Use {{l10n/register}} in the same template. Make sure to place it before any {{t|l10n}} call, ideally at the very top of the code.
+
+=== Autoload ===
+Since the database is only setting variables, it is not mandatory to include it in the same template. Instead, it can be moved to a separate subtemplate which is then transcluded at the beginning of the base template. {{t|l10n}} has a functionality that will try to automatically transclude ("autoload") such an outsourced l10n database by transcluding <code>Template:&lt;namespace&gt;/l10n</code> when needed. For example, for {{t|l10n|foo|bar|$x=xyz}}, {{t|l10n}} will try to transclude <code>Template:foo/l10n</code>.
+
+This way is recommended because it reduces the number of {{tl|l10n/register}} transclusions and improves performance.
+
+== Example ==
+Take [[tgc:Template:Hint|Template:Hint]] as an example:
+
+Register localization info (the l10n database) first. This can be done either in Template:Hint/l10n (for the autoload method) or at the top of Template:Hint itself.
+<pre><!-- 
+//en version
+-->{{l10n/register|hint|en<!--
+	-->|hint=Hint:<!-- 
+	-->|default=No hint provided.<!-- 
+-->}}<!-- 
+//it version
+-->{{l10n/register|hint|it<!-- 
+	-->|hint=Suggerimento:<!-- 
+	-->|default=Nessun suggerimento fornito.<!-- 
+-->}}<!-- 
+... more languages if needed.
+--></pre>
+
+Simply add more languages in the same manner if needed. Make sure to keep the alphabetical order of the language codes, with English always at the top.
+
+Then, in the template code, use {{t|l10n}} to retrieve a string for the current language from the l10n database, e.g. <code><nowiki>{{l10n|hint|hint}}</nowiki></code> (which would return <code>Hint:</code> on the English wiki and <code>Suggerimento:</code> on the Italian wiki). See the source code of [[tgc:Template:Hint|Template:Hint]] for details regarding this example.
+
+<!--Resulting output:
+
+{| class="wikitable"
+|-
+! Code !! Result
+|-
+| <pre>
+Default:
+{{hint}}
+</pre>
+| Default:
+{{hint}}
+|-
+| <pre>
+<!-- manually set language to IT -/->
+{{lang/set|it}}
+Now gets the Italian version:
+{{hint}}
+</pre>
+| <!-- manually set language to IT -/->
+{{lang/set|it}}
+Now gets the Italian version:
+{{hint}}
+|}-->
+
+<includeonly>
+[[Category:I18n-ready templates| ]]
+</includeonly>

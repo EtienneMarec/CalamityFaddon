@@ -1,0 +1,39 @@
+{{item infobox
+| stack = 1
+| auto = yes
+| type = Weapon
+| damage = 350
+| damagetype = Spy
+| use = 30
+| velocity = 12
+| knockback = 4
+| tooltip = Throws a capsule that explodes, releasing a ghost that shoots projectiles<br/>Stealth strikes cause multiple ghosts to exit the capsule, and increases crit chance by 25%. Critical hits will instantly capture any non boss enemy.
+| critical = 0.255%
+| rare = 14
+| sell = {{value|0|15|30|}}
+| hardmode = yes
+| postml = yes
+| proj = Glitch Ghost.png
+| projcaption = Ghost
+| element1 = Magic
+| element2 = Smash
+}}
+
+The '''Creature Capsule''' is a Godseeker Mode [[Spy]] [[Bombs|bomb]] that drops from the [[Glitch]]. It fires a capsule that, upon exploding, releases a ghost that flies around in a fairly random manner, and fires projectiles at nearby enemies. If the weapon gets a critical hit, and collides with any non boss enemy, it will instantly kill them.
+
+Performing a [[stealth strike]] with the Creature Capsule will cause 5 ghosts to exit the capsule instead of 1, and will increase the crit chance of the capsule by 25%.
+
+{{Modifier|rogue}}
+
+== Trivia ==
+*The Creature Capsule is a reference to the Master Ball item from Pokemon.
+**The ghosts the weapon spawns are very similar in appearance to the ghost from Pokemon Red and Blue.
+**The crit rate is a reference to the critical capture rate from the same games.
+**It is common for players to use the MISSINGNO glitch to duplicate master balls, which may explain why the Glitch enemy drops this weapon.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Bombs]]

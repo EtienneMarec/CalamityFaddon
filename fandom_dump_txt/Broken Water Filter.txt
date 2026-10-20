@@ -1,0 +1,18 @@
+{{item infobox
+| type = Tool
+| stack = 1
+| tooltip = Favorite this item to disable natural Acid Rain spawns
+| rare = 1
+| sell = {{value|0|0|20}}
+}}
+
+The '''Broken Water Filter''' is a craftable [[Pre-Hardmode]] [[spawn-blocking]] [[tool]] that can also be found in [[Rusty Chest]]s. While the item is favorited in the player's inventory, natural [[Acid Rain]] spawns are disabled.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-other = yes
+}}

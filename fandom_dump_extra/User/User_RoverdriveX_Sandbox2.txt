@@ -1,0 +1,20 @@
+The Calamity Mod contains several instances where a damaging aura appears around a [[weapon]], the player, or an [[enemy]]. This aura can be visible or invisible, and it may inflict a [[debuff]]. The auras are always circular in shape, but may vary in size and damage-per-second.
+
+== Sources ==
+{|class="terraria lined unsortable"
+! width=25% | Source !! width=15% | Radius !! width=5% | Visible? !! width=10% | Damage per second !! width=10% | ??? !! width=10% | Debuff !! Notes
+|-
+| style="text-align:center" | {{item|Bloom Stone}} || 30% of max health || <center>{{no}}</center> || 100% || 3 minutes || {{item|On Fire!|note=5 seconds|wrap=y}} || 
+*Player is frozen for 3 seconds after reviving.
+|-
+| style="text-align:center" | {{item|The Microwave}} || 100 || <center>{{no}}</center> || 10% || None || {{item|On Fire!|note=5 seconds|wrap=y}} || 
+*None
+|-
+|}
+
+== Notes ==
+*The revives have an order of priority in which they get triggered: Nebulous Core is always triggered first, God Slayer is triggered only if Nebulous Core did not, Silva is triggered only if the former two did not, and Permafrost's Concoction is triggered only if all other options did not.
+*[[Armageddon]] and [[Supreme Calamitas]]' [[lore item]] instant death effects bypass all revives.
+*Instantly dying to [[The Devourer of Gods]]' head in [[Death Mode]] and the [[Boss Rush]] does ''not'' bypass revives, allowing the player to survive contact with it.
+
+{{Game mechanics}}

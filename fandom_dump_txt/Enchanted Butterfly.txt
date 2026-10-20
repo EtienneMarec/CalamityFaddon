@@ -1,0 +1,28 @@
+{{dedicated|Jenonen|Patreon Donator}}
+{{item infobox
+| type = Light Pet
+| stack = 1
+| tooltip = Feed him butterflies to keep him strong!<br/>Summons a mysterious dragonfly light pet<br/>Provides a small amount of light in the abyss
+| rare = 5
+| use = 19
+| buff = Sparks (buff)| bufflink = no
+| bufftip = Eats butterflies
+| sell = {{value|0|1}}
+| hardmode = yes
+}}
+{{summoned|Sparks|type=light pet}}
+
+The '''Enchanted Butterfly''' is a craftable [[Hardmode]] [[light pet]] summoning item. It summons a tiny dragonfly pet to follow the player and provide a small amount of light. It will actively fly towards [[butterflies]] to consume them. It additionally will fly towards nearby items, which will be placed in the player's inventory. When the player is below 75 percent health, the dragonfly turns blue, and when the player is below 50 percent health, the dragonfly turns green.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The pet itself is based on a [https://spyro.fandom.com/wiki/Sparx_the_Dragonfly character of a similar name] from the ''[[wikipedia:Spyro|Spyro]]'' series.
+**The functions of eating butterflies, picking up items, and changing color based on health directly reference said character.
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

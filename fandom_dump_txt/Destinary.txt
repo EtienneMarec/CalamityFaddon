@@ -1,0 +1,49 @@
+{{addon|Calamity: Community Remix}}
+{{dedicated|EduaRRdo|Suggester}}
+{{item infobox
+| type = Tool
+| type2 = Weapon
+| damagetype = Melee
+| damage = 5160
+| knockback = 36
+| use = 20
+| axe = {{infinity}}
+| velocity = 1
+| critical = 22%
+| tooltip = Flings out razor exo disks towards the cursor that return back to the player<br/>This weapon and its projectiles function as a chainsaw
+| rare = 16
+| sell = {{value|0|30}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Refraction Rotor.png
+| projcaption = Exo Disk
+| element1 = Stab
+| element2 = Magic
+| element3 = Machine
+}}
+The '''Destinary''' is a craftable Epilogue [[developer]] [[axes|chainsaw]]. It rapidly fires out exo disks which circle back after passing through the cursor or past a set distance. The disks completely ignore i-frames and deal 10% of the weapon's damage, while the chainsaw itself deals full contact damage. Additionally, disk projectiles will instantly remove trees.
+
+{{Modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+==Trivia ==
+*The item was implemented based on a suggestion by EduaRRdo on the mod's Discord server.
+*The weapon has the highest base damage of any of the mod's melee weapons.
+*The sprite was taken from, Spriting Challenge Week 98: [https://media.discordapp.net/attachments/551013848266702868/1057554410034700339/Untitled_12-28-2022_12-09-40.png?width=671&height=671| Fuse two (or more) different weapons together to create a new weapon.]
+
+{{-}}
+{{shadowspec}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Axes]]

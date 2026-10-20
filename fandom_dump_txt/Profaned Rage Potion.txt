@@ -1,0 +1,30 @@
+{{item infobox
+|type = Potion
+|tooltip = Increases critical strike chance by 12% and increases horizontal flight speed by 5%<br/>While this potion's buff is active the Rage Potion's buff is disabled
+|stack = 9999
+|rare = 11
+|use = 17
+|consumable = yes
+|buff = Profaned Rage | bufflink = no
+|duration = 5 minutes
+|bufftip = Increased crit chance, movement{{sic}} and flight speed
+|hardmode = yes
+|postml = yes
+|sell = {{value|0|0|40|0}}
+}}
+
+The '''Profaned Rage Potion''' is a craftable Godseeker Mode [[Buff Potions|buff potion]] made from [[Unholy Essence]]. Upon consumption it grants the '''Profaned Rage''' [[buff]], boosting the players critical strike chance by 12% and flight speed by 5%. The player will also become immune to the [[Rage Potion|Rage]] buff. It can be considered the upgrade to the vanilla Rage Potion.
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+{{-}}
+== Notes ==
+*In a [[Crimson]] world, 1-2 Profaned Rage Potions can be obtained from [[Hallowed Crate]]s at a 10% chance once [[Providence, the Profaned Goddess]] has been defeated.
+
+== See also ==
+*[[Holy Wrath Potion]]
+
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

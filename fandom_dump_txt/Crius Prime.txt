@@ -1,0 +1,52 @@
+{{addon|Deimos, the Starborn Princess}}
+{{item infobox
+| type = Weapon
+| damagetype = magic
+| damage = 255
+| knockback = 6.5
+| velocity = 15
+| mana = 15
+| rare = 13
+| sell = {{value|0|28}}
+| stack = 1
+| auto = yes
+| use = 32
+| tooltip = Fires a small laser<br/>Right click to charge up a stronger laser that bounces off of tiles.
+| hardmode = yes
+| postml = yes
+| buff = Featherfall
+| bufftip = Press UP or DOWN to control speed of descent
+| duration = Infinite (Fully Charged)
+| debuff = Holy Flames
+| debuffduration = 1.5 seconds
+| debuffchance = 100%
+| debufftip = Dissolving from holy light
+| element1 = Fire
+| element2 = Stab
+| element3 = Magic
+| sound = Item_12.wav
+| soundtext = Laser Beam
+| sound2 = Item_15.wav
+| sound2text = Charge
+| sound3 = Item_13.wav
+| sound3text = Fully Charged
+| sound4 = Item_68.wav
+| sound4text = Red Laser Beam
+| sound5 = LargeWeaponFire.wav
+| sound5text = Red Laser Beam (Fully Charged)
+| sound6 = Dig_0.wav,Dig_1.wav,Dig_2.wav
+| sound6text = Red Laser Beam Bounce
+}}
+
+'''Crius Prime''' is a Godseeker Mode [[Magic guns|Magic Gun]] and a direct upgrade to the [[Abyss Shocker]] and [[Plasma Rifle]]. When used with the left mouse button, it will fire a small beam. While the right mouse button is held down, the weapon will charge up a bigger red beam that fires when the mouse button stops being held down, this will consume mana as it charges. If the ability is charged for more than a second, the beam will reflect off of a single tile, pierce four enemies, and deal 150% weapon damage. The ability will fully charge after three seconds, the resulting beam will reflect off of three tiles, pierce an unlimited amount of enemies, and deal 200% weapon damage. If the right mouse button continues to be held down after being fully charged, the weapon will glow red, visibly vibrate and produce smoke, stop consuming mana, and grant the player the [[tgc:Featherfall Potion|Featherfall]] buff. This ability has a cooldown of ten seconds. 
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The functions of the weapon are based on the [https://ultrakill.fandom.com/wiki/Sharpshooter_Revolver Sharpshooter Revolver] from ''[[wikipedia:Ultrakill|ULTRAKILL]]''.
+{{-}}
+{{Starborn}}
+{{DeimosMod}}
+[[Category:Magic guns]]

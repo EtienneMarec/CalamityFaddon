@@ -1,0 +1,30 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 11
+| color = #B588B1
+| sell = {{value|0|0|3}}
+| use = 14
+| tooltip = It resonates with otherworldly energy.
+| hardmode = yes
+| postml = yes
+}}
+
+'''Proviplate''' is a craftable Godseeker Mode [[block]]. It can be used as a building material.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Plates}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

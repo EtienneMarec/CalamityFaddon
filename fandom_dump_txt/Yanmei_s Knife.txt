@@ -1,0 +1,64 @@
+{{dedicated|Kamei|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damage = 8
+| velocity = 24
+| knockback = 4.5
+| use = 32
+| rare = 8
+| sell = {{value|0|12}}
+| proj = Yanmei's Knife Slash.gif
+| projcaption = Yanmei's Knife Slash
+| stack = 1
+| tooltip = When hitting a boss, miniboss, or their minions, you gain various boosts and cripple the enemy hit<br/>A knife from an unknown world<br/>An owner whose heart is pure and free of taint<br/>A heart of iron and valor
+| buff = Kami Injection | bufflink = no
+| bufftip = Increased movement speed and damage
+| duration = 10 seconds
+| debuff = Kami Flu | debufflink = no
+| debufftip = Defenseless and dying
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| hardmode = yes
+| element1 = poison
+| element2 = slash
+}}
+
+'''Yanmei's Knife''' is a craftable [[Hardmode]] [[classless weapon]]. When swung, a short-ranged green slash appears in front of the player towards the mouse cursor. After the swing, the player is temporarily unable to use the item for three seconds. Striking a [[boss]] or its servants causes the user to gain the '''Kami Injection''' [[buff]] while the target is inflicted with the '''Kami Flu''' [[debuff]]. Kami Injection grants the player 15% movement speed and damage, while Kami Flu reduces the enemy’s [[damage reduction]] by 20% and depletes 125 health per second. Players with the Kami Injection will trail green afterimages, while targets that are inflicted with the Kami Flu debuff will emit a green glow.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Affected NPCs ==
+This is a list of NPCs that are vulnerable to the Kami Flu debuff. Striking these will also grant the player the Kami Injection buff.
+{{ajax|Yanmei's Knife/Affected NPCs|width=35%}}
+
+== Notes ==
+*The knife's effects only trigger on bosses, mini-bosses, and/or boss servants, making it hard to properly test against dummies.
+*When the knife successfully hits a vulnerable NPC, it will play the same sound as activating [[Adrenaline Mode]].
+*The lowered damage reduction effect of Kami Flu does not work on [[The Dragonfolly]], [[Polterghast]], and [[Providence, the Profaned Goddess]].
+
+== Tips ==
+*Due to the weapon's low direct damage and the significant stats of the buff and debuff, Yanmei's Knife should not be used as a primary damage-dealer and instead functions better when used periodically, to refresh the buff and debuff.
+
+== Trivia ==
+*The weapon is a reference to Automaid, a work-in-progress comic series being illustrated and written by the dedicatee. The knife is the signature weapon of the main character, Yanmei, with the Kami buff and debuffs playing a key role in the comic.
+*The tooltip is part of a poem by Piky, one of the beta testers for the mod, written to describe Yanmei:
+
+A voice, a strike of caring humor <br/>
+Sparking dear memories <br/>
+Of sweetened & pure serenity <br/>
+Memories of the Days of Old <br/>
+Yet, profoundly reassuring <br/>
+Her voice calls to the fire <br/>
+Dancing until the break of dawn <br/>
+Of her deeds alone, instilling within her friends <br/>
+A heart of Valor <br/>
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

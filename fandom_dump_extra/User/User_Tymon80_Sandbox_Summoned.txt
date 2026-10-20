@@ -1,0 +1,33 @@
+<includeonly><!--
+
+-->{{#dplvar:set|_typename|<!--
+        -->{{#if:{{{type|}}}|<!--
+                -->{{#switch:{{{type|}}}| pet = [[Pet]] | minion = [[Minion]]{{#if:{{{minion2|}}}|s}} | sentry = [[Sentry]] | mount = [[Mount]] | light pet = [[Light Pet]] | #default = [[{{{type}}}]] }}<!--
+        -->}}<!--
+-->}}<!--
+
+--><div class="infobox float-{{{float|right}}}" style="<!-- 
+	-->{{{css|}}};{{{style|}}}<!-- 
+	-->"><!--
+        
+        --><div style="text-align:center; padding:2px 5px; font-size:89%; background-color:#373d40;">Summons {{#dplvar:_typename}}</div><!-- 
+
+        -->{{#if:{{{name|{{{1}}}}}}|<!--
+                --><ul><!--
+                        --><li style="border-bottom: 1px #AFCFE2 solid; padding-bottom:5px;"><strong>{{{name|{{{1}}}}}}</strong><br/>{{{image|[[File:{{{1}}}.png|link=]]}}}</li><!--
+                        -->{{#if:{{{minion2|}}}|<!--
+                                --><li style="border-bottom: 1px #AFCFE2 solid; padding-bottom:5px;"><strong>{{{name2|{{{minion2|}}}}}}</strong><br/>{{{image2|[[File:{{{minion2}}}.png|link=]]}}}</li><!--
+                        -->}}<!--
+                        -->{{#if:{{{minion3|}}}|<!--
+                                --><li style="border-bottom: 1px #AFCFE2 solid; padding-bottom:5px;" ><strong>{{{name3|{{{minion3|}}}}}}</strong><br/>{{{image3|[[File:{{{minion3}}}.png|link=]]}}}</li><!--
+                        -->}}<!--
+                        -->{{#if:{{{minion4|}}}|<!--
+                                --><li style="border-bottom: 1px #AFCFE2 solid; padding-bottom:5px;"><strong>{{{name4|{{{minion4|}}}}}}</strong><br/>{{{image4|[[File:{{{minion4}}}.png|link=]]}}}</li><!--
+                        -->}}<!--
+                        -->{{#if:{{{minion5|}}}|<!--
+                                --><li style="padding-bottom:5px;"><strong>{{{name5|{{{minion5|}}}}}}</strong><br/>{{{image5|[[File:{{{minion5}}}.png|link=]]}}}</li><!--
+                        -->}}<!--
+                --></ul><!--
+        -->}}<!--
+--></div><!--
+--></includeonly><!--

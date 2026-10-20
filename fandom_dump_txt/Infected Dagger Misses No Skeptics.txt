@@ -1,0 +1,43 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damage = 64
+| use = 8
+| damagetype = Spy
+| knockback = 1.15
+| auto = yes
+| velocity = 20
+| stack = 1
+| rare = 8
+| sell = {{value|0|10|0|0}}
+| tooltip = Throws a flying dagger that homes and stabs through an enemy<br/>Stealth strike throws out 3 more daggers, all of them becoming faster<br/>'How did he die? He had a Dagger that never misses a single doubters. Unfortunately, he himself is a Doubter!'
+| debuff = Plague
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| debufftip = Rotting from the inside
+| hardmode = yes
+| element1 = Poison
+| element2 = Stab
+}}
+{{item drops infobox
+| [[The Plaguebringer Goliath]] | 1 | {{dv|25%|33.33%}}
+}}
+
+The '''Infected Dagger Misses No Skeptics''' are a [[Hardmode]] [[Daggers|Dagger]] dropped by [[The Plaguebringer Goliath]]. Upon being thrown, it homes in to the nearest enemy, being able to pierce infinitely, and is capable of bouncing to any nearby enemy.
+
+Performing a [[Spy|Stealth Strike]] throws out 3 more daggers, while boosting all the dagger's velocity.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon is directly based on the [https://soul-knight.fandom.com/wiki/Flying_Dagger_Miss_No_Doubter Flying Dagger Miss No Doubter] from the game [https://soul-knight.fandom.com/wiki/Soul_Knight_Wiki Soul Knight].
+
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Daggers]]

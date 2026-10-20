@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 34
+| knockback = 7
+| rare = 3
+| sell = {{value|0|0|2|0}}
+| stack = 1
+| auto = yes
+| use = 18
+| velocity = 5
+| tooltip = The amount of contact damage an enemy does is added to this weapons' damage<br/>You must hit an enemy with the blade to trigger this effect
+| proj = Iron Bar.png
+| projcaption = Steel
+| element1 = Slash
+}}
+|{{item drops infobox
+| [[Ceasing Void]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Steel Blade''' is a [[Pre-Hardmode]] [[broadsword]] that autoswings. It is dropped by the [[Ceasing Void]]. It fires projectiles that resemble steel. Projectiles move based on player movement.
+
+If an enemy is struck by the blade, the amount of contact damage that enemy deals is added to the weapon's damage. It cannot deal more than 5 damage.
+
+{{modifier|melee}}
+
+== Notes ==
+*Though it initially deals noticeably less DPS than most other weapons of its tier, striking an enemy with very high contact damage (such as [[The Hive Mind]]) will significantly increase its damage output.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

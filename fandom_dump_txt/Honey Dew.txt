@@ -1,0 +1,30 @@
+{{item infobox
+| type = Covering
+| tooltip = 5% increased damage reduction, plus 9 defense and increased life regen while in the Jungle<br/>Poison and Venom immunity<br/>Honey-like life regen with no speed penalty<br/>Most bee/hornet enemies and projectiles do 75% damage to you
+| rare = 5
+| sell = {{value|0|4|80}}
+| stack = 1
+| hardmode = yes
+}}
+
+The '''Honey Dew''' is a craftable [[Hardmode]] [[covering]]. It grants 5% [[Damage Reduction]], 9 [[Defense]] and 1 Life Regen while in the [[Jungle]] biome and provides immunity to the [[Poisoned]] and [[Venom]] [[debuff]]s. it also gives the effect of the [[Honey (buff)|Honey]] [[buff]] anywhere. Additionally, the player receives 25% less damage from most bees, hornets, and their projectiles.
+
+== Resistances Provided ==
+{{ajax|List of Bee resistances|width=40%}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The effects of honey life regen provided by Honey Dew will not stack with the Honey buff that a player gets when standing in honey.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

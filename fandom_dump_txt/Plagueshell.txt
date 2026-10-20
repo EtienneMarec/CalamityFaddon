@@ -1,0 +1,44 @@
+{{npc infobox
+| type = Enemy
+| ai = Tortoise AI
+| environment = Jungle
+| life = {{dv|800|1,600}}
+| damage = {{element|Poison}} {{dv|80|160}}
+| defense = 32
+| knockback = {{dv|80%|82%}}
+| immune1 = Kami Flu
+| immune2 = Plague
+| immune3 = Poisoned
+| immune4 = Venom
+| debuff=Plague
+| debuffchance=100%
+| duration = 3 seconds
+| debufftip=You are rotting from the inside
+| money = {{sc|20}}
+| Plague Cell Canister|3-4|100%
+| Vacuillium Ore|11-13|33%
+| banner = yes
+| hurt = NPC_Hit_24.wav
+| killed = PlagueBoom1.wav, PlagueBoom2.wav, PlagueBoom3.wav, PlagueBoom4.wav
+| vulnerable1 = Stab
+| vulnerable2 = Water
+| vulnerable3 = Magic
+| vulnerable4 = Smash
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Slash
+}}
+
+The '''Plagueshell''' is a [[Hardmode]] [[enemy]] that spawns in the [[Jungle]] after [[Golem]] has been defeated. It attacks by going into its shell and hurling itself at players, dealing large amounts of damage on contact.
+
+== Notes ==
+*Damaging the Plagueshell causes it to stop its attack animation.
+**This does not occur in [[Revengeance Mode]] if the Plagueshell is under 25% health.
+
+== Trivia ==
+*The Plagueshell seems to be a regular [[Giant Tortoise]] that has been struck by the same [[Plague]] mentioned in [[The Plaguebringer Goliath]]'s lore.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

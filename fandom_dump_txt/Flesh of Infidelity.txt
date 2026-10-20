@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| stack = 1
+| auto = yes
+| damagetype = summon
+| damage = 23
+| use = 29
+| mana = 10
+| knockback = 1
+| tooltip = Summons a tentacled ball of flesh that splashes blood onto enemies
+| buff = Flesh Ball (buff) | bufflink = no
+| bufftip = Why is it following you?
+| rare = 3
+| sell = {{value|0|0|80}}
+| element1 = Unholy
+| element2 = Smash
+}}
+{{summoned|Flesh Ball|type=minion}}
+
+The '''Flesh of Infidelity''' is a craftable [[Pre-Hardmode]] [[summon weapon]]. It is the [[Crimson]] counterpart of the [[Eye of Night]]. It summons a flesh ball that jumps around erratically near the player. When an enemy is nearby, it jumps around near that enemy and fires a burst of 2 blood particles upwards every 3 jumps, which homes into enemies but does not pierce nor travel through tiles.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The word "infidelity" means unfaithfulness to one's partner. 
+{{-}}
+{{Night's}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

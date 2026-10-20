@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 5
+| sell = {{value|0|7|20}}
+| damage = 120
+| use = 26
+| knockback = 5
+| velocity = 10
+| auto = yes
+| stack = 1
+| tooltip = Fires slow frost projectiles that freeze enemies<br/>True melee strikes cause tremendous damage to frozen enemies
+| debuff = Glacial State
+| debufftip = Cannot move and defense is shattered
+| debuffchance = 100%
+| debuffduration = 0.5 seconds (Projectile)
+| hardmode = yes
+| proj = Ice Bomb.png
+| projcaption = Iceberg
+| element1 = Cold
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Cryogen]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Glacial Crusher''' is a [[Hardmode]] [[broadsword]] that is dropped by [[Cryogen]]. When swung, it fires a slow, icy projectile that does not pierce. Enemies affected by Glacial State take two times as much damage from the blade.
+{{modifier|melee}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

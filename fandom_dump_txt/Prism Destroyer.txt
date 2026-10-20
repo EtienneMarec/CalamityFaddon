@@ -1,0 +1,51 @@
+{{fantag|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee/Ranged/Magic/Summon/Spy
+| damage = 528
+| critical = 14%
+| knockback = 8
+| use = 12
+| tooltip = Summons a destructive prism sword that uses mana to fire stars at enemies<br/>Right click to pull in the sword and throw it<br/>Stealth strikes cause a spray of your arrows to accelerate towards hit enemies
+| velocity = 16
+| stack = 1
+| auto = yes
+| rare = 15
+| sell = {{value|0|32}}
+| hardmode = yes
+| postml = yes
+| debuff = Daybroken
+| debuffchance = 100%
+| debuffduration = 5 seconds (Contact)<br/> 2.5 seconds (Beam, Wave)
+| debufftip = Incenirated by solar rays
+| debuff2 = Moon Burnt
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (Contact)<br/> 2.5 seconds (Beam, Wave)
+| debufftip2 = Incinerated by lunar rays
+| element1 = Magic
+}}
+
+The '''Prism Destroyer''' is a craftable Godseeker Mode [[summon weapon]] which deals magic damage and can be thrown to deal melee damage as well as ranged weapon when stealth striking. When left click is used, a flying rainbow sword minion is summoned which stays at a distance from enemies while firing bursts of homing stars that deal magic and summon damage and drain the player's mana. If the player has zero mana, the sword will be unable to fire stars. Right clicking causes the sword to zip into the player's hand, which they can then throw at enemies to deal melee and Spy damage.
+
+If a [[stealth strike]] is performed with the Prism Destroyer's right click, 20 of the player's [[Arrows]] if they have any will rapidly accelerate towards any targets hit by the thrown sword. Arrows deal 200% of the weapon's damage.
+
+{{Modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+| show-ranged = yes
+| show-magic = yes
+| show-summon = yes
+| show-Spy = yes
+}}
+[[Category:Swords]]
+[[Category:Ranged weapons]]
+[[Category:Magic weapons]]
+[[Category:Summon weapons]]
+[[Category:Daggers]]

@@ -1,0 +1,57 @@
+{{addon|Profaned Birb}}{{buff infobox|type=Buff|cause=Feeding the [[Profaned Birb]] a Gummy Worm|effects=Boost stats depending on certain equipped accessories|duration=20 minutes|tooltip=Provibirb is pleased with you and grants you a boon, improving your stats!
+Don't push your luck with her though.|name=Provi's Blessing}}
+
+
+
+'''Provi's Blessing''' is a [[buff]] applied to the player when they feed the [[Profaned Birb]] a Gummy Worm.
+
+
+
+
+== Effects ==
+
+=== On its own ===
+* +10% damage increase
+* +8 Defense
+* +2 Minion slots
+* +4 Wing time
+
+
+
+=== With [[Profaned Soul Artifact]] equipped ===
+
+[[File:Profaned Soul Artifact.gif|frameless]] ''<span style="color:#FEB10D;">"Resonating with the Profaned Soul Artifact, becoming stronger!'</span>''
+
+''These effects stack with the buff's base stat boosts.''
+
+* +5% damage increase (15% total)
+* +8 Defense (+16 total)
+* +2 Minion slots (+4 total) *
+* Increased health regeneration
+<nowiki>*</nowiki>Excluding the increases granted by the Profaned Soul Artifact.
+
+
+
+
+=== With [[Profaned Soul Crystal]] equipped and [[Exo Mechs]]/[[Supreme Calamitas]] both defeated ===
+
+[[File:Profaned Soul Crystal.gif|frameless]] ''<span style="color:#FEB10D;">"Thanks to the Soul Crystal becoming purified, the blessing has become even more powerful!"</span>''
+
+''These effects stack with the buff's base stat boosts.''
+
+* +15% damage increase (25% total damage)
+* +4 Minion Slots (+6 total slots) *
+* +16 Defense (+24 total) 
+* Increased health regeneration
+
+<nowiki>*</nowiki>Excluding the increases granted by the Profaned Soul Crystal. 
+
+
+== Trivia ==
+
+* If the player has yet to defeat both the [[Exo Mechs]] or [[Supreme Calamitas]], and tries to equip the Profaned Soul Crystal, the tooltip will read <span style="color:#FF0000;">''"The Soul Crystal is too defiled to even remotely affect this blessing..."''</span>
+** If only one of the two bosses have been defeated, the tooltip will display <span style="color:#FF0000;">''"The Soul Crystal is still too defiled to empower this blessing..."''</span>
+
+* The buff's name is displayed using the '''{{color|#F7FF00 ●|#F7FF00}}'''
+* The buff's icon will shake if the player has either soul item equipped.
+{{Master Template Buffs|show-main=yes|show-buffs=yes}}

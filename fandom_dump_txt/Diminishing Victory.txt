@@ -1,0 +1,31 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 3750
+| knockback = 6.75
+| crit = 4%
+| rare = 15
+| sell = {{value|0|16}}
+| stack = 1
+| use = 22
+| tooltip = Stealth strike to throw the scythe like a slow moving boomerang that infinitely pierces through foes
+| velocity = 100
+| hardmode = yes
+| postml = yes
+| auto = yes
+| debuff=Brimstone Flames
+| debufftip = Incinerating both body and mind 
+| debuffchance = 100%
+| debuffduration = 5 Seconds
+}}The Diminishing Victory is a Craftable [[Master Template Items/Godseeker Mode NPCs|Godseeker Mode]] spy weapon, It is intended to be made after defeating [[Purgatory Arbiter, Umbrus]] due to it's recipe. It functions similarly to the paladin's hammer with some added benefits. Stealth strikes will always consume the entire meter when used and will become a slow moving, infinitely piercing boomerang that returns to the player way slower than normal.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Boomerangs]]]]

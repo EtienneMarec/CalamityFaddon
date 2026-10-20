@@ -1,0 +1,29 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 3
+| color = #440088
+| sell = {{value|0|1}}
+| hardmode = yes
+| use = 14
+| tooltip = It resonates with cybernetic energy.
+}}
+
+'''Cyberlight Brick''' is a craftable Godseeker Mode [[block]]. It can be used to create Cyberlight Furniture.
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+=== Trivia ===
+The block's sprite is a reference to [[Daawnlight Spirit Origin]]
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

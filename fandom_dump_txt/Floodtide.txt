@@ -1,0 +1,44 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 7
+| sell = {{value|0|12}}
+| damage = 89
+| use = 20
+| velocity = 18
+| knockback = 6
+| tooltip = Launches sharks, because sharks are awesome!
+| auto = yes
+| stack = 1
+| hardmode = yes
+| proj = Mini Sharkron.png
+| projcaption = Mini Sharkron
+| element1 = Water
+| element2 = Unholy
+}}
+
+The '''Floodtide''' is a craftable [[Hardmode]] [[broadsword]] that auto-swings. The weapon can also be obtained by [[fishing]]  under the effect of the [[Gills]] [[buff]]. When swinging the sword, it launches 2 shark-shaped projectiles which deal damage to enemies on contact.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This item will only be caught with a 1/25 (4%) chance when fishing with between 60 and 160 [[fishing power]] and having the [[Gills]] [[buff]].
+
+== Trivia ==
+*The weapon's design is partially based on [[wikipedia:The Great Wave off Kanagawa|The Great Wave off Kanagawa]], a famous Japanese painting depicting a massive wave.
+*The weapon replaced [[Mariana]] in [[Terratomere]]'s crafting recipe after the introduction of the [[Aquatic Dissolution]].
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:鲨潮]]

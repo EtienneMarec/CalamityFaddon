@@ -1,0 +1,30 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{npc infobox 
+| type = Critter
+| environment = Sky Abyss
+| ai = Enchanted Jellyfish AI
+| damage = 0
+| life = 100
+| defense = 0
+| knockback = 0
+| debuff = Jellified
+| debufftip = lowered defense by 10
+| debuffchance = {{death|100%}}
+| debuffduration = 10 seconds
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Evercold
+| immune3 = Moon Burnt
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+The '''Enchanted Jellyfish''' is a [[critter]]. It is found in the Lower Layer of [[Sky Abyss]] and passively swims around the biome. It releases Abyssal Jelly when killed in Death Mode that lowers the defense of whoever killed it by 10.
+
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}

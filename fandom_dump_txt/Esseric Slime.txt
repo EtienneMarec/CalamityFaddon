@@ -1,0 +1,32 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Historical content}}
+{{npc infobox
+| type = Slime
+| environment = Sky Abyss
+| ai = Slime AI
+| damage = {{dv|120|160|200|240}}
+| life = {{dv|14,000|18,000|22,000}}
+| defense = {{dv|140||320}}
+| banner = no
+| money = {{value|10|0|0|0|0}}
+| Esseric Ore|1-5| 100%
+| Laceline|1-4| 100%
+| Voidstone|4-8| 100%
+| knockback = 100
+| immune1 = Kami Flu
+| immune2 = Poisoned
+| immune3 = Evercold
+| debuff = Evercold
+| debuffduration = 5 seconds
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+The '''Esseric Slime''' is a post-[[Purgatory Arbiter, Umbrus|Umbrus]] [[slime]] which spawns naturally in the [[Sky Abyss]] after [[Purgatory Arbiter, Umbrus]] has been defeated. They exist to drop [[Esseric Ore]], so that the player cannot use up all the ore available to them.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

@@ -1,0 +1,30 @@
+{{npc infobox
+| type = Enemy
+| ai = Blue Demon AI
+| image = Blue Demon.png
+| environment = Solar Eclipse
+| life = {{dv|62300|94600}}
+| damage = {{dv|2222|3333|4444|5555}} (Contact)<br/>{{dv|110|220|330|440}} (Blue Demon Arm)<br/>{{dv|100|175|250|350}} (Rotting Tooth)<br/>
+| defense = 20
+| knockback = {{dv|100%}}
+| immuneall = yes
+| money = {{value|0|6|23}}
+| resistant1 = Unholy
+| resistant2 = Magic
+| resistant3 = Stab
+| vulnerable1 = Holy
+| Blue Demon Head | 1 | 100%
+| hurt = AngryDogHit.wav
+| killed = NPC_Killed_27.wav
+| hardmode = yes
+}}
+The '''Blue Demon (Japanese: ブルーデーモン Burūdēmon)''' is a Godseeker Mode [[mini boss]] that rarely spawns during a [[Solar Eclipse]] after [[The Devourer of Gods]] has been defeated. When the Blue Demon spawns, the music is replaced by ominous chase music and will go after the player upon spawning. The speed it chases the player is ramped up by its current health, starting from slow to somewhat fast. When it is below 40% health, the Blue Demon will gain 60% damage reduction and chase the player much slower, however it will gain new attacks such as blue demon arms coming from the ground and platforms to grab the player, and spitting rotting teeth at the player to slow them down.
+
+== Trivia ==
+
+*The Blue Demon is a direct reference to the RPG Maker Horror Game Ao Oni.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

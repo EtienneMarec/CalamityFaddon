@@ -1,0 +1,41 @@
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 100
+| damagetype = Ranged
+| knockback = 7
+| stack = 1
+| rare = 10
+| sell = {{value|0|20}}
+| auto = yes
+| use = 25
+| velocity = 22
+| tooltip = Fires a shotgun spread of darts and a splitting energy blast<br/>Right click to fire a more powerful exploding energy blast that bounces
+| hardmode = yes
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| debuffduration = 4 seconds (Explosion)
+| element1 = Poison
+| element2 = Fire
+}}
+
+The '''Charged Dart Blaster''' is a craftable [[Hardmode]] [[Dart guns|dart gun]] and an upgrade to the [[Dart Rifle]]/[[Dart Pistol]]. It fires an energy dart that travels very fast and splits into other darts when hitting an [[enemy]] or a block alongside a spread of 2 to 4 darts. Right clicking will fire a bouncy explosive dart blast with double damage.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon's sprite and function are a reference to the Shredder in ''[[wikipedia:Turok 2: Seeds of Evil|Turok 2: Seeds of Evil]]''.
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Dart guns]]

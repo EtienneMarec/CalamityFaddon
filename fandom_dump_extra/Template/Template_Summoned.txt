@@ -1,0 +1,49 @@
+<includeonly>
+{|class="infobox" style="float:right; margin: 0 3px 10px 10px;"
+! style="padding:2px 5px; font-size:89%; background-color:#373d40; color: #ffffff;" | Summons {{#if: {{{type|}}} | {{#switch:{{{type|}}} | pet = [[Pet]] | minion = [[Minion]]{{#if:{{{minion2|}}}|s}} | sentry = [[Sentry]] | mount = [[Mount]] | light pet = [[Light Pet]] |#default = [[{{{type}}}]] }} | <!--nothing--> }}
+|-
+! style="padding:0 5px;" | {{{name| {{{1}}} }}}
+|-
+| align="center" style="padding-bottom:5px; "| {{{image| [[File:{{{1}}}.png]] }}}
+|-
+{{#if:{{{minion2|}}}|
+! style="padding:0 5px;" {{!}} {{{name2|{{{minion2}}}}}}
+{{!}}-
+{{!}} align="center" style="padding-bottom:5px; "{{!}} {{{image2|[[File:{{{minion2}}}.png]]}}}}}
+|-
+{{#if:{{{minion3|}}}|
+! style="padding:0 5px;" {{!}} {{{name3| {{{minion3}}}}}}
+{{!}}-
+{{!}} align="center" style="padding-bottom:5px; "{{!}} {{{image3| [[File:{{{minion3}}}.png]] }}}}}
+|-
+{{#if:{{{minion4|}}}|
+! style="padding:0 5px;" {{!}} {{{name4| {{{minion4}}}}}}
+{{!}}-
+{{!}} align="center" style="padding-bottom:5px; "{{!}} {{{image4| [[File:{{{minion4}}}.png]] }}}}}
+|-
+{{#if:{{{minion6|}}}|
+! style="padding:0 5px;" {{!}} {{{name6| {{{minion6}}}}}}
+{{!}}-
+{{!}} align="center" style="padding-bottom:5px; "{{!}} {{{image6| [[File:{{{minion6}}}.png]] }}}}}
+|-
+{{#if:{{{minion5|}}}|
+! style="padding:0 5px;" {{!}} {{{name5| {{{minion5}}}}}}
+{{!}}-
+{{!}} align="center" style="padding-bottom:5px; "{{!}} {{{image5| [[File:{{{minion5}}}.png]] }}}}}
+|-
+{{#if:{{{minion7|}}}|
+! style="padding:0 5px;" {{!}} {{{name7| {{{minion7}}}}}}
+{{!}}-
+{{!}} align="center" style="padding-bottom:5px; "{{!}} {{{image7| [[File:{{{minion7}}}.png]] }}}}}
+{{#if: {{{2|}}} | 
+{{!}}-
+! style="padding:0 5px; border-top:1px solid #AFCFE2; font-size:89%" {{!}} Buff
+{{!}}-
+{{!}} align="center" style="padding-top:5px" {{!}} {{{buffimage| [[File:{{{2}}}.png]] }}} }}
+|}
+
+{{#ifeq:{{NAMESPACE}}|{{ns:0}}|<!--
+
+	//cate
+	-->{{#if: {{{type|}}} | {{#switch:{{{type|}}} | minion = [[Category:Minion Summon items]] | sentry = [[Category:Sentry Summon items]] |#default =  }} | <!--nothing--> }}<!--
+-->}}</includeonly><noinclude>{{doc}}</noinclude>

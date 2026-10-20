@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| stack = 1
+| auto = yes
+| damagetype = Spy
+| damage = 60
+| knockback = 1
+| tooltip = Throws a high velocity axe that returns to you after traveling a short distance or hitting a wall<br/>At the furthest point from the player, a magical axe that travels through walls will be cast towards the nearest enemy<br/>Stealth strikes make the axe fly further, throwing out many other magical axes in all directions
+| velocity = 30
+| rare = 3
+| sell = {{value|0|0|80}}
+| use = 14
+| element1 = Magic
+| element2 = Slash
+| hardmode = yes
+}}
+
+The '''Enchanted Axe''' is a craftable [[Hardmode]] [[spy]] [[boomerang]] that is the direct upgrade to both the [[Iron Francisca]] and [[Lead Tomahawk]]. When used, it throws an enchanted axe that travels a medium distance and acts similarly to a boomerang. After reaching its maximum distance or hitting a block, it will fire a magical axe at an enemy that passes through walls and pierces once, dealing about 15% more than the weapon's base damage. The main axe cannot pass through blocks and pierces indefinitely.
+
+Performing a [[stealth strike]] with the Enchanted Axe will cause the next axe thrown to release eight additional magical axes in a circular pattern around the main axe. This effect takes place up to twice along the axe’s path outwards, if it doesn't hit a block. Additionally, the main axe is thrown further.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

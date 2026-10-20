@@ -1,0 +1,40 @@
+{{dedicated|Profoundmango69|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 64
+| velocity = 25
+| tooltip = Casts small, homing light beads along with explosive light balls
+| use = 4
+| knockback = 3
+| stack = 1
+| mana = 4
+| auto = yes
+| hardmode = yes
+| postml = yes
+| rare = 14
+| sell = {{value|0|36}}
+| proj = Light Ball.png
+| projcaption = Light Ball
+| proj2 = Light Bead.png
+| proj2caption = Light Bead
+| element1 = Holy
+}}
+
+'''Light God's Brilliance''' is a craftable Godseeker Mode [[spell tome]]. When used, it rapidly fires a spray of light beads alongside larger light balls. All of Light God's Brilliance's projectiles emit a dim white light.
+
+The light beads home in on enemies and, upon impact with them or tiles, releases a tiny non-homing shard which settles some distance away. These shards will damage any enemy that touches them and will disappear upon dealing damage or if untouched for long enough.
+
+The light balls travel straight forward at a high speed and explode in a large radius upon impact with tiles or enemies. The light balls do not home, however they and their explosions deal double damage.
+
+{{Modifier|magicalt2}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category: Spell tomes]]

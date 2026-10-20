@@ -1,0 +1,6 @@
+=== Calamity Mod Wiki's Recipe Finder ===
+<div style="display:none;"><inputbox>type=create</inputbox></div><!-- to load ooui -->
+The name of the item must be spelt and capitalized correctly. If the item is included in a [[recipe group]] (e.g. Iron Bars are in the Any Iron Bar recipe group) and you wish to EXCLUDE the recipe group, put a # before the item (e.g. #Iron Bar).
+<div id="RecipeFinderInput"></div>
+<div id="RecipeFinderOutput"></div>
+[[Category:Calamity Mod Wiki]]

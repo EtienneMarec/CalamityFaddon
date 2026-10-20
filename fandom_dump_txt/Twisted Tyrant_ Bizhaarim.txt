@@ -1,0 +1,85 @@
+<section begin=npc infobox />
+{{npc infobox
+| name = Twisted Tyrant, Bizhaarim
+| type = Boss
+| environment = Overworld
+| life = {{dv|100,000|200,000|280,000|320,000}}
+| defense = 80
+| immune1 = Pearl Aura
+| immune2 = Confused
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Holy
+| vulnerable1 = Fire
+| vulnerable2 = Unholy
+| vulnerable3 = Magic
+| vulnerable4 = Machine
+| knockback = 100
+| damage = {{dv|200|350|480|500}} (Slash)<br/>{{dv|150|200|250|500}} (Spinning Blade)<br/>{{dv|100|120|150|300}} (Kunai)<br/>{{dv|500|700|1200|7000}} (Devastation Ray)<br/>{{dv|30|30|30|100}} (Shadowflames)
+| money = {{value|0}}
+| image2 = Bizhaarim map.png
+| image2caption = Map Icon
+| boxwidth = 27em
+| hurt = NPC_Hit_4.wav
+| sound1 = Item_71.wav
+| soundtext1 = Slash, Spinning Blade, Kunai
+| sound2 = ProvidenceDeathAnimation.wav
+| soundtext2 = Devastation Ray
+}}<section end=npc infobox />
+[[File:Bizhaarim Trophy.png|25px]] <big>''"The Auric Tyrants forgotten twin."''</big> [[File:Bizhaarim Trophy.png|25px]]
+
+'''Twisted Tyrant, Bizhaarim''' (Japanese: 悪の皇帝ビザアリム ''Aku no kōtei bizarimu'') is a Godseeker Mode [[boss]]. They are a mysterious combatant from the Distortion realm, wearing purple armor with a long green ponytail.
+
+== Spawn ==
+Bizhaarim has a 30% chance to spawn every day at 12:00 AM if the player is wearing a full set of [[Auric Tesla armor]]. After the boss is defeated for the first time, the chance for them to spawn will drop to 5%.
+
+When spawning, a cutscene will play of Bizhaarim exiting a distortion portal.
+
+== Behavior ==
+Bizhaarim is an incredibly mobile foe who can unleash several attacks within quick succession. They often get up close to the player to attack, allowing for true melee weapons to be viable.
+
+* They dash towards the player, ending the dash with three quick slashes. 
+* Bizhaarim will cause time to slow down. They will then rapidly teleport to 6 different places around the player, leaving behind a stationary kunai after each teleport. After the 6th teleport, they will snap their fingers, causing time to speed back up, and the kunai to zoom forwards.
+* They throw their sword out behind the player, with it later circling back to hit them.
+* Bizhaarim will slow down time, before teleporting close to the player, and slashing their sword. They will repeat this 6 times before returning time to normal.
+* Bizhaarim will charge up their Devastation Ray, and shoot it at the player, leaving shadowflames behind on blocks the ray passed through. Shadowflames will disappear after 10 seconds.
+
+After Bizhaarim is defeated, they will fall down to their knees before leaping away into the sky, leaving behind their drops.
+
+== Notes ==
+*If the player attempts to run away, Bizhaarim will freeze time, and teleport right next to them with a flurry of un-dodgable slashes.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating Bizhaarim, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Bizhaarim strategies]].}}
+
+== Trivia ==
+*Bizhaarim's [[Music|theme]] is '''Fatal Encounter''', which was composed by the artist ENNWAY.
+**If the Calamity Music add-on mod is disabled, '''Duke Fishron''' will play instead.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "Useless. Come back when you're ready to put up a real fight!"
+*Bizhaarim comes from a realm known as the Distortion, which has existed within Calamity lore for a long time.
+*Bizhaarim is non binary.
+
+== Quotes ==
+
+* "Hahaha, it seems that I've finally found you, Brother.” (When spawned for the first time)
+* "Don't look so surprised, it was only a matter of time until we'd meet again.” (after exiting the Distortion portal)
+* "It's been a long time since you abandoned me. Fed me to the sharks and expected me to lay down and die."
+* "But guess what, I never did die. And now I'm here to enact my long deserved vengeance...”
+* "YOUR CALAMITY: REIGN OF YHARIM ENDS NOW!" (Battle Starts)
+* "Looks like you've gotten a little RUSTY, brother!" (If player gets hit)
+* "HAH! Is that all you've got?" (If player gets hit)
+* "How pathetic..." (If player gets hit)
+* "TAKE THIS!" (If Bizhaarim uses one of their time slowing attacks)
+* "Grrr, you've put up more of a fight then expected, but don't get cocky!" (When Bizhaarim reaches 50% health)
+* "GRAHH!! WHEN.. WILL.. YOU.. JUST... DIE!!!" (When Bizhaarim reaches 25% health)
+* "NO! I CAN'T LOSE! I must end you, HERE. AND. NOW, BROTHER!" (When Bizhaarim reaches 10% health)
+* "GAH!!" (When Bizhaarim reaches 0% health)
+* "You... How dare you still stand in defiance."
+* "It seems I have underestimated your strength, brother..."
+* "One day, I will return..."
+* "... and you will feel my Raw, Unfiltered Calamity..."
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

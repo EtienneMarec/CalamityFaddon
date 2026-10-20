@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 120
+| damagetype = Rogue
+| use = 14
+| knockback = 4
+| auto = yes
+| stack = 1
+| rare = 8
+| tooltip = Throws disks that roll on the ground, occasionally launches an explosive disk<br/>Stealth strikes launch an explosive disk that can pierce several enemies
+| sell = {{value|0|16}}
+| velocity = 20
+| hardmode = yes
+| proj = Cranium Disk Explosive.png
+| projcaption = Explosive Cranium Disk
+| element1 = Unholy
+| element2 = Smash
+}}
+|{{item drops infobox
+| [[Ravager]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Cranium Smasher''' is a [[Hardmode]] [[Bombs|bomb]] that drops from the [[Ravager]]. When used it auto-fires a spinning disk that can pierce four enemies before disappearing on its next impact. Disks that are thrown will also roll along the ground, and have a chance to spawn as an explosive disk that will explode on contact with enemies and blocks.
+
+Performing a [[stealth strike]] with the Cranium Smasher causes it to deal 175% damage and fire a disk that will explode on enemy hits and can pierce nine enemies before disappearing on its next impact. This disk will explode on contact with blocks.
+
+{{Modifier|rogue}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Bombs]]

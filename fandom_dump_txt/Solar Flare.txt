@@ -1,0 +1,50 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 71
+| reach = 35
+| attduration = {{infinity}}
+| damagetype = melee
+| knockback = 7.5
+| tooltip = Emits large holy explosions on hit<br/>A very agile yoyo
+| rare = 12
+| use = 20
+| stack = 1
+| auto = yes
+| sell = {{value|0|24}}
+| debuff = Holy Flames
+| debuffchance = 100%
+| debuffduration = 4 seconds (Yoyo)
+| debufftip = Dissolving from holy light
+| hardmode = yes
+| postml = yes
+| proj = Solar Flare Yoyo.png
+| projcaption = Solar Flare
+| element1 = Holy
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Providence, the Profaned Goddess]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{dablink|For the vanilla armor set, see [[Solar Flare armor]].}}
+
+The '''Solar Flare''' is a Godseeker Mode [[yoyo]] dropped by [[Providence, the Profaned Goddess]]. Every impact with an enemy will produce a large explosion of embers that deal 75% of the weapon's damage and inflict the [[Holy Flames]] debuff. Unlike other yoyos, the Solar Flare ignores NPC [[immunity frames]], allowing it to rapidly bounce off of enemies and inflict much more damage than its damage stat would indicate.
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Solar Flare moves extremely quickly compared to other yoyos, allowing it to more easily track fast enemies.
+
+== Trivia ==
+*[[wikipedia:Solar flare|Solar flares]] are sudden flashes of brightness on the sun.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-melee = yes
+}}
+[[Category:Yoyos]]

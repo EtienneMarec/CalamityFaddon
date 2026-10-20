@@ -1,0 +1,5 @@
+&nbsp; <span style="font-weight:bold; text-shadow: 0px 0px 8px #FF0066; cursor:pointer;" title="{{{1|Crafted At}}}">@</span> &nbsp;<noinclude>
+
+Produces a stylized "@" symbol. If you want custom hover text, put it as the first parameter: <code><nowiki>{{@|Used At}}</nowiki></code> produces {{@|Used At}}.
+
+[[Category:Shortcut templates]]</noinclude>

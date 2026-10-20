@@ -1,0 +1,48 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 248
+| knockback = 5
+| tooltip = Fires a spread of 4 arrows<br/>Wooden arrows are converted into nebula arrows
+| rare = 14
+| sell = {{value|0|28}}
+| debuff = Frostburn
+| debuffchance = 100%
+| debuffduration = 1.5 seconds (Nebula Arrows)
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuff2 = On Fire!
+| debuffchance2 = 100%
+| debufftip2 = Losing life
+| debuffduration2 = 3 seconds (Nebula Arrows)
+| auto = yes
+| use = 14
+| stack = 1
+| velocity = 20
+| hardmode = yes
+| postml = yes
+| proj = Nebula Arrows.png
+| projcaption = Nebula Arrows
+| element1 = Magic
+| element2 = Cold
+}}
+|{{item drops infobox
+| [[The Devourer of Gods]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+'''Deathwind''' is a Godseeker Mode [[bow]] that is dropped by [[The Devourer of Gods]]. Upon use, the Deathwind turns [[Wooden Arrow]]s into a spread of 4 blue and pink nebula arrows. Nebula arrows do not pierce tiles nor enemies and inflicts [[On Fire!]] and [[Frostburn]] [[debuff]]s. Unconverted arrows deal 80% damage.
+
+{{Modifier|ranged}}
+
+== Tips ==
+*Having the ability to maintain relatively high DPS makes the Deathwind a good bossing weapon.
+*Pay attention to the projectiles being fired by the Deathwind, as this can make fighting certain enemies easier.
+*Due to the Deathwind's average knockback, it would be advised to stay away from tight spaces when using the bow, as one may find themselves overwhelmed by hordes of enemies.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

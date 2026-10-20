@@ -1,0 +1,211 @@
+<div class="crafting-tree">{{diagram
+
+|Shell|_|Esse1|_|EctoP|_|Esse2|_|PhSto|_|BandR|_|StarC|_|CroNe|_|PriSh|_|MeteO|_|AstrO|_|Stard|_|_|_|_|_|_|_|_|_|_|_|_|_|# 
+|      _|      _|      _|      _|      _|      _|      _|      _|      _|      _|      _|      _|_|_|_|_|_|_|_|_|_|_|_|_|# 
+|_|`|-|-|-|(|_|_|_|)|-|-|-|'|_|_|_|`|-|-|-|(|_|_|_|`|-|-|-|(|_|_|_|I|_|_|_|I|_|_|_|)|-|-|-|'|_|_|_|_|_|_|_|_|_|_|_|_|_|_|# 
+|_|_|_|_|HMANV|_|HMANV|_|_|_|_|_|_|_|_|_|_|@|_|_|_|_|_|_|_|@|_|_|PHANV|_|PHFRG|_|_|§|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|# 
+|PalSh|_|FroTu|_|CoreE|_|MolHu|_|LunaF|_|CharM|_|_|_|_|_|StaVe|_|SeaPr|_|MetBr|_|AstrB|_|DarkF|_|EndoE|_|NighF|_|Phant|_|# 
+|      _|      _|      _|      _|      _|      _|      _|      _|      _|      _|      _|      _|      _|      _|      _|# 
+|_|`|-|-|-|^|-|-|-|+|-|-|-|'|_|_|_|I|_|_|_|`|-|-|-|-|-|-|-|+|-|-|-|^|-|-|-|^|-|-|-|'|_|_|_|)|-|-|-|^|-|-|-|^|-|-|-|'|_|_|# 
+|_|_|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|_|_|_|# 
+|_|_|_|_|_|_|_|_|FriBu|_|_|_|_|_|GalSi|_|CosBr|_|DivGe|_|DeiAm|_|_|_|_|_|_|_|_|_|_|_|_|_|AscSE|_|_|_|_|_|_|_|_|_|_|_|_|_|# 
+|_|_|_|_|_|_|_|_|      _|_|_|_|_|      _|      _|      _|      _|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|# 
+|_|_|_|_|_|_|_|_|_|`|-|-|-|-|-|-|-|^|-|-|-|^|-|-|-|+|-|-|-|^|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|'|_|_|_|_|_|_|_|_|_|_|_|_|_|_|# 
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|COANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|# 
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|RamRa|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|# 
+
+<!-- •• CRAFTING MATERIALS •• -->
+<!-- *** Frigid Bulwark *** -->
+| PalSh_cols = 3
+| PalSh_rows = 2
+| PalSh = {{item|Paladin's Shield}}<br/>
+( {{item|mode=image|Paladin|size=25px}} )
+
+| FroTu_cols = 3
+| FroTu_rows = 2
+| FroTu = {{item|Frozen Turtle Shell}}<br/>
+<span style="font-size:0.75em">( [[Ice Bio-center Lab]])/ {{item|mode=image|Ice Tortoise|size=30px}} ) </span>
+
+| EctoP_cols = 3
+| EctoP_rows = 2
+| EctoP = {{item|Ectoplasm}} × 2<br/>
+( {{item|mode=image|Ectoblood|size=14px}} × 3 / {{item|mode=image|Dungeon Spirit|size=16px}} )
+
+| Esse1_cols = 3
+| Esse1_rows = 2
+| Esse1 = {{item|Essence of Eleum}} × 9<br/> 
+<span style="font-size:0.75em">( Ice related creatures )</span>
+
+| Esse2_cols = 3
+| Esse2_rows = 2
+| Esse2 = {{item|Essence of Eleum}} × 2<br/> 
+<span style="font-size:0.75em">( Ice related creatures )</span>
+
+| Shell_cols = 3
+| Shell_rows = 2
+| Shell = {{item|Turtle Shell}} × 3<br/>
+( {{item|mode=image|Giant Tortoise|size=32px}} )
+
+| CoreE_cols = 3
+| CoreE_rows = 2
+| CoreE = {{item|Core of Eleum}} × 5<br/>
+( {{item|mode=image|image=Ravager map.png|Ravager|size=20px}} )
+
+| MolHu_cols = 3
+| MolHu_rows = 2
+| MolHu = {{item|Mollusk Husk}} × 5<br/>
+( {{item|mode=image|image=Giant Clam map.png|Giant Clam|size=20px}} )
+
+<!-- *** Deific Amulet *** -->
+| AstrO_cols = 3
+| AstrO_rows = 2
+| AstrO ={{item|Astral Ore}} × 20<br/>
+<span style="font-size:0.75em">( [[Astral Infection]] / {{item|mode=image|Astral Slime|size=18px}} )</span>
+
+| Stard_cols = 3
+| Stard_rows = 2
+| Stard = {{item|Stardust}} × 30<br/>
+<span style="font-size:0.75em">( [[Astral Infection]] enemies / {{item|mode=image|image=Astrum Aureus map.png|Astrum Aureus|size=25px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=25px}} )</span>
+
+| AstrB_cols = 3
+| AstrB_rows = 2
+| AstrB = {{item|Astral Bar}} × 10
+
+| MeteO_cols = 3
+| MeteO_rows = 2
+| MeteO = {{item|Meteorite}} × 30<br/>
+<span style="font-size:0.75em">( [[Meteorite (biome)|Meteorite]] )</span>
+
+| MetBr_cols = 3
+| MetBr_rows = 2
+| MetBr = {{item|Meteorite Bar}} × 10
+
+| PhSto_cols = 3
+| PhSto_rows = 2
+| PhSto = {{item|Philosopher's Stone}}<br/>
+<span style="font-size:0.75em">( {{item|mode=image|Mimic|size=44px}} / {{item|mode=image|Locked Shadow Chest|size=20px}} In [[Brimstone Crag]] )</span>
+
+| BandR_cols = 3
+| BandR_rows = 2
+| BandR = {{item|Band of Regeneration}}<br/>
+( {{item|mode=image|Gold Chest|size=20px}} {{item|mode=image|Ivy Chest|size=20px}} )
+
+| CharM_cols = 3
+| CharM_rows = 2
+| CharM = {{item|Charm of Myths}}
+
+| StarC_cols = 3
+| StarC_rows = 2
+| StarC = {{item|Star Cloak}}<br/>
+<span style="font-size:0.75em">( {{item|mode=image|Mimic|size=40px}} ) </span>
+
+| CroNe_cols = 3
+| CroNe_rows = 2
+| CroNe = {{item|Cross Necklace}}<br/>
+<span style="font-size:0.75em">( {{item|mode=image|Mimic|size=40px}} ) </span>
+
+| StaVe_cols = 3
+| StaVe_rows = 2
+| StaVe = {{item|Star Veil}}
+
+| SeaPr_cols = 3
+| SeaPr_rows = 2
+| SeaPr = {{item|Sea Prism}} × 15<br/>
+<span style="font-size:0.75em">( [[Sunken Sea]] )</span>
+
+| PriSh_cols = 3
+| PriSh_rows = 2
+| PriSh = {{item|Prism Shard}} × 75<br/>
+<span style="font-size:0.75em">( [[Sunken Sea]] / {{item|mode=image|Prism-Back|size=28px}} {{item|mode=image|Blinded Angler|size=28px}} )</span>
+
+<!-- ••• Rampart of Deities ••• -->
+| RamRa_cols = 3
+| RamRa_rows = 2
+| RamRa = {{item|Rampart of Deities}}
+
+| FriBu_cols = 3
+| FriBu_rows = 2
+| FriBu = {{item|Frigid Bulwark}}
+
+| DeiAm_cols = 3
+| DeiAm_rows = 2
+| DeiAm = {{item|Deific Amulet}}
+
+| CosBr_cols = 3
+| CosBr_rows = 2
+| CosBr = {{item|Cosmilite Bar}} × 10<br/>
+( {{item|mode=image|image=Devourer of Gods final head map.png|The Devourer of Gods|size=25px}} )
+
+| DivGe_cols = 3
+| DivGe_rows = 2
+| DivGe = {{item|Divine Geode}} × 10<br/>
+<span style="font-size:0.75em">( {{item|mode=image|image=Providence map.png|Providence, the Profaned Goddess|size=40px}} )</span>
+
+| LunaF_cols = 3
+| LunaF_rows = 2
+| LunaF = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 5<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+| GalSi_cols = 3
+| GalSi_rows = 2
+| GalSi = {{item|Galactica Singularity}} × 5
+
+| EndoE_cols = 3
+| EndoE_rows = 2
+| EndoE = {{item|Endothermic Energy|size=20px}} × 20<br/>
+<span style="font-size:0.75em">( [[Frost Moon]] )</span>
+
+| NighF_cols = 3
+| NighF_rows = 2
+| NighF = {{item|Nightmare Fuel|size=20px}} × 20<br/>
+<span style="font-size:0.75em">( [[Pumpkin Moon]] )</span>
+
+| DarkF_cols = 3
+| DarkF_rows = 2
+| DarkF ={{item|Darksun Fragment}} × 8<br/>
+<span style="font-size:0.75em">( [[Solar Eclipse]] )</span>
+
+| Phant_cols = 3
+| Phant_rows = 2
+| Phant = {{item|Phantoplasm|size=20px}} × 20<br/>
+( {{item|mode=image|image=Polterghast map.png|Polterghast|size=18px}} {{item|mode=image|Phantom Spirit|size=14px}} {{item|mode=image|Overloaded Soldier|size=18px}} {{item|mode=image|Phantom Debris|size=26px}} )
+
+| AscSE_cols = 3
+| AscSE_rows = 2
+| AscSE = {{item|Ascendant Spirit Essence}} × 4
+
+<!-- •• CRAFTING STATIONS •• -->
+| @_cols = 1
+| @_class = craft-station
+| @ = {{item|mode=image|Tinkerer's Workshop}}
+
+| HMANV_cols = 3
+| HMANV_class = craft-station
+| HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+| COANV_cols = 3
+| COANV_class = craft-station
+| COANV = {{item|mode=image|Cosmic Anvil}}
+
+| PHFRG_cols = 3
+| PHFRG_class = craft-station
+| PHFRG = {{item|mode=image|Furnace}}
+
+| PHANV_cols = 3
+| PHANV_class = craft-station
+| PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+| §_cols = 1
+| §_class = craft-station
+| § = {{item|mode=image|Ancient Manipulator}}
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

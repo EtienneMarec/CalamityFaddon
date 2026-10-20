@@ -1,0 +1,31 @@
+{{item infobox
+| type = Covering
+| tooltip = Causes most ranged weapons to sometimes release acid droplets from the sky
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| debuffduration = 3 seconds (Droplet)
+| rare = 1
+| sell = {{value|0|0|20}}
+| stack = 1
+| proj = Acid Droplet.png
+| projcaption = Acid Droplet
+| element1 = Poison
+| element2 = Water
+}}
+
+The '''Rusty Medallion''' is a craftable [[Pre-Hardmode]] [[covering]] that can be found in [[Rusty Chest]]s. While equipped, [[ranged weapons]] have a 20% chance to release 3 acidic droplets from the sky. The droplets deal 30% of the weapon's base damage and behave identically to the droplets from [[Flak Toxicannon]]. The droplets are softcapped at 30 damage, with any further damage increases being 90% less effective.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 260
+| use = 20
+| velocity = 20
+| knockback = 7
+| auto = yes
+| stack = 1
+| tooltip = Linked to the essence of Terraria<br/>Heals the player on true melee hits<br/>Fires a barrage of 4 homing beams that freeze enemies
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| debuff = Glacial State
+| debuffduration = 0.5 seconds (Melee)<br/>1 second (Projectiles)
+| debuffchance = 100%
+| proj = Terratomere Beam.png
+| projcaption = Terratomere Beam
+| element1 = Poison
+| element2 = Holy
+| element3 = Slash
+}}
+[[File:Terratomere (demo).gif|frame|The Terratomere's projectiles homing in on and hitting a [[Super Dummy]]. Notice how only true melee strikes slightly heal the player.]]The '''Terratomere''' is a craftable Godseeker Mode [[broadsword]] that autoswings. It fires a barrage of 4 homing beams when swung, which deal half damage, and can pass through blocks. The sword and projectiles will inflict [[Glacial State]] onto enemies. In addition to this, striking enemies with true melee hits will [[Lifesteal|heal]] the player for 2 to 4 HP. It is also used to summon [[The Hive Mind]].
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Terratomere/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Healing items]]

@@ -1,0 +1,81 @@
+/* CSS placed here will affect users of the mobile site */
+
+/* Importing Common css */
+@import url(https://calamitymod.gamepedia.com/index.php?title=MediaWiki:Common.css&action=raw&ctype=text/css);
+
+/* Header and footer */
+.header-container.header-chrome,
+#mw-mf-page-center {
+    background: #212121;
+    color: #888;
+}
+
+/* Content that is only shown on mobile */
+.nomobile {
+    display: none;
+}
+
+.client-js .toc-mobile {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: 1px solid #aaaaaa !important;
+}
+
+.mw-ui-button,
+.last-modified-bar #mw-mf-last-modified {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#content_wrapper {
+    background: #FCFCFC;
+    color: #000000;
+    border: 0px solid #bd912f;
+    clear: both;
+    margin: 0 8px;
+}
+
+h2 {
+	border-bottom-color: #888 !important;
+}
+.page-actions-menu {
+	border-bottom-color: #888 !important;
+	border-top-color: #888 !important;
+}
+.last-modified-bar {
+	background-color: #212121 !important;
+	border-bottom-color: #888 !important;
+}
+.minerva-footer {
+	border-top-color: #888 !important;
+}
+
+.thumb {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #aaaaaa;
+    margin-bottom: 10px;
+}
+
+.thumb,
+#content_wrapper .thumb,
+li.gallerybox div.thumb {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #aaaaaa;
+}
+
+.header .branding-box h1 {
+    border-bottom: none;
+}
+
+.notification-count.notification-unseen,
+.notification-count {
+   background: transparent;
+}
+
+.overlay-enabled, #content {
+    background: #212121;
+    color: #888;
+}
+
+#content a:link,
+#content a:visited {
+    color: #2673BF;
+}

@@ -1,0 +1,21 @@
+Use this template to show a verbal description of a numeric [[use time]] rating. It is primarily for use within other templates like {{tl|item infobox}} or {{tl|dpl}}. 
+
+This template takes one unnamed parameter: The numeric use time value. 
+
+Use time values are described by this template in the same way they would be in Terraria:
+
+* {{code|{{tl|use time|8}}}} = {{use time|8}} (0 - 8)
+* {{code|{{tl|use time|20}}}} = {{use time|20}} (8 - 20)
+* {{code|{{tl|use time|25}}}} = {{use time|25}} (20 - 25)
+* {{code|{{tl|use time|30}}}} = {{use time|30}} (25 - 30)
+* {{code|{{tl|use time|35}}}} = {{use time|35}} (30 - 35)
+* {{code|{{tl|use time|45}}}} = {{use time|45}} (35 - 45)
+* {{code|{{tl|use time|55}}}} = {{use time|55}} (45 - 55)
+* {{code|{{tl|use time|56}}}} = {{use time|56}} (55 - {{infinity}})
+
+== See also ==
+*{{tl|knockback}}
+
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

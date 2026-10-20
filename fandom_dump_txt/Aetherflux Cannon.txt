@@ -1,0 +1,44 @@
+{{item infobox
+| type = Weapon
+| damage = 247
+| damagetype = magic
+| auto = yes
+| stack = 1
+| knockback = 4
+| mana = 8
+| velocity = 24
+| use = 36
+| tooltip = Fires a barrage of phased god rays that pass through terrain
+| rare = 15
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| image2 = Aetherflux Cannon Holdout.gif
+| image2caption = Aetherflux Cannon
+| element1 = Holy
+| element2 = Magic
+}}
+
+The '''Aetherflux Cannon''' is a craftable Godseeker Mode [[magic gun]] that is a direct upgrade to the [[Nano Purge]], and is obtainable after [[Jungle Dragon, Yharon]] has been defeated. When used, it spins up for roughly half of a second, then it rapidly fires pairs of incredibly fast yellow lasers which travel in a double helix pattern. Each laser can pierce through one target and can go through tiles.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Unlike the [[Laser Machinegun]] and the Nano Purge, this weapon does not increase in fire rate over time. After the initial non-firing spin-up, it fires its lasers at a constant high speed.
+*This weapon does not consume mana while spinning up, it is only consumed once it has begun firing lasers.
+
+== Trivia ==
+*The movement pattern of the lasers is a reference to the [https://metroid.fandom.com/wiki/Wave_Beam Wave Beam] from the ''[[wikipedia:Metroid|Metroid]]'' game series.
+*The weapon's former name, "T1000" was likely named after the [[wikipedia:T-1000|T-1000]], the robotic main antagonist of the film ''[[wikipedia:Terminator 2: Judgment Day|Terminator 2: Judgment Day]]''.
+
+{{auric}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+
+[[Category:Magic guns]]

@@ -1,0 +1,15 @@
+Return language setting, auto detect based on page URL or manually set, used by other templates for l10n.
+
+== Usage ==
+Get language code (auto detect or previously set):
+
+<code><nowiki>{{lang|}}</nowiki></code>
+
+It will return the 2-characters language code: en/es/it ... etc.
+
+== See also ==
+* {{tl|lang/set}}
+
+<includeonly>
+[[Category:I18n-ready templates| ]]
+</includeonly>

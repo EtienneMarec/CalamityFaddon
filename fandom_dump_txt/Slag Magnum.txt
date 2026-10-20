@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = ranged
+| damage = 24
+| knockback = 4
+| rare = 5
+| sell = {{value|0|7|20}}
+| use = 15
+| velocity = 12
+| tooltip = Converts musket balls into fossil shards that split into additional shards on death
+| stack = 1
+| hardmode = yes
+| debuff=Armor Crunch
+| debuffchance = 100%
+| debufftip=Your armor is shredded
+| debuffduration = 2 seconds (Slag Round)<br/>1 second (Fossil shard)
+| proj = Slag Round.png
+| projcaption = Slag Round
+| proj2 = Fossil Shard.png
+| proj2caption = Fossil Shard
+| element1 = Stab
+}}
+|{{item drops infobox
+| [[Earth Elemental]] | 1 | 25%
+}}
+}}
+
+The '''Slag Magnum''' is a [[Hardmode]] [[gun]] that is dropped by [[Earth Elemental]]s. When [[Musket Ball]]s are used as [[ammo]], it fires a special bullet that inflicts the [[Armor Crunch]] [[debuff]] on targets for a short time, which reduces their defense by 15, and splits into 4 small shards on impact which deal 35% of the original bullet's damage.
+
+{{Modifier|ranged}}
+
+== Tips ==
+*Because of the high armor reduction, it is much more effective on enemies with high defense. This means it can be quite potent as a support weapon throughout the entire rest of the game.
+*Due to how early it is available and its powerful effect, it is an excellent weapon against the [[Mechanical Bosses]].
+*Its effect is very similar to [[Crystal Bullet]]s, making it an excellent crowd control tool.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Guns]]

@@ -1,0 +1,39 @@
+{{item infobox
+| damage = 200
+| damagetype = ranged
+| use = 20
+| knockback = 7.5
+| rare = 14
+| sell = {{value|0|12}}
+| element1 = Poison
+| element2 = Stab
+| element3 = Water
+| auto = yes
+| velocity = 20
+| tooltip = Why?
+| type = Weapon
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Triploon (projectile).png
+| projcaption = Twentloon
+}}
+The '''Twentloon''' is a craftable Godseeker Mode [[Ranged weapons|ranged weapon]] that is the direct upgrade to the [[Triploon]]. It can be obtained either through crafting or by receiving it from the [[Agent]]. It rapidly fires twenty harpoons that are unaffected by gravity. The harpoons travel a short distance before returning to the player.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Unlike the Harpoon, the Twentloon has no visible chains.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Ranged weapons]]

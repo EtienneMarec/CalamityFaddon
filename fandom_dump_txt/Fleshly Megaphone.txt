@@ -1,0 +1,41 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damage = 140
+| use = 8
+| mana = 3
+| damagetype = magic
+| knockback = 5.5
+| auto = yes
+| velocity = 15
+| stack = 1
+| rare = 4
+| sell = {{value|0|15|0|0}}
+| tooltip = Weaponize your frustrated yell with this one!<br/>Your yell may irritate enemies, whether you like it or not.
+| debuff = Irritated
+| debuffchance = 100%
+| debuffduration = 3 seconds (Scream)
+| debufftip = AAGGHHH!!!!
+| element1 = Unholy
+| element2 = Dark
+}}
+{{item drops infobox
+| [[Destroyer of Sanity]] | 1 | {{dv|25%|33.33%}}
+}}
+
+The '''Fleshly Megaphone''' is a [[Pre-Hardmode]] [[Magic weapons|Magic Weapon]] dropped by the [[Destroyer of Sanity]]. When used, it fires out the letter "A" that bounces off tiles, pierces 10 times, and lasts for a moderate time before dissipating. This letter inflicts the '''Irritated''' Debuff, making the inflicted enemy take and deal 50% more damage. The letter also slows down by 5% upon hitting an enemy.
+
+{{Modifier|magiclow}}
+
+==Notes==
+*The projectile it fires grants half the usual I-Frames.
+
+==Tips==
+*Its debuff's effect serves as a high risk, high reward type, making it riskier to get hit via enemies that already hits hard.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic guns]]

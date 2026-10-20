@@ -1,0 +1,67 @@
+{{item infobox
+| type = coverings
+| defense = 8
+| rare = 2
+| sell = {{value|0|6|0}} (set)
+| setbonus = Ranged attacks hitting in succession provides up to ten defense
+| resistance1 = Slash
+| resistance2 = Fire
+| vulnerable1 = Magic
+}}
+
+'''Grarble coverings''' is a craftable [[Pre-Hardmode]] ranged [[Covering]] set. It requires 28 [[Gold Bar]]s or [[Platinum Bar]]s,  22 [[Marble Block]]s and 22 [[Granite Block]]s to craft the entire set.
+
+It consists of a '''Grarble Weighted Helm''', '''Grarble Platemail''', and '''Grarble Greaves'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*8-18 defense
+*5% increased ranged damage
+*3% increased ranged critical strike chance
+*7% increased movement speed
+*Depending on how long the player has been dealing damage without taking damage, the player's defense will increase up to 10. This additional defense will be lost upon taking damage.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Grarble Weighted Helm
+| type = coverings
+| defense = 3
+| body slot = Helmet
+| tooltip = 5% increased ranged damage
+| sell = {{value|0|0|20}}
+}}
+|{{item infobox
+| name = Grarble Platemail
+| type = coverings
+| defense = 4
+| body slot = Shirt
+| tooltip = 3% increased ranged critical strike chance
+| sell = {{value|0|0|20}}
+}}
+|{{item infobox
+| name = Grarble Greaves
+| type = coverings
+| defense = 2
+| body slot = Pants
+| tooltip = 7% increased movement speed
+| sell = {{value|0|0|20}}
+}}
+}}
+
+==Crafting==
+===Recipes===
+{{recipes|view=infobox|result=LIKE Grarble Platemail/Grarble Greaves/Grarble Weighted Helm}}
+
+== Tips ==
+*Most players prefer acquiring the Grarble coverings before the [[Old Hunter coverings]] due to the former not requiring farming rare enemies in the ocean.
+
+{{-}}
+
+== Trivia ==
+
+* This coverings set lacks a Marnite counterpart.
+** It is unknown why, although this is likely due to coverings sheeting being tedious.
+{{Master Template Equipables
+|show-main=yes
+|show-coverings=yes
+}}

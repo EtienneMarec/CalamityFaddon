@@ -1,0 +1,30 @@
+{{infobox wrapper
+|{{item infobox
+| imagealt = <Tabber>
+Default=[[File:Essence of Myst.png]]
+|-|
+Aquatic=[[File:Ctota Essence of Myst.png]]
+</Tabber>
+| type = Crafting material
+| stack = 9999
+| tooltip = The essence of a distant island
+| rare = 5
+| sell = {{value|0|0|40}}
+| hardmode = yes
+}}
+}}
+
+'''Essence of Myst''' is a [[Hardmode]] [[crafting material]] obtained by throwing [[Essence of Sunlight]] into [[tgc:Shimmer|Shimmer]].
+
+{{dei}} Essence of Myst can also be placed.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+* if Calamity: Tales of the Aquatic Add-On is enabled, the Essences sprite gets retextured to look less like its unshimmered form
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

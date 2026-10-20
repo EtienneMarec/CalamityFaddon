@@ -1,0 +1,31 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Stealth strikes have +8 armor peneration and deal 8% more damage
+| sell = {{value|0|0|80}}
+| rare = 3
+| stack = 1
+}}
+|{{item drops infobox
+| [[The Hive Mind]]|1| {{dv|25%|33.33%}}
+}}
+}}
+The '''Filthy Glove''' is a [[Pre-Hardmode]] [[Spy]] [[covering]] dropped by [[The Hive Mind]]. When equipped, the player's [[stealth strike]]s deal 8% more damage, and have +8 armor penetration.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This covering is the counterpart to the [[Bloodstained Glove]] dropped by [[The Perforators]].
+{{-}}
+{{Rotten Matter}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

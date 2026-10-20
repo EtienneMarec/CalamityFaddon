@@ -1,0 +1,32 @@
+{|align=right
+|{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| use = 14
+| color = #17171A
+| sell = No value
+| rare = 0
+| hardmode = yes
+}}
+|}
+
+'''Plagued Containment Wall''' is a background [[wall]] crafted with [[Plagued Containment Brick]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This item was previosuly known as "Plagued Plate Wall".
+{{Master Template Tiles
+| show-main  = yes
+| show-walls = yes
+}}
+
+[[Category:Block items]]

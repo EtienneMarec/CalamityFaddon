@@ -1,0 +1,247 @@
+{{item infobox
+| imagealt = <Tabber>
+Default=[[File:True Biome Blade.png]]
+|-|
+Attuned=[[File:True_Biome_Blade_(Charged).png]]
+</Tabber>
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 400
+| use = 17
+| velocity = 12
+| knockback = 8
+| auto = yes
+| stack = 1
+| tooltip = {{color|Does nothing.. yet<br/>It seems that upgrading the blade expanded the scope of the previous attunements<br/>Your secondary attunement can now provide passive bonuses|#A3A3A3}}<br/>Holding down RMB for 2 seconds attunes the weapon to the powers of the surrounding biome<br/>Using RMB for a shorter period of time switches your active and passive attunements around<br/>{{color|Active Attumenent : [None]<br/>Passive Attumenent : [None]|#A3A3A3}}
+| rare = 9
+| sell = {{value|0|16}}
+| hardmode = yes
+| boxwidth = 22em
+| element1 = Slash
+}}
+The '''True Biome Blade''' is a craftable [[Hardmode]] [[broadsword]] that auto-swings and is an upgraded version of the [[Biome Blade]]. By default it does not fire any projectile nor does it have any special effects. However if the player stands holds the right-click button for 2 seconds, they will raise the sword up towards the sky, attuning it to the surrounding biome as lightning strikes the blade, which will let them perform unique attacks.
+
+The sword has the ability to store an extra attunement in a secondary slot, which it automatically fills with the sword's previous primary attunement when it gets replaced by another one. Using the right-click for less than 2 seconds will swap between the primary and secondary attunements. Unlike its predecessors, the attunement in the secondary slot isn't useless, as it gives the player an extra passive effect when using the main attunement of the sword.
+
+{{modifier|melee}}
+
+The True Biome Blade can obtain 4 different attunements, each of them acting as a combination of two attunements from the Biome Blade:
+
+== Attunements ==
+
+{{#tag:tabber|
+Swordsmith's Pride=
+{{Item infobox
+| float = left
+| image = True Biome Blade (Swordsmiths Pride).png 
+| namesub = Swordsmith's Pride
+| damagetype = Melee
+| damage = 240
+| use = 17
+| knockback = 8
+| auto = yes
+| stack = 1
+| velocity = 12
+| tooltip =  <Tabber>
+Active = {{color|Hold the attack button to swing the sword around you, accelerating over time. Sword beams are fired wildly while swinging<br/>Releasing the attack button hurls the sword towards your cursor. Sword beams home onto enemies struck by the thrown sword|#DC69C5}}<br/>{{color|Your secondary attunement can now provide passive bonuses|#A3A3A3}}<br/>Holding down RMB for 2 seconds attunes the weapon to the powers of the surrounding biome<br/>Using RMB for a shorter period of time switches your active and passive attunements around<br/>{{color|Active Attumenent : [Swordsmith's Pride]|#DC69C5}}<br/>{{color|Passive Attumenent : [None]|#A3A3A3}}
+|-|
+Passive = {{color|Does nothing.. yet<br/>It seems that upgrading the blade expanded the scope of the previous attunements|#A3A3A3}}<br/>{{color|All attacks have a chance to fire sword beams|#ABEF71}}<br/>Holding down RMB for 2 seconds attunes the weapon to the powers of the surrounding biome<br/>Using RMB for a shorter period of time switches your active and passive attunements around<br/>{{color|Active Attumenent : [None]|#A3A3A3}}<br/>{{color|Passive Attumenent : [Swordsmith's Pride]|#AE75A3}}
+</Tabber>
+| rare = 9
+| sell = {{value|0|16}}
+| debuff = Armor Crunch
+| debufftip = Your armor is shredded
+| debuffduration = 1.5 seconds (Sword Beam)
+| debuffchance = 100%
+| proj = Swordsmiths Projection.png
+| projcaption = Swordsmith's Projection
+| proj2 = Purity Sigil.png
+| proj2caption = Purity Sigil
+| element1 = Poison
+| element2 = Slash
+}}
+{{clear}}
+{{color|Swordsmith's Pride|#DC69C5}} is the True Biome Blade's default attunement which can be obtained if channeled in a biome that doesn't have any corresponding attunement, such as the [[Purity]] or in the [[Underground]], as well as in [[The Hallow]]. It combines the effects of the {{color|Pure Clarity|#ABB448}} and {{color|Heaven's Might|#DC8FFF}} attunements from the [[Biome Blade]]. 
+
+When selected, the player will spin the True Biome Blade around themselves, with the sword increasing in speed, size and damage as its spun up. The sword's damage will range from 40% of the weapon's base damage at the start of the attack, and ramp up to 190% of the weapon's base damage once its fully wound up. When the sword has been more than halfway charged, sword beams will start being fired in random directions around the player. At 75% charge or above, the player will also shoot one extra aimed sword beam every swing. The sword beams deal 50% of the weapon's base damage, and inflict the [[Armor Crunch]] [[debuff]], greatly reducing the defense of any enemy struck.
+
+Releasing the attack button if the sword is more than halfway spun-up will throw it in the direction of the cursor, before getting quickly pulled back to the player's hand by ghostly chains. The thrown blade deals between 275% and 450% of the weapon's base damage, depending on the charge completion of the sword before the throw. After the throw, the player has to spin the sword back up. The availability of the sword throw is indicated with a sound effect playing after reaching 50% chargeup on the sword.
+
+Hitting an enemy with the thrown blade will place a sigil of purity over them, making all of the sword beams home in on them, and biasing the random sword beams' angle towards the marked enemy's direction. The sigil will expire after 20 seconds unless the enemy is hit again, which refreshes the sigil's duration, or another enemy is struck, in which case the sigil will be replaced by a new one over the new enemy.
+
+When in the passive slot, the {{color|Swordsmith's Pride|#DC69C5}} attunement causes sword beams to occasionally shoot out from the sword when used, dealing a flat 200 damage and applying the Armor Crunch debuff.
+{{!}}-{{!}}
+Sanguine Fury=
+{{Item infobox
+| float = left
+| image = True Biome Blade (Sanguine Fury).png 
+| namesub = Sanguine Fury
+| damagetype = Melee
+| damage = 300
+| use = 18
+| knockback = 8
+| auto = yes
+| stack = 1
+| velocity = 12
+| tooltip =  <Tabber>
+Active = {{color|Conjures molten blades in front of you that get larger and stronger the more you hit enemies. The blades can also be used to bounce off tiles when in the air<br/>Releasing the attack button sends the charged blades hurtling forwards like a wheel. Attacking again immediately thereafter dashes to the wheel, shredding anything in the way|#D83716}}<br/>{{color|Your secondary attunement can now provide passive bonuses|#A3A3A3}}<br/>Holding down RMB for 2 seconds attunes the weapon to the powers of the surrounding biome<br/>Using RMB for a shorter period of time switches your active and passive attunements around<br/>{{color|Active Attumenent : [Sanguine Fury]|#D83716}}<br/>{{color|Passive Attumenent : [None]|#A3A3A3}}
+|-|
+Passive = {{color|Does nothing.. yet<br/>It seems that upgrading the blade expanded the scope of the previous attunements|#A3A3A3}}<br/>{{color|Striking enemies rarely steals a small amount of life|#D88316}}<br/>Holding down RMB for 2 seconds attunes the weapon to the powers of the surrounding biome<br/>Using RMB for a shorter period of time switches your active and passive attunements around<br/>{{color|Active Attumenent : [None]|#A3A3A3}}<br/>{{color|Passive Attumenent : [Sanguine Fury]|#AC5C4B}}
+</Tabber>
+| rare = 9
+| sell = {{value|0|16}}
+| proj = Sanguine Bladewheel.png
+| projcaption = Sanguine Bladewheel
+| element1 = Fire
+| element2 = Stab
+}}
+{{clear}}
+{{color|Sanguine Fury|#D83716}} is an attunement obtained by channeling the sword in the [[Desert]], [[The Underworld]], [[The Corruption]] or [[The Crimson]]. It combines the effects of the {{color|Arid Grandeur|#EE9C49}} and {{color|Decay's Retort|#D34093}} attunements from the [[Biome Blade]]. 
+
+When this attunement is selected, the sword will be held out in front of the player, with 4 extra spinning blades floating around the sword itself. Hitting enemies with the blades charges them up, which increases their size, damage and hit frequency, going from 300 damage per hit to 600 damage per hit. The blade's charge decays over time when not hitting enemies. 
+
+Releasing the attack button while the blades have more than 80% of their maximum charge remaining will send the four ghostly blades out flying in the cursor's direction in a wheel formation, dealing 450% of the weapon's base damage, no matter the charge amount. Attacking immediately after releasing the swords while pointing in the direction of the thrown wheel will make the player quickly dash towards the wheel, damaging every enemy in the way for 300% of the weapon's base damage, with each of these hits being a critical strike and [[Lifesteal|healing]] the player for 6 health.
+
+Alongside its damage-dealing function, this attunement doubles as a movement tool that can be used by the player to gain control over their distance to their target. When in the air, the blades will function as a pogo stick that bounce the player away from any tile they hit. Additionally, hitting an enemy while in the air will bounce the player up, and make them partly "stick" to their target, with some of the enemy's velocity being transferred over to the player.
+
+When hitting enemies while the {{color|Sanguine Fury|#D83716}} attunement is selected as the sword's passive attunement, the player will rarely be *
+granted 10 health.
+{{!}}-{{!}}
+Lamentations of the Chained=
+{{Item infobox
+| float = left
+| image = True Biome Blade (Lamentations of the Chained).png 
+| namesub = Lamentations of the Chained
+| damagetype = Melee
+| damage = 320
+| use = 18
+| knockback = 8
+| auto = yes
+| stack = 1
+| velocity = 12
+| tooltip =  <Tabber>
+Active = {{color|Lash out with a flurry of chained blades. Striking enemies with the tip of the blades guarantees a critical hit<br/>Critical strikes send out extra phantom chains which latch onto multiple targets|#71EFB1}}<br/>{{color|Your secondary attunement can now provide passive bonuses|#A3A3A3}}<br/>Holding down RMB for 2 seconds attunes the weapon to the powers of the surrounding biome<br/>Using RMB for a shorter period of time switches your active and passive attunements around<br/>{{color|Active Attumenent : [Lamentations of the Chained]|#71EFB1}}<br/>{{color|Passive Attumenent : [None]|#A3A3A3}}
+|-|
+Passive = {{color|Does nothing.. yet<br/>It seems that upgrading the blade expanded the scope of the previous attunements|#A3A3A3}}<br/>{{color|An enchanted chain hook floats near you. Striking enemies makes the hook whirl around you, freezing enemies|#A9CFFF}}<br/>Holding down RMB for 2 seconds attunes the weapon to the powers of the surrounding biome<br/>Using RMB for a shorter period of time switches your active and passive attunements around<br/>{{color|Active Attumenent : [None]|#A3A3A3}}<br/>{{color|Passive Attumenent : [Lamentations of the Chained]|#79B899}}
+</Tabber>
+| rare = 9
+| sell = {{value|0|16}}
+| debuff = Glacial State
+| debufftip = Cannot move
+| debuffduration = 1.66 (Enchanted Meat Hook)
+| debuffchance = 100%
+| proj = Ghastly Chain.png
+| projcaption = Ghastly Chain
+| proj2 = Enchanted Meat Hook.png
+| proj2caption = Enchanted Meat Hook
+| element1 = Cold
+| element2 = Slash
+}}
+{{clear}}
+{{color|Lamentations of the Chained|#71EFB1}} is an attunement that can obtained by channelling the sword in the [[Snow biome]], the [[Jungle]], the [[Ocean]] or the [[Sulphurous Sea]]. It combines the properties of the {{color|Grovetender's Touch|#A2C855}} and {{color|Biting Embrace|#A5EBEB}} attunements from the [[Biome Blade]]
+
+When used, the player will hold the sword in front of them, summoning 3 separate very fast chained blades that relentlessly whip anything standing in front of the player. Hitting enemies with the flail's chains will only deal 50% of the weapon's base damage, but if an enemy is hit by the tip of the flails, the resulting hit will be guaranteed to be a critical strike. Hitting a critical strike with the flails will additionally target up to 3 other nearby enemies with ghastly chains sprouting from the original target, with each chain dealing 50% of the weapon's base damage.
+
+When selected as a passive attunement, {{color|Lamentations of the Chained|#71EFB1}} will summon a ghostly chained hook that floats behind the player. When the player lands a hit, the hook has a chance to quickly swirl around them, dealing a flat 500 damage and inflicting the [[Glacial State]] [[debuff]] to any enemy hit, freezing them in place for 1,66 seconds.
+
+{{!}}-{{!}}
+Mercurial Tides=
+{{Item infobox
+| float = left
+| image = True Biome Blade (Mercurial Tides).png 
+| namesub = Mercurial Tides
+| damagetype = Melee
+| damage = 550
+| use = 18
+| knockback = 8
+| auto = yes
+| stack = 1
+| velocity = 12
+| tooltip =  <Tabber>
+Active = {{color|Hold the attack button to charge a heaven-shattering lunge, release to unleash the devastating blow. Shock waves are emitted as the sword charges up<br/>Striking the earth with the lunge will cause a massive shock wave on impact which raises a flood of monoliths|#846DE9}}<br/>{{color|Your secondary attunement can now provide passive bonuses|#A3A3A3}}<br/>Holding down RMB for 2 seconds attunes the weapon to the powers of the surrounding biome<br/>Using RMB for a shorter period of time switches your active and passive attunements around<br/>{{color|Active Attumenent : [Mercurial Tides]|#846DE9}}<br/>{{color|Passive Attumenent : [None]|#A3A3A3}}
+|-|
+Passive = {{color|Does nothing.. yet<br/>It seems that upgrading the blade expanded the scope of the previous attunements|#A3A3A3}}<br/>{{color|Periodically emit shock waves while attacking|#7AD5E9}}<br/>Holding down RMB for 2 seconds attunes the weapon to the powers of the surrounding biome<br/>Using RMB for a shorter period of time switches your active and passive attunements around<br/>{{color|Active Attumenent : [None]|#A3A3A3}}<br/>{{color|Passive Attumenent : [Mercurial Tides]|#8277B5}}
+</Tabber>
+| rare = 9
+| sell = {{value|0|16}}
+| proj = Mercurial Blast.gif
+| projcaption = Mercurial Blast
+| proj2 = Mercurial Monoliths.png
+| proj2caption = Mercurial Monoliths
+| element1=  Water
+| element2 = Stab
+}}
+{{clear}}
+{{color|Mercurial Tides|#846DE9}} is an attunement that can obtained by channelling the sword in the [[Sunken Sea]], the [[Abyss]] or the [[Astral Infection]]. It's a fusion of the {{color|Extant Abhorrence|#5B49C4}} and {{color|Gesture for the Drowned|#5B49C4}} attunements from the [[Biome Blade]].
+
+When the biome blade is used with this attunement, the player will hold the blade out in front of them, charging it up slowly. Releasing the attack button after having the charge up more than 25% of the way will let the player do a quick lunge in the direction of their cursor, with the speed and damage of the lunge varying based on the charge of the sword, with a fully charged up lunge dealing 350% of the weapon's base damage. The lunge also grants the player a third of a second worth of invincibility frames if they hit an enemy during the lunge.
+
+Hitting the ground with a lunge will spawn waves of monoliths rippling from both sides of the impact point, with the amount of monoliths being dependent on how much the lunge was charged up. The completion of each quarter of the charge will be indicated with a sound effect playing, the blade visually blinking, and by a blue pulse shockwave being emitted around the player. Each monolith will deal 110% of the weapon's base damage on their first hit, with every following hit only dealing 15% of the initial amount, while the shockwaves emitted during the chargeup deal 80% of the weapon's base damage.
+
+In the passive slot, the {{color|Mercurial Tides|#846DE9}} attunement causes the player to emit shockwaves around themselves every 2 seconds while attacking, dealing a flat 200 damage.
+}}
+
+== Chance to trigger passive on hit effects ==
+
+The on-hit passive effects from the {{color|Sanguine Fury|#D83716}} and {{color|Lamentations of the Chained|#71EFB1}} attunements are affected by an internal proc chance that varies depending on the source of each hit. 
+
+*The proc coefficients for the {{color|Swordsmith's Pride|#DC69C5}} attunement are as follows:
+**Hitting an enemy with the spinning blade has a 24% chance to trigger a on-hit passive, while hitting an enemy with the thrown blade has a 100% chance to trigger it.
+**The sword beams only have a 5% chance to trigger on-hit passive effects.
+*The proc coefficients for the {{color|Sanguine Fury|#D83716}} attunement are as follows:
+**Hitting an enemy with the shredding blades has a 10% chance to trigger a passive on-hit effect.
+**Hitting an enemy with the thrown Sanguine Bladewheel has a 40% chance to trigger the passive on-hit effect.
+**Passive on-hit effects are guaranteed to trigger if enemies are hit by the dash.
+*The proc coefficients for the {{color|Lamentations of the Chained|#71EFB1}} attunement are as follows:
+**Hitting an enemy with the tip of the chained blades or with the extra ghastly chains spawned from them has a 10% chance to trigger a passive on-hit effect.
+**Hitting an enemy with the body of a whip has a 5% chance to trigger a passive on-hit effect.
+*The proc coefficients for the {{color|Mercurial Tides|#846DE9}} attunement are as follows:
+**Hitting an enemy with either the lunge or the monoliths guarantees that passive effects will trigger.
+**Hitting an enemy with the mercurial blasts will have a 50% chance to trigger a passive on-hit effect.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Notes==
+*Due to the way the attunement process prioritizes biomes, if a Snow or Desert biome is converted, then the Biome Blade will count it as the biome that converted it. For example, an Hallowed Desert biome will be counted as the Hallow, and an Astral Snow biome will be counted as the Astral Infection, with the resulting attunements being {{color|Swordsmith's Pride|#DC69C5}} and {{color|Mercurial Tides|#846DE9}} respectively.
+**The order in which the biomes are checked goes as follows : '''The Desert or The Underworld''', '''The Taiga, Jungle, Ocean, or Sulphurous Sea''', '''The Corruption or The Crimson''', '''The Astral Infection, The Abyss or the Sunken Sea''', '''The Hallow'''. If the player is in none of these biomes, they will get the {{color|Swordsmith's Pride|#DC69C5}} attunement. If the player is in multiple of these biomes, they will get the attunement corresponding to the one the furthest in this list.
+*It takes 5 seconds to fully charge up the {{color|Swordsmith's Pride|#DC69C5}} sword, and half of that time to reach the point at which the blade can be thrown out.
+**The sword beams spawned by its passive effect will still home in on enemies marked by a purity sigil, just like the regular sword beams spawned from its active attack.
+*The {{color|Sanguine Fury|#D83716}}'s damage dynamically scales based off its hit frequency. This means that it will deal roughly the same dps no matter how little time there is inbetween hits, although this never happens in-game since there is an extra layer of damage scaling, resulting in the overall dps increasing. This simply means that as the sword gets charged up and the hit frequency increases the damage of the blades may appear to be going down, but the overall damage output will actually be on the rise.
+*Unlike its predecessor, the chains on the whips from the {{color|Lamentations of the Chained|#71EFB1}} attunement ''cannot'' crit, making it impossible for them to spawn ghastly chains.
+**However this is balanced out by the tip of the whips always dealing critical hits, with the player no longer having to worry about when the whip cracks.
+*It takes 4.16 seconds to fully charge the {{color|Mercurial Tides|#846DE9}}'s lunge, and barely any more than one second to charge it up just enough to perform the weakest possible lunge
+**Despite the player appearing to hold the sword out during the chargeup animation, it deals no contact damage.
+**The lunge damage scales quadratically from 100% to 350% of the weapon's base damage, but given there is a minimum of 25% charge required for the lunge to be performed, the lowest possible damage that can be reached with a lunge is 115.625% base damage.
+*The monoliths from the {{color|Mercurial Tides|#846DE9}} lunge can spawn out of any surface, even if its not the ground. Hitting walls and ceilings, or diagonal surfaces works perfectly fine and the player can take advantage of this fact with creative arena building.
+**The wave of monoliths will stop spreading if any of the monoliths lacks ground to spawn on due to gaps in the floor, making uneven terrain unoptimal for this attunement.
+**Due to the way the ground check for the side monoliths work, the more perpendicular to the ground the lunge was, the more likely all the monoliths will spawn.
+**Mercurial Monoliths will not spawn out of a lunge if the player is on the ground as the sword strikes the earth.
+*The tooltip lines describing the attunements all alternate between two unique colors, reflecting their mixed nature.
+** By default, the lines are colored in a light gray color ({{color|#A3A3A3●|#A3A3A3}}).
+** {{color|Swordsmith's Pride|#DC69C5}}'s tooltips alternate between a hot pink color ({{color|#DC69C5 ●|#DC69C5}}) and a lime green color ({{color|#ABEF71 ●|#ABEF71}}).
+** {{color|Sanguine Fury|#D83716}}'s tooltips alternate between a pure red color ({{color|#D83716 ●|#D83716}}) and a reddish orange color ({{color|#D88316 ●|#D88316}}).
+** {{color|Lamentations of the Chained|#71EFB1}}'s tooltips alternate between a mint green color ({{color|#71EFB1 ●|#71EFB1}}) and a pale sky blue color ({{color|#A9CFFF ●|#A9CFFF}}).
+** {{color|Mercurial Tides|#846DE9}}'s tooltips alternate between a dark purple color ({{color|#846DE9 ●|#846DE9}}) and a light cyan color ({{color|#7AD5E9 ●|#7AD5E9}}).
+** The passive attunement's tooltip's color is the halfway point between gray ({{color|#808080 ●|#808080}}) and the attunement's regular color.
+
+== Tips ==
+*The slow charge-up time on the {{color|Swordsmith's Pride|#DC69C5}} attunement makes the sword throw a risky move, due to the potential damage loss from having to charge the sword back up after the throw. If the player isn't confident in their ability to land the sword throw, it may be preferable for them to simply stick to the regular spin. While they may loose on some extra damage and the extra homing from the sword beams, it also spares them from the risk of missing the shot.
+*The shockwaves from the {{color|Mercurial Tides|#846DE9}} attunement linger behind the player and do heavy damage to pursuing enemies. This attunement is best used for kiting bosses.
+
+== Trivia ==
+*The spinning motion of the {{color|Swordsmith's Pride|#DC69C5}} attunement followed by the forward throw is meant as a parallel to the [[Underground Hallow]] [[Enchanted Sword (NPC)|Enchanted Sword]] enemy's behavior.
+*The {{color|Lamentations of the Chained|#71EFB1}}'s passive Enchanted Meat Hook is a reference to the "[https://riskofrain2.fandom.com/wiki/Sentient_Meat_Hook Sentient Meat Hook]" legendary item from ''[[wikipedia:Risk of Rain 2|Risk of Rain 2]]''. In the game, the meat hook floats behind the player in a similar manner to the enchanted one from the True Biome Blade.
+*Before the [[1.5.1.001]] update, the True Biome Blade was known as the '''Omega Biome Blade.''' It now takes its name from the previous name of [[Biome Blade|its downgrade]].
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:真·环境之刃]]

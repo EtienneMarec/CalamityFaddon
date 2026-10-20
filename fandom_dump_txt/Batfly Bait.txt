@@ -1,0 +1,31 @@
+{{dedicated|Salami_Hunter|Patreon Donator}}
+{{infobox wrapper
+|{{item infobox
+| type = Pet Summon
+| stack = 1
+| tooltip = You WILL NOT eat the bugs<br/>Summons a mostly-tamed green lizard
+| rare = 7
+| use = 19
+| buff = Green Lizard (buff) | bufflink = no
+| bufftip = <nowiki>'Zonkerdoodle (green variety)'</nowiki>
+| sell = {{value|0|12}}
+| hardmode = yes
+}}
+}}
+
+{{summoned|Green Lizard|type=pet}}
+
+The '''Batfly bait''' is a craftable [[pet]] summoning item. It summons a green lizard to follow the player.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+
+==Trivia==
+
+*This pet is a reference to the [https://rainworld.miraheze.org/wiki/Green_Lizard Green Lizard] from Rain World, and the item refers to [https://rainworld.miraheze.org/wiki/Batfly batflies,] which can be fed to lizards to tame them.
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

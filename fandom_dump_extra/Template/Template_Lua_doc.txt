@@ -1,0 +1,11 @@
+Use on the doc page of templates which use lua modules.
+
+<code>{{{1}}}</code> is the module name without namespace, defaulting to <code><nowiki>{{BASEPAGENAME}}</nowiki></code>.
+
+Automatically adds the template page to [[:Category:Lua-based templates]]. Set <code>{{{nocat}}}</code> to prevent this.
+
+<includeonly>
+[[Category:Extension templates]]
+[[Category:Banner templates]]
+</includeonly>
+<noinclude>[[Category:Template documentation]]</noinclude>

@@ -1,0 +1,40 @@
+<includeonly><!-- 
+//trim
+-->{{#vardefine:a1|{{{1|}}}}}<!-- namespace
+-->{{#vardefine:a2|{{{2|}}}}}<!-- key
+-->{{#vardefine:a3|{{{3|{{lang}}}}}}}<!-- lang
+
+//autoload data if needed
+-->{{#if:{{#dplvar:l10n:{{#var:a1}}/l10n}}||<!-- check namespace+lang flag
+	-->{{#dplvar:set|l10n:{{#var:a1}}/l10n|y}}<!-- set check flag to prevent inexist namespace issue
+	-->{{#vardefine:_|<!-- wrap to prevent the "template not existing" error output.
+		-->{{{{#var:a1}}/l10n}}<!-- try to autoload template:<namespace>/l10n 
+	-->}}<!-- 
+-->}}<!-- 
+
+//stack counter, to generate unique var name for each calling level, for proper recursion
+-->{{#vardefine:__l10n_stack|{{#expr:{{#var:__l10n_stack|0}}+1}}}}<!-- 
+
+// Localization string for current lang:
+-->{{#vardefine:_l10n_v{{#var:__l10n_stack}}|{{#dplvar:l10n:{{#var:a3}}:{{#var:a1}}:{{#var:a2}}}}}}<!-- 
+// if no result, use en version:
+-->{{#vardefine:_l10n_v{{#var:__l10n_stack}}|{{#var:_l10n_v{{#var:__l10n_stack}}|{{#dplvar:l10n:en:{{#var:a1}}:{{#var:a2}}}}}}}}<!-- 
+
+//replace if needed
+-->{{#if:{{{long|}}}|<!-- 
+	//since {{#replace:}} has a length limit, use lua to avoid hitting the limit. lua version is slower so require |long=y explicitly to use this way.
+	-->{{#vardefine:_l10n_v{{#var:__l10n_stack}}|{{#invoke:localization|replace|str={{#var:_l10n_v{{#var:__l10n_stack}}}}}}}}<!-- 
+-->|<!-- 
+	//use {{#replace:}} for better performance.
+	-->{{#forargs:$|_key|_value|<!-- 
+		-->{{#vardefine:_l10n_v{{#var:__l10n_stack}}|{{#replace:{{#var:_l10n_v{{#var:__l10n_stack}}}}|${{#var:_key}}|{{#var:_value}}}}}}<!--
+	-->}}<!--
+-->}}<!-- 
+
+//output
+-->{{#var:_l10n_v{{#var:__l10n_stack}}}}<!-- 
+
+//recover stack
+-->{{#vardefine:__l10n_stack|{{#expr:{{#var:__l10n_stack|0}}-1}}}}<!-- 
+
+--></includeonly><noinclude>{{doc}}</noinclude>

@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 238
+| use = 21
+| velocity = 42
+| knockback = 8.5
+| auto = yes
+| stack = 1
+| rare = 13
+| sell = {{value|0|26}}
+| tooltip = Swings a banshee hook that fires blades and explodes on hit
+| hardmode = yes
+| postml = yes
+| proj = Banshee Scythe.png
+| projcaption = Banshee Scythe
+| element1 = Dark
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Polterghast]]|1|{{dv|25%|33.33%}}
+}}
+}}
+[[File:Banshee Hook (demo).gif|200px|frame|right| Attacking with the Banshee Hook]]
+The '''Banshee Hook''' is a Godseeker Mode [[spear]] dropped by [[Polterghast]]. It is swung in front of the player at an odd angle, similarly to the [[Ghastly Glaive]], and releases a line of five projectiles at once. Hitting an [[enemy]] directly with the weapon causes a ghostly explosion, dealing rapid damage. Its projectiles go through blocks, ignore [[immunity frames]], pierce infinitely, and will slow to a stop some distance away if uninterrupted.
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Despite having "hook" in its name, it is not a [[Hooks|grappling hook]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

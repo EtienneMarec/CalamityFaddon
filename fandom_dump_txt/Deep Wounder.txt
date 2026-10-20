@@ -1,0 +1,48 @@
+{{item infobox
+| type = Weapon
+| damage = 131
+| damagetype = Rogue
+| rare = 7
+| stack = 1
+| sell = {{value|0|12}}
+| buy = {{value|0|60}}
+| knockback = 3
+| use = 22
+| auto = yes
+| hardmode = yes
+| tooltip = Throws an abyssal hatchet that inflicts Armor Crunch and Marked for Death to the enemies it hits<br/>Stealth strikes cause the hatchet to be thrown faster and trail water, inflicting Crush Depth in addition to the other debuffs
+| velocity = 14
+| debuff = Armor Crunch
+| debufftip = Your armor is shredded
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| debuff2 = Marked
+| debufftip2 = Damage reduction reduced
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds
+| debuff3 = Crush Depth
+| debufftip3 = Aquatic pressure
+| debuffchance3 = 100%
+| debuffduration3 = 2 seconds (Stealth strikes)
+| proj = Deep Wounder Droplet.png
+| projcaption = Deep Water Droplet
+| element1 = Dark
+| element2 = Water
+| element3 = Slash
+}}
+
+The '''Deep Wounder''' is a [[Hardmode]] non-consumable [[rogue weapon]] that is sold by the [[Bandit]] for {{gc|60}} after [[Calamitas]] has been defeated. It automatically throws a fast spinning hatchet that can pierce infinitely, damaging all enemies that it comes into contact with, inflicting [[Armor Crunch]] and [[Marked]] for 2 seconds.
+
+Performing a [[stealth strike]] with the Deep Wounder will cause the next hatchet to travel at a much higher velocity and leave a trail of water behind it, inflicting [[Crush Depth]] in addition to the other debuffs that it inflicts.
+
+This weapon deals 500% damage to [[Amazon]] and [[Amazon Prime]].
+
+{{Modifier|rogue}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}

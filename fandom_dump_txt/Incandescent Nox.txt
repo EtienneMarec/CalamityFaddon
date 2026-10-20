@@ -1,0 +1,44 @@
+{{addon|Deimos, the Starborn Princess}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 51
+| damagetype = Rogue
+| auto = yes
+| stack = 1
+| velocity = 15
+| knockback = 6
+| hardmode = yes
+| use = 20
+| tooltip = Throws a vaporfying incandescent javelin<br/>Stealth strikes will release hot embers
+| rare = 5
+| sell = {{gc|5}}
+| debuff = Vaporfied
+| debuffduration = 2.5 seconds
+| debufftip = Vaporizing senses and mind
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 1.5 seconds (Embers)
+| debufftip2 = Dissolving from holy light
+| debuffchance2 = 100%
+| element2 = Fire
+| element1 = Stab
+| element3 = Holy
+| sound = Item_60.wav 
+| soundtext = Throw
+| sound2 = Item_93.wav
+| sound2text = Embers
+}}
+|{{item drops infobox
+| [[Aetherial Guardian, Olistene]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+'''Incandescent Nox''' is a [[Hardmode]] non-consumable [[javelin]] that is dropped by [[Aetherial Guardian, Olistene]]. When used, it automatically throws a javelin that inflicts [[Vaporfied]] on enemies.
+
+Performing a [[stealth strike]] with the Abyssal Incandescence will cause the next javelin thrown to release lasting embers upon contact with an enemy or a block that will inflict [[Holy Flames]].
+
+{{Modifier|rogue}}
+{{-}}
+{{DeimosMod}}
+[[Category:Javelins]]

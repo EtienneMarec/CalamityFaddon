@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Drops brimstone fireballs from the sky occasionally
+| rare = 5
+| sell = {{value|0|4|80}}
+| stack = 1
+| hardmode = yes
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debuffduration = 10 seconds (Brimstone fireballs)
+| debufftip = Rapid health loss
+| element1 = fire
+| element2 = unholy
+}}
+|{{item drops infobox
+|[[Brimstone Elemental]]|1|100%
+}}
+}}
+
+'''Gehenna''' is a [[Hardmode]] [[covering]] dropped by the [[Brimstone Elemental]]. It occasionally causes fireballs to fall from the sky. These fireballs act in a manner almost identical to the [[Inferno Fork]], leaving behind a lingering red explosion after dying.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The brimstone fire and fireballs deal typeless damage. They are boosted by the average of player's class bonuses which stacks additively with bonuses to 'all damage', such as the [[Avenger Emblem]].
+*Brimstone fireballs have a base damage of 54.
+
+== Trivia ==
+*The item is named after the area [[wikipedia:Gehenna|Gehenna]], a small valley in Jerusalem where initially some of the kings of Judah sacrificed their children by fire. Thereafter, it was deemed to be cursed.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

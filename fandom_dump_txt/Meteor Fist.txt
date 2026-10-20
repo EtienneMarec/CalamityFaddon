@@ -1,0 +1,50 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 15
+| knockback = 5.75
+| rare = 2
+| sell = {{value|0|0|40}}
+| stack = 1
+| auto = yes
+| use = 30
+| velocity = 5
+| extraupdates = 1
+| debuff = On Fire!
+| debufftip = Slowly losing life
+| debuffduration = 2 seconds
+| debuffchance = 100%
+| tooltip = Fires a fist that explodes<br/>Stealth strikes make the fist ricochet between enemies up to 4 times
+| proj = Meteor Fist (projectile).png
+| projcaption = Meteor Fist
+| element1 = Fire
+| element2 = Smash
+| element3 = Bomb
+}}
+
+The '''Meteor Fist''' is a craftable [[Pre-Hardmode]] [[Bombs|bomb]] that fires a high-velocity projectile which leaves a particle trail behind. The projectile is slightly affected by gravity, and explodes on contact with enemies or solid blocks. The explosion ignores [[enemy]] [[immunity frames]].
+
+Performing a [[stealth strike]] with the Meteor Fist will cause the next fist thrown to bounce between enemies up to four times before exploding.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The particle trail it leaves behind is very useful for exploring, and can also be used to find an [[Enchanted Sword Shrine]] easily.
+
+== Trivia ==
+*This weapon formerly inflicted [[melee]] damage.
+*While being an early-game Rogue weapon, it can deal serious damage to enemies when performing a Stealth Strike, and terminating multiple enemies in a group.
+
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Bombs]]
+[[Category:Legendary Items]]

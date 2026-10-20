@@ -1,0 +1,34 @@
+<includeonly>
+<infobox>
+  <title source="SoS"/>
+  <image source="image1">
+    <caption source="caption-image1"/>
+  </image>
+  <group>
+    <header source="header1">Section Header</header>
+    <data source="row1"/>
+    <data source="row2"/>
+  </group>
+</infobox>
+</includeonly>
+<noinclude>
+Example usage:
+<pre>
+{{Sliver of Straws
+
+  | SoS=Example
+
+  | image1=Example
+
+  | caption-image1=Example
+
+  | row1=Example
+
+  | row2=Example
+
+}}
+</pre>
+<templatedata>
+{"params":{"SoS":{"suggested":true},"image1":{"suggested":true},"caption-image1":{"suggested":true},"row1":{"suggested":true},"row2":{"suggested":true}},"sets":[],"maps":{}}
+</templatedata>
+</noinclude>

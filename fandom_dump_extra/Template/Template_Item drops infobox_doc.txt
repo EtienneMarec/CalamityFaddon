@@ -1,0 +1,30 @@
+Can be used on a page to display what enemies drop that item, however it is commonly stated in text instead.
+
+== Usage ==
+<pre>
+{{item drops infobox
+| title = (optional if you want a different title)
+| entity1 | quantity1 | rate1
+| entity2 | quantity2 | rate2
+... (as many of these triplets of arguments as there are enemies that drop the item, can be 1 triplet or even 0)
+}}
+</pre>
+
+; title
+The title of the item (defaults to pagename)
+
+; Unnamed Parameter 1, 4, 7, 10, etc.
+The enemy that drops this item.
+
+; Unnamed Parameter 2, 5, 8, 11, etc.
+The amount dropped by this enemy.
+
+; Unnamed Parameter 3, 6, 9, 12, etc.
+The rate at which it is dropped by this enemy.
+
+<includeonly>
+[[Category:Infobox templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

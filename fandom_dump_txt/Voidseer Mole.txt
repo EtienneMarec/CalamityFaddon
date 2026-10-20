@@ -1,0 +1,44 @@
+{{npc infobox
+| type = NPC
+| environment = The Abyss
+| ai = No AI
+| life = 7,500
+| defense = 25
+| knockback = 100
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}The '''Voidseer Mole''' is a friendly NPC that spawns at the Void layer of [[Abyss|The Abyss]]. It is invulnerable to all damage, unless the damage comes from a hammer-like weapon, listed below. Right clicking the Mole will cause it open an NPC menu with a quote, however it does not provide any services unlike other NPCs. On death, it will drop the [[Void Biscuit]], and not spawn again.
+
+== Damage Sources ==
+
+* Any tool that can destroy walls
+* [[Fallen Paladin's Hammer]]
+* [[Pwnagehammer]]
+* [[Triactis' True Paladinian Mage-Hammer of Might]]
+* Paladin's Hammer
+
+== Quotes ==
+'''Anytime:'''
+
+* "Whack-hoo! Finally, some company!"
+* "You don't have any gills, so keep an eye on your oxygen levels."
+* "I love it here in the void. Peace and quiet!"
+* "Did you know that me and the [[Adult Eidolon Wyrm|Eidolon Wyrm]] share a common ancestry?"
+
+'''If Boss Rush has not been completed:'''
+
+* "Are you here looking for that old artifact? You probably won't find it."
+
+'''If Boss Rush has been completed:'''
+
+* "Was it you caused all that ruckus up there? That rock was down here for a reason."
+
+'''If Skeletron has not been defeated:'''
+
+* "You should be dead. Probably. But you're not! So that's good!"
+* "I have no idea how you're even surviving down here and that scares me!"
+
+'''If Adult Eidolon Wyrm has been defeated:'''
+
+* "You're very good at killing things! Whack-hoo!"
+* "That big Wyrm was really loud and annoying. Thank you for killing him!"

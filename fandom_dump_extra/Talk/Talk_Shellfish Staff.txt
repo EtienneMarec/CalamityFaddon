@@ -1,0 +1,11 @@
+For some odd reason, these minions do not hit enemies, but they inflict a DoT debuff. [[Special:Contributions/66.234.247.34|66.234.247.34]] 14:56, 7 March 2019 (UTC)
+
+The debuff does deal 35 damage per tick per stack, but it does not seem that it ticks twice as fast as other debuff, which makes the debuff dps being 35 * 5 = 175 [[Special:Contributions/61.239.194.252|61.239.194.252]] 09:21, 8 August 2019 (UTC)
+
+:I tested it and it definitely ticks twice as fast. The source code backs this up as well. [[User:Temp35|Temp35 (The One True King)]] ([[User talk:Temp35|talk]]) 09:28, 22 August 2019 (UTC)
+
+:: https://www.youtube.com/watch?v=9XYAzHBIHR8 Well I tested it again, it does ticks faster. But the problem is that it is still less than 10 times per second (5 times per second) and the clammed from snap clam seems to have the same problem, which is it does not 5 ticks per second (3 times per second in fact). I can't tell if it's my problem, but seems that ALL debuff from calamity (I tested nightwither and shred additionally, they ticks 3 times per second while should be 5 times) ticks have half frequently as intended, but the debuff from vanilla and thorium ticks normally.  [[Special:Contributions/61.239.194.252|61.239.194.252]] 11:02, 8 August 2019 (UTC)
+
+== wow ==
+
+out of all the debuffs in this entire mod, shellfish claps is the one NOTHING is immune to

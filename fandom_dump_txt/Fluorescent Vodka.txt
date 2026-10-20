@@ -1,0 +1,31 @@
+{{item infobox
+| type = Potion
+| tooltip = Boosts all damage stats by 8% but lowers defense by 10%<br/>Increases immune time after being struck
+| stack = 9999
+| rare = 4
+| use = 17
+| sell = {{value|0|0|52}}
+| debufftip = You feel lively
+| consumable = yes
+| debuffduration = 15 minutes
+| debuff = Fluorescent | debufflink = no
+| hardmode = yes
+}}
+
+'''Fluorescent Vodka''' is a craftable [[Hardmode]] [[potion]]. It grants the '''Fluorescent''' [[debuff]] when consumed, which gives a +8% boost to all damage but lowers [[defense]] by 20 in exchange. While affected by the buff, the player receives 10 extra [[immunity frames]] when struck for more than one damage and 5 when struck for one damage. This effect is not boosted by the [[Cross Necklace]] or its upgrades but will stack with the extra immunity frames of the [[Deific Amulet]] or [[Rampart of Deities]].
+
+While the effects of the Fluorescent debuff are mostly beneficial, it is still considered a debuff, and therefore cannot be removed by right-clicking the icon.
+
+{{fantag|Calamity: Community Remix}} killing [[The General]] {{fantag|Apotheosis and Friends}} while under the effects of Fluorescent Vodka initiates the [[22 Bullet Theory]] {{fantag|Calamity: Community Remix}} [[event]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

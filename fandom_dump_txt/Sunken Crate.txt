@@ -1,0 +1,113 @@
+{{item infobox
+| type = Grab bag
+| type2 = Furniture
+| auto = yes
+| placeable = Yes
+| width = 2
+| height = 2
+| stack = 9999
+| consumable = True
+| use = 14
+| rare = 2
+| color = #6ADAE6
+| sell = {{value|0|1}}
+}}
+
+The '''Sunken Crate''' is a [[Fishing]] [[Crate]] variant that can only be hooked in the [[Sunken Sea]]. The crate contains several items based originally in the Sunken Sea, including blocks and drops from the [[Giant Clam]]. Several of the crate's drops are locked behind [[Desert Scourge]] and in [[Hardmode]].
+
+== Drops ==
+{| class="terraria lined"
+!  Item !! Quantity !! Chance
+|-
+| {{item|Navystone}}
+|rowspan="2" | 10-30
+|rowspan="2" | 100%
+|-
+| {{item|Eutrophic Sand}}
+|-
+| {{item|Prism Shard}}
+| 5-10
+| 100%<br/><small>( Post - {{item|mode=image|Desert Scourge map|link=Desert Scourge|size=25px}} )</small>
+|-
+| {{item|Sea Prism}}
+| 2-5
+| 20%<br/><small>( Post - {{item|mode=image|Desert Scourge map|link=Desert Scourge|size=25px}} )</small>
+|-
+|{{item|Mollusk Husk|size=24px}}
+| 2-5
+|12%<br /><small>( In [[Hardmode]] )</small>
+|-
+| style="border-bottom: 1px solid #CCCCCC;" |{{Fantag}}{{item|Ashes of the Sunken Sea|size=24px}}
+| style="border-bottom: 1px solid #CCCCCC;" |1
+| style="border-bottom: 1px solid #CCCCCC;" |5%<br /><small>( In [[Hardmode]] )</small>
+|-
+|{{item|Poseidon|size=24px}}
+| rowspan="4" style="border-bottom: 1px solid #CCCCCC;" |1
+| rowspan="4" style="border-bottom: 1px solid #CCCCCC;" |7%<br /><small>( Post - <abbr title="Hardmode">HM</abbr> {{item|mode=image|Giant Clam map|link=Giant Clam|size=20px}} )</small>
+|-
+|{{item|Clamor Rifle|size=32px}}
+|-
+|{{item|Shellfish Staff|size=32px}}
+|-
+| style="border-bottom: 1px solid #CCCCCC;" |{{item|Clam Crusher|size=24px}}
+|-
+|{{item|Obsidian Skin Potion}}
+| rowspan="8" style="border-bottom: 1px solid #CCCCCC;" |1-3
+| rowspan="8" style="border-bottom: 1px solid #CCCCCC;" |10%
+|-
+|{{item|Swiftness Potion}}
+|-
+|{{item|Ironskin Potion}}
+|-
+|{{item|Night Owl Potion}}
+|-
+|{{item|Shine Potion}}
+|-
+|{{item|Mining Potion}}
+|-
+|{{item|Heartreach Potion}}
+|-
+| style="border-bottom: 1px solid #CCCCCC;" |{{item|Dangersense Potion}}
+|-
+|{{item|Lesser Healing Potion}}
+| rowspan="2" style="border-bottom: 1px solid #CCCCCC;" |2-5
+|50%
+|-
+| style="border-bottom: 1px solid #CCCCCC;" |{{item|Lesser Mana Potion}}
+| style="border-bottom: 1px solid #CCCCCC;" |50%
+|-
+|{{item|Apprentice Bait}}
+|2-3
+|33.33%
+|-
+|{{item|Journeyman Bait}}
+| rowspan="2" |1-3
+| rowspan="2" |20%
+|-
+|{{item|Sea Minnow}}
+|-
+| style="border-bottom: 1px solid #CCCCCC;" |{{item|Master Bait}}
+| style="border-bottom: 1px solid #CCCCCC;" |1-2
+| style="border-bottom: 1px solid #CCCCCC;" |10%
+|-
+|{{item|Silver Coin}}
+| 10-90
+|100%
+|-
+| {{item|Gold Coin}}
+|1-5
+|50%
+|}
+
+==Notes ==
+*Sunken Crate Crates drop different tiers of healing and mana potions depending on what bosses have been defeated:
+**Lesser Healing and/or Mana potions are dropped normally.
+**Healing and Mana potions are dropped if [[Skeletron]] has been defeated.
+** Greater Healing and Mana potions are dropped if any [[Mechanical Boss]] has been defeated.
+**Super Healing and Mana potions are dropped if [[Providence, the Profaned Goddess]] has been defeated.
+**Supreme Healing and Mana potions are dropped if The [[Devourer of Gods]] has been defeated.
+
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

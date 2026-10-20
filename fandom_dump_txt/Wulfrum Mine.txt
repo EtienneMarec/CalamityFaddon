@@ -1,0 +1,29 @@
+{{npc infobox
+| type = Enemy
+| environment = Underground
+| ai = Wulfrum Mine AI
+| damage = {{dv|30|70}}
+| life = {{dv|350|700}}
+| defense = 10
+| knockback = 100
+| banner = yes
+| money = {{value|0|0|50|50}}
+| Energy Core|5|100%
+| Wulfrum Metal Scrap|10-15|100%
+| Wulfrum Battery|1|7%
+| immune1 = Kami Flu
+| immune2 = Confused
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Hit_4.wav
+| resistant1 = Machine
+| vulnerable1 = Smash
+}}
+
+The Wulfrum Mine is a [[Pre-Hardmode]] [[enemy]] found in the [[Underground]] layer. It floats in place while firing lasers in a cross pattern, then rotating its turrets, firing again and repeating. After reaching 50% health, it supercharges, firing and rotating its turrets more quickly. After several seconds it glows red and explodes, destroying tiles in an 11 block radius.
+
+==Trivia==
+*The [[Bestiary]] entry for Wulfrum Mine: “A prototypical project, abandoned before its completion, the Wulfrum Mine was originally designed to perform the functions of each of the other Wulfrum constructs. However, the only thing it truly proved adept at was violently exploding, vaporizing whatever it caught in its radius.”
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

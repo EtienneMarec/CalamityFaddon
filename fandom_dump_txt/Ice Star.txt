@@ -1,0 +1,49 @@
+{{item infobox
+|type = Weapon
+|type2 = Crafting material
+|consumable = true
+|stack = 9999
+|damage = 45
+|damagetype = Spy
+|knockback = 2.5
+|use = 11
+|auto = yes
+| rare = 5
+| buy = {{value|0|0|5|0}}
+| sell = {{value|0|0|1|0}}
+| tooltip = Throws homing ice stars<br/>Stealth strikes pierce infinitely and spawn ice shards on hit<br/>Ice Stars are too brittle to be recovered after being thrown
+| debuff = Frostburn
+| debuffduration = 1 second (Ice stars)
+| debuffchance = 100%
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+|critical = 11%
+|hardmode = yes
+|velocity = 14
+| proj = Kelvin Catalyst Star.png
+| projcaption = Mini Ice Star
+| element1 = Cold
+| element2 = Stab
+}}
+
+'''Ice Stars''' are [[Hardmode]] [[Spy weapon]]s sold by the [[Archmage]] [[NPC]]. They are large throwing stars made of ice, which pierce 3 times and will fall after traveling a short distance. They are stackable and cannot be recovered after impacting the ground. Ice Stars also have slight homing abilities.
+
+Performing a [[stealth strike]] with Ice Stars will cause the next star thrown to pierce infinitely for four seconds before disappearing, and release rings of 8 smaller ice stars on enemy hits. The smaller ice stars will not be released if 10 or more stars are already present.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The homing ability of the weapon is extremely unreliable, as they will usually cause the projectile to fall quicker and not hit the [[enemy]] at all.
+*The stars deal one-sixth of the weapon’s base damage, sharply home-in onto enemies, go through tiles, deal typeless damage, and cannot deal critical hits.
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+== Tips ==
+*They can be used as an effective weapon against [[The Destroyer]] and the [[Aquatic Scourge]] as the slight homing can make them curve along the bosses' segments.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}

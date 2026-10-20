@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 24
+| damagetype = Summon
+| knockback = 2
+| use = 29
+| auto = yes
+| mana = 10
+| tooltip = Summons a corro slime to fight for you
+| buff = Corroslime (buff) | bufflink= no
+| bufftip = The corroslime will protect you
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| element1 = Unholy
+| element2 = Poison
+| element3 = Smash
+}}
+|{{item drops infobox
+|[[The Slime God]]|1|{{dv|25%|33.33%}}
+}}
+}}{{summoned|Corroslime (minion)|type=minion}}
+
+The '''Corroslime Staff''' is a [[Pre-Hardmode]] [[Summon weapons|summon weapon]] that is dropped by [[The Slime God]]. It summons a miniature [[Ebonian Blight Slime]], which follows the player and attacks [[enemies]]. It deals contact damage, similarly to other slimes. If the player gets too far, it grows two wings and flies towards the player.
+
+{{Modifier|summon}}
+
+== Notes ==
+*The Corroslime Staff is the [[Corruption]] counterpart for the [[Crimslime Staff]].
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,58 @@
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-9 health per second (if player)<br/>-30 health per second (if enemy in Pre-Hardmode)<br/>-90 health per second (if enemy in Hardmode)<br/>The higher defense a target has, the less damage taken per second.
+| tooltip = Aquatic pressure
+}}
+
+'''Crush Depth''' is a [[debuff]] inflicted by most [[Abyss]] [[enemies]] and [[weapons]], as well as the [[Depth Crusher]] and its upgrades, the [[Abyss Blade]] and [[Neptune's Bounty]]. It is also inflicted by [[Broken Biome Blade]] and its upgrades while the player is in the [[Ocean]]. If inflicted on an enemy, they lose 30 health per second in [[Pre-Hardmode]], and 90 health per second in [[Hardmode]]. If inflicted on the player, they instead lose 9 health per second. If the player has the [[Depths Charm]] equipped, they will only lose 4.5 health per second.
+
+Additionally, if a player is inflicted with Crush Depth while in the Abyss, their [[tgc:Breath_meter|breath meter]] will drain more quickly.
+
+Crush Depth has its damage reduced by the amount of defense its target has. For the player, 2.5% of their defense (rounded down to the nearest integer) is subtracted from the health lost per second. For enemies, 250% of their defense is subtracted from the health lost per second.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+== Notes ==
+*Although the debuff does more damage to targets with lower defense, players with 0 defense take no damage from Crush Depth.
+*[[NPCs]] that have more than 12 and 36 defense don't take any damage from Depth Crush in Pre-Hardmode and Hardmode respectively, but still emit blue particles from the debuff.
+*While in the [[Abyss]], Crush Depth causes afflicted enemies to lose 750 health per second. This does not apply to [[bosses]] or enemies with 0 contact damage.
+**However, all enemies that spawn naturally in the Abyss are immune to Crush Depth.
+
+== Trivia ==
+*[[wikipedia:Submarine_depth_ratings#Crush_Depth|Crush depth]] is the rated lowest depth a submarine can go before imploding.
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

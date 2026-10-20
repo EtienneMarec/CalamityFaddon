@@ -1,0 +1,28 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = Stealth strike projectiles spawn a jewel spike when destroyed
+| rare = 1
+| sell = {{value|0|0|20}}
+| proj = Jewel Spike.gif
+| projcaption = Jewel Spike
+}}
+|{{item drops infobox
+| [[Crawlers]] | 1 | 10%
+}}
+}}
+
+The '''Scuttler's Jewel''' is a [[Pre-Hardmode]] [[covering]] that drops from Gemstone [[Crawlers]]. While equipped, [[Spy]] projectiles break into stationary floating jewel spikes that deal 15 Spy damage on stealth strikes.
+
+== Recipe ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

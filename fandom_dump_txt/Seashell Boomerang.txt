@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Rogue
+| damage = 15
+| knockback = 5.5
+| velocity = 11.5
+| rare = 2
+| tooltip = Stealth strikes fire seashells at nearby enemies
+| sell = {{value|0|0|40}}
+| stack = 1
+| use = 14
+| proj = Seashell (projectile).png
+| projcaption = Seashell
+| element1 = Water
+| element2 = Slash
+}}
+
+The '''Seashell Boomerang''' is a craftable [[Pre-Hardmode]] [[boomerang]]. Unlike other early game boomerangs, it is capable of throwing an unlimited amount of boomerangs at once, which all return to the player after traveling a short distance.
+
+Performing a [[stealth strike]] with the Seashell Boomerang causes the next boomerang thrown to periodically fire seashells at nearby enemies.
+
+{{modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Victide}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Boomerangs]]

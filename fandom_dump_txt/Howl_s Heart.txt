@@ -1,0 +1,46 @@
+{{dedicated|Gilded Turtle|Patreon Donator}}
+{{item infobox
+| image = Howl's Heart.gif
+| type = Covering
+| stack = 1
+| tooltip = Summons Howl to fight for you, Calcifer to light your way, and Turnip-Head to follow you around<br/>Placing this covering in vanity slots will summon the trio without the combat or exploration utilities
+| buff = Howl's Heart (buff) | bufflink = no
+| bufftip = Howl protects you, Calcifer lights your way, Turnip-Head stalks you
+| element1 = Fire
+| element2 = Magic
+| buy = {{value|0|12}}
+| sell = {{value|0|2|40}}
+| rare = 10
+| hardmode = yes
+| proj = Howl's Heart Fireball.gif
+| projcaption = Howl's Flame
+}}
+{|align=right
+|-
+|{{summoned|Howl|type=minion}}
+|-
+|{{summoned|Calcifer|type=light pet}}
+|-
+|{{summoned|Turnip-Head|type=pet}}
+|}
+
+'''Howl's Heart''' is a [[Hardmode]] [[covering]] that is purchased from the [[Wizard]] NPC for {{gc|12}}. While equipped, three pets assist the player:
+*'''Howl''' fires blue flames towards enemies that have a base damage of 42.
+*'''Calcifer''' provides light around the player.
+*'''Turnip-Head''' follows the player around.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Howl, Calcifer, and Turnip-Head are all references to the characters of the same name from the ''[[wikipedia:Howl's Moving Castle|Howl's Moving Castle]]'' book series.
+**The designs of the characters summoned are based on their appearances in the 2004 film [[wikipedia:Howl's Moving Castle (film)|Howl's Moving Castle]].
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

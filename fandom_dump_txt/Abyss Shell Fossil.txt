@@ -1,0 +1,27 @@
+{{addon|Calamity: Community Remix}}
+{{dedicated|Mochi|Developer}}
+{{item infobox
+| type = Light Pet
+| stack = 1
+| research = 1
+| tooltip = A fossil of a prehistoric creature, long forgotten in the deep abyss<br/>Summons a pet Escargidolon Snail to follow you<br/>May attract unwanted attention in the abyss...
+| rare = 1
+| use = 19
+| sell = {{value|0|0|20}}
+| buff = Escargidolon Snail (buff) | bufflink = no
+}}
+{{summoned|Escargiodolon Snail|type=light pet}}
+
+The '''Abyss Shell Fossil''' is a craftable [[Pets|light pet]] summoning item. It summons a snail to follow the player. When brought into the [[Abyss]], the [[Adult Eidolon Wyrm]] will be summoned, rapidly charging into the snail to eat it then fighting the player.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The Adult Eidolon Wyrm will '''not''' deal damage to the player while going after the snail.
+
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

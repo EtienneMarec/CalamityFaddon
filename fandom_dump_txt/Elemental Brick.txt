@@ -1,0 +1,25 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| use = 14
+| rare = 0
+| color = #666688
+| hardmode = yes
+| sell = No value
+}}
+
+'''Elemental Bricks''' are craftable Godseeker Mode [[block]]s crafted with [[Elemental Ore]] and [[Stone Block]]s. 
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Elemental}}
+{{Master Template Tiles
+| show-main   = yes
+| show-blocks = yes
+}}
+[[Category:Block items]]

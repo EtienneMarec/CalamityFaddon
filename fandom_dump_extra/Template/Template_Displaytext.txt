@@ -1,0 +1,58 @@
+<includeonly><!--
+//trim.
+-->{{#vardefine:arg1|{{{1|}}}}}<!--
+-->{{#vardefine:arg2|{{{2|}}}}}<!--
+-->{{#vardefine:lang|{{{lang|{{lang|}}}}}}}<!--
+
+-->{{#switch:{{#var:lang}}|<!--
+
+English:
+-->|en=<!--
+	// loading irregular nouns database
+	-->{{#if:{{#dplvar:en_plural_irregular}}||<!--
+		-->{{#dplvar:set<!--
+		-->|en_plural_irregular|_ok_<!--
+		// term defined in lcfisrt format:  Boss->boss,  BOSS->bOSS
+		-->|en_plural_irregular_cactus|cacti<!--
+		-->|en_plural_irregular_mouse|mice<!--
+		-->|en_plural_irregular_buff|buffs<!--
+		-->|en_plural_irregular_debuff|debuffs<!--
+		-->|en_plural_irregular_safe|safes<!--
+		-->|en_plural_irregular_staff|staves<!--
+		-->|en_plural_irregular_roof|roofs<!--
+		-->}}<!--
+	-->}}<!--
+	-->{{#switch:{{#var:arg2}}<!--
+	-->|s={{#if:{{#vardefineecho:plural|{{#dplvar:en_plural_irregular_{{lcfirst:{{#var:arg1}}}}}}}}|<!--
+			//irregular:
+			-->{{#sub:{{#var:arg1}}|0|1}}{{#sub:{{#var:plural}}|1}}<!-- sync capitalization of first character from $1
+		-->|<!--
+			//regular: intuitive pluralism
+			-->{{#switch:{{#sub:{{#var:arg1}}|-1}}<!--
+				-->|s|x|z={{#var:arg1}}es<!-- box->boxes
+				-->|y={{#switch:{{#sub:{{#var:arg1}}|-2|1}}|a|e|i|o|u={{#var:arg1}}|#default={{#sub:{{#var:arg1}}|0|-1}}ie}}s<!-- -y: ray->rays, firefly->fireflies
+				-->|f={{#sub:{{#var:arg1}}|0|-1}}ves<!--	-f: leaf->leaves, wolf->wolves
+				-->|e={{#ifeq:{{#sub:{{#var:arg1}}|-2|1}}|f|{{#sub:{{#var:arg1}}|0|-2}}ve|{{#var:arg1}}}}s<!-- -fe: knife -> knives, life->lives,  other: house -> houses
+				-->|h={{#var:arg1}}{{#switch:{{#sub:{{#var:arg1}}|-2|1}}|s|c=e}}s<!-- -sh/ch: cash->cashes, watch->watches
+				-->|#default={{#var:arg1}}s<!--simply append s
+			-->}}<!--
+		-->}}<!--
+	-->|es={{#var:arg1}}es<!--
+	-->|ies={{#sub:{{#var:arg1}}|0|-1}}ies<!-- -y -> -ies. (for say, bird, will get biries, it's wrong, but why do you append -ies for it? )
+	-->|#default={{#var:arg2|{{#var:arg1}}}}<!--
+	-->}}<!--
+
+German:
+-->|de=<!--
+	-->{{#switch:{{#var:arg2}}<!--
+		-->|e|n|en|er|s|nen={{#var:arg1}}{{#var:arg2}}<!-- {{#var:}} will do trim.
+		-->|es|ies={{#var:arg1}}<!--fallback for en suffixes: e.g. {{eil|Boss|es}}
+		-->|#default={{#var:arg2|{{#var:arg1}}}}<!--
+	-->}}<!--
+
+all other languages:
+-->|#default={{#switch:{{#var:arg2}}|s|es|ies={{tr|{{{1|}}}|lang={{#var:lang}}}}|#default={{tr|{{#var:arg2|{{{1|}}}}}}}|lang={{#var:lang}}}}<!--
+
+-->}}<!--
+
+--></includeonly><noinclude>{{i18n-ready}}{{doc}}</noinclude>

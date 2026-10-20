@@ -1,0 +1,53 @@
+{{item infobox
+| type = Tool
+| type2 = Weapon
+| type3 = Crafting material
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 110
+| critical = 14%
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| debuffduration = 2.5 seconds
+| debuff2 = On Fire!
+| debufftip2 = Slowly losing life
+| debuffchance2 = 100%<br/>100%
+| debuffduration2 = 5 seconds (Blade)<br/>3 seconds (Explosion)<br/>0.5-3 seconds (Sparks)
+| axe = 135
+| knockback = 7
+| rare = 5
+| bonus = +1 range
+| use = 11
+| tooltip = Critical hits with the blade cause small explosions<br/>Generates a number of small sparks when swung
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| toolspeed = 8
+| element1 = Fire
+| element2 = Slash
+}}
+
+The '''Inferna Cutter''' is a craftable [[Hardmode]] [[axe]] that produces light particles when swung, and is the direct upgrade of the [[Axe of Purity]]. It inflicts the [[Brimstone Flames]] and [[On Fire!]] [[debuff]] when striking an enemy and causes an explosion when landing critical hits. On swing, it releases several sparks similar to those fired by the [[Wand of Sparking]].
+
+{{modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Axes]]
+[[Category:Melee weapons]]
+[[Category:Swords]]
+[[zh:炼狱]]

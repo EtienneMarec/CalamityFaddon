@@ -1,0 +1,37 @@
+{{item infobox
+| type = Covering
+| tooltip = 40% increased melee damage and speed<br/>35% increased true melee damage<br/>True melee strikes will emit flah in various directions<br/>15% increased melee critical strike chance<br/>+10 armor penetration<br/>Increases melee damage, true melee damage and melee speed the closer you are to enemies
+| debuff = Flahmes
+| debuffduration = 3 seconds
+| debuffchance = 100%
+| debufftip = Vaporizing from total flahium annihilation
+| proj = Flah.png
+| projsize = 24px
+| projcaption = Flah
+| proj2 = Flahium Counterweight.png
+| proj2caption = Flahium Counterweight
+| element1 = Fire
+| element2 = Poison
+| element3 = Unholy
+| rare = 16
+| sell = {{value|1|0}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Quantum Flahium Shock Device''' is a craftable Godseeker Mode [[covering]]. While equipped, It provides the effects of the [[Fungal Symbiote]], [[Warbanner of the Sun]] and the [[Yoyo Bag]], creating a flahium counterweight when any yoyo is thrown. The player also receives a 40% increase to melee speed and damage, a 35% increase to [[true melee]] damage, a 15% increase to melee critical strike chance, and +10 armor penetration. 
+
+While the Quantum Flahium Shock Device is equipped, any enemy struck by a melee attack will be inflicted with [[Flahmes]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Flah}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

@@ -1,0 +1,270 @@
+{{patch infobox
+| image = Ascendant Spirit Essence.gif
+| patchname = Rust and Dust Hotfixes
+| pair = 1.4.5.001 (music)
+| release = 8/21/2020
+}}
+The '''1.4.5.002''' (or '''1.4.5.2''') update added two new items, fixed numerous bugs, and adjusted various [[enemies]] and [[bosses]].
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+*Added [[Aero Dynamite]].
+*Added [[Ascendant Spirit Essence]].
+
+== Changes ==
+=== Bosses ===
+==== [[Anahita and Leviathan]] ====
+*Nerfed [[The Leviathan]]'s health from {{dv|69,000|110,400|145,120}} to {{dv|55,200|88,320|116,096}}.
+
+==== [[Aquatic Scourge]] ====
+*Now fires several barrages of sand blasts in its spin attack instead of summoning enemies.
+
+==== [[Astrum Deus]] ==== 
+*Reduced top speed in its second phase in all difficulties.
+
+==== [[The Destroyer]] ====
+*Now fires blue lasers below 70% health which inflict [[Electrified]] in [[Revengeance Mode]].
+*Green lasers are now fired below 85% health and inflict [[Cursed Inferno]] instead of homing onto the player.
+*All lasers can fire regardless of health in [[Death Mode]].
+*Reduced maximum body defense buff from 30 to 10.
+*[[Probe]]s now fire a less amount of lasers in a set time.
+
+==== [[The Devourer of Gods]]====
+*Lasers in Phase 1 can now pass through tiles between them and the player as well as inflicting [[God Slayer Inferno]] for 2 seconds.
+
+==== [[The Dragonfolly]] ====
+*Can now have up to 3 Draconic Swarmers alive at once in Revengeance Mode.
+*Phase 2 no longer limits the maximum Swarmers to 1.
+
+==== [[Golem]] ====
+*Freed head in Revengeance Mode no longer deals contact damage.
+
+==== [[The Hive Mind]] ====
+*Now burrows more often in Phase 1 and even more often in higher difficulties.
+*The amount of Hive Blobs and Dank Creepers that spawn during the fight now scales with world difficulty.
+*Hive Blobs stay much closer to the Hive Mind itself and fire vile clots slightly more often, but with reduced velocity.
+*Buffed Hive Blob's health from 75 to 100 for normal blobs and 150 for the variants that can spawn when the Hive Mind takes damage.
+*Shaderain projectiles now fall much slower.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Nerfed fast charge telegraph and bullet hell damage reduction from 75% to 40%.
+*No longer deals contact damage during bullet hell spins.
+
+==== [[Lunatic Cultist]] ====
+*Ancient Doom projectiles and clone Fireballs now inflict [[Shadowflame]] in Revengeance Mode.
+
+==== [[Moon Lord]] ====
+*Reduced top speed in Revengeance Mode.
+*Phantasmal Spheres now start out with a slower velocity and accelerate over time.
+
+==== [[The Plaguebringer Goliath]] ====
+*Can no longer naturally spawn in Death Mode.
+
+==== [[Polterghast]] ====
+*Reduced tile enrage requirement by 25%.
+
+==== [[Providence, the Profaned Goddess]] ====
+*Now immune to [[Nightwither]].
+*Now drops both [[Elysian Aegis]] and [[Elysian Wings]] when defeated entirely at nighttime, regardless of the biome the player is in.
+
+==== [[Queen Bee]] ====
+*Can no longer naturally spawn in Death Mode.
+
+==== [[Skeletron]] ====
+*Hands cannot deal damage for 3 seconds after spawning.
+
+==== [[Skeletron Prime]] ====
+*Limbs cannot deal damage for 3 seconds after spawning.
+*Rockets in Revengeance Mode are now slightly slower.
+
+==== [[The Slime God]] ====
+*Reduced speed and slimes summoned.
+*Reduced [[Distorted]] duration from the Core from 4 seconds to 3, and increased speed when possessing another slime.
+
+==== [[Wall of Flesh]] ====
+*Lasers while enraged now start out with a slower velocity and accelerate over time.
+
+=== Enemies ===
+*[[Adult Eidolon Wyrm]]s no longer drop [[Lumenyl]] pre-[[Calamitas]] or [[Ectoplasm]] pre-[[Plantera]].
+*All bosses besides the [[Profaned Guardians]] and the [[Sentinels of the Devourer]] are now guaranteed to drop at least one weapon.
+*[[Armored Digger]]s and [[Draedon's Remote]] [[Mechanical Bosses]] now drop [[Dubious Plating]] and [[Mysterious Circuitry]].
+*Nerfed [[Draconic Swarmer]]'s health from {{dv|20,000|40,000|50,000}} to {{dv|12,000|24,000|30,000}}.
+*Decreased the spawn rate of [[Piggy|Piggies]] and [[Wulfrum Drone]]s.
+*Decreased the speed of Wulfrum Drones and [[Wulfrum Hovercraft]]s.
+*[[Blue Jellyfish|Blue]] and [[Green Jellyfish]] can no longer spawn in any Calamity Mod biome.
+*Increased spawn rates for the [[Giant Clam]], [[Wulfrum Gyrator]], Wulfrum Hovercraft, [[Wulfrum Pylon]], and [[Wulfrum Rover]].
+*[[Wulfrum Pylon]]s can now occasionally spawn in the inner third of the world.
+*Wulfrum Pylons now boost enemy spawn rates if there are less than 4 other Wulfrum enemies nearby.
+
+=== Recipes ===
+*All of the following recipes that use [[Endothermic Energy]], [[Nightmare Fuel]], and/or [[Phantoplasm]] have been replaced with Ascendant Spirit Essence(s):
+**[[The Amalgam]], [[Core of the Blood God]], [[Draedon's Heart]], [[Eclipse Mirror]], [[Elemental Gauntlet]], [[Elemental Quiver]], [[Ethereal Talisman]], [[Nanotech]], [[Nucleogenesis]], [[Silva Wings]], and [[The Sponge]].
+**[[Fearmonger armor]], [[God Slayer armor]], and [[Silva armor]].
+**[[Alluvion]], [[Apotheosis]], [[Ataraxia]], [[Cosmic Shiv]], [[Devil's Devastation]], [[Face Melter]], [[Galaxia]], [[Galaxy Smasher]], [[God's Paranoia]], [[Greatsword of Blah]], [[Light God's Brilliance]], [[Minigun]], [[Nadir]], [[Phangasm]], [[Primordial Ancient]], [[Recitation of the Beast]], [[SDFMG]], and [[T1000]].
+**[[Auric Tesla Bar]], [[Dragonfruit]], and [[Silva Crystal]].
+*Changed the number of [[Cosmilite Bar]]s in several recipes:
+**The Sponge now requires 5 bars instead of 15.
+**Galaxy Smasher, Primordial Ancient, and [[Starmada]] now require 5 bars instead of 10.
+**SDFMG now requires 5 bars instead of 4.
+*Removed Phantoplasm from [[Asgardian Aegis]] and [[Elysian Tracers]]' recipes.
+*[[Clock Gatlignum]] now requires [[Clockwork Assault Rifle]] in its recipe.
+*[[Draedon's Heart]] and Starmada are now crafted at a Draedon's Forge instead of the Ancient Manipulator.
+*[[Laboratory Shelf]] is now crafted and crafted into [[Laboratory Plating]] instead of [[Laboratory Panels]].
+*Reduced the number of Forbidden Fragments in Primordial Ancient's recipe from 10 to 5.
+*[[Rusted Pipes]] now use the [[Any Iron Bar]] recipe group.
+*[[Shredder]] requires [[Frostbite Blaster]] to craft instead of Clockwork Assault Rifle.
+*Starmada now requires an Ascendant Spirit Essence to craft.
+
+=== Renames ===
+*Renamed Anahita's Song to [[Anahita's Arpeggio]].
+*Renamed Omega Blue Leggings to [[Omega Blue Tentacles]].
+*Renamed Wulfrum Hood to [[Wulfrum Visage]].
+
+=== Balance and Reworks ===
+*All Spy coverings that grant special on-hit effects can only proc on the first 5 hits of a Spy projectile.
+*[[Anti-materiel Rifle]] projectiles now have 10% of the weapon's knockback instead of the full amount.
+*Reworked [[Caustic Staff]], now inflicts debuffs on a randomized timer between 1 and 3 seconds.
+**It now only inflicts one debuff at a time, and cycles through its list of debuffs.
+**Debuffs are now only applied if the player is holding a [[Summon weapon]] or [[Tool]].
+**Debuffs must time out and cannot be refreshed before the next debuff can be applied.
+*Reworked [[Celestus]]' stealth strike, now fires a single scythe that bounces off and homes into enemies after returning to the player once.
+*[[Desert Prowler armor]] no longer boosts the damage of ammunition.
+*Greatly reduced how often [[Elemental Disk]] splits and how many sub projectiles it can make.
+*Nerfed [[Elemental Excalibur]]'s shoot speed from 12 to 6.
+*Adjusted [[Entropy's Vigil]], Cataclymini and Catastromini minions now uses ID-static iframes.
+*Reworked [[Hypothermia]]'s stealth strike, now fires an ice chunk that splits into more ice shards after traveling a short distance.
+*The player can now receive the [[Life Drain]] buff from the following NPCs:
+**[[Anahita and Leviathan]], [[Astrum Aureus]], [[Brimling]], [[Brimstone Elemental]], [[Calamitas]], [[Cataclysm]], [[Catastrophe]], [[Cryogen]], and [[Soul Seeker]].
+*[[Lunarian Bow]] projectiles can no longer pierce.
+*Adjusted [[Napalm Arrow]]s, now use ID-static iframes.
+*Adjusted [[Optic Staff]], Spazmamini minions now use ID-static iframes.
+*[[Profaned Soul Crystal]] now only gives [[Holy Flames]] immunity during the day and [[Nightwither]] immunity during the night.
+*Profaned Soul Crystal minions now only inflict Holy Flames at day and Nightwither at night.
+*Profaned Soul Crystal's safety damage net is now 75 damage instead of 0.1% of the target's max health.
+*[[Pulse Dragon]]'s electrospheres now use local iframes and only last for 0.2 seconds. Now spawns 8 electrospheres per flail instead of 6. The flail itself now deals extra damage to inorganic targets. Increased electrosphere damage from 40% base damage to full damage.
+*[[Sealed Singularity]] projectiles no longer use LocalNPCImmunity.
+*Cosmic Scythes summoned from the [[Shadow Potion]] now inflict [[Shadowflame]] instead of [[God Slayer Inferno]].
+*[[Spectralstorm Cannon]]'s lost soul projectiles now have a 30% projectile deviation. Lost soul projectiles now start on a randomized frame instead of the first frame.
+*[[Spirit Glyph]], [[Hallowed Rune]], and heart/star spawns from [[Bloodflare armor]] can now trigger on bosses that have no contact damage.
+*[[Sulphurous armor]]'s toxic bubble projectile now only spawns on double jumps.
+*Nerfed [[Vanquisher Arrow]]s, decreased the overall amount of secondary arrows that spawn.
+*[[Venerated Locket]] knife damage is now affected by Spy damage boosts. Nerfed knife's base damage from 200 to 150.
+*[[Yanmei's Knife]] can now trigger its on-hit effects when damaging the following:
+**[[Ancient Doom]], Ancient Light, [[Cosmic Mine]], Cultist Clone, [[Dark Heart]], [[Detonating Bubble]], Moon Leech Clot, [[Plaguebringer]], [[Plague Charger]], Probe, [[Ravager|Ravager's Right Leg]], [[Sepulcher|Sepulcher Heart]], [[Sharkron]], and [[Soul Seeker]].
+
+=== Additional Changes ===
+*Several sound effects have been added:
+**Added new sound effects for the Leviathan.
+**Added several new sound effects for [[Brimflame armor]], Omega Blue armor, and [[Plague Reaper armor]].
+*[[Acidwood]] trees can now grow on [[Sulphurous Sandstone]] and [[Hardened Sulphurous Sandstone]].
+*Anahita's Arpeggio projectile sounds now vary in pitch and velocity based on cursor position.
+*Increased Auric Tesla Bar's sell price from {{gc|45}} to {{gc|60}}.
+*Biome [[Shrine]]s have an increased chance to spawn on world generation.
+*All [[Cryogen]] projectiles now have glowmasks to make them more visible.
+*Reworded [[Deific Amulet]], [[Exodus Wings]] and [[Rampart of Deities]]' tooltips.
+*[[Draedon's Charging Station]]s can now be found in [[Arsenal Lab]] chests.
+*Draedon Furniture can no longer be destroyed by [[Lava]] or [[Explosive]]s.
+*Decreased [[Draedon Power Cell]] use time from 14 to 9, doubled the [[Extractinator]] use rate, and they now have a sell price of {{cc|20}}.
+*[[Draedon's Security Turret]]s now have a minimum pick requirement of 55% instead of 65%.
+*Removed the [[Yoraiz0r's Spell]] effect from [[Fearmonger armor]].
+*Reworded the tooltips of [[Grape Beer]] and [[Margarita]].
+*Added Cameron and Woffle as names for the [[Guide]].
+*The [[Holographic Display Box]] is now obtainable and now has a sell price of {{gc|1}}.
+*Updated various Providence, the Profaned Goddess aurora visuals.
+*Updated Star Cannon visuals to be akin to how the visuals look in [[tgc:1.4.0.1|Journey's End]].
+*The [[Sea King]]'s help quotes are now spoken in a rotation.
+*The Sea King now has a quote regarding the [[Arsenal Labs]], and moved the Acid Rain quote to post-Polterghast.
+*Increased [[Shadowspec Bar]]'s sell price from {{gc|70}} to {{gc|85}}.
+*Added custom jump effects to [[Statigel armor]] and Sulphurous armor.
+*[[Vigorous Candle]]'s effect is now disabled while [[Iron Heart]] is active.
+*[[Voidstone]] can no longer be blown up by explosives.
+
+=== Resprites ===
+*Resprited [[Omega Blue armor]] and [[Statigel armor]].
+*Resprited [[The Community]], [[Old Die]], and [[Voltaic Jelly]].
+*Resprited [[Abyssal Madness]] and [[Sirius]] [[buffs]].
+*Resprited [[Abyssal Madness Cooldown]], [[Extreme Gravity]], [[Fab]], [[Icarus' Folly]], [[Nightwither]], [[Shred]], [[Sulphuric Poisoning]], [[Time Distortion]], [[Warped]], [[Weak Petrification]], and [[Whispering Death]] [[debuffs]].
+*Resprited [[Meteor Fist]] projectiles.
+*Resprited [[Dragon Scales]] and [[The Wand]]'s tornadoes.
+*Resprited [[Dragon Scales]] and [[Infernal Spear]]'s fireballs.
+*Resprited [[Drunk Princess]].
+*Resprited [[Adamantite Throwing Axe]], [[Aether's Whisper]], [[Briny Baron]], [[Flare Bolt]], [[Frigidflash Bolt]], [[Frost Bolt]], [[Gilded Dagger]], [[Gleaming Dagger]], [[Ichor Spear]], [[Magna Striker]], [[Marked Magnum]], [[Plasma Rod]], [[Scourge of the Seas]], and [[Tears of Heaven]].
+*Resprited [[Explosive Shotgun Shell]], [[Flash Round]], and [[Superball Bullet]].
+*Resprited [[Fabsol's Vodka]], [[Red Wine]] and [[Whiskey]].
+*Resprited banners for [[Bloatfish]], [[Bobbit Worm]], [[Bohldohr]], [[Giant Squid]], [[Laserfish]], [[Luminous Corvina]], [[Oarfish]], [[Parasea]], [[Sand Tortoise]], and [[Shockstorm Shuttle]].
+
+== Fixes ==
+*Fixed a bug that would end the [[Acid Rain]] event prematurely while Acid Rain enemies were being fought due to natural rain ending.
+*Fixed a bug that caused Anahita and Leviathan to not be spawnable in multiplayer.
+*Fixed an armor swap exploit that allowed the player to avoid cooldowns.
+*Fixed a bug that caused the world to become corrupted when generating [[Arsenal Labs]].
+*Fixed an oversight where Astrum Deus has an outdated summon method in the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist] Mod's Boss Log.
+*Fixed a bug that caused Astrum Deus to become permanently invulnerable during Boss Rush.
+*Fixed a bug that prevented [[Ataraxia]]'s true melee projectiles from dealing damage.
+*Fixed an exploit that allowed the player to summon minions while "Autopause" was in effect.
+*Fixed [[Blast Barrel]]'s normal and stealth strike effects being reversed.
+*Fixed [[Blunder Booster]] aura and [[Heart of the Elements]] minions not showing up for other players in multiplayer.
+*Fixed a bug that allowed the player to double jump while on the [[Brimrose]] mount.
+*Fixed a visual error with [[Calamitas]]' laser projectiles.
+*Fixed a bug that caused the effects of [[The Camper]] to be reversed.
+*Fixed an exploit with the Caustic Dragon that allowed it to fire projectiles regardless of the player's available minion slots.
+*Fixed an oversight that caused the player to take more damage while affected with [[Chaos State]] in Revengeance Mode.
+*Fixed a bug where the [[Eye of the Storm|Cloud Elemental]] minion would idle incredibly close to the player.
+*Fixed [[tgc:Clown Banner|Clown Banners]] not protecting against Happy Bomb projectiles.
+*Fixed [[Cosmilite Bed]]'s highlight being too high.
+*Fixed certain homing weapon projectiles that were unintentionally homing in on [[Critters]].
+*Fixed a bug that caused [[Crystalline]]'s stealth strike projectiles to deal ranged damage.
+*Fixed a mod call error where Desert Prowler armor was an alias for [[Snow Ruffian armor]].
+*Fixed a bug that prevented [[Draedon's Charging Station]]s and [[Draedon's Fuel Factory|Fuel Factories]] from functioning correctly in multiplayer.
+*Fixed [[Dragon Scales]]' stealth strike tornadoes dealing magic damage instead of Spy damage.
+*Fixed a bug with [[Elemental Excalibur]] projectiles traveling in an unintended way and moving through targets without attacking.
+*Fixed [[Elemental Gauntlet]] not providing Heat/Cold immunity in Death mode.
+*Fixed a bug that caused [[Ethereal Extorter]]'s life regeneration boost in a [[Glowing Mushroom biome]] to apply even when not in the biome.
+*Fixed a bug that caused [[The Final Dawn]]'s stealth strikes to not trigger stealth-based covering functions.
+*Fixed an exploit with finite-use classless weapons that allowed the player to be able to use them infinitely when held in the inventory and deal more damage than intended.
+*Fixed an oversight with [[Frequency Manipulator]], [[System Bane]], [[Tracking Disk]], and [[Wave Pounder]] not being assigned to proper Spy subclasses.
+*Fixed an oversight that prevented [[Gastric Belcher Staff]] from dropping from Anahita and Leviathan in Normal Mode.
+*Fixed an oversight where [[Heavenly Gale]]'s blue exo arrows weren't summoned on both sides.
+*Fixed a bug that caused the Holographic Display Box to crash users with ''Support8K'' disabled.
+*Fixed [[Ice Shield (buff)|Ice Shield]] buff displaying incorrect percentages.
+*Fixed a tooltip error with the [[Lore items|King Slime lore item]] where it incorrectly listed how to activate its buffs.
+*Fixed a bug that caused Laboratory Doors to corrupt the world when placed on top of each other.
+*Fixed a bug that caused Laboratory Doors to mark an NPC house as invalid while open.
+*Fixed a bug that prevented Laboratory Doors from being highlighted by smart-select.
+*Fixed a bug that caused [[Laboratory Door]]s and [[Hazard Chevron Panels]] to not blend.
+*Fixed an oversight that prevented [[Leonid Progenitor]] from being obtainable.
+*Fixed [[Murasama]] being able to deal damage in the first 10 frames of its animation.
+*Fixed [[Onyx Excavator Drill]] mining [[Charred Ore]] pre-[[Brimstone Elemental]].
+*Fixed [[Plaguebringer armor]]'s set bonus minion taking up a minion slot.
+*Fixed a tooltip error with the [[Plaguebringer Carapace]] where it listed less minion slots than it granted.
+*Fixed a bug that caused the game to crash when Providence, the Profaned Goddess was summoned in [[The Underworld]].
+*Fixed an oversight that allowed Providence, the Profaned Goddess to drop [[Profaned Moonlight Dye]] regardless if damage was dealt at daytime.
+*Fixed an audio issue with [[Pwnagehammer]] in multiplayer.
+*Fixed an oversight that caused [[Pwnagehammer]] to still be classified as a boomerang.
+*Fixed a bug where certain potions and consumables that grant mana would not grant mana when selected and consumed by {{key|Quick Buff}}.
+*Fixed a bug where certain alternate healing potions would always have the lowest priority when selected by {{key|Quick Heal}}.
+*Fixed a bug where certain alternative mana restoration potions could not be selected and consumed by {{key|Quick Mana}}.
+*Fixed a bug where stackable Spy weapons could receive modifiers.
+*Fixed [[Rubber Mortar Round]]s not creating proper explosions on tile collision.
+*Fixed [[Rusted Shelf|Rusted Shelves]] not being able to be crafted back into [[Rusted Plating]].
+*Fixed several tile-blending issues with most Calamity furniture pieces.
+*Fixed a bug that caused [[Shellfish Staff]] and Vile Feeder minions to disappear on tile collision.
+*Fixed [[Slick Cane]] not registering as a Spy weapon and not consuming stealth.
+*Fixed Spectralstorm Cannon's tooltip not displaying the correct projectile name.
+*Fixed a bug that caused [[Star Swallower Containment Unit]] minions to disappear while in [[Space]].
+*Fixed a bug that caused the [[Sulphurous Sea]] world generation to be flat.
+*Fixed [[Sylvan Slasher]] proccing [[Venerated Locket]] knives.
+*Fixed [[Titan Heart armor]]'s reduced Spy weapon consumption not displaying correctly on the stat meter.
+*Fixed [[Turbulance]]'s projectiles phasing through tiles.
+*Fixed Turbulance's incorrect sell price.
+*Fixed [[Ultima]] not firing projectiles in multiplayer.
+*Fixed [[Vile Feeder]] minions dealing an absurd amount of damage.
+*Fixed an oversight with [[Weak Petrification]] that allowed players to use [[Fart in a Jar|Fart]] and [[Tsunami in a Bottle]] double jumps.
+*Fixed [[Yanmei's Knife]] not using the Any Iron Bar recipe group.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

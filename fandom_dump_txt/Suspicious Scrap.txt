@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| stack = 9999
+| rare = a
+| tooltip = Looks like it may be part of a greater whole...
+| sell = {{value|0|0|0|4}}
+}}
+|{{item drops infobox
+| [[Cyber Draedon]] {{fantag|Calamity: Community Remix}}|1|20%
+}}
+}}
+
+'''Suspicious Scrap''' is a [[crafting material]] found only in the Abandoned Research Facility variant of the [[Arsenal Labs]] in the [[Cavern]] layer. They are used to craft the [[SHPC]].
+
+Four Suspicious Scraps are required to make the SHPC, alongside the [[Prototype Plasma Drive Core]] which can be found in the [[Planetoid]] sky lab.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*While it is guaranteed to find Suspicious Scrap in an Abandoned Research Facility, the chance to find one in the Abandoned Workshops varies based on world size, to compensate for the varying amount of laboratories. Suspicious Scrap has a: 
+**'''100%''' chance to generate in small worlds.
+**'''50%''' chance to generate in medium worlds.
+**'''33%''' chance to generate in large worlds.
+
+== Trivia ==
+*Suspicious Scrap can use one of four possible sprites, chosen at world generation, with the sprite used being based on the ore variants chosen. More precisely, the variant will be decided by whether [[Tin Ore]] or [[Copper Ore]] generated, and whether [[Iron Ore]] or [[Lead Ore]] generated. Each possible combination of these ores has an associated sprite to match the colors of the ores chosen.
+
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

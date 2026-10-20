@@ -1,0 +1,63 @@
+{{item infobox
+| type = Covering
+| image = The_Sponge.gif
+| defense = 20
+| tooltip = 15% increased damage reduction<br/>+30 max life and mana<br/>5% increased movement and jump speed<br/>Standing still boosts life and mana regen<br/>Increased defense, movement speed and damage reduction while submerged in liquid<br/>Enemies take damage when they hit you<br/>You emit a cloud of mushroom spores and sparks when you are hit<br/>2% reduced stealth costs<br/>6.25% of the damage from enemy attacks is absorbed and converted into healing<br/>Increased healing as health lowers<br/>Dying revives you inside of an encumbering shell for 3 seconds with a 1 minute cooldown<br/>Generates an energy shield over 1 minute that takes one hit
+| rare = 14
+| sell = {{value|0|28}}
+| element1 = Fire
+| element2 = Stab
+| element3 = Magic
+| element4 = Poison
+| element5 = Machine
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Truffle Spore.gif
+| projcaption = Mushroom Spore
+}}
+
+'''The Sponge''' is a craftable Godseeker Mode [[covering]] that provides the following bonuses:
+*20 [[defense]]
+*+30 max life and mana
+*15% increased damage reduction
+*5% increased movement speed
+*5% increased jump speed
+*6.25% of incoming damage from enemies is converted into healing
+*Standing still boosts life and mana regeneration
+*2% reduced stealth costs.
+*Increased defense by 5, damage reduction by 10% and movement speed by 20% while submerged in liquid
+*Enemies are damaged on contact
+*Emit mushroom spores and sparks when hit
+*Upon dying, the player is revived, but is unable to move for 3 seconds. While in this state, all of the above effects are doubled.
+*Life regeneration is increased as health lowers, with 1 life regen per 20% health lost.
+*Water physics are ignored
+*An energy shield generates after 1 minute of being worn which nullifies a single hit of damage and resets
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Despite its current sprite having the [[Rover Drive]]'s barrier showing, The Sponge doesn't inherit the Rover Drive's shield effect.
+
+== Trivia ==
+{| class="terraria" align="right"
+! April Fool's sprite
+|-
+| [[File:The Sponge (Joke).png|center]]
+|}
+*During April 1st ([[wikipedia:April Fool's Day|April Fool's Day]]), the Sponge's sprite changes to a cube resembling a real life [[wikipedia:Sponge_(tool)|cleaning sponge]].
+*The Sponge gets its name from the term "damage sponge" due to its ability to increase the defense and survivability of the player.
+*In previous versions of the mod, the [[Ambrosial Ampoule]] was used to craft this, thus inheriting its effects.
+
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

@@ -1,0 +1,31 @@
+{{item infobox	
+| type = Weapon
+| damage = 63
+| damagetype = Ranged
+| knockback = 1
+| stack = 1
+| rare = 8
+| sell = {{value|0|16}}
+| auto = yes
+| tooltip = Fires two barracudas that latch onto enemies
+| use = 20
+| velocity = 15
+| hardmode = yes
+| proj = Mechanical Barracuda.gif
+| projcaption = Mechanical Barracuda
+| element1 = Water
+| element2 = Dark
+}}
+
+The '''Barracuda Gun''' is a craftable [[Hardmode]] [[ranged weapon]] that is an upgraded version of the [[Piranha Gun]]. Holding left-click will fire two barracudas that latch on to [[enemies]] and deal continuous damage as long as left-click is held down. After an enemy dies, the barracudas will automatically latch onto other enemies in range. The two barracudas cannot latch onto the same enemy.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

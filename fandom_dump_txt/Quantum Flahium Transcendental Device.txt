@@ -1,0 +1,29 @@
+{{item infobox
+| type = Covering
+| tooltip = 40% increased magic damage, 15% increased magic critical strike chance, and 35% decreased mana usage<br/>+250 max mana<br/>Increases pickup range for mana stars<br/>Increases mana regen as life decreases<br/>You automatically use mana potions when needed if visibility is on<br/>Mana Sickness from drinking mana potions is replaced by Mana Burn
+| debuff = Flahmes
+| debuffduration = 3 seconds
+| debuffchance = 100%
+| debufftip = Vaporizing from total flahium annihilation
+| debuff2 = Mana Burn | debufflink = no
+| debufftip2 = The excess of mana sears your body and mind
+| rare = 16
+| sell = {{value|1|0}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Quantum Flahium Transcendental Device''' is a craftable Godseeker Mode [[covering]]. It provides a 40% increase to magic damage, a 20% increase to magic critical strike chance, grants mana regen that increases as the wearer's health lowers, +250 max mana, and a 35% decrease in mana usage. The covering grants the effects of the [[Ethereal Talisman]] and [[Chaos Stone]]. Toggling this covering’s visibility allows you to disable the [[Mana Flower]] effects. 
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Flah}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Healing items]]
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

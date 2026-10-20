@@ -1,0 +1,26 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| stack = 1
+| rare = 15
+| sell = No value
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| tooltip = Baking it may attract something...
+}}
+|{{item drops infobox
+| [[Purgatory Arbiter, Umbrus]]|{{dv|1|}}|100%
+}}
+}}
+
+'''Eldritch Pie Recipe''' is a Godseeker Mode [[crafting material]] that is dropped by [[Purgatory Arbiter, Umbrus]]. It is used to craft [[Draedon Power Pie]], an item that will summon [[Disgusting Creature: Dron]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

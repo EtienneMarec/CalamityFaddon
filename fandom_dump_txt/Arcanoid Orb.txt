@@ -1,0 +1,42 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Expert mode only}}
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| damage = 120 (Contact)
+| tooltip = Summons an Arcanoid Orb that hovers in one place<br/>Press {{key|Arcanoid Orb}} to relocate the orb to your cursor for 5 mana<br/>Press down the key to allow the orb to follow your cursor at the cost of draining your mana quickly<br/>The Arcanoid Orb deals heavy contact damage and confuses enemies
+| debuff = Confused
+| debuffduration = 3 seconds
+| debuffchance = 100%
+| debufftip = Movement is reversed
+| stack = 1
+| rare = 3
+| sell = {{value|0|2}}
+| element1 = Magic
+| element2 = Smash
+}}
+
+{| align="right"
+|-
+|{{summoned|Arcanoid Orb|type=minion}}
+|}
+
+{{Item drops infobox
+|[[Cosmic Elemental]]|1|{{Expert|5%}}}}
+
+'''Arcanoid Orb''' is a Pre-[[Hardmode]] [[Equipment|covering]] dropped by [[Cosmic Elemental|Cosmic Elementals]]. While equipped, it summons an '''Arcanoid Orb''' minion.
+
+While normally stationary, the player can move the Orb by pressing the {{key|Arcanoid Orb}} key. This action uses 5 mana and causes the Orb to move to the cursor's location. If the key is pressed down for 1.5 seconds, the Orb will start to track the cursor, draining the player's mana at a rate of 15 points per second.
+
+The Arcanoid Orb deals 120 damage, which scales with the summon damage bonuses, grants enemies half of a second of static [[immunity frames]] and inflicts the [[Confused]] debuff on hit.
+
+==Crafting==
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]

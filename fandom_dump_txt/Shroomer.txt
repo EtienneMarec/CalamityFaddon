@@ -1,0 +1,39 @@
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 150
+| damagetype = Ranged
+| knockback = 9.75
+| stack = 1
+| rare = 10
+| sell = {{value|0|20}}
+| auto = yes
+| use = 27
+| tooltip = Fires bullets and an extremely powerful homing mushroom
+| critical = 39%
+| velocity = 10
+| hardmode = yes
+| proj = Shroom.png
+| projcaption = Mushroom
+| element1 = stab
+| element2 = poison
+}}
+
+The '''Shroomer''' is a craftable [[Hardmode]] [[gun]] and an upgrade to the [[Sniper Rifle]]. It fires bullets at a high velocity along with a translucent mushroom that homes in on and pierces enemies, and deals massive damage.
+
+Holding right click will use its "zoom" ability, which scrolls the viewing area of the screen in the direction of the cursor.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Guns]]

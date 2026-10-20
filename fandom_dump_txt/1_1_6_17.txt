@@ -1,0 +1,58 @@
+{{Patch infobox
+| image = The Devourer of Gods (1.1.6.1).png
+| patchname = Devourer of Gods Projectile Rework
+| release = 1/1/2017
+}}
+
+The '''1.1.6.17''' update reworked [[The Devourer of Gods]] and added several new [[weapons]]. It also resprited [[Jungle Dragon, Yharon]].
+
+== Additions ==
+*Added [[Aftershock]], [[Broken Biome Blade|Biome Blade]], [[Brimlash Buster]], [[Devil's Devastation]], [[Earth]], [[Earthen Pike]], [[Galaxia]], [[Majestic Guard]], [[True Biome Blade|Omega Biome Blade]], [[Triploon]], and [[Biome Blade|True Biome Blade]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*All vanilla bosses, all bosses from the Thorium mod, [[Calamitas]] and her brothers, [[Cryogen]], [[The Devourer of Gods]]' body segments, [[Jungle Dragon, Yharon]], and [[The Plaguebringer Goliath]] are now immune to [[Armor Crunch]]. 
+*[[???]] can no longer be targeted by [[minions]] or be damaged if [[Duke Fishron]] is alive.
+*The Devourer of Gods changes:
+**Buffed body segment defense from 9999 to 99,999.
+**Decreased [[Prepare to Die\Cry]] modes speed.
+**Now spawns Beam Portal projectiles throughout the fight.
+**Increased the spread at which each segment shoots projectiles.
+**Decreased the health thresholds needed for it to start firing different types of projectiles.
+**Now fires new custom projectiles, including special lasers and orbs. 
+**No longer fires Lightning Arcs, Nebula Piercers, Alien Goop, and Frost Beams <!---Expert Mode---> projectiles.
+*[[The Slime God]] changes:
+**Nerfed the split Crimulan Slime God's health from {{dv|2500|3000}} to {{dv|1250|1500}}.
+**Nerfed the split Ebonian Slime God's health from {{dv|5000|6000}} to {{dv|2500|3000}}.
+**Split Slime Gods are now smaller.
+
+=== [[Items]] ===
+*Nerfed [[Astreal Defeat]]'s damage from 140 to 110.
+*Buffed [[Cursed Capper]]'s damage from 28 to 30.
+*Nerfed [[Goldplume Spear]]'s shot speed from 5 to 4.
+*Nerfed [[Hellion Flower Spear]]'s shot speed from 5 to 4.
+*[[Infernal Rift]]'s blades now pierce once instead of twice.
+*Nerfed [[Marnite Spear]]'s shot speed from 6 to 4.
+*[[Toxic Heart]] now decreases movement speed by 5% instead of 10% when above 75% health.
+*[[Triactis' True Paladinian Mage-Hammer of Might]] can now go through [[blocks]].
+*Nerfed [[Urchin Spear]]'s shot speed from 5 to 4.
+*Adjusted the flight times of several [[wings]]:
+**Nerfed [[Aureate Wings]]' flight time from 130 to 90.
+**Nerfed [[Discordian Wings]]' flight time from 180 to 150.
+**Nerfed [[Skyline Wings]]' flight time from 30 to 20.
+**Buffed [[Soul of Cryogen]]'s flight time from 50 to 60.
+**Nerfed [[Starlight Wings]]' flight time from 150 to 100.
+
+=== Resprites ===
+*Resprited Jungle Dragon, Yharon.
+*Resprited [[Fractured Ark|Ark of the Ancients]] and [[Cursed Capper]].
+
+== Fixes ==
+*Fixed [[Cryogen]] and [[The Hive Mind]] despawning incorrectly.
+*Fixed the large Slime Gods' AIs breaking when they split in multiplayer.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

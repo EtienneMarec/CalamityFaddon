@@ -1,0 +1,14 @@
+To be used on top of Tips sections to direct readers to [[boss]] or event strategy guides.
+
+== Usage ==
+<code><nowiki>{{</nowiki>strategies | '''''optional:''' guide page name'' | t= '''''optional:''' topic, to replace the page name'' <nowiki>}}</nowiki></code>
+
+* If no guide page is provided, the default guide page link will be {{code|<nowiki>[[</nowiki>Guide:[page name] strategies<nowiki>]]</nowiki>}}.
+* The <code>t=</code> parameter can be used to provide replacement text in the phrase, ''"For more elaborate strategies on defeating '''[topic]'''..."'' The default topic is the page name. 
+
+<includeonly>
+[[Category:Redirection and link templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

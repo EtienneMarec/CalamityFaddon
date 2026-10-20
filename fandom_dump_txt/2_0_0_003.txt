@@ -1,0 +1,127 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = July 2022 Port
+| pair = 2.0.0.003 (music)
+| release = 7/01/22
+}}
+
+The '''2.0.0.003''' (or '''2.0.0.3''') update ported the mod to tModLoader v2022.6.96. This update fixed several bugs and issues from previous Calamity updates.
+
+== Additions ==
+*Added more NPC-based happiness quotes for the [[Drunk Princess]]. <!-- Loves: Stylist and Zoologist; Likes: Truffle and Party Girl (liking Princess already existed as of 2.0.0.001); Dislikes: Tavernkeep and Tax Collector; Hates: Goblin Tinkerer and Angler -->
+
+== Changes ==
+=== Balance and Reworks ===
+*[[Bladecrest Oathsword]] and [[Old Lord Oathsword]] are no longer true melee weapons.
+*Reworked the [[Chlorophyte Armor]] set bonus. The crystal no longer fires leaf projectiles at enemies. Instead, it releases a short-range pulse of energy every 3 seconds which deals 300 damage towards enemies and heals all nearby players including the wearer for 10 HP. The heal has a cooldown of 2.5 seconds. Both the damage and healing amount increase with the player’s strongest class damage.
+*Nerfed the following [[modifiers]]:
+**The '''Guarding''' modifier now provides {{color|+7|green}} defense once [[Jungle Dragon, Yharon]] has been defeated, instead of {{color|+8|green}} defense.
+**The '''Armored''' modifier now provides {{color|+10|green}} defense once Jungle Dragon, Yharon has been defeated, instead of {{color|+11|green}} defense.
+**The '''Warding''' modifier now provides {{color|+11|green}} defense once [[The Devourer of Gods]] has been defeated, instead of {{color|+12|green}} defense. It also now provides {{color|+12|green}} defense once Jungle Dragon, Yharon has been defeated, instead of {{color|+15|green}} defense.
+
+=== Recipes ===
+*Added all vanilla [[tgc:Food and drink potions|Food and drink items]] to the "Any Food Item" recipe group. <!-- No, I will not write this all out, also :borgorpat: - Merkalto -->
+*The following items now craft into each other while at an [[Anvil]] in [[Ecto Mist]]: <!-- or Ecto Mist, whatever you want, it doesn’t matter -->
+**The [[Crimson Rod]] and [[Vilethorn]].
+**The [[Ball O' Hurt]] and [[The Rotted Fork]].
+**The [[Musket]] and [[The Undertaker]].
+*The following items now craft into each other while at a [[Tinkerer's Workshop]] in Ecto Mist:
+**The [[Bloody Worm Tooth]] and [[Rotten Brain]].
+**The [[Brain of Confusion]] and [[Worm Scarf]].
+**The [[Crimson Heart]] and [[Shadow Orb]].
+*[[Bloody Edge]] now requires 5 [[Purified Gel]] in both of its recipes.
+*[[Caustic Tear]] now requires being near [[water]] to craft, as intended.
+*[[DPS Meter]] can now be crafted with 10 [[Wire]] and 5 of Any Gold Bar at an Anvil.
+*[[Helium Flash]] now requires 5 [[Auric Bar]]s as intended instead of 1.
+*[[Plasma Grenade]] now requires 25 [[Dubious Plating]], 15 [[Mysterious Circuitry]], 8 [[Cosmilite Bar]]s, and 2 [[Ascendant Spirit Essence]] in its recipe, instead of 5 Dubious Plating, 5 Mysterious Circuitry, 1 Cosmilite Bar, and 1 Ascendant Spirit Essence.
+*Each set piece of the [[Shroomite armor]] set and [[Spectre armor]] set alternative recipes now require 1 [[Living Shard]] to be crafted.
+*[[Terra Blade]]'s recipe which uses [[True Bloody Edge]] now requires a [[Broken Hero Sword]] to craft.
+*Both [[Terra Edge]] recipes now require a [[Broken Hero Sword]] to craft.
+*True Bloody Edge now requires 3 [[Soul of Fright|Souls of Fright]], [[Soul of Might|Souls of Might]], [[Soul of Sight|Souls of Sight]] instead of a Broken Hero Sword in its recipe.
+
+=== Renames ===
+*Renamed all [[Schematics]] to clearly mention which biome they originate from.
+**Renamed Encrypted Schematic found in the Ice biome to [[Encrypted Schematic (Ice)]].
+**Renamed Encrypted Schematic found in the Jungle to [[Encrypted Schematic (Jungle)]].
+**Renamed Encrypted Schematic found in Space to [[Encrypted Schematic (Planetoid)]].
+**Renamed Encrypted Schematic found in the Underworld to [[Encrypted Schematic (Underworld)]].
+**Renamed Schematic to [[Schematic (Sunken Sea)]].
+*Renamed Treasure Bag (Exo Mechs) to [[Treasure Box (Exo Mechs)]].
+
+=== Resprites ===
+*Resprited [[Draconic Destruction]].
+
+=== Additional Changes ===
+*Updated the Calamity Mod Steam Workshop description to link to Music Mod and vice versa with the Calamity Mod Music Steam Workshop description.
+*[[Adrenaline Meter]], [[Defense damage]], [[Rage Meter]], and [[Stealth]] sound effects are now only played client side in multiplayer.
+*The [[Advanced Display]], [[Decryption Computer]], [[Long Ranged Sensor Array]], [[Voltage Regulation System]] tooltips now clearly mention which Schematic it allows the Codebreaker to decrypt.
+**Additionally, Schematic-locked recipes now clearly mention which Schematic must be decrypted before their recipe is unlocked in their tooltips.
+*Added a line to the [[Arid Artifact]]'s tooltip explaining that it will stop a sandstorm if used while one is ongoing.
+*The [[Arms Dealer]], [[Dryad]], and [[Merchant]] Town NPCs no longer sell any Crimson or Corruption related items, excluding evil biome seeds.
+*[[Astral Ore]], [[Eutrophic Sand]], [[Navystone]], [[Prism Shard]]s, [[Sea Prism]] can no longer be [[tgc:Block Swap|Block swapped]].
+*Gave [[Azathoth]] the "Developer item" tooltip tag.
+*[[Boss summoning items]] now clearly mention boss biome enrages, if applicable, on their tooltips.
+**Additionally, capitalized all biomes listed on Boss summoning item tooltips.
+**The [[Rune of Kos]]'s item tooltip now dynamically updates depending on which biome the player is in.
+*[[The Community]]'s item tooltip now dynamically updates and clearly mentions what stats it increases when worn.
+*Updated many of the Drunk Princess' happiness quotes.
+*[[Enchanted Starfish]] now has auto-reuse.
+*[[Golem]] now directly drops a [[Picksaw]] on all World Difficulties when defeated for the first time. <!-- 2 in 1 bug fix and auto picksaw moved out of Golem’s treasure bag. -->
+*[[Guide Voodoo Doll]]s can now stack up to 999.
+*Calamity and vanilla [[Ores]] that generate after defeating a boss, excluding [[Exodium Cluster]]s, now generate deeper in the world. <!-- On medium worlds, a few ores stop generating at the top of Hell, fun fact! Check source code for ore generation ranges. - Merkalto -->
+*[[Pwnhammer]] now mentions that vanilla Hardmode ores spawn after defeating Mechanical bosses for the first time if the <code>Early Hardmode Progression Rework</code> configuration is enabled.
+*The [[Roxcalibur]] tooltip now dynamically updates whether or not the world is in Hardmode.
+*Decreased [[Wooden Boomerang]] sell price from {{sc|10}} to {{cc|20}}.
+*Added the "New Shop Icon" support to the [[Golfer]], [[Princess]], and [[Zoologist]] Town NPCs.
+*Added several Town NPC names:
+**Added the name Danmaku for the [[Guide]] Town NPC.
+**Added the name Cap'n Deek for the [[Pirate]] Town NPC.
+**Added the name Catalyst for the [[Princess]] Town NPC.
+
+== Fixes ==
+=== Gameplay ===
+*Fixed a bug that allowed [[Luxor's Gift]] projectiles to be rapidly fired when using the [[Titanium Railgun]].
+*Fixed a bug that caused [[Water Leech]]es to drop multiple [[Parasitic Scepter]]s instead of just 1.
+*Fixed a bug where the [[Empress of Light]]'s "Sun Dance" would end prematurely in [[Revengeance Mode]] or higher.
+*Fixed a rare issue with [[Sulphurous Sea]] vines that caused the game to crash.
+*Fixed an issue that caused Golem to occasionally drop 2 [[Picksaw]]s when killed for the first time in Classic Mode.
+*Fixed an issue that caused the Rage Meter end sound to play constantly in multiplayer.
+*Fixed an issue with [[Dormant Brimseeker]] minions that caused them to behave incorrectly in cramped spaces.
+*Fixed an oversight that allowed [[Boreal Crate|Boreal]] and [[Frozen Crate]]s to drop [[Cryonic Ore]] and [[Cryonic Bar]]s without defeating two Mechanical Bosses.
+*Fixed an oversight that allowed the [[Piggy]] and [[Super Dummy]] to pick up [[Coins]] in Expert Mode or higher.
+*Fixed an oversight that caused the [[Void of Calamity]] to decrease player damage reduction, despite that function being removed from the item in version [[2.0.0.001]].
+*Fixed an oversight that prevented the [[Hermit's Box of One Hundred Medicines]] from dropping from the [[Wall of Flesh]] in Expert Mode or above.
+*Fixed Plasma Grenade having an incorrect sell price. <!-- 10 silver now uses rare 14 sell price -->
+*Fixed [[Providence, the Profaned Goddess]] not dropping [[Divine Geode]]s in Classic Mode.
+*Fixed several items missing [[research]] support, this includes:
+**Arid Artifact, [[Astral Bar]]s, [[Astral Clay]], [[Astral Snow]], [[Bazooka]], [[Brimlish]], [[Celestial Onion]], [[Celestial Remains]], [[Chaotic Brick Wall]], [[Elephant Killer]], [[Eutrophic Sandfish]], [[Hydra]], [[Lightning Hawk]], [[Magnum]], [[Novae Slag]], [[Serpentuna]], [[Slurpfish]] and [[Surf Clam]].
+*Fixed incorrect research requirements on several items:
+**[[Aged Laboratory Electric Panel]] and [[Laboratory Electric Panel]] having a research requirement of 100 instead of 1.
+**[[Prototype Plasma Drive Core]] having a research requirement of 5 instead of 1.
+**[[Statigel Block]]s having a research requirement of 1 instead of 100.
+<!-- Band-aid fixed mounts with transformations crashing the game when using a grapple hook, it now throws an error in chat instead of crashing. -->
+=== Visual ===
+*Fixed a bug that caused Calamity sky shaders to be incorrectly drawn.
+*Fixes all instances of "Dragonfire" being written as "Dragon Fire". <!---Affects Dragon Scales and Dynamo Stem Cells--->
+*Fixed all instances of "Snow armor" being written as "Eskimo armor".
+*Fixed all instances of ellipses being written with two periods instead of three.
+*Fixed an error in the [[Sea King]]'s dialog regarding the [[Demolitionist]].
+*Fixed an incorrect placement of the "Grants immunity to Holy Flames" tooltip line on the [[Sun Stone|Sun]] and [[Moon Stone]].
+*Fixed the "Any Quiver" and "Any Mana Flower" recipe groups being written as plural.
+*Fixed the run-on sentence in [[The Dragonfolly]]'s [[Bestiary]] entry.
+*Fixed an incorrect tooltip regarding spawn rate changes on the [[Blood Fountain of Revengeance]].
+*Fixed an oversight that caused the [[Sirius|Sirius (minion)]] to be x10 brighter than intended.
+*Fixed [[Hive Mind]] and [[The Perforators]] not being next to each on the Boss Checklist Mod.
+*Fixed [[Utensil Poker]]'s rarity being listed as {{rare|11}} instead of {{rare|10}}.
+*Fixed various sprite sheet errors, this include:
+**Acidwood trees
+**Desert Prowler Shirt using Brimflame Robes sheet
+**Sulphurous Sea Rib background object <!--Only the tallest one -->
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}
+
+[[es:2.0.0.003]]

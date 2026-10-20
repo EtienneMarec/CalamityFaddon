@@ -1,0 +1,47 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 955
+| damagetype = Spy
+| knockback = 8
+| use = 34
+| auto = yes
+| velocity = 14.5
+| tooltip =  Fires an enormous ghost lance that emits lost souls as it flies<br/>Explodes into tormented souls on enemy hits<br/>Stealth strikes continuously leave spectral clones in their wake
+| hardmode = yes
+| postml = yes
+| stack = 1
+| rare = 13
+| sell = {{value|0|26}}
+| proj = Phantasmal Spirit.gif
+| projcaption = Phantasmal Spirit
+| proj2 = Phantasmal Ruin Clone.png
+| proj2caption = Phantasmal Ruin Clone
+| proj3 = Lost Soul.gif
+| proj3caption = Lost Soul
+| element1 = Dark
+| element2 = Stab
+}}
+{{distinguish|Phantasmal Fury|a similarly-themed [[magic weapon]]}}
+
+The '''Phantasmal Ruin''' is a craftable Godseeker Mode non-consumable [[javelin]]. It is the upgrade of the [[Luminous Striker]] and the final upgrade to the [[Spear of Paleolith]]. It automatically throws a gravity-ignoring spear that leave trails of floating lost souls. The lost souls float around and home onto nearby enemies, dealing 25% of the weapon's base damage. Upon contact with an enemy, the spear breaks into four phantasmal spirits outward from the spear which start homing in after a short time and deal 10% of the weapon's damage.
+
+Performing a [[stealth strike]] with the Phantasmal Ruin will cause the next spear thrown to release a trail of translucent spear clones instead of lost souls and at a faster pace. The spear clones home onto enemies and fade away over time.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+[[File:Phantasmal Ruin 1 (demo).gif|frame|right|The Phantasmal Ruin's homing phantom spirits and homing lost souls. Notice how the souls do not pierce tiles, while the spear and spirits do.]]
+[[File:Phantasmal Ruin 2 (demo).gif|frame|right|The homing spear clones spawned by the Phantasmal Ruin when preforming a [[stealth strike]].]]
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Javelins]]

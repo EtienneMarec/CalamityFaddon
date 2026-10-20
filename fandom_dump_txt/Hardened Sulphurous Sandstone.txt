@@ -1,0 +1,26 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| auto = yes
+| use = 3
+| rare = 0
+| color = #4C3A3B
+| sell = {{value|0|2|50}}
+}}
+
+'''Hardened Sulphurous Sandstone''' is a [[Pre-Hardmode]] [[block]] that can be found in the [[Sulphurous Sea]] [[biome]], which spawns upon world generation. It is commonly found on the outlines of caves and the sea floor.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

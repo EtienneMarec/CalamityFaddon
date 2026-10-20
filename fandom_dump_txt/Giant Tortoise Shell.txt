@@ -1,0 +1,32 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip =  10% decreased movement speed<br/>Enemies take damage when they hit you
+| sell = {{value|0|2|40}}
+| defense = 14
+| stack = 1
+| rare = 4
+| hardmode = yes
+| element1 = Stab
+| element2 = Poison
+}}
+|{{item drops infobox
+| [[Giant Tortoise]]|1|{{dv|15%|25%}}
+}}
+}}
+
+The '''Giant Tortoise Shell''' is a [[Hardmode]] [[covering]] dropped by [[Giant Tortoise]]s in the [[Jungle]]. When equipped, it decreases movement speed by 10% and reflects 25% of damage back to attackers.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This item's effects stacks with other Thorns effects.
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

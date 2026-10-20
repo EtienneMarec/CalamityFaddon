@@ -1,0 +1,45 @@
+{{dedicated|CrabBar|Patreon Donator}}
+{{item infobox
+| type = Armor
+| defense = 1
+| body slot = Helmet
+| tooltip = 10% increased summon damage and 15% increased Spy velocity
+| setbonus = Press Y to call an ancient storm to the cursor location<br/>The ancient storm costs 60 mana and benefits from both summon and Spy bonuses<br/>Spy stealth strikes spawn homing eaters on enemy hits<br/>Spy and summon attacks will scale off of the stat with a higher boost<br/>Spy stealth builds while not attacking and slower while moving, up to a max of 40<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+| rare = 5
+| stack = 1
+| sell = {{value|0|5}}
+| hardmode = yes
+}}
+{{summoned|Forbidden Sign|type=minion}}
+
+The '''Forbidden Circlet''' is a [[Hardmode]] helmet [[Covering]] piece and variant of the [[Forbidden armor]]. It grants 1 defense, 10% increased summon damage, and 15% increased Spy velocity.
+
+When equipped with the [[Forbidden Robes]] and [[Forbidden Treads]], the full set grants the following stats and bonuses (this includes the set bonus):
+*21 defense
+*10% increased summon damage
+*15% increased Spy velocity
+*+80 max mana
+*+2 max minions
+*Gives a max [[stealth]] of 40.
+*[[Stealth strike]]s summon 6 homing Forbidden Eaters that each deal 40 typeless damage which can be affected by Spy damage bonuses, with a cooldown of 0.25 seconds. This effect only triggers for the first five enemies hit.
+*Pressing {{key|Armor Set Bonus}} will summon an Ancient Storm for 60 mana. The storm deals 100 base damage and is affected by mana cost reduction, mana sickness, summon damage bonuses, and Spy damage bonuses. The storm has a cooldown of 0.33 second before it can be summoned again.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+
+== Tips ==
+*Because the Spy damage boost from the stealth is higher than the summon damage boost from the armor, it will boost your summons. Because of this, consider using Spy damage boosts instead of summoner ones.
+*The tornado from this summon has excellent crowd control, and is very good against worm bosses such as [[The Destroyer]].
+
+== Trivia ==
+*The functionality of this item is a reference to the donor CrabBar's "DAD mode" ([[Death Mode]]-[[Armageddon]]-[[Defiled Feather|Defiled]]) [https://www.youtube.com/watch?v=G5C8RKeot1w&list=PLFGNLO2YGu8RQicwGJ33ANTrrjRkDF65V YouTube series,] in which he used a Summoner and [[Spy]] (known as Throwing at the time) hybrid setup. This was intended to allow them to use [[Statis' Ninja Belt]] and [[Statis' Void Sash|Statis' Belt of Curses]], which used to provide bonuses to both classes.
+**The donor intended this item to buff the Forbidden Armor's concept as a hybrid setup armor for Summoner and Spy.
+**The center piece of circlet resembles a crab in reference to the donor's username.
+{{-}}
+{{Forbidden}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

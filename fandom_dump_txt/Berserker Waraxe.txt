@@ -1,0 +1,34 @@
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 51
+| debuff = Venom
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| axe = 180
+| knockback = 8
+| rare = 7
+| use = 12
+| sell = {{value|0|12}}
+| hardmode = yes
+| toolspeed = 5
+}}
+
+The '''Berserker Waraxe''' is a craftable [[Hardmode]] [[axe]] that, when swung, produces a small amount of light particles. On hit, it inflicts the [[Venom]] debuff.
+
+{{modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Perennial}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Axes]]

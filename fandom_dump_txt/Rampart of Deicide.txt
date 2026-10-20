@@ -1,0 +1,122 @@
+{{Addon|Calamity: Tales of the Aquatic}}
+{{Revengeance mode only}}
+{{item infobox
+| type = Covering
+| tooltip = 25 defense<br>10% increased damage reduction<br/>Summons a swarm of little blood demons and increases length of invincibility after taking damage<br/>Heavily increases damage reduction after invincibility has run out<br/>Grants immunity to knockback<br/>Click to cause a sanguine explosion, inflicting Hemophilia<br/>Creates 2 sanguine auras that decrease the enemy's defense<br/>A demon is summoned to attack enemies inside the auras<br/>Flesh Demon punches enemies, filling up the Rage meter, and Blood Demon grabs them, dealing overtime damage and filling up the Adrenaline meter<br/>Demons switch places every 4 seconds<br/>Rage and Adrenaline fill up slower<br/>Devides both Rage and Adrenaline meters into section, 50% per each<br/>Rage empowers both you and Flesh Demon, while Adrenaline empowers Blood Demon and heavily increases your defensive stats, but decreases mobility
+| debuff = Hemophilia
+| debuffchance = 100%
+| debufftip = Your blood is uncontrollably leaking.
+| debuffduration = Up to 20 seconds
+| rare = C2
+| sell = {{value|5}}
+| stack = 11
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Unholy
+| element2 = Dark
+| proj = Regeterrence_Fireball.gif
+| projcaption = Bloody Fireball
+}}
+{{summoned|type=minion|Flesh Demon}}
+{{summoned|type=minion|Blood Demon}}
+{{summoned|type=minion|Little Blood Demon}}
+
+The '''Rampart of Deicide''' is a craftable post-[[Purgatory Arbiter, Umbrus]] [[Equipment|covering]] and a direct upgrade to [[Rampart of Deities]] and [[Catarachedrae]]. It is the classless component of [[Edgeterrence]]. While equipped, it provides the following effects:
+*25 [[defense]].
+*10% increased [[Damage Reduction|damage reduction]].
+*30 increased [[Immunity frames|immunity frames]] (0.5 seconds).
+*Immunity to knockback.
+*After any form of immunity has run out, the player will get 0.5 seconds of flat 50% increased DR.
+*Upon getting hit, a swarm of 3-5 little blood demons is summoned.
+**Each demon will fire a small bloody fireball twice before flying upwards and disappearing. They deal 350 classless damage each, which scales with the average of all classes' damage bonuses. Additionally, fireballs home onto enemies and can go through tiles, but cannot critically hit nor pierce.
+*Sanguine auras are created around the player's cursor.
+**The first aura is oval, 5 blocks in length and 12 blocks in width. The second aura's radius is 5 blocks.
+**If the enemy enters the oval aura, its defense will be decreased by 15. The enemy's defense is decreased further by 25 (40 total) upon entering the circle aura.
+*A demon is summoned to protect you.
+**There are 2 demons — the flesh one, which is spawned initially, and the blood one. After every 4 seconds have passed, the current demon will quickly vanish, and be replaced with the other demon. Both demons follow the player's cursor, only attacking enemies that are inside one of the auras.
+***The flesh demon will punch enemies every second, alternating between the right and the left fists, similarly to [[Deicide]].
+****Its punches deal 750 classless damage each, inflicting the [[Vulnerability Hex]] [[Debuffs|debuff]] for 2 seconds. Additionally, each punch charges the player's [[Rage Meter|Rage]] up by 3%. However, the flesh demon's punches cannot go through walls nor pierce.
+***The blood demon will quickly grab up to 7 enemies using fiery hands, dealing 550 classless damage upon grabbing an enemy and then dealing 200 classless damage to it every second afterwards.
+****Each hit will inflict the [[Slow]] debuff for 3 seconds and hits on held enemies decrease their DR by 4%. Additionally, the grab will [[Lifesteal|heal]] the player by 5% of its damage and charges up their [[Adrenaline Meter|Adrenaline]] by 2%. Only the grab can critically hit.
+*Clicking will cause a sanguine explosion to accure.
+**Sanguine explosion deals 50 damage and inflicts the [[Hemophilia]] debuff for 2 seconds, up to 20 seconds. It has a radius of 4 blocks.
+*Reworks both Rage and Adrenaline: 
+** Both meters will be devided into 3 sections, 50% of Rage or Adrenaline per each.
+***'''Rage:''' each section will last as much as it grants the '''Rage''' buff for. The base duration of the buff is 6 seconds, which can be increased or decreased. Additionally, while the player has the '''Rage''' buff, the flesh demon will replace the blood demon and won't be changed until the buff has run out. The flesh demon will also be empowered, punching enemies twice as fast and dealing 1150 classless damage per punch.
+{| class="fandom-table lined"
+!Section
+!Effect
+!Duration
+!Notes
+|-
+!First
+|<center>None</center>
+|<center>12 seconds<br/>(+6)</center>
+|<center>The '''Rage''' buff is unchanged</center>
+|-
+!Second
+|<center>The player releases 3 homing [[Gael's Greatsword|Gael skulls]] every 2 seconds</center>
+|<center>8 seconds<br/>(+2)</center>
+|<center>The skulls deal 450 classless damage each</center>
+|-
+!Third
+|<center>The player releases 5 homing [[Gael's Greatsword|Gael skulls]] every 2 seconds<br/>Every hit causes a small blood explosion</center>
+|<center>6 seconds<br/>(Unchanged)</center>
+|<center>The skulls deal 450 classless damage each and explosions deal 33% of the hit's damage</center>
+|-
+!Fourth
+|<center>Effects of previous sections are active<br/>Every hit will deal 1% of the enemy's max HP, ignoring both its defense and DR</center>
+|<center>3 seconds<br/>(-3)</center>
+|<center>Has 100% instead of 50%, thus fills twice as slow<br/>Can be seen and used only with Shattered Community equipped</center>
+|}
+***'''Adrenaline:''' each section will last as much as it grants the '''Adrenaline''' buff for. The base duration of the buff is 2 seconds, which can be increased or decreased. Additionally, while the player has the '''Adrenaline''' buff, the blood demon will replace the flesh demon and won't be changed until the buff has run out. The blood demon will also be empowered, being able to grab infinite amount of enemies and a single enemy up to 3 times, dealing 450 classless damage every half of a second after the grab per hand.
+{| class="fandom-table lined"
+!Section
+!Effect
+!Duration
+!Notes
+|-
+!First
+|<center>None</center>
+|<center>5 seconds<br/>(+3)</center>
+|<center>The '''Adrenaline''' buff increases the player's defense by 66, DR by 33%, heals 60 HP per second and gives immunity to knockback; however, it also decreases the player's movement speed by 20% and acceleration by 50%</center>
+|-
+!Second
+|<center>The player gets strike by a lightning after 1 second has passed</center>
+|<center>4 seconds<br/>(+2)</center>
+|<center>The lightning decreases the movement penalty by 75%<br/>The movement penalty quickly restores during a span of 2 seconds</center>
+|-
+!Third
+|<center>The player gets strike by a lightning immediately</center>
+|<center>3 seconds<br/>(+1)</center>
+|<center>The lightning decreases the movement penalty by 90%<br/>The movement penalty quickly restores during a span of 3 seconds</center>
+|-
+!Fourth
+|<center>Effects of previous sections are active<br/>increase the player's defense by 5 and DR by 2%, stacking up to an unlimited amount</center>
+|<center>2 seconds<br/>(Unchanged)</center>
+|<center>Extra defense and DR on hit stacks up to an unlimited amount<br/>Each stack will slowly decay, taking 5 seconds per each<br/>Has 100% instead of 50%, thus fills twice as slow<br/>Can be seen and used only with Draedon's Heart</center>
+|}
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used In===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+==Notes ==
+*Most instances of classless damage (except little blood demons and damage after grabs) will have a chance to critically hit, which scales with the average of all classes' critical strike chance bonuses excluding summoner.
+*If the player gets hit multiple times in a row, the extra DR after invincibility will be decreased by 10% after every hit, meaning the player has 6 hits before the effect will become 0%. To regain the extra DR, the player has to not get hit at least 1 second.
+**Even with the downside, this effect is still great at preventing damage from hits in a row.
+*Upon equipping or dequipping Rampart of Deicide, the player's Rage and Adrenaline will be reset.
+*While Rampart of Deicide is equipped, Rage and Adrenaline will charge thrice as slow as usual.
+*While Rage or Adrenaline are active, the player won't be able to charge neither of them, even by using the demons.
+*Rage and Adrenaline meters will be added if [[Revengeance Mode|Revengeance]] or [[Death Mode]] are not enabled.
+*Adrenaline will not be depleted whenever the player gets hit.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

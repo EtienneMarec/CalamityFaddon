@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 156
+| knockback = 8
+| use = 56
+| velocity= 11
+| tooltip = Left clicks release a laser ray that explodes on collision<br/>Right clicks release a barrage of laser beams that release homing energy on enemy hits
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| proj = Prism Explosion Large.gif
+| projcaption = Large Prism Explosion
+| proj2 = Exo Comet.gif
+| proj2caption = Prism Comet
+| proj3 = Prism Explosion Small.gif
+| proj3caption = Small Prism Explosion
+| element1 = Magic
+| element2 = Fire
+| element3 = Machine
+}}
+|{{item drops infobox
+| [[The Fabricational Quartet]] (Artemis and Apollo) | 1 | {{dv|50%|66.67%}}
+}}
+}}
+
+The '''Surge Driver''' is a Godseeker Mode [[gun]] that drops from the [[The Fabricational Quartet]] after [[XS-01 Artemis]] and [[XS-03 Apollo]] have been defeated last.  When used with its primary fire (left-click), a laser beam is fired which creates a large glowing explosion on impact with tiles or enemies. The laser beam deals 666% damage while the large explosion deals 333% damage. When used with its secondary fire (right-click), two tile-passing energy bullets are inaccurately fired which splits into three comets on enemy hits. The comets home in after a short time and create a small explosion when destroyed. All projectiles from the secondary fire deal 108% damage.
+
+{{Modifier|ranged}}
+
+==Crafting==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

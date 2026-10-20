@@ -1,0 +1,43 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Boss Balancing
+| release = 9/27/2017
+}}
+The '''1.2.1.003''' update made a few stat balance changes to some of the mod's [[bosses]], along with giving [[The Devourer of Gods]] a new attack. It also buffed and nerfed a few [[weapons]], and fixed a bug.
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*All [[Legendary items]] are now [[Revengeance Mode]]-exclusive, and drop at a {{dv|0|0|10%}} chance instead of a {{dv|2%|2.5%}} chance.
+*[[The Devourer of Gods]] now greatly reduces enemy spawn rates while active.
+*[[Polterghast]] changes:
+**Nerfed health from {{dv|335,000|536,000|560,000}} to {{dv|310,000|496,000|512,000}}.
+**[[Phantom Turret]]s will now despawn when Polterghast is defeated or despawns.
+**[[Phantom]] lasers now produce dust differently.
+*[[Signus, Envoy of the Devourer]] changes:
+**Buffed [[Cosmic Lantern]]'s health from {{dv|2400|3360}} to {{dv|6000|8400}}.
+**Cosmic Lanterns no longer produce dust when hit.
+**Signus is now invincible if any Cosmic Lanterns are alive.
+*[[The Slime God]] changes.
+**Reduced [[Distorted]] duration from Core contact from 3.33 seconds to 3.
+**Nerfed Core damage when its the last remaining Slime God from {{dv|80|128}} to {{dv|70|112}}.
+**Each Slime God now escapes and despawns much faster after the player dies.
+*[[Supreme Calamitas]] changes:
+**Buffed bullet hell 1 projectile damages from {{dv|300|400}} to {{dv|700|800}}.
+**Nerfed bullet hell 2 projectile damages from {{dv|320|440}} to {{dv|200|260}}.
+**Nerfed bullet hell 3 projectile damages from {{dv|340|480}} to {{dv|300|400}}.
+**Changed bullet hell 4 projectile damages from {{dv|360|520}} to {{dv|400|500}}.
+**Buffed bullet hell 5 projectile damages from {{dv|380|560}} to {{dv|500|600}}.
+
+=== [[Items]] ===
+*Buffed [[Blossom Flux]]'s damage from 16 to 24, but its Spore Bombs now deal 6x of the weapon's damage instead of 8x.
+*Nerfed [[Frigidflash Bolt]]'s damage from 46 to 41.
+*Nerfed [[Gleaming Magnolia]]'s damage from 36 to 32.
+*Buffed [[Lacerator]]'s damage from 375 to 500.
+
+== Fixes ==
+*[[Profaned Energy]] lanterns can no longer be drawn when its base is destroyed.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

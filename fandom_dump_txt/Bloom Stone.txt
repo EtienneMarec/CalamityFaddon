@@ -1,0 +1,32 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = One of the ancient relics<br/>You quickly regenerate life while on the ground<br/>This effect works best during daytime<br/>Flowers grow if you are standing on grass<br/>Random dye plants will grow while standing on grassless dirt
+| sell = {{value|0|9|60}}
+| stack = 1
+| rare = 7
+| hardmode = yes
+}}
+|{{item drops infobox
+|[[Plantera]]| 1|20%
+}}
+}}
+
+The '''Bloom Stone''' is a [[Hardmode]] [[covering]] that has a 20% chance to drop from [[Plantera]]. While it is equipped, the player's life regen is increased by 3 if they are standing on any ground, this effect is doubled during daytime.
+
+The Bloom Stone also gives the player an augmented [[Flower Boots]] effect, allowing flowers and plants to grow on grass whilst also occasionally allowing random dye plants to appear on dirt that does ''not'' have grass upon it. This makes it ideal for farming not only seeds and bait, but also various [[dyes]] and [[Strange Plant]]s, as virtually any vanilla dye can be obtained in this manner.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Standing on a liquid with a [[Water Walking Potion]] or a similar effect will not grant the extra life regen.
+
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

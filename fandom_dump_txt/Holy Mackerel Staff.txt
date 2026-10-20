@@ -1,0 +1,45 @@
+{{addon|Calamity: Community Remix}}
+{| align="right"
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 46
+| knockback = 1.2
+| mana = 10
+| rare = 5
+| sell = {{value|0|1}}
+| auto = yes
+| stack = 1
+| use = 16
+| velocity = 12
+| tooltip = Summons a Holy Mackerel to fight for you<br/>Each mackerel takes only half of a minion slot
+| buff = Holy Mackerel (buff)| bufflink = no
+| bufftip = The mackerel will protect you
+| debuff = Holy Flames
+| debufftime = 2 seconds
+| hardmode = yes
+| element1 = Holy
+| element2 = Water
+| element3 = Smash
+}}
+|}
+{{summoned|Holy Mackerel|type=minion}}
+
+The '''Holy Mackerel Staff''' is a craftable [[Hardmode]] [[summon weapon]] and upgrade of the [[Herring Staff]]. It summons a Holy Mackerel which charges at enemies in order to rapidly attack them while inflicting the [[Holy Flames]] [[debuff]]. Unlike most minions, the mackerel only takes up half a minion slot, allowing the player to summon twice as many mackerels as one-slot minions.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The Mackerel minions will not target any enemies off-screen.
+
+== Trivia ==
+*The Holy Mackerel Staff is a pun on the expression "holy mackerel" used to point out something unbelievable, as well as being a Hallow-themed [[wikipedia:Mackerel|Mackerel]] fish.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

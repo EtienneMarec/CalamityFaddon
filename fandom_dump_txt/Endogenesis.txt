@@ -1,0 +1,67 @@
+{{dedicated|Cooper|Developer}}
+{{item infobox
+| type = Weapon
+| damage = 1300
+| damagetype = Summon
+| auto = yes
+| mana = 80
+| tooltip = Summons an ascended ice construct to protect you<br/>Changes attack modes by resummoning or reusing the staff<br/>The first mode makes it shoot sweeping lasers aimed at the enemy<br/>The second mode sacrifices its limbs to shoot out homing projectiles<br/>The third mode allows it to aggressively tackle its enemies<br/>The fourth mode makes the limbs function as endothermic flamethrowers<br/>Requires 10 minion slots to use<br/>There can only be one<br/>{{color|Ice puns not included|#B0FBFF}}
+| buff = Endo Cooper (buff) | bufflink = no
+| bufftip = The ascened{{sic}} Cooper will protect you
+| rare = 16
+| stack = 1
+| sell = {{value|0|40}}
+| use = 9
+| knockback = 4
+| debuff = Exo Freeze
+| debuffchance = 100%
+| debuffduration = 1.5 seconds
+| debufftip = Cannot move
+| debuff2 = Glacial State
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds
+| debufftip2 = Cannot move and defense is shattered
+| debuff3 = Frostburn
+| debuffchance3 = 100%
+| debuffduration3 = 3 seconds
+| debufftip3 = It's either really hot or really cold. Either way it REALLY hurts
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Endo Ice Shard.png
+| projcaption = Endo Ice Shard
+| proj2 = Endo Laser.png
+| proj2caption = Endo Laser
+| element1 = Cold
+| element2 = Stab
+}}
+{{summoned|Endo Cooper|type=minion}}
+
+The '''Endogenesis''' is a craftable Epilogue [[developer]] [[summon weapon]]. It summons an ascended ice construct that has four different modes:
+*Endo Cooper will fire five to seven lasers that will infinitely pierce in the direction of nearby enemies.
+*Endo Cooper will launch out several homing icicle shards.
+*Endo Cooper will aggressively ram back and forth into enemies.
+*Endo Cooper will fire endothermic flamethrowers in all directions.
+
+Each mode is toggled by resummoning the Endo Cooper. All attacks except the laser inflict the [[Exo Freeze]], [[Glacial State]], and [[Frostburn]] [[debuffs]]. Each summon requires 10 minion slots to be summoned and only one can be active at once.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The phrase in the tooltip "Ice puns not included" is written in light blue ({{color|#B0FBFF ●|#B0FBFF}}).
+
+== Trivia ==
+*This weapon actually has a unique rarity, but is referred to here as Hot Pink for consistency between weapons.
+**This unique rarity alternates between light blue ({{color|#83EFFF ●|#83EFFF}}) and dark blue ({{color|#2437E6 ●|#2437E6}}) colors.
+*The word 'ascended' is deliberately misspelled as 'ascened' in the buff's tooltip.
+[[File:Endogenesis (demo).gif|frame|left|The Endo Cooper's four modes of attack.]]
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

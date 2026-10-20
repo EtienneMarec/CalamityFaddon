@@ -1,0 +1,42 @@
+{{addon|Cataclysm}}
+{{item infobox
+| type = Weapon
+| tooltip = Casts a slow-moving ball of lightning
+| damage = 54
+| damagetype = magic
+| mana = 12
+| use = 30
+| knockback = 5.5
+| rare = 4
+| sell = {{value|0|0|90}}
+| auto = yes
+| velocity = 7.5
+| stack = 1
+| type2 = Crafting material
+| debuff = Electrified
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Slowly losing life
+| proj = Cosmic Spirit Yellow.png
+| projcaption = Ball Lightning
+| element1 = Electricity
+}}
+
+The '''Thunder Bolt''' is a craftable [[Hardmode]] [[spell tome]] that auto-fires a ball of lightning that inflicts the [[Electrified]] [[debuff]]. The projectile travels in a straight line, is unaffected by gravity, emits a dim light, and can damage 4 enemies or bounce off of 4 walls before dissipating.
+
+{{Modifier|magic}}
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*[[wikipedia:Ball Lightning|Ball Lightning]] is a type of rare lightning that takes a spherical appearance and has baffled scientists with odd properties.
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

@@ -1,0 +1,47 @@
+<span style="font-size:150%; color:red; font-weight:bold;">Deprecated template. Please use {{tl|Recipes}} instead.</span>
+
+{{clear}}
+== Minimal Template (for copy pasting) ==
+Please copy/paste this on pages. It should contain most of what you need. When amount is 1, please remove the amount field.
+<pre>{{crafting recipe
+| tool = 
+| item1   =  
+| amount1 = 
+| item2   = 
+| amount2 = 
+| resultAmount = 
+}}</pre>
+
+== Usage ==
+<pre>{{crafting recipe
+| name = //Optional, default to BASEPAGENAME
+| tool =
+| item1 =
+| amount1 = //Optional, defaults to 1
+| item2 =
+| amount2 = //Optional, defaults to 1
+| item3 =
+| amount3 = //Optional, defaults to 1
+| item4 =
+| amount4 = //Optional, defaults to 1
+| item5 =
+| amount5 = //Optional, defaults to 1
+| result =  //Optional, defaults to name (which itself defaults to BASEPAGENAME)
+| resultAmount = //Optional, defaults to 1
+}}</pre>
+
+*'''DO NOT PUT LINKS IN THE ITEMS (or result)'''. The template will link and generate images automatically:
+** item1 = <nowiki>[[Wood]]</nowiki> : {{No}}
+** item1 = Wood : {{Yes}}
+
+*The '''"Tool"''' field will automatically generate links and images to know workbenches. The bench is unknown, it will simply put in the field unformated. This is useful for objects like [[goggles]]:
+** tool = <nowiki>[[Workbench]]</nowiki> : {{No}}
+** tool = Workbench: {{Yes}}
+** tool = <nowiki>[[File:Wooden Chair.png|link=Wooden Chair]] [[Chair]] + [[File:Work Bench.png|link=Work Bench]] [[Work Bench]]</nowiki> : {{Yes}} (gives [[File:Wooden Chair.png|link=Wooden Chair]] [[Chair]] + [[File:Work Bench.png|link=Work Bench]] [[Work Bench]])
+
+<includeonly>
+[[Category:Deprecated Crafting templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

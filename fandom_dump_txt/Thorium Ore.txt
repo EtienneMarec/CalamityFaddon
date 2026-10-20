@@ -1,0 +1,29 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Revengeance mode only}}
+{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| tooltip = "Used in durable structures and as nuclear fuel."
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 400
+| stack = 9999
+| use = 14
+| rare = C4
+| value = 2000
+| color = #9d87c6
+| sell = {{value|5}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+'''Thorium Ore''' is an Epilogue [[ore]] that generates in the [[Stained Mountains]] biome. It requires a [[Supreme Onyx Drill]] to mine.
+
+==Crafting==
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*It is a direct reference to the same ore from the game '''Mindustry'''

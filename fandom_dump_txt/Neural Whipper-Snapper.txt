@@ -1,0 +1,40 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damage = 160
+| use = 20
+| damagetype = summon
+| knockback = 4
+| auto = yes
+| velocity = 11
+| stack = 1
+| rare = 4
+| sell = {{value|0|10|0|0}}
+| tooltip = 25 Summon tag damage<br/>Your summons will focus struck enemies<br/>Strikes enemies with its nerves to shock them<br/>Shocked enemies loses defense every hit<br/>Enough shock will excite the player, increasing whip speed for a while.
+| debuff = Manic Seeker
+| debuffchance = 100%
+| debuffduration = 13 seconds
+| debufftip = "It's already too late, for you to try and run away~"
+| element1 = Dark
+| element2 = Electricity
+}}
+{{item drops infobox
+| [[Destroyer of Sanity]] | 1 | {{dv|25%|33.33%}}
+}}
+
+The '''Neural Whipper-Snapper''' is a [[Pre-Hardmode]] [[Whips]] that can be dropped by the [[Destroyer of Sanity]]. When a [[Minions|minion]] or [[Minions|sentry]] hits an enemy marked by this weapon, it reduces their defense by 3 and a small shock will occur, dealing 1.75x the damage from the minion/sentry's attack. This can be repeated 5 times before needing to be reapplied. If the whip hits an enemy with 0 defense or below, it heals the player for 10 health.
+
+Hitting an enemy fills the excitement meter by 1, capping off at 150. Once it reaches that cap, it automatically empties, and grants the player the '''Manic Seeker''' buff, increasing the player's whip speed by 70%.
+
+{{Modifier|melee}}
+
+== Trivia ==
+*The Manic Seeker buff's flavor text references SeeU's original vocaloid song "[https://www.youtube.com/watch?v=r-C2lQ9jt4g Hide and Seek]" ("'''숨바꼭질'''" ''Sumbakkokjil'').
+**More specifically, it references the [https://www.youtube.com/watch?v=G-YNNJIe2Vk English Cover] sung by Lizz Robinett.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}
+[[Category:Whips]]

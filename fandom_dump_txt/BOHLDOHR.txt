@@ -1,0 +1,42 @@
+{{npc infobox
+| type = Enemy
+| ai = Bohldohr AI
+| environment = Jungle Temple
+| damage = {{dv|80|160}}
+| life = {{dv|300|600}}
+| defense = 28
+| knockback = {{dv|5%|14.5%}}
+| banner = yes
+| money = {{value|0|0|10|0}}
+| hardmode = yes
+| immune1 = Kami Flu
+| Lihzahrd Power Cell|1|2%
+| Lihzahrd Brick|10-30|100%
+| Solar Tablet Fragment|1-3|14.29%
+| hurt = NPC_Hit_7.wav
+| killed = NPC_Killed_35.wav
+| resistant1 = Holy
+| resistant2 = Fire
+| vulnerable1 = Water
+| vulnerable2 = Stab
+| vulnerable3 = Cold
+| vulnerable4 = Machine
+}}
+
+'''Bohldohr''' is an [[enemy]] that spawns in the [[Jungle Temple]]. It rolls and bounces towards the player, similarly to an [[Angry Tumbler]], making a sound of impact whenever it hits the ground.
+
+== Notes ==
+*Similarly to [[Lihzahrd]]s and [[Flying Snake]]s, Bohldohrs can be spawned in [[Pre-Hardmode]] by standing in front of natural Lihzahrd Brick Walls.
+*This enemy allows the player to obtain [[Lihzahrd Brick]]s, and all of the furniture crafted from them, as well as the [[Death Whistle]], before defeating the [[Golem]].
+**This also allows unlimited Lihzahrd Bricks to be obtained from a single world, as they are normally a limited resource that requires creating new worlds in order to obtain more than the initially generated amount.
+**The Calamity Mod's addition of an [[Vanilla item recipes|early recipe]] for the [[Temple Key]] also allows for those items to be obtained at the start of [[Hardmode]], before defeating [[Plantera]].
+
+== Trivia ==
+*Its name is a warped version of 'Boulder', much like 'Lihzahrd' is a warped version of 'Lizard'.
+*Its name was previously all capitalized, "BOHLDOHR".
+*In previous versions of the mod, Bohldohr used to drop [[SYNTAX ERROR]] after [[Supreme Calamitas]] had been defeated, which was originally used to summon [[THE LORDE]].
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

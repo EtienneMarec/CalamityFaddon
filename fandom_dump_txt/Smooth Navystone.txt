@@ -1,0 +1,26 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| color = #273035
+| sell = No value
+| use = 14
+}}
+
+'''Smooth Navystone''' is craftable [[block]] crafted with [[Navystone]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Used in ==
+{{recipes|ingredient={{PAGENAME}}}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}
+[[Category:Block items]]

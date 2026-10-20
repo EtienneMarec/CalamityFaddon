@@ -1,0 +1,116 @@
+{{Patch infobox
+| image = Supreme Calamitas (1.1.7.961).png
+| patchname = Supreme Calamitas Tweaks
+| release = 9/25/2017
+}}
+The '''1.2.1.002''' update made further expansions and some rebalances to the [[Supreme Calamitas]] fight rework from [[1.2.1.001]]. It also rebalanced many Godseeker Mode weapons, and a few changes to [[Revengeance Mode]] vanilla [[bosses]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*[[Astrum Deus]]' body segments now take 66% damage from projectiles when under 50% health, and causes all projectiles except for minions to penetrate a maximum of 1 time.
+*Astrum Deus' body segments now take 50% damage from [[Bee Cloak]], [[Holy Arrow]], [[Star Cloak]], and [[Star Veil]]'s stars instead of 33%.
+*[[The Devourer of Gods]] changes:
+**Head and tail now take 1.5x damage from all sources instead of 2x. The decreasing amounts as its life lowers has been reduced from 1.25x minimum to 1.05x minimum.
+**Head and tail no longer kill the piercing of all projectiles that contact it.
+**Head and tail now take 50% damage from [[Life Drain]].
+*Increased [[Golem]]'s Revengeance Mode health multiplier from {{revengeance|3x}} to {{revengeance|4x}}.
+*[[Jungle Dragon, Yharon]] now transitions into his phases at higher percentages of life. From {{dv|70%|0|85%}}, {{dv|40%|0|50%}}, {{dv|15%|0|20%}}, and 3% to {{dv|75%|0|85%}}, {{dv|50%|0|60%}}, {{dv|25%|0|30%}}, and 10%.
+*[[Plaguebringer]]s now shoot [[The Plaguebringer Goliath]]'s buffed stingers instead of its normal ones, and no longer despawn if the player is within the [[Jungle]].
+*The Plaguebringer Goliath changes:
+**No longer spawns a [[Plaguebringer]] for every 33% health lost in [[Expert Mode]].
+**Stingers now constantly accelerate horizontally, and now last 5 seconds instead of 10.
+**Buffed missile barrage damage from {{dv|138|240}} to {{dv|164|260}}.
+**[[Plague Mine]]s now automatically detonate after 15 seconds if not triggered or destroyed.
+*Increased Revengeance Mode [[Plantera]]'s contact damage multiplier.
+*Tweaked [[Polterghast]]'s specialized damage resistance formula.
+*Buffed [[Providence, the Profaned God]]'s Holy Blast damage from {{dv|140|260}} to {{dv|184|312}}, her Holy Fire damage from {{dv|108|200}} to {{dv|150|240}}, her Molten Blast damage from {{dv|144|260}} to {{dv|184|312}}, her Holy Bomb damage from {{dv|122|220}} to {{dv|168|264}}, and her Holy Spear damage from {{dv|122|220}} to {{dv|168|264}}.
+*[[Ravager]] changes:
+**Buffed body's health from {{dv|40,000|64,000|83,200}} to {{dv|61,000|97,600|104,000}}. Post-[[Providence]] health buffed from {{dv|540,000|864,000}} to {{dv|580,000|928,000}}.
+**Buffed head's health from {{dv|20,000|32,000}} to {{dv|25,000|40,000}}.
+**Buffed flying claw laser damage from 100 to 120.
+**Flying claws now shoot more often.
+**Fireballs shot from broken claw areas have velocity raised from 14 to 18.
+**Head now fires projectiles more frequently.
+**Body parts can no longer despawn while the player is alive.
+*[[The Siren]] and [[The Leviathan]] can no longer despawn while the player is alive.
+*[[Storm Weaver]] can now despawn if the player is too far away.
+*[[Supreme Calamitas]] changes:
+**Buffed bullet hell 2 projectile damages from {{dv|300|400}} to {{dv|320|440}}.
+**Buffed bullet hell 3 projectile damages from {{dv|300|400}} to {{dv|340|480}}.
+**Buffed bullet hell 4 projectile damages from {{dv|300|400}} to {{dv|360|520}}.
+**Buffed bullet hell 5 projectile damages from {{dv|300|400}} to {{dv|380|560}}.
+**Projectiles from intermediate phases are now despawned when bullet hell segments begin.
+**Bullet hell projectiles now greatly increase in speed if the player goes past the border tornadoes.
+**Now heavily reduces spawn rates while active.
+**Increased fire rate after bullet hell 5 ends.
+**Nerfed [[Soul Seeker]]'s health from {{dv|10,000|14,000}} to {{dv|7500|10,500}}.
+**Slightly expanded the border tornado positions.
+**Now takes 0 damage from any attack that would take over 10% of her max health.
+**Tweaked specialized damage resistance formula.
+**Now has unique dialogue based on how many times she has been killed prior.
+*In Revengeance Mode, whichever one of [[The Twins]] enters its second phase first will now become invulnerable until the other has entered its second phase as well.
+*Increased [[Retinazer]]'s Revengeance Mode health multiplier from {{revengeance|1.1x}} to {{revengeance|1.3x}}.
+*Decreased [[Spazmatism]]'s Revengeance Mode health multiplier from {{revengeance|1.35x}} to {{revengeance|1.3x}}.
+
+=== [[Items]] ===
+*Decreased [[Alpha Ray]]'s mana cost from 10 to 5.
+*Buffed [[Apoctosis Array]]'s projectile velocity from 6 to 8.
+*Nerfed [[Arch Amaryllis]]' damage from 90 to 75.
+*Nerfed [[Asgardian Aegis]] and [[Elysian Aegis]]' Elysian Guard's damage, critical strike chance, and defense boosts by 50%.
+*Buffed [[Asteroid Staff]]'s damage from 80 to 110.
+*Buffed [[Augur of the Elements]]' damage from 60 to 70.
+*[[Auric Tesla armor]]'s healing orbs increment the [[lifesteal]] cooldown half as fast.
+*Renamed Cadence Potion to [[Cadance Potion]], and it now grants 10% extra health instead of 20%.
+*Nerfed [[Carnage Ray]]'s damage from 32 to 28.
+*Nerfed [[The Community]]'s life regeneration, defense, critical strike chance, and max life boosts by 50%.
+*Buffed [[Cosmic Discharge]]'s damage from 110 to 150.
+*[[Crimsaber]]'s on-hit effect can no longer be triggered by hitting Target Dummies.
+*Nerfed [[The Dance of Light]]'s damage from 230 to 200.
+*Buffed [[Deathhail Staff]]'s damage from 75 to 100, and decreased its mana cost from 18 to 12.
+*[[Demonshade Helm]] now requires 8 [[Shadowspec Bar]]s to craft instead of 40.
+*[[Demonshade Breastplate]] now requires 15 Shadowspec Bars to craft instead of 50.
+*[[Demonshade Greaves]] now require 11 Shadowspec Bars to craft instead of 45.
+*Nerfed [[Elemental Eruption]]'s damage from 40 to 35.
+*Nerfed [[Elemental Lance]]'s damage from 160 to 135.
+*[[Elemental Quiver]]'s split projectiles are now forced to last for 2.5 seconds.
+*Buffed [[Elemental Ray]]'s damage from 165 to 180.
+*Nerfed [[Fate's Reveal]]'s damage from 83 to 70.
+*Decreased [[Gamma Fusillade]]'s mana cost from 6 to 4.
+*Buffed [[Genisis]]' damage from 33 to 34, and decreased its mana cost from 9 to 4.
+*Decreased [[Ghastly Visage]]'s mana cost from 30 to 20, and its main projectile is now faster.
+*[[God Slayer armor]]'s god killer darts now last for 3 seconds instead of 5.
+*Buffed [[Golden Eagle]]'s damage from 88 to 108.
+*[[Holy Arrow]]'s stars now deal 50% damage.
+*[[Lifefruit Scythe]] now heals 1 health per hit instead of 2.
+*Nerfed [[Magnetic Meltdown]]'s damage from 100 to 90.
+*Decreased [[Mana Overloader]]'s magic damage boost from 10% to 6%, and increased its life regeneration penalty when under 50% mana from 3 to 5.
+*[[Mirror Blade]]'s damage is now capped at 666.
+*Nerfed [[Night's Ray]]'s damage form 32 to 28.
+*Buffed [[Phantasmal Fury]]'s damage from 235 to 300.
+*Nerfed [[Phoenix Flame Barrage]]'s damage from 275 to 230.
+*Buffed [[Plasma Rifle]]'s damage from 320 to 350, and its primary projectile now deals 75% of the weapon's damage instead of 65%.
+*Buffed [[Primordial Ancient]]'s damage from 180 to 200, and decreased its mana cost from 30 to 20.
+*Buffed [[Purge Guzzler]]'s damage from 35 to 39.
+*Buffed [[Rouge Slash]]'s damage from 110 to 150, and decreased its mana cost from 55 to 30.
+*Nerfed [[Shadowbolt Staff]]'s damage from 130 to 120, and its beam gains 25% more damage every time it bounces instead of 125% more.
+*Buffed [[Soul Piercer]]'s damage from 65 to 130.
+*[[Staff of Blushie]]'s damage now scales based on double the hit enemy's defense rather than half of the hit enemy's defense.
+*Buffed [[Subsuming Vortex]]'s damage from 75 to 140.
+*Nerfed [[T1000]]'s damage from 160 to 150, and decreased its mana cost from 12 to 8.
+*Buffed [[Ultra Liquidator]]'s damage from 80 to 92.
+*Buffed [[Venusian Trident]]'s damage from 180 to 200, and increased its projectile's speed.
+*Buffed [[Viscera]]'s damage from 150 to 170, decreased its mana cost from 23 to 20, and decreased its healing.
+*Nerfed [[Vivid Clarity]]'s damage from 110 to 80.
+
+=== Resprites ===
+*Resprited [[God Slayer Inferno]], [[Holy Flames]], and [[Holy Inferno]].
+
+== Fixes ==
+*[[Affliction]] now properly checks for Revengeance Mode when evaluating the player's [[Stress]] level.
+*Ghastly Visage's mana cost now properly scales with the player's mana cost reduction.
+*Fixed the Leviathan meteor that spawns when talking to the [[Nurse]] in Revengeance Mode not functioning properly in multiplayer.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

@@ -1,0 +1,46 @@
+{{addon|Catalyst}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 320
+| velocity = 0
+| knockback = 2
+| rare = 14
+| sell = {{value|0|64}}
+| stack = 1
+| use = 2
+| auto = yes
+| tooltip = Inundatio ex Deos<br/>Channels a spinning cosmic aura that grows in size and spin speed over time<br/>Enemies hit by the aura are barraged with dozens of god slayer blades which shred enemies
+| hardmode = yes
+| postml = yes
+| debuff = Shred | debufflink = no
+| debufftip = Blood
+| debuffchance = 10%
+| debuffduration = 6 seconds
+| element1 = Magic
+| element2 = Cold
+| element3 = Dark
+| element4 = Stab
+}}
+
+The '''Titan Tides''' is a craftable Godseeker Mode [[melee weapon]]. When used, the player channels a small spinning purple aura. The aura grows in size and spins faster over the duration of the channeling, capping at 300% of its initial size, and 5x its initial speed. As it increases in power, the weapon's damage increases, and begins inflicting [[Shred]] when roughly 4.5 seconds have passed. 
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*'Inundatio ex Deos' is Latin, and roughly translates to "Flood of Gods".
+
+{{-}}
+{{Starborn}}
+{{Cosmilite}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}

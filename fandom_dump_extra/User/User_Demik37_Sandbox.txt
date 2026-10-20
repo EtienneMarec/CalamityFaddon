@@ -1,0 +1,149 @@
+=Queen Bee=
+
+<section begin=npc infobox />
+{{npc infobox
+| name = Queen Bee
+| type = Boss
+| environment = Jungle
+| damage = '''Contact:''' <br/> {{dv|30|54|64|74}} <br/> '''Stinger:''' <br/> {{dv|22|44|64|72}}
+| life = {{dv|3400|4760|5472}}
+| defense = 10
+| dr = {{dv|||5}}
+| knockback = 100
+<!--| ai = Buffed Queen Bee AI-->
+| debuff = Poisoned | debufflink = yes
+| debuffchance = {{dv|33.3%|100%}}
+| duration = {{dv|10 seconds (stinger)|<br/> 2-20 seconds (stinger) <br/> 2-8 seconds (contact)}}
+| debufftip = Slowly losing life
+| immune1 = Confused
+| immune2 = Webbed
+| immune3 = Temporal Sadness
+| immune4 = Glacial State
+| immune5 = Time Distortion
+| money = {{gc|12}}
+|group|One of the following 3 items will always be dropped|3
+| Bee Keeper|1|33%
+| Bee's Knees|1|33%
+| Bee Gun|1|33%
+|group|Only one of the following 4 items can drop at a time. <br/> 2 will drop from the Expert Mode Treasure Bag.|4
+| Hive Wand|1|33%
+| Bee Hat|1|11%
+| Bee Shirt|1|11%
+| Bee Pants|1|11%
+| Honey Comb|1|33%
+| Nectar|1|6.7%
+| Honeyed Goggles|1|5%
+| Beenade|{{dv|10-30}}|75%
+| Bee Wax|{{dv|16-26}}|100%
+| Bottled Honey|{{dv|5-15}}|100%
+| Hardened Honeycomb|{{dv|30-50|50-75}}|100%
+| Queen Bee Trophy|1|10%
+| Queen Bee Mask|1|14.29%
+| custom| {{item|Queen Bee (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Queen Bee)|Treasure Bag|note=(Queen Bee)|wrap=y}}
+: • {{item|Hive Pack}}|{{expert|100%}}
+| boxwidth = 24em
+| hardmode = yes
+| image2 = Map Icon Queen Bee.png
+| image2caption = Map Icon
+}}<section end=npc infobox />
+{{dablink|If you were looking for Queen Bee on the vanilla wiki, click [[tgc:Queen Bee|here]].}}
+
+'''Queen Bee''' is a [[pre-Hardmode]] [[boss]] typically fought after [[The Hive Mind]]/[[The Perforators]]. Fighting her is not required for game progression, but her defeat will reward the player with money and useful items for the next stage of progression.
+
+While in [[Revengeance Mode]] and [[Death Mode]], Queen Bee gains several changes to her AI which make the battle much more difficult.
+
+==Spawn==
+Queen Bee can be spawned by:
+*Breaking a [[tgc:Larva|Larva]] in a [[Bee Hive]] in the [[Underground Jungle]].
+*Using an [[Abeemination]] in the [[Jungle]]
+
+== Behavior ==
+
+=== In [[Revengeance Mode]] ===
+
+Queen Bee has two main attacks: charges and stinger attacks. Her minions, Bees and Hornets, can also be problematic to deal with. Queen Bee will attack the player faster the lower her health is. She will enrage when fought on the surface.
+
+When starting the fight Queen Bee will immediately charge at the player horozontally three times, while leveling with the player's current elevation. She will then fly above the player, keeping a certain height above them even if they go up towards her. While above the player the Queen Bee will fire stingers at them, periodically stopping to summon [[Bee]]s and occasianally [[Hornets]]. After a certain interval she will begin the cycle again by charging the player. Her attacks will increase in speed as she loses more health.
+
+When Reaching 33% health she will charge at the player four times instead of three, at a higher speed.
+
+=== In [[Death Mode]] ===
+*Charges have increased speed.
+*Fires stingers extremely rapidly.
+*While enraged, her top speed is increased and she shoots bees and stingers at an even faster rate.
+
+=== During the [[Boss Rush]]===
+*Max health increased to {{dv|3,150,000|4,410,000|5,071,500}}
+
+== Summons ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox 
+| name = Bee
+| type = Flying Enemy
+| ai = Flying AI
+| life = {{dv|20|25|35}}
+| damage = {{dv|20|24|30|34}}
+| defense = {{dv|5|4}}
+| knockback = {{dv|50|55}}
+}}
+
+
+|{{npc infobox 
+| name = Bee <br/> (small)
+| image = Bee 1.png
+| type = Flying Enemy
+| ai = Flying AI
+| life = {{dv|15|25|35}}
+| damage = {{dv|15|18|22|25}}
+| defense = {{dv|2|1}}
+| knockback = {{dv|50|55}}
+}}
+
+|}
+
+== Tips ==
+{{dablink|For a Normal and Expert mode guide to Queen Bee, see [[tgc:Guide:Queen Bee strategies|Queen Bee strategies]] on the vanilla wiki.}}
+
+=== General ===
+*Fighting the Queen Bee in the Underground Jungle will make the fight much easier, as she enrages on the surface, which means that her charges become insanely fast and she shoots stingers at a very rapid rate, along with dealing more damage. It is not recommended to fight her in the beehive area.
+*Multiple levels of long platforms in the Underground Jungle make dealing with both of Queen Bee's primary attacks much easier.
+*Clear out a large area in the Underground Jungle to ease mobility in this fight, but take care to ensure that the whole arena remains Jungle and not Underground/Caverns, as these areas will enrage Queen Bee and cause her to charge you with heavily increased speed and shoot stingers much faster.
+*The ideal movement for this fight is to run back and forth and jump over Queen Bee when she charges, and then run straight while she shoots stingers. As her charges get faster, it would be advisable to switch to a different elevation, as this slows her down by forcing her to take more time getting to the player.
+*If you have any [[tgc:Banners (enemy)#Jungle|Hornet Banners]], place them around your arena so that you will have an easier time dealing with Queen Bee's hornet spawns.
+
+=== Weapons & Equipment ===
+==== Melee ====
+*The [[Air Spinner]] is the best yoyo available, and its feathers work well against the Queen Bee.
+*[[Amidias' Trident]] is quite effective with its homing whirlpools.
+*The [[Bladecrest Oathsword]] pierces, allowing it to deal with Queen Bee and her summons.
+*[[Molten armor]] is very helpful for this fight
+=== Ranged ===
+*The [[Minishark]] can be good to deal with the bees that are spawned by the Queen Bee.
+*The [[Galeforce]] can both provide good damage on the Queen Bee, and easily kill her minions.
+*The [[Taser]] is good to attack the Queen Bee directly.
+*The [[Dragoon Drizzlefish]] can help deal with the Queen Bees summons due to it's piercing.
+*While somewhat hard to aim, [[Opal Striker]] can do well against Queen Bee.
+==== Mage ====
+*[[Acid Gun]] works well in dealing with Queen Bee's spawns, and also has a low mana cost, making it very sustainable to use. 
+*[[Hyphae Rod]] is good for getting lots of damage off in the first few seconds of the fight, as you can stack the mushroom particles to full capacity and then wait for Queen Bee to charge into them. 
+*Both the [[Water Bolt]] and the [[Flare Bolt]] are very useful during this fight due to their high damage output and bouncing ability.
+*The [[Demon Scythe]] is a highly effective weapon against both the boss and her summons due to its piercing and high damage output, although the weapon can be difficult to aim at times, it can decimate Queen Bee' charging phase.
+*[[Cryophobia]] is also a very good option to use during Queen Bee's charging phase, as it does significant damage.
+**Note that this is a [[Rare item variants|rare item]], so it may be difficult to obtain
+*[[Jungle armor]] is the best choice for this fight, providing the highest damage output
+==== Summoner ====
+*For summoners, the best weapon is the [[Imp Staff]], but the [[Dank Staff]] or [[Blood Clot Staff]] can both also be utilized.
+**The [[Frost Blossom Staff]] or [[Cinder Blossom Staff]] can also be used to focus on the Queen Bee's minions.
+==== Rogue ====
+*[[Infernal Kris]]es, [[Feather Knife|Feather Knives]], [[Rot Ball]]s and [[Tooth Ball]]s are all extremely effective due to their fast firing rate. 
+*The [[Turbulance]] can be used to great effect due to its many homing attacks.
+*The [[Tracking Disk]] can provide a consistent source of damage to the Queen Bee, and can easily take care of her minions with the lasers it fires.
+==== Other ====
+*Both the [[Aestheticus]] and [[Marked Magnum]] can be useful during the fight for inflicting debuffs.
+
+{{Guides
+| show-main=yes
+| show-boss=yes
+}}

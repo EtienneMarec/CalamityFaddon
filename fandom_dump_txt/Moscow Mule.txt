@@ -1,0 +1,26 @@
+{{item infobox
+| type = Potion
+| tooltip = Boosts damage and knockback by 9% and critical strike chance by 3%<br/>Reduces life regen by 2
+| stack = 9999
+| rare = 8
+| use = 17
+| sell = {{value|0|1|60}}
+| consumable = yes
+| debuffduration = 8 minutes
+| debuff = Moscow Mule (debuff) | debufflink = no
+| debufftip = Damage, critical strike chance, and knockback boosted, life regen reduced
+| hardmode = yes
+}}
+
+'''Moscow Mule''' is a craftable [[Hardmode]] [[potion]]. It grants the '''Moscow Mule''' [[debuff]] when consumed, which reduces life regen, but boosts damage, knockback and critical strike chance.
+
+While the effects of the Moscow Mule debuff are mostly beneficial, it is still considered a debuff, and therefore cannot be removed by right-clicking the icon.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 93
+| knockback = 4
+| mana = 15
+| use = 16
+| velocity = 20
+| tooltip = Releases a volley of venomous fangs and spit
+| debuff = Sulphuric Poisoning
+| debuffchance = 100%
+| debuffduration = 1 seconds (Spit)<br/>3 seconds (Fang)
+| debufftip = The acidic water burns away your flesh
+| rare = 13
+| sell = {{value|0|26}}
+| auto = yes
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Vitriolic Viper Fang.png
+| projcaption = Viper Fang
+| proj2 = Vitriolic Viper Spit.png
+| proj2caption = Viper Spit
+| element1 = Poison
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Acid Eel]] | 1 | {{dv|5%|6%}}
+}}
+}}
+
+The '''Vitriolic Viper''' is a Godseeker Mode [[wand]] that drops from tier 3 [[Acid Eel]]s. It rapidly fires a tight spread of nine venomous spits followed by five venomous fangs. The spits move faster but do not pierce, while the fangs move slower and pierce up to three enemies. Both projectiles are capable of inflicting the [[Sulphuric Poisoning]] [[debuff]].
+
+{{Modifier|magic}}
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category:Wands]]

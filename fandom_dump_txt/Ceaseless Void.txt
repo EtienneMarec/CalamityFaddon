@@ -1,0 +1,156 @@
+<section begin=npc infobox />{{npc infobox
+| name = Ceaseless Void
+| image = Ceaseless Void.png
+| type = Boss
+| environment = Dungeon
+| ai = Ceaseless Void AI
+| damage = {{dv|150|300|330|348}} (Contact)<br/>{{dv|120|200|232|248}} (Laser Portal, Dark Energy Ball)
+| life = {{dv|64,400|103,040|123,648}}
+| defense = 0
+| dr = 50
+| knockback = 100
+| immuneall = yes <!-- Adding this will change the meaning of immune1, immune2 etc to vulnerability -->
+| vulnerable1 = Slash
+| resistant1 = Magic
+| resistant2 = Dark
+| resistant3 = Machine
+| debuff = Distorted
+| duration = 1 second (Dark Energy Ball)
+| debufftip = Gravity around you is distorted
+| debuffchance = 100%
+| Dark Plasma|{{dv|2-3|4-6}}|100%
+| Mirror Blade|1|{{dv|25%|33.33%}}
+| Void Concentration Staff|1|{{dv|25%|33.33%}}
+| The Evolution|1|100%
+| Tree-Crown Wings|1|100%
+| Supreme Healing Potion|5-15|100%
+| Ceaseless Void Mask|1|14.29%
+| group|The following three items will always drop together|1
+| custom| {{item|Ancient God Slayer Helm}}
+{{item|Ancient God Slayer Chestplate}}
+{{item|Ancient God Slayer Leggings}}|5%
+| Ceaseless Void Trophy|1|10%
+| custom| {{item|The Sentinels of the Devourer (Lore)|note=(Always on first kill if [[Storm Weaver]]<br/>and [[Signus]] are defeated)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Ceaseless Void)|Treasure Bag|note=(Ceaseless Void)|wrap=y}}|
+| image2 = Ceaseless Void map.png
+| image2caption = Map Icon
+| hurt = OtherworldlyHit.wav
+| killed = NPC_Killed_14.wav
+| sound = Item_92.wav
+| soundtext = Portal Spawn
+| sound2 = Item_33.wav
+| sound2text = Portal Shoot
+| hardmode = yes
+| postml = yes
+| boxwidth = 24em
+}}<section end=npc infobox />
+
+The '''Ceaseless Void''' (Japanese: 絶え間ない空白 ''Taema nai kūhaku'') is a Godseeker Mode [[boss]] and is one of the [[Sentinels of the Devourer]]. It drops [[Dark Plasma]], which is a [[crafting material]] required to craft the [[Cosmic Worm]].
+
+== Spawn ==
+The Ceaseless Void does not spawn on its own and requires the player to summon it by using the [[Rune of Kos]] in the [[Dungeon]].
+
+== Behavior ==
+Upon being summoned, the Ceaseless Void is completely invincible to damage, and 11 Dark Energies are spawned in a 3-armed star formation centered on the boss. The Dark Energies will oscillate back and forth relative to the Ceaseless Void while also rotating around it in a clockwise manner. The Ceaseless Void itself will initially hover directly above the player, but will cycle through 8 different positions around the player over time, moving one position counterclockwise every {{dv|8|6|4||3}} seconds.
+
+When the total HP of Dark Energies reaches 50%, all Dark Energies despawn as the Ceaseless Void becomes vulnerable, positions itself near the player, and begins sucking in both nearby players and a 4-armed spiral of invincible Dark Energy Balls that converge on it, with the spiral growing in speed and density as the attack goes on. At the start of the attack, it will also summon a Laser Portal that orbits around the player, firing two sets of slow laser beams towards them. If the player attempts to flee from it, the Ceaseless Void will stop the attack and quickly move near the player before resuming.
+
+The Ceaseless Void will go invulnerable and repeat the above two phases at specific health intervals, summoning increasing amounts of Dark Energies in more complex formations each time while increasing the amount of damage that must be dealt to them to progress.
+
+* At 70% HP, summons 14 Dark Energies in a 4-armed star shape, with the phase ending once their total HP reaches 35%.
+* At 40% HP, summons 17 Dark Energies in a 5-armed star shape, with the phase ending once their total HP reaches 25%.
+* At 10% HP, summons 20 Dark Energies in a 6-armed star shape, with the phase ending once their total HP reaches 20%.
+
+
+When the last group of Dark Energies is defeated and the Ceaseless Void uses its vacuum attack, it will be invulnerable as its health slowly depletes, forcing players to survive for 15 seconds as its suction force gradually increases in power. After 15 seconds, the boss will implode, leaving its loot behind and despawning all of its projectiles.
+
+=== In [[Expert Mode]] ===
+*Changes position in its invincible phase every 6 seconds.
+*Dark Energies follow a curving path, making them harder to avoid.
+*Each formation of Dark Energy now has 4/5/6/7 arms and 14/17/20/23 Dark Energies.
+*Suction force from the vacuum attack is stronger.
+*Below 70% HP, the vacuum attack periodically sucks in two extra Dark Energy Orbs from opposite sides once the Dark Energy spiral is fully formed.
+
+=== In [[Revengeance Mode]] ===
+*Changes position in its invincible phase every 4 seconds.
+*Dark Energies move faster.
+*Suction force from the vacuum attack is even stronger.
+*Each formation of Dark Energy now has 5/6/7/8 arms and 17/20/23/26 Dark Energies.
+*Two Laser Portals are summoned instead of one.
+
+=== In [[Death Mode]] ===
+*Each formation of Dark Energy now has 6/7/8/9 arms and 20/23/26/29 Dark Energies.
+
+=== In [[Malice Mode]] ===
+*Changes position in its invincible phase every 3 seconds.
+*Dark Energy Orb spiral has more projectiles.
+*3 Laser Portals are summoned instead of two.
+
+== Summons ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Dark Energy
+| type = Flying Enemy
+| ai = Dark Energy AI
+| environment = Dungeon
+| life = {{dv|6,000|12,000}}
+| damage = {{dv|120|240|264|278}}
+| defense = 50
+| hurt = NPC_Hit_53.wav
+| killed = NPC_Killed_44.wav
+| hardmode = yes
+| postml = yes
+| knockback = 100
+| debuff = Distorted
+| duration = 0.33 seconds
+| debufftip = Gravity around you is distorted
+| debuffchance = 100%
+| immuneall = yes
+}}
+}}
+
+== Resistances ==
+*All Dark Energies take reduced damage from non-[[Minions|minion]] piercing projectiles in [[Expert Mode]]. Projectile damage is divided by the number of times it pierces. Infinite piercing deals 50% damage.
+*All Dark Energies reduce damage from grenade-type projectiles by 80%. A list of affected projectiles is below.
+{{ajax|List of resisted grenades|head=Resisted grenades|width=15%}}
+*All Dark Energies also take:
+**50% damage from [[Nuclear Fury]] and [[Wave Pounder]].
+
+== Notes ==
+*Dark Energies are harmless but invincible for 2 seconds after spawning.
+*This boss tends to bug out in multiplayer.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating the Ceaseless Void, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Ceaseless Void strategies]].}}
+*Clearing out a large area in the Dungeon prior to the fight will greatly help. When expanding, [[Dungeon Wall Unsafe|Dungeon Walls Unsafe]] may help to ensure that the player is always considered to be within the Dungeon, so that the Ceaseless Void does not enrage.
+*Make use of [[Gravity Normalizer Potion]], as it gives immunity to the ''Distorted'' debuff. This makes dodging and staying alive considerably easier and makes taking a hit less annoying.
+*Single-shot projectiles that deal high damage and slow weapons with high damage are ineffective against the Ceaseless Void, as it will only take one damage per hit. Use fast-firing weapons to maximize your number of hits and thus DPS.
+**Bring high damage weapons especially if they have area of effect capabilities, as they can easily clear out the Dark Energies.
+*Keep moving in a spiral pattern when the Ceaseless Void is vulnerable or using its last attack, as the converging Dark Energy spiral increases in intensity the longer the attack is ongoing.
+*The [[Elemental Disk]] can produce many splitting projectiles, allowing it to easily take out the swarms of Dark Energies.
+*The [[Elemental Eruption]] will take out the Ceaseless Void incredibly quickly, but is not very strong against its minions.
+*If [[Storm Weaver]] has been defeated, [[The Storm]] is very effective both versus the Ceaseless Void and its Dark Energies.
+*The [[Starfleet]] can deal massive damage while the Ceaseless Void is vulnerable, sometimes skipping phases or killing it instantly. If aimed well, it can dispatch Dark Energies in a single shot.
+*The [[Telluric Glare]] is very useful for the Dark Energies and can skip sometimes 1 or 2 phases.
+*The [[Nuclear Fury]] does excellent damage to clumped together Dark Energies and does decent damage to the Ceaseless Void itself.
+*The [[Blissful Bombardier]] is a good choice against the Dark Energies for its homing and area damage. Its decent fire rate can also deal with the Ceaseless Void itself pretty easily.
+*The [[Ark of the Elements]] is still a good choice, as it homes in on the Dark Energy and the Ceaseless Void.
+*The [[Divine Retribution]]'s storm of spears will deal extreme damage to the Ceaseless Void when it is vulnerable.
+*Single-target minions struggle against the Ceaseless Void due to its many minions. Use summons with an area of effect damage such as the [[Stardust Dragon Staff]] or [[Elemental Axe]]s instead. The [[Profaned Soul Artifact]] is also recommended.
+*The [[Molten Amputator]]'s explosions and lava globs can deal with grouped Dark Energies very rapidly.
+*If the player is having a very hard time making space in the Dungeon, they could lure the Ceaseless Void out of the Dungeon if they can handle it being enraged. This trades a lack of space for a large increase in speed for the Ceaseless Void.
+**The player can make use of [[Asphalt Block]]s to move faster or blocks like [[Frozen Slime Block]]s and [[Ice Block]]s to conserve momentum.
+*While the Ceaseless Void can be fought before any other post-Moon Lord boss, it is not recommended to fight until Providence is defeated, the many projectiles and Dark Energies make this fight very challenging.
+
+== Trivia ==
+*The Ceaseless Void's [[Music|theme]] is a segment from [https://www.youtube.com/watch?v=dt30jWRMjLk '''Servants of the Scourge'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**This theme contains a motif from [[The Devourer of Gods]]' theme.
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' will play instead.
+*The Ceaseless Void, along with the [[Storm Weaver]] and [[Signus]], can be summoned right after the Moon Lord is defeated, as their summoning item only requires Solar Fragments, Luminite Bars, and [[Unholy Essence]]s.
+*Prior to the 1.5.0.001 update, The Ceaseless Void originally had the lowest health out of all bosses, but this weakness was nullified with having the highest [[DR]].
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The rift in time and space has moved away from your reach."
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

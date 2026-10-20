@@ -1,0 +1,41 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 520
+| mana = 40
+| velocity = 12
+| tooltip = Shoots lacelic webs into your enemies 
+| knockback = 2
+| rare = C2
+| sell = {{value|0|40}}
+| use = 25
+| stack = 1
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Evercold
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| element1 = Cold
+| element2 = Water
+| element3 = Dark
+| proj = Cobweb.png
+| projcaption = Lacelic Web
+}}
+'''Noctic Weaver''' is a Godseeker Mode [[wand]] that is either craftable or dropped from the [[Esserwyrm]]. It casts webs that stick to hit enemies, slowing then down and dealing 50% of weapons damage every second for every pile of webs that stuck onto the target.
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

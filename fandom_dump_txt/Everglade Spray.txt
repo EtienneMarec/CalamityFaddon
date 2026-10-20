@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| damage = 28
+| damagetype = magic
+| auto = yes
+| knockback = 4.5
+| velocity = 10
+| mana = 8
+| tooltip = Fires a stream of burning green ichor
+| use = 18
+| rare = 7
+| stack = 1
+| sell = {{value|0|12}}
+| debuff = Ichor (debuff)
+| debuffchance = 100%
+| debufftip = Defense reduced by 20
+| debuffduration = 10 seconds
+| debuff2 = Cursed Inferno
+| debuffchance2 = 100%
+| debufftip2 = Losing life<br/>All damage taken increased by 20%
+| debuffduration2 = 5 seconds
+| hardmode = yes
+| element1 = Poison
+}}
+
+The '''Everglade Spray''' is a craftable [[Hardmode]] [[spell tome]] that is an upgrade to the [[Golden Shower]] and the [[Cursed Flames]]. It shoots out a stream similar to the Golden Shower, but inflicting the [[Cursed Inferno]] [[debuff]] as well as the [[Ichor (debuff)|Ichor]] [[debuff]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The [[wikipedia:Everglades|Everglades]] is a natural region of tropical wetlands located within the United States of America.
+{{-}}
+{{Perennial}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

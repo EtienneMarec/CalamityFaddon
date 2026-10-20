@@ -1,0 +1,27 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{infobox wrapper
+|{{item infobox
+| imagebreak = yes
+| stack = 9999
+| type = Crafting material
+| rare = C1
+| sell = {{value|0|10}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+}}
+
+'''Esseric Bars''' are craftable post-[[Purgatory Arbiter, Umbrus]] [[bars]]. They are used for creating Abysscent and Lacelineous equipment as well as [[Stiriatic Bar|Stiriatic Bars]].
+
+==Crafting==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

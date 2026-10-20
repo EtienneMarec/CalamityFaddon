@@ -1,0 +1,46 @@
+{{item infobox	
+| type = Weapon
+| damage = 900
+| damagetype = Ranged
+| knockback = 3
+| stack = 1
+| research = 1
+| rare = 16
+| sell = {{value|0|28}}
+| auto = yes
+| use = 7
+| velocity = 34
+| tooltip = 70% chance to not consume ammo<br/>Fires a storm of bullets and onyx shards
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Onyx Blaster (projectile).png
+| projcaption = Onyx Blast
+| sound = Item_36.wav
+| soundtext = Use
+| sound2 = Item_14.wav
+| sound2text = Onyx Explosion
+| element1 = Dark
+| element2 = Stab
+}}
+
+The '''Onyx Minigun''' is a craftable Epilogue [[gun]] that is the direct upgrade of the [[Onyxia]] and the true final upgrade to the [[Onyx Blaster]]. It rapidly fires bursts of eight bullets at a time alongside an onyx blast that deals 170% the damage of the fired [[bullets]]. The bullets from the Onyx Minigun are fired in 4 symmetric pairs surrounding the onyx blast. It has a 70% chance to not consume ammo when fired.
+
+{{Modifier|ranged}}
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used In ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon's sprite is a resprite of the [[Minigun]].
+{{Onyx}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Guns]]
+{{language info|en=Onyxia}}

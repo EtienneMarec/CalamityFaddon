@@ -1,0 +1,32 @@
+{{historical content}}
+{{Death mode only}}
+{{npc infobox
+| type = Flying Enemy
+| environment = Jungle
+| damage = 0 (Contact)<br/>{{dv|125|212}} (Fireball)
+| ai = Angery Flame AI
+| life = 100
+| defense = 0
+| knockback = 100
+| debuff = On Fire!
+| debuffchance = 100%
+| duration = 1-2 seconds (Fireball)
+| debufftip = Slowly losing life
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+| hurt = NPC_Hit_52.wav
+| killed = NPC_Killed_55.wav
+}}
+
+The '''Angery Flame''' was an invincible [[Enemies|flying enemy]] summoned by [[Jungle Dragon, Yharon]]. It fired fireballs toward the player that increased in fire rate as Yharon's health decreased. It would also release homing flare dust as it flew around.
+
+== Trivia ==
+*It was originally [[Expert Mode]]-exclusive, and was pushed to [[Revengeance Mode]]-exclusive, then [[Death Mode]]-exclusive, before finally being removed.
+**The Angery Flame was removed to put more of an emphasis on dodging Yharon rather than a slew of projectiles.
+{{-}}
+{{Historical}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

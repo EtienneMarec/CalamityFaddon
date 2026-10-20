@@ -1,0 +1,222 @@
+{|class="terraria navbox mw-collapsible {{#ifeq: {{{show-main|}}} | yes | |mw-collapsed }}" style="width:80%; margin: auto" 
+!style="font-size:120%" | {{navbar/left|Master Template Consumables}} <small>{{l10n|Master Template Consumables|title}}:<br/>[[File:Supreme Healing Potion.png|17px|link={{tr|Potions}}]] {{trl|Potions}} ([[File:Draconic Elixir.png|20px|link={{tr|Buff Potions}}]] {{trl|Buff Potions}}){{•}}[[File:Tarragon Throwing Dart.png|27px|link={{tr|Spy weapons}}]] {{trl|Spy weapons|Spy Weapons}}{{•}}[[File:Hyperius Bullet.png|20px|link={{tr|Ammunition}}]] {{trl|Ammunition}} {{•}}[[File:Core of Calamity.png|25px|link={{tr|Crafting material}}]] {{trl|Crafting material|Materials}} ([[File:Living Shard.png|18px|link={{tr|Drops}}]] {{trl|Drops}}{{•}}[[File:Scoria Ore.png|18px|link={{tr|Ore}}]] {{trl|Ore}}s{{•}}[[File:Astral Bar.png|24px|link={{tr|Bars}}]] {{trl|Bars}}){{•}}[[File:Eidolon Tablet.png|22px|link={{tr|Miscellaneous}}]] {{trl|Miscellaneous}}</small> {{navbar/right}}
+|-
+|
+
+<!-------------------- POTIONS -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-potion|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=3 | Potions
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Recovery Potions}}
+|style="padding: 0.2em 0.5em" colspan=2 | {{trl|Active Healing Potion}} {{tota}}{{•}}{{trl|Aureus Cell}}{{•}}{{trl|Bloodfin}}{{•}}{{trl|Hadal Stew}}{{•}}{{trl|Omega Healing Potion|Omega Healing}}{{•}}{{trl|Supreme Healing Potion|Supreme Healing}}{{•}}{{trl|Supreme Mana Potion|Supreme Mana}}{{•}}{{trl|Supreme Strange Brew}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Food and Drink Potions}}
+|style="padding: 0.2em 0.5em" colspan=2 | {{trl|Baguette}}{{•}}{{trl|Barolegs}}{{•}}{{trl|Bloody Mary}}{{•}}{{trl|Caribbean Rum}}{{•}}{{trl|Carnal Corn}}{{•}}{{trl|Cinnamon Roll}}{{•}}{{trl|Clam Chowder}}{{•}}{{trl|Crimtato}}{{•}}{{trl|Delicious Meat}}{{•}}{{trl|Disgusting Meat}}{{•}}{{trl|Everclear}}{{•}}{{trl|Evergreen Gin}}{{•}}{{trl|Fireball}}{{•}}{{trl|Fluorescent Vodka}}{{•}}{{trl|Grape Beer}}{{•}}{{trl|Hadal Stew}}{{•}}{{trl|Margarita}}{{•}}{{trl|Meld Chip Ice Cream}}{{•}}{{trl|Moonshine}}{{•}}{{trl|Moscow Mule}}{{•}}{{trl|Mystery Meat}}{{•}}{{trl|Lacelic Tonic}}{{•}}{{trl|Red Wine}}{{•}}{{trl|Rum}}{{•}}{{trl|Screwdriver}}{{•}}{{trl|Seafood}}{{•}}{{trl|Star Beam Rye}}{{•}}{{trl|Stratus Beverage}}{{•}}{{trl|Tequila}}{{•}}{{trl|Tequila Sunrise}}{{•}}{{trl|Titan Finger}}{{•}}{{trl|Vodka}}{{•}}{{trl|Whiskey}}{{•}}{{trl|White Wine}}{{•}}{{trl|Yharic Delight}}{{•}}{{trl|Zumbo Sauce}}
+|-
+
+!style="padding: 0.2em 0.5em" rowspan=5 | {{trl|Permanent Power-ups}}
+!style="padding: 0.2em 0.5em" | Health
+|style="padding: 0.2em 0.5em" | {{trl|Dragonfruit}}{{•}}{{trl|Hemagrape}}{{•}}{{trl|Miracle Fruit}}{{•}}{{trl|Sambucus Fruit}}
+|-
+
+!style="padding: 0.2em 0.5em" | Mana
+|style="padding: 0.2em 0.5em" | {{trl|Comet Shard}}{{•}}{{trl|Enchanted Starfish}}{{•}}{{trl|Ethereal Core}}{{•}}{{trl|Phantom Heart}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Rage Meter}}
+|style="padding: 0.2em 0.5em" | {{trl|Ha-pu Fruit}} {{dei}}{{•}}{{trl|Infernal Blood}}{{•}}{{trl|Mushroom Plasma Root}}{{•}}{{trl|Rage of the Cosmos}}{{•}}{{trl|Red Lightning Container}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Adrenaline Meter}}
+|style="padding: 0.2em 0.5em" | {{trl|Adrenaline of the Gods}}{{•}}{{trl|Ectoheart}}{{•}}{{trl|Electrolyte Gel Pack}}{{•}}{{trl|Starlight Fuel Cell}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Stamina Meter}}
+|style="padding: 0.2em 0.5em" | {{trl|Dust Bunny}} {{fantag|Catalyst}}{{•}}{{trl|Ever Ink}} {{fantag|Catalyst}}{{•}}{{trl|Magma Booster}} {{fantag|Catalyst}}{{•}}{{trl|Stamina of the Vengeful}} {{fantag|Catalyst}}
+|-
+
+!style="padding: 0.2em 0.5em" | Other
+|style="padding: 0.2em 0.5em" | {{trl|Metabolic Converter}}{{•}}{{trl|Celestial Onion}}{{•}}{{trl|Chaotic Grapes}} {{tota}}{{•}}{{trl|Demon Trophy}}{{•}}{{trl|Elder Berry}}{{•}}{{trl|Sunwitch}} {{fantag|Catalyst}}
+|-
+
+!style="padding: 0.2em 0.5em" | Other
+|style="padding: 0.2em 0.5em" colspan=2 | {{trl|Hair Dyes}}
+|-
+|}
+
+<!-------------------- BUFF POTIONS -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-buff|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=2 | Buff Potions
+|-
+!style="padding: 0.2em 0.5em" | Offense
+|style="padding: 0.2em 0.5em" | {{trl|Ashes of the Sunken Sea}}{{fantag|Calamity: Community Remix}}{{•}}{{trl|Aureus Cell}}{{•}}{{trl|Calamitas' Brew}}{{•}}{{trl|Crumbling Potion}}{{•}}{{trl|Draconic Elixir}}{{•}}{{trl|Flask of Plague}}{{•}}{{trl|Holy Wrath Potion}}{{•}}{{trl|Leaves of Crabulon}}{{fantag}}{{•}}{{trl|Penumbra Potion}}{{•}}{{trl|Photosynthesis Potion}}{{•}}{{trl|Profaned Rage Potion}}{{•}}{{trl|Shadow Potion}}{{•}}{{trl|Shattering Potion}}{{•}}{{trl|Sugars of Calamity}}{{fantag|Calamity: Community Remix}}{{•}}{{trl|Tesla Potion}}{{•}}{{trl|Titan Scale Potion}}{{•}}{{trl|Triumph Potion}}
+|-
+
+!style="padding: 0.2em 0.5em" | Mega Potions
+|style="padding: 0.2em 0.5em" | {{trl|Cadance Potion}}{{•}}{{trl|Potion of Omniscience}}{{•}}{{trl|Yharim's Stimulants}}
+|-
+
+!style="padding: 0.2em 0.5em" | Miscellaneous
+|style="padding: 0.2em 0.5em" | {{trl|Anechoic Coating}}{{•}}{{trl|Astral Injection}}{{•}}{{trl|Bounding Potion}}{{•}}{{trl|Calcium Potion}}{{•}}{{trl|Ceaseless Hunger Potion}}{{•}}{{trl|Cobalt Skin Potion}} {{tota}}{{•}}{{trl|Esseric Skin Potion}} {{tota}}{{•}}{{trl|Gravity Normalizer Potion}}{{•}}{{trl|Meld Skin Potion}} {{tota}}{{•}}{{trl|Purified Jam}}{{•}}{{trl|Revivify Potion}}{{•}}{{trl|Soaring Potion}}{{•}}{{trl|Sulphurskin Potion}}{{•}}{{trl|Tainted Potions}}{{•}}{{trl|Zen Potion}}{{•}}{{trl|Zerg Potion}}
+|-
+|}
+
+<!-------------------- CONSUMABLE WEAPONS -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-weapon|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=2 | Spy Weapons
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Spy weapons|Spy Weapons}}
+|style="padding: 0.2em 0.5em" | {{trl|Adamantite Throwing Axe}}{{•}}{{trl|Bouncing Betty}}{{•}}{{trl|Bouncy Spiky Ball}}{{•}}{{trl|Bundle o' Bones}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Cobalt Kunai}}{{•}}{{trl|Crystal Piercer}}{{•}}{{trl|Deck of Souls}}{{•}}{{trl|Demon Core}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Feather Knife}}{{•}}{{trl|Frosty Flare}}{{•}}{{trl|Gel Dart}}{{•}}{{trl|Hardened Honeycomb}}{{•}}{{trl|Ice Star}}{{•}}{{trl|Infernal Kris}}{{•}}{{trl|Iron Francisca}}{{•}}{{trl|Latcher Mine}}{{•}}{{trl|Lead Tomahawk}}{{•}}{{trl|Lunar Kunai}}{{•}}{{trl|Monkey Darts}}{{•}}{{trl|Mythril Knife}}{{•}}{{trl|Nasty Cholla}}{{•}}{{trl|Orichalcum Spiked Gemstone}}{{•}}{{trl|Palladium Javelin}}{{•}}{{trl|Phantom Lance}}{{•}}{{trl|Plaguenade}}{{•}}{{trl|Plasma Grenade}}{{•}}{{trl|Rot Ball}}{{•}}{{trl|Shard of Antumbra}}{{•}}{{trl|Shock Grenade}}{{•}}{{trl|Sludge Splotch}}{{•}}{{trl|Sticky Spiky Ball}}{{•}}{{trl|Tarragon Throwing Dart}}{{•}}{{trl|Throwing Brick}}{{•}}{{trl|Titanium Shuriken}}{{•}}{{trl|Tooth Ball}}{{•}}{{trl|Urchin Stinger}}{{•}}{{trl|Web Ball}}{{•}}{{trl|Wulfrum Knife}}
+|-
+|}
+
+<!-------------------- AMMUNITION -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-ammo|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=3 | Ammunition
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Arrows}}
+|style="padding: 0.2em 0.5em" | {{trl|Arctic Arrow}}{{•}}{{trl|Bloodfire Arrow}}{{•}}{{trl|Elysian Arrow}}{{•}}{{trl|Flarrow}}{{•}}{{trl|Icicle Arrow}}{{•}}{{trl|Napalm Arrow}}{{•}}{{trl|Terra Arrow}}{{•}}{{trl|Vanquisher Arrow}}{{•}}{{trl|War Arrow}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Bullets}}
+|style="padding: 0.2em 0.5em" | {{trl|22 Hornet Round}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Acceleration Round}}{{•}}{{trl|Acid Round}}{{•}}{{trl|Bloodfire Bullet}}{{•}}{{trl|Enhanced Nano Round}}{{•}}{{trl|Flah Round}}{{•}}{{trl|Flash Round}}{{•}}{{trl|God Slayer Slug}}{{•}}{{trl|Holy Fire Bullet}}{{•}}{{trl|Hyperius Bullet}}{{•}}{{trl|Icy Bullet}}{{•}}{{trl|Mortar Round}}{{•}}{{trl|Rubber Mortar Round}}{{•}}{{trl|Superball Bullet}}{{•}}{{trl|Terra Bullet}}{{•}}{{trl|Verium Bullet}}
+|-
+
+!style="padding: 0.2em 0.5em" | Miscellaneous
+|style="padding: 0.2em 0.5em" colspan=2 | {{trl|Astral Solution}}{{•}}{{trl|Blood Rune}}{{•}}{{trl|Cosmilite Coin}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Explosive Shotgun Shell}}{{•}}{{trl|Grenade Shells}}{{•}}{{trl|Klepticoin}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Magnum Rounds}}{{•}}{{trl|Miracle Coin}}
+|-
+|}
+
+<!-------------------- MATERIALS -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-material|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=2 | Materials
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Crafting materials|Crafted}}
+|style="padding: 0.2em 0.5em" | {{trl|Accidated Reactive Core}} {{tota}}{{•}}{{trl|Ascendant Spirit Essence}}{{•}}{{trl|Blank Scroll}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Bloodred Reactive Core}} {{tota}}{{•}}{{trl|Core of Babil}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Core of Calamity}}{{•}}{{trl|Core of Chaos}}{{•}}{{trl|Core of Eleum}}{{•}}{{trl|Core of Rend}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Core of Sunlight}}{{•}}{{trl|Crystal of the Cyborg}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Crystal of the Dryad}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Crystal of the Wicked}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Enchanted Metal}}{{•}}{{trl|Essence of Absolute}}{{•}}{{trl|Galactica Singularity}}{{•}}{{trl|Lab Seeking Mechanism}}{{•}}{{trl|Mediocre Matter}}{{•}}{{trl|Miracle Matter}}{{•}}{{trl|Noctic Reactive Core}} {{tota}}{{•}}{{trl|Orb of Boon}}{{•}}{{trl|Orb of Crystal}}{{•}}{{trl|Orb of Law}}{{•}}{{trl|Orb of Myst}}{{•}}{{trl|Orb of Surt}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Orb of Zot}}{{•}}{{trl|Something}}{{•}}{{trl|Unholy Core}}{{•}}{{trl|Voidant Substance}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Waterfreeze Reactive Core}} {{tota}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Fishing|Fished}}
+|style="padding: 0.2em 0.5em" | {{trl|Aldebaran Alewife}}{{•}}{{trl|Brimstone Fish}}{{•}}{{trl|Coastal Demonfish}}{{•}}{{trl|Coralskin Foolfish}}{{•}}{{trl|Crag Bullhead}}{{•}}{{trl|Esserfish}} {{tota}}{{•}}{{trl|Prismatic Guppy}}{{•}}{{trl|Procyonid Prawn}}{{•}}{{trl|Scarred Angelfish}}{{•}}{{trl|Shadowfish}}{{•}}{{trl|Sunken Sailfish}}{{•}}{{trl|Twinkling Pollox}}
+|-
+
+!style="padding: 0.2em 0.5em" | Found
+|style="padding: 0.2em 0.5em" | {{trl|Dubious Plating}}{{•}}{{trl|Exoplasm}}{{•}}{{trl|Mysterious Circuitry}}{{•}}{{trl|Prototype Plasma Drive Core}}{{•}}{{trl|Suspicious Scrap}}
+|-
+
+!style="padding: 0.2em 0.5em" | Flah
+|style="padding: 0.2em 0.5em" | {{trl|Blessed Flah}}{{•}}{{trl|Canvas Flora}}{{•}}{{trl|Cosmic Flah}}{{•}}{{trl|Derelah}}{{•}}{{trl|Desolate Flah}}{{•}}{{trl|Empress Flah}}{{•}}{{trl|Flah}}{{•}}{{trl|Flahium Component}}{{•}}{{trl|Hemorraize}}{{•}}{{trl|Lunar Flah}}{{•}}{{trl|Meld Flah}}{{•}}{{trl|Merge Flah}}{{•}}{{trl|Reclaimed Flah}}{{•}}{{trl|Washed Flah}}
+|-
+|}
+
+<!-------------------- DROPS -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-drop|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=2 | Drops
+|-
+!style="padding: 0.2em 0.5em" | {{trl|Pre-Hardmode}}
+|style="padding: 0.2em 0.5em" | {{trl|Ancient Bone Dust}}{{•}}{{trl|Blighted Gel}}{{•}}{{trl|Blood Orb}}{{•}}{{trl|Blood Sample}}{{•}}{{trl|Demonic Bone Ash}}{{•}}{{trl|Desert Feather}}{{•}}{{trl|Energy Core}}{{•}}{{trl|Energy Orb}}{{•}}{{trl|Murky Paste}}{{•}}{{trl|Murky Sludge}}{{•}}{{trl|Parched Scale}}{{•}}{{trl|Pearl Shard}}{{•}}{{trl|Prism Shard}}{{•}}{{trl|Purified Gel}}{{•}}{{trl|Rotten Matter}}{{•}}{{trl|Stormlion Mandible}}{{•}}{{trl|Sulphuric Scale}}{{•}}{{trl|Wulfrum Metal Scrap}}
+|-
+!style="padding: 0.2em 0.5em" | {{trl|Hardmode}}
+|style="padding: 0.2em 0.5em" | {{trl|Ashes of Calamity}}{{•}}{{trl|Aureus Cell}}{{•}}{{trl|Baronacre}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Beetle Juice}}{{•}}{{trl|Blighted Lens}}{{•}}{{trl|Corroded Fossil}}{{•}}{{trl|Coyote Venom}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Crocodile Scale}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Depth Cells}}{{•}}{{trl|Ectoblood}}{{•}}{{trl|Essence of Babil}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Essence of Chaos}}{{•}}{{trl|Essence of Crystal}}{{•}}{{trl|Essence of Eleum}}{{•}}{{trl|Essence of Law}}{{•}}{{trl|Essence of Myst}}{{•}}{{trl|Essence of Rend}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Essence of Sunlight}}{{•}}{{trl|Essence of Surt}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Essence of Zot}}{{•}}{{trl|Grand Scale}}{{•}}{{trl|Hadarian Membrane}}{{•}}{{trl|Infected Armor Plating}}{{•}}{{trl|Living Shard}}{{•}}{{trl|Lumenyl}}{{•}}{{trl|Meld Blob}}{{•}}{{trl|Mollusk Husk}}{{•}}{{trl|Plague Cell Canister}}{{•}}{{trl|Shattered Prism}}{{•}}{{trl|Solar Veil}}{{•}}{{trl|Soul of Bright}}{{•}}{{trl|Soul of Plight}}{{•}}{{trl|Stardust}}{{•}}{{trl|Titan Heart}}{{•}}{{trl|Trapper Bulb}}
+|-
+!style="padding: 0.2em 0.5em" | Godseeker Mode
+|style="padding: 0.2em 0.5em" | {{trl|Abyssal Jelly}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Accidated Reactive Essence}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Armored Shell}}{{•}}{{trl|Ashes of Annihilation}}{{•}}{{trl|Bloodred Reactive Essence}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Bloodstone}}{{•}}{{trl|Dark Plasma}}{{•}}{{trl|Darksun Fragment}}{{•}}{{trl|Effulgent Feather}}{{•}}{{trl|Eldritch Pie Recipe}}{{•}}{{trl|Electrolyte Matter}} {{tota}}{{•}}{{trl|Endothermic Energy}}{{•}}{{trl|Esseric Scale}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Exo Core}}{{•}}{{trl|Exo Prism}}{{•}}{{trl|Flashing Light Essence}} {{tota}}{{•}}{{trl|Hydrastatic Energy}} {{tota}}{{•}}{{trl|Laceline}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Lacoplasm}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Lethal Disease Canister}} {{tota}}{{•}}{{trl|Miracle Plating}}{{•}}{{trl|Nightmare Fuel}}{{•}}{{trl|Noctic Reactive Essence}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Phantoplasm}}{{•}}{{trl|Primordial Light Shard}}{{•}}{{trl|Pulsing Night Essence}} {{tota}}{{•}}{{trl|Quark-Gluon Sludge}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Reaper Tooth}}{{•}}{{trl|Ruinous Soul}}{{•}}{{trl|Skyline Tooth}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Strange Matter}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Subnautical Plate}}{{•}}{{trl|Twisting Nether}}{{•}}{{trl|Unholy Essence}}{{•}}{{trl|Voidwave Ink}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Waterfreeze Reactive Essence}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Weaver Lac}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Yharon Soul Fragment}}
+|}
+<!-------------------- ORES & BARS -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-ore|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=3 | Ores and Bars
+|-
+
+!style="padding: 0.2em 0.5em" rowspan=2 | {{trl|Pre-Hardmode}}
+!style="padding: 0.2em 0.5em" | {{trl|Ores}}
+|style="padding: 0.2em 0.5em" | {{trl|Aerialite Ore}}{{•}}{{trl|Arsenic Ore}}{{•}}{{trl|Sea Prism}}{{•}}{{trl|Silicon Ore}}{{•}}{{trl|Victide Ore}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Bars}}
+|style="padding: 0.2em 0.5em" | {{trl|Aerialite Bar}}{{•}}{{trl|Alloy Bar}}{{•}}{{trl|Victide Bar}}
+|-
+
+!style="padding: 0.2em 0.5 em" rowspan=2 | {{trl|Hardmode}}
+!style="padding: 0.2em 0.5em" | Ores
+|style="padding: 0.2em 0.5em" | {{trl|Astral Ore}}{{•}}{{trl|Charred Ore}}{{•}}{{trl|Cryonic Ore}}{{•}}{{trl|Hallowed Ore}}{{•}}{{trl|Life Ore}} {{fantag|Calamity Loot Swap}}{{•}}{{trl|Meld Ore}}{{•}}{{trl|Perennial Ore}}{{•}}{{trl|Scoria Ore}}{{•}}{{trl|Shatterite Ore}} {{tota}}{{•}}{{trl|Apocalyptic Ore}}
+|-
+
+!style="padding: 0.2em 0.5em" | Bars
+|style="padding: 0.2em 0.5em" | {{trl|Astral Bar}}{{•}}{{trl|Cryonic Bar}}{{•}}{{trl|Essential Essence Bar}}{{•}}{{trl|Life Alloy}}{{•}}{{trl|Meld Bar}}{{•}}{{trl|Perennial Bar}}{{•}}{{trl|Scoria Bar}}{{•}}{{trl|Shatterite Bar}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Apocalyptic Bar}}
+|-
+
+!style="padding: 0.2em 0.5 em" rowspan=2 | Godseeker Mode
+!style="padding: 0.2em 0.5em" | Ores
+|style="padding: 0.2em 0.5em" | {{trl|Auric Ore}}{{•}}{{trl|Bloodstone Ore}}{{•}}{{trl|Debris Ore}} {{tota}}{{•}}{{trl|Elemental Ore}}{{•}}{{trl|Esseric Ore}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Exodium Cluster}}{{•}}{{trl|Flahium Slag}}{{•}}{{trl|Cosmilite Slag}} {{fantag|Calamity Loot Swap}}{{•}}{{trl|Haunted Ore}}{{•}}{{trl|Natrisodic Cluster}} {{tota}}{{•}}{{trl|Shadowspec Ore}} {{fantag|Calamity Loot Swap}}{{•}}{{trl|Stiriatic Ore}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Uelibloom Ore}}
+|-
+
+!style="padding: 0.2em 0.5em" | Bars
+|style="padding: 0.2em 0.5em" | {{trl|Auric Bar}}{{•}}{{trl|Bloodstone Bar}}{{•}}{{trl|Cosmilite Bar}}{{•}}{{trl|Divine Bar}}{{•}}{{trl|Elemental Bar}}{{•}}{{trl|Esseric Bar}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Flahium Bar}}{{•}}{{trl|Haunted Bar}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Mars Bars}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Miracle Matter}}{{•}}{{trl|Natrisodic Alloy}} {{tota}}{{•}}{{trl|Omnicidal Sludge Bar}} {{dei}}{{•}}{{trl|Twisted Netherite Bar}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Shadowspec Bar}}{{•}}{{trl|Stiriatic Bar}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Uelibloom Bar}}{{•}}{{trl|Yharim Bar}} {{fantag|Calamity: Community Remix}}
+|}
+
+<!-------------------- MISC -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-other|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=4 | Miscellaneous
+|-
+
+!style="padding: 0.2em 0.5em" rowspan=2 | {{trl|Summoning items|Summoning}}
+!style="padding: 0.2em 0.5em" | {{trl|Enemy}}
+|style="padding: 0.2em 0.5em" | {{trl|Abombination}}{{•}}{{trl|Ashes of Calamity}}{{•}}{{trl|Astral Chunk}}{{•}}{{trl|Artifitial Reactive Matter}} {{tota}}{{•}}{{trl|Bloody Worm Food}}{{•}}{{trl|Celestial Geode}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Ceremonial Urn}}{{•}}{{trl|Charred Idol}}{{•}}{{trl|Cosmic Entangler}}{{•}}{{trl|Cosmic Worm}}{{•}}{{trl|Cryo Key}}{{•}}{{trl|Crystal Skull}}{{•}}{{trl|Decapodita Sprout}}{{•}}{{trl|Desert Medallion}}{{•}}{{trl|Disassembly Signal}} {{fantag|Sloome}}{{•}}{{trl|Draedon Power Pie}}{{•}}{{trl|Draedon's Remote}}{{•}}{{trl|Eidolon Tablet}}{{•}}{{trl|Eschaton}} {{fantag|Bloop's Items}}{{•}}{{trl|Exotic Pheromones}}{{•}}{{trl|Eye of Desolation}}{{•}}{{trl|Fleshly Horn}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Fused Eye}} {{fantag|Polyphemalus}}{{•}}{{trl|Genesis}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Gooz Sayer's Coin}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Interplanetary Worm Food}}{{•}}{{trl|Jet Rec Radio}}{{•}}{{trl|Jungle Dragon Egg}}{{•}}{{trl|Mytikas Remote}}{{•}}{{trl|Necroplasmic Beacon}}{{•}}{{trl|Neural Activation Flare}}{{•}}{{trl|Oddest Mushroom}}{{•}}{{trl|Old Power Cell}}{{•}}{{trl|Overloaded Sludge}}{{•}}{{trl|Poisoned Sclera}}{{•}}{{trl|Portabulb}}{{•}}{{trl|Puffy Abomination}}{{•}}{{trl|Profaned Core}}{{•}}{{trl|Profaned Core Fragment}}{{•}}{{trl|Profaned Shard}}{{•}}{{trl|Rune of Kos}}{{•}}{{trl|Sandstorm's Core}}{{•}}{{trl|Seismometer}}{{•}}{{trl|Shady Gazing Skull}}{{•}}{{trl|Starcore}}{{•}}{{trl|Stellar Locus}}{{•}}{{trl|Super Dummy}}{{•}}{{trl|Teratoma}}{{•}}{{trl|Titan Heart}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Events|Event}}
+|style="padding: 0.2em 0.5em" | {{trl|Arid Artifact}}{{•}}{{trl|Blood Relic}}{{•}}{{trl|Caustic Tear}}{{•}}{{trl|Martian Distress Beacon}}{{•}}{{trl|Tar Gar}}{{•}}{{trl|Terminus}}{{•}}{{trl|Torrential Tear}}
+|-
+
+!style="padding: 0.2em 0.5em" colspan=2 | {{trl|Grab bags}}
+|style="padding: 0.2em 0.5em" | {{trl|Abyssal Treasure}}{{•}}{{trl|Bleached Angling Kit}}{{•}}{{trl|Chaotic Fish}}{{•}}{{trl|Contusion Fish}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Crates}} ({{trl|Abyssal Crate|Abyssal}}{{•}}{{trl|Astral Crate|Astral}}{{•}}{{trl|Babilfish}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Brimstone Crate|Brimstone}}{{•}}{{trl|Sunken Crate|Sunken}}){{•}}{{trl|Fish of Eleum}}{{•}}{{trl|Fish of Flight}}{{•}}{{trl|Fish of Light}}{{•}}{{trl|Fish of Night}}{{•}}{{trl|Flahr}}{{•}}{{trl|Fleshy Geode}}{{•}}{{trl|Front Gar}}{{•}}{{trl|Glimmering Gemfish}}{{•}}{{trl|Necromantic Geode}}{{•}}{{trl|Rear Gar}}{{•}}{{trl|Robo Puffer}}{{•}}{{trl|Sandy Angling Kit}}{{•}}{{trl|Side Gar}}{{•}}{{trl|Starter Bag}}{{•}}{{trl|Stuffed Fish}}{{•}}{{trl|Sulphuric Treasure}}{{•}}{{trl|Sunbeam Fish}}{{•}}{{trl|Treasure Bag}}{{•}}{{trl|Xerocodile}}
+|-
+
+!style="padding: 0.2em 0.5em" colspan=2 | Bait
+|style="padding: 0.2em 0.5em" | {{trl|Arcturus Astroidean}}{{•}}{{trl|Bloodworm}}{{•}}{{trl|Gullet Worm}}{{•}}{{trl|Twinkler}}
+|-
+
+!style="padding: 0.2em 0.5em" colspan=2 | Fishing Drops
+|style="padding: 0.2em 0.5em" | {{trl|Charred Lasher}}{{•}}{{trl|Greenwave Loach}}
+|-
+
+!style="padding: 0.2em 0.5em" colspan=2 | Other
+|style="padding: 0.2em 0.5em" | {{trl|Awakening}}{{•}}{{trl|Calamitous Certificate}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Decayed Flahium}}{{•}}{{trl|Divine Core}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Draedon's Logs}}{{•}}{{trl|Draedon Power Cell}}{{•}}{{trl|Exo Avalon}}{{•}}{{trl|Flah Seeds}}{{•}}{{trl|Honey Cooling Cell}}{{•}}{{trl|Lore items}}{{•}}{{trl|Odd Mushroom}}{{•}}{{trl|Otherworldly Log}}{{•}}{{trl|Schematics}}{{•}}{{trl|Uncharged Flahium}}
+|}
+|}
+<noinclude>{{i18n-ready}}
+
+== Usage ==
+Place the following at the end of a page:
+*<code><nowiki>{{Master Template Consumables}}</nowiki></code>
+
+The default behavior is for the entire template to remain collapsed. 
+
+'''To show all sub-sections in collapsed form,''' use this:
+
+ <nowiki>{{Master Template Consumables</nowiki>
+  | show-main       = yes
+ }}
+
+'''To cause one or more sub-sections to appear expanded by default,''' add one of the following ("show-main = yes" must also be set) :
+* <code> | show-potion       = yes </code>
+* <code> | show-buff         = yes </code>
+* <code> | show-weapon       = yes </code>
+* <code> | show-ammo         = yes </code>
+* <code> | show-material     = yes </code>
+* <code> | show-drop         = yes </code>
+* <code> | show-ore          = yes </code>
+* <code> | show-other        = yes </code>
+
+'''For example, to show the "buff potions" section expanded,''' use this:
+
+ <nowiki>{{Master Template Consumables</nowiki>
+  | show-main = yes
+  | show-buff = yes
+ }}
+[[Category:Navigational templates]]
+</noinclude>

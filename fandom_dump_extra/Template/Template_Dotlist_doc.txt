@@ -1,0 +1,83 @@
+A helper template to generate dot-seperated list.
+
+You can use {{tl|dotlist/options}} to change default value for some parameters.
+
+== Usage ==
+; Unnamed Parameters
+Every unnamed parameter will output as an item of list.
+
+; title =
+''(Optional)'' An extra title before list.
+
+; bold = n
+''(Optional)'' If set, title will display in normal weight (not in bold).
+
+; paren = y/yes
+''(Optional)'' The list itself(excluding title) will be in parentheses. See examples below.
+
+; inline = y/yes
+''(Optional)'' If set, dotlist will output as a <nowiki><span></nowiki> element. By default it's <nowiki><div></nowiki>
+
+; space = l/xl/xxl/xxxl/xxxxl
+''(Optional)'' You can use them to increase the space between items.
+
+; class = 
+''(Optional)'' Custom css class(es). You can use <code>class = l/xl/xxl/xxxl/xxxxl</code> to increase the space between items.
+
+; css ''or'' style = 
+''(Optional)'' Custom css rules. Note: if you set default css with <nowiki>{{dotlist/options}}</nowiki>(by '''css=''' ''or'' '''style='''), then '''css=''' will override default css, but '''style=''' will not(appended instead).
+
+For example: 
+* <code><nowiki>{{dotlist/options|css=color:red; padding:1em;}} {{dotlist|css=margin:1em;}}</nowiki></code>, the resulting css is: <code>margin:1em;</code>.
+* <code><nowiki>{{dotlist/options|css=color:red; padding:1em;}} {{dotlist|style=text-align:center;}}</nowiki></code>, the resulting css is: <code>color:red; padding:1em; text-align:center;</code>.
+* <code><nowiki>{{dotlist/options|css=color:red; padding:1em;}} {{dotlist|css=margin:1em;|style=text-align:center;}}</nowiki></code>, the resulting css is: <code>margin:1em; text-align:center;</code>.
+
+== Examples ==
+
+{| class="wikitable"
+|-
+| 
+<code><nowiki>before {{dotlist|title=list:|item1|item2|item3}} after</nowiki></code>
+|
+before {{dotlist|title=list:|item1|item2|item3}} after
+|-
+|
+<code><nowiki>before {{dotlist|item1|item2|item3}} after</nowiki></code>
+|
+before {{dotlist|item1|item2|item3}} after
+|-
+| 
+<code><nowiki>before {{dotlist|inline=y|title=list:|item1|item2|item3}} after</nowiki></code>
+|
+before {{dotlist|inline=y|title=list:|item1|item2|item3}} after
+|-
+| 
+<code><nowiki>before {{dotlist|inline=y|space=xxxl|title=list:|item1|item2|item3}} after</nowiki></code>
+|
+before {{dotlist|inline=y|space=xxxl|title=list:|item1|item2|item3}} after
+|-
+| 
+<code><nowiki>before {{dotlist|inline=y|css=background:yellow|title=list:|item1|item2|item3}} after</nowiki></code>
+|
+before {{dotlist|inline=y|css=background:yellow|title=list:|item1|item2|item3}} after
+|-
+| 
+Dotlists can be nested.
+
+<code><nowiki>before {{dotlist|title=list:|item1|{{dotlist|inline=y|title=item2:|item2-1|item2-2|item2-3}}|item3}} after</nowiki></code>
+|
+before {{dotlist|title=list:|item1|{{dotlist|inline=y|title=item2:|item2-1|item2-2|item2-3}}|item3}} after
+|-
+| 
+parentheses for sub-dotlist, and with no bold title.
+
+<code><nowiki>before {{dotlist|title=list:|item1|{{dotlist|inline=y|paren=y|bold=n|title=item2:|item2-1|item2-2|item2-3}}|item3}} after</nowiki></code>
+|
+before {{dotlist|title=list:|item1|{{dotlist|inline=y|paren=y|bold=n|title=item2:|item2-1|item2-2|item2-3}}|item3}} after
+|}
+<noinclude>
+[[Category:Template documentation]]
+</noinclude>
+<includeonly>
+[[Category:Formatting templates]]
+</includeonly>

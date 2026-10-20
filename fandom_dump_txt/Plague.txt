@@ -1,0 +1,53 @@
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-10 health per second, -4 defense, -15% move speed, and darkness debuff is inflicted. (if player)<br/>-50 health per second and -4 defense. (if enemy)
+| tooltip = Rotting from the inside
+}}
+{{dablink|If you were looking for something other than the Plague debuff, see [[Plague (disambiguation)]].}}
+
+'''Plague''' is a [[debuff]] inflicted primarily by "plagued" [[enemies]] in the [[Jungle]] as well as [[weapons]] dropped by [[The Plaguebringer Goliath]]. It causes the target to lose 50 health per second and 4 defense as well as emitting large, green particles. When inflicted on a player, the player loses 10 health per second, 4 defense, and 15% movement speed. Additionally, vision is reduced similarly to the [[Darkness]] [[debuff]], and the player emits large, green particles.
+
+When the player has [[Alchemical Flask]], [[Plaguebringer Carapace]], [[Plague Hive]], or [[Plague Reaper Vest]] equipped, they lose 5 health per second instead. Additionally, the Alchemical Flask and Plague Hive cancel out the vision loss effect too.
+
+== Causes ==
+=== From player ===
+In addition to the causes listed below, items that inflict [[Elemental Mix]] will inflict Plague as a part of that.
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+== Trivia ==
+*The debuff's icon appears to depict a [[wikipedia:Biological Hazard|biohazard]] symbol (☣).
+*According to the [[lore]] for [[The Plaguebringer Goliath]], the plague are infectious nano-machines. 
+*The Plague has a [[Draedon's Logs#Jungle|Draedon's Log]] entry dedicated to it that can be found in the [[Jungle Bio-center Lab]].
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

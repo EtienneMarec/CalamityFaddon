@@ -1,0 +1,27 @@
+{{distinguish|Shortswords|a type of [[melee weapon]]}}
+'''Daggers''' are [[weapons]] belonging to the [[spy]] class. They are thrown out away from the player. Some daggers are consumable, although most are non-consumable. 
+
+== Types ==
+{| class="terraria sortable lined" id="dpl-table"
+! colspan=2 | Name !! <abbr title=Damage>DMG</abbr> !! <abbr title="Use Time">UT</abbr> !! <abbr title=Knockback>KB</abbr> !! <abbr title="Shoot Speed/Velocity">SS</abbr> !! <abbr title="Critical Chance">Crit</abbr> !! Autoswing !! [[Rarity]] !! Consumable !! <abbr title=Hardmode>HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Daggers
+| namespace = <!-- need to have it blanked to restrict it to main namespace. prevents category pages from being included-->
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦:spy weapons/dpl}
+| mode = userformat
+}}
+|}
+
+== Notes ==
+*If the player has the [[Invisibility]] [[buff]] while holding a dagger, their [[rogue stealth]] build rate is increased by 20%, even while they are moving.
+{{-}}
+{{Master Template Weapons
+| show-main  = yes
+| show-rogue = yes
+}}
+
+[[Category:Weapon items| ]]
+[[Category:Daggers|*]]

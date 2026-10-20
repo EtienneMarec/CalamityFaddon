@@ -1,0 +1,58 @@
+{{dedicated|Commander Frostbite|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| rare = 4
+| sell = {{value|0|2|40}}
+| damage = 15
+| mana = 10
+| knockback = 2
+| use = 24
+| tooltip = Summons a mini dragon to fight for you<br/>The dragon can inflict several debilitating debuffs if you hold a summon weapon or tool
+| buff = Caustic Dragon (buff) | bufflink = no
+| bufftip = A mini jungle dragon is following you
+| stack = 1
+| auto = yes
+| hardmode = yes
+| debuff = Marked
+| debuffduration = 1-3 seconds
+| debuffchance = 100%
+| debuff2 = Ichor (debuff)
+| debuffduration2 = 1-3 seconds
+| debuffchance2 = 100%
+| debuff3 = Venom
+| debuffduration3 = 1-3 seconds
+| debuffchance3 = 100%
+| debuff4 = Cursed Inferno
+| debuffduration4 = 1-3 seconds
+| debuffchance4 = 100%
+| debuff5 = On Fire!
+| debuffduration5 = 1-3 seconds
+| debuffchance5 = 100%
+| proj = Caustic Thorn.png
+| projcaption = Caustic Thorn
+| element1 = Poison
+| element2 = Stab
+}}
+{{summoned|Caustic Dragon|type=minion}}
+{{distinguish|Caustic Croaker Staff|a [[Pre-Hardmode]] [[sentry]]-summoning [[summon weapon|weapon]]}}
+
+The '''Caustic Staff''' is a craftable [[Hardmode]] [[summon weapon]]. When used, it summons a black Caustic Dragon minion that flies behind the player and attacks nearby enemies by firing gravity-affected thorns that pierce through tiles and up to two enemies. While the player is holding a summon weapon or [[tool]], the thorns will cycle through and inflict one of the following [[debuffs]] for 1-3 seconds in this repeating order:
+*[[Marked]]
+*[[Ichor (debuff)|Ichor]]
+*[[Venom]]
+*[[Cursed Inferno]]
+*[[On Fire!]]
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The debuffs inflicted from the thorns must time out and cannot be refreshed before the next debuff can be applied.
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

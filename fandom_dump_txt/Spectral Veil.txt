@@ -1,0 +1,31 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = The inside of the cloak is full of teeth...<br/>Allows you to dodge attacks
+The dodge has a 70 second cooldown<br/>This cooldown is shared with all other dodges and reflects<br/>Provides 10% increased movement speed<br/>Stealth generates 20% faster while moving
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Signus, Envoy of the Devourer]]|1|10%
+}}
+}}
+
+The '''Spectral Veil''' is a Godseeker Mode [[Spy]] [[covering]] dropped by [[Signus, Envoy of the Devourer]].  the player is a granted a guaranteed dodge that can only occur every 70 seconds. The item also increases movement speed by 10% and makes stealth generate 20% faster while moving.
+
+== Recipe ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Spectral Veil was implemented based on a community suggestion made by Hyperin on the mod's Discord server, where it was called "Signus' Cloak".
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

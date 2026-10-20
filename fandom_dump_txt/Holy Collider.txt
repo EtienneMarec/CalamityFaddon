@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 270
+| knockback = 7.75
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| auto = yes
+| use = 21
+| velocity = 10
+| tooltip = Striking enemies will cause them to explode into holy fire
+| hardmode = yes
+| postml = yes
+| proj = Holy Collider Fire.gif
+| projcaption = Holy Collider Fire
+| element1 = Fire
+| element2 = Holy
+}}
+|{{item drops infobox
+| [[Providence, the Profaned Goddess]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Holy Collider''' is a Godseeker Mode [[broadsword]] that autoswings. It is dropped by [[Providence, the Profaned Goddess]]. Upon striking an enemy, it spawns eight holy flames in an octagonal pattern that spread outwards before homing onto the closest enemy shortly after. The flames spread out faster horizontally than they do vertically, and will dissipate after one second if they did not hit an enemy. The flames can go through blocks and do not pierce.
+
+{{modifier|melee}}
+
+== Notes ==
+*If the sword strikes a large or slow enemy, the spawned flames will often hit the same enemy immediately and deal several times the sword's damage.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]

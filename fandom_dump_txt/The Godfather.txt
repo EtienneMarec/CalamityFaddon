@@ -1,0 +1,86 @@
+{{Addon|Calamity: Community Remix}}
+{{item infobox
+| image = The_Godfather.gif
+| type = Covering
+| stack = 1
+| tooltip = All effects of ingredients<br/>Additionally:<br/>Extends the duration of potion buffs by 200% and potion buffs remain active even after you die<br/>Summons an evolved slime core to fight for you<br/>All wild slimes will fight for you<br/>Hit the Plague Pack key to launch yourself towards your cursor while ignoring damage with a 20 second cooldown<br/>All weapons including true melee have a chance to fire out mini birbs, shrooms, sigils, and miniature suns<br/>Removes all of the Abyss' hindering effects<br/>Provides a 20% chance to revive upon dying with a cooldown of 50 seconds<br/>Immunity to electric-based attacks<br/>'It insists upon itself'
+| rare = 15
+| sell = {{value|0|32}}
+| hardmode = yes
+| postml = yes
+| debuff = Brimstone Flames
+| debuffduration = Varies (When struck)
+| debuffchance = 100%
+| debuff2 = God Slayer Inferno
+| debuffduration2 = Varies (When struck)
+| debuffchance2 = 100%
+| debuff3 = Sulphuric Poisoning
+| debuffduration3 = Varies (When struck)
+| debuffchance3 = 100%
+| debuff4 = Irradiated
+| debuffduration4 = Varies (When struck)
+| debuffchance4 = 100%
+| debuff5 = Confused
+| debuffduration5 = Varies (When struck)
+| debuffchance5 = 100%
+| debuff6 = Glacial State
+| debuffduration6 = Varies (When struck)
+| debuffchance6 = 100%
+| debuff7 = Pearl Aura
+| debuffduration7 = Varies (When struck)
+| debuffchance7 = 100%
+| debuff8 = Plague
+| debuffduration8 = 2, 4, or 6 seconds (On attack)<br/>5 seconds (Bee/wasp projectiles)<br/>3 seconds (Plague Seekers)
+| debuffchance8 = 100%
+| element1 = Cold
+| element2 = Fire
+| element3 = Stab
+| element4 = Dark
+| proj = Aura Rain.png
+| projcaption = Shade Rain
+| proj2 = Plaguenade Bee.gif
+| proj2caption = Plague Seeker
+| proj3 = Mini Swarmer.gif
+| proj3caption = Mini Swarmer
+}}
+{{summoned|image=[[File:Godless Spawn, Noxus.gif|200px]]|Godless Spawn, Noxus}}
+
+'''The Godfather''' is a craftable Godseeker Mode [[covering]]. While worn it has the following effects:
+*Increased damage by 35%, and the damage of players on the same team by 17%. 
+*True melee damage is increased by 40% after being struck.
+*5% increased max life.
+*5% increased jump and movement speed.
+*15% increased damage reduction.
+*30 defense.
+*1% reduced stealth costs.
+*Getting hit causes an exosplosion and enemies to take 33,000 flat damage.
+*When invincibility is active (i.e. when the player is damaged, enters the world or uses the [[Magic Mirror]]), shade, stars and brimstone fire rains from the sky, dealing 300 Typeless damage which can be affected by the average of all damage bonuses.
+*Also when invincibility is active, the player is trailed by mushrooms and sends out sparks in multiple directions.
+*Standing still causes a Pearl Aura to generate around the player which slows down enemies within it and increases the player's defense by 50 and life regeneration by 5. Team mates receive 25 defense and 2 life regeneration.
+*Using any weapon including true melee weapons will have a 10% chance to fire out a rapid homing Mini Birb, mushroom, sigil, or a miniature sun that pulls in enemies.
+*Every 0.33 seconds, either a sulphuric cloud, a ball of toxic sea brine, a homing plague bee, or a spore is generated which deals 500 Typeless damage to enemies that come into contact with them.
+*The player's life slowly drains at a rate of about 3 per second, stopping once the player hits 25% health. As the player's life decreases from this effect, they gain 1% damage per every 5 health lost, usually resulting in a boost of up to 75% damage.
+*At all times, enemies in a 22.5-34.75 tile radius are inflicted with [[Brimstone Flames]], [[Confused]], [[Glacial State]], [[God Slayer Inferno]], [[Irradiated]], and [[Sulphuric Poisoning]] for 5-8 seconds when the player is struck. The range and debuff duration both increase based on the damage taken.
+*5% of enemy damage is turned into healing.
+*The durations of all [[potion]] [[buffs]] are extended by 200%, and potion buffs remain active after dying.
+*Dying revives the player inside of a shell that lasts for 3 seconds which makes the player unable to move. This ability has a 30 second cooldown.
+*Passively generates an energy shield that takes a single hit. It takes 30 seconds to generate.
+*A critical slime core is summoned which rams enemies, fires deathrays and homing bolts at them, and releases pulses that inflict God Slayer Inferno. All attacks heal the player. Any encountered wild slimes, including bosses, will be assimilated into the slime core, boosting its damage by 5% of the slime's health for a maximum of 300% of the core's original damage.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Critical Slime Core's current sprite is reused from a concept of [[Purgatory Arbiter, Umbrus]], before it was introduced with a different design.
+
+{{exo}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

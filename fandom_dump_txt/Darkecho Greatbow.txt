@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 37
+| knockback = 4
+| rare = 5
+| sell = {{value|0|7|20}}
+| stack = 1
+| auto = yes
+| velocity = 16
+| use = 22
+| tooltip = Fires two arrows at once<br/>Fires an additional crystal dart
+| hardmode = yes
+| proj = Crystal Dart.png
+| projcaption = Crystal Dart
+| element1 = Holy
+| element2 = Stab
+}}
+
+The '''Darkecho Greatbow''' is a craftable [[Hardmode]] [[bow]]. It fires 2 arrows at once and a crystal dart that bounces around, hitting up to 3 targets nearby.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+
+{{Cryonic}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

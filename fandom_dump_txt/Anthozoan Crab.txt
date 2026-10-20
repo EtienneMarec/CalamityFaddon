@@ -1,0 +1,40 @@
+{{npc infobox
+| type = Enemy
+| environment = Sulphurous Sea
+| ai = Anthozoan Crab AI
+| damage = {{dv|45|90}} (Contact)<br/>{{dv|58|116}} (Boulder)
+| life = {{dv|920|1840}}
+| defense = 22
+| knockback = {{dv|96%|96.4%}}
+| banner = yes
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| duration = 3 seconds
+| money = {{sc|2}}
+| Corroded Fossil| 1 | 6.67%
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| hurt = NPC_Hit_38.wav
+| killed = NPC_Killed_46.wav
+| resistant1 = Poison
+| resistant2 = Water
+| resistant3 = Slash
+| resistant4 = Smash
+| vulnerable1 = Stab
+}}
+
+The '''Anthozoan Crab''' is a Pre-hardmode [[enemy]] that spawns in the [[Sulphurous Sea]] after the [[Aquatic Scourge]] has been defeated. It attacks by quickly running at the player and occasionally stopping to throw rocks at the player. It will leap backwards when the player gets too close to it.
+
+== Notes ==
+*It is one of the only sources of [[Corroded Fossil]]s outside of the [[Acid Rain]] [[Event]].
+
+== Trivia ==
+*[[wikipedia:Anthozoa|Anthozoa]] refers to a class of marine invertebrates (animals without backbones) that includes sea anemones and corals.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

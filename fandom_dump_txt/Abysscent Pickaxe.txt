@@ -1,0 +1,38 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 132
+| pick = 325
+| knockback = 6.5
+| rare = C2
+| bonus = +5 range
+| use = 8
+| toolspeed = 4
+| tooltip = Can mine Stiriatic Ore
+| sell = {{value|0|50|0|0}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+Abysscent Pickaxe is a craftable Post-[[Purgatory Arbiter, Umbrus]] pickaxe. It has a pickaxe power of 325% so it is capable of mining [[Stiriatic Ore]].
+
+==Crafting==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+
+==Trivia ==
+*The Pickaxes sprite is heavily inspired by the [[Crystyl Crusher]]
+*Despite being called "Abysscent" Pickaxe, it uses [[Skyline Tooth]], which are Lacelineous ingredients.
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

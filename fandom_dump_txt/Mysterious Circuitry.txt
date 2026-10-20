@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+|type = Crafting material
+| stack = 9999
+| rare = a
+| sell = {{value|0|0|6|0}}
+}}
+|{{item drops infobox
+| [[Armored Digger]]|4-8|100%
+| [[Cyber Draedon]] {{fantag|Calamity: Community Remix}}|20-50|100%
+| [[The Twins]] ([[Draedon's Remote]])|8-16|100%
+| [[The Destroyer]] ([[Draedon's Remote]])|8-16|100%
+| [[Skeletron Prime]] ([[Draedon's Remote]])|8-16|100%
+}}
+}}
+
+'''Mysterious Circuitry''' are [[crafting material]]s obtained by smelting [[Silicon Ore]] found within the [[Ocean]] and [[Sulphurous Sea]]. They can also be obtained by using a [[Draedon Power Cell]] on a [[Extractinator]] with a 2.5% chance, or breaking [[Lab Turret]]s. They are used to craft various [[weapons]] alongside [[Dubious Plating]].
+
+Crafting all weapons from Draedon's Arsenal would cost 310 Circuitry, Crafting the single decoration would bring that to 314.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+
+{{Draedon's Arsenal}}
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

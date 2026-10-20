@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 42
+| use = 25
+| knockback = 6.75
+| auto = yes
+| stack = 1
+| tooltip = Inflicts cursed inferno and critical hits reduce enemy defense by 10
+| debuff = Cursed Inferno
+| debuffduration = 2 seconds
+| debufftip = Losing life<br/>All damage taken increased by 20%
+| debuffchance = 100%
+| rare = 2
+| sell = {{value|0|0|40}}
+| element1 = Unholy
+| element2 = Slash
+}}
+
+The '''Corrupted Crusher Blade''' is a craftable [[Hardmode]] [[broadsword]]. When swung, it emits glowing purple particles and inflicts the [[Cursed Inferno]] [[debuff]] upon striking enemies. While no [[bosses]] are alive, critical strikes caused by this weapon reduce the target's base defense by 10, which cannot stack with itself.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*It is considered a good early game weapon due to its high damage and low crafting cost.
+*It is the [[Corruption]] variant of the [[Crimson Crusher Blade]].
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:腐化碾碎刃]]

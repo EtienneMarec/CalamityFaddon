@@ -1,0 +1,19 @@
+{{Historical content}}
+{{Addon|Tranquility Mod}}
+{{buff infobox
+| image = Envoidment.png
+| type = Debuff
+| effects = After some time has passed, the target starts to lose their HP expotentially. The tagret as well has their defense and damage reduction lowered to 0.
+| tooltip = Omnia ad nihilum
+}}
+
+The '''Envoidment''' is an uninflictable debuff that nullifies the [[Defense|defense]] and damage reduction of whoever this debuff is inflicted on. After 3 seconds since this debuff has been inflicted, the target will lose 1 HP for the first second, but then the damage amount will increase by 1 every frame, capping at 900 HP per second after 15 seconds with this debuff inflicted has passed.  <!---This debuff will become inflictable in some of the future updates.--->
+
+== Trivia ==
+*This debuff's tooltip, "Omnia ad nihilum" roughly translates from Latin as "all to nothing".
+
+{{Unobtainable}}
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

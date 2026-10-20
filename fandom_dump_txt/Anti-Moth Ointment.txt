@@ -1,0 +1,19 @@
+{{item infobox
+| type = Tool
+| stack = 1
+| tooltip = Favorite this item to prevent prismatic lacewings from spawning near you
+| rare = 7
+| sell = {{value|0|1}}
+| hardmode = yes
+}}
+
+The '''Anti-Moth Ointment''' is a craftable [[Hardmode]] [[spawn-blocking]] [[tool]]. While the item is favorited in the player's inventory, [[tgc:Prismatic Lacewing|Prismatic Lacewing]] spawns are disabled.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-other = yes
+}}

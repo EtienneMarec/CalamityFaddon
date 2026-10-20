@@ -1,0 +1,89 @@
+{{historical content}}
+
+{{revengeance mode only|nocat=y}}
+{{item infobox
+| name = The Stress Bar
+| image = Stress bar.gif
+}}
+
+'''Stress''' was a mechanic added in [[Revengeance Mode]] which increased or decreased over time. Many factors such as the biome the player character was in, the time of day, the presence of bosses, and more contributed to altering the rate of stress gain or loss. For each 1,000 stress the player had, they gained +1% increased damage and crit chance but -2 defense and -2% damage reduction. At the maximum stress level of 10,000, the player would have gained +10% damage and crit chance but lost 20 defense and 20% damage reduction.
+
+Having too much stress could cause the player to experience a few randomly inflicted effects, such as:
+*The [[Horror]] [[debuff]], which increased stress generation and made the player more likely to get the [[Absolute Rage|Heart Attack]] debuff.
+*The Heart Attack [[debuff]] when the player had 9800 or more stress, which dealt 200 damage to the player and reduced damage dealt by 30% during the day, but provided a number of benefits during the night. It lasted 4 minutes.
+
+When the [[Heart of Darkness]] or [[Draedon's Heart]] was equipped, some [[buffs]] could be inflicted depending on how much stress the player had. All these buffs lasted 10 seconds. The chance of these buffs happening were also affected by the [[Horror]] debuff.
+*The [[Rage Potion|Rage]] buff could be afflicted when the player had 2000 stress or more.
+*The [[Wrath]] buff could be afflicted when the player had 4000 stress or more.
+*The [[Battle]] buff could be afflicted when the player had 6000 stress or more.
+*The [[Zerg]] buff could be afflicted when the player had 8000 stress or more.
+
+== Manipulating Stress ==
+The following situations were known to '''increase''' stress gain:
+*Nighttime
+*Being in certain biomes such as:
+**[[Astral Meteor]]
+**[[Cavern]]
+**[[Corruption]]
+**[[Crimson]]
+**[[Dungeon]]
+**[[Jungle]]
+**[[Meteorite (biome)|Meteorite]]
+**[[Brimstone Crag|Profaned Crag]]
+**[[Sky]]
+**[[Snow biome]]
+**[[Underground]]
+**[[Desert|Underground Desert]]
+**[[The Underworld]]
+*[[Events]] such as sandstorms or Moons
+*[[Celestial Pillars]]
+*Being submerged in [[Water]] without any water breathing effects such as [[Gills]].
+*Being submerged in [[Lava]] without any Lava immunity effects such as wearing the [[Lava Charm]].
+*Taking damage
+*Drowning
+*Dying
+*Being inflicted with [[Horror]].
+*[[???]] or [[Anahita|The Siren]]
+*Wearing the [[Heart of Darkness]]
+*Wearing [[Draedon's Heart]] in a visible [[covering]] slot
+
+The following situations were known to '''decrease''' stress gain:
+*Daytime
+*Proximity to [[NPCs]]
+*Being in certain biomes such as:
+**[[Ocean]]
+**[[Glowing Mushroom biome]]
+**[[The Hallow]]
+*Being near a [[Sunflower]]
+*Being near a [[Campfire]]
+*Being near a [[Heart Lantern]]
+*Being near a [[Peace Candle]]
+*Being under the [[Well Fed]] buff
+*Being under the [[Dryad’s Blessing]] buff
+*Drinking a [[Calming Potion]]
+*Talking to any female NPC.
+*Wearing the [[Stress Pills]]
+*Wearing the [[Laudanum]]
+*Wearing [[Draedon's Heart]] in an invisible covering slot
+These various factors change the amount by which the player's stress increases or decreases whenever it is updated. However, the frequency of these updates can be changed:
+*Holding a [[Demon Torch]] doubles the frequency of stress updates
+*Holding a normal torch or [[Ultrabright Torch]] halves the frequency of stress updates
+These items do not alter the amount that stress is increased or decreased by when it updates.
+
+== Stress-Related Items ==
+*{{item|Laudanum}}, which reduced stress gain, gave stat boosts when over 500 stress, and granted immunity to the [[Horror]] [[debuff]].
+*{{item|Stress Pills}}, which reduced stress gain and gave stat boosts if the player had less than 500 stress.
+*{{item|Heart of Darkness}}, which massively boosted stress gain while removing most of its negative effects.
+*{{item|Draedon's Heart}}, which could increase or decrease stress very quickly when equipped, while removing most of its negative effects.
+*{{item|Affliction}}, which gave many different stat boosts depending on your stress.
+*{{item|Lunic Eye}}, which reduced stress when held.
+
+== Tips ==
+*A Demon Torch could be held while under many stress-reducing factors (Campfire, Heart Lantern, Sunflower, etc.) to quickly empty the stress bar.
+
+== Trivia ==
+*The Stress mechanic was inspired by the game ''[[wikipedia:Darkest Dungeon|Darkest Dungeon]]'', in which it is a significant and debilitating mechanic that must be managed carefully.
+*Since the [[1.2.4.101]] update, Stress has been replaced with [[Rage Mode]] and [[Adrenaline Mode]], and the Stress Meter has been replaced with the [[Rage Meter]] and [[Adrenaline Meter]]. All Stress-related items, buffs and debuffs have also been changed to either not be based on anything or to use Rage instead of Stress.
+
+{{Historical}}
+{{Game mechanics}}

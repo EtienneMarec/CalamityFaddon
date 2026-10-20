@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 20
+| mana = 8
+| tooltip = Casts a mana flower that explodes into petals
+| knockback = 3.25
+| velocity = 10
+| rare = 2
+| sell = {{value|0|0|40}}
+| use = 38
+| stack = 1
+| proj = Mana Rose (projectile).png
+| projcaption = Mana Flower
+| proj2 = Mana Petal.png
+| proj2caption = Mana Petal
+| element1 = Poison
+}}
+{{distinguish|Mana Flower|an [[covering]]}}
+
+The '''Mana Rose''' is a craftable [[Pre-Hardmode]] [[wand]]. It shoots a blue flower that decelerates into a complete stop. After three seconds have passed or upon contact with any enemy or blocks, it will explode into an even spread of six damaging small blue petals. Three petals move forwards with homing properties and a blue dust trail, and the remaining three with green dust trail move in the opposite direction. Both petal variants deal 50% of the main damage and last one second before dissipating.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

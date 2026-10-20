@@ -1,0 +1,18 @@
+<includeonly>
+{{#dplvar:set|vulnerable|no}}
+{{#ifeq:{{{immuneall|no}}}|no|{{#forargs:immune|number|name|{{#ifeq:{{#var:name}}|{{ROOTPAGENAME}}|
+{{!}}-
+{{!}} {{!}} {{item|mode=table|{{{name|{{{%PAGE%}}}}}}|link={{{%PAGE%}}}|image={{#if:{{{imagealt|}}}|{{#invoke:String|match|s={{{imagealt|}}}|pattern=File:(.-){{!}}|nomatch=}}|{{#if:{{{image}}}|{{{image|}}}|{{{name|{{{%PAGE%}}}}}}.png}} }}|size={{#if:{{{imagealt|}}}|{{#invoke:String|match|s={{{imagealt|}}}|pattern={{!}}(.-px)|nomatch=}} }} }} {{#if:{{{namesub|}}}|<span style="color:slategray; font-size:80%;">({{{namesub}}})</span>}}
+{{!}}-
+|}}
+}}|{{#forargs:immune|number|name|{{#ifeq:{{#var:name}}|{{ROOTPAGENAME}}|{{#dplvar:set|vulnerable|yes}}}}}}{{#ifeq:{{#dplvar:vulnerable}}|no|
+{{!}}-
+{{!}} {{!}} {{item|mode=table|{{{name|{{{%PAGE%}}}}}}|link={{{%PAGE%}}}|image={{#if:{{{imagealt|}}}|{{#invoke:String|match|s={{{imagealt|}}}|pattern=File:(.-){{!}}|nomatch=}}|{{#if:{{{image}}}|{{{image|}}}|{{{name|{{{%PAGE%}}}}}}.png}} }}|size={{#if:{{{imagealt|}}}|{{#invoke:String|match|s={{{imagealt|}}}|pattern={{!}}(.-px)|nomatch=}} }} }} {{#if:{{{namesub|}}}|<span style="color:slategray; font-size:80%;">({{{namesub}}})</span>}}
+{{!}}-
+|}}
+}}
+</includeonly>
+<noinclude>
+{{Dpl pages}}
+[[Category:DPL]]
+</noinclude>

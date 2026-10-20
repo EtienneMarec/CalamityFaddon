@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 88
+| knockback = 8.5
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| auto = yes
+| use = 17
+| velocity = 11
+| tooltip = Fires a lance beam
+| hardmode = yes
+| proj = Terra Lance Spear.png
+| projcaption = Terra Lance
+| proj2 = Terra Lance Beam.png
+| proj2caption = Terra Lance Beam
+| element1 = Poison
+| element2 = Stab
+}}
+
+The '''Terra Lance''' is a craftable [[Hardmode]] [[spear]]. When swung, it will fire out a projectile that deals 70% of the spear's damage and knockback, pierces infinite enemies, and goes through blocks.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Terra}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

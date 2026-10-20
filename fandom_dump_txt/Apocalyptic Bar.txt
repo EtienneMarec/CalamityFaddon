@@ -1,0 +1,30 @@
+{{item infobox
+| image = Apocalyptic Bar.png
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 9999
+| rare = 7
+| sell = {{value|0|2|0|0}}
+| use = 14
+| placeable = yes
+| consumable = yes
+| auto = true
+| hardmode = yes
+| postml = no
+| tooltip = A pure bar of metamorphosed apocalyptic metal
+}}
+
+'''Apocalyptic Bars''' are post-[[Golem]] [[bars]] made with 3 [[Apocalyptic Ore]] and a [[Beetle Husk]] at any [[Hardmode Forges|Hardmode Forge]]. They are used to craft various items themed around death, destruction, plague, and poison.
+
+== Crafting ==
+=== Recipes ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

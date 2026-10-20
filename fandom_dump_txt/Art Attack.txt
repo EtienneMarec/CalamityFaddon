@@ -1,0 +1,35 @@
+{{dedicated|Broken Faucet|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 520
+| knockback = 2
+| velocity = 12
+| mana = 10
+| tooltip = Casts a star that follows the mouse that creates a rainbow trail as it moves<br/>Once a full shape is created with the trail all enemies within it take damage proportional to how long it took to draw the shape<br/>And the audience goes wild!
+| use = 24
+| auto = yes
+| rare = 7
+| stack = 1
+| sell = {{value|0|9|60}}
+| hardmode = yes
+| proj = Art Attack Star.png
+| projcaption = Art Attack Star
+| element1 = Magic
+}}
+
+The '''Art Attack''' is a craftable [[Hardmode]] [[wand]]. Upon use, it fires a star with a rainbow trail that follows the mouse cursor. It initially deals no damage until a full shape with the trail is completed. All enemies within the completed shape emit rainbow dust and get damaged for 1x initially, and up to 2.3x after 4.5 seconds.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+== Trivia ==
+*The Art Attack is a reference to a [https://www.mariowiki.com/Art_Attack special move of the same name] from ''[[wikipedia:Paper Mario: The Thousand-Year Door|Paper Mario: The Thousand-Year Door]]'', which lets the player draw circles around enemies to harm them. Its appearance is based on the Ruby Star, which is the Crystal Star required to perform the move.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

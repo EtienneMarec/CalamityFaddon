@@ -1,0 +1,50 @@
+{{addon|Deimos, the Starborn Princess}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 22
+| knockback = 5
+| element1 = Stab
+| element2 = Magic
+| element3 = Holy
+| rare = 13
+| sell = {{gc|24}}
+| stack = 1
+| use = 14
+| velocity = 32
+| auto = yes
+| tooltip = Converts wooden arrows into bolides<br/>Fires a barrage of arrows and comets
+| hardmode = yes
+| postml = yes
+| debuff = Embers of Duality
+| debufftip = Celestial voids are manifesting around you; defense and damage reduction reduced
+| debuffchance = 100%
+| debuffduration = 2 seconds (Bolide Arrow)
+| debuff2 = God Slayer Inferno
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (Galactica Comet)
+| debufftip2 = Your flesh is burning off
+| proj = Galactica_Comet.png
+| projcaption = Galactica Comet
+| sound = Item_12.wav
+| soundtext = Use
+| sound2 = Item_92.wav
+| sound2text = Galactica Comet
+}}
+|{{item drops infobox
+| {{fantag|Deimos, the Starborn Princess}} [[The Starborn Moth]]|1|{{dv|33.33%|50%}}
+}}
+}}
+
+The '''Bolide Launcher''' is a Godseeker Mode [[bow]] that drops from [[The Starborn Moth]]. When [[Wooden Arrow]]s are used as ammunition, they are converted into bright bolides that can pierce up to four targets and will phase through tiles. The weapon will additionally fire a spread of two Galactica Comets that inflict the [[God Slayer Inferno]] [[debuff]]. These comets deal 250% of the weapons damage and unlike Galactica Comets fired from the [[Starmada]], they do not phase through tiles.
+
+{{modifier|ranged}}
+
+== Recipe ==
+{{recipes|result={{PAGENAME}}}}
+
+{{-}}
+{{Fae}}
+{{DeimosMod}}
+[[Category:Bows]]

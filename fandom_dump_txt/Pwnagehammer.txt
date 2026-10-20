@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 210
+| critical = 14%
+| auto = yes
+| use = 47
+| knockback = 10
+| damagetype = Melee
+| rare = 6
+| tooltip = Throws a heavy, gravity-affected hammer that creates a loud blast of hallowed energy when it hits something<br/>There is a 20 percent chance for the hammer to home in on a target<br/>Homing hammers summon an additional spectral hammer on hit and are guaranteed to land a critical hit
+| sell = {{value|0|9|60}}
+| velocity = 12
+| stack = 1
+| hardmode = yes
+| proj = Spectral Hammer.png
+| projcaption = Spectral Hammer
+| element1 = Holy
+| element2 = Smash
+}}
+[[File:Pwnagehammer (demo).gif|frame|right|The Pwnagehammer being used.]]
+
+The '''Pwnagehammer''' is a craftable [[Hardmode]] [[melee weapon]]. It throws a slow-moving gravity-affected hammer which cannot pass through tiles and will travel a short distance before falling. The hammer has a 20% chance to home in on enemies; homing hammers will spawn an additional homing spectral hammer upon hitting an enemy. All hammer projectiles explode and damage nearby targets; the normal hammer deals 75% damage, the homing hammer deals 125% damage and will always critically hit, the spectral hammer deals the same damage as its base damage.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Despite using a [[Pwnhammer]] in crafting, it cannot be used as a regular hammer.
+*Its high damage may initially make it seem very powerful, but the speed of the weapon is slow to balance it out.
+*When it explodes, it emits a decent area of light, which the homing hammer doubles.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}

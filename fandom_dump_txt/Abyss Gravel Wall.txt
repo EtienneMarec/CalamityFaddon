@@ -1,0 +1,35 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| use = 14
+| color = #293850
+| sell = No value
+}}
+
+'''Abyss Gravel Walls''' are background [[wall]]s that are naturally generated in the [[Abyss]]. Naturally-generated walls cannot be destroyed or collected and spawn water in front of them whenever a nearby tile updates. Safe versions of Abyss Gravel Walls can be crafted from [[Abyss Gravel]], which have the same appearance but do not release water.
+
+After defeating [[Polterghast]], Natural Abyss Gravel Walls can rarely be found orbiting player-placed [[tgc:Torches#Jungle_Torch_2|Jungle torches]] a sinusoidal pattern, replacing other natural walls in the process.
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+After defeating [[Polterghast]], the recipe for [[Abyss Gravel Wall]] changes, and the pre-[[Polterghast]] recipe can no longer be used. Note that the second recipe, after [[Polterghast]], the crafted [[Abyss Gravel Wall|Abyss Gravel Walls]] are actually Natural Abyss Gravel Walls when placed and cannot be mined.
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+== Notes ==
+*The walls' own water generation counts as a tile update for adjacent walls so that they generate water as well. This may lead to a chain reaction, which is useful for filling sections of the Abyss that may have generated without water.
+*Because the recipe for Abyss Gravel Walls post [[Polterghast]], is expensive, [[tgc:Torches#Jungle_Torch_2|Jungle torches]] are the best way to create Natural Abyss Gravel Walls. [[tgc:Torches#Jungle_Torch_2|Jungle torches]] are also the best way to quickly fill an area with water. Because of this, speedrunners often place [[tgc:Torches#Jungle_Torch_2|Jungle torches]] when fighting [[Supreme Calamitas]] in order to drown them.
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-walls = yes
+}}
+[[zh:深渊砾石墙]]

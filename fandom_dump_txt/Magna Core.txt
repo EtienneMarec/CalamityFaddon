@@ -1,0 +1,29 @@
+{{Addon|Calamity: Community Remix}}
+{{item infobox
+| image = Magna Core.gif
+| type = Covering
+| tooltip = 30% increased magic damage, 25% increased magic critical strike chance, and 100% decreased mana usage<br/>+250 max mana<br/>Increases pickup range for mana stars<br/>Using a Mana Potion causes a burst of granite energy to assault enemies
+| rare = 15
+| sell = {{value|0|35}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Magna Core''' is a craftable Godseeker Mode [[covering]], which is an upgrade to the [[Ethereal Talisman]] and the final upgrade to the [[Sorcerer Emblem]]. It provides a 30% increase to magic damage, a 25% increase to magic critical strike chance, a 100% decrease in mana usage, +250 max mana, and increases pickup range for mana stars. When any [[Mana Potion]] is used, a burst of 8 large granite energy spheres will launch outwards from the player and violently home in on enemies. The energy spheres deal 20,000 magic damage and pierce 5 times each. This ability has a cooldown of 20 seconds.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Ashes of Annihilation}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+
+[[Category:Healing items]]
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

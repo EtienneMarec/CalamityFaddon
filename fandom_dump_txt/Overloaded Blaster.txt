@@ -1,0 +1,43 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 16
+| use = 17
+| knockback = 1.5
+| velocity = 6.5
+| auto = yes
+| stack = 1
+| tooltip = 33% chance to not consume gel<br/>Fires a large spread of bouncing slime
+| rare = 4
+| debuff = Slime (debuff)
+| debufftip = You are dripping slime
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| sell = {{value|0|2|40}}
+| image2 = Overloaded Blaster (tank).png
+| image2caption = Equipped tank
+| proj = Slime Bolt.png
+| projcaption = Slime Bolt
+| element1 = Poison
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[The Slime God]]|1|{{dv|25%|33.33%}}
+}}
+}}
+The '''Overloaded Blaster''' is a [[Pre-Hardmode]] [[Flamethrowers|flamethrower]] that is dropped by [[The Slime God]]. It fires a spray of 5 small projectiles in a wide, random spread. The projectiles bounce once off of tiles, then fall to the ground once they bounce.
+
+{{Modifier|ranged}}
+
+== Notes ==
+*The Overloaded Blaster noticeably differs from other flamethrowers, lacking a well-defined stream or the typical sound effect. However, it is alike them in that it consumes [[Gel]] as ammo and is affected by the [[Shroomite Visage]].
+
+== Trivia ==
+*The weapon's design is similar to that of the [https://splatoonwiki.org/wiki/Splattershot Splattershot] type weapon from the ''[[wikipedia:Splatoon|Splatoon]]'' franchise.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

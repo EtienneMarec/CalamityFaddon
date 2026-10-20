@@ -1,0 +1,53 @@
+{{dedicated|Amadis|Developer}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 80
+| knockback = 7.25
+| rare = 16
+| sell = {{value|0|40}}
+| stack = 1
+| auto = yes
+| use = 23
+| velocity = 14
+| debuff = Daybroken
+| debuffchance = 100%
+| debuffduration = 10 seconds (Contact)<br/>3 seconds (Beam)
+| debufftip = Incinerated by solar rays
+| tooltip = Fires a draconic sword beam that explodes into additional beams<br/>Additional beams fly up and down to shred enemies
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Draconic Beam.png
+| projcaption = Draconic Beam
+| element1 = Fire
+| element2 = Cold
+| element3 = Slash
+}}
+[[File:Draconic Destruction (demo).gif|frame|Draconic Destruction's large area of effect. It is more effective against targets below the initial projectile's point of contact.]]
+
+The '''Draconic Destruction''' is a craftable Epilogue [[developer]] [[broadsword]] that autoswings. When swung, the sword shoots out a singular Draconic Beam in the direction of the cursor. When this beam hits an enemy or tile, it causes 8 secondary beams to shoot outwards from the location of impact in a radial shape. After reaching a certain distance, the secondary beams will disappear and create a wave of tile-ignoring beams to go down, then another wave up, then one final wave down again. All sword beams ignore NPC [[immunity frames]].
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*Because of the weapons large area of effect, it is more effective against larger targets, such as [[Leviathan]], in the [[Boss Rush]] event.
+
+== Trivia ==
+*This weapon actually has a unique rarity, but is referred to here as Hot Pink for consistency between weapons.
+**This unique rarity alternates between orange ({{color|#FF4500 ●|#FF4500}}) and dark red ({{color|#8B0000 ●|#8B0000}}) colors.
+*According to the dedicatee, the motion of the sword beams is meant to simulate a dragon's teeth crunching down.
+
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

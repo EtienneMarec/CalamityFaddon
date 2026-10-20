@@ -1,0 +1,36 @@
+{{item infobox
+| type = Ammunition
+| tooltip = Can hit up to three times<br/> Breaks into ice shards on last impact
+| damage = 10
+| damagetype = ranged
+| stack = 9999
+| knockback = 2
+| rare = 6
+| velocity = 5
+| velocitymult = 4
+| consumable = yes
+| hardmode = yes
+| buy = {{value|0|0|0|80}}
+| sell = {{value|0|0|0|16}}
+| debuff = Glacial State
+| debufftip = Cannot move and defense is shattered
+| debuffchance = 100%
+| debuffduration = 0.5 seconds (Bullet)
+| debuff2 = Frostburn
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance2= 100%
+| debuffduration2 = 3 seconds (Bullet)
+| proj = Icy Bullet (projectile).png
+| projcaption = Icy Bullet
+}}
+
+'''Icy Bullets''' are [[Hardmode]] [[bullets]] sold by the [[Archmage]] NPC for {{cc|80}} each after the defeating all three [[minibosses]] in the [[Frost Moon]] [[event]]. The bullets are able to pierce into enemies twice until they are broken upon hitting the third enemy. Each time a bullet breaks, it releases three to five ice shards that deal 50% less damage to everything.
+
+== Notes ==
+*The damage penalty the Ice Shards possess takes the gun's base damage into account.
+{{-}}
+{{Master Template Consumables
+|show-main=yes
+|show-ammo=yes
+}}
+[[Category:Bullets]]

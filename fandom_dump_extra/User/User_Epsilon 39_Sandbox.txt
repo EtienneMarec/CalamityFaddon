@@ -1,0 +1,38 @@
+{{Item infobox
+| type = Weapon
+| image = Heart Rapier.png
+| name = Heart Rapier
+| damagetype = Melee
+| damage = 38
+| knockback = 5
+| rare = 5
+| sell = {{value|0|7|20}}
+| stack = 1
+| use = 19
+| sspeed = 5
+| tooltip = Heals the player on enemy hits
+| hardmode = yes
+| listexclude = yes
+}}
+The '''Heart Rapier''' is a craftable [[Hardmode]] [[spear]]. Whenever it damages an enemy, it [[Lifesteal|heals]] the player for 5 HP. 
+
+Its best [[modifier]] is '''Godly'''.
+
+== Crafting ==
+=== Recipe ===
+{{crafting recipe
+| tool = Mythril Anvil
+| item1 = Life Crystal
+| amount1 = 10
+| result = Heart Rapier
+}}
+
+== Trivia ==
+*A rapier is a slender, pointed sword used by thrusting into the opponent.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]
+[[Category:Healing items]]

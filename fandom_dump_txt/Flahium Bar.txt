@@ -1,0 +1,26 @@
+{{Stub}}
+{{Item infobox
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 9999
+| rare = 16
+| tooltip = Incredibly unstable and purified Flah<br/>Decays if left for 3 days
+| sell = {{value|2|50}}
+| use = 14
+| placeable = yes
+| consumable = yes
+| auto = true
+| hardmode = yes
+| postml = yes
+}}
+'''Flahium Bars''' are Godseeker Mode [[bars]] that are made from holding [[Uncharged Flahium]] in the inventory for 60 in-game minutes. They can be used in creating some very powerful items that can be used against the various [[Superboss]]es. Flahium bars will become [[Decayed Flahium]] within 72 minutes of being crafted if not used in anything.
+
+==Crafting==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Flah}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

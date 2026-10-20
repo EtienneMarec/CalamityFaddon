@@ -1,0 +1,48 @@
+{{npc infobox
+| type = Flying Enemy
+| ai = Cinderlamitas AI
+| environment = Hallow
+| damage = {{element|Holy}} {{dv|50|75}}
+| life = {{dv|7,000|20,000}}
+| defense = 10
+| dr = 15%
+| knockback = 100
+| money = {{value|0|0|1|0}}
+| debuff=Holy Flames
+| debuffchance=33.33%
+| duration = 5 seconds
+| debufftip= Dissolving from holy light
+| hardmode = yes
+| banner = no
+| immune1 = Confused
+| immune2 = Poisoned
+| immune3 = Kami Flu
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| resistant1 = Holy
+| resistant2 = Fire
+| resistant3 = Machine
+| vulnerable1 = Water
+}}
+
+''Cinderlamitas'' is a secret [[Hardmode]] [[mini boss]] encountered in the [[Hallow]] as part of the [[Falconer]]'s 300 {{item|Essence of Babil}} quest, or alternatively after completing 5 other quests. It is a [[Calamitas]] prototype converted to the religion of [[Providence, the Profaned Goddess]], and as such uses similarly themed moves.
+
+{{fantag|Deimos, the Starborn Princess}} It can also spawn as a miniboss in the [[Martian Madness]] event after [[The Starborn Moth]] is defeated.
+
+Cinderlamitas will attack the player with different patterns of Holy Flares, telegraphed by prayers and chanting which will appear in the player's chat:
+* A volley of torpedo projectiles which ignite platforms and blocks with screen-wide flames.
+* Two radial rotating bursts of Holy Flames from Cinderlamitas.
+* Three dashes which increase in acceleration. Cinderlamitas ignites and bursts after the third dash.
+* Revolving around the player and leaving flames which slowly home in on the player.
+
+=== In Death mode: ===
+Cinderlamitas will release gravity affected Holy Flame projectiles when injured. (These do not travel through blocks)
+
+==Trivia==
+*The metal plating's pattern is based on [[Cinderplate]].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

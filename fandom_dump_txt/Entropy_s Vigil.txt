@@ -1,0 +1,61 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 40
+| knockback = 2
+| mana = 10
+| rare = 7
+| sell = {{value|0|12}}
+| auto = yes
+| use = 24
+| stack = 1
+| velocity = 10
+| tooltip = Summons Calamitas and her brothers to protect you<br/>One minion trio takes two minion slots
+| buff = Blighted Eyes (buff) | bufflink = no
+| bufftip = Calamitas and her brothers will protect you
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debuffduration = 2 seconds (Laser, Flamethrower)
+| debufftip = Rapid health loss
+| hardmode = yes
+| proj = Brimstone Laser.png
+| projcaption = Brimstone Laser
+| element1 = Unholy
+| element2 = Fire
+| element3 = Smash
+}}
+|{{item drops infobox
+| [[Calamitas]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Calamitamini|type=minion}}
+
+The '''Entropy's Vigil''' is a [[Hardmode]] [[Summon weapons|summon weapon]] that is dropped by [[Calamitas]]. Upon use with two or more minion slots, the staff summons 3 miniature clones of Calamitas and her brothers, [[Catastrophe]] and [[Cataclysm]] (named Calamitamini, Catastromini, and Cataclymini respectively). Calamitamini will shoot brimstone lasers, Catastromini will charge into enemies, and Cataclymini will breathe brimstone flame. If the player has one minion slot remaining, only Calamitamini will be summoned.
+
+Entropy's Vigil is very similar to the [[Optic Staff]] in that it spawns minions based on a boss that each have their own form of attack; however, Entropy's Vigil does offer certain advantages over the Optic Staff. It spawns 3 separate minions instead of 2, the minions can travel through blocks and they can hit targets at a much higher speed.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Although the staff summons 3 minions, they only take up 2 minion slots.
+*Attempting to summon more minions than the limit will only respawn the Calamitamini without the brothers.
+**Therefore, the player should be careful when summoning the minions as fewer brothers may be gained.
+*This staff can be extremely powerful on stationary and big targets.
+
+== Trivia ==
+*This staff can be considered an indirect upgrade to the Optic Staff.
+*Just like the Optic Staff, the eyes retain some of their original name with "-mini" at the end.
+*This weapon was previously known as the "Blighted Eye Staff".
+
+== See Also ==
+*[[Cinders of Lament]], the [[exhumed]] version of this item. 
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

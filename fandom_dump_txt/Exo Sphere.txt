@@ -1,0 +1,34 @@
+{{npc infobox
+| imagealt = <Tabber>
+Default=[[File:Exo Sphere.png]]
+|-|
+Supercharged=[[File:Exo Sphere Charged.png]]
+</Tabber>
+| environment = Surface
+| environment2 = The Exosphere
+| type = Enemy
+| ai = Exo Sphere AI
+| life = {{dv|18,000|36,000}}
+| damage = {{element|Dark}} {{dv|150|300}} (Contact)
+| defense = 50
+| knockback = 40%
+| money = {{value|15|30|0|0|}}
+| Exo Prism | 1-2| 100%
+| immune1 = Kami Flu
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Magic
+| resistant1 = Poison
+| resistant2 = Water
+| resistant3 = Machine
+}}{{distinguish|The Exosphere|another thing that is called Exosphere}}
+
+The '''Exo Sphere (Japanese: エクソスフィア Ekusosufia)''' is an [[enemy]] found on the [[Surface]] during daytime, or in [[The Exosphere]]. it attacks by rolling quickly and jumping towards the player, causing a small explosion upon landing.
+
+It can be supercharged by the [[Exo Obelisk]] enemy, causing its lights to turn bright yellow. This will cause it to roll much faster, on top of gaining a permanent energy shield which increases its defense.
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 15
+| mana = 10
+| knockback = 0.5
+| use = 29
+| tooltip = Summons a baby blood crawler to protect you
+| buff = Baby Blood Crawler (buff) | bufflink = no
+| bufftip = The baby blood crawler will protect you
+| stack = 1
+| auto = yes
+| rare = 2
+| sell = {{value|0|0|40}}
+| element1 = Unholy
+| element2 = Stab
+}}
+{{summoned|Baby Blood Crawler|type=minion}}
+
+The '''Scab Ripper''' is a craftable [[Pre-Hardmode]] [[summon weapon]]. When used, it summons a tiny [[Blood Crawler]] minion, which flies around and latches onto nearby enemies. When latched, it deals contact damage in addition to causing damaging blood particles to rain from the sky. It is the [[Crimson]] counterpart to the [[Vile Feeder]].
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

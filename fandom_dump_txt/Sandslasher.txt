@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damage = 115
+| damagetype = Spy
+| rare = 7
+| stack = 1
+| sell = {{value|0|12}}
+| knockback = 5
+| use = 19
+| velocity = 7
+| auto = yes
+| hardmode = yes
+| tooltip = Throws a huge shuriken made out of fused sand unaffected by gravity which slowly accelerates horizontally<br/>It does more damage depending on how fast it goes horizontally and how long it has been flying for<br/>Stealth strikes periodically release sand clouds
+| proj = Duststorm Cloud.gif
+| projcaption = Duststorm Cloud
+| element1 = Fire
+| element2 = Slash
+}}
+
+The '''Sandslasher''' is a craftable [[Hardmode]] non-consumable [[Spy weapon]]. It automatically throws a large sand shuriken projectile that pierces twice and is unaffected by gravity. It speeds up horizontally and deals more damage as it travels, up to a maximum of +42 horizontal velocity and over 10x damage after 10 seconds. It cannot be fired directly upwards, it will curve to either the left or right when attempting to do so.
+
+Performing a [[stealth strike]] with the Sandslasher will cause the next shuriken to release sand clouds as it travels, which each deal 40% of the weapon's damage. The clouds are similar to the [[Duststorm in a Bottle]] and will move outwards from the blade, disappearing shortly after their creation.
+
+{{Modifier|Spy}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+*Although the maximum speed-based damage boost is incredibly high, it is very difficult to keep up with the projectile for the full 10 seconds, let alone hit the intended target. By the end of its duration, it is moving faster than a [[High Velocity Bullet]].
+
+== Trivia ==
+*This is the only item crafted with a [[Grand Scale]] that isn't also crafted with a weapon or covering.
+{{-}}
+{{Grand Scale}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}

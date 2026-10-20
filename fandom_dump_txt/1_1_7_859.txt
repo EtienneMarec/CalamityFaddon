@@ -1,0 +1,60 @@
+{{Patch infobox
+| image = Leviathan and Anahita (1.1.7.55).png
+| size = 350px
+| patchname = Leviathan Rework
+| release = 5/08/2017
+}}
+The '''1.1.7.859''' update reworked the [[Siren Lure and Leviathan]] boss fight along with making changes to several other [[bosses]]. 
+
+== Changes ==
+*[[Crabulon]] now takes up 8 NPC slots instead of 7.
+*Changed [[Cryogen]]'s 10% life message from "Cryogen's core is all that remains!" to "Cryogen is derping out!".
+*[[Desert Scourge]] now takes up 7 NPC slots instead of 5 and is now immune to all debuffs.
+*[[Harpy|Harpies]] now only drop [[Sky Glaze]] after the [[Eye of Cthulhu]] has been defeated.
+*Buffed [[Jungle Dragon, Yharon]]'s contact damage from {{dv|440|484}} to {{dv|450|585}} and he now has an increased DPS cap after he has been defeated previously.
+*[[The Plaguebringer Goliath]] changes:
+**Buffed health from {{dv|48,000|56,160}} to {{dv|50,000|58,500}}, her contact damage from {{dv|130|156}} to {{dv|190|228}}, and her defense from 40 to 55.
+**Buffed missile damage from 80 to {{dv|114|180}}.
+**Increased projectile damage counts as her health lowers.
+**Altered pattern of when she shoots missiles versus stingers.
+**Now despawns quicker.
+**Now takes up 12 NPC slots instead of 10.
+**Buffed [[Plaguebringer Shade]]'s contact damage from {{dv|110|132}} to {{dv|130|156}} and it now shoots less stingers.
+*[[Profaned Guardians]] changes:
+**Buffed main guardian's damage from {{dv|130|156}} to {{dv|175|227}}.
+**Main guardian now takes 1 damage from any attack that would take over half of its max health.
+*Buffed [[Providence, the Profaned God]]'s contact damage from {{dv|110|132}} to {{dv|140|182}} and gave her an increased DPS cap after she has been defeated previously.
+*[[Ravager]] no longer drops [[Ueliace Bar]]s.<!---Dropped 3-6--->
+*[[Signus, Envoy of the Devourer]] changes:
+**Buffed health from {{dv|250,000|300,000}} to {{dv|280,000|336,000}}, contact damage from {{dv|280|336}} to {{dv|310|372}}, and its defense from 50 to 70.
+**Buffed fireball damage from {{dv|200|240}} to {{dv|240|360}}.
+**Now takes up 15 NPC slots instead of 5.
+**Now despawns if the player gets too far away from it.
+**Increased charging speed.
+**Cosmic Lanterns no longer take up any NPC slots, nerfed their damage from {{dv|220|264}} to {{dv|210|252}}, and increased their knockback resistance.
+*[[Siren Lure and Leviathan]] changes:
+**Nerfed Siren Lure's health from {{dv|38,000|41,800}} to {{dv|30,000|33,000}} and its defense from 35 to 30.
+**Nerfed The Leviathan's health from 999,999 to {{dv|60,000|66,000}}, and her defense from 99,999 to 50.
+**The Leviathan is now able to be damaged and killed.
+***She will no longer be instantly defeated once the Siren Lure is killed. 
+***Killing her first will cause the Siren Lure to enrage and vice versa.
+***Now drops loot if killed after the Siren Lure has.
+**Siren Lure now drops {{gc|30}} instead of {{gc|18}}.
+**[[Aquatic Aberration]]s and [[Parasea]]s are now larger.<!---Removed size multiplier--->
+**Buffed Aquatic Aberration's health from {{dv|800|960}} to {{dv|900|1080}}, and nerfed its damage from {{dv|80|96}} to {{dv|75|90}}.
+**Buffed Parasea's damage from {{dv|200|240}} to {{dv|350|420}}.
+*[[Supreme Calamitas]] changes:
+**Nerfed health from {{dv|2,354,000|2,589,400}} to {{dv|2,000,000|2,200,000}}.
+**Now spawns her brothers at 55% health instead of 70% and enters phase 2 at 25% health instead of 10%.
+**All projectiles now collide with blocks.
+**Now has an increased DPS cap after she has been defeated previously.
+**Now inflicts [[Vulnerability Hex]] for 15 seconds on contact instead of 10.
+**Brothers no longer create dust when hit.
+
+*Optimized the alt fire code for [[Aegis Blade]], [[Blossom Flux]], [[Briny Baron]], [[Firestorm Cannon]], [[Malachite]], [[Plasma Rifle]], [[Scorpio]], [[SHPC]], and [[Vesuvius]].
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

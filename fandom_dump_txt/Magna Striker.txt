@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 35
+| knockback = 2.25
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| auto = yes
+| use = 20
+| velocity = 15
+| tooltip = Fires a string of opal and magna strikes
+| hardmode = yes
+| proj = Magna Strike.png
+| projcaption = Magna Strike
+| proj2 = Opal Strike.png
+| proj2caption = Opal Strike
+| element1 = Magic
+| element2 = Holy
+}}
+
+The '''Magna Striker''' is a craftable [[Hardmode]] [[gun]]. Each shot consumes 4 [[bullet]]s and fires magna blasts in 4-round bursts. Each shot has a use time of 5. The opal shots deal 75% of the weapon's damage, and the magna shots deal full damage.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Guns]]

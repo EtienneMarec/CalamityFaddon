@@ -1,0 +1,189 @@
+{{Patch infobox
+| image = Death (1.2.1.007).png
+| patchname = Death Mode Rework
+| release = 11/17/2017
+}}
+
+The '''1.2.3.002''' update completely changed [[Death Mode]], and made it rework and buff bosses instead of simply being a mode where the player dies in one hit.
+
+{{toc limit|3|right=yes}}
+
+== Changes ==
+=== [[Bosses]] ===
+==== [[Astrum Deus]] ====
+*Each worm now gets {{death|40,000}} health in Death Mode.
+*Increased speed in Death Mode.
+
+==== [[Brain of Cthulhu]] ====
+*Now gains a {{death|2x}} health modifier in Death Mode.
+
+==== [[Brimstone Elemental]] ====
+*Now gets {{death|44,800}} health in Death Mode.
+*Now switches through phases quicker in Death Mode.
+
+==== [[Bumblebirb]] ====
+*The main Bumblebirb now gets {{death|750,000}} health in Death Mode.
+
+==== [[Calamitas]] ====
+*Calamitas' first phase now gets {{death|25,600}} health in Death Mode.
+*Calamitas' second phase now gets {{death|40,000}} health in Death Mode.
+*[[Cataclysm]] now gets {{death|14,400}} health in Death Mode.
+*[[Catastrophe]] now gets {{death|12,800}} health in Death Mode.
+*Now fires more aggressively in Death Mode.
+*Now summons 2 pairs of brothers at 55% and 10% health in phase 2 in Death Mode.
+
+==== [[Ceaseless Void]] ====
+*Now spawns more beam portals in Death Mode.
+
+==== [[Crabulon]] ====
+*Buffed health from {{dv|3000|4800|7200}} to {{dv|5000|8000|9600}}, and it now gets {{death|13,600}} health in Death Mode.
+*Now switches through attacks quicker in Death Mode.
+
+==== [[Cryogen]] ====
+*Now gets {{death|32,000}} health in Death Mode.
+*Now shoots more often in Death Mode.
+
+==== [[Desert Scourge]] ====
+*Now gets {{death|10,720}} health in Death Mode.
+
+==== [[The Destroyer]] ====
+*Now gains a {{death|1.6x}} health modifier in Death Mode.
+
+==== [[The Devourer of Gods]] ====
+*The Devourer of Gods' first phase now gets {{death|1,200,000}} health in Death Mode.
+*The Devourer of Gods' second phase now gets {{death|880,000}} health in Death Mode.
+*Laser walls now appear faster in Death Mode.
+
+==== [[Duke Fishron]] ====
+*Now gains a {{death|2.3x}} health modifier in Death Mode.
+*Now enters phase 3 upon reaching 50% health in Death Mode.
+
+==== [[Eater of Worlds]] ====
+*Now gains a {{death|1.5x}} health modifier in Death Mode.
+
+==== [[Eye of Cthulhu]] ====
+*Now gains a {{death|2x}} health modifier in Death Mode.
+*Now charges faster and more often in Death Mode.
+
+==== [[Golem]] ====
+*Now gains a {{death|7x}} health modifier in Death Mode.
+*Now fires fireballs and lasers faster in Death Mode.
+
+==== [[The Hive Mind]] ====
+*The Hive Mind's first phase now gets {{death|5600}} health in Death Mode.
+*The Hive Mind's second phase now gets {{death|7200}} health in Death Mode.
+*Now fires vile clots less often.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Now gets {{death|4,640,000}} health in Death Mode.
+*Homing fireballs now gain stronger homing properties in Death Mode.
+*Now enters phases 2 and 3 earlier and stays in them for longer in Death Mode. 
+*No longer does "slow" charges, and instead only does "fast" charges in Death Mode.
+
+==== [[King Slime]] ====
+*Now gains a {{death|1.8x}} health modifier in Death Mode.
+*Now faster and teleports more often in Death Mode.
+
+==== [[Lunatic Cultist]] ====
+*Now rains projectiles much faster in Death Mode.
+*[[Phantasm Dragon]] now gains a {{death|12x}} health modifier in Death Mode.
+
+==== [[Moon Lord]] ====
+*Core now gains a {{death|1.6x}} health modifier in Death Mode.
+*Eyes now gain a {{death|1.4x}} health modifier in Death Mode.
+*Now spawns 2 waves of 9 True Eyes of Cthulhu in Death Mode instead of 1.
+
+==== [[The Perforators]] ====
+*The Perforator Hive now gets {{death|10,400}} health in Death Mode.
+*The Perforator Hive's blood geysers no longer collide with tiles in Death Mode.
+
+==== [[The Plaguebringer Goliath]] ====
+*Now gets {{death|104,000}} health in Death Mode.
+*Now has a cap of 3 [[Plague Mine]]s instead of 4.
+*Now has a cap of 4 large [[Plague Charger]]s.
+
+==== [[Plantera]] ====
+*Now gains a {{death|1.8x}} health modifier in Death Mode.
+*Now fires petals as fast as her enraged state in Death Mode.
+
+==== [[Polterghast]] ====
+*Now gets {{dv|0|0|0|672,000}} health in Death Mode.
+*Laser arms now spawn in phase 2 instead of phase 3 in Death Mode.
+
+==== [[Providence, the Profaned God]] ====
+*Now gets {{death|424,000}} health in Death Mode.
+*Now more aggressive in Death Mode.
+
+==== [[Queen Bee]] ====
+*Now gains a {{death|1.5x}} health modifier in Death Mode.
+*Now charges more often and fires more stingers in Death Mode.
+
+==== [[Ravager]] ====
+*The body now gets {{death|124,800}} health in Death Mode.
+*Now spawns with two extra homing claws in Death Mode.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Now gets {{death|512,000}} health in Death Mode.
+*Now switches through phases quicker in Death Mode.
+
+==== [[The Slime God]] ====
+*The Core now gets {{death|3520}} health in Death Mode.
+*Ebonian and Crimulan Slime Gods, along with their split forms now shoot mines more often in Death Mode.
+
+==== [[Siren and Leviathan]] ====
+*Nerfed the Siren's health from {{dv|30,000|48,000|52,800}} to {{dv|30,000|48,000|51,200}}, and she now gets {{death|64,000}} health in Death Mode.
+*The Leviathan now gets {{death|84,800}} health in Death Mode.
+*Both are now more aggressive in Death Mode.
+
+==== [[Skeletron]] ====
+*Now gains a {{death|1.6x}} health modifier in Death Mode.
+*Hands now gain a {{death|1.3x}} health modifier in Death Mode.
+*Now fires skulls more often in Death Mode.
+
+==== [[Skeletron Prime]] ====
+*Now gains a {{death|1.3x}} health modifier in Death Mode.
+
+==== [[Supreme Calamitas]] ====
+*Buffed health from {{dv|1,400,000|2,240,000|2,400,000}} to {{dv|2,300,000|3,680,000|4,000,000}}, and she now gets {{death|4,800,000}} health in Death Mode.
+*Buffed contact damage from {{dv|500}} to {{dv|650}}.
+*Hitcap now lowers to {{death|15}} in Death Mode.
+*Most projectiles are now faster.
+*Brothers and Supreme [[Soul Seeker]]s now despawn if Supreme Calamitas isn't alive.
+*Arena is now smaller in Death Mode.
+
+==== [[The Twins]] ====
+*Both eyes now gain a {{death|1.6x}} health modifier in Death Mode.
+
+==== [[Wall of Flesh]] ====
+*Now gains a {{death|2.5x}} health modifier in Death Mode.
+
+=== Items ===
+*Decreased the speed bonuses granted by [[Auric Tesla armor]] and [[Silva armor]].
+*Buffed [[Bloody Edge]]'s damage from 42 to 47, and gave it auto swing.
+*Lowered the speed and accelerations for [[Celestial Tracers]], [[Drew's Wings]], [[Elysian Tracers]], and [[Seraph Tracers]].
+*Increased [[Celestus]]' range.
+*[[Death]] changes:
+**Changed tooltip's first line from "Makes all damage one-shot you." to "Makes bosses even more EXTREME", and added the lines "Effect will only work if revengeance mode is active" and "Using this while a boss is alive will instantly kill you and despawn the boss",
+**Can now only be used if Revengeance Mode is active.
+**Will now instantly kill the player if used while any boss is active.
+**Removed the word "Instant" from Death's status messages.
+*[[Galactus Blade]] now produces less dust.
+*Galactus Blade now inflicts [[On Fire!]] and [[Frostburn]] for 10 seconds, instead of On Fire! for 20 seconds, and [[Cursed Inferno]] for 10 seconds.
+*Galactus Blade's comets now explode on impact.
+
+=== Other ===
+*Death Mode changes:
+**No longer makes the player instantly die when taking any damage.
+**Now grants a global {{death|1.4x}} damage increase to all enemies.
+
+=== Resprites ===
+*Resprited [[Forsaken Saber]], Galactus Blade, [[Seraph Tracers]].
+
+== Fixes ==
+*Fixed accessories which have an instakill feature (such as [[Elemental Gauntlet]]) instakilling Bumblebirb's clones instead of Yharon's Bumblebirbs.
+*Fixed several multiplayer desync bugs with the mod's enemies.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

@@ -1,0 +1,30 @@
+{{npc infobox
+| type = Slime
+| environment = Cavern
+| ai = Slime AI
+| damage = {{dv|160|320}}
+| life = {{dv|14,000|28,000}}
+| defense = 60
+| banner = no
+| money = {{value|0|0|0|0|1}}
+| Auric Ore|10-26| 100%
+| knockback = 100
+| immune1 = Kami Flu
+| immune2 = Poisoned
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| resistant1 = Poison
+| resistant2 = Holy
+| vulnerable1 = Fire
+| vulnerable2 = Unholy
+| vulnerable3 = Machine
+}}
+
+The '''Auric Slime''' is a Godseeker Mode [[slime]] which spawns naturally in the [[Dragon's Aerie]]. They exist to drop [[Auric Ore]], making it a renewable resource.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 126
+| knockback = 10
+| rare = 13
+| sell = {{value|0|8}}
+| stack = 1
+| auto = yes
+| use = 26
+| velocity = 5
+| extraupdates = 1
+| debuff = Moon Burnt
+| debufftip = Slowly losing life
+| debuffduration = 2 seconds
+| debuffchance = 100%
+| tooltip = Fires a fist that explodes into planets<br/>Stealth strikes make the fist ricochet between enemies up to 7 times before unleashing a colossal explosion
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Dark
+| element3 = Smash
+}}
+
+The '''Hand of God''' is a craftable Godseeker Mode [[Bombs|bomb]] that fires a high-velocity projectile which leaves a particle trail behind. The projectile is slightly affected by gravity, and explodes into 4-6 planets on contact with enemies or solid blocks. The explosion ignores [[enemy]] [[immunity frames]].
+
+Performing a [[stealth strike]] with the Hand of God will cause the next fist thrown to bounce between enemies up to seven times, with the final ricochet causing an explosion roughly 300 blocks in diameter.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The item's name is a reference to the pulsar [[wikipedia:PSR_B1509−58|PSR_B1509−58]] which is also known as Hand of God.
+{{stratus}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Bombs]]

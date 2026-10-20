@@ -1,0 +1,56 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 888
+| auto = yes
+| use = 24
+| knockback = 2
+| stack = 1
+| tooltip = 95% chance to not consume gel<br/>Fires a beam of flames that can piercle through 5 solid tiles<br/>Right click to chaotically fire sparks that home at your enemies
+| velocity = 18
+| sell = {{value|50}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| rare = C2
+| proj = Phototerminator beam.png
+| projcaption = Beam
+| proj2 = Stiriatic Spark.png
+| proj2caption = Stiriatic Spark
+| image2 = Phototerminator (tank).png
+| image2caption = Equipped tank
+| debuff = Nightclear
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 5 seconds
+| debuffchance2 = 100%
+| debuff3 = Evercold
+| debuffduration3 = 5 seconds
+| debuffchance3 = 100%
+| element1 = Holy
+| element2 = Water
+}}
+
+The '''Phototerminator''' is a craftable Epilogue [[flamethrowers|flamethrower]] that  uses [[gel]] as [[ammunition]]. When used with its primary fire (left-click), it fires a piercing beam, similarly to [[Hyperhavoc]]. When used with its secondary fire (right-click), it rapidly fires sparks with a 90° innacuracy that deal 10% of the weapon damage.
+
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Modifiers can not affect the weapon speed
+
+{{Stiriatic}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

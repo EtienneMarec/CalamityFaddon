@@ -1,0 +1,68 @@
+This template is used to display a weapon's or tool's best [[modifier]].
+
+== Usage ==
+<code>{{(}} modifier | ''&lt;item category&gt;'' | plural = 1 ('''optional''') }}</code>
+
+; List of item categories
+
+{| class="terraria lined"
+! Parameter value !! Description
+|-
+| {{code|melee}} || Most melee weapons.
+|-
+| {{code|meleealt}} || Weapons that cannot get size modifiers. For example: yoyos, flails, and spears.
+|-
+| {{code|speedy}} || Weapons that can receive modifiers to speed, but not to some other stat like mana cost or knockback.
+|-
+| {{code|harvest}} || Melee "weapons" that are mainly used for harvesting tiles.
+|-
+| {{code|harvestalt}} || Weapons listed on [[Mining speed]] where Legendary is equivalent to Light in speed boost.
+|-
+| {{code|harvestmech}} || Harvesting tools that do not benefit from Mining speed.
+|-
+| {{code|ranged}} || Most ranged weapons.
+|-
+| {{code|rangedalt}} || Weapons that cannot get speed modifiers.
+|-
+| {{code|rangednokb}} || Ranged weapons with no knockback.
+|-
+| {{code|nokb}} || Weapons with no knockback.
+|-
+| {{code|nokbalt}} || Weapons with no knockback that do not benefit from higher speed.
+|-
+| {{code|magic}} || Most magic weapons.
+|-
+| {{code|magicalt}} || Magic weapons with a base use time lower than 5.
+|-
+| {{code|magicalt2}} || Magic weapons with both base use time and mana cost lower than 5.
+|-
+| {{code|magicsummon}} || Magic weapons that continue dealing damage after the user switches weapons (and have non-zero knockback).
+|-
+| {{code|magicnokb}} || Magic weapons with no knockback.
+|-
+| {{code|magiclow}} || Magic weapons with a base mana cost lower than 5.
+|-
+| {{code|summon}} || Most summon weapons.
+|-
+| {{code|summonnokb}} || Summon weapons with no knockback.
+|-
+| {{code|summonalt}} || Summon weapons with low base damage.
+|-
+| {{code|summonactive}} || Summon weapons that don't use up minion slots and can be used in quick succession, e.g. [[Borealis Bomber]].
+|-
+| {{code|spy}} || Most spy weapons.
+|-
+| {{code|lowdamage}} || Most low base damage weapons that cannot receive damage modifiers due to rounding.
+|-
+| {{code|none}} || Any weapon that can't be reforged.
+|}
+
+== Example ==
+<code><nowiki>{{modifier|melee|plural=1}}</nowiki></code> → {{modifier|melee|plural=1}}
+
+<includeonly>
+[[Category:Templates‎]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

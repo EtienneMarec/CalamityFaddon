@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 90
+| use = 25
+| velocity = 12
+| knockback = 5.25
+| auto = yes
+| stack = 1
+| tooltip = Fires a spread of homing plasma balls
+| rare = 9
+| sell = {{value|0|19}}
+| hardmode = yes
+| proj = Entropic Plasma Balls.png
+| projcaption = Entropic Plasma Balls
+| element1 = Dark
+| element2 = Poison
+| element3 = Slash
+}}
+
+The '''Entropic Claymore''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. When swung, it releases four to five plasma balls that home into [[enemies]]. The projectiles cannot pierce through walls or enemies. There are three different sizes that can randomly be picked at an equal chance, each with identical behavior but different damage output. Large balls deal 80% of the weapon's base damage; medium balls deal 65% and small balls deal 50%.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*This item was previously known as the "Xeroc Greatsword".
+{{-}}
+{{Meld}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:熵阔剑]]

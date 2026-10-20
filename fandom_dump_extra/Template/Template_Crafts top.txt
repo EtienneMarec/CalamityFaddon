@@ -1,0 +1,19 @@
+<onlyinclude><table class="crafts outer"><tr><td>
+<table class="inner">{{#if: {{{title|}}}|<tr><th colspan="{{#if:{{{nostation|}}}|4|5}}">{{#if:{{{page|}}}|<div class="plainlinks" style="padding:0.8em;float:left; width:6em; text-align:left; font-weight:normal; font-size:xx-small; margin-left:1em;"><!--
+
+--><span style="white-space:nowrap;word-spacing:-.12em;"><!--
+-->[[{{{page}}}|<span title="View this template">v</span>]]<!--
+
+--><span style="white-space:nowrap;word-spacing:-.12em;">&nbsp;<b>&middot;</b>&#32;</span><!--
+-->[[{{{page}}}|<span title="Discuss this template">d</span>]]<!--
+
+--><span style="white-space:nowrap;word-spacing:-.12em;">&nbsp;<b>&middot;</b>&#32;</span><!--
+-->[{{fullurl:{{{page}}}|action=edit}} <span title="Edit this template">e</span>]<!--
+
+--></span><!--
+
+--></div><div style="padding:0.8em; float:right; width:6em; text-align:right; font-weight:normal; font-size:xx-small; margin-right:1em;">&nbsp;</div>}}<span style="font-size:1.17em">{{{title}}}</span></th></tr>|}}
+<tr><th colspan="2" style="padding:5px; width:50%;  border-width:{{#if:{{{title|}}}|2|0}}px 0px 0px 0px">Result</th>
+<th colspan="2" style="padding:5px; width:50%;  border-width:{{#if:{{{title|}}}|2|0}}px 0px 0px 2px">Ingredients</th>{{#if:{{{nostation|}}}||<th style="padding:5px; border-width:{{#if:{{{title|}}}|2|0}}px 0px 0px 2px">Crafting Station</th>}}
+</tr>{{#vardefine:_crafts_very_beginning|yes}}</onlyinclude></table></td></tr></table>Internal subtemplate. See [[Template:Crafts]] for documentation.
+[[Category:Deprecated Crafting templates]]

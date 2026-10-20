@@ -1,0 +1,32 @@
+{{item infobox
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 9999
+| rare = 5
+| sell = {{value|0|0|60|0}}
+| use = 14
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| auto = true
+}}
+{{distinguish|Frigid Bar|a now-removed [[crafting material]] that was dropped by [[Cryogen]]}}
+
+'''Cryonic Bars''' are [[Hardmode]] [[bars]] that are made with 5 [[Cryonic Ore]] at a [[Hardmode Forge]] and are additionally dropped from the [[Fleshy Geode|Fleshy]] and [[Necromantic Geode]]. They are mainly used in the crafting of crystal-themed items, as well as being used to craft [[Life Alloy]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Cryonic Bars were previously known as '''Verstaltite Bars''' and are still referred to as such in the files.
+
+{{Cryonic}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

@@ -1,0 +1,435 @@
+{{editmainpage}}<!--
+<!--
+# common css define.
+-->{{#vardefine:iblock|style="display: inline-block;"}}<!-- 
+-->{{#vardefine:listitem|class="fake-bullet"}}<!--
+-->{{#vardefine:listbox|padding:0.5em 0;}}<!--
+-->{{#vardefine:listcolumn|padding: 0 0.25em;}}<!--
+
+# NOTE: We NEED -14px left & right margin to get enough space for "enemies" and "biomes" block to show as 2-col on iphone7+ (414px width).
+--><div id="mainpage-global-wrapper"><!-- 
+
+
+!!! NOTE: Expand/collapse for header box needs some javascript in common.js to function properly.
+
+[====[ HEADER start
+
+
+A-->{{flexstart|itembox|class=main-title|justify=center|alignlines=center|alignitems=center|basis=456px|grow=1|shrink=1}}
+{| width=100%
+|style="padding: 0px; margin: auto;" {{#var:box}}|<div id="mf-wikiheader"><div style="padding: 0px; margin: 0px;  text-align: center;"><span style="font-size: 180%; ">Welcome to the Fandom '''Calamity Mod''' Wiki</span>,<br/>a comprehensive reference written and maintained by the players.<br/> [[Special:Statistics|{{NUMBEROFACTIVEUSERS}} active editors]] (of {{NUMBEROFUSERS}} registered) are currently maintaining [[Special:Statistics|{{NUMBEROFARTICLES}} articles ({{NUMBEROFPAGES}} total pages)]] and [[Special:ListFiles|{{NUMBEROFFILES}} files]].
+{| align=center width=100% style="padding: 5px; text-align: center;"
+| width=100% {{#var:box}} | <span class="plainlinks">[https://forums.terraria.org/index.php?threads/calamity-mod.44065// '''Forum Page''']<!-- • [https://discord.gg/calamity '''Discord'''] --> • [https://www.youtube.com/channel/UC1pUGckrp4_bu6XTQ4sCDsA '''YouTube Channel''']</span><hr>[[Special:RecentChanges|Recent Changes]] • [[Calamity Mod Wiki:Admin noticeboard|Admin noticeboard]] • [[Calamity Mod Wiki:Community noticeboard|Community noticeboard]] • [[Calamity Mod Wiki:Rules and guidelines|Wiki rules]] • [[Calamity Mod Wiki:Sandbox|Sandbox]] • [[Special:WikiPoints|Leaderboard]]
+|}</div></div>
+|}<!--
+
+-->{{flexend|_id=mf-wikiheader}}<!--
+]====] HEADER end
+
+
+[====[ SECTION 1 start [the mod, latest versions]
+-->{{flexstart|_id=sect1}}<!-- 
+	L-->{{flexstart|item-box|id=mf-game|grow=6|shrink=1|basis=500px}}<!-- 
+		-->{{flexstart|item|id=mf-game2|width=100%|cssclass=fp-box}}<!--
+			-->{{heading|The Mod|[[File:Calamitous Soul Artifact.png|30px|link=]]}}<!--
+			--><p>The Calamity Mod is a large content mod for [[tgc:Terraria|Terraria]] which adds many hours of endgame content and dozens of [[enemies]] and [[challenges]] dispersed throughout the vanilla game's progression. The Calamity Mod also features several harder difficulty modes, five new [[biomes]] and new structures, a new [[Spy|class]], a new [[Proficiency|leveling mechanic]], more than forty new [[Music|songs]], and other assorted changes to vanilla gameplay.</p><!--
+			--><!--<p>Note: '''Much of the communication regarding the Calamity Mod Wiki is done via the [https://discord.gg/9kXd2PG Calamity Mod Discord Server].''' If you have questions or issues regarding editing this wiki, asking via Discord is the best way to get your issue addressed quickly.</p><!--
+		-->{{flexend}}<!--
+	L-->{{flexend|id=mf-game}}<!--
+	R-->{{flexstart|item-box|id=mf-latestversions|grow=2|shrink=0|basis=100px}}<!--
+		-->{{flexstart|item|id=mf-latestversions2|width=100%|cssclass=fp-box}}<!--
+			-->{{heading|Latest Versions}}<!--
+			-->{{flexstart|width=100%}}<!--
+				-->{{flexstart|item|grow=5|shrink=5|basis=300px|css={{#var:listbox}}}}<!--
+					-->{{:Latest Versions}}<!-- load version data
+					--><table class="background-2" style="width:100%; min-width:350px; margin:auto; border-collapse:collapse; border:#282828 1px solid;"><!--
+						--><tr><th class="heading-2" style="border-bottom:#282828 1px solid;">Calamity Mod (No Music)</th></tr><!--
+						--><tr><th style="padding:5px;">[https://github.com/MountainDrew8/CalamityMod/releases/latest <section begin="number" />{{#dplvar:_version:mainmod}}<section end="number" />] — [[{{#dplvar:_version:mainmod}}|Changelog]]</th></tr><!--
+						--><tr><th class="heading-2"  style="border-bottom:#282828 1px solid;">Calamity Music Mod</th></tr><!--
+						--><tr><th style="padding:5px;">[https://github.com/CalamityTeam/CalamityModMusicPublic/releases/latest {{#dplvar:_version:musicmod}}] — [[{{#dplvar:_version:musicmod}} (music)|Changelog]]</th></tr><!--
+						--><tr><th class="heading-2"  style="border-bottom:#282828 1px solid;">[https://discord.gg/RMZCqq6 tModLoader]</th></tr><!--
+						--><tr><th style="padding:5px;">{{#dplvar:_version:tmodloader}}</th></tr><!--
+						--><tr><th class="heading-2"  style="border-bottom:#282828 1px solid;">Terraria</th></tr><!--
+						--><tr><th style="padding:5px;">{{#dplvar:_version:terraria}}</th></tr><!--
+					--></table><!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		-->{{flexend}}<!--
+	R-->{{flexend|item|id=mf-latestversions}}<!--	
+	R-->{{flexstart|item-box|grow=2|shrink=2|basis=22}}<!--
+		-->{{flexstart|item|id=mf-resources|width=100%|cssclass=fp-box}}<!--
+			-->{{heading|Resources|[[File:Aquatic Scourge (Lore).png|link=]]}}<!-- 
+			-->{{flexstart|css=clear:both;{{#var:listbox}}}}<!-- 
+				-->{{flexstart|item|grow=1|basis=200px|css={{#var:listcolumn}}}}<!--
+				--><div> {{item|Community modifications|image=Apotheosis.png|size=20px}}</div><!--
+				--><div> {{item|Community Games|image=Plague Caller.png|size=20px}}</div><!--
+				--><div> {{item|Guides|image=Map Icon Guide.png|size=20px}}</div><!--
+				--><div> {{item|Lore|image=The Desert Scourge (Lore).png|size=20px}}</div><!--
+				--><div> {{item|Mod Calls|Mod calls|image=Cog.png|size=20px}}</div><!--
+				--><div> {{item|Calamity Mod Wiki:Recipe Finder|Recipe finder|image=Work Bench.png|size=20px}}</div><!--
+				--><div> {{item|Vanilla changes|image=Portabulb.png|size=20px}}</div><!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		-->{{flexend}}<!--
+	R-->{{flexend}}<!--
+-->{{flexend|_id=sect1}}<!--
+]====] SECTION 1 end
+
+
+
+#### SECTION 2 start [challenges]
+2-->{{flexstart|_id=sect-2}}<!-- 
+	R-->{{flexstart|item-box|grow=3|shrink=3|basis=450px}}<!-- 
+		-->{{flexstart|item|id=mf-enemies|width=100%|cssclass=fp-box}}<!--
+			-->{{heading|[[Challenges]]|[[File:Goozma Hardmode.png‎|55px|link=]]}}<!-- 
+			-->{{flexstart|id=mf-enemies2}}<!-- 
+					-->{{flexstart|item|grow=1|css={{#var:listbox}}{{#var:listcolumn}}}}<!--
+						--><div style="margin-bottom: 0.25em">'''Mini Challenges'''</div><!--
+						--><div> {{item|Giant Clam|image=Giant Clam map.png|size=20px}}</div><!--
+						--><div> {{item|Cyber Draedon|image=Dubious Plating.png|size=20px}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|Clamitas|image=Clamitas map.png|size=20px}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|Diviner Valkyrie|image=Spear of Liberty.png|size=20px}}</div><!--
+						--><div> {{item|Earth Elemental|image=Aftershock.png|size=20px}}</div><!--
+						--><div> {{item|Onyx Kinsman|image=Onyx Excavator Key.png|size=20px}}</div><!--
+						--><div> {{item|Aether Valkyrie|image=Eye of the Storm.png|size=25px}}</div><!--
+						--><div> {{item|Cragmaw Mire|image=Spent Fuel Container.png|size=17px}}</div><!--
+						--><div> {{item|Armored Digger|image=Armored Digger Head.png|size=20px}}</div><!--
+						--><div> {{item|Life Slime|image=Life Ore.png|size=20px}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|Cinderlamitas|image=Core of Sunlight.png|size=20px}}</div><!--
+						--><div> {{item|Great Sand Shark|image=Great Sand Shark map.png|size=20px}}</div><!--
+						--><div> {{item|Plaguebringer|image=Plague Cell Canister.png|size=15px}}</div><!--
+						--><div> {{item|Yggdrasil Ent|image=Pearlwood.png|size=20px}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|Plague Emperor|image=Plague Mine.png|size=20px}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|Charm Gar|image=Bloodstone Bar.png|size=20px}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|Distortion Essence Sphere|image=Living God Slayer Fire Block.png}} {{dei}}</div><!--
+						--><div> {{item|Mechawyrm|image=Mechanical Worm.png|size=20px}} {{dei}}</div><!--
+						--><div> {{item|Empyreon|image=Strange Matter.png|size=20px}} {{dei}}</div><!--
+						--><div> {{item|Mauler|image=Mauler Banner (placed).png|size=10px}}</div><!--
+						--><div> {{item|Colossal Squid|image=Calamari.png|size=20px}}</div><!--
+						--><div> {{item|Reaper Shark|image=Valediction.png|size=25px}}</div><!--
+						--><div> {{item|Volcanic Reaper Shark|image=Scoria Bar.png|size=20px}}</div><!--
+						--><div> {{item|Eidolon Wyrm|image=Lumenyl.png|size=25px}}</div><!--
+						--><div> {{item|Nuclear Terror|image=Gamma Hydra.png|size=22px}}</div><!--
+						--><div> {{item|Crimson Kaiju|image=Red Wings.png|size=22px}}</div><!--
+						--><div> {{item|Primordial Rainbow Slime|image=Primordial Ore.png}} {{dei}}</div><!--
+						--><div> {{item|La Ruga|image=Microbial Cluster.png|size=20px}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|Lav'e Rugamarius|image=Lav'e Rugamarius Head.png|size=20px}} {{fantag|Calamity: Community Remix}}</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|css={{#var:listbox}}{{#var:listcolumn}}}}<!--
+						--><div style="margin-bottom: 0.25em">'''Pre-Hardmode Challenges'''</div><!--
+						--><div> {{item|The Calamity|image=The Calamity map.png|size=25px}}</div><!--
+						--><div> {{item|Jelly Monsoon|image=Slimescule.png|size=20px}}</div><!--
+						--><div> {{item|Goozma|image=Goozma map.png|size=25px}}</div><!--
+						--><div> [[File:John Wulfrum map.png|link=The Inventors|25px]]{{item|The Inventors|image=Jane Wulfrum map.png|size=25px}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|Wulfrum Excavator|image=Wulfrum Excavator map.png|size=25px}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|Desert Scourge|image=Desert Scourge map.png|size=25px}}</div><!--
+						--><div> {{item|Ogswarm|image=Heavenly Ogsculite.png|size=25px}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|Grand Thunder Cnidrion|image=Sea Stone Bar.png|size=24px}}</div><!--
+						--><div> {{item|Crabulon|image=Crabulon map.png|size=25px}}</div><!--
+						--><div> {{item|The sludge|image=sludge map.png|size=25px}}</div><!--
+						--><div> {{item|Monstro|image=Monstro map.webp|size=25px}}</div><!--
+						--><div> {{item|Acidsighter|image=Acidsighter map.png|size=25px}}</div><!--
+						--><div> {{item|Acid Rain|image=Caustic Tear.png}}</div><!--
+						--><div> {{item|The Hive Mind|image=Hive Mind map.png|size=25px}}</div><!--
+						--><div> {{item|The Perforators|image=Perforator Hive map.png|size=25px}}</div><!--
+						--><div> {{item|Ceasing Void|image=Ceasing Void map.png|size=25px}}</div><!--
+						--><div> [[File:Wulfranatos_Head_Map.png|link=The Scrapyard Ensemble|25px]][[File:Wulfrares Map.png|link=The Scrapyard Ensemble|25px]][[File:Wulfrapollo Map.png|link=The Scrapyard Ensemble|25px]]{{item|The Scrapyard Ensemble|image=Wulfrartemis Map.png|size=25px}}</div><!--
+						--><div> {{item|Destroyer of Sanity|image=Destroyer Of Sanity Phase 1 (mapicon).png|size=25px}}</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|css={{#var:listbox}}{{#var:listcolumn}}}}<!--
+
+						--><div style="margin-bottom: 0.25em">'''Hardmode Challenges'''</div><!--
+						--><div> {{item|Cumulomenace|image=Cumulomenace_map_icon.png|size=25px}}</div><!--
+						--><div> {{item|Cryogen|image=Cryogen map.png|size=25px}}</div><!--
+						--><div> {{item|Pyrogen|image=Pyrogen-IconT2.png|size=25px}}</div><!--
+						--><div> {{item|Ionogen|image=Ionogen Mask.png|size=20px}}</div><!--
+						--><div> {{item|Phytogen|image=Phytogen Mask.png|size=20px}}</div><!--
+						--><div> {{item|Pathogen|image=Pathogen Mask.png|size=20px}}</div><!--
+						--><div> {{item|Oxygen|image=Oxygen Mask.png|size=20px}}</div><!--
+						--><div> {{item|Carcinogen|image=Carcinogen Mask.png|size=20px}}</div><!--
+						--><div> {{item|Hydrogen|image=Hydrogen Mask.png|size=20px}}</div><!--
+						--><div> {{item|Aetherial Guardian, Olistene|image=Olistene map.png|size=18px}} {{dei}}</div><!--
+						--><div> {{item|Aquatic Scourge|image=Aquatic Scourge map.png|size=25px}}</div><!--
+						--><div> {{item|Umbrus Eclipse|image=Critical Slime Core.png|size=25px}}</div><!--
+						--><div> {{item|Brimstone Elemental|image=Brimstone Elemental map.png|size=25px}}</div><!--
+						--><div> {{item|Pandora, the Hypnotized Witch|image=Pandora map.png|size=25px}}</div><!--
+						--><div> {{item|Calamitas|image=Calamitas map.png|size=25px}}</div><!--
+						--><div> {{item|Mirage Mallah|image=Duststorm in a Bottle.png|size=20px}}</div><!--
+                        			--><div> {{item|Serial Designation N|image=DroneN Head Boss.png|size=25px}} {{fantag|Sloome}}</div><!--
+                        			--><div> {{item|The Forbidden Lantern|image=Lantern map.png|size=25px}} {{tota}}</div><!--
+						--><div> {{item|The Derellect|image=Derellect map.png|size=25px}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|Polyphemalus|image=Polyphemalus map.png|size=25px}} {{fantag|Polyphemalus}}</div><!--
+						--><div> [[File:Leviathan map.png|link=Leviathan and Anahita|30px]]{{item|Leviathan and Anahita|image=Anahita map.png|size=20px}}</div><!--
+						--><div> {{item|Astrum Aureus|image=Astrum Aureus map.png|size=25px}}</div><!--
+						--><div> {{item|The Plaguebringer Goliath|image=Plaguebringer Goliath map.png|size=20px}}</div><!--
+						--><div> {{item|Fatal Circuit|image=Robothead.png|size=20px}}</div><!--
+						--><div> {{item|Metal Sans|image=Ravager map.png|size=25px|link=Ravager}}</div><!--
+                        			--><div> {{item|The Dragonfolly|image=Dragonfolly map.png|size=20px}}</div><!--
+						--><div> {{item|Artificial Sentience System, AX-P03|image=Laboratory Plating.png|size=25px}}</div><!--
+						--><div> {{item|Astrum Deus|image=Astrum Deus map.png|size=25px}}</div><!--
+						--><div> {{item|The Rot|image=Rot Map.png|size=25px}}</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|css={{#var:listbox}}{{#var:listcolumn}}}}<!--
+
+						--><div style="margin-bottom: 0.25em">'''Godseeker Mode Challenges'''</div><!--
+                                                --><div> {{item|Unstable Calamity|image=Unstable_Calamity_map.png|size=25px}}</div><!--
+						--><div> [[File:Profaned Guardian Main map.png|link=Profaned Guardians|10px]][[File:Profaned Guardian Rock map.png|link=Profaned Guardians|20px]]{{item|Profaned Guardians|image=Profaned Guardian Crystal map.png|size=25px}}</div><!--
+						--><div> {{item|Providence, the Profaned Goddess|image=Providence map.png|size=35px}}</div><!--
+						--><div> {{item|Storm Weaver|image=Storm Weaver map.png|size=20px}}</div><!--
+						--><div> {{item|Ceaseless Void|image=Ceaseless Void map.png|size=30px}}</div><!--
+						--><div> {{item|Signus, Envoy of the Devourer|image=Signus map.png|size=20px}}</div><!--
+						--><div> {{item|Polterghast|image=Polterghast map.png|size=25px}}</div><!--
+						--><div> {{item|The Starborn Moth|image=Starborn Moth Phase 1 map.png|size=30px}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|Martian Madness|image=Arean Conduit Plating.png}} {{dei}}</div><!--
+						--><div> {{item|Profusion, the Viral God|image=Profusion map.png|size=25px}}</div><!--
+						--><div> {{item|The Devourer of Gods|image=Devourer of Gods map.png|size=25px}}</div><!--						
+						--><div> {{item|Solar Eclipse|image=Animatronic Head.png}}</div><!--
+						--><div> [[File:Conquest HS map.png|link=Horseslimes of the Goopocalypse|22px]] [[File:War HS map.png|link=Horseslimes of the Goopocalypse|22px]] [[File:Goopocalypse Core map.png|link=Horseslimes of the Goopocalypse|26px]] [[File:Famine HS map.png|link=Horseslimes of the Goopocalypse|22px]] {{item|Horseslimes of the Goopocalypse|image=Death HS map.png|size=22px}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|Jungle Dragon, Yharon|image=Yharon map.png|size=25px}}</div><!--
+						--><div> {{item|22 Bullet Theory|image=22 Hornet Round.png}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|Mechanical Horde|image=Draedon's Remote.png|size=16px}} {{fantag|Calamity: Community Remix}}</div><!--
+						--><div> {{item|The Wall of Bronze|image=Wall of Bronze map.png|size=25px}}</div><!--
+						--><div> [[File:Artemis Phase 1 map.png|link=The Fabricational Quartet|25px]][[File:Apollo Phase 1 map.png|link=The Fabricational Quartet|25px]][[File:Thanatos Head map.png|link=The Fabricational Quartet|25px]]{{item|The Fabricational Quartet|image=Ares map.png|size=25px}}</div><!--
+						--><div> {{item|Devil of Vehemence|image=Devil of Vehemence map.png|size=25px}}</div><!--
+						--><div> {{item|XP-00 Hypnos|image=XP-00 Hypnos map.png|size=25px}}{{fantag}}</div><!--
+						--><div> {{item|Yharim Worm|image=Yharim Worm map.png|size=25px}}</div><!--
+						--><div> {{item|Supreme Calamitas|image=Supreme Calamitas map.png|size=25px}}</div><!--
+	
+
+HER[Supreme Calamitas]|image=Supreme Calamitas map.png|size=25px}}</div><!--
+
+				--><div> {{item|XB-10 Nortazzo|image=XB-10 Nortazzo map.png|size=25px}}</div><!--
+						--><div> {{item|XC-39 Oizys|image=XC-39 Oizys map.png|size=25px}}</div><!--
+						--><div> {{item|Goozma|image=Goozma map.png|size=25px}}</div><!--
+						--><div> {{item|Godseeker, Yharim|image=Godseeker Yharim map.png|size=25px}} {{fantag|Catalyst}}</div><!--					
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|css={{#var:listbox}}{{#var:listcolumn}}}}<!--
+						--><div style="margin-bottom: 0.25em">'''Epilogue Challenges'''</div><!--						
+						--><div> {{item|Challenge Rush|image=Terminus.png|size=24px}}</div><!--
+						--><div> {{item|Adult Eidolon Wyrm|image=Adult Eidolon Wyrm map.png|size=25px}}</div><!--
+						--><div> {{item|Ancient Doomsayer|image=Blue Solution.png}}</div><!--
+						--><div> {{item|The Devourer of Universes|image=Devourer of Gods final head map.png|size=25px}}</div><!--
+						--><div> {{item|Blizzard Monarch|image=Rod of Discord.png|size=25px}}</div><!--
+						--><div> {{item|Dragon God, Yharon|image=Soul of Flight.png}}</div><!--
+						--><div> {{item|The Masterminds|image=Beetle Juice.png}}</div><!--
+						--><div> {{item|Vision of the Tyrant|image=Vision of the Tyrant map.png|size=25px}}</div><!--
+						--><div> {{item|Birdest Up, Kulu-Yharon-Ku|image=Genesis.png|size=24px}}</div><!--
+                                                --><div> {{item|Amazon|image=Amazon.png|size=34px}}</div><!--
+                                                --><div> {{item|Amazon Prime|image=Amazon.png|size=34px}}</div><!--
+						--><div> {{item|Esserwyrm|image=Esserwyrm map.png}} {{tota}}</div><!--
+						--><div> {{item|Reactive Guardian, Sodis|image=Sodis map.png}} {{tota}}</div><!--
+						--><div> {{item|Hydrabots Invasion|image=Hydrastatic Energy.png|size=24px}}</div><!--
+						--><div> {{item|Nihil, the Fathomless Seeker|image=Nihil-map.png|size=25px}}</div><!--
+						--><div> {{item|Exodygen|image=Exodygen Icon.png|size=24px}} {{fantag|Sloome}}</div><!--
+						--><div> {{item|The Fallen Ascended Master, Xeroc|image=40432█████████ ██████████ ██ ███ ████ █████.png}}</div><!--
+						--><div> {{item|The Avatar Of Emptiness, Umbrus|image=Purgatory Arbiter, Umbrus map.png|size=25px}}</div><!--
+						--><div> {{item|The Unimaginable Deity, Yald'xoroath|image=The Unimaginable Deity, Yald'xoroath Map ICON.webp|size=23px}} {{fantag|Wrath Of The God's}}</div><!--
+						--><div> {{item|Ultimate Challenge Rush|image=Ultimate Challenge Rush Icon.png}}</div><!--
+						--><div> {{item|Super Ultimate Final Challenge Rush|image=Super Ultimate Final Challenge Rush Icon.png}}</div><!--
+					-->{{flexend}}<!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		-->{{flexend}}<!--
+	R-->{{flexend}}<!-- 
+2-->{{flexend|_id=sect-2}}HER[Supreme Calamitas]
+--><div> {{item|HER[Supreme Calamitas]|image=HER  map.png|size=25px}}</div><!--
+#### SECTION 2 end
+#### SECTION 3 start [biomes, resources]
+3-->{{flexstart|_id=sect-3}}<!--
+	L-->{{flexstart|item-box|direction=column|grow=2|shrink=2|basis=450px}}<!-- 
+		T-->{{flexstart|item-box|grow=1}}<!-- 
+			-->{{flexstart|item|id=mf-items|width=100%|cssclass=fp-box}}<!-- 
+				-->{{heading|[[Items]]|[[File:Spy's Lootbox.png|link=]]}}<!-- 
+				-->{{flexstart|css={{#var:listbox}}}}<!-- 
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div> {{item|Ammunition|image=War Arrow.png|size=20px}}</div><!--
+						--><div> {{item|Bars|image=Alloy Bar.png|size=20px}}</div><!--
+						--><div> {{item|Blocks|image=Grimesand.png|size=20px}}</div><!--
+						--><div> {{item|Coverings|image=Corpulent Mask.png|size=20px}}</div><!--
+						--><div> {{item|Crafting station|Crafting stations|image=Cosmic Anvil.png|size=20px}}</div><!--
+						--><div> {{item|Crafting material|Crafting materials|image=Miracle Matter.png|size=20px}}</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div> {{item|Dedicated content|image=Consequences of Power.png|size=20px}}</div><!--
+						--><div> {{item|Dyes|image=Auric Dye.png}}</div><!--
+						--><div> {{item|Equipment|image=Thrower's Gauntlet.png|size=20px}}</div><!--
+						--><div> {{item|Furniture|image=Silva Table.png|size=20px}}</div><!--
+						--><div> {{item|Minions|image=Arbiter of Judgement.png|size=20px}}</div><!--
+						--><div> {{item|Miscellaneous|image=Astral Chunk.png|size=20px}}</div><!-- 
+						--><div> {{item|Mount|Mounts|image=Exo Chair (buff).png|size=20px}}</div><!--
+						--><div> {{item|Ores|image=Arsenic Ore.png}}</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div> {{item|Pets|image=Green Lizard.png|size=20px}}</div><!--
+						--><div> {{item|Potions|image=Tainted Anechoic Coating.png|size=20px}}</div><!--
+						--><div> {{item|Tools|image=Large Father.png|size=20px}}</div><!--
+						--><div> {{item|Wall|Walls|image=Cryonic Brick Wall.png|size=20px}}</div><!--
+						--><div> {{item|Weapons|image=Infernum Kris.png|size=20px}}</div><!--
+						--><div> {{item|Wings|image=Static Wings.png|size=20px}}</div><!--
+					-->{{flexend}}<!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		T-->{{flexend}}<!-- 
+		B-->{{flexstart|item-box|grow=1}}<!-- 
+			-->{{flexstart|item|id=mf-mechanics|width=100%|cssclass=fp-box}}<!--
+				-->{{heading|Mechanics|[[File:Rear Gar.png|link=]]}}<!-- 
+				-->{{flexstart|css={{#var:listbox}}}}<!-- 
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div> {{item|Aggro|image=Psychotic Amulet.png|size=20px}}</div><!--
+						--><div> {{item|Challenge Progress Bar|image=Challenge Progress Bar percent.png|size=20px}}</div><!--
+						--><div> {{item|Buffs|image=Soaring.png|size=20px}}</div><!--
+						--><div> {{item|Communication|image=Codebreaker Base.png|size=20px}}</div><!--
+						--><div> {{item|Configuration options|image=Cog (Calamity).png|size=20px}}</div><!--
+						--><div> {{item|Recipes|Crafting|image=Static Refiner.png|size=20px}}</div><!--
+						--><div> {{item|Death Mode|image=Death Indicator.png|size=20px}}</div><!--
+						--><div> {{item|Death prevention|image=Nebulous Core.png|size=20px}}</div><!--
+					    --><div> {{item|Defense|image=Frigid Bulwark.png|size=20px}}</div><!--
+						--><div> {{item|Debuffs|image=Plague.png|size=20px}}</div><!--
+						--><div> {{item|Drops|image=Ancient Bone Dust.png|size=20px}}</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div> {{item|Enchanting|image=Enchantment Rune Aflame.png|size=20px}}</div><!--
+						--><div> {{item|Endings|image=Rock.png|size=20px}}</div><!--
+						--><div> {{item|Fishing|image=Supreme Bait Tackle Box Fishing Station.png|size=20px}}</div><!--
+						--><div> {{item|Immunity frames|image=Eclipse Mirror.png|size=20px}}</div><!--
+						--><div> {{item|Lifesteal|image=Lacerator.png|size=20px}}</div><!--
+						--><div> {{item|Music|image=Music Box (Anahita Lure).png|size=20px}}</div><!--
+						--><div> {{item|Malice Mode|image=Malice Indicator.png|size=20px}}</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div> {{item|Proficiency|image=Melee Level Meter.png|size=20px}}</div><!--
+						--><div> {{item|Rarity|image=The Transformer.png|size=20px}}</div><!--
+						--><div> {{item|Revengeance Mode|image=Revengeance Indicator.png|size=20px}}</div><!--
+						--><div> {{item|Stamina Meter|image=Dust Bunny.png|size=20px}} {{fantag|Catalyst}}</div><!--
+						--><div> {{item|Shortstrike|image=Tomutus.png|size=20px}}</div><!--
+						--><div> {{item|Spy|image=Spy Emblem.png|size=20px}}</div><!--
+						--><div> {{item|Status messages|image=Stat Meter.png|size=20px}}</div><!--
+						--><div> {{item|Taming|image=Heart.png|size=20px}}</div><!--
+						--><div> {{item|Starborn Princess|Transmogrification|image=Yharim Bar.png|size=20px}} {{fantag|Calamity: Community Remix}}</div><!--
+					-->{{flexend}}<!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		B-->{{flexend}}<!-- 
+	L-->{{flexend}}<!-- 
+	L-->{{flexstart|item-box|grow=2|shrink=2|basis=325px}}<!--
+		-->{{flexstart|item|id=mf-biomes|width=100%|cssclass=fp-box}}<!--
+			-->{{heading|[[Biomes|Biomes and Structures]]|[[File:Atlas Soldier.png|link=|55px]]}}<!--
+			-->{{flexstart}}<!--
+				-->{{flexstart|item|grow=1|basis=190px|css={{#var:listcolumn}}}}<!--
+				--><div style="margin-bottom: 0.25em">'''Biomes'''</div><!--
+				--><div> {{item|Abyss|image=Voidstone.png}}</div><!--
+				--><div> {{item|Astral Infection|image=Astral Sandstone.png}}</div><!--
+				--><div> {{item|Bloody Corn Maze|image=Carnal Corn.png|size=20px}} {{fantag|Calamity: Community Remix}}</div><!--
+				--><div> {{item|Brimstone Crag|image=Brimstone Slag.png|size=16px}}</div><!--
+				--><div> {{item|Cavern|image=Bestiary Caverns.png|size=24px}}</div><!--
+				--><div> {{item|Desert|image=Bestiary Desert.png|size=20px}}</div><!--
+				--><div> {{item|Dungeon|image=Bestiary The Dungeon.png|size=24px}}</div><!--
+				--><div> {{item|Frozen Hell|image=Frozen Hellstone.png}}</div><!--
+				--><div> {{item|Glowing Mushroom biome|image=Bestiary Surface Mushroom.png|size=21px}}</div><!--
+				--><div> {{item|Jungle|image=Bestiary The Jungle.png|size=24px}}</div><!--
+				--><div> {{item|Jungle Temple|image=Bestiary The Temple.png|size=24px}}</div><!--
+				--><div> {{item|Ocean|image=Bestiary Ocean.png|size=18px}}</div><!--
+				-->{{flexend}}<!--
+				-->{{flexstart|item|grow=1|basis=180px|css={{#var:listcolumn}}}}<!--
+				--><div style="margin-bottom: 0.25em"><br/></div><!--
+				--><div> {{item|Sky Abyss|image=Bestiary Sky Abyss.png|size=24px}}{{tota}}</div><!--
+				--><div> {{item|Snow biome|image=Bestiary Snow.png|size=24px}}</div><!--
+				--><div> {{item|Space|image=Bestiary Sky.png|size=26px}}</div><!--
+				--><div> {{item|Sulphurous Sea|image=Sulphurous Sand.png}}</div><!--
+				--><div> {{item|Sunken Sea|image=Prism Shard.png}}</div><!--
+				--><div> {{item|Surface|image=Bestiary Surface.png|size=22px}}</div><!--
+				--><div> {{item|The Aether|image=Bestiary Rank Light.png|size=22px}}</div><!--
+				--><div> {{item|The Corruption|image=Bestiary The Corruption.png|size=26px}}</div><!--
+				--><div> {{item|The Crimson|image=Bestiary The Crimson.png|size=22px}}</div><!--
+				--><div> {{item|The Hallow|image=Bestiary The Hallow.png|size=26px}}</div><!--
+				--><div> {{item|The Underworld|image=Bestiary The Underworld.png|size=24px}}</div><!--
+				--><div> {{item|Underground|image=Bestiary Underground.png|size=24px}}</div><!--
+				-->{{flexend}}<!--
+				-->{{flexstart|item|grow=1|basis=180px|css={{#var:listcolumn}}}}<!--
+				--><div style="margin-bottom: 0.25em">'''Generated Structures'''</div><!--
+				--><div> {{item|Arsenal Labs|image=Prototype Plasma Drive Core.png|size=20px}}</div><!--
+				--><div> [[File:Demonite Ore.png|link=Evil Island]] {{item|Evil Island|image=Crimtane Ore.png}}</div><!--
+				--><div> {{item|Planetoid|image=Miracle Fruit.png|size=22px}}</div><!--
+				--><div> {{item|Shrine|image=Unstable Granite Core.png|size=24px}}</div><!--
+				-->{{flexend}}<!--
+				-->{{flexstart|item|grow=1|basis=180px|css={{#var:listcolumn}}}}<!--
+				--><div style="margin-bottom: 0.25em">'''Subworlds'''</div><!--
+				--><div> {{item|Caelus|image=Mana Crystal.png|size=18px}} {{dei}}</div><!--
+				--><div> {{item|Pot of Pain|image=Bohldohr.png|size=16px}}</div><!--
+				--><div> {{item|The Exosphere|image=Exo Cube.png|size=22px}} {{fantag|Calamity: Community Remix}}</div><!--
+				--><div> {{item|The Void|image=Sallowrack.png|}}</div><!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		-->{{flexend}}<!-- 
+	        -->{{flexstart|item|id=mf-npc|width=100%|cssclass=fp-box}}<!--
+ 	        	-->{{heading|[[Town NPCs]]|[[File:Goozmarie.png|link=]]}}<!-- 
+            		-->{{flexstart|css=clear:both;{{#var:listbox}}}}<!-- 
+                		-->{{flexstart|item|grow=1|basis=200px|css={{#var:listcolumn}}}}<!--
+                		--><div> {{item|Agent|image=Agent map.png|size=24px}} {{fantag|Calamity: Community Remix}}</div><!--
+                		--><div> {{item|Arc|image=Arc map.png|size=24px}}</div><!--
+                		--><div> {{item|Archivist|image=Wulfrum Digging Turtle.png|size=24px}}</div><!--
+                		--><div> {{item|Archmage|image=Archmage map.png|size=24px}}</div><!--
+                		--><div> {{item|Bandit|image=Bandit map.png}}</div><!--
+                		--><div> {{item|Brimstone Witch|image=Brimstone Witch map.png|size=24px}}</div><!--
+                		--><div> {{item|Collector|image=Collector map.png|size=24px}}</div><!--
+                		--><div> {{item|Disassembly Drone|image=Disassembly Drone Map.png|size=24px}} {{fantag|Sloome addon}}</div><!--
+                		--><div> {{item|Falconer|image=Fish of Light.png|size=24px}}</div><!--
+                		--><div> {{item|Goozmarie|image=Goozmarie map.png|size=24px}}</div><!--		
+                		--><div> {{item|Light Wraith|image=Light Wraith map.png|size=24px}}</div><!--				
+                		--><div> {{item|Wet Rat|image=Wet Rat.png|size=24px}}</div><!--				
+				-->{{flexend}}<!--
+				-->{{flexstart|item|grow=1|basis=180px|css={{#var:listcolumn}}}}<!--
+                		--><div> {{item|The Big Cheese|image=Big Cheese Map.png|size=24px}}</div><!--
+                		--><div> {{item|The General|image=The General map.png|size=24px}} {{fantag|Apotheosis and Friends}}</div><!--
+                		--><div> {{item|Profaned Birb|image=ProfanedMap.png|size=24px}}</div><!--
+                		--><div> {{item|Sea King|image=Sea King map.png|size=24px}}</div><!--
+                		--><div> {{item|Sloome|image=Sloome Map.png|size=24px}} {{fantag|Sloome addon}}</div><!--
+                		--><div> [[File:hypnpchead.png|24px]] [[Soul of the Eternal Intellect of Infinite Verboten Knowledge|Soul of the Eternal Intellect of]] <br/>[[Soul of the Eternal Intellect of Infinite Verboten Knowledge|Infinite Verboten Knowledge]] {{fantag|Calamity: Community Remix}}</div><!--
+                		--><div> {{item|Snowman|image=Snowman Map.png|size=24px}}</div><!--
+                		--><div> {{item|Starborn Princess|image=Celestialmap.png|size=24px}} {{fantag|Calamity: Community Remix}}</div><!--
+                		--><div> {{item|The Turtle|image=The Turtle map.png|size=24px}}</div><!--
+                		--><div> {{item|Youkai Miko|image=Nalyre_Head.png|size=24px}}</div><!--
+                		--><div> {{item|Zeratros|image=Zeratros map.png|size=24px}}</div><!--
+                		-->{{flexend}}<!--
+            		-->{{flexend}}<!--
+        	-->{{flexend}}<!--
+    	L-->{{flexend}}<!--
+3-->{{flexend|_id=sect-3}}<!-- 
+#### SECTION 3 end
+
+
+#### SECTION 4 start [lists]
+3-->{{flexstart|_id=sect-3}}<!--
+	L-->{{flexstart|item-box|direction=column|grow=2|shrink=2|basis=450px}}<!-- 
+		-->{{flexstart|item|id=mf-lists|width=100%|cssclass=fp-box}}<!--
+			-->{{heading|Lists|[[File:Gearwork Shield.png|link=|55px]]}}<!--
+			-->{{flexstart}}<!--
+				-->{{flexstart|item|grow=1|basis=190px|css={{#var:listcolumn}}}}<!--
+				--><div> {{Master Template Buffs}}</div><!--
+				--><div> {{Master Template Characters}}</div><!--
+				--><div> {{Master Template Consumables}}</div><!--
+				--><div> {{Master Template Equipables}}</div><!--
+				--><div> {{Master Template Tools}}</div><!--
+				--><div> {{Master Template Weapons}}</div><!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		-->{{flexend}}<!-- 
+    	L-->{{flexend}}<!--
+3-->{{flexend|_id=sect-4}}<!-- 
+#### SECTION 4 end
+
+#### FOOTER start
+--><div class="footer"><!-- 
+	--><div>''[[Calamity Mod Wiki/editcopy|<span {{#var:iblock}}>Changes to this main page</span> <span {{#var:iblock}}>can be proposed here.</span>]]''</div><!-- 
+--></div><!-- 
+#### FOOTER end
+
+
+
+--><!-- id = global wrapper -->
+
+[[Category:Calamity Mod Wiki]]
+
+[[zh:]]
+[[ru:]]
+<metadesc>The Calamity Mod Wiki is a complete resource for the Calamity Mod of Terraria, including gameplay, crafting, armor, and enemies.</metadesc>

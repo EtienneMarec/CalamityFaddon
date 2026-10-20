@@ -1,0 +1,67 @@
+{{item infobox
+| imagealt = <Tabber>
+Default=[[File:OPFT "Sublimate".png]]
+|-|
+Cyanocharged=[[File:Cyanocharged Sublimate.png]]
+</Tabber>
+| type = Weapon
+| type2 = Crafting material
+| damagetype = ranged
+| damage = 1280
+| knockback = 0
+| rare = C4
+| tooltip = fires a long beam of ozone gas <br/> Right click to charge it with cyanogen and fire an infinitely piercing beam thats harder to navigate.
+| sell = {{value|0|0|0|0|5}}
+| stack = 1
+| auto = yes
+| use = 24
+| velocity = 20
+| buff = Cyanocharged
+| buffduration = 10 seconds
+| buffchance = 100%
+| bufftip = Vivid green light is flowing through your weapon 
+| debuff = Cyanocharge Cooldown
+| debuffduration = 1 minute
+| debuffchance = 100%
+| debufftip = Cannot Cyanocharge
+| debuff2 = Eradication
+| debuffduration2 = 5 seconds
+| debuffchance2 = 100%
+| debufftip2 = You're getting destroyed by powers that go against all rules of humanity
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Unholy
+| element2 = Dark
+| element3 = Magic
+| proj = Sublimate Beam.png
+| projcaption = Beam
+| proj2 = Cyanocharged Beam.png
+| proj2caption = Cyanocharged Beam
+| image2 = Sublimate (tank).png
+| image2caption = Equipped tank
+| image3 = Cyanocharged Sublimate (tank).png
+| image3caption = Equipped tank (Cyanocharged)
+}}
+
+
+
+'''OPFT "Sublimate"''' (Ozone Powered FlameThrower) is a craftable post-[[Noxus]] [[flamethrowers|flamethrower]]. It shoots a beam that can pierce through 8 tiles/enemies.
+
+When attacking with right-click, OPFT "Sublimate" changes sprite, the player's outline and eyes get a green glow, and the weapon gets Cyanocharged.  In this form the beam can pierce through infinite tiles and enemies, deals 500% damage, but is harder to aim up and down. Cyanocharging has a 60 second cooldown and lasts 10 seconds.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+== Trivia ==
+* The weapon is a reference to the '''Sublimate''' turret from the game '''Mindustry.'''
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Flamethrowers]]

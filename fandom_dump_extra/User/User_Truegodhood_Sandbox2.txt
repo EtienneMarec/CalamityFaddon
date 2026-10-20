@@ -1,0 +1,115 @@
+{{Guide header}}
+{{npc infobox
+| image = Signus, Envoy of the Devourer.png
+| type = Boss
+| environment = The Underworld
+| ai = Signus, Envoy of the Devourer AI
+| life = {{dv|280,000|448,000|712,800}}
+| defense = 70
+| knockback = 100
+| immuneall = yes <!-- Adding this will change the meaning of immune1, immune2 etc to vulnerability -->
+| immune1 = Ichor (debuff)
+| immune2 = Cursed Inferno
+| immune3 = Exo Freeze
+| immune4 = Abyssal Flames
+| immune5 = Armor Crunch
+| immune6 = Demon Flames
+| immune7 = God Slayer Inferno
+| immune8 = Nightwither
+| immune9 = Shred
+| immune10 = Whispering Death
+| immune11 = Silva Stun
+| immune12 = Shellfish Claps
+| immune13 = Enraged
+| listexclude = yes
+| money = {{gc|35}}
+| Twisting Nether|2-3|100%
+| Cosmic Kunai|1|33.33%
+| Cosmilamp|1|30.83%
+| Guidelight of Oblivion|1|2.5%
+| custom| {{item|The Sentinels of the Devourer (Lore)|note=(Always on first kill if [[Storm Weaver]]<br/>and [[Ceaseless Void]] are defeated)|wrap=y}}|100%
+| Super Healing Potion|1-15|100%
+| Signus Mask|1|14.29%
+| Signus Trophy|1|10%
+| Ancient God Slayer Helm|1|5%
+| Ancient God Slayer Chestplate|1|5%
+| Ancient God Slayer Leggings|1|5%
+| Spectral Veil|1|{{revengeance|25%}}
+| image2 = Signus map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| debuff = Whispering Death
+| debuffchance = 100%
+| duration = 7 seconds (Contact)
+| debufftip = Death approaches; defense, attack power, and life regen reduced
+| debuff2 = Horror
+| debuffchance2 = {{revengeance|100%}}
+| duration2 = {{revengeance|5 seconds}} (Contact)
+| debufftip2 = The horror...
+| boxwidth = 24em
+}}
+
+'''[[Signus, Envoy of the Devourer]]''' is usually the fourth, fifth, or sixth Post-[[Moon Lord]] boss that you will face in your playthrough. Signus is summoned by using the [[Rune of Kos]] in [[The Underworld]] biome at any time.
+
+This guide will mention items exclusive to [[Expert Mode|Expert]] and [[Revengeance Mode]] with no special formatting and will follow the intended progression.
+
+== Terrain Preparation ==
+Signus requires a lot of room within the Underworld in order to avoid his devastating contact damage. 
+== Gearing Up ==
+===Armor===
+[[Tarragon armor]] is the preferred choice for all classes.
+However, Lunar armors are likely still effective. 
+*[[Solar Flare armor]] for Melee
+*[[Vortex armor]] for Ranged
+*[[Nebula armor]] for Mage
+*[[Stardust armor]] for Summoner
+*[[Xeroc armor]] for Rogue
+
+===Accessories===
+*[[Tarragon Wings]] (with [[Angel Treads]]) or [[Seraph Tracers]] are the preferred wings. 
+*The [[Elysian Aegis]] is vital for its [[Elysian Guard]] (increasing stats and reducing movement acceleration for more 
+controlled movement
+**Its highly recommended to disable the accessory's visibility in order to not accidentally dash towards Singus' Cosmic Lanterns that spawn to the side of the player.
+*[[The Absorber]] is important for survivability by increasing damage reduction as well as giving increased jump acceleration.
+*[[The Community]] is a great all-around accessory that boosts offensive and defensive stats as well as boosting flight time.
+*The [[Heart of the Elements]] provides many all-around boosts including damage, damage reduction, life regen, and jump acceleration.
+*The [[Deific Amulet]] is an excellent option providing additional [[immunity frames]] and defense penetration.
+*Melee players should use the [[Bloody Worm Scarf]] for its strong melee boosts as well as increased damage reduction.
+*Ranged players should use the [[Sniper Scope]] or [[Artemis Emblem]], which both help in boosting damage output.
+**Artemis Emblem additionally gives some life regen and ammo conservation.
+*Magic players should use the [[Sigil of Calamitas]] for its strong magic boosts.
+*Summoners can boost their minion count and damage with the [[Statis' Blessing]] and [[Statis' Curse]].
+**Summoners can also use the [[Profaned Soul Artifact]] to provide a direct DPS boost through other minions.
+*Rogue users will also find the [[Statis' Ninja Belt]] useful to boost their damage output in addition to the aformentioned boosts.
+===Weapons===
+The weapons made from [[Uelibloom Bar]]s or [[Bloodstone Core]]s are typically the best options for the fight.
+====Melee====
+*The [[True Biome Blade]]'s range, homing, and DPS should make the fight fairly straight-forward.
+*The [[Lacerator]], [[Solar Flare]], or [[Verdant]] are all options that can deal good DPS towards Signus and his Comis Lantersn.
+
+====Ranged====
+*[[Seadragon]] is an excellent option with homing and good DPS.
+**Along with [[Holy Fire Bullet]]s can decimate Signus and his Cosmic Lanterns
+*The [[Shredder]] or even the [[S.D.M.G.]] can deal solid damage.
+
+====Mage====
+*Although DPS is lower, [[Nuclear Fury]] is the all-around best option being able to simultaneously handle lanterns and Signus with its homing.
+*The [[Sanguine Flare]] and [[Mistlestorm]] is a decent choice dealing decent damage.
+*[[Everglade Spray]] is an excellent secondary weapon for applying [[Ichor (debuff)|Ichor]] for long periods of time.
+
+====Summoner====
+*[[Elemental Axe]]s is an excellent option being able to easily target Phase 1, handle the probes, and maintain good DPS.
+**If [[Signus]] has been defeated, [[Cosmilamp]]s perform even better at the cost of a bit less range.
+*The [[Energy Staff]] provides additional DPS to aid your minions.
+
+====Rogue====
+*[[Molten Amputator]]s are excellent for the entire fight due to it stacking on top of each other.
+**[[Elemental Disk]] can perform a similar task although with lower DPS.
+*[[Tarragon Throwing Dart]]s are a decent option dealing reasonable damage.
+
+=== Miscellaneous ===
+*Farm [[Blood Orb]]s to easily craft many helpful [[potions]] that will increase your survivability.
+*If in multiplayer, [[Wormhole Potion]]s are a cheap and effective tool to escape death.
+== The Fight==
+Despite requiring a large amount space, it's highly recommended

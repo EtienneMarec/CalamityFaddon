@@ -1,0 +1,58 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Revengeance mode only}}
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 16
+| stack = 1
+| sell = {{value|1}}
+| tooltip = Doubles your health<br/>Converts half of your health into soul canisters<br/>Getting hit will open a canister, decreasing the attack's damage and releasing bloody fireballs<br/>Press {{key|Destroy}} to crush a canister, releasing stronger fireballs and increasing your Spy potential<br/>After being crushed, the canister will need 20 seconds to be fixed<br/>'Remnant.'
+| debuff = Abyssal Flames
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| debuff2 = Vulnerability Hex
+| debuffduration2 = 5 seconds
+| debuffchance2 = 100%
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Unholy
+| element2 = Dark
+| element3 = Fire
+| proj = Regeterrence_Fireball.gif
+| projcaption = Bloody Fireball
+}}
+|{{item drops infobox
+|[[Hemogoblin Shark]], [[Blood Eel]]|1|{{Revengeance|20%}}
+|[[Wandering Eye Fish]], [[Zombie Merman]]|1|{{Revengeance|5%}}
+}}}}
+
+The '''Regeterrence''' is a Godseeker Mode [[Equipment|covering]] dropped from various [[enemies]] that can be [[Fishing|fished]] up during the [[Events|Blood Moon]] event after [[Supreme Calamitas]] has been defeated. While equipped, it provides the following effects:
+*The player's health is doubled. However, the bottom half of the health bar is converted to 10 soul canisters.
+*Upon getting damage, one of the canisters will be opened, lowering the attack's damage by 30% and releasing 5 bloody fireballs.
+**The base damage of the fireballs is equal to the amount of health the opened soul canister contained. Additionally, the damage of the fireballs scales with Spy damage bonuses. The fireballs cannot critically hit nor pierce through enemies, but go through walls, home onto the closest target and inflict the [[Abyssal Flames]] and [[Vulnerability Hex]] debuffs for 5 seconds.
+*Upon pressing the {{key|Destroy}} key, the player will crush the right most unused canister.
+**The crushed canister releases 7 empowered bloody fireballs, that can pierce up to 3 times and the base damage of which is double the amount of health the canister had.
+**Each broken canister grants 5 points of [[Spy|stealth]] and increase Spy critical chance by 2%. However, after being broken, each canister will require 20 seconds to be fixed.
+==Crafting==
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Notes == 
+*The order of canisters in which they will be opened or crushed goes from right to left, but they refill from left to right.
+*Regeterrence will always affect the player's HP the last.
+** For example, if the player stands near [[Crimson Effigy]], their HP will be decreased by 10% first and only then doubled.
+* If the player's normal health is full, the opened canisters will start to refill at double the rate of their [[tgc:Health regeneration|health regeneration]]. This will not affect the broken canisters.
+*If the player has only 100 base HP, Regeterrence will not convert the hearts into soul canisters and instead will just double the player's HP.
+*If the player has an uneven amount of health, it is divided equally between every canister, and the rest goes to the right most canister.
+
+==Trivia ==
+*The flavor text is a reference to a game series ''[[wikipedia:Five_Nights_at_Freddy's|Five Nights at Freddy's]]''.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

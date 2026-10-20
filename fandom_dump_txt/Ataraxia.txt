@@ -1,0 +1,67 @@
+{{dedicated|Faye|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damage = 710
+| use = 18
+| velocity = 9
+| knockback = 2.5
+| hardmode = yes
+| postml = yes
+| tooltip = Equanimity
+| rare = 15
+| sell = {{value|0|30}}
+| auto = yes
+| stack = 1
+| damagetype = Melee
+| debuff = Shadowflame
+| debuffduration = 8 seconds (Contact)<br/>3 seconds (Projectiles)
+| debufftip = Losing life
+| debuffchance = 100%
+| element1 = Dark
+| element2 = Slash
+}}
+[[File:Ataxaria (demo).gif|framed|right|Ataxaria being swung. Note the additional spiral of projectiles produced when the [[Super Dummy]] is struck with the blade.]]
+
+'''Ataraxia''' is a Godseeker Mode [[Swords|broadsword]] that autoswings. When swung, Ataraxia fires three rocket-like projectiles, two small and one large, towards the cursor. The larger projectile explodes on impact with a tile or enemy. The smaller projectiles split into several needles on impact, which fly a short distance from the impact point and rapidly damage enemies. When the blade itself strikes a foe, five additional homing projectiles are produced, flying around the target in a flower-like pattern. The homing projectiles may choose to home on a different enemy if many are close by.
+
+Ataraxia, along with all of its projectiles and their explosions, inflict the [[Shadowflame]] [[debuff]] onto enemies.
+
+{{modifier|melee}}
+
+== Projectile Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Type !! Damage !! Description
+|-
+| {{item|Ataraxia Main|Main Rocket|ext=gif|mode=table|nolink=y}}
+| 100%
+| Explodes into a cloud of Shadowflame on hit, effectively dealing double damage.
+|-
+| {{item|Ataraxia Side|Side Rocket|ext=gif|mode=table|nolink=y}}
+| 75%
+| Explodes into six Needle Rockets in all directions on hit.
+|-
+| {{item|Ataraxia Homing|Flower Rocket|ext=gif|mode=table|nolink=y}}
+| 10%
+| Flies in a group of five around the target in a flower-like manner.
+|-
+| {{item|Ataraxia Split|Needle Rocket|mode=table|nolink=y}}
+| 3.75%
+| Travels for a short distance and decelerates to a stop before dissipating after 0.83 seconds.<br/>Very rapidly hits any targets in contact with it.
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The word ''ataraxia'' refers to a state of emotional tranquility and peace of mind.
+*The word ''equanimity'' refers to a state of mental calmness and evenness of temper.
+**This word is also used for the name of a [[Equanimity|rogue boomerang]].
+*The projectiles for the Ataraxia are named 'Not [[Exoblade]]', 'Also Not Exoblade', 'Definitely Not Exoblade', and 'Still Not Exoblade'.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

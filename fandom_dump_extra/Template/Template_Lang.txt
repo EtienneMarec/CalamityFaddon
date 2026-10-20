@@ -1,0 +1,21 @@
+<includeonly><!-- 
+// auto detect if needed, only once per page.
+-->{{#var:__global__lang|<!-- 
+	-->{{#vardefineecho:__global__lang|<!-- 
+
+		// For language wikis:
+		--><!--<language code><!-- replace the "<!--<language code>" with your wiki's language code, e.g. de/fr/pt/zh
+
+
+		------ The part below this line should be omitted on language wikis! ------
+
+		-->{{#ifeq:{{PAGENAME}}|{{SUBPAGENAME}}|en|{{#ifeq:{{#len:{{SUBPAGENAME}}}}|2|{{SUBPAGENAME}}|en}}}}<!-- 
+
+		------ The part above this line should be omitted on language wikis! ------
+
+
+	-->}}<!-- 
+-->}}<!-- 
+--></includeonly><!--
+
+--><noinclude>{{doc}}</noinclude>

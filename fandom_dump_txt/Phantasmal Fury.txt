@@ -1,0 +1,44 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 182
+| mana = 20
+| velocity = 12
+| tooltip = Casts a phantasmal bolt that explodes into more bolts
+| knockback = 7.5
+| rare = 13
+| sell = {{value|0|28}}
+| use = 20
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Phantasmal Soul.gif
+| projcaption = Phantasmal Soul
+| proj2 = Phantom Pellet.png
+| proj2caption = Phantom Pellet
+| element1 = Dark
+}}
+[[File:Phantasmal Fury (demo).gif|443x443px|frame||Phantasmal Fury's attack being used against a [[Target Dummy]], with secondary projectiles homing on a [[Super Dummy]]. Note how the main projectile does not home.]]
+{{distinguish|Phantasmal Ruin|a similarly-themed [[Spy weapon]]}}
+
+The '''Phantasmal Fury''' is a craftable Godseeker Mode [[wand]] that is an upgraded version of the [[Spectre Staff]]. The main shot leaves a trail of smaller bolts similar to the Spectre Staff. These bolts quickly home in on enemies within range. When the main shot impacts an enemy or block, it explodes into 8 bolts.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Phantasmal Fury is similar to the [[Venusian Trident]] and [[Shadowbolt Staff]] in that they are all crafted using a [[Sentinels of the Devourer|Sentinel]] drop and [[Haunted Bar]]s, and directly upgrade post-[[Plantera]] magic weapons.
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Summons a cosmic elemental to fight for you
+| sell = {{value|0|0|40}}
+| rare = 2
+| damage = 20
+| damagetype = summon
+| stack = 1
+| hardmode = yes
+| buff= Cosmic Elemental (buff) | bufflink = no
+| bufftip=The cosmic elemental will protect you}}
+|{{item drops infobox
+|[[Cosmic Elemental]]|1|{{dv|5%|10%}}
+}}
+}}
+{{summoned|Cosmic Elemental|name=Cosmic Elemental|type=minion}}
+The '''Cosmic Stone''' is a [[Pre-Hardmode]] [[covering]] dropped by [[Cosmic Elemental]]s. Equipping it summons a Cosmic Elemental to fight for you by charging at enemies and firing homing stars, which deals summon damage.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The item's sprite is based on a similar rock found within one of [[The Devourer of Gods]]' old sprites.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 48
+| use = 17
+| velocity = 10
+| knockback = 7
+| auto = yes
+| stack = 1
+| tooltip = A pale white sword from a forgotten land<br/>You can hear faint yet comforting whispers emanating from the blade<br/>'No matter where you may be you are never alone<br/>I shall always be at your side, my lord'<br/>Fires a white orb that emits white rain on death for a time
+| rare = 10
+| sell = {{value|0|20}}
+| hardmode = yes
+| postml = yes
+| element1 = Cold
+| element2 = Holy
+}}
+[[File:Greatsword of Judgement (demo).gif|frame|The Greatsword of Judgement's projectile.]]
+
+The '''Greatsword of Judgement''' is a craftable Godseeker Mode [[broadsword]] that autoswings. Upon swinging the sword, a small and infinitely piercing white orb is fired, which slowly homes into a nearby enemy. Every one-tenth of a second, two larger white orbs are fired out on either side of the small orb, which travels a short distance before disappearing on enemy hit or after one second. After one second passes, the small orb dissipates, and homing white rain rapidly drop down every one-tenth of a second for the following ten seconds at the location of the projectile's death. The rain pierces once, homes through tiles, and lasts two seconds. If ten seconds have not passed since the last projectile's death, the next orb will only change where the rain will spawn.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient=Greatsword of Judgement|expectedrows=1}}
+
+== Trivia ==
+*This weapon and its description are references to the [http://darksouls3.wiki.fextralife.com/Greatsword+of+Judgment weapon of the same name] from ''[[wikipedia:Dark Souls III|Dark Souls III]]''. The rain of homing energy is reminicent of one of [http://darksouls3.wiki.fextralife.com/Lothric,+Younger+Prince Lothric]'s attacks, which is a boss in DS3.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:巨剑‘审判’]]

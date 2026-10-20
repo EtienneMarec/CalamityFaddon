@@ -1,0 +1,165 @@
+{{dedicated|The ExiIed FeIIow|Developer|type=NPC}}
+
+
+[[File:Cumulomenace map icon.png]]<big>'' "A terrifying aberration conceived as a result of the imparity conjured within the horizon in the midst of a fierce warfare."''</big>  [[File:Cumulomenace map icon.png]]{{npc infobox
+| name = Cumulomenace
+| type = Boss
+| ai = Cumulomenace AI
+| life = {{dv|28,500|45,000|54,500}}
+| defense = 20
+| vulnerable1 = Magic
+| vulnerable2 = Cold
+| vulnerable3 = Dark
+| vulnerable4 = Stab
+| vulnerable5 = Unholy
+| resistant1 = Slash
+| resistant2 = Fire
+| resistant3 = Water
+| resistant4 = Poison
+| resistant5 = Smash
+| knockback = 100
+| damage = {{dv|45|105|126|145}} (Contact)<br/>{{dv|40|98|122|138}} (Cloud Bullet)<br/>{{dv|36|92|116|130}} (Electric Bolt)<br/>{{dv|50|113|136|160}} (Electric Burst)
+| money = {{gc|8}}
+|Aerialite Ore|{{dv|85 - 100|100 - 135}}|100%|custom|{{item|Cumulomenace (Lore)|note=(Always on first kill)|wrap=y}}|100%|custom|{{item|Nimbus Staff}}|25%|custom|{{item|Glaive o' Gusts}}|25%|custom|{{item|The Tempest's Box}}|25%|custom|{{item|Brume Striders}}|25%|custom|{{item|Cumulomenace Mask}}|28.57%| image2 = cumulomenace_map_icon.png
+| image2caption = Map Icon
+| boxwidth = 27em
+| hurt = NPC_Killed_5.wav
+| killed = NPC_Killed_52.wav
+| sound = blow.ogg
+| soundtext = Cloud Bullet
+| sound2 = Roar_0.wav
+| sound2text = Charge Attack
+|debuff=Electrified|duration=2 seconds (Electric bolt)<br/>3 seconds (Electric burst, Lightning Orb, Lightning Bolt)|sound3=zap.ogg|sound3text=Electric bolt|sound4=Item_121.wav|sound4text=Lightning Orb|debuffchance=100%|custom|{{item|Cumulomenace Trophy}}|10%|imagealt=<Tabber>
+Phase 1= [[File:cumulomenace_sprite.png]]
+|-|
+Phase 2= [[File:cumulomenace_2.png]]
+|-|
+Phase 3= [[File:cumulomenace_3.png]]
+</Tabber>}}
+The '''Cumulomenace''' (Japanese: 積乱雲 ''Sekiran'un'') is an optional [[Hardmode]] [[boss]] that is intended to be fought right before [[Cryogen]] and [[Pyrogen]]. Along with [https://calamitymod.fandom.com/wiki/Queen_Slime Queen Slime], it serves as an introductory boss to Hardmode and is considered the harder option. 
+Defeating it rewards the player with [https://calamitymod.fandom.com/wiki/Aerialite_Ore Aerialite Ore], a few weapons of varying classes, as well as a covering.
+==Spawn==
+The Cumulomenace does not spawn on its own, and requires the player to use a [[Puffy Abomination]] while at the altitude [[Floating Island]]s are found. The boss does not enrage nor will it despawn when the player descends to [[tgc:Layers#Surface|surface]] level.
+== Behavior ==
+When spawned, the Cumulomenace will descend from the sky accompanied with the typical boss roar, with the player's camera centering itself to the position of the boss. Two seconds later, it will start to absorb cloud blocks that manifest seemingly out of nowhere for five seconds before discharging a small expulsion of clouds, leading to the fight being instigated and the player's camera reverting its focus back onto the player character. Cumulomenace fights by teleporting around the player and utilizing an array of different attacks at random in set intervals. After executing an attack, Cumulomenace will subsequently teleport to another random position to stall for a brief period before teleporting again to execute the next attack.
+===Attacks===
+==== Phase 1====
+* [Attack A] Cumulomenace teleports at random positions around the player, firing cloud bullets [[File:Cloud bullet.gif]] towards them. The attack is repeated six times. Each time another bullet is fired, any bullet fired prior will redirect itself to the boss.
+*[Attack B] Cumulomenace telegraphs with a harmless line of trajectory pointing toward the nearest player for a second before charging towards the spot where the line last pointed to and stopping a split second after, releasing cloud bullets [[File:Cloud bullet.gif]] in ten different directions around it.
+*[Attack C] Cumulomenace charges up before unleashing a volley of cloud bullets [[File:Cloud bullet.gif]] in rapid succession following a circular pattern in a single direction while the boss itself rotates in a direction contradictory to the direction of the trajectory of which the bullets are fired.
+*[Attack D] Cumulomenace teleports to either the left or the right of a random player, following with a horizontal charge attack. This is repeated for three turns. A spread of four cloud bullets [[File:Cloud bullet.gif]] is shot towards the nearest player behind Cumulomenace after stopping proceeding the third charge attack.
+*
+====Phase 2====
+* Upon reaching 66% of its HP, Phase 2 will begin. Cumulomenace spins around frantically in a similar fashion to the Eye of Cthulhu when transitioning to its second phase, emitting puffs of clouds before changing its appearance and the fight resumes. This transition is followed with [[Rain]].
+* Phase 2 retains the same attacks as Phase 1, but with the following changes:
+**For Attack A, Cumulomenace shoots either three or four cloud bullets [[File:Cloud bullet 2.gif]] instead of one. The bullets are no longer redirected towards the boss following any subsequent shot.
+**For Attack B, Cumulomenace shoots cloud bullets [[File:Cloud bullet 2.gif]] in sixteen different directions instead of ten.
+** For Attack C, Cumulomenace unleashes a volley of cloud bullets [[File:Cloud bullet 2.gif]] in two opposite directions.
+** For Attack D, the attack overall is executed slightly faster than in phase 1, with the spread-shot releasing seven cloud bullets [[File:Cloud bullet 2.gif]].
+*Phase 2 introduces two new attacks:
+** [Attack E] Cumulomenace charges in a horizontal direction above a random player for a few seconds, laying down rainclouds which will rain damaging droplets. These clouds take one damage point per hit but only require very few hits before disappearing in a little puff. They disappear on their own after 15 seconds if the player leaves them be.
+** [Attack F] Cumulomenace summons four clouds around itself that orbit around it. The clouds shoot water blasts towards the nearest player. The water blasts are much faster than normal.
+====Phase 3====
+*Upon reaching 33% of its HP, Phase 3 will begin. Cumulomenace once again spins around frantically before changing its appearance just like in phase two, only this time having centrifugal force which will expel 8-12 cloud bullets [[File:Cloud bullet 3.gif]] in random directions from random positions around the boss. This is consecutively followed up with a [[tgc:Thunderstorm|Thunderstorm]].
+* Phase 3 retains the same attacks as Phase 1 and Phase 2, but with the following changes:
+**For Attack A, all cloud bullets [[File:Cloud bullet 2.gif]] are replaced with blue lightning bolts identical to that of a [[Shockstorm Shuttle]]'s. They inflict the [[Electrified]] debuff for 2 seconds.
+**For Attack B, just like Attack A, all cloud bullets [[File:Cloud bullet 2.gif]] are replaced with blue lightning bolts.
+** For Attack C, Cumulomenace unleashes a volley of cloud bullets [[File:Cloud bullet 3.gif]] in three directions.
+***For the duration of the entire attack, a blue lightning bolt is fired towards the nearest player every 4/5 of a second.
+** For Attack D, all cloud bullets [[File:Cloud bullet 2.gif]] are replaced with blue lightning bolts and nine are released instead of seven.
+** For Attack E, a new variant of rainclouds are placed down. These rainclouds burst into four blue lightning bolts orthogonally upon disappearing. If they disappear on their own, the bolts are fired diagonally. If they disappear from taking too much damage, they fire horizontally and vertically.
+** For Attack F, the four clouds are replaced with lightning orbs [[File:Lightning Orb.gif]] that fire five bolts of lightning at the player. The lightning bolts as well as the orb itself inflicts the [[Electrified]] debuff for 3 seconds.
+*Phase 3 introduces a single new attack:
+** [Attack G] Cumulomenace telegraphs on a random player with a row of [[File:Shocktelegraph.gif]] either vertically, horizontally or diagonally towards either direction. The row of [[File:Shocktelegraph.gif]] locks on said player for a very brief moment before becoming stationary, followed by a burst of electricity on each [[File:Shocktelegraph.gif]] shortly after. Any player caught within burst radius will be inflicted with the [[Electrified]] debuff for 3 seconds.
+====Desperation Phase====
+*Once Cumulomenace's HP has been fully depleted, it will enter its desperation phase.
+**It starts off with a variation of Attack C in Phase 3 where rather than having the cloud bullets [[File:Cloud bullet 3.gif]] fired from the Cumulomenace itself, they are absorbed into the boss instead. After that, Cumulomenace fires blue lightning bolts towards the nearest player in rapid succession. Following that, a bunch of [[File:Shocktelegraph.gif]] will start to appear in rapid succession at random positions around Cumulomenace which will disappear in a burst of lightning much like in Attack G. Finally, Cumulomenace explodes into a puff of clouds, the weather returns to normal and the fight ultimately concludes. The player can thereafter receive Cumulomenace's drops. If all players are slain before the end of the phase, Cumulomenace will simply vanish and the fight is lost.
+===In [[Expert Mode]]=== 
+*Attack A in Phase 1 is repeated eight times.
+**Attack A in Phase 2 and 3 has either four or five cloud bullets [[File:Cloud bullet 2.gif]] / blue lightning bolts fired.
+
+*For Attack B, all projectiles move faster.
+*For Attack C, cloud bullets [[File:Cloud bullet 2.gif]] are fired towards the nearest player every second for the duration of the entire attack for Phase 2.
+* For Attack D, Cumulomenace charges four times.
+===In [[Revengeance Mode]]=== 
+*For Attack C, cloud bullets [[File:Cloud bullet 2.gif]] are fired in eight different directions two seconds after the attack ends.
+* For Attack D, the charge attack is no longer horizontal and can aim toward players in any direction. The spread shot can also aim in any direction
+*For Attack E, rainclouds in Phase 3 leave behind 4 [[File:Shocktelegraph.gif]] after disappearing which will then disappear into a burst of electricity 5 seconds later.
+*
+
+*For Attack G, another row of [[File:Shocktelegraph.gif]] is telegraphed on the selected player perpendicular to the already-existing row.
+*Right as the transition to Phase 2 or 3 ends, cloud bullets [[File:Cloud bullet 2.gif]] / blue lightning bolts are fired in 16 different directions. These projectiles move at high speeds.
+===In [[Death Mode]]===   
+*For Attack A in Phase 1, two cloud bullets [[File:Cloud bullet.gif]] are shot side by side.
+*For Attack D, the charge attack is performed back to back similar to the Eye of Cthulhu in Expert Mode. The spread shot takes a second to occur but is then carried out like normal.
+*Attack B repeats itself once.
+*For Attack E in Phase 3, blue lightning bolts are shot in all eight directions regardless of the circumstances behind them disappearing.
+*For Attack F, the lightning orbs [[File:Lightning Orb.gif]] will slowly navigate their way towards the nearest player.
+*The duration before Cumulomenace moves onto its next attack is reduced slightly.
+*During its desperation phase, the cloud bullet [[File:Cloud bullet 3.gif]] absorption attack lasts noticeably longer and the beam of blue lightning bolts will home in on the nearest player ever so slightly. [[File:Shocktelegraph.gif]] appear in twos side by side horizontally or vertically.
+===In [[Malice Mode]]===
+*Phase 1 is entirely scrapped and the player only fights Cumulomenace in Phase 2 and 3.
+*For Attack A, the cloud bullets [[File:Cloud bullet 2.gif]] / blue lightning bolts redirect themselves towards the nearest player after the next spread of bullets are shot. They only do this once.
+*Attack B repeats itself twice.
+*For Attack C, volleys of cloud bullets [[File:Cloud bullet 2.gif]] are fired in three directions in Phase 2 while volleys of blue lightning bolts are fired in four directions in Phase 3.
+*For Attack D, the spread of projectiles following the final charge attack fly through much faster and after 3 seconds, redirect themselves back to the point from where they were fired.
+*For Attack F, the lightning orbs [[File:Lightning Orb.gif]] spawned around Cumulomenace will no longer slowly chase after the player. However, a row of lightning orbs [[File:Lightning Orb.gif]] spawns above a player spacing out from one another shooting a single blue lightning bolt both upwards and downwards before disappearing. The next row appears three seconds later.
+===On the [[Tgc:For the worthy|For the worthy]] seed===
+*Cumulomenace becomes 50% smaller.
+*All of Cumulomenace's projectiles explode on contact.
+*Any [[File:Shocktelegraph.gif]] that doesn't move will regularly fire blue lightning bolts towards the nearest player every second.
+*The world is plunged into a [[tgc:Thunderstorm|Thunderstorm]] no matter the phase and will last even up until a few minutes after the Cumulomenace has been defeated. 
+*For every attack that involves the Cumulomenace itself to move, it moves 75% faster.
+===Simultaneously in [[Malice Mode]] and on the [[Tgc:For the worthy|For the worthy]] seed=== 
+*Cumulomenace is 75% smaller.
+*All cloud bullets [[File:Cloud bullet 2.gif]] are replaced with blue lightning bolts.
+*The beam of blue lightning bolts during Cumulomenace's desperation phase lasts a full minute.
+==Summons==
+{{npc infobox
+| float = none
+| name = Raincloud
+| type = Enemy
+| damage = {{dv|45|75|92}} (Rain)
+| ai = Raincloud AI
+| life = {{dv|15|21|28}}
+| defense = 9999
+| knockback = 100%
+| immuneall = yes
+| hurt = blow.ogg
+| killed = blow.ogg
+|image=Raincloud.gif}}
+{{npc infobox
+| float = none
+| name = Raincloud (Alt)
+| type = Enemy
+| damage = {{dv|45|75|92}} (Rain)<br/>{{dv|40|98|122}} (Electric Bolt)
+| ai = Raincloud AI
+| life = {{dv|17|24|32}}
+| defense = 9999
+| knockback = 100%
+| immuneall = yes
+| hurt = blow.ogg
+| killed = blow.ogg
+| sound = zap.ogg
+| soundtext = Electric Bolt|image=Raincloud (Alt).gif}}
+==Tips==
+{{dablink|For more elaborate strategies on defeating Cumulomenace, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Cumulomenace strategies]].}} 
+*Making an arena can potentially increase mobility, which is useful for dodging Cumulomenace's bullet hell attacks.
+*Speed-increasing coverings and potions are recommended as the player will find themselves running away from Cumulomenace throughout most of the fight.
+*A [[tgc:Shield_of_Cthulhu|Shield of Cthulhu]] can prove useful for countering Cumulomenace's charge attacks.[https://terraria.fandom.com/wiki/Shield_of_Cthulhu]
+*Rather than getting rid of the Rainclouds in Phases 2 and 3, it is recommended that the player keeps a good horizontal distance from them. This is especially recommended if the player does not possess a piercing weapon or a weapon with a high fire/swing rate.
+==Trivia ==
+*The Cumulomenace's [[Music|theme]] is '''[https://www.youtube.com/watch?v=yyEmZ4ik2sE Clouded in Discord]''', which was composed by the artist [https://www.youtube.com/@theexiiedfeiiow4748/featured The ExiIed FeIIow], who is also this NPC's dedicatee.
+**If the Calamity Music add-on mod is disabled, '''Underground Hallow''' will play instead.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The Cumulomenace has lost all interest in fighting..."
+*The Cumulomenace is a direct homage to the boss of the same name from a [https://minecraft.fandom.com/wiki/Minecraft_Wiki Minecraft] [https://www.planetminecraft.com/data-pack/cumulomenace-boss-fight-datapack/ datapack] developed by The ExiIed FeIIow.
+**Cumulomenace's theme, Clouded in Discord, was composed for its datapack counterpart, hence the boss shown in its [https://www.youtube.com/watch?v=yyEmZ4ik2sE music video] being a Minecraft boss.
+**The boss's unique despawn message if the Boss Checklist Mod is installed is a reference to the same message that appears when its datapack counterpart "leaves" once the boss's patience bar fully empties. Patience is a unique mechanic offered by the boss in the datapack counterpart in which the player has to collect randomly appearing special clouds throughout the fight that are highlighted within circling green sparkles before they disappear in order to keep the fight going. This mechanic no longer applies when the boss enters its last phase.
+**The boss may also be a possible reference to the recurring boss character, [https://wikirby.com/wiki/Kracko Kracko], from the video game franchise [https://kirby.nintendo.com/ Kirby] as it too, is a cloud with a singular eye.
+
+*Cumulomenace is a portmanteau of the words 'Menace' and 'Cumulonimbus', a dense, turbulent, towering vertical cloud that produces hail and lightning.
+*In the mod's source files, the cloud bullet [[File:Cloud bullet.gif]]/[[File:Cloud bullet 2.gif]] projectiles are referred to as "kyumshawt" and "kwumshaht" respectively.
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

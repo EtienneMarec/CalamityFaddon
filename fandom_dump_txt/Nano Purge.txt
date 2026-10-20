@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 73
+| damagetype = magic
+| auto = yes
+| knockback = 3
+| mana = 6
+| tooltip = Fires a barrage of nano lasers
+| rare = 10
+| sell = {{value|0|20}}
+| velocity = 16
+| use = 20
+| stack = 1
+| hardmode = yes
+| image2 = Nano Purge Holdout.gif
+| image2caption = Nano Purge
+| element1 = Dark
+| element2 = Magic
+}}
+
+The '''Nano Purge''' is a craftable [[Hardmode]] [[magic gun]]. It is a direct upgrade from the [[Laser Machinegun]], dealing higher damage and spinning up faster.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Magic guns]]

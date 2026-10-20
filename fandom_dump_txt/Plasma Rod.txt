@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 8
+| mana = 10
+| tooltip = Casts a low-damage plasma bolt<br/>Shooting a tile will cause several bolts with increased damage to fire<br/>Shooting an enemy will inflict shadowflame for a long duration
+| knockback = 2.5
+| velocity = 11
+| rare = 1
+| sell = {{value|0|0|20}}
+| use = 20
+| stack = 1
+| debuff = Shadowflame
+| debuffduration = 10 seconds
+| debuffchance = 100%
+| element1 = Dark
+}}
+|{{item drops infobox
+| [[Goblin Sorcerer]]| 1 | {{dv|4%|6.67%}}
+| [[Tim]]| 1 | {{dv|33.33%|50%}}
+}}
+}}
+The '''Plasma Rod''' is a [[Pre-Hardmode]] [[wand]] obtained from the [[Goblin Sorcerer]] and [[Tim]]. It shoots a beam that inflicts [[Shadowflame]] [[debuff]] to hit [[enemies]]. If it hits a tile instead, it will explode into eight smaller beams with higher damage. Due to the random spread of smaller beams, some may find it difficult to aim smaller beams at the enemy.
+
+The direct hit of the wand can inflict [[Shadowflame]] [[debuff]] for 10 seconds.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The smaller beams go through walls and leave residual embers behind, making it useful for lighting up and exploring areas.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

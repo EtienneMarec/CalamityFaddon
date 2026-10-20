@@ -1,0 +1,263 @@
+<section begin=npc infobox />{{npc infobox
+| type = Boss
+| name = The Plaguebringer Goliath
+| imagealt = <Tabber>
+
+Normal=[[File:The Plaguebringer Goliath.png|300px]]
+
+|-|
+Mucormycotic =[[File:The Plaguebringer Goliath (Mucormycotic).png|300px]] {{fantag|Calamity: Community Remix}}
+
+</Tabber> 
+| environment = Jungle
+| ai = The Plaguebringer Goliath AI
+| damage = {{dv|100|180|226|234}} (Contact)<br/>{{dv|80|136|160|180}} (Plague Stinger)<br/>{{dv|100|180|216|234}} (Plague Missile)<br/>{{dv|120|192|220|240}} (Plague Nuke Barrage)
+| life = {{dv|88,750|142,000|170,400}}
+| defense = {{dv|40|40-60}}
+| dr = 30
+| knockback = 100
+| debuff = Plague
+| debuffchance = 100%
+| debufftip = Rotting from the inside
+| duration = 4 seconds (Contact)<br/>4 seconds (Plague Stinger explosions)<br/>3 seconds (Plague Missiles)<br/>120 seconds (Plague Nukes)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Plague
+| immune4 = Poisoned
+| immune5 = Venom
+| vulnerable1 = Fire
+| vulnerable2 = Water
+| vulnerable3 = Smash
+| resistant1 = Poison
+| resistant2 = Slash
+| resistant3 = Dark
+| resistant4 = Machine
+| money = {{value||25}}
+| Infected Armor Plating|{{dv|13-17|16-20}}|100%
+| Plague Cell Canister|{{dv|10-14|13-17}}|100%
+| Stinger|{{dv|3-5|4-8}}|100%
+|group|At least one of the following 30 weapons will always drop:|30
+| Virulence|1|{{dv|25%|33.33%}}
+| Disease|1|{{dv|25%|33.33%}}
+| Diseased Pike|1|{{dv|25%|33.33%}}
+| Metal Ball|1|{{dv|25%|33.33%}}
+| Pandemic|1|{{dv|25%|33.33%}}
+| Sewer Brewer|1|{{dv|25%|33.33%}}
+| Malevolence|1|{{dv|25%|33.33%}}
+| Reemergence|1|{{dv|25%|33.33%}}
+| Pestilent Defiler|1|{{dv|25%|33.33%}}
+| Blight Spewer|1|{{dv|25%|33.33%}}
+| The Hive|1|{{dv|25%|33.33%}}
+| Blow Pipe|1|{{dv|25%|33.33%}}
+| Plague Staff|1|{{dv|25%|33.33%}}
+| Toxic Wisdom|1|{{dv|25%|33.33%}}
+| The Needler|1|{{dv|25%|33.33%}}
+| Plaguecom Tablet|1|{{dv|25%|33.33%}}
+| Fuel Cell Bundle|1|{{dv|25%|33.33%}}
+| Infected Remote|1|{{dv|25%|33.33%}}
+| Decomposition|1|{{dv|25%|33.33%}}
+| Cirrhotipede|1|{{dv|25%|33.33%}}
+| The Inflator's Controller|1|{{dv|25%|33.33%}}
+| Poison I-Bee|1|{{dv|25%|33.33%}}
+| Phlegm|1|{{dv|25%|33.33%}}
+| Contaminated Dish|1|{{dv|25%|33.33%}}
+| Infected Dagger Misses No Skeptics|1|{{dv|25%|33.33%}}
+| Li'l Mine|1|{{dv|25%|33.33%}}
+| Death-Needle Stinger|1|{{dv|25%|33.33%}}
+| Trash of Magnus|1|{{dv|25%|33.33%}}
+| Hi-Scan Camera|1|{{dv|25%|33.33%}}
+| Varroa Hack|999 - 3996|{{dv|25%|33.33%}}
+| Romulus|1|{{dv|2%}}
+| Toxic Heart|1|100%
+| The Syringe|15-30|50%
+| Flask of Plague|5-15|10%
+| Greater Healing Potion|5-15|100%
+| Bad Apple|1|10%
+| Surgical Glove|1|10%
+| Plague Caller|1|10%
+| Plague Balloon|1|10%
+| Tapehook|1|10%
+| Honey Cooling Cell|1|1%
+| Jungle Key|1|100%
+| custom| {{item|Expired Medication|note=(Always on first kill)|wrap=y}}|{{Death|100%}}
+| Plagueplate |157 |100% (if defeated in the [[Arsenal Labs]])
+| Plague Station|1|100% {{fantag|Catalyst}}
+| Plaguebringer Goliath Mask|1|14.29%
+| Plaguebringer Goliath Trophy|1|10%
+| Plagued Minecart|1|{{revengeance|10%}}
+| custom| {{item|Psy Rod|note=(When summoned in the [[Jungle Bio-center Lab]]<br/>in the [[Glowing Mushroom biome]])|wrap=y}}|100%
+| custom| {{item|The Plaguebringer Goliath (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| image2 = Plaguebringer Goliath map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = Item_42.wav
+| soundtext = Stinger / Missile Spray
+| sound2 = Item_14.wav
+| sound2text = Stinger / Missile Explosion
+| sound3 = Item_88.wav
+| sound3text = Bee Spawn
+| sound4 = PBGDash.wav
+| sound4text = Charge
+| sound5 = PBGBarrageLaunch.wav
+| sound5text = Missile Launch
+| sound6 = PBGAttackSwitch1.wav, PBGAttackSwitch2.wav
+| sound6text = Attack Switch
+| sound7 = PBGNukeWarning.wav
+| sound7text = Phase Transition
+| hardmode = yes
+| boxwidth = 24em
+}}<section end="npc" infobox="" />
+[[File:Plaguebringer Goliath Trophy.png]] <big>''"A horrific amalgam of steel, flesh, and infection."'' </big> [[File:Plaguebringer Goliath Trophy.png]]
+{{distinguish|Plaguebringer|a related [[mini boss]]}}
+
+'''The Plaguebringer Goliath''' (Japanese: 疫病をもたらすゴリアテ ''Ekibyō o motarasu goriate'') is a stupid post-[[Golem]] boss and the central force of the [[plague]] afflicted onto the [[Jungle]].
+
+==Spawn==
+The Plaguebringer Goliath can be summoned manually with the [[Abombination]]. She must be summoned in the [[Underground Jungle]].
+
+{{fantag|Calamity: Community Remix}} The Plaguebringer Goliath can only be spawned by interacting with a [[Plagued 'Bed']] in the [[Jungle Bio-center Lab]] with the Abombination. If the lab happens to spawn in a [[Glowing Mushroom biome]], The Plaguebringer Goliath will take on a new [[Glowing Mushroom]]-themed "Mucormycotic" appearance which makes her harder and allows her to drop the [[Psy Rod]].
+
+==Behavior==
+The Plaguebringer Goliath behaves quickly and erratically, using a large and deadly variety of plague-based attacks. If the player leads The Plaguebringer Goliath out of the Underground Jungle biome or summons her in her {{fantag|Calamity: Community Remix}} Mucormycotic state, she will enrage, tripling her movement speed, quadrupling her projectile velocity and firing dozens of Plague Nukes at the player. All of her projectiles additionally deal twice as much damage, and her DR goes up to 70%.
+
+===Attacks===
+====Phase 1====
+*Will set herself in a position diagonal to the player, then dash quickly at the player while releasing at total of {{dv|16|32|48|64}} Plague Stingers at her sides.
+* Flies close to the player, then moves vertically and fires {{dv|8|10|12|14}} Plague Homing Missiles towards the player.
+**A Plague Homing Missile will replace every fifth stinger shot.
+*Spawns 4 [[Plague Charger]]s that vary in strength and size.
+**Below 50% health, she no longer summons Plague Chargers and instead spawns 27 Plague Homing Missiles that have their own individual health bars and can be killed.
+
+===In [[Expert Mode]]===
+*All of her stingers home in on the player.
+*Stinger projectiles now explode after travelling a certain distance.
+*All her projectiles deal more damage as she loses health.
+*Defense increases greatly as health depletes.
+*Spawns Plague Mines, which float slowly in random directions, and exploding when in contact with the player, set off by another Plague Mine, or killed. Plague Mines tend to spread apart, but their large explosion radius allows them to set off a chain of explosions.
+**Spawns additional Plague Mines when enraged.
+* Gains a new attack where she dashes horizontally at the player while releasing a row of 19 Plague Mines as she moves. 
+**The Plague Mines will collectively drift upward or downward depending on the player’s position.
+* At 50% health, The Plaguebringer Goliath enters her second phase.
+
+==== Phase 2====
+*The [[status message]] "PLAGUE NUKE BARRAGE ARMED, PREPARING FOR LAUNCH!!!" appears.
+*Retains all abilities from her first phase.
+* Can now dash above the player, raining down 12 Plague Nuke Missiles as she dashes.
+**Plague Nukes travel fast, deal high contact damage, and have a colossal explosion radius (around 74x74 blocks).
+**They additionally inflict [[Irradiated]] for 10 minutes and [[Plague]] for 2 minutes.
+*Summons a [[Plaguebringer]] at 40% health.
+
+===In [[Revengeance Mode]]=== 
+*The Plaguebringer Goliath moves faster and she enters her second phase at 70% health.
+* Projectiles travel faster and shoots projectiles at a higher rate.
+*Can spawn more [[Plague Charger]]s at once.
+*Plague Homing Missiles split into 5 Plague Stingers on death.
+*Summons an additional [[Plaguebringer]] at 30% health.
+
+=== In [[Death Mode]] ===
+*Fires Plague Homing Missiles at a higher rate.
+*Moves twice as fast, accelerates faster, and charges at faster speeds.
+*Enters her second phase at 90% health.
+*Summons an additional [[Plaguebringer]] at 20% health.
+
+===In [[Malice Mode]]===
+*Charges twice during each Plague Nuke Barrage, launching twice as many Plague Nukes.
+*Shoots many more Plague Homing Missiles in Phase 2.
+*Summons an additional [[Plaguebringer]] at 10% health.
+
+===On the For the Worthy Seed===
+
+*Plague Nukes destroy tiles.
+*Summons 5 Plaguebringers on death.
+
+==Summons==
+===Boss Servants===
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Plague Homing Missile
+| type = Flying Enemy
+| environment = Jungle
+| damage = {{dv|90|180|210|224}}
+| ai = Plague Homing Missile AI
+| life = 1000
+| defense = 10
+| knockback = 100
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| duration = 3 seconds
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Plague
+| immune4 = Poisoned
+| immune5 = Venom
+| vulnerable1 = Fire
+| vulnerable2 = Water
+| resistant1 = Poison
+| resistant2 = Dark
+| hardmode = yes
+| boxwidth = 24em
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+}}
+|{{npc infobox
+| name = Plague Mine
+| type = Flying Enemy
+| environment = Jungle
+| ai = Plague Mine AI
+| damage = {{dv|0|200|240|260}}
+| life = 100
+| defense = 0
+| knockback = 100
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Plague
+| immune4 = Poisoned
+| immune5 = Venom
+| vulnerable1 = Fire
+| vulnerable2 = Water
+| resistant1 = Poison
+| resistant2 = Dark
+| hardmode = yes
+| boxwidth = 24em
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+}}
+}}
+
+==Notes ==
+* If the player gets too far away from The Plaguebringer Goliath, she will instantly teleport to them.
+*The entire screen is tinted green for the duration of the fight.
+*If the player leaves the Underground Jungle for a prolonged amount of time she will despawn.
+
+==Tips==
+{{dablink|For more elaborate strategies on defeating the Plaguebringer Goliath, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:The Plaguebringer Goliath strategies]].}}
+
+*Try to make your arena at least 300 by 300 blocks. This will nullify the deadly explosion effects of the Plague Nukes and Plague Mines.
+*An alternative to a large arena is a small honey arena along with wearing the [[Honey Splashers]]. Filling the arena with honey will neutralize the Plaguebringers, making the fight much easier. You will also get a big regeneration buff from the honey boosts.
+*Spamming projectiles which can overwhelm the screen with weapons such as scythes, magic weapons or summons/sentries that have ranged attacks, may give you a bigger chance to defeat this enemy as it will get constant damage thanks to her aggressive movement with the large hitbox.
+*Try making more horizontal movements, as it will lower your chances of getting hit by her ram attack.
+* Take care to avoid her vertical ramming attack, as it can throw the player off guard and potentially kill the player.
+*Pay attention to her location when she's using her Plague Nuke Barrage, go in the same direction that she's dashing in to have a better chance of avoiding them.
+**A [[Relic of Deliverance]] can also help with that.
+*Her Plague Mine Dash attack will create a row of mines that can easily be run into. Try to kill one of the mines to set off a chain explosion and remove the rest of the mines.
+
+==Aftermath==
+*After The Plaguebringer Goliath is defeated, the [[Plague Princess]] will move in.
+
+==Trivia== 
+*The Plaguebringer Goliath's [[Music|theme]] is [https://www.youtube.com/watch?v=fmt-2Uqx0K4 '''Fly of Beelzebub'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' will play instead.
+**Prior to the release of Fly of Beelzebub, the placeholder theme was a [https://www.youtube.com/watch?v=Ds3hvd-tneI remix of Boss 1], which was also composed by DM DOKURO.
+*During April 1st, The Plaguebringer Goliath’s name is changed to The Plaguebringer Jelly.
+**This is a pun based on the boss’s acronym, PBG, and the acronym for a peanut butter jelly and sandwich (PB&J).
+*There is some foreshadowing to this boss with the Queen Bee's lore item talking about controlling them.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, her unique despawn message will be "PLAGUE HAS BEEN BROUGHT TO HOSTILE SPECIMENS. RETURNING TO HOME BASE.“
+*The Plaguebringer Goliath has a [[Draedon's Logs#Jungle|Draedon's Log]] entry dedicated to her that can be found in the [[Jungle Bio-center Lab]].
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}
+[[zh:瘟疫使者歌莉娅]]

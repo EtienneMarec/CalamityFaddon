@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 96
+| use = 14
+| knockback = 5.5
+| auto = yes
+| stack = 1
+| tooltip = Fires a plague cloud
+| rare = 8
+| velocity = 9
+| sell = {{value|0|16}}
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| debuffduration = 4 seconds
+| hardmode = yes
+| proj = Plague Wave.gif
+| projcaption = Plague Wave
+| element1 = Poison
+| element2 = Slash
+| element3 = Machine
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Virulence''' is a [[Hardmode]] [[broadsword]] that autoswings and is dropped from [[The Plaguebringer Goliath]]. Upon swinging the sword, a large green cloud is fired in the direction of the player's mouse that deals 85% of the weapon's damage, pierces indefinitely, goes through tiles, and inflicts the [[Plague]] [[debuff]] on enemy hits.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:瘟疫毒刃]]

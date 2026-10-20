@@ -1,0 +1,694 @@
+The Calamity Mod adds 62 new [[tgc:Blocks|block]] types, including both natural and player-crafted types.
+
+== Naturally Occurring Blocks ==
+=== Soils ===
+{| class="terraria sortable" width="100%"
+! Block
+! Appearance
+! Environment
+! Mined With
+! Destroyed By<br/>Explosives
+! Notes
+|-
+| {{item|Eutrophic Sand}}
+| [[File:Eutrophic Sand (placed).png|center]]
+| [[Sunken Sea]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+| Initially indestructible. Can be mined once [[Desert Scourge]] is defeated.
+|-
+| {{item|Navystone}}
+| [[File:Navystone (placed).png|center]]
+| [[Sunken Sea]]
+| Any [[Pickaxe]] after the [[Desert Scourge]] has been defeated
+| align=center | {{yes}}
+| Initially indestructible. Can be mined once [[Desert Scourge]] is defeated.
+|-
+| {{item|Brimstone Slag}}
+| [[File:Brimstone Slag (placed).png|center]]
+| [[Brimstone Crag]]
+| [[Molten Pickaxe]]
+| align=center | {{no}}
+|-
+| {{item|Hardened Sulphurous Sandstone}}
+| [[File:Hardened Sulphurous Sandstone (placed).png|center]]
+| [[Sulphurous Sea]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+|
+|-
+| {{item|Sulphurous Sand}}
+| [[File:Sulphurous Sand (placed).png|center]]
+| [[Sulphurous Sea]]
+|Any [[Pickaxe]]
+| align=center | {{yes}}
+|
+|-
+| {{item|Sulphurous Sandstone}}
+| [[File:Sulphurous Sandstone (placed).png|center]]
+| [[Sulphurous Sea]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+|
+|-
+| {{item|Abyss Gravel}}
+| [[File:Abyss Gravel (placed).png|center]]
+| [[Abyss]]
+| [[Nightmare Pickaxe]] or [[Deathbringer Pickaxe]]
+| align=center | {{no}}
+|
+|-
+| {{item|Voidstone}}
+| [[File:Voidstone (placed).png|center]]
+| [[Abyss]]
+| [[Adamantite Pickaxe]] or [[Titanium Pickaxe]]
+| align=center | {{no}}
+|
+|-
+| {{item|Planty Mush}}
+| [[File:Planty Mush (placed).png|center]]
+| [[Abyss]]
+| Any [[Pickaxe]]
+| align=center | {{no}}
+|
+|-
+| {{item|Tenebris}}
+| [[File:Tenebris (placed).png|center]]
+| [[Abyss]]
+| [[Pickaxe Axe]] or [[Drax]]
+| align=center | {{no}}
+|
+|-
+| {{item|Grimesand}}
+| [[File:Grimesand (placed).png|center]]
+| [[Floating Island]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+| Summons [[The Hive Mind]] when a [[Shadow Scale]] is dropped onto it.
+|-
+| {{item|Astral Dirt}}
+| [[File:Astral Dirt (placed).png|center]]
+| [[Astral Infection]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+|
+|-
+| {{item|Astral Stone}}
+| [[File:Astral Stone (placed).png|center]]
+| [[Astral Infection]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+|
+|-
+| {{item|Astral Sand}}
+| [[File:Astral Sand (placed).png|center]]
+| [[Astral Infection]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+|
+|-
+| {{item|Hardened Astral Sand}}
+| [[File:Hardened Astral Sand (placed).png|center]]
+| [[Astral Infection]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+|
+|-
+| {{item|Astral Sandstone}}
+| [[File:Astral Sandstone (placed).png|center]]
+| [[Astral Infection]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+|
+|-
+| {{item|Astral Ice}}
+| [[File:Astral Ice (placed).png|center]]
+| [[Astral Infection]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+|
+|-
+| {{item|Astral Clay}}
+| [[File:Astral Clay (placed).png|center]]
+| [[Astral Infection]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+|
+|-
+| {{item|Astral Snow}}
+| [[File:Astral Snow (placed).png|center]]
+| [[Astral Infection]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+|
+|-
+| {{item|Celestial Remains}}
+| [[File:Celestial Remains (placed).png|center]]
+| [[Astral Infection]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+|
+|-
+| {{item|Novae Slag}}
+| [[File:Novae Slag (placed).png|center]]
+| [[Astral Infection]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+|
+|-
+| {{item|Skylac Stone}}
+| [[File:Skylac Stone (placed).png|center]]
+| [[Sky Abyss]]
+| [[Blossom Pickaxe]]
+| align=center | {{no}}
+|
+|-
+| {{item|Skylac Sand}}
+| [[File:Skylac Sand (placed).png|center]]
+| [[Sky Abyss]]
+| [[Blossom Pickaxe]]
+| align=center | {{no}}
+|
+|-
+| {{item|Titanic Shale}}
+| [[File:Titanic Shale (placed).png|center]]
+| [[Stained Mountains]]
+| [[Supreme Onyx Drill]]
+| align=center | {{no}}
+|
+|-
+| {{item|Titanic Snow}}
+| [[File:Titanic Snow (placed).png|center]]
+| [[Stained Mountains]]
+| [[Reactive Pickaxe]]
+| align=center | {{no}}
+|
+|-
+|}
+
+=== [[Ores|Ore Blocks]] ===
+{| class="terraria sortable" width="100%"
+! Block
+! Appearance
+! Environment
+! Mined With
+! Destroyed By<br/>Explosives
+! Notes
+|-
+| {{item|Sea Prism}}
+| [[File:Sea Prism (placed).png|center]]
+| [[Sunken Sea]]
+| Any [[Pickaxe]] after the [[Desert Scourge]] has been defeated
+| align=center | {{yes}}
+|
+|-
+| {{item|Aerialite Ore}}
+| [[File:Aerialite Ore (placed).png|center]]
+| [[Underground]], [[Cavern]]
+| [[Nightmare Pickaxe|Nightmare]] or [[Deathbringer Pickaxe]]
+| align=center | {{yes}}
+|
+|-
+| {{item|Cryonic Ore}}
+| [[File:Cryonic Ore (placed).png|center]]
+| [[Ice biome]]
+| [[Adamantite Pickaxe|Adamantite]] or [[Titanium Pickaxe]]
+| align=center | {{no}}
+|
+|-
+| {{item|Hallowed Ore}}
+| [[File:Hallowed Ore (placed).png|center]]
+| [[The Hallow]]
+| [[Adamantite Pickaxe|Adamantite]] or [[Titanium Pickaxe]]
+| align=center | {{no}}
+|
+|-
+| {{item|Perennial Ore}}
+| [[File:Perennial Ore (placed).png|center]]
+| [[Underground]], [[Cavern]]
+| [[Pickaxe Axe]] or [[Drax]]
+| align=center | {{no}}
+|
+|-
+| {{item|Charred Ore}}
+| [[File:Charred Ore (placed).png|center]]
+| [[Brimstone Crag]]
+| [[Mythril Pickaxe]] or [[Orichalcum Pickaxe]]
+| align=center | {{no}}
+| 
+|-
+| {{item|Abyss Ore}}
+| [[File:Abyss Ore (placed).png|center]]
+| [[Abyss]]
+| [[Picksaw]]
+| align=center | {{no}}
+| Drops damaging particles when underwater.
+|-
+| {{item|Life Ore}} {{fantag|Calamity Loot Swap}}
+| [[File:Life Ore (placed).png|center]]
+| [[Cavern]]
+| [[Picksaw]]
+| align=center | {{no}}
+| 
+|-
+| {{item|Astral Ore}}
+| [[File:Astral Ore (placed).png|center]]
+| [[Astral Infection]]
+| [[Picksaw]] (post-[[Astrum Deus]])
+| align=center | {{no}}
+| Initially indestructible. Can be mined once [[Astrum Deus]] is defeated.
+|-
+| {{item|Cosmilite Slag}} {{fantag|Calamity Loot Swap}}
+| [[File:Cosmilite Slag (placed).png|center]]
+| [[Planetoid]]
+| Any [[Luminite Pickaxe]] or [[Genesis Pickaxe]]
+| align=center | {{no}}
+|-
+| {{item|Exodium Cluster}}
+| [[File:Exodium Cluster (placed).png|center]]
+| [[Planetoid]]
+| Any [[Luminite Pickaxe]] or [[Genesis Pickaxe]]
+| align=center | {{no}}
+|-
+| {{item|Tarragon Ore}}
+| [[File:Tarragon Ore (placed).png|center]]
+| [[Underground Jungle]]
+| Any [[Luminite Pickaxe]] or [[Genesis Pickaxe]]
+| align=center | {{no}}
+|-
+| {{item|Auric Ore}}
+| [[File:Auric Ore (placed).png|center]]
+| [[Cavern]]
+| [[Blossom Pickaxe]]
+| align=center | {{no}}
+|-
+| {{item|Shadowspec Ore}} {{fantag|Calamity Loot Swap}}
+| [[File:Shadowspec Ore (placed).png|center]]
+| [[The Underworld]]
+| [[Blossom Pickaxe]]
+| align=center | {{no}}
+|-
+| {{item|Esseric Ore}} {{fantag|Calamity: Tales of the Aquatic}}
+| [[File:Esseric Ore (placed).png|center]]
+| [[Sky Abyss]]
+| [[Crystyl Crusher]] / [[Large Father]]
+| align=center | {{no}}
+|-
+| {{item|Stiriatic Ore}} {{fantag|Calamity: Tales of the Aquatic}}
+| [[File:Stiriatic Ore (placed).png|center]]
+| [[Cavern]]
+| [[Abysscent Pickaxe]]
+| align=center | {{no}}
+|-
+| {{item|Natrisodic Cluster}} {{fantag|Calamity: Tales of the Aquatic}}
+| [[File:Natrisodic Cluster (placed).png|center]]
+| [[Cavern]]
+| [[Reactive Pickaxe]]
+| align=center | {{no}}
+|}
+
+=== Other ===
+{| class="terraria sortable" width="100%"
+! Block
+! Appearance
+! Environment
+! Mined With
+! Destroyed By<br/>Explosives
+! Notes
+|-
+| {{item|Prism Shard}}
+| [[File:Sea Prism Crystal (placed).png|center]]
+| [[Sunken Sea]]
+| Any [[Pickaxe]] after the [[Desert Scourge]] has been defeated
+| align=center | {{yes}}
+|-
+| [[Sulphurous Cactus]]
+| [[File:Sulphurous Cactus (placed).png|center]]
+| [[Sulphurous Sea]]
+| Any [[Axe]]
+| align=center | {{yes}}
+|-
+| [[Sulphurous Vines]]
+| [[File:Sulphurous Vines (placed).png|center]]
+| [[Sulphurous Sea]]
+| {{na}}
+| align=center | {{yes}}
+|-
+| [[Viper Vines]]
+| [[File:Viper Vines (placed).png|center]]
+| [[Abyss]]
+| {{na}}
+| align=center | {{yes}}
+|-
+| {{item|Lumenyl}}
+| [[File:Lumenyl (placed).png|center]]
+| [[Abyss]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+|-
+| {{item|Astral Monolith}}
+| [[File:Astral Monolith (placed).png|center]]
+| [[Astral Infection]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+|-
+| [[Astral Cactus]]
+| [[File:Astral Cactus (placed).png|center]]
+| [[Astral Infection]]
+| Any [[Axe]]
+| align=center | {{yes}}
+|-
+| [[Astral Vines]]
+| [[File:Astral Vines (placed).png|center]]
+| [[Astral Infection]]
+| {{na}}
+| align=center | {{yes}}
+|-
+| {{item|Arean Conduit Plating}} {{dei}}
+| [[File:Arean Conduit Plating (placed).png|center]]
+| Post-[[The Starborn Moth|Starborn Moth]] [[Martian Madness]]
+| Any [[Pickaxe]]
+| align=center | {{yes}}
+| Drops from [[Distortion Essence Sphere]] and [[Mechawyrm]].
+|-
+| [[Arena Block]]
+| [[File:Arena Block (placed).png|center]]
+| [[Supreme Calamitas]] fight
+| {{na}}
+| align=center | {{no}}
+| Only able to be destroyed by the beam from the [[Crystyl Crusher]] and is unobtainable as an inventory item.
+|-
+| [[Invincible Titanic Snow]]
+| [[File:Invincible Titanic Snow (placed).png|center]]
+| [[Stained Mountains]]
+| {{na}}
+| align=center | {{no}}
+| can not be destroyed
+|-
+|}
+
+== Crafted Blocks and Bricks ==
+{| class="terraria sortable" width="100%"
+! Block
+! Appearance
+! Recipe
+! Crafting Station
+! Destroyed By<br/>Explosives
+! Notes
+|-
+| {{item|Smooth Abyss Gravel}}
+| [[File:Smooth Abyss Gravel (placed).png|center]]
+| {{item|Abyss Gravel}}
+| align=center | {{item|Work Bench}}
+| align=center | {{yes}}
+|-
+| {{item|Smooth Brimstone Slag}}
+| [[File:Smooth Brimstone Slag (placed).png|center]]
+| {{item|Brimstone Slag}}
+| align=center | {{item|Work Bench}}
+| align=center | {{yes}}
+|-
+| {{item|Smooth Navystone}}
+| [[File:Smooth Navystone (placed).png|center]]
+| {{item|Navystone}}
+| align=center | {{item|Work Bench}}
+| align=center | {{yes}}
+|-
+| {{item|Ashen Slab}}
+| [[File:Ashen Slab (placed).png|center]]
+| {{item|Smooth Brimstone Slag}} (4) + {{item|Unholy Core}}
+| align=center | {{item|Ashen Altar}}
+| align=center | {{yes}}
+|-
+| {{item|Laboratory Plating}}
+| [[File:Laboratory Plating (placed).png|center]]
+| {{item|Iron Bar}}/{{item|Lead Bar}} + {{item|Stone Block}} (3) '''or''' {{item|Rusted Plating}}
+| align=center | {{item|Heavy Work Bench}} (or {{item|Iron Anvil}}/{{item|Lead Anvil}} when using [[Rusted Plating]])
+| align=center | {{yes}}
+|-
+| {{item|Laboratory Panels}}
+| [[File:Laboratory Panels (placed).png|center]]
+| {{item|Iron Bar}}/{{item|Lead Bar}} + {{item|Stone Block}} (3)
+| align=center | {{item|Heavy Work Bench}}
+| align=center | {{yes}}
+|-
+| {{item|Hazard Chevron Panels}}
+| [[File:Hazard Chevron Panels (placed).png|center]]
+| {{item|Laboratory Panels}} (10) + {{item|Yellow Paint}} + {{item|Black Paint}}
+| align=center | {{item|Work Bench}}
+| align=center | {{yes}}
+|-
+| {{item|Rusted Plating}}
+| [[File:Rusted Plating (placed).png|center]]
+| {{item|Iron Bar}}/{{item|Lead Bar}} + {{item|Stone Block}} (3) '''or''' {{item|Laboratory Plating}}
+| align=center | {{item|Heavy Work Bench}} (or {{item|Iron Anvil}}/{{item|Lead Anvil}} when using [[Laboratory Plating]])
+| align=center | {{yes}}
+|-
+| {{item|Rusted Pipes}}
+| [[File:Rusted Pipes (placed).png|center]]
+| {{item|Iron Bar}}/{{item|Lead Bar}}
+| align=center | {{item|Iron Anvil}}/{{item|Lead Anvil}}
+| align=center | {{yes}}
+|-
+| {{item|Laboratory Pipe Plating}}
+| [[File:Laboratory Pipe Plating (placed).png|center]]
+| {{item|Laboratory Plating}} + {{item|Rusted Pipes}}
+| align=center | {{item|Iron Anvil}}/{{item|Lead Anvil}}
+| align=center | {{yes}}
+|-
+| {{item|Smooth Voidstone}}
+| [[File:Smooth Voidstone (placed).png|center]]
+| {{item|Voidstone}}
+| align=center | {{item|Work Bench}}
+| align=center | {{yes}}
+|-
+| {{item|Voidstone Slab}}
+| [[File:Voidstone Slab (placed).png|center]]
+| {{item|Smooth Voidstone}}
+| align=center | {{item|Void Condenser}}
+| align=center | {{yes}}
+|-
+| {{item|Aerialite Brick}}
+| [[File:Aerialite Brick (placed).png|center]]
+| {{item|Aerialite Ore}} + {{item|Stone Block}}
+| align=center | {{item|Furnace}}
+| align=center | {{yes}}
+|-
+| {{item|Statigel Block}}
+| [[File:Statigel Block (placed).png|center]]
+| {{item|Purified Gel}}
+| align=center | {{item|Static Refiner}}
+| align=center | {{yes}}
+|-
+| {{item|Cryonic Brick}}
+| [[File:Cryonic Brick (placed).png|center]]
+| {{item|Cryonic Ore}} + {{item|Stone Block}}
+| align=center | {{item|Furnace}}
+| align=center | {{yes}}
+|-
+| {{item|Perennial Brick}}
+| [[File:Perennial Brick (placed).png|center]]
+| {{item|Perennial Ore}} + {{item|Stone Block}}
+| align=center | {{item|Furnace}}
+| align=center | {{yes}}
+|-
+| {{item|Astral Brick}}
+| [[File:Astral Brick (placed).png|center]]
+| {{item|Astral Ore}} + {{item|Astral Stone}}
+| align=center | {{item|Furnace}}
+| align=center | {{yes}}
+|-
+| {{item|Chaotic Brick}}
+| [[File:Chaotic Brick (placed).png|center]]
+| {{item|Abyss Ore}} + {{item|Stone Block}}
+| align=center | {{item|Furnace}}
+| align=center | {{yes}}
+|-
+| {{item|Plagued Containment Brick}}
+| [[File:Plagued Containment Brick (placed).png|center]]
+| {{item|Plague Cell Canister}} + {{item|Stone Block}} (10)
+| align=center | {{item|Plague Infuser}}
+| align=center | {{yes}}
+|-
+| {{item|Aeroplate}} {{fantag|Calamity: Community Remix}}
+| [[File:Aeroplate (placed).png|center]]
+| {{item|Essence of Babil}} + {{item|Obsidian}} (3)
+| align=center | {{item|Hellforge}}
+| align=center | {{yes}}
+|-
+| {{item|Chaosplate}}
+| [[File:Chaosplate (placed).png|center]]
+| {{item|Essence of Chaos}} + {{item|Obsidian}} (3)
+| align=center | {{item|Hellforge}}
+| align=center | {{yes}}
+|-
+| {{item|Cinderplate}}
+| [[File:Cinderplate (placed).png|center]]
+| {{item|Essence of Sunlight}} + {{item|Obsidian}} (3)
+| align=center | {{item|Hellforge}}
+| align=center | {{yes}}
+|-
+| {{item|Elumplate}}
+| [[File:Elumplate (placed).png|center]]
+| {{item|Essence of Eleum}} + {{item|Obsidian}} (3)
+| align=center | {{item|Hellforge}}
+| align=center | {{yes}}
+|-
+| {{item|Navyplate}}
+| [[File:Navyplate (placed).png|center]]
+| {{item|Sea Prism}} + {{item|Obsidian}} (3)
+| align=center | {{item|Hellforge}}
+| align=center | {{yes}}
+|-
+| {{item|Plagueplate}}
+| [[File:Plagueplate (placed).png|center]]
+| {{item|Plague Cell Canister}} + {{item|Obsidian}} (3)
+| align=center | {{item|Hellforge}}
+| align=center | {{yes}}
+|-
+| {{item|Bloodplate}} {{fantag|Apotheosis and Friends}}
+| [[File:Bloodplate (placed).png|center]]
+| {{item|Blood Orb}} + {{item|Obsidian}} (3)
+| align=center | {{item|Hellforge}}
+| align=center | {{yes}}
+|-
+| {{item|Zotplate}}
+| [[File:Zotplate (placed).png|center]]
+| {{item|Essence of Zot}} + {{item|Obsidian}} (3)
+| align=center | {{item|Hellforge}}
+| align=center | {{yes}}
+|-
+| {{item|Lawplate}}
+| [[File:Lawplate (placed).png|center]]
+| {{item|Essence of Law}} + {{item|Obsidian}} (3)
+| align=center | {{item|Hellforge}}
+| align=center | {{yes}}
+|-
+| {{item|Mystplate}}
+| [[File:Mystplate (placed).png|center]]
+| {{item|Essence of Myst}} + {{item|Obsidian}} (3)
+| align=center | {{item|Hellforge}}
+| align=center | {{yes}}
+|-
+| {{item|Crystalplate}}
+| [[File:Crystalplate (placed).png|center]]
+| {{item|Essence of Crystal}} + {{item|Obsidian}} (3)
+| align=center | {{item|Hellforge}}
+| align=center | {{yes}}
+|-
+| {{item|Rendplate}} {{dei}}
+| [[File:Rendplate (placed).png|center]]
+| {{item|Essence of Rend}} + {{item|Obsidian}} (3)
+| align=center | {{item|Hellforge}}
+| align=center | {{yes}}
+|-
+| {{item|Surtplate}} {{dei}}
+| [[File:Surtplate (placed).png|center]]
+| {{item|Essence of Surt}} + {{item|Obsidian}} (3)
+| align=center | {{item|Hellforge}}
+| align=center | {{yes}}
+|-
+| {{item|Strangeplate}} {{dei}}
+| [[File:Strangeplate (placed).png|center]]
+| {{item|Strange Matter}} + {{item|Obsidian}} (3)
+| align=center | {{item|Hellforge}}
+| align=center | {{yes}}
+|-
+| {{item|Mediocre Matter}}
+| [[File:Mediocre Matter (placed).png|center]]
+| See page
+| align=center | See page
+| align=center | {{yes}}
+|-
+| {{item|Uelibloom Brick}}
+| [[File:Uelibloom Brick (placed).png|center]]
+| {{item|Uelibloom Ore}} + {{item|Stone Block}}
+| align=center | {{item|Adamantite Forge}}/{{item|Titanium Forge}}
+| align=center | {{yes}}
+|-
+| {{item|Profaned Rock}}
+| [[File:Profaned Rock (placed).png|center]]
+| {{item|Unholy Essence}} + {{item|Stone Block}} (20)
+| align=center | {{item|Ancient Manipulator}}
+| align=center | {{yes}}
+|-
+| {{item|Profaned Slab}}
+| [[File:Profaned Slab (placed).png|center]]
+| {{item|Profaned Rock}} (5)
+| align=center | {{item|Ancient Manipulator}}
+| align=center | {{yes}}
+|-
+| {{item|Profaned Crystal}}
+| [[File:Profaned Crystal (placed).png|center]]
+| {{item|Unholy Essence}} + {{item|Glass}} (20)
+| align=center | {{item|Ancient Manipulator}}
+| align=center | {{yes}}
+|-
+| {{item|Runic Profaned Brick}}
+| [[File:Runic Profaned Brick (placed).png|center]]
+| {{item|Profaned Rock}} (4) + {{item|Profaned Crystal}}
+| align=center | {{item|Ancient Manipulator}}
+| align=center | {{yes}}
+|-
+| {{item|Stratus Brick}}
+| [[File:Stratus Brick (placed).png|center]]
+| {{item|Ruinous Soul}} + {{item|Exodium Cluster}} + {{item|Lumenyl}} (3) + {{item|Stone Block}} (50)
+| align=center | {{item|Ancient Manipulator}}
+| align=center | {{yes}}
+|-
+| {{item|Otherworldly Stone}}
+| [[File:Otherworldly Stone (placed).png|center]]
+| {{item|Stone Block}} (150) + {{item|Dark Plasma}} + {{item|Armored Shell}} + {{item|Twisting Nether}} + {{item|Silk}} (15)
+| align=center | {{item|Ancient Manipulator}}
+| align=center | {{yes}}
+|-
+| {{item|Cosmilite Brick}}
+| [[File:Cosmilite Brick (placed).png|center]]
+| {{item|Cosmilite Bar}} + {{item|Stone Block}} (20)
+| align=center | {{item|Cosmic Anvil}}
+| align=center | {{yes}}
+|-
+| {{item|Silva Crystal}}
+| [[File:Silva Crystal (placed).png|center]]
+| {{item|Crystal Block}} (200) + {{item|Gold Bar}} (25) + {{item|Darksun Fragment}} + {{item|Effulgent Feather}} (5)
+| align=center | {{item|Cosmic Anvil}}
+| align=center | {{yes}}
+|-
+| {{item|Esseric Brick}}
+| [[File:Esseric Brick (placed).png|center]]
+| {{item|Esseric Ore}} (2) + {{item|Laceline}} (5)
+| align=center | {{item|Enchanted Reconstruction Module}}
+| align=center | {{yes}}
+|-
+| {{item|Reinforced Acidplate}}
+| [[File:Reinforced Acidplate (placed).png|center]]
+| {{item|Accidated Reactive Essence}} + {{item|Plagueplate}}
+| align=center | {{item|Abyssblast Laser Module}}
+| align=center | {{yes}}
+|-
+| {{item|Reinforced Noctiplate}}
+| [[File:Reinforced Noctiplate (placed).png|center]]
+| {{item|Noctic Reactive Essence}} + {{item|Lawplate}}
+| align=center | {{item|Abyssblast Laser Module}}
+| align=center | {{yes}}
+|-
+| {{item|Reinforced Freezeplate}}
+| [[File:Reinforced Freezeplate (placed).png|center]]
+| {{item|Waterfreeze Reactive Essence}} + {{item|Elumplate}}
+| align=center | {{item|Abyssblast Laser Module}}
+| align=center | {{yes}}
+|-
+| {{item|Reinforced Redplate}}
+| [[File:Reinforced Redplate (placed).png|center]]
+| {{item|Bloodred Reactive Essence}} + {{item|Bloodplate}}
+| align=center | {{item|Abyssblast Laser Module}}
+| align=center | {{yes}}
+|}
+
+== Notes ==
+*The covered top blocks of [[Otherworldly Stone]] and [[Uelibloom Brick]]s will not visibly slope when hammered, but will still change their collision to a half-block or sloped state.
+
+== See also ==
+*[[Walls]]
+
+[[Category:Block items|*]]

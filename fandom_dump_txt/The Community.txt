@@ -1,0 +1,82 @@
+{{infobox wrapper
+|{{item infobox
+| image = The Community.gif
+| type = Covering
+| tooltip = The heart of (most of) the Terraria community<br/>Starts off with weak buffs to all of your stats<br/>The stat buffs become more powerful as you progress<br/>Reduces the DoT effects of harmful debuffs inflicted on you<br/>Thank you to all of my supporters that made this mod a reality
+| rare = rainbow
+| sell = {{value|0|9|60}}
+| stack = 1
+}}
+|{{item drops infobox
+|[[Leviathan and Anahita]]|1|10%
+}}
+}}
+
+'''The Community''' is a [[Hardmode]] [[covering]] dropped from [[Leviathan and Anahita]].
+
+When equipped it reduces damage received from Damage over Time (DoT) [[debuff|effects]] and grants the player boosts to several stats that scale as the player progresses through the game by killing more [[bosses]].
+
+Note that the life regen bonuses listed below only apply if the player currently has negative life regen, meaning they're taking damage over time.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Stat Scaling ==
+The stats presented in the table are not cumulative, rather, they are the exact stat boost the item grants after defeating each boss and the prior bosses. For example, if the player has defeated all bosses up to and including the Queen Bee, they would gain +1 life regen, +2.25% [[damage reduction]], +4 defense etc.
+
+{| class="terraria lined"
+! Boss !! Life Regen<ref>Life regen bonuses only apply if the player currently has negative life regen.</ref> !! Damage Reduction !! Defense !! Critical Strike Chance !! Damage !! Melee Speed !! Minion Knockback !! Movement Speed !! Flight Time !! Max Life
+|-
+| Pre-Boss || +1 || +1.25% || +2 || +1% || +2.5% || +1.25% || +5% || +2% || +5% || +2%
+|-
+| [[King Slime ]]|| +1 || +1.5% || +3 || +1% || +3% || +1.5% || +6% || +2% || +6% || +3%
+|-
+| [[Eye of Cthulhu]] || +1 || +1.75% || +3 || +1% || +3.5% || +1.75% || +7% || +3% || +7% || +3%
+|-
+| [[Eater of Worlds]] / [[Brain of Cthulhu]] || +1 || +2% || +4 || +2% || +4% || +2% || +8% || +3% || +8% || +4%
+|-
+| [[Queen Bee]] || +1 || +2.25% || +4 || +2% || +4.5% || +2.25% || +9% || +4% || +9% || +4%
+|-
+| [[Skeletron]] || +2 || +2.5% || +5 || +2% || +5% || +2.5% || +10% || +4% || +10% || +5%
+|-
+| [[Wall of Flesh]] || +2 || +2.75% || +5 || +2% || +5.5% || +2.75% || +11% || +5% || +11% || +5%
+|-
+| Any [[Mechanical Boss]] || +2 || +3% || +6 || +3% || +6% || +3% || +12% || +5% || +12% || +6%
+|-
+| [[Plantera]] || +2 || +3.25% || +6 || +3% || +6.5% || +3.25% || +13% || +6% || +13% || +6%
+|-
+| [[Golem]] || +2 || +3.5% || +7 || +3% || +7% || +3.5% || +14% || +7% || +14% || +7%
+|-
+| [[Duke Fishron]] || +2 || +3.75% || +7 || +3% || +7.5% || +3.75% || +15% || +7% || +15% || +7%
+|-
+| [[Lunatic Cultist]] || +2 || +4% || +8 || +4% || +8% || +4% || +16% || +8% || +16% || +8%
+|-
+| [[Moon Lord]] || +2 || +4.25% || +8 || +4% || +8.5% || +4.25% || +17% || +8% || +17% || +8%
+|-
+| [[Providence, the Profaned Goddess]] || +2 || +4.5% || +9 || +4% || +9% || +4.5% || +18% || +9% || +18% || +9%
+|-
+| [[The Devourer of Gods]] || +2 || +4.75% || +9 || +4% || +9.5% || +4.75% || +19% || +9% || +19% || +9%
+|-
+| [[Jungle Dragon, Yharon]] || +2 || +5% || +10 || +5% || +10% || +5% || +20% || +10% || +20% || +10%
+|}
+<references/>
+
+== Notes ==
+*Though it is technically able to be obtained in [[Pre-Hardmode]], it is extremely difficult to do so, and is instead intended to be obtained in the middle of [[Hardmode]].
+*If the player is under the effect of one of the alcohols sold by the [[Drunk Princess]] while they have The Community equipped, the life regen it provides will be reduced to 1, no matter how many bosses the player has killed.
+*The amount of maximum life gained is based on the player's permanent health power-ups in vanilla, meaning the max life gained from equipping this covering is 50.
+*Defeating a boss will not grant the stat boosts for bosses earlier in progression. For example, beating the Eye of Cthulhu before King Slime will not grant King Slime's bonuses.
+*If the player has the [[Shattered Community]] equipped, they cannot equip The Community and vice versa.
+
+== Trivia ==
+*The item's stat-scaling effects are similar to the damage-scaling effect [[Legendary weapons]] had used in previous versions of the mod.
+
+== See Also ==
+*The [[Shattered Community]], the [[exhumed]] version of this item. 
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

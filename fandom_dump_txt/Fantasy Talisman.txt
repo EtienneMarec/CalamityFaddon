@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| stack = 9999
+| auto = yes
+| damagetype = Rogue
+| damage = 93
+| knockback = 6
+| consumable = yes
+| rare = 7
+| tooltip = Fires high velocity talismans that ignore gravity<br/>Talismans attach to enemies, causing them to release lost souls<br/>Stealth strikes release more souls and leave behind souls as they travel
+| sell = {{value|0|0|12}}
+| use = 15
+| velocity = 18
+| hardmode = yes
+| proj = Fantasy Talisman Card.png
+| projcaption = Fantasy Talisman
+| proj2 = Lost Soul.gif
+| proj2caption = Lost Soul
+| element1 = Dark
+}}
+
+'''Fantasy Talismans''' are craftable consumable [[Hardmode]] [[rogue weapons]]. When used, they throw a talisman that latches onto [[enemies]] and sticks there, periodically releasing homing souls that deal 50% of the talisman's base damage. Up to three talismans can be stuck to an enemy at once.
+
+Performing a [[stealth strike]] with Fantasy Talismans causes the resulting talisman to deal 80% damage and release additional souls once latched on, as well as making that talisman release lingering souls as it travels that deal 80% damage each. Additionally, homing souls spawned from latching talisman deal 40% damage.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+== Trivia ==
+*The item was inspired by the [[wikipedia:Ofuda|ofuda]] talismans used by the character [https://en.touhouwiki.net/wiki/Reimu_Hakurei Reimu Hakurei] from the ''[[wikipedia:Touhou Project|Touhou Project]]'' series.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

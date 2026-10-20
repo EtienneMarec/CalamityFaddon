@@ -1,0 +1,28 @@
+{{item infobox
+| type = Potion
+| tooltip = Reduces defense by 3% and movement speed by 5%
+| stack = 9999
+| hheal = 100
+| mheal = 100
+| rare = 4
+| use = 17
+| sell = {{value|0|0|4}}
+| consumable = yes
+| debuffduration = 15 seconds
+| debuff = Grape Beer (debuff) | debufflink = no
+| debufftip = Defense and movement speed reduced
+| hardmode = yes
+}}
+
+'''Grape Beer''' is a craftable [[Hardmode]] [[potion]]. It grants the '''Grape Beer''' [[debuff]] when consumed, which reduces [[defense]] and movement speed, as well as healing 100 life and mana. It also inflicts the [[Potion Sickness]] debuff for 1 minute and the [[Mana Sickness]] debuff for 5 seconds.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}
+
+[[Category:Healing items]]

@@ -1,0 +1,31 @@
+{{item infobox
+| type = Furniture
+| tooltip = When placed down nearby players have their damage, crit, and movement speed increased by 25%,<br/>their defense by 20, their DR by 8%, and their health by 20%<br/>Nearby players also suffer a permanent chaos state
+| sell = {{value|0|2|0}}
+| rare = 4
+| color = #E879C5
+| stack = 9999
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| width = 2
+| height = 4
+| buff = Hallow Effigy (buff) | bufflink = no
+| bufftip = The hallow empowers you
+| debuff = Chaos State | bufflink = no
+| debufftip = Rod of Discord teleports are disabled
+| debuffduration = Infinite (while in vicinity)
+| boxwidth = 23em
+}}
+
+The '''Hallow Effigy''' is a [[Hardmode]] [[effigy]] found in the Hallow [[shrine]]. When placed down, all players nearby will receive a 25% damage, critical strike chance, and movement speed boost, a 20% health boost, 8% [[damage reduction]], and 20 [[defense]], but will permanently be inflicted with [[Chaos State]] as long as they are within the effigy's range.
+
+== Notes ==
+*The Hallow Effigy is an indirect upgrade to the [[Corruption Effigy|Corruption]] and [[Crimson Effigy|Crimson Effigies]], combining both of their effects and increasing them, but with a new added downside.
+*The range of the Hallow Effigy is approximately 203 units east and west, while 154 units up and down. This makes a total area on 406 X 308 units (203 X 154 blocks).
+{{-}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

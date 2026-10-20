@@ -1,0 +1,49 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| stack = 1
+| damagetype = magic
+| damage = 68
+| knockback = 4
+| rare = 6
+| sell = {{value|0|9|60}}
+| tooltip = Fires explosive energy bolts
+| use = 18
+| velocity = 7
+| hardmode = yes
+| boxwidth = 22em
+| debuff = On Fire!
+| debuffduration = 2 seconds (Red Spore)
+| debuffchance = 100%
+| debufftip = Slowly losing life
+| debuff2 = Frostburn
+| debuffduration2 = 1.5 seconds (Blue Spore)
+| debuffchance2 = 100%
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuff3 = Ichor (debuff)
+| debuffduration3 = 1 seconds (Yellow Spore)
+| debuffchance3 = 100%
+| debufftip3 = Defense reduced by 20
+| element1 = Magic
+| element2 = Poison
+| mana = 8
+}}
+
+The '''Catastophe Clayspore''' is a craftable [[Hardmode]] [[wand]]. When used it fires out one of three damaging projectiles, which will inflict numerous [[debuffs]] on hit, depending on their color.
+
+{{modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Catastrophe Clay}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]]]

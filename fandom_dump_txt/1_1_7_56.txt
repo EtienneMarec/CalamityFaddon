@@ -1,0 +1,140 @@
+{{Patch infobox
+| image = The Devourer of Gods (1.1.7.56).png
+| patchname = Prepare to Die/Cry Expansion
+| release = 3/5/2017
+}}
+
+The '''1.1.7.56''' update added new changes for Calamity [[bosses]] in [[Prepare to Cry]] mode, and adjusted the stat boosts that the mode, as well as Prepare to Die mode, already gave. The update also buffed most of the mod's [[spears]], made several bosses despawn when brought out of their respective [[biomes]], and resprited The Devourer of Gods.
+
+== Additions ==
+*Added [[Extreme Gravity]] and [[Warped]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*Increased all Prepare to Die/Cry mode health multipliers:
+{{collapse top}}
+**Buffed [[King Slime]], [[Eater of Worlds]], [[Brain of Cthulhu]], [[Creeper]], [[Queen Bee]], [[Skeletron]], the unsplit [[Ebonian Slime God]] and [[Crimulan Slime God]], [[Wall of Flesh]], [[The Hungry]], and [[The Hungry II]]'s Prepare to Die ([[Demon Trophy]]) health multipliers from 5x to 7x, their Prepare to Die ([[Celestial Onion]]) health multipliers from 6x to 9x, and their Prepare to Cry health multipliers from 10x to 13x.
+**Buffed [[Eye of Cthulhu]]'s Prepare to Die (Celestial Onion) health multiplier from 7x to 9x, and its Prepare to Cry health multiplier from 10x to 13x.
+**Buffed [[Desert Scourge]], and [[The Hive Mind]]'s Prepare to Die (Demon Trophy) health multipliers from 6x to 7x, their Prepare to Die (Celestial Onion) health multipliers from 8x to 9x, and their Prepare to Cry health multipliers from 10x to 13x.
+**Buffed [[The Perforators]]' Prepare to Die (Demon Trophy) health multipliers from 5x to 7x, their Prepare to Die (Celestial Onion) health multipliers from 7x to 9x, and their Prepare to Cry health multipliers from 10x to 13x.
+**Buffed [[Cryogen]]'s Prepare to Die (Demon Trophy) health multiplier from 5x to 7x, and its Prepare to Cry health multiplier from 10x to 13x.
+**Buffed [[The Destroyer]], [[The Twins]], [[Skeletron Prime]], [[Brimstone Elemental]], [[Calamitas]], Calamitas' brothers, [[Plantera]], [[Plantera's Tentacle]], [[Siren Lure]], all parts of [[Golem]], [[The Plaguebringer Goliath]], [[Plaguebringer Shade]], [[Duke Fishron]], and [[Lunatic Cultist]]'s Prepare to Die (Demon Trophy) health multipliers from 3x to 4x, their Prepare to Die (Celestial Onion) health multipliers from 4x to 5x, and their Prepare to Cry health multipliers from 6x to 8x.
+**Buffed all of [[Moon Lord]]'s parts, [[Profaned Guardians]], [[Providence, the Profaned God]], Providence's Guardians, [[Storm Weaver]], [[Ceaseless Void]], [[Dark Energy]], [[Signus, Envoy of the Devourer]], [[Cosmic Lantern]], [[The Devourer of Gods]], [[Bumblebirb]], Bumblebirb's clones, [[Jungle Dragon, Yharon]], [[Supreme Calamitas]], and Supreme Calamitas' brothers' Prepare to Die (Demon Trophy) health multipliers from 2x to 3x, their Prepare to Die (Celestial Onion) health multipliers from 3x to 4x, and their Prepare to Cry health multipliers from 4x to 5x.
+*[[Hive Blob]]s, [[The Perforator Hive]], [[Cryogen's Shield]], and Siren Lure's [[Ice Shield]] now inherit their respective bosses' Prepare to Die/Cry health multipliers.
+{{collapse bottom}}
+*All Calamity bosses now gain increased damage for their projectiles and become more aggressive in Prepare to Cry Mode.
+*Buffed [[Armored Digger]]'s health from {{dv|2000|3000}} to {{dv|4000|6000}}.
+*Increased Bumblebirb's speed, and it now despawns if brought out of the [[Jungle]] for too long.
+*Brimstone Elemental changes:
+**Now takes up 8 NPC slots instead of 5.
+**Now despawns if brought out of [[The Underworld]] for too long.
+**Decreased [[Brimstone Flames]] duration from Hellfireballs from 5 seconds to 4.
+*Calamitas changes:
+**Nerfed phase 1's slow Brimstone Laser damage from {{expert|132}} to {{expert|88}}, and her rapid laser damage from {{expert|112}} to {{expert|64}}.
+**Changed phase 2's Brimstone Hellfireball damage from {{dv|140|280}} to {{dv|150|180}}, and her Brimstone Laser damage from {{dv|62|124}} to {{dv|70|88}}.
+**Changed [[Cataclysm]]'s flamethrower damage from {{dv|60|120}} to {{dv|80|100}}.
+**Changed [[Catastrophe]]'s fireball damage from {{dv|52|104}} to {{dv|70|88}}.
+**Now takes up 7 NPC slots instead of 5.
+**Calamitas and her brothers now despawn at daytime.
+**Brothers no longer become more aggressive after the [[Moon Lord]] has been defeated.
+**Decreased Brimstone Flames duration from Hellfireballs from 5 seconds to 4.
+**Decreased Brimstone Flames duration from Catastrophe's fireballs from 5 seconds to 3.
+**Decreased Brimstone Flames duration from Cataclysm's flamethrower from 5 seconds to 2.
+**Dusts from Brimstone Lasers are now smaller.
+*Decreased [[Ceaseless Void]]'s speed.
+*Cryogen changes:
+**Now takes up 7 NPC slots instead of 5.
+**Now despawns if brought out of the [[Snow biome]] for too long.
+**Now uses [[Music#Antarctic Reinforcement|Antarctic Reinforcement]] as its theme instead of the [[Frost Moon]] theme.
+*Desert Scourge now despawns if brought out of the [[Desert]] for too long.
+*The Devourer of Gods changes:
+**Increased speed in Prepare to Die/Cry modes.
+**Now inflicts Extreme Gravity for the first half of the fight, then Warped once he reaches 50% health.
+**Head and tail segments now take 25% damage from [[Vehemence]].
+**Beams now produce less dust.
+*Hive Blobs now fire Vile Clots less frequently, but increased the health thresholds from [[The Hive Mind]] for when they start firing more frequently. <!---If this doesn't make sense, essentially, the Hive Blobs start firing more frequently as The Hive Mind hits certain amounts of health--->
+*The Hive Mind's second phase now despawns if brought out of [[The Corruption]] for too long.
+*Jungle Dragon, Yharon changes:
+**Buffed health from {{dv|800,000|960,000}} to {{dv|909,090|999,999}}, contact damage from {{dv|350|420}} to {{dv|480|528}}, and defense from 130 to 150.
+**Buffed Giga Flare damage from {{dv|300|380}} to {{dv|380|460}}, Sky Flare damage from {{dv|220|300}} to {{dv|300|360}}, Flare Bomb damage from {{dv|400|500}} to {{dv|560|660}}, Flare Explosion damage from {{dv|260|320}} to {{dv|350|400}}, Flare Dust damage from {{dv|180|240}} to {{dv|240|320}}, Flarenado damage from {{dv|600|800}} to {{dv|720|920}}, Infernado damage from {{dv|960|1160}} to {{dv|1040|1240}}, and death Flare Dust damage from {{dv|1000|1080}} to {{dv|2000|2200}}.
+**Increased aggressiveness in Prepare to Cry mode.
+**Now enrages when the player leaves the Jungle for 5 seconds instead of 10.
+*Slightly increased the speed of [[The Leviathan]]'s meteors.
+*The Perforators changes:
+**Nerfed The Perforator Hive's health from {{dv|6000|7200}} to {{dv|5000|6000}}, and its Blood Geyser damage from {{dv|60|68}} to {{dv|46|56}}.
+**The Perforators and their Hive now despawn if brought out of [[The Crimson]] for too long.
+**Blood Clot projectiles from the Perforators and Blood Geyser projectiles from the Hive now use dust type 235 instead of 5.
+**The Perforator Hive now emits light.
+*Buffed Plaguebringer Shade's health from {{dv|3800|4446}} to {{dv|7000|8190}}, and they are now immune to all [[debuffs]].
+*Decreased the speed of the main Profaned Guardian, and all three now despawn if brought out of [[The Hallow]] or the Underworld for too long.
+*Providence, the Profaned God now despawns if brought out of The Hallow or the Underworld for too long.
+*Dusts from [[Soul Slurper]]'s lasers are now smaller.
+*Signus, Envoy of the Devourer changes:
+**Buffed Cosmic Flame Burst and dust bomb damages from {{dv|200|240}} to {{dv|240|280}}.
+**Now despawns if brought out of The Underworld for too long.
+**Nerfed Cosmic Lantern's health from {{dv|5000|6000}} to {{dv|3000|3600}}, but buffed its damage from {{dv|100|120}} to {{dv|150|180}}.
+*Siren Lure no longer charges, no longer spawns Sharknadoes, and now takes up 8 NPC slots instead of 5.
+*The Slime God changes:
+**Changed the core's Abyss Mine damage from {{dv|50|100}} to {{dv|60|80}}, and nerfed Abyss Ball damage from {{dv|100|200}} to {{dv|90|120}}.
+**Nerfed Ebonian Slime God's Abyss Mine damage from {{dv|80|160}} to {{dv|70|140}}, and its Abyss Ball damage from {{dv|110|140}} to {{dv|90|120}}.
+**Nerfed Crimulan Slime God's Abyss Mine damage from {{dv|60|120}} to {{dv|50|100}}, and its Abyss Ball damage from {{dv|90|120}} to {{dv|80|100}}.
+**Nerfed split Ebonian Slime God's Abyss Mine damage from {{dv|40|80}} to {{dv|34|68}}, and its Abyss Ball damage from {{dv|80|100}} to {{dv|60|80}}.
+**Nerfed split Crimulan Slime God's Abyss Mine damage from {{dv|50|100}} to {{dv|40|80}}, and its Abyss Ball damage from {{dv|80|100}} to {{dv|60|80}}.
+**The core's projectiles no longer deal more damage in [[Hardmode]].
+*Supreme Calamitas changes:
+**Buffed contact damage from {{dv|480|624}} to {{dv|550|715}}.
+**Buffed her base Brimstone Shot, Brimstone Barrage, and Brimstone Giga Blast damages from {{dv|406|420}} to {{dv|460|500}}.
+**Buffed her base Brimstone Hellblast damage from {{dv|540|572}} to {{dv|600|700}}.
+**Buffed her base Brimstone Fireblast damage from {{dv|340|356}} to {{dv|440|500}}.
+**Buffed the brothers' healths from {{dv|200,000|220,000}} to {{dv|250,000|275,000}}.
+**Buffed Cataclysm's contact damage from {{dv|60|78}} to {{dv|230|299}}, and flamethrower damage from {{dv|120|128}} to {{dv|320|400}}.
+**Buffed Catastrophe's contact damage from {{dv|70|91}} to {{dv|280|364}}, and fireball damage from {{dv|132|140}} to {{dv|340|400}}.
+**Increased projectile speeds.
+
+=== Items ===
+*[[Angel Treads]] and [[Seraph Tracers]]' tooltips no longer mention that they boost wing time. <!---Angel Streads still do though--->
+*Buffed [[Animus]]' base damage from 500 to 1000, its use time from 11 to 10, and reworked its damage formula.
+*Using [[Celestial Onion]] or [[Demon Trophy]] while a boss is alive now instantly kills the player, drops all of their items, and despawns the boss.
+*Buffed [[Crystalline]]'s damage from 14 to 16, and it now has a 4% critical strike chance boost.
+*[[Dragon Egg (summoning)]] now requires 3 [[Bar of Life|Bars of Life]] and 5 [[Effulgent Feather]]s to craft instead of 5 and 10 respectively.
+*[[Elemental Lance]], [[Gilded Proboscis]], [[Stream Gouge]], and [[Terra Lance]] now have auto swing.
+*Nerfed [[Firestorm Cannon]]'s alt fire's use time from 22 to 26.
+*[[Megafleet]] and [[Starfleet]]'s plasma blasts now produce less dust.
+*Renamed Shadow Essence to [[Calamitous Essence]].
+*Increased the lengths of several Calamity spears, and buffed their shot speeds:
+**Buffed Diseased Pike's shot speed from 5 to 9.
+**Buffed Earthen Pike's shot speed from 5 to 6.
+**Buffed Goldplume Spear's shot speed from 4 to 5.
+**Buffed Hellion Flower Spear's shot speed from 4 to 8.
+**Buffed Marnite Spear's shot speed from 4 to 5.
+**Buffed Sausage Maker's shot speed from 4 to 6.
+**Buffed Starnight Lance's shot speed from 5 to 6.
+**Buffed Stream Gouge's shot speed from 11 to 15.
+**Buffed Terra Lance's shot speed from 9 to 11.
+*Buffed [[Starnight Lance]]'s use time from 26 to 22.
+*Buffed [[Vehemence]]'s damage from 130 to 200, capped its damage at a maximum of 100,000, and it now inflicts [[Mana Sickness]].
+
+=== Other ===
+*Increased [[Plague]]'s life regeneration penalty from 10 to 20.
+
+=== Resprites ===
+*Resprited Armored Digger, The Devourer of Gods, and [[Stasis Probe]] (armored).
+*Resprited [[Bloody Worm Food]].
+*Resprited [[Toxic Heart]].
+*Resprited [[Aorta]], [[Blood Bath]], [[Blood Clot Staff]], [[Eviscerator]], [[Holy Collider]], [[Malevolence]], [[Plague Staff]], [[Profaned Trident]], [[Tooth Ball]], [[True Tyrant's Ultisword]], and [[Vein Burster]].
+*Resprited [[Blood Sample]] and [[Yharon Soul Fragment]].
+*Resprited [[Treasure Bag (Providence)]].
+*Resprited [[Uelibloom Ore]]'s tile.
+*Resprited True Tyrant's Ultisword and [[Tyrant Yharim's Ultisword]]'s Blazing Phantom Blade projectile.
+
+== Fixes ==
+*Fixed [[Asgardian Aegis]] and [[Elysian Aegis]]' guard not activating properly.
+*Fixed [[Gehenna]] and [[Void of Extinction]]'s Hellfireballs dealing magic damage.
+*Fixed melee speed boosts from Calamity accessories not stacking with buffs.
+*Improved looping on [[Music#Adventure's End|Adventure's End]] and [[Music#Infernal Catharsis|Infernal Catharsis]].
+*Fixed a bug where finishing Storm Weaver's first phase would internally mark the boss as defeated. <!---Boss Checklist purposes--->
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

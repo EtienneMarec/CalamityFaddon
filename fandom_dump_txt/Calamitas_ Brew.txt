@@ -1,0 +1,31 @@
+{{item infobox
+| type = Potion
+| tooltip = Adds abyssal flames to your melee and rogue projectiles and melee attacks<br/>Increases your movement speed by 5%
+| stack = 9999
+| consumable = yes
+| use = 17
+| sell = {{value|0|0|40}}
+| rare = 7
+| buff = Abyssal Weapon | bufflink = no
+| duration = 15 minutes
+| bufftip = Melee and rogue weapons inflict abyssal flames, 5% increased movement speed
+| debuff = Abyssal Flames
+| debuffduration = 2, 4, or 6 seconds (Melee and rogue attacks)
+| debuffchance = 100%
+| debufftip = Your soul is being consumed
+| hardmode = yes
+}}
+
+'''Calamitas' Brew''' is a craftable [[Hardmode]] [[Buff Potions|buff potion]]. It grants the user the '''Abyssal Weapon''' [[buff]] when consumed, which gives 5% increased movement speed and causes [[melee weapons|melee]] and [[rogue weapons]] to inflict the [[Abyssal Flames]] [[debuff]] onto enemies.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*There is a 25% chance for Abyssal Flames to be inflicted for 6 seconds, a 37.5% chance to be inflicted for 4 seconds, and a 37.5% chance to be inflicted for 2 seconds.
+{{-}}
+{{Master Template Consumables
+|show-main=yes
+|show-buff=yes
+}}

@@ -1,0 +1,59 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 64
+| use = 25
+| velocity = 12
+| knockback = 5.50
+| auto = yes
+| stack = 1
+| tooltip = Fires homing blazing blades<br/>Gives the player the tyrant's fury buff on enemy hits<br/>This buff increases melee damage by 30% and melee crit chance by 10%
+| buff = Tyrant's Fury
+| duration = 3 seconds
+| bufftip=30% increased melee damage and 10% increased melee crit chance
+| debuff = On Fire!
+| debuffduration = 2 seconds (Projectile)
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuff2 = Venom
+| debuffduration2 = 2.5 seconds (Contact)
+| debufftip2 = Losing life
+| debuffchance2 = 100%
+| debuff3 = Poisoned
+| debuffduration3 = 5 seconds (Contact)
+| debufftip3 = Slowly losing life
+| debuffchance3 = 100%
+| rare = 8
+| sell = {{value|0|16}}
+| hardmode = yes
+| proj = Blazing Phantom Blade.png
+| projcaption = Blazing Phantom Blade
+| element1 = Unholy
+| element2 = Poison
+| element3 = Slash
+}}
+{{dablink|If you were looking for something other than the Tyrant Yharim's Ultisword, see [[Yharim (disambiguation)]].}}
+
+The '''Tyrant Yharim's Ultisword''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. It will shoot out a red blade which homes in on enemies and gradually slows to a stop, similar to the blades created by Pumpking. Upon hitting an enemy with the sword itself, it will have a 50% chance to give the [[Tyrant's Fury]] [[buff]] to the player, increasing melee damage by 30% and melee critical hit chance by 10% for a short period of time. The sword also inflicts the [[Poisoned]] and [[Venom]] [[debuffs]] on enemy hits.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The term “Ultisword” in the weapon's name is a portmanteau of the words “Ultimate” and “Sword”.
+*Yharim, mentioned in this weapon's name, is a significant figure in the Calamity Mod's [[lore]].
+*This weapon is inspired by [https://bulbapedia.bulbagarden.net/wiki/Haxorus_(Pok%C3%A9mon) Haxorus] from the ''[[wikipedia:Pokémon|Pokémon]]'' franchise in its design.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:暴君亚利姆之巨刃]]

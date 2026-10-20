@@ -1,0 +1,48 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 80
+| use = 11
+| tooltip = Throws daggers that split into Sun homing daggers<br/>Stealth strikes fire volleys of homing daggers from the player on dagger hits that suck enemies in
+| damagetype = Rogue
+| velocity = 25
+| knockback = 6
+| debuff = Holy Flames
+| debuffchance = 100%
+| debufftip = Dissolving from holy light
+| debuffduration = 3 seconds
+| critical = 14%
+| rare = 12
+| stack = 1
+| auto = yes
+| sell = {{value|0|24|0|0}}
+| hardmode = yes
+| postml = yes
+| proj = Sun Dagger.png
+| projcaption = Sun Dagger
+| element1 = Holy
+| element2 = Fire
+| element3 = Stab
+}}
+
+The '''Shattered Sun''' is a craftable Godseeker Mode non-consumable [[dagger]] that is an upgrade to the [[Radiant Star]]. It shoots an infinitely piercing dagger that is not affected by gravity and can pass through walls. Upon hitting an enemy, it creates an explosion that inflicts [[Holy Flames]] and deals 45% of the dagger's damage. Shortly after it is thrown, it splits into 5 homing Sun Daggers that does not pierce through enemies or solid tiles. Sun Daggers deal 75% of the dagger's damage.
+
+Performing a [[stealth strike]] with the Shattered Sun, when the resulting Scorched Blades hit an enemy, causes 10 more Sun Daggers to spawn at the player's position which deal 41.25% damage each. Additionally, the main dagger and split daggers suck enemies in, and gain the ability to travel through tiles.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+[[File:Shattered Sun (demo).gif|frame|The Shattered Sun's projectiles splitting, homing, and inflicting the [[Holy Flames]] debuff. Note that normal strikes' split daggers cannot pass through walls.]]
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

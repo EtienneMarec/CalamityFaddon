@@ -1,0 +1,207 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 80
+| damagetype = Ranged
+| knockback = 3.5
+| stack = 1
+| rare = 8
+| sell = {{value|0|16}}
+| auto = yes
+| tooltip = Launches a variety of rockets
+| use = 21
+| velocity = 13
+| hardmode = yes
+| debuff = Plague
+| debuffduration = 3 seconds (Bee RPG, Hive Bomb, Goliath Rocket, Bee Bomb, Goliath Bomb, Hive RPG, Stinger Rocket, Hive Nuke, Disease Ordnance, Goliath Warhead, Hive Rocket, Stinger Mortar, Plague Warhead, Plague Grenade, Disease RPG)
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| element1 = Poison
+| element2 = Fire
+| element3 = Bomb
+| element4 = Machine
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{dablink|If you were looking for something other than the launcher, see [[Hive (disambiguation)]].}}
+
+'''The Hive''' is a [[Hardmode]] [[Launchers|launcher]] that has a chance to drop from [[The Plaguebringer Goliath]]. Every time it fires, it will shoot 1 of 51 types of rockets, each with varying effects.
+
+{{Modifier|ranged}}
+== Rocket Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Type !! colspan=2 | Description
+|-
+| align="center" | {{item|Bee RPG|mode=table|nolink=y}}
+| align=center | A high velocity rocket that explodes into an orange cloud, inflicts the [[Plague]] [[debuff]], and spawns a swarm of friendly [[Bee|bees]].
+|-
+| align="center" | {{item|Hive Missile|mode=table|nolink=y}}
+| align=center | A medium velocity rocket that explodes into a red cloud and spawns a small amount of friendly bees.
+|-
+| align="center" | {{item|Goliath Rocket|mode=table|nolink=y}}
+| align=center | A low velocity rocket that explodes into an orange cloud and inflicts the Plague.
+|-
+| align="center" | {{item|Hive Bomb|mode=table|nolink=y}}
+| align=center | A low velocity rocket that explodes into a green cloud and inflicts enemies with the Plague. The cloud itself will also inflict the Plague.
+|-
+| align="center" | {{item|Bee Bomb|mode=table|nolink=y}}
+| align=center | A high velocity rocket that explodes into a red cloud and spawns bees that inflict Plague.
+|-
+| align="center" | {{item|Goliath Bomb|mode=table|nolink=y}}
+| align=center | A medium velocity rocket that explodes into a cluster of bombs that inflict the Plague.
+|-
+| align="center" | {{item|Hive RPG|mode=table|nolink=y}}
+| align=center | A low velocity rocket that inflicts the Plague and explodes into a green cloud that spawn a small amount of bees.
+|-
+| align="center" | {{item|Stinger Rocket|mode=table|nolink=y}}
+| align=center | A high velocity rocket that homes into enemies, inflicting the Plague.
+|-
+| align="center" | {{item|Hive Nuke|mode=table|nolink=y}}
+| align=center | A low velocity rocket that inflicts the Plague on contact. The explosion itself will also spawn a swarm of friendly bees.
+|-
+| align="center" | {{item|Goliath RPG|mode=table|nolink=y}}
+| align=center | A low velocity rocket that explodes into a shimmering pollen cloud. The pollen will stick to enemies and attract friendly bees, making them deal 25% extra damage.
+|-
+| align="center" | {{item|Stinger Ordnance|mode=table|nolink=y}}
+| align=center | A medium velocity rocket that explodes into a grey cloud and spawns a small amount of friendly bees. 50% chance to not consume ammo when fired.
+|-
+| align="center" | {{item|Plague Mortar|mode=table|nolink=y}}
+| align=center | A medium velocity rocket that explodes into a Plague cloud and inflicts [[Poisoned]].
+|-
+| align="center" | {{item|Bee Ordnance|mode=table|nolink=y}}
+| align=center | A zero velocity rocket. It's a dud.
+|-
+| align="center" | {{item|Bee Mortar|mode=table|nolink=y}}
+| align=center | A low velocity rocket that explodes into bees. The bees themselves will also explode.
+|-
+| align="center" | {{item|Blight Bomb|mode=table|nolink=y}}
+| align=center | A high velocity rocket that explodes into a purple cloud. The cloud will spawn bees and home in on enemies.
+|-
+| align="center" | {{item|Stinger Warhead|mode=table|nolink=y}}
+| align=center | A medium velocity rocket that spews pollen as it flies. The pollen boosts the damage of friendly bees by 25%.
+|-
+| align="center" | {{item|Silver Rocket|mode=table|nolink=y}}
+| align=center | During pre-Hardmode, only fired during Blood Moons. Always available in Hardmode.
+|-
+| align="center" | {{item|Goliath Missile|mode=table|nolink=y}}
+| align=center | Alternate ore counterpart to the Silver Rocket.
+|-
+| align="center" | {{item|Stinger Missile|mode=table|nolink=y}}
+| align=center | A high velocity rocket that explodes into a cluster of rockets. The rockets home into enemies and spawn friendly bees.
+|-
+| align="center" | {{item|Blight RPG|mode=table|nolink=y}}
+| align=center | An incredibly high velocity rocket that goes through tiles and explodes into a green cloud. Very small explosion radius.
+|-
+| align="center" | {{item|Stinger Nuke|mode=table|nolink=y}}
+| align=center | A medium velocity rocket that explodes into a cluster of bombs. The bombs then explode into Blight RPGs.
+|-
+| align="center" | {{item|Disease Ordnance|mode=table|nolink=y}}
+| align=center | A medium velocity rocket that explodes into green bees. The bees inflict the Plague. The rocket itself will not inflict the Plague but will inflict [[Venom|Acid Venom]].
+|-
+| align="center" | {{item|Plague RPG|mode=table|nolink=y}}
+| align=center | A high velocity rocket that explodes into a red cloud. The cloud itself will also explode.
+|-
+| align="center" | {{item|Hive Mortar|mode=table|nolink=y}}
+| align=center | This rocket is unused.
+|-
+| align="center" | {{item|Flare Rocket|mode=table|nolink=y}}
+| align=center | A high velocity rocket that periodically emits small explosive bursts as it travels; these midair bursts inflict [[Holy Flames]].
+|-
+| align="center" | {{item|Stinger RPG|mode=table|nolink=y}}
+| align=center | A low velocity rocket that spawns a small amount of friendly bees from clouds exploded into by other rockets.
+|-
+| align="center" | {{item|Goliath Warhead|mode=table|nolink=y}}
+| align=center | A low velocity rocket that explodes into a white cloud and inflicts the player with Plague.
+|-
+| align="center" | {{item|Bee Warhead|mode=table|nolink=y}}
+| align=center | A very high velocity rocket that explodes into a yellow cloud. The rocket permanently increases the speed of all friendly bees by 0.02% when fired. This bonus is stored per world.
+|-
+| align="center" | {{item|Disease Bomb|mode=table|nolink=y}}
+| align=center | A high velocity rocket that explodes into a green cloud. The explosion will destroy most tiles.
+|-
+| align="center" | {{item|Goliath Mortar|mode=table|nolink=y}}
+| align=center | A large velocity rocket that explodes. The explosion will go through tiles.
+|-
+| align="center" | {{item|Pestilent Missile|mode=table|nolink=y}}
+| align=center | A medium velocity rocket that explodes into a red cloud and spawns a small amount of enemy bees.
+|-
+| align="center" | {{item|Hive Grenade|mode=table|nolink=y}}
+| align=center | A high velocity rocket that explodes into a purple cloud and spreads Corruption.
+|-
+| align="center" | {{item|Plague Homing Missile|mode=table|nolink=y}}
+| align=center | [[The Plaguebringer Goliath#Summons|Main page]]
+|-
+| align="center" | {{item|Radioactive Rocket|mode=table|nolink=y}}
+| align=center | A medium velocity rocket that explodes into a green cloud and inflicts [[Sulphuric Poisoning]].
+|-
+| align="center" | {{item|Hive Rocket|mode=table|nolink=y}}
+| align=center | A big velocity rocket that explodes into Stinger Nukes. The rocket itself will also inflict the Plague.
+|-
+| align="center" | {{item|Stinger Bomb|mode=table|nolink=y}}
+| align=center | A very low velocity rocket that explodes into a blue cloud and speeds up overtime, spawning a small amount of friendly bees per each cloud it passes through exploded into by other rocket types.
+|-
+| align="center" | {{item|Stinger Mortar|mode=table|nolink=y}}
+| align=center | A high velocity rocket that explodes into a green cloud. The cloud permanently increases the player's Luck value by an insignificant float value that is rounded to 0. The cloud will also inflict the Plague.
+|-
+| align="center" | {{item|Tainted Bee RPG|mode=table|nolink=y}}
+| align=center | A rocket that explodes into a red cloud and inflicts the [[Debuffs#From the player|Shred]] debuff. It has no velocity - it must be picked up off the ground and thrown at enemies. Constantly spawns enemy bees while on the ground.
+|-
+| align="center" | {{item|Blight Missile|mode=table|nolink=y}}
+| align=center | A medium velocity rocket that travels along surfaces and explodes into a purple cloud. Jams the weapon when fired.
+|-
+| align="center" | {{item|Plague Rocket|mode=table|nolink=y}}
+| align=center | A high velocity rocket that explodes into a red cloud and deals 50% more damage to airborne enemies excluding enemy bees.
+|-
+| align="center" | {{item|Bee Rocket|mode=table|nolink=y}}
+| align=center | A medium velocity rocket that spews friendly bees as it travels that will intercept enemy bees spawned by Pestilent Missiles, but not the ones spawned by Tainted Bee RPGs.
+|-
+| align="center" | {{item|Plague Warhead|mode=table|nolink=y}}
+| align=center | A low velocity rocket that spawns a Plague-inflicting orange cloud. Permanently locks the Hive to fire only this rocket when it is fired.
+|-
+| align="center" | {{item|Disease Ordnance|mode=table|nolink=y}}
+| align=center | A low velocity rocket that explodes into a pink cloud. The explosion will bounce off of tiles. The presence of pink clouds reduces Luck.
+|-
+| align="center" | {{item|Golgotha|mode=table|nolink=y}}
+| align=center | 
+|-
+| align="center" | {{item|Plague Grenade|mode=table|nolink=y}}
+| align=center | A high velocity rocket that sticks plague pollen to enemies. Friendly bees will prioritize the stuck enemy and inflict it with the Plague. Enemy bees will rush to the stuck enemy's aid, increasing its knockback resistance.
+|-
+| align="center" | {{item|Pestilent Warhead|mode=table|nolink=y}}
+| align=center | A medium velocity rocket that explodes into a pink cloud and spreads Hallow. The cloud itself will spread Crimson.
+|-
+| align="center" | {{item|Stinger Grenade|mode=table|nolink=y}}
+| align=center | A low velocity rocket that inflicts the [[Ancient Astral Blight]] debuff and explodes into a blue cloud. The cloud itself will not inflict anything.
+|-
+| align="center" | {{item|Pestilent Ordnance|mode=table|nolink=y}}
+| align=center | A low velocity rocket that echoes, repeating the effects of up to three previously fired rockets.
+|-
+| align="center" | {{item|Meteor Rocket|mode=table|nolink=y}}
+| align=center | A high velocity rocket that can either bounce from a solid block once or pierce through one enemy, but not both.
+|-
+| align="center" | {{item|Disease RPG|mode=table|nolink=y}}
+| align=center | A green velocity rocket that spews plague globs as it travels and explodes into a cloud. The globs stick to surfaces and cycle through various debuffs to inflict before landing on the Plague. The cloud sprite has an opacity of 0 and its colour is unknown.
+|-
+| align="center" | {{item|Blight Nuke|mode=table|nolink=y}}
+| align=center | A high velocity rocket that explodes into a green cloud. The rocket will continuously spawn friendly bees on contact with friendly NPCs. The cloud will continuously spawn friendly NPCs on contact with friendly bees, causing a memory leak and a potential corruption of the world and character save files as of version [[1.5.1.006]].
+|-
+| align="center" | {{item|Bee Missile|mode=table|nolink=y}}
+| align=center | A medium velocity rocket that inflicts [[Oiled]].
+|}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon is a reference to a [https://borderlands.fandom.com/wiki/Hive rocket launcher of a similar name] from ''[[wikipedia:Borderlands 2|Borderlands 2]]''.
+*Stinger Bombs, Stinger Grenades, Stinger Missiles, Stinger Torpedoes, Stinger Nukes, Stinger Trackers, Stinger ICBMs, Stinger RPGs, Stinger Warheads, Stinger Projectiles, Stinger Bullets, Stinger Gyrojets, Stinger Rockets, Stinger Propellers, Stinger Cruise Missiles, Stinger Ramjets, Stinger Fireworks, Stinger Trajectiles, Stinger Mortars, Stinger Boomers, Stinger Flechettes, Swinger Hwachas, Stinger IEDs, Stinger Boosters, Stinger Jets, Stinger Ammunitions, Stinger Boosters, Stinger Ordnances, Plague Rockets, Stinger Flak, Stinger Sidewinders, Stinger Pipebombs and Stinger Warheads are a possible reference to the real life [https://en.wikipedia.org/wiki/FIM-92_Stinger FIM-92 Stinger rocket launcher.]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Launchers]]

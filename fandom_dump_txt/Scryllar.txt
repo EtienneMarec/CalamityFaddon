@@ -1,0 +1,64 @@
+{{npc infobox
+| type = Flying Enemy
+| environment = Brimstone Crag
+| imagealt = [[File:Scryllar.png]]&nbsp;[[File:RageScryllar.png]]
+| listexclude = yes
+| banner = yes
+| immune1 = Kami Flu
+| immune2 = Abyssal Flames
+| immune3 = Brimstone Flames
+| money = {{sc|5}}
+| custom| {{item|Essence of Chaos|note=(In [[Hardmode]])|wrap=y}}|33.33%
+| custom| {{item|Bloodstone|note=(After defeating [[Providence]])|wrap=y}}|50%
+| custom| hurt = NPC_Hit_49.wav
+| killed = NPC_Killed_51.wav
+}}
+
+The '''Scryllar''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Brimstone Crag]]. It is a ghostly figure that can travel through blocks. It will swoop around the player before moving in to attack. It also has two variations; the normal variant and the rage variant. While they have different stats, they both drop the same loot.
+
+Its stats receive a significant boost and starts dropping [[Bloodstone]] after [[Providence, the Profaned Goddess]] is defeated.
+
+== Variations ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox
+| name = Scryllar
+| namesub = Normal
+| type = Flying Enemy
+| ai = Scryllar (Normal) AI
+| damage = {{dv|50|100}} (pre-[[Providence]])<br/>{{dv|90|180}} (post-[[Providence]])
+| life = {{dv|90|180}} (pre-[[Providence]]) <br/>{{dv|2,500|5,000}} (post-[[Providence]])
+| defense = 18 (pre-[[Providence]])<br/>30 (post-[[Providence]])
+| knockback = {{dv|30%|37%}}
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| duration = 2 seconds
+}}
+
+|{{npc infobox
+| name = Scryllar
+| namesub = Rage
+| image = RageScryllar.png
+| type = Flying Enemy
+| ai = Scryllar (Rage) AI
+| damage = {{dv|65|130}} (pre-[[Providence]])<br/>{{dv|110|220}} (post-[[Providence]])
+| life = {{dv|50|100}} (pre-[[Providence]]) <br/>{{dv|1,500|3,000}} (post-[[Providence]])
+| defense = 10 (pre-[[Providence]])<br/>20 (post-[[Providence]])
+| knockback = {{dv|10%|19%}}
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| duration = 2 seconds
+}}
+|}
+
+== Trivia ==
+*Three Scryllars are depicted in the Underworld's [[Draedon's Logs#Gallery|Draedon's Log]].
+*Scryllar is derived from the word "[[wikipedia:Scylla|Scylla]]", which is the name of a legendary aquatic monster in Greek mythology.
+*Scryllar's sprite is based on [[wikipedia:Gigan|Gigan]] from the ''[[wikipedia:Godzilla (franchise)|Godzilla]]'' franchise.
+
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

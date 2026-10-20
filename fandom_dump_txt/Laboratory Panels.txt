@@ -1,0 +1,26 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| sell = No value
+| stack = 9999
+| rare = 0
+| color = #242325
+}}
+
+'''Laboratory Panels''' is a craftable [[Pre-Hardmode]] [[block]] that can be found in [[Arsenal Lab]]s. It can be used to craft [[Hazard Chevron Panels]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

@@ -1,0 +1,80 @@
+{{npc infobox
+| type = Enemy
+| name = Hive
+| image = Hive (enemy).png
+| environment = Astral Infection
+| ai = Hive AI
+| damage = {{element|Poison}} {{dv|55|110}} (pre-[[Astrum Aureus]])<br/>{{element|Poison}} {{dv|90|180}} (post-[[Astrum Aureus]])
+| life = {{dv|470|940}} (pre-[[Astrum Aureus]])<br/>{{dv|700|1,400}} (post-[[Astrum Aureus]])
+| defense = 15 (pre-[[Astrum Aureus]])<br/>25 (post-[[Astrum Aureus]])
+| dr = 15%
+| banner = yes
+| money = {{value|0|0|15|0}}
+| Stardust|{{dv|2-3|3-4}}|100%
+| Titan Finger|1|2%
+| custom| {{item|Hive Pod|note=(After defeating [[Astrum Aureus]])|wrap=y}}|14.29%
+| knockback = 100
+| hardmode = yes
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance = 100%
+| duration = 2 seconds
+| immune1 = Astral Infection (debuff)
+| immune2 = Confused
+| immune3 = Kami Flu
+| immune4 = Pearl Aura
+| immune5 = Slow
+| immune6 = Poisoned
+| hurt = AstralEnemyHit1.wav,AstralEnemyHit2.wav,AstralEnemyHit3.wav
+| killed = AstralEnemyDeath.wav
+| vulnerable1 = Water
+| vulnerable2 = Cold
+| resistant1 = Poison
+| resistant2 = Magic
+| resistant3 = Fire
+| resistant4 = Machine
+}}
+{{dablink|If you were looking for something other than the enemy, see [[Hive (disambiguation)]].}}
+
+The '''Hive''' is a [[Hardmode]] [[enemy]] which spawns in the [[Underground]] [[Astral Infection]] [[biome]]. It is stationary, and attacks by spawning '''Hivelings''' which attempt to fly into the player, it will also spawn Hivelings when damaged.
+
+== Hiveling ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox
+| name = Hiveling
+| image = Hiveling.png
+| type = Flying Enemy
+| environment = Astral Infection
+| ai = Hiveling AI
+| damage = {{element|Poison}} {{dv|30|60}} (pre-[[Astrum Aureus]])<br/>{{element|Poison}} {{dv|50|100}} (post-[[Astrum Aureus]])
+| life = {{dv|150|300}} (pre-[[Astrum Aureus]])<br/>{{dv|220|440}} (post-[[Astrum Aureus]])
+| defense = 0 (pre-[[Astrum Aureus]])<br/>8 (post-[[Astrum Aureus]])
+| knockback = {{dv|50%|55%}} (pre-[[Astrum Aureus]])<br/>{{dv|60%|64%}} (post-[[Astrum Aureus]])
+| money = {{value|0|0|5|0}}
+| hardmode = yes
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance = 100%
+| duration = 1 second
+| immune1 = Astral Infection (debuff)
+| immune2 = Confused
+| immune3 = Kami Flu
+| immune4 = Poisoned
+| hurt = AstralEnemyHit1.wav,AstralEnemyHit2.wav,AstralEnemyHit3.wav
+| killed = AstralEnemyDeath.wav
+| vulnerable1 = Water
+| vulnerable2 = Cold
+| resistant1 = Poison
+| resistant2 = Magic
+}}
+|}
+{{-}}
+
+== Notes ==
+*There is no limit on how many Hivelings can be alive at one time.
+
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

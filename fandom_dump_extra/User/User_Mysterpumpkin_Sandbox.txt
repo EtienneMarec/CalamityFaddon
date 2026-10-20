@@ -1,0 +1,1479 @@
+{{toc limit|2}}
+= King Slime =
+{{collapse top|King Slime Rev Page (Click to open)|(Click to collapse)}}
+{{npc infobox
+| name = King Slime
+| type = Boss
+| type2 = Slime
+| environment = Surface
+| environment2 = Slime Rain
+| ai = King Slime AI
+| damage = '''Contact:'''<br/>{{dv|40|67|76|83}}
+| life = {{dv|2000|2800}}
+| defense = 10
+| knockback = 100
+| immune1 = Glacial State
+| immune2 = Temporal Sadness
+| immune3 = Galvanic Corrosion
+| immune4 = Eutrophication
+| immune5 = Pearl Aura
+| immune6 = Webbed
+| immune7 = Slow
+| immune8 = Time Distortion
+| immune9 = Confused
+| immune10 = Poisoned
+| immune11 = Venom
+| money = {{gc|1}}
+| Gel|{{dv|15-60|22-90}}|100%
+| Solidifier|1|100%
+| Lesser Healing Potion|5-15|100%
+| Slimy Saddle|1|25%
+| group|{{dv|1|2}} of the following 3 items will be dropped|3
+| Ninja Hood|1|33.33%
+| Ninja Shirt|1|33.33%
+| Ninja Pants|1|33.33%
+| group|One of the following 2 items will be dropped|2
+| Slime Hook|1|33.33%
+| Slime Gun|1|66.66%
+| King Slime Trophy|1|10%
+| King Slime Mask|1|14.29%
+| custom| {{item|King Slime (Lore)|note=(Only on first kill)|wrap=y}}| 100%
+| custom| {{item|Treasure Bag (King Slime)|Treasure Bag|note=(King Slime)|wrap=y}}
+: • {{item|Royal Gel}}
+: • {{item|Crown Jewel|note=(In [[Revengeance Mode]] only)|wrap=y}}|{{expert|100%}}
+| image2 = Map Icon King Slime.png
+| image2caption = Map Icon
+}}
+{{dablink|If you were looking for King Slime on the vanilla wiki, click [[tgc:King Slime|here]].}}
+
+'''King Slime''' is a [[pre-Hardmode]] [[boss]]. He is intended to be one of the first bosses fought by the player and is considered to be the weakest of all of the bosses. Fighting him is completely optional and not required for game progression, but his defeat may reward the player with money and useful items.
+
+While in [[Revengeance Mode|Revengeance]] and [[Death Mode]], King Slime gains several changes to his AI such as an additional boost to his mobility and a [[Enemies#Boss Servants|boss servant]] which attacks the player from a distance.
+
+== Spawn ==
+King Slime can be spawned by fulfilling any of these conditions:
+*Naturally on Grass at the far left or far right of the map;
+*Naturally by defeating 150 slimes during a [[Slime Rain]];
+*Using a [[Slime Crown]].
+
+== Behavior ==
+=== In [[Revengeance Mode]] ===
+King Slime behaves similarly to a [[tgc:Slimes|slime]], performing a high leap every 4 jumps. All jumps are boosted relative to the vertical distance between the slime and the player, increasing his jump speed and height by 3.2% every block and capping at a 100% bonus. The delay between jumps will reduce when his health drops below 80%, 60%, 40%, 20%, and 10%.
+
+Additionally, King Slime will occasionally teleport regardless of condition and at a faster rate. He will teleport more often if the player is hidden behind solid tiles, or is at least 20 blocks above him. He will also teleport closer to the player, gaining the ability to teleport mid-air if the player is high above the ground.
+
+When 5% of his health is lost, the next hit from the player will spawn 2-3 slimes from King Slime. The following slimes can drop from the boss:
+*[[Blue Slime]]
+*[[Green Slime]]
+*[[Ice Slime]]
+*[[Red Slime]]
+*[[Spiked Slime]]
+*[[Yellow Slime]]
+Spiked Slimes are twice as likely to be dropped. During the [[rain]], [[Umbrella Slime]]s have a 10% chance to replace either of the above slimes, which have a 20% chance to be replaced with a [[Rainbow Slime]] while in [[Hardmode]]. [[Pinky]] can also replace the other slimes with a 0.4% chance.
+
+When King Slime drops to 75% of his health, he jumps farther and Spiked Slimes are four times as likely to be dropped.
+
+When King Slime drops to 50% of his health, he summons a '''Crown Jewel'''. The jewel hovers above the player and pursues them, firing {{dv|||1|3}} ruby bolts every {{dv|||1.25|1}} seconds until the end of the fight. While the jewel is alive, King Slime himself will jump farther towards the player. The chance of Spiked Slimes dropping also doubles.
+
+=== In [[Death Mode]] ===
+*The Crown Jewel shoots a spread of three bolts and fires 20% faster.
+*King Slime is three times as large.
+*King Slime jumps farther and falls faster.
+*All Blue, Green, Ice, Red, and Yellow Slimes are replaced with Spiked Slimes.
+
+=== During the [[Boss Rush]] ===
+*King Slime has no delay between jumps.
+*King Slime jumps and falls twice as fast.
+*Allows Umbrella Slimes and Rainbow Slimes to be spawned regardless of weather.
+*The Crown Jewel moves 4 times as fast, fires at double speed, and projectile speed is doubled.
+
+== Summons ==
+{| v-align = top
+|{{npc infobox 
+| name = Crown Jewel
+| type = Flying Enemy
+| ai = Crown Jewel AI
+| life = {{dv|||999}}
+| damage = 0 (Contact)<br/>{{dv|||44|50}} (Ruby Bolt)
+| defense = 0
+| knockback = 100
+| immuneall = yes
+}}
+|}
+
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align = center |{{item|mode=table|Blue Slime}} || Always in Revengeance Mode
+|-
+| align = center |{{item|mode=table|Green Slime}} || Always in Revengeance Mode
+|-
+| align = center |{{item|mode=table|Ice Slime}} || Always in Revengeance Mode
+|-
+| align = center |{{item|mode=table|Pinky}} || Always
+|-
+| align = center |{{item|mode=table|Purple Slime}} || Always in Revengeance Mode
+|-
+| align = center |{{item|mode=table|image=Rainbow Slime.gif|Rainbow Slime}} || During the [[Rain]] in [[Hardmode]]
+|-
+| align = center |{{item|mode=table|Red Slime}} || Always in Revengeance Mode
+|- 
+| align = center |{{item|mode=table|Spiked Slime}} || Always
+|-
+| align = center |{{item|mode=table|Umbrella Slime}} || During the Rain or [[Boss Rush]]
+|-
+| align = center |{{item|mode=table|Yellow Slime}} || Always in Revengeance Mode
+|}
+
+== Terrain Preparation ==
+A long platform made out of blocks can make the fight with King Slime trivial as it will remove the need to dodge the Crown Jewel's attacks and deal with the Slimes that will spawn, leaving only the concern of King Slime despawning if the player gets too far.
+
+== Gearing Up ==
+{{dablink|For a Normal and Expert Mode guide to King Slime, see [[tgc:Guide:King Slime strategies|King Slime strategies]] on the vanilla wiki.}}
+=== Armor ===
+*[[Wulfrum armor]] and [[Victide armor]] are viable options and can be used for any class.
+*[[Platinum armor]] is the preferred set for melee users due to its very high defense.
+*[[Desert Prowler armor]] is good for rangers due to its bonuses to ranged damage.
+*The combination of the [[Wizard Hat]], [[Diamond Robe]] and [[Jungle Pants]] is the best damage set for mages.
+**However, full [[Jungle armor]] and [[Meteor armor]] provide more defense. Meteor armor should only be used in conjunction with the [[Space Gun]].
+*[[Snow Ruffian armor]], [[Obsidian armor]] and [[Gladiator armor]] are ideal for rogues.
+
+=== Accessories ===
+*[[Hermes Boots]] or any of its upgrades are heavily recommended so that the player can keep up with King Slime's pace.
+*Any double jump, preferably the [[Sandstorm in a Bottle]] or [[Blizzard in a Bottle]], makes it significantly easier to dodge the slimes summoned by King Slime.
+**The [[Bundle of Balloons]] combines three double jumps into one, making it very useful, though it requires more effort to obtain.
+*[[Luxor's Gift]] is a great accessory which provides powerful damage boosts for all classes.
+*The [[Shark Tooth Necklace]] provides armor penetration, increasing the damage of all weapons. This is especially helpful for low damage and fast firing weapons such as the [[Minishark]].
+*The [[Feral Claws]] are a good damage accessory for melee players due to their melee speed increase. 
+*The [[Rusty Medallion]] can be used by rangers to increase damage output.
+*Mages can make use of the [[Magic Cuffs]], as mana is vital this early in the game.
+*Summoners can boost their minion damage and durability with the [[Spirit Glyph]].
+*The [[Raider's Talisman]] is a great accessory for rogues, especially if fully stacked up.
+
+=== Weapons ===
+*[[Grenade]]s can decimate King Slime when used by any class.
+
+==== Melee ====
+*The [[Cnidarian]] paired with the [[Strings|String]] accessory should make the fight simple for melee users.
+*The [[Starfury]] is also a good choice, having good range and DPS.
+*The [[Bladecrest Oathsword]] is an excellent option, however it may be difficult to obtain this early on.
+
+==== Ranged ====
+*The Minishark is a good option for rangers, especially when paired with the Shark Tooth Necklace.
+*The [[Boomstick]] is another great option for rangers.
+*Any bow, preferably the [[Seabow]] or [[Tendon Bow]], paired with [[Jester's Arrow]]s is very useful for dealing with King Slime's summons, while also doing decent damage to King Slime himself.
+
+==== Mage ====
+*High-tier gem staffs, such as the [[Diamond Staff]] or [[Ruby Staff]] should deal with King Slime relatively quickly.
+*The [[Sparkling Empress]] does really good DPS, especially for King Slime's summons, however it drains mana very fast.
+*The [[Coral Spout]] is also a viable option for mages.
+*The Space Gun paired with Meteor armor is very good, however it is somewhat difficult to obtain this early on.
+*The [[Demon Scythe]] trivializes the fight, however is very hard to obtain this early on in the game.
+
+==== Summoner ====
+*The [[Frost Blossom Staff]] is a great support option, due to its instant projectile and splash damage.
+*The [[Sun Spirit Staff]] is also good for the same reasons.
+*The [[Wulfrum Rover]] is a decent choice.
+*The [[Belladonna Spirit Staff]] does very good DPS when paired with the [[Shark Tooth Necklace]]
+
+====  Rogue ====
+*The [[Gilded Dagger]] and [[Gleaming Dagger]] are solid choices for rogues.
+*The [[Crystalline]] is also very good, at the cost of having low range.
+*[[Wulfrum Knife|Wulfrum Knives]] are similar in performance to the Gilded/Gleaming Dagger, however they are consumable.
+*The [[Meteor Fist]] is really good, however is somewhat difficult to obtain this early on.
+
+{{Collapse bottom}}
+{{-}}
+
+= Skeletron =
+{{collapse top|Skeletron Rev Page (Click to open)|(Click to collapse)}}
+{{npc infobox
+| name = Skeletron
+| namesub = Skeletron Head
+| image = Skeletron Head.png
+| environment = Dungeon
+| environment2 = Night
+| ai = Head AI
+| damage = '''Contact:'''<br/>{{dv|32|70|88|101}}<br/>'''Spin Attack:'''<br/>{{dv|32|91|109|124}}<br/>'''Homing Skull:'''<br/>{{dv||68|81|93}}<br/>'''Shadowflame Bolt:'''<br/>{{dv|||76|87}}
+| life = {{dv|4400|8800|11000}}
+| defense = 10<br/>0 <small>spinning</small><br/>9999 <small>during the day</small>
+| knockback = 100
+| debuff = Bleeding
+| debuffchance = 100%
+| duration = {{revengeance|4 seconds}} (Contact)
+| debufftip = Cannot regenerate life
+| debuff2 = Weak
+| debuffchance2 = 100%
+| duration2 = {{revengeance|2 seconds}} (Homing Skull)
+| debufftip2 = Physical abilities are decreased
+| immune1 = Shadowflame
+| immune2 = Penetrated
+| immune3 = Venom
+| immune4 = Cursed Inferno
+| immune5 = Confused
+| immune6 = Poisoned
+| immune7 = Daybroken
+| immune8 = Celled
+| immune9 = On Fire!
+| immune10 = Webbed
+| immune11 = Temporal Sadness
+| immune12 = Glacial State
+| immune13 = Time Distortion
+| money = {{gc|5}}
+|group|One of the following 3 items will always be dropped|3
+| Skeletron Mask|1|14.29%
+| Skeletron Hand|1|12.24%
+| Book of Skulls|1|10.5%
+| Lesser Healing Potion|5-15| 100%
+| Skeletron Trophy|1|10%
+| custom| {{item|Skeletron (Lore)|note=(Only on first kill)|wrap=y}}|100%
+| custom|{{item|Treasure Bag (Skeletron)|Treasure Bag|note=(Skeletron)|wrap=y}}
+: • {{item|Bone Glove}}|{{expert|100%}}
+| Clothier's Wrath|1|2.5%
+}}
+{{dablink|If you were looking for Skeletron on the vanilla wiki, click [[tgc:Skeletron|here]].}}
+
+'''Skeletron''' is a [[pre-Hardmode]] [[boss]] that is usually fought after the [[The Perforators]] / [[The Hive Mind]]. Defeating it is required to gain unrestricted access to the [[Dungeon]].
+
+== Spawn ==
+Skeletron does not spawn on its own. It is summoned by speaking to the [[Old Man]] at the Dungeon's entrance and selecting the "Curse" option at [[night]].
+
+Once Skeletron has been defeated for the first time and the [[Clothier]] has moved in, the player can summon Skeletron again by killing the Clothier using the [[Clothier Voodoo Doll]]. This must be done at night or Skeletron will not spawn.
+
+== Segments ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox 
+| name = Skeletron
+| subname = Skeletron Hand
+| image = Skeletron Hand (NPC).png
+| type = Boss
+| environment = Dungeon
+| environment2 = Night
+| ai = Skeletron Hand AI
+| damage = '''Contact:'''<br/>{{dv|22|44|55|63}}
+| life = {{dv|600|1560|1170}}
+| defense = 14
+| knockback = 100
+| immune1 = Poisoned
+| immune2 = Confused
+| immune3 = Cursed Inferno
+| immune4 = Shadowflame
+| immune5 = On Fire!
+| immune6 = Venom
+| debuff = Slow
+| debuffchance = 50%
+| duration = {{expert|1}} seconds (Contact)
+| debufftip = Movement speed is reduced
+}}
+|}
+
+== Behavior ==
+{{dablink|Boss behavior is unchanged in Normal and Expert. For more informations regarding these difficulties, check the [https://terraria.gamepedia.com/Skeletron vanilla wiki page]}}
+Skeletron's head is immune to all debuffs.
+
+=== In [[Revengeance Mode]] ===
+Skeletron is made up of three segments, two hands and a head, all of which can go through blocks. The head is the only segment that must be destroyed to defeat the boss, however each hand alive will give the head an extra {{dv||25|250}} defense and while either is still alive the head will not be targeted by summons or homing weapons. Its attack frequency will increase as its health lowers.
+
+While the hands are alive they will attempt to hit the player by swinging towards them. While the head is spinning, the hands will not swing at the player.
+
+The head initially will only have one attack but gains more as the fight progresses. Its only attack at the start of the fight is an attack where it will begin spinning, dealing increased contact damage and having decreased defense, while moving towards the player at an increasing speed.
+
+Once a hand has been destroyed or the head reaches 75% health, the head will begin shooting homing skulls towards the player every 1.33 seconds. Once both hands have been destroyed the frequency becomes every 0.67 seconds. During its spin attack it will pause shooting skulls.
+
+Once both hands are destroyed, the head will begin to teleport, firing a spread of 3 bolts from where it teleports to.
+
+When the head reaches 33% health, both hands will respawn. The head will fire skulls and teleport at a slower pace after the hands are respawned.
+
+===In [[Death Mode]]===
+*Begins the fight and respawns with 4 hands instead of 2.
+*Acceleration increases as health decreases.
+*Hand attacks have much more velocity and quicker acceleration.
+*Fires faster Cursed Skulls at a faster rate.
+*After teleporting, shoots a Chaos Ball alongside the spread of bolts.
+
+===During the [[Boss Rush]]===
+*Max health increased to {{dv|1,600,000|3,200,000|4,000,000}}
+*Sets the time to 7:30pm
+
+== Aftermath ==
+*The [[Merchant]] will begin selling [[Journeyman Bait]].
+*[[Blood Zombie]]s and [[Crimulan Blight Slime]]s will begin dropping [[Carnage]].
+*The [[Bandit]] [[NPC]] becomes available.
+*The [[Old Man]] will not respawn at the Dungeon, instead he will be avaialable as the [[Clothier]] Town NPC.
+*The [[Dungeon Guardian]] will no longer spawn, allowing players access to the [[Dungeon]]
+
+== Tips ==
+{{dablink|For a Normal and Expert mode guide to Skeletron, see [[tgc:Guide:Skeletron strategies|Skeletron strategies]] on the vanilla wiki.}}
+=== General ===
+*It is recommended to defeat [[The Perforators]] or [[The Hive Mind]] before tackling Skeletron, as some of the best gear against it is locked behind their defeat.
+*Homing Skulls, despite their name, have poor homing abilities. They can be easily avoided by circling Skeletron, which will cause the skulls to curve to reach the player and miss.
+*Despite being immune to many damaging [[debuffs]], Skeletron is not immune to [[Frostburn]], which can grant a decent DPS boost if applied regularly.
+*If "stunlocked" by the head, grappling a nearby platform will forcibly pull the player out, which can be a lifesaver.
+*Avoid standing near the shadowflame circle as much as possible, as Skeletron fires bolts as soon as it teleports out, making the bolts much harder to dodge.
+*Watch for the hands movements. They almost always take distance before trying to hit the player, as if Skeletron was building momentum.
+
+=== Terrain Preparation ===
+*A good arena for Skeletron is an arena that will allow the player to circle the boss at ease. 2-3 layers of platforms above ground with a length of ~150 blocks is usually recommended. [[Campfire]]s and [[Sunflower]]s are also handy and easy to come by to give passive boosts to the player.
+**The platforms should be separated by a 15-20 block gap to avoid obstructing the player's vertical movement when going down.
+
+== Gearing Up ==
+{{dablink|For a Normal and Expert Mode guide to Skeletron, see [[tgc:Guide:Skeletron|Skeletron strategies]] on the vanilla wiki.}}
+
+=== Armor ===
+*[[Aerospec armor]] is one of the strongest options for all classes.
+*[[Molten armor]] is the preferred set for melee users due to its very high defense.
+*[[Bee armor]] provides the largest number of minions for summoners.
+*[[Sulphurous armor]] may be useful for rogues.
+
+=== Accessories ===
+*Using the [[Slimy Saddle]] will grant a ridiculous jump speed and height boost, allowing for a quick burst of vertical movement. 
+**Care must be taken to avoid fall damage however, as the mount used in conjunction with jumping accessories can bring the player to extreme heights.
+*Dashing is instrumental to avoid damage. If playing Expert mode, [[Shield of Cthulhu]] is the ideal accessory. If playing Revengeance or Death Mode, [[Counter Scarf]] can be seen as an upgrade, depending of the player's playstyle.
+*[[Bundle of Balloons]] is by far the best mobility accessory available to the player at this stage of the game, although its crafting components are also viable for getting height.
+*[[Spectre Boots]] and its upgrades are required to keep distance from Skeletron when it's spinning
+*[[Luxor's Gift]] is a great accessory which provides powerful damage boosts for all classes.
+*If [[Queen Bee]] is already defeated, the [[Hive Pack]] may be used to strengthen her weapons.
+*The [[Feral Claws]] are a good damage accessory for melee players due to their melee speed increase. 
+*The [[Rusty Medallion]] can be used by rangers to increase damage output.
+*Mages can make use of the [[Magic Cuffs]] or [[Celestial Cuffs]], as mana is vital this early in the game.
+*Summoners can boost their minion damage and durability with the [[Spirit Glyph]].
+*The [[Raider's Talisman]] is a great accessory for rogues, especially if fully stacked up.
+*Rogues can also make use of the [[Bloodstained Glove]] or its Corruption equivalent, the [[Filthy Glove]].
+
+=== Weapons ===
+*[[Beenade]]s can be effective against Skeletron, especially when paired with the [[Hive Pack]].
+*The [[Marked Magnum]] can be used by all classes.
+*While they deal very low damage, [[Spiky Ball]]s can quickly rack up as each ball can hit Skeletron up to 6 times. Trapping an arena with spiky balls can make Skeletron take high damage simply by moving.
+
+==== Melee ====
+*The [[Broken Biome Blade]] has many attunements that can be useful in this fight. Pure Clarity makes for a decent ranged attack, and Decay's Retort can help the player get away from the head during spinning segments.
+*[[Air Spinner]] is a powerful melee weapon, being a fast yoyo shooting projectiles at nearby targets and providing some distance for the player.
+**Other powerful [[Aerialite Ore|Aerialite]] weapons include the [[Wind Blade]] and [[Goldplume Spear]].
+*The [[Starfury]] is also a good choice, having good range and DPS.
+*The [[Bladecrest Oathsword]] is an excellent option, however it may be difficult to obtain this early on.
+
+==== Ranged ====
+*If the player has defeated [[Queen Bee]] prior to Skeletron, [[The Bee's Knees]] has the potential of decimating Skeletron, given its deadly bee projectiles. [[Galeforce]] also works as a fast bow with a generous spread of feathers.
+*The [[Aquashard Shotgun]] and [[Bullet-Filled Shotgun]] are the most powerful guns available.
+*The [[Star Cannon]] is very effective, albeit very difficult to get ammo for.
+*The [[Taser]] is a rewarding but risky weapon, with long reload times if missed.
+
+==== Mage ====
+*[[Demon Scythe]], while requiring careful positioning, can achieve extreme DPS and wipe out the hands with its infinite penetration and multi-hit properties. [[Tradewinds]] is also an efficient magic weapon if aiming proves difficult, as it fires a very fast, accurate line of feathers.
+*The [[Shaderain Staff]] or [[Crimson Rod]] can be useful side-weapons.
+*The [[Shadowdrop Staff]] and [[Blood Bath]] can also serve as main weapons.
+*The [[Pulse Pistol]] is available if the first of the [[Schematics]] has been obtained.
+
+==== Summoner ====
+*The [[Imp Staff]] and the [[Dank Staff]] / [[Blood Clot Staff]] are decent all-around summoning options.
+**Summoners can also increase their DPS by using the Rods sold by the [[Tavernkeep]], as sentries are not subject to the same limit as summons and can be re-summoned repeatedly for quick damage.
+*The [[Belladonna Spirit Staff]] does very good DPS when paired with the [[Shark Tooth Necklace]]
+*While the [[Star Swallower Containment Unit]] can do some good damage when all 3 parts are present, its difficulty in aiming makes it less useful for this fight.
+
+====  Rogue ====
+*The [[Tracking Disk]]'s stealth strike does enormous damage, especially when all three hands are present.
+*The [[Turbulance]] is a powerful Rogue weapon, as it's very high projectile velocity makes sniping the hands easy.
+**The [[Mycoroot]] is also a lower-tier option with very high DPS, but boasting a tiny range, which makes it dangerous to use.
+*[[Feather Knife|Feather Knives]] are another useful alternative.
+{{Collapse bottom}}
+{{-}}
+
+=Wall of Flesh=
+<section begin=npc infobox />
+{{collapse top|Wall of Flesh Rev Page (Click to open)|(Click to collapse)}}
+{{npc infobox
+| name = Wall of Flesh
+| type = Boss
+| environment = The Underworld
+| ai = Wall of Flesh AI
+| damage = '''Contact:'''<br/>{{dv|50|150|172|198}}<br/>'''Eye Laser:'''<br/>{{dv|22|44|68|78}}<br/>'''Death Laser:'''<br/>{{dv|||88|101}}
+| life = {{dv|8000|11200|21,280}}
+| defense = {{dv|12|18}}
+| knockback = 100
+| immune1 = Poisoned
+| immune2 = Venom
+| immune3 = Confused
+| immune4 = Cursed Inferno
+| immune5 = Shadowflame
+| immune6 = On Fire!
+| immune7 = Webbed
+| immune8 = Temporal Sadness
+| immune9 = Glacial State
+| immune10 = Time Distortion
+| debuff = Horrified
+| duration = While the player is within 900 blocks from the boss.
+| debufftip = You have seen something nasty, there is no escape.
+| debuff2 = The Tongue
+| duration2 = When the player is within 900 blocks behind the boss.
+| debufftip2 = You are being sucked into the mouth
+| money = {{gc|8}}
+|group|One to four of the following 6 items will always be dropped|6
+| Breaker Blade|1|20% / {{expert|33.33%}}
+| Clockwork Assault Rifle|1|20% / {{expert|33.33%}}
+| Laser Rifle|1|20% / {{expert|33.33%}}
+| Blast Barrel|1|20% / {{expert|33.33%}}
+| Black Hawk Remote|1|20% / {{expert|33.33%}}
+| Meowthrower|1|20% / {{expert|33.33%}}
+|group|One of the following 4 items will always be dropped|4
+| Warrior Emblem|1|12.5% / {{expert|25%}}
+| Ranger Emblem|1|12.5% / {{expert|25%}}
+| Sorcerer Emblem|1|12.5% / {{expert|25%}}
+| Summoner Emblem|1|12.5% / {{expert|25%}}
+|group|One of the following 2 items will always be dropped|2
+| Crimson Key|1|50%
+| Corruption Key|1|50%
+| Rogue Emblem|1|12.5% / {{expert|25%}}
+| custom| {{item|Demon Trophy|note=(stops dropping if it was consumed)|wrap=y}}|100%
+| Wall of Flesh Mask|1|14.29%
+| Wall of Flesh Trophy|1|10% 
+| custom| {{item|The Underworld (Lore)|note=(Only on first kill)|wrap=y}}|100%
+| custom| {{item|Wall of Flesh (Lore)|note=(Only on first kill)|wrap=y}}|100%
+| custom| {{item|Hermit's Box of One Hundred Medicines|note=(100% on first kill)|wrap=y}}|10%
+| custom| {{item|Treasure Bag (Wall of Flesh)|Treasure Bag|note=(Wall of Flesh)|wrap=y}}
+: • {{item|Demon Heart}}|{{expert|100%}}
+}}
+<section end=npc infobox />
+{{dablink|If you were looking for Wall of Flesh on the vanilla wiki, click [[tgc:Wall of Flesh|here]].}}
+
+The '''Wall of Flesh''' is the final and strongest [[pre-Hardmode]] [[boss]], spawnable only in [[The Underworld]]. Once it is defeated, the world permanently converts to [[Hardmode]], which brings new content and challenges.
+
+While in [[Revengeance Mode|Revengeance]] and [[Death Mode]], Wall of Flesh becomes much faster and more dangerous as its health depletes, its regular Lasers are replaced with stronger Death Lasers and [[The Hungry|Hungries]] and [[Leech]]es are more resilient.
+
+== Spawn ==
+The Wall of Flesh is summoned immediately when a [[Guide Voodoo Doll]] is destroyed by being dropped into [[lava]] in the Underworld while the [[Guide]] is alive, killing the Guide.
+
+The direction the Wall will face, and therefore move, depends on which side of the world the player spawns it. If the Wall is spawned on the right side of the world, it will move right to left. If it is spawned on the left side of the world, it will move left to right.
+
+== Segments ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox
+| name = Wall of Flesh
+| namesub = Wall of Flesh Eye
+| image = Wall of Flesh Eye.png
+| type = Boss
+| environment = The Underworld
+| ai = Wall of Flesh AI
+| damage = '''Eye Laser:'''<br/>{{dv|22|44|68|78}}<br/>'''Death Laser:'''<br/>{{dv|||88|101}}
+| life = {{dv|8000|11200|21,280}}
+| defense = {{dv|12|18}}
+| knockback = 100
+| immune1 = Poisoned
+| immune2 = Venom
+| immune3 = Confused
+| immune4 = Cursed Inferno
+| immune5 = Shadowflame
+| immune6 = On Fire!
+| money = {{gc|8}}
+}}
+|{{npc infobox
+| name = Wall of Flesh
+| namesub = Wall of Flesh Mouth
+| image = Wall of Flesh Mouth.png
+| type = Boss
+| environment = The Underworld
+| ai = Wall of Flesh AI
+| damage = '''Contact:'''<br/>{{dv|50|150|172|198}}
+| life = {{dv|8000|11200|21,280}}
+| defense = {{dv|12|18}}
+| knockback = 100
+| immune1 = Poisoned
+| immune2 = Venom
+| immune3 = Confused
+| immune4 = Cursed Inferno
+| immune5 = Shadowflame
+| immune6 = On Fire!
+| money = {{gc|8}}
+}}
+|{{npc infobox
+| name = Wall of Flesh
+| namesub = Wall of Flesh Eye
+| image = Wall of Flesh Eye.png
+| type = Boss
+| environment = The Underworld
+| ai = Wall of Flesh AI
+| damage = '''Eye Laser:'''<br/>{{dv|22|44|68|78}}<br/>'''Death Laser:'''<br/>{{dv|||88|101}}
+| life = {{dv|8000|11200|21,280}}
+| defense = {{dv|12|18}}
+| knockback = 100
+| immune1 = Poisoned
+| immune2 = Venom
+| immune3 = Confused
+| immune4 = Cursed Inferno
+| immune5 = Shadowflame
+| immune6 = On Fire!
+| money = {{gc|8}}
+}}
+|}
+== Behavior ==
+=== In [[Revengeance Mode]] ===
+The Wall of Flesh is different in the way its fight works. As it constantly moves either right to left or left to right, it will constantly force the player to run from it, as it cannot be moved through. If the player does manage to get behind the Wall, they will be brought back in front of it by the [[The Tongue]].
+
+During the fight, the Wall will constantly spawn [[Leech|Leeches]] and [[The Hungry|Hungries]] to attack the player. Its only direct attack is to shoot lasers which are capped at bursts of three. When reaching 50% health, the Wall will begin using more powerful red lasers.
+
+As the Wall of Flesh takes more damage, it will increase in speed up to a maximum of 41mph. These health milestones are:
+*75%
+*66%
+*50%
+*33%
+*25%
+*10%
+*5%
+*3.5%
+*2.5%
+
+If the player moves too far from the Wall of Flesh, it will speed up substantially to catch up with them. If the player gets far enough away or leaves the Underworld in any way, they will be killed instantly due to the [[Horrified]] debuff.
+
+The Hungry are spawned at the start of the fight and slowly respawn throughout. They will begin attached to the Wall of Flesh and will try to attack the player by moving towards them. However, at the start of the fight, they will have limited range due to still being attached. They will detach from the Wall of Flesh after taking substantial damage, becoming [[The Hungry II]]. They deal more damage the lower the Wall's health is.
+
+Leeches will spawn from the Wall of Flesh's mouth with a specific audio cue. They act like most worm enemies when attempting to attack the player. The Wall of Flesh will spawn these at an increasing rate as its health gets lower, eventually releasing them at as a constant stream.
+
+===In [[Death Mode]]===
+*Shoots Death Lasers from the start of the fight
+*Base speed is 75% faster
+
+===During the [[Boss Rush]]===
+*Max health increased to {{dv|4,500,000|6,300,000|11,970,000}}
+*Teleports the player to [[The Underworld]]
+*Does not create a [[Demonite Brick|Demonite]] or [[Crimtane Brick|Crimtane]] brick box when defeated
+
+== Summons ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox
+| name = The Hungry
+| image = The Hungry.png
+| type = Summon
+| environment = The Underworld
+| ai = The Hungry AI
+| damage = {{dv|30|60||69}} (WoF health >75%)<br/>{{dv|45|90||103}} (WoF health 75-50%)<br/>{{dv|60|120||138}} (WoF health 50-25%)<br/>{{dv|75|150||172}} (WoF health <25%)
+| life = {{dv|240|336|}}
+| defense = {{dv|10|16}} (WoF health >75%)<br/>{{dv|20}} (WoF health 75–50%)<br/>{{dv|30}} (WoF health 50–25%)<br/>{{dv|40}} (WoF health <25%)
+| knockback = {{dv|-10|1}}
+| immune1 = Confused
+}}
+|{{npc infobox
+| name = The Hungry
+| namesub = The Hungry detached
+| image = The Hungry II.png
+| type = Summon
+| environment = The Underworld
+| ai = Demon Eye AI
+| damage = {{dv|30|60|74|80}}
+| life = {{dv|80|112|117}}
+| defense = {{dv|6|}} 
+| knockback = {{dv|20|28}}
+| immune1 = Confused
+| Heart|1|{{dv|100%|20%}}
+}}
+|}
+{|
+|- style="vertical-align:bottom"
+|{{npc infobox
+| name = Leech
+| image = Leech.png
+| type = Burrowing Enemy
+| environment = The Underworld
+| ai = Worm AI
+| life = {{dv|60|96|100}}
+| knockback = 100
+| immune1 = Confused
+| Heart|1|{{dv|100%|20%}}
+}}
+|{{npc infobox
+| name = Leech
+| namesub = Leech Head
+| image = Leech Head.png
+| type = Burrowing Enemy
+| environment = The Underworld
+| ai = Worm AI
+| damage = {{dv|26|52|62|68}}
+| life = {{dv|60|96|100}}
+| defense = 2
+| knockback = 100
+| immune1 = Confused
+}}
+|{{npc infobox
+| name = Leech
+| namesub = Leech Body
+| image = Leech Body.png
+| type = Burrowing Enemy
+| environment = The Underworld
+| ai = Worm AI
+| damage = {{dv|22|44|52|56}}
+| life = {{dv|60|96|100}}
+| defense = 6
+| knockback = 100
+| immune1 = Confused
+}}
+|{{npc infobox
+| name = Leech
+| namesub = Leech Tail
+| image = Leech Tail.png
+| type = Burrowing Enemy
+| environment = The Underworld
+| ai = Worm AI
+| damage = {{dv|18|36|42|44}}
+| life = {{dv|60|96|100}}
+| defense = 10
+| knockback = 100
+| immune1 = Confused
+}}
+|}
+
+== Aftermath ==
+*The world will become [[Hardmode]].
+*An Astral Meteor crashes into the world, creating the [[Astral Infection]] biome.
+*Enemies in the [[Sunken Sea]] are buffed and drop new gear.
+*[[The Hive Mind]] will begin dropping [[Cursed Flames]] and [[The Perforators]] will begin dropping [[Ichor]].
+*Many pre-existing enemies will begin dropping new materials such as [[Essence of Chaos]] and [[Essence of Sunlight]].
+*The [[Defiled Flame Dye]] becomes available for sale from the [[Dye Trader]].
+*The [[Skeleton Merchant]] will begin selling the [[Marrow]].
+*The [[Witch Doctor]] will begin selling the [[Abyss Water Fountain|Abyss]] and [[Astral Water Fountain]]s.
+*The [[Clothier]] will begin selling [[Golden Key]]s.
+*The [[Bandit]] will begin selling the [[Slick Cane]].
+*The [[Drunk Princess]] [[NPC]] becomes available.
+*Sword Spirits from the [[Gladiator's Locket]] now deal 50 damage.
+*The [[Steampunker]] NPC becomes available.
+*[[Life Fruit]] and [[Plantera's Bulb]]s start spawning in the [[Jungle]]
+*The [[Temple Key]] and a [[Old Power Cell|variant of the Lihzahrd Power Cell]] can be crafted.
+*[[Eidolist]]s begin spawning in the [[Dungeon]] and the third layer of [[Abyss]], which drop an [[Eidolon Tablet]] that can spawn the [[Lunatic Cultist]].
+
+== Terrain Preparation ==
+A few layers of platforms spanning a large part of [[The Underworld]] is useful and avoids getting stuck on the difficult to navigate terrain. The player should ensure there is space above the platforms to allow for more room to dodge the boss's attacks.
+
+Since the Wall of Flesh doesn't despawn when all players are dead, it's possible to set up a spawn point in further parts of The Underworld to get another chance after death. However, this will not work if the Wall of Flesh has already passed the spawn point because [[The Tongue]] will kill the player while it brings them back in front of Wall of Flesh.
+
+== Gearing Up ==
+{{dablink|For a Normal and Expert mode guide to Wall of Flesh, see [[tgc:Guide:Wall of Flesh strategies|Wall of Flesh strategies]] on the vanilla wiki.}}
+=== Armor ===
+*[[Statigel Armor]] is the best choice for this fight, having high damage bonuses with high defense.
+=== Accessories ===
+*[[Skyline Wings]] are a necessity during this fight, allowing players to dodge the Wall's eye lasers and giving them extra mobility in general.
+**If using the [[Defiled Rune]], players should use the [[Bundle of Balloons]].
+*[[Lightning Boots]] or [[Frostspark Boots]] are needed to outrun the Wall in this fight.
+*The [[Counter Scarf]] or [[Shield of Cthulhu]] are useful accessories allowing the player to dash, or if using the Counter Scarf, dodge the eye's lasers.
+*The [[Aero Stone]] is a great accessory for improving mobility durring the fight.
+*The [[Frog Leg]] can be used to increase jump height, which is especially useful when using the Defiled Rune.
+*The [[Worm Scarf]] can be used to reduce damage taken during the fight, though melee users may opt for the [[Bloody Worm Tooth]] instead.
+*If using [[The God's Gambit]], players may want to use a [[White String|String]] to increase the range of the [[yoyo]].
+*Ranged players may want to use the [[Rusty Medallion]], causing acid droplets to sometimes rain from the sky when using ranged weapons. However if the ceiling is too low, this will have no effect.
+*Mages may want to use the [[Celestial Cuffs]] and/or the [[Mana Flower]] to restore Mana during the fight.
+*Mages may also want to use the [[Mana Polarizer]] to maximize damage output.
+*Summoners should use the [[Jelly-Charged Battery]] to increase their minion count.
+*Rogue users could use the [[Raider's Talisman]] to increase their base damage, but make sure to get its damage up to full before the fight starts.
+=== Weapons ===
+*The [[Marked Magnum]] can be utilized by all classes, allowing them to maximize their dps by marking the Wall of Flesh.
+==== Melee ====
+*The [[Ball O' Fugu]] is a fantastic option for melee users due to its ability to expel spikes from its ball after being thrown.
+*[[The God's Gambit]] can be a spectacularly devastating option due to the yoyo spitting water streams at nearby enemies, although this may require players to get closer to the boss.  
+*The [[Gelitic Blade]] is a good option for taking care of The Hungries that get too close, plus the blade's beam doesn't despawn as quickly as the Ball o' Fugu's spikes, making it better at long ranges. However, the Wall of Flesh's movement speed will significantly increase if you are farther away from it.
+==== Ranged ====
+*The [[Overloaded Blaster]] is the preferred option for rangers, allowing players to do consistent damage without having to be in range of the Wall of Flesh.
+*The [[Gunk Shot]] is also a great choice due to its high damage output  which becomes more consistent the closer the player is to the boss due to its bullet spread. This means it is more useful near the end of the fight, where the Wall's speed increases dramatically.
+*The [[Dragoon Drizzlefish]] can also work very well, inflicting the [[Brimstone Flames]] debuff and being one of the most consistent weapons to clear out The Hungries while still doing good damage to the boss itself.
+==== Mage ====
+*The [[Black Anurian]] is an all-around good option for mages, providing consistent dps while being easy to use. Getting closer with the Black Anurian will cause it to do more damage, since the bubbles will now be hitting, but the homing plankton is enough to defeat the Wall of Flesh.
+*The [[Abyssal Tome]] is a great alternative to the Black Anurian, though the timed detonation mines require higher skilled play. Using this at the right distance can cause the weapon to have higher dps than almost any other option available in Pre-Hardmode.
+*The [[Eldritch Tome]] can deal incredible damage at close range for comparatively little mana, but is dangerous to use because of its short range.
+*The [[Abyss Shocker]] is spectacular at getting rid of The Hungries, but is unreliable and weak against the Wall itself.
+*The [[Pulse Pistol]] is good both for clearing out the hungry and for hitting the eyes and mouth simultaneously, giving it very high DPS. A solid hellbridge may prevent the weapon from doing damage to the lower eye. 
+=== Summoner ===
+*The [[Herring Staff]] is a great all around weapon for summoners, being great at clearing out The Hungries and decimating the Wall of Flesh.
+*The [[Corroslime Staff]] and [[Crimslime Staff]] are great weapons for dealing consistent damage to the Wall itself, but struggle to take out The Hungries.
+**The [[Staff of Necrosteocytes]] is a great alternative.
+=== Rogue ===
+*The [[Kylie]] is one of the best rogue weapons against the Wall of Flesh, having high base damage as well as great range.
+*The [[Lionfish]] is also a great weapon, boasting high damage while also sticking to enemies and injecting the [[Venom]] debuff.
+*[[Gel Dart]]s will pierce through enemies, making them a desirable choice for clearing out The Hungries.
+*[[Sky Stabber]]s can be good to lay down midfight to get some extra damage in, but shouldn't be used as a main weapon.
+
+== Tips ==
+*Try to keep the boss at a far enough distance to allow time to react to its laser attack, while not being far enough to trigger its dash attack.
+**However, if both the boss and the player are close to death, moving far enough away from the boss and causing it to dash will prevent it from firing its death lasers until it catches up, allowing the player to avoid getting fatally hit in the last few moments of the fight.
+{{Collapse bottom}}
+{{-}}
+
+=The Twins=
+{{collapse top|The Twins Rev Page (Click to open)|(Click to collapse)}}
+{{npc infobox
+| boxwidth = 30em
+| name = The Twins
+| type = Boss
+| environment = Surface
+| environment2 = Night
+| money = {{gc|12}}
+| Soul of Sight|20-40 / {{expert|25-40}}| 100%
+| Greater Healing Potion|5-15|100%
+| Hallowed Bar|15-30 / {{expert|20-35}}|100%
+| Twin Mask|1|14.29%
+| custom| {{item|The Twins (Lore)|note=(Only on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (The Twins)|Treasure Bag|note=(The Twins)|wrap=y}}
+: • {{item|Mechanical Wheel Piece}}|{{expert|100%}}
+}}
+{{dablink|If you were looking for The Twins on the vanilla wiki, click [[tgc:The Twins|here]].}}
+The Twins are [[Hardmode]] bosses that can be fought anywhere on the [[Surface]] at [[night]].
+
+While in [[Revengeance Mode|Revengeance]] and [[Death Mode]], The Twins must be fought in phase 2 simultaneously, and get a third phase in which their attack patterns become more complex.
+
+== Spawn ==
+The Twins can be summoned manually using a [[Mechanical Eye]] at night in any biome. They also have a 10% chance to spawn randomly at dusk once a [[Demon Altar|Demon]] or [[Crimson Altar]] has been destroyed, as long as they have not been defeated in the current world. Their arrival is announced by the [[status message]]: "This is going to be a terrible night...".
+
+== Eyes ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox
+| name = Retinazer
+| namesub = First Form
+| environment = Surface
+| environment2 = Night
+| ai = Retinazer AI
+| damage = {{dv|45|76|87|100}} (Contact)<br/>{{dv|40|76|92|105}} (Eye Laser)
+| life = {{dv|20000|30000|37500}}
+| defense = 10
+| knockback = 100
+| immune1 = Confused
+| immune2 = Webbed
+| immune3 = Temporal Sadness
+| immune4 = Glacial State
+| immune5 = Time Distortion
+}}
+|{{npc infobox
+| name = Spazmatism
+| namesub = First Form
+| environment = Surface
+| environment2 = Night
+| ai = Spazmatism AI
+| damage = {{dv|50|85|97|112}} (Contact)<br/>{{dv|50|88|108|124}} (Cursed Flame)
+| life = {{dv|23000|34500|44850}}
+| defense = 10
+| knockback = 100
+| debuff = Cursed Inferno
+| debuffchance = 50%
+| duration = 16% for {{dv|8|16}} seconds,<br/>then 25% for {{dv|5|10}} seconds,<br/>then 50% for {{dv|3|6}} seconds (Cursed Inferno ball)
+| debufftip = Losing life
+| immune1 = Confused
+| immune2 = Webbed
+| immune3 = Temporal Sadness
+| immune4 = Glacial State
+| immune5 = Time Distortion
+}}
+|{{npc infobox
+| name = Retinazer
+| image = Retinazer (Second Form).png
+| namesub = Second Form
+| environment = Surface
+| environment2 = Night
+| ai = Retinazer AI
+| damage = {{dv|67|113|129|149}} (Contact)<br/>{{dv|50|92|112|128}} (Death Laser)<br/>{{dv|36|68|84|96}} (Rapid Fire)<br/>{{dv|||120|138}} (Homing Missile)
+| life = {{dv|8000 / 20000}}<br/>{{expert|12000 / 30000}}<br/>{{revengeance|26250 / 37500}}
+| defense = 20
+| knockback = 100
+| debuff = On Fire!
+| debuffchance = 100%
+| duration = {{revengeance|4}} seconds (Laser)<br/>{{revengeance|3}} seconds (Homing Missile)
+| debufftip = Slowly losing life
+| immune1 = Confused
+| immune2 = Webbed
+| immune3 = Temporal Sadness
+| immune4 = Glacial State
+| immune5 = Time Distortion
+| Retinazer Trophy|1|10%
+}}
+|{{npc infobox
+| name = Spazmatism
+| image = Spazmatism (Second Form).png
+| namesub = Second Form
+| environment = Surface
+| environment2 = Night
+| ai = Spazmatism AI
+| damage = {{dv|75|127|146|167}} (Contact)<br/>{{dv|60|108|132|151}} (Flamethrower)<br/>{{dv|||124|142}} (Shadowflame Ball)
+| life = {{dv|9200 / 23000}}<br/>{{expert|13800 / 34500}}<br/>{{revengeance|31395 / 44850}}
+| defense = 28
+| knockback = 100
+| immune1 = Confused
+| immune2 = Webbed
+| immune3 = Temporal Sadness
+| immune4 = Glacial State
+| immune5 = Time Distortion
+| debuff = Shadowflame 
+| debuffchance = 100%
+| duration = {{revengeance|3}} seconds (Flamethrower)<br/>{{revengeance|2}} seconds (Shadowflame Ball)
+| debufftip = Losing life
+| debuff2 = Bleeding
+| debuffchance2 = 100%
+| duration2 = {{revengeance|5}} seconds (Contact)
+| debufftip2 = Cannot regenerate life
+| Spazmatism Trophy|1|10%
+}}
+|}
+
+== Behavior ==
+The Twins will spawn together, connected with a flesh tether. They will both attack the player simultaneously.
+
+=== In [[Revengeance Mode]] ===
+=== Phase 1 ===
+Spazmatism will alternate between staying horizontal with the player and quickly shooting [[Cursed Flame]] shots, and performing 8 quicker but shorter dashes towards the player. Retinazer will alternate between staying diagonally above the player and firing bursts of 3 purple lasers, and performing 3 longer but slower dashes towards the player.
+
+=== Phase 2 ===
+Both twins will enter phase 2 upon reaching 70% health. If one of them is in phase 1 while the other is in phase 2, the one in phase 2 will take negligible damage. If gravity is reversed, both twins immediately transform into their second phases. While gravity is reversed, Retinazer's lasers fire faster and more frequently.
+
+In this phase, Spazmatism will alternate between slowly chasing the player while breathing [[Shadowflame]] and performing 5 long and fast dashes towards the player. Retinazer will continuously shoot red lasers at the player, with the pattern of hovering above the player and slowly firing 3 shots followed by hovering to the side of the player and firing a quick burst of 8 shots.
+
+=== Phase 3 ===
+The Twins will enter phase 3 when they reach 25% health or the other twin is defeated.
+
+In this phase, Spazmatism will start to use a new attack where it will hover beneath the player and shoot semi-homing shadowflame fireballs. Its flamethrower attack is used for less time. Its dashes become longer and faster, and it will move faster while breathing shadowflames. Retinazer will start to perform a new attack, where it will do two long dashes after shooting lasers, firing several homing darts during the first dash. 
+
+If Retinazer is defeated first, Spazmatism will stop breathing shadowflames and begin performing a longer set of charge attacks, where it will perform 4 regular charges and a final one which will travel further. When dashing, contact damage is increased by 10%. If Spazmatism is defeated first, Retinazer will begin shooting lasers much more quickly and its dash attack will now consist of four dashes, releasing homing darts on the first and last dash.
+
+If it becomes day, the Twins will enrage, becoming more aggressive, charging further and firing projectiles more often. Their projectiles also have increased velocity when enraged. Spazmatism's flamethrower will also have a longer range.
+
+=== In [[Death Mode]] ===
+*As their health gets lower, the speed and acceleration of the twins increases and their attack delay is reduced.
+
+=== During the [[Boss Rush]] ===
+*Max health increased to {{dv|2,750,000|4,125,000|5,268,750}}
+*Sets the time to 7:30pm
+
+== Terrain Preparation ==
+Both regular arenas consisting of multiple layers of [[Platforms]] and various buffing furniture ([[Campfire]], [[Heart Lantern]], [[Star in a Bottle]] and [[Candles]] from [[Drunk Princess]]) will work as long as it is a large enough size. However a more consistent strategy uses a very long skybridge (Using [[Asphalt Block]] for higher speed) to constantly run away from the Twins, as this makes many of their basic attacks in early phases easy to dodge. However, when later phases are reached a regular arena may be more viable.
+
+== Gearing Up ==
+{{dablink|For a Normal and Expert mode guide to The Twins, see [[tgc:Guide:The Twins strategies|The Twins strategies]] on the vanilla wiki.}}
+
+=== Armor ===
+*Due to the hardmode ore rework, the best available armor depends on how many other mechs have been defeated.
+**If no other mechs have been defeated, [[Palladium armor]] is a strong option providing health regeneration.
+**If one other mech has been defeated, [[Orichalcum armor]] provides extra DPS while [[Mythril armor]] has all-around stat bonuses
+**If two mechs have been defeated, [[Titanium armor]] has a strong set bonus. If Cryogen has also been defeated, [[Daedalus armor]] is among the strongest available. For mixed classes, [[Frost armor]] and [[Forbidden armor]] give the most flexibility.
+*[[Titan Heart armor]] is always available for Rogues.
+*[[Mollusk armor]] has very high stats but makes you quite slow, which can make this high-movement fight difficult.
+*[[Spider armor]] is a powerful summoner armor available from the start of hardmode.
+
+=== Accessories ===
+*The best wings available before [[Mythril Ore]] is available are [[Fairy Wings]] (with their health boost) or [[Leaf Wings]] with their flight time.
+**The [[Aero Stone]], [[Grand Gelatin]], or [[Frog Leg]] will improve the usefulness of wings even further and improve vertical motion.
+*[[Frostspark Boots]] or their predecessor, [[Lightning Boots]], can aid in movement.
+*Dashing can help avoid attacks.
+**For horizontal dashes, use [[Evasion Scarf]] or the [[Shield of Cthulhu]].
+**For vertical movement, the [[Slimy Saddle]] allows you to drop quickly.
+*Using your class specific [[tgc:Emblem|emblem]] is highly recommended for an extra boost of damage. Note that Calamity also has an [[Rogue Emblem|exclusive emblem]] for the Rogue class.
+*The [[Magic Quiver]] works well in maintaining ammo as well as greatly improving the firepower of [[bows]], but it is not required.
+*Magic players can make use of the [[Celestial Cuffs]] and/or [[Mana Flower]] along with [[Mana Potion]]s to recover their mana during the fight, as well as using the [[Mana Polarizer]] to recover lost health.
+*Summoners can boost their minion damage and defensive stats with the [[Spirit Glyph]].
+*Rogue users will find the [[Raider's Talisman]] useful to boost their damage output.
+
+=== Weapons ===
+==== Melee ====
+*The [[Yin-Yo]] combined with the [[Yoyo Bag]] is a powerful option for melee users, alowing consistently high damage at a distance.
+*The [[Flying Knife]] can also work as an alternative, trading damage and accuracy for longer range.
+*The [[True Caustic Edge]]'s projectile has good range for this fight.
+*The [[Axe of Purity]]'s purify function works well as a weapon, being a great choice for melee users as the purification powder it shoots can hit both twins.
+*The [[Earthen Pike]]'s projectiles, while hard to aim, can do massive damage to the twins and completely remove Retinazer's defense.
+**When combined with a [[Flask of Ichor]], it can also completely remove Spazmatism's defense.
+*The [[Clam Crusher]] is a solid choice against the twins, being able to hit at a distance. However it may do more damage when used at closer range due to the time taken for the flail to return being shorter.
+
+==== Ranger ====
+*The [[Darkecho Greatbow]] with [[Ichor Arrow]]s is a great choice as the crystal dart it shoots will hit both twins, and it has high DPS.
+*The [[Arbalest]] is an amazing weapon at taking down The Twins as it has good accuracy for a weapon that fires a spread of arrows. However, since this is a [[rare item variant]], it may be hard to obtain.
+*The [[Mineral Mortar]] is a splendid weapon at taking out The Twins due to the homing sand sharks. Do take note of its slow projectile velocity however.
+*The [[Slag Magnum]] inflicts [[Armor Crunch]] and splits into fossil shards on hit, making it an all around good choice.
+*The [[Titanium Railgun]] has a slow firing speed, but has great damage and shoots a laser instead of a projectile which may make it easier to aim.
+*The [[Polaris Parrotfish]] is a good choice for players confident in their dodging skills as the damage increase form not getting hit can prove substantial.
+
+==== Mage ====
+*The [[Sky Fracture]] is a great pick too due to it being easier to aim with and being fairly simple to craft.
+*The [[Crystal Serpent]] is an effective weapon, especially if running away from a Twin.
+*The [[Frigidflash Bolt]] is a slow but strong weapon.
+
+==== Summoner ====
+*The [[Black Hawk Remote]] is a great summon all around.
+*The [[Shellfish Staff]] is another great choice.
+
+==== Rogue ====
+*The [[Prismalline]] is a great option that can easily hit The Twins with its many projectiles.
+*The [[Burning Strife]] is another viable option that is quite easy to get.
+*The [[Gacruxian Mollusk]]'s homing capability can help with this fight.
+
+=== Tips ===
+*Be sure to damage The Twins at a somewhat equal rate prior to phase 2, to make sure that neither become invulnerable.
+*Try not to have both Twins in phase 3 at the same time, as they will become much more difficult to dodge.
+*While it is easier to leave Retinazer alone towards the end of the fight, it is very difficult to do so due to its lower health. More often than not, you will end up with both Twins in phase 3.
+*Be aware of Retinazer's firing patterns in phase 2, it will shoot 3 lasers at a low firing rate followed by a fast burst. Time your movement so you have enough wing time to avoid the burst by flying diagonally up and away from The Twins to keep yourself safe from Spazmatism.
+{{Collapse bottom}}
+{{-}}
+
+= The Destroyer =
+{{collapse top|The Destroyer Rev Page (Click to open)|(Click to collapse)}}
+{{npc infobox|boxwidth = 35em
+| name = The Destroyer
+| type = Boss
+| type2 = Burrowing Enemy
+| environment = Surface
+| environment2 = Night
+| ai = The Destroyer AI
+| life = {{dv|80000|120000|150000}}
+| knockback = 100%
+| immuneall = yes
+| money = {{gc|30}}
+| Soul of Might|{{dv|20-40|25-40}}| 100% 
+| Hallowed Bar|{{dv|15-30|20-35}}| 100%
+| Greater Healing Potion|5-15| 100%
+| Destroyer Mask|1|14.29% 
+| Destroyer Trophy|1|10%
+| custom| {{item|The Destroyer (Lore)|note=(Only on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (The Destroyer)|Treasure Bag|note=(The Destroyer)|wrap=y}}
+: • {{item|Mechanical Wagon Piece}}|{{expert|100%}} 
+| custom| {{item|SHPC|note=(In [[Revengeance Mode]] only)|wrap=y}}|{{revengeance|1%}}
+}}
+
+{{dablink|If you were looking for The Destroyer on the vanilla wiki, click [[tgc:The Destroyer|here]].}}
+The Destroyer is a [[Hardmode]] boss that can be fought anywhere on the [[surface]] at [[night]].
+
+== Spawn ==
+The Destroyer can be summoned manually using a [[Mechanical Worm]] at night in any biome. It can also spawn naturally at dusk with a chance of 10% once a Demon or Crimson Altar has been smashed, as long as it has not yet been defeated in the current world. If spawned this way, its arrival is announced by the [[status message]]: "You feel vibrations from deep below..."
+
+== Segments ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox
+| name = The Destroyer
+| namesub = The Destroyer Head
+| image = The Destroyer Head.png
+| type = Burrowing Enemy
+| environment = Surface
+| environment2 = Night
+| ai = Worm AI
+| damage = {{dv|70|280|308|354}}
+| life = {{dv|80000|120000|150000}}
+| defense = 0
+| knockback = 100
+| immuneall = yes
+}}
+|{{npc infobox
+| name = The Destroyer
+| namesub = The Destroyer Body
+| image = The Destroyer Body.png
+| type = Burrowing Enemy
+| environment = Surface
+| environment2 = Night
+| ai = Worm AI
+| damage = {{dv|55|93|111|128}} (Contact)<br/>{{dv|44|72|92|105}} (Death Laser)<br/>{{dv|||100|115}} (Frost Laser)<br/>{{dv|||108|124}} (Homing Laser)<br/>{{dv|||92|105}} (Metal Scrap)
+| life = {{dv|80000|120000|150000}}
+| defense = {{dv|30|||40}}
+| knockback = 100
+| immuneall = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| duration = {{revengeance|4 seconds}}
+| debufftip = Slowly losing life
+| debuff2 = Cursed Inferno
+| debuffchance2 = 100%
+| duration2 = {{revengeance|2 seconds}}
+| debufftip2 = Losing life<br/>{{revengeance|All damage taken increased by 20%}}
+| debuff3 = Electrified
+| debuffchance3 = 100%
+| duration3 = {{revengeance|1 second}}
+| debufftip3 = You cannot move
+}}
+|{{npc infobox
+| name = The Destroyer
+| namesub = The Destroyer Tail
+| image = The Destroyer Tail.png
+| type = Burrowing Enemy
+| environment = Surface
+| environment2 = Night
+| ai = Worm AI
+| damage = {{dv|40|68|81|93}}
+| life = {{dv|80000|120000|150000}}
+| defense = 35
+| knockback = 100
+| immuneall = yes
+}}
+|}
+== Behavior ==
+When the Destroyer spawns, it will be coiled up and its segments will be mostly folded in on each other. For ten seconds after it has spawned it will be near-invulnerable and able to fly similar to a [[Wyvern]]. 
+
+=== In [[Revengeance Mode]] ===
+The Destroyer initally exhibits movement like a typical worm enemy, burrowing through the ground and attempting to ram the player. This means that the Destroyer can only charge at the player from the ground and thus, has a maximum height it can reach in earlier phases. However, due to its extremely fast speed, this height is very large. When it reaches 50% health, it will begin to move more similarly to a Wyvern compared to a regular worm enemy. When it moves like this, it will move more in the air and will not use the ground to accelerate towards mid-air players. It will also have any segments with [[Probe]]s change their red light to a purple one. Upon reaching 25% health, it will begin to dive bomb the player by rapidly changing direction in the air.
+
+The Destroyer will occasionally fire lasers towards the player from each of its segments. Initially, only red lasers will be fired that inflict the [[On Fire!]] debuff for 4 seconds. At 85% health it will begin to fire green lasers which inflict [[Cursed Inferno]] for 2 seconds, and at 70% health it will begin to fire blue lasers that inflict [[Electrified]] for 1 second. It will fire lasers less frequently as its health decreases.
+
+As it is damaged, the Destroyer's segments will spawn Probes which follow the player while shooting lasers. Once a Probe is removed from a segement, that segment will have 10 less defense. The Probes will despawn if the player moves too far away.
+
+The Destroyer enrages during the day. It moves faster and more aggressively, only fires blue lasers which accelerate faster, and its body segments take reduced damage, leaving only the head and tail vulnerable.
+
+===In [[Death Mode]]===
+*The Destroyer has more segments and spawns more Probes. 
+*Laser fire rate is dramatically increased.
+*Acceleration and top speed increase as health decreases.
+
+===During the [[Boss Rush]]===
+*Max health increased to {{dv|2,500,000|3,750,000|4,687,500}}
+*Sets the time to 7:30pm
+
+==Summons==
+{|
+|- style="vertical-align:top"
+|{{npc infobox
+| name = Probe
+| image = Probe.png
+| type = Summon
+| ai = Flying AI
+| damage = 0 (Contact)<br/>{{dv|50|88||101}} (Probe Laser)
+| life = {{dv|200|300}}
+| defense = 20
+| DR = 20%
+| knockback = 20%
+| immuneall = yes <!-- Adding this will change the meaning of immune1, immune2 etc to vulnerability -->
+}}
+|}
+
+
+== Resistances ==
+*All segments take reduced damage from non-[[Minions|minion]] piercing projectiles in [[Expert Mode]]. Projectile damage is divided by the number of times it pierces. Infinite piercing deals 50% damage.
+*All segments reduce damage from grenade-type projectiles by 80%. A list of affected projectiles is below.
+
+{{ajax|List of resisted grenades|head=Resisted grenades|width=15%}}
+
+*Additionally, all segments take:
+**75% damage from the [[Spear of Paleolith]]'s fossil shards, the bubbles from the [[Desecrated Water]], the [[Kelvin Catalyst]]'s stars and the [[Cosmic Rainbow]]'s rainbows.
+**50% damage from the [[Dormant Brimseeker]].
+**38% damage from the [[Spent Fuel Container]]'s explosions.
+**30% damage from the [[Hydraulic Volt Crasher]]'s streams.
+**25% damage from the water spouts generated by the [[Sea's Searing]]'s alt-fire.
+
+== Terrain Preparation ==
+The player should make a long arena to help avoid the Destroyer's many lasers, and to help with avoiding its charges as its health gets lower. Making it tall can also help make the first half of the fight easier.
+
+== Gearing Up ==
+{{dablink|For a Normal and Expert mode guide to The Destroyer, see [[tgc:Guide:The Destroyer strategies|The Destroyer]] on the vanilla wiki.}}
+
+=== Armor ===
+*Due to the hardmode ore rework, the best available armor depends on how many other mechs have been defeated.
+**If no other mechs have been defeated, [[Palladium armor]] is a strong option providing health regeneration.
+**If one other mech has been defeated, [[Orichalcum armor]] provides extra DPS while [[Mythril armor]] has all-around stat bonuses
+**If two mechs have been defeated, [[Titanium armor]] has a strong set bonus. If Cryogen has also been defeated, [[Daedalus armor]] is among the strongest available. For mixed classes, [[Frost armor]] and [[Forbidden armor]] give the most flexibility.
+*[[Titan Heart armor]] is always available for Rogues.
+*[[Mollusk armor]] has very high stats but makes you quite slow, which can make this high-movement fight difficult.
+*[[Spider armor]] is a powerful summoner armor available from the start of hardmode.
+
+=== Accessories ===
+*The best wings available before [[Mythril Ore]] is available are [[Fairy Wings]] (with their health boost) or [[Leaf Wings]] with their flight time.
+**Since [[Cryogen]] is usually defeated before mech bosses, the [[Soul of Cryogen]] can substantially add to DPS with its dropping icicles.
+**The [[Aero Stone]], [[Grand Gelatin]], or [[Frog Leg]] will improve the usefulness of wings even further and improve vertical motion.
+*[[Frostspark Boots]] or their predecessor, [[Lightning Boots]], can aid in movement.
+*Dashing can help avoid attacks, especially since the head is so deadly.
+**For horizontal dashes, use [[Evasion Scarf]] or the [[Shield of Cthulhu]].
+**For vertical movement, the [[Slimy Saddle]] allows you to drop quickly or to bounce off the destroyer to avoid damage.
+*Using your class specific [[tgc:Emblem|emblem]] is highly recommended for an extra boost of damage. Note that Calamity also has an [[Rogue Emblem|exclusive emblem]] for the Rogue class.
+*The [[Magic Quiver]] works well in maintaining ammo as well as greatly improving the firepower of [[bows]], but it is not required.
+*Magic players can make use of the [[Celestial Cuffs]] and/or [[Mana Flower]] along with [[Mana Potion]]s to recover their mana during the fight, as well as using the [[Mana Polarizer]] to recover lost health.
+*Summoners can boost their minion damage and defensive stats with the [[Spirit Glyph]].
+*Rogue users will find the [[Raider's Talisman]] useful to boost their damage output.
+
+=== Weapons & Equipment ===
+==== Melee ====
+*Swords can do immense damage to the destroyer but require being very close. [[Avalanche]], for instance, is a strong choice.
+**The [[Fractured Ark]], despite being a pre-Hardmode weapon, does excellent damage with decent range. The [[Fetid Baghnakhs]] are a high-DPS but short-range option.
+
+==== Ranger ====
+*Although not great in vanilla, Calamity makes the [[Pearlwood Bow]] a great choice due to the rainbows it adds, which are great at dealing with the Destroyer's many segments.
+**Do note, each time the bow is shot, the rainbows get replaced, so players might want to use this weapon sparingly or as a support weapon.
+*The [[Proporse Pistol]] is another great choice due to its piercing rounds.
+*Th [[Dart Rifle]] with [[Cursed Dart]]s or the [[Daedalus Stormbow]] with [[Holy Arrow]]s do high damage to the destroyer.
+
+==== Mage ====
+*Both the [[Demonic Pitchfork]] and the [[Frigidflash Bolt]] are great due to their slight pierce and high damage.
+*The [[Nimbus Rod]] will do huge damage on its own but also release many probes.
+*The [[Poseidon]] is one of the best weapons available at this stage, homing and piercing.
+
+==== Summoner ====
+*The [[Ancient Ice Chunk]] is a great option because it can hit multiple segments in one clasp.
+*The [[Ballista Cane]] or its upgrade can add good DPS to the fight.
+
+==== Rogue ====
+*The [[Gacruxian Mollusk]] is great with the many sparks it leaves in its path that can slightly home into the Destroyer.
+*The [[Blast Barrel]] is an excellent choice that can make quick work of the Destroyer if the player can make them explode and leave shrapnel on the ground.
+*The [[Kelvin Catalyst]] is another solid option, albeit difficult to craft.
+
+== Tips ==
+*The fight can generally be treated similar to a regular worm boss until the Destroyer reaches 50% health, which is where the player should be aware that it can now be much more agile in the air.
+**Remember that it will telegraph when it can fly by its segments changing from red to purple.
+{{Collapse bottom}}
+
+=Skeletron Prime=
+{{collapse top|Skeletron Prime Rev Page (Click to open)|(Click to collapse)}}
+{{npc infobox
+| name = Skeletron Prime
+| namesub = Skeletron Prime Head
+| type = Boss
+| environment = Surface
+| environment2 = Night
+| ai = Skeletron Prime Head AI
+| life = {{dv|28000|42000|60900}}
+| knockback =100
+| immune1 = Shadowflame
+| immune2 = Penetrated
+| immune3 = Venom
+| immune4 = Cursed Inferno
+| immune5 = Confused
+| immune6 = Poisoned
+| immune7 = Daybroken
+| immune8 = Celled
+| immune9 = On Fire!
+| immune10 = Webbed
+| immune11 = Temporal Sadness
+| immune12 = Glacial State
+| immune13 = Time Distortion
+| money = {{gc|12}}
+| damage = {{dv|47|79|90|104}} (Contact) (Doubled if spinning)<br/>{{dv|50|100|124|142}} (Death Laser)<br/>{{dv|||132|151}} (Missile)<br/>{{dv|||112|128}} (Skull)<br/>{{dv|||132|151}} (Homing Missile)
+| defense = 24 {{dv|||(+8 per arm alive)}} (Doubled if spinning)
+| Soul of Fright|20-40 / {{expert|25-40}}| 100%
+| Greater Healing Potion|5-15| 100%
+| Hallowed Bar|15-30 / {{expert|20-35}}|100%
+| Skeletron Prime Mask|1|14.29%
+| Skeletron Prime Trophy|1|10%
+| custom| {{item|Skeletron Prime (Lore)|note=(Only on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Skeletron Prime)|Treasure Bag|note=(Skeletron Prime)|wrap=y}}
+: • {{item|Mechanical Battery Piece}}|{{expert|100%}}
+}}
+{{dablink|If you were looking for Skeletron Prime on the vanilla wiki, click [[tgc:Skeletron Prime|here]].}}
+Skeletron Prime is a [[Hardmode]] [[tgc:Mechanical bosses|mechanical boss]] which is essentially a more difficult version of [[Skeletron]].
+
+
+While in [[Revengeance Mode|Revengeance]] and [[Death Mode]], Skeletron Prime gains various projectile changes to both the head and limbs, and the boss gets an overall stats buff. The head gains more attacks and behaviours as the limbs are killed.
+== Spawn ==
+Skeletron Prime can be manually summoned using a [[Mechanical Skull]] at [[night]] (7:30 PM to 4:30 AM) in any biome. It can also spawn naturally upon dusk with a chance of 10% once a Demon or Crimson Altar has been smashed, as long as it has not yet been defeated in the current world. If spawning naturally, its arrival is announced by the status message: "The air is getting colder around you..."
+== Arms ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox|boxwidth=18em
+| name = Prime Cannon
+| type = Boss Part
+| environment = Surface
+| environment2 = Night
+| ai = Prime Cannon AI
+| damage = {{dv|30|51|61|70}} (Contact)<br/>{{dv|||132|151}} (Missile)
+| life = {{dv|7000|10500|6825}}
+| defense = 23
+| knockback = 100%
+| immune1 = On Fire!
+| immune2 = Confused
+| immune3 = Poisoned
+| immune4 = Venom
+}}
+|{{npc infobox|boxwidth=18em
+| name = Prime Saw
+| type = Boss Part
+| environment = Surface
+| environment2 = Night
+| ai = Prime Saw AI
+| damage = {{dv|56|95|114|131}} (Contact)
+| life = {{dv|9000|13500|8775}}
+| defense = 38
+| knockback = 100%
+| immune1 = On Fire!
+| immune2 = Confused
+| immune3 = Poisoned
+| immune4 = Venom
+}}
+|{{npc infobox|boxwidth=18em
+| name = Prime Vice
+| type = Boss Part
+| environment = Surface
+| environment2 = Night
+| ai = Prime Vice AI
+| damage = {{dv|52|88|105|121}} (Contact)
+| life = {{dv|9000|13500|8775}}
+| defense = 34
+| knockback = 100%
+| immune1 = On Fire!
+| immune2 = Confused
+| immune3 = Poisoned
+| immune4 = Venom
+}}
+|{{npc infobox|boxwidth=18em
+| name = Prime Laser
+| type = Boss Part
+| environment = Surface
+| environment2 = Night
+| ai = Prime Laser AI
+| damage = {{dv|29|49|58|67}} (Contact)<br/>{{dv|50|100|124|142}} (Death Laser)
+| life = {{dv|6000|9000|5850}}
+| defense = 20
+| knockback = 100%
+| immune1 = On Fire!
+| immune2 = Confused
+| immune3 = Poisoned
+| immune4 = Venom
+}}
+|}
+== Behavior ==
+The Prime Laser and Cannon move faster.
+=== In [[Revengeance Mode]] ===
+The head recieves a defense buff of 8 per arm alive, and various changes ensue when the arms are killed. At any time, if the head reaches 66% health, all the limbs will die.
+The head's spin attack will not happen while any arms are alive, and it is significantly faster. Defense while spinning is doubled, regardless of difficulty. The head gains speed as it looses health.
+The changes to the arms are as follows:
+
+Prime Cannon
+*Fires rockets instead of of bombs. Alternates between firing single rockets and three rockets at once.
+*When this limb is killed, the head will begin to fire rockets
+*Alternates attacks with the Prime Laser
+Prime Laser
+*No longer fires lasers in a cone of spread
+*Alternates between firing single lasers and laser circles
+*When this limb is killed, the head will begin to fire laser circles
+*Alternates attacks with the Prime Cannon
+Prime Saw and Prime Vice
+*More aggresive AI
+
+As limbs die, the other limbs gain increased movement and attack speed. When all the limbs are killed the head will begin to fire cursed skull projectiles in a similar way to [[Skeletron]]. When the head reaches 33% health, every other spin attack is replaced with a barrage of martian missiles, the cursed skulls only fire before the missiles attack, and the spin time is reduced by 2 seconds.
+If day comes, and skeletron prime is still alive, it's current health will increase to 300 if it is below that.
+
+===In [[Death Mode]]===
+*Fires skulls more frequently when spinning
+*If gravity is reversed, the head gains a speed boost
+*Hands and head increase further in velocity and acceleration as their health decreases
+
+===During the [[Boss Rush]]===
+*Max health increased to {{dv|1,100,000|1,650,000|1,980,000}}
+*Sets the time to 7:30pm
+
+== Tips ==
+{{dablink|For a Normal and Expert mode guide to Skeletron Prime, see [[tgc:Guide:Skeletron Prime strategies|Skeletron Prime]] on the vanilla wiki.}}
+=== General ===
+*The player should be aware of the hands, and remember that for each arm destroyed, the rest get faster.
+*Good aoe damage works well for the limbs, and mobility should be priototized.
+*Once all arms are destroyed, the player should be aware of Skeletron Prime's spin attack, which can be devastating if you get stuck in.
+*In the cursed skull attack, a good strategy is circling Skeletron prime from afar to avoid his homing skulls.
+=== Arena ===
+Due to skeletrons diverse attacks, it is recommended the player make a decently sized arena with about 20-25~ gaps between each platform, to allow easy movement without getting stuck between each floor.
+The arena should be big enough to allow circling Skeletron Prime in his later phases, during his cursed skull attack. and to allow an easy way to run away from his deadly spin charge that spews out lazers.
+
+=== Armor ===
+*Due to the hardmode ore rework, the best available armor depends on how many other mechs have been defeated.
+**If no other mechs have been defeated, [[Palladium armor]] is a strong option providing health regeneration.
+**If one other mech has been defeated, [[Orichalcum armor]] provides extra DPS while [[Mythril armor]] has all-around stat bonuses
+**If two mechs have been defeated, [[Titanium armor]] has a strong set bonus. If Cryogen has also been defeated, [[Daedalus armor]] is among the strongest available. For mixed classes, [[Frost armor]] and [[Forbidden armor]] give the most flexibility.
+*[[Titan Heart armor]] is always available for Rogues.
+*[[Mollusk armor]] has very high stats but makes you quite slow.
+*[[Spider armor]] is a powerful summoner armor available from the start of hardmode.
+
+=== Accessories ===
+*The best wings available before [[Mythril Ore]] is available are [[Fairy Wings]] (with their health boost) or [[Leaf Wings]] with their flight time.
+**The [[Aero Stone]], [[Grand Gelatin]], or [[Frog Leg]] will improve the usefulness of wings even further and improve vertical motion.
+*[[Frostspark Boots]] or their predecessor, [[Lightning Boots]], can aid in movement.
+*Dashing can help avoid attacks.
+**For horizontal dashes, use [[Evasion Scarf]] or the [[Shield of Cthulhu]].
+**For vertical movement, the [[Slimy Saddle]] allows you to drop quickly or to bounce off the destroyer to avoid damage.
+*Using your class specific [[tgc:Emblem|emblem]] is highly recommended for an extra boost of damage. Note that Calamity also has an [[Rogue Emblem|exclusive emblem]] for the Rogue class.
+*The [[Magic Quiver]] works well in maintaining ammo as well as greatly improving the firepower of [[bows]], but it is not required.
+*Magic players can make use of the [[Celestial Cuffs]] and/or [[Mana Flower]] along with [[Mana Potion]]s to recover their mana during the fight, as well as using the [[Mana Polarizer]] to recover lost health.
+*Summoners can boost their minion damage and defensive stats with the [[Spirit Glyph]].
+*Rogue users will find the [[Raider's Talisman]] useful to boost their damage output.
+
+===Weapons===
+
+==== Melee ====
+*The [[True Caustic Edge]] Is a great pick for melee users due to its easy to aim projectile.
+
+
+==== Ranged ====
+*The [[Dart Pistol]] or [[Dart Rifle]] can be great choices for Skeletron Prime.
+*The [[Needler]] is another viable option which is quite easy to get your hands on.
+
+==== Magic ====
+*The [[SHPC]]'s left-click attack can damage many parts of Skeletron Prime at once, while the right-click attack is better for the head.
+*[[Poseidon]] does good multi-target, homing damage.
+*[[Frigidflash Bolt]] is a bit weaker but can do good damage.
+
+==== Summoning ====
+*The [[Shellfish Staff]] is great for Skeletron Prime due to its high debuff damage.
+*The [[Black Hawk Remote]] is also great due to it locking on to its targets.
+
+==== Rogue ====
+*The [[Prismalline]] is a great choice due to its many powerful projectiles.
+*The [[Gacruxian Mollusk]]'s homing capabilities help out in this fight.
+
+==== All classes ====
+*The [[Golden Shower]] is very helpful for increasing DPS and getting around Skeletron Prime's high defense
+{{Collapse bottom}}
+{{-}}
+
+= Plantera =
+{{collapse top|Plantera Rev Page (Click to open)|(Click to collapse)}}
+{{npc infobox
+| name = Plantera
+| namesub = Phase 1
+| type = Boss
+| environment = Underground Jungle
+| ai = Plantera AI
+| life = {{dv|30000|42000|96600}}
+| knockback =100
+| immune1 = Venom
+| immune2 = Confused
+| immune3 = Poisoned
+| immune4 = Webbed
+| immune5 = Temporal Sadness
+| immune6 = Glacial State
+| immune7 = Time Distortion
+| money = {{gc|15}}
+| damage = {{dv|50|100|115|130}} (Contact) <br/>{{dv|44|76|96|110}} (Seed)<br/>{{dv|54|96|120|138}} (Poison Seed)<br/>{{dv|62|108|136|156}} (Thorn Ball)<br/>
+| defense =  42
+}}
+{{npc infobox
+| name = Plantera
+| image = Plantera (Phase 2).png
+| namesub = Phase 2
+| type = Boss
+| environment = Underground Jungle
+| ai = Plantera AI
+| life = {{dv|30000|42000|96600}}
+| knockback =100
+| immune1 = Venom
+| immune2 = Confused
+| immune3 = Poisoned
+| immune4 = Webbed
+| immune5 = Temporal Sadness
+| immune6 = Glacial State
+| immune7 = Time Distortion
+| money = {{gc|15}}
+| damage = {{dv|70|140|161|185}} (Contact) <br/>{{dv|||140|161}} (Spore Gas)
+| defense =  21
+| Temple Key|1|100%
+| Pygmy Staff|1|25% 
+| Venus Magnum|1|14.29% 
+| Nettle Burst|1|14.29% 
+| Leaf Blower|1|14.29% 
+| Flower Pow|1|14.29% 
+| Wasp Gun|1|14.29% 
+| Seedler|1|14.29% 
+| Thorn Hook|1|10% 
+| The Axe|1|2%
+| Seedling|1|5% 
+| Jungle Key|1|10%
+| Living Shard|6-9 / {{expert|8-11}}|100% 
+| Greater Healing Potion|5-15|100%
+| Plantera Mask|1|14.29% 
+| Plantera Trophy|1|10%
+| custom| {{item|Plantera (Lore)|note=(Only on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Plantera)|Treasure Bag|note=(Plantera)|wrap=y}}
+: • {{item|Spore Sac}}|{{expert|100%}}
+| custom| {{item|Blossom Flux|note=(In [[Revengeance Mode]] only)|wrap=y}}|{{revengeance|1%}}
+}}
+== Spawn ==
+Plantera will not spawn on its own, she is summoned by breaking a [[Plantera's Bulb]] in the Underground Jungle, or by using a [[Portabulb]] anywhere in the Jungle.
+== Segments ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox|boxwidth=18em
+| name = Plantera's Hook
+| type = Boss Part
+| environment = Underground Jungle
+| ai = Plantera's Hook AI
+| life = {{dv|30000|42000|96600}}
+| knockback =100
+| immune1 = Venom
+| immune2 = Confused
+| immune3 = Poisoned
+| immune4 = Webbed
+| immune5 = Temporal Sadness
+| immune6 = Glacial State
+| immune7 = Time Distortion
+| damage = {{dv|70|140|161|185}} (Contact)
+}}
+|{{npc infobox|boxwidth=18em
+| name = Plantera's Tentacle
+| type = Boss Servant
+| environment = Underground Jungle
+| ai = Plantera's Tentacle AI
+| life = {{dv|30000|42000|96600}}
+| knockback = 
+| immune1 = Venom
+| immune2 = Confused
+| immune3 = Poisoned
+| immune4 = Webbed
+| immune5 = Temporal Sadness
+| immune6 = Glacial State
+| immune7 = Time Distortion
+| damage = {{dv|70|140|161|185}} (Contact)
+}}
+|}
+
+== Behavior ==
+Normal and Expert receive a few changes to her enrage mechanic, she will no longer enrage outside of the Underground Jungle, but will enrage at the surface.
+
+=== In [[Revengeance Mode]] ===
+Similarly to its expert counterpart Plantera moves through blocks slowly, using long vines to grapple foreground blocks (and background walls in her second phase), similar to multi-hooks. However besides some changes to be faster, stronger and be overall more aggresive, she has a third phase under 25% health and has more projectiles throught the fight. 
+The changes made by Revengeance Mode include:
+
+*The petals fired in phase 1 are significantly faster. 
+*Shoots Thorn Balls during Phase 3, only 3 can exist at one time. 
+*Summons tentacles at 75%, 50%, and 20% life. 
+*The more tentacles that are alive, the higher her defense is. 
+*In phase 2 she fires seeds, moves faster to catch up to the player and belches lingering spore clouds that linger and spread out over time when all tentacles are dead. 
+*Hook and projectiles spread decrease as health decreases. 
+*Hooks no longer spawn tentacles. 
+*Becomes more aggressive the less active tiles there are around her. 
+*If enraged during the day, she will regain health over time. 
+*If enraged during the night, she gains a massive defense boost.
+
+===In [[Death mode]]===
+*Petal firerate dramatically increased. 
+*Attempts to ram the player more often. 
+*Top speed, acceleration, maximum hook range, and number of tentacles spawned increase as her health decreases. 
+*Tentacles move faster.
+
+===During the [[Boss Rush]]===
+*Max health increased to {{dv|1,600,000|2,240,000|5,152,000}}
+
+== Aftermath ==
+*[[Perennial Ore]] is generated in the [[Underground]] layer of the world.
+*[[tgc:Reaper|Reaper]]s and [[Psycho]]s willl begin dropping [[Solar Veil]]s.
+**Unless [[Calamitas]] was defeated first.
+*The [[Great Sand Shark]] will begin spawning after killing 10 [[Sand Shark]]s.
+*[[Jungle Crate]]s will begin dropping [[Chlorophyte Bar|Chlorophyte]] and [[Perennial Bar]]s.
+*[[Dune Splicer]]s will begin dropping the [[Terra-cotta]].
+*[[Mantis Shrimp]] will begin dropping [[Mantis Claws]].
+*[[Dungeon Crate]]s and [[Eidolist]]s will begin dropping [[Ectoplasm]].
+*The [[Bandit]] will begin selling [[Glove of Precision]], [[Glove of Recklessness]], and [[Monkey Darts]].
+*The [[Drunk Princess]] will begin selling [[Evergreen Gin]], [[Caribbean Rum]], and [[Margarita]].
+*The [[Merchant]] will begin selling [[Master Bait]].
+*Sword Spirits from the [[Gladiator's Locket]] now deal 100 damage.
+
+== Tips ==
+=== General ===
+*Unlike Normal/Expert Plantera, the circle method is less effective here due to Planetera's lingering spore clouds, and her 3 petal shots in phase 2.
+**Try to change your direction or path to avoid the petals, spike balls and spore clouds.
+
+=== Arena ===
+*Due to Plantera's enrage, it is highly recommended to construct its arena in the Cavern layer, while in the Jungle biome.
+*The player should strive to make a decently sized arena to allow more room to avoid Plantera's petal shots and spores, while not enraging it specially on Revengeance Mode or higher difficulties.
+
+===Weapons & Equipment===
+*[[Chlorophyte Armor]] and [[Hallowed armor]] are great balanced choices for melee, ranger and mage players
+*[[Daedalus armor]] is another balanced pick for all classes.
+**Summoners may utilize [[Spider armor]] for bonus damage.
+***[[Fathom Swarmer armor]] can be used alternatively if [[Calamitas]] was defeated first.
+**Rogue players can use [[Titan Heart armor]] due to its great set bonuses and stats.
+*The player can utilize accesories like the [[Ambrosial Ampoule]] to help with the Venom and Poison debuffs, as well as increasing life regeneration.
+*The [[Pwnagehammer]] is a powerful option for Plantera herself, but it lacks when it comes to going through her tentacles.
+*Players might also use [[True Bloody Edge]] or [[Ark of the Ancients]], due to their piercing projectiles.
+*The [[Darkecho Greatbow]]'s ricocheting crystal darts and overall high damage put it at a great spot at dealing with Plantera and her tentacles.
+*The [[Corroded Caustibow]] can be utilized to make quick work of the tentacles with its debuffs and trail.
+*The [[Brimstone Fury]] is another good option for dealing good damage to Plantera
+**Rangers might also utilize [[Magic Quiver]] with these bows.
+*Both [[Valkyrie Ray]] and [[Arctic Bear Paw]] are powerful options due to their piercing capabilities that can greatly help with Plantera's tentacles.
+*The [[Ion Blaster]] is another great option if used at its highest potential.
+*The [[Deepsea Staff]], [[Dormant Brimseeker]], [[Optic Staff]], [[Entropy's Vigil]] (if Calamitas was defeated first), and [[Mounted Scanner]] are great picks that can go through the tentacles and attack Plantera alltogether.
+**Summoners might also find [[Cryogenic Staff]], [[Orthocera Shell]], [[Ballista Cane]], [[Dreadmine Staff]] (if Calamitas was defeated prior), [[Tundra Flame Blossoms Staff]] and [[Sun God Staff]] great for bonus damage.
+*The [[Scourge of the Seas]] is an excellent choice due to its lingering clouds that can deal great damage to Plantera and her tentacles.
+*The [[Kelvin Catalyst]] can be of use due to its piercing capabilities to attack both Plantera and her tentacles.
+*The [[Totality Breakers]] are another excellent crowd control weapon for damaging both Plantera and her tentacles, if Calamitas was defeated first.
+*The [[Skyfin Bombers]] are another excellent option for dealing with Plantera and her tentacles, specially on stealth builds and its homing.
+*The [[Spent Fuel Container]] is another excellent crowd control weapon for Plantera and her tentacles. 
+{{Collapse bottom}}
+{{-}}

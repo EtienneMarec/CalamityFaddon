@@ -1,0 +1,226 @@
+<section begin=npc infobox />{{npc infobox
+| name = Aquatic Scourge
+| type = Boss
+| type2 = Burrowing Enemy
+| imagealt = [[File:Aquatic_Scourge.png|350px]]
+| environment = Sulphurous Sea
+| ai = Spazmatism AI
+| life = {{dv|77,000|123,200|147,200}}
+| knockback = 100
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| Bleached Angling Kit|1|100%
+| Sulphurous Sand|5-15|100%
+|group|At least one of the following 5 weapons will always drop:|5
+| Submarine Shocker|1|{{dv|25%|33.33%}}
+| Barinautical|1|{{dv|25%|33.33%}}
+| Downpour|1|{{dv|25%|33.33%}}
+| Deepsea Staff|1|{{dv|25%|33.33%}}
+| Scourge of the Seas|1|{{dv|25%|33.33%}}
+| Aquatic Emblem|1|100%
+| Corrosive Spine|1|{{dv|11.11%|12.5%}}
+| Sea's Searing|1|10%
+| Deep Diver|1|10%
+| Greater Healing Potion|8-14|100%
+| Aquatic Scourge Mask|1|14.29%
+| Aquatic Scourge Trophy|1|10%
+| custom| {{item|Aquatic Scourge (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Sulphur Sea (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| listexclude = yes
+| money = {{gc|15}}
+| image2 = Aquatic Scourge map.png
+| image2caption = Map Icon
+| boxwidth = 29em
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_17.wav
+| soundtext = Tooth
+| sound2 = Item_21.wav
+| sound2text = Sand Blast
+| sound3 = NPC_Killed_13.wav
+| sound3text = Vomit
+| vulnerable1 = Machine
+| resistant1 = Acid
+| resistant2 = Poison
+| resistant3 = Radioactive
+}}<section end=npc infobox />
+{{dablink|If you were looking for something other than the Aquatic Scourge, see [[Scourge (disambiguation)]].}}
+[[File:Aquatic Scourge Trophy.png]] <big>''"A horror born of pollution and insatiable hunger..."''</big> [[File:Aquatic Scourge Trophy.png]]
+
+The '''Aquatic Scourge''' (Japanese: 水生の惨劇 ''Suisei no sangeki'') is a [[boss]] that can be fought in the [[Sulphurous Sea]] biome at any point in the game, but is intended to be fought during late [[Pre-Hardmode]], usually just after [[Skeletron]]. Being the hydrated and mutated version of the [[Desert Scourge]], it possesses similarities in its drops but significant differences in its behavior.
+
+== Spawn ==
+The Aquatic Scourge can be summoned by tossing a minimum of 20 [[Chum Bucket]]s into the Sulphurous Sea at once. After the final bucket is thrown, the Aquatic Scourge will spawn offscreen and all of the Chum Buckets will despawn. It can also spawn naturally, albeit rarely.
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| environment = Sulphurous Sea
+| life = {{dv|73,000|116,800|136,000}}
+| name = Aquatic Scourge Head
+| damage = 0 (Passive)<br/>{{dv|80|176|187|198}} (Contact)<br/>{{dv|60|100|125|143}} (Tooth)<br/>{{dv|56|92|116|128}} (Sand Blast)<br/>{{dv|66|112|128|140}} (Sulphur Cloud)
+| defense = 20
+| dr = 5%
+| ai = Aquatic Scourge AI
+| knockback = 100
+| resistant1 = Water
+| resistant2 = Poison
+| resistant3 = Fire
+| vulnerable1 = Slash
+| vulnerable2 = Stab
+| vulnerable3 = Cold
+| debuff = Irradiated
+| debuffchance = 100%
+| duration = 6 seconds
+| debufftip = Your skin is burning off
+| hardmode = yes
+| boxwidth = 25em
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| environment = Sulphurous Sea
+| life = {{dv|73,000|116,800|136,000}}
+| name = Aquatic Scourge Body
+| damage = 0 (Passive)<br/>{{dv|65|104|128|136}} (Contact)<br/>{{dv|60|100|120|132}} (Tooth)
+| defense = 35
+| dr = 10%
+| knockback = 100
+| ai = Aquatic Scourge AI
+| debuff = Irradiated
+| debuffchance = 100%
+| duration = 3 seconds
+| resistant1 = Water
+| resistant2 = Poison
+| resistant3 = Fire
+| vulnerable1 = Slash
+| vulnerable2 = Stab
+| vulnerable3 = Cold
+| debufftip = Your skin is burning off
+| hardmode = yes
+| boxwidth = 25em
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| environment = Sulphurous Sea
+| life= {{dv|73,000|116,800|136,000}}
+| name = Aquatic Scourge Tail
+| damage = 0 (Passive)<br/>{{dv|45|72|96|104}} (Contact)
+| resistant1 = Water
+| resistant2 = Poison
+| resistant3 = Fire
+| vulnerable1 = Slash
+| vulnerable2 = Stab
+| vulnerable3 = Cold
+| defense = 45
+| dr = 15%
+| knockback = 100
+| ai = Aquatic Scourge AI
+| debuff = Irradiated
+| debuffchance = 100%
+| duration = 3 seconds
+| debufftip = Your skin is burning off
+| hardmode = yes
+| boxwidth = 25em
+}}
+}}
+
+== Behavior ==
+The Aquatic Scourge is an aerial worm-like enemy, with {{dv|31|36|41|51}} segments in total. Once spawned, the Aquatic Scourge will be passive, slowly following the player. It will become hostile and rapidly accelerate upon being hit by the player and dropping to 99% health or lower.
+
+Once hostile, the Aquatic Scourge will follow the player with curve-like movements with a constant speed. As it travels, it will release many different projectiles along its path.
+
+The Aquatic Scourge enrages outside the [[Ocean]] and Sulphurous Sea, greatly increasing its movement speed. The boss will only enrage once the player has left both biomes.
+
+=== Attacks ===
+*The Aquatic Scourge randomly releases {{item|Sand Blast|s|link=}} and homing {{item|Sand Tooth|Sand Teeth|link=|size=18px}} from its tooth-less and toothed body segments respectively.
+*When at 75% health or lower, every {{dv|7||6}} seconds, the Aquatic Scourge vomits out several projectiles from its mouth in a circular spread. These projectiles include:
+**{{dv|20|30}} {{item|Sand Blast|s|link=}} in an evenly-spaced ring which travel quickly in a straight line.
+**When at 50% health or lower, {{dv|7|14}} {{item|Sand Poison Cloud|s|link=|ext=gif|size=26px}} in random directions and speeds that linger in the air for 30 seconds.
+***Additionally, it will stop firing Sand Blasts and Sand Teeth from its segments for the duration of this phase.
+*When at 25% health or lower, it will proceed to fire from its segments again and stop vomiting Sand Poison Clouds, all Sand Blasts during this phase are homing.
+
+=== In [[Expert Mode]] ===
+*Segments are increased from 31 to 36 and size increased by 10%.
+*Toothed body segments fire Sand Teeth more often.
+*Releases 7 more Sand Poison Clouds and 10 more Sand Blasts in the vomit attack.
+*Increased cloud spread, top speed, and acceleration as health lowers.
+
+=== In [[Revengeance Mode]] ===
+*Segments are increased from 36 to 41 and size increased by 5%.
+*Moves faster and has a higher top speed.
+*Vomits more often and Sand Blasts resulting from the vomit travel faster.
+*When it is not submerged in liquid, every 11 seconds, the Aquatic Scourge performs a circle around a certain point at its path for 2 seconds before charging the player.
+**The Aquatic Scourge will turn a brownish color over time to telegraph the dash, this timer can be reset if it is submerged in liquid.
+**While spinning, it fires 3 barrages of {{dv|||3|5}} sand blasts at the player.
+**It can not vomit while performing this attack.
+
+=== In [[Death Mode]] ===
+*Segments are increased from 41 to 51 and size increased by 5%.
+*Acceleration and top speed increase depending on the player's distance from it and as its health decreases.
+*Sand Blasts and Teeth travel even faster.
+*Fires a wider spread of 5 sand blasts while spinning.
+
+=== During the [[Boss Rush]] ===
+*Does not have a passive nor an enrage state.
+*Vomits every 5 seconds instead of {{dv|7||6}}.
+
+== Aftermath ==
+
+*[[Anthozoan Crab]]s, [[Baby Flak Crab]]s, and [[Belching Coral]]s will begin to spawn in the Sulphurous Sea.
+*The second tier of the [[Acid Rain]] and all of its associated Content will become available.
+
+== Resistances ==
+*Aquatic Scourge is weak to fire debuffs, but resistant to sickness debuffs.
+*All segments take reduced damage from non-[[Minions|minion]] piercing projectiles in [[Expert Mode]]. Projectile damage is divided by the number of times it pierces. Infinite piercing deals 50% damage.
+*All segments reduce damage from grenade-type projectiles by 80%. A list of affected projectiles is below.
+
+{{ajax|List of resisted grenades|head=Resisted grenades|width=15%}}
+
+*Additionally, all segments take:
+**125% damage from the [[Scab Ripper]].
+**90% damage from the [[Hell Burst]].
+**75% damage from the [[Hydraulic Volt Crasher]].
+**50% damage from the [[SHPC]]'s explosions and the [[Dormant Brimseeker]].
+**10% damage from the [[Brimstone Sword]]'s explosion.
+***In addition, the pierce on the explosion is updated to 2 once it hits a segment.
+
+== Notes ==
+*The player is allowed to use a [[Magic Mirror]] or [[Recall Potion]] if Aquatic Scourge is passive.
+*Aquatic Scourge, like [[Desert Scourge]] and [[The Leviathan]], can drop fishing items rewarded by the [[Angler]] for completing his quests.
+*All of the Aquatic Scourge's loot will spawn at the nearest segment with the exception of the [[Sulphurous Sand]] and [[Heart]]s, which will always spawn at the head.
+*All [[minions]] cannot do damage to the Aquatic Scourge while it is above 99% health. (Except for [[Luxor's Gift]] summoner projectile)
+*Killing the Aquatic Scourge in early pre-hardmode will cause the late pre-hardmode variant of [[Acid Rain]] to take place, granting the player access to stronger weapons and equipment early.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating the Aquatic Scourge, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Aquatic Scourge strategies]].}}
+
+*Aquatic Scourge appears to have a high health pool for a prehardmode boss, however this is balanced out by his extreme weakness to piercing weapons, such as the sandgun which can be obtained pre-boss. This is a common theme in worm bosses. 
+*This fight is very difficult to tank. Avoid the tooth projectiles and gas clouds at all costs and use weapons with ranged options if possible.
+*Avoid the head as much as possible, especially on [[Revengeance Mode|Revengeance]] or [[Death Mode]], as its high contact damage can kill the player extremely quickly.
+*Spawning the Aquatic Scourge when trying to fish in the Sulphurous Sea is a good idea, as it strongly reduces enemy spawn rate while it is alive. Due to the time-consuming nature of fishing or waiting for the Scourge to spawn, it is highly likely that it will spawn while the player is fishing.
+*While the Aquatic Scourge can spawn in very early [[Pre-Hardmode]], it is not recommended to fight it until the player has acquired decent Post-Skeletron gear since it is very fast and has many attacks that an early game player cannot handle.
+
+== Trivia ==
+*The [[Music|theme]] heard during the Aquatic Scourge battle is [https://www.youtube.com/watch?v=RF1tUy6QcPs '''Outcast of the Sulphurous Seas'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**The theme is a remix of the [[Desert Scourge]]’s theme.
+**If the Calamity Music add-on mod is disabled, '''Boss 2''' will play instead.
+*Because it is a more powerful version of the [[Desert Scourge]], many of their drops are shared. The Aquatic Scourge's weapons are upgraded versions of the Desert Scourge's weapons, as well.
+**This boss and the Desert Scourge can both drop several fishing drops, making them the only two bosses to share a drop outside of crafting materials, potions, or fishing items.
+*The Aquatic Scourge's design was initially a redesign of the [[Desert Scourge]] made by Frous, a spriter for the mod.
+*With a passive state longer than that of [[Crabulon]]'s (the Scourge will always remain passive unless attacked, Crabulon will wait a while before attacking) and it slowly following the player, then rapidly accelerating when attacked, it could be postulated that the Aquatic Scourge has some degree of intelligence or sapience and is simply curious about the player.
+*Similarly to [[Leviathan and Anahita]], the Aquatic Scourge can be accidentally summoned in very early Pre-Hardmode, although the latter will not be immediately hostile.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The Aquatic Scourge swam back into the open ocean."
+
+== See also ==
+*[[Desert Scourge]]
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

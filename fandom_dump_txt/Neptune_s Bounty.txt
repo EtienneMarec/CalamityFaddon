@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 251
+| knockback = 9
+| rare = 13
+| sell = {{value|0|26}}
+| stack = 1
+| auto = yes
+| use = 21
+| velocity = 12
+| tooltip = Fires a trident that rains additional tridents as it travels<br/>Hitting enemies will inflict the crush depth debuff<br/>The lower the enemies' defense, the more damage they take from this debuff
+| debuff = Crush Depth
+| debuffduration = 5 seconds (Contact) <br/>3 seconds (Trident)
+| debufftip = Aquatic pressure
+| debuffchance = 100%
+| hardmode = yes
+| postml = yes
+| proj = Depth Trident.png
+| projcaption = Depth Trident
+| element1 = Water
+| element2 = Dark
+| element3 = Slash
+}}
+[[File:Neptune's Bounty (demo).gif|frame|right|Attacking with the Neptune's Bounty. Notice how the small tridents home in on the [[Super Dummy]] and how the main projectile pierces enemies, while the smaller tridents do not.]]
+
+'''Neptune's Bounty''' is a craftable Godseeker Mode [[broadsword]] that autoswings. It is a direct upgrade to the [[Abyss Blade]] and the final upgrade to the [[Depth Crusher]]. When swung, it fires a small trident that pierces infinitely and regularly rains more small tridents under itself as it travels. The small spawned tridents deal 50% of the weapon's damage, home in on enemies, do not pierce enemies, and burst into a water explosion on contact, dealing additional damage to nearby enemies equal to the projectile itself. Both projectiles burst into damaging water explosions upon impact with tiles. Neptune's Bounty and all its projectiles inflict the [[Crush Depth]] [[debuff]].
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*Similar to [[Neptune's Shell]], the name of the item refers to [[wikipedia:Neptune (mythology)|Neptune]], Roman god of the sea.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

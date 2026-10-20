@@ -1,0 +1,40 @@
+{{Addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 144
+| mana = 30
+| velocity = 16
+| tooltip = Casts a small crescent that shoots little moon fragments.
+| knockback = 7.5
+| rare = 14
+| sell = {{value|0|25}}
+| use = 20
+| stack = 1
+| hardmode = yes
+| postml = yes
+| debuff = Moon Burnt
+| debuffduration = 5 seconds
+| proj = Crescent.png
+| projcaption = Crescent
+| proj2 = Moon Stone.png
+| proj2caption = Moon Fragment
+| element1 = Magic
+| element2 = Dark
+}}
+'''First Crescent''' is a Godseeker Mode [[Wands|wand]] that casts a little crescent that shoots small moon fragments that go in a random direction, and deal 50% of the damage.
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

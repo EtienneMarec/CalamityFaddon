@@ -1,0 +1,34 @@
+{{item infobox
+|type = Weapon
+|consumable = true
+|damage = 50
+|damagetype = Rogue
+|use = 11
+|knockback = 2.5
+|auto = yes
+|velocity = 12
+|hardmode = yes
+| rare = 4
+| sell = {{value|0|0|1|80}}
+|stack = 9999
+| tooltip = Stealth strikes fire three homing cobalt energy bolts
+| element1 = Stab
+| element2 = Water
+}}
+
+'''Cobalt Kunais''' are craftable consumable [[Hardmode]] [[daggers]] made from [[Cobalt Bar]]s. They can pierce twice and travel a short distance before being affected by gravity. They have a 50% chance of being recovered after being thrown.
+
+Performing a [[stealth strike]] with a Cobalt Kunai causes three homing cobalt energy bolts to be released instead, that ignore gravity and can pierce twice. The bolts deal 140% damage each. 
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+
+[[Category:Daggers]]

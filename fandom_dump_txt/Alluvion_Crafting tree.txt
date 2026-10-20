@@ -1,0 +1,151 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|LivFB|_|EsseS|_|HellB|_|Obsid|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|      _|      _|      _|      _|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|`|-|-|-|^|-|-|-|+|-|-|-|'|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|SharF|_|ReapT|_|Tsuna|_|FlarB|_|DeptC|_|Lume1|_|Teneb|_|PriSh|#
+|      _|      _|      _|      _|      _|      _|      _|     |#
+|_|`|-|-|-|^|-|-|-|^|-|-|-|+|-|-|-|^|-|-|-|^|-|-|-|'|_|_|_|I|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|_|_|_|PHANV|#
+|_|_|_|_|EndoE|_|CosmB|_|Monso|_|DeptC|_|Lume2|_|Teneb|_|SeaPr|#
+|_|_|_|_|     |_|      _|      _|      _|      _|      _|     |#
+|_|_|_|_|_|`|-|-|-|^|-|-|-|+|-|-|-|^|-|-|-|^|-|-|-|^|-|-|-|'|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|COANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|Alluv|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|:|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|HeavG|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+| HeavG_cols = 3
+| HeavG_rows = 2
+| HeavG = ''[[Heavenly Gale/Crafting tree|Heavenly Gale<br/>crafting tree]]''
+
+<!-- CRAFTING MATERIALS -->
+
+<!-- Flarewing Bow -->
+
+| HellB_cols = 3
+| HellB_rows = 2
+| HellB = {{item|Hellwing Bow|size=16px}}<br/>
+( {{item|mode=image|Shadow Chest|size=20px}} )
+
+| EsseS_cols = 3
+| EsseS_rows = 2
+| EsseS = {{item|Essence of Sunlight}} × 5<br/>
+<span style="font-size:0.75em">( Sky / Storm / Sun related creatures )
+
+| LivFB_cols = 3
+| LivFB_rows = 2
+| LivFB = {{item|Living Fire Block}} × 50<br/>
+<span style="font-size:0.75em">( [[Underworld]] enemies )
+
+| Obsid_cols = 3
+| Obsid_rows = 2
+| Obsid = {{item|Obsidian}} × 10<br/>
+( {{item|mode=image|Water|size=12px}} + {{item|mode=image|Lava|size=12px}} )
+
+| FlarB_cols = 3
+| FlarB_rows = 2
+| FlarB = {{item|Flarewing Bow|size=24px}}
+
+<!-- Monsoon -->
+ 
+| Tsuna_cols = 3
+| Tsuna_rows = 2
+| Tsuna = {{item|Tsunami|size=22px}}<br/>
+( {{item|mode=image|image=Map Icon Duke Fishron.png|Duke Fishron|size=20px}} )
+
+| ReapT_cols = 3
+| ReapT_rows = 2
+| ReapT = {{item|Reaper Tooth}} × 6<br/>
+( {{item|mode=image|Reaper Shark|size=44px}} {{item|mode=image|Abyssal Crate|size=23px}})
+
+| SharF_cols = 3
+| SharF_rows = 2
+| SharF ={{item|Shark Fin}} × 2<br/>
+( {{item|mode=image|Shark|size=36px}} )
+
+| Teneb_cols = 3
+| Teneb_rows = 2
+| Teneb = {{item|Tenebris}} × 5<br/>
+<span style="font-size:0.75em">( [[Abyss]] )
+
+| DeptC_cols = 3
+| DeptC_rows = 2
+| DeptC = {{item|Depth Cells}} × 10<br/>
+<span style="font-size:0.75em">( [[Abyss]] )</span>
+
+| Lume1_cols = 3
+| Lume1_rows = 2
+| Lume1 = {{item|Lumenyl|size=20px}} × 10<br/>
+<span style="font-size:0.75em">( [[Abyss]] )</span>
+
+| Monso_cols = 3
+| Monso_rows = 2
+| Monso = {{item|Monsoon|size=22px}}
+
+<!-- Alluvion -->
+
+| Lume2_cols = 3
+| Lume2_rows = 2
+| Lume2 = {{item|Lumenyl|size=20px}} × 20<br/>
+<span style="font-size:0.75em">( [[Abyss]] )</span>
+
+| SeaPr_cols = 3
+| SeaPr_rows = 2
+| SeaPr = {{item|Sea Prism}} × 20<br/>
+<span style="font-size:0.75em">( [[Sunken Sea]] )</span>
+
+| PriSh_cols = 3
+| PriSh_rows = 2
+| PriSh = {{item|Prism Shard}} × 100<br/>
+<span style="font-size:0.75em">( [[Sunken Sea]] / {{item|mode=image|Prism-Back|size=28px}} {{item|mode=image|Blinded Angler|size=28px}} )</span>
+
+| CosmB_cols = 3	
+| CosmB_rows = 2
+| CosmB = {{item|Cosmilite Bar|size=26px}} × 8<br/> ( {{item|mode=image|image=Devourer of Gods final head map.png|The Devourer of Gods|size=25px}} )
+
+|EndoE_cols = 3
+|EndoE_rows = 2
+|EndoE = {{item|Endothermic Energy}} × 20<br/>
+<span style="font-size:0.75em">( [[Frost Moon]] )</span>
+
+| Alluv_cols = 3
+| Alluv_rows = 2
+| Alluv = {{item|Alluvion|size=32px}}
+
+<!-- CRAFTING STATIONS -->
+
+| PHANV_cols = 3
+| PHANV_class = craft-station
+| PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+| HMANV_cols = 3
+| HMANV_class = craft-station
+| HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+| §_cols = 1
+| §_class = craft-station
+| § = {{item|mode=image|Ancient Manipulator}}
+
+| COANV_cols = 3
+| COANV_class = craft-station
+| COANV = {{item|mode=image|Cosmic Anvil}}
+
+| ₪_cols = 1
+| ₪_class = craft-station
+| ₪ = {{item|mode=image|Draedon's Forge}}
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| stack = 1
+| type = Covering
+| tooltip = Tap the DOWN key to increase your fall speed for 5 seconds<br/>This has a 8 second cooldown<br/>Striking the ground with increased fall speed will cause an astral explosion
+| debuff = Astral Infection (debuff)
+| debuffchance = 100%
+| debuffduration = 4 seconds (Explosion)
+| debufftip = Your flesh is melting off
+| rare = 7
+| sell = {{value|0|9|60}}
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Astrum Aureus]] | 1 | 100%
+}}
+}}
+
+The '''Gravistar Sabaton''' is a [[Hardmode]] [[covering]] dropped by [[Astrum Aureus]]. If equipped, when the {{key|down}} key is pressed while in mid-air, it increases the player's fall speed for 5 seconds, allowing them to create an astral explosion upon hitting the ground, dealing 50 Spy damage to nearby enemies and inflicting the [[Astral Infection (debuff)|Astral Infection]] [[debuff]]. This effect has an 8 second cooldown.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The explosion is very good at mapping out uncharted underground areas.
+
+== Trivia ==
+*A [[wikipedia:Sabaton|sabaton]], historically, was a piece of armor that covered the foot of a knight.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

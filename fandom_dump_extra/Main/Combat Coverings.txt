@@ -1,0 +1,52 @@
+{| width="100%"
+|<span class="ajaxHide">
+{{summon\|Coverings}}
+</span>
+|}
+{| class="terraria lined sortable" width="100%"
+! colspan="8" | Offensive
+|-
+! width="215px" colspan="2" | Covering
+! Tooltip
+! Rarity
+! Hardmode
+! Godseeker Mode
+! Sell
+! Visible on<br/>Character
+{{#dpl:
+| namespace =
+| category = Offensive coverings
+| ordermethod = titlewithoutnamespace
+| uses = Template:Item infobox
+| include = {item infobox¦:Coverings/dpl}
+| mode = userformat
+}}
+|}
+{| class="terraria lined sortable" width="100%"
+! colspan="8" | Defensive
+|-
+! width="215px" colspan="2" | Covering
+! Tooltip
+! Rarity
+! Hardmode
+! Godseeker Mode
+! Sell
+! Visible on<br/>Character
+{{#dpl:
+| namespace =
+| category = Defensive coverings
+| ordermethod = titlewithoutnamespace
+| uses = Template:Item infobox
+| include = {item infobox¦:Coverings/dpl}
+| mode = userformat
+}}
+|}
+{| width="100%"
+|<span class="ajaxHide">
+{{Master Template Equipables
+| show-main = yes
+| show-acc = yes
+}}</span>
+|}
+[[Category:Covering items|*]]
+[[Category:Combat coverings|*]]

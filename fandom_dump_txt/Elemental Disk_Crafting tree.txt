@@ -1,0 +1,252 @@
+<div class="crafting-tree">{{diagram
+|summary=Crafting recipe for the Elemental Disk.
+
+|_|_|_|_|HellO|_|Obsid|_|IceBl|_|SnowB|_|ShivT|_|_|_|_|_|#
+|_|_|_|_|      _|      _|      _|      _|      _|_|_|_|_|#
+|_|_|_|_|_|)|-|-|-|'|_|_|_|)|-|-|-|^|-|-|-|'|_|_|_|_|_|_|#
+|_|_|_|_|HEFRG|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|HellB|_|EncBo|_|_|I|_|_|VictS|_|Starf|_|Coral|_|SeaSh|_|#
+|_|_|_|_|      _|      _|_|I|_|_|      _|      _|      _|      _|#
+|_|_|_|_|_|`|-|-|-|(|_|_|_|I|_|_|_|)|-|-|-|^|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|PHANV|_|ICEMA|_|PHFRG|_|_|_|_|_|_|_|_|_|#
+|LighS|_|DarkS|_|Flama|_|IceBo|_|VictB|_|JSpor|_|Sting|_|#
+|      _|      _|      _|      _|      _|      _|      _|#
+|_|`|-|-|-|^|-|-|-|+|-|-|-|'|_|_|_|I|_|_|_|)|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|PHANV|_|_|_|_|_|PHANV|_|PHANV|_|_|_|_|_|#
+|PereO|_|ChaoO|_|Equan|_|LivSh|_|SeaSB|_|Thorn|_|#
+|      _|      _|      _|      _|      _|      _|#
+|_|I|_|_|_|I|_|_|_|)|-|-|-|^|-|-|-|^|-|-|-|'|_|_|#
+|HMFRG|_|HMFRG|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|PereB|_|ChaoB|_|_|I|_|_|BaLiT|_|LunaF|_|LumiO|_|#
+|      _|      _|_|I|_|_|_|:|_|_|      _|      _|#
+|_|I|_|_|_|I|_|_|_|I|_|_|_|:|_|_|_|I|_|_|_|I|_|_|#
+|HMANV|_|HMANV|_|HMANV|_|HMANV|_|_|§|_|_|_|§|_|_|#
+|MangC|_|FlamS|_|TerrD|_|BarOL|_|GalaS|_|LumiB|_|#
+|      _|      _|      _|      _|      _|      _|#
+|_|`|-|-|-|^|-|-|-|+|-|-|-|-|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|ElemD|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|:|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|Celes|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+<!-- •• CRAFTING MATERIALS •• -->
+
+| JSpor_cols = 3
+| JSpor_rows = 2
+| JSpor = {{item|Jungle Spores}} x 6<br/>
+<span style="font-size:0.75em">( [[Underground Jungle]] )</span>
+
+| Sting_cols = 3
+| Sting_rows = 2
+| Sting = {{item|Stinger}} × 9<br/>
+<span style="font-size:0.75em">( {{item|mode=image|Hornet|size=22px}} {{item|mode=image|Spiked Jungle Slime|size=26px}} {{item|mode=image|Plague Charger|size=22px}} {{item|mode=image|Plaguebringer|size=18px}} {{item|mode=image|image=Plaguebringer Goliath map.png|The Plaguebringer Goliath|size=18px}} )</span>
+
+| Thorn_cols = 3
+| Thorn_rows = 2
+| Thorn = {{item|Thorn Chakram}}
+
+| HellO_cols = 3
+| HellO_rows = 2
+| HellO = {{item|Hellstone}} × 30<br/>
+<span style="font-size: 0.75em">( [[Underworld]] )</span>
+
+| Obsid_cols = 3
+| Obsid_rows = 2
+| Obsid = {{item|Obsidian}} × 10<br/>
+( {{item|mode=image|Water|size=12px}} + {{item|mode=image|Lava|size=12px}} )
+
+| HellB_cols = 3
+| HellB_rows = 2
+| HellB = {{item|Hellstone Bar}} × 10
+
+| EncBo_cols = 3
+| EncBo_rows = 2
+| EncBo = {{item|Enchanted Boomerang}}<br/>
+( {{item|mode=image|Gold Chest|size=24px}} )
+
+| Flama_cols = 3
+| Flama_rows = 2
+| Flama = {{item|Flamarang}}
+
+| IceBo_cols = 3
+| IceBo_rows = 2
+| IceBo = {{item|Ice Boomerang}}<br/>
+( {{item|mode=image|Frozen Chest|size=24px}} )
+
+| DarkS_cols = 3
+| DarkS_rows = 2
+| DarkS = {{item|Dark Shard}}<br/>
+( {{item|mode=image|Dark Mummy|size=20px}} )
+
+| LighS_cols = 3
+| LighS_rows = 2
+| LighS = {{item|Light Shard}}<br/>
+( {{item|mode=image|Light Mummy|size=20px}} )
+
+| Equan_cols = 3
+| Equan_rows = 2
+| Equan = {{item|Equanimity}}
+
+| VictS_cols = 3
+| VictS_rows = 2
+| VictS = {{item|Victory Shard}} × 2<br/>
+( {{item|mode=image|image=Desert Scourge map.png|Desert Scourge|size=30px}} )
+
+| Coral_cols = 3
+| Coral_rows = 2
+| Coral = {{item|Coral}} × 2<br/>
+<span style="font-size:0.75em">( [[Ocean]] / {{item|mode=image|image=Desert Scourge map.png|Desert Scourge|size=30px}} )</span>
+
+| Starf_cols = 3
+| Starf_rows = 2
+| Starf = {{item|Starfish}} × 2<br/>
+<span style="font-size:0.75em">( [[Ocean]] / {{item|mode=image|image=Desert Scourge map.png|Desert Scourge|size=30px}} )</span>
+
+| SeaSh_cols = 3
+| SeaSh_rows = 2
+| SeaSh = {{item|Seashell}} × 2<br/>
+<span style="font-size:0.75em">( [[Ocean]] / {{item|mode=image|image=Desert Scourge map.png|Desert Scourge|size=30px}} )</span>
+
+| VictB_cols = 3
+| VictB_rows = 2
+| VictB = {{item|Victide Bar}} × 2
+
+| SeaSB_cols = 3
+| SeaSB_rows = 2
+| SeaSB = {{item|Seashell Boomerang|size=20px}}
+
+| LivSh_cols = 3
+| LivSh_rows = 2
+| LivSh = {{item|Living Shard}} x 8<br/>
+( {{item|mode=image|image=Map Icon Plantera (first form).png|Plantera|size=20px}} )
+
+| TerrD_cols = 3
+| TerrD_rows = 2
+| TerrD = {{item|Terra Disk|}}
+
+| PereO_cols = 3
+| PereO_rows = 2
+| PereO = {{item|Perennial Ore}} × 35<br/>
+<span style="font-size:0.75em">( [[Cavern]] / {{item|mode=image|Perennial Slime|size=16px}} )</span>
+
+| PereB_cols = 3
+| PereB_rows = 2
+| PereB = {{item|Perennial Bar}} × 7<br/>
+( {{item|mode=image|Fleshy Geode|size=20px}} {{item|mode=image|Necromantic Geode|size=20px}} )
+
+| MangC_cols = 3
+| MangC_rows = 2
+| MangC = {{item|Mangrove Chakram}}
+
+| ChaoO_cols = 3
+| ChaoO_rows = 2
+| ChaoO = {{item|Scoria Ore}} × 45<br/>
+<span style="font-size:0.75em">( [[Abyss]] / {{item|mode=image|Devil Fish|size=30px}}{{item|mode=image|Chaotic Puffer|size=20px}} )</span>
+
+| ChaoB_cols = 3
+| ChaoB_rows = 2
+| ChaoB = {{item|Scoria Bar}} × 9<br/>
+( {{item|mode=image|Fleshy Geode|size=20px}} {{item|mode=image|Necromantic Geode|size=20px}} )
+
+| FlamS_cols = 3
+| FlamS_rows = 2
+| FlamS = {{item|Subduction Slicer|size=48px}}
+
+| BaLiT_cols = 3
+| BaliT_rows = 2
+| BaLiT = ''[[Life Alloy/Crafting tree|Life Alloy<br/>crafting tree]]''
+
+| BarOL_cols = 3
+| BarOL_rows = 2
+| BarOL = {{item|Life Alloy}} × 5<br/>
+( {{item|mode=image|Necromantic Geode|size=20px}} )
+
+| LunaF_cols = 3
+| LunaF_rows = 2
+| LunaF = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 5<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+| GalaS_cols = 3
+| GalaS_rows = 2
+| GalaS = {{item|Galactica Singularity}} × 5
+
+| LumiO_cols = 3
+| LumiO_rows = 2
+| LumiO = {{item|Luminite}} × 20<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=20px}} )
+
+| LumiB_cols = 3
+| LumiB_rows = 2
+| LumiB = {{item|Luminite Bar}} × 5
+
+| ElemD_cols = 3
+| ElemD_rows = 2
+| ElemD = {{item|Elemental Disk|size=48px}}
+
+| Celes_cols = 3
+| Celes_rows = 2
+| Celes = ''[[Celestus/Crafting tree|Celestus<br/>crafting tree]]''
+
+| IceBl_cols = 3
+| IceBl_rows = 2
+| IceBl = {{item|Ice Block}} x 20
+
+| SnowB_cols = 3
+| SnowB_rows = 2
+| SnowB = {{item|Snow Block}} x 10
+
+| ShivT_cols = 3
+| ShivT_rows = 2
+| ShivT = {{item|Shiverthorn}}
+
+<!-- •• CRAFTING STATIONS •• -->
+|HEFRG_cols = 3
+|HEFRG_class = craft-station
+|HEFRG = {{item|mode=image|Hellforge}}
+
+| PHANV_cols = 3
+| PHANV_class = craft-station
+| PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+| HMANV_cols = 3
+| HMANV_class = craft-station
+| HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+| HMFRG_cols = 3
+| HMFRG_class = craft-station
+| HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+| §_cols = 1
+| §_class = craft-station
+| § = {{item|mode=image|Ancient Manipulator}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|ICEMA_cols =
+|ICEMA_class = craft-station
+|ICEMA = {{item|mode=image|Ice Machine}}
+
+<!-- OTHER -->
+| ±_class = no-border
+| ±_rows = 2
+| ±_cols = 1
+| ± = or
+}}
+</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

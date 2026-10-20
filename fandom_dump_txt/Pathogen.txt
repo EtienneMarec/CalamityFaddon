@@ -1,0 +1,69 @@
+<section begin="npc" infobox="" />{{npc infobox
+| name = Pathogen
+| type = Boss
+| imagealt = [[File:Pathogen.png]]
+| ai = Pathogen AI
+| environment = Blood Moon
+| life = {{dv|60,000|75,000|80,600}}
+| damage = {{dv|200|320|440|460}} (Contact)<br/>{{dv|100|150|170|200}} (White Blood Cells) <br/>{{dv|50|60|70|80}} (Red Blood Cells)<br/>0 (Platelets)
+| defense = 24
+| dr = 20
+| knockback = 200
+| money = {{gc|20}}
+| Blood Sample|{{dv|4-8|5-9}}| 100%
+| Soul of Pathogen|1|100%
+| Pathogen Mask|1|14.29%
+| Pathogen Trophy|1|10%
+| custom| {{item|Cryogen (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| debuff = Bleeding
+| debuffchance = 100%
+| duration = 20 seconds
+| debufftip = You are loosing life
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune4 = Exo Freeze
+| vulnerable1 = Magic
+| vulnerable2 = Slash
+| vulnerable3 = Stab
+| resistant1 = Unholy
+| hardmode = yes
+| boxwidth = 24em
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_15.wav
+| sound = Item_28.wav
+| soundtext = Projectiles
+}}<section end="npc" infobox="" />
+
+'''Pathogen''' (Japanese: 病原体 ''Byōgen-tai'') is a [[Hardmode]] [[boss]] that is fought during the [[Blood Moon]], and part of the [[Elemental route]]. It is also fought during [[Genesis (event)|Genesis]].
+
+Defeating Pathogen will drop the [[Soul of Pathogen]], which must be sold to the [[Archmage]] to continue the quest.
+
+==Spawn==
+Pathogen spawns after two [[Town NPCs]] die during a [[Blood Moon]].
+
+==Behavior==
+Pathogen has a unique shield system, which distinguishes it from its relatives. The cells which spawn as part of its shield depend on what kinds of NPCs perish during the Blood Moon, as well as just naturally spawning.
+
+===Attacks===
+* By itself, Pathogen hides from the player behind blocks and generally avoids taking damage.
+* Two Town NPCs are possessed, indicated by the bloody dust emanating from their sprites. These possessed Town NPCs will target the player with their attacks. The [[Wizard]] and [[Archmage]] are immune to this effect. If these Town NPCs are possessed for 40 seconds, they are killed and turned into Red Blood Cells.
+* Red Blood Cells orbit the player and fire Blood Clots.
+* Enemy NPCs killed during the event are turned into White Blood Cells, which dash towards the player similarly to [[Cryocore]]s.
+* Critters and other passive NPCs killed are turned into Platelets, and heal Pathogen if now killed in time.
+
+===In [[Expert Mode]]===
+*3 Town NPCs are possessed instead.
+
+===In [[Revengeance Mode]]===
+*Pathogen and its minions are even more aggressive and faster.
+
+===In [[Death Mode]]===
+*Now teleports.
+
+==Trivia ==
+*Pathogen's [[Music|theme]] is '''Microbic Reinforcement''', which was composed by the artist [https://www.youtube.com/@Jteoh Jteoh].
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

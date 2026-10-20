@@ -1,0 +1,30 @@
+{{npc infobox
+| type = Enemy
+| ai = Rodent.tmod AI
+| environment = Solar Eclipse
+| life = {{dv|900|1,200}}
+| damage = {{dv|100|200}}
+| defense = 15
+| knockback = {{dv|50%}}
+| immune1 = Kami Flu
+| immune2 = Confused
+| money = {{value|0|6|66}}
+| Darksun Fragment |2-3|75%
+| banner = no
+| hurt = NPC_Hit_7.wav
+| killed = NPC_Killed_39.wav
+}}
+
+'''Rodent.tmod''' is a Godseeker Mode [[enemy]] that spawns during the [[Solar Eclipse]] after [[The Devourer of Gods]] has been defeated. It attacks by charging after the player at high speeds. The enemy can fly, and can pass through walls.
+
+== Trivia ==
+*Rodent.tmod is a reference to the creepypasta Sonic.exe.
+*A tmod file is the file type used for terraria mods.
+*A rodent is is a group of mammal found in the rodentia order which contains such species as rats and guinea pigs.
+*The amount of coins this enemy drops is a reference to the number 666, which is known as the devils number.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-event = yes
+}}

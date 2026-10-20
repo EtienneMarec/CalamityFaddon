@@ -1,0 +1,36 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| stack = 1
+| defense = 8
+| tooltip = Boosts life regen even while under the effects of a damaging debuff<br/>While under the effects of a damaging debuff you will gain 11 defense<br/>Press {{key|Astral Teleport}} to teleport to a random location while no bosses are alive
+| rare = 7
+| sell = {{value|0|9|60}}
+| hardmode = yes
+}}
+
+The '''Celestial Jewel''' is a craftable [[Hardmode]] [[covering]].
+
+It boosts [[defense]] by 8 and life regeneration by 2, even while the player is under the effects of a damaging debuff. When worn while being damaged by a debuff, the player's defense will increase by an additional 11 (for a total of 19) and life regen will increase by an additional 2 (for a total of 4). Pressing the {{key|Astral Teleport}} key while no bosses are alive will teleport the player to a random location in the same manner as a [[Teleportation Potion]], and has no cooldown.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*If the player is under the effect of one of the alcohols sold by the [[Drunk Princess]], the covering's life regen bonuses will be reduced to 1 regardless of other debuffs.
+*Pairing this item with the [[Spelunker's Amulet]] or [[Spelunker Potion]]s can help the player find rare ores.
+
+== Trivia ==
+*This covering can be considered a successor to the [[Crown Jewel]], due to their shared unique debuff regen and defense function. However, Crown Jewel can only be obtained using [[Malice Mode]], whereas Celestial Jewel is available in all modes.
+**In previous updates, Celestial Jewel was a direct upgrade to the Crown Jewel, and both were exclusive to [[Revengeance Mode]].
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

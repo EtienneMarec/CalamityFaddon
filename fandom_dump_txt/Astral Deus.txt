@@ -1,0 +1,235 @@
+<section begin=npc infobox />
+{{npc infobox
+| type = Boss
+| ai = Astral Deus AI
+| type2 = Burrowing Enemy
+| name = Astral Deus
+| image = Astral Deus.png
+| environment = Astral Infection
+| life = {{dv|600,000|960,000|1,152,000}} (total)
+| knockback = 100
+| immune1 = Astral Infection (debuff)
+| immune2 = Ancient Astral Blight 
+| immune3 = Confused
+| immune4 = Pearl Aura
+| immune5 = Poisoned
+| money = {{pc|25}}
+| Stardust|{{dv|55-95|65-105}}|100%
+| Fallen Star|{{dv|25-40|30-50}}|100%
+| Solar Fragment|{{dv|16-24|20-32}}|100%
+| Vortex Fragment|{{dv|16-24|20-32}}|100%
+| Nebula Fragment|{{dv|16-24|20-32}}|100%
+| Stardust Fragment|{{dv|16-24|20-32}}|100%
+|group|At least one of the following 5 weapons will always drop:|5
+| The Microwave|1|{{dv|25%|33.33%}}
+| Star Sputter|1|{{dv|25%|33.33%}}
+| Starfall|1|{{dv|25%|33.33%}}
+| Godspawn Helix Staff|1|{{dv|25%|33.33%}}
+| Regulus Riot|1|{{dv|25%|33.33%}}
+| Quasar|1|10%
+| Hide of Astral Deus|1|100%
+| Greater Healing Potion|8-14|100%
+| Chromatic Orb|1|20%
+| Astral Deus Mask|1|14.29%
+| Astral Deus Trophy|1|10%
+| custom| {{item|Astral Infection (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Astral Deus (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| listexclude = yes
+| image2 = Astral Deus map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_4.wav
+| killed = AstrumDeusDeath.wav
+| sound = AstrumDeusSpawn.wav
+| soundtext = Spawn
+| sound2 = Item_12.wav
+| sound2text = Laser
+| sound3 = Item_33.wav
+| sound3text = Mine
+| sound4 = Item_14.wav
+| sound4text = Mine Explosion
+| sound5 = AstrumDeusSplit.wav
+| sound5text = Split
+| hardmode = yes
+| debuff = Extreme Gravity
+| debufftip = Your wing time is reduced by 25%, infinite flight is disabled
+| duration = Infinite
+| debuffchance = {{revengeance|100%}}
+| boxwidth = 36em
+}}<section end=npc infobox />
+[[File:Astral Deus Trophy.png|25px]] <big>''"A star-spawned horror tunnels through the astral infection"''</big>  [[File:Astral Deus Trophy.png|25px]]
+{{distinguish|Astrum Aureus|a similarly-themed cyborg boss}}
+
+'''Astral Deus''' (Japanese: 星の神 ''Hoshi no kami'')is a [[Hardmode]] [[boss]] that must be defeated in order to allow [[Astral Ore]] to be mined. It begins as a large worm, similar to [[The Destroyer]], but splits later in the fight.
+
+== Spawn ==
+Astral Deus does not spawn on its own and can be summoned by using the [[Astral Beacon]] with a [[Titan Heart]] or [[Starcore]] in the inventory at night. Astral Deus can be spawned even in early Hardmode with Titan Hearts, but the boss is intended to be fought after the [[Lunatic Cultist]] and Lunar Pillars has been defeated.  When successfully activated, two astral stars rise from the beacon and eventually combine to summon Astral Deus.
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Astral Deus Head
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = Astral Deus AI
+| damage = {{dv|120|240|268|280}}
+| resistant1 = Poison
+| resistant2 = Magic
+| resistant3 = Dark
+| resistant4 = Holy
+| vulnerable1 = Cold
+| vulnerable2 = Unholy
+| vulnerable3 = Slash
+| vulnerable4 = Stab
+| life = {{dv|200,000|320,000|384,000|break=yes}}
+| defense = 35
+| dr = 20
+| knockback = 100
+| hardmode = yes
+| debuff = Ancient Astral Blight
+| debuffchance = 100%
+| duration = 3 seconds
+| debufftip = An ancient cosmic affliction spreads through you
+}}
+|{{npc infobox
+| name = Astral Deus Body
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = Astral Deus AI
+| damage = {{dv|100|160|192|200}} (Contact)<br/>{{dv|90|152|176|188}} (Astral Laser)<br/>{{dv|120|180|208|224}} (Astral Mine)
+| life = {{dv|200,000|320,000|384,000|break=yes}}
+| defense = 20
+| dr = 10
+| knockback = 100
+| resistant1 = Poison
+| resistant2 = Magic
+| resistant3 = Dark
+| resistant4 = Holy
+| vulnerable1 = Cold
+| vulnerable2 = Unholy
+| vulnerable3 = Slash
+| vulnerable4 = Stab
+| hardmode = yes
+| debuff = Ancient Astral Blight
+| debuffchance = 100%
+| duration = 2 seconds (Contact/Astral Laser)<br/>3 seconds (Astral Mine)
+| debufftip = An ancient cosmic affliction spreads through you
+}}
+|{{npc infobox
+| name = Astral Deus Tail
+| damage = {{dv|80|128|160|168}}
+| defense = 50
+| dr = 30
+| knockback = 100
+| type = Boss
+| resistant1 = Poison
+| resistant2 = Magic
+| resistant3 = Dark
+| resistant4 = Holy
+| vulnerable1 = Cold
+| vulnerable2 = Unholy
+| vulnerable3 = Slash
+| vulnerable4 = Stab
+| type2 = Burrowing Enemy
+| ai = Astral Deus AI
+| life = {{dv|200,000|320,000|384,000|break=yes}}
+| hardmode = yes
+| debuff = Ancient Astral Blight
+| debuffchance = 100%
+| duration = 1.5 seconds
+| debufftip = An ancient cosmic affliction spreads through you
+}}
+}}
+
+== Behavior ==
+Astral Deus behaves similarly to [[Worm_AI|worms]], burrowing through the ground and attempting to ram the player, with the additional ability to fire lasers at the player from its segments. As the fight progresses, however, it gains the ability to fly (similarly to [[Wyvern]]s) and, after it reaches half health, splits into two smaller worms with the same abilities as the original. Once one of the smaller worms is killed, the other despawns and the fight ends. Astral Deus has {{dv|51|61|71|81}} segments before splitting, and each worm created from it splitting has {{dv|26|31|36|41}} segments. All of its attacks inflict the [[Ancient Astral Blight |Ancient Astral Blight]] [[debuff]].
+
+If Astral Deus is alive when it becomes daytime, it will enrage, greatly increasing its movement speed.
+
+== Attacks ==
+*Astral Deus burrows through the ground, attempting to ram the player when it approaches them from below.
+**If the player is far enough from the ground, Astrum Deus will swim through the air to reach them.
+**If Astral Deus is far away from the player, it will gain a massive speed boost until it is close to them.
+**Astral Deus' speed increases as its life decreases.
+*Every 10 seconds, Astral Deus fires lasers from its body in a stream starting from its head and ending at its tail.
+**The rate at which these lasers are fired staggers as the fight progresses, causing the attack to last longer the longer the fight progresses. Given enough time, Astral Deus will constantly fire lasers at the player.
+*When Astral Deus reaches 80% life, every 15 seconds, it will alternate between burrowing like a [[Worm_AI|worm]] and flying like a [[Wyvern]].
+**While Astral Deus is flying, segments close to its tail will leave behind astral mines instead of firing lasers, which lingers in place for 15 seconds before exploding. The lower Astral Deus’ life is, the more segments will leave mines.
+*When Astral Deus reaches 50% life, it will split into two smaller worms, which act the same as the original, with some differences:
+**One worm starts off flying, while the other starts off burrowing. They both alternate between the two behaviors every 10 seconds. The one that is currently flying will be blue, and the one that is currently burrowing will be orange.
+**Worms that are currently flying will only leave behind astral mines instead of firing lasers.
+**The staggered fire rate of the lasers and mines for each worm is reset.
+**One of the worms has a slightly shorter delay between its laser barrages.
+
+=== In [[Expert Mode]] ===
+*Segment size increased.
+*Number of segments increased from 50 to 61 before splitting, and from 26 to 31 after splitting.
+*Below 70% HP, mines have a chance to turn red and explode into an X of lasers. The chance of mines exploding increases as the worm loses HP.
+*When a split worm is below 50% HP and in its red "grounded" mode, it starts replacing its attacks with faster, blue-and-orange helical lasers. The lower HP the worm is, the more attacks will be replaced. 
+*Segments can fire independently from laser barrages after they take enough damage.
+*Before splitting, only the damaged segments noted above can leave behind mines.
+*Mines and laser barrages are fired every 4 seconds after it splits instead of 10.
+
+=== In [[Revengeance Mode]] ===
+*Segment size increased again.
+*Number of segments increased from 61 to 71 before splitting, and from 31 to 36 after splitting.
+*Movement speed is increased.
+*Independently firing segments have an increased rate of fire.
+*All nearby players are inflicted with [[Extreme Gravity]].
+
+=== In [[Death Mode]] ===
+*Segment size increased again.
+*Number of segments increased from 71 to 81 before splitting, and from 36 to 41 after splitting.
+*Movement speed and rate of fire are further increased.
+*Can fly at any time before splitting, and only leaves mines instead of firing lasers while flying regardless of health.
+*When one split worm is killed, instead of dying, the other one will survive and become enraged. The enraged worm will become visually blurry, no longer changes color to signify behavior changes, and has access to all of its attacks at all times. Only the last worm killed will drop loot and count as a defeat.
+
+== Aftermath ==
+*Once defeated, [[Astral Ore]] will become mineable.
+*[[Astral Crate]]s will contain Astral Ore, [[Astral Bar]]s and [[Meld Blob]]s.
+*Using [[Novae Slag]] or [[Celestial Remains]] in the [[Extractinator]] will have a chance of giving the player Astral Ore.
+*Using the [[Bloody Vein]] on the Astral Beacon will drop an [[Ethereal Core]].
+
+== Resistances ==
+*All Astral Deus segments take reduced damage from non-[[Minions|minion]] piercing projectiles in [[Expert Mode]]. Projectile damage is divided by the number of times it pierces. Infinite piercing deals 50% damage.
+*All segments reduce damage from grenade-type projectiles by 80%. A list of affected projectiles is below.
+
+{{ajax|List of resisted grenades|head=Resisted grenades|width=15%}}
+
+*All segments also take:
+**25% damage from [[Plaguenade]]s.
+**50% damage from [[Aerial Bane]]'s arrows, [[Forbidden Sun]], [[Grand Gar]]'s explosions and rainbow bolts, [[Storm Ruler]]'s tornadoes, and [[Tenebreus Tides]] water blades.
+**60% damage from Electrospheres which are fired from [[Electrosphere Launcher]], [[Pulse Dragon]], and [[Sky Dragon's Fury]].
+**75% damage from [[Resurrection Butterfly]].
+
+== Notes ==
+*All of Astral Deus' loot will spawn at the nearest segment with the exception of 5-15 of the [[Stardust]] and the [[Heart]]s, which will always spawn at the head.
+*Astral Deus takes 99% less damage from all sources for the first 10 seconds after it spawns, and for the first 5 seconds after it enters Phase 2.
+*If Astral Deus is killed before splitting into two, it will drop 5-15 stardust, some hearts and mana, but no weapons, accessories or Treasure Bag. It will not split after this, and the boss will need to be re-summoned. The player will not be able to mine Astral Ore.
+*Repeatedly killing Astral Deus can be a good way to get [[Fallen Star]]s to use as ammo for weapons like the [[Starmada]] or [[Starfleet]].
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating Astral Deus, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Astral Deus strategies]].}}
+*Try and keep moving, and don't stay in one spot. Avoid circling the boss as the astral orbs will make it too difficult to do so.
+*Be aware of the position of the mines as they can wall off the player, making it extremely difficult to break out and leaves the player as easy prey.
+**During Phase 2, the trail of mines will be shorter, although there will be more trails left throughout the arena.
+***Having a large arena can make this much less of an issue.
+*Astral Deus’ abundance of projectiles can, especially on less powerful computers, cause large frame rate drops. This can be used to the player's advantage by turning frame skip off, giving them more time to process and dodge attacks.
+*Like several other bosses, Astral Deus will not despawn no matter the distance the player travels from it. This means the [[Magic Mirror]] can be used to teleport to a more suitable spot to fight.
+*While Astral Deus can be fought at the start of Hardmode, it is not recommended until the player has at least defeated the Lunatic Cultist, as its fast speed, high damage, and many projectiles can make the fight completely overwhelming.
+
+== Trivia ==
+*Astral Deus' [[Music|theme]] is [https://www.youtube.com/watch?v=KJHNdl3R8GM '''Pest of the Cosmos'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' will play instead.
+*The developers have confirmed that the boss is meant to be named "Astral Deus", instead of the popular misspelling "Astrum Deus". This is most likely a product of the boss "Astrum Aureus" having a similar name.
+*Astral Deus used to be spawned by killing three [[Atlas]]es after the Lunatic Cultist was defeated.
+*Astral Deus can be summoned as soon as Hardmode begins, as [[Titan Heart]]s and the [[Astral Beacon]] are always available.
+*In previous versions of the mod, the fight consisted of one larger worm with ten smaller worms as minions.
+*If sprayed with exactly 100 [[Green Solution]] from the [[Clentaminator]], Astral Deus will be purified and flee toward the ocean, changing its unique despawn message.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The infected deity retreats to the heavens."
+**If purified with the Clentaminator, its unique despawn message will become "The cleansed deity thanks you silently, and returns to its home."
+*In the Japanese translation, the name is "星の神 ''Hoshi no kami''"
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

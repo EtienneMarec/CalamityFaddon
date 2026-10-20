@@ -1,0 +1,53 @@
+{{addon|Deimos, the Starborn Princess}}
+{{npc infobox
+| type = Enemy
+| type2 = Aquatic
+| environment = Abyss
+| ai = Fighter AI
+| damage = {{element|Dark}}{{element|Water}} {{dv|35|70}}
+| life = {{dv|450|900}}
+| defense = 25
+| knockback = 100%
+| banner = yes
+| money = {{gc|1}}
+| immune1 = Crush Depth
+| vulnerable1 = Fire
+| vulnerable2 = Magic
+| vulnerable3 = Machine
+| resistant1 = Poison
+| resistant2 = Dark
+| resistant3 = Water
+| Baroclaw | 1 | 12.5%
+| custom | {{item|Baronacre|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|1-3|2-5}}) | {{dv|75%|100%}}
+| hurt = NPC_Hit_33.wav
+| killed = NPC_Killed_36.wav
+}}
+
+The '''Barocraw''' is an [[enemy]] that appears in the 3rd and 4th layers of the [[Abyss]]. They behave similarly to the [[Mantis Shrimp]] and when a player is hit they will be inflicted with the following [[debuffs]] for 1.5 ({{dv|||30}}) seconds:
+*[[Abyssal Flames]]
+*[[Armor Crunch]]
+*[[Brimstone Flames]]
+*[[Burning]]
+*[[Burning Blood]]
+*[[Crush Depth]]
+*[[Cursed Inferno]]
+*[[Fish Alert]]
+*[[Glacial State]]
+*[[God Slayer Inferno]]
+*[[Holy Flames]]
+*[[Moon Burnt]]
+*[[Noxus Fumes]]
+*[[Omnislime]]
+*[[Plague]]
+*[[Shadowflame]]
+*[[Venom]]
+*[[Vulnerability Hex]]
+*[[Warped]]
+*[[Weak Petrification]]
+*[[Whispering Death]]
+
+
+After defeating [[Calamitas]], they drop [[Baronacre]]; a versatile hardmode [[crafting material]].
+
+{{-}}
+{{DeimosMod}}

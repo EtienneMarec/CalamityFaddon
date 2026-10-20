@@ -1,0 +1,510 @@
+'''Furniture sets''' are groups of [[Furniture]] items that share a common theme and are similar in appearance to one another. The Calamity Mod introduces 16 new sets of furniture.
+
+== Types ==
+The following table displays the different furniture sets:
+
+{| class="terraria lined" style="text-align:center"
+! Type !! Source<br/>[[Block]] !! [[Basin]] !! [[Bathtub]] !! [[Bed]] !! [[Bookcase]] !! [[Candelabra]] !! [[Candle]] !! [[Chair]] !! [[Chandelier]] !! [[Chest]] !! [[Clock]] !! [[Door]] !! [[Dresser]] !! [[Lamp]] !! [[Lantern]] !! [[Living Fire Block]] !! [[Piano]] !! [[Platform]] !! [[Sconce]] !! [[Sink]] !! [[Sofa]] !! [[Table]] !! [[Toilet]] !! [[Water Fountains|Water Fountain]] !! [[Work Bench]] !! [[Crafting station]]
+|-
+| Abyss
+| {{item|Smooth Abyss Gravel|mode=image}}
+| {{no}}
+| {{item|Abyss Bathtub|mode=image}}
+| {{item|Abyss Bed|mode=image}}
+| {{item|Abyss Bookcase|mode=image}}
+| {{item|Abyss Candelabra|mode=image}}
+| {{item|Abyss Candle|mode=image}}
+| {{item|Abyss Chair|mode=image}}
+| {{item|Abyss Chandelier|mode=image}}
+| {{item|Abyss Chest|mode=image}}
+| {{item|Abyss Clock|mode=image}}
+| {{item|Abyss Door|mode=image}}
+| {{item|Abyss Dresser|mode=image}}
+| {{item|Abyss Lamp|mode=image}}
+| {{item|Abyss Lantern|mode=image}}
+| {{no}}
+| {{item|Abyss Synth|mode=image}}
+| {{item|Smooth Abyss Gravel Platform|mode=image}}
+| {{no}}
+| {{item|Abyss Sink|mode=image}}
+| {{item|Abyss Sofa|mode=image}}
+| {{item|Abyss Table|mode=image}}
+| {{no}}
+| {{item|Abyss Water Fountain|mode=image}}
+| {{item|Abyss Work Bench|mode=image}}
+| {{item|Void Condenser|mode=image}}
+|-
+| Acidwood
+| {{item|Acidwood|mode=image}}
+| {{no}}
+| {{item|Acidwood Bathtub|mode=image}}
+| {{item|Acidwood Bed|mode=image}}
+| {{item|Acidwood Bookcase|mode=image}}
+| {{item|Acidwood Candelabra|mode=image}}
+| {{item|Acidwood Candle|mode=image}}
+| {{item|Acidwood Chair|mode=image}}
+| {{item|Acidwood Chandelier|mode=image}}
+| {{item|Acidwood Chest|mode=image}}
+| {{item|Acidwood Clock|mode=image}}
+| {{item|Acidwood Door|mode=image}}
+| {{item|Acidwood Dresser|mode=image}}
+| {{item|Acidwood Lamp|mode=image}}
+| {{item|Acidwood Lantern|mode=image}}
+| {{no}}
+| {{item|Acidwood Piano|mode=image}}
+| {{item|Acidwood Platform|mode=image}}
+| {{no}}
+| {{item|Acidwood Sink|mode=image}}
+| {{item|Acidwood Bench|mode=image}}
+| {{item|Acidwood Table|mode=image}}
+| {{no}}
+| {{item|Sulphuric Water Fountain|mode=image}}
+| {{item|Acidwood Work Bench|mode=image}}
+| {{no}}
+|-
+| Ancient
+| {{item|Brimstone Slag|mode=image}}
+| {{item|Ancient Basin|mode=image}}
+| {{item|Ancient Bathtub|mode=image}}
+| {{item|Ancient Bed|mode=image}}
+| {{item|Ancient Bookcase|mode=image}}
+| {{no}}
+| {{no}}
+| {{item|Ancient Chair|mode=image}}
+| {{item|Ancient Chandelier|mode=image}}
+| {{no}}
+| {{item|Ancient Monolith|mode=image}}
+| {{item|Ancient Door|mode=image}}
+| {{item|Ancient Dresser|mode=image}}
+| {{item|Ancient Lamp|mode=image}}
+| {{item|Ancient Lantern|mode=image}}
+| {{item|Living Brimstone Fire Block|mode=image}}
+| {{item|Ancient Pipe Organ|mode=image}}
+| {{no}}
+| {{no}}
+| {{item|Ancient Sink|mode=image}}
+| {{item|Ancient Sofa|mode=image}}
+| {{item|Ancient Table|mode=image}}
+| {{no}}
+| {{no}}
+| {{item|Ancient Work Bench|mode=image}}
+| {{item|Ancient Altar|mode=image}}
+|-
+| Ashen
+| {{item|Smooth Brimstone Slag|mode=image}}
+| {{item|Ashen Basin|mode=image}}
+| {{item|Ashen Bathtub|mode=image}}
+| {{item|Ashen Bed|mode=image}}
+| {{item|Ashen Bookcase|mode=image}}
+| {{item|Ashen Candelabra|mode=image}}
+| {{item|Ashen Candle|mode=image}}
+| {{item|Ashen Chair|mode=image}}
+| {{item|Ashen Chandelier|mode=image}}
+| {{item|Ashen Chest|mode=image}}
+| {{item|Ashen Monolith|mode=image}}
+| {{item|Ashen Door|mode=image}}
+| {{item|Ashen Dresser|mode=image}}
+| {{item|Ashen Lamp|mode=image}}
+| {{item|Ashen Lantern|mode=image}}
+| {{item|Living Brimstone Fire Block|mode=image}}
+| {{item|Ashen Pipe Organ|mode=image}}
+| {{item|Ashen Platform|mode=image}}
+| {{no}}
+| {{item|Ashen Sink|mode=image}}
+| {{item|Ashen Sofa|mode=image}}
+| {{item|Ashen Table|mode=image}}
+| {{no}}
+| {{no}}
+| {{item|Ashen Work Bench|mode=image}}
+| {{item|Ashen Altar|mode=image}}
+|-
+| Botanic
+| {{item|Uelibloom Brick|mode=image}}
+| {{no}}
+| {{item|Botanic Bathtub|mode=image}}
+| {{item|Botanic Bed|mode=image}}
+| {{item|Botanic Bookcase|mode=image}}
+| {{item|Botanic Candelabra|mode=image}}
+| {{item|Botanic Candle|mode=image}}
+| {{item|Botanic Chair|mode=image}}
+| {{item|Botanic Chandelier|mode=image}}
+| {{item|Botanic Chest|mode=image}}
+| {{item|Botanic Clock|mode=image}}
+| {{item|Botanic Door|mode=image}}
+| {{item|Botanic Dresser|mode=image}}
+| {{item|Botanic Lamp|mode=image}}
+| {{item|Botanic Lantern|mode=image}}
+| {{no}}
+| {{item|Botanic Piano|mode=image}}
+| {{item|Botanic Platform|mode=image}}
+| {{no}}
+| {{item|Botanic Sink|mode=image}}
+| {{item|Botanic Bench|mode=image}}
+| {{item|Botanic Table|mode=image}}
+| {{no}}
+| {{no}}
+| {{item|Botanic Work Bench|mode=image}}
+| {{item|Botanic Planter|mode=image}}
+|-
+| Cosmilite
+| {{item|Cosmilite Brick|mode=image}}
+| {{item|Cosmilite Basin|mode=image}}
+| {{item|Cosmilite Bathtub|mode=image}}
+| {{item|Cosmilite Bed|mode=image}}
+| {{item|Cosmilite Bookcase|mode=image}}
+| {{item|Cosmilite Candelabra|mode=image}}
+| {{item|Cosmilite Candle|mode=image}}
+| {{item|Cosmilite Chair|mode=image}}
+| {{item|Cosmilite Chandelier|mode=image}}
+| {{item|Cosmilite Chest|mode=image}}
+| {{item|Cosmilite Clock|mode=image}}
+| {{item|Cosmilite Door|mode=image}}
+| {{item|Cosmilite Dresser|mode=image}}
+| {{item|Cosmilite Lamp|mode=image}}
+| {{item|Cosmilite Lantern|mode=image}}
+| {{item|Living God Slayer Fire Block|mode=image}}
+| {{item|Cosmilite Piano|mode=image}}
+| {{item|Cosmilite Platform|mode=image}}
+| {{item|Cosmilite Sconce|mode=image}}
+| {{item|Cosmilite Sink|mode=image}}
+| {{item|Cosmilite Sofa|mode=image}}
+| {{item|Cosmilite Table|mode=image}}
+| {{no}}
+| {{no}}
+| {{item|Cosmilite Work Bench|mode=image}}
+| {{no}}
+|-
+| Eutrophic
+| {{item|Navystone|mode=image}}
+| {{no}}
+| {{item|Eutrophic Bathtub|mode=image}}
+| {{item|Eutrophic Bed|mode=image}}
+| {{item|Eutrophic Bookcase|mode=image}}
+| {{item|Eutrophic Candelabra|mode=image}}
+| {{item|Eutrophic Candle|mode=image}}
+| {{item|Eutrophic Chair|mode=image}}
+| {{item|Eutrophic Chandelier|mode=image}}
+| {{item|Eutrophic Chest|mode=image}}
+| {{item|Eutrophic Clock|mode=image}}
+| {{item|Eutrophic Door|mode=image}}
+| {{item|Eutrophic Dresser|mode=image}}
+| {{item|Eutrophic Lamp|mode=image}}
+| {{item|Eutrophic Lantern|mode=image}}
+| {{no}}
+| {{item|Eutrophic Piano|mode=image}}
+| {{item|Eutrophic Platform|mode=image}}
+| {{no}}
+| {{item|Eutrophic Sink|mode=image}}
+| {{item|Eutrophic Bench|mode=image}}
+| {{item|Eutrophic Table|mode=image}}
+| {{no}}
+| {{item|Sunken Water Fountain|mode=image}}
+| {{item|Eutrophic Work Bench|mode=image}}
+| {{item|Eutrophic Shelf|mode=image}}
+|-
+| Exo
+| {{item|Exo Plating|mode=image}}
+| {{no}}
+| {{item|Exo Bathtub|mode=image}}
+| {{item|Exo Bed|mode=image}}
+| {{item|Exo Bookcase|mode=image}}
+| {{item|Exo Candelabra|mode=image}}
+| {{item|Exo Candle|mode=image}}
+| {{item|Exo Chair|mode=image}}
+| {{item|Exo Chandelier|mode=image}}
+| {{item|Exo Chest|mode=image}}
+| {{item|Exo Clock|mode=image}}
+| {{item|Exo Door|mode=image}}
+| {{item|Exo Dresser|mode=image}}
+| {{item|Exo Lamp|mode=image}}
+| {{item|Exo Lantern|mode=image}}
+| {{no}}
+| {{item|Exo Keyboard|mode=image}}
+| {{item|Exo Platform|mode=image}}
+| {{no}}
+| {{item|Exo Sink|mode=image}}
+| {{item|Exo Sofa|mode=image}}
+| {{item|Exo Table|mode=image}}
+| {{item|Exo Toilet|mode=image}}
+| {{no}}
+| {{item|Exo Work Bench|mode=image}}
+| {{no}}
+|-
+| Monolith
+| {{item|Astral Monolith|mode=image}}
+| {{no}}
+| {{item|Monolith Bathtub|mode=image}}
+| {{item|Monolith Bed|mode=image}}
+| {{item|Monolith Bookcase|mode=image}}
+| {{item|Monolith Candelabra|mode=image}}
+| {{item|Monolith Candle|mode=image}}
+| {{item|Monolith Chair|mode=image}}
+| {{item|Monolith Chandelier|mode=image}}
+| {{item|Monolith Chest|mode=image}}
+| {{item|Monolith Clock|mode=image}}
+| {{item|Monolith Door|mode=image}}
+| {{item|Monolith Dresser|mode=image}}
+| {{item|Monolith Lamp|mode=image}}
+| {{item|Monolith Lantern|mode=image}}
+| {{no}}
+| {{item|Monolith Piano|mode=image}}
+| {{item|Monolith Platform|mode=image}}
+| {{no}}
+| {{item|Monolith Sink|mode=image}}
+| {{item|Monolith Bench|mode=image}}
+| {{item|Monolith Table|mode=image}}
+| {{no}}
+| {{item|Astral Water Fountain|mode=image}}
+| {{item|Monolith Work Bench|mode=image}}
+| {{item|Monolith Amalgam|mode=image}}
+|-
+| Otherworldly
+| {{item|Otherworldly Stone|mode=image}}
+| {{no}}
+| {{item|Otherworldly Bathtub|mode=image}}
+| {{item|Otherworldly Bed|mode=image}}
+| {{item|Otherworldly Bookcase|mode=image}}
+| {{item|Otherworldly Candelabra|mode=image}}
+| {{item|Otherworldly Candle|mode=image}}
+| {{item|Otherworldly Chair|mode=image}}
+| {{item|Otherworldly Chandelier|mode=image}}
+| {{item|Otherworldly Chest|mode=image}}
+| {{item|Otherworldly Clock|mode=image}}
+| {{item|Otherworldly Door|mode=image}}
+| {{item|Otherworldly Dresser|mode=image}}
+| {{item|Otherworldly Lamp|mode=image}}
+| {{item|Otherworldly Lantern|mode=image}}
+| {{no}}
+| {{item|Otherworldly Piano|mode=image}}
+| {{item|Otherworldly Platform|mode=image}}
+| {{no}}
+| {{item|Otherworldly Sink|mode=image}}
+| {{item|Otherworldly Sofa|mode=image}}
+| {{item|Otherworldly Table|mode=image}}
+| {{no}}
+| {{no}}
+| {{item|Otherworldly Work Bench|mode=image}}
+| {{no}}
+|-
+| Plagued
+| {{item|Plagued Containment Brick|mode=image}}
+| {{item|Broken Plagued 'Bed'|mode=image}}
+| {{item|Plagued Bathtub|mode=image}}
+| {{item|Plagued 'Bed'|mode=image}}
+| {{item|Plagued Bookcase|mode=image}}
+| {{item|Plagued Candelabra|mode=image}}
+| {{item|Plagued Candle|mode=image}}
+| {{item|Plagued Chair|mode=image}}
+| {{item|Plagued Chandelier|mode=image}}
+| {{item|Plagued Chest|mode=image}}
+| {{item|Plagued Clock|mode=image}}
+| {{item|Plagued Door|mode=image}}
+| {{item|Plagued Dresser|mode=image}}
+| {{item|Plagued Lamp|mode=image}}
+| {{item|Plagued Lantern|mode=image}}
+| {{no}}
+| {{item|Plagued Piano|mode=image}}
+| {{item|Plagued Shelf|mode=image}}
+| {{no}}
+| {{item|Plagued Sink|mode=image}}
+| {{item|Plagued Sofa|mode=image}}
+| {{item|Plagued Table|mode=image}}
+| {{no}}
+| {{no}}
+| {{item|Plagued Work Bench|mode=image}}
+| {{item|Plague Infuser|mode=image}}
+|-
+| Profaned
+| {{item|Profaned Rock|mode=image}}
+| {{item|Profaned Crucible|mode=image}}
+| {{item|Profaned Bathtub|mode=image}}
+| {{item|Profaned Bed|mode=image}}
+| {{item|Profaned Bookcase|mode=image}}
+| {{item|Profaned Candelabra|mode=image}}
+| {{item|Profaned Candle|mode=image}}
+| {{item|Profaned Chair|mode=image}}
+| {{item|Profaned Chandelier|mode=image}}
+| {{item|Profaned Chest|mode=image}}
+| {{item|Profaned Clock|mode=image}}
+| {{item|Profaned Door|mode=image}}
+| {{item|Profaned Dresser|mode=image}}
+| {{item|Profaned Lamp|mode=image}}
+| {{item|Profaned Lantern|mode=image}}
+| {{item|Living Holy Fire Block|mode=image}}
+| {{item|Profaned Piano|mode=image}}
+| {{item|Profaned Platform|mode=image}}
+| {{no}}
+| {{item|Profaned Sink|mode=image}}
+| {{item|Profaned Bench|mode=image}}
+| {{item|Profaned Table|mode=image}}
+| {{no}}
+| {{no}}
+| {{item|Profaned Work Bench|mode=image}}
+| {{item|Profaned Crucible|mode=image}}
+|-
+| Silva
+| {{item|Silva Crystal|mode=image}}
+| {{item|Effulgent Manipulator|mode=image}}
+| {{item|Silva Bathtub|mode=image}}
+| {{item|Silva Bed|mode=image}}
+| {{item|Silva Bookcase|mode=image}}
+| {{item|Silva Candelabra|mode=image}}
+| {{item|Silva Candle|mode=image}}
+| {{item|Silva Chair|mode=image}}
+| {{item|Silva Chandelier|mode=image}}
+| {{item|Silva Chest|mode=image}}
+| {{item|Silva Clock|mode=image}}
+| {{item|Silva Door|mode=image}}
+| {{item|Silva Dresser|mode=image}}
+| {{item|Silva Lamp|mode=image}}
+| {{item|Silva Lantern|mode=image}}
+| {{no}}
+| {{item|Silva Piano|mode=image}}
+| {{item|Silva Platform|mode=image}}
+| {{no}}
+| {{item|Silva Sink|mode=image}}
+| {{item|Silva Bench|mode=image}}
+| {{item|Silva Table|mode=image}}
+| {{no}}
+| {{no}}
+| {{item|Silva Work Bench|mode=image}}
+| {{item|Effulgent Manipulator|mode=image}}
+|-
+| Statigel
+| {{item|Statigel Block|mode=image}}
+| {{no}}
+| {{item|Statigel Bathtub|mode=image}}
+| {{item|Statigel Bed|mode=image}}
+| {{item|Statigel Bookcase|mode=image}}
+| {{item|Statigel Candelabra|mode=image}}
+| {{item|Statigel Candle|mode=image}}
+| {{item|Statigel Chair|mode=image}}
+| {{item|Statigel Chandelier|mode=image}}
+| {{item|Statigel Chest|mode=image}}
+| {{item|Statigel Clock|mode=image}}
+| {{item|Statigel Door|mode=image}}
+| {{item|Statigel Dresser|mode=image}}
+| {{item|Statigel Lamp|mode=image}}
+| {{item|Statigel Lantern|mode=image}}
+| {{no}}
+| {{item|Statigel Piano|mode=image}}
+| {{item|Statigel Platform|mode=image}}
+| {{no}}
+| {{item|Statigel Sink|mode=image}}
+| {{item|Statigel Sofa|mode=image}}
+| {{item|Statigel Table|mode=image}}
+| {{no}}
+| {{no}}
+| {{item|Statigel Work Bench|mode=image}}
+| {{item|Static Refiner|mode=image}}
+|-
+| Stratus
+| {{item|Stratus Brick|mode=image}}
+| {{no}}
+| {{item|Stratus Bathtub|mode=image}}
+| {{item|Stratus Bed|mode=image}}
+| {{item|Stratus Bookcase|mode=image}}
+| {{item|Stratus Candelabra|mode=image}}
+| {{item|Stratus Candle|mode=image}}
+| {{item|Stratus Chair|mode=image}}
+| {{item|Stratus Chandelier|mode=image}}
+| {{item|Stratus Chest|mode=image}}
+| {{item|Stratus Clock|mode=image}}
+| {{item|Stratus Door|mode=image}}
+| {{item|Stratus Dresser|mode=image}}
+| {{item|Stratus Lamp|mode=image}}
+| {{item|Stratus Lantern|mode=image}}
+| {{no}}
+| {{item|Stratus Piano|mode=image}}
+| {{item|Stratus Platform|mode=image}}
+| {{no}}
+| {{item|Stratus Sink|mode=image}}
+| {{item|Stratus Sofa|mode=image}}
+| {{item|Stratus Table|mode=image}}
+| {{no}}
+| {{no}}
+| {{item|Stratus Work Bench|mode=image}}
+| {{no}}
+|-
+| Void
+| {{item|Smooth Voidstone|mode=image}}
+| {{no}}
+| {{item|Void Bathtub|mode=image}}
+| {{item|Void Bed|mode=image}}
+| {{item|Void Bookcase|mode=image}}
+| {{item|Void Candelabra|mode=image}}
+| {{item|Void Candle|mode=image}}
+| {{item|Void Chair|mode=image}}
+| {{item|Void Chandelier|mode=image}}
+| {{item|Void Chest|mode=image}}
+| {{item|Void Obelisk|mode=image}}
+| {{item|Void Door|mode=image}}
+| {{item|Void Dresser|mode=image}}
+| {{item|Void Lamp|mode=image}}
+| {{item|Void Lantern|mode=image}}
+| {{no}}
+| {{item|Void Piano|mode=image}}
+| {{item|Smooth Voidstone Platform|mode=image}}
+| {{no}}
+| {{item|Void Sink|mode=image}}
+| {{item|Void Sofa|mode=image}}
+| {{item|Void Table|mode=image}}
+| {{no}}
+| {{no}}
+| {{item|Void Work Bench|mode=image}}
+| {{item|Void Condenser|mode=image}}
+|}
+
+=== [[Laboratory Furniture]] ===
+{| class="terraria lined" style="text-align:center"
+! Type !! [[Block]]s !! [[Chest]] !! Console !! Containment Box !! Display !! [[Door]] !! Electric Panel !! Screen !! Server !! Terminal !! Crate !! [[Platform]]
+|-
+| Laboratory
+| {{item|Laboratory Plating|mode=image}}{{item|Laboratory Panels|mode=image}}{{item|Laboratory Pipe Plating|mode=image}}
+| {{item|Security Chest|mode=image}}
+| {{item|Laboratory Console|mode=image}}
+| {{item|Laboratory Containment Box|mode=image}}
+| {{item|Laboratory Display|mode=image}}
+| {{item|Laboratory Door|mode=image}}
+| {{item|Laboratory Electric Panel|mode=image}}
+| {{item|Laboratory Screen|mode=image}}
+| {{item|Laboratory Server|mode=image}}
+| {{item|Laboratory Terminal|mode=image}}
+| {{item|Reinforced Crate|mode=image}}
+| {{item|Laboratory Shelf|mode=image}}
+|-
+| Aged Laboratory
+| {{item|Rusted Pipes|mode=image}}{{item|Rusted Plating|mode=image}}
+| {{item|Aged Security Chest|mode=image}}
+| {{item|Aged Laboratory Console|mode=image}}
+| {{item|Aged Laboratory Containment Box|mode=image}}
+| {{item|Aged Laboratory Display|mode=image}}
+| {{item|Aged Laboratory Door|mode=image}}
+| {{item|Aged Laboratory Electric Panel|mode=image}}
+| {{item|Aged Laboratory Screen|mode=image}}
+| {{item|Aged Laboratory Server|mode=image}}
+| {{item|Aged Laboratory Terminal|mode=image}}
+| {{item|Aged Reinforced Crate|mode=image}}
+| {{item|Rusted Shelf|mode=image}}
+|-
+| Exo
+| {{item|Exo Plating|mode=image}}{{item|Exo Prism Panel|mode=image}}
+| {{item|Exo Chest|mode=image}}
+| {{item|Exo Console|mode=image}}
+| {{no}}
+| {{item|Exo Display|mode=image}}
+| {{item|Exo Door|mode=image}}
+| {{no}}
+| {{item|Exo Screen|mode=image}}
+| {{item|Exo Server|mode=image}}
+| {{item|Exo Terminal|mode=image}}
+| {{no}}
+| {{item|Exo Platform|mode=image}}{{item|Exo Prism Platform|mode=image}}
+|}
+
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+
+[[Category:Furniture items|*]]

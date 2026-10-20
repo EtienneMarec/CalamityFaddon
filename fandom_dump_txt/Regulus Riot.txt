@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| stack = 1
+| type = Weapon
+| damage = 116
+| damagetype = Rogue
+| use = 25
+| velocity = 8
+| tooltip = Fires a swift homing disk<br/>Stealth strikes explode into energy stars
+| knockback = 4.50
+| debuff = Ancient Astral Blight
+| debufftip = An ancient cosmic affliction spreads through you
+| debuffchance= 100%
+| debuffduration = 3 seconds
+| rare = 9
+| sell = {{value|0|19}}
+| hardmode = yes
+| auto = yes
+| element1 = Magic
+| element2 = Poison
+}}
+|{{item drops infobox
+| [[Astrum Deus]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+
+The '''Regulus Riot''' is a [[Hardmode]] [[rogue weapon]] dropped by [[Astrum Deus]]. It fires a disk that flies to where the cursor was when it was used and homes in on enemies.
+
+Performing a [[stealth strike]] with the Regulus Riot will cause it to explode into energy stars on death.
+
+{{Modifier|rogue}}
+
+== Trivia ==
+*[[wikipedia:Regulus|Regulus]] is a star system composed of four stars, which has been known for being one of the brightest objects in the night sky.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

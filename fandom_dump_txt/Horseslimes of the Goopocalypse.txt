@@ -1,0 +1,536 @@
+{{addon|Deimos, the Starborn Princess}}
+{{npc infobox
+| name = Horseslimes of the Goopocalypse
+| type = Boss
+| type2 = Slime
+| imagealt = [[File:HSotAFull.png]]
+| damage = {{defense damage}} {{element|Poison}} {{dv|125|200|235|250}} (Goo Bombs)<br/>{{element|Fire}}{{element|Poison}} {{dv|75|125|135}} (Fireballs)<br/>{{element|Holy}} {{dv|90|120}} (Lightning Orb)<br/>{{element|Holy}} {{dv|125|225|250}} (Light Beams)<br/>{{element|Fire}}{{element|Cold}} {{dv|75|125|135}} (Prismatic Bolts)
+| life = {{dv|1,140,004|1,735,004|2,060,004}}
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+| money = {{value|0|0|0|0|10}}
+| Quark-Gluon Sludge|{{dv|30-45|45-60}}|100%
+| Omega Healing Potion|5-15|100%
+| Goomageddon Trophy|1|10%
+| custom| {{item|Goomageddon (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| killed = NPC_Killed_14.wav
+| sound = Item_155.wav
+| soundtext = Goo Bombs
+| sound2 = Item_14.wav
+| sound2text = Goo Bomb Explosion
+| sound3 = Item_20.wav
+| sound3text = Fireballs
+| sound4 = Item_121.wav
+| sound4text = Lightning Orb
+| sound5 = NPC_Killed_58.wav
+| sound5text = Phase Transition
+| sound6 = NPC_Killed_56.wav
+| sound6text = Prismatic Bolts
+| sound7 = LaserCannon.wav
+| sound7text = Light Beam Telegraph
+| sound8 = TeslaCannonFire.wav
+| sound8text = Light Beams
+}}
+
+The '''Horseslimes of the Goopocalypse''' (Japanese: グーポカリプスのホーススライム ''Gūpokaripusu no hōsusuraimu'') are a group of Godseeker Mode [[Bosses]] that can be fought after defeating [[Golem]], but are intended to be fought after defeating [[The Devourer of Gods]]. The battle consists of a passive '''Goopocalypse Core''' and the four Horseslimes '''Conquest''', '''War''', '''Famine''', and '''Death'''.  All enemies share one health pool. However, the Goopocalypse Core cannot take direct damage.
+
+Defeating the Horseslimes will provide the player with [[Quark-Gluon Sludge]], a useful Godseeker Mode [[crafting material]].
+
+== Spawn ==
+The Horseslimes of the Goopocalypse do not spawn on their own, and require the player to summon them manually by interacting with an [[Apocalyptic Slime Statue]] while holding a [[Gooz Sayer's Coin]] while the statue is in a specific structure. They can be fought anywhere and at nighttime. 
+
+== Bosses ==
+{{npc infobox
+| type = Boss
+| type2 = Slime
+| ai = Goopocalypse Core AI
+| name = Goopocalypse Core
+| imagealt = <Tabber>
+Unoccupied= [[File:Goopocalypse Core.png]]
+|-|
+Occupied=[[File:Goopocalypse Core Occupied.png]]
+</Tabber>
+| life = {{dv|900,000|1,375,000|1,700,000}}
+| damage = 0 (Contact)<br/>{{defense damage}} {{element|Holy}} {{dv|250|boost=0.15}} (Contact while Occupied)<br/>{{defense damage}} {{element|Fire}}{{element|Cold}} {{dv|200|boost=0.15}} (Chromatic Ray)<br/>{{element|Fire}}{{element|Poison}} {{dv|75|125|135}} (Fireballs)
+| knockback = 100
+| image2 = Goopocalypse Core map.png
+| image2caption = Map Icon
+| image3 = Goopocalypse Core Occupieds map.png
+| image3caption = Map Icons (Occupied)
+| hardmode = yes
+| postml = yes
+| debuff = Embers of Civilization
+| debufftip = Ashes to ashes, bronze to bronze 
+| debuffchance = 100%
+| duration = 3 seconds (Contact while occupied)
+| debuff2 = Vaporfied
+| debufftip2 = Vaporizing senses and mind 
+| debuffchance2 = 100%
+| duration2 = 4 seconds (Chromatic Ray)
+| immuneall = yes
+| sound = SlimeGodPossession.wav
+| soundtext = Horseslime Enter
+| sound2 = SlimeGodExit.wav
+| sound2text = Horseslime Exit
+| sound3 = Item_162.wav
+| sound3text = Chromatic Ray Telegraph
+| sound4 = Zombie_104.wav
+| sound4text = Chromatic Ray
+}}
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Boss
+| type2 = Slime
+| ai = Conquest AI
+| image = Conquest_Horseslime.png
+| name = Conquest
+| namesub = Horseslime of Conquest
+| life = {{dv|900,000|1,375,000|1,700,000}}
+| damage = {{defense damage}} {{element|Fire}}{{element|Poison}} {{dv|250|boost=0.15}} (Contact)<br/>{{element|Poison}} {{dv|180|boost=0.1}} (Area Denial Spheres)<br/>{{element|Holy}} {{dv|125|boost=0.2}} (Laser Beams)
+| defense = 90
+| dr = 30
+| knockback = 100
+| image2 = Conquest HS map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| debuff = Embers of Civilization
+| debufftip = Ashes to ashes, bronze to bronze 
+| debuffchance = 100%
+| duration = 3 seconds (Contact)
+| debuff2 = Plague
+| debufftip2 = Rotting from the inside
+| debuffchance2 = 100%
+| duration2 = 2 seconds
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Acid Venom
+| immune4 = Astral Infection (debuff)
+| immune5 = Brimstone Flames
+| immune6 = Crush Depth
+| immune7 = Cursed Inferno
+| immune8 = Galvanic Corrosion
+| immune9 = Glacial State
+| immune10 = God Slayer Inferno
+| immune11 = Hellfire
+| immune12 = Holy Flames
+| immune13 = Irradiated
+| immune14 = Moon Burnt
+| immune15 = Oiled
+| immune16 = On Fire!
+| immune17 = Poisoned
+| immune18 = Plague
+| immune19 = Shadowflame
+| immune20 = Slime (debuff)
+| immune21 = Vaporfied
+| immune22 = Vulnerability Hex
+| immune23 = Wet
+| immune24 = Whispering Death
+| vulnerable1 = Fire
+| vulnerable2 = Poison
+| vulnerable3 = Unholy
+| resistant1 = Magic
+| resistant2 = Water
+| resistant3 = Holy
+| hurt = NPC_Hit_49.wav
+| sound = LaserCannon.wav
+| soundtext = Area Denial Sphere Spawn
+| sound2 = Item_33.wav
+| sound2text = Laser Beams
+| sound3 = Item_92.wav
+| sound3text = Charge
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Slime
+| ai = War AI
+| image = War_Horseslime.png
+| name = War
+| namesub = Horseslime of War
+| life = {{dv|900,000|1,375,000|1,700,000}}
+| damage = {{defense damage}} {{element|Fire}}{{element|Dark}} {{dv|250|boost=0.15}} (Contact)<br/>{{element|Holy}} {{dv|125|boost=0.2}} (Laser Beams)<br/>{{element|Stab}} {{dv|100|boost=0.15}} (Swords)<br/>{{element|Slash}}{{element|Magic}} {{dv|250|boost=0.15}} (Lightning Ring)
+| defense = 90
+| dr = 30
+| knockback = 100
+| image2 = War HS map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| debuff = Embers of Civilization
+| debufftip = Ashes to ashes, bronze to bronze 
+| debuffchance = 100%
+| duration = 3 seconds (Contact)
+| debuff2 = Astral Infection (debuff)
+| debufftip2 = Your flesh is melting off
+| debuffchance2 = 100%
+| duration2 = 2 seconds
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Acid Venom
+| immune4 = Astral Infection (debuff)
+| immune5 = Brimstone Flames
+| immune6 = Crush Depth
+| immune7 = Cursed Inferno
+| immune8 = Galvanic Corrosion
+| immune9 = Glacial State
+| immune10 = God Slayer Inferno
+| immune11 = Hellfire
+| immune12 = Holy Flames
+| immune13 = Irradiated
+| immune14 = Moon Burnt
+| immune15 = Oiled
+| immune16 = On Fire!
+| immune17 = Poisoned
+| immune18 = Plague
+| immune19 = Shadowflame
+| immune20 = Slime (debuff)
+| immune21 = Vaporfied
+| immune22 = Vulnerability Hex
+| immune23 = Wet
+| immune24 = Whispering Death
+| vulnerable1 = Cold
+| vulnerable2 = Magic
+| vulnerable3 = Unholy
+| resistant1 = Fire
+| resistant2 = Poison
+| resistant3 = Dark
+| resistant4 = Holy
+| hurt = NPC_Hit_49.wav
+| sound = Item_33.wav
+| soundtext = Laser Beams
+| sound2 = Item_60.wav
+| sound2text = Swords
+| sound3 = Item_92.wav
+| sound3text = Charge
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Slime
+| ai = Famine AI
+| image = Famine_Horseslime.png
+| name = Famine
+| namesub = Horseslime of Famine
+| life = {{dv|900,000|1,375,000|1,700,000}}
+| damage = {{defense damage}} {{element|Cold}}{{element|Poison}} {{dv|250|boost=0.15}} (Contact)<br/>{{element|Holy}} {{dv|125|boost=0.2}} (Laser Beams)<br/>{{element|Poison}} {{dv|200|boost=0.15}} (Famine Beam)
+| defense = 90
+| dr = 30
+| knockback = 100
+| image2 = Famine HS map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| debuff = Embers of Civilization
+| debufftip = Ashes to ashes, bronze to bronze 
+| debuffchance = 100%
+| duration = 3 seconds (Contact)
+| debuff2 = Whispering Death
+| debufftip2 = Death approaches; defense, movement speed, attack power and life regen reduced
+| debuffchance2 = 100%
+| duration2 = 3 seconds
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Acid Venom
+| immune4 = Astral Infection (debuff)
+| immune5 = Brimstone Flames
+| immune6 = Crush Depth
+| immune7 = Cursed Inferno
+| immune8 = Galvanic Corrosion
+| immune9 = Glacial State
+| immune10 = God Slayer Inferno
+| immune11 = Hellfire
+| immune12 = Holy Flames
+| immune13 = Irradiated
+| immune14 = Moon Burnt
+| immune15 = Oiled
+| immune16 = On Fire!
+| immune17 = Poisoned
+| immune18 = Plague
+| immune19 = Shadowflame
+| immune20 = Slime (debuff)
+| immune21 = Vaporfied
+| immune22 = Vulnerability Hex
+| immune23 = Wet
+| immune24 = Whispering Death
+| vulnerable1 = Magic
+| vulnerable2 = Water
+| vulnerable4 = Unholy
+| resistant1 = Cold
+| resistant2 = Dark
+| resistant3 = Holy
+| hurt = NPC_Hit_49.wav
+| sound = Item_33.wav
+| soundtext = Laser Beams
+| sound2 = PlasmaBolt.wav
+| sound2text = Famine Beam
+| sound3 = Item_92.wav
+| sound3text = Charge
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Slime
+| ai = Death AI
+| image = Death_Horseslime.png
+| name = Death
+| namesub = Horseslime of Death
+| life = {{dv|900,000|1,375,000|1,700,000}}
+| damage = {{defense damage}} {{element|Cold}}{{element|Dark}} {{dv|250|boost=0.15}} (Contact)<br/>{{element|Slash}} {{dv|150|boost=0.15}} (Scythes)
+| defense = 90
+| dr = 30
+| knockback = 100
+| image2 = Death HS map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| debuff = Embers of Civilization
+| debufftip = Ashes to ashes, bronze to bronze 
+| debuffchance = 100%
+| duration = 3 seconds (Contact)
+| debuff2 = Abyssal Flames
+| debufftip2 = Your soul is being consumed
+| debuffchance2 = 100%
+| duration2 = 2 seconds
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Acid Venom
+| immune4 = Astral Infection (debuff)
+| immune5 = Brimstone Flames
+| immune6 = Crush Depth
+| immune7 = Cursed Inferno
+| immune8 = Galvanic Corrosion
+| immune9 = Glacial State
+| immune10 = God Slayer Inferno
+| immune11 = Hellfire
+| immune12 = Holy Flames
+| immune13 = Irradiated
+| immune14 = Moon Burnt
+| immune15 = Oiled
+| immune16 = On Fire!
+| immune17 = Poisoned
+| immune18 = Plague
+| immune19 = Shadowflame
+| immune20 = Slime (debuff)
+| immune21 = Vaporfied
+| immune22 = Vulnerability Hex
+| immune23 = Wet
+| immune24 = Whispering Death
+| vulnerable1 = Cold
+| vulnerable2 = Fire
+| vulnerable3 = Unholy
+| resistant1 = Poison
+| resistant2 = Stab
+| resistant3 = Magic
+| resistant4 = Holy
+| hurt = NPC_Hit_49.wav
+| sound = Item_71.wav
+| soundtext = Scythes
+| sound2 = Item_92.wav
+| sound2text = Charge
+}}
+}}
+
+== Behavior ==
+
+The Horseslimes will spawn perpendicularly to each other roughly 37.5 blocks away from the Goopocalypse Core. 
+
+<!-- <div style="background-color: #111111 ; padding: 10px; border: 1px solid rgb(0, 0, 0); width: 10px; height: 10px;"></div> -->
+===Phase 1===
+When spawned, all four Horseslimes will orbit around the stationary Goopocalypse Core. Each Horseslime will spawn with a barrier around them similar to [[tgc:Martian Officer|Bubble Shields]] that makes them immune to all forms of damage and all [[Debuffs]], all four barriers must be destroyed to be able to damage the boss.
+*The Horseslimes will fire a Goo Bomb, which will then explode into an even spread of {{dv|6|||7}} Fireballs.
+*Each Horseslime will fire a {{item|link=|lightning orb|image=Lightning Orb.gif|size=20px}}.
+
+===Phase 2===
+When all four Horseslime barriers are destroyed, the boss will enter a second phase and the Horseslimes can be directly damaged while the core starts slowly moving towards the player. Damaging a specific Horseslime enough will cause it to enter an aggressive phase, while the other three Horseslimes will stop attacking the player. Dealing enough damage against any Horseslime that currently isnt aggressive will cause the Horseslimes to return back to their neutral phase. 
+
+The Horseslimes can rush at and enter the Goopocalypse Core. The core will then begin to deal contact damage and the Horseslime occupying it will become unable to take direct damage until it leaves. Dealing enough damage against a Horseslime while it is in its aggressive phase will cause it to enter the core until the Horseslimes are in their neutral phase again, it will not attack while in the core. Only one Horseslime can occupy the core at a time.
+
+====While all of the Horseslimes are neutral====
+All four Horseslimes will attack the player at once. While a Horseslime is aggressive, the other three will stop attacking.
+*The Horseslimes will fire a spread of three Goo Bombs which will decelerate and stop then explode into an even spread of {{dv|6|||7}} Fireballs.
+*Each Horseslime will teleport to positions perpendicular to each other around the player and launch two {{item|link=|lightning orbs|image=Lightning Orb.gif|size=20px}} spread 22.5° degrees apart towards the player before quickly returning to the core.
+*Either one of the Horseslimes can do one of two special attacks if none are aggressive and there are no apparitions alive, all other Horseslimes will stop attacking during this and special attacks have a cool down of 75 seconds.
+**The closest Horseslime to the player will enter the core if it is unoccupied and charge up two telegraphed Chromatic Rays which will then converge inward towards each other and stop, leaving a small gap in between. After a short time the rays will begin moving away from the player and will start creating rows of evenly-spaced Fireballs which will travel perpendicularly.
+**The closest Horseslime to the player will enter the core if it is unoccupied and begin firing stationary Chromatic Rays at the player, while the other three Horseslimes will begin moving to various areas around the player and then they will all explode at once into bursts of {{dv|3||4}} fast-moving homing {{item|Prismatic Bolt|size=40px|link=}}s repeatedly. this attack will last for {{dv|8|||10}} seconds.
+
+*When the Horseslimes drop below 70% health, 50% health, and 15% health, they will summon 1, 2, and {{dv|4|||5}} Apparitions respectively.
+**The Horseslimes will become intangible and if one is aggressive, it will become neutral.
+**The Apparitions will chase down the player while firing a Goo Spear, which explodes into lasting flaming explosions every {{dv|3||2.5||2}} seconds.
+**The Horseslimes will adopt a new attack pattern during these phases, only possessing two attacks:
+***Shoots out an even spread of {{dv|10||12}} Fireballs.
+***Creates {{dv|1|2}} lines, if there are two, they will be spread 45° degrees apart, which then expand into solid Light Beams from each Horseslime.
+
+====While Conquest is aggressive====
+*Conquest will create multiple Area Denial Spheres that slowly expand while it charges at the player 4 times
+*Conquest will create a spiral of Laser Beams that will spin faster over time.
+
+====While War is aggressive====
+*War will create an even spread of {{dv|8|||10}} Laser Beams repeatedly while throwing homing Swords at the player.
+*War will create a Lightning Ring around the player which slowly shrinks while it charges at the player 4 times. 
+
+====While Famine is aggressive====
+*Famine will summon small mines near the player which explode into Laser Beams.
+*Famine will charge at the player 4 times while making a trail of Famine Beams.
+
+====While Death is aggressive====
+*Death will charge at the player 4 times while making a trail of Scythes that move in the direction it charged and perpendicular to the direction it charged.
+*Death will make a cone of Scythes that slowly shrinks before making a second expanding cone of Scythes in the center.
+
+===In [[Expert Mode]]===
+*All four Horseslimes will attack faster and more aggressively.
+
+===In [[Revengeance Mode]]===
+*All four Horseslimes will attack faster and more aggressively.
+*Death's scythe cone attack is more constricted.
+
+===In [[Death Mode]]===
+*All four Horseslimes will attack faster and more aggressively.
+*A fifth Apparition is spawned at 15% health remaining.
+
+===On the Getfixedboi seed===
+The core will deal contact damage and appear as if it was occupied in phase 2.
+*While either one of the Horseslimes are aggressive, The core will enrage and begin making the same attacks as the four Horseslimes as if they were not aggressive.
+
+=== Summons ===
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| imagealt = <Tabber>
+Active= [[File:Horseslime Barrier.png]]
+|-|
+Inactive=[[File:Horseslime Barrier Inactive.png]]
+</Tabber>
+| name = Horseslime Barrier
+| type = Enemy
+| ai = Horseslime Barrier AI
+| life = {{dv|60,001|90,001}}
+| damage = 0
+| defense = 0
+| dr = 22
+| knockback = 100%
+| immuneall = yes
+| resistant1 = Fire
+| resistant2 = Cold
+| resistant3 = Poison
+| resistant4 = Stab
+| resistant5 = Slash
+| resistant6 = Magic
+| resistant7 = Dark
+| resistant8 = Water
+| resistant9 = Holy
+| resistant10 = Unholy
+| hurt = NPC_Hit_34.wav
+| killed = NPC_Killed_56.wav
+}}
+|{{npc infobox
+| image = Horseslime_Apparition.png
+| name = Horseslime Apparition
+| namesub = Horseslimes of the Goopocalypse Apparition
+| type = Flying Enemy
+| ai = Horseslime Apparition AI
+| life = {{dv|50,000|75,000}}
+| damage = {{element|Holy}} {{dv|80|135|150}}
+| defense = 0
+| vulnerable1 = Unholy
+| resistant1 = Holy
+| knockback = 100%
+| immune1 = Confused
+| image2 = Apparition HS map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_44.wav
+| killed = NPC_Killed_51.wav
+| sound = NPC_Killed_7.wav
+| soundtext = Goo Spear
+}}
+}}
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align = center |{{item|mode=table|Aero Slime}} || rowspan=32 | Horseslime Barrier is damaged
+|-
+| align = center |{{item|mode=table|Arsenous Slime}}
+|-
+| align = center |{{item|mode=table|Astral Slime}}
+|-
+| align = center |{{item|mode=table|Aureus Spawn}}
+|-
+| align = center |{{item|mode=table|Bloom Slime}}
+|-
+| align = center |{{item|mode=table|Bouncy Slime}}
+|-
+| align = center |{{item|mode=table|Charred Slime}}
+|-
+| align = center |{{item|mode=table|Cosmilite Slime}} {{fantag|Calamity Loot Swap}}
+|-
+| align = center |{{item|mode=table|Crimslime}}
+|-
+| align = center |{{item|mode=table|Crimulan Blight Slime}}
+|-
+| align = center |{{item|mode=table|Cryo Slime}}
+|-
+| align = center |{{item|mode=table|Crystal Slime}}
+|-
+| align = center |{{item|mode=table|Death Slime}}
+|-
+| align = center |{{item|mode=table|Dungeon Slime}}
+|-
+| align = center |{{item|mode=table|Ebonian Blight Slime}}
+|-
+| align = center |{{item|mode=table|Famine Slime}}
+|-
+| align = center |{{item|mode=table|Gamma Slime}}
+|-
+| align = center |{{item|mode=table|Gastropod}}
+|-
+| align = center |{{item|mode=table|Golden Slime}}
+|-
+| align = center |{{item|mode=table|Heavenly Slime}}
+|-
+| align = center |{{item|mode=table|Perennial Slime}}
+|-
+| align = center |{{item|mode=table|Pestilent Slime}}
+|-
+| align = center |{{item|mode=table|Pinky}}
+|-
+| align = center |{{item|mode=table|Rainbow Slime}}
+|-
+| align = center |{{item|mode=table|Rust Slime}}
+|-
+| align = center |{{item|mode=table|Shimmer Slime}}
+|-
+| align = center |{{item|mode=table|Side Mollusk}}
+|-
+| align = center |{{item|mode=table|Silicic Slime}}
+|-
+| align = center |{{item|mode=table|Slimer}}
+|-
+| align = center |{{item|mode=table|Spiked Slime}}
+|-
+| align = center |{{item|mode=table|Toxic Sludge}}
+|-
+| align = center |{{item|mode=table|War Slime}}
+|}
+
+{| class="terraria"
+! Enemy !! Condition
+|-
+| Any other pre-[[Jungle Dragon, Yharon]] enemy from the [[Jelly Monsoon]] event || rowspan=1 | Horseslime Barrier is damaged
+|}
+
+== Resistances ==
+*The Horseslimes of the Goopocalypse take reduced damage from most non-minion piercing projectiles. Projectile damage is divided by two every time it pierces.
+*The Horseslimes reduce damage from grenade-type projectiles depending on the number of Horseslimes in close proximity, with up to 85% reduced damage when all four are close together. A list of affected projectiles is below.
+{{ajax|List of resisted grenades|head=Resisted grenades|width=15%}}
+
+== Notes ==
+*An [[Apocalyptic Slime Statue]] cannot be spawned while the Bosses are alive.
+*During phase 2 of the fight, a white field will appear around the player. The field will stay white while none of the Horseslimes are aggressive. As a specific Horseslime becomes more aggressive, the field will transition to a different color depending on the Horseslime being damaged ({{color|Malachite green|#0BDA51}} for Conquest, {{color|light red|#FF7F7F}} for War, {{color|greenish yellow|#EEEA62}} for Famine, and {{color|sky blue|#87CEEB}} for Death). Each Horseslime will also have a force field around them that is in their corresponding color and the core will gain a force field when occupied in the color of whichever Horseslime is occupying it.
+
+== Tips ==
+''For elaborate strategies on defeating The Horseslimes of the Goopocalypse, including [[Weapon]] and Arena recommendations, see [[Guide:Horseslimes of the Goopocalypse strategies]].''
+*Due to the amount of [[Slimes]] spawned during phase 1 of the fight, this can make the boss an efficient source of [[Ores]].
+
+== Trivia ==
+*The [[Music|theme]] heard while fighting the Horseslimes of the Goopocalypse is '''Boss 2'''.
+*The Horseslime of conquest is known to be very lonely and the rest of the Horseslimes are afraid on it
+{{-}}
+{{DeimosMod}}

@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 36
+| auto = yes
+| use = 25
+| knockback = 5
+| velocity = 15
+| tooltip = Releases homing sparks while traveling<br/>Stealth strikes release homing snails that create even more sparks
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| hardmode = yes
+| element1 = Poison
+| element2 = Magic
+| element3 = Smash
+}}
+
+The '''Gacruxian Mollusk''' is a [[Hardmode]] non-consumable [[Spy weapon]] that can be [[fishing|fished]] up in the [[Astral Infection]]. When used, it throws a snail that drops sparks as it travels. The snail travels in a straight line for a moderate distance before being affected by gravity. The sparks are affected by gravity, ignore tiles, and weakly home in on enemies.
+
+Performing a [[stealth strike]] with the Gacruxian Mollusk will cause the snail to leave a trail of additional snails, which continuously emit sparks for 3 seconds before disappearing. These additional snails will strongly home in on nearby enemies, or hover in place if no enemies are close enough.
+
+{{Modifier|Spy}}
+
+== Notes ==
+*This weapon's functionality is similar to the [[Spear of Paleolith]], another early-Hardmode Spy weapon. The Spear of Paleolith has higher base damage and inflicts [[Armor Crunch]], while the Gacruxian Mollusk has homing and a unique stealth strike effect.
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+== Trivia ==
+*Its name is a reference to [[wikipedia:Gacrux|Gacrux]], which is a red giant star in the [[wikipedia:Crux|Crux]] (Southern Cross) constellation.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}

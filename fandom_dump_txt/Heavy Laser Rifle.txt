@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = Ranged
+| tooltip = Laser weapon used by heavy infantry units in Yharim's army<br/>Current Charge: [CHARGE]
+| damage = 185
+| knockback = 4
+| rare = a
+| sell = {{value|0|24}}
+| use = 25
+| velocity = 5
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Slowly losing life
+| hardmode = yes
+| postml = yes
+| element1 = Fire
+| element2 = Machine
+}}
+
+The '''Heavy Laser Rifle''' is a craftable Godseeker Mode [[ranged weapon]]. When used, two small orange beams are fired that each create a small dust explosion when contacting a block or enemy. The beam is incredibly accurate.
+
+The weapon consumes 0.125 units of [[charge]] per use and has a maximum charge of 190.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier4}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The Heavy Laser Rifle is a reference to the [https://fallout.fandom.com/wiki/Laser_rifle Laser Rifle] from the ''[[wikipedia:Fallout (series)|Fallout]]'' series, and uses the same firing sound effect as the ''[[wikipedia:Fallout New Vegas|Fallout: New Vegas]]'' incarnation.
+
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

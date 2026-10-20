@@ -1,0 +1,110 @@
+{{addon|Calamity: Tales of the Aquatic}}
+<section begin=npc infobox />{{Npc infobox
+| imagealt = [[File:The Forbidden Lantern.png]]
+| type = Boss
+| environment = Sunken Sea
+| ai = The Forbidden Lantern AI
+| damage = {{defense damage}} {{dv|112|130|155|175}} (Contact)<br/>{{defense damage}} {{dv|146|168|184|201}} (Light rays)<br/>{{defense damage}} {{dv|104|118|143|156}} (Seashine mines)<br/>{{dv|98|113|127|142}} (Sea prisms)
+| life = {{dv|54,000|68,000|80,000|91,000}}
+| defense = 30
+| dr = 15%
+| knockback = 100
+| money = 15
+| hardmode = yes
+| Aquatic Shardstone| 1| {{dv|25%|33.33%}}
+| Shattered Prism| {{dv|20-25|30-35}}| 100%
+| Sea Prism| {{dv|65-75|85-100}}| 100%
+| Shattered Pistol| 1| 5%
+| The Forbidden Lantern Trophy| 1| 10%
+| Treasure Bag (The Forbidden Lantern)|1|{{expert|100%}}
+| custom| {{item|The Forbidden Lantern Relic|note=(In [[Master Mode|Master]] or [[Revengeance Mode]] only)|wrap=y}}|{{dv|||100%||100%}}
+| custom| {{item|Shattered Module|wrap=y}}|10%
+| image2 = Lantern map.png
+| image2caption = Map Icon
+| resistant1 = Holy
+| resistant2 = Water
+| resistant3 = Cold
+| resistant4 = Magic
+| vulnerable1 = Stab
+| vulnerable2 = Smash
+| vulnerable3 = Bomb
+}}<section end="npc" infobox="" />
+[[File:The Forbidden Lantern Trophy.png]] <big> ''"A false god the Sunken Sea blindly worships..."'' </big> [[File:The Forbidden Lantern Trophy.png]]
+
+The '''Forbidden Lantern''' (Japanese: 禁断のランタン ''Kindan no rantan''​) is a [[Hardmode]] [[Challenges|boss]], which is intended to be fought after defeating all 3 [[mechanical bosses]].
+
+== Spawn==
+The Forbidden Lantern can spawn on its own in the [[Sunken Sea]] as soon as the player defeats at least 1 mechanicl boss. Alternatively, the Forbidden Lantern can be summoned manually by using the [[Lantern Shard]]. It will try to spawn as close to the geode in the center of the Sunken Sea as possible.
+
+==Behavior==
+The Forbidden Lantern will stay mostly stationary, doing one of the following attacks in a random order:  
+*4 telegraphed '''light rays''' are slowly fired from the top of the player's screen with a slight spread each time.
+*The boss quickly launches 3 [[File:Seashine Mine.png]] '''Seashine Mines''' in random directions that decelerate and stop completely after 2 seconds. After another second has passed, each mine will explode, releasing 5 small [[File:Sea Prism.png]] '''Sea Prisms''' in all directions.
+* The boss summons a '''Sunken Lantern''' minion that behave similarly [[Granite Elemental]]s, but able to shot [[File:Prism Shard.png]] '''Prism Shards''' every 3 seconds.
+Note that the Forbidden Lantern will wait about 3 seconds before doing another attack and it cannot perform the same attack twice in a row.
+
+If the player gets too close to the Forbidden Lantern, it will quickly fade away and teleport to another location, about 20-30 blocks from the initial position. The Forbidden Lantern can teleport only once every 20 seconds. While the cooldown is present, the Forbidden Lantern will emit high velocity waves instead of teleporting away. The waves do not deal damage to the player, but will knockback them about 12 blocks in opposite direction they're facing and briefly stun them.
+
+===In [[Expert Mode]]===    
+*The Forbidden Lantern gains a second phase that starts at 50% health.    
+** Upon entering it, the boss becomes invulnerable and release a strong sound wave, stunning the player for a brief time and decreasing their vision to a circle with a 14 blocks radius. The Forbidden Lantern will become vulnerable once again afterwards.
+*Sunken Lanterns shot 2 prism shards every 3rd attack.
+
+===In [[Revengeance Mode]]===
+*The Forbidden Lantern gains a new attack in the second phase.
+**The boss fires 3 [[File:Eidolic_Sound_Wave.png]] '''Sound Waves''' in rapid succession 4 times.
+*Sunken Lanterns shot 2 prism shards every 2nd attack.
+
+===In [[Death Mode]]===  
+*The Forbidden Lantern gains a third phase that starts at 15% health.      
+**Upon entering it, the boss enrages, releasing another sound wave that decreases the player's vision to a circle with an 11 blocks radius.
+*The boss gains a new attack in the third phase.
+**The boss violently vibrates, causing a small earthquake and briefly stunning the player. Unlike the other attacks, this one will be perfomed every 3rd attack, overlapping with it.
+*The amount of light rays is increased to 5.
+* Seashine mines release 6 sea prisms.
+*The interval between Sunken Lanterns' attacks is decreased to 2 seconds.
+
+===In [[Malice Mode]]===  
+*The Forbidden Lantern enters its second phase at 75% health.
+*The Forbidden Lantern enters its third phase at 25% health.
+*The interval between the boss' attacks is decreased to 2 seconds.
+* Sunken Lanterns always shot 2 prism shards.
+*Sunken Lanterns shot 3 prism shards every 3rd attack.
+
+===On the For the worthy seed=== 
+*The Forbidden Lantern enters its second phase immediately.
+* The Forbidden Lantern enters its third phase at 35% health.
+*The boss performs its earthquake attack every 2nd attack.
+*Sunken Lanterns are much faster.
+
+==Summons==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Sunken Lantern
+| type = Flying Enemy
+| ai = Granite Elemental AI
+| image = Static Shattered Lantern.png
+| life = {{dv|200|400|500}}
+| knockback = 50
+| damage = {{defense damage}} {{dv|65|83|102|125|154}} (Contact)<br/>{{dv|58|72|95|109|133}}
+| defense = 10
+| dr = 7%
+| hardmode = yes
+| hurt = NPC_Hit_7.wav
+| killed = NPC_Killed_6.wav
+}}
+}}
+==Aftermath==
+*Upon defeating the boss, a [[status message]] ''"The walls of the Sunken Sea are shattering!"'' appears in the chat, indicating that [[Shatterite Ore]] has generated in the Sunken Sea.
+*The player can [[Fishing|fish]] up [[Shattered Carp]]s.
+*[[Shattered Lights]] start to spawn in the Sunken Sea.
+
+==Notes==  
+*During the second phase onwards both the boss and its minions will emit stronger blue tinted light, allowing the player to see them clearly even with the worse vision.  
+**Additionally, every projectile spawned by the boss or its minions will emit weak light.
+
+{{ctota}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

@@ -1,0 +1,19 @@
+{{flexstart|{{#if:{{{inline|}}}|inline}}<!-- 
+  -->|wrap={{{wrap|}}}<!-- 
+  -->|direction={{{direction|column}}}<!-- 
+  -->|justify={{{justify|}}}<!-- 
+  -->|alignitems={{{alignitems|}}}<!-- 
+  -->|alignlines={{{alignlines|}}}<!-- 
+  -->|width={{{width|}}}<!-- 
+  -->|height={{{height|}}}<!-- 
+  -->|css={{{css|}}}<!-- 
+  -->|style={{{style|}}}<!-- 
+  -->|cssclass=infobox-wrapper float-{{{float|right}}} direction-{{{direction|column}}} {{{cssclass|}}}<!-- 
+  -->|id={{{id|}}}<!-- 
+-->}}<!-- 
+  -->{{#if:{{{2|}}}|<!-- 
+    -->{{#fornumargs:_|_v|<div>{{#var:_v}}</div>}}<!-- 
+  -->|<!-- 
+    -->{{{1|}}}<!-- 
+  -->}}<!-- 
+-->{{flexend}}<noinclude>{{doc}}</noinclude>

@@ -1,0 +1,53 @@
+{{addon|Calamity: Community Remix}}
+
+{{item infobox
+| type = Potion
+| use = 17
+| stack = 9999
+| tooltip = These sugars feel potent yet cursed
+| consumable = yes
+| rare = 3
+| buff = Calamitous Euphoria | bufflink = no
+| duration = 10 minutes
+| bufftip = You feel ready to face the entire world!
+| debuff = Calamitous Dysphoria | debufflink = no
+| debuffduration = 45 minutes
+| debufftip = You feel like something is out of place, but don't know what it is
+| debuff2 = Calamitous Anxiety | debufflink2 = no
+| debuffduration2 = 20 minutes
+| debufftip2 = Something is watching your every move
+| sell = {{value|0|50|0|0}}
+}}
+
+The '''Sugars of Calamity''' are [[pre-Hardmode]] buff potions crafted from [[Demonic Bone Ash]], [[Glowing Mushroom]]s, and [[Gel]]. It grants the user the '''Calamitous Euphoria''' [[buff]] when consumed, granting the following effects:
+*+30% movement speed
+*+50% damage
+*-30% crit chance
+*-10 defense
+
+When the Calamitous Euphoria buff runs out, the player will receive the '''Calamitous Dysphoria''' debuff, granting:
+*-10% movement speed
+*-20% damage
+*-20% crit chance
+*-40% mining speed
+*-10 defense
+
+The game will track how many Sugars of Calamity the player has used in a row (used while the Calamitous Dysphoria or Calamitous Euphoria buff/debuff is active) and if the value exceeds 2, they will receive the '''Calamitous Anxiety''' debuff, granting the following effects:
+*+15% movement speed
+*+5 defense
+*-50% damage
+*-90% crit chance
+
+Calamitous Dysphoria can be cured using more Sugars- however, doing so will replenish the debuff to it's full duration once the Calamitous Euphoria or Calamitous Anxiety buff expires. As a result, it is ill advised to use it outside of combat situations. Worse of all, using too much of it outside of combat will give you the Calamitous Anxiety debuff.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+
+* This item is a reference to [[wikipedia:Cocaine|Cocaine]] from [[wikipedia:The_Game_of_Life|Real Life]]
+{{Master Template Consumables
+| show-main = yes
+| show-buff = yes
+}}

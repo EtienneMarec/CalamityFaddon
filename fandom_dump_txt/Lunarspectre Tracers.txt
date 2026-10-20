@@ -1,0 +1,59 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Covering
+| type2 = Crafting Material
+| defense = 12
+| setbonus = Increased defense, life regeneration, movement speed, jump speed and flight time<br/>The wearer can run super fast and auto-jump<br/>Debuffs are stronger and longer<br/>All attacks inflict Moon Burnt<br/>Fairies are spawned while running, exploding upon contacting enemies
+| rare = 10
+| sell = {{value|0|50}}
+| hardmode = yes
+| postml = yes
+}}
+
+{| align="right"
+|-
+|{{summoned|Pink Fairy|type=minion}}
+|-
+|{{summoned|Green Fairy|type=minion}}
+|-
+|{{summoned|Blue Fairy|type=minion}}
+|}
+
+'''Lunerspectre Tracers''' are Godseeker Mode [[Equipment|covering]] that is an upgrade to [[Shatterspectre Tracers]]. They are considered a side-grade to [[Seraph Tracers]]. While equipped, they provide the following effects:
+
+*12 [[defense]]
+*5 increased life regen (2.5 HP/s)
+*12% increased movement speed
+*32% increased jump speed
+*The player's max horizontal movement speed is increased to 30 miles per hour (~22 tiles per second).
+*While running, a fairy minion is spawned every 2 seconds.
+**The fairy minion homes onto the closest target, exploding upon contant and dealing 120 classless damage, which scales with the strongest class and cannot critically hit.
+*The player's attacks inflict the [[Moon Burnt]] [[Debuffs|debuff]].
+*All debuffs deal 33% more damage and are 50% longer.
+*[[Wings|Flight time]] is increased by 80 frames (1.33 seconds)
+*Allows auto-jumping
+*Immunity to fall damage
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used In===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+==Notes==
+*Does the player runs or not at the moment is determined by checking if they have hit at least 30 MPH.
+*Fairies can spawn even if the player is currently flying.
+*While Lunarspectre Tracers inherent the additional flight time from [[Spectre Boots]], they do not grant the ability to fly.
+
+==Trivia==
+*The fairy's color will change depending on the time of the day: 
+**From 4:30AM to 12PM, the fairy will be pink.
+**From 12PM to 7:30PM, the fairy will be green.
+**From 7:30PM to 4:30AM, the fairy will be blue.
+
+{{ctota}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

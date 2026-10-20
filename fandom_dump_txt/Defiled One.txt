@@ -1,0 +1,34 @@
+{{buff infobox
+| type = Debuff
+| effects = Wing flight disabled; multi-jump effects disabled; new double jump effect.
+| tooltip = Your wings falter <br/> Wing time and double jumps disabled; new double jump given
+}}
+
+'''Defiled One''' is a [[debuff]] that removes the player's wing flight and multi-jumps. It is inflicted onto the player by [[DWN-∞, Zero]] when alive, and lasts until the [[Challenges|challenge]] is defeated.
+
+== Causes ==
+=== From NPCs ===
+{| class="terraria"
+! colspan=2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Notes ==
+*If the player has the Calamity: Community Remix add-on enabled, the double jump given to the player will override Defiled One's multi-jump disable, essentially granting the player a triple jump.
+
+== Trivia ==
+*Defiled one is a reference to the now-removed [[Defiled Feather]] effect, which also had the ability to disable wing flight.
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

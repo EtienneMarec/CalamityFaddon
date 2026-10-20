@@ -1,0 +1,51 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 564
+| damagetype = Rogue
+| knockback = 7
+| velocity = 10.5
+| tooltip = Throws a disk that fires lasers at nearby enemies<br/>Stealth strikes stick to enemies and unleash a barrage of lasers in all directions
+| rare = 14
+| sell = {{value|0|28}}
+| auto = yes
+| use = 32
+| stack = 1
+| hardmode = yes
+| postml = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Slowly losing life
+| debuff2 = Frostburn
+| debuffchance2 = 100%
+| debuffduration2 = 1.5 seconds
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| element1 = Magic
+| element2 = Cold
+| element3 = Slash
+}}
+|{{item drops infobox
+| [[The Devourer of Gods]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Eradicator''' is a Godseeker Mode [[boomerang]] dropped by [[The Devourer of Gods]]. It passes through walls and sporadically fires nebula lasers at any nearby enemies that deal 40% of the weapon's damage.
+
+Performing a [[stealth strike]] with the Eradicator causes the next boomerang thrown to stick to enemies, after which it will fire lasers in all directions.
+
+{{modifier|rogue}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Despite the boomerang traveling through tiles, it cannot fire lasers to enemies through them.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Boomerangs]]

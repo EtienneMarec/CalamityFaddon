@@ -1,0 +1,26 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| hardmode = yes
+| use = 14
+| color = #1D2631
+| sell = No value
+}}
+
+'''Celestial Remains Wall''' is a background [[wall]] that replace [[Desert Fossil Wall]] in the [[Astral Infection]] [[biome]] upon its creation.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main = yes
+| show-walls = yes
+}}

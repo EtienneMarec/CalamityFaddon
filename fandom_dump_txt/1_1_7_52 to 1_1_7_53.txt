@@ -1,0 +1,42 @@
+{{Patch infobox
+| image = The Hive Mind (1.1.7.52).png
+| patchname = Hive Mind Rework
+| release = 2/19/2017
+}}
+
+The '''1.1.7.52'''<!---The reasoning for this page being merged is that there was a bug with the mod browser that didn't allow the number "1.1.7.52" to be uploading, requiring the number to be increased. Aside from number, both versions are identical.---> and '''1.1.7.53''' updates reworked [[The Hive Mind]], nerfed a few [[weapons]], and resprited several items.
+
+== Additions ==
+*Added [[Hive Blob]] and [[Hive Cyst]].
+*Added [[Brimlance]], [[Gilded Proboscis]], [[Golden Eagle]], [[Rouge Slash]], and [[Seething Discharge]].
+*Added a second [[Slime God Mask]]. <!---Crimulan--->
+
+== Changes ==
+=== [[Bosses]] ===
+*Reduced [[Bumblebirb]]’s spawnrate.
+*Decreased the speeds of [[Cryogen]]’s second, third, and fourth phases.
+*[[The Hive Mind]] changes:
+**Nerfed phase 2's radial Vile Clot damage from {{dv|80|92}} to {{dv|66|80}}.
+**Phase 1 is now stationary, no longer fires blasts of Vile Clots, and starts off by spawning a horde of Hive Blobs which hover near it and fire Vile Clot projectiles at the player.
+**Phase 2 now periodically summons Hive Blobs.
+**Decreased the chance for phase 1 to spawn an [[Eater of Souls]] on hit from 5% to 2.5%, and its chance to spawn a [[tgc:Devourer|Devourer]] from 2.5% to 0.63%.
+**Decreased phase 2's speed.
+
+=== [[Items]] ===
+*Nerfed [[Blade of Enmity]]’s damage from 175 to 150, its use time from 7 to 11, and it no longer inflicts [[Broken Armor]]<!---30 seconds--->, [[Weak]]<!---5 seconds--->, and [[Slow]]<!---20 seconds--->.
+*[[Lucrecia]] now has a 50% chance to grant immunity frames on hit instead of 100%, and it now grants 15 immunity frames instead of 20.
+*[[Mortar Round]]s and [[Rubber Mortar Round]]s now create larger explosions.
+*[[Teratoma]] now uses 5 [[True Shadow Scale]]s in its recipe instead of 5 [[Shadow Scale]]s.
+*Nerfed [[Wrath of the Ancients]]’ damage from 68 to 58.
+
+=== Resprites ===
+*Resprited The Hive Mind.
+*Resprited [[Animus]] and Blade of Enmity.
+*Resprited [[Perennial Ore]].
+*Resprited [[Uelibloom Ore]]’s item.
+*Resprited Slime God Mask.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

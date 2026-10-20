@@ -1,0 +1,33 @@
+{{item infobox
+| type = Ammunition
+| consumable = yes
+| damage = 500
+| damagetype = ranged
+| stack = 9999
+| knockback = 40
+| rare = 5
+| tooltip = A jellyfish that hits with explosive impact.
+| sell = {{value|0|0|10|0}}
+| hardmode = yes
+| velocity = 5
+| velocitymult = 2
+| proj = Jellyfish Cannonball.png
+| projcaption = Jellyfish Cannonball
+}}
+
+'''{{PAGENAME}}''' are [[Hardmode]] cannonballs used solely by the [[Cannon]]. While they can be crafted, when crafted they will spawn a [[Cannonball Jellyfish]] and will yield no items.
+
+Jellyfish Cannonballs will home in on any nearby enemies, and will create a huge explosion upon impact.
+
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Bullets]]
+[[zh:酸液弹]]

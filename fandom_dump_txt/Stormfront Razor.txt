@@ -1,0 +1,41 @@
+{{item infobox
+| image = Stormfront Razor.gif
+| noimagetransclude = yes
+| type = Weapon
+| type2 = Crafting material
+| damage = 50
+| damagetype = Rogue
+| auto = yes
+| stack = 1
+| velocity = 7
+| knockback = 7
+| use = 14
+| tooltip = Throws a throwing knife that leaves sparks as it travels.<br/>Stealth strikes cause the knife to be faster and leave a huge shower of sparks as it travels
+| critical = 12%
+| rare = 5
+| sell = {{value|0|4|80}}
+| hardmode = yes
+| element1 = Holy
+| element2 = Stab
+| element3 = Electricity
+}}
+[[File:Stormfront Razor (demo).gif|frame|Stormfront Razor's normal and stealth strikes]]
+The '''Stormfront Razor''' is a craftable [[Hardmode]] non-consumable [[dagger]] that is an upgrade to the [[Cinquedea]]. When used, it automatically throws a dagger that releases three gravity-affected sparks as it travels. The dagger can pierce four enemies.
+
+Performing a [[stealth strike]] with the Stormfront Razor causes the resulting dagger to move much faster and release a lot more sparks.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

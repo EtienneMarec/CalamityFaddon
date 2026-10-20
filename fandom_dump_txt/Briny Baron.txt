@@ -1,0 +1,52 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 124
+| tooltip = Striking an enemy with the blade causes a briny typhoon to appear<br/>Right click to fire a razorwind aqua blade
+| use = 14
+| knockback = 4
+| auto = yes
+| stack = 1
+| hardmode = yes
+| rare = 8
+| sell = {{value|0|12}}
+| velocity = 4
+| proj = Cyclone.png
+| projcaption = Razorwind Blade
+| element1 = Water
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Duke Fishron]] | 1 | 10%
+}}
+}}
+
+The '''Briny Baron''' is a [[Hardmode]] [[broadsword]] that drops from [[Duke Fishron]]. When used with its primary fire (left-click), it will swing and deal contact damage in a regular manner. Upon striking an enemy, a short-lasting briny typhoon is formed, dealing 50% of the weapon's damage in rapid successions. When used with its secondary fire (right-click), the broadsword itself will not swing but a sharply homing razorblade projectile is thrown out which pierces up to two enemies.
+
+{{modifier|melee}}
+
+== Crafting ==
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Both of Briny Baron's projectiles reset enemy [[immunity frames]] on hit, effectively damaging them per frame. However, other sources of piercing damage, as well as the swing of the sword itself, can block this effect, preventing it from achieving its full damage output.
+*The primary fire has a fixed use time of 19 ticks, and the secondary fire has a fixed use time of 14 ticks; as a result, no modifier can increase or decrease the firing rate of the sword.
+*Only the left-click attack receives [[true melee]] boosts.
+
+== Trivia ==
+*This weapon was previously a Legendary [[Challenge item]]. Before that, it was among the original [[Legendary items]].
+
+[[File:Briny Baron (demo).gif|frame|left|Briny Baron's left-click attack spawning typhoons upon hitting a [[Target Dummy]] and right-click projectiles sliding on a wall and damaging a Target Dummy.]]
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:海爵剑]]
+[[Category:Legendary+ Items]]

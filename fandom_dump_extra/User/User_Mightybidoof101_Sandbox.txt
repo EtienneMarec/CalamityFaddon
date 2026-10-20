@@ -1,0 +1,306 @@
+Sandboxes are epic.
+Currently testing/making: AI page
+
+{{#vardefine:style|background-color: #4b0b0b; color: #ffffff;}}
+
+'''AI''' (short for ''Artificial Intelligence'') is a mechanic which allows enemies to perform actions such as fighting, moving, etc. Calamity adds many custom AIs used by the enemies the mod adds.
+
+Unlike Terraria's vanilla AIs, Calamity's AIs are not guaranteed to have specific IDs due to the dynamic loading systems of tModLoader.
+
+{| class="terraria lined"
+! Name 
+! width="80%" | Description 
+! NPCs
+|-
+| ??? AI || Functions similarly to No AI. Gives off light. Is not affected by gravity. || [[???]]
+|- style="{{#var:style}}"
+| Angery Flame AI || Functions similarly to Flying AI. Rapidly shoots fireballs in the players direction. Regularly releases Homing Flare Dust. Fire rate increases as [[Yharon]]'s health decreases. || [[Angery Flame]]
+|-
+| Angry Dog AI || Functions identically to Unicorn AI. || [[Angry Dog]]
+|- style="{{#var:style}}"
+| Aquatic Aberration AI ||Functions identically to Corite AI. || [[Aquatic Aberration]]
+|- 
+| Aquatic Parasite AI || Functions similarly to Jellyfish AI. Always targets the player. Can launch itself out of the water at the player. || [[Aquatic Parasite]]
+|- style="{{#var:style}}"
+| Aquatic Seeker AI || Functions similarly to Worm AI. Can burrow freely through air. || [[Aquatic Seeker]]
+|- 
+| Aquatic Scourge AI || Functions similarly to Worm AI. Initially passive until attacked by the player. Can burrow freely through air. Periodically releases sand blasts, teeth, and toxic clouds. Moves much faster when outside the [[Sulphurous Sea]] biome. Also moves significantly faster if the player flips gravity. || [[Aquatic Scourge]]
+|- style="{{#var:style}}"
+| Aquatic Urchin AI || Bounces toward the player at high speeds. Cannot move down platforms. || [[Aquatic Urchin]]
+|-
+| Armored Digger AI || Functions similarly to Worm AI. Occasionally flings Martian Saucer Scrap at the player. Despawns if the player moves to the Surface layer. || [[Armored Digger]]
+|- style="{{#var:style}}"
+| Astral Probe AI ||Functions similarly to Flying AI. Occasionally fires a laser at the player. || [[Astral Probe]]
+|-
+| Astrum Aureus AI || Moves toward the player and hops around while firing lasers at the player. Teleports at set intervals. Summons homing astral crystals to chase the player. Summons Aureus Spawns in Revengeance and Death Mode. || [[Astrum Aureus]]
+|- style="{{#var:style}}"
+| Astrum Deus Probe (Flying) AI || Functions similarly to Flying AI. Occasionally fires a laser at the player. || [[Astrum Deus Probe|Astrum Deus Probe (Flying)]]
+|- 
+| Astrum Deus Probe (Orbiting) AI || Orbits at a fixed distance around the small [[Astrum Deus]] worms. Periodically fires astral mines. Switches to a different worm if the one they are orbiting is killed. Switches to the main worm when all the small worms are killed. || [[Astrum Deus Probe|Astrum Deus Probe (Orbiting)]]
+|-  style="{{#var:style}}"
+| Aureus Spawn AI || Teleports near the player. Once hitting 1000 HP, aggressively rams the player and explodes when hitting the player or blocks. || [[Aureus Spawn]]
+|-
+| Astralachnea AI || Functions identically to Spider AI. || [[Astralachnea]]
+|- style="{{#var:style}}"
+| Baby Ghost Bell AI || Functions similarly to No AI. Floats in water. || [[Baby Ghost Bell]]
+|-
+| Big Sightseer AI || Functions similarly to Flying AI. Occasionally shoots an astral blast. || [[Big Sightseer]]
+|- style="{{#var:style}}"
+| Bloatfish AI || Functions similarly to Swimming AI, but never attempts to swim toward the player. Expands in size when hit. || [[Bloatfish]]
+|-
+| Bobbit Worm AI || Stays anchored to a block. Launches out to lunge at the player. || [[Bobbit Worm]]
+|- style="{{#var:style}}"
+| BOHLDOHR AI || Functions similarly to Unicorn AI. Moves by rolling and bouncing. || [[BOHLDOHR]]
+|-
+| Blinded Angler AI || Functions similarly to Swimming AI, but never attempts to swim toward the player. || [[Blinded Angler]]
+|- style="{{#var:style}}"
+| Box Jellyfish AI || Functions identically to Jellyfish AI. || [[Box Jellyfish]]
+|-
+| Brimling AI || Functions similarly to Nebula Floater AI. Teleports and moves towards the player. Occasionally fires a brimstone fireball. || [[Brimling]]
+|- style="{{#var:style}}"
+| Brimstone Elemental AI || Rotates between moving toward the player, flying above the player to shoot brimstone fireballs, and hiding in a shell while shooting brimstone hellblasts and brimstone darts. Summons Brimlings in Revengeance and Death Mode. || [[Brimstone Elemental]]
+|-
+| Brimstone Heart AI || Functions similarly to No AI. Is not affected by gravity. || [[Brimstone Heart]]
+|- style="{{#var:style}}"
+| Bumblebirb AI || Functions similarly to Mothron AI. Flies toward the player, lines up with the player to charge, and periodically lands to spawn smaller Bumblebirbs. Also occasionally releases homing electric feathers. || [[Bumblebirb]]
+|-
+| Bumblebirb (Small) AI || Flies around the player before lunging toward the player at high speeds. || [[Bumblebirb#Summons|Bumblebirb (Small)]]
+|- style="{{#var:style}}"
+| Bumblebirb (Yharon) AI || Flies slowly in the player's direction. Lines up with the player before charging. || [[Jungle Dragon, Yharon#Summons|Bumblebirb (Yharon)]]
+|-
+| Calamitas AI || Functions very similarly to Retinazer AI. Hovers around the player(s) and shooting lasers at them, but the lasers split into three individual lasers after a couple of seconds, which will fan out in different directions. Enters Phase 2 when defeated. Becomes enraged in Phase 2 and summons two minions to assist her, while beginning to shoot Hellfire Balls. Summons a ring of Soul Seekers at 50% health. Summons Life Seekers at 55% and around 10% in Normal mode and Revengeance mode. Becomes immune to high damage during these times in Expert mode or above. Enters no additional phase when defeated during Phase 2. Flies into Space if not beaten before 4:30AM. || [[Calamitas]]
+|- style="{{#var:style}}"
+| Cataclysm AI || Functions similarly to Spazmatism AI. Alternates between charging four times and firing a brimstone flamethrower. Flamethrower gets longer as health gets lower. Flies into Space if not beaten before 4:30AM. || [[Calamitas#Summons|Cataclysm]]
+|-
+| Catastrophe AI || Functions similarly to Spazmatism AI. Alternates between charging five times and firing bouncing brimstone fireballs. Charges get longer as health gets lower. Flies into Space if not beaten before 4:30AM. || [[Calamitas#Summons|Catastrophe]]
+|- style="{{#var:style}}"
+| Catfish AI || Functions similarly to Swimming AI. Does not chase the player unless damaged or if the player is too close. || [[Catfish]]
+|-
+| Ceaseless Void AI || Flies above the player. Periodically releases portals that release slow, homing lasers. Spawns Dark Energies at set health intervals. || [[Ceaseless Void]]
+|- style="{{#var:style}}"
+| Chaotic Puffer AI || Slowly swims towards the player while periodically puffing up every 5 seconds. If it hits the player or dies while puffed up, it creates a large brimstone explosion. || [[Chaotic Puffer]]
+|-
+| Clam AI || Initially passive until hit 5 times or if the player has the [[Clamity]] debuff. Once aggressive, leaps toward the player. Cannot go down platforms. || [[Clam]]
+|- style="{{#var:style}}"
+| Cloud Elemental AI || Moves slowly through the air and through tiles, advancing towards the player while occasionally stopping to summon tornados. || [[Cloud Elemental]]
+|-
+| Cnidrion AI || Functions identically to Mourning Wood AI. || [[Cnidrion]]
+|- style="{{#var:style}}"
+| Colossal Squid AI || Does not attack the player until damaged or if the player is too close. Rams the player and fires damaging ink bombs. Can attach to the player and greatly reduce visibility. || [[Colossal Squid]]
+|-
+| Cosmic Lantern AI || Functions similarly to Dungeon Spirit AI. Moves faster in Revengeance Mode. || [[Signus, Envoy of the Devourer#Summons|Cosmic Lantern]]
+|- style="{{#var:style}}"
+| Cosmic Mine AI || Flies toward the player rapidly and is invincible. After several seconds, slows down and becomes vulnerable. Explodes a few seconds after becoming vulnerable or on player contact. || [[Signus, Envoy of the Devourer#Summons|Cosmic Mine]]
+|-
+| Crab Shroom AI || Functions similarly to Spore AI. Aggressively tries to drift in the player's direction. || [[Crab Shroom]]
+|- style="{{#var:style}}"
+| Crabulon AI || Remains stationary and passive upon spawning. Once hostile, waddles around and occasionally jumps into the air. Launches waves of mushroom projectiles and summons [[Crab Shroom]]s periodically. If [[Revengeance Mode]] is active, occasionally drops volleys of mushrooms onto nearby players from above. || [[Crabulon]]
+|-
+| Crawler AI || Stands still until player approaches or attacks, then they run away until they hit a wall. Then they turn around and continue running in the opposite direction. Cannot jump. || [[Amber Crawler]], [[Amethyst Crawler]], [[Topaz Crawler]], [[Sapphire Crawler]], [[Emerald Crawler]], [[Ruby Crawler]], [[Diamond Crawler]], [[Crystal Crawler]]
+|-  style="{{#var:style}}"
+| Crimulan Slime God AI || Identical to Ebonian Slime God AI except without Crimulan enrage. If Ebonian Slime God is slain, gains defense and movement speed. Constantly launches abyss mines if [[Death Mode]] is active. || [[The Slime God]]
+|-
+| Cryocore AI || Flies in the direction of the player. Gains a speed boost right before attempting to ram the player. || [[Cryocore]]
+|- style="{{#var:style}}"
+| Cryogen AI || Indefinitely flies toward the player while shooting a circle of ice projectiles every 2 seconds during it's first and third phase (while shooting a bunch of icicles during Phase 3). Remains invulnerable while shield is active. Remains vulnerable when shield is destroyed, with it regenerating after 15-20 seconds. Will fly directly above the player and rain icicles on them during phases 2 and 4. Occasional teleporting during Phase 5. Divebombs the player during Phase 6. || [[Cryogen]]
+|-
+| Cryon AI || Functions similarly to Unicorn AI. Does not travel as far. || [[Cryon]]
+|- style="{{#var:style}}"
+| Cuttlefish AI || Functions similarly to Swimming AI. Chases the player as long as they are in water. Can turn transparent to travel through blocks and gain a significant speed boost. || [[Cuttlefish]]
+|-
+| Dank Creeper AI || Functions identically to Cryocore AI. || [[Dank Creeper]]
+|- style="{{#var:style}}"
+| Dark Energy AI || Flies in groups. Attempts to ram the player. || [[Dark Energy]]
+|-
+| Despair Stone AI || Functions similarly to Unicorn AI. Moves by rolling and bouncing. || [[Despair Stone]]
+|-  style="{{#var:style}}"
+| Detonating Flame (Fireball) AI ||Functions similarly to Flying AI. Occasionally fires a fireball at the player || [[Detonating Flame#Variants|Detonating Flame (Fireball)]]
+|-
+| Detonating Flame (Melee) AI ||Functions identically to Dungeon Spirit AI. || [[Detonating Flame#Variants|Detonating Flame (Melee)]]
+|- style="{{#var:style}}"
+| Devil Fish AI || Functions similarly to Swimming AI, but never attempts to swim toward the player while the mask is intact and the player has over 25 percent health. After taking 5 hits or when the player is below 25 percent health, chases the player when they are in water. || [[Devil Fish]]
+|-
+| The Devourer of Gods Final Phase AI || Background goes blue when summoned. Every 15 seconds, the background changes from blue to purple, and vice versa. Doesn't attack the player(s) unless they're a high distance off the ground while the background is blue. Behaves similarly to Worm AI while the background is purple, but doesn't dig through blocks, similar to Desert Scourge. Head frequently shoots a god slayer flamethrower. Regularly summons laser portals. When between 60% and 20% health, occasionally turns transparent and summons laser walls. Background turns black when below 15% health. Background is always black in Death Mode. Depletes attack damage entirely and broadcasts a chat message if damage dealt to him exceeds half of his health. || [[The Devourer of Gods]]
+|-  style="{{#var:style}}"
+| Earth Elemental AI || Flies toward the player and occasionally charges. Fires blasts of rocks. || [[Earth Elemental]]
+|-
+| Ebonian Slime God AI || Hops towards nearby players similarly to [[Slime AI]]. Will fly straight at players at incredible speed if none are close by. Unlike other slimes, sinks in water. Spawns slime minions as damage is taken. Splits in two at half health; split slimes repeatedly fire abyss balls at the player. Becomes more aggressive and faster if Crimulan Slime God is slain. Flying movement becomes much quicker if Slime God Core is slain. Launches floating abyss mines in [[Expert mode]]. Fires more projectiles and moves faster if [[Death Mode]] is active. || [[The Slime God]]
+|-  style="{{#var:style}}"
+| Eidolist AI || Initially passive and does not move. Functions similarly to Nebula Floater AI. Teleports around and moves toward the player. Fires lightning orbs and ice chunks. || [[Eidolist]]
+|-
+| Eidolon Wyrm (Adult) AI || Functions similar to Worm AI. Initially passive until damaged or if the player has the [[Chaos State]] debuff. Fires lightning orbs and ice chunks. Uses telekinesis to pull the player toward the head. || [[Eidolon Wyrm (Adult)]]
+|- style="{{#var:style}}"
+| Eidolon Wyrm (Juvenile) AI || Functions similar to Worm AI. Initially passive until damaged or if the player has the [[Chaos State]] debuff. Fires lightning orbs and ice chunks. Uses telekinesis to pull the player toward the head. || [[Eidolon Wyrm (Juvenile)]]
+|-
+| Eutrophic Ray AI || Initially passive and falls to the floor. Once aggressive, flies back and forth in an attempt to ram the player. || [[Eutrophic Ray]]
+|- style="{{#var:style}}"
+| Flame Pillar AI || Functions similar to No AI. Shoots fireballs every few seconds. || [[Ravager#Summons|Flame Pillar]]
+|-
+| Flounder AI || Stands still until player approaches or attacks, then functions similarly to Swimming AI. Targets player regardless if they are in water. Occasionally shoots sulphuric bubble shards. || [[Flounder]]
+|- style="{{#var:style}}"
+| Frogfish AI || Stands still until player approaches or attacks, then functions identically to Swimming AI. || [[Frogfish]]
+|- 
+| Ghost Bell AI || Functions similarly to No AI. Floats in water. || [[Ghost Bell]]
+|- style="{{#var:style}}"
+| Giant Clam AI || Initially passive until hit 5 times. Inflicts the [[Clamity]] debuff once aggressive. Teleports above the player to crush them and summons Clams. In Hardmode: Can now additionally fire psychic pearls outward and rain psychic pearls from above. || [[Giant Clam]]
+|-
+| Giant Squid AI || Functions similarly to Jellyfish AI. Does not chase the player unless damaged or if the player is too close. Once aggressive, Targest player regardless if they are in water. || [[Giant Squid]]
+|- style="{{#var:style}}"
+| Great Sand Shark AI || Performs horizontal leaps towards the player's direction. Occasionally performs a vertical leap as well. Cause an eruption of sand projectiles when leaping. Can redirect itself mid-leap anad execute a charge in midair. If the player is too far, performs very long charges until it returns to their vicinity. Summons Sand Sharks when below {{dv|50%|75%}} health. || [[Great Sand Shark]]
+|-
+| Gulper Eel AI || Functions similarly to Worm AI. Moves at high speeds and can fly through air. Does not chase the player unless damaged or if the player is too close. || [[Gulper Eel]]
+|- style="{{#var:style}}"
+| Hadarian AI || Functions similarly to Vulture AI. Flies faster and has a larger detection radius. || [[Hadarian]]
+|-
+| Hive AI || Functions similarly to No AI. Periodically summons Hivelings. || [[Hive (enemy)|Hive]]
+|- style="{{#var:style}}"
+| Hive Blob AI || Hovers around the Hive Mind. In Expert Mode, occasionally fires vile clots toward the player. || [[Hive Blob]]
+|-
+| Hive Cyst AI || Functions identically to No AI. || [[Hive Cyst]]
+|- style="{{#var:style}}"
+| The Hive Mind AI || Remains stationary and spawns minions as it takes damage. Teleports every 10 seconds, or immediately if no players are nearby. || [[The Hive Mind]]
+|-
+| The Hive Mind Phase 2 AI || Flies towards the player aggressively. Periodically jolts away from the player when attacked, then spawning a minion and teleporting to another nearby location. If [[Revengeance Mode]] is active, will sometimes circle the player while fading in after a teleport. Uses three special, extremely aggressive teleport attacks if [[Death Mode]] is active. || [[The Hive Mind]]
+|- style="{{#var:style}}"
+| Hiveling AI || Functions similarly to Flying AI. Slowly flies toward the player direction. Cannot move down platforms. || [[Hiveling]]
+|-
+| Ice Clasper AI || Functions similarly to Flying AI. Occasionally shoots a frost bolt. Can turn transparent and move through blocks. || [[Ice Clasper]]
+|- style="{{#var:style}}"
+| Impious Immolator AI || Initially passive and flies back and forth. When damaged, aggressively rams the player and fires homing bursts of fire. || [[Impious Immolator]]
+|-
+| Jungle Dragon, Yharon AI || In Phase 1, rapidly charges at the player while summoning Detonating Flames, flarenados, and infernados. Resorts to teleporting in subphase 4. In Phase 2, flies around while summoning Bumblebirbs, infernados, and fireballs. Charges at the player much less aggressively. Additionally summons an Angery Flame in Death Mode. Releases a high damage fireball ring upon death. || [[Jungle Dragon, Yharon]]
+|- style="{{#var:style}}"
+| Laserfish AI || Functions similarly to Laserfish. Does not chase the player unless damaged or if the player is too close. Shoots lasers at the player when aggressive. || [[Laserfish]]
+|-
+| The Leviathan AI || Sticks to the side of the player. Fires large meteors. Summons Parasea and Aquatic Aberrations. Can charge when below 50% health. || [[The Leviathan]]
+|- style="{{#var:style}}"
+| Luminous Corvina AI || Functions similarly to Swimming AI, but never attempts to swim toward the player. If damaged or the player is too close, periodically releases a scream that inflicts the [[Fish Alert]] debuff. || [[Luminous Corvina]]
+|-
+| Mantis AI || Functions similarly to Fighting AI. Occasionally swings its arm and sends an astral disk in the player's direction. Cannot move down platforms. || [[Mantis]]
+|- style="{{#var:style}}"
+| Mauler AI || Does not chase the player unless damaged or if the player is too close. Once aggressive, rapidly rams the player and periodically releases a ring of damaging sulphuric bubbles. If the player is out of the water for too long, explodes into sulphuric bubbles, dropping no loot. || [[Mauler]]
+|-
+| Mirage Jelly AI || Slowly floats upward. Occasionally teleports. || [[Mirage Jelly]]
+|- style="{{#var:style}}"
+| Moray Eel AI || Functions similarly to Swimming AI. Does not chase the player unless damaged or if the player is too close. || [[Moray Eel]]
+|-
+| Nova AI || Functions similarly to Flying AI. Once in line of sight of the player for a few seconds, it locks into a straight line and flies until hitting either the player or a block and subsequently explodes. || [[Nova]]
+|- style="{{#var:style}}"
+| Oarfish AI || Functions similarly to Worm AI. Moves at high speeds and can fly through air. || [[Oarfish]]
+|-
+| Parasea AI || Functions identically to Dungeon Spirit AI. || [[Parasea]]
+|- style="{{#var:style}}"
+| Perforator Cyst AI || Functions identically to No AI. || [[Perforator Cyst]]
+|-
+| The Perforator Hive AI || Flies back and forth above the player and fires volleys of blood clots and ichor globs once every few seconds. Spawns a Small Perforator at 70% health, a Medium Perforator at 40% health and a Large Perforator at 10% health. Invincible while a Large Perforator is alive. || [[The Perforators]]
+|- style="{{#var:style}}"
+| Phantom AI || Circles around the player at a fixed distance. Occasionally launches a mine in the player's direction. Shoots faster in Revengeance Mode and even faster in Death Mode. || [[Phantom]]
+|-
+| Phantom Spirit AI || Functions identically to Dungeon Spirit AI. || [[Phantom Spirit]]
+|- style="{{#var:style}}"
+| Plague Homing Missile AI || Flies toward the player. Makes a loop when turning around. || [[Plague Homing Missile]]
+|-
+| Plague Mine AI || Functions similarly to Cosmic Mine AI. Moves slower and is not vulnerable for as long. Does not explode after becoming vulnerable on its own. || [[Plague Mine]]
+|- style="{{#var:style}}"
+| Plaguebringer AI || Functions similarly to Queen Bee AI. Alternates between attempting to stay above player while firing projectiles downwards, spawning [[Plague Charger]]s, and charging back and forth very rapidly. || [[Plaguebringer]]
+|-
+| The Plaguebringer Goliath AI || Rotates between firing stingers and rockets, summoning enemies, and charging. When below {{dv|50%|||100%}} health, flies on top of the screen firing plague rockets. Enrages if not in the Underground Jungle. Despawns if not onscreen and outside of the Jungle for too long. || [[The Plaguebringer Goliath]]
+|- style="{{#var:style}}"
+| Polterghast AI || Polterghast functions similar to Plantera AI, shooting projectiles at the player and hooking nearby walls to move. Transforms into Necroghast at 75% health. Hooks detach and function independently. Continues to shoot projectiles at the player. Transforms into Necroplasm at {{dv|33%||50%}} health. Summons Phantoms. Summons a Polterghast (Clone) and has increased damage reduction while it is alive. Aggressively lunges at the player when it is killed. Summons Happy Phantom Spirits when below {{dv|20%||33%}} health. Moves even faster at {{dv|5%||10%}} health. || [[Polterghast]]
+|-
+| Polterghast (Clone) AI || Functions similarly to Polterghast AI in Phase 3. Much more aggressively lunges toward the player. || [[Polterghast#Summons|Polterghast (Clone)]]
+|- style="{{#var:style}}"
+| Polterghast Hook AI || Functions similarly to Plantera Hook AI. When Polterghast transforms into Necroghast, detaches and begins to fire projectiles at the player while continuing to move around. || [[Polterghast#Summons|Polterghast Hook]]
+|-
+| Prism-Back AI || Functions similarly to Swimming AI, but never attempts to swim toward the player. || [[Prism-Back]]
+|- style="{{#var:style}}"
+| Profaned Energy AI || Functions similarly to No AI. Summons Profaned Energies (Lantern) when spawned. || [[Profaned Energy]]
+|-
+| Profaned Energy (Lantern) AI || Functions similarly to Plant AI, only bound to a specific entity. Occasionally releases Holy Bombs. || [[Profaned Energy#Lanterns|Profaned Energy (Lantern)]]
+|- style="{{#var:style}}"
+| Profaned Guardian (Crystal) AI || Stays close to the Main Guardian. Periodically releases damaging fire orbs. Occasionally charges at the player. Nearly invincible when outside of the Hallow or Underworld biomes. Flies away and despawns if not beaten before 7:30PM. || [[Profaned Guardians|Profaned Guardian (Crystal)]]
+|-
+| Profaned Guardian (Defense) AI || Flies in the direction of the player. Periodically releases holy spears. || [[Providence, the Profaned Goddess#Summons|Profaned Guardian (Defense)]]
+|- style="{{#var:style}}"
+| Profaned Guardian (Healer) AI || Slowly flies around Providence. Occasionally tries to charge the player. Heals Providence while alive. || [[Providence, the Profaned Goddess#Summons|Profaned Guardian (Healer)]]
+|-
+| Profaned Guardian (Main) AI || Functions similarly to Corite AI. Periodically releases holy spears. Releases exploding flares when charging below 25% health. Invincible until the Crystal and Rock Guardians are killed. Nearly invincible when outside of the Hallow or Underworld biomes. Flies away and despawns if not beaten before 7:30PM. || [[Profaned Guardians|Profaned Guardian (Main)]]
+|- style="{{#var:style}}"
+| Profaned Guardian (Offense) AI || Functions similarly to Corite AI. Periodically releases holy spears. Releases exploding flares when charging below 25% health. || [[Providence, the Profaned Goddess#Summons|Profaned Guardian (Offense)]]
+|-
+| Profaned Guardian (Rock) AI || Stays close to the Main Guardian. Periodically releases holy spears. Occasionally charges at the player. Nearly invincible when outside of the Hallow or Underworld biomes. Flies away and despawns if not beaten before 7:30PM. || [[Profaned Guardians|Profaned Guardian (Rock)]]
+|- style="{{#var:style}}"
+| Providence AI || Flies above the player launching a barrage of holy flame attacks. Can enter cocoon to increase damage reduction and fire cocoon flames or spears. Summons a crystal at 75% health. Can perform a holy ray attack when below 50% health. Summons Profaned Guardians at 33% health. Inflicts the Holy Inferno debuff if the player is too far away. Nearly invincible when outside of the Hallow or Underworld biomes. Flies away and despawns if not beaten before 7:30PM. || [[Providence, the Profaned Goddess]]
+|-
+| Ravager (Body) AI || Functions similarly to Golem Body AI. Summons [[Rock Pillar]]s and [[Flame Pillar]]s. || [[Ravager|Ravager (Body)]]
+|- style="{{#var:style}}"
+| Ravager (Claw) AI || Functions identically to Golem Fist AI. || [[Ravager#Parts|Ravager (Claw)]]
+|-
+| Ravager (Head) AI || Bound to an entity. || [[Ravager]] Bound to [[Ravager#Parts|Ravager (Body)]]
+|- style="{{#var:style}}"
+| Ravager (Leg) AI || Bound to an entity. || [[Ravager]] Bound to [[Ravager#Parts|Ravager (Body)]]
+|-
+| Ravager (Phase 2 Head) AI || Functions similarly to Flying AI. Flies around and occasionally summons homing darts. || [[Ravager#Parts|Ravager (Phase 2 Head)]]
+|- style="{{#var:style}}"
+| Reaper Shark AI || Once damaged or if the player is too close, begins to either swim toward the player or perform dash attacks. Can move through blocks to reach the player. || [[Reaper Shark]]
+|-
+| Rock Pillar AI || Flies up into the air and then comes back down in an attempt to crush the player, breaking upon slamming into the ground. || [[Ravager#Summons|Rock Pillar]]
+|- style="{{#var:style}}"
+| Scryllar (Normal) AI || Functions similarly to Hovering AI. Slowly flies back and forth around the player. Can move through blocks. || [[Scryllar|Scryllar (Normal)]]
+|-
+| Scryllar (Rage) AI || Functions similarly to Hovering AI. Quickly flies by the player, flying a short distance before turning around. Can move through blocks. || [[Scryllar|Scryllar (Rage)]]
+|-  style="{{#var:style}}"
+| Sea Floaty AI || Crawls along the floor. Never chases the player. Once damaged, quickly goes through blocks and leaves. || [[Sea Floaty]]
+|-
+| Sea Minnow AI || Functions similarly to Swimming AI. Attempts to swim away from the player if they are in water. Gains a speed boost when hitting a wall. || [[Sea Minnow]]
+|- style="{{#var:style}}"
+| Sea Serpent AI || Functions similarly to Worm AI. Moves at high speeds and can fly through air. || [[Sea Serpent]]
+|-
+| Sea Urchin AI || Functions similarly to Sea Urchin AI, but moves slower and does not jump as high. || [[Sea Urchin]]
+|- style="{{#var:style}}"
+| Scorn Eater AI || Leaps in the player's direction at high speeds. Cannot move down platforms. || [[Scorn Eater]]
+|-
+| Shockstorm Shuttle AI || Functions similarly to Martian Saucer AI. Flies around the player and shoots electric bolts and lasers. || [[Shockstorm Shuttle]]
+|- style="{{#var:style}}"
+| Signus, Envoy of the Devourer AI || Rotates between ramming the player, flying above the player and firing cosmic fireballs, and charging the player similar to Corite AI. If above 50% health, can be knocked back when ramming the player. Summons Cosmic Lanterns in the charging attack. When below 50% health, cosmic fireballs rain from the sky. Enrages and moves much faster when leaving the Underworld. Summons Cosmic Mines when teleporting in Revengeance and Death Mode. || [[Signus, Envoy of the Devourer]]
+|-
+| Anahita AI || Rotates between firing water spears, clefs, and ice mist and firing Detonating Bubbles. Can charge at the player similar to Corite AI when below 50% health. Periodically summons an ice shield to block damage. || [[Anahita]]
+|- style="{{#var:style}}"
+| Siren Clone AI || Does not move. Constantly fires ice mist and water spears at the player. || [[Siren Clone]]
+|-
+| The Slime God AI || Continuously flies towards the player in erratic trajectories. Moves faster if [[Revengeance Mode]] is active. || [[The Slime God]]
+|- style="{{#var:style}}"
+| Small Sightseer AI || Functions similarly to Flying AI. || [[Small Sightseer]]
+|-
+| Soul Seeker AI || Rotates closely around [[Calamitas]]. Occasionally shoots Brimstone Darts. || [[Soul Seeker]]
+|- style="{{#var:style}}"
+| Soul Seeker (Supreme) AI || Rotates around [[Supreme Calamitas]]. Occasionally shoots Brimstone Darts. || [[Soul Seeker (Supreme)]]
+|-
+| Soul Slurper AI || Functions similarly to Flying AI. Occasionally fires a splitting laser at the player. Split lasers slightly home in. || [[Soul Slurper]]
+|- style="{{#var:style}}"
+| Stasis Probe AI || Functions similarly to Flying AI. Occasionally fires a laser at the player || [[Stasis Probe]]
+|-
+| Stasis Probe (Naked) AI || Functions similarly to Flying AI. Occasionally fires a laser at the player || [[Stasis Probe (Naked)]]
+|- style="{{#var:style}}"
+| Sunskater AI || Passive until player attacks, then rams the player at high speeds unless the player is submerged in water. Sinks and does not move if in water. || [[Sunskater]]
+|- 
+| Supreme Calamitas AI || Rotates between firing brimstone hellblasts, brimstone gigablasts, flying above the player, and charging. Activates bullet hell-type segments at certain health intervals. Summons Sepulcher, the Supreme brothers, and Soul Seekers (Supreme) at certain health intervals. || [[Supreme Calamitas]]
+|- style="{{#var:style}}"
+| Supreme Cataclysm AI || Flies in a fixed position above the player. Occasionally shoots a brimstone hellblast. || [[Supreme Cataclysm]]
+|-
+| Supreme Catastrophe AI || Functions similarly to Supreme Cataclysm AI, but is in a different fixed position. || [[Supreme Catastrophe]]
+|- style="{{#var:style}}"
+| Toxic Minnow AI || Functions similarly to Swimming AI, but never attempts to swim toward the player. Releases several toxic clouds on death. || [[Toxic Minnow]]
+|-
+| Trasher AI || Functions similarly to Fighter AI when in land, and can move through blocks. Functions similarly to Swimming AI when in water, but does not chase the player unless damaged or if the player is too close. || [[Trasher]]
+|- style="{{#var:style}}"
+| Viperfish AI || Functions similarly to Swimming AI. Does not chase the player unless damaged or if the player is too close. || [[Viperfish]]
+|-
+| Viruling AI || Functions identically to Flying AI. || [[Viruling]]
+|-
+|}
+
+== See Also==
+* [[tgc:AI|AI]] on the Vanilla Wiki
+
+{{Game mechanics}}

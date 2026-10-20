@@ -1,0 +1,42 @@
+{{dedicated|Dan|Developer}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = ranged
+| damage = 443
+| knockback = 5
+| rare = 14
+| sell = {{value|0|20}}
+| use = 5
+| stack = 1
+| velocity = 18
+| tooltip = 75% chance to not consume ammo<br/>Rapidly fires a spread of bullets that close in over time<br/>Right clicking while standing still consumes a Plasma Grenade to fire a large deathray<br/>While the deathray is active, you are afflicted with slow, on fire, and oiled
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Water
+| element3 = Dark
+}}
+}}
+
+The '''SDOMG''' is a craftable Godseeker Mode [[gun]] which is the upgraded version of [[SDFMG]]. When left click is held, it rapidly fires a spread of uneven bullets which slowly becomes more accurate over the course of 10 seconds. If the player has [[Plasma Grenade]]s and is standing still, the item's right click function can be used which shoots a large laser beam which inflicts the player with [[On Fire!]], [[Slow]], and [[Oiled]] while used. Each 5 seconds used will consume one Plasma Grenade. 
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+
+== Trivia ==
+*This item originated as a suggestion by the dedicatee several years before the item's implementation.
+*The item's name is an acronym for Space Dragon Omni Machine Gun. 
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

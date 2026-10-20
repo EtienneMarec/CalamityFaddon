@@ -1,0 +1,44 @@
+{{addon|Catalyst}}
+{{npc infobox
+| type = Flying Enemy
+| environment = Snow biome
+| ai = Primal Aspid AI
+| damage = {{element|Unholy}} {{dv|50|100}}
+| life = {{dv|430|860}}
+| defense = 20 
+| dr = 15%
+| knockback = {{dv|20%|28%}}
+| money = {{value|0|0|10|0}}
+| Essence of Chaos|{{dv|2-3|3-4}}|100%
+| hardmode = yes
+| debuff = Vulnerability Hex
+| debuffchance = 100%
+| duration = 2 seconds
+| immune1 = Vulnerability Hex
+| immune2 = Confused
+| immune3 = Kami Flu
+| immune4 = Brimstone Flames
+| Cryo Key | 1 | 20%
+| Aspid Blaster | 1 | 10%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_20.wav
+| soundtext = Shoot
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| vulnerable3 = Dark
+| vulnerable4 = Machine
+| resistant1 = Poison
+| resistant2 = Cold
+}}
+The '''Primal Aspid''' is a [[Hardmode]] [[enemy]] which spawns in the [[Snow biome]]. It slowly pursues the player in an attempt to ram them, occasionally firing a spread of 3 projectiles. It will emit dust from its mouth shortly before firing, telegraphing the attack. The projectile harmlessly bursts upon contact with tiles. Killing 20 Primal Aspids will summon [[Cryogen]]. Once found the Player it will chase it relentlessly until It has been slain Naturally or by the Player.
+{{-}}
+
+== Trivia ==
+* The Primal Aspid is a direct homage to an enemy of the same name and similar apperance from the game, ''[https://store.steampowered.com/app/367520/Hollow_Knight/ Hollow Knight]''.
+** The fact that it spawns in the Snow biome is a reference to an ash-filled area in Hollow Knight's called Kingdom's Edge, which is where Primal Aspids are found.
+** They drop [[Essence of Chaos]] because of how much it is filled with rage to murder you.
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

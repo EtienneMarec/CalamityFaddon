@@ -1,0 +1,39 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| auto = no
+| damagetype = magic
+| damage = 1220
+| mana = 82
+| stack = 1
+| tooltip = Casts a slow moving projectile that shoots bullets behind it. 
+| knockback = 7.5
+| velocity = 2
+| rare = C2
+| sell = {{value|2}}
+| use = 30
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Evercold
+| debuffduration = 5 seconds
+| debuffchance = 50%
+| debuff2 = Lacelic Web
+| debuffduration2 = 5 seconds
+| debuffchance2 = 50%
+| element1 = Cold
+| element2 = Water
+}}
+'''Lacelinous Nocturne''' is a craftable Godseeker Mode [[Wands|wand]]. It fires a large triangular projectile that shoots bullets on its back. The bullets create an explosion upon touching an enemy or tile.
+
+==Crafting==
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

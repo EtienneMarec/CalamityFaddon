@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = ranged
+| damage = 85
+| knockback = 3
+| rare = 11
+| sell = {{value|0|22}}
+| stack = 1
+| auto = yes
+| use = 19
+| velocity = 20
+| tooltip = Fires 5 bullets at once
+| hardmode = yes
+| postml = yes
+| element1 = Fire
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[The Dragonfolly]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Golden Eagle''' is a Godseeker Mode [[gun]] that drops from [[The Dragonfolly]]. It rapidly fires bullets in groups of 5, with a small spread.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

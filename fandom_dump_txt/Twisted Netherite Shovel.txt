@@ -1,0 +1,38 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| tooltip = Digs out a 10 by 10 square of tiles 
+| damage = 45
+| debuff = Wither
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| pick = 60
+| knockback = 8
+| rare = 13
+| use = 60
+| sell = {{value|0|12}}
+| hardmode = yes
+| postml = yes
+| toolspeed = 5
+| element1 = dark
+}}
+
+The '''Twisted Netherite Shovel''' is a craftable Godseeker Mode [[pickaxe]] that digs out squares of 10 by 10 tiles centered around where the player is clicking. It inflicts the [[Wither]] debuff on hit. It is important to note that the shovel's pickaxe power is incredibly low, and can only effectively clear out lower tier blocks.
+
+{{modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Twisted Netherite}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

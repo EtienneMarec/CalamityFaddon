@@ -1,0 +1,41 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = 10% increased damage<br/>Shade rains down when you are hit<br/>You will confuse nearby enemies when you are struck
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| hardmode = yes
+| debuff = Confused
+| debuffduration = 5-8 seconds
+| debufftip = Movement is reversed
+| proj = Aura Rain.png
+| projcaption = Shade Rain
+| element1 = unholy
+| element2 = water
+}}
+
+The '''Amalgamated Brain''' is a craftable [[Hardmode]] [[covering]]. It grants an increase to all damage types, causes shade to rain down when invincibility frames are active, and has a chance to inflict [[Confused]] on nearby enemies when the player is hit. The chance to inflict Confused and its duration both scale with the damage the player took. This covering can be considered the [[Corruption]] counterpart to the [[Bloody Worm Scarf]], even though they both can be crafted regardless of the world evil.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Shade rain deals magic damage and benefits from magic bonuses. However, its damage cannot be increased through any means.
+*The shade rain has a base damage of 60.
+
+== Tips ==
+*If the player lives in a Corruption world, defeating the [[Eater of Worlds]] will allow the [[Dryad]] to sell the [[Brain of Confusion]]. Conversely, she will start selling the [[Rotten Brain]] if the player defeats [[The Perforators]] in a [[Crimson]] world.
+*While the Bloody Worm Scarf is geared towards melee users, the Amalgamated Brain is geared towards all types of classes, as it increases damage for all classes.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[zh:融合之脑]]
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

@@ -1,0 +1,189 @@
+{{Historical content}}
+'''Defense damage''' is a mechanic that makes certain [[enemies]]' and [[bosses]]' attacks reduce the player's [[defense]] and [[Damage Reduction]] on hit. The amount of defense damage depends on the actual [[damage]] of the enemy or projectile, the mode and the stage of the game. Whenever defense damage is taken, a special sound effect plays and a gray number pops up above the Player, showing the amount of defense damage.
+
+== Calculations ==
+=== Defense ===
+Upon getting hit by an attack with defense damage, the player's defense stat is reduced by 15% of the damage taken up to a maximum of 25% of the player's defense. The [[Draedon's Heart]] reduces defense damage by 50%. If a boss is alive, defense damage can't be lower than a certain value:
+{| class="terraria lined"
+! Mode
+! [[Pre-Hardmode]]
+! [[Hardmode]]
+! Godseeker Mode
+|-
+| Normal
+| 1
+| 2
+| 3
+|-
+| Expert
+| 2
+| 4
+| 6
+|-
+| Revengeance
+| 3
+| 6
+| 9
+|-
+| Death
+| 4
+| 8
+| 12
+|-
+| Malice
+| 5
+| 10
+| 15
+|}
+Defense can't be reduced below 0 due to defense damage, and is set to 0 in case enough defense damage is received.
+
+=== Recovery ===
+After all invincibility frames wear off and an additional<math>\frac{1}{6}</math>of a second (10 ticks<ref name="tick_desc">A tick is a time unit countable by the software. Most of ''Terraria''&#39;s updating logic happens every tick. A tick has the length of 1/60th of a second, hence there are 60 ticks in a second and 3600 ticks in a minute.</ref>) has passed, defense damage will decrease (i.e. lost defense will start to recover). The rate is dependent on two values:
+*How long the player has been recovering from defense damage (currentRecovery)
+*The total amount of time the player is currently going to be recovering from defense damage for (totalRecovery)
+
+TotalRecovery has a base value of <math>\frac{5}{6}</math>of a second, and is incremented by another<math>\frac{5}{6}</math>of a second each time the player takes more defense damage while recovering. This also resets currentRecovery back to 0. Defense damage is decreased linearly based on <math>\frac{currentRecovery}{totalRecovery}</math>. So if a player is one third of the way through their recovery timer, they will have recovered one third of their lost defense.
+
+=== Damage Reduction ===
+Defense damage also reduces Damage Reduction by the following amount:<math>Damage\ Reduction \times \frac{Defense\ damage}{Defense}</math>.
+
+== NPCs capable of dealing defense damage ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! Image !! NPC
+|-
+| {{item|mode=table|A Desert Nuisance}}
+|-
+| {{item|mode=table|Adult Eidolon Wyrm|size=450px}}
+|-
+| {{item|mode=table|Anahita}}
+|-
+| {{item|mode=table|Aquatic Aberration}}
+|-
+| {{item|mode=table|Aquatic Scourge|size=450px}}
+|-
+| {{item|mode=table|Armored Digger Head}}
+|-
+| {{item|mode=table|Astrum Aureus}}
+|-
+| {{item|mode=table|Astrum Deus}}
+|-
+| {{item|mode=table|Atlas}}
+|-
+| {{item|mode=table|Aureus Spawn}}
+|-
+| {{item|mode=table|Bobbit Worm}}
+|-
+| {{item|mode=table|Bohldohr}}
+|-
+| {{item|mode=table|Calamitas}}
+|-
+| {{item|mode=table|Cataclysm}}
+|-
+| {{item|mode=table|Catastrophe}}
+|-
+| {{item|mode=table|Ceaseless Void}}
+|-
+| {{item|mode=table|Cosmic Mine}}
+|-
+| {{item|mode=table|Crabulon}}
+|-
+| {{item|mode=table|Cragmaw Mire}}
+|-
+| {{item|mode=table|Crimulan Slime God}}
+|-
+| {{item|mode=table|Cryogen's Shield}}
+|-
+| {{item|mode=table|Cryogen}}
+|-
+| {{item|mode=table|Dank Creeper}}
+|-
+| {{item|mode=table|Dark Energy}}
+|-
+| {{item|mode=table|Desert Scourge}}
+|-
+| {{item|mode=table|Detonating Flame}}
+|-
+| {{item|mode=table|Devil Fish}}
+|-
+| {{item|mode=table|Earth Elemental}}
+|-
+| {{item|mode=table|Ebonian Slime God}}
+|-
+| {{item|mode=table|Eidolon Wyrm}}
+|-
+| {{item|mode=table|Giant Clam}}
+|-
+| {{item|mode=table|Gnasher}}
+|-
+| {{item|mode=table|Great Sand Shark}}
+|-
+| {{item|mode=table|Gulper Eel Head}}
+|-
+| {{item|mode=table|Jungle Dragon, Yharon|}}
+|-
+| {{item|mode=table|Leviathan|size=450px}}
+|-
+| {{item|mode=table|Mantis}}
+|-
+| {{item|mode=table|Mauler}}
+|-
+| {{item|mode=table|Nuclear Terror}}
+|-
+| {{item|mode=table|Plague Homing Missile}}
+|-
+| {{item|mode=table|Plague Mine}}
+|-
+| {{item|mode=table|Plaguebringer}}
+|-
+| {{item|mode=table|Polterghast}}
+|-
+| {{item|mode=table|Profaned Guardians}}
+|-
+| {{item|mode=table|Ravager}}
+|-
+| {{item|mode=table|Reaper Shark}}
+|-
+| {{item|mode=table|Rock Pillar}}
+|-
+| {{item|mode=table|Scorn Eater}}
+|-
+| {{item|mode=table|Signus, Envoy of the Devourer}}
+|-
+| {{item|mode=table|Slime God Core}}
+|-
+| {{item|mode=table|Storm Weaver Head}}
+|-
+| {{item|mode=table|Supreme Calamitas}}
+|-
+| {{item|mode=table|The Devourer of Gods}}
+|-
+| {{item|mode=table|The Dragonfolly}}
+|-
+| {{item|mode=table|The Hive Mind}}
+|-
+| {{item|mode=table|The Perforators}}
+|-
+| {{item|mode=table|The Plaguebringer Goliath}}
+|-
+| {{item|mode=table|Tooth Ball}}
+|-
+| {{item|mode=table|Trasher}}
+|-
+| {{item|mode=table|XM-05 Thanatos|size=450px}}
+|-
+| {{item|mode=table|XS-01 Artemis}}
+|-
+| {{item|mode=table|XS-03 Apollo}}
+|}
+{{collapse bottom}}
+
+== Notes ==
+*The mode-based floor for defense damage is applied before the cap of 25% of the player's maximum defense. This means theoretically, a player can take less than that floor, if they have sufficiently low maximum defense.
+**For example, if a player has less than 60 defense when fighting a post-Moon Lord boss in Malice Mode, they would take less than the 15 defense damage specified in the table.
+
+== References ==
+<references/>
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

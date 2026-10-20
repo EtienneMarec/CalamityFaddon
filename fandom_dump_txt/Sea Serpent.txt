@@ -1,0 +1,97 @@
+{{npc infobox | boxwidth = 26em
+| type = Burrowing Enemy
+| type2 = Aquatic
+| environment = Sunken Sea
+| ai = Sea Serpent AI
+| life = {{dv|3,000|6,000}}
+| knockback = 100
+| banner = yes
+| Serpentine | 1 | 25%
+| Clam Chowder | 1 | 5%
+| hardmode = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Eutrophication
+| listexclude = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+'''Sea Serpents''' are [[Hardmode]] [[enemies]] that spawn in the [[Sunken Sea]] biome. They are initially passive, and swim in a loop underneath the player. After they take damage, they become aggressive and try to swim directly towards the player. Sea Serpents can swim through blocks and do not require water to move.
+
+== Segments ==
+{| v-align = top
+|{{npc infobox
+| type = Burrowing Enemy
+| type2 = Aquatic
+| environment = Sunken Sea
+| ai = Sea Serpent AI
+| name = Sea Serpent Head
+| life = {{dv|3,000|6,000}}
+| damage = {{dv|50|100}}
+| defense = 10
+| hardmode = yes
+| knockback = 100
+| vulnerable1 = Machine
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| type2 = Aquatic
+| environment = Sunken Sea
+| ai = Sea Serpent AI
+| name = Sea Serpent Tail
+| life = {{dv|3,000|6,000}}
+| damage = {{dv|20|40}}
+| defense = 30
+| hardmode = yes
+| knockback = 100
+| vulnerable1 = Machine
+}}
+|-
+|{{npc infobox
+| type = Burrowing Enemy
+| type2 = Aquatic
+| environment = Sunken Sea
+| ai = Sea Serpent AI
+| name = Sea Serpent Body 1
+| life = {{dv|3,000|6,000}}
+| damage = {{dv|40|80}}
+| defense = 20
+| hardmode = yes
+| knockback = 100
+| vulnerable1 = Machine
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| type2 = Aquatic
+| environment = Sunken Sea
+| ai = Sea Serpent AI
+| name = Sea Serpent Body 2
+| life = {{dv|3,000|6,000}}
+| damage = {{dv|40|80}}
+| defense = 20
+| hardmode = yes
+| knockback = 100
+| vulnerable1 = Machine
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| type2 = Aquatic
+| environment = Sunken Sea
+| ai = Sea Serpent AI
+| name = Sea Serpent Body 3
+| life = {{dv|3,000|6,000}}
+| damage = {{dv|30|60}}
+| defense = 20
+| hardmode = yes
+| knockback = 100
+| vulnerable1 = Machine
+}}
+|}
+
+== Notes ==
+*Sea Serpents are able to deal contact damage while they are passive.
+
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

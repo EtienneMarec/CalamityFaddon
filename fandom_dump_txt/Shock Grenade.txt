@@ -1,0 +1,54 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| stack = 9999
+| auto = yes
+| damagetype = Spy
+| damage = 90
+| knockback = 1
+| debuff = Electrified
+| debufftip = You cannot move
+| debuffchance = 100%
+| debuffduration = 3 seconds (Aura, Explosion)<br/>2 seconds (Lightning bolts)
+| consumable = yes
+| rare = 8
+| tooltip = Throws a grenade that explodes into a burst of lightning<br/>Stealth strikes cause the grenade to leave an electrifying aura when it explodes
+| sell = {{value|0|0|20}}
+| use = 17
+| velocity = 12.5
+| hardmode = yes
+| proj = Tesla Aura.gif
+| projcaption = Tesla Aura
+| proj2 = Shock Grenade Bolts.gif
+| proj2caption = Lightning Bolts
+| element1 = Magic
+| element2 = Electricity
+| element3 = Bomb
+}}
+|{{item drops infobox
+| [[tgc:Martian Officer|Martian Officer]]|3-8|{{dv|25%|33.33%}}
+| [[tgc:Brain Scrambler|Brain Scrambler]]<br/>[[tgc:Gray Grunt|Gray Grunt]]<br/>[[tgc:Giga Zapper|Giga Zapper]]<br/>[[tgc:Martian Engineer|Martian Engineer]]<br/>[[tgc:Ray Gunner|Ray Gunner]]<br/>[[tgc:Scutlix Rider|Scutlix Rider]]|1-4|{{dv|20%|25%}}
+}}
+}}
+
+'''Shock Grenades''' are craftable consumable [[Hardmode]] [[Spy]] [[bombs]] that can also drop from the majority of [[enemies]] that spawn during the [[Martian Madness]] [[Events|event]]. It throws a shock grenade that explodes upon striking a tile or enemy, releasing several small lightning bolts that can go through tiles. If the grenade's explosion was caused by striking a tile, all of the lightning bolts travel away from the tile in question.
+
+Performing a [[stealth strike]] with a Shock Grenade causes an electrifying aura, which continually damages enemies within it, to be left at the resulting grenade's point of impact; additionally, it causes the lightning bolts the grenade spawns to home in on the nearest enemy.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Bombs]]

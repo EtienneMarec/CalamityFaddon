@@ -1,0 +1,43 @@
+{{npc infobox
+| type = Enemy
+| environment = Exosphere
+| ai = Unicorn AI
+| damage = {{dv|18|36}}
+| life = {{dv|60|120}}
+| defense = 4
+| knockback = {{dv|70%|73%}}
+| hardmode = yes
+| postml = yes
+| debuff = Glacial State
+| debuffchance = 100%
+| debufftip =  Cannot move and defense is shattered
+| duration = 20 seconds
+| debuff = Sunscreamed
+| debuffchance = 100%
+| debufftip =  Recieved a five thousand degree burn from pure light and radiation
+| duration = 20 seconds
+| banner = yes
+| immune1 = Kami Flu
+| money = {{sc|2}}
+| Exo Dogtooth|1|12.5%
+| Adhesive Bandage|1|{{dv|1%|2%}}
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| resistant1 = Holy
+| resistant2 = Cold
+| resistant3 = Poison
+| resistant4 = Machine
+| vulnerable1 = Fire
+| vulnerable2 = Unholy
+| vulnerable3 = Magic
+}}
+
+The '''Blockhound (Japanese: ブロックハウンド Burokkuhaundo)''' is a Godseeker Mode [[enemy]] that spawns in the Exosphere after [[XS-01 Artemis]] and [[XS-03 Apollo]] have been defeated. It has the same AI as the [[Unicorn]], charging and ramming into the player at ludicrously high speeds. This, along with their ability to inflict [[Sunscreamed]], makes them a dangerous enemy for any and all players.
+
+== Trivia ==
+*The Blockhound is the direct offspring of Blockaroz after he absorbed a fragment of an [[Ogscule]] and shattered into a thousand pieces.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

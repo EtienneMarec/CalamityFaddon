@@ -1,0 +1,55 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 50
+| auto = yes
+| use = 25
+| knockback = 6.5
+| velocity = 12
+| damagetype = Rogue
+| rare = 7
+| sell = {{value|0|12}}
+| stack = 1
+| tooltip = Throws a sticky bomb that explodes into spikes and poison clouds<br/>Stealth strikes throw three at once
+| hardmode = yes
+| debuff = Venom
+| debuffduration = 3 seconds (Bomb)<br/>2 seconds (Spike, Cloud)
+| debufftip = Losing life
+| debuffchance = 100%
+| proj = Ballistic Poison Bomb (projectile).png
+| projcaption = Ballistic Poison Bomb
+| proj2 = Ballistic Poison Cloud.gif
+| proj2caption = Ballistic Poison Cloud
+| proj3 = Supernova Spike.png
+| proj3caption = Spike
+| element1 = Poison
+| element2 = Dark
+| element3 = Bomb
+}}
+[[File:Ballistic Poison Bomb (demo).gif|200px|frame|The Ballistic Poison Bomb in use.]]
+The '''Ballistic Poison Bomb''' is a craftable [[Hardmode]] [[bombs|bomb]]. It throws bombs that are affected by gravity. Upon contact with an enemy, it explodes and launches several fragments that fly in random directions, while also creating a poison cloud similar to the one produced by the [[Toxic Flask]]. Collision with a tile will cause the bomb to stick onto the tile for a short period of time, after which, it launches the fragments. The shrapnel will stick to all tiles and enemies, and will explode after a short delay. The poison clouds and shrapnel deal 30% of the bomb's damage.
+
+Performing a [[stealth strike]] with the Ballistic Poison Bomb will cause three bombs to be thrown instead of one.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+
+== Notes ==
+*The poison clouds deal typeless damage rather than rogue damage. However, boosting the weapon's damage will still increase the damage of the poison clouds.
+**As a result, they cannot inflict critical hits and are unaffected by the [[Adrenaline Mode]] and [[Rage Mode]] [[buffs]].
+*Unlike [[Seafoam Bomb|its predecessor]], it only explodes on impact when hitting an enemy. When impacting a tile, it behaves similarly to a Sticky Bomb.
+
+{{Abyssal Gear}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Bombs]]

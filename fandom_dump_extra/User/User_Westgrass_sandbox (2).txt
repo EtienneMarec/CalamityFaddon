@@ -1,0 +1,80 @@
+<!--
+
+# common css define.
+-->{{#vardefine:iblock|style="display: inline-block;"}}<!-- 
+-->{{#vardefine:listitem|class="fake-bullet"}}<!--
+-->{{#vardefine:listbox|padding:0.5em 0;}}<!--
+-->{{#vardefine:listcolumn|padding: 0 0.25em;}}<!--
+
+# NOTE: We NEED -14px left & right margin to get enough space for "enemies" and "biomes" block to show as 2-col on iphone7+ (414px width).
+--><div id="mainpage-global-wrapper"><!-- 
+#### SECTION 2 start [items, mechanics, bosses]
+2-->{{flexstart|_id=sect-2}}<!-- 
+	L-->{{flexstart|item-box|direction=column|grow=22|shrink=22}}<!-- 
+		T-->{{flexstart|item-box|grow=1}}<!-- 
+			-->{{flexstart|item|id=mf-items|width=100%|cssclass=fp-box}}<!-- 
+				-->{{heading|[[Items]]|[[File:Asgard's Valor.png|link=]]}}<!-- 
+				-->{{flexstart|css={{#var:listbox}}}}<!-- 
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div {{#var:listitem}}> [[Accessories]]</div><!--
+						--><div {{#var:listitem}}> [[Weapons]] & [[Ammunition|Ammo]]</div><!-- "Ammunition" is tooooo long to layout.
+						--><div {{#var:listitem}}> [[Armor]]</div><!--
+						--><div {{#var:listitem}}> [[Bars]]</div><!--
+						--><div {{#var:listitem}}> [[Blocks]]</div><!--
+						--><div {{#var:listitem}}> [[Crafting station]]s</div><!--
+						--><div {{#var:listitem}}> [[Crafting material]]s</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div {{#var:listitem}}> [[Developer items]]</div><!--
+						--><div {{#var:listitem}}> [[Legendary items]]</div><!--
+						--><div {{#var:listitem}}> [[Furniture]]</div><!--
+						--><div {{#var:listitem}}> [[Minions]]</div><!--
+						--><div {{#var:listitem}}> [[Miscellaneous]]</div><!-- 
+						--><div {{#var:listitem}}> [[Mount]]s</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div {{#var:listitem}}> [[Ores]]</div><!--
+						--><div {{#var:listitem}}> [[Pets]]</div><!--
+						--><div {{#var:listitem}}> [[Potions]]</div><!--
+						--><div {{#var:listitem}}> [[Tools]]</div><!--
+						--><div {{#var:listitem}}> [[Wall]]s</div><!--
+						--><div {{#var:listitem}}> [[Weapons]]</div><!--
+						--><div {{#var:listitem}}> [[Wings]]</div><!--
+					-->{{flexend}}<!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		T-->{{flexend}}<!-- 
+		B-->{{flexstart|item-box|grow=1}}<!-- 
+			-->{{flexstart|item|id=mf-mechanics|width=100%|cssclass=fp-box}}<!--
+				-->{{heading|Mechanics|[[File:Draedon's Remote.png|link=]]}}<!-- 
+				-->{{flexstart|css={{#var:listbox}}}}<!-- 
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div {{#var:listitem}}> [[Armageddon]]</div><!--
+						--><div {{#var:listitem}}> [[Boss Health Bar]]</div><!--
+						--><div {{#var:listitem}}> [[Buffs]]</div><!--
+						--><div {{#var:listitem}}> [[Recipes|Crafting]]</div><!--
+						--><div {{#var:listitem}}> [[Death Mode]]</div><!--
+						--><div {{#var:listitem}}> [[Defense]]</div><!--
+						--><div {{#var:listitem}}> [[Defiled Feather]]</div><!--
+					-->{{flexend}}<!--
+					-->{{flexstart|item|grow=1|shrink=1|css={{#var:listcolumn}}}}<!--
+						--><div {{#var:listitem}}> [[Debuffs]]</div><!--
+						--><div {{#var:listitem}}> [[Drops]]</div><!--
+						--><div {{#var:listitem}}> [[Fishing]]</div><!--
+						--><div {{#var:listitem}}> [[Iron Heart]]</div><!--
+						--><div {{#var:listitem}}> [[Music]]</div><!--
+						--><div {{#var:listitem}}> [[Rarity]]</div><!--
+						--><div {{#var:listitem}}> [[Revengeance Mode]]</div><!--
+					-->{{flexend}}<!--
+				-->{{flexend}}<!--
+			-->{{flexend}}<!--
+		B-->{{flexend}}<!-- 
+	L-->{{flexend}}<!-- 
+
+2-->{{flexend|_id=sect-2}}<!-- 
+#### SECTION 2 end
+
+--><!-- id = grobal warpper -->
+
+[[Category:Calamity Mod Wiki]] 
+<metadesc>The Calamity Mod Wiki is a complete resource for the Calamity Mod of Terraria, including gameplay, crafting, armor, and enemies.</metadesc>

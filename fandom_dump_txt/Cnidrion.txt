@@ -1,0 +1,51 @@
+{{npc infobox
+| type = Enemy
+| environment = Desert
+| damage = {{element|Fire}} {{dv|20|boost=0.25}} (Contact)<br/>{{element|Water}} {{dv|18|48}} (Water blasts)
+| life = {{dv|280|560}}
+| defense = 6
+| dr = 5%
+| knockback = {{dv|95%|95.5%}}
+| debuff = Wet
+| duration = 4 seconds (Water blasts)
+| debuffchance = 100%
+| debufftip = You are dripping water
+| immune1 = Confused
+| immune2 = Kami Flu
+| ai = Cnidrion AI
+| money = {{value|0|0|25}}
+| Desert Medallion|1|50%
+| Amidias' Spark|1|25%
+| banner = yes
+| hurt = NPC_Hit_12.wav
+| killed = NPC_Killed_18.wav
+| sound = Item_21.wav
+| soundtext = Water Blast
+| vulnerable1 = Water
+| vulnerable2 = Slash
+| resistant1 = Fire
+| resistant2 = Machine
+}}
+{{distinguish|Cnidarian|a [[yoyo]] made with [[Victide Bar]]s}}
+
+'''Cnidrion''' is a [[Pre-Hardmode]] [[enemy]] that can spawn in the [[Surface]] [[Desert]] [[biome]]. It will attempt to follow the player while firing a burst of four water blasts every ten seconds. Its firing rate doubles while below {{dv|33%|||60%}} health, and triples while below 10% health. Cnidrion drops the [[Desert Medallion]], a [[summoning item]] used to summon the [[Desert Scourge]].
+
+== Notes ==
+*Cnidrion is one of the few enemies that can be detected by the [[Lifeform Analyzer]].
+*While passing through bodies of water, its projectiles are almost invisible.
+*It can be a dangerous enemy for Pre-Hardmode players exploring the [[Desert]], due to its large hitbox.
+*In [[Death Mode]], they can fire water blasts while moving.
+
+== Tips ==
+*Cnidrion can swim through blocks in order to reach the player. Its projectiles, however, cannot pierce blocks; barricading with blocks while it shoots and attacking it while it approaches is a good strategy to take one down, provided the player either has high enough DPS or multiple barriers to fall back to.
+
+== Trivia ==
+*The name Cnidrion is derived from "Cnidaria", a term used for individuals of the [[wikipedia:Cnidaria|cnidaria]] [[wikipedia:Phylum|phylum]], which contains organisms such as anemones, corals, and jellyfish.
+**Despite this, Cnidrion's design takes after seahorses, who are instead members of the extremely distantly related [[wikipedia:Chordate|chordate]] phylum.
+*Cnidrion's [[Music|theme music]] was featured at the beginning of the official music video of [https://www.youtube.com/watch?v=opvuEVpl_PM UNIVERSAL COLLAPSE], theme of the [[Devourer of Gods]]' second form as a joke.
+*Cnidrions were originally considered a [[mini boss]], but were demoted due to their maximum health not reaching the threshold required for the [[Boss Health Bar]] to appear.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

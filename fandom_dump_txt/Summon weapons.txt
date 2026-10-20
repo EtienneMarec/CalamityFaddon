@@ -1,0 +1,24 @@
+'''Summon weapons''' are weapons which summon [[minions]] or sentries that deal summon damage.
+
+== Types ==
+{| class="terraria sortable lined"
+! colspan=2 | Name !! <abbr title=Damage>DMG</abbr> !! <abbr title="Use Time">UT</abbr> !! <abbr title=Knockback>KB</abbr> !! Mana !! Auto !! [[Rarity]] !! <abbr title=Harmode>HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Summon weapons
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦/dpl}
+| uses = Template:Item infobox
+| mode = userformat
+| count = 300
+}}
+|}
+
+{{Master Template Weapons
+| show-main  = yes
+| show-summon = yes
+}}
+
+[[Category:Weapon items| ]]
+[[Category:Summon weapons|*]]

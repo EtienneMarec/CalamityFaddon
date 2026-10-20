@@ -1,0 +1,21 @@
+To be used if you want to list some short code, which you want to stand out. Similar to using <nowiki><code></code></nowiki> tags, except that it has a grey background.
+
+== Usage ==
+Use {{tl|code|Code to display}}, which results in {{code|Code to display}}.
+
+; Unnamed parameter 1
+The code to display.
+; background =
+Optional background color. The default is #ddd.
+
+== Examples ==
+* {{code|Default background color}} <-- is produced from <code><nowiki>{{code|Default background color}}</nowiki></code>
+* {{code|background=Lavender|Nice background color}} <-- is produced from <code><nowiki>{{code|background=Lavender|Nice background color}}</nowiki></code>
+
+
+<includeonly>
+[[Category:Formatting templates‎]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

@@ -1,0 +1,50 @@
+{{dedicated|Chipbeam|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 65
+| knockback = 1
+| mana = 10
+| rare = 8
+| sell = {{value|0|12}}
+| auto = yes
+| use = 19
+| stack = 1
+| tooltip = Remembering the melancholy of human existence<br/>Even ghosts stray from the path of righteousness<br/>Summons a pair of butterflies to fight for you
+| buff = Resurrection Butterfly (buff) | bufflink = no
+| bufftip = Sleep beneath the Cherry Blossoms, Red-White Butterfly
+| hardmode = yes
+| boxwidth = 21em
+| proj = Sakura Bullet.png
+| projcaption = Sakura Bullet
+| element1 = Dark
+| element2 = Poison
+| element3 = Slash
+}}
+{{summoned|Purple Butterfly|minion2=Pink Butterfly|type=minion}}
+[[File:Resurrection Butterfly (demo).gif|frame|The butterflies targeting a [[Super Dummy]]. Notice how the butterflies target the dummy through walls.]]
+
+The '''Resurrection Butterfly''' is a craftable [[Hardmode]] [[Summon weapon|summon weapon]]. Upon use with two or more minion slots, the Resurrection Butterfly summons a purple and pink butterfly. The purple butterfly will ram into enemies, while the pink butterfly will fire three petals towards enemies that only deal 50% of the summon's base damage. Although the staff summons two minions per use, each cast only uses one minion slot. 
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+== Notes ==
+*One pair of butterflies counts as one minion toward the maximum minion count, similar to the [[Optic Staff]].
+*The two butterflies do 135% damage to [[Duke Fishron]], and only 75% damage to the [[Lunatic Cultist]] and [[Astrum Deus]].
+
+== Trivia ==
+*The name of the weapon, "Resurrection Butterfly", and the weapon's tooltip are references to a spell-card used by the character [https://en.touhouwiki.net/wiki/Yuyuko_Saigyouji Saigyouji Yuyuko] from the ''[[wikipedia:Touhou Project|Touhou Project]]'' series.
+**The buff icon is a reference to the [https://en.touhouwiki.net/wiki/Saigyou_Ayakashi Saigyou Ayakashi], a giant cherry blossom tree, while the tooltip references [https://en.touhouwiki.net/wiki/Reimu_Hakurei Hakurei Reimu] from the same series.
+**The texture of the weapon in question is similar to the fan that Yuyuko herself is often depicted with.
+**Additionally, the recipe requiring 2003 golden butterflies references the initial full release year of [https://en.touhouwiki.net/wiki/Perfect_Cherry_Blossom Perfect Cherry Blossom], the game that Yuyuko came from.
+{{-}}
+{{Master Template Weapons	
+| show-main = yes
+| show-summon = yes
+}}

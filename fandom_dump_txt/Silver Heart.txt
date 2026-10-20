@@ -1,0 +1,41 @@
+{{addon}}
+{{item infobox
+| type = Covering
+| tooltip = One of the ancient relics<br/>Summons an agony elemental to aid you
+| sell = {{value|0|9|0}}
+| rare = 10
+| damagetype = Summon
+| stack = 1
+| hardmode = yes
+| buff = Eleanor (buff) | bufflink = no
+| bufftip = Eleanor will make your wish come true
+}}{{summoned|Eleanor|name=Eleanor|type=minion}}
+{{dedicated|Lorasay Gamer|Infernum Mode No-Hit}}
+The '''Silver Heart''' is a [[Hardmode]] [[covering]] that has a 0.1% chance to be obtained whenever any type of [[Souls|soul]] or [[Essence (disambiguation)|essence]] is collected. It summons Eleanor to protect you, which absorbs the debuffs from an enemy every 15 seconds and gives boosts to the player depending on how many debuffs were removed.
+
+Whenever Eleanor absorbs a debuff from an enemy, one of the following boosts are randomly given to the player as increased stats for 20 seconds:
+
+*Life Regeneration by 6
+*Defense Reduction by 3%
+*Damage by 15
+*Damage by 4%
+*
+*Critical Strike Chance by 2%
+*Critical Damage by 10%
+
+==Crafting==
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+*
+
+==Notes==
+*Eleanor will always give a different boost than the one that is active, except when all boosts are active.
+*Souls and essences dropped from a player inventory is not counted, but ones from statues will count.
+**The drop rate from statue-dropped souls is 0.0000001%.
+==Trivia==
+*The minion is a reference to Eleanor from the Fazbear Fright book series.
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}

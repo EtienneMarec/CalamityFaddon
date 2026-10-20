@@ -1,0 +1,144 @@
+{{item infobox
+| type = Tool
+| imagealt = [[File:Navy Fishing Rod.png]] [[File:Romulus.png|100px]] [[File:The Devourer of Cods.png]]
+| use = 7
+| stack = 1
+}}
+
+'''Fishing poles''' are used with [[Bait]] for [[Fishing]]. The Calamity Mod adds 10 new fishing rods, including 2 Godseeker Mode fishing poles.
+{{-}}
+== Fishing Poles ==
+<onlyinclude>
+{{item/options|mode=table|anchor=y}}
+<table-progress-tracking table-id="1" unique-column-index="2">
+{| class="terraria sortable lined" style="text-align:center;"
+! colspan=2 | Fishing Pole
+! class="unsortable" | Source
+! Fishing Power
+! Rarity
+! style="width:50px" | Value
+! style="width:65px" | Bobber
+! class="unsortable" | Notes and Effects
+|-
+| {{item|Wulfrum Fishing Pole}}
+| {{recipes/extract|result=Wulfrum Fishing Pole}}
+| 10%
+| {{rare|sort=yes|1}}
+| {{value|0|0|20}}
+| [[File:Wulfrum Fishing Pole (bobber).png]]
+| {{na}}
+|-
+| {{item|Navy Fishing Rod}}
+| {{recipes/extract|result=Navy Fishing Rod}}
+| 20%
+| {{rare|sort=yes|2}}
+| {{value|0|0|40}}
+| [[File:Navy Fishing Rod (bobber).png]]
+|
+*Nearby enemies are damaged when held.
+|-
+| {{item|Heron Rod}}
+| {{recipes/extract|result=Heron Rod}}
+| 25%
+| {{rare|sort=yes|3}}
+| {{value|0|0|80}}
+| [[File:Heron Rod (bobber).png]]
+|
+*Increased fishing power in [[Space]].
+|-
+| {{item|Wulfrum Lure}}
+| {{recipes/extract|result=Wulfrum Lure}}
+| 40%
+| {{rare|sort=yes|3}}
+| {{value|0|0|75}}
+| [[File:Wulfrum Lure (bobber).png]]
+| 
+*Can be charged with [[Energy Orb]]s for fishing power and damaging waves.
+|-
+| {{item|Slurper Pole}}
+| {{item|mode=imageonly|Soul Slurper}}
+| 25%
+| {{rare|sort=yes|3}}
+| {{value|0|0|80}}
+| [[File:Slurper Pole (bobber).png]]
+|
+*Can fish in [[lava]].
+|-
+| {{item|Verstaltite Fishing Rod}}
+| {{recipes/extract|result=Verstaltite Fishing Rod}}
+| 35%
+| {{rare|sort=yes|5}}
+| {{value|0|7|20}}
+| [[File:Verstaltite Fishing Rod (bobber).png]]
+|
+*Increased fishing power in the [[Snow biome]].
+|-
+| {{item|Feral Double Rod}}
+| {{recipes/extract|result=Feral Double Rod}}
+| 40%
+| {{rare|sort=yes|7}}
+| {{value|0|12}}
+| [[File:Feral Double Rod (bobber).png]]
+|
+*Fires two fishing lines at once.
+|-
+| {{item|Romulus}}
+| [[File:The Plaguebringer Goliath.png|80px]] [[The Plaguebringer Goliath]]
+| 20%
+| {{rare|sort=yes|2}}
+| {{value|0|40}}
+| [[File:Romulus.png]]
+|
+*Works as a deployable instead of a traditional fishing pole.
+*Automatically fishes when given bait and returns caught items when interacted with.
+*Dies if he takes 500 damage.
+|-
+| {{item|Rift Reeler}}
+| {{recipes/extract|result=Rift Reeler}}
+| 45%
+| {{rare|sort=yes|8}}
+| {{value|0|16}}
+| [[File:Rift Reeler (bobber).png]]
+|
+*Fires three to five lines at once.
+*Can fish in lava.
+|-
+| {{item|Early Bloom Rod}}
+| {{recipes/extract|result=Early Bloom Rod}}
+| 60%
+| {{rare|sort=yes|12}}
+| {{value|0|24}}
+| [[File:Early Bloom Rod (bobber).png]]
+|
+*Fires six fishing lines at once.
+*Fishing line never snaps.
+|-
+| {{item|The Devourer of Cods}}
+| {{recipes/extract|result=The Devourer of Cods}}
+| 75%
+| {{rare|sort=yes|14}}
+| {{value|0|36}}
+| [[File:The Devourer of Cods (bobber).png]]
+|
+*Fires ten fishing lines at once.
+*Fishing line never snaps.
+*Can fish in lava.
+|-
+| {{item|The Codseeker}}
+| {{recipes/extract|result=The Codseeker}}
+| 95%
+| {{rare|sort=yes|15}}
+| {{value|0|90}}
+| [[File:The Codseeker (bobber).png]]
+|
+*Fishing line has a 1 in 222 chance of snapping and will convert itself into a [[Wood Fishing Pole]] when it does, followed by a scream.
+|}</table-progress-tracking>
+
+{{item/options|reset}}</onlyinclude>
+== See also ==
+*[[tgc:Fishing poles|Fishing poles]] on the vanilla wiki.
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}

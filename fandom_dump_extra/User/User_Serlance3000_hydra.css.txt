@@ -1,0 +1,36 @@
+/*
+CSS placed here will only affect users of the Hydra skin
+*/
+
+.skin-hydra {
+	
+	--theme-page-background-color: #fcfcfc;
+	--theme-page-background-color--secondary: #f5f5f5;
+	--theme-page-text-color: #000000;
+	--theme-page-text-color--hover: #000000;
+	--theme-link-color: #0619aa;
+	--theme-link-color--hover: #0619aa;
+	--theme-link-label-color: #3a3a3a;
+	--theme-accent-color: #e4f0f7;
+	--theme-accent-border-color: #AFCFE2;
+	--theme-accent-color--hover: #e4f0f7;
+	--theme-accent-label-color: #063b5e;
+	--theme-border-color: #aaaaaa;
+	--theme-border-color--rgb: 170,170,170;
+}
+
+html body{
+	background: url("https://static.wikia.nocookie.net/terraria_gamepedia/images/6/6b/Terraria_forest_background.jpg/revision/latest") no-repeat fixed center bottom / cover #B6D1B2;
+}
+
+/* Make Japanese flag icon more readable on white background */
+img[src*="Flag_jp.svg"] {
+	filter: drop-shadow(0 0 0.75px #000);
+}
+img[src*="Apple_iOS.svg"] {
+	filter: drop-shadow(0 0 0.75px #000);
+}
+
+.theme-special:not(.light) {
+	display: none;
+}

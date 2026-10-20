@@ -1,0 +1,55 @@
+{{item infobox
+| type = Weapon
+| damage = 357
+| use = 15
+| damagetype = Ranged
+| knockback = 9.5
+| auto = yes
+| velocity = 15
+| stack = 1
+| rare = 15
+| tooltip = Launches a powerful exo rocket to nuke anything and everything<br/>Rockets are surrounded by an invisible damaging aura and split into damaging beams on hit<br/>66% chance to not consume rockets
+| sell = {{value|0|50}}
+| hardmode = yes
+| postml = yes
+| proj = Magnomaly Rocket.gif
+| projcaption = Magnomaly Exo Rocket
+| debuff = Exo Freeze
+| debuffduration = 0.5 seconds
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 2 seconds
+| debuffchance2 = 100%
+| debuff3 = Frostburn
+| debuffduration3 = 2.5 seconds
+| debuffchance3 = 100%
+| debuff4 = On Fire!
+| debuffduration4 = 3 seconds
+| debuffchance4 = 100%
+| element1 = Magic
+| element2 = Cold
+| element3 = Fire
+| element4 = Bomb
+| element5 = Machine
+}}
+The '''Magnomaly Cannon''' is a craftable Godseeker Mode [[launcher]]. When used, it fires a single exo rocket that homes in on enemies and has an invisible damaging aura surrounding it. Upon impact with enemies, it creates a large explosion and splits into 8 exo beams which travel in every direction. Both the exo beams and rockets can go through tiles, and inflict the following [[debuff]]s:
+*[[Exo Freeze]] (0.5 seconds)
+*[[Holy Flames]] (2 seconds)
+*[[Frostburn]] (2.5 seconds)
+*[[On Fire!]] (3 seconds)
+
+{{Modifier|ranged}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Magnomaly Cannon/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+{{-}}
+{{Exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Launchers]]

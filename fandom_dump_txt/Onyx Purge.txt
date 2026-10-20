@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 90
+| damagetype = magic
+| auto = yes
+| knockback = 4.5
+| mana = 6
+| tooltip = Fires a storm of lasers and onyx shards<br/>"Our Lord and Savior, Spencer Bishop, also uses this weapon during phase 14 of the boss fight"
+| rare = 14
+| sell = {{value|0|28}}
+| velocity = 28
+| use = 10
+| stack = 1
+| hardmode = yes
+| postml = yes
+| image2 = Onyx Blaster (projectile).png
+| image2caption = Onyx Blast
+| element1 = Dark
+| element2 = Magic
+}}
+
+The '''Onyx Purge''' is a craftable [[Godseeker Mode]] [[magic gun]]. It attacks in a similar way to [[Nano Purge]]]], but also fires Onyx Shards that explode on impact with enemies.
+
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used In ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+
+* Its name is a reference to the [https://wowpedia.fandom.com/wiki/Onyxia dragon of the same name] from ''[[wikipedia:World of Warcraft|World of Warcraft]]''.
+* The weapon's first sprite was originally intended to be a resprite of the Onyx Chain Blaster.
+{{Onyx}}{{Master Template Weapons|show-main=yes|show-magic=yes}}
+[[Category:Magic guns]]

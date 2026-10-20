@@ -1,0 +1,132 @@
+Public wikis successfully operate on a basically democratic level. This doesn't mean that every decision is voted on, but in general, decisions on a wiki should be made by reaching a consensus whenever this is reasonably possible. The following guidelines are provided to help administrators exercise good judgment:
+
+;Assume good faith
+:When there's doubt about whether an edit was intended to help the wiki, assume it was and treat the editor that way. If an edit is obviously abusive, feel free to take appropriate action, but where's there is doubt, give the editor the benefit of that doubt.
+
+;Administrate users, not content
+:When it comes to the content of the wiki, the voice of an administrator should be treated as the equal of any other user. Administrators should only impose their opinions when the community fails to come to a reasonable consensus. Otherwise, administrators should try to get disagreeing users to discuss the situation. Administrators may offer their opinion as well, but they need to take care not to sound as though they're enforcing it.
+
+;Be light-handed
+:Try to settle problems with the minimum use of administrative powers reasonably possible. For example, if two editors keep reverting each others' edits on a page (edit warring), warn them and try to get them discussing it first. If that doesn't work, temporarily protecting the page might be a better option than blocking either editor, especially if it's just a matter of getting their attention. Try to use blocks as a last resort and warn first where possible.
+
+:The above doesn't apply to spammers, but don't place indefinite blocks on anonymous users. IP addresses change over time and an indefinite block might eventually affect a legitimate editor. In most cases, blocking spammers is rarely very useful as they don't often spam more than once from the same IP, so it's usually best to just clean up the spam. If serious problems with spam crop up, bring it up with your wiki's Curse liaison.
+
+==Types of Administrators==
+There are three types of formal administrator status: 
+*[[Project:Bureaucrats|bureaucrat]]
+*[[Project:Administrators|administrator]]
+*[[Project:Wiki guardian|wiki guardian]] 
+
+For this document all are referred to as '''administrator'''. This status is not intended to represent extra weight within community decisions or generally directing the wiki, nor is it a requirement for moderating or enforcing policy. Like all users, administrators are expected to respect policy and consensus. 
+
+==Wiki design rules==
+Gamepedia encourages our admins and editing community to not only contribute wiki information, but to help improve the design of their favorite wikis. These community-driven projects rely on editors to succeed, and we appreciate your efforts! When altering the design of your wiki, please abide by the [[gphelp:Wiki design rules|design rules]], which includes not modifying or suppressing Gamepedia sections or ads. If you're not sure if something is allowed, contact us via one of the methods below.
+
+For information on editing the wiki skin, visit the [[gphelp:Skin customization|skin customization]] page on the Help Wiki.
+
+===Feature requests===
+Have an awesome idea for a wiki? We're constantly adding new features and expanding the functionality of wikis across Gamepedia. Please contact us via the links below to suggest a feature.
+
+===Questions?===
+For questions or concerns about wiki design, please visit our [http://support.gamepedia.com/ Gamepedia Support] page or email [mailto:Community@Gamepedia.com Community@Gamepedia.com].
+
+==Blocking==
+On Gamepedia, all blocks are applied globally, so please block only when necessary.
+
+Blocks are applied via the form at the special page [[Special:Blockip]]. There are several steps to applying a block:
+
+# '''Specify the IP address or user to be blocked'''. Enter the IP address to be blocked, or the name of the registered user account to be blocked, in the "User" field of the form. Note that nonexistent usernames can also be blocked, so be certain you have the correct username. You can also block a range of IP addresses; see range blocks (below) for more information.
+#:Usually, you'll be blocking people from the "Block this user" link in the sidebar or the "Block" link next to the username/IP address in the [[Special:Recentchanges]] listing.
+# '''Specify a duration for the block'''. You can select a predefined duration from the drop down box labelled "Expiry", or you can enter a custom value, using the [http://www.gnu.org/software/tar/manual/html_node/Date-input-formats.html GNU standard format], in the "Other time" field. All blocks on Gamepedia are applied globally. No permanent ("Indefinite") blocks should be applied.
+#:While the form accepts quite a large variety of date entry types (Fortnights, "Next Thursday"), you should generally confine yourself to the standard "years, months, weeks, days, hours and minutes".
+#:You can use decimals. Hence, "8.725 fortnights" is a valid (if strange and somewhat annoying) block duration.
+# '''Specify a reason for the block (optional).''' This reason will be displayed to the blocked user if they attempt to edit a page.
+#: The more descriptive, the better (especially when using some of the blocking options below). If possible, consider linking to evidence.
+
+Click "block this user" to apply the block. All blocks are recorded in the [[Special:Log/block|block log]], and all currently active blocks are listed at the [[Special:Ipblocklist|list of active blocks]].
+
+===Blocking options===
+The blocking page has three important options associated with the block:
+# '''Block anonymous users only:''' When blocking an IP user, selecting this option will allow any registered users to continue editing from that address. This option has no effect on a block of a registered user, but it does modify any autoblocks (see below) caused by that block.
+#:Generally speaking, this isn't a very useful option. Many of the IP users that are blocked are from spammers or spam bots - if they create an account, they'll still be able to access from that location. This option is really only for use when considering a block of a proxy, tor exit node, or dynamic IP address (such as AOL), as it minimizes the likelihood of restricting actual contributors.
+# '''Prevent account creation:''' Duh. Anyone that tries to access from the blocked IP address will not be able to create an account.
+#:This option should generally be turned on when dealing with an IP spammer, since they've been known to create usernames such as "[[Special:Contributions/Ki3H5x|Ki3H5x]]" to evade blocks. This also works when blocking a registered user - even though we can't see the IP address, the MediaWiki software takes care of it in the background
+# '''Automatically block the last IP address used by this user, and any subsequent addresses they try to edit from:''' (Autoblock, for short) This option only applies to blocks of registered user accounts. When enabled, this option will cause the block to also apply to the most recent IP address, and any other addresses that they try to log in from.
+#:This is the mack daddy of blocking. This is the block for that l33t h4x0r d00d who thinks that he can get around a block by having his mother drive him to the library so that he can vandalize a wiki. This option should usually be set when blocking a registered spammer/spambot, as it has a decent chance of blocking another address or two before they figure it out.
+#:Autoblocks are taken care of in the background by the MediaWiki software, and last for 24 hours. These blocks only appear on the [[Special:Ipblocklist]] page (not in the regular block log) because they are added automatically.
+#:Be careful when using the autoblock function, especially in the case of dynamic IPs (AOL being the prime example) as it can result in temporarily blocking large numbers of innocent users.
+
+See [[gphelp:Gamepedia Help Wiki:Blocking guidelines|Blocking guidelines]]<!-- you may link to a local version such as Project:Blocking guidelines if you prefer --> for more detailed information regarding blocking individual users.
+
+===Effects of a block===
+Blocked users may still read pages, but they cannot create, edit, or move pages, nor can they upload files. In general, all additional user rights (deletion, protecting, assign user rights) will be disabled for the duration of the block, but this does not apply to block/unblocking abilities. Any user that has blocking and unblocking abilities will be able to use them during their block (which allows them to unblock themselves).
+
+===Unblocking===
+An IP address or registered user account can be unblocked via the [[Special:Ipblocklist|list of active blocks]]. Find the IP address or registered user account you wish to unblock in the list (you can enter the address or name in the "search" field to help you find the entry), and click the "Unblock" link displayed to the right of the block's expiry time.
+
+This will lead you to a confirmation page. Enter the reason for unblocking (optional) in the "reason" field, and click "unblock this address" to remove the block. All unblockings are recorded in the [[Special:Log/Block|block log]].
+
+==Deleting==
+When deleting a page make sure you check "What links here" to verify that deletion will not break links elsewhere on the wiki.
+* Don't delete an image you're not sure about as images that are used as part of the wiki's design (skin) will not show up as linked.
+
+===Hiding individual revisions===
+Sometimes it is necessary for a single revision to be deleted, rather than the whole page. This is useful when a user adds personal or sensitive information, such as access keys and passwords. If you see this, revert it immediately, and hide the revision. The Delete/undelete revisions page can be accessed through the history page.
+
+Hiding a revision removes the text, edit summary and/or the user's name or IP address from public viewing. Only other administrators can see the hidden revision.
+
+The following options are available:
+# '''Hide revision text'''. Almost always used.
+# '''Hide edit comment'''. Only to be used if the edit summary contains sensitive information.
+# '''Hide editor's username/IP'''. Unlikely to be used.
+
+==Protecting==
+Protecting a page restricts it from being edited. This is primarily used for pages that have a high chance of being vandalized ([[Main Page]]) or as a temporary measure on a page that is the subject of an edit war or mass vandalism. There are three different kinds of protection:
+* '''Semi-protection:''' Only registered users are allowed to edit the page. Any anon (IP) contributors will still be able to see the source code, but are unable to make any changes.
+** This version makes a lot of sense on a page that is getting a lot of anon vandals, but it's not very useful in preventing an edit war.
+* '''Full-protection:''' Only administrators are allowed to edit the page.
+** This version should mainly be used on high-profile pages (the Main Page), pages that should never be changed by a non-administrator  or as a ''very temporary'' measure to stopping an edit war. Please note that, when dealing with an edit war, no matter which revision you choose to protect, it will be the wrong one. Try to keep any pages protected for as short of a time as possible.
+* '''Cascading protection:''' The page and all images, pages, and templates included into the page are also protected.
+** Cascading protection should '''NEVER''' be used with semi-protection. Since Cascading protection automatically full-protects all included pages, any registered user can add an image or template to that semi-protected page to cause it to be full-protected (something that only administrators should be able to do).
+** This is an emergency measure, typically used to ''temporarily'' protect a very high-profile page ([[Main Page]]) if a change makes the images/templates used vulnerable. Try and avoid this option if at all possible, as it may protect templates that are used in other locations (create a duplicate copy of the template and protect that instead).
+
+===Move Protection===
+By checking the "unlock move permissions" box on the "Confirm protection" screen, the page move rights can be restricted independently of page editing. This is most often used on Project pages that anyone should be able to edit, but that should generally not be moved.
+
+===Create protection===
+If a page does not exist, it can be protected against creation in the same way that an existing page can be protected from moving and editing. This is generally only done for pages which are frequent vandalism targets with no reason to exist, such as "index.php".
+
+===Protecting images===
+To protect an already uploaded image from being replaced with a newer version (such as images used on the [[Main Page]]), you can simply use the ''Protect'' button like with any other article. 
+
+Once in a while you may come across some image filename that shouldn't be uploaded at all to the wiki, (e.g. "File:Example.jpg"). To achieve this, simply edit the page of that image, (for example to add a reason why that page was protected). After this page has been created, the '''Protect''' button for that article will be available, and users trying to upload the image after that will receive a warning message that the page has been protected and will be unable to proceed.
+
+===Notes on protection===
+When used to temporarily stop an edit war, protection may be viewed as an endorsement of that particular version. '''This is not the case.''' Be careful to remind other users of this and start a discussion on the talk page of the article to resolve the conflict.
+
+==Rollback==
+Any user can revert a page by going through the page history. Administrators gain access to an additional ''rollback'' link to expedite the process. To revert the edits of one user to the last version by the previous editor, click rollback on the page history, the user contribution list, or on the diff page. The reversion will be marked as a minor edit and given an automatic edit summary based on the contents of [[MediaWiki:Revertpage]].
+
+==Impartiality==
+Most active administrators also actively edit the wiki. This occasionally causes conflict of interest. For example, if people start personally attacking you after an edit to an article, blocking them yourself makes it appear as if you're using your administrator tools to control wiki content.
+
+Thus:
+*If you're editorially involved in a conflict, request another administrator's intervention.
+*If you're personally involved with a member of a conflict, request another administrator's intervention.
+*Only mention your administrator status when justifying or explaining an administrative action.
+
+===Cultural reverence of administrators===
+Administrators do not have any say in the editorial process beyond that of any other editor. At least, that's what we like to say. More accurately, administrators absolutely do have a bit more voice than non-administrators. This extra voice is completely unintentional and stems completely from the culture of the wiki -- people look up to administrators and are more reluctant to dispute them. Even though this reverence is not the administrator team's fault, nevertheless, ''every administrator should be careful to avoid abusing this additional editorial power.'' Specific suggestions on how to do this are, by nature, controversial -- thus, if you disagree with any suggestion below, please note flaws with said suggestion here instead of simply removing it. If you really feel it doesn't belong, take your case to the talk page.
+
+Some possible ways to avoid abusing non-systemic administrator authority follow, roughly sorted from simple to complex.
+
+* Negate the importance of the administrator role if it gets brought up in an editorial discussion.
+* Be a little more explanatory than usual. Justify edits more completely. Post in talk more often if something might become controversial. This is good advice for everyone, but it's doubly important for administrators -- a lack of an edit summary for any non-minor edit can give the impression of unilateral action.
+* Remind people that usual cultural considerations apply to administrators, too. For example, occasionally add "if you disagree, please revert" to your edit summary or talk post. Even though people are always free to revert like this, explicitly stating so helps them get over the fear of reverting an administrator.
+* If you get administratively involved with an article, avoid being editorially involved with that article for some time.
+
+==Other useful notes==
+* Watching (and watchlisting) the [[Project:Admin noticeboard|Admin noticeboard]] is useful for awareness of currently requested tasks. Remember though, that an issue being listed there does not necessarily mean that administrator action is required.
+* Administrators should also have their email accessible through the '''"Email this user"''' link located in the toolbox from their Userpage. To do this, go to Preferences and make sure that Enable Email from users is checked. This offers the community access to discuss issues (blocks, protections etc.) outside of the view of the general community. If an issue is brought to attention in this fashion that requires community input, the administrator should post it as is appropriate.
+
+[[Category:Community]]

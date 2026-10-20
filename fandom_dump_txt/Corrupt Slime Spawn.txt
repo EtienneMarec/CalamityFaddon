@@ -1,0 +1,57 @@
+{{infobox wrapper
+|{{npc infobox
+| name = Corrupt Slime Spawn
+| type = Slime
+| type2 = Flying Enemy
+| ai = Bat AI
+| damage = {{element|Unholy}} {{dv|40|boost=0.2}}
+| life = {{dv|160|320}}
+| defense = 10
+| knockback = 100
+| immune1 = Poisoned
+| immune2 = Confused
+| debuff = Weak
+| debufftip = Physical abilities are decreased
+| duration = 1.5 seconds
+| debuffchance = 100%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Slash
+| vulnerable2 = Water
+| resistant1 = Unholy
+| resistant2 = Poison
+}}
+|{{npc infobox
+| name = Corrupt Slime Spawn
+| namesub = Without Wings
+| image = Corrupt_Slime_Spawn_(Without_Wings).png
+| type = Slime
+| ai = Slime AI
+| damage = {{element|Unholy}} {{dv|30|60}}
+| life = {{dv|90|180}}
+| defense = 10
+| knockback = 100
+| immune1 = Poisoned
+| immune2 = Confused
+| debuff = Weak
+| debufftip = Physical abilities are decreased
+| duration = 1.5 seconds
+| debuffchance = 100%
+| Vitamins|1|{{dv|1%|2%}}
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Slash
+| vulnerable2 = Water
+| vulnerable3 = Holy
+| resistant1 = Unholy
+| resistant2 = Poison
+}}
+}}
+
+'''Corrupt Slime Spawn''' is a [[Enemies#Boss Servants|boss servant]] [[slime]] summoned during [[The Slime God]] battle, when the [[Ebonian Slime God]] takes damage. It is identical to the [[Slimer]] enemy, which chases the player while flying until it loses health and reverts to a normal slime form.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

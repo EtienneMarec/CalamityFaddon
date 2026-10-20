@@ -1,0 +1,28 @@
+{{item infobox
+|type = Potion
+|tooltip = Spy stealth generates 15% faster while moving</br>At night, stealth also generates 15% faster while standing still</br>During an eclipse both boosts increase to 20%
+|stack = 9999
+|rare = 7
+|use = 17
+|consumable = yes
+|buff = Penumbra (buff) | bufflink = no
+|duration = 8 minutes
+|bufftip = Stealth regenerates 15% faster while moving<br/>At night, stealth additionally regenerates 15% faster while standing still<br/>Both boosts increase to 20% during a solar eclipse
+|hardmode = yes
+|sell = {{value|0|0|40|0}}
+}}
+{{distinguish|Penumbra|a Godseeker Mode [[Spy weapon]]}}
+
+The '''Penumbra Potion''' is a craftable [[Hardmode]] [[Buff Potions|buff potion]] made from [[Solar Tablet Fragment]]s. Upon consumption it grants the '''Penumbra''' [[buff]], increasing the rate that [[Spy#Stealth|Spy stealth]] builds by 15% while moving and 15% while standing still at night. These bonuses are boosted to 20% during a [[Solar Eclipse]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The buff will grant the player Eclipse benefits if [[Umbraphile armor]] is equipped, regardless of time and Eclipse conditions of the buff.
+
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

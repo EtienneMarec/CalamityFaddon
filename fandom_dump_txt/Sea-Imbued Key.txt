@@ -1,0 +1,19 @@
+{{item infobox
+| type = Key
+| type2 = Tool
+| rare = 9
+| stack = 1
+| tooltip = Opens the Forgotten Chest within the sunken sanctuary.
+| sell = {{value|0|5|0|0}}
+}}
+
+The '''Sea-Imbued Key''' is a [[Hardmode]] item that is used to unlock the [[Forgotten Chest]] found in the [[Sunken Sea]]. Unlocking the chest consumes the key.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

@@ -1,0 +1,13 @@
+Manually set language code for {{tl|lang}}.
+
+== Usage ==
+<code><nowiki>{{lang/set|<langcode>}}</nowiki></code>
+
+<code><nowiki><langcode></nowiki></code> is 2-characters language code: en/es/it ... etc.
+
+== See also ==
+* {{tl|lang}}
+
+<includeonly>
+[[Category:I18n-ready templates| ]]
+</includeonly>

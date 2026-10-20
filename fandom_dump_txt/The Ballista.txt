@@ -1,0 +1,47 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 99
+| knockback = 8
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| auto = yes
+| velocity = 20
+| use = 22
+| tooltip = Converts wooden arrows into greatarrows that crush enemy armor and break into shards on death
+| hardmode = yes
+| debuff = Armor Crunch
+| debuffchance = 100%
+| debuffduration = 3 seconds (Arrow)<br/>1 second (Fossil shard)
+| debufftip = Your armor is shredded
+| proj = Ballista Great Arrow.png
+| projcaption = Ballista Great Arrow
+| proj2 = Fossil Shard.png
+| proj2caption = Fossil Shard
+| element1 = Dark
+| element2 = Stab
+| element3 = Fire
+}}
+
+'''The Ballista''' is a craftable [[Hardmode]] [[bow]] that auto-fires. It converts [[Wooden Arrow]]s into special arrows that can pierce one enemy and shatter into fossil shards upon hitting a second, as well as upon hitting solid blocks. Fossil shards deal 20% of the weapon's base damage. All projectiles will inflict the [[Armor Crunch]] [[debuff]].
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The [[Magic Quiver]] increases the damage of the arrows shot by The Ballista, but doesn't increase the speed.
+*The Ballista nets massive damage output against large ground-based enemies such as [[Astrum Aureus]] when fired at from above, due to both the arrows and the shrapnel all hitting the target.
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 65
+| knockback = 6
+| rare = 5
+| sell = {{value|0|7|20}}
+| stack = 1
+| auto = yes
+| tooltip = Shoots a sand blade {{sic}} that alters its velocity as it travels
+| use = 17
+| velocity = 15
+| hardmode = yes
+| proj = Sand Blade.png
+| projcaption = Sand Blade
+| element1 = Fire
+| element2 = Slash
+}}
+
+The '''Forsaken Saber''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. Every swing releases a spread of three whirling blade projectiles, which remains in place for about 1 second after launch and then rapidly moves in the direction of the cursor, damaging the first enemy hit. The sand blade deals 80% of the sword's damage.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Forbidden}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:遗忘之刃]]

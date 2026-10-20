@@ -1,0 +1,19 @@
+{{item infobox
+| stack = 1
+| type = Covering
+| tooltip = While powered, allows for infinite jumping<br/>Each subsequent jump without landing requires an increasingly narrow<br/>window for when the jump can occur
+| rare = 1
+| sell = {{value|0|0|20}}
+}}
+
+The '''Wulfrum Acrobatics Pack''' is a [[Pre-Hardmode]] [[covering]]. While equipped and powered with [[Energy Orb]]s, the player will be able to jump infinitely while airborne, as long as they hit the jump button within an increasingly narrowing time frame. Each jump narrows the time window by 50%, starting from 30 frames (half a second) and capping at 1 frame (1 60th of a second). Each Energy Orb allows for 30 jumps, and an Energy Orb is automatically consumed once the player tries to perform a 31st jump.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

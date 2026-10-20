@@ -1,0 +1,34 @@
+{{npc infobox
+| type = Slime
+| ai = Slime AI
+| environment = Brimstone Crag
+| life = {{dv|600|1200}}
+| damage = {{dv|90|180}} (Contact)<br/>{{dv|74|148}} (Darts)
+| defense = 18
+| knockback = 100
+| immune1 = Kami Flu
+| immune2 = Abyssal Flames
+| immune3 = Brimstone Flames
+| immune4 = Vulnerability Hex
+| Brimstone Slag| 1-2 | 100%
+| Apocalyptic Ore| 10-26 | 100%
+| Charred Ore|1|{{dv|25%|50%}}
+| debuff=Vulnerability Hex
+| debuffchance=100%
+| duration = 3 seconds
+| money = {{sc|1}}
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_42.wav
+| soundtext = Stinger
+}}
+
+The '''War Slime''' is a [[Hardmode]] [[slime]] that spawns in the [[Brimstone Crag]] after [[Ravager]] has been defeated. It attacks by jumping towards the player and shooting high-velocity brimstone darts whenever they get too close to it or travel above it.
+
+The War Slime is one of the required slimes to summon [[Astrum Aureus]].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

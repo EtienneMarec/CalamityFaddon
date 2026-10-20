@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Rogue
+| damage = 9
+| knockback = 4.5
+| use = 30
+| velocity = 15
+| tooltip = Throws a flask of sickly green, irradiated bile which explodes on collision<br/>Stealth strikes make the explosion much more violent and powerful
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| debuffduration = 4 seconds
+| stack = 1
+| auto = yes
+| rare = 2
+| sell = {{value|0|0|40}}
+| element1 = Poison
+}}
+
+The '''Contaminated Bile''' is a craftable [[Pre-Hardmode]] [[bombs|bomb]]. It fires small toxic flasks that explode on contact with tiles or enemies, dealing 75% of the weapon’s damage and lingering for a short time.
+
+Performing a [[stealth strike]] with the Contaminated Bile will cause the resulting flask to form a larger and longer-lasting explosion.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*[[wikipedia:Bile|Bile]] is a bitter greenish-brown alkaline fluid produced by the liver that aids in digestion.
+{{-}}
+{{Sulphuric Scale}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Bombs]]

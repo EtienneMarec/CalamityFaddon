@@ -1,0 +1,52 @@
+{{revengeance mode only}}
+{{infobox wrapper
+| {{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Converts certain debuffs into buffs and extends their durations<br/>Debuffs affected: Darkness, Blackout, Confused, Slow, Weak, Broken Armor,<br/>Armor Crunch, War Cleave, Chilled, Ichor and Obstructed<br/>Revengeance drop
+| sell = {{value|0|0|80}}
+| stack = 1
+| rare = 3
+}}
+|{{item drops infobox
+|Any [[Boss]] in [[Revengeance Mode]]|1|{{revengeance|1.67%}}
+}}
+}}
+
+The '''Laudanum''' is a [[Revengeance Mode]]-exclusive [[Pre-Hardmode]] [[covering]]. When equipped, any time the player gets inflicted with the following [[debuffs]], they will receive specific buffs and the duration of the "debuffs" will be doubled.
+
+The following debuffs will be converted to net-positive effects while the player is afflicted by them:
+
+*[[Armor Crunch]] provides 15 defense.
+*[[Blackout]] cancels light reduction and gives +30 defense, +25% damage and +10% critical strike chance.
+*[[Broken Armor]] cancels defense penalty and gives +25% defense.
+*[[Chilled]] cancels movement penalty and provides 1.3x move speed. 
+*[[Confused]] cancels reversed controls and gives +30 defense, +25% damage and +10% critical strike chance. 
+*[[Darkness]] cancels light reduction and gives +15 defense, +10% damage and +5% critical strike chance.
+*[[Ichor (debuff)|Ichor]] gives +20 net defense.
+*[[Obstructed]] cancels vision obstruction and gives +50 defense, +50% damage and +25% critical strike chance.
+*[[Slow]] cancels movement penalty and provides 1.5x move speed.
+*[[War Cleave]] gives 10% [[damage reduction]].
+*[[Weak]] gives +10% net melee damage, +10 net defense, and +20% net move speed.
+
+Any [[Boss]] [[Treasure Bag]] in [[Revengeance Mode]] has a 1.67% chance of containing this covering.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Equipping the Laudanum does not prevent the player from being immune to the converted debuffs. The [[Ankh Shield]] and any of its related coverings ''will'' still provide immunity to the debuffs converted by Laudanum, meaning the player will not receive the positive effects if they have both equipped.
+*All boss bags have a 5% chance of containing any of the three universal Revengeance coverings, the other two being [[Stress Pills]] and [[Heart of Darkness]], and then a 1/3 roll is cast for which covering is given. This results in a 1.67% chance to obtain any of the three coverings, however the player can never receive more than one at a time.
+
+== Trivia ==
+*This covering's appearance is based on the Laudanum from ''[[wikipedia:Darkest Dungeon|Darkest Dungeon]]''.
+**In previous versions of the mod, this covering made the player immune to the [[Horror]] debuff. This was likely also a reference to ''Darkest Dungeon'', in which Laudanum purges the game's Horror effect.
+***It may also be a reference to ''[[wikipedia:Amnesia: The Dark Descent|Amnesia: The Dark Descent]]'', a horror game where laudanum is a healing item.
+*[[wikipedia:Laudanum|Laudanum]] is an extract of ''Papaver somniferum'' latex containing approximately 10% powdered latex by weight. It is useful as an [[wikipedia:Analgesic|analgesic]] and [[wikipedia:Antidiarrheal|antidiarrheal]]. 
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

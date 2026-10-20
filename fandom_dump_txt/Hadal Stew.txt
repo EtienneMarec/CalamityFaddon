@@ -1,0 +1,39 @@
+{{item infobox
+| type = Potion
+| type2 = Crafting material
+| use = 17
+| stack = 9999
+| tooltip = Only gives 50 seconds of Potion Sickness<br/>Grants Well Fed
+| hheal = 120
+| mheal = 150
+| consumable = yes
+| rare = 2
+| sell = {{value|0|0|40}}
+| buff = Well Fed
+| bufftip = Minor improvements to all stats<br/>{{expert|Minor improvements to all stats and increased life regeneration}}
+| duration = 60 minutes
+}}
+
+The '''Hadal Stew''' is a [[Pre-Hardmode]] [[food item]] that can also be crafted and heals the player for 120 life and restores 150 mana, and also grants the [[Well Fed]] [[buff]] for 60 minutes. It applies a shortened version of the [[Potion Sickness]] [[debuff]] upon use, allowing the player to heal more often.
+
+It has a chance to be obtained from [[Abyssal Treasure]]s, which drop from [[pot]]s in the [[Abyss]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in (Any Food Item) ===
+{{recipes|ingredient=Any Food Item}}
+
+== Notes ==
+*If the player has the [[Philosopher's Stone]] or its upgrades, the Potion Sickness duration is reduced to 37 seconds and the tooltip is updated to reflect this.
+
+== Trivia ==
+*The [[wikipedia:Hadal zone|Hadal zone]] is the deepest part of the ocean, lying within oceanic trenches.
+*Hadal Stew was previously named "Sunken Stew." This was changed to avoid confusion with the [[Sunken Sea]] biome.
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}
+[[Category:Healing items]]

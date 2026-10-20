@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| rare = 5
+| sell = {{value|0|4|80}}
+| damage = 29
+| use = 28
+| critical = 24%
+| knockback = 4
+| velocity = 12
+| tooltip = Fires a volley of 10 high-speed arrows<br/>Arrows start off small and grow in size with continuous fire<br/>Arrow damage, spread and knockback scale with arrow size
+| stack =  1
+| auto = yes
+| hardmode = yes
+| element1 = Stab
+}}
+|{{item drops infobox
+|[[The Twins]]|1|10%
+}}}}
+The '''Arbalest''' is a [[Hardmode]] [[repeater]] that drops from [[The Twins]]. When fired, four volleys of unevenly spread arrows are shot. The arrows initially start at 50% of their original size, damage, and knockback, but with each use, the arrows eventually reach a cap of 150% of their original stats, along with gaining an increased spread. After the cap is reached, the next use resets all three stats back to 50%.
+
+{{Modifier|ranged}}
+
+==Trivia ==
+*An [[wikipedia:Arbalest|arbalest]] was a late variation of the crossbow coming into use in Europe during the 12th century.
+*It was formerly the [[Rare item variant]] of the [[Raider's Glory]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]
+[[Category:Repeaters]]
+[[zh:劲弩]]

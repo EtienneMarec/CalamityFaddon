@@ -1,0 +1,146 @@
+{{npc infobox
+| type = Burrowing Enemy
+| environment = Abyss
+| ai = Eidolon Wyrm AI
+| life = {{dv|160,000|320,000}}
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+| immune1 = Crush Depth
+| immune2 = Confused
+| banner = yes
+| bannername = Eidolon Wyrm Juvenile Banner
+| money = {{gc|25}}
+| Voidstone|30-40|100%
+| Eidolon Staff|1|10%
+| custom | {{item|Lumenyl|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|6-8|8-11}})|100%
+| custom | {{item|Ectoplasm|note=(After defeating<br/>[[Plantera]])|wrap=y}} (8-12)| 100%
+| custom | {{item|Eidolic Wail|note=(After defeating [[Polterghast]])|wrap=y}}|33.33%
+| custom | {{item|Soul Edge|note=(After defeating [[Polterghast]])|wrap=y}}|33.33%
+| boxwidth = 28em
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_6.wav
+| sound = WyrmScream.wav
+| soundtext = Scream
+| sound2 = Item_117.wav
+| sound2text = Telekinesis
+}}
+{{dablink|Not to be confused with the [[superboss]], [[Adult Eidolon Wyrm]].}}
+
+The '''Eidolon Wyrm''' (Japanese: 若い幽霊リヴァイアサン ''Wakai yūrei rivu~aiasan'') is a [[mini boss]] that spawns in the 3rd and 4th layers of the [[Abyss]] and are also summoned from the Adult Eidolon Wyrm during its first four phases. It is initially passive and will not attempt to hurt the player. However, if the player deals damage to it, it will become hostile and attack the player with contact damage or magic projectiles.
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Burrowing Enemy
+| environment = Abyss
+| name = Eidolon Wyrm Head
+| ai = Eidolon Wyrm AI
+| life = {{dv|160,000|320,000}}
+| damage = {{dv|170|340}} (Contact)<br/>{{dv|160|240}} (Ice Mist, Lightning)
+| defense = 70
+| dr = 15%
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Unholy
+| resistant1 = Dark
+| resistant2 = Slash
+| resistant3 = Magic
+| resistant4 = Water
+| resistant5 = Cold
+| resistant6 = Machine
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| debuff = Crush Depth
+| duration = 5 seconds (Contact)
+| debuffchance = 100%
+| debufftip = Aquatic pressure
+| debuff2 = Electrified
+| duration2 = 2 seconds (Lightning)
+| debuffchance2 = 100%
+| debufftip2 = You cannot move
+| debuff3 = Chilled
+| duration3 = 3 seconds (Ice Mist)
+| debuffchance3 = 100%
+| debufftip3 = Your movement speed has been reduced
+| debuff4 = Frozen
+| duration4 = 1.5 seconds (Ice Mist)
+| debuffchance4 = 100%
+| debufftip4 = You can't move!
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| environment = Abyss
+| name = Eidolon Wyrm Body
+| ai = Eidolon Wyrm AI
+| life = {{dv|160,000|320,000}}
+| damage = 0
+| defense = 0
+| dr = 0
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Unholy
+| resistant1 = Dark
+| resistant2 = Slash
+| resistant3 = Magic
+| resistant4 = Water
+| resistant5 = Cold
+| resistant6 = Machine
+| knockback = 100
+| hardmode = yes
+| postml = yes
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| environment = Abyss
+| name = Eidolon Wyrm Tail
+| ai = Eidolon Wyrm AI
+| life = {{dv|160,000|320,000}}
+| damage = 0
+| defense = 0
+| dr = 0
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Unholy
+| resistant1 = Dark
+| resistant2 = Slash
+| resistant3 = Magic
+| resistant4 = Water
+| resistant5 = Cold
+| resistant6 = Machine
+| knockback = 100
+| hardmode = yes
+| postml = yes
+}}
+}}
+
+== Behavior ==
+The Eidolon Wyrm spawns in the third and fourth layers of the Abyss at any point in the game. Its roar will alert the player that it is nearby and is hunting them. Once hostile, it will chase the player until either it or the player is killed. It will summon balls of ice which fire ice shards in every direction, and summon orbs that unleash streaks of lightning at the player. It also possesses telekinetic abilities which allow it to yank the player towards its head, accompanied by a loud sound and a burst of blue sparks.
+
+The Eidolon Wyrm is an aerial worm-like enemy with 42 segments in total. Its body and tail segments can neither take damage nor deal contact damage. It is initially passive until it has been struck or if the player has the [[Chaos State]] [[debuff]], and also if the Adult Eidolon Wyrm is alive. When hostile, it {{sound|screams|WyrmScream.wav}} and actively chases the player similarly to a [[Wyvern]]. The player is inflicted with [[Crush Depth]] for 5 seconds upon contact with the head. Every five seconds, it randomly performs one of three attacks:
+*Fires an {{item|Ice Mist|link=|size=20px}} at the player, which inflicts [[Chilled]] for 3 seconds and [[Frozen]] for 1.5 seconds..
+*Fires a {{item|Lightning Orb|link=|size=20px|ext=gif}} at the head's location which fires lightning bolts at the player. Lightning bolts inflict [[Electrified]] for 2 seconds.
+*Creates a cloud of harmless blue dust around the player which strongly pushes the player in the direction opposite to their current movement.
+
+== Notes ==
+*If the Adult Eidolon Wyrm is alive, the damage of Ice Mists and Lightning increase from {{dv|160|240}} to {{dv|400|600}}.
+*The body segments of Eidolon Wyrms are intangible, dealing no damage to the player and having complete immunity to attacks. Only their heads are capable of dealing or receiving damage.
+*Being affected by Chaos State causes any living Eidolon Wyrms, to instantly discover the player and begin attacking.
+*The Eidolon Wyrm can be detected with the [[Lifeform Analyzer]].
+*It can home in on players, even when not hostile. However, they don't deal contact damage when passive.
+
+== Trivia ==
+*An [[wikipedia:Eidolon|eidolon]] in Greek Literature is a spirit-like image of a person, either living or dead.
+*Their ice and lightning attacks are similar to those performed by the [[Lunatic Cultist]]. As well as "Eidolon" being a term used to describe something idolized (potentially in the fashion of a cult), further establishes a connection between these enemies.
+**They may also be related to the [[Eidolist]], as they have similar names and both spawn in the Abyss.
+*Its design is based on a creature from the aquatic exploration game ''[[wikipedia:Subnautica|Subnautica]]'', known as the [http://subnautica.fandom.com/wiki/Ghost_Leviathan Ghost Leviathan]. The original sprite was also a copy of the Ghost Leviathan's design.
+**The different life-stages makes this more evident because there are both juvenile and adult Ghost Leviathans.
+**The Adult versions of both creatures share the similar purpose of preventing the player from doing something (Adult Ghost Leviathans protect the crater edge, while the Adult Eidolon Wyrm prevents the player from using the Rod of Discord or other short ranged teleportation items).
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

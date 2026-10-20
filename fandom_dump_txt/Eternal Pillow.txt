@@ -1,0 +1,41 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+
+| type = Covering
+
+| tooltip = One of the ancient relics<br/>Summons a necron elemental to fight for you
+
+| sell = {{value|0|9|0}}
+
+| rare = 13
+
+| damagetype = summon
+
+| stack = 1
+
+| hardmode = no
+
+| buff = Xun'Bakyr (buff) | bufflink = no
+
+| bufftip = Xun'Bakyr will rule over all by your side
+
+| proj = Alpha Virus Aura.png
+
+| projcaption = Phaerakh Aura
+| hardmode = yes
+| postml = yes
+}}{{summoned|Xun'Bakyr|name=Xun'Bakyr|type=minion}}
+{{dedicated|Bungya|Eternity Mode No-Hit}}
+The '''Eternal Pillow''' is a Godseeker Mode [[covering]] that has a chance to be fished up in the [[Sulphurous Sea]] after [[Providence, the Profaned Goddess]] is defeated. It summons Xun'Bakyr to protect you by using her Phaerakh Aura to reduce enemy defense and defense reduction. She also gives knockback immunity and shoots orbs that heal the player over time.
+==Crafting==
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+==Trivia==
+*The minion is a reference to the Warhammer 40,000 tabletop game.
+{{Master Template Equipables
+
+|show-main = yes
+
+|show-combat = yes
+
+}}

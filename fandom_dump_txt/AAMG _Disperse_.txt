@@ -1,0 +1,38 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Revengeance mode only}}
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| damage = 1000
+| damagetype = Ranged
+| knockback = 0
+| use = 1
+| velocity = 30
+| tooltip = Threat: Eradication<br/>Rapidly fires crosses<br/> Deals 150% more damage to targets that aren't touching a solid block
+| rare = C4
+| sell = {{value|0|0|0|0|5}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Eradication
+| debuffduration = 5 seconds
+| debufftip = You're getting destroyed by powers that go against all rules of humanity
+| element1 = Unholy
+| element2 = Dark
+| element3 = Magic
+| proj = Tungsten Cross.png
+| projcaption = Cross
+}}
+The '''AAMG (Anti Aircraft Machine Gun) "Disperse"''' is a craftable Post-[[Purgatory Arbiter, Umbrus]] [[gun]]. It fires Tungsten Crosses that are able to go through tiles. It deals additional damage to enemies that aren't in contact with a solid block.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+* The weapon is a reference to the turret "Disperse" from the game Mindustry.
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

@@ -1,0 +1,549 @@
+'''Status messages''' are messages that are sent into the chat to inform the player of changes within the world, boss actions, or mode activation. They also serve as a means for [[bosses]] to communicate with the player.
+
+== Progression ==
+{| class="terraria lined"
+! Message !! Trigger !! Effect !! width = 7% | Color
+|-
+| ''"The depths of the underground desert are rumbling..."'' ||[[Desert Scourge]] is defeated for the first time. ||[[Navystone]], [[Eutrophic Sand]], [[Sea Prism]], and [[Prism Shard]]s can be mined, allowing access to the [[Sunken Sea]] [[Biome]].  In addition to this, [[Prism-Back]]s will begin to drop Prism Shards. ||{{color|#7FFFD4 ●|#7FFFD4}}
+|-
+| ''"The desert wind is blowing furiously!"'' ||[[Desert Scourge]] is defeated for the first time. ||[[Sandstorm]]s may now occur in [[Pre-Hardmode]]. ||{{color|#EEE8AA ●|#EEE8AA}}
+|-
+| ''"The ground is glittering with cyan light."'' || [[Hive Mind]]/[[Perforators]] are defeated for the first time. ||  [[Aerialite Ore]] generates in the world. ||{{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"The Sunken Sea trembles..."'' ||[[Wall of Flesh]] is defeated for the first time. || The [[Sunken Sea]] enemies are buffed, new enemies spawn and [[Giant Clam]] gains new drops. ||{{color|#7FFFD4 ●|#7FFFD4}}
+|-
+| ''"A star has fallen from the heavens!"'' || [[Wall of Flesh]] is defeated for the first time or [[Astrum Aureus]] is defeated. ||  An [[Astral Infection]] has crashed into the world. ||{{color|#FFD700 ●|#FFD700}}
+|-
+| ''"The ice caves are crackling with frigid energy."'' || [[Cryogen]] is defeated for the first time. ||  [[Cryonic Ore]] generates in the world. ||{{color|#87CEFA ●|#87CEFA}}
+|-
+| ''"The sulphuric sky darkens..."'' || [[Aquatic Scourge]] is defeated for the first time.||  Immediately plays the roar of a [[Mauler]]. The second tier of the Acid Rain is now unlocked. ||{{color|#73C293 ●|#73C293}}
+|-
+| ''"The hallow has been blessed with consecrated stone!"'' || All three [[Mechanical Bosses]] have been defeated for the first time.||  [[Hallowed Ore]] generates in the underground [[Hallow]]. ||{{color|#32FF82 ●|#32FF82}}
+|-
+| ''"The ocean depths are trembling."'' || [[Calamitas]] is defeated for the first time. ||  Immediately plays the roar of an [[Eidolon Wyrm]]. Enemies in the [[Abyss]] will begin dropping [[Depth Cells]] and [[Lumenyl]]. ||{{color|#4169E1 ●|#4169E1}}
+|-
+| ''"Energized plant matter has formed in the underground."'' || [[Plantera]] is defeated for the first time. ||  [[Perennial Ore]] generates in the world. ||{{color|#ADFF2F ●|#ADFF2F}}
+|-
+| ''"The desert sand shifts intensely!"'' || [[Plantera]] is defeated for the first time. || The [[Great Sand Shark]] can now spawn. ||{{color|#DAA520 ●|#DAA520}}
+|-
+| ''"The astral enemies have been empowered!"'' || [[Astrum Aureus]] is defeated for the first time. ||  [[Astral Infection]] enemies are buffed and drop new items. ||{{color|#FFD700 ●|#FFD700}}
+|-
+| ''"A faint ethereal click can be heard from the dungeon."'' || [[Astrum Aureus]] is defeated for the first time. ||  The [[Astral Chest]] is unlocked. ||{{color|#FFD700 ●|#FFD700}}
+|-
+| ''"A plague has befallen the Jungle."'' || [[Golem]] is defeated for the first time. ||  Several plague related enemies begin spawning in the [[Jungle]]. ||{{color|#00FF00 ●|#00FF00}}
+|-
+| ''"A star-spawned horror tunnels through the astral infection."'' || The [[Lunatic Cultist]] has been defeated for the first time in a world. || [[Atlas]]es spawn three times as often and gain an increase in stats. ||{{color|#FFD700 ●|#FFD700}}
+|-
+| ''"The seal of the stars has been broken! You can now mine Astral Ore."'' || [[Astrum Deus]] is defeated for the first time. ||  [[Astral Ore]] can now be broken. ||{{color|#FFD700 ●|#FFD700}}
+|-
+| ''"The profaned flame blazes fiercely!"'' || [[Moon Lord]] is defeated for the first time. ||  [[Scorn Eater]]s, [[Impious Immolator]]s, and [[Profaned Energy|Profaned Energies]] begin spawning in [[The Hallow]] and [[The Underworld]]. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Cosmic terrors are watching..."'' || [[Moon Lord]] is defeated for the first time. ||  The [[Sentinels of the Devourer]] can now be fought. ||{{color|#EE82EE ●|#EE82EE}}
+|-
+| ''"A cold and dark energy has materialized in space. And a fish."'' || [[Moon Lord]] is defeated for the first time. ||  [[Exodium Cluster]]s generate within [[Planetoid]]s. [[Side Gar|Side Gars]] can now be caught in Space. ||{{color|#D3D3D3 ●|#D3D3D3}}
+|-
+| ''"Shrieks are echoing from the dungeon."'' || [[Moon Lord]] is defeated for the first time. ||  The [[Dungeon]] becomes much more difficult and [[Phantom Spirit]]s begin spawning. ||{{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"The calamitous beings have been inundated with bloodstone."'' || [[Providence, the Profaned Goddess]] is defeated for the first time. ||  [[Calamitas]], [[Brimstone Elemental]], [[Ravager]], and [[Brimstone Crag]] enemies are buffed and begin dropping [[Bloodstone]]. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Fossilized tree bark is bursting through the jungle's mud."'' || [[Providence, the Profaned Goddess]] is defeated for the first time. ||  [[Uelibloom Ore]] generates in the world. ||{{color|#90EE90 ●|#90EE90}}
+|-
+| ''"The abyssal spirits have been disturbed."'' || [[Polterghast]] is defeated for the first time. ||  Immediately plays the roar of a [[Reaper Shark]]. Several [[Abyss]] enemies gain new drops. ||{{color|#4169E1 ●|#4169E1}}
+|-
+| ''"The souls released stir the acidic storms..."'' || [[Polterghast]] is defeated for the first time.||  The third and final tier of the Acid Rain is now unlocked. ||{{color|#73C293 ●|#73C293}}
+|-
+| ''"A boomer awaits."'' || 5% chance on April Fools day when [[Polterghast]] is defeated for the first time. || The third and final tier of the Acid Rain is now unlocked, do note that this overrides the normal message. ||{{color|#73C293 ●|#73C293}}
+|-
+| ''"The harvest moon glows eerily."'' || [[The Devourer of Gods]] is defeated for the first time. ||  The [[Pumpkin Moon]] becomes much more difficult and enemies begin dropping [[Nightmare Fuel]]. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"The frigid moon shimmers brightly."'' || [[The Devourer of Gods]] is defeated for the first time. ||  The [[Frost Moon]] becomes much more difficult and enemies begin dropping [[Endothermic Energy]]. ||{{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"The dark sun awaits."'' || [[The Devourer of Gods]] is defeated for the first time. ||  [[Solar Eclipse]]s become much more difficult and enemies begin dropping [[Darksun Fragment]]s. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"A godly aura has blessed the world's caverns."'' || [[Jungle Dragon, Yharon]] is defeated for the first time. ||  [[Auric Ore]] generates in the world. ||{{color|#FFD700 ●|#FFD700}}
+|}
+
+== Bosses ==
+{| class="terraria lined"
+!Message!! Trigger !! Effect !! width = 7% | Color
+|-
+| ''"Something is approaching..."'' || Randomly in [[Death Mode]], while the spawning conditions of a boss that has not been defeated yet are met. || A boss from the respective biome will spawn. ||{{color|#DC143C ●|#DC143C}}
+|-
+| ''"Cryogen is derping out!"'' || 1% chance (5% on April Fool's Day), when [[Cryogen]] enters phase 6. || No effect. ||{{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"The brothers have been reborn!"'' || [[Calamitas]] reaches 40% health. ||[[Catastrophe]] and [[Cataclysm]] spawn. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Impressive child, most impressive..."'' || [[Calamitas]] reaches 35% health. ||  [[Soul Seeker]]s spawn around Calamitas. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Something stirs in the warm desert sands..."'' || A fourth [[Sand Shark]] is killed after defeating [[Plantera]]. ||  The [[Great Sand Shark]] will spawn after six more [[Sand Shark]] kills. ||{{color|#B8860B ●|#B8860B}}
+|-
+| ''"An enormous apex predator approaches..."'' || An eighth [[Sand Shark]] is killed after defeating [[Plantera]]. ||  The [[Great Sand Shark]] will spawn after two more [[Sand Shark]] kills. ||{{color|#B8860B ●|#B8860B}}
+|-
+| ''"PLAGUE NUKE BARRAGE ARMED, PREPARING FOR LAUNCH!!!"'' || [[The Plaguebringer Goliath]] reaches 50% health. ||  [[The Plaguebringer Goliath]] can now use her Plague Nuke Barrage attack. ||{{color|#00FF00 ●|#00FF00}}
+|-
+| ''"The god of the stars rejects your offering. The ritual can only be performed at night."'' || A [[Titan Heart]] or [[Starcore]] was used on the [[Astral Beacon]] during the day. || Dialogue, no effect. ||{{color|#ED5D53 ●|#ED5D53}}
+|-
+| ''"The air is burning..."'' || [[Providence, the Profaned Goddess]] finishes her Cocoon Star attack. ||  Players are inflicted with [[Icarus' Folly]]. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"The Profaned Goddess has recognised your devotion to purity!"'' || [[Providence, the Profaned Goddess]] is defeated in singleplayer, with the player using only the [[Profaned Soul Artifact]] and [[Golden Gun]]. ||  The [[Profaned Soul Crystal]] is dropped. ||{{color|#FF8C00 ●|#FF8C00}}
+|-
+| ''"Wails echo through the dilapidated dungeon halls..."'' || A tenth [[Phantom Spirit]] is killed in Godseeker Mode if [[Polterghast]] is not yet defeated. ||  [[Polterghast]] will spawn after twenty more [[Phantom Spirit]] kills.  ||{{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"Long-dead prisoners seek their zealous revenge..."'' || A twentieth [[Phantom Spirit]] is killed in Godseeker Mode if [[Polterghast]] is not yet defeated. ||  [[Polterghast]] will spawn after ten more [[Phantom Spirit]] kills. ||{{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"How selfish of you to kill my mother off like that..."'' || [[The Starborn Moth]] reaches 75% health and [[Providence, the Profaned Goddess]] has been defeated. {{dei}} ||  Dialogue, no effect. ||{{color|#FF80FF ●|#FF80FF}}
+|-
+| ''"The ever living wrath of my holy flames will forever cleanse this sinful world!"'' || [[The Starborn Moth]] enters her final phase. {{dei}} ||  Dialogue, no effect. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"You are no god...but I shall feast upon your essence regardless!"'' || [[The Devourer of Gods]] spawns. ||  Dialogue, no effect. ||{{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"Don't get cocky, kid!"'' || [[The Devourer of Gods]] reaches 68% health.<br/>When the [[Cosmic Plushie]] stabs the player. ||  Dialogue, no effect.<br/>Spawns a [[Cosmic Guardian]] (or [[The Devourer of Gods]]' final form if the player's name is Terry) when stabbed. ||{{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"It's not over yet, kid!"'' || [[The Devourer of Gods]] returns in its final phase. ||  Dialogue, no effect. ||{{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"A GOD DOES NOT FEAR DEATH!"'' || [[The Devourer of Gods]] reaches 18% health. ||  Teleports and summons three [[Cosmic Guardian]]s. ||{{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"A fatal mistake!"''<br/>''"Good luck recovering from that!"''<br/>''"Delicious..."''<br/>''"Did that hurt?"''<br/>''"Nothing personal, kid."'' || Getting hit by [[The Devourer of Gods]]' head. || Dialogue, no effect.<br/>Appears on the place where The Devourer of Gods' head hits the player. ||{{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"Are you honestly that bad at dodging?"''<br/>''"Of all my segments to get hit by..."'' || Getting hit by [[The Devourer of Gods]]' tail. || Dialogue, no effect.<br/>Appears on the place where The Devourer of Gods' tail hits the player. ||{{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"You think...you can butcher...ME!?"'' || Attempting to instantly kill [[The Devourer of Gods]]. ||  The Devourer of Gods is not instantly killed. ||{{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"The air is getting warmer around you."'' || [[Jungle Dragon, Yharon]] reaches 55% health. ||  Yharon enters his second phase and becomes briefly invincible. ||{{color|#FFA500 ●|#FFA500}}
+|}
+
+=== Draedon and [[The Fabricational Quartet]] ===
+
+{| class="terraria lined"
+! Message !! Trigger !! Effect !! width = 7% | Color
+|-
+| ''"I have waited long for this moment."''
+|| Draedon spawns for the first time.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"Your nature fascinates me, for I do not understand it."''
+|| Draedon spawns for the first time.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"You will battle my creations which have surpassed gods."''
+|| Draedon spawns for the first time.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"And you will prove your disposition in battle."''
+|| Draedon spawns for the first time.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"Now, choose."''
+|| Draedon spawns for the first time.
+|| A UI appears allowing the player to choose the first Exo Mech spawned. || {{color|#D5040B ●|#D5040B}}
+|-
+| ''"Make your choice."''
+|| Draedon spawns after being spawned previously.
+|| A UI appears allowing the player to choose the first Exo Mech spawned. || {{color|#D5040B ●|#D5040B}}
+|-
+| ''"Designs improved with time and knowledge are the essence of my work."''
+|| The first Exo Mech reaches 70% health.
+|| The first Exo Mech disappears, and the other two The Fabricational Quartet spawn. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"Through no other method can I approach perfection."''
+|| The first Exo Mech reaches 70% health.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"Your performance falls neatly within the margin of error."''
+|| A second Exo Mech reaches 70% health.
+|| The first Exo Mech reappears, and all three The Fabricational Quartet attack at once. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"That is quite satisfactory. We will proceed to the next phase of testing."''
+|| A second Exo Mech reaches 70% health.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"Ever since I was alerted to your presence, I have been processing your battles in order to make my machines stronger."''
+|| One of the The Fabricational Quartet reaches 40% health.
+|| The other two The Fabricational Quartet disappear, and the remaining Exo Mech is berserked. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"Even now, I monitor your actions. Nothing should escape the bounds of my calculations."''
+|| One of the The Fabricational Quartet reaches 40% health.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"Curious. Very curious."''
+|| The first Exo Mech is defeated.
+|| The Exo Mech with the higher remaining health reappears on its own. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"Your progress steadily against more difficult challenges."''
+|| The first Exo Mech is defeated.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"Your nature remains unknown to me. This will not do."''
+|| A second Exo Mech reaches 40% health.
+|| The other Exo Mech disappears, and the remaining Exo Mech is berserked. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"...I sought perfection. Fate must have favored irony, for that must have been my first mistake."''
+|| A second Exo Mech reaches 40% health.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"Absurd."''
+|| A second Exo Mech is defeated.
+|| The final Exo Mech reappears, berserked and notably faster. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"I will no longer let my calculations impede my observation of this battle."''
+|| A second Exo Mech is defeated.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"I will show you the full fury of my final machine."''
+|| A second Exo Mech is defeated.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"How foolish. You cannot escape."''
+|| Attempting to escape Ares' Exo Overload Beam attack.
+|| Ares becomes enraged. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"An unknown factor - a catalyst is what you are."''
+|| The final Exo Mech is defeated.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"Nearly as alien as I, to this land and its history."''
+|| The final Exo Mech is defeated.
+|| Draedon becomes vulnerable. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"...Excuse my introspection. I must gather my thoughts after watching that display."''
+|| The final Exo Mech is defeated.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"This land has become stale and stiff with blood that has been spilled until now."''
+|| The final Exo Mech is defeated.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"You too have spilled blood, but it may be enough to usher in a new age... Of what, I do not know. But it is something I am eager to see."''
+|| The final Exo Mech is defeated.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"Now, you wish to reach the Tyrant. I cannot assist you in that."''
+|| The final Exo Mech is defeated.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"It is not a matter of spite, for I would wish nothing more than to observe such a conflict."''
+|| The final Exo Mech is defeated.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"But you have managed before. You will find a way eventually."''
+|| The final Exo Mech is defeated.
+|| Dialogue, no effect. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"I must acknowledge your triumph, but I will now return to my machinery."''
+|| The final Exo Mech is defeated.
+|| Draedon disappears. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+| ''"...Quite unnecessary."''
+|| Draedon is attacked during his closing monologue.
+|| Draedon reappears as an invulnerable hologram. || {{color|#9BFFFF ●|#9BFFFF}}
+|-
+|}
+=== Supreme Calamitas ===
+{| class="terraria lined"
+! Message !! Trigger !! Effect !! width = 7% | Color
+|-
+| ''"Do you enjoy going through hell?"''
+|| [[Supreme Calamitas]] spawns before defeating her prior.
+||  The first bullet hell occurs. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"You should have just died..."'' || The first bullet hell ends. ||  [[Sepulcher]] spawns. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"It wasn't too long ago you barely managed to defeat my doppelganger. Quite the failure, wasn't it?"'' || Supreme Calamitas reaches 75% health. ||  The second bullet hell occurs. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"You've harnessed great power, but you wield it for no one but yourself."'' || Supreme Calamitas reaches 50% health. ||  The third bullet hell occurs. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Would you like to meet my family? Horrible, isn't it?"'' || Supreme Calamitas reaches 45% health. ||  [[Supreme Catastrophe]] and [[Supreme Cataclysm]] spawn. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"You will suffer greatly."'' || Supreme Calamitas reaches 40% health. ||  Supreme Calamitas enters her second phase. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"It's absurd to even think of trying to get away. As long as you live, you will suffer."'' || Supreme Calamitas reaches 30% health. ||  The fourth bullet hell occurs. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"An upstart who recklessly stole and killed their way to power. I wonder, who does that remind me of...?"'' || Supreme Calamitas reaches 20% health. ||  [[Soul Seeker (Supreme)|Soul Seeker]]s spawn in a large, spinning ring. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"You have no stake in this battle. No one gave you any say in this matter!"'' || Supreme Calamitas reaches 10% health. ||  The final bullet hell occurs. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Once the dust has settled and only one remains, if it is you, what value will this have had?!"'' || Supreme Calamitas reaches 8% health. ||  [[Sepulcher]] respawns. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Just stop!"'' || Supreme Calamitas reaches less than 5% health. ||  Dialogue, no effect. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"I have no future if I lose here."'' || Supreme Calamitas reaches less than 5% health. ||  Dialogue, no effect. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Once you have bested me, you will only have one path forward."'' || Supreme Calamitas reaches less than 5% health. ||  Dialogue, no effect. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"And that path... also has no future."'' || Supreme Calamitas reaches less than 5% health. ||  Dialogue, no effect. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Even if he has thrown all else away, his power remains."'' || Supreme Calamitas reaches 1% health. || Supreme Calamitas stops attacking and becomes immobile and invulnerable. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"I have no more energy left to resent him, or you..."'' || Supreme Calamitas reaches 1% health. || Dialogue, no effect. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"It will all be in your hands now."'' || Supreme Calamitas reaches 1% health. || Supreme Calamitas concedes and gives up after 5 more seconds have passed by. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"If you're looking for some fourth-degree burns, you've got the right person."'' || Supreme Calamitas spawn after having defeated her previously. ||  The first bullet hell occurs. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"When the time comes, would you like to join my creation?"'' || The first bullet hell ends after defeating her previously. || Sepulcher spawns. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"You'll still have to work hard for this victory."'' || Supreme Calamitas reaches 75% health after defeating her previously. || The second bullet hell occurs. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"I haven't had such an interesting target dummy to test my magic on in a long time."'' || Supreme Calamitas reaches 50% health after defeating her previously. || The third bullet hell occurs. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Empty shells of their former selves. I doubt even a scrap of their spirits remain."'' || Supreme Calamitas reaches 45% health after defeating her previously. || Supreme Catastrophe and Supreme Cataclysm spawn. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Here we go again."'' || Supreme Calamitas reaches 40% health after defeating her previously. || Supreme Calamitas enters her second phase. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"I wonder if you've seen these in your nightmares since our first battle?"'' || Supreme Calamitas reaches 30% health after defeating her previously. || The fourth bullet hell occurs. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Your skill hasn't faltered in the least."'' || Supreme Calamitas reaches 20% health after defeating her previously. || Soul Seekers spawn in a large, spinning ring. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Isn't this exciting?"'' || Supreme Calamitas reaches 10% health after defeating her previously. || The final bullet hell occurs. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Here comes the crawling tomb, one last time."'' || Supreme Calamitas reaches 8% health after defeating her previously. || Sepulcher spawns. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"A terrific display, I concede this match to you."'' || Supreme Calamitas reaches less than 5% health after defeating her previously. ||  Dialogue, no effect. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"No doubt you will face enemies stronger than I."'' || Supreme Calamitas reaches less than 5% health after defeating her previously. ||  Dialogue, no effect. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"I trust you will not make the same mistakes he did."'' || Supreme Calamitas reaches less than 5% health after defeating her previously. ||  Dialogue, no effect. ||{{color|#FFA500 ●|#FFA500}}
+|-
+| ''"I can't imagine what your future holds now."'' || Supreme Calamitas reaches less than 5% health after defeating her previously. ||  Dialogue, no effect. ||{{color|#FFA500 ●|#FFA500}}
+|}
+
+=== Despawn messages ===
+The following messages will only appear if the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist] mod is installed and enabled, Boss Despawn Messages is set to "Unique" in the config (Otherwise it will say "<Boss> has killed every player!) and when a boss has killed all players and despawned.  Each boss has their own corresponding message.
+
+{| class="terraria lined"
+! Message !! Boss / Mini Boss !! color
+|-
+| ''"Goozma goozed away."'' || Goozma || {{color|#04E804 ●|#04E804}}
+|-
+| ''"The scourge of the desert delved back into the sand."'' || Desert Scourge || {{color|#EEE8AA ●|#EEE8AA}}
+|-
+| ''"The Giant Clam returns hiding in its grotto."'' || Giant Clam || {{color|#7FFFD4 ●|#7FFFD4}}
+|-
+| ''"The mycelium crab has lost interest."'' || Crabulon || {{color|#6495ED ●|#6495ED}}
+|-
+| ''"The acidic eye swims back into the seas."'' || Acidsighter || {{color|#8BB039 ●|#8BB039}}
+|-
+| ''"The corrupted colony began searching for a new breeding ground."'' || The Hive Mind || {{color|#9400D3 ●|#9400D3}}
+|-
+| ''"The parasitic hive began searching for a new host."'' || The Perforators || {{color|#DC143C ●|#DC143C}}
+|-
+| ''"The gelatinous monstrosity achieved vengeance for its brethren."'' || The Slime God || {{color|#BA5533 ●|#BA5533}}
+|-
+| ''"The Cumulomenace has lost all interest in fighting..."'' || Cumulomenace || {{color|#BCE4F4 ●|#BCE4F4}}
+|-
+| ''"Cryogen drifts away, carried on a freezing wind."'' || Cryogen || {{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"Pyrogen settles once more into the searing lake."'' || Pyrogen || {{color|#B4445C ●|#B4445C}}
+|-
+| ''"The Aquatic Scourge swam back into the open ocean."'' || Aquatic Scourge || {{color|#F0E68C ●|#F0E68C}}
+|-
+| ''"Brimstone Elemental withdraws to the ruins of her shrine."'' || Brimstone Elemental || {{color|#DC143C ●|#DC143C}}
+|-
+| ''"If you wanted a fight, you should've come more prepared."'' || Calamitas || {{color|#FFA500 ●|#FFA500}}
+|-
+| ''"The Derellect returns to the scrap heap..."'' || Derellect || {{color|#DC3434 ●|#DC3434}}
+|-
+| ''"The apex predator of the sands disappears into the dunes..."'' || Great Sand Shark || {{color|#DAA520 ●|#DAA520}}
+|-
+| ''"The aquatic entities sink back beneath the ocean depths."'' || Leviathan and Anahita || {{color|#7FFFD4 ●|#7FFFD4}}
+|-
+| ''"Astrum Aureus’ program has been executed. Initiate recall."'' || Astrum Aureus || {{color|#FFD700 ●|#FFD700}}
+|-
+| ''"HOSTILE SPECIMENS TERMINATED. INITIATE RECALL TO HOME BASE."'' || The Plaguebringer Goliath || {{color|#00FF00 ●|#00FF00}}
+|-
+| ''"The automaton of misshapen victims went looking for the true perpetrator."'' || Ravager || {{color|#B22222 ●|#B22222}}
+|-
+| ''"The infected deity retreats to the heavens."'' || Astrum Deus || {{color|#FFD700 ●|#FFD700}}
+|-
+| ''"The tyranny abomination has smited every player."'' || Yharim Worm || {{color|#E0A35A ●|#E0A35A}}
+|-
+| ''"The guardians must protect their goddess at all costs."'' || Profaned Guardians || {{color|#FFA500 ●|#FFA500}}
+|-
+| ''"The failed experiment returns into its reproductive routine."'' || The Dragonfolly || {{color|#FFD700 ●|#FFD700}}
+|-
+| ''"The Profaned Goddess vanishes in a burning blaze."'' || Providence, the Profaned Goddess || {{color|#FFA500 ●|#FFA500}}
+|-
+| ''"The rift in time and space has moved away from your reach."'' || Ceaseless Void || {{color|#4B0082 ●|#4B0082}}
+|-
+| ''"Storm Weaver hid itself once again within the stormfront."'' || Storm Weaver || {{color|#EE82EE ●|#EE82EE}}
+|-
+| ''"The Devourer's assassin has finished its easy task."'' || Signus || {{color|#BA55D3 ●|#BA55D3}}
+|-
+| ''"The volatile spirits disperse throughout the depths of the dungeon."'' || Polterghast || {{color|#B0E0E6 ●|#B0E0E6}}
+|-
+| ''"The old duke disappears amidst the acidic downpour."'' || The Old Duke || {{color|#F0E68C ●|#F0E68C}}
+|-
+| ''"The Devourer of Gods has slain everyone and feasted on their essence."'' || The Devourer of Gods || {{color|#00FFFF ●|#00FFFF}}
+|-
+| ''"The harbingers of goodgement day return to their creator."'' || Horseslimes of the Goopocalypse {{dei}} || {{color|#4866DA ●|#4866DA}}
+|-
+| ''"Yharon found you too weak to stay near your gravestone."'' || Jungle Dragon, Yharon || {{color|#FFA500 ●|#FFA500}}
+|-
+| ''"The titanic machine continues its endless journey through Hell."'' || Wall of Bronze || {{color|#640484 ●|#640484}}
+|-
+| ''"An imperfection after all... what a shame."'' || The Fabricational Quartet, Hypnos, Losbaf || {{color|#7FFFD4 ●|#7FFFD4}}
+|-
+| ''"Please don't waste my time."'' || Supreme Calamitas || {{color|#FFA500 ●|#FFA500}}
+|-
+| ''"..."'' || Adult Eidolon Wyrm || {{color|#7FFFD4 ●|#7FFFD4}}
+|-
+| ''"Hmm… you were not as useful as expected. Pathetic."'' || Purgatory Arbiter, Umbrus || {{color|#5C498D ●|#5C498D}}
+|-
+| ''"The Esseric Lord disappears into the deep blue skies."'' || Esserwyrm || {{color|#102554 ●|#102554}}
+|-
+|}
+
+== Events ==
+{| class="terraria lined"
+! Message !! Trigger !! Effect !! width = 7% | Color
+|-
+| ''"A toxic downpour falls over the wasteland seas!"'' || A [[Caustic Tear]] is used, or naturally occurs after the [[Acidsighter]] is defeated. || The [[Acid Rain]] begins. || {{color|#73C293 ●|#73C293}}
+|-
+| ''"The sulphuric skies begin to clear..."'' || After Acid Rain is completed or the player doesn't kill any enemies within four minutes. || The Acid Rain ends. || {{color|#73C293 ●|#73C293}} 
+|-
+| ''"Hmm? Ah, another contender. Very well, may the ritual commence!"'' || Upon starting [[Boss Rush]]. ||  Dialogue, no effect. || {{color|#F08080 ●|#F08080}}
+|-
+| ''"Hmm? Oh, you're still alive. Unexpected and exhilarating, but don't get complacent just yet."'' || Upon defeating [[The Destroyer]] during Boss Rush. || Dialogue, no effect. || {{color|#F08080 ●|#F08080}}
+|-
+| ''"Hmm? Persistent aren't you? Perhaps you have some hope of prosperity, unlike last challengers."'' || Upon defeating [[Lunatic Cultist]] during Boss Rush. || Dialogue, no effect. || {{color|#F08080 ●|#F08080}}
+|-
+| ''"Hmm? Your perseverance is truly a trait to behold. You've come further than even the demigods in such a short time."''<br/>''"May your skills remain sharp for the remaining challenges."'' || Upon defeating [[Duke Fishron]] during Boss Rush.''<br/>''Shortly after [[Duke Fishron]] is defeated. ||  Dialogue, no effect. || {{color|#F08080 ●|#F08080}}
+|-
+|''"Hmm? So you've made it to the final tier, a remarkable feat enviable by even the mightiest of gods."''<br/>''"Go forth and conquer the ritual's end!"'' || Upon defeating [[Providence]] during Boss Rush.''<br/>''Shortly after [[Providence]] is defeated. || Dialogue, no effect. || {{color|#F08080 ●|#F08080}}
+|-
+|''"Hmm? You expected a reward beyond this mere pebble? Patience, the true reward will come apparent in time."'' || Upon completing the Boss Rush. || The player receives the [[Rock]]. || {{color|#F08080 ●|#F08080}}
+|}
+
+== Toggle Items ==
+{| class="terraria lined"
+! Message !! Trigger !! Effect !! width = 7% | Color
+|-
+| ''"You cannot change the rules now."'' || When the player attempts to use the [[Revengeance]], [[Death]], or [[Malice]] items while a boss is alive. || No effect. || {{color|#DC143C ●|#DC143C}}
+|-
+| ''"Death is active; enjoy the fun."'' || [[Death]] is used when Death Mode is not active. ||  Activates [[Death Mode]]. || {{color|#DC143C ●|#DC143C}}
+|-
+| ''"Death is not active; not fun enough for you?"'' || [[Death]] or [[Revengeance]] is used when Death Mode is active. ||  Deactivates [[Death Mode]]. || {{color|#DC143C ●|#DC143C}}
+|-
+| ''"Malice is active; witness the horror!"'' || [[Malice]] is used when Malice Mode is not active. || Activates [[Malice Mode]]. || {{color|#DC143C ●|#DC143C}}
+|-
+| ''"Malice is not active."'' || [[Malice]] is used when Malice Mode is active. || Deactivates [[Malice Mode]]. || {{color|#DC143C ●|#DC143C}}
+|-
+| ''"Revengeance is active."'' || [[Revengeance]] is used when Revengeance Mode is not active. || Activates [[Revengeance Mode]]. || {{color|#DC143C ●|#DC143C}}
+|-
+| ''"Revengeance is not active."'' || [[Revengeance]] is used when Revengeance Mode is active. || Deactivates [[Revengeance Mode]]. || {{color|#DC143C ●|#DC143C}}
+|-
+| ''"You have been blessed by the Third Sage!"'' || [[Hermit's Box of One Hundred Medicines]] is selected in the toolbar and the player right-clicks while it is not active. || Grants the player the ability to respawn with full health. || {{color|#EE82EE ●|#EE82EE}}
+|-
+| ''"The Third Sage has rescinded its blessing..."'' || [[Hermit's Box of One Hundred Medicines]] is selected in the toolbar and the player right-clicks while it is active. || Retracts the ability for the player to respawn with full health. ||{{color|#EE82EE ●|#EE82EE}}
+|-
+|}
+
+== Death Messages ==
+{| class="terraria lined"
+! Message !! Trigger !! width = 7% | Color
+|-
+| ''"<PlayerName> became a blood geyser."'' || When the player is killed by the [[Burning Blood]] [[debuff]]. ||{{color|#FF1919 ●|#FF1919}} <!-- FF1919 is the default Vanilla color and never changes due to how PlayerDeathReason functions -->
+|-
+| ''"<PlayerName> was consumed by the black flames."'' || When the player is killed by the [[Brimstone Flames]], [[Abyssal Flames]] or [[Weak Brimstone Flames]] debuffs. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName>'s flesh was melted by the plague."''<br/>''"<PlayerName> didn't vaccinate."'' || When the player is killed by the [[Plague]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> fell prey to their sins."'' || When the player is killed by the [[Holy Flames]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> lost too much blood."'' || When the player is killed by the [[Heavy Bleeding]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> downed too many shots."''<br/>''"<PlayerName>'s liver failed."'' || When the player is killed by [[Alcohol Poisoning]]. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> was charred by the brimstone inferno."'' || When the player is killed by the [[Vulnerability Hex]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName>'s soul was released by the lava."'' || When the player is killed by the lava in the [[Brimstone Crag]]. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> disintegrated into ashes."'' || When the player is killed by the [[Dragon Fire]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> was turned to ashes by the Profaned Goddess."'' || When the player is killed by the [[Holy Inferno]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName>'s spirit was turned to ash."'' || When the player is killed by the [[Shadowflame]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> was crushed by the pressure."''<br/>''"<PlayerName>'s lungs collapsed."'' || When the player is killed by the [[Crush Depth]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName>'s infection spread too far."''<br/>''"<PlayerName>'s skin was replaced by the astral virus."'' || When the player is killed by the [[Astral Infection (debuff)|Astral Infection]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName>'s soul was extinguished."'' || When the player is killed by the [[God Slayer Inferno]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> was melted by the toxic waste."'' || When the player is killed by the [[Sulphuric Poisoning]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName>'s life was completely converted into mana."'' || When the player is killed by the [[Mana Polarizer]]. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> succumbed to alcohol sickness."'' || When the player is killed by the lowered regeneration from [[Alcohol]]. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> is food for the Wyrms."''<br/>''"Oxygen failed to reach <PlayerName> from the depths of the Abyss."'' || When the player is killed by drowning in the [[Abyss]]. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> was destroyed by a mysterious force."'' || When the player is killed by the [[Boss Rush]] immunity curse. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> burst into sinless ash."'' || When the player is killed by the fire orbs from the [[Profaned Guardians|Crystal Guardian]] or the cocoon flames from [[Providence, the Profaned Goddess]]. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> couldn't stand the sharp objects."'' || When the player is killed by the [[Cosmic Plushie]]. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> was chilled to the bone by the frigid environment."'' || When the player is killed by the [[Freezing Weather]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> was incinerated by lunar rays."'' || When the player is killed by the [[Nightwither]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> vaporized into thin air."'' || When the player is killed by the [[Vaporfied]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> suffered from severe anemia."''<br/>''"<PlayerName> was unable to obtain a blood transfusion."'' || When the player is killed by the [[Blood Boiler]]. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> was violently pricked by a flower."'' || When the player is killed by the [[Thorn Blossom]]. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> became the blood god's sacrifice."'' || When the player is killed by the [[Corpus Avertor]]'s stealth strike. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName>'s blood vessels burst from drug overdose."'' || When the player is killed by the [[Astral Injection]]. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> was once again impaled by a Goldfish."'' || When the player is instantly killed by a [[Fearless Goldfish Warrior]] with the name "Metatrex" or "LordMetatrex." ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> isn't worthy."'' || When the player is killed by equipping the [[lul]] covering with a name other than "Fabsol" or "Totalbiscuit". ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> was summoned too soon."'' || When the player is killed while equipping the [[Profaned Soul Crystal]] covering. ||{{color|#FF1919 ●|#FF1919}}
+|-
+| ''"<PlayerName> withered away."'' || When the player is killed by the [[Withered]] debuff. ||{{color|#FF1919 ●|#FF1919}}
+|}
+
+== Proficiency ==
+{| class="terraria lined"
+! Message !! Trigger !! Effect !! width = 8% | Color
+|-
+| ''"Melee weapon proficiency level up!"'' || Leveling up melee [[proficiency]] to Level 1 through Level 14. || rowspan=10 | Launches a firework from the player. || rowspan=10 | {{color|#FFA500 ●|#FFA500}}
+|-
+| ''"Melee weapon proficiency maxed out!"'' || Leveling up melee [[proficiency]] to Level 15.
+|-
+| ''"Ranged weapon proficiency level up!"'' || Leveling up ranged [[proficiency]] to Level 1 through Level 14.
+|-
+| ''"Ranged weapon proficiency maxed out!"'' || Leveling up ranged [[proficiency]] to Level 15.
+|-
+| ''"Magic weapon proficiency level up!"'' || Leveling up magic [[proficiency]] to Level 1 through Level 14.
+|-
+| ''"Magic weapon proficiency maxed out!"'' || Leveling up magic [[proficiency]] to Level 15.
+|-
+| ''"Summoner weapon proficiency level up!"'' || Leveling up summoner [[proficiency]] to Level 1 through Level 14.
+|-
+| ''"Summoner weapon proficiency maxed out!"'' || Leveling up summoner [[proficiency]] to Level 15.
+|-
+| ''"Spy weapon proficiency level up!"'' || Leveling up Spy [[proficiency]] to Level 1 through Level 14.
+|-
+| ''"Spy weapon proficiency maxed out!"'' || Leveling up Spy [[proficiency]] to Level 15.
+|-
+|}
+
+== Other ==
+{| class="terraria lined"
+! Message !! Trigger !! width = 8% | Color
+|-
+| ''"The LORDE is approaching..."'' || 0.000001% (or 1 in 100,000,000) chance every frame if the day is April Fools Day. ||{{color|#DC143C ●|#DC143C}}
+|-
+|}
+
+== Footnotes ==
+<references/>
+
+{{Game mechanics}}
+[[Category:Game mechanics]]
+[[zh:状态讯息]]

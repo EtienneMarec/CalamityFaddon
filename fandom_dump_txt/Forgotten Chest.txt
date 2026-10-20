@@ -1,0 +1,69 @@
+{{item infobox
+| imagealt = [[File:Locked Forgotten Chest.png]] [[File:Forgotten Chest.png]]
+| type = Furniture
+| type2 = Storage
+| rare = 0
+| color = #449CCF
+| auto = yes
+| placeable = Yes
+| width = 2
+| height = 2
+| stack = 9999
+| consumable = True
+| use = 14
+| sell = {{value|0|0|1|0}}
+}}
+
+'''Forgotten Chest''' is [[chest]] found only in the [[Sunken Sea]] at the center, below the largest geode. It always contains a [[Chilled Soda Blade]], alongside other loots. It is initially locked, and can only be opened with a [[Sea-Imbued Key]].
+
+{|
+|- style="vertical-align: top"
+|
+{| class="terraria"
+|-
+! Primary Items
+|-
+| {{item|Chilled Soda Blade}}
+|}
+|
+{| class="terraria lined"
+|-
+! Item !! Quantity !! Chance
+|-
+| {{item|Seafood}}
+|rowspan="10" | 5-15
+|rowspan="10" | 50%
+|-
+| {{item|Zerg Potion}}
+|-
+| {{item|Ashes of the Sunken Sea}}
+|-
+| {{item|Revivify Potion}}
+|-
+| {{item|Evergreen Gin}}
+|-
+| {{item|Cream Soda}}
+|-
+| {{item|Barolegs}}
+|-
+| {{item|Cobalt Skin Potion}}
+|-
+| {{item|Wrath Potion}}
+|-
+| {{item|Rage Potion}}
+|-
+| {{item|Sea Prism}}
+| 50-99
+| 100%
+|-
+| {{item|Gold Coin}}
+| 10-20
+| 100%
+|-
+|}
+|}
+
+{{Master Template Tiles
+| show-main = yes
+| show-furniture = yes
+}}

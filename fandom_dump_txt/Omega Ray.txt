@@ -1,0 +1,44 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 210
+| mana = 4
+| tooltip = Disintegrates everything with a penta-beam of energy and lasers<br/>Right click to fire an ogscule-shaped beam of destructive energy that split into randomly spinning lasers
+| knockback = 2
+| velocity = 11
+| rare = 15
+| sell = {{value|0|40}}
+| use = 4
+| stack = 1
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Holy
+| element3 = Unholy
+| element4 = Fire
+}}
+The '''Omega Ray''' is a craftable Godseeker Mode [[magic gun]] with two firing modes. The left-click mode has five main parallel laser beams and also shoots laser projectiles rapidly. The right-click mode shoots a beam that splits into five. All projectiles fired from this weapon travel through blocks and all particle beams pierce indefinitely. The five particle beams deal 80% of the weapon's damage, the secondary-fire's beam deals 166.25% of the weapon's damage, and the additional laser projectiles deal 40% of the weapon's damage with 40% of the weapon's knockback.
+
+{{Modifier|magicalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The left-click mode's main beams deal Omega Ray's actual listed damage while the secondary laser projectiles deal only half of it. On the other hand, right-click mode beams deal double the weapon's damage. Despite that, left-click mode actually reaches higher DPS due to faster fire rate and additional fired projectiles.
+
+== Trivia ==
+*The Omega Ray's sprite resembles a combination of the weapons used to craft it.
+
+{{-}}
+{{auric}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic guns]]

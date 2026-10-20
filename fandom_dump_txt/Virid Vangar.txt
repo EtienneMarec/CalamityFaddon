@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 280
+| knockback = 5
+| mana = 10
+| use = 14
+| tooltip = Summons a gar to float behind you<br/>The gar will slash at enemies in front of you, inflicting Poisoned
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| buff = Virid Vangar (buff) | bufflink = no
+| bufftip = A perfect act of unity surrounds you
+| element1 = Poison
+| element2 = Slash
+}}
+{{summoned|Vangar Blades|type=minion}}
+
+The '''Virid Vangar''' is a craftable Godseeker Mode [[summon weapon]] that is a direct upgrade to the [[Igneous Exaltation]]. When used, it summons a singular gar that sticks to the player's back. When an enemy comes within a 10 block range of the player, the gar will violently slash at the enemy, inflicting [[Poisoned]].
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The word, "Virid" means lively, while the word. 
+{{-}}
+{{Uelibloom}}
+{{Master Template Weapons
+|show-main = yes
+|show-summon = yes
+}}

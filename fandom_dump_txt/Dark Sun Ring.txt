@@ -1,0 +1,29 @@
+{{item infobox
+| image = Dark Sun Ring.gif
+| type = Covering
+| stack = 1
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| defense = 10
+| tooltip = Contains the power of the dark sun<br/>12% increase to damage and melee speed<br/>+1 life regeneration, 15% increased pick speed, and +2 max minions<br/>Increased minion knockback<br/>During the day the player has +3 life regen<br/>During the night the player has +15 defense<br/>Both of these bonuses are granted during an eclipse
+}}
+
+The '''Dark Sun Ring''' is a craftable Godseeker Mode [[covering]] which grants a wide array of benefits. It provides +1 life regeneration, 10 [[defense]], a 12% increase to damage, 12% increased melee speed, +2 extra minion slots, +120% minion knockback, and 15% increased mining speed.
+
+During the day, the Dark Sun Ring provides an additional +3 life regeneration for a total of +4. At night, it instead provides an extra 15 defense for a total of 25 defense. During a [[Solar Eclipse]], the player gets both bonuses, for a total of +4 life regeneration and +25 defense.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

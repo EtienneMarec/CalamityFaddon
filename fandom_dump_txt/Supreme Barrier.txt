@@ -1,0 +1,79 @@
+{{item infobox
+| type = Accessory
+| defense = 30
+| tooltip = Allows the ability to ram dash, empowered by the cosmic inferno
+This dash can slam through enemies without taking damage
+Grants immunity to knockback and fire blocks
+Grants immunity to the vast majority of debuffs, including God Slayer Inferno
+Causes stars to fall and gives increased immune time when damaged
+Absorbs 15% of damage done to players on your team
+This effect is only active above 25% life
+Puts a shell around the owner when below 50% life that reduces damage taken
+Being hit for over 200 damage will make you immune for an extended period of time
+A mudilaginous curse prevents you from using this item....
+
+
+Allows the ability to ram dash, empowered by the cosmic inferno<br/>This dash can slam through enemies without taking damage<br/>Grants immunity to knockback and fire blocks<br/>Grants immunity to the vast majority of debuffs, including God Slayer Inferno
+| debuff = God Slayer Inferno
+| debuffduration = 5 seconds (Shield Bash)
+| debuffchance = 100%
+| immune1 = On Fire!
+| immune2 = Hellfire
+| immune3 = Chilled
+| immune4 = Frozen
+| immune5 = Frostburn
+| immune6 = Frostbite
+| immune7 = Weak
+| immune8 = Broken Armor
+| immune9 = Bleeding
+| immune10 = Poisoned
+| immune11 = Acid Venom
+| immune12 = Sulphuric Poisoning
+| immune13 = Slow
+| immune14 = Confused
+| immune15 = Silenced
+| immune16 = Cursed
+| immune17 = Darkness
+| immune18 = Webbed
+| immune19 = Mighty Wind
+| immune20 = Stoned
+| immune21 = Armor Crunch
+| immune22 = Blackout
+| immune23 = Brain Rot
+| immune24 = Burning Blood
+| immune25 = Cursed Inferno
+| immune26 = Brimstone Flames
+| immune27 = Shadowflame
+| immune28 = Daybroken
+| immune29 = Nightwither
+| immune30 = Holy Flames
+| immune31 = God Slayer Inferno
+| immune32 = Burning
+| rare = 14
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|40}}
+| stack = 1
+| research = 1
+| sound = DevourerSegmentBreak1.wav, Item 62.wav
+| soundtext = Ram Explosion
+}}
+
+The '''Supreme Barrier''' is a craftable [[Godseeker Mode]] [[accessory]]. It grants 12 [[defense]], immunity to knockback and the majority of [[debuffs]], including [[God Slayer Inferno]].
+
+When equipped, the player can double-tap a horizontal movement key to perform a cosmic dash with a base distance of 28 blocks. Striking enemies during the shield dash will inflict the God Slayer Inferno debuff and deal 1000 melee damage as well as creating an explosion for an additional 1000 typeless damage. The dash itself is affected by melee damage bonuses, while the explosion is affected by all damage stats. Every time an enemy is struck, the player is given 12 [[immunity frames]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+{{vh}}
+{{Shadowspec}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat accessories]]
+[[Category:Defensive accessories]]
+[[Category:Restorative accessories]]
+{{language info|en=Supreme Barrier}}

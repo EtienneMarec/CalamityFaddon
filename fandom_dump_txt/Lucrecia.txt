@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 90
+| use = 25
+| velocity = 32
+| knockback = 8.25
+| auto = yes
+| stack = 1
+| tooltip = Finesse<br/>Striking an enemy makes you immune for a short time<br/>Fires a DNA chain<br/>Shortflurry attacks greatly increase the chain's range, and increase life regen
+| rare = 8
+| sell = {{value|0|16}}
+| hardmode = yes
+| proj = DNA.png
+| projcaption = DNA
+| element1 = Poison
+| element2 = Stab
+}}
+
+The '''Lucrecia''' is a craftable [[Hardmode]] [[shortsword]] that auto-swings. When swung, it fires a straight double helix directly left or right in the direction of the cursor which passes through blocks. If an enemy is hit by either the projectile or the sword itself, the player will gain 5 [[immunity frames]].
+
+When the weapon's [[Shortstrike]] ability activates, the helix's range is boosted by 300%. The player's life regeneration is also increased by 1 for 5 seconds.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Despite being the size of an average [[broadsword]], this weapon stabs horizontally in front of the player like a shortsword would.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]

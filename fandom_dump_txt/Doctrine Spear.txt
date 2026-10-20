@@ -1,0 +1,70 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 160
+| knockback = 12
+| rare = 11
+| sell = {{value|0|30}}
+| stack = 1
+| auto = yes
+| use = 24
+| velocity = 12
+| tooltip = Creates 4 homing orbs that debuff your enemies
+| hardmode = yes
+| postml = yes
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debuffduration = 3 seconds (Chaos Orb)
+| debuff2 = Frostburn
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds (Eleum Orb)
+| debuff3 = Daybroken
+| debuffchance3 = 100%
+| debuffduration3 = 2 seconds (Sunlight Orb)
+| debuff4 = Plague
+| debuffchance4 = 100%
+| debuffduration4 = 2 seconds (Babil Orb)
+| element1 = Magic
+| element2 = Stab
+}}
+
+The '''Doctrine Spear''' is a craftable Godseeker Mode [[spear]]. It fires 4 orbs that inflict different debuffs.
+
+
+== Projectile Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Type !! Lifespan (seconds) !! Description
+|-
+| {{item|Babil Orb|Babil Orb|mode=table|nolink=y}}
+| align=center | 3
+| inflicts Plague on your enemies
+|-
+| {{item|Chaos Orb|Chaos Orb|mode=table|nolink=y}}
+| align=center | 3
+| inflicts Brimstone Flames on your enemies
+|-
+| {{item|Eleum Orb|Eleum Orb|mode=table|nolink=y}}
+| align=center | 3
+| inflicts Frostburn on your enemies
+|-
+| {{item|Sunlight Orb|Sunlight Orb|mode=table|nolink=y}}
+| align=center | 3
+| inflicts Daybroken on your enemies
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

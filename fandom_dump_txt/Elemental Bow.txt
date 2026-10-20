@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 58
+| knockback = 5.5
+| rare = 11
+| sell = {{value|0|22}}
+| stack = 1
+| tooltip = Fires a storm of 7 arrows from the sky<br/>Wooden arrows are converted into homing energy bolts
+| auto = yes
+| velocity = 12
+| use = 22
+| hardmode = yes
+| postml = yes
+| debuff = Elemental Mix
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| element1 = Magic
+}}
+[[File:Planetary Annihilation (demo).gif|frame|right|Demonstration of the Elemental Bow's projectiles homing in on [[Super Dummy|Super Dummies]].]]
+
+The '''Elemental Bow''' is a craftable Godseeker Mode [[bow]] that rains arrows from the sky in groups of seven. It converts [[Wooden Arrow]]s into rainbow blasts that home in on [[enemies]]. Each set of bolts consists of a Red, Orange, Yellow, Green, Blue, Indigo, and Violet bolt which all act identically to each other and are fired in a random order from the sky.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Elemental Bow/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Elemental}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

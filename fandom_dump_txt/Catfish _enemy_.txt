@@ -1,0 +1,37 @@
+{{npc infobox
+| name = Catfish
+| image = Catfish (enemy).png
+| type = Aquatic
+| environment = Sulphurous Sea
+| ai = Catfish AI
+| damage = {{element|Poison}} {{dv|30|60}}
+| life = {{dv|120|240}}
+| defense = 12
+| knockback = {{dv|20%|28%}}
+| banner = yes
+| money = {{sc|12}}
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| duration = 3 seconds
+| debuffchance = 100%
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| Diving Helmet|1|4%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_40.wav
+| resistant1 = Poison
+| resistant2 = Water
+| vulnerable1 = Cold
+| vulnerable2 = Slash
+| vulnerable3 = Machine
+}}
+{{dablink|Not to be confused with the [[Catfish]] [[quest fish]].}}
+
+The '''Catfish''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Sulphurous Sea]]. It swims peacefully until the player comes near or hits it. It attacks by swimming towards the player in an attempt to hurt them.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

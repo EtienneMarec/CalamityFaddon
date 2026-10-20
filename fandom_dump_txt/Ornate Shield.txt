@@ -1,0 +1,33 @@
+{|align=right
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| defense = 8
+| rare = 5
+| sell = {{value|0|4|80}}
+| stack = 1
+| tooltip = Boosted damage reduction and health while wearing the Daedalus armor<br/>Grants a frost dash
+| debuff = Glacial State
+| debufftip = Cannot move and defense is shattered
+| debuffchance = 100%
+| debuffduration = 1 seconds
+| hardmode = yes
+}}
+|}
+
+The '''Ornate Shield''' is a craftable [[Hardmode]] [[covering]] that provides 8 [[defense]]. When equipped alongside the [[Daedalus armor]] set, it grants an additional 8% [[damage reduction]] and +20 maximum life. It also grants a dash with a base distance of 15 tiles. Enemies hit with the dash take 50 damage and are inflicted with the [[Frostburn]] [[debuff]] for 1 second. Every time an enemy is struck, the wearer is given 4 immunity frames.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Cryonic}}
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

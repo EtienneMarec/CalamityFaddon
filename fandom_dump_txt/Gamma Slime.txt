@@ -1,0 +1,41 @@
+{{npc infobox
+| type = Slime
+| environment = Acid Rain
+| ai = Gamma Slime AI
+| damage = '''{{element|Poison}} Contact:''' {{dv|110|220}}<br/>'''{{element|Poison}} Gamma Acid:''' {{dv|90|144}}<br/>'''{{element|Poison}} Gamma Beam:''' {{dv|240|384}}
+| life = {{dv|5,060|10,120}}
+| defense = 25
+| dr = 15
+| debuff = Irradiated
+| debuffchance = 100%
+| duration = 3 seconds
+| debufftip = Your skin is burning off
+| knockback = 100
+| banner = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| immune5 = Poisoned
+| money = {{sc|6}}
+| Lead Core|1| 3.33%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Zombie_104.wav
+| soundtext = Gamma Beam
+| vulnerable1 = Cold
+| vulnerable2 = Slash
+| vulnerable3 = Stab
+| resistant1 = Poison
+}}
+
+The '''Gamma Slime''' is a Godseeker Mode [[slime]] that spawns during tier 3 of the [[Acid Rain]] [[event]]. It behaves like a normal slime but will shoot 5 Gamma Acids out in a star pattern while it is jumping. Occasionally, it will stop jumping and charge up a laser and fire it upwards.
+
+== Notes ==
+*It replaces the [[Irradiated Slime]] once [[Polterghast]] is defeated.
+*Uniquely among slimes, they do not float in water, and instead sink to the bottom.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-event = yes
+}}

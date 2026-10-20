@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 90
+| use = 23
+| knockback = 6.5
+| velocity = 16
+| auto = yes
+| stack = 1
+| tooltip = Tropical and deadly<br/>Enemies explode into water orbs on hit
+| rare = 7
+| sell = {{value|0|12}}
+| hardmode = yes
+| proj = Mariana Bubble.png
+| projcaption = Oceanic Bubble
+| element1 = Water
+| element2 = Slash
+}}
+
+The '''Mariana''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. When hitting an enemy, the enemy explodes into four or five bubble projectiles that travel for a long distance. These bubbles can bounce off of tiles infinitely as well as pierce twice, popping on the third enemy hit or after roughly two seconds have passed.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The sword's name is a reference to the [[wikipedia:Mariana Trench|Mariana Trench]], the deepest known part of the world's oceans.
+*Prior to the introduction of the Aquatic Dissolution, the Mariana was used to craft the [[Terratomere]]. When its successor was added to the mod, the sword was replaced with [[Floodtide]].
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:马里亚纳]]

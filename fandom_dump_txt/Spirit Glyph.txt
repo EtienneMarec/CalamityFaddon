@@ -1,0 +1,46 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Whenever your minions hit an enemy you will gain a random buff<br/>These buffs will either boost your defense, summon damage, or life regen for a while
+| sell = {{value|0|0|40}}
+| stack = 1
+| rare = 2
+| buff = Spirit Defense | bufflink = no
+| duration = 1 second
+| bufftip = Defense boosted by 10 and damage reduction boosted by 5%
+| buff2 = Spirit Power | bufflink2 = no
+| duration2 = 1 second
+| bufftip2 = Minion damage boosted by 20%
+| buff3 = Spirit Regen | bufflink3 = no
+| duration3 = 1 second
+| bufftip3 = Regenerating life
+}}
+
+The '''Spirit Glyph''' is a craftable [[Hardmode]] [[covering]]. Whenever a [[minion]] hits an enemy, the player will gain one of these buffs: Spirit Power, Spirit Defense or Spirit Regen.
+
+'''Spirit Regen''' grants +5 life regen.
+'''Spirit Defense''' increases [[defense]] by 10 and damage reduction by 5%.
+'''Spirit Power''' increases minion damage by 20%.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*Although it is primarily a summoner covering, the good defensive boosts from '''Spirit Defense''' and '''Spirit Regen''' make it a decent option for players of other classes if they are willing to use minions.
+
+== Trivia ==
+*The shield in the '''Spirit Defense''' buff icon is the [[Shield of the Ocean]].
+*The knife in the '''Spirit Power''' buff icon uses the same palette as the [[Warblade]].
+*The heart in the '''Spirit Regen''' buff icon is a [[Heart]].
+*This item was previously named the '''Spirit Generator'''.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

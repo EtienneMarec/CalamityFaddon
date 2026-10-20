@@ -1,0 +1,39 @@
+{{item infobox
+| type = Potion
+| tooltip = Reduces the duration of most debuffs<br/>Reduces defense by 6% and life regen by 1
+| stack = 9999
+| hheal = 200
+| mheal = 200
+| rare = 7
+| use = 17
+| sell = {{value|0|1|60}}
+| consumable = yes
+| debuffduration = 3 minutes
+| debuff = Margarita (debuff) | debufflink = no
+| debufftip = Reduced duration to most debuffs, defense and life regen reduced
+| hardmode = yes
+}}
+
+'''Margarita''' is a craftable [[Hardmode]] [[potion]]. It grants the '''Margarita''' [[debuff]] when consumed, which reduces life regen and [[defense]], but halves the duration to most [[debuffs]]. It also heals the player for 200 life and mana, inflicts the [[Potion Sickness]] debuff for 1 minute and the [[Mana Sickness]] debuff for 5 seconds.
+
+While the effects of the Margarita debuff are mostly beneficial, it is still considered a debuff, and therefore cannot be removed by right-clicking the icon.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The affected debuffs are shared with the [[Purified Jam]], and are as follows:
+{{collapse top|Margarita debuff immunities}}
+{{:Immunity item debuffs}}
+{{collapse bottom}}
+*In [[Death Mode]], the Margarita also grants cold immunity.
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}
+[[Category:Healing items]]

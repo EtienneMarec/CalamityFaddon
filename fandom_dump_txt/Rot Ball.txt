@@ -1,0 +1,49 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| rare = 3
+| sell = {{value|0|0|2}}
+| damage = 26
+| damagetype = Rogue
+| knockback = 2.5
+| velocity = 16
+| auto = yes
+| critical = 12%
+| tooltip = Stealth strikes spawn rain clouds on enemy hits
+| stack = 9999
+| consumable = True
+| use = 12
+| proj = Shade Nimbus Cloud.gif
+| projcaption = Shade Nimbus Cloud
+| proj2 = Shade Nimbus.gif
+| proj2caption = Shade Nimbus
+| debuff = Cursed Inferno
+| debufftip = Losing life<br/>All damage taken increased by 20%
+| debuffchance = 100%
+| debuffduration = 1.5 seconds (rain)
+| element1 = Unholy
+}}
+|{{item drops infobox
+|1= [[The Hive Mind]]|2=30-50 / {{expert|50-75}}|3={{dv|25%|33.33%}}
+}}
+}}
+
+'''Rot Balls''' are craftable [[Pre-Hardmode]] [[rogue weapons]] that are also dropped by [[The Hive Mind]]. They can pierce two [[enemies]] before breaking. They have a 50% chance of being recovered after being thrown. They function almost identically to [[Tooth Ball]]s.
+
+Performing a [[stealth strike]] with Rot Balls causes a Shaderain cloud to spawn above every enemy that is hit. The cloud's raindrops damage enemies and inflict [[Cursed Inferno]] for 1.5 seconds.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+{{-}}
+{{Rotten Matter}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Rare Items]]

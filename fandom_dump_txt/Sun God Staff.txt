@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| rare = 6
+| sell = {{value|0|9|60}}
+| damage = 210
+| use = 24
+| mana = 10
+| knockback = 1.25
+| tooltip = Summons a solar god spirit to protect you<br/>There can only be one spirit
+| buff = Solar God Spirit (buff) | bufflink= no
+| bufftip = The solar god spirit will protect you
+| stack = 1
+| hardmode = yes
+| element1 = Holy
+| element2 = Fire
+}}
+{{summoned|Solar God Spirit|type=minion}}
+
+The '''Sun God Staff''' is a craftable [[Hardmode]] [[summon weapon]]. It summons a Solar God Spirit that continually floats over the player's head and shoots yellow, exploding sun beams at nearby enemies. Unlike most minions, only one Solar God Spirit can be summoned. It is the upgraded version of the [[Sun Spirit Staff]].
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon was previously used in crafting the [[Cosmic Immaterializer]].
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+
+}}

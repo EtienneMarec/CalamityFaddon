@@ -1,0 +1,14 @@
+<includeonly><!--
+--><div class="vde plainlinks"><!--
+-->[{{fullurl:{{ns:10}}:{{{1}}}}} <span title="View this template">v</span>]&thinsp;•&thinsp;<!--
+-->[{{fullurl:{{ns:11}}:{{{1}}}}} <span title="Discuss this template">d</span>]&thinsp;•&thinsp;<!--
+-->[{{fullurl:{{ns:10}}:{{{1}}}|action=edit}} <span title="Edit this template">e</span>]<!--
+--></div><!--
+--></includeonly><!--
+--><noinclude>Helper template to create the view/dicuss/edit buttons on the top left of a navbox:
+
+== Usage ==
+<pre>{{navbar/v.d.e|template name(without "Template:")}}</pre>
+
+[[Category:Navigational templates‎|*]]
+</noinclude>

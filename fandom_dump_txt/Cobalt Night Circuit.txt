@@ -1,0 +1,25 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| damage = 120
+| tooltip = Turns you into a night mech<br/>+40 max life, +10 defence, lets you hover 5 blocks in the air, +50% movement speed, creates a 5 block damaging aura 
+| rare = 5
+| sell = {{value|0|30}}
+| stack = 1
+| hardmode = yes
+}}
+
+The '''Cobalt Night Circuit''' is a craftable [[Hardmode]] [[covering]] that turns the player into a night mech. The mech form increases the max hp by 40, defence by 10 and movement speed by 50%, It also creates a 5 block damaging aura that deals 120 damage per second. It is a counterpart to [[Palladium Light Circuit]]
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]

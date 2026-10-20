@@ -1,0 +1,50 @@
+{{item infobox
+| type = Covering
+| defense = 28
+| tooltip = Grants immunity to knockback<br/>Immune to most debuffs<br/>+40 max life and increased life regeneration<br/>Grants a supreme holy flame dash<br/>Can be used to ram enemies<br/>Press {{key|Elysian Gar}} to activate buffs to all damage, crit chance, and defense<br/>Activating this buff will reduce your movement speed and increase enemy aggro<br/>+20 defense while submerged in liquid
+| buff = Elysian Gar
+| duration = Infinite (While active)
+| bufftip = Movement speed reduced, other stats buffed
+| debuff = God Slayer Inferno
+| debuffduration = 5 seconds (Shield bash)
+| debufftip = Your flesh is burning off
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 4 seconds (Holy eruptions)
+| debufftip2 = Dissolving from holy light
+| debuffchance2 = 100%
+| rare = 14
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|28}}
+| stack = 1
+}}
+
+The '''Asgardian Aegis''' is a craftable Godseeker Mode [[covering]] with a wide array of defensive effects. It grants 28 defense, immunity to knockback and most debuffs, +40 max life, increases life regeneration by 1, and an additional 20 defense while submerged in liquid.
+
+While equipped, the wearer can double tap a horizontal movement key to perform a supreme holy flame dash with a base distance of 28 blocks. Striking enemies during the shield dash will heavily damage them, inflict [[God Slayer Inferno]], cause holy explosions, and leave behind a lingering Holy Eruption which damages enemies that touch it. Every time an enemy is struck, the wearer's [[immunity frames]] are set to 6.
+
+Tapping the {{key|Elysian Gar}} keybinding with this covering equipped grants the [[Elysian Gar]] buff.
+
+This covering's max life and defense stack with its components. However, the Elysian Gar bonuses will not stack with the [[Elysian Aegis]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Directly colliding with an enemy during the shield dash deals 300 melee damage. This direct hit is affected by melee damage bonuses and the wearer's melee critical strike chance.
+*The explosion produced upon colliding with an enemy deals 135 damage. This is boosted by the average of all damage stats.
+*The Holy Eruption left behind after colliding with an enemy deals 90 damage and can strike 6 times per second. This is boosted by the average of all damage stats. The Holy Eruption inflicts [[Holy Flames]] for 4 seconds to all enemies which touch it.
+*The Asgardian Aegis provides immunity to [[On Fire!]], [[Bleeding]], [[Broken Armor]], [[Burning]], [[Chilled]], [[Confused]], [[Cursed]], [[Darkness]], [[Frostburn]], [[Poisoned]], [[Searing Lava]], [[Silenced]], [[Slow]], [[Weak]], [[Brimstone Flames]], [[Glacial State]], [[God Slayer Inferno]], and [[Holy Flames]].
+* The Elysian Gar buff will be deactivated when using [[Mounts]].
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

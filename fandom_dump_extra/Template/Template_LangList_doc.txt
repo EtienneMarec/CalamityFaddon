@@ -1,0 +1,67 @@
+This template stores two lists of language codes: One with all language projects that are ongoing, i.e. still on this wiki, and one with all completed language projects, i.e. languages with an own subdomain. In some [[Help:I18n & l10n for Templates|i18n]] contexts, this information is relevant, e.g. the interwiki linking functionality of translation projects.
+
+== Usage ==
+<code>{{(}}langList| ''&lt;function&gt;'' | ''&lt;target lang&gt;'' }}</code>
+
+; First unnamed parameter
+One of the following functions:
+
+{|
+| {{code|isOnWiki}} || Returns {{code|yes}} if the <code>''&lt;target lang&gt;''</code> is the language code of an ongoing project.
+|-
+| {{code|isOffWiki}} || Returns {{code|yes}} if the <code>''&lt;target lang&gt;''</code> is the language code of a completed project.
+|-
+| {{code|isEn}} || Returns {{code|yes}} if the <code>''&lt;target lang&gt;''</code> is neither on-wiki nor off-wiki, i.e. English.
+|-
+| {{code|onWiki}} || Lists all languages for which <code>isOnWiki</code> is true. See [[gphelp:Extension:ParserPower/List handling functions|Extension:ParserPower]] for parser functions for handling this list.
+|-
+| {{code|offWiki}} || Lists all languages for which <code>isOffWiki</code> is true.
+|}
+
+; Second unnamed parameter
+Language to operate on; is usually set to {{tlc|lang}}. Has no effect if the first unnamed parameter is set to {{code|onWiki}} or {{code|offWiki}}, and can be omitted in those cases.
+
+== Examples ==
+{| class=wikitable
+! Code !! Result
+|-
+| <code><nowiki>{{langList|isOffWiki|cs}}</nowiki></code>
+| {{unitTest| | {{langList|isOffWiki|cs}} }}
+|-
+| <code><nowiki>{{langList|isOffWiki|zh}}</nowiki></code>
+| {{unitTest| yes | {{langList|isOffWiki|zh}} }}
+|-
+| <code><nowiki>{{langList|isOffWiki|en}}</nowiki></code>
+| {{unitTest| | {{langList|isOffWiki|en}} }}
+|-
+| <code><nowiki>{{langList|isOnWiki|cs}}</nowiki></code>
+| {{unitTest| yes | {{langList|isOnWiki|cs}} }}
+|-
+| <code><nowiki>{{langList|isOnWiki|zh}}</nowiki></code>
+| {{unitTest| | {{langList|isOnWiki|zh}} }}
+|-
+| <code><nowiki>{{langList|isOnWiki|en}}</nowiki></code>
+| {{unitTest| | {{langList|isOnWiki|en}} }}
+|-
+| <code><nowiki>{{langList|isEn|en}}</nowiki></code>
+| {{unitTest|yes| {{langList|isEn|en}} }}
+|-
+| <code><nowiki>{{langList|isEn|it}}</nowiki></code>
+| {{unitTest| | {{langList|isEn|it}} }}
+|-
+| <code><nowiki>{{langList|isEn|zh}}</nowiki></code>
+| {{unitTest| | {{langList|isEn|zh}} }}
+|-
+| <code><nowiki>{{langList|onWiki}}</nowiki></code>
+| {{unitTest| bg, cs, da, el, fi, id, it, ja, lt, lv, nl, no, ro, sk, sv, th, tr, vi, yue, de, es, fr, hu, ko, ru, pl, pt, uk | {{langList|onWiki}} }}
+|-
+| <code><nowiki>{{langList|offWiki}}</nowiki></code>
+| {{unitTest| zh  | {{langList|offWiki}} }}
+|}
+
+<includeonly>
+[[Category:Data templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation]]
+</noinclude>

@@ -1,0 +1,48 @@
+{{addon|Calamity: Community Remix}}
+{{dedicated|healthy23|Developer}}
+{{item infobox
+| type = Weapon
+| damage = 865
+| use = 30
+| damagetype = ranged
+| knockback = 4
+| auto = yes
+| velocity = 20
+| stack = 1
+| rare = 16
+| sell = {{value|10|0|0|0}}
+| tooltip = Converts any bullets into an exploding, high-velocity cactus bullets<br/>Its curse causes the cactus bullets to harden into stone on its last 2 rounds<br/>{{key|open}} to reload its rounds
+| debuff = Armor Crunch
+| debuffchance = 100%
+| debuffduration = 5 seconds (Stone Bullet)
+| debufftip = Your armor is shredded
+| hardmode = yes
+| postml = yes
+| element1 = Stab
+| element2 = Poison
+}}
+
+The '''Revolvin' Mc'Coy''' is a craftable Epilogue [[Dedicated content|Developer]] [[Guns|Gun]] that can be fired 6 times before needing to reload. Its damage multiplies if they are fired in quick successions, going from 1.2x, 1.4x, 1.8x, 2.2x, 2.8x, and 3.5x, respectively.
+
+Upon firing with any bullets, it is transformed into a Cactus Bullet that explodes into spines that deals 45% its weapon's base damage. At the last 2 shots however, all bullets are instead turned into stone bullets, being able to inflict [[Armor Crunch]], and exploding into spiky rocks that deals 150% its base damage. 
+
+{{Key|Open}} will reload the weapon, making it able to fire up to 6 bullets again. This only takes effect after it depletes its ammo, and is accompanied by a sound effect.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon actually has a unique [[Rarity]] but is referred here as Hot Pink rarity for consistency between weapons.
+**This unique rarity alternates between Yanagisusutake ({{color|#4d4b3a ●|#4D4B3A}}), Metallic Green ({{color|#296e01 ●|#296E01}}) and Tetsuonando ({{color|#2b3736 ●|#2B3736}}) colors.
+*Its name is a portmanteau of [[wikipedia:Revolver|Revolver]], a real-life pistol, and [https://cactusmccoy.fandom.com/wiki/Cactus_McCoy Cactus McCoy], a character from his flash game series that bears his name.
+**Its bullets' effect reflects the curse of the [https://cactusmccoy.fandom.com/wiki/Thorned_Emerald Thorned Emerald], wherein the person who touches it becomes a walking cactus, and then finally petrified if not returned to its place.
+{{shadowspec}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category: Guns]]

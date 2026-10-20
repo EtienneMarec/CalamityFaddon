@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| consumable = true
+| damage = 44
+| damagetype = Rogue
+| knockback = 3.25
+| use = 11
+| auto = yes
+| tooltip = Stealth strikes summon lighting bolts on enemy hits
+| hardmode = yes
+| stack = 9999
+| rare = 4
+| sell = {{value|0|0|3|20}}
+| velocity = 12
+| proj = Blunder Booster Lightnings.gif
+| projcaption = Lightning Bolts
+| element1 = Slash
+}}
+
+'''Adamantite Throwing Axes''' are craftable [[Hardmode]] [[rogue weapon]]s made from [[Adamantite Bar]]s. It fires a consumable throwing axe which pierces infinitely and travels a short distance before being affected by gravity. They have a 50% chance of being recovered after being thrown.
+
+Performing a [[stealth strike]] with an Adamantite Throwing Axe will cause the projectile to summon three homing lightning bolts from the bottom of the screen upon hitting an enemy.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[zh:精金投斧]]

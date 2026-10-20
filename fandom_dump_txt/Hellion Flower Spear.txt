@@ -1,0 +1,41 @@
+{{item infobox
+| auto = yes
+| type = Weapon
+| damagetype = Melee
+| damage = 135
+| knockback = 7.5
+| rare = 7
+| sell = {{value|0|12}}
+| stack = 1
+| use = 20
+| velocity = 8
+| hardmode = yes
+| debuff = Venom
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 5 seconds (Spear)<br/>3 seconds (Spike)
+| tooltip = Shoots a flower spear tip<br/>Summons petals from the sky on critical hits
+| proj = Hellion Flower Spear Spear.png
+| projcaption = Hellion Flower Spear
+| proj2 = Hellion Spike.png
+| proj2caption = Hellion Spike
+| proj3 = Flower Petal.png
+| proj3caption = Flower Petals
+| element1 = Poison
+| element2 = Stab
+}}
+
+The '''Hellion Flower Spear''' is a craftable [[Hardmode]] [[spear]]. On each swing it fires out a projectile that pierces blocks and enemies twice, while also inflicting the [[Venom]] [[debuff]] to any hit enemy. Whenever the spear or the projectile inflicts a critical hit, a single petal, such as those from [[Orichalcum armor]], will fly in toward the target's position.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Perennial}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

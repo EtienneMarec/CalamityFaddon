@@ -1,0 +1,32 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Adrenaline Burnout Update
+| release = 8/22/2018
+}}
+{{Tocright}}
+
+The '''1.3.4.102''' update added a new mechanic to the [[Adrenaline Meter]] known as Adrenaline Burnout, and resprited several [[Buffs]], items, and projectiles.
+
+== Changes ==
+=== Items ===
+*Renamed the Profaned Crag [[Lore item]] from Profaned Crag to Brimstone Crag.
+*Added the line "If you hit max adrenaline and don't use it within 5 seconds your adrenaline damage will drop gradually." to [[Revengeance]]'s tooltip.
+
+=== Other ===
+*Adrenaline now has a burnout mechanic that causes the player to gradually lose adrenaline damage if they do not activate it after 5 seconds.
+
+=== Resprites ===
+*Resprited [[Asgard's Valor]], [[Daedalus Emblem]], [[Enchanted Pearl]], [[Ethereal Talisman]], [[Eye of the Storm]], [[Heart of the Elements]], [[Psychotic Amulet]], [[Sigil of Calamitas]].
+*Resprited [[Abyssal Weapon]], [[Afflicted]], [[Grax Boost]], [[Reaver Orb (buff)]], [[Silva Crystal (buff)]], [[Tyrant's Fury]].
+*Resprited [[Reaver armor]]'s Reaver Orb and [[Silva armor]]'s Silva Crystal summons.
+*Resprited [[Iron Heart]]'s heart icons.
+
+== Fixes ==
+*Fixed a sheeting error on [[Aerospec Helm]].
+*Fixed a bug with map drawing after Calamity's world expansion.
+*Fixed a bug with large worlds being unable to load.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

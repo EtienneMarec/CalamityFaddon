@@ -1,0 +1,77 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Death mode only}}
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = C4
+| stack = 1
+| sell = {{value|0|0|0|0|10}}
+| tooltip = 50 defence<br>
+100% more damage<br>
+100% increased max health<br>
+40% increased max mana<br>
+Abyssal Fireballs are released on every taken damage hit<br>
+30% increased damage reduction over 50% health and 75% increased damage reduction under 50% health<br>
+healing potions heal 25% more health and have a 50% shorter cooldown<br>
+reduces enemies contact damage by 25%<br>
+50% faster health regeneration<br>
++9 max minion slots<br>
+your minions an confuse your enemies<br>
+a 1 flesh demon is summoned to protect you<br>
+a blood demon is summoned for every minion slot<br>
+summons fiery hands when damaged<br>
+knockback immunity<br>
+increased speed, damage and immunity time after getting damaged
+| debuff = Abyssal Flames
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Unholy
+| element2 = Dark
+| element3 = Fire
+| proj = Regeterrence_Fireball.gif
+| projcaption = Fireball
+}}
+{{summoned|type=minion|Blood Demon}}
+{{summoned|type=minion|Flesh Demon}}
+
+'''Edgeterrence''' is a Post-[[Hydrabots Invasion]] [[Combat coverings|combat]] [[coverings|covering]]. It grants the following bonuses:
+
+* 50 defence
+* 100% more damage
+* Doubled max health
+* 40% increased max mana
+* Abyssal Fireballs release on every hit taken.
+* 30% increased damage reduction over 50% health and 75% increased damage reduction under 50% health
+* healing potions heal 25% more health and have a 50% shorter cooldown
+* reduces enemies contact damage by 25%
+* 50% faster health regeneration
+* +9 max minion slots
+* your minions can confuse your enemies
+* a 1 flesh demon is summoned to protect you
+** The flesh demon punches your enemies, inflicting bleeding and dealing 500 summon damage per punch.
+* a blood demon is summoned for every minion slot
+** The blood demon works the same way as the flesh demon but deals 100 damage instead of 400
+* summons fiery hands when damaged
+** The hands fly towards your enemies and grab them, dealing 100 damage per second
+* knockback immunity
+* increased speed, damage and immunity time after getting damaged
+* Rage bar is changed to now have three levels
+** Activating Rage consumes one full bar and grants [[Rage Meter|Rage]]. Activating Rage a second time consumes a full bar and grants [[Bloody Fury]]
+** A third activation causes a barrage of [[Gael's Greatsword|Gael Skulls]] to be launched at the cursor, and grants [[Violent Frenzy]]
+
+== Notes == 
+This covering cant be used at the same time as [[The Verboten One]]
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

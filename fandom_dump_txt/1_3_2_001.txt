@@ -1,0 +1,614 @@
+{{patch infobox
+| image = Providence, the Profaned Goddess.png
+| size = 300px
+| patchname = Boss Reworks and Balancing
+| next = [[1.3.3.001]]
+| release = 5/4/2018
+}}
+
+The '''1.3.2.001''' update contained a large amount of balance changes to the mod's [[enemies]], [[coverings]], and [[Covering]]. The update also reworked [[Ravager]] and [[Astrageldon Slime]], and resprited four of the mod's bosses. The update was also notable for removing [[THE LORDE]].
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+*Added [[Eidolist]], [[Flame Pillar]], [[Rock Pillar]].
+*Added [[Celestial Jewel]].
+*Added [[Auric Ore]], [[Divine Geode]].
+*Added throwing variants for [[Empyrean Knives]] and [[Scourge of the Cosmos]].
+*Added [[Star Cannon EX]].
+*Added [[Charred Relic]].
+*Added Astrageldon Slime [[Treasure Bag]].
+*Added [[Lore items]] for [[Calamitas]], [[The Destroyer]], [[Plantera]], [[Skeletron Prime]], [[The Twins]].
+*Added [[Weak Petrification]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+==== [[Astrageldon Slime]] ====
+*Stat changes:
+**Buffed base contact damage from {{dv|0-200|0-320}} to {{dv|10-200|16-216|16-226|24-324}}.
+**Health now scales across difficulties, with health buffed from {{dv|65,000}} to {{dv|83,000|132,800|150,400|240,000}}.
+*AI changes:
+**Changed lasers into fireballs.
+**Fireballs now travel slower, but last longer.
+**Fireballs and contact with the boss now instantly kill the player after the [[Moon Lord]] has been defeated.
+**No longer shoots a constant barrage of lasers with an occasional burst, and now cycles between a concentrated blast of several projectiles and a burst.
+**Jump height and speed increased.
+**Can now teleport regularly.
+**No longer fires a storm of lasers if there are tiles between it and the player.
+*Drop changes:
+**Now only drops {{pc|3}} instead of {{pc|10}} post-Moon Lord.
+**Now drops 12-16 [[Astral Jelly]].
+**Now drops 20-40 [[Fallen Star]]s.
+**Now drops a [[Treasure Bag]] in [[Expert Mode]].
+**[[Suspicious Looking Jelly Bean]] now only drops from its Treasure Bag.
+*Other changes:
+**Now uses [[Music#Cosmic_Disgust|Cosmic Disgust]] as its theme.
+**Now has a boss icon.
+**Added to Boss Checklist.
+
+==== [[Astrum Deus]] ====
+*Main worm nerfs:
+**Nerfed head damage from {{dv|150|240}} to {{dv|110|176}}, and its defense from 60 to 40.
+**Nerfed body damage from {{dv|95|152}} to {{dv|80|128}}, and its defense from 75 to 60.
+**Nerfed tail damage from {{dv|70|112}} to {{dv|55|88}}, and its defense from 90 to 80.
+*Small worm nerfs:
+**Nerfed head damage from {{dv|100|160}} to {{dv|85|136}}, and its defense from 60 to 30.
+**Nerfed body damage from {{dv|85|136}} to {{dv|70|112}}, and its defense from 75 to 45.
+**Nerfed tail damage from {{dv|60|96}} to {{dv|50|80}}, and its defense from 90 to 60.
+*Nerfed [[Astrum Deus Probe]] contact damage from {{dv|95|133}} to {{dv|30|41}}, and its laser damage from {{dv|130|200|210|300}} to {{dv|90|140|147|210}}.
+*Nerfed laser damage from {{dv|94|140|147|210}} to {{dv|74|124|130|186}}.
+*Throwing projectiles now only deal 20% of their damage to the head and tail segments of both the main and small worms, and 50% of their damage to their body segments.
+
+==== [[Aquatic Scourge]] ====
+*Nerfed health from {{dv|79,000|0|92,500|145,200}} to {{dv|50,000|0|58,000|95,200}}.
+*Nerfed tooth projectile damage from {{dv|84|120|126|180}} to {{dv|66|112|117|168}}.
+*Nerfed sand blast projectile damage from {{dv|84|120|126|180}} to {{dv|60|96|100|144}}.
+
+==== [[Bumblebirb]] ====
+*Nerfed contact damage from {{dv|280|420}} to {{dv|200|320}}.
+*Nerfed Bumblebirb clone damage from {{dv|160|320}} to {{dv|140|280}}.
+
+==== [[Brimstone Elemental]] ====
+*Nerfed firedust damage from {{dv|70|100|105|150}} to {{dv|58|80|84|120}}.
+*Nerfed fireball damage from {{dv|70|100|105|150}} to {{dv|64|96|100|144}}.
+
+==== [[Calamitas]] ====
+*Buffed phase 1's contact damage from {{dv|50|80}} to {{dv|70|112}}.
+*Nerfed phase 1's laser damage from {{dv|100|120|126|180}} to {{dv|60|96|100|144}}.
+*Buffed phase 2's contact damage from {{dv|70|112}} to {{dv|80|128}}.
+*Nerfed phase 2's laser damage from {{dv|118|168|176|252}} to {{dv|84|136|142|204}}.
+
+==== [[Ceaseless Void]] ====
+*Nerfed [[Dark Energy]] damage from {{dv|160|320}} to {{dv|120|240}}.
+
+==== [[Crabulon]] ====
+*Nerfed contact damage from {{dv|50|80}} to {{dv|30|48}}.
+*[[Crab Shroom]]s now produce light.
+*Now shoots mushrooms in rapid succession, with the amount of mushrooms scaling with its health instead of occasional bursts.
+
+==== [[Cryogen]] ====
+*Nerfed [[Aurora Spirit]] damage from {{dv|60|120}} to {{dv|40|80}}
+*Nerfed [[Cryocore]] damage from {{dv|40|80}} to {{dv|35|70}}.
+*Nerfed Cryocore (buffed) damage from {{dv|55|110}} to {{dv|37|74}}.
+*Nerfed ice blast damage from {{dv|70|100|105|150}} to {{dv|46|80|84|120}}.
+*Nerfed ice rain damage from {{dv|64|128|134|192}} to {{dv|52|92|96|138}}.
+
+==== [[Desert Scourge]] ====
+*Main scourge changes:
+**Changed head damage from {{dv|30|66||166}} to {{dv|20|71||179}}.
+**Nerfed body damage from {{dv|16|25}} to {{dv|12|19}}.
+*Small scourge changes:
+**Nerfed head damage from {{dv|||34|49}} to {{dv|||29|42}}.
+**Nerfed body damage from {{dv|||23|33}} to {{dv|||19|28}}.
+
+==== [[The Destroyer]] ====
+*No longer gains increased damage in Revengeance and Death Mode.
+*Nerfed [[Probe]] contact damage in Death Mode from {{death|144}} to {{death|72}}.
+
+==== [[The Devourer of Gods]] ====
+*Nerfed phase 1's health from {{dv|600,000|960,000|1,040,000|1,360,000}} to {{dv|450,000|720,000|800,000|1,360,000}}.
+*Buffed phase 2's health from {{dv|420,000|672,000|720,000}} to {{dv|550,000|880,000}}.
+*Nerfed phase 1's head damage from {{dv|400|640}} to {{dv|250|400}}.
+*Nerfed phase 1's body damage from {{dv|250|400}} to {{dv|180|288}}.
+*Nerfed phase 1's tail damage from {{dv|200|320}} to {{dv|150|240}}.
+*Nerfed phase 2's head damage from {{dv|500|800|840}} to {{dv|300|480|504}}.
+*Nerfed phase 2's body damage from {{dv|325|520}} to {{dv|220|352}}.
+*Nerfed phase 2's tail damage from {{dv|200|320}} to {{dv|180|288}}.
+*Nerfed [[Devourer of Thots]]' head damage from {{dv|250|500}} to {{dv|180|360}}.
+*Nerfed Devourer of Thots' body damage from {{dv|150|300}} to {{dv|130|260}}.
+*Nerfed laser and orb damage from {{dv|260|320|336|480}} to {{dv|136|220|231|330}}.
+*Laser Portals will now spawn above the player if they travel too far from the boss.
+*Flamethrower attack now deals damage.
+*Lowered segment count for Devourer of Thots.
+*Phase 1 now only takes 25% damage from the [[Sulphuric Acid Cannon]]'s mist.
+*Phase 2 now only takes 13% damage from the Sulphuric Acid Cannon's mist.
+
+==== [[The Hive Mind]] ====
+*Phase 1 now deals contact damage.
+*[[Horror]] is now inflicted for 1.5 seconds instead of 5.
+*Lowered speed in Revengeance Mode.
+*Lowered the chance for it to teleport right next to the player in phase 2.
+*Nerfed [[Dark Heart]] damage from {{dv|20|40}} to {{dv|10|20}}.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Nerfed base contact damage from {{dv|400|640}} to {{dv|330|528}}.
+*Nerfed flare damage from {{dv|400|500|525|750}} to {{dv|180|300|315|450}}.
+*Nerfed splitting fireball and homing fireball damage from {{dv|500|600|630|900}} to {{dv|250|424|445|636}}.
+*Now generates [[Auric Ore]] when phase 2 is defeated for the first time.
+*Buffed [[Detonating Flame]] health from {{dv|5000|10,000}} to {{dv|15,000|30,000}}.
+*Nerfed [[Angery Flame]]'s fireball damage from {{dv|500|600|630|900}} to {{dv|250|424|445|636}}.
+*Nerfed Bumblebirb minion damage from {{dv|210|420}} to {{dv|180|360}}, and buffed their health from {{dv|80,000|160,000}} to {{dv|120,000|240,000}}.
+*A status message now displays in chat once Yharon is defeated for the first time, directing the player to fight the buffed [[Solar Eclipse]].
+*Now drops [[Yharon Soul Fragment]]s on any difficulty.
+*Now releases a ring of homing flare dusts occasionally in phase 2.
+
+==== [[Lunatic Cultist]] ====
+*Buffed health in Revengeance Mode from {{revengeance|100,000}} to {{revengeance|120,000}}.
+*Now spawns Eidolists in Revengeance Mode.
+
+==== [[Moon Lord]] ====
+*Now teleports to the player more often in Revengeance Mode.
+*Now spawns Eidolists periodically in Revengeance Mode once all three eyes have been defeated.
+
+==== [[The Perforators]] ====
+*Nerfed blood geyser damage from {{dv|44|60|63|90}} to {{dv|32|48|50|72}}.
+*The small worm can now fire blood geyser projectiles.
+
+==== [[The Plaguebringer Goliath]] ====
+*Nerfed contact damage from {{dv|190|304}} to {{dv|90|144}}.
+*Nerfed stinger damage from {{dv|100|172-186|180-195|258-279}} to {{dv|80|112-136|117-142|168-204}}.
+*Nerfed missile damage from {{dv|140|192-216|201-226|288-324}} to {{dv|100|144-168|151-176|216-252}}.
+*Nerfed nuke damage from {{dv|164|260|273|390}} to {{dv|114|168|176|252}}.
+*Nerfed [[Plague Mine]] damage from {{dv||200||300}} to {{dv||150||300}}.
+*Nerfed its [[Plague Charger]] damage from {{dv|80|160}} to {{dv|60|120}}.
+*Nerfed its large Plague Charger damage from {{dv|90|180}} to {{dv|65|130}}.
+*Now teleports to the player if she gets too far.
+*Can no longer despawn unless all players die.
+*Reduced the screen shader effect applied throughout the fight.
+*Nuke barrage attack's status message now plays once the barrage begins instead of directly after the warning.
+*Now larger.
+
+==== [[Polterghast]] ====
+*Nerfed contact damage from {{dv|200|320}} to {{dv|150|240}}.
+*Nerfed dart damage from {{dv|240|300|315|450}} to {{dv|110|184|193|276}}.
+*Nerfed blast damage from {{dv|260|340|357|510}} to {{dv|120|204|214|306}}.
+*Nerfed red dart damage from {{dv|300|340|357|510}} to {{dv|120|196|205|294}}.
+*Nerfed red blast damage from {{dv|320|380|399|570}} to {{dv|130|216|226|324}}.
+*Nerfed [[Polterghast Hook]]'s damage from {{dv|180|252|264|378}} to {{dv|120|168|176|252}}.
+*Nerfed [[Phantom]]'s phantom mine projectile damage from {{dv|320|380|399|570}} to {{dv|140|232|243|348}}.
+*Buffed blue [[Phantom Turret]]'s phantom bolt damage from {{dv|65|170|178|255}} to {{dv|110|172|180|258}}.
+*Nerfed red Phantom Turret's contact damage from {{dv|130|182|191|273}} to {{dv|100|140|147|210}}, and buffed its phantom bolt damage from {{dv|80|160|168|240}} to {{dv|120|184|193|276}}.
+*Now spawns more phantom mines.
+
+==== [[Profaned Guardians]] ====
+*Nerfed main guardian's contact damage from {{dv|140|224}} to {{dv|100|160}}, and its flare damage from {{dv|114|200|210|300}} to {{dv|100|136|142|204}}.
+*Nerfed defense guardian's contact damage from {{dv|110|154}} to {{dv|100|140}}.
+*Buffed healer guardian's contact damage from {{dv|90|126}} to {{dv|100|140}}.
+*Changed spear damage from {{dv|80|140|147|210}} to {{dv|96|132|138|198}}.
+*Nerfed the length of the defense guardian's charge.
+
+==== [[Providence, the Profaned God]] ====
+*Nerfed holy flame damage from {{dv|200|260|273|390}} to {{dv|118|160|168|240}}.
+*Nerfed holy blast damage from {{dv|220|288|302|432}} to {{dv|126|184|193|276}}.
+*Nerfed molten blast damage from {{dv|210|280|294|420}} to {{dv|110|156|163|234}}.
+*Nerfed holy bomb damage from {{dv|200|260|273|390}} to {{dv|120|176|184|264}}.
+*Nerfed cocoon spear damage from {{dv|220|288|302|432}} to {{dv|130|192|201|288}}.
+*Nerfed Offensive Guardian contact damage from {{dv|120|240}} to {{dv|80|160}}, and its flare damage from {{dv|220|280|294|420}} to {{dv|112|152|159|228}}.
+*Nerfed Defender Guardian contact damage from {{dv|100|200}} to {{dv|80|160}}.
+*Nerfed Profaned Guardian spear damage from {{dv|200|240|252|360}} to {{dv|96|132|138|198}}.
+*Reduced screen shader effect.
+
+==== [[Ravager]] ====
+*Stat changes:
+**Buffed body health from {{dv|61,000|97,600|100,400|110,000}} to {{dv|61,000|97,600|100,400|170,000}}.
+**Buffed head health from {{dv|20,000|40,000|42,000|60,000}} to {{dv|40,000|80,000|84,000|120,000}}.
+***{{dv|120,000|240,000|252,000|360,000}} to {{dv|260,000|520,000|546,000|780,000}} post-Providence.
+**Buffed leg health from {{dv|13,000|26,000|27,300|39,000}} to {{dv|26,000|52,000|54,600|78,000}}.
+***{{dv|100,000|200,000|210,000|300,000}} to {{dv|200,000|400,000|420,000|600,000}} post-Providence.
+**Nerfed laser damage from {{dv|120|168|176|252}} to {{dv|96|136|142|204}}.
+**Buffed spark ball damage from {{dv|42|84|88|126}} to {{dv|80|112|117|168}}.
+**Nerfed missile damage from {{dv|200|368|386|552}} to {{dv|120|160|168|240}}.
+*AI changes:
+**Body now properly deals contact damage.
+**Head and legs no longer deal contact damage.
+**Now summons [[Rock Pillar]]s and [[Flame Pillar]]s periodically.
+**Claws no longer detach from its body like its head.
+**Now inflicts [[Weak Petrification]].
+**Will now enrage if the player is underneath it, causing it to fire projectiles more often and move more quickly.
+*Other changes:
+**Now uses NPCHit41 for its hit sound during the entire fight instead of NPCHit4 for its body parts and NPCHit8 for phase 2.
+**Now uses [[Music#Open_Frenzy|Open Frenzy]] as its theme.
+**Death message now says "Ravager" instead of "A Ravager".
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Nerfed contact damage from {{dv|220|352}} to {{dv|150|240}}.
+*Nerfed [[Cosmic Lantern]] damage from {{dv|170|340}} to {{dv|100|200}}.
+*Fireballs now only target a single player instead of multiple in multiplayer.
+*Nerfed dash length and speed.
+
+==== [[Siren and Leviathan]] ====
+*Nerfed [[The Siren]]'s contact damage from {{dv|80|128}} to {{dv|60|96}}.
+*Nerfed [[The Leviathan]]'s contact damage from {{dv|100|160}} to {{dv|75|120}}.
+*Nerfed water spear, treble cleff, and ice mist damages from {{dv|120|180|189|270}} to {{dv|64|105|110|157}}.
+*Nerfed Leviathan meteor damage from {{dv|150|204}} to {{dv|96|132}}.
+*Changed [[Ice Shield]]'s health from {{dv|1000|1200}} to {{dv|800|1600}}, and nerfed its damage from {{dv|80|80}} to {{dv|30|60}}.
+*Nerfed [[Aquatic Aberration]]'s damage from {{dv|60|120}} to {{dv|42|84}}.
+*Nerfed [[Parasea]]'s damage from {{dv|50|100}} to {{dv|34|68}}.
+*The Leviathan no longer starts [[rain]] upon spawning.
+*The Leviathan is now much smaller.
+
+==== [[The Slime God]] ====
+*Buffed [[Slime God Core]]'s damage from {{dv|30|48}} to {{dv|50|80}}.
+*Nerfed [[Crimulan Slime God]]'s damage from {{dv|60|126}} to {{dv|50|80}}.
+*Nerfed split Crimulan Slime God's damage from {{dv|50|80}} to {{dv|40|64}}.
+*Nerfed [[Corrupt Slime Spawn]]'s health from {{dv|220|440}} to {{dv|160|320}}, and its damage from {{dv|40|80}} to {{dv|30|60}}.
+*Nerfed [[Crimson Slime Spawn]]'s health from {{dv|130|260}} to {{dv|110|220}}, and its damage from {{dv|40|80}} to {{dv|30|60}}.
+*Nerfed [[Spiked Crimson Slime Spawn]]'s health from {{dv|160|320}} to {{dv|130|260}}, its contact damage from {{dv|40|80}} to {{dv|30|60}}, and its spike damage from {{dv|30|60}} to {{dv|26|52}}.
+*Nerfed corrupt mine damage from {{dv|60|80|84|120}} to {{dv|36|64|67|96}}.
+*Nerfed crimson mine damage from {{dv|46|84}} to {{dv|32|56}}.
+
+==== [[Storm Weaver]] ====
+*Nerfed phase 1's head damage from {{dv|150|300}} to {{dv|140|280}}.
+*Buffed phase 1's tail damage from {{dv|75|120}} to {{dv|80|128}}.
+*Nerfed phase 2's head damage from {{dv|250|500}} to {{dv|180|360}}.
+*Nerfed phase 2's body damage from {{dv|150|240}} to {{dv|120|192}}.
+*Buffed phase 2's tail damage from {{dv|95|152}} to {{dv|100|160}}.
+*Nerfed lightning portal damage from {{dv|120|180}} to {{dv|50|70}}.
+*Nerfed armored [[Stasis Probe]] damage from {{dv|85|170}} to {{dv|70|140}}.
+*Nerfed naked Stasis Probe damage from {{dv|100|200}} to {{dv|80|160}}.
+
+==== [[Supreme Calamitas]] ====
+*Nerfed base contact damage from {{dv|500|800}} to {{dv|350|560}}.
+*Nerfed bullet hell 1 projectile damage from {{dv|700|800|840|1200}} to {{dv|400|600|630|900}}.
+*Nerfed all other projectile damage values from {{dv|500|600|630|900}} to {{dv|300|480|504|720}}.
+*Nerfed defense from 350 to 0.
+*Nerfed [[Supreme Cataclysm]] and [[Supreme Catastrophe]]'s fireball damage from {{dv|500|600|0|900}} to {{dv|300|480|0|920}}.
+*Nerfed The [[Sepulcher]]'s projectile damage from {{dv|600|700|0|1050}} to {{dv|300|480|0|920}}.
+*Nerfed [[Soul Seeker (Supreme)|Supreme Soul Seeker]]'s projectile damage from {{dv|500|600|0|900}} to {{dv|300|480|0|920}}.
+*Reduced the amount of time required for items to drop from 100 seconds to 75.
+*Now drops [[Calamitous Essence]]s in Normal Mode.
+*[[Yharim's Crystal]] now deals full damage.
+*Reduced an effect where she would take more damage after the fifth bullet hell from a boost of 75% ({{death|50%}} in Death Mode) to 33% in general.
+*Adrenaline now charges faster during the fight.
+*Anti-cheat now activates per 5% of her health instead of 10%.
+*Supreme Soul Seeker ring now spins slower.
+*Now disables [[Shadow Dodge]].
+
+==== Other ====
+*All Abyss Minibosses can now be detected with the [[Lifeform Analyzer]] and its upgrades.
+*All [[Legendary items]] have had their drop rates decreased from 10% to 1%.
+*Aero Slimes now spawn after [[The Hive Mind]] or [[The Perforators]] have been defeated instead of [[Eater of Worlds]] or [[Brain of Cthulhu]].
+*Blood Orbs can now drop at all times during [[Blood Moon]]s instead of only after the Moon Lord has been defeated.
+*Bloom Slimes now spawn after Providence, the Profaned God has been defeated instead of the Moon Lord.
+*[[Bone Serpent]]s and [[Demon]]s can now drop [[Demonic Bone Ash]].
+*Removed most debuff immunities from most pre-Moon Lord bosses.
+*Cryo Slimes now spawn after [[Cryogen]] has been defeated instead of any Mechanical Boss.
+*[[Cultist]]s now respawn 10 times faster in Revengeance Mode.
+*The [[Dryad]] will now sell [[Goblin Battle Standard]]s once the [[Goblin Army]] has been defeated.
+*Nerfed Mauler's spawn rates depending on what stage of the game the player is at.
+*Moray Eels now have a chance to drop a [[Flipper]].
+*[[Sandstorm]]s can no longer occur until [[Skeletron]] has been defeated.
+*The [[Sentinels of the Devourer]] now drop their weapons per player instead of only once.
+*Trashers can now drop the [[Gatligator]] in Hardmode.
+*The [[Wizard]] will now sell Astral Chunks after the Astrageldon Slime has been defeated.
+
+=== Items ===
+==== Recipes ====
+*[[Anechoic Coating]] now has a [[Blood Orb]] recipe.
+*[[Ark of the Cosmos]] now uses 25 Auric Ore and 3 Yharon Soul Fragments in its recipe.
+*Astral Arcanum now requires 1 [[Celestial Jewel]] in its recipe and is crafted at an Ancient Manipulator instead of any Hardmode Anvil.
+*[[Auric Tesla Body Armor]] now uses 100 Auric Ore and 7 Yharon Soul Fragments in its recipe, and now only requires 10 [[Bar of Life|Bars of Life]], 5 [[Core of Calamity|Cores of Calamity]], 15 [[Darksun Fragment]]s, 30 [[Endothermic Energy]], 3 [[Galactica Singularity|Galactica Singularities]], 30 [[Nightmare Fuel]], and 20 [[Phantoplasm]], instead of 15 Cores of Calamity, 30 Darksun Fragments, 200 Endothermic Energy, 10 Galactica Singularities, 200 Nightmare Fuel, and 70 Phantoplasm.
+*[[Auric Tesla Cuisses]] now uses 80 Auric Ore and 6 Yharon Soul Fragments in its recipe, and now only requires 8 Bars of Life, 3 Cores of Calamity, 10 Darksun Fragments, 20 Endothermic Energy, 2 Galactica Singularities, 20 Nightmare Fuel, and 15 Phantoplasm, instead of 15 Bars of Life, 10 Cores of Calamity, 150 Endothermic Energy, 7 Galactica Singularities, 150 Nightmare Fuel, and 50 Phantoplasm.
+*[[Auric Tesla Helm]] now uses 60 Auric Ore and 5 Yharon Soul Fragments in its recipe, and now only requires 5 Bars of Life, 2 Cores of Calamity, 6 Darksun Fragments, 10 Endothermic Energy, 1 Galactica Singularity, 10 Nightmare Fuel, and 8 Phantoplasm, instead of 10 Bars of Life, 7 Cores of Calamity, 15 Darksun Fragments, 100 Endothermic Energy, 5 Galactica Singularities, 100 Nightmare Fuel, and 35 Phantoplasm.
+*[[Hemagrape|Blood Orange]] now only uses 5 [[Essence of Chaos|Essences of Chaos]], 5 [[Essence of Cinder|Essence of Cinder]], 5 [[Essence of Eleum|Essences of Eleum]], 10 [[Soul of Light|Souls of Light]], and 10 [[Soul of Night|Souls of Night]], instead of 10 of each essence and 30 of each soul.
+*All [[Blood Orb]] recipes now use the [[Alchemy Table]] instead of the [[Ancient Manipulator]].
+*[[Bloodflare Body Armor]] now uses 4 [[Ruinous Soul]]s in its recipe.
+*[[Bloodflare Cuisses]] now use 3 Ruinous Souls in its recipe.
+*[[Bloodflare Mask]] now uses 2 Ruinous Souls in its recipe.
+*[[Bloodstone Core]]s now use 2 Blood Orbs in its recipe.
+*[[Cadance Potion]] now requires 40 Blood Orbs instead of 30.
+*[[Calamitas' Brew]] now requires 20 Blood Orbs instead of 10.
+*Celestial Tracers now require 25 Auric Ore in their recipe.
+*[[Celestus]] now uses 25 Auric Ore and 3 Yharon Soul Fragments in its recipe, and now only requires 5 Cosmilite Bars, 5 Darksun Fragments, 5 Endothermic Energy, 5 Nightmare Fuel, and 5 Phantoplasm, instead of 10 Cosmilite Bars, 10 Darksun Fragments, 10 Endothermic Energy, 10 Nightmare Fuel, and 50 Phantoplasm.
+*[[Cosmic Immaterializer]] now uses 25 Auric Ore and 3 Yharon Soul Fragments in its recipe, and now only requires 5 Cosmilite Bars, 5 Darksun Fragments, 5 Endothermic Energy, 5 Nightmare Fuel, and 5 Phantoplasm, instead of 10 Cosmilite Bars, 10 Darksun Fragments, 10 Endothermic Energy, 10 Nightmare Fuel, and 50 Phantoplasm.
+*[[Crystalline]] now only uses 3 [[Diamond]]s in its recipe instead of 5.
+*[[Dragonfruit]] now only uses 5 [[Cosmilite Bar]]s, 10 [[Effulgent Feather]]s, 5 [[Endothermic Energy]], 5 [[Life Fruit]]s, 5 [[Nightmare Fuel]], 5 Phantoplasm, and 15 [[Solar Fragment]]s instead of 20 Cosmilite Bars, 30 Effulgent Feathers, 10 of each seasonal essence, 20 Life Fruits, 20 Phantoplasm, and 50 Solar Fragments.
+*[[Sambucus Fruit|Elderberry]] now only uses 5 Life Fruits, 10 [[Luminite Bar]]s, 10 [[Uelibloom Bar]]s, and 20 Unholy Essences, instead of 15 Life Fruits, 30 Luminite Bars, 20 Uelibloom Bars, and 50 Unholy Essences.
+*[[Ethereal Core]] now only uses 20 [[Nebula Fragment]]s and 50 [[Fallen Star]]s instead of 50 Nebula Fragments and 100 Fallen Stars.
+*[[Empyrean Knives]] now use 10 Darksun Fragments in their recipe.
+*[[Exoblade]] now uses 25 Auric Ore and 3 Yharon Soul Fragments in its recipe, no longer uses 1 [[Celestial Claymore]], and now only requires 5 Cosmilite Bars, 5 Darksun Fragments, 5 Endothermic Energy, 5 Nightmare Fuel, and 5 Phantoplasm, instead of 10 Cosmilite Bars, 10 Darksun Fragments, 10 Endothermic Energy, 10 Nightmare Fuel, and 50 Phantoplasm.
+*[[Eye of Extinction]] now uses 50 Auric Ore and 5 Yharon Soul Fragments in its recipe, and now only requires 15 Cosmilite Bars, 25 Darksun Fragments, 30 Endothermic Energy, 30 Nightmare Fuel, and 15 Phantoplasm, instead of 150 Cosmilite Bars, 250 Darksun Fragments, 2500 Endothermic Energy, 2500 Nightmare Fuel, and 150 Phantoplasm.
+*[[Fabsol's Vodka]] now requires 40 Blood Orbs instead of 20.
+*Added [[Feral Claws]] recipe.
+*[[Greatsword of Blah]] no longer uses 5 Yharon Soul Fragments in its recipe, and now requires 10 Darksun Fragments, 10 Endothermic Energy, and 10 Nightmare Fuel, instead of 5 of each material.
+*[[Heavenly Gale]] now uses 25 Auric Ore and 3 Yharon Soul Fragments in its recipe, and now only requires 5 Cosmilite Bars, 5 Darksun Fragments, 5 Endothermic Energy, 5 Nightmare Fuel, and 5 Phantoplasm, instead of 10 Cosmilite Bars, 10 Darksun Fragments, 10 Endothermic Energy, 10 Nightmare Fuel, and 50 Phantoplasm.
+*Added [[Life Crystal]] recipe.
+*[[Miracle Fruit]] now only uses 5 Life Fruits, 10 [[Living Shard]]s, and 20 [[Stardust]] instead of 10 Life Fruits, 30 Living Shards, and 80 Stardust.
+*[[Phantom Heart]] now only uses 100 Phantoplasm instead of 150.
+*[[Photoviscerator]] now uses 25 Auric Ore and 3 Yharon Soul Fragments in its recipe, and now only requires 5 Cosmilite Bars, 5 Darksun Fragments, 5 Endothermic Energy, 5 Nightmare Fuel, and 5 Phantoplasm, instead of 10 Cosmilite Bars, 10 Darksun Fragments, 10 Endothermic Energy, 10 Nightmare Fuel, and 50 Phantoplasm.
+*The non-consumable variant of the [[Profaned Core]] now only requires 1 consumable Profaned Core, but now requires 5 Divine Geodes.
+*[[Pwnagehammer]] now uses 3 [[Soul of Fright|Souls of Fright]], 3 [[Soul of Might|Souls of Might]], and 3 [[Soul of Sight|Souls of Sight]] in its recipe instead of just 10 Souls of Might.
+*[[Rampart of Deities]] now requires 10 [[Divine Geode]]s in its recipe.
+*[[Scourge of the Cosmos]] now uses 10 Darksun Fragments in its recipe.
+*Added [[Shuriken]] recipe.
+*[[Silva Armor]] now requires 10 Darksun Fragments in its recipe.
+*[[Silva Helm]] now requires 5 Darksun Fragments in its recipe.
+*[[Silva Leggings]] now require 7 Darksun Fragments in their recipe.
+*[[Starcore]] now requires 8 Astral Jelly, 4 [[Hallowed Bar]]s, and 15 Stardust in its recipe instead of 7 Hallowed Bars, 2 Living Shards, and 10 Stardust.
+*[[Subsuming Vortex]] now uses 25 Auric Ore and 3 Yharon Soul Fragments in its recipe, and now only requires 5 Cosmilite Bars, 5 Darksun Fragments, 5 Endothermic Energy, 5 Nightmare Fuel, and 5 Phantoplasm, instead of 10 Cosmilite Bars, 10 Darksun Fragments, 10 Endothermic Energy, 10 Nightmare Fuel, and 50 Phantoplasm.
+*[[Tarragon Breastplate]] now requires 18 Divine Geodes in its recipe.
+*[[Tarragon Helm]] now requires 6 Divine Geodes in its recipe.
+*[[Tarragon Leggings]] now require 12 Divine Geodes in their recipe.
+*Added [[Throwing Knife]] recipe.
+*[[Vivid Clarity]] now uses 25 Auric Ore and 3 Yharon Soul Fragments in its recipe, and now only requires 5 Cosmilite Bars, 5 Darksun Fragments, 5 Endothermic Energy, 5 Nightmare Fuel, and 5 Phantoplasm, instead of 10 Cosmilite Bars, 10 Darksun Fragments, 10 Endothermic Energy, 10 Nightmare Fuel, and 50 Phantoplasm.
+*[[Voltaic Climax]] now requires 15 Darksun Fragments in its recipe instead of 10.
+*Added [[Wand of Sparking]] recipe.
+*[[Xeroc Cuisses]] now require 12 Luminite Bars in their recipe, and now require 18 [[Meld Bar]]s instead of 11.
+*[[Xeroc Mask]] now requires 8 Luminite Bars in its recipe, and now requires 12 Meld Bars instead of 9.
+*[[Xeroc Plate Mail]] now requires 16 Luminite Bars in its recipe, and now requires 22 Meld Bars instead of 15.
+*[[Yharim's Stimulants]] now use 50 Blood Orbs instead of 30.
+
+==== Other Item Changes ====
+*All Slime God weapon rarities changed from {{rare|5}} to {{rare|4}}.
+*[[Astral Chunk]] can now only be used at night.
+*[[Astral Ore]]'s rarity changed from {{rare|4}} to {{rare|7}}.
+*Calamitous Essence no longer has the {{rare|rainbow}} rarity.
+*Chaotic Ore's rarity changed from {{rare|3}} to {{rare|8}}.
+*[[Cosmilamp]]'s cosmilamp minions are now more aggressive.
+*Cryonic Ore's rarity changed from {{rare|3}} to {{rare|5}}.
+*[[Elemental Axe]]'s elemental axe minions made more aggressive.
+*[[Harpy Ring]] now provides a 25% flight boost.
+*Perennial Ore's rarity changed from {{rare|3}} to {{rare|6}}.
+*Pwnagehammer's rarity changed from {{rare|5}} to {{rare|6}}.
+*[[Raider's Talisman]] reworked:
+**Now provides its buffs when a throwing weapon lands a critical strike on an enemy instead of when the wearer is damaged.
+**The effect now only stacks up to 50 times instead of 100, for a maximum throwing boost of 15% instead of 40%.
+**Extra damage taken effect removed.
+*[[Silva armor]] now has a new set bonus:
+**Now makes the player invulnerable to all damage once they hit 0 health for 15 seconds.
+**If the player hits 0 health again while in this state, they will lose 100 max health.
+**This effect can only be triggered once per life.
+*Spirit Generator now provides buffs on enemy hits instead of enemy kills, and only last for 2 seconds instead of 6.
+*[[Sun God Staff]] rarity changed from {{rare|5}} to {{rare|6}}.
+*[[Tenebris]] rarity changed from {{rare|3}} to {{rare|6}}.
+*Renamed NO to [[SYNTAX ERROR]].
+**Changed tooltip from "U" to "asdhgjhrew8943923203lajflfjndg89w34ut8340ofjaur823u3lr"
+**Now crashes the game when used instead of summoning [[THE LORDE]].
+
+=== Other ===
+*The third layer of the [[Abyss]] now uses [[Music#R'LYEH|R'LYEH]] as its theme.
+*All Calamity [[Ores]] no longer generate on world generation.
+*All Abyss Chest weapons such as the [[Black Anurian]] can no longer be fished up.
+*Decreased the amount of [[Astral Ore]] tiles that need to exist in the world in order to stop an astral meteor from falling by half (400 to 200 for small worlds, 600 to 300 for medium, 800 to 400 for large).
+*[[Astral Ore]], [[Chaotic Ore]], [[Cryonic Ore]], and [[Perennial Ore]] now emit light.
+*Reduced the amount of dust created by most projectiles.
+*Revengeance Mode no longer makes defense 100% useful.
+*Lowered Expert Mode scaling in multiplayer.
+*Nerfed [[Horror]]'s speed reduction.
+*Nerfed [[Vulnerability Hex]]'s flight time reduction from 75% to 50%.
+*Nerfed the defense given by [[Yharon's Kindle Staff]] from 10 to 5.
+*Nerfed the defense given by [[Mushy]] from 10 to 5.
+*The Rage and Adrenaline buffs can no longer be manually canceled.
+
+== Balance ==
+=== coverings ===
+*Nerfed [[The Absorber]]'s health and mana boosts from 30 to 20, and defense boost from 15 to 6.
+*Nerfed [[Affliction]]'s health boost from 10% to 5%.
+*Nerfed [[Ambrosial Ampoule]]'s defense boost from 15 to 4, and its damage reduction towards bee/hornet enemies from 50% to 25%.
+*Nerfed [[Aquatic Emblem]]'s max defense boost from 120 to 40.
+*Nerfed [[Arcanum of the Void]] and [[Astral Arcanum]]'s projectile deflection chance from 25% to 10%.
+*Nerfed [[Asgardian Aegis]]' health boost from 100 to 40, and its defense boost from 15 to 10.
+*Nerfed [[Asgard's Valor]]'s health boost from 50 to 20.
+*Nerfed [[Celestial Tracers]]' flight time from 300 to 280.
+*Nerfed [[Core of the Blood God]]'s health boost from 20% to 10%.
+*Nerfed [[Crown Jewel]]'s defense boost when under a damaging debuff from 15 to 10.
+*Nerfed [[Daedalus armor]]'s set bonus projectile deflection chance from 50% to 33%.
+*Nerfed [[Draedon's Heart]]'s defense boost when standing still from 100 to 50.
+*Nerfed [[Elysian Aegis]]' health boost from 100 to 40, and its defense boost from 10 to 8.
+*Nerfed [[Elysian Tracers]]' flight time from 240 to 200.
+*Nerfed [[Giant Tortoise Shell]]'s defense boost from 12 to 8.
+*Nerfed [[Heart of the Elements]]' health boost from 50 to 20, and its defense boost from 10 to 6.
+*Nerfed [[Honey Dew]]'s damage reduction towards bee/hornet enemies from 50% to 25%.
+*Nerfed [[Nanotech]]'s defense boost from 30 to 15.
+*Buffed [[Necklace of Vexation]]'s damage boost when under 50% health from 10% to 20%.
+*Nerfed [[Rose Stone]]'s health boost from 50 to 20.
+*Nerfed [[Seraph Tracers]]' flight time from 140 to 120.
+*[[Siren's Heart]] changes:
+**Now only provides an NPC shop discount in Hardmode instead of after Skeletron has been defeated.
+**Now only provides 10 defense in Hardmode instead of 15, and 15 after the Moon Lord has been defeated instead of 20.
+**Ice shield now regenerates after 30 seconds instead of 1 minute.
+*[[Spirit Generator]] changes:
+**Nerfed damage boost from 15% to 10%.
+**Nerfed defense boost from 20 to 5.
+**Nerfed damage reduction boost from 10% to 5%.
+*Nerfed [[The Sponge]]'s health and mana boosts from 30 to 20, its defense boost from 20 to 10, and its damage reduction towards bee/hornet enemies from 50% to 25%.
+
+=== Armor ===
+*Nerfed [[Aerospec Hat]]'s defense from 4 to 3.
+*Nerfed [[Aerospec Headgear]]'s defense from 6 to 4.
+*Nerfed [[Aerospec Helm]]'s defense from 9 to 7.
+*Nerfed [[Aerospec Hood]]'s defense from 7 to 5.
+*Nerfed [[Astral Breastplate]]'s health and mana boosts from 30 to 20.
+*Nerfed [[Ataxia Armor]]'s health and mana boosts from 50 to 20.
+*Nerfed [[Ataxia Headgear]]'s defense from 17 to 15.
+*Nerfed [[Ataxia Helm]]'s defense from 31 to 25.
+*Nerfed [[Ataxia Helmet]]'s defense from 6 to 4.
+*Nerfed [[Ataxia Hood]]'s defense from 13 to 12.
+*Nerfed [[Ataxia Subligar]]'s defense from 15 to 14.
+*Nerfed Auric Tesla Body Armor's health and mana boosts from 300 to 100.
+*Nerfed Bloodflare Body Armor's health and mana boosts from 100 to 40.
+*Nerfed [[Demonshade Breastplate]]'s health and mana boosts from 500 to 200, and its defense from 62 to 50.
+*Nerfed [[Demonshade Greaves]]' defense from 57 to 50.
+*Nerfed [[Demonshade Helm]]'s defense from 55 to 50.
+*Nerfed [[God Slayer armor]]'s revive heal from 300 to 150.
+*Nerfed [[God Slayer Chestplate]]'s health and mana boosts from 150 to 60, buffed its defense from 36 to 41, and lowered the chance for the player to not take damage from a projectile from 5% to 2%.
+*Buffed [[God Slayer Helm]]'s defense from 29 to 30.
+*Buffed [[God Slayer Leggings]]' defense from 31 to 35.
+*All Reaver Helmets no longer make the player immune to [[Lava]] and [[Cursed Inferno]].
+*Nerfed [[Reaver Scale Mail]]'s health boost from 50 to 20.
+*Nerfed Silva Armor's health and mana boosts from 200 to 80, and buffed its defense from 40 to 44.
+*Buffed Silva Helm's defense from 34 to 35.
+*Buffed Silva Leggings' defense from 36 to 39.
+*Buffed [[Statigel Cap]]'s defense from 4 to 5.
+*Buffed [[Statigel Hood]]'s defense from 2 to 4.
+*Buffed [[Statigel Mask]]'s defense from 5 to 6.
+*Nerfed Tarragon Breastplate's health and mana boosts from 100 to 40, and its defense from 42 to 37.
+*Nerfed Tarragon Helm's defense from 30 to 25.
+*Nerfed Tarragon Leggings' defense from 26 to 23.
+*Buffed [[Victide Breastplate]]'s defense when in liquids from 3 to 5.
+*Buffed [[Victide Leggings]]' defense from 3 to 4.
+*Nerfed Xeroc Plate Mail's health and mana boosts from 80 to 20.
+
+=== Enemies ===
+*Buffed [[adult Eidolon Wyrm]]'s health from {{dv|3,000,000|6,000,000}} to {{dv|30,000,000|60,000,000}}, defense from {{dv|300|600}} to {{dv|3000|6000}}, and its ice projectile's damage from {{dv|240|360|0|540}} to {{dv|300|400|0|600}}.
+*Nerfed [[Aero Slime]]'s health from {{dv|70|140}} to {{dv|50|100}}, and damage from {{dv|25|50}} to {{dv|18|36}}.
+*Nerfed [[Angry Dog]]'s base health from {{dv|60|120}} to {{dv|50|100}}.
+*Nerfed [[Aquatic Parasite]]'s health from {{dv|100|200}} to {{dv|40|80}}, and damage from {{dv|32|64}} to {{dv|15|30}}.
+*Nerfed [[Aquatic Seeker]]'s health from {{dv|500|1000}} to {{dv|100|200}}.
+**Nerfed head damage from {{dv|60|120}} to {{dv|20|40}}.
+**Nerfed body damage from {{dv|30|60}} to {{dv|15|30}}.
+**Nerfed tail damage from {{dv|10|20}} to {{dv|5|10}}.
+*Nerfed [[Armored Digger]]'s health from {{dv|4000|8000}} to {{dv|2000|4000}}.
+**Nerfed head damage from {{dv|70|140}} to {{dv|50|100}}.
+**Nerfed body damage from {{dv|50|100}} to {{dv|40|80}}.
+**Nerfed tail damage from {{dv|35|70}} to {{dv|20|40}}.
+*Nerfed [[Astral Head]]'s health from {{dv|500|845}} to {{dv|110|253}}, and damage from {{dv|150|300}} to {{dv|50|100}}.
+*Nerfed [[Astral Probe]]'s health from {{dv|400|676}} to {{dv|120|240}}, contact damage from {{dv|50|84}} to {{dv|30|60}}, and its laser damage in Normal Mode from 21 to 14.
+*Nerfed [[Astral Slime]]'s health from {{dv|350|591}} to {{dv|150|300}}, contact damage from {{dv|90|152}} to {{dv|40|80}}, and its laser damage from {{dv|18-20|36-40|0|54-60}} to {{dv|13-15|26-30|0|39-45}}.
+*Nerfed [[Blighted Eye]]'s health from {{dv|200|400}} to {{dv|120|240}}, and damage from {{dv|52|104}} to {{dv|32|64}}.
+*Nerfed [[Bloom Slime]]'s health from {{dv|3000|6000}} to {{dv|1000|2000}}, and damage from {{dv|150|300}} to {{dv|80|160}}.
+*Nerfed [[BOHLDOHR]]'s base health from {{dv|600|1200}} to {{dv|300|600}}, and damage from {{dv|250|500}} to {{dv|150|300}}.
+*Nerfed [[Box Jellyfish]]'s health from {{dv|150|300}} to {{dv|85|170}}, and damage from {{dv|40|80}} to {{dv|22|44}}.
+*Nerfed [[Calamity Eye]]'s health from {{dv|250|500}} to {{dv|140|280}}, and damage from {{dv|72|144}} to {{dv|40|80}}.
+*Nerfed [[Catfish]]'s health from {{dv|400|800}} to {{dv|200|400}}, and damage from {{dv|60|120}} to {{dv|30|60}}.
+*Nerfed [[Chaos Slime]]'s health from {{dv|700|1400}} to {{dv|300|600}}, and damage from {{dv|80|160}} to {{dv|50|100}}.
+*Nerfed [[Charred Slime]]'s health from {{dv|550|1100}} to {{dv|250|500}}, and damage from {{dv|60|120}} to {{dv|40|80}}.
+*Nerfed [[Cloud Elemental]]'s damage from {{dv|50|100}} to {{dv|38|76}}.
+*Nerfed [[Cnidrion]]'s health from {{dv|600|1200}} to {{dv|400|800}}.
+*Nerfed [[Colossal Squid]]'s ink bomb damage from {{dv|150|220|0|330}} to {{dv|65|100|0|150}}.
+*Nerfed [[Cosmic Elemental]]'s damage from {{dv|25|50}} to {{dv|20|40}}.
+*Nerfed [[Crimulan Blight Slime]]'s health from {{dv|170|340}} to {{dv|130|260}}, and damage from {{dv|33|66}} to {{dv|30|60}}.
+*Nerfed [[Cryo Slime]]'s health from {{dv|230|460}} to {{dv|120|240}}, and damage from {{dv|40|80}} to {{dv|30|60}}.
+*Nerfed [[Cryon]]'s health from {{dv|200|400}} to {{dv|150|300}}, and damage from {{dv|50|100}} to {{dv|37|74}}.
+*Nerfed [[Cultist Assassin]]'s base health from {{dv|400|800}} to {{dv|150|300}}, and base damage from {{dv|70|140}} to {{dv|50|100}}.
+*Nerfed [[Cuttlefish]]'s health from {{dv|220|440}} to {{dv|90|160}}, and damage from {{dv|40|80}} to {{dv|17|34}}.
+*Nerfed [[Despair Stone]]'s base health from {{dv|400|800}} to {{dv|200|400}}, and base damage from {{dv|70|140}} to {{dv|40|80}}.
+*Nerfed [[Earth Elemental]]'s defense from 40 to 30.
+*Nerfed [[Ebonian Blight Slime]]'s health from {{dv|150|300}} to {{dv|130|260}}, and its damage from {{dv|33|66}} to {{dv|30|60}}.
+*Nerfed [[Flounder]]'s health from {{dv|110|220}} to {{dv|60|120}}, and its mist projectile's damage from {{dv|35|44|0|66}} to {{dv|25|38|0|57}}.
+*Nerfed [[Frogfish]]'s health from {{dv|190|380}} to {{dv|110|220}}, and damage from {{dv|30|60}} to {{dv|25|50}}.
+*Nerfed [[Giant Squid]]'s health from {{dv|850|1700}} to {{dv|300|600}}, and damage from {{dv|80|160}} to {{dv|50|100}}.
+*Nerfed [[Gnasher]]'s health from {{dv|220|440}} to {{dv|65|130}}, and damage from {{dv|70|140}} to {{dv|25|50}}.
+*Nerfed [[Gulper Eel]]'s damage:
+**Nerfed head damage from {{dv|250|500}} to {{dv|120|240}}.
+**Nerfed body damage from {{dv|100|200}} to {{dv|70|140}}.
+**Nerfed tail damage from {{dv|70|140}} to {{dv|50|100}}.
+*Nerfed [[Heat Spirit]]'s health from {{dv|60|120}} to {{dv|50|100}}, and damage from {{dv|50|100}} to {{dv|33|66}}.
+*Nerfed [[Ice Clasper]]'s health from {{dv|800|1600}} to {{dv|600|1200}}, and damage from {{dv|40|80}} to {{dv|32|64}}.
+*Nerfed [[Impious Immolator]]'s flame burst damage from {{dv|125|160|0|240}} to {{dv|55|84|0|126}}
+*Nerfed [[Irradiated Slime]]'s health from {{dv|5000|10,000}} to {{dv|3000|6000}}, its damage from {{dv|1500|3000}} to {{dv|500|1000}}, and its defense from 150 to 100.
+*Nerfed [[Laserfish]]'s health from {{dv|400|800}} to {{dv|200|400}}, and its laser damage from {{dv|50|70}} to {{dv|32|50}}.
+*Nerfed [[Mantis Shrimp]]'s health from {{dv|140|280}} to {{dv|50|100}}.
+*Nerfed [[Mauler]]'s base damage from {{dv|225|450}} to {{dv|115|230}}, and its mist base damage from {{dv|70|100|0|150}} to {{dv|50|90|0|135}}.
+*Nerfed [[Melter]]'s damage from {{dv|110|220}} to {{dv|55|110}}.
+*Nerfed [[Moray Eel]]'s damage from {{dv|50|100}} to {{dv|35|70}}, and health from {{dv|350|700}} to {{dv|180|360}}.
+*Nerfed [[Oarfish]]'s health from {{dv|4000|8000}} to {{dv|3000|6000}}.
+**Nerfed head damage from {{dv|100|200}} to {{dv|30|60}}.
+**Nerfed body damage from {{dv|60|120}} to {{dv|20|40}}.
+**Nerfed tail damage from {{dv|40|80}} to {{dv|10|20}}.
+*Nerfed [[Overloaded Soldier]]'s damage from {{dv|80|160}} to {{dv|42|84}}, but buffed its speed.
+*Nerfed [[Perennial Slime]]'s health from {{dv|400|800}} to {{dv|150|300}}, and damage from {{dv|60|120}} to {{dv|35|70}}.
+*Nerfed [[Pestilent Slime]]'s contact damage from {{dv|90|180}} to {{dv|55|110}}, and its spike damage from {{dv|30|60|0|90}} to {{dv|25|50|0|75}}.
+*Nerfed [[Phantom Debris]]' damage from {{dv|33|66}} to {{dv|30|60}}.
+*Nerfed [[Phantom Spirit]] (normal)'s damage from {{dv|100|200}} to {{dv|70|140}}.
+*Nerfed Phantom Spirit (sad)'s damage from {{dv|130|260}} to {{dv|80|160}}.
+*Nerfed Phantom Spirit (angry)'s damage from {{dv|160|320}} to {{dv|90|180}}.
+*Nerfed Phantom Spirit (happy)'s contact damage from {{dv|200|400}} to {{dv|100|200}}, and its projectile damage from {{dv|100|200|0|300}} to {{dv|60|120|0|180}}.
+*Nerfed [[Pitbull]]'s health from {{dv|70|140}} to {{dv|60|120}}, and damage from {{dv|20|30}} to {{dv|18|36}}.
+*Nerfed [[Plague Charger]]'s health from {{dv|300|600}} to {{dv|200|400}}, and damage from {{dv|42|84}} to {{dv|37|74}}.
+*Nerfed large Plague Charger's health from {{dv|600|1200}} to {{dv|300|600}}, and damage from {{dv|50|100}} to {{dv|45|90}}.
+*Nerfed [[Plaguebringer]]'s health from from {{dv|8000|16,000|16,800|26,000}} to {{dv|6000|12,000|12,600|16,000}}, and its damage from {{dv|100|200}} to {{dv|80|160}}.
+*Nerfed [[Plagueshell]]'s damage from {{dv|130|260}} to {{dv|80|160}}.
+*Nerfed [[Profaned Energy]]'s contact damage from {{dv|70|112}} to {{dv|60|120}}, and its main flame damage from {{dv|50|80|0|120}} to {{dv|40|80|0|120}}.
+*Nerfed [[Reaper Shark]]'s damage from {{dv|250|500}} to {{dv|125|250}}.
+*Buffed [[Scorn Eater]]'s health from {{dv|8000|16,000}} to {{dv|16,000|32,000}}, and nerfed its damage from {{dv|110|220}} to {{dv|90|180}}.
+*Nerfed [[Scryllar]] (normal)'s base health from {{dv|300|600}} to {{dv|150|500}}, and damage from {{dv|75|130}} to {{dv|50|100}}.
+*Nerfed Scryllar (rage)'s base health from {{dv|150|300}} to {{dv|90|180}}, and damage from {{dv|95|190}} to {{dv|65|130}}.
+*Nerfed [[Sea Urchin]]'s health from {{dv|80|160}} to {{dv|50|100}}, and damage from {{dv|40|80}} to {{dv|20|40}}.
+*Nerfed [[Shockstorm Shuttle]]'s contact damage from {{dv|50|100}} to {{dv|30|60}} and its projectile damage from {{dv|40|54|0|81}} to {{dv|30|44|0|66}}.
+*Nerfed [[Soul Slurper]]'s base health from {{dv|200|400}} to {{dv|100|200}}, base contact damage from {{dv|55|110}} to {{dv|30|60}}, and its laser damage from {{dv|40|64|0|96}} to {{dv|30|44|0|66}}.
+*Nerfed [[Stormlion]]'s damage from {{dv|25|50}} to {{dv|20|40}}.
+*Nerfed [[Sun Bat]]'s health from {{dv|150|300}} to {{dv|120|240}}, and damage from {{dv|50|100}} to {{dv|35|70}}.
+*Nerfed [[Trasher]]'s health from {{dv|500|1000}} to {{dv|350|700}}, and damage from {{dv|90|180}} to {{dv|50|100}}.
+*Nerfed [[Viperfish]]'s health from {{dv|250|500}} to {{dv|120|240}}, and damage from {{dv|75|150}} to {{dv|30|60}}.
+*Nerfed [[Viruling]]'s damage from {{dv|115|230}} to {{dv|60|120}}.
+
+=== Weapons ===
+*Buffed [[Aegis Blade]]'s damage from 37 to 44.
+*Buffed [[Aquatic Dissolution]]'s damage from 110 to 140.
+*Buffed Ark of the Cosmos' damage from 210 to 315.
+*Buffed [[Baleful Harvester]]'s use time and use animation from 32 to 22.
+*Buffed [[Biofusillade]]'s damage from 58 to 67.
+*Buffed [[Briny Baron]]'s damage from 55 to 60.
+*Buffed Celestus' damage from 104 to 125.
+*Buffed [[Cosmic Discharge]]'s damage from 280 to 1000.
+*Buffed [[Eradicator]]'s damage from 195 to 450.
+*Buffed [[Executioner's Blade]]'s damage from 190 to 550.
+*Buffed Exoblade's damage from 1800 to 2000.
+*Buffed [[Flame Scythe]]'s damage from 98 to 130.
+*Buffed Greatsword of Blah's damage from 247 to 410.
+*Buffed [[Heart Rapier]]'s damage from 30 to 38.
+*Buffed [[Hematemesis]]' damage from 90 to 100.
+*Buffed [[Lifehunt Scythe]]'s damage from 100 to 115.
+*Buffed [[Malachite]]'s damage from 36 to 42.
+*Buffed [[Nettlevine Greatbow]]'s damage from 104 to 120.
+*Buffed Photoviscerator's damage from 50 to 80.
+*Buffed [[Plasma Rifle]]'s damage from 350 to 402.
+*Buffed [[Pwnagehammer]]'s damage from 60 to 90 and use time and animation from 18 to 15.
+*Buffed [[Spyker]]'s damage from 150 to 172.
+*Buffed [[Tarragon Throwing Dart]]'s damage from 160 to 184.
+*Buffed [[True Tyrant's Ultisword]]'s damage from 132 to 158, and its use time and animation from 21 to 18.
+*Buffed [[Valediction]]'s damage from 290 to 430.
+*Buffed [[Verdant]]'s damage from 215 to 247.
+*Buffed [[Vesuvius]]' damage from 35 to 50.
+*Buffed [[Xeroc Pitchfork]]'s damage from 100 to 300, but nerfed its shot speed from 24 to 16.
+
+=== Other ===
+*Reduced the health boost from all [[Permanent Power-ups|permanent health upgrades]] from 50 to 25, and the mana boost from all permanent mana upgrades from 100 to 50.
+*Buffed [[Blossom Pickaxe]]'s damage from 70 to 90, increased use time from 1 to 5, decreased use animation from 15 to 10, and decreased knockback from 7.5 to 6.5.
+*[[Electrolyte Gel Pack]] now only makes Adrenaline charge 10 seconds faster instead of 15.
+*Buffed [[Gallant Pickaxe]]'s damage from 55 to 80, increased use time from 1 to 6, and decreased extra range from 6 to 5.
+*Introduced a melee speed cap which limits true melee weapons to a maximum of 115% of their initial speed, and other melee weapons to 150% of their original speed.
+*Nerfed [[Wulfrum Axe]]'s damage from 13 to 10.
+*Nerfed [[Wulfrum Hammer]]'s damage from 11 to 8.
+
+=== Resprites ===
+*Resprited Astrageldon Slime, [[Profaned Guardians]], [[Providence, the Profaned God]], Ravager.
+*Resprited Angery Flame, [[Bloom Slime]], [[Chaos Slime]], [[Cryo Slime]], Detonating Flame, [[Flounder]], [[Frogfish]], [[Irradiated Slime]], [[Oarfish]], [[Profaned Energy]], [[Scorn Eater]].
+*Resprited [[Blood Pact]], [[Chaos Stone]], [[Elysian Aegis]], [[Elysian Wings]], [[Flesh Totem]], [[Frost Flare]], [[Rose Stone]], [[Soul of Cryogen]].
+*Resprited [[Desert Scourge Mask]], [[God Slayer Chestplate]], [[God Slayer Helm]], [[God Slayer Leggings]].
+*Resprited [[Desert Scourge Trophy]], [[Plaguebringer Goliath Trophy]].
+*Resprited [[Baleful Harvester]], [[Ball O' Fugu]], [[Blissful Bombardier]], [[Carnage Ray]], [[Darklight Greatsword]], [[Hematemesis]], [[Holy Collider]], [[Mistlestorm]], [[Molten Amputator]], [[Night's Ray]], [[Omniblade]], [[Purge Guzzler]], [[Relic of Ruin]], [[Sky Glaze]], [[Solar Flare]], [[Stellar Striker]], [[Storm Surge]], [[Telluric Glare]], [[Temporal Floe Sword]], [[Terra Edge]], [[Terra Shiv]].
+*Resprited [[Terra Arrow]], [[Terra Bullet]].
+*Resprited [[Ancient Medallion]], [[Infernal Blood]].
+*Resprited [[Living Shard]], [[Stormlion Mandible]].
+*Resprited the projectiles for [[Draconic Destruction]], [[Essence Flayer]], [[Hellion Flower Spear]], [[The Obliterator]], [[Solstice Claymore]], [[Terratomere]], [[True Caustic Edge]].
+*Resprited Phantom Mine.
+
+== Fixes ==
+*Fixed a sheeting error with [[Discordian Wings]].
+*Fixed [[Stream Gouge]] using its previous sprite for its attack animation.
+*Fixed a bug with [[Void of Calamity]] in multiplayer.
+*Fixed a bug with Ceaseless Void in multiplayer.
+*Fixed multiplayer Expert Mode health scaling on Aquatic Scourge and Astrageldon Slime.
+*Fixed a possible crash that could occur with [[Pots]] and Sulphurous Sand generation.
+*Fixed a size scaling bug with The Leviathan, The Plaguebringer Goliath, and Providence.
+
+== Removals ==
+*Removed [[THE LORDE]].
+*Removed [[NO U]].
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

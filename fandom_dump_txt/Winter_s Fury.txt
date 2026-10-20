@@ -1,0 +1,41 @@
+{{item infobox
+| hardmode = yes
+| type = Weapon
+| damage = 59
+| damagetype = magic
+| tooltip = The pages are freezing to the touch
+| mana = 7
+| use = 12
+| knockback = 5
+| rare = 8
+| buy = {{value|0|80}}
+| sell = {{value|0|16}}
+| auto = yes
+| velocity = 12
+| stack = 1
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 3 seconds (Icicle, Snowball)
+| debuff2 = Glacial State
+| debufftip2 = Cannot move and defense is shattered
+| debuffchance2 = 100%
+| debuffduration2 = 0.5 seconds (Snowball)
+| proj = Fury Snowball.png
+| projcaption = Snowball
+| proj2 = Fury Icicle.png
+| proj2caption = Icicle
+| proj3 = Frost Shard.gif
+| proj3caption = Frost Shard
+| element1 = Cold
+}}
+
+The '''Winter's Fury''' is a [[Hardmode]] [[spell tome]] sold by the [[Archmage]] NPC for {{gc|80}} after defeating all three [[minibosses]] in the [[Frost Moon]] [[event]]. It fires a stream of ice orbs along with a barrage of ice shards towards the player's cursor. These projectiles have a long range, are affected by gravity, and inflict the [[Frostburn]] [[debuff]] upon hitting an enemy.
+
+{{Modifier|magic}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

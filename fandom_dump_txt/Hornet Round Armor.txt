@@ -1,0 +1,86 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| imagealt = <Tabber>
+Default=[[File:Hornet Round Armor.png]]
+|-|
+Hornet=[[File:Hornet Round Hornet.png]]
+</Tabber>
+| type = Armor
+| defense = 122
+| setbonus = Generates 22 auric dwarfs that defend you</br> Press {{key|Armor set Bonus}} to become a hornet that stops summoning dwarfs but can fly incredibly fast
+| rare = 15
+| sell = {{pc|66}} (set)
+| buff = Auric Dwarfs (buff) | bufflink = no
+| bufftip = 22 Auric Dwarfs are defending you.
+| duration = Infinite
+| buff2 = Hornet form | bufflink = no
+| bufftip2 = You became a hornet.
+| buffduration2 = Infinite
+| hardmode = yes
+| postml = yes
+}}
+{{summoned|Auric Dwarf Tall}}
+{{summoned|Auric Dwarf Short}}
+'''Hornet Round armor''' is a craftable Godseeker Mode [[Covering]] set crafted from [[22 Hornet Round]]s, [[Klepticoin]]s, [[Soul of Plight]]s and [[Scoria Bar]]s. 
+
+It consists of a '''Hornet Round Helm''', '''Hornet Round Mantleplate''', and '''Hornet Round Leggins'''.
+
+== Stats ==
+The full set grants the following stats and bonuses (this includes the set bonus):
+*122 defense
+*100% increased ranged damage
+*100% increased minion damage
+*50% increased movement speed
+*+220 max life and mana
+*+6 max minions
+*all bullets convert into 22 hornet rounds.
+*Standing still grants +2 life regen.
+*Spawns 22 auric dwarfs that attack enemies. Pressing {{key|Armor set Bonus}} makes the dwarfs disappear but causes the player to become a hornet that can fly indefinitely with drastically increased movement speed.
+**Short dwarfs ram the enemy while taller dwarfs shoot the enemy with 22 hornet rounds
+== Set ==
+{|
+|-style="vertical-align:top"
+|{{item infobox
+| name = Hornet Round Helm
+| type = Armor
+| defense = 40
+| tooltip = 100% increased ranged damage, +80 max life and mana, all bullets convert into 22 hornet rounds.
+| body slot = Helmet
+| hardmode = yes
+| postml = yes
+| sell = {{value|22}}
+}}
+|{{item infobox
+| name = Hornet Round Mantleplate
+| type = Armor
+| defense = 60
+| tooltip = 100% increased summon damage, +80 max health and mana, +6 max minion slots.
+| body slot = Shirt
+| hardmode = yes
+| postml = yes
+| sell = {{value|22}}
+}}
+|{{item infobox
+| name = Hornet Round Leggings
+| type = Armor
+| defense = 22
+| tooltip = +60 max health and mana, 50% increased movement speed
+| body slot = Pants
+| hardmode = yes
+| postml = yes
+| sell = {{value|22}}
+}}
+|}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Hornet Round%}}
+
+==Trivia==
+*Since it's official release, the armor has only been made more round
+*The armor emits a dim glow when in proximity of [[La Ruga]]
+
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

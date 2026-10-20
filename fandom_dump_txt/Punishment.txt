@@ -1,0 +1,12 @@
+{{buff infobox
+| type = Debuff
+| effects = -1 max hp per second<br/>50% slower movement speed<br/>player cannot fly
+| tooltip = Dissolving from holy light
+}}
+
+'''Punishment''' is a [[debuff]] applied to players who enter the [[Profaned Desert]] [[Biomes|Biome]]. It slowly reduces the players maximum hp, while also significantly crippling their movement speed and removing their ability to fly. When the debuff is removed, the players max health will regenerate at a rate of 1hp per second until it reaches full.
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

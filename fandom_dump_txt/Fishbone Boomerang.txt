@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Rogue
+| damage = 24
+| use = 15
+| knockback = 5.5
+| velocity = 3
+| tooltip = Stealth strikes make the boomerang ricochet between enemies<br/>{{color|Though the evaporating Sea Kingdom fought a losing battle, its proud inhabitants did not go down easily.|#5C95A1}}<br/>{{color|As a last resort, they had to fashion weapons from the skeletons of dead animals.|#5C95A1}}
+| rare = 2
+| sell = {{value|0|0|40}}
+| stack = 1
+| research = 1
+| auto = yes
+| sound = Item_1.wav
+| soundtext = Use
+| sound2 = Item_7.wav
+| sound2text = Boomerang
+| sound3 = Dd2 skeleton hurt 0.wav
+| sound3text = Hit
+| sound4 = Item 144.wav, Item 145.wav, Item 146.wav, Item 147.wav, Item 140.wav, Item 143.wav, Item 139.wav <!-- Both cymbals, Kick, Both hi-hats, Snare, and Hi Tom -->
+| sound4text = Hit Bonus
+| element1 = Water
+| element2 = Slash
+}}The '''Fishbone Boomerang''' is a craftable [[Pre-Hardmode]] [[boomerang]]. When used, it throws up to only one boomerang which remains airborne up to four seconds. Unlike most boomerangs, it has a brief throwing animation, and it decelerates when it reaches its maximum distance as opposed to turning around instantly. It is capable of piercing infinitely, but returns to the player extremely quickly when it hits a surface or an enemy.
+
+Performing a [[stealth strike]] with the Fishbone Boomerang causes the next boomerang thrown to ricochet to another nearby enemy before returning to the player. If no enemies are nearby, it returns to the player as usual.
+
+{{modifier|rogue}}
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+==Trivia==
+*If the boomerang hits 10 or more enemies, each hit will create a random sound from the [[Drum Set]]. This does not affect the projectile in any other way.
+{{-}}{{Sea Remains}}{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

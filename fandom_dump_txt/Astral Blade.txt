@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 85
+| knockback = 4
+| critical = 29%
+| rare = 9
+| sell = {{value|0|19}}
+| stack = 1
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 5 seconds
+| use = 8
+| tooltip = Deals more damage the more life an enemy has left
+| auto = yes
+| hardmode = yes
+| element1 = Magic
+| element2 = Slash
+}}
+
+The '''Astral Blade''' is a craftable [[Hardmode]] [[broadsword]] that auto-swings. It has a considerable swing speed and has a much higher base critical strike chance than average. The weapon's damage, knockback, and critical strike chance is boosted by the remaining percentage of target's health. If the target's life is above 50% then a solely visual explosion of dust is formed.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon only benefits from 25% of melee swing speed bonuses.
+
+{{-}}
+{{Astral}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:幻星刀]]

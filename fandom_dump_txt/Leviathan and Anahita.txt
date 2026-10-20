@@ -1,0 +1,238 @@
+<section begin=npc infobox />{{npc infobox
+| imagealt = [[File:Leviathan and Anahita.png|350px]]
+| name = Leviathan and Anahita
+| type = Boss
+| type2 = Aquatic
+| environment = Ocean
+| knockback = 100
+| money = {{value|0|30}}
+| Crocodile Scale|20-30|100% {{fantag|Calamity: Community Remix}}
+|group|At least one of the following 7 weapons will always drop:|7
+| Anahita's Arpeggio|1|{{dv|25%|33.33%}}
+| Atlantis|1|{{dv|25%|33.33%}}
+| Brackish Flask|1|{{dv|25%|33.33%}}
+| Gastric Belcher Staff|1|{{dv|25%|33.33%}}
+| Greentide|1|{{dv|25%|33.33%}}
+| Leviathan Teeth|1|{{dv|25%|33.33%}}
+| Leviatitan|1|{{dv|25%|33.33%}}
+| Leviathan Ambergris|1|100%
+| Pearl of Enthrallment|1|{{dv|25%|33.33%}}
+| The Community|1|10%
+| Bottomless Water Bucket|1|10%
+| Hotline Fishing Hook|1|10%
+| Super Absorbant Sponge|1|10%
+| Crate Potion|5-8|20%
+| Fishing Potion|5-8|20%
+| Sonar Potion|5-8|20%
+| Greater Healing Potion|10-30|100%
+| Anahita Mask|1|14.29%
+| Leviathan Mask|1|14.29%
+| Anahita Trophy|1|10%
+| Leviathan Trophy|1|10%
+|71=20-40|72=100%|73=custom|74={{item|The Ocean (Lore)|note=(Always on first kill)|wrap=y}}|75=100%|76=custom|77={{item|Leviathan and Anahita (Lore)|note=(Always on first kill)|wrap=y}}|78=100%| listexclude = yes
+| boxwidth = 30em
+}}<section end=npc infobox />
+[[File:Leviathan Trophy.png]] <big>''"...You two are the wrong color..."''</big> [[File:Anahita Trophy.png]]
+{{dablink|If you were looking for something other than Anahita or the Leviathan, see [[Anahita (disambiguation)]] and [[Leviathan (disambiguation)]].}}
+
+'''The Leviathan''' (Japanese: リヴァイアサン ''Rivu~aiasan'') and '''Anahita''' (Japanese: アナヒタ ''Anahita'') are a duo of [[bosses]] that can be fought at any point in the game, but is intended to be fought during [[Hardmode]]. It is recommended that the player acquire post-[[Plantera]] equipment before engaging the bosses, as they are very challenging and require the management of two boss-tier [[enemies]] with several summons all at once.
+
+== Spawn ==
+To begin the boss fight, the player has to kill any [[Ocean]] enemy with a [[Wakasagihime]], or kill a statue of Anahita which spawns randomly in the [[Ocean]]. Doing this will spawn just Anahita at first, and The Leviathan herself will only spawn once Anahita reaches 40% health.
+
+== Bosses ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = The Leviathan
+| type = Boss
+| type2 = Aquatic
+| environment = Ocean
+| imagealt = [[File:Leviathan.png|356px]]
+| ai = The Leviathan AI
+| life = {{dv|60,560|96,800|116,096}}
+| damage = {{dv|90|216|240|252}} (Contact)<br/>{{dv|88|140|160|172}} (Meteor)
+| defense = 40<br/>80 (when enraged)<br/>
+| dr = 35%
+| knockback = 100
+| immune1 = Pearl Aura
+| immune2 = Confused
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Unholy
+| vulnerable4 = Machine
+| resistant1 = Water
+| resistant2 = Cold
+| resistant3 = Dark
+| image2 = leviathan_map_icon.png
+| image2caption = Map Icon
+| boxwidth = 30em
+| debuff = Bleeding
+| debufftip = Cannot regenerate life
+| duration = 4 seconds (Contact)
+| debuffchance = 100%
+| debuff2 = Armor Crunch
+| debufftip2 = Your armor is shredded
+| duration2 = 5 seconds (Meteor)
+| debuffchance2 = 100%
+| hurt = NPC_Hit_56.wav
+| killed = NPC_Killed_60.wav
+| sound = Zombie_38.wav, Zombie_39.wav, Zombie_40.wav
+| soundtext = Idle
+| sound2 = Zombie_92.wav
+| sound2text = Roar
+| sound3 = LeviathanRoarMeteor.wav
+| sound3text = Meteor
+| sound4 = LeviathanRoarCharge.wav
+| sound4text = Charge
+}}
+|{{npc infobox
+| name = Anahita
+| type = Boss
+| type2 = Aquatic
+| environment = Ocean
+| ai = Anahita AI
+| life = {{dv|34,700|55,520|66,560}}
+| damage = {{dv|70|112|136|144}} (Contact)<br/>{{dv|105|168|204|216}} (Charging contact)<br/>{{dv|72|116|136|144}} (Ice mist, Water spears & Treble clefs)
+| defense = 25<br/>37 (when enraged above half health)<br/>50 (when enraged below half health)<br/>
+| dr = 20%
+| knockback = 100
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Glacial State
+| immune4 = Exo Freeze
+| immune5 = Frostburn
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| vulnerable3 = Unholy
+| vulnerable4 = Machine
+| resistant1 = Water
+| resistant2 = Cold
+| image2 = Anahita map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Zombie_35.wav
+| soundtext = Idle
+| sound2 = Item_85.wav
+| sound2text = Bubble
+| sound3 = Item_21.wav
+| sound3text = Water Spear
+| sound4 = Item_30.wav
+| sound4text = Ice Mist
+| sound5 = Item_26.wav
+| sound5text = Treble Clef
+}}
+}}
+
+== Behavior ==
+This boss encounter is made up of two individual bosses: Anahita and The Leviathan. Both enemies must be defeated to count as a full kill and receive loot. Only Anahita is summoned at the start, but after she reaches 40% of her health, The Leviathan is summoned after a brief animation. She stops attacking the player and becomes invulnerable until The Leviathan reaches 40% health. If the player leaves the Ocean biome during the battle, the bosses will enter an enraged state: Anahita moves faster, summons projectiles more frequently, and her projectiles move faster, while The Leviathan's movement speed and meteor speed are massively increased.
+
+==== Anahita ====
+*She hovers above the player while periodically performing one of three attacks, all of them converging on the player's location.
+**Summons 8 water spears, which continue to travel after converging.
+**Summons 3 icicles, which home in on the player after converging.
+**Summons 6 treble clefs which move slower, linger for an extended period of time.
+**Below 70% health, she summons more projectiles during these attacks. This change is reverted while The Leviathan is alive and Anahita is above 20% health.
+*She additionally can summon Detonating Bubbles that inflict the Wet debuff for 7 seconds.
+*She generates an ice shield at 100%, 70%, and 40% health, rendering her invulnerable to damage until it's destroyed.
+**The ice shield blocks non-minion piercing projectiles.
+*When below 70% health, she will occasionally charge at the player 3 times.
+**She won't perform this attack if she is above 20% health and The Leviathan is alive.
+*She becomes enraged if The Leviathan is defeated first.
+
+==== The Leviathan ====
+*She mainly stays on one side of the player while cycling through her attacks, switching sides if the player moves around her.
+*She fires meteors at the player, which inflict the [[Armor Crunch]] debuff.
+*She summons [[Aquatic Aberration]]s to attack the player.
+*When below {{dv|40%|70%}} health, she pauses for a few moments before aligning with the player horizontally then charging at them.
+**She won't perform this attack while she is above 20% health and Anahita is alive.
+*She becomes enraged if Anahita is defeated first.
+
+=== In [[Expert Mode]] ===
+*Anahita is much more aggressive and deals more damage.
+*The Leviathan can now charge at the player below 70% HP.
+
+=== In [[Revengeance Mode]] ===
+*The Leviathan shoots faster.
+
+=== In [[Death Mode]] ===
+*When the ??? is killed, the Leviathan will be immediately summoned while Anahita becomes passive. Anahita will become active and join the battle once the Leviathan reaches 70% HP.
+*The Leviathan and Anahita can use any of their attacks regardless of current HP or whether the other is currently active.
+*The Leviathan charges 3 times in a row.
+
+== Summons ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Ice Shield
+| type = Flying Enemy
+| ai = Ice Shield AI
+| environment = Ocean
+| life = {{dv|650|1300}}
+| damage = {{dv|55|boost=0.15}}
+| defense = 10
+| dr = 50%
+| knockback = 10
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| resistant1 = Water
+| resistant2 = Cold
+| hardmode = yes
+| debuff = Frostburn
+| debuffchance = 100%
+| duration = 4 seconds
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Glacial State
+| immune4 = Exo Freeze
+| immune5 = Frostburn
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_7.wav
+}}
+}}
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align = center |{{item|mode=table|Detonating Bubble}} || Anahita is active
+|-
+| align = left |{{item|mode=table|Aquatic Aberration}} || The Leviathan is active
+|}
+
+== Aftermath ==
+*Once defeated, [[Giant Cursed Skull]]s will begin to drop [[Keelhaul]].
+*[[Crocodile Herring]] will begin spawning in the Ocean, dropping a renewable source of [[Crocodile Scale]]s.
+*[[Green Demon|Green Demons]] will begin spawning during [[Solar Eclipse|Solar Eclipses]], giving the player access to [[Green Demon Head|Green Demon Heads.]]
+*A message will appear in the chat, giving players a code to claim a €1 discount on the official [https://youpads.com/product/ocean-creatures-stickers/ Ocean Creatures Sticker Pack].
+
+== Notes ==
+*Even though the summon appears even at the very beginning of the game, it's not recommended to fight this boss until later in Hardmode.
+*Anahita's frost shield deletes projectiles on contact. This means some projectiles will fail to function correctly, such as the [[SHPC]]'s primary fire.
+*In the possible, though unlikely circumstance that the Leviathan and Anahita are lured to the [[Sulphurous Sea]] [[biome]], it ''will'' be considered as the Ocean and they will not be enraged.
+*Both Anahita and the Leviathan will each drop 5-15 [[Greater Healing Potion]]s separately when killed.
+*When players have the Wet debuff, Anahita's projectiles have a lower velocity.
+*Even with Anahita's many resistances, they are neither immune to the [[Poisoned]] nor the [[On Fire!]] debuffs.
+*You can stop Anahita and '''???''' from spawning by using [[Sirenproof Earmuffs]]
+
+==Tips==
+{{dablink|For more elaborate strategies on defeating Leviathan and Anahita, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Leviathan and Anahita strategies]].}}
+*Making 3-4 layers of platforms that are the whole length of the Ocean may make it easier to dodge their attacks.
+*Once the Leviathan has reached 50% of her health, care should be taken to be aware of where she is as she will start charging the player. Should she be on the left or right side of the player, it is important to dodge it either moving down or above where the Leviathan is going.
+*Using [[Water Candle]], [[Chaos Candle]], [[Battle]], and [[Zerg]] [[buffs]] in combination will make ??? spawn over 5x more often, making the bosses much more readily available.
+** This will also increase the spawn rate of ocean enemies, so be cautious.
+
+==Trivia==
+*Anahita's [[Music|theme]] is [https://www.youtube.com/watch?v=6x-4QwJZu5A&t=29m36s '''Siren's War Cry'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**Siren's War Cry is the only Calamity theme to not be featured in its own video, instead only appearing in an "Extended" version alongside the other themes for Leviathan and Anahita. This is due to the fact that Siren's War Cry was made sometime after the other two themes, in response to a rework to the fight which now included Anahita being fought on her own.
+*When The Leviathan appears, the theme changes to [https://www.youtube.com/watch?v=EpXNHYldIE0&t=2m13s '''Forbidden Lullaby'''], which was also composed by DM DOKURO.
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' will play instead for Leviathan and Anahita.
+*The dual nature of the fight took inspiration from the Ornstein and Smough fight from Dark Souls.
+*The Leviathan appears to be a fully grown [[Crocodile Herring]] {{fantag|Calamity: Community Remix}}.
+*In previous versions of the mod, Anahita had two color schemes with one randomly being chosen upon her spawning. Some of her features would be either greener or more blue. This was the reasoning for the [[Aquatic Heart]] having two variants based on color.
+*Originally, Anahita and Leviathan shared their [[lore]] entry.
+*Anahita was previously named '''The Siren'''. Prior to that, she was known as the '''Siren Lure'''.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, their unique despawn message will be "The aquatic entities sink back beneath the ocean depths."
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

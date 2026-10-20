@@ -1,0 +1,4 @@
+<includeonly>{{#ifeq:{{{listexclude|no}}}|yes|<!--nothing¦²-->|
+{{#if:{{{type|}}}|[[{{{type|}}}]]{{#if:{{{type2|}}}|&nbsp;- [[{{{type2}}}]]{{#if:{{{type3|}}}|&nbsp;- [[{{{type3}}}]] }} }}|None}}
+}}</includeonly><noinclude>
+{{Dpl pages}}[[Category:DPL]]</noinclude>

@@ -1,0 +1,38 @@
+{{item infobox	
+| type = Weapon
+| damage = 120
+| damagetype = Ranged
+| knockback = 7
+| stack = 1
+| rare = 8
+| sell = {{value|0|16}}
+| auto = yes
+| use = 20
+| velocity = 10
+| tooltip = Fires explosive and flaming stakes<br/>Instantly kills vampires and vampire bats
+| critical = 18%
+| hardmode = yes
+| debuff = On Fire!
+| debuffduration = 4 seconds (Flaming Stake)<br/>3 seconds (Explosion)
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| element1 = Dark
+| element2 = Holy
+| element3 = Stab
+| element4 = Fire
+}}
+
+The '''Impaler''' is a craftable [[Hardmode]] [[repeater]] and an upgrade to the [[Stake Launcher]]. It rapidly fires fire [[stake]]s with a 33.33% chance to fire an exploding stake instead. Exploding stakes pierce 7 enemies and cause explosions on hit, while fire stakes pierce 9 enemies and inflict the [[On Fire!]] [[debuff]]. Instead of having bonus damage against [[Vampire]]s like the [[Stake Launcher]], the Impaler will instantly kill Vampires.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category: Bows]]
+[[Category: Repeaters]]

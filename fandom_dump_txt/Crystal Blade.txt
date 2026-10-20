@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 45
+| knockback = 4.5
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| auto = yes
+| use = 24
+| velocity = 3
+| tooltip = Fires slow-moving clouds of crystal dust
+| hardmode = yes
+| element1 = Holy
+}}
+|{{item drops infobox
+| [[Crystal Crawler]] | 1 | 20%
+}}
+}}
+
+The '''Crystal Blade''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. It can also be dropped from the Crystal Shard variant of [[Crystal Crawler]]s. When swung, it fires a slow moving projectile consisting of colorful particles.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:水晶剑]]

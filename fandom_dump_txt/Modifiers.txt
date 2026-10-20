@@ -1,0 +1,79 @@
+A '''Modifier''', also known as a '''Prefix''', applies permanent changes to an item's statistics. It changes the name of an item by adding a prefix to the item's name. The Calamity Mod adds several weapon and covering modifiers to benefit the [[Spy]] class, as well as augmenting pre-existing modifiers for balancing.
+
+All modifiers added by the Calamity Mod can be obtained through normal means, including Crafting, [[Grab bag]]s, [[NPC]] shops, and natural world generation. All added modifiers can also be reforged onto weapons and coverings at the [[Goblin Tinkerer]].
+
+== Calamity Modifiers ==
+=== Spy Weapon ===
+{| class="terraria sortable lined" style="text-align:center;"
+! Modifier !! Damage !! Speed !! Critical Strike Chance !! Velocity !! [[Stealth strike]] damage !! Value
+|-
+{{/row|'''Sharp'''|+15%|-|-|-|-|+32.25%}}
+{{/row|'''Pointy'''|+10%|-|-|-|-|+21.00%}}
+{{/row|'''Feathered'''|-|+15%|-|+10%|-|+60.02%}}
+{{/row|'''Sleek'''|-|+10%|-|+15%|-|+60.02%}}
+{{/row|'''Hefty'''|+10%|-|-|-|+15%|+60.02%}}
+{{/row|'''Mighty'''|+15%|-|-|-|+5%|+61.35%}}
+{{/row|'''Glorious'''|+10%|+5%|-|-|-|+33.40%}}
+{{/row|'''Serrated'''|+10%|+15%|-|+5%|-|+61.41%}}
+{{/row|'''Vicious'''|+10%|+5%|-|+15%|-|+76.42%}}
+{{/row|'''Lethal'''|+10%|+5%|+2%|+5%|+5%|+75.38%}}
+{{/row|'''Flawless'''|+15%|+10%|+5%|+10%|+15%|+209.85%}}
+{{/row|'''Radical'''|+5%|+5%|-|+5%|-10%|+8.55%}}
+{{/row|'''Blunt'''|-15%|-|-|-|-|-27.75%}}
+{{/row|'''Flimsy'''|-10%|-|-|-|-10%|-34.39%}}
+{{/row|'''Unbalanced'''|-|-15%|-|-5%|-|-34.79%}}
+{{/row|'''Atrocious'''|-15%|-|-|-10%|-10%|-52.60%}}
+|}
+
+=== Covering ===
+{| class="terraria sortable lined" style="text-align:center;"
+! Modifier !! Stealth Regeneration !! Value
+|-
+{{/row|'''Quiet'''|+2%|+10.25%}}
+{{/row|'''Cloaked'''|+4%|+21.00%}}
+{{/row|'''Camouflaged'''|+6%|+32.25%}}
+{{/row|'''Silent'''|+8%|+44.00%}}
+|}
+
+== Altered Vanilla Modifiers ==
+=== Covering ===
+<!--This table needs to stay linear due to extra text.-->
+{| class="terraria lined" style="text-align:center;"
+! Modifier !! New Stat !! Old Stat !! Notes and Effects
+|-
+|'''Hard'''
+|{{color|+1-3|green}} Defense<br/>{{color|+0.25%|green}} [[Damage Reduction]]
+|{{color|+1|green}} Defense
+|
+*+1 defense in [[Hardmode]], +2 defense Godseeker Mode.<br/>(For a total of +2/+3 defense)
+|-
+|'''Guarding'''
+|{{color|+2-4|green}} Defense<br/>{{color|+0.50%|green}} Damage Reduction
+|{{color|+2|green}} Defense
+|
+*+1 defense in Hardmode, +2 defense post-Moon Lord.<br/>(For a total of +3/+4 defense)
+|-
+|'''Armored'''
+|{{color|+3/+4/+6|green}} Defense<br/>{{color|+0.75%|green}} Damage Reduction
+|{{color|+3|green}} Defense
+|
+*+1 defense in Hardmode, +3 defense post-Moon Lord.<br/>(For a total of +4/+6 defense)
+|-
+|'''Warding'''
+|{{color|+4/+6/+8|green}} Defense<br/>{{color|+1%|green}} Damage Reduction
+|{{color|+4|green}} Defense
+|
+*+2 defense in Hardmode, +4 defense post-Moon Lord.<br/>(For a total of +6/+8 defense)
+|}
+
+== Notes ==
+*The '''Stealth Strike damage''' modifier can affect Spy weapons that do not have a stealth strike, as the modifier increases the overall damage of the weapon while at full stealth.
+
+== Trivia ==
+*The '''Sharp''' and '''Pointy''' modifiers are shared with [[Melee weapons]].
+
+== See also ==
+*[[tgc:Modifiers|Modifiers]] on the vanilla Wiki.
+
+{{-}}
+{{Game mechanics}}

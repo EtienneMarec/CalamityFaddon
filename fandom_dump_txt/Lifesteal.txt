@@ -1,0 +1,35 @@
+'''Lifesteal''' is a mechanic utilized by some [[weapons]] and other items which causes the player to be healed upon damaging an [[enemy]]. This is done via direct healing when the attack hits, the spawning of a healing projectile which heals the player on touch, or the spawning of [[Heart]]s.
+
+== Lifesteal cooldown ==
+{{dablink|This section primarily describes vanilla Terraria behavior.}} <!-- There are only two instances of true lifesteal in vanilla Terraria: Spectre Armor (with Spectre hood) and Vampire Knives. This is why the Terraria Wiki doesn't have a lifesteal page, therefore this vanilla information must be described here. -->
+
+There is a hidden lifesteal cooldown variable in ''[[tgc:Terraria|Terraria]]'' which is constantly increasing every frame, up to a maximum which varies depending on the current difficulty mode. Whenever a player is healed with a lifesteal effect, the cooldown variable is decreased by a certain amount that is typically proportional to damage. Several lifesteal effects will fail to heal the player if the cooldown variable is at or below 0, preventing the player from abusing lifesteal to keep themselves alive for longer than intended.
+
+The maximum amount is {{dv|80|70|60|50}}. The variable increases by {{dv|0.5|0.35|0.3|0.25}} instead of {{dv|0.6|0.5}} in vanilla.
+
+== canGhostHeal ==
+{{dablink|This section primarily describes vanilla Terraria behavior.}}
+
+'''<code>canGhostHeal</code>''' is an internal Boolean variable that pertains to whether or not the player can steal life from enemies. The variable is defined in the files of certain NPCs, and checked for in the files of many lifestealing items and projectiles. If the item or projectile checks for <code>canGhostHeal</code> in the hit enemy's file and finds that it's set to <code>true</code>, then the player will be healed. If it's set to <code>false</code>, the player will not be healed. <code>canGhostHeal</code> is set to <code>true</code> by default in all enemy files, though some enemies have it directly set to <code>false</code>.
+
+Note that not all lifestealing items and projectiles check for <code>canGhostHeal</code>. If they bypass the check, they can heal the player regardless of what the hit enemy has it set to.
+
+== Lists ==
+=== Lifestealing Items ===
+Below is a list of all items in the Calamity Mod which have the ability to steal life from enemies. Also listed is their healing amount, method of healing, as well as whether or not they bypass <code>canGhostHeal</code> or the lifesteal cooldown.
+
+{{ajax|Lifestealing Items}}
+
+=== canGhostHeal=False NPCs ===
+Below is a list of all NPCs in the Calamity Mod which have <code>canGhostHeal</code> set to <code>false</code>, meaning that the player ''cannot'' heal from hitting them with lifestealing attacks that check for the variable. Vanilla NPCs listed here only have <code>canGhostHeal</code> set to <code>false</code> in [[Revengeance Mode]].
+
+{{ajax|CanGhostHeal False NPCs}}
+
+== Notes ==
+*Many of the healing projectiles spawned by lifestealing items can heal nearby teammates, instead of the player, if they are close enough.
+
+== Trivia ==
+*The name for <code>canGhostHeal</code> is in reference to [[Spectre armor]]'s healing effect while wearing the [[Spectre Hood]]. The variable was later used for many other items which had lifesteal effects.
+*[[Exoblade]], [[Grand Guardian]], [[Earth]], and [[Bloodsoaked Crasher]] are the only weapons with two distinct lifesteal effects each. [[Auric Tesla armor]]'s set bonus while wearing [[Auric Tesla Wire-Hemmed Visage]] has five distinct lifesteal effects.
+
+{{Game mechanics}}

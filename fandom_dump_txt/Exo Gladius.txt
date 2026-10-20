@@ -1,0 +1,46 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| rare = 15
+| sell = {{value|0|30}}
+| damage = 690
+| knockback = 9.9
+| use = 8
+| type = Weapon
+| alternate fire damage = 2760
+| alternate fire knockback = 39.6
+| alternate fire use = 40
+| tooltip = Do not underestimate the power of Exoblade`s younger brother<br/>Striking an enemy with the blade causes an explosion<br/>Right-clicking with it activates a parry that can be used to deflect projectiles<br/>The player becomes temporarily immune when using the parry<br/>The parry is stronger, but has a longer cooldown
+| auto = yes
+| stack = 1
+| hardmode = yes
+| postml = yes
+| debuff = Miracle Blight
+| debuffduration = 0.5 seconds
+| debuffchance = 100%
+| proj = Exo Gladius Explosion.gif
+| projcaption = Exo Gladius Explosion
+| element1 = Cold
+| element2 = Stab
+| element3 = Machine
+}}
+The '''Exo Gladius''' is a craftable Godseeker Mode [[shortsword]] that is auto-swung. It is the final upgrade to the Night's Saber. When swung, it stabs enemies omnidirectionally, causing a powerful explosion on hit. When right-clicked, the shortsword does an alternate parry fire, that does 4x the damage, knockback and crit chance of the standard attack and deflects projectiles, but has a longer re-use cooldown.
+
+Its best modifier is '''Legendary'''.
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Exo Gladius/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+== Tips ==
+*This weapon is very useful for destroying Brimstone Hearts in the [[Supreme Calamitas]] fight due to its high base damage and effect. Combined with the fact parry can aim projectiles at enemies, it is especially useful during the 2nd [[Sepulcher]] phase, as it allows the player to accurately hit the Brimstone Hearts while not taking damage from projectiles hit at them.
+**In addition, if the player hits the Sepulcher with the blade of the weapon, it is possible to intentionally stall the fight to regen health and build up [[Adrenaline]] due to the immunity frames it provides.
+*The Tainted [[Enchantment]] is useful for boosting this weapon's true melee damage.
+{{-}}
+{{Exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]

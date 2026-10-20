@@ -1,0 +1,47 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 300
+| use = 20
+| knockback = 8
+| velocity = 20
+| tooltip = Heavy duty flails, each containing a powerful generator which is activated upon launch<br/>Throws two dragon heads that emit electrical fields<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|24}}
+| proj = Pulse Dragon Flail.png
+| projcaption = Pulse Dragon
+| proj2 = Electrosphere.gif
+| proj2caption = Electrosphere
+| element1 = Cold
+| element2 = Smash
+| element3 = Machine
+}}
+[[File:Pulse Dragon (demo).gif|frame|The weapon splits into two different flails which leave electric sparks as they go, then it comes back together when it reaches its maximum length and returns to the player.]]
+
+The '''Pulse Dragon''' is a craftable Godseeker Mode [[flail]]. When used, the player swings two glowing electric dragon heads which moves in a whip-like manner. As they converge, up to eight short-lasting electrosphere projectiles are spawned per each flail. The whip then returns after converging or upon tile contact.
+
+The weapon consumes 0.32 units of [[charge]] per use and has a maximum charge of 190.
+
+Using it in the desert during a sandstorm summons [[Yharon]]
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier4}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+
+== Notes ==
+*[[Astrum Deus]] takes only 60% damage from the electrospheres created by the Pulse Dragon.
+
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Flails]]

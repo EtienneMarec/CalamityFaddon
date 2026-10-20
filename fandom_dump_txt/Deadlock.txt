@@ -1,0 +1,22 @@
+{{Historical content}}
+{{Addon|Tranquility Mod}}
+{{buff infobox
+| image = Glacial State.png
+| type = Debuff
+| effects = Target is completely unable to move and attack, changes the target's AI to "No AI".
+| tooltip = You've been stun-locked!
+}}
+
+The '''Deadlock''' is a [[Debuffs|debuff]] that makes the target completely unable to move and attack, by simply changing the target's AI to "No AI". All [[Enemies|enemies]] and [[Bosses|bosses]], but [[Crazed Mechanic]] are susceptible to this debuff. This debuff is inflicted by [[Dead Star's Laser Rifle]], [[Void Man]]'s attacks and the [[Crazed Mechanic]].
+
+This debuff has its effects even while the [[Boss Rush]] is active.
+
+== Trivia ==
+*This is the only debuff that has a "duration cap" - it's maximum duration is capped at 1.5 seconds in any difficulty, and is capped at 1 second in the [[Nightmare Mode]].
+*When the debuff's duration is over the target's AI changes back to the AI it had prior to the debuff was inflicted.
+*If the debuff is inflicted on player, the entire player's UI will disappear. It is unknown whether this is a bug or not.
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

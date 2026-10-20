@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 400
+| use = 16
+| velocity = 12
+| knockback = 4
+| auto = no
+| stack = 1
+| rare = 14
+| sell = {{value|0|50}}
+| tooltip = Right click to launch a frigid blast of air that freezes enemies<br>Attacking frozen enemies causes them to shatter
+| hardmode = yes
+| postml = yes
+| proj = Breakthrough Spear.png
+| projcaption = Breakthrough
+| element1 = Cold
+| element2 = Stab
+}}
+
+'''Breakthrough''' is a craftable Godseeker Mode [[Spears|spear]]. Right clicking will cause the spear to constantly spew forth icy winds which can give enemies the [[Frozen]] debuff. Attacking frozen enemies will remove the debuff from them, but will deal immense damage, and will cause a small ice explosion that can hurt nearby enemies.
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Any item that applies the Frozen debuff can be used to trigger the Breakthrough's special effect.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

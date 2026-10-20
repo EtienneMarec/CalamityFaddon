@@ -1,0 +1,214 @@
+[[File:BiomeBannerAcidRain.png|center|460px]]
+<big> ''"A toxic downpour falls over the wasteland seas!"'' </big>
+{{float file box|[[File:Acid Rain Icon.png]]|Progress bar icon}}
+
+The '''Acid Rain''' is a weather [[Challenges|event]] added by the Calamity Mod that occurs in the [[Sulphurous Sea]] [[biome]]. It has a 1/360,000 chance of occurring every frame (1/6000 every second) once the [[Acidsighter]] has been defeated, or can be [[Summoning items|summoned]] manually through the use of a [[Caustic Tear]].
+
+The event has multiple levels of difficulty that are encountered at different stages in progression similar to the [[Old One's Army]], with each tier unlocking after the player has defeated a specific [[boss]]. The first tier of the event will be unlocked after the [[Acidsighter]] has been defeated, the next tier will unlock after the [[Aquatic Scourge]] has been defeated and the final tier will unlock after the [[Polterghast]] has been defeated. Each tier features the introduction of new [[enemies]] as well as buffs and new behaviors to existing enemies.
+
+== Content ==
+{{biome
+|monsters=<nowiki />
+:{{item|Acid Eel|size=55px}}
+:{{item|Nuclear Toad|size=40px}}
+:{{item|Radiator}}
+:{{item|Skyfin|size=45px}}
+:{{item|Water Leech}}
+
+'''If [[Aquatic Scourge]] has been defeated:'''
+:{{item|Flak Crab|size=45px}}
+:{{item|Irradiated Slime}}
+:{{item|Orthocera}}
+:{{item|Sulphurous Skater}}
+:{{item|Trilobite}}
+:{{item|note=(Miniboss)|Cragmaw Mire|image=Cragmaw Mire (Phase 1).png|size=55px}}
+
+'''If [[Polterghast]] has been defeated:'''
+:{{item|Gamma Slime}}
+:{{item|note=(Miniboss)|Mauler|size=110px}}
+:{{item|note=(Miniboss)|Nuclear Terror|size=110px}}
+
+|drop=
+'''From [[Acid Eel]]s, [[Nuclear Toad]]s, [[Radiator]]s,<br/> and [[Skyfin]]s:'''
+:{{item|Sulphuric Scale}}
+'''From [[Nuclear Toad]]s:'''
+:{{item|Caustic Croaker Staff}}
+'''From [[Water Leech]]es:'''
+:{{item|Parasitic Scepter}}
+'''From [[Radiator]]s caught with a [[Bug Net]]:'''
+:{{item|Radiating Crystal}}
+'''From [[Flak Crab]]s, [[Orthocera]]s, <br/> [[Sulphurous Skater]]s, and [[Trilobite]]s:'''
+:{{item|Corroded Fossil}}
+'''From [[Flak Crab]]s:'''
+:{{item|Flak Toxicannon}}
+'''From [[Flak Crab]]s after defeating the [[Polterghast]]:'''
+:{{item|Cadaverous Carrion}}
+'''From [[Orthocera]]s:'''
+:{{item|Orthocera Shell}}
+'''From [[Orthocera]]s after defeating the [[Polterghast]]:'''
+:{{item|Insidious Impaler}}
+'''From [[Sulphurous Skater]]s:'''
+:{{item|Sulphurous Grabber}}
+
+|drop2=
+'''From [[Acid Eel]]s after defeating the [[Aquatic Scourge]]:'''
+:{{item|Slithering Eels}}
+'''From [[Acid Eel]]s after defeating the [[Polterghast]]:'''
+:{{item|Vitriolic Viper}}
+'''From [[Skyfin]]s after defeating the [[Aquatic Scourge]]:'''
+:{{item|Skyfin Bombers}}
+'''From [[Trilobite]]s after defeating the [[Polterghast]]:'''
+:{{item|Toxicant Twister}}
+'''From [[Irradiated Slime]]s and [[Gamma Slime]]s:'''
+:{{item|Lead Core}}
+'''From [[Cragmaw Mire]]:'''
+:{{item|Spent Fuel Container}}
+:{{item|Nuclear Rod}}
+:{{item|Nucleate Gello}}
+'''From [[Cragmaw Mire]] after defeating the [[Polterghast]]:'''
+:{{item|Septic Skewer}}
+'''From [[Mauler]]s:'''
+:{{item|Shark Fin}}
+:{{item|Sulphuric Acid Cannon}}
+:{{item|Fetid Emesis}}
+:{{item|Prehistoric Tablet}}
+'''From [[Nuclear Terror]]s:'''
+:{{item|Sulfuric Scale}}
+:{{item|Gamma Heart}}
+:{{item|Phosphorescent Gauntlet}}
+:{{item|Microxodonta}}
+
+|music=
+'''If [[Aquatic Scourge]] has not been defeated:'''
+:{{item|Music Box (Acidic Downpour)}}
+'''If [[Aquatic Scourge]] has been defeated and [[Polterghast]] has not been defeated:'''
+:{{item|Music Box (Caustic Torrent)}}
+'''If [[Polterghast]] has been defeated:'''
+:{{item|Music Box (Sulphuric Monsoon)}}
+}}
+
+== Event Progress ==
+Unlike other weather events, the Acid Rain has a progress bar and can be completed. To complete the event, the player must gain 90 points in the first tier, 115 in the second, and 140 in the third. In Multiplayer, the number of points required is calculated by the expression <code>(amount in singleplayer) * ln(total players + e - 1))</code>, rounded down, based on how many players are in the world at the start of the event.
+
+If the player doesn't kill any enemies within the time span of four minutes, the event will automatically cancel and progress is reset for the event. The event can also be prematurely ended with a [[Torrential Tear]] or the non-consumable variant of the Caustic Tear.
+
+The following is a list of enemies in the Acid Rain event and the amount of points gained from each enemy per kill. Minibosses are marked in '''bold'''.
+{{item/options|mode=table}}
+{| class="terraria sortable lined"
+! colspan=2 rowspan=2 | Enemy
+! colspan=3 | Points per kill
+|-
+! Tier 1
+! Tier 2
+! Tier 3
+|-
+| {{item|Acid Eel}}
+| align=center | 1
+| align=center | 0
+| align=center | 0
+|-
+| {{item|Nuclear Toad}}
+| align=center | 1
+| align=center | 0
+| align=center | 0
+|-
+| {{item|Radiator}}
+| align=center | 1
+| align=center | 0
+| align=center | 0
+|-
+| {{item|Skyfin|size=40px}}
+| align=center | 1
+| align=center | 1
+| align=center | 1
+|-
+| {{item|Water Leech}}
+| align=center | 1
+| align=center | 1
+| align=center | 1
+|-
+| {{item|Irradiated Slime}}
+| align=center | {{na}}
+| align=center | 0
+| align=center | {{na}}
+|-
+| {{item|Flak Crab|size=40px}}
+| align=center | {{na}}
+| align=center | 1
+| align=center | 1
+|-
+| {{item|Orthocera|size=44px}}
+| align=center | {{na}}
+| align=center | 1
+| align=center | 1
+|-
+| {{item|Trilobite|size=40px}}
+| align=center | {{na}}
+| align=center | 1
+| align=center | 1
+|-
+| {{item|Sulphurous Skater}}
+| align=center | {{na}}
+| align=center | 1
+| align=center | 1
+|-
+| '''{{item|Cragmaw Mire|size=54px}}'''
+| align=center | {{na}}
+| align=center | 5
+| align=center | 4
+|-
+| {{item|Gamma Slime}}
+| align=center | {{na}}
+| align=center | {{na}}
+| align=center | 1
+|-
+| '''{{item|Mauler|size=60px}}'''
+| align=center | {{na}}
+| align=center | {{na}}
+| align=center | 4
+|-
+| '''{{item|Nuclear Terror|size=60px}}'''
+| align=center | {{na}}
+| align=center | {{na}}
+| align=center | 8
+|}
+{{item/options|reset}}
+
+== Aftermath ==
+=== Any Tier ===
+*The [[Sea King]] will begin selling [[Caustic Tear]]s.
+*[[Abyssal Crate]]s will contain [[Sulphuric Scale]]s.
+
+=== Tier 2 or 3 ===
+*Abyssal Crates will contain [[Corroded Fossil]]s, [[Belching Saxophone]], [[Flak Toxicannon]], [[Nuclear Rod]], [[Skyfin Bombers]], [[Slithering Eels]], [[Spent Fuel Container]], and [[Sulphurous Grabber]].
+
+== Notes ==
+*While the Acid Rain event is active, [[Rain]] will be active across the rest of the world.
+*The event's enemies will override the [[Sulphurous Sea]]'s enemies, similarly to [[Meteor Head]]s.
+*Other weather events such as the [[Blood Moon]] can overlap with the Acid Rain event.
+*After the player has defeated the Acidsighter, the Acid Rain is guaranteed to begin the next time they visit the Sulphurous Sea. This only occurs once.
+*If the Acidsighter has never been defeated, the event still becomes available once [[Hardmode]] begins.
+
+== Tips ==
+*This event is very dangerous for early game players due to the high spawnrates of enemies.
+*Due to the event only occurring on the far side of the world, it's highly recommended the player sets a spawn close to the Sulphurous Sea in order to save time in the case that they die.
+
+== Trivia ==
+*The Acid Rain's [[Music|theme]] is '''[https://www.youtube.com/watch?v=1OotwWvp434 corrosion!]''', which was composed by wiki editor [[User:RoverdriveX|RoverdriveX]].
+**Its [[Music Boxes|music box]] is titled "Acidic Downpour".
+**If the Calamity Music add-on mod is disabled, the [[Old One's Army]]'s theme will play instead.
+*The second tier's theme is '''[https://www.youtube.com/watch?v=ww_p_UQzPL4 Tropic of Cancer]''', which was composed by [https://www.youtube.com/@Jteoh Jteoh].
+**Its music box is titled "Caustic Torrent".
+**If the Calamity Music add-on mod is disabled, the [[Old One's Army]]'s theme will play instead.
+*The final tier's theme is '''[https://www.youtube.com/watch?v=Wf8mQcRFsmY nuclear monsoon]''', which was composed by [https://www.youtube.com/channel/UCfbpIwaXAPuE3kTFq1tEqDA PinpinNeon]
+**Its music box is titled "Sulphuric Monsoon".
+**If the Calamity Music add-on mod is disabled, the [[Solar Eclipse]]'s theme will play instead.
+**This theme is a remake of the final tier's previous theme, '''[https://www.youtube.com/watch?v=DrHJIaihLOA radioactive]''', which was also composed by PinpinNeon.
+*It is the second event added to the Calamity Mod, following the [[Boss Rush]].
+*Some of the event's enemies are based on extinct aquatic lifeforms, such as the [[Orthocera]] and [[Trilobite]].
+*Several designs of the event's enemies are also based on artworks submitted for a Sulphurous Sea enemy design contest on the Calamity Mod's art discord server.
+*The event used to be a variation of the Rain event in the Sulphurous Sea, similar to [[Blizzard]]s in the [[Snow biome]].
+**Prior to that, it was known as "Irradiated Rain" and replaced Rain after the [[Moon Lord]] was defeated.
+
+{{Game mechanics}}
+[[Category:Events]]

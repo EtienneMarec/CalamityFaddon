@@ -1,0 +1,108 @@
+{{item infobox
+| imagebreak = yes
+| type = Armor
+| defense = 55/43/39/37/41
+| rare = 5
+| sell = {{value|0|12}} (set)
+| proj = Crystal Fragment.png
+| projcaption = Crystal Fragment
+| buff = Daedalus Crystal (buff) | bufflink = no
+| bufftip = The daedalus crystal will protect you
+| duration = Infinite (Mask)
+| debuff = Frostburn
+| debuffduration = 3 seconds (Daedalus crystal)
+| debuffchance = 100%
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| hardmode = yes
+| setbonus = '''Helm''': +5% melee damage<br/>Enemies are more likely to target you<br/>You reflect projectiles back at enemies<br/>Reflected projectiles deal 50% less damage to you<br/>This reflect has a 90 second cooldown which is shared with all other dodges and reflects<br/><br/>'''Headgear''': +5% ranged damage<br/>Getting hit causes you to emit a blast of crystal shards<br/><br/>'''Hood''': +5% magic damage<br/>You have a 10% chance absorb physical attacks and projectiles when hit<br/>If you absorb an attack you are healed for 1/2 of that attack's damage<br/><br/>'''Mask''': +20% increased minion damage and +2 max minions<br/>A daedalus crystal floats above you to protect you<br/><br/>'''Facemask''': +5% increased Spy damage<br/>Spy projectiles throw out crystal shards as they travel<br/>Spy stealth builds while not attacking and slower while moving, up to a max of 105<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+}}
+{{summoned|Daedalus Crystal|type=minion}}
+
+'''Daedalus armor''' is a craftable [[Hardmode]] [[Covering]] set, crafted from [[Essence of Eleum|Essences of Eleum]], [[Crystal Shard]]s, and [[Cryonic Bar]]s. It requires 6 Essences of Eleum, 13 Crystal Shards, and 33 Cryonic Bars to make the whole set or 10 Essences of Eleum, 25 Crystal Shards, and 65 Cryonic Bars for a set with all five headpieces.
+
+It consists of a '''Daedalus Breastplate''' and '''Daedalus Leggings''' as well as five different headpieces: the '''Daedalus Helm''', '''Daedalus Headgear''', '''Daedalus Hood''', '''Daedalus Mask''', and '''Daedalus Facemask'''. Each helmet has its own set bonus.
+The '''Daedalus Breastplate''' gives 19 defense, 3% increased damage and critical strike chance, and the '''Daedalus Leggings''' give 15 defense, 3% increased critical strike chance and 10% increased movement speed.
+*The '''Daedalus Helm''' gives 21 defense, 10% increased melee damage and critical strike chance. It also grants the player a 15% increase to melee swing speed.<br/>Its set bonus gives an additional +5% melee damage and +500 to [[Aggro]], and the ability to reflect projectiles with a 90 second cooldown, reflected projectiles only deal 50% of their damage to the player.
+*The '''Daedalus Headgear''' gives 9 defense, 13% increased ranged damage and 7% increased critical strike chance and reduces ammo cost by 20%. <br/>Its set bonus gives an additional +5% ranged damage and causes the player to emit a blast of crystal shards when hit.
+**The shards deal 27 true damage and do not benefit from any damage bonuses.
+*The '''Daedalus Hood''' gives 5 defense, 13% increased magic damage and 7% increased critical strike chance, and +60 max mana. It also grants the player a 10% decreased mana usage cost. <br/>Its set bonus gives an additional +5% magic damage, and grants a 10% chance to absorb physical attacks and projectiles when hit, healing the player for 1/2 of the attack's damage.
+*The '''Daedalus Mask''' gives 3 defense, 5% increased minion damage. <br/>Its set bonus gives an additional +20% minion damage and +2 max minions, and summons a Daedalus Crystal to fight for the player.
+**The Daedalus Crystal floats above the player's head, firing at enemies for 95 damage and inflicting [[Frostburn]] for 6 seconds.
+*The '''Daedalus Facemask''' gives 7 defense, 13% increased Spy damage and 7% increased critical strike chance, and increases projectile speed by 15%. It also grants the player an additional 5% movement speed increase. <br/>Its set bonus gives an additional +5% Spy damage, causes Spy projectiles to release crystal shards as they travel, and gives a maximum [[Spy#Stealth|Spy stealth]] of 105.
+**Crystal shards deal 15% of the Spy weapon's damage and are softcapped at 30 damage.
+
+A full set always provides at least 37 defense, 3% increased damage, 15% increased class-specific damage, 6% increased critical strike chance and 10% increased movement speed.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Daedalus Breastplate
+| type = Armor
+| defense = 19
+| body slot = Shirt
+| tooltip = 3% increased damage and critical strike chance
+| sell = {{value|0|4}}
+}}
+|{{item infobox
+| name = Daedalus Leggings
+| type = Armor
+| defense = 15
+| body slot = Pants
+| tooltip = 3% increased critical strike chance<br/>10% increased movement speed
+| sell = {{value|0|3}}
+}}
+}}
+
+=== Helmet variants ===
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Daedalus Helm
+| type = Armor
+| defense = 21
+| body slot = Helmet
+| tooltip = 10% increased melee damage and critical strike chance<br/>15% increased melee speed
+| sell = {{value|0|5}}
+}}
+|{{item infobox
+| name = Daedalus Headgear
+| type = Armor
+| defense = 9
+| body slot = Helmet
+| tooltip = 13% increased ranged damage and 7% increased ranged critical strike chance<br/>Reduces ammo cost by 20%
+| sell = {{value|0|5}}
+}}
+|{{item infobox
+| name = Daedalus Hood
+| type = Armor
+| defense = 5
+| body slot = Helmet
+| tooltip = 13% increased magic damage and 7% increased mage critical strike chance<br/>10% decreased mana usage and +60 max mana
+| sell = {{value|0|5}}
+}}
+|{{item infobox
+| name = Daedalus Mask
+| type = Armor
+| defense = 3
+| body slot = Helmet
+| tooltip = 5% increased minion damage
+| sell = {{value|0|5}}
+}}
+|{{item infobox
+| name = Daedalus Facemask
+| type = Armor
+| defense = 7
+| body slot = Helmet
+| tooltip = 13% increased Spy damage and 7% increased Spy critical strike chance, increases Spy velocity by 15%<br/>5% increased movement speed
+| sell = {{value|0|5}}
+}}
+}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result=LIKE Daedalus%|resultnot= Daedalus Golem Staff}}
+
+{{Cryonic}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

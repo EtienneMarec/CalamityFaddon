@@ -1,0 +1,101 @@
+{{npc infobox
+| type = Enemy
+| ai = Plague Emperor AI
+| damage = 0 (Contact)<br/>{{dv|140|280}} (rockets)
+| life = {{dv|420,000|840,000}}
+| defense = 40
+| dr = 20%
+| knockback = 100
+| environment = Jungle
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| duration = 2 seconds
+| money = {{value|0|40}}
+| Plague Cell Canister|{{dv|56-230|89-270}}|100%
+| Luminite Bar|{{dv|56-230|89-270}}|100%
+| Infected Armor Plating|{{dv|20-36|36-45}}|100%
+| Plague Caller|1|20%
+| Plague Caller MK III|1|1%
+| hardmode = yes
+| postml = yes
+| immune1 = Confused
+| immune2 = Poisoned
+| immune3 = Plague
+| vulnerable1 = Fire
+| vulnerable2 = Water
+| resistant1 = Poison
+| resistant2 = Stab
+| resistant3 = Dark
+| resistant4 = Machine
+| hurt = NPC_Hit_4.wav
+| killed = Item_14.wav
+| sound = Item_10.wav
+| soundtext = Bees
+}}
+
+The '''Plague Emperor''' (Japanese: ペスト皇帝 ''Pesuto kōtei'') is a rare Godseeker Mode [[mini boss]] that spawns in the [[Jungle]]. It initially remains idle while summoning passive '''Plague Seekers''' that attack any non-Plague enemies that come within a 10 block radius of the emperor. If the player enters this radius, the Plague Emperor's eyes light up and all Plague Seekers will curve towards the player. The Plague Emperor will then summon '''Plague Bees''' which act as stronger but slower and damageable Plague Seekers, along with fast homing plague rockets that explode upon death or collission. Defeating the Plague Emperor drops a hefty amount of plague-themed materials as well as acting as a source of [[Luminite Bar]]s outside of refighting the Moon Lord.
+
+== Summons ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Enemy
+| name = Plague Seeker
+| image = Microbial Cluster.png
+| ai = Plague Seeker AI
+| environment = Jungle
+| damage = {{dv|50|100}}
+| life = 100
+| vulnerable1 = Fire
+| vulnerable2 = Water
+| resistant1 = Poison
+| resistant2 = Dark
+| defense = 0
+| knockback = 0%
+| debuff2 = Plague
+| debuffchance2 = 100%
+| duration2 = 2 seconds
+| debufftip2 = Rotting from the inside
+| immuneall = yes
+| hardmode = yes
+| postml = yes
+}}
+|{{npc infobox
+| type = Flying Enemy
+| name = Plague Bee
+| image = Plaguenade Bee.gif
+| ai = Plague Bee AI
+| environment = Jungle
+| damage = {{dv|100|200}}
+| life = {{dv|100|200}}
+| defense = 0
+| knockback = 100
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Plague
+| vulnerable1 = Fire
+| vulnerable2 = Water
+| resistant1 = Poison
+| resistant2 = Dark
+| debuff = Plague
+| debuffchance = 100%
+| duration = 6 seconds (Contact)
+| debufftip = Rotting from the inside
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_4.wav
+}}
+}}
+
+== Notes ==
+*The player should take great caution while in either biome it can spawn in, as randomly swinging a weapon may cause a stray projectile to hit the ent and enrage it. Carrying a [[Lifeform Analyzer]], or any of its upgrades, in their inventory can help warn the player in advance.
+**As it's initially stationary, the player can stay in one spot and wait for it to despawn (i.e., for the health bar to disappear or for the Lifeform Analyzer to stop indicating its presence) if they are not ready to face it yet.
+
+== Trivia ==
+*It is the [[Plague]] counterpart of the [[Yggdrasil Ent]].
+*In the Japanese translation, the name is "ペスト皇帝 ''Pesuto kōtei''"
+{{-}}<br />{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

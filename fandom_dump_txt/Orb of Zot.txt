@@ -1,0 +1,26 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| stack = 9999
+| rare = 8
+| sell = {{value|0|0|40}}
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Primordial Wither Spawn]] {{fantag|Deimos, the Starborn Princess}}| 3-5 | 100%
+}}
+}}
+
+'''Orbs of Zot''' are [[Hardmode]] [[crafting materials]] crafted with a [[Chlorophyte Bar]] and an [[Essence of Zot]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

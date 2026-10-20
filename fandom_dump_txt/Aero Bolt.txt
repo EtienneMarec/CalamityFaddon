@@ -1,0 +1,38 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| hardmode = yes
+| type = Weapon
+| type2 = Crafting material
+| tooltip = Casts a slow-moving mini hurricanes
+| damage = 35
+| damagetype = magic
+| mana = 12
+| use = 17
+| knockback = 7
+| velocity = 5.5
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| auto = yes
+| proj = Frigidflash Bolt (projectile).png
+| projcaption = Aero Bolt
+| element1 = Holy
+| element2 = Cold
+| element3 = Wind
+}}
+The '''Aero Bolt''' is a craftable [[Hardmode]] [[spell tome]]. It fires a slow-moving ball of air that can be autofired. The projectile travels in a straight line, emits a bit of light, is unaffected by gravity, can pierce through 3 enemies and can bounce off 3 walls.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

@@ -1,0 +1,47 @@
+{{addon|Calamity: Community Remix}}
+{{infobox wrapper
+|{{item infobox
+| type = Bait
+| type2 = Crafting material
+| bait = 1
+| rare = 11
+| use = 14
+| auto = yes
+| consumable = yes
+| sell = {{value|0|10}}
+| stack = 9999
+| hardmode = yes
+| postml = yes
+}}
+|{{npc infobox | boxwidth = 21em
+| type = Critter
+| environment = Dungeon
+| ai = Swimming AI
+| damage = 0
+| life = 500
+| defense = 0
+| knockback = 0
+| immune1 = Confused
+| immune2 = Kami Flu
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| hardmode = yes
+| postml = yes
+| Ectoplasm | 36-57 | 100%
+| Phantoplasm | 7-15 | 100%
+}}
+}}
+
+The '''Minnows Prime''' is a [[critter]]. It is found in the [[Dungeon]] after defeating [[Moon Lord]] which passively swims back and forth, gaining a speed boost when hitting a wall. It attempts to swim away from the player and will drop a sizeable amount of [[Phantoplasm]] and [[Ectoplasm]] when killed. It can also be caught with a [[Bug Net]] or [[Golden Bug Net]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+== Trivia ==
+*Minnows Prime's name as well as its appearance is a reference to Minos Prime from ''[[wikipedia:Ultrakill|ULTRAKILL]]''.
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}

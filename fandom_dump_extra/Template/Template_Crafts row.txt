@@ -1,0 +1,79 @@
+<includeonly><onlyinclude><!-- calculate row amount here. Using dichotomous approach for performance reasons.
+-->{{#vardefine:rows|<!--
+ -->{{#if:{{{item4|{{{8|}}}}}}<!--
+   -->|{{#if:{{{item6|{{{12|}}}}}}<!-- Item 4 exists
+     -->|{{#if:{{{item8|{{{16|}}}}}}<!-- Item 6 exists
+       -->|{{#if:{{{item10|{{{20|}}}}}}<!-- item 8 exists
+         -->|{{#if:{{{item12|{{{24|}}}}}}<!-- item 12 exists
+           -->|{{#if:{{{item14|{{{28|}}}}}}<!--
+             -->|14<!-- item 14 exists
+           
+             -->|{{#if:{{{item13|{{{26|}}}}}}|13|12}}<!-- If no 14, figure out 13 or 12
+           -->}}<!--
+           -->|{{#if:{{{item11|{{{22|}}}}}}|11|10}}<!-- Item 12 does not exist
+         -->}}<!-- 
+         -->|{{#if:{{{item9|{{{18|}}}}}}|9|8}}<!-- Item 10 does not exist
+       -->}}<!--
+       -->|{{#if:{{{item7|{{{14|}}}}}}|7|6}}<!-- Item 8 does not exist
+     -->}}<!--
+     -->|{{#if:{{{item5|{{{10|}}}}}}|5|4}}<!-- Item 6 does not exist
+    -->}}<!--
+   -->|{{#if:{{{item2|{{{4|}}}}}}<!-- Item 4 does not exist
+     -->|{{#if:{{{item3|{{{6|}}}}}}|3|2}}<!-- Item 2 exists
+     -->|1<!-- Item 2 does not exist
+    -->}}<!--
+ -->}}<!--
+-->}}<!--
+-->{{crafts first sub row
+|result = {{{result|}}}
+|resultamount = {{{resultamount|{{{1|}}}}}}
+|item = {{{item1|{{{2|}}}}}}
+|amount = {{{amount1|{{{3|}}}}}}
+|top  = {{{top|}}}
+|rows = {{#var:rows}}
+|tool = {{{tool|}}}
+|toolspan = {{{toolspan|}}}
+|link = {{{link|}}}
+|id = {{{id|}}}
+|sell = {{{sell|}}}
+}}{{crafts sub row
+|item = {{{item2|{{{4|}}}}}}
+|amount = {{{amount2|{{{5|}}}}}}
+}}{{crafts sub row
+|item = {{{item3|{{{6|}}}}}}
+|amount = {{{amount3|{{{7|}}}}}}
+}}{{crafts sub row
+|item = {{{item4|{{{8|}}}}}}
+|amount = {{{amount4|{{{9|}}}}}}
+}}{{crafts sub row
+|item = {{{item5|{{{10|}}}}}}
+|amount = {{{amount5|{{{11|}}}}}}
+}}{{crafts sub row
+|item = {{{item6|{{{12|}}}}}}
+|amount = {{{amount6|{{{13|}}}}}}
+}}{{crafts sub row
+|item = {{{item7|{{{14|}}}}}}
+|amount = {{{amount7|{{{15|}}}}}}
+}}{{crafts sub row
+|item = {{{item8|{{{16|}}}}}}
+|amount = {{{amount8|{{{17|}}}}}}
+}}{{crafts sub row
+|item = {{{item9|{{{18|}}}}}}
+|amount = {{{amount9|{{{19|}}}}}}
+}}{{crafts sub row
+|item = {{{item10|{{{20|}}}}}}
+|amount = {{{amount10|{{{21|}}}}}}
+}}{{crafts sub row
+|item = {{{item11|{{{22|}}}}}}
+|amount = {{{amount11|{{{23|}}}}}}
+}}{{crafts sub row
+|item = {{{item12|{{{24|}}}}}}
+|amount = {{{amount12|{{{25|}}}}}}
+}}{{crafts sub row
+|item = {{{item13|{{{26|}}}}}}
+|amount = {{{amount13|{{{27|}}}}}}
+}}{{crafts sub row
+|item = {{{item14|{{{28|}}}}}}
+|amount = {{{amount14|{{{29|}}}}}}
+}}</onlyinclude></includeonly>Internal sub-template. See [[Template:Crafts]] for documentation.
+[[Category:Deprecated Crafting templates]]

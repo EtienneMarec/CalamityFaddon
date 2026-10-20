@@ -1,0 +1,50 @@
+{{addon|Calamity's Vanities}}
+{{dedicated|Scluner|Developer}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damage = 204
+| use = 46
+| critical = 1%
+| knockback = 7
+| velocity = 1
+| stack = 1
+| rare = 16
+| sell = {{value|0|1}}
+| tooltip = Channels to summon ogsculian rays in random directions
+| element1 = Fire
+| element2 = Holy
+| element3 = Unholy
+}}
+|{{item drops infobox
+| [[Demon Eye]] | 1 | 10% <br/>(while a full set of [[Ebonwood Chair]] is equipped)
+}}
+}}
+[[File:Ogscule (demo).gif|frame|Ogscule being used on several [[Target Dummy|Target Dummies]].]]
+
+The '''Ogscule''' is a [[Pre-Hardmode]] [[Classless weapons|classless weapon]] that has a 100% chance to be dropped by [[Demon Eyes]] when killed with a full set of  [[Ebonwood Chair]] coverings equipped, using the item will lock the weapon directly on the position of the player, and will move around with them.
+
+The [[Wulfrum miner]] [[Boss]] requires there to be no Ogscule in the player's inventory while being summoned.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*In Pre-Hardmode, the tooltip reads: 
+seems to do nothing?.
+{{color|A rival demonic entity is holding back its power|#930707}}
+*The weapon cannot drop if the player has any items in their vanity slots.
+*This weapon does have a critical strike chance but cannot be increased from any [[coverings]], [[Modifier]]s, [[Buff]]s and [[Covering]] bonuses.
+*Since the rays have completely random directions, the player should focus their attention on making the lasers hit by directing the laser into the enemy, as they have some control over where the lasers will move.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

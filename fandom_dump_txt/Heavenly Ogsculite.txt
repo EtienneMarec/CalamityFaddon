@@ -1,0 +1,45 @@
+{{npc infobox
+| type = Enemy
+| environment = Ogswarm
+| ai = Heavenly Ogsculite AI
+| damage = {{element|Unholy}} {{dv|125|250}} (Heaven's Thorn)<br/>{{element|Unholy}} {{dv|1000|1500|2000}} (Visionary Thorn)
+| life = {{dv|150000|300000}}
+| defense = 35 
+| dr = 30%
+| knockback = 0
+| money = {{value|0|20|0|0}}
+| immune1 = Vulnerability Hex
+| immune2 = Confused
+| immune3 = Kami Flu
+| banner = yes
+| hardmode = yes
+| postml = yes
+| Heaven's Crown | 1 | 10%
+| hurt = NPC_Hit_8.wav
+| killed = NPC Killed 12.wav
+| vulnerable1 = Magic
+| vulnerable2 = Holy
+| vulnerable3 = Stab
+| resistant1 = Unholy
+| resistant2 = Dark
+| resistant3 = Machine
+}}
+
+The '''Heavenly Ogsculite''' (Japanese: 天空のオグスキュライト ''Tenkū no ogusukyuraito'') is an uncommon Godseeker Mode [[Challenges|mini boss]] that spawns during the [[Ogswarm]] event after [[Providence, the Profaned Goddess]] has been defeated. It sprouts out thorns to the player's location from the ground, telegraphed by a warning sign.
+
+If the player has kept it offscreen for more than 3 seconds, they will be struck by the visionary thorns. If the player dies from that attack, '''Heaven's Sapling''' is spawned in place of the player at the site of their death, holding different gores of said player. After the visionary thorn attack, the Heavenly Ogsculite will then teleport to the player's screen.
+
+== Notes ==
+*The Visionary Thorn attack also targets town NPCs if both the enemy and the NPCs are offscreen and are less than 450 tiles away from the former. Killing them this way will leave behind a sapling that holds different gores of said npc killed.
+**However, if the [[Angler]], [[Princess]], or [[Youkai Miko]] is killed this way, the tree will not bear any of the said npc's parts.
+*In multiplayer, the duration before the visionary thorn attack is increased to 5 seconds, and when attacking, targets 1 random player that doesn't have the Heavenly Ogsculite in the screen.
+== Tips ==
+*Its visionary thorn attack's high damage is capable of killing even the tankiest players, especially on higher difficulties. However, it will never perform that attack so long as the player is keeping that enemy onscreen. 
+== Trivia ==
+*This enemy is directly based on [https://lobotomycorp.fandom.com/wiki/The_Burrowing_Heaven The Burrowing Heaven] from [[wikipedia:Lobotomy_Corporation|Lobotomy Corporation]].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

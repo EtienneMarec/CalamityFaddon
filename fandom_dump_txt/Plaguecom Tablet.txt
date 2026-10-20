@@ -1,0 +1,57 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damage = 150
+| use = 5
+| mana = 100 + 50% of the player's max mana
+| damagetype = magic
+| knockback = 0 (Offensive Mode)<br/>5 (Defensive Mode)
+| auto = yes
+| velocity = 0
+| stack = 1
+| rare = 5
+| sell = {{value|0|10|0|0}}
+| tooltip = Allows you to draw, damaging enemies caught in the line's way<br/>However, it needs to be reloaded by double-pressing {{Key|down}} every once in a while...<br/>{{Key|open}} to switch forms, affecting how the lines behave<br/>'Draedon's most sophisticated drawing pad...<br/>...at the time, anyway'
+| debuff = Plague
+| debuffchance = 100%
+| debuffduration = 5 seconds (Offense mode)
+| debufftip = Rotting from the inside
+| debuff2 = Glacial State
+| debuffchance2 = 50%
+| debuffduration2 = 2 seconds (Defense mode)
+| debufftip2 = Cannot move and defense is shattered
+| hardmode = yes
+| element1 = Poison
+| element2 = Magic
+| element3 = Machine
+}}
+{{item drops infobox
+| [[The Plaguebringer Goliath]] | 1 | {{dv|25%|33.33%}}
+}}
+
+The '''Plaguecom Tablet''' is a [[Hardmode]] Magic Weapon dropped by [[The Plaguebringer Goliath]]. Upon use, the player can draw a colored line that damages enemies contacting said line. These lines have different behaviors, nanite ink drain rate, and colors depending on which 2 modes is active. These can be switched with {{Key|open}}. The 2 modes are as follows:
+
+*'''Offensive Mode''': Lines in this state are colored in lime and red, scrolling through a pattern of a green/red segments. Enemies hit by that line will be inflicted a [[Plague]] debuff, and will burst into chains of tiny explosions dealing 135% of the weapon's damage upon releasing the {{Key|use}} button, or running out of ink.
+
+*'''Defensive Mode''': Lines in this state resembles a grey line with a repeating pattern of cyan and green. It can block projectiles for up to 10 times before shattering. Additionally, it has a 50% chance to inflict the [[Glacial State]] debuff. These lines remain, even after releasing the {{Key|use}} button or running out of ink, but will shatter regardless if 30 seconds has passed, indicated by the ends flashing red.
+
+Drawing lines costs nanite ink, with the latter costing more at 12% per 10 tiles worth than the former's 6%. Refilling the ink by double-tapping {{Key|down}}, costs the player 100 Mana + 50% of the player's max mana. Mana regeneration is reduced by 75% while holding this weapon.
+
+Its best [[Modifiers|modifiers]] is '''Zealous''', due to its unique way of attacking.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Items that reduces mana usage does not affect the weapon's ink refilling cost.
+== Trivia ==
+*The item's first name is a portmanteau of "Plague", and "Wacom", a Japanese company specializing on graphical tablets and related products.
+*Its design is directly inspired by the [https://pixelgun.fandom.com/wiki/Digital_Drawing_Pad Digital Drawing Pad] from a first-person shooter game [[wikipedia:Pixel_Gun_3D|Pixel Gun 3D]].
+*The defensive line's behavior mirrors that of the [https://wikirby.com/wiki/Rainbow_Line Rainbow Line] from a platforming spinoff game [https://wikirby.com/wiki/Kirby:_Canvas_Curse Kirby: Canvas Curse].
+*While pressing the left shift key, its entire tooltip changes to the following phrase which is almost identical to the one in the final page found in '7-1: GARDEN OF FORKING PATH' from another first-person shooter game [[wikipedia:Ultrakill|ULTRAKILL]]:<br/><br/> 'THE WORLD IS YOUR CANVAS<br/>SO TAKE UP YOUR DIGITAL PEN<br/>AND PAINT<br/>THE WORLD<br/>{{color|G R E E N .|#58d91c}}'
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
