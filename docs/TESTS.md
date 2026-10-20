@@ -32,3 +32,14 @@ Astuces : Cheat Sheet / Hero's Mod pour faire apparaître objets et PNJ ; `/calf
 - [ ] Contrôles : « Covering Ability 1..7 » au lieu de « Accessory Ability »
 - [ ] Draconic Swarmer (invoqué par la Dragonfolly) → **Tempest Toddler**
 - [ ] Les balises dans les infobulles s'affichent toujours (icônes `[i:...]`, buffs colorés `[cbuff:...]`)
+
+### 1.2 Stats du wiki (`WikiData/stats.json`, 1033 objets, 67 PNJ)
+
+Contrôlé automatiquement par `tools/selftest.py` (toutes les valeurs du JSON). En jeu, vérifier surtout le ressenti :
+- [ ] Graydron (Murasama) : 3001 dégâts, 50 % de critique dans l'infobulle
+- [ ] Ark of the Cosmos : 2000 dégâts
+- [ ] Un objet modifié en vitesse (ex. Absolute Zero, `use` 19) frappe à la bonne cadence, sans bug d'animation
+- [ ] Une arme à plusieurs tirs par usage (ex. Clockwork Bow) tire toujours correctement
+- [ ] Un ennemi modifié (ex. Aero Slime, défense 10) : PV et défense cohérents avec le wiki (`/` Cheat Sheet → NPC)
+- [ ] Rien de cassé côté prix de vente (vendre un objet modifié à un PNJ)
+- [ ] **À décider** : les 38 écarts extrêmes de `reports/stats.md` (Desert Scourge 350 000 PV, Ravager 1 PV...)

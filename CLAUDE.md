@@ -27,10 +27,25 @@ python tools/wiki_index.py                      # régénère data/wiki_index.js
 python tools/import_sprite.py "Nom.png" Content/.../Nom.png [--strip] [--scale 2]
 python tools/extract_calamity_dll.py            # après une mise à jour de Calamity sur le Workshop
 python tools/fetch_missing_pages.py             # (re)télécharge fandom_dump_extra/ depuis l'API Fandom
+python tools/gen_localization.py                # glossary.json -> textes de Calamity réécrits
+python tools/gen_stats.py                       # infobox -> WikiData/stats.json (stats appliquées en jeu)
+python tools/selftest.py                        # serveur sans interface + Common/Debug/SelfTest.cs (jeu fermé)
 ```
+
+Ordre après un changement de données : `wiki_index.py` → `gen_localization.py` / `gen_stats.py` → `dotnet build`
+→ `selftest.py`. L'auto-test vérifie en conditions réelles (tous les mods chargés) ; ajouter des contrôles pour
+chaque nouveau système via `SelfTest.ExtraChecks`.
 
 Python : ne pas lancer avec `-I` (Pillow est installé dans le site-packages utilisateur).
 Sous PowerShell, `$env:PYTHONIOENCODING="utf-8"` évite les accents cassés dans la console.
+
+## Données appliquées en jeu
+
+- `Localization/en-US/Mods.CalamityMod.hjson` — textes de Calamity réécrits (généré par `gen_localization.py`
+  depuis `tools/glossary.json`, que l'on édite à la main). tModLoader le reformate au chargement : normal.
+- `WikiData/stats.json` — stats des infobox (généré par `gen_stats.py`), appliquées par `Common/WikiData/WikiStats.cs`.
+  Objets : valeurs absolues. PNJ : ratios wiki/code (garde la montée en difficulté de Calamity). Écarts > x5 bloqués
+  et listés dans `reports/stats.md` ; les forcer via `tools/stats_force.json` (liste de titres de pages).
 
 ## Rapports (générés, ne pas éditer)
 

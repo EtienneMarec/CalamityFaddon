@@ -4,7 +4,8 @@ tModLoader charge les .hjson de chaque mod dans l'ordre de chargement : un fichi
 Mods.CalamityMod, dans notre mod (chargé après Calamity), remplace les textes de Calamity.
 
 Sortie :
-  Localization/en-US/Mods.CalamityMod.hjson   textes modifiés uniquement (généré, ne pas éditer)
+  Localization/en-US/Mods.CalamityMod.hjson   textes modifiés uniquement (généré, ne pas éditer). tModLoader le
+                                              reformate au chargement : il n'est réécrit que si le contenu change.
   reports/localization.md                     noms changés + nombre de textes touchés
 
 Usage : python tools/gen_localization.py   (nécessite data/wiki_index.json : lancer wiki_index.py avant)
@@ -66,7 +67,7 @@ def build_rules(glossary, index):
             if any(o in page["title"] for o in olds):
                 protected.add(page["title"])
     protected.update(glossary.get("keep", []))
-    return compiled, sorted(protected, key=len, reverse=True)
+    return compiled, sorted(protected, key=lambda s: (-len(s), s))
 
 
 def transform(text, rules, protected):
@@ -82,6 +83,22 @@ def transform(text, rules, protected):
     for pattern, new in rules:
         text = pattern.sub(new, text)
     return re.sub(r"\x00(\d+)\x00", lambda m: stash[int(m.group(1))], text)
+
+
+def flatten_file(path):
+    """Clés à plat d'un .hjson ; les clés pointées de tModLoader (« A.B: x ») sont dépliées pareil."""
+    flat = {}
+
+    def walk(obj, prefix):
+        for k, v in obj.items():
+            key = f"{prefix}.{k}" if prefix else k
+            if isinstance(v, dict):
+                walk(v, key)
+            else:
+                flat[key.replace(".$parentVal", "")] = v
+
+    walk(hjson.load(open(path, encoding="utf-8-sig")), "")
+    return flat
 
 
 def nest(flat):
@@ -107,12 +124,15 @@ def main():
             changed[key] = (value, new)
 
     prefix = "Mods.CalamityMod."
-    body = nest({k[len(prefix):]: v[1] for k, v in sorted(changed.items())})
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    with open(OUT, "w", encoding="utf-8") as f:
-        f.write("# Généré par tools/gen_localization.py depuis tools/glossary.json : ne pas éditer à la main.\n")
-        f.write(hjson.dumps(body, indent="\t", ensure_ascii=False))
-        f.write("\n")
+    wanted = {k[len(prefix):]: v[1] for k, v in sorted(changed.items())}
+    # tModLoader reformate ce fichier à son chargement : on ne le réécrit que si le contenu change vraiment
+    if os.path.exists(OUT) and flatten_file(OUT) == wanted:
+        print("Contenu inchangé : fichier laissé tel quel")
+    else:
+        os.makedirs(os.path.dirname(OUT), exist_ok=True)
+        with open(OUT, "w", encoding="utf-8") as f:
+            f.write(hjson.dumps(nest(wanted), indent="\t", ensure_ascii=False))
+            f.write("\n")
 
     names = {k: v for k, v in changed.items() if k.endswith(".DisplayName")}
     with open(REPORT, "w", encoding="utf-8") as f:
