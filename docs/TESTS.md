@@ -43,3 +43,14 @@ Contrôlé automatiquement par `tools/selftest.py` (toutes les valeurs du JSON).
 - [ ] Un ennemi modifié (ex. Aero Slime, défense 10) : PV et défense cohérents avec le wiki (`/` Cheat Sheet → NPC)
 - [ ] Rien de cassé côté prix de vente (vendre un objet modifié à un PNJ)
 - [ ] **À décider** : les 38 écarts extrêmes de `reports/stats.md` (Desert Scourge 350 000 PV, Ravager 1 PV...)
+
+### 1.3 Recettes du wiki (`WikiData/recipes.json`, bilan dans `reports/recipes.md`)
+
+Chaque recette changée est vérifiée par l'auto-test ; en jeu, contrôler surtout le comportement :
+- [ ] Aerospec Breastplate : 11 Aerialite Bar, 10 Cloud, 5 Rain Cloud, 2 Feather au **Sky Mill**
+- [ ] Abyss Candle : Lumenyl au lieu de Torch
+- [ ] Une recette avec groupe « A/B » du wiki (chercher « / » dans `reports/recipes.md`) accepte bien les deux objets
+- [ ] Une recette d'origine absente du wiki est toujours là (ex. Acidwood depuis Acidwood Wall)
+- [ ] Les recettes de Calamity à condition (ex. objets Draedon, Revengeance) gardent leurs conditions
+- [ ] Shimmer : une transmutation du wiki fonctionne (liste dans `WikiData/recipes.json` → `shimmer`)
+- [ ] Le guide (« Guide → objets craftables ») ne plante pas et affiche les nouvelles recettes

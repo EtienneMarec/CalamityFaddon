@@ -1,5 +1,5 @@
 {
-  "_doc": "Substitutions appliquées aux textes de Calamity par tools/gen_localization.py. 'renames' : noms propres renommés par le wiki (vérifiés page par page, source : reports/renames.md). 'terms' : vocabulaire du wiki, appliqué mot entier en respectant la casse (minuscule, Capitale, MAJUSCULES). Un nom officiel qui a encore sa propre page de contenu sur le wiki n'est jamais modifié (ex. Hide of Astrum Deus, Uelibloom Brick). 'keep' : expressions laissées telles quelles (idiomes).",
+  "_doc": "Substitutions appliquées aux textes de Calamity par tools/gen_localization.py. 'renames' : noms propres renommés par le wiki (vérifiés page par page, source : reports/renames.md). 'terms' : vocabulaire du wiki, appliqué mot entier en respectant la casse (minuscule, Capitale, MAJUSCULES). Un nom officiel qui a encore sa propre page de contenu sur le wiki n'est jamais modifié (ex. Hide of Astrum Deus, Uelibloom Brick). 'keep' : expressions laissées telles quelles (idiomes). 'aliases' : noms utilisés par les recettes du wiki -> nom de l'objet en jeu, quand la redirection du wiki ne suffit pas.",
   "renames": {
     "Scoria Bar": "Abyss Bar",
     "Scoria Ore": "Abyss Ore",
@@ -32,5 +32,10 @@
     "went rogue",
     "goes rogue",
     "go rogue"
-  ]
+  ],
+  "aliases": {
+    "Sand": "Sand Block",
+    "Vertebrae": "Vertebra",
+    "Crab": "Crab"
+  }
 }

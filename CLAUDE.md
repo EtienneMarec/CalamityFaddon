@@ -29,10 +29,11 @@ python tools/extract_calamity_dll.py            # après une mise à jour de Cal
 python tools/fetch_missing_pages.py             # (re)télécharge fandom_dump_extra/ depuis l'API Fandom
 python tools/gen_localization.py                # glossary.json -> textes de Calamity réécrits
 python tools/gen_stats.py                       # infobox -> WikiData/stats.json (stats appliquées en jeu)
+python tools/gen_recipes.py                     # Recipes_*_register -> WikiData/recipes.json
 python tools/selftest.py                        # serveur sans interface + Common/Debug/SelfTest.cs (jeu fermé)
 ```
 
-Ordre après un changement de données : `wiki_index.py` → `gen_localization.py` / `gen_stats.py` → `dotnet build`
+Ordre après un changement de données : `wiki_index.py` → `gen_localization.py` / `gen_stats.py` / `gen_recipes.py` → `dotnet build`
 → `selftest.py`. L'auto-test vérifie en conditions réelles (tous les mods chargés) ; ajouter des contrôles pour
 chaque nouveau système via `SelfTest.ExtraChecks`.
 
@@ -46,6 +47,13 @@ Sous PowerShell, `$env:PYTHONIOENCODING="utf-8"` évite les accents cassés dans
 - `WikiData/stats.json` — stats des infobox (généré par `gen_stats.py`), appliquées par `Common/WikiData/WikiStats.cs`.
   Objets : valeurs absolues. PNJ : ratios wiki/code (garde la montée en difficulté de Calamity). Écarts > x5 bloqués
   et listés dans `reports/stats.md` ; les forcer via `tools/stats_force.json` (liste de titres de pages).
+
+- `WikiData/recipes.json` — recettes du wiki (généré par `gen_recipes.py`), appliquées par
+  `Common/WikiData/WikiRecipes.cs` aux résultats de Calamity et de ce mod (vanilla exclu pour l'instant). Noms résolus
+  par leur nom anglais en jeu, puis via les redirections du wiki (`aliases`) et `tools/glossary.json` → `aliases`.
+  Recette existante modifiée sur place (conditions conservées), jamais désactivée ; rien n'est fait si un ingrédient
+  manque. `reports/recipes.md` (écrit par l'auto-test) liste les changements et les **noms introuvables** : c'est la
+  meilleure liste de priorités pour le nouveau contenu (ce qui débloque le plus de recettes).
 
 ## Rapports (générés, ne pas éditer)
 

@@ -1,5 +1,6 @@
 """Lance un serveur tModLoader sans interface avec CALFANDOM_SELFTEST=1 et affiche le résultat de l'auto-test
-(Common/Debug/SelfTest.cs). Le mod doit avoir été construit (dotnet build) et le jeu fermé.
+(Common/Debug/SelfTest.cs).
+Écrit aussi les bilans calculés en jeu dans reports/ (ex. reports/recipes.md). Le mod doit avoir été construit (dotnet build) et le jeu fermé.
 
 Usage : python tools/selftest.py
 Code de sortie : 0 si tout passe, 1 sinon.
@@ -13,7 +14,8 @@ WORKSHOP = r"C:\Program Files (x86)\Steam\steamapps\workshop"
 
 
 def main():
-    env = dict(os.environ, CALFANDOM_SELFTEST="1")
+    reports = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "reports")
+    env = dict(os.environ, CALFANDOM_SELFTEST="1", CALFANDOM_REPORTS=reports)
     proc = subprocess.run(
         ["dotnet", "tModLoader.dll", "-server", "-steamworkshopfolder", WORKSHOP],
         cwd=TML, env=env, stdin=subprocess.DEVNULL, capture_output=True, text=True,

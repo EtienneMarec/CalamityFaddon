@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using CalamityFandom.Common.WikiData;
 using Terraria;
 using Terraria.ID;
@@ -10,7 +11,7 @@ namespace CalamityFandom.Common.Debug
 {
     /// <summary>
     /// Auto-test lancé par tools/selftest.py (serveur dédié, variable CALFANDOM_SELFTEST=1) : vérifie après le
-    /// chargement complet que les fondations s'appliquent, écrit « [SELFTEST] ... » dans la console puis quitte.
+    /// chargement complet (recettes comprises) que les fondations s'appliquent, écrit « [SELFTEST] ... » dans la console puis quitte.
     /// Sans la variable, ne fait rien.
     /// </summary>
     public class SelfTest : ModSystem
@@ -33,7 +34,7 @@ namespace CalamityFandom.Common.Debug
             ("npc", "DraconicSwarmer", "Tempest Toddler"),
         };
 
-        public override void PostAddRecipes()
+        public override void PostSetupRecipes()
         {
             if (!Enabled)
                 return;
@@ -41,6 +42,7 @@ namespace CalamityFandom.Common.Debug
             CheckNames();
             CheckItemStats();
             CheckNPCStats();
+            CheckRecipes();
             foreach (var check in ExtraChecks)
                 check(this);
 
@@ -106,6 +108,24 @@ namespace CalamityFandom.Common.Debug
                 if (stats.Rare is int r) Expect(item.rare == WikiStats.ResolveRarity(r), $"{where} rare {item.rare} != {r}");
                 if (stats.Value is int v) Expect(item.value == v, $"{where} value {item.value} != {v}");
             }
+        }
+
+        private void CheckRecipes()
+        {
+            foreach (var (result, wanted) in WikiRecipes.Applied)
+            {
+                // Chaque recette du wiki doit exister telle quelle (les recettes absentes du wiki sont conservées)
+                var actual = Main.recipe.Take(Recipe.numRecipes)
+                    .Where(r => r.createItem.type == result && !r.Disabled)
+                    .Select(WikiRecipes.Signature).ToHashSet();
+                foreach (var w in wanted)
+                    Expect(actual.Contains(WikiRecipes.Signature(w)), $"recette de {Lang.GetItemNameValue(result)} absente ({w.Page})");
+            }
+            string reports = Environment.GetEnvironmentVariable("CALFANDOM_REPORTS");
+            if (!string.IsNullOrEmpty(reports))
+                WikiRecipes.WriteReport(reports);
+            Report($"recettes : {WikiRecipes.Applied.Count} objets changés, {WikiRecipes.Edited} modifiées, {WikiRecipes.Created} créées, "
+                + $"{WikiRecipes.Kept} conservées hors wiki, {WikiRecipes.Unchanged} identiques, {WikiRecipes.ShimmerSet} shimmer, {WikiRecipes.Missing.Count} noms introuvables");
         }
 
         private void CheckNPCStats()
