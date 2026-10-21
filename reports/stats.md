@@ -2,9 +2,9 @@
 
 _Généré par `tools/gen_stats.py`._
 
-- 1033 objets et 67 PNJ de Calamity modifiés (`WikiData/stats.json`).
-- 38 écarts extrêmes (> x5) : appliqués **seulement en mode Full Fandom**, ci-dessous.
-- 31 valeurs appliquées sans valeur littérale dans le code pour comparer.
+- 1204 objets et 67 PNJ de Calamity modifiés (`WikiData/stats.json`).
+- 49 écarts extrêmes (> x5) : appliqués **seulement en mode Full Fandom**, ci-dessous.
+- 35 valeurs appliquées sans valeur littérale dans le code pour comparer.
 
 ## Écarts extrêmes à trancher
 
@@ -23,12 +23,21 @@ Pour appliquer quand même : ajouter le titre de la page dans `tools/stats_force
 | Desert Scourge | DesertScourgeHead | life | 350000 | 4000 | x87.50 |
 | Eidolic Wail | EidolicWail | damage | 126 | 943 | x0.13 |
 | Eidolic Wail | EidolicWail | mana | 10 | 90 | x0.11 |
+| Elephant Killer | ElephantKiller | damage | 2000 | 135 | x14.81 |
 | Eternity | Eternity | mana | 30 | 300 | x0.10 |
+| Exorcism | Exorcism | useAnimation | 19 | 96 | x0.20 |
+| Galileo Gladius | GalileoGladius | damage | 110 | 600 | x0.18 |
+| Gilded Proboscis | GildedProboscis | damage | 315 | 2090 | x0.15 |
+| Grand Dad | GrandDad | damage | 777 | 5577 | x0.14 |
 | Great Sand Shark | GreatSandShark | life | 100000 | 9200 | x10.87 |
 | Halibut Cannon | HalibutCannon | damage | 1000 | 100 | x10.00 |
 | Hellborn | Hellborn | damage | 7 | 300 | x0.02 |
+| Holy Collider | HolyCollider | damage | 270 | 2200 | x0.12 |
+| Kylie | Kylie | damage | 63 | 12 | x5.25 |
+| Nanoblack Reaper | NanoblackReaper | damage | 36720 | 555 | x66.16 |
 | Norfleet | Norfleet | damage | 354 | 5678 | x0.06 |
 | Phantasmal Fury | PhantasmalFury | mana | 20 | 120 | x0.17 |
+| Phantasmal Ruin | PhantasmalRuin | damage | 955 | 140 | x6.82 |
 | Polterghast | PolterPhantom | life | 350000 | 62500 | x5.60 |
 | Primordial Ancient | PrimordialAncient | damage | 170 | 3825 | x0.04 |
 | Primordial Ancient | PrimordialAncient | mana | 20 | 104 | x0.19 |
@@ -36,6 +45,7 @@ Pour appliquer quand même : ajouter le titre de la page dans `tools/stats_force
 | Relic of Ruin | RelicofRuin | damage | 1 | 21 | x0.05 |
 | Rubico Prime | RubicoPrime | useAnimation | 300 | 50 | x6.00 |
 | Rusty Beacon Prototype | RustyBeaconPrototype | damage | 0 | 7 | x0.00 |
+| SHPC | SHPC | damage | 18 | 117 | x0.15 |
 | Sanguine Flare | SanguineFlare | damage | 143 | 1050 | x0.14 |
 | Seeking Scorcher | SeekingScorcher | damage | 177 | 1170 | x0.15 |
 | Shadecrystal Barrage | ShadecrystalBarrage | mana | 4 | 40 | x0.10 |
@@ -44,6 +54,7 @@ Pour appliquer quand même : ajouter le titre de la page dans `tools/stats_force
 | Starfleet | Starfleet | damage | 68 | 3170 | x0.02 |
 | Starmada | Starmada | damage | 135 | 4900 | x0.03 |
 | Stormjaw Staff | StormjawStaff | damage | 0.1 | 11 | x0.01 |
+| Supernova | Supernova | damage | 675 | 5200 | x0.13 |
 | Svantechnical | Svantechnical | useAnimation | 24 | 4 | x6.00 |
 | THE LORDE | THELORDE | life | 2.5e+07 | 2.5e+06 | x10.00 |
 | Temporal Umbrella | TemporalUmbrella | mana | 520 | 99 | x5.25 |
@@ -58,7 +69,9 @@ Pour appliquer quand même : ajouter le titre de la page dans `tools/stats_force
 | Adamantite Particle Accelerator | AdamantiteParticleAccelerator | useAnimation | 46 |
 | Aetherflux Cannon | AetherfluxCannon | useAnimation | 36 |
 | Belching Saxophone | BelchingSaxophone | damage | 32 |
+| Biome Blade | TrueBiomeBlade | damage | 80 |
 | Bonebreaker | Bonebreaker | damage | 60 |
+| Broken Biome Blade | BrokenBiomeBlade | damage | 47 |
 | Coldheart Icicle | ColdheartIcicle | damage | 1 |
 | Coldheart Icicle | ColdheartIcicle | useAnimation | 27 |
 | Death Whistle | DeathWhistle | damage | 140 |
@@ -74,6 +87,8 @@ Pour appliquer quand même : ajouter le titre de la page dans `tools/stats_force
 | Magna Cannon | MagnaCannon | useAnimation | 32 |
 | Nano Purge | NanoPurge | useAnimation | 20 |
 | Opal Striker | OpalStriker | useAnimation | 20 |
+| Oracle Headphones | OracleHeadphones | damage | 78 |
+| Oracle Headphones | OracleHeadphones | useAnimation | 8 |
 | Photoviscerator | Photoviscerator | useAnimation | 10 |
 | Relic of Resilience | RelicOfResilience | useAnimation | 28 |
 | Roxcalibur | Roxcalibur | useAnimation | 44 |

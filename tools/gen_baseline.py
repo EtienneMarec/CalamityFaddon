@@ -18,13 +18,12 @@ import subprocess
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from wiki_index import ROOT, CALAMITY, load_calamity_names, norm  # noqa: E402
+from wiki_index import ROOT, CALAMITY, CLASS_DECL, load_calamity_names, norm, resolve_mod_types  # noqa: E402
 
 BASELINE = "3ec8f553ed"  # « Version bump 2.0.1.005 », 30/12/2022
 BASELINE_NAME = "2.0.1.005"
 OUT = os.path.join(ROOT, "WikiData", "baseline.json")
 REPORT = os.path.join(ROOT, "reports", "baseline.md")
-CLASS_RE = re.compile(r"class\s+(\w+)\s*:\s*(ModItem|ModNPC)\b")
 
 
 def git(*args):
@@ -33,15 +32,16 @@ def git(*args):
 
 
 def classes_at(commit):
-    """{classe: (type, chemin)} des ModItem/ModNPC à un commit."""
-    found = {}
-    for line in git("grep", "-n", "-E", r"class \w+ ?: ?(ModItem|ModNPC)\b", commit, "--", "*.cs").splitlines():
+    """{classe: (type, chemin)} des ModItem/ModNPC à un commit, héritage indirect compris (RogueWeapon...)."""
+    declarations = {}
+    for line in git("grep", "-n", "-E", r"class \w+.*:", commit, "--", "*.cs").splitlines():
         # format : commit:chemin:ligne:contenu
         _, path, _, content = line.split(":", 3)
-        m = CLASS_RE.search(content)
+        m = CLASS_DECL.search(content)
         if m:
-            found.setdefault(m.group(1), (m.group(2), path))
-    return found
+            declarations.setdefault(m.group(1), (m.group(2), path))
+    return {cls: (kind, path) for cls, (path, kind) in resolve_mod_types(declarations).items()
+            if kind in ("ModItem", "ModNPC")}
 
 
 def legacy_display_names(commit):

@@ -10,7 +10,7 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | contenu correspondant à Calamity | 1384 |
 | contenu officiel renommé (via redirection) | 31 |
 | pages regroupant plusieurs objets officiels | 74 |
-| officiel ou renommé avec stats divergentes | 601 |
+| officiel ou renommé avec stats divergentes | 718 |
 | contenu inconnu de Calamity avec infobox | 1580 |
 | dont avec sprite trouvé | 1498 |
 | pages marquées addon / fantag | 778 |

@@ -149,7 +149,12 @@ namespace CalamityFandom.Common.WikiData
             }
 
             foreach (var (result, wanted) in byResult)
+            {
+                // Une recette du wiki produit cet objet : le wiki le connaît, il ne doit pas être masqué en Full Fandom
+                // (cas des noms que tools/gen_baseline.py ne sait pas lire hors du jeu, ex. objets de lore)
+                Modes.FullFandomHiding.HiddenItems.Remove(result);
                 ApplyToResult(result, wanted);
+            }
 
             ApplyShimmer();
         }

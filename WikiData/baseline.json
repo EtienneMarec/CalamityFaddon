@@ -5,11 +5,13 @@
  "hidden": {
   "items": [
    "AbyssTreasureChest",
+   "AcidRainDye",
    "AcidwoodBow",
    "AcidwoodHammer",
    "AcidwoodSword",
    "AcrobaticBobber",
    "ActivatedAuricPanel",
+   "AerialTracker",
    "AerialiteOreDisenchanted",
    "AgedBiolightItem",
    "AgedBlacklightItem",
@@ -18,6 +20,7 @@
    "AgedFloodlightItem",
    "AgedFrostlightItem",
    "AgedLablightItem",
+   "AggressiveVoucher",
    "AlchemicalDecanter",
    "AlgalPrismTorch",
    "AlphaDraconis",
@@ -43,6 +46,7 @@
    "AncientNavystoneWorkBench",
    "AncientSmoothNavystone",
    "AncientSmoothNavystoneWall",
+   "AndroombaBanner",
    "AnodizedWulfrumBathtub",
    "AnodizedWulfrumBookcase",
    "AnodizedWulfrumChair",
@@ -65,6 +69,7 @@
    "AnodizedWulfrumTrim",
    "AnodizedWulfrumTrimWall",
    "AnodizedWulfrumWorkBench",
+   "AntlionSkewer",
    "Apathanull",
    "Apollyon",
    "AquasScepter",
@@ -75,6 +80,7 @@
    "Arietes41",
    "AscendantInsignia",
    "AshenAccentSlab",
+   "AstraglomerateBanner",
    "AstralGrassSeeds",
    "AstralProjector",
    "AstralTorch",
@@ -91,6 +97,8 @@
    "AuricScreen",
    "AuricServer",
    "AuricTerminal",
+   "AuroraSpiritBanner",
+   "BabyCannonballJellyfishBanner",
    "BabyCannonballJellyfishBowl",
    "BabyCannonballJellyfishItem",
    "BaconOil",
@@ -114,6 +122,7 @@
    "BrittleStarStaff",
    "BubonicRound",
    "BurningRevelation",
+   "BurrowerBanner",
    "BurrowerController",
    "Buzzkill",
    "CagedBiolightItem",
@@ -129,6 +138,7 @@
    "CalamitasCoffer",
    "CalamityCanvas2023",
    "CalamityCanvas2024",
+   "CannonballJellyfishBanner",
    "CausticTorch",
    "ChaliceOfTheBloodGod",
    "ChargedWulfrumEnergyBarrier",
@@ -138,12 +148,15 @@
    "ChronomancersScythe",
    "CinderArrow",
    "CinderBlossomSeeds",
+   "CladCrabBanner",
    "CleansingJelly",
+   "CombatVoucher",
    "Cometfruit",
    "CorinthPrime",
    "CountermeasureMitt",
    "CrushingEgo",
    "CyanCoral",
+   "DaedalusDye",
    "DarkMatterSheath",
    "DeadSunsWind",
    "DeepSeaAnchor",
@@ -151,9 +164,12 @@
    "DefiledGreatsword",
    "DialogueDisplayDebugItem",
    "DiamondOfTheDeep",
+   "DimensionTearingDisk",
    "DisgustingSlop",
    "DivineProvidence",
+   "DoomsdayDevice",
    "DraconicIncense",
+   "DraconicSwarmerBanner",
    "DraedonExoSelectMusicBox",
    "DraedonTalkMusicBox",
    "Driftwood",
@@ -205,8 +221,10 @@
    "FrigidMonolith",
    "FrostyBatBottle",
    "FrozenCube",
+   "GhostBracelet",
    "GlacialEmbrace",
    "GleamingCucumber",
+   "GlimmeringRibbon",
    "GloomTorch",
    "GluttonyBlender",
    "Gorecodile",
@@ -215,10 +233,12 @@
    "HailstormBullet",
    "HallowPointRound",
    "HardenedEutrophicSand",
+   "Havocfish",
    "Havocplate",
    "HavocplateWall",
    "HoarfrostBow",
    "HolofibreImmolator",
+   "HorribleHogBanner",
    "HostileFireTurret",
    "HostileIceTurret",
    "HostileLabTurret",
@@ -226,14 +246,17 @@
    "HostileOnyxTurret",
    "HostilePlagueTurret",
    "HostileWaterTurret",
+   "HurriedVoucher",
    "HydrothermalCrate",
    "HyperdeathRiftScepter",
    "IVDripOnTheRocks",
    "IceTurret",
    "IlmerisSpark",
    "InfectedJewel",
+   "InfernalCongealmentBanner",
    "InfernalSuevite",
    "InterstellarStompers",
+   "InvisibleDye",
    "IronBall",
    "Jackfruit",
    "KelpTorch",
@@ -243,12 +266,30 @@
    "LaserTurret",
    "LavaChickenBroth",
    "LegionofCelestia",
+   "LemonNade",
    "Lightspeed",
    "LiliesOfFinality",
    "LimeCoral",
    "Limestone",
    "LimestoneWall",
+   "LittleE",
    "LivingPlagueFireBlock",
+   "LivingShardDye",
+   "LoreArchmage",
+   "LoreAzafure",
+   "LoreBrainofCthulhu",
+   "LoreCynosure",
+   "LoreEaterofWorlds",
+   "LoreExoMechs",
+   "LoreMechs",
+   "LorePerforators",
+   "LorePrelude",
+   "LoreProfanedGuardians",
+   "LoreRavager",
+   "LoreRequiem",
+   "LoreSulphurSea",
+   "LoreWallofFlesh",
+   "LoreYharon",
    "Lotus",
    "LucisBoots",
    "LucisHairstyle",
@@ -283,6 +324,8 @@
    "MarniteTable",
    "MarniteToilet",
    "MarniteWorkBench",
+   "MawOfInfinity",
+   "MeldDye",
    "MiniAgedBiolightItem",
    "MiniAgedBlacklightItem",
    "MiniAgedCinderlightItem",
@@ -303,6 +346,7 @@
    "MonolithCrate",
    "MonolithHammer",
    "MonolithSword",
+   "MoonWalkers",
    "MossyStone",
    "NaiadsWarhorn",
    "NavyPrismTorch",
@@ -327,12 +371,16 @@
    "NavystoneTriclinium",
    "NavystoneWorkBench",
    "NebulousCataclysm",
+   "NecromanticDye",
+   "NecroplasmicDye",
    "Nidhogg",
    "NitroExpressRifle",
    "NuclearFuelRod",
    "Nucleosynthesis",
    "OasisElementalinaBottle",
+   "OddVoucher",
    "OldFashioned",
+   "OldLordClaymore",
    "Omicron",
    "OmniGun",
    "OntologicalDespoiler",
@@ -347,7 +395,9 @@
    "PiggyCageGold",
    "PiggyGoldItem",
    "PinkPearlPile",
+   "PlagueGooDye",
    "PlagueHumidifier",
+   "PlaguePlateDye",
    "PlagueTaintedSMG",
    "PlagueTurret",
    "PlanebreakersPouch",
@@ -357,7 +407,11 @@
    "PolishedNavystoneBrick",
    "PolypSand",
    "PrismCrate",
+   "ProfanedCrystalDye",
+   "ProfanedRockDye",
    "ProtolithBangle",
+   "PulseGrenade",
+   "Pumpkaboom",
    "PurpleDistortedMonolith",
    "PurpleHaze",
    "PyreMantle",
@@ -366,8 +420,12 @@
    "QualitySlop",
    "Radiance",
    "RageBait",
+   "RealityRupture",
+   "ReboundingRainbow",
    "RefractivePrismTorch",
    "Regenerator",
+   "RenegadeWarlockBanner",
+   "RepairUnitBanner",
    "RepairUnitCage",
    "Respiteblock",
    "Riftburst",
@@ -379,6 +437,7 @@
    "SacredStrawberry",
    "SaharaSlicers",
    "Salak",
+   "SamsaraSlicer",
    "SanctifiedSpark",
    "Sandblaster",
    "SandstreamScepter",
@@ -387,8 +446,11 @@
    "ScorchedBone",
    "ScorchedBoneWall",
    "ScorchedRemains",
+   "ScoriaDye",
    "SeaPrismBrick",
    "SeaSpiritAmulet",
+   "SharkyPlush",
+   "ShatteredDawn",
    "ShellTrimBrick",
    "ShellTrimBrickWall",
    "Shellstone",
@@ -398,8 +460,14 @@
    "ShieldoftheHighRuler",
    "ShortCircuit",
    "ShroomBowl",
+   "ShroombleBanner",
    "ShroombleCage",
    "ShroombleItem",
+   "SightseerColliderBanner",
+   "SightseerSpitterBanner",
+   "SilvaDye",
+   "SkytideDragoon",
+   "SlabCrabBanner",
    "SlagCrate",
    "SlagfireDouser",
    "SlagsplitterPauldron",
@@ -417,6 +485,7 @@
    "StellarTorusStaff",
    "Stohne",
    "StygianShield",
+   "SulflounderBanner",
    "SulphurousCrate",
    "SulphurousSeaWorldSideChanger",
    "SulphurousShale",
@@ -428,6 +497,7 @@
    "Sylvestaff",
    "TaintedBlade",
    "TaintedCloudberry",
+   "TarragonDye",
    "TauCannon",
    "TeslasAmulet",
    "Teslastaff",
@@ -447,13 +517,18 @@
    "ThermalTorch",
    "ThermoclineBlaster",
    "ThreadOfEradication",
+   "TiredTail",
    "ToastyBatBottle",
+   "ToxicatfishBanner",
    "TrustyOldRod",
+   "TwistingThunder",
+   "UnbreakableVoucher",
    "UnholyTonic",
    "UnstableCastersGauntlet",
    "V8000Engine",
    "V8Engine",
    "VanishingPoint",
+   "Vega",
    "VengefulSunStaff",
    "VeriumBolt",
    "VernalBolter",
@@ -461,17 +536,21 @@
    "ViciousTonic",
    "VoidEaterMarionette",
    "VoidEdge",
+   "VoidStriders",
    "VoidTorch",
    "VolcanicSand",
    "VolcanicSinker",
    "Volterion",
    "Vulcan",
+   "WalkingCane",
    "WarbanneroftheRighteous",
    "WaterTurret",
    "WhitePearlPile",
    "WhiteSeekingMechanism",
+   "Whitewater",
    "WildfireBloom",
    "WillOWisp",
+   "WingsofRebirth",
    "WulfrumBathtub",
    "WulfrumBed",
    "WulfrumBobber",
@@ -483,6 +562,7 @@
    "WulfrumClock",
    "WulfrumComplexPanelWall",
    "WulfrumDresser",
+   "WulfrumDye",
    "WulfrumEnergyBarrier",
    "WulfrumEnergyBarrierWall",
    "WulfrumLabstationItem",
@@ -505,6 +585,8 @@
    "WulfrumToilet",
    "WulfrumWallMountedBulb",
    "WulfrumWorkBench",
+   "XyksBlessingBlue",
+   "XyksBlessingOrange",
    "YellowCoral",
    "YharonEgg",
    "ZenithThrone"
@@ -515,8 +597,9 @@
    "BloodBomb",
    "BrainIllusion",
    "BucketZombie",
+   "Burrower",
+   "BurrowerHitbox",
    "CladCrab",
-   "CloudElemental",
    "CrimulanPaladin",
    "DesertNuisanceHeadYoung",
    "DivineSwine",
@@ -527,6 +610,7 @@
    "HorribleHog",
    "InfernalCongealment",
    "KingSlimeJewelRuby",
+   "PiggyGold",
    "PrimordialWyrmHead",
    "ProfanedRocks",
    "RenegadeWarlock",
@@ -544,13 +628,6 @@
   ]
  },
  "removed": [
-  {
-   "class": "AbandonedWulfrumHelmet",
-   "kind": "ModItem",
-   "name": "Abandoned Wulfrum Helmet",
-   "path": "Items/Accessories/Vanity/AbandonedWulfrumHelmet.cs",
-   "wikiPage": false
-  },
   {
    "class": "AbyssTorch",
    "kind": "ModItem",
@@ -573,13 +650,6 @@
    "wikiPage": true
   },
   {
-   "class": "AbyssalDivingSuit",
-   "kind": "ModItem",
-   "name": "Abyssal Diving Suit",
-   "path": "Items/Accessories/AbyssalDivingSuit.cs",
-   "wikiPage": true
-  },
-  {
    "class": "AccelerationRound",
    "kind": "ModItem",
    "name": "Acceleration Round",
@@ -591,6 +661,13 @@
    "kind": "ModItem",
    "name": "Acid Round",
    "path": "Items/Ammo/AcidRound.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AcidicRainBarrel",
+   "kind": "ModItem",
+   "name": "Acidic Rain Barrel",
+   "path": "Items/Weapons/Rogue/AcidicRainBarrel.cs",
    "wikiPage": true
   },
   {
@@ -643,6 +720,13 @@
    "wikiPage": true
   },
   {
+   "class": "AlphaVirus",
+   "kind": "ModItem",
+   "name": "Alpha Virus",
+   "path": "Items/Weapons/Rogue/AlphaVirus.cs",
+   "wikiPage": true
+  },
+  {
    "class": "AmidiasSpark",
    "kind": "ModItem",
    "name": "Amidias' Spark",
@@ -654,13 +738,6 @@
    "kind": "ModItem",
    "name": "Aquatic Discharge",
    "path": "Items/Weapons/Melee/AquaticDischarge.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "AquaticHeart",
-   "kind": "ModItem",
-   "name": "Aquatic Heart",
-   "path": "Items/Accessories/AquaticHeart.cs",
    "wikiPage": true
   },
   {
@@ -713,6 +790,13 @@
    "wikiPage": true
   },
   {
+   "class": "AstralIce",
+   "kind": "ModItem",
+   "name": "Astral Ice",
+   "path": "Items/Placeables/AstralIce.cs",
+   "wikiPage": true
+  },
+  {
    "class": "AstralRepeater",
    "kind": "ModItem",
    "name": "Astral Bow",
@@ -727,31 +811,10 @@
    "wikiPage": false
   },
   {
-   "class": "AureateBooster",
-   "kind": "ModItem",
-   "name": "Aureate Booster",
-   "path": "Items/Accessories/Wings/AureateBooster.cs",
-   "wikiPage": true
-  },
-  {
    "class": "Azathoth",
    "kind": "ModItem",
    "name": "Azathoth",
    "path": "Items/Weapons/Melee/Azathoth.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "BalefulHarvester",
-   "kind": "ModItem",
-   "name": "Baleful Harvester",
-   "path": "Items/Weapons/Melee/BalefulHarvester.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "Basher",
-   "kind": "ModItem",
-   "name": "Basher",
-   "path": "Items/Weapons/Melee/Basher.cs",
    "wikiPage": true
   },
   {
@@ -825,13 +888,6 @@
    "wikiPage": true
   },
   {
-   "class": "BlossomFlux",
-   "kind": "ModItem",
-   "name": "Blossom Flux",
-   "path": "Items/Weapons/Ranged/BlossomFlux.cs",
-   "wikiPage": true
-  },
-  {
    "class": "BlueBrickWallUnsafe",
    "kind": "ModItem",
    "name": "Blue Brick Wall Unsafe",
@@ -853,10 +909,17 @@
    "wikiPage": true
   },
   {
-   "class": "Brimlish",
+   "class": "BouncySpikyBall",
    "kind": "ModItem",
-   "name": "Brimlish",
-   "path": "Items/Fishing/BrimstoneCragCatches/Brimlish.cs",
+   "name": "Bouncy Spiky Ball",
+   "path": "Items/Weapons/Rogue/BouncySpikyBall.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BrackishFlask",
+   "kind": "ModItem",
+   "name": "Brackish Flask",
+   "path": "Items/Weapons/Rogue/BrackishFlask.cs",
    "wikiPage": true
   },
   {
@@ -864,13 +927,6 @@
    "kind": "ModItem",
    "name": "Brimstone Fish",
    "path": "Items/Fishing/BrimstoneCragCatches/BrimstoneFish.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "BrokenBiomeBlade",
-   "kind": "ModItem",
-   "name": "Broken Biome Blade",
-   "path": "Items/Weapons/Melee/BrokenBiomeBlade.cs",
    "wikiPage": true
   },
   {
@@ -979,13 +1035,6 @@
    "wikiPage": true
   },
   {
-   "class": "CindersOfLament",
-   "kind": "ModItem",
-   "name": "Cinders of Lament",
-   "path": "Items/Weapons/Summon/CindersOfLament.cs",
-   "wikiPage": true
-  },
-  {
    "class": "CirrusDress",
    "kind": "ModItem",
    "name": "Cirrus' Dress",
@@ -1011,13 +1060,6 @@
    "kind": "ModItem",
    "name": "Cold Divinity",
    "path": "Items/Weapons/Summon/ColdDivinity.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "CometQuasher",
-   "kind": "ModItem",
-   "name": "Comet Quasher",
-   "path": "Items/Weapons/Melee/CometQuasher.cs",
    "wikiPage": true
   },
   {
@@ -1161,6 +1203,13 @@
    "wikiPage": true
   },
   {
+   "class": "DeificThunderbolt",
+   "kind": "ModItem",
+   "name": "Deific Thunderbolt",
+   "path": "Items/Weapons/Rogue/DeificThunderbolt.cs",
+   "wikiPage": true
+  },
+  {
    "class": "DemonicBoneAsh",
    "kind": "ModItem",
    "name": "Demonic Bone Ash",
@@ -1217,13 +1266,6 @@
    "wikiPage": true
   },
   {
-   "class": "DraconicElixir",
-   "kind": "ModItem",
-   "name": "Draconic Elixir",
-   "path": "Items/Potions/DraconicElixir.cs",
-   "wikiPage": true
-  },
-  {
    "class": "DraedonsAmbienceMusicBox",
    "kind": "ModItem",
    "name": "Music Box (Draedon's Ambience)",
@@ -1243,13 +1285,6 @@
    "name": "Drew's Wings",
    "path": "Items/Accessories/Wings/DrewsWings.cs",
    "wikiPage": true
-  },
-  {
-   "class": "Earth",
-   "kind": "ModItem",
-   "name": "Earth",
-   "path": "Items/Weapons/Melee/Earth.cs",
-   "wikiPage": false
   },
   {
    "class": "EbonianSlimeGod",
@@ -1291,6 +1326,13 @@
    "kind": "ModItem",
    "name": "Elemental Blaster",
    "path": "Items/Weapons/Ranged/ElementalBlaster.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ElementalDisk",
+   "kind": "ModItem",
+   "name": "Elemental Disk",
+   "path": "Items/Weapons/Rogue/ElementalDisk.cs",
    "wikiPage": true
   },
   {
@@ -1336,24 +1378,10 @@
    "wikiPage": true
   },
   {
-   "class": "ElephantKiller",
-   "kind": "ModItem",
-   "name": "Elephant Killer",
-   "path": "Items/Weapons/Typeless/FiniteUse/ElephantKiller.cs",
-   "wikiPage": true
-  },
-  {
    "class": "ElysianTracers",
    "kind": "ModItem",
    "name": "Elysian Tracers",
    "path": "Items/Accessories/Wings/ElysianTracers.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "ElysianWings",
-   "kind": "ModItem",
-   "name": "Elysian Wings",
-   "path": "Items/Accessories/Wings/ElysianWings.cs",
    "wikiPage": true
   },
   {
@@ -1368,6 +1396,13 @@
    "kind": "ModItem",
    "name": "Enhanced Nano Round",
    "path": "Items/Ammo/EnhancedNanoRound.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Eradicator",
+   "kind": "ModItem",
+   "name": "Eradicator",
+   "path": "Items/Weapons/Rogue/Eradicator.cs",
    "wikiPage": true
   },
   {
@@ -1490,13 +1525,6 @@
    "wikiPage": true
   },
   {
-   "class": "EutrophicSandfish",
-   "kind": "ModItem",
-   "name": "Eutrophic Sandfish",
-   "path": "Items/Fishing/SunkenSeaCatches/EutrophicSandfish.cs",
-   "wikiPage": true
-  },
-  {
    "class": "EutrophicScimitar",
    "kind": "ModItem",
    "name": "Eutrophic Scimitar",
@@ -1525,24 +1553,10 @@
    "wikiPage": true
   },
   {
-   "class": "EvilSmasher",
-   "kind": "ModItem",
-   "name": "Evil Smasher",
-   "path": "Items/Weapons/Melee/EvilSmasher.cs",
-   "wikiPage": true
-  },
-  {
    "class": "Excelsus",
    "kind": "ModItem",
    "name": "Excelsus",
    "path": "Items/Weapons/Melee/Excelsus.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "ExodusWings",
-   "kind": "ModItem",
-   "name": "Exodus Wings",
-   "path": "Items/Accessories/Wings/ExodusWings.cs",
    "wikiPage": true
   },
   {
@@ -1581,13 +1595,6 @@
    "wikiPage": false
   },
   {
-   "class": "FishofEleum",
-   "kind": "ModItem",
-   "name": "Fish of Eleum",
-   "path": "Items/Fishing/FishofEleum.cs",
-   "wikiPage": true
-  },
-  {
    "class": "FishofLight",
    "kind": "ModItem",
    "name": "Fish of Light",
@@ -1609,6 +1616,13 @@
    "wikiPage": true
   },
   {
+   "class": "FrequencyManipulator",
+   "kind": "ModItem",
+   "name": "Frequency Manipulator",
+   "path": "Items/Weapons/DraedonsArsenal/FrequencyManipulator.cs",
+   "wikiPage": true
+  },
+  {
    "class": "FungalCarapace",
    "kind": "ModItem",
    "name": "Fungal Carapace",
@@ -1620,13 +1634,6 @@
    "kind": "ModItem",
    "name": "Galactica Singularity",
    "path": "Items/Materials/GalacticaSingularity.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "GalileoGladius",
-   "kind": "ModItem",
-   "name": "Galileo Gladius",
-   "path": "Items/Weapons/Melee/GalileoGladius.cs",
    "wikiPage": true
   },
   {
@@ -1672,13 +1679,6 @@
    "wikiPage": true
   },
   {
-   "class": "GildedProboscis",
-   "kind": "ModItem",
-   "name": "Gilded Proboscis",
-   "path": "Items/Weapons/Melee/GildedProboscis.cs",
-   "wikiPage": true
-  },
-  {
    "class": "GodlySoulArtifact",
    "kind": "ModItem",
    "name": "Godly Soul Artifact",
@@ -1705,13 +1705,6 @@
    "name": "Golden Gun",
    "path": "Items/Weapons/Typeless/GoldenGun.cs",
    "wikiPage": true
-  },
-  {
-   "class": "GrandGuardian",
-   "kind": "ModItem",
-   "name": "Grand Guardian",
-   "path": "Items/Weapons/Melee/GrandGuardian.cs",
-   "wikiPage": false
   },
   {
    "class": "GravistarSabaton",
@@ -1756,27 +1749,6 @@
    "wikiPage": false
   },
   {
-   "class": "GruesomeEminence",
-   "kind": "ModItem",
-   "name": "Gruesome Eminence",
-   "path": "Items/Weapons/Magic/GruesomeEminence.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "HadalMantle",
-   "kind": "ModItem",
-   "name": "Hadal Mantle",
-   "path": "Items/Accessories/Wings/HadalMantle.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "HadarianWings",
-   "kind": "ModItem",
-   "name": "Hadarian Wings",
-   "path": "Items/Accessories/Wings/HadarianWings.cs",
-   "wikiPage": true
-  },
-  {
    "class": "HeavyLaserRifle",
    "kind": "ModItem",
    "name": "Heavy Laser Rifle",
@@ -1784,10 +1756,10 @@
    "wikiPage": true
   },
   {
-   "class": "Hellkite",
+   "class": "HellsSun",
    "kind": "ModItem",
-   "name": "Hellkite",
-   "path": "Items/Weapons/Melee/Hellkite.cs",
+   "name": "Hell's Sun",
+   "path": "Items/Weapons/Rogue/HellsSun.cs",
    "wikiPage": true
   },
   {
@@ -1812,13 +1784,6 @@
    "wikiPage": true
   },
   {
-   "class": "HolyCollider",
-   "kind": "ModItem",
-   "name": "Holy Collider",
-   "path": "Items/Weapons/Melee/HolyCollider.cs",
-   "wikiPage": true
-  },
-  {
    "class": "HolyWrathPotion",
    "kind": "ModItem",
    "name": "Holy Wrath Potion",
@@ -1840,6 +1805,83 @@
    "wikiPage": true
   },
   {
+   "class": "KnowledgeBloodMoon",
+   "kind": "ModItem",
+   "name": "The Red Moon",
+   "path": "Items/LoreItems/KnowledgeBloodMoon.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "KnowledgeBrimstoneCrag",
+   "kind": "ModItem",
+   "name": "Brimstone Crag",
+   "path": "Items/LoreItems/KnowledgeBrimstoneCrag.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "KnowledgeDesertScourge",
+   "kind": "ModItem",
+   "name": "The Desert Scourge",
+   "path": "Items/LoreItems/KnowledgeDesertScourge.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "KnowledgeDragonfolly",
+   "kind": "ModItem",
+   "name": "The Dragonfolly",
+   "path": "Items/LoreItems/KnowledgeDragonfolly.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "KnowledgeLunaticCultist",
+   "kind": "ModItem",
+   "name": "Lunatic Cultist",
+   "path": "Items/LoreItems/KnowledgeLunaticCultist.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "KnowledgeMoonLord",
+   "kind": "ModItem",
+   "name": "Moon Lord",
+   "path": "Items/LoreItems/KnowledgeMoonLord.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "KnowledgeOcean",
+   "kind": "ModItem",
+   "name": "The Ocean",
+   "path": "Items/LoreItems/KnowledgeOcean.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "KnowledgeOldDuke",
+   "kind": "ModItem",
+   "name": "Old Duke",
+   "path": "Items/LoreItems/KnowledgeOldDuke.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "KnowledgeSentinels",
+   "kind": "ModItem",
+   "name": "The Sentinels of the Devourer",
+   "path": "Items/LoreItems/KnowledgeSentinels.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "KnowledgeWallofFlesh",
+   "kind": "ModItem",
+   "name": "Wall of Flesh",
+   "path": "Items/LoreItems/KnowledgeWallofFlesh.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "KnowledgeYharon",
+   "kind": "ModItem",
+   "name": "Jungle Dragon, Yharon",
+   "path": "Items/LoreItems/KnowledgeYharon.cs",
+   "wikiPage": true
+  },
+  {
    "class": "Lazhar",
    "kind": "ModItem",
    "name": "Lazhar",
@@ -1854,13 +1896,6 @@
    "wikiPage": true
   },
   {
-   "class": "Lucrecia",
-   "kind": "ModItem",
-   "name": "Lucrecia",
-   "path": "Items/Weapons/Melee/Lucrecia.cs",
-   "wikiPage": true
-  },
-  {
    "class": "LumenousAmulet",
    "kind": "ModItem",
    "name": "Lumenous Amulet",
@@ -1868,10 +1903,10 @@
    "wikiPage": true
   },
   {
-   "class": "MOAB",
+   "class": "LuminousStriker",
    "kind": "ModItem",
-   "name": "MOAB",
-   "path": "Items/Accessories/Wings/MOAB.cs",
+   "name": "Luminous Striker",
+   "path": "Items/Weapons/Rogue/LuminousStriker.cs",
    "wikiPage": true
   },
   {
@@ -1903,24 +1938,10 @@
    "wikiPage": false
   },
   {
-   "class": "MajesticGuard",
-   "kind": "ModItem",
-   "name": "Majestic Guard",
-   "path": "Items/Weapons/Melee/MajesticGuard.cs",
-   "wikiPage": false
-  },
-  {
    "class": "ManaJelly",
    "kind": "ModItem",
    "name": "Mana Jelly",
    "path": "Items/Accessories/ManaJelly.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "MantisClaws",
-   "kind": "ModItem",
-   "name": "Mantis Claws",
-   "path": "Items/Weapons/Melee/MantisClaws.cs",
    "wikiPage": true
   },
   {
@@ -1938,13 +1959,6 @@
    "wikiPage": true
   },
   {
-   "class": "Metastasis",
-   "kind": "ModItem",
-   "name": "Metastasis",
-   "path": "Items/Weapons/Summon/Metastasis.cs",
-   "wikiPage": true
-  },
-  {
    "class": "Minigun",
    "kind": "ModItem",
    "name": "Minigun",
@@ -1952,17 +1966,17 @@
    "wikiPage": true
   },
   {
-   "class": "MirrorBlade",
-   "kind": "ModItem",
-   "name": "Mirror Blade",
-   "path": "Items/Weapons/Melee/MirrorBlade.cs",
-   "wikiPage": true
-  },
-  {
    "class": "MolecularManipulator",
    "kind": "ModItem",
    "name": "Molecular Manipulator",
    "path": "Items/Weapons/Ranged/MolecularManipulator.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "MonkeyDarts",
+   "kind": "ModItem",
+   "name": "Monkey Darts",
+   "path": "Items/Weapons/Rogue/MonkeyDarts.cs",
    "wikiPage": true
   },
   {
@@ -1980,10 +1994,24 @@
    "wikiPage": true
   },
   {
+   "class": "NightsGaze",
+   "kind": "ModItem",
+   "name": "Night's Gaze",
+   "path": "Items/Weapons/Rogue/NightsGaze.cs",
+   "wikiPage": true
+  },
+  {
    "class": "NuclearRod",
    "kind": "ModItem",
    "name": "Nuclear Rod",
    "path": "Items/Accessories/NuclearRod.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Nychthemeron",
+   "kind": "ModItem",
+   "name": "Nychthemeron",
+   "path": "Items/Weapons/Rogue/Nychthemeron.cs",
    "wikiPage": true
   },
   {
@@ -2015,10 +2043,24 @@
    "wikiPage": true
   },
   {
+   "class": "PhantomLance",
+   "kind": "ModItem",
+   "name": "Phantom Lance",
+   "path": "Items/Weapons/Rogue/PhantomLance.cs",
+   "wikiPage": true
+  },
+  {
    "class": "Phantoplasm",
    "kind": "ModItem",
    "name": "Phantoplasm",
    "path": "Items/Materials/Phantoplasm.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "PhantoplasmDye",
+   "kind": "ModItem",
+   "name": "Phantoplasm Dye",
+   "path": "Items/Dyes/PhantoplasmDye.cs",
    "wikiPage": true
   },
   {
@@ -2057,17 +2099,10 @@
    "wikiPage": true
   },
   {
-   "class": "Popo",
+   "class": "PoisonPack",
    "kind": "ModItem",
-   "name": "Magic Scarf and Hat",
-   "path": "Items/Accessories/Vanity/Popo.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "PristineFury",
-   "kind": "ModItem",
-   "name": "Pristine Fury",
-   "path": "Items/Weapons/Ranged/PristineFury.cs",
+   "name": "Poison Pack",
+   "path": "Items/Weapons/Rogue/PoisonPack.cs",
    "wikiPage": true
   },
   {
@@ -2078,24 +2113,10 @@
    "wikiPage": true
   },
   {
-   "class": "ProfanedSoulCrystal",
-   "kind": "ModItem",
-   "name": "Profaned Soul Crystal",
-   "path": "Items/Accessories/ProfanedSoulCrystal.cs",
-   "wikiPage": true
-  },
-  {
    "class": "PurpleSeekingMechanism",
    "kind": "ModItem",
    "name": "Purple Seeking Mechanism",
    "path": "Items/LabFinders/PurpleSeekingMechanism.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "Rancor",
-   "kind": "ModItem",
-   "name": "Rancor",
-   "path": "Items/Weapons/Magic/Rancor.cs",
    "wikiPage": true
   },
   {
@@ -2134,10 +2155,10 @@
    "wikiPage": true
   },
   {
-   "class": "SHPC",
+   "class": "Sandslasher",
    "kind": "ModItem",
-   "name": "SHPC",
-   "path": "Items/Weapons/Magic/SHPC.cs",
+   "name": "Sandslasher",
+   "path": "Items/Weapons/Rogue/Sandslasher.cs",
    "wikiPage": true
   },
   {
@@ -2169,17 +2190,24 @@
    "wikiPage": true
   },
   {
-   "class": "SeraphTracers",
+   "class": "SearedPan",
    "kind": "ModItem",
-   "name": "Seraph Tracers",
-   "path": "Items/Accessories/Wings/SeraphTracers.cs",
+   "name": "Seared Pan",
+   "path": "Items/Weapons/Rogue/SearedPan.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "ShatteredSun",
+   "kind": "ModItem",
+   "name": "Shattered Sun",
+   "path": "Items/Weapons/Rogue/ShatteredSun.cs",
    "wikiPage": true
   },
   {
-   "class": "Serpentuna",
+   "class": "ShockGrenade",
    "kind": "ModItem",
-   "name": "Serpentuna",
-   "path": "Items/Fishing/SunkenSeaCatches/Serpentuna.cs",
+   "name": "Shock Grenade",
+   "path": "Items/Weapons/Rogue/ShockGrenade.cs",
    "wikiPage": true
   },
   {
@@ -2190,24 +2218,17 @@
    "wikiPage": true
   },
   {
-   "class": "SilvaWings",
+   "class": "SkyStabber",
    "kind": "ModItem",
-   "name": "Silva Wings",
-   "path": "Items/Accessories/Wings/SilvaWings.cs",
+   "name": "Sky Stabber",
+   "path": "Items/Weapons/Rogue/SkyStabber.cs",
    "wikiPage": true
   },
   {
-   "class": "SkylineWings",
+   "class": "SlickCane",
    "kind": "ModItem",
-   "name": "Skyline Wings",
-   "path": "Items/Accessories/Wings/SkylineWings.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "Slurpfish",
-   "kind": "ModItem",
-   "name": "Slurpfish",
-   "path": "Items/Fishing/BrimstoneCragCatches/Slurpfish.cs",
+   "name": "Slick Cane",
+   "path": "Items/Weapons/Rogue/SlickCane.cs",
    "wikiPage": true
   },
   {
@@ -2229,20 +2250,6 @@
    "kind": "ModItem",
    "name": "Soul Edge",
    "path": "Items/Weapons/Melee/SoulEdge.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "SoulofCryogen",
-   "kind": "ModItem",
-   "name": "Soul of Cryogen",
-   "path": "Items/Accessories/Wings/SoulofCryogen.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "Spadefish",
-   "kind": "ModItem",
-   "name": "Spadefish",
-   "path": "Items/Fishing/Spadefish.cs",
    "wikiPage": true
   },
   {
@@ -2288,17 +2295,10 @@
    "wikiPage": true
   },
   {
-   "class": "StarlightWings",
+   "class": "StickySpikyBall",
    "kind": "ModItem",
-   "name": "Starlight Wings",
-   "path": "Items/Accessories/Wings/StarlightWings.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "StellarStriker",
-   "kind": "ModItem",
-   "name": "Stellar Striker",
-   "path": "Items/Weapons/Melee/StellarStriker.cs",
+   "name": "Sticky Spiky Ball",
+   "path": "Items/Weapons/Rogue/StickySpikyBall.cs",
    "wikiPage": true
   },
   {
@@ -2323,13 +2323,6 @@
    "wikiPage": true
   },
   {
-   "class": "SunbeamFish",
-   "kind": "ModItem",
-   "name": "Sunbeam Fish",
-   "path": "Items/Fishing/SunbeamFish.cs",
-   "wikiPage": true
-  },
-  {
    "class": "SunkenCrate",
    "kind": "ModItem",
    "name": "Sunken Crate",
@@ -2349,20 +2342,6 @@
    "name": "Treasure Coffer (Supreme Calamitas)",
    "path": "Items/TreasureBags/SupremeCalamitasCoffer.cs",
    "wikiPage": false
-  },
-  {
-   "class": "SurfClam",
-   "kind": "ModItem",
-   "name": "Surf Clam",
-   "path": "Items/Fishing/SunkenSeaCatches/SurfClam.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "TarragonWings",
-   "kind": "ModItem",
-   "name": "Tarragon Wings",
-   "path": "Items/Accessories/Wings/TarragonWings.cs",
-   "wikiPage": true
   },
   {
    "class": "Taser",
@@ -2390,6 +2369,13 @@
    "kind": "ModItem",
    "name": "Terra Bullet",
    "path": "Items/Ammo/TerraBullet.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TerraDisk",
+   "kind": "ModItem",
+   "name": "Terra Disk",
+   "path": "Items/Weapons/Rogue/TerraDisk.cs",
    "wikiPage": true
   },
   {
@@ -2435,11 +2421,11 @@
    "wikiPage": true
   },
   {
-   "class": "TheMutilator",
-   "kind": "ModItem",
-   "name": "The Mutilator",
-   "path": "Items/Weapons/Melee/TheMutilator.cs",
-   "wikiPage": true
+   "class": "ThiccWaifu",
+   "kind": "ModNPC",
+   "name": "Cloud Elemental",
+   "path": "NPCs/NormalNPCs/ThiccWaifu.cs",
+   "wikiPage": false
   },
   {
    "class": "Thunderstorm",
@@ -2463,6 +2449,13 @@
    "wikiPage": true
   },
   {
+   "class": "TrackingDisk",
+   "kind": "ModItem",
+   "name": "Tracking Disk",
+   "path": "Items/Weapons/DraedonsArsenal/TrackingDisk.cs",
+   "wikiPage": true
+  },
+  {
    "class": "TrapperBulb",
    "kind": "ModItem",
    "name": "Trapper Bulb",
@@ -2474,13 +2467,6 @@
    "kind": "ModItem",
    "name": "Triumph Potion",
    "path": "Items/Potions/TriumphPotion.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "TrueBiomeBlade",
-   "kind": "ModItem",
-   "name": "Biome Blade",
-   "path": "Items/Weapons/Melee/TrueBiomeBlade.cs",
    "wikiPage": true
   },
   {

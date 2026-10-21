@@ -111,18 +111,37 @@ def load_calamity_names():
     return names
 
 
+CLASS_DECL = re.compile(r"\bclass\s+(\w+)\s*(?:<[^>{]*>)?\s*:\s*([\w.]+)")
+
+
+def resolve_mod_types(declarations):
+    """{classe: (base, chemin)} -> {classe: (chemin, type tModLoader)} en suivant l'héritage jusqu'à un Mod*.
+
+    Beaucoup d'objets de Calamity héritent d'une classe intermédiaire (RogueWeapon, BaseSwordHoldoutItem...) :
+    on remonte la chaîne. Les classes abstraites de base sont gardées aussi, sans conséquence (pas de DisplayName).
+    """
+    resolved = {}
+    for cls, (base, path) in declarations.items():
+        seen, current = set(), base.split(".")[-1]
+        while current in declarations and current not in seen:
+            seen.add(current)
+            current = declarations[current][0].split(".")[-1]
+        if current.startswith("Mod") or current.startswith("Global"):
+            resolved[cls] = (path, current)
+    return resolved
+
+
 def load_calamity_classes():
-    """Nom de classe -> chemin du .cs pour les ModItem / ModNPC / ModBuff / ModTile."""
-    classes = {}
-    pattern = re.compile(r"\bclass\s+(\w+)\s*:\s*(Mod\w+)")
+    """Nom de classe -> (chemin du .cs, type tModLoader : ModItem, ModNPC...), héritage indirect compris."""
+    declarations = {}
     for path in glob.glob(os.path.join(CALAMITY, "**", "*.cs"), recursive=True):
         try:
             text = open(path, encoding="utf-8-sig", errors="replace").read()
         except OSError:
             continue
-        for m in pattern.finditer(text):
-            classes.setdefault(m.group(1), (os.path.relpath(path, ROOT), m.group(2)))
-    return classes
+        for m in CLASS_DECL.finditer(text):
+            declarations.setdefault(m.group(1), (m.group(2), os.path.relpath(path, ROOT)))
+    return resolve_mod_types(declarations)
 
 
 def code_stats(path, kind):
