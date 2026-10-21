@@ -5,10 +5,10 @@
 | damage = 64
 | velocity = 25
 | tooltip = Casts small, homing light beads along with explosive light balls
-| use = 4
+| use = {{mode|4|6}}
 | knockback = 3
 | stack = 1
-| mana = 4
+| mana = {{mode|4|6}}
 | auto = yes
 | hardmode = yes
 | postml = yes

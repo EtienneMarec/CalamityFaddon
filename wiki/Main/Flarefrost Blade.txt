@@ -2,7 +2,7 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Melee
-| damage = 95
+| damage = {{mode|95|125}}
 | auto = yes
 | use = 23
 | velocity = 11

@@ -3,8 +3,8 @@
 | type = Weapon
 | auto = yes
 | damagetype = magic
-| damage = 150
-| mana = 20
+| damage = {{mode|150|140}}
+| mana = {{mode|20|40}}
 | tooltip = Baptism by holy fire<br/>Casts a barrage of fire from the sky
 | knockback = 3.5
 | velocity = 30

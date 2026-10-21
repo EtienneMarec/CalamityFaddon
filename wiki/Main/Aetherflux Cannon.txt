@@ -1,11 +1,11 @@
 {{item infobox
 | type = Weapon
-| damage = 247
+| damage = {{mode|247|315}}
 | damagetype = magic
 | auto = yes
 | stack = 1
 | knockback = 4
-| mana = 8
+| mana = {{mode|8|7}}
 | velocity = 24
 | use = 36
 | tooltip = Fires a barrage of phased god rays that pass through terrain

@@ -1,8 +1,8 @@
 {{item infobox
 | type = Weapon
 | damagetype = magic
-| damage = 18
-| knockback = 3.25
+| damage = {{mode|18|117}}
+| knockback = {{mode|3.25|3}}
 | velocity = 20
 | mana = 20 (primary)<br/>6 (secondary)
 | stack = 1

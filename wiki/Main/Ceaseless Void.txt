@@ -5,7 +5,7 @@
 | environment = Dungeon
 | ai = Ceaseless Void AI
 | damage = {{dv|150|300|330|348}} (Contact)<br/>{{dv|120|200|232|248}} (Laser Portal, Dark Energy Ball)
-| life = {{dv|64,400|103,040|123,648}}
+| life = {{mode|{{dv|64,400|103,040|123,648}}|50000}}
 | defense = 0
 | dr = 50
 | knockback = 100

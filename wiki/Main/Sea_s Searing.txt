@@ -6,8 +6,8 @@
 | knockback = 5
 | stack = 1
 | auto = yes
-| use = 15
-| velocity = 11
+| use = {{mode|15|10}}
+| velocity = {{mode|11|13}}
 | tooltip = Fires a string of bubbles summoning a shower of bubbles on hit<br/>Right click to fire a slower, larger water blast that summons a water spout
 | hardmode = yes
 | rare = 5

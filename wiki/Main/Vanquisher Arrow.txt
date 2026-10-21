@@ -1,6 +1,6 @@
 {{item infobox
 | type = Ammunition
-| damage = 24
+| damage = {{mode|24|16}}
 | damagetype = Ranged
 | knockback = 3.5
 | stack = 9999
@@ -10,7 +10,7 @@
 | sell = {{value|0|0|0|28}}
 | hardmode = yes
 | postml = yes
-| velocity = 10
+| velocity = {{mode|10|0.1}}
 | velocitymult = 2
 | debuff=God Slayer Inferno
 | debufftip=Your flesh is burning off

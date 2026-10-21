@@ -2,7 +2,7 @@
 {{item infobox
 | type = Weapon
 | type2 = Crafting material
-| damage = 50
+| damage = {{mode|50|30}}
 | mana = 10
 | use = 24
 | knockback = 4

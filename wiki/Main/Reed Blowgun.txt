@@ -5,9 +5,9 @@
 | type = Weapon
 | damage = 19
 | damagetype = Ranged
-| knockback = 13.5
+| knockback = {{mode|13.5|4.5}}
 | velocity = 16
-| use = 25
+| use = {{mode|25|32}}
 | rare = 2
 | sell = {{value|0|0|40}}
 | tooltip = Fires a high-pressure stream of bubbles<br/>{{color|The Old Sea Kingdom never truly sought to expand beyond its initial borders.|#5C95A1}}<br/>{{color|However, they had a perfect track record of repelling any invasions, thanks to their insurmountable advantage in the water.|#5C95A1}}

@@ -80,8 +80,8 @@ Elements: {
 }
 
 Buffs: {
-	Chilled: {
-		DisplayName: Chilled
+	Numbed: {
+		DisplayName: Numbed
 		Description: Slowed down and weakened by the cold
 	}
 
@@ -90,8 +90,8 @@ Buffs: {
 		Description: Burning, with lowered defense
 	}
 
-	Drowning: {
-		DisplayName: Drowning
+	Waterlogged: {
+		DisplayName: Waterlogged
 		Description: Slowed down and beginning to drown
 	}
 
@@ -105,8 +105,8 @@ Buffs: {
 		Description: Speed, damage and defense eaten away by acid
 	}
 
-	Irradiated: {
-		DisplayName: Irradiated
+	RadiationSickness: {
+		DisplayName: Radiation Sickness
 		Description: Heavy damage, lowered defense, no regeneration
 	}
 
@@ -145,8 +145,8 @@ Buffs: {
 		Description: Smitten by holy light
 	}
 
-	Cursed: {
-		DisplayName: Cursed
+	Damned: {
+		DisplayName: Damned
 		Description: Consumed by an unholy curse
 	}
 

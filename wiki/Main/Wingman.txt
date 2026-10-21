@@ -5,8 +5,8 @@
 | auto = yes
 | damagetype = magic
 | damage = 49
-| mana = 12
-| knockback = 3
+| mana = {{mode|12|8}}
+| knockback = {{mode|3|1.5}}
 | velocity = 25
 | tooltip = Fires a concentrated laser beam
 | rare = 8

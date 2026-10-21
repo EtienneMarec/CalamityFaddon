@@ -1,8 +1,8 @@
 {{item infobox	
 | type = Weapon
-| damage = 20
+| damage = {{mode|20|18}}
 | damagetype = Ranged
-| knockback = 2
+| knockback = {{mode|2|1.1}}
 | stack = 1
 | rare = 3
 | sell = {{value|0|0|80}}

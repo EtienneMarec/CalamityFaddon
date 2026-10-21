@@ -2,14 +2,14 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = ranged
-| damage = 48
+| damage = {{mode|48|85}}
 | knockback = 1.5
 | rare = 10
 | sell = {{value|0|20}}
 | stack = 1
 | auto = yes
-| use = 12
-| velocity = 9.5
+| use = {{mode|12|11}}
+| velocity = {{mode|9.5|10}}
 | tooltip = 70% chance to not consume flares<br/>Fires a storm of lost souls and flares
 | hardmode = yes
 | debuff = On Fire!

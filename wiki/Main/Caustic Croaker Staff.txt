@@ -4,7 +4,7 @@
 | damagetype = Summon
 | damage = 8
 | mana = 10
-| knockback = 0
+| knockback = {{mode|0|0.25}}
 | use = 34
 | tooltip = Summons a toad that explodes if enemies are nearby
 | stack = 1

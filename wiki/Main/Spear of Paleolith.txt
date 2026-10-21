@@ -1,7 +1,7 @@
 {{item infobox
 | type = Weapon
 | type2 = Crafting material
-| damage = 65
+| damage = {{mode|65|70}}
 | damagetype = Spy
 | rare = 5
 | stack = 1
@@ -15,7 +15,7 @@
 | debufftip = Your armor is shredded
 | debuffchance= 100%
 | debuffduration = 2 seconds (Spear)<br/>1 second (Fossil shards)
-| velocity = 35
+| velocity = {{mode|35|6}}
 | proj = Fossil Shard.png
 | projcaption = Fossil Shard
 | element1 = Dark

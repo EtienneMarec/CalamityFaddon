@@ -2,7 +2,7 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = ranged
-| damage = 100
+| damage = {{mode|100|118}}
 | knockback = 2.75
 | rare = 14
 | sell = {{value|0|36}}
@@ -10,7 +10,7 @@
 | critical = 19%
 | velocity = 16
 | auto = yes
-| use = 2
+| use = {{mode|2|3}}
 | tooltip = It came from the edge of Terraria<br/>50% chance to not consume ammo
 | hardmode = yes
 | postml = yes

@@ -1,12 +1,12 @@
 {{item infobox
 | type=Ammunition
 | name = Rubber Mortar Round
-| damage = 25
+| damage = {{mode|25|8}}
 | damagetype = ranged
 | stack = 9999
 | tooltip = Large blast radius<br/>Will destroy tiles on each bounce<br/>Used by normal guns
 | rare = 12
-| knockback = 7.5
+| knockback = {{mode|7.5|7}}
 | consumable = true
 | sell = {{value|0|0|0|20}}
 | hardmode = yes

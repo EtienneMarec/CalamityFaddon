@@ -2,7 +2,7 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Rogue
-| damage = 55
+| damage = {{mode|55|64}}
 | knockback = 5
 | velocity = 12
 | tooltip = Explodes into highly flammable black tar<br/>Tar oils enemies and sets them alight<br/>Stealth strikes leak tar as they fly

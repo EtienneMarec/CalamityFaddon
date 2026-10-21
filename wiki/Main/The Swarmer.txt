@@ -1,15 +1,15 @@
 {{dedicated|Battle Bee|Developer}}
 {{item infobox
 | type = Weapon
-| damage = 40
+| damage = {{mode|40|36}}
 | damagetype = magic
 | auto = yes
 | knockback = 0
-| mana = 7
+| mana = {{mode|7|14}}
 | rare = 10
 | tooltip = Fires a swarm of bees and wasps
 | sell = {{value|0|20}}
-| use = 8
+| use = {{mode|8|12}}
 | stack = 1
 | velocity = 12
 | hardmode = yes

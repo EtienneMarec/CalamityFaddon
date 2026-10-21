@@ -3,9 +3,9 @@
 | type = Weapon
 | damagetype = Rogue
 | damage = 323
-| knockback = 5
+| knockback = {{mode|5|4}}
 | use = 19
-| velocity = 18
+| velocity = {{mode|18|20}}
 | tooltip = Throws a slow moving boomerang<br/>After a few moments, the boomerang chooses a target and rapidly homes in<br/>Stealth strikes home in faster and rapidly release sand
 | debuff = Sulphuric Poisoning
 | debuffchance = 100%

@@ -12,7 +12,7 @@
 | sell = {{value|0|16}}
 | use = 14
 | hardmode = yes
-| velocity = 8.5
+| velocity = {{mode|8.5|14}}
 | buff =  Avertor Bonus | bufflink = no
 | duration = 20 seconds
 | bufftip = Boosted damage and life regeneration

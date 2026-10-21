@@ -4,7 +4,7 @@
 | environment = Cavern
 | ai = Bat AI
 | damage = {{dv|18|36}}
-| life = {{dv|50|100}}
+| life = {{mode|{{dv|50|100}}|75}}
 | defense = 10
 | banner = yes
 | money = {{value|0|0|3}}

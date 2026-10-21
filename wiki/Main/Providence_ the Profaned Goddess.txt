@@ -8,7 +8,7 @@ Daytime Form=[[File:Providence, the Profaned Goddess.png|300px]]
 Night Form=[[File:Providence, the Profaned Goddess (night).png|300px]]
 
 </Tabber> 
-| life = {{dv|312,500|500,000|600,000}}
+| life = {{mode|{{dv|312,500|500,000|600,000}}|250000}}
 | ai = Providence AI
 | environment = The Underworld
 | environment2 = The Hallow

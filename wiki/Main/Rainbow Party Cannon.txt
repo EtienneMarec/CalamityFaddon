@@ -2,11 +2,11 @@
 {{item infobox
 | type = Weapon
 | damagetype = Magic
-| damage = 225
+| damage = {{mode|225|170}}
 | critical = 8%
 | knockback = 3.5
 | use = 24
-| mana = 25
+| mana = {{mode|25|60}}
 | sspeed = 20
 | tooltip = {{color|Let the rainbow remind you that together we will always shine...|#9c6cfb}}
 | rare = 16

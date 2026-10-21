@@ -1,14 +1,14 @@
 {{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 7
+| damage = {{mode|7|16}}
 | knockback = 1
 | rare = 1
 | sell = {{value|0|0|20}}
 | stack = 1
 | auto = yes
-| use = 30
-| velocity = 5
+| use = {{mode|30|48}}
+| velocity = {{mode|5|6}}
 | tooltip = 70% chance to not consume gel
 | debuff = On Fire!
 | debuffchance = 100%

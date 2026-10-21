@@ -2,10 +2,10 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 16
+| damage = {{mode|16|19}}
 | use = 17
 | knockback = 1.5
-| velocity = 6.5
+| velocity = {{mode|6.5|5}}
 | auto = yes
 | stack = 1
 | tooltip = 33% chance to not consume gel<br/>Fires a large spread of bouncing slime

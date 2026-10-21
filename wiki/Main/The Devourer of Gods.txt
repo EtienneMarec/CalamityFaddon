@@ -6,7 +6,7 @@
 | name = The Devourer of Gods
 | ai = Torch God AI
 | imagealt = [[File:The Devourer of Gods.png|320px]]
-| life = {{dv|888,750|1,422,000|1,706,400}}
+| life = {{mode|{{dv|888,750|1,422,000|1,706,400}}|750000}}
 | knockback = 100
 | debuff = Warped | debufflink = no
 | debuffchance = 100%

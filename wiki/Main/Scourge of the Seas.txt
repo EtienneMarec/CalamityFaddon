@@ -3,11 +3,11 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Rogue
-| damage = 45
+| damage = {{mode|45|50}}
 | tooltip = Snaps apart into a venomous cloud upon striking an enemy<br/>Stealth strikes are coated with vile toxins, afflicting enemies with a powerful debuff
 | use = 19
 | knockback = 3.5
-| velocity = 8
+| velocity = {{mode|8|10}}
 | auto = yes
 | stack = 1
 | rare = 5

@@ -1,7 +1,7 @@
 {{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 13
+| damage = {{mode|13|18}}
 | use = 35
 | knockback = 2.25
 | velocity = 14

@@ -4,7 +4,7 @@
 | auto = yes
 | damagetype = magic
 | damage = 140
-| mana = 10
+| mana = {{mode|10|14}}
 | stack = 1
 | tooltip = WOOO!! FAAAAAAANTASYY WORLDDDDD!<br/>Fires music notes<br/>Right click summons an amplifier that shoots towards your mouse
 | knockback = 5

@@ -1,10 +1,10 @@
 {{item infobox
 | type = Weapon
-| damage = 2000
+| damage = {{mode|2000|135}}
 | critical = 66%
-| use = 19
-| knockback = 8
-| velocity = 12
+| use = {{mode|19|38}}
+| knockback = {{mode|8|3}}
+| velocity = {{mode|12|15}}
 | tooltip = Uses Magnum Rounds<br/>Can be used thrice per boss battle
 | rare = 10
 | stack = 1

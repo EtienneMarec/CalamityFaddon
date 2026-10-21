@@ -1,6 +1,6 @@
 {{item infobox
 | type = Covering
-| defense = 18
+| defense = {{mode|18|8}}
 | tooltip = Causes stars to fall and gives increased immune time when damaged<br/>Provides life regeneration and reduces the cooldown of healing potions<br/>Absorbs 25% of damage done to players on your team<br/>This effect is only active above 25% life<br/>Grants immunity to knockback<br/>Puts a shell around the owner when below 50% life that reduces damage<br/>The shell becomes more powerful when below 15% life and reduces damage even further
 | sell = {{value|0|28}}
 | stack = 1

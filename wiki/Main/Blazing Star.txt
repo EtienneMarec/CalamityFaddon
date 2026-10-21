@@ -1,10 +1,10 @@
 {{item infobox
 | type = Weapon
-| damage = 129
+| damage = {{mode|129|75}}
 | critical = 8%
 | damagetype = Spy
 | velocity = 13
-| knockback = 4
+| knockback = {{mode|4|3}}
 | use = 14
 | tooltip = Stacks up to 4<br/>Stealth strikes release all stars at once with infinite piercing
 | rare = 4

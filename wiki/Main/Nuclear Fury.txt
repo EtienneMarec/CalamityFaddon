@@ -1,12 +1,12 @@
 {{item infobox
 | type = Weapon
 | type2 = Crafting material
-| damage = 114
+| damage = {{mode|114|91}}
 | damagetype = magic
 | auto = yes
 | knockback = 5
 | velocity = 16
-| mana = 13
+| mana = {{mode|13|30}}
 | stack = 1
 | tooltip = Casts a torrent of cosmic typhoons
 | use = 25

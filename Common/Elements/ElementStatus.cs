@@ -30,12 +30,12 @@ namespace CalamityFandom.Common.Elements
         }
     }
 
-    public class Chilled : ElementStatus { public override Element Element => Element.Cold; }
+    public class Numbed : ElementStatus { public override Element Element => Element.Cold; }
     public class Ablaze : ElementStatus { public override Element Element => Element.Fire; }
-    public class Drowning : ElementStatus { public override Element Element => Element.Water; }
+    public class Waterlogged : ElementStatus { public override Element Element => Element.Water; }
     public class Envenomed : ElementStatus { public override Element Element => Element.Poison; }
     public class Corroded : ElementStatus { public override Element Element => Element.Acid; }
-    public class Irradiated : ElementStatus { public override Element Element => Element.Radioactive; }
+    public class RadiationSickness : ElementStatus { public override Element Element => Element.Radioactive; }
     public class Shocked : ElementStatus { public override Element Element => Element.Electricity; }
     public class Punctured : ElementStatus { public override Element Element => Element.Stab; }
     public class Lacerated : ElementStatus { public override Element Element => Element.Slash; }
@@ -43,6 +43,6 @@ namespace CalamityFandom.Common.Elements
     public class Hexed : ElementStatus { public override Element Element => Element.Magic; }
     public class Incapacitated : ElementStatus { public override Element Element => Element.Dark; }
     public class Smitten : ElementStatus { public override Element Element => Element.Holy; }
-    public class Cursed : ElementStatus { public override Element Element => Element.Unholy; }
+    public class Damned : ElementStatus { public override Element Element => Element.Unholy; }
     public class Malfunctioning : ElementStatus { public override Element Element => Element.Machine; }
 }

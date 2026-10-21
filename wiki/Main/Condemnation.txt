@@ -2,10 +2,10 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 1914
+| damage = {{mode|1914|2130}}
 | knockback = 5
-| use =23
-| velocity = 14.5
+| use ={{mode|23|22}}
+| velocity = {{mode|14.5|16}}
 | tooltip = Fires powerful scarlet bolts suffused with hateful magics<br/>Hold left click to load up to eight bolts for powerful burst fire<br/>Hold right click to use the repeater full auto
 | rare = 15
 | sell = {{value|0|30}}

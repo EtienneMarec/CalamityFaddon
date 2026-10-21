@@ -2,11 +2,11 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 175
+| damage = {{mode|175|180}}
 | knockback = 7
 | use = 40
 | stack = 1
-| velocity = 2
+| velocity = {{mode|2|3}}
 | tooltip = Launches an explosive astral crystal
 | auto = yes
 | rare = 7

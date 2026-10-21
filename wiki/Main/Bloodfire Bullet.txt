@@ -1,14 +1,14 @@
 {{item infobox
 | type = Ammunition
 | tooltip = Accelerates your life regeneration on hit<br/>Deals bonus damage based on your current life regeneration
-| damage = 26
+| damage = {{mode|26|17}}
 | damagetype = ranged
 | stack = 9999
 | consumable = yes
 | knockback = 4.5
 | sell = {{value|0|0|0|80}}
 | rare = 12
-| velocity = 4.8
+| velocity = {{mode|4.8|0.1}}
 | velocitymult = 5
 | hardmode = yes
 | postml = yes

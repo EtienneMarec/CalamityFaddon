@@ -3,7 +3,7 @@
 | environment = Cavern
 | ai = Slime AI
 | damage = {{element|Holy}} {{dv|30|60}}
-| life = {{dv|120|240}}
+| life = {{mode|{{dv|120|240}}|280}}
 | defense = 12
 | knockback = 100
 | banner = yes

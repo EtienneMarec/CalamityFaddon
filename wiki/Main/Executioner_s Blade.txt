@@ -2,11 +2,11 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Rogue
-| damage = 200
+| damage = {{mode|200|165}}
 | tooltip = Throws a stream of homing blades<br/>Stealth strikes summon a guillotine of blades on hit
 | knockback = 6.75
 | use = 8
-| velocity = 26
+| velocity = {{mode|26|24}}
 | rare = 14
 | auto = yes
 | sell = {{value|0|36}}

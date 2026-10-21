@@ -1,7 +1,7 @@
 {{item infobox
 |type = Weapon
 |damagetype = Summon
-|damage = 35
+|damage = {{mode|35|60}}
 |knockback = 2
 |mana = 10
 | auto = yes

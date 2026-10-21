@@ -1,12 +1,12 @@
 {{item infobox
 | type = Weapon
 | type2 = Crafting material
-| damage = 955
+| damage = {{mode|955|140}}
 | damagetype = Spy
 | knockback = 8
 | use = 34
 | auto = yes
-| velocity = 14.5
+| velocity = {{mode|14.5|12}}
 | tooltip =  Fires an enormous ghost lance that emits lost souls as it flies<br/>Explodes into tormented souls on enemy hits<br/>Stealth strikes continuously leave spectral clones in their wake
 | hardmode = yes
 | postml = yes

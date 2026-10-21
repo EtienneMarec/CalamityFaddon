@@ -1,14 +1,14 @@
 {{item infobox
 | type = Weapon
 | type2 = Crafting material
-| damage = 150
+| damage = {{mode|150|400}}
 | use = 37
 | knockback = 10
 | damagetype = Spy
 | rare = 9
 | tooltip = Fires a huge destructive mine that explodes into destruction bolts<br/>Amount of bolts scales with enemies hit, up to 16<br/>Stealth strikes always explode into the max amount of bolts
 | sell = {{value|0|19}}
-| velocity = 5
+| velocity = {{mode|5|12}}
 | stack = 1
 | auto = yes
 | hardmode = yes

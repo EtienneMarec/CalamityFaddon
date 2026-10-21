@@ -2,7 +2,7 @@
 {{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 200
+| damage = {{mode|200|180}}
 | knockback = 13
 | rare = 4
 | sell = {{value|0|2|40}}
@@ -10,7 +10,7 @@
 | auto = yes
 | use = 44
 | critical = 12%
-| velocity = 10
+| velocity = {{mode|10|4}}
 | tooltip = You couldn’t get it out of the rock, so you just brought the rock instead<br/>A hellish entity of flesh holds the key to this weapon’s power<br/>Left click to shoot several rock shards<br/>Right click to dive downwards and bounce off enemies<br/>Diving into blocks creates a shockwave
 | hardmode = yes
 | proj = Rox (projectile).png

@@ -2,8 +2,8 @@
 | type = Weapon
 | auto = yes
 | damagetype = magic
-| damage = 155
-| mana = 42
+| damage = {{mode|155|162}}
+| mana = {{mode|42|54}}
 | stack = 1
 | tooltip = Fires five randomized beams of elemental energy at the cursor<br/>On enemy and tile hits, beams either explode into a big flash,<br/>summon an additonal laser from the sky,<br/>or split into energy orbs<br/>Its majesty inspires a stroke of unparalleled genius
 | knockback = 7.5

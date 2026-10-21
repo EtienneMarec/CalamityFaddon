@@ -2,15 +2,15 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 80
-| use = 9
+| damage = {{mode|80|89}}
+| use = {{mode|9|18}}
 | knockback = 5
 | auto = yes
 | tooltip = Converts musket balls into toxic and normal water blasts
 | stack = 1
 | rare = 7
 | sell = {{value|0|12}}
-| velocity = 12
+| velocity = {{mode|12|13}}
 | hardmode = yes
 | debuff = Poisoned
 | debuffchance = 100%

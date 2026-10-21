@@ -5,7 +5,7 @@
 | damage = 60
 | knockback = 7
 | use = 14
-| velocity = 12
+| velocity = {{mode|12|16}}
 | tooltip = Fires javelins that stick to enemies before bursting into shrapnel
 | debuff = Venom
 | debufftip = Losing life

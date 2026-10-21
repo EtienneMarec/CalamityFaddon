@@ -2,14 +2,14 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Ranged
-| damage = 34
+| damage = {{mode|34|45}}
 | knockback = 4
 | rare = 8
 | sell = {{value|0|16}}
 | stack = 1
 | auto = yes
 | velocity = 17
-| use = 20
+| use = {{mode|20|24}}
 | hardmode = yes
 | debuff = Ichor (debuff)
 | debuffduration = 10 seconds (Ichor Arrow)

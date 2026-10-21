@@ -2,10 +2,10 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Rogue
-| damage = 290
+| damage = {{mode|290|300}}
 | knockback = 4
 | use = 8
-| velocity = 12
+| velocity = {{mode|12|16}}
 | tooltip = Throws sacrificial daggers that lodge themselves in enemies<br/>Right click causes all stuck daggers to fly back at you and give you life<br/>Daggers stuck to enemies release bloodsplosions over time<br/>Stealth strikes provide much more life when returning to you
 | rare = 15
 | sell = {{value|0|30}}

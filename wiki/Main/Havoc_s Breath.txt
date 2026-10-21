@@ -9,7 +9,7 @@
 | sell = {{value|0|12}}
 | stack = 1
 | auto = yes
-| use = 30
+| use = {{mode|30|35}}
 | velocity = 8.5
 | hardmode = yes
 | debuff = Brimstone Flames

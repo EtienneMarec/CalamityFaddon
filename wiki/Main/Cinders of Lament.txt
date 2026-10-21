@@ -2,7 +2,7 @@
 | type = Weapon
 | damagetype = Summon
 | damage = 1666
-| knockback = 0
+| knockback = {{mode|0|0.25}}
 | mana = 10
 | use = 29
 | tooltip = Summons either Cataclysm or Catastrophe at the mouse position<br/>They will look at you for a moment before charging at you<br/>They can do damage to both you and enemies<br/>{{color|The Witch, a sinner of her own making,|#C61B40}}<br/>{{color|Within her mind her demon lies, ever patient, until the end of time.|#C61B40}}

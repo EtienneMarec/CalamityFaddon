@@ -1,12 +1,12 @@
 {{infobox wrapper
 |{{item infobox	
 | type = Weapon
-| damage = 416
+| damage = {{mode|416|277}}
 | damagetype = Ranged
 | knockback = 1.5
 | stack = 1
 | auto = yes
-| use = 33
+| use = {{mode|33|30}}
 | rare = 15
 | sell = {{value|0|30}}
 | velocity = 14.5

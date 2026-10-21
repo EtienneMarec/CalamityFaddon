@@ -125,6 +125,7 @@ def main():
 
     items, npcs, full_items, full_npcs = {}, {}, {}, {}
     era, pending, decided, unverified, explicit = [], [], [], [], []
+    full_only_fields = []  # champs « Full Fandom seulement » par règle : à écrire en {{mode}} (tools/apply_modes.py)
 
     def place(cls, page, k, value, target, layer_all, layer_full):
         layer = layer_full if target == "full" else layer_all
@@ -153,6 +154,8 @@ def main():
                 """« full » (Full Fandom seulement) ou « all » (tous les modes) : voir docs/decisions.md."""
                 if o is not None and abs(o - w) < 1e-6:
                     era.append((page["title"], cls, k, w, c))
+                    full_only_fields.append({"file": page["file"], "title": page["title"], "class": cls, "kind": kind,
+                                             "field": k, "wiki": w, "code": c, "why": "valeur 2022"})
                     return "full"
                 if k in ("damage", "useAnimation", "mana", "defense", "life") and extreme(w, c):
                     if page["title"] in everywhere:
@@ -160,6 +163,8 @@ def main():
                         return "all"
                     if page["title"] in full_only:
                         decided.append((page["title"], cls, k, w, c, "Full Fandom seulement"))
+                        full_only_fields.append({"file": page["file"], "title": page["title"], "class": cls, "kind": kind,
+                                                 "field": k, "wiki": w, "code": c, "why": "décision"})
                     else:
                         pending.append((page["title"], cls, k, w, c))
                     return "full"
@@ -224,8 +229,18 @@ def main():
                         continue
                     place(cls, page, k + "Ratio", round(w / c, 4), target_for(k, w, c, old.get(k)), npcs, full_npcs)
                 w, c = number(f.get("defense")), code.get("defense")
-                if w is not None and (c is None or abs(w - c) > 1e-6):
+                if has_mode(raw_fields.get("defense")) and w is not None:
+                    explicit.append((page["title"], cls, "defense"))
+                    if c is None or abs(w - c) > 1e-6:
+                        npcs.setdefault(cls, {"page": page["file"]})["defense"] = int(w)
+                    full = number(pick_mode(raw_fields.get("defense"), "fandom"))
+                    if full is not None and abs(full - w) > 1e-6:
+                        full_npcs.setdefault(cls, {"page": page["file"]})["defense"] = int(full)
+                elif w is not None and (c is None or abs(w - c) > 1e-6):
                     place(cls, page, "defense", int(w), target_for("defense", w, c, old.get("defense")), npcs, full_npcs)
+
+    with open(os.path.join(ROOT, "data", "stats_full_only.json"), "w", encoding="utf-8") as fh:
+        json.dump(full_only_fields, fh, ensure_ascii=False, indent=0)
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as fh:

@@ -2,9 +2,9 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Magic
-| damage = 93
-| knockback = 4
-| mana = 15
+| damage = {{mode|93|2626}}
+| knockback = {{mode|4|6.5}}
+| mana = {{mode|15|60}}
 | use = 16
 | velocity = 20
 | tooltip = Releases a volley of venomous fangs and spit

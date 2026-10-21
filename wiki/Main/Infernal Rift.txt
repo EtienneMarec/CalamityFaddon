@@ -3,10 +3,10 @@
 | type2 = Crafting material
 | auto = yes
 | damagetype = magic
-| damage = 40
-| mana = 15
+| damage = {{mode|40|50}}
+| mana = {{mode|15|25}}
 | critical = 29%
-| velocity = 16
+| velocity = {{mode|16|28}}
 | tooltip = Summons infernal blades that spawn additional blades on enemy hits
 | knockback = 7
 | rare = 5

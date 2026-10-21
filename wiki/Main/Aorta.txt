@@ -4,7 +4,7 @@
 | damagetype = Melee
 | rare = 3
 | sell = {{value|0|0|80}}
-| damage = 29
+| damage = {{mode|29|31}}
 | reach = 16.25
 | attduration = 5.5 seconds
 | tooltip = Fires homing blood when enemies are near<br/>An exceptionally agile yoyo

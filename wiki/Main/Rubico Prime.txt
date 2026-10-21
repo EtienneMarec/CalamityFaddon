@@ -2,10 +2,10 @@
 {{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 1178
+| damage = {{mode|1178|450}}
 | critical = 44%
 | knockback = 10
-| use = 300
+| use = {{mode|300|50}}
 | tooltip = Semi-automatic sniper that fires in 5 second bursts<br/>Fires impact rounds that have an increased crit multiplier
 | velocity = 12
 | stack = 1

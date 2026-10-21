@@ -3,8 +3,8 @@
 | damagetype = Summon
 | damage = 100
 | mana = 10
-| use = 24
-| knockback = 0
+| use = {{mode|24|30}}
+| knockback = {{mode|0|0.25}}
 | tooltip = A device used to defend against the weaker, less cognizant rogue creations of Draedon<br/>Summons a pulse turret which eradicates nearby foes with focused energy blasts<br/>Only one pulse turret may exist at a time<br/>Current Charge: [CHARGE]
 | stack = 1
 | auto = yes

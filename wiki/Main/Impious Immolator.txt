@@ -2,7 +2,7 @@
 | type = Flying Enemy
 | ai = Impious Immolator AI
 | damage = 0 (Contact)<br/>{{element|Holy}} {{dv|110|168}} (Flame bursts)
-| life = 5,775
+| life = {{mode|5,775|3000}}
 | defense = 30
 | knockback = {{dv|80%|82%}}
 | environment = The Hallow

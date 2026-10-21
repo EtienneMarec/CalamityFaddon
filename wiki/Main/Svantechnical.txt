@@ -2,14 +2,14 @@
 {{item infobox
 | type = Weapon
 | damagetype = ranged
-| damage = 150
+| damage = {{mode|150|232}}
 | knockback = 3.5
 | rare = 16
 | sell = {{value|0|40}}
 | stack = 1
-| velocity = 12
+| velocity = {{mode|12|6}}
 | auto = yes
-| use = 24
+| use = {{mode|24|4}}
 | tooltip = Fires several barrages of bullets<br/>Right click to zoom out
 | hardmode = yes
 | postml = yes

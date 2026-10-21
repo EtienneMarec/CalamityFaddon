@@ -5,7 +5,7 @@
 | ai = Mirage Jelly AI
 | damage = {{element|Dark}} {{dv|100|200}}
 | life = {{dv|6,000|12,000}}
-| defense = 10
+| defense = {{mode|10|30}}
 | knockback = 100
 | debuff = Electrified
 | debuffchance = 100%

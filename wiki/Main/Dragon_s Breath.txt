@@ -1,15 +1,15 @@
 {{infobox wrapper
 |{{item infobox	
 | type = Weapon
-| damage = 198
+| damage = {{mode|198|328}}
 | damagetype = Ranged
-| knockback = 6.5
+| knockback = {{mode|6.5|4.5}}
 | stack = 1
 | rare = 15
 | sell = {{value|0|30}}
 | auto = yes
-| use = 18
-| velocity = 12
+| use = {{mode|18|30}}
+| velocity = {{mode|12|3.5}}
 | tooltip = Left click fires in two-shot bursts<br/>The first shot is a spread of 6 normal bullets<br/>The second shot is a tight spread of 6 Dragon's Breath rounds<br/>Right click fires full auto and mixes the bullets randomly, but does 20% less damage<br/>This weapon has no randomness to its spread pattern<br/>66% chance to not consume ammo
 | debuff = On Fire!
 | debuffchance = 100%

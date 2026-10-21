@@ -1,15 +1,15 @@
 {{item infobox
 | type = Weapon
 | tooltip = Casts a slow-moving ball of frost
-| damage = 14
+| damage = {{mode|14|25}}
 | damagetype = magic
-| mana = 6
-| use = 20
+| mana = {{mode|6|8}}
+| use = {{mode|20|30}}
 | knockback = 3.5
 | rare = 2
 | sell = {{value|0|0|40}}
 | auto = yes
-| velocity = 6
+| velocity = {{mode|6|8}}
 | stack = 1
 | type2 = Crafting material
 | debuff = Frostburn

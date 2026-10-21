@@ -3,12 +3,12 @@
 | type2 = Crafting material
 | auto = yes
 | damagetype = Ranged
-| damage = 68
+| damage = {{mode|68|3170}}
 | tooltip = Fires a spread of plasma blasts
 | knockback = 15
 | rare = 10
 | sell = {{value|0|20}}
-| use = 55
+| use = {{mode|55|70}}
 | velocity = 12
 | stack = 1
 | hardmode = yes

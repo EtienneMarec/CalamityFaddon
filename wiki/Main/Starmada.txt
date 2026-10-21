@@ -2,13 +2,13 @@
 | type = Weapon
 | auto = yes
 | damagetype = ranged
-| damage = 135
+| damage = {{mode|135|4900}}
 | knockback = 15
 | rare = 14
 | sell = {{value|0|36}}
-| use = 27
+| use = {{mode|27|70}}
 | tooltip = Fires a barrage of stars and plasma blasts
-| velocity = 16
+| velocity = {{mode|16|12}}
 | stack = 1
 | hardmode = yes
 | postml = yes

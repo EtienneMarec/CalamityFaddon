@@ -11,7 +11,7 @@
 | auto = yes
 | hardmode = yes
 | tooltip = Throws an abyssal hatchet that inflicts Armor Crunch and Marked for Death to the enemies it hits<br/>Stealth strikes cause the hatchet to be thrown faster and trail water, inflicting Crush Depth in addition to the other debuffs
-| velocity = 14
+| velocity = {{mode|14|17}}
 | debuff = Armor Crunch
 | debufftip = Your armor is shredded
 | debuffchance = 100%

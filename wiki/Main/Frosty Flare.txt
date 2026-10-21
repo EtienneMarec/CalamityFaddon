@@ -1,7 +1,7 @@
 {{item infobox
 |type = Weapon
 |consumable = true
-|damage = 32
+|damage = {{mode|32|37}}
 |damagetype = Spy
 |use = 15
 |knockback = 2

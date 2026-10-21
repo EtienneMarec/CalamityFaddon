@@ -2,9 +2,9 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 71
+| damage = {{mode|71|38}}
 | use = 24
-| velocity = 10
+| velocity = {{mode|10|16}}
 | knockback = 4.25
 | auto = yes
 | tooltip = Fires a blood ball that sticks to tiles and explodes

@@ -1,12 +1,12 @@
 {{item infobox
 | type = Ammunition
 | tooltip = Your enemies might have a bad time<br/>Spawns additional bullets on enemy hits
-| damage = 18
+| damage = {{mode|18|12}}
 | damagetype = ranged
 | stack = 9999
 | knockback = 1.5
 | rare = 9
-| velocity = 16
+| velocity = {{mode|16|5}}
 | velocitymult = 4
 | consumable = yes
 | hardmode = yes

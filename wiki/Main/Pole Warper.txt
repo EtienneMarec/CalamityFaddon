@@ -1,9 +1,9 @@
 {{item infobox
 | type = Weapon
 | damagetype = Summon
-| damage = 310
+| damage = {{mode|310|207}}
 | mana = 12
-| use = 9
+| use = {{mode|9|24}}
 | knockback = 8
 | tooltip = Magnetic devices which tear at foes by propelling themselves off their opposite counterparts<br/>Incredibly dangerous<br/>Summons a pair of floating magnets that repel each other and relentlessly swarm enemies<br/>Current Charge: [CHARGE]
 | stack = 1

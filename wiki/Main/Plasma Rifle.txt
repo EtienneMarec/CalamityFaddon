@@ -1,6 +1,6 @@
 {{item infobox
 | type = Weapon
-| damage = 160
+| damage = {{mode|160|120}}
 | damagetype = magic
 | auto = yes
 | knockback = 4
@@ -8,9 +8,9 @@
 | tooltip = Fires a plasma blast that explodes<br/>Right click to fire plasma bolts
 | rare = 12
 | sell = {{value|0|24}}
-| use = 8
+| use = {{mode|8|40}}
 | stack = 1
-| velocity = 12
+| velocity = {{mode|12|14}}
 | hardmode = yes
 | postml = yes
 | proj = Toxic Clouds.png

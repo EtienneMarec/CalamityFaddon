@@ -4,10 +4,10 @@
 | damagetype = Melee
 | rare = 7
 | sell = {{value|0|12}}
-| damage = 95
+| damage = {{mode|95|81}}
 | use = 23
 | knockback = 7
-| velocity = 18
+| velocity = {{mode|18|10}}
 | tooltip = Summons teeth from the sky on hit
 | debuff = Poisoned
 | debufftip = Slowly losing life

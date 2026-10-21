@@ -2,9 +2,9 @@
 | type = Flying Enemy
 | ai = Bat AI
 | environment = Jungle
-| life = {{dv|500|1,000}}
+| life = {{mode|{{dv|500|1,000}}|800}}
 | damage = {{element|Poison}} {{dv|55|110}}
-| defense = 15
+| defense = {{mode|15|20}}
 | knockback = 100
 | immune1 = Kami Flu
 | immune2 = Plague

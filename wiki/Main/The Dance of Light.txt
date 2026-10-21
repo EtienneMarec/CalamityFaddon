@@ -2,10 +2,10 @@
 {{item infobox
 | type = Weapon
 | damagetype = Magic
-| damage = 415
+| damage = {{mode|415|515}}
 | critical = 24%
 | knockback = 4
-| mana = 6
+| mana = {{mode|6|26}}
 | use = 8
 | velocity = 14
 | auto = yes

@@ -1,15 +1,15 @@
 {{item infobox
 | type = Weapon
 | tooltip = Casts a slow-moving ball of flame
-| damage = 42
+| damage = {{mode|42|40}}
 | damagetype = magic
-| mana = 12
-| use = 30
-| knockback = 5.5
+| mana = {{mode|12|40}}
+| use = {{mode|30|80}}
+| knockback = {{mode|5.5|5}}
 | rare = 3
 | sell = {{value|0|0|80}}
 | auto = yes
-| velocity = 7.5
+| velocity = {{mode|7.5|6.5}}
 | stack = 1
 | type2 = Crafting material
 | debuff = On Fire!

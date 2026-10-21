@@ -10,7 +10,7 @@
 | stack = 1
 | sell = {{value|0|2|40}}
 | auto = yes
-| use = 24
+| use = {{mode|24|36}}
 | tooltip = Summons a Black Hawk jet to fight for you
 | buff = Black Hawk (buff)| bufflink = no
 | bufftip = The fighter jet will protect you

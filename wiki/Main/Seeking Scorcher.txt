@@ -2,10 +2,10 @@
 | auto = yes
 | type = Weapon
 | stack = 1
-| damage = 177
+| damage = {{mode|177|1170}}
 | damagetype = Melee
 | use = 16
-| velocity = 14
+| velocity = {{mode|14|12}}
 | tooltip = May your enemies burn in hell for the sins they have committed<br/>Throws a holy boomerang that seeks out up to three{{sic}} enemies before returning to the player
 | knockback = 8.50
 | rare = 12

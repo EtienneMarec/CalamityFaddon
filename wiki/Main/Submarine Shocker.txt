@@ -4,7 +4,7 @@
 | damagetype = Melee
 | tooltip = Enemies release electric sparks on hit<br/>Shortflurry attacks spawn poisonous clouds
 | damage = 42
-| use = 10
+| use = {{mode|10|16}}
 | knockback = 7
 | auto = yes
 | stack = 1

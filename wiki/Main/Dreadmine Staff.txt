@@ -1,6 +1,6 @@
 {{item infobox
 | type = Weapon
-| damage = 60
+| damage = {{mode|60|40}}
 | auto = yes
 | use = 24
 | mana = 10

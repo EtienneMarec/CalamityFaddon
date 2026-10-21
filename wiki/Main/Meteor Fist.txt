@@ -1,14 +1,14 @@
 {{item infobox
 | type = Weapon
 | damagetype = Rogue
-| damage = 15
+| damage = {{mode|15|31}}
 | knockback = 5.75
 | rare = 2
 | sell = {{value|0|0|40}}
 | stack = 1
 | auto = yes
-| use = 30
-| velocity = 5
+| use = {{mode|30|25}}
+| velocity = {{mode|5|4}}
 | extraupdates = 1
 | debuff = On Fire!
 | debufftip = Slowly losing life

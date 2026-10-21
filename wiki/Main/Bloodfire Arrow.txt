@@ -1,7 +1,7 @@
 {{item infobox
 | type = Ammunition
 | consumable = yes
-| damage = 29
+| damage = {{mode|29|19}}
 | damagetype = ranged
 | velocity = 10
 | stack = 9999

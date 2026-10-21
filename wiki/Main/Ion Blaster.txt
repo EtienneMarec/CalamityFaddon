@@ -10,11 +10,11 @@
 | debuffduration = 2 seconds
 | debufftip = Rapid health loss
 | debuffchance=100%
-| knockback = 5.5
+| knockback = {{mode|5.5|6}}
 | velocity = 3
 | rare = 5
 | sell = {{value|0|4|80}}
-| use = 10
+| use = {{mode|10|7}}
 | stack = 1
 | hardmode = yes
 | proj = Ion Blast.png

@@ -5,7 +5,7 @@
 | auto = yes
 | damagetype = melee
 | tooltip = Summons flaming pumpkins and mourning skulls that split into fire orbs on enemy hits
-| damage = 360
+| damage = {{mode|360|600}}
 | knockback = 8.5
 | rare = 13
 | sell = {{value|0|26}}

@@ -3,7 +3,7 @@
 |type2 = Crafting material
 |consumable = true
 |stack = 9999
-|damage = 45
+|damage = {{mode|45|35}}
 |damagetype = Spy
 |knockback = 2.5
 |use = 11

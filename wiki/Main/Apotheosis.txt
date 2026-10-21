@@ -7,10 +7,10 @@
 | damagetype = magic
 | auto = yes
 | knockback = 6.9
-| mana = 42
+| mana = {{mode|42|277}}
 | tooltip = Eat worms<br/>Unleashes interdimensional projection magic
 | velocity = 42
-| use = 177
+| use = {{mode|177|167}}
 | rare = 16
 | stack = 1
 | sell = {{value|0|40}}

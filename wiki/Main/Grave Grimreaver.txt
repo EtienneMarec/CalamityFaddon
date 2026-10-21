@@ -1,10 +1,10 @@
 {{dedicated|MadameSpooks|Patreon Donator}}{{item infobox
 | type = Weapon
 | damagetype = Rogue
-| damage = 25
-| use = 50
+| damage = {{mode|25|84}}
+| use = {{mode|50|48}}
 | knockback = 4
-| velocity = 16
+| velocity = {{mode|16|16.5}}
 | tooltip =  Hurls a cursed scythe which homes in<br/>The scythe summons skulls as it flies and explodes into bats on hit<br/>Stealth strikes spawn a flood of bats and falling skulls<br/>Inflicts cursed flames and confusion<br/>'A dapper skeleton's weapon of choice'
 | stack = 1
 | auto = yes

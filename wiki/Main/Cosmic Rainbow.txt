@@ -1,13 +1,13 @@
 {{item infobox
 | type = Weapon
 | type2 = Crafting material
-| damage = 105
+| damage = {{mode|105|117}}
 | damagetype = magic
 | velocity = 18
 | tooltip = Launches a barrage of rainbows
-| mana = 30
-| use = 35
-| knockback = 0
+| mana = {{mode|30|10}}
+| use = {{mode|35|10}}
+| knockback = {{mode|0|0.25}}
 | auto = yes
 | stack = 1
 | hardmode = yes

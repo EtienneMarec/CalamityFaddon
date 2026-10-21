@@ -1,7 +1,7 @@
 {{item infobox
 |consumable = true
 |type = Weapon
-|damage = 280
+|damage = {{mode|280|111}}
 |damagetype = Spy
 |use = 18
 |knockback = 8
@@ -10,7 +10,7 @@
 |hardmode = yes
 | rare = 9
 | sell = {{value|0|0|20}}
-|velocity = 24
+|velocity = {{mode|24|14}}
 |tooltip = Stealth strikes leave homing stars in their wake
 | proj = Empyrean Star.png
 | projcaption = Empyrean Star

@@ -4,7 +4,7 @@
 | stack = 1
 | tooltip = Advances time immediately to the next dawn, noon, dusk or midnight<br/>Does not work while a boss is alive
 | rare = 5
-| use = 20
+| use = {{mode|20|9}}
 | hardmode = yes
 | sell = No value
 }}

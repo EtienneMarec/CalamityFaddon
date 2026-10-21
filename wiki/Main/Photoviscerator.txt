@@ -1,14 +1,14 @@
 {{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 230
+| damage = {{mode|230|495}}
 | auto = yes
 | use = 10
 | knockback = 2
 | stack = 1
 | tooltip = 90% chance to not consume gel<br/>Fires a stream of exo flames and light that explodes into homing sparks<br/>Right click to fire homing flares which stick to enemies and incinerate them
 | rare = 15
-| velocity = 18
+| velocity = {{mode|18|6}}
 | sell = {{value|0|30}}
 | hardmode = yes
 | postml = yes

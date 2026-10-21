@@ -3,13 +3,13 @@
 | stack = 1
 | damagetype = ranged
 | auto = yes
-| damage = 32
+| damage = {{mode|32|160}}
 | knockback = 3
 | rare = 8
 | sell = {{value|0|12}}
-| use = 20
+| use = {{mode|20|9}}
 | tooltip = Your life is mine...<br/>Fires shockblast rounds that emit massive explosions and steal enemy life as well as additional bullets<br/>Every seventh shot fires a massive shockblast
-| velocity = 12
+| velocity = {{mode|12|14}}
 | hardmode = yes
 | debuff=Glacial State
 | debufftip=Cannot move and defense is shattered

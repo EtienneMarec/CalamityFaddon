@@ -2,8 +2,8 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Magic
-| damage = 42
-| mana = 7
+| damage = {{mode|42|32}}
+| mana = {{mode|7|13}}
 | use = 21
 | critical = 9%
 | velocity = 12

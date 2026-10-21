@@ -1,14 +1,14 @@
 {{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 251
+| damage = {{mode|251|420}}
 | knockback = 9
 | rare = 13
 | sell = {{value|0|26}}
 | stack = 1
 | auto = yes
 | use = 21
-| velocity = 12
+| velocity = {{mode|12|3}}
 | tooltip = Fires a trident that rains additional tridents as it travels<br/>Hitting enemies will inflict the crush depth debuff<br/>The lower the enemies' defense, the more damage they take from this debuff
 | debuff = Crush Depth
 | debuffduration = 5 seconds (Contact) <br/>3 seconds (Trident)

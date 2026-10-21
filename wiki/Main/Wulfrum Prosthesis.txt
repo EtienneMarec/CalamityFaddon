@@ -2,9 +2,9 @@
 {{item infobox
 | type = Weapon
 | damagetype = magic
-| damage = 13
+| damage = {{mode|13|18}}
 | use = 24
-| mana = 2
+| mana = {{mode|2|10}}
 | knockback = 3
 | velocity = 18
 | extraupdates = 2

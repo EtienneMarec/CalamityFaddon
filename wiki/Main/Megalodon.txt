@@ -7,9 +7,9 @@
 | knockback = 2.5
 | rare = 7
 | sell = {{value|0|12}}
-| use = 6
+| use = {{mode|6|4}}
 | stack = 1
-| velocity = 16
+| velocity = {{mode|16|2}}
 | tooltip = 50% chance to not consume ammo<br/>Fires streams of water every other shot
 | hardmode = yes
 | element1 = Water

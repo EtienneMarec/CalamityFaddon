@@ -3,8 +3,8 @@
 | type = Weapon
 | damage = 10
 | damagetype = Magic
-| use = 20
-| mana = 20
+| use = {{mode|20|35}}
+| mana = {{mode|20|22}}
 | tooltip = Casts a serpent that follows the mouse cursor
 | velocity = 10
 | knockback = 3

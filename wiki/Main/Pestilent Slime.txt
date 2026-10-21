@@ -2,9 +2,9 @@
 | type = Slime
 | ai = Slime AI
 | environment = Jungle
-| life = {{dv|350|700}}
+| life = {{mode|{{dv|350|700}}|600}}
 | damage = {{element|Poison}} {{dv|55|110}} (Contact)<br/>{{element|Stab}} {{dv|44|100}} (Darts)
-| defense = 12
+| defense = {{mode|12|35}}
 | knockback = 100
 | banner = yes
 | immune1 = Kami Flu

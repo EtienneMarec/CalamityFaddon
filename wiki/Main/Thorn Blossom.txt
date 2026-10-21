@@ -2,8 +2,8 @@
 | type = Weapon
 | auto = yes
 | damagetype = magic
-| damage = 60
-| mana = 10
+| damage = {{mode|60|120}}
+| mana = {{mode|10|27}}
 | tooltip = Every rose has its thorn
 | knockback = 2
 | velocity = 20

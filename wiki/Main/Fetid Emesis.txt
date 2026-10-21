@@ -3,8 +3,8 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = ranged
-| damage = 129
-| knockback = 3
+| damage = {{mode|129|214}}
+| knockback = {{mode|3|5}}
 | rare = 13
 | sell = {{value|0|26}}
 | stack = 1

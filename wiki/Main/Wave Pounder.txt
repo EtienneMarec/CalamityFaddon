@@ -4,7 +4,7 @@
 | damage = 75
 | use = 55
 | velocity = 16
-| knockback = 0
+| knockback = {{mode|0|0.25}}
 | tooltip = It utilizes its power to send heavy shockwaves throughout the area, causing agonizing internal damage<br/>Throws a bomb which explodes into a forceful shockwave<br/>Stealth strikes emit absurdly powerful shockwaves<br/>Current Charge: [CHARGE]
 | stack = 1
 | auto = yes

@@ -4,13 +4,13 @@
 | type2 = Crafting material
 | damagetype = ranged
 | damage = 28
-| knockback = 1.25
+| knockback = {{mode|1.25|0.4}}
 | rare = 4
 | sell = {{value|0|2|40}}
 | stack = 1
 | auto = yes
 | use = 30
-| velocity = 5.5
+| velocity = {{mode|5.5|8}}
 | tooltip = 50% chance to not consume gel<br/>Fires blue and pink flames that emit meows on enemy hits
 | hardmode = yes
 | debuff = On Fire!

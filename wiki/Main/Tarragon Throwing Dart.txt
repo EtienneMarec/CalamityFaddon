@@ -5,7 +5,7 @@
 | consumable = true
 | knockback = 4.5
 | use = 10
-| velocity = 12
+| velocity = {{mode|12|15}}
 | stack = 9999
 | tooltip = Fires a piercing dart with reduced immunity frames<br/>Stealth strikes erupt into thorns on enemy hits
 | rare = 12

@@ -2,15 +2,15 @@
 |{{item infobox	
 | type = Weapon
 | type2 = Crafting material
-| damage = 24
+| damage = {{mode|24|40}}
 | damagetype = Ranged
 | knockback = 3.5
 | stack = 1
 | rare = 12
 | sell = {{value|0|24}}
 | auto = yes
-| use = 14
-| velocity = 28
+| use = {{mode|14|20}}
+| velocity = {{mode|28|12}}
 | tooltip = Fires a spread of arrows from the sky<br/>Converts wooden arrows into lightning bolts
 | hardmode = yes
 | postml = yes

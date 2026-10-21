@@ -3,7 +3,7 @@
 | name = Crabulon
 | type = Boss
 | environment = Glowing Mushroom biome
-| life = {{dv|3,350|5,360|6,400|||8,040|9,600}}
+| life = {{mode|{{dv|3,350|5,360|6,400|||8,040|9,600}}|3500}}
 | defense = 12
 | immune1 = Pearl Aura
 | immune2 = Confused

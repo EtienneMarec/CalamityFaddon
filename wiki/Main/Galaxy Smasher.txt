@@ -4,7 +4,7 @@
 | damage = 264
 | auto = yes
 | use = 12
-| knockback = 9
+| knockback = {{mode|9|14}}
 | damagetype = Melee
 | rare = 14
 | tooltip = Explodes and summons death lasers on enemy hits

@@ -3,11 +3,11 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Rogue
-| damage = 260
-| knockback = 5
+| damage = {{mode|260|220}}
+| knockback = {{mode|5|3}}
 | use = 24
 | tooltip = Shatters on impact, summoning a black hole that sucks in nearby enemies<br/>Stealth strikes summon a black hole that lasts longer and sucks enemies with a stronger force
-| velocity = 14
+| velocity = {{mode|14|13}}
 | stack = 1
 | auto = yes
 | rare = 12

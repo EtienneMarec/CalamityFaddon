@@ -4,7 +4,7 @@
 | auto = yes
 | damagetype = magic
 | damage = 20
-| mana = 8
+| mana = {{mode|8|15}}
 | tooltip = Casts a mana flower that explodes into petals
 | knockback = 3.25
 | velocity = 10

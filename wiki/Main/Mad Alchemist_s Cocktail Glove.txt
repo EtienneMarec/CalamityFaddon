@@ -5,7 +5,7 @@ Pingas
 | type = Weapon
 | auto = yes
 | damagetype = magic
-| damage = 182
+| damage = {{mode|182|240}}
 | mana = 12
 | stack = 1
 | tooltip = Fires a variety of high-velocity flasks<br/>Right click to throw a prismatic flask that inflicts many debuffs<br/>Red flasks explode violently, blue flasks contain poison gas, green flasks summon lunar flares and purple flasks explode into homing shrapnel

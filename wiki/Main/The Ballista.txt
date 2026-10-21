@@ -2,14 +2,14 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Ranged
-| damage = 99
+| damage = {{mode|99|88}}
 | knockback = 8
 | rare = 8
 | sell = {{value|0|16}}
 | stack = 1
 | auto = yes
 | velocity = 20
-| use = 22
+| use = {{mode|22|28}}
 | tooltip = Converts wooden arrows into greatarrows that crush enemy armor and break into shards on death
 | hardmode = yes
 | debuff = Armor Crunch

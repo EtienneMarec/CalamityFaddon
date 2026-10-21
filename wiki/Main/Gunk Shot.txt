@@ -8,7 +8,7 @@
 | sell = {{value|0|2|40}}
 | auto = yes
 | tooltip = Shoots a spread of bullets
-| use = 32
+| use = {{mode|32|35}}
 | velocity = 5
 | element1 = Stab
 | element2 = Poison

@@ -1,11 +1,11 @@
 {{item infobox
 | type = Weapon
-| damage = 28
+| damage = {{mode|28|65}}
 | damagetype = magic
 | auto = yes
-| knockback = 4.5
+| knockback = {{mode|4.5|2}}
 | velocity = 10
-| mana = 8
+| mana = {{mode|8|7}}
 | tooltip = Fires a stream of burning green ichor
 | use = 18
 | rare = 7

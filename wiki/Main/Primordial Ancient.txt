@@ -2,12 +2,12 @@
 | auto = yes
 | type = Weapon
 | type2 = Crafting material
-| damage = 170
+| damage = {{mode|170|3825}}
 | damagetype = Magic
-| knockback = 5
+| knockback = {{mode|5|14}}
 | velocity = 8
-| mana = 20
-| use = 18
+| mana = {{mode|20|104}}
+| use = {{mode|18|72}}
 | tooltip = An ancient relic from an ancient land<br/>Casts a gigantic blast of dust
 | rare = 14
 | stack = 1

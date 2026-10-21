@@ -2,7 +2,7 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 60
+| damage = {{mode|60|85}}
 | use = 18
 | knockback = 2
 | velocity = 24

@@ -3,7 +3,7 @@
 | ai = Bohldohr AI
 | environment = Jungle Temple
 | damage = {{dv|80|160}}
-| life = {{dv|300|600}}
+| life = {{mode|{{dv|300|600}}|600}}
 | defense = 28
 | knockback = {{dv|5%|14.5%}}
 | banner = yes

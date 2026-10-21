@@ -1,13 +1,13 @@
 {{item infobox
 | type = Weapon
-| damage = 55
-| use = 19
-| knockback = 1
+| damage = {{mode|55|222}}
+| use = {{mode|19|96}}
+| knockback = {{mode|1|12}}
 | damagetype = Rogue
 | rare = 5
 | tooltip = Throws a hallowed cross which explodes into a flash of light that damages nearby enemies, closer enemies receiving more damage<br/>As the cross travels downwards, the damage inflicted by both the cross and flash increases constantly<br/>Stealth strikes cause the cross to be thrown with full damage immediately. Hallowed stars fall when the cross explodes
 | sell = {{value|0|4|80}}
-| velocity = 10
+| velocity = {{mode|10|6}}
 | stack = 1
 | auto = yes
 | hardmode = yes

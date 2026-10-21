@@ -2,13 +2,13 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 315
-| knockback = 8.75
+| damage = {{mode|315|2090}}
+| knockback = {{mode|8.75|15}}
 | rare = 11
 | sell = {{value|0|22}}
 | stack = 1
 | auto = yes
-| use = 19
+| use = {{mode|19|65}}
 | velocity = 13
 | tooltip = Heals the player on hit
 | hardmode = yes

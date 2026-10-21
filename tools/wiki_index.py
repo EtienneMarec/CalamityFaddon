@@ -82,7 +82,35 @@ def file_to_title(stem):
     return t
 
 
-MODE_RE = re.compile(r"\{\{\s*mode\s*\|([^{}|]*)\|([^{}|]*)\}\}", re.I)
+MODE_START = re.compile(r"\{\{\s*mode\s*\|", re.I)
+
+
+def _split_mode(raw, start):
+    """(fin, [paramètres]) du {{mode|...}} qui commence à `start` ; les modèles imbriqués ({{dv}}...) sont respectés."""
+    depth, i, params, cur = 0, start, [], []
+    i = raw.index("|", start) + 1
+    while i < len(raw):
+        two = raw[i:i + 2]
+        if two == "{{":
+            depth += 1
+            cur.append(two)
+            i += 2
+            continue
+        if two == "}}":
+            if depth == 0:
+                params.append("".join(cur))
+                return i + 2, params
+            depth -= 1
+            cur.append(two)
+            i += 2
+            continue
+        if raw[i] == "|" and depth == 0:
+            params.append("".join(cur))
+            cur = []
+        else:
+            cur.append(raw[i])
+        i += 1
+    return len(raw), params + ["".join(cur)]
 
 
 def pick_mode(raw, mode):
@@ -90,11 +118,21 @@ def pick_mode(raw, mode):
     « plus » ; un texte sans {{mode}} est renvoyé tel quel (même valeur dans les deux modes)."""
     if raw is None:
         return None
-    return MODE_RE.sub(lambda m: (m.group(1) if mode == "fandom" else m.group(2)).strip(), raw)
+    out, pos = [], 0
+    for m in MODE_START.finditer(raw):
+        if m.start() < pos:
+            continue
+        end, params = _split_mode(raw, m.start())
+        out.append(raw[pos:m.start()])
+        value = params[0] if mode == "fandom" or len(params) < 2 else params[1]
+        out.append(value.strip())
+        pos = end
+    out.append(raw[pos:])
+    return "".join(out)
 
 
 def has_mode(raw):
-    return bool(raw and MODE_RE.search(raw))
+    return bool(raw and MODE_START.search(raw))
 
 
 def norm(name):

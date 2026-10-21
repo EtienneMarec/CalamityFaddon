@@ -2,7 +2,7 @@
 | type = Weapon
 | damagetype = Summon
 | damage = 12
-| knockback = 0
+| knockback = {{mode|0|0.25}}
 | mana = 10
 | use = 34
 | tooltip = Summons a polyp bunch that launches coral chunks at nearby enemies

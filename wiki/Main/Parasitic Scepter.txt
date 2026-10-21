@@ -5,7 +5,7 @@
 | damage = 12
 | use = 35
 | tooltip = Fires a spread of water leeches that latch onto enemies, dealing a stacking damage over time
-| mana = 10
+| mana = {{mode|10|12}}
 | knockback = 3
 | auto = yes
 | stack = 1

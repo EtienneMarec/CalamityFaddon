@@ -3,7 +3,7 @@
 | type = Aquatic
 | ai = Toxic Minnow AI
 | damage = {{dv|20|40}} (Contact)<br/>{{dv|60|120}} (Skull cloud)
-| life = {{dv|240|480}}
+| life = {{mode|{{dv|240|480}}|300}}
 | defense = 20
 | knockback = {{dv|85%|86.5%}}
 | debuff = Poisoned

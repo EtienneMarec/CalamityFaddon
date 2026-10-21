@@ -4,7 +4,7 @@
 | type2 = Crafting material
 | damagetype = Ranged
 | damage = 50
-| knockback = 7
+| knockback = {{mode|7|0.25}}
 | use = 16
 | velocity = 9
 | tooltip = Fires angled shots in the direction of the cursor<br/>Can only be shot in a cone direction above the player<br/>High IQ required

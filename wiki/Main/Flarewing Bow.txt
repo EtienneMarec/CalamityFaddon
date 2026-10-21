@@ -2,14 +2,14 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Ranged
-| damage = 17
+| damage = {{mode|17|31}}
 | knockback = 1.5
 | rare = 4
 | sell = {{value|0|2|40}}
 | stack = 1
 | auto = yes
-| velocity = 16
-| use = 30
+| velocity = {{mode|16|18}}
+| use = {{mode|30|35}}
 | tooltip = Shoots a spread of 5 arrows<br/>Wooden arrows are converted into bouncing obsidian bats
 | hardmode = yes
 | proj = Flare Bat.gif

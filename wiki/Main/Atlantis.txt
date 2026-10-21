@@ -2,14 +2,14 @@
 |{{item infobox
 | type = Weapon
 | type2 = Crafting material
-| damage = 70
+| damage = {{mode|70|81}}
 | damagetype = magic
 | auto = yes
 | knockback = 5
-| mana = 12
+| mana = {{mode|12|15}}
 | tooltip = Casts aquatic spears that split as they travel
 | use = 25
-| velocity = 32
+| velocity = {{mode|32|40}}
 | rare = 7
 | stack = 1
 | sell = {{value|0|12}}

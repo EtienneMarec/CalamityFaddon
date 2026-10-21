@@ -2,7 +2,7 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Melee
-| damage = 125
+| damage = {{mode|125|78}}
 | knockback = 8
 | velocity = 12
 | tooltip = Releases a rolling tumbleweed on hit

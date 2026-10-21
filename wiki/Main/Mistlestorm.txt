@@ -1,10 +1,10 @@
 {{item infobox
 | type = Weapon
-| damage = 45
+| damage = {{mode|45|59}}
 | damagetype = magic
 | auto = yes
 | knockback = 3.5
-| mana = 5
+| mana = {{mode|5|7}}
 | tooltip = Casts a storm of pine needles and leaves
 | rare = 12
 | stack = 1

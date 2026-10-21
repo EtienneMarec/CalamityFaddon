@@ -5,7 +5,7 @@
 | auto = yes
 | stack = 1
 | damagetype = melee
-| damage = 110
+| damage = {{mode|110|55}}
 | critical = 14%
 | debuff = Brimstone Flames
 | debufftip = Rapid health loss

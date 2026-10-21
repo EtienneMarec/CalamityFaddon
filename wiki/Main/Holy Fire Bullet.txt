@@ -1,14 +1,14 @@
 {{item infobox
 | type = Ammunition
 | tooltip = Explosive holy bullets
-| damage = 22
+| damage = {{mode|22|19}}
 | damagetype = ranged
 | stack = 9999
 | consumable = yes
 | knockback = 2
 | sell = {{value|0|0|4|0}}
 | rare = 11
-| velocity = 6
+| velocity = {{mode|6|1}}
 | velocitymult = 5
 | debuff = Holy Flames
 | debuffduration = 5 seconds (Bullet)

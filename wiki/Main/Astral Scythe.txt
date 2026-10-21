@@ -2,7 +2,7 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 120
+| damage = {{mode|120|80}}
 | knockback = 6
 | crit = 4%
 | tooltip = Shoots a scythe ring that accelerates over time

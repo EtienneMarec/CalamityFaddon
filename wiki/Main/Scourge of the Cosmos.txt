@@ -1,7 +1,7 @@
 {{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 478
+| damage = {{mode|478|380}}
 | auto = yes
 | use = 20
 | knockback = 5

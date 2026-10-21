@@ -1,12 +1,12 @@
 {{item infobox
 | type = Ammunition
 | type2 = Crafting material
-| damage = 20
+| damage = {{mode|20|8}}
 | damagetype = ranged
 | tooltip = Large blast radius. Will destroy tiles<br/>Used by normal guns
 | stack = 9999
 | consumable = true
-| knockback = 7.5
+| knockback = {{mode|7.5|7}}
 | sell = {{value|0|0|0|20}}
 | rare = 12
 | hardmode = yes

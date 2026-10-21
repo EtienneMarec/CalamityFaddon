@@ -4,13 +4,13 @@
 | auto = yes
 | damagetype = magic
 | damage = 35
-| mana = 10
+| mana = {{mode|10|14}}
 | tooltip = I call upon the mythical Wyvern to shower the lands with its grace<br/>Fires wyverns and colored feathers from the sky that stick to enemies and tiles and explode
 | knockback = 4.75
 | rare = 5
 | sell = {{value|0|7|20}}
 | use = 23
-| velocity = 18
+| velocity = {{mode|18|35}}
 | stack = 1
 | hardmode = yes
 | element1 = Holy

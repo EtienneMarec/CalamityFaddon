@@ -8,7 +8,7 @@
 | rare = 10
 | sell = {{value|0|20}}
 | auto = yes
-| use = 27
+| use = {{mode|27|35}}
 | tooltip = Fires bullets and an extremely powerful homing mushroom
 | critical = 39%
 | velocity = 10

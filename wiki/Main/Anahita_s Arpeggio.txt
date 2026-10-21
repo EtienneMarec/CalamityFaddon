@@ -3,10 +3,10 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = magic
-| damage = 92
+| damage = {{mode|92|60}}
 | mana = 7
 | auto = yes
-| use = 18
+| use = {{mode|18|22}}
 | tooltip = Casts slow-moving treble clefs that confuse enemies
 | knockback = 6.5
 | velocity = 13

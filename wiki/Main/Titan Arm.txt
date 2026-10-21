@@ -2,8 +2,8 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 69
-| knockback = 20
+| damage = {{mode|69|200}}
+| knockback = {{mode|20|80}}
 | use = 11
 | stack = 1
 | critical = 100%

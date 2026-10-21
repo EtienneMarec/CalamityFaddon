@@ -3,8 +3,8 @@
 | type = Weapon
 | auto = yes
 | damagetype = magic
-| damage = 31
-| mana = 10
+| damage = {{mode|31|24}}
+| mana = {{mode|10|12}}
 | tooltip = Drenches your foes in blood<br/>"Whose blood will be spilt in the Bloodbath? Who will the victors be? How many will survive? Good luck..."
 | knockback = 5.75
 | rare = 3

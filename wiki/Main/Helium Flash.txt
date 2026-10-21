@@ -1,6 +1,6 @@
 {{item infobox
 | type = Weapon
-| damage = 2727
+| damage = {{mode|2727|3200}}
 | auto = yes
 | use = 40
 | knockback = 9.5
@@ -8,7 +8,7 @@
 | rare = 15
 | tooltip = The power of a galaxy, if only for mere moments<br/>Launches volatile star cores which erupt into colossal fusion blasts
 | sell = {{value|0|30}}
-| mana = 26
+| mana = {{mode|26|120}}
 | velocity = 15
 | stack = 1
 | debuff = Irradiated

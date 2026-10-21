@@ -5,9 +5,9 @@
 | tooltip = Casts a slow-moving ball of flash-freezing magma
 | damage = 45
 | damagetype = magic
-| mana = 13
-| use = 15
-| knockback = 5.5
+| mana = {{mode|13|20}}
+| use = {{mode|15|20}}
+| knockback = {{mode|5.5|6}}
 | velocity = 6.5
 | rare = 4
 | sell = {{value|0|2|40}}

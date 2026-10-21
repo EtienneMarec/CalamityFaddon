@@ -1,11 +1,11 @@
 {{item infobox
 | type = Weapon
 | type2 = Crafting material
-| damage = 73
+| damage = {{mode|73|135}}
 | damagetype = magic
 | auto = yes
 | knockback = 3
-| mana = 6
+| mana = {{mode|6|8}}
 | tooltip = Fires a barrage of nano lasers
 | rare = 10
 | sell = {{value|0|20}}

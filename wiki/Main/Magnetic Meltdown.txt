@@ -7,10 +7,10 @@
 | rare = 12
 | sell = {{value|0|24}}
 | stack = 1
-| velocity = 12
+| velocity = {{mode|12|18}}
 | auto = yes
-| use = 49
-| mana = 40
+| use = {{mode|49|37}}
+| mana = {{mode|40|45}}
 | tooltip = Launches a diamond cross of supercharged magnet spheres
 | hardmode = yes
 | postml = yes

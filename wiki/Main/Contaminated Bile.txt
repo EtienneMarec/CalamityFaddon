@@ -2,10 +2,10 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Rogue
-| damage = 9
+| damage = {{mode|9|16}}
 | knockback = 4.5
 | use = 30
-| velocity = 15
+| velocity = {{mode|15|12}}
 | tooltip = Throws a flask of sickly green, irradiated bile which explodes on collision<br/>Stealth strikes make the explosion much more violent and powerful
 | debuff = Irradiated
 | debufftip = Your skin is burning off

@@ -2,7 +2,7 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Summon
-| damage = 20
+| damage = {{mode|20|15}}
 | knockback = 1.25
 | mana = 5
 | rare = 3

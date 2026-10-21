@@ -2,12 +2,12 @@
 |{{item infobox
 | type = Weapon
 | type2 = Crafting material
-| damage = 65
+| damage = {{mode|65|130}}
 | damagetype = magic
 | auto = yes
 | knockback = 7.5
 | velocity = 9
-| mana = 20
+| mana = {{mode|20|28}}
 | tooltip = Watch the world burn...
 | use = 25
 | stack = 1

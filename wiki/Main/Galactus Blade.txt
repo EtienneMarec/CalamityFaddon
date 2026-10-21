@@ -2,10 +2,10 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Melee
-| damage = 84
+| damage = {{mode|84|185}}
 | use = 16
-| velocity = 23
-| knockback = 6
+| velocity = {{mode|23|13}}
+| knockback = {{mode|6|17}}
 | auto = yes
 | stack = 1
 | tooltip = Forged with the fury of nuclear chaos<br/>Launches a barrage of comets from the sky

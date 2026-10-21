@@ -3,8 +3,8 @@
 | environment = Cavern
 | ai = Slime AI
 | damage = {{element|Poison}} {{dv|35|70}}
-| life = {{dv|150|300}}
-| defense = 12
+| life = {{mode|{{dv|150|300}}|360}}
+| defense = {{mode|12|20}}
 | knockback = 100
 | banner = yes
 | money = {{value|0|0|10|0}}

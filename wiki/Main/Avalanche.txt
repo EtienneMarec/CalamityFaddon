@@ -3,7 +3,7 @@
 | type = Weapon
 | type2 = Crafting material
 | tooltip = Spawns ice bombs that explode after 3 seconds into ice shards on hit
-| damage = 100
+| damage = {{mode|100|75}}
 | damagetype = melee
 | use = 34
 | knockback = 7.25

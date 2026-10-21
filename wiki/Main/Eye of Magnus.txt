@@ -1,14 +1,14 @@
 <br />{{item infobox
 | type = Weapon
 | auto = yes
-| damage = 32
+| damage = {{mode|32|60}}
 | critical = 0%
 | tooltip = Fires powerful beams that reduce enemy protection<br/>This weapon scales with all your damage stats at once<br/>Heals mana and health on hit
 | knockback = 2
 | velocity = 12
 | rare = 9
 | sell = {{value|0|16}}
-| use = 20
+| use = {{mode|20|22}}
 | stack = 1
 | debuff = Marked
 | debufftip = Damage reduction reduced

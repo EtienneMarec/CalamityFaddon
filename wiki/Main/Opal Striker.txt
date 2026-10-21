@@ -1,15 +1,15 @@
 {{item infobox	
 | type = Weapon
 | type2 = Crafting material
-| damage = 9
+| damage = {{mode|9|30}}
 | damagetype = Ranged
-| knockback = 0
+| knockback = {{mode|0|4}}
 | stack = 1
 | rare = 2
 | sell = {{value|0|0|40}}
 | auto = yes
 | use = 20
-| velocity = 6
+| velocity = {{mode|6|12}}
 | tooltip = Fires a string of opal strikes
 | proj = Opal Strike.png
 | projcaption = Opal Strike

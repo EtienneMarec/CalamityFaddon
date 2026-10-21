@@ -6,10 +6,10 @@
 | tooltip = And everything under the sun is in tune,<br/>But the sun is eclipsed by the moon.
 | damage = 60
 | use = 10
-| knockback = 0
+| knockback = {{mode|0|0.25}}
 | velocity = 30
 | stack = 1
-| mana = 10
+| mana = {{mode|10|12}}
 | hardmode = yes
 | postml = yes
 | rare = 13

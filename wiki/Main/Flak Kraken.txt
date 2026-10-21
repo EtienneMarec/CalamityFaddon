@@ -3,12 +3,12 @@
 | damagetype = Ranged
 | damage = 54
 | use = 10
-| knockback = 0
+| knockback = {{mode|0|0.25}}
 | auto = yes
 | tooltip = Fires an energy reticle that becomes more powerful over time
 | stack = 1
 | rare = 7
-| velocity = 30
+| velocity = {{mode|30|15}}
 | sell = {{value|0|12}}
 | hardmode = yes
 | proj = Flak Reticle.png

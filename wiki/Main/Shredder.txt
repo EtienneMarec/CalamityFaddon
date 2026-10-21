@@ -2,13 +2,13 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Ranged
-| damage = 27
+| damage = {{mode|27|48}}
 | knockback = 1.5
 | rare = 11
 | sell = {{value|0|22}}
 | stack = 1
 | auto = yes
-| velocity= 12
+| velocity= {{mode|12|5}}
 | use = 32
 | tooltip = The myth, the legend, the weapon that drops more frames than any other<br/>Fires a barrage of energy bolts that split and bounce<br/>Right click to fire a barrage of normal bullets
 | hardmode = yes

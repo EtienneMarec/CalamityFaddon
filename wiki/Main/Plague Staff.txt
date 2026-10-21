@@ -3,7 +3,7 @@
 | type = Weapon
 | auto = yes
 | damagetype = magic
-| damage = 78
+| damage = {{mode|78|70}}
 | mana = 22
 | tooltip = Fires a spread of plague fangs
 | knockback = 8

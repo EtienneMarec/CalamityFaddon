@@ -7,8 +7,8 @@
 | auto = yes
 | hammer = 70
 | damagetype = melee
-| damage = 36
-| knockback = 5.25
+| damage = {{mode|36|48}}
+| knockback = {{mode|5.25|7.25}}
 | tooltip = Hitting enemies will inflict the crush depth debuff<br/>The lower the enemies' defense, the more damage they take from this debuff<br/>Right click to use without hammering down walls
 | debuff = Crush Depth
 | debuffchance = 100%

@@ -1,10 +1,10 @@
 {{item infobox
 | type = Weapon
 | damage = 250
-| use = 15
+| use = {{mode|15|25}}
 | knockback = 4
 | damagetype = Ranged
-| velocity = 12
+| velocity = {{mode|12|9.5}}
 | tooltip = Fires a stream of lifestealing bloodfire<br/>Uses your health as ammo<br/>25% chance to not consume ammo
 | debuff = Burning Blood
 | debufftip = Your blood is on fire

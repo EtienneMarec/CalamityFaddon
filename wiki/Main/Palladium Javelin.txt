@@ -1,13 +1,13 @@
 {{item infobox
 |type = Weapon
-|damage = 68
+|damage = {{mode|68|81}}
 |damagetype = Rogue
 |knockback = 5.5
 |use = 18
 |auto = yes
 | tooltip = Stealth strikes split into more javelins
 |hardmode = yes
-|velocity = 16
+|velocity = {{mode|16|12}}
 | rare = 4
 | sell = {{value|0|0|2|40}}
 |stack = 9999

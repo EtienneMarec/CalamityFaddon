@@ -1,12 +1,12 @@
 {{item infobox
 | tooltip = Fires a blast of sanguine flares that drain enemy life
-| damage = 143
+| damage = {{mode|143|1050}}
 | damagetype = magic
-| mana = 22
+| mana = {{mode|22|36}}
 | use = 25
 | knockback = 8
 | auto = yes
-| velocity = 14
+| velocity = {{mode|14|21}}
 | type = Weapon
 | stack = 1
 | rare = 12

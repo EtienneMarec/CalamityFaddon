@@ -5,7 +5,7 @@
 | damage = 52
 | mana = 10
 | knockback = 0.5
-| use = 14
+| use = {{mode|14|24}}
 | tooltip = Summons a plague jet to pummel your enemies into submission<br/>Jets will fire ammo from your inventory, 66% chance to not consume ammo<br/>Sometimes shoots a missile instead of a bullet
 | buff = Tactical Plague Engine (buff) | bufflink = no
 | bufftip = A giant plague jet is following you

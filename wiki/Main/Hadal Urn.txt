@@ -2,8 +2,8 @@
 {{item infobox
 | type = Weapon
 | damagetype = magic
-| damage = 32
-| use = 14
+| damage = {{mode|32|37}}
+| use = {{mode|14|20}}
 | knockback = 2.75
 | mana = 10
 | velocity = 8

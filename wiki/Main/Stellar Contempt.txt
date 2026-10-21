@@ -4,7 +4,7 @@
 | damage = 300
 | auto = yes
 | use = 12
-| knockback = 9
+| knockback = {{mode|9|28}}
 | damagetype = Melee
 | rare = 10
 | tooltip = Lunar flares rain down on enemy hits

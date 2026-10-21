@@ -3,9 +3,9 @@
 | type = Weapon
 | damagetype = Ranged
 | damage = 1
-| knockback = 0
-| use = 45
-| velocity = 9
+| knockback = {{mode|0|0.25}}
+| use = {{mode|45|75}}
+| velocity = {{mode|9|18}}
 | tooltip = Fires a massive spread of bouncing bullets<br/>Consumes five bullets per-use<br/>Aim? What's that?
 | rare = 3
 | sell = {{value|0|0|80}}

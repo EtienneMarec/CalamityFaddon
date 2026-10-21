@@ -2,12 +2,12 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Magic
-| damage = 21
-| mana = 10
+| damage = {{mode|21|19}}
+| mana = {{mode|10|14}}
 | tooltip = Fires a shade storm cloud
-| knockback = 0
+| knockback = {{mode|0|0.25}}
 | use = 24
-| velocity = 16
+| velocity = {{mode|16|11}}
 | stack = 1
 | rare = 3
 | debuff = Shadowflame

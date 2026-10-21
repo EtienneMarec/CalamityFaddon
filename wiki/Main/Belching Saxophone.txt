@@ -4,7 +4,7 @@
 | damagetype = Magic
 | damage = 32
 | knockback = 2
-| mana = 10
+| mana = {{mode|10|16}}
 | use = 24
 | velocity = 20
 | tooltip = Doot<br/>Fires an array of dirty reeds, music notes, and sulphuric bubbles

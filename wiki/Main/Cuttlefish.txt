@@ -3,7 +3,7 @@
 | environment = Abyss
 | ai = Cuttlefish AI
 | damage = {{element|Water}} {{dv|34|68}}
-| life = {{dv|110|220}}
+| life = {{mode|{{dv|110|220}}|160}}
 | defense = 8
 | knockback = {{dv|30%|37%}}
 | debuff = Darkness

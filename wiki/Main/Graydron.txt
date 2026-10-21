@@ -6,7 +6,7 @@
 | auto = yes
 | damagetype = melee
 | tooltip = {{color|There will be blood!|#970000}}<br/>ID and power-level locked<br/>Prove your strength or have the correct user ID to wield this sword
-| damage = 3001
+| damage = {{mode|3001|2200}}
 | critical = 50%
 | element1 = Slash
 | element2 = Slash

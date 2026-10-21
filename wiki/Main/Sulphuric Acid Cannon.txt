@@ -1,11 +1,11 @@
 {{infobox wrapper
 |{{item infobox
 | type = Weapon
-| damage = 144
+| damage = {{mode|144|550}}
 | damagetype = Ranged
 | knockback = 6
 | tooltip = Fires an acidic shot that sticks to enemies and dissolves them
-| use = 18
+| use = {{mode|18|35}}
 | auto = yes
 | hardmode = yes
 | postml = yes

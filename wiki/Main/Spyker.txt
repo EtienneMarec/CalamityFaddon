@@ -1,7 +1,7 @@
 {{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 150
+| damage = {{mode|150|210}}
 | auto = yes
 | use = 13
 | knockback = 6

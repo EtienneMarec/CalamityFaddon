@@ -2,9 +2,9 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 404
+| damage = {{mode|404|485}}
 | knockback = 9
-| use = 25
+| use = {{mode|25|60}}
 | velocity = 15
 | tooltip = Releases a blazing fork which stays near the mouse and shreds enemies, racking up Violence Points that can be used for strong attacks
 | rare = 15

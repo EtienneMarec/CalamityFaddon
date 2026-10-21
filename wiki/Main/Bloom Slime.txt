@@ -3,8 +3,8 @@
 | environment = Cavern
 | ai = Slime AI
 | damage = {{dv|80|160}}
-| life = {{dv|1,000|2,000}}
-| defense = 25
+| life = {{mode|{{dv|1,000|2,000}}|2000}}
+| defense = {{mode|25|40}}
 | banner = yes
 | money = {{value|0|0|25|0}}
 | Tarragon Ore|10-26| 100%

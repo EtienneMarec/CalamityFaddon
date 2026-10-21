@@ -1,7 +1,7 @@
 {{infobox wrapper
 |{{item infobox	
 | type = Weapon
-| damage = 64
+| damage = {{mode|64|57}}
 | damagetype = Rogue
 | tooltip = Throws a bombshell that explodes, summoning a meteor to impact the site<br/>Right click to throw a spread of gravity affected comets that explode, leaving behind a star<br/>Stealth strikes lob a bombshell that additionally splits into comets on hit
 | knockback = 3

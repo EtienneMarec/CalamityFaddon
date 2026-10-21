@@ -3,9 +3,9 @@
 | stack = 1
 | auto = yes
 | type = Weapon
-| damage = 49
+| damage = {{mode|49|69}}
 | damagetype = Ranged
-| use = 18
+| use = {{mode|18|30}}
 | velocity = 7.5
 | tooltip = Spews astral flames that travel in star-shaped patterns<br/>60% chance to not consume gel
 | debuff = Astral Infection (debuff)

@@ -5,7 +5,7 @@
 | damage = 520
 | knockback = 2
 | velocity = 12
-| mana = 10
+| mana = {{mode|10|60}}
 | tooltip = Casts a star that follows the mouse that creates a rainbow trail as it moves<br/>Once a full shape is created with the trail all enemies within it take damage proportional to how long it took to draw the shape<br/>And the audience goes wild!
 | use = 24
 | auto = yes

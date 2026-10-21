@@ -3,7 +3,7 @@
 | type2 = Crafting material
 | tooltip = 50% chance to not consume ammo<br/>Fires a spread of bullets and an onyx shard
 | damagetype = Ranged
-| damage = 40
+| damage = {{mode|40|58}}
 | use = 15
 | knockback = 4.5
 | auto = yes

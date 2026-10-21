@@ -8,7 +8,7 @@
 | rare = 2
 | sell = {{value|0|0|40}}
 | auto = yes
-| use = 20
+| use = {{mode|20|22}}
 | velocity = 14
 | tooltip = Converts musket balls into fungal rounds that split on death
 | proj = Fungi Orb.png

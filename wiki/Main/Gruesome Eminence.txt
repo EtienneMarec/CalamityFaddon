@@ -1,9 +1,9 @@
 {{item infobox
 | type = Weapon
 | damagetype = Magic
-| damage = 888
+| damage = {{mode|888|666}}
 | knockback = 5
-| mana = 8
+| mana = {{mode|8|30}}
 | use = 27
 | velocity = 9
 | tooltip = Summons a gaseous conglomeration of spirits near the cursor<br/>At first, the spirits will fly wildly. This can hurt enemies and players<br/>However, over time they will begin to accumulate to create a single, controllable monstrosity<br/>{{color|The spirits of the amalgam could never pass on to their desired afterlife,|#C61B40}}<br/>{{color|Tainted and melded by rage as they were.|#C61B40}}

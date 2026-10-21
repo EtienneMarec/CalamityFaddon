@@ -2,10 +2,10 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Summon
-| damage = 53
+| damage = {{mode|53|42}}
 | mana = 10
 | knockback = 2
-| use = 24
+| use = {{mode|24|30}}
 | tooltip = Summons a flying orthocera sentry at the mouse position
 | debuff = Venom
 | debufftip = Losing life

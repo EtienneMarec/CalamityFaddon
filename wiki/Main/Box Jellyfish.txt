@@ -3,9 +3,9 @@
 | ai = Box Jellyfish AI
 | environment = Ocean
 | environment2 = Abyss
-| life = {{dv|90|180}}
+| life = {{mode|{{dv|90|180}}|100}}
 | damage = {{dv|44|88}}
-| defense = 5
+| defense = {{mode|5|8}}
 | knockback = 0% / {{expert|10%}}
 | debuff = Venom
 | debufftip = Losing life

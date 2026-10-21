@@ -1,16 +1,16 @@
 {{item infobox	
 | type = Weapon
 | type2 = Crafting material
-| damage = 1350
+| damage = {{mode|1350|444}}
 | damagetype = Ranged
-| knockback = 5
+| knockback = {{mode|5|5.5}}
 | stack = 1
 | rare = 13
 | sell = {{value|0|28}}
 | auto = yes
-| use = 30
+| use = {{mode|30|25}}
 | critical = 24%
-| velocity = 14.6
+| velocity = {{mode|14.6|12}}
 | tooltip = Halley came sooner than expected<br/>Fires a flaming comet<br/>50% chance to not consume gel<br/>Right click to zoom out
 | hardmode = yes
 | postml = yes

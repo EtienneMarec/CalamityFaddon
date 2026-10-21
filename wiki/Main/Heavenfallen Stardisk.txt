@@ -1,7 +1,7 @@
 {{item infobox
 | type = Weapon
 | auto = yes
-| damage = 115
+| damage = {{mode|115|160}}
 | damagetype = Rogue
 | knockback = 8
 | velocity = 10

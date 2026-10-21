@@ -3,9 +3,9 @@
 | type2 = Ammunition
 | damagetype = Rogue
 | consumable = true
-| damage = 1378
+| damage = {{mode|1378|860}}
 | use = 26
-| velocity = 14
+| velocity = {{mode|14|11}}
 | knockback = 3
 | tooltip = Each grenade contains a heavily condensed and heated unit of plasma. Use with care<br/>Throws a grenade that explodes into plasma on collision<br/>Stealth strikes explode violently on collision into a vaporizing blast
 | stack = 9999

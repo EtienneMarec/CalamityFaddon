@@ -1,9 +1,9 @@
 {{item infobox
 | type = Weapon
-| damage = 675
+| damage = {{mode|675|5200}}
 | use = 23
 | damagetype = Spy
-| knockback = 8
+| knockback = {{mode|8|18}}
 | auto = yes
 | velocity = 16
 | stack = 1

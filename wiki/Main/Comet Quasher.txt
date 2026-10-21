@@ -2,8 +2,8 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Melee
-| damage = 90
-| knockback = 7.75
+| damage = {{mode|90|45}}
+| knockback = {{mode|7.75|2.75}}
 | rare = 8
 | sell = {{value|0|16}}
 | stack = 1

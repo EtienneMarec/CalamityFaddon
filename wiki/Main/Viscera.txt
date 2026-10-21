@@ -1,10 +1,10 @@
 {{item infobox
 | type = Weapon
 | damagetype = Magic
-| damage = 100
-| mana = 15
-| use = 14
-| knockback = 6
+| damage = {{mode|100|229}}
+| mana = {{mode|15|18}}
+| use = {{mode|14|22}}
+| knockback = {{mode|6|5}}
 | velocity = 6
 | auto = yes
 | stack = 1

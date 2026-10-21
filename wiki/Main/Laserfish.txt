@@ -3,8 +3,8 @@
 | environment = Abyss
 | ai = Laserfish AI
 | damage = {{element|Water}} {{dv|40|80}} (Contact)<br/>{{element|Magic}} {{dv|100|160}} (Laser)
-| life = {{dv|480|960}}
-| defense = 15
+| life = {{mode|{{dv|480|960}}|600}}
+| defense = {{mode|15|20}}
 | knockback = {{dv|58%|62.2%}}
 | immune1 = Crush Depth
 | immune2 = Confused

@@ -1,15 +1,15 @@
 {{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 30
-| use = 33
-| knockback = 5
+| damage = {{mode|30|85}}
+| use = {{mode|33|60}}
+| knockback = {{mode|5|20}}
 | auto = yes
 | tooltip = Shoots an onyx bomb that explodes into sand sharks on death
 | stack = 1
 | rare = 5
 | sell = {{value|0|7|20}}
-| velocity = 14
+| velocity = {{mode|14|25}}
 | hardmode = yes
 | proj = Onyx Shark Bomb.png
 | projcaption = Onyx Shark Bomb

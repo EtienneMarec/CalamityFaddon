@@ -3,7 +3,7 @@
 | environment = Ocean
 | ai = Frogfish AI
 | damage = {{element|Water}} {{dv|25|50}}
-| life = {{dv|80|160}}
+| life = {{mode|{{dv|80|160}}|100}}
 | defense = 10
 | knockback = {{dv|50%|55%}}
 | immune1 = Crush Depth

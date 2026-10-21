@@ -1,10 +1,10 @@
 {{item infobox
 | type = Weapon
 | damagetype = Summon
-| damage = 150
+| damage = {{mode|150|200}}
 | knockback = 4.75
 | mana = 10
-| use = 10
+| use = {{mode|10|30}}
 | velocity = 10
 | tooltip = Drops down a crate from the sky that opens up to reveal a mounted, stationary cannon
 The cannon will fire at any potential enemies within its range, and enter overdrive mode if said enemy is close to the cannon When in overdrive mode the cannon uses three barrels that each collectively fire. The cannon also heats up the more it fires in overdrive mode

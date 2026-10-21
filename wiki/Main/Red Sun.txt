@@ -3,7 +3,7 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 500
+| damage = {{mode|500|400}}
 | use = 29
 | velocity = 15
 | knockback = 4

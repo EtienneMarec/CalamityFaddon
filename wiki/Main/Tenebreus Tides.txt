@@ -2,7 +2,7 @@
 {{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 80
+| damage = {{mode|80|120}}
 | velocity = 12
 | knockback = 4.5
 | rare = 9

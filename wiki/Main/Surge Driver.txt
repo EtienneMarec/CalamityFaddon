@@ -2,9 +2,9 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 156
+| damage = {{mode|156|140}}
 | knockback = 8
-| use = 56
+| use = {{mode|56|28}}
 | velocity= 11
 | tooltip = Left clicks release a laser ray that explodes on collision<br/>Right clicks release a barrage of laser beams that release homing energy on enemy hits
 | rare = 15

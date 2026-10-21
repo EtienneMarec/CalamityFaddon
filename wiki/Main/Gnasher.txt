@@ -3,7 +3,7 @@
 | environment = Sulphurous Sea
 | ai = Fighter AI
 | damage = {{element|Poison}} {{dv|25|50}}
-| life = {{dv|35|70}}
+| life = {{mode|{{dv|35|70}}|50}}
 | defense = 30
 | knockback = {{dv|75%|77.5%}}
 | banner = yes

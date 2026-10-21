@@ -1,10 +1,10 @@
 {{item infobox
 | type = Weapon
-| damage = 120
+| damage = {{mode|120|44}}
 | critical = 0%
-| use = 33
+| use = {{mode|33|66}}
 | knockback = 10
-| velocity = 12
+| velocity = {{mode|12|10}}
 | hardmode = yes
 | tooltip = Uses Explosive Shotgun Shells<br/>Can be used once per boss battle
 | rare = 8

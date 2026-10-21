@@ -2,7 +2,7 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Summon
-| damage = 60
+| damage = {{mode|60|50}}
 | mana = 10
 | knockback = 1
 | use = 19

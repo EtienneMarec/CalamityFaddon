@@ -4,12 +4,12 @@
 | stack = 1
 | damagetype = ranged
 | auto = yes
-| damage = 354
+| damage = {{mode|354|5678}}
 | knockback = 15
 | tooltip = Fire everything!
 | rare = 14
 | sell = {{value|0|28}}
-| use = 75
+| use = {{mode|75|70}}
 | velocity = 30
 | hardmode = yes
 | postml = yes

@@ -3,11 +3,11 @@
 | stack = 1
 | type = Weapon
 | type2 = Crafting material
-| damage = 140
+| damage = {{mode|140|500}}
 | damagetype = Ranged
 | knockback = 5.5
-| use = 9
-| velocity = 24
+| use = {{mode|9|10}}
+| velocity = {{mode|24|12}}
 | tooltip = Converts musket balls into strings of 3 {{sic}} bloody tears that drain enemy health
 | rare = 12
 | sell = {{value|0|24}}

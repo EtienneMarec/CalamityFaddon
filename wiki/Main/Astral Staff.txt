@@ -1,7 +1,7 @@
 {{item infobox
 | type = Weapon
 | damagetype = Magic
-| damage = 270
+| damage = {{mode|270|245}}
 | mana = 26
 | knockback = 5
 | critical = 19%

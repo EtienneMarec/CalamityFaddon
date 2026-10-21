@@ -4,7 +4,7 @@
 | knockback = {{dv|15%|23.5%}}
 | ai = Giant Squid AI
 | damage = {{element|Dark}} {{dv|100|200}}
-| life = {{dv|800|1600}}
+| life = {{mode|{{dv|800|1600}}|1000}}
 | defense = 18
 | immune1 = Crush Depth
 | immune2 = Confused

@@ -4,9 +4,9 @@
 | stack = 1
 | auto = yes
 | type = Weapon
-| damage = 28
+| damage = {{mode|28|30}}
 | damagetype = Magic
-| mana = 10
+| mana = {{mode|10|14}}
 | use = 19
 | velocity = 14
 | tooltip = Fires an erratic lightning bolt that arcs and bounces between enemies

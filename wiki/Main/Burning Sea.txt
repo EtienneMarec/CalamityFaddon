@@ -2,12 +2,12 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Magic
-| damage = 72
-| knockback = 6.5
-| mana = 15
+| damage = {{mode|72|56}}
+| knockback = {{mode|6.5|3}}
+| mana = {{mode|15|8}}
 | use = 20
 | tooltip = Fires a bouncing brimstone fireball that splits into homing fireballs upon collision with water
-| velocity = 15
+| velocity = {{mode|15|5}}
 | auto = yes
 | stack = 1
 | rare = 5

@@ -1,10 +1,10 @@
 {{infobox wrapper
 |{{item infobox
 | type = Weapon
-| damage = 272
+| damage = {{mode|272|933}}
 | damagetype = Ranged
-| knockback = 7.5
-| use = 12
+| knockback = {{mode|7.5|3.5}}
+| use = {{mode|12|30}}
 | velocity = 25
 | tooltip = Launches a spiky harpoon infested with toxins<br/>Releases bacteria when returning to the player
 | auto = yes

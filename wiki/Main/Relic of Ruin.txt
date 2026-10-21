@@ -1,7 +1,7 @@
 {{infobox wrapper
 |{{item infobox
 | type = Weapon
-| damage = 1
+| damage = {{mode|1|21}}
 | auto = yes
 | knockback = 0
 | velocity = 30

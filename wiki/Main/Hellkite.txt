@@ -2,9 +2,9 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Melee
-| damage = 180
+| damage = {{mode|180|570}}
 | use = 29
-| knockback = 8
+| knockback = {{mode|8|13}}
 | auto = yes
 | stack = 1
 | tooltip = Contains the power of an ancient drake<br/>Summons flame geyser explosions on enemy hits

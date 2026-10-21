@@ -2,10 +2,10 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 100
+| damage = {{mode|100|70}}
 | knockback = 7.5
 | use = 22
-| velocity = 20
+| velocity = {{mode|20|10}}
 | auto = yes
 | stack = 1
 | tooltip = Summons brimstone geysers on hit<br/>Right click to throw like a javelin that explodes on hit

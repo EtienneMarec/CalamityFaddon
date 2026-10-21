@@ -3,7 +3,7 @@
 | environment = Underground Desert
 | ai = Fighter AI
 | damage = {{dv|20|40}}
-| life = {{dv|80|160}}
+| life = {{mode|{{dv|80|160}}|100}}
 | defense = 8
 | knockback = {{dv|80%|82%}}
 | debuff = Electrified

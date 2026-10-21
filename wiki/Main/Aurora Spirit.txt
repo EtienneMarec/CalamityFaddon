@@ -3,7 +3,7 @@
 | type = Flying Enemy
 | ai = Ancient Vision AI
 | environment = Snow biome
-| life = {{dv|50|100}}
+| life = {{mode|{{dv|50|100}}|200}}
 | damage = {{dv|40|80}}
 | defense = 8
 | knockback = 100

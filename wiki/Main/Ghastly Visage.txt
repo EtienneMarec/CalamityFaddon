@@ -1,12 +1,12 @@
 {{infobox wrapper
 |{{item infobox
 | type = Weapon
-| damage = 80
+| damage = {{mode|80|120}}
 | damagetype = Magic
 | knockback = 5
 | velocity = 9
 | use = 27
-| mana = 20
+| mana = {{mode|20|36}}
 | tooltip = Fires homing ghast energy that explodes
 | auto = yes
 | stack = 1

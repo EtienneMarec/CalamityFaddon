@@ -3,7 +3,7 @@
 | environment = Surface
 | ai = Unicorn AI
 | damage = {{dv|18|36}}
-| life = {{dv|60|120}}
+| life = {{mode|{{dv|60|120}}|75}}
 | defense = 4
 | knockback = {{dv|70%|73%}}
 | debuff = Bleeding

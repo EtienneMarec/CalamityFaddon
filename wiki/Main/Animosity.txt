@@ -3,12 +3,12 @@
 | type = Weapon
 | damagetype = Ranged
 | damage = 25
-| use = 12
+| use = {{mode|12|31}}
 | knockback = 2
 | auto = yes
 | stack = 1
 | rare = 7
-| velocity = 11
+| velocity = {{mode|11|6.5}}
 | sell = {{value|0|12}}
 | tooltip = 50% chance to not consume ammo<br/>Fires a powerful sniper round<br/>Right click to fire a burst of bullets
 | hardmode = yes

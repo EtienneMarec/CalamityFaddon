@@ -3,8 +3,8 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = melee
-| damage = 25
-| knockback = 4
+| damage = {{mode|25|35}}
+| knockback = {{mode|4|3}}
 | stack = 1
 | rare = 3
 | auto = yes

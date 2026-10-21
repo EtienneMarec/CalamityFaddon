@@ -4,9 +4,9 @@
 | damage = 108
 | damagetype = Magic
 | knockback = 9
-| velocity = 19
-| use = 25
-| mana = 20
+| velocity = {{mode|19|13}}
+| use = {{mode|25|65}}
+| mana = {{mode|20|90}}
 | stack = 1
 | tooltip = Casts an infernal trident that erupts into a gigantic explosion of fire and magma shards
 | auto = yes

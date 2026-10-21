@@ -1,7 +1,7 @@
 {{infobox wrapper
 |{{item infobox	
 | type = Weapon
-| damage = 60
+| damage = {{mode|60|55}}
 | damagetype = Magic
 | knockback = 3
 | stack = 1

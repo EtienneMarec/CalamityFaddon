@@ -3,7 +3,7 @@
 | type = Aquatic
 | ai = Viperfish AI
 | damage = {{dv|75|150}}
-| life = {{dv|320|640}}
+| life = {{mode|{{dv|320|640}}|400}}
 | defense = 10
 | knockback = {{dv|15%|23.5%}}
 | immune1 = Crush Depth

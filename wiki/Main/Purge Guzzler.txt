@@ -2,16 +2,16 @@
 |{{item infobox
 | type = Weapon
 | type2 = Crafting material
-| damage = 120
+| damage = {{mode|120|152}}
 | damagetype = magic
 | auto = yes
 | knockback = 4.5
-| mana = 22
+| mana = {{mode|22|14}}
 | tooltip = Emits three beams of holy energy in a tight spread
 | rare = 12
 | stack = 1
 | sell = {{value|0|24}}
-| use = 24
+| use = {{mode|24|38}}
 | velocity = 6
 | hardmode = yes
 | postml = yes

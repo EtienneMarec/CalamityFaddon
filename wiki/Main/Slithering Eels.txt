@@ -3,9 +3,9 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Magic
-| damage = 80
+| damage = {{mode|80|50}}
 | knockback = 3
-| mana = 11
+| mana = {{mode|11|20}}
 | use = 40
 | velocity = 14
 | tooltip = Casts a magical acid eel that releases acid drops as it moves

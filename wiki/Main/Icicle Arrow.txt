@@ -1,6 +1,6 @@
 {{item infobox
 | type = Ammunition
-| damage = 15
+| damage = {{mode|15|6}}
 | damagetype = Ranged
 | knockback = 2.5
 | stack = 9999
@@ -11,7 +11,7 @@
 | sell = {{value|0|0|0|16}}
 | hardmode = yes
 | listcat = arrows
-| velocity = 1
+| velocity = {{mode|1|0.2}}
 | velocitymult = 2
 | debuff = Frostburn
 | debufftip = It's either really hot or really cold. Either way it REALLY hurts

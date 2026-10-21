@@ -2,7 +2,7 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 82
+| damage = {{mode|82|40}}
 | knockback = 3.5
 | use = 25
 | attduration = {{infinity}}

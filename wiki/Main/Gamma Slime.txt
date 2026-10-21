@@ -3,7 +3,7 @@
 | environment = Acid Rain
 | ai = Gamma Slime AI
 | damage = '''{{element|Poison}} Contact:''' {{dv|110|220}}<br/>'''{{element|Poison}} Gamma Acid:''' {{dv|90|144}}<br/>'''{{element|Poison}} Gamma Beam:''' {{dv|240|384}}
-| life = {{dv|5,060|10,120}}
+| life = {{mode|{{dv|5,060|10,120}}|5000}}
 | defense = 25
 | dr = 15
 | debuff = Irradiated

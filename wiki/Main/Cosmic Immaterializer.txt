@@ -10,7 +10,7 @@
 | stack = 1
 | sell = {{value|0|30}}
 | use = 9
-| knockback = 0
+| knockback = {{mode|0|0.25}}
 | hardmode = yes
 | postml = yes
 | debuff = Exo Freeze

@@ -3,7 +3,7 @@
 | damagetype = Summon
 | damage = 36
 | mana = 12
-| use = 14
+| use = {{mode|14|24}}
 | knockback = 3
 | tooltip = Surveillance drones equipped with a strong electric field which can be directed at enemies<br/>Summons a mechanical watcher that zaps and flies around enemies<br/>Current Charge: [CHARGE]
 | stack = 1

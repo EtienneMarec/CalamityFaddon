@@ -1,14 +1,14 @@
 {{item infobox
 | type = Weapon
 | damagetype = ranged
-| damage = 14
+| damage = {{mode|14|12}}
 | knockback = 5.5
-| use = 26
+| use = {{mode|26|30}}
 | stack = 1
 | critical = 10%
 | auto = yes
 | rare = 3
-| velocity = 22
+| velocity = {{mode|22|30}}
 | sell = {{value|0|0|80}}
 | tooltip = Converts musket balls into aquashards that split upon hitting an enemy
 | proj = Aquashard.png

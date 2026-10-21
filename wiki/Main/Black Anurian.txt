@@ -3,9 +3,9 @@
 | type = Weapon
 | damagetype = Magic
 | damage = 43
-| mana = 10
+| mana = {{mode|10|13}}
 | velocity = 8
-| use = 14
+| use = {{mode|14|18}}
 | knockback = 2.75
 | tooltip = Spews bubbles and homing plankton
 | rare = 3

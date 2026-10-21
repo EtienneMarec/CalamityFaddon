@@ -5,7 +5,7 @@
 | damage = 24
 | mana = 10
 | knockback = 2
-| use = 19
+| use = {{mode|19|36}}
 | tooltip = Summons a sage spirit to fight for you<br/>Inflicts Sage Poison, a debuff that becomes stronger the more spirits you own
 | buff = Sage Spirit (buff) | bufflink = no
 | bufftip = It's uncomfortably close

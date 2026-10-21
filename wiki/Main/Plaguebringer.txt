@@ -3,7 +3,7 @@
 | environment = Jungle
 | ai = Plaguebringer AI
 | damage = {{dv|70|140}} (Contact)<br/>{{dv|104|208}} (Stinger)<br/>{{dv|144|288}} (Missile)
-| life = {{dv|3,000|6,000}}
+| life = {{mode|{{dv|3,000|6,000}}|8750}}
 | defense = 24
 | dr = 20%
 | money = {{value|0|1|50}}

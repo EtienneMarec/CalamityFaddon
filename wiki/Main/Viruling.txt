@@ -2,7 +2,7 @@
 | type = Flying Enemy
 | ai = Viruling AI
 | environment = Jungle
-| life = {{dv|400|800}}
+| life = {{mode|{{dv|400|800}}|900}}
 | damage = {{dv|60|120}}
 | defense = 38
 | knockback = 100

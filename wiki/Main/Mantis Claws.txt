@@ -2,8 +2,8 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 88
-| knockback = 7
+| damage = {{mode|88|75}}
+| knockback = {{mode|7|0.25}}
 | tooltip = Explodes on enemy hits
 | rare = 7
 | sell = {{value|0|12}}

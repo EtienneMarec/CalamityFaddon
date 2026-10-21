@@ -2,7 +2,7 @@
 {{item infobox
 | type = Weapon
 | auto = yes
-| damage = 8
+| damage = {{mode|8|11}}
 | use = 24
 | critical = 0%
 | knockback = 3

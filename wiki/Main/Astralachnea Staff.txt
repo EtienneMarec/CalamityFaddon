@@ -2,12 +2,12 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Magic
-| damage = 50
+| damage = {{mode|50|55}}
 | knockback = 6
 | use = 21
 | stack = 1
 | tooltip = Fires a spread of homing astral spider fangs
-| mana = 19
+| mana = {{mode|19|16}}
 | velocity = 13
 | auto = yes
 | rare = 7

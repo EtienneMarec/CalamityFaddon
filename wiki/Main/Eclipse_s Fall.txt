@@ -1,7 +1,7 @@
 {{dedicated|Pinkie|Death Mode No-Hit}}
 {{item infobox
 | type = Weapon
-| damage = 564
+| damage = {{mode|564|700}}
 | auto = yes
 | use = 20
 | knockback = 3.5
@@ -9,7 +9,7 @@
 | rare = 14
 | tooltip = When the sun goes dark, you will know judgement<br/>Summons spears from the sky on hit<br/>Stealth strikes impale enemies and summon a constant barrage of spears over time
 | sell = {{value|0|28}}
-| velocity = 15
+| velocity = {{mode|15|32}}
 | stack = 1
 | hardmode = yes
 | postml = yes

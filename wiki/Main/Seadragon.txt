@@ -3,13 +3,13 @@
 | type2 = Crafting material
 | auto = yes
 | damagetype = ranged
-| damage = 70
+| damage = {{mode|70|154}}
 | knockback = 2.5
 | rare = 12
 | sell = {{value|0|24}}
-| use = 5
+| use = {{mode|5|3}}
 | stack = 1
-| velocity = 16
+| velocity = {{mode|16|2}}
 | tooltip = 50% chance to not consume ammo<br/>Fires streams of water every other shot<br/>Fires a homing rocket every 18 shots, which explodes into fire shards on death
 | debuff = On Fire!
 | debuffchance = 100%

@@ -4,7 +4,7 @@
 | auto = yes
 | damagetype = Magic/Summon {{fantag|Calamity: Community Remix}}
 | damage = 110
-| mana = 20
+| mana = {{mode|20|24}}
 | velocity = 12
 | tooltip = The power of an ancient cultist resonates within this staff<br/>Fires a spread of ancient light and has a chance to fire a spinning ice cluster<br/><br/> Summons a Juvenile Eidolon Wyrm to fight for you which takes up 4 minion slots<br/>Right click to fire out Ice Clusters<br/>When an Ice Cluster intersects with the Wyrm, it explodes into homing icicles<br/>Only one wyrm can exist at a time {{fantag|Calamity: Community Remix}}
 | knockback = 7

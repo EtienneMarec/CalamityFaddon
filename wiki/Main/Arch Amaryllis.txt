@@ -3,8 +3,8 @@
 | type2 = Crafting material
 | auto = yes
 | damagetype = magic
-| damage = 75
-| mana = 10
+| damage = {{mode|75|58}}
+| mana = {{mode|10|23}}
 | velocity = 20
 | tooltip = Casts a beaming flower that explodes into homing petals
 | knockback = 7.5

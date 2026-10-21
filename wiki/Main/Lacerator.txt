@@ -2,7 +2,7 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Melee
-| damage = 107
+| damage = {{mode|107|222}}
 | reach = 35
 | attduration = {{infinity}}
 | knockback = 7

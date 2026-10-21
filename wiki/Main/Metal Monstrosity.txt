@@ -1,10 +1,10 @@
 {{item infobox
 | type = Weapon
 | damagetype = Rogue
-| damage = 30
+| damage = {{mode|30|28}}
 | auto = yes
 | use = 39
-| knockback = 7
+| knockback = {{mode|7|12}}
 | velocity = 7
 | rare = 3
 | sell = {{value|0|0|80}}

@@ -2,9 +2,9 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Spy
-| damage = 47
-| knockback = 5
-| velocity = 12
+| damage = {{mode|47|110}}
+| knockback = {{mode|5|4}}
+| velocity = {{mode|12|14}}
 | tooltip = Explodes into a dust cloud<br/>Stealth strikes form a more intense and longer lasting dust cloud
 | use = 24
 | rare = 7

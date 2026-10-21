@@ -2,10 +2,10 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Magic
-| damage = 64
+| damage = {{mode|64|43}}
 | knockback = 5.5
-| mana = 18
-| use = 15
+| mana = {{mode|18|15}}
+| use = {{mode|15|20}}
 | velocity = 5.5
 | debuff = Holy Flames
 | debuffchance = 100%

@@ -1,15 +1,15 @@
 {{item infobox
 | type = Weapon
 | damagetype = magic
-| damage = 26
+| damage = {{mode|26|27}}
 | knockback = 5
 | rare = 2
 | sell = {{value|0|0|40}}
 | stack = 1
-| mana = 5
+| mana = {{mode|5|10}}
 | auto = yes
-| use = 23
-| velocity = 10
+| use = {{mode|23|30}}
+| velocity = {{mode|10|0.1}}
 | tooltip = Casts flaming pumpkins
 | proj = Flaming Pumpkin.png
 | projcaption = Flaming Pumpkin

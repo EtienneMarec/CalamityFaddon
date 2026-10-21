@@ -2,7 +2,7 @@
 |{{item infobox
 | stack = 1
 | type = Weapon
-| damage = 116
+| damage = {{mode|116|100}}
 | damagetype = Rogue
 | use = 25
 | velocity = 8

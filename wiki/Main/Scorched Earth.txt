@@ -3,10 +3,10 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Ranged
-| damage = 500
+| damage = {{mode|500|550}}
 | use = 32
-| knockback = 8.7
-| velocity = 12.6
+| knockback = {{mode|8.7|6.5}}
+| velocity = {{mode|12.6|15}}
 | tooltip = Fires a burst of four fuel-air rockets which explode into cluster bombs<br/>Each burst consumes two rockets each<br/>Burns your targets to a fine crisp
 | stack = 1
 | auto = yes

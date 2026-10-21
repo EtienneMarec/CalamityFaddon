@@ -5,9 +5,9 @@
 | damagetype = Melee
 | rare = 14
 | sell = {{value|0|28}}
-| damage = 218
+| damage = {{mode|218|155}}
 | knockback = 9
-| use = 18
+| use = {{mode|18|30}}
 | tooltip = Definitely don't underestimate the power of shivs<br/>Fires a cosmic beam that homes in on enemies<br/>Upon hitting an enemy, a barrage of offscreen objects home in on the enemy as well as raining stars<br/>Shortflurry attacks have a chance to fire a second beam, grants the player Cosmic Freeze, and increase melee speed, DR, and defense
 | debuff = Brimstone Flames
 | debuffduration = 2 seconds (Contact)<br/>1 second (Orb, Blade)

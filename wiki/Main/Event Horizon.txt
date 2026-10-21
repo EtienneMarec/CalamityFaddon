@@ -3,10 +3,10 @@
 | auto = yes
 | type = Weapon
 | type2 = Crafting material
-| damage = 275
+| damage = {{mode|275|138}}
 | damagetype = magic
-| mana = 12
-| use = 32
+| mana = {{mode|12|45}}
+| use = {{mode|32|45}}
 | velocity = 25
 | tooltip = Nothing, not even light, can return.<br/>Fires a ring of stars to home in on nearby enemies<br/>Stars spawn black holes on enemy hits
 | debuff = Daybroken

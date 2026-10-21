@@ -1,7 +1,7 @@
 {{item infobox
 | type = Weapon
 | damagetype = Spy
-| damage = 45
+| damage = {{mode|45|33}}
 | auto = yes
 | use = 21
 | knockback = 2.5

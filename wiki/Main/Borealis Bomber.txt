@@ -2,9 +2,9 @@
 |{{item infobox
 | type = Weapon
 | stack = 1
-| damage = 35
+| damage = {{mode|35|34}}
 | damagetype = summon
-| use = 19
+| use = {{mode|19|20}}
 | mana = 10
 | tooltip = Summons aureus bombers to fight for you<br/>Aureus bombers explode on enemy impact<br/>Does not consume minion slots
 | velocity = 10

@@ -3,13 +3,13 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = ranged
-| damage = 85
+| damage = {{mode|85|88}}
 | knockback = 3
 | rare = 11
 | sell = {{value|0|22}}
 | stack = 1
 | auto = yes
-| use = 19
+| use = {{mode|19|18}}
 | velocity = 20
 | tooltip = Fires 5 bullets at once
 | hardmode = yes

@@ -4,7 +4,7 @@
 | rare = 8
 | buy = {{value|0|80}}
 | sell = {{value|0|16}}
-| damage = 120
+| damage = {{mode|120|75}}
 | use = 19
 | velocity = 3
 | tooltip = Ancient ice blade imbued with the Archmage of Ice's magic<br/>Shoots dark ice crystals<br/>The blade creates frost explosions on direct hits

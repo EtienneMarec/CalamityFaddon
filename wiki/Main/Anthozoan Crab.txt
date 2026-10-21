@@ -3,7 +3,7 @@
 | environment = Sulphurous Sea
 | ai = Anthozoan Crab AI
 | damage = {{dv|45|90}} (Contact)<br/>{{dv|58|116}} (Boulder)
-| life = {{dv|920|1840}}
+| life = {{mode|{{dv|920|1840}}|900}}
 | defense = 22
 | knockback = {{dv|96%|96.4%}}
 | banner = yes

@@ -3,7 +3,7 @@
 | type2 = Crafting material
 | damage = 300
 | damagetype = Summon
-| knockback = 3
+| knockback = {{mode|3|10}}
 | stack = 1
 | mana = 20
 | rare = 13

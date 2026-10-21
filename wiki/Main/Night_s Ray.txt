@@ -4,12 +4,12 @@
 | damagetype = Magic
 | rare = 4
 | sell = {{value|0|2|40}}
-| damage = 24
+| damage = {{mode|24|20}}
 | velocity = 6
 | tooltip = Fires a dark ray<br/> When hitting enemies, they are hit by several new beams from their side
 | use = 20
 | knockback = 3.25
-| mana = 10
+| mana = {{mode|10|15}}
 | auto = yes
 | stack = 1
 | element1 = Unholy

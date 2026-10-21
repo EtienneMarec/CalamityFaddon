@@ -4,7 +4,7 @@
 | type = Weapon
 | damage = 2250
 | damagetype = magic
-| mana = 180
+| mana = {{mode|180|300}}
 | use = 300
 | velocity = 2
 | tooltip = Oh dear, you are dead!<br/>Casts a deadly and powerful ice spell in the location of the cursor<br/>This ice spell locks itself to the position of nearby enemies<br/>Consumes 2 Blood Runes every time it's used

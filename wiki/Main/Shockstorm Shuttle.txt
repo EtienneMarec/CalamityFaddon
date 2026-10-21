@@ -3,7 +3,7 @@
 | ai = Shockstorm Shuttle AI
 | environment = Space
 | damage = {{dv|30|60}} (Contact)<br/>{{dv|60|88}} (Laser, Electric bolt)
-| life = {{dv|150|300}}
+| life = {{mode|{{dv|150|300}}|250}}
 | defense = 15
 | dr = 15%
 | knockback = 100

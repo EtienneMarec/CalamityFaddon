@@ -2,7 +2,7 @@
 {{item infobox
 | type = Weapon
 | damagetype = Rogue
-| damage = 60
+| damage = {{mode|60|50}}
 | knockback = 4
 | rare = 5
 | auto = yes

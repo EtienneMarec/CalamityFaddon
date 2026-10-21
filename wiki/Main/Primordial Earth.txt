@@ -1,14 +1,14 @@
 {{item infobox
 | type = Weapon
 | type2 = Crafting material
-| damage = 60
+| damage = {{mode|60|205}}
 | damagetype = magic
 | auto = yes
-| knockback = 7
-| mana = 19
+| knockback = {{mode|7|10}}
+| mana = {{mode|19|48}}
 | tooltip = Casts a large blast of dust
-| use = 20
-| velocity = 4
+| use = {{mode|20|68}}
+| velocity = {{mode|4|4.5}}
 | rare = 8
 | stack = 1
 | sell = {{value|0|16}}

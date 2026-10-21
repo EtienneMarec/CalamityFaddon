@@ -2,10 +2,10 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 360
+| damage = {{mode|360|235}}
 | knockback = 8
 | use = 28
-| velocity = 14.5
+| velocity = {{mode|14.5|28}}
 | tooltip = Releases electric mines outward that connect to each-other via arcs
 | rare = 15
 | sell = {{value|0|30}}

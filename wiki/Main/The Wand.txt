@@ -10,7 +10,7 @@
 | hardmode = yes
 | postml = yes
 | auto = yes
-| mana = 150
+| mana = {{mode|150|200}}
 | rare = 15
 | sell = {{value|0|50}}
 | debuff = On Fire!

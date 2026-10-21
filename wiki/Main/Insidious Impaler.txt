@@ -2,10 +2,10 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 210
-| use = 20
-| knockback = 8
-| velocity = 5
+| damage = {{mode|210|250}}
+| use = {{mode|20|13}}
+| knockback = {{mode|8|12}}
+| velocity = {{mode|5|18}}
 | tooltip = Fires a harpoon that sticks to enemies and explodes
 | rare = 13
 | sell = {{value|0|26}}

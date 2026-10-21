@@ -1,7 +1,7 @@
 {{item infobox
 | type = Weapon
 | tooltip = Shoots a soul scythe<br/>Enemies explode when on low health, spreading the plague {{sic}}
-| damage = 98
+| damage = {{mode|98|77}}
 | damagetype = melee
 | use = 19
 | knockback = 7.5

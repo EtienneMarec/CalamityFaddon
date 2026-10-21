@@ -10,7 +10,7 @@
 | tooltip = Converts wooden arrows into slow, powerful shells
 | rare = 2
 | stack = 1
-| velocity = 1.5
+| velocity = {{mode|1.5|2.5}}
 | buy = {{value|0|2}}
 | sell = {{value|0|0|40}}
 | proj = Shell.png

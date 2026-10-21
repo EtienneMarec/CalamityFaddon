@@ -4,9 +4,9 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Magic
-| damage = 888
-| knockback = 0
-| mana = 10
+| damage = {{mode|888|960}}
+| knockback = {{mode|0|0.25}}
+| mana = {{mode|10|15}}
 | use = 120
 | velocity = 0
 | tooltip = Releases fire and souls upward from a held book<br/>As the book is held the power of both increases

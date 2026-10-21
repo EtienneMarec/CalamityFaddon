@@ -13,7 +13,7 @@
 | debuffchance = 100%
 | debuffduration = 5 seconds
 | sell = {{value|0|2|40}}
-| velocity = 9
+| velocity = {{mode|9|16}}
 | proj = Gel Wave.png
 | projcaption = Gel Wave
 | element1 = Slash

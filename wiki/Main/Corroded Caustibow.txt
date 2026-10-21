@@ -1,7 +1,7 @@
 {{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 88
+| damage = {{mode|88|75}}
 | critical = 24%
 | knockback = 6
 | use = 45

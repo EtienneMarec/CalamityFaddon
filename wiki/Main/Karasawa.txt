@@ -2,7 +2,7 @@
 {{item infobox
 | type = Weapon
 | damagetype = ranged
-| damage = 900
+| damage = {{mode|900|2400}}
 | knockback = 12
 | rare = 14
 | sell = {{value|0|28}}

@@ -4,7 +4,7 @@
 | environment2 = Ice biome
 | ai = Ice Clasper AI
 | damage = {{element|Cold}} {{dv|32|64}} (Contact)<br/>{{element|Cold}} {{dv|90|180}} (Frost Bolt)
-| life = {{dv|600|1,200}}
+| life = {{mode|{{dv|600|1,200}}|500}}
 | defense = 12
 | knockback = {{dv|65%|68.5%}}
 | debuff = Frostburn

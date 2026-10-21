@@ -4,7 +4,7 @@
 | type2 = Crafting material
 | damagetype = Ranged
 | tooltip = Converts musket balls into plague rounds that explode and split apart on death
-| damage = 135
+| damage = {{mode|135|105}}
 | use = 37
 | knockback = 9.5
 | stack = 1

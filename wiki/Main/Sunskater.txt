@@ -3,7 +3,7 @@
 | environment = Space
 | ai = Sunskater AI
 | damage = {{dv|20|40}}
-| life = {{dv|100|200}}
+| life = {{mode|{{dv|100|200}}|160}}
 | defense = 4
 | knockback = {{dv|30%|37%}}
 | money = {{sc|5}}

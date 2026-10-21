@@ -2,9 +2,9 @@
 | type = Weapon
 | damagetype = Magic
 | damage = 17
-| mana = 9
+| mana = {{mode|9|12}}
 | knockback = 1.5
-| use = 45
+| use = {{mode|45|20}}
 | velocity = 14
 | tooltip = Releases three streams of acid
 | stack = 1

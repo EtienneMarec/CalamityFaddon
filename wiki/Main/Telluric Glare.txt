@@ -2,7 +2,7 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 176
+| damage = {{mode|176|83}}
 | knockback = 7.5
 | rare = 12
 | sell = {{value|0|24}}
@@ -10,7 +10,7 @@
 | auto = yes
 | velocity = 18
 | tooltip = Fires volleys of four colossal radiant arrows which can pass through walls
-| use = 20
+| use = {{mode|20|24}}
 | hardmode = yes
 | postml = yes
 | debuff = Holy Flames

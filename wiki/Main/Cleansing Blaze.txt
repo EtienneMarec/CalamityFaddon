@@ -1,15 +1,15 @@
 {{item infobox	
 | type = Weapon
 | type2 = Crafting material
-| damage = 130
+| damage = {{mode|130|275}}
 | damagetype = Ranged
 | knockback = 4
 | stack = 1
 | rare = 14
 | sell = {{value|0|36}}
 | auto = yes
-| use = 12
-| velocity = 14
+| use = {{mode|12|24}}
+| velocity = {{mode|14|11}}
 | tooltip = 90% chance to not use gel
 | hardmode = yes
 | postml = yes

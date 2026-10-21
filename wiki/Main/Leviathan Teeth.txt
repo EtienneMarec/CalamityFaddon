@@ -2,7 +2,7 @@
 |{{item infobox
 | type = Weapon
 | type2 = Crafting material
-| damage = 50
+| damage = {{mode|50|43}}
 | damagetype = Rogue
 | rare = 7
 | stack = 1
@@ -12,7 +12,7 @@
 | auto = yes
 | hardmode = yes
 | tooltip = Rapidly throws a variety of poisonous fangs that stick to enemies<br/>Stealth strikes cause 3 very fast teeth to be thrown, ignoring gravity and inflicting extreme knockback
-| velocity = 12
+| velocity = {{mode|12|7.5}}
 | debuff = Venom
 | debufftip = Losing life
 | debuffchance = 100%

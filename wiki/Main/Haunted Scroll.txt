@@ -5,7 +5,7 @@
 | damage = 25
 | mana = 10
 | knockback = 3
-| use = 24
+| use = {{mode|24|36}}
 | tooltip = Summons a stack of haunted dishes to fight for you
 | buff = Haunted Dishes (buff) | bufflink = no
 | bufftip = The haunted dishes will protect you

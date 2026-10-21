@@ -3,11 +3,11 @@
 | noimagetransclude = yes
 | type = Weapon
 | type2 = Crafting material
-| damage = 50
+| damage = {{mode|50|38}}
 | damagetype = Rogue
 | auto = yes
 | stack = 1
-| velocity = 7
+| velocity = {{mode|7|8.2}}
 | knockback = 7
 | use = 14
 | tooltip = Throws a throwing knife that leaves sparks as it travels.<br/>Stealth strikes cause the knife to be faster and leave a huge shower of sparks as it travels

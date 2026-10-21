@@ -3,9 +3,9 @@
 | damagetype = Ranged
 | damage = 50
 | auto = yes
-| use = 21
-| knockback = 2.25
-| velocity = 15
+| use = {{mode|21|9}}
+| knockback = {{mode|2.25|0.5}}
+| velocity = {{mode|15|10}}
 | tooltip = It carries the mark of the Northern Star<br/>Projectile hits grant buffs to the weapon and the player<br/>Buffs are removed on hit
 | rare = 4
 | sell = {{value|0|2|40}}

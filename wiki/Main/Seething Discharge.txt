@@ -7,8 +7,8 @@
 | auto = yes
 | knockback = 6.75
 | velocity = 6
-| mana = 15
-| use = 24
+| mana = {{mode|15|30}}
+| use = {{mode|24|60}}
 | tooltip = Fires a barrage of brimstone blasts
 | rare = 5
 | stack = 1

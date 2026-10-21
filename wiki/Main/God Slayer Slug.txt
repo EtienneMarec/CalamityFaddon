@@ -2,7 +2,7 @@
 | type = Ammunition
 | tooltip = Heavy ammunition with unlimited piercing that tears through spacetime<br/>After a slug lands a hit, if it strikes a wall or runs out of targets to pierce,<br/>it warps backwards through space and supercharges, exploding on impact
 | damagetype = ranged
-| damage = 28
+| damage = {{mode|28|18}}
 | knockback = 3
 | velocity = 6
 | velocitymult = 6

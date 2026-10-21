@@ -1,10 +1,10 @@
 {{item infobox
 | type = Weapon
-| damage = 49
+| damage = {{mode|49|60}}
 | damagetype = magic
 | auto = yes
 | knockback = 3.75
-| mana = 17
+| mana = {{mode|17|20}}
 | rare = 10
 | stack = 1
 | sell = {{value|0|20}}

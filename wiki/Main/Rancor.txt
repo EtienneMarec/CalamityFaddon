@@ -3,7 +3,7 @@
 | damagetype = Magic
 | damage = 444
 | knockback = 5
-| mana = 10
+| mana = {{mode|10|25}}
 | use = 27
 | velocity = 9
 | tooltip = Casts a magic circle that charges energy and eventually releases a powerful laser burst of controlled maleficent magic<br/>The laser causes arms and searing lava to appear on surfaces it touches which harm both you and enemies<br/>{{color|Forgiveness can only heal so much,|#C61B40}}<br/>{{color|If the recipient has not yet forgiven themselves.|#C61B40}}

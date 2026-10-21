@@ -2,9 +2,9 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Melee
-| damage = 48
+| damage = {{mode|48|225}}
 | use = 17
-| velocity = 10
+| velocity = {{mode|10|5.5}}
 | knockback = 7
 | auto = yes
 | stack = 1

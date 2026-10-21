@@ -2,14 +2,14 @@
 |{{item infobox	
 | type = Weapon
 | type2 = Crafting material
-| damage = 80
+| damage = {{mode|80|550}}
 | damagetype = Ranged
-| knockback = 7.5
+| knockback = {{mode|7.5|14}}
 | stack = 1
 | rare = 12
 | sell = {{value|0|24}}
 | auto = yes
-| use = 15
+| use = {{mode|15|39}}
 | velocity = 24
 | tooltip = Fires flare rockets
 | hardmode = yes

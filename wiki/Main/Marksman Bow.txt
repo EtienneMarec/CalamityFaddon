@@ -2,13 +2,13 @@
 {{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 30
+| damage = {{mode|30|39}}
 | knockback = 6
 | critical = 24%
 | rare = 8
 | sell = {{value|0|16}}
 | stack = 1
-| use = 18
+| use = {{mode|18|15}}
 | auto = yes
 | tooltip = Fires three arrows at once<br/>Wooden arrows are converted into Marksman Arrows that can ricochet off coins
 | velocity = 10

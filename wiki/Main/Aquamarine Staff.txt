@@ -7,7 +7,7 @@
 | use = 22
 | stack = 1
 | tooltip = Shoots two blue bolts
-| mana = 3
+| mana = {{mode|3|10}}
 | auto = yes
 | rare = 2
 | velocity = 14

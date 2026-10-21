@@ -1,9 +1,9 @@
 {{infobox wrapper
 |{{item infobox
 | type = Weapon
-| damage = 1350
+| damage = {{mode|1350|1700}}
 | critical = 16%
-| use = 25
+| use = {{mode|25|35}}
 | stack = 1
 | rare = 11
 | sell = {{value|0|22}}

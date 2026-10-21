@@ -3,7 +3,7 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Summon
-| damage = 56
+| damage = {{mode|56|25}}
 | knockback = 2
 | mana = 10
 | use = 19

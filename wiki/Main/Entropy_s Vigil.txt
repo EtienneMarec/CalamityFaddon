@@ -2,7 +2,7 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Summon
-| damage = 40
+| damage = {{mode|40|38}}
 | knockback = 2
 | mana = 10
 | rare = 7
@@ -10,7 +10,7 @@
 | auto = yes
 | use = 24
 | stack = 1
-| velocity = 10
+| velocity = {{mode|10|1}}
 | tooltip = Summons Calamitas and her brothers to protect you<br/>One minion trio takes two minion slots
 | buff = Blighted Eyes (buff) | bufflink = no
 | bufftip = Calamitas and her brothers will protect you

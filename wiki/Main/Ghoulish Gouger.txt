@@ -2,12 +2,12 @@
 |{{item infobox
 | type = Weapon
 | type2 = Crafting material
-| damage = 166
+| damage = {{mode|166|204}}
 | damagetype = Spy
 | hardmode = yes
 | postml = yes
 | knockback = 7.5
-| velocity = 16
+| velocity = {{mode|16|17}}
 | rare = 13
 | sell = {{value|0|26}}
 | auto = yes

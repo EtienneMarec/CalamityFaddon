@@ -1,12 +1,12 @@
 {{item infobox
 |type = Weapon
 |consumable = true
-|damage = 50
+|damage = {{mode|50|49}}
 |damagetype = Rogue
 |use = 11
 |knockback = 2.5
 |auto = yes
-|velocity = 12
+|velocity = {{mode|12|14}}
 |hardmode = yes
 | rare = 4
 | sell = {{value|0|0|1|80}}

@@ -3,8 +3,8 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Spy
-| damage = 166
-| knockback = 9
+| damage = {{mode|166|200}}
+| knockback = {{mode|9|2}}
 | velocity = 21
 | tooltip = Throws a scythe that emits molten globs on enemy hits<br/>Stealth strikes spawn molten globs periodically in flight and more on-hit
 | rare = 12

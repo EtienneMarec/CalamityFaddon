@@ -3,7 +3,7 @@
 | type = Weapon
 | auto = yes
 | damagetype = melee
-| damage = 660
+| damage = {{mode|660|333}}
 | stack = 1
 | knockback = 9
 | tooltip = Fires a dragon head that releases draconic sparks<br/>Summons a barrage of petals and waterfalls on enemy hits

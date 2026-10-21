@@ -1,7 +1,7 @@
 {{infobox wrapper
 |{{item infobox
 | type = Weapon
-| damage = 32
+| damage = {{mode|32|48}}
 | stack = 1
 | damagetype = Rogue
 | auto = yes

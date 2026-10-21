@@ -3,7 +3,7 @@
 | auto = yes
 | damagetype = magic
 | damage = 55
-| mana = 18
+| mana = {{mode|18|22}}
 | tooltip = Chill<br/>Fires an icy wave that splits multiple times and explodes into shards
 | knockback = 1.5
 | velocity = 12

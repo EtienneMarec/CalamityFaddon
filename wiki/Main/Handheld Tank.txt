@@ -2,8 +2,8 @@
 {{item infobox
 | type = Weapon
 | damagetype = Ranged
-| damage = 940
-| use = 71
+| damage = {{mode|940|740}}
+| use = {{mode|71|74}}
 | knockback = 16
 | critical = 19%
 | stack = 1

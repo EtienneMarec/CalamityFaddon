@@ -4,7 +4,7 @@
 | damagetype = Magic
 | rare = 16
 | use = 120
-| knockback = 0
+| knockback = {{mode|0|0.25}}
 | stack = 1
 | auto = yes
 | sell = {{value|1}}
@@ -12,7 +12,7 @@
 | hardmode = yes
 | postml = yes
 | epilogue = yes
-| mana = 30
+| mana = {{mode|30|300}}
 | velocity = 0
 | tooltip = Hexes a possible nearby enemy, trapping them in a brilliant display of destruction<br/>{{color|There's pictures of ponies in the book|#9C6CFB}}
 | proj = Eternity Crystal.png

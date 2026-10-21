@@ -4,8 +4,8 @@
 | type2 = Crafting material
 | auto = yes
 | damagetype = magic
-| damage = 15
-| mana = 8
+| damage = {{mode|15|10}}
+| mana = {{mode|8|9}}
 | velocity = 15
 | tooltip = Fires feathers from the sky that stick to enemies and tiles and explode
 | knockback = 3.50

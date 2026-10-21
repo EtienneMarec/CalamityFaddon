@@ -2,12 +2,12 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Rogue
-| damage = 76
+| damage = {{mode|76|120}}
 | auto = yes
 | use = 19
 | stack = 1
-| velocity = 20
-| knockback = 6
+| velocity = {{mode|20|17}}
+| knockback = {{mode|6|7}}
 | tooltip = Throws an ichor tipped trident<br/>Stealth strikes are showered in splashes of ichor
 | rare = 4
 | sell = {{value|0|2|40}}

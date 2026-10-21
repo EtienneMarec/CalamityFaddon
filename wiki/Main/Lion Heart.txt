@@ -6,7 +6,7 @@
 | auto = yes
 | damagetype = melee
 | tooltip = Summons an energy explosion on enemy hits<br/>Right click to summon an energy shell for a few seconds that halves all damage sources<br/>This has a 45 second cooldown
-| damage = 323
+| damage = {{mode|323|960}}
 | knockback = 5.5
 | rare = 13
 | buy = {{value|1|40}}

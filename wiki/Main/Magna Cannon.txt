@@ -3,10 +3,10 @@
 | type2 = Crafting material
 | auto = yes
 | damagetype = magic
-| damage = 26
+| damage = {{mode|26|25}}
 | mana = 12
 | tooltip = Fires a concentrated blast of energy
-| knockback = 3.5
+| knockback = {{mode|3.5|2.5}}
 | velocity = 12
 | rare = 2
 | sell = {{value|0|0|40}}

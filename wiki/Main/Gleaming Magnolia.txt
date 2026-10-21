@@ -4,7 +4,7 @@
 | auto = yes
 | damagetype = magic
 | damage = 32
-| mana = 11
+| mana = {{mode|11|15}}
 | tooltip = Casts a gleaming flower that explodes into petals
 | knockback = 5.5
 | rare = 5

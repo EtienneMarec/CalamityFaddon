@@ -3,10 +3,10 @@
 | damagetype = Melee
 | rare = 14
 | sell = {{value|0|36}}
-| damage = 166
+| damage = {{mode|166|333}}
 | use = 19
 | velocity = 28
-| knockback = 6.75
+| knockback = {{mode|6.75|7.5}}
 | tooltip = Fires a spread of demonic scythes<br/>Pitchforks rise from the underworld to skewer your foes<br/>Critical hits cause shadowflame explosions
 | auto = yes
 | stack =  1

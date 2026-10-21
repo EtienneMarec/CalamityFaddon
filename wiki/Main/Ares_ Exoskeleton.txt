@@ -2,8 +2,8 @@
 |{{item infobox
 | type = Weapon
 | damagetype = Summon
-| damage = 625
-| use = 9
+| damage = {{mode|625|550}}
+| use = {{mode|9|24}}
 | mana = 80
 | knockback = 1
 | velocity = 10

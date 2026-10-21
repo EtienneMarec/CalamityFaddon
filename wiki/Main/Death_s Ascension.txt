@@ -1,8 +1,8 @@
 {{dedicated|ScrxletGoddess|Patreon Donator}}{{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 1350
-| use = 30
+| damage = {{mode|1350|500}}
+| use = {{mode|30|24}}
 | knockback = 9
 | velocity = 24
 | tooltip = You can feel the hands of Death himself onto yours<br/>Left Click to perform a true melee slash that rips souls out of hit enemies<br/>Right click to fire a spread of five deadly slashes

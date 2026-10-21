@@ -3,12 +3,12 @@
 | stack = 1
 | damagetype = ranged
 | auto = yes
-| damage = 31
-| knockback = 2.5
+| damage = {{mode|31|33}}
+| knockback = {{mode|2.5|2}}
 | rare = 8
 | tooltip = Fires two bullets at once<br/>The gun also deals damage to enemies that touch it
 | sell = {{value|0|16}}
-| use = 7
+| use = {{mode|7|9}}
 | debuff = On Fire!
 | debuffduration = 6 seconds (Contact with gun)
 | debuffchance = 100%

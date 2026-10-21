@@ -1,7 +1,7 @@
 {{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 483
+| damage = {{mode|483|1005}}
 | auto = yes
 | use = 17
 | velocity = 10

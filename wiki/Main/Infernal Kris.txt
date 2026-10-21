@@ -2,7 +2,7 @@
 | type = Weapon
 | damagetype = Spy
 |consumable = true
-| damage = 24
+| damage = {{mode|24|21}}
 | auto = yes
 | use = 17
 | knockback = 1

@@ -2,14 +2,14 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Ranged
-| damage = 80
+| damage = {{mode|80|33}}
 | use = 39
 | knockback = 6.5
 | auto = yes
 | stack = 1
 | rare = 10
 | sell = {{value|0|20}}
-| velocity = 20
+| velocity = {{mode|20|15}}
 | tooltip = BOOM<br/>Right click to fire a nuke
 | hardmode = yes
 | proj = Big Nuke.gif

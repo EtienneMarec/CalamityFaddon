@@ -3,7 +3,7 @@
 | type = Weapon
 | damagetype = Melee
 | tooltip = Wielded by the most powerful fighter.<br/>Summons blood explosions and lowers enemy defense on hit
-| damage = 375
+| damage = {{mode|375|188}}
 | use = 15
 | knockback = 10
 | velocity = 12

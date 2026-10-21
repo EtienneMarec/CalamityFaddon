@@ -2,9 +2,9 @@
 | type = Enemy
 | ai = Tortoise AI
 | environment = Jungle
-| life = {{dv|800|1,600}}
+| life = {{mode|{{dv|800|1,600}}|1200}}
 | damage = {{element|Poison}} {{dv|80|160}}
-| defense = 32
+| defense = {{mode|32|50}}
 | knockback = {{dv|80%|82%}}
 | immune1 = Kami Flu
 | immune2 = Plague

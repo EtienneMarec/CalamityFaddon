@@ -1,15 +1,15 @@
 {{infobox wrapper
 |{{item infobox	
 | type = Weapon
-| damage = 9
+| damage = {{mode|9|5}}
 | damagetype = Ranged
-| knockback = 2
+| knockback = {{mode|2|2.2}}
 | stack = 1
 | rare = 2
 | sell = {{value|0|0|40}}
 | auto = yes
-| velocity = 14
-| use = 26
+| velocity = {{mode|14|15}}
+| use = {{mode|26|24}}
 | tooltip = Converts wooden arrows into electric bolt arrows that explode
 | proj = Bolt Arrow.png
 | projcaption = Bolt Arrow

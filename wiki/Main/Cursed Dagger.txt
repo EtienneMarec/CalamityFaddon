@@ -1,6 +1,6 @@
 {{infobox wrapper
 |{{item infobox
-| damage = 34
+| damage = {{mode|34|45}}
 | damagetype = Spy
 | use = 15
 | knockback = 4.5
@@ -9,7 +9,7 @@
 | rare = 5
 | tooltip = Throws bouncing daggers<br/>Stealth strikes are showered in cursed fireballs
 | sell = {{value|0|7|20}}
-| velocity = 12
+| velocity = {{mode|12|19}}
 | type = Weapon
 | hardmode = yes
 | debuff = Cursed Inferno

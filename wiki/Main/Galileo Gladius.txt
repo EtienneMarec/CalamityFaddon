@@ -4,7 +4,7 @@
 | damagetype = Melee
 | rare = 13
 | sell = {{value|0|26}}
-| damage = 110
+| damage = {{mode|110|600}}
 | knockback = 10
 | use = 10
 | tooltip = Don't underestimate the power of small space swords<br/>Shoots a homing crescent moon<br/>Spawns planetoids on enemy hits<br/>Shortflurry attacks spawn planetoids on projectile hits, increase melee speed by 50%, and give immunity to Moon Burnt

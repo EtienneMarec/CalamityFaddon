@@ -5,7 +5,7 @@
 | damagetype = Rogue
 | rare = 3
 | sell = {{value|0|0|2}}
-| damage = 26
+| damage = {{mode|26|16}}
 | critical = 12%
 | tooltip = Stealth strikes spawn rain clouds on enemy hits
 | use = 12

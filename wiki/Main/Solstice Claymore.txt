@@ -3,7 +3,7 @@
 | stack = 1
 | type = Weapon
 | type2 = Crafting material
-| damage = 300
+| damage = {{mode|300|235}}
 | damagetype = Melee
 | knockback = 6.5
 | use = 15

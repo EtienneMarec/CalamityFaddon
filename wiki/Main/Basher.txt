@@ -1,7 +1,7 @@
 {{item infobox
 | type = Weapon
 | damagetype = Melee
-| damage = 30
+| damage = {{mode|30|65}}
 | knockback = 7
 | use = 25
 | tooltip = Inflicts irradiated on enemy hits

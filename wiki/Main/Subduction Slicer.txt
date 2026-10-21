@@ -2,7 +2,7 @@
 | type = Weapon
 | type2 = Crafting material
 | damagetype = Spy
-| damage = 90
+| damage = {{mode|90|95}}
 | knockback = 8.5
 | rare = 8
 | sell = {{value|0|16}}

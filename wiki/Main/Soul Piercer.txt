@@ -2,8 +2,8 @@
 | type = Weapon
 | auto = yes
 | damagetype = magic
-| damage = 115
-| mana = 19
+| damage = {{mode|115|235}}
+| mana = {{mode|19|30}}
 | tooltip = Casts a powerful ray that summons extra rays on enemy hits
 | velocity = 6
 | knockback = 8

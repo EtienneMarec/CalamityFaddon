@@ -3,7 +3,7 @@
 | type2 = Crafting material
 | damagetype = Rogue
 | damage = 24
-| use = 15
+| use = {{mode|15|30}}
 | knockback = 5.5
 | velocity = 3
 | tooltip = Stealth strikes make the boomerang ricochet between enemies<br/>{{color|Though the evaporating Sea Kingdom fought a losing battle, its proud inhabitants did not go down easily.|#5C95A1}}<br/>{{color|As a last resort, they had to fashion weapons from the skeletons of dead animals.|#5C95A1}}

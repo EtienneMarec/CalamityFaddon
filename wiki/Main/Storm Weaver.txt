@@ -7,7 +7,7 @@
 | type2 = Burrowing Enemy
 | environment = Space
 | ai = Storm Weaver AI
-| life = {{dv|825,500|1,320,800}}
+| life = {{mode|{{dv|825,500|1,320,800}}|825000}}
 | knockback = 100
 | immuneall = yes <!-- Adding this will change the meaning of immune1, immune2 etc to vulnerability -->
 | vulnerable1 = Stab
