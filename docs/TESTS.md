@@ -125,6 +125,18 @@ Contrôlé par `python tools/selftest.py --mode all`. En jeu :
 
 ### 2.2 Décisions du 21/10 : stats par mode, Meatmetal Sans, outils de test
 
+**Outils de debug** (Cheat Sheet, sans recette) : **Fandom Dummy Spawner** (clic gauche : pose au curseur un mannequin
+géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments ; clic droit : les retire) et 18
+**Test Swords** (une par élément + Moon Burnt, de la couleur de l'élément, 10 dégâts).
+
+- [ ] Le mannequin se pose, ne bouge pas, ne fait pas de dégâts, se régénère quand il descend sous 10 % de ses PV
+- [ ] Test Sword: Moon Burnt sur le mannequin → icône bleue du wiki au-dessus de lui
+- [ ] Chaque Test Sword d'élément (Cold, Fire, Water, Poison, Acid, Radioactive, Electricity, Stab, Slash, Smash, Magic,
+      Dark, Holy, Unholy, Machine) : particules de l'élément et teinte sur le mannequin, pas d'icône ; infobulle
+      « Elements: X » ; en Full Fandom à chaque coup, en Calamity++ seulement de temps en temps
+- [ ] Test Sword: Wind repousse plus fort (sans effet sur le mannequin, qui ne recule pas : tester sur un ennemi normal)
+- [ ] Test Sword: Bomb : coups critiques plus fréquents et plus forts
+
 - [x] **Fandom Test Vial** (Cheat Sheet) : clic droit = debuff suivant (nom affiché), clic gauche = appliqué à toi et à
       l'ennemi le plus proche (message dans le chat). Liste : Moon Burnt, Marked, puis les 15 statuts d'éléments
 - [ ] Sur un boss : Moon Burnt garde son icône du wiki au-dessus de lui, mais **pas** d'icône d'élément

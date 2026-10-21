@@ -53,6 +53,7 @@ namespace CalamityFandom.Common.Debug
             CheckMaterials();
             CheckLoot();
             CheckLegacy();
+            CheckDebugItems();
             foreach (var check in ExtraChecks)
                 check(this);
 
@@ -249,6 +250,20 @@ namespace CalamityFandom.Common.Debug
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == zwei && r.requiredItem.Any(i => i.type == gaze)),
                 "la recette de Zweihandromeda demande Night's Gaze");
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == gaze), "Night's Gaze a une recette");
+        }
+
+        private void CheckDebugItems()
+        {
+            // Une épée de test par élément (élément unique) + Moon Burnt, et le mannequin
+            foreach (Element e in Enum.GetValues<Element>())
+            {
+                bool ok = Mod.TryFind<ModItem>($"TestSword{e}", out var sword)
+                    && ElementData.ItemElements.TryGetValue(sword.Type, out var els) && els.Length == 1 && els[0] == e;
+                Expect(ok, $"épée de test {e}");
+            }
+            Expect(Mod.TryFind<ModItem>("TestSwordMoonBurnt", out _), "épée de test Moon Burnt");
+            Expect(ContentSamples.NpcsByNetId[ModContent.NPCType<Content.Debug.FandomTestDummy>()].lifeMax == Content.Debug.FandomTestDummy.Life,
+                "vie du mannequin de test");
         }
 
         private void CheckLoot()

@@ -16,6 +16,25 @@ Items: {
 		Applied: "{0} applied to you and to: {1}"
 	}
 
+	TestSword: {
+		DisplayName: "Test Sword: {0}"
+		Tooltip:
+			'''
+			[c/FF8040:Debug item]
+			Inflicts {0} on hit, following the rules of the current accuracy mode
+			'''
+	}
+
+	FandomDummySpawner: {
+		DisplayName: Fandom Dummy Spawner
+		Tooltip:
+			'''
+			[c/FF8040:Debug item]
+			Left click: places a Fandom Test Dummy at the cursor (1 000 000 life, never dies, neutral to every element)
+			Right click: removes every Fandom Test Dummy
+			'''
+	}
+
 	Weapons: {
 		Rogue: {
 			NightsGaze: {
@@ -182,4 +201,8 @@ Configs: {
 			Tooltip: ""
 		}
 	}
+}
+
+NPCs: {
+	FandomTestDummy.DisplayName: Fandom Test Dummy
 }
