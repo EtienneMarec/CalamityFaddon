@@ -45,6 +45,7 @@ namespace CalamityFandom.Common.Debug
             CheckNPCStats();
             CheckRecipes();
             CheckElements();
+            CheckMaterials();
             foreach (var check in ExtraChecks)
                 check(this);
 
@@ -175,6 +176,25 @@ namespace CalamityFandom.Common.Debug
                     sb.AppendLine($"- {name}");
                 System.IO.File.WriteAllText(System.IO.Path.Combine(reports, "elements_missing.md"), sb.ToString());
             }
+        }
+
+        private void CheckMaterials()
+        {
+            int count = Mod.GetContent<Content.Items.WikiMaterial>().Count();
+            Expect(count > 200, $"matériaux du wiki créés : {count}");
+            if (Mod.TryFind<ModItem>("AlloyBar", out var alloy))
+            {
+                Expect(Lang.GetItemNameValue(alloy.Type) == "Alloy Bar", $"nom de AlloyBar : {Lang.GetItemNameValue(alloy.Type)}");
+                Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == alloy.Type && !r.Disabled), "Alloy Bar a une recette");
+                Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.requiredItem.Any(i => i.type == alloy.Type)),
+                    "Alloy Bar sert d'ingrédient");
+                // Le serveur ne charge pas les textures : on vérifie le fichier dans le .tmod (PNG converti en .rawimg)
+                Expect(Mod.FileExists($"Assets/WikiItems/{alloy.Name}.rawimg") || Mod.FileExists($"Assets/WikiItems/{alloy.Name}.png"),
+                    "sprite de Alloy Bar");
+            }
+            else
+                Expect(false, "AlloyBar introuvable");
+            Report($"matériaux : {count} objets créés depuis le wiki");
         }
 
         private void CheckNPCStats()

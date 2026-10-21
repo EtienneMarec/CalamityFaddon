@@ -163,7 +163,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (557)
+## Objets (554)
 
 - A M S
 - AAMG "Disperse"
@@ -194,12 +194,10 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aspect of the End
 - Aspid Blaster
 - Asteroid Staff
-- Astral Arcanoid Base
 - Astral Axe
 - Astral Blade
 - Astral Bow
 - Astral Hammer
-- Astral Pearl
 - Astralence
 - Augar of the Elements
 - Auric Sword
@@ -384,7 +382,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Ghoststreaker
 - Gift of the Red
 - Glacial Crusher
-- Glittering Astral Eye
 - Gloomy Trident
 - Gluehunter
 - Gluelic Blade

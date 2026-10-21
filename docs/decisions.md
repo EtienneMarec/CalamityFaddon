@@ -36,3 +36,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   (« Elements » dans le tableau des Coverings) ne sont pas encore gérés.
 - Noms des statuts tirés des verbes de la page : Chilled, Ablaze, Drowning, Envenomed, Corroded, Irradiated, Shocked,
   Punctured, Lacerated, Discombobulated, Hexed, Incapacitated, Smitten, Cursed, Malfunctioning.
+
+## Matériaux générés automatiquement (`tools/gen_items.py`)
+
+- **Portée** : pages d'objets absentes de Calamity de type Crafting material / Bar / Soul, plus les « Block » qui
+  servent d'ingrédient dans une recette du wiki (les barres sont des blocs sur le wiki). 218 objets.
+- **Les barres et blocs ne se posent pas encore** : ce sont des matériaux simples en attendant un système de tuiles.
+- Rareté inventée (« C2 »...) → rareté 0. Prix = prix de vente du wiki x5. Pile = champ `stack` (9999 par défaut).
+- Sprites de plus de 96 px réduits par un facteur entier (ex. « Mars Bars », une photo).
+- Un matériau dont le nom existe déjà en vanilla n'est pas créé (ex. page wiki d'un objet vanilla).
+- Pour donner un comportement à l'un d'eux (se poser, effet...), lui écrire sa propre classe et l'exclure du générateur.

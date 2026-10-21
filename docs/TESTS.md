@@ -66,3 +66,11 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
 - [ ] Un ennemi Chilled/Shocked est visiblement ralenti ; un boss l'est moins
 - [ ] Les projectiles d'une arme élémentaire (arc, bâton) appliquent aussi les effets
 - [ ] Multijoueur (si possible) : les debuffs se voient chez les deux joueurs
+
+### 1.5 Matériaux du wiki générés (218, `WikiData/items.json`)
+
+- [ ] Alloy Bar, Yharim Bar, Crystal of the Cyborg existent (Cheat Sheet), avec leur sprite et leur infobulle
+- [ ] Un matériau animé (Essential Essence Bar, Galactica Singularity) s'anime dans l'inventaire et flotte au sol
+- [ ] Alloy Bar se fabrique (recette du wiki) et sert dans d'autres recettes (guide)
+- [ ] Le prix de vente et la rareté (couleur du nom) sont cohérents
+- [ ] Aucun sprite n'est énorme ou décalé dans l'inventaire

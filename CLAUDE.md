@@ -58,6 +58,9 @@ Sous PowerShell, `$env:PYTHONIOENCODING="utf-8"` évite les accents cassés dans
 - `WikiData/elements.json` — éléments des armes et affinités des PNJ (généré par `gen_elements.py`), appliqués par
   `Common/Elements/`. Résolution par nom anglais puis par les redirections du wiki / `glossary.json` → `aliases`.
   Chiffres choisis (le wiki n'en donne pas) : voir `docs/decisions.md`.
+- `WikiData/items.json` — matériaux simples du wiki (généré par `gen_items.py` avec leurs sprites dans
+  `Assets/WikiItems/` et leurs textes dans `Mods.CalamityFandom.WikiItems.hjson`), instanciés par
+  `Content/Items/WikiMaterial.cs` : pas de classe par objet. Comptent comme implémentés dans les rapports.
 - `tools/build_data.py` relance tous les générateurs dans l'ordre.
 
 ## Rapports (générés, ne pas éditer)

@@ -229,6 +229,11 @@ def load_implemented():
     for path in paths:
         for m in re.finditer(r"Wiki\s*:\s*([^\n]+?\.txt)", open(path, encoding="utf-8-sig").read()):
             done.setdefault(m.group(1).strip(), os.path.relpath(path, ROOT).replace(os.sep, "/"))
+    # Objets générés sans classe dédiée (tools/gen_items.py)
+    generated = os.path.join(ROOT, "WikiData", "items.json")
+    if os.path.exists(generated):
+        for entry in json.load(open(generated, encoding="utf-8")).get("materials", []):
+            done.setdefault(entry["page"], "WikiData/items.json")
     return done
 
 

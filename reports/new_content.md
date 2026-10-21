@@ -529,155 +529,155 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 ## Crafting material (149)
 
-- [ ] Absolute Gel
-- [ ] Absolute Spirit Essence
-- [ ] Abyssal Jelly — addon: Calamity: Tales of the Aquatic
-- [ ] Accidated Reactive Core — addon: Calamity: Tales of the Aquatic
-- [ ] Accidated Reactive Essence — addon: Calamity: Tales of the Aquatic
-- [ ] Ancient Feather
-- [ ] Architect Whirlhammer — addon: Calamity: Tales of the Aquatic
-- [ ] Ashen Key
-- [ ] Astral Arcanoid Base — addon: Calamity: Tales of the Aquatic
-- [ ] Astral Pearl — addon: Calamity: Community Remix
-- [ ] Auric Soul
-- [ ] Baronacre — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
-- [ ] Blank Scroll — addon: Deimos, the Starborn Princess
-- [ ] Blessed Flah
-- [ ] Blighted Lens
-- [ ] Blood Sample
-- [ ] Bloodletting Essence
-- [ ] Bloodred Reactive Core — addon: Calamity: Tales of the Aquatic
-- [ ] Bloodred Reactive Essence — addon: Calamity: Tales of the Aquatic
-- [ ] Bloodstone Bar
-- [ ] Blooming Bulb
-- [ ] Brimstone Fish
-- [ ] Chaos Serpent Shard
-- [ ] Charged Wulfrum Battery
-- [ ] Cloaking Gland
-- [ ] Clockwork Bar
-- [ ] Condensed Energy
-- [ ] Core of Babil — addon: Calamity: Community Remix, Deimos, the Starborn Princess
-- [ ] Core of Chaos — addon: Deimos, the Starborn Princess
-- [ ] Core of Eleum — addon: Deimos, the Starborn Princess
-- [ ] Core of Rend — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
-- [ ] Core of Sunlight — addon: Deimos, the Starborn Princess
-- [ ] Coyote Venom — addon: Calamity: Community Remix
-- [ ] Crocodile Scale — addon: Calamity: Community Remix
-- [ ] Crystal of the Cyborg — addon: Calamity: Community Remix
-- [ ] Crystal of the Dryad — addon: Calamity: Community Remix
-- [ ] Crystal of the Wicked — addon: Calamity: Community Remix
-- [ ] Crystallite
-- [ ] Demonic Bone Ash
-- [ ] Desert Feather
-- [ ] Diamond Dust
-- [ ] Ectoblood
-- [ ] Eldritch Pie Recipe
-- [ ] Electrolyte Matter — addon: Calamity: Tales of the Aquatic
-- [ ] Enchanted Metal
-- [ ] Enhanced Plasma Drive Core
-- [ ] Entropic Bar
-- [ ] Entropic Frond
-- [ ] Essence Core
-- [ ] Essence of Absolute — addon: Calamitous Absolution
-- [ ] Essence of Babil — addon: Calamity: Community Remix
-- [ ] Essence of Chaos — addon: Catalyst
-- [ ] Essence of Crystal
-- [ ] Essence of Law
-- [ ] Essence of Myst
-- [ ] Essence of Rend — addon: Deimos, the Starborn Princess
-- [ ] Essence of Surt — addon: Deimos, the Starborn Princess
-- [ ] Essence of Zot
-- [ ] Essential Essence Bar
-- [ ] Esserfish — addon: Calamity: Tales of the Aquatic
-- [ ] Esseric Bar — addon: Calamity: Tales of the Aquatic
-- [ ] Esseric Scale — addon: Calamity: Tales of the Aquatic
-- [ ] Exo Core
-- [ ] Exoplasm — addon: Catalyst
-- [ ] Eye of Architectory — addon: Calamity: Tales of the Aquatic
-- [ ] Fae Dust — addon: Deimos, the Starborn Princess
-- [ ] Fetid Essence
-- [ ] Flah
-- [ ] Flahium Component
-- [ ] Flashing Light Essence — addon: Calamity: Tales of the Aquatic
-- [ ] Floral Biomass
-- [ ] Fungal Chunk
-- [ ] Galactica Singularity
-- [ ] Garon Scale Fragment
-- [ ] Glittering Astral Eye — addon: Calamity: Community Remix
-- [ ] Godterminal Arcanoid Base — addon: Calamity: Tales of the Aquatic
-- [ ] Grandiose Gland
-- [ ] Gypsy Powder
-- [ ] Hadarian Membrane
-- [ ] Hardened Chitin
-- [ ] Hateful Energy — addon: Caeles Mod
-- [ ] Herbal Mixture
-- [ ] Hydrastatic Energy — addon: Calamity: Tales of the Aquatic
-- [ ] IOU an item
-- [ ] Illucenic Eye — addon: Calamity: Tales of the Aquatic
-- [ ] Laceline — addon: Calamity: Tales of the Aquatic
-- [ ] Lacoplasm — addon: Calamity: Tales of the Aquatic
-- [ ] Lethal Disease Canister — addon: Calamity: Tales of the Aquatic
-- [ ] Living Dew Droplet
-- [ ] Lunar Arcanoid Base — addon: Calamity: Tales of the Aquatic
-- [ ] Lush Fruit Mix
-- [ ] Maneater Bulb
-- [ ] Mars Bars — addon: Calamity: Community Remix, Calamity: Community Remix
-- [ ] Mediocre Matter — addon: Calamity: Community Remix
-- [ ] Meld Bar
-- [ ] Metal Feather
-- [ ] Miracle Plating
-- [ ] Mulch
-- [ ] Murky Paste
-- [ ] Murky Sludge
-- [ ] Mystery Meat
-- [ ] Natrisodic Alloy — addon: Calamity: Tales of the Aquatic
-- [ ] Nether
-- [ ] Noctic Reactive Core — addon: Calamity: Tales of the Aquatic
-- [ ] Noctic Reactive Essence — addon: Calamity: Tales of the Aquatic
-- [ ] Orb of Boon
-- [ ] Orb of Crystal — addon: Deimos, the Starborn Princess
-- [ ] Orb of Law — addon: Deimos, the Starborn Princess
-- [ ] Orb of Myst — addon: Deimos, the Starborn Princess
-- [ ] Orb of Surt — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
-- [ ] Orb of Zot — addon: Deimos, the Starborn Princess
-- [ ] Ornate Cloth
-- [ ] Phantoplasm — addon: Calamity: Community Remix, Deimos, the Starborn Princess
-- [ ] Primordial Life
-- [ ] Primordial Light Shard
-- [ ] Prototype Plasma Drive Core — addon: Calamity: Community Remix
-- [ ] Pulsing Night Essence — addon: Calamity: Tales of the Aquatic
-- [ ] Quark-Gluon Sludge — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
-- [ ] Rare Plantera Fruit
-- [ ] Raw Miracle
-- [ ] Reassembled Electronics
-- [ ] Reclaimed Flah
-- [ ] Rotten Matter
-- [ ] Scarred Angelfish
-- [ ] Seed Bag
-- [ ] Shattered Message Block — addon: Calamity: Community Remix, Calamity: Community Remix
-- [ ] Shattered Prism — addon: Calamity: Tales of the Aquatic
-- [ ] Shattered Start Block — addon: Calamity: Community Remix, Calamity: Community Remix
-- [ ] Shatterite Bar — addon: Calamity: Tales of the Aquatic
-- [ ] Skyline Tooth — addon: Calamity: Tales of the Aquatic
-- [ ] Something
-- [ ] Soul Flux
-- [ ] Soul of Bright
-- [ ] Soul of Plight — addon: Calamity: Community Remix
-- [ ] Stardust
-- [ ] Stiriatic Bar — addon: Calamity: Tales of the Aquatic
-- [ ] Strange Matter — addon: Deimos, the Starborn Princess
-- [ ] Subnautical Plate
-- [ ] The sword is inside the core
-- [ ] Trapper Bulb
-- [ ] Twisted Netherite Bar
-- [ ] Twisted Tendril
-- [ ] Unholy Blood Cells
-- [ ] Unpurified Gel
-- [ ] Voidant Substance — addon: Calamity: Tales of the Aquatic
-- [ ] Voidwave Ink — addon: Calamity: Tales of the Aquatic
-- [ ] Waterfreeze Reactive Core — addon: Calamity: Tales of the Aquatic
-- [ ] Waterfreeze Reactive Essence — addon: Calamity: Tales of the Aquatic
-- [ ] Weaver Lac — addon: Calamity: Tales of the Aquatic
+- [x] Absolute Gel
+- [x] Absolute Spirit Essence
+- [x] Abyssal Jelly — addon: Calamity: Tales of the Aquatic
+- [x] Accidated Reactive Core — addon: Calamity: Tales of the Aquatic
+- [x] Accidated Reactive Essence — addon: Calamity: Tales of the Aquatic
+- [x] Ancient Feather
+- [x] Architect Whirlhammer — addon: Calamity: Tales of the Aquatic
+- [x] Ashen Key
+- [x] Astral Arcanoid Base — addon: Calamity: Tales of the Aquatic
+- [x] Astral Pearl — addon: Calamity: Community Remix
+- [x] Auric Soul
+- [x] Baronacre — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [x] Blank Scroll — addon: Deimos, the Starborn Princess
+- [x] Blessed Flah
+- [x] Blighted Lens
+- [x] Blood Sample
+- [x] Bloodletting Essence
+- [x] Bloodred Reactive Core — addon: Calamity: Tales of the Aquatic
+- [x] Bloodred Reactive Essence — addon: Calamity: Tales of the Aquatic
+- [x] Bloodstone Bar
+- [x] Blooming Bulb
+- [x] Brimstone Fish
+- [x] Chaos Serpent Shard
+- [x] Charged Wulfrum Battery
+- [x] Cloaking Gland
+- [x] Clockwork Bar
+- [x] Condensed Energy
+- [x] Core of Babil — addon: Calamity: Community Remix, Deimos, the Starborn Princess
+- [x] Core of Chaos — addon: Deimos, the Starborn Princess
+- [x] Core of Eleum — addon: Deimos, the Starborn Princess
+- [x] Core of Rend — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [x] Core of Sunlight — addon: Deimos, the Starborn Princess
+- [x] Coyote Venom — addon: Calamity: Community Remix
+- [x] Crocodile Scale — addon: Calamity: Community Remix
+- [x] Crystal of the Cyborg — addon: Calamity: Community Remix
+- [x] Crystal of the Dryad — addon: Calamity: Community Remix
+- [x] Crystal of the Wicked — addon: Calamity: Community Remix
+- [x] Crystallite
+- [x] Demonic Bone Ash
+- [x] Desert Feather
+- [x] Diamond Dust
+- [x] Ectoblood
+- [x] Eldritch Pie Recipe
+- [x] Electrolyte Matter — addon: Calamity: Tales of the Aquatic
+- [x] Enchanted Metal
+- [x] Enhanced Plasma Drive Core
+- [x] Entropic Bar
+- [x] Entropic Frond
+- [x] Essence Core
+- [x] Essence of Absolute — addon: Calamitous Absolution
+- [x] Essence of Babil — addon: Calamity: Community Remix
+- [x] Essence of Chaos — addon: Catalyst
+- [x] Essence of Crystal
+- [x] Essence of Law
+- [x] Essence of Myst
+- [x] Essence of Rend — addon: Deimos, the Starborn Princess
+- [x] Essence of Surt — addon: Deimos, the Starborn Princess
+- [x] Essence of Zot
+- [x] Essential Essence Bar
+- [x] Esserfish — addon: Calamity: Tales of the Aquatic
+- [x] Esseric Bar — addon: Calamity: Tales of the Aquatic
+- [x] Esseric Scale — addon: Calamity: Tales of the Aquatic
+- [x] Exo Core
+- [x] Exoplasm — addon: Catalyst
+- [x] Eye of Architectory — addon: Calamity: Tales of the Aquatic
+- [x] Fae Dust — addon: Deimos, the Starborn Princess
+- [x] Fetid Essence
+- [x] Flah
+- [x] Flahium Component
+- [x] Flashing Light Essence — addon: Calamity: Tales of the Aquatic
+- [x] Floral Biomass
+- [x] Fungal Chunk
+- [x] Galactica Singularity
+- [x] Garon Scale Fragment
+- [x] Glittering Astral Eye — addon: Calamity: Community Remix
+- [x] Godterminal Arcanoid Base — addon: Calamity: Tales of the Aquatic
+- [x] Grandiose Gland
+- [x] Gypsy Powder
+- [x] Hadarian Membrane
+- [x] Hardened Chitin
+- [x] Hateful Energy — addon: Caeles Mod
+- [x] Herbal Mixture
+- [x] Hydrastatic Energy — addon: Calamity: Tales of the Aquatic
+- [x] IOU an item
+- [x] Illucenic Eye — addon: Calamity: Tales of the Aquatic
+- [x] Laceline — addon: Calamity: Tales of the Aquatic
+- [x] Lacoplasm — addon: Calamity: Tales of the Aquatic
+- [x] Lethal Disease Canister — addon: Calamity: Tales of the Aquatic
+- [x] Living Dew Droplet
+- [x] Lunar Arcanoid Base — addon: Calamity: Tales of the Aquatic
+- [x] Lush Fruit Mix
+- [x] Maneater Bulb
+- [x] Mars Bars — addon: Calamity: Community Remix, Calamity: Community Remix
+- [x] Mediocre Matter — addon: Calamity: Community Remix
+- [x] Meld Bar
+- [x] Metal Feather
+- [x] Miracle Plating
+- [x] Mulch
+- [x] Murky Paste
+- [x] Murky Sludge
+- [x] Mystery Meat
+- [x] Natrisodic Alloy — addon: Calamity: Tales of the Aquatic
+- [x] Nether
+- [x] Noctic Reactive Core — addon: Calamity: Tales of the Aquatic
+- [x] Noctic Reactive Essence — addon: Calamity: Tales of the Aquatic
+- [x] Orb of Boon
+- [x] Orb of Crystal — addon: Deimos, the Starborn Princess
+- [x] Orb of Law — addon: Deimos, the Starborn Princess
+- [x] Orb of Myst — addon: Deimos, the Starborn Princess
+- [x] Orb of Surt — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [x] Orb of Zot — addon: Deimos, the Starborn Princess
+- [x] Ornate Cloth
+- [x] Phantoplasm — addon: Calamity: Community Remix, Deimos, the Starborn Princess
+- [x] Primordial Life
+- [x] Primordial Light Shard
+- [x] Prototype Plasma Drive Core — addon: Calamity: Community Remix
+- [x] Pulsing Night Essence — addon: Calamity: Tales of the Aquatic
+- [x] Quark-Gluon Sludge — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [x] Rare Plantera Fruit
+- [x] Raw Miracle
+- [x] Reassembled Electronics
+- [x] Reclaimed Flah
+- [x] Rotten Matter
+- [x] Scarred Angelfish
+- [x] Seed Bag
+- [x] Shattered Message Block — addon: Calamity: Community Remix, Calamity: Community Remix
+- [x] Shattered Prism — addon: Calamity: Tales of the Aquatic
+- [x] Shattered Start Block — addon: Calamity: Community Remix, Calamity: Community Remix
+- [x] Shatterite Bar — addon: Calamity: Tales of the Aquatic
+- [x] Skyline Tooth — addon: Calamity: Tales of the Aquatic
+- [x] Something
+- [x] Soul Flux
+- [x] Soul of Bright
+- [x] Soul of Plight — addon: Calamity: Community Remix
+- [x] Stardust
+- [x] Stiriatic Bar — addon: Calamity: Tales of the Aquatic
+- [x] Strange Matter — addon: Deimos, the Starborn Princess
+- [x] Subnautical Plate
+- [x] The sword is inside the core
+- [x] Trapper Bulb
+- [x] Twisted Netherite Bar
+- [x] Twisted Tendril
+- [x] Unholy Blood Cells
+- [x] Unpurified Gel
+- [x] Voidant Substance — addon: Calamity: Tales of the Aquatic
+- [x] Voidwave Ink — addon: Calamity: Tales of the Aquatic
+- [x] Waterfreeze Reactive Core — addon: Calamity: Tales of the Aquatic
+- [x] Waterfreeze Reactive Essence — addon: Calamity: Tales of the Aquatic
+- [x] Weaver Lac — addon: Calamity: Tales of the Aquatic
 
 ## Covering (149)
 
@@ -833,75 +833,75 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 ## Block (115)
 
-- [ ] Abandoned Bronze Plating — addon: Calamity: Tales of the Aquatic
-- [ ] Aegisalt Ore
-- [ ] Aeroplate — addon: Calamity: Community Remix
+- [x] Abandoned Bronze Plating — addon: Calamity: Tales of the Aquatic
+- [x] Aegisalt Ore
+- [x] Aeroplate — addon: Calamity: Community Remix
 - [ ] Aether Dirt
-- [ ] Alloy Bar
+- [x] Alloy Bar
 - [ ] Angelinite Ore
 - [ ] Antlion Bar
 - [ ] Antlion Ore
-- [ ] Apocalyptic Bar
-- [ ] Apocalyptic Ore
-- [ ] Arean Conduit Plating
+- [x] Apocalyptic Bar
+- [x] Apocalyptic Ore
+- [x] Arean Conduit Plating
 - [ ] Arena Block — pas de sprite
-- [ ] Arsenic Ore
-- [ ] Ashplate — addon: Calamity: Community Remix
+- [x] Arsenic Ore
+- [x] Ashplate — addon: Calamity: Community Remix
 - [ ] Auric Dirt
 - [ ] Baron Brine
 - [ ] Baronautical Plating
 - [ ] Baronsand
 - [ ] Bars — pas de sprite; addon: Calamity: Community Remix
-- [ ] Bloodplate — addon: Apotheosis and Friends
-- [ ] Bloodstone Ore — addon: Calamity: Tales of the Aquatic
+- [x] Bloodplate — addon: Apotheosis and Friends
+- [x] Bloodstone Ore — addon: Calamity: Tales of the Aquatic
 - [ ] Brinerack
-- [ ] Catastrophe Clay Ore
-- [ ] Chaosplate
-- [ ] Chaotic Brick
-- [ ] Charred Ore
-- [ ] Compressed Mana — addon: Deimos, the Starborn Princess
+- [x] Catastrophe Clay Ore
+- [x] Chaosplate
+- [x] Chaotic Brick
+- [x] Charred Ore
+- [x] Compressed Mana — addon: Deimos, the Starborn Princess
 - [ ] Compressed Stone Blocks — pas de sprite
-- [ ] Cosmilite Slag — addon: Calamity Loot Swap, Deimos, the Starborn Princess
+- [x] Cosmilite Slag — addon: Calamity Loot Swap, Deimos, the Starborn Princess
 - [ ] Cryoglass Brick
-- [ ] Crystalplate
-- [ ] Curseplate — addon: Calamity: Community Remix
+- [x] Crystalplate
+- [x] Curseplate — addon: Calamity: Community Remix
 - [ ] Cyberlight Brick — addon: Calamity: Tales of the Aquatic
 - [ ] Darksand — addon: Calamity: Tales of the Aquatic
-- [ ] Debris Ore — addon: Calamity: Tales of the Aquatic
-- [ ] Dustplate — addon: Calamity: Community Remix
-- [ ] Elemental Bar
+- [x] Debris Ore — addon: Calamity: Tales of the Aquatic
+- [x] Dustplate — addon: Calamity: Community Remix
+- [x] Elemental Bar
 - [ ] Elemental Brick
-- [ ] Elemental Ore — addon: Calamity: Tales of the Aquatic
-- [ ] Endoplate — addon: Calamity: Community Remix
+- [x] Elemental Ore — addon: Calamity: Tales of the Aquatic
+- [x] Endoplate — addon: Calamity: Community Remix
 - [ ] Esseric Brick — addon: Calamity: Tales of the Aquatic
 - [ ] Esseric Cake — addon: Calamity: Tales of the Aquatic
-- [ ] Esseric Ore — addon: Calamity: Tales of the Aquatic
+- [x] Esseric Ore — addon: Calamity: Tales of the Aquatic
 - [ ] Exoterrestrial Dust — addon: Calamity: Tales of the Aquatic
-- [ ] Ferozium Ore
+- [x] Ferozium Ore
 - [ ] Field Generator
 - [ ] Flah Bricks — stub
-- [ ] Flahium Bar — stub
-- [ ] Flahium Slag
+- [x] Flahium Bar — stub
+- [x] Flahium Slag
 - [ ] Freezing Mindustrial Plating — addon: Calamity: Tales of the Aquatic
 - [ ] Frigid Bar
 - [ ] Frozen Ash
-- [ ] Frozen Hellstone
-- [ ] Fuelplate — addon: Calamity: Community Remix
+- [x] Frozen Hellstone
+- [x] Fuelplate — addon: Calamity: Community Remix
 - [ ] Grimesand
-- [ ] Haunted Bar — addon: Calamity: Community Remix
+- [x] Haunted Bar — addon: Calamity: Community Remix
 - [ ] Haunted Brick — addon: Calamity: Tales of the Aquatic
-- [ ] Haunted Ore — addon: Calamity: Tales of the Aquatic
-- [ ] Ichorplate — addon: Calamity: Community Remix
+- [x] Haunted Ore — addon: Calamity: Tales of the Aquatic
+- [x] Ichorplate — addon: Calamity: Community Remix
 - [ ] Invincible Titanic Snow — pas de sprite
-- [ ] Lawplate
-- [ ] Life Ore — addon: Calamity: Community Remix
+- [x] Lawplate
+- [x] Life Ore — addon: Calamity: Community Remix
 - [ ] Lightly Weathered Waxed Copper Brick
 - [ ] Meld Brick
 - [ ] Meld Gunk
-- [ ] Meld Ore — addon: Calamity: Tales of the Aquatic
-- [ ] Mystplate
-- [ ] Natrisodic Cluster — addon: Calamity: Tales of the Aquatic
-- [ ] Omnicidal Sludge Bar — addon: Deimos, the Starborn Princess
+- [x] Meld Ore — addon: Calamity: Tales of the Aquatic
+- [x] Mystplate
+- [x] Natrisodic Cluster — addon: Calamity: Tales of the Aquatic
+- [x] Omnicidal Sludge Bar — addon: Deimos, the Starborn Princess
 - [ ] Ores — pas de sprite; addon: Calamity Loot Swap, Calamity Tales of the Aquatic, Catalyst
 - [ ] Overgrown Gravel — addon: Calamity: Tales of the Aquatic
 - [ ] Overgrown Plagued Stone
@@ -913,41 +913,41 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Plagued Silt
 - [ ] Plagued Stone
 - [ ] Primordial Ore — addon: Deimos, the Starborn Princess, Calamity Loot Swap
-- [ ] Proviplate — addon: Calamity: Community Remix
-- [ ] Refined Aegisalt
-- [ ] Refined Ferozium
-- [ ] Refined Violium
+- [x] Proviplate — addon: Calamity: Community Remix
+- [x] Refined Aegisalt
+- [x] Refined Ferozium
+- [x] Refined Violium
 - [ ] Reinforced Acidplate — addon: Calamity: Tales of the Aquatic
 - [ ] Reinforced Noctiplate — addon: Calamity: Tales of the Aquatic
 - [ ] Sallowrack
 - [ ] Scalar Esseric Brick — addon: Calamity: Tales of the Aquatic
 - [ ] Scorching Mindustrial Plating — addon: Calamity: Tales of the Aquatic
-- [ ] Shadowspec Ore — addon: Calamity Loot Swap, Catalyst
+- [x] Shadowspec Ore — addon: Calamity Loot Swap, Catalyst
 - [ ] Shatterite Brick
-- [ ] Shatterite Ore — addon: Calamity: Tales of the Aquatic
-- [ ] Silicon Ore
+- [x] Shatterite Ore — addon: Calamity: Tales of the Aquatic
+- [x] Silicon Ore
 - [ ] Skylac Crystal — addon: Calamity: Tales of the Aquatic
-- [ ] Skylac Sand — addon: Calamity: Tales of the Aquatic
-- [ ] Skylac Stone — addon: Calamity: Tales of the Aquatic
-- [ ] Smooth Skylac Stone — addon: Calamity: Tales of the Aquatic
+- [x] Skylac Sand — addon: Calamity: Tales of the Aquatic
+- [x] Skylac Stone — addon: Calamity: Tales of the Aquatic
+- [x] Smooth Skylac Stone — addon: Calamity: Tales of the Aquatic
 - [ ] Sporezol
 - [ ] Steam Geyser
-- [ ] Stiriatic Ore — addon: Calamity: Tales of the Aquatic
-- [ ] Stratostone — addon: Calamity: Tales of the Aquatic
-- [ ] Stratus Star Brick — addon: Calamity: Tales of the Aquatic
+- [x] Stiriatic Ore — addon: Calamity: Tales of the Aquatic
+- [x] Stratostone — addon: Calamity: Tales of the Aquatic
+- [x] Stratus Star Brick — addon: Calamity: Tales of the Aquatic
 - [ ] Tanzanite Glass
 - [ ] Tarraground
-- [ ] Tenebris
-- [ ] Thorium Ore — addon: Calamity: Tales of the Aquatic
+- [x] Tenebris
+- [x] Thorium Ore — addon: Calamity: Tales of the Aquatic
 - [ ] Titanic Shale — addon: Calamity: Tales of the Aquatic
 - [ ] Titanic Snow — addon: Calamity: Tales of the Aquatic
 - [ ] Torrefied Tephra
-- [ ] Verdantium Bar
-- [ ] Verdantium Ore
-- [ ] Victide Ore — addon: Calamity: Tales of the Aquatic
-- [ ] Violium Ore
-- [ ] Yharim Bar — addon: Calamity: Community Remix
-- [ ] Zotplate
+- [x] Verdantium Bar
+- [x] Verdantium Ore
+- [x] Victide Ore — addon: Calamity: Tales of the Aquatic
+- [x] Violium Ore
+- [x] Yharim Bar — addon: Calamity: Community Remix
+- [x] Zotplate
 
 ## Potion (64)
 
@@ -1617,12 +1617,12 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 ## Soul (6)
 
-- [ ] Anahita's Soul — stub; addon: Tranquility Mod
-- [ ] Brimstone Elemental's Soul — addon: Tranquility Mod
-- [ ] Cloud Elemental's Soul — stub; addon: Tranquility Mod
-- [ ] Providence's Soul — stub; addon: Tranquility Mod
-- [ ] Sand Elemental's Soul — stub; addon: Tranquility Mod
-- [ ] Ultimate Soul — stub; addon: Tranquility Mod
+- [x] Anahita's Soul — stub; addon: Tranquility Mod
+- [x] Brimstone Elemental's Soul — addon: Tranquility Mod
+- [x] Cloud Elemental's Soul — stub; addon: Tranquility Mod
+- [x] Providence's Soul — stub; addon: Tranquility Mod
+- [x] Sand Elemental's Soul — stub; addon: Tranquility Mod
+- [x] Ultimate Soul — stub; addon: Tranquility Mod
 
 ## Vanity (5)
 
@@ -1677,7 +1677,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 ## Crafting materials (1)
 
-- [ ] Broken Modem
+- [x] Broken Modem
 
 ## Consumable (1)
 
@@ -1689,7 +1689,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 ## Crafting material. (1)
 
-- [ ] Cosmic Flah
+- [x] Cosmic Flah
 
 ## Junk (1)
 
@@ -1737,7 +1737,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 ## Bar (1)
 
-- [ ] Sea Stone Bar
+- [x] Sea Stone Bar
 
 ## Accessory (1)
 
