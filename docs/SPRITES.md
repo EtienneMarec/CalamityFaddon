@@ -10,6 +10,14 @@ Format Terraria : pixel art, fond transparent ; animation = images empilées ver
 - [ ] **Mars Bars** (matériau) — le wiki n'a qu'une photo de 360×280 ; réduite automatiquement en 90×70 en attendant.
       Attendu : sprite de matériau ~24×24 à 32×32. Fichier : `wiki_sprites_custom/Mars Bars.png`
 
+## Optionnel : améliorations
+
+- [ ] **Yharim Bar au sol** — dessiné aujourd'hui en agrandissant x16 le sprite de 30×24 ; l'image « The item in-game »
+      du wiki (`Yharimbaringame.png`) montre une version géante plus détaillée, mais floue et sur un fond de décor,
+      donc inutilisable telle quelle. Attendu : version détaillée ~120×96 (dessinée x4 en jeu) ou 480×384, fond
+      transparent. Fichier : `wiki_sprites_custom/Yharim Bar (world).png` (le code à brancher est simple : texture
+      séparée pour le dessin au sol)
+
 ## Images du wiki impossibles à récupérer
 
 - [ ] `AAMG "Disperse"`, `HPST "Malign"`, `OPFT "Sublimate"` (refusées par le CDN de Fandom) et `Moai.jpg` (sans fichier).

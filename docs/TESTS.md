@@ -98,10 +98,10 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
 - [x] Alloy Bar, Yharim Bar, Crystal of the Cyborg existent (Cheat Sheet), avec leur sprite et leur infobulle
       (pas encore posables : pas de tuiles, normal)
 - [x] Un matériau animé (Essential Essence Bar, Galactica Singularity) s'anime dans l'inventaire et flotte au sol
-- [ ] Alloy Bar se fabrique (recette du wiki) et sert dans d'autres recettes (guide)
+- [x] Alloy Bar se fabrique (recette du wiki) et sert dans d'autres recettes (guide)
 - [x] Le prix de vente et la rareté (couleur du nom) sont cohérents
 - [x] Aucun sprite n'est énorme ou décalé dans l'inventaire
-- [ ] **Yharim Bar jeté au sol** : géant (x16, comme l'image de sa page), posé sur le sol, ramassable en touchant
+- [x] **Yharim Bar jeté au sol** : géant (x16, comme l'image de sa page), posé sur le sol, ramassable en touchant
       n'importe quelle partie ; taille normale dans l'inventaire (ajouté le 22/10, les deux modes)
 
 ### 1.6 Butin du wiki (bilan dans `reports/loot_applied.md`)
