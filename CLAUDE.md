@@ -121,6 +121,13 @@ Tester les trois couches : `python tools/selftest.py --mode all`. Référence «
 
 Une dépendance absente (ingrédient, debuff, boss qui droppe l'objet) se traite d'abord ou se note en `TODO` dans le code.
 
+## Décisions hors wiki : toujours les noter
+
+**Tout ce qui ne vient pas directement d'une page** (valeur choisie, nature d'un effet, nom inventé, comportement
+déduit d'une phrase vague, contrainte technique) est inscrit dans `docs/decisions.md`, dans la section du système
+concerné, avec son marqueur : **[validé]** (tranché avec l'utilisateur, avec la date), **[choix]** (décidé par Claude,
+à valider), **[technique]**. Les choix entre modes se font avec l'utilisateur : proposer, il tranche.
+
 ## Quand le wiki est incohérent
 
 Le wiki se contredit souvent (Godseeker Yharim à « 3 PV », Desert Scourge boss Hardmode à 350 000 PV, etc.).

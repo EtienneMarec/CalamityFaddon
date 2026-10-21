@@ -17,7 +17,7 @@ Items: {
 	}
 
 	TestSword: {
-		DisplayName: "Test Sword: {0}"
+		DisplayName: Test Sword: {0}
 		Tooltip:
 			'''
 			[c/FF8040:Debug item]
@@ -203,6 +203,4 @@ Configs: {
 	}
 }
 
-NPCs: {
-	FandomTestDummy.DisplayName: Fandom Test Dummy
-}
+NPCs.FandomTestDummy.DisplayName: Fandom Test Dummy
