@@ -72,8 +72,16 @@ namespace CalamityFandom.Common.Debug
         private void CheckModes()
         {
             bool full = FandomMode.IsFull;
+            // Écart extrême validé par l'utilisateur : dans tous les modes
             WikiStats.NPCs.TryGetValue("DesertScourgeHead", out var scourge);
-            Expect((scourge?.LifeRatio == 87.5f) == full, $"vie du Desert Scourge (x87,5 seulement en Full) : {scourge?.LifeRatio}");
+            Expect(scourge?.LifeRatio == 87.5f, $"vie du Desert Scourge (x87,5 dans tous les modes) : {scourge?.LifeRatio}");
+            // Valeur qui n'est que celle de Calamity 2.0.1.005 : Full Fandom seulement
+            WikiStats.Items.TryGetValue("Starfleet", out var starfleet);
+            Expect((starfleet?.Damage == 68) == full, $"Starfleet à 68 dégâts (valeur 2022, Full seulement) : {starfleet?.Damage}");
+            // Ravager = Meatmetal Sans : 23 coups pour le tuer, dans tous les modes
+            if (ModContent.TryFind<ModNPC>("CalamityMod", "RavagerBody", out var ravager))
+                Expect(ContentSamples.NpcsByNetId[ravager.Type].lifeMax == Common.NPCs.MeatmetalSans.HitsToKill,
+                    $"vie de Meatmetal Sans : {ContentSamples.NpcsByNetId[ravager.Type].lifeMax}");
             Expect((FullFandomHiding.HiddenItems.Count > 400) == full, $"objets masqués : {FullFandomHiding.HiddenItems.Count}");
             if (full)
             {

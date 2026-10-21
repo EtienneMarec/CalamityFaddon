@@ -36,6 +36,12 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 - [ ] Recettes vanilla modifiées par le wiki (exclues pour l'instant)
 - [ ] Infobulles du wiki sur les objets officiels (quand le comportement correspond)
 
+## Reworks demandés par les pages (comportement différent de Calamity)
+
+- [ ] **Meatmetal Sans** (page Ravager) : vrai combat façon Sans (os, Gaster Blasters, écran noir, Handheld Tank),
+      2 phases, apparence ; version minimale déjà en place
+- [ ] **Slime Puppet Staff** : boules de slime qui servent de barrières reliées entre elles (0 dégât, 10 max)
+
 ## Phase 4 — Nouveau contenu (`reports/new_content.md`)
 
 Prioriser avec `reports/recipes.md` → « Noms introuvables » et `reports/loot_applied.md` → « Objets introuvables » :

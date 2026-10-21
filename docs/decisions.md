@@ -73,3 +73,19 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - Code de Calamity 2.0.1.005, valeurs du wiki là où elles diffèrent : `use` 19 (au lieu de 20), vente 26 or,
   Moon Burnt 5 s sur la lance (l'ancien code appliquait le temps de vie restant du projectile).
 - Recette et éléments (Dark, Magic, Stab) fournis par les données du wiki.
+
+## Stats — règles par mode (décidé avec l'utilisateur le 21/10)
+
+- **Valeur du wiki identique au code de Calamity 2.0.1.005** : Full Fandom seulement. Ce n'est que l'ancien Calamity
+  (le wiki date de 2022 et Calamity a relevé beaucoup de dégâts depuis : Starfleet 68 → 3170). 858 valeurs.
+- **Valeur propre au wiki** (vandalisme, inventions) : tous les modes.
+- **Écart extrême (> x5) propre au wiki** : tranché au cas par cas (`tools/stats_decisions.json`) ; tant qu'il ne l'est
+  pas, Full Fandom seulement et listé « à trancher » dans `reports/stats.md`.
+  - Tous les modes : Desert Scourge (350 000 PV, « impossible avant le Hardmode, dans l'esprit du Fandom »),
+    Anti-materiel Rifle, Clockwork Bow, Coral Spout, Halibut Cannon, Soma Prime, Voidragon, Grand Dad,
+    Nanoblack Reaper, Shadecrystal Barrage, Venusian Trident, Cannonball Jellyfish, Great Sand Shark, Polterghast,
+    THE LORDE ; Rusty Beacon Prototype et Slime Puppet Staff à 0 dégât (normal d'après leurs pages : debuff seul /
+    barrières) ; Temporal Umbrella à 520 mana (atteignable en boostant son mana : pas de plafond à 400 dans tModLoader).
+  - Full Fandom seulement : Relic of Ruin (garder ses dégâts), Stormjaw Staff (0,1 rendrait ses étincelles inutiles).
+- **Ravager = Meatmetal Sans** (page « Ravager », tous les modes) : 1 PV mais esquive, 23 coups pour le tuer, attaques à
+  1 dégât + Poisoned. Version minimale codée (`Common/NPCs/MeatmetalSans.cs`) : 23 PV, 1 dégât par coup, esquive 0,5 s.

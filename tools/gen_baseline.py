@@ -44,6 +44,24 @@ def classes_at(commit):
             if kind in ("ModItem", "ModNPC")}
 
 
+def sources_at(commit, paths):
+    """{chemin: texte} des fichiers à un commit, lus en un seul appel git (git cat-file --batch)."""
+    paths = sorted(set(p for p in paths if p))
+    request = "".join(f"{commit}:{p}\n" for p in paths).encode("utf-8")
+    out = subprocess.run(["git", "-C", CALAMITY, "cat-file", "--batch"], input=request, capture_output=True, check=True).stdout
+    texts, pos = {}, 0
+    for p in paths:
+        header_end = out.index(b"\n", pos)
+        header = out[pos:header_end].split()
+        pos = header_end + 1
+        if len(header) < 3 or header[1] == b"missing":
+            continue
+        size = int(header[2])
+        texts[p] = out[pos:pos + size].decode("utf-8", errors="replace")
+        pos += size + 1
+    return texts
+
+
 def legacy_display_names(commit):
     """Noms affichés à l'ancienne version (DisplayName.SetDefault dans le code, avant la localisation hjson)."""
     names = {}

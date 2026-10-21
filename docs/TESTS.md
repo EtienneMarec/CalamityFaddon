@@ -102,6 +102,7 @@ Contrôlé par `python tools/selftest.py --mode all`. En jeu :
 - [ ] Full Fandom : un PNJ récent masqué (liste « PNJ » de `reports/baseline.md`) n'apparaît plus naturellement
 - [ ] Full Fandom : les marchands ne vendent plus d'objet masqué ; un objet masqué déjà dans l'inventaire reste utilisable
 - [ ] Full Fandom : les boss récents ne s'invoquent plus (leur objet d'invocation n'a plus de recette ni de drop)
+- [ ] Full Fandom : Starfleet à 68 dégâts (valeur de 2022) ; en Minimal elle garde ses dégâts actuels
 - [ ] Calamity++ : pour l'instant identique à Minimal (aucun équilibrage écrit)
 - [ ] Retour en Minimal : tout revient comme avant
 
@@ -113,12 +114,19 @@ Contrôlé par `python tools/selftest.py --mode all`. En jeu :
 - [ ] Recette à l'Ancient Manipulator : Daybreak, 7 Lumenyl, 4 Ruinous Soul, 12 Exodium Cluster
 - [x] Zweihandromeda : la recette demande maintenant aussi Night's Gaze
 
+### 2.2 Décisions du 21/10 : stats par mode, Meatmetal Sans
+
+- [ ] Ravager (Meatmetal Sans) : il faut exactement 23 coups pour le tuer, chaque coup ne retire qu'1 PV
+- [ ] Il « esquive » : les coups rapprochés (moins de 0,5 s) ne comptent pas
+- [ ] Ses attaques (contact et projectiles) ne font qu'1 dégât mais empoisonnent
+- [ ] Temporal Umbrella : coûte 520 mana, utilisable une fois le mana max assez boosté
+- [ ] Relic of Ruin et Stormjaw Staff gardent leurs dégâts en Minimal (1 et 0 en Full Fandom)
+
 ---
 
 ## Décisions en attente (pas des tests)
 
-- [ ] Les 48 autres écarts de stats extrêmes de `reports/stats.md` (Desert Scourge 350 000 PV, Ravager 1 PV...) : appliqués
-      seulement en Full Fandom aujourd'hui. Les garder ainsi, les forcer partout (`tools/stats_force.json`), ou
-      corriger les pages (`wiki_edits/`) ?
+- [ ] 2 nouveaux écarts extrêmes à trancher (`reports/stats.md`) : Ceaseless Void à 0 de défense (80 aujourd'hui),
+      Exorcism `use` 19 (96 aujourd'hui)
 - [ ] Les chiffres du système d'éléments (`docs/decisions.md`) : à juger en jouant.
 - [ ] Les addons (Tranquility, Community Remix...) : voir `docs/ROADMAP.md`, phase 5.

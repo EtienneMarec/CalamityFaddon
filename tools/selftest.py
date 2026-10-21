@@ -17,7 +17,24 @@ WORKSHOP = r"C:\Program Files (x86)\Steam\steamapps\workshop"
 MODES = ["Minimal", "FullFandom", "CalamityPlus"]
 
 
+def stale_tmod():
+    """Vrai si le .tmod est plus ancien qu'un fichier source : le build a échoué (souvent TML003, jeu ouvert) et
+    l'auto-test testerait l'ancienne version du mod."""
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    tmod = os.path.join(os.path.dirname(os.path.dirname(root)), "Mods", "CalamityFandom.tmod")
+    if not os.path.exists(tmod):
+        return True
+    built = os.path.getmtime(tmod)
+    for folder in ("Common", "Content", "WikiData", "Localization", "Assets", "Balance"):
+        for dirpath, _, files in os.walk(os.path.join(root, folder)):
+            if any(os.path.getmtime(os.path.join(dirpath, f)) > built for f in files):
+                return True
+    return False
+
+
 def main():
+    if stale_tmod():
+        sys.exit("Le .tmod est plus ancien que les sources : relancer dotnet build avec le jeu fermé (erreur TML003 sinon).")
     mode = sys.argv[sys.argv.index("--mode") + 1] if "--mode" in sys.argv else "Minimal"
     results = [run(m) for m in (MODES if mode == "all" else [mode])]
     sys.exit(0 if all(results) else 1)

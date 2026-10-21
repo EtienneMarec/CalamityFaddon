@@ -30,7 +30,8 @@ python tools/fetch_missing_pages.py             # (re)télécharge fandom_dump_e
 python tools/gen_localization.py                # glossary.json -> textes de Calamity réécrits
 python tools/gen_stats.py                       # infobox -> WikiData/stats.json (stats appliquées en jeu)
 python tools/gen_recipes.py                     # Recipes_*_register -> WikiData/recipes.json
-python tools/selftest.py                        # serveur sans interface + Common/Debug/SelfTest.cs (jeu fermé)
+python tools/selftest.py                        # serveur sans interface + Common/Debug/SelfTest.cs (jeu fermé :
+                                                # sinon TML003, le .tmod n'est pas réécrit et selftest.py refuse de tourner)
 ```
 
 Ordre après un changement de données : `wiki_index.py` → `gen_localization.py` / `gen_stats.py` / `gen_recipes.py` → `dotnet build`
@@ -68,8 +69,9 @@ Tester les trois : `python tools/selftest.py --mode all`. Référence « abandon
 - `Localization/en-US/Mods.CalamityMod.hjson` — textes de Calamity réécrits (généré par `gen_localization.py`
   depuis `tools/glossary.json`, que l'on édite à la main). tModLoader le reformate au chargement : normal.
 - `WikiData/stats.json` — stats des infobox (généré par `gen_stats.py`), appliquées par `Common/WikiData/WikiStats.cs`.
-  Objets : valeurs absolues. PNJ : ratios wiki/code (garde la montée en difficulté de Calamity). Écarts > x5 bloqués
-  et listés dans `reports/stats.md` ; les forcer via `tools/stats_force.json` (liste de titres de pages).
+  Objets : valeurs absolues. PNJ : ratios wiki/code (garde la montée en difficulté de Calamity). Valeurs identiques à
+  Calamity 2.0.1.005 → Full Fandom seulement ; écarts > x5 tranchés avec l'utilisateur dans `tools/stats_decisions.json`
+  (sinon Full seulement, « à trancher » dans `reports/stats.md`). Règles : `docs/decisions.md`, section « Stats ».
 
 - `WikiData/recipes.json` — recettes du wiki (généré par `gen_recipes.py`), appliquées par
   `Common/WikiData/WikiRecipes.cs` aux résultats de Calamity et de ce mod (vanilla exclu pour l'instant). Noms résolus

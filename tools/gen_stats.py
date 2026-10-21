@@ -6,9 +6,12 @@
 Seules les valeurs nettes sont reprises (« 42 », « 7.5 », « 19% », « {{dv|normal|expert|...}} », « {{value|...}} ») ;
 les infobox à paliers (« Tier 1 / Tier 2 », « pre-Astrum Aureus ») sont ignorées.
 
-Garde-fou : un écart supérieur à x5 (ou inférieur à /5) par rapport au code n'est appliqué qu'en mode Full Fandom
-(sections fullItems / fullNpcs) ; il est listé dans reports/stats.md. Pour l'appliquer dans tous les modes :
-l'ajouter à tools/stats_force.json ; pour le corriger : copier la page dans wiki_edits/.
+Modes (décidé avec l'utilisateur le 21/10, voir docs/decisions.md) :
+- valeur identique au code de Calamity 2.0.1.005 -> Full Fandom seulement (ce n'est que l'ancien Calamity) ;
+- valeur propre au wiki -> tous les modes ;
+- écart extrême (> x5) propre au wiki -> selon tools/stats_decisions.json (everywhere / fullOnly) ; s'il n'y figure
+  pas encore, Full Fandom seulement en attendant de le trancher avec l'utilisateur ;
+- pages listées dans « code » de stats_decisions.json : ignorées ici, gérées en C#.
 
 Usage : python tools/gen_stats.py   (après wiki_index.py)
 """
@@ -19,10 +22,11 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from wiki_index import ROOT, load_calamity_classes  # noqa: E402
+from gen_baseline import BASELINE, BASELINE_NAME, classes_at, sources_at  # noqa: E402
 
 OUT = os.path.join(ROOT, "WikiData", "stats.json")
 REPORT = os.path.join(ROOT, "reports", "stats.md")
-FORCE = os.path.join(ROOT, "tools", "stats_force.json")
+DECISIONS = os.path.join(ROOT, "tools", "stats_decisions.json")
 MAX_RATIO = 5.0
 
 PLAIN = re.compile(r"^-?[\d,]+(?:\.\d+)?%?$")
@@ -96,16 +100,25 @@ def extreme(wiki, code):
 def main():
     index = json.load(open(os.path.join(ROOT, "data", "wiki_index.json"), encoding="utf-8"))
     classes = load_calamity_classes()
-    force = set(json.load(open(FORCE, encoding="utf-8"))) if os.path.exists(FORCE) else set()
+    decisions = json.load(open(DECISIONS, encoding="utf-8"))
+    everywhere, full_only, by_code = (set(decisions.get(k, [])) for k in ("everywhere", "fullOnly", "code"))
 
-    items, npcs = {}, {}
-    # Écarts extrêmes : appliqués seulement en mode Full Fandom (« uniquement ce qui est écrit »)
-    full_items, full_npcs = {}, {}
-    review, unverified = [], []
+    # Code de Calamity à l'abandon du wiki : une valeur du wiki identique n'est que « l'ancien Calamity »
+    old_classes = classes_at(BASELINE)
+    old_texts = sources_at(BASELINE, [path for _, path in old_classes.values()])
+
+    items, npcs, full_items, full_npcs = {}, {}, {}, {}
+    era, pending, decided, unverified = [], [], [], []
+
+    def place(cls, page, k, value, target, layer_all, layer_full):
+        layer = layer_full if target == "full" else layer_all
+        layer.setdefault(cls, {"page": page["file"]})[k] = value
 
     for page in sorted(index.values(), key=lambda p: p["title"]):
         if page.get("status") not in ("official", "renamed") or not page.get("fields"):
             continue
+        if page["title"] in by_code:
+            continue  # comportement géré dans le code C# (ex. Ravager / Meatmetal Sans)
         f = page["fields"]
         for match in page.get("calamity", []):
             cls = match["class"]
@@ -117,10 +130,27 @@ def main():
             if (kind == "ModItem") != box.startswith("item"):
                 continue
             text = open(os.path.join(ROOT, path), encoding="utf-8-sig", errors="replace").read()
-            forced = page["title"] in force
+            old_text = old_texts.get(old_classes.get(cls, (None, None))[1])
+
+            def target_for(k, w, c, o):
+                """« full » (Full Fandom seulement) ou « all » (tous les modes) : voir docs/decisions.md."""
+                if o is not None and abs(o - w) < 1e-6:
+                    era.append((page["title"], cls, k, w, c))
+                    return "full"
+                if k in ("damage", "useAnimation", "mana", "defense", "life") and extreme(w, c):
+                    if page["title"] in everywhere:
+                        decided.append((page["title"], cls, k, w, c, "tous les modes"))
+                        return "all"
+                    if page["title"] in full_only:
+                        decided.append((page["title"], cls, k, w, c, "Full Fandom seulement"))
+                    else:
+                        pending.append((page["title"], cls, k, w, c))
+                    return "full"
+                return "all"
 
             if kind == "ModItem":
                 code = item_code(text)
+                old = item_code(old_text) if old_text else {}
                 wiki = {
                     "damage": number(f.get("damage")),
                     "useAnimation": number(f.get("use")),
@@ -139,61 +169,61 @@ def main():
                 copper = sell_copper(f.get("sell"))
                 if copper is not None:
                     wiki["value"] = copper * 5
-                entry = {}
                 for k, w in wiki.items():
                     if w is None:
                         continue
                     c = code.get(k)
                     if c is not None and abs(c - w) < 1e-6:
                         continue  # identique au code : rien à faire
-                    if k in ("damage", "useAnimation", "mana", "defense") and extreme(w, c) and not forced:
-                        review.append((page["title"], cls, k, w, c))
-                        full_items.setdefault(cls, {"page": page["file"]})[k] = int(w)
-                        continue
                     if c is None and k in ("damage", "useAnimation"):
                         unverified.append((page["title"], cls, k, w))
-                    entry[k] = int(w) if k not in ("knockBack", "shootSpeed") else w
-                if entry:
-                    items[cls] = {"page": page["file"], **entry}
+                    value = int(w) if k not in ("knockBack", "shootSpeed") else w
+                    place(cls, page, k, value, target_for(k, w, c, old.get(k)), items, full_items)
 
             elif kind == "ModNPC":
                 code = npc_code(text)
-                entry = {}
+                old = npc_code(old_text) if old_text else {}
                 for k in ("life", "damage"):
                     w, c = number(f.get(k)), code.get(k)
                     if w is None or c is None or c == 0 or abs(w - c) < 1e-6:
                         continue
-                    if extreme(w, c) and not forced:
-                        review.append((page["title"], cls, k, w, c))
-                        full_npcs.setdefault(cls, {"page": page["file"]})[k + "Ratio"] = round(w / c, 4)
-                        continue
-                    entry[k + "Ratio"] = round(w / c, 4)
+                    place(cls, page, k + "Ratio", round(w / c, 4), target_for(k, w, c, old.get(k)), npcs, full_npcs)
                 w, c = number(f.get("defense")), code.get("defense")
                 if w is not None and (c is None or abs(w - c) > 1e-6):
-                    entry["defense"] = int(w)
-                if entry:
-                    npcs[cls] = {"page": page["file"], **entry}
+                    place(cls, page, "defense", int(w), target_for("defense", w, c, old.get("defense")), npcs, full_npcs)
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as fh:
         json.dump({"_generated_by": "tools/gen_stats.py", "items": items, "npcs": npcs,
                    "fullItems": full_items, "fullNpcs": full_npcs}, fh, indent=1, ensure_ascii=False)
 
+    def fmt(v):
+        return "-" if v is None else f"{v:g}"
+
+    def table(rows, extra=None):
+        head = "| Page | Classe | Champ | Wiki | Code actuel |" + (f" {extra} |" if extra else "")
+        lines = [head, "|" + "---|" * (head.count("|") - 1)]
+        for r in rows:
+            t, cls, k, w, c = r[:5]
+            lines.append(f"| {t} | {cls} | {k} | {fmt(w)} | {fmt(c)} |" + (f" {r[5]} |" if extra else ""))
+        return "\n".join(lines) + "\n"
+
     with open(REPORT, "w", encoding="utf-8") as fh:
-        fh.write("# Stats du wiki appliquées\n\n_Généré par `tools/gen_stats.py`._\n\n")
-        fh.write(f"- {len(items)} objets et {len(npcs)} PNJ de Calamity modifiés (`WikiData/stats.json`).\n")
-        fh.write(f"- {len(review)} écarts extrêmes (> x{MAX_RATIO:g}) : appliqués **seulement en mode Full Fandom**, ci-dessous.\n")
-        fh.write(f"- {len(unverified)} valeurs appliquées sans valeur littérale dans le code pour comparer.\n\n")
-        fh.write("## Écarts extrêmes à trancher\n\nPour appliquer quand même : ajouter le titre de la page dans "
-                 "`tools/stats_force.json`. Pour corriger le wiki : copier la page dans `wiki_edits/`.\n\n")
-        fh.write("| Page | Classe | Champ | Wiki | Code | Ratio |\n|---|---|---|---|---|---|\n")
-        for t, cls, k, w, c in review:
-            ratio = f"x{w / c:.2f}" if c else "-"
-            fh.write(f"| {t} | {cls} | {k} | {w:g} | {c:g} | {ratio} |\n")
+        fh.write("# Stats du wiki appliquées\n\n_Généré par `tools/gen_stats.py`._ Règles : `docs/decisions.md`, section « Stats ».\n\n")
+        fh.write(f"- Tous les modes : {len(items)} objets et {len(npcs)} PNJ (`items` / `npcs` de `WikiData/stats.json`).\n")
+        fh.write(f"- Full Fandom en plus : {len(full_items)} objets et {len(full_npcs)} PNJ (`fullItems` / `fullNpcs`).\n")
+        fh.write(f"- {len(era)} valeurs identiques à Calamity {BASELINE_NAME} : Full Fandom seulement (ce n'est que l'ancien Calamity).\n")
+        fh.write(f"- {len(decided)} écarts extrêmes tranchés avec l'utilisateur (`tools/stats_decisions.json`).\n")
+        fh.write(f"- **{len(pending)} écarts extrêmes (> x{MAX_RATIO:g}) à trancher** : Full Fandom seulement en attendant.\n")
+        fh.write(f"- Gérés dans le code : {', '.join(sorted(by_code)) or 'aucun'}.\n\n")
+        fh.write("## Écarts extrêmes à trancher\n\n" + (table(pending) if pending else "Aucun.\n"))
+        fh.write("\n## Écarts extrêmes tranchés\n\n" + table(decided, "Où"))
+        fh.write(f"\n## Valeurs de Calamity {BASELINE_NAME} (Full Fandom seulement)\n\n" + table(era))
         fh.write("\n## Appliqué sans comparaison possible\n\n| Page | Classe | Champ | Wiki |\n|---|---|---|---|\n")
         for t, cls, k, w in unverified:
-            fh.write(f"| {t} | {cls} | {k} | {w:g} |\n")
-    print(f"{len(items)} objets, {len(npcs)} PNJ ; {len(review)} écarts extrêmes en attente ; {len(unverified)} non vérifiés")
+            fh.write(f"| {t} | {cls} | {k} | {fmt(w)} |\n")
+    print(f"tous modes : {len(items)} objets, {len(npcs)} PNJ ; Full en plus : {len(full_items)} objets, {len(full_npcs)} PNJ ; "
+          f"{len(era)} valeurs 2022 ; {len(decided)} extrêmes tranchés ; {len(pending)} à trancher")
 
 
 if __name__ == "__main__":

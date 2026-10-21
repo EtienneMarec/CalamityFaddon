@@ -23,7 +23,7 @@ ne change rien à la question des assets pour une publication, mais trouver un i
 | Référence Calamity | 2.0.1.005 (abandon du wiki) | version actuelle | version actuelle |
 | Contenu Calamity ajouté depuis 2.0.1.005 sans trace sur le wiki | masqué (recettes, butin, apparitions, ventes) | présent | présent |
 | Contenu retiré de Calamity depuis 2.0.1.005, documenté sur le wiki | porté depuis le vieux code | porté | porté |
-| Stats du wiki | toutes, y compris les écarts > x5 | sauf écarts > x5 | Minimal + `Balance/stats.json` |
+| Stats du wiki | toutes, y compris les valeurs de 2022 | propres au wiki (extrêmes : au cas par cas) | Minimal + `Balance/stats.json` |
 | Recettes du jeu absentes du wiki | désactivées | conservées | conservées |
 | Butin du jeu absent de la page du PNJ | retiré | conservé | conservé |
 | Pages incohérentes (`wiki_edits/`) | non (le wiki tel quel) | oui | oui |
