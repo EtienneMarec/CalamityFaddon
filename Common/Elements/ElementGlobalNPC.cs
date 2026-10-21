@@ -17,13 +17,10 @@ namespace CalamityFandom.Common.Elements
 
         // Effets cumulés des statuts actifs, recalculés à chaque tick
         private float slow, damageDown, defenseDown, missChance;
-        private int feedbackCooldown;
 
         public override void ResetEffects(NPC npc)
         {
             slow = damageDown = defenseDown = missChance = 0f;
-            if (feedbackCooldown > 0)
-                feedbackCooldown--;
         }
 
         private static int Tier => NPC.downedMoonlord ? 2 : Main.hardMode ? 1 : 0;
@@ -145,12 +142,12 @@ namespace CalamityFandom.Common.Elements
         }
 
         public override void OnHitByItem(NPC npc, Player player, Item item, NPC.HitInfo hit, int damageDone) =>
-            OnElementalHit(npc, ElementData.Of(item));
+            OnElementalHit(npc, ElementData.Of(item), hit);
 
         public override void OnHitByProjectile(NPC npc, Projectile projectile, NPC.HitInfo hit, int damageDone) =>
-            OnElementalHit(npc, ElementGlobalProjectile.Of(projectile));
+            OnElementalHit(npc, ElementGlobalProjectile.Of(projectile), hit);
 
-        private void OnElementalHit(NPC npc, IReadOnlyList<Element> elements)
+        private static void OnElementalHit(NPC npc, IReadOnlyList<Element> elements, NPC.HitInfo hit)
         {
             if (elements.Count == 0)
                 return;
@@ -161,14 +158,33 @@ namespace CalamityFandom.Common.Elements
                     npc.AddBuff(buff, ElementInfo.StatusTime); // ignoré si le PNJ est résistant (immunité)
             }
 
-            // Retour visuel pour le joueur qui frappe
+            // Retour visuel pour le joueur qui frappe, sans texte en plus (décision du 22/10) : le chiffre de dégâts change de
+            // couleur
             float mult = ElementData.Multiplier(elements, npc.type);
-            if (feedbackCooldown == 0 && mult != 1f && Main.netMode != NetmodeID.Server)
+            if (mult != 1f && Main.netMode != NetmodeID.Server)
+                TintDamageText(npc, hit.Damage, mult > 1f ? VulnerableColor : ResistedColor);
+        }
+
+        public static readonly Color VulnerableColor = new(255, 235, 70);
+        public static readonly Color ResistedColor = new(150, 150, 160);
+
+        /// <summary>
+        /// Recolore le chiffre de dégâts que le jeu vient d'afficher pour ce coup (créé par StrikeNPC juste avant les
+        /// OnHit) : un texte de combat tout neuf a encore scale = 0 et alpha = 1, le même nombre et se trouve sur l'ennemi.
+        /// </summary>
+        private static void TintDamageText(NPC npc, int damage, Color color)
+        {
+            string text = damage.ToString();
+            Rectangle area = npc.Hitbox;
+            area.Inflate(64, 64);
+            for (int i = Main.maxCombatText - 1; i >= 0; i--)
             {
-                feedbackCooldown = 45;
-                bool weak = mult > 1f;
-                CombatText.NewText(npc.Hitbox, weak ? new Color(255, 170, 60) : new Color(160, 160, 170),
-                    weak ? "Vulnerable!" : "Resisted", weak);
+                CombatText t = Main.combatText[i];
+                if (t.active && t.scale == 0f && t.alpha == 1f && t.text == text && area.Contains(t.position.ToPoint()))
+                {
+                    t.color = color;
+                    return;
+                }
             }
         }
     }

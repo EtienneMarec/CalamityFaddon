@@ -150,8 +150,11 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   à l'élément (glace, flammes, eau, poison, acide, vert radioactif, électricité, sang pour Stab/Slash, pierre pour
   Smash, rose pour Magic, ombre pour Dark, or pour Holy, rouge sombre pour Unholy, métal pour Machine) et teinte de
   l'ennemi de 35 % vers la couleur de l'élément (mélangée si plusieurs).
-- **[choix]** Texte « Vulnerable! » (orange) / « Resisted » (gris) au-dessus de l'ennemi quand l'attaque est
-  multipliée, au plus une fois toutes les 0,75 s par ennemi.
+- **[validé 22/10]** Pas de texte en plus quand l'attaque est multipliée (« Vulnerable! »/« Resisted » jugé trop lourd à
+  l'écran) : le chiffre de dégâts du coup change de couleur. **[choix]** jaune (255, 235, 70) = vulnérable, gris =
+  résisté (l'orange se confondrait avec la couleur normale des dégâts).
+  **[technique]** Le chiffre est retrouvé parmi les textes de combat tout juste créés (même nombre, sur l'ennemi) : rien
+  ne change chez les autres joueurs, qui voient la couleur normale.
 - **[choix]** Infobulle « Elements: ... » colorée, placée sous la ligne de dégâts.
 - **[choix]** Les projectiles héritent des éléments de l'arme (ou du projectile parent).
 - **[choix]** Affinités contradictoires (même élément résistant et vulnérable) ignorées ; valeurs hors des 17 éléments

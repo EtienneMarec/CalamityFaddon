@@ -148,7 +148,7 @@ def main():
         "* A weapon with several elements multiplies their damage modifiers: a fire weapon against an enemy vulnerable to fire "
         "and resistant to poison deals normal damage if it is also a poison weapon. The total is kept between 25% and 400%.",
         "* Projectiles carry the elements of the weapon (or projectile) that fired them.",
-        "* Attacks whose damage is changed by an affinity show '''Vulnerable!''' or '''Resisted''' above the enemy.",
+        "* The damage number of an attack changed by an affinity is shown in yellow (vulnerable) or grey (resisted).",
         "* Machine weapons also increase the player's damage and critical strike chance by 5% while they are being used.",
         "* Enemies affected by elemental debuffs show particles of the element and take a slight tint of its color; "
         "no debuff icon is displayed.",

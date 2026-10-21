@@ -78,18 +78,20 @@ Chaque recette changée est vérifiée par l'auto-test ; en jeu, contrôler surt
 ### 1.4 Système d'éléments (`Common/Elements/`, `WikiData/elements.json`)
 
 Données et immunités vérifiées par l'auto-test ; en jeu :
-- [ ] Infobulle de Graydron : ligne « Elements: Slash, Machine » colorée, sous les dégâts
-- [ ] Zweihandromeda : « Elements: Dark, Magic, Stab »
-- [ ] Frapper un Aero Slime (vulnérable Fire/Dark) avec une arme Fire : texte « Vulnerable! », dégâts doublés
-- [ ] Avec une arme Poison sur l'Aero Slime : texte « Resisted », pas de debuff Envenomed
-- [ ] Noms des debuffs d'éléments (Fandom Test Vial) : Numbed, Ablaze, Waterlogged, Envenomed, Corroded, Radiation Sickness,
+- [x] Infobulle de Graydron : ligne « Elements: Slash, Machine » colorée, sous les dégâts
+- [x] Zweihandromeda : « Elements: Dark, Magic, Stab »
+- [ ] Frapper un Aero Slime (vulnérable Fire/Dark) avec une arme Fire : dégâts doublés, **chiffre de dégâts jaune**, plus
+      de texte « Vulnerable! » (changé le 22/10)
+- [ ] Avec une arme Poison sur l'Aero Slime : **chiffre gris**, pas de texte « Resisted », pas de debuff Envenomed
+- [x] Noms des debuffs d'éléments (Fandom Test Vial) : Numbed, Ablaze, Waterlogged, Envenomed, Corroded, Radiation Sickness,
       Shocked, Punctured, Lacerated, Discombobulated, Hexed, Incapacitated, Smitten, Damned, Malfunctioning
-- [ ] Effets d'éléments sans icône au-dessus des ennemis : particules propres à l'élément (glace pour Cold, sang pour
+      (aucun effet sur le joueur : normal, le wiki ne décrit les effets que sur les ennemis)
+- [x] Effets d'éléments sans icône au-dessus des ennemis : particules propres à l'élément (glace pour Cold, sang pour
       Stab/Slash, étincelles pour Electricity, fumée sombre pour Dark...) et légère teinte de l'ennemi
-- [ ] Full Fandom : chaque coup applique tous les effets ; Calamity++ : seulement de temps en temps (25 % / 15 %)
-- [ ] Un ennemi Chilled/Shocked est visiblement ralenti ; un boss l'est moins
-- [ ] Les projectiles d'une arme élémentaire (arc, bâton) appliquent aussi les effets
-- [ ] Multijoueur (si possible) : les debuffs se voient chez les deux joueurs
+- [x] Full Fandom : chaque coup applique tous les effets ; Calamity++ : seulement de temps en temps (25 % / 15 %)
+- [x] Un ennemi Chilled/Shocked est visiblement ralenti ; un boss l'est moins (boss non vérifié en jeu)
+- [x] Les projectiles d'une arme élémentaire (arc, bâton) appliquent aussi les effets
+- [ ] Multijoueur (si possible) : les debuffs se voient chez les deux joueurs (non testé, accepté le 22/10)
 
 ### 1.5 Matériaux du wiki générés (218, `WikiData/items.json`)
 
