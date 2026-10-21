@@ -1,8 +1,11 @@
 using System.Collections.Generic;
 using System.Text.Json;
 using CalamityFandom.Common.WikiData;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Terraria;
 using Terraria.DataStructures;
+using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -29,6 +32,8 @@ namespace CalamityFandom.Content.Items
             public int Rare { get; set; }
             public int MaxStack { get; set; } = 9999;
             public int Value { get; set; }
+            /// <summary>Taille au sol (dessin et ramassage), d'après une image du wiki ; 1 = normale.</summary>
+            public float WorldScale { get; set; } = 1f;
         }
 
         private class ItemsFile
@@ -74,11 +79,23 @@ namespace CalamityFandom.Content.Items
 
         public override void SetDefaults()
         {
-            Item.width = data.Width;
-            Item.height = data.Height;
+            Item.width = (int)(data.Width * data.WorldScale);
+            Item.height = (int)(data.Height * data.WorldScale);
             Item.maxStack = data.MaxStack;
             Item.value = data.Value;
             Item.rare = WikiStats.ResolveRarity(data.Rare);
+        }
+
+        /// <summary>Objet géant au sol (Yharim Bar) : dessiné à l'échelle de sa hitbox, posé sur sa base.</summary>
+        public override bool PreDrawInWorld(SpriteBatch spriteBatch, Color lightColor, Color alphaColor, ref float rotation, ref float scale, int whoAmI)
+        {
+            if (data.WorldScale == 1f)
+                return true;
+            Texture2D texture = TextureAssets.Item[Type].Value;
+            Rectangle frame = Main.itemAnimations[Type]?.GetFrame(texture) ?? texture.Frame();
+            spriteBatch.Draw(texture, Item.Bottom - Main.screenPosition, frame, alphaColor, rotation,
+                new Vector2(frame.Width / 2f, frame.Height), scale * data.WorldScale, SpriteEffects.None, 0f);
+            return false;
         }
     }
 }

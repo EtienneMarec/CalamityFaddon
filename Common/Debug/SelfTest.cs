@@ -246,6 +246,11 @@ namespace CalamityFandom.Common.Debug
             }
             else
                 Expect(false, "AlloyBar introuvable");
+            // Yharim Bar géant au sol (image « The item in-game » du wiki), ramassage compris : hitbox x16
+            if (Mod.TryFind<ModItem>("YharimBar", out var yharim))
+                Expect(ContentSamples.ItemsByType[yharim.Type].width == 480, $"largeur de Yharim Bar au sol : {ContentSamples.ItemsByType[yharim.Type].width}");
+            else
+                Expect(false, "YharimBar introuvable");
             Report($"matériaux : {count} objets créés depuis le wiki");
         }
 

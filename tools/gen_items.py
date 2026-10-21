@@ -29,6 +29,10 @@ ASSETS = os.path.join(ROOT, "Assets", "WikiItems")
 LOC = os.path.join(ROOT, "Localization", "en-US", "Mods.CalamityFandom.WikiItems.hjson")
 MATERIAL_TYPES = {"crafting material", "crafting materials", "bar", "soul"}
 MAX_SPRITE = 96  # au-delà, réduction par un facteur entier (illustrations du wiki, ex. « Mars Bars »)
+# Objets dessinés (et ramassables) en plus grand au sol, d'après une image du wiki (décision du 22/10, docs/decisions.md)
+WORLD_SCALE = {
+    "Yharim Bar": 16,  # « Yharimbaringame.png » (« The item in-game ») : ~480 px de large pour un sprite de 30
+}
 
 
 def internal_name(title, used):
@@ -127,6 +131,8 @@ def main():
             "maxStack": int(min(max(stack or 9999, 1), 9999)),
             "value": copper * 5 if copper is not None else 0,
         })
+        if title in WORLD_SCALE:
+            items[-1]["worldScale"] = WORLD_SCALE[title]
         entry = {"DisplayName": title}
         tooltip = clean_text(f.get("tooltip"))
         entry["Tooltip"] = tooltip if tooltip else ""

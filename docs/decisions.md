@@ -170,6 +170,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** Animation : frames identiques successives fusionnées, vitesse tirée du GIF du wiki ; les matériaux animés
   flottent au sol comme les âmes.
 - **[choix]** Un matériau dont le nom existe déjà en vanilla n'est pas créé.
+- **[validé 22/10]** **Yharim Bar géant au sol** (x16, d'après l'image « The item in-game » de sa page : ~480 px de large
+  pour un sprite de 30), **dans les deux modes**, zone de ramassage comprise (hitbox x16). Taille normale dans
+  l'inventaire. Données : `WORLD_SCALE` dans `tools/gen_items.py` → `worldScale` de `WikiData/items.json`.
+  **[technique]** Un objet si grand qui tombe dans un tunnel étroit peut rester coincé dans les blocs.
 - **[validé 21/10]** Sprite absent ou inutilisable → demandé à l'utilisateur (`docs/SPRITES.md`). Provisoire en attendant :
   « Mars Bars » (photo réduite à 90×70).
 
