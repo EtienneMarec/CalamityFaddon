@@ -1,0 +1,20 @@
+<onlyinclude><includeonly>{{-}}
+<div class="documentation">
+<div class="documentation_title"><!--
+-->[[File:Template-{{#ifexist: {{FULLPAGENAME}}/doc|<!--nothing-->|no}}info.svg|50px]] <span style="font-weight: bold; font-size: 125%; margin-right:10px;">Documentation</span> {{#ifeq: {{SUBPAGENAME}} | doc |<!-- nothing -->|<!--
+-->{{#ifexist:{{FULLPAGENAME}}/doc|<span style="font-size:90%">''The documentation below is transcluded from [[{{FULLPAGENAME}}/doc]]. ({{fullurl|{{FULLPAGENAMEE}}/doc|action{{=}}edit|text=edit}} {{!}} {{fullurl|{{FULLPAGENAMEE}}/doc|action{{=}}history|text=history}})''</span>|<!-- nothing -->}} }}<!--
+<!--
+--><div style="float: right; margin-left: 5px">[{{fullurl|{{FULLPAGENAMEE}}|action{{=}}purge|text=purge}}]</div></div>
+{{#ifexist: {{FULLPAGENAME}}/doc|{{/doc}}|No documentation subpage exists yet for this template. [{{fullurl:{{FULLPAGENAMEE}}/doc|action=edit&preload=Template:Documentation/preload}} Create one now].[[Category:Templates with no documentation]]}}
+<div style="margin: 15px 0 0 0">
+{{#ifeq: {{SUBPAGENAME}} | doc |<!--
+-->This is the documentation page, it should be transcluded into the main template page. See [[Template:Doc]] for more information. [[Category:Documentation templates|{{BASEPAGENAME}}]][[Category:Templates with bad documentation]]}}<!--
+--></div></div></includeonly></onlyinclude>
+== Description ==
+Use this template within template pages to transclude their documentation. 
+
+== Usage ==
+Place this at the end of the template code:
+* <code><nowiki><noinclude>{{doc}}</noinclude></nowiki></code>
+
+[[Category:Template documentation‎|*]]

@@ -1,0 +1,89 @@
+'''Ammunition''' items are consumable items fired by [[ranged weapons]]. To fire a weapon that requires ammunition, a compatible ammunition type must be present in the player's inventory. The ammunition will be taken from the first stack of suitable ammunition, checked in the following order: The four dedicated ammo slots of the inventory from top to bottom, then the main inventory from the top row (hotbar) to the bottom row, going from left to right within each row.
+
+Each type of ammunition adds its damage, velocity, and knockback to the base value of the weapon that fires it. Damage bonuses also apply to the damage of bullets and arrows. Some weapons, armor, accessories, and buffs offer a chance for each shot to "conserve" ammo, firing a shot as usual without consuming the ammunition. If multiple such items and/or buffs are active, their respective chances to conserve ammo are simply added.
+
+The Calamity Mod adds multiple ammunition types, including both [[arrows]] and [[bullets]] which can be used by any [[gun]] or [[bow]] that doesn't have its own custom ammunition type.
+== Arrows ==
+{{:Arrows}}
+
+== Bullets ==
+{{:Bullets}}
+
+
+== Darts ==
+{{:Darts}}
+
+== Other ==
+{{item/options|mode=table}}
+{| class="terraria sortable lined" width=50%
+! colspan=2 style="padding:0.15px" | Name !! Damage !! Velocity !! Velocity Multiplier !! Knockback !! Rarity !! Sell
+|-
+| align="center" |  {{item|Blood Rune}}
+| align=center | 1
+| align=center | 0
+| align=center | {{na}}
+| align=center | 10 <br/> <small> ({{knockback|10}}) </small>
+| align=center | {{rare|14}}
+| align=center | {{sc|20}}
+|-
+| align="center" |  {{item|Explosive Shotgun Shell}}
+| align=center | 30
+| align=center | 12
+| align=center | 11
+| align=center | 10 <br/> <small> ({{knockback|10}}) </small>
+| align=center | {{rare|8}}
+| align=center | {{sc|30}}
+|-
+| align="center" |  {{item|Grenade Shells}}
+| align=center | 200
+| align=center | 12
+| align=center | 1
+| align=center | 10 <br/> <small> ({{knockback|10}}) </small>
+| align=center | {{rare|8}}
+| align=center | {{sc|30}}
+|-
+| align="center" |  {{item|Magnum Rounds}}
+| align=center | 80
+| align=center | 12
+| align=center | 11
+| align=center | 8 <br/> <small> ({{knockback|8}}) </small>
+| align=center | {{rare|8}}
+| align=center | {{sc|20}}
+|}
+
+== Ammo used by tools ==
+{| class="terraria sortable lined" width=60%
+! colspan=2 style="padding:0.15px" | Solution !! Available !! Effect !! Tooltip
+|-
+| {{item|Astral Solution}}
+| From the [[Steampunker]], any time
+| Spreads [[Astral Infection]].
+| ''Used by the Clentaminator''<br/>''Spreads the Astral Infection''
+|}
+
+=== Bait ===
+{| class="terraria lined"
+! colspan=2 style="padding:0px 80px" | Name
+! style="padding:0px 20px" | BP
+! style="padding:0px 20px" | Rarity
+|-
+| align=center | {{item|Arcturus Astroidean}}
+| align=center | 40%
+| align=center | {{rare|3}}
+|-
+| align=center | {{item|Bloodworm}}
+| align=center | 2200%
+| align=center | {{rare|13}}
+|-
+| align=center | {{item|Twinkler}}
+| align=center | 40%
+| align=center | {{rare|2}}
+|}
+{{item/options|reset}}
+
+<!-- readd this later, my mac cant save changes with that thing
+{{Master Template Consumables
+| show-main = yes
+| show-ammo = yes
+}} -->
+[[Category:Ammunition items|*]]

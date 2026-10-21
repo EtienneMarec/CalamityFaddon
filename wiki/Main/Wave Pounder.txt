@@ -1,0 +1,44 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 75
+| use = 55
+| velocity = 16
+| knockback = 0
+| tooltip = It utilizes its power to send heavy shockwaves throughout the area, causing agonizing internal damage<br/>Throws a bomb which explodes into a forceful shockwave<br/>Stealth strikes emit absurdly powerful shockwaves<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|24}}
+| element1 = Smash
+| element2 = Machine
+| element3 = Bomb
+}}
+[[File:Wave Pounder (demo).gif|frame|The Wave Pounder sticking to the floor and striking a [[Target Dummy]]. Note the shake effect of the stealth strike and the explosion effect.]]
+The '''Wave Pounder''' is a craftable Godseeker Mode [[bombs|bomb]]. When used, a gravity-affected bomb is thrown, which is able to stick onto a solid floor for 3 seconds or until a target is struck before it explodes. When exploded, a large shockwave is formed along with cosmetic cloud particles, continuously dealing damage for a short time.
+
+Performing a [[stealth strike]] with the Wave Pounder causes the resulting explosion to dramatically increase in size, allowing it to shake the screen.
+
+The weapon consumes 0.5 units of [[charge]] per use and has a maximum charge of 190.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier4}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The Wave Pounder only deals 40% damage to [[Storm Weaver]], 50% damage to [[Ceaseless Void]]'s Dark Energies and 75% damage to [[The Devourer of Gods]].
+*The Wave Pounder and its stealth strike can perform very well against worm-type enemies or bosses even with the damage reduction.
+
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+
+[[Category:Bombs]]

@@ -1,0 +1,36 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+
+| type = Covering
+
+| tooltip = One of the ancient relics<br/>Summons a phase elemental to fight for you
+
+| sell = {{value|0|9|0}}
+
+| rare = 8
+
+| damagetype = summon
+
+| stack = 1
+
+| hardmode = no
+
+| buff = Ash (buff) | bufflink = no
+
+| bufftip = Ash will help you reach perfection
+| hardmode = yes
+}}{{summoned|Ash|name=Ash|type=minion}}{{dedicated|Leigh|Masochist Mode No-Hit}}The '''Nameless Rat''' is a post-[[Golem]] [[covering]] that has a chance to be dropped by hitting any enemy with Fighter AI. It summons Ash to aid you by granting the ability to phase dash for 1 second and slashes enemies, stunning them for 0.5 seconds.
+==Crafting==
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+==Notes==
+*All damage taken while phase dashing is negated.
+==Trivia==
+*The minion is a reference to the Titanfall 2 and Apex Lgends video games.
+{{Master Template Equipables
+
+|show-main = yes
+
+|show-combat = yes
+
+}}

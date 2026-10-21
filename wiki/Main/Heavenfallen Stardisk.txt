@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damage = 115
+| damagetype = Rogue
+| knockback = 8
+| velocity = 10
+| use = 24
+| tooltip = Throws a stardisk upwards which then launches itself towards your mouse cursor,<br/>explodes into several astral energy bolts if the thrower is moving vertically when throwing it and during its impact<br/>Stealth strikes rain astral energy bolts from the sky
+| rare = 7
+| stack = 1
+| sell = {{value|0|12}}
+| hardmode = yes
+| critical = 24%
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 4 seconds (Disk)<br/>3 seconds (Energy bolts)
+| element1 = Magic
+| element2 = Holy
+| element3 = Slash
+}}
+[[File:Heavenfallen Stardisk (demo).gif|framed|right||Demonstration of the split shards formed by the Heavenfallen Stardisk. Note how they do not form when the player is standing on the ground.]]
+
+The '''Heavenfallen Stardisk''' is a [[Hardmode]] post-[[Astrum Aureus]] [[rogue weapon]] that fires projectiles. It is always found inside the [[Dungeon]]'s [[Astral Chest]]. Astrum Aureus must be defeated in order to open the Chest.
+
+When fired, the main projectile flies straight upwards before flying in the direction of the cursor. If the player is moving vertically at the time it is thrown and when it lands, the disk will split into several energy bolts that deal 40% of the main disk's damage.
+
+Performing a [[stealth strike]] with the Heavenfallen Stardisk will cause astral energy bolts to constantly rain down from the sky as the resulting disk travels.
+
+{{Modifier|rogue}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+*The weapon will not form its shards when hovering in a mount or with wings such as the [[Hoverboard]].
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}

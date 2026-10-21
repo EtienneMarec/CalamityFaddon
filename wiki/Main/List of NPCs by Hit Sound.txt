@@ -1,0 +1,594 @@
+This is a list of all NPCs in the Calamity Mod as organized by the sound they emit when hit.
+
+{| class="terraria lined"
+|-
+! Hit Sound !! NPC 
+|-
+|rowspan="6" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | Dig1<br/>{{sound||Dig_1.wav}}
+| {{item|Dirt Puff}}
+|-
+| {{item|Hell Puff}}
+|-
+| {{item|Ice Puff}}
+|-
+| {{item|Sand Puff}}
+|-
+| {{item|Spore Puff}}
+|-
+| {{item|Water Puff}}
+|-
+|rowspan="87" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit1<br/>{{sound||NPC_Hit_1.wav}}
+| {{item|???}}
+|-
+| {{item|Acid Eel}}
+|-
+| {{item|Adult Eidolon Wyrm |size=350px}}
+|-
+| {{item|Aero Slime}}
+|-
+| {{item|Anahita}}
+|-
+| {{item|Aquatic Aberration}}
+|-
+| {{item|Aquatic Parasite}}
+|-
+| {{item|Aquatic Scourge|size=300px}}
+|-
+| {{item|Aquatic Seeker}}
+|-
+| {{item|Aquatic Urchin}}
+|-
+| {{item|Astral Slime}}
+|-
+| {{item|Aureus Spawn}}
+|-
+| {{item|Auric Slime}}
+|-
+| {{item|Blighted Eye}}
+|-
+| {{item|Blinded Angler}}
+|-
+| {{item|Bloatfish}}
+|-
+| {{item|Bloodworm (critter)|Bloodworm (Normal)|link=Bloodworm}}
+|-
+| {{item|Bloom Slime}}
+|-
+| {{item|Boar Cat}}
+|-
+| {{item|Bobbit Worm}}
+|-
+| {{item|Calamity Eye}}
+|-
+| {{item|Catfish (enemy)|Catfish}}
+|-
+| {{item|Charred Slime}}
+|-
+| {{item|Corrupt Slime Spawn}}
+|-
+| {{item|Corrupt Slime Spawn (Without Wings)}}
+|-
+| {{item|Crab Shroom}}
+|-
+| {{item|Cragmaw Mire (Phase 2)|link=Cragmaw Mire}}
+|-
+| {{item|Crimson Slime Spawn}}
+|-
+| {{item|Crimulan Blight Slime}}
+|-
+| {{item|Crimulan Slime God}}
+|-
+| {{item|Crocodile Herring}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Cryo Slime}}
+|-
+| {{item|Cultist Assassin}}
+|-
+| {{item|Dank Creeper}}
+|-
+| {{item|Desert Scourge|size=300px}}
+|-
+| {{item|Devil Fish (Unmasked)|link=Devil Fish}}
+|-
+| {{item|Ebonian Blight Slime}}
+|-
+| {{item|Ebonian Slime God}}
+|-
+| {{item|Eidolon Wyrm|size=250px}}
+|-
+| {{item|Eutrophic Ray}}
+|-
+| {{item|Fearless Goldfish Warrior}}
+|-
+| {{item|Frogfish}}
+|-
+| {{item|Frost Hog}}
+|-
+| {{item|Gamma Slime}}
+|-
+| {{item|Giant Squid}}
+|-
+| {{item|Godseeker, Yharim|image=Godseeker Yharim (Phase 1).png}}
+|-
+| {{item|Great Sand Shark|size=300px}}
+|-
+| {{item|Great Sand Shark (boss)|size=300px}}
+|-
+| {{item|Hive Blob}}
+|-
+| {{item|Hive Cyst}}
+|-
+| {{item|The Hive Mind}}
+|-
+| {{item|Irradiated Slime}}
+|-
+| {{item|La Ruga}} {{fantag|Polyphemalus}}
+|-
+| {{item|Life Slime}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Luminous Corvina}}
+|-
+| {{item|Mantis Shrimp}}
+|-
+| {{item|Mauler}}
+|-
+| {{item|Melter}}
+|-
+| {{item|Minnows Prime}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Moray Eel}}
+|-
+| {{item|Nuclear Toad}}
+|-
+| {{item|Oarfish}}
+|-
+| {{item|Parasea}}
+|-
+| {{item|Perennial Slime}}
+|-
+| {{item|The Perforator (Small)|size=250px}}
+|-
+| {{item|The Perforator (Medium)|size=300px}}
+|-
+| {{item|The Perforator (Large)|size=350px}}
+|-
+| {{item|Pestilent Slime}}
+|-
+| {{item|Piggy}}
+|-
+| {{item|Polyphemalus|image=Polyphemalus.webp}} {{fantag|Polyphemalus}}
+|-
+| {{item|Primal Aspid}} {{fantag|Catalyst}}
+|-
+| {{item|Rotdog}}
+|-
+| {{item|Radiator}}
+|-
+| {{item|Sea Floaty}}
+|-
+| {{item|Sea Minnow}}
+|-
+| {{item|Sea Serpent}}
+|-
+| {{item|Sea Urchin}}
+|-
+| {{item|Skyfin}}
+|-
+| {{item|Slime God Core}}
+|-
+| {{item|Spiked Crimson Slime Spawn}}
+|-
+| {{item|Sulphurous Skater}}
+|-
+| {{item|Supreme Calamitas}}
+|-
+| {{item|Sun Bat}}
+|-
+| {{item|Trasher}}
+|-
+| {{item|Toxic Minnow}}
+|-
+| {{item|Viperfish}}
+|-
+| {{item|Yharim Worm}}
+|-
+|rowspan="2" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit2<br/>{{sound||NPC_Hit_2.wav}}
+| {{item|Overloaded Soldier}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Phantom Debris}}
+|-
+| rowspan="60" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit4<br />{{sound||NPC_Hit_4.wav}}
+|{{item|Armored Digger}}
+|-
+| {{item|Astrum Deus|size=300px}}
+|-
+| {{item|Bronze Claw}}
+|-
+| {{item|Bronze Laser}}
+|-
+| {{item|Bronze Turret}}
+|-
+| {{item|Calamitas|size=100px}}
+|-
+| {{item|Cataclysm|size=90px}}
+|-
+| {{item|Catastrophe|size=90px}}
+|-
+| {{item|Clam}}
+|-
+| {{item|Clamitas|size=150px}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Cosmic Guardian|size=200px}}
+|-
+| {{item|Devil Fish|Devil Fish (Masked)}}
+|-
+| {{item|Cyber Draedon}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|The Derellect|size=200px}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Derellect Plug}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|The Devourer of Gods Body}}
+|-
+| {{item|The Devourer of Gods Final Phase Body|link=The Devourer of Gods#Final Phase}}
+|-
+| {{item|Earth Elemental|size=200px}}
+|-
+| {{item|Exo Armada}}
+|-
+| {{item|Exo Cube}}
+|-
+| {{item|Exo Landmaster}}
+|-
+| {{item|Exo Obelisk}}
+|-
+| {{item|Exo Sentry}}
+|-
+| {{item|Exo Sphere}}
+|-
+| {{item|Giant Clam|size=150px}}
+|-
+| {{item|Jane Wulfrum}} 
+|-
+| {{item|John Wulfrum}}
+|-
+| {{item|Metal Maw}}
+|-
+| {{item|Mechanical Leech}}
+|-
+| {{item|Onyx Kinsman}} 
+|-
+| {{item|Plaguebringer}}
+|-
+| {{item|The Plaguebringer Goliath|size=200px}}
+|-
+| {{item|Plague Charger}}
+|-
+| {{item|Plague Homing Missile}}
+|-
+| {{item|Plague Mine}}
+|-
+| {{item|Shockstorm Shuttle}}
+|-
+| {{item|Signal Drone}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Soul Seeker}}
+|-
+| {{item|Soul Slurper}}
+|-
+| {{item|Storm Weaver Body}}
+|-
+| {{item|Storm Weaver Head}}
+|-
+| {{item|Wall of Bronze Face}}
+|-
+| {{item|Wulfrum Drone}}
+|-
+| {{item|Wulfrum Excavator}} {{fantag|Calamity: Community Remix}}
+|-
+| {{item|Wulfrum Gyrator}}
+|-
+| {{item|Wulfrum Hovercraft}}
+|-
+| {{item|Wulfrum Pylon}}
+|-
+| {{item|Wulfrum Rover}}
+|-
+| {{item|XF-09 Ares}}
+|-
+| {{item|XF-09 Ares Gauss Nuke}}
+|-
+| {{item|XF-09 Ares Laser Cannon}}
+|-
+| {{item|XF-09 Ares Plasma Cannon}}
+|-
+| {{item|XF-09 Ares Tesla Cannon}}
+|-
+| {{item|XM-05 Thanatos Head}}
+|-
+| {{item|XM-05 Thanatos Body}}
+|-
+| {{item|XM-05 Thanatos Tail}}
+|-
+| {{item|XP-00 Hypnos}}
+|-
+| {{item|XP-00 Hypnos Plug}}
+|-
+| {{item|XS-01 Artemis}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|XS-03 Apollo}}
+|-
+|rowspan="10" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit5<br/>{{sound||NPC_Hit_5.wav}}
+| {{item|Asura}}
+|-
+| {{item|Aurora Spirit}}
+|-
+| {{item|Cryocore}}
+|-
+| {{item|Cryogen|size=200px}}
+|-
+| {{item|Cryogen's Shield|size=200px}}
+|-
+| {{item|Cryon}}
+|-
+| {{item|Ice Clasper}}
+|-
+| {{item|Ice Shield}}
+|-
+| {{item|Pyrogen|size=200px}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Impious Immolator}}
+|-
+| rowspan="3" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit7<br />{{sound||NPC_Hit_7.wav}}
+|{{item|Bohldohr}}
+|-
+| {{item|Cosmic Elemental}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Polterghast}}
+|-
+| rowspan="1" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit9<br />{{sound||NPC_Hit_9.wav}}
+| style="border-bottom: 1px solid #CCCCCC;" |{{item|Gulper Eel|size=200px}}
+|-
+| rowspan="3" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit12<br />{{sound||NPC_Hit_12.wav}}
+| {{item|Cnidrion}}
+|-
+|{{item|Cumulomenace}}
+|-
+| style="border-bottom: 1px solid #CCCCCC;" | {{item|Everquartz}} {{fantag|Calamity: Community Remix}}
+|-
+| rowspan="7" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit13<br />{{sound||NPC_Hit_13.wav}}
+|{{item|Brimstone Heart}}
+|-
+| {{item|Dark Heart}}
+|-
+| {{item|Eidolist}}
+|-
+| {{item|Monstro}}
+|-
+| {{item|Perforator Cyst}}
+|-
+| {{item|The Perforator Hive}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Storm Weaver (Naked)}}
+|-
+|rowspan="1" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit15<br/>{{sound||NPC_Hit_15.wav}}
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Super Dummy (enemy)|Super Dummy|link=Super Dummy}}
+|-
+| rowspan="2" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit20<br />{{sound||NPC_Hit_20.wav}}
+|{{item|Colossal Squid|size=200px}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Bloodworm (critter)|Bloodworm (Fleeing)|link=Bloodworm}}
+|-
+| rowspan="1" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit22<br />{{sound||NPC_Hit_22.wav}}
+| style="border-bottom: 1px solid #CCCCCC;" |{{item|Viruling}}
+|-
+| rowspan="4" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit23<br />{{sound||NPC_Hit_23.wav}}
+| {{item|Brimling}}
+|-
+| {{item|Brimstone Elemental}}
+|-
+| {{item|Chaotic Puffer}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Cloud Elemental}}
+|-
+|rowspan="3" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit24<br/>{{sound||NPC_Hit_24.wav}}
+| {{item|Plagueshell}}
+|-
+| {{item|Prism-Back}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Sand Tortoise}}
+|-
+|rowspan="4" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit25<br/>{{sound||NPC_Hit_25.wav}}
+| {{item|Baby Ghost Bell}}
+|-
+| {{item|Box Jellyfish}}
+|-
+| {{item|Ghost Bell}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Mirage Jelly}}
+|-
+| rowspan="1" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit31<br />{{sound||NPC_Hit_31.wav}}
+| style="border-bottom: 1px solid #CCCCCC;" |{{item|Stormlion}}
+|-
+| rowspan="10" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit33<br />{{sound||NPC_Hit_33.wav}}
+|{{item|Amber Crawler}}
+|-
+| {{item|Amethyst Crawler}}
+|-
+| {{item|Crystal Crawler}}
+|-
+| {{item|Cuttlefish}}
+|-
+| {{item|Diamond Crawler}}
+|-
+| {{item|Emerald Crawler}}
+|-
+| {{item|Ruby Crawler}}
+|-
+| {{item|Sapphire Crawler}}
+|-
+| {{item|Topaz Crawler}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Water Leech}}
+|-
+| rowspan="3" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit36<br />{{sound||NPC_Hit_36.wav}}
+|{{item|Phantom Spirit}}
+|-
+| {{item|Necroplasm}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Polterghast (Clone)}}
+|-
+| rowspan="1" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit38<br />{{sound||NPC_Hit_38.wav}}
+| style="border-bottom: 1px solid #CCCCCC;" |{{item|Anthozoan Crab}}
+|-
+| rowspan="5" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit41<br />{{sound||NPC_Hit_41.wav}}
+| {{item|Despair Stone}}
+|-
+| {{item|Baby Flak Crab}}
+|-
+| {{item|Flak Crab}}
+|-
+| {{item|Orthocera}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Ravager|size=200px}}
+|-
+|rowspan="3" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit42<br/>{{sound||NPC_Hit_42.wav}}
+| {{item|Belching Coral}}
+|-
+| {{item|Cragmaw Mire (Phase 1)|link=Cragmaw Mire}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Trilobite}}
+|-
+| rowspan="1" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit45<br />{{sound||NPC_Hit_45.wav}}
+| style="border-bottom: 1px solid #CCCCCC;" |{{item|Crabulon|size=200px}}
+|-
+| rowspan="5" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit49<br />{{sound||NPC_Hit_49.wav}}
+|{{item|The Calamity}} {{fantag|Calamity: Community Remix}}
+|-
+|{{item|Exodygen}} {{fantag|Bloop's Items}}
+|-
+|{{item|Scryllar}}
+|-
+|{{item|Signus, Envoy of the Devourer}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Vision of the Tyrant}}
+|-
+|rowspan="3" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit50<br/>{{sound||NPC_Hit_50.wav}}
+| {{item|Gnasher}}
+|-
+| {{item|Flounder}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Sunskater}}
+|-
+|rowspan="3" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit51<br/>{{sound||NPC_Hit_51.wav}}
+| {{item|Draconic Swarmer}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|The Dragonfolly}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Laserfish}}
+|-
+|rowspan="8" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit52<br/>{{sound||NPC_Hit_52.wav}}
+| {{item|Heat Spirit}}
+|-
+| {{item|Profaned Energy}}
+|-
+| {{item|Profaned Guardian (Crystal)}}
+|-
+| {{item|Profaned Guardian (Defense)}}
+|-
+| {{item|Profaned Guardian (Healer)}}
+|-
+| {{item|Profaned Guardian (Main)}}
+|-
+| {{item|Profaned Guardian (Offense)}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Profaned Guardian (Rock)}}
+|-
+|rowspan="4" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit53<br/>{{sound||NPC_Hit_53.wav}}
+| {{item|Cosmic Lantern}}
+|-
+| {{item|Cosmic Mine}}
+|-
+| {{item|Storm Weaver Tail}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Dark Energy}}
+|-
+| rowspan="4" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | NPCHit56<br />{{sound||NPC_Hit_56.wav}}
+|{{item|Jungle Dragon, Yharon|size=300px}}
+|-
+| {{item|Leviathan|size=300px}}
+|-
+| {{item|Nuclear Terror}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Reaper Shark|size=200px}}
+|-
+| rowspan="2" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | DD2_OgreHurt<br/>{{sound||Dd2_ogre_hurt_0.wav}}<br/>{{sound||Dd2_ogre_hurt_1.wav}}<br/>{{sound||Dd2_ogre_hurt_2.wav}}
+|{{item|Supreme Cataclysm|size=120px}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Supreme Catastrophe|size=120px}}
+|-
+|rowspan="1" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | Item_33<br/>{{sound||Item_33.wav}}
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Dark Statis}} {{fantag|Catalyst}}
+|-
+|rowspan="1" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | AngryDogHit<br/>{{sound||AngryDogHit.wav}}
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Angry Dog}}
+|-
+|rowspan="12" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | AstralEnemyHit<br/>{{sound||AstralEnemyHit1.wav}}<br/>{{sound||AstralEnemyHit2.wav}}<br/>{{sound||AstralEnemyHit3.wav}}
+| {{item|Aries}}
+|-
+| {{item|Astralachnea}}
+|-
+| {{item|Astral Probe}}
+|-
+| {{item|Big Sightseer}}
+|-
+| {{item|Fusion Feeder}}
+|-
+| {{item|Hadarian}}
+|-
+| {{item|Hive (enemy)|Hive}}
+|-
+| {{item|Hiveling}}
+|-
+| {{item|Mantis}}
+|-
+| {{item|Nova}}
+|-
+| {{item|Small Sightseer}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Stellar Culex}}
+|-
+|rowspan="1" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | AstrumAureusHit<br/>{{sound||AstrumAureusHit.wav}}
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Astrum Aureus|size=250px}}
+|-
+|rowspan="1" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | AtlasHurt<br/>{{sound||AtlasHurt1.wav}}<br/>{{sound||AtlasHurt2.wav}}<br/>{{sound||AtlasHurt3.wav}}
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Atlas}}
+|-
+|rowspan="2" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | ScornHurt<br/>{{sound||ScornHurt.wav}}
+| {{item|Yggdrasil Ent}} {{fantag|Polyphemalus}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Scorn Eater}}
+|-
+|rowspan="1" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | ProvidenceHurt<br/>{{sound||ProvidenceHurt.wav}}
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Providence, the Profaned Goddess|size=250px}}
+|-
+|rowspan="8" style="border-bottom: 1px solid #CCCCCC; text-align:center; vertical-align:top;" | OtherworldlyHit<br/>{{sound||OtherworldlyHit.wav}}
+| {{item|Ceaseless Void}}
+|-
+| {{item|The Devourer of Gods Head}}
+|-
+| {{item|The Devourer of Gods Tail}}
+|-
+| {{item|The Devourer of Gods Final Phase Head|link=The Devourer of Gods#Final Phase}}
+|-
+| {{item|The Devourer of Gods Final Phase Tail|link=The Devourer of Gods#Final Phase}}
+|-
+| {{item|XM-05 Thanatos Head}} (vulnerable)
+|-
+| {{item|XM-05 Thanatos Body}} (vulnerable)
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|XM-05 Thanatos Tail}} (vulnerable)
+|-
+|}
+
+{{Game mechanics}}

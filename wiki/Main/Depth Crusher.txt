@@ -1,0 +1,52 @@
+{{infobox wrapper
+|{{item infobox
+| type = Tool
+| type2 = Weapon
+| type3 = Crafting material
+| stack = 1
+| auto = yes
+| hammer = 70
+| damagetype = melee
+| damage = 36
+| knockback = 5.25
+| tooltip = Hitting enemies will inflict the crush depth debuff<br/>The lower the enemies' defense, the more damage they take from this debuff<br/>Right click to use without hammering down walls
+| debuff = Crush Depth
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Aquatic pressure
+| rare = 2
+| sell = {{value|0|0|40}}
+| use = 21
+| toolspeed = 22
+| element1 = Water
+| element2 = Dark
+| element3 = Smash
+}}
+|{{item drops infobox
+| [[Moray Eel]]|1|{{dv|6.67%|10%}}
+|}}
+}}
+
+The '''Depth Crusher''' is a [[Pre-Hardmode]] [[hammer]] that is dropped by [[Moray Eel]]s. When swung, it releases aesthetic water droplet particles and inflicts the [[Crush Depth]] [[debuff]] upon striking enemies.
+
+{{modifier|harvest}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This item was formerly known as the "Depth Blade" and lacked hammer functionality.
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Hammers]]
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:深渊碾碎者]]

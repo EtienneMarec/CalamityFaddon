@@ -1,0 +1,55 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| tooltip = Spawns ice bombs that explode after 3 seconds into ice shards on hit
+| damage = 100
+| damagetype = melee
+| use = 34
+| knockback = 7.25
+| auto = yes
+| stack = 1
+| rare = 5
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| debuff = Glacial State
+| debuffchance = 100%
+| debufftip = Cannot move and defense is shattered
+| debuffduration = 0.5 seconds (Ice Bomb)
+| proj = Ice Bomb.png
+| projcaption = Ice Bomb
+| proj2 = Frost Shard.gif
+| proj2caption = Ice Shards
+| element1 = Cold
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Cryogen]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Avalanche''' is a [[Hardmode]] [[melee weapon]] that is dropped by [[Cryogen]]. When the weapon strikes an enemy, it creates ice bombs around the player that travel in either the cardinal or ordinal directions. Each bomb explodes into four gravity affected ice shards on enemy hits or after 3 seconds. Each ice shards deal 50% of the weapon's damage.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+
+== Notes ==
+*Despite appearing to be an [[axe]], the Avalanche cannot be used to cut down trees.
+
+== Tips ==
+*Due to the way the projectiles spawn, this weapon is exceptionally effective against Worm AI enemies, as every one of the falling shards will hit their long body.
+
+== Trivia ==
+*This weapon was previously known as the "Permafrost", but was renamed due to the introduction of the [[Archmage]] NPC, which will always be named "Permafrost".
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:雪崩]]

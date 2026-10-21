@@ -1,0 +1,70 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 333
+| auto = yes
+| use = 44
+| knockback = 8
+| velocity = 12
+| damagetype = Rogue
+| rare = 11
+| tooltip = Space chickens, that is all.<br/>Fires random utensils in bursts of three<br/>Grants Well Fed on enemy hits<br/>Stealth strikes replace any utensil with a powerful butcher knife
+| sell = {{value|0|22}}
+| stack = 1
+| buff = Well Fed
+| duration = 3 seconds
+| bufftip = Minor improvements to all stats<br/>{{expert|Minor improvements to all stats and increased life regeneration}}
+| debuff = Bleeding
+| debuffchance = 100%
+| debuffduration = 5 seconds (Fork)
+| debufftip = Cannot regenerate life
+| debuff2 = Burning Blood
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Fork)
+| debufftip2 = Your blood is on fire
+| element1 = Fire
+| element2 = Stab
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Moon Lord]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Utensil Poker''' is a Godseeker Mode [[dagger]] that drops from the Moon Lord. It fires random utensils in sets of three that grant the player the [[Well Fed]] [[buff]] for three seconds on enemy hits.
+
+{{Modifier|rogue}}
+
+== Utensil Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Type !! colspan=2 | Description
+|-
+| align="center" | {{item|Carving Fork|mode=table|nolink=y}}
+| align=center | A carving fork that ignores [[Immunity frames]] and pierces infinitely.
+|-
+| align="center" | {{item|Fork|mode=table|nolink=y}}
+| align=center | A fork that deals 10% more damage, has twice as much knockback, and inflicts the [[Bleeding]] and [[Burning Blood]] [[debuff]]s.
+|-
+| align="center" | {{item|Knife|mode=table|nolink=y}}
+| align=center | A knife that deals 20% more damage and pierces enemies once.
+|-
+| align="center" | {{item|Butcher Knife|mode=table|nolink=y}}
+| align=center | Performing a [[stealth strike]] with the Utensil Poker replaces the next utensil thrown with a Butcher Knife. The Butcher Knife acts like a boomerang, ignores immunity frames, pierces infinite enemies, travels 20% faster, and deals 40% less damage.
+|}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Utensil Poker is a reference to the [https://chickeninvaders.fandom.com/wiki/Utensil_Poker weapon of the same name] from the ''[[wikipedia:Chicken Invaders|Chicken Invaders]]'' game series.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

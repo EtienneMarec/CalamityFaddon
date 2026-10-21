@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 80
+| use = 55
+| velocity = 16
+| knockback = 5
+| tooltip = A long device, used in the tuning of some rather... original machines.<br/>Swings a spear around and then throws it<br/>On collision, the spear releases a burst of homing energy<br/>Stealth strikes release more energy and explode on collision<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| hardmode = yes
+| sell = {{value|0|4|80}}
+| element1 = Fire
+| element2 = Slash
+| element3 = Machine
+}}
+
+The '''Frequency Manipulator''' is a craftable [[Hardmode]] [[javelin]]. When used, the player winds up a javelin around them before throwing, spawning four homing energy outwards from each enemy that is hit and pierces up to three times. Colliding with tiles will break the javelin but also release the homing energy before it is killed.
+
+Performing a [[stealth strike]] with the Frequency Manipulator causes the resulting javelin to deal 90% damage and massively increase its area of effect.
+
+The weapon consumes 0.004 units of [[charge]] per use and has a maximum charge of 85.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier2}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Javelins]]

@@ -1,0 +1,150 @@
+<div class="crafting-tree">{{diagram
+
+|BaLiT|_|CoCaT|_|_|_|_|_|_|_|_|_|ETree|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|:|_|_|      _|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|:|_|_|_|:|_|_|_|_|_|_|_|_|_|_|_|:|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|HMANV|_|HMANV|_|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|BaLif|_|CoCal|_|SoulL|_|SoulN|_|EShiv|_|CosmB|_|CeleF|_|LumiO|_|#
+|      _|      _|      _|      _|      _|      _|      _|      _|#
+|_|`|-|-|-|^|-|-|-|^|-|-|-|(|_|_|_|)|-|-|-|'|_|_|_|)|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|I|_|_|_|_|_|_|_|§|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|MiMaT|_|_|I|_|_|_|I|_|_|RuinS|_|ExoCl|_|Lumen|_|#
+|_|_|_|_|_|_|_|_|      _|_|I|_|_|_|I|_|_|      _|      _|      _|#
+|_|_|_|_|_|_|_|_|_|:|_|_|_|I|_|_|_|I|_|_|_|)|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|₪|_|_|HMANV|_|COANV|_|_|§|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|MirMa|_|Lucre|_|CShiv|_|GalGl|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|      _|      _|      _|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|`|-|-|-|^|-|-|-|+|-|-|-|'|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|ExoGl|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+<!-- Crafting Materials -->
+
+<!-- Cosmic Shiv -->
+
+| ETree_cols = 3
+| ETree_rows = 2
+| ETree = ''[[Elemental Shiv/Crafting tree|Elemental Shiv<br/>crafting tree]]''
+
+| EShiv_cols = 3
+| EShiv_rows = 2
+| EShiv = {{item|Elemental Shiv}}
+
+| DarkF_cols = 3
+| DarkF_rows = 2
+| DarkF ={{item|Darksun Fragment}} × 5<br/>
+<span style="font-size:0.75em">( [[Solar Eclipse]] )</span>
+
+| CosmB_cols = 3
+| CosmB_rows = 2
+| CosmB = {{item|Cosmilite Bar|size=26px}} × 8<br/>
+( {{item|mode=image|image=Devourer of Gods final head map.png|The Devourer of Gods|size=25px}} )
+
+| CShiv_cols = 3
+| CShiv_rows = 2
+| CShiv = {{item|Cosmic Shiv}}
+
+<!-- Lucrecia -->
+
+| CoCaT_cols = 3
+| CoCaT_rows = 2
+| CoCaT = ''[[Core of Calamity/Crafting tree|Core of Calamity<br/>crafting tree]]''
+
+| CoCal_cols = 3
+| CoCal_rows = 2
+| CoCal = {{item|Core of Calamity}}<br/>
+( {{item|mode=image|Necromantic Geode|size=20px}} )
+
+| BaLiT_cols = 3
+| BaliT_rows = 2
+| BaLiT = ''[[Life Alloy/Crafting tree|Life Alloy<br/>crafting tree]]''
+
+| BaLif_cols = 3
+| BaLif_rows = 2
+| BaLif = {{item|Life Alloy}} × 5<br/>
+( {{item|mode=image|Necromantic Geode|size=20px}} )
+
+| SoulL_cols = 3
+| SoulL_rows = 2
+| SoulL = {{item|Soul of Light}} × 5<br/>
+<div style="font-size: 0.75em">( [[Underground Hallow]] )</div>
+
+| SoulN_cols = 3
+| SoulN_rows = 2
+| SoulN = {{item|Soul of Night}} × 5<br/>
+<div style="font-size: 0.75em">( [[tgc:Underground Corruption|Underground Corruption]]/[[tgc:Underground Crimson|Crimson]] )</div>
+
+| Lucre_cols = 3
+| Lucre_rows = 2
+| Lucre = {{item|Lucrecia|size=44px}}
+
+<!-- Galileo Gladius & Exo Gladius -->
+
+| Lumen_cols = 3
+| Lumen_rows = 2
+| Lumen = {{item|Lumenyl}} × 8<br/>
+<span style="font-size:0.75em">( [[Abyss]] )</span>
+
+| LumiO_cols = 3
+| LumiO_rows = 2
+| LumiO = {{item|Luminite}} × 45<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=30px}} )
+
+| CeleF_cols = 3
+| CeleF_rows = 2
+| CeleF = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 15<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+| ExoCl_cols = 3
+| ExoCl_rows = 2
+| ExoCl = {{item|Exodium Cluster}} × 15<br/>
+<span style="font-size:0.75em">( [[Space]] )</span>
+
+| RuinS_cols = 3
+| RuinS_rows = 2
+| RuinS = {{item|Ruinous Soul}} × 5<br/>
+( {{item|mode=image|image=Polterghast map.png|Polterghast|size=18px}} )
+
+| GalGl_cols = 3
+| GalGl_rows = 2
+| GalGl = {{item|Galileo Gladius}}
+
+| MiMaT_cols = 3
+| MiMaT_rows = 2
+| MiMaT = ''[[Miracle Matter/Crafting tree|Miracle Matter<br/>crafting tree]]''
+
+| MirMa_cols = 3
+| MirMa_rows = 2
+| MirMa = {{item|Miracle Matter}}
+
+| ExoGl_cols = 3
+| ExoGl_rows = 2
+| ExoGl = {{item|Exo Gladius}}
+
+<!-- CRAFTING STATIONS -->
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|COANV_cols = 3
+|COANV_class = craft-station
+|COANV = {{item|mode=image|Cosmic Anvil}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+}}</div>
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

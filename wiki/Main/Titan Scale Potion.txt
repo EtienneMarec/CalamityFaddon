@@ -1,0 +1,28 @@
+{{item infobox
+|type = Potion
+|tooltip = Increases knockback, defense by 5 and damage reduction by 5%<br/>Increases defense by 25 and damage reduction by 10% for a few seconds after a true melee strike
+|stack = 9999
+|rare = 8
+|use = 17
+|consumable = yes
+|buff = Titan Scale | bufflink = no
+|duration = 8 minutes
+|bufftip = You feel tanky
+|hardmode = yes
+|sell = {{value|0|0|40|0}}
+}}
+
+The '''Titan Scale Potion''' is a craftable [[Hardmode]] [[buff potion]] made from [[Titan Potion]]s, a [[Beetle Husk]], and a [[Coralskin Foolfish]]. Upon use, it grants the '''Titan Scale''' [[buff]], which gives increased knockback, 5 [[defense]], and 5% damage reduction. Additionally after damaging an enemy via [[true melee]], the defense and damage reduction boosts are increased to 25 and 10% respectively for 10 seconds.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This potion can only be crafted at an [[Alchemy Table]].
+*The increased knockback effect does not stack with [[Titan Potion]].
+
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

@@ -1,0 +1,47 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{dedicated|vampyrix_|Developer|type=item}}
+{{item infobox
+| type = Covering
+| type2 = Crafting Material
+| defense = 15
+| tooltip = Counts as wings<br/>Horizontal speed: 15<br/>Acceleration Multiplier: 3<br/>Excellent vertical speed<br/>Flight Time: {{infinity}}<br/>Increased defense, life regeneration, jump speed, movement speed, acceleration and deceleration<br/>The wearer can run super fast, auto-jump and walk on liquids<br/>Greater mobility on ice<br/>Debuffs are stronger and longer<br/>All attacks inflict Umbrus Fumes<br/>Entropic fairies are spawned while running, exploding upon contacting enemies<br/>Press {{key|Down}} twice to perform a slam<br/>Dashes transform you into a shadow, allowing to phase through enemies and projectile<br/>Phasing through enemies and projectiles increase damage that quickly depletes<br/>Enemies with high enough health and projectiles with high enough damage cannot be phased through<br/>'Even Purgatory Arbiter itself needs a pair of some nice shoes!'
+| rare = 16
+| sell = {{value|5}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+{| align="right"
+|{{summoned|Entropic Fairy|type=minion|image=[[File:Moving_Entropic_Fairy.gif]]}}
+|}
+
+'''Shadowspectre Tracers''' are a post-[[Purgatory Arbiter, Umbrus|Umbrus]] [[Equipment|covering]] that is an upgrade to both [[Celestial Tracers]] and [[Lunarspectre Tracers]], and the final upgrade in the [[Hermes Boots]] line. While equipped, they provide the following effects: 
+
+*15 [[defense]]
+*7 increased life regen (3.5 HP/s)
+*20% increased movement speed
+*32% increased jump speed
+*12% increased acceleration and deceleration
+* Allows auto-jumping, [[Wings|flying]] for an infinite amount of time, walking on various [[tgc:Liquids|liquids]] and grants greater mobility on ice.
+*While running, an entropic fairy minion is spawned every 1.5 seconds.  
+**The fairy minion homes onto the closest target, exploding upon contant and dealing 460 classless damage, which scales with the strongest class and cannot critically hit.
+*Pressing {{key|Down}} in a rapid succession while in mid-air will cause the player to rapidly fall down, gaining even more momentum over time. Hitting the ground will cause an entropic explosion that spawns 4-5 entropic fairies, which deal double the base damage each. 
+**Both the range and the damage of which scales depending on the player's downward momentum, scaling linearly from 7 blocks radius and 1860 classless damage to triple the values, or 21 blocks and 5580 classless damage respectively. The explosion cannot critically hit and its damage scales with the player's strongest class.
+* After performing a dash, the player will become a shadow with red eyes for 1.5 seconds, similarly to [[Shadow Potion]]s. 
+**While the player is in this state, they can safely go through enemies and projectiles. However, if the enemy's current HP is more than 1,500,000 or the projectile's dealt damage is more than 600, the player will still get hit as normal and won't get any additional benefits.
+** Each enemy or projectile that the player went through will increase their damage by 10%. However, this bonus will be decreased by 1% each time it is granted per transformation, up to only 1% per enemy or projectile. Additionally, the bonus quickly depletes, taking 6 seconds to vanish entirely. This timer is reset every time a transformation occurs.
+* The player's attacks inflict the [[Umbrus Fumes]] [[Debuffs|debuff]].
+* All debuffs deal 50% more damage and are 150% longer.
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+==Notes==
+* The player can cancel the slam by quickly pressing {{key|Down}} twice again.
+
+==Trivia ==
+*The dash effect of this covering was inspired by [https://bindingofisaacrebirth.fandom.com/wiki/Dark_Arts Dark Arts] from the game ''[[wikipedia:The_Binding_of_Isaac_(video_game)|The Binding of Isaac]]''.
+{{-}}
+{{ctota}}

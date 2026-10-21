@@ -1,0 +1,144 @@
+__NOTOC__
+Several features of the ''Calamity Mod'' can be toggled though the usage of either tModLoader's in-game configuration menu or the external <code>CalamityConfig.json</code> file.
+
+<code>CalamityConfig.json</code> resides in one of the following locations by default:
+*Windows: <code>"C:\Users\''username''\Documents\My Games\Terraria\ModLoader\Mod Configs"</code>
+*Mac: <code>"~/Library/Application support/Terraria/ModLoader/Mod Configs"</code>
+*Linux: <code>"Home/.local/share/Terraria/Modloader/Mod Configs"</code>
+
+If editing <code>CalamityConfig.json</code> manually, the player must quit ''Terraria'' completely, edit the settings in the file, and then start ''Terraria'' again in order for them to take effect.
+
+== Configurable mechanics ==
+=== Calamity Main mod ===
+The following settings are listed in the CalamityConfig.json file. Editing these settings manually requires the player to quit ''Terraria'' completely, open the file, edit the settings then start ''Terraria'' again.
+
+{| class="terraria lined"
+! Type
+! width="300" | Configuration
+! width="110" | Options
+! Tooltip
+|-
+| rowspan="6" | Graphic Changes
+| Afterimages<br/>(<code>Afterimages</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || Enables rendering afterimages for Calamity NPCs, projectiles, etc.<br/>Disable to improve performance.
+|-
+| Disable Screenshakes<br/>(<code>DisableScreenShakes</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || Disables all screen-shaking effects.
+|-
+| Stealth Invisibility<br/>(<code>StealthInvisbility</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || Enables players gradually turning invisible as their Spy [[Stealth]] increases.<br/>This effect is visually similar to [[Shroomite armor]]'s stealth.
+|-
+| New Shop Inventory Alert<br/>(<code>ShopNewAlert</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || Adds an icon that appears over [[Town NPCs]] when they have new items in their shops.
+|-
+| Legacy Sprites<br/>(<code>OldSprites</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || Reverts all possible sprites in the mod to former states.
+|-
+| Wiki Status Message<br/>(<code>WikiStatusMessage</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || Enable or disable the status message promoting the Official Calamity Wiki that plays on world entry.
+|-
+| rowspan="13" | UI Changes
+| Boss Health Bars<br/>(<code>BossHealthBar</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || Enables Calamity's [[Boss Health Bar|boss health bar]] in the bottom right corner of the screen.
+|-
+| Boss Health Bar Extra Info<br/>(<code>BossHealthBarExtraInfo</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || Adds extra info to the Calamity boss health bar.<br/>This displays either the boss's exact health or number of remaining parts or segments.
+|-
+| Boss and Miniboss Debuff Display<br/>(<code>DebuffDisplay</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || Adds an array of [[debuff]] icons above all bosses and minibosses.
+|-
+| Lock Meter Positions<br/>(<code>MeterPosLock</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || Prevents clicking on the Stealth, [[Rage Meter|Rage]] and [[Adrenaline Meter]]s.<br/>This stops them from being dragged around with the mouse.
+|-
+| Stealth Meter<br/>(<code>StealthBar</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || Enables the Stealth Meter UI, which shows the player's current stealth level.<br/>The Stealth Meter is always hidden if not wearing Spy armor.
+|-
+| Stealth Meter X Position<br/>(<code>StealthMeterPosX</code>) || <code>0</code> to <code>3840</code><br/>(Default: 820) || The X position of the Stealth Meter.<br/>The meter can be dragged with the mouse if Lock Meter Positions is disabled.
+|-
+| Stealth Meter Y Position<br/>(<code>StealthMeterPosY</code>) || <code>0</code> to <code>2160</code><br/>(Default: 43) || The Y position of the Stealth Meter.<br/>The meter can be dragged with the mouse if Lock Meter Positions is disabled.
+|-
+| Charge Meter<br/>(<code>ChargeMeter</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || Enables the Charge Meter UI, which shows the charge level of the player's currently held Arsenal item.<br/>The Charge Meter is always hidden if not holding a chargable arsenal item.
+|-
+| Charge Meter X Position<br/>(<code>ChargeMeterPosX</code>) || <code>0</code> to <code>3840</code><br/>(Default: 950) || The X position of the Charge Meter.<br/>The meter can be dragged with the mouse if Lock Meter Positions is disabled.
+|-
+| Charge Meter Y Position<br/>(<code>ChargeMeterPosY</code>) || <code>0</code> to <code>2160</code><br/>(Default: 43) || The Y position of the Charge Meter.<br/>The meter can be dragged with the mouse if Lock Meter Positions is disabled.
+|-
+| Speedrun Timer<br/>(<code>SpeedrunTimer</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || Enables a [[Speedrun Timer]].
+|-
+| Speedrun Timer X Position<br/>(<code>SpeedrunTimerPosX</code>) || <code>-800</code> to <code>800</code><br/>(Default: 68) || The X position of the Speedrun Timer.
+|-
+| Speedrun Timer Y Position<br/>(<code>SpeedrunTimerPosY</code>) || <code>16</code> to <code>1000</code><br/>(Default: 16) || The Y position of the Speedrun Timer.
+|-
+| rowspan="8" | General Gameplay [[Vanilla changes|Changes]]
+| Early Hardmode Progression Rework<br/>(<code>EarlyHardmodeProgressionRework</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || Demon Altars no longer spawn ores and crimson/corruption blocks when broken.<br/>[[Wall of Flesh]] spawns [[Cobalt Ore|Cobalt]] and [[Palladium Ore|Palladium ore]] on first kill.<br/>The first [[Mechanical bosses|mech boss]] you fight has 20% less HP and damage and spawns [[Mythril Ore|Mythril]] and [[Orichalcum Ore|Orichalcum ore]] on first kill.<br/>The second mech boss you fight has 10% less HP and damage and spawns [[Adamantite Ore|Adamantite]] and [[Titanium Ore|Titanium ore]] on first kill.<br/>The third mech boss spawns [[Hallowed Ore]] on first kill
+|-
+| Dash Key<br/>(<code>DashKey</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || Causes the shift key to proc dashes instead of double tapping A or D.
+|-
+| Lethal Lava<br/>(<code>LethalLava</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || Makes [[lava]] significantly more deadly by adding a [[Lethal Lava Burn|new debuff]].<br/>Permanent lava immunity does not provide immunity to this debuff.<br/>This setting is ignored in [[Death Mode]], which always has Lethal Lava.
+|-
+| Proficiency<br/>(<code>Proficiency</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || Enables the [[Proficiency]] system which allows the player to gain slight stat bonuses by persistently using one damage class.<br/>Disabling the system does not remove levels players already have, but disables their stat bonuses and prevents experience gain.
+|-
+| Boss Zen<br/>(<code>BossZen</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || While a boss is alive, all players receive the [[Boss Zen]] buff which drastically reduces enemy spawn rates.
+|-
+| Let Town NPCs spawn at night.<br/>(<code>CanTownNPCsSpawnAtNight</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || Allows you to determine if town NPCs (including the Old Man) can spawn at night.
+|-
+| Town NPC Spawn Rate Multiplier<br/>(<code>TownNPCSpawnRateMultiplier</code>) || <code>1</code> to <code>10</code><br/>(Default: 1) || Makes town NPCs spawn more quickly, the higher this value is.
+|-
+| Boss Health Percentage Boost<br/>(<code>BossHealthBoost</code>) || <code>0</code> to <code>900</code><br/>(Default: 0) || Globally boosts the health of all bosses.<br/>Does not affect bosses that are already spawned.
+|-
+| rowspan="3" | [[Expert mode|Expert]] Changes
+| Reduce Expert Debuff Durations<br/>(<code>NerfExpertDebuffs</code>) || <code>true</code> or <code>false</code><br/>(Default: true)|| Debuffs in Expert Mode are no longer doubled
+|-
+| Rework Chilled Water<br/>(<code>ReworkChilledWater</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || When enabled, [[water]] in the [[Snow biome|Snow]] and [[Ice biome]]s will [[Frozen Lungs|rapidly drain the player's breath]] instead of inflicting [[Chilled]].
+|-
+| Disable Expert Enemy Spawns in Towns<br/>(<code>DisableExpertTownSpawns</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || Counteracts Expert Mode allowing enemies to spawn near towns by vastly decreasing spawn rates.<br/>This can have unintended side effects such as making critters difficult to find.
+|-
+| rowspan="5" | [[Revengeance Mode|Revengeance]] Changes
+| Rage and Adrenaline Meter Shake<br/>(<code>MeterShake</code>) || <code>0</code> to <code>4</code><br/>(Default: 2) || How much the Rage and Adrenaline Meters shake while in use.<br/>Set to zero to disable the shaking entirely.
+|-
+| Rage Meter X Position<br/>(<code>RageMeterPosX</code>) || <code>0</code> to <code>3840</code><br/>(Default: 500) || The X position of the Rage Meter.<br/>The meter can be dragged with the mouse if Lock Meter Positions is disabled.
+|-
+| Rage Meter Y Position<br/>(<code>RageMeterPosY</code>) || <code>0</code> to <code>2160</code><br/>(Default: 30) || The Y position of the Rage Meter.<br/>The meter can be dragged with the mouse if Lock Meter Positions is disabled.
+|-
+| Adrenaline Meter X Position<br/>(<code>AdrenalineMeterPosX</code>) || <code>0</code> to <code>3840</code><br/>(Default: 650) || The X position of the Adrenaline Meter.<br/>The meter can be dragged with the mouse if Lock Meter Positions is disabled.
+|-
+| Adrenaline Meter Y Position<br/>(<code>AdrenalineMeterPosY</code>) || <code>0</code> to <code>2160</code><br/>(Default: 30) || The Y position of the Adrenaline Meter.<br/>The meter can be dragged with the mouse if Lock Meter Positions is disabled.
+|-
+| [[Death Mode]] Changes
+| Weather Hazard Delay Multiplier<br/>(<code>DeathWeatherMultiplier</code>) || <code>0.5</code> to <code>3</code><br/>(Default: 1) || Adjusts the delay between Death Mode weather hazards such as lightning.<br/>Decreasing this value makes hazards more frequent.<br/>Increasing this value makes hazards less frequent.
+|-
+| rowspan="10" style="border-bottom:0" | [[Boss Rush]] Curses
+| Covering Curse<br/>(<code>BossRushCoveringCurse</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || Limits the player to five [[coverings]] during the Boss Rush.
+|-
+| Curse of Blight<br/>(<code>BossRushHealthCurse</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || Disables all [[health regeneration]] during the Boss Rush.
+|-
+| Curse of Blundering<br/>(<code>BossRushDashCurse</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || Disables all dashes during the Boss Rush.
+|-
+| Curse of Karma<br/>(<code>BossRushImmunityFrameCurse</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || During the Boss Rush, being hit twice within three seconds will cause instant death.<br/>This effect ignores revives.
+|-
+| Curse of the Tainted<br/>(<code>BossRushImmunityFrameCurse</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || During the Boss Rush, Summons a Brimstone Monster that chases the player. The monster instantly kills the player on collision.
+|-
+| Curse of Binding<br/>(<code>BossRushImmunityFrameCurse</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || During the Boss Rush, all bosses are fought inside large square arenas.
+|-
+| Curse of Time<br/>(<code>BossRushImmunityFrameCurse</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || During the Boss Rush, bosses take less damage if enough damage is dealt in a short period of time.
+|-| Curse of the Jokerbr/>(<code>BossRushImmunityFrameCurse</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || During the Boss Rush, the most used weapon for a boss will lock usage once said boss is killed.
+|-
+| Curse of Pacifism<br/>(<code>BossRushImmunityFrameCurse</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || During the Boss Rush, all non-bosses become invincible. <br/>They also aren't required in order to progress through fights.
+|-
+| Curse of Encumbering<br/>(<code>BossRushImmunityFrameCurse</code>) || <code>true</code> or <code>false</code><br/>(Default: false) || During the Boss Rush:<br/>Melee weapons stop firing projectiles<br/>Ranged projectiles last 75% shorter<br/>Mana Potions are disabled, and mana regen is reduced by 80%<br/>Minion slots are capped at 8<br/>Spy stealth is disabled.
+|-
+|}
+
+=== Calamity Music mod ===
+The following settings are listed in the CalamityMusicConfig.json file. Editing these settings manually requires the player to quit ''Terraria'' completely, open the file, edit the settings then start ''Terraria'' again.
+{| class="terraria lined"
+! Type
+! width="300" | Configuration
+! width="110" | Options
+! Tooltip
+|-
+| rowspan="1" | General Changes
+| Title Music <br/>(<code>ReplaceTitleMusic</code>) || <code>true</code> or <code>false</code><br/>(Default: true) || Causes [[Music Box (The Tale of a Cruel World)|The Tale of a Cruel World]] to play on the Title Screen instead of the default Terraria music.
+|}
+
+== Notes ==
+*The in-game configuration option menu features red background ({{color|#312024 ●|#312024}}) and buttons ({{color|#C03640 ●|#C03640}}).
+*There are several configuration options with sliders that are adjusted in increments.
+**Boss Health Percentage Boost has an increment of 50.
+**Rage and Adrenaline Meter Shake has an increment of 1.
+**Weather Hazard Delay Multiplier has an increment of 0.25.
+
+== Trivia ==
+*The Boss Rush curses are inspired by [https://hollowknight.fandom.com/wiki/Pantheons#Bindings bindings] from Hollow Knight, which are optional challenges that can be applied to a Pantheon, the game's equivalent of a boss rush mode.
+**The Immunity curse is inspired by the [https://enterthegungeon.gamepedia.com/Challenge_Mode High Stress] modifier of the Challenge Mode in Enter the Gungeon.
+
+{{Game mechanics}}

@@ -1,0 +1,55 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 42
+| mana = 10
+| knockback = 3
+| use = 24
+| tooltip = You could’ve sworn that they turned even scarier when you looked at their reflections in a mirror<br/>Summons a brimseeker to keep you company<br/>Firing another brimseeker when all minion slots are filled summons a brimstone aura<br/>The aura empowers your brimseeker summons and produces damaging fireballs<br/>Only one aura can persist at a time
+| buff = Brimseeker (buff) | bufflink = no
+| bufftip = Does it want something from you?
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| debuffduration = 3 seconds (Fireballs)
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|7|20}}
+| proj = Brimseeker Aura Ball.png
+| projcaption = Brimseeker Aura Ball
+| element1 = Unholy
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Brimstone Elemental]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Brimseeker|type=minion}}
+
+The '''Dormant Brimseeker''' is a [[Hardmode]] [[summon weapon]] that has a 25% chance (33.33% in Expert Mode) to drop from the [[Brimstone Elemental]]. When used, it summons a Brimseeker that charges towards enemies in a straight line, dealing damage and inflicting the [[Brimstone Flames]] [[Debuffs|debuff]] to hit enemies.
+
+When used while all minion slots are exhausted, it instead launches a Dormant Brimseeker towards the cursor that emits a large aura of brimstone after stopping. This aura emits swirling brimstone fireballs that deal damage and inflict the [[Brimstone Flames]] debuff to hit enemies, and Brimseekers that enter the aura become more powerful until the Dormant Brimseeker expires. Only one Dormant Brimseeker can be active at any time.
+
+{{fantag|Catalyst}} If more than one Brimseeker is summoned, [[Stamina]] will start depleting by 1 point every minute, for each Brimseeker active. If the Brimseekers are empowered, Stamina is instead depleted by 2 points per minute.
+
+{{Modifier|summon}}
+
+== Notes ==
+*[[Aquatic Scourge]] takes only 50% damage from Brimseekers.
+*Brimseekers are able to target and attack enemies through solid blocks.
+*Rather than spawning immediately, (Dormant) Brimseekers are thrown out and gradually slow to a stop before completely spawning. If this thrown Brimseeker hits an enemy or solid block before coming to a stop, it will instead deal damage equal to the damage of the weapon and not spawn a Brimseeker.
+*The Dormant Brimseeker aura lasts for 13.67 seconds and has a diameter of 50 tiles, and Dormant Brimseekers cannot be thrown while one is active.
+
+== Trivia ==
+*This item is a reference to the indie game ''[[wikipedia:Celeste (video game)|Celeste]]''. The item's appearance, minion's name, and minion's appearance are based on [https://celestegame.fandom.com/wiki/Objects#Seekers Seekers] from the game, and the item's tooltip refers to the game's [https://celestegame.fandom.com/wiki/Chapter_5:_Mirror_Temple Mirror Temple].
+*While idle, Brimseekers fly around the player in an infinity symbol.
+
+[[File:Dormant Brimseeker (demo).gif|frame|left|Demonstration of the Dormant Brimseeker's multiple attacks: in order, the Dormant Brimseeker, the Brimseeker summon, the Brimseeker aura, and the enraged Brimseeker.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damage = 33
+| damagetype = Ranged
+| critical = 19%
+| knockback = 6
+| use = 70
+| tooltip = Converts wooden arrows into slow, powerful shells
+| rare = 2
+| stack = 1
+| velocity = 1.5
+| buy = {{value|0|2}}
+| sell = {{value|0|0|40}}
+| proj = Shell.png
+| projcaption = Shell
+| element1 = Water
+| element2 = Stab
+}}
+
+The '''Shellshooter''' is a [[Pre-Hardmode]] [[bow]] that is purchasable from the [[Sea King]] at any time. [[Wooden Arrow]]s are converted into shells that have a very low velocity and pierce up to four enemies, breaking on the fifth.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

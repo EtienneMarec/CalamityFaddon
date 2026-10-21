@@ -1,0 +1,36 @@
+{{dedicated|ScrxletGoddess|Patreon Donator}}{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 1350
+| use = 30
+| knockback = 9
+| velocity = 24
+| tooltip = You can feel the hands of Death himself onto yours<br/>Left Click to perform a true melee slash that rips souls out of hit enemies<br/>Right click to fire a spread of five deadly slashes
+| auto = yes
+| stack = 1
+| research = 1
+| rare = 13
+| sell = {{value|0|26}}
+| hardmode = yes
+| postml = yes
+| proj = Death's Ascension Slash.gif
+| projcaption = Death's Ascension Slash
+| proj2 = Death's Ascension Scythe.png
+| proj2caption = Homing Scythe
+| proj3 = Phantasmal Spirit.gif
+| proj3caption = Soul
+| element1 = Dark
+| element2 = Slash
+}}The '''Death's Ascension''' is a craftable Godseeker Mode [[melee weapon]]. When used with its primary fire (left-click), the scythe does a horizontal slash that causes 3-5 souls to fire out of the back of a hit enemy. These souls can come in either purple or blue colors which either heal the player for 2-5 health or deal 10% of the weapon's damage respectively. When used with its secondary fire (right-click), it fires an even spread of five slashes that create rip effects upon enemy hits similar to the [[Exoblade]] which deal 20% of the weapon's damage.
+
+{{Modifier|meleealt}}
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+==Notes==
+*When the secondary fire is used, the damage, use time, and velocity are changed to 290, 16, and 18 respectively.
+**[[Modifiers]] are unable to properly affect these values as a result.
+{{-}}{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}

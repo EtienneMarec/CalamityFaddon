@@ -1,0 +1,38 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 76
+| damagetype = Summon
+| knockback = 5
+| tooltip = Summons a dark energy turret to fight for you<br/>Two can exist at once
+| mana = 10
+| rare = 12
+| sell = {{value|0|28}}
+| use = 14
+| auto = yes
+| stack = 1
+| hardmode = yes
+| postml = yes
+| element1 = Dark
+}}
+{{summoned|Dark Energy|type=sentry}}
+
+The '''Dark Energy Staff''' is a Godseeker Mode [[sentry]]. When used, it summons a stationary [[Dark Energy]] sentry that rapidly spreads about bursts of homing dark matter. Two can be summoned at a time.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This is the only sentry in the game that takes up 0.5 sentry slots.
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

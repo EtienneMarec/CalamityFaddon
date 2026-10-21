@@ -1,0 +1,52 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| stack = 1
+| damagetype = Rogue
+| damage = 59
+| knockback = 6
+| rare = 6
+| sell = {{value|0|9|60}}
+| tooltip = Tosses claycore-type bombs that explode into energy bolts on impact<br/>Stealth strikes cause bombs to explode into more bolts
+| use = 22
+| velocity = 8
+| hardmode = yes
+| boxwidth = 22em
+| debuff = On Fire!
+| debuffduration = 2 seconds (Red Bolt)
+| debuffchance = 100%
+| debufftip = Slowly losing life
+| debuff2 = Frostburn
+| debuffduration2 = 1.5 seconds (Blue Bolt)
+| debuffchance2 = 100%
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuff3 = Ichor (debuff)
+| debuffduration3 = 1 seconds (Yellow Bolt)
+| debuffchance3 = 100%
+| debufftip3 = Defense reduced by 20
+| element1 = Magic
+| element2 = Poison
+| element3 = Bomb
+| element4 = Smash
+}}
+
+The '''Catastophe Claycore''' is a craftable [[Hardmode]] [[bombs|bomb]]. It throws claycore bombs that, upon impact, explode into 3-4 of one of three damaging projectiles, which will inflict numerous [[debuffs]] on hit, depending on their color.
+
+Performing a [[stealth strike]] causes the bomb to explode into 4-8 bolts instead.
+
+{{modifier|Rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Catastrophe Clay}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Bombs]]]]

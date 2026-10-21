@@ -1,0 +1,49 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 210
+| use = 20
+| knockback = 8
+| velocity = 5
+| tooltip = Fires a harpoon that sticks to enemies and explodes
+| rare = 13
+| sell = {{value|0|26}}
+| debuff = Venom
+| debuffchance = 100%
+| debuffduration = 6 seconds
+| debufftip = Losing life
+| debuff2 = Sulphuric Poisoning
+| debuffchance2 = 100%
+| debuffduration2 = 6 seconds
+| debufftip2 = The acidic water burns away your flesh
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| proj = Insidious Harpoon.png
+| projcaption = Insidious Harpoon
+| element1 = Poison
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Orthocera]] | 1 | {{dv|5%|6%}} (tier 3)
+}}
+}}
+
+The '''Insidious Impaler''' is a Godseeker Mode [[spear]] which drops from tier 3 [[Orthocera]]s. It throws a spear that is unaffected by gravity and sticks to blocks and [[enemies]], releasing toxic and sulphuric clouds that inflict the [[Venom]] and [[Sulphuric Poisoning]] [[debuffs]].
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+==Notes==
+*Despite the tooltip mentioning a harpoon, the projectile behaves more like a spear.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

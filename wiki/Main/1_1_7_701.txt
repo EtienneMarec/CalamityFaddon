@@ -1,0 +1,157 @@
+{{Patch infobox
+| image = Crabulon (1.1.7.701).png
+| size = 160px
+| patchname = Legendary Update
+| release = 4/9/2017
+}}
+
+The '''1.1.7.701''' update added a new set of weapons known as [[Legendary weapons]], along with a new boss known as [[Crabulon]]. The update also added several new custom [[rarity]] colors used by most Godseeker Mode items, and added several new [[weapons]] and [[coverings]].
+
+== Additions ==
+*Added [[Cnidrion]], [[Crab Shroom]], and [[Crabulon]].
+*Added [[Aero Stone]], [[Bloom Stone]], [[Chaos Stone]], [[Cryo Stone]], [[Fungal Clump]], [[Harpy Ring]], [[Heart of the Elements]], and [[Rose Stone]].
+*Added [[Aegis Blade]], [[Blossom Flux]], [[Briny Baron]], [[Comet Quasher]], [[Cosmilamp]], [[The Dance of Light]], [[Fungicide]], [[Gleaming Magnolia]], [[Hyphae Rod]], [[Mycelial Claws]], [[Mycoroot]], [[Neptune's Bounty]], [[SHPC]], [[Stellar Striker]], [[Storm Dragoon]], [[Vesuvius]], and [[The Wand]].
+*Added [[Treasure Bag (Brimstone Elemental)]] and [[Treasure Bag (Crabulon)]].
+*Added [[Brimstone Waifu (buff)]], [[Fungal Clump (buff)]], [[Mushy]], and [[Siren Lure (buff)]].
+*Added the {{rare|12}}, {{rare|13}}, {{rare|14}}, {{rare|15}}, and {{rare|16}} [[rarity]] colors.
+
+== Changes ==
+=== Bosses and Enemies ===
+*[[Brimstone Elemental]] no longer despawns if the player leaves [[The Underworld]], and her Brimstone Barrages no longer produce dust.
+*[[Bumblebirb]] no longer despawns if the player leaves the [[Jungle]].
+*[[Cryogen]] now becomes invincible instead of despawning if the player leaves the [[Snow biome]].
+*[[Desert Scourge]] now becomes invincible instead of despawning if the player leaves the [[Desert]].
+*[[The Devourer of Gods]]' Beam Portals now last 5 seconds instead of 10, have had their speed decreased, and produce less dust.
+*[[The Hive Mind]] phase 1 no longer despawns if the player leaves [[The Corruption]], and phase 2 now becomes invincible instead of despawning.
+*[[Jungle Dragon, Yharon]] no longer despawns shortly if the player leaves the Jungle.
+*[[The Perforator Hive]] now becomes invincible instead of despawning if the player leaves [[The Crimson]].
+*[[Profaned Guardians]] changes:
+**Nerfed main guardian's spear damage from {{dv|200|220}} to {{dv|140|180}}, and Giga Flare damage from {{dv|160|180}} to {{dv|110|140}}.
+**Nerfed defense guardian's spear damage from {{dv|160|180}} to {{dv|120|140}}.
+**The defense and healer guardians now take up 3 NPC slots instead of 10.
+*[[Providence, the Profaned God]] changes:
+**Buffed defense from 100 to 150.
+**Nerfed her Holy Blast damage from {{dv|0|320}} to {{dv|0|260}}, her Holy Fire damage from {{dv|0|260}} to {{dv|0|200}}, her Molten Blast's damage from {{dv|0|320}} to {{dv|0|260}}, and her Holy Bomb damage from {{dv|0|280}} to {{dv|0|220}}.
+**Nerfed the offense and defense guardians' spear damage from {{dv|160|260}} to {{dv|100|140}}.
+**Nerfed the offensive guardian's Flare Dust damage from {{dv|160|240}} to {{dv|100|160}}.
+**All three guardians now take up 1 NPC slot each instead of 10.
+**No longer despawns if the player leaves [[The Hallow]] or the Underworld.
+*[[Signus, Envoy of the Devourer]] now becomes invincible instead of despawning if the player leaves the Underworld.
+*[[Siren Lure and Leviathan]] changes:
+**Siren Lure changes:
+***Buffed [[Detonating Bubble]] damage from {{dv|40|80}} to {{dv|60|120}}.
+***Decreased coin drop count from {{gc|30}} to {{gc|18}}.
+***Decreased speed.
+***Now becomes invincible if the player leaves the [[Ocean]].
+***Projectile damage value changes while over 75% health:
+****Nerfed Music Note damage from {{dv|100|120}} to {{dv|80|100}} while dry, and {{dv|80|100}} to {{dv|60|88}} while wet.
+****Nerfed Frost Mist damage from {{dv|0|104}} to {{dv|0|92}} while dry, and {{dv|0|84}} to {{dv|0|80}} while wet.
+****Changed Water Spear damage from {{dv|70|96}} to {{dv|72|84}} while dry, and changed damage from {{dv|50|76}} to {{dv|52|72}} while wet.
+***Projectile damage value changes while under 75% health, but above 50%:
+****Nerfed Music Note damage from {{dv|104|136}} to {{dv|84|108}} while dry, and {{dv|84|116}} to {{dv|64|96}} while wet.
+****Nerfed Frost Mist damage from {{dv|0|112}} to {{dv|0|100}} while dry, and {{dv|0|92}} to {{dv|88}} while wet.
+****Changed Water Spear damage from {{dv|74|104}} to {{dv|76|92}} while dry, and {{dv|54|84}} to {{dv|56|80}} while wet.
+***Projectile damage value changes while under 50% health, but above 25%:
+****Nerfed Music Note damage from {{dv|108|140}} to {{dv|88|116}} while dry, and {{dv|88|120}} to {{dv|68|104}} while wet.
+****Nerfed Frost Mist damage from {{dv|0|120}} to {{dv|0|108}} while dry, and {{dv|0|100}} to {{dv|0|96}} while wet.
+***Projectile damage value changes while under 25% health:
+****Nerfed Music Note damage from {{dv|114|144}} to {{dv|92|124}} while dry, and {{dv|94|124}} to {{dv|72|112}} while wet.
+****Nerfed Frost Mist damage from {{dv|90|128}} to {{dv|88|116}} while dry, and {{dv|70|108}} to {{dv|68|104}} while wet.
+****Nerfed Water Spear damage from {{dv|0|120}} to {{dv|0|108}} while dry, and {{dv|0|100}} to {{dv|0|96}} while wet.
+**Leviathan changes:
+***Nerfed meteor damage from {{dv|150|180}} to {{dv|110|140}} while dry, and {{dv|130|160}} to {{dv|100|120}} while wet.
+***Now fires meteors more often.
+***Increased speed.
+*[[Prepare to Die\Cry]] Modes no longer affect bosses from the Thorium mod.
+
+=== Items ===
+*Most post-Moon Lord items now use custom rarity colors, a full list can be found below:
+{{collapse top|New rarities (Click to open)|(Click to collapse)}}
+{| class="terraria lined"
+! Items !! Old Rarity !! New Rarity
+|-
+| [[Alpha Ray]]{{-}}[[Gallant Pickaxe]]
+| {{rare|9}}
+| {{rare|12}}
+|-
+| [[Apoctosis Array]]{{-}}[[Ark of the Elements]]{{-}}[[Asteroid Staff]]{{-}}[[Astreal Defeat]]{{-}}[[Blissful Bombardier]]{{-}}[[Clockwork Bow]]{{-}}[[Devastation]]{{-}}[[Effervescence]]{{-}}[[Elemental Blaster]]{{-}}[[Elemental Eruption]]{{-}}[[Elemental Ray]]{{-}}[[Elemental Shiv]]{{-}}[[Elysian Arrow]]{{-}}[[Energy Staff]]{{-}}[[Galactus Blade]]{{-}}[[Genisis]]{{-}}[[Grax]]{{-}}[[Greatsword of Judgement]]{{-}}[[Holy Collider]]{{-}}[[Molten Amputator]]{{-}}[[Onyx Chain Blaster]]{{-}}[[Profaned Core]]{{-}}[[Profaned Shard]]{{-}}[[Purge Guzzler]]{{-}}[[Supreme Healing Potion]]{{-}}[[Unholy Essence]]
+| {{rare|10}}
+| {{rare|12}}
+|-
+| [[Arcanum of the Void]]{{-}}[[Armored Shell]]{{-}}[[Cosmic Kunai]]{{-}}[[Cosmic Worm]]{{-}}[[Cosmilite Bar]]{{-}}[[Dark Plasma]]{{-}}[[Deathhail Staff]]{{-}}[[Deathwind]]{{-}}[[Eradicator]]{{-}}[[Excelsus]]{{-}}[[Mirror Blade]]{{-}}[[The Obliterator]]{{-}}[[Phantasmal Fury]]{{-}}[[Rune of Kos]]{{-}}[[Shadowbolt Staff]]{{-}}[[Staff of the Mechworm]]{{-}}[[The Storm]]{{-}}[[Twisting Nether]]{{-}}[[Venusian Trident]]
+| {{rare|10}}
+| {{rare|13}}
+|-
+| [[Alluvion]]{{-}}[[Asgardian Aegis]]{{-}}[[The Burning Sky]]{{-}}[[Cleansing Blaze]]{{-}}[[Devil's Devastation]]{{-}}[[Dragon Egg (summoning)]]{{-}}[[Dragon Rage]]{{-}}[[Dragon's Breath]]{{-}}[[Effulgent Feather]]{{-}}[[Elysian Tracers]]{{-}}[[The Enforcer]]{{-}}[[Essence Flayer]]{{-}}[[Executioner's Blade]]{{-}}[[Galaxia]]{{-}}[[Gilded Proboscis]]{{-}}[[God Slayer Chestplate]]{{-}}[[God Slayer Helm]]{{-}}[[God Slayer Leggings]]{{-}}[[Golden Eagle]]{{-}}[[Phoenix Flame Barrage]]{{-}}[[Profaned Trident]]{{-}}[[Rouge Slash]]{{-}}[[SDFMG]]{{-}}[[Stream Gouge]]{{-}}[[Vanquisher Arrow]]{{-}}[[Yharon's Kindle Staff]]
+| {{rare|10}}
+| {{rare|14}}
+|-
+| [[Ark of the Cosmos]]{{-}}[[Eye of Extinction]]{{-}}[[Murasama]]
+| {{rare|10}}
+| {{rare|15}}
+|-
+| [[Shadowspec Bar]]
+| {{rare|rainbow}}
+| {{rare|15}}
+|-
+| [[Animus]]{{-}}[[Azathoth]]{{-}}[[Contagion]]{{-}}[[Crystyl Crusher]]{{-}}[[Demonshade Breastplate]]{{-}}[[Demonshade Greaves]]{{-}}[[Demonshade Helm]]{{-}}[[Draconic Destruction]]{{-}}[[Earth]]{{-}}[[Illustrious Knives]]{{-}}[[Megafleet]]{{-}}[[Red Sun]]{{-}}[[Soma Prime]]{{-}}[[Svantechnical]]{{-}}[[Triactis' True Paladinian Mage-Hammer of Might]]
+| {{rare|rainbow}}
+| {{rare|16}}
+|}
+{{collapse bottom}}
+*[[Alchemical Flask]] and [[Plague Hive]]'s Plague Seekers now produce less dust, and attacking while either is equipped now inflicts [[Plague]] for 2 seconds instead of 3.
+*Renamed Calamity Biome Spawner to [[Calamity Spawner]], and it now spawns all Calamity ores.
+*Reworked [[Eye of the Storm]], [[Pearl of Enthrallment]], [[Rare Waifu in a Bottle]], and [[Waifu in a Bottle]] into [[coverings]] that summon their respective elementals when equipped, instead of summon weapons.
+*Using [[Celestial Onion]] or [[Demon Trophy]] while a boss is alive no longer causes the player to drop all their items.
+*[[Overloaded Sludge]] no longer uses a [[Slime Crown]] in its recipes, it now uses 25 [[Blighted Gel]] instead of 50 in its Blighted Gel recipe, and it now uses 25 [[Purified Gel]] instead of 20 in its Purified Gel recipe.
+*Renamed Lure of Enthrallment to Pearl of Enthrallment, and it now uses {{rare|5}} rarity instead of {{rare|7}}.
+*Changed [[Yharim's Gift]]'s defense and damage boosts while in the [[Jungle]] from 25% each to 30% and 15% respectively, buffed its Dragon Dust damage from 150 to 350, and buffed its Sky Flare damage from 300 to 750.
+
+==== Weapons ====
+*Tweaked the lighting for [[Abyss Blade]]'s orbs.
+*[[Adamantite Throwing Axe]] no longer bounces or inflicts [[Bleeding]].
+*Buffed [[Ark of the Elements]]' damage from 70 to 84.
+*[[Astral Blaster]] now produces less dust.
+*[[Charged Dart Blaster]] changes:
+**Now has a right click ability that fires bouncing energy blasts.
+**Left click projectiles no longer bounce.
+**Nerfed use time from 22 to 24.
+*Buffed [[Cosmic Rainbow]]'s damage from 65 to 100.
+*[[Diseased Pike]] and [[Pandemic]]'s Plague Seekers now produce less dust.
+*Nerfed [[Dragon Rage]]'s shot speed from 20 to 14, and it now shoots a spread of five Draconic Wave projectiles instead of a large blast of flames.
+*Nerfed [[Elemental Axe]]'s damage from 550 to 250, and they now set target immunity frames to 3.
+*Nerfed [[Elemental Eruption]]'s damage from 59 to 50.
+*Buffed [[Elemental Lance]]'s shot speed from 10 to 12.
+*[[Galaxia]] now uses item105 instead of item1 for its use sound.
+*Nerfed [[Genisis]]' damage from 129 to 120.
+*Nerfed [[Golden Eagle]]'s damage from 65 to 58, and its use time from 4 to 6.
+*Decreased the amount of dust [[Greatsword of Judgement]] produces.
+*Nerfed [[Hellwing Staff]]'s damage from 27 to 23.
+*[[The Hive]]'s Bee RPGs now produce less dust.
+*Buffed [[Magna Striker]]'s damage from 52 to 63.
+*Nerfed [[Meteor Fist]]'s damage from 18 to 15.
+*[[Nano Purge]]'s lasers now ignore [[Water]].
+*Nerfed [[Phoenix Blade]]'s damage from 43 to 30, and its use time from 26 to 28.
+*Buffed [[Phoenix Flame Barrage]]'s shot speed from 15 to 20.
+*[[Shredder]] changes:
+**Now uses Charged Dart Blaster in its recipe.
+**Now has a right click ability that fires bouncing, exploding blasts.
+**Left click now fires bouncing blasts that split into dozens of smaller projectiles, instead of directly using the player's ammo type.
+*Buffed [[Soul Piercer]]'s damage from 95 to 110.
+*Decreased the size of [[Tears of Heaven]]'s dust.
+*[[Terratomere]]'s beams no longer produce any dust idly, now use dust type 107 instead of 74, and have a green color filter.
+
+=== Other ===
+*All Calamity ores now spawn on world generation instead of after killing certain bosses.
+
+=== Resprites ===
+*Resprited [[Abyss Blade]], [[Apoctosis Array]], [[Ark of the Cosmos]], Ark of the Elements, [[Augur of the Elements]], [[Depth Blade]], Dragon Rage, Earth, Elemental Axe, [[Elemental Disk]], Elemental Eruption, Elemental Lance, Elemental Ray, Elemental Shiv, Pearl of Enthrallment, Phoenix Flame Barrage, and Profaned Trident.
+*Resprited Earth's RGB meteors.
+
+== Fixes ==
+*Fixed [[Holiday Halberd]]'s projectiles not dealing melee damage.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

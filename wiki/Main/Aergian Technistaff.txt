@@ -1,0 +1,37 @@
+{{Addon|Hypnos in Calamity}} 
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = summon
+| damage = 127
+| mana = 28
+| stack = 1
+| tooltip = Summons an orbital Aergia Neuron<br/>Holding right click causes the orbit to accelerate<br/>Once fully charged, the ring can be thrown to chase enemies
+| knockback = 0
+| velocity = 0
+| rare = 15
+| sell = {{value|0|30}}
+| use = 6
+| hardmode = yes
+| postml = yes
+| proj=Small Aergia Neuron.png
+| projcaption=Small Aergia Neuron
+| proj2=Blue Exo Pulse Laser.gif
+| proj2caption=Blue Exo Pulse Laser
+| element1 = Holy
+| element2 = Electricity
+}}
+|{{item drops infobox
+|[[XP-00 Hypnos]]|1|100%
+}}
+}}
+
+The '''Aergian Technistaff''' is a Godseeker Mode [[summon weapon]] dropped by [[XP-00 Hypnos]]. When used it summons an [[Aergia Neuron]] to orbit the player. Aergia Neurons rapidly shoot homing exo pulse lasers towards targets. While holding right click, the neurons will stop shooting and start accelerating in orbit speed. After approximately 5 seconds of charging, the neurons begin connecting themselves with lightning cables. When fully charged, releasing right click will throw out the ring of neurons and the ring will chase enemies, dealing significant contact damage.
+
+{{Modifier|summon}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon= yes
+}}

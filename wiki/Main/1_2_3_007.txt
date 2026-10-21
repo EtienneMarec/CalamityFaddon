@@ -1,0 +1,109 @@
+{{Patch infobox
+| image = Profaned Guardian (1.1.7).png
+| patchname = Providence's Guardians Rework
+| release = 12/7/2017
+}}
+
+The '''1.2.3.007''' update reworked [[Providence, the Profaned God]]'s [[Profaned Guardians]] (Now named A Dunkin' Donut), made changes to [[Plantera]], and added a few items.
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+*Added a second variant of the [[Aquatic Aberration]] which spawns naturally.
+*Added [[Ancient Ice Chunk]], [[Heavenly Gale]].
+*Added [[Supreme Bait Tackle Box Fishing Station]].
+*Added [[Ice Clasper (buff)]].
+
+== Changes ==
+
+=== [[Bosses]] and [[Enemies]] ===
+
+==== [[Calamitas]] ====
+*Nerfed [[Cataclysm]]'s health from {{dv|4500|7200|10,400}} to {{dv|3500|5600|8800}}.
+*Nerfed [[Catastrophe]]'s health from {{dv|4000|6400|9280}} to {{dv|3000|4800|7680}}.
+*Cataclysm and Catastrophe no longer classify as bosses, and thus no longer drop [[Greater Healing Potion]]s or have death messages.
+
+==== [[The Destroyer]] ====
+*Increased speed as its health lowers.
+*Buffed [[Probe]]'s health in [[Death Mode]] from {{death|375}} to {{death|450}}, and their damage from {{death|100}} to {{death|120}}.
+
+==== [[Plantera]] ====
+*Nerfed [[Plantera]]'s speed when she is enraged to prevent her from despawning.
+*Tentacles now fire Spores in Revengeance and Death Mode.
+*Now fires thorn balls occasionally in phase 2 in Death Mode.
+*Now has a cap of 25 tentacles at a time, and 20 Spores at a time.
+
+==== [[Providence, the Profaned God]] ====
+*Renamed each of [[Providence, the Profaned God]]'s guardians from "A Profaned Guardian" to "A Dunkin' Donut".
+*Now summons all 3 of her guardians at once for every 30% of her health lost.
+*Providence now stops attacking as much when her guardians are alive.
+*Now switches between phases twice as often in Death Mode.
+*Now becomes invincible if any guardian is alive.
+*Nerfed defensive variant of A Dunkin' Donut's health from {{dv|30,000|42,000}} to {{dv|20,000|28,000}}.
+*Buffed offensive variant of A Dunkin' Donut's health from {{dv|40,000|56,000}} to {{dv|50,000|70,000}}.
+*The defensive variant of A Dunkin' Donut can now fire a barrage of spears going in multiple directions.
+*The healer variant of A Dunkin' Donut can now fire a cluster of homing orbs which negatively heal the player upon contact.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Phase 3's charge is now more ruthless.
+*Nerfed [[Cosmic Lantern]]'s health from {{dv|6000|8400}} to {{dv|4000|5600}}.
+
+==== [[Siren and Leviathan]] ====
+*The Siren's [[Ice Shield]] now inflicts [[Frostburn]] for 3.5 seconds instead of [[Frozen]] for 1 second.
+*Buffed [[Aquatic Aberration]]'s health from {{dv|900|1260}} to {{dv|1500|2100|0|4200}}.
+*[[Aquatic Aberration]]s are now completely immune to knockback. 
+*[[Siren Clone]]s can now only fire water spears instead of all of the Siren's projectiles.
+*Buffed Siren Clone's water spear damage from {{dv|46|80|100|120}} to {{dv|68|112|140|168}}.
+*Siren Clones are now more aggressive.
+
+==== [[Wall of Flesh]] ====
+*[[The Hungry II]]'s can now pass through tiles in Death Mode.
+*Buffed The Hungry II's health in Death Mode to {{death|392}}, and their damage to {{death|111}}.
+*The Hungry IIs now gain a 2.5x health modifier and a 1.35x damage modifier in all other modes.
+*Buffed [[Leech]]'s health in Death Mode to {{death|240}}, and it gains a {{death|1.5x}} damage modifier.
+*Leeches now gain a 2.1x health modifier and a 1.25x damage modifier in all other modes.
+
+==== Other ====
+
+*[[Stress]] is now increased by several other Calamity bosses.
+*[[The Devourer of Gods]] phase 2's body segments now only resist 50% of damage from infinitely piercing projectiles instead of 60%.
+*[[Ice Clasper]]s now only have a chance to inflict [[Glacial State]] for 0.5 seconds instead of always inflicting it for 0.83 seconds.
+*[[Ice Queen]]s now drop 20-41 [[Endothermic Energy]] instead of 10-21.
+*Buffed [[Parasea]]'s health from {{dv|300|420}} to {{dv|500|700}}.
+*Paraseas can now spawn naturally in the [[Ocean]] after [[Plantera]] has been defeated.
+*Nerfed [[Profaned Energy]]'s health from {{dv|28,000|56,000}} to {{dv|10,000|20,000}}.
+*Only one Profaned Energy can exist at a time now.
+*Nerfed [[Scorn Eater]]'s health from {{dv|23,000|46,000}} to {{dv|12,000|24,000}}.
+
+=== Items ===
+*[[Angel Treads]] and [[Seraph Tracers]] now have equipped boot sprites.
+*Nerfed [[Animosity]]'s damage from 28 to 25.
+*Nerfed [[Cosmilamp]]'s damage from 230 to 150, made the Cosmilamp minions deal damage 4 times less often, and made each one take 2 minion slots.
+*Lowered [[Exoblade]]'s use time from 16 to 14.
+*Buffed [[Flare Bolt]]'s damage from 23 to 25.
+*[[Magnetic Meltdown]]'s projectiles now last shorter.
+*[[Reaver Shark]] now has a tooltip specifying it can't be swung until [[Eater of Worlds]] or [[Brain of Cthulhu]] has been defeated.
+*[[Siren's Heart]]s now grant extra life regeneration and defense in Hardmode and after the [[Moon Lord]] has been defeated.
+*Made the notes from [[Siren's Song]] smaller.
+*[[Yharon's Kindle Staff]]'s Sons of Yharon now move twice as fast, but spawn flares 3 times less often.
+
+=== Other ===
+*Reduced dust on certain projectiles.
+
+=== Resprites ===
+*Resprited [[Devourer of Gods Mask]].
+*Resprited [[Victory Shard]].
+*Resprited [[Exoblade]], [[Nebulash]], [[Vivid Clarity]].
+*Resprited [[The Devourer of Gods]] phase 2's head, [[Plaguebringer]].
+*Reverted [[Earth]]'s sprite.
+
+=== Fixes ===
+*Fixed a bug caused when using [[Atlantis]].
+*Removed some gray pixels on [[Daedalus Hood]]'s item sprite.
+*Fixed a bug which caused [[Jungle Dragon, Yharon]] to become near invincible in multiplayer.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

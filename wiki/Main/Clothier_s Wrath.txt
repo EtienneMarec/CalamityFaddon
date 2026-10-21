@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 38
+| mana = 15
+| knockback = 3
+| velocity = 6
+| rare = 4
+| tooltip = Shoots 3 shadowflame skulls
+| sell = {{value|0|2|40}}
+| use = 22
+| stack = 1
+| hardmode = yes
+| debuff = Shadowflame
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| debufftip = Losing life
+| proj = Shadowflame Skull.gif
+| projcaption = Shadowflame Skull
+| element1 = Dark
+}}
+|{{item drops infobox
+|[[Clothier]]|1|100% (In [[Hardmode]])
+}}
+}}
+'''Clothier's Wrath''' is a [[Hardmode]] [[magic weapon]] that drops from the [[Clothier]]. When used it fires three shadowflame skulls that pierce four times and inflict the [[Shadowflame]] [[debuff]]. Each skull cannot pass through blocks and will explode after traveling a short distance.
+
+{{Modifier|magic}}
+
+== Trivia ==
+*The shadowflame skull projectiles fired have an identical sprite to the projectiles fired by the [[Clothier]].
+*It was formerly the [[rare variant]] of the [[Book of Skulls]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}

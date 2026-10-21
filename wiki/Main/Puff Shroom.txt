@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 14
+| use = 35
+| mana = 10
+| knockback = 2
+| tooltip = Summons a cute mushroom warrior to fight for you
+| stack = 1
+| auto = yes
+| rare = 2
+| research = 1
+| sell = {{value|0|0|40}}
+| buff = Puff Warrior (buff) | bufflink = no
+| proj = Puff Cloud.gif
+| projcaption = Puff Cloud
+| sound = Item 42.wav
+| soundtext = Use
+| element1 = Smash
+| element2 = Poison
+}}
+|{{item drops infobox
+| [[Crabulon]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Puff Warrior|type=minion}}
+
+The '''Puff Shroom''' is a [[Pre-Hardmode]] [[summon weapon]] dropped by [[Crabulon]]. It summons a Puff Warrior which stays grounded and follows the player. When a target is nearby, it attempts to jump towards the target, spawning three damaging puff clouds which move towards the target when the minion is jumping if the target is within a 22.5-tile radius.
+
+{{Modifier|summon}}
+
+== Trivia ==
+*The Puff Shroom's design draws inspiration from [https://hollowknight.fandom.com/wiki/Shrumal_Warrior Shrumal Warriors] from the game ''[[wikipedia:Hollow Knight|Hollow Knight]]''.
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}
+{{language info|en=Puff Shroom}}

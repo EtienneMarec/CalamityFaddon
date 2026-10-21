@@ -1,0 +1,45 @@
+{{dedicated|Hans Volter|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| tooltip = Fires large homing rockets that explode into more homing mini rockets when in proximity to an enemy
+| damagetype = Ranged
+| damage = 1000
+| use = 52
+| knockback = 7.50
+| critical = 12%
+| stack = 1
+| auto = true
+| hardmode = yes
+| postml = yes
+| rare = 14
+| velocity = 24
+| sell = {{value|0|28}}
+| proj = The Pack Missile.gif
+| projcaption = Homing Missile
+| proj2 = Minissile.gif
+| proj2caption = Minissile
+| element1 = Fire
+| element2 = Bomb
+}}
+[[File:The Pack (demo).gif|frame|The Pack’s multiple rockets and explosions dealing damage to a [[Super Dummy]] and five [[Target Dummy|Target Dummies]]. Notice how the smaller rockets home in on the Super Dummy, and that the large rocket doesn’t deal damage, only its explosion does.]]
+'''The Pack''' is a craftable Godseeker Mode [[launcher]] that fires a single large rocket upon use. The large rocket will explode within 10 tiles of an enemy, splitting into 5 smaller rockets that will home in on the nearest target. The explosions created upon impact have a large radius and also damage enemies. The large rocket can go through tiles.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The design and effect of the weapon are based off of the [https://www.destinypedia.com/Gjallarhorn Gjallarhorn], a weapon from Bungie's [[wikipedia:Destiny_(video_game)|Destiny]].
+*These rockets will not destroy tiles when used with [[Rocket II]] or [[Rocket IV]].
+*It also appears to be a reference to "the Exotic" from Enter the Gungeon as both weapons behave similarly.
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Launchers]]

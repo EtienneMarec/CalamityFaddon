@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = Rogue
+| damage = 122
+| knockback = 4
+| velocity = 20
+| rare = 13
+| tooltip = Slice ‘n dice<br/>Stealth strikes throw four at once
+| sell = {{value|0|26}}
+| use = 21
+| stack = 1
+| hardmode = yes
+| postml = yes
+| debuff = Crush Depth
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| debufftip = Aquatic pressure
+| element1 = Poison
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Reaper Shark]]|1|10%
+}}
+}}
+{{dablink|Not to be confused with the [[tgc:Reaper|Reaper]], an enemy that spawns during the [[Solar Eclipse]].}}
+
+'''The Reaper''' is a Godseeker Mode [[rogue weapon]] that drops from [[Reaper Shark]]s. When fired, it throws out a reaper scythe that homes in onto [[enemies]]. Each reaper scythe will hit an enemy twelve times before disappearing, inflicting the [[Crush Depth]] [[debuff]] onto enemies.
+
+Performing a [[stealth strike]] with The Reaper will cause four scythes to be thrown instead of one.
+
+{{Modifier|rogue}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+== Trivia ==
+*It was formerly the [[rare variant]] of the [[Valediction]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue= yes
+}}
+[[Category:Boomerangs]]

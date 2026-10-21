@@ -1,0 +1,33 @@
+{{npc infobox
+| type = Enemy
+| environment = Surface
+| ai = Unicorn AI
+| damage = {{dv|18|36}}
+| life = {{dv|60|120}}
+| defense = 4
+| knockback = {{dv|70%|73%}}
+| debuff = Bleeding
+| debuffchance = 100%
+| debufftip =  Cannot regenerate life
+| duration = 3 seconds
+| banner = yes
+| immune1 = Kami Flu
+| money = {{sc|2}}
+| Rotten Dogtooth|1|12.5%
+| Adhesive Bandage|1|{{dv|1%|2%}}
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_5.wav
+| vulnerable1 = Machine
+}}
+
+The '''Rotdog''' is a [[Pre-Hardmode]] [[enemy]] that spawns on the [[Surface]] at [[Night]] after the [[Eye of Cthulhu]] has been defeated. It has the same AI as the [[Unicorn]], charging and ramming into the player at high speeds. This, along with their ability to inflict [[Bleeding]], makes them a dangerous enemy for unprepared players.
+
+== Trivia ==
+*The Rotdog's name is a play on the words, "rot" and "hotdog".
+**This is because when Rotdogs are processed into meat they are especially delicious.
+*The Rotdog was previously named ''Pitbull''.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

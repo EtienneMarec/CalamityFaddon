@@ -1,0 +1,28 @@
+{{item infobox
+| type = Furniture
+| tooltip = When placed down, nearby players have their movement speed and crit chance increased by 10%<br/>Nearby players also suffer a 5% decrease to their damage reduction
+| sell = {{value|0|1|80|0}}
+| rare = 3
+| color = #EE9169
+| stack = 9999
+| placeable = yes
+| consumable = yes
+| auto = yes
+| use = 14
+| width = 2
+| height = 4
+| buff = Corruption Effigy (buff) | bufflink = no
+| bufftip = The corruption empowers you
+| duration = Infinite (while in vicinity)
+| boxwidth = 23em
+}}
+
+The '''Corruption Effigy''' is a [[Pre-Hardmode]] [[effigy]] item found in the Corruption [[shrine]]. When placed down, all players nearby will receive a 10% movement speed boost as well as a 10% increase to crit chance, but all players nearby will have their DR reduced by 5%, potentially bringing it below 0%
+
+== Notes ==
+*The Corruption Effigy is the counterpart to the [[Crimson Effigy]], trading a movement speed and crit chance boost with a damage reduction penalty for a damage and defense boost with a health penalty.
+{{-}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

@@ -1,0 +1,30 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| stack = 1
+| rare = 1
+| sell = {{value|0|0|20}}
+| tooltip = Makes Stealth strikes inflict Armor Crunch, deal 10% more damage and cost 1 less unit of stealth.
+| debuff = Armor Crunch
+| debuffchance = 100%
+| debuffduration = 3 seconds (Stealth strikes)
+| debufftip = Your armor is shredded
+}}
+|{{item drops infobox
+| [[Rotdog]] | 1 |  12.5%
+}}
+}}
+
+The '''Rotten Dogtooth''' is a [[Pre-Hardmode]] [[covering]] that drops from [[Rotdog|Rotdogs]]. While equipped, [[stealth strike]]s inflict the [[Armor Crunch]] [[debuff]], deal 10% more damage, and cost 1 less unit of stealth.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

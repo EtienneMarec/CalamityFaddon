@@ -1,0 +1,46 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 300
+| auto = yes
+| use = 12
+| knockback = 9
+| damagetype = Melee
+| rare = 10
+| tooltip = Lunar flares rain down on enemy hits
+| sell = {{value|0|20}}
+| velocity = 18
+| stack = 1
+| debuff = Moon Burnt
+| debuffchance = 100%
+| debuffduration = 4 seconds (Hammer during night)
+| debufftip = Incinerated by lunar rays
+| hardmode = yes
+| postml = yes
+| proj = Lunar Flare (projectile).gif
+| projcaption = Lunar Flare
+| element1 = Magic
+| element2 = Dark
+| element3 = Smash
+}}
+
+The '''Stellar Contempt''' is a craftable Godseeker Mode [[boomerang]]. It repeatedly throws high velocity hammers at a medium range, which can pass through tiles. Upon contact with a target, lunar flares will rain down onto the target. If it is nighttime, the hammer itself will inflict the [[Moon Burnt]] [[debuff]] on every enemy it strikes.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+
+{{PureLuminite}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+
+[[Category:Boomerangs]]

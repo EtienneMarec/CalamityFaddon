@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 42
+| auto = yes
+| use = 24
+| mana = 10
+| knockback = 2
+| damagetype = summon
+| tooltip = Summons an aquatic star to fight for you
+| buff = Aquatic Star (buff) | bufflink= no
+| bufftip = The aquatic star will protect you
+| rare = 5
+| sell = {{value|0|7|20}}
+| stack = 1
+| hardmode = yes
+| element1 = Water
+| element2 = Smash
+}}
+|{{item drops infobox
+| [[Aquatic Scourge]]|1|{{dv|20%|25%}}
+}}
+}}
+{{summoned|Aquatic Star|type=minion}}
+
+The '''Deepsea Staff''' is a [[Hardmode]] [[summon weapon]] dropped by the [[Aquatic Scourge]]; it is an indirect upgrade to the [[Seabound Staff]]. It summons an aquatic starfish that protects the player by performing dashes into [[enemies]], dealing damage on contact.
+
+{{Modifier|summon}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

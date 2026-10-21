@@ -1,0 +1,15 @@
+<includeonly>{{#invoke:Recipes|query|lang={{{lang|{{lang}}}}}}}</includeonly><noinclude><!--
+
+-->{{#cargo_declare:_table=Recipes
+|result=String
+|resultimage=String<!-- result image, if it's not <result>.png -->
+|resulttext=String<!-- result display text, if it's different from result -->
+|amount=Integer
+|historical=Boolean
+|station=String
+|ingredients=List (^) of String <!-- ingredients list. Used for query -->
+|ings=String (size=600)<!-- string represention of sorted ingredients list. Used for equality determination -->
+|args=text <!-- ingredients info, used for rebuild ingredients list -->
+}}<!--
+
+-->{{i18n-ready}}{{lua}}{{doc}}</noinclude>

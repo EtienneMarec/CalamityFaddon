@@ -1,0 +1,80 @@
+{{item infobox
+| type = Armor
+| defense = 63
+| rare = 9
+| sell = {{value|0|19|20}} (set)
+| proj = Astral Star.png
+| projcaption = Astral Star
+| proj2 = Fallen Star (Calamity).png
+| proj2caption = Fallen Star
+| proj3 = Hallow Star.png
+| proj3caption  = Hallowed Star
+| setbonus = 5% increased movement speed and +3 max minions<br/>35% increased damage and 25% increased critical strike chance<br/>Whenever you crit an enemy fallen, hallowed, and astral stars will rain down<br/>This effect has a 1 second cooldown before it can trigger again
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 2 seconds (Astral stars)
+| hardmode = yes
+}}
+
+[[File:Astral Armor (demo).gif|frame|A [[Megashark]] triggering Astral armor's set bonus. Critical hits done by weapon bring down a few stars.|312x312px]]
+
+'''Astral armor''' is a [[Hardmode]] [[Covering]] set crafted from [[Astral Bar]]s and [[Meteorite Bar]]s. It requires 30 Astral Bars and 23 Meteorite Bars to craft the entire set. Astral armor is unique because it permanently grants the effects of [[Dangersense Potion|Dangersense]], [[Hunter Potion|Hunter]], and [[Spelunker Potion]]s while it is equipped, allowing its wearer to see all nearby creatures, treasure, ores, and traps. If all three pieces of Astral armor are visible (whether equipped or in vanity slots), the player will have afterimages following them.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*63 defense
+*35% increased damage
+*25% increased critical strike chance
+*15% increased movement speed
+*+80 max mana
+*+20 max life
+*+3 max minions
+*Creature, treasure, ore, and danger detection
+*With a 1-second cooldown, [[critical hit]]s will cause three stars - fallen, hallowed and astral - to rain down on the target that deal 120 damage.
+**Fallen stars decrease their damage by 6.25% each time they strike an enemy.
+**Astral stars inflict the [[Astral Infection (debuff)|Astral Infection]] [[debuff]] for 2 seconds.
+**Hallowed stars go through blocks but disappear upon striking an enemy.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Astral Helm
+| type = Armor
+| defense = 17
+| body slot = Helmet
+| tooltip = Danger detection
+| sell = {{value|0|8}}
+}}
+|{{item infobox
+| name = Astral Breastplate
+| type = Armor
+| defense = 25
+| body slot = Shirt
+| tooltip = +80 max mana and +20 max life<br/>Creature detection
+| sell = {{value|0|6|40}}
+}}
+|{{item infobox
+| name = Astral Leggings
+| type = Armor
+| defense = 21
+| body slot = Pants
+| tooltip = 10% increased movement speed<br/>Treasure and ore detection
+| sell = {{value|0|4|80}}
+}}
+}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result=LIKE Astral Helm/Astral Breastplate/Astral Leggings}}
+
+== Notes ==
+*Stars are only generated from enemies that have a damage stat of 5 or higher, with the exception of enemies spawned from [[statues]].
+
+== Tips ==
+*This armor has significantly lower bonuses for the summoner class relative to other classes, as minions cannot benefit from critical strike chance increases. This results in the stars not spawning from minions.
+**However, with the addition of whips in 1.4 versions of the mod and due to the high damage boost, minion slots and movement speed increase that this armor provides, it can be still be efficient, especially for hybrid builds.
+{{Astral}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

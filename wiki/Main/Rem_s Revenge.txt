@@ -1,0 +1,50 @@
+{{dedicated|Yuko|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| tooltip = Wielded by the most powerful fighter.<br/>Summons blood explosions and lowers enemy defense on hit
+| damage = 375
+| use = 15
+| knockback = 10
+| velocity = 12
+| rare = 10
+| sell = {{value|0|20}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| debuff = Wither | debufflink = no
+| debuffchance = 100%
+| debuffduration = 4 seconds (Flail)
+| debufftip = Withered...<br/>Defense reduced by 20
+| debuff2 = Burning Blood
+| debuffchance2 = 100%
+| debuffduration2 = 1 second (Explosion)
+| debufftip2 = Your blood is on fire
+| proj = Rem's Revenge Flail.png
+| projcaption = Rem's Revenge
+| element1 = Dark
+| element2 = Fire
+| element3 = Smash
+}}
+{{dablink|"Wither" redirects here. For the Withered [[enchantment]] and its associated [[debuff]], see [[Withered|here]].}}
+
+The '''Rem's Revenge''' is a craftable Godseeker Mode [[flail]]. It throws out a gravity-defying spike ball that travels through solid tiles. Upon travelling far enough or on contact with 4 targets, the flail returns to the player. On hit, the flail inflicts the '''Wither''' [[debuff]] which reduces enemy [[defense]] by 20. The first five hits spawn a blood explosion which deals 50% of the weapon's damage and inflicts the [[Burning Blood]] debuff.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon references the character Rem from ''[[wikipedia:Re:Zero − Starting Life in Another World|Re:Zero]]''.
+
+== See also ==
+*[[Ram's Revenge]], the magic counterpart to Rem's Revenge.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Flails]]

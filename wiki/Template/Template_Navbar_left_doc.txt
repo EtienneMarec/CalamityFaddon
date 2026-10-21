@@ -1,0 +1,19 @@
+Helper template to create the view/dicuss/edit buttons on the top left of a navbox:
+
+== Usage ==
+<pre>{{navbar/left|template name}}</pre>
+
+Remember to use the place holder <nowiki>{{navbar/right}}</nowiki> to center the title.
+
+== example ==
+{| class="terraria collapsible" style="width:50%"
+!{{navbar/left|Master Template Characters}}Master Template Characters{{navbar/right}}
+|-
+|blablabla
+|}
+
+<includeonly>
+[[Category:Templates]]
+</includeonly><noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

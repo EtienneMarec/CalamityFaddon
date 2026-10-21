@@ -1,0 +1,52 @@
+{{dedicated|Graydee|Developer}}
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 400
+| pick = 300
+| knockback = 9
+| rare = 16
+| tooltip = Gotta dig faster, gotta go deeper<br/>Right click to swing normally
+| critical = 29%
+| use = 2
+| toolspeed = 2
+| bonus = +50 range
+| velocity = 14
+| sell = {{value|0|40}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Crystyl Crusher Ray.gif
+| projcaption = Crystyl Ray
+}}
+[[File:Crystyl Crusher (demo).gif|frame|right|Crystyl Crusher's left click function damaging a [[Target Dummy]] and destroying [[Stone Slab]]s.]]
+The '''Crystyl Crusher''' is a craftable Epilogue [[developer]] [[pickaxe]]. When used, it fires a beam capable of destroying any block in a radius near the end of its tip that moves along with the mouse cursor. The beam takes about 1.67 seconds to charge up, and has a reach of 15 blocks. The color of the beam alternates between magenta and blue. Right-clicking with the Crystyl Crusher will cause it to function as a normal pickaxe without a swing animation.
+
+Speed modifiers have no effect on this pickaxe, so its best [[modifier]] is '''Massive''' for harvesting purposes, and '''Godly''' for combat purposes.
+
+== Crafting ==
+=== Recipe ===
+{| align=top
+|{{recipes|view=infobox|result={{PAGENAME}}}}
+|}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Crystyl Crusher is the only pickaxe in the mod capable of mining the [[Arena Block]]s spawned by Supreme Calamitas.
+
+== Trivia ==
+*This weapon actually has a unique [[Rarity]] but is referred here as Hot Pink rarity for consistency between weapons.
+**This unique rarity appears as a dark purple ({{color|#811D95 ●|#811D95}}) color.
+*This weapon is Graydee's developer item, serving as a reference to their mod, [https://forums.terraria.org/index.php?threads/crystilium-mod.44558/ Crystilium] (including the misspelled "crystal" in the name).
+*If the mod of redemption is on, this pickaxe is able to mine corium, meaning you can craft the unobtainable weapons that require corium.
+{{-}}
+{{Shadowspec}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

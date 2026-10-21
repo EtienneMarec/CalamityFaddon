@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = ranged
+| damage = 129
+| knockback = 3
+| rare = 13
+| sell = {{value|0|26}}
+| stack = 1
+| velocity = 16
+| auto = yes
+| use = 6
+| tooltip = 40% chance to not consume ammo<br/>Has a chance to release rotten chunks instead of bullets
+| debuff = Sulphuric Poisoning
+| debuffchance = 100%
+| debuffduration = 1 second (Chunk)
+| debufftip = The acidic water burns away your flesh
+| hardmode = yes
+| postml = yes
+| proj = Rotten Gore.png
+| projcaption = Rotten Gore
+| element1 = Poison
+| element2 = Water
+| element3 = Unholy
+}}
+|{{item drops infobox
+|[[Mauler]]|1|{{dv|25%|33.33%}}
+}}
+}}
+The '''Fetid Emesis''' is a Godseeker Mode [[gun]] that is dropped by [[Mauler]]s. It rapidly fires bullets and has a small chance of firing a slow-moving rotten chunk that sticks to enemies, damaging them and inflicting the [[Sulphuric Poisoning]] debuff.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

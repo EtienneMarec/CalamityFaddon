@@ -1,0 +1,45 @@
+{{dedicated|BakaQing|Patreon Donator}}
+{{item infobox
+| boxwidth = 22em
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = melee
+| tooltip = Summons an energy explosion on enemy hits<br/>Right click to summon an energy shell for a few seconds that halves all damage sources<br/>This has a 45 second cooldown
+| damage = 323
+| knockback = 5.5
+| rare = 13
+| buy = {{value|1|40}}
+| sell = {{value|0|26}}
+| use = 14
+| hardmode = yes
+| postml = yes
+| debuff = Electrified
+| debuffchance = 100%
+| debuffduration = 3 seconds (Explosion)
+| debufftip = You cannot move
+| debuff2 = Energy Shell Cooldown | debufflink2 = no
+| debuffduration2 = 45 seconds (After usage)
+| debufftip2 = Your energy shell is recharging
+| image2 = Lion Heart Energy Shell.png
+| image2caption = Energy Shell
+| element1 = Slash
+| element2 = Electricity
+| element3 = Machine
+}}
+
+The '''Lion Heart''' is a Godseeker Mode [[true melee]] [[broadsword]] that is sold by the [[Cyborg]] NPC for {{pc|1}} {{gc|40}} after [[Polterghast]] has been defeated. When swung, an energy explosion is created on every enemy hit, dealing an additional 100% of the weapon's damage and inflicting the [[Electrified]] [[debuff]]. When used with the right-click, an energy shell is created around the player that halves all damage for 5 seconds while the weapon is held, with a 45-second cooldown after the shield runs out.
+
+{{modifier|melee}}
+
+== Trivia ==
+*The weapon is based off the [https://finalfantasy.fandom.com/wiki/Lion_Heart_(weapon) Lion Heart], a "Gunblade" from ''[[wikipedia:Final Fantasy VIII|Final Fantasy VIII]]'' and ''[[wikipedia:Final Fantasy XIV|Final Fantasy XIV]]''.
+**The right click effect is based off a skill Gunbreakers can use in Final Fantasy XIV, called Superbolide, which negates all damage taken for a short time at the cost of reducing the user's HP to 1.
+**The energy explosions are based off the fact that Gunblades can release a large explosion on hit with a pull of its trigger.
+{{-}}
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]

@@ -1,0 +1,53 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damage = 75
+| use = 8
+| damagetype = Spy
+| knockback = 5
+| auto = yes
+| velocity = 17
+| stack = 1
+| rare = 8
+| sell = {{value|0|10|0|0}}
+| tooltip = Throws a chained needle to gouge your enemies<br/>Up to 3 can be out at a time<br/>{{Key|open}} to throw out a stinger to inflict a horrible doom<br/>Stealth strike throws out all 3 needles at once and grapple struck enemy to you
+| debuff = Plague
+| debuffduration = 2 seconds (Needles)
+| debufftip = Rotting from the inside
+| debuff2 = Whispering Death
+| debuffduration2 = 3 seconds (Stinger)
+| debufftip2 = Death approaches; defense, movement speed, attack power and life regen reduced
+| debuff3 = Marked
+| debuffduration3 = 5 seconds (Stealth Strike Needles)
+| debufftip3 = Damage Reduction Reduced
+| hardmode = yes
+| element1 = Poison
+| element2 = Stab
+}}
+{{item drops infobox
+| [[The Plaguebringer Goliath]] | 1 | {{dv|25%|33.33%}}
+}}
+
+The '''Death-Needle Stinger''' is a [[Hardmode]] [[Spy weapons|Spy Weapon]] dropped by [[The Plaguebringer Goliath]]. Upon use, throws out a chained needle that returns back to the player after a certain distance. Upon hitting an enemy, the needle will be stuck, dealing continuous damage. Up to 3 needles could be out at once, and going too far retracts the needles. The needles also retracts after a given time has passed. Additionally, the needles inflicts the [[Plague]] debuff.
+
+{{Key|open}} throws out a stinger that, like the needles, returns back after a certain distance, albeit at a much shorter distance. However, it also returns back after hitting an enemy, and inflicting the [[Whispering Death]] debuff in the process. This has a cooldown of 10 seconds.
+
+Performing a stealth strike makes the needles deal 200% its damage, be much closer together, and grapples the struck enemy to the player. Hitting the enemy in this state with the stinger attack knocks them back harder, and deals 300% its damage. Additionally, they also inflict the [[Marked]] debuff on top of the usual debuff. If the struck enemy is instead a boss, then the player is grappled to said boss instead, and its alternate attack instead knocks the player a fair distance away.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*There is a 1/400 chance that upon performing a stealth strike with this weapon, the player will say "Get over here!", along with a sound effect to accompany it.
+== Trivia ==
+*Its name is directly inspired by the [[wikipedia:Deathstalker|Deathstalker]] Scorpion, one of the most dangerous species of scorpions ever recorded.
+*Its stealth strike directly references [https://mortalkombat.fandom.com/wiki/Hanzo_Hasashi Hanzo Hasashi], better known as '''Scorpion''', from the [[wikipedia:Mortal_Kombat|Mortal Kombat]] franchise, while its alternate attack instead directly references [https://cookierun.fandom.com/wiki/Scorpion_Cookie Scorpion Cookie] from the [[wikipedia:Cookie_Run|Cookie Run]] franchise, more specifically [https://cookierun.fandom.com/wiki/Cookie_Run:_OvenBreak CookieRun: Ovenbreak].
+**The quote that happens rarely upon performing a stealth strike further cement the former's reference even more.
+
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}

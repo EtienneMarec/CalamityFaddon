@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 10
+| knockback = 0
+| use = 20
+| stack = 1
+| tooltip = Fires a concentrated laser to annihilate your foes<br/>Defeated enemies explode into prism shards
+| mana = 5
+| rare = 2
+| velocity = 14
+| sell = {{value|0|0|40}}
+| proj = Sparkling Beam.png
+| projcaption = Sparkling Beam
+| proj2 = Aquashard.png
+| proj2caption = Aquashard
+| element1 = Water
+| element2 = Stab
+}}
+
+The '''Sparkling Empress''' is a [[Pre-Hardmode]] [[magic weapon]] obtained by [[fishing]] in the [[Sunken Sea]] after defeating [[Desert Scourge]] with a 3% chance. When used, it briefly charges, then releases a concentrated light-blue laser that pierces infinitely. Upon killing an [[enemy]], they explode into two to three prism shards that shoot out in random directions, dealing 20% of the weapon's base damage.
+
+{{fantag|Catalyst}} Like other beam weapons, 1 point of [[Stamina]] will be removed for every second the weapon is being channeled.
+
+{{Modifier|magicnokb}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Sparkling Empress beam deals 70% damage to [[Creeper]]s and the [[Eater of Worlds]] in [[Expert Mode]].
+{{-}}
+{{Master Template Weapons
+ | show-main      = yes
+ | show-magic     = yes
+}}

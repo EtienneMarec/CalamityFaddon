@@ -1,0 +1,144 @@
+[[File:BiomeBannerSulphurousSea.png|center|460px]]
+The '''Sulphurous Sea''', also known as the '''Sulphur Sea''', is a [[biome]] added by the Calamity Mod which spawns upon world creation. It replaces the [[Ocean]] on the [[Dungeon]] side, and is located on top of the [[Abyss]]. Its water is turquoise colored, and it contains a hole leading to the Abyss.
+
+It is primarily composed of [[Sulphurous Sand]] that makes up multiple islands that generate at sea level, where [[Acidwood Tree]]s will grow when not covered by water. A series of caves composed of [[Sulphurous Sandstone]] and [[Hardened Sulphurous Sandstone]] will generate between the surface of the Beach and the Abyss, where [[Rusty Chest]]s can be found. [[Coral]], [[Seashell]]s and [[Starfish]] also grow faster in this biome, and many new decorative objects such as Corroded Fossils and Pillars will generate in the Sulphuric Caves.
+
+Dangerous Sulphuric Bubbles can generate above any Sulphuric Sand or Sandstone when they are covered by water. These bubbles can't hurt the player until they have reached their maximum size. They deal 20 damage and inflict [[Venom]] for 2 seconds. The water is also hazardous, inflicting [[Sulphuric Poisoning]] that grows more damaging the longer the player stays in it. [[Steam Geyser]]s also generate on the Beach, and will fire steam at the player if they walk over them.
+
+[[Acid Rain]] can start in this biome at any time after the [[Acidsighter]] has been defeated. Acid Rain will cause numerous new enemies to spawn throughout the game at multiple points of progression, many of which have new drops.
+
+The [[Acidsighter]] [[boss]] can be summoned here by using the [[Poisoned Sclera]] during night, the [[Aquatic Scourge]] can spawn here naturally (but very rarely) or can be summoned here by using [[Seafood]].
+
+== Contents ==
+{{biome
+|monsters=<nowiki />
+:{{item|Aquatic Parasite|size=25px}}
+:{{item|Aquatic Seeker|size=52px}}
+:{{item|Aquatic Urchin|size=35px}}
+:{{item|Catfish (enemy)|size=64px}}
+:{{item|Flounder|size=30px}}
+:{{item|Gnasher|size=40px}}
+:{{item|Silicic Slime|size=35px}}
+:{{item|Trasher|size=90px}}
+:{{item|note=(Critter)|Bloodworm|image=Bloodworm (critter).png}}
+
+'''If [[Acidsighter]] has been defeated:'''
+:{{item|Famine Slime|size=35px}}
+
+'''If [[Aquatic Scourge]] has been defeated:'''
+:{{item|Anthozoan Crab|size=38px}}
+:{{item|note=(Critter)|Baby Flak Crab|size=20px}}
+:{{item|Belching Coral|size=40px}}
+
+'''Bosses:'''
+:{{item|Acidsighter|size=100px}}
+:{{item|Aquatic Scourge|size=150px}}
+
+|drop=<nowiki />
+'''From [[Aquatic Urchin]]:'''
+:{{item|Urchin Stinger}}
+'''From [[Flounder]]:'''
+:{{item|Anechoic Coating}}
+'''From [[Trasher]]:'''
+:{{item|Trash Can (pet)}}
+'''From [[Catfish (enemy)]] and [[Trasher]]:'''
+:{{item|Diving Helmet}}
+'''From [[Gnasher]] in Hardmode:'''
+:{{item|Turtle Shell}}
+'''From [[Trasher]] in [[Hardmode]]:'''
+:{{item|Gatligator}}
+'''From [[Baby Flak Crab]]s caught with a [[Bug Net]]:'''
+:{{item|Geyser Shell}}
+'''From [[Anthozoan Crab]]s and [[Belching Coral]]s:'''
+:{{item|Corroded Fossil}}
+'''From [[Belching Coral]]s:'''
+:{{item|Belching Saxophone}}
+
+|drop2=<nowiki />
+'''From terrain:'''
+:{{item|Sulphurous Sand}}
+:{{item|Sulphurous Sandstone}}
+:{{item|Hardened Sulphurous Sandstone}}
+:{{item|Cactus}}
+:{{item|Acidwood|size=25px}}
+:{{item|Coral}}
+:{{item|Starfish}}
+:{{item|Seashell}}
+:{{item|Rusty Chest}}
+
+'''From [[Fishing]]:'''
+:{{item|Abyssal Crate|size=22px}}
+:{{item|Blobfish Plushie|size=22px}}
+:{{item|Abyssal Amulet|size=18px}}
+:{{item|Alluring Bait|size=22px}}
+:{{item|Planty Mush}}
+:{{item|Pink Jellyfish (bait)|size=18px}}
+:{{item|Red Snapper|size=28px}}
+:{{item|Shrimp|size=23px}}
+:{{item|Trout|size=28px}}
+:{{item|Tuna|size=28px}}
+
+'''From [[fishing]] after defeating [[Polterghast]]:'''
+:{{item|Front Gar}}
+
+|treasures=
+'''From [[Rusty Chest]]s:'''
+:{{item|Broken Water Filter}}
+:{{item|Effigy of Decay}}
+:{{item|Rusty Beacon Prototype}}
+:{{item|Rusty Medallion}}
+
+'''From [[Pot]]s:'''
+:{{item|Sulphuric Treasure}}
+
+|music=<nowiki />
+:{{item|Music Box (Sulphurous Sea)}}
+}}
+
+== [[Fishing]] ==
+When fishing in the Sulphurous Sea the player can catch [[Abyss]] related items, these depend on the player's [[Fishing Power|fishing power]], and are as follows:
+*[[Abyssal Crate]] - Can be caught with any fishing power.
+*[[Planty Mush]] - Can only be caught with 0 to 80 fishing power.
+**Planty Mush's coded requirement is actually 40 to 80. However, as this item replaces [[Junk]] catches in the Abyss, it is technically 0 to 80.
+*[[Alluring Bait]] - Can only be caught with 40 to 159 fishing power.
+*[[Abyssal Amulet]] - Can only be caught with 110 to 239 fishing power.
+*[[Front Gar]] - Can only be caught after defeating [[Polterghast]].
+
+== Notes ==
+{{float file box|[[File:Map Background Sulphurous Sea.png]]|Map Background.}}
+{{npc infobox
+| name = Microbial Cluster
+| boxwidth = 16em
+| type = Aquatic
+| environment = Sulphurous Sea
+| ai = Microbial Cluster AI
+| damage = 0
+| life = 5
+| defense = 0
+| knockback = 100
+| immuneall = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+*The [[Sulphurskin Potion]] and [[Sulphurous armor]] will reduce the damage taken from the sulphuric water. The [[Effigy of Decay]] will grant the player complete immunity to the sulphuric water.
+*Player-created Sulphurous Sea biomes are possible by placing more than 300 blocks of [[Sulphurous Sand]], [[Sulphurous Sandstone]], or [[Hardened Sulphurous Sandstone]] in an area.
+*The Sulphurous Sea biome is defined by world position rather than the blocks present, meaning that a Dungeon-side Ocean initially generated without Calamity installed will still be considered as a Sulphurous Sea, and contain all of its enemies and effects. An artificial Sulphurous Sea can also be created by using Sulphurous Sand.
+*For an unknown reason, the Sulphurous Sea can generate within another biome, resulting in no entrance to the Abyss.
+*The Suphurous Sea can also generate entirely underwater, making the biome much more dangerous.
+*[[Sulphurous Vines]] grow underneath blocks below the sea's surface, and emit a bright green light.
+*The [[Magic Conch]] will still teleport the player to the Sulphurous sea.
+*'''Microbial Clusters''' can also be found in the Sulphurous Sea. They are passive NPCs that spawn at any point in the game, and move around in random directions. They are invisible, but emit particles which glow a bright green light.
+
+== Tips ==
+*This area is very dangerous for early game players, as it houses several fast high-damage enemies, like the [[Trasher]], and the area's poisonous water will quickly drain an unprepared player's health.
+
+== Trivia ==
+*The [[Music|theme]] heard while in the Sulphurous Sea during the day is [https://www.youtube.com/watch?v=ASIPPu_LXmY '''wasteland'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**The [[Music|theme]] heard while in the Sulphurous Sea during the day is '''[https://youtu.be/rjz7PzDzOGE caustic tides]''', which was composed by the artist [https://www.youtube.com/@HeartPlusUp Heart Plus Up!] It is one of the few themes that was originally created for the [https://steamcommunity.com/sharedfiles/filedetails/?id=2816188633 Vanilla Calamity Mod Music] mod, before being added into the Calamity Mod proper.
+**If the Calamity Music add-on mod is disabled, the [[Desert]]'s theme will play instead.
+*The turquoise coloration of the water is representative of real life [[wikipedia:Ijen|volcanic]] [[wikipedia:Dallol_(volcano)|sulfuric]] [[wikipedia:Mount_Kusatsu-Shirane|lakes]].
+*The enemies found within the Sulphurous Sea are immune to almost all debuffs, possibly referencing their adaptation to the toxic environment.
+*Due to the urine-like coloration of the biome's water in previous versions of the mod, this biome has been known by the community as the "piss sea" or "piss ocean".
+
+{{Biomes}}

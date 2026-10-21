@@ -1,0 +1,46 @@
+{{item infobox
+| type = Potion
+| type2 = Crafting material
+| stack = 9999
+| tooltip = Major improvements to all stats<br/>'Such a delicacy could only be created with a dragon soul'<br/>Increases life regeneration<br/>Instantly heals the user to full health when used
+| consumable = Yes
+| rare = 15
+| use = 17
+| buff = Exquisitely Stuffed
+| bufftip = Major improvements to all stats<br/>{{expert|Major improvements to all stats and increased life regeneration}}
+| duration = 22 days
+| sell = {{value|0|0|0|0|0|1}}
+| hardmode = yes
+| postml = yes
+|debuff=Potion Sickness|debuffduration=60 seconds|debufftip=Cannot consume anymore healing items}}
+The '''Yharic Delight''' is a craftable consumable [[food item]], obtainable after defeating [[Jungle Dragon, Yharon]]. It heals the player to full health when used.
+
+Consuming a Yharic Delight while Yharon is alive will cause him to instantly explode. This counts as defeating Yharon, allowing the player to easily farm him for their desired drops.
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used in (Any Food Item)===
+{{recipes|ingredient=Any Food Item}}
+
+== Notes ==
+* Consuming the Yharic Delight while [[Godseeker, Yharim|Yharim]] is alive will cause him to enrage, increasing his damage and movement speed by 1%.
+* Attempting to consume the Yharic Delight while [[Crabulon]] is alive will cause it to replace all Yharic Delights in your inventory with [[Delicious Meat]].
+
+== Tips ==
+
+* Since Yharon drops both Yharon Soul Fragments and Yharim Bars in [[Expert Mode]] or higher, this item can essentially be duplicated by instakilling Yharon with it.
+* This item is best used with the [[Philosopher's Stone]] and its upgrades, as it allows for a full heal every 45 seconds while equipped.
+*In the [[get fixed boi]] seed, Yharon Soul Fragments can be obtained after beating [[The Devourer of Gods]]. Since the Devourer of Gods can also drop Yharim Bars, Yharic Delights can be crafted after killing him, meaning a normal Yharon fight can be skipped entirely. It is currently unknown whether this is intended by the developers.
+
+==Trivia==
+*The Yharic Delight is the strongest healing item in the game.
+** It also boasts the longest non-infinite buff duration of any buff item in the game.
+*The Yharic Delight is implied to be a competitor to the Delicious Meat.
+** This is supported by Crabulon, the creator of Delicious Meat according to the [[lore]], replacing Yharic Delights with Delicious Meat.
+**This is further supported by [[Draedon]]'s dialogue during the Exo Mechs fight when you use the Yharic Delight, in which he claims that the Delicious Meat is superior.
+*The item's sprite being the same as the [[Chicken Nugget]] is a reference to how Yharon is described as a chicken in the mod's lore.
+{{Master Template Consumables
+| show-main = yes
+| show-potion=yes
+}}

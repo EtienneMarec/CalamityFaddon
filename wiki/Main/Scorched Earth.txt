@@ -1,0 +1,51 @@
+{{dedicated|Safi|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 500
+| use = 32
+| knockback = 8.7
+| velocity = 12.6
+| tooltip = Fires a burst of four fuel-air rockets which explode into cluster bombs<br/>Each burst consumes two rockets each<br/>Burns your targets to a fine crisp
+| stack = 1
+| auto = yes
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| debuff = Daybroken
+| debuffduration = 5 seconds (Explosion)
+| debuffchance = 100%
+| debufftip = Incinerated by solar rays
+| debuff2 = On Fire!
+| debuffduration2 = 2 seconds (Flames)
+| debuffchance2 = 100%
+| debufftip2 = Slowly losing life
+| proj = Scorched Earth Rocket.gif
+| projcaption = Fuel-air Rocket
+| proj2 = Scorched Earth Cluster.png
+| proj2caption = Cluster Bomb
+| proj3 = Flaming Shard.gif
+| proj3caption = Flaming Shard
+| element1 = Fire
+| element2 = Dark
+| element3 = Bomb
+}}
+
+The '''Scorched Earth''' is a craftable Godseeker Mode [[launcher]] which is an upgrade to the [[Blissful Bombardier]]. When used, it consumes two rockets and fires a burst of four homing rockets which can travel through tiles. After five seconds or upon hitting an enemy, the rocket creates a large explosion which inflicts the [[Daybroken]] [[debuff]] and spawns five additional cluster bombs in random directions outward from the enemy. Each cluster bomb explodes into 2-3 gravity-affected flaming shards which inflict the [[On Fire!]] debuff. Both the cluster bomb and shrapnel deal 25% damage.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Launchers]]

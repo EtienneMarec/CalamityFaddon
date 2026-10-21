@@ -1,0 +1,54 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 72
+| knockback = 6.5
+| mana = 15
+| use = 20
+| tooltip = Fires a bouncing brimstone fireball that splits into homing fireballs upon collision with water
+| velocity = 15
+| auto = yes
+| stack = 1
+| rare = 5
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| debuff = Brimstone Flames
+| debuffduration = 2 seconds
+| debufftip = Rapid health loss
+| debuffchance=100%
+| proj = Brimstone Fireball.png
+| projcaption = Brimstone Fireball
+| proj2 = Brimstone Homer.png
+| proj2caption = Homing Brimstone Fire
+| element1 = Fire
+| element2 = Unholy
+| element3 = Water
+}}
+|{{item drops infobox
+| [[Clamitas]] {{fantag|Calamity: Community Remix}}| 1 | 25% (in [[Hardmode]])
+}}
+}}
+
+The '''Burning Sea''' is a craftable [[Hardmode]] [[spell tome]] that, when used, automatically fires fast brimstone fireballs which are affected by gravity and bounce off of tiles. The fireballs can bounce 3 times and pierce 2 enemies, and each last 5 seconds before disappearing. Upon contact with water, the fireballs transform into 3 or 4 small homing flares which shoot upward at random angles, dealing 1.35x the weapon's damage and dissipate upon impact with tiles or enemies.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+== Notes ==
+*The Burning Sea cannot shoot projectiles if the player is underwater.
+
+== Tips ==
+*Placing [[Bubble]] blocks with water inside them can be a good idea for arenas, providing more locations for the Burning Sea's fireballs to turn into homing flames.
+*Alternatively, fighting in the [[Ocean]] biome could be helpful, as the fireballs will have a much higher chance of becoming homing flares.
+== See Also ==
+*[[Rancor]], the [[exhumed]] version of this item. 
+{{-}}
+{{Unholy Core}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

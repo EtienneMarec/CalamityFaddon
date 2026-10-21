@@ -1,0 +1,55 @@
+{{dedicated|ThomasTheMarker|Patreon donor}}
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 302
+| mana = 10
+| knockback = 5
+| use = 19
+| tooltip = Consumes all remaining minion slots to summon the Plague Emperor<br/>The emperor will swarm enemies with hordes of plague weaponry and bees<br/>Yharim shivers in fear at the thought of such a monstrosity...
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffduration = 3 seconds
+| debuffchance = 100%
+| buff = Plague Emperor (buff) | bufflink = no
+| bufftip = You are lucky that he's on your side
+| stack = 1
+| hardmode = yes
+| postml = yes
+| rare = 11
+| sell = {{value|0|18}}
+| proj = Plague Missile.gif
+| projcaption = Plague Missile
+| proj2 = Plaguenade Bee.gif
+| proj2caption = Plague Bee
+| proj3 = Plaguebringer Bab.png
+| proj3caption = Mini-Plaguebringer
+| element1 = poison
+| element2 = Machine
+}}
+{{item drops infobox
+| [[Plague Emperor]] | 1 | {{dv|1%}}
+}}
+{{summoned|Plague Emperor|type=minion}}
+The '''Plague Caller MK III''' is a craftable Godseeker Mode [[summon weapon]]. It summons a Plague Emperor, who hovers above the player and idly summons projectiles when enemies are nearby.
+Projectiles include:
+*Hordes of homing plague seekers and plague bees that deal 10% of the weapon's damage.
+*A burst of plague missiles and mines that seek enemies and explode.
+*Summoning mini plaguebringers that dash into enemies.
+*Firing plague stingers from its abdomen.
+*A plague deathray from its chest that moves in a sweeping motion.
+*Throwing [[Flask of Plague]]s which infect nearby tiles with plague.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{lunar plague}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

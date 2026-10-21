@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 33
+| use = 25
+| knockback = 6
+| velocity = 12
+| rare = 2
+| tooltip = Launch an urchin ball, which shoots a spike on contact with an enemy
+| sell = {{value|0|0|40}}
+| buy = {{value|0|2}}
+| stack = 1
+| debuff = Venom
+| debuffchance = 100%
+| debuffduration = 3 seconds (Flail)<br/>2 seconds (Spike)
+| debufftip = Losing Life
+| auto = yes
+| proj = Urchin Ball.png
+| projcaption = Urchin Ball
+| proj2 = Urchin Ball Spike.png
+| proj2caption = Urchin Ball Spike
+| element1 = Water
+| element2 = Poison
+| element3 = Stab
+}}
+
+The '''Urchin Flail''' is a [[Pre-Hardmode]] [[flail]] that is purchased from the [[Sea King]] at any time. It throws out an urchin ball that will shoot an urchin spike into an enemy, inflicting the [[Venom]] [[debuff]]. Once the urchin ball hits a block or an [[enemy]], it will retract back to the player. It is not affected by gravity and cannot be swung around or be redeployed while the urchin has already been thrown out.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Flails]]

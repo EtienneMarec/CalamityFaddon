@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Cursed? Reduces damage reduction by 10%<br/>15% increase to all damage<br/>Brimstone fire rains down while invincibility is active
+| rare = 7
+| sell = {{value|0|9|60}}
+| stack = 1
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| debuffduration = 4 seconds (Brimstone fire)
+| hardmode = yes
+| element1 = fire
+| element2 = unholy
+}}
+|{{item drops infobox
+|[[Calamitas]]|1|100%
+}}
+}}
+
+The '''Void of Calamity''' is a [[Hardmode]] [[covering]] dropped by [[Calamitas]]. It increases the player's damage by 15% and causes brimstone fire to fall from the sky while invincibility is active, such as when the player takes damage, enters the world, or uses a [[Magic Mirror]]; however, it also decreases the player's [[damage reduction]] by 10%, causing the player to take more damage.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Void of Calamity cannot be equipped if the player is wearing the [[Void of Extinction]] covering, and vice versa.
+*The brimstone fire deals typeless damage. It is boosted by the average of player's class bonuses which stacks additively with bonuses to 'all damage', such as the [[Avenger Emblem]].
+**The brimstone fire has a base damage of 30.
+
+== Tips ==
+*This covering is outclassed in some respects by the [[tgc:Emblems|class emblems]], which have the same damage boost and no penalty.
+
+== Trivia ==
+*This item was originally known as the "Calamity Ring", and was what cursed Calamitas into her eye-like form she possessed in previous versions of the mod.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

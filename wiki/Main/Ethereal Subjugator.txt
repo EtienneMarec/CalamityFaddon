@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 45
+| damagetype = Summon
+| knockback = 1
+| mana = 10
+| use = 9
+| auto = yes
+| tooltip = Summons a phantom to protect you<br/>Each phantom takes only half of a minion slot
+| buff = Phantom (buff) | bufflink= no
+| bufftip = The phantom will protect you
+| rare = 13
+| sell = {{value|0|28}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| element1 = Dark
+}}
+|{{item drops infobox
+| [[Polterghast]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Phantom (minion)|type=minion}}
+
+The '''Ethereal Subjugator''' is a Godseeker Mode [[Summon weapons|summon weapon]] that is dropped by [[Polterghast]]. It summons a Phantom, which follows the player and attacks [[enemies]]. It deals damage via a laser beam which has a short range. Unlike most minions, the Phantom only takes up half a minion slot.
+
+{{Modifier|summon}}
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Tips ==
+*The Ethereal Subjugator is very good at crowd control due to the piercing laser beam.
+*The Ethereal Subjugator pairs incredibly well with the [[Angelic Alliance]] due to it only taking up half a minion slot, making it extremely viable endgame.
+
+== Trivia ==
+*Unlike most minions, Phantoms will target and attack some passive creatures, such as [[Goldfish]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

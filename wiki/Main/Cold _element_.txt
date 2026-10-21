@@ -1,0 +1,52 @@
+[[File:Cold (element).png|right]]
+'''Cold''' is an [[Elemental System|element]] inflicted by ice-themed weaponry.
+
+== Weapons ==
+{{collapse top}}
+{| class="terraria sortable lined" id="dpl-table"
+! colspan = 2 | Name !! Damage !! Use Time !! Knockback !! Velocity !! Critical !! Autoswing !! [[Rarity]] !! <abbr title="Hardmode">HM</abbr> !! <abbr title="Godseeker Mode">GS</abbr> !! <abbr title="Epilogue">Epilogue</abbr> !! Sell
+|-
+{{#dpl:
+| category = Cold element weapons
+| namespace = <!-- need to have it blanked to restrict it to main namespace. prevents category pages from being included-->
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦:Melee weapons/dpl}
+| mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+== Vulnerable NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC vulnerabilities/dpl}
+|category = Cold vulnerable NPCs
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+== Resisted NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC resistances/dpl}
+|category = Cold resistant NPCs
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Elements}}
+
+[[Category:Cold element weapons| ]]

@@ -1,0 +1,8 @@
+<includeonly>
+{{#if:{{{class|}}}|<!--nothing-->|
+{{{!}} class="terraria outer"
+{{!}} }}
+{| class="{{{class|sortable lined inner}}}" style="{{{style|}}}"
+{{{col}}}
+|-
+</includeonly><noinclude>{{doc}}</noinclude>

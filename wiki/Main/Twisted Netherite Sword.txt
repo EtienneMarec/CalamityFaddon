@@ -1,0 +1,43 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| tooltip = Vaporizes any normal enemies it touches. 
+| damage = 8
+| knockback = 1
+| rare = 13
+| sell = {{value|0|3}}
+| stack = 1
+| research = 2031
+| auto = yes
+| use = 1.6
+| sound = Item_1.wav
+| soundtext = Use
+| hardmode = yes
+| postml = yes
+| element1 = dark
+| element2 = slash
+}}
+
+The '''Twisted Netherite Sword''' is a craftable Godseeker Mode broadsword that autoswings. If the sword hits a non-[[boss]] enemy while a boss isn't alive, they will fade into ashes and die instantly, dropping loot.
+
+Its best modifier is '''Legendary'''.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Twisted Netherite Sword is based on the Netherite Sword from ''[[wikipedia:Minecraft|Minecraft]]''.
+**Its base damage and use times are identical.
+**Its research value is the same as the Netherite Sword's durability.
+*The weapon's vaporization effect is a reference to the Twisted Sword from ''[[wikipedia:Deltarune|Deltarune]]'' which has a common misconception of being able to instantly kill enemies and turn them into dust.
+{{Netherite}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

@@ -1,0 +1,40 @@
+{{dedicated|BumbleDoge|Patreon Donator}}
+{|align=right
+|{{item infobox
+| type = Mount Summon
+| stack = 1
+| tooltip = Summons a monstrosity
+| rare = 11
+| use = 19
+| buff = Bumbledoge (buff) | bufflink = no
+| bufftip = Wait a second. That’s not right...
+| sell = {{value|0|20}}
+| hardmode = yes
+| postml = yes
+| proj = Mini Swarmer.gif
+| projcaption = Mini Swarmer
+}}
+|-
+|{{item drops infobox
+| [[The Dragonfolly]] | 1 | {{dv|25%|33.33%}}
+}}
+|}
+{{summoned|Bumbledoge|type=mount}}
+
+The '''Folly Feed''' is a Godseeker Mode [[Mount]] summoning item that drops from [[The Dragonfolly]]. When used, it summons a rideable Bumbledoge mount which has a very high running speed.
+
+The Bumbledoge mount has a top running speed of 72 mph, vertical speed of 31 mph, and overall speed of 78 mph. The Bumbledoge itself does not deal any contact damage, but will fire homing mini-swarmers that deal 180 damage. The mount is capable of 10 seconds of flight with a low vertical acceleration before gliding down. Similarly to the [[Hoverboard]], holding {{key|down}} and {{key|jump}} while in the air will make the mount hover.
+
+== Notes ==
+*There is a 1/260 chance per frame that a mini-swarmer is fired. It deals typeless damage but can be affected by average damage.
+
+== Trivia ==
+*The mount is a reference to the [[wikipedia:Doge (meme)|Doge]] meme.
+*The mount's name references a previous name of The Dragonfolly, The Bumblebirb.
+*This item is internally named "Bird Seed".
+
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

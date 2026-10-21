@@ -1,0 +1,44 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 85
+| knockback = 7
+| rare = 7
+| sell = {{value|0|4}}
+| stack = 1
+| auto = yes
+| use = 22
+| velocity = 5
+| extraupdates = 1
+| debuff = Astral Infection (debuff)
+| debufftip = Slowly losing life
+| debuffduration = 2 seconds
+| debuffchance = 100%
+| tooltip = Fires a fist that explodes into stars<br/>Stealth strikes make the fist ricochet between enemies up to 5 times while raining stars
+| hardmode = yes
+| element1 = Magic
+| element2 = Smash
+| element3 = Bomb
+}}
+
+The '''Exif Fist''' is a craftable [[Hardmode]] [[Bombs|bomb]] that fires a high-velocity projectile which leaves a particle trail behind. The projectile is slightly affected by gravity, and explodes into 4-6 stars on contact with enemies or solid blocks. The explosion ignores [[enemy]] [[immunity frames]].
+
+Performing a [[stealth strike]] with the Exif Fist will cause the next fist thrown to bounce between enemies up to five times while raining down stars on each bounce before exploding.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The particle trail it leaves behind is very useful for exploring, and can also be used to find an [[Roxcalibur]] easily.
+
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Bombs]]

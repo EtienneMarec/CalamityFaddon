@@ -1,0 +1,11 @@
+Returns a non breaking space followed by the • character. To be used inside lists, so that if there is a line break the dot stays on the previous line.
+
+== Usage ==
+Use Item1{{tl|•}}Item2 without spaces for or after the template.
+
+<includeonly>
+[[Category:Formatting templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

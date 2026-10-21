@@ -1,0 +1,21 @@
+{{npc infobox
+| type = Critter
+| ai = Aerwhale AI
+| environment = Aether
+| life = 100
+| damage = 0
+| defense = 0
+| knockback = 0%
+| custom | hurt = NPC_Hit_25.wav
+| killed = NPC_Killed_28.wav
+}}
+
+The '''Aerwhale''' is a [[Pre-Hardmode]] [[Critters|Critter]] that spawns in [[The Aether]] during the day. Aerwhales cannot be caught due to their large size, and exist simply as ambience for [[Aether|The Aether]] biome.
+
+== Trivia ==
+*The Calamity devs have hinted at making the Aerwhale ridable in a future update, although not much is currently known past that.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

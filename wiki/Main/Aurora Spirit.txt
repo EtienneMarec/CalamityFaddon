@@ -1,0 +1,41 @@
+{{npc infobox
+| name = Aurora Spirit
+| type = Flying Enemy
+| ai = Ancient Vision AI
+| environment = Snow biome
+| life = {{dv|50|100}}
+| damage = {{dv|40|80}}
+| defense = 8
+| knockback = 100
+| hardmode = yes
+| Essence of Eleum| 1 | 25%
+| money={{value|0|0|1|0}}
+| debuff = Frostburn
+| debuffchance = 100%
+| duration = 1.5 seconds
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuff2 = Chilled
+| debuffchance2 = 100%
+| duration2 = 1 second
+| debufftip2 = Your movement speed has been reduced
+| immune1 = Confused
+| immune2 = Glacial State
+| immune3 = Exo Freeze
+| immune4 = Frostburn
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_15.wav
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| vulnerable3 = Machine
+| resistant1 = Cold
+| resistant2 = Water
+| resistant3 = Magic
+}}
+
+The '''Aurora Spirit''' is a [[Hardmode]] [[enemy]] that spawns in the [[Snow biome]]. They charge around at high speeds and attempt to ram the player for high damage, and once they leave a small area around the player, they turn to charge back again.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

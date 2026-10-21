@@ -1,0 +1,39 @@
+{{npc infobox
+| type = Slime
+| environment = Brimstone Crag
+| ai = Slime AI
+| damage = {{element|Unholy}} {{dv|40|80}} (pre-[[Providence]])<br/>{{dv|80|160}} (post-[[Providence]])
+| life = {{dv|250|500}} (pre-[[Providence]])<br/>{{dv|3,500|7,000}} (post-[[Providence]])
+| defense = 10 (pre-[[Providence]])<br/>20 (post-[[Providence]])
+| knockback = 100
+| banner = yes
+| money = {{value|0|0|15|0}}
+| Charred Ore|10-26| 100%
+| Essence of Chaos|1|25%
+| custom| {{item|Bloodstone|note=(After defeating [[Providence]])|wrap=y}}|50%
+| hardmode = yes
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| duration = 2 seconds
+| immune1 = Kami Flu
+| immune2 = Abyssal Flames
+| immune3 = Brimstone Flames
+| immune4 = Poisoned
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| resistant1 = Unholy
+| resistant2 = Fire
+| resistant3 = Smash
+| vulnerable1 = Water
+| vulnerable2 = Slash
+}}
+
+The '''Charred Slime''' is a [[Hardmode]] [[slime]] which spawns naturally in the [[Brimstone Crag]] after the player has defeated the [[Brimstone Elemental]]. They exist to drop [[Charred Ore]], so that the player cannot use up all the ore available to them.
+
+Its stats receive a significant boost and starts dropping [[Bloodstone]] after [[Providence, the Profaned Goddess]] is defeated.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

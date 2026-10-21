@@ -1,0 +1,34 @@
+{{npc infobox
+| imagealt = <Tabber>
+Default=[[File:Wulfrum Drone.png]]
+|-|
+Supercharged=[[File:Wulfrum Drone (Supercharged).png]]
+</Tabber>
+| environment = Surface
+| type = Enemy
+| ai = Wulfrum Drone AI
+| life = {{dv|21|42}}
+| damage = {{dv|16|32}} (Contact)<br/>{{dv|24|48}} (Laser)
+| defense = 4
+| knockback = 32%
+| money = {{value|0|0|1|20}}
+| custom | {{item|Wulfrum Bar|wrap=y}} (1-3) {{expert|+1 extra}} | 100%
+| custom | {{item|Energy Core|note=(While supercharged)|wrap=y}} | 100%
+| Wulfrum Battery | 1 | 7%
+| banner = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| resistant1 = Machine
+| vulnerable1 = Smash
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+}}
+
+The '''Wulfrum Drone''' is a [[Pre-Hardmode]] [[enemy]] found on the [[Surface]] during daytime.  It is also summoned by the [https://calamitymod.fandom.com/wiki/Wulfrum_Excavator Wulfrum Excavator] [[boss]] in [[Expert Mode]] upon it transitioning to a new phase. It is initially stationary when it first spawns, moving to attack only when the player is considerably close and has direct line of sight. It attacks by flying around the player, passing through blocks, and occasionally swooping down to attack them.  It will stop attacking if the line of sight is broken. If enough time has passed without the drone detecting a player, it will fly straight up, passing through tiles, and despawn.
+
+It can be supercharged by the [[Wulfrum Pylon]] enemy, causing its lights to turn from green to blue and cause them to fire lasers at the player.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

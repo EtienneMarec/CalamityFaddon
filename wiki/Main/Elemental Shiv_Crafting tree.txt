@@ -1,0 +1,179 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|_|_|_|_|_|JSpor|_|Sting|_|HellO|_|Obsid|_|#
+|_|_|_|_|_|_|_|_|_|      _|      _|      _|      _|#
+|_|_|_|_|_|_|_|_|_|_|`|-|-|-|(|_|_|_|)|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|HEFRG|_|_|_|_|_|#
+|_|_|_|_|_|HallO|_|_|_|_|_|_|I|_|_|HellB|_|_|_|_|_|#
+|_|_|_|_|_|      _|_|_|_|_|_|I|_|_|      _|_|_|_|_|#
+|_|_|_|_|_|_|I|_|_|_|_|_|_|_|I|_|_|_|I|_|_|_|_|_|_|#
+|_|_|_|_|_|HMFRG|_|_|_|_|_|PHANV|_|PHANV|_|_|_|_|_|#
+|_|_|_|_|_|HallB|_|EDagg|_|SporK|_|FlamB|_|AShiv|_|#
+|_|_|_|_|_|      _|      _|      _|      _|      _|#
+|_|_|_|_|_|_|I|_|_|_|)|-|-|-|^|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|HMANV|_|Altar|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|BroHS|_|ExcaS|_|NStab|_|BroHS|_|_|_|_|_|_|_|_|_|#
+|_|      _|      _|      _|      _|_|_|_|_|_|_|_|_|#
+|_|_|`|-|-|-|(|_|_|_|)|-|-|-|'|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|HMANV|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|TruES|_|TruNS|_|LiviS|_|LumiO|_|LunaF|_|#
+|_|_|_|_|_|      _|      _|      _|      _|      _|#
+|_|_|_|_|_|_|`|-|-|-|+|-|-|-|'|_|_|_|I|_|_|_|I|_|_|#
+|_|_|_|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|§|_|_|_|§|_|_|#
+|_|_|_|_|_|_|_|_|_|TShiv|_|_|_|_|_|LumiB|_|GalaS|_|#
+|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|      _|      _|#
+|_|_|_|_|_|_|_|_|_|_|)|-|-|-|-|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|EShiv|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|:|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|EGlad|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+<!-- Crafting Materials -->
+| JSpor_cols = 3
+| JSpor_rows = 2
+| JSpor = {{item|Jungle Spores}} x 10<br/>
+<span style="font-size:0.75em">( [[Underground Jungle]] )</span>
+
+| Sting_cols = 3
+| Sting_rows = 2
+| Sting = {{item|Stinger}} × 5<br/>
+<span style="font-size:0.75em">( {{item|mode=image|Hornet|size=22px}} {{item|mode=image|Spiked Jungle Slime|size=26px}} {{item|mode=image|Plague Charger|size=22px}} {{item|mode=image|Plaguebringer|size=18px}} {{item|mode=image|image=Plaguebringer Goliath map.png|The Plaguebringer Goliath|size=18px}} )</span>
+
+| SporK_cols = 3
+| SporK_rows = 2
+| SporK = {{item|Spore Knife}}
+
+| HellO_cols = 3
+| HellO_rows = 2
+| HellO = {{item|Hellstone}} × 21<br/>
+<span style="font-size: 0.75em">( [[Underworld]] )</span>
+
+| Obsid_cols = 3
+| Obsid_rows = 2
+| Obsid = {{item|Obsidian}} × 7<br/>
+( {{item|mode=image|Water|size=12px}} + {{item|mode=image|Lava|size=12px}} )
+
+| HellB_cols = 3
+| HellB_rows = 2
+| HellB = {{item|Hellstone Bar}} × 7<br/>
+
+| FlamB_cols = 3
+| FlamB_rows = 2
+| FlamB = {{item|Tomutus}}
+
+| AShiv_cols = 3
+| AShiv_rows = 2
+| AShiv = {{item|Ancient Shiv}}<br/>
+( {{item|mode=image|Dark Caster|size=20px}} )
+
+| EDagg_cols = 3
+| EDagg_rows = 2
+| EDagg = {{item|Leeching Dagger}} / {{item|Bloody Rupture}}<br/>
+( {{item|mode=image|image=Hive Mind map 2.png|Hive Mind|size=20px}} / {{item|mode=image|image=Perforator Hive map.png|The Perforators|size=20px}} )
+
+| NStab_cols = 3
+| NStab_rows = 2
+| NStab = {{item|Night's Stabber}}
+
+| BroHS_cols = 3
+| BroHS_rows = 2
+| BroHS = {{item|Broken Hero Sword}}<br/>
+( {{item|mode=image|Mothron|size=30px}} {{item|mode=image|image=Calamitas map.png|size=24px}})
+
+|HallB_cols = 3
+|HallB_rows = 2
+|HallB = {{item|Hallowed Bar}} × 7<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|The Twins||size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} {{item|mode=image|image=Map Icon The Destroyer.png|The Destroyer|size=20px}} {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+|HallO_cols = 3
+|HallO_rows = 2
+|HallO = {{item|Hallowed Ore}} × 28<br/>
+<span style="font-size:0.75em">( [[Underground Hallow]] )</span>
+
+| ExcaS_cols = 3
+| ExcaS_rows = 2
+| ExcaS = {{item|Caliburn}}
+
+| TruNS_cols = 3
+| TruNS_rows = 2
+| TruNS = {{item|True Night's Stabber}}
+
+| TruES_cols = 3
+| TruES_rows = 2
+| TruES = {{item|True Caliburn}}
+
+| LiviS_cols = 3
+| LiviS_rows = 2
+| LiviS = {{item|Living Shard}} × 7<br/>
+( {{item|mode=image|image=Map Icon Plantera (first form).png|Plantera|size=20px}} )
+
+| TShiv_cols = 3
+| TShiv_rows = 2
+| TShiv = {{item|Terra Shiv}}
+
+| LunaF_cols = 3
+| LunaF_rows = 2
+| LunaF = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 5<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+| GalaS_cols = 3
+| GalaS_rows = 2
+| GalaS = {{item|Galactica Singularity}} × 5
+
+| LumiO_cols = 3
+| LumiO_rows = 2
+| LumiO = {{item|Luminite}} × 20<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=30px}} )
+
+| LumiB_cols = 3
+| LumiB_rows = 2
+| LumiB = {{item|Luminite Bar}} × 5
+
+| EShiv_cols = 3
+| EShiv_rows = 2
+| EShiv = {{item|Elemental Shiv}}
+
+|EGlad_cols = 3
+|EGlad_rows = 2
+|EGlad = ''[[Exo Gladius/Crafting tree|Exo Gladius<br/>crafting tree]]''
+
+<!-- CRAFTING STATIONS -->
+|Altar_cols = 3
+|Altar_class = craft-station
+|Altar = {{item|mode=image|Demon Altar}} / {{item|mode=image|Crimson Altar}}
+
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|HEFRG_cols = 3
+|HEFRG_class = craft-station
+|HEFRG = {{item|mode=image|Hellforge}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|HMFRG_cols = 3
+|HMFRG_class = craft-station
+|HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+}}</div>
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

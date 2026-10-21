@@ -1,0 +1,34 @@
+{{item infobox
+|type = Weapon
+|damagetype = Summon
+|damage = 35
+|knockback = 2
+|mana = 10
+| auto = yes
+|tooltip = Summons a sandnado to fight for you
+|| buff = Sandnado (buff) | bufflink = no
+| bufftip = The sandnado will protect you
+|use = 19
+| rare = 7
+| stack = 1
+| sell = {{value|0|12}}
+| hardmode = yes
+| proj = Mini Sand Shark.png
+| projcaption = Mini Sand Shark
+| element1 = Fire
+| element2 = Smash
+}}
+{{summoned|Sandnado|type=minion}}
+
+The '''Sand Sharknado Staff''' is a craftable [[Hardmode]] [[summon weapon]] that is an upgrade to the [[Forgotten Apex Wand]]. Upon use, it summons a sandnado to fight for you by firing miniature high-velocity [[Sand Shark]]s at nearby enemies.
+
+{{Modifier|summon}}
+
+== Trivia ==
+*This item, like the vanilla [[Tempest Staff]], is a reference to the 2013 movie ''[[wikipedia:Sharknado|Sharknado]]''.
+
+{{Grand Scale}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,115 @@
+{{Npc infobox|type=Boss|environment=Sulphurous Sea|ai=Acidsighter AI|knockback=100%|immune1=Confused|immune2=Pearl Aura|immune3=Irradiated|immune4=Sulphuric Poisoning|money={{gc|20}}|hurt=NPC_Hit_1.wav|killed=NPC_Killed_1.wav|life={{dv|4,000|6,200|8,760}}|sound1=|soundtext=Acid Bomb|sound=Item_17.wav|sound2=NPC_Killed_13.wav|sound2text=Teeth Bomb|sound3=Roar_0.wav|sound3text=Charge|defense=10|sound4=NPC_Killed_13.wav|sound4text=Spawn Mutated Eye|damage={{dv|25|30|35|40}} (Contact)<br/>{{dv|15|20|22|25}} (Acid Bomb)<br/>{{dv|20|23|30}} (Acid Shot)<br/>{{dv|30|33|36|40}} (Teeth Bomb)<br/>{{dv|30|33|36|40}} (Homing Teeth)<br/>1 (Venomthrower)|debuff=Irradiated|debuffchance=100%|debufftip=Your skin is burning off|duration=3 seconds|image2=Acidsighter map.png|image2caption=Map Icon
+| resistant1 = Poison
+| resistant2 = Unholy
+| resistant3 = Dark
+| resistant4 = Acid
+| resistant5 = Radioactive
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Holy
+| vulnerable4 = Machine
+|Pungent Bomber|1|{{dv|25%|33%}}
+|Acid Bow|1|{{dv|25%|33%}}|debuff2=Acid Venom|debuffchance2=100%|debufftip2=Losing life|duration2={{dv||3|4}} seconds (Venomthrower)|7 Acid Sighter=Acid Sighter|Caustic Claw|1|{{dv|25%|33%}}|Corrosive Eye Staff|1|{{dv|25%|33%}}|Razor Teeth|1|{{dv|25%|33%}}|custom| {{item|Treasure Bag (Acidsighter)|Treasure Bag|note=(Acidsighter)|wrap=y}}|{{expert|100%}}}}
+
+The '''Acidsighter''' (Japanese: アシッドサイター ''Ashiddosaitā'') is a [[Pre-Hardmode]] [[boss]]. It has the appearance of a giant Demon Eye that has been poisoned by sulphuric waters.
+
+Defeating it will unlock the [[Acid Rain]] [[Events|event]].
+
+==Spawn==
+The Acidsighter does not spawn on its own, and requires the player to summon it with the [[Poisoned Sclera]]. It must be summoned in the [[Sulphurous Sea]] during the [[Night]].
+
+==Behavior==
+The Acidsighter has three phases, each of which has its own attack pattern and AI. It will progress through these phases as it loses health.
+
+It becomes enraged if the player leaves the Sulphurous Sea or [[Ocean]], or if it becomes daytime, increasing its movement speed and attack rate. The effects will stack if the boss is both outside of the Sulphurous Sea or Ocean and it is daytime.
+
+===Attacks===
+
+===Phase 1===
+*Hovers above the player while spawning Mutated Eyes.
+*Charges at the player three times.
+
+*Fires Acid Bombs that split into six Acid Shots.
+*When at {{Dv|65%|70%|75%}} health or lower, every 2-3 attacks, spins around the player before charging at them.
+*Fires Teeth Bombs that split into three homing teeth.
+
+===Phase 2===
+Upon reaching {{Dv|50%|55%|60%|65%}} health, the boss will roar, gaining a bright, green glow, and spawning 4-5 Mutated Eyes. 
+
+*Hovers above the player while firing Acid Bombs.
+*Charges at the player three times. Explodes into eight Acid Shots when dashing.
+*Hovers below the player while firing Teeth Bombs.
+*Spins around the player before charging at them. Leaves a trail of Acid Bombs when charging. 
+**Acid bombs spawned from this attack explode into two Acid Shots.
+*Chases the player while spawning Mutated Eyes.
+
+===Phase 3===
+Upon reaching {{Dv|30%|40%|45%|50%}} health, the boss will roar again, the green glow is stronger, and it deals 25% more damage.
+
+*Spins around the player while firing Acid Bombs.
+*Charges at the player three times. Explodes into 12 Acid Shots when dashing.
+*Performs a rapid chain dash attack that leaves a trail of Acid Bombs.
+**Acid bombs spawned from this attack explode into four Acid Shots.
+*Chases the player at a rapid pace while firing Teeth Bombs.
+*Fires Mutated Clusters that slow down and explode into 2-3 Mutated Eyes.
+
+===In [[Expert Mode]]===
+
+*Gains a new attack.
+**Charges at the player while breathing Acid Venom.
+*Mutated Eyes are faster.
+
+===In [[Revengeance Mode]]===
+
+*Increased attack rate.
+*Mutated Eyes will fire Acid Shots if the Acidsighter is below 55% health.
+
+===In [[Death Mode]]===
+
+*Increased acceleration.
+*Mutated Eyes explode into a lingering Acid Cloud that rains Acid Shots when hitting a solid tile.
+
+===On the For The Worthy seed===
+
+*Is 50% smaller.
+*Increased velocity.
+*Leaves Acid Bombs when charging regardless of its phase.
+*Mutated Eyes fire Acid Bombs that deal 50% damage.
+
+==Summons==
+{{Infobox wrapper|{{npc infobox
+| type = Flying Enemy
+| ai = Flying AI
+| name = Mutated Eye
+| life = {{dv|30|45|55}}
+| knockback = {{dv|10%|20%|30%}}
+| damage = {{dv|14|28|36|44}}
+| defense = 3
+| immune1 = Confused
+| immune2 = Irradiated
+| immune3 = Sulphuric Poisoning
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| resistant1 = Poison
+| resistant2 = Unholy
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+}}|float=none|direction=row}}
+
+==Aftermath==
+
+*The Acid Rain event may now begin naturally.
+
+==Tips==
+[[Swiftness Potion|Swiftness Potions]], [[Sunflower|Sunflowers]], [[Hermes Boots]] and their upgrades, and a [[Cloud in a Bottle]] and its upgrades or a [[Hooks|Hook]] are all heavily recommended, as it will be near impossible to outmaneuver the Acidsighter's powerful dashes with just the player's base movement, especially on higher difficulties.
+
+==Trivia==
+
+*The Acidsighter's [https://calamitymod.fandom.com/wiki/Music theme] is '''Opticatalysis''', which was composed by the artist [https://www.soundcloud.com/demongirlfriend/ DEMON GIRLFRIEND].
+**If the Calamity Music add-on mod was disabled, '''Boss 1''' plays instead.
+**If the Boss Checklist Mod is installed, its unique despawn message is "The acidic eye swims back into the seas."
+**The boss resembles the "[[Blighted Eye]]" enemy.
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

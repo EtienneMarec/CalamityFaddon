@@ -1,0 +1,36 @@
+{{item infobox
+| type = Covering
+| tooltip = After 1 second of standing still and not attacking you gain a buff<br/>The buff boosts your damage by 50% and decreases damage taken by 15%<br/>The buff deactivates if you move or attack once
+| buff = Chi | bufflink = no
+| bufftip = Your next attack is boosted and you are more resilient
+| duration = Infinite (when not moving or attacking)
+| sell = {{value|0|0|80}}
+| rare = 3
+| stack = 1
+}}
+
+The '''Trinket of Chi''' is a [[Pre-Hardmode]] [[covering]] found in the Surface/Underground [[shrine]]. When equipped and the player has not moved for one second, the player will receive a 50% damage boost to all weapons and will take 15% reduced damage from all sources. Once the player moves again, the bonuses are revoked. If the player is moving, the covering will have no effect on the player.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*If the player un-equips the covering then all bonuses are lost.
+*Even if staying still, being on a [[mount]] will not grant any bonuses and will revoke any bonuses the player has, just the same as when moving.
+
+== Tips ==
+*This covering could be extremely useful to summoners, as the damage boost and damage reduction could allow the player to attack whilst still having the bonuses.
+
+== Trivia ==
+*Chi or Qi (Traditional: 氣, Simplified: 气) in Chinese culture refers to the believed universal manifestation of vital energy in everything.
+*The item's visual design was inspired by the [[wikipedia:prayer beads|prayer beads]] worn by [[wikipedia:Akuma_(Street_Fighter)|Akuma]] in the ''[[wikipedia:Street Fighter|Street Fighter]]'' game series.
+**The symbol depicted on the item is the 天 (heaven) kanji, the signature symbol of the energy that Akuma draws from.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

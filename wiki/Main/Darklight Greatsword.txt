@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 123
+| knockback = 5
+| rare = 5
+| sell = {{value|0|7|20}}
+| stack = 1
+| auto = yes
+| tooltip = Fires darklight blades that split on death
+| use = 35
+| velocity = 25
+| hardmode = yes
+| debuff = Frostburn
+| debuffchance = 100%
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffduration = 3 seconds (Contact, Blade)<br/>1.5 seconds (Blue Orb)
+| debuff2 = On Fire!
+| debuffchance2 = 100%
+| debufftip2 = Slowly losing life
+| debuffduration2 = 1.5 seconds (Pink Orb)
+| proj = Darklight Blade.png
+| projcaption = Darklight Blades
+| element1 = Magic
+| element2 = Cold
+| element3 = Slash
+}}
+
+The '''Darklight Greatsword''' is a craftable [[Hardmode]] [[broadsword]]. When swung, it shoots darklight blades that inflict the [[Frostburn]] [[debuff]]. The darklight blades explodes after hitting an enemy or a block into 3-4 smaller orbs. It is capable of autoswing.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Cryonic}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:巨剑‘夜光’]]

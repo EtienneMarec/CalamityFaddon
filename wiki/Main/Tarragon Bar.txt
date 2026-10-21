@@ -1,0 +1,37 @@
+{{item infobox
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 9999
+| rare = 12
+| sell = {{value|0|3}}
+| use = 14
+| placeable = yes
+| consumable = yes
+| auto = true
+| hardmode = yes
+| postml = yes
+}}
+
+'''Tarragon Bars''' are Godseeker Mode [[bars]] made with 5 [[Tarragon Ore]] and a [[Clockwork Bar]] at a [[Furnace]]. They are used to craft various plant-themed items.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*1-3 Tarragon Bars can additionally be obtained from [[Jungle Crate]]s at a 10% drop chance after [[Providence, the Profaned Goddess]] has been defeated.
+
+== Trivia ==
+*[[wikipedia:Tarragon|Tarragon]], also known as estragon, is a species of perennial herb in the sunflower family.
+*Tarragon Bars were previously known as '''Uelibloom Bars''', and prior to that were known as '''Ueliace Bars'''.
+**The word "Uelibloom" contains the word "bloom", as in blooming plants. The word "Ueliace", and therefore the "Ueli-" prefix of "Uelibloom", was made up and has no meaning.
+
+{{Uelibloom}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| tooltip = Shoots a soul scythe<br/>Enemies explode when on low health, spreading the plague {{sic}}
+| damage = 98
+| damagetype = melee
+| use = 19
+| knockback = 7.5
+| auto = yes
+| stack = 1
+| rare = 8
+| sell = {{value|0|16}}
+| velocity = 18
+| debuff = Plague
+| debuffduration = 4 seconds (Contact)<br/>3 seconds (Soul Scythe)
+| debufftip = You are rotting from the inside
+| debuffchance = 100%
+| debuff2 = Cursed Inferno
+| debufftip2 = Losing life<br/>All damage taken increased by 20%
+| debuffduration2 = 2 seconds (Contact)<br/>1.5 seconds (Soul Scythe)
+| debuffchance2 = 100%
+| hardmode = yes
+| proj = SoulScythe.png
+| projcaption = Soul Scythe
+| element1 = Poison
+| element2 = Dark
+| element3 = Slash
+}}
+
+The '''Soul Harvester''' is a craftable [[Hardmode]] [[melee weapon]]. It works similarly to the [[Death Sickle]], as it shoots out spinning plague scythes, which stop after a certain time and spin in place, inflicting the [[Plague]] [[debuff]] to [[enemies]]. This projectile can pierce through multiple enemies, goes through blocks and gives off light, making it useful in caves. Enemies below 15% health hit by main swing itself will take an additional hit resulting from a dust explosion. The sickle additionally inflicts the Plague and [[Cursed Inferno]] debuffs.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:灵魂收割者]]

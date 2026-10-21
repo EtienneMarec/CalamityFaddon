@@ -1,0 +1,25 @@
+{{item infobox
+|type=Potion
+|stack = 9999
+|rare=4
+|use=17
+|tooltip=Highlights nearby creatures, projectiles,<br/>danger sources, and treasure
+|consumable=yes
+|buff=Triboluminescence | bufflink = no
+|duration=15 minutes
+|bufftip=You can truly see everything
+| sell = {{value|0|0|80}}
+}}
+
+The '''Potion of Triboluminescence''' is a craftable Pre-[[Hardmode]] [[Buff Potions|buff potion]] that grants the '''Triboluminescence''' [[buff]] upon usage, which grants the effects of the [[Hunter Potion|Hunter]], [[Spelunker Potion|Spelunker]], [[Dangersense Potion|Dangersense]], and [[Potion of Omniscience|Omniscience]] potions simultaneously. This causes enemies, treasures, traps, and enemy projectiles onscreen to be highlighted. Additionally, the Triboluminescence buff highlights all friendly projectiles.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This potion can only be crafted at an [[Alchemy Table]].
+
+{{Master Template Consumables
+| show-main = yes
+| show-buff = yes
+}}

@@ -1,0 +1,25 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Stealth strikes only expend 50% of your max stealth<br/>6% increased Spy damage, and 6% increased Spy crit chance
+| sell = {{value|0|4|80}}
+| rare = 5
+| hardmode = yes
+| stack = 1
+}}
+
+The '''Ruin Medallion''' is a craftable [[Hardmode]] [[Spy]] [[covering]]. When equipped, [[stealth strike]]s only require and consume half of the player's maximum stealth to perform. It also grants the player a 6% increase to Spy damage and critical strike chance.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Unholy Core}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

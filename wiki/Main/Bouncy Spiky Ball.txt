@@ -1,0 +1,32 @@
+{{item infobox
+| type = Weapon
+| damage = 10
+| consumable = yes
+| use = 17
+| knockback = 1
+| damagetype = Rogue
+| rare = 1
+| tooltip = Throws a very bouncy ball that richochets {{sic}} off walls and enemies<br/>Receives a small boost in damage and velocity after bouncing off an enemy<br/>Stealth strikes provide a bigger boost after richocheting {{sic}}
+| sell = {{value|0|0|0|20}}
+| velocity = 8
+| stack = 9999
+| auto = yes
+| element1 = Stab
+}}
+
+'''Bouncy Spiky Balls''' are craftable [[Pre-Hardmode]] consumable [[spiky balls]]. They throw gravity-affected spiky balls that bounce off solid blocks. When a ball hits an enemy, it ricochets to other nearby enemies and gains a multiplicative boost of 1.1x per enemy hit.
+
+Performing a [[stealth strike]] with Bouncy Spiky Balls causes the next spiky ball thrown to have its damage be increased by 1.5 times per bounce instead of 1.1.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Spiky Balls]]
+[[Category:Consumable items]]

@@ -1,0 +1,77 @@
+{{addon|Deimos, the Starborn Princess}}
+{{npc infobox
+| type = Flying Enemy
+| environment = Martian Madness
+| ai = Distortion Essence Sphere AI
+| damage = 0 (Contact)<br/>{{dv|75|boost=0.25}} (Laser Beams)<br/>{{dv|100|boost=0.25}} (Black Hole)<br/>{{dv|150|boost=0.25}} (Deathbeams)
+| life = {{dv|125,000|175,000}} (Wave 5)<br/>{{dv|70,000|100,000}}
+| defense = 35
+| dr = 33.33%
+| knockback = 100
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| duration = 3 seconds
+| debufftip = Your flesh is burning off
+| debuff2 = Whispering Death
+| debuffchance2 = 100%
+| duration2 = 2 seconds (Deathbeams, Black Hole)
+| debufftip2 = Death approaches; defense, movement speed, attack power and life regen reduced
+| money = {{value|15|0|0|0}}
+| Arean Conduit Plating|{{dv|25-50|50-100}}|100%
+| Martian Conduit Plating|40-100|100%
+| Cosmilite Slag|{{dv|3-5|4-6}}|100%
+| Phantoplasm|{{dv|10-13|12-17}}|100%
+| hardmode = yes
+| postml = yes
+| banner = no
+| immune1 = Confused
+| immune2 = God Slayer Inferno
+| immune3 = Whispering Death
+| vulnerable1 = Holy
+| vulnerable2 = Stab
+| resistant1 = Magic
+| resistant2 = Slash
+| resistant3 = Dark
+| resistant4 = Machine
+| image2 = Distortion Essence Sphere map.png
+| image2caption = Map Icon
+| hurt = OtherworldlyHit.wav
+| killed = NPC_Killed_56.wav
+| sound = DevourerAttack.wav
+| soundtext = Spawn
+| sound2 = Item_122.wav
+| sound2text = Cosmic Guardian Spawn
+| sound3 = Item_92.wav
+| sound3text = Dash
+| sound4 = LaserCannon.wav
+| sound4text = Laser Beams
+| sound5 = PlasmaCasterFire.wav
+| sound5text = Black Hole Spawn
+| sound6 = NPC_Killed_56.wav
+| sound6text = Black Hole Explosion
+| sound7 = LaserCannon.wav
+| sound7text = Deathbeam Telegraphs
+| sound8 = Zombie_104.wav
+| sound8text = Deathbeams
+}}
+
+The '''Distortion Essence Sphere''' (Japanese: ディストーションエッセンススフィア ''Disutōshon'essensusufia'') is a Godseeker Mode [[mini boss]] that spawns in the post-[[The Starborn Moth|Starborn Moth]] [[Martian Madness]] event. It spawns on waves 5 of the event and later waves with reduced health or can be spawned in manually by using a [[Cosmic Entangler]], It has 5 attacks that are as follows: 
+
+*Spawns in a [[Cosmic Guardian]] and dashes toward the player, Cosmic Guardians will orbit around the Boss. Up to 2 Cosmic Guardians can be alive at the same time.
+*Fires several spreads of {{dv|8|10}} evenly spaced Laser Beams in all directions while the Boss approaches the player.
+*Dashes away from the player and creates a Black Hole, the Black Hole will chase down the player for 3 seconds before exploding into a spread of {{dv|12|16}} Laser Beams.
+*The Boss starts slowly moving towards the player and creates {{dv|3|4}} evenly spaced lines, which turn into solide Deathbeams after {{dv|1.5|1}} seconds which spin clockwise. 
+
+=== Summons ===
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align = center |{{item|mode=table|Cosmic Guardian}} || Always
+|
+|}
+
+== Notes ==
+*The [[Martian Madness]] event cannot progress while a Distortion Essence Sphere is alive during wave 5.
+*[[Martian Madness]] enemies cannot spawn while the Boss is alive.
+{{-}}
+{{DeimosMod}}

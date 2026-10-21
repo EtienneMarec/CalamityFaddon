@@ -1,0 +1,52 @@
+{{infobox wrapper
+|{{item infobox
+| type = Bait
+| type2 = Crafting material
+| bait = 40
+| rare = 2
+| use = 14
+| auto = yes
+| consumable = yes
+| sell = {{value|0|0|8}}
+| stack = 9999
+| hardmode = yes
+}}
+|{{npc infobox | boxwidth=21em
+| type = Critter
+| image = Twinkler (critter).png
+| environment = Astral Infection
+| ai = Firefly AI
+| damage = 0
+| life = 5
+| defense = 0
+| knockback = 0
+| immune1 = Confused
+| immune2 = Kami Flu
+| hardmode = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+}}
+{{distinguish|Twinkle|an enemy from the [[Stardust Pillar]]}}
+
+The '''Twinkler''' is a [[Hardmode]] [[critter]] found within the [[Astral Infection]] that acts similarly to a [[Firefly]]. Twinklers can be caught with a [[Bug Net]] or [[Golden Bug Net]] and, unlike other critters added by the Calamity Mod, may be used as [[Fishing|fishing bait]], with a bait power of 40%.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+
+== Notes ==
+*Twinklers can be summoned using the [[Firefly Statue]].
+*Twinklers may also be obtained from [[Astral Crate]]s.
+
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}
+
+[[es:Twinkler]]

@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| stack = 1
+| damagetype = ranged
+| auto = yes
+| damage = 31
+| knockback = 2.5
+| rare = 8
+| tooltip = Fires two bullets at once<br/>The gun also deals damage to enemies that touch it
+| sell = {{value|0|16}}
+| use = 7
+| debuff = On Fire!
+| debuffduration = 6 seconds (Contact with gun)
+| debuffchance = 100%
+| debufftip = Slowly losing life
+| velocity = 11.5
+| hardmode = yes
+| element1 = Fire
+| element2 = Stab
+}}
+
+The '''Helstorm''' is a craftable [[Hardmode]] [[gun]]. When used, it rapidly auto-fires two bullets at once, with a slightly random spread. The gun itself deals contact damage to enemies, an uncommon property for a [[ranged weapon]] that it shares with weapons such as [[Marnite Bayonet]] and [[Hellborn]]. Enemies that take contact damage from the gun will be inflicted with the [[On Fire!]] debuff.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*As the gun's hitbox does not change based on aim, it will not always hit enemies that pass through the sprite.
+*When dealing contact damage with the gun itself, the base damage is the same and the damage type is still Ranged.
+
+== Trivia ==
+*Despite being called the "Helstorm", it does not share a connection with [[The Underworld]].
+**This is likely because [[Scoria Ore]] used to spawn in the Underworld, before being moved to the [[Abyss]].
+
+{{Scoria}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

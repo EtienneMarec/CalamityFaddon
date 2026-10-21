@@ -1,0 +1,41 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| auto = yes
+| damage = 25
+| damagetype = Ranged
+| velocity = 12
+| knockback = 2
+| use = 24
+| stack = 1
+| tooltip = Fires a string of piercing spade cards when musket balls are used as ammo.
+| rare = 2
+| sell = {{value|0|0|20}}
+| debuff=On Fire!
+| debufftip=Health loss
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| proj = Spades.png
+| projcaption = Spades
+| element1 = Fire
+| element2 = Stab
+}}
+
+The '''Ace's Low''' is a craftable Pre-[[Hardmode]] [[gun]]. It automatically fires a line of 3 spade cards with a mild delay between each set which pierce through 3 enemies before dissipating on the fourth. Cards inflict the [[On Fire!]] [[debuff]] upon contact with enemies.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon's color scheme and shooting of spades is a reference to Lancer from ''[[wikipedia:Deltarune|Deltarune]]''.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

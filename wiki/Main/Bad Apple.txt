@@ -1,0 +1,61 @@
+{{Infobox wrapper|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 11
+| knockback = 5
+| use = 15
+| tooltip = Summons Utsuho Reiuji to fight for you using nuclear power<br>Utsuho requires 5 minion slots to summon, and can only be summoned once<br>You might cause another incident
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffduration = 4 seconds
+| debuffchance = 100%
+| debuff2 = Daybroken
+| debufftip2 = Incinerated by solar rays
+| debuffduration2 = 2 seconds
+| debuffchance2 = 100%
+| buff = Utsuho Reiuji
+| bufflink = no
+| bufftip = Empowered by nuclear fusion
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 8
+| sell = {{value|0|16}}
+| element1 = Poison
+| element2 = Fire
+|sound=MiracleFruitConsume.wav
+|soundtext=Use
+}}}}
+{{summoned|Utsuho Reiuji|type=minion}}
+
+The '''Bad Apple''' is a [[Hardmode]] [[Summon weapons|summon weapon]] dropped by the [[Plaguebringer Goliath]]. It summons Utsuho Reiuji. 
+
+
+The summon follows a set pattern, repeating after completing the final attack:
+
+*Shoots 2 rounds of 16 orbs in that home in aggressively after half a second. They deal 400% of the weapon's damage.
+*Utsuho summons 3 giant stars that explode into homing flares. The explosions deal 1500% of the weapon's damage, while the flares deal 500% of the weapon's damage.
+*Utsuho dives towards the closest enemy, exploding upon contact with an enemy, dealing 2000% of the weapon's damage.
+*Utsuho fires 6 rays of energy that home towards the closest enemy. The rays deal 500% of the weapon's damage.
+
+If the player falls below half health, Utsuho enrages, which is acompanied with an alarm sound and replaces the attack pattern with a more powerful one:
+
+*Utsuho summons two giant stars to orbit her for 10 seconds, dealing 250% of the weapon's damage and ignoring immunity frames. The giant stars leave a trail of homing flares that deal 200% of the weapon's damage.
+*A massive star appears above Utsuho, which grows in size and fires six smaller stars that home towards the closest enemy and deal 700% of the weapon's damage, before momentarily creating a massive explosion dealing '''6000%''' of the weapon's damage. This attack is skipped for the next three rotations after it is performed.
+*Utsuho dives towards the closest enemy three times, leaving a trail of homing flares that deal 300% of the weapon's damage, and exploding upon contact with an enemy, dealing 3000% of the weapon's damage.
+*Utsuho throws three giant stars that fly around and fires 12 rays of energy that home towards the closest enemy. The rays deal 500% of the weapon's damage. The stars explode and deal 1200% of the weapon's damage when hit by the rays of energy.
+
+
+All attacks inflict Plague and Daybroken. The Daybroken debuff cannot stack with anything that can inflict Daybroken, with the exception of the [[tgc:Solar_Eruption|Solar Eruption]] and [[tgc:Daybreak|Daybreak]].
+
+Its best [[modifier]] is '''Mythical'''. While '''Ruthless''' may seem to provide a bigger damage by percentages, rounding reveals that Mythical and Ruthless boost the damage equally for this weapon.
+
+==Trivia==
+
+*The weapon's name and summon are a reference to the Japanese game series called ''[[wikipedia:Touhou_Project|Touhou Project]].''
+**The damage value of 11 is a reference to [https://en.touhouwiki.net/wiki/Subterranean_Animism Subterranean Animism], the 11th official game in the series. This is the game where Utsuho Reiuji appears as the final boss.
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,207 @@
+<includeonly>{|class="terraria" style="white-space:nowrap"
+! colspan="3"|<h3>Inventory</h3>
+|-
+! Item
+! Cost
+! Availability
+|-<!-- to determine the parameter # of the 1st parameter used in each table row:  ( ( (shop row #) -1 ) * 3 ) +1 -->
+{{#if:{{{1|}}}|
+{{!}} {{item|{{{1|}}}}}
+{{!}} style="text-align:right" {{!}} {{{2|}}}
+{{!}} {{#ifeq:{{{3|}}}||<span style="color:gray">Always available.</span>|{{{3|}}}}}}}
+|-
+{{#if:{{{4|}}}|
+{{!}} {{item|{{{4|}}}}}
+{{!}} style="text-align:right" {{!}} {{{5|}}}
+{{!}} {{#ifeq:{{{6|}}}||<span style="color:gray">Always available.</span>|{{{6|}}}}}}}
+|-
+{{#if:{{{7|}}}|
+{{!}} {{item|{{{7|}}}}}
+{{!}} style="text-align:right" {{!}} {{{8|}}}
+{{!}} {{#ifeq:{{{9|}}}||<span style="color:gray">Always available.</span>|{{{9|}}}}}}}
+|-
+{{#if:{{{10|}}}|
+{{!}} {{item|{{{10|}}}}}
+{{!}} style="text-align:right" {{!}} {{{11|}}}
+{{!}} {{#ifeq:{{{12|}}}||<span style="color:gray">Always available.</span>|{{{12|}}}}}}}
+|-
+{{#if:{{{13|}}}|
+{{!}} {{item|{{{13|}}}}}
+{{!}} style="text-align:right" {{!}} {{{14|}}}
+{{!}} {{#ifeq:{{{15|}}}||<span style="color:gray">Always available.</span>|{{{15|}}}}}}}
+|-
+{{#if:{{{16|}}}|
+{{!}} {{item|{{{16|}}}}}
+{{!}} style="text-align:right" {{!}} {{{17|}}}
+{{!}} {{#ifeq:{{{18|}}}||<span style="color:gray">Always available.</span>|{{{18|}}}}}}}
+|-
+{{#if:{{{19|}}}|
+{{!}} {{item|{{{19|}}}}}
+{{!}} style="text-align:right" {{!}} {{{20|}}}
+{{!}} {{#ifeq:{{{21|}}}||<span style="color:gray">Always available.</span>|{{{21|}}}}}}}
+|-
+{{#if:{{{22|}}}|
+{{!}} {{item|{{{22|}}}}}
+{{!}} style="text-align:right" {{!}} {{{23|}}}
+{{!}} {{#ifeq:{{{24|}}}||<span style="color:gray">Always available.</span>|{{{24|}}}}}}}
+|-
+{{#if:{{{25|}}}|
+{{!}} {{item|{{{25|}}}}}
+{{!}} style="text-align:right" {{!}} {{{26|}}}
+{{!}} {{#ifeq:{{{27|}}}||<span style="color:gray">Always available.</span>|{{{27|}}}}}}}
+|-
+{{#if:{{{28|}}}|
+{{!}} {{item|{{{28|}}}}}
+{{!}} style="text-align:right" {{!}} {{{29|}}}
+{{!}} {{#ifeq:{{{30|}}}||<span style="color:gray">Always available.</span>|{{{30|}}}}}}}
+|-
+{{#if:{{{31|}}}|
+{{!}} {{item|{{{31|}}}}}
+{{!}} style="text-align:right" {{!}} {{{32|}}}
+{{!}} {{#ifeq:{{{33|}}}||<span style="color:gray">Always available.</span>|{{{33|}}}}}}}
+|-
+{{#if:{{{34|}}}|
+{{!}} {{item|{{{34|}}}}}
+{{!}} style="text-align:right" {{!}} {{{35|}}}
+{{!}} {{#ifeq:{{{36|}}}||<span style="color:gray">Always available.</span>|{{{36|}}}}}}}
+|-
+{{#if:{{{37|}}}|
+{{!}} {{item|{{{37|}}}}}
+{{!}} style="text-align:right" {{!}} {{{38|}}}
+{{!}} {{#ifeq:{{{39|}}}||<span style="color:gray">Always available.</span>|{{{39|}}}}}}}
+|-
+{{#if:{{{40|}}}|
+{{!}} {{item|{{{40|}}}}}
+{{!}} style="text-align:right" {{!}} {{{41|}}}
+{{!}} {{#ifeq:{{{42|}}}||<span style="color:gray">Always available.</span>|{{{42|}}}}}}}
+|-
+{{#if:{{{43|}}}|
+{{!}} {{item|{{{43|}}}}}
+{{!}} style="text-align:right" {{!}} {{{44|}}}
+{{!}} {{#ifeq:{{{45|}}}||<span style="color:gray">Always available.</span>|{{{45|}}}}}}}
+|-
+{{#if:{{{46|}}}|
+{{!}} {{item|{{{46|}}}}}
+{{!}} style="text-align:right" {{!}} {{{47|}}}
+{{!}} {{#ifeq:{{{48|}}}||<span style="color:gray">Always available.</span>|{{{48|}}}}}}}
+|-
+{{#if:{{{49|}}}|
+{{!}} {{item|{{{49|}}}}}
+{{!}} style="text-align:right" {{!}} {{{50|}}}
+{{!}} {{#ifeq:{{{51|}}}||<span style="color:gray">Always available.</span>|{{{51|}}}}}}}
+|-
+{{#if:{{{52|}}}|
+{{!}} {{item|{{{52|}}}}}
+{{!}} style="text-align:right" {{!}} {{{53|}}}
+{{!}} {{#ifeq:{{{54|}}}||<span style="color:gray">Always available.</span>|{{{54|}}}}}}}
+|-
+{{#if:{{{55|}}}|
+{{!}} {{item|{{{55|}}}}}
+{{!}} style="text-align:right" {{!}} {{{56|}}}
+{{!}} {{#ifeq:{{{57|}}}||<span style="color:gray">Always available.</span>|{{{57|}}}}}}}
+|-
+{{#if:{{{58|}}}|
+{{!}} {{item|{{{58|}}}}}
+{{!}} style="text-align:right" {{!}} {{{59|}}}
+{{!}} {{#ifeq:{{{60|}}}||<span style="color:gray">Always available.</span>|{{{60|}}}}}}}
+|-
+{{#if:{{{61|}}}|
+{{!}} {{item|{{{61|}}}}}
+{{!}} style="text-align:right" {{!}} {{{62|}}}
+{{!}} {{#ifeq:{{{63|}}}||<span style="color:gray">Always available.</span>|{{{63|}}}}}}}
+|-
+{{#if:{{{64|}}}|
+{{!}} {{item|{{{64|}}}}}
+{{!}} style="text-align:right" {{!}} {{{65|}}}
+{{!}} {{#ifeq:{{{66|}}}||<span style="color:gray">Always available.</span>|{{{66|}}}}}}}
+|-
+{{#if:{{{67|}}}|
+{{!}} {{item|{{{67|}}}}}
+{{!}} style="text-align:right" {{!}} {{{68|}}}
+{{!}} {{#ifeq:{{{69|}}}||<span style="color:gray">Always available.</span>|{{{69|}}}}}}}
+|-
+{{#if:{{{70|}}}|
+{{!}} {{item|{{{70|}}}}}
+{{!}} style="text-align:right" {{!}} {{{71|}}}
+{{!}} {{#ifeq:{{{72|}}}||<span style="color:gray">Always available.</span>|{{{72|}}}}}}}
+|-
+{{#if:{{{73|}}}|
+{{!}} {{item|{{{73|}}}}}
+{{!}} style="text-align:right" {{!}} {{{74|}}}
+{{!}} {{#ifeq:{{{75|}}}||<span style="color:gray">Always available.</span>|{{{75|}}}}}}}
+|-
+{{#if:{{{76|}}}|
+{{!}} {{item|{{{76|}}}}}
+{{!}} style="text-align:right" {{!}} {{{77|}}}
+{{!}} {{#ifeq:{{{78|}}}||<span style="color:gray">Always available.</span>|{{{78|}}}}}}}
+|-
+{{#if:{{{79|}}}|
+{{!}} {{item|{{{79|}}}}}
+{{!}} style="text-align:right" {{!}} {{{80|}}}
+{{!}} {{#ifeq:{{{81|}}}||<span style="color:gray">Always available.</span>|{{{81|}}}}}}}
+|-
+{{#if:{{{82|}}}|
+{{!}} {{item|{{{82|}}}}}
+{{!}} style="text-align:right" {{!}} {{{83|}}}
+{{!}} {{#ifeq:{{{84|}}}||<span style="color:gray">Always available.</span>|{{{84|}}}}}}}
+|-
+{{#if:{{{85|}}}|
+{{!}} {{item|{{{85|}}}}}
+{{!}} style="text-align:right" {{!}} {{{86|}}}
+{{!}} {{#ifeq:{{{87|}}}||<span style="color:gray">Always available.</span>|{{{87|}}}}}}}
+|-
+{{#if:{{{88|}}}|
+{{!}} {{item|{{{88|}}}}}
+{{!}} style="text-align:right" {{!}} {{{89|}}}
+{{!}} {{#ifeq:{{{90|}}}||<span style="color:gray">Always available.</span>|{{{90|}}}}}}}
+|-
+{{#if:{{{91|}}}|
+{{!}} {{item|{{{91|}}}}}
+{{!}} style="text-align:right" {{!}} {{{92|}}}
+{{!}} {{#ifeq:{{{93|}}}||<span style="color:gray">Always available.</span>|{{{93|}}}}}}}
+|-
+{{#if:{{{94|}}}|
+{{!}} {{item|{{{94|}}}}}
+{{!}} style="text-align:right" {{!}} {{{95|}}}
+{{!}} {{#ifeq:{{{96|}}}||<span style="color:gray">Always available.</span>|{{{96|}}}}}}}
+|-
+{{#if:{{{97|}}}|
+{{!}} {{item|{{{97|}}}}}
+{{!}} style="text-align:right" {{!}} {{{98|}}}
+{{!}} {{#ifeq:{{{99|}}}||<span style="color:gray">Always available.</span>|{{{99|}}}}}}}
+|-
+{{#if:{{{100|}}}|
+{{!}} {{item|{{{100|}}}}}
+{{!}} style="text-align:right" {{!}} {{{101|}}}
+{{!}} {{#ifeq:{{{102|}}}||<span style="color:gray">Always available.</span>|{{{102|}}}}}}}
+|-
+{{#if:{{{103|}}}|
+{{!}} {{item|{{{103|}}}}}
+{{!}} style="text-align:right" {{!}} {{{104|}}}
+{{!}} {{#ifeq:{{{105|}}}||<span style="color:gray">Always available.</span>|{{{105|}}}}}}}
+|-
+{{#if:{{{106|}}}|
+{{!}} {{item|{{{106|}}}}}
+{{!}} style="text-align:right" {{!}} {{{107|}}}
+{{!}} {{#ifeq:{{{108|}}}||<span style="color:gray">Always available.</span>|{{{108|}}}}}}}
+|-
+{{#if:{{{109|}}}|
+{{!}} {{item|{{{109|}}}}}
+{{!}} style="text-align:right" {{!}} {{{110|}}}
+{{!}} {{#ifeq:{{{111|}}}||<span style="color:gray">Always available.</span>|{{{111|}}}}}}}
+|-
+{{#if:{{{112|}}}|
+{{!}} {{item|{{{112|}}}}}
+{{!}} style="text-align:right" {{!}} {{{113|}}}
+{{!}} {{#ifeq:{{{114|}}}||<span style="color:gray">Always available.</span>|{{{114|}}}}}}}
+|-
+{{#if:{{{115|}}}|
+{{!}} {{item|{{{115|}}}}}
+{{!}} style="text-align:right" {{!}} {{{116|}}}
+{{!}} {{#ifeq:{{{117|}}}||<span style="color:gray">Always available.</span>|{{{117|}}}}}}}
+|-
+{{#if:{{{118|}}}|<!-- this table can handle 40 possible vendor items-->
+{{!}} {{item|{{{118|}}}}}
+{{!}} style="text-align:right" {{!}} {{{119|}}}
+{{!}} {{#ifeq:{{{120|}}}||<span style="color:gray">Always available.</span>|{{{120|}}}}}}}
+|}</includeonly><noinclude>{{doc}}</noinclude>

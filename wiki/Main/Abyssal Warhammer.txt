@@ -1,0 +1,38 @@
+{{item infobox
+| hammer = 88
+| type = Tool
+| damagetype = Melee
+| damage = 42
+| use = 37
+| stack = 1
+| bonus = +1 range
+| knockback = 8
+| auto = yes
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|7|20}}
+| toolspeed = 10
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| element1 = Smash
+}}
+
+The '''Abyssal Warhammer''' is a craftable [[Hardmode]] [[hammer]].
+
+{{Modifier|harvest}}
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The Abyssal Warhammer has the slowest tool speed of any hammer in either vanilla or Calamity.
+
+{{Cryonic}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category: Hammers]]
+[[zh:深渊战锤]]

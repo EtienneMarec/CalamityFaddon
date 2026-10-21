@@ -1,0 +1,110 @@
+<!--// VARIABLE DEFINITIONS
+--><includeonly>{{#vardefine:vbox_cur|{{{current|{{BASEPAGENAME}}}}}}}<!--
+
+-->{{#vardefine:vbox_prev|{{{prev|<!--
+	-->{{#iferror:<!--
+		-->{{#expr:0+{{#dpl:<!--
+			-->|category={{l10n|patch infobox|cate}}<!--
+			-->|titlelt={{#var:vbox_cur}}<!--
+			-->|nottitlematch=%(music)%<!--
+			-->|count=1<!--
+			-->|ordermethod=title<!--
+			-->|order=descending<!--
+			-->|format=,,,<!--
+			-->|resultsheader=%PAGES%<!--
+		-->}}}}<!-- if the dpl query has no results
+	-->|&mdash;<!-- then print dash
+	-->|{{#dpl:<!-- else print link to version
+		-->|category={{l10n|patch infobox|cate}}<!--
+		-->|titlelt={{#var:vbox_cur}}<!--
+		-->|nottitlematch=%(music)%<!--
+		-->|count=1<!--
+		-->|ordermethod=title<!--
+		-->|order=descending<!--
+		-->|format=,[[%PAGE%{{#if:{{langList|isOnWiki}}|/{{lang}}}}|%PAGE%]],,<!--
+		-->}}<!--
+	-->}}<!-- end of iferror
+-->}}}}}<!--
+
+-->{{#vardefine:vbox_next|{{{next|<!--
+	-->{{#iferror:<!--
+		-->{{#expr:0+{{#dpl:<!--
+			-->|category={{l10n|patch infobox|cate}}<!--
+			-->|titlegt={{#var:vbox_cur}}<!--
+			-->|nottitlematch=%(music)%<!--
+			-->|count=1<!--
+			-->|ordermethod=title<!--
+			-->|format=,,,<!--
+			-->|resultsheader=%PAGES%<!--
+		-->}}}}<!-- if the dpl query has no results
+	-->|&mdash;<!-- then print dash
+	-->|{{#dpl:<!-- else print link to version
+		-->|category={{l10n|patch infobox|cate}}<!--
+		-->|titlegt={{#var:vbox_cur}}<!--
+		-->|nottitlematch=%(music)%<!--
+		-->|count=1<!--
+		-->|ordermethod=title<!--
+		-->|format=,[[%PAGE%{{#if:{{langList|isOnWiki}}|/{{lang}}}}|%PAGE%]],,<!--
+		-->}}<!--
+	-->}}<!-- end of iferror
+-->}}}}}<!--
+
+-->{{#vardefine:vbox_imagesize|<!--
+	-->{{#if:{{{size|}}}|<!--
+		-->{{!}}{{{size}}}<!--
+	-->}}<!--
+-->}}<!--
+
+-->{{#vardefine:vbox_image|<!--
+	-->{{#if:{{{image|}}}<!--
+		-->|[[File:{{{image}}}|{{#var:vbox_cur}}{{#var:vbox_imagesize}}]]<!--
+		-->|{{ifexists|Media:{{#var:vbox_cur}} Banner.png<!--
+			-->|[[File:{{#var:vbox_cur}} Banner.png{{#var:vbox_imagesize}}]]<!--
+			-->|{{ifexists|Media:{{#var:vbox_cur}} Banner.jpg|[[File:{{#var:vbox_cur}} Banner.jpg{{#var:vbox_imagesize}}]]}}<!--
+		 -->}}<!--
+	-->}}<!--
+-->}}<!--
+
+
+// OUTPUT
+
+// infobox
+--><div>
+{| class="infobox" style="font-size:89%; width:21em; -moz-border-radius: .7em; -webkit-border-radius: .7em; border-radius: .7em;"
+|-
+! colspan=3 class="title" style="font-size:120%; padding:0.5em;" | {{{title|{{BASEPAGENAME}}}}}
+|-
+| colspan=3 style="text-align: center;" | {{#var:vbox_image}}{{#if:{{{caption|}}}|<br/>{{{caption}}}}}
+|-
+! colspan=3 class="title" | <i>{{l10n|patch infobox|patchnameformat|$patchname$={{{patchname|Terraria {{#var:vbox_cur}}}}}}}</i>
+|-
+| style="width:40%" | <b>{{l10n|patch infobox|release_date}}</b>
+| style="width:60%" colspan=2 | {{#if:{{{release|}}}|{{#time:{{l10n|patch infobox|dateformat}}|{{{release|}}}|{{lang}}}}|{{note|{{l10n|patch infobox|tba}}}}}}{{#if:{{{ref|}}}|{{#tag:ref|{{{ref}}}}}}}
+|-
+{{#if:{{{pair|}}}|
+! colspan=3 class="title" {{!}} <b>{{#if:{{#pos:{{BASEPAGENAME}}|(music)}}|{{l10n|patch infobox|main_mod}}|{{l10n|patch infobox|music_mod}}}}</b>
+{{!}}-
+{{!}} align=center colspan=3 {{!}} [[{{{pair}}}]]
+{{!}}-
+}}
+! colspan=3 class="title" | <b>{{l10n|patch infobox|chronology}}</b>
+|-
+! colspan=1 | &larr;&nbsp;{{l10n|patch infobox|prev}}&nbsp;
+! colspan=1 | &nbsp;&nbsp;{{l10n|patch infobox|next}}&nbsp;&rarr;&nbsp;&nbsp;
+|-
+| style="text-align:center;width:50%;" | {{#var:vbox_prev}}
+| style="text-align:center;width:50%;" | {{#var:vbox_next}}
+|-
+! colspan=3 class="title" | {{l10n|patch infobox|useful_links}}
+|-
+| align=center colspan=2 | [[{{l10n|patch infobox|versionhistory_link}}|{{l10n|patch infobox|versionhistory}}]] {{*}} [[:Category:{{l10n|patch infobox|cate}}|{{l10n|patch infobox|all_patches}}]]
+|}</div><!--
+
+-->{{#switch:{{{cate|}}}<!--
+	-->|no=<!--
+	-->|force=[[Category:{{l10n|patch infobox|cate}}]]<!-- force categorization
+	-->|#default={{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:{{l10n|patch infobox|cate}}]]}}<!-- by default only categorize mainspace pages
+-->}}<!--
+
+--></includeonly><!--
+--><noinclude>{{i18n-ready}}{{doc}}</noinclude>

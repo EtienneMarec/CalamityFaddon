@@ -1,0 +1,24 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Turns you into a light mech<br/>+100 max life, +30 defence, +25% jump height, -50% movement speed
+| rare = 5
+| sell = {{value|0|30}}
+| stack = 1
+| hardmode = yes
+}}
+
+The '''Palladium Light Circuit''' is a craftable [[Hardmode]] [[covering]] that turns the player into a light mech. The mech form increases the max hp by 100, defence by 30 and jump height by 25%, but it halves the movement speed. It is a counterpart to [[Cobalt Night Circuit]]
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]

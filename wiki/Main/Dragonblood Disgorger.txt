@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damage = 160
+| use = 14
+| mana = 10
+| knockback = 4
+| damagetype = Summon
+| tooltip = Summons a skeletal dragon and her two children<br/>Requires 6 minion slots to be summoned<br/>There can only be one family
+| buff = Skeletal Dragons (buff) | bufflink= no
+| bufftip = Big happy family
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Blood Spit.gif
+| projcaption = Blood Shot
+| element1 = Unholy
+| element2 = Fire
+}}
+{{summoned|Skeletal Dragons|type=minion}}
+
+The '''Dragonblood Disgorger''' is a craftable Godseeker Mode [[summon weapon]]. It summons a large dragon minion accompanied by her two children. The main dragon wanders around and breathes bloodfire at nearby enemies, while the children spit [[lifesteal|healing]] blood shots and charge violently.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Bloodstone}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

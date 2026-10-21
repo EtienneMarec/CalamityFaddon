@@ -1,0 +1,25 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+|type = Potion
+|tooltip = Increases player defense by 30
+|stack = 9999
+|rare = C1
+|use = 17
+|consumable = yes
+|buff = Esseric Skin (buff) | bufflink = no
+|duration = 8 minutes
+|sell = {{value|0|20}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+The '''Esseric Skin Potion''' is a craftable post-[[Purgatory Arbiter, Umbrus]] [[Buff Potions|buff potion]]. Upon consumption it grants the player 30 additional defense.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

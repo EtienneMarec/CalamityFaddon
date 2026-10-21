@@ -1,0 +1,40 @@
+{{dablink|For the vanilla debuff page, see [[tgc:Venom|Venom]]}}
+
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-6 life per second<br/>-15% movement speed (if player)<br/>-6 life per second (if enemy)
+| tooltip = Losing life
+}}
+
+'''Venom''' is a vanilla [[debuff]] that deals damage over time and prevents the natural [[health regeneration]] to anything it afflicts. The Calamity Mod causes the Venom debuff to also reduce the player's movement speed by 15%. Enemies affected by the debuff through the [[Lionfish]] or [[Sulphuric Acid Cannon]] take additional damage by allowing the debuff to stack. Additionally, certain enemies hit by the Lionfish and bubbles from the Sulphuric Acid Cannon will have their Venom immunity removed.
+
+== Causes ==
+=== From Calamity Items ===
+{{item debuffs
+|{{item|mode=table|Flask of Venom}}|5-9 seconds (Spy attacks)|100%
+}}
+
+=== From Calamity NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|-
+| {{item|mode=table|Mauler}}||2 seconds (Sulphuric bubbles and mist)||100%
+|-
+| {{item|mode=table|Radiator}}||Infinite (Aura Post-[[Polterghast]])||100%
+|}
+
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

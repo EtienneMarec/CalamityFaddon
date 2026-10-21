@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = The power of a god pulses from within this artifact<br/>Flaming meteors rain down while invincibility is active<br/>Exploding dragon dust is left behind as you move<br/>Damage and movement speed increased by 15%
+| rare = 11
+| sell = {{value|0|30}}
+| stack = 1
+| defense = 30
+| hardmode = yes
+| postml = yes
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| debuffduration = 2 seconds (Exploding dragon dust)
+| proj = Sky Flare.gif
+| projcaption = Flaming Meteor
+}}
+|{{item drops infobox
+|[[Jungle Dragon, Yharon]]|1|100%
+}}
+}}
+
+The '''Yharim's Gift''' is a Godseeker Mode [[covering]] dropped by [[Jungle Dragon, Yharon]]. It gives the player 30 [[defense]], 15% increased movement speed, and 15% increased damage. While the covering is equipped, the player occasionally leaves behind exploding dragon dust while moving. The exploding dragon dust deals 175 damage every frame, lasts for roughly 1 second, and inflicts [[Holy Flames]] for 2 seconds on hit. When invincibility is active (i.e. when the player is damaged, enters the world or uses the [[Magic Mirror]]), flaming meteors will fall from the sky. The meteors have a base damage of 750.
+
+== Crafting ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The exploding dragon dust deals a total of 20,300 damage over the 58 frames it lasts for, if the enemy is hit by it on every frame.
+*It can be considered a Post-Moon Lord upgrade to the [[Void of Extinction]].
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

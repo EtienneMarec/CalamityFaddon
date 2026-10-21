@@ -1,0 +1,25 @@
+{|align=right
+|{{item infobox
+| type = Covering
+| defense = 8
+| rare = 5
+| sell = {{value|0|4|80}}
+| stack = 1
+| tooltip = Press [HOTKEY] to perform a omnidirectional dash that can be used to bonk enemies.<br>Has a long cooldown. <br>Initiating another dash right before hitting an enemy will allow you to control your ricochet";
+| hardmode = yes
+}}{{item drops infobox
+| [[Polyphemalus]]<br/>(When defeated using only the Sheild of Cthulhu)|1|100%
+}}
+
+|}
+
+The '''Polypebral Shield''' is a [[Hardmode]] [[covering]] that provides 8 [[defense]]. It also grants a long omnidirectional dash. Enemies hit with the dash take 80 damage, and the player is bounced back in the direction they came from. If the dash keybind is pressed right before hitting an enemy, the dash will ricochet in the direction the player is holding, and will deal an additional 40 damage per ricochet. The same enemy cannot be hit twice in one dash, regardless of how many richochets are performed. Every time an enemy is struck, the wearer is given 12 immunity frames.
+
+When attempting a ricochet, different sounds will be made depending on if you were successful, too early, or too late to ricochet.
+
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

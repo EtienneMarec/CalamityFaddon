@@ -1,0 +1,44 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 90
+| knockback = 6.75
+| crit = 4%
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| use = 22
+| tooltip = Explodes on enemy hits and summons homing flares on critical hits
+| velocity = 10
+| hardmode = yes
+| auto = yes
+| debuff=On Fire!
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 4 seconds (Spear)<br/>3 seconds (Explosion)<br/>1.5 seconds (Flare)
+| element1 = Fire
+| element2 = Stab
+}}
+
+The '''Vulcanite Lance''' is a craftable [[Hardmode]] [[spear]] that creates explosions upon contact with enemies and inflicts the [[On Fire!]] [[debuff]]. Upon critically hitting an enemy, two homing flares will fly in from off-screen and seek a target near them. The flares deal half of the spear's damage.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Vulcanite Lance was formerly known as the "Exsanguination Lance", in reference to the term "exsanguination" to refer to death by loss of blood, also known as "bleeding out".
+{{-}}
+{{Scoria}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]
+[[Category:True melee]]

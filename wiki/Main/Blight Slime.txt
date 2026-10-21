@@ -1,0 +1,72 @@
+{{npc infobox
+| name = Blight Slime
+| type = Slime
+| image = Blight Slime.gif
+| listexclude = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+The '''Blight Slime''' is a decently uncommon [[Pre-Hardmode]] [[slime]] that spawns in the [[Corruption]]/[[Crimson]] biome. It has two variants, which appear depending on the world's evil biome. It drops [[Blighted Gel]], a [[crafting material]] used in the crafting of the [[Overloaded Sludge]], which is the summoning item for [[The Slime God]], as well as various other recipes such as the [[Zen Potion]]. Throwing a Shuriken at it will turn it into the [[Ninja Slime]]
+
+== Variations ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox
+| name = Ebonian Blight Slime
+| image = Ebonian Blight Slime.png
+| environment = The Corruption
+| type = Slime
+| ai = Slime AI
+| damage = {{dv|30|60}}
+| life = {{dv|130|260}}
+| defense = 8
+| knockback = {{dv|70%|73%}}
+| debuff= Weak
+| debuffchance= 100%
+| duration= 2 seconds
+| debufftip= Physical abilities are decreased
+| debuff2= Cursed
+| debuffchance2 = 100%
+| duration2 = 1 second
+| debufftip2= Cannot use any items
+| immune1 = Kami Flu
+| immune2 = Poisoned
+| banner = yes
+| money = {{value|0|0|2|0}}
+| Blighted Gel|15-16| 100%
+| Gel|10-14| 100%
+}}
+
+|{{npc infobox
+| name = Crimulan Blight Slime
+| image = Crimulan Blight Slime.png
+| environment = The Crimson
+| type = Slime
+| ai = Slime AI
+| damage = {{dv|30|60}}
+| life = {{dv|130|260}}
+| defense = 8
+| knockback = {{dv|70%|73%}}
+| debuff= Confused
+| debuffchance = 100%
+| duration = 2 seconds
+| debufftip= Movement is reversed
+| debuff2= Cursed
+| debuffchance2 = 100%
+| duration2 = 1 second
+| debufftip2= Cannot use any items
+| immune1 = Kami Flu
+| immune2 = Poisoned
+| banner = yes
+| money = {{value|0|0|2|0}}
+| Blighted Gel|15-16| 100%
+| Gel|10-14| 100%
+}}
+|}
+{{-}}
+
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

@@ -1,0 +1,47 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 55
+| damagetype = Rogue
+| tooltip = Throws daggers that explode and split after a while<br/>Stealth strike splits more with a devastating explosion and sucks in enemies
+| use = 11
+| velocity = 20
+| knockback = 5
+| critical = 12%
+| rare = 9
+| stack = 1
+| auto = yes
+| sell = {{value|0|19|0|0}}
+| hardmode = yes
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 2 seconds
+| proj = Astral Star.png
+| projcaption = Astral Star
+| proj2 = Fallen Star (Calamity).png
+| proj2caption = Fallen Star
+| proj3 = Hallow Star.png
+| proj3caption  = Hallowed Star
+| element1 = Magic
+| element2 = Stab
+}}
+
+The '''Radiant Star''' is a craftable [[Hardmode]] non-consumable [[dagger]] that is an upgrade to the [[Prismalline]]. It shoots a projectile that is affected by gravity and cannot pass through walls. Shortly after it is thrown, it explodes and emits 3 gravity-defying copies of itself which deal half of the base damage. Hitting an enemy with the explosion will cause fallen, hallowed, and astral stars to rain down on the enemy.
+
+Performing a [[stealth strike]] with the Radiant Star will cause the next dagger thrown to split into 5 copies and emit a larger, lingering explosion that sucks in enemies.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

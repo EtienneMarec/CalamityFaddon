@@ -1,0 +1,43 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = summon
+| damage = 95
+| auto = yes
+| use = 9
+| knockback = 2.5
+| mana = 10
+| rare = 13
+| sell = {{value|0|28}}
+| stack = 1
+| tooltip = Summons a squid to fight for you
+| buff = Calamari (buff) | bufflink = no
+| bufftip = The squid will protect you
+| hardmode = yes
+| postml = yes
+| debuff=Crush Depth
+| debufftip=Aquatic pressure
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| proj = Calamari Ink.gif
+| projcaption = Ink
+| element1 = Water
+| element2 = Dark
+}}
+|{{item drops infobox
+| [[Colossal Squid]] (After [[Polterghast]] has been defeated)|1| 33.33%
+}}
+}}
+{{summoned|Calamari|type=minion}}
+
+'''Calamari's Lament''' is a Godseeker Mode [[Summon weapon|summon weapon]] that drops from [[Colossal Squid|Colossal Squids]] after [[Polterghast]] has been defeated. It summons a baby squid that shoots ink at enemies and dashes towards them.
+
+{{Modifier|summon}}
+
+[[File:Calamari's Lament (demo).gif|frame|left|The Calamari minion rapidly firing upon a [[Super Dummy]] once it is exposed.]]
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,98 @@
+{{stub}}
+<section begin=npc infobox />{{npc infobox
+| name = Disgusting Creature: Dron
+| type = Superboss
+| imagealt = [[File:Dron.gif]]
+| ai = Dron AI
+| life = {{dv|500,300,000,000|800,400,500,000|1,200,450,230,000|2,400,900,000,000|5,000,000,000,000}}
+| knockback = 60
+| immune1 = Pearl Aura
+| immune2 = Confused
+| vulnerable1 = Cold
+| vulnerable2 = Fire
+| vulnerable3 = Poison
+| vulnerable4 = Stab
+| vulnerable5 = Slash
+| vulnerable6 = Smash
+| vulnerable7 = Magic
+| vulnerable8 = Dark
+| vulnerable9 = Water
+| vulnerable10 = Holy
+| vulnerable11 = Unholy
+| vulnerable12 = Electricity
+| resistant1 = Machine
+| money = {{value|400|0}}
+| Sandy Angling Kit|5|100%
+| Bleached Angling Kit|2|100%
+| Particles of Dron|{{dv|1|2}}|100%
+| Glowing Mushroom|{{dv|10|12}}|100%
+| Exo Prism |{{dv|80-120|}}|100%
+| Cosmilite Bar |{{dv|100-150|}}|100%
+| Navyplate |{{dv|148|}}|100%
+| Cinderplate |{{dv|148|}}|100%
+| Plagueplate |{{dv|148|}}|100%
+| Chaosplate |{{dv|148|}}|100%
+| Elumplate |{{dv|148|}}|100%
+| Aeroplate |{{dv|148|}}|100%
+| Stone Block|2|80%
+| Disgusting Meat|{{dv|112-314|335-716}}|100%
+| Lesser Healing Potion|2-7|100%
+| Draedon Mask|1|14.29%
+| Dron Trophy|1|10%
+| custom| {{item|Dron, the Enigmatic Entity (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| image2 = Dron map
+| image2caption = Map Icon
+| listexclude = yes
+| boxwidth = 25em
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound2 = NPC_Killed_13.wav
+| sound2text = Vomitting vehicles
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+|defense=800|damage={{dv|3,000|5,000|10,000|15,000|20,000}}}}<section end=npc infobox />
+{{dablink|If you were looking for the entity of similar name, see [[Draedon]].}}
+[[File:Dron Trophy.png]] <big>''"...A horrible freak of nature and a bumbling imbecile, its comparisons to that of Draedon are eerie.”''</big> [[File:Dron Trophy.png]]
+
+The '''Disgusting Creature: Dron''' (Japanese: 嫌な生き物：ドローン ''Iyana ikimono: Dorōn'') is an Epilogue [[Superboss]] meant to be one of the final bosses fought by the player, and is widely considered to be the hardest bosses added by the Calamity Mod. It is intended to be fought after the [[Purgatory Arbiter, Umbrus]], but is mostly a joke character, being a caricature of Draedon.
+
+== Spawn ==
+The Disgusting Creature: Dron does not spawn on its own, and requires the player to summon it with the [[Draedon Power Pie]] anywhere at any time.
+
+=== Terrain requirements ===
+Summoning the Disgusting Creature: Dron has some unique requirements for the terrain around the summon area. If they are not fulfilled, the boss cannot be summoned successfully, and a [[status message]] appears informing the player that the surface is inadequate.
+
+* A minimum clearing of 61 tiles horizontally is required on each side of the spawning position, measured from the center of the stand (a 123-tile clearing in total, with the stand at the center tile). 
+* A minimum clearing of 10 tiles vertically is required (i.e., between the "floor" and the "ceiling", if there is one).
+*Additionally, tiles above the floor may not be immediately next to the spawning position.
+*The floor may not have holes wider than 1 block.
+
+The player can build up to a height of three tiles before blocks are considered obstructing the necessary space. [[Platforms]] and [[Actuator|inactive]] blocks do not count as part of a flat floor, and will count against the three-tile height allowance; but floor blocks with Actuators on them that are solid when the crystal is placed will count as flat, and can be successfully actuated after the event has started. In addition, closed trap doors are considered flat, and can be successfully opened and/or reclosed during the event.
+
+==Behavior==
+The Disgusting Creature: Dron itself deals no contact damage, though its large arsenal of attacks can be devastating if one is not prepared. There are also numerous different phases to his fight, reminiscent of [[Supreme Calamitas]]. Dron cycles through all of its attacks randomly and spontaneously while running around back and forth, occasionally jumping.
+
+If Dron is dealt enough damage in a certain amount of time, he will play one of his special hit-noises, and fling across the room, similar to a [[Flinx]].
+
+===Attacks===
+====Phase 1====
+*Dron will run a certain distance from the player, turning around, and open its mouth, firing a car.png projectile. The image itself changes each time it appears.
+*Dron holds out [[The Axe]] and attempt to play it. However, due to its lack of hands it is unable to, and becomes visibly frustrated. Out of frustration, Dron will swing the Axe to the ground, creating an explosion which knocks it out of the arena. After three seconds, Dron will jump back into the arena to continue the fight.
+**This gives the player a good opportunity to deal significant damage to Dron, as it is completely stationary during this time.
+====Phase 2====
+*Upon reaching 50% health, Dron will enter its second phase.
+**It still retains all its attacks from the previous phase.
+*Dron will pause to play dialogue for a new attack: a cluster of Cocoon Stars from Providence's fight. However, these are the Cocoon Healing Stars, much to its dismay. A new status message will display, declaring that it has learned its lesson, and will no longer use the attack.
+*Dron becomes irritated with the player's abusive antics, and will summon a large meteor from the background which crashing into the foreground. This attack covers up the entire arena excluding the side borders, and produces hazardous, lingering flames on the ground.
+
+==Trivia==
+*[[Disgusting Creature: Dron]]'s [[Music|theme]] is '''electroencephalomicrospectrophotoimmunoadrenocorticoretinoparasympathopsychomeningofluorophoretic fabric''', which was composed by the artist [https://www.youtube.com/@Jteoh Jteoh].
+*[[Disgusting Creature: Dron]] is severely allergic to [[tgc:Rock Lobster|Shellfish]]; however, due to game balancing, the player is unable to use this weakness against it.
+*The [[Disgusting Creature: Dron]] is considered a '''"Superboss"''' in this mod. In some RPG games, Superbosses are extremely powerful enemies that are very challenging even if the player has endgame equipment.
+**It shares this trait with the following bosses: [[Adult Eidolon Wyrm]], [[Vision of the Tyrant]], [[Purgatory Arbiter, Umbrus]], [[Esserwyrm]], [[Reactive Guardian, Sodis]], [[Nihil, the Fathomless Seeker]] and [[Exodygen]].
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

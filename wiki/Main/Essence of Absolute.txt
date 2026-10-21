@@ -1,0 +1,26 @@
+{{addon|Calamitous Absolution}}
+{{infobox wrapper
+|{{item infobox
+|type = Crafting material
+| stack = 9999
+| rare = C3
+| tooltip = No Longer An Unassuming Vial
+| sell = {{value|0|0|0|1}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+}}
+
+'''Essence of Absolute''' is a Post-[[Umbrus]] crafting material that is used to craft absolute weapons. It requires most major resources in the game to craft.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Absolute}}
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

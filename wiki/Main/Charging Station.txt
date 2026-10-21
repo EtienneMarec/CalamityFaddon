@@ -1,0 +1,29 @@
+{{item infobox
+| type = Furniture
+| type2 = Crafting material
+| placeable = Yes
+| use = 14
+| auto = yes
+| width = 3
+| height = 2
+| stack = 9999
+| tooltip = Charges Draedon's Arsenal items using Power Cells<br/>Place both an item and the Power Cells into the Charging Station to charge the item
+| consumable = Yes
+| rare = a
+| color = #434851
+| sell = {{value|0|10}}
+}}
+
+'''Charging Station''' is a [[furniture]] item used to [[charge]] certain [[weapons]]. It uses [[Draedon Power Cell]]s as fuel to grant weapons charge. To charge an item, right-click the station, put the arsenal weapon at the top, and the power cell at the bottom. It can be found inside [[Arsenal Lab]]s in the [[Cavern]] layer.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The charging process can be stopped mid charge and keeps all previous progress.
+{{-}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes	
+}}

@@ -1,0 +1,82 @@
+{{Patch infobox
+| image = The Plaguebringer Goliath (1.2.2.005).png
+| patchname = Devourer of Gods adjustments
+| release = 10/19/2017
+}}
+
+The '''1.2.2.005''' update made some changes to [[The Devourer of Gods]], adjusted [[Jungle Dragon, Yharon]]'s projectile damage, and resprited [[The Plaguebringer Goliath]].
+
+{{toc limit|3|right=yes}}
+
+== Changes ==
+=== [[Bosses]] ===
+==== [[Astrum Deus]] ====
+*Mines now last shorter, and inflict [[God Slayer Inferno]] for 2 seconds instead of 5.
+
+==== [[Ceaseless Void]] ====
+*Now enrages outside of the [[Dungeon]].
+
+==== [[The Devourer of Gods]] ====
+*Buffed phase 1's head damage from {{dv|350|875|1093}} to {{dv|500|800|1000}}.
+*Nerfed phase 1's body damage from {{dv|275|440|550}} to {{dv|250|400|500}}.
+*Buffed phase 2's head damage from {{dv|500|1500|1875}} to {{dv|600|960|1200}}.
+*Nerfed phase 2's body damage from {{dv|425|680|850}} to {{dv|300|480|600}}.
+*Nerfed phase 2's tail damage from {{dv|400|640|800}} to {{dv|200|320|400}}.
+*Buffed phase 2's laser damage in Normal Mode from 300 to 360.
+*Laser portals now last shorter.
+*Laser walls now last shorter.
+*Lowered distance before speeding up.
+*No longer resists [[Life Drain]].
+*Will now switch to its ground phase if the player strays too far away from it.
+*Renamed The Devourer of Thots to [[Another worm boss]].
+*Nerfed Another worm boss' body damage from {{dv|200|320|400}} to {{dv|150|240|300}}.
+*Nerfed Another worm boss' tail damage from {{dv|150|240|300}} to {{dv|100|160|200}}.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Buffed flare damage from {{dv|180|340|425}} to {{dv|320|400|500}}.
+*Buffed flare bomb damage in Normal Mode from 328 to 420.
+*Nerfed flarenado damage from {{dv|720|920|1150}} to {{dv|480|600|750}}.
+*Buffed giga flare damage from {{dv|180|240|300}} to {{dv|340|400|500}}.
+*Nerfed infernado damage from {{dv|1000|1240|1550}} to {{dv|600|800|1000}}.
+*Nerfed sky flare damage from {{dv|140|260|325}} to {{dv|140|200|250}}.
+
+==== [[Moon Lord]] ====
+*Now only increases the player's stress by 20 instead of 30.
+
+==== [[Ravager]] ====
+*Nerfed head laser damage from {{dv|138|220|275}} to {{dv|124|180|225}}.
+*Changed its phase 2 laser damage from {{dv|136|240|300}} to {{dv|140|200|250}}.
+*Nerfed normal laser damage from {{dv|130|208|260}} to {{dv|120|168|210}}.
+
+==== [[Supreme Calamitas]] ==== 
+*Player damage anti-cheat reduced from 100 to 50 if the player has [[Flesh Totem]] equipped.
+
+=== [[Enemies]] ===
+*All buffed event minibosses are now much more aggressive.
+*[[Mothron]]s are now 25% larger once Jungle Dragon, Yharon has been defeated in [[Revengeance Mode]].
+*Mothrons now drop 10-21 [[Darksun Fragment]]s instead of 5-9.
+
+=== Items ===
+*Toggling visability on the [[Heart of the Elements]] now disables the waifus.
+*Replaced the [[True Night's Edge]]/[[True Bloody Edge]] in [[Tyrant Yharim's Ultisword]]'s recipe with 1 [[Broken Hero Sword]].
+
+=== Balance ===
+*Nerfed [[Blood Pact]]'s critical hit damage to the player from 400% to 300%.
+*Nerfed [[Holy Fire Bullet]]'s damage from 30 to 25.
+*Nerfed [[Nebulash]]'s damage from 80 to 60.
+*Nerfed [[Plague Staff]]'s damage from 98 to 70.
+*Nerfed [[Triactis' True Paladinian Mage-Hammer of Might]]'s explosion damage by 50%.
+
+=== Resprites ===
+*Resprited [[Plague]].
+*Resprited [[Another worm boss]], [[Plaguebringer]], The Plaguebringer Goliath.
+*Resprited [[Carnage Ray]], [[Night's Ray]], [[Staff of the Mechworm]], [[Terra Ray]].
+*Resprited The [[Stress]] bar.
+
+== Fixes ==
+*Fixed a bug where The Devourer of Gods wouldn't spawn correctly in multiplayer.
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

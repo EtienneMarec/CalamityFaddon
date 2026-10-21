@@ -1,0 +1,53 @@
+{{dedicated|Lilith Saintclaire|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 57
+| use = 15
+| knockback = 3
+| velocity = 10
+| rare = 2
+| tooltip = A synthesis of jungle flora<br/>Creates blooming roses with each swing<br/>Right click to throw a powerful rose spear<br/>Attacks explode with numerous petals
+| sell = {{value|0|0|40}}
+| stack = 1
+| debuff = Poisoned
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Slowly losing life
+| debuff2 = Venom
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds
+| debufftip2 = Losing Life
+| proj = Yateveo Bloom Flail.png
+| projcaption = Blooming Rose
+| proj2 = Yateveo Bloom Spear.png
+| proj2caption = Yateveo Bloom Spear
+| element1 = Poison
+| element2 = Stab
+}}
+
+The '''Yateveo Bloom''' is a craftable [[Pre-Hardmode]] [[Spears|spear]]. It strikes the ground, creating damaging roses that occasionally release petals upwards. The roses inflict the [[Poisoned]] and [[Venom]] [[debuffs]]. The petals pierce indefinitely and are affected by gravity, slowly floating downward. If the player holds down left-click, the spear will continue swinging, dealing damage to any enemy it contacts. Pressing or holding right-click will throw the flower spear, bursting into 12 petals when it collides with an enemy or wall. Only the swung (left-click) spear attack will have [[True melee]] boosts applied to it.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Auto-swing is enabled when throwing the spear.
+
+== Trivia ==
+*[[wikipedia:Man-eating_tree#Yateveo|Yateveo]] is a mythical man-eating tree found in the book "''Sea and Land''".
+*The Yateveo Bloom is the only spear in the Calamity Mod to not have autoswing.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Flails]]
+[[Category:Spears]]
+[[Category:True melee]]

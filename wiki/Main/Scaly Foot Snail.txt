@@ -1,0 +1,49 @@
+{{infobox wrapper
+|{{item infobox
+| type = Bait
+| type2 = Crafting material
+| bait = 120
+| rare = 2
+| use = 14
+| auto = yes
+| consumable = yes
+| sell = {{value|0|4|50}}
+| stack = 9999
+}}
+|{{npc infobox | boxwidth=21em
+| type = Critter
+| image = Scaly Foot Snail.png
+| environment = Frozen Hell
+| ai = Snail AI
+| damage = 0
+| life = 10
+| defense = 50
+| knockback = 0
+| immune1 = Confused
+| immune2 = Kami Flu
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+}}
+
+The '''Scaly Foot Snail''' is a Godseeker Mode [[critter]] found within [[Frozen Hell]] that acts similarly to any other [[Snail]]. Scaly Foot Snails can be caught with a [[Lavaproof Bug Net]] or [[Golden Bug Net]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+
+== Notes ==
+*Scaly Foot Snails can be summoned using the [[Snail Statue]] after [[The Wall of Bronze]] is defeated.
+
+== Trivia ==
+*Scaly Foot Snails are real animals that are known for living within hydrotheramal vents, using iron they grow on their body as armor.
+
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

@@ -1,0 +1,305 @@
+An all-in-one template for display item name/icon/link.
+
+By default, displays a link to the item and adds an item icon in front of it.
+
+== Usage ==
+
+All parameters are optional. Despite this, some combinations are invalid and may cause errors.
+
+See examples below for more details.
+
+; unnamed parameter 1
+Default item display name, link target, and image file name.
+
+; unnamed Parameter 2
+Custom link text, which can include line breaks (&lt;br />) and other wikitext. If an 's', 'es', 'ies' or 'ves' is passed as the custom text, it will be appended to the end of the item name.
+
+; mode
+Display mode. It can be:
+* '''<code>image</code>'''(Preferred) or '''<code>imageonly</code>''' or '''<code>onlyimage</code>''' means only image will be displayed;
+* '''<code>text</code>'''(Preferred) or '''<code>noimage</code>''' means no image will be displayed;
+* '''<code>table</code>'''(Preferred) or '''<code>2-cell</code>''' will output 2 cells code for table. This is roughly a shortcut for <code><nowiki>{{item|mode=image|itemname}} || {{item|mode=text|itemname}}</nowiki></code>
+* '''<code>htmltable</code>'''(Preferred) or '''<code>html-2-cell</code>''' is similar to '''<code>table</code>''', but will produce a result suitable for html tables instead of [[mw:Help:Tables|mediawiki tables]] (roughly a shortcut for <code><nowiki>{{item|mode=image|itemname}} </td><td> {{item|mode=text|itemname}}</nowiki></code>);
+Use preferred values as much as possible to get the best performance.
+
+; image
+image filename, no brackets nor "File:"(must include file extension, eg. Diverman.png). 
+
+You can specify multiple images, just seperate filenames with slashes(eg. Diverman.png/Soul Forge (placed).png). 
+
+; size
+Custom graphic size (Read [https://en.wikipedia.org/wiki/Wikipedia:Extended_image_syntax Extended image syntax] for details).
+
+You can specify multiple sizes, just seperated with slashes(eg. 32px/24x24px).
+
+When multiple images specified:
+* If only one size specified, it will apply to all images
+* if size is less then image, extra images will be displayed as if they don't have size argument
+* if size is more then image, extra sizes will simply be ignored.
+
+; ext
+image file extension, default is '''png'''. Only valid when there is no '''image''' input.
+
+; link
+Custom link target. If blank given(i.e. '''<code>|link{{=}}|</code>'''), it will be no link(See example below).
+
+; nolink = y/yes
+Same as '''<code>|link{{=}}|</code>''', only valid when there is no '''<code>link</code>''' input. If you use '''<code>|link{{=}}somelink|nolink=y</code>''', it will be ignored.
+
+; anchor = y/yes
+If set, will create an anchor for '''<nowiki>{{{1}}}</nowiki>'''.
+
+; note
+Extra note text. By default, it will displayed as smaller and gray text between item name and platform icons , and without link on it.
+
+; note2
+Another note text. By default, it will displayed as gray txt in normal size, without link, and always take a single line.
+
+; wrap = y/yes
+Only valid when there is no '''note2{{=}}''' input. If set, note will be displayed in new line.
+
+; class
+Custom Css class(es). There're some predefined classes for certain formatting purpose(see examples below). You can add yours if needed.
+
+; css or style
+Custom css style rules.
+
+== Examples ==
+
+=== Basic ===
+{| class="wikitable"
+!Result !! Code !! Note
+|-
+|{{item|Stardust}}|| <code><nowiki>{{item|Stardust}}</nowiki></code> || Basic usage.
+|-
+|{{item|Stardust|Star Powder}}|| <code><nowiki>{{item|Stardust|Star Powder}}</nowiki></code> || Custom text.
+|-
+| {{item|Stardust|s}} {{item|Demon Trophy|ies}}|| <code><nowiki>{{item|Stardust|s}} {{item|Demon Trophy|ies}}</nowiki></code> || Plural.
+|-
+| {{item|The Hive Mind|size=32px}}|| <code><nowiki>{{item|The Hive Mind|size=32px}}</nowiki></code> || Custom image size. (Read [https://en.wikipedia.org/wiki/Wikipedia:Extended_image_syntax Extended image syntax] for details).
+|-
+| {{item|The Hive Mind|size=32px|Hive<br/>Mind}}|| <code><nowiki>{{item|The Hive Mind|size=32px|Hive<br/>Mind}}</nowiki></code> || Custom text in multiple lines.
+|-
+| {{item|Treasure Bag|s|ext=gif}}|| <code><nowiki>{{item|Treasure Bag|s|ext=gif}}</nowiki></code> || Custom image file extension.
+|-
+| {{item|Treasure Bag|s|note=(Expert Mode)|ext=gif}}|| <code><nowiki>{{item|Treasure Bag|s|note=(Expert Mode)|ext=gif}}</nowiki></code> || Note text.
+|-
+| {{item|Strange Orb|image=Ocean Spirit.png|Ocean Spirit}}|| <code><nowiki>{{item|Strange Orb|image=Ocean Spirit.png|Ocean Spirit}}</nowiki></code> || Custom image file name.
+|-
+| {{item|Strange Orb|image=Ocean Spirit.png|Ocean Spirit|ext=jpg}}|| <code><nowiki>{{item|Strange Orb|image=Ocean Spirit.png|Ocean Spirit|ext=jpg}}</nowiki></code> || Will display Ocean Spirit.png, <code>ext</code> is ignored when <code>image</code> is specified.
+|-
+| {{item|Ocean Spirit|link=Strange Orb|Ocean Spirit}}|| <code><nowiki>{{item|Ocean Spirit|link=Strange Orb|Ocean Spirit}}</nowiki></code> || Custom link target.
+|-
+| {{item|Stardust|link=}}|| <code><nowiki>{{item|Stardust|link=}}</nowiki></code> || Unlinked.
+|-
+| {{item|Stardust|nolink=y}}|| <code><nowiki>{{item|Stardust|nolink=y}}</nowiki></code> || Unlinked.
+|-
+| {{item|Stardust|nolink=y|link=Astral Bar}}|| <code><nowiki>{{item|Stardust|nolink=y|link=Astral Bar}}</nowiki></code> || if <code>link</code> is specified, it will override <code>unlink=y</code>.
+|-
+| {{item|Stardust|anchor=y}}|| <code><nowiki>{{item|Stardust|anchor=y}}</nowiki></code> || Create an anchor. Now  <nowiki>{{PAGENAME}}#Stardust</nowiki> will link to here.
+|}
+
+=== Multiple images ===
+{| class="wikitable"
+!Result !! Code !! Note
+|-
+| {{item|Draedon's Forge|image=Draedon's Forge.png/Draedon's Forge_(placed).gif}}|| <code><nowiki>{{item|Draedon's Forge|image=Draedon's Forge.png/Draedon's Forge_(placed).png}}</nowiki></code> || Multiple images with auto size.
+|-
+| {{item|Draedon's Forge|image=Draedon's Forge.png/Draedon's Forge_(placed).gif|size=20px}}|| <code><nowiki>{{item|Draedon's Forge|image=Draedon's Forge.png/Draedon's Forge_(placed).gif|size=20px}}</nowiki></code> || Only one size specified, all images will use this size.
+|-
+| {{item|Draedon's Forge|image=Draedon's Forge.png/Draedon's Forge_(placed).gif|size=30px/20px}}|| <code><nowiki>{{item|Draedon's Forge|image=Draedon's Forge.png/Draedon's Forge_(placed).gif|size=30px/20px}}</nowiki></code> || Multiple images with multiple sizes.
+|-
+| {{item|Draedon's Forge|image=Draedon's Forge.png/Draedon's Forge_(placed).gif|size=30px/20px/300px}}|| <code><nowiki>{{item|Draedon's Forge|image=Draedon's Forge.png/Draedon's Forge_(placed).gif|size=30px/20px/300px}}</nowiki></code> || Size is more than images, extra size is ignored.
+|-
+| {{item|Draedon's Forge|image=Draedon's Forge.png/Draedon's Forge_(placed).gif/Ashen Altar.png|size=16px/50px}}|| <code><nowiki>{{item|Draedon's Forge|image=Draedon's Forge.png/Draedon's Forge_(placed).gif/Ashen Altar.png|size=16px/50px}}</nowiki></code> || Size is less than image, extra image will use auto size.
+|}
+
+=== Wrap and note2 ===
+<code>wrap</code> is valid only when <code>note2</code> is not specified.
+{| class="wikitable"
+!Result !! Code !! Note
+|-
+| {{item|Stardust|wrap=y|note=(some note)}} || <code><nowiki>{{item|Stardust|wrap=y|note=(some note)}}</nowiki></code> || If there is a note, note will display on next line.
+|-
+| {{item|Stardust|wrap=y|note2=some other notes.}} || <code><nowiki>{{item|Stardust|wrap=y|note2=some other notes.}}</nowiki></code> || If <code>note2</code> is specified, note will be displayed on the same line, even if <code>wrap=y</code>.
+|}
+
+=== Display mode ===
+{| class="wikitable"
+!Result !! Code !! Note
+|-
+| {{item|Stardust}}|| <code><nowiki>{{item|Stardust}}</nowiki></code> || By default, it will display image and text info.
+|-
+| {{item|Stardust|mode=image}}|| <code><nowiki>{{item|Stardust|mode=image}}</nowiki></code> || <code>mode=image</code>: Only image will be displayed, no text, no note.
+|-
+| {{item|Stardust|mode=text|wrap=y|note=(some note)}} || <code><nowiki>{{item|Stardust|mode=text|wrap=y|note=(some note)}}</nowiki></code> || <code>mode=text</code>: image won't be displayed.
+|-
+| 
+{| class="wikitable"
+|{{item|Stardust|mode=table}}
+|-
+|{{item|Demon Trophy|ies|note=(some note)|mode=table}}
+|}
+| 
+<pre><nowiki>
+{| class="wikitable"
+|{{item|Stardust|mode=table}}
+|-
+|{{item|Demon Trophy|ies|note=(some note)|mode=table}}
+|}
+</nowiki></pre>
+| <code>mode=table</code>: output as two adjacent cells for table.
+|}
+
+=== Css and predefined classes ===
+{| class="wikitable"
+!Result !! Code !! Note
+|-
+| {{item|Stardust|link=|css=color:red;border: 2px solid blue;padding: 3px; background:#ccc}}|| <code><nowiki>{{item|Stardust|link=|css=color:red;border: 2px solid blue;padding: 3px; background:#ccc}}</nowiki></code> || Custom css rules.
+|-
+| {{item|Stardust|class=boldname}} || <code><nowiki>{{item|Stardust|class=boldname}}</nowiki></code> || Predefined class: '''<code>boldname</code>''', item name will displayed in bold.
+|-
+| {{item|Stardust|note=note|note2=note2|class=notecolor}}<br/>{{item|Stardust|note=note|note2=note2|class=note2color}}<br/>{{item|Stardust|note=note|note2=note2|css=color:red|class=note2color}} || <code><nowiki>{{item|Stardust|note=note|note2=note2|class=notecolor}}</nowiki><br/><nowiki>{{item|Stardust|note=note|note2=note2|class=note2color}}</nowiki><br/><nowiki>{{item|Stardust|note=note|note2=note2|css=color:red|class=note2color}}</nowiki></code> || Predefined class: '''<code>notecolor</code>''' and '''<code>note2color</code>''', note or note2 will display in normal(inherited) text color， respectively .
+|-
+| {{item|Stardust|note=note|note2=note2|class=notesize}}<br/>{{item|Stardust|note=note|note2=note2|class=note2size}} || <code><nowiki>{{item|Stardust|note=note|note2=note2|class=notecolor}}</nowiki><br/><nowiki>{{item|Stardust|note=note|note2=note2|class=note2color}}</nowiki></code> || Predefined class: '''<code>notesize</code>''' and '''<code>note2size</code>''', note will display in normal size, or note2 will display in reduced size, respectively.
+|-
+| {{item|Stardust|note=note|note2=note2|class=alignleft}}<br/>{{item|Stardust|note=note|note2=note2|class=aligncenter}}<br/>{{item|Stardust|note=note|note2=note2|class=alignright}} || <code><nowiki>{{item|Stardust|note=note|note2=note2|class=left}}<br/>{{item|Stardust|note=note|note2=note2|class=center}}<br/>{{item|Stardust|note=note|note2=note2|class=right}}</nowiki></code> || Predefined class: '''<code>alignleft</code>''', '''<code>aligncenter</code>'''， and  '''<code>alignright</code>''', text-align = left, center, or right, respectively.
+|-
+| {{item|Stardust|note=note|note2=note2|class=textleft}}<br/>{{item|Stardust|note=note|note2=note2|class=textcenter}}<br/>{{item|Stardust|note=note|note2=note2|class=textright}} || <code><nowiki>{{item|Stardust|note=note|note2=note2|class=textleft}}<br/>{{item|Stardust|note=note|note2=note2|class=textcenter}}<br/>{{item|Stardust|note=note|note2=note2|class=textright}}</nowiki></code> || Predefined class: '''<code>textleft</code>''', '''<code>textcenter</code>'''， and  '''<code>textright</code>''', Similar to <code>alignleft/aligncenter/alignright</code>, but only applied to text part.alignleft/center/right can use with text/align/center/right at same time.
+|-
+| {{item|Stardust|class=block|mode=text}} || <code><nowiki>{{item|Stardust|class=block|mode=text}}</nowiki></code> || Predefined class: '''<code>block</code>''', main item element and text element will display as <code>block</code> element(default is <code>inline-block</code>).It is usually only practical when <code>mode=text</code>.
+|-
+| {{item|Stardust|note=note|note2=note2|class=notesize notecolor boldname|css=color:red}} || <code><nowiki>{{item|Stardust|note=note|note2=note2|class=notesize notecolor boldname|css=color:red}}</nowiki></code> || You can specify multiple classes, seperate with space, and can specify custom css rules at the same time.
+|}
+
+== Change default options ==
+
+You can use '''{{tl|item/options}}''' to set/get and reset some options' default value.
+
+=== Usage ===
+
+* Set: '''<code><nowiki>{{item/options|nolink=y|...}}</nowiki></code>''' or '''<code><nowiki>{{item/options|set|nolink=y|...}}</nowiki></code>''' 
+* get: '''<code><nowiki>{{item/options|get|nolink}}</nowiki></code>'''
+* reset: '''<code><nowiki>{{item/options|reset}</nowiki>}</code>''' or '''<code><nowiki>{{item/options|resetall}}</nowiki></code>'''
+
+<div style="color:red">'''NOTE: In order to avoid unwanted influences, it is very important to reset options as soon as possible. Especially in the template, you should reset options before the template ends.'''</div>
+
+All parameters:
+
+; unnamed parameter 1
+Action. '''<code>get</code>''' or '''<code>load</code>''' means get the current value of a option, '''<code>reset</code>''' or '''<code>resetall</code>''' means reset all options to default value, other values(include none. if you want, recommend to use '''<code>set</code>''' for better readability) means set options' value.
+
+; unnamed Parameter 2
+The name of option which you want to get its value, only valid when action is '''get'''. Can be '''<code>mode</code>''', '''<code>wrap</code>''', '''<code>nolink</code>''', '''<code>class</code>''', '''<code>css</code>''' or '''<code>style</code>'''.
+
+; mode
+Only valid when action is '''set'''. Set the default value for {{tl|item}}'s '''mode''' parameter. You can use any valid value for {{tl|item}}'s '''mode''' parameter, and a invalid value(recommend to use '''<code>default</code>''', '''<code>all</code>''', or '''<code>both</code>''' for better readability) means change the mode back to default. See {{tl|item}}'s '''<code>mode</code>''' parameter.
+
+; wrap = y/yes/n/no
+Only valid when action is '''set'''. Turn on/off line wrap. See {{tl|item}}'s '''<code>wrap</code>''' parameter.
+
+; anchor = y/yes/n/no
+Only valid when action is '''set'''. Turn on/off anchor. See {{tl|item}}'s '''<code>anchor</code>''' parameter.
+
+; nolink = y/yes/n/no
+Only valid when action is '''set'''. Turn on/off no link option. See {{tl|item}}'s '''<code>nolink</code>''' parameter.
+
+; class
+Only valid when action is '''set'''. Default value for '''<code>class</code>'''. See {{tl|item}}'s '''<code>class</code>''' parameter.
+
+; css/style
+Only valid when action is '''set'''. Default value for '''<code>css</code>'''. See {{tl|item}}'s '''<code>css</code>''' parameter.
+
+See examples below for more details.
+
+=== Example ===
+{| class="wikitable"
+!Code !! output 
+|-
+|
+<pre><nowiki>
+By default: 
+
+{{item|Stardust|note=(note)}}
+
+turn on line wrap, and set to text mode: 
+{{item/options|set|wrap=y|mode=text}}
+{{item|Stardust|note=(note)}}
+
+turn on no link mode: 
+{{item/options|set|nolink=y}}
+{{item|Stardust|note=(note)}}
+
+This will be overrid by '''<code>link=</code>'''
+
+{{item|Stardust|note=(note)|link=Astral Bar}}
+
+get current setting:
+
+nolink = {{item/options|get|nolink}} ; 
+wrap = {{item/options|get|wrap}} ;
+mode = {{item/options|get|mode}} ;
+
+reset all options: 
+{{item/options|reset}}
+{{item|Stardust|note=(note)}}
+
+custom css and class:
+{{item/options|set|css=border:1px solid red;padding:3px}}
+{{item|Stardust|note=(note)}}
+{{item/options|set|class=boldname}}
+{{item|Stardust|note=(note)}}
+
+reset all:
+{{item/options|resetall}}
+{{item|Stardust|note=(note)}}
+
+</nowiki></pre>
+
+|
+By default: 
+
+{{item|Stardust|note=(note)}}
+
+turn on line wrap, and set to text mode: 
+{{item/options|set|wrap=y|mode=text}}
+{{item|Stardust|note=(note)}}
+
+turn on no link mode: 
+{{item/options|set|nolink=y}}
+{{item|Stardust|note=(note)}}
+
+This will be overrid by '''<code>link=</code>'''
+
+{{item|Stardust|note=(note)|link=Astral Bar}}
+
+get current setting:
+
+nolink = {{item/options|get|nolink}} ; 
+wrap = {{item/options|get|wrap}} ;
+mode = {{item/options|get|mode}} ;
+
+reset all options: 
+{{item/options|reset}}
+{{item|Stardust|note=(note)}}
+
+custom css and class:
+{{item/options|set|css=border:1px solid red;padding:3px}}
+{{item|Stardust|note=(note)}}
+{{item/options|set|class=boldname}}
+{{item|Stardust|note=(note)}}
+
+reset all:
+{{item/options|resetall}}
+{{item|Stardust|note=(note)}}
+
+
+|}
+
+
+<includeonly>
+[[Category:Icon templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

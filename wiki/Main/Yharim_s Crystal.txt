@@ -1,0 +1,60 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 70
+| mana = 15
+| tooltip = "If you're seeing this, you lost the game"
+| knockback = 0
+| velocity = 30
+| use = 10
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Yharim's Crystal Beam.png
+| projcaption = Yharim's Beam
+| image2 = Yharim's Crystal Holdout.gif
+| image2caption = Yharim's Crystal
+| element1 = Holy
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Jungle Dragon, Yharon]]|1|10%
+}}
+}}
+
+'''Yharim's Crystal''' is a Godseeker Mode [[magic weapon]] dropped by [[Jungle Dragon, Yharon]], that acts like the [[Yharim's Crystal|Yharim's crystal]]. It fires six red and orange beams that converge into one yellow beam as it charges, dealing massive damage. Yharim's Crystal cannot deal any knockback.
+
+{{fantag|Catalyst}} Like other beam weapons, 1 point of [[Stamina]] will be removed for every second the weapon is being channeled.
+
+{{Modifier|magicnokb}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The prism projectile held by this weapon is internally named "Yermes Christal," as a reference to a misspelling by a user on the official Discord server, which has since become a running joke.
+*The beams will become a unique color if the character's name is one of the following:
+**The beam will gain a white color if the character is named "Fabsol" "Ziggums" or "Leviathan"
+**The beam will gain a blue color if the character is named "Uncle Danny" "Phoenix" or "Purple Necromancer"
+**The beam will gain a pink color if the character is named "Poly" or "gamagamer64"
+**The beam will gain a lime color if the character is named "Grox the Great" or "Minecat"
+**The beam will gain an aqua color if the character is named "Svante" or "Puff"
+**The beam will gain a red color if the character is named "DM DOKURO"
+**The beam will gain a cyan color if the character is named "Zach"
+**The beam will gain a purple color if the character is named "Jenosis"
+**The beam will gain a green color if the character is named "Khaelis"
+**The beam will gain a rainbow color (similar to the Last Prism) if the character is named "Testdude"
+**All of these are names of various people that have helped with the mod in some fashion
+*In previous versions of the mod, this weapon used to be obtainable before Yharon as a 1/1,000,000 chance from any [[enemy]].
+**Additionally in previous versions of the mod, using the weapon before defeating Yharon would only drop a [[dynamite]] that would explode shortly after it had been launched.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic weapons]]

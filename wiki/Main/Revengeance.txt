@@ -1,0 +1,26 @@
+{{item infobox
+| type = Tool
+| use = 45
+| rare = rainbow
+| stack = 1
+| tooltip = Enables/disables Revengeance Mode, can only be used in Expert Mode.<br/>Enables the Rage mechanic. When Rage is maxed press {{key|Rage Mode}} to activate Rage Mode.<br/>You gain Rage when in proximity of enemies or by using special items.<br/>Enables the Adrenaline mechanic. When Adrenaline is maxed press {{key|Adrenaline Mode}} to activate Adrenaline Mode.<br/>You gain Adrenaline whenever a boss is alive. Getting hit drops Adrenaline back to 0.<br/>All enemies drop 50% more coins and spawn 15% {{sic}} more frequently.<br/>Certain non-boss enemies and projectiles deal between 10% and 25% more damage.<br/>Makes certain enemies block life steal and nerfs the effectiveness of life steal.<br/>Nerfs the effectiveness of the Titanium Armor set bonus.<br/>All boss minions no longer drop hearts.<br/>Changes all boss AIs and some enemy AIs.<br/>Increases the health and damage of all bosses.
+| sell = No value
+| boxwidth = 27em
+|}}
+{{dablink|For the difficulty activated by this item, see [[Revengeance Mode|here]].}}
+
+'''Revengeance''' is an item found within the [[Starter Bag]] in [[Expert Mode]]. When used in Expert Mode, it activates or disables [[Revengeance Mode]], increasing difficulty. Attempting to use it in Normal Mode or during a boss battle will have no effect.
+
+It can be crafted at an [[Altar]] and does not have any ingredients.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*In previous versions of the mod, using the item during a boss fight instantly killed the player with the message, "<Player> tried to change the rules.", as well as despawning the boss.
+{{-}}
+{{Master Template Tools
+|show-main = yes
+|show-other = yes
+}}

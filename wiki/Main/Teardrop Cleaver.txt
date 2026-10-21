@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 90
+| knockback = 5.5
+| use = 36
+| rare = 2
+| sell = {{value|0|0|40}}
+| tooltip = Makes your enemies cry
+| debuff=Temporal Sadness
+| debufftip=You are crying
+| debuffchance = 100%
+| debuffduration = 1 second
+| element1 = Water
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Eye of Cthulhu]]| 1 | 10%
+}}
+}}
+[[File:Teardrop Cleaver (demo).gif|frame|Teardrop Cleaver being used to knock back [[The Hive Mind]].]]
+
+The '''Teardrop Cleaver''' is a [[Pre-Hardmode]] [[broadsword]] that drops from the [[Eye of Cthulhu]]. It has a unique swing animation in which it spins in a full circle. It inflicts the [[Temporal Sadness]] [[debuff]] upon striking [[enemies]], which reduces enemy contact damage and movement speed. Additionally, it provides knockback to all enemies hit by it, including [[Bosses]]. This knockback is unique in that it always knocks away from the player, allowing for upwards and downwards knockback.
+
+{{modifier|melee}}
+
+== Notes ==
+*This is a very powerful weapon early game, as the debuff it inflicts effectively stuns most enemies it hits on top of reducing their damage. Even after more powerful weapons are acquired, it may be worth keeping as a sidearm purely for the debuff.
+*The knockback it applies conflicts with the speed reduction from Temporal Sadness, making the knockback only useful on bosses.
+
+== Trivia ==
+*Its hilt resembles an eye, with the middle of the blade appearing to feature teardrops.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:泪刃]]

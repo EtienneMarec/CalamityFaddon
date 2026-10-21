@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 89
+| damagetype = summon
+| knockback = 4
+| stack = 1
+| rare = 12
+| sell = {{value|0|24}}
+| use = 14
+| auto = yes
+| mana = 10
+| tooltip = Summons a cosmic lantern to fight for you<br/>Takes up 2 minion slots
+| hardmode = yes
+| postml = yes
+| buff = Cosmilamp (buff) | bufflink= no
+| bufftip = The cosmilamp will protect you
+| element1 = Magic
+| element2 = Dark
+}}
+|{{item drops infobox
+| [[Signus, Envoy of the Devourer]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Cosmilamp (minion)|type=minion}}
+{{distinguish|Cosmic Lantern|a [[Enemies#Boss Servants|boss servant]] [[enemy]] spawned by [[Signus]]}}
+
+The '''Cosmilamp''' is a Godseeker Mode [[summon weapon]] that drops from [[Signus, Envoy of the Devourer]]. It summons a Cosmilamp which follows the player and attacks nearby enemies. Each Cosmilamp takes up 2 minion slots.
+
+{{Modifier|summon}}
+
+== Trivia ==
+*The Cosmilamp is based off of the [[Cosmic Lantern]] that is summoned by Signus, Envoy of the Devourer.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

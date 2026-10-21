@@ -1,0 +1,27 @@
+{|align=right
+|{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 3
+| use = 14
+| color = #1E1224
+| sell = No value
+}}
+|}
+
+'''Smooth Brimstone Slag Wall''' is a background [[wall]] crafted from [[Smooth Brimstone Slag]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main = yes
+| show-walls = yes
+}}

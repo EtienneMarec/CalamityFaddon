@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = magic
+| damage = 53
+| mana = 13
+| use = 21
+| knockback = 5
+| velocity = 7
+| rare = 5
+| sell = {{value|0|7|20}}
+| tooltip = Fires a snowflake that follows the mouse cursor
+| stack = 1
+| hardmode = yes
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| proj = Snowflake.png
+| projcaption = Snowflake
+| element1 = Cold
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Cryogen]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Snowstorm Staff''' is a [[Hardmode]] [[wand]] that is dropped by [[Cryogen]]. When used, it spawns a large flying snowflake that is controlled with the cursor, oscillating back and forth in a manner similar to [[Flying Knife]]. The snowflake can pass through walls and pierce infinite enemies, but will disappear after 8 seconds.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

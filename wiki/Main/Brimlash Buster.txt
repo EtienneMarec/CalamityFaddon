@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 126
+| knockback = 8
+| rare = 10
+| sell = {{value|0|20}}
+| stack = 1
+| auto = yes
+| use = 24
+| velocity = 18
+| tooltip = 50% chance to do triple damage on enemy hits<br/>Fires a brimstone bolt that explodes into more bolts on death
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debuffduration = 5 seconds (Contact)<br/>3 seconds (Bolts)
+| debufftip = Rapid health loss
+| hardmode = yes
+| proj = Brimlash Blade.png
+| projcaption = Brimlash Blade
+| element1 = Unholy
+| element2 = Fire
+| element3 = Slash
+}}
+
+The '''Brimlash Buster''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. It is an upgraded version of the [[Brimlash]]. It shoots one of two projectiles randomly per swing: four brimstone bolts to the left, right, and diagonals of the player, or a large brimstone bolt aimed at the cursor, which splits into multiple smaller ones upon death. It inflicts [[Brimstone Flames]] on enemy hits.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:硫火裂炎刃]]

@@ -1,0 +1,29 @@
+{{patch infobox
+| image = Cog (Calamity).png
+| patchname = Drop Changes
+| release = 8/29/2016
+}}
+
+The '''1.1.5.03''' update removed and reduced item drops from the mod's [[bosses]].
+
+== Additions ==
+*Added [[Amber Crawler]] and [[Crystal Crawler]].
+*Added [[Crystal Blade]].
+
+== Changes ==
+*[[Armored Shell]]s are now dropped by [[The Devourer of Gods]] instead of [[Armored Digger]]s.
+*The Devourer of Gods now limits piercing to a maximum of four.
+*[[Calamitas]] no longer drops gear made from [[Draedon Bar]]s.
+*[[Desert Scourge]] no longer drops gear made from [[Victide Bar]]s.
+*[[The Plaguebringer Goliath]] no longer drops gear made from [[Ueliace Bar]]s.
+*[[Slime God|True Slime God]] no longer drops gear made from [[Verstaltite Bar]]s.
+*Reduced the amount of weapons dropped by every boss.
+*Armored Shells can now be used to craft The Devourer of Gods' drops.
+
+== Fixes ==
+*Fixed looping in [[The Perforators]]' code which caused them to cause extreme lag when spawned.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

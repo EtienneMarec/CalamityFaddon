@@ -1,0 +1,154 @@
+{{npc infobox
+| type = NPC
+| environment = Valid house
+| ai = Passive AI
+| life = 250
+| defense = 15
+| knockback = 50
+| image2 = Snowman Map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_11.wav
+| killed = NPC_Killed_15.wav
+| sound = Item_11.wav
+| soundtext = Tommygun
+}}
+{{NPC}}
+
+'''WARNING: This page is currently under development, as this is a recent addition to the mod. More information will be provided in time.'''
+
+The '''Snowman''' is a Godseeker Mode [[NPC]] that will spawn once the following conditions have been met:
+
+*There is an empty house.
+*[[The Wall of Bronze]] has been defeated.
+
+The Snowman will spawn randomly in [[Frozen Hell]] as a traveling NPC, and will not move in until he has been defeated in a game of [[Black Jack]]
+
+When threatened by [[enemies]], he will defend himself with a tommygun.
+
+== Items sold ==
+{{inventory
+|Chip|{{gc|10}}|
+|Delicious Meat|1 [[File:Chip.png]]|
+|Raggedy Plush|10 [[File:Chip.png]]|If [[Bandit]] has moved in.
+|Complimentary Mint|20 [[File:Chip.png]]|After losing 50 total games.
+|Gold Ring|60 [[File:Chip.png]]|
+|Treasure Magnet|100 [[File:Chip.png]]|
+|Lucky Coin|100 [[File:Chip.png]]|
+|Discount Card|500 [[File:Chip.png]]|
+|Greedy Chest|1000 [[File:Chip.png]]|
+|Hailstorm|1000 [[File:Chip.png]]|
+|Midas' Handshake|100,000 [[File:Chip.png]]|After winning 50 total games.
+}}
+
+== Black Jack ==
+
+Black Jack is a minigame that can be played with the Snowman. The player can bet up to 999 [[Chip|Chips]] per game. Winning the game will double their bet, while losing will leave them with nothing in return. Chips can be used to purchase items in the Snowman's shop.
+
+{| class="terraria" align=center style="width:50em"
+! Blackjack UI / Cards
+|-
+| [[File:Blackjack UI.png|left]] [[File:Cards.png|right]]
+|}
+
+In Black Jack, the player will take control of the blue cards, while the Snowman uses red. They can choose to either {{key|Hit}}, which will add another card to their hand, or {{key|Stand}}, which will prevent them from taking any more cards. Once both players have stood, their cards are presented in the middle of the table. If one players cards total up to the number 22, they will win. If no players achieve a 22, the one with the highest number wins. If a player gets a number higher then 22, they will bust, and the other player will win by default. If both players tie, or both bust, the win will go to the Snowman.
+
+Both players can only have four of a single type of number, and can only have five cards in total. Attempting to hit while having five cards in your hand will always cause you to bust.
+
+== Names ==
+*The Snowman may have any of the following names:
+
+*Frosty
+*Tinsel Tony
+*Ice Creamcone
+*Icenberg
+*Big S
+*Snow "The Big Chiller" Mcghee
+*Snowton
+
+== Quotes ==
+
+'''Before losing at Black Jack:'''
+:*"Ay you, you wanna play a game?"
+:*"Finally, somewhere a lil' less on the melty side I can spend an eternity in."
+:*"These bats are gettin' on my last nerve I tell ya. Oh hey, wanna gamble?"
+
+'''When losing Black Jack for the first time:'''
+:*"Aww drats! I guess you won. Hey, you happen to got anywhere I can stay? I don't get many customers down in the freezing pits of Hell."
+
+'''When Homeless:'''
+:*"You wanna play again?"
+:*"Y'know I'd love to stay somewhere where there aren't big snow-eating snake monsters chasing me."
+:*"This place is nice and all, but all these demons are real sore losers. Would be nice to have a real place to stay with some friendlier folk around."
+
+'''Anytime:'''
+:*"Hey, you up for some Black Jack? I promise it's not rigged this time."
+:*"Always down for a gamble."
+:*"You don't wanna know why they call me [Name of Snowman]."
+:*"You seen any weird lookin' snow globes around? No? Just checkin'."
+:*"You look like you're in a betting mood, aintcha?"
+
+'''After winning at Black Jack:'''
+:*"Aww, what a shame. Ah well, better luck next time."
+:*"Hey buddy, next time read the rules before you play."
+:*"Whoops, looks like ya lost. Man, how embarrassing."
+:*"Yikes, looks like the heart of the carts just ain't in it for you bud."
+:*"You really needa brush up on those math textbooks, kid."
+
+'''After losing at Black Jack:'''
+:*"Ah dammit! Alright fine, here's your payout."
+:*"Don't go spending this all at once."
+:*"What! Hey, you cheated! Ugh fine, here's your chips, whatever."
+:*"Ah crap, fine, you win. Take your stupid chips and get outta here"
+:*"What? How'd you do that?! How'd you make me lose?"
+
+'''Trying to gamble with no Chips:'''
+:*"Hey, whadda ya tryna do, scam me?"
+:*"Hey dummy, you need chips to play the game"
+:*"Sorry bud, I don't take credit. Come back when you're a little uhhh.. richer."
+:*"You think I'm stupid? Got get some chips, numbskull."
+
+'''During a [[Blood Moon]]:'''
+:*"Jeez, the ladies got a few screws loose tonight, ay pal?"
+:*"Plenty of nuts to put a few bullet holes through tonight."
+
+'''During a [[Party]]:'''
+:*"No better way to celebrate then a little Black Jack, eh?"
+:*"Can't let my guard down, those goons could be anywhere..."
+
+'''If the [[Bandit]] is present:'''
+:*"That [Name of Bandit]'s a real pain in my ass, always tryna steal my stuff."
+:*"If I see [Name of Bandit] try to rig the decks one more time, I'm gonna show her why they used to call me the Icer."
+
+'''If the [[Tax Collector]] is present:'''
+:*"[Name of Tax Collector]'s a real stingy mutt, ain't he? Always tryna pinch every nickle and dime I've got!"
+
+'''During a [[Frost Legion]] Invasion:'''
+:*"Oh god, Oh god! They're here! I-I gotta get outta here man!"
+:*"Maybe if I stay completely still they'll think I'm just a snowman"
+:*"Sweet Father of Christmas, the boys are after me!"
+:*"No! I'm not goin back! You can't make me!"
+
+'''After unlocking the [[Complimentary Mint]] in the store:'''
+:*"Jeez, you're uhh.. havin' a rough time huh? Maybe your chips would be better spent buying mints from the lobby then gambling them here."
+
+'''After unlocking the [[Raggedy Plush]] in the store:'''
+:*"Hey, I got somethin' new to sell. Just found it on the ground. Thought I'd give it away for cheap."
+
+'''After unlocking the [[Midas' Handshake]] in the store:'''
+:*"Wow, you really are a winner aintcha? Tell you what, I've got somethin a big dog like you might find useful. Ain't gonna be cheap, of course..."
+
+'''If the player is wearing the [[Icicle Ring]], and the Snowman's name is Snowton:'''
+:*"Huh? What's that on your finger? Hey, that's my ring! You can keep it, I don't need it anymore. Always hurt my branches whenever I put it on."
+
+== Trivia ==
+*The Snowman is implied to be a former member of the Frost Legion, who died and was sent to Hell.
+*Many of his names are jokes.
+**Ice Creamcone is a reference to the famous gangster Al Capone.
+**Icenberg is a portmanteau of iceberg and Heisenberg, the main character of the show Breaking Bad.
+**Snowton is a reference to the boss Spamton from the game Deltarune.
+*The symbols seen in the design of the black jack UI are those of Yharim for the card backs, Xeroc for the Draw Pile, and Noxus for the chip area.
+
+{{Master Template Characters
+| show-main = yes
+| show-npc = yes
+}}

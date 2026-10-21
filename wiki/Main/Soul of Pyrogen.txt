@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| image = Soul of Pyrogen.gif
+| type = Covering
+| type2 = Crafting material
+| stack = 1
+| tooltip = 20% increased Melee damage <br/> True Melee strikes create spears from the ground
+| rare = -11
+| sell = {{value|0|5}}
+| hardmode = yes
+| debuff = Dragon Fire
+| debuffchance = 100%
+| debuffduration = 2 (Spears)
+| proj = Pyrospear.png
+| projcaption = Spear
+}}
+|{{item drops infobox
+| [[Pyrogen]]|1|20%
+}}
+}}
+
+The '''Soul of Pyrogen''' is a [[Hardmode]] [[covering]] and [[quest item]] dropped by [[Pyrogen]].
+
+When equipped, all of the player's melee attacks deal 20% more damge, and true melee strikes create 5 spears that deal 50% of the held weapons damage and inflict the [[Dragon Fire]] debuff.
+
+==[[Endings|Elemental quest]]==
+Having the Elemental quest active will allow this item to be sold the [[Archmage]] to continue the quest, along with receiving some new dialogue.
+
+* This gentle sensation of magma is an unmistakable product of the [[Underworld]]. Their mastery of fire would have sustained them for many more generations, just as we continue to live under the sun.
+* The monks may have profaned the element with their concepts and the Auric Soul, but I will use this aspect of fire to rejuvenate this world and save it from total annihilation.
+
+After this, Permafrost will be able to shoot fireballs to ignite enemies.
+
+== Recipes ==
+===Used In===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

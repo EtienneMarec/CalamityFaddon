@@ -1,0 +1,73 @@
+{{dedicated|Garth|Developer}}
+{{item infobox
+| type = Weapon
+| damagetype = melee
+| damage = 170
+| knockback = 9.5
+| rare = 16
+| sell = {{value|0|40}}
+| stack = 1
+| auto = yes
+| use = 15
+| tooltip = Lowers enemy defense by 1 with every strike<br/>Your attacks will heal you a lot<br/>Rains RGB meteors that explode into more meteors after a short time on enemy hits<br/>Ice meteors freeze enemies<br/>Flame meteors explode<br/>Green meteors spawn healing orbs
+| debuff = On Fire!
+| debuffduration = 5 seconds (RGB meteor)
+| debuffchance = 100%
+| debuff2 = Cursed Inferno
+| debuffduration2 = 3 seconds (RGB meteor)
+| debuffchance2 = 100%
+| debuff3 = Frostburn
+| debuffduration3 = 4 seconds (RGB meteor)<br/>3 seconds (Blue meteor)
+| debuffchance3 = 100%
+| debuff4 = Holy Flames
+| debuffduration4 = 10 seconds (Red meteor)
+| debuffchance4 = 100%
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = RGB Meteor.png
+| projcaption = RGB Meteor
+| element1 = Slash
+| element2 = Poison
+| element3 = Fire
+| element4 = Cold
+}}
+
+'''Garth''' is a craftable Epilogue [[developer]] [[broadsword]]. Every time the sword strikes an enemy, its defense will be lowered by 1. Additionally upon striking an [[enemy]], the player is [[Lifesteal|healed]] by 1 to 68 life, and three multicolored meteors rain from the top of the screen to the cursor's position, phasing through tiles. Each meteor will inflict the [[On Fire!]], [[Cursed Inferno]], and [[Frostburn]] [[debuff]]s. Upon contact with an enemy, or after travelling a short length, the meteor will split into eight red, green, or blue tile-ignoring meteors in all directions that each have their own special property.
+
+{{modifier|melee}}
+
+== Projectile Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Type !! Description
+|-
+| {{item|Red Meteor|mode=table|nolink=y}}
+| Explodes on impact and inflicts [[Holy Flames]] [[debuff]] for 10 seconds.
+|-
+| {{item|Green Meteor|mode=table|nolink=y}}
+| Spawns healing orbs on hit. 7.5% of the damage dealt is healed back.
+|-
+| {{item|Blue Meteor|mode=table|nolink=y}}
+| Inflicts the [[Frostburn]] debuff for 3 seconds.
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+[[File:Earth (demo).gif|thumb|600px|Garth being used to attack a [[Target Dummy]] summoning meteors onto a group of nearby Target Dummies.|alt=]]
+*The weapon's name, while being a reference to one of the developers, may also be a reference to Terraria's original strongest sword, the [[Terra Blade]]. The prefix "Terra-" means "Garth."
+*Garth shares its name with a character from the [[wikipedia:Alpha and Omega (film series)|Alpha and Omega]] franchise.
+*This weapon actually has a unique rarity, but is referred to here as Hot Pink for consistency between weapons.
+**This unique rarity alternates between pink ({{color|#FF6392 ●|#FF6392}}), yellow ({{color|#FFE45E ●|#FFE45E}}), and blue ({{color|#7FC8F8 ●|#7FC8F8}}).
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Healing items]]
+[[Category:True melee]]

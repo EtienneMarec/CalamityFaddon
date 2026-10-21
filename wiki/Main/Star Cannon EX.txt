@@ -1,0 +1,44 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = ranged
+| damage = 95
+| knockback = 8
+| rare = 7
+| tooltip = Fires a mix of normal, starfury, and astral stars
+| sell = {{value|0|12}}
+| use = 10
+| velocity = 15
+| stack = 1
+| hardmode = yes
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 2 seconds (Astral stars)
+| proj = Astral Star.png
+| projcaption = Astral Star
+| proj2 = Fallen Star (Calamity).png
+| proj2caption = Fallen Star
+| proj3 = Starfury (projectile).png
+| proj3caption = Starfury Star
+| element1 = Magic
+}}
+
+The '''Star Cannon EX''' is a craftable [[Hardmode]] [[ranged weapon]] and the upgrade to the [[Star Cannon]]. It consumes [[Fallen Star]]s to rapidly fire three different types of star projectiles: red, yellow, and pink. Pink stars pass through tiles with unlimited range, red stars pass through tiles with a limited range, and yellow stars do not pass through tiles and have unlimited range.
+
+{{Modifier|ranged}}
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*Grinding [[Astrum Aureus]] is an efficient, though not necessarily easy, way of obtaining Fallen Stars.
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

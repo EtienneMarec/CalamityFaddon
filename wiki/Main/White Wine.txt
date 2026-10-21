@@ -1,0 +1,28 @@
+{{item infobox
+| type = Potion
+| tooltip = Boosts magic damage by 10%<br/>Reduces defense by 6% and life regen by 1
+| stack = 9999
+| mheal = 400
+| rare = 6
+| use = 17
+| sell = {{value|0|0|80}}
+| consumable = yes
+| debuffduration = 5 minutes
+| debuff = White Wine (debuff) | debufflink = no
+| debufftip = Magic damage boosted, life regen and defense reduced
+| hardmode = yes
+}}
+
+'''White Wine''' is a craftable [[Hardmode]] [[potion]]. It grants the '''White Wine''' [[debuff]] when consumed, which reduces life regen and [[defense]], but boosts magic damage. It also inflicts [[Mana Sickness]] for 5 seconds.
+
+While the effects of the White Wine debuff are mostly beneficial, it is still considered a debuff, and therefore cannot be removed by right-clicking the icon.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}
+[[Category:Healing items]]

@@ -1,0 +1,31 @@
+{{infobox wrapper
+|{{item infobox
+| image = Warbanner of the Sun.gif
+| type = Covering
+| tooltip = Increases melee damage, true melee damage and melee speed the closer you are to enemies<br/>Max boost is 20% increased melee damage, true melee damage and melee speed
+| stack = 1
+| rare = 11
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|22}}
+}}
+|{{item drops infobox
+|[[Profaned Guardians]]|1|10%
+}}}}
+
+The '''Warbanner of the Sun''' is a Godseeker Mode [[covering]] that drops from the [[Profaned Guardians]]. Melee damage, [[true melee]] damage and melee speed boosts linearly scale with how close the player is to an enemy, with a maximum boost of +20%. Bonuses start when the player is 30 tiles or closer to an enemy. It should be noted that the general melee damage and the true melee damage boosts stack, meaning true melee weapons will do a total of 40% more damage at maximum.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*In previous versions of the mod, this item was called the Samurai Badge, and was originally the [[rare item variant]] of the [[Badge of Bravery]].
+
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

@@ -1,0 +1,12 @@
+<includeonly>{| class="{{{mainstyle|terraria}}} ajax" width="{{{width|100%}}}" data-ajax-source-page="{{{target|{{{1|none}}}}}}" 
+{{#if:{{{nohead|}}}||
+! {{{headstyle|}}} {{!}} {{{head|&nbsp;}}} }}
+|- style="display:none;"
+| class="showLinkHere" {{{bodystyle|align="center"}}} | {{{bodyload|[link]<abbr style="cursor:pointer" title="{{l10n|ajax|main_text_hover}}">{{l10n|ajax|main_text}}</abbr>[/link]}}}
+|- class="nojs-message"
+| align="center" | [[{{{target|{{{1|none}}}}}}| ]]{{{nojs|{{l10n|ajax|no_js_msg|$view_the_data-link$=[[{{{target|{{{1|Unknown}}}}}}|{{l10n|ajax|view_the_data}}]]}}}}}
+|}<!--
+
+--></includeonly><!--
+
+--><noinclude>{{i18n-ready}}{{doc}}</noinclude>

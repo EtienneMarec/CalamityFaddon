@@ -1,0 +1,52 @@
+{{revengeance mode only}}
+{{item infobox
+| type = Covering
+| type2 = Armor
+| body slot = Helmet
+| defense = 5
+| tooltip = Only a fool would ever wear this...<br/>You constantly gain rage over time and rage does not fade away when out of combat<br/>Converts certain debuffs into buffs and extends their durations<br/>Debuffs affected: Darkness, Blackout, Confused, Slow, Weak, Broken Armor,<br/>Armor Crunch, War Cleave, Chilled, Ichor and Obstructed<br/>Getting hit causes you to only lose half of your max adrenaline rather than all of it<br/>Increases your max movement speed and acceleration by 5%<br/>Can also be worn as a helmet<br/>Revengeance item
+| rare = 14
+| sell = {{value|0|28}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Occult Skull Crown''' is a craftable [[Revengeance Mode]]-exclusive Godseeker Mode [[covering]]/[[Covering]]. While equipped the [[Rage Meter]] will gradually fill up at a rate of 1% every second as well as making it not empty while out of combat. It increases defense by 5, movement speed and acceleration by 5%, and causes damage taken to halve the [[Adrenaline Meter]] instead of losing all of it.
+
+Additionally, the following [[debuff]] effects will be converted into net-positive effects while the player is afflicted by them:
+*[[Armor Crunch]] cancels defense and [[DR]] penalty and provides 15 defense.
+*[[Blackout]] cancels light reduction and gives +30 defense, +25% damage and +10% critical strike chance.
+*[[Broken Armor]] cancels defense penalty and gives +25% defense.
+*[[Chilled]] cancels movement penalty and provides 1.3x move speed. 
+*[[Confused]] cancels reversed controls and gives +30 defense, +25% damage and +10% critical strike chance. 
+*[[Darkness]] cancels light reduction and gives +15 defense, +10% damage and +5% critical strike chance.
+*[[Ichor (debuff)|Ichor]] gives +20 net defense.
+*[[Obstructed]] cancels vision obstruction and gives +50 defense, +50% damage and +25% critical strike chance.
+*[[Slow]] cancels movement penalty and provides 1.5x move speed.
+*[[War Cleave]] cancels defense and DR penalty and gives 10% damage reduction.
+*[[Weak]] gives +10% net melee damage, +10 net defense, and +20% net move speed.
+
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The speed and acceleration bonuses do not stack with those given by the [[Stress Pills]].
+*Equipping the Occult Skull Crown does not prevent the player from being immune to the converted debuffs. The [[Ankh Shield]] and any of its related coverings ''will'' still provide immunity to the debuffs converted by the Occult Skull Crown, meaning the player will not receive the positive effects if they have both equipped.
+
+== Trivia ==
+*This covering's appearance is based on the mask worn by the [https://darkestdungeon.fandom.com/wiki/Cultist_Acolyte Cultist Acolytes] from the game ''[[wikipedia:Darkest_Dungeon|Darkest Dungeon]]''.
+*This covering fulfills the role that [[Draedon's Heart]] had prior to the [[1.5.0.001]] update: combining the three Revengeance Mode-exclusive rare boss drop coverings.
+**Those three coverings used to interact with Calamity's [[Stress]] mechanic, which was inspired by a [https://darkestdungeon.fandom.com/wiki/Stress similar mechanic] from ''Darkest Dungeon''. Although Stress was removed from the mod long before Occult Skull Crown was added, its design still serves as a reference to that past inspiration.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

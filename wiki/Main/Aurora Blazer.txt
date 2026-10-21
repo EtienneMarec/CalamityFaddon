@@ -1,0 +1,40 @@
+{|align="right"
+|{{item infobox
+| stack = 1
+| auto = yes
+| type = Weapon
+| damage = 49
+| damagetype = Ranged
+| use = 18
+| velocity = 7.5
+| tooltip = Spews astral flames that travel in star-shaped patterns<br/>60% chance to not consume gel
+| debuff = Astral Infection (debuff)
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| debufftip = Your flesh is melting off
+| knockback = 2
+| rare = 7
+| sell = {{value|0|9|60}}
+| image2 = Aurora Blazer (tank).png
+| image2caption = Equipped tank
+| hardmode = yes
+| element1 = Fire
+| element2 = Magic
+| element3 = Machine
+}}
+|-
+|{{item drops infobox
+| [[Astrum Aureus]]|1|{{dv|25%|33.33%}}
+}}
+|}
+The '''Aurora Blazer''' is a [[Hardmode]] [[Flamethrowers|flamethrower]] that drops from [[Astrum Aureus]]. It fires an erratic astral flame that travels quickly in a star shaped pattern that changes direction after travelling for 70 frames, or 32.8125 tiles, damaging enemies and inflicting the [[Astral Infection (debuff)|Astral Infection]] [[debuff]]. Once completing its path, it will return to the player. There is no limit to how many astral flames can be active at once.
+
+{{Modifier|ranged}}
+
+[[File:Aurora Blazer (demo).gif|frame|left|The Aurora Blazer's unique flame pattern.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

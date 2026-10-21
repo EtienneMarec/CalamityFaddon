@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 60
+| damagetype = magic
+| auto = yes
+| knockback = 7
+| mana = 19
+| tooltip = Casts a large blast of dust
+| use = 20
+| velocity = 4
+| rare = 8
+| stack = 1
+| sell = {{value|0|16}}
+| hardmode = yes
+| element1 = Fire
+}}
+
+The '''Primordial Earth''' is a craftable [[Hardmode]] [[spell tome]]. It is a direct upgrade to the [[Death Valley Duster]], firing dust blows with a greater area of effect and dealing higher DPS. The dust blows can pass through tiles and burst into explosions of dust upon hitting an enemy, which each last for about a second and deal damage on contact.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Spell tomes]]

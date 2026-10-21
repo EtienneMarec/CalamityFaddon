@@ -1,0 +1,24 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = 7% increased damage reduction and +3 defense while in the crimson
+| rare = 2
+| sell = {{value|0|0|40}}
+| stack = 1
+}}
+
+The '''Crimson Flask''' is a [[Pre-Hardmode]] [[covering]] that increases [[defense]] by 3 and damage reduction by 7% while in [[The Crimson]]. It is the Crimson counterpart to the [[Corrupt Flask]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

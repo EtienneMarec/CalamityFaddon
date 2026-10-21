@@ -1,0 +1,51 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 8
+| sell = {{value|0|16}}
+| damage = 75
+| use = 19
+| velocity = 11
+| knockback = 6
+| tooltip = Chance to heal the player on enemy hits<br/>Inflicts Burning Blood<br/>Fires a bloody blade
+| auto = yes
+| stack = 1
+| hardmode = yes
+| debuff = Ichor (debuff)
+| debufftip = Defense reduced by 20
+| debuffduration = 1 second
+| debuffchance = 100%
+| debuff2 = Burning Blood
+| debufftip2 = Your blood is on fire
+| debuffduration2 = 1 second
+| debuffchance2 = 100%
+| proj = Bloody Blade.png
+| projcaption = Bloody Blade
+| element1=  Unholy
+| element2= Slash
+}}
+
+The '''True Bloody Edge''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. It is a direct upgrade to the [[Bloody Edge]] and can be used to craft the [[Terra Blade]] or [[Terra Edge]]. On each swing, it fires out a yellow sword projectile that can pierce 2 targets before dissipating on the third. If an enemy is hit by the sword itself, there is a 50% chance for the player to be [[Lifesteal|healed]] for 1 to 6 hp. Both the sword and the projectile inflict the [[Ichor (debuff)|Ichor]] and [[Burning Blood]] [[debuff]]s for 1 second.
+
+It is an alternative to the vanilla weapon [[True Night's Edge]], having less raw damage but granting Ichor infliction and the ability to recover health.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The True Bloody Edge and its predecessor were implemented based on a community suggestion made by Gouvod on the mod's Terraria Forums post.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Healing items]]
+[[zh:真·血锋]]

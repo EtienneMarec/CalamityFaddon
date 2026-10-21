@@ -1,0 +1,27 @@
+{{item infobox
+| type = Furniture
+| type2 = Light Source
+| consumable = yes
+| auto = yes
+| placeable = yes
+| width = 1
+| height = 1
+| use = 14
+| color = #FDDD03
+| stack = 9999
+| tooltip = Can be placed in water
+| sell = {{value|0|0|1}}
+| hardmode = yes
+}}
+
+'''Abyss Torches''' are [[torch]]es that can function both on land and underwater. When placed or held, they emit a gray light and release light blue sparks.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main = yes
+| show-furniture = yes
+}}
+[[zh:深渊火把]]

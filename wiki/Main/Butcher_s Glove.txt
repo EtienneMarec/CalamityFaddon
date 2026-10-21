@@ -1,0 +1,58 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Revengeance mode only}}
+{{item infobox
+| name = Butcher's Glove
+| type = Covering
+| type2 = Crafting material
+| tooltip = Striking an enemy with a melee attack makes it bleed<br/>Additional attacks make the bleed stronger, up to a certain amount<br/>After hitting the bleed threshold, creates a powerful sanguine explosion<br/>Sanguine explosions deal the excessive damage from bleed<br/>The slower the held weapon is, the stronger bleed and the smaller threshold are<br/>Press {{key|Machete}} to throw machete on a chain<br/>Machete acts similarly to hooks, but can latch onto enemies<br/>Latching onto enemies causes a stronger sanguine explosion that weakens them<br/>'The favorite tool of any good pig!'
+| sell = {{value|0|2}}
+| stack = 1
+| debuff = Vulnerability Hex
+| debuffchance = 100%
+| debufftip = You are weak
+| debuffduration = 2-4 seconds (Machete's Sanguine Explosion)
+| debuff2 = Weak Hands
+| debuffchance2 = 100%
+| debufftip2 = Your hands shake violently
+| debuffduration2 = 2 seconds (After returning the machete)
+| element1 = Unholy
+| element2 = Stab
+|element3=Dark|rare=3|element4=Slash}}
+
+The '''Butcher's Glove''' is a craftable Godseeker Mode [[Equipment|covering]] that is a direct to [[tgc:Berserker's Glove|Berserker's Glove]] and [[Sanguined Catarachedrae]]. It is the melee component of  [[Edgeterrence]]. While equipped, it provides the following effects:
+
+*Hitting an enemy with a melee weapon will cause it to bleed for 3 seconds, dealing a base damage of 30 every second, similarly to most [[debuffs]]. 
+**If the bleeding enemy is hit again, the effect will add on itself up to a certain threshold, the base value of which is 150.
+**After hitting the threshold, the enemy will explode, creating a sanquine explosion. It pierces an infinite amount of enemies once, goes through walls and has a radius of 8 blocks. However, the sanguine explosion cannot critically hit and deals only 150 flat typeless damage, but will instantaneously deal the rest of the bleed damage increased by 1.5 times to the enemy.
+*Upon pressing the {{Key|Machete}} key, the player will throw a machete on a chain in the direction of the cursor.
+**The machete is only slightly affected by gravity, and cannot pierce nor deal damage by itself.
+**Hitting anything with the machete will cause the player to be quickly pulled to the point of the hit. If the hit object is a block, the machete will act similarly to [[Hook|hooks]]. However, if the hit object is an enemy, the player will be flinged through it, causing a stronger sanguine explosion.
+*** As the normal sanguine explosion, the stronger one pierces an infinite amount of enemies once and goes through walls. However, it has an increased radius of 12 blocks, deals 750 typeless damage, which scales with the melee damage bonuses, and inflicts the [[Vulnerability Hex]] debuff for 2 seconds.
+**The player can hold down the key up to 2 seconds, increasing the explosion's damage, the debuff's duration and velocity of the machete.
+** Pressing the key again will instantly retract the machete to the player, no matter if it hit anything or not.
+**After returning the machete, the player will be inflicted with the '''Weak Hands''' debuff for 2 seconds, disabling the ability to throw the machete.
+
+==Crafting==
+
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+=== Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Notes == 
+*Melee projectiles also trigger the bleed effect. However, due to an oversight, the bleed effect can be triggered using typeless and classless projectiles, e.g. [[Moonstone Crown]].
+**This allows other classes to use Butcher's Glove, even if its effects cannot be activated as consistent and, as a result, are not as useful.
+*Both the bleed effect and the sanquine explosion threshold scale with the use time of the weapon held in hand: 
+**The bleed effect is calculated using the following formula: (<u>30 + use time / 1.5)</u>, rounded down to the nearest number.
+**The threshold is calculated using the following formula: (<u>150 - use time * 1.5)</u>, rounded down to the nearest number.
+***The threshold is calculated on the first hit and cannot be changed before the bleed effect expires or the sanguine explosion is triggered.
+**If the held weapon does not use the melee, classless or typeless damage types, the use time factor will always be set to 0.
+*The machete has the same stats as the [[tgc:Lunar Hook|Lunar Hook]], but will retract to the player after being thrown for 2 seconds instead of having a set length.  
+**Charging the machete will linearly increase its velocity up to 2.5 times, the explosion damage up to 1.5 times its original value and the duration of the '''Vulnerability Hex''' debuff up to 4 seconds.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Combat coverings]]

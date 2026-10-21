@@ -1,0 +1,60 @@
+This template re-creates the '''Rarity''' ( <code>rare =</code> ) field from [[Template:Item infobox]], producing a colored Rarity label, but allows it to be placed independently. This template can also add pages to the rarity categories.
+
+== Usage ==
+Enter the rarity number as a parameter. Use the same number as you would for the infobox (see [[rarity]]).
+ 
+'''When used in a sortable table's "rarity" column,''' add <code>|sort=yes</code> to each {{tl|rare}} template. This will automatically add a sort key that will correct the rarity column's sort order. 
+
+'''If you want to add pages to the rarity categories''', add <code>|cat/cate/category=y/yes</code> to each {{tl|rare}} template, or add <code>|cat/cate/category</code> as unname parameter 2.
+
+----
+;Example 1: 
+* <code><nowiki>{{rare|2}}</nowiki></code>
+Produces:
+*{{rare|2}}
+----
+;Example 2:
+* <code><nowiki>{{rare|q}}</nowiki></code> or <code><nowiki>{{rare|quest}}</nowiki></code>
+Produces:
+*{{rare|q}}
+----
+;With category:
+* <code><nowiki>{{rare|8|category}}</nowiki></code> or <code><nowiki>{{rare|cat=y|8}}</nowiki></code>
+
+== Color list ==
+''See [[Rarity]] for details''
+
+* -1 = [[File:Rarity color negative.png]]
+* 0 = [[File:Rarity color 0.png]]
+* 1 = [[File:Rarity color 1.png]]
+* 2 = [[File:Rarity color 2.png]]
+* 3 = [[File:Rarity color 3.png]]
+* 4 = [[File:Rarity color 4.png]]
+* 5 = [[File:Rarity color 5.png]]
+* 6 = [[File:Rarity color 6.png]]
+* 7 = [[File:Rarity color 7.png]]
+* 8 = [[File:Rarity color 8.png]]
+* 9 = [[File:Rarity color 9.png]]
+* 10 = [[File:Rarity color 10.png]]
+* 11 = [[File:Rarity color 11.png]]
+* 12 = [[File:Rarity color 12.png]]
+* 13 = [[File:Rarity color 13.png]]
+* 14 = [[File:Rarity color 14.png]]
+* 15 = [[File:Rarity color 15.png]]
+* 16 = [[File:Rarity color 16.png]]
+* -12/rainbow = [[File:Rarity color rainbow.gif]]
+* -11/q/quest = [[File:Rarity color quest.png]]
+* d/donator = [[File:Rarity color donator.png]]
+* riv = [[File:Rarity color rare variant.png]]
+* a/arsenal = [[File:Rarity color draedon arsenal.png]]
+* C1 = [[File:Rarity color C1.png]]
+* C2 = [[File:Rarity color C2.png]]
+* C3 = [[File:Rarity color C3.png]]
+* C4 = [[File:Rarity color C4.png]]
+
+<includeonly>
+[[Category:Shortcut templates‎]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

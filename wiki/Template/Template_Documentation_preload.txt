@@ -1,0 +1,18 @@
+Describe the template's function here.
+
+== Usage ==
+Describe usage instructions here.
+
+; Parameter 1 name
+How to use first parameter
+
+; Parameter 2 name
+How to use parameter 2
+
+<include<includeonly></includeonly>only>
+<!-- Categories and interwikis go here. -->
+<includeonly>[[Category:Templates]]</includeonly>
+</include<includeonly></includeonly>only>
+<no<includeonly></includeonly>include>
+[[Category:Template documentation]]
+</no<includeonly></includeonly>include><noinclude>[[Category:Template documentation| ]]</noinclude>

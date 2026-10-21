@@ -1,0 +1,25 @@
+{{item infobox
+| type = Tool
+| stack = 1
+| research = 1
+| tooltip = "Jet upwards like a samurai"<br/>Consumes one Wulfrum Metal Scrap to jet the player upwards<br/>As you are moved upwards, up to 40 temporary blocks are placed
+| use = 25
+| rare = 1
+| sell = {{value|0|0|10}}
+}}
+
+The '''Wulfrum Scaffold Kit''' is a craftable [[Pre-Hardmode]] [[tool]]. When used, one [[Wulfrum Metal Scrap]] is consumed, and the player will start moving upwards at a rate of roughly 5 blocks per second. As the player goes upwards, a stack of Wulfrum Plating blocks are placed until up to 40 have been placed, which will then cause another Wulfrum Metal Scrap to be consumed. The blocks last for 10 seconds, and have all typical block behavior otherwise.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+== Trivia ==
+*The item's flavor text is a reference to Jetstream Sam from ''[[wikipedia:Metal Gear Rising: Revengeance|Metal Gear Rising: Revengeance]]'', who is a samurai with jet in his name
+
+{{Wulfrum}}
+{{Master Template Tools
+| show-main = yes
+| show-other = yes
+}}

@@ -1,0 +1,30 @@
+{{dablink|For the vanilla debuff page, see [[tgc:Rod of Discord|Chaos State]].}}
+{{buff infobox
+| type = Debuff
+| effects = Rod of Discord, Normality Relocator, Spectral Veil, and Rod of Harmony teleport can't be used<br/>Decreases the player's damage by 30% (Rod of Harmony)
+| tooltip = Rod of Discord teleports are disabled
+}}
+
+'''Chaos State''' is a vanilla [[debuff]] caused by teleporting with the [[Rod of Discord]], and is also inflicted by other teleporting items in the Calamity Mod such as the [[Normality Relocator]] and [[Spectral Veil]]. Instead of dealing damage to players repeatedly using the Rod of Discord, the Calamity Mod changes the debuff to simply prevent teleporting again until the cooldown is over. The Calamity Mod also extends the time the Rod of Discord inflicts Chaos State from 6 seconds to 10 seconds when fighting a [[boss]]. It also causes the [[Rod of Harmony]] to inflict the debuff, which will decrease damage by 30%.
+
+If the player is under the effects of [[Scarf Cooldown]], Chaos State will be inflicted for twice as long.
+
+== Causes ==
+=== From Calamity Items ===
+{{item debuffs}}
+
+=== From Vanilla Items ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-
+| {{item|mode=table|Rod of Discord}}||6 seconds (When used)<br/>10 seconds (When used during a boss or event)||100%
+|-
+| {{item|mode=table|Rod of Harmony}}||15 seconds||100%
+|}
+{{-}}
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

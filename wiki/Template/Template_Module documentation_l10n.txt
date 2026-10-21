@@ -1,0 +1,15 @@
+<includeonly><!--
+//register localization info
+-->{{l10n/register|module_documentation|en<!--
+	-->|documentation=Documentation<!--
+	-->|headertext=The documentation below is transcluded from $doc-page$.&#32;<!--
+	-->|doc-page_edit=edit<!--
+	-->|doc-page_hist=history<!--
+	-->|purge=purge<!--
+	-->|jump_to_code=↓ jump to module code ↓<!--
+	--><!--|direct_to_en=See also the English module: $link_to_en$. It may contain more complete or current information.--><!-- This line is hidden on EN but should be included and translated on other language wikis
+	-->|no_doc=No documentation subpage exists yet for this module.&#32;<!--
+	-->|create_new_doc=Create one now.<!--
+	-->|preload-page=Template:Module_documentation/preload<!--
+-->}}<!--
+--></includeonly>

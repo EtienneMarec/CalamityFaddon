@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 25
+| mana = 6
+| tooltip = Summons dark aura rain from the sky
+| knockback = 2.25
+| velocity = 14
+| rare = 3
+| sell = {{value|0|0|80}}
+| use = 18
+| stack = 1
+| proj = Aura Rain.png
+| projcaption = Aura Rain
+| element1 = Unholy
+| element2=  Water
+}}
+|{{item drops infobox
+|[[The Hive Mind]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{distinguish|Shaderain Staff|a [[wand]] that summons a sentry-like cloud}}
+
+The '''Shadowdrop Staff''' is a craftable [[Pre-Hardmode]] [[wand]] that can also drop from [[The Hive Mind]]. When used, it causes groups of thin, grey projectiles to fall from the sky, dealing damage to any enemy they touch. The fired projectiles cannot pass through blocks and cannot pierce enemies. It is the [[Corruption]] counterpart to the [[Blood Bath]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Tips ==
+*This weapon is very useful to farm worm enemies or bosses like the [[Desert Scourge]].
+
+{{Rotten Matter}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

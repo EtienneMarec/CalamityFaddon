@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 39
+| knockback = 3.75
+| rare = 5
+| sell = {{value|0|7|20}}
+| stack = 1
+| auto = yes
+| velocity = 13
+| use = 22
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| debufftip = Rapid health loss
+| hardmode = yes
+| tooltip = Converts wooden arrows into spreads of 3 brimstone bolts
+| element1 = Unholy
+| element2 = Fire
+| element3 = Stab
+}}
+|{{item drops infobox
+| [[Clamitas]] {{fantag|Calamity: Community Remix}}| 1 | 25% (in [[Hardmode]])
+}}
+}}
+
+The '''Brimstone Fury''' is a craftable [[Hardmode]] [[bow]]. When used, it shoots 3 arrows in a slight spread. If [[Wooden Arrow]]s are used as [[ammo]], arrows are converted into three fast brimstone laser bolts with a slight spread. The bolts dissipate upon impact with tiles and do not pierce [[enemies]]. Upon hitting an enemy, the bolts inflict the [[Brimstone Flames]] [[debuff]].
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Unholy Core}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

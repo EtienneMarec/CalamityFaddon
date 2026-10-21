@@ -1,0 +1,46 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 173
+| use = 14
+| mana = 10
+| knockback = 3
+| tooltip = Summons radioactive heads that are bound by your body
+| buff = Gamma Hydra (buff) | bufflink= no
+| bufftip = ...
+| debuff = Sulphuric Poisoning
+| debuffchance = 100%
+| debuffduration = 4 seconds (Gamma Bullet)
+| debufftip = The acidic water burns away your flesh
+| rare = 13
+| sell = {{value|0|26}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| proj = Gamma Canister.png
+| projcaption = Gamma Canister
+| proj2 = Gamma Shot.png
+| proj2caption = Gamma Bullet
+| element1 = Acid
+| element2 = Radioactive
+}}
+|{{item drops infobox
+| [[Nuclear Terror]]| 1 | 33.33%
+}}
+}}
+{{summoned|Gamma Hydra|type=minion}}
+
+The '''Gamma Heart''' is a Godseeker Mode [[summon weapon]] that drops from [[Nuclear Terror]]s. It summons a Gamma Hydra that is attached to the player; summoning the item again will add a head in exchange for taking up another minion slot. The heads fire Gamma Canisters in an arc at nearby enemies which inflict the [[Sulphuric Poisoning]] [[debuff]]. Each canister splits into 6 Gamma Bullets upon contacting an enemy or tile, each of which deals half the original weapon's damage and will home into enemies after exactly 1.1666 seconds.
+
+{{Modifier|summon}}
+
+== Trivia ==
+*Like the Nuclear Terror, The Gamma Hydra's design was inspired, albeit more directly, by the [https://nuclear-throne.fandom.com/wiki/Horror Horror] character from the game ''Nuclear Throne''.
+
+[[File:Gamma Heart (demo).gif|frame|left|The Gamma Heart's Gamma Hydras. Notice how the Hydras are unable to fire through blocks and how the bullets created from the canisters have a delayed homing effect.]]also Hades reference{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

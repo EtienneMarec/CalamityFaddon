@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| damage = 100
+| damagetype = magic
+| tooltip = The savage mauling that fits in your pocket<br/>Fires spiritual claws that ignore walls and confuse enemies
+| mana = 18
+| use = 28
+| knockback = 10
+| velocity = 27
+| auto = yes
+| stack = 1
+| hardmode = yes
+| rare = 6
+| buy = {{value|0|48}}
+| sell = {{value|0|9|60}}
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debuff2 = Glacial State
+| debufftip2 = Cannot move and defense is shattered
+| debuffchance2 = 100%
+| debuffduration2 = 0.5 seconds
+| debuff3 = Confused
+| debufftip3 = Movement is reversed
+| debuffduration3 = 1-3.98 seconds
+| debuffchance3 = 33.33%
+| proj = Arctic Bear Paw (projectile).png
+| projcaption = Arctic Bear Paw
+| element1 = Cold
+| element2 = Slash
+}}
+
+The '''Arctic Bear Paw''' is a [[Hardmode]] [[magic weapon]] sold by the [[Archmage]] NPC for {{gc|48}} after all three [[Mechanical Boss]]es have been defeated. It fires large ice claws with very high knockback that pass through walls and enemies. The projectiles slow down shortly after being fired and then disappear, inflicting [[Glacial State]] and [[Confused]] on hit enemies.
+
+{{Modifier|magic}}
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category: Magic weapons]]

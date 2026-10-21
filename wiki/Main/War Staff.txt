@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 12
+| mana = 10
+| tooltip = Casts a ball of gray energy that breaks enemy defense on hit
+| knockback = 2.5
+| velocity = 11
+| rare = 1
+| sell = {{value|0|0|20}}
+| use = 20
+| stack = 1
+| debuff = War Cleave
+| debuffduration = 10 seconds
+| debuffchance = 100%
+| element1 = Stab
+}}
+|{{item drops infobox
+| [[Goblin Sorcerer]]| 1 | {{dv|5%|10%}}
+}}
+}}
+The '''War Staff''' is a [[Pre-Hardmode]] [[wand]] dropped by [[Goblin Sorcerer]]s. It shoots gray energy balls which travel at a medium speed and inflict [[War Cleave]] upon contact with enemies.
+
+{{Modifier|magic}}
+
+{{-}}
+{{War}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

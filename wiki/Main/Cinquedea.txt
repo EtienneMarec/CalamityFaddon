@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Spy
+| damage = 36
+| auto = yes
+| use = 14
+| critical = 12%
+| knockback = 5
+| velocity = 8
+| tooltip = Stealth strikes home in after hitting an enemy
+| rare = 3
+| buy = {{value|0|9}}
+| sell = {{value|0|0|80}}
+| stack = 1
+| element1 = Stab
+}}
+The '''Cinquedea''' is a [[Pre-Hardmode]] non-consumable [[dagger]] sold by the [[Bandit]] for {{gc|9}}. When used, it automatically throws a dagger that is affected by gravity. The dagger can pierce one enemy.
+
+Performing a [[stealth strike]] with the Cinquedea will cause the next dagger thrown to home in on nearby enemies after striking an enemy.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*In real life, a [[wikipedia:Cinquedea|cinquedea]] is a Renaissance-era shortsword known for having a very wide blade.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Daggers]]

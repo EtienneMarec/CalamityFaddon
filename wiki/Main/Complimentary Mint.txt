@@ -1,0 +1,19 @@
+{{item infobox
+| category = Potion items
+| use = 17
+| stack = 9999
+| tooltip = >Grants Somewhat Fulfilled
+| consumable = yes
+| rare = 2
+| sell = {{value|0|0|0|5}}
+| buff = Somewhat Fulfilled (buff)
+| bufftip = Puny improvements to all stats
+| duration = 1 minute
+}}
+
+The '''Complimentary Mint''' is a Godseeker Mode [[food item]] sold by the [[Snowman]]. It grants the '''Somewhat Fulfilled''' buff, which is a weaker version of the [[Well Fed]] buff.
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

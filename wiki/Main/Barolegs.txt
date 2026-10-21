@@ -1,0 +1,34 @@
+{{item infobox
+| type = Potion
+| type2 = Crafting material
+| stack = 999
+| tooltip = The meat actually looks to have come from a barocraw. Not that it matters, it's rancid all the same<br/>Varying improvements to all stats<br/>Increases life regeneration
+| consumable = Yes
+| rare = 5
+| use = 17
+| buff = Well Fed
+| duration = 20 minutes
+| bufftip = Minor improvements to all stats<br/>{{expert|Minor improvements to all stats and increased life regeneration}}
+| buff2 = Plenty Satisfied
+| bufftip2 = Medium improvements to all stats<br/>{{expert|Medium improvements to all stats and increased life regeneration}}
+| duration2 = 20 minutes
+| buff3 = Exquisitely Stuffed
+| bufftip3 = Major improvements to all stats<br/>{{expert|Major improvements to all stats and increased life regeneration}}
+| duration3 = 20 minutes
+| sell = {{value|0|2|0}}
+}}
+{{item drops infobox
+|[[Abyss]] enemies |1|varies
+}}
+
+'''Barolegs''' are a consumable [[food item]] that drops from [[Abyss]] enemies. When consumed, it grants the [[Well Fed]] buff for 20 minutes. Additionally, after defeating [[Calamitas]], this is buffed to [[Plenty Satisfied]], and again after defeating [[Polterghast]] to [[Exquisitely Stuffed]].
+
+==Crafting==
+===Used in (Any Food Item)===
+{{recipes|ingredient=Any Food Item}}
+{{-}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion=yes
+}}

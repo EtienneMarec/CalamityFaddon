@@ -1,0 +1,42 @@
+{{addon|Calamity: Community Remix}}
+{{dedicated|Carleah22|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 124
+| use = 15
+| knockback = 3
+| velocity = 10
+| rare = 13
+| tooltip = Right click to fling the spear outwards and reel in enemies<br/>Left clicking when a chained enemy is about to touch you causes you to parry them, creating a blood explosion<br/>'If you live for yourself you’ve only got yourself to blame.'
+| sell = {{value|0|0|40}}
+| stack = 1
+| debuff = Abyssal Flames
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Slowly losing life
+| debuff2 = Burning Blood
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds
+| debufftip2 = Losing Life
+| element1 = Fire
+| element2 = Poison
+| element3 = Stab
+}}
+
+The '''Chain Spear''' is a craftable Godseeker Mode [[Spears|spear]]. Left clicking with the weapon swings it like a normal spear, inflicting [[Abyssal Flames]] and [[Burning Blood]] on enemy hits. Right clicking causes the spear to launch outwards with a chain. IF the launched spear hits an enemy, the enemy is dragged into the player. If the player presses left click while a dragged enemy is within a 10 block radius of them, the spear is retracted, then immediately thrusted forward again, creating a bloody explosion and temporarily removing the enemy's contact damage.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Magical}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]
+[[Category:True melee]]

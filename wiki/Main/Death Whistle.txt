@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damage = 140
+| mana = 10
+| stack = 1
+| tooltip = Plays a melancholous tune that scares away enemies
+| knockback = 5
+| velocity = 20
+| sell = {{value|0|5}}
+| hardmode = yes
+| proj = Melter Note Eighth.png
+| projcaption = Beamed Eighth Note
+| proj2 = Melter Note Quarter.png
+| proj2caption = Quarter Note
+| element1 = Unholy
+}}	
+
+The '''Death Whistle''' is a craftable [[Hardmode]] [[weapon]]. When used it fires a string of music notes that inflict [[Temporal Sadness]] and [[Confused]] on hit enemies. This effect does '''not''' work on bosses.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*A death whistle was an instrument historically used by the Aztecs during wars, known for its shrill frightening sound.
+**The sound of the Death Whistle item being used is an unused roar in vanilla Terraria's files. It was chosen due to its resemblance to the sound of a real death whistle.
+*This item used to be known as the "Ancient Medallion".
+
+{{Master Template Weapons
+|show-main = yes
+|show-classless = yes
+}}
+[[Category:Classless weapons]]

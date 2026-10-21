@@ -1,0 +1,41 @@
+{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = 12% increased Spy damage and 15% increased Spy projectile velocity<br/>Stealth generates 10% faster<br/>Summons a red lightning aura to surround the player and electrify nearby enemies<br/>Press {{key|Booster Dash}} to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of lightning bolts
+| rare = 11
+| sell = {{value|0|22}}
+| debuff = Electrified
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = You cannot move
+| element1 = Fire
+| element2 = Poison
+| element3 = Dark
+| element4 = Electricity
+| hardmode = yes
+| postml = yes
+| proj = Blunder Booster Lightnings.gif
+| projcaption = Red Lightning Bolts
+}}
+[[File:Blunder Booster Aura.png|frame|Blunder Booster's electric aura]]
+
+The '''Blunder Booster''' is a craftable Godseeker Mode [[covering]] that is the direct upgrade to the [[Plagued Fuel Pack]]. While equipped, Spy damage is increased by 12%, projectile velocity is increased by 15% and [[stealth]] generates 10% faster. Additionally, a red aura is summoned around the player that damages enemies and inflicts the [[Electrified]] [[debuff]].
+
+Pressing the {{key|Booster Dash}} key causes the player to dash diagonally upwards in the player's direction at the cost of 25% of the player's stealth, leaving a trail of damaging red lightning bolts.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Blunder Booster cannot be equipped if the player is wearing the Plagued Fuel Pack covering, and vice versa.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

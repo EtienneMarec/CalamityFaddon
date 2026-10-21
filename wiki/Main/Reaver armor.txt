@@ -1,0 +1,86 @@
+{{item infobox
+| type = Armor
+| defense = 73/46/40
+| rare = 7
+| sell = {{value|0|14|40}} (set)
+| buff = Reaver Rage
+| bufftip = You are angry
+| duration = 3 seconds (when hit while wearing Helm) | bufflink = no
+| buff2 = Reaver Orb (buff)
+| bufftip2 = The reaver orb will light your way
+| hardmode = yes
+| setbonus = ''' Helm''': +10 defense and +3 life regen<br/>Enemies are more likely to target you<br/>Reduces the life regen lost from damage over time debuffs by 20%<br/>All attacks have a small chance to steal life and speed up the rate of life regen<br/>20% decreased movement speed and flight time<br/>Enemy damage is reflected and summons a thorn spike<br/>Reaver Rage has a 25% chance to activate when you are damaged<br/><br/>'''Visage''': Grants immunity to fall damage and allows constant jumping<br/>10% increased flight time and horizontal wing speed<br/>Hooks fly out and retract 10% faster<br/>Reduces the cooldown of dashes<br/><br/>'''Headgear''': Causes nearby treasure to sparkle<br/>Increased item grab range and block placement range<br/>Mining tiles restores breath while underwater<br/>Summons a reaver orb to light up the area around you<br/>Reduces enemy aggression, even in the abyss<br/>Provides a small amount of light in the abyss
+}}
+{{summoned|Reaver Orb|type=minion}}
+
+'''Reaver armor''' is a craftable [[Hardmode]] [[Covering]] set, crafted from [[Soul of Bright|Soul of Brights]], [[Jungle Spores]], and [[Perennial Bar]]s. It requires 6 Essences of Sunlight, 24 Jungle Spores, and 31 Perennial Bars to make the whole set or 8 Essences of Sunlight, 32 Jungle Spores, and 43 Perennial Bars for a set with all three headpieces.
+
+It consists of a '''Reaver Scale Mail''' and '''Reaver Cuisses''' as well as three different headpieces: The '''Reaver Visage''', '''Reaver Helm''' and '''Reaver Headgear'''. None of the helmets provide a boost to a specific class, instead they either aid in reducing damage taken from enemies, greatly improve the player's movement, or aid in exploration.
+
+The '''Reaver Scale Mail''' provides 19 defense, 9% increased damage and 4% increased crit chance and +20 maximum life. The '''Reaver Cuisses''' provide 14 defense, 5% increased critical strike chance and 12% increased movement speed.
+
+*The '''Reaver Helm''' provides 30 defense, 15% increased damage reduction, +50 max life and a flat +1 life regen per second, but also 30% decreased damage.<br/>Its set bonus grants a further 10 defense and +3 life regen while reducing movement speed and flight time by 20%, +600 to [[Aggro]], reduces the life regen lost from damage over time debuffs by 20%, gives all attacks a small chance to steal life while also speeding up the rate of life regen, causes thorn vines with 80 base damage to be released when the player is hit, and grants the player a 25% chance to activate the '''Reaver Rage''' buff when hit. Reaver Rage boosts all damage by 30%, melee speed by 5%, and defense by 5.
+*The '''Reaver Visage''' provides 13 defense, 10% increased jump speed and 15% increased movement speed.<br/>Its set bonus grants immunity to fall damage, allows the player to constantly jump, increases flight time and horizontal flight speed by 10%, makes hooks fly out and retract 10% faster and reduces the cooldown of dashes.
+*The '''Reaver Headgear''' provides 7 defense, 10% increased pick speed, 20% increased block/wall placement range, temporary immunity to lava and lets the player move freely through liquids.<br/>Its set bonus causes treasures near the player to sparkle, increases item grab and block placement range, restores breath while mining blocks underwater, summons a reaver orb which lights up a large area around the player and reduces enemy aggression, even in the [[Abyss]].
+A full set always provides at least 40 defense, +20 max life, 9% increased damage, 9% increased critical strike chance.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Reaver Scale Mail
+| type = Armor
+| defense = 19
+| body slot = Shirt
+| tooltip = 9% increased damage and 4% increased critical strike chance<br/>+20 max life
+| sell = {{value|0|4|80}}
+}}
+|{{item infobox
+| name = Reaver Cuisses
+| type = Armor
+| defense = 14
+| body slot = Pants
+| tooltip = 5% increased critical strike chance<br/>12% increased movement speed
+| sell = {{value|0|3|60}}
+}}
+}}
+
+=== Helmet variants ===
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Reaver Helm
+| type = Armor
+| defense = 30
+| body slot = Helmet
+| tooltip = 15% increased damage reduction but 30% decreased damage<br/>+50 max life<br/>Passively regenerates one health point every second
+| sell = {{value|0|6}}
+}}
+|{{item infobox
+| name = Reaver Visage
+| type = Armor
+| defense = 13
+| body slot = Helmet
+| tooltip = 10% increased jump speed and 15% increased movement speed
+| sell = {{value|0|6}}
+}}
+|{{item infobox
+| body slot = Helmet
+| defense = 7
+| name = Reaver Headgear
+| type = Armor
+| tooltip = 10% increased pick speed and 20% increased block/wall placement speed<br/>Temporary immunity to lava and can move freely through liquids<br/>{{death|Provides heat protection in Death Mode}}
+| sell = {{value|0|6}}
+}}
+}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result=LIKE Reaver%|resultnot=Reaver Dye}}
+
+== Trivia ==
+*Before being reworked in [[1.5.0.001]], the Reaver armor worked like any other armor with different helmets, each one corresponding to a different class. Unlike the [[Legacy vanity headpieces]], the [[Reaver Helmet]] and the [[Reaver Mask]] were outright removed rather than being converted to vanity items.
+
+{{Perennial}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

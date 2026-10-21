@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| image= Cryo Stone.gif
+| type = Covering
+| type2 = Crafting material
+| tooltip = One of the ancient relics<br/>Creates a rotating ice shield around you that damages and slows down enemies on contact
+| defense = 6
+| sell = {{value|0|4|80}}
+| stack = 1
+| rare = 5
+| hardmode = yes
+| proj = Cryogen's Shield.png
+| projcaption = Ice Shield
+| projsize = 180px
+| debuff = Glacial State
+| debufftip = Cannot move and defense is shattered
+| debuffchance = 100%
+| debuffduration = 0.5 seconds (Shield)
+| debuff2 = Frostburn
+| debuffchance2= 100%
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuffduration2 = 3 seconds (Shield)
+}}
+|{{item drops infobox
+|[[Cryogen]]|1|20%
+}}
+}}
+
+The '''Cryo Stone''' is a [[Hardmode]] [[covering]] that has a 20% chance to drop from [[Cryogen]]. It grants the player a rotating ice shield identical to the one protecting Cryogen, that damages and slows down enemies on contact. It was previously one of the several components required for the [[Kelvin Catalyst]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

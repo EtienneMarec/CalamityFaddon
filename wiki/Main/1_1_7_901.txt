@@ -1,0 +1,653 @@
+{{Patch infobox
+| image = Astrum Deus (1.1.7.901).png
+| size = 350px
+| patchname = Astral Update
+| release = 6/08/2017
+}}
+{{toc limit|3|right=yes}}
+The '''1.1.7.901''' update added the [[Astral Meteor]] minibiome, along with its own set of [[items]] and a [[boss]] known as [[Astrum Deus]]. It also removed the [[Prepare to Cry]] and Prepare to Die difficulty modes and replaced them with [[Revengeance Mode]]. The update also rebalanced most Calamity bosses, reworded and removed various item tooltips, and resprited [[Calamitas]] and [[Storm Weaver]].
+
+== Additions ==
+*Added the [[Astral Meteor]] minibiome.
+*Added [[Astral Head]], [[Astral Probe]], [[Astrum Deus]], [[Astrum Deus Probe]], and [[Desert Scourge (small)]].
+*Added [[Aerospec Hat]], [[Aerospec Headgear]], [[Aerospec Helmet]], [[Aerospec Hood]], [[Astral Breastplate]], [[Astral Helm]], [[Astral Leggings]], [[Statigel Hood]], [[Victide Headgear]], [[Victide Helmet]], [[Victide Mask]], and [[Victide Visage]].
+*Added [[Astral Arcanum]], [[Astral Bulwark]], and [[The Sponge]].
+*Added [[Astral Blade]], [[Astral Pike]], [[Astral Repeater]], [[Astral Staff]], [[Exoblade]], [[Subsuming Vortex]], and [[Vivid Clarity]].
+*Added [[Astral Hamaxe]] and [[Astral Pickaxe]].
+*Added [[Astral Bar]].
+*Added [[Baby Slime God (buff)]], [[Exo Freeze]], [[Urchin (buff)]], and [[Valkyrie (buff)]].
+*Added [[Revengeance]] and [[Starcore]].
+*Added [[Draedon's Forge]].
+*Added [[Astral Ore]].
+*Added [[Revengeance Mode]].
+
+== Changes ==
+
+=== Bosses ===
+
+==== [[Brimstone Elemental]] ====
+*Changed health from {{dv|30,000|36,000}} to {{dv|24,000|38,400}}, and her contact damage from {{dv|65|78}} to {{dv|60|96}}.
+*Buffed fireball, barrage, and hellblast damage from {{dv|50|80}} to {{dv|60|100}}.
+*Increased the spread of her barrage attack.
+*Can no longer naturally spawn. <!---in the Underworld post-Golem--->
+
+==== [[Bumblebirb]] ====
+*Changed health from {{dv|220,000|264,000}} to {{dv|190,000|285,000}}, and buffed its contact damage from {{dv|250|300}} to {{dv|400|600}}.
+*Nerfed clone's health from {{dv|40,000|48,000}} to {{dv|30,000|45,000}}, and buffed its contact damage from {{dv|125|150}} to {{dv|225|337}}.
+*Can no longer naturally spawn. <!---in the surface Jungle post-Moon Lord--->
+
+==== [[Calamitas]] ====
+*Changed phase 1's health from {{dv|14,000|18,200}} to {{dv|12,000|19,200}}, buffed her contact damage from {{dv|0|60}} to {{dv|0|80}}, and nerfed her defense from 25 to 15.
+*Nerfed phase 1's laser damage from 60 to 50.
+*Nerfed phase 1's rapid laser damage from 56 to 42.
+*Changed phase 2's health from {{dv|20,000|30,000}} to {{dv|19,000|30,400}}, nerfed her contact damage from {{dv|65|84}} to {{dv|50|80}}, and nerfed her defense from 30 to 25.
+*Changed phase 2's Hellfireball damage from {{dv|90|120}} to {{dv|80|148}}.
+*Changed phase 2's laser damage from {{dv|60|80}} to {{dv|56|92}}.
+*Nerfed [[Cataclysm]]'s health from {{dv|6000|6600}} to {{dv|4000|5600}}, and buffed his contact damage from {{dv|60|78}} to {{dv|78|124}}.
+*Nerfed [[Catastrophe]]'s health from {{dv|5000|5500}} to {{dv|3000|4200}}, buffed his contact damage from {{dv|80|104}} to {{dv|90|126}}, and nerfed his defense from 15 to 10.
+*Buffed Catastrophe's fireball damage from {{dv|0|44}} to {{dv|0|50}}.
+*Buffed [[Soul Seeker]]'s health from {{dv|0|1650}} to {{dv|0|2100}}, and its contact damage from {{dv|0|66}} to {{dv|0|84}}.
+*Buffed [[Life Seeker]]'s contact damage from {{dv|0|58}} to {{dv|0|63}}.
+*Splitting lasers now split into an additional laser and are faster.
+*Splitting lasers now inflict Brimstone Flames for 2.5 seconds instead of 1.
+*Cataclysm no longer only uses his flamethrower when under 75% health.
+*Can no longer naturally spawn. <!---during a Blood Moon post-Golem--->
+*Removed all status messages.
+
+==== [[Ceaseless Void]] ====
+*Buffed [[Dark Energy]]'s health from {{dv|0|33,600}} to {{dv|0|44,800}}, and its contact damage from {{dv|0|228}} to {{dv|0|304}}. 
+*Nerfed beam portal damage from 160 to 120.
+*Decreased speed.
+
+==== [[Crabulon]] ====
+*Nerfed health from {{dv|4100|5330}} to {{dv|3000|4800}}, changed its base contact damage from {{dv|40|44}} to {{dv|30|49}}, and nerfed its defense from 12 to 8.
+*Nerfed slam damage from {{dv|50|100}} to {{dv|40|80}}.
+*Changed [[Crab Shroom]]'s health from {{dv|100|110}} to {{dv|80|112}} and nerfed its damage from 45 to 35.
+*Slam attack now destroys more tiles.
+*Can no longer naturally spawn. <!---Underground Mushroom biome--->
+
+==== [[Cryogen]] ====
+*Changed health from {{dv|26,500|29,150}} to {{dv|22,000|35,200}} and buffed its contact damage from {{dv|40|44}} to {{dv|60|96}}.
+*Nerfed [[Cryogen's Shield]]'s health from 1500 to {{dv|1000|1400}}, its damage from {{dv|80|100}} to {{dv|30|60}}, and its defense from 10 to 5.
+*Buffed [[Aurora Spirit]]'s health from {{dv|180|216}} to {{dv|280|392}}, and its damage from {{dv|75|120}} to {{dv|90|126}}.
+*Buffed [[Cryocore]]'s health from {{dv|200|240}} to {{dv|300|420}}, and its damage from {{dv|50|60}} to {{dv|70|98}}.
+*Buffed Cryocore (buffed)'s health from {{dv|250|300}} to {{dv|350|490}}, and its damage from {{dv|60|72}} to {{dv|80|112}}.
+*Buffed Frost Blast damage from {{dv|50|88}} to {{dv|60|104}} and increased their spread.
+*Nerfed Ice Shard damage from {{dv|70|140}} to {{dv|60|120}}.
+*Buffed Ice Bomb damage from {{dv|46|92}} to {{dv|60|120}}.
+*Increased speed when under 74% health.
+*Decreased Expert Mode health-based damage and defense scaling.
+*Increased Cryogen and Cryocore (buffed)'s Expert Mode chances to inflict [[Frostburn]] on contact from {{dv|0|25%}} to {{dv|0|33%}}.
+*Increased [[Cryo Bar]] drop count from {{dv|15-24|20-39}} to {{dv|15-25|20-40}}.
+*Can now drop [[Bittercold Staff]], [[Effluvium Bow]], [[Glacial Crusher]], [[Ice Star]]s, [[Icebreaker]], [[Avalanche|Permafrost]], and [[Snowstorm Staff]] in Normal Mode.
+*Increased Ice Star drop count from {{dv|0|50-99}} to {{dv|0|150-200}}.
+*Increased the chances for all weapons to drop.
+*Can no longer naturally spawn. <!---Snow biome during Rain--->
+*Removed all health-based status messages. 
+
+==== [[Desert Scourge]] ====
+*Changed health from {{dv|5225|5747}} to {{dv|4000|6400}}.
+*Buffed body's damage from {{dv|0|30}} to {{dv|0|32}}.
+*Buffed tail's damage from {{dv|0|13}} to {{dv|0|14}}.
+*[[Dried Seeker]] changes:
+**Buffed head's damage from {{dv|18|27}} to {{dv|23|32}}.
+**Nerfed body's damage from {{dv|0|13}} to {{dv|0|12}}.
+*Decreased amount of dust produced when hit and killed.
+*Now has a higher chance to spawn Dried Seekers when hit, but can now only spawn 5 at a time.
+*Can no longer naturally spawn. <!---Underground Desert post-Eater of Worlds/Brain of Cthulhu--->
+
+==== [[The Destroyer]] ====
+*Piercing nerfs have been moved to Revengeance Mode instead of Expert Mode.
+
+==== [[The Devourer of Gods]] ====
+*Changed health from {{dv|950,000|1,045,000}} to {{dv|750,000|1,200,000}}.
+*Nerfed head's contact damage from {{dv|350|750}} to {{dv|300|600}}, its body's damage from <!---Cut-off?-->
+*Nerfed Nebula Shot damage from 110 to 104, its bolt damage from 150 to 142, its star damage from 130 to 120, its Gravity Bomb damage from 180 to 160, and its orb damage from 110 to 104.
+*Body and tail segments now inflict [[God Slayer Inferno]] on contact. <!---For 2.5 seconds--->
+*Nerfed Beam Portal damage from {{dv|400|480}} to {{dv|104|180}}.
+*Decreased speed.
+*Can now only spawn up to 30 [[Stasis Probe]]s at a time.
+*No longer produces dust when hit.
+
+==== [[Eye of Cthulhu]] ====
+*Increased [[Victory Shard]] drop count from {{dv|2-3|3-4}} to {{dv|2-4|3-5}}.
+
+==== [[Golem]] ====
+*Buffed fist health from {{dv|0|300}} to {{dv|0|500}}.
+
+==== [[The Hive Mind]] ====
+*Changed phase 1's health from {{dv|2550|3060}} to {{dv|2000|3200}}, buffed its contact damage from {{dv|0|36}} to {{dv|0|48}}, and nerfed its defense from 15 to 10.
+*Changed phase 2's health from {{dv|2270|2724}} to {{dv|2000|3200}}, nerfed its contact damage from {{dv|43|51}} to {{dv|30|48}}, and nerfed its defense from 10 to 5.
+*Nerfed phase 2's Vile Clot projectile damage from 36 to 28.
+*Nerfed [[Dank Creeper]]'s health from {{dv|100|110}} to {{dv|60|84}}, its contact damage from {{dv|35|52}} to {{dv|25|35}}, and its Shade Nimbus' damage from {{dv|28|56}} to {{dv|24|48}}.
+*Nerfed [[Dark Heart]]'s health from {{dv|200|240}} to {{dv|100|140}}, its contact damage from 35 to 30, and its defense from 12 to 7.
+*Nerfed phase 1's [[Hive Blob]]'s health from {{dv|150|240}} to {{dv|100|140}}, its contact damage from {{dv|30|36}} to {{dv|20|28}}, and its Vile Clot projectile's damage from 26 to 24.
+*Nerfed phase 2's Hive Blob's health from {{dv|200|320}} to {{dv|100|140}}, its contact damage from {{dv|40|48}} to {{dv|30|42}}, and its Vile Clot projectile's damage from 26 to 24.
+*Phase 1 can now only spawn up to 8 [[Eater of Souls|Eaters of Souls]] and 2 [[tgc:Devourer|Devourers]] at a time.
+*Removed status message upon transitioning into phase 2. <!---The Hive Mind is infuriated!--->
+*Reduced phase 2's speed.
+*Dank Creepers are now larger.
+*Can now drop [[Dank Staff]], [[Leeching Dagger]], [[Perfect Dark]], [[Rot Ball]]s, [[Shaderain Staff]], [[Shadethrower]], and [[Shadowdrop Staff]] in Normal Mode.
+*Increased [[True Shadow Scale]] drop count from {{dv|25-29|30-39}} to {{dv|25-30|30-40}}, its [[Demonite Bar]] drop count from {{dv|7-9|9-11}} to {{dv|7-10|9-14}}, and its [[Rotten Chunk]] drop count from {{dv|9-14|10-16}} to {{dv|9-15|10-20}}.
+*Increased Rot Ball drop count from {{dv|0|50-74}} to {{dv|0|50-75}}.
+*Increased the chances for all weapons to drop.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Changed health from {{dv|1,050,000|1,155,000}} to {{dv|850,000|1,360,000}}, buffed his contact damage from {{dv|230|299}} to {{dv|260|416}}, and buffed his defense from 230 to 260.
+*Changed Giga Flare damage from {{dv|220|280}} to {{dv|180|320}}.
+*Nerfed Sky Flare damage from {{dv|400|480}} to {{dv|140|260}}.
+*Buffed the damage of the Flares spawned upon death from {{dv|0|2200}} to {{dv|0|4000}}.
+*Buffed projectile [[Detonating Flame]]'s health from {{dv|0|1500}} to {{dv|0|2100}}, nerfed its contact damage from {{dv|150|180}} to {{dv|100|140}}, and nerfed its flare projectile's damage from {{dv|180|360}} to {{dv|140|280}}.
+*Buffed melee Detonating Flame's health from {{dv|0|2000}} to {{dv|0|2800}}, but nerfed its damage from {{dv|300|360}} to {{dv|160|224}}.
+*Flarenadoes now last for 10 seconds instead of 7.
+*Infernadoes now last for 6.67 seconds instead of 7.
+*Flare Dust now lasts for 10 seconds instead of 5.
+*Now transitions to phase 2 at 65% health instead of 70%, and phase 3 at 35% health instead of 40%.
+*Increased health-based damage and defense scaling.
+*Increased enraged charge speed.
+*Yharon is now able to spawn more Detonating Flames of one type even if the other type has already reached the maximum that can be alive at a time.
+*Decreased pre-defeat DPS cap.
+*Increased melee Detonating Flame's speed.
+
+==== [[Lunatic Cultist]] ====
+*Now has a 2x health multiplier that applies to all difficulty modes.
+*Now causes the player to take 35% more damage while alive.
+
+==== [[The Perforators]] ====
+*Nerfed the [[The Perforator Hive]]'s health from {{dv|5000|6000}} to {{dv|2800|4480}}, and its contact damage from {{dv|55|66}} to {{dv|35|56}}.
+**Buffed Blood Geyser damage from {{dv|0|44}} to {{dv|0|48}}.
+**Can now drop [[Aorta]], [[Blood Bath]], [[Blood Clot Staff]], [[Bloody Rupture]], [[Eviscerator]], [[Sausage Maker]], [[Tooth Ball]]s, and [[Vein Burster]] in Normal Mode.
+**Can now only spawn up to 5 [[Perforator Mini]]s at a time.
+**Increased [[Blood Sample]] drop count from {{dv|0|15-24}} to {{dv|0|30-40}}, its [[Crimtane Bar]] drop count from {{dv|0|5-6}} to {{dv|0|9-14}}, and its [[Vertebrae]] drop count from {{dv|0|7-8}} to {{dv|0|10-20}}.
+**Increased Tooth Ball drop count from {{dv|0|50-74}} to {{dv|0|50-75}}.
+**Increased the chances for all weapons to drop.
+*Small Perforator changes:
+**Buffed health from {{dv|0|2750}} to {{dv|0|3500}}
+**Changed head's contact damage from {{dv|53|58}} to {{dv|30|68}}.
+**Nerfed body's contact damage from {{dv|33|36}} to {{dv|20|28}}.
+**Nerfed tail's contact damage from {{dv|19|20}} to {{dv|10|14}}.
+**Nerfed Blood Clot projectile damage from 26 to 22.
+**Lowered segment count from 22 to 12.
+**No longer enrages outside of the Crimson.
+*Medium Perforator changes:
+**Nerfed health from {{dv|4500|4950}} to {{dv|3500|4900}}.
+**Changed head's contact damage from {{dv|65|71}} to {{dv|35|80}}.
+**Nerfed body's contact damage from {{dv|40|44}} to {{dv|25|35}}.
+**Nerfed tail's contact damage from {{dv|25|27}} to {{dv|15|21}}.
+**Nerfed Blood Clot projectile damage from {{dv|28|40}} to {{dv|22|36}}.
+**Lowered segment count from 32 to 22.
+**No longer enrages outside of the Crimson.
+*Large Perforator changes:
+**Nerfed health from {{dv|7000|7700}} to {{dv|4500|6300}}.
+**Changed head's contact damage from {{dv|80|88}} to {{dv|40|92}}.
+**Nerfed body's contact damage from {{dv|52|57}} to {{dv|30|42}}.
+**Nerfed tail's contact damage from {{dv|35|38}} to {{dv|20|28}}.
+**Nerfed Blood Clot projectile damage from {{dv|30|44}} to {{dv|22|36}}.
+**Lowered segment count from 42 to 32.
+**Head now produces less dust when killed.
+*Perforator Mini changes:
+**Buffed health from {{dv|100|120}} to {{dv|100|140}}.
+**Buffed head's contact damage from {{dv|0|22}} to {{dv|0|28}}.
+**Buffed body's contact damage from {{dv|0|12}} to {{dv|0|15}}.
+**Buffed tail's contact damage from {{dv|0|5}} to {{dv|0|7}}.
+
+==== [[The Plaguebringer Goliath]] ====
+*Changed health from {{dv|50,000|58,500}} to {{dv|48,000|76,800}}, and buffed her contact damage from {{dv|0|228}} to {{dv|0|304}}.
+*Buffed stinger damage from {{dv|90|108}} to {{dv|100|172}}.
+*Buffed base missile damage from {{dv|120|128}} to {{dv|140|192}} and increased the amount of damage they gain as The Plaguebringer Goliath's health lowers. 
+*No longer naturally spawns. <!---Post-Moon Lord Jungle--->
+*Buffed [[Plaguebringer Shade]]'s health from {{dv|0|9360}} to {{dv|0|11,200}}, and its contact damage from {{dv|0|156}} to {{dv|0|182}}.
+*Plaguebringer Shades are now less likely to spawn large [[Plague Charger]]s over normal ones.
+*Buffed normal Plague Charger's health from {{dv|250|325}} to {{dv|400|560}}, and its contact damage from {{dv|0|99}} to {{dv|0|126}}.
+*Buffed large Plague Charger's health from {{dv|500|650}} to {{dv|530|742}}, and its contact damage from {{dv|0|104}} to {{dv|0|133}}.
+*Plague Chargers spawned by The Plaguebringer Goliath and its Shades no longer drop money.
+
+==== [[Profaned Guardians]] ====
+*Changed the main guardian's health from {{dv|150,000|180,000}} to {{dv|120,000|192,000}}, and nerfed its contact damage from {{dv|175|227}} to {{dv|130|208}}.
+*Changed the main guardian's spear damage from {{dv|140|180}} to {{dv|120|220}}, buffed its Giga Flare damage from {{dv|110|140}} to {{dv|114|200}}, and nerfed its Flare Dust damage from {{dv|160|200}} to {{dv|114|200}}.
+*Nerfed the defense guardian's health from {{dv|60,000|72,000}} to {{dv|50,000|70,000}}, and its contact damage from {{dv|130|156}} to {{dv|110|154}}.
+*Nerfed the defense guardian's spear damage from 120 to 80.
+*Nerfed the healer guardian's health from {{dv|40,000|48,000}} to {{dv|34,000|47,600}}, and its contact damage from {{dv|130|156}} to {{dv|110|154}}.
+*All three guardians are now immune to all debuffs.
+*All three guardians no longer take 1 damage from attacks that would take over half of their max healths.
+
+==== [[Providence, the Profaned God]] ====
+*Nerfed health from 360,000 to 270,000, changed her contact damage from {{dv|140|182}} to {{dv|130|208}}, and nerfed her base defense from 150 to 120.
+*Nerfed Holy Blast damage from 180 to 140.
+*Nerfed Holy Fire damage from 125 to 108.
+*Nerfed Molten Blast damage from 190 to 144.
+*Nerfed Holy Bomb damage from 170 to 122.
+*Changed the offensive guardian's health from {{dv|80,000|96,000}} to {{dv|70,000|98,000}}, nerfed its contact damage from {{dv|150|230}} to {{dv|140|196}}, buffed its spear damage from {{dv|100|140}} to {{dv|108|200}}, and buffed its flare dust's damage from {{dv|100|160}} to {{dv|108|200}}.
+*Nerfed the defense guardian's health from {{dv|60,000|72,000}} to {{dv|50,000|70,000}}, its contact damage from {{dv|125|150}} to {{dv|100|140}}, and buffed its spear damage from {{dv|100|140}} to {{dv|108|200}}.
+*Nerfed the healer guardian's health from 35,000 to 30,000, and buffed its contact damage from {{dv|0|114}} to {{dv|0|133}}.
+
+==== [[Ravager]] ====
+*Nerfed body's base health from {{dv|54,000|64,800}} to {{dv|40,000|64,000}}.
+*Nerfed head's base health from {{dv|40,000|48,000}} to {{dv|20,000|32,000}}.
+*Nerfed claw and legs' base healths from {{dv|25,000|27,500}} to {{dv|16,000|25,600}}.
+*Buffed claw's base damage from {{dv|0|111}} to {{dv|0|148}}.
+*Buffed base phase 1 head laser damage from {{dv|92|160}} to {{dv|98|180}}.
+*Buffed base phase 2 head laser damage from {{dv|68|92}} to {{dv|88|172}}.
+*Buffed base body laser damage from {{dv|70|100}} to {{dv|100|140}}, and increased their speed.
+*Buffed base fireball damage from {{dv|60|120}} to {{dv|80|160}}, and increased their speed.
+*Buffed base fire damage from {{dv|50|100}} to {{dv|70|140}}.
+*Buffed stomp explosion damage from {{dv|50|100}} to {{dv|70|140}}.
+*Buffed missile damage from {{dv|0|280}} to {{dv|0|320}}.
+*Can no longer naturally spawn. <!---surface post-Golem--->
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Changed health from {{dv|280,000|336,000}} to {{dv|250,000|400,000}}, and its contact damage from {{dv|310|372}} to {{dv|250|400}}.
+*Nerfed flameburst damage from {{dv|500|600}} to {{dv|200|360}}.
+*Nerfed fireball damage from 240 to 200.
+*Nerfed dust explosion damage from {{dv|500|600}} to {{dv|200|360}}.
+*Can now only spawn up to 5 [[Cosmic Lantern]]s at a time.
+*Now produces less dust when hit.
+*Nerfed Cosmic Lantern's health from {{dv|3000|3600}} to {{dv|2400|3360}}, and its contact damage from 210 to 180.
+
+==== [[Siren and Leviathan]] ====
+*The Siren changes:
+**Renamed Siren Lure to The Siren.
+**Changed health from {{dv|30,000|33,000}} to {{dv|21,000|33,600}}, nerfed her contact damage from {{dv|85|102}} to {{dv|60|96}}, and nerfed her defense from 30 to 20.
+**Nerfed [[Ice Shield]]'s health from 1500 to {{dv|700|980}}.
+**Nerfed enraged [[Detonating Bubble]]'s damage from 100 to 70.
+**Projectile damage value changes while over 75% health:
+***Nerfed Music Note damage from 80 to 60 while dry, and 60 to 52 while wet.
+***Nerfed Frost Mist damage from 76 to 52 while dry, and 56 to 44 while wet.
+***Nerfed Water Spear damage from 72 to 52 while dry, and 52 to 42 while wet.
+**Projectile damage value changes while under 75% health, but above 50%:
+***Nerfed Music Note damage from 84 to 64 while dry, and 64 to 56 while wet.
+***Nerfed Frost Mist damage from 80 to 56 while dry, and 60 to 48 while wet.
+***Nerfed Water Spear damage from 76 to 56 while dry, and 56 to 46 while wet.
+**Projectile damage value changes while under 50% health, but above 25%:
+***Nerfed Music Note damage from 88 to 68 while dry, and 64 to 60 while wet.
+***Nerfed Frost Mist damage from 84 to 60 while dry, and 64 to 56 while wet.
+***Nerfed Water Spear damage from 80 to 60 while dry, and 60 to 50 while wet.
+**Projectile damage value changes while under 25% health:
+***Nerfed Music Note damage from 92 to 72 while dry, and 72 to 64 while wet.
+***Nerfed Frost Mist damage from 88 to 64 while dry, and 68 to 56 while wet.
+***Nerfed Water Spear damage from 84 to 64 while dry, and 64 to 54 while wet.
+*The Leviathan changes:
+**Changed health from {{dv|60,000|66,000}} to {{dv|42,000|67,200}}, her contact damage from {{dv|110|121}} to {{dv|80|128}}, and nerfed her defense from 50 to 40.
+**Reduced speed of her meteors.
+**Buffed [[Aquatic Aberration]]'s health from {{dv|0|1080}} to {{dv|0|1260}}, and its contact damage from {{dv|75|90}} to {{dv|80|112}}.
+**Nerfed [[Parasea]]'s health from 350 to 300, and changed its damage from {{dv|65|78}} to {{dv|60|84}}.
+
+==== [[The Slime God]] ====
+*Buffed the Slime God Core's health from {{dv|0|1200}} to {{dv|0|1600}}, changed its base contact damage from {{dv|35|42}} to {{dv|30|48}}, and buffed its enraged contact damage from {{dv|70|84}} to {{dv|80|128}}.
+*Buffed the Slime God Core's mine damage from {{dv|32|64}} to {{dv|40|80}}, and its Abyss Ball damage from {{dv|36|56}} to {{dv|60|80}}.
+*Changed the Ebonian Slime God's health from {{dv|5000|6000}} to {{dv|4000|6400}}, and its contact damage from {{dv|65|78}} to {{dv|50|80}}.
+*Buffed Ebonian Slime God's mine damage from {{dv|48|96}} to {{dv|50|100}}, and its Abyss Ball damage from {{dv|0|80}} to {{dv|0|88}}.
+*Buffed the Crimulan Slime God's health from {{dv|2500|3000}} to {{dv|3000|4800}}, and nerfed its contact damage from 80 to 60.
+*Changed the Crimulan Slime God's Abyss Ball damage from {{dv|60|72}} to {{dv|46|84}}.
+*Changed the split Ebonian Slime God's health from {{dv|2500|3000}} to {{dv|2000|3200}}, its contact damage from {{dv|50|60}} to {{dv|40|64}}, and buffed its defense from 5 to 10.
+*Buffed the split Ebonian Slime God's mine damage from {{dv|38|76}} to {{dv|50|100}}, and its Abyss Ball damage from {{dv|0|60}} to {{dv|0|88}}.
+*Buffed the split Crimulan Slime God's health from {{dv|1250|1500}} to {{dv|1500|2400}}, changed its contact damage from {{dv|60|72}} to {{dv|50|80}}, and buffed its defense from 15 to 20.
+*Buffed the split Crimulan Slime God's mine damage from {{dv|30|60}} to {{dv|40|80}}, and changed its Abyss Ball damage from {{dv|50|56}} to {{dv|46|84}}.
+*Split Slime Gods now have a smaller chance to fire projectiles.
+*Buffed winged [[Corrupt Slime Spawn]]'s health from {{dv|0|60}} to {{dv|0|70}}, and its contact damage from {{dv|0|60}} to {{dv|0|70}}.
+*Buffed wingless Corrupt Slime Spawn's health from {{dv|0|84}} to {{dv|0|98}}, and its contact damage from {{dv|0|60}} to {{dv|0|70}}.
+*Buffed [[Crimson Slime Spawn]]'s health from {{dv|0|84}} to {{dv|0|98}}, and its contact damage from {{dv|0|60}} to {{dv|0|70}}.
+*Buffed [[Spiked Crimson Slime Spawn]]'s health from {{dv|0|168}} to {{dv|0|196}}, its contact damage from {{dv|0|60}} to {{dv|0|70}}, and its spike damage from {{dv|22|44}} to {{dv|30|60}}.
+*No longer has a guaranteed chance to drop {{dv|180-249|100-124}} [[Gel Dart]]s, and now has a {{dv|25%|33%}} chance to drop {{dv|80-100|100-125}}.
+*Increased [[Purified Gel]] drop count from {{dv|25-39|30-49}} to {{dv|25-40|30-50}}, and its [[Gel]] drop count from {{dv|180-249|150-199}} to {{dv|180-250|150-200}}.
+*Increased the chances for all weapons to drop.
+*Can no longer naturally spawn. <!---Hardmode Slime Rain on the surface--->
+
+==== [[Storm Weaver]] ====
+*Buffed phase 1's health from {{dv|0|120,000}} to {{dv|0|160,000}}.
+*Nerfed phase 1's head's contact damage from {{dv|150|300}} to {{dv|120|240}}, buffed its body's contact damage from {{dv|0|140}} to {{dv|0|160}}, and buffed its tail's contact damage from {{dv|0|97}} to {{dv|0|120}}.
+*Buffed phase 2's health from {{dv|0|360,000}} to {{dv|0|480,000}}.
+*Nerfed phase 2's head's contact damage from {{dv|250|450}} to {{dv|200|400}}, buffed its body's contact damage from {{dv|0|195}} to {{dv|0|240}}, and buffed its tail's contact damage from {{dv|0|123}} to {{dv|0|152}}.
+*Can now only spawn up to 20 Stasis Probes at a time.
+*Both phases' body segments no longer produce dust when hit.
+
+==== [[Supreme Calamitas]] ====
+*Changed health from {{dv|2,000,000|2,200,000}} to {{dv|1,500,000|2,400,000}}, and buffed her contact damage from {{dv|0|660}} to {{dv|0|960}}.
+*Nerfed Brimstone Shot, Brimstone Barrage, and Brimstone Gigablast damages from 260 to 164.
+*Nerfed Brimstone Hellblast damage from 300 to 200.
+*Nerfed Brimstone Fireblast damage from 260 to 180.
+*Nerfed Brimstone Shot damage from 460 to 200.
+*Brimstone Fireblasts now produce more Brimstone Barrage projectiles.
+*Brimstone Hellblasts are now faster.
+*Reduced [[Vulnerability Hex]] duration from contact from 15 seconds to 5.
+*Nerfed the brothers' health's from {{dv|0|550,000}} to {{dv|0|500,000}}, and their Brimstone Hellblast damages from 240 to 160.
+*Buffed Soul Seeker health from {{dv|0|110,000}} to {{dv|0|140,000}}, their contact damage from {{dv|0|220}} to {{dv|0|280}}, and nerfed their Brimstone Barrage damage from 160 to 108.
+*Soul Seekers no longer inflict Vulnerability Hex on contact.
+
+==== [[Wall of Flesh]] ====
+*Defeating the Wall of Flesh for the first time now spawns the Astral Meteor in a random location in the world.
+
+==== Other ====
+*Bosses from the Thorium Mod are no longer provided immunity to [[Armor Crunch]], [[Glacial State]], and [[Temporal Sadness]].
+
+=== [[Enemies]] ===
+*[[Arapaima]]s can now drop [[Murky Paste]].
+*[[Armored Skeleton]]s can now drop [[Ancient Bone Dust]] and [[Waraxe]]s. <!---Same chance as normal Skeletons--->
+*[[Bone Serpent]]s now have a {{dv|6.67%|10%}} chance to drop the [[Old Lord Oathsword]] instead of {{dv|4%|5%}}.
+*[[Corrupt Slime]]s and [[Crimslime]]s can now drop [[Murky Sludge]].
+*Decreased the drop rate for Murky Sludge from [[Mother Slime]]s from {{dv|33%|50%}} to {{dv|20%|25%}}.
+*[[Despair Stone]]s, [[Scryllar]]s, and [[Soul Slurper]]s no longer drop [[Essence of Chaos|Essences of Chaos]] in pre-hardmode.
+*[[Herpling]]s can now drop [[Bloodletting Essence]]s. <!---Same chance as Face Monsters--->
+*Decreased the chances for [[Legendary items]] to drop in Hardmode and Godseeker Mode.
+*Increased the drop rate for [[Maneater Bulb]]s from [[Man Eater]]s from {{dv|20%|25%}} to {{dv|33%|50%}}.
+*[[Stasis Probe]] changes:
+**Buffed armored Stasis Probe's health from {{dv|0|2340}} to {{dv|0|2520}}, its contact damage from {{dv|0|45}} to {{dv|0|49}}, and nerfed its laser's damage from 140 to 100.
+**Buffed naked Stasis Probe's health from {{dv|0|1950}} to {{dv|0|2100}}, its contact damage from {{dv|0|162}} to {{dv|0|175}}, and nerfed its laser's damage from 200 to 140.
+**Both probes now take up 4 NPC slots instead of 2.
+**Both probes now produce less dust.
+*[[World Feeder]]s can now drop [[Fetid Essence]]s. <!---Same chance as Devourers--->
+
+=== Items ===
+*Increased the speed of magic [[Ataxia armor]]'s healing orbs.
+*[[Aureate Wings]], [[Discordian Wings]], [[Drew's Wings]], [[Elysian Tracers]], [[Elysian Wings]], [[Seraph Tracers]], [[Skyline Wings]], [[Soul of Cryogen]], [[Starlight Wings]], [[Tarragon Wings]], and [[Xeroc Wings]] no longer produce dust while flying.
+*Decreased [[Bloody Worm Tooth]]'s base damage reduction boost from 7% to 6%, and its boost when under 50% health from 14% to 12%.
+*[[Calamitous Essence]]s are now larger and no longer slowly fall.
+*[[Celestial Onion]] changes:
+**Now grants an extra covering slot when used.
+**Now only drops in [[Expert Mode]] and uses the {{rare|rainbow}} rarity instead of {{rare|1}}.
+**Decreased use animation from 45 to 30 and it now stacks to 99.
+**Now uses the Item4 sound effect instead of Item119 when used.
+**Now consumable.
+*[[Core of Calamity]], [[Core of Chaos]], [[Core of Cinder]], [[Core of Eleum]], [[Essence of Chaos]], [[Essence of Cinder]], and [[Essence of Eleum]] no longer slowly fall.
+*Decreased the distance that [[Decapodita Sprout]] summons Crabulon relative to the player.
+*[[Demon Trophy]] changes:
+**Now boosts spawn rates by 1.25x when used. This cannot be undone.
+**No longer activates Prepare to Die or Prepare to Cry Mode.
+**Now consumable.
+**Now stacks to 99.
+*[[Determination Breaker]] no longer drains health from bosses.
+*[[Ectoblood]] is now larger.
+*[[Fungal Clump]]'s minion now sends short range healing orbs towards the player upon hitting enemies, and it now produces more dust.
+*Increased the size of melee [[Reaver armor]]'s explosion's dust.
+*[[Rotten Brain]] changes:
+**No longer gradually increases damage and lowers speed as the wearer's health lowers.
+**Now only increases damage when under 75% health and decreases speed when under 50% health.
+*Soul of Cryogen now completely disables fall damage.
+*All of [[Xeroc armor]]'s projectiles now produce less or no dust.
+*[[Yharim's Insignia]] now uses the {{rare|10}} rarity instead of {{rare|9}}.
+*[[Yharim's Stimulants]] now last for 15 minutes instead of 30.
+*[[Yharon Soul Fragment]]s are now larger and no longer slowly fall.
+
+==== [[Covering]] ====
+*[[Aerospec armor]] changes:
+**Buffed Aerospec Helm's defense from 4 to 9.
+**Aerospec Helm now only provides a boost to melee damage instead of all damage types.
+**Set bonus now provides boosts to critical strike chances as health lowers.
+**Changed the amounts of health needed for certain bonuses to activate.
+*[[Ataxia armor]] changes:
+**Set bonus now activates at different health values.
+**Set bonus now provides critical strike chance boosts for each helmet's respective damage type (except summoner) as health lowers.
+**Magic Ataxia armor's set bonus no longer increases mana usage as health lowers.
+*[[Daedalus armor]]'s set bonus now activates at different health values and now provides critical strike chance boosts for each helmet's respective damage type (except summoner) as health lowers.
+*[[Reaver armor]] changes:
+**Set bonus now activates at different health values.
+**Set bonus now provides critical strike chance boosts for each helmet's respective damage type (except summoner), and movement speed boosts as health lowers.
+**Removed the word "slightly" from its set bonus' tooltip.
+*[[Statigel armor]] changes:
+**Set bonus now activates at different health values.
+**Set bonus now provides critical strike chance boosts for each helmet's respective damage type (except summoner), and movement speed boosts as health lowers.
+*[[Tarragon armor]]'s set bonus now activates at different health values.
+*[[Victide armor]] changes:
+**Nerfed Victide Helmet's defense from 2 to 1.
+**Victide Helm now only provides a boost to summon damage instead of all damage types.
+*[[Xeroc armor]] changes:
+**Set bonus now activates at different health values.
+**Now provides melee speed boosts in addition to its other stat boosts as health lowers.
+
+==== Weapons ====
+*Nerfed [[Aegis Blade]]'s base damage from 12 to 9, and increased its post-Yharon damage boost.
+*Buffed [[Aeries]]' damage from 28 to 30, its Shockblast Rounds now decrease in damage less often, and its healing projectiles are now faster.
+*Aeries, [[Bloodfire Arrow]]s, [[Bloody Edge]], [[Claret Cannon]], [[Comet Quasher]], [[Diseased Pike]], [[Earth]], [[Gilded Proboscis]], [[Grand Guardian]], [[Heart Rapier]], [[Illustrious Knives]], [[Lifefruit Scythe]], [[Majestic Guard]], [[Nullification Pistol]], [[Sanguine Flare]], Shadowbolt Staff, [[Stellar Striker]], [[Terra Edge]], [[True Bloody Edge]], and [[Viscera]]'s on hit effects no longer activate on [[Target Dummy|Target Dummies]].
+*[[Ark of the Cosmos]]' beams no longer collide with blocks, and its orbs now produce less dust.
+*Nerfed [[Ark of the Elements]]' damage from 235 to 210, its beams no longer collide with blocks, and its homing ball projectiles now last for 2 seconds instead of 2.67.
+*Buffed [[Astral Blaster]]'s damage from 47 to 125, decreased its use time from 22 to 11, increased its rarity from {{rare|5}} to {{rare|7}}, and gave it an increased critical strike chance.
+*Decreased the amount of dust produced by [[Baleful Harvester]]'s skulls.
+*[[Barracuda Gun]] is now smaller.
+*Nerfed [[Blossom Flux]]'s base damage from 3 to 2, but increased its damage buffs after defeating the Lunatic Cultist, Moon Lord, Providence, Devourer of Gods, and Yharon.
+*Nerfed [[Brimstone Fury]]'s damage from 23 to 20.
+*Nerfed [[Briny Baron]]'s base damage from 15 to 10, but increased its damage buffs after defeating the Lunatic Cultist, Moon Lord, Providence, Devourer of Gods, and Yharon.
+*Buffed [[Burning Sea]]'s damage from 76 to 79, and decreased its use time from 22 to 20.
+*Nerfed [[The Burning Sky]]'s damage from 288 to 230.
+*[[Carnage Ray]]'s dust is now larger, but less frequent, and the weapon's split rays are now wider.
+*[[Catastrophe Claymore]]'s aura projectiles now collide with blocks.
+*[[Clockwork Bow]] now forces arrows fired by it to last for 6 seconds.
+*Nerfed [[Cosmic Discharge]]'s base damage from 6 to 4, but increased its damage buffs after defeating the Lunatic Cultist, Moon Lord, Providence, Devourer of Gods, and Yharon.
+*[[The Dance of Light]]'s projectiles now produce less dust.
+*Increased [[Demonic Pitchfork]]'s shoot speed from 10 to 13.
+*[[Devil's Devastation]], [[Forbidden Oathblade]], and [[True Forbidden Oathblade]]'s oathblade projectiles now set immunity frames to 10 instead of 7 pre-Moon Lord, and 8 instead of 5 post-Moon Lord.
+*Nerfed [[Firestorm Cannon]]'s damage from 14 to 12.
+*Buffed [[Flame Scythe]]'s damage from 75 to 83.
+*Decreased [[Flarewing Bow]]'s use time from 33 to 28, bats now deal 140% of the weapon's damage instead of 135%, and other arrows deal 70% of the weapon's damage instead of 50%.
+*[[Elemental Lance]]'s beams no longer produce dust.
+*[[Elemental Ray]]'s beam now produces more dust, and its dust is larger.
+*[[Elemental Shiv]]'s homing ball projectiles now last for 2 seconds instead of 2.67.
+*[[Galaxia]]'s orbs now produce less dust.
+*[[Gamma Fusillade]]'s lasers now set immunity frames to 1 instead of 2.
+*[[Greatsword of Judgement]]'s projectile now produces less dust.
+*Buffed [[Greentide]]'s damage from 78 to 84.
+*Increased the size of [[The Hive]]'s Bee RPGs, and made its Goliath Rockets no longer collide with tiles.
+*[[Impaler]]'s flaming stakes are now larger.
+*[[Lunarian Bow]]'s dust is now smaller.
+*Buffed [[Magna Cannon]]'s damage from 16 to 17.
+*Nerfed [[Magna Striker]]'s damage from 63 to 60.
+*Nerfed [[Malachite]]'s base damage from 12 to 9, but increased its damage buffs after defeating the Lunatic Cultist, Moon Lord, Providence, Devourer of Gods, and Yharon.
+*Nerfed [[Mana Rose]]'s damage from 15 to 14.
+*[[Murasama]] now completely ignores immunity frames instead of hitting every other frame.
+*[[Night's Ray]]'s dust is now larger, but less frequent, and the weapon's split rays are now wider.
+*[[Palladium Javelin]]s no longer bounce.
+*Rot Balls no longer bounce.
+*Shadowbolt Staff's beam now bounces 10 times instead of 15, increased the amount of damage gained from each bounce, and now hits every 4 frames instead of 2.
+*Nerfed [[SHPC]]'s base damage from 15 to 11, but increased its damage buffs after defeating the Lunatic Cultist, Moon Lord, Providence, Devourer of Gods, and Yharon.
+*[[Snowstorm Staff]]'s snowflake is now larger.
+*Buffed [[Soul Piercer]]'s damage from 115 to 135.
+*Decreased [[Storm Saber]]'s use time from 25 to 23.
+*Nerfed [[Storm Surge]]'s damage from 27 to 25.
+*[[Tears of Heaven]]'s projectiles now last 6 seconds instead of 10, they now produce less dust, and they are now faster.
+*Increased [[Terra Ray]]'s use time from 25 to 29, its split beams now last 0.25 seconds instead of 0.5, its dust is now larger, but less frequent, and the weapon's split rays are now wider.
+*[[Terratomere]] changes:
+**Buffed damage from 155 to 175.
+**Now heals the player.
+**No longer inflicts [[Chilled]]. <!--for 20 seconds--->
+**Now inflicts [[Ichor (debuff)|Ichor]] for 5 seconds.
+**Beams no longer produce dust.
+*[[Titanium Shuriken]]s no longer bounce.
+*Tooth Balls no longer bounce.
+*[[True Caustic Edge]]'s beam no longer idlely produces dust.
+*Increased the size of [[Vein Burster]]'s Blood Balls.
+*Nerfed [[Vesuvius]]'s base damage from 14 to 11, but increased its damage buffs after defeating the Lunatic Cultist, Moon Lord, Providence, Devourer of Gods, and Yharon. 
+*Nerfed [[Vortexpopper]]'s damage from 30 to 28.
+*[[Wrath of the Ancients]]' Granite Energy now produces less dust.
+
+==== Recipes ====
+*The following items are now crafted at Draedon's Forge instead of an [[Ancient Manipulator]]:
+**[[Alluvion]].
+**[[Animus]].
+**[[Ark of the Cosmos]].
+**[[Asgardian Aegis]].
+**[[Azathoth]].
+**[[Contagion]].
+**[[Crystyl Crusher]].
+**[[Demonshade armor]].
+**[[Devil's Devastation]].
+**[[Draconic Destruction]].
+**[[Dragon Egg (summoning)]].
+**Earth.
+**[[Elysian Tracers]].
+**[[The Enforcer]].
+**[[Executioner's Blade]].
+**[[Eye of Extinction]].
+**[[Galaxia]].
+**[[God Slayer armor]].
+**[[Illustrious Knives]].
+**[[Megafleet]].
+**[[Minigun]].
+**[[Mourningstar]].
+**[[Neptune's Bounty]].
+**[[Phangasm]].
+**[[Phantasmal Fury]].
+**[[Red Sun]].
+**[[SDFMG]].
+**[[Shadowbolt Staff]].
+**[[Shadowspec Bar]].
+**[[Soma Prime]].
+**Soul Piercer.
+**[[Stream Gouge]].
+**[[Svantechnical]].
+**[[Triactis' True Paladinian Mage-Hammer of Might]].
+**[[Vanquisher Arrow]].
+**[[Venusian Trident]].
+**[[The Wand]].
+*Ark of the Elements now uses 5 [[Bar of Life|Bars of Life]], 5 [[Core of Calamity|Cores of Calamity]], and 15 [[Luminite Bar]]s in its recipe instead of 1 [[Terratomere]], 5 Bars of Life, 1 Core of Calamity, and 10 Luminite Bars.
+*Astral Blaster is now crafted with 6 Astral Bars instead of 3 [[Fallen Star]]s, 1 [[Soul of Light]], 1 [[Soul of Night]], and 7 [[Verstaltite Bar]]s.
+*Birb Pheromones now use 1 [[Cosmilite Bar]] and 4 [[Solar Fragment]]s in their recipe instead of 3 Solar Fragments, and are now crafted at Draedon's Forge instead of a Hardmode Anvil.
+*[[Cadence Potion]]'s recipe now yields 5.
+*The [[Enchanted Sword]] can now be crafted with 1 [[Light Shard]], 15 Souls of Light, 3 [[Unicorn Horn]]s, and 10 [[Victory Shard]]s.
+*Entropy's Vigil and [[Oblivion]] can no longer be crafted.
+*Firestorm Cannon now uses 10 Victory Shards in its recipe.
+*[[Glacial Crusher]] now longer uses an [[Essence of Eleum]] in its recipe.
+*[[Stardust]] can no longer be crafted.
+
+==== Tooltips ====
+*Removed the line of Aeries tooltip that mentions its function.
+*Removed Ancient Bone Dust's tooltip. <!---tooltip was "Very old"--->
+*Removed [[Animus]]' tooltip. <!---tooltip was "Great for impersonating devs! Can randomly inflict massive damage to enemies--->
+*Removed [[Armored Shell]]'s tooltip. <!---tooltip was "Highly resistant to pierce and explosion damage"--->
+*Removed the line "Great for impersonating devs!" from Azathoth's tooltip.
+*Removed [[The Ballista]]'s tooltip. <!---tooltip was "Converts all arrows fired into ballista great arrows. Ballista great arrows are powerful enough to shatter even the toughest armor"--->
+*Removed Barracuda Gun's tooltip. <!---tooltip was "Chew through them all!"--->
+*Removed [[Beetle Juice]]'s tooltip. <!---tooltip was "Extra juicy"--->
+*Removed [[Bladedge Greatbow]]'s tooltip. <!---tooltip was "Chance to fire chlorophyte arrows. Fires five arrows at once"--->
+*Removed [[Blight Spewer]]'s tooltip. <!---tooltip was "Highly effective against almost everything"--->
+*Changed [[Bloody Worm Food]]'s tooltip from "Summons the crimson flesh eaters" to "Summons the". <!---intentional error done because "people kept saying, "what is the brain eater" and "what are the flesh eaters"
+So I just made them both say, "Summons the""--->
+*[[Bloodflare Core]]'s tooltip now specifies its low health and low defense benefits.
+*Removed Bloodletting Essence's tooltip. <!---tooltip was "Congealed blood"--->
+*Removed [[Brimblade]]'s tooltip. <!---tooltip was "Throws a brimstone blade that splits into more blades on enemy hits"--->
+*Removed Brimstone Fury's tooltip. <!---tooltip was "Fires three brimstone bolts at once"--->
+*Removed Burning Sea's tooltip. <!---tooltip was "Casts brimstone fireballs that bounce. When the fireballs strike water they emit tiny brimstone homing flares"--->
+*Removed Calamitous Essence's tooltip. <!---tooltip was "The essence of death"--->
+*Removed Carnage Ray's tooltip. <!---tooltip was "Fires a beam of bloody energy that can split into additional beams"--->
+*Removed the line of [[Charged Dart Blaster]]'s tooltip that details its primary fire function. 
+*Removed the line of [[Clock Gatlignum]] tooltip that mentions its function.
+*Removed the line, "Ping!" from [[Conclave Crossfire]]'s tooltip.
+*Removed [[Dark Plasma]]'s tooltip. <!---tooltip was "A luminous flame of dark energy"--->
+*Removed [[Darkecho Greatbow]]'s tooltip. <!---tooltip was "Chance to fire unholy arrows. Fires two arrows at once"--->
+*Removed [[Deathwind]]'s tooltip. <!---tooltip was "Fires lasers of death--->
+*Removed [[Demonic Bone Ash]]'s tooltip. <!---tooltip was "Very old and hot"--->
+*Removed [[Dragon's Breath]]'s tooltip. <!---tooltip was "Fires dragon fire blasts at incredible speeds"--->
+*Removed [[Dualpoon]]'s tooltip. <!---tooltip was "Fires two harpoons"--->
+*Removed [[Effervescence]]'s tooltip. <!---tooltip was "We put bubbles inside your bubbles"--->
+*Removed [[Effluvium Bow]]'s tooltip. <!---tooltip was "Fires mist arrows that can freeze enemies"--->
+*Removed [[Elemental Ray]]'s tooltip. <!---tooltip was "Fires a beam of cosmic energy that can split into additional beams. Enemies must be near for the beam to split"--->
+*Removed [[Energy Staff]]'s tooltip. <!---tooltip was "Summons profaned energy near the mouse cursor that stays in place blasting enemies that draw too close"--->
+*Removed The Enforcer's tooltip. <!---tooltip was "Striking enemies with the blade causes essence flames to appear around you. Fires a powerful essence flame burst"--->
+*Changed Entropy's Vigil's tooltip from "Summons Calamitas and her brothers to fight for you. All 3 minions take up 1 minion slot"<!---Break between "for you" and "All 3"---> to "Summons Calamitas and her brothers to protect you".
+*Removed Eradicator's tooltip. <!---tooltip was "Annihilate!"--->
+*Removed [[Eviscerator]]'s tooltip. <!---tooltip was "Fires blood clots at a high velocity"--->
+*Removed Fetid Essence's tooltip. <!---tooltip was "Bubbling rotten death"--->
+*Removed [[Flame Scythe]]'s tooltip. <!---tooltip was "Slice and dice"--->
+*Removed Flarewing Bow's tooltip. <!---tooltip was "Converts wooden arrows into flaming obsidian bats"--->
+*Removed [[Forbidden Sun]]'s tooltip. <!---tooltip was "Casts a large ball of fire that explodes on contact"--->
+*Removed [[Fungicide]]'s tooltip. <!---tooltip was "Fires fungi orbs that split on enemy and tile hits"--->
+*Removed [[Gallant Pickaxe]]'s tooltip. <!---tooltip was "Mining with nuclear power!"--->
+*Removed [[Genisis]]' tooltip. <!---tooltip was "Shoots a big ol' death beam and a volley of laser blasts. The beam splits in two upon death"--->
+*Removed [[The God's Gambit]]'s tooltip. <!---tooltip was "His most treasured relic"--->
+*Removed [[Greatbow of Turmoil]]'s tooltip. <!---tooltip was "Chance to fire cursed, ichor, and hellfire arrows. Fires three arrows at once"--->
+*Removed [[Gypsy Powder]]'s tooltip. <!---tooltip was "Mystical"--->
+*Removed The Hive's tooltip. <!---tooltip was "Full of bees and RPGs"--->
+*Removed Illustrious Knives' tooltip. <!---tooltip was "Great for impersonating devs! Rapidly throw life-stealing holy daggers"--->
+*Removed Impaler's tooltip. <!---tooltip was "Fires exploding and flaming stakes. Vlad would be proud!"--->
+*[[Lashes of Chaos]] now has an additional line in its tooltip explaining its function.
+*Removed [[Lazhar]]'s tooltip. <!---tooltip was "Fires a bouncing heat ray that explodes on enemy hits"--->
+*Removed [[Leviatitan]]'s tooltip. <!---tooltip was "Fires poisonous sea water and regular sea water blasts. Does not require ammo"--->
+*Removed Lunarian Bow's tooltip. <!---tooltip was "The power of the night resides within this bow"--->
+*Removed Magna Cannon's tooltip. <!---tooltip was "Fires a blast of powerful energy"--->
+*Removed [[Malevolence]]'s tooltip. <!---tooltip was "Fires two plague arrows at once"--->
+*Removed Maneater Bulb's tooltip. <!---tooltip was "Even if you could plant this it would be a bad idea"--->
+*Removed [[Mangrove Chakram]]'s tooltip. <!---tooltip was "Shred 'em"--->
+*Removed Megafleet's tooltip. <!---tooltip was "Consumes fallen stars; 95% chance to not consume stars. BLOWS UP EVERYTHING AT WARP SPEED!!!"--->
+*Removed the line, "A Megashark on Angry Vitamins" from [[Megashark]]'s tooltip.
+*Removed [[Molten Amputator]]'s tooltip. <!---tooltip was "Throws a molten scythe that spawns lava globs on enemy hits"--->
+*Removed [[Monsoon]]'s tooltip. <!---tooltip was "Low chance to fire typhoon arrows. Typhoons deal MORE damage in Expert Mode. Fires five arrows at once"--->
+*Removed Murky Paste's tooltip. <!---tooltip was "A blob of biomatter"--->
+*Removed Murky Sludge's tooltip. <!---tooltip was "Viscous"--->
+*Removed the line, "Striking enemies that have less than 10% life left will cause them to erupt into a bloodsplosion" from [[The Mutilator]]'s tooltip.
+*Removed Neptune's Bounty's tooltip. <!---tooltip was "Hitting enemies will cause the crush depth debuff. The lower the enemies' defense the more damage they take from this debuff. Fires a water orb that rains damaging water as it travels"--->
+*Removed [[Nettlevine Greatbow]]'s tooltip. <!---tooltip was "Very high chance to fire venom and chlorophyte arrows. Fires five arrows at once"--->
+*Removed [[Night's Ray]]'s tooltip. <!---tooltip was "Fires a beam of dark energy that can split into additional beams. Enemies must be near for the beam to split"--->
+*Removed the line, "Fires onyx blasts at incredible speeds" from [[Onyx Chain Blaster]]'s tooltip.
+*Removed [[Overloaded Blaster]]'s tooltip. <!---tooltip was "Fires a storm of magic slime at enemies"--->
+*Removed the line, "A lead storm" from [[P90]]'s tooltip.
+*Removed [[Pestilent Defiler]]'s tooltip. <!---tooltip was "Get down with the sickness. Fires exploding sickness bullets"--->
+*Removed [[Phoenix Blade]]'s tooltip. <!---tooltip was "Striking enemies causes explosions and has a chance to spawn healing orbs"--->
+*Removed [[Planetary Annihilation]]'s tooltip. <!---tooltip was "A bow of the gods"--->
+*Removed [[Pwnagehammer]]'s tooltip. <!---tooltip was "Pure Ownage"--->
+*Changed the final line in [[Rare Waifu in a Bottle]]'s tooltip from ";)" to ";D".
+*Removed the line, "Fires a beam of shadow energy that bounces" from Shadowbolt Staff's tooltip.
+*Removed [[Shroomer]]'s tooltip. <!---tooltip was "Fires bullets at a high velocity. Chance to fire an extremely powerful homing shroom when shot"--->
+*Removed [[Slag Magnum]]'s tooltip. <!---tooltip was "Fires an earth bullet that breaks into shards and shatters enemy defense"--->
+*Removed Soma Prime's tooltip. <!---tooltip was "High crit. chance, extreme fire rate, and high accuracy. Fires unique high-velocity slash rounds that have a 10% chance to inflict a strong bleed debuff on hit. 50% chance to not consume ammo"--->
+*Removed Soul Piercer's tooltip. <!---tooltip was "Fires a beam of soul energy that can split into additional beams. Enemies must be near for the beam to split"--->
+*Removed [[Spectre Rifle]]'s tooltip. <!---tooltip was "Fires lost souls at a high velocity"--->
+*Removed [[Speed Blaster]]'s tooltip. <!---tooltip was "Paint 'em like it's Mario Paint"--->
+*Removed the line, "The tail will disappear when minion slots are maxed out" from [[Staff of the Mechworm]]'s tooltip.
+*Removed [[Starfleet]]'s tooltip. <!---tooltip was "Consumes fallen stars. BLOWS UP EVERYTHING!!!"--->
+*Removed [[The Storm]]'s tooltip. <!---tooltip was "Fires bolts from the sky"--->
+*Removed [[Storm Dragoon]]'s tooltip. <!---tooltip was "90% chance to not consume ammo. Fires a 10-round burst of pink and blue bullets"--->
+*Removed Svantechnical's tooltip. <!---tooltip was "Fires a string of bullets along with a shotgun blast near the mouse cursor. 70% chance to not consume ammo"--->
+*Removed [[The Swarmer]]'s tooltip. <!---tooltip was "They're in my eyes! Fires clouds of wasps and bees"--->
+*Removed [[Telluric Glare]]'s tooltip. <!---tooltip was "Fires solar flare arrows"--->
+*Changed [[Teratoma]]'s tooltip from "Summons the brain eater" to "Summons the". <!---intentional error done because "people kept saying, "what is the brain eater" and "what are the flesh eaters"
+So I just made them both say, "Summons the""--->
+*Removed Terra Ray's tooltip. <!---tooltip was "Fires a beam of life energy that can split into additional beams. Enemies must be near for the beam to split"--->
+*Removed [[Titanium Railgun]]'s tooltip. <!---tooltip was "Fires a powerful blast of light energy"--->
+*Removed [[Trapper Bulb]]'s tooltip. <!---tooltip was "Even if you could plant this it would be a bad idea"--->
+*Removed Triactis' True Paladinian Mage-Hammer of Might's tooltip. <!---tooltip was "Great for impersonating devs!"--->
+*Removed [[Triploon]]'s tooltip. <!---tooltip was "Fires three harpoons"--->
+*Removed [[True Paladin's Hammer]]'s tooltip. <!---tooltip was "Crush and burn!"--->
+*Removed the line, "Launches blazing phantom, hyper, and sunlight blades" from [[True Tyrant's Ultisword]]'s tooltip.
+*Removed [[Twisting Nether]]'s tooltip. <!---tooltip was "From another plane of existence"--->
+*Removed the line, "Launches blazing phantom blades" from [[Tyrant Yharim's Ultisword]]'s tooltip.
+*Removed the line, "Fires a beam of blood energy that bounces and heals the player on enemy hits" from [[Viscera]]'s tooltip.
+*Removed [[Vortexpopper]]'s tooltip. <!---tooltip was "Pure bullet hell"--->
+*Removed [[Wingman]]'s tooltip. <!---tooltip was "Fires a concentrated laser bolt"--->
+*Removed Wrath of the Ancients' tooltip. <!---tooltip was "Casts a granite pulse near the mouse cursor that causes granite energy to pulse outward"--->
+
+=== Other ===
+*Renamed Corro slime to [[Corroslime (buff)|Corroslime]].
+*Renamed Crim slime to [[Crimslime (buff)|Crimslime]].
+*The player is now able to be inflicted with God Slayer Inferno.
+*The [[Hell Crag]]s now have an increased enemy spawn rate.
+*Reworked Prepare to Die/Cry into Revengeance Mode.
+*[[Vulnerability Hex]] changes:
+**Now gives the player the [[Darkness]] effect, reduces wing time by 75%, and reduced movement speed by 10%.
+**Now reduces defense by 30 instead of 40, and reduces life regeneration by 15 instead of 5.
+**No longer reduces damage reduction.
+**Changed tooltip from "Damage reduction is reduced by 30% and defense is reduced by 30" to "You are weak".
+
+=== Resprites ===
+*Resprited [[Calamitas]], [[Cataclysm]], [[Catastrophe]], [[Life Seeker]], [[Soul Seeker]] (normal), and [[Storm Weaver]].
+*Resprited [[Blighted Eyes (buff)]], [[Blood Clot (buff)]], [[Brimstone Waifu (buff)]], [[Dank Creeper (buff)]], [[Sandy Waifu (buff)]], and [[Sandy Waifu (rare) (buff)]].
+*Resprited [[Eye of Desolation]].
+*Resprited [[Ashes of Calamity]], [[Treasure Bag (Calamitas)]], [[Stardust]] and [[Void of Calamity]].
+*Resprited Aeroespec Helm.
+*Resprited [[Brimstone Flameblaster]], [[Crushsaw Crasher]], Entropy's Vigil, [[Havoc's Breath]], [[Lashes of Chaos]], Oblivion, The Storm, and Storm Dragoon.
+*Resprited Blossom Flux's leaf arrow and spore bombs.
+
+== Fixes ==
+*Fixed Cryogen's Treasure Bag being unable to drop Permafrost.
+*Fixed the [[Eater of Worlds]] causing minions to deal massively decreased damage in the Prepare to Die/Cry Modes (now Revengeance Mode).
+*Fixed Elysian Wings' tooltip mentioning a scrapped mechanic for the covering.
+*Fixed The Hive Mind's Treasure Bag being unable to drop the Shaderain Staff.
+*Fixed Megafleet and Starfleet's explosions not dealing ranged damage.
+*Fixed Ravager's head drawing incorrectly on its body.
+*Fixed SHPC's explosions not dealing magic damage.
+
+== Removals ==
+*Removed [[Calamity Spawner]] and [[Wyvern Feather]].
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

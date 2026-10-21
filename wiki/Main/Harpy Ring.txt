@@ -1,0 +1,27 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 3
+| tooltip = 10% increased movement speed<br/>Boosts your maximum flight time by 20%
+| sell = {{value|0|0|80}}
+| stack = 1
+}}
+
+The '''Harpy Ring''' is a craftable [[Pre-Hardmode]] [[covering]] that increases the player's movement speed by 10% and flight time by 20%. It is later used in the crafting of the [[Angel Treads]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Harpy Ring will not give any bonus flight time if the Angel Treads are already equipped.
+
+{{Aerialite}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

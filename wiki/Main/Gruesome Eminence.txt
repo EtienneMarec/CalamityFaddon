@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 888
+| knockback = 5
+| mana = 8
+| use = 27
+| velocity = 9
+| tooltip = Summons a gaseous conglomeration of spirits near the cursor<br/>At first, the spirits will fly wildly. This can hurt enemies and players<br/>However, over time they will begin to accumulate to create a single, controllable monstrosity<br/>{{color|The spirits of the amalgam could never pass on to their desired afterlife,|#C61B40}}<br/>{{color|Tainted and melded by rage as they were.|#C61B40}}
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Spirit Congregation.png
+| projcaption = Spirit Congregation
+| element1 = Unholy
+| element2 = Dark
+}}
+The '''Gruesome Eminence''' is a Godseeker Mode [[magic weapon]]. It is the [[exhumed]] form of the [[Ghastly Visage]]. It fires a spirit monster that poorly follows the cursor and occasionally moves around randomly on its own. As time passes, it spawns uncontrollable spirits which deal damage (ranging from {{dv|70|140
+}} to {{dv|185|370}} depending on size) to players and [[Town NPC]]s. After 14 seconds, it grows to full size and becomes fully controllable by the player, but also stop releasing spirits. The damage of the spirit gradually builds up from 1x to 3.3x as it builds up to full size, but will also deal from {{dv|125|250}} to {{dv|250|500}} damage to the player until fully grown.
+
+{{Modifier|magic}}
+
+[[File:Gruesome Eminence (demo).gif|frame|left|The Gruesome Eminence in use. Note the movements of the spirit monster before and after it is tame.]]
+{{-}}
+== Trivia ==
+*The amalgam mentioned in the item's description refers to [[Polterghast]].
+*The interior of the spirit monster contains two different silhouettes resembling [https://earthbound.fandom.com/wiki/Giygas Giygas] from the ''[[wikipedia:EarthBound|EarthBound]]'' franchise, and another resembling a fetus.
+*The weapon itself bears a resemblance to the trinkets dropped by [https://darkestdungeon.fandom.com/wiki/The_Collector The Collector] from ''[[wikipedia:Darkest_Dungeon|Darkest Dungeon]],'' particularly Dismas' Head.
+{{-}}
+{{Exhumed}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}

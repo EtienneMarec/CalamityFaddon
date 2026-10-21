@@ -1,0 +1,94 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| stack = 9999
+| rare = 5
+| sell = {{value|0|0|3}}
+| hardmode = yes
+}}
+|{{item drops infobox
+|All [[Astral Infection]] enemies| [[Stardust#Drop Chance List|Varies]] | Varies
+|[[Astrum Aureus]] | 20-30 / {{expert|30-40}} | 100%
+|[[Astrum Deus]] | 55-95 / {{expert|65-105}} | 100%
+}}
+}}
+{{distinguish|Stardust Fragment|a vanilla [[crafting material]]}}
+
+'''Stardust''' is a [[Hardmode]] [[crafting material]] dropped by monsters in the [[Astral Infection]] biome as well as [[Astrum Deus]] and the [[Astrum Aureus]].
+
+{{dei}} Stardust can also be placed.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Drop Chance List ==
+The following table displays the chances and quantities that each Astral Infection enemy will drop Stardust.
+
+{| class="terraria"
+|-
+! colspan=1 style="padding:0 15px" | Entity !! colspan=1 | Quantity !! Rate
+|-
+| align="center" | {{item|Aries|size=44px}}
+| align=center | {{dv|1-2|+1 extra}}
+| align=center | {{dv|50%|100%}}
+|-
+| align="center" | {{item|Astralachnea}}
+| align=center | {{dv|2-3|3-4}}
+| align=center | 100%
+|-
+| align="center" | {{item|Astral Probe}}
+| align=center | {{dv|1-2|+1 extra}}
+| align=center | {{dv|50%|100%}}
+|-
+| align="center" | {{item|Astral Slime}}
+| align=center | 1-3
+| align=center | {{dv|50%|100%}}
+|-
+| align="center" | {{item|Atlas|size=60px}}
+| align=center | {{dv|6-8|7-9}}
+| align=center | 100%
+|-
+| align="center" | {{item|Big Sightseer|size=60px}}
+| align=center | {{dv|2-3|3-4}}
+| align=center | 100%
+|-
+| align="center" | {{item|Fusion Feeder|size=60px}}
+| align=center | {{dv|2-3|3-4}}
+| align=center | 100%
+|-
+| align="center" | {{item|Hadarian|size=60px}}
+| align=center | {{dv|2-3|3-4}}
+| align=center | 100%
+|-
+| align="center" | {{item|Hive (enemy)|Hive|size=24px}}
+| align=center | {{dv|2-3|3-4}}
+| align=center | 100%
+|-
+| align="center" | {{item|Mantis|size=50px}}
+| align=center | {{dv|2-3|3-4}}
+| align=center | 100%
+|-
+| align="center" | {{item|Nova|size=60px}}
+| align=center | {{dv|2-3|3-4}}
+| align=center | 100%
+|-
+| align="center" | {{item|Small Sightseer}}
+| align=center | {{dv|1-2|+1 extra}}
+| align=center | {{dv|50%|100%}}
+|-
+| align="center" | {{item|Stellar Culex|size=60px}}
+| align=center | {{dv|1-2|+1 extra}}
+| align=center | {{dv|50%|100%}}
+|}
+
+== Notes ==
+*Stardust can also be obtained through [[Astral Crate]]s.
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

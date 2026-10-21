@@ -1,0 +1,35 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| pickreq = 65
+| stack = 9999
+| auto = yes
+| rare = 0
+| color = #000000
+| use = 14
+| sell = No value
+}}
+
+'''Abyss Gravel''' is a [[block]] that comprises the first two layers of the [[Abyss]] biome. It spawns naturally upon world generation and constantly leaks [[water]]. It can be mined with a [[Nightmare Pickaxe]] or a [[Deathbringer Pickaxe]]. When Abyss Gravel is first mined, it will leave a full tile of water in its place, similar to how mining [[Hellstone]] leaves behind lava.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Abyss Gravel blocks are extremely durable, requiring five times as many hits as [[Ebonstone Block]]s.
+*Abyss Gravel is immune to explosives.
+
+== Trivia ==
+*In previous versions of the mod, Abyss Gravel blocks were indestructible and as such could not be legitimately obtained.
+*Its name was initially proposed as "Vanadite".
+
+{{Master Template Tiles
+|show-main = yes
+|show-blocks = yes
+}}
+[[zh:深渊砾石]]

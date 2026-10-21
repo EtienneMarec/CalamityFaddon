@@ -1,0 +1,45 @@
+{{item infobox
+| type = Covering
+| tooltip = Increased max minions by 6, does not stack with downgrades<br/>Increases max number of sentries by 3<br/>55% increased summon damage<br/>Increases whip range by 50% and speed by 25%<br/>All whips have a 10% summon tag critical strike chance<br/>Effects of Phantomic Soul Artifact<br/>Increased minion knockback<br/>Minions inflict Flahmes<br/>Minions spawn damaging sparks on enemy hits
+| debuff = Flahmes
+| debuffduration = 3 seconds
+| debuffchance = 100%
+| debufftip = Vaporizing from total flahium annihilation
+| buff = Phantomic Shield | bufflink = no
+| duration = 1 second
+| bufftip = Defense boosted by 10 and damage reduction boosted by 5%<br/>An ephemeral bulwark protects you
+| buff2 = Phantomic Empowerment | bufflink2 = no
+| duration2 = 1 second
+| bufftip2 = Empowering minion damage by 10%
+| buff3 = Phantomic Regen | bufflink3 = no
+| duration3 = 1 second
+| bufftip3 = Regenerating life
+| proj = Nucleogenesis Spark.gif
+| projcaption = Nucleogenic Spark
+| proj2 = Phantomic Dagger.png
+| proj2caption = Phantomic Dagger
+| proj3 = Phantom Shield.gif
+| proj3caption = Phantomic Bulwark
+| element1 = Fire
+| element2 = Poison
+| element3 = Unholy
+| rare = 16
+| sell = {{value|1|0}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Quantum Flahium Militia Device''' is a craftable Godseeker Mode [[covering]]. It grants all effects of the [[Phantomic Soul Artifact]] and [[Nucleogenesis]], with sparks dealing 120 summon damage. It provides +6 minion slots and +3 sentry slots, which does not stack with downgrades, 55% increased summon damage, +167% minion knockback, 50% increased whip range, 25% increased whip speed, and grants minions and sentries the ability to deal critical hits at a fixed 10% chance when any whip is used.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Flah}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

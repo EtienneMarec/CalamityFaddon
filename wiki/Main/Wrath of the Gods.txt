@@ -1,0 +1,65 @@
+{{Addon|Calamity: Community Remix}}
+{{Item infobox
+|name=Wrath of the Gods
+|rare=16
+|hardmode = yes
+|postml = yes
+| epilogue = yes
+|damage=999
+|knockback=7
+|type=Weapon
+|mana=75
+|use=120
+|tooltip=Summons a godly pulse at the cursor that periodically summon a ring of godly fireballs and occasionally explodes into a massive star of projectile and fires a deathray to annihilate your foes<br/>{{color|The End..?|#ff3333}}
+|debuff=Whispering Death
+|debuffchance=100%
+|debuffduration=3 seconds (Traitorous Fireball)<br/>2 seconds (Traitorous Orb)<br/>10 seconds (Traitorous Deathray)
+|debufftip=Death approaches; defense, movement speed, attack power and life regen reduced
+|debuff2chance=
+|debuff2duration=
+|debuff2=Brimstone Flames
+|debuff2tip=
+|debufftip2=Rapid health loss
+|debuffduration2=3 seconds (Traitorous Fireball)<br/>2 seconds (Traitorous Orb)<br/>10 seconds (Traitorous Deathray)
+|debuffchance2=100%
+|debuff3=Vulnerability Hex|debuffchance3=100%
+|debuffduration3=4 seconds (Traitorous Deathray)
+|debufftip3=You are weak|sell={{value|0|40}}
+|proj=Godly Pulse.gif
+|proj2=Traitorous Fireball.gif
+|projcaption=Godly Pulse
+|proj2caption=Traitorous Fireball
+|proj3=Traitorous Orb.png
+|proj3caption=Traitorous Orb
+|damagetype=Magic
+|sound=Item_119.wav
+|soundtext=Use
+|sound2=Item_117.wav
+|sound2text=Traitorous Fireball
+|sound3=ProvidenceHolyBlastImpact.wav
+|sound3text=Traitorous Fireball Impact
+|sound4=LargeWeaponFire.wav
+|sound4text=Explosion
+|auto=yes|stack=1|element1=Fire|element2=Unholy}}
+
+The '''Wrath of the Gods''' is a craftable Epilogue [[Spell tomes|spell tome]] and is the final upgrade to the [[Wrath of the Ancients]]. When used, it casts a godly pulse at the mouse cursor, which fires a ring of 48 homing Traitorous Fireballs inflict numerous debuffs on intervals for a significant amount of time.
+
+The godly pulse will explode into a hexagram of projectiles and fire a red deathray that homes in towards the closest enemy every ten rounds of Traitorous Fireball rings that deal 75% and 500% of the weapon's base damage respectively. The godly pulse does '''not''' despawn when it explodes.
+
+Its best [[Modifiers|modifier]] is '''Mythical'''.
+
+==Crafting ==
+
+===Recipe===
+{{Recipes|result={{PAGENAME}}|view=infobox}}
+
+
+===Used In===
+{{Recipes|ingredient={{PAGENAME}}|view=infobox}}
+==Trivia==
+
+*This weapon actually has a unique rarity, but is referred to here as Hot Pink for consistency between weapons.
+**This unique rarity alternates between red ({{color|#C22727 ●|#C22727}}) and dark red ({{color|#7D0C0C ●|#7d0c0c}}) colors.
+{{Master Template Weapons|show-main=yes|show-magic=yes}}
+
+[[Category:Spell tomes]]

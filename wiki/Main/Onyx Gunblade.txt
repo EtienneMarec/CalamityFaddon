@@ -1,0 +1,38 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = melee / ranged
+| damage = 25
+| knockback = 4
+| stack = 1
+| rare = 3
+| auto = yes
+| sell = {{value|0|0|80}}
+| use = 24
+| velocity = 6
+| tooltip = Sword of the clan<br/>Uses bullets to fires onyx blasts
+| proj = Onyx Blast.png
+| projcaption = Onyx Blast
+| element1 = Dark
+| element2 = Slash
+}}
+The '''Onyx Gunblade''' is a craftable [[Pre-Hardmode]] [[broadsword]] that also deals ranged damage. When swung with bullets used as [[ammo]], it fires an onyx blast similarly to the [[Onyx Blaster]], along with a spread of 2-7 whatever bullet is being used. If the player has no bullets, the sword has no special effets.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Onyx}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+| show-ranged = yes
+}}
+[[Category:Swords]]

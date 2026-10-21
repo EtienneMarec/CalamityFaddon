@@ -1,0 +1,47 @@
+{{addon|Calamity Loot Swap}}
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 225
+| stack = 9999
+| use = 14
+| rare = 14
+| value = 710
+| color = #CC72C6
+| sell = {{value|0|0|90|0}}
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+|[[Cosmilite Slime]]|10-26|100%
+| [[The Starborn Moth]]{{dei}}| {{dv|25-40|40-60}} | 100%
+|{{fantag|Deimos, the Starborn Princess}} [[Distortion Essence Sphere]]|{{dv|3-5|4-6}}|100%
+}}
+}}
+<big> ''"Rifts materialize in the upper atmosphere..."'' </big>
+
+'''Cosmilite Slag''' is a Godseeker Mode [[Ores|ore]] which generates inside of [[Planetoid]]s upon entering Godseeker Mode. It is used to craft [[Cosmilite Bar]]s at an [[Ancient Manipulator]]. It requires at least {{item|Any Lunar Pickaxe}} to mine. 
+
+== Crafting ==
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Cosmilite Slag cannot be destroyed by explosives, even after Moon Lord has been defeated.
+
+{{Cosmilite}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

@@ -1,0 +1,71 @@
+{{Patch infobox
+| image = Supreme Calamitas (1.1.7.961).png
+| patchname = Supreme Calamitas Buffs
+| release = 6/30/2017
+}}
+{{toc limit|3|right=yes}}
+The '''1.1.7.961''' update made several changes to [[Supreme Calamitas]] and her fight, including new sprites for her and her brothers. The update also buffed several vanilla bosses in [[Revengeance Mode]] and reduced dust from several weapons.
+
+== Additions ==
+*Added [[Rampart of Deities]].
+
+== Changes ==
+=== Bosses and Enemies ===
+*Increased Revengeance Mode [[Brain of Cthulhu]]'s knockback resistance.
+*[[Calamitas]]' [[Soul Seeker]]s now instantly despawn if Calamitas is defeated or despawns.
+*Revengeance Mode [[Eater of Worlds]] now fires cursed fireballs every 5 seconds instead of 6.
+*Increased Revengeance Mode [[Golem]]'s head's aggression.
+*[[The Hive Mind]]'s Vile Clot projectiles now produce less dust.
+*[[Jungle Dragon, Yharon]] can now only spawn up to 15 [[Detonating Flame]]s at once instead of 20, and his speed now scales with the player's run acceleration.
+*Increased the fire rate of Revengeance Mode [[Lunatic Cultist]]'s projectile rain.
+*[[The Perforators]]' Blood Geysers now produce less dust.
+*Post-[[Providence]] [[Dungeon]] enemies now have a {{dv|16.67%|25%}} chance to spawn a [[Phantom Spirit]] instead of {{dv|10%|16.67%}}.
+*Increased Revengeance Mode [[Plantera]]'s aggression.
+*Increased the chance for [[Sea Snail]]s to drop [[Sea Shell]]s from {{dv|14.29%|20%}} to {{dv|25%|33%}}.
+*Increased Revengeance Mode [[Skeletron Prime]]'s aggression, and buffed its rocket damage from {{dv|0|0|80}} to {{dv|0|0|100}}.
+*[[Supreme Calamitas]] changes:
+**Buffed health from {{dv|1,500,000|2,400,000}} to {{dv|2,500,000|4,000,000}}, her contact damage from {{dv|600|960}} to {{dv|750|1200}}, and her defense from 350 to 370.
+**Buffed Brimstone Hellblast damage from {{dv|200|360}} to {{dv|300|560}}.
+**Buffed Brimstone Fireblast damage from {{dv|180|320}} to {{dv|220|200}}.
+**Buffed the brothers' Brimstone Hellblast damage from {{dv|160|280}} to {{dv|180|320}}.
+**Replaced all Brimstone Shot projectiles in the fight with Brimstone Fireblasts.
+**Increased DPS cap.
+**Increased the distance that Supreme Calamitas stays away from the player.
+**Increased speed.
+**Now becomes more aggressive at higher amounts of health.
+**Brimstone Hellblasts now collide with tiles.
+**Brimstone Fireblasts are now slightly transparent.
+**Nerfed Soul Seeker's contact damage from {{dv|200|280}} to {{dv|100|140}}, buffed its defense from 50 to 250, and increased the chance for it to fire a Brimstone Barrage projectile every second.
+**Soul Seekers now instantly despawn if Supreme Calamitas is defeated or despawns.
+*Buffed the damage of Revengeance Mode [[Wall of Flesh]]'s special lasers from {{dv|0|0|68}} to {{dv|0|0|72}}.
+*Nerfed [[Wulfrum Drone]]'s health from {{dv|80|112}} to {{dv|60|84}}, and its damage from {{dv|30|42}} to {{dv|25|35}}.
+*Nerfed [[Wulfrum Slime]]'s health from {{dv|44|61}} to {{dv|32|44}}, and its damage from {{dv|20|28}} to {{dv|16|22}}.
+
+=== Items ===
+*[[Azathoth]]'s orbs can now produce lasers at a farther range, and all of its projectiles now produce less dust.
+*[[Cleansing Blaze]] is now crafted at [[Draedon's Forge]] instead of an [[Ancient Manipulator]].
+*Buffed [[Elysian Tracers]]' horizontal speed from 16 to 17, its horizontal acceleration from 3.5 to 3.8, and gave them a run speed and acceleration of 1.5.
+*Buffed [[Drew's Wings]]' horizontal speed from 18 to 20, and its horizontal acceleration from 4 to 4.5.
+*[[Fungal Clump]]'s healing orbs now produce less dust.
+*[[Lazhar]]'s beam now produces less dust.
+*[[Rotten Brain]] and [[Shaderain Staff]]'s rain projectiles now produce less dust.
+*Buffed [[Seraph Tracers]]' horizontal acceleration from 3 to 3.2, and gave them a run speed and acceleration of 1.25.
+*[[Sun God Staff]]'s beams now produce less dust.
+*[[Triactis' True Paladinian Mage-Hammer of Might]] now produces less dust.
+*Increased [[Yharim's Crystal]]'s mana cost from 35 to 125.
+
+=== Other ===
+*Decreased the amount of damage reduction gained by defeating the [[Lunatic Cultist]], and increased the amount lost in Revengeance Mode.
+
+=== Resprites ===
+*Resprited Azathoth and Triactis' True Paladinian Mage-Hammer of Might.
+*Resprited Azathoth's orbs and [[Entropy's Vigil]]'s Cataclymini.
+
+== Fixes ==
+*Fixed Supreme Calamitas not being able to drop [[Vehemence]]. 
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

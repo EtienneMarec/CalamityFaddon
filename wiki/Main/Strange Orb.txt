@@ -1,0 +1,33 @@
+{{item infobox
+| type = Light Pet
+| stack = 1
+| tooltip = Summons a miniature Ocean Spirit light pet<br/>Provides a large amount of light while underwater
+| rare = 8
+| use = 19
+| sell = {{value|0|5|50|0}}
+| hardmode = yes
+| buff = Ocean Spirit (buff)
+| bufflink = no
+| bufftip = Small and Cute
+}}
+{|align=right
+|{{summoned|image=[[File:Ocean Spirit.gif]]|type=light pet|name=Ocean Spirit}}
+|-
+|{{float file box| [[File:Ocean Spirit (sleep).png]] |The Ocean Spirit when out of water.}}
+|}
+
+The '''Strange Orb''' is a [[Pets|light pet]] summoning item that summons an ocean spirit to follow the player. It is obtained from the Shadow Chests in the [[Abyss]]. When equipped while the player is not submerged in a liquid, it sleeps while holding the orb and gives a small amount of light. When in liquid, it swims above the player and provides much more light.
+
+== Notes ==
+*The Ocean Spirit is a very effective way to increase your light level in the [[Abyss]].
+*This item can also be obtained from the [[Abyssal Crate]] after either [[The Slime God]] or [[Wall of Flesh]] have been defeated.
+
+== Trivia ==
+*The pet draws visual inspiration from [https://en.wikipedia.org/wiki/Chrysaora_quinquecirrha Sea Nettle jellyfish].
+*Talking to the [[Sea King]] with the Ocean Spirit active will display unique quotes.
+*The Ocean Spirit's buff tooltip is the same as the [[Levi|Levi's]].
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

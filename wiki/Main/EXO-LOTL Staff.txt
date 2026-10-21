@@ -1,0 +1,41 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| stack = 1
+| damagetype = summon
+| damage = 1
+| use = 9
+| mana = 500
+| knockback = 4
+| tooltip = Summons a high tech EXO-LOTL to fight for you
+| buff = EXO-LOTL (buff) | bufflink = no
+| bufftip = Great for distracting cats!
+| debuff = Exo Freeze
+| debufftip = Frozen
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| rare = 15
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| element1 = Cold
+| element2 = Fire
+| element3 = Machine
+}}
+{{summoned|EXO-LOTL|type=minion|image=[[File:EXO-LOTL.png]]}}
+
+The '''EXO-LOTL Staff''' is a craftable Godseeker Mode [[summon weapon]]. It summons an armored axolotl with a gun on its back which jumps at enemies while aiming and firing lasers at them with its canon. 
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+== Trivia ==
+*The item was implemented based on a specific item suggestion by Shade on the mod's Discord server.
+{{Argentum}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

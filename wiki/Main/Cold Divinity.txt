@@ -1,0 +1,49 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 48
+| mana = 10
+| knockback = 4.5
+| use = 24
+| tooltip = Summons the power of the ancient ice castle<br/>For each minion slot used, you will gain an additional orbiting shield spike<br/>These spikes accelerate rapidly towards a nearby enemy to inflict heavy damage<br/>They take some time to regenerate after launching themselves at the target, however<br/>On right click, summons a duplicate ring around the targeted enemy, which slowly converges before exploding
+| buff = Cold Divinity (buff) | bufflink = no
+| bufftip = The magic of the ancient ice castle will aid you
+| debuff = Frostburn
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 5
+| critical = 0%
+| sell = {{value|0|4|80}}
+| proj = Cold Divinity Shield Spike.png
+| projcaption = Shield Spike
+| element1 = Cold
+| element2 = Stab
+| element3 = Holy
+}}
+|{{item drops infobox
+| [[Cryogen]] | 1 | 10%
+}}
+}}
+{{summoned|Cryo Shield|type=minion}}
+
+The '''Cold Divinity''' is a [[Hardmode]] [[summon weapon]] that drops from [[Cryogen]]. When used with its primary fire (left-click), it will first encase the player with an icy shield, then with subsequent uses adding one shield spike around it at the cost of a single minion slot. It does not cost minion slots to summon the first time, but the ice shield will not be summoned if all your minion slots are occupied. Each summoned shield spike will revolve around the shield while moving outwards from it until the spike reaches a set distance where it glows into a deeper shade of blue and is ready to be launched. The fully-charged spike will launch themselves into a nearby enemy or continue orbiting the player otherwise. If the player has at least one shield spike, they can use their secondary fire (right-click) to surround the closest enemy to the cursor with a duplicate ring of spikes, orbiting around and diverge until a set distance when they all launch into the enemy at once.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The shield spike is referenced as "ColdDivinityPointyThing" in the mod's source files.
+[[File:Cold Divinity (demo).gif|frame|left|The player encased in an icy shield and orbiting shield spikes.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

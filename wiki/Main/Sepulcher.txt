@@ -1,0 +1,130 @@
+{{npc infobox
+| imagealt = [[File:Sepulcher.png|350px]]
+| type = Burrowing Enemy
+| life = {{dv|300,000||345,000}}
+| ai = Worm AI
+| damage = 0 (Contact)<br/>{{dv|400|600|750|862}} (Brimstone Dart)
+| defense = 0
+| dr = 99.99
+| knockback = 100
+| listexclude = yes
+| hardmode = yes
+| postml = yes
+| boxwidth = 31em
+| debuff = Abyssal Flames
+| debuffchance = 100%
+| duration = 3 seconds (Brimstone Darts)
+| debufftip = Your soul is being consumed
+| immuneall = yes
+| killed = SepulcherDeath.wav
+| sound = BrimstoneShoot.wav
+| soundtext = Brimstone Dart
+}}
+
+The '''Sepulcher''' is a Godseeker Mode [[Enemies#Boss Servants|boss servant]] [[enemy]] that is spawned during the fight with [[Supreme Calamitas]]. Notably, it is the lesser version of the Evil Mode enemy, Mad God. It spawns twice during the fight: Once when the initial bullet hell ends, and later when Supreme Calamitas reaches 8% health, shortly after the final bullet hell. Ten Brimstone Hearts will spawn along with it, distributed mostly in the upper corners of Supreme Calamitas's arena. These hearts must be destroyed in order to kill the Sepulcher.
+
+The Sepulcher, notably, deals no contact damage, instead firing diagonal bursts of {{item|BrimstoneBarrage|nolink=true|ext=gif|size=9px|Brimstone Darts}} from its segments in order to damage the player.
+
+Throwing [[Holy Water]] onto the first Sepulcher Supreme Calamitas spawns will cause it to destabilize, reforming into the [[Mastaba]].
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Sepulcher Head
+| ai = Worm AI
+| life = {{dv|300,000||345,000}}
+| damage = 0
+| defense = 0
+| dr = 99.99
+| knockback = 100
+| hardmode = yes
+| postml = yes
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Sepulcher Body
+| ai = Worm AI
+| life = {{dv|300,000||345,000}}
+| damage = 0
+| defense = 0
+| dr = 99.99
+| knockback = 100
+| hardmode = yes
+| postml = yes
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Sepulcher Body
+| namesub = Weak
+| image = Sepulcher Body (Weak).png
+| ai = Worm AI
+| life = {{dv|300,000||345,000}}
+| damage = 0 (Contact)<br/>{{dv|400|600|750|862}} (Brimstone Dart)
+| defense = 0
+| dr = 99.99
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| debuff = Abyssal Flames
+| debuffchance = 100%
+| duration = 3 seconds (Brimstone Darts)
+| debufftip = Your soul is being consumed
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Sepulcher Tail
+| ai = Worm AI
+| life = {{dv|300,000||345,000}}
+| damage = 0
+| defense = 0
+| dr = 99.99
+| knockback = 100
+| hardmode = yes
+| postml = yes
+}}
+}}
+
+== Summons ==
+{{npc infobox
+| float = none
+| type = Flying Enemy
+| name = Brimstone Heart
+| life = {{dv|24,550||29,440}}
+| damage = 0
+| defense = 0
+| ai = Brimstone Heart AI
+| knockback = 100
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Slow
+| immune4 = Abyssal Flames
+| immune5 = Brimstone Flames
+| vulnerable1 = Cold
+| vulnerable2 = Stab
+| vulnerable3 = Holy
+| resistant1 = Fire
+| resistant2 = Unholy
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_13.wav
+| killed = NPC_Killed_1.wav
+}}
+
+== Notes ==
+*The Sepulcher has 53 segments in total.
+*Brimstone Hearts take 2/3 damage from [[Celestus]]' phantom blade projectiles.
+*During the [[Boss Rush]], Brimstone Hearts will have 10,000 max health regardless of difficulty.
+*The Sepulcher can be killed without destroying the Brimstone Hearts, although this takes a very long time, and requires a weapon capable of getting past Sepulcher's 99.9999% damage reduction without its damage getting reduced to 0 due to Calamity's change to damage rounding (meaning 1,000,000 damage in one hit or more), and as such is not recommended. Killing the Sepulcher this way will still allow the player to progress into the fight.
+**The most practical weapon for doing so is the [[Coldheart Icicle]], as its 2% HP drain works on Sepulcher's head, and ignores all DR.
+*Weapons cannot pierce through its hitbox (except for the vanilla Zenith).
+
+== Trivia ==
+*The word "sepulcher" refers to a kind of tomb or burial chamber.
+*When defeated, several groups of small passive souls will float out of its remains.
+*The tooltip of [[Metastasis]] heavily implies that the Sepulcher is what [[The Devourer of Gods]] could become should it continue to blindly aim for more power. 
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

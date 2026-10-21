@@ -1,0 +1,54 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 210
+| stack = 9999
+| rare = 8
+| use = 14
+| value = 850
+| color = #FF0000
+| sell = {{value|0|0|24|0}}
+| hardmode = yes
+| proj = Lava Chunk.gif
+| projcaption = Lava Chunk
+}}
+|{{item drops infobox
+|[[Devil Fish]] (After [[Golem]] has been defeated)|3-9|100%
+|[[Chaotic Puffer]] (After [[Golem]] has been defeated)|10-26|100%
+|[[La Ruga]] {{fantag|Polyphemalus}} (After [[Golem]] has been defeated)|20-50|100%
+}}
+}}
+
+'''Abyss Ore''' is a [[Hardmode]] [[ore]] which generates in the [[Abyss]] [[biome]]. It can be found on the underside of the floating [[Abyss Gravel]] islands, dropping harmful lava particles into the water beneath itself. These lava particles have a base damage of 25.
+
+It requires at least a [[Picksaw]] to mine, and is used to craft [[Abyss Bar]]s at an [[Adamantite Forge]] or a [[Titanium Forge]]. It is also dropped by [[Chaotic Puffer]]s and [[Devil Fish]] after the [[Golem]] has been defeated.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Abyss Ore cannot be destroyed by explosives, even after Golem has been defeated.
+*Unlike most other ores, this ore does not require a boss to be defeated in order to be mined aside from the Picksaw requirement, meaning that it can be mined even in a Pre-Hardmode world.
+*The lava particles that this ore drops can provide natural light to the normally pitch-black Abyss.
+
+== Trivia ==
+*[[wikipedia:Abyss|Abyss]] is a type of igneous rock with similar properties to basalt.
+*Abyss Ore used to be known as '''Chaotic Ore''', and is still referred to as such in the mod's files.
+*This ore used to generate in [[The Underworld]], but it was later relocated to the Abyss.
+**This was to give further incentive to explore the Abyss, and also because the ore had issues with generating into the Underworld's [[tgc:Ruined House|ruined houses]].
+
+{{Abyss}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

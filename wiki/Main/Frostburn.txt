@@ -1,0 +1,57 @@
+{{dablink|For the vanilla debuff page see [[tgc:Frostburn|Frostburn]].}}
+
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-8 health per second
+| tooltip = It's either really hot or really cold. Either way it REALLY hurts
+}}
+
+'''Frostburn''' is a vanilla debuff that deals damage over time and prevents the natural life regeneration of anything it afflicts.
+
+== Causes ==
+=== From Calamity Items ===
+{{item debuffs}}
+
+=== From Calamity NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+| {{item|mode=table|Eidolist}}|| {{revengeance|4 seconds}} (Ice chunk) ||{{revengeance|100%}}
+|-
+| {{item|mode=table|Adult Eidolon Wyrm|size=250px}}|| {{revengeance|4 seconds}} (Ice chunk) ||{{revengeance|100%}}
+|-
+| {{item|mode=table|Eidolon Wyrm|size=200px}}|| {{revengeance|4 seconds}} (Ice chunk) ||{{revengeance|100%}}
+|-
+| {{item|mode=table|Lunatic Cultist}}|| {{revengeance|4 seconds}} (Ice chunk) ||{{revengeance|100%}}
+|-
+| {{item|mode=table|Anahita}}|| 4 seconds (Ice mist) ||100%
+|-
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

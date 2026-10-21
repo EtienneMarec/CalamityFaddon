@@ -1,0 +1,42 @@
+
+{{npc infobox
+| type = NPC
+| environment = Various
+| ai = Passive AI
+| life = 250
+| defense = 15
+| knockback = 20
+| image2 = Falconer map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+The '''Falconer''' is a non-hostile [[Hardmode]] [[NPC]] that initially spawns in the [[Ocean]], by unearthing the [[Weathered Obelisk]] and waiting one day. She is different from [[Town NPCs]] in that she will not move into empty houses, and instead will spawn in various locations depending on the progression of her quests. She will use [[Mariana]] to defend herself, however if she is close to death she will disappear into smoke.
+
+She functions similarly to the [[Angler]] in that she has her own quest system, with a fixed progression of target enemies. These enemies can be dealt with in different ways, however the reward from the Falconer will always be the same.
+
+{{info request|HEAVY WIP}}
+== Quests ==
+{| class="terraria lined" style="width:65%"
+ ! style="padding: 5px" | Amount !! style="padding: 5px;" | Enemy !! style="padding: 5px;" | Quote !! style="padding: 5px;" | Reward 
+|-
+| {{item|Essence of Babil}} 10 || {{item|Fat Blighted Eye}} ||  WIP || {{item|Acidsighter}} Drops
+|-
+|{{item|Essence of Babil}} 30 ||{{item|Diviner Valkyrie}}||WIP ||{{item|Spear of Liberty}}
+|-
+|{{item|Essence of Babil}} 150 ||{{item|Lunar Prophet}}||WIP ||{{item|Halter}}
+|-
+|{{item|Essence of Babil}} 200 ||{{item|True Tyrant}}||WIP ||Various
+|-
+|{{item|Essence of Babil}} 300 ||{{item|Cinderlamitas}}||WIP ||Various
+|-
+|{{item|Essence of Babil}} 450 ||{{item|Unholy Cosmic Elemental}}||WIP ||{{item|Demi}}
+|-
+|{{item|Essence of Babil}} 650 ||{{item|Magnetostorm Shuttle}}||WIP ||{{item|Moonlighter}}
+|}
+
+{{Master Template Characters
+| show-main = yes
+| show-npc = yes
+}}

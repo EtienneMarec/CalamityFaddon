@@ -1,0 +1,36 @@
+{{npc infobox
+| type = Enemy
+| environment = Sulphurous Sea
+| ai = Fighter AI
+| damage = {{element|Poison}} {{dv|25|50}}
+| life = {{dv|35|70}}
+| defense = 30
+| knockback = {{dv|75%|77.5%}}
+| banner = yes
+| money = {{sc|10}}
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| duration = 2 seconds
+| custom| {{item|Turtle Shell|note=(In [[Hardmode]])|wrap=y}}|10%
+| immune1 = Kami Flu
+| immune2 = Irradiated
+| immune3 = Sulphuric Poisoning
+| hurt = NPC_Hit_50.wav
+| killed = NPC_Killed_54.wav
+| vulnerable1 = Stab
+| vulnerable2 = Machine
+| resistant1 = Poison
+| resistant2 = Slash
+| resistant3 = Cold
+}}
+
+The '''Gnasher''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Sulphurous Sea]]. It walks towards the player in an attempt to attack them and can spawn in both the sea and the beach.
+
+== Trivia ==
+*The Gnasher is likely based off of a [[wikipedia:Macrochelys_temminckii|snapping turtle]], which both live in murky waters, though they aren't known for killing humans.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

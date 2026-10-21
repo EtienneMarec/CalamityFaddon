@@ -1,0 +1,275 @@
+{{Patch infobox
+| image = Resurrection Butterfly.png
+| patchname = Patreon Items and Rev Boss Reworks
+| release = 8/21/2019
+| pair = 1.4.2.001 (music)
+}}
+
+The '''1.4.2.104''' update added new patreon items along with reworks to [[Revengeance Mode]] [[Queen Bee]], [[The Twins]], [[The Destroyer]], and [[Skeletron Prime]]. The update also introduced the [[Astral Infection (debuff)|Astral Infection]] debuff for [[Astral Infection]]-related content, gave most of the remaining [[Rare item variants]] original sprites, and made several balance changes to some Godseeker Mode [[weapons]].
+
+== Additions ==
+=== [[Buffs]] and [[Debuffs]] ===
+*Added Astral Infection (debuff), [[Shadowflame]], and [[Time Distortion]].
+*Added [[Blood Bound]], [[Resurrection Butterfly (buff)]], and [[Third Sage (buff)]].
+
+=== [[Items]] ===
+*Added rogue variants for [[Galaxy Smasher]], [[Nanoblack Reaper]], and [[Stellar Contempt]].
+*Added [[Angelic Shotgun]], [[Bloody Vein]], [[Corpus Avertor]], [[Deep Sea Dumbbell]], [[Devil's Sunrise]], [[Dodu's Handcannon]], [[Karasawa]], [[Kelvin Catalyst]], [[The Last Mourning]], [[Mad Alchemist's Cocktail Glove]], [[Nadir]], [[Resurrection Butterfly]], [[Roxcalibur]], [[Time Bolt]], and [[Yateveo Bloom]].
+*Added [[Hermit's Box of One Hundred Medicines]].
+
+=== [[Enemies]] ===
+*Added [[Fearless Goldfish Warrior]].
+
+=== Worldgen ===
+*Added Roxcalibur background object.
+
+== Changes ==
+=== [[Bosses]] ===
+==== [[Aquatic Scourge]] ====
+*No longer drops the [[Aquatic Emblem]] in Normal Mode.
+
+==== [[Astrum Aureus]] ====
+*Now inflicts Astral Infection for 4 seconds on contact instead of [[God Slayer Inferno]] for 3 seconds.
+*Flame crystals now inflict Astral Infection for 3 seconds instead of God Slayer Inferno for 2 seconds.
+*Lasers now inflict Astral Infection for 2 seconds instead of God Slayer Inferno for 1 second.
+*[[Aureus Spawn]]s now inflict Astral Infection for 2 seconds.
+
+==== [[Astrum Deus]] ====
+*Head segments for both the small and spectral worms now inflict Astral Infection for 4 seconds instead of God Slayer Inferno for 3 seconds.
+*Body segments for both the small and spectral worms now inflict Astral Infection for 3 seconds instead of God Slayer Inferno for 2 seconds.
+*Tail segments for both the small and spectral worms now inflict Astral Infection for 2 seconds instead of God Slayer Inferno for 1.5 seconds.
+*Lasers now inflict Astral Infection for 3 seconds instead of God Slayer Inferno for 2 seconds.
+*Mines now inflict Astral Infection for 5 seconds instead of God Slayer Inferno for 4 seconds.
+*Orbitting [[Astrum Deus Probe]]s now inflict Astral Infection for 2 seconds on contact instead of God Slayer Inferno for 1.5 seconds.
+
+==== [[Brain of Cthulhu]] ====
+*Nerfed health multiplier from {{dv|0|0|1.6x|2.3x}} to {{dv|0|0|1.4x|1.9x}}
+*Nerfed Creepers' health multiplier from {{dv|0|0|1.2x|1.4x}} to {{dv|0|0|1.1x|1.2x}}.
+*Can no longer hit the player in phase 1.
+
+==== [[Brimstone Elemental]] ====
+*Adjusted Brimstone Barrage attack's pattern.
+
+==== [[Ceaseless Void]] ====
+*Greatly increased speed while enraged, but lowered its maneuverability. 
+
+==== [[Cryogen]] ====
+*Increased speed in phases 3 and 5.
+
+==== [[Desert Scourge]] ====
+*No longer drops the [[Ocean Crest]] in Normal Mode.
+
+==== [[The Destroyer]] ====
+*No longer has specialized resistances to certain projectiles, and now takes 20% damage from infinitely piercing non-minion projectiles, and divides the damage of other piercing projectiles by the amount of times they pierce.
+*Reworked Revengeance Mode AI:
+**As it loses health, its speed increases but it fires lasers less frequently.
+**Uses only normal lasers above 66% health, only frost lasers between 33-66%, and only homing lasers below 33%.
+**Homing lasers now start homing after 3 seconds instead of 2, but speed up after 4.5 seconds instead of 6.
+**Body segments with their Probes still attached have extra defense.
+**Body segments with their Probes detached have less defense. 
+**Body segments that have lost their Probes will fire scraps instead of lasers.
+**Now has a size scale factor of 1.5x in both Revengeance and Death Mode instead of having a 1.2x factor in Revengeance Mode, and 1.25x in Death Mode.
+
+==== [[The Devourer of Gods]] ====
+*Phase 2's tail is now invincible for 12 seconds upon spawning instead of 6.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Fireballs no longer have increased visual effects if fast lighting is selected.
+
+==== [[King Slime]] ====
+*Decreased teleportation frequency in Revengeance and Death Mode.
+
+==== [[Polterghast]] ====
+*Improved despawn behavior.
+
+==== [[Providence, the Profaned Goddess]] ====
+*Can now be lifestealed off of while not in either of her cocoon phases.
+*Can now drop the [[Elysian Aegis]] and [[Elysian Wings]] in Normal Mode.
+
+==== [[Queen Bee]] ====
+*Reworked Revengeance Mode AI:
+**Charges less times in a row.
+**Fires more stingers, but they no longer have a random spread. 
+**Can now spawn [[Hornet]]s in addition to regular bees.
+
+==== [[Ravager]] ====
+*Missiles are now faster in Normal and Expert Mode and have afterimages.
+
+==== [[Skeletron Prime]] ====
+*Buffed Boss Rush health from 780,000 to 980,000.
+**Buffed Prime Cannon's Boss Rush health from 350,000 to 450,000.
+**Buffed Prime Vice's Boss Rush health from 440,000 to 540,000.
+**Buffed Prime Laser's Boss Rush health from 280,000 to 380,000.
+*Arms now have their own health multiplier of {{dv|0|0|1.15x|1.45x}} instead of sharing theirs with the head.
+*Can now drop the [[Burden Breaker]] while enraged in Revengeance Mode.
+*Reworked Revengeance Mode AI:
+**Head is almost immune to damage until all four arms are killed, but the arms have reduced HP. 
+**The head gains new abilities each time an arm is killed and goes berserk when all four arms are slain. 
+**Actively attacks the player with two arms at once, and switches which arms it is using over time.
+**Head and melee arms inflict [[Bleeding]] on contact.
+**Removed random spread from Prime's Laser's lasers. 
+**Changed the pattern of its laser ring. 
+**Prime Cannon can now fire rockets. 
+**Prime Vice moves less erratically.
+
+==== [[Storm Weaver]] ====
+*Increased phase 2's Death Mode and [[Boss Rush]] segment count from 32 to 42.
+*Projectiles which can pierce more than 4 times and don't pierce infinitely will now have their damage divided by the amount of times they pierce on phase 2's body segments.
+*Minions now deal full damage to Storm Weaver.
+*Phase 1's tail now shares its damage resistance formula with phase 2's segments.
+*No longer starts [[Rain]] during [[The Devourer of Gods]] fight.
+*Decreased phase 2's movement speed.
+*No longer enrages when brought out of Space during The Devourer of Gods fight.
+*Increased enraged movement speed.
+
+==== [[Supreme Calamitas]] ====
+*Arena on Normal and Expert Modes is now as small as her Revengeance Mode arena.
+*Arena no longer deletes liquids.
+*Can now drop [[Fabstaff]], [[Soma Prime]], and [[Staff of Blushie]].
+*All weapon drop rates doubled except for melee/rogue hybrid weapons, to give them equal drop rates.
+*No longer instantly kills the player if they took less than 100 damage from a hit.
+
+==== [[The Twins]] ====
+*Buffed Spazmatism's Boss Rush health from 1,000,000 to 1,300,000.
+*Buffed Retinazer's Boss Rush health from 700,000 to 900,000.
+*Reworked Revengeance Mode fight:
+**Increased the length of most large dashes to make them less oppressive.
+**Spazmatism uses Shadowflame instead of Cursed Flames.
+**Spazmatism goes berserk and does super fast charges when at low health or when Retinazer is killed. 
+**Removed random spread from Retinazer's lasers in phase 1. 
+**Reduced the amount of lasers Retinazer fires in phase 2 until at low health or Spazmatism is killed. 
+**Retinazer can now charge in phase 2 if Spazmatism is killed, which leave behind homing laser rockets.
+
+=== [[Enemies]] ===
+*Nerfed the damage of [[Armored Digger]]'s scraps from {{dv|64|128}} to {{dv|60|120}}, and its spawn rate is now able to be affected by spawn rate modifiers other than the [[Zen]] and [[Zerg Potion]]s.
+*Various Astral Infection enemies now inflict the Astral Infection debuff:
+**[[Aries]]es, [[Astralachnea]]s, [[Astral Slime]]s, [[Big Sightseer]]s and their spit, [[Fusion Feeder]]s, [[Hadarian]]s, [[Hive]]s, [[Mantis]]es, [[Nova]]s, and [[Stellar Culex]]es now inflict Astral Infection for 2 seconds on contact. 
+**[[Astral Probe]]s now inflict Astral Infection for 2 seconds at all times instead of inflicting God Slayer Inferno for 2.5 seconds after Astrum Aureus has been defeated.
+**[[Atlas]]es now inflict Astral Infection for 2 seconds.
+**[[Hiveling]]s and [[Small Sightseer]]s now inflict Astral Infection for 1 second.
+*Astral Slimes now drop {{dv|8-12|11-16}} [[Astral Ore]] after [[Astrum Deus]] has been defeated.
+*Revengeance Mode [[Black Recluse]]s, [[Clinger]]s, [[Gastropod]]s, [[Giant Tortoise]]s, [[Ice Tortoise]]s, [[Plagueshell]]s, and [[Sand Tortoise]]s can no longer be stun locked upon reaching 25% health instead of at all times.
+*Revengeance Mode [[Crimson Axe]]s, [[Cursed Hammer]]s, and [[Enchanted Sword (NPC)|Enchanted Sword]]s can no longer be stun locked upon reaching 50% health instead of at all times.
+*Hardmode [[Goblin Sorcerer]]s and [[Shadowflame Apparation]]s now inflict Shadowflame for 3 seconds in Revengeance Mode.
+*Decreased the drop chance of [[Gladiator armor]] pieces from [[Hoplite]]s from {{dv|14.29%|20%}} to {{dv|5%|6.67%}}.
+*Revengeance Mode [[Paladin]]s can no longer be stunlocked upon reaching 15% health instead of at all times.
+*Godseeker Mode [[Skeleton Commando]]'s rockets no longer deal increased damage before exploding.
+
+=== Items ===
+*Added the Astral Infection debuff to various weapons, sometimes replacing God Slayer Inferno:
+**[[Hide of Astrum Deus]] now provides immunity to and inflicts Astral Infection onto enemies instead of God Slayer Inferno.
+**[[Astral Arcanum]] and [[Astral Bulwark]] now provide immunity to Astral Infection instead of God Slayer Inferno.
+**[[Astral armor]]'s set bonus, [[Astral Blade]], [[Astral Hamaxe]], [[Astral Scythe]], [[Astral Staff]], [[Astral Pickaxe]], [[Astral Pike]], [[Heavenfallen Stardisk]], [[Hive Pod]], [[Nebulash]], [[Quasar]], [[Radiant Star]], [[Starfall]], [[Stellar Knife]], and [[Titan Arm]] now inflict Astral Infection.
+**[[Astralachnea Staff]] now inflicts Astral Infection instead of God Slayer Inferno.
+**[[Astral Blaster]] now inflicts Astral Infection for 2 seconds instead of [[Frostburn]] for 4 seconds.
+**[[Hide of Astrum Deus]]' explosion now inflict Astral Infection instead of God Slayer Inferno.
+**[[Stellar Cannon]]'s explosions now inflict Astral Infection for 5 seconds instead of God Slayer Inferno for 2 seconds.
+*[[Acceleration Round]]s, [[Acid Round]]s, [[Anti-materiel Rifle]], [[Arctic Arrow]]s, [[Arterial Assault]], Astral Blaster, [[The Ballista]], [[Barinade]], [[Barinautical]], [[Bloodfire Arrow]]s, [[Claret Cannon]], [[Contagion]], [[Elysian Arrow]]s, [[Galeforce]], [[The Hive]], [[Hydra]], [[Impaler]], [[Scorpio]], and [[SDFMG]]'s projectiles now make sounds upon hitting blocks.
+*Buffed [[Abyssal Tome]]'s damage from 40 to 42, but it no longer inflicts Brimstone Flames.
+*[[Aeries]]' blasts no longer have knockback.
+*Nerfed [[Aero Stone]]'s jump speed boost from 200% to 100% without auto jump, and 40% to 25% with auto jump.
+*[[Alpha Ray]] and [[Genisis]]' beams now have a localNPCHitCooldown value of 100 instead of 80.
+*Changed [[Anti-materiel Rifle]]'s use sound from PlasmaBlast to LargeWeaponFire.
+*[[The Bee]] now has reduced effectiveness with Scarlet Devil when a stealth strike is performed.
+*Adjusted the lighting for [[Blight Spewer]], [[Flarefrost Blade]], [[Phangasm]], Scarlet Devil, and [[Xeroc Greatsword]]'s projectiles.
+*Decreased the amounts of [[Cosmilite Bar]]s, [[Darksun Fragment]]s, [[Endothermic Energy]], [[Nightmare Fuel]], and [[Phantoplasm]] needed to craft [[Apotheosis]] from 77 to 33 each, and decreased the amount of [[Staff of the Mechworm|Staves of the Mechworm]] needed from 3 to 2.
+*Buffed [[Asteroid Staff]]'s damage from 130 to 180.
+*Buffed [[Augur of the Elements]]' damage from 74 to 150, and decreased its reuse delay from 10 to 5.
+*[[Baleful Harvester]] changes:
+**Buffed damage from 110 to 160.
+**Shot skulls are now faster, ignore water, last for 5 seconds instead of 10, and have a blood particle trail and afterimages.
+**Flares now last for 3 seconds instead of 4 and no longer produce light.
+**Now summons more skulls from off screen on true melee hits.
+**Now uses 20 [[Solar Fragment]]s in its recipe and is crafted at an [[Ancient Manipulator]] instead of requiring 30 [[Pumpkin]]s and 200 [[Spooky Wood]] at a Hardmode anvil.
+**Increased rarity from {{rare|7}} to {{rare|9}}.
+*[[Catastrophe Claymore]]'s projectiles now have a localNPCHitCooldown value of 10.
+*Buffed [[Cosmic Kunai]]'s damage from 75 to 150, but nerfed its use animation from 5 to 10.
+*Items previously made purely with [[Cosmilite Bar]]s at [[Draedon's Forge]] now require varying amounts of seasonal energy at an Ancient Manipulator:
+**[[Vanquisher Arrow]]s now require 1 seasonal energy.
+**[[Essence Flayer]] and [[Executioner's Blade]] now require 5 seasonal energy each.
+**[[Cleansing Blaze]] and [[Soul Piercer]] now require 6 seasonal energy.
+**[[The Enforcer]] and [[Stream Gouge]] now require 7 seasonal energy.
+*Buffed [[Crystyl Crusher]]'s damage from 255 to 500 and gave it a 25% chance to land a critical strike.
+*Renamed Daedalus Circlet to [[Daedalus Mask]].
+*Buffed [[Devastation]]'s damage from 114 to 115.
+*Decreased the amounts of [[Auric Ore]], Darksun Fragments, Endothermic Energy, and Nightmare Fuel needed to craft [[Drataliornus]] from 80 to 30 each, decreased the amount of [[Effulgent Feather]]s needed from 160 to 60, and decreased the amount of [[Yharim's Gift]]s needed from 8 to 3.
+*Buffed [[Eldritch Tome]]'s damage from 32 to 36, and its critical strike chance from 3% to 5%, but it no longer inflicts Brimstone Flames.
+*Elysian Aegis and Elysian Wings now use the {{rare|12}} rarity instead of {{rare|expert}}.
+*Buffed [[Empyrean Knives]]' damage from 650 to 1100.
+*[[Ethereal Talisman]]'s [[Mana Flower]] effect can now be toggled with visibility.
+*[[Exoblade]] no longer uses Baleful Harvester in its recipe.
+*[[Eye of Magnus]] now has a localNPCHitCooldown value of 10.
+*Increased [[Face Melter]]'s use animation from 5 to 10, and increased its mana cost from 5 to 10.
+*[[Glacial Crusher]]'s projectile now creates dust immediately upon spawning instead of having a 4 frame delay. 
+*Buffed [[Grand Gelatin]] and [[Vital Jelly]]'s jump speed boosts from 100% to 200%, but they are now 75% less effective if the player has auto jump.
+*Buffed [[Greatsword of Blah]]'s damage from 280 to 480.
+*Nerfed [[Heart of the Elements]]' jump speed boost from 200% to 100% (220% to 110% when the elementals are hidden).
+*Increased [[Hell Burst]]'s range and significantly reduced the amounts of dust on death.
+*Nerfed [[Infernal Blood]], [[Mushroom Plasma Root]], and [[Red Lightning Container]]'s Rage Mode damage boosts in Death Mode from 60% to 50% each.
+*Decreased [[Infinity]]'s use time from 108,000 to 1800, and changed its firing pattern.
+*Increased the underwater fall speed of [[Iron Boots]].
+*Nerfed [[Lead Wizard]]'s damage from 88 to 70, but it now has an additional 30% chance to land a critical strike chance, and its firing pattern was adjusted.
+*Buffed [[Lucrecia]]'s damage from 75 to 90.
+*[[Lunic Eye]] now has a localNPCHitCooldown value of 10.
+*Buffed [[Murasama]]'s shot speed from 15 to 24.
+*Nerfed [[Neptune's Bounty]]'s damage from 300 to 250.
+*Nerfed [[Obsidian armor]]'s rogue damage and critical strike chance boosts from 10% to 5%, its defense from 3 to 2, and its lava invulnerability from 5 seconds to 3.
+*Buffed [[P90]]'s use animation from 2 to 1 and it now fires 2 bullets per use.
+*Increased [[Photoviscerator]]'s use animation from 5 to 10, it now fires 2 streams of fire per use instead of 1, and reduced the size of its flame particles.
+*[[Revengeance]]'s tooltip no longer states that Rage and Adrenaline are new stats. <!---"Which is a new stat"--->
+*Nerfed [[Rouge Slash]]'s damage from 90 to 70.
+*Increased the volume for [[Seething Discharge]] and [[Yharon's Kindle Staff]]'s use sound.
+*Buffed [[Scourge of the Cosmos]]' damage from 1500 to 2200.
+*Decreased [[SDFMG]]'s use animation from 4 to 2.
+*Increased [[Shadethrower]]'s chance to not consume [[Gel]] from 33% to 66%.
+*Buffed [[Shadowbolt Staff]]'s damage from 170 to 200.
+*Decresed [[Soma Prime]]'s use animation from 3 to 2, and it now fires 2 bullets per use.
+*[[Spear of Paleolith]] is now crafted at any Hardmode anvil instead of any Pre-Hardmode one.
+*Stellar Contempt now requires an Ancient Manipulator to craft.
+*Buffed [[Terror Blade]]'s damage from 250 to 350.
+*Buffed [[Ultra Liquidator]]'s damage from 96 to 145.
+*Split [[Vanquisher Arrow]]s now deal full damage instead of 70% of the original arrow's damage.
+*[[Venusian Trident]] changes:
+**Buffed damage from 225 to 450.
+**Cinders now have a localNPCHitCooldown value of 10.
+**Cinders now pierce three times.
+**Explosion now has a localNPCHitCooldown value of 8 instead of 2.
+**Renamed cinders from "Flame" to "Venusian Cinder".
+**Tweaked initial bolt's lighting.
+*Buffed [[Vesuvius]]' damage from 70 to 75.
+
+=== Other ===
+*Nerfed Adrenaline Mode:
+**Nerfed base damage boost in Revengeance Mode from +250% to +150%, and its burnout damage from +149.5% to +49.5%.
+**Nerfed base damage boost in Death Mode from +700% to +500%, and its burnout damage from +298% to +165%.
+*Changed [[Charred Ore]]'s light color and changed its map color from ({{color|#800000 ●|#800000}}) to ({{color|#11101A ●|#11101A}}).
+*The [[Drunk Princess]] can now mention "Christopher Pham", "DemoN K!ng", "Malik Ciaramella", "Ryan Baker-Ortiz", "Aleksanders Denisovs", "TheSilverGhost", "Lucazii", "Shay", "Prism", "BobIsNotMyRealName", "Guwahavel", "Azura", "Joshua Miranda", "Doveda", "William Chang", "Arche", "DevilSunrise", "Yanmei", "Chaos", "Ryan Tucker", "Fish Repairs", "Melvin Brouwers", "Vroomy Has -3,000 IQ", "The Goliath", and "DaPyRo".
+*Nerfed Rage Mode:
+**Nerfed base damage boost in Revengeance Mode from +150% to +50%, and its maximum damage boost from +210% to +110%.
+**Nerfed base damage boost in Death Mode from +300% to +170%, and its maximum damage boost from +510% to +350%.
+*The [[Tax Collector]] can now have the name, "Emmett".
+
+=== Resprites ===
+*Resprited Rage and Adrenaline meters.
+*Resprited [[The Evolution]], [[Fabled Tortoise Shell]], [[Giant Tortoise Shell]], Hide of Astrum Deus, [[Samurai Badge]], and [[Void of Extinction]].
+*Resprited [[Amidias' Trident]], [[Arbalest]], [[Conference Call]], [[Corroslime Staff]], Hell Burst, [[Icicle Staff]], [[Impaler]], [[Lead Wizard]], [[Lunarian Bow]], [[Marnite Rifle Spear]], [[Marnite Spear]], [[Pearl God]], [[Plasma Rifle]], [[The Reaper]], Stellar Contempt, [[Swordsplosion]], [[Thunderstorm]], [[Vesuvius]], [[The Wand]], and [[Warblade]]. 
+*Resprited [[Marnite Obliterator]].
+*Resprited [[Charred Ore]].
+*Resprited The Leviathan's meteor vomit, and Vesuvius' meteors.
+
+== Fixes ==
+*Fixed [[Heart of Darkness]], [[Laudanum]], and [[Stress Pills]] dropping much more often than intended.
+*Fixed the [[Photosynthesis Potion]] bypassing Supreme Calamitas' reduction of healing from hearts.
+*[[Pumpkin armor]] no longer boosts rogue damage more than other classes. 
+*Fixed Rogue damage being boosted by ranged stats instead of throwing.
+*Fixed [[Sand Dollar]] not shooting multiple boomerangs.
+*Fixed [[Soul of Cryogen]] being unobtainable. <!---"SoulfofCryogen"--->
+*Fixed [[The Slime God]]s sometimes dropping two sets of loot.
+*Fixed Vesuvius always dropping from [[Betsy]].
+*Fixed [[Vivid Clarity]] using [[Venusian Trident]] in its recipe instead of [[Helium Flash]].
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

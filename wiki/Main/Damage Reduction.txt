@@ -1,0 +1,343 @@
+'''Damage Reduction (DR)''' is a stat that decreases damage received by the player or other NPCs based on a percentage. This is different from [[defense]], which decreases damage by flat values. Each percentage point of DR is additive, incrementing a total value that the damage then gets decreased by.
+
+== Player Damage Reduction ==
+[[File:DR Graph.png|right|500px|A graph displaying the relationship between the player's DR stat and the percent of damage that gets reduced in actuality.]]
+The Calamity Mod [[Vanilla changes|adjusts]] the effective percentage of this stat for the player with a diminishing scale, with all DR reducing effects (such as [[Cursed Inferno]]) being calculated after it has been scaled. NPC DR is not affected by this diminishing scaling.
+
+The scaling formula is: 1 - <sup>1</sup>⁄<sub>(1 + dr)</sub>
+
+For example, if the player has 25% DR, it will be scaled to 1 - <sup>1</sup>⁄<sub>(1 + 0.25)</sub> = 0.2, or 20% DR.
+
+Certain vanilla items also have their damage reduction boosts adjusted:
+*The [[Worm Scarf]] only provides a 10% damage reduction instead of 17%. This brings it in line with the [[Bloody Worm Scarf]].
+*The [[Frozen Turtle Shell]] only provides a 15% damage reduction when under 50% health instead of 25%.
+
+=== List of Damage Reduction Boosts ===
+The following include a list of items, buffs, and debuffs added in the Calamity Mod that can increase or decrease damage reduction stat.
+{| class="terraria lined" style="width:65%"
+ ! style="padding: 5px" | Source !! style="padding: 5px;" | Damage Reduction (DR) !! style="padding: 5px;" | Condition
+|-
+| {{item|The Community}} || 1.25% to 5% || Depending on bosses killed.
+|-
+| {{item|Profaned Soul Artifact}} || 2.5%<br/>5%<br/>0% || When Defensive Guardian is active.<br/>When Offensive Guardian is also active.<br/>If [[Burnt Out]] is active, regardless of prior conditions.
+|-
+| {{item|Polaris Parrotfish}} || 1% || When [[Polaris Boost]] buff is active.
+|-
+| {{item|Spirit Glyph}} || 3% || When [[Spirit Defense]] buff is active.
+|-
+| {{item|Tequila}} || 3% || When [[Tequila]] debuff is active during the daytime.
+|-
+| {{item|Hallowed Rune}} || 4% || When [[Hallowed Defense]] buff is active.
+|-
+| {{item|Archaic Powder}} || 5% || While Underground or in the Underworld.
+|-
+| {{item|Bloody Worm Tooth}} || 5%<br/>10% || Initially.<br/>When below 50% health.
+|-
+| {{item|Craw Carapace}} || 5% || Always.
+|-
+| {{item|Evergreen Gin}} || 5% || When [[Evergreen Gin]] debuff is active.
+|-
+| {{item|Honey Dew}} || 5% || While in the Jungle.
+|-
+| {{item|Leviathan Ambergris}} || 5% || When outside of liquid.
+|-
+| {{item|Living Dew}} || 5% || While in the Jungle.
+|-
+| {{item|Moonshine}} || 5% || When [[Moonshine]] debuff is active.
+|-
+| {{item|Phantomic Artifact}} || 5% || When [[Phantomic Shield]] buff is active.
+|-
+| {{item|Sea Shell}} || 5% || When submerged in liquid.
+|-
+| {{item|Titan Scale Potion}} || 5%<br/>15% || When [[Titan Scale]] buff is active.<br/>10 seconds after a [[true melee]] strike during the buff.
+|-
+| {{item|Yharim's Stimulants}} || 6% || When [[Yharim's Power]] buff is active.
+|-
+| {{item|Ambrosial Ampoule}} || 7% || Always.
+|-
+| {{item|Affliction}} || 7% || While equipped or when [[Afflicted]] buff is active
+|-
+| {{item|Corrupt Flask}} || 7% || While in the Corruption.
+|-
+| {{item|Crimson Flask}} || 7% || While in the Crimson.
+|-
+| {{item|Tequila Sunrise}} || 7% || When [[Tequila Sunrise]] debuff is active during the daytime.
+|-
+| {{item|Core of the Blood God}} || 8% || Always.
+|-
+| {{item|The Absorber}} || 10%<br/>15% || Initially.<br/>When submerged in liquid.
+|-
+| {{item|Blazing Core}} || 10% || Always.
+|-
+| {{item|Bloody Worm Scarf}} || 10% || Always.
+|-
+| {{item|Grax}} || 10% || When [[Grax Boost]] buff is active.
+|-
+| {{item|The Sponge}} || 15%<br/>20% || Initially.<br/>When submerged in liquid.
+|-
+| {{item|Frigid Bulwark}} || 15%<br/>20% || When below 50% health.<br/>When below 15% health.
+|-
+| {{item|Rampart of Deities}} || 15%<br/>20% || When below 50% health.<br/>When below 15% health.
+|-
+| {{item|Irradiated}} || -10% || Always
+|-
+| {{item|Void of Calamity}} || -10% || Always.
+|-
+| {{item|Corruption Effigy}} || -20% || When [[Corruption Effigy]] buff is active.
+|-
+| {{item|Vulnerability Hex}} || -10% || Always.
+|}
+
+=== Alternative Damage Reduction ===
+Alternative damage reduction is a hidden player statistic separate from normal damage reduction. It directly modifies damage taken, and is affected differently by the scaling formula. The following tables show a list of damage reductions that are '''additive''' of each other, including sources inflicted to the player and external sources such as enemy debuffs.
+
+==== Player Sources ====
+{| class="terraria sortable lined"
+! Source !! Damage Reduction !! Contact !! Projectile !! Notes
+|-
+| {{item|Banners|image = Banner (buff).png}} || {{dv|75%|50%}} || {{no}} || {{yes}} || While the player is in range.
+|-
+| {{item|Abyssal Diving Suit}} || 0-15% || {{yes}} || {{yes}} || When damage taken is above 50 while the Abyssal Diving Suit Plates buff is active.<br/>Reduces by 3% as more hits are taken, up to three times where the plates are broken and DR reduces to 0%.
+|-
+| {{item|Triumph Potion}} || 0-15% || {{yes}} || {{no}} || Varies based on enemy health.
+|-
+| {{item|The Evolution}} || 15% || {{no}} || {{yes}} || When struck by a projectile that has been previously reflected.
+|-
+| {{item|The Transformer}} || 50% || {{yes}} || {{yes}} || Only reduces damage taken from electrical attacks and enemy bullets.<br/>A list of attacks can be seen [[List of Transformer resistances|here]].
+|-
+| {{item|Core of the Blood God}}<br/>{{item|Flesh Totem}} || 50% || {{yes}} || {{no}} || Effect has a 20-second [[Flesh Totem Cooldown|cooldown]].
+|-
+| {{item|Auric Tesla armor}} (Royal Helm)<br/>{{item|Tarragon armor}} (Helm) || 50% || {{yes}} || {{no}} || While the [[Tarragon Cloak]] set bonus buff is active.<br/>Effect has a 30-second [[Tarragon Cloak Cooldown|cooldown]].
+|-
+| {{item|Auric Tesla armor}} (Royal Helm)<br/>{{item|Bloodflare armor}} (Ram Mask) || 50% || {{yes}} || {{no}} || While the [[Blood Frenzy]] set bonus buff is active.<br/>Effect has a 30-second [[Blood Frenzy Cooldown|cooldown]].
+|-
+| {{item|Honey Dew}} || 25% || {{yes}} || {{yes}} || Only reduces damage taken from bees, hornets, and their projectiles.<br/>A list of attacks can be seen [[List of Bee resistances|here]].
+|-
+| {{item|Eskimo armor}} || 10% || {{yes}} || {{no}} || Only reduces damage taken from ice-based attacks.
+|-
+| {{item|Trinket of Chi}} || 15% || {{yes}} || {{yes}} || While the Chi buff is active.
+|-
+| {{item|Fearmonger armor}} || 15% || {{yes}} || {{yes}} || During the [[Pumpkin Moon]] or [[Frost Moon]] while no [[bosses]] are alive.
+|-
+| {{item|Aquatic Heart}} || 20% || {{yes}} || {{yes}} || While the Ice Shield buff is active.
+|-
+| {{item|Phantomic Artifact}} || 20% || {{no}} || {{yes}} || When struck with the Phantomic Bulwark active.
+|-
+| {{item|Permafrost's Concoction}} || 30% || {{yes}} || {{yes}} || While the Encased buff is active.<br/>Effect has a 3-minute cooldown.
+|-
+| {{item|Daedalus armor}} (Helm) || 50% || {{no}} || {{yes}} || When reflecting a projectile.
+|-
+| {{item|Lion Heart}} || 50% || {{yes}} || {{yes}} || When the energy shell is active while the weapon is held.
+|-
+| {{item|The Bee}} || 50% || {{yes}} || {{yes}} || When at full health with a 10-second cooldown.
+|-
+| {{item|Revengeance Mode|image = Revengeance Icon.png}} || 20% || {{yes}} || {{yes}} || Before any boss is defeated.
+|-
+| {{item|Adrenaline Meter|image = Adrenaline bar.gif}} || 50-65% || {{yes}} || {{yes}} || When taking damage while the meter is full.<br/>Each of Adrenaline's permanent power-ups increases value by 5%, to a maximum of 65%.
+|-
+| {{item|Onyx Excavator Key}}<br/>{{item|Tundra Leash}} || 10% || {{yes}} || {{yes}} || When moving over half of the mount's top speed while mounted.
+|-
+| {{item|Vulnerability Hex}} || -30% || {{yes}} || {{yes}} || While the player is inflicted with this debuff.
+|-
+| {{item|Irradiated}} || -10% || {{yes}} || {{yes}} ||  While the player is inflicted with this debuff.
+|-
+| {{item|Corruption Effigy}} || -20% || {{yes}} || {{yes}} ||  While the player is in range.
+|-
+| {{item|Void of Calamity}} || -15% || {{yes}} || {{yes}} || {{na}}
+|}
+
+==== Non-Player Sources ====
+{| class="terraria sortable lined"
+! Source !! Damage Reduction !! Contact !! Projectile !! Notes
+|-
+| {{item|Temporal Sadness}} || 50% || {{yes}} || {{no}} || While enemies are inflicted with this debuff.
+|-
+| {{item|Relic of Resilience}} || 45% || {{yes}} || {{no}} || While enemies contact the shards of the bulwark.
+|-
+| {{item|Web spit|Web Spit|link=}} ([[Black Recluse]])<br/>{{item|Pink Laser|link=}} ([[Astral Probe]], [[Gastropod]], [[Probe]])<br/>{{item|Ice Bolt|Frost Blast|link=}} ([[Ice Clasper]], [[Ice Elemental]])<br/>{{item|Ice Bolt|Rune Blast|link=}} ([[Rune Wizard]])<br/>{{item|Golden Shower (projectile)|Golden Shower|link=}} ([[Ichor Sticker]])<br/>{{item|Nimbus Rain (projectile)|Nimbus Rain|link=}} ([[Angry Nimbus]])<br/>{{item|Hornet Stinger|Stinger|link=}} ([[Hornet]])<br/>{{item|Flaming Arrow|link=}} ([[Skeleton Archer]])<br/>{{item|Bullet (projectile)|Deadeye Bullet|link=}} ([[Pirate Captain]], [[Pirate Deadeye]], [[Tactical Skeleton]])<br/>{{item|Cannonball|link=}} ([[Pirate Captain]]) || 25% || {{no}} || {{yes}} || Only in [[Expert Mode]] and [[Hardmode]] before any Hardmode boss is spawned
+|}
+
+==== Calculation ====
+After the total damage reduction is calculated, several effects may take place that will modify this stat:
+*If the player is inflicted with [[Armor Crunch]], the final value is multiplied by 0.33.
+*If the player is inflicted with [[War Cleave]], the final value is multiplied by 0.75.
+*If the player has normal DR stat, the final value is multiplied by (1 - DR). The DR stat used is calculated ''after'' being accounted for regular DR scaling.
+*After ''all'' calculations, the final value is scaled using the same formula as the normal DR stat: 1 - <sup>1</sup>⁄<sub>(1 + dr)</sub>
+
+For example, if a player receives '''200''' contact damage from an enemy inflicted by Temporal Sadness while under the effects of Blazing Core, Bloody Worm Scarf, Corruption Effigy, Endurance Potion, and War Cleave.
+*First, all sources of contact damage reduction are added, including Temporal Sadness and Corruption Effigy, totaling <code>50% - 20%</code> = 30%.
+*Next, the value is multiplied by War Cleave's multiplier, totaling <code>30% * 0.75</code> = 22.5%.
+*Then, the normal DR from Blazing Core, Bloody Worm Scarf, Corruption Effigy, and Endurance Potion is accounted. The player's unscaled normal DR is <code>10% + 10% + 10% - 20%</code> = 10%, and final normal DR is <code>(1 - 1 / (1 + 0.10)) * 100%</code> = '''9.09%'''.
+*Therefore, the alternative DR reduces to <code>22.5% * (1 - 0.0909)</code> = 20.45%.
+*Finally, the alternative DR goes through scaling and results in a final alternative DR of <code>(1 - 1 / (1 + 0.2045)) * 100%</code> = '''16.98%'''.
+*In the end, the player will take <code>200 * (1 - 0.0909) * (1 - 0.1698)</code> = '''151''' damage.
+
+== Enemy Damage Reduction ==
+Unlike player damage reduction, enemy damage reduction is a stat not available in vanilla, but rather added by the Calamity Mod to various NPCs including vanilla ones. Similar to the player, the enemy DR is calculated after defense.
+
+Certain [[debuffs]] can reduce [[enemy]] damage reduction:
+*[[Kami Flu]] has a damage reduction multiplier of 0.8x.
+*[[Cursed Inferno]] has a damage reduction multiplier of 0.8x.
+*[[War Cleave]] has a damage reduction multiplier of 0.75x.
+*[[Betsy's Curse]] has a damage reduction multiplier of 0.66x.
+*[[Marked]] has a damage reduction multiplier of 0.5x.
+
+Certain enemies such as enraged Supreme Calamitas and the [[Dungeon Guardian]] have a 99.9999% damage reduction, effectively taking 1/1,000,000 of the original damage dealt. These enemies' damage reduction cannot be altered by any debuffs.
+
+=== List of NPCs with Damage Reduction ===
+==== Calamity NPCs ====
+{{collapse top}}
+{| class="terraria sortable lined"
+! Image !! NPC !! DR
+|-
+{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|uses = Template:npc infobox
+|notcategory = Guides
+|include = {npc infobox¦/dpl}
+|includematch=/dr\s*=/s
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+==== Vanilla NPCs ====
+{{ajax|Damage Reduction/Vanilla NPCs|width=27%}}
+
+=== Reactive Damage Reduction ===
+Every boss from both Vanilla Terraria and the Calamity Mod has a value associated with it that represents a rough estimate of how long it should take to kill outside of the [[Boss Rush]], timed from when it spawns. If the player appears to be dealing too much damage within the intended kill time, then the boss gains extra DR. This DR gain is calculated after everything else, meaning it cannot be affected by debuffs.
+
+This mechanic takes into account the time elapsed and the boss's health. The time elapsed is divided by kill time for the '''Time Ratio''' value, while the boss's current health is divided by its total health for the '''Health Ratio''' value. Reactive DR does not apply under the following conditions:
+*If the sum of the two aforementioned values is greater than or equal to 1
+*There is no kill time value assigned
+*The player is in Boss Rush.
+*Any boss of the higher assigned tier is defeated. If the boss is in tier 6, defeating it will permanently disable Reactive DR for that boss.
+**The only exception is [[Providence, the Profaned Goddess]] at night or in [[Malice Mode]].
+
+In addition, there is a '''Scale Factor''' that varies on certain conditions. The default value of the multiplier is 1.5, which increases to 2 in Malice Mode. Certain bosses have a higher multiplier, including:
+*[[XM-05 Thanatos]]: 2
+*[[Aquatic Scourge]], [[Astrum Deus]], [[The Destroyer]], and [[Storm Weaver]]: 3
+*Aquatic Scourge, Astrum Deus, [[Desert Scourge]], The Destroyer, and Storm Weaver in Malice Mode: 4
+*Providence, the Profaned Goddess at night or in Malice Mode: 10
+In Normal Mode and Expert Mode, the scale factor is multiplied by 0.67 and 0.85 respectively.
+
+The damage reduction gained is based on a boss's Base DR, which is prior to any other effects such as debuffs. Using the four values mentioned, the total amount of damage reduction gained is equal to:
+[(1 - Base DR) * Scale Factor] - <sup>[(1 - Base DR) * Scale Factor]</sup>⁄<sub>(2 - Time Ratio - Health Ratio)</sub>
+
+For example, suppose Cryogen reaches 30% health within 36 seconds while it is inflicted with the Cursed Inferno debuff, in Revengeance Mode:
+*Cryogen's base DR is 10% or 0.10.
+*The multiplier is equal to 1.5, as it is not in Malice Mode.
+*Cryogen's kill time value is 180 seconds. As such, the time ratio is equal to <code>36 / 180</code> = 0.20.
+*The health ratio is equal to 30% or 0.30.
+*Therefore, the amount of reactive DR gained is equal to <code>(1 - 0.10) * 1.5 - <sup>(1 - 0.10) * 1.5</sup>⁄<sub>(2 - 0.20 - 0.30)</sub></code> = <code>1.35 - (1.35 / 1.50)</code> = 0.45 or '''45%'''.
+*Cryogen is also affected by Cursed Inferno, which multiplies damage reduction by 0.8x, from 10% to '''8%'''.
+*The two values combine into a total, instantaneous damage reduction of '''53%'''.
+
+==== Timed Aggression ====
+All bosses in Revengeance Mode or higher become more aggressive and enter their later phases regardless of their current HP if the player takes too long to defeat them. The condition for this to activate is for the player to be calculated to take 50% longer than the expected kill time, or higher.
+
+For example, King Slime has an expected kill time of 60, and summons the [[Crown Jewel]] at 50% of its health. This means it is expected that King Slime will summon the Crown Jewel at 30 seconds into the fight. However, if the player takes at least 50% longer (i.e. King Slime is still not below 50% at 45 seconds into the fight), it will enter that phase regardless, and summon the Crown Jewel.
+
+==== Kill Time Table ====
+The following includes the kill time values for each boss. Several bosses have multiple values for different phases.
+{| class="terraria lined" style="text-align:center"
+! Boss !! Tier !! Kill Time (seconds)
+|-
+| [[King Slime]] || 1 || 60
+|-
+| [[Desert Scourge]] || 1 || 60
+|-
+| [[Eye of Cthulhu]] || 1 || 90
+|-
+| [[Crabulon]] || 1 || 90
+|-
+| [[Eater of Worlds]] || 1 || 120
+|-
+| [[Brain of Cthulhu]] ([[Creeper]]s) || 1 || 30
+|-
+| [[Brain of Cthulhu]] || 1 || 90
+|-
+| [[The Hive Mind]] || 1 || 120
+|-
+| [[The Perforator Hive]] || 1 || 120
+|-
+| [[Queen Bee]] || 1 || 120
+|-
+| [[Skeletron]] || 1 || 120
+|-
+| [[The Slime God]] (Slimes) || 1 || 90
+|-
+| [[The Slime God]] (Core) || 1 || 180
+|-
+| [[Wall of Flesh]] || 1 || 120
+|-
+| [[Cryogen]] || 2 || 180
+|-
+| [[The Twins]] || 2 || 180
+|-
+| [[Brimstone Elemental]] || 2 || 180
+|-
+| [[The Destroyer]] || 2 || 180
+|-
+| [[Aquatic Scourge]] || 2 || 120
+|-
+| [[Skeletron Prime]] || 2 || 180
+|-
+| [[Calamitas]] || 2 || 240
+|-
+| [[Plantera]] || 2 || 180
+|-
+| [[Leviathan and Anahita]] || 3 || 180
+|-
+| [[Astrum Aureus]] || 3 || 180
+|-
+| [[Golem]] || 3 || 150
+|-
+| [[The Plaguebringer Goliath]] || 3 || 180
+|-
+| [[Duke Fishron]] || 3 || 150
+|-
+| [[Ravager]] || 3 || 180
+|-
+| [[Lunatic Cultist]] || 3 || 150
+|-
+| [[Astrum Deus]] (Phase 1) || 3 || 60
+|-
+| [[Astrum Deus]] (Phase 2) || 3 || 120
+|-
+| [[Moon Lord]] (Head & Hands) || 3 || 120
+|-
+| [[Moon Lord]] (Core) || 3 || 240
+|-
+| [[Profaned Guardians]] || 4 || 90
+|-
+| [[The Dragonfolly]] || 4 || 120
+|-
+| [[Providence, the Profaned Goddess]] || 4 || 240
+|-
+| [[Ceaseless Void]] (Dark Energies) || 5 || 20
+|-
+| [[Ceaseless Void]] || 5 || 180
+|-
+| [[Storm Weaver]] || 5 || 135
+|-
+| [[Signus, Envoy of the Devourer]] || 5 || 120
+|-
+| [[Polterghast]] || 5 || 180
+|-
+| [[The Devourer of Gods]] (Phase 2) || 5 || 240
+|-
+| [[Jungle Dragon, Yharon]] || 6 || 255
+|-
+| [[The Fabricational Quartet]] || 6 || 360
+|-
+| [[Supreme Calamitas]] || 6 || 300
+|-
+| [[Adult Eidolon Wyrm]] || 6 || 300
+|}
+
+== Trivia ==
+*The kill time-based Damage Reduction system is inspired by a [https://bindingofisaacrebirth.fandom.com/Damage_Scaling similar mechanic] from ''The Binding of Isaac: Rebirth''.
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

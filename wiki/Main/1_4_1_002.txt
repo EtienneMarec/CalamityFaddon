@@ -1,0 +1,78 @@
+{{Patch infobox
+| image = Cosmilite Sconce.png
+| patchname = Rogue Rebalancing Update Hotfixes
+| next = [[1.4.1.003]]
+| release = 1/5/2019
+}}
+
+The '''1.4.1.002''' update made some bosses more fair, along with buffing the [[Revengeance Mode]] [[Golem]]. It also fixed several issues from Update [[1.4.1.001]], changed the recipes for the Ancient and Ashen [[Furniture sets]], and resprites for the [[Cosmilite Brick|Cosmilite]] furniture set.
+
+== Additions ==
+*Added [[Cosmilite Basin]] and [[Cosmilite Sconce]].
+
+== Changes ==
+=== Bosses and Enemies ===
+*Nerfed [[Armored Digger]]'s health from {{dv|40,000|80,000}} to {{dv|30,000|60,000}}.
+*Small [[Astrum Deus]] worms no longer have increased firerate based on how much health the player has left.
+*Nerfed free [[Astrum Deus Probe]]'s health from {{dv|2000|4000}} to {{dv|600|1200}}.
+*Decreased the frequency at which [[Brimstone Elemental]] fires her Hellfireballs.
+*[[Calamitas]] changes:
+**Decreased Calamitas and her brothers' speeds.
+**Decreased the frequency at which phase 2 fires her lasers.
+**Brothers can no longer instantly shoot their respective projectiles as soon as they spawn.
+**Catastrophe longer shoots fireballs more frequently based on how much health the player has left.
+*Decreased [[Revengeance Mode]] [[Duke Fishron]]'s charge speed.
+*Revengeance Mode [[Golem]] now inflicts [[Armor Crunch]] and enrages outside the [[Jungle Temple]].
+*[[Jungle Dragon, Yharon]] now summons his [[Bumblebirb]]s closer to himself.
+*Decreased Revengeance Mode [[Plantera]]'s speed and projectile firerate.
+*[[Siren and Leviathan]] changes:
+**Decreased The Leviathan's speed.
+**Increased the distance from the player at which The Leviathan starts her charge.
+**Increased the distance from the player at which The Siren starts her charge.
+**Decreased the speed of The Siren's Frost Mists.
+*Decreased Revengeance Mode [[Skeletron Prime]]'s speed.
+*Decreased Revengeance Mode [[Spazmatism]]'s speed.
+
+=== Items ===
+*[[Ancient Altar]]s, [[Ancient Basin]]s, [[Ancient Bathtub]]s, [[Ancient Bed]]s, [[Ancient Bookcase]]s, [[Ancient Chair]]s,  [[Ancient Chandelier]]s, [[Ancient Door]]s, [[Ancient Dresser]]s, [[Ancient Lamp]]s, [[Ancient Lantern]]s, [[Ancient Monolith]]s, [[Ancient Pipe Organ]]s, [[Ancient Sink]]s, [[Ancient Sofa]]s, [[Ancient Table]]s, and [[Ancient Work Bench]]es now use {{rare|3}} rarity instead of {{rare|0}}, and can no longer be crafted with their Ashen counterparts and [[Essence of Chaos|Essences of Chaos]] at an [[Ashen Altar]]. <!---Ancient Candelabra, Candle, and Chest never had these recipes--->
+*Ancient Altar now uses 10 [[Brimstone Slag]] and 10 [[Charred Ore]] in its recipe instead of 25 of each.
+*Ancient Basin now uses 10 Brimstone Slag and 5 Charred Ore in its recipe instead of 25 of each.
+*Ancient Monolith now uses 9 Charred Ore in its recipe instead of 3 Charred Ore and 6 [[Unholy Core]]s.
+*Renamed Ancient Piano to Ancient Pipe Organ.
+*All Ashen furniture pieces now use {{rare|3}} rarity instead of {{rare|0}}.
+*Ashen Altars, [[Ashen Basin]]s, [[Ashen Bathtub]]s, [[Ashen Bed]]s, [[Ashen Bookcase]]s, [[Ashen Chair]]s,  [[Ashen Chandelier]]s, [[Ashen Door]]s, [[Ashen Dresser]]s, [[Ashen Lamp]]s, [[Ashen Lantern]]s, [[Ashen Monolith]]s, [[Ashen Pipe Organ]]s, [[Ashen Sink]]s, [[Ashen Sofa]]s, [[Ashen Table]]s, and [[Ashen Work Bench]]es can no longer be crafted with their Ancient counterparts and Unholy Cores at an Ancient Altar. <!---Ashen Candelabra, Candle, and Chest never had these recipes--->
+*Ashen Altar now uses 10 [[Smooth Brimstone Slag]] and 10 Unholy Cores in its recipe instead of 25 [[Cinderplate]] and 25 Brimstone Slag.
+*Ashen Basin now uses 10 Smooth Brimstone Slag and 5 Unholy Cores in its recipe instead of 25 Cinderplate and 25 Smooth Brimstone Slag.
+*[[Ashen Chest]]s can no longer be crafted with 1 [[Ashen Key]] and 1 [[Locked Ashen Chest]].
+*Ashen Monolith now uses 9 Unholy Cores in its recipe instead of 3 Cinderplate and 6 Unholy Cores.
+*Renamed Ashen Piano to Ashen Pipe Organ.
+*Nerfed [[Aureate Booster]]'s flight time from 120 to 100.
+*[[Divine Retribution]] now has a tooltip.
+*Buffed [[Murasama]]'s damage from 666 to 999, and gave it a 30% critical strike chance.
+*Nerfed the damages of the offensive and defensive guardians from the [[Profaned Soul Artifact]] from 400% of the player's summon damage to 150%.
+
+=== Other ===
+*Armor Crunch can now be inflicted on players.
+*The [[Boss Health Bar]] no longer appears for any NPCs with under 400 health.
+*Death Mode natural boss spawns are now indicated by a status message in chat shortly before they spawn.
+*Reduced Death Mode natural boss spawnrates.
+*The [[Drunk Princess]] can now mention "DevAesthetic" in her donor quote.
+
+=== Resprites ===
+*Resprited [[Cosmilite Brick]].
+*Resprited [[Cosmilite Brick Wall]].
+*Resprited [[Cosmilite Platform]].
+*Resprited [[Cosmilite Bathtub]], [[Cosmilite Bed]], [[Cosmilite Bookcase]], [[Cosmilite Candelabra]], [[Cosmilite Candle]], [[Cosmilite Chair]], [[Cosmilite Chandelier]], [[Cosmilite Chest]], [[Cosmilite Clock]], [[Cosmilite Door]], [[Cosmilite Dresser]], [[Cosmilite Lamp]], [[Cosmilite Lantern]], [[Cosmilite Piano]], [[Cosmilite Sink]], [[Cosmilite Sofa]], [[Cosmilite Table]], and [[Cosmilite Work Bench]].
+
+== Fixes ==
+*Fixed a bug that prevented Armored Diggers from despawning.
+*Fixed an issue that prevented damage from Sentries and Vanilla [[Minions]] from increasing the player's summoner [[Proficiency|proficiency]].
+*Fixed an issue that prevented [[Boss Rush]] from progressing in multiplayer.
+*Fixed an issue with the hitbox of [[Bear's Eye]]'s Bear pet.
+*Fixed Juvenile [[Eidolon Wyrm]]s having inconsistent health values across its segments.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

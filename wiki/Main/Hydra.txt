@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| damage = 120
+| critical = 0%
+| use = 33
+| knockback = 10
+| velocity = 12
+| hardmode = yes
+| tooltip = Uses Explosive Shotgun Shells<br/>Can be used once per boss battle
+| rare = 8
+| stack = 1
+| sell = {{value|0|16}}
+| auto = yes
+| element1 = Fire
+| element2 = Stab
+}}
+The '''Hydra''' is a craftable [[Hardmode]] [[classless weapon]]. When used, it fires fifteen extremely fast bullets that create small explosions when hitting an enemy or a tile. 0.25% of the target's health is added to the damage of each bullet, and another 0.25% from the explosion. If all fifteen of the bullets hit, they can deal up to 7.5% of a target's max health prior to defense and damage reduction calculations.
+
+It exclusively uses [[Explosive Shotgun Shell]]s as [[ammo]], which can be bought from the [[Arms Dealer]] if the player has the Hydra in their inventory.
+
+Once a boss is spawned, the Hydra is only fireable once until the boss is defeated or until it despawns after the player is killed.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Despite resembling a [[gun]], the weapon has no damage type, making it equally effective for all classes.
+*This weapon does not have any critical strike chance and cannot gain any from [[coverings]], [[Modifier]]s, [[Buff]]s and [[Covering]] bonuses.
+
+== Trivia ==
+*The weapon is a reference to the [https://residentevil.fandom.com/wiki/Hydra_(SG) gun of the same name] from the game ''[[wikipedia:Resident Evil 5|Resident Evil 5]]''.
+
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

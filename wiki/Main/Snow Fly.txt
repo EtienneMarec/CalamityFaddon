@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Bait
+| type2 = Crafting material
+| bait = 90
+| rare = 15
+| use = 14
+| auto = yes
+| consumable = yes
+| sell = {{value|0|1|80}}
+| stack = 9999
+| hardmode = yes
+}}
+|{{npc infobox | boxwidth=21em
+| type = Critter
+| image = Snow Fly (critter).png
+| environment = Frozen Hell
+| ai = Firefly AI
+| damage = 0
+| life = 15
+| defense = 1
+| knockback = 0
+| immune1 = Confused
+| immune2 = Kami Flu
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+}}
+
+The '''Snow Fly''' is a Godseeker Mode [[critter]] found in [[Frozen Hell]], and spawn in abundance during Blizzards. They act similarly to [[Firefly|Fireflies]], and can only be caught with a [[Lavaproof Bug Net]] or [[Golden Bug Net]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+
+== Notes ==
+*Snow Flies can be summoned using a [[Firefly Statue]] after [[The Wall of Bronze]] is defeated.
+
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

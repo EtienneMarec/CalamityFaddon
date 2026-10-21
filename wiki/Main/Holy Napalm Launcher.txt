@@ -1,0 +1,48 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 4000
+| use =  72
+| knockback = 15
+| velocity = 6
+| tooltip = Shoots a napalm rocket that leaves holy flames behind.
+| stack = 1
+| auto = yes
+| rare = C2
+| sell = {{value|50}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Nightclear
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 5 seconds
+| debuffchance2 = 100%
+| debuff3 = Evercold
+| debuffduration3 = 5 seconds
+| debuffchance3 = 100%
+| element1 = Holy
+| element2 = Water
+| element3 = Bomb
+| proj = Napalm.png
+| projcaption = Napalm
+}}
+
+The '''Holy Napalm Launcher''' is a Post-[[Purgatory Arbiter, Umbrus|Umbrus]] [[Launchers|launcher]]. It slowly fires napalm rockets that fly for 5 seconds and leave holy flames behind, the flames deal 25% of the weapon's damage. After the rocket flies for 5 seconds, It explodes in a giant 20x20 tile circle, dealing 3 times more damage.
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Stiriatic}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Launchers]]

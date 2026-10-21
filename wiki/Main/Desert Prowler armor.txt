@@ -1,0 +1,74 @@
+{{item infobox
+| type = Armor
+| defense = 6
+| rare = 1
+| sell = {{value|0|6|0}} (set)
+| setbonus = Ranged attacks deal an additional 1 flat damage<br/>Double tap down to activate Sandsmoke Bomb.
+| proj = Desert Tornado.png
+| projcaption = Sandstorm
+| projsize = 50px
+| resistance1 = Fire
+| resistance2 = Holy
+| resistance3 = Poison
+| vulnerable1 = Water
+| vulnerable2 = Cold
+| vulnerable3 = Stab
+}}
+
+'''Desert Prowler armor''' is a craftable [[Pre-Hardmode]] ranged [[Covering]] set. It requires 6 [[Desert Feather]]s and 23 [[Silk]]  to craft the entire set.
+
+It consists of a '''Desert Prowler Hat''', '''Desert Prowler Shirt''', and '''Desert Prowler Pants'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*6 defense
+*Ranged attacks deal an additional 1 flat damage
+*9% increased ranged critical strike chance
+*20% chance to not consume [[ammunition]]
+*10% increased movement speed
+*Grants immunity to the [[Mighty Wind]] [[debuff]]
+*Double tap down to activate Sandsmoke Bomb: While the sand cloud is active, gain increased mobility but heavily reduced defense; Using a ranged weapon instantly dispels the sand cloak, but guarantees a supercrit for 200% damage; The super crit applies only as long as the resulting hit wouldn't exceed 100 damage, Landing the killing blow on an enemy with this shot shortens the ability's cooldown to 1.5 seconds
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Desert Prowler Hat
+| type = Armor
+| defense = 11
+| body slot = Helmet
+| tooltip = 4% increased ranged critical strike chance and 20% chance to not consume ammo
+| sell = {{value|0|0|20}}
+}}
+|{{item infobox
+| name = Desert Prowler Shirt
+| type = Armor
+| defense = 22
+| body slot = Shirt
+| tooltip = 5% increased ranged critical strike chance
+| sell = {{value|0|0|20}}
+}}
+|{{item infobox
+| name = Desert Prowler Pants
+| type = Armor
+| defense = 15
+| body slot = Pants
+| tooltip = 10% increased movement speed and immunity to the Mighty Wind debuff
+| sell = {{value|0|0|20}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Desert Prowler%}}
+
+== Tips ==
+*The additive damage boost from the set bonus of this armor makes it more effective with fast-firing but low damage weapons such as the [[Minishark]], as it will increase the damage by a greater percentage.
+
+{{-}}
+
+== Trivia ==
+
+* The appearance of the armor itself, and the buffs it provides are a reference to Bloodborne's Hunter set.
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

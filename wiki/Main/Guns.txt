@@ -1,0 +1,23 @@
+'''Guns''' are [[ranged weapons]] which consume [[bullet]]s as ammo. The majority of these are capable of [[autoswing|autofiring]]. There are 65 of them: 9 in [[Pre-Hardmode]], 25 in [[Hardmode]] and 30 Godseeker Mode.
+
+== Types ==
+{| class="terraria sortable lined" id="dpl-table"
+! colspan = 2 | Name !! Damage !! Use Time !! Knockback !! Velocity !! Critical !! Autoswing !! [[Rarity]] !! <abbr title="Hardmode">HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Guns
+| namespace = <!-- need to have it blanked to restrict it to main namespace. prevents category pages from being included-->
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦:Melee weapons/dpl}
+| mode = userformat
+}}
+|}
+{{Master Template Weapons
+| show-main  = yes
+| show-ranged = yes
+}}
+
+[[Category:Weapon items| ]]
+[[Category:Ranged weapons| ]]
+[[Category:Guns|*]]

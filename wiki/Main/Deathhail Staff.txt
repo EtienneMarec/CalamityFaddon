@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 328
+| use = 22
+| knockback = 4
+| stack = 1
+| mana = 16
+| velocity = 18
+| rare = 14
+| sell = {{value|0|28}}
+| tooltip = Rain death upon your foes!<br/>Casts a storm of nebula lasers from the sky
+| hardmode = yes
+| postml = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Slowly losing life
+| debuff2 = Frostburn
+| debuffchance2 = 100%
+| debuffduration2 = 1.5 seconds
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| element1 = Magic
+| element2 = Fire
+| auto = yes
+}}
+|{{item drops infobox
+| [[The Devourer of Gods]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Deathhail Staff''' is a Godseeker Mode [[wand]] that is dropped by [[The Devourer of Gods]]. It rains down a barrage of nebula lasers on the cursor's location upon use. The lasers will inflict the [[Frostburn]] [[debuff]] for 10 seconds and will reduce the number of [[Immunity frames]] given to an enemy by 80%. The lasers can pierce up to eight targets and will phase through blocks.
+
+{{Modifier|magic}}
+
+== Notes ==
+*The projectiles do not disappear after reaching their pierce limit; they will continue to fly downwards and phase through enemies and tiles, but will no longer damage any NPCs in their path.
+*Like [[Lunar Flare]], this weapon can be manipulated with the cursor's position to inflict damage over a wide area or focus it on a single target.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

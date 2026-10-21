@@ -1,0 +1,82 @@
+{{revengeance mode only}}
+{{addon|Catalyst}}
+{| align=right
+|{{item infobox
+| name = The Stamina Bar
+| image = Stamina bar.png
+}}
+|-
+|{{buff infobox
+| type = Debuff
+| name = Panic Attack
+| cause = [[Stamina Meter]]
+| duration = 9 seconds
+| tooltip = The feather falls...
+}}
+|-
+|
+|}
+
+The '''Stamina Meter''' is a mechanic in [[Revengeance Mode]], along with the [[Adrenaline Meter]] and [[Rage Meter]], that is unlocked by using the [[Metabolic Converter]]. Once the meter has depleted completely, the '''Panic Attack''' [[debuff]] is automatically activated, giving several negative effects. The Stamina Meter has a minimum value of 0, a maximum base value of 100, and a maximum value with upgrades of 1852. The player starts at maximum stamina upon spawning, with the meter decreasing based on a variety of factors.
+
+== Losing Stamina ==
+The Stamina Meter starts off at its full value, then decreases based on a variety of factors:
+*Staying in close proximity to enemies reduces Stamina by 1 point per second.
+**This is increased to 2 points per second if in the [[Brimstone Crag]].
+*Fighting a boss reduces Stamina by an additional 1 point per second.
+*Standing still in any [[Arsenal Lab]] decreases Stamina by 1 point per 10 seconds.
+*Mining [[Astral Ore]] decreases Stamina by 1 point per 20 ore mined.
+*Hitting the dust cap of 1000 decreases Stamina by 1 point per half a second.
+*Throwing [[Snowball]]s reduces Stamina by 1 point per 40 Snowballs thrown.
+*Summoning more than one [[Dormant Brimseeker]] decreases Stamina by 1 point per minute for each Brimseeker minion.
+**This is doubled per enraged Brimseeker.
+*Using any of the following weapons decreases Stamina by 1 point per second:
+**[[Sparkling Empress]]
+**[[Last Prism]]
+**[[Cruel Jewel]]
+**[[Yharim's Crystal]]
+*Having a Large Gem active decreases Stamina by 1 point every 70 seconds.
+*Being in the [[Underworld]], [[Ice biome]], or [[Space]] decreases Stamina by 1 point every 80 seconds.
+*Flying for more than 1 second decreases Stamina by 90 points per life.
+*the [[Stylist]] and [[Zoologist]] fully depletes it.
+
+*All of these (except the last one) can be reduced by using the {{item|Cookie Bunny}}, crafted using various materials, which lowers said loss by 50%.
+
+== Gaining Stamina ==
+Stamina can be gained by talking to friendly [[Town NPCs]], with [[The General]] {{fantag|Calamity: Community Remix}} fully replenishing Stamina and every other NPC (except for the Stylist and Zoologist) decreasing it by 5 points per second while the chat window is open. Stamina can also be replenished by logging out and in or dying.
+
+== Panic Attack ==
+When the '''Panic Attack''' debuff is activated, the following effects occur:
+**the player's screen starts to heavily distort, gaining a dark purple shader with purely visual cracks appearing. 
+**The player's horizontal friction is greatly decreased, making it harder to stop moving.
+**All dashes become disabled. 
+**If the player hits zero stamina three times per life, [[Dark Statis]] is summoned and follows the player while dashing at them every 10 seconds.
+ 
+The player can increase the Stamina Meter's maximum capacity by using these [[Permanent Power-ups|permanent power-up]] items either dropped by defeated bosses or crafted:
+*{{item|Dust Bunny}}, dropped by [[Deerclops]], which increases Stamina by 100.
+*{{item|Magma Booster}}, dropped by [[Calamitas]], which increases Stamina by 150.
+*{{item|Ever Ink}}, dropped by [[Signus, Envoy of the Devourer]], which increases Stamina by 250.
+*{{item|Stamina of the Vengeful}}, crafted using the items above, which increases Stamina by 500.
+*{{item|Sunwitch}}, crafted using the item above and the other combined ripper power-ups, which increases Stamina by 502.
+*{{item|YashBrowns}}, crafted using various materials, which increases Stamina by 250.
+
+== Notes ==
+*Players can move the Stamina Meter around by clicking and dragging it. This can be disabled in Configuration options.
+
+== Trivia ==
+*The Stamina Meter is a reference to the game, ''[[wikipedia:Celeste|Celeste]]''.
+**The purple shader and screen tearing during the Panic Attack debuff is a reference to the cutscene where the game's protagonist, Madeline has a panic attack.
+***Additionally, the Panic Attack debuff's description is a reference to how in said cutscene, Madeline tries to imagine a feather to calm down, only for her to loose grip and for it to fall.
+**Dashes being disabled is a reference to Celeste's core mechanic, dashing.
+**Arsenal Labs decreasing Stamina is a reference to the construction blocks found in chapter 1.
+**Astral Ore decreasing Stamina is a reference to the star blocks found in chapter 2.
+**The dust cap decreasing Stamina, along with the Dust Bunny item are references to the Dust Bunnies found within chapter 3.
+**Snowballs decreasing stamina is a reference to the snowballs found in chapter 4.
+**The Brimstone Crag's decreasal of Stamina along with the Dormant Brimseeker are references to chapter 5.
+**Deathray weapons decreasing stamina is a reference to the Badeline boss fight within chapter 6, which consists of Badeline firing deathrays at Madeline.
+**The Large Gem's stamina decreasal is a reference to the gems found within chapter 7.
+**The biome stamina reductions are a reference to chapter 8's magma and ice gimmicks.
+**The flight time stamina reduction burst is a reference to chapter 9's bird.
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

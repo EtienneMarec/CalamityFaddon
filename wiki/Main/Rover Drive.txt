@@ -1,0 +1,32 @@
+{{infobox wrapper
+|{{item infobox
+| stack = 1
+| type = Covering
+| type2 = Crafting material
+| tooltip = Activates a protective shield that grants 15 defense for 10 seconds<br/>The shield then dissipates and recharges for 20 seconds before being reactivated
+| rare = 1
+| sell = {{value|0|0|20}}
+}}
+|{{item drops infobox
+| [[Wulfrum Rover]] | 1 | 10%
+}}
+}}
+{{float file box| [[File:Wulfrum Rover Shield.png]] | Energy Shield.}}
+
+The '''Rover Drive''' is a [[Pre-Hardmode]] [[covering]] dropped by [[Wulfrum Rover]]s. While equipped, it periodically generates a spherical energy shield around the player, which grants 15 defense while it is active. The shield lasts for 10 seconds before disappearing, and then after 20 seconds it will automatically reappear.
+
+It is later used as an ingredient for [[The Absorber]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The name of the covering is a reference to mod developer and wiki editor [[User:RoverdriveX|RoverdriveX]].
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

@@ -1,0 +1,44 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 65
+| damagetype = Spy
+| rare = 5
+| stack = 1
+| sell = {{value|0|7|20}}
+| knockback = 6
+| use = 26
+| auto = yes
+| hardmode = yes
+| tooltip = Throws an ancient spear that shatters enemy armor<br/>Spears rain fossil shards as they travel<br/>Stealth strikes travel slower but further, raining more fossil shards
+| debuff = Armor Crunch
+| debufftip = Your armor is shredded
+| debuffchance= 100%
+| debuffduration = 2 seconds (Spear)<br/>1 second (Fossil shards)
+| velocity = 35
+| proj = Fossil Shard.png
+| projcaption = Fossil Shard
+| element1 = Dark
+| element2 = Fire
+| element3 = Stab
+}}
+
+The '''Spear of Paleolith''' is a craftable [[Hardmode]] non-consumable [[javelin]]. It automatically throws high-velocity spears which travel extremely far before being affected by gravity. These spears do not pierce through enemies, but they rain down fossil shards while traveling similar to the [[North Pole]]. The fossil shards deal half the damage of the spear. Any enemy hit by the spear or the fossil shards will be inflicted with [[Armor Crunch]].
+
+Performing a [[stealth strike]] with the Spear of Paleolith will cause the next spear thrown to travel slower but farther and release more fossil shards.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Forbidden}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Javelins]]

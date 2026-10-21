@@ -1,0 +1,434 @@
+
+------- l10n info --------------
+local l10n_info = {
+	['en'] = {
+		['id_text_item'] = 'Internal [[Item IDs|Item ID]]: ',
+		['id_text_tile'] = 'Internal [[Tile IDs|Tile ID]]: ',
+		['id_text_wall'] = 'Internal [[Wall IDs|Wall ID]]: ',
+		['id_text_npc'] = 'Internal [[NPC IDs|NPC ID]]: ',
+		['id_text_mount'] = 'Internal [[Mount IDs|Mount ID]]: ',
+		['id_text_buff'] = 'Internal [[Buff IDs|Buff ID]]: ',
+		['id_text_projectile'] = 'Internal [[Projectile IDs|Projectile ID]]: ',
+		['id_text_armor'] = 'Internal [[Armor IDs|Armor ID]]: ',
+	},
+	['de'] = {
+		['id_text_item'] = 'Interne [[Gegenstands-IDs|Gegenstands-ID]]: ',
+		['id_text_tile'] = 'Interne [[Feld-IDs|Feld-ID]]: ',
+		['id_text_wall'] = 'Interne [[Wand-IDs|Wand-ID]]: ',
+		['id_text_npc'] = 'Interne [[NPC-IDs|NPC-ID]]: ',
+		['id_text_mount'] = 'Interne [[Reittier-IDs|Reittier-ID]]: ',
+		['id_text_buff'] = 'Interne [[Statuseffekt-IDs|Statuseffekt-ID]]: ',
+		['id_text_projectile'] = 'Interne [[Projektil-IDs|Projektil-ID]]: ',
+		['id_text_armor'] = 'Interne [[Projektil-IDs|Projektil-ID]]: ',
+	},
+	['fr'] = {
+		['id_text_item'] = '[[Item IDs|ID interne de l\'objet]]&#32;: ',
+		['id_text_tile'] = '[[Tile IDs|ID interne de la tuile]]&#32;: ',
+		['id_text_wall'] = '[[Wall IDs|ID interne du mur]]&#32;: ',
+		['id_text_npc'] = '[[NPC IDs|ID interne du PNJ]]&#32;: ',
+		['id_text_mount'] = '[[Mount IDs|ID interne de la monture]]&#32;: ',
+		['id_text_buff'] = '[[Buff IDs|ID interne du buff]]&#32;: ',
+		['id_text_projectile'] = '[[Projectile IDs|ID interne du projectile]]&#32;: ',
+		['id_text_armor'] = '[[Armor IDs|ID interne de l\'armure]]&#32;: ',
+	},
+	['hu'] = {
+		['id_text_item'] = '[[Tárgyi adatértékek|Tárgyi]] adatértéke: ',
+		['id_text_tile'] = '[[Kockabeli adatértékek|Kockabeli]] adatértéke: ',
+		['id_text_wall'] = '[[Fali adatértékek|Fali]] adatértéke: ',
+		['id_text_npc'] = '[[Ellenféli adatértékek|Ellenféli]] adatértéke: ',
+		['id_text_mount'] = '[[Hátasbeli adatértékek|Hátasbeli]] adatértéke: ',
+		['id_text_buff'] = '[[Hatásbeli adatértékek|Hatásbeli]] adatértéke: ',
+		['id_text_projectile'] = '[[Lövedéki adatértékek|Lövedéki]] adatértéke: ',
+		['id_text_armor'] = '[[Páncélbeli adatértékek|Páncélbeli]] adatértéke: ',
+	},
+	['it'] = {
+		['id_text_item'] = '[[Item IDs/it|ID Oggetto Interno]]: ',
+		['id_text_tile'] = '[[Tile IDs/it|ID Tile Interno]]: ',
+		['id_text_wall'] = '[[Wall IDs/it|ID Muro Interno]]: ',
+		['id_text_npc'] = '[[NPC IDs/it|ID PNG Interno]]: ',
+		['id_text_mount'] = '[[Mount IDs/it|ID Montatura Interna]]: ',
+		['id_text_buff'] = '[[Buff IDs/it|ID Buff Interno]]: ',
+		['id_text_projectile'] = '[[Projectile IDs/it|ID Proiettile Interno]]: ',
+		['id_text_armor'] = '[[Armor IDs/it|ID Armatura Interna]]: ',
+	},
+	['ru'] = {
+		['id_text_item'] = 'Внутренний [[Идентификаторы предметов|ID предмета]]: ',
+		['id_text_tile'] = 'Внутренний [[Идентификаторы тайлов|ID тайла]]: ',
+		['id_text_wall'] = 'Внутренний [[Идентификаторы стен|ID стены]]: ',
+		['id_text_npc'] = 'Внутренний [[Идентификаторы существ|ID существа]]: ',
+		['id_text_mount'] = 'Внутренний [[Идентификаторы средств передвижения|ID сред. передвиж.]]: ',
+		['id_text_buff'] = 'Внутренний [[Идентификаторы бафов|ID бафа]]: ',
+		['id_text_projectile'] = 'Внутренний [[Идентификаторы снарядов|ID снаряда]]: ',
+		['id_text_armor'] = 'Внутренний [[Идентификаторы брони|ID брони]]: ',
+	},
+	['zh'] = {
+		['id_text_item'] = '内部[[物品 ID]]：',
+		['id_text_tile'] = '内部[[图格 ID]]：',
+		['id_text_wall'] = '内部[[墙 ID]]：',
+		['id_text_npc'] = '内部 [[NPC ID]]：',
+		['id_text_mount'] = '内部[[坐骑 ID]]：',
+		['id_text_buff'] = '内部[[增益 ID]]：',
+		['id_text_projectile'] = '内部[[射弹 ID]]：',
+		['id_text_armor'] = '内部[[盔甲 ID]]：',
+	},
+}
+
+------- The following is not related to l10n. --------------
+
+local trim = mw.text.trim
+local cargo = mw.ext.cargo
+
+local currentFrame
+local args_table
+local lang
+local l10n_table
+
+local l10n = function(key)
+	return l10n_table[key] or l10n_info['en'][key]
+end
+
+local getArg = function(key)
+	local value = args_table[key]
+	if not value then
+		return nil
+	end
+	value = trim(value)
+	if value == '' then
+		return nil
+	end
+	return value
+end
+
+local function parse(str)
+	local args = {}
+	for s in string.gmatch(str, '%b@^') do 
+		local k,v = string.match(s, '^@(.-):(.*)^$')
+		args[k] = v
+	end
+	args[1] = args['name']
+	args[2] = args['text']
+	return args
+end
+
+-- credit: http://richard.warburton.it
+-- this version is with trim.
+local function explode(div,str) 
+	if (div=='') then return false end
+	local pos,arr = 0,{}
+	-- for each divider found
+	for st,sp in function() return string.find(str,div,pos,true) end do
+		arr[#arr + 1] = trim(string.sub(str,pos,st-1)) -- Attach chars left of current divider
+		pos = sp + 1 -- Jump past current divider
+	end
+	arr[#arr + 1] = trim(string.sub(str,pos)) -- Attach chars right of last divider
+	return arr
+end
+
+local function parseSize(size)
+	if not size then return end
+	local basescale, width, height
+	size, basescale = unpack(explode('*', size))
+	if size ~= '' then
+		width, height = unpack(explode('x', string.gsub(size, 'px', '')))
+		width, height = tonumber(width), tonumber(height)
+		if width == 0 then width = nil end
+		if height == 0 then height = nil end
+	end
+	return basescale, width, height
+end
+
+local function getInfoFromCargo(image)
+	-- try to get from cargo cache
+	local result = mw.ext.cargo.query('Imageinfo', 'width, height, cached', {
+		where = 'image='.. "'"..image:gsub("'", "\\'"):gsub("&#39;", "\\'").."'",
+		orderBy = "cached DESC",
+		limit = 1,
+	})
+	for _, row in ipairs(result) do
+		return tonumber(row['width']), tonumber(row['height']), row['cached']
+	end
+end
+
+local function storeInfoToCargo(image)
+	local width, height
+	width = tonumber(currentFrame:callParserFunction( '#imgw', image))
+	if width and width ~= 0 then -- save one expensive call when the file is not a valid image.
+		height = tonumber(currentFrame:callParserFunction( '#imgh', image))
+		if height and height ~= 0 then
+			currentFrame:callParserFunction('#cargo_store:_table=Imageinfo',{
+				image = image,
+				width = width,
+				height = height,
+				cached = os.time(),
+			})
+		end
+	end
+	return width, height
+end
+
+local function getSizeInfo(image)
+	local width, height, cached = getInfoFromCargo(image)
+	-- cache missed, init cache
+	if not cached then
+		width, height = storeInfoToCargo(image)
+	end
+	if width == 0 then width = nil end
+	if height == 0 then height = nil end
+	return width, height
+end
+
+local function getImageSize(image, width, height, scale, maxwidth, maxheight)
+	-- get size info from image file itself (may be expensive)
+	local w, h = getSizeInfo(image) -- store data to cache
+
+	if not width and not height and (scale or maxwidth or maxheight) then
+		width, height = w, h
+	end
+
+	-- apply scale to width/height if needed
+	if scale then
+		if width then width = width * scale end
+		if height then height = height * scale end
+	end
+
+	-- apply maxwidth/maxheight.
+	if maxwidth then
+		if width then
+			if width > maxwidth then width = maxwidth end
+		else
+			if height then width = maxwidth end
+		end
+	end
+	if maxheight then
+		if height then
+			if height > maxheight then height = maxheight end
+		else
+			if width then height = maxheight end
+		end
+	end
+
+	-- rounding
+	if width then width = math.ceil(width) end
+	if height then height = math.ceil(height) end
+
+	return width, height
+end
+
+local function parseMaxSize(maxsize)
+	if not maxsize then return end
+	local maxwidth, maxheight = unpack(explode('x', string.gsub(maxsize, 'px', '')))
+	maxwidth, maxheight = tonumber(maxwidth), tonumber(maxheight)
+	if maxwidth == 0 then maxwidth = nil end
+	if maxheight == 0 then maxheight = nil end
+	return maxwidth, maxheight
+end
+
+local function imagecode(image, link, text, size, scale, maxsize)
+	local image_output = '[[File:' .. image .. '|link='.. link .. '|' .. text
+	if size or scale or maxsize then
+		local basescale, width, height = parseSize(size) -- width,height: number or nil
+		scale = (tonumber(scale) or 1) * (tonumber(basescale) or 1)
+		if scale == 0 or scale == 1 then
+			scale = nil
+		end
+		local maxwidth, maxheight = parseMaxSize(maxsize)
+		width, height = getImageSize(image, width, height, scale, maxwidth, maxheight) -- can be 0
+		if width or height then
+			return image_output .. '|' .. (width or '') .. 'x' .. (height or '') .. 'px]]'
+		else
+			return image_output .. ']]'
+		end
+	else
+		return image_output .. ']]'
+	end
+end
+
+
+local function images(image, link, text, size, scale, maxsize)
+	
+	if not image:find('/') then
+		return imagecode(image, link, text, size, scale, maxsize)
+	end
+
+	image = explode('/', image)
+	local result = ''
+	if size and size:find('/') then
+		size = explode('/', size)
+		for i, v in ipairs(image) do
+			result = result .. imagecode(v, link, text, size[i], scale, maxsize)
+		end
+	else
+		for i, v in ipairs(image) do
+			result = result .. imagecode(v, link, text, size, scale, maxsize)
+		end
+	end
+	return result
+end
+
+local getIdText = function(_type)
+	local id_text
+	if _type == 'item' then -- a shortcut for faster
+		id_text = l10n('id_text_item')
+	elseif _type == 'tile' then
+		id_text = l10n('id_text_tile')
+	elseif _type == 'wall' then
+		id_text = l10n('id_text_wall')
+	elseif _type == 'npc' then
+		id_text = l10n('id_text_npc')
+	elseif _type == 'mount' then
+		id_text = l10n('id_text_mount')
+	elseif _type == 'buff' or _type == 'debuff' then
+		id_text = l10n('id_text_buff')
+	elseif _type == 'projectile' then
+		id_text = l10n('id_text_projectile')
+	elseif _type == 'armor' then
+		id_text = l10n('id_text_armor')
+	else
+		id_text = l10n('id_text_item')
+	end
+	return id_text
+end
+
+-----------------------------------------------------------------
+-- main return object
+return {
+parse = parse,		
+go = function(frame, args)
+	-- init cache
+	currentFrame = frame
+	args_table = args or parse(frame.args[1])
+	lang = getArg('lang') or 'en'
+	l10n_table = l10n_info[lang] or l10n_info['en']
+
+	local _arg1 = getArg(1) or ''
+	local _nolink = getArg('nolink')
+	local _link = _nolink and '' or getArg('link') or frame:expandTemplate{ title = 'tr', args = {_arg1, link='y', lang=lang} } -- now:  _link == ''  means nolink.
+
+	local text = getArg(2) or ''
+
+	local hovertext
+	if _arg1 ~= '' then
+		hovertext = frame:expandTemplate{ title = 'tr', args = {_arg1} }
+	elseif text ~= '' then
+		hovertext = text
+	else
+		hovertext = _link
+	end
+
+	local class = 'i'
+
+	local output_image, output_text, output_table, output_htmltable = true, true, false, false
+	local _mode = getArg('mode')
+	if _mode then
+		if _mode == 'image' or _mode == 'imageonly' or _mode =='onlyimage' then
+			output_text = false
+		elseif _mode == 'text' or _mode == 'noimage' then
+			output_image = false
+		elseif _mode == 'table' or _mode == '2-cell' then
+			output_table = true
+		elseif _mode == 'htmltable' or _mode == 'html-2-cell' then
+			output_htmltable = true
+		end
+	end
+
+	local image_output, text_output
+	if output_image then
+		local image_arg = string.gsub(_arg1, ":%s*", " ")
+		if _arg1 == '1/2 Second Timer' then
+			image_arg = '1 2 Second Timer'
+		elseif _arg1 == '1/4 Second Timer' then
+			image_arg = '1 4 Second Timer'
+		end
+		image_arg = getArg('image') or image_arg .. '.' .. (getArg('ext') or 'png')
+		image_output = images(image_arg, _link, hovertext, getArg('size'), getArg('scale'), getArg('maxsize'))
+	else
+		image_output = ''
+	end
+	if output_text then
+		local _note, _note2, _showid, _id = getArg('note'), getArg('note2'), getArg('showid'), getArg('id')
+
+		if _id and not _showid then
+			_showid = true
+		end
+		if _showid and (_showid == 'n' or _showid == 'no') then
+			_showid = false
+		end
+
+		local _wrap
+		if _showid or _note2 then
+			_wrap = false
+		else
+			_wrap = getArg('wrap')
+		end
+
+		if _link ~= '' then
+			if text == _link then
+				text = '<span>[['..text..']]</span>'
+			else
+				text = '<span>[['.._link..'|'..text..']]</span>'
+			end
+		else
+			text = '<span title="'..hovertext..'">'..text..'</span>'
+		end
+
+		local content = text -- item name link text first.
+		-- '-w' class means 'wrapmode', optimized for multiple lines of text. But it should be disabled for single line text.
+		if _wrap then
+			-- note in next line
+			if _note then
+				class = class .. ' -w'
+				content = content .. '<span class="note">' .. _note .. '</span>'
+			end
+		else
+			-- note first
+			if _note then
+				content = content .. '<span class="note">' .. _note .. '</span>'
+			end
+			if _note2 then
+				class = class .. ' -w'
+				content = content .. '<div class="note">' .. _note2 .. '</div>'
+			end
+			if _showid then
+				class = class .. ' -w'
+				local idtype = (getArg('type') or 'item'):lower() 
+				if not _id then
+					_id = frame:expandTemplate{ title = idtype .. 'IdFromName', args = {_arg1} }
+				end
+				local id_text = getIdText(idtype)
+				content = content .. '<div class="id">' .. id_text .. _id .. '</div>'
+			end
+		end
+		text_output = '<span>' .. content .. '</span>'
+	else
+		text_output = ''
+	end
+
+	local _class, _css = getArg('class'), getArg('css')
+	if _class then
+		class = class .. ' ' .. _class
+	end
+	local attr = {class = class}
+	if _css then
+		attr.style = _css
+	end
+	
+	local anchor = ''
+	if getArg('anchor') then
+		anchor = mw.text.tag('div', {id=frame:callParserFunction('anchorencode', _arg1), class='anchor'}, '')
+	end
+	if output_table then
+		attr.class = class .. ' block aligncenter'
+		local result = mw.text.tag('span', attr, image_output) .. '||'
+		attr.class = class .. ' block alignleft'
+		return result .. mw.text.tag('span', attr, text_output .. anchor)
+	elseif output_htmltable then
+		attr.class = class .. ' block aligncenter'
+		local result = mw.text.tag('span', attr, image_output) .. '</td><td>'
+		attr.class = class .. ' block alignleft'
+		return result .. mw.text.tag('span', attr, text_output .. anchor)
+	else
+		return mw.text.tag('span', attr, image_output .. text_output .. anchor)
+	end
+end,
+	
+}

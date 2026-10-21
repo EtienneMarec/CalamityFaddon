@@ -1,0 +1,27 @@
+{{dablink|For the vanilla weapon, see [[Spiky Ball]].}}
+'''Spiky balls''' are [[weapons]] belonging to the [[spy]] class. They are thrown outwards from the player and deal continuous contact damage towards enemies. Most spiky balls are stackable, and will not deploy if all balls within a stack are currently used.
+
+== Types ==
+{| class="terraria sortable lined" id="dpl-table"
+! colspan=2 | Name !! <abbr title=Damage>DMG</abbr> !! <abbr title="Use Time">UT</abbr> !! <abbr title=Knockback>KB</abbr> !! <abbr title="Shoot Speed/Velocity">SS</abbr> !! <abbr title="Critical Chance">Crit</abbr> !! Autoswing !! [[Rarity]] !! Stacks !! <abbr title=Hardmode>HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Spiky Balls
+| namespace = <!-- need to have it blanked to restrict it to main namespace. prevents category pages from being included-->
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦/dpl}
+| mode = userformat
+}}
+|}
+
+== Notes ==
+*If the player has the [[Invisibility]] [[buff]] while holding a spy spiky ball, their spy critical strike chance is increased by 10%.
+{{-}}
+{{Master Template Weapons
+| show-main  = yes
+| show-rogue = yes
+}}
+[[Category:Weapon items| ]]
+[[Category:Spy weapons| ]]
+[[Category:Spiky Balls|*]]

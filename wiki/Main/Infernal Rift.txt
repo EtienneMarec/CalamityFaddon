@@ -1,0 +1,48 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 40
+| mana = 15
+| critical = 29%
+| velocity = 16
+| tooltip = Summons infernal blades that spawn additional blades on enemy hits
+| knockback = 7
+| rare = 5
+| sell = {{value|0|7|20}}
+| use = 16
+| debuff = Brimstone Flames
+| debuffduration = 3 seconds (Main Blade)<br/>2 seconds (Secondary Blade)
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| stack = 1
+| hardmode = yes
+| proj = Infernal Blade.png
+| projcaption = Infernal Blade
+| projsize = 220px
+| element1 = Fire
+| element2 = Unholy
+| element3 = Stab
+}}
+
+The '''Infernal Rift''' is a craftable [[Hardmode]] [[wand]] that is an upgrade to the [[Sky Fracture]]. It shoots out four red tridents, which, after striking a target, summon more red tridents from off-screen that fly straight towards the hit target. Upon contact with any of these projectiles, the [[Brimstone Flames]] [[debuff]] is inflicted.
+
+The Infernal Rift has a base critical strike chance of 29%, as opposed to the usual 4% of weapons.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Trivia==
+*The projectiles having whiter tines may be a reference to the [[Ogscule]].
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

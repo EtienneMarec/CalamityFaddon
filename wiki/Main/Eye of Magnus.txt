@@ -1,0 +1,46 @@
+<br />{{item infobox
+| type = Weapon
+| auto = yes
+| damage = 32
+| critical = 0%
+| tooltip = Fires powerful beams that reduce enemy protection<br/>This weapon scales with all your damage stats at once<br/>Heals mana and health on hit
+| knockback = 2
+| velocity = 12
+| rare = 9
+| sell = {{value|0|16}}
+| use = 20
+| stack = 1
+| debuff = Marked
+| debufftip = Damage reduction reduced
+| debuffduration = 8 seconds
+| debuffchance=100%
+| hardmode = yes
+| proj = Magnus Beam.png
+| projcaption = Magnus Beam
+| element1 = Magic
+}}
+'''Eye of Magnus''' is a craftable [[Hardmode]] [[classless weapon]] that is an upgraded version of the [[Lunic Eye]]. When used it fires a fast, blue-and-white beam that homes in on enemies and will [[lifesteal|restore]] 25 mana and 1 HP upon contact with an enemy. The beam inflicts the [[Marked]] [[debuff]] to enemies, which lowers enemy damage reduction by 50%. Upon impact, each beam will create an explosive plume of blue-and-white particles which can deal additional damage. This weapon does not consume any ammo or mana.
+
+The [[Eye of Magnus]] cannot be reforged, and therefore cannot have [[modifiers]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not have any critical strike chance and cannot gain any from [[coverings]], [[Modifier]]s, [[Buff]]s and [[Covering]] bonuses.
+*As this weapon does not count as a specific weapon type, it does not provoke the penalty on minions' damage when holding a non-summoner weapon, making it an indispensable asset for [[Summon weapons|summon]]-based characters.
+*The damage multiplication is equal to the sum of all the damage multiplication across each of the 5 classes (Melee, Ranged, Mage, Summoner, [[Spy]]).
+**e.g. If the player has +10% melee damage, +30% ranged damage and +5% Spy damage, the Lunic Eye will deal 45% more damage.
+*The additional hits from the impact explosion will not replenish HP or mana, only the initial enemy hit will.
+
+== Trivia ==
+*This weapon shares its effects and name with the [https://elderscrolls.fandom.com/wiki/Staff_of_Magnus_(Skyrim) Staff of Magnus] and [https://elderscrolls.fandom.com/wiki/Eye_of_Magnus Eye of Magnus], respectively, from ''[[wikipedia:The Elder Scrolls V: Skyrim|The Elder Scrolls V: Skyrim]]''.
+*This weapon was originally obtained from [[Rune Wizard]]s, then changed to a drop from the [[Lunatic Cultist]], before becoming a craftable upgrade to the Lunic Eye.
+*It was formerly the [[rare variant]] of the [[Lunic Eye]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}
+[[Category:Healing items]]

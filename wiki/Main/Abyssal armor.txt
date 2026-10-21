@@ -1,0 +1,63 @@
+{{Item infobox
+|imagebreak=yes
+|rare=7
+|type=Armor
+|type2=Crafting material
+|setbonus=Increases max movement speed and acceleration while underwater but you move slowly outside of water<br/>Reduces the damage caused by the pressure of the abyss while out of breath<br/>Grants immunity to Irradiated
+|defense=80
+|hardmode = yes
+}}
+
+'''Abyssal armor''' is a [[Hardmode]] [[Covering]] set crafted from [[Living Shard|Living Shards]], [[Lumenyl]], [[Depth Cells]], and [[Hallowed Bar|Hallowed Bars]]. It requires 25 Hallowed Bars, 20 Lumenyl, 30 Depth Cells, and 5 Living Shards to craft one full set.
+
+It consists of the '''Abyssal Helmet''', '''Abyssal Body Armor,''' and '''Abyssal Greaves'''.
+
+The Abyssal Helmet gives 25 defense and reduces breath loss in the Abyss. It also reduces the amount of breath taken away by the Abyss by 20%.
+
+The Abyssal Body Armor gives 30 defense and reduces breath loss in the Abyss. It also removes the Bleeding effect from Layers 1-2 in the Abyss.
+
+The Abyssal Greaves gives 25 defense and grants the ability to swim freely through water and improves mobility on ice.
+
+The full set reduces the damage taken when out of breath in the abyss by 30 damage per second, the player's movement speed underwater is increased by 3%, but on land is reduced by 50%. It also grants immunity to [[Irradiated]].
+
+== Set ==
+{{Infobox wrapper|{{item infobox
+| name = Abyssal Helmet
+| type = Armor
+| defense = 25
+| tooltip = Reduces breath loss in the abyss
+| body slot = Helmet
+| research = 1
+| sell = {{value|0|9|60}}
+}}|{{item infobox
+| name = Abyssal Body Armor
+| type = Armor
+| defense = 30
+| tooltip = Reduces breath loss in the abyss<br/>Removes the bleed effect caused by the upper layers of the abyss
+| body slot = Shirt
+| research = 1
+| sell = {{value|0|9|60}}
+}}|{{item infobox
+| name = Abyssal Greaves
+| type = Armor
+| defense = 25
+| tooltip = Grants the ability to swim<br/>Grants extra mobility on ice
+| body slot = Pants
+| research = 1
+| sell = {{value|0|9|60}}
+}}|direction=row|float=none}}
+
+== Crafting ==
+
+=== Recipe ===
+{{Recipes|result=Abyssal Helmet/Abyssal Body Armor/Abyssal Greaves|view=infobox}}
+
+=== Used in ===
+{{Recipes|ingredient=Abyssal Helmet/Abyssal Body Armor/Abyssal Greaves|view=infobox}}
+
+== Trivia ==
+While the full set is equipped without any vanity, the player's hurt sound is replaced with the mechanical hurt sound. This effect also occurs if the full set is equipped in the vanity slot.
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

@@ -1,0 +1,30 @@
+{{item infobox
+| type = Covering
+| tooltip = Those scurvy dogs don’t know the first thing about making bank<br/>Summons a coin that revolves around you and steals money from enemies
+| buy = {{value|1}}
+| sell = {{value|0|7|20}}
+| rare = 5
+| stack = 1
+| hardmode = yes
+| debuff = Midas
+| debuffchance = 100%
+| debuffduration = 6 seconds
+| debufftip = Drop more money on death
+}}
+{{summoned|Dime}}The '''Thief's Dime''' is a [[Hardmode]] [[Spy]] [[covering]] that is purchased from [[Bandit]] for {{pc|1}} after the [[Pirate Invasion]] has been defeated. When equipped, a metallic brown coin will circle the player and deal contact damage to enemies and inflicts the [[Midas]] [[debuff]]. If the coin contacts an enemy, there is a 20% chance it will spawn 10 to 20 Silver [[coins]], and a 10% chance to spawn a Gold coin. The coin partially ignores enemy [[immunity frames]], allowing it to deal damage and spawn coins very frequently if it remains in contact.
+
+== Recipe ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The orbiting coin is boosted by [[Spy stealth]] as internally the coin uses Spy damage.
+*No coins will be dropped if the hit enemy was spawned from a [[tgc:Statues|statue]].
+*While it is considered a Spy covering, it may be worth picking up for Melee players due to its short ranged nature.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

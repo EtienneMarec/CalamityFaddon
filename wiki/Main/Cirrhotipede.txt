@@ -1,0 +1,50 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damage = 200
+| use = 24
+| damagetype = summon
+| knockback = 2
+| auto = yes
+| velocity = 13
+| stack = 1
+| rare = 8
+| sell = {{value|0|10|0|0}}
+| tooltip = 30 summon tag damage<br/>Leaves behind plague nanites<br/>Your summons will focus struck enemies<br/>{{color|'Apparently, the thong of the whip itself is ripped from the spine of the plagued goliath itself, and then its end had a failing liver attached, carved to look like a scythe. Yuck.'|#7cad1f}}
+| debuff = Plague
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| debufftip = Rotting from the inside
+| debuff2 = Oiled
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds
+| debufftip2 = Taking more damage from being on fire
+| hardmode = yes
+| proj = Cirrhotipede (Projectile).png
+| projcaption = Cirrhotipede
+| element1 = Poison
+| element2 = Slash
+}}
+{{item drops infobox
+| [[The Plaguebringer Goliath]] | 1 | {{dv|25%|33.33%}}
+}}
+
+The '''Cirrhotipede''' is a [[Hardmode]] [[Whips]] dropped by [[The Plaguebringer Goliath]]. Like other whips, it causes [[Minions]] to focus on the last-struck enemies and increases their damage against them by a flat 30. Uniquely, it also leaves behind airborne plague nanites after being swung. These nanites will act like homing mines, going after the enemies last struck by this whip. If these nanites hits an enemy, or lingers after a while, it explodes, dealing 60% of the weapon's base damage.
+
+{{Modifier|melee}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Trivia==
+*The weapon's name is a portmanteau of "Cirrhosis" and "Centipede"
+**Cirrhosis is a condition in which your liver is scarred and permanently damaged. These scarred tissue replaces healthy liver tissue and prevents the liver from working properly. Its tooltip references its late-stage effect.
+**Additionally, its design bears heavy resemblance to the whip that [https://cookierun.fandom.com/wiki/Centipede_Cookie Centipede Cookie] wields.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}
+[[Category:Whips]]

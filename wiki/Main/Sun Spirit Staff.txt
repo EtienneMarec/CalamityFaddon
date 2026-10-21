@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 110
+| damagetype = Summon
+| knockback = 1.15
+| mana = 10
+| use = 28
+| stack = 1
+| tooltip = Summons a solar spirit to protect you<br/>There can only be one spirit
+| buff = Solar Spirit (buff)| bufflink = no
+| bufftip = The solar spirit will protect you
+| rare = 1
+| sell = {{value|0|2|50}}
+| hardmode = yes
+| element1 = Holy
+}}
+{{summoned|Solar Pixie|type=minion|name=Solar Spirit}}
+
+The '''Sun Spirit Staff''' is a craftable [[Hardmode]] [[summon weapon]]. It summons a Solar Spirit minion that continually floats over the player's head and fires yellow beams of energy at nearby enemies. Unlike most minions, only one Solar Spirit can be summoned.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon= yes
+}}

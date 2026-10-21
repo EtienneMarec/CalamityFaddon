@@ -1,0 +1,10 @@
+<includeonly><!-- 
+trim:
+-->{{#vardefine:l10n:reg:_p|l10n:{{#trim:{{{2|en}}}}}:{{#trim:{{{1|}}}}}}}<!-- $1 = namespace,  $2 = lang
+each namespace+lang register only once:
+-->{{#if:{{#dplvar:{{#var:l10n:reg:_p}}:1}}||<!-- if not flag
+	-->{{#forargs:|l10n:reg:_key|l10n:reg:_value|<!-- 
+		-->{{#dplvar:set|{{#var:l10n:reg:_p}}:{{#var:l10n:reg:_key}}|{{#var:l10n:reg:_value}}}}<!-- 
+	-->}}<!--
+-->}}<!-- 
+--></includeonly><noinclude>{{doc}}</noinclude>

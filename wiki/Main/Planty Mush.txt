@@ -1,0 +1,30 @@
+{|align=right
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| stack = 9999
+| use = 14
+| placeable = yes
+| consumable = yes
+| auto = yes
+| rare = 3
+| color = #007800
+| sell = {{value|0|0|6}}
+}}
+|}
+
+'''Planty Mush''' is a [[Pre-Hardmode]] [[block]] that can be found naturally generated inside the [[Abyss]]. [[Viper Vines]] automatically grow from underneath it. It can be mined with any [[pickaxe]]. It is used as a crafting material for [[Life Fruit]] and [[Fathom Swarmer armor]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Planty Mush can also be obtained from [[Abyssal Crate]]s, as well as by fishing in the [[Sulphurous Sea]] or the Abyss with a [[fishing power]] between 0 and 80.
+**Planty Mush's coded requirement is actually 40 to 80. However, as this item replaces [[Junk]] catches in the Sulphurous Sea and Abyss, it is functionally 0 to 80.
+*It can be broken and collected using destructive [[Explosives (class)|explosives]], such as [[Bomb]]s or [[Dynamite]].
+
+{{Master Template Tiles
+|show-main = yes
+|show-blocks = yes
+}}

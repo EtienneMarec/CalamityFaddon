@@ -1,0 +1,54 @@
+{{item infobox
+| imagealt = [[File:Anti-Cyst Ointment.png]] [[File:Anti-Tumor Ointment.png]] [[File:Anti-Moth Ointment.png]] [[File:Anti-Starspawn Ointment.png]] [[File:Bleach Ball.png]] [[File:Broken Water Filter.png]] [[File:Sirenproof Earmuffs.png]] [[File:Voodoo Demon Voodoo Doll.png]]
+| type = Tool
+| stack = 1
+| rare = 1
+| sell = {{value|0|0|20}}
+| listexlude = yes
+}}
+
+'''Spawn blockers''' are unique [[tools]]. Their sole purpose is to prevent certain [[bosses]], boss-spawning enemies, or [[events]] from spawning naturally. These items will only work when favorited.
+{{item/options|mode=table|anchor=y}}
+{| class="terraria lined"
+|-
+! colspan = 2 | Item !! Source !! Disabled Enemy / Event
+|-
+| {{item|Anti-Cyst Ointment}}
+| {{recipes/extract|result=Anti-Cyst Ointment}}
+| [[Perforator Cyst]]
+|-
+| {{item|Anti-Moth Ointment}}
+| {{recipes/extract|result=Anti-Moth Ointment}}
+| [[tgc:Prismatic Lacewing|Prismatic Lacewing]]
+|-
+| {{item|Anti-Starspawn Ointment}}
+| {{recipes/extract|result=Anti-Starspawn Ointment}}
+| [[Astral Infection]] enemy weapon and covering drops.
+|-
+| {{item|Anti-Tumor Ointment}}
+| {{recipes/extract|result=Anti-Tumor Ointment}}
+| [[Hive Cyst]]
+|-
+| {{item|Bleach Ball}}
+| {{recipes/extract|result=Bleach Ball}}
+| [[Aquatic Scourge]]
+|-
+| {{item|Broken Water Filter}}
+| Found in {{item|Rusty Chest|s|mode=}} or<br/>{{recipes/extract|result=Broken Water Filter}}
+| [[Acid Rain]]
+|-
+| {{item|Sirenproof Earmuffs}}
+| {{recipes/extract|result=Sirenproof Earmuffs}}
+| [[???]]
+|-
+| {{item|Voodoo Demon Voodoo Doll}}
+| {{recipes/extract|result=Voodoo Demon Voodoo Doll}}
+| [[Voodoo Demon]]
+|}
+{{item/options|reset}}
+
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-other = yes
+}}

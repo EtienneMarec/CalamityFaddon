@@ -1,0 +1,45 @@
+{{buff infobox
+|type=Debuff
+|effects=No Health Regeneration<br/>-25% movement speed and acceleration<br/>-1% of max health, -2.5% if moving horizontally (If player)<br/>-0.3% of max health (If enemy)
+|tooltip=You're losing way too much blood}}
+
+'''Irradiated''' is a [[debuff]] that deals -1% of the player's max health and -0.3% of the enemy's max health. Its damage increases to -2.5% to the player while they are moving horizontally. It also reduces their movement speed and acceleration by -25%. Enemies that are immune to either [[Bleeding]] or [[Electrified]] will also be immune to this debuff.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From Calamity NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{-}}
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

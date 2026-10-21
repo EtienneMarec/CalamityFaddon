@@ -1,0 +1,49 @@
+{{dedicated|Triactis/Tri|Developer}}
+{{infobox wrapper
+|{{item infobox
+| damage = 2000
+| damagetype = Melee
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| knockback = 50
+| velocity = 25
+| rare = 16
+| tooltip = Explodes on enemy hits
+| sell = {{value|0|40}}
+| stack = 1
+| type = Weapon
+| auto = yes
+| use = 9
+| element1 = Holy
+| element2 = Magic
+| element3 = Smash
+}}
+}}
+[[File:Triactis' True Paladinian Mage-Hammer of Might (demo).gif|frame|Triactis' True Paladinian Mage-Hammer of Might's massive explosion radius and projectiles being used to hit several [[Target Dummy|Target Dummies]], piercing through them and passing through tiles as well.]]
+
+'''Triactis' True Paladinian Mage-Hammer of Might''' is a craftable Epilogue [[developer]] [[boomerang]]. It is the final upgrade to the [[Pwnagehammer]]. When in use, it rapidly throws an enormous image of the hammer that passes through tiles. The hammer can pierce through an unlimited number of enemies and each hit on an enemy causes an explosion of bright blue and green particles. The explosion deals 25% of the damage of the hammer, ignores [[immunity frames]], and deals typeless damage.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Due to the main projectile not ignoring immunity frames, it will often conflict with and lower the DPS of [[minions]] that also do not ignore immunity frames, such as the Red Devil summoned by [[Demonshade armor]].
+*As the explosions deal typeless damage, they are unable to inflict critical hits and are unaffected by [[Rage]] or [[Adrenaline]].
+
+== Trivia ==
+*This weapon currently has the longest name of any item in the Calamity Mod, at 46 characters long.
+**This title was given to [[Soma Prime]]'s name "THIS WEAPON IS A REFERENCE TO WARFRAME OH MAH GAWD" in previous versions of the mod.
+**The length of the weapon's name causes rendering issues in PVP (player-versus-player) death messages. This can be avoided by using White or Retro lighting. 
+*This weapon actually has a unique [[Rarity]] but is referred here as Hot Pink rarity for consistency between weapons.
+**This unique rarity appears as a grain brown ({{color|#E3E2B4 ●|#E3E2B4}}) color.
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Boomerangs]]

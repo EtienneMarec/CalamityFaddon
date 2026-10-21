@@ -1,0 +1,26 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{infobox wrapper
+|{{item infobox
+| imagebreak = yes
+| stack = 9999
+| type = Crafting material
+| rare = 7
+| sell = {{value|0|2|50}}
+| hardmode = yes
+}}
+}}
+
+'''Shatterite Bars''' are craftable [[Hardmode]] [[bars]]. They are used for creating water-themed [[Covering]] and [[coverings]].
+
+==Crafting==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Shatterite}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

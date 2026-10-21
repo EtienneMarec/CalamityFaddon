@@ -1,0 +1,46 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| rare = C2
+| use = 24
+| knockback = 0
+| stack = 1
+| auto = yes
+| sell = {{value|50}}
+| damage = 440
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| mana = 35
+| velocity = 0
+| tooltip = creates an orb that circles around you and shoots beams at your enemies
+| debuff = Nightclear
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 5 seconds
+| debuffchance2 = 100%
+| debuff3 = Evercold
+| debuffduration3 = 5 seconds
+| debuffchance3 = 100%
+| element1 = Holy
+| element2 = Water
+| proj = Shadingorb.png
+| projcaption = Orb
+}}
+
+'''Shading Manual''' is a craftable post-[[Purgatory Arbiter, Umbrus|umbrus]] [[spell tome]]. When used, it creates an orbitting circle that shoots beams at your enemies, it completes a full orbit every 2 seconds and needs to be reloaded. This Weapon should be used together with other weapons.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{Stiriatic}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

@@ -1,0 +1,48 @@
+{{addon|Calamity: Community Remix}}
+{{dedicated|Styxfog|Developer}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 3600
+| use = 12
+| velocity = 13
+| knockback = 6
+| auto = yes
+| stack = 1
+| rare = 16
+| sell = {{value|0|40}}
+| tooltip = Throws itself at the cursor and passively spawns stars<br/>On hits, void essences and falling sword clones are summoned<br/>’Balance.’
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Meridian Spear.png
+| projcaption = Meridian
+| proj2 = Void Essence.gif
+| proj2caption = Void Essence
+| proj3 = Galaxian Star.png
+| proj3caption = Star
+| element1 = Magic
+| element2 = Dark
+| element3 = Holy
+| element4 = Stab
+}}
+
+'''Meridian''' is a craftable Epilogue [[developer]] [[melee weapon]]. When used a spinning spear is thrown outwards that follows the cursor and passively spawns stars which deal 20% of the weapon's damage. Upon hitting an enemy, void essences rapidly shoot outwards in random directions from the hit enemy, and an evenly spaced row of swords based on the weapon's crafting tree are shot downwards.
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The name [[wikipedia:Meridian|meridian]] is the midpoint of something, as a reference to its ingredients being the [[Nadir]] and [[Zenith]], the bottom and top of something respectively.
+*This weapon actually has a unique rarity, but is referred to here as Hot Pink for consistency between weapons.
+**This unique rarity alternates between midnight brown ({{color|#343B10 ●|#343B10}}) and baby blue ({{color|#7FF0F0 ●|#7FF0F0}}) colors.
+{{-}}
+{{shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

@@ -1,0 +1,17 @@
+This template is used to insert collapsed content sections. 
+
+Place {{code|<nowiki>{{</nowiki>collapse top<nowiki>}}</nowiki>}} at the top of the content to be collapsed, and {{code|<nowiki>{{</nowiki>[[template:collapse bottom|collapse bottom]]<nowiki>}}</nowiki>}} underneath it, each on their own separate lines.
+
+== Usage ==
+{{code|<nowiki>{{</nowiki>collapse top <nowiki>|</nowiki> '''''optional:''' custom display text for expand link'' <nowiki>|</nowiki> '''''optional:''' custom display text for collapse link'' <nowiki>}}</nowiki> }}
+
+... content ...
+
+{{code|<nowiki>{{</nowiki>collapse bottom<nowiki>}}</nowiki>}}
+
+<includeonly>
+[[Category:Formatting templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

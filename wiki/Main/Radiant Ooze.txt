@@ -1,0 +1,24 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip =  You emit light and regen life more quickly at night
+| sell = {{value|0|2|40}}
+| stack = 1
+| rare = 4
+}}
+
+The '''Radiant Ooze''' is a [[Pre-Hardmode]] [[covering]]. It makes the player emit light and increases the player's life regen and defense by 8 at night. It is used to craft the [[Ambrosial Ampoule]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Purified Gel}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Restorative coverings]]

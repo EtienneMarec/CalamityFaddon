@@ -1,0 +1,44 @@
+{{item infobox
+| type = Covering
+| tooltip = Spy projectiles create flahblades as they travel<br/>Stealth strikes summon flahbeams and sparks on enemy hits<br/>Stealth strikes have +50 armor penetration, and deal 10% more damage<br/>50% increased Spy damage and 25% increased Spy velocity<br/>15% increased Spy crit chance<br/>Stealth strikes have a 100% critical hit chance<br/>Stealth generates 15% faster<br/>Stealth strikes only expend 50% of your max stealth<br/>+50 maximum stealth<br/>Spy projectiles explode into homing souls on death<br/>Press {{key|Booster Dash}} to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of lightning bolts<br/>Spy projectiles create slow fireballs as they travel<br/>Stealth strikes create infernados on death<br/>Spy projectiles give stealth back on crits<br/>Whenever you crit an enemy with a Spy weapon your Spy damage increases<br/>This effect can stack up to 200 times<br/>Max Spy damage boost is 20%<br/>Spy Crit Level: [LEVEL HERE]
+| rare = 16
+| sell = {{value|1|0}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| debuff = Flahmes
+| debuffduration = 3 seconds
+| debuffchance = 100%
+| debufftip = Vaporizing from total flahium annihilation
+| element1 = Fire
+| element2 = Poison
+| element3 = Slash
+| element4 = Unholy
+| proj = Flahblade.png
+| projcaption = Flahblade
+| proj2 = Blunder Booster Lightnings.gif
+| proj2caption = Red Lightning Bolts
+| proj3 = Phantasmal Soul.gif
+| proj3caption = Phantasmal Soul
+| proj4 = Dragon Scales Fireball.gif
+| proj4caption = Fireball
+| proj5 = Infernado (friendly).gif
+| proj5caption = Infernado
+| proj5size = 230px
+}}
+
+The '''Quantum Flahium Ejection Device''' is a craftable Godseeker Mode [[covering]]. It grants the effects of the [[Dragon Scales]] and [[Ethereal Extorter]]. When equipped, Spy projectiles release flahblades while active for every half a second, up to a maximum of seven blades at once. Flahblades deal 80 Spy damage and will aggressively home into enemies. It also grants a 50% increase to Spy damage, a 25% increase to Spy velocity, a 15% increase to Spy critical strike chance, +50 maximum stealth, a 25% increase to the rate at which stealth generates, gives stealth back on Spy weapon critical hits, all other effects of the [[Eclipse Mirror]] except for the dodge, and the booster dash of the [[Blunder Booster]].
+
+If the player utilizes a stealth strike with this covering equipped, three flahium flares will rain down around the projectile. Flahium flares deal 300 Spy damage. 
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Flah}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Healing items]]
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

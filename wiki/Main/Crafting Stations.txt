@@ -1,0 +1,97 @@
+A '''crafting station''' allows players to craft various items. Entering the inventory screen displays the "crafting window" in the lower-left, and when the player is standing near one or more crafting Stations and possesses the right crafting ingredients, the bar is expanded with additional item choices. To use a crafting station, the player must be standing within 3 tiles horizontally, 3 tiles vertically upwards and 2 tiles vertically downwards of any tile the crafting station occupies. Nearly all crafting stations are considered [[furniture]].
+
+The Calamity Mod currently adds 12 different crafting stations, all of which can be used for creating their respective furniture sets and one of which is also required for many late-game crafting recipes.
+
+== [[Pre-Hardmode]] ==
+{| class = "terraria lined"
+! width="200px" | Station
+! Used to craft
+! Obtained
+|-
+| {{item|Eutrophic Shelf}}
+| Eutrophic furniture
+| {{recipes/extract|result=Eutrophic Shelf}}
+|-
+| {{item|Scroll Press}} {{dei}}
+| [[Scrolls]]
+| {{recipes/extract|result=Scroll Press}}
+|-
+| {{item|Static Refiner}}
+| Statigel furniture
+| {{recipes/extract|result=Static Refiner}}
+|-
+| {{item|Aquatic Hypercomputer}}
+| Various Tales of The Aquatic items
+| {{recipes/extract|result=Aquatic Hypercomputer}}
+|}
+
+== [[Hardmode]] ==
+{|class = "terraria lined"
+! width="200px" | Station
+! Used to craft
+! Obtained
+|-
+| {{item|Ancient Altar}}
+| Ancient furniture
+| {{recipes/extract|result=Ancient Altar}}
+|-
+| {{item|Ashen Altar}}
+| Ashen furniture
+| {{recipes/extract|result=Ashen Altar}}
+|-
+| {{item|Monolith Amalgam}}
+| Monolith furniture
+| {{recipes/extract|result=Monolith Amalgam}}
+|-
+| {{item|Plague Infuser}}
+| Plagued Plate furniture
+| {{recipes/extract|result=Plague Infuser}}
+|-
+| {{item|Void Condenser}}
+| [[Abyss]] and Voidstone furniture
+| {{recipes/extract|result=Void Condenser}}
+|-
+|}
+
+== Godseeker Mode ==
+{|class = "terraria lined"
+! width="200px" | Station
+! Used to craft
+! Obtained
+|-
+| {{item|Profaned Crucible}}
+| Profaned furniture
+| {{recipes/extract|result=Profaned Crucible}}
+|-
+| {{item|Botanic Planter}}
+| Uelibloom furniture
+| {{recipes/extract|result=Botanic Planter}}
+|-
+| {{item|Cosmic Anvil}}
+| Post [[The Devourer of Gods|DoG]] Items<br/>Cosmilite furniture
+| {{recipes/extract|result=Cosmic Anvil}}
+|-
+| {{item|Entropic Refiner}} {{dei}}
+| Items relating to [[Quark-Gluon Sludge]]<br/>and [[Omnicidal Sludge Bar]]s.
+| {{recipes/extract|result=Entropic Refiner}}
+|-
+| {{item|Draedon's Forge}}
+| End-game items<br/>Exo furniture
+| {{recipes/extract|result=Draedon's Forge}}
+|-
+| {{item|Effulgent Manipulator}}
+| Silva furniture
+| {{recipes/extract|result=Effulgent Manipulator}}
+|-
+|}
+
+== Trivia ==
+*The mod previously used a crafting station called the [[Particle Accelerator]]. Its sprite was previously used for the covering [[lul]].
+
+{{Master Template Tiles
+| show-main = yes
+| show-furniture = yes
+}}
+{{Game mechanics}}
+[[Category:Crafting station items|*]]
+[[Category: Game mechanics]]

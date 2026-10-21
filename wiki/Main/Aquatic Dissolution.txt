@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 125
+| use = 15
+| velocity = 12
+| knockback = 6
+| tooltip = Fires whaling spears from the sky that bounce off tiles
+| auto = yes
+| stack = 1
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| proj = Aquatic Spear.gif
+| projcaption = Aquatic Spear
+| element1 = Water
+| element2 = Slash
+}}
+The '''Aquatic Dissolution''' is a craftable Godseeker Mode [[broadsword]]. It fires 3 aquatic spears from the sky, which bounce off tiles twice, disappearing on the third. The projectiles can pass through tiles for a second after spawning.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:水溶利刃]]
+[[Category:Pages that need recipes]]

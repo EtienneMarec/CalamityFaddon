@@ -1,0 +1,30 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| sell = No value
+| stack = 9999
+| rare = 0
+| color = #A39649
+}}
+
+'''Hazard Chevron Panels''' is a craftable [[Pre-Hardmode]] [[block]] that can be found in [[Arsenal Lab]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*''Chevron'' refers to an alternating zigzag pattern often used in interior design for tiles and fabric.
+
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

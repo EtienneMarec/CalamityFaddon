@@ -1,0 +1,13 @@
+Helper template to display knockback value and level.
+
+'''NOTE''': Only accepts numberical value as input.
+
+== Usage ==
+
+<nowiki>{{kb|0}}</nowiki> diplays {{kb|0}}
+
+<nowiki>{{kb|7.5}}</nowiki> diplays {{kb|7.5}}
+
+<includeonly>[[Category:Shortcut templates]]</includeonly>
+
+<noinclude>[[Category:Template documentation]]</noinclude>

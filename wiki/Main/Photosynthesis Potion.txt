@@ -1,0 +1,29 @@
+{{item infobox
+|type = Potion
+|tooltip = You regen life quickly while not moving, this effect is five times as strong during daytime<br/>Dropped hearts heal more HP
+|stack = 9999
+|rare = 4
+|use = 17
+|consumable = yes
+|buff = Photosynthesis | bufflink = no
+|duration = 8 minutes
+|bufftip = Life regen boosted, more during daytime, and hearts heal more HP
+|sell = {{value|0|0|40|0}}
+}}
+
+The '''Photosynthesis Potion''' is a craftable [[Hardmode]] [[buff potion]]. Upon consumption it grants the '''Photosynthesis''' [[buff]], which provides 6 additional life regen when the player isn't moving. The regeneration increases to 34 during the daytime, regardless of where you are in the world. In addition, dropped [[heart]]s will heal an extra 5 HP.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The boosted life regeneration from the Photosynthesis buff is overridden by the effects of the [[Shiny Stone]], the [[Demonshade Breastplate]], the [[Cosmic Freeze]] buff, and [[Draedon's Heart]].
+*Although the tooltip says the regeneration is 5 times stronger during the daytime, it provides up to 34 regeneration at its peak instead of the expected 30.
+
+== Trivia ==
+*[[wikipedia:Photosynthesis|Photosynthesis]] is a process in which plants convert light into usable energy.
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

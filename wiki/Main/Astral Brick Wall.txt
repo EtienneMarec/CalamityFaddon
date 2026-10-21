@@ -1,0 +1,28 @@
+{{item infobox
+| use = 14
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| consumable = yes
+| placeable = yes
+| stack = 9999
+| rare = 0
+| hardmode = yes
+| color = #4A4A61
+| sell = No value
+}}
+
+'''Astral Brick Wall''' is a background [[wall]] crafted with [[Astral Brick]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+{{Astral}}
+{{Master Template Tiles
+| show-main   = yes
+| show-walls = yes
+}}
+[[Category:Block items]]

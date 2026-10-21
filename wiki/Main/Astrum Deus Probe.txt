@@ -1,0 +1,56 @@
+{{historical content}}
+
+'''Astrum Deus Probe'''s were variants of the [[Astral Probe]] summoned by [[Astrum Deus]].
+
+The flying Astrum Deus Probes moved freely through the air and fired lasers at the player, similarly to the [[Probe]]s spawned by [[The Destroyer]]. They differed from normal Astral Probes due to their greatly increased health and further increased damage reduction in [[Revengeance Mode]].
+
+The orbiting Astrum Deus Probes circled around the head of one of the Astrum Deus worms, typically in very large groups. If that worm was destroyed, they would immediately jump to another worm. They fired astral mines into the air which lingered in place for a very long time, creating a minefield that had to be be carefully navigated through or avoided entirely.
+
+== Variants ==
+{{infobox wrapper|direction=row|float=none
+|{{npc infobox
+| type = Flying Enemy
+| namesub = Flying
+| damage = 0 (Contact)<br/>{{dv|90|152||174}} (Laser)
+| life = 1400
+| defense = 40
+| dr = {{revengeance|20%}}
+| ai = Astrum Deus Probe (Flying) AI
+| knockback = {{dv|5%|14.5%}}
+| hardmode = yes
+| immune1 = Confused
+| listexclude = yes
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = Item_12.wav
+| soundtext = Laser
+}}
+|{{npc infobox
+| type = Flying Enemy
+| namesub = Orbiting
+| damage = 0 (Contact)<br/>{{dv|120|180|225|258}} (Astral Mine)
+| life = {{dv|100|140}}
+| defense = 0
+| ai = Astrum Deus Probe (Orbiting) AI
+| knockback = 100
+| hardmode = yes
+| debuff = Astral Infection (debuff)
+| duration = 4 seconds (Astral mine)
+| debuffchance = 100%
+| debufftip = Your flesh is melting off
+| listexclude = yes
+| hurt = AstralEnemyHit1.wav,AstralEnemyHit2.wav,AstralEnemyHit3.wav
+| killed = NPC_Killed_14.wav
+| sound = Item_33.wav
+| soundtext = Astral Mine
+}}
+}}
+
+== Notes ==
+*Probes that spawned in Astrum Deus's fight did not count toward the Astral Probe kill count and were not affected by the Banner buff.
+*Up to 3 of the flying variant of the Astrum Deus Probe could spawn at a time while any of the smaller Astrum Deus worms are alive. Up to 6 could spawn when only the main Astrum Deus worm was left.
+{{Historical}}
+{{Master Template Characters
+|show-main=yes
+|show-boss=yes
+}}

@@ -1,0 +1,32 @@
+{|align=right
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| stack = 9999
+| pickreq = 225
+| rare = 0
+| color = #B588B1
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| use = 14
+| sell = No value
+}}
+|}
+
+'''Profaned Crystal''' is a craftable Godseeker Mode [[block]] crafted with [[Unholy Essence]] and [[Glass]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main   = yes
+| show-blocks = yes
+}}
+
+[[Category:Block items]]

@@ -1,0 +1,33 @@
+{{item infobox
+|type = Weapon
+|damage = 68
+|damagetype = Rogue
+|knockback = 5.5
+|use = 18
+|auto = yes
+| tooltip = Stealth strikes split into more javelins
+|hardmode = yes
+|velocity = 16
+| rare = 4
+| sell = {{value|0|0|2|40}}
+|stack = 9999
+|consumable = true
+|element1 = Stab
+}}
+
+'''Palladium Javelins''' are craftable [[Hardmode]] [[javelins]] made from [[Palladium Bar]]s. They fire a javelin made from palladium, which pierces infinitely, travels a moderate distance before being affected by gravity. They have a 50% chance of being recovered after being thrown.
+
+Performing a [[stealth strike]] with a Palladium Javelin will cause it to split twice after a short time, resulting in four javelins.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Javelins]]

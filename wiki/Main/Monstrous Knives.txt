@@ -1,0 +1,35 @@
+{{dedicated|Ryan Baker-Ortiz|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 4
+| auto = yes
+| use = 20
+| knockback = 3
+| tooltip = Throws a spread of knives that can heal the user
+| velocity = 15
+| stack = 1
+| rare = 2
+| sell = {{value|0|0|40}}
+| proj = Monstrous Knife.png
+| projcaption = Monstrous Knife
+| element1 = Stab
+}}
+
+The '''Monstrous Knives''' is a craftable [[Pre-Hardmode]] [[melee weapon]] that acts similarly to the [[Vampire Knives]], and is the counterpart to the [[Moonstone Knives]]. When used, the player throws a spread of 3-6 gravity-affected knives that have a 33.33% chance to [[Lifesteal|heal]] the player for 7.5% to 90% of the damage dealt. The knives fade away after a short amount of time, losing 10% of its damage and knockback every 0.5 seconds, then disappear into cosmetic red dust when fully transparent.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Healing items]]

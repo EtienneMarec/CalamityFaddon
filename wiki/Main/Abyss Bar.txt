@@ -1,0 +1,36 @@
+{{item infobox
+| image = Scoria Bar.png
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 9999
+| rare = 8
+| tooltip = The smoke feels warm
+| sell = {{value|0|1|20}}
+| use = 14
+| consumable = yes
+| placeable = yes
+| hardmode = yes
+| auto = yes
+}}
+
+'''Abyss Bars''' are [[Hardmode]] [[bars]] that are made with 5 [[Abyss Ore]] at a [[Hardmode Forge]] and are additionally dropped from the [[Fleshy Geode|Fleshy]] and [[Necromantic Geode]]. They are used to craft various abyss-themed items, as well as being used to craft [[Life Alloy|Life Alloys]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Abyss Bars may also be obtained from [[Abyssal Crate]]s after [[Golem]] has been defeated.
+
+== Trivia ==
+*Abyss Bars were previously known as '''Scoria Bars''', which were previously known as '''Chaotic Bars'''. Before that, they were known as '''Cruptix Bars''', and are still referred to as such in the files.
+
+{{Scoria}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

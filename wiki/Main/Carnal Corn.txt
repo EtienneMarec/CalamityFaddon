@@ -1,0 +1,25 @@
+{{item infobox
+| type = Potion
+| type2 = Crafting material
+| stack = 999
+| tooltip = Medium improvements to all stats<br/>Increases life regeneration
+| consumable = Yes
+| rare = 7
+| use = 17
+| buff = Plenty Satisfied
+| bufftip = Medium improvements to all stats<br/>{{expert|Medium improvements to all stats and increased life regeneration}}
+| duration = 120 minutes
+| sell = {{value|0|4|0}}
+| hardmode = yes
+}}
+'''Carnal Corn''' is a consumable [[food item]] that can be naturally found within the [[Bloody Corn Maze]] which generates after [[Golem]] has been defeated. When consumed, it grants the [[Plenty Satisfied]] buff for 120 minutes.
+
+==Crafting==
+===Used in (Any Food Item)===
+{{recipes|ingredient=Any Food Item}}
+{{-}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion=yes
+}}

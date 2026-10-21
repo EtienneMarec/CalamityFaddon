@@ -1,0 +1,26 @@
+{{item infobox
+| type = Grab bag
+| tooltip = Right click to extract souls
+| stack = 9999
+| consumable = True
+| rare = 3
+| sell = {{value|0|1}}
+| hardmode = yes
+}}
+
+The '''Fish of Flight''' is a [[grab bag]]-type [[Fishing|fish]] that can be caught in the [[Space]] Biome during [[Hardmode]]. When opened, the player will receive between 2 to 5 [[Soul of Flight|Souls of Flight]].
+
+== Drops ==
+{| class="terraria"
+! colspan="2" | Anytime
+|-
+! Items !! Amount
+|-
+| {{item|Soul of Flight}}
+| 2-5
+|}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

@@ -1,0 +1,35 @@
+{{npc infobox
+| imagealt = <Tabber>
+Default=[[File:Exo Armada.png]]
+|-|
+Supercharged=[[File:Exo Armada Charged.png]]
+</Tabber>
+| environment = Surface
+| environment2 = The Exosphere
+| type = Enemy
+| ai = Exo Armada AI
+| life = {{dv|20,000|40,000}}
+| damage = {{element|Dark}} {{dv|150|300}} (Contact)
+| defense = 40
+| knockback = 100%
+| money = {{value|15|30|0|0|}}
+| Exo Prism | 1-2| 100%
+| immune1 = Kami Flu
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Magic
+| resistant1 = Poison
+| resistant2 = Water
+| resistant3 = Machine
+}}
+The '''Exo Arnada (Japanese: エクソ・アルナダ Ekuso arunada)''' is an [[enemy]] found on the [[Surface]] during daytime, or in [[The Exosphere]]. It attacks by hovering above the ground and diving downward before activating an energy shield, and charging the player. During its charge, all player projectiles will be deflected.
+
+It can be supercharged by the [[Exo Obelisk]] enemy, causing its lights to turn bright yellow, and giving a significant boost to its speed.
+== Trivia ==
+*The Exo Armada is a [[tgc:Kwad_Racer_Drone|Kwad Racer Drone]].
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

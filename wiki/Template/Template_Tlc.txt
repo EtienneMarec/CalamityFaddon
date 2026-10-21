@@ -1,0 +1,8 @@
+<includeonly><code>{{tl|{{{1|}}}|__paramslist={{#fornumargs:k|v|{{#ifexpr:{{#var:k}}>1|₪{{#var:v}}}}}}}}</code></includeonly><!--
+
+--><noinclude>
+Behaves exactly like {{tl|tl}} but wraps the output in &lt;code&gt; tags.
+
+[[Category:Formatting templates]]
+[[Category:Shortcut templates]]
+</noinclude>

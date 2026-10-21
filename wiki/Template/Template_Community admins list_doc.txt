@@ -1,0 +1,11 @@
+This is a list of community administrators listed on [[Project:Community noticeboard]]. It takes an optional parameter specifying its width.
+
+Usage:
+:{{tlx|Community admins list|width}}
+
+'''Example:'''
+:{{tlx|Community admins list|300px}}
+
+'''Result:'''
+
+{{Community admins list|300px}}

@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 60
+| mana = 10
+| tooltip = Every rose has its thorn
+| knockback = 2
+| velocity = 20
+| rare = 12
+| sell = {{value|0|24}}
+| use = 23
+| stack = 1
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+| proj = Beaming Thorned Flower.png
+| projcaption = Beaming Thorned Flower
+| proj2 = Beaming Thorned Petal.png
+| proj2caption = Beaming Thorned Petal
+| proj3 = Thorn Blossom Vine.png
+| proj3caption = Thorn Vine
+}}
+The '''Thorn Blossom''' is a craftable Godseeker Mode [[wand]] which is an upgrade to the [[Arch Amaryllis]]. When used it behaves similarly to the [[Arch Amaryllis]], firing a pink flower that pierces enemies and slows down horizontally more quickly than it does vertically, causing it to travel in an upwards or downwards curve depending on the direction it's fired. After two seconds, or upon hitting a block, the main projectile splits into six homing petals. The petals last two seconds before fading away, and deal 75% of the main damage. Additionally, it fires three lingering 10-segmented thorn vines, similar to the [[Nettle Burst]]'s vines, in a randomized spread with 50% extra damage and no piercing. Every time the Thorn Blossom is fired, the player will lose 3 HP.
+
+It's best [[Modifiers|modifier]] is '''Mythica'''l.
+
+== Crafting ==
+
+=== Recipe ===
+{{Recipes|result={{PAGENAME}}|view=infobox}}
+
+== Notes ==
+*Despite sharing the same projectile and velocity as the Arch Amaryllis, the flower fired from the Thorn Blossom is 34% slower.
+
+== Trivia ==
+*The tooltip is likely a reference to the power ballad, "[[wikipedia:Every Rose Has Its Thorn|Every Rose Has Its Thorn]]", by the American glam metal band [[wikipedia:Poison (American band)|Poison]].
+*If the player is killed by the Thorn Blossom's self-damage, the death message ''"<PlayerName> was violently pricked by a flower."'' will display.
+*It formerly dropped from [[Plantera]] in [[Malice Mode]]. Before that, it was the [[rare variant]] of the [[Arch Amaryllis]].
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]
+[[Category:Unobtainable content]]

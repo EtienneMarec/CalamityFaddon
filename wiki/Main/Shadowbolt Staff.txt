@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 250
+| mana = 20
+| velocity = 6
+| tooltip = The more tiles and enemies the beam bounces off of or travels through the more damage the beam does
+| knockback = 8
+| rare = 13
+| sell = {{value|0|28}}
+| use = 14
+| stack = 1
+| hardmode = yes
+| postml = yes
+| type2 = Crafting material
+| element1 = Dark
+}}
+
+The '''Shadowbolt Staff''' is a craftable Godseeker Mod e[[wand]] that is an upgraded version of the [[Shadowbeam Staff]]. It shoots a beam of purple light, which bounces 8 times before disappearing. With every bounce, the damage is increased by 15%. With every enemy pierced, the damage is increased by 10%.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Shadowbolt Staff is similar to the [[Phantasmal Fury]] and [[Venusian Trident]] in that they are all crafted using a [[Sentinels of the Devourer|Sentinel]] drop and [[Haunted Bar]]s, and directly upgrade post-[[Plantera]] magic weapons.
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

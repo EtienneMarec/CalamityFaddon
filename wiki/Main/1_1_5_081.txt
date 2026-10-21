@@ -1,0 +1,15 @@
+{{patch infobox
+| image = Cog (Calamity).png
+| patchname = Worm Hotfix
+| release = 9/15/2016
+}}
+
+The '''1.1.5.081''' update fixed a bug with worm enemies.
+
+== Fixes ==
+*All worm enemy body segments should have equal velocity and rotation formulas for all of their segments now.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

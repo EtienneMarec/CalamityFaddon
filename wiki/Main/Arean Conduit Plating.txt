@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| stack = 9999
+| placeable = yes
+| consumable = yes
+| rare = 13
+| auto = yes
+| sell = No value
+| use = 14
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Distortion Essence Sphere]]|{{dv|25-50|50-100}}|100%
+| [[Mechawyrm]]|{{dv|50-100|100-150}}|100%
+| [[Empyreon]]|{{dv|100-200|200-300}}|100%
+}}
+}}
+
+'''Arean Conduit Plating''' is a Godseeker Mode [[crafting material]] and [[block]] that drops from the [[Distortion Essence Sphere]], [[Mechawyrm]], and [[Empyreon]]. it is used to create a variety of items sometimes including [[Strange Matter]] in their recipes.
+
+== Recipes ==
+=== Used In ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Unlike [[Martian Conduit Plating]], Arean Conduit Plating does not have a [[wall]] form or any furniture.
+
+{{Starborn}}
+{{-}}
+{{DeimosMod}}

@@ -1,0 +1,39 @@
+
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| rare = C4
+| sell = {{value|10}}
+| damage = 666
+| reach = {{Infinity}}
+| attduration = {{Infinity}}
+| tooltip = Creates rings around itself. Rings that contact enemies create electric arcs that spread on other enemies damaging them
+| use = 22
+| auto = yes
+| knockback = 10
+| stack = 1
+| debuff = Noctactricity
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| proj = Exterminator Yoyo.png
+| projcaption = Exterminator
+| proj2 = Exterminator Rings.png
+| proj2caption = Rings
+| element1 = Dark
+| element2 = Unholy
+}}
+The '''Exterminator''' is a craftable Epilogue [[Yoyos|yoyo]] . When held out it creates rings around it that shock enemies with electric arcs, the rings deal 80% of the weapon damage and the arcs deal 50% of it but inflict the [[Noctacrticity]] debuff
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*It is the only yoyo to have an infinite range
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]

@@ -1,0 +1,26 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 5
+| sell = {{value|0|4|80}}
+| stack = 1
+| tooltip = Wings of the Nightingale<br/>Horizontal speed: 7.5<br/>Acceleration multiplier: 1<br/>Average vertical speed<br/>Flight time: 150<br/>5% increased damage and critical strike chance while wearing the Daedalus Armor
+| hardmode = yes
+}}
+
+'''Starlight Wings''' are a [[Hardmode]] [[Wings|wing]]-type [[covering]] that allow the player to fly and glide. If these wings are worn along with [[Daedalus armor]] with any Daedalus headpiece, the player's damage and critical strike chance are increased by 5%.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Cryonic}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

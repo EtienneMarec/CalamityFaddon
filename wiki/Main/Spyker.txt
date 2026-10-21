@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 150
+| auto = yes
+| use = 13
+| knockback = 6
+| stack = 1
+| rare = 12
+| velocity = 9
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| tooltip = Converts musket balls into spikes that stick to enemies, tiles and explode into shrapnel
+| proj = Spyker Needle.png
+| projcaption = Spyker Needle
+| proj2 = Needler Needle.png
+| proj2caption = Needler Needle
+| element1 = Poison
+| element2 = Stab
+}}
+
+[[File:Spyker (demo).gif|frame|right|The Spyker's spikes random spread and explosions.]]
+The '''Spyker''' is a craftable Godseeker Mode [[gun]] and a direct upgrade to the [[Needler]]. [[Musket Ball]]s are converted into spikes which stick to enemies and tiles and explode into more spikes, which also have a delayed explosion. The high amount of projectiles the Spyker fires makes it very effective as a crowd-controlling weapon.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Despite having the [[Stynger]] in its recipe (which uses special [[tgc:Stynger Bolt|Stynger Bolt]]s as ammo), the Spyker uses standard bullets as ammo.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Guns]]

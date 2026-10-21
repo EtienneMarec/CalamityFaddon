@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Bait
+| type2 = Crafting material
+| bait = 20
+| rare = 2
+| use = 14
+| auto = yes
+| consumable = yes
+| sell = {{value|0|0|6}}
+| stack = 9999
+}}
+|{{npc infobox | boxwidth = 21em
+| type = Critter
+| environment = Sunken Sea
+| ai = Sea Minnow AI
+| damage = 500292
+| life = 10
+| defense = 1000
+| knockback = 0
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Eutrophication
+| banner = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+}}
+
+The '''Sea Minnow''' is a [[critter]]. It is found in the [[Sunken Sea]] and aggressively swims toward the player, killing them instantly upon contact. It can also be caught with a [[Bug Net]] or [[Golden Bug Net]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Sea Minnows may also be obtained from [[Sunken Crate]]s.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}

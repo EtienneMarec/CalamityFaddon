@@ -1,0 +1,48 @@
+{{addon|Calamity: Community Remix}}
+{{npc infobox
+| imagealt = [[File:Mastaba.png]]
+| type = Flying Enemy
+| life = {{dv|999,999}}
+| damage = 0 (Idle)<br/>{{element|Unholy}} {{dv|300|450|500|525}} (Punch)
+| defense = 100
+| dr = 99.99
+| knockback = 100
+| listexclude = yes
+| hardmode = yes
+| postml = yes
+| boxwidth = 31em
+| debuff = Abyssal Flames
+| debuffchance = 100%
+| duration = 5 seconds (Punch)
+| debufftip = Your soul is being consumed
+| immuneall = yes
+| killed = NPC_Killed_52.wav
+| sound = Dd2_dark_mage_heal_impact_0.wav
+| soundtext = Punch Charged
+| sound2 = BrimstoneHellblastSound.wav
+| sound2text = Punch
+| vulnerable1 = Holy
+| vulnerable2 = Water
+| resistant1 = Dark
+| resistant2 = Unholy
+| resistant3 = Cold
+}}
+
+The '''Mastaba''' is a Godseeker Mode [[Enemies#Boss Servants|boss servant]] [[enemy]] that can be optionally spawned during the [[Supreme Calamitas]] [[Bosses|boss]] fight. If the player throws [[Holy Water]] onto the first [[Sepulcher]] that Supreme Calamitas spawns, it will destabilize and reform into the Mastaba. Consequently, the second Sepulcher that Supreme Calamitas normally spawns at 8% health will not spawn at all. The Mastaba is also intangible during the entirety of the fight, and only disappears once Supreme Calamitas herself is defeated.
+
+== Behaviour ==
+The Mastaba moves by staying to one side of the arena, following the player vertically. {{dv|10|7|5}} seconds after its previous attack, it will begin charging up a punch attack for {{dv|3||1.5}} seconds, before punching towards the opposite side of the arena. The Mastaba can only deal contact damage while flying horizontally across the arena, allowing the player to get close to the wall if they so need.
+
+== Notes ==
+* The Mastaba may only be spawned by using Holy Water on the first Sepulcher that Supreme Calamitas spawns; using it on the second Sepulcher will make it flash white down its segments, but do nothing else.
+
+== Trivia ==
+* The [[Bestiary]] entry for the Mastaba: ''"A gruesome hand formed from the destabilized essence of the Sepulcher. While it may be weaker, its sheer hatred and malice has granted it complete intangibility."''
+* The word "mastaba", in this context, refers to an ancient egyptian tomb or burial chamber.
+* The Mastaba will constantly drip blood out its open wrist, and release several passive souls similarly to the Sepulcher when defeated.
+* While the Mastaba is completely intangible and does not show its health bar, it still has high health and damage resistance; this is likely to prevent issues in case it somehow spawns without intangibility.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

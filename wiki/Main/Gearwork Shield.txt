@@ -1,0 +1,36 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| tooltip = Resets enemies back to certain points in time<br/>Right click to set a snap shot, and left click to go back<br/>Setting enemies back in time has a 1 minute cooldown, during which, the shield can be thrown<br/>'If we die and no one remembers us, I guess that's just the way it is.'
+| damage = 167
+| damagetype = Spy
+| use = 23
+| knockback = 4.25
+| auto = yes
+| velocity = 13
+| type = Weapon
+| stack = 1
+| hardmode = yes
+| postml = yes
+| boxwidth = 22em
+| rare = 13
+| sell = {{value|0|20}}
+| element1 = Dark
+| element2 = Magic
+| element3 = Smash
+| element4 = Machine
+}}
+
+The '''Gearwork Shield''' is a craftable Godseeker Mode [[Spy]] [[boomerang]]. When hitting right click, all enemies that can be homed in on have their AI states recorded. Left clicking at any point after recording causes all enemies to reset back to when the snapshot had been taken. This ability has a 1 minute cooldown. During the cooldown, the shield can be thrown like a boomerang.
+
+Performing a [[stealth strike]] with the Gearwork Shield causes all enemies that get reset to take 20x the weapon's damage. If the cooldown is up, each hit of damage the shield does reduces the ability cooldown by 1 second.
+{{modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{Magical}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

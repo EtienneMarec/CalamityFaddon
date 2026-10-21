@@ -1,0 +1,43 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Ammunition
+| tooltip = A dart made out of cosmos itself<br/>Pierces through tiles<br/>Striking an enemy causes a cosmic explosion and creates planetary darts<br/>Planetary darts decrease the enemy's stats
+| damage = 30
+| damagetype = ranged
+| stack = 9999
+| rare = 14
+| velocity = 8
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|0|30}}
+| debuff = God Slayer Inferno
+| debuffduration = 2 seconds (The dart)
+| debufftip = Your flesh is burning off
+| debuffchance = 100%
+| debuff2 = Stardust Anomaly
+| debuffduration2 = 2 seconds (The stardust dart)
+| debufftip2 = Your body is overwhelmed with stardust energy
+| debuffchance2 = 100%
+| debufflink2 = 
+| proj = Planetary_Darts.png
+| projcaption = Planetary Darts
+| element1 = Magic
+}}
+
+'''Exterminative Darts''' are craftable Godseeker Mode [[darts]]. Upon hitting an enemy, the dart will cause an explosion that deals 30% of the dart's base damage and spawn 4 planetary darts from all sides of the target. The planetary darts pierce once, dealing 10% of the dart's base damage each and home on the closest enemy. Additionally, depending on the planetary dart's color, it will decrease the enemy's stats:
+
+*Solar darts decrease the enemy's [[Damage Reduction|damage reduction]] by 1% each, up to 4% total.
+*Vortex darts decrease the enemy's movement speed by 2% each, up to 8% total.
+*Nebula darts decrease the enemy's damage by 1% each, up to 4% total.
+*Stardust darts will inflict a stackable [[Debuffs|debuff]] for 2 seconds, dealing 50 damage per second for each stack the enemy has, up to 200 DPS.
+
+Each effect will slowly deplet, at the rate of 1 stack per 2 seconds. After 1.5 seconds have passed, the planetary darts will disappear. Additionally, the dart itself has homing, goes through blocks and inflicts the [[God Slayer Inferno]] debuff.
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+
+{{Ctota}}
+[[Category:Darts]]

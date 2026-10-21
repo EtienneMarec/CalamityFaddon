@@ -1,0 +1,31 @@
+{|align=right
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| stack = 9999
+| rare = 0
+| color = #80809E
+| sell = No value
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| hardmode = yes
+}}
+|}
+
+'''Astral Brick''' is a craftable [[Hardmode]] [[block]] crafted with [[Astral Ore]] and [[Stone Block]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Astral}}
+{{Master Template Tiles
+| show-main   = yes
+| show-blocks = yes
+}}
+[[Category:Block items]]

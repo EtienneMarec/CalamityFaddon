@@ -1,0 +1,11 @@
+{{buff infobox
+| type = Debuff
+| effects = Target loses 10 health per second and has their defense leeched by you
+| tooltip = Your blood is uncontrollably leaking.
+}}
+
+'''Hemophilia''' is a [[debuff]] inflicted by various components of [[Edgeterrence]]. The debuff reduces the target's [[Defense]] by 1 point for each second on it's timer, which is then added to your own defense, and depletes 10 health per second plus however many seconds are on the timer.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}

@@ -1,0 +1,76 @@
+<section begin="npc" infobox="" />{{npc infobox
+| name = Hydrogen
+| type = Boss
+| imagealt = [[File:Hydrogen.png]]
+| ai = Hydrogen AI
+| environment = Sunken Sea
+| life = {{dv|50,000|65,000|70,440}}
+| damage = {{dv|100|120|140|220}} (Contact)<br/>{{dv|200|350|370|400}} (Rusted Bombs) <br/>{{dv|100|110|130|140}} (Shells)<br/>9999 (Death)
+| defense = 24
+| dr = 20
+| knockback = 200
+| money = {{gc|20}}
+| Sea Prism|{{dv|4-8|5-9}}| 100%
+| Surf Clam|1|100%
+| Soul of Hydrogen|1|100%
+| Hydrogen Mask|1|14.29%
+| Hydrogen Trophy|1|10%
+| custom| {{item|Cryogen (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| debuff = Wet
+| debufftip = You are dripping water
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune4 = Exo Freeze
+| vulnerable1 = Magic
+| vulnerable2 = Cold
+| resistant1 = Water
+| resistant2 = Unholy
+| resistant3 = Machine
+| hardmode = yes
+| boxwidth = 24em
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_15.wav
+| sound = Item_28.wav
+| soundtext = Projectiles
+}}<section end="npc" infobox="" />
+
+'''Hydrogen''' (Japanese: 水素 ''Suiso'') is a flammable gas. It is the second lightest [[List of items|item]] in the game.  Standing in it will result in the player constantly taking damage equal to one 120th of their maximum health every 2 frames.
+
+the [[Soul of Hydrogen|Soul of hydrogen]]  can be sold to the [[The Wall of Bronze]] to pay off the debt of the [[Town NPCs]].
+
+Hydrogen can also be crafted to be used in [[Bombs]], [[Bullets]], and Missiles.
+
+Eliminating all hydrogen from a world will drop  the [[Soul of Hydrogen]], which must be sold to the [[Archmage]] to complete a quest.
+
+==Spawn==
+Hydrogen is summoned in the Sunken Sea if the player continuously swings their weapon for one minute, as well as destroying several projectiles within the area. Gunfire will rupture underground stores and begin spreading the gas. if the it is not contained within one in-game day, the boss will spawn.
+
+==Behavior==
+the Hydrogen's boss fight is short due to its low max life, however the projectiles it fires are extremely destructive as a tradeoff, dealing high amounts of damage.
+
+===Attacks===
+====Phase 1====
+*Hydrogen fires bombs from its shield, which have varying sizes of explosions and deal various amounts of damage. These explosions can also destroy tiles easily, so it is recommended to not invest too much in building an arena. Rusted bombs and shells are more likely to not explode and simply sink.
+*Hydrogen man will also randomly target any living NPCs in the area, except for enemies which spawn in the Sunken Sea.
+
+====Phase 2====
+*Hydrogen will fire bubbles outward to signify the beginning of this phase. Bombs which explode also now fire bubbles which spread out and rise up towards the top of the water.
+
+====Phase 3====
+*This phase occurs when Hydrogen reaches 0 health. Hydrogen and their bombs will flash red. It is then advised for the player to use their [[Magic Mirror]] or [[Recall Potion]]s because Hydrogen will proceed to gather all the hydrogen present in the world (even if there is none) and explode, dealing 9999 damage to all surrounding NPCs within a 1000 block radius, and destroying the Sunken Sea. This fight should only be attempted if the player is following through with the Elemental Route.
+===In [[Expert Mode]] ===
+*Hydrogen man summons [[Clam]]s.
+
+===In [[Revengeance Mode]]===
+*Hydrogen man and its minions are even more aggressive and faster.
+
+===In [[Death Mode]]===
+*Now teleports.
+
+==Trivia==
+*Hydrogen's [[Music|theme]] is '''Atomic Reinforcement''', which was composed by the artist [https://www.youtube.com/@Jteoh Jteoh].
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

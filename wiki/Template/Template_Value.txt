@@ -1,0 +1,97 @@
+<includeonly><span data-info="{{#expr:{{{1|0}}}}}"></span> <!--
+--><span data-info="{{#expr:{{{2|0}}}}}"></span> <!--
+--><span data-info="{{#expr:{{{3|0}}}}}"></span> <!--
+--><span data-info="{{#expr:{{{4|0}}}}}"></span> <!--
+--><span data-info="{{#expr:{{{5|0}}}}}"></span> <!--
+--><span data-info="{{#expr:{{{6|0}}}}}"></span> <!--
+--><!--
+-->{{nowrap|<!--
+  -->{{#switch:{{{1|}}}|0|=|{{{1}}} {{#ifeq:{{{text|}}}|yes<!--
+                                 -->|{{#ifeq:{{{link|}}}|yes|[[Platinum Coin|Platinum]]|Platinum}}<!--
+                                 -->|<span title="Platinum Coin">[[File:Platinum Coin.png{{#ifeq:{{{small|}}}|yes|{{!}}11px}}|link={{#ifeq:{{{link|}}}|yes|Platinum Coin}}]]</span>}}<!--
+    -->{{#switch:{{{2|}}}{{{3|}}}{{{4|}}{{{5|}}{{{6|}}}|000|00|0|=|&nbsp;}}}}<!--
+  -->{{#switch:{{{2|}}}|0|=|{{{2}}} {{#ifeq:{{{text|}}}|yes<!--
+                                 -->|{{#ifeq:{{{link|}}}|yes|[[Gold Coin|Gold]]|Gold}}<!--
+                                 -->|<span title="Gold Coin">[[File:Gold Coin.png{{#ifeq:{{{small|}}}|yes|{{!}}11px}}|link={{#ifeq:{{{link|}}}|yes|Gold Coin}}]]</span>}}<!--
+    -->{{#switch:{{{3|}}}{{{4|}}{{{5|}}{{{6|}}}|00|0|=|&nbsp;}}}}<!--
+  -->{{#switch:{{{3|}}}|0|=|{{{3}}} {{#ifeq:{{{text|}}}|yes<!--
+                                 -->|{{#ifeq:{{{link|}}}|yes|[[Silver Coin|Silver]]|Silver}}<!--
+                                 -->|<span title="Silver Coin">[[File:Silver Coin.png{{#ifeq:{{{small|}}}|yes|{{!}}11px}}|link={{#ifeq:{{{link|}}}|yes|Silver Coin}}]]</span>}}<!--
+    -->{{#switch:{{{4|}}{{{5|}}{{{6|}}}|0|=|&nbsp;}}}}<!--
+  -->{{#switch:{{{4|}}}|0|=|{{{4}}} {{#ifeq:{{{text|}}}|yes<!--
+                                 -->|{{#ifeq:{{{link|}}}|yes|[[Copper Coin|Copper]]|Copper}}<!--
+                                 -->|<span title="Copper Coin">[[File:Copper Coin.png{{#ifeq:{{{small|}}}|yes|{{!}}11px}}|link={{#ifeq:{{{link|}}}|yes|Copper Coin}}]]</span>}}<!--
+    -->{{#switch:{{{5|}}{{{6|}}}|0|=|&nbsp;}}}}<!--
+  -->{{#switch:{{{5|}}}|0|=|{{{5}}} {{#ifeq:{{{text|}}}|yes<!--
+                                 -->|{{#ifeq:{{{link|}}}|yes|[[Cosmilite Coin|Cosmilite]]|Cosmilite}}<!--
+                                 -->|<span title="Cosmilite Coin">[[File:Cosmilite Coin.png{{#ifeq:{{{small|}}}|yes|{{!}}11px}}|link={{#ifeq:{{{link|}}}|yes|Cosmilite Coin}}]]</span>}}<!--
+    -->{{#switch:{{{6|}}}|0|=|&nbsp;}}}}<!--
+  -->{{#switch:{{{6|}}}|0|=|{{{6}}} {{#ifeq:{{{text|}}}|yes<!--
+                                 -->|{{#ifeq:{{{link|}}}|yes|[[Klepticoin|Klepti]]|Klepti}}<!--
+                                 -->|<span title="Klepticoin">[[File:Klepticoin.png{{#ifeq:{{{small|}}}|yes|{{!}}11px}}|link={{#ifeq:{{{link|}}}|yes|Klepticoin}}]]</span>}}<!--
+    -->}}<!--
+-->}}</includeonly><noinclude>Template for showing prices. Correctly fits inside a sentence or bullet lists.
+
+== Usage ==
+<pre>
+{{value
+| klepti
+| cosmilite
+| platinum
+| gold
+| silver
+| copper
+| [[link = {{yes/'''no'''}}]]
+| [[text = {{yes/'''no'''}}]]
+}}
+</pre>
+<pre>
+{{value|klepti|cosmilite|platinum|gold|silver|copper|option1|option2}}
+</pre>
+
+== Notes ==
+*Values of "0", "" or null are not displayed.
+*The values can also be a range.
+*The template is inside a nowrap.
+
+{|class="terraria"
+!This
+!Gives
+|-
+|<nowiki>{{Value|1}}</nowiki>
+|{{Value|1}}
+|-
+|<nowiki>{{Value|0|1}}</nowiki>
+|{{Value|0|1}}
+|-
+|<nowiki>{{Value|0|0|1|}}</nowiki>
+|{{Value|0|0|1}}
+|-
+|<nowiki>{{Value|0|0|0|1}}</nowiki>
+|{{Value|0|0|0|1}}
+|-
+|<nowiki>{{Value|1|2|0|4}}</nowiki>
+|{{Value|1|2|0|4}}
+|}
+
+== Further Options ==
+There are two optional option fields:
+*"link" specifies whether you want to link to the icon page. "yes" means there are links. "no" means there are no links. Anything else, or blank, will use the template's current default of "no"
+**It is ''recommended'' to use links for the ''first'' use of the template in a page, but not afterwards.
+*"text" option allows specifying wether the values are icons, or raw text.  "yes" means text will be used. "no" means icons will be used. Anything else, or blank, will use the template's current default of "no" (use icons).
+
+{|class="terraria"
+!This
+!Gives
+|-
+|<nowiki>{{Value|0|1|1|link=yes}}</nowiki>
+|{{Value|0|1|1|link=yes}}
+|-
+|<nowiki>{{Value|0|1|1|text=yes}}</nowiki>
+|{{Value|0|1|1|text=yes}}
+|-
+|<nowiki>{{Value|0|1|1|link=yes|text=yes}}</nowiki>
+|{{Value|0|1|1|link=yes|text=yes}}
+|}
+[[Category:Shortcut templates]]
+</noinclude>

@@ -1,0 +1,29 @@
+<includeonly>{| class="infobox" style="font-size:89%; width:21em; -moz-border-radius: .7em; -webkit-border-radius: .7em; border-radius: .7em;"
+|-
+! colspan="2" style="background-color: #373d40; color: #ffffff; font-size:120%; padding:0.5em;" | {{{name|{{BASEPAGENAME}}}}}
+|- style="text-align:center"
+| colspan="2" style="padding:0.5em;" | {{{imagealt|[[File:{{{image|{{{name|{{BASEPAGENAME}}}}}.png}}}]]}}}
+|-
+! colspan="2" style="background-color: #373d40; color: #ffffff; padding:0em;" | Statistics
+|-
+| style="width:30%" | '''Type'''
+| style="width:70%" | {{{type}}}{{#if: {{{type2|}}} | &#32;&ndash;&#32;{{{type2}}} }}
+|-
+{{#if: {{{cause|}}}|
+{{!}} '''Buffed by'''
+{{!}} {{#ifeq: {{{cause|}}} | potion | [[{{PAGENAME}} Potion]] | {{{cause|}}} }} }}
+|-
+{{#if: {{{effects|}}}|
+{{!}} '''Effects'''
+{{!}} {{{effects|}}} }}
+|-
+{{#if: {{{duration|}}}|
+{{!}} '''Duration'''
+{{!}} {{{duration|}}} }}
+|-
+{{#if: {{{tooltip|}}}|
+{{!}} style="vertical-align:middle" {{!}} '''Tooltip'''
+{{!}} style="font-style:italic;" {{!}} {{{tooltip|}}} }}
+|}{{#if:{{{type|}}}|[[Category:{{{type}}}s]]}}<!--
+-->{{#if:{{{type2|}}}|[[Category:{{{type2}}}s]]}}<!--
+</includeonly><noinclude>{{doc}}</noinclude>

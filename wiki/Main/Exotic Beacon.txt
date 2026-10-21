@@ -1,0 +1,32 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Seems to be emitting a distress signal<br/>Summons an Exo elemental to fight for you
+| sell = {{value|2|21|1}}
+| rare = 15
+| damage = 500
+| damagetype = summon
+| stack = 1
+| hardmode = yes
+| postml = yes
+| buff = Exo Elemental (buff) | bufflink = no
+| bufftip = An Exo Elemental protects you
+| debuff = Elemental Mix
+| element2 = Stab
+| element3 = Fire
+| proj = ExoCrystalp.png
+| projcaption = Exo Crystal
+}}
+}}{{summoned|Exo Elemental|type=minion}}The '''Exotic Beacon''' is an [[covering]] that can be crafted. It summons a Exo Elemental to fight for you, which will cycle between two attacks when close enough to an enemy.
+*It will fire three homing Exo Crystals that split upon colliding with them.
+*It will stab at the enemy with vines while moving toward them.
+==Crafting==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+==Trivia==
+*Along with the the [[Prehistoric Tablet]] and [[Infected Remote]], this item is one of only three elemental summoning items that don't drop from a boss or miniboss.
+*The Exo Elemental's name in the mods files was previously "Miss Miracle".

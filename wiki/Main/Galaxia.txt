@@ -1,0 +1,222 @@
+{{item infobox
+| imagealt = <Tabber>
+Cancer=[[File:Galaxia Cancer.gif]]
+|-|
+Capricorn=[[File:Galaxia Capricorn.gif]]
+</Tabber>
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 800
+| use = 18
+| velocity = 24
+| knockback = 9
+| auto = yes
+| stack = 1
+| tooltip = {{code|FUNCTION_DESC}}<br/>{{code|FUNCTION_PASSIVE}}<br/>Upgrading the sword let it break free from its earthly boundaries. You now have access to every single attunement at all times!<br/>Use RMB to cycle the sword's attunement forward or backwards depending on the position of your cursor<br/>Active Attunement : None<br/>Passive Blessing : None
+| rare = 14
+| sell = {{value|0|36}}
+| hardmode = yes
+| postml = yes
+| proj = Galaxia Bolt.png
+| projcaption = Galaxia Bolt
+| element1 = Fire
+|element2=Magic}}
+
+'''Galaxia''' is a craftable Godseeker Mode [[broadsword]] that is an upgraded version of the [[True Biome Blade]]. It possesses 4 different attack modes under the form of constellation-themed upgrades of the True Biome Blade's attunements. By default it is equipped with the {{color|Phoenix's Pride|#FF5700}} attunement. However if the player uses the right-click button, they will be able to cycle between the 4 attunements, with the cursor's position relative to the player determining in what direction the attunements should be cycled through. Unlike its predecessor, the player can access all of the attunements from anywhere in the world without having to change biomes.
+
+Unlike the True Biome Blade, Galaxia lacks a secondary attunement slot, but its active attunement will still give Galaxia one of two passive blessings depending on the tropic Galaxia is attuned to. Its passive effect is indicated by the color of Galaxia's fiery blade, with the Cancer's Blessing being granted when it appears with crimson hues, and the Capricorn's Blessing being granted when it uses cooler blue tones.
+
+{{modifier|melee}}
+
+Galaxia can obtain 4 different attunements, listed below:
+
+== Attunements ==
+
+{{#tag:tabber|
+Phoenix's Pride=
+{{Item infobox
+| float = left
+| image = Galaxia Capricorn.gif
+| namesub = Phoenix's Pride
+| damagetype = Melee
+| damage = 800
+| use = 18
+| knockback = 9
+| auto = yes
+| stack = 1
+| velocity = 24
+| tooltip = {{color|Hold the attack button to swing Galaxia around you, accelerating over time. The swirling nebula constantly emits homing cosmic bolts<br/>Releasing the attack button hurls the sword towards your cursor alongside a burst of 6 gigantic cosmic bolts. The sword then quickly returns to your hand|#FF5700}}<br/>{{color|Periodically releases a ring of weakening stars around your cursor when attacking<br/>The ring is repelled away from you at first, before slowing down over time|#4C89ED}}<br/>Upgrading the sword let it break free from its earthly boundaries. You now have access to every single attunement at all times!<br/>Use RMB to cycle the sword's attunement forward or backwards depending on the position of your cursor<br/>{{color|Active Attunement : [Phoenix's Pride]|#FF5700}}<br/>{{color|Passive Blessing : [Capricorn's Blessing]|#4C89ED}}
+| rare = 14
+| sell = {{value|0|36}}
+| proj = Galaxia Bolt.png
+| projcaption = Galaxia Bolt
+| element1 = Magic
+| element2 = Holy
+| element3 = Slash
+}}
+{{clear}}
+{{color|Phoenix's Pride|#FF5700}} is Galaxia's default attunement. It's the upgraded version of the [[True Biome Blade]]'s {{color|Swordsmith's Pride|#DC69C5}} attunement.
+
+When selected, the player will spin Galaxia around themselves, with the sword increasing in speed, size and damage as its spun up. The sword's damage will range from 50% of the weapon's base damage at the start of the attack, and ramp up to 260% of the weapon's base damage once its fully wound up. When the sword has been more than halfway charged, homing Galaxia bolts will start being fired in random directions around the player. At 75% charge or above, the player will also shoot one extra aimed bolt every swing. All the Galaxia bolts fired deal 50% of the weapon's base damage.
+
+Releasing the attack button if the sword is more than halfway spun-up will throw it in the direction of the cursor, before getting quickly pulled back to the player's hand. The thrown blade deals between 210% and 320% of the weapon's base damage, depending on the charge completion of the sword before the throw, alongside a spread of six extra Galaxia bolts, dealing 100% of the weapon's base damage each. After the throw, the player has to spin the sword back up. The availability of the sword throw is indicated with a sound effect playing after reaching 50% chargeup on the sword.
+{{-}}
+[[File:Galaxia Phoenix's Pride (demo).gif|frame|Phoenix's Pride being used against a group of [[Target Dummy|Target Dummies]].|alt=]]
+{{!}}-{{!}}
+Aries' Wrath=
+{{Item infobox
+| float = left
+| image = Galaxia Capricorn.gif
+| namesub = Aries' Wrath
+| damagetype = Melee
+| damage = 1100
+| use = 18
+| knockback = 9
+| auto = yes
+| stack = 1
+| velocity = 24
+| tooltip = {{color|Throw Galaxia to your cursor, holding it in place with constellations. Galaxia follows your cursor, rapidly spinning to shred enemies<br/>Striking enemies causes nebulous explosions which spawn homing cosmic bolts|#C459C9}}<br/>{{color|Periodically releases a ring of weakening stars around your cursor when attacking<br/>The ring is repelled away from you at first, before slowing down over time|#4C89ED}}<br/>Upgrading the sword let it break free from its earthly boundaries. You now have access to every single attunement at all times!<br/>Use RMB to cycle the sword's attunement forward or backwards depending on the position of your cursor<br/>{{color|Active Attunement : [Aries' Wrath]|#C459C9}}<br/>{{color|Passive Blessing : [Capricorn's Blessing]|#4C89ED}}
+| rare = 14
+| sell = {{value|0|36}}
+| proj = Galaxia Bolt.png
+| projcaption = Galaxia Bolt
+| element1 = Magic
+| element2 = Cold
+| element3 = Slash
+}}
+{{clear}}
+{{color|Aries' Wrath|#C459C9}} is one of Galaxia's four attunements. It's the upgraded version of the [[True Biome Blade]]'s {{color|Lamentations of the Chained|#71EFB1}} attunement.
+
+When used, Galaxia will be thrown to the player's cursor position and follow it around while spinning on itself. Galaxia remains connected to the player's hand by a chain of constellations that deals 20% of the weapon's base damage. Hitting an enemy with Galaxia itself will make 3 homing galaxia bolts burst out of the target, with each bolt dealing 50% of the weapon's base damage.
+{{-}}
+[[File:Galaxia Aries' Wrath (demo).gif|frame|Aries' Wrath being used against a group of [[Target Dummy|Target Dummies]].|alt=]]
+{{!}}-{{!}}
+Polaris' Gaze=
+{{Item infobox
+| float = left
+| image = Galaxia Cancer.gif
+| namesub = Polaris' Gaze
+| damagetype = Melee
+| damage = 1200
+| use = 18
+| knockback = 9
+| auto = yes
+| stack = 1
+| velocity = 24
+| tooltip = {{color|Hold the attack button to channel the Northern Star's power into a tight vortex of galactic energies, bound by concentric rings of stars.The vortex powers up over time and when hitting enemies<br/>Release the attack button to fire off the charged star. Attacking again immediately thereafter dashes to the star, emitting a nova of cosmic bolts|#80BDFF}}<br/>{{color|Periodically releases a ring of lifestealing stars around yourself when attacking<br/>The ring is attracted towards you at first, before slowing down over time|#CB1977}}<br/>Upgrading the sword let it break free from its earthly boundaries. You now have access to every single attunement at all times!<br/>Use RMB to cycle the sword's attunement forward or backwards depending on the position of your cursor<br/>{{color|Active Attunement : [Polaris' Gaze]|#80BDFF}}<br/>{{color|Passive Blessing : [Cancer's Blessing]|#CB1977}}
+| rare = 14
+| sell = {{value|0|36}}
+| proj = Galaxia Bolt.png
+| projcaption = Galaxia Bolt
+| proj2 = Northern Star.png
+| proj2caption = Northern Star
+| element1 = Magic
+| element2 = Fire
+| element3 = Stab
+}}
+{{clear}}
+{{color|Polaris' Gaze|#80BDFF}} is one of Galaxia's four attunements. It's the upgraded version of the [[True Biome Blade]]'s {{color|Sanguine Fury|#D83716}} attunement.
+
+When this attunement is selected, the sword will be held out in front of the player, with a bright glowing star materializing on the sword's guard, and 3 concentric rings of stars appearing one by one around the blade. Hitting enemies with the blades charges them up, which increases their size, damage and hit frequency, going from 1200 damage per hit to 1900 damage per hit. The blade's charge also slowly increases over time, even without hitting enemies. Enemy hits also make the player bounce up slightly.
+
+Releasing the attack button while the blades have more than 85% of their maximum charge remaining will send the charged star out flying in the cursor's direction, dealing 80% of the weapon's base damage, no matter the charge amount. Attacking immediately after releasing the swords while pointing in the direction of the thrown wheel will make the player quickly dash towards the wheel, damaging every enemy in the way for 600% of the weapon's base damage, with each of these hits being a critical strike, and releasing 5 homing Galaxia bolts at the end of the dash alongside 3 more bolts per enemy hit during the dash. Each Galaxia bolt deals 1300 melee damage.
+
+When hitting enemies while the {{color|Sanguine Fury|#D83716}} attunement is selected as the sword's passive attunement, the player will rarely get granted 10 health.
+{{-}}
+[[File:Galaxia Polaris' Gaze (demo).gif|frame|Polaris' Gaze being shot at a group of [[Target Dummy|Target Dummies]], then charged up again to perform a dash.|alt=]]
+{{!}}-{{!}}
+Andromeda's Stride=
+{{Item infobox
+| float = left
+| image = Galaxia Cancer.gif
+| namesub = Andromeda's Stride
+| damagetype = Melee
+| damage = 2100
+| use = 18
+| knockback = 9
+| auto = yes
+| stack = 1
+| velocity = 24
+| tooltip = {{color|Hold the attack button to charge a god-erasing lunge, release to unleash the devastating blow. Galaxia emits cosmic bolts while charging<br/>Striking the earth with the lunge will cause a massive impact which summons an apocalyptic storm of cosmic energies|#8480FF}}<br/>{{color|Periodically releases a ring of lifestealing stars around yourself when attacking<br/>The ring is attracted towards you at first, before slowing down over time|#CB1977}}<br/>Upgrading the sword let it break free from its earthly boundaries. You now have access to every single attunement at all times!<br/>Use RMB to cycle the sword's attunement forward or backwards depending on the position of your cursor<br/>{{color|Active Attunement : [Andromeda's Stride]|#8480FF}}<br/>{{color|Passive Blessing : [Cancer's Blessing]|#CB1977}}
+| rare = 14
+| sell = {{value|0|36}}
+| proj = Galaxia Bolt.png
+| projcaption = Galaxia Bolt
+| element1 = Magic
+| element2 = Water
+| element3 = Stab
+}}
+{{clear}}
+{{color|Andromeda's Stride|#8480FF}} is one of Galaxia's four attunements. It's the upgraded version of the [[True Biome Blade]]'s {{color|Mercurial Tides|#846DE9}} attunement.
+
+When the biome blade is used with this attunement, the player will hold the blade out in front of them, charging it up slowly. Releasing the attack button after having the charge up more than 25% of the way will let the player do a quick lunge in the direction of their cursor, with the speed and damage of the lunge varying based on the charge of the sword, with a fully charged up lunge dealing 450% of the weapon's base damage. The lunge also grants the player a third of a second worth of invincibility frames if they hit an enemy during the lunge.
+
+Hitting the ground with a lunge will spawn waves of large homing Galaxia bolts rippling from both sides of the impact point, with the amount of bolts being dependent on how much the lunge was charged up. The completion of each quarter of the charge will be indicated with a sound effect playing, the blade visually blinking, and by a ring of five smaller homing bolts being shot around the player, with the amount of smaller bolts being increased to 9 bolts to indicate the full charge being reached. Each of the large bolts will deal 120% of the weapon's base damage on their first hit, while the smaller bolts emitted during the chargeup deal 20% of the weapon's base damage.
+{{-}}
+[[File:Galaxia Andromeda's Stride (demo).gif|frame|Andromeda's Stride being used against a group of [[Target Dummy|Target Dummies]].|alt=]]
+}}
+
+== Passive Blessings ==
+{|align=left
+{| class="terraria" align="right" style="width:18em"
+! colspan="2" | Tropic Rings
+|-
+| [[File:Capricorn's Blessing.png|center]]<br/>[[File:Cancer's Blessing.png|center]]
+|}
+
+|Both passive effects make a ring of stars appear every 8.33 seconds of using the sword. 
+|-
+*The {{color|Capricorn's Blessing|#4C89ED}} passive makes a harmless ring of purple stars appear around the player's cursor, with the ring moving away from the player before coming to a stop, and inflicts the [[Armor Crunch]] [[debuff]] |to enemies for 3.33 seconds. 
+|-
+*The {{color|Cancer's Blessing|#CB1977}} passive makes a ring of red stars appear around the player, with the ring following the player closely before coming to a stop. The ring inflicts 3000 damage and has a 40% chance to [[Lifesteal | heal]] the player for 3 health on every hit.
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Galaxia/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Notes==
+*Constellations can be swapped between one another in this specific order by using the right mouse button on the right side of the screen : {{color|Phoenix's Pride|#FF5700}}, {{color|Aries' Wrath|#C459C9}}, {{color|Polaris' Gaze|#80BDFF}}, {{color|Andromeda's Stride|#8480FF}}. The attunement loops back around if the right click is used more. Using the right mouse button on the left side of the screen cycles between attunements in the reverse order.
+**Despite being accompanied by a loud sound effect, the constellations that appear behind the player while switching attunements do not deal any damage and are purely visual.
+*It takes 3.75 seconds to fully charge up the {{color|Phoenix's Pride|#FF5700}} sword, and two thirds of that time to reach the point at which the blade can be thrown out, as the blade accelerates twice as fast after reaching the halfway point.
+*The {{color|Polaris' Gaze|#80BDFF}}'s damage dynamically scales based off its hit frequency. This means that it will deal roughly the same dps no matter how little time there is inbetween hits, although this never happens in-game since there is an extra layer of damage scaling, resulting in the overall dps increasing. This simply means that as the sword gets charged up and the hit frequency increases the damage of the blades may appear to be going down, but the overall damage output will actually be on the rise.
+*It takes 4.16 seconds to fully charge the {{color|Andromeda's Stride|#8480FF}}'s lunge, and barely any more than one second to charge it up just enough to perform the weakest possible lunge
+**Despite the player appearing to hold the sword out during the chargeup animation, it deals no contact damage.
+**The lunge damage scales quadratically from 100% to 350% of the weapon's base damage, but given there is a minimum of 25% charge required for the lunge to be performed, the lowest possible damage that can be reached with a lunge is 115.625% base damage.
+*The large bolts from the {{color|Andromeda's Stride|#8480FF}} lunge can spawn out of any surface, even if its not the ground. Hitting walls and ceilings, or diagonal surfaces works perfectly fine and the player can take advantage of this fact with creative arena building.
+**The wave of cosmic bolts will stop spreading if any of the bolts lacks ground to spawn on due to gaps in the floor, making uneven terrain unoptimal for this attunement.
+**Due to the way the ground check for the side bolts work, the more perpendicular to the ground the lunge was, the more likely all the monoliths will spawn.
+**Galaxia bolts will not spawn out of a lunge if the player is on the ground as the sword strikes the earth.
+*The tooltip lines describing the attunements all have unique colors, with the function description using one static color, and the line indicating the current active attunement alternating between this color and another one.
+** {{color|Phoenix's Pride|#FF5700}}'s tooltips use both a reddish orange color ({{color|#FF5700 ●|#FF5700}}) and a lighter orange color ({{color|#FF8F00 ●|#FF8F00}}).
+** {{color|Aries' Wrath|#C459C9}}'s tooltips use both a lavender color ({{color|#C459C9 ●|#C459C9}}) and a pure red color ({{color|#FF0000 ●|#FF0000}}).
+** {{color|Polaris' Gaze|#80BDFF}}'s tooltips use both a pale blue color ({{color|#80BDFF ●|#80BDFF}}) and a light red color ({{color|#FF808C ●|#FF808C}}).
+** {{color|Andromeda's Stride|#8480FF}}'s tooltips use both a blueish purple color ({{color|#8480FF ●|#8480FF}}) and a light lavender color ({{color|#C2A6FF ●|#C2A6FF}}).
+** The passive {{color|Capricorn's Blessing|#4C89ED}} tooltip's color is a dodger blue color ({{color|#4C89ED ●|#4C89ED}}).
+** The passive {{color|Cancer's Blessing|#CB1977}} tooltip's color is a deep crimson color ({{color|#CB1977 ●|#CB1977}}).
+
+== Tips ==
+*The slow charge-up time on the {{color|Phoenix's Pride|#FF5700}} attunement makes the sword throw a risky move, due to the potential damage loss from having to charge the sword back up after the throw. If the player isn't confident in their ability to land the sword throw, it may be preferable for them to simply stick to the regular spin. While they may loose on some extra damage, it also spares them from the risk of missing the shot.
+
+== Trivia ==
+*Unlike its predecessors, Galaxia lacks an "Unnattuned" state. It immediately defaults to the {{color|Phoenix's Pride|#FF5700}} if no attunement is found for it.
+*Although Galaxia's inventory sprite depicts its blade as a relatively non-solid mass of cosmic gas, its sprite switches to a more solid blade when used.
+*Each one of Galaxia's four attunements reference a constellation depicted when switching between attunements, while the name of the passive blessing associated with the attunement references the tropic of the hemisphere the constellation is from. The zodiac symbol of the tropics are pictured in the middle of the starry rings that are passively released while attacking.
+**The attunements associated with the northern hemisphere's constellations and the [[wikipedia:Tropic_of_Capricorn| Tropic of Capricorn]] ({{color|Phoenix's Pride|#FF5700}} and {{color|Aries' Wrath|#C459C9}}) are both longer-ranged attunements, while the ones associated with the southern hemisphere and the [[wikipedia:Tropic_of_Cancer|Tropic of Cancer]] ({{color|Polaris' Gaze|#80BDFF}} and {{color|Andromeda's Stride|#8480FF}}) are both shorter-ranged.
+**The {{color|Andromeda's Stride|#8480FF}} is a double reference, as Andromeda was a previously considered boss, being a giant planet destroying machine. The stride of such a machine would surely be powerful enough to cause massive shockwaves on the ground.
+***This scrapped boss is also referenced by the mech summoned with the [[Flamsteed Ring]].
+**The only attunement to not directly feature the name of the constellation it references in its name is {{color|Polaris' Gaze|#80BDFF}}, which instead uses the [[wikipedia:Polaris|brightest star]] from the [[wikipedia:Ursa_Minor|Ursa Minor]] constellation as its namesake. The star is known for being one of the brighter in the northern sky, and the concentric rings of stars that appear around the sword when used reference the way Polaris appears to remain static while all the other stars orbit around it in pictures with a long exposure time.
+***The attunement is also intended as a nod to the iconic Polar Star weapon from the game ''[[wikipedia:Cave Story|Cave Story]]''. Said weapon is also referenced by the [[Polaris Parrotfish]].
+**The color used by the star rings produced by the sword's passive blessing ({{color|#4200B0 ●|#4200B0}} for the Capricorn ring, and {{color|#FF0000 ●|#FF0000}} for the Cancer ring) are references to the text colors associated with two characters from ''[[wikipedia:Homestuck|Homestuck]]'', [https://mspaintadventures.fandom.com/wiki/Gamzee_Makara Gamzee Makara] and [https://mspaintadventures.fandom.com/wiki/Karkat_Vantas Karkat Vantas], both associated with the Capricorn and the Cancer zodiac respectively.
+*Galaxia is internally named FourSeasonsGalaxia. Contrary to what one might think this has no relation whatsoever to its 4 separate attunements, since it has had this internal name even before it got reworked to have 4 distinct attack modes.
+*Galaxia is also the name of Meta Knight's sword in the Kirby franchise.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

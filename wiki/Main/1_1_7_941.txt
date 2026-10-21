@@ -1,0 +1,100 @@
+{{Patch infobox
+| image = Magnetic Meltdown (1.1.7.941).png
+| patchname = Buffed Seasonal Moon Update
+| release = 6/20/2017
+}}
+{{toc limit|3|right=yes}}
+The '''1.1.7.941''' update changed the [[Pumpkin Moon]] and [[Frost Moon]] events to gain significant stat increases after [[The Devourer of Gods]] has been defeated, making each event's main miniboss drop new materials used for late game equipment. It also made several balance changes to some [[Revengeance Mode]] [[bosses]], added several [[weapons]], and some [[debuff]] changes.
+
+== Additions ==
+*Added [[Endothermic Energy]] and [[Nightmare Fuel]].
+*Added [[Animosity]], [[Cosmic Bolter]], [[Magnetic Meltdown]], [[Scourge of the Desert]], and [[Solstice Claymore]].
+*Added [[Deific Amulet]].
+*Added [[Comet Shard]].
+*Added [[Nightwither]].
+
+== Changes ==
+
+=== Bosses and Enemies ===
+*[[Astral Probe]]s now spawn more frequently.
+*Revengeance Mode [[Brain of Cthulhu]] now spawns [[Creeper]]s every 5 seconds instead of 7.
+*Reimplemented all of [[Calamitas]]' status messages removed in [[1.1.7.901]].
+*Calamitas and her brothers will no longer flee and despawn if a [[Solar Eclipse]] is occuring.
+*Increased Revengeance Mode [[The Destroyer|Destroyer]]'s health based defense multiplier and the amount of lasers its body segments fire.
+*[[The Devourer of Gods]] changes:
+**Buffed Beam Portal damage from {{dv|104|180}} to {{dv|124|260}}.
+**Buffed Nebula Shot damage from {{dv|104|180}} to {{dv|114|208}}.
+**Nerfed bolt damage from {{dv|142|240}} to {{dv|126|232}}, and increased their speed.
+**Buffed star damage from {{dv|120|220}} to {{dv|138|256}}, and increased their speed.
+**Buffed Gravity Bomb damage from {{dv|160|250}} to {{dv|180|344}}.
+**Buffed orb damage from {{dv|104|180}} to {{dv|204|364}}.
+**Decreased damage taken multiplier during its [[Warped]] phase when not enraged from 3x to 2x.
+**Decreased damage taken multiplier during its [[Extreme Gravity]] phase when not enraged from 4x to 2x, and its multiplier when enraged from 2x to 1.5x.
+**Increased size of all projectiles.
+**Head and tail no longer takes 25% damage from [[Aegis Blade]]'s projectiles and [[Vehemence]].
+*Buffed [[Jungle Dragon, Yharon]]'s health from {{dv|850,000|1,360,000}} to {{dv|1,150,000|1,840,000}}, and increased his initial DPS cap.
+*Decreased the chance for [[legendary items]] to drop after the [[Moon Lord]] has been defeated.
+*Buffed the [[Moon Lord]]'s True Eyes of Cthulhu's health multiplier from {{dv|0|0|230x}} to {{dv|0|0|250x}}.
+*The [[Profaned Guardians]] and [[Providence, the Profaned God]] can now only be fought at day, and will flee and despawn at night.
+*Decreased the chance for [[Shark]]s to drop the [[Depth Blade]] from {{dv|14.29%|20%}} to {{dv|6.67%|10%}}.
+*Increased [[Skeletron Prime]]'s speed.
+*Increased the speed of [[Soul Slurper]]s.
+*[[The Twins]] changes:
+**Revengeance Mode Retinazer now gains 25 defense instead of 18 and fires buffed lasers every 4 seconds instead of 5 if Spazmatism is killed first.
+**Revengeance Mode Spazmatism now gains 33 defense instead of 25 and is now faster if Retinazer is killed first.
+*Increased Revengeance Mode [[Wall of Flesh]]'s horizontal speed.
+
+=== Items ===
+*Buffed [[Alpha Ray]]'s damage from 95 to 125.
+*[[Asgardian Aegis]] and [[Elysian Aegis]]' guard now increases damage and critical strike chance by 8% instead of 4%, defense by 20% instead of 10%, decreases movement speed by 25% instead of 50%, and now decreases acceleration and run speed by 60%.
+*[[Cosmilamp]]'s Cosmic Lanterns now hit every 3 frames instead of 4.
+*[[Counter Scarf]]'s [[Scarf Boost]] now lasts for 8-9.33 seconds instead of 5-6.
+*[[Demonshade Helm]] now provides 6 minion slots.
+*Buffed [[Exoblade]]'s damage from 380 to 1680, and capped its comet count at 8.
+*Increased [[God Slayer armor]]'s [[God Slayer Cooldown]] from 30 seconds to 40.
+*[[Magic Mirror]] and items with similar effects can now be properly used again during boss fights in [[Revengeance Mode]].
+*[[Nebulous Core]] changes:
+**Buffed nebula star projectile damage from 220 to 300.
+**No longer provides 50 mana, 15% reduced mana usage, 15% magic damage, and 15% magic critical strike chance boosts,
+**No longer spawns falling stars when the wearer is damaged.
+**Now provides a 20% increase to damage and critical strike chance to all damage types.
+**Now grants the wearer a 10% chance to survive a fatal hit, healing them for 100 health.
+*[[Planetary Annihilation]] now uses Cosmic Bolter in its recipe instead of [[Lunarian Bow]].
+*Nerfed [[Terratomere]]'s damage from 175 to 135, but increased its beam's damage from 70% of the weapon's damage to 85%.
+*[[Yharon's Kindle Staff]]'s Sons of Yharon's flares now hit every 4 frames.
+
+==== Recipes ====
+*Alpha Ray now uses 8 [[Cosmilite Bar]]s in its recipe.
+*[[Draedon's Forge]] now uses 20 Endothermic Energies and Nightmare Fuels in its recipe, and can now use a [[Titanium Forge]] and/or [[Orichalcum Anvil]] in its recipe as alternatives to an [[Adamantite Forge]] and/or [[Mythril Anvil]] respectively.
+*[[Dragonfruit]] now uses 10 Endothermic Energies and Nightmare Fuels in its recipe.
+*Exoblade now uses 10 Endothermic Energies and Nightmare Fuels in its recipe.
+*[[God Slayer Chestplate]] now uses 11 Endothermic Energies and Nightmare Fuels in its recipe.
+*[[God Slayer Helm]] now uses 8 Endothermic Energies and Nightmare Fuels in its recipe.
+*[[God Slayer Leggings]] now use 9 Endothermic Energies and Nightmare Fuels in their recipe.
+*[[Shadowspec Bar]]s now use 3 Endothermic Energies and Nightmare Fuels in their recipe.
+*[[Silva Armor]] now uses 16 Endothermic Energies and Nightmare Fuels in its recipe.
+*[[Silva Helmet]] now uses 14 Endothermic Energies and Nightmare Fuels in its recipe.
+*[[Silva Leggings]] now use 15 Endothermic Energies and Nightmare Fuels in their recipe.
+*[[Subsuming Vortex]] now uses 10 Endothermic Energies and Nightmare Fuels in its recipe.
+*[[Vivid Clarity]] now uses 10 Endothermic Energies and Nightmare Fuels in its recipe.
+
+=== Other ===
+*[[Abyssal Flames]], [[Brimstone Flames]], [[God Slayer Inferno]], [[Holy Flames]], [[Plague]], and [[Shred]] now produce more dust when inflicted on enemies.
+*The [[Arms Dealer]] now sells [[Stake]]s if the player has an [[Impaler]] in their inventory.
+*[[Astral Ore]] can no longer be mined until [[Astrum Deus]] has been defeated instead of intially having a mining requirement of 500 until Astrum Deus has been defeated.
+*Defeating The Devourer of Gods now causes the [[Frost Moon]] and [[Pumpkin Moon]] events to increase in difficulty on defeat, causing Endothermic Energies and Nightmare Fuel to drop from [[Ice Queen]]s and [[Pumpking]]s respectively, and increasing the stats of all enemies while the events are active, along with making the player take 220% more damage from all sources.
+*God Slayer Cooldown, [[Scarf Cooldown]], and [[Vulnerability Hex]] can no longer be manually cleared.
+*[[Grax Boost]] now boosts damage reduction by 5% instead of 15%.
+*The [[Merchant]] now sells [[Flare]]s if the player has a [[Firestorm Cannon]] or [[Spectralstorm Cannon]] in their inventory.
+*The [[Nurse]] is now instantly killed if the player is inflicted with Vulnerability Hex.
+*Vulnerability Hex now lowers life regeneration by 28 instead of 15.
+
+== Fixes ==
+*Fixed a typo in [[Arterial Assault]]'s tooltip saying "bloodflire" instead of "bloodfire".
+*Fixed the default vanilla mana stars not appearing due to [[Permanent Power-ups|Calamity's mana upgrades]].
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

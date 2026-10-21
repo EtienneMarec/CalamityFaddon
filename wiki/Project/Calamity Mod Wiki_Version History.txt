@@ -1,0 +1,21 @@
+This page details our plans for describing the Calamity Mod's version history on the Wiki. As this is a complex process due to us needing to essentially begin from scratch, we created a step-by-step plan to ensure everything is documented fully and properly.
+
+We are currently near the end of Part 1 and as such, please ''do not'' attempt to start other parts early, either by creating History pages, or History sections on existing pages. Part 2 has also been started, as porting over the templates and modules was a simple task, however the Version history page has not yet been created.
+
+== The Plan ==
+=== Part 1: Version Pages ===
+The first step is to create pages explaining the changes made for each version of the mod. This goes for both the main mod as well as the music mod. A list of all currently made version pages can be found [[:Category:Patches|here]] and a navbox containing all versions both with and without pages can be found [[Template:Versions|here]].
+
+As this step involves looking through the source code of the mod for each version and comparing it to previous versions - along with a lot of in-game testing, we are not accepting help in completing it.
+
+=== Part 2: Setting up ===
+The next step involves setting up the templates and modules needed to create History subpages (accessible through tabs at the top of pages) for each page. We decided to create subpages, instead of just using sections, because many NPCs and items in the mod have undergone lots of changes which would result in History sections taking up large chunks of space on the page - perhaps even more than the rest of the article's content.
+
+During this step we will also create the [[Version history]] page, which will summarise each main version of the main and music mods and is linked to from the navbox present on each version's page.
+
+=== Part 3: History subpages ===
+In this final step, we create the subpages and add each version's changes. This will be done going chronologically forward from version [[1.0]] all the way until the present. Each version will need every one of its changes adding to their respective subpages before we move onto the next, to ensure that we do not miss changes when adding them.
+
+Once we reach this step, any editor will be able to help add changes, following the guidelines set out above. More details on our specific plans will be available nearer the time. For now, please stay patient with us; we are working on it.
+
+[[Category:Calamity Mod Wiki]]

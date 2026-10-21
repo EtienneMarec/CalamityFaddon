@@ -1,0 +1,201 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Draedon Update Hotfixes
+| pair = 1.5.0.003 (music)
+| release = 11/23/2021
+}}
+
+The '''1.5.0.002''' (or '''1.5.0.2''') update slightly reworked [[Reactive Damage Reduction]], [[Defense damage]], and fixed several bugs and other issues from the [[Draedon Update]].
+
+{{toc limit|3|right=yes}}
+<!-- I like how this is literally the first 100% complete changelog LOL - Merkalto -->
+== Additions ==
+*Added a [[Mod Calls|mod call]] that allows for making [[exhumed]] versions of items.
+
+== Changes ==
+=== Bosses ===
+*[[Reactive Damage Reduction]] durations are now 33% shorter in Normal Mode and 15% shorter in Expert Mode.
+*Reactive Damage Reduction is now disabled in tiers. If a boss from a tier is killed on a world, all bosses below its tier will have their Reactive Damage Reduction removed. This effect also includes [[Malice Mode]]. A full list of tiers can be found below:
+**Tier 1 consists of all Pre Hardmode bosses, including [[King Slime]], [[Desert Scourge]], [[Eye of Cthulhu]], [[Crabulon]], [[Eater of Worlds]], [[Brain of Cthulhu]], [[Hive Mind]], [[The Perforators]], [[Queen Bee]], [[Skeletron]], [[The Slime God]], and the [[Wall of Flesh]].
+**Tier 2 consist of all early Hardmode bosses, including [[Cryogen]], [[Mechanical Bosses]], [[Aquatic Scourge]], [[Brimstone Elemental]], [[Calamitas]], and [[Plantera]].
+**Tier 3 consist of all late Hardmode bosses, including [[Anahita and Leviathan]], [[Astrum Aureus]], [[Golem]], [[The Plaguebringer Goliath]], [[Duke Fishron]], [[Ravager]], the [[Lunatic Cultist]], [[Astrum Deus]], and the [[Moon Lord]].
+**Tier 4 consists of [[The Dragonfolly]], [[Profaned Guardians]], and [[Providence, the Profaned Goddess]].
+**Tier 5 consists of [[Ceaseless Void]], [[Storm Weaver]], [[Signus, Envoy of the Devourer]], [[Polterghast]], and [[The Old Duke]].
+**[[The Devourer of Gods]], [[Jungle Dragon, Yharon]], [[The Fabricational Quartet]], and [[Supreme Calamitas]] have no tier, and must be individually defeated to have their Reactive Damage Reduction removed. However, upon being defeated they will still remove Reactive Damage Reduction on previous bosses.
+*Most segmented bosses have had their Reactive Damage Reduction modifiers decreased from 5x to 3x.
+**This excludes [[XM-05 Thanatos]], who now only receives a 2x modifier, including on Malice Mode.
+**This modifier has been decreased from 5x to 4x in Malice Mode.
+*Increased the amount of time needed to pass before [[Damage Reduction#Timed Aggression|Timed Aggression]] kicks in from 35% longer than the expected kill time to 50%.
+*Decreased [[Desert Scourge]] velocity by 25% on all world difficulties.
+**[[A Desert Nuisance]]s no longer drop Hearts.
+*Significantly decreased how often [[The Perforator]] worms burrow and lunge at the player on all world difficulties.
+*[[Polterghast]]'s map icons now rotate alongside the boss.
+*The Rock and Crystal [[Profaned Guardians]] are no longer considered bosses.
+*Decreased [[XS-03 Apollo]] and [[XF-09 Ares]] plasma bolt projectile damage from {{dv|400|600|632|648}} to {{dv|350|528|556|572}}.
+*XF-09 Ares can no longer fire any projectiles for 10 frames after its Exo Overload Beam attack ends. Increased the distance the player must travel away from the lasers to proc its enrage by 5 blocks.
+
+=== Enemies ===
+*The following enemies can no longer inflict [[Defense damage]]:
+**All [[Armed Zombie]] variants, all [[Crimera]] variants, [[Devourer]]s, all [[Eater of Souls]] variants, and [[Goblin Warrior]]s.
+**Additionally, [[Antlion]]s and [[Tomb Crawler]]s can no longer inflict Defense damage until the Desert Scourge has been defeated.
+*Nerfed [[Cnidrion]] HP from {{dv|400|800}} to {{dv|280|560}}.
+*[[Eidolist]]s can no longer spawn in the [[Dungeon]].
+
+=== Recipes ===
+*[[Auric Tesla Body Armor]] and [[Auric Tesla Cuisses]] now require either the [[God Slayer Chestplate]] or [[Silva Armor]] / [[God Slayer Leggings]] or [[Silva Leggings]] to be crafted instead of requiring both.
+*[[Auric Quantum Cooling Cell]] now requires 8 [[Mysterious Circuitry]], 8 [[Dubious Plating]], 40 [[Endothermic Energy]], and 6 [[Core of Eleum|Cores of Eleum]] to be crafted instead of 40 [[Wire]]s, 80 Endothermic Energy, and 12 Cores of Eleum.
+*The [[Decryption Computer]] now requires 100 [[Wire]]s to be crafted instead of 300.
+*Unsafe Eutrophic Sand Walls can now be crafted from [[Eutrophic Sand]].
+*Unsafe Eutrophic Sand and Navystone Walls can now be crafted back into Eutrophic Sand and [[Navystone]] respectively.
+*Silva Leggings are now crafted at a [[Cosmic Anvil]] instead of an [[Ancient Manipulator]].
+*Removed the [[Rod of Discord]] crafting recipe.
+*[[Unholy Core]]s are now crafted at a [[Hellforge]] instead of a Hardmode Forge.
+*The [[Voltage Regulation System]] is now crafted at an [[Ancient Manipulator]].
+
+=== Renames ===
+*Renamed Eutrophic Sand Wall to [[Unsafe Eutrophic Sand Wall]].
+*Renamed Eutrophic Sand Wall Safe to [[Eutrophic Sand Wall]].
+*Renamed Glove Of Precision to [[Glove of Precision]].
+*Renamed Glove Of Recklessness to [[Glove of Recklessness]].
+*Renamed Navystone Wall to [[Unsafe Navystone Wall]].
+*Renamed Navystone Wall Safe to [[Navystone Wall]].
+
+=== Balance and Reworks ===
+*Moved 5% summon damage from the [[Aerospec Helmet]] set bonus to the headpiece itself.
+*Gave [[Bloody Edge]] a size modifier of 125%.
+*Reworked the Defense damage formula:
+**The ratio of damage to defense damage is now always 15%, regardless of difficulty.
+**The player cannot take more than 25% of their maximum defense as defense damage.
+**Increased the defense damage regeneration delay timer from 0.25 seconds to 0.5.
+**Defense that is lost now regenerates back at a dynamic percentage every 3 frames once the regeneration delay timer has ended.
+**If the player takes defense damage and is not hit again, all defense will have been regenerated back in 1 second.
+**Consecutive hits after taking defense damage now slow the percentage of defense that is regenerated back every 3 frames. The total time for all of the player's defense to be regenerated back is capped at 15 seconds.
+**Defense damage can now only be applied to the player once every 0.25 seconds instead of every 0.083.
+*Nerfed Defense-increasing modifiers:
+**The '''Hard''' modifier now increases defense by {{color|+1|green}} / {{color|+2|green}} once Wall of Flesh has been defeated / {{color|+3|green}} once Polterghast has been defeated / {{color|+4|green}} once Jungle Dragon, Yharon has been defeated; instead of increasing defense by {{color|+1|green}} / {{color|+2|green}} once Golem or Moon Lord has been defeated / {{color|+3|green}} once Providence has been defeated / {{color|+4|green}} once The Devourer of Gods has been defeated.
+**The '''Guarding''' modifier increases defense by {{color|+2|green}} / {{color|+3|green}} once the Wall of Flesh has been defeated / {{color|+4|green}} once Golem has been defeated / {{color|+5|green}} once Providence, the Profaned Goddess has been defeated / {{color|+6|green}} once The Devourer of Gods has been defeated / {{color|+8|green}} once Jungle Dragon, Yharon has been defeated; instead of increasing defense by {{color|+2|green}} / {{color|+3|green}} once Wall of Flesh has been defeated / {{color|+4|green}} once Golem has been defeated / {{color|+5|green}} once Moon Lord has been defeated / {{color|+6|green}} once Providence has been defeated / {{color|+7|green}} once Polterghast has been defeated / {{color|+8|green}} once The Devourer of Gods has been defeated.
+**The '''Armored''' modifier now increases defense by {{color|+3|green}} / {{color|+5|green}} once Wall of Flesh has been defeated / {{color|+6|green}} once Moon Lord has been defeated / {{color|+7|green}} once Providence has been defeated / {{color|+8|green}} once Polterghast has been defeated / {{color|+9|green}} once The Devourer of Gods has been defeated \ {{color|+11|green}} once Jungle Dragon, Yharon has been defeated; instead of increasing defense by {{color|+3|green}} / {{color|+4|green}} once Wall of Flesh has been defeated / {{color|+6|green}} once Golem has been defeated / {{color|+7|green}} once Moon Lord has been defeated / {{color|+9|green}} once Providence has been defeated / {{color|+10|green}} once Polterghast has been defeated / {{color|+12|green}} once The Devourer of Gods has been defeated.
+**The '''Warding''' modifier now increases defense by {{color|+4|green}} / {{color|+6|green}} once Wall of Flesh has been defeated / {{color|+7|green}} once Golem has been defeated / {{color|+8|green}} once Moon Lord has been defeated / {{color|+9|green}} once Providence has been defeated / {{color|+10|green}} once Polterghast has been defeated / {{color|+12|green}} once The Devourer of Gods has been defeated / {{color|+15|green}} once Jungle Dragon, Yharon has been defeated; instead of increasing defense by {{color|+4|green}} / {{color|+6|green}} once Wall of Flesh has been defeated / {{color|+8|green}} once Golem has been defeated / {{color|+10|green}} once Moon Lord has been defeated / {{color|+12|green}} once Providence has been defeated / {{color|+14|green}} once Polterghast has been defeated / {{color|+16|green}} once The Devourer of Gods has been defeated.
+*Nerfed [[Endurance Potion]]'s damage reduction bonus from 10% to 5%.
+*Nerfed [[Eye of Night]]'s base damage from 35 to 28, its minion cell projectile can now only pierce enemies once instead of infinitely, no longer explodes, and it grants enemies 90 local immunity frames instead of 19. Reduced the maximum amount of cells stuck on an enemy at once from 10 to 4. Additionally, the minion can no longer deal contact damage.
+*Rebalanced [[Flesh of Infidelity]], nerfed its base damage from 26 to 23 and its minion now grants enemies 60 local immunity frames instead of standard immunity frames. Its Flesh Ball minion now fires 2 blood particles every 3 jumps instead of 1-4 every jump. Increased its Blood projectile's duration from 3 seconds to 5.
+*Buffed [[Frostbite Blaster]]'s base damage from 31 to 55. It no longer fires more bullets than intended.
+*The [[Heart of the Elements]] no longer grants the player 9 defense while equipped.
+*[[Heart]]s can now drop from the [[King Slime]] boss servants.
+*[[The First Shadowflame]] now lists that it grants minion slots in its tooltip. Decreased its minion slot bonus from +3 to +1.
+**However, it now stacks with the minions slots granted by [[Statis' Blessing]].
+*Decreased the [[Shattered Community]] maximum rage level from 60 to 25.
+*[[Tavernkeep]] armor set bonuses buffed:
+**[[Monk armor]] now grants 15% minion damage, 10% melee damage, 10% melee criticial strike chance and 10% melee speed.
+**[[Squire armor]] now grants 3 life regen and 15% melee and minion damage.
+**[[Huntress armor]] and [[Red Riding armor]] now grant 10% minion and ranged damage.
+**[[Apprentice armor]] now grants 5% minion damage and 15% magic critical strike chance.
+**[[Shinobi Infiltrator armor]] now grants 30% minion damage, 10% melee damage, 10% melee criticial strike chance and 10% melee speed.
+**[[Valhalla Knight armor]] now grants 6 life regen and 10% melee and minion damage.
+**[[Dark Artist armor]] now grants 10% minion damage and 15% magic critical strike chance.
+*Buffed [[Virid Vanguard]]'s base damage from 156 to 280 and its alternative fire function now functions correctly.
+
+=== Additional Changes ===
+*[[Bleached Angling Kit|Bleached]] and [[Sandy Angling Kit]]s now mention that they can drop fishing gear in their tooltips.
+*[[Blue Statigel Dye]] and [[Pink Statigel Dye]] now sell for {{sc|60}} instead of {{value||2|40}}.
+**[[Slime God Dye]] now sells for {{sc|65}} instead of {{value||3|60}}.
+*[[Brimstone Slag]] now has a pickaxe power requirement of 100% instead of 180% to be mined.
+*The [[Brimstone Witch]] enchantment prices are now affected by the [[Discount Card]] and other similar effects.
+*The Brimstone Witch is now listed on the Census Mod. <!-- Link me! -->
+*Increased how much [[Dark Plasma]] drops from the [[Treasure Bag (Ceaseless Void)|Ceaseless Void Treasure Bag]] from {{expert|3-4}} to {{expert|4-6}}.
+*[[Charred Ore]] now uses the {{rare|5}} rarity instead of the {{rare|6}} rarity and its sell price was decreased accordingly.
+**Also decreased its rarity on the [[Metal Detector]].
+*[[Chaotic Brick Wall]]s, [[Eutrophic Sand Wall Safe|Safe Eutrophic Sand Walls]], and [[Navystone Wall Safe|Safe Navystone Walls]] are no longer labeled on the map when moused over.
+*[[Cinder Blossom Staff]], [[Cosmic Immaterializer]], [[Deathstare Rod]], [[Frost Blossom Staff]], [[Metastasis]], [[Perdition]], [[Sun God Staff]], [[Sun Spirit Staff]], and [[Temporal Umbrella]] tooltips now mention that there can only be one of their corresponding minions active per player.
+**Additionally, the Deathstare Rod minion no longer respawns with the player after dying.
+*Reduced [[Cosmilite Brick]] and [[Silva Crystal]] pickaxe requirements from 275% to 250%.
+**This was due to an oversight.
+*[[Cosmilite Dye]] now sells for {{value|||5}} instead of {{value||7|50}}.
+**This was due to an oversight.
+*Buffed [[Crystyl Crusher]]'s pickaxe power from 500% to 1000% and decreased its use animation from 10 to 2.
+*[[The Dragonfolly (Lore)]] and [[The Profaned Guardians (Lore)]] items now use the {{rare|11}} rarity instead of the {{rare|12}} rarity. [[The Sentinels of the Devourer (Lore)]] now uses the {{rare|12}} rarity instead of the {{rare|13}} rarity.
+*Added line splits to all [[Enchantments]].
+*Simplified [[Everclear]]'s buff tooltip for consistency.
+*Added flavor text to [[Fabsol's Vodka]]. <!-- "This magical liquor is highly sought by those with a refined palate" at the end of its tooltip. -->
+*[[Hallowed Rune]] and [[Phantomic Artifact]] buffs no longer display a duration.
+*[[Hell's Sun]] now sells for {{value||2|40}} instead of {{value||22}}.
+**This was due to an oversight.
+*The [[juvenile Eidolon Wyrm]] can no longer drop the [[Lunar Cultist set]].
+*[[Lunar Kunai]]s now sell for {{value||||24}} instead of {{value||20}}.
+**This was due to an oversight.
+*The [[Moon Charm]] no longer increases the player's jump height while equipped.
+*[[Revengeance]] now has a failsafe to allow the item to be used if a normal mode world has [[Revengeance Mode]] enabled. <!-- This is for the people who use an expert world toggle mod. -->
+*[[Swirling Cosmic Flame Dye]] now yields 2 dyes when crafted instead of 1.
+*[[Tarragon Throwing Dart]]s now sell for {{value||||30}} instead of {{value|||3}}.
+**This was due to an oversight.
+*The [[Toxic Heart]] will now grant the player full immunity to the [[Plague]] debuff instead of reducing its damage by 50%.
+*Updated the [[Brimlance]] and [[Miasma]] tooltips to match their current functions. <!-- Misama new tooltip is "Fires a spread of gas clouds that slow down after hitting an enemy", Brimlance new tooltip is "Creates brimstone explosions on enemy hits" - Merkalto -->
+*Updated [[Titan Heart Mantle]] tooltip to mention that it decreases rogue attack speed instead of rogue shoot speed.
+*The following [[Walls]] now appear on the map:
+**[[Abyss Gravel Wall]], [[Eutrophic Sand Wall]], [[Navystone Wall]], and [[Voidstone Wall]].
+*The [[Wizard]] Town NPC now sells the [[Rod of Discord]] for {{pc|24}} while in [[The Hallow]] biome during Hardmode. Its buy price is unaffected by the Discount Card and other similar effects.
+*Updated the map colors for the following tiles:
+**[[Abyss Gravel]], [[Abyss Gravel Wall]] (Safe), [[Eutrophic Sand Wall]] (Safe), [[Navystone]], [[Voidstone]], and [[Voidstone Wall]] (Safe).
+*The [[Witch Doctor]] now sells [[Summoning Potion]]s for {{gc|2}} in Pre-Hardmode, {{gc|4}} in Hardmode, and {{gc|8}} post-Moon Lord.
+*The [[Yoyo Bag]] tooltip now mentions that it nerfs all [[Yoyos|Yoyo]] damage by 33% while equipped.
+
+== Fixes ==
+*Added a missing comma to one of [[Bandit]]'s dialogs. <!-- "I learned never to steal DrunkPrincess's drinks. She doesn't appreciate me right now, so I'll go back to hiding." Comma was added after now. - Merkalto -->
+*Fixed a bug that allowed [[Demon Altar]]s to drop [[Soul of Night|Souls of Night]] in Pre-Hardmode.
+*Fixed a bug that allowed [[Mimic]]s spawned by statues to drop loot.
+*Fixed a bug that allowed the player to summon more Perdition Beacons than intended.
+*Fixed a bug that caused [[Cultist Assassin]]s to create 20 copies of its gores when killed.
+*Fixed a bug that caused the game to crash if the player used [[Rancor]] without a dedicated graphics card installed on their PC.
+*Fixed a bug that caused the Wall of Flesh and various Abyss enemies to take damage from the Abyssal pressure.
+*Fixed a bug that prevented [[Chaos Ball]]s from dealing damage to the player on Expert and Revengeance mode.
+*Fixed a bug that prevented [[Draedon's Heart]] from halving projectile damage when idle.
+*Fixed a bug that prevented homing projectiles from targeting the [[Aquatic Scourge]].
+*Fixed a bug that prevented [[Schematics]] from unlocking the Draedon's Arsenal weapons.
+*Fixed a bug that prevented items added to [[Town NPC]] shops from being affected by the Discount Card and other similar effects.
+*Fixed a bug that prevented the [[adult Eidolon Wyrm]] from being flagged as dead on multiplayer.
+*Fixed a bug that would cause the game to crash when using rogue weapons with modified tooltips.
+*Fixed a sprite error on the [[Withered]] debuff.
+*Fixed a tile sheet error for the [[Void Condenser]].
+*Fixed a typo on the [[Armageddon]] and [[Spectral Veil]] tooltips.
+*Fixed a visual error that prevented The Devourer of Gods portal animation from playing as intended.
+*Fixed an issue that allowed the [[Abyssal Mirror|Abyssal]] and [[Eclipse Mirror]] dodge effects to proc on projectiles that deal no damage.
+*Fixed an issue that allowed The Devourer of Gods to become enraged too quickly while stalling during phase 1.
+*Fixed an issue that allowed Schematics to be destroyed when using [[The Codebreaker]].
+*Fixed an issue that allowed Schematics to overwrite each other when placing them into The Codebreaker.
+*Fixed an issue that prevented the [[Eutrophic Shelf]] from emitting light when placed facing left.
+*Fixed an issue that prevented Malice Mode from being toggled on multiplayer.
+*Fixed an exploit that allowed players to charge the [[Adrenaline Meter]] while no bosses were present.
+*Fixed an exploit that allowed the Deathstare Rod to inherit damage values from other projectile AI.
+*Fixed an outdated line on the [[Evil Smasher]] tooltip. <!-- No longer summons fossil spikes on hit line removed. -->
+*Fixed an oversight that allowed [[Corrupt Crate|Corrupt]], [[Crimson Crate|Crimson]], [[Dungeon Crate|Dungeon]], [[Hallowed Crate|Hallow]], [[Jungle Crate|Jungle]], and [[Sky Crate]]s to drop tier 2 or tier 3 Hardmode ores without 1 or 2 of the [[Mechanical Bosses]] being defeated.
+*Fixed an oversight that allowed multiple The Fabricational Quartet to enter their final "showdown" phase at the same time. <!-- This can still happen, it's just way harder to do now - Merkalto -->
+*Fixed an oversight that caused the laser beams of the [[Universe Splitter]] to deal magic damage instead of summon damage.
+*Fixed an oversight where the [[Arcanum of the Void]] could still drop in Normal mode.
+*Fixed an oversight where the Arcanum of the Void did not use the {{rare|expert}} rarity.
+*Fixed an oversight where the [[Phosphorescent Gauntlet]] was not listed for the Acid Rain entry on the Boss Checklist mod.
+*Fixed [[The Atom Splitter]] and [[Sacrifice]] not being classified as a Javelin and a Dagger respectively. <!-- First hotfix change, made on 11/16/2021... 72 mins BEFORE 1.5.0.1 dropped... oops - Merkalto -->
+*Fixed Auric Tesla Body Armor and the Bloodflare Wyvern Helm not displaying their weather protection bonuses in Death Mode.
+*Fixed [[Bone]]s having a larger grab-range than intended.
+*Fixed Brain of Cthulhu [[Creeper]]s incorrectly using enraged AI while not on Malice Mode.
+*Fixed critical strike values not properly applying on the [[Astral Hamaxe]], [[Astral Pickaxe]], [[Crystyl Crusher]], and [[Inferna Cutter]].
+*Fixed the [[God Slayer armor]] set bonus tooltip stating that God Slayer Dash has a 15 second cooldown instead of a 35 second cooldown.
+*Fixed Hearts dropping from certain boss servants in Revengeance mode. <!-- List for history page purposes: Aquatic Aberration, Aurora Spirit, Brimling, Brimstone Heart, Cataclysm, Catastrophe, Corrupt Slime Spawn, Cosmic Guardian, Crab Shroom, Crimson Slime Spawn, Cryocores (both), Dank Creeper, Dark Heart, Detonating Flame, Draconic Swarmer, Dried Seeker, Hive Blobs (both), Life Seeker, Parasea, Perforator Worms (all), Plague Charger, Plaguebringer, Providence's Profaned Guardians, Soul Seeker, Spiked Crimson Slime Spawn, Split Slime Gods, Sulphurous Sharkron, Supreme Cataclysm, Supreme Catastrophe, Tooth Ball -->
+*Fixed [[Roxcalibur]] not having a sell price.
+*Fixed the [[Stat Meter]] incorrectly showing un-nerfed values for jump speed.
+*Fixed [[Supreme Cataclysm]]'s fist projectile hitboxes being offset.
+*Fixed visual errors on the Yateveo Bloom.
+*Fixed [[Void Concentration Staff]] not dropping from the Ceaseless Void Treasure Bag.
+*Fixed XF-09 Ares laser canon telegraph not functioning as intended.
+*Removed extra tooltips on armor set bonuses that had their extra minion slots removed.
+
+== Removals ==
+*Removed [[Brimstone Key]], [[Mossy Gravel Wall]], and [[Silva Stun]].
+
+== Notes ==
+*This version of the Main Mod is also compatible with the [[1.5.0.002 (music)|1.5.0.002]] music mod version, however, since that version was not properly distributed, they are not paired.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

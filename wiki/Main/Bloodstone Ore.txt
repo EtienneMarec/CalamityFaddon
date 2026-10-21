@@ -1,0 +1,37 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 225
+| stack = 9999
+| rare = 10
+| color = #cc0000
+| use = 14
+| value = 925
+| sell = {{value|0|0|50|0}}
+| hardmode = yes
+| post-moonlord = yes
+}}
+
+<big> ''"The Underworld is filling with Blood"'' </big>
+
+'''Bloodstone Ore''' is a Godseeker Mode [[ore]] which generates in [[The Underworld]] upon [[Providence, the Profaned Goddess|Providence]]'s defeat. It is used as an alternate way to craft [[Bloodstone Bar]]s.
+
+== Crafting ==
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

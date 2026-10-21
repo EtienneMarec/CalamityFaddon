@@ -1,0 +1,30 @@
+{{item infobox
+|type = Furniture
+|type2 = Crafting station
+|placeable = Yes
+|auto = yes
+|width = 3
+|height = 3
+|stack = 9999
+|consumable = Yes
+|rare = 0
+| color = #BF8E6F
+| use = 14
+| tooltip = Used for special crafting
+| sell = No value
+|hardmode = yes
+}}
+
+The '''Void Condenser''' is a [[crafting station]] used to craft [[furniture]] themed around the [[Abyss]]. It can be used to create two different [[furniture sets]], one made from [[Smooth Abyss Gravel]] and the other from [[Smooth Voidstone]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used to craft ===
+{{ajax|Recipes/Void Condenser|width=80%}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:虚空压缩机]]

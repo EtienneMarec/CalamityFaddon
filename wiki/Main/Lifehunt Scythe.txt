@@ -1,0 +1,38 @@
+{{item infobox	
+| type = Weapon
+| damage = 156
+| damagetype = Melee
+| knockback = 7.5
+| stack = 1
+| rare = 12
+| sell = {{value|0|24}}
+| auto = yes
+| use = 17
+| velocity = 12
+| tooltip = Heals you on hit and shoots an energy scythe
+| hardmode = yes
+| postml = yes
+| proj = Life Scythe.png
+| projcaption = Life Scythe
+| element1 = Poison
+| element2 = Slash
+}}
+
+The '''Lifehunt Scythe''' is a craftable Godseeker Mode [[Melee weapons|melee weapon]]. When swung, it fires a short-range projectile that damages enemies on contact, piercing twice before dissipating on the third hit or after 4 seconds. Attacks landed by the scythe itself [[Lifesteal|heal]] the player for 5 HP per hit.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon gets its name from a [http://darksouls.wikidot.com/lifehunt-scythe weapon] and [http://darksouls3.wiki.fextralife.com/Lifehunt+Scythe spell] from the ''[[wikipedia:Dark Souls|Dark Souls]]'' series.
+{{-}}
+{{Uelibloom}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Healing items]]

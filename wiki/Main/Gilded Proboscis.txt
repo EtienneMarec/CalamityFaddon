@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 315
+| knockback = 8.75
+| rare = 11
+| sell = {{value|0|22}}
+| stack = 1
+| auto = yes
+| use = 19
+| velocity = 13
+| tooltip = Heals the player on hit
+| hardmode = yes
+| postml = yes
+| proj = Gilded Proboscis Spear.png
+| projcaption = Gilded Proboscis
+| element1 = Poison
+| element2 = Stab
+| element3 = Electricity
+}}
+|{{item drops infobox
+| [[The Magnificent Lightning Avian]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Gilded Proboscis''' is a [[Hardmode]] Mode [[spear]] that is dropped from [[The Magnificent Lightning Avian]]. It [[Lifesteal|heals]] the player for 1 HP each time it deals damage.
+
+{{modifier|meleealtlate}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]
+[[Category:Healing items]]
+[[Category:True melee]]

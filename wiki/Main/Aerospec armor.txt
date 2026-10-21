@@ -1,0 +1,121 @@
+{{item infobox
+| imagebreak = yes
+| type = Armor
+| defense = 20/18/16/15/17
+| rare = 3
+| sell = {{value|0|2|40}} (set)
+| proj = Sticky Feather.png
+| projcaption = Sticky Aero Feather
+| buff = Valkyrie (buff) | bufflink = no
+| bufftip = The valkyrie will protect you
+| duration = Infinite (Helmet)
+| setbonus = Taking over 25 damage in one hit will cause a spread of homing feathers to fall<br/>Allows you to fall more quickly and disables fall damage<br/><br/>'''Helm:''' 5% increased movement speed and melee critical strike chance<br/>Enemies are more likely to target you<br/><br/>'''Hood:''' 5% increased movement speed and ranged critical strike chance<br/><br/>'''Hat:''' 5% increased movement speed and magic critical strike chance<br/><br/>'''Helmet:''' 11% increased minion damage and +1 max minion<br/>Summons a valkyrie to protect you<br/><br/>'''Headgear:''' 5% increased movement speed and Spy critical strike chance<br/>Spy stealth builds while not attacking and slower while moving, up to a max of 100<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+| resistance1 = Unholy
+| resistance2 = Magic
+| vulnerable1 = Water
+| vulnerable2 = Dark
+}}
+{{summoned|Valkyrie|type=minion}}
+
+'''Aerospec armor''' is a craftable [[Pre-Hardmode]] [[Covering]] set made with [[Aerialite Bar]]s and other [[Floating Island]] materials. It requires 23 Aerialite Bars, 19 [[Cloud]]s, 9 [[Rain Cloud]]s and 5 [[Feather]]s to craft one full set. Making one of every piece requires 43 Aerialite Bars, 31 Clouds, 13 Rain Clouds and 9 Feathers.
+
+It consists of an '''Aerospec Breastplate''', '''Aerospec Leggings''', '''Aerospec Boots''', and one of five different headpieces: '''Aerospec Helm''', '''Aerospec Hood''', '''Aerospec Hat''',  '''Aerospec Helmet''' or '''Aerospec Headgear'''. Each headpiece provides different class-specific stats and set bonuses.
+
+The '''Aerospec Breastplate''' gives 7 defense and 3% increased critical strike chance. The '''Aerospec Leggings''' give 6 defense and 12% increased movement speed.
+
+*The '''Aerospec Helm''' gives 7 defense and 8% increased melee damage.<br/>Its set bonus grants an additional 5% melee critical strike chance, and +300 to [[Aggro]].
+*The '''Aerospec Hood''' gives 5 defense and 8% increased ranged damage.<br/>Its set bonus grants an additional 5% ranged critical strike chance.
+*The '''Aerospec Hat''' gives 3 defense, 8% increased magic damage, and +20 max mana.<br/>Its set bonus grants an additional 5% magic critical strike chance.
+*The '''Aerospec Helmet''' gives 2 defense and 5% increased movement speed and minion damage.<br/>Its set bonus grants an additional 11% minion damage, +1 max minion and also summons a Valkyrie to fight for the player.
+**The Valkyrie minion attacks by dashing at the enemy, dealing 20 base damage.
+*The '''Aerospec Headgear''' gives 4 defense, 8% increased Spy damage, and 5% increased movement speed.<br/>Its set bonus grants an additional 5% Spy critical strike chance and a maximum [[Spy#Stealth|Spy stealth]] of 100.
+
+All helmets also provide the set bonus of 5% increased movement speed, faster-falling speed, and immunity to fall damage. Additionally, taking over 25 damage in a single hit will cause homing feathers to fall from the sky, dealing 3 damage on contact and sticking, then exploding a short time later, dealing 30 damage to all enemies in range.
+
+A full set will always provide at least 15 defense, 3% increased critical strike chance, 17% increased movement speed, +50% maximum falling speed, immunity to fall damage, and for homing feathers to fall from the sky when the player is hit. Additionally, you get an after-image effect while moving.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Aerospec Breastplate
+| type = Armor
+| defense = 7
+| body slot = Shirt
+| tooltip = 3% increased critical strike chance
+| sell = {{value|0|0|80}}
+}}
+|{{item infobox
+| name = Aerospec Leggings
+| type = Armor
+| defense = 3
+| body slot = Pants
+| tooltip = 6% increased movement speed
+| sell = {{value|0|0|30}}
+}}
+|{{item infobox
+| name = Aerospec Boots
+| type = Armor
+| defense = 3
+| body slot = Boots
+| tooltip = 6% increased movement speed
+| sell = {{value|0|0|30}}
+}}
+}}
+
+=== Helmet variants ===
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Aerospec Helm
+| type = Armor
+| defense = 7
+| body slot = Helmet
+| tooltip = 8% increased melee damage
+| sell = {{value|0|1}}
+}}
+|{{item infobox
+| name = Aerospec Hood
+| type = Armor
+| defense = 5
+| body slot = Helmet
+| tooltip = 8% increased ranged damage
+| sell = {{value|0|1}}
+}}
+|{{item infobox
+| name = Aerospec Hat
+| type = Armor
+| defense = 3
+| body slot = Helmet
+| tooltip = 8% increased magic damage and +20 max mana
+| sell = {{value|0|1}}
+}}
+|{{item infobox
+| name = Aerospec Helmet
+| type = Armor
+| defense = 2
+| body slot = Helmet
+| tooltip = 5% increased movement speed and minion damage
+| sell = {{value|0|1}}
+}}
+|{{item infobox
+| name = Aerospec Headgear
+| type = Armor
+| defense = 4
+| body slot = Helmet
+| tooltip = 8% increased Spy damage and 5% increased movement speed
+| sell = {{value|0|1}}
+}}
+}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result=LIKE Aerospec%}}
+
+== Trivia ==
+*The exact meaning behind the word "Aerospec" is unknown, although it is believed to be a combination of "aero", meaning "air" (as in aerodynamics or aeronautics), and "specialization", similarly to the suffix of "[[Shadowspec Bar|Shadowspec]]".
+
+{{Aerialite}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}
+[[zh:天蓝套装]]

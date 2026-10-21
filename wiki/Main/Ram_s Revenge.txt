@@ -1,0 +1,48 @@
+{{addon|Calamity: Community Remix}}
+{{dedicated|Yu|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| tooltip = Wielded by the second most powerful fighter.<br/>Casts a magic bolt that summons blood explosions and lowers enemy defense on hit
+| damage = 375
+| use = 15
+| knockback = 10
+| velocity = 12
+| rare = 10
+| sell = {{value|0|20}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| debuff = Wither | debufflink = no
+| debuffchance = 100%
+| debuffduration = 4 seconds
+| debufftip = Withered...<br/>Defense reduced by 20
+| debuff2 = Burning Blood
+| debuffchance2 = 100%
+| debuffduration2 = 1 second
+| debufftip2 = Your blood is on fire
+| element1 = Dark
+}}
+'''Ram's Revenge''' is a craftable Godseeker Mode [[wand]]. It shoots a beam that inflicts the [[Wither]] [[debuff]] to hit [[enemies]] which reduces enemy [[defense]] by 20. If it hits a tile instead, it will create a blood explosion that inflicts [[Burning Blood]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon references the character Ram, Rem's sister, from ''[[wikipedia:Re:Zero − Starting Life in Another World|Re:Zero]]''.
+
+== See also ==
+*[[Rem's Revenge]], the melee counterpart to Ram's Revenge.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

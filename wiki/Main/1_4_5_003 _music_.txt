@@ -1,0 +1,29 @@
+{{Patch infobox
+| title = 1.4.5.003
+| image = Ball and Chain.png
+| patchname = Rust and Dust Fixes (Music mod)
+| prev = [[1.4.5.001 (music)|1.4.5.001]]
+| next = [[1.5.0.001 (music)|1.5.0.001]]
+| pair = 1.4.5.003
+| release = 10/4/2020
+}}
+{{dablink|This is the page for the '''1.4.5.003 Music mod''' update.}}
+The '''1.4.5.003''' (or '''1.4.5.3''') Music mod update replaced a music track for the Acid Rain event, resprited the [[Anahita]] music boxes, and fixed a few bugs.
+
+This Music Mod version is compatible with all Main mod versions between [[1.4.5.003]] and [[1.4.5.007]].
+
+== Changes ==
+*Renamed Music Box (Siren) to [[Music Box (Anahita)]].
+*Renamed Music Box (Siren Lure) to [[Music Box (Anahita Lure)]].
+*Replaced "radioactive" with "nuclear monsoon" as the [[Acid Rain]] Tier 3 music track.
+*Resprited Music Box (Anahita) and Music Box (Anahita Lure).
+
+== Fixes ==
+*Fixed a bug that prevented [[Music Boxes]] from being toggled with [[Wire]]s.
+*Fixed several audio quality issues with the Acid Rain Tier 1 and 2 music track.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-music = yes
+}}

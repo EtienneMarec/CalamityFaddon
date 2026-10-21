@@ -1,0 +1,44 @@
+{{dedicated|Helixas|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 192
+| use = 26
+| knockback = 6.5
+| velocity = 20
+| tooltip = Let the starry sky fall upon your enemies<br/>Fires a spread of bullets from the gun and a flurry of stars to rain down on the cursor<br/>Converts musket balls into starcaller shots that summon additional stars on enemy hits<br/>50% chance to not consume ammo
+| stack = 1
+| auto = yes
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| debuff = Frostburn
+| debuffchance = 100%
+| debuffduration = 5 seconds (Starcaller Shot)
+| debufftip=It's either really hot, or really cold, but it REALLY hurts
+| debuff2 = God Slayer Inferno
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Star)
+| debufftip2 = Your flesh is burning off
+| proj = Starcaller Shot.gif
+| projcaption = Starcaller Shot
+| proj2 = Universal Genesis Star.png
+| proj2caption = Star
+| element1 = Magic
+| element2 = Stab
+}}
+
+The '''Universal Genesis''' is a craftable Godseeker Mode [[gun]] which is an upgrade to the [[Disseminator]]. When used, fires a tight spread of six bullets from the gun and six additional stars from above which are aimed towards the cursor. If [[Musket Ball]]s are used as [[ammo]], bullets are replaced with Starcaller Shots which spawns 2 additional stars on hit. Initial stars deal 40% damage, while stars from the Starcaller Shots deal 50% damage.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

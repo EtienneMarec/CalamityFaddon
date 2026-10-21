@@ -1,0 +1,27 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+|type = Potion
+|tooltip = Increases player defense by 22
+|stack = 9999
+|rare = 8
+|use = 17
+|consumable = yes
+|buff = Meld Skin (buff) | bufflink = no
+|duration = 8 minutes
+|sell = {{value|0|1}}
+|hardmode = yes
+}}
+
+The '''Meld Skin Potion''' is a craftable [[Hardmode]] [[Buff Potions|buff potion]] . Upon consumption it grants the player 22 additional defense.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

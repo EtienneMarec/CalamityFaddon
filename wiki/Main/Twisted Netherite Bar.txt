@@ -1,0 +1,29 @@
+{{item infobox
+| type = Crafting material
+| stack = 9999
+| tooltip = You feel uncomfortable holding this
+| rare = 13
+| sell = {{value|0|10}}
+| hardmode = yes
+| postml = yes
+}}
+
+'''Twisted Netherite Bars''' are a Godseeker Mode [[crafting material]] made using [[Cosmilite Slag]] and [[Twisting Nether]]s. It is used to craft [[Twisted Netherite armor]], the [[Twisted Netherite Sword]], and Twisted Netherite tool set.
+
+A total of 35 bars are required to craft one of every item requiring it.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Twisted Netherite Bars are directly based on Netherite from ''[[wikipedia:Minecraft|Minecraft]]''.
+
+{{Netherite}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| tooltip = Shoots a flame scythe
+| damage = 62
+| damagetype = melee
+| use = 19
+| knockback = 7.5
+| auto = yes
+| stack = 1
+| rare = 8
+| sell = {{value|0|16}}
+| velocity = 18
+| debuff = Brimstone Flames
+| debuffduration = 3 seconds (Contact)<br/>2 seconds (Flame Scythe)
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| debuff2 = On Fire!
+| debufftip2 = Slowly losing life
+| debuffduration2 = 5 seconds (Contact)<br/>3 seconds (Flame Scythe)
+| debuffchance2 = 100%
+| hardmode = yes
+| proj = FlameScythe.png
+| projcaption = Flame Scythe
+| element1 = Fire
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Pyrogen]] {{dv|25%|33.33%}}
+}}
+}}
+
+The '''Seared Shredder''' is a [[Hardmode]] [[melee weapon]] dropped by [[Pyrogen]]. It works similarly to the [[Death Sickle]], as it shoots out spinning flame scythes, which stop after a certain time and spin in place, inflicting the [[Brimstone Flames]] and [[On Fire!]] [[Debuffs]] to [[enemies]]. This projectile can pierce through multiple enemies, goes through blocks and gives off light, making it useful in caves.
+{{modifier|melee}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

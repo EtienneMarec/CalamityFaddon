@@ -1,0 +1,33 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 10
+| mana = 10
+| knockback = 2
+| use = 34
+| tooltip = Summons a frozen flower over your head<br/>There can only be one flower
+| buff = Frost Blossom (buff) | bufflink = no
+| bufftip = A cold, prickly flower is floating uncomfortably close to you
+| stack = 1
+| rare = 1
+| sell = {{value|0|0|20}}
+| element1 = Cold
+}}
+{{summoned|Frost Blossom|type=minion}}
+
+The '''Frost Blossom Staff''' is a craftable [[Pre-Hardmode]] [[summon weapon]]. When used, it summons a frozen flower minion above the player’s head which shoots frost beams towards a nearby enemy. The beam creates a small explosion in the shape of a flower with three, four, or five petals in a randomized manner, all of which deals one-third of the weapon’s damage. Unlike most minions, only one Frost Blossom can be summoned.
+
+{{Modifier|summonalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

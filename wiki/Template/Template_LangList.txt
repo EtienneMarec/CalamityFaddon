@@ -1,0 +1,66 @@
+<includeonly>{{#if:{{#dplvar:_langlist-loaded}}||{{#dplvar:set|_langlist-loaded|y<!--
+
+//list: onWiki and offWiki (different suffix for all {{lang|}})
+-->|_langlist_onWiki_|bg, cs, da, el, fi, id, it, ja, lt, lv, nl, no, ro, sk, sv, th, tr, vi, yue, de, es, fr, hu, ko, ru, pl, pt, uk<!--
+-->|_langlist_offWiki_|zh<!--
+
+//Languages on the English wiki
+-->|_langlist_bg|on<!-- Bulgarian
+-->|_langlist_cs|on<!-- Czech
+-->|_langlist_da|on<!-- Danish
+-->|_langlist_el|on<!-- Greek
+-->|_langlist_fi|on<!-- Finnish
+-->|_langlist_id|on<!-- Indonesian
+-->|_langlist_it|on<!-- Italian
+-->|_langlist_ja|on<!-- Japanese
+-->|_langlist_lt|on<!-- Lithuanian
+-->|_langlist_lv|on<!-- Latvian
+-->|_langlist_nl|on<!-- Dutch
+-->|_langlist_no|on<!-- Norwegian
+-->|_langlist_ro|on<!-- Romanian
+-->|_langlist_sk|on<!-- Slovak
+-->|_langlist_sv|on<!-- Swedish
+-->|_langlist_th|on<!-- Thai
+-->|_langlist_tr|on<!-- Turkish
+-->|_langlist_vi|on<!-- Vietnamese
+-->|_langlist_yue|on<!-- Cantonese
+-->|_langlist_de|on<!-- German
+-->|_langlist_es|on<!-- Spanish
+-->|_langlist_fr|on<!-- French
+-->|_langlist_hu|on<!-- Hungarian
+-->|_langlist_ko|on<!-- Korean
+-->|_langlist_ru|on<!-- Russian
+-->|_langlist_pl|on<!-- Polish
+-->|_langlist_pt|on<!-- Portuguese
+-->|_langlist_uk|on<!-- Ukrainian
+
+//Languages with an own subdomain
+-->|_langlist_zh|off<!-- Chinese
+
+//isOffWiki
+-->|_langlist_isOffWiki_on|<!-- 
+-->|_langlist_isOffWiki_off|yes<!-- 
+
+//isOnWiki
+-->|_langlist_isOnWiki_on|yes<!-- 
+-->|_langlist_isOnWiki_off|<!-- 
+
+//isEn
+-->|_langlist_isEn_on|<!-- 
+-->|_langlist_isEn_off|<!-- 
+-->|_langlist_isEn_|yes<!-- 
+
+-->}}{{#dplvar:set|<!--
+-->|_langlist_onWiki_on|{{#dplvar:_langlist_onWiki_}}<!--
+-->|_langlist_offWiki_on|{{#dplvar:_langlist_offWiki_}}<!--
+-->|_langlist_onWiki_off|{{#dplvar:_langlist_onWiki_}}<!--
+-->|_langlist_offWiki_off|{{#dplvar:_langlist_offWiki_}}<!--
+
+-->}}<!-- end #dplvar -->}}<!-- end #if
+
+query for result:
+-->{{#dplvar:_langlist_{{{1}}}_{{#dplvar:_langlist_{{{2|}}}}}}}<!--
+
+--></includeonly><!--
+
+--><noinclude>{{doc}}</noinclude>

@@ -1,0 +1,65 @@
+{{Patch infobox
+| image = Wulfrum Metal Scrap (1.1.7.911).png
+| patchname = Wulfrum Update
+| release = 6/12/2017
+}}
+The '''1.1.7.911''' update added the [[Wulfrum]] equipment set and several [[Permanent Power-ups|permanent power-up items]]. It also made a few item balance changes and changed how [[Rain]] effects the player and world after the [[Moon Lord]] has been defeated.
+
+== Additions ==
+*Added [[Wulfrum Drone]] and [[Wulfrum Slime]].
+*Added [[Hemagrape|Blood Orange]], [[Dragonfruit]], [[Sambucus Fruit|Elderberry]], [[Ethereal Core]], [[Miracle Fruit]], and [[Phantom Heart]].
+*Added [[Silva Armor]], [[Silva Helm]], [[Silva Leggings]], [[Wulfrum Armor]], [[Wulfrum Headgear]], [[Wulfrum Helm]], [[Wulfrum Helmet]], [[Wulfrum Hood]], [[Wulfrum Leggings]], and [[Wulfrum Mask]].
+*Added [[Wulfrum Shard]].
+*Added [[Omniblade]], [[Wulfrum Blade]], [[Wulfrum Bow]], [[Wulfrum Knife]], and [[Wulfrum Staff]].
+*Added [[Frost Flare]].
+*Added [[Irradiated]] and [[Whispering Death]].
+
+== Changes ==
+*[[Ataxia armor|Ataxia]] and [[Xeroc armor]]'s healing orbs now last for 4 seconds instead of 5.
+*Buffed [[Blade of Enmity]]'s use time from 11 to 9.
+*Changed [[Bloody Worm Food]]'s tooltip from "Summons the" to "Summons the Perforators".
+*[[Counter Scarf]]'s [[Scarf Cooldown]] now lasts for 8 seconds instead of 5.
+*Nerfed the damage of [[Heart of the Elements]]' Elemental minions after the [[Moon Lord]] has been defeated from 500 to 300, and reduced their damage multiplier after [[The Devourer of Gods]] has been defeated from x3 to x2.5.
+*Increased the mana costs for several post-Moon Lord magic weapons.
+**Increased [[Alpha Ray]]'s mana cost from 6 to 10.
+**Increased [[Apoctosis Array]]'s mana cost from 6 to 12, and reduced the projectile size scaling with mana by 50%.
+**Increased [[Asteroid Staff]]'s mana cost from 13 to 20.
+**Increased [[Deathhail Staff]]'s mana cost from 9 to 18.
+**Increased [[Effervescence]]'s mana cost from 11 to 17.
+**Increased [[Elemental Ray]]'s mana cost from 10 to 18.
+**Increased [[Gamma Fusillade]]'s mana cost from 2 to 6.
+**Increased [[Genisis]]' mana cost from 5 to 9.
+**Increased [[Phantasmal Fury]]'s mana cost from 15 to 30.
+**Increased [[Phoenix Flame Barrage]]'s mana cost from 10 to 20.
+**Increased [[Plasma Rifle]]'s main fire's mana cost from 2 to 5, and its alt fire's mana cost from 20 to 40.
+**Increased [[Purge Guzzler]]'s mana cost from 6 to 12.
+**Increased [[Sanguine Flare]]'s mana cost from 14 to 22.
+**Increased [[Shadowbolt Staff]]'s mana cost from 8 to 20.
+**Increased [[Soul Piercer]]'s mana cost from 10 to 19.
+**Increased [[Subsuming Vortex]]'s mana cost from 15 to 30.
+**Increased [[Vehemence]]'s mana cost from 250 to 590.
+**Increased [[Viscera]]'s mana cost from 13 to 23.
+**Increased [[Vivid Clarity]]'s mana cost from 25 to 50.
+**Increased [[The Wand]]'s mana cost from 200 to 500.
+**Increased [[Yharim's Crystal]]'s mana cost from 20 to 35.
+*[[Meteor Fist]] now produces less dust.
+*After defeating the Moon Lord, the rain event causes the player and most enemies to be inflicted with the Irradiated debuff at all times, and increases enemy spawn rates.
+*Buffed [[Rouge Slash]]'s damage from 30 to 55.
+*Changed [[Teratoma]]'s tooltip from "Summons the" to "Summons the Hive Mind".
+*Reduced [[Wall of Flesh]]'s chance to drop another [[Astral Meteor]] from 10% to 5%.
+*Buffed [[Waraxe]]'s damage from 18 to 22, its use time from 29 to 22, and its axe power from 7 to 10.
+*Buffed [[Warblade]]'s damage from 25 to 27, and its use time from 23 to 18.
+*[[Yharim's Gift]] no longer makes a sound when spawning exploding dust.
+
+=== Resprites ===
+*Resprited [[Fungicide]].
+*Resprited [[Astrum Deus]]' map icon. <!---It used DoG's icon previously--->
+
+== Fixes ==
+*Fixed the first line of [[Revengeance]]'s tooltip unintentionally merging with the second line of the tooltip.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

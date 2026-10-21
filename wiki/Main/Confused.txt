@@ -1,0 +1,47 @@
+{{dablink|For the vanilla debuff page see [[tgc:Confused|Confused]]}}
+
+{{buff infobox
+| type = Debuff
+| effects = Player's controls are reversed. Enemies will head away from the player instead of towards them.
+| tooltip = Movement is reversed
+}}
+
+'''Confused''' is a vanilla [[debuff]] that reverses the player's controls. Additionally, enemies afflicted by it will move away from the player instead of towards them.
+
+== Causes ==
+=== From Calamity items ===
+{{item debuffs}}
+
+=== From Calamity NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

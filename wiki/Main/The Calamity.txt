@@ -1,0 +1,105 @@
+{{npc infobox
+| name = <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font>
+| type = Challenge
+| imagealt = <Tabber>
+
+Normal=[[File:The_Calamity.png]]
+|-|
+Finality=[[File:The_Finality.png]]
+
+</Tabber>
+| ai = The Calamity AI
+| life = 22
+| damage = 0 (Contact) </br> ∞ (Death Laser, <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''Calamity'''</font> Laser)
+| defense = 0
+| dr = 0
+| knockback = 100
+| immune2 = Pearl Aura
+| immune3 = Holy Flames
+| immune4 = God Slayer Inferno
+| immune5 = Astral Infection (debuff)
+| immune6 = Fluorescent
+| hardmode = no
+| postml = no
+|Calamitous Certificate | 1 |100%
+| image2 = The Calamity map.png
+| image2caption = Map Icon
+| boxwidth = 26em
+| sound = CalamityLaser.wav
+| soundtext = Calamity Lasers
+}}'''''"Its <u>Calamitin'</u>''' '''time!"'''''
+
+<font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font> (Japanese: '''大禍の''' ''Dai wazawai no'') is a [[Pre-Hardmode]] challenge required to be fought as the first challenge, even before the [[Wulfrum Excavator]]. Although it is the first challenge the player will encounter, it is likely a considerable challenge even to experienced players. 
+
+==Spawn==
+<font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font> can be spawned in any biome by right clicking the [[Awakening]] [[lore item]].
+==Behavior==
+<font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font>'s battle is unique as <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font> will be automatically defeated after all players have survived for 1 minute and 30 seconds after summoning <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font>. During the fight, <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font> is immune to any form of damage and will remain stationary during both phases.
+
+In its first phase, <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font> summons 2 {{item|Dark_Vein|nolink=yes|ext=png|maxsize=42px|Dark Veins}} from random locations that fire a spread of death lasers at the player.
+
+During its second phase, <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font> utilizes more difficult attacks:
+
+*<font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''Calamity'''</font> Lasers replace Dark Veins, which telegraph their direction before shooting but are faster than death lasers.
+*<font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font> will begin to shoot death lasers from its eye at the nearest player.
+
+*Many {{item|Darkscule|ext=png|maxsize=42px|Darkscules}} float at random locations around the player and explode into <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''Calamity'''</font> Lasers. If the player gets too close, the [[Darkscule|Darkscules]] immediately explode into more <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''Calamity'''</font> Lasers.
+
+==Aftermath==  
+
+*All other challenges are able to be summoned.
+
+==Secret Encounter==
+By throwing the <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font> lore item into Shimmer upon defeating every challenge up to and including Yharim (mini-challenges are not required but standard challenges are), as well as the Challenge Rush, it will become <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The True Calamity'''</font>, and can be used to summon <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''<code>Finality</code>'''</font>, a vastly upgraded version of <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font>. It will take the player into the [[Unknown Space]] subworld and begin the encounter. Similar to its standard version, the "fight" is a survival challenge where the player must survive for ten minutes.
+
+===Attacks===
+<font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''<code>Finality</code>'''</font> will constantly fire a deluge of <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''<code>Finality</code>'''</font> Lasers at the player. These are unique for projectiles as they inflict no debuff directly, but will actually reverse time and temporarily trap the affected player, meaning that all attacks launched within the previous five seconds will return to the sender. In multiplayer, this means the other players must anticipate where the reversed attacks will come from, as getting hit could potentially result in a stun lock chaining from player to player. In addition, <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''<code>Finality</code>'''</font> will occasionally spawn Echoes, which take the form of greyed out illusions of previous challenges and perform weakened and easier to dodge versions of their attacks. Echoes are scaled, meaning Echoes taking the form of early-game challenges (such as the Brain of Cthulhu) will have much higher attack, health, and attack pattern difficulty compared to Echoes of endgame challenges such as Supreme Calamitas. When an Echo is alive, the survival timer pauses but cannot be increased by <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''<code>Finality</code>'''</font> Lasers. <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''<code>Finality</code>'''</font> will spawn new Echoes every 45 seconds.
+
+===List of Echoes that can be summoned=== 
+
+*Echo of Sight ([[Calamitas]])
+*Echo of Torment ([[Supreme Calamitas]])
+*Echo of Mind (Brain of Cthulhu)
+* Echo of Rot (Eater of Worlds)
+*Echo of Nature (Plantara)
+*Echo of Innovation (Mechdusa)
+*Echo of Absolution ([[Cryogen]])
+*Echo of Light (Empress of Light)
+*Echo of Dominion (Moon Lord)
+*Echo of Insanity ([[Providence, the Profaned Goddess]])
+* Echo of Devastation ([[Ravager]])
+*Echo of Loyalty ([[Jungle Dragon, Yharon]])
+*Echo of Disease ([[The Plaguebringer Goliath]])
+*Echo of Hunger ([[The Devourer of Gods]])
+*Echo of Starlight ([[The Starborn Moth]])
+*Echo of Tyranny ([[Godseeker, Yharim]])
+
+==Notes==  
+
+*All damage inflicted bypasses invincibility frames, death prevention, and even god mode.
+*{{dei}} If the Deimos, the Starborn Princess addon is enabled, <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font> is given a new sprite.
+[[File:The Calamity Better.png|thumb|150px|<font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity's'''</font> sprite if the Deimos, the Starborn Princess addon is enabled {{dei}}.]]
+
+==Tips==
+{{dablink|For more elaborate strategies on defeating The Calamity, including [[weapon]] and [[tgc:Guide:Arena|arena]]<nowiki> recommendations, see The Calamity strategies]]. </nowiki>}} 
+*Due to its unique mechanics, gear should be focused on movement.
+**If fought later in progression, death prevention items prove extremely useful.
+* Any strategies used for the [[Torch God]] event is applicable during the fight.
+== Trivia==  
+
+*<font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity's'''</font> [[Music|theme]] is <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">[https://youtu.be/4QcFZ7mlbOE Stained Smeared Calamity]</font>, which was composed by the artist [https://www.youtube.com/@Jteoh Jteoh].
+*According to the mod creators, <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font> is the embodiment of every war in the mod's history and the hatred held by those slain during these wars allowed it to come into being.
+*If the Challenge Checklist Mod is installed, its unique despawn message will be "<font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''The Calamity'''</font> leaves, having defeated yet another unworthy one."
+*In the Japanese translation, the name is "<font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''大禍の'''</font> ''Dai wazawai no''"
+
+==Quotes==  
+*"I will test your abilities, adventurer! Good luck." (When summoned)
+*"Your dodging skills are proficient, but how will you fare against the ones after me?" (After 25 seconds have passed)
+*"Things are about to get <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''Calamitous!'''</font>" (After 45 seconds have passed)
+*"Your foes will often attack in predictable patterns; see past them and strike." (After 60 seconds have passed)
+*"You have passed the test. Well done." (When defeated)
+*"Is that... me?" (If a player is holding an [[Ogscule]])
+{{Master Template Characters
+| show-main = yes
+| show-challenge = yes
+}}

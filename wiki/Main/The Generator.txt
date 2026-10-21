@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| stack = 1
+| auto = yes
+| type = Weapon
+| type2 = Crafting material
+| damage = 67
+| damagetype = magic
+| mana = 17
+| use = 24
+| velocity = 25
+| tooltip = Ugh! I hate having to rely on you, and your vacant stare when I revealed my grand plan was truly insulting. Well, let's see if you can break this thing on my head. If you can, then someday... hee hee hee...I may get to toy with you again!<br/>Launches a master crown sigil that draws in nearby enemies
+| debuff = Shadowflame
+| debuffchance = 100%
+| debuffduration = 2 seconds 
+| debufftip = Losing life
+| knockback = 2
+| rare = 5
+| hardmode = yes
+| sell = | sell = {{value|0|7|20}}
+| proj = C-R-O-W-N-E-Dsigil.png
+| projcaption = Crowned Sigil
+| element1 = Fire
+}}
+|{{item drops infobox
+| [[Pyrogen]] {{dv|25%|33.33%}}
+}}
+}}
+'''The Generator''' is a [[Hardmode]] [[spell tome]] that is dropped by [[Pyrogen]]. It fires an infinitely piercing spiked purple sigil that draws in nearby enemies and deals continuous damage to them. The sigil travels in a straight line and travels through placed tiles while emitting light.
+{{Modifier|magic}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon's sprite, projectile, and tooltip all reference [https://wikirby.com/wiki/Magolor Magolor] from ''[https://en.wikipedia.org/wiki/Kirby%27s_Return_to_Dream_Land Kirby's Return to Dream Land]'' and his soul boss fight.
+*The weapon's tooltip is directly taken from [https://wikirby.com/wiki/Magolor_Soul Magolor Soul]'s final phase true arena description.
+
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

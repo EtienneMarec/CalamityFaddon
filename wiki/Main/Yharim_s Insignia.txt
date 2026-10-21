@@ -1,0 +1,44 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = 10% increased damage when under 50% life<br/>10% increased melee speed<br/>10% increased melee and true melee damage<br/>Melee attacks and melee projectiles inflict holy fire<br/>Temporary immunity to lava<br/>Increased melee knockback
+| stack = 1
+| rare = 11
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| debuff = Holy Flames
+| debuffchance = 100%
+| debufftip = Dissolving from holy light
+| debuffduration = 2, 4, or 6 seconds (Melee attacks)
+}}
+
+The '''Yharim's Insignia''' is a Godseeker Mode [[covering]] obtained by completing the [[Pot of Pain]] challenge within the [[Jungle Temple]] that grants the player the following effects:
+*10% increased damage when under 50% life
+*10% increased melee damage and speed
+*10% additionally increased [[true melee]] damage
+*Melee attacks inflict the [[Holy Flames]] [[debuff]]
+*Temporary immunity to [[lava]]
+*Increased melee [[knockback]]
+
+{{PAGENAME}} can also be crafted after completing the Pot of Pain.
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*There is a 25% chance for Holy Flames to be inflicted for 6 seconds, a 37.5% chance to be inflicted for 4 seconds, and a 37.5% chance to be inflicted for 2 seconds.
+
+== Trivia ==
+*The item does not actually depict Yharim's insignia.
+
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

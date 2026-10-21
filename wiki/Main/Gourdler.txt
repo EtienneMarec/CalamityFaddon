@@ -1,0 +1,39 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 86
+| auto = yes
+| use = 36
+| knockback = 3
+| stack = 1
+| rare = 4
+| velocity = 15
+| sell = {{value|0|0|80}}
+| tooltip = Hold left click to load up to eight gourd grenades into the gun<br/>Gourd grenades explode into a burst of spikes
+| proj = Gourd Grenade.png
+| projcaption = Gourd Grenade
+| proj2 = Urchin Spike.png
+| proj2caption = Gourd Spike
+| element1 = Fire
+| element2 = Poison
+| element3 = Bomb
+}}
+
+The '''Gourdler''' is a craftable [[Pre-Hardmode]] [[ranged weapon]]. When used, the weapon slowly charges, indicated by the barrel increasing in size after each charge. After eight charges, the weapon is fully loaded and can fire eight gravity-affected gourd grenades; each charge adds a gourd grenade and releasing the left-click before the weapon is fully charged will cause it to fire whatever amount was charged at that point. The gourd grenades explode immediately on contact with enemies, splitting into a burst of gravity-affected gourd spikes in random directions. Gourd grenades will explode on impact with tiles if they have been in the air for at least 0.25 seconds, otherwise they will rebound away. This weapon uses no [[ammo]].
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*A [[wikipedia:Gourd|Gourd]] is fleshy, typically large fruit with a hard skin, some varieties of which are edible.
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

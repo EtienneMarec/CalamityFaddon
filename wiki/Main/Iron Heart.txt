@@ -1,0 +1,50 @@
+{{historical content}}
+{{item infobox
+| name = Iron Heart
+| type = Tool
+| use = 45
+| tooltip = Healing with potions and all positive life regen is disabled.<br/>Enemy damage scales with your max health.<br/>Can be toggled on and off.
+| rare = rainbow
+| stack = 1
+| image2 = IronHeartsAppearance.png
+| image2caption = Hearts after using the Iron Heart
+| sell = No value
+}}
+
+The '''Iron Heart''' was an item placed in a newly spawned player's inventory. Upon being used in [[Expert Mode]], it enabled or disabled several effects on every character in the current world:
+
+*Natural [[Health regeneration]] couldn't increase beyond 0, preventing the player from naturally healing over time.
+**If the player was under effects that decreased life regeneration (such as [[Alcohol]], [[Mana Polarizer]], or [[Ethereal Extorter]]), life regeneration bonuses were able to offset them up to the point where they dealt no damage. Damaging [[debuffs]], however, were unaffected by this, and would deal full damage regardless of the player's hidden life regeneration.
+*[[Recovery Potions]] couldn't be used.
+*Direct damage taken by the player dealt a minimum amount of damage, dependent on the player's max HP. The damage floor was calculated as 40 + 10% of the player's max HP. Hits that would deal more damage than this minimum would deal their normal damage.
+**[[Damage Reduction]] was applied before Iron Heart's damage floor; it could only reduce the base damage of the attack taken down to that floor. [[Defense]], however, was applied ''after'' Iron Heart, and could reduce the amount of damage taken in one hit to below the damage floor.
+*The player's life hearts would become light gray in appearance, with black 'eyes' on either side of each, matching the appearance of being heart-shaped skulls. They remained with this appearance even after using [[Life Fruit]]s or other [[permanent power-up]]s.
+*The player would have custom hit and death sounds.
+**A softer version of the hit sound played if the taken damage was below (and therefore increased to) the damage floor, and a louder version played if the damage taken was above the damage floor.
+
+== Notes ==
+*The Iron Heart's effects were tied to the world it was used in, rather than the player that used it. This means that all players that join a world in which the Iron Heart had been used would have the Iron Heart's effects, even if they didn't use the item.
+*[[Heart]]s, the [[Nurse]], and [[Lifesteal]] effects would still heal the player even while Iron Heart was active.
+*The damage multiplier applied to the player by the [[Blood Pact]]'s critical hits and the [[Dimensional Soul Artifact]] were applied after Iron Heart's damage floor.
+*[[Permafrost's Concoction]], the [[Nebulous Core]], and the [[Draconic Elixir]]'s revive effects could still restore the player to their set health amounts while Iron Heart was active.
+*Fall damage, thorny bushes, and (wooden) spikes were unaffected by Iron Heart's damage floor, but [[Traps]] were affected.
+*The [[Bloodflare Core]] could heal the player while Iron Heart was active, as it healed the player directly instead of increasing life regeneration.
+
+== Tips ==
+*Due to disabled life regeneration, Iron Heart would be used to trigger certain effects that only happened when below certain amount of health such as [[Necklace of Vexation]], or [[Sulfuric Scale]].
+**The player could manually lower their health to trigger these effects by using items such as the [[Thorn Blossom]].
+
+== Trivia ==
+*The appearance of the life hearts after using the Iron Heart was a reference to the game ''[[wikipedia:Hollow Knight|Hollow Knight]]'', in which the player's mask-based life meter bears a striking resemblance.
+**This item's name is a reference to ''Hollow Knight's'' perma-death mode, known as "Steel Soul".
+*The life hearts' appearance also referenced the life hearts in ''[[wikipedia:Minecraft|Minecraft]]'''s perma-death mode known as "Hardcore", as the mode causes the player's hearts to develop eye-like streaks.
+*In previous versions of the mod, this item made dying while a boss was alive permanently kill the player in a similar manner to [[Hardcore]].
+**Additionally in previous versions of the mod, this item became unusable after a minute of runtime in the world.
+
+{{historical}}
+{{Master Template Tools
+|show-main = yes
+|show-other = yes
+}}
+{{Game mechanics}}
+[[Category:Game mechanics]]

@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = ranged
+| damage = 100
+| knockback = 2.75
+| rare = 14
+| sell = {{value|0|36}}
+| stack = 1
+| critical = 19%
+| velocity = 16
+| auto = yes
+| use = 2
+| tooltip = It came from the edge of Terraria<br/>50% chance to not consume ammo
+| hardmode = yes
+| postml = yes
+| proj = Fishron rocket.png
+| projcaption = Fishron Rocket
+| element1 = Water
+| element2 = Magic
+}}
+The '''SDFMG''' (or '''Space Duke Fishron Machine Gun''') is a craftable Godseeker Mode [[gun]] and an upgrade to the [[S.D.M.G.]] It rapidly fires bullets with a 20% chance to instead fire a water rocket that homes in on enemies.
+
+{{Modifier|rangedalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

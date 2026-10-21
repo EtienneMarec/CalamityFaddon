@@ -1,0 +1,28 @@
+{|align=right
+|{{item infobox
+| type = Covering
+| tooltip = 15% increased melee speed<br/>Increases melee damage and melee crit by 5%<br/>+5 armor penetration
+| covering = True
+| stack = 1
+| hardmode = yes
+| postml = yes
+| rare = 12
+| sell = {{value|0|24}}
+}}
+|}
+The '''Badge of Bravery''' is a craftable Godseeker Mode [[covering]] which increases melee speed by 15%, melee damage and critical strike chance by 5%, and armor penetration by 5.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Uelibloom}}
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

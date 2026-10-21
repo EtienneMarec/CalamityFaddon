@@ -1,0 +1,43 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 65
+| knockback = 3
+| rare = 9
+| use = 22
+| sell = {{value|0|19}}
+| stack = 1
+| reach = 28.25
+| attduration = {{infinity}}
+| tooltip = Fries nearby enemies with radiation<br/>A very agile yoyo<br/>Cooking, Astral Infection style
+| debuff = Ancient Astral Blight
+| debuffchance = 100%
+| debuffduration = 4 seconds (Yoyo)<br/>3 seconds (Aura)
+| debufftip = An ancient cosmic affliction spreads through you
+| auto = yes
+| hardmode = yes
+| proj = Microwave Yoyo.png
+| projcaption = The Microwave
+| element1 = Magic
+| element2 = Fire
+| element3 = Poison
+}}
+|{{item drops infobox
+| [[Astrum Deus]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+'''The Microwave''' is a [[Hardmode]] [[yoyo]] dropped by [[Astrum Deus]]. While the yoyo is in the air, a small aura surrounds it which continuously damages nearby enemies, dealing 35% of the yoyo's base damage and inflicting the [[Ancient Astral Blight]] [[debuff]].
+
+{{modifier|meleealt}}
+
+== Trivia ==
+*The Microwave emits a notable humming noise as it travels, and a [[wikipedia:Beep (sound)|beep]] sound when enemies are killed with it, mimicking that of [[wikipedia:microwave oven|a real-life microwave oven]]. Its tooltip makes reference to this, mentioning cooking.
+*The Microwave could also be a reference to the [[wikipedia:Cosmic microwave background|cosmic microwave background]] radiation in space, supported by the weapon's related boss being themed around space.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]

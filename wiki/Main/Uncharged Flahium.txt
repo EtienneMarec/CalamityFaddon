@@ -1,0 +1,24 @@
+{{Item infobox
+| type = Item
+| stack = 9999
+| rare = 15
+| tooltip = Charges in 60 in-game minutes
+| sell = No value
+| use = 14
+| consumable = yes
+| auto = true
+| hardmode = yes
+| postml = yes
+}}
+
+'''Uncharged Flahium''' is a Godseeker Mode [[item]] crafted from [[Flahium Slag]] and [[Primordial Light Shard]]s. After 60 in-game minutes of not being used it will turn into a [[Flahium Bar]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Flah}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

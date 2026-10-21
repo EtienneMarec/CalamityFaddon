@@ -1,0 +1,46 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 78
+| mana = 22
+| tooltip = Fires a spread of plague fangs
+| knockback = 8
+| rare = 8
+| sell = {{value|0|16}}
+| use = 21
+| stack = 1
+| debuff = Plague
+| debuffduration = 5 seconds
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| hardmode = yes
+| velocity = 16
+| proj = Plague Fang.png
+| projcaption = Plague Fang
+| element1 = Poison
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Plague Staff''' is a [[Hardmode]] [[wand]] dropped by [[The Plaguebringer Goliath]]. It shoots out 6-8 plague fangs, which are colored green and are trailed by pink light. The player can tighten the spread of the projectiles by aiming the cursor further away. All the fangs can pierce an enemy at the same time, and they can pierce through 5 enemies. On hit, they inflict the [[Plague]] [[debuff]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon can be considered a successor to the [[Venom Staff]], as it has a similar method of attack with much better stats and a better debuff.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

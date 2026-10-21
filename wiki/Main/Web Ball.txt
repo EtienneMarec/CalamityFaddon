@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damage = 8
+| use = 19
+| knockback = 3
+| damagetype = Spy
+| rare = 0
+| tooltip = Throws a web-covered ball that covers enemies in cobwebs to slow them down<br/>Stealth strikes slow enemies down longer
+| sell = {{value|0|0|0|6}}
+| velocity = 6.5
+| stack = 9999
+| consumable = yes
+| debuff = Webbed
+| debuffchance = 100%
+| debuffduration = 1 second<br/>3 seconds (stealth strike)
+| debufftip = You are stuck.
+| element1 = Poison
+| element2 = Smash
+}}
+
+The '''Web Ball''' is a craftable consumable [[Pre-Hardmode]] [[spiky balls|spiky ball]]. It throws a gravity affected web-covered ball that inflicts the [[Webbed]] [[debuff]] onto enemies for one second, slowing their movement.
+
+Performing a [[stealth strike]] with Web Balls causes the next ball thrown to inflict three seconds of Webbed instead of one.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Spiky Balls]]

@@ -1,0 +1,48 @@
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-3 health per second (if player)<br/>-90 health per second (if enemy)
+| tooltip = The acidic water burns away your flesh
+}}
+
+'''Sulphuric Poisoning''' is a [[debuff]] caused by being submerged in water in the [[Sulphurous Sea]] [[biome]], or inflicted by the [[Sea's Searing]] and [[Scourge of the Seas]]'s [[stealth strike]].
+
+The debuff is removed as soon as the player exits sulphuric water. [[Sulphurskin Potion]]s and [[Sulphurous armor]] will reduce the damage taken from this debuff. The [[Effigy of Decay]] and [[Silva armor]] will make the player immune to this debuff.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|-
+| {{item|mode=table|Radiator}}||Infinite (Aura Post-[[Polterghast]])||100%
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

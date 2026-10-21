@@ -1,0 +1,31 @@
+{{item infobox
+| type = Ammunition
+| tooltip = Gives off a concussive blast that confuses enemies in a large area for a short time
+| damage = 7
+| damagetype = ranged
+| stack = 9999
+| consumable = yes
+| knockback = 1.15
+| sell = {{value|0|0|0|50}}
+| rare = 1
+| velocity = 12
+| velocitymult = 4
+| debuff = Confused
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| debufftip = Movement is reversed
+| proj = Flash Bullet.png
+| projcaption = Flash Bullet
+}}
+
+'''Flash Rounds''' are [[Pre-Hardmode]] [[bullets]] crafted from [[Glass]] and a [[Grenade]]. They release a blast of low-damage light after travelling for a short distance, applying the [[Confused]] [[debuff]] to any enemy caught in the flash.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+|show-main=yes
+|show-ammo=yes
+}}
+[[Category:Bullets]]

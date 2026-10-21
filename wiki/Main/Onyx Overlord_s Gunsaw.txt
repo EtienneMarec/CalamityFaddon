@@ -1,0 +1,53 @@
+{{addon|Calamity: Community Remix}}
+{{infobox wrapper
+|{{item infobox
+| type = Tool
+| type2 = Weapon
+| damagetype = Melee
+| damage = 6514
+| knockback = 15
+| use = 23
+| axe = 9001
+| velocity = 1
+| critical = 23%
+| tooltip = Projects a directed stream of onyx sawblasts while firing bullets rapidly <br/>This weapon and its projectiles function as a chainsaw
+| rare = 16
+| sell = {{value|0|75}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Onyxsaw.png
+| projcaption = Somewhat cost-efficient chainsaw
+| proj2 = Onyx Sawblade.png
+| proj2caption = Onyx Sawblade
+| element1 = Dark
+| element2 = Unholy
+| element3 = Stab
+| element4 = Machine
+}}
+}}
+The '''Onyx Overlord's Gunsaw''' is an Epilogue [[axes|chainsaw]]. It rapidly fires out onyx saw blasts which circle back after passing through the cursor or past a set distance, along with rapid shotgun bursts of bullets. The maximum set distance along with tooth damage increases as the weapon is used up to 1.5 seconds where it is fully charged. The blast deals 8% damage initially and scales up to 20.56%, while the chainsaw itself deals full contact damage. Additionally, saw projectiles will instantly remove trees.
+
+{{Modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+==Trivia ==
+*The chainsaw projectile itself is named "Somewhat Cost-Efficient Chainsaw" in reference to it being an upgrade of the photon ripper.
+*This weapon was implemented due to a proper upgrade of the onyx gunblade being highly requested by fans, and subsequently made into a legendary challenge item.
+*This weapon having the axe power of 9001% is most likely a reference to the famous Dragon Ball Z meme "It's Over 9000!"
+
+{{shadowspec}}
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Axes]]

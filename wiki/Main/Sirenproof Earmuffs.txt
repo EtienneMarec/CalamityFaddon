@@ -1,0 +1,19 @@
+{{item infobox
+| type = Tool
+| stack = 1
+| tooltip = Favorite this item to prevent Anahita from spawning near you
+| rare = 1
+| sell = {{value|0|0|20}}
+| hardmode = yes
+}}
+
+The '''Sirenproof Earmuffs''' is a craftable [[Hardmode]] [[spawn-blocking]] [[tool]]. While the item is favorited in the player's inventory, [[???]] spawns are disabled.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-other = yes
+}}

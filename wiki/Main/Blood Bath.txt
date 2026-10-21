@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 31
+| mana = 10
+| tooltip = Drenches your foes in blood<br/>"Whose blood will be spilt in the Bloodbath? Who will the victors be? How many will survive? Good luck..."
+| knockback = 5.75
+| rare = 3
+| sell = {{value|0|0|80}}
+| use = 30
+| velocity = 9
+| stack = 1
+| proj = Blood Beam.png
+| projcaption = Blood Beam
+| element1 = Unholy
+}}
+|{{item drops infobox
+|1= [[The Perforators]]|2=1|3={{dv|25%|33.33%}}
+}}
+}}The '''Blood Bath''' is a craftable [[Pre-Hardmode]] [[wand]] that is also dropped by [[The Perforators]]. When used, it causes large red droplets to drop from the sky at a fast pace. It is the [[Crimson]] counterpart to the [[Shadowdrop Staff]].
+
+{{Modifier|magic}}
+
+==Crafting==
+=== Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+==Notes==
+*The projectiles will dissipate after striking any tile, so it can be difficult to use it underground.
+
+==Trivia==
+*If the player has the "Blood and Gore" [[tgc:Setting|Setting]] turned off, its projectile trail will look like clouds instead of blood.
+*The weapon's name and tooltip are a reference to the iconic ''Geometry Dash'' level [https://geometry-dash-fan.fandom.com/wiki/Bloodbath Bloodbath].
+
+{{Blood Sample}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

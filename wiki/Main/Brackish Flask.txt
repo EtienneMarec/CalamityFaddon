@@ -1,0 +1,54 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 60
+| damagetype = Rogue
+| auto = yes
+| knockback = 6.5
+| use = 34
+| tooltip = Explodes into poisonous seawater blasts<br/>Stealth strikes summon a brackish spear spike
+| hardmode = yes
+| velocity = 12
+| debuff = Venom
+| debuffchance = 100%
+| debuffduration = 5 seconds (Flask, Water)<br/>10 seconds (Spear)
+| debufftip = Losing life
+| debuff2 = Poisoned
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (Flask, Water)<br/>10 seconds (Spear)
+| debufftip2 = Slowly losing life
+| rare = 7
+| stack = 1
+| sell = {{value|0|12}}
+| proj = Brackish Water Bubble.png
+| projcaption = Brackish Water Bubble
+| proj3 = Atlantis Spear.png
+| proj3caption = Atlantis Spear
+| element1 = Water
+| element2 = Poison
+| element3 = Smash
+}}
+|{{item drops infobox
+| [[Leviathan and Anahita]] |1| {{dv|25%|33.33%}}
+}}
+}}
+
+The '''Brackish Flask''' is a [[Hardmode]] [[Bombs|bomb]] (Although can be obtained [[tgc:Pre-Hardmode|Pre-Hardmode]]), that is dropped by the [[Leviathan and Anahita]]. When used, it is thrown from the player at a medium velocity and with a heavy gravity-affected arc. Once it collides with an object, it shatters and releases 8 seawater blasts in all directions, which then explode into damaging clouds after traveling a short distance or impacting enemies or tiles. All of these projectiles deal 50% of the flask's damage, and inflict the [[Poisoned]] and [[Venom]] [[debuffs]].
+
+Performing a [[stealth strike]] with the Brackish Flask causes it to deal 85% damage and release a large brackish spear spike upwards from the point of impact, that acts similarly to [[Atlantis]], going through walls and enemies dealing 85% damage. Additionally, other projectiles spawned by the weapon will deal 42.5% damage.
+
+{{Modifier|rogue}}
+
+== Notes ==
+*Due to the fact that the mist projectiles are released in all directions, several of them will often immediately explode against the area that the flask initially impacted.
+
+== Trivia ==
+*Brackish is a term used to describe water that is a mix between fresh and salty.
+
+[[File:Brackish Flask (demo).gif|frame|left|The Brackish Flask being thrown at a group of [[Target Dummy|Target Dummies]], with projectiles being released to hit other Target Dummies.]]
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Bombs]]

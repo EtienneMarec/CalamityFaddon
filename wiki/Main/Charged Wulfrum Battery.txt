@@ -1,0 +1,19 @@
+{{infobox wrapper
+|{{item infobox
+|type = Crafting material
+| stack = 9999
+|rare = 1
+| sell = {{value|0|0|0|80}}
+}}
+}}'''Charged Wulfrum Batteries''' are [[Pre-hardmode]] [[crafting material]]s. They are used to craft Reassembled Electronics.
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{template:wulfrum}}
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

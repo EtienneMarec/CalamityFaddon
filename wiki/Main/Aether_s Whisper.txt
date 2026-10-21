@@ -1,0 +1,50 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 504
+| damagetype = Magic
+| auto = yes
+| knockback = 5.5
+| mana = 30
+| tooltip = Inflicts long-lasting shadowflame and splits on tile hits<br/>Projectiles gain damage as they travel
+| rare = 12
+| use = 24
+| stack = 1
+| velocity = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| debuff = Shadowflame
+| debuffduration = 10 seconds
+| debuffchance = 100%
+| debufftip = Losing life
+| element1 = Dark
+| element2 = Magic
+}}
+[[File:Aether's Whisper (demo).gif|frame|The Aether's Whisper projectile splitting into multiple upon impact with a block, with the resulting projectiles hitting several [[Target Dummy|Target Dummies]] and traveling through tiles.]]
+
+The '''Aether's Whisper''' is a craftable Godseeker Mode [[magic gun]]. It shoots a laser beam that splits into smaller beams that travel through blocks on tile contact and inflicts [[shadowflame]] to enemies. The beams additively increase their damage by 0.5% of the weapon's damage for every frame they exist.
+
+The projectiles can inflict [[Shadowflame]] for 10 seconds.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Reforging this weapon resets its stats to the magic alternative, making ranged modifiers impossible.
+*The Resentful [[Enchantment]] synergises very well with the natural ability of the weapon, further increasing the damage it deals over large distances.
+
+{{-}}
+
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category:Magic guns]]
+[[zh:以太之低语]]

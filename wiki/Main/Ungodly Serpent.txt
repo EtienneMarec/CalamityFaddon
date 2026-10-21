@@ -1,0 +1,88 @@
+{{historical content}}
+{{npc infobox
+| imagealt = [[File:Ungodly_Serpent.png|330px]]
+| type = Burrowing Enemy
+| environment = The Hallow
+| environment2 = The Underworld
+| life = {{dv|55,225|60,747}}
+| knockback = 100
+| money = {{value|0|10|0|0}}
+| Unholy Essence|3-6| 100%
+| Energy Staff|1| 10%
+| boxwidth = 28em
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+| hurt = NPC_Hit_8.wav
+| killed = NPC_Killed_8.wav
+}}
+
+The '''Ungodly Serpent''' was a rare Godseeker Mode [[enemy]] that spawned in the [[The Hallow]] and in [[The Underworld]]. It acted like other worm-type enemies and burrowed through blocks. Its large size made it easy to hit, however, it also made the player more vulnerable to damage.
+
+{{-}}
+== Segments ==
+{| v-align = top
+|{{npc infobox
+| type = Burrowing Enemy
+| environment = The Hallow
+| environment2 = The Underworld
+| ai = Worm AI
+| name = Ungodly Serpent Head
+| life = {{dv|55,225|60,747}}
+| damage = {{dv|210|273}}
+| defense = 10
+| hardmode = yes
+| postml = yes
+| knockback = 100
+| listexclude = yes
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| environment = The Hallow
+| environment2 = The Underworld
+| ai = Worm AI
+| name = Ungodly Serpent Body 1
+| life = {{dv|55,225|60,747}}
+| damage = {{dv|90|117}}
+| defense = 38
+| hardmode = yes
+| postml = yes
+| knockback = 100
+| listexclude = yes
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| environment = The Hallow
+| environment2 = The Underworld
+| ai = Worm AI
+| name = Ungodly Serpent Body 2
+| life = {{dv|55,225|60,747}}
+| damage = {{dv|90|117}}
+| defense = 38
+| hardmode = yes
+| postml = yes
+| knockback = 100
+| listexclude = yes
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| environment = The Hallow
+| environment2 = The Underworld
+| ai = Worm AI
+| name = Ungodly Serpent Tail
+| life = {{dv|55,225|60,747}}
+| damage = {{dv|69|89}}
+| defense = 78
+| hardmode = yes
+| postml = yes
+| knockback = 100
+| listexclude = yes
+}}
+|}
+
+{{-}}
+{{Historical}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

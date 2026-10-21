@@ -1,0 +1,135 @@
+{{buff infobox
+| type = Debuff
+| effects = Target's defense is reduced by 10 and they cannot move at all.
+| tooltip = Cannot move and defense is shattered
+}}
+
+The '''Glacial State''' is a [[debuff]] that renders the target unable to move while reducing their defense by 10. It is inflicted by several weapons and enemies typically related to ice as well as weapons that inflict the [[Elemental Mix]].
+
+== Causes ==
+=== From player ===
+In addition to the causes listed below, items that inflict [[Elemental Mix]] will inflict Glacial State as a part of that.
+{{item/options|mode=table}}
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+| {{item|Cryogen|size=240px}}||1 seconds (Ice bomb)||100%
+|-
+| {{item|Ice Golem}}||2 seconds (Beam)||{{revengeance|100%}}
+|-
+| {{item|The Destroyer|size=240px}}||2 seconds (Frost Beam)||{{revengeance|100%}}
+|-
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 align=center | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|-
+| {{item|King Slime}}
+|-
+| {{item|Eater of Worlds Head}}
+|-
+| {{item|Eater of Worlds Body}}
+|-
+| {{item|Eater of Worlds Tail}}
+|-
+| {{item|Brain of Cthulhu}}
+|-
+| {{item|Creeper}}
+|-
+| {{item|Eye of Cthulhu}}
+|-
+| {{item|Queen Bee}}
+|-
+| {{item|Skeletron Head}}
+|-
+| {{item|Skeletron Hand (NPC)|Skeletron Hand}}
+|-
+| {{item|Wall of Flesh|size=150px}}
+|-
+| {{item|Retinazer}}
+|-
+| {{item|Spazmatism}}
+|-
+| {{item|Skeletron Prime}}
+|-
+| {{item|Prime Cannon}}
+|-
+| {{item|Prime Saw}}
+|-
+| {{item|Prime Laser}}
+|-
+| {{item|Prime Vice}}
+|-
+| {{item|Plantera}}
+|-
+| {{item|Ice Queen|size=200px}}
+|-
+| {{item|Pumpking}}
+|-
+| {{item|Mothron}}
+|-
+| {{item|Golem}}
+|-
+| {{item|Golem Head}}
+|-
+| {{item|Right Golem Fist|link=Golem#Parts|Golem Fist}}
+|-
+| {{item|Duke Fishron}}
+|-
+| {{item|Lunatic Cultist}}
+|-
+| {{item|Moon Lord Hand|image=Moon Lord's Hand.png|size=150px}}
+|-
+| {{item|Moon Lord Head|image=Moon Lord's Head.png|size=150px}}
+|-
+| {{item|Moon Lord Core|image=Moon Lord's Core.png}}
+|-
+| {{item|True Eye of Cthulhu}}
+|-
+| {{item|Etherian Wyvern}}
+|-
+| {{item|Dark Mage}}
+|-
+| {{item|Old One's Skeleton}}
+|-
+| {{item|Wither Beast}}
+|-
+| {{item|Drakin}}
+|-
+| {{item|Kobold}}
+|-
+| {{item|Kobold Glider}}
+|-
+| {{item|Ogre}}
+|-
+| {{item|Betsy|size=250px}}
+|-
+|}
+{{item/options|reset}}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

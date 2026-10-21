@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| stack = 9999
+| damagetype = Spy
+| damage = 7
+| knockback = 1
+| consumable = yes
+| velocity = 12
+| tooltip = The franciscas do more damage for a short time when initially thrown<br/>Stealth strikes pierce infinitely
+| rare = 0
+| sell = {{value|0|0|0|20}}
+| use = 14
+| element1 = Slash
+}}
+
+'''Iron Franciscas''' are craftable consumable [[Pre-Hardmode]] [[Spy weapon]]s that are the direct counterpart to the [[Lead Tomahawk]]s. They throw gravity affected axes that travel a short distance before falling to the ground. Each axe's damage has a 2x damage increase for the first 0.33 seconds after being thrown. All axes thrown have a 75% chance of breaking upon contact with an [[enemy]] or [[block]].
+
+Performing a [[stealth strike]] with Iron Franciscas causes the resulting francisca to pierce enemies indefinitely.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+== Trivia ==
+*A [[wikipedia:Francisca|francisca]] is a type of throwing axe used by the Franks during the Dark Ages.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}

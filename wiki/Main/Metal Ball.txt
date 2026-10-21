@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 162
+| use = 25
+| knockback = 6
+| velocity = 3
+| rare = 8
+| tooltip = Throws out a ball of plague nanometal that is affected by gravity which moves based on your movements
+| sell = {{value|0|6}}
+| stack = 1
+| debuff = Plague
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Rotting from the inside
+| auto = yes
+| hardmode = yes
+| element1 = Poison
+| element2 = Smash
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Metal Ball''' is a [[Hardmode]] [[flail]] dropped by [[The Plaguebringer Goliath]]. It throws out a metal ball that is affected by gravity and can be flung around by moving. If the player is standing still, the thrown flail eventually stables out at a position directly below the player.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*Moving in small, quick circles to build momentum in the ball can cause the ball to orbit around you at a fairly decent speed.
+
+== Trivia ==
+*The item's physics are based on Samson's Chains from ''[[wikipedia:The Binding of Isaac: Rebirth|The Binding of Isaac: Rebirth]]''.
+**However, unlike Samson's Chains, the Metal Ball can't block projectiles.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Flails]]

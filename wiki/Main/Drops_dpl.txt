@@ -1,0 +1,15 @@
+<includeonly>
+{{#ifeq:{{{listexclude|no}}}|yes|<!--nothing¦²-->|
+{{!}}-
+{{!}} align=center {{!}} {{item|mode=table|{{{title|{{{%PAGE%}}}}}}|image={{#ifexist: File:{{{title|{{{%PAGE%}}}}}}.png|{{{title|{{{%PAGE%}}}}}}.png|{{{title|{{{%PAGE%}}}}}}.gif}}}}
+{{!}} align=center {{!}} {{#dpl:title={{{name|{{{%PAGE%}}}}}}|uses=Template:item infobox|include={item infobox¦/dpl/type} |mode=userformat |noresultsheader=\n}}
+{{!}} align=center {{!}} {{#dplreplace:{{{1|}}}|/<br.*?>/|,&nbsp; }}{{#if:{{{4|}}}|<br/>{{#dplreplace:{{{4}}}|/<br.*?>/|,&nbsp; }}}}{{#if:{{{7|}}}|<br/>{{#dplreplace:{{{7}}}|/<br.*?>/|,&nbsp; }}}}{{#if:{{{10|}}}|<br/>{{#dplreplace:{{{10}}}|/<br.*?>/|,&nbsp; }}}}{{#if:{{{13|}}}|<br/>{{#dplreplace:{{{13}}}|/<br.*?>/|,&nbsp; }}}}{{#if:{{{16|}}}|<br/>{{#dplreplace:{{{16}}}|/<br.*?>/|,&nbsp; }}}}
+{{!}} align=center {{!}} {{#dplreplace:{{{2|}}}|/<br.*?>/|,&nbsp; }}{{#if:{{{5|}}}|<br/>{{#dplreplace:{{{5}}}|/<br.*?>/|,&nbsp; }}}}{{#if:{{{8|}}}|<br/>{{#dplreplace:{{{8}}}|/<br.*?>/|,&nbsp; }}}}{{#if:{{{11|}}}|<br/>{{#dplreplace:{{{11}}}|/<br.*?>/|,&nbsp; }}}}{{#if:{{{14|}}}|<br/>{{#dplreplace:{{{14}}}|/<br.*?>/|,&nbsp; }}}}{{#if:{{{17|}}}|<br/>{{#dplreplace:{{{17}}}|/<br.*?>/|,&nbsp; }}}}
+{{!}} align=center {{!}} {{#dplreplace:{{{3|}}}|/<br.*?>/|,&nbsp; }}{{#if:{{{6|}}}|<br/>{{#dplreplace:{{{6}}}|/<br.*?>/|,&nbsp; }}}}{{#if:{{{9|}}}|<br/>{{#dplreplace:{{{9}}}|/<br.*?>/|,&nbsp; }}}}{{#if:{{{12|}}}|<br/>{{#dplreplace:{{{12}}}|/<br.*?>/|,&nbsp; }}}}{{#if:{{{15|}}}|<br/>{{#dplreplace:{{{15}}}|/<br.*?>/|,&nbsp; }}}}{{#if:{{{18|}}}|<br/>{{#dplreplace:{{{18}}}|/<br.*?>/|,&nbsp; }}}}
+{{!}}-
+}}
+</includeonly>
+<noinclude>
+{{Dpl pages}}
+[[Category:DPL]]
+</noinclude>

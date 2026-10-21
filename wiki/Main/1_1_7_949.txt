@@ -1,0 +1,45 @@
+{{Patch infobox
+| image = Aero Slime (1.1.7.949).png
+| patchname = Ore Slime Update
+| release = 6/26/2017
+}}
+{{toc limit|3|right=yes}}
+The '''1.1.7.949''' update added a set of new [[enemies]] collectively known as "Ore Slimes" that solely exist to drop the mod's [[ores]]. It also made balance changes to several of the mod's [[weapons]], and resprited [[Supreme Calamitas]] and the [[Hell Crag]]'s [[enemies]].
+
+== Additions ==
+*Added [[Elemental Gauntlet]] and [[Frigid Bulwark]].
+*Added [[Aero Slime]], [[Bloom Slime]], [[Chaos Slime]], [[Charred Slime]], [[Cryo Slime]], [[Irradiated Slime]], and [[Perennial Slime]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*[[Cryogen]] now uses custom projectiles instead of reusing vanilla's.
+*[[The Hive Mind]]'s second phase no longer passively spawns [[Dank Creeper]]s, [[Dark Heart]]s, and [[Hive Blob]]s, and now spawns Dark Hearts and Hive Blobs when hit. <!---Dank Creeper wasn't included--->
+*Nerfed [[Shockstorm Shuttle]]'s health from {{dv|1000|1300}} to {{dv|250|325}}.
+
+=== [[Items]] ===
+*Merged the bottom two lines of [[Asgard's Valor]]'s tooltip.
+*The Plague Seekers from [[Diseased Pike]], [[Pandemic]], and [[Plague Hive]] now last for 2.5 seconds instead of 10, create less dust, inflict [[Plague]] for 5 seconds instead of 10, and are faster.
+*Reduced the amount of damage that [[Aegis Blade]], [[Blossom Flux]], [[Briny Baron]], [[Cosmic Discharge]], [[Malachite]], and [[SHPC]] gain after the [[Lunatic Cultist]], [[Moon Lord]], [[Providence, the Profaned God]], and [[The Devourer of Gods]] have been defeated, and increased the amount of damage gained after [[Jungle Dragon, Yharon]] has been defeated.
+*Reduced the amount of damage that [[Vesuvius]] gain after the Moon Lord, Providence, the Profaned God, and The Devourer of Gods have been defeated, and increased the amount of damage gained after Jungle Dragon, Yharon has been defeated.
+*Nerfed [[Wulfrum Blade]]'s damage from 20 to 15.
+*Nerfed [[Wulfrum Bow]]'s damage from 12 to 10, and its shot speed from 14 to 12.
+*Nerfed [[Wulfrum Knife]]'s damage from 10 to 8.
+*Nerfed [[Wulfrum Staff]]'s damage from 12 to 10.
+*[[Yharim's Insignia]] changes:
+**Now uses the {{rare|12}} rarity.
+**Now uses 1 [[Magma Stone]] and 1 [[Warrior Emblem]] in its recipe instead of 1 [[Fire Gauntlet]].
+**Now crafted at an [[Ancient Manipulator]] instead of a Hardmode Anvil.
+
+=== Other ===
+*Changed [[Perennial Ore]]'s map color from ({{color|#00C800 ●|#00C800}}) to ({{color|#FF33CC ●|#FF33CC}}).
+
+=== Resprites ===
+*Resprited [[Supreme Calamitas]], [[Cataclysm]] (supreme), and [[Catastrophe]] (supreme).
+*Resprited [[Cultist Assassin]], [[Despair Stone]], both [[Scryllar]]s, and [[Soul Slurper]].
+*Resprited [[Entropy's Vigil]]'s Calamitamini and Catastromini and [[Crushsaw Crasher]]'s thrown projectile.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

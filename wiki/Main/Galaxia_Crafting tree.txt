@@ -1,0 +1,206 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|Obsid|_|Hells|_|AeroO|_|Woodd|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|     |_|     |_|     |_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|`|-|-|-|(|_|_|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|HEFRG|_|PHFRG|_|WORKB|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|HellB|_|AeroB|_|WoodS|_|DirtB|_|StonB|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|     |_|     |_|     |_|     |_|     |_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|`|-|-|-|^|-|-|-|+|-|-|-|^|-|-|-|'|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|PHANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|StrD2|_|AstOr|_|BaLiT|_|CoCaT|_|BroBB|_|SoulF|_|SoulM|_|SoulS|_|PixDt|_|StrD1|#
+|     |_|     |_|_|:|_|_|     |_|     |_|     |_|     |_|     |_|     |_|     |#
+|_|`|-|-|-|(|_|_|_|:|_|_|_|:|_|_|_|)|-|-|-|^|-|-|-|^|-|-|-|^|-|-|-|^|-|-|-|'|_|#
+|_|_|_|_|HMANV|_|HMANV|_|HMANV|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|AstBr|_|BaLi1|_|CoCa1|_|BiomB|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|     |_|_|I|_|_|     |_|     |_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|`|-|-|-|^|-|-|-|^|-|-|-|(|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|CosBr|_|TruBB|_|DarkF|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|     |_|     |_|     |_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|`|-|-|-|+|-|-|-|'|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|COANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|Galax|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|     |_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|:|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|COANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|ArkCo|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+
+|BaLiT_cols = 3
+|BaliT_rows = 2
+|BaLiT = ''[[Life Alloy/Crafting tree|Life Alloy<br/>crafting tree]]''
+
+|CoCaT_cols = 3
+|CoCaT_rows = 2
+|CoCaT = ''[[Core of Calamity/Crafting tree|Core of Calamity<br/>crafting tree]]''
+
+|CoCa1_cols = 3
+|CoCa1_rows = 2
+|CoCa1 = {{item|Core of Calamity}}<br/>
+( {{item|mode=image|image=Ravager map.png|Ravager|size=20px}} )
+
+|BaLi1_cols = 3
+|Bali1_rows = 2
+|BaLi1 = {{item|Life Alloy}} × 3<br/>
+( {{item|mode=image|image=Ravager map.png|Ravager|size=20px}} )
+
+|DirtB_cols = 3
+|DirtB_rows = 2
+|DirtB = {{item|Dirt Block}} × 50
+
+|StonB_cols = 3
+|StonB_rows = 2
+|StonB = {{item|Stone Block}} × 50
+
+|Hells_cols = 3
+|Hells_rows = 2
+|Hells = {{item|Hellstone}} × 15<br/>
+<div style="font-size: 0.75em">( [[The Underworld]] )</div>
+
+|HellB_cols = 3
+|HellB_rows = 2
+|HellB = {{item|Hellstone Bar}} × 5
+
+|Obsid_cols = 3
+|Obsid_rows = 2
+|Obsid = {{item|Obsidian}} × 5<br/>
+( {{item|mode=image|Water|size=12px}} + {{item|mode=image|Lava|size=12px}} )
+
+|Woodd_cols = 3
+|Woodd_rows = 2
+|Woodd = {{item|Wood}} × 7
+
+|WoodS_cols = 3
+|WoodS_rows = 2
+|WoodS = {{item|Wooden Sword}}
+
+|BroBB_cols = 3
+|BroBB_rows = 2
+|BroBB = {{item|Broken Biome Blade}}
+
+|BiomB_cols = 3
+|BiomB_rows = 2
+|BiomB = {{item|Biome Blade}}
+
+|TruBB_cols = 3
+|TruBB_rows = 2
+|TruBB = {{item|True Biome Blade|size=32px}}
+
+|CosBr_cols = 3
+|CosBr_rows = 2
+|CosBr = {{item|Cosmilite Bar|size=26px}} × 8<br/>
+( {{item|mode=image|image=Devourer of Gods final head map.png|The Devourer of Gods|size=25px}} )
+
+|Galax_cols = 3
+|Galax_rows = 2
+|Galax = {{item|Galaxia|size=32px}}
+
+|ArkCo_cols = 3
+|ArkCo_rows = 2
+|ArkCo = ''[[Ark of the Cosmos/Crafting tree|Ark of the Cosmos<br/>crafting tree]]''
+
+|DarkF_cols = 3
+|DarkF_rows = 2
+|DarkF ={{item|Darksun Fragment}} × 8<br/>
+<span style="font-size:0.75em">( [[Solar Eclipse]] )</span>
+
+|AstOr_cols = 3
+|AstOr_rows = 2
+|AstOr = {{item|Astral Ore}} × 6<br/>
+<span style="font-size:0.75em">( [[Astral Infection]] )</span>
+
+|StrD1_cols = 3
+|StrD1_rows = 2
+|StrD1 = {{item|Stardust}} × 10<br/>
+<span style="font-size:0.75em">( [[Astral Infection]] enemies / {{item|mode=image|image=Astrum Aureus map.png|Astrum Aureus|size=25px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=25px}} )</span>
+
+|StrD2_cols = 3
+|StrD2_rows = 2
+|StrD2 = {{item|Stardust}} × 9<br/>
+<span style="font-size:0.75em">( [[Astral Infection]] enemies / {{item|mode=image|image=Astrum Aureus map.png|Astrum Aureus|size=25px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=25px}} )</span>
+
+|AstBr_cols = 3
+|AstBr_rows = 2
+|AstBr = {{item|Astral Bar}} × 3
+
+|SoulS_cols = 3
+|SoulS_rows = 2
+|SoulS = {{item|Soul of Sight}}<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|The Twins|size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} )
+
+|SoulM_cols = 3
+|SoulM_rows = 2
+|SoulM = {{item|Soul of Might}}<br/>
+( {{item|mode=image|image=Map Icon The Destroyer.png|The Destroyer|size=20px}} )
+
+|SoulF_cols = 3
+|SoulF_rows = 2
+|SoulF = {{item|Soul of Fright}}<br/>
+( {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+|PixDt_cols = 3
+|PixDt_rows = 2
+|PixDt = {{item|Pixie Dust}} x 2<br/>
+( {{item|mode=image|Pixie|size=30px}} )
+
+|AeroO_cols = 3
+|AeroO_rows = 2
+|AeroO = {{item|Aerialite Ore}} × 20<br/>
+<span style="font-size:0.75em">( [[Cavern]] / {{item|mode=image|Aero Slime|size=16px}} )</span>
+
+|AeroB_cols = 3
+|AeroB_rows = 2
+|AeroB = {{item|Aerialite Bar}} × 5
+
+<!-- CRAFTING STATIONS -->
+|WORKB_cols = 3
+|WORKB_class = craft-station
+|WORKB = {{item|mode=image|Work Bench}}
+
+|Altar_cols = 3
+|Altar_class = craft-station
+|Altar = {{item|mode=image|Demon Altar}} / {{item|mode=image|Crimson Altar}}
+
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|PMANV_cols = 3
+|PMANV_class = craft-station
+|PMANV = {{item|mode=image|Anvil}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|HEFRG_cols = 3
+|HEFRG_class = craft-station
+|HEFRG = {{item|mode=image|Hellforge}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|HMFRG_cols = 3
+|HMFRG_class = craft-station
+|HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|COANV_cols = 3
+|COANV_class = craft-station
+|COANV = {{item|mode=image|Cosmic Anvil}}
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

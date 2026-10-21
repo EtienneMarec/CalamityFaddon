@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = ranged
+| damage = 70
+| knockback = 6.5
+| rare = 5
+| sell = {{value|0|7|20}}
+| stack = 1
+| auto = yes
+| use = 20
+| velocity = 20
+| tooltip = Launches two harpoons
+| hardmode = yes
+| proj = Dualpoon (projectile).png
+| projcaption = Dualpoon
+| element1 = Stab
+}}
+
+The '''Dualpoon''' is a craftable [[Hardmode]] [[Ranged weapons|ranged weapon]] that is the direct upgrade to the [[Harpoon]]. It can be obtained either through crafting or by receiving it from the [[Agent]]. It fires two harpoons that are unaffected by gravity. The harpoons travel for a short range before returning to the player.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Unlike the Harpoon, the Dualpoon has no visible chains.
+*The weapon is a reference to the [https://forums.terraria.org/index.php?threads/released-wip-terraria-avalon.378 Avalon] mod's [https://avalonmod.fandom.com/wiki/Dual_Harpoon Dual Harpoon].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Ranged weapons]]

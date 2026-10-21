@@ -1,0 +1,42 @@
+{{dedicated|Gbradley|Developer}}
+{{item infobox
+| name = Interfacer Staff
+| type = Weapon
+| damage = 125
+| damagetype = magic
+| auto = yes
+| knockback = 5
+| mana = 50
+| stack = 1
+| velocity = 13.5
+| tooltip = Casts a bouncing beam that splits when enemies are near it
+| use =	20
+| rare = 16
+| sell = {{value|0|40}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Magic
+| element2 = Unholy
+| element3 = Unholy
+}}
+The '''Interfacer Staff''' is a craftable Epilogue [[developer]] [[wand]]. It fires a bright pink and blue beam that bounces off of tiles and fires smaller beams off of the main beam for massive damage.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon actually has a unique [[Rarity]] but is referred here as Hot Pink rarity for consistency between weapons.
+**This unique rarity alternates between blue ({{color|#0064FF ●|#0064FF}}) and pink ({{color|#FF64FF ●|#FF64FF}}) colors.
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

@@ -1,0 +1,142 @@
+__NOTOC__
+{{item infobox
+| imagebreak = yes
+| type = Armor
+| defense = 13/12/11/10/12
+| setbonus = When using any weapon you have a 10% chance to throw a returning seashell projectile<br/>This seashell does true damage and does not benefit from any damage class<br/>Provides increased underwater mobility and slightly reduces breath loss in the abyss<br/><br/>'''Shellmet:''' Enemies are more likely to target you<br/>+3 life regen and 10% increased melee damage while submerged in liquid<br/><br/>'''Coral Turban:''' +3 life regen and 10% increased ranged damage while submerged in liquid<br/><br/>'''Hermit Helmet:''' +3 life regen and 10% increased magic damage while submerged in liquid<br/><br/>'''Mask:''' +3 life regen and 10% increased minion damage while submerged in liquid<br/>Summons a sea snail to protect you<br/>+1 max minion<br/><br/>'''Headcrab:''' +3 life regen and 10% increased Spy damage while submerged in liquid<br/>Spy stealth builds while not attacking and slower while moving, up to a max of 90<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+| rare = 2
+| sell = {{value|0|0|60}} (set)
+| proj = Seashell (projectile).png
+| projcaption = Seashell
+| proj2 = Urchin Spike.png
+| proj2caption = Urchin Spike
+| buff = Sea Snail (buff) | bufflink = no
+| bufftip = Meow?
+| duration = Infinite (Mask)
+| debuff = Poisoned
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 3 seconds (Urchin darts)
+| resistance1 = Water
+| resistance2 = Fire
+| resistance3 = Slash
+| vulnerable1 = Unholy
+| vulnerable2 = Cold
+| vulnerable3 = Poison
+}}
+{{summoned|Sea Snail (minion)|type=minion}}
+
+'''Victide armor''' is a craftable [[Pre-Hardmode]] [[Covering]] set made from [[Sea Remains]]. It takes a total of 12 Sea Remains to craft one full set, and 24 to make every piece.
+
+It consists of a '''Victide Breastplate''', '''Victide Leggings''', '''Victide Greaves''' and one of five different headpieces: '''Victide Hermit Helmet''', '''Victide Headcrab''', '''Victide Shellmet''', '''Victide Mask''' or '''Victide Coral Turban'''. Each headpiece provides different stats and a different set bonus.
+
+The '''Victide Breastplate''' gives 5 defense, 5% damage reduction and 5% increased critical strike chance. While submerged in liquid, the breastplate grants 5 extra defense and an unlisted 10% extra damage reduction. The '''Victide Leggings''' give 4 defense, 8% increased movement speed, and an extra 30% movement speed increase while submerged in liquid.
+
+*The '''Victide Shellmet''' gives 4 defense and 5% increased melee damage.<br/>Its set bonus grants 10% melee damage while submerged in liquid and +200 to [[Aggro]].
+*The '''Victide Coral Turban''' gives 3 defense and 5% increased ranged damage.<br/>Its set bonus grants 10% ranged damage while submerged in liquid.
+*The '''Victide Hermit Helmet''' gives 2 defense and 5% increased magic damage.<br/>Its set bonus grants 10% magic damage while submerged in liquid.
+*The '''Victide Mask''' gives 1 defense and 10% increased minion damage.<br/>Its set bonus grants 10% minion damage while submerged in liquid, +1 max minion and summons a '''Sea Snail''' minion to fight for the player.
+**The sea snail attacks by firing darts in multiple directions which are affected by gravity and deal 7 damage. The darts also inflict [[Poisoned]] for 3 seconds. If the player remains still for 3.33 seconds, the sea snail will pop off the player's head and land next to them until they start moving again. While the sea snail is sitting next to the player, it will still fire darts as normal.
+*The '''Victide Headcrab''' gives 3 defense and 5% increased Spy damage.<br/>Its set bonus grants 10% Spy damage while submerged in liquid and a maximum [[Spy#Stealth|Spy stealth]] of 90.
+
+All helmets also provide the set bonus of +3 life regeneration while submerged in liquid, free movement in liquids, and a 10% chance to fire returning seashell projectiles.
+
+A full set always provides at least 9 defense, 5% damage reduction, 5% increased critical strike chance, 8% increased movement speed, free movement in liquids, a chance to fire returning seashell projectiles, and an additional 3 defense, 10% damage reduction, and 50% movement speed when submerged in liquid.
+
+=== Seashells ===
+The universal set bonus occasionally fires seashell boomerangs to accompany other player projectiles. The base damage of a seashell is double that of the player's currently selected weapon, though they are softcapped at 60 damage. The seashells can do damage twice, as they return to the player. The seashells deal true damage, which means they do not benefit from bonuses for any damage class. They also cannot deal [[Critical hit|critical hits]]. Their initial velocity is based on the velocity of the projectiles being fired by your current weapon.
+Seashells cannot be shot by any weapon with a [[rarity]] of Yellow or higher.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Victide Breastplate
+| type = Armor
+| defense = 5
+| tooltip = 5% increased damage reduction and critical strike chance<br/>+5 defense and 10% increased damage reduction while submerged in liquid
+| body slot = Shirt
+| research = 1
+| sell = {{value|0|0|20}}
+}}
+|{{item infobox
+| name = Victide Leggings
+| type = Armor
+| defense = 2
+| tooltip = Movement speed increased by 4%<br/>Movement speed increased by 15% while submerged in liquid
+| body slot = Pants
+| research = 1
+| sell = {{value|0|0|5}}
+}}
+|{{item infobox
+| name = Victide Greaves
+| type = Armor
+| defense = 2
+| tooltip = Movement speed increased by 4%<br/>Movement speed increased by 15% while submerged in liquid
+| body slot = Boots
+| research = 1
+| sell = {{value|0|0|5}}
+}}
+}}
+
+=== Helmet variants ===
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Victide Shellmet
+| type = Armor
+| defense = 4
+| tooltip = 5% increased melee damage
+| body slot = Helmet
+| research = 1
+| sell = {{value|0|0|30}}
+}}
+|{{item infobox
+| name = Victide Coral Turban
+| type = Armor
+| defense = 3
+| tooltip = 5% increased ranged damage
+| body slot = Helmet
+| research = 1
+| sell = {{value|0|0|30}}
+}}
+|{{item infobox
+| name = Victide Hermit Helmet
+| type = Armor
+| defense = 2
+| tooltip = 5% increased magic damage
+| body slot = Helmet
+| research = 1
+| sell = {{value|0|0|30}}
+}}
+|{{item infobox
+| name = Victide Mask
+| type = Armor
+| defense = 1
+| tooltip = 10% increased minion damage
+| body slot = Helmet
+| research = 1
+| sell = {{value|0|0|30}}
+}}
+|{{item infobox
+| name = Victide Headcrab
+| type = Armor
+| defense = 3
+| tooltip = 5% increased Spy damage
+| body slot = Helmet
+| research = 1
+| sell = {{value|0|0|30}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Victide%|resultnot=Victide Bar}}
+
+== Trivia ==
+*The name of the "Victide Headcrab" helmet is a reference to the "headcrab" enemies from the ''[[wikipedia:Half-Life_(series)|Half-Life]]'' video game series.
+*The Sea Snail buff's description is a reference to Gary from the show ''[[wikipedia:SpongeBob SquarePants|SpongeBob SquarePants]]'', a sea snail that only speaks using the word "meow".
+
+{{Sea Remains}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

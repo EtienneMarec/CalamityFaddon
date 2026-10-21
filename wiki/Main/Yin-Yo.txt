@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 50
+| knockback = 3.5
+| rare = 4
+| attduration = 7 seconds
+| reach = 21.875
+| sell = {{value|0|2|40}}
+| stack = 1
+| use = 25
+| auto = yes
+| tooltip = Fires light or dark shards when enemies are near<br/>Shards fly back and forth<br/>A very agile yoyo
+| hardmode = yes
+| proj = Yinyoyo.png
+| projcaption = Yin-Yoyo
+| proj2 = Dark Shard.png
+| proj2caption = Dark Shard
+| proj3 = Light Shard.png
+| proj3caption = Light Shard
+| element1 = Unholy
+| element2 = Holy
+}}
+
+The '''Yin-Yo''' is a craftable [[Hardmode]] [[yoyo]]. If enemies are near, the yoyo will randomly fire Dark Shards towards the target or Light Shards away from the target. Both shards will travel back and forth five times before fading away, passing through walls and piercing any number of enemies. When the yoyo returns to the player, it will be automatically re-thrown if they are still holding the fire button.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+==Tips==
+*Although this weapon has lower base damage than the [[Chik]], it can be still considered superior due to its extra projectiles.
+
+==Trivia==
+*The Yin-Yo is colored black and white in a [[wikipedia:Taijitu|Taijitu or "Yin Yang"]]-style design commonly associated with [[wikipedia:Daoism|Daoism]]. The Chinese word 道 means "way" or "path", and can also mean "philosophy". The word is often romanized to either "tao" or "dao". This trait is shared with [[Dao of Pow]].
+{{yinyang}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]

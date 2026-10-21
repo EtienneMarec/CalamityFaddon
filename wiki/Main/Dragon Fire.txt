@@ -1,0 +1,33 @@
+{{buff infobox
+| type = Debuff
+| effects = -9 HP per second and natural life regen is disabled<br/>-15% movement speed
+| tooltip = Losing life, reduced movement speed
+}}
+
+{{distinguish|Searing Lava|a debuff with a similiar icon}}
+
+'''Dragon Fire''' is a [[debuff]] inflicted by [[Jungle Dragon, Yharon]] and the [[Profaned Guardians]]. It deals 9 damage per second and reduces the player's movement speed by 15%.
+
+== Causes ==
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Trivia ==
+*Before being reworked in [[1.5.1.001]], it was known as '''Lethal Lava Burn'''.
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

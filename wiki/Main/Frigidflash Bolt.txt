@@ -1,0 +1,45 @@
+{{item infobox
+| hardmode = yes
+| type = Weapon
+| type2 = Crafting material
+| tooltip = Casts a slow-moving ball of flash-freezing magma
+| damage = 45
+| damagetype = magic
+| mana = 13
+| use = 15
+| knockback = 5.5
+| velocity = 6.5
+| rare = 4
+| sell = {{value|0|2|40}}
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Slowly losing life
+| debuff2 = Frostburn
+| debuffchance2 = 100%
+| debuffduration2 = 1.5 seconds
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| element1 = Fire
+| element2 = Cold
+| stack = 1
+| auto = yes
+| proj = Frigidflash Bolt (projectile).png
+| projcaption = Frigidflash Bolt
+}}
+The '''Frigidflash Bolt''' is a craftable [[Hardmode]] [[spell tome]] that is an upgrade of both [[Frost Bolt]] and [[Flare Bolt]]. It fires a slow-moving ball of flash-freezing magma that can be autofired. The projectile travels in a straight line, emits a bit of light, is unaffected by gravity, can pierce through 4 enemies and can bounce off 4 walls. It inflicts the [[On Fire!]] and the [[Frostburn]] [[debuff]] on hit [[enemies]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{flarefrost}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

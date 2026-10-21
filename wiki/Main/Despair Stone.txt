@@ -1,0 +1,37 @@
+{{npc infobox
+| type = Enemy
+| environment = Brimstone Crag
+| ai = Despair Stone AI
+| damage = {{element|Stab}} {{dv|40|80}} (pre-[[Providence]])<br/>{{element|Stab}} {{dv|80|160}} (post-[[Providence]])
+| life = {{dv|120|240}} (pre-[[Providence]])<br/>{{dv|3,000|6,000}} (post-[[Providence]])
+| defense = 38 (pre-[[Providence]])<br/>50 (post-[[Providence]])
+| dr = 35%
+| knockback = 100
+| banner = yes
+| money = {{sc|5}}
+| custom| {{item|Essence of Chaos|note=(In [[Hardmode]])|wrap=y}}|33.33%
+| custom| {{item|Slagspitter Pauldron|note=(In [[Hardmode]])|wrap=y}} {{dei}}|5%
+| custom| {{item|Bloodstone|note=(After defeating [[Providence]])|wrap=y}}|50%
+| immune1 = Kami Flu
+| immune2 = Abyssal Flames
+| immune3 = Brimstone Flames
+| hurt = NPC_Hit_41.wav
+| killed = NPC_Killed_14.wav
+| sound = Item_14.wav
+| soundtext = Jump
+| vulnerable1 = Water
+| vulnerable2 = Stab
+| vulnerable3 = Smash
+| resistant1 = Fire
+| resistant2 = Slash
+| resistant3 = Cold
+}}
+
+The '''Despair Stone''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Brimstone Crag]]. It moves by rolling and bouncing similarly to an [[Angry Tumbler]]. Each bounce causes it to emit red particles and make an impact sound.
+
+Its stats receive a significant boost and starts dropping [[Bloodstone]] after [[Providence, the Profaned Goddess]] is defeated.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

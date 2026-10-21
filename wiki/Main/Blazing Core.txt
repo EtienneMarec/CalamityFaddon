@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox
+| image = Blazing Core.gif
+| type = Covering
+| stack = 1
+| tooltip = The searing core of the profaned goddess<br/>10% damage reduction<br/>Being hit creates a miniature sun that lingers, dealing damage to nearby enemies<br/>The sun will slowly drag enemies into it<br/>Only one sun can be active at once<br/>Provides a moderate amount of light in the Abyss
+| rare = 12
+| sell = {{value|0|24}}
+| proj = Blazing Sun.gif
+| projcaption = Blazing Sun
+| debuff = Holy Flames
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Dissolving from holy light
+| hardmode = yes
+| postml = yes
+| element1 = fire
+| element2 = holy
+}}
+|{{item drops infobox
+|[[Providence, the Profaned Goddess]]|1|100%
+}}
+}}
+The '''Blazing Core''' is a Godseeker Mode [[covering]] dropped by [[Providence, the Profaned Goddess]]. While equipped, it increases the player's damage reduction by 10%. If the player is hit by an [[enemy]], a miniature sun is created at the player's location for ten seconds that sucks enemies towards it, deals damage, and inflicts the [[Holy Flames]] [[debuff]] for three seconds. Only one sun can be active at a time.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Blazing Sun deals 1270 typeless damage, cannot critically strike, and does not scale with any damage boosts.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

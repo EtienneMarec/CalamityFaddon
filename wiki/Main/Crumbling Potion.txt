@@ -1,0 +1,36 @@
+{{item infobox
+|type = Potion
+|type2 = Crafting material
+|tooltip = Increases melee and Spy critical strike chance by 5%<br/>Melee and Spy attacks break enemy armor
+|stack = 9999
+|rare = 4
+|use = 17
+|consumable = yes
+|hardmode = yes
+|buff = Armor Crumbling| bufflink = no
+|duration = 8 minutes
+|bufftip = Melee and Spy attacks break enemy armor
+|debuff = Armor Crunch
+|debuffchance = 100%
+|debuffduration = 2, 4 or 6 seconds
+|debufftip = Your armor is shredded
+|sell = {{value|0|0|40}}
+}}
+
+The '''Crumbling Potion''' is a craftable [[Hardmode]] [[Buff Potions|buff potion]]. Upon consumption it grants the '''Armor Crumbling''' [[buff]], causing all melee and [[Spy]] attacks to inflict the [[Armor Crunch]] [[debuff]] as well as increases melee and Spy critical strike chance by 5%.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*On attack, there is a 25% chance for [[Armor Crunch]] to be inflicted for 6 seconds, a 37.5% chance to be inflicted for 4 seconds, and a 37.5% chance to be inflicted for 2 seconds.
+
+
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

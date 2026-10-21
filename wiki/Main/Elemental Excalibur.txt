@@ -1,0 +1,86 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| rare = rainbow
+| sell = {{value|1|00}}
+| damage = 2000
+| use = 13
+| crit = 10
+| velocity = 6
+| knockback = 8
+| tooltip = Freezes enemies and heals the player on hit<br/>Fires rainbow beams that change their behavior based on their color<br/>Right click for true melee
+| auto = yes
+| stack =  1
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Exo Freeze
+| debuffduration = 1 second
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 4 seconds
+| debuffchance2 = 100%
+| debuff3 = Frostburn
+| debuffduration3 = 5 seconds
+| debuffchance3 = 100%
+| debuff4 = On Fire!
+| debuffduration4 = 6 seconds
+| debuffchance4 = 100%
+| proj = Elemental Excalibur Beam.png
+| projcaption = Elemental Excalibur Beam
+| element1 = Magic
+| element2 = Slash
+| element3 = Stab
+| element4 = Fire
+| element5 = Poison
+| element6 = Water
+| element7 = Cold
+| element8 = Holy
+| element9 = Unholy
+| element10 = Dark
+}}
+
+The '''Elemental Excalibur''' is a craftable Epilogue [[broadsword]] and the upgrade of the [[Greatsword of Blah]]. On each swing, it fires a different colored beam that has different properties depending on its color and inflicts several [[debuffs]]. The sword beam colors are fired in a fixed looping order:
+
+*{{color|Red beams|#FF0000}} have no special effects
+*{{color|Orange beams|#FF8000}} curve back to the player
+*{{color|Yellow beams|#FFFF00}} split into 3 red beams after travelling a certain distance
+*{{color|Lime beams|#80FF00}} home back in on the player
+*{{color|Green beams|#00FF00}} home in on enemies
+*{{color|Turquoise beams|#00FF80}} speed up over time and ignore tile collision
+*{{color|Cyan beams|#00FFFF}} spawn 3 turquoise beams to the location where the projectile dies (enemy or tile impact)
+*{{color|Light blue beams|#0080FF}} slow down on enemy hits
+*{{color|Blue beams|#0000FF}} bounce infinitely off of tiles and enemies until projectile time runs out
+*{{color|Purple beams|#8000FF}} speed up and slow down over and over, similarly to a [[Profaned Guardian]] spear attack
+*{{color|Fuchsia beams|#FF00FF}} start slow but speed up over time
+*{{color|Hot pink beams|#FF0080}} spawn fuchsia sword beams while travelling until projectile time runs out
+*{{color|Gray beams|#a8a8a8}} pass through tiles and enemies, have a chance to drop Platinum coins on impact
+
+Direct hits with the weapon will [[lifesteal|heal]] the player for anywhere between 10 and 19. The weapon can also be right-clicked to perform a [[True melee]] swing that deals doubled damage.
+
+Attacks with the Elemental Excalibur inflict the following debuffs:
+
+*{{item|Exo Freeze}} (1 second)
+*{{item|Holy Flames}} (4 seconds)
+*{{item|Frostburn}} (5 seconds)
+*{{item|On Fire!}} (6 seconds)
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+== Notes ==
+*Despite having a Rainbow [[rarity]], this weapon is not [[Expert Mode]] exclusive.
+
+== Trivia ==
+*The Elemental Excalibur is a reference to a [https://terrariamods.fandom.com/wiki/Exxo_Avalon/Elemental_Excalibur weapon of the same name] from the [https://avalonmod.fandom.com/wiki/Terraria_Avalon_Mod_Wiki Avalon] and [https://forums.terraria.org/index.php?threads/released-wip-terraria-avalon.378/ Exxo Avalon] mods for Terraria 1.1.2 and 1.2.4 respectively. The [[Greatsword of Blah]], which is a part of the Elemental Excalibur's recipe, is also a reference to the creator of the Avalon mods, ''Blahblahbal''.
+
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Healing items]]
+[[Category:True melee]]

@@ -1,0 +1,29 @@
+{{npc infobox
+| type = Slime
+| type2 = Flying Enemy
+| environment = Space
+| ai = Hovering AI
+| damage = {{element|Magic}} {{dv|100|200}} (Melee)<br/>{{element|Dark}} {{dv|120|240}} (Phantasmal Bolt)
+| life = {{dv|900|1,800}}
+| defense = 40
+| banner = yes
+| money = {{gc|5}}
+| Exodium Cluster|10-26| 100%
+| knockback = 100
+| immune1 = Kami Flu
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = Item_124.wav
+| soundtext = Phantasmal Bolt
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| resistant1 = Magic
+| resistant2 = Dark
+}}
+
+The '''Side Mollusk''' is a flying Godseeker Mode [[slime]] that spawns in the [[Space]] layer and fires two {{item|link=|Phantasmal Bolt|s|ext=gif|size=8px}} in rapid succession. They exist as an alternative way to obtain [[Exodium Cluster]]s aside from mining it. 
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

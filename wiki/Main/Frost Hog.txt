@@ -1,0 +1,18 @@
+{{Npc infobox|Essence of Eleum|1|10%|Delicious Meat|1|100%|name=Frost Hog|type=Enemy|ai=Frost Hog AI|damage={{element|Cold}} {{dv|150|300|450}}|life={{dv|30|60|90}}|defense=8|knockback=10%|debuff=Frostburn|debuffchance=100%|duration=2 Seconds|debufftip=It's either really hot or really cold. Either way it REALLY hurts|debuff2=Frozen|debuffchance2=100%|duration2=0.5 Seconds|debufftip2=You can't move!|immune1=Confused|immune2=Kami Flu|immune3=Glacial State|immune4=Exo Freeze|immune5=Frostburn|money={{value|0|0|85|0}}|hardmode=yes|environment=Ice biome|hurt=NPC_Hit_1.wav|killed=NPC_Killed_1.wav|image=Frost Hog.png
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| vulnerable3 = Machine
+| resistant1 = Cold}}
+
+Frost Hog is a rare  [[Hardmode]] [[enemy]] that spawns in the [[Ice biome]]. They are extremely fast and charge at the player constantly within their range.
+
+It can be detected with the [[Lifeform Analyzer]].
+
+== Tips ==
+*Due to their size, they can be extremely hard to notice. 
+*Although deadly, they have very low health and knockback resistance which makes it easy to kill.
+
+== Trivia ==
+
+* This enemy may be based on [https://battle-cats.fandom.com/wiki/Bore_(Red)#:~:text=Bore%20(%E3%82%A4%E3%83%8E%E3%82%B7%E3%83%A3%E3%82%B7%2C%20Inoshashi%2C%20%22,the%20Cosmos%2C%20and%20Legend%20Stages. Bore], an enemy in the mobile game The Battle Cats.[https://battle-cats.fandom.com/wiki/Bore_(Red)#:~:text=Bore%20(%E3%82%A4%E3%83%8E%E3%82%B7%E3%83%A3%E3%82%B7%2C%20Inoshashi%2C%20%22,the%20Cosmos%2C%20and%20Legend%20Stages.]
+{{Master Template Characters|show-main=yes|show-hardmode=yes}}

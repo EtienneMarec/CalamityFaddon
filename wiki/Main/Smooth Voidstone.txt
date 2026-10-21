@@ -1,0 +1,27 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| rare = 0
+| color = #1B181F
+| hardmode = yes
+| use = 14
+| sell = No value
+}}
+
+'''Smooth Voidstone''' is a craftable [[block]] crafted using [[Voidstone]]. It is used to create Void [[furniture]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+|show-main = yes
+|show-blocks = yes
+}}

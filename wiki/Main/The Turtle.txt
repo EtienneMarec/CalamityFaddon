@@ -1,0 +1,59 @@
+{{npc infobox
+| type = NPC
+| environment = Valid house
+| ai = Passive AI
+| life = 250
+| defense = 15
+| knockback = 50
+| image2 = The Turtle map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+{{NPC}}
+
+The '''Turtle''' is an [[NPC]] vendor that sells various items.
+
+The Turtle will move into an available NPC house if the following conditions have been met:
+*There is an empty [[tgc:House|house]].
+*[[The Wall of Bronze]] has been defeated.
+*The player is wearing a full set of [[tgc:Spectre_armor|Spectre Armor]].
+
+When threatened by [[enemies]], they will defend themselves with a Rocket Launcher.
+
+==Items sold==
+{{inventory
+|Rocket Launcher|{{gc|10}}|
+|Iron Pickaxe|{{sc|6}}|
+|Diamond Robe|{{gc|5}}|
+|Rocket I|{{cc|50}}|
+|Artisan Loaf|{{gc|12}}}}
+
+==Names==
+*The Turtle will always be named Mikey.
+
+==Quotes==
+'''Anytime:'''
+*"I once stayed at a resort that only cost 1 dollar!"
+*"You must, absolutely, no matter what, stay inside before the sun goes down."
+*"Woah."
+*"Wow."
+*"Amazing!"
+*"The water's perfect!"
+*"I love barbeque!"
+
+'''If the player is wearing''' [[tgc:Spectre_armor|Spectre Armor]]''':'''
+*"Ah! Why me? Stop!."
+*"Scary!"
+
+==Trivia==
+*The Turtle is a reference to the video [https://www.youtube.com/watch?v=tF1fitWqXdM Short Film "The Cursed Resort"], by youtuber Maizen. 
+**Mikey the Turtle was a prominent character in the short.
+**The items Mikey sells, and their relation to spectre armor, are all items relevant to the plot of the short.
+*Despite most of Mikeys wares being far outclassed by the point in the game when you meet them, buying the Artisan Loaf from them can be a far less rng dependent method of obtaining the item compared to the alternative.
+*The Turtle's sprite seems to be a modified version of the [https://terraria.fandom.com/wiki/Creeper_set?so=search Creeper Costume].
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-npc = yes
+}}

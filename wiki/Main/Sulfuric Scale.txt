@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip =  While under the effects of a damaging debuff, you gain 10% increased damage and 5% crit<br/>For every 25% of lost life, you gain 6% increased damage and 3% crit<br/>This will max out at 18% increased damage and 9% crit when under 25% life<br/>Provides immunity to poisoned, venom, and sulphuric poisoning
+| sell = {{value|0|26}}
+| stack = 1
+| rare = 13
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Nuclear Terror]] | 1 | 10%
+}}
+}}
+
+The '''Sulfuric Scale''' is a Godseeker Mode [[covering]] that drop from [[Nuclear Terror]]s. While equipped the player gains immunity to the [[Poisoned]], [[Venom]], and [[Sulphuric Poisoning]] [[debuffs]]. Additionally, the player gains 10% increased damage and 5% increased critical strike chance while under the effects of a damaging debuff.
+
+If the player has lost 25% of their health, they will gain 6% increased damage and 3% increased critical strike chance. This effect can occur three times, maxing out at 18% increased damage and 9% increased critical strike chance, occurring at 25% of the player’s health or below.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*Using this covering with [[Omega Blue armor]] allows the player to keep their hp at a low value, as Omega Blue armor disables life regen. This allows the player to constantly have 18% increased damage and 9% increased critical strike chance.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

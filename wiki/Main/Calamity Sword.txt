@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 582
+| knockback = 10
+| rare = 14
+| sell = {{value|1|1|20}}
+| stack = 1
+| auto = yes
+| use = 27
+| velocity = 12
+| tooltip = Shoots a sword beam when swung, If it hits an enemy, it explodes into Sword Fragments that home in after a few seconds that deal 25% of the weapons current damage.
+| debuff = Brimstone Flames
+| debufftip = Incinerating both body and mind
+| debuffduration = 5 seconds
+| debuffchance = 66%
+| debuff2 = On Fire!
+| debufftip2 = Slowly losing life
+| debuffduration2 = 5 seconds
+| proj = Calamity Sword Projectile.png
+| projcaption = Sword Beam
+| element1 = Slash
+| element2 = Fire
+}}
+}}
+
+The '''Calamity Sword''' is a direct upgrade to the [[Swordsplosion]]. It inflicts On Fire and Brimstone Flames. It fires sword beams, If the sword beam hits an enemy, it explodes into tiny sword fragments and home in to foes shortly after, the tiny sword beams deal 25% of the weapons damage. The weapon also gets a damage boost if you are in the [[Brimstone Crag|Brimstone Crags]] (Up to a 3x damage multiplier)
+
+{{-}}{{Crafting recipe|item1=Swordsplosion|tool=Altar of the Accursed}}{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:余震]]

@@ -1,0 +1,49 @@
+{{dedicated|Pixlgray|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| tooltip = Mage is superior to rogue; look, we got a donor weapon to prove it!
+| damagetype = Magic
+| damage = 39
+| use = 12
+| knockback = 3.5
+| velocity = 19
+| stack = 1
+| mana = 15
+| auto = true
+| hardmode = yes
+| postml = yes
+| rare = 12
+| sell = {{value|0|24}}
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffduration = 3 seconds
+| debuffchance = 100%
+| debuff2 = Crush Depth
+| debufftip2 = Aquatic pressure
+| debuffduration2 = 3 seconds
+| debuffchance2 = 100%
+| element1 = Fire
+| element2 = Holy
+| proj = Divine Spear.png
+| projcaption = Divine Spear
+}}
+[[File:Divine Retribution (demo).gif|frame|The Divine Retribution being used against a [[Super Dummy]]. Note that the projectiles only home while there are no tiles in the way.]]
+
+'''Divine Retribution''' is a craftable Godseeker Mode [[wand]] and a direct upgrade to [[Undine's Retribution]]. It summons many high-speed divine spears from below that home in on enemies and inflict the [[Crush Depth]] and [[Holy Flames]] [[debuff]]s. The spears can also go through blocks, and will disappear after a moderate time if no enemy is hit. If no enemies are nearby, the spears will instead home in on the player.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The spears that spawn while using the weapon are identical to the {{item|HolySpear|nolink=yes|Holy Spears}} that [[Providence]] uses as one of her attacks.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

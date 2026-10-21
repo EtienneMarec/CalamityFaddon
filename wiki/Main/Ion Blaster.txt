@@ -1,0 +1,46 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 43
+| mana = 6
+| tooltip = Fires ion blasts that speed up and then explode<br/>Damage scales with how full your mana is<br/>Using Astral Injection reduces the effectiveness of the mana boost
+| debuff = Brimstone Flames
+| debuffduration = 2 seconds
+| debufftip = Rapid health loss
+| debuffchance=100%
+| knockback = 5.5
+| velocity = 3
+| rare = 5
+| sell = {{value|0|4|80}}
+| use = 10
+| stack = 1
+| hardmode = yes
+| proj = Ion Blast.png
+| projcaption = Ion Blast
+| element1 = Fire
+}}
+
+The '''Ion Blaster''' is a craftable [[Hardmode]] [[magic gun]]. It fires continuously accelerating ion blasts that have increased damage the more [[mana]] the player has in reserve. Its projectiles inflict the [[Brimstone Flames]] [[debuff]] upon hitting an enemy. The projectile damage is multiplied by 0.2 added to 1.4 times of the player's mana ratio, dealing 20% damage at 0 mana and 160% damage at full mana. Additionally, the projectile size is multiplied by 0.75 added to 0.75 times of the player's mana ratio, being 75% size at 0 mana and 150% size at full mana. Having the [[Astral Injection]] [[buff]] caps the maximum damage multiplier at 111% and size at 123.75%.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*Because of this weapon's unique benefit from current mana, it has incredible synergy with accessories and armor that boost maximum mana and reduce mana usage. [[Hallowed armor]] is great in this regard, giving 100 max mana and reducing mana usage by 20%.
+
+== Trivia ==
+*The Ion Blaster's design resembles the Axiom Disruptor weapon from the video game [[wikipedia:Axiom Verge|Axiom Verge]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Magic guns]]

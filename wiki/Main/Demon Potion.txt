@@ -1,0 +1,19 @@
+{{item infobox
+| type = Potion
+| stack = 1
+| use = 1
+| tooltip = You feel infinite violend rage which causes enemys to come to you rapidly
+| consumable = yes
+| rare = 4
+| buff = Evil | bufflink = no
+| duration = 100 minutes
+| bufftip = Spawn rates are boosted
+| sell = {{value|1|0|00}}
+}}
+
+The '''Demon Potion''' is a [[Pre-Hardmode]] [[Buff Potions|buff potion]] that drops commonly from [[Slimes]]. It grants the '''Evil''' [[buff]], which boosts all spawn rates and maximum spawn count by 1000%. It is also used in the crafting of the [[Death Candle]].
+
+{{Master Template Consumables
+| show-main = yes
+| show-buff = yes
+}}

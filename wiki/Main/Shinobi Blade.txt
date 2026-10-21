@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| tooltip = Throws a fast blade that spawns healing orbs when it kills an enemy<br/>Stealth strikes cause 3 blades to be thrown at once
+| damagetype = Rogue
+| damage = 40
+| knockback = 1
+| rare = 3
+| sell = {{value|0|0|80}}
+| stack = 1
+| velocity = 20
+| use = 14
+| auto = yes
+| element1 = Water
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Dark Caster]]|1| {{dv|4%|6.67%}}
+}}
+}}
+
+The '''Shinobi Blade''' is a [[Pre-Hardmode]] [[dagger]] dropped by [[Dark Caster]]s. It automatically fires fast daggers that are unaffected by gravity, and do not pierce enemies or blocks. Enemies killed by the projectile spawn slow homing blue orbs that [[lifesteal|heal]] the player for 10 health.
+
+Performing a [[stealth strike]] with the Shinobi Blade causes three daggers to be thrown instead of one.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+
+{{-}}
+{{Dungeon}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

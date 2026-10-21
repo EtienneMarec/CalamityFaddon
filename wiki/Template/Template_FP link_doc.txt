@@ -1,0 +1,10 @@
+This template is for creating the styled links used within boxes on the front page: {{SITENAME}}. It relies heavily on CSS in [[MediaWiki:Hydradark.css]] and [[MediaWiki:Mobile.css]].
+
+==Basic links==
+For the most basic links, the usage is as follows for a standard wiki link:
+ <nowiki>{{FP link|page name}}</nowiki>
+ <nowiki>{{FP link|page name|link text}}</nowiki>
+
+For external links, the usage is:
+ <nowiki>{{FP link|url=http://www.example.com}}</nowiki>
+ <nowiki>{{FP link|url=http://www.example.com|link text}}</nowiki>

@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 145
+| mana = 18
+| knockback = 6.75
+| tooltip = Summons asteroids from the sky
+| velocity = 20
+| rare = 10
+| sell = {{value|0|20}}
+| use = 10
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Asteroid.png
+| projcaption = Asteroid
+| element1 = Magic
+| element2 = Fire
+}}
+[[File:Asteroid Staff (demo).gif|frame|The Asteroid Staff's asteroids that follow the cursor.]]
+The '''Asteroid Staff''' is a craftable Godseeker Mode [[wand]]. It is a direct upgrade of the [[Meteor Staff]], raining 2 to 3 glowing meteors with green trails from the sky upon use. The meteors fall in the direction of the cursor and explode upon contact with anything, dealing damage to nearby enemies.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{PureLuminite}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

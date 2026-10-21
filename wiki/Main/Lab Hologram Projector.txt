@@ -1,0 +1,43 @@
+{{item infobox
+| type = Furniture
+| placeable = yes
+| stack = 9999
+| auto = yes
+| width = 6
+| height = 7
+| use = 14
+| rare = a
+| color = #6383C7
+| sell = {{value|0|1}}
+}}
+
+The '''Lab Hologram Projector''' is a unique piece of [[furniture]] found in the [[Arsenal Lab]]. When the player is within 35-blocks radius around the box, the hologram will be active.
+
+When interacted (right-click), the following dialogues may pop up:
+*"To any personnel engaged in the laboratories. Please wear your steel engraved ID badge at all times. It is the easiest method to discern your body if any accidents do occur."
+*"To experiment is to fail. To fail is to learn. To learn is to advance."
+*"Apparent danger while researching serves only to enhance the research experience."
+*"Laser-type weapon prototypes are incredibly lethal and are not to be used within presentation halls."
+*"High-energy plasma emissions have adverse effects on both flesh and metal. Do not attempt to handle vented plasma."
+*"Electric shocks from military equipment are intended to be fatal. If you survive such a shock, that is a clear indicator that the device is not functioning properly. Please report any such cases."
+*"All employees are hereby notified that they will be held accountable for any collateral damage caused by Gauss weapon fire, even during sanctioned testing exercises."
+*"Security Field Emitters will vaporize all unauthorized equipment and personnel. Please leave personal effects in the designated lockers off-site. This also means: Do not bring any family members who are not enlisted as personnel."
+*"If one does manage to breach restricted testing facilities, do at least record any unexpected burns, lacerations, bruising, fractur... ...trauma, shocks and otherwise. Thank you."
+*"The power grid has been... ...eavily compromised. Abort research and proceed to the emergency exits located at... ...and egress with haste."
+*"Notify the Security Department of any aggressive local fauna immediately."
+
+The following dialogues may appear under a certain condition:
+*"Sensors have detected a significant breach in the spacetime continuum." (After the [[Lunatic Cultist]] has been defeated)
+*"Please help. I'm stuck in this hologram machine." (1/5000 chance)
+
+
+{{fantag|Calamity: Community Remix}} Additionally, the Lab Hologram Projector will summon the [[Cyber Draedon]] [[mini boss]] if a [[Bloody Vein]] is inserted into it. Doing this will cause the projector to explode and become unusable temporarily until Cyber Draedon is defeated or despawns, after which it will reform.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

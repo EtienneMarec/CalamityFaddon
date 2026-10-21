@@ -1,0 +1,89 @@
+'''Shortstrike''' is a mechanic that is based on the player's cumulative time using any [[Shortsword]].
+
+For every 10 damage dealt using a shortsword, and for every swing of a shortsword that hits an enemy, the player gains a shortstrike point. Up to 100 shortstrike points can be gained through these methods. When the player reaches the maximum amount of shortstrikes, a sound effect will play and the player will gain an orange pulsing aura around themselves; right clicking with the shortsword while in this state will perform a special attack called a '''Shortflurry'''. A Shortflurry typically consists of a rapid barrage of swings from the weapon, typically done through separate magic clones, which provide a large damage boost, and occasionally additional player buffs or extra projectiles.
+
+As the player's Shortstrike counter increases they also gain 1% damage for every 5 points, and 1 defense for every 3, totalling for a boost of 20% damage and 33 defense by the time the Shortstrike counter has been maxed out.
+
+Switching to any other weapon will not reduce the Shortstrike counter. However, the stat boosts gained from Shortstrike points will only apply if a shortsword is the player's currently held weapon.
+
+A full list of Shortflurry attacks can be found below:
+{{collapse top|Shortflurry attacks}}
+{| class="terraria lined"
+! width="215px" | Weapon
+! width="80px" | Damage boost
+! width = "80px" | Hit count
+! width="120px" | Duration
+! width="200px" | Effects
+|-
+| {{item|Copper Shortsword}} || 10% || 3 || 1 second || Increases player defense by 5
+|-
+| {{item|Tin Shortsword}} || 10% || 3 || 1 second || Increases player damage reduction by 2%
+|-
+| {{item|Iron Shortsword}} || 12% || 3 || 1 second || Increases player defense by 6
+|-
+| {{item|Lead Shortsword}} || 12% || 3 || 1 second || Increases player damage reduction by 3%
+|-
+| {{item|Silver Shortsword}} || 14% || 3 || 1 second || Increases player defense by 8
+|-
+| {{item|Tungsten Shortsword}} || 14% || 3 || 1 second || Increases player damage reduction by 4%
+|-
+| {{item|Gold Shortsword}} || 20% || 4 || 1.2 seconds || Increases player defense by 10
+|-
+| {{item|Platinum Shortsword}} || 20% || 4 || 1.2 seconds || Increases player damage reduction by 6%
+|-
+| {{item|Umbrella}} || 25% || 4 || 3 seconds || Attacks inflict [[Wet]] for 20 seconds
+|-
+| {{item|Tragic Umbrella}} || 15% || 4 || 3 seconds || Attacks inflict [[Temporal Sadness]] for 1 second
+|-
+| {{item|Wulfrum Leech Dagger}} || 0% || 2 || 0.5 seconds || Wulfrum Leech Daggers become unconsumable for 3 seconds
+|-
+| {{item|Aquatic Discharge}} || 10% || 5 || 1.5 seconds || Attacks inflict [[Electrified]] for 5 seconds
+|-
+| {{item|Eutrophic Shank}} || 15% || 4 || 1.5 seconds || Attacks inflict [[Eutrophication]] for 2 seconds
+|-
+| {{item|Ruler}} || 15% || 2 || 0.5 seconds || Attacks inflict [[On Fire!]] for 5 seconds
+|-
+| {{item|Spore Knife}} || 5% || 4 || 4 seconds || Attacks inflict [[Poisoned]] for 2 seconds<br/>Attacks spawn 4 tile long vines on hit
+|-
+| {{item|Bloody Rupture}} || 25% || 5 || 2 seconds || Creates bloodsplosions on enemy hits
+|-
+| {{item|Leeching Dagger}} || 15% || 4 || 2 seconds || Heals the player for 5 health per hit
+|-
+| {{item|Gladius}} || 10% || 4 || 0.5 seconds || Increases player movement speed by 20%
+|-
+| {{item|Ancient Shiv}} || 25% || 7 || 4 seconds || Increases player melee speed by 5%
+|-
+| {{item|Tomutus}} || 30% || 5 || 4 seconds || Attacks inflict [[Hellfire]]
+|-
+| {{item|Night's Stabber}} || 35% || 6 || 2 seconds || Heals the player for 3 health per hit<br/>Attacks spawn 5 tile long nightshade vines and inflict [[Cursed Inferno]]<br/>Increases player melee speed by 5%
+|-
+| {{item|Coldheart Icicle}} || 0% || 3 || 2 seconds || Hits drain 3% health
+|-
+| {{item|Submarine Shocker}} || 30% || 6 || 2 seconds || Spawns [[Sulphuric Poisoning]]-inflicting stationary clouds
+|-
+| {{item|Caliburn}} || 30% || 7 || 2 seconds || Hits spawn vertical beams of holy light<br/>Increases player damage reduction by 5%
+|-
+| {{item|True Caliburn}} || 40% || 9 || 3 seconds || Hits spawn a beam that creates vertical light beams as it travels<br/>The beam lasts for 20 tiles<br/>Increases player damage reduction by 10%
+|-
+| {{item|True Night's Stabber}} || 40% || 7 || 3 seconds || Hits spawn an infinitely piercing beam that heals nearby players 5 health per hit<br/>The beam also passively shoots cursed fireballs for every 5 tiles<br/>The beam lasts for 15 tiles<br/>Increases player melee speed by 10%
+|-
+| {{item|Terra Shiv}} || 50% || 12 || 5 seconds || Hits spawn a 30 tile beam that splits into 3 more beams that deal 20% damage.<br/>These beams inflict [[Ichor (debuff)|Ichor]] and healing 5 life per hit<br/>Increases player melee speed and damage reduction by 15%
+|-
+| {{item|Lucrecia}} || 20% || 3 || 2 seconds || Greatly increases the range of Lucrecia's DNA and removes its life penalty for 5 seconds<br/>Provides 1 life regeneration for 5 seconds
+|-
+| {{item|Disease}} || 50% || 7 || 2 seconds || Hits spawn homing plague seekers for each hit
+|-
+| {{item|Elemental Shiv}} || 80% || 15 || 6 seconds || Beams split 5 times and heal the player 8 health per hit<br/>Increases player melee speed, defense, and damage reduction by 15%
+|-
+| {{item|Galileo Gladius}} || 120% || 7 || 3 seconds || Crescent hits spawn moons<br/>Player becomes immune to [[Nightwither]] for 20 seconds<br/>Increases player melee crit chance by 30%
+|-
+| {{item|Cosmic Shiv}} || 150% || 20 || 6 seconds || 20% chance to shoot a second beam<br/>Player gains the [[Cosmic Freeze]] buff for 20 seconds<br/>Increases player melee speed, defense, and damage reduction by 20%
+|-
+| {{item|Exo Gladius}} || 200% || 32 || 7 seconds || Every 5th strike sends out a shotgun blast of 8 healing exo comets<br/>Player gains immunity to most debuffs for 20 seconds<br/>Increases player melee speed, defense, and damage reduction by 30%
+|-
+| {{item|Microcell Cut}} || 250% || 40 || 8 seconds || Hits spawn homing astral stars for each hit
+|-
+|}
+{{collapse bottom}}
+
+{{Game mechanics}}

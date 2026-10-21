@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| defense = 36
+| tooltip = 35% decreased movement speed<br/>Enemies take damage when they hit you<br/>You move faster and lose 18 defense for 3 seconds if you take damage<br/>Temporary immunity to lava
+| stack = 1
+| rare = 5
+| hardmode = yes
+| buff = Shell Speed Boost
+| duration = 5 seconds (when hit)
+| bufftip = Speed is boosted
+| sell = {{value|0|4|80}}
+| element1 = Fire
+}}
+|{{item drops infobox
+| [[Brimstone Elemental]]|1|10%
+}}
+}}
+
+The '''Flame-Licked Shell''' is a [[Hardmode]] [[covering]] that drops from the [[Brimstone Elemental]]. It reduces movement speed and acceleration by 35%, but in return it gives a massive [[defense]] boost. Additionally, enemy damage is reflected back at them, dealing 25% of the original hit. Movement speed is increased by 90% and defense decreased by 18 for a short time after the player is harmed by any source. The covering also grants 4 seconds of immunity to [[lava]] damage.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*[[Shell Speed Boost]] will not be granted on hit if the player has the [[Panic Necklace]] or any items of a similar nature equipped.
+
+== Trivia ==
+*This covering is a reference to the [https://borderlands.fandom.com/wiki/Fabled_Tortoise Fabled Tortoise] shield from ''[[wikipedia:Borderlands 2|Borderlands 2]]''.
+**Before version [[1.5.0.001]], this item was called the Fabled Tortoise Shell, and dropped from [[Giant Tortoise]]s as a rare variant of the [[Giant Tortoise Shell]].
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

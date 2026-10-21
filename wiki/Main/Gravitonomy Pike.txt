@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 257
+| use = 18
+| velocity = 12
+| knockback = 9.5
+| auto = yes
+| stack = 1
+| rare = 15
+| sell = {{value|0|30}}
+| tooltip = Fires exo pike beams that split into more beams<br/>Hitting enemies with the pike sucks in all nearby enemies<br/>Ignores immunity frames
+| hardmode = yes
+| postml = yes
+| proj = Gravitonomy Pike.png
+| projcaption = Gravitonomy Pike
+| proj2 = Gravitonomy Beam.png
+| proj2caption = Gravitonomy Beam
+| element1 = Cold
+| element2 = Stab
+| element3 = Machine
+}}The '''Gravitonomy Pike''' is a craftable Godseeker Mode [[Spears|spear]]. Each use fires an exo pike beam which passes through walls and weakly homes in on enemies. When near or touching enemies, the more pike beams are spawned and home in on nearby targets. The pike and pike beams all ignore NPC [[immunity frames]] and additionally inflict the following [[debuffs]]:
+*[[Exo Freeze]] (0.5 seconds)
+*[[Holy Flames]] (2 seconds)
+*[[Frostburn]] (2.5 seconds)
+*[[On Fire!]] (3 seconds)
+{{Modifier|1=meleealt}}
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used In===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The item is referred to as "Exosphear" in the mod's source files.
+**Exosphear is a pun on "Exo Spear" and [[wikipedia:exosphere|exosphere]], the outermost layer of the atmosphere.
+{{Exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

@@ -1,0 +1,71 @@
+<div class="crafting-tree">{{diagram
+
+|Ectop|_|EsseS|_|Ectop|_|EsseE|_|Ectop|_|EsseC|_|_|_|#
+                                              |_|_|_|#
+|_|`|-|v|-|'|_|_|_|`|-|v|-|'|_|_|_|`|-|v|-|'|_|_|_|_|#
+|_|_|HMANV|_|_|_|_|_|HMANV|_|_|_|_|_|HMANV|_|_|_|_|_|#
+|_|_|CoreS|_|_|_|_|_|CoreE|_|_|_|_|_|CoreC|_|_|AshCa|#
+                                              |     |#
+|_|_|_|`|-|-|-|-|-|-|-|v|-|-|-|-|-|-|-|^|-|-|-|-|'|_|#
+|_|_|_|_|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|CorCa|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+|Ectop_cols = 3
+|Ectop_rows = 2
+|Ectop = {{item|Ectoplasm}} <br/>
+( {{item|mode=image|Ectoblood|size=14px}} × 3 / {{item|mode=image|Dungeon Spirit|size=16px}} )
+
+|EsseS_cols = 3
+|EsseS_rows = 2
+|EsseS = {{item|Essence of Sunlight}}<br/>
+<span style="font-size:0.75em">( Sky / Storm / Sun related creatures )
+
+|EsseE_cols = 3
+|EsseE_rows = 2
+|EsseE = {{item|Essence of Eleum}}<br/>
+<span style="font-size:0.75em">( Ice related creatures )
+
+|EsseC_cols = 3
+|EsseC_rows = 2
+|EsseC = {{item|Essence of Chaos}}<br/>
+<span style="font-size:0.75em">( Fire / Evil related creatures )
+
+|CoreS_cols = 3
+|CoreS_rows = 2
+|CoreS = {{item|Core of Sunlight}} × 3<br/>
+( {{item|mode=image|Fleshy Geode|size=20px}} {{item|mode=image|Necromantic Geode|size=20px}} )
+
+|CoreE_cols = 3
+|CoreE_rows = 2
+|CoreE = {{item|Core of Eleum}} × 3<br/>
+( {{item|mode=image|Fleshy Geode|size=20px}} {{item|mode=image|Necromantic Geode|size=20px}} )
+
+|CoreC_cols = 3
+|CoreC_rows = 2
+|CoreC = {{item|Core of Chaos}} × 3<br/>
+( {{item|mode=image|Fleshy Geode|size=20px}} {{item|mode=image|Necromantic Geode|size=20px}} )
+
+|CorCa_cols = 3
+|CorCa_rows = 2
+|CorCa = {{item|Core of Calamity}}<br/>
+( {{item|mode=image|Necromantic Geode|size=20px}} )
+
+| AshCa_cols = 3
+| AshCa_rows = 2
+| AshCa = {{item|Ashes of Calamity}}<br/>
+( {{item|mode=image|image=Calamitas map.png|Calamitas|size=25px}} )
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

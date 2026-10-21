@@ -1,0 +1,181 @@
+<section begin=npc infobox />{{npc infobox
+| name = Wulfrum Excavator
+| type = Boss
+| type2 = Burrowing Enemy
+| imagealt = <Tabber>
+
+Normal=[[File:Wulfrum Excavator.png|400px]]
+
+|-|
+Supercharged =[[File:Wulfrum Excavator (supercharged).png|400px]]
+
+</Tabber> 
+| environment = Surface
+| ai = Wulfrum Excavator AI
+| life = {{dv|2,000|3,500|5,000}}
+| knockback = 100
+| immune1 = Pearl Aura
+| immune2 = Confused
+| money = {{value|0|10}}
+| Wulfrum Bar|{{dv|16-20|20-26}}|100%
+| Energy Core|1-2|100%
+| Energy Orb|1|100%
+| Conquest Fragment |1|100%
+|group|At least one of the following 5 weapons will always drop:|5
+| Wulfrum Screwdriver|1|{{dv|25%|33.33%}}
+| Wulfrum Blunderbuss|1|{{dv|25%|33.33%}}
+| Wulfrum Prosthesis|1|{{dv|25%|33.33%}}
+| Wulfrum Fusion Array|1|{{dv|25%|33.33%}}
+| Wulfrum Shock Cutter|1|{{dv|25%|33.33%}}
+| Wulfrum Treasure Pinger|1|100%
+| Lesser Healing Potion|8-14|100%
+| custom| {{item|Wulfrum Lenses|note=(Pacifist Drop)|wrap=y}}|100%
+| custom| {{item|The Wulfrum Excavator (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Wulfrum Lure|note=(While supercharged)|wrap=y}}|100%
+| Wulfrum Excavator Trophy|1|10%
+| image2 = Wulfrum Excavator map.png
+| image2caption = Map Icon
+| listexclude = yes
+| boxwidth = 25em
+| hurt = NPC_Hit_4.wav
+| killed = Item_14.wav
+| sound = Item_33.wav
+| soundtext = Laser
+}}<section end=npc infobox />
+[[File:Wulfrum Excavator Trophy.png]] <big>''"The first big project of the legendary weaponsmith, Draedon.”''</big> [[File:Wulfrum Excavator Trophy.png]]
+
+The '''Wulfrum Excavator''' (Japanese: ウルフルム掘削機 ''Urufurumu kussaku-ki'') is a [[Pre-Hardmode]] [[boss]]. It is intended to be the first boss alongside [[The Inventors]] that the player fights, even before the [[King Slime]].
+
+== Spawn ==
+The Wulfrum Excavator is summoned by hitting a [[Wulfrum Pylon]] with any [[pickaxe]] while an [[Ogscule]] is in the player's inventory. The Wulfrum Excavator will jet up from below and eat the amplifier, starting the fight.
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = Wulfrum Excavator AI
+| name = Wulfrum Excavator Head
+| environment = Surface
+| life = {{dv|2,000|3,500|5,000}}
+| knockback = 100
+| damage = {{dv|20|28|34|40}}
+| defense = 0
+| vulnerable1 = Fire
+| vulnerable2 = Water
+| resistant1 = Poison
+| resistant2 = Stab
+| resistant3 = Machine
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = Wulfrum Excavator AI
+| name = Wulfrum Excavator Body
+| environment = Surface
+| life = {{dv|2,000|3,500|5,000}}
+| knockback = 100
+| damage = {{dv|10|16|20|25}} (Contact)<br/>{{dv|||40|56}} (Laser)
+| defense = 4
+| vulnerable1 = Fire
+| vulnerable2 = Water
+| resistant1 = Poison
+| resistant2 = Stab
+| resistant3 = Machine
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Burrowing Enemy
+| ai = Wulfrum Excavator AI
+| name = Wulfrum Excavator Tail
+| environment = Surface
+| life = {{dv|2,000|3,500|5,000}}
+| knockback = 100
+| damage = {{dv|5|8|16|20}}
+| defense = 6
+| dr = 5%
+| vulnerable1 = Fire
+| vulnerable2 = Water
+| resistant1 = Poison
+| resistant2 = Stab
+| resistant3 = Machine
+}}
+}}
+
+== Behavior ==
+The Wulfrum Excavator starts off with behavior similar to any other worm enemy, with the additional ability to fire lasers from its body. After certain HP thresholds are reached, the Wulfrum Excavator's movement patterns will change.
+If the Wulfrum Excavator enters within the range of a [[Wulfrum Pylon]], it will supercharge, boosting its AI to the next difficulty stage.
+
+=== Attacks ===
+*Upon reaching {{dv|60%|70%|75%}} health, the Wulfrum Excavator will start moving in a large 20 tile in diameter circle centered on the player, occasionally firing a hex of lasers outward from it's head.
+*Upon reaching {{dv|40%|45%|50%}} health, the Wulfrum Excavator will move in a rectangular pattern around the border of the player's screen, firing a shotgun burst of lasers towards the player upon hitting corners.
+*Upon reaching {{dv|15%|20%|25%}} health, the Wulfrum Excavator starts moving in a lemniscate pattern, above the player, summoning a ring of {{dv|6|8|10|12}} lasers upon completing one circle.
+
+=== In [[Expert Mode]] ===
+*Lasers are shot more frequently.
+*The Wulfrum Excavator enters phases at higher amounts of health.
+*{{dv|0|2|3|4}} [[Wulfrum Enemies]] are summoned each time the boss transitions to a new movement pattern.
+**This includes [[Wulfrum Pylon|Wulfrum Pylons]], so one should take care to avoid supercharging the boss.
+
+=== In [[Revengeance Mode]] ===
+*Lasers are shot even more frequently.
+*The Wulfrum Excavator enters phases at even higher amounts of health.
+*At 5% health, the Wulfrum Excavator will go beserk and start cycling through all 3 movement patterns every 5 seconds.
+
+=== In [[Death Mode]] ===
+*Speed is greatly increased.
+*Lasers move 20% faster.
+
+=== In [[Malice Mode]] ===
+*Speed is further increased.
+*Lasers inflict [[Exo Freeze]].
+
+=== On the For the worthy seed ===
+* Has triple the amount of segments.
+
+== Summons ==
+{| class="sortable terraria"
+! Name !! Event 
+|-
+|{{Item|Wulfrum Drone|mode=table}}
+| rowspan="5" |When transitioning to a new phase in [[Expert Mode]]
+|-
+|{{item|Wulfrum Gyrator|mode=table}} 
+|-
+|{{Item|Wulfrum Hovercraft|mode=table}}
+|-
+|{{Item|Wulfrum Pylon|mode=table}}
+|-
+|{{Item|Wulfrum Rover|mode=table}}
+|}
+
+== Aftermath ==
+*[[Energy Orb]]s will start dropping from any Wulfrum enemy at a 1% chance.
+*All Vanilla Pre-[[Hardmode]] [[ores]] start to grow over time, expanding into nearby [[Stone Block]]s or [[Ice Block]]s.
+*[[Cnidrion]]s start dropping [[Desert Medallion]]s.
+*For some reason, even though this boss is supposed to be the counterpart of [[The Inventors]], defeating it isn't required to summon [[The Hive Mind]].
+
+== Resistances ==
+*All segments take reduced damage from non-[[Minions|minion]] piercing projectiles in [[Expert Mode]]. Projectile damage is divided by the number of times it pierces. Infinite piercing deals 50% damage.
+*All segments reduce damage from grenade-type projectiles by 80%. A list of affected projectiles is below.
+
+{{ajax|List of resisted grenades|head=Resisted grenades|width=30%}}
+
+== Notes ==
+*All of the Wulfrum Excavator's loot will spawn at the nearest segment with the exception of the [[Heart]]s, which will always spawn at the head.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating the Wulfrum Excavator, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Wulfrum Excavator strategies]].}}
+
+== Trivia ==
+*The Wulfrum Excavator's [[Music|theme]] is [https://youtu.be/SJ7l6f3ONwQ '''Scourge of the Scrapyard'''], which was composed by the artist [https://www.youtube.com/@sploopo4616 Sploopo].
+**If the Calamity Music add-on mod is disabled, '''Boss 1''' will play instead.
+*The Wulfrum Excavator is internally named "Wulfwyrm".
+*It is heavily implied that the [[Armored Digger]] is a later model of the Wulfrum Excavator.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "''The old excavator has successfully harvested every player.''”
+*In the Japanese translation, its name is "ウルフルム掘削機 ''Urufurumu kussaku-ki''"
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

@@ -1,0 +1,48 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| rare = 7
+| sell = {{value|0|12}}
+| damage = 95
+| use = 23
+| knockback = 7
+| velocity = 18
+| tooltip = Summons teeth from the sky on hit
+| debuff = Poisoned
+| debufftip = Slowly losing life
+| debuffchance= 100%
+| debuffduration = 5 seconds (Teeth)
+| debuff2 = Venom
+| debufftip2 = Losing life
+| debuffchance2= 100%
+| debuffduration2 = 5 seconds (Teeth)
+| auto = yes
+| stack = 1
+| hardmode = yes
+| proj = Greentide Teeth.png
+| projcaption = Teeth
+| element1 = Poison
+| element2=  Water
+}}
+|{{item drops infobox
+| [[Leviathan and Anahita]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Greentide''' is a [[Hardmode]] [[broadsword]] with autoswing, which is dropped by the [[Leviathan and Anahita]]. Upon striking an enemy with it, teeth will rain from the sky towards the cursor's position. Each tooth will inflict the [[Poisoned]] and [[Venom]] [[debuffs]] for 5 seconds.
+
+{{modifier|melee}}
+
+== Trivia ==
+*Green tide is the term given to large accumulations of green seaweed which harbor large amounts of algae that can be harmful to marine wildlife.
+
+{{-}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:翡翠之潮]]

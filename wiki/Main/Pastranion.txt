@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damage = 413
+| use = 28
+| damagetype = Spy
+| knockback = 5
+| auto = yes
+| velocity = 18
+| stack = 1
+| rare = 15
+| tooltip = Throws out bowls with strands which lash out at nearby enemies<br/>Stealth strikes have much longer, aggressive strands
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| element1 = Fire
+| element2 = Slash
+| element3 = Unholy
+| element4 = Machine
+}}
+
+The '''Pastranion''' is a craftable Godseeker Mode [[Spy weapon]]. It throws a bowl made of Argentum which has several strips of energy attached. These strips lash out at enemies within a 20 tile radius of the projectile. 
+
+Performing a [[stealth strike]] with the Pastranion greatly increases the range of the strips and makes them attack quicker.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Argentum}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}

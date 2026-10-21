@@ -1,0 +1,46 @@
+{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 45
+| auto = yes
+| use = 21
+| knockback = 2.5
+| velocity = 12
+| stack = 1
+| tooltip = Sticks to enemies and injects a potent toxin<br/>Stealth strikes are trailed by homing urchin spikes
+| debuff = Venom
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 4 seconds
+| rare = 3
+| sell = {{value|0|0|80}}
+| proj = Urchin Spike.png
+| projcaption = Urchin Spike
+| element1 = Poison
+| element2 = Dark
+| element3 = Water
+}}
+
+The '''Lionfish''' is a [[Pre-Hardmode]] [[Spy weapon]] obtained from [[Shadow Chest]]s in the [[Abyss]]. When used, it hurls a Lionfish which travels in a straight line for a long distance before being affected by gravity.
+
+The Lionfish inflicts [[Venom]] on contact with enemies and sticks to them. Unlike most weapons that deal Venom, the damage over time dealt by the Lionfish stacks. Up to six Lionfish can be impaled on an enemy at once, similar to [[Daybreak]] spears for a maximum of 300 damage per second. This can stack with the [[Sulphuric Acid Cannon]] for a maximum of 390 damage per second.
+
+Lionfish projectiles will explode upon hitting a block or after being stuck to an enemy for several seconds. This explosion is purely cosmetic and deals no damage.
+
+Lionfish projectiles remove [[Venom]] immunity from [[King Slime]], [[Skeletron]] and its hands, and the [[Wall of Flesh]].
+
+Performing a [[stealth strike]] with the Lionfish causes the resulting projectile to release several homing urchin spikes as it travels.
+
+{{Modifier|Spy}}
+
+== Notes ==
+*This weapon can also be obtained from the [[Abyssal Crate]] after either [[The Slime God]] or [[Wall of Flesh]] have been defeated.
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+== Trivia ==
+*[[wikipedia:Pterois|Lionfish]] are a real world fish known for their venomous spikes. 
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}

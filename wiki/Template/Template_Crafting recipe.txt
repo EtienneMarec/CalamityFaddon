@@ -1,0 +1,81 @@
+<includeonly>{{#vardefine:ns0|{{#ifeq:{{NAMESPACE}}|{{ns:0}}|y}}}}<!--
+-->{| class="craftbox" style="width:239px; background-color: #515151; border: 1px solid #aaaaaa; -moz-border-radius: .7em; -webkit-border-radius: .7em; padding: 0.2em; margin-bottom:5px;"
+! colspan="3" style="background-color: #373d40; color: #ffffff; font-size:110%; padding:0.2em;" | Crafting Station
+|-
+| align="center" colspan="3" | {{#switch:{{{tool}}}<!--
+	-->|By Hand=[[By Hand]]{{#if:{{#var:ns0}}|[[Category:Items crafted by hand]]}}<!--
+	-->|Lead Anvil<!--
+	-->|Iron Anvil={{item|Iron Anvil}} /<br/> {{item|Lead Anvil}}{{#if:{{#var:ns0}}|[[Category:Items crafted at Iron or Lead Anvil]]}}<!--
+	-->|Orichalcum Anvil<!--
+	-->|Mythril Anvil={{item|Mythril Anvil}} /<br/> {{item|Orichalcum Anvil}}{{#if:{{#var:ns0}}|[[Category:Items crafted at Mythril or Orichalcum Anvil]]}}<!--
+	-->|Titanium Forge<!--
+	-->|Adamantite Forge={{item|Adamantite Forge}} /<br/> {{item|Titanium Forge}}{{#if:{{#var:ns0}}|[[Category:Items crafted at Hardmode Forge]]}}<!--
+	-->|Altar=[[File:Demon Altar.png|link=Altar]] [[File:Crimson Altar.png|link=Altar]] <br/> [[Altar|Demon/Crimson Altar]]{{#if:{{#var:ns0}}|[[Category:Items crafted at Demon or Crimson Altar]]}}<!--
+	-->|Table+Chair<!--
+	-->|Table + Chair={{item|Table}} + {{item|Chair}}{{#if:{{#var:ns0}}|[[Category:Items crafted at Table and Chair]]}}<!--
+	-->|Work Bench+Chair<!--
+	-->|Work Bench + Chair={{item|Work Bench}} + {{item|Chair}}{{#if:{{#var:ns0}}|[[Category:Items crafted at Work Bench and Chair]]}}<!--
+	-->|Water<!--
+	-->|Honey<!--
+	-->|Lava<!--
+	-->|Alchemy Station<!--
+	-->|Alchemy Table<!--
+	-->|Ancient Altar<!--
+	-->|Ancient Manipulator<!--
+	-->|Ashen Altar<!--
+	-->|Autohammer<!--
+	-->|Blend-O-Matic<!--
+	-->|Bone Welder<!--
+	-->|Bookcase<!--
+	-->|Botanic Planter<!--
+	-->|Chair<!--
+	-->|Cooking Pot<!--
+	-->|Crystal Ball<!--
+	-->|Draedon's Forge<!--
+	-->|Dye Vat<!--
+	-->|Effulgent Manipulator<!--
+	-->|Eutrophic Shelf<!--
+	-->|Flesh Cloning Vat<!--
+	-->|Furnace<!--
+	-->|Glass Kiln<!--
+	-->|Heavy Work Bench<!--
+	-->|Hellforge<!--
+	-->|Honey Dispenser<!--
+	-->|Ice Machine<!--
+	-->|Imbuing Station<!--
+	-->|Keg<!--
+	-->|Lihzahrd Furnace<!--
+	-->|Living Loom<!--
+	-->|Loom<!--
+	-->|Meat Grinder<!--
+	-->|Monolith Amalgam<!--
+	-->|Particle Accelerator<!--
+	-->|Plague Infuser<!--
+	-->|Profaned Crucible<!--
+	-->|Sawmill<!--
+	-->|Sky Mill<!--
+	-->|Solidifier<!--
+	-->|Static Refiner<!--
+	-->|Steampunk Boiler<!--
+	-->|Table<!--
+	-->|Tinkerer's Workshop<!--
+	-->|Void Condenser<!--
+	-->|Work Bench={{item|{{{tool}}}}}{{#if:{{#var:ns0}}|[[Category:Items crafted at {{{tool}}}]]}}<!--
+	-->|Placed Bottle= {{item|Placed Bottle|Placed <br/> Bottle}} '''or''' {{item|Alchemy Table|Alchemy <br/> Table}}{{#if:{{#var:ns0}}|[[Category:Items crafted at Placed Bottle]]}}<!--
+	-->|Profaned Crucible and Lava = {{item|Profaned Crucible}} '''and''' {{item|Lava}}{{#if:{{#var:ns0}}|[[Category:Items crafted at Profaned Crucible]]}}<!--
+	-->|#default={{{tool}}}{{#if:{{#var:ns0}}|{{#if:{{#pos:{{{tool}}}|Crystal Ball}}|[[Category:Items crafted at Crystal Ball]]|{{#if:{{#pos:{{{tool}}}|{{!}}link}}||[[Category:Items crafted at {{{tool}}}]]}}}}}}<!--
+-->}}
+|- style="background-color: #E4F0F7; color: #063B5E; font-size:100%; padding:0.2em;"
+! colspan="2"    style="background-color: #373d40; color: #ffffff; width:65%; padding:0.2em;" | '''Ingredient(s)'''
+! align="center" style="background-color: #373d40; color: #ffffff; width:35%; padding:0.2em;" | '''Amount'''
+{{#if: {{{item1|}}}|{{#forargs:item|num_of_ing|ing|<nowiki/>
+{{!-}}
+{{!}} style="text-align:center; width:1%;" {{!}} {{item|{{#var:ing}}|{{{text{{#var:num_of_ing}}|}}}|mode=table|class=multi-line break}}
+{{!}} align="center" {{!}} {{{amount{{#var:num_of_ing}}|1}}}
+}}}}
+|-
+! colspan="3" style="background-color: #373d40; color: #ffffff; padding:0.2em;" | '''Result'''
+|-
+| style="text-align:center; width:1%" | {{item|{{{result|{{{name|{{BASEPAGENAME}}}}}}}}|image={{{image|}}}|{{{resulttext|}}}|mode=table|class=multi-line break}}
+| align="center" | {{{resultAmount|1}}}
+|}{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Craftable items]]}}</includeonly><noinclude>{{doc}}</noinclude>

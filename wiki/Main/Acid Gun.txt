@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 17
+| mana = 9
+| knockback = 1.5
+| use = 45
+| velocity = 14
+| tooltip = Releases three streams of acid
+| stack = 1
+| auto = yes
+| rare = 2
+| sell = {{value|0|0|40}}
+| element1 = Acid
+}}
+
+The '''Acid Gun''' is a craftable [[Pre-Hardmode]] [[magic gun]]. It fires an even spread of three acid streams which dissipate upon contact with tiles or after piercing three enemies.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+== Tips ==
+*The Acid Gun is extremely effective on clusters of enemies and on worm-type enemies that have lots of segments like the [[Eater of Worlds]].
+{{-}}
+{{Sulphuric Scale}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+
+[[Category:Magic guns]]
+[[zh:酸液枪]]

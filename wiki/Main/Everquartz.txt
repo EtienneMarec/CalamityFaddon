@@ -1,0 +1,48 @@
+{{addon|Calamity: Community Remix}}
+{{npc infobox
+| type = Enemy
+| ai = Unicorn AI
+| damage = {{element|Unholy}} {{dv|105|boost=0.15}}
+| life = {{dv|12,000|16,000}}
+| defense = 55
+| dr = 5%
+| knockback = 100
+| environment = The Hallow
+| environment2 = The Underworld
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 50%
+| duration = 2 seconds
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Holy Flames
+| immune4 = Moon Burnt
+| banner = yes
+| money = {{value|0|0|50}}
+| Unholy Essence|10-15| 100%
+| custom | {{item|Chrononimbus|note=(After defeating<br/>[[The Starborn Moth]])|wrap=y}} {{dei}} | 15%
+| The Everquartz|1| 1%
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_12.wav
+| killed = NPC_Killed_7.wav
+| soundtext = Jump
+| vulnerable1 = Dark
+| vulnerable2 = Water
+| vulnerable3 = Machine
+| resistant1 = Fire
+| resistant2 = Holy
+| resistant3 = Unholy
+}}
+
+'''Everquartz''' is a Godseeker Mode [[enemy]] that spawns in the [[Hallow]] and [[Underworld]] biomes. She is a very fast enemy and she can jump approximately 7 tiles high and 20 tiles wide. When charging towards the player, she will charge rainbow-like magic at the player. She drops [[Unholy Essence]], a useful post-Moon Lord [[crafting material]].  
+
+==Trivia==
+*Everquartz is based upon on the infamous Calamity Mod fan artist: everquartz.
+*Upon killing Everquartz, she has a 1% chance to spawn [[Providence, the Profaned Goddess]] and [[The Devourer of Gods]] at the same time.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

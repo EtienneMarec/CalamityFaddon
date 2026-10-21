@@ -1,0 +1,49 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 60
+| knockback = 7
+| use = 14
+| velocity = 12
+| tooltip = Fires javelins that stick to enemies before bursting into shrapnel
+| debuff = Venom
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 4 seconds (Javelin)<br/>1 second (Shrapnel)
+| debuff2 =Armor Crunch
+| debuffchance2 = 100%
+| debufftip2 = Your armor is shredded
+| debuffduration2 = 4 seconds (Javelin)<br/>1 second (Shrapnel)
+| debuff3 = Penetrated
+| debuffchance3 = 100%
+| debufftip3 =Bleeding Out
+| debuffduration3 = 4 seconds (Javelin)
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|7|20}}
+| proj = Bonebreaker projectile.png
+| projcaption = Bonebreaker
+| proj2 = Bonebreaker Fragments.png
+| proj2caption = Bonebreaker Fragments
+| element1 = Poison
+| element2 = Stab
+}}
+
+The '''Bonebreaker''' is a craftable [[Hardmode]] [[melee weapon]] that is an upgrade to [[Bone Javelin]]s. It fires javelins that stick to enemies for a long time, then bursting into damaging rocky shrapnels. Up to six javelin projectiles can be stuck on an enemy at once, totalling 120 damage per second from the [[Venom]] and [[Penetrated]] [[debuffs]].
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}

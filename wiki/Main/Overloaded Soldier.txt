@@ -1,0 +1,39 @@
+{{npc infobox
+| type = Enemy
+| ai = Overloaded Soldier AI
+| environment = Underground
+| environment2 = Dungeon
+| life = {{dv|135|270}} (pre-[[Moon Lord]])<br/>{{dv|1800|3600}} (Godseeker Mode)
+| damage = {{element|Dark}} {{dv|42|84}} (pre-[[Moon Lord]])<br/>{{element|Dark}} {{dv|84|168}} (Godseeker Mode)
+| defense = 18
+| dr = 15%
+| knockback = 100
+| immune1 = Kami Flu
+| hardmode = yes
+| banner = yes
+| debuff = War Cleave
+| duration = 2 seconds
+| debuffchance = 100%
+| debufftip = Defense and protection reduced
+| money = {{sc|2}}
+| Ancient Bone Dust|1|100%
+| custom| {{item|Phantoplasm|note=(Godseeker Mode)|wrap=y}}|100%
+| hurt = NPC_Hit_2.wav
+| killed = NPC_Killed_2.wav
+| vulnerable1 = Holy
+| vulnerable2 = Stab
+| vulnerable3 = Water
+| resistant1 = Dark
+| resistant2 = Unholy
+}}
+The '''Overloaded Soldier''' is a [[Hardmode]] [[enemy]] which can be found in the [[Underground]] layer and the [[Dungeon]]. It moves similarly to other [[Skeleton]]-type enemies, but its movement speed accelerates considerably the nearer it is to the player. It constantly emits a magenta glow, allowing it to be easily seen in dark caves.
+
+After the [[Moon Lord]] is defeated, its stats are buffed and it begins dropping [[Phantoplasm]], a versatile [[crafting material]].
+
+== Trivia ==
+*It is one of two enemies which can drop Phantoplasm that spawn in the Cavern layer, the other being [[Phantom Debris]]. This is unlike the other [[Phantom Spirit|phantoplasmic creatures]] which are only found in the Dungeon.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

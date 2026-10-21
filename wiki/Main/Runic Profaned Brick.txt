@@ -1,0 +1,31 @@
+{|align=right
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| stack = 9999
+| rare = 0
+| color = #7A423B
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| sell = No value
+| use = 14
+}}
+|}
+
+'''Runic Profaned Brick''' is a craftable Godseeker Mode [[block]] crafted with [[Profaned Rock]] and [[Profaned Crystal]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main   = yes
+| show-blocks = yes
+}}
+
+[[Category:Block items]]

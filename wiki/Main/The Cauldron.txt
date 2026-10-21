@@ -1,0 +1,187 @@
+<section begin=npc infobox />
+{{infobox wrapper
+|{{npc infobox
+| name = The Cauldron
+| type = Boss
+| environment = The Melt
+| image = The Cauldron.png
+| ai = The Cauldron AI
+| life = 6,240 / 7,800<br/>{{expert|9,984 / 12,480}}<br/>{{revengeance|11,980 / 14,976}}
+| immune1 = Pearl Aura
+| immune2 = Confused
+| damage = {{dv|35|63|81|90}} (Contact)<br/>{{dv|36|56|68|76}} (Molten Spray)
+| defense = 8
+| vulnerable1 = Water
+| resistant1 = Unholy
+| resistant2 = Dark
+| resistant3 = Fire
+| knockback = 100
+| debuff2 = Infernal
+| debuffchance2 = 100%
+| duration2 = 1 second (Molten Spray)
+| debufftip2 = Ow :(
+| money = {{value|0|5}}
+| Molten Matter|{{dv|25-30|30-40}}|100%
+| Hellstone |{{dv|9-15|10-20}}| 100%
+| Ash Grass Seeds|2-4| 100%
+| Molten Bar|{{dv|8-12|9-14}}|100%
+| custom| {{item|Flame|note=(In [[Hardmode]])|wrap=y}} ({{dv|10-20|15-30}})|100%
+|group|At least one of the following 7 weapons will always drop:|7
+| Hellrain Staff|1|{{dv|25%|33.33%}}
+| Scorching Dagger|1|{{dv|25%|33.33%}}
+| Perfect Light|1|{{dv|25%|33.33%}}
+| Steamthrower|1|{{dv|25%|33.33%}}
+| Magmadrop Staff|1|{{dv|25%|33.33%}}
+| Melt Staff|1|{{dv|25%|33.33%}}
+| Hot Ball|{{dv|30-50|50-75}}|{{dv|25%|33.33%}}
+| Cauldron's Contents|1|100%
+| Kevlar Glove|1|{{dv|25%|33.33%}}
+| Healing Potion|5-15|100%
+| Burnt Eyeball|1|10%
+| The Cauldron Mask|1|14.29%
+| The Cauldron Trophy|1|10%
+| custom| {{item|The Cauldron (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| image2 = The Cauldron map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Roar_0.wav,EoC_Expert_Roar.wav
+| soundtext = Roar
+}}
+}}<section end=npc infobox />
+[[File:The Cauldron Trophy.png|25px]] <big>''"The Molten Steel of an Ancient Forge brought to life..."''</big> [[File:The Cauldron Trophy.png|25px]]
+
+'''The Cauldron''' (Japanese: 大釜 ''Ōkama'') is a [[Hardmode]] [[boss]] fought in [[The Melt]].
+
+== Spawn ==
+The Cauldron does not spawn on its own, and requires the player to summon it using a [[Burning Brand]].
+
+== Behavior ==
+The Cauldron is stationary in all of Phase 1, summoning Melt-themed enemies at intervals based on its life. In Phase 2, it starts drifting slowly towards the player while performing various attacks. 
+
+The Cauldron enrages outside The Melt and on the [[Surface]], each condition reduces the burrow time by one second in Phase 1. In Phase 2, speed is increased and attack transition time is decreased.
+
+=== Attacks ===
+==== Phase 1 ====
+*Remains stationary where it was spawned and immediately summons {{dv|5|6|7|15}} {{item|Melt Blob|s|link=|size=16px}} by its side.
+**Melt Blobs stick around the Cauldron and fire {{item|Burning Blob|s|link=|size=10px}} every six seconds as long as they are farther than five tiles away from the player.
+*Burrows into the ground and reemerges near the player every {{dv|9|8|7|5}} seconds, to prevent them from straying too far away.
+*Has a 1/150 and 1/60 chance to spawn {{item|Meltwyrm|Meltwyrms|size=120px}} and {{item|Burner|Burners|size=22px}} respectively when it takes damage.
+*Summons {{dv|2-3|3-4|4|5}} {{item|Melt Blob|s|link=|size=16px}} or {{item|Molten Creeper|s|link=|size=25px}} upon reaching 95%, 90%, and 85% health.
+**Molten Creepers slowly accelerate towards the player. 
+**There may only be up to {{dv|1|1-2|2|2-3}} Molten Creepers summoned at once.
+
+==== Phase 2 ====
+*Transitions at 80% health.
+*Slowly drifts towards the player for {{dv|8-10|5-7|4.5-6.5|4-6}} seconds.
+*Lets out a higher pitched {{sound|roar|EoC Expert Roar.wav}} then dashes directly at the player while fading out and spawns a {{item|Molten Creeper|link=|size=25px}}, {{item|Meltwyrm|Meltwyrm|size=120px}}, and {{item|Burner|size=22px}}.
+**These enemies will not be spawned again until they are killed.
+*After fully fading out, the Cauldron teleports away from the player and repeats its attack.
+
+=== In [[Expert Mode]] ===
+*During Phase 1, The Cauldron gains 99.99% DR when any Molten Creeper is alive. This damage reduction cannot be reduced by any means.
+*When a Molten Creeper is killed, it spawns a {{item|Magma Spray|ext=gif|link=}} which lasts six seconds and rains magma every 0.75 seconds.
+*In Phase 2, drifts for less time and moves faster the lower its health.
+*After every two drift-dashes, the next teleport will be closer to the player. The Cauldron will fully fade in while circling the player, lunge at them when at full opacity, then slows down and drifts towards the player.
+
+=== In [[Revengeance Mode]] ===
+*Drift-dashes no longer spawn enemies.
+*Spin-lunges occur after every drift-dash.
+*Gains a new attack below 53% health. The Cauldron appears below the player, flies in a semi-circle while spawning a {{item|Molten Creeper|link=|size=25px}}, {{item|Beating Flame|link=|size=20px}}, {{item|Meltwyrm|link=tgc:Meltwyrm|size=120px}}, and {{item|Burner|size=22px}}, then slows down and drifts towards the player.
+**Beating Flames rain magma onto the player every 0.5 seconds when above them.
+**This attack occurs between each spin-lunge attack.
+**These enemies will not be spawned again until they are killed.
+*Gains another new attack below 27% health. The Cauldron appears above the player, dashes horizontally while spawning 10 {{item|Magma Spray|es|ext=gif|link=}}, then slows down and drifts towards the player.
+**This attack is randomly arranged with the spin-lunge and semicircle-dash attacks, and is never performed twice in a row.
+
+=== In [[Death Mode]] ===
+*Moves very quickly and teleports extremely often in Phase 2.
+*Can use all attacks upon reaching 53% health.
+
+== Summons ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Melt Blob
+| type = Flying Enemy
+| environment = The Melt
+| ai = Melt Blob AI
+| life = 100
+| damage = 0 (Contact)<br/>{{dv|30|48|60|68}} (Burning Blob)
+| defense = 0
+| vulnerable1 = Holy
+| vulnerable2 = Slash
+| resistant1 = Unholy
+| resistant2 = Dark
+| knockback = {{dv|0%|10%}}
+| debuff = Cursed Inferno
+| duration = 1 second (Burning Blob)
+| debuffchance = 100%
+| debufftip = Losing life<br/>All damage taken increased by 20%
+| immune1 = Confused
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_20.wav
+| soundtext = Burning Blob
+}}
+|{{npc infobox
+| type = Flying Enemy
+| name = Molten Creeper
+| environment = The Melt
+| ai = Molten Creeper AI
+| damage = {{dv|25|50|62|68}} (Contact)<br/>{{dv||56|68|76}} (Molten Spray)
+| life = {{dv|90|180}}
+| defense = 6
+| vulnerable1 = Holy
+| resistant1 = Unholy
+| resistant2 = Dark
+| knockback = {{dv|70%|73%}}
+| debuff = Infernal
+| debuffchance = {{expert|100%}}
+| duration = {{expert|1 second}} (Molten Spray)
+| debufftip = Losing life
+| immune1 = Confused
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+|{{npc infobox
+| type = Flying Enemy
+| name = Beating Flame
+| environment = The Melt
+| ai = Angry Nimbus AI
+| life = 150
+| damage = 0 (Contact)<br/>{{dv|36|56|68|76}} (Molten Spray)
+| defense = 2
+| vulnerable1 = Holy
+| vulnerable2 = Stab
+| resistant1 = Unholy
+| resistant2 = Dark
+| knockback = {{dv|60%|64%}}
+| debuff = Infernal
+| debuffchance = 100%
+| duration = 1 second (Molten Spray)
+| debufftip = Losing life
+| immune1 = Confused
+| hurt = NPC_Hit_13.wav
+| killed = NPC_Killed_21.wav
+}}
+}}
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align = center |{{item|mode=table|Meltwyrm|link=Meltwyrm|image=Meltwyrm.png}} || Always
+|-
+| align = center |{{item|mode=table|Burner}} || Always
+|}
+
+== Aftermath ==
+*Upon defeating The Cauldron, the [[status message]] "The ground is glittering with burning light" displays, indicating that [[Molten Ore]] generated in the world.
+*[[Melt Crate]]s will contain [[Molten Bar]]s.
+*The [[Dryad]] will begin selling the [[Scorched Worm Tooth]] in Expert Mode.
+
+== Trivia ==
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The molten basin drifts away, smelting its desired materials."
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

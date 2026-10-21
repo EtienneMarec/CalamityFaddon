@@ -1,0 +1,41 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 140
+| damagetype = Ranged
+| knockback = 7
+| stack = 1
+| rare = 14
+| sell = {{value|5}}
+| auto = yes
+| use = 24
+| velocity = 32
+| tooltip = Fires a god slayer dart and 5 curve-flying fireballs to destroy your enemies
+| hardmode = yes
+| postml = yes
+| debuff = God Slayer Inferno
+| debuffduration = 5 seconds
+| proj = Godterminal Fireball.gif
+| projcaption = Fireball
+| element1 = Stab
+| element2 = Magic
+}}
+
+The '''Dart Sun''' is a craftable Godseeker Mode [[Dart guns|dart gun]]. It fires a god slayer dart and 5 fireballs that curve in a random direction for 3 seconds and then home into your enemies. It is a crafting component of [[Exactory Dartshooter]]
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result=Godterminal Infernatory Blaster}}
+=== Used in ===
+{{recipes|view=infobox|ingredient=Godterminal Infernatory Blaster}}
+
+{{Cosmilite}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Dart guns]]

@@ -1,0 +1,119 @@
+{| align=right
+|{{item infobox
+| name = The Sanity Meter
+| image = Spy Stealth Meter.gif
+| boxwidth = 210px
+}}
+|-
+
+'''Sanity''' is a [[Nightmare Mode]]-exclusive mechanic. It depletes when encountering certain enemies and environments.
+
+Items exist which can recover your sanity or even increase your maximum sanity or its rate of recovery.
+
+The player starts out with 100 sanity, which regenerates at a rate which starts at 1 point per 8 seconds but decreases as your sanity gets lower. Seeing certain enemies can deplete sanity, with the amount of depletion varying between enemies. As well, seeing a lot of enemies in one place can intensify these effects.
+
+When your sanity is low, you start to incur harmful effects, such as accidentally hurting yourself, disorientation, inhibited regeneration, hallucinations, difficulty using items, and eventually a total loss of control.
+
+== Effects ==
+
+{| class="wikitable" 
+|-
+! Sanity range
+! Frequency of hallucinations
+! Extent of hallucinations
+! Self-injury chance
+! Item slowdown
+! Regeneration factor
+! Confusion
+! Other effects
+|-
+| 65+
+| Never
+| None
+| 0
+| 0
+| 1
+| No
+| 
+|-
+| 50-64
+| 1–2/minute
+| Possible critters and small enemies
+| 0
+| 0
+| 1
+| No
+| 
+|-
+| 40-49
+| 2–3/minute
+| Possible critters and small/medium enemies
+| 0
+| 10–20%
+| 1
+| No
+| 
+|-
+| 30–39
+| 3–5/minute
+| Critters and small/medium enemies, NPCs
+| 2–3%
+| 20–30%
+| 0.8–0.6
+| No
+| 
+|-
+| 20–29
+| 5–9/minute
+| Non-worm bosses and enemies; critters and NPCs
+| 3–5%
+| 30–50%
+| 0.6–0.4
+| Occasional
+| 
+|-
+| 10–19
+| 10–15/minute
+| Any enemies/critters/NPCs
+| 5–10%
+| 50–120%
+| 0.4–0.3
+| Frequent
+| 
+|-
+| 1–19
+| 16–120/minute
+| Any enemies/critters/NPCs
+| 10–40%
+| 120–200%
+| 0.3–0.25
+| Half the time
+| 
+|-
+| 0
+| 16–120/minute
+| Any enemies/critters/NPCs
+| 0%
+| 0%
+| 0.25
+| No
+| Panic
+|}
+
+== Panic ==
+When the player’s sanity hits 0, it will panic, either running uncontrollably and repeatedly using the item in its hand, or freezing in place. Either way, you become unable to control your character. Panic lasts for 7–15 seconds, at which point your sanity increases to 1. If in a running panic, the item use slowdown and chance of self-injury temporarily cease.
+
+== Things that affect sanity ==
+* Eating [[Delicious Meat]] restores 20 sanity.
+* Drinking any healing potion restores 10 sanity.
+* Having a Pet or Light Pet reduces any sanity loss by 30% and doubles sanity regeneration to 1 point per 4 seconds; having both at the same time reduces loss by 60% and doubles your rate again to 1 point per 2 seconds.
+* The Nurse heals up to 20 sanity when healing injuries
+* Entering the [[tgc:Evil biomes|Corruption or Crimson]], the [[tgc:Underworld|Underworld]], or the [[Abyss]] causes the loss of 3 sanity per real-world minute and stops natural sanity regeneration. In this case, one or two pets as described above will provide sanity regeneration at 1/8s and 1/4s.
+Seeing a [[Bosses|boss]] (including vanilla bosses) will make you lose sanity. Pre-Moon Lord bosses (except for Eye of Cthulhu, Wall of Flesh, and the Moon Lord itself) take 5 sanity; those three and any other bosses except Providence and the Devourer of Gods take 10 sanity; and Providence and DoG take 15 sanity. Once you lose sanity to a given boss, you cannot lose sanity to that boss again for 1 in-game day.
+* Taking damage from a boss takes 2 sanity.
+* Taking damage from lava takes 2 sanity
+* Losing more than 10% of your health at a time takes 5 sanity for each 10% of your health that you lost (rounded to the nearest integer)
+* Seeing an NPC die takes 10 sanity
+
+== Trivia ==
+* If the player dies due to hurting itself or during a panic, the death message “<Player> went mad” will appear.

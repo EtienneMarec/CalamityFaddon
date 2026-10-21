@@ -1,0 +1,41 @@
+{{addon|Calamity: Community Remix}}
+{{npc infobox
+| type = Flying Enemy
+| environment = Jungle
+| ai = Demon Eye AI
+| damage = {{element|Dark}} {{dv|50|100}}
+| knockback = 100
+| life = {{dv|400|600}}
+| defense = 16
+| debuff = Weak
+| debuffchance = 100%
+| debufftip = Physical abilities are decreased
+| duration = 2 seconds
+| immune1 = Kami Flu
+| money = {{sc|5}}
+| Lens|1|50%
+| custom| {{item|Essence of Babil|wrap=y}}|50%/{{expert|100%}}
+| Babil Destruction Core|1|{{expert|5%}}
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Stab
+| vulnerable2 = Slash
+| vulnerable3 = Cold
+| vulnerable4=  Fire
+| vulnerable5 = Machine
+| resistant1 = Holy
+| resistant2 = Dark
+| resistant3 = Poison
+}}
+
+'''Floating Biomasses''' are [[Hardmode]] [[enemies]] that spawn in the [[Jungle]] surface. They act like [[Demon Eyes]], but will inflict the [[Weak]] [[debuff]] on contact. When below half health, their speed and maneuverability increase.
+
+In [[Death Mode]], Floating Biomasses are capable of becoming intangible and passing through blocks for a brief period of time, in order to reach the player.
+
+==Trivia==
+*These enemies are based of of the Flying Bio-mass from the ''Thorium Mod'', implying that they migrated into the Calamity mod.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

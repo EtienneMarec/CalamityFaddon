@@ -1,0 +1,16 @@
+== Usage ==
+Add this to the tops of pages that describe characters that cannot spawn either manually or naturally without hacks. 
+
+* <code>{{tl|unspawnable}}</code>
+{{unspawnable|nocat=y}}
+
+Enter "section" as a parameter if used at the top of a section alone:
+* <code>{{tlx|unspawnable|section}}</code>
+{{unspawnable|section}}
+
+<includeonly>
+[[Category:Notice templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation]]
+</noinclude>

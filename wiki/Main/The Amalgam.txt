@@ -1,0 +1,80 @@
+{{item infobox
+| image = The Amalgam.gif
+| type = Covering
+| stack = 1
+| tooltip = Extends the duration of potion buffs by 100% and potion buffs remain active even after you die<br/>15% increased damage<br/>Shade and brimstone flames rain down when you are hit<br/>Nearby enemies receive a variety of debuffs when you are hit<br/>Life drains over time in exchange for a significant damage boost as health decreases<br/>You leave behind a trail of spores, toxic clouds, plague bees, and brine<br/>Standing still generates an aura that slows enemies, and increases defense and life regen<br/>All weapons have a chance to fire out mini birbs and miniature suns<br/>50% of the items stats are granted to team members
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| debuff = Brimstone Flames
+| debuffduration = Varies (When struck)
+| debuffchance = 100%
+| debuff2 = God Slayer Inferno
+| debuffduration2 = Varies (When struck)
+| debuffchance2 = 100%
+| debuff3 = Sulphuric Poisoning
+| debuffduration3 = Varies (When struck)
+| debuffchance3 = 100%
+| debuff4 = Irradiated
+| debuffduration4 = Varies (When struck)
+| debuffchance4 = 100%
+| debuff5 = Confused
+| debuffduration5 = Varies (When struck)
+| debuffchance5 = 100%
+| debuff6 = Glacial State
+| debuffduration6 = Varies (When struck)
+| debuffchance6 = 100%
+| debuff7 = Pearl Aura
+| debuffduration7 = Varies (When struck)
+| debuffchance7 = 100%
+| debuff8 = Plague
+| debuffduration8 = 2, 4, or 6 seconds (On attack)<br/>5 seconds (Bee/wasp projectiles)<br/>3 seconds (Plague Seekers)
+| debuffchance8 = 100%
+| proj = Aura Rain.png
+| projcaption = Shade Rain
+| proj2 = Plaguenade Bee.gif
+| proj2caption = Plague Seeker
+| proj3 = Mini Swarmer.gif
+| proj3caption = Mini Swarmer
+| element1 = fire
+| element2 = poison
+| element3 = stab
+| element4 = magic
+| element5 = holy
+| element6 = unholy
+| element7 = water
+}}
+
+'''The Amalgam''' is a craftable Godseeker Mode [[covering]]. It increases damage by 15%, and the damage of players on the same team by 7.5%.
+
+When invincibility is active (i.e. when the player is damaged, enters the world or uses the [[Magic Mirror]]), shade and brimstone fire rains from the sky, dealing 300 typeless damage which can be affected by the average of all damage bonuses.
+
+Standing still causes a Pearl Aura to generate around the player which slows down enemies within it and increases the player's defense by 50 and life regeneration by 5. Team mates receive 25 defense and 2 life regeneration.
+
+Using any weapon will have a 5% chance to fire out a rapid homing Mini Birb or a miniature sun that pulls in enemies.
+
+Every 0.33 seconds, either a sulphuric cloud, a ball of toxic sea brine, a homing plague bee, or a spore is generated which deals 500 typeless damage to enemies that come into contact with them.
+
+The player's life slowly drains at a rate of about 3 per second, stopping once the player hits 25% health. As the player's life decreases from this effect, they gain 1% damage per every 5 health lost, usually resulting in a boost of up to 75% damage.
+
+At all times, enemies in a 12.5-18.75 tile radius are inflicted with [[Brimstone Flames]], [[Confused]], [[Glacial State]], [[God Slayer Inferno]], [[Irradiated]], and [[Sulphuric Poisoning]] for 5-8 seconds when the player is struck. The range and debuff duration both increase based on the damage taken.
+
+The item additionally gains the new ability to extend the duration of [[potion]] [[buffs]] by 100%, and causes potion buffs to remain active after dying.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+
+== Trivia ==
+*The covering has the most ingredients of any item in the mod.
+[[zh:聚合之脑]]
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

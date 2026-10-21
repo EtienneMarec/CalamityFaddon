@@ -1,0 +1,1896 @@
+/* CSS placed here will be applied to all skins */
+
+.theme-fandomdesktop-light {
+	--template-background-color-1: #DDD;
+	--template-background-color-2: var(--theme-page-background-color);
+	--template-background-color-3: #f8f9fa;
+	--template-heading-background-color-1: #AFAFAF;
+	--template-heading-background-color-2: #EAEAEA;
+	--template-heading-text-color-1: #000;
+	--template-accent-color:#000;
+	--note-color:#000;
+}
+
+.theme-fandomdesktop-dark,
+.skin-hydradark {
+	--template-background-color-1: #515151;
+	--template-background-color-2: var(--theme-page-background-color);
+	--template-background-color-3: #333;
+	--template-heading-background-color-1: #373D40;
+	--template-heading-background-color-2: #282828;
+	--template-heading-text-color-1: #FFF;
+	--template-accent-color:#8b221b;
+	--note-color:#FFF;
+}
+
+.skin-hydradark {
+	/* define these manually because hydra lacks themedesigner */
+	--theme-page-background-color: #202020;
+	--theme-page-text-color: #E0E0E0;
+}
+
+#contentSub:empty {
+    margin: 0 !important;
+}
+
+table.jquery-tablesorter th.headerSort {
+    background-repeat: no-repeat !important;
+    background-position: center right !important;
+}
+
+/* ------------------------------------------------------------------ */
+/* For Template:Key */
+div.key {
+   pointer-events: none;
+}
+div.key span {
+   cursor: pointer;
+   white-space: nowrap;
+   pointer-events: all;
+}
+div.key a:-webkit-any-link {
+   text-decoration: none;
+}
+/* ------------------------------------------------------------------ */
+
+/* DPL Tables */
+#dpl-table {
+        text-align: center;
+}
+#dpl-table td:first-child {
+        text-align: left;
+}
+#dpl-table td:last-child {
+        text-align: right;
+}
+#dpl-table th {
+        line-height: 1.25;
+}
+
+/*Removes wiki skin images from appearing in Special:UnusedFiles */
+/* [[File:Favicon.ico]] */ 
+/* [[File:Wiki.png]] */
+/* [[File:Background.jpg]] */
+/*------------------- */
+
+/* ========================================================================== */
+/* === New flex mainpage styles ============================================= */
+/* ========================================================================== */
+#mainpage-global-wrapper {
+    min-width: 300px;
+	background: var(--theme-page-background-color);
+}
+
+#mf-wikiheader {
+	color:var(--theme-page-text-color);
+	background: var(--theme-page-background-color);
+	border: 7px solid var(--template-accent-color);
+    margin: 1px 3px 5px;
+    border-radius: 5px;
+	box-shadow: 0 0 0 1px var(--template-accent-color);
+    position: relative;
+    padding: 5px;
+    /* this value shouldn't be greater then "right" and/or "top" of #mf-wikiheader-toggle-link */
+}
+
+#mf-wikiheader {
+	margin: 1px 3px 5px;
+	border-radius: 5px;
+	position: relative;
+	padding: 5px;
+}
+
+#mf-wikiheader * {
+    transition: all 0.3s;
+}
+
+#mf-wikiheader-toggle-link {
+    position: absolute;
+    z-index: 50;
+    line-height: 1;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    display: none;
+}
+
+#mf-wikiheader-toggle-link span:first-child::before {
+    content: "";
+    vertical-align: middle;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    transform: rotate(45deg);
+    position: relative;
+    left: -3px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 2px solid #0645ad;
+    border-bottom: 2px solid #0645ad;
+    top: -2px;
+}
+
+#mf-wikiheader-toggle-link span:last-child::before {
+    content: "";
+    vertical-align: middle;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    transform: rotate(45deg);
+    position: relative;
+    left: -3px;
+    border-left: 2px solid #0645ad;
+    border-top: 2px solid #0645ad;
+    border-right: 0;
+    border-bottom: 0;
+    top: 1px;
+}
+
+#mf-wikiheader-toggle-link span:first-child {
+    display: none;
+}
+
+#mf-wikiheader .main-title {
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 8px;
+}
+
+#mf-wikiheader .related-info {
+    position: relative;
+    z-index: 100;
+    background: #202020;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-bottom: 12px;
+}
+
+#mf-wikiheader .related-info .i {
+    margin: 0.25em 1em 1em;
+    text-align: center;
+}
+
+#mf-wikiheader .related-info .i:first-child {
+    margin-bottom: 0;
+}
+
+#latest-version {
+    line-height: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#latest-version * {
+    vertical-align: middle;
+}
+
+#latest-version a:hover {
+    text-decoration: none;
+}
+
+#latest-version a.external {
+    padding: 0;
+    background: none;
+    color: #0645ad;
+}
+
+#latest-version ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+#latest-version ul li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    margin: 0.25em 0.5em;
+}
+
+#latest-version ul li > div {
+    margin: auto auto auto 0.25em;
+    text-align: left;
+}
+
+#latest-version ul li > div > * {
+    display: block;
+}
+
+#latest-version ul li > div.pic > * {
+    display: inline;
+}
+
+#latest-version ul li > div > span {
+    font-size: 10px;
+}
+
+#latest-version ul li > div > strong {
+    font-size: 16px;
+}
+
+#latest-version ul li > div > small {
+    font-size: 10px;
+    color: #999;
+}
+
+#latest-version div.pic {
+    text-align: center;
+}
+
+#mf-wikiheader.collapsed #mf-wikiheader-toggle-link span:first-child {
+    display: inline;
+}
+
+#mf-wikiheader.collapsed #mf-wikiheader-toggle-link span:last-child {
+    display: none;
+}
+
+#mf-wikiheader.collapsed .related-info {
+    display: none !important;
+}
+
+#mf-wikiheader.collapsed .main-title .statistics {
+    display: none;
+}
+
+@media(max-width: 600px) {
+    #mf-wikiheader {
+        padding: 15px;
+    }
+}
+
+.fp-box {
+	border: 1px solid var(--template-accent-color);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 7px;
+    box-sizing: border-box;
+    margin: 0 2px 4px;
+}
+
+.fake-bullet {
+    padding: 1px 0;
+    white-space: nowrap;
+}
+
+.fake-bullet::before {
+    content: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%225%22%20height%3D%2213%22%3E%0A%3Ccircle%20cx%3D%222.5%22%20cy%3D%229.5%22%20r%3D%222.5%22%20fill%3D%22%2300528c%22%2F%3E%0A%3C%2Fsvg%3E%0A);
+    padding-right: 5px;
+}
+
+#mainpage-global-wrapper .footer {
+    text-align: center;
+    margin: 0.5em 2px;
+}
+
+#mainpage-global-wrapper .footer > div {
+	border: 1px solid var(--template-accent-color);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	background: var(--theme-page-background-color);
+    padding: 0.5em;
+    max-width: 25em;
+    margin: auto;
+}
+
+
+/* ========================================================================== */
+/* === New flex mainpage styles end ========================================= */
+/* ========================================================================== */
+
+
+/* For Template:Heading, mainly used in main page. */
+div.heading {
+    padding: 5px;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+    position: relative;
+	color:var(--theme-page-text-color);
+	background:var(--template-heading-background-color-2);
+}
+
+div.heading > span.rightimg {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+/* -- Removes redundant Cargo extension "Purge cache" link ---------- */
+div.menu li#ca-cargo-purge {
+    display: none;
+}
+
+/* itemlist */
+.itemlist > ul {
+    list-style: none;
+    margin: 0.25em 0 -0.25em 0;
+}
+
+.itemlist > ul > li {
+    width: 10em;
+    /* default width */
+    margin: auto 1em 0.5em auto;
+    display: inline-block;
+}
+
+/* {{diagram}} */
+table.diagram{
+	border-spacing: 0;
+	background: transparent;
+}
+table.diagram tr{
+	height: 1px;
+	text-align: center;
+}
+table.diagram td.l{
+	border-style: none;
+	border-width: 1px;
+	border-color: #a0a0a0;	
+	padding: 0.5em;
+}
+table.diagram td.n{
+	padding: 0;
+}
+table.diagram td.db{
+	border-bottom-style: dashed;
+}
+table.diagram td.dr{
+	border-right-style: dashed;
+}
+table.diagram td.sb{
+	border-bottom-style: solid;
+}
+table.diagram td.sr{
+	border-right-style: solid;
+}
+table.diagram td.nb{
+	border-bottom-style: solid;
+	border-bottom-color: transparent;	
+}
+table.diagram td.nr{
+	border-right-style: solid;
+	border-right-color: transparent;	
+}
+/*center dot fix*/
+table.diagram td.cf{
+	position: relative;
+}
+table.diagram td.cf:after{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0.9px;
+	height: 1px;
+	border-bottom: 1px solid #a0a0a0;
+	right: 0;
+	bottom: 0;
+}
+.diagram-box{
+	border-width: 2px;
+	border-style: solid;
+	border-color: #AFCFE2;	
+	border-radius: 7px;
+	padding: 0.25em 0.5em; 
+}
+table.diagram td.no-border{
+	border: none;
+}
+table.diagram td.craft-station{
+	border: none;
+	padding: 2px 0;
+}
+.crafting-tree{
+	overflow: auto;
+	padding: 0.5em 0;
+}
+.crafting-tree .diagram{
+	white-space: nowrap;
+}
+
+/* ------------------------------------------------------------------ */
+
+
+/* ================================================================== */
+/* UCP fixes */
+/* ================================================================== */
+
+
+/* ------------------------------------------------------------------ */
+
+
+/* ======================================= */
+/*         Curse profile, comments         */
+/* ======================================= */
+
+
+.curseprofile .entryform {
+    text-align: right;
+    position: relative;
+}
+
+.curseprofile .entryform textarea {
+    display: block;
+    resize: vertical;
+    height: 2em;
+    margin-bottom: 5px;
+}
+
+.comments .avatar {
+	float: left;
+	width: 0;
+	margin-right: 54px;
+}
+
+.commentdisplay {
+    clear: left;
+    margin-bottom: 0.7em;
+    position: relative;
+}
+
+.commentdisplay .entryform {
+	padding-right: 5px;
+	margin-left: 54px;
+}
+
+.commentdisplay .right {
+    float: right;
+}
+
+.commentdisplay .right a {
+    margin-left: 3px;
+}
+
+.commentbody {
+    margin-left: 54px;
+    overflow-wrap: break-word;
+}
+
+.replyset {
+    padding-left: 54px;
+}
+
+/*UI: ad block*/
+#content div#atflb, #content div#btflb{
+	min-height: auto !important;
+}
+
+/* ======================================= */
+/*         UI: Orange color to blue        */
+/* ======================================= */
+
+.oo-ui-buttonElement-framed.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button,.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button{
+    background-color: #36c;
+    border-color: #36c;
+    color: #fff;
+}
+.oo-ui-buttonElement-framed.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:focus,.oo-ui-buttonElement-framed.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover,.oo-ui-buttonElement-framed.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:active,.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:focus,.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover,.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:active{
+    background-color: #2a4b8d;
+    border-color: #2a4b8d;
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active > .oo-ui-buttonElement-button{
+    background-color: #36c;
+    border-color: #36c;
+    color: #fff;
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active.oo-ui-widget-enabled > .oo-ui-buttonElement-button:focus,.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover,.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active.oo-ui-widget-enabled > .oo-ui-buttonElement-button:active{
+    background-color: #36c;
+    border-color: #36c;
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button{
+    background-color: #36c;
+    border-color: #36c;
+    color: #fff;
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:focus,.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover,.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:active{
+    background-color: #36c;
+    border-color: #36c;
+}
+
+
+.oo-ui-tool .oo-ui-tool-link:active,.oo-ui-tool .oo-ui-tool-link:active:hover{
+    background-color: #2a4b8d;
+    color: #36c;
+}
+.oo-ui-tool.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive .oo-ui-tool-link{
+    color: #36c;
+}
+.oo-ui-tool.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive .oo-ui-tool-link:hover,.oo-ui-tool.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive .oo-ui-tool-link:active,.oo-ui-tool.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive .oo-ui-tool-link:focus{
+    color: #2a4b8d;
+}
+
+.oo-ui-tool.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive .oo-ui-tool-link{
+    background-color: #36c;
+    border-color: #36c;
+    color: #fff;
+}
+.oo-ui-tool.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive .oo-ui-tool-link:hover,.oo-ui-tool.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive .oo-ui-tool-link:active,.oo-ui-tool.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive .oo-ui-tool-link:focus{
+    background-color: #2a4b8d;
+    border-color: #2a4b8d;
+}
+
+.oo-ui-tool.oo-ui-widget-enabled.oo-ui-tool-active .oo-ui-tool-link{
+    background-color: #2a4b8d;
+    color: #36c;
+}
+.oo-ui-listToolGroup-tools .oo-ui-tool.oo-ui-widget-enabled:hover .oo-ui-tool-link{
+    background-color: #36c;
+    color: #36c;
+}
+.oo-ui-listToolGroup-tools .oo-ui-tool.oo-ui-widget-enabled.oo-ui-tool-active .oo-ui-tool-link{
+    background-color: #2a4b8d;
+    color: #36c;
+}
+
+.oo-ui-popupToolGroup.oo-ui-popupToolGroup-active > .oo-ui-popupToolGroup-handle,.oo-ui-popupToolGroup.oo-ui-popupToolGroup-active > .oo-ui-popupToolGroup-handle:hover{
+    background-color: #2a4b8d;
+    color: #36c;
+}
+
+
+.oo-ui-checkboxInputWidget{
+    color: #36c;
+    border: none;
+}
+.oo-ui-dropdownWidget-handle.oo-ui-widget-enabled -handle:hover,.oo-ui-dropdownWidget-handle.oo-ui-widget-enabled -handle:focus,.oo-ui-dropdownWidget-handle.oo-ui-widget-enabled -handle:active,.oo-ui-dropdownInputWidget.oo-ui-widget-enabled select:hover,.oo-ui-dropdownInputWidget.oo-ui-widget-enabled select:focus,.oo-ui-dropdownInputWidget.oo-ui-widget-enabled select:active{
+    border-color: #36c;
+}
+.oo-ui-dropdownWidget-handle.oo-ui-widget-enabled -handle:active,.oo-ui-dropdownInputWidget.oo-ui-widget-enabled select:active{
+    box-shadow: inset 0 0 0 1px #36c;
+}
+.oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted{
+    background-color: #eaecf0;
+    color: #36c;
+}
+.oo-ui-menuOptionWidget.oo-ui-optionWidget-selected{
+    background-color: #eaf3ff;
+    color: #36c;
+}
+.oo-ui-outlineOptionWidget.oo-ui-optionWidget-highlighted{
+    background-color: #36c;
+    color: #36c;
+}
+.oo-ui-outlineOptionWidget.oo-ui-optionWidget-selected,.oo-ui-outlineOptionWidget.oo-ui-optionWidget-pressed{
+    background-color: #2a4b8d;
+    color: #36c;
+}
+
+
+.oo-ui-progressBarWidget.oo-ui-widget-enabled .oo-ui-progressBarWidget-bar{
+    background-color: #36c;
+}
+
+
+.oo-ui-radioInputWidget.oo-ui-widget-enabled [type='radio']:hover + span,.oo-ui-radioInputWidget.oo-ui-widget-enabled [type='radio']:checked + span{
+    color: #36c;
+}
+
+
+.oo-ui-selectFileWidget.oo-ui-widget-enabled.oo-ui-selectFileWidget-dropTarget:hover{
+    border-color: #36c;
+}
+.oo-ui-selectFileWidget.oo-ui-widget-enabled.oo-ui-selectFileWidget-canDrop.oo-ui-selectFileWidget-dropTarget,.oo-ui-selectFileWidget.oo-ui-widget-enabled.oo-ui-selectFileWidget-canDrop .oo-ui-selectFileInputWidget-info > .oo-ui-inputWidget-input{
+    background-color: #2a4b8d;
+    color: #36c;
+}
+.oo-ui-tabSelectWidget-framed{
+    border-bottom-color: #36c;
+}
+.oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected{
+    background-color: #36c;
+    color: #fff;
+}
+.oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-widget-enabled:not(.oo-ui-optionWidget-selected):hover{
+    color: #36c;
+}
+.oo-ui-tabSelectWidget-frameless .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected,.oo-ui-tabSelectWidget-frameless .oo-ui-tabOptionWidget.oo-ui-widget-enabled:active,.oo-ui-tabSelectWidget:not(.oo-ui-tabSelectWidget-framed) .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected,.oo-ui-tabSelectWidget:not(.oo-ui-tabSelectWidget-framed) .oo-ui-tabOptionWidget.oo-ui-widget-enabled:active{
+    box-shadow: inset 0 -2px 0 0 #36c;
+    color: #36c;
+}
+.oo-ui-tabSelectWidget-frameless .oo-ui-tabOptionWidget.oo-ui-widget-enabled:hover,.oo-ui-tabSelectWidget:not(.oo-ui-tabSelectWidget-framed) .oo-ui-tabOptionWidget.oo-ui-widget-enabled:hover{
+    color: #36c;
+}
+
+
+.oo-ui-tagItemWidget .oo-ui-buttonElement-button:hover{
+    color: #36c;
+}
+.oo-ui-tagItemWidget.oo-ui-widget-enabled:hover,.oo-ui-tagItemWidget.oo-ui-widget-enabled:focus{
+    background-color: #2a4b8d;
+    color: #36c;
+}
+.oo-ui-tagItemWidget.oo-ui-widget-enabled:hover .oo-ui-buttonElement-button,.oo-ui-tagItemWidget.oo-ui-widget-enabled:focus .oo-ui-buttonElement-button{
+    color: #36c;
+}
+
+
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-inlined:hover .oo-ui-tagMultiselectWidget-handle{
+    border-color: #36c;
+}
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-inlined.oo-ui-tagMultiselectWidget-focus .oo-ui-tagMultiselectWidget-handle{
+    border-color: #36c;
+    box-shadow: inset 0 0 0 1px #36c;
+}
+
+
+.oo-ui-toggleSwitchWidget.oo-ui-toggleWidget-on .oo-ui-toggleSwitchWidget-grip{
+    background-color: #36c;
+}
+
+
+.oo-ui-textInputWidget.oo-ui-widget-enabled .oo-ui-inputWidget-input:hover,.oo-ui-textInputWidget.oo-ui-widget-enabled .oo-ui-inputWidget-input:focus{
+    border-color: #36c;
+}
+.oo-ui-textInputWidget.oo-ui-widget-enabled .oo-ui-inputWidget-input:focus{
+    box-shadow: inset 0 0 0 1px #36c;
+}
+
+/* ======================================= */
+/*           Invisible checkboxes          */
+/* ======================================= */
+
+.oo-ui-image-invert.oo-ui-icon-check,
+.mw-ui-icon-check-invert:before {
+    -webkit-mask: none;
+    mask: none;
+}
+
+.oo-ui-image-invert.oo-ui-icon-check,
+.mw-ui-icon-check-invert::before {
+    background-image: linear-gradient(transparent, transparent),
+    url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3Echeck%3C/title%3E%3Cg fill=%22%23fff%22%3E%3Cpath d=%22M7 14.17L2.83 10l-1.41 1.41L7 17 19 5l-1.41-1.42z%22/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.oo-ui-icon-check,
+.mw-ui-icon-check::before {
+    background-image: linear-gradient(transparent, transparent),
+    url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3Echeck%3C/title%3E%3Cpath d=%22M7 14.17L2.83 10l-1.41 1.41L7 17 19 5l-1.41-1.42z%22/%3E%3C/svg%3E");
+}
+
+
+/* ======================================= */
+/*          Extension:TemplateData         */
+/* ======================================= */
+
+.oo-ui-icon-template-format-inline,
+.oo-ui-icon-template-format-block,
+.oo-ui-icon-parameter-set {
+    background-color: inherit;
+}
+
+/* Template documentation */
+.documentation {
+    margin: 0em auto 1em;
+    border: 1px solid #AAAAAA;
+    padding: 1em;
+    background: var(--template-background-color-3);
+}
+
+.documentation_title {
+    padding-bottom: 3px; 
+    border-bottom: 1px solid #AAAAAA; 
+    margin-bottom: 1ex;
+}
+
+/* Expert */
+.expert_value {
+    color:#FFBA75; 
+}
+
+/* Revengeance */
+.revengeance_value {
+    color:#D32A2A; 
+}
+
+/* Death Mode */
+.death_value {
+    color:#C040DB;
+}
+
+/* Defiled */
+.defiled_value {
+    color:#DCFF84;
+}
+
+/* Malice */
+.malice_value {
+    color:#F08080;
+}
+
+/* Auto line separators for tables */
+table.lined td {
+    border-bottom: 1px #666 solid;
+}
+
+table.lined tr:last-of-type td {
+    border-bottom: 0;
+}
+
+table.lined tr:nth-last-of-type(2) td[rowspan="2"] {
+    border-bottom: 0;
+}
+
+table tr.bottomline td {
+    border-bottom: 1px #666 solid;
+}
+
+table tr.bottomline:last-of-type td {
+    border-bottom: 0;
+}
+
+table tr.bottomline:nth-last-of-type(2) td[rowspan="2"] {
+    border-bottom: 0;
+}
+
+table tr.bottomline:nth-last-of-type(3) td[rowspan="3"] {
+    border-bottom: 0;
+}
+
+table tr.topline td {
+    border-top: 1px #666 solid;
+}
+
+/* Crafts tables */
+table.crafts{
+   border: 1px solid #aaa;
+   border-radius: 8px;
+   padding: 6px;
+   background-color: var(--template-background-color-1);
+   color: white;
+   margin: auto 0 0.5em;
+}
+table.crafts table.inner {
+    border-collapse: collapse;
+    background:inherit; 
+    width:100%;
+}
+table.crafts table.inner th {
+    border:2px solid var(--template-background-color-1); 
+    background: var(--template-heading-background-color-1);
+}
+
+/* Main page */
+.mainInner {
+    background:#333;
+    border:#FFB0B0 1px solid;
+}
+
+/* logo drop shadow */
+.mw-wiki-logo {
+    -webkit-filter: drop-shadow(0px 0px 1px #fff);
+    filter: drop-shadow(0px 0px 5px #ffffffe6) drop-shadow(0px 0px 2px #ff4800);
+}
+
+/* Allows limiting TOCs to generate links for only header levels 
+   below a limit, for instance only level-3 (=== ===) and below.
+   Use [[Template:Toc limit]] */
+.toclimit-2 .toclevel-1 ul,
+.toclimit-3 .toclevel-2 ul,
+.toclimit-4 .toclevel-3 ul,
+.toclimit-5 .toclevel-4 ul,
+.toclimit-6 .toclevel-5 ul,
+.toclimit-7 .toclevel-6 ul { display: none !important; }
+
+/* Tabs */
+#left-navigation {
+    margin-top: 186px;
+}
+
+#right-navigation {
+    margin-right: 0.5em;
+    margin-top: 186px;
+}
+
+/* Logo */
+#p-logo {
+    height: 175px !important;
+    padding: 0;
+    position: absolute;
+    width: 487px !important;
+    z-index: 4;
+}
+
+#p-logo a {
+    height: 166px !important;
+    width: 520px !important;
+}
+#p-logo {
+   left: 50vw;
+   margin-left: -244px;
+}
+ 
+/* Hide main page header */
+body.page-Calamity_Mod_Wiki h1.firstHeading {
+    display:none;
+}
+
+/* for "edit this page" tab and "discussion" tab etc */
+.pagetab {
+     border-style: solid solid none;
+     border-width: thin;
+     border-color: #808080;
+     padding: 0.25ex 1ex 0ex;
+     font-size: 95%;
+}
+
+.ambox {
+    background-color: #282828;
+    border-bottom-color: #383838;
+    border-right-color: #383838;
+    border-top-color: #383838;
+    border-collapse: collapse;
+    font-size: 95%;
+    margin: 0 auto 2px auto;
+    width: 80%;
+}
+
+.ambox-gray {
+    border-left-color: #383838;
+}
+
+.ambox.ambox-tiny {
+    font-size: 90%;
+    margin: 2px 0;
+    width: auto;
+}
+
+.ambox + .ambox {
+     margin-top: -2px;
+}
+
+.ambox-text {
+     padding: 0.25em 0.5em;
+}
+
+.ambox-image {
+     padding: 2px 0px 2px 0.5em;
+     text-align: center;
+     width: 60px;
+}
+
+.ambox-tiny .ambox-image {
+     padding: 2px 0.5em;
+     text-align: left;
+     width: auto;
+}
+
+/* Ambox colors */
+.ambox-blue {
+     border-left: 10px solid #1e90ff;
+}
+
+.ambox-red {
+     border-left: 10px solid #b22222;
+}
+
+.ambox-orange {
+     border-left: 10px solid #f28500;
+}
+
+.ambox-yellow {
+     border-left: 10px solid #f4c430;
+}
+
+.ambox-purple {
+     border-left: 10px solid #9932cc;
+}
+
+.ambox-gray {
+     border-left: 10px solid #bba;
+}
+
+.ambox-green {
+     border-left: 10px solid #228b22;
+}
+
+/* Ambox small text */
+.amsmalltext {
+     font-size: smaller;
+     margin-left: 0.8em;
+     margin-top: 0.5em;
+}
+
+/* -- item link ----------------------------------------------------- */
+.i{
+   white-space:nowrap;
+   color: var(--theme-page-text-color);
+   display: inline-block;
+}
+.i > a, 
+.i > img{ 
+   display: inline-block;
+   line-height: 0.1;
+   vertical-align: middle;
+   margin-left: 2px;
+}
+.i > span{
+   display: inline-block;
+   margin-left: 3px;
+   text-align: left;
+}
+.i > a:first-child,
+.i > img:first-child,
+.i > span:first-child{
+   margin-left: auto;
+}
+.i.multi-line > span,
+.i.-w > span,
+.i.break > span {
+    line-height: 1.25;
+    vertical-align: middle;
+}
+.i.break > span{
+    white-space: normal;
+}
+.i .note{
+   color: var(--note-color);
+   font-size: 85.7142%; /*12px/14px*/
+}
+.i div.note{ /*note2*/
+   font-size: 100%;
+   line-height: 1;
+}
+.i span.note{
+   margin-left: 3px;
+}
+.i.-w span.note:last-child{
+   display: block;
+   margin-left: auto;
+   line-height: 1;
+}
+.i.boldname >span span:first-child{
+   font-weight: bold;
+}
+.i.notecolor span.note{
+   color: inherit;
+}
+.i.note2color div.note{
+   color: inherit;
+}
+.i.block,
+.i.block > span{
+   display: block;
+}
+.i.notesize span.note{
+   font-size: 100%;
+}
+.i.note2size div.note{
+   font-size: 100%;
+   font-size: 85.7142%; /*12px/14px*/
+}
+.i.alignleft{
+   text-align: left;
+}
+.i.aligncenter{
+   text-align: center;
+}
+.i.alignright{
+   text-align: right;
+}
+.i.textleft>span{
+   text-align: left;
+}
+.i.textcenter>span{
+   text-align: center;
+}
+.i.textright>span{
+   text-align: right;
+}
+/* ------------------------------------------------------------------ */
+
+
+/* -- Infobox & infobox wrapper template style ---------------------- */
+/* some rules just kept for "old" template. */
+.infobox td, .infobox th {
+   vertical-align: top; 
+}
+.infobox caption {
+   font-size: larger;
+   margin-left: inherit;
+}
+.infobox.bordered {
+   border-collapse: collapse;
+}
+.infobox.bordered td,
+.infobox.bordered th {
+   border: 1px #AAA solid;
+}
+.infobox.bordered .borderless td,
+.infobox.bordered .borderless th {
+   border: 0;
+}
+/* styles for latest template */
+.infobox{
+   border: 1px solid #aaa;
+   border-radius: 8px;
+   padding: 6px;
+   float: right;
+   font-size: 12px;
+   background-color: var(--template-background-color-1);
+   margin: 0 0 0.5em 1em;
+}
+@media(max-width:450px){
+   .infobox{
+      float: none;
+   }
+}
+.infobox.float-right{
+   float: right;
+   margin: 0 0 0.5em 1em;
+}
+.infobox.float-left{
+   float: left;
+   margin:0 1em 0.5em 0;
+}
+.infobox.float-none{
+   float: none;
+   margin:0 1em 0.5em 0;
+}
+.infobox table{
+   background-color: transparent;
+   width: 100%;
+   border-spacing: 0;
+}
+.infobox table th{
+   white-space: nowrap;
+   padding: 2px;
+   text-align: right;
+   border-right: 1px solid #515151;
+   width: 5em;
+   vertical-align: middle;
+}
+.infobox table td{
+   padding: 2px;
+   vertical-align: middle;
+}
+.infobox .title{
+   background-color: var(--template-heading-background-color-1);
+   color: var(--template-heading-text-color-1);
+   font-weight: bold;
+   text-align: center;
+   padding: 2px 0;
+}
+.infobox > .title{
+   font-size: 15px;
+   padding: 8px 0;
+   line-height: 1.2;
+}
+.infobox > .title span{
+   display: block;
+   font-size: 12px;
+   color: slategray;
+   font-style: italic;
+}
+.infobox > .title span::before{
+   content: "(";
+   font-style: normal;
+}
+.infobox > .title span::after{
+   content: ")";
+   font-style: normal;
+}
+.infobox .variant{
+   background-color: var(--template-heading-background-color-1);
+   color: var(--template-heading-text-color-1);
+   font-weight: bold;
+   text-align: center;
+   font-size: 12px;
+   padding: 4px 0;
+   line-height: 1.2;
+}
+.infobox .images{
+   position: relative;
+   padding: 6px 0;
+   min-height: 40px;
+   text-align: center;
+   display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;
+   /* direction=column, for IE11 */
+   -webkit-box-direction:normal;-webkit-box-orient:vertical;-moz-box-direction:normal;-moz-box-orient:vertical;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;
+   -webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;-moz-justify-content:center;justify-content:center;
+   -webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-moz-align-items:center;align-items:center;
+}
+.infobox ul{
+   list-style: none;
+   margin: auto;
+   text-align: center;
+}
+.infobox .stat td > small{
+   font-size: 10.5px;
+   font-weight: bold;
+}
+.infobox .stat td > small::before{
+   content: "(";
+}
+.infobox .stat td > small::after{
+   content: ")";
+}
+.infobox tr.buff th, .infobox tr.buff td{
+   background-color: var(--template-heading-background-color-1);
+   border: 1px solid #515151;
+}
+.infobox tr.buff th{
+   border-left: 0;
+}
+.infobox tr.buff td{
+   border-right: 0;
+   padding-left: 3px;
+}
+.infobox tr.buff td b{
+   font-weight: bold;
+}
+.infobox .variant{
+   margin-bottom: 2px;
+   white-space: nowrap;
+}
+.infobox .drops td:first-child{
+   text-align: left;
+}
+.infobox .drops td:last-child{
+   text-align: right;
+}
+.infobox .drops th:first-child{
+   text-align: left;
+   border-right: 0;
+}
+.infobox .section.drops{
+   margin-top: 6px;
+   margin-bottom: 6px;
+}
+.infobox .drops.money{
+   margin: 2px auto;
+}
+.infobox .image2{
+   text-align: center;
+   padding-top: 3px;
+   margin-top: 6px;
+   border-top: 1px solid #aaa;
+}
+.infobox .proj, .infobox .ib_sound{
+   text-align: center;
+   padding-top: 3px;
+   margin-top: 6px;
+}
+.infobox .drops.items{
+   margin-bottom: 1px;
+}
+.infobox .drops.items li{
+   border-bottom: 1px #AFCFE2 solid;
+   padding: 3px 0;
+   margin-bottom: auto;
+   display:-webkit-box;
+   display:-webkit-flex;
+   display:-moz-flex;
+   display:-ms-flexbox;
+   display:flex;
+   -ms-flex-wrap:nowrap;
+   -webkit-flex-wrap:nowrap;
+   -moz-flex-wrap:nowrap;
+   flex-wrap:nowrap;
+   -webkit-box-direction:normal;
+   -webkit-box-orient:horizontal;
+   -moz-box-direction:normal;
+   -moz-box-orient:horizontal;
+   -webkit-flex-direction:row;
+   -ms-flex-direction:row;
+   flex-direction:row;
+   -webkit-box-pack:justify;
+   -ms-flex-pack:justify;
+   -webkit-justify-content:space-between;
+   -moz-justify-content:space-between;
+   justify-content:space-between;
+   -webkit-box-align:center;
+   -ms-flex-align:center;
+   -webkit-align-items:center;
+   -moz-align-items:center;
+   align-items:center;
+}
+.infobox .drops.items li:first-child{
+   background-color: var(--template-heading-background-color-1);
+   color: var(--template-heading-text-color-1);
+   padding: 2px 3px 0;
+}
+.infobox .drops.items li > div{
+   display: block;
+}
+.infobox .drops.items li > div:first-child{
+   text-align: left;
+}
+.infobox .drops.items li > div:last-child{
+   text-align: right;
+}
+
+.infobox .drops.items li:last-child{
+   border-bottom: none;
+}
+
+.infobox .drops.items li.caption{
+   border-top:2px #AFCFE2 solid;
+   margin-top: 2px;
+   line-height:1;
+   text-align: center;
+   color:#ffffff;
+   font-size: 10.5px;
+   background:var(--template-heading-background-color-1);
+   padding-top: 5px;
+   display: block;
+}
+.infobox .drops.items li.group_end{
+   border-bottom:5px #AFCFE2 solid;
+   position: relative;
+}
+.infobox .drops.items li.group_end::after{
+   content: "";
+   display: block;
+   position: absolute;
+   left: 0;
+   bottom: -4px;
+   width: 100%;
+   height: 2px;
+   background-color: var(--template-background-color-1);
+}
+/* for item infobox */
+.item.infobox{
+   width: 21em;
+}
+.item.infobox .images .auto, .infobox.item .images .stack{
+   position: absolute;
+   right: 3px;
+}
+.item.infobox .images .instrument {
+   position: absolute;
+   left: 3px;
+}
+.item.infobox .images .auto{
+   top: 3px;
+} 
+.item.infobox .images .stack, .item.infobox .images .instrument{
+   bottom: 3px;
+}
+.item.infobox .images ul.inline li{
+   display: inline-block;
+   padding: 0 8px 0 9px;
+   margin: 2px auto;
+   position: relative;
+}
+.item.infobox .images ul.inline li::before{
+   content: "";
+   display: block;
+   width: 1px;
+   background: #ccc;
+   height: 80%;
+   position: absolute;
+   left: 0;
+   top: 10%;
+}
+.item.infobox .images ul.inline li:first-child::before{
+   display: none;
+}
+.item.infobox .images ul.block li{
+   display: block;
+   padding: 13px 0 0 0;
+   margin: auto;
+   position: relative;
+}
+.item.infobox .images ul.block li::before{
+   content: "";
+   display: block;
+   height: 1px;
+   background: #ccc;
+   width: 80%;
+   position: absolute;
+   left: 10%;
+   top: 6px;
+}
+.item.infobox .images ul.block li:first-child{
+   padding-top: 0;
+}
+.item.infobox .images ul.block li:first-child::before{
+   display: none;
+}
+.item.infobox ul.toolpower{
+   padding: 6px 0;
+   cursor: pointer;
+}
+.item.infobox ul.toolpower li{
+   display: inline-block;
+   padding: 0 0.5em;
+}
+/* for npc infobox */
+.npc.infobox{
+   width: 23em;
+}
+.npc.infobox .statistics table th{
+   width: 6em;
+}
+.npc.infobox .images .map{
+   position: absolute;
+   left: 3px;
+   top: 3px;
+}
+/* infobox wrapper */
+.infobox-wrapper.float-right{
+   float: right;
+   margin-left: 0.5em;
+}
+.infobox-wrapper.float-left{
+   float: left;
+   margin-right: 0.5em;
+}
+.infobox-wrapper.float-none{
+   float: none;
+}
+.infobox-wrapper.float-right.direction-row .infobox,
+.infobox-wrapper.float-right.direction-row-reverse .infobox,
+.infobox-wrapper.float-right.direction-row .infobox.float-left,
+.infobox-wrapper.float-right.direction-row-reverse .infobox.float-left,
+.infobox-wrapper.float-right.direction-row .infobox.float-right,
+.infobox-wrapper.float-right.direction-row-reverse .infobox.float-right,
+.infobox-wrapper.float-right.direction-row .infobox.float-none,
+.infobox-wrapper.float-right.direction-row-reverse .infobox.float-none{
+   float: none;
+   margin: 0 0 0.5em 0.5em;
+}
+.infobox-wrapper.float-left.direction-row .infobox,
+.infobox-wrapper.float-left.direction-row-reverse .infobox,
+.infobox-wrapper.float-left.direction-row .infobox.float-left,
+.infobox-wrapper.float-left.direction-row-reverse .infobox.float-left,
+.infobox-wrapper.float-left.direction-row .infobox.float-none,
+.infobox-wrapper.float-left.direction-row-reverse .infobox.float-none,
+.infobox-wrapper.float-left.direction-row .infobox.float-right,
+.infobox-wrapper.float-left.direction-row-reverse .infobox.float-right,
+.infobox-wrapper.float-none.direction-row .infobox,
+.infobox-wrapper.float-none.direction-row-reverse .infobox,
+.infobox-wrapper.float-none.direction-row .infobox.float-left,
+.infobox-wrapper.float-none.direction-row-reverse .infobox.float-left,
+.infobox-wrapper.float-none.direction-row .infobox.float-none,
+.infobox-wrapper.float-none.direction-row-reverse .infobox.float-none,
+.infobox-wrapper.float-none.direction-row .infobox.float-right,
+.infobox-wrapper.float-none.direction-row-reverse .infobox.float-right{
+   float: none;
+   margin: 0 0.5em 0.5em 0;
+}
+.infobox-wrapper.float-left.direction-column .infobox,
+.infobox-wrapper.float-left.direction-column-reverse .infobox,
+.infobox-wrapper.float-left.direction-column .infobox.float-left,
+.infobox-wrapper.float-left.direction-column-reverse .infobox.float-left,
+.infobox-wrapper.float-left.direction-column .infobox.float-none,
+.infobox-wrapper.float-left.direction-column-reverse .infobox.float-none,
+.infobox-wrapper.float-left.direction-column .infobox.float-right,
+.infobox-wrapper.float-left.direction-column-reverse .infobox.float-right{
+   float: left;
+   margin: 0 0.5em 0.5em 0;
+}
+.infobox-wrapper.float-none.direction-column .infobox,
+.infobox-wrapper.float-none.direction-column-reverse .infobox,
+.infobox-wrapper.float-none.direction-column .infobox.float-right,
+.infobox-wrapper.float-none.direction-column-reverse .infobox.float-right{
+   float: right;
+   margin: 0 0 0.5em 0.5em;
+}
+.infobox-wrapper.float-none.direction-column .infobox.float-left,
+.infobox-wrapper.float-none.direction-column-reverse .infobox.float-left,
+.infobox-wrapper.float-none.direction-column .infobox.float-none,
+.infobox-wrapper.float-none.direction-column-reverse .infobox.float-none{
+   float: left;
+   margin: 0 0.5em 0.5em 0;
+}
+.infobox-wrapper.float-right.direction-column .infobox,
+.infobox-wrapper.float-right.direction-column-reverse .infobox,
+.infobox-wrapper.float-right.direction-column .infobox.float-left,
+.infobox-wrapper.float-right.direction-column-reverse .infobox.float-left,
+.infobox-wrapper.float-right.direction-column .infobox.float-none,
+.infobox-wrapper.float-right.direction-column-reverse .infobox.float-none,
+.infobox-wrapper.float-right.direction-column .infobox.float-right,
+.infobox-wrapper.float-right.direction-column-reverse .infobox.float-right{
+   float: right;
+   margin: 0 0 0.5em 0.5em;
+}
+/* ------------------------------------------------------------------ */
+
+
+/* copyright images tweak */
+.skin-hydradark .copyright-icon {
+    background-image: url("https://static.wikia.nocookie.net/commons_hydra/images/thumb/5/58/Copyright_darkwiki.png/32px-Copyright_darkwiki.png");
+    background-size: 100%;
+    height: 32px;
+    width: 32px;
+}
+
+/* interwiki table bg fix for active entries */
+.mw-interwikitable-local,
+.mw-interwikitable-trans {
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.feature {
+    background: rgba(0, 0, 0, 0.05);
+    border: 2px solid darkred;
+    border-radius: 5px; 
+    padding: 10px;
+}
+
+/* Navbox template style */
+table.navbox {
+    border: 1px solid #aaa;
+    clear: both;
+    /*font-size: 12px;*/
+    margin-top: 0.75em !important;
+    /*text-align: center;*/
+    width: 100%; 
+    border-radius: 8px;
+    padding: 6px;
+    background-color: var(--template-background-color-1);
+}
+
+/* Border between adjacent navboxes */
+table.navbox + table.navbox {
+    margin-top: -1px;
+}
+
+.navbox-title,
+.navbox-abovebelow,
+table.navbox th {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+
+.navbox-group {
+    font-weight: bold;
+    padding-left: 1em;
+    padding-right: 1em;
+    white-space: nowrap;
+}
+
+/* Base background */
+.navbox, .navbox-subgroup {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.navbox-list {
+    border-color: rgba(0, 0, 0, 0.1); /* Must match background color */
+}
+
+/* ------------------------------------------------------------------ */
+/* For Template:Key */
+div.key {
+    pointer-events: none;
+}
+
+div.key span {
+    cursor: pointer;
+    white-space: nowrap;
+    pointer-events: all;
+}
+
+div.key a:-webkit-any-link {
+    text-decoration: none;
+}
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+/* For Template:Code */
+.code-template {
+	background: var(--template-heading-background-color-1);
+	padding:2px;
+}
+/* ------------------------------------------------------------------ */
+
+/* Level 1 color */
+.navbox-title,
+table.navbox th {
+    background: var(--template-heading-background-color-1);
+    color: var(--template-heading-text-color-1);
+}
+
+/* Level 2 styling */
+.navbox-abovebelow,
+.navbox-group,
+.navbox-subgroup .navbox-title {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+/* Level 3 styling */
+.navbox-subgroup .navbox-group,
+.navbox-subgroup .navbox-abovebelow {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/* Even row striping */
+.navbox-even {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+/* Odd row striping */
+.navbox-odd {
+    background: transparent;
+}
+ 
+.collapseButton {
+    font-weight: normal;
+    width: auto;
+}
+
+.navbox .collapseButton {
+    width: 6em;
+}
+ 
+.navbar {
+    font-size: 88%;
+    font-weight: normal;
+}
+
+.navbox .navbar {
+    font-size: 100%;
+}
+ 
+table.collapsed tr.collapsible {
+    display: none;
+}
+/* End of new Navbox styling */
+
+/* -- "terraria" box style. ------------------------------------------*/
+.terraria{
+    border: 1px #aaa solid;
+    padding: 8px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    position: relative;
+}
+.terraria th{
+    background: var(--theme-page-background-color--secondary);
+}
+.terraria > .heading,
+.terraria > .mw-collapsible-content > .heading {
+    background: var(--template-heading-background-color-1);
+    text-align: center;
+    font-weight: bold;
+    line-height: 2;
+    min-height: 1em;
+    margin: auto -4px;
+    padding: 0;
+    font-size: inherit;
+    margin-top: 8px;
+}
+.terraria > .heading:first-child,
+.terraria > .mw-collapsible-content > .heading:first-child {
+    margin-top: auto;
+}
+.terraria > .heading + *,
+.terraria > .mw-collapsible-content > .heading + * {
+    padding-top: 8px;
+}
+.terraria > .mw-collapsible-toggle {
+    position: absolute;
+    line-height: 1;
+    right: 12px;
+    top: 12px;
+    font-size: 12px;
+}
+.terraria > .mw-collapsible-toggle > .mw-collapsible-bracket {
+    display: none;
+}
+.terraria > .mw-collapsible-toggle:before {
+    content: "";
+    vertical-align: middle;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    transform: rotate(45deg);
+    position: relative;
+    left: -3px;
+    border-left: 2px solid #aaa;
+    border-top: 2px solid #aaa;
+    border-right: 0;
+    border-bottom: 0;
+    top: 1px;
+}
+.terraria > .mw-collapsible-toggle.mw-collapsible-toggle-collapsed:before {
+    border-left: 0;
+    border-top: 0;
+    border-right: 2px solid #aaa;
+    border-bottom: 2px solid #aaa;
+    top: -2px;
+}
+
+#mw-page-base {
+    background-position: top left !important;
+}
+
+#mw-panel {
+    background-color: rgb(16, 16, 16, 0.7);
+    border: 1px solid #FF9900;
+}
+
+div.vectorTabs li.selected, div.vectorTabs ul li {
+    /* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkAQAAAABvV2fNAAAADElEQVR4AWNoGB4QAInlMgFKeRKBAAAAAElFTkSuQmCC); */
+    background-color: transparent !important;
+}
+
+/* Recipes tables */
+div.crafts {
+    margin-bottom: 4px;
+    line-height: 1.5;
+	display: table;/*float fix*/
+    overflow: auto;
+}
+
+div.crafts.centered {
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    -webkit-justify-content:center;
+    -moz-justify-content:center;
+    justify-content:center;
+}
+
+div.crafts .wrap {
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 6px 6px 2px 5px;
+    position: relative;
+    background: var(--template-background-color-1);
+}
+
+div.crafts .wrap::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: auto;
+    background: var(--template-background-color-1);
+    position: absolute;
+    bottom: 2px;
+    left: 6px;
+    right: 6px;
+}
+
+div.crafts table {
+    position: relative;
+}
+
+div.crafts table::after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 1px;
+    background: var(--template-background-color-1);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div.crafts caption {
+    font-size: 1.17em;
+    background: var(--template-heading-background-color-1);
+    padding: 0.25em;
+    position: relative;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+div.crafts caption > i,div.crafts caption > b{
+	vertical-align: middle;
+}
+
+div.crafts caption div._nav {
+    position: absolute;
+    left: 1em;
+    top: 0.5em;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+div.crafts caption div._nav s {
+    text-decoration: none;
+}
+
+div.crafts th {
+    background: var(--template-heading-background-color-1);
+    padding: 0.25em 0.5em;
+    border-right: 1px solid var(--template-background-color-1);
+    border-left: 1px solid var(--template-background-color-1);
+}
+div.crafts th:first-child {
+    border-left-width: 0px;
+}
+
+div.crafts th:last-child {
+    border-right: 0;
+}
+
+div.crafts td {
+    padding: 0.25em 0.5em;
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+}
+
+div.crafts tr:first-child > td {
+    border-top: 0;
+}
+
+div.crafts td.result {
+    border-left: 0;
+    white-space: nowrap;
+}
+
+div.crafts td.ingredients {
+    white-space: nowrap;
+}
+
+div.crafts td.station {
+    text-align: center;
+}
+
+div.crafts td.station span.water {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.crafts.nostation th.station,
+div.crafts.nostation td.station {
+    display: none;
+}
+
+div.crafts table .ingredients ul,
+.crafting-ingredients > ul {
+    margin: 0;
+    list-style: none;
+}
+
+div.crafts table .ingredients li,
+.crafting-ingredients > ul > li {
+    margin: 3px auto;
+}
+/* itemlink default as multiline */
+div.crafts .i > span,
+div.crafts .i > span,
+div.crafts .note-text {
+    line-height: 1.25;
+    vertical-align: middle;
+}
+
+/* references CSS */
+ol.references li:target, sup.reference:target{
+	background-color: #121212;
+}
+
+/* generic background color classes */
+.background-1 {
+	background-color: var(--template-background-color-1);
+}
+
+.background-2 {
+	background-color: var(--template-background-color-2);
+}
+
+.heading-1 {
+	background-color: var(--template-heading-background-color-1);
+	color: var(--template-heading-text-color-1);
+}
+
+.heading-2 {
+	background-color: var(--template-heading-background-color-2);
+}
+
+/*
+* Tabber styles ([[Template:Tabber]])
+*/
+
+.page-tabber {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	overflow-x: auto;
+	margin-bottom: 20px;
+}
+
+.page-tabber-tab {
+	padding: .5em;
+	border: solid #a6a6a6;
+	white-space: nowrap;
+	line-height: .95em;
+}
+
+.page-tabber-tab.active-tab {
+	border-width: 2px 2px 0;
+	font-weight: bold;
+}
+
+.page-tabber-tab.inactive-tab {
+	border-width: 1px 1px 2px;
+	background-color: #e6e6e6;
+}
+
+.page-tabber-separator {
+	border-bottom: 2px solid #a6a6a6;
+}
+
+.page-tabber-separator.tail {
+	width: 100%;
+}
+
+/*
+* Transparent background
+*/
+
+.theme-fandomdesktop-dark .page__main {
+	--theme-page-background-color: rgba(32,32,32,0.9);
+	background-color: var(--theme-page-background-color) !important;
+}
+
+.theme-fandomdesktop-light .page__main {
+	--theme-page-background-color: rgba(255,255,255,0.9);
+	background-color: var(--theme-page-background-color) !important;
+}

@@ -1,0 +1,36 @@
+{{npc infobox
+| type = Enemy
+| environment = Ogswarm
+| ai = Worm AI
+| damage = {{element|Unholy}} {{dv|30|60}}
+| life = {{dv|100|180}}
+| defense = 15 
+| dr = 5%
+| knockback = 0
+| money = {{value|0|0|1|0}}
+| debuff = Weak
+| debuffchance = 25%
+| duration = 10 seconds
+| immune1 = Vulnerability Hex
+| immune2 = Confused
+| immune3 = Kami Flu
+| immune4 = Brimstone Flames
+| banner = yes
+| Rotten Chunk | 1 | 33.3%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Roar_1.wav
+| soundtext = Digging
+| vulnerable1 = Holy
+| vulnerable2 = Magic
+| vulnerable3 = Cold
+| resistant1 = Poison
+| resistant2 = Unholy
+}}
+The '''Nightmare Burrower''' is a Pre-[[Hardmode]] [[enemy]] which spawns during the [[Ogswarm]] in a [[The Corruption|Corrupt]] world. It tunnels through blocks to get to the player and makes a distinctive shuffling sound while tunnelling, similar to the [[tgc: Giant Worm|Giant Worm]]. While in the air, it will randomly shoot [[tgc:Vile Spit|Vile Spit]] which has a 25% chance to inflict the [[tgc:Weak|Weak]] [[debuff]] for 10 seconds.
+{{-}}
+
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

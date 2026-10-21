@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 30
+| knockback = 7
+| use = 25
+| tooltip = Inflicts irradiated on enemy hits
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| stack = 1
+| auto = yes
+| rare = 1
+| sell = {{value|0|0|20}}
+| element1 = Radioactive
+| element2 = Smash
+}}
+
+The '''Basher''' is a craftable [[Pre-Hardmode]] [[true melee]] [[broadsword]] with autoswing. On hit, it inflicts the [[Irradiated]] [[debuff]] onto enemies.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Sulphuric Scale}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:痛击者]]

@@ -1,0 +1,51 @@
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 300
+| damagetype = Summon
+| knockback = 3
+| stack = 1
+| mana = 20
+| rare = 13
+| sell = {{value|0|56}}
+| use = 9
+| velocity = 10
+| tooltip = Summons the brightest star in the night sky to shine upon your foes<br/>Consumes all of the remaining minion slots on use<br/>Must be used from the hotbar<br/>Increased power based on the number of slots used
+| hardmode = yes
+| postml = yes
+| buff = Sirius (buff) | bufflink = no
+| bufftip = A bit too bright, but it helps me
+| debuff = Moon Burnt
+| debuffduration = 3 seconds
+| debufftip = Incinerated by lunar rays
+| debuffchance = 100%
+| element1 = Magic
+| element2 = Dark
+| element3 = Cold
+}}
+{{summoned|Sirius (minion)|type=minion}}
+
+'''Sirius''' is a craftable Godseeker Mode [[summon weapon]] and the upgrade to the [[Sun God Staff]]. It summons a stratus light entity that hovers above the player's head and shoots beams towards nearby enemies. Additionally, it summons light explosions onto nearby enemies similarly to the [[Rainbow Crystal Staff]].
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+== Notes ==
+*The multiplier for the minion's damage is the natural log of the number of slots it occupies, plus 1.
+**Notably, when the minion occupies 3 slots, it has roughly double its initial damage. When the minion occupies 8 slots, it has roughly triple its initial damage. The minion requires 20 slots in order to have roughly quadruple its initial damage.
+*The amount of enemies that the minion's beam can pierce through is equal to the number of slots it occupies.
+
+== Trivia ==
+*The weapon and minion are based off of [[wikipedia:Sirius|Sirius]], the brightest star in the night sky with a visual magnitude of -1.46.
+*Sirius was implemented based on a community suggestion made by Boltlord on the mod's Discord server.
+
+{{-}}
+{{Stratus}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

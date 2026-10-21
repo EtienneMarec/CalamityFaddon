@@ -1,0 +1,87 @@
+==Usage==
+Use this template to show key or button presses. 
+
+==Keys==
+If you enter text that doesn't appear below, it will still display, albeit with no symbol.
+
+{| class="terraria"
+! Code !! Result
+|-
+! colspan=2 | Common game controls 
+|-
+|'''<code><nowiki>{{key|up}}</nowiki></code> '''|| {{key|up}}
+|-
+|'''<code><nowiki>{{key|down}}</nowiki></code> '''|| {{key|down}}
+|-
+|'''<code><nowiki>{{key|left}}</nowiki></code> '''|| {{key|left}}
+|-
+|'''<code><nowiki>{{key|right}}</nowiki></code> '''|| {{key|right}}
+|-
+|'''<code><nowiki>{{key|jump}}</nowiki></code> '''|| {{key|jump}}
+|-
+|'''<code><nowiki>{{key|grapple}}</nowiki></code> '''|| {{key|grapple}}
+|-
+|'''<code><nowiki>{{key|use}}</nowiki></code> '''|| {{key|use}}
+|-
+|'''<code><nowiki>{{key|open}}</nowiki></code> '''|| {{key|open}}
+|-
+! colspan=2 | Other common keys
+|-
+|'''<code><nowiki>{{key|shift}}</nowiki></code> '''|| {{key|shift}}
+|-
+|'''<code><nowiki>{{key|lshift}}</nowiki></code> '''|| {{key|lshift}}
+|-
+|'''<code><nowiki>{{key|rshift}}</nowiki></code> '''|| {{key|rshift}}
+|-
+|'''<code><nowiki>{{key|enter}}</nowiki></code> '''|| {{key|enter}}
+|-
+|'''<code><nowiki>{{key|tab}}</nowiki></code> '''|| {{key|tab}}
+|-
+|'''<code><nowiki>{{key|backspace}}</nowiki></code> '''|| {{key|backspace}}
+|-
+! colspan=2 | Mac-only keys
+|-
+|'''<code><nowiki>{{key|cmd}}</nowiki></code> '''|| {{key|cmd}}
+|-
+|'''<code><nowiki>{{key|command}}</nowiki></code> '''|| {{key|command}}
+|-
+|'''<code><nowiki>{{key|opt}}</nowiki></code> '''|| {{key|opt}}
+|-
+! colspan=2 | Non-Mac keys
+|-
+|'''<code><nowiki>{{key|super}}</nowiki></code> '''|| {{key|super}} (also called “windows” Key)
+|-
+|'''<code><nowiki>{{key|menu}}</nowiki></code> '''|| {{key|menu}}
+|-
+! colspan=2 | Xbox Controller buttons 
+|-
+|'''<code><nowiki>{{key|xb-a}}</nowiki></code> '''|| {{key|xb-a}}
+|-
+|'''<code><nowiki>{{key|xb-b}}</nowiki></code> '''|| {{key|xb-b}}
+|-
+|'''<code><nowiki>{{key|xb-x}}</nowiki></code> '''|| {{key|xb-x}}
+|-
+|'''<code><nowiki>{{key|xb-y}}</nowiki></code> '''|| {{key|xb-y}}
+|- 
+|'''<code><nowiki>{{key|xb-lb}}</nowiki></code> '''|| {{key|xb-lb}} (Left Bumper)
+|-
+|'''<code><nowiki>{{key|xb-rb}}</nowiki></code> '''|| {{key|xb-rb}} (Right Bumper)
+|-
+|'''<code><nowiki>{{key|xb-lt}}</nowiki></code> '''|| {{key|xb-lt}} (Left Trigger)
+|-
+|'''<code><nowiki>{{key|xb-rt}}</nowiki></code> '''|| {{key|xb-rt}} (Right Trigger)
+|-
+|'''<code><nowiki>{{key|xb-back}}</nowiki></code> '''|| {{key|xb-back}}
+|-
+|'''<code><nowiki>{{key|xb-start}}</nowiki></code> '''|| {{key|xb-start}}
+|}
+
+==Credit==
+The symbol list used by this template was derived from [http://minecraft.gamepedia.com/Module:Keys/Symbols this list] uploaded by Minecraft Wiki user [http://minecraft.gamepedia.com/User:Majr Majr].
+
+<includeonly>
+[[Category:Shortcut templates‎]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

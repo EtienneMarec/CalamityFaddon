@@ -1,0 +1,22 @@
+<includeonly>
+{{#ifeq:{{{listexclude|no}}}|yes|<!--nothing-->|
+{{!}}-
+{{!}} align=center {{!}} {{item|mode=table|{{{%PAGE%}}}|image={{{name|{{{%PAGE%}}}}}}.png}}
+{{!}} align=center data-sort-value={{{pick|0}}} {{!}} {{pickaxe tier|{{{pick|0}}}}}
+{{!}} align=center data-sort-value={{{pick|0}}} {{!}} {{{pick|0}}}%
+{{!}} align=center {{!}} {{{axe|0}}}%
+{{!}} align=center {{!}} '''{{{damage|0}}}'''
+{{!}} align=center {{!}} {{{bonus|{{na}}}}}
+{{!}} data-sort-value={{{use|0}}} align=center style="line-height:15px" {{!}} {{{use|0}}} <br/> <small>({{use time|{{{use|0}}}}})</small>
+{{!}} align=center style="line-height:15px" {{!}} {{{toolspeed|0}}}
+{{!}} data-sort-value={{{knockback|0}}} align=center style="line-height:15px" {{!}} {{{knockback|0}}} <br/> <small>({{knockback|{{{knockback|0}}}}})</small>
+{{!}} align=center {{!}} {{{{{auto|no}}}}}
+{{!}} {{rare|{{{rare|0}}}|sort=yes}}
+{{!}} align=right data-sort-value={{value total|{{{sell|}}}}} {{!}} {{{sell|}}}
+{{!}}-
+}}
+</includeonly>
+<noinclude>
+{{Dpl pages}}
+[[Category:DPL]]
+</noinclude>

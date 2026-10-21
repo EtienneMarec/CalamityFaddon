@@ -1,0 +1,37 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| defense = 16
+| tooltip = Grants immunity to knockback<br/>Immune to most debuffs and reduces the damage caused by the Brimstone Flames debuff<br/>+16 defense while submerged in liquid<br/>+20 max life<br/>Grants a holy dash which can be used to ram enemies
+| rare = 7
+| sell = {{value|0|9|60}}
+| stack = 1
+| hardmode = yes
+}}
+
+The '''Asgard's Valor''' is a craftable [[Hardmode]] [[covering]] that grants immunity to knockback, immunity to most [[debuff]]s including [[Frostburn]] and [[Glacial State]], 16 defense while submerged in liquid, and +20 max life. It also reduces the damage over time effect for [[Brimstone Flames]] by 50%.
+
+While equipped, the wearer can double tap a horizontal movement key to perform a holy dash with a base distance of 18 blocks. Striking enemies during the shield dash will damage them and cause an explosion. Every time an enemy is struck, the wearer is given 6 [[immunity frames]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Directly colliding with an enemy during the shield dash deals 100 melee damage. This direct hit is affected by melee damage bonuses and the wearer's melee critical strike chance.
+*The explosion produced upon colliding with an enemy deals 60 damage. This is not boosted by any player stats.
+*Asgard's Valor provides immunity to [[On Fire!]], [[Bleeding]], [[Broken Armor]], [[Burning]], [[Chilled]], [[Confused]], [[Cursed]], [[Darkness]], [[Frostburn]], [[Poisoned]], [[Searing Lava]], [[Silenced]], [[Slow]], and [[Weak]], as well as [[Glacial State]].
+
+== Tips ==
+*The immunity frames given when striking enemies during the dash can be used to avoid contact damage.
+*All of the crafting materials for the Ankh Shield can be crafted instead of a player having to find them all.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

@@ -1,0 +1,46 @@
+{{infobox wrapper
+|{{item infobox
+| type = Bait
+| type2 = Crafting material
+| bait = 200
+| rare = 15
+| use = 14
+| auto = yes
+| consumable = yes
+| sell = {{value|0|15|00}}
+| stack = 9999
+}}
+|{{npc infobox | boxwidth=21em
+| type = Critter
+| image = Arctic Lacewing.png
+| environment = Frozen Hell
+| ai = Butterfly AI
+| damage = 0
+| life = 5
+| defense = 0
+| knockback = 0
+| immune1 = Confused
+| immune2 = Kami Flu
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_7.wav
+}}
+}}
+
+The '''Arctic Lacewing''' is a rare Godseeker Mode [[critter]] that spawns in hell [[Frozen Hell]]. It acts similarly to other [[Butterflies]]. Arctic Lacewings can be caught with a [[Lavaproof Bug Net]] or [[Golden Bug Net]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+
+== Trivia ==
+*The Bestiary reveals that Arctic Lacewings are closely related to Prismatic Lacewings.
+
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

@@ -1,0 +1,27 @@
+{{item infobox
+| type = Potion
+| tooltip = Boosts damage, damage reduction, and knockback by 7%, crit chance by 3%, and defense by 10 during daytime<br/>Reduces life regen by 1
+| stack = 9999
+| rare = 8
+| use = 17
+| sell = {{value|0|1|32}}
+| consumable = yes
+| debuffduration = 8 minutes
+| debuff = Tequila Sunrise (debuff) | debufflink = no
+| debufftip = Damage, critical strike chance, damage reduction, defense, and knockback boosted during daytime, life regen reduced
+| boxwidth = 22em
+| hardmode = yes
+}}
+
+'''Tequila Sunrise''' is a craftable [[Hardmode]] [[potion]]. It grants the '''Tequila Sunrise''' [[debuff]] when consumed, which reduces life regen, but boosts damage, critical strike chance, damage reduction, knockback and [[defense]] during the daytime and [[Solar Eclipse]]s.
+
+While the effects of the Tequila Sunrise debuff are mostly beneficial, it is still considered a debuff, and therefore cannot be removed by right-clicking the icon.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

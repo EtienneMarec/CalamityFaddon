@@ -1,0 +1,37 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| tooltip = Shot bullets have a 1% chance to deal 10x more damage
+| damage = 3135
+| use = 37
+| knockback = 15
+| stack = 1
+| rare = C4
+| sell = {{value|5}}
+| velocity = 42
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| auto = yes
+| element1 = Unholy
+| element2 = Poison
+}}
+
+The '''Decreator''' is a post-[[Purgatory Arbiter, Umbrus|Umbrus]] [[gun]] that shoots very fast bullets with high damage and knockback,  the bullets have a 1% chance to deal 10 times more damage
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Lethal}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

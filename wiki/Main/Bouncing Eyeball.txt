@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = Spy
+| tooltip = Throws an eyeball that bounces off of surfaces.<br/>Critical chance is doubled during a blood moon<br/>Stealth strikes cause the eyeballs to move much faster and bounce more energetically
+| damage = 45
+| knockback = 3.50
+| velocity = 10
+| rare = 2
+| sell = {{value|0|0|40}}
+| use = 12
+| proj = Bouncing Eyeball Enraged.png
+| projcaption = Enraged Eyeball
+| element1 = Unholy
+| element2 = Smash
+}}
+|{{item drops infobox
+|[[Drippler]]|1|{{dv|2.5%|5%}}
+}}
+}}
+
+The '''Bouncing Eyeball''' is a [[Pre-Hardmode]] [[Spy weapon]] that drops from [[Drippler]]s. When used, it throws a bouncing eyeball that pierces 3 enemies, bounces 8 times, or lasts 5 seconds before dissipating. Its critical chance is doubled during a [[Blood Moon]].
+
+Performing a [[stealth strike]] with the Bouncing Eyeball will cause the eyeball thrown to pierce and bounce an unlimited number of times within 7 seconds, makes it travel much faster and unaffected by gravity, and makes it bounce almost directly towards the direction it came from, gently reaching a 45 degree angle, no matter the angle at which it strikes a block. It can damage a single enemy up to 12 times per second.
+
+{{Modifier|Spy}}
+== Notes ==
+*This weapon benefits greatly from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+== Trivia ==
+*On performing a stealth strike, the eyeball will have teeth, similar to the [[Eye of Cthulhu]]'s second form.
+
+{{-}}
+
+* The high damage and use time of this weapon, as well as the critical chance and bouncing/piercing capabilities, makes it viable up until the [[The Slime God|Slime God]].
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}

@@ -1,0 +1,45 @@
+{{dedicated|Arkhine|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| rare = 15
+| sell = {{value|0|30}}
+| damage = 170
+| use = 20
+| reach = 50
+| attduration = {{infinity}}
+| knockback = 4
+| tooltip = Gaze into the past, the present, the future... and the circumstances of your inevitable demise<br/>Emits an aura of red lightning which charges up when hitting enemies<br/>Fires auric orbs when supercharged<br/>An exceptionally agile yoyo
+| auto = yes
+| stack =  1
+| hardmode = yes
+| postml = yes
+| proj = Oracle Yoyo.png
+| projcaption = The Oracle
+| proj2 = Orbacle.png
+| proj2caption = Orbacle
+| element1 = Fire
+| element2 = Holy
+| element3 = Electricity
+}}
+
+'''The Oracle''' is a craftable Godseeker Mode [[Yoyos|yoyo]]. It builds charge each time it strikes an enemy directly, creating a growing aura of red lightning which shocks nearby enemies and ignores [[immunity frames]]. Once The Oracle is sufficiently charged, it fires three orbs in a triangular pattern on every sixth direct hit. Each orb deals triple the mouse damage.
+
+The Oracle’s red lightning aura shrinks and eventually vanishes when not striking any foes. Its size and damage increase with every successive hit landed by the mouse; the damage continues to rise even after the lightning aura stops visibly growing. The lightning aura has a base damage of 160 and is boosted by the user's melee stats. At maximum charge, the lightning aura deals 105 damage per frame.
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+[[File:The Oracle (demo).gif|frame|right|The Oracle in use, showing its growing aura and auric orbs. The aura shrinks if the yoyo is not hitting an enemy.]]
+{{-}}
+{{auric}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee=yes
+}}
+[[Category:Yoyos]]
+
+}

@@ -1,0 +1,50 @@
+<includeonly><!--
+--><table class="infobox" style="margin-top:0.5em; -moz-border-radius: .7em; -webkit-border-radius: .7em; border-radius: .7em; font-size:89%; float:{{{float|none}}}; clear:none; overflow: scroll;"><tr><th colspan="15" style="background-color: #383D41; color: #ffffff; font-size:120%; padding:0.5em;">{{{name|{{PAGENAME}}}}}</th></tr><!--
+--><tr><!--
+	-->{{#if: {{{monsters|}}}|<!--
+		--><th style="background-color: #383D41; color: #FFFFFF; font-size:110%; vertical-align:top; text-align:center; padding:0em 1em;" {{#if:{{{monsters2|}}}|{{#if:{{{monsters3|}}}|colspan="3"|colspan="2"}}}}>'''Characters'''</th><!--
+	-->}}{{#if: {{{treasures|}}}|<!--
+		--><th style="background-color: #383D41; color: #FFFFFF; font-size:110%; vertical-align:top; text-align:center; padding:0em 1em;" {{#if:{{{treasures2|}}}|{{#if:{{{treasures3|}}}|colspan="3"|colspan="2"}}}}>'''Unique Treasures'''</th><!--
+	-->}}{{#if: {{{drop|}}}|<!--
+		--><th style="background-color: #383D41; color: #FFFFFF; font-size:110%; vertical-align:top; text-align:center; padding:0em 1em;" {{#if:{{{drop2|}}}|{{#if:{{{drop3|}}}|colspan="3"|colspan="2"}}}}>'''Unique Drops'''</th><!--
+	-->}}{{#if: {{{sold|}}}|<!--
+		--><th style="background-color: #383D41; color: #FFFFFF; font-size:110%; vertical-align:top; text-align:center; padding:0em 1em;" {{#if:{{{sold2|}}}|{{#if:{{{sold3|}}}|colspan="3"|colspan="2"}}}}>'''For Sale'''</th><!--
+	-->}}{{#if: {{{music|}}}|<!--
+		--><th style="background-color: #383D41; color: #FFFFFF; font-size:110%; vertical-align:top; text-align:center; padding:0em 1em;" {{#if:{{{music2|}}}|{{#if:{{{music3|}}}|colspan="3"|colspan="2"}}}}>'''Music'''</th><!--
+	-->}}<!--
+--></tr><!--
+--><tr><!--
+	-->{{#if: {{{monsters|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{monsters|}}}</td><!--
+	-->}}{{#if: {{{monsters2|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{monsters2|}}}</td><!--
+	-->}}{{#if: {{{monsters3|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{monsters3|}}}</td><!--
+	-->}}{{#if: {{{treasures|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{treasures|}}}</td><!--
+	-->}}{{#if: {{{treasures2|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{treasures2|}}}</td><!--
+	-->}}{{#if: {{{treasures3|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{treasures3|}}}</td><!--
+	-->}}{{#if: {{{drop|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{drop|}}}</td><!--
+	-->}}{{#if: {{{drop2|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{drop2|}}}</td><!--
+	-->}}{{#if: {{{drop3|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{drop3|}}}</td><!--
+	-->}}{{#if: {{{sold|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{sold|}}}</td><!--
+	-->}}{{#if: {{{sold2|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{sold2|}}}</td><!--
+	-->}}{{#if: {{{sold3|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{sold3|}}}</td><!--
+	-->}}{{#if: {{{music|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{music|}}}</td><!--
+	-->}}{{#if: {{{music2|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{music2|}}}</td><!--
+	-->}}{{#if: {{{music3|}}}|<!--
+		--><td style="padding:0em 2em 0em 1em;">{{{music3|}}}</td><!--
+	-->}}<!--
+--></tr><!--
+--></table><!--
+-->[[Category:Environments|{{PAGENAME}}]]</includeonly><noinclude>{{doc}}</noinclude>

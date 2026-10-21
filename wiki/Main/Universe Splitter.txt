@@ -1,0 +1,55 @@
+{{dedicated|Coballion|Developer}}
+{{item infobox
+| image = Universe Splitter.gif
+| type = Weapon
+| damagetype = Summon
+| damage = 18000
+| mana = 300
+| use = 9
+| knockback = 7
+| tooltip = Summons an energy field at the mouse cursor<br/>After the field has been deployed, it begins to summon multiple small beams<br/>After several seconds have passed, an enormous laser beam appears at the field's position<br/>This effect has a cooldown<br/>Attempting to use this item during the cooldown will cause it to short circuit and do damage to you.<br/>An ancient artifact from a previous age, it waits for your command...<br/>This is a terrible idea, but it isn't yours anyways... right?
+| stack = 1
+| rare = 16
+| sell = {{value|0|40}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Universe Splitter Cooldown | debufflink = no
+| debuffduration = 45 seconds (After usage)
+| debuffchance = 100%
+| debufftip = You cannot use the Universe Splitter
+| debuff2 = Electrified
+| debuffduration2 = 4 seconds (Beams)
+| debuffchance2 = 100%
+| debufftip2 = You cannot move
+| debuff3 = Moon Burnt
+| debuffduration3 = 4 seconds (Huge Beam)
+| debuffchance3 = 100%
+| debufftip3 = 	Incinerated by lunar rays
+| proj = Universe Splitter Huge Beam.png
+| projcaption = Huge Beam
+| proj2 = Universe Splitter Small Beam.png
+| proj2caption = Small Beam
+| element1 = Magic
+| element2 = Fire
+| element3 = Machine
+}}
+
+The '''Universe Splitter''' is a craftable Epilogue [[developer]] [[summon weapon]]. When used, a field appears at the player's cursor, and inflicts the player with the '''Universe Splitter Cooldown''' [[debuff]]. After two seconds, a red laser sweeps down from the sky towards the field every second for six seconds, slightly randomized in the angle shot. One second after the sixth shot, a huge white laser beam strikes down from the sky towards the center of the field. All laser beams inflict the [[Electrified]] debuff and pierce infinitely through targets. The main beam also inflicts the [[Moon Burnt]] debuff but cannot travel through solid tiles. If used while the cooldown is active, the weapon will drop a [[Martian Saucer]] scrap projectile which deals {{dv|10|20}} damage to the player.
+
+Despite being a summoning weapon, the beams created by the Universe Splitter ''can'' deal critical hits. It is therefore down to the preference of the player whether the '''Ruthless''' or '''Mythical''' modifier is desired.
+
+[[File:Universe Splitter (demo).gif|frame|A demonstration of the Universe Splitter's Attack.]]
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon has the highest base damage of any weapon in the Calamity mod.
+
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

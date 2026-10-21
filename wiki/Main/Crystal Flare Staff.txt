@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 50
+| mana = 15
+| tooltip = Fires blue frost flames that explode
+| knockback = 5.25
+| rare = 7
+| sell = {{value|0|12}}
+| use = 20
+| velocity = 14
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| stack = 1
+| hardmode = yes
+| proj = Spirit Flame Curse.gif
+| projcaption = Frost Flame
+| element1 = Cold
+| element2 = Fire
+| element3 = Holy
+}}
+
+The '''Crystal Flare Staff''' is a craftable [[Hardmode]] [[wand]]. It shoots two frost flames that gradually fade in, which explodes on contact with anything, producing a large, blue explosion. Any [[enemy]] hit by the projectile or resulting explosion will be inflicted with the [[Frostburn]] [[debuff]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

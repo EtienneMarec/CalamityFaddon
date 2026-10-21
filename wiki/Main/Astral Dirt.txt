@@ -1,0 +1,29 @@
+{|align=right
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| sell = No value
+| stack = 9999
+| rare = 0
+| color = #413853
+| hardmode = yes
+}}
+|}
+
+'''Astral Dirt''' is a [[Hardmode]] [[block]] which replaces [[Dirt Block]]s in the [[Astral Infection]] [[biome]] upon its creation. It spontaneously creates Astral Grass, since Astral Grass Seeds cannot be obtained.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

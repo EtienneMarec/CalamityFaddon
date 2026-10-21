@@ -1,0 +1,42 @@
+{{npc infobox
+| type = Slime
+| ai = Slime AI
+| environment = Jungle
+| life = {{dv|350|700}}
+| damage = {{element|Poison}} {{dv|55|110}} (Contact)<br/>{{element|Stab}} {{dv|44|100}} (Darts)
+| defense = 12
+| knockback = 100
+| banner = yes
+| immune1 = Kami Flu
+| immune2 = Plague
+| immune3 = Poisoned
+| immune4 = Venom
+| Plague Cell Canister| 1-2 | 100%
+| Apocalyptic Ore| 10-26 | 100%
+| Stinger|1|{{dv|25%|50%}}
+| debuff=Plague
+| debuffchance=100%
+| duration = 3 seconds
+| debufftip=You are rotting from the inside
+| money = {{sc|10}}
+| hurt = NPC_Hit_1.wav
+| killed = PlagueBoom1.wav, PlagueBoom2.wav, PlagueBoom3.wav, PlagueBoom4.wav
+| sound = Item_42.wav
+| soundtext = Stinger
+| vulnerable1 = Fire
+| vulnerable2 = Magic
+| resistant1 = Poison
+| resistant2 = Cold
+}}
+
+The '''Pestilent Slime''' is a [[Hardmode]] [[slime]] that spawns in the [[Jungle]] after [[Golem]] has been defeated. It attacks by jumping towards the player and shooting high-velocity plague darts whenever they get too close to it or travel above it.
+
+The Pestilent Slime is one of the required slimes to summon [[Astrum Aureus]].
+
+== Trivia ==
+* The Pestilent Slime can be considered a [[Spiked Jungle Slime]] that was infected by the [[Plague]].
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

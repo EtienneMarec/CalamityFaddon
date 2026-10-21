@@ -1,0 +1,26 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| defense = 2
+| tooltip = Increased defense by 5 when submerged in liquid<br/>Increases movement speed and life regen while wearing the Victide armor
+| rare = 2
+| sell = {{value|0|0|40}}
+| stack = 1
+}}
+
+The '''Shield of the Ocean''' is a craftable [[Pre-Hardmode]] [[covering]] that grants +2 [[defense]], and an additional 5 defense when submerged in a liquid. It also increases the player's life regen by 2 and movement speed by 10% when equipped alongside the [[Victide armor]] set.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Victide}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

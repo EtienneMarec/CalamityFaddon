@@ -1,0 +1,47 @@
+{{Addon|Calamity: Tales of the Aquatic}}
+{{Revengeance mode only}}
+{{Item infobox
+|rare=C4
+|hardmode = yes
+|postml = yes
+| epilogue = yes
+|damage=1600 (contact) <br/> 400 (bolts)
+|knockback=1
+|type=Weapon
+|mana=120
+|use=120
+|tooltip=Creates a Ring around the player and around the cursor. <br/> The one around the player deals contact damage and buffs the players inside. <br/> The one around the cursor fires homing bolts that damage your enemies and inflict Eradication
+|debuff=Eradication
+|debuffchance=100%
+|debuffduration=5 seconds (Bolts)
+|debufftip=You're getting destroyed by powers that go against all rules of humanity
+|buff = Malicious Ring | bufflink = no
+|buffduration = infinite (when held)
+|bufftip = Doubled Regeneration and Magic Damage
+| element1 = Unholy
+| element2 = Dark
+| element3 = Magic
+|proj=Player_Ring.gif
+|projcaption=Player Ring
+|proj2=Cursor_Ring.gif
+|proj2caption=Cursor Ring
+|proj3=Malign_Bolt.png
+|proj3caption=Bolt
+|damagetype=Magic
+|auto=yes
+|stack=1}}
+
+The '''HPST "Malign"''' (Heat Powered Spell Tome) is a craftable post-[[Umbrus]] [[Spell tomes|spell tome]]. When held, it creates a ring around the player that doubles life regen and magic damage. When used, it creates a ring around the cursor that fires homing bolts that damage the enemy and inflict Eradication.
+
+Its best [[Modifiers|modifier]] is '''Mythical'''.
+
+==Crafting ==
+
+===Recipe===
+{{Recipes|result={{PAGENAME}}|view=infobox}}
+
+==Trivia==
+* The weapon is a reference to the '''Malign''' turret from the game '''Mindustry'''.
+{{Master Template Weapons|show-main=yes|show-magic=yes}}
+
+[[Category:Spell tomes]]

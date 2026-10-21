@@ -1,0 +1,30 @@
+{{npc infobox
+| type = Slime
+| environment = Cavern
+| ai = Slime AI
+| damage = {{element|Poison}} {{dv|35|70}}
+| life = {{dv|150|300}}
+| defense = 12
+| knockback = 100
+| banner = yes
+| money = {{value|0|0|10|0}}
+| Perennial Ore|10-26| 100%
+| immune1 = Kami Flu
+| immune2 = Poisoned
+| hardmode = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| vulnerable3 = Cold
+| vulnerable4 = Machine
+| resistant1 = Poison
+| resistant2 = Holy
+}}
+
+The '''Perennial Slime''' is a [[Hardmode]] [[slime]] which spawns naturally in the [[Cavern]] layer after [[Plantera]] has been defeated. They exist as an infinite supply of [[Perennial Ore]] in case the ones generated upon Plantera's defeat have been completely mined.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

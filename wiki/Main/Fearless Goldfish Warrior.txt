@@ -1,0 +1,34 @@
+{{dedicated|looh|Patreon Donator|type=NPC}}
+{{npc infobox
+| type = Enemy
+| environment = Surface
+| environment2 = Rain
+| ai = Fearless Goldfish Warrior AI
+| damage = {{element|Stab}} {{dv|30|boost=0.2}}<br/>{{element|Magic}} {{dv|100|boost=0.2}} (In [[Hardmode]])
+| life = {{dv|50|100}}<br/>{{dv|150|300}} (In Hardmode)
+| defense = 2<br/>10 (In Hardmode)
+| banner = yes
+| money = {{value|0|0|1}}
+| immune1 = Kami Flu
+| Tin Helmet|1| 100%
+| Magic Dagger|1| 100% (In Hardmode)
+| knockback = {{dv|50%|55%}}<br/>{{dv|80%|82%}} (In Hardmode)
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Cold
+| vulnerable2 = Fire
+| vulnerable3 = Machine
+| resistant1 = Poison
+| resistant2 = Water
+}}
+
+The '''Fearless Goldfish Warrior''' is a rare [[Pre-Hardmode]] [[enemy]] which spawns naturally on the [[Surface]] during [[Rain]]. It resembles a walking [[Goldfish]] equipped with a [[Tin Helmet]] and [[Magic Dagger]], both of which it can drop when killed. It will slowly approach the player in an attempt to stab them with the dagger.
+
+== Trivia ==
+*The Fearless Goldfish Warrior is a reference to [https://www.youtube.com/user/rwm8558 rwm8558] whose avatar shares a very similar sprite to the enemy.
+*The Fearless Goldfish Warrior will instantly kill players named "Metarex" or "LordMetarex" on contact, with the [[tgc:Death#Death_Messages|death message]] "Metarex/LordMetarex was once again impaled by Goldfish." LordMetarex is one of the ''Calamity Mod'''s developers, and this easter egg is a reference to a bugged death message he received during a playthrough which stated that he was killed by a Goldfish.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

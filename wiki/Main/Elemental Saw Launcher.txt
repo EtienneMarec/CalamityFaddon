@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damagetype = ranged
+| damage = 50
+| knockback = 1.75
+| rare = 11
+| sell = {{value|0|22}}
+| stack = 1
+| auto = yes
+| use = 6
+| velocity = 18
+| tooltip = Does not consume ammo<br/>Hold left click to charge a saw<br/>Letting go of left click releases the saw<br/>Pressing right click while the saw is out will call it back to you faster, causing an explosion
+| hardmode = yes
+| postml = yes
+| proj = Rainbow Blast.png
+| projcaption = Rainbow Blast
+| debuff = Elemental Mix
+| debuffchance = 100%
+| debuffduration = 1.5 seconds
+| element1 = Slash
+| element2 = Magic
+|name=Scintilla Shredder}}
+The '''Elemental Shredder''' is a craftable Godseeker Mode [[ranged weapon]]. Holding left click will charge the saw, which will causes it to spin. Letting go of left click shoots out the saw, which shoots out blasts with slightly homing properties. The saw will return to the player after a short period of time. If left click is not let go, the saw will still do contact damage and shoot out blasts. Right-clicking while the saw is launched will call it with increased velocity. When the saw returns to the player, it causes an explosion and shoots out 6 blasts. This ability has a cooldown of 10 seconds.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Elemental}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

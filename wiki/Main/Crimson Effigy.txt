@@ -1,0 +1,29 @@
+{{item infobox
+| type = Furniture
+| tooltip = When placed down nearby players have their damage increased by 15% and defense by 10<br/>Nearby players also suffer a 10% decrease to their maximum health
+| sell = {{value|0|1|80|0}}
+| rare = 3
+| color = #EE9169
+| stack = 9999
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| width = 2
+| height = 4
+| buff = Crimson Effigy (buff) | bufflink = no
+| bufftip = The crimson empowers you
+| duration = Infinite (while in vicinity)
+| boxwidth = 23em
+}}
+
+The '''Crimson Effigy''' is a [[Pre-Hardmode]] [[effigy]] found in the Crimson [[shrine]]. When placed down, all players nearby will receive a 15% damage boost as well as 10 [[defense]], but will have their maximum health decreased by 10%.
+
+== Notes ==
+*The Crimson Effigy is the counterpart to the [[Corruption Effigy]], trading a damage and defense boost with a health penalty for a movement speed and crit chance boost and a damage reduction penalty.
+*The range of the Crimson Effigy is approximately 203 units east and west, while 154 units up and down. This makes a total area on 406 X 308 units (203 X 154 blocks).
+{{-}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

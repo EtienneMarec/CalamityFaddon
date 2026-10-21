@@ -1,0 +1,160 @@
+== Usage ==
+* Everything is optional.
+* You can add a "name," "image," "imagefemale," and "imagebreak." Fill these values if the ROOTPAGENAME macro is not adequate (if the page name has a disambig qualifier for example)
+
+{| style="background:#333; padding:10px; border:1px solid #ddd"
+| colspan=10 | <nowiki>{{</nowiki>item infobox
+|-
+| &#124; || boxwidth || = || width of infobox; default = 21em or stretches to image width
+|-
+| &#124; || float || = || default is right
+|-
+| &#124; || css / style || = || css style for infobox box, if width:xx or float:xx inclueded it will override boxwidth= or float=.
+|-
+| &#124; || name || = || custom item name; default = page name
+|-
+| &#124; || namesub || = || custom item name, displays below name
+|-
+| &#124; || image || = || inventory image; default = name.png (also used for sets)
+|-
+| &#124; || imagefemale || = || female equipped variant; default = name female.png
+|-
+| &#124; || imageplaced || = || placed image; default = name (placed).gif; if no GIF exists, default = name (placed).png
+|-
+| &#124; || imageequipped || = || equipped image; default = name (equipped).gif; if no GIF exists, default = name (equipped).png
+|-
+| &#124; || imagebreak || = || if yes, placed/equipped image is pushed to a new line below the inventory image; default = no
+|-
+| &#124; || type || = || eg. Weapon, Tool, Furniture, etc.
+|-
+| &#124; || type2 || = || secondary type; =Set for armor and vanity sets
+|-
+| &#124; || damage || = || damage inflicted per hit
+|- valign=top
+| &#124; || damageraw || = || deprecated; use "data-sort-type=number" in Damage column header instead;<br/>
+(was used if damage had icons and/or formatting, to give an unformatted number for use in sorting lists)
+|-
+| &#124; || damagetype || = || melee, ranged, magic, summon, or rogue
+|-
+| &#124; || auto || = || yes, if weapon/item [[autoswing]]s/autofires by holding the use key/button
+|-
+| &#124; || defense || = || defense provided
+|-
+| &#124; || bonus || = || 
+|-
+| &#124; || setbonus || = || for armor sets, where type2 = Set
+|-
+| &#124; || pick || = || pickaxe power, without "%"
+|-
+| &#124; || pickreq || = || required pickaxe power, without "%"
+|-
+| &#124; || axe || = || axe power, without "%"
+|-
+| &#124; || hammer || = || hammer power, without "%"
+|-
+| &#124; || bait || = || [[bait]] power, without "%"
+|-
+| &#124; || knockback || = || [[knockback]] inflicted per hit, if more than one value needed, you should wrap the values with {{tl|kb}}, e.g. <nowiki>{{kb|7.5}}/{{kb|6}}</nowiki>
+|-
+| &#124; || placeable || = || yes/no
+|-
+| &#124; || width || = || width when placed, tiles
+|-
+| &#124; || height || = || height when placed, in tiles
+|-
+| &#124; || mana || = || [[mana]] cost per use
+|-
+| &#124; || mregen || = || mana regeneration
+|-
+| &#124; || mheal || = || mana heal
+|-
+| &#124; || life || = || [[health]] (life) cost per use
+|-
+| &#124; || lregen || = || health regeneration
+|-
+| &#124; || hheal || = || health heal
+|-
+| &#124; || tooltip || = || Tooltip
+|-
+| &#124; || velocity || = || velocity of fired projectiles
+|-
+| &#124; || velocitymult || = || '''for ammunition only''', the multiplier this type of ammunition applies to the weapon it's used for
+|-
+| &#124; || extraupdates || = || the extra updates applied to the projectiles from the weapon, will calculate effective velocity automatically
+|-
+| &#124; || critical || = || if no value is entered and the main Type is "Weapon", a default value of 4% is displayed
+|-
+| &#124; || body slot || = || 
+|-
+| &#124; || use || = || [[use time]]
+|-
+| &#124; || reach || = || reach in tiles, for [[yoyos]]
+|-
+| &#124; || attduration || = || attack duration in seconds, for [[yoyos]]
+|-
+| &#124; || toolspeed || = || 
+|-
+| &#124; || tool || = || tool used to free this item if in its placed form (this field is somewhat deprecated)
+|-
+| &#124; || buff / buff2 || = || buff provided
+|-
+| &#124; || bufflink / bufflink2 || = || no: when buff doesn't have it's own page
+|-
+| &#124; || duration / duration2 || = || buff duration
+|-
+| &#124; || bufftip / bufftip2 || = || buff tooltip 
+|-
+| &#124; || debuff / debuff2 || = || debuff provided
+|-
+| &#124; || debufflink / debufflink2 || = || no: when debuff doesn't have it's own page
+|-
+| &#124; || debuffduration / debuffduration2 || = || debuff duration
+|-
+| &#124; || debuffchance / debuffchance2 || = || debuff chance
+|-
+| &#124; || debufftip / debufftip2 || = || debuff tooltip 
+|-
+| &#124; || stack || = || max quantity of this item that can be stacked in a single inventory slot; defaults to 1 for all items
+|-
+| &#124; || color || = || map color for tiles in hex format e.g. #ffff00
+|-
+| &#124; || rare || = || [[rarity]] value, eg. '1' for Blue, '2' for Green, 'd' for Dark Red (donator), 'q' for Amber (quest), 'rainbow' for [[Expert Mode|expert]]-exclusive. 
+|-
+|valign=top| &#124; ||valign=top| buy ||valign=top| = || buy value in [[coins]], enter using the value template ({{tl|value}})<br/>
+Placing // within either the sell value or buy value will return separate lines for Buy and Sell.
+|-
+| &#124; || sell || = || sell value in [[coins]], also enter using coin templates
+|-
+| &#124; || consumable || = || true: (found in source code) leaves player's inventory with {{key|use}}, includes placeable items
+|-
+| &#124; || listcat || = || a supplemental category name to include the current item in a DPL list, eg. "arrows" causes the item to display at [[Arrows]]
+|-
+| &#124; || listcat2 ... listcat5 || = || identical to listcat: an additional supplemental category name
+|-
+| &#124; || listexclude || = || yes, to exclude the current template from DPL lists
+|-
+| &#124; || hardmode || = || yes, for items that only become available in [[Hardmode]] worlds
+|-
+| &#124; || postml || = || yes, for items that only become available after the [[Moon Lord]] is defeated
+|-
+| &#124; || image2 || = || adds an image at the bottom of the infobox
+|-
+| &#124; || image2caption || = || adds a caption for the bottom image
+|-
+| &#124; || proj || = || adds an image of a projectile fired by the weapon
+|-
+| &#124; || projcaption || = || adds a caption for the projectile image
+|-
+| &#124; || sound || = || adds a sound made by the item
+|-
+| &#124; || soundtext || = || adds a label to the sound
+|-
+| colspan=10 | <nowiki>}}</nowiki>
+|}
+
+<includeonly>
+[[Category:Infobox templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

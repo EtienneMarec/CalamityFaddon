@@ -1,0 +1,30 @@
+{{Historical content}}
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = C2
+| color = #00FF00
+| sell = {{value|0|0|3}}
+| use = 14
+| tooltip = Contains Acid Energy.
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+'''Reinforced Acidplate''' is a craftable post-[[Purgatory Arbiter, Umbrus]] [[block]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Plates}}
+{{Ctota}}

@@ -1,0 +1,44 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = melee
+| tooltip = Left Click to swing, Right click to stab
+| damage = 2400
+| critical = 30%
+| knockback = 6.5
+| rare = C2
+| sell = {{value|0|75}}
+| use = 20
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| velocity = 50
+| debuff = Evercold
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| element1 = Cold
+| element2 = Water
+| element3 = Dark
+}}
+|{{item drops infobox
+| [[Esserwyrm]] |1|20%
+}}
+}}
+'''Cutter's Gift''' is a post-[[Purgatory Arbiter, Umbrus|umbrus]] [[Broadsword]] that is either crafted or dropped from the [[Esserwyrm]]. Its main attack (left click) Swings the sword leaving 4-pointed stars that stay for 3 seconds, they deal 80% of normal damage but inflict the [[Evercold]] debuff. Its secondary attack (right click) has 2 times slower speed. It points the sword to the given direction and launches a shockwave. The shockwave deals 200% of the weapon's damage, the sword deals 130% of it, but inflicts the Evercold debuff.
+
+
+== Crafting == 
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

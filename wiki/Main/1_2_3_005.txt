@@ -1,0 +1,72 @@
+{{Patch infobox
+| image = Wulfrum Pickaxe (1.2.3.005).png
+| patchname = Death Mode Boss Additions
+| release = 11/30/2017
+}}
+
+The '''1.2.3.005''' update reworked some bosses in [[Death Mode]], renamed most of the mod's [[Bars]], and added extra [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist] support for when bosses were killed in Death Mode.
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+*Added [[Wulfrum Pickaxe]].
+
+== Changes ==
+
+=== [[Bosses]] and [[Enemies]] ===
+*The [[Astrum Deus]] worms are now much faster, shoot more lasers, and have faster lasers in Death Mode.
+*[[Brain of Cthulhu]] now gains a {{death|1.25x}} damage modifier in Death Mode, and [[Creeper]]s now spawn every {{dv|0|0|3rd|1st}} time the Brain of Cthulhu teleports in Revengeance and Death Mode.
+*[[Bumblebirb]] now charges more often, and spawns more clones midair in Death Mode.
+*[[Crab Shroom]]s no longer produce dust idly.
+*The Destroyer's [[Probe]]s now gain a {{death|1.25x}} health modifier, a {{death|1.25x}} damage modifier, and a {{death|1.2x}} size modifier in Death Mode.
+*The Destroyer's lasers can now go through tiles if a tile is between it and the player in Revengeance and Death Mode.
+*[[The Devourer of Gods]] now switches phases twice as often in both phases in Death Mode.
+*[[Eater of Worlds]]' head now gains a 1.85x damage modifier, and its body and tail segments gain a 1.5x damage modifier.
+*[[Jungle Dragon, Yharon]] can now spawn an extra infernado in Death Mode.
+*[[The Perforator Hive]] now rapidly shoots blood geysers in Death Mode that go through tiles.
+*[[Polterghast]]'s phantom shots now penetrate 4 times in Death Mode, but now only penetrate twice in every other mode instead of 4 times in all modes.
+*[[Providence, the Profaned God]] now has a different order of attacks in Death Mode.
+*Buffed [[Skeletron]]'s hands' health modifier in Death Mode from {{death|1.3x}} to {{death|1.4x}}, and their health modifier in every other mode from 1.15x to 1.2x.
+*[[Skeletron Prime]]'s head now fires bursts of lasers going in random directions if the Prime Laser is killed in Death Mode.
+*[[Storm Weaver]]'s second phase now lowers its segment count to 12 in Death Mode.
+*Storm Weaver's second phase now always chases the player in Death Mode.
+*Reduced the amount of brimstone skulls [[Supreme Calamitas]] creates in the final bullet hell.
+*[[The Twins]] now enter their second phases much earlier in Death Mode.
+*Nerfed [[Wulfrum Drone]]'s health from {{dv|60|84}} to {{dv|35|49}}, and its damage from {{dv|25|35|43|52}} to {{dv|20|28|35|42}}.
+*Nerfed [[Wulfrum Slime]]'s health from {{dv|32|44}} to {{dv|20|28}}, and its damage from {{dv|16|22|27|33}} to {{dv|13|18|22|27}}.
+
+=== Items ===
+*Nerfed [[Blood Clot Staff]]'s damage from 9 to 7.
+*Increased the speed of [[Cosmilamp]]'s cosmic lantern minions, and reduced the size of their dust.
+*Renamed Cruptix Bar to [[Chaotic Bar]].
+*Renamed Cryo Bar to [[Frigid Bar]].
+*Nerfed [[Dank Staff]]'s damage from 9 to 7.
+*Renamed Draedon Bar to [[Perennial Bar]].
+*Buffed [[Flare Bolt]]'s damage from 20 to 23.
+*The [[Frog Leg]] can now be crafted with 10 [[Frog]]s at a pre-Hardmode [[Anvil]].
+*Nerfed the damage of [[Fungicide]]'s split projectiles by 50%.
+*Renamed Meldiate Bar to [[Meld Bar]].
+*Renamed Not Viable to [[Viable?]].
+*Buffed Viable?'s damage from 570 to 700.
+*The [[Reaver Shark]] can now be swung in Revengeance Mode after [[Eater of Worlds]] or [[Brain of Cthulhu]] has been defeated instead of [[Skeletron]].
+*Renamed Ueliace Bar to [[Uelibloom Bar]].
+*Renamed Verstaltite Bar to [[Cryonic Bar]].
+
+=== Other ===
+*Bosses now have a separate Death Mode check in the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist] mod's boss checklist.
+*[[Extreme Gravity]] now sets wing time to 100 if the player's wing time is over 400.
+
+=== Resprites ===
+*Resprited [[Mechworm (buff)|Mechworm buff]].
+*Resprited [[Soul Harvester]].
+
+== Fixes ==
+*Fixed a sheeting error on [[Cloud Elemental]].
+*Fixed a multiplayer desync bug with [[Death]] and [[Revengeance]].
+*Fixed a sheeting error on [[Wulfrum armor]].
+*Fixed a sheeting error on Wulfrum Slime.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

@@ -1,0 +1,40 @@
+{{npc infobox
+| type = Enemy
+| ai = Phantom Debris AI
+| environment = Underground
+| life = {{dv|120|240}} (pre-[[Moon Lord]])<br/>{{dv|1600|3200}} (Godseeker Mode)
+| damage = {{element|Dark}} {{dv|30|60}} (pre-[[Moon Lord]])<br/>{{element|Dark}} {{dv|60|120}} (Godseeker Mode)
+| defense = 20
+| dr = 10%
+| knockback = 100
+| banner = yes
+| debuff = War Cleave
+| duration = 2 seconds
+| debuffchance = 100%
+| debufftip = Defense and protection reduced
+| money = {{sc|2}}
+| immune1 = Kami Flu
+| hardmode = yes
+| Ancient Bone Dust| 1 | 100%
+| custom| {{item|Phantoplasm|note=(Godseeker Mode)|wrap=y}}|100%
+| hurt = NPC_Hit_2.wav
+| killed = NPC_Killed_36.wav
+| vulnerable1 = Holy
+| vulnerable2 = Fire
+| vulnerable3 = Stab
+| vulnerable4 = Water
+| resistant1 = Dark
+| resistant2 = Poison
+}}
+
+The '''Phantom Debris''' is a [[Hardmode]] [[enemy]] that spawns in the [[Underground]] layer and resembles a [[tgc:Ambient objects|background rock]]. It initially moves very quickly, but slows down noticeably the closer it gets to the player. It constantly emits a magenta glow, allowing it to be easily seen in dark caves.
+
+After [[Moon Lord]] is defeated, its stats are buffed and it begins dropping [[Phantoplasm]], a versatile [[crafting material]].
+
+== Trivia ==
+*It is one of two enemies which can drop Phantoplasm that spawn in the Cavern layer, the other being the [[Overloaded Soldier]]. This is unlike the other [[Phantom Spirit|phantoplasmic creatures]] which are found in the [[Dungeon]].
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

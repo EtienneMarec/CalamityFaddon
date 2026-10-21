@@ -1,0 +1,45 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 45
+| mana = 10
+| knockback = 2
+| use = 25
+| tooltip = Summons an onyx fist to punch enemies for you
+| buff = Onyx Fist (buff) | bufflink = no
+| rare = 5
+| sell = {{value|0|6}}
+| stack = 1
+| research = 1
+| auto = yes
+| hardmode = yes
+| sound = Item 104.wav
+| soundtext = Use
+| sound2 = Dd2 wyvern dive down 0.wav, Dd2 wyvern dive down 1.wav, Dd2 wyvern dive down 2.wav
+| sound2text = Dive
+| sound3 = Item 74.wav
+| sound3text = Punch
+| element1 = Dark
+| element2 = Smash
+}}
+{{summoned|Onyx Fist|type=minion}}
+
+The '''Jet Engine''' is a craftable [[Hardmode]] [[summon weapon]]. When used, it summons a large floating fist. When a target is nearby, the fist charges into its target and rebounds upon hitting. If the target is over 75 tiles away, the fists teleports towards its target.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result=Jet Engine}}
+
+=== Used in ===
+{{recipes|ingredient=Jet Engine}}
+
+== Trivia ==
+*The item's name is a pun on real life jet engines used for aircrafts as well as the [[wikipedia:Jet (gemstone)|jet]] mineraloid.
+{{onyx}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

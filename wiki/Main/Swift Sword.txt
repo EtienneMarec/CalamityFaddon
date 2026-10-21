@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = Melee
+| tooltip = Deals more damage the faster you are moving<br/>Increases your movement speed on kill<br/>Some demented esoteric enjoyers pretend that pocket dimensions exist. They never explain what it means, though.
+| damage = 32
+| knockback = 3
+| rare = 9
+| sell = {{value|0|0|10}}
+| use = 10
+| buff = Swiftness | bufflink = no
+| duration = 5 seconds (Enemy kill)
+| bufftip = 25% increased movement speed
+| element1 = Holy
+| element4 = Slash
+}}
+}}
+
+The '''Swift Sword''' is a [[Hardmode]] [[broadsword]] that can be purchased after giving its [[Blueprint]] to the [[Collector]]. Upon killing an enemy, the player will receive the Swiftness buff for 10 seconds. Additionally, its damage can increase up to 80% and its critical strike chance up to 30%.
+
+{{modifier|melee}}
+
+== Notes ==
+*The [[Blueprint]] for this item is obtained rarely from killing [[Puff enemies]] with an [[Aspect of the End]].
+*This weapon synergizes well with items that dramatically boost mobility such as the [[Angel Treads]].
+**However, due to a bug on the current patch, the speed boost mechanic does not work at all and is always scaled as if the player were standing still.
+
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]

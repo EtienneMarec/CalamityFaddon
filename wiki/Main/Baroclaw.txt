@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Tool
+| stack = 1
+| damage = 15
+| element = Poison
+| element2 = Water
+| element1 = Unholy
+| tooltip = 10 defense<br/>Press {{key|Baroclaw}} to summon two large claws that drag the nearest enemy inwards<br/>Enemies held by the claws remain trapped for 5 seconds
+| rare = 1
+| sell = {{value|0|0|30}}
+}}
+|{{item drops infobox
+| [[Barocrab]] | 1 | 50%
+| [[Barocraw]] {{fantag|Deimos, the Starborn Princess}} | 1 | 12.5%
+}}
+}}
+[[File:Baroclaw (demo).gif|frame|Baroclaws being used to grab a [[Super Dummy]] then grabbing a second one after the first is despawned.]]
+
+The '''Baroclaw''' is a craftable Pre-[[Hardmode]] [[weapon]] and [[covering]] that is also dropped by [[Barocrab]]s and [[Barocraw]]s {{fantag|Deimos, the Starborn Princess}}. While equipped, defense is increased by 10. Pressing the {{key|Baroclaw}} key or manually using the item causes two large claws to appear near the player's cursor. The claws will then grab a nearby enemy and pull them inwards to where the claws were originally summoned, holding them in place. After five seconds, the claws despawn and the enemy is freed.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Baroclaw is an exceptionally powerful covering as it can render certain bosses such as the [[Eye of Cthulhu]] and [[Desert Scourge]] powerless as the grip prevents them from charging.
+*Enemies that can't be targeted by minions cannot be grabbed by the claws.
+*Enemies that can teleport will still be able to briefly teleport out of the claws' grip, but will usually be dragged in again almost immediately after.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

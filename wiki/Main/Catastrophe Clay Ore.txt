@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| use = 14
+| rare = 5
+| value = 210
+| color = #a38039
+| sell = {{value|0|0|5|0}}
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Catastrophe]] | 10-26| 100%
+| [[Supreme Catastrophe]] | 100-260| 100%
+}}
+}}
+
+'''Catastrophe Clay Ore''' is a [[Hardmode]] [[Ores|ore]] which generates in the [[Brimstone Crag]] after defeating [[Calamitas]]. It can be mined with a [[Titanium Pickaxe]] or [[Adamantite Pickaxe]] and is used to craft Catastrophic soul-themed weaponry. It is also dropped by [[Catastrophe]] and [[Supreme Catastrophe]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Catastrophe Clay}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

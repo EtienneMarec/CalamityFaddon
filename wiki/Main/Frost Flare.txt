@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| image = Frost Flare.gif
+| type = Covering
+| type2 = Crafting material
+| stack = 1
+| tooltip = All melee attacks and projectiles inflict frostburn<br/>Immunity to frostburn, chilled, and frozen<br/>Being above 75% life grants 10% increased damage<br/>Being below 25% life grants 20 defense and 15% increased max movement speed and acceleration<br/>Grants resistance against cold attacks
+| rare = 5
+| sell = {{value|0|4|80}}
+| hardmode = yes
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 2, 4, or 6 seconds (Melee attacks)
+}}
+|{{item drops infobox
+| [[Cryogen]]|1|20%
+}}
+}}
+{{distinguish|Frosty Flare|a [[Spy weapon]] sold by the [[Archmage]]}}
+
+The '''Frost Flare''' is a [[Hardmode]] [[covering]] dropped by [[Cryogen]].
+
+When equipped, all of the player's melee attacks and melee projectiles inflict the [[Frostburn]] debuff to enemies. It also grants immunity to [[Frostburn]], [[Chilled]], and [[Frozen]], as well as reducing damage from "cold attacks". Additionally, it provides a minor boost to offensive stats at high health and significant boosts to [[defense]] and mobility at low health.
+
+Like the [[Warmth Potion]], this covering reduces damage from all enemies and projectiles that can inflict the [[Chilled]] [[debuff]] by 30%. This is calculated separately from and is applied before defense and damage reduction calculations. This makes the Frost Flare extremely effective for farming [[Cryogen]] after the first kill and has significant benefits for the [[Frost Moon]] event.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*There is a 25% chance for Frostburn to be inflicted for 6 seconds, a 37.5% chance to be inflicted for 4 seconds, and a 37.5% chance to be inflicted for 2 seconds.
+*The cold resistance granted by this covering does not stack with the [[Warmth]] or the [[Molten]] [[buff]]s.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

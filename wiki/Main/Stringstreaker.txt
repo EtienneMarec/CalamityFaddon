@@ -1,0 +1,33 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| damage = 1200
+| damagetype = Ranged
+| knockback = 0
+| use = 24
+| velocity = 34
+| tooltip = creates 2 lines and fires very fast bullets on them
+| rare = C3
+| sell = {{value|2}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Stab
+| element2 = Dark
+}}
+The '''Stringstreaker''' is a craftable Epilogue [[gun]] that is the direct upgrade to the [[Auralis]]. It creates 2 lines that deal 1200 damage per second, it peridically fires bullets on those line, the bullets deal 1800 damage
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

@@ -1,0 +1,73 @@
+<section begin="npc" infobox="" />{{npc infobox
+| name = Fatal Circuit
+| type = Boss
+| imagealt = [[File:Brain_guy.png]]
+| ai = Fatal Circuit AI
+| environment = 
+| environment2 = 
+| life = {{dv|150,000|225,000|300,000}}
+| damage = '''Contact: '''240 / {{revengeance|480}}<br/>'''Homing Hand: '''{{dv|150|225|300|375}}<br/>'''{{element|Magic}} Lightning Bolts: '''{{dv|100|150|200|250}}
+| money = {{gc|75}}
+| debuff = Bleeding
+| debufftip = Cannot Regenerate Life
+| debuffchance = 30% / {{Revengeance|100%}}
+| duration = 5 seconds (Contact)
+| debuff2 = War Cleave
+| debufftip2 = Defense and protection reduced
+| debuffchance2 = 100%
+| duration2 = 3 / {{Revengeance|6}} seconds (Homing Hand)
+| debuff3 = Noctactricity
+| debufftip3 = Youve been Electrified with supreme powers
+| debuffchance3 = 100%
+| duration3 = {{Death|1}} seconds (Lightning Bolts)
+|| image2 = Robothead.png
+| image2caption = Map Icon
+| hardmode = yes
+| boxwidth = 24em
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_56.wav
+| vulnerable1 = Stab
+| vulnerable2 = Water
+| vulnerable3 = Fire
+| resistant1 = Acid
+| resistant2 = Radioactive
+| resistant3 = Poison
+| resistant4 = Machine
+}}<section end="npc" infobox="" />
+The '''Fatal Circuit''' (Japanese: 催眠術にかかった魔女パンドラ ''Chimei-tekina kairo'') is a [[tgc:Hardmode|Hardmode]] [[Bosses|boss]] that can be fought after [[Plantera]] has been defeated. 
+
+Defeating the Fatal Circuit causes [[Aegisalt Ore]], [[Ferozium Ore]], and [[Violium Ore]] to generate in the Ice biome.
+
+== Spawn ==
+The Fatal Circuit does not spawn on its own, instead requiring the player to summon it with an [[Inactive Robot Head]] while inside the Fatal Circuit's unique laboratory arena.
+
+== Behavior ==
+The Fatal Circuit has two phases, the second phase beginning when its health is lowered to 50 / {{Revengeance|65%}} .
+
+In its first phase, its behavior is relatively simple, as its attacks mainly consist of predictive horizontal dashes. However, in its second phase, the Fatal Circuit gains the ability to shoot its hands out as homing projectiles, as well as firing a heavily damaging lightning bolt from its brain. 
+
+=== In [[Revengeance Mode]] ===
+
+* Deals increased contact damage.
+* Fires lightning bolts more frequently.
+* Dashes are more accurate.
+
+=== In [[Death Mode]] ===
+
+* Moves faster.
+* Fires lightning bolts even more frequently.
+* Hand projectiles follow for longer.
+* Lightning bolts are more accurate and now inflicts [[Noctactricity]].
+
+== Aftermath ==
+
+* Once the Fatal Circuit is defeated for the first time, Aegisalt Ore, Ferozium Ore, and Violium Ore spawn in the Underground Ice biome.
+* The entrance to [[Pot of Pain]] is unlocked in the [[Jungle Temple]].
+* The [[Town NPCs|Cyborg]] will begin selling the [[Perfectly Generic Object]].
+
+== Trivia ==
+
+* The [[Bestiary]] entry for the Fatal Circuit: “The greatest shame of Draedon's engineering career. A cheaply-made robotic shell designed for autonomous battle, powered by an artificial brain of deeply questionable quality.”
+* The Fatal Circuit's theme is '''[https://www.youtube.com/watch?v=8foBSDv0lVk The Ruin]''', which was composed by Curtis Schweitzer.
+* If the Boss Checklist Mod is installed, its unique despawn message will be "The Fatal Circuit returns to a state of inactivity..."
+* In [[tgc:Get_fixed_boi|Zenith seed]] worlds, the Fatal Circuit has a 5% chance to spawn in place of the [[Eye of Cthulhu]] when a [[Suspicious Looking Eye]] is used.

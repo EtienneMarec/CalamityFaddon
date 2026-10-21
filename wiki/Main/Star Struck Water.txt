@@ -1,0 +1,29 @@
+{{item infobox
+| type = Weapon
+| damage = 20
+| critical = 0%
+| use = 14
+| knockback = 3
+| velocity = 14
+| stack = 9999
+| rare = 3
+| sell = {{value|0|0|0|40}}
+| tooltip = Spreads the astral infection to some blocks
+| consumable = true
+| hardmode = yes
+| element1 = Magic
+| element2 = Water
+}}
+
+The '''Star Struck Water''' is a craftable [[Hardmode]] consumable [[classless weapon]] that acts as the [[Astral Infection]] variant of the [[Thrown Water]]. When thrown, it converts a small, square-shaped area with a radius of five blocks from the center into the Astral Infection. Directly striking an enemy also deals a small amount of typeless damage.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

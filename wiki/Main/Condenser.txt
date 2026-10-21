@@ -1,0 +1,30 @@
+{{item infobox
+| type = Furniture
+| type2 = Crafting station
+| placeable = Yes
+| auto = yes
+| width = 2
+| height = 4
+| stack = 9999
+| use = 14
+| tooltip = Used for Condensation
+| consumable = Yes
+| rare = 0
+| color = #BH8E6F
+| sell = No value
+| hardmode = no
+}}
+
+The '''Condenser''' is a Pre-Hardmode [[crafting station]] used to condense various materials.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used to craft ===
+{{ajax|Recipes/Condenser|width=40%}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:瘟疫灌注器]]

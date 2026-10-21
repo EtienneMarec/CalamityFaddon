@@ -1,0 +1,36 @@
+{{expert mode only}}
+{{Historical content}}
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Taking damage drops astral stars from the sky<br/>Provides immunity to the astral infection debuff
+| rare = rainbow
+| sell = {{value|0|19}}
+| stack = 1
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 2 seconds (Astral stars)
+| hardmode = yes
+| proj = Astral Star.png
+| projcaption = Astral Star
+| listexclude = yes
+}}
+|{{item drops infobox
+| [[Astrum Deus]]|1|{{expert|100%}}
+}}
+}}
+
+The '''Astral Bulwark''' was a [[Hardmode]], [[Expert Mode]]-exclusive [[covering]] obtained from the [[Treasure Bag]] dropped by [[Astrum Deus]], which caused five stars to drop from the sky when the player is hit. It also granted immunity to the [[Astral Infection (debuff)|Astral Infection]] [[debuff]], which is inflicted by enemies in the [[Astral Infection]] biome.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}|historical=only}}
+
+{{-}}
+{{historical}}
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}

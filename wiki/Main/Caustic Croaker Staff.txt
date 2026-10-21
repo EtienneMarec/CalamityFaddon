@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 8
+| mana = 10
+| knockback = 0
+| use = 34
+| tooltip = Summons a toad that explodes if enemies are nearby
+| stack = 1
+| auto = yes
+| rare = 2
+| sell = {{value|0|0|40}}
+| proj = Nuclear Toad Gores.png
+| projcaption = Nuclear Toad Gores
+| element1 = Radioactive
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Nuclear Toad]] | 1 | 5% (Tier 1)<br/>1% (Tiers 2 & 3)
+}}
+}}
+{{summoned|Nuclear Toad (sentry)|type=sentry}}
+{{distinguish|Caustic Staff|a [[Hardmode]] [[minion]]-summoning [[summon weapon|weapon]]}}
+
+The '''Caustic Croaker Staff''' is a [[Pre-Hardmode]] [[sentry]] that drops from [[Nuclear Toad]]s. It summons a miniature white Nuclear Toad sentry that stays on the ground. It attacks enemies by exploding itself into nine damaging chunks.
+
+{{Modifier|summonalt}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Nuclear Toad sentry is named 'A not frog of the explosive variety'.
+**In the mod's source files, the sentry is referred to as 'EXPLODINGFROG'.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

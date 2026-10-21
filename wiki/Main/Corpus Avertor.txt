@@ -1,0 +1,46 @@
+{{dedicated|breadcrumbs|Patreon Donator}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = Rogue
+| tooltip = Seems like it has worn down over time<br/>Attacks grant lifesteal based on damage dealt<br/>The lower your HP the more damage this weapon does and heals the player on enemy hits<br/>Stealth strikes throw a single rainbow outlined dagger<br/>On enemy hits, this dagger boosts the damage and life regen of all members of your team<br/>However, there is a small chance it will cut your health in half instead
+| damage = 98
+| knockback = 3
+| rare = 8
+| sell = {{value|0|16}}
+| use = 14
+| hardmode = yes
+| velocity = 8.5
+| buff =  Avertor Bonus | bufflink = no
+| duration = 20 seconds
+| bufftip = Boosted damage and life regeneration
+| element1 = Unholy
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Ravager]]|1|5%
+}}
+}}
+
+The '''Corpus Avertor''' is a [[Hardmode]] [[rogue weapon]] exclusive to Expert Mode, that drops from the [[Ravager]]. When used, a translucent black knife is thrown that creates smaller homing red knives as it travels. The red knives pass through blocks, only deal 40% of the Corpus Avertor’s base damage, and [[Lifesteal|heal]] the player for 5% of their damage.
+
+10% of the player's missing health is added to the weapon's base damage.
+
+Performing a [[stealth strike]] with the Corpus Avertor throws a translucent rainbow knife that doesn't create smaller knives and deals 350% damage but has a 1 in 7 chance to cut the player's health in half upon hitting an enemy.
+
+{{modifier|rogue}}
+
+== Tips ==
+*This weapon has incredible synergy with the [[Blood Pact]], as the doubled max hp allows for much more hp to be missing, greatly empowering the weapon.
+
+== Trivia ==
+*If the player is killed by the the stealth strike's self-damage, the death message ''"<PlayerName> became the blood god's sacrifice."'' will display.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Healing items]]
+[[Category:Daggers]]

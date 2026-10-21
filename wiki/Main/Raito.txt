@@ -1,0 +1,30 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 200
+| knockback = 4
+| critical = 10%
+| rare = 9
+| sell = {{value|0|30}}
+| stack = 1
+| use = 12
+| tooltip = Legendary sword of the heavens
+| auto = yes
+| hardmode = yes
+| element1 = Magic
+| element2 = Slash
+}}
+
+The '''Raito''' is a true melee weapon that is an upgrade to the [[Excalibur]] crafted using [[Astral Bar|Astral Bars]]. It is considered to be one of the best post-[[Astrum Aureus]] melee weapons.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]

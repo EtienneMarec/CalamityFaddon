@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 75
+| knockback = 3.75
+| velocity = 10
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| tooltip = Casts a barrage of blood geysers from below
+| auto = yes
+| use = 22
+| mana = 14
+| hardmode = yes
+| element1 = Unholy
+| element2 = Dark
+}}
+|{{item drops infobox
+| [[Ravager]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Hematemesis''' is a [[Hardmode]] [[wand]] dropped by the [[Ravager]]. It fires 10 wall-piercing bolts that move upwards at a high speed near the player's mouse cursor. These bolts appear off-screen and do not pierce enemies.
+
+{{Modifier|magic}}
+
+== Trivia ==
+*The word "Hematemesis" means someone vomiting their blood.
+*If the player has the "Blood and Gore" [[tgc:Setting|setting]] turned off, the projectiles will look like clouds instead of blood.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

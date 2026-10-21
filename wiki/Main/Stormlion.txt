@@ -1,0 +1,39 @@
+{{npc infobox
+| type = Enemy
+| environment = Underground Desert
+| ai = Fighter AI
+| damage = {{dv|20|40}}
+| life = {{dv|80|160}}
+| defense = 8
+| knockback = {{dv|80%|82%}}
+| debuff = Electrified
+| debuffchance = 100%
+| debufftip = You cannot move
+| duration = 1.5 seconds
+| banner = yes
+| immune1 = Kami Flu
+| immune2 = Electrified
+| resistant1 = Electricity
+| vulnerable1 = Machine
+| money = {{sc|2}}
+| Stormlion Mandible|1| 100% (pre-[[Desert Scourge]])<br/>50% (post-[[Desert Scourge]])
+| Stormjaw Staff|1| 20%
+| hurt = NPC_Hit_31.wav
+| killed = NPC_Killed_34.wav
+}}
+
+The '''Stormlion''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Underground Desert]]. It walks towards the player relatively slowly in an attempt to do damage, and inflicts the [[Electrified]] [[debuff]] on contact.
+
+It can drop a [[Stormlion Mandible]], which is necessary to craft the [[Desert Medallion]], as well as the [[Storm Surge]].
+
+== Notes ==
+*Despite having improved stats compared to [[Antlion Charger]]s, it moves noticeably slower, lacking the chargers' potentially devastating acceleration.
+
+== Trivia ==
+*In the mod's source files, the Stormlion is referred to as "Stormlion Charger", a reference to Antlion Chargers which they are based on.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

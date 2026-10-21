@@ -1,0 +1,49 @@
+{{dedicated|Inascet|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 2250
+| critical = 39%
+| knockback = 9.5
+| use = 55
+| tooltip = Pierce the heart of even the most heavily-armored foe<br/>Fires a .70 caliber sniper round that bypasses enemy defense and DR<br/>Rounds mark enemies for death and summon a swarm of additional bullets on crits
+| velocity = 12
+| stack = 1
+| auto = yes
+| rare = 15
+| sell = {{value|0|30}}
+| debuff = Marked
+| debuffchance = 100%
+| debuffduration = 10 seconds (Main Bullet)
+| debufftip = Damage reduction reduced
+| hardmode = yes
+| postml = yes
+| element1=  Holy
+| element2 = Stab
+}}
+
+The '''Tyranny’s End''' is a craftable Godseeker Mode [[gun]] that is the upgrade of the [[Anti-materiel Rifle]] and the final upgrade of the [[Sniper Rifle]]. It always fires a high-damage [[High Velocity Bullet]] regardless of the [[bullet]] used. If the initial shot critically strikes, a swarm of ten bullets arrive from the left and right of the enemy, enclosing on the enemy’s position. Holding right-click will use its zoom ability, which scrolls the viewing area of the screen in the direction of the cursor in a similar fashion to its predecessors.
+
+Bullets fired from the Tyranny's End inflict the [[Marked]] [[debuff]] onto enemies, decreasing their damage reduction by 50%; in addition, they will also bypass enemy [[defense]] if it is less than 1000, and bypass enemy [[damage reduction]] if it is less than 95%.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*It is recommended to focus on critical strike chance bonuses if you use the Tyranny's End, as critical strikes will greatly increase its DPS.
+**When paired with end-game armor such as [[Auric Tesla armor]], its critical strike chance can easily surpass 80%, not including accessories. 
+
+== Trivia ==
+*The phrase "Rounds mark enemies for death" in the tooltip likely references the old name of the Marked debuff, "Marked for Death".
+{{-}}
+{{auric}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

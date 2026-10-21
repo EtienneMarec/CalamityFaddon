@@ -1,0 +1,31 @@
+{| width="100%"
+|<span class="ajaxHide">
+{{main|Potion}}
+</span>
+This is a list of potions that restore the player's health/mana:
+|}
+
+{| class="terraria lined"
+! style="padding: 5px" width = "10%" colspan = 2 | Potion
+! width = "65%" | Tooltip
+! Heals Health
+! Heals Mana
+{{#dpl:
+| namespace =
+| uses = Template:Item infobox
+| category = Potion items
+| category = Healing items
+| include = {item infobox¦/dpl}
+| mode = userformat
+| ordermethod = titlewithoutnamespace
+}}
+|}
+
+{| width = "100%"
+|<span class = "ajaxHide">
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}</span>
+|}
+[[Category:Potion items]]

@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 225
+| use = 9
+| mana = 10
+| knockback = 3
+| tooltip = Summons a frigid entity with a head<br/>If the entity already exists, using this item again will cause it to gain more heads
+| buff = Endo Hydra (buff) | bufflink= no
+| bufftip = The endo hydra will protect you… for some reason
+| rare = 14
+| sell = {{value|0|50}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| element1 = Cold
+}}
+{{summoned|Endo Hydra|type=minion}}
+
+The '''Endo Hydra Staff''' is a craftable Godseeker Mode [[summon weapon]] that is an upgrade to the [[Staff of the Frost Hydra]]. It summons a single-headed Endo Hydra at the back of the player, with each resummon consuming one additional minion slot for an extra head. The Endo Hydra itself stays at the back of the player, while the heads fire beams at nearby enemies.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+
+== Trivia ==
+*Summoning the Endo Hydra while the player has no free minion slots will cause only the Endo Hydra body to spawn.
+*This weapon can be seen as a counterpart of the [[Corvid Harbinger Staff]], as the two summon weapon's recipes contain post-[[Plantera]] items and have similar [[Crafting materials]].
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

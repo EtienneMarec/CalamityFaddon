@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 53
+| mana = 10
+| knockback = 2
+| use = 24
+| tooltip = Summons a flying orthocera sentry at the mouse position
+| debuff = Venom
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|7|20}}
+| element1 = Poison
+| element2 = Unholy
+| element3 = Unholy
+| element4 = Unholy
+}}
+|{{item drops infobox
+| [[Orthocera]] | 1 | 5%
+}}
+}}
+{{summoned|Flying Orthocera|type=sentry}}
+
+The '''Orthocera Shell''' is a [[Hardmode]] [[sentry]] that drops from [[Orthocera]]s. It summons a stationary flying Orthocera sentry that shoots streams of acid at nearby enemies. The acid streams pierce up to two enemies along with inflicting the [[Venom]] [[debuff]].
+
+{{Modifier|summon}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

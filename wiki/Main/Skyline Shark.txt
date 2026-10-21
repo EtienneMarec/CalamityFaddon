@@ -1,0 +1,29 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{npc infobox
+| environment = Sky Abyss
+| type = Aquatic
+| ai = Skyline Shark AI
+| damage = {{dv|220||440}} (contact) {{dv|||200}} (hands)
+| life = {{dv|22,000||30,000}}
+| defense = 120
+| knockback = 50%
+| debuff = Evercold
+| debuffchance = 100%
+| duration = 10 seconds
+| immuneall = yes
+| money = {{value|0|20}}
+| Skylac Stone |2-5| 100%
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+The '''Skyline Shark''' is a post-[[Umbrus]] [[Enemies|enemy]] that spawns in the Upper Layer of the [[Sky Abyss]]. It prioritises attacking small fish over the player. When attacking it dashes 3 times and inflicts the [[Evercold]] debuff, if it gets 5 tiles close to any Lower Sky Abyss enemy it gets the Shark Alert debuff that makes other enemies either run away or attack it.
+
+In Revengeance mode it can also grab its enemies using its hands.
+
+If it sees a [[Baby Skyline Shark]] it starts rapidly dashing at anyone near it.
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

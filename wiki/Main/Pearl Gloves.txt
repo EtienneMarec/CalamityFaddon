@@ -1,0 +1,29 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 24 (Pre-SCal)<br/>510 (Post-SCal)
+| damagetype = magic
+| tooltip = Fires spectral gloves that stick to enemies<br/>The gauntlets appear to be stuck together (Pre-SCal)<br/>Fires pairs of gloves that punch at enemies<br/>Right clicking causes all glove pairs to clap together, unleashing sound waves which stun enemies (Post-SCal)
+| mana = 18
+| use = 28
+| knockback = 10
+| velocity = 27
+| auto = yes
+| stack = 1
+| rare = 15
+| sell = {{value|0|9|60}}
+}}
+|{{item drops infobox
+| [[Goozma]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Pearl Gloves''' are a [[magic weapon]] dropped by [[Goozma]]. They fire out spectral gloves which stick into enemies. Stuck fists do not deal damage. After defeating [[Supreme Calamitas]], the weapon fires out two gloves per shot instead of one, which hover near enemies and rapidly punch them. Right clicking causes all glove pairs to clap together, unleashing harmless soundwaves which stun enemies for 5 seconds. Bosses get stunned for 2 seconds.
+
+{{Modifier|magic}}
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category: Magic weapons]]

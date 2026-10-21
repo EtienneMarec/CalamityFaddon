@@ -1,0 +1,168 @@
+The '''Compressed Stone Blocks''' are a set of blocks in a sequence starting with [[tgc:Stone Block|stone]], where each block is crafted with the previous block.
+
+{{item infobox
+| name = Compressed Stone Block
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| rare = 0
+| color = #707070
+| use = 14
+| hardmode = no
+| sell = {{Value|0|0|0|1}}
+}}
+
+{{item infobox
+| name = Double Compressed Stone Block
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| rare = 1
+| color = #616161
+| use = 14
+| hardmode = no
+| sell = {{Value|0|0|0|10}}
+}}
+
+{{item infobox
+| name = Triple Compressed Stone Block
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| rare = 2
+| color = #525252
+| use = 14
+| hardmode = no
+| sell = {{Value|0|0|1|0}}
+}}
+
+{{item infobox
+| name = Quadruple Compressed Stone Block
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| rare = 3
+| color = #434343
+| use = 14
+| hardmode = no
+| sell = {{Value|0|0|10|0}}
+}}
+
+{{item infobox
+| name = Quintuple Compressed Stone Block
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| rare = 4
+| color = #343434
+| use = 14
+| hardmode = no
+| sell = {{Value|0|1|0|0}}
+}}
+
+{{item infobox
+| name = Sextuple Compressed Stone Block
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| rare = 5
+| color = #252525
+| use = 14
+| hardmode = no
+| sell = {{Value|0|10|0|0}}
+}}
+
+{{item infobox
+| name = Septuple Compressed Stone Block
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| rare = 6
+| color = #161616
+| use = 14
+| hardmode = yes
+| sell = {{Value|1|0|0|0}}
+}}
+
+{{item infobox
+| name = Octuple Compressed Stone Block
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| rare = 7
+| color = #070707
+| use = 14
+| hardmode = yes
+| sell = {{Value|10|0|0|0}}
+}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result=Compressed Stone Block}}
+
+{{recipes|view=infobox|result=Double Compressed Stone Block}}
+
+{{recipes|view=infobox|result=Triple Compressed Stone Block}}
+
+{{recipes|view=infobox|result=Quadruple Compressed Stone Block}}
+
+{{recipes|view=infobox|result=Quintuple Compressed Stone Block}}
+
+{{recipes|view=infobox|result=Sextuple Compressed Stone Block}}
+
+{{recipes|view=infobox|result=Septuple Compressed Stone Block}}
+
+{{recipes|view=infobox|result=Octuple Compressed Stone Block}}
+
+=== Used in ===
+{{recipes|ingredient=Compressed Stone Block}}
+
+{{recipes|ingredient=Double Compressed Stone Block}}
+
+{{recipes|ingredient=Triple Compressed Stone Block}}
+
+{{recipes|ingredient=Quadruple Compressed Stone Block}}
+
+{{recipes|ingredient=Quintuple Compressed Stone Block}}
+
+{{recipes|ingredient=Sextuple Compressed Stone Block}}
+
+{{recipes|ingredient=Septuple Compressed Stone Block}}
+
+{{recipes|ingredient=Octuple Compressed Stone Block}}
+
+== Trivia ==
+
+* These blocks are a reference to the [https://ftb.fandom.com/wiki/Compressed_Cobblestone_(Extra_Utilities) Compressed Cobblestone] from the Minecraft mod ''Extra Utlities''.
+
+* The Octuple Compressed Stone Block consists of 43,046,721 (9<span style="font-size: 0"> to the power of </span><sup>5</sup>) Stone Blocks, but sells for {{Value|0|0|0|10000000}} as opposed to the expected {{Value|0|0|0|4782969}}.
+
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}
+[[Category:Block items]]

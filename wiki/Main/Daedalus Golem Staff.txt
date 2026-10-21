@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 70
+| mana = 10
+| knockback = 3
+| use = 24
+| tooltip = Summons a Daedalus Golem soldier that fires pellets and electricity<br/>Shining god of greed
+| buff = Daedalus Golem (buff) | bufflink = no
+| bufftip =  A crystal golem is following you
+| stack = 1
+| auto = yes
+| rare = 5
+| sell = {{value|0|4|80}}
+| hardmode = yes
+| proj = Daedalus Pellet.gif
+| projcaption = Daedalus Pellet
+| element1 = Holy
+}}
+{{summoned|Daedalus Golem|type=minion}}
+
+The '''Daedalus Golem Staff''' is a craftable [[Hardmode]] [[summon weapon]]. When used, it summons a grounded golem that follows the player. When an enemy is nearby, the golem alternates between attacking with purple-blue pellets and firing red lightning bolts that pierce once.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The designs and the tooltip are references to [https://hollowknight.fandom.com/wiki/Crystal_Guardian Crystal Guardian], a boss in the video game ''[[wikipedia:Hollow Knight|Hollow Knight]]''.
+*The bell at the tip of the staff is a reference to the [https://thaumcraft-4.fandom.com/wiki/Golemancer%27s_Bell Golemancer's Bell] from the [https://ftbwiki.org/Thaumcraft_4 Thaumcraft] mod for ''[[wikipedia:Minecraft|Minecraft]]''.
+{{-}}
+{{Cryonic}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

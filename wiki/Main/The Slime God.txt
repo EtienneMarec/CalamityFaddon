@@ -1,0 +1,240 @@
+<section begin=npc infobox />{{npc infobox
+| name = I would totally smash the slime god
+| type = Supa Evil Creepie Crawlie Guy (TM)
+| type2 = Slime
+| life = {{dv|10,800|17,280|23,360}} (total)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Poisoned
+| knockback = 100
+| money = {{value|0|12}}
+| Gel|180-250|100%
+|group|At least one of the following 6 weapons will always drop:|6
+| Overloaded Blaster|1|{{dv|25%|33.33%}}
+| Abyssal Tome|1|{{dv|25%|33.33%}}
+| Eldritch Tome|1|{{dv|25%|33.33%}}
+| Crimslime Staff|1|{{dv|25%|33.33%}}
+| Corroslime Staff|1|{{dv|25%|33.33%}}
+| Slime Puppet Staff|1|{{dv|25%|33.33%}}
+| Mana Polarizer|1|100%
+| custom| {{item|Purified Jam|note=(Once per player and world)|wrap=y}} (6-8)|100%
+| Healing Potion|5-15|100%
+| Slime God Mask (Crimson)|1|7.14%
+| Slime God Mask (Corruption)|1|7.14%
+| Slime God Trophy|1|10%
+| custom| {{item|The Slime God (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (The Slime God)|Treasure Bag|note=(The Slime God)|wrap=y}}
+: • {{item|Electrolyte Gel Pack|note=(In [[Revengeance Mode]] only)|wrap=y}}|{{expert|100%}}
+| listexclude = yes
+| boxwidth = 28em
+|image=The_Slime_God.png}}<section end=npc infobox />
+The '''Slime God (Japanese: スライムの神 ''Suraimu no kami'')''' is a [[Pre-Hardmode]] [[boss]] that can be summoned and fought anywhere in the game world. The boss is comprised of three main parts, the Crimulan Slime God, the Ebonian Slime God, and the Core itself. All three will spawn upon the use of the [[Overloaded Sludge]], regardless of whether the world generated contains [[Corruption]] or [[Crimson]].
+
+The Slime God is intended to be fought at the very end of Pre-Hardmode, immediately before the [[Wall of Flesh]]. This gives it the purpose of being the Calamity Mod's "final boss" for that stage of the game.
+
+== Spawn ==
+The Slime God does not spawn on its own unless edged, or, alternatively, requires the player to summon it with the [[Overloaded Sludge]].
+
+== Bosses ==
+{{infobox wrapper|{{npc infobox
+| name = Red mothafucka
+| image = Crimulan_Slime_God.png
+| type = Boss
+| type2 = Slime
+| resistant1 = Unholy
+| resistant2 = Poison
+| resistant3 = Slash
+| vulnerable1 = Holy
+| vulnerable2 = Water
+| vulnerable3 = Stab
+| ai = Crimulan Slime God AI
+| life = {{dv|4,750|7,600|9,120}}<br/>{{dv||1,608|1,928}} (Split)
+| damage = {{dv|50|100|120|130}} (Contact)<br/>{{dv|38|60|76|84}} (Abyss Ball)<br/>{{dv||88|108|116}} (Abyss Mine)<br/>{{dv||90|108|118}} (Split Contact)<br/>{{dv||52|68|74}} (Split Abyss Ball)<br/>{{dv||80|100|108}} (Split Abyss Mine)
+| defense = 12<br/>{{expert|10 (Split)}}
+| knockback = 100
+| debuff = Darkness
+| debuffchance = 100%
+| duration = 2 seconds (Contact)<br/>4 seconds (Abyss Ball and Mine)
+| debufftip = Decreased light vision
+| image2 = Crimulan Slime God map.png
+| image2caption = Map Icon
+| boxwidth = 24em
+| money = {{value|0|2}}
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound3 = Item_33.wav
+| sound3text = Ball and Mines
+}}
+|{{npc infobox
+| name = Why He Ourple
+| image = Ebonian_Slime_God.png
+| type = Boss
+| type2 = Slime
+| ai = Ebonian Slime God AI
+| resistant1 = Unholy
+| resistant2 = Poison
+| resistant3 = Slash
+| vulnerable1 = Holy
+| vulnerable2 = Water
+| vulnerable3 = Stab
+| life = {{dv|5,350|8,560|10,240}}<br/>{{dv||2,400|2,880}} (Split)
+| damage = {{dv|45|90|108|118}} (Contact)<br/>{{dv|42|68|84|92}} (Abyss Ball)<br/>{{dv||96|116|128}} (Abyss Mine)<br/>{{dv||80|96|104}} (Split Contact)<br/>{{dv||60|76|84}} (Split Abyss Ball)<br/>{{dv||88|104|112}} (Split Abyss Mine)
+| defense = 10<br/>{{expert|8 (Split)}}
+| knockback = 100
+| debuff = Weak
+| debuffchance = 100%
+| duration = 3 seconds (Contact)<br/>0.75 seconds (Abyss Ball and Mine)
+| debufftip = Physical abilities are decreased
+| image2 = Ebonian Slime God map.png
+| image2caption = Map Icon
+| boxwidth = 24em
+| money = {{value|0|2}}
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound3 = Item_33.wav
+| sound3text = Balls and Mines
+}}
+|{{npc infobox
+| name = Slime LOSER
+| namesub = Core
+| type = Boss
+| type2 = Slime
+| image = Slime God Core.png
+| ai = The Slime God AI
+| resistant1 = Unholy
+| resistant2 = Poison
+| resistant3 = Slash
+| vulnerable1 = Holy
+| vulnerable2 = Water
+| vulnerable3 = Stab
+| life = {{dv|2,100|3,360|4,000}}
+| damage = {{dv|40|80|96|104}} (Contact)<br/>{{dv|42|68|84|92}} (Corrupt Abyss Ball)<br/>{{dv|38|60|76|84}} (Crimson Abyss Ball)<br/>{{dv||96|116|128}} (Corrupt Abyss Mine)<br/>{{dv||88|108|116}} (Crimson Abyss Mine)
+| defense = 6
+| knockback = 100
+| debuff = Distorted
+| debuffchance= 100%
+| duration= 2 seconds
+| debufftip= Gravity around you is distorted
+| debuff2 = Weak
+| debuffchance2 = 100%
+| duration2 = 2 seconds (Contact)<br/>0.75 seconds (Abyss Ball and Mine)
+| debufftip2 = Physical abilities are decreased
+| debuff3 = Darkness
+| debuffchance3 = 100%
+| duration3 = 2 seconds (Contact)<br/>4 seconds (Abyss Ball and Mine)
+| debufftip3 = Decreased light vision
+| image2 = Slime God Core map.png
+| image2caption = Map Icon
+| boxwidth = 23em
+| money = {{value|0|8}}
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = SlimeGodPossession.wav
+| soundtext = Enter Large Slime
+| sound2 = SlimeGodExit.wav
+| sound2text = Exit Large Slime
+| sound3 = Item_33.wav
+| sound3text = Ball and Mines
+}}
+}}
+
+== Behavior ==
+The Slime God encounter is made up of three individual bosses: Crimulan Slime God, The Ebonian Slime God, and The Slime God itself. Each has its own unique behaviors and attacks.
+
+=== Crimulan and Ebonian Slime Gods ===
+*Will jump toward the player similarly to other slimes.
+*Occasionally flies over the player and attempts to drop down directly on top of them.
+*Teleports near the player when they are at least 337.5 tiles away.
+*Quickly boost themselves towards the player when they are at least 150 tiles away.
+*Fire [[File:Abyss Ball Crimson.png|24px|link=]] {{item|Abyss Ball|Abyss Balls|size=24px|link=}} at the player when they are at least 10 tiles away.
+**Crimulan Slime God fires two balls and has a shooting cooldown of {{dv|7.5|5}} seconds. If the Ebonian Slime God is defeated, this reduces to {{dv|5|4}} seconds.
+**Ebonian Slime God fires four balls and has a shooting cooldown of {{dv|10|6.67}} seconds. If the Crimulan Slime God is defeated, this reduces to {{dv|3.75|3}} seconds.
+*Spawn smaller slimes as it takes damage.
+**Crimulan Slime God spawns a {{item|Crimson Slime Spawn|size=30px}} every 15% of its health lost. There is a 33.33% chance for the slime to be {{item|Spiked Crimson Slime Spawn|spiked|size=30px|link=}}.
+**Ebonian Slime God spawns 1-2 {{item|Corrupt Slime Spawn|s|size=32px}} every 20% of its health lost.
+*Defeating one slime will buff the other.
+**If the Crimulan Slime God is defeated, Ebonian Slime God will double its movement-based attack rates.
+**If the Ebonian Slime God is defeated, Crimulan Slime God will double its defense.
+
+=== The Slime God (Core) ===
+*Constantly accelerates towards the player, inflicting the [[Distorted]] Debuff on hit.
+*When damaged, can rush at and enter one of the other Slime Gods, becoming invulnerable for 10 seconds. For the duration, the possessed god will gain certain boosts.
+**All possessed slimes will temporarily gain [[Death Mode]] AI.
+**Crimulan Slime God will gain {{dv|25|50}} damage and 24 defense.
+**Ebonian Slime God will gain {{dv|22|44}} damage and 20 defense.
+*Transitions into Phase 2 at 20% health. If both Crimulan and Ebonian Slime Gods have been defeated, it will transition at 40% health instead.
+**Continues to accelerate at the player at a faster pace with a higher maximum speed.
+**Continuously releases a random spread of two [[File:Abyss Ball Crimson.png|24px|link=]] {{item|Abyss Ball|Abyss Balls|size=24px|link=}} as it travels.
+
+=== In [[Expert Mode]] ===
+*Increases acceleration and speed to all slimes.
+*The Slime Gods have a 50% chance to fire [[File:Abyss Ball Crimson.png|24px|link=]] {{item|Abyss Ball|Abyss Mines|size=24px|link=}} instead of Abyss Balls. Mines exponentially slow to a stop and linger in place for 50 seconds before exploding and despawning.
+**The Ebonian Slime God and The Slime God Core will always fire one less mine.
+*The Crimulan and Ebonian Slime Gods will split into two smaller slimes once they reach half health. They behave similarly to the non-split gods, with some minor changes.
+**They are unable to teleport near the player when they are too far away.
+**They quickly boost themselves towards the player when they are at least 225 tiles away, instead of 150.
+**Split Crimulan Slime God will gain 44 damage and 20 defense when possessed.
+**Split Crimulan Slime God fires one ball and has a shooting cooldown of {{dv||15|7.5}} seconds. If the Ebonian Slime God is defeated, this reduces to {{dv||7.5|5}} seconds.
+**Split Ebonian Slime God will gain 40 damage and 16 defense when possessed.
+**Split Ebonian Slime God fires two balls and has a shooting cooldown of {{dv||20|10}} seconds. If the Crimulan Slime God is defeated, this reduces to {{dv||10|6.67}} seconds.
+
+=== In [[Revengeance Mode]] ===
+*Increases acceleration and speed to all slimes, higher as their health decrease.
+*Crimulan and Ebonian Slime Gods fire Abyss Balls and Mines more frequently.
+*In Phase 2, instead of releasing projectiles at a continuous pace, the Slime God Core teleports near the player and travels in a circle while firing projectiles at the player.
+
+=== In [[Death Mode]] ===
+*Increases acceleration and speed to all slimes, higher as their health decrease.
+
+=== Summons ===
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+! colspan="3" | Crimulan Slime God
+|-
+| align = center |{{item|mode=table|Crimson Slime Spawn}} || rowspan=2 | When damaged
+|-
+| align = center |{{item|mode=table|Spiked Crimson Slime Spawn}}
+|-
+! colspan="3" | Ebonian Slime God
+|-
+| align = center |{{item|mode=table|Corrupt Slime Spawn}} || When damaged
+|}
+
+== Aftermath ==
+*The [[Bandit]] will begin selling [[Gel Dart]]s, and occasionally do the Gangnam Style.
+*[[Unpurified Gel]] can be shrimp'd into [[Purified Gel]].
+
+== Notes ==
+*The Slime God component defeated last will be the one to drop the loot.
+**180 to 250 [[Gel]] will always be dropped directly by the final Slime God component regardless of mode.
+*Purified Jam can only be obtained once per character and world, making farming for it possible yet tedious.
+*The Crimulan and Ebonian Slime Gods can teleport with players if they use any recall items far from their spawn points.
+*If the Slime God Core is killed at any point the fight will end abruptly.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating The Slime God, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:The Slime God strategies]].}}
+*Do not run too far away, or otherwise, the Slime Gods will ram the player at very high speed (i would let them ram me iykwim), making it very difficult to dodge them. Try to keep them on the screen to avoid getting hit easily.
+*Avoid the Slime God Core at all costs because the Distorted debuff it inflicts can make you easy prey for the Crimulan and Ebonian Slime Gods.
+*Using a hook or minecart track can help the player with avoiding the boss if the player gets the Distorted debuff.
+*It is not recommended to fight these bosses until at least Skeletron is defeated, as their high speed and damage can easily overwhelm an unprepared player.
+**Should the player have the skill and patience to defeat this boss, they can obtain powerful loot that will aid them through the rest of pre-hardmode.
+
+== Trivia ==
+*The Slime God's [[Music|theme]] is [https://www.youtube.com/watch?v=W70Q1R-inLc '''Return to Slime'''], which was composed by the artists [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO] and [https://www.youtube.com/user/badoosh12 SixteenInMono]. the goats!
+**This theme contains motifs from [[The Perforators]] and [[The Hive Mind]]'s themes.
+**If the Calamity Music add-on mod is disabled, '''Boss 1''' will play instead. play with the mod installed!!!!
+**In the theme, a voice shouts some unknown words. quote: "jabjdbsanmvbvfjhdsdhbmsndbehjbdnm hmmm... anal"
+*Unlike all the other bosses, the Slime God has 2 [[Mask]]s, one for the Crimulan Slime God and another for the Ebonian Slime God. This is similar to the fact that [[The Twins]] and [[Calamitas]] have multiple different [[Trophies]].
+**Only one of the two masks can drop at a time.
+*The Slime God can be fought before any boss is defeated, as its summoning item only requires Ebonstone/Crimstone Blocks collected from explosives and [[Blighted Gel]].
+*The Slime God was one of the first bosses added to the Calamity Mod, along with the [[Desert Scourge]] and [[The Devourer of Gods]].
+**Prior to the [[1.1.6.13]] update, The Slime God was a single large slime, instead of two large slimes and a core.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The gelatinous monstrosity achieved vengeance for its brethren."
+*In the Japanese translation, the name is "スライムの神 ''Suraimu no kami''"
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}
+[[zh:史莱姆之神]]

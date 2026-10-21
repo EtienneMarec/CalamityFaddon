@@ -1,0 +1,49 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+|consumable = true
+| damagetype = Rogue
+| rare = 3
+| sell = {{value|0|0|2}}
+| damage = 26
+| critical = 12%
+| tooltip = Stealth strikes spawn rain clouds on enemy hits
+| use = 12
+| knockback = 2.5
+| velocity = 16
+| auto = yes
+| stack = 9999
+| proj = Crimson Nimbus Cloud.gif
+| projcaption = Crimson Nimbus Cloud
+| proj2 = Crimson Nimbus.gif
+| proj2caption = Crimson Nimbus
+| debuff = Burning Blood
+| debufftip = Your blood is on fire
+| debuffchance = 100%
+| debuffduration = 1.5 seconds (rain)
+| element1 = Unholy
+}}
+|{{item drops infobox
+|[[The Perforators]]|30-50 / {{expert|50-75}}|{{dv|25%|33.33%}}
+}}
+}}
+
+'''Tooth Balls''' are craftable [[Pre-Hardmode]] [[rogue weapons]] that are also dropped by [[The Perforators]]. They can pierce two [[enemies]] before breaking. They have a 50% chance of being recovered after being thrown. They function almost identically to [[Rot Ball]]s.
+
+Performing a [[stealth strike]] with Tooth Balls causes crimson clouds to spawn above each enemies that are hit. The cloud's raindrops inflict [[Burning Blood]] for 1.5 seconds.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+{{-}}
+{{Blood Sample}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Rare Items]]

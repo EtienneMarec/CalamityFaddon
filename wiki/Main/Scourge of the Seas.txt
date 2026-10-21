@@ -1,0 +1,54 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Rogue
+| damage = 45
+| tooltip = Snaps apart into a venomous cloud upon striking an enemy<br/>Stealth strikes are coated with vile toxins, afflicting enemies with a powerful debuff
+| use = 19
+| knockback = 3.5
+| velocity = 8
+| auto = yes
+| stack = 1
+| rare = 5
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| debuff = Venom
+| debuffchance = 100%
+| debuffduration = 3 seconds (Javelin)<br/>2 seconds (toxic clouds)
+| debufftip = Losing life
+| debuff2 = Sulphuric Poisoning
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Stealth strike javelin)<br/>2 seconds (Stealth strike toxic clouds)
+| debufftip2 = The acidic water burns away your flesh
+| proj = Scourge Venom Cloud.gif
+| projcaption = Scourge Venom Cloud
+| element1 = Poison
+| element2 = Water
+| element3 = Stab
+}}
+|{{item drops infobox
+| [[Aquatic Scourge]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{dablink|If you were looking for something other than the Scourge of the Seas, see [[Scourge (disambiguation)]].}}
+The '''Scourge of the Seas''' is a [[Pre-Hardmode]] [[javelin]] dropped by the [[Aquatic Scourge]] that is an indirect upgrade to the [[Scourge of the Desert]]. When used it automatically throws a javelin that gains velocity while in flight. Thrown javelins are slightly affected by gravity and when contact is made with an enemy, they will explode into toxic clouds. The javelin and clouds inflict the [[Venom]] [[debuff]].
+
+Performing a [[stealth strike]] with the Scourge of the Seas will cause the next javelin and its spawned clouds to inflict the [[Sulphuric Poisoning]] debuff.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+
+== Trivia ==
+*The Scourge of the Seas was implemented based on a community suggestion made by spideradult on the mod's Discord server.
+
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Javelins]]

@@ -1,0 +1,52 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Rogue
+| damage = 55
+| knockback = 5
+| velocity = 12
+| tooltip = Explodes into highly flammable black tar<br/>Tar oils enemies and sets them alight<br/>Stealth strikes leak tar as they fly
+| use = 27
+| rare = 7
+| stack = 1
+| auto = yes
+| sell = {{value|0|12}}
+| debuff = Oiled
+| debuffchance = 100%
+| debuffduration = 10 seconds (tar projectiles)
+| debufftip = Taking more damage from being on fire
+| debuff2 = On Fire!
+| debuffchance2 = 100%
+| debuffduration2 = 4 seconds (tar projectiles)<br/>2 seconds (lingering flames)
+| debufftip2 = Slowly losing life
+| hardmode = yes
+| proj = Totality Explosion.gif
+| projcaption = Tar Explosion
+| proj2 = Flaming Shard.gif
+| proj2caption = Flaming Shard
+| proj3 = Totality Tar.png
+| proj3caption = Totality Tar
+| element1 = Fire
+| element2 = Unholy
+| element3 = Smash
+}}
+
+The '''Totality Breakers''' is a craftable [[Hardmode]] [[bombs|bomb]] that hurls explosive flasks. On impact with tiles or enemies, the flasks create shortly lingering explosions and shoot out three explosive tar projectiles that each release lingering flames. The tar projectiles inflict the [[Oiled]] and [[On Fire!]] debuffs onto enemies.
+
+Performing a [[stealth strike]] with the Totality Breakers will cause the next flask thrown to release tar projectiles as it travels.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Totality Breakers/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Bombs]]

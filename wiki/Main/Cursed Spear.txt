@@ -1,0 +1,39 @@
+{{addon|Calamity: Community Remix}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 76
+| auto = yes
+| use = 19
+| stack = 1
+| velocity = 20
+| knockback = 6
+| tooltip = Throws an cursed flame tipped trident<br/>Stealth strikes are showered in cursed fireballs
+| rare = 4
+| sell = {{value|0|2|40}}
+| debuff = Cursed Inferno
+| debufftip = Losing life<br/>All damage taken increased by 20%
+| debuffchance = 100%
+| debuffduration = 2 Seconds
+| hardmode = yes
+| element1 = Unholy
+| element2 = Fire
+| element3 = Stab
+}}
+|{{item drops infobox
+| [[Clinger]]|1|{{dv|4%|6.67%}}
+}}
+}}
+
+The '''Cursed Spear''' is a [[Hardmode]] [[javelin]] that is rarely dropped by [[Clinger]]s. It travels a long distance before being affected by gravity and can pierce one enemy. The Cursed Spear applies the [[Cursed Inferno]] [[debuff]] to all hit enemies. It is the [[Corruption]] variant of the [[Ichor Spear]].
+
+Performing a [[stealth strike]] with the Cursed Spear causes the resulting javelin to release cursed fireballs in random directions as it travels.
+
+{{Modifier|rogue}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Javelins]]

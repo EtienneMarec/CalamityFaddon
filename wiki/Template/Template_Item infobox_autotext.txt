@@ -1,0 +1,5 @@
+<includeonly>{{#switch:{{lc:{{{1|}}}}}
+|melee = Auto-swing
+|ranged|magic = Autofire
+|#default = {{#switch:{{lc:{{{2|}}}}}|tool = Auto-swing|#default = Auto-use}}
+}}</includeonly><noinclude>[[Category:Infobox templates]]</noinclude>

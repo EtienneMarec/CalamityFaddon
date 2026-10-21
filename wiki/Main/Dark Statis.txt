@@ -1,0 +1,49 @@
+{{revengeance mode only}}
+{{addon|Catalyst}}
+{{npc infobox
+| type = Flying Enemy
+| ai = Dark Statis AI
+| damage = {{element|Poison}} 0.5% (spawn animation plague flames)<br/>{{element|Dark}} 0.01% (contact)<br/>{{element|Poison}} {{dv|10|20}} (dash plague flames)<br/>{{element|Dark}} 5% (explosion)
+| life = {{dv|2000|4000}} (Pre-Hardmode) <br/> {{dv|20,000|40,000}} ([[Hardmode]]) <br/> {{dv|200,000|400,000}} (Godseeker Mode)<br/>{{dv|2,000,000|4,000,000}} (Epilogue)
+| defense = 0
+| knockback = 0
+| banner = no
+| money = 0
+| Plague Keeper|1|100% (Before Wall of Flesh is defeated)
+| debuff = Plague
+| debufftip = Your flesh is melting off
+| debuffchance = 100%
+| duration = 2 seconds
+| immune1 = Plague
+| immune2 = Confused
+| immune3 = Kami Flu
+| immune4 = Poisoned
+| hurt = Item_33.wav
+| killed = Item_16.wav
+| sound = LargeWeaponFire.wav
+| soundtext = Explosion
+| vulnerable1 = Water
+| resistant1 = Dark
+| resistant2 = Fire
+| resistant3 = Poison
+|image=DarkStatis.gif}}
+
+'''Dark Statis''' is a hostile [[enemy]] version of [[Statis]].
+
+Dark Statis spawns 20 to 40 seconds after a player reaches zero [[Stamina]] three times without dying, emerging from a crack in the ground and creating a circle of damaging plague flames around him in his wake.  
+
+Dark Statis continuously pursues the player by floating towards them, speeding up when further away and slowing down to a near standstill when within a fixed distance. If the player remains within that fixed distance for a short period of time, Dark Statis will perform a fiery plague charge attack in which he will pause for a brief moment with a sound cue before rushing towards them, damaging any enemies in his path.
+
+Dark Statis is damageable as long as the player's cursor is on him. Killing Dark Statis will cause a colossal explosion similar to [[XF-09 Ares]]' Gauss Nuke. If the player's cursor isn't on Dark Statis, he will still be able to block enemy projectiles without being damaged.
+
+== Notes ==
+*Dark Statis' charge also ignores reactive [[damage reduction]].
+Dark Statis' position at all times is determined by his position relative to the world, meaning he persists in the same [[subworld]] even when the player teleports to another one. Entering a different subworld cancels Statis' charge if he was preparing.
+
+== Trivia ==
+*Dark Statis is a direct homage to Dark Esau from ''[[wikipedia:The Binding of Isaac: Rebirth|The Binding of Isaac: Repentance]]''.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

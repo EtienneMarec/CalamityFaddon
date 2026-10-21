@@ -1,0 +1,43 @@
+{{malice mode only}}
+{{Historical content}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| damagetype = ranged
+| auto = yes
+| damage = 1100
+| knockback = 2
+| critical = 9%
+| rare = 14
+| sell = {{value|0|28}}
+| use = 60
+| tooltip = Makes their brain hurt<br/>Fires a spread of 4 high velocity bullets that split into additional bullets upon hitting an enemy
+| velocity = 12
+| debuff = Marked
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| debufftip = Damage reduction reduced
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+}}
+|{{item drops infobox
+| [[The Devourer of Gods]]|1|{{malice|100%}}
+}}
+}}
+The '''Skullmasher''' was a Godseeker Mode [[gun]] that dropped from [[The Devourer of Gods]] in [[Malice Mode]]. The gun fired four high velocity bullets. Upon collision with enemies, more high velocity bullets and which ever [[ammo]] type was being used were shot at the enemy from random positions near it.
+
+Its best [[modifier]] was '''Legendary'''.
+
+== Trivia ==
+*This weapon was a reference to the [https://borderlands.fandom.com/wiki/Skullmasher_(Borderlands_2) sniper rifle of the same name] from the ''[[wikipedia:Borderlands (series)|Borderlands]]'' series.
+*It was formerly the [[rare variant]] of the [[Anti-materiel Rifle]].
+{{-}}
+{{historical}}
+{{Challenge item}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

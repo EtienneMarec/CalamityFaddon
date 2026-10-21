@@ -1,0 +1,57 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{dedicated|Explodingcats43|Suggester}}
+{{item infobox
+| auto = yes
+| type = Weapon
+| damagetype = Melee
+| damage = 7684
+| velocity = 0
+| knockback = 70
+| rare = C1
+| sell = {{value|20|0|0}}
+| stack = 1
+| tooltip = {{color|Machinam de Solis et Stellarum|#dc542c}}<br/>Fires a huge solar deathray 
+| use = 15
+| proj = Solar Ray.png
+| projcaption = Solar deathray
+| proj2 = Solarfork.png
+| proj2caption = Tuning Fork
+| proj3 = Heliospartisanheld.gif
+| proj3caption = Helios partisan (charge)
+| debuff= Sunscreamed
+| debufftip=Recieved a five thousand degree burn from pure light and radiation
+| debuffchance = 100%
+| debuffduration = 2 seconds (contact, deathray)<br/> 1 second (tuning forks)
+| debuff2 = Irradiated
+| debufftip2 = Your skin is burning off
+| debuffchance2 = 100%
+| debuffduration2 = Indefinite (to player, while held)
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1= Fire
+| element2 = Holy
+| element3 = Stab
+}}
+
+The '''Helios partisan''' is a craftable Epilogue [[spear]] that applies a unique and powerful [[Debuff]]. When used with the primary fire (left click) it uses a custom swing animation that uses a downwards, then an upwards swing, both unleashing homing tuning forks, followed by thrusting forwards and firing a deathray. However, when held it will constantly apply the user with [[Irradiated]]
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The primary fire is best used against multiple targets, since the beam can pierce all of them, while the secondary is best used for single targets.
+*As the beam can easily sweep almost all the screen, it can be used to hit particularly fast targets.
+
+== Trivia ==
+*The reason that Irradiated is inflicted on the wielder is due to the large amount of [[wikipedia:Electromagnetic radiation|electromagnetic radiation]] that the sun emits.
+{{-}}
+{{shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

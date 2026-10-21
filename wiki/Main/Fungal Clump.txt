@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = Summons a fungal clump to fight for you<br/>The clump latches onto enemies and steals their life for you
+| buff = Fungal Clump (buff)
+| bufftip = The fungal clump will protect you
+| rare = 2
+| sell = {{value|0|0|40}}
+| stack = 1
+| damage = 10
+| damagetype = summon
+}}
+|{{item drops infobox
+| [[Crabulon]]|1|100%
+}}
+}}
+{{summoned|Fungal Clump (minion)}}
+
+'''Fungal Clump''' is a [[Pre-Hardmode]] [[covering]] dropped by [[Crabulon]]. It summons a free Fungal Clump minion that attaches to enemies, damaging them and spawning blue healing orbs that home in on the player and [[Lifesteal|heal]] the player for 25% of the damage the clump deals. The healing orbs travel farther if the player is holding a [[summon weapon]]. The Fungal Clump occupies no minion slots.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Fungal Clump has a base damage of 10, which can be boosted with the player's damage-boosting equipment.
+**However, its damage is affected by the [[Vanilla_changes#Minions|summon damage nerf]] mechanic. As a result, it will do very little damage and by extension be incapable of producing healing orbs on most enemies if the player is holding a non-summoner weapon.
+*Due to the healing orbs' limited range, the player must stand in close proximity to the minion in order to benefit from its lifesteal.
+*It behaves similarly to the minions produced by [[Dank Staff]] and [[Blood Clot Staff]]; when used with Dank Creeper or Blood Clot minions, the Fungal Clump is likely to "stack" with the other minions and move identically to them.
+
+== Trivia ==
+*When equipped, the Fungal Clump produces a large ring of light around the player, making it usable for filling in the player's map by repeatedly equipping it and unequipping it.
+**This ring of light also triggers when the player produces a minion past what they are allowed to have.
+*In previous versions of the mod, Fungal Clump also caused Crabulon to become passive. With the covering equipped, both the player and the boss became incapable of harming one another.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Healing items]]
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

@@ -1,0 +1,10 @@
+Invoked by {{tl|diagram}}, this module can be used to display a modular diagram, which is mainly used for crafting trees on the wiki. It creates a table with the respective border attributes to have the diagram effect. Documentation on how to use it can be found at {{tl|diagram}}.
+
+The idea was originally based on [https://witcher.gamepedia.com/Template:Family_tree Template:Family tree on The Witcher Wiki]. [[User:Westgrass|Westgrass]] heavily rewrote and optimized it, eventually moving the functionality into this module.
+
+<noinclude>
+[[Category:Module documentation]]
+</noinclude>
+<includeonly>
+[[Category:Modules]]
+</includeonly>

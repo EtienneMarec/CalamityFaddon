@@ -1,0 +1,19 @@
+{{buff infobox
+| type = Buff
+| cause = [[Elysian Aegis]] or [[Asgardian Aegis]]
+| effects = Reduced movement speed and acceleration<br/>Increased damage, critical strike chance, defense and enemy aggression
+| tooltip = Movement speed reduced, other stats buffed
+}}
+
+'''Elysian Guard''' is a [[buff]] applied to the player when they press the {{key|Elysian Guard}} key while either the [[Elysian Aegis]] or [[Asgardian Aegis]] is equipped. It reduces movement speed by 15%, acceleration by 50% and increases enemy [[aggro]] up to 1,100, but increases all damage by 15%, all critical strike chance by 10%, and grants 40 [[defense]].
+
+As the shield provides an extremely fast shield dash, the speed penalties of activating Elysian Guard are usually negligible in combat.
+
+== Notes ==
+* The Elysian Guard buff will be deactivated when using [[Mounts]].
+
+{{-}}
+{{Master Template Buffs
+| show-main = yes
+| show-buffs = yes
+}}

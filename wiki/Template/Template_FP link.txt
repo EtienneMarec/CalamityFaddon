@@ -1,0 +1,10 @@
+<onlyinclude><includeonly><div class="fplink plainlinks {{#if:{{{image|}}}|image|}} {{#switch:{{lc:{{{size|}}} }}|wide={{lc:{{{size|}}} }} }}"><div class="box"><div class="row"><div class="cell">{{#if:{{{image|}}}
+  |<div class="image">{{#if:{{{url|}}}
+    |
+    |{{#ifexist:File:{{{image|}}}|[[File:{{{image|}}}|link={{{1|}}}]]|<span class="nomobile">[[File:{{{image|}}}|Please upload 150x150 image]]</span>}}
+  }}</div>
+|}}<div class="link">{{#if:{{{url|}}}
+  |{{#if:{{{1|}}}|[{{{url}}} {{{1}}}]|[{{{url}}}]}}
+  |{{#if:{{{1|}}}|{{#if:{{{2|}}}|[[{{{1}}}|{{{2}}}]]|[[{{{1}}}]]|}}}}
+}}</div></div></div></div></div></includeonly></onlyinclude>{{doc}}
+[[Category:Formatting templates]]

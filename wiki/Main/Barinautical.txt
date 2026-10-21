@@ -1,0 +1,30 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 28
+| damagetype = Ranged
+| knockback = 2
+| stack = 1
+| rare = 5
+| sell = {{value|0|7|20}}
+| auto = yes
+| use = 12
+| velocity = 15
+| tooltip = Converts wooden arrows into strings of 3 electric bolt arrows that explode
+| proj = Bolt Arrow.png
+| projcaption = Bolt Arrow
+| element1 = Water
+}}
+|{{item drops infobox
+| [[Aquatic Scourge]]|1|{{dv|25%|33.33%}}
+}}
+}}
+The '''Barinautical''' is a pre-Hardmode [[bow]] dropped by the [[Aquatic Scourge]]; it can be considered an indirect upgrade of the [[Barinade]]. It fires bursts of three arrows, with a one-third second of a delay. When [[Wooden Arrow]]s are used as ammo, arrows are replaced with electric arrows that explode upon impact. Each electric arrow does damage twice, for a total of six hits.
+
+{{Modifier|ranged}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged= yes
+}}
+[[Category:Bows]]

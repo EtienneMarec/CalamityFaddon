@@ -1,0 +1,58 @@
+{{Addon|Calamity: Community Remix}}
+{{item infobox
+| type = Covering
+| tooltip = +30 maximum stealth<br/>12% increased spy damage, and 12% increased spy crit chance<br/>Vastly reduces enemy aggression, even in the abyss<br/>Stealth generates 50% faster when standing still<br/>Mobile stealth generation exponentially accelerates while not attacking<br/>Stealth strikes have a 100% critical hit chance<br/>Stealth strikes only expend 50% of your max stealth<br/>A copy of your weapon falls downward from the sky each use which deals 30% of the weapon's damage<br/>A burst of homing souls, bouncing jewels, and fireballs are released once the copy projectile dies<br/>Sun Tornadoes are summoned on stealth strike hits with a cap of 2 at once<br/>Grants the ability to evade attacks in a blast of darksun light, which inflicts extreme damage in a wide area<br/>Evading an attack grants full stealth but has a 20 second cooldown<br/>This cooldown is shared with all other dodges and reflects<br/>Hit the spectral veil key to summon an eclipse aura that nullifies damage for 5 seconds with a 20 second cooldown.
+| sell = {{value|0|28}}
+| proj = Eclipse Blast.png
+| projcaption = Eclipse Blast
+| projsize = 220px
+| rare = 15
+| stack = 1
+| debuff = Eclipse Evade Cooldown |debufflink=no
+| debuffchance = 100%
+| debuffduration = 20 seconds (when hit)
+| debufftip = Your Eclipse Mirror's dodge is recharging
+| debuff2 = Chaos State
+| debuff2chance = 100%
+| debuff2duration = 20 seconds
+| debuff2tip = RoD teleports disabled
+| hardmode = yes
+| postml = yes
+| boxwidth = 25em
+}}
+
+The '''Spy's Lootbox''' is a craftable Godseeker Mode [[spy]] [[covering]]. When equipped:
+*The player's [[spy stealth]] cap is increased by 30.
+*The player's spy damage and critical strike chance are increased by 12% each.
+*Enemy [[aggro]] is reduced by 700.
+*Enemies in the [[Abyss]] have their detection radius multiplied by 0.3.
+*The player can build spy stealth 50% faster while standing still.
+*The player receives an increase to spy stealth regeneration rate while moving and not attacking.
+*All [[stealth strike]]s only require half of the player's maximum stealth to perform, and are guaranteed to critically strike.
+*When a weapon is used, a second copy rains down from the sky towards the cursor that deals 30% of the weapon's damage. When the copy collides with an enemy or dissipates, a burst of homing souls, fireballs, and bouncing jewels explode outwards.
+*Stealth strikes summon darksun tornadoes on hit. A maximum of two tornadoes can exist at once and each last 10 seconds.
+*Hitting the Spectral Veil's hotkey causes a darksun aura to engulf the player that makes them immune to all damage for 5 seconds with a 20 second cooldown. The aura also deals a flat 200 damage per tick to enemies caught inside.
+*If the player is hit by an enemy, a blast of darksun light will be released, nullifying damage from the hit and massively damaging enemies in a wide area. This effect has a 90 second cooldown and will not trigger again until the cooldown is finished. Additionally, if this effect occurs, the player's stealth will be instantly maxed out.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The evasion's darksun blast has a base damage of 10750.
+
+== Trivia ==
+
+* A lootbox is a bot of loot.
+** A box is a container used for the storage or transportation of its contents. Most boxes have flat, parallel, rectangular sides. Boxes can be very small (like a matchbox) or very large (like a shipping box for furniture), and can be used for a variety of purposes from functional to decorative.
+{{-}}
+{{Ashes of Annihilation}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

@@ -1,0 +1,42 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| auto = yes
+| type = Weapon
+| damage = 97
+| damagetype = Rogue
+| use = 30
+| velocity = 4
+| knockback = 1
+| tooltip = Throws a festive wreath that grows in size until exploding into icicle shards<br/>Stealth strikes cause the wreath to suck in nearby enemies
+| debuff = Glacial State
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| debufftip =
+| rare = 8
+| stack = 1
+| buy = {{gc|80}}
+| sell = {{gc|10}}
+| hardmode = yes
+| element1 = Cold
+| element2 = Poison
+| element3 = Dark
+}}
+The '''Wreath of Belial''' is a [[Hardmode]] [[rogue weapon]] sold by [[The General]]. It fires a wreath that continuously grows in size as it travels until it touches a block or has lasted for 10 seconds, after which it will explode into 6-8 icicle shards. 
+
+Performing a [[stealth strike]] with the Wreath of Belial will cause it to turn black and suck in nearby enemies, never to escape until the wreath explodes.
+
+{{Modifier|rogue}}
+
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon is a reference to the wreaths produced by the mod owner, Fabsol.
+**The item's damage is a reference to Fabsol's Discord tag, "'''97'''06".
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

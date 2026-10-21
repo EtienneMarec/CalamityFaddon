@@ -1,0 +1,33 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| damage = 1200
+| damagetype = Spy
+| knockback = 0
+| use = 30
+| velocity = 21
+| tooltip = Creates two rotating chakrams around an unstable, explosive core
+| rare = C3
+| sell = {{value|2}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Fire
+| element2 = Water
+| element3 = Acid
+| element4 = Unholy
+}}
+
+The Dissfusion Disk is a craftable Epilogue [[boomerang]] that is the direct upgrade to the [[Eradicator]]. It initially fires a singular fast projectile that slows rapidly, this later splits into two glaives that orbit the central core, which then explodes, dealing large amounts of damage. 
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Weapons
+ | show-main = yes
+ | show-spy = yes
+}}
+[[Category:Boomerangs]]

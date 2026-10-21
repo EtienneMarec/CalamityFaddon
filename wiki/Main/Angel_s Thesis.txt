@@ -1,0 +1,39 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 37
+| mana = 10
+| knockback = 7
+| use = 18
+| tooltip = Summons an animated statue to fight for you
+| buff = Animated Statue (buff) | bufflink = no
+| bufftip = Perfectly balanced
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|2|40}}
+| element1 = Unholy
+| element2 = Holy
+}}
+{{summoned|Animated Statue|type=sentry}}
+
+'''Angel's Thesis''' is a craftable [[Hardmode]] [[sentry]]. When used, it summons an Animated Statue which sits in place and fires patterns of black and white stone fragments around itself every 3 seconds.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+== Trivia ==
+*The item's name is a reference to the ''[[wikipedia:Evangelion|Evangelion]]'' song, "Cruel Angel's Thesis".
+*As well as it being a reference to Evangelion, the statue also looks like The 6th Angel.
+*The buff description is a reference to the Calamity community's obsession with the phrase "perfectly balanced", originating from ''[[wikipedia:Avengers: Infinity War|Avengers: Infinity War]]''.
+{{yinyang}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

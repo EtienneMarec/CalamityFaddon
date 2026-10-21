@@ -1,0 +1,31 @@
+{{item infobox
+| axe = 60
+| type = Tool
+| damagetype = Melee
+| damage = 5
+| use = 25
+| knockback = 5
+| auto = yes
+| rare = 1
+| stack = 1
+| sell = {{value|0|0|20}}
+| bonus = +1 range
+| toolspeed = 15
+}}
+
+<span style="color:#FF0000;">This item has been removed from the most recent version of the mod.</span>
+
+The '''Wulfrum Axe''' is a craftable [[Pre-Hardmode]] [[axe]].
+
+{{modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Wulfrum}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Axes]]

@@ -1,0 +1,26 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Ammunition
+| tooltip = Bursts into profaned fireballs<br/>Profaned fireballs leave behind dangerous sparks
+| damage = 20
+| damagetype = ranged
+| stack = 9999
+| rare = 10
+| velocity = 6
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|0|15}}
+| debuff = Holy Flames
+| debuffduration = 2 seconds (The dart, profaned fireballs)<br/>1 second (Profaned sparks)
+|debuffchance=100%|debufftip=Dissolving from holy light| element1 = Fire}}
+
+'''Profaned Fire Darts''' are craftable Godseeker Mode [[darts]] that are an upgrade to both [[tgc:Cursed Dart|Cursed Darts]] and [[tgc:Ichor Dart|Ichor Darts]]. The dart pierces infinitely, but cannot home. Additionally, after travelling about 7 blocks, the dart splits into 2–4 non-piercing profaned fireballs. The fireballs deal 50% of the dart's base damage, aggressively home onto the closest enemy, piercing up to 3 times and leave behind profaned sparks every 0.33 seconds. The sparks only deal 5% of the dart's base damage and home slightly slower. Profaned Fire Darts serve as a counterpart to [[Profaned Crystal Dart]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+
+{{Ctota}}
+[[Category:Darts]]

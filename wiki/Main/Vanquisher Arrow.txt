@@ -1,0 +1,37 @@
+{{item infobox
+| type = Ammunition
+| damage = 24
+| damagetype = Ranged
+| knockback = 3.5
+| stack = 9999
+| tooltip = Pierces through tiles<br/>Spawns extra homing arrows as it travels
+| consumable = True
+| rare = 14
+| sell = {{value|0|0|0|28}}
+| hardmode = yes
+| postml = yes
+| velocity = 10
+| velocitymult = 2
+| debuff=God Slayer Inferno
+| debufftip=Your flesh is burning off
+| debuffchance = 100%
+| debuffduration = 3 seconds (Main Arrow)<br/>2 seconds (Split Arrow)
+}}
+
+'''Vanquisher Arrows''' are craftable Godseeker Mode [[arrows]] that are made from [[Cosmilite Bar]]s. Fired Vanquisher Arrows pierce through tiles and fade after 1.5 seconds, spawning a homing arrow clone after 0.75 seconds. The arrow clone behaves similarly to the main one but does not pierce through tiles. The main arrow will strike an enemy twice if they are struck at the end of the arrow's lifespan. Both arrows inflict the [[God Slayer Inferno]] [[debuff]] on enemy hits.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Cloned Vanquisher Arrows deal typeless damage. Therefore, they cannot inflict critical hits and are unaffected by [[Rage Meter|Rage]] or [[Adrenaline]].
+
+{{Cosmilite}}
+{{Master Template Consumables
+| show-main = yes
+| show-ammo = yes
+}}
+
+[[Category:Arrows]]
+[[es:Vanquisher Arrow]]

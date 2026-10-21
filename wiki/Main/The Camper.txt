@@ -1,0 +1,61 @@
+{{dedicated|Dzicozan|Defeated DoG without moving}}
+{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = In rest may we find victory.<br/>You deal 90% less damage unless stationary<br/>Standing still grants buff(s) dependent on what weapon you're holding<br/>Standing still provides a damaging aura around you<br/>While moving, you regenerate health as if standing still<br/>Provides a small amount of light in the Abyss
+| rare = 7
+| defense = 10
+| sell = {{value|0|9|60}}
+| buff = Cozy Fire
+| duration = Infinite
+| bufftip = Life regen is slightly increased
+| buff2 = Heart Lamp (buff)
+| duration2 = Infinite
+| bufftip2 = Life regen is increased
+| buff3 = Well Fed
+| duration3 = Infinite
+| bufftip3 = Minor improvements to all stats<br/>{{expert|Minor improvements to all stats and increased life regeneration}}
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 2 seconds (Aura)
+| debufftip = Slowly losing life
+| hardmode = yes
+}}
+
+'''The Camper''' is a craftable [[Hardmode]] [[covering]]. While equipped, the player receives the [[Well Fed]], [[Heart Lamp (buff)|Heart Lamp]], and [[Campfire]] [[buffs]] at all times.
+
+The player will only deal 10% of their damage whenever they are moving, however they will be able to [[Health regeneration|regenerate health]] as if they were standing still, which results in more than doubled life regen than is normally attainable while moving.
+
+While standing still, the player gains a damage aura that deals roughly 200 damage per second and inflicts the [[On Fire!]] [[debuff]] onto nearby enemies. Additionally, while still, the player will be granted the following buffs:
+*All damage increased by 15%.
+*Nearby enemies will be inflicted with the [[On Fire!]] [[debuff]] and take 20-40 typeless damage.
+*While holding a [[Melee weapon]], the player is granted the [[Sharpened]] buff for one second and melee speed is increased by 10%.
+*While holding a [[Ranged weapon]], the player is granted the [[Ammo Box]] buff for one second.
+*While holding a [[Magic weapon]], the player is granted the [[Clairvoyance]] buff for one second.
+*While holding a [[Summon weapon]], the player is granted the [[Bewitched]] buff for one second and minion knockback is increased by 10%.
+*While holding a [[Spy weapon]], the player is granted 10% increased projectile velocity.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The Camper's damage aura scales off of an average of all the player's damage boosts.
+*The damage aura has a radius of 200 pixels, or 12.5 blocks.
+*The Camper's damage reduction also affects currently airborne projectiles. For example, shooting [[Chlorophyte Bullet]]s while at a standstill and moving before they hit their target will cause them to do reduced damage.
+
+== Trivia ==
+*The name of this item refers to the gaming term "camper," where a player remains in one place for an extended period of time.
+*The item is a reference to the [https://wiki.teamfortress.com/wiki/Cozy_Camper Cozy Camper] from ''[[wikipedia:Team Fortress 2|Team Fortress 2]]'', where there is a stainless pot and a bottle of [https://wiki.teamfortress.com/wiki/Jarate Jarate] hung behind.
+*This item is a reference to Reddit user ''u/Dzicozan'' as he managed to defeat [[The Devourer of Gods]] while standing in one place.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damage = 5
+| use = 15
+| knockback = 2
+| critical = 0%
+| velocity = 12
+| stack = 1
+| rare = 3
+| sell = {{value|0|0|80}}
+| debuff = Ichor (debuff)
+| debufftip = Defense reduced by 20
+| debuffduration = 8 seconds
+| debuffchance = 100%
+| tooltip = Shoots a straight line of ichor
+| hardmode = yes
+| auto = yes
+| element1 = Unholy
+}}
+
+The '''Golden Gun''' is a [[Hardmode]] [[classless weapon]] that shoots yellow ichor projectiles, and does not belong to any damage class. Its damage cannot be increased by any stat bonuses. Its projectile inflicts the [[Ichor (debuff)|Ichor]] [[debuff]] to enemies, which makes it useful to weaken bosses regardless of one's choice of class. This weapon does not consume any ammo or mana.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*As this weapon does not count as a specific weapon type, it does not provoke the penalty on minions' damage when holding a non-summoner weapon, making it an indispensable asset for [[Summon weapons|summon]]-based characters.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

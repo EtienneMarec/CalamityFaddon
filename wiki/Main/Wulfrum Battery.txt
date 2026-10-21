@@ -1,0 +1,26 @@
+{{infobox wrapper
+|{{item infobox
+| stack = 1
+| type = Covering
+| type2 = Crafting material
+| tooltip = 7% increased summon damage
+| rare = 1
+| sell = {{value|0|0|20}}
+}}
+|{{item drops infobox
+| [[Wulfrum Drone]]<br/>[[Wulfrum Gyrator]]<br/>[[Wulfrum Hovercraft]]<br/>[[Wulfrum Pylon]]<br/>[[Wulfrum Rover]] | 1 | 7%
+}}
+}}
+
+The '''Wulfrum Battery''' is a [[Pre-Hardmode]] [[covering]] dropped by [[Wulfrum Enemies]]. While equipped, it increases [[minion]] damage by 7%.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

@@ -1,0 +1,32 @@
+{{addon|Calamity: Community Remix}}
+{{npc infobox
+| type = Enemy
+| ai = Crackling AI
+| damage = {{dv|90|boost=0.15}}
+| life = {{99999}}
+| defense = 0
+| knockback = 0
+| environment = The Hallow
+| environment2 = The Underworld
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| duration = 6 seconds
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Holy Flames
+| immune4 = Moon Burnt
+| banner = no
+| hardmode = yes
+| postml = yes
+| hurt = ScornHurt.wav
+| killed = NPC_Killed_39.wav
+}}
+
+The '''Crackling''' is a Godseeker Mode [[enemy]] that is spawned by the [[Yggdrasil Ent]]. It will float towards the player in an attempt to deal contact damage, ceasing movement if the player looks in their direction. They are invincible until the Yggdrasil Ent that spawned them is killed, dying shortly after.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

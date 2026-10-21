@@ -1,0 +1,29 @@
+{{item infobox
+| type = Covering
+| rare = 15
+| stack = 1
+| tooltip = Loyalty<br/>For each Fiery Draconid you have summoned, you gain 1 minion slot
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|30}}
+| damagetype = summon
+}}
+
+The '''Godly Soul Artifact''' is a craftable Godseeker Mode [[covering]]. When worn, the player is granted an additional [[minion]] slot for every Fiery Draconid that has been summoned by the [[Yharon's Kindle Staff]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Godly Soul Artifact was previously a usable item that summoned the [[Dragon God, Yharon]] [[boss]], who has since been removed.
+
+{{Plates}}
+{{Master Template Equipables
+|show-main = yes
+|show-combat = yes
+}}
+[[Category:Combat coverings]]

@@ -1,0 +1,16 @@
+/* Ported from https://terraria.gamepedia.com/MediaWiki:Gadget-sound-styles.css. */
+
+/* These styles are applied before JS is loaded, to create the final layout
+   to prevent any FOUC */
+.client-js .sound-audio {
+	display: none;
+}
+
+.client-js .sound-title::after {
+	content: '';
+	display: inline-block;
+	width: 1.143em;
+	height: 1.143em;
+	margin-left: 0.286em;
+	vertical-align: text-top;
+}

@@ -1,0 +1,36 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Ammunition
+| tooltip = Releases polterhooks, grabbing onto nearby enemies
+| damage = 15
+| damagetype = ranged
+| stack = 9999
+| rare = 13
+| velocity = 5
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|0|20}}
+| debuff = Moon Burnt
+| debuffduration = 3 seconds (The dart, the polterhook's bite)
+| debuffchance = 100%
+| debufftooltip = Incinerated by lunar rays
+| proj = Polterghast map.png
+| projcaption = Polterhook
+| element1 = Water
+}}
+
+'''Nighterrial Darts''' are craftable Godseeker Mode [[darts]]. If an enemy is present in a 12 blocks radius, the dart will stop in its place and release a fast polterhook. The polterhook will try to grab the enemy in the radius, slowing it down by 30% if done successfully. Additionally, the polterhook will deal 150% of the dart's base damage every 2 seconds, inflicting the [[Moon Burnt]] [[Debuffs|debuff]] for 3 seconds. After 4 seconds have passed, the polterhook will disappear and the dart will fall down. There can only be 3 polterhooks at the same time on the same enemy and the dart itself can release only up to 3 polterhooks. Additionally, polterhooks from the same dart cannot grab the same enemy. If the polterhook limit was hit, the dart will act without any special effects, similarly to [[Poison Dart]].
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+==Notes==
+*This dart is especially strong against hordes of enemies, especially during [[events]], and bosses with multiple hitboxes.
+*The slow down effect stacks with each polterhook, up to 90% decreased enemy's movement speed.
+**However, during fights with [[Challenges|bosses]], the slow down effect is decreased to 10% per polterhook, stacking up to only 30%.
+
+{{-}}
+{{Ctota}}
+[[Category:Darts]]

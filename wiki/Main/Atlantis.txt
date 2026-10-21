@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 70
+| damagetype = magic
+| auto = yes
+| knockback = 5
+| mana = 12
+| tooltip = Casts aquatic spears that split as they travel
+| use = 25
+| velocity = 32
+| rare = 7
+| stack = 1
+| sell = {{value|0|12}}
+| hardmode = yes
+| proj = Atlantis Spear.png
+| projcaption = Atlantis Spear
+| element1 = Water
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Leviathan and Anahita]]|1| {{dv|25%|33.33%}}
+}}
+}}
+[[File:Atlantis (demo).gif|frame|right|Atlantis being used to strike target dummies infront and through a wall.]]
+The '''Atlantis''' is a [[Hardmode]] [[wand]] which is dropped by the [[Leviathan and Anahita]]. It shoots halberds which pierce and travel through walls, in a distinct pattern consisting of one halberd in a straight line, then two halberds connected in the shape of a V, heading outwards from the player in a straight line.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The name "Atlantis" originates from a [[wikipedia:Atlantis|fictional island of the same name]] from dialogues written by the Athenian philosopher, [[Wikipedia:Plato|Plato]].
+*This weapon appears to be a [[wikipedia:Halberd|halberd]], the same type of weapon that [[Anahita]] wields.
+*This weapon previously resembled a Trident, and before that, a [[spell tome]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

@@ -1,0 +1,76 @@
+{{dedicated|Weavil|Patreon Donator}}
+{{item infobox
+| type = Armor
+| defense = 32
+| rare = 8
+| sell = {{value|0|48}} (set)
+| buff = Lil' Plaguebringer (buff) | bufflink = no
+| bufftip = The plaguebringer will protect you
+| proj = Bee 1.png
+| projcaption = Bee
+| proj2 = Plaguenade Bee.gif
+| proj2caption = Plague Bee
+| setbonus = Grants a plague dash to ram enemies and afflict them with the plague<br/>Summons a lil’ plaguebringer to protect you and empower nearby minions<br/>+3 max minions
+| hardmode = yes
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| debuffduration = 5 seconds (Bees, Wasps, Dash)<br/>2 seconds (On minion hits)
+}}
+{{summoned|Lil' Plaguebringer|type=minion}}
+{{distinguish|Plague Reaper armor|a Hardmode armor set based on the ranged class}}
+
+'''Plaguebringer armor''' is a craftable [[Hardmode]] [[Covering]] set that is an upgrade to the [[Bee armor]]. It requires an entire Bee armor set, along with 2 [[Alchemical Flask]]s, [[Flower Boots]], 16 [[Plague Cell Canister]]s and 16 [[Infected Armor Plating]]s  to craft the entire set. While wearing the Plaguebringer Carapace, the wearer has a tank equipped behind them. While wearing all three set pieces, a motion blur afterimage is displayed while the player is walking, paired with additional trails of green dust while sprinting.
+
+It consists of a '''Plaguebringer Visor''', '''Plaguebringer Carapace''', and '''Plaguebringer Pistons'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*32 defense
+*40% increased summon damage
+*+3 max minions
+*+20 max life
+*15% increased movement speed
+*Halves the damage taken from the [[Plague]] [[debuff]]
+*Friendly bees and wasps inflict the Plague for 5 seconds.
+*Summons a small Plaguebringer that causes nearby summons to deal between 10 and 20 extra flat damage while active and deals 80 summon damage every second, additionally inflicting Plague for 2 seconds.
+*If the player moves at a speed of over 24 mph, they will begin releasing bees and plague-infected bees which home into nearby enemies and deal 30 summon damage.
+*Allows the player to dash a base distance of 23 blocks by double-tapping the {{key|left}} or {{key|right}} key. Any enemies contacting the plague clouds trailed from dashing will take 50 summon damage and will be inflicted with the Plague for 5 seconds. The player is granted 4 [[immunity frames]] when hitting an enemy with the dash.
+*The player has a chance to spawn flowers and other plants on grass beneath them, alongside random dye plants on grassless dirt, similarly to the [[Bloom Stone]].
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Plaguebringer Visor
+| type = Armor
+| defense = 7
+| body slot = Helmet
+| tooltip = 15% increased minion damage<br/>+20 max life
+| sell = {{value|0|16}}
+}}
+|{{item infobox
+| name = Plaguebringer Carapace
+| type = Armor
+| defense = 17
+| body slot = Shirt
+| tooltip = Reduces the damage caused to you by the plague<br/>12% increased minion damage<br/>Friendly bees inflict the plague
+| sell = {{value|0|16}}
+}}
+|{{item infobox
+| name = Plaguebringer Pistons
+| type = Armor
+| defense = 8
+| body slot = Pants
+| tooltip = 13% increased minion damage and 15% increased movement speed<br/>You grow flowers on the grass beneath you, chance to grow very random dye plants on grassless dirt<br/>You spawn bees while sprinting or dashing
+| sell = {{value|0|16}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Plaguebringer%}}
+
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

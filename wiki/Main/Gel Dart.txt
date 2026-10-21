@@ -1,0 +1,37 @@
+{{item infobox
+|type = Weapon
+|damage = 28
+|damagetype = Rogue
+|knockback = 2.5
+|velocity = 14
+|consumable = true
+|tooltip = Throws bouncing darts<br/>Stealth strikes ignore gravity and bounce more vigorously<br/>They additionally leak slime and cover enemies in dark sludge
+|use = 10
+|debuff = Slime (debuff)
+|debuffchance = 100%
+|debuffduration = 2 seconds
+|debufftip = You are dripping goo
+|debuff2 = Slow
+|debuffchance2 = 100%
+|debufftip2 = Horizontal movement speed is halved.
+|debuffduration2 = 2 seconds (stealth strike)
+|auto = yes
+| rare = 4
+| stack = 9999
+| buy = {{value|0|0|2|50}}
+| sell = {{value|0|0|0|50}}
+| element1 = Stab
+| element2 = Poison
+}}
+
+'''Gel Darts''' are [[Pre-Hardmode]] [[daggers]] that are purchased from the [[Bandit]] for {{sc|2}} {{cc|50}} each after [[The Slime God]] has been defeated. They start falling after travelling a short distance. They pierce up to three enemies or bounce off tiles three times before breaking on the fourth impact. They have a 50% chance of being recovered after being thrown.
+
+Performing a [[stealth strike]] with Gel Darts cause the resulting dart to ignore gravity, bounce farther and faster upon tile collision, pierce or bounce an additional two times, inflict [[Slow]], and releases streams of slime as it travels.
+
+{{Modifier|none}}
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Daggers]]

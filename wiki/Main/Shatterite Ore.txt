@@ -1,0 +1,35 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 200
+| stack = 9999
+| rare = 7
+| color = #000066
+| use = 14
+| value = 725
+| sell = {{value|0|0|20|0}}
+| hardmode = yes
+}}
+
+<big> ''"The walls of the Sunken Sea are shattering!"'' </big>
+
+'''Shatterite Ore''' is a [[Hardmode]] [[ore]] that generates in the [[Sunken Sea]] upon [[The Forbidden Lantern]]'s defeat. It is used to craft [[Shatterite Bar]]s. It requires at least an [[Drax]] or [[Pickaxe Axe]] to mine. 
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Shatterite}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

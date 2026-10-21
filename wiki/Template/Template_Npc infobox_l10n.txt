@@ -1,0 +1,27 @@
+<!-- 
+//register localization info:
+-->{{l10n/register|npc infobox|en<!--
+	-->|stats=Statistics<!-- 
+	-->|type=Type<!-- 
+	-->|damage=Damage<!-- 
+	-->|life=Max Life<!-- 
+	-->|dr=<abbr title="Damage Reduction">DR</abbr><!-- 
+	-->|kb=[[Knockback|KB]] Resist<!-- 
+	-->|power=Power<!-- 
+	-->|buff=Grants [[buff]]<!-- 
+	-->|buffduration=Buff duration<!-- 
+	-->|bufftip=Buff tooltip<!-- 
+	-->|debuff=Inflicts [[debuff]]<!-- 
+	-->|debuffduration=Debuff duration<!-- 
+	-->|debufftip=Debuff tooltip<!-- 
+	-->|immu=Immune to<!-- 
+	-->|all=All [[debuffs]]<!-- 
+	-->|except=All [[debuffs]] except<!-- 
+	-->|value=Value<!-- 
+	-->|buy=Buy<!-- 
+	-->|sell=Sell<!-- 
+	-->|tooltip=Tooltip<!-- 
+	-->|drops=Drops<!-- 
+	-->|items=Item <strong><small>(Quantity)</small></strong><strong>Rate</strong><!-- 
+-->}}<!--
+-->

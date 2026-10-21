@@ -1,0 +1,26 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Potion
+| type2 = Crafting material
+| stack = 999
+| tooltip = Medium improvements to all stats<br/>Increases life regeneration
+| consumable = Yes
+| rare = 7
+| use = 17
+| buff = Exquisitely Stuffed
+| bufftip = Major improvements to all stats<br/>{{expert|Major improvements to all stats and increased life regeneration}}
+| duration = 4 hours
+| sell = {{value|1|4|0}}
+| hardmode = yes
+}}
+'''Crimatoes''' are a consumable [[food item]] that can be rarely found growing within the [[Bloody Corn Maze]] which generates after [[Golem]] has been defeated. When consumed, it grants the [[Exquisitely Stuffed]] buff for 4 hours.
+
+==Crafting==
+===Used in (Any Food Item)===
+{{recipes|ingredient=Any Food Item}}
+{{-}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion=yes
+}}

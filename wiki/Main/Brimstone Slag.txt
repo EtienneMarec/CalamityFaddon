@@ -1,0 +1,27 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| pickreq = 100
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| auto = yes
+| rare = 3
+| color = #352138
+| sell = {{value|0|0|2}}
+| use = 14
+}}
+
+'''Brimstone Slag''' is a [[block]] that comprises most of the [[Brimstone Crag]] biome, and typically surrounds [[Charred Ore]]. It spawns naturally upon world generation. It requires at least a [[Molten Pickaxe]] to mine.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Brimstone Slag can be used to make an artificial Brimstone Crag anywhere in the world.
+
+{{Master Template Tiles
+|show-main = yes
+|show-blocks = yes
+}}

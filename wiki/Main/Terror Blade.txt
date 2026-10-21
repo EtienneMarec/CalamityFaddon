@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 630
+| use = 17
+| velocity = 20
+| knockback = 8.5
+| auto = yes
+| stack = 1
+| tooltip = Fires a terror beam that bounces off tiles<br/>On every bounce it emits an explosion
+| rare = 13
+| sell = {{value|0|26}}
+| hardmode = yes
+| postml = yes
+| proj = Terror Beam.png
+| projcaption = Terror Beam
+| element1 = Dark
+}}
+|{{item drops infobox
+| [[Polterghast]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Terror Blade''' is a Godseeker Mode [[broadsword]] that is dropped by [[Polterghast]]. On every swing, it fires a red terror beam that can bounce off tiles or pierce enemies a total of six times before exploding on the seventh impact. Large explosions will occur, on varying delays, at the locations that the beam bounced off of. An explosion also occurs at the first enemy the terror beam pierces. Each explosion deals 30% of the weapon's damage and can deal damage multiple times.
+
+{{modifier|melee}}
+
+== Trivia ==
+*Its name may be a reference to the [[Terra Blade]], another beam-firing sword.
+
+[[File:Terror Blade (demo).gif|frame|left|The Terror Blade being used in a room with a [[Target Dummy]], displaying its damage, bouncing ability, and the varying delays of its explosions.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

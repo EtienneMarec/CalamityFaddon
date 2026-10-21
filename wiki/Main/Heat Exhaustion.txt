@@ -1,0 +1,23 @@
+{{death mode only}}
+{{historical content}}
+{{buff infobox
+| type = Debuff
+| effects = Inflicts various debuffs to the player over time
+| tooltip = The overwhelming heat weakens your bodily functions. You need to look for equipment to protect you from the heat.
+| listexclude = yes
+}}
+
+'''Heat Exhaustion''' was a [[debuff]] caused being in [[The Underworld]] [[biome]] in [[Death Mode]] without any form of [[Death Mode#Temperature Protective Gear|Heat Immunity]]. It was initially harmless while active, but would increase in severity over time. The following debuffs were inflicted onto the player while this debuff was active and cumulatively built up:
+*[[Weak]] after 6 seconds
+*[[Slow]] after 12 seconds
+*[[On Fire!]] after 18 seconds
+*[[Confused]] after 24 seconds
+*[[Burning]] after 30 seconds
+The timer was raised twice as fast while the player contacts [[lava]]. The debuff was removed as soon as the player exits The Underworld or obtained Heat Immunity. However, the additional debuffs would slowly be removed over time rather than instantly.
+
+{{-}}
+{{historical}}
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

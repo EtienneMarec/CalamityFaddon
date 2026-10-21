@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 32
+| mana = 11
+| tooltip = Casts a gleaming flower that explodes into petals
+| knockback = 5.5
+| rare = 5
+| sell = {{value|0|7|20}}
+| use = 27
+| velocity = 14
+| stack = 1
+| hardmode = yes
+| proj = Gleaming Flower.png
+| projcaption = Gleaming Flower
+| proj2 = Gleaming Petal.png
+| proj2caption = Gleaming Petal
+| element1 = Poison
+}}
+
+The '''Gleaming Magnolia''' is a craftable [[Hardmode]] [[wand]] which is a direct upgrade to the [[Mana Rose]]. It casts a bright white-pink flower that decelerates into a complete stop. After 4.17 seconds have passed or upon contact with any enemy or blocks, it will explode into an even spread of six damaging small petals. The petals behave similarly to the main projectile, lasting two seconds before fading away, and dealing 75% of the main damage.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

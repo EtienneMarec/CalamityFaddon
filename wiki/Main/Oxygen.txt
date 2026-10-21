@@ -1,0 +1,82 @@
+<section begin="npc" infobox="" />{{npc infobox
+| name = Oxygen
+| type = Boss
+| imagealt = [[File:Oxygen.png]]
+| ai = Oxygen AI
+| environment = Space
+| life = {{dv|55,000|65,000|70,600}}
+| damage = {{dv|100|120|140|160}} (Contact)<br/>{{dv|2|5|7|10}} (Mist) <br/>{{dv|100|200|400|600}} (Junk)
+| defense = 59
+| dr = Dynamic
+| knockback = 200
+| money = {{gc|59}}
+| Essence of Babil|{{dv|4-8|5-9}}| 100%
+| Soul of Oxygen|1|100%
+| Oxygen Mask|1|14.29%
+| Oxygen Trophy|1|10%
+| custom| {{item|Cryogen (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| debuff = Chilled
+| debuffchance = 100%
+| duration = 20 seconds
+| debufftip = Your movement speed has been reduced
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune4 = Exo Freeze
+| vulnerable1 = Magic
+| resistant1 = Cold
+| resistant2 = Unholy
+| hardmode = yes
+| boxwidth = 24em
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_15.wav
+| sound = Item_28.wav
+| soundtext = Projectiles
+}}<section end="npc" infobox="" />''<big>"Must've been the wind.."</big>''
+
+'''Oxygen''' (Japanese: 酸素 ''Sanso'') is a [[Hardmode]] [[boss]] that is fought in [[Space]], and part of the [[Elemental route]]. It is also fought during [[Genesis (event)|Genesis]].
+
+Defeating Oxygen will drop the [[Soul of Oxygen]], which must be sold to the [[Archmage]] to continue the quest.
+==Spawn==
+Oxygen's spawn mechanics are hinted at by the [[Diviner Valkyrie]]. Oxygen must be summoned by using any kind of [[Lab Seeking Mechanism]] around the [[Planetoid]]s on a [[Windy Day]]. The mechanism will fly towards Oxygen and get stuck in its orbit, initiating the battle. 
+
+==Behavior==
+Oxygen has 5 main phases similar to [[Cryogen]]. Leaving [[Space]] will enrage Oxygen.
+
+==Tips==
+If you hyperventilate, the boss will immediately die.
+===Attacks===
+====1st Phase====
+*Oxygen's satellites revolve around the sphere, flying towards the player one-by-one and then returning to Oxygen's core. These satellites do not take damage.
+*Cold winds (indicated by the in-game dust) sweep across the screen towards the player. If the player comes into contact with them, they will take damage and be inflicted with [[Chilled]].
+*Oxygen drops ice blocks from the sky to crush the player from above.
+
+====2nd Phase====
+*Oxygen summons two [[Diviner Valkyrie]]s. These valkyries have slowed attacks and do not speak in chat.
+*Oxygen also has a chance to summon the [[Aether Valkyrie]] and [[Sunskater]]s.
+
+====3rd Phase====
+*Oxygen uses sunlight to create illusions of itself, and starts to move similarly to [[Brain of Cthulhu]]. Attacking the illusions absorbs the player's projectiles but deals no damage.
+
+====4th Phase====
+*Oxygen repeats its previous phases while distorting the player's audio with blowing wind. Any music tracks playing are lowered significantly in volume.
+
+====5th Phase====
+*Blows you
+
+===In [[Expert Mode]]===
+*Attacks now inflict [[Frostburn]].
+
+===In [[Revengeance Mode]]===
+*Oxygen and its projectiles are even more aggressive and faster.
+*The player will suffocate outside a certain radius of Oyxgen.
+
+===In [[Death Mode]]===
+*Now teleports.
+
+==Trivia ==
+*Oxygen's [[Music|theme]] is '''Aerobic Reinforcement''', which was composed by the artist [https://www.youtube.com/@Jteoh Jteoh].
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

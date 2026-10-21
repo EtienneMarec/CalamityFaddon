@@ -1,0 +1,146 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|SoulL|_|LighS|_|MagiM|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|      _|      _|      _|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|`|-|-|-|^|-|-|-|(|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|SoulF|_|EsseC|_|SkyFr|_|LumiO|_|LunaF|_|PriSh|_|#
+|      _|      _|      _|_|_|_|_|_|_|_|_|      _|#
+|_|`|-|-|-|^|-|-|-|(|_|_|_|I|_|_|_|I|_|_|_|I|_|_|#
+|_|_|_|_|_|_|_|_|HMANV|_|_|§|_|_|_|§|_|_|PHANV|_|#
+|EvilC|_|AquaS|_|InfeR|_|LumiB|_|GalaS|_|SeaPr|_|#
+|      _|      _|      _|      _|      _|      _|#
+|_|`|-|-|-|^|-|-|-|+|-|-|-|^|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|UltrL|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|:|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|Vivid|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+<!-- •• CRAFTING MATERIALS •• -->
+
+<!-- ••• Infernal Rift ••• -->
+
+|MagiM_cols = 3
+|MagiM_rows = 2
+|MagiM = {{item|Magic Missile}}<br/>
+( {{item|mode=image|Locked Gold Chest|size=24px}} {{item|mode=image|Golden Lock Box|size=24px}} {{item|mode=image|image=Map Icon Wizard.png|Wizard|size=20px}} )
+
+|LighS_cols = 3
+|LighS_rows = 2
+|LighS = {{item|Light Shard}} × 2<br/>
+( {{item|mode=image|Light Mummy|size=20px}} )
+
+|SoulL_cols = 3
+|SoulL_rows = 2
+|SoulL = {{item|Soul of Light}} × 16<br/>
+<span style="font-size: 0.75em">( [[Underground Hallow]] )</span>
+
+|SkyFr_cols = 3
+|SkyFr_rows = 2
+|SkyFr = {{item|Sky Fracture}}
+
+|EsseC_cols = 3
+|EsseC_rows = 2
+|EsseC = {{item|Essence of Chaos}} × 3<br/>
+<span style="font-size:0.75em">( Fire / Evil related creatures )
+
+|SoulF_cols = 3
+|SoulF_rows = 2
+|SoulF ={{item|Soul of Fright}} × 10<br/>
+( {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+|InfeR_cols = 3
+|InfeR_rows = 2
+|InfeR = {{item|Infernal Rift}}
+
+<!-- ••• Ultra Liquidator ••• -->
+
+|EvilC_cols = 3
+|EvilC_rows = 2
+|EvilC = {{item|Any Hardmode Evil Component}} x 20
+
+| SeaPr_cols = 3
+| SeaPr_rows = 2
+| SeaPr = {{item|Sea Prism}} × 10<br/>
+<span style="font-size:0.75em">( [[Sunken Sea]] )</span>
+
+| PriSh_cols = 3
+| PriSh_rows = 2
+| PriSh = {{item|Prism Shard}} × 50<br/>
+<span style="font-size:0.75em">( [[Sunken Sea]] / {{item|mode=image|Prism-Back|size=28px}} {{item|mode=image|Blinded Angler|size=28px}} )</span>
+
+|AquaS_cols = 3
+|AquaS_rows = 2
+|AquaS = {{item|Aqua Scepter}}<br/>
+( {{item|mode=image|Locked Gold Chest|size=24px}} {{item|mode=image|Golden Lock Box|size=24px}} )
+
+|LumiB_cols = 3
+|LumiB_rows = 2
+|LumiB = {{item|Luminite Bar}} × 5
+
+|LumiO_cols = 3
+|LumiO_rows = 2
+|LumiO = {{item|Luminite}} × 20<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=20px}} )
+
+|GalaS_cols = 3
+|GalaS_rows = 2
+|GalaS = {{item|Galactica Singularity}} × 5
+
+|LunaF_cols = 3
+|LunaF_rows = 2
+|LunaF = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 5<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+|UltrL_cols = 3
+|UltrL_rows = 2
+|UltrL = {{item|Ultra Liquidator}}
+
+|Vivid_cols = 3
+|Vivid_rows = 2
+|Vivid = ''[[Vivid Clarity/Crafting tree|Vivid Clarity<br/>crafting tree]]''
+
+<!-- •• CRAFTING STATIONS •• -->
+
+|BOOKC_cols = 3
+|BOOKC_class = craft-station
+|BOOKC = {{item|mode=image|Bookcase}}
+
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|HMFRG_cols = 3
+|HMFRG_class = craft-station
+|HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+
+}}</div>
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

@@ -1,0 +1,46 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = You leave behind poisonous seawater as you move<br/>30% increased movement speed, 10% increase to all damage, and plus 10 defense while submerged in liquid<br/>If you are damaged while submerged in liquid you will gain a damaging aura for a short time<br/>Being outside of liquid increases all damage by 5% and increases damage reduction by 5%
+| rare = 7
+| sell = {{value|0|9|60}}
+| defense = 20
+| stack = 1
+| hardmode = yes
+| debuff = Poisoned
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 2 seconds (Poisonous seawater)
+| debuff2 = Venom
+| debufftip2 = Losing life
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds (Poisonous seawater)
+| element1 = Water
+| element2 = Poison
+}}
+|{{item drops infobox
+|[[Leviathan and Anahita]]|1|100%
+}}
+}}
+{{dablink|If you were looking for something other than the Leviathan Ambergris, see [[Leviathan (disambiguation)]].}}
+
+The '''Leviathan Ambergris''' is a [[Hardmode]] [[covering]] dropped by the [[Leviathan and Anahita]]. It leaves poisonous seawater as the player moves and grants a boosts to damage, [[defense]], and movement speed while submerged in water. If the player is not submerged in liquid, they will receive 5% increased damage and damage reduction. If the player is damaged while they are submerged in liquid, they gain an aura around themselves for a short time which damages nearby enemies.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This covering will not give its additional boosts when the player is submerged in honey or lava.
+*The poisonous seawater has a base damage of 50.
+
+== Trivia ==
+*[[wikipedia:Ambergris|Ambergris]] is a waxy substance produced in the digestive systems of whales. The substance can be sold for up to thousands of dollars due to its high value in the perfume industry.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

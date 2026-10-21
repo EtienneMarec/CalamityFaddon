@@ -1,0 +1,23 @@
+{{Expert mode only}}
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = Spawns A Void Barrier around you that shields you from A hit <br/> You release Dark Energy when you get hit and the barrier breaks<br/>This effect has a 90 second cooldown which is shared with all other dodges and effects
+| rare = rainbow
+| sell = {{value|0|24}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+}}
+|{{item drops infobox
+| [[Ceaseless Void]]|1|{{expert|100%}}
+}}
+}}
+
+The '''Arcanum of the Void''' is an [[Expert Mode]]-exclusive Godseeker Mode [[covering]] that is obtained from the [[Treasure Bag]] dropped by [[Ceaseless Void]]. It summons a Void Barrier around the player. Getting hit blocks that hit and creates an explosion and releases Homing Dark Energy Projectiles that last for 4 seconds and deals ~200 DPS. This effect can only occur every 90 seconds.{{-}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}

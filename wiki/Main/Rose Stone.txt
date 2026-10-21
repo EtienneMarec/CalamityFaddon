@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = One of the ancient relics<br/>Summons a brimstone elemental to fight for you
+| sell = {{value|0|4|80}}
+| rare = 5
+| damage = 60
+| damagetype = summon
+| stack = 1
+| hardmode = yes
+| buff = Brimstone Elemental (buff) | bufflink = no
+| bufftip = The brimstone elemental will protect you
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| debuffduration = 4 seconds (Projectiles)
+| element1 = Fire
+| element2 = Unholy
+| proj = Brimstone Hellfireball.gif
+| projcaption = Brimstone Fireball
+}}
+|{{item drops infobox
+| [[Brimstone Elemental]]|1|20%
+}}
+}}
+{{summoned|Brimstone Elemental (minion)|name=Brimstone Elemental|type=minion}}
+The '''Rose Stone''' is a [[Hardmode]] [[covering]] that has a 20% chance to be dropped by the [[Brimstone Elemental]]. It summons a friendly Brimstone Elemental to protect you, which attacks nearby enemies by shooting brimstone fireballs or through contact damage.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Brimstone Elemental's attacks grant enemies 20 local [[immunity frames]].
+
+== Trivia ==
+*The Brimstone Elemental minion used to be called "Brimmy Waifu". After that, she was known as "Miss Brimmy".
+*The Brimstone Elemental’s projectile was previously called "Big Busty Rose" in the mod's source, a reference to her arguably large breast size. <!---Horny smh:skull: (i condemn)--->
+*If the {{fantag|Tranquility Mod}} [[Tranquility Mod]] is enabled, this item becomes unobtainable, due to being replaced with [[Brimstone Elemental's Soul]].
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

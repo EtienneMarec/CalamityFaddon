@@ -1,0 +1,48 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 444
+| knockback = 5
+| mana = 10
+| use = 27
+| velocity = 9
+| tooltip = Casts a magic circle that charges energy and eventually releases a powerful laser burst of controlled maleficent magic<br/>The laser causes arms and searing lava to appear on surfaces it touches which harm both you and enemies<br/>{{color|Forgiveness can only heal so much,|#C61B40}}<br/>{{color|If the recipient has not yet forgiven themselves.|#C61B40}}
+| rare = 15
+| sell = {{value|0|30}}
+| element1 = Fire
+| element2 = Dark
+| element3 = Unholy
+| stack = 1
+| hardmode = yes
+| postml = yes
+| image2 = Rancor Book.gif
+| image2caption = Holdout Book
+| image3 = Rancor Magic Circle.png
+| image3caption = Magic Circle
+| debuff = Rancor Burn | debufflink = no
+| debufftip = Burning
+| debuffchance = 100%
+| debuffduration = 2.5 seconds (Laser)
+}}
+'''Rancor''' is a Godseeker Mode [[magic weapon]]. It is the [[exhumed]] form of the [[Burning Sea]]. It creates a magic circle a set distance away from the player. After 4 seconds, the magic circle fires a large laser beam that pierces infinitely. Upon contact with solid tiles, the laser spawns dust, fog, and lava at the impact location. Additionally, damaging arms emerge out which deal 66.67% of the laser's damage, along with large cinders which fly out and deal 33.33% of the laser's damage. Both arms and cinders can also damage the player (the arms do {{dv|200-250|400-500}} damage, while the cinders do {{dv|100-150|200-300}} damage). Enemies struck by the laser beam are inflicted by the '''Rancor Burn''' debuff, which cause them to disintegrate into ashes on death.
+
+{{Modifier|magic}}
+
+==Crafting==
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+[[File:Rancor (demo).gif|frame|left|Rancor fired at a row of three grounded [[Target Dummy|Target Dummies]], then at a wall.]]
+
+{{-}}
+== Trivia ==
+*The word "rancor" means bitterness or ruthlessness.
+*The magic circle that the weapon summons is based on the Human Transmutation Circle from ''[[wikipedia:Fullmetal_Alchemist|Fullmetal Alchemist]].''
+**The weapon's damage of 444 references the fact that repetition of the number 4 usually represents death in Eastern media.
+{{-}}
+{{Exhumed}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}

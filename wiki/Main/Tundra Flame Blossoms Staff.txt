@@ -1,0 +1,43 @@
+{{item infobox
+| boxwidth = 22em
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 45
+| mana = 10
+| knockback = 3
+| use = 24
+| tooltip = Summons three unusual flowers over your head<br/>Each flower consumes one minion slot
+| buff = Tundra Flame Blossom (buff) | bufflink = no
+| bufftip = A perfect unison of balance and beauty
+| stack = 1
+| rare = 5
+| sell = {{value|0|4|80}}
+| hardmode = yes
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| proj = Tundra Flame Blossom Orb.png
+| projcaption = Tundra Flame Blossom Orb
+| element1 = fire
+| element2 = cold
+}}
+{{summoned|Tundra Flame Blossom|type=minion}}
+
+The '''Tundra Flame Blossoms Staff''' is a craftable [[Hardmode]] [[summon weapon]]. When used, it summons up to three pink flowers that orbit around the player, and passively fire three Blossom Orbs which inflicts the [[Frostburn]] [[debuff]]. If a target is nearby, the flower fires 3.1x faster and the projectiles are sped up by 2.33x. Unlike most minions, only one set of Tundra Flame Blossoms can be summoned.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Flarefrost}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

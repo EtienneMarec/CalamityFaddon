@@ -1,0 +1,41 @@
+{|align=right
+|{{item infobox
+| type = Weapon
+| damage = 500
+| critical = 0%
+| use = 30
+| knockback = 10
+| velocity = 12
+| hardmode = yes
+| tooltip = Uses Grenade Shells<br/>Can be used twice per boss battle
+| rare = 5
+| stack = 1
+| sell = {{value|0|7|20}}
+| auto = yes
+| element1 = Fire
+| element2 = Bomb
+}}
+|}
+
+The '''Bazooka''' is a craftable [[Hardmode]] [[classless weapon]]. When used, it fires a rocket that is affected by gravity after half a second of travel, and explodes when hitting an enemy or a tile. 1% of the target's health is added to the damage of each rocket, and another 1% from the explosion.
+
+It uses [[Grenade Shells]] as ammo, which can be purchased from the [[Arms Dealer]] if the player has the Bazooka in their inventory.
+
+Once a boss is spawned, the Bazooka is only fireable twice until the boss is defeated.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not have any critical strike chance and cannot gain any from [[coverings]], [[Modifier]]s, [[Buff]]s and [[Covering]] bonuses.
+
+== Trivia ==
+*This weapon is based off a real life [[wikipedia:Bazooka|bazooka]].
+
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

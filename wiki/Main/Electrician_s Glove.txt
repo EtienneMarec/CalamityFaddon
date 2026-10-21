@@ -1,0 +1,27 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Stealth strikes summon sparks on enemy hits<br/>Stealth strikes have +10 armor penetration, deal 10% more damage, and heal for 1 HP
+| sell = {{value|0|4|80}}
+| rare = 5
+| stack = 1
+| hardmode = yes
+| element1 = Magic
+| element2 = Fire
+}}
+
+The '''Electrician's Glove''' is a craftable [[Hardmode]] [[Spy]] [[covering]] that is the direct upgrade to both the [[Bloodstained Glove]] and [[Filthy Glove]]. When equipped, the player's [[stealth strike]]s deal 10% more damage, have +10 armor penetration, and [[lifesteal|heal]] the player for 1 HP. Stealth strikes also release several gravity affected sparks that linger on the ground for several seconds, damaging enemies that contact them. The sparks deal 20 typeless damage which can be affected by Spy damage bonuses. Sparks can be released on up to five enemy hits per projectile.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Healing items]]
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

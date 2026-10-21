@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 20
+| mana = 10
+| knockback = 7
+| use = 19
+| tooltip = Releases a small, special variant of the plaguebringers
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffduration = 3 seconds
+| debuffchance = 100%
+| buff = Mini Plaguebringer (buff) | bufflink = no
+| bufftip = A small plague bee is following you
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 8
+| sell = {{value|0|16}}
+| proj = Mini Plaguebringer Rocket.gif
+| projcaption = Plague Missile
+| proj2 = Mini Plaguebringer Homing Rocket.gif
+| proj2caption = Homing Plague Missile
+| element1 = Poison
+| element2 = Holy
+| element3 = Machine
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Mini Plaguebringer|type=minion}}
+
+The '''Fuel Cell Bundle''' is a [[Hardmode]] [[summon weapon]] that drops from [[The Plaguebringer Goliath]]. When used, it throws a small gravity-affected flask that deals no contact damage, but summons a small and armed miniature [[Plaguebringer]] minion upon tile contact. Plaguebringer minions stay at a certain distance from enemies to rapidly fires explosive missiles that inflict the [[Plague]] [[debuff]]. Occasionally, a homing variant of the explosive plague missile is fired.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

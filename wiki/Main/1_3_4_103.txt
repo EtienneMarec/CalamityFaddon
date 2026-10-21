@@ -1,0 +1,83 @@
+{{Patch infobox
+| image = Crabulon.png
+| size = 300px
+| patchname = Update 1.3.4.103
+| release = 9/15/2018
+}}
+{{toc limit|3|right=yes}}
+The '''1.3.4.103''' update moved some boss attacks and servants to [[Revengeance Mode]], resprited [[Crabulon]] and [[Cryogen]], fixed a handful of bugs, and removed the [[Future bosses]]. This update was the final version in the 1.3 series of updates.
+
+
+== Additions ==
+*Added [[Crabulon Mask]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*Several boss attacks and servants have been moved to Revengeance Mode:
+**[[Astrageldon Slime]] now gains its modified laser pattern in Revengeance Mode.
+**The [[Astrum Deus Probe]]s spawned by striking [[Astrum Deus]]' body now only spawn in Revengeance Mode and higher.
+**[[Brimstone Elemental]] now only spawns [[Brimling]]s in Revengeance Mode and higher.
+**[[Signus, Envoy of the Devourer]] now only spawns [[Cosmic Mine]]s in Revengeance Mode and higher.
+**[[The Siren]] now only spawns [[Siren Clone]]s in Revengeance Mode and higher.
+*[[Calamitas]] now spawns more [[Life Seeker]]s in Revengeance Mode.
+*Buffed [[Ceaseless Void]]'s health from {{dv|150|400}} to {{dv|200|400}}.
+*Ceaseless Void now summons rings of [[Dark Energy|Dark Energies]] in Revengeance Mode.
+*Crabulon now summons falling walls of evenly-spaced Crab Shrooms in Revengeance Mode.
+*Crabulon can now drop 1 Crabulon Mask.
+*Buffed [[Cryocore]] (buffed)'s defense from 0 to 10.
+*Cryogen's sprite now changes in its final phase.
+*[[Jungle Dragon, Yharon]] now uses [[Music#Roar of the Jungle Dragon|Roar of the Jungle Dragon]] as his theme in phase 2 once he reaches 25% health.
+*[[Lunatic Cultist]] now uses [[Music#You Shall Know No More|You Shall Know No More]] as its theme.
+
+=== Items ===
+*[[The Amalgam]] now makes the player immune to [[Lava]].
+*Adjusted The Amalgam's animation speed.
+*[[Draedon's Forge]] now also counts as an [[Anvil]], [[Furnace]], and [[Work Bench]].
+*The soul artifacts have been reworked into accessories, no longer summon their respective [[Future bosses]] and now use the {{rare|16}} rarity.
+**Dimensional Soul Artifact now boosts the player's damage and critical strike chances by 15%, but makes them take 25% more damage.
+**Eldritch Soul Artifact now boosts the player's melee speed by 10%, increases their ranged and throwing projectile speeds by 25%, reduces their mana cost by 25%, increases their throwing damage by 15%, and increases max minions by 2.
+**Godly Soul Artifact now summons 2 Sons of Yharon identical to the ones summoned by [[Yharon's Kindle Staff]].
+
+=== Recipes ===
+*[[Cosmilite Brick]]'s base recipe now yields 20 instead of 1.
+*[[Profaned Crystal]]'s recipe now requires 10 [[Glass]] instead of 1.
+*[[Profaned Rock]]'s recipe now yields 1 instead of 10.
+
+=== Other ===
+*Lowered the amount of extra damage Revengeance Mode causes.
+*[[The Underworld]] now uses [[Music#The Step Below Hell|The Step Below Hell]] as its theme.
+
+=== Resprites ===
+==== Items ====
+*Resprited [[Bittercold Staff]], [[Demonic Pitchfork]], [[Effluvium Bow]], [[Frostspark Bullet]], [[Fungicide]], [[Glacial Crusher]], [[Grand Guardian]], [[Hellwing Staff]], [[Hyphae Rod]], [[Ice Star]], [[Icebreaker]], [[Megalodon]], [[Mortar Round]], [[Mycelial Claws]], [[Mycoroot]], [[Night's Stabber]], [[Avalanche|Permafrost]], [[Phantasmal Fury]], [[Snowstorm Staff]], [[True Night's Stabber]], [[True Paladin's Hammer]].
+*Resprited [[Elemental Quiver]], [[Fungal Clump]], [[Soul of Cryogen]].
+*Resprited [[Cryogen Mask]].
+*Resprited [[Cryogen Trophy]].
+*Resprited [[Cryo Key]], [[Decapodita Sprout]], [[Fabsol]], [[Frigid Bar]], [[Mushroom Plasma Root]], [[Treasure Bag (Crabulon)]], [[Treasure Bag (Cryogen)]].
+
+==== NPCs ====
+*Resprited [[Aurora Spirit]], [[Crab Shroom]], Crabulon, [[Cryocore]], [[Cryocore]] (buffed), Cryogen, [[Cryogen's Shield]].
+
+==== Projectiles ====
+*Resprited Bittercold Staff's snowflake, Crabulon's mushroom projectile.
+
+==== Buffs ====
+*Resprited [[Fungal Clump (buff)]], [[Invincible]], [[Irradiated]], [[Mushy]], [[Silva Stun]], [[Squishy Bean (buff)]], [[Temporal Sadness]].
+
+==== Other ====
+*Resprited Crabulon, Cryogen, and Providence, the Profaned Goddess' gores.
+*Resprited Crabulon and Cryogen's map icons.
+
+== Fixes ==
+*Fixed a bug with [[Astral Arcanum]]'s UI.
+*Fixed [[Counter Scarf]]'s dodge triggering on friendly NPCs.
+*Fixed a bug where both of [[Runic Profaned Brick]]'s recipes were combined.
+*Fixed a bug where [[Static Refiner]] dropped a [[Void Condenser]] when broken.
+
+== Removals ==
+*Removed [[Ancient Doomsayer]], [[The Devourer of Universes]], and [[Dragon God, Yharon]], along with the stat buffs the player gained after defeating them.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

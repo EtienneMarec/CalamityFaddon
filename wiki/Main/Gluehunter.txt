@@ -1,0 +1,37 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| damage = 1560
+| damagetype = Ranged
+| knockback = 3.5
+| use = 40
+| velocity = 30
+| tooltip = Hunts your enemies with no possibility to escape.
+| rare = C2
+| sell = {{value|1}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Evercold
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| element1 = Cold
+| element2 = Water
+| element3 = Dark
+}}
+The '''Gluehanter''' is a craftable Post-[[Purgatory Arbiter, Umbrus]] [[gun]]. It slowly fires high velocity homing bullets.
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

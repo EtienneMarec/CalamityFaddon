@@ -1,0 +1,51 @@
+{{distinguish|Abyssal Flames|a similar [[debuff]] primarily inflicted by [[Supreme Calamitas]]}}
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-8 health per second (if player)<br/>-20 health per second (if enemy)
+| tooltip = Rapid health loss
+}}
+
+'''Brimstone Flames''' is a [[debuff]] inflicted by many sources throughout the Calamity Mod. If inflicted on an enemy, they lose 20 health per second. If inflicted on the player, they instead lose 8 health per second. The inflicted target will always emit bright red particles.
+
+If the target is inflicted with [[Oiled]], they lose 25 health per second instead of 20.
+
+The player can become immune to Brimstone Flames by equipping the [[Asgardian Aegis]] [[covering]] or consuming [[Purified Jam]]. Equipping the [[Abaddon]] or [[Asgard's Valor]] coverings will reduce the damage from Brimstone Flames.
+
+== Causes ==
+=== From player ===
+In addition to the causes listed below, items that inflict [[Elemental Mix]] will inflict Brimstone Flames as a part of that.
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

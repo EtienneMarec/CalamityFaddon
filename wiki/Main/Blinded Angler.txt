@@ -1,0 +1,35 @@
+{{npc infobox | boxwidth = 27em
+| type =Aquatic
+| environment = Sunken Sea
+| ai = Blinded Angler AI
+| damage = {{dv|150|300}}
+| life = {{dv|750|1500}}
+| defense = 30
+| dr = 20%
+| knockback = {{dv|90%|91%}}
+| money = {{sc|40}}
+| banner = yes
+| Prism Shard|5-9| 100%
+| custom| {{item|Clam Chowder|wrap=y}} | 2%
+| Eutrophic Scimitar| 1 | 25%
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Eutrophication
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Stab
+| vulnerable2 = Poison
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Slash
+| resistant3 = Dark
+}}
+{{distinguish|Angler|a pre-Hardmode Town NPC.}}
+
+The '''Blinded Angler''' is a [[Hardmode]] [[enemy]] found in the [[Sunken Sea]] biome. Much like other enemies in the Sunken Sea, they are initially passive and slowly swim back and forth. Unlike other Sunken Sea enemies, however, they become aggressive if the player is very close to them (~5 blocks away), and will try to swim towards the player to deal contact damage. They go back to being passive if the player gets out of range, and dealing damage to them does not change their behavior.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| imagebreak = yes
+| stack = 9999
+| type = Block
+| type2 = Crafting material
+| type3 = Light Source
+| use = 14
+| rare = 2
+| color = #0096C8
+| sell = {{value|0|0|1}}
+| placeable = yes
+| auto = yes
+| consumable = yes
+}}
+|{{item drops infobox
+| [[Prism-Back]] (after [[Desert Scourge]] is defeated) | 1-3 | 100%
+| [[Blinded Angler]] | 5-9 | 100%
+}}
+}}
+
+'''Prism Shards''' are [[Pre-Hardmode]] [[crafting material]]s that are naturally generated in the [[Sunken Sea]] biome. They are used to craft [[Sea Prism]]s, the [[Aquashard Shotgun]], and pieces of the [[Eutrophic Shelf|Eutrophic furniture set]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Prism Shards can additionally be obtained as a drop from [[Blinded Angler]]s and [[Prism-Back]]s after the [[Desert Scourge]] is defeated.
+*5-10 Prism Shards can additionally be obtained as a drop from [[Sunken Crate]]s after the Desert Scourge is defeated.
+*Prism Shards counts as a light source in housing requirement.
+{{Sea Prism}}
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

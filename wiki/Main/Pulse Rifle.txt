@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = Ranged
+| tooltip = Draedon's former pulse rifle, used in emergencies for creations which turned against him<br/>When the pulse hits a target it will arc to another nearby target<br/>Current Charge: [CHARGE]
+| damage = 1420
+| knockback = 0
+| rare = a
+| sell = {{value|0|28}}
+| use = 35
+| velocity = 5
+| hardmode = yes
+| postml = yes
+| element1 = Dark
+| element2 = Stab
+| element3 = Machine
+}}
+
+The '''Pulse Rifle''' is a craftable Godseeker Mode [[ranged weapon]]. When fired, a large purple beam is fired that creates a small dust explosion when contacting a block or enemy. The beam will arc towards other nearby enemies once contacting an enemy.
+
+The weapon consumes 0.24 units of [[charge]] per use and has a maximum charge of 250.
+
+{{Modifier|rangednokb}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier5}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

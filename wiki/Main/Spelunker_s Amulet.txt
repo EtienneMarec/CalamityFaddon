@@ -1,0 +1,23 @@
+{{item infobox
+| type = Covering
+| tooltip = Spelunker effect and 15% increased mining speed
+| stack = 1
+| sell = {{value|0|2|40}}
+| rare = 4
+| hardmode = yes
+}}
+
+The '''Spelunker's Amulet''' is a craftable [[Hardmode]] [[covering]] that grants the player the [[Spelunker]] effect, which reveals the location of [[ores]], [[herb]]s, [[chest]]s, etc. It also grants 15% increased mining speed.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Mining coverings]]

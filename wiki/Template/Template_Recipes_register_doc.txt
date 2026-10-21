@@ -1,0 +1,36 @@
+This template is used to store the data for a recipe into the [[Special:CargoTables/Recipes|cargo database]].
+
+== Usage ==
+<code class="code-template" style="display:inline-block;"><!--
+-->{&#123;recipes/register<br/><!--
+-->| station = ''&lt;crafting station name&gt;''<br/><!--
+-->| result = ''&lt;result item name&gt;'' | amount = ''&lt;result item amount&gt;'' <span class=note-text>| text = ''&lt;result item text&gt;'' '''(optional)''' | image = ''&lt;result item image&gt;'' '''(optional)'''</span><br/><!--
+-->| ''&lt;ingredient 1 name&gt;''¦''&lt;ingredient 1 text&gt;'' '''(optional)''' | ''&lt;ingredient 1 amount&gt;''<br/><!--
+-->| ''&lt;ingredient 2 name&gt;''¦''&lt;ingredient 2 text&gt;'' '''(optional)''' | ''&lt;ingredient 2 amount&gt;''<br/><!--
+-->...<br/><!--
+-->| ''&lt;ingredient n name&gt;''¦''&lt;ingredient n text&gt;'' '''(optional)''' | ''&lt;ingredient n amount&gt;''<br/><!--
+-->}}<!--
+--></code>
+
+== Notes ==
+* All result and ingredient amounts are required, even if they are 1.
+* The {{code|text}} and {{code|image}} parameters are rarely used, and are only appropriate in edge cases.
+** The {{code|¦<ingredient text>}} markup is also rarely used, and is only appropriate in edge cases.
+* Here's a list of all /register subpages (the pages where recipe data is stored):
+{{collapse top|List of all /register pages}}
+<div style="-webkit-column-count:3;column-count:3;">
+{{#dpl:
+|namespace=
+|titlematch=Recipes/%/register
+|ordermethod=title
+|columns=3
+}}
+</div>
+{{collapse bottom}}
+
+<includeonly>
+[[Category:Recipes templates| ]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

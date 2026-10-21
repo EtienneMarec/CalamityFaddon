@@ -1,0 +1,28 @@
+{{item infobox
+| type = Tool
+| damagetype = melee
+| pick = 190
+| auto = yes
+| damage = 14
+| knockback = 18
+| use = 15
+| rare = 15
+| stack = 1
+| sell = {{value|0|1|22}}
+| toolspeed = 40
+| hardmode = yes
+| element1 = Magic
+| element2 = Stab
+}}The '''Titanium Drill''' is a [[Hardmode]] [[drill]], and is part of the set of items crafted with Catastrophe Clay Ore. it shares statistics with the Titanium Drill. Similarly to most drills, it cannot be reforged with size, speed, or [[knockback]] [[modifiers]].
+
+It can mine all blocks before [[Chlorophyte Ore]] and [[Lihzahrd Brick]]s.
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Catastrophe Clay}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

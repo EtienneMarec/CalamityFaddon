@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 29
+| tooltip = Fires a stream of slime when enemies are near<br/>A very agile yoyo
+| use = 21
+| knockback = 3.5
+| stack = 1
+| reach = 20
+| attduration = {{infinity}}
+| auto = yes
+| rare = 4
+| sell = {{value|0|2|40}}
+| debuff = Slime (debuff)
+| debufftip = You are dripping goo
+| debuffchance = 100%
+| debuffduration = 5 seconds (Yoyo)<br/>30 seconds (Slime blobs)
+| proj = God's Gambit Yoyo.png
+| projcaption = The God's Gambit
+| element1 = Poison
+}}
+
+'''The God's Gambit''' is a craftable [[Pre-Hardmode]] [[yoyo]]. While enemies are nearby, the yoyo will constantly drop slime blobs that apply the [[Slime Gun|Slime]] debuff and damage enemies. When the yoyo returns to the player, another one will be automatically thrown if they are still holding the fire button.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Purified Gel}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]

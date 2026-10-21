@@ -1,0 +1,18 @@
+{{addon|Calamity: Tales of the Aquatic}}{{item infobox
+| type = Covering
+| tooltip = Summons 5 essense based minion's to protect you, Each consuming 1 minion slot. They can inflict the Vaporfied debuff for 1 second
+| rare = 6
+| sell = {{value|0|2}}
+| stack = 1
+| hardmode = yes
+| post-ml
+|debuff=Vaporfied|debuffchance=10%|debuffduration=1 second|type2=Crafting material}}The '''Calamitous Orbit''' is A Craftable Post-[[tgc:Moonlord|Moonlord]] [[coverings|Covering]]. When Worn, It summons five minion's with one representing each essence around you, Each consuming 1 minion slot. They fire fast moving energy bolts at enemy's that Deal ~44 DPS and have a chance to inflict Vaporfied for 4 seconds.
+
+==Crafting==
+{{Crafting recipe|item1=Core of Calamity|amount1=10|item2=Luminite Bar|amount2=10|item3=Life Alloy|amount3=10|item4=Galactica Singularity|amount4=10|item5=Gold Ring|tool=Ancient Minipulator}}
+
+===Used in===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}

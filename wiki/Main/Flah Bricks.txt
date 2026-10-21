@@ -1,0 +1,122 @@
+{{stub}}
+{{infobox wrapper|
+{{item infobox
+| name = Red Flah Brick
+| image = Red Flah Brick.png
+| type = Block
+| auto = yes
+| stack = 9999
+| rare = 16
+| color = #CD3037
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| use = 14
+| sell = No value
+}}
+{{item infobox
+| name = Pink Flah Brick
+| image = Pink Flah Brick.png
+| type = Block
+| auto = yes
+| stack = 9999
+| rare = 16
+| color = #EFAAAA
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| use = 14
+| sell = No value
+}}
+{{item infobox
+| name = Void Flah Brick
+| image = Void Flah Brick.png
+| type = Block
+| auto = yes
+| stack = 9999
+| rare = 16
+| color = #23004C
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| use = 14
+| sell = No value
+}}
+{{item infobox
+| name = Lavender Flah Brick
+| image = Lavender Flah Brick.png
+| type = Block
+| auto = yes
+| stack = 9999
+| rare = 16
+| color = #DBB6F5
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| use = 14
+| sell = No value
+}}
+{{item infobox
+| name = Gold Flah Brick
+| image = Gold Flah Brick.png
+| type = Block
+| auto = yes
+| stack = 9999
+| rare = 16
+| color = #CD9F6E
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| use = 14
+| sell = No value
+}}
+{{item infobox
+| name = Green Flah Brick
+| image = Green Flah Brick.png
+| type = Block
+| auto = yes
+| stack = 9999
+| rare = 16
+| color = #82DBAC
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| use = 14
+| sell = No value
+}}
+{{item infobox
+| name = Grey Flah Brick
+| image = Grey Flah Brick.png
+| type = Block
+| auto = yes
+| stack = 9999
+| rare = 16
+| color = #6B5557
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| use = 14
+| sell = No value
+}}
+}}
+
+'''Flah Bricks''' are Epilogue [[block]]s that are available in several colors.
+
+== Crafting ==
+=== Recipes ===
+{{recipes|result=LIKE %Flah Brick|link=n|cate=force|expectedrows=7}}
+=== Used in ===
+{{recipes|ingredient=LIKE %Flah Brick|expectedrows=7}}
+{{-}}
+{{Flah}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

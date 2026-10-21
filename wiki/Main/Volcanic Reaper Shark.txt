@@ -1,0 +1,53 @@
+{{dablink|This article is about the buffed mini boss encountered in the [[Abyss]] biome. For the pickaxe with a similar name, see [[Ripper Shark]]. For the unbuffed mini boss, see [[Reaper Shark]].}}
+{{addon|Polyphemalus}}
+{{npc infobox
+| type = Flying Enemy
+| type2 = Aquatic
+| ai = VolcanoShark AI
+| environment = Abyss
+| life = {{dv|320,022|522,220}}
+| damage = {{dv|222|boost=0.31}}
+| defense = 100
+| resistant1 = Fire
+| resistant2 = Stab
+| resistant3 = Unholy
+| resistant4 = Dark
+| vulnerable1 = Water
+| resistant5 = Cold
+| knockback = 222
+| debuff = Scorinfestation
+| debufftip = Consumed by magma
+| debuffchance = 100%
+| duration = 3 minutes
+| debuff2 = Crush Depth
+| debufftip2 = Aquatic Pressure
+| debuffchance2 = 100%
+| duration2 = 22 seconds
+| immuneall = yes
+| money = {{gc|22}}
+| Voidstone| 40-50 | 100%
+| custom | {{item|Abyss Ore|note=(After defeating<br/>[[Golem]])|wrap=y}} ({{dv|22-33|32-43}}) | 22.2222%
+| custom | {{item|Abyss Bar|note=(After defeating [[Polterghast]])|wrap=y}} ({{dv|21-22|22-23}}) | 22.2222%
+| hardmode = yes
+| postml = yes
+| boxwidth = 26em
+| banner = yes
+| hurt = NPC_Hit_56.wav
+| killed = NPC_Killed_60.wav
+| sound = ReaperSearchRoar.wav
+| soundtext = Search Roar
+| sound2 = ReaperEnragedRoar.wav
+| sound2text = Enraged Roar
+}}
+
+The Volcanic Reaper Shark is a buffed version of the [[Reaper Shark]] added by the Polyphemalus addon. It is spawned by right clicking an unprompted '''Reaper Shark''' while holding a stack of 22 [[Abyss Bar|Abyss Bars]]. The boss is a mildly stronger version of the reaper shark, inflicting [[La Ruga|Scorinfestation]] and [[Crush Depth]].
+
+It's also faster and does more damage. It can be exclusively spawned after [[Golem]] has been defeated, and Attempting to spawn it before '''Golem''' has been defeated will result in you having your breath set to 0 and giving you the [[Stoned]] Debuff. This together forces you to die.
+
+The '''Volcanic Reaper Shark''' acts similarly to the Reaper Shark. Uniquely, it cannot be picked up by the [[Lifeform Analyzer]], but rather, having the Lifeform Analyzer enabled enrages it. To avoid enraging the Volcanic Reaper Shark, you must not go higher than layer 3 of the [[Abyss]]. Upon reaching 60% HP, it gains an animation where it becomes invulnerable to all damage and takes a bite out of Molten Pyre Mantles or Abyss Ores. If above layer 3, this animation failing will make it despawn and remove all Abyss items from your inventory.
+
+==Trivia==
+*This sprite is shared with the upcoming GetFixedBoi Reaper Shark sprite in the tmoadloader 1.4.4 port.
+*Interestingly, despite being similar to the '''Reaper Shark''', it does not play [https://www.youtube.com/watch?v=O_zPaC5xqns '''Threats of the Ocean Floor'''].
+*The original name was going to be Reaper Shark Man, but the developers scrapped that in preference for Volcanic Reaper Shark, a more serious sounding name.
+*In GetFixedBoi, this is inverted, where the Volcanic Reaper Shark is the natural enemy and its name is Reaper Shark Man, and clicking it with 22 [[Lumenyl]] will transform it into the [[Reaper Shark]].

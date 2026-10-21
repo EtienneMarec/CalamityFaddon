@@ -1,0 +1,112 @@
+{{npc infobox
+| type = Flying Enemy
+| environment = Dungeon
+| ai = Phantom Spirit AI
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+| banner = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| hurt = NPC_Hit_36.wav
+| killed = NPC_Killed_39.wav
+}}
+<big>''"Shrieks are echoing from the dungeon."''</big>
+
+A '''Phantom Spirit''' is a Godseeker Mode [[Enemies|flying enemy]] that spawns in the [[Dungeon]] during Godseeker Mode. Similarly to a [[Dungeon Spirit]], it has a {{dv|16.67%|25%}} chance to spawn after defeating certain enemies and can fly through tiles. It drops [[Phantoplasm]], an end-game [[crafting material]] used mostly for crafting post-[[The Devourer of Gods|Devourer of Gods]] items. After killing thirty Phantom Spirits, [[Polterghast]] will spawn if it has not yet been defeated in the current world.
+
+There are multiple variants of Phantom Spirits which are stronger than the normal variant; each has an equal chance to spawn. The Happy Spirit has the largest damage and health, followed by the Angry Spirit and then the Sad Spirit.
+
+The Happy Spirit is uniquely able to fire a fast, ghostly projectile at the player. This variant is also spawned by [[Polterghast]] during its third phase.
+
+== Variations ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Phantom Spirit
+| namesub = Normal
+| image = Phantom Spirit.png
+| type = Flying Enemy
+| ai = Phantom Spirit AI
+| environment = Dungeon
+| life = {{dv|1,000|2,000}}
+| damage = {{element|Dark}} {{dv|70|140}}
+| defense = 10
+| knockback = {{dv|90%|91%}}
+| money = {{sc|20}}
+| Phantoplasm|1|100%
+| hardmode = yes
+| postml = yes
+| vulnerable1 = Holy
+| resistant1 = Dark
+| resistant2 = Water
+}}
+|{{npc infobox
+| name = Phantom Spirit
+| namesub = Sad
+| image = Sad Phantom Spirit.png
+| type = Flying Enemy
+| environment = Dungeon
+| ai = Phantom Spirit AI
+| life = {{dv|1,500|3,000}}
+| damage = {{element|Dark}} {{dv|80|160}}
+| defense = 20
+| knockback = {{dv|90%|91%}}
+| money = {{sc|30}}
+| Phantoplasm|1-2|100%
+| hardmode = yes
+| postml = yes
+| vulnerable1 = Holy
+| resistant1 = Dark
+| resistant2 = Water
+}}
+|{{npc infobox
+| name = Phantom Spirit
+| namesub = Angry
+| image = Angry Phantom Spirit.png
+| type = Flying Enemy
+| ai = Phantom Spirit AI
+| environment = Dungeon
+| life = {{dv|2,000|4,000}}
+| damage = {{element|Dark}} {{dv|90|180}}
+| defense = 25
+| knockback = {{dv|90%|91%}}
+| money = {{sc|40}}
+| Phantoplasm|1-3|100%
+| hardmode = yes
+| postml = yes
+| vulnerable1 = Holy
+| resistant1 = Dark
+| resistant2 = Water
+}}
+|{{npc infobox
+| name = Phantom Spirit
+| namesub = Happy
+| image = Happy Phantom Spirit.png
+| type = Flying Enemy
+| environment = Dungeon
+| ai = Phantom Spirit AI
+| life = {{dv|3,000|6,000}}
+| damage = {{element|Dark}} {{dv|100|200}} (Contact)<br/>{{element|Dark}} {{dv|130|212|236|248}} (Ghost shot)
+| defense = 30
+| knockback = 100
+| money = {{sc|60}}
+| Phantoplasm|2-4|100%
+| hardmode = yes
+| postml = yes
+| sound = Item_20.wav
+| soundtext = Ghost Shot
+| vulnerable1 = Holy
+| resistant1 = Dark
+| resistant2 = Water
+}}
+}}
+{{-}}
+
+== Notes ==
+*It is possible for both a Phantom Spirit and a [[Dungeon Spirit]] to spawn at the same time when killing an enemy.
+**Additionally, it is possible for a Dungeon Spirit to spawn after killing a Phantom Spirit. However, Phantom Spirits cannot spawn after killing Dungeon Spirits.
+
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

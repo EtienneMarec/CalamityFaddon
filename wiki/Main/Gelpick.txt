@@ -1,0 +1,36 @@
+{{item infobox
+| pick = 100
+| type = Tool
+| damagetype = Melee
+| damage = 12
+| use = 19
+| knockback = 3
+| auto = yes
+| stack = 1
+| rare = 4
+| bonus = +1 range
+| debuff = Slime (debuff)
+| debufftip = You are dripping slime
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| sell = {{value|0|2|40|0}}
+| toolspeed = 10
+}}
+
+The '''Gelpick''' is a [[Pre-Hardmode]] [[pickaxe]] capable of mining {{item|Cobalt Ore}} and {{item|Palladium Ore}}. Sharing the same pickaxe power with the [[Molten Pickaxe]], it is the fastest pickaxe available before [[Hardmode]].
+
+{{modifier|harvestalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*It is the only pure pickaxe tool with the word "pick" in its name that doesn't also have the word "axe" in its name.
+
+{{Purified Gel}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

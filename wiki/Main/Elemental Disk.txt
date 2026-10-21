@@ -1,0 +1,50 @@
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 100
+| damagetype = Spy
+| knockback = 9
+| stack = 1
+| rare = 11
+| sell = {{value|0|22}}
+| auto = yes
+| use = 14
+| tooltip = Throws a disk that has a chance to generate several disks if enemies are near it<br/>Stealth strikes fly slower but travel farther, pierce through enemies, and spawn extra disks more frequently
+| velocity = 13
+| hardmode = yes
+| postml = yes
+| debuff = Elemental Mix
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| element1 = Magic
+| element2 = Slash
+}}
+[[File:Elemental Disk (demo).gif|frame|Demonstration of the Elemental Disk being used on a [[Super Dummy]]. ]]
+
+The '''Elemental Disk''' is a craftable Godseeker Mode [[boomerang]]. It rapidly throws disks that have a chance of splitting into eight more disks when near an enemy. The split disks will move outward from the point they split from before returning in the player's direction. The split disks have a much shorter duration before disappearing.
+
+Performing a [[stealth strike]] with the Elemental Disk causes the next disk thrown to travel slower but farther, pierce through enemies and spawn extra disks more frequently.
+
+{{modifier|Spy}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Elemental Disk/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The amount of projectiles can result in significant lag on lower-end devices.
+
+== Trivia ==
+*The weapon was formerly named 'Accretion Disk' and is still referred to as such in the mod's source files.
+
+{{Elemental}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Boomerangs]]
+[[Category:Common Items]]

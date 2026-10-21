@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 27
+| auto = yes
+| use = 30
+| knockback = 1.25
+| stack = 1
+| rare = 2
+| velocity = 11
+| sell = {{value|0|0|40}}
+| tooltip = Hold left click to load up to five pumpkin grenades into the gun
+| proj = Pumpkin Grenade.png
+| projcaption = Pumpkin Grenade
+| element1 = Poison
+| element2 = Fire
+| element3 = Bomb
+}}
+
+The '''Pumpler''' is a craftable [[Pre-Hardmode]] [[ranged weapon]]. When used, the weapon slowly charges, indicated by the barrel increasing in size after each charge. After five charges, the weapon is fully loaded and can fire five gravity-affected pumpkin grenades; each charge adds a pumpkin grenade and releasing the left-click before the weapon is fully charged will cause it to fire whatever amount was charged at that point. The pumpkin grenades explode immediately on contact with enemies, and will explode on impact with tiles if they have been in the air for at least 0.25 seconds, otherwise they will rebound away. This weapon uses no [[ammo]].
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

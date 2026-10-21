@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 250
+| stack = 9999
+| rare = 16
+| value = 1250
+| color = #6D575A
+| use = 14
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+}}
+}}
+'''Flahium Slag''' is a Godseeker Mode [[ore]]. Its main use is to craft [[Uncharged Flahium]]. It requires at least a [[Blossom Pickaxe]] to mine.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Flahium Slag cannot be destroyed by explosives.
+
+{{Flah}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

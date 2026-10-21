@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 188
+| auto = yes
+| use = 14
+| knockback = 5
+| damagetype = summon
+| mana = 10
+| tooltip = Shadows dream of endless fire, flames devour and embers swoop<br/>Summons a lantern turret to fight for you
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffduration = 3 seconds
+| debuffchance=100%
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Lantern Flame.gif
+| projcaption = Lantern Flame
+| element1 = Dark
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Scryllar]] (after Providence has been defeated) | 1 | 5%
+}}
+}}
+{{summoned|Soul Lantern|type=sentry}}
+
+The '''Guidelight of Oblivion''' is a Godseeker Mode [[sentry]] dropped by [[Scryllar]]s after defeating [[Providence, the Profaned Goddess]]. It summons a soul lantern that floats up and down near the location it was summoned. The lantern summons red flames around it which home in on enemies, travel through tiles, and explode upon contact, inflicting the [[Brimstone Flames]] [[debuff]] for three seconds.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon's appearance is a reference to the [https://hollowknight.fandom.com/wiki/Grimmkin_Novice Grimmkin Novices] from ''[[wikipedia:Hollow Knight|Hollow Knight]]''.
+**The flavor text in its tooltip is quoted from the Grimmkin Novices' [https://hollowknight.fandom.com/wiki/Hunter%27s%20Journal journal] entry.
+*It was formerly the [[rare variant]] of the [[Cosmilamp]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

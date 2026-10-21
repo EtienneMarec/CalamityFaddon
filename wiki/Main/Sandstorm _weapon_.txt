@@ -1,0 +1,31 @@
+{{item infobox
+| type = Weapon
+| name = Sandstorm
+| image = Sandstorm (weapon).png
+| damagetype = Ranged
+| damage = 80
+| knockback = 5
+| tooltip = Fires sand bullets that explode and slow enemies on hit<br/>50% chance to not consume sand
+| use = 15
+| auto = yes
+| rare = 7
+| stack = 1
+| velocity = 12
+| sell = {{value|0|12}}
+| hardmode = yes
+| proj = Sand Blast.png
+| projcaption = Sandstorm Blast
+| element1 = Fire
+}}
+{{dablink|Not to be confused with the [[Sandstorm]] [[tgc:Events|event]].}}
+
+The '''Sandstorm''' is a craftable [[Hardmode]] [[ranged weapon]] that is an upgrade to the [[Sandgun]]. It uses [[Sand Block]]s as [[ammo]] and fires sand blasts which burst on impact. Unlike its predecessor, it does not place Sand Blocks where its projectiles land.
+
+{{Modifier|ranged}}
+
+{{Grand Scale}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Ranged weapons]]

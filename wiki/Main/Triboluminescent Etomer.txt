@@ -1,0 +1,60 @@
+{{dedicated|Ben / Termi|Developer}}
+{|align=right
+|{{item infobox
+| type = Pet Summon
+| stack = 1
+| tooltip = Summons an electric troublemaker<br/>A little note is attached:<br/>Thank you, Aloe! Very much appreciated from Ben
+| rare = 3
+| use = 19
+| buff = Electric Troublemaker (buff) | bufflink = no
+| bufftip = Lightning never strikes the same place twice
+| sell = {{value|0|0|80|0}}
+}}
+|}
+{{summoned|Electric Troublemaker (pet)|type=pet|name=Electric Troublemaker}}
+
+The '''Triboluminescent Etomer''' is a craftable [[Pre-Hardmode]] [[pet]] summoning item that summons an electric troublemaker to follow the player. The pet can change forms depending on the biome the player is in or any ongoing events.
+
+== Form Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Form !! colspan=2 | Description
+|-
+| {{item|Electric Troublemaker (pet)|Electric Troublemaker|mode=table|nolink=y}}
+| align=center | The default form.
+|-
+| {{item|Dex Troublemaker|mode=table|nolink=y}}
+| align=center | The form taken while any [[bosses]] are alive.
+|-
+| {{item|Wash Troublemaker|mode=table|nolink=y}}
+| align=center | The form taken while in the [[Ocean]], [[Abyss]], [[Sulphurous Sea]], or [[Sunken Sea]] biomes.
+|-
+| {{item|Heat Troublemaker|mode=table|nolink=y}}
+| align=center | The form taken while in the [[Desert]], [[Underground Desert]], [[Brimstone Crag]], or [[Underworld]] biomes.
+|-
+| {{item|Frost Troublemaker|mode=table|nolink=y}}
+| align=center | The form taken while in the [[Snow]] or [[Ice biome]]s, as well as during the [[Frost Moon]].
+|-
+| {{item|Mow Troublemaker|mode=table|nolink=y}}
+| align=center | The form taken while in the [[Jungle]] biome.
+|-
+| {{item|Fan Troublemaker|mode=table|nolink=y}}
+| align=center | The form taken while in the [[Space]] or [[Astral Infection]] biomes, as well as when near a [[Meteorite]].
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The pet is based directly on the [https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon) Rotom] from ''[[wikipedia:Pokémon|Pokémon]]'', which has many different forms that possess various electrical appliances.
+*The name of the item is in reference to the electrical phenomenon called [[wikipedia:Triboluminescence|Triboluminescence]].
+*'Etomer' is the word 'remote' spelled backwards, mirroring how Rotom's name is 'motor' spelled backwards.
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

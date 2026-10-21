@@ -1,0 +1,126 @@
+{{addon|Deimos, the Starborn Princess}}
+{{npc infobox
+| name = Mechawyrm
+| imagealt = <Tabber>
+Mouth Closed=[[File:Mechawyrm.png]]
+|-|
+Mouth Opened=[[File:Mechawyrm mouth.png]]
+</Tabber>
+| type = Burrowing Enemy
+| environment = Martian Madness
+| ai = Mechawyrm AI
+| life = {{dv|700,000|950,000}} (Wave 8)<br/>{{dv|450,000|600,500}}
+| knockback = 100
+| money = {{value|25|0|0|0}}
+| Arean Conduit Plating|{{dv|50-100|100-150}}|100%
+| Martian Conduit Plating|80-200|100%
+| hardmode = yes
+| postml = yes
+| vulnerable1 = Stab
+| resistant1 = Fire
+| resistant2 = Magic
+| resistant3 = Dark
+| resistant4 = Machine
+| banner = no
+| immuneall = yes
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = Zombie_100.wav
+| soundtext = Spawn
+| sound2 = Item_120.wav
+| sound2text = Rain Attack Start
+}}
+
+The '''Mechawyrm''' (Japanese: メカワーム ''Mekawāmu'') is a Godseeker Mode [[mini boss]] that spawns in the post-[[The Starborn Moth|Starborn Moth]] [[Martian Madness]] event. It spawns on waves 8 of the event and later waves with reduced health or can be spawned in manually by using an [[Interplanetary Worm Food]].
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Mechawyrm Head
+| ai = Mechawyrm AI
+| life = {{dv|700,000|950,000}}
+| damage = {{defense damage}} {{element|Fire}}{{element|Magic}}{{element|Dark}} {{dv|150|boost=0.25}} (Contact)<br/>{{dv|70|boost=0.125}} (Deimian Fire)
+| defense = 15
+| dr = 25%
+| vulnerable1 = Unholy
+| resistant1 = Magic
+| resistant2 = Cold
+| resistant3 = Fire
+| knockback = 100
+| type = Burrowing Enemy
+| hardmode = yes
+| postml = yes
+| debuff = Embers of Duality
+| debufftip = Celestial voids are manifesting around you; defense and damage reduction reduced
+| debuffchance = 100%
+| duration = 2 seconds (Deimian Fire)<br/>5 seconds (Contact)
+| image2 = Mechawyrm map.png
+| image2caption = Map Icon
+| sound = Item_33.wav
+| soundtext = Charge
+| sound2 = Item_34.wav
+| sound2text = Deimian Fire
+}}
+|{{npc infobox
+| name = Mechawyrm Body
+| ai = Mechawyrm AI
+| life = {{dv|700,000|950,000}}
+| damage = {{element|Magic}} {{dv|65|boost=0.125}} (Contact)<br/>{{dv|55|boost=0.125}} (God Slayer Fireball)<br/>{{dv|60|boost=0.125}} (Holy Spear)<br/>{{dv|75|boost=0.125}} (Celestial Beam)
+| defense = 50
+| dr = 50%
+| vulnerable1 = Unholy
+| resistant1 = Magic
+| resistant2 = Cold
+| resistant3 = Fire
+| knockback = 100
+| type = Burrowing Enemy
+| hardmode = yes
+| postml = yes
+| debuff = Holy Flames
+| debuffchance = 100%
+| debufftip = Dissolving from holy light
+| duration = 2.5 seconds (Holy Spear, Celestial Beam)
+| debuff2 = God Slayer Inferno
+| debuff2chance = 100%
+| debuff2tip = Your flesh is burning off
+| duration2 = 2 seconds (God Slayer Fireball, Celestial Beam)
+| sound = Item_105.wav
+| soundtext = Holy Spear
+| sound2 = Item_12.wav
+| sound2text = God Slayer Fireball
+| sound3 = Item_91.wav
+| sound3text = Celestial Beam
+}}
+|{{npc infobox
+| name = Mechawyrm Tail
+| ai = Mechawyrm AI
+| life = {{dv|700,000|950,000}}
+| damage = {{element|Magic}} {{dv|65|boost=0.125}} (Contact)<br/>
+| defense = 40
+| dr = 45%
+| vulnerable1 = Unholy
+| resistant1 = Magic
+| resistant2 = Cold
+| resistant3 = Fire
+| knockback = 100
+| type = Burrowing Enemy
+| hardmode = yes
+| postml = yes
+| image2 = Mechawyrm tail map.png
+| image2caption = Map Icon
+}}
+}}
+
+== Behavior ==
+*Mechawyrm has 75 segments in total.
+*The Mechawyrm has 4 attacks that are as follows:
+**The Boss behaves like an airborne worm enemy, quickly chasing down players and charging at players every 5 seconds. 
+**The Boss begins chasing players slower, when it gets near a player it will open its mouth and create a large spread of Deimian Fire.
+**The Boss stays above players, raining down {{item|HolySpear|nolink=yes|size=12px|Holy Spears}} and {{item|image=Essence Fireball.gif|10px|nolink=y|God Slayer Fireballs}} from its segments.
+**The Boss starts circling around players, and begins firing Celestial Beams from its segments.
+
+== Notes ==
+*The [[Martian Madness]] event cannot progress while a Mechawyrm is alive during wave 8.
+*[[Martian Madness]] enemies cannot spawn while the Boss is alive.
+{{-}}
+{{DeimosMod}}

@@ -1,0 +1,24 @@
+'''Melee weapons''' are weapons which deal melee damage on contact and very often also shoot a projectile which deals melee damage. They come mainly in the form of [[swords]].
+
+== Types ==
+{| class="terraria sortable lined"
+! colspan=2 | Name !! <abbr title=Damage>DMG</abbr> !! <abbr title="Use Time">UT</abbr> !! <abbr title=Knockback>KB</abbr> !! <abbr title="Shoot Speed/Velocity">SS</abbr> !! <abbr title="Critical Chance">Crit</abbr> !! Auto !! [[Rarity]] !! <abbr title=Hardmode>HM</abbr> !! <abbr title="Godseeker Mode">GM</abbr> !! Epilogue !! Sell
+|-
+{{#dpl:
+| category = Melee weapons
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦/dpl}
+| uses = Template:Item infobox
+| mode = userformat
+| count = 300
+}}
+|}
+
+{{Master Template Weapons
+| show-main  = yes
+| show-melee = yes
+}}
+
+[[Category:Weapon items| ]]
+[[Category:Melee weapons|*]]

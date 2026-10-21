@@ -1,0 +1,17 @@
+<includeonly>
+{{#if:{{{class|}}}|<!--nothing-->|
+{{{!}} class="terraria outer"
+{{!}} }}
+{| class="{{{class|sortable lined inner}}}" style="{{{style|}}}"
+{{{col}}}
+|-
+{{#dpl:
+| category = {{{cat}}}
+| ordermethod = {{{ordermethod|titlewithoutnamespace}}}
+| order = {{{order|ascending}}}
+| include = {{{{template|item infobox}}}¦{{{format|/dpl}}}}
+| mode = userformat
+}}
+|}
+{{#if:{{{class|}}}|<!--nothing-->|
+{{!}}} }}</includeonly><noinclude>{{doc}}</noinclude>

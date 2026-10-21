@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 42
+| knockback = 1
+| mana = 12
+| use = 34
+| tooltip = Summons a squirrel viscount to fight for you
+| rare = 6
+| sell = {{value|0|0|10}}
+| auto = yes
+| stack = 1
+| element1 = Unholy
+| element2 = Dark
+| element3 = Stab
+| hardmode = yes
+}}
+{{summoned|Squirrel Viscount|type=sentry}}
+
+The '''Squirrel Viscount Staff''' is a craftable [[Hardmode]] [[sentry]]. When used, it summons a squirrel sentry that stands still and attack enemies by throwing infinitely piercing [[Stake]]s. If summoned mid-air, the squirrel will slowly fall down until it reaches stable ground. The squirrel can still attack while airborn.
+
+{{Modifier|summonalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The squirrel's usage of a propeller to fly is a reference to [https://shovelknight.fandom.com/wiki/Propeller_Rat Propeller Rats] from the game ''[[wikipedia:Shovel Knight|Shovel Knight]]''.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,32 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Increased defense and damage reduction when submerged in liquid<br/>Increased movement speed when submerged in liquid
+| sell = {{value|0|0|40}}
+| defense = 3
+| stack = 1
+| rare = 2
+}}
+|{{item drops infobox
+| [[Sea Snail]]|1|{{dv|50%|100%}}
+}}
+}}
+{{distinguish|Seashell|a vanilla item found in the [[Ocean]]}}
+
+The '''Sea Shell''' is a [[Pre-Hardmode]] [[covering]] dropped by [[Sea Snail]]s in the [[Ocean]] biome. It increases [[defense]] by 3 and allows free movement in liquids. Standing in a liquid increases its bonus by 3 defense and additionally gives +5% damage reduction and +15% movement speed.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*If the player is patient enough to travel to the Ocean and farm Sea Snails, the Sea Shell is a great covering to use for your first boss battle, as it can provide up to a maximum of 9 defense with the Warding prefix.
+**Additionally, the Sea Shell's ability to mitigate water physics can help the player navigate large bodies of water before they obtain important mobility items.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

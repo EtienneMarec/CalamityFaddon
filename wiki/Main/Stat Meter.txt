@@ -1,0 +1,37 @@
+{{item infobox
+| type = Tool
+| buy = {{value|0|5}}
+| sell = {{value|0|1|20}}
+| rare = 1
+| tooltip = Displays almost all player stats<br/>Offensive stats displayed vary with held item
+| stack = 1
+}}
+{{distinguish|Level Meters|similar items that display [[Proficiency]]}}
+
+The '''Stat Meter''' is a [[Tool]] purchased from the [[Goblin Tinkerer]]  for {{gc|5}}. It tells the player of their various stats within the tooltip. The stats displayed in the meter's tooltip are as follows:
+*[[Adrenaline]] and [[Rage Meter]] charge times. (In [[Revengeance Mode|Revengeance]] and [[Death Mode]]s only)
+*Melee damage, crit chance, and melee swing speed. (While holding a [[Melee weapon]])
+*Ranged damage, crit chance, and ammo reduction. (While holding a [[Ranged weapon]])
+*Magic damage, crit chance, mana usage, and mana regeneration rate. (While holding a [[Magic weapon]])
+*Summon damage and minion slots. (While holding a [[Summon weapon]])
+*Rogue damage, crit chance, rogue projectile velocity boosts, ammo reduction, max stealth, stealth regeneration rate while moving and standing. (While holding a [[Rogue weapon]])
+*Defense and Damage Reduction (DR).
+*Life regeneration.
+*Armor penetration.
+*Wing flight time.
+*Movement speed boosts.
+*[[Abyss]] light level (Abyss & Cave light level in Death Mode)
+*Abyss breath loss, damage over time taken from being out of breath, and defense lost. (Only while in the Abyss)
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This item pairs well with the Cell Phone or PDA.
+*This item will work when it's in the [[Goblin Tinkerer]]'s inventory.
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-other = yes
+}}

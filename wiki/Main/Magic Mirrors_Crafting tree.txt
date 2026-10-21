@@ -1,0 +1,114 @@
+<div class="crafting-tree">{{diagram
+
+|_|MIrOr|_|MLeOr|_|Sandy|_|_|_|_|_|#
+|_|      _|      _|      _|_|_|_|_|#
+|F|~|$|~|~|~|$|~|7|_|I|_|_|_|_|_|_|#
+|:|PHFRG|_|PHFRG|:|PHFRG|_|_|_|_|_|#
+|:|MIrBr|±|MLeBr|:|Glass|_|FStar|_|#
+|:|             |:|      _|      _|#
+|L|~|~|~|y|~|~|~|J|_|I|_|_|_|I|_|_|#
+|_|_|_|_|`|-|-|-|-|-|+|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|PHANV|_|_|#
+|_|_|_|_|_|_|_|_|_|MagiM|_|_|#
+|_|_|_|_|_|_|_|_|_|      _|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+
+|_|IIrOr|_|ILeOr|_|Sandy|_|_|_|_|_|#
+|_|      _|      _|      _|_|_|_|_|#
+|F|~|$|~|~|~|$|~|7|_|I|_|_|_|_|_|_|#
+|:|PHFRG|_|PHFRG|:|PHFRG|_|_|_|_|_|#
+|:|IIrBr|±|ILeBr|:|Glass|_|FStar|_|IceBl|_|#
+|:|             |:|      _|      _|      _|#
+|L|~|~|~|y|~|~|~|J|_|I|_|_|_|I|_|_|_|I|_|_|#
+|_|_|_|_|`|-|-|-|-|-|+|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|PHANV|_|_|#
+|_|_|_|_|_|_|_|_|_|IceMi|_|_|#
+|_|_|_|_|_|_|_|_|_|      _|_|#
+
+
+<!-- ICE MIRROR -->
+|IIrBr_cols = 3
+|IIrBr_rows = 2
+|IIrBr = {{item|Iron Bar}} × 5
+
+|ILeBr_cols = 3
+|ILeBr_rows = 2
+|ILeBr = {{item|Lead Bar}} × 5
+
+|IIrOr_cols = 3
+|IIrOr_rows = 2
+|IIrOr = {{item|Iron Ore}} × 15
+
+|ILeOr_cols = 3
+|ILeOr_rows = 2
+|ILeOr = {{item|Lead Ore}} × 15
+
+|Glass_cols = 3
+|Glass_rows = 2
+|Glass = {{item|Glass}} × 10
+
+|Sandy_cols = 3
+|Sandy_rows = 2
+|Sandy = {{item|Any Sand}} × 20
+
+|FStar_cols = 3
+|FStar_rows = 2
+|FStar = {{item|Fallen Star|size=20px}} × 10<br/>
+( {{item|mode=image|image=Astrum Aureus map.png|Astrum Aureus|size=20px}} )
+
+|IceBl_cols = 3
+|IceBl_rows = 2
+|IceBl = {{item|Ice Block}} × 20
+
+|IceMi_cols = 3
+|IceMi_rows = 2
+|IceMi = {{item|Ice Mirror}}
+
+
+<!-- MAGIC MIRROR -->
+|MIrBr_cols = 3
+|MIrBr_rows = 2
+|MIrBr = {{item|Iron Bar}} × 10
+
+|MLeBr_cols = 3
+|MLeBr_rows = 2
+|MLeBr = {{item|Lead Bar}} × 10
+
+|MIrOr_cols = 3
+|MIrOr_rows = 2
+|MIrOr = {{item|Iron Ore}} × 30
+
+|MLeOr_cols = 3
+|MLeOr_rows = 2
+|MLeOr = {{item|Lead Ore}} × 30
+
+|MagiM_cols = 3
+|MagiM_rows = 2
+|MagiM = {{item|Magic Mirror}}
+
+<!-- CRAFTING STATIONS -->
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

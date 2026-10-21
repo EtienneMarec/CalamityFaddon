@@ -1,0 +1,28 @@
+{{item infobox
+| type = Furniture
+| type2 = Crafting station
+| placeable = Yes
+| auto = yes
+| width = 3
+| height = 3
+| stack = 9999
+| use = 14
+| tooltip = Used for special crafting
+| consumable = Yes
+| rare = 0
+| color = #BF8E6F
+| sell = No value
+}}
+
+The '''Static Refiner''' is a craftable [[Pre-Hardmode]] [[crafting station]] used to craft [[furniture]] themed around Statigel items and several items that use [[Purified Gel]]. It also functions as a [[Solidifier]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used to craft ===
+{{ajax|Recipes/Static Refiner|width=420px}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:静电精炼机]]

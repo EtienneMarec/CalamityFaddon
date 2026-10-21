@@ -1,0 +1,6 @@
+<includeonly>{{#vardefine:len|{{#invoke:String|len|{{{1}}}}}}}<!--
+--><span style="cursor:pointer">[[File:stack digit {{#invoke:String|sub|{{{1}}}|1|1}}.png|link=|{{{size|}}}]]<!--
+-->{{#ifexpr:{{#var:len}}>1|[[File:stack digit {{#invoke:String|sub|{{{1}}}|2|2}}.png|link=|{{{size|}}}]]}}<!--
+-->{{#ifexpr:{{#var:len}}>2|[[File:stack digit {{#invoke:String|sub|{{{1}}}|3|3}}.png|link=|{{{size|}}}]]}}<!--
+-->{{#ifexpr:{{#var:len}}>3|[[File:stack digit {{#invoke:String|sub|{{{1}}}|4|4}}.png|link=|{{{size|}}}]]}}<!--
+--></span></includeonly><noinclude>[[File:stack digit 9.png]][[File:stack digit 9.png]][[File:stack digit 9.png]]{{doc}}[[Category:Shortcut templates‎]]</noinclude>

@@ -1,0 +1,80 @@
+<section begin=npc infobox />{{npc infobox
+| name = Sigmund
+| image = Sigmund.png
+| type = Boss
+| environment = The Underworld
+| ai = Fighter AI
+| life = {{dv|297,000|475,200|570,240}}
+| defense = 60
+| knockback = 100
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Whispering Death
+| vulnerable1 = Slash
+| vulnerable2 = Cold
+| resistant1 = Magic
+| resistant2 = Dark
+| resistant3 = Fire
+| listexclude = yes
+| money = {{gc|35}}
+| Nether|{{dv|2-3|3-4}}|100%
+| Steel Kunai|1|{{dv|25%|33.33%}}
+| A Lamp|1|{{dv|25%|33.33%}}
+| Veil|1|100%
+| Supreme Healing Potion|5-15|100%
+| Sigmund Mask|1|14.29%
+| group|The following three items will always drop together|1
+| custom| {{item|God Slayer Helm}}
+{{item|God Slayer Chestplate}}
+{{item|God Slayer Leggings}}|5%
+| Sigmund Trophy|1|10%
+| custom| {{item|The Sentinels of the Devourer (Lore)|note=(Always on first kill if [[Storm Weaver]]<br/>and [[Ceaseless Void]] are defeated)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Sigmund)|Treasure Bag|note=(Sigmund)|wrap=y}}
+: • {{item|Ever Ink|note=(In [[Revengeance Mode]] only)|wrap=y}}|{{expert|100%}} {{fantag|Catalyst}}
+| image2 = Sigmund map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_49.wav
+| killed = NPC_Killed_51.wav
+| sound = Item_8.wav
+| soundtext = Teleport
+| sound2 = Item_122.wav
+| sound2text = Mine Spawn
+| sound3 = Item_73.wav
+| sound3text = Scythe / Dust Shot
+| sound4 = Item_74.wav
+| sound4text = Scythe / Dust Explosion
+| debuff = Whispering Death
+| debuffchance = 100%
+| duration = 7 seconds (Contact)
+| debufftip = Death approaches; defense, movement speed, attack power and life regen reduced
+| boxwidth = 24em
+}}<section end=npc infobox />
+
+'''[https://calamitymod.fandom.com/wiki/Sigmund?veaction=edit Sigmund]''' ([[wikipedia:Japanese_language|Japanese]]: ジークムント ''Jīkumunto'') is [https://among-us.fandom.com/wiki/Among_Us_Wiki a] [https://www.merriam-webster.com/dictionary/pre- Pre][[wikipedia:Hyphen|-]][[tgc:Hardmode|Hardmode]] [[boss]] and is [[Signus, Envoy of the Devourer]]'s [https://safebooru.donmai.us/posts?tags=yaoi+&z=5 gay] cousin. It drops [[Nether]] which is a [[crafting material]] required to craft the [[Meaty Worm]].
+
+== Spawn ==
+Sigmund is summoned by using the [[Kos Fragment]] in [[The Underworld]] at any time.
+
+== Behavior ==
+Sigmund will walk towards the player, dealing contact damage. Sigmund will jump to meet the player.
+
+== Resistances ==
+*Sigmund takes decreased damage from some items and projectiles. It takes:
+**90% damage from [[Steel Kunai]].
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating Sigmund, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Sigmund strategies]].}}
+*Building a large arena to dodge Sigmund' attacks is a good idea in order to give more room to move around.
+
+== Trivia ==
+*Sigmund' [[Music|theme]] is a segment from [https://www.youtube.com/watch?v=dt30jWRMjLk '''Servants of the Scourge'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO], notably lacking any drums.
+**This theme contains a motif from [[The Devourer of Gods]]' theme.
+**If the Calamity Music add-on mod is disabled, '''Boss 4''' will play instead.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The Devourer's assassin forgot why he came here."
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

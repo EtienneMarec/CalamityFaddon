@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 8
+| auto = yes
+| tooltip = Fires a spread of low-damage feathers
+| use = 17
+| knockback = 3
+| stack = 1
+| rare = 3
+| velocity = 20
+| sell = {{value|0|0|80}}
+| proj = Large Feather.png
+| projcaption = Feather
+| element1 = Holy
+}}
+
+The '''Galeforce''' is a craftable [[Pre-Hardmode]] [[bow]]. It shoots arrows at very high velocity, along with a wave of 3 fast non-piercing feathers.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Aerialite}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

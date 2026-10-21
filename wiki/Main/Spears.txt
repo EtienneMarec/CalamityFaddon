@@ -1,0 +1,29 @@
+'''Spears''' are [[melee weapon]]s which are similar to [[shortsword]]s, but are much longer, pierce through [[enemies]] and can be aimed.
+
+== Types ==
+<table-progress-tracking table-id="1" unique-column-index="2">
+{| class="terraria sortable lined" id="dpl-table"
+! colspan = 2 | Name !! Damage !! Use Time !! Knockback !! Velocity !! Critical Chance !! Autoswing !! [[Rarity]] !! <abbr title="Hardmode">HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Spears
+| namespace = <!-- need to have it blanked to restrict it to main namespace. prevents category pages from being included-->
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦:Melee weapons/dpl}
+| mode = userformat
+}}
+|}
+</table-progress-tracking>
+
+== Notes ==
+*When used as a spear, the [[Yateveo Bloom]] actually has 20 damage, 33 use time, 4.5 velocity, and auto-reuse.
+
+{{Master Template Weapons
+| show-main  = yes
+| show-melee = yes
+}}
+
+[[Category:Melee weapons| ]]
+[[Category:Weapon items| ]]
+[[Category:Spears|*]]

@@ -1,0 +1,177 @@
+{{Addon|Polyphemalus}}
+<section begin=npc infobox />{{npc infobox
+| imagealt = [[File:Polyphemalus.webp|350px]]
+| name = Polyphemalus
+| type = Boss
+| ai = Polyphemalus AI
+| life = {{dv|50000|?|?|?}}
+| damage = {{dv|100|?|?|?}} (Contact)<br/>{{dv|100|?|?|?}} (Contact (Dashing))<br/>{{dv|100|?|?|?}} (Red Laser)<br/>{{dv|100|?|?|?}} (Red Laser (Spinning Bullet Hell))<br/>{{dv|100|?|?|?}} (Ice Wave)<br/>{{dv|75|?|?|?}} (Ice Wave (Flanking))<br/>{{dv|100|?|?|?}} (Arrow)<br/>{{dv|50|?|?|?}} (Cursed Fireball)<br/>{{dv|75|?|?|?}} (Shadow Ball)<br/>{{dv|100|?|?|?}} (Shadow Ball (Circling Bullet Hell))<br/>{{dv|100|?|?|?}} (Shadow Ball (Spinning Bullet Hell))
+| defense = 10<br/>80 (when enraged)<br/>
+| dr = 35%
+| debuff = Cursed Inferno
+| debufftip = Slowly losing life
+| duration = 4 seconds (Contact)
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Slash
+| vulnerable4 = Dark
+| resistant1 = Unholy
+| resistant2 = Magic
+| debuffchance = 100%
+| debuff2 = On Fire!
+| debufftip2 = Slowly losing life
+| duration2 = 4 seconds (Fireball)
+| debuffchance2 = 100%
+| knockback = 100
+| image2 = Polyphemalus map.png
+| image2caption = Map Icon
+| money = {{value|5|0}}
+| Eye of Cthulhu Mask|1|{{dv|100%}}
+| custom|{{item|Heterochromia|note=(When Astigmageddon is defeated last)|wrap=y}}|{{dv|100%}} 
+| custom|{{item|Chain-Saw|note=(When Exotrexia is defeated last)|wrap=y}}|{{dv|100%}}
+| custom|{{item|Nystagmus|note=(When Conjunctivirus is defeated last)|wrap=y}}|{{dv|100%}} 
+| custom|{{item|Tetrachromancy|note=(When Cataractacomb is defeated last)|wrap=y}}|{{dv|100%}}
+| custom|{{item|Polypebral Shield|note=(When Shield of Cthulhu is equpped as active dash)|wrap=y}}|{{dv|100%}} 
+| listexclude = yes
+| boxwidth = 30em
+}}<section end="npc" infobox="" />
+
+'''Polyphemalus''' (Japanese: ポリフェマルス ''Porifemarusu'') is a [[Hardmode]] [https://calamitymod.fandom.com/wiki/Boss boss]. Each of the four eyes has a different coloured iris (1 grey, 1 green, 1 blue and 1 red), each corresponding with their attacks. While this boss is able to be summoned after the Mechanical Bosses, it is intended to be fought after [[Plantera]] and [[Calamitas]] have been defeated.
+
+==Spawn==
+The boss can be summoned manually using the [[Fused Eye]] at [[Night]]. It can also spawn naturally using the same conditions originally followed by the Eye of Cthulhu. 
+
+==Split Eyes==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| imagealt = [[File:Astigmageddon.webp|180px]]
+| name = Astigmageddon
+| type = Boss
+| ai = Astigmageddon AI
+| life = {{dv|17000|?|?|?}}
+| damage = {{dv|10|?|?|?}} (Bullet Hell Laser)<br/>{{dv|100|?|?|?}} (Laser)
+| defense = 10<br/>80 (when enraged)<br/>
+| dr = 35%
+| knockback = 100
+| vulnerable2 = Stab
+| vulnerable1 = Dark
+| resistant1 = Unholy
+| resistant2 = Magic
+| resistant3 = Fire
+| image2 = Astigmageddon map.png
+| image2caption = Map Icon
+| money = {{value|5|0}}
+| listexclude = yes
+| boxwidth = 30em
+}}
+|{{npc infobox
+| imagealt = [[File:Exotrexia.webp|180px]]
+| name = Exotrexia
+| type = Boss
+| ai = Exotrexia AI
+| life = {{dv|17000|?|?|?}}
+| damage = {{dv|10|?|?|?}} (Bullet Hell Ice Wave)<br/>{{dv|50|?|?|?}} (Ice Wave)<br/>{{dv|50|?|?|?}} (Lightning)<br/>{{dv|20|?|?|?}} (Frost Mine)
+| defense = 10<br/>80 (when enraged)<br/>
+| dr = 35%
+| knockback = 100
+| vulnerable2 = Stab
+| vulnerable3 = Dark
+| vulnerable1 = Fire
+| resistant1 = Unholy
+| resistant2 = Cold
+| image2 = Exotrexia map.png
+| image2caption = Map Icon
+| money = {{value|0|5}}
+| listexclude = yes
+| boxwidth = 30em
+}}
+|{{npc infobox
+| imagealt = [[File:Conjunctivirus.webp|180px]]
+| name = Conjunctivirus
+| type = Boss
+| ai = ConjunctivirusAI
+| life = {{dv|17000|?|?|?}}
+| damage = {{dv|10|?|?|?}} (Bullet Hell Fireballs)<br/>{{dv|2|?|?|?}} (Cursed Flamethrower)<br/>{{dv|150|?|?|?}} (Dash)
+| defense = 10<br/>80 (when enraged)<br/>
+| dr = 35%
+| knockback = 100
+| vulnerable2 = Stab
+| vulnerable3 = Dark
+| vulnerable4 = Water
+| vulnerable1 = Holy
+| resistant1 = Unholy
+| resistant2 = Poison
+| resistant3 = Fire
+| image2 = Conjunctivirus map.png
+| image2caption = Map Icon
+| money = {{value|5|0}}
+| listexclude = yes
+| boxwidth = 30em
+}}
+|{{npc infobox
+| imagealt = [[File:Cataractacomb.webp|180px]]
+| name = Cataractacomb
+| type = Boss
+| ai = CataractacombAI
+| life = {{dv|25000|?|?|?}}
+| damage = {{dv|10|?|?|?}} (Bullet Hell Shadowball)<br/>{{dv|100|?|?|?}} (Shadowball)
+| defense = 10<br/>80 (when enraged)<br/>
+| dr = 35%
+| knockback = 100
+| image2 = Cataractacomb map.png
+| vulnerable1 = Stab
+| vulnerable2 = Magic
+| resistant1 = Unholy
+| resistant2 = Dark
+| resistant3 = Fire
+| image2caption = Map Icon
+| money = {{value|5|0}}
+| listexclude = yes
+| boxwidth = 30em
+}}
+}}
+
+==Behavior==
+Polyphemalus has two phases- the eyes attached together, and the eyes all separated
+
+===First Phase===
+----
+In the first phase, polyphemalus switches between using each eye individually.
+*First, he shoots a burst of predictive red lasers from Astigmageddon
+*Second, he shoots multiple large spreads of ice projectiles from Exotrexia, three towards the center and four flanking ones.
+*Third, he sprays a large amount of arcing Wooden Arrows from Conjunctivirus
+*Fourth, he shoots a spread of homing Shadowflame balls from Cataractacomb
+After each eye has attacked, Polyphemalus spins up for a charge attack and charges 4 times, with the final one being predictive and ending with an explosion of lasers and ice waves.
+Finally, he does a bullet hell attack. This alternates between him orbiting the player and firing in towards them, or rapidly spinning in place and firing in all directions.
+===Second Phase===
+----
+Once his HP bar has been depleted, he splits into each individual eye.
+They immediately perform a coordinated bullet hell orbiting around the player. After this finishes, each eye does it's own independent attack pattern until it is killed:
+====Astigmageddon (Red Eye) ====
+Orbits the player and fires lasers. After a while, it will orbit further, faster, and shoot more lasers. Then, it will rest for a moment and repeat.
+====Exotrexia (Blue Eye)====
+Moves towards the player with large inertia and fires ice waves. After a while, it will rotate around the player and leave lingering ice balls that obstruct movement, then repeat.
+====Conjunctivirus (Green Eye)====
+Shoots a cursed flamethrower and slowly approaches the player. After a while, it will dash repeatedly towards the player and deal contact damage.
+====Cataractacomb (Grey Eye)====
+Hovers far above the player, and fires homing shadowflame balls. After a while, it will lock in place and shoot a spread of shadowflame balls towards the player, then repeat,
+===Challenge Mode===
+When spawned while a Shield of Cthulhu is equipped as your active dash, Polyphemalus will enter challenge mode. While in challenge mode, the Shield of Cthulhu does 1000 damage with a guaranteed critical hit on a successful bonk, instead of the usual 30. Challenge mode ends if the player removes the Shield of Cthulhu or deals damage to Polyphemalus in any way besides the Shield of Cthulhu's dash attack.
+
+When his first phase is defeated in Challenge mode, Polyphemalus does not split and is instead defeated fully. He will drop the Polypebral Shield.
+
+==Trivia==
+*Polyphemalus has no contact damage for a brief time after spawning. Additionally, none of the four solo eyes have contact damage at all, except for Conjunctivirus while dashing.
+*Polyphemalus' [[Music|theme]] is [https://youtu.be/eBliz_IvFDo| '''the eyes are anger'''], which was composed by the artist [https://www.youtube.com/@gummyleeches GummyLeeches.]
+**The theme is referenced in several mod-exclusive [https://calamitymod.fandom.com/wiki/Town_NPCs town NPC] dialogue (as well as the [https://calamitymod.fandom.com/wiki/Sea_King?so=search Sea King] NPC's dialogue when the Help option is selected) after defeating either [[tgc:Plantera|Plantera]], [[Calamitas|The Calamitas Clone]] or [[The Derellect]]  prior to Polyphemalus' defeat. Namely those who can move in before Polyphemalus is bested.
+*The name "Polyphemalus" is a combination of Polyphemus, a cyclops in Greek mythology (he's the one who appeared in Book 9 of Homer's ''Odyssey''), and polycephalus, a medical condition involving having multiple heads.
+* Each Eye's names are based off of one of the Four Horseman of the Apocalypse and an eye disease.
+**Astigmageddon - A combination of Astigmatism and Armageddon, represents the Horseman of War.
+**Exotrexia - A combination of Exotropia and Anorexia, represents the Horseman of Famine.
+**Conjunctivirus - A combination of Conjunctivitis and Virus, represents the Horseman of Plague.
+**Cataractacomb - A combination of Cataract and Catacomb, represents the Horseman of Death.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

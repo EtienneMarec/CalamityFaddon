@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 135
+| damagetype = Ranged
+| knockback = 4
+| stack = 1
+| tooltip = Shoots daemon flame fireballs as well as 4 regular arrows
+| rare = 13
+| sell = {{value|0|26}}
+| auto = yes
+| use = 12
+| velocity = 20
+| hardmode = yes
+| postml = yes
+| proj = Daemon Flame Arrow.png
+| projcaption = Daemon Flame Arrow
+| image2 = Daemon's Flame Bow.gif
+| image2caption = Holdout Bow
+| element1 = Dark
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Polterghast]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Daemon's Flame''' is a Godseeker Mode [[bow]] dropped by [[Polterghast]]. It fires arrows as well as a Daemon flame, which moves in an up and down squiggly pattern, moves through blocks and explodes after a certain amount of time. Holding left-click continuously will cause the shot speed to increase.
+
+{{Modifier|ranged}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

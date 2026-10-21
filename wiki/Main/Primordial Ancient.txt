@@ -1,0 +1,42 @@
+{{item infobox
+| auto = yes
+| type = Weapon
+| type2 = Crafting material
+| damage = 170
+| damagetype = Magic
+| knockback = 5
+| velocity = 8
+| mana = 20
+| use = 18
+| tooltip = An ancient relic from an ancient land<br/>Casts a gigantic blast of dust
+| rare = 14
+| stack = 1
+| sell = {{value|0|36}}
+| hardmode = yes
+| postml = yes
+| proj = Ancient Blast.gif
+| projcaption = Ancient Dust Blast
+| element1 = Fire
+| element2 = Dark
+}}
+[[File:Primordial Ancient (demo).gif|frame|right|The Primordial Ancient being used in the air and then against [[Target Dummy|Target Dummies]], both times passing through a wall of tiles.]]
+
+The '''Primordial Ancient''' is a craftable Godseeker Mode [[spell tome]]. As a direct upgrade to the [[Primordial Earth]], it fires large blasts of dust at an incredibly high velocity and rate, and to a relatively far distance. The dust blasts can pass through tiles and will pierce five enemies before bursting upon hitting the sixth.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This item may be a reference to the [https://avalonmod.fandom.com/wiki/Ancient Ancient] spell tome from the [https://forums.terraria.org/index.php?threads/released-wip-terraria-avalon.378 Avalon] mod, which fired a similar massive dust blast.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category: Spell tomes]]

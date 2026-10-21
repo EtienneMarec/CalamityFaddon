@@ -1,0 +1,31 @@
+{{item infobox
+| name = Monolith Amalgam
+| type = Furniture
+| type2 = Crafting station
+| auto = yes
+| placeable = Yes
+| width = 3
+| height = 4
+| stack = 9999
+| tooltip = Used for special crafting
+| consumable = Yes
+| use = 14
+| rare = 0
+| color = #BF8E6F
+| sell = No value
+| hardmode = yes
+}}
+
+The '''Monolith Amalgam''' is a [[Hardmode]] [[crafting station]] used to craft the [[Furniture sets|Monolith furniture set]] themed around the [[Astral Monolith]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used to craft ===
+{{ajax|Recipes/Monolith Amalgam|width=40%}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:星幻柱综合体]]

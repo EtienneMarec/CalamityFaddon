@@ -1,0 +1,18 @@
+<includeonly><!-- 
+-->{{#ifeq:{{{1|}}}|{{{2|}}}|<!-- 
+	-->{{{2|}}}<!-- 
+-->|<!-- 
+	-->{{{2|}}} {{color|'''FAIL!'''|red}} ('''expected:''' {{{1|}}})[[Category:Templates with unit test failed]]<!-- 
+-->}}<!-- 
+--></includeonly><!--
+
+--><noinclude>
+A simple helper template for unit test cells in template documentation.
+
+== Usage ==
+<code><nowiki>{{unitTest|[expected result]|[actual result]}}</nowiki></code>
+
+If the expected result and the actual result are equal, the output will be the result. If they are not equal, {{color|'''FAIL!'''|red}} will be displayed.
+
+[[Category:Templates]]
+</noinclude>

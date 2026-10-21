@@ -1,0 +1,107 @@
+{{Addon|Sloome}}
+
+{{npc infobox
+| type = Boss
+| name = Serial Designation N
+| environment = Night
+| ai = Fighter AI
+|  damage={{dv|80|160|240}} (Contact)<br/>
+{{dv|40|80|120}} (Bullets)<br/>
+{{dv|60|120|180}} (Missiles)<br/>
+{{dv|80|160|240}} (Chain Saw)<br/>
+{{dv|100|200|300}} (Laser Cutter)<br/>
+| life = {{dv|40,000|60,000|75,000}}<br/>
+| defense = 80
+| dr = 15
+| knockback = 100
+| money = {{value|15|0|0|0}}
+| debuff = 
+| debuffchance = 
+| duration = 
+| debufftip = 
+| immune1 = Confused
+| immune2 = Acid Venom
+| immune3 = Electrified
+| immune4 = Poisoned
+| vulnerable1 = Fire
+| vulnerable2 = Water
+| vulnerable3 = Magic
+| vulnerable4 = Smash
+| resistant1 = Stab
+| resistant2 = Slash
+| resistant3 = Machine
+|||
+|||
+|||
+|||
+|||
+|||
+| A|1|
+|||
+| |1|
+| ||
+| |1|
+|||
+|| |
+|||
+|||
+|||
+||||| |
+|||
+| hardmode = yes
+| image2 = DroneN Head Boss.png
+| image2caption = Map Icon
+| boxwidth = 29em
+| hurt = NPC_Hit_4.wav
+| killed = 
+| sound = 
+| soundtext = 
+| sound2 = 
+| sound2text = 
+| sound3 = 
+| sound3text = 
+}}
+
+<big>"''You're a little, uh, short for a Disassembly Drone...''"</big>
+
+'''Serial Designation N''' (Japanese: シリアル番号、N ''Shiriaru bangō, N'') is a [[Hardmode]] [[boss]] that can be fought anywhere at night. He has a small hitbox while being very agile in the fight. Although he can be fought post mech bosses, he is recommended to be fought after Plantera.
+
+Defeating Serial Designation N will turn into the [[Disassembly Drone]] NPC
+
+== Spawn ==
+Serial Designation N does not spawn on his own and requires the player to summon him with the [[Disassembly Signal]] during the [[Night]].
+
+==Behavior==
+Serial Designation N Behaves similarly to the standard fighter AI, with the addition of faster speeds and dashing. If the player or Serial Designation N are far apart, Then Serial Designation N will quickly dash towards the player. Serial Designation N will enrage during the day with his movement increasing drastically.
+
+==='''Attacks'''===
+Serial Designation N will have a yellow pulse around him and slow down for a few seconds while firing high speed bullets at the player. He will do this twice until the next attack. Serial Designation N will being flying and shoot a barrage of semi homing missiles at the player that explode into 8 fireballs in each direction. He will sometimes start zooming across the screen during this attack.
+
+Upon reaching '''75% HP''' Serial Designation N will gain a new attack which he releases a screen wide EMP shockwave and the player will be affected with the Dazed Debuff, which will make the players horizontal upward speed slower.
+
+Upon reaching '''50% HP''' Serial Designation N will once again  gain a new attack which he homes near the player and fires a laser cutter beam above himself. The beam will quickly go clockwise or counter clockwise and full circle depending on the players position. He becomes much faster in the missile attack and will start zooming across the screen faster. Serial Designation N will also use a chain saw that has farther reach.
+
+=== In for the worthy ===
+Serial Designation N's laser cutter is much larger
+
+=== In get fixed boi ===
+Serial Designation N's laser cutter is even much larger
+
+==Aftermath==
+Serial Designation N will become immobile until being talked to by the player. Serial Designation N will turn into the [[Disassembly Drone]] NPC.
+
+==Tips==
+
+*Due to his small hitbox, it is recommended you use a weapon that is homing or has a wide hitbox.
+
+*Make sure you don't always move too far away. In this case, Serial Designation N will dash more often.
+
+==Trivia==
+
+*Just like his NPC counterpart, Serial Designation N originates from the Youtube series '''Murder Drones'''
+* The Theme of Serial Designation N is called ([https://www.youtube.com/watch?v=9tMowVO8ESw The Knife Dance]) which is composed by (AJ Dispirito) In reality It isn't his actual theme.
+*Serial Designation N is the first regular boss to be added to the Sloome Mod. First one being the [[Superbosses|Superboss]] [[Exodygen]]
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

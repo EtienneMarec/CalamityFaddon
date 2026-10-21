@@ -1,0 +1,209 @@
+<div class="crafting-tree">{{diagram
+
+|HallO|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|HMFRG|_|_|_|_|_|_|_|_|F|~|~|~|~|~|~|~|7|_|_|_|_|_|_|_|_|_|_|_|#
+|HallB|_|CrySh|_|SoulN|:|CursF|±|Ichor|:|SoulS|_|SoulM|_|SolF3|#
+|     |_|     |_|     |:|     | |     |:|     |_|     |_|     |#
+|_|I|_|_|_|I|_|_|_|I|_|L|~|~|~|y|~|~|~|J|_|I|_|_|_|I|_|_|_|I|_|#
+|_|)|-|-|-|^|-|-|-|^|-|-|-|-|-|^|-|-|-|-|-|^|-|-|-|^|-|-|-|'|_|#
+|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|I|_|_|Lumin|_|Metor|_|StarD|_|AstOr|_|SolF5|_|OLOaS|_|BCOaS|#
+|_|I|_|_|     |_|     |_|     |_|     |_|     |_|     |_|     |#
+|_|I|_|_|_|I|_|_|_|I|_|_|_|)|-|-|-|'|_|_|_|)|-|-|-|^|-|-|-|'|_|#
+|HMANV|_|_|¤|_|_|PHFRG|_|_|¤|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|_|_|#
+|CClmr|_|LumBr|_|MetBr|_|AstBr|_|BkHeS|_|ForOB|_|AshCa|_|InfAP|#
+      |_|     |_|     |_|     |_|     |_|     |_|     |_|     |#
+|_|`|-|-|-|+|-|-|-|^|-|-|-|'|_|_|_|`|-|-|-|+|-|-|-|^|-|-|-|'|_|#
+|_|_|_|_|_|¤|_|_|_|_|_|_|_|_|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|_|_|#
+|_|_|_|_|Devas|_|_|_|_|_|NigFu|_|CosBr|_|TFBOB|_|_|_|_|_|_|_|_|#
+|_|_|_|_|     |_|_|_|_|_|     |_|     |_|     |_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|`|-|-|-|-|-|-|-|+|-|-|-|^|-|-|-|'|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|COANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|DvDst|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+
+<!-- •• CRAFTING MATERIALS •• -->
+<!-- ••• Catastrophe Claymore ••• -->
+| CClmr_cols = 3
+| CClmr_rows = 2
+| CClmr = {{item|Catastrophe Claymore|size=40px}}
+
+| SoulS_cols = 3
+| SoulS_rows = 2
+| SoulS = {{item|Soul of Sight}} × 3<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|The Twins|size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} )
+
+| SoulM_cols = 3
+| SoulM_rows = 2
+| SoulM = {{item|Soul of Might}} × 3<br/>
+( {{item|mode=image|image=Map Icon The Destroyer.png|The Destroyer|size=20px}} )
+
+| SolF3_cols = 3
+| SolF3_rows = 2
+| SolF3 = {{item|Soul of Fright}} × 3<br/>
+( {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+| SoulN_cols = 3
+| SoulN_rows = 2
+| SoulN = {{item|Soul of Night}} × 5<br/>
+<div style="font-size: 0.75em">( [[tgc:Underground Corruption|Underground Corruption]]/[[tgc:Underground Crimson|Crimson]] )</div>
+
+| CursF_cols = 3
+| CursF_rows = 2
+| CursF = {{item|Cursed Flame}} × 5<br/>
+( {{item|mode=image|World Feeder|size=50px}} {{item|mode=image|Clinger|size=30px}} {{item|mode=image|Vile Ghoul|size=15px}} )
+
+| Ichor_cols = 3
+| Ichor_rows = 2
+| Ichor = {{item|Ichor}} × 5<br/>
+( {{item|mode=image|Ichor Sticker|size=20px}} {{item|mode=image|Tainted Ghoul|size=15px}} )
+
+| CrySh_cols = 3
+| CrySh_rows = 2
+| CrySh = {{item|Crystal Shard}} × 7<br/>
+<span style="font-size:0.75em">( [[Underground Hallow]] / {{item|mode=image|Crystal Crawler|size=30px}})</span>
+
+| HallB_cols = 3
+| HallB_rows = 2
+| HallB = {{item|Hallowed Bar}} × 10<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|The Twins||size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} {{item|mode=image|image=Map Icon The Destroyer.png|The Destroyer|size=20px}} {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+| HallO_cols = 3
+| HallO_rows = 2
+| HallO = {{item|Hallowed Ore}} × 40<br/>
+<span style="font-size:0.75em">( [[Underground Hallow]] )</span>
+
+<!-- ••• Forbidden Oathblade ••• -->
+| ForOB_cols = 3
+| ForOB_rows = 2
+| ForOB = {{item|Forbidden Oathblade|size=48px}}
+
+| OLOaS_cols = 3
+| OLOaS_rows = 2
+| OLOaS = {{item|Old Lord Oathsword|size=32px}}<br/>
+( {{item|mode=image|Bone Serpent|size=70px}} )
+
+| BCOaS_cols = 3
+| BCOaS_rows = 2
+| BCOaS = {{item|Bladecrest Oathsword|size=32px}}<br/>
+( {{item|mode=image|Demon|size=24px}} )
+
+| SolF5_cols = 3
+| SolF5_rows = 2
+| SolF5 = {{item|Soul of Fright}} × 5<br/>
+( {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+<!-- ••• Devastation ••• -->
+| Devas_cols = 3
+| Devas_rows = 2
+| Devas = {{item|Devastation|size=48px}}
+
+| Lumin_cols = 3
+| Lumin_rows = 2
+| Lumin = {{item|Luminite}} × 20<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=30px}} )
+
+| LumBr_cols = 3
+| LumBr_rows = 2
+| LumBr = {{item|Luminite Bar}} × 5
+
+| AstOr_cols = 3
+| AstOr_rows = 2
+| AstOr = {{item|Astral Ore}} × 20<br/>
+<span style="font-size:0.75em">( [[Astral Infection]] )</span>
+
+| StarD_cols = 3
+| StarD_rows = 2
+| StarD = {{item|Stardust}} × 30<br/>
+<span style="font-size:0.75em">( [[Astral Infection]] enemies / {{item|mode=image|image=Astrum Aureus map.png|Astrum Aureus|size=25px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=25px}} )</span>
+
+| AstBr_cols = 3
+| AstBr_rows = 2
+| AstBr = {{item|Astral Bar}} × 10
+
+| Metor_cols = 3
+| Metor_rows = 2
+| Metor = {{item|Meteorite}} × 30<br/>
+<span style="font-size:0.75em">( [[Meteorite (biome)|Meteorite]] )</span>
+
+| MetBr_cols = 3
+| MetBr_rows = 2
+| MetBr = {{item|Meteorite Bar}} × 10
+
+
+<!-- ••• True Forbidden Oathblade ••• -->
+| TFBOB_cols = 3
+| TFBOB_rows = 2
+| TFBOB = {{item|True Forbidden Oathblade|size=48px}}
+
+| BkHeS_cols = 3
+| BkHeS_rows = 2
+| BkHeS = {{item|Broken Hero Sword}}<br/>
+( {{item|mode=image|Mothron|size=30px}} {{item|mode=image|image=Calamitas map.png|size=24px}})
+
+| InfAP_cols = 3
+| InfAP_rows = 2
+| InfAP = {{item|Infected Armor Plating}} × 3<br/>
+( {{item|mode=image|image=Plaguebringer Goliath map.png|Plaguebringer Goliath|size=25px}} )
+
+| AshCa_cols = 3
+| AshCa_rows = 2
+| AshCa = {{item|Ashes of Calamity}} × 3<br/>
+( {{item|mode=image|image=Calamitas map.png|Calamitas|size=25px}} )
+
+
+<!-- ••• Devil's Devastation ••• -->
+| DvDst_cols = 3
+| DvDst_rows = 2
+| DvDst = {{item|Devil's Devastation|size=56px}}
+
+| CosBr_cols = 3
+| CosBr_rows = 2
+| CosBr = {{item|Cosmilite Bar}} × 8<br/>
+( {{item|mode=image|image=Devourer of Gods final head map.png|The Devourer of Gods|size=25px}} )
+
+|NigFu_cols = 3
+|NigFu_rows = 2
+|NigFu = {{item|Nightmare Fuel}} × 20<br/>
+<span style="font-size:0.75em">( [[Pumpkin Moon]] )</span>
+
+<!-- •• CRAFTING STATIONS •• -->
+| HMANV_cols = 3
+| HMANV_class = craft-station
+| HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+| PHFRG_cols = 3
+| PHFRG_class = craft-station
+| PHFRG = {{item|mode=image|Furnace}}
+
+| HMFRG_cols = 3
+| HMFRG_class = craft-station
+| HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+| ¤_cols = 1
+| ¤_class = craft-station
+| ¤ = {{item|mode=image|Ancient Manipulator}}
+
+| COANV_cols = 3
+| COANV_class = craft-station
+| COANV = {{item|mode=image|Cosmic Anvil}}
+
+
+<!-- OTHER -->
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

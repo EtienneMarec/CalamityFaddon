@@ -1,0 +1,40 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 60
+| damagetype = Ranged
+| knockback = 7
+| stack = 1
+| rare = 10
+| sell = {{value|1}}
+| auto = yes
+| use = 10
+| velocity = 32
+| tooltip = Shoots 4 darts that home at your enemies and inflict Holy Flames, Frostburn, Plague and Brimstone Flames
+| hardmode = yes
+| postml = yes
+| debuff = Elemental Mix
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| element1 = Stab
+| element2 = Magic
+}}
+
+The '''Outplanetary Dartshooter''' is a craftable Godseeker Mode [[Dart guns|dart gun]]  that fires 4 homing darts that inflict different debuffs. it can later be upgraded into the [[Godterminal Infernatory Blaster]]
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Elemental}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Dart guns]]

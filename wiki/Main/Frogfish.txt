@@ -1,0 +1,35 @@
+{{npc infobox
+| type = Aquatic
+| environment = Ocean
+| ai = Frogfish AI
+| damage = {{element|Water}} {{dv|25|50}}
+| life = {{dv|80|160}}
+| defense = 10
+| knockback = {{dv|50%|55%}}
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| debuff = Venom
+| debufftip = Losing life
+| duration = 3 seconds
+| debuffchance = 100%
+| banner = yes
+| money = {{cc|80}}
+| Anechoic Coating | 1 | 50%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Poison
+| vulnerable2 = Cold
+| resistant1 = Water
+| resistant2 = Holy
+}}
+
+The '''Frogfish''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Ocean]]. It stays invisible on the sand, waiting for the player to come near or hit it to attack them.
+
+== Trivia ==
+*Just like their [[wikipedia:Frogfish|real-life counterparts]], Frogfish camouflage into the ocean floor and wait for prey until they lunge and attack.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

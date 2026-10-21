@@ -1,0 +1,36 @@
+{{item infobox
+| type = Potion
+| type2 = Crafting material
+| stack = 999
+| tooltip = New Ilmeris style<br/>Medium improvements to all stats<br/>Increases life regeneration
+| consumable = Yes
+| rare = 5
+| use = 17
+| buff = Plenty Satisfied
+| bufftip = Medium improvements to all stats<br/>{{expert|Medium improvements to all stats and increased life regeneration}}
+| duration = 8 minutes
+| sell = {{value|0|2|0}}
+| hardmode = yes
+}}
+{{item drops infobox
+|[[Clam]] |1|{{dv|10%}}
+|[[Giant Clam]] |1|{{dv|50%}}
+|[[Sea Serpent]] |1|{{dv|5%}}
+|[[Eutrophic Ray]] |1|{{dv|2%}}
+|[[Ghost Bell]] |1|{{dv|2%}}
+|[[Prism-Back]] |1|{{dv|2%}}
+|[[Sea Floaty]] |1|{{dv|2%}}
+|[[Blinded Angler]] |1|{{dv|2%}}
+}}
+
+'''Clam Chowder''' is a consumable [[food item]] that drops from [[Sunken Sea]] enemies in [[Hardmode]]. When consumed, it grants the [[Plenty Satisfied]] buff for 8 minutes.
+
+==Crafting==
+===Used in (Any Food Item)===
+{{recipes|ingredient=Any Food Item}}
+{{-}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion=yes
+}}

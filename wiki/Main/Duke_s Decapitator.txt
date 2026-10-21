@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 90
+| damagetype = Rogue
+| rare = 8
+| stack = 1
+| sell = {{value|0|16}}
+| knockback = 2
+| use = 29
+| auto = yes
+| hardmode = yes
+| tooltip = Throws a hydro axe which shreds enemies when it comes into contact with them<br/>The faster it's spinning, the more times it hits before disappearing<br/>Stealth Strikes make it emit short-ranged bubbles.
+| velocity = 15
+| proj = Seafoam Bubble.png
+| projcaption = Decapitator Bubble
+| element1 = Water
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Duke Fishron]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+
+'''Duke's Decapitator''' is a [[Hardmode]] non-consumable [[rogue weapon]] that drops from [[Duke Fishron]]. It throws a fast spinning axe that slowly decelerates to a stop and shatters shortly after. The axe will stop completely upon hitting an enemy, "latching" onto them while dealing several hits. While "latched" onto an enemy this way, the frequency of hits correspond to the speed of the spin, as the spinning decreases the longer the axe lingers.
+
+Performing a [[stealth strike]] with Duke's Decapitator will cause the next axe to deal 120% damage and form floating bubbles as it travels, dealing 96% damage each and gradually increasing until the axe itself breaks.
+
+{{Modifier|rogue}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}

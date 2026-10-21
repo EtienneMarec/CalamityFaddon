@@ -1,0 +1,10 @@
+<includeonly>
+{{#ifeq:{{{listexclude|no}}}|yes|<!--nothing-->|
+{{!}} align = center {{!}} {{item|mode=table|{{{name|{{{%PAGE%}}}}}}|link={{{%PAGE%}}}|image={{#if:{{{imagealt|}}}|{{#invoke:String|match|s={{{imagealt|}}}|pattern=File:(.-){{!}}|nomatch=}}|{{#if:{{{image}}}|{{{image|}}}|{{{name|{{{%PAGE%}}}}}}.png}} }}|size={{#if:{{{imagealt|}}}|{{#invoke:String|match|s={{{imagealt|}}}|pattern={{!}}(.-px)|nomatch=}} }} }} {{#if:{{{namesub|}}}|<span style="color:slategray; font-size:80%;">({{{namesub}}})</span>}}
+{{!}} {{!}} {{#if:{{#dplreplace:{{#sub:{{{dr|}}}|-1|1}}|\d|}}|{{{dr|}}}|{{{dr|}}}%}}
+{{!}}-
+}}</includeonly>
+<noinclude>
+{{Dpl pages}}
+[[Category:DPL]]
+</noinclude>

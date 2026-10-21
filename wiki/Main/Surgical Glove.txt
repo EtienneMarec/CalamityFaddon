@@ -1,0 +1,29 @@
+{{Item infobox
+|type=Covering
+|stack=1
+|rare=8
+|tooltip=Melee attacks and projectiles inflict the Plague<br/>12% increased melee speed, damage, and 3% increased melee critical strike chance<br/>8% increased true melee damage<br/>Grants immunity to Plague
+|debuff=Plague
+|debuffchance=100%
+|debuffduration=2, 4, or 6 seconds
+|debufftip=Rotting from the inside
+|sell={{value|0|12}}
+|hardmode=yes
+}}
+
+The '''Surgical Glove''' is a [[Hardmode]] [[coverings|covering]] that drops from the [[The Plaguebringer Goliath|Plaguebringer Goliath]]. It provides a 12% increase to melee speed and damage and a 3% increase to melee critical strike chance, an 8% increase to [[true melee]] damage,  and gives the player immunity to the [[Plague]]. Any enemy struck by a melee attack are inflicted with the [[Plague]] [[Debuffs|debuff]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The true melee damage bonus from the covering does not stack with the [[Titan Glove]] and it's upgrades, but all other bonuses stack.
+*The player's melee attacks have a 25% chance to inflict Plague for 6 seconds, a 37.5% chance to inflict Plague for 4 seconds, and a 37.5% chance to inflict Plague for 2 seconds.
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

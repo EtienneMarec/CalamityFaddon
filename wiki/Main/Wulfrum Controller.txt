@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| rare = 1
+| sell = {{value|0|0|20}}
+| damage = 10
+| mana = 10
+| knockback = 0.5
+| use = 34
+| auto = yes
+| velocity = 10
+| tooltip = Summons a wulfrum droid to fight for you
+| buff = Wulfrum Droid (buff) | bufflink = no
+| bufftip = The wulfrum droid will protect you
+| stack = 1
+| element1 = Stab
+}}
+|{{item drops infobox
+|[[Wulfrum Excavator]] {{fantag|Calamity: Community Remix}}|1|{{dv|25%|33%}}
+}}
+}}
+{{summoned|Wulfrum Droid (minion)|type=minion}}
+
+The '''Wulfrum Controller''' is a craftable [[Pre-Hardmode]] [[summon weapon]]. When used, it summons a Wulfrum Droid minion. The droid floats by the player and attacks nearby enemies by firing green projectiles at them. The droid will travel through blocks to reach its target.
+
+{{Modifier|summonalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Wulfrum}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes}}

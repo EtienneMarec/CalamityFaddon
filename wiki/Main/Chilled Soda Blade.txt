@@ -1,0 +1,40 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damage = 200
+| use = 10
+| damagetype = melee
+| knockback = 3
+| auto = yes
+| velocity = 9
+| stack = 1
+| rare = 8
+| critical = 10%
+| sell = {{value|0|40|0|0}}
+| tooltip = Constantly generates Adrenaline when in use<br/>{{key|open}} to perform a Sparkling Rush, charging at the cursor's direction<br/>Replaces Adrenaline Mode with an enormous wave, and a boost to the rapier for a while<br/>'It remains sharp, even after its owner is long gone'
+| buff = After-School Sparring | bufflink = no
+| duration = 8 seconds
+| bufftip = If you assume I'm all soft, then you'll pay dearly!
+| hardmode = yes
+| element1 = Water
+| element2 = Slash
+| element3 = Stab
+}}
+
+The '''Chilled Soda Blade''' is a [[Hardmode]] [[Swords|Broadsword]] that can be found inside a [[Forgotten Chest]] in the [[Sunken Sea]], unlocked by a [[Sea-Imbued Key]].
+
+Upon {{key|open}}, the player performs a Sparkling Rush, charging at the cursor's direction, then stopping after getting near an enemy or reaching a certain distance to slash at said direction. said slash deals 150% of the weapon's damage.
+
+In [[Revengeance Mode]], [[Adrenaline Meter|Adrenaline]] builds up while this weapon is held. Pressing the {{key|Adrenaline Mode}} key creates a big wave that pierces through infinite amount of enemies for a period of time before dissipating, and reducing their adrenaline meter to 0. This also grants the player the '''After-School Sparring''' Buff, increasing the weapon's size, damage, usetime, and grants it a blue, circular slash to increase its range even more. The waves and the buff's duration is proportional to the amount of adrenaline the player had upon activation, and the wave is boosted by melee damage bonuses. This attack has a 30 second cooldown. Getting hit while holding this weapon halts the adrenaline charge for 3 seconds, and when switching out, their Adrenaline gets reduced to 0, and the mechanic returns to its normal functionality.
+
+{{Modifier|melee}}
+
+== Trivia ==
+*The Weapon, and its functions directly references [https://cookierun.fandom.com/wiki/Cream_Soda_Cookie Cream Soda Cookie] from the [https://en.wikipedia.org/wiki/Cookie_Run Cookie Run] franchise.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:True melee]]
+[[Category:Swords]]

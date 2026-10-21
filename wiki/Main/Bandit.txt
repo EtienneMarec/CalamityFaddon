@@ -1,0 +1,184 @@
+{{npc infobox
+| type = NPC
+| environment = Valid house
+| ai = Passive AI
+| life = 250
+| defense = 15
+| knockback = 50
+| image2 = Bandit map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+{{NPC}}
+
+The '''Bandit''' is an [[NPC]] vendor that provides a plethora of [[weapon]]s and [[coverings]] that tailor to the [[Spy]] class.
+
+The Bandit will move into an available NPC house if the following conditions have been met:
+*There is an empty [[tgc:House|house]].
+*[[Skeletron]] has been defeated.
+*The player has at least {{pc|1}} in their inventory or personal storage items (such as the Piggy Bank). (This condition will not be required if the Bandit has moved in before on that world)
+
+When threatened by [[enemies]], she will defend herself with the [[Cinquedea]].
+
+== Items sold ==
+{{inventory
+|Cinquedea|{{gc|9}}|
+|Glaive|{{gc|3}}|
+|Kylie|{{gc|9}}|
+|Old Die|{{gc|40}}|
+|Bear's Eye|{{pc|5}}|
+|Tiger Climbing Gear|{{gc|5}}|
+|Invisibility Potion|{{gc|1}}|
+|Night Owl Potion|{{gc|1}}|
+|Dangersense Potion|{{gc|1}}|
+|Gel Dart|{{sc|2}}{{cc|50}}|After [[The Slime God]] has been defeated.
+|Slick Cane|{{gc|25}}|In [[Hardmode]].
+|Thief's Dime|{{pc|1}}|After the [[Pirate Invasion]] has been defeated.
+|Bouncing Betty|{{sc|4}}|After defeating any [[Mechanical Boss]].
+|Latcher Mine|{{sc|3}}|After defeating any Mechanical Boss.
+|Deep Wounder|{{gc|60}}|After [[Calamitas]] has been defeated.
+|Monkey Darts|{{sc|4}}| After [[Plantera]] has been defeated.
+|Glove of Precision|{{pc|1}}|After Plantera has been defeated.
+|Glove of Recklessness|{{pc|1}}|After Plantera has been defeated.
+|Ethereal Extorter|{{pc|10}}|After the [[Golem]] has been defeated.
+|Celestial Reaper|{{pc|20}}|After the [[Moon Lord]] has been defeated.
+|Sylvan Slasher|{{pc|50}}|After [[Providence]] has been defeated.
+|Venerated Locket|{{value|0|0|0|0|20}}|After [[The Devourer of Gods]] has been defeated.
+|Dragon Scales|{{value|0|0|0|0|0|1}}|After defeating [[Jungle Dragon, Yharon]].
+}}
+
+== Refund ==
+When the player selects the Bandit's "Refund" option after [[tgc:Modifiers#Reforging|reforging]] at the [[Goblin Tinkerer]] any number of times, the Bandit will return 1/5 of the money spent on those reforges. The Bandit can only return the money spent on reforges, and only in that world. The Bandit has three unique quotes when using this option.
+
+'''When refunding:'''
+*"Want in on a little secret? Since [Name of Goblin Tinkerer] always gets so much cash from you, I’ve been stealing some of it as we go. I need you to keep quiet about it, so here."
+*"Hey, if government officials can get tax, why can’t I? The heck do you mean that these two things are nothing alike?"
+
+'''If no refund is available:'''
+*"Sorry, I got nothing. Perhaps you could reforge something and come back later..."
+
+== Names ==
+The Bandit may have any of the following names:
+*Amber
+*Anne
+*Bonnie
+*Diane
+*Hearn
+*Indiana
+*Jade
+*Jessica
+*Jessie
+*Kate
+*Laura
+*Maribel
+*Marisa
+*Mie
+*Penelope
+*Rowan
+*Sarah
+*Valerie
+*Xplizzy
+
+== Quotes ==
+'''Anytime:'''
+*"Anything is a weapon if you throw it hard enough."
+*"That’s your chucking arm? You need to work out more."
+*"Listen here. It’s all in the wrist, the wrist! Oh, forget it."
+*"Eh you know how it goes; steal from the rich, give to the poor, but I do take a cut of the profit."
+*"Snakes! Why does it always have to be snakes!"
+*"It's super nice you know, to just have everything you want. Some people never got that luxury."
+*"It's not stealing! I'm just borrowing it until I die!"
+
+'''During [[night]]:'''
+*"Hm, the stars are too bright tonight. Makes sneaking around a little more difficult."
+*"You think those stars that fall occasionally would make good throwing weapons?"
+
+'''During a [[Blood Moon]]:'''
+*"Oy, watch where you're going or I might just use you for dart practice."
+*"Bet you'd look good as a pincushion, amiright?"
+*"Zombies don't dodge very well. Maybe you'll do a bit better."
+*"Hey, careful over there. I've rigged the place. One wrong step and you're going to get a knife in your forehead."
+
+'''During a [[Party]]:'''
+*"Where is my party hat? Well, I stole it of course."
+
+'''If the Bandit's name is Laura:'''
+*"The nice thing about maps is that I can track anything that has fallen."
+
+'''If the Bandit's name is Penelope:'''
+*"Imagine how fast you could throw if you just had more hands."
+
+'''If the Bandit's name is Rowan:'''
+*"Usually I only think of animals as food or target practice, but dragons are an exception."
+
+'''If the Bandit's name is Valerie:'''
+*"I also take food for currency."
+
+'''While in the [[Jungle]]:'''
+*"I'd rather not be here. This place has bad vibes, y'know? It brings back some unpleasant memories."
+
+'''If the Player has the [[Bone Glove]] in their inventory:'''
+*"Wouldn’t be the first time I used remains as weapons."
+
+'''If the world is in [[Hardmode]]:'''
+*"All sorts of new weapons to be found and looted. Get to that, and I'll share some of my collection too!"
+*"There's so much scrap around this land with valuable parts to them. Makes you wonder who could afford to leave em all around."
+*"Crypts, tombs, dungeons, those're all just treasure troves to me. The dead are dead, they've got nothing to do with it."
+'''After either [[tgc:Plantera|Plantera,]] [[Calamitas|The Calamitas Clone]] or [[The Derellect]]  has been defeated prior to [[Polyphemalus|Polyphemalus']] defeat.'''
+
+*"the eyrs, the-th-their-... ANGER!!!1!"
+
+'''If the [[Moon Lord]] has been defeated:'''
+*"If you find anything cool, make sure to drop by and show it to me, I promise I’ll keep my hands off it."
+*"So many new things to steal, I can’t think of where to start!"
+*"If I end up angering some deities or whatever, would you mind taking the blame for me?"
+
+'''If the Player has the [[Valediction]] in their inventory:'''
+*"Oh man, did you rip that off a shark!? Now that’s a weapon!"
+
+'''If the Player has the [[Spy's Lootbox]] equipped:'''
+*"Ohohoho my boy I just joined the IRS and will no longer be selling anythi- you made this shiny new covering out of all my wares? ohohoho, nevermind then."
+
+'''If the [[Merchant]] is present:'''
+*"Don’t tell [Name of Merchant], but I took some of his stuff and replaced it with Angel Statues."
+
+'''If the [[Brimstone Witch]] is present:'''
+*"Hey, hey, has Calamitas seriously moved in here with us? Why???"
+
+'''If both the [[Arms Dealer]] and [[Nurse]] are present:'''
+*"Don’t tell [Name of Nurse] that I was responsible for [Name of Arms Dealer]’s injuries."
+
+'''If the [[Snowman]] is present and the player has not turned in the [[Raggedy Plush]]:'''
+*"H-hey, has anyone seen a stuffed pig around?"
+*"Ugh, make it quick."
+*"Buy something already! I've got things to do!."
+
+'''If the player has the [[Raggedy Plush]] in their inventory:'''
+*"Hey wait, that stuffed animal, it's mine! Give that back!"
+
+'''If the player turns in the [[Raggedy Plush]]:'''
+*"Oh finally! I've been looking for this thing everywhere. Alright, well uhh, thanks I guess. Here, consider this as payment for what you did."
+
+== Notes ==
+*If the player leaves and rejoins the world, the Refund's reforge counter will reset and the player will not be able to collect any money from the Bandit.
+*The Bandit does not give a discount to players with the [[Discount Card]] or similar items.
+
+== Trivia ==
+*The Bandit’s name ''Marisa'' is a reference to the character [https://en.touhouwiki.net/wiki/Marisa_Kirisame Marisa Kirisame] from the ''[[wikipedia:Touhou Project|Touhou Project]]'' series.
+**Her quote "I’m just borrowing it until I die!" refers to Marisa's habit of stealing from youkai with the justification that her human lifespan is shorter than theirs.
+**The Bandit's names ''Maribel'' and ''Hearn'' are references to the character [https://en.touhouwiki.net/wiki/Maribel_Hearn Maribel Hearn] from the same series.
+*The Bandit’s name ''Indiana'', and her quote regarding snakes is a reference to the character [[wikipedia:Indiana Jones (character)|Indiana Jones]] from the ''[[wikipedia:Indiana Jones|Indiana Jones]]'' franchise.
+*The Bandit's name ''Rowan'' is related to developer Lord Metarex. It is a nod to his real name if he were a girl.
+*The quote "Don’t tell [Name of Merchant], but I took some of his stuff and replaced it with Angel Statues." is a continuing reference to the well-known Angel Statue being absolutely useless.
+**The Merchant selling Angel Statues while the Bandit is present is also a reference to this line.
+*The quote "the eyrs, the-th-their-... ANGER!!!1!" is a reference to [https://calamitymod.fandom.com/wiki/Polyphemalus Polyphemalus]' [[Music|theme]], [https://youtu.be/eBliz_IvFDo| the eyes are anger], which was composed by the artist [https://www.youtube.com/@gummyleeches GummyLeeches.]
+*The Bandit's name-specific quotes are references to members of the Calamity dev team and community.
+*During a Party, the Bandit will wear no hat.
+*In the mod's source files, the Bandit is referred to as 'THIEF'.
+**This is a reference to the game [[wikipedia:The Legend of Zelda: Link's Awakening|The Legend of Zelda: Link's Awakening]], in which the player's name is permanently changed to 'THIEF' if they ever steal from a shop. <!-- Confirmed reference by devs. -->
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-npc = yes
+}}

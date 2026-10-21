@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| tooltip = Large laser cannon used primarily by Yharim's fleet and base defense force<br/>Current Charge: [CHARGE]
+| debuff = On Fire!
+| debuffchance = 100%
+| debufftip = Losing life
+| debuffduration = 1.5 seconds
+| damage = 43
+| use = 2
+| mana = 6
+| velocity = 24
+| knockback = 1
+| rare = a
+| sell = {{value|0|12}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| element1 = Fire
+| element2 = Machine
+}}
+
+The '''Gatling Laser''' is a craftable [[Hardmode]] [[magic gun]]. When used, the gun has a short load period before a barrage of fast but inaccurate red lasers are fired at a massively rapid rate. The laser creates a tiny explosion on hit, inflicts the [[On Fire!]] [[debuff]].
+
+The weapon consumes 0.0075 units of [[charge]] for each frame the weapon is held (totaling 0.015 units of charge per use) and has a maximum charge of 135.
+
+{{Modifier|magicalt}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier3}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The Gatling Laser is a reference to the [https://fallout.fandom.com/wiki/Gatling_laser weapon of the same name] from the ''[[wikipedia:Fallout (series)|Fallout]]'' series, and uses the same firing sound effect.
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Magic guns]]

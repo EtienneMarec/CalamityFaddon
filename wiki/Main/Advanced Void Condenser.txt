@@ -1,0 +1,33 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Furniture
+| type2 = Crafting station
+| type3 = Light Source
+| auto = yes
+| placeable = Yes
+| width = 3
+| height = 3
+| stack = 9999
+| use = 14
+| tooltip = Used for special crafting
+| consumable = Yes
+| rare = C1
+| color = #0A0AFF
+| sell = No value
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+The '''Advanced Void Condenser''' is a post-[[Umbrus]] [[crafting station]] used to craft the [[Furniture Sets (CTotA)|Skylac furniture set]] themed around the [[Sky Abyss]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used to craft ===
+{{ajax|Recipes/Advanced Void Condenser|width=40%}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

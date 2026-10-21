@@ -1,0 +1,48 @@
+{{dedicated|Guwahavel|Patreon Donator}}
+{{distinguish|Firestorm Cannon|a [[ranged weapon]] that consumes [[Flare]]s}}
+{{item infobox
+| stack = 1
+| auto = yes
+| type = Weapon
+| damage = 12
+| damagetype = ranged
+| use = 8
+| tooltip = Fires a chain of snowballs that become faster over time<br/>Has a chance to also fire an ice chunk that shatters into shards<br/>50% chance to not consume snowballs
+| velocity = 18
+| knockback = 1.2
+| sell = {{value|0|0|80}}
+| rare = 3
+| debuff = Frostburn
+| debuffduration = 3 seconds (Chunk)<br/>2 seconds (Shard)<br/>1 second (Snowball)
+| debuffchance = 100%
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuff2 = Glacial State
+| debuffchance2 = 100%
+| debuffduration2 = 0.5 seconds (Chunk, Shard)
+| debufftip2 = Cannot move and defense is shattered
+| proj = Icicle Staff Icicle.png
+| projcaption = Flurrystorm Chunk
+| proj2 = Snowball.png
+| proj2caption = Snowball
+| proj3 = Flurrystorm Shard.png
+| proj3caption = Flurrystorm Shard
+| image2 = Flurrystorm Cannon (tank).png
+| image2caption = Equipped tank
+| image3 = Flurrystorm Cannon Holdout.gif
+| image3caption = Flurrystorm Cannon
+| element1 = Cold
+| element2 = Stab
+}}
+
+The '''Flurrystorm Cannon''' is a craftable [[Pre-Hardmode]] [[ranged weapon]]. It fires gravity affected snowballs at a gradually increasing rate as it is held out, increasing its fire rate every second until reaching a maximum of eight seconds. It has a 20% chance to fire an additional ice chunk that splits into three ice shards. Ice chunks deal 1.5x damage and ice shards deal 0.45x damage. Both the ice chunk and the ice shards inflict the [[Frostburn]] and [[Glacial State]] [[debuffs]]. It also has a 50% chance not to consume [[Snowball]]s.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

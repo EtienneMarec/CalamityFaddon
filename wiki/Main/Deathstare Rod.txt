@@ -1,0 +1,49 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| damagetype = summon
+| damage = 33
+| use = 34
+| mana = 10
+| knockback = 2
+| tooltip = Summons an eye above your head that watches you and shoots at enemies<br/>There can only be one eye
+| buff = Miniature Eye of Cthulhu (buff) | bufflink = no
+| bufftip = It's watching you
+| rare = 2
+| sell = {{value|0|0|40}}
+| element1 = Unholy
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Eye of Cthulhu]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Miniature Eye of Cthulhu|type=minion}}
+{{distinguish|Eye of Night|a craftable [[Corruption]]-themed [[summon weapon]]}}
+
+The '''Deathstare Rod''' is a craftable [[Pre-Hardmode]] [[summon weapon]]. It summons a tiny floating eyeball above the player's head that fires lasers towards nearby targets. The eye is able to target and fire through tiles. On hit, the laser deals damage in a tiny area of effect. Unlike most minions, only one Miniature Eye of Cthulhu can be summoned.
+
+{{Modifier|summon}}
+
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Miniature Eye of Cthulhu emits a soft blue light.
+**This light changes to a purplish red during the [[Blood Moon]].
+*Due to the summon's ability to attack enemies off-screen, it can trigger the summoning of bosses like the [[The Hive Mind]].
+*When used with the spirit glyph, the damage increase of the glyph will stack infinitely on the rod, only being removed when the Miniature Eye of Cthulhu is desummoned, or when the player dies or leaves the world.
+== Trivia ==
+*The design and colors of the weapon are based on the Eye of Cthulhu's sprites from the [[Community modifications#Calamity Texture Pack|Calamity Texture Pack]].
+*A "death stare" is an informal term for an annoyed, intimidating, or otherwise hostile gaze directed at another person.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

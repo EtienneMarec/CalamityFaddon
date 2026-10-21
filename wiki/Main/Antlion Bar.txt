@@ -1,0 +1,27 @@
+{{item infobox
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 9999
+| rare = 1
+| sell = {{value|0|0|5}}
+| use = 14
+| placeable = yes
+| consumable = yes
+| auto = true
+}}
+
+'''Antlion Bars''' are [[Pre-Hardmode]] [[bars]] made with 25 [[Antlion Ore]] at a [[Glass Kiln]]. They are used to craft various mandible themed items.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+[[zh:天蓝锭]]

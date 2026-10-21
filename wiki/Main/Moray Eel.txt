@@ -1,0 +1,37 @@
+{{npc infobox
+| type = Aquatic
+| environment = Ocean
+| environment2 = Abyss
+| ai = Moray Eel AI
+| damage = {{element|Dark}} {{dv|55|110}}
+| life = {{dv|360|720}}
+| defense = 8
+| knockback = {{dv|25%|32.5%}}
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| banner = yes
+| money = {{sc|10}}
+| Depth Crusher | 1 | {{dv|6.67%|10%}}
+| Flipper|1| 4%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Cold
+| vulnerable2 = Slash
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Dark
+| resistant3 = Fire
+}}
+{{distinguish|Gulper Eel|an enemy that spawns in the lowest 2 levels of the [[Abyss]]}}
+The '''Moray Eel''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Ocean]] and the 1st layer of the [[Abyss]]. It swims around when not aggressive, but as soon as the player gets too near or hits it, it will swim in their direction and attempt to attack them. If hit, it will not go passive again, even if the player is far from it.
+
+== Notes ==
+*The Moray Eel's eyes glow in the [[Abyss]], giving a clear indication as to where it is.
+*Moray Eels are not automatically targeted by [[minion]]s, until they are damaged by another weapon.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

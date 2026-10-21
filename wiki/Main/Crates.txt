@@ -1,0 +1,207 @@
+{{item infobox
+| type = Grab bag
+| type2 = Furniture
+| imagealt = [[File:Astral Crate.png|link=Astral Crate]] &nbsp; [[File:Brimstone Crate.png|link=Brimstone Crate]] &nbsp; [[File:Sunken Crate.png|link=Sunken Crate]]
+| placeable = yes
+| auto = yes
+| width = 2
+| height = 2
+| stack = 9999
+| consumable = True
+| use = 14
+}}
+
+'''Crates''' are [[grab bag]]-type items which can be hooked while [[fishing]], containing random loot. The Calamity Mod currently adds four new crates, and adds Calamity-based loot to vanilla crates.
+
+== Variants ==
+{| class="terraria align-center"
+! Type
+! Value
+! [[Rarity]]
+! [[Biome]]
+|-
+| {{item|Abyssal Crate}}
+| {{gc|1}}
+| {{rare|2}}
+| [[Sulphurous Sea]]
+|-
+| {{item|Astral Crate}}
+| {{gc|1}}
+| {{rare|2}}
+| [[Astral Infection]]
+|-
+| {{item|Brimstone Crate}}
+| {{gc|1}}
+| {{rare|2}}
+| [[Brimstone Crag]]
+|-
+| {{item|Sunken Crate}}
+| {{gc|1}}
+| {{rare|2}}
+| [[Sunken Sea]]
+|}
+
+== Augmented Vanilla Crates ==
+{|
+|- valign=top
+|
+{| class="terraria lined"
+! colspan="3" | {{item|Iron Crate}}
+|-
+! Item !! Quantity !! Chance
+|-
+| {{item|Wulfrum Metal Scrap}}
+| rowspan="2" style="border-bottom: 0;" |5-8
+| rowspan="2" style="border-bottom: 0;" |25%
+|-
+| {{item|Ancient Bone Dust}}
+|}
+|
+{| class="terraria lined"
+! colspan="3" | {{item|Wooden Crate}}
+|-
+! Item !! Quantity !! Chance
+|- 
+| {{item|Wulfrum Metal Scrap}}
+| 3-5
+| 25%
+|}
+|
+
+|}
+{|
+|- valign=top
+|
+{| class="terraria lined"
+! colspan="3" | {{item|Crimson Crate}}
+|-
+! Item !! Quantity !! Chance
+|-
+| {{item|Blighted Gel}}
+| 5-8
+| 15%
+|}
+|
+{| class="terraria lined"
+! colspan="3" | {{item|Corrupt Crate}}
+|-
+! Item !! Quantity !! Chance
+|-
+| {{item|Grimesand}}
+| 10-30
+| 15%
+|-
+| {{item|Blighted Gel}}
+| 5-8
+| 15%
+|}
+|
+{| class="terraria lined"
+! colspan="3" | {{item|Hallowed Crate}}
+|-
+! Item !! Quantity !! Chance
+|-
+| {{item|Unholy Essence}}
+| 5-10
+| 15% <span style="font-size:0.75em">( Post-{{item|mode=image|Providence map|link=Providence|size=30px}} )</span>
+|-
+| {{item|Holy Wrath Potion}}
+| 1-2
+| 10% (Only in Post-{{item|mode=image|Providence map|link=Providence|size=30px}} [[Corruption|Corrupt]] worlds)
+|-
+| {{item|Profaned Rage Potion}}
+| 1-2
+| 10% (Only in Post-{{item|mode=image|Providence map|link=Providence|size=30px}} [[Crimson]] worlds)
+|}
+|
+
+|}
+{|
+|- valign=top
+|
+{| class="terraria lined"
+! colspan="3" | {{item|Jungle Crate}}
+|-
+! Item !! Quantity !! Chance
+|-
+| {{item|Murky Paste}}
+| 1-3
+| 15%
+|-
+| {{item|Trapper Bulb}}
+| rowspan="2" | 1-3
+| rowspan="2" | 20% <span style="font-size:0.75em">( In [[Hardmode]] )</span>
+|-
+| {{item|Beetle Juice}}	
+|-
+| {{item|Essence of Babil}} {{fantag|Calamity: Community Remix}}
+| 2-4
+| 20% <span style="font-size:0.75em">( In [[Hardmode]] )</span>
+|-
+| {{item|Chlorophyte Bar}}
+| 1-3
+| 10% <span style="font-size:0.75em">( Post-{{item|mode=image|Calamitas map|link=Calamitas|size=24px}} / {{item|mode=image|Map Icon Plantera (first form)|link=Plantera|size=24px}} )</span>
+|-
+| {{item|Perennial Bar}}
+| 1-3
+| 10% <span style="font-size:0.75em">( Post-{{item|mode=image|Map Icon Plantera (first form)|link=Plantera|size=24px}} )</span>
+|-
+| {{item|Verdantium Bar}}
+| 1-3
+| 10% <span style="font-size:0.75em">( Post-{{item|mode=image|Map Icon Duke Fishron|link=Duke Fishron|size=24px}} )</span>
+|-
+| {{item|Plague Cell Canister}}
+| 3-6
+| 20% <span style="font-size:0.75em">( Post-{{item|mode=image|Map Icon Golem|link=Golem|size=24px}} )</span>
+|-
+| {{item|Uelibloom Bar}}
+| 1-3
+| 10% <span style="font-size:0.75em">( Post-{{item|mode=image|Providence map|link=Providence|size=30px}} )</span>
+|}
+|
+{| class="terraria lined"
+! colspan="3" | {{item|Sky Crate}}
+|-
+! Item !! Quantity !! Chance
+|-
+| {{item|Aerialite Bar}}
+| 1-3
+| 10% <span style="font-size:0.75em">( Post-{{item|mode=image|Perforator Hive map|link=The Perforators|size=26px}} / {{item|mode=image|Hive Mind map|link=The Hive Mind|size=32px}} )</span>
+|-
+| {{item|Essence of Sunlight}}
+| 2-4
+| 20% <span style="font-size:0.75em">( In [[Hardmode]] )</span>
+|-
+| {{item|Dragonfruit}}
+| 1
+| 100% <span style="font-size:0.75em">( Post-{{item|mode=image|Yharon map|link=Jungle Dragon, Yharon|size=24px}} while a [[Wyvern]] is alive)</span>
+|}
+|
+{| class="terraria lined"
+! colspan="3" | {{item|Dungeon Crate}}
+|-
+! Item !! Quantity !! Chance
+|-
+| {{item|Ectoplasm}}
+| 1-5
+| 10% <span style="font-size:0.75em">( Post-{{item|mode=image|Map Icon Plantera (first form)|link=Plantera|size=24px}} )</span>
+|-
+| {{item|Phantoplasm}}
+| 1-5
+| 10% <span style="font-size:0.75em">( Post-{{item|mode=image|Polterghast map|link=Polterghast|size=28px}} )</span>
+|}
+|
+|}
+
+== See Also ==
+*[[tgc:Crates|Crates]] on the vanilla wiki.
+
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-furniture = yes
+}}
+[[zh:宝匣]]

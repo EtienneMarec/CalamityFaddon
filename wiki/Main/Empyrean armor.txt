@@ -1,0 +1,117 @@
+{| align=right
+|{{item infobox
+| type = Armor
+| defense = 71
+| rare = 10
+| sell = {{value|0|19|20}} (set)
+| hardmode = yes
+| setbonus = 9% increased Spy damage and velocity<br/>Spy projectiles have special effects on enemy hits<br/>Imbued with cosmic wrath and rage when you are damaged<br/>Spy stealth builds while not attacking and slower while moving, up to a max of 115<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+| buff = Empyrean Rage | bufflink = no
+| bufftip = Rage of the Cosmos
+| duration = 4 seconds (when hit)
+| buff2 = Empyrean Wrath | bufflink2 = no
+| bufftip2 = Wrath of the Cosmos
+| duration2 = 4 seconds (when hit)
+| boxwidth = 22em
+}}
+|-
+|
+{| class="terraria" align=center width=220px style="background-color:#515151;"
+! colspan="1" | Full set Transformation<br/>
+|-
+| <center>[[File:Empyrean_armor_transformation_comparison.gif]]<br/>Full set animations on the left.<br/>Individual piece animations on the right, compiled.<ref>Individual piece animations cannot be seen together in-game, however each part can be seen on their own if worn without the rest of the set.</ref></center>
+|}
+|}
+
+'''Empyrean armor''' is a craftable Godseeker Mode [[Covering]] set crafted from [[Meld Construct]]s, as well as [[Luminite Bar]]s. It serves as the Lunar-tier armor for the [[Spy]] class. It requires 52 Meld Constructs and 36 Luminite Bars to make the whole set. If all three pieces of the set are visible (whether equipped or in social slots), the player will have a pulsing aura and afterimages. Additionally, the armor's movement and item swinging animations will change to be more unique than each individual piece's animation.
+
+It consists of a '''Empyrean Mask''', '''Empyrean Cloak''', and '''Empyrean Cuisses'''.
+
+== Stats ==
+The full set grants the following stats and bonuses (this includes the set bonus):
+*71 defense
+*32% increased Spy damage
+*23% increased Spy critical strike chance
+*9% increased Spy velocity
+*20% increased movement speed
+*+20 max life
+*Temporary immunity to lava
+*Grants the '''Empyrean Rage''' and '''Empyrean Wrath''' [[buffs]] for 4 seconds upon taking damage, granting the player 10% increased Spy damage and 5% increased Spy critical strike chance respectively
+*Grants the [[Wrath]] and [[Rage Potion|Rage]] buffs indefinitely while below half health, further granting the player 10% increased damage and critical strike chance respectively
+*Gives a max [[stealth]] of 115
+
+With the set bonus active, all [[Spy]] projectiles will be able to spawn a variety of different Empyrean projectiles upon striking enemies. After a projectile spawns, there is a short cooldown before a new one can spawn:
+
+{| class="terraria"
+|-
+! style="padding:0 15px" | Type !! Effect
+|-
+| {{item|Empyrean Star|link=}}
+| Released at a random velocity and strongly homes into enemies.<br/>Deals 80% of the damage of the projectile that spawned it and is softcapped at 120 damage.
+|-
+| {{item|Empyrean Damaging Orb|link=}}
+| Weakly homes into enemies, deals 62.5% of the projectile's damage and is softcapped at 100 damage.
+|-
+| {{item|Empyrean Healing Orb|link=}}
+| Spawns alongside the damaging orb and [[Lifesteal|heals]] for 6% of the projectile's damage.<br/>If the projectile pierces, each hit reduces the lifesteal by 1.5% of the projectile's damage
+|-
+| {{item|Empyrean Fire Spark|link=}}
+| Affected by gravity and lingers on the ground for three seconds.<br/>Deals 15% of the projectile's damage, softcapped at 30 damage.<br/>If three or more sparks exist at a time, no new Empyrean projectiles can be spawned.
+|-
+| {{na}} Empyrean Blast
+| Deals 20% of the projectile's damage in an area, softcapped at 40 damage.<br/>If three or more blasts exist at a time, no new Empyrean projectiles can be spawned.
+|-
+| {{item|Empyrean Bubble|link=}}
+| Weakly homes into enemies, deals 60% of the projectile's damage and is softcapped at 90 damage.
+|}
+
+<references/>
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Empyrean Mask
+| type = Armor
+| defense = 20
+| body slot = Helmet
+| tooltip = Wrath of the cosmos<br/>11% increased Spy damage and critical strike chance, 5% increased movement speed<br/>Temporary immunity to lava
+| sell = {{value|0|8}}
+}}
+|{{item infobox
+| name = Empyrean Cloak
+| type = Armor
+| defense = 27
+| body slot = Shirt
+| tooltip = Armor of the cosmos<br/>+20 max life<br/>7% increased Spy damage and critical strike chance
+| sell = {{value|0|6|40}}
+}}
+|{{item infobox
+| name = Empyrean Cuisses
+| type = Armor
+| defense = 24
+| body slot = Pants
+| tooltip = Speed of the cosmos<br/>5% increased Spy damage and critical strike chance<br/>15% increased movement speed
+| sell = {{value|0|4|80}}
+}}
+}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result=LIKE Empyrean%|resultnot=Empyrean Knives}}
+
+== Notes ==
+*This armor set is considered to be the Spy equivalent of the [[Lunar Fragment]]s armors.
+*The additional projectiles spawned by the set bonus do not have any damage types.
+*While the full set is equipped, melee weapons release magenta dust when swung, which emit a decent amount of light.
+
+== Trivia ==
+
+* Empyrean Armor was formerly known as '''Xeroc Armor''', crafted with '''[[Meld Construct#Trivia|Meld Bars]].''' 
+** Xeroc Armor also used to be a classless [[Covering]] set before it was a [[Spy]] armor set. 
+
+{{Meld}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}
+[[Category:Healing items]]

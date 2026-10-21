@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = Spy
+| damage = 26
+| knockback = 2
+| velocity = 20
+| rare = 6
+| sell = {{value|0|7|20}}
+| use = 19
+| stack = 1
+| hardmode = yes
+| debuff = Ichor (debuff)
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| debufftip = Defense reduced by 20
+| tooltip = Throws three spears with the outer two having homing capabilities<br/>Stealth strikes cause all three spears to home in, ignore tiles, and pierce more
+| element1 = Holy
+| element2 = Stab
+}}
+The '''Spear of Destiny''' is a craftable [[Hardmode]] [[javelin]] that also has a small chance of being dropped by enemies in the crimson (1.4%). When fired, it throws out a projectile identical to the Ichor Spear, alongside two rapidly moving spears which will aggressively home in onto enemies. Each spear will inflict the [[Ichor (debuff)|Ichor]] [[debuff]] and pierce once. It is the [[Crimson]] counterpart is the {{fantag|Calamity: Community Remix}} [[Spear of Liberty]].
+
+Performing a [[stealth strike]] with the Spear of Destiny will cause all three spears to aggressively home, ignore tiles, and pierce two additional times.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The homing of the spear is so strong that it will often return to hit the same enemy again after piercing once.
+
+== Trivia ==
+*The Spear of Destiny is another name for the [[wikipedia:Holy Lance|Holy Lance]], a biblical artifact in Judaic and Christian religions.
+*It was formerly the [[rare variant]] of the [[Ichor Spear]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue= yes
+}}
+[[Category:Spy weapons]]
+[[Category:Javelins]]

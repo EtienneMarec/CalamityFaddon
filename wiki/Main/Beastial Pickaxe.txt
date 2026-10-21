@@ -1,0 +1,33 @@
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 35
+| debuff = Venom
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| pick = 200
+| knockback = 4.5
+| rare = 7
+| use = 14
+| sell = {{value|0|12|0|0}}
+| hardmode = yes
+| toolspeed = 5
+}}
+
+The '''Beastial Pickaxe''' is a craftable [[Hardmode]] [[pickaxe]] capable of mining {{item|Chlorophyte Ore}}. It emits green light particles when swung, and inflicts the [[Venom]] [[debuff]] on strike.
+
+{{modifier|harvestalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Perennial}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

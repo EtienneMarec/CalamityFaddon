@@ -1,0 +1,44 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| damage = 40
+| use = 24
+| knockback = 0
+| damagetype = Ranged
+| velocity = 11
+| tooltip = "Hyperhavoc's lil' bro" <br/>Fires a beam of Brimstone Flames
+| rare = 2
+| sell = {{value|0|1}}
+| stack = 1
+| auto = yes
+| debuff = Brimstone Flames
+| debuffduration = 4 seconds
+| debuffchance = 100%
+| proj = Microhavoc Beam.png
+| projcaption = beam
+| image2 = Microrhavoc (tank).png
+| image2caption = Equipped tank
+}}
+
+
+The '''Microhavoc''' is a craftable [[Pre-Hardmode]] [[Flamethrowers|flamethrower]] which is an upgrade to [[Spark Spreader]] and a smaller version of [[Hyperhavoc]] . It rapidly fires a beam that pierces through enemies and can pierce through 2 solid tiles.
+
+{{Modifier|ranged}}
+
+== Notes ==
+*Modifiers do not affect the attack speed of the weapon
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

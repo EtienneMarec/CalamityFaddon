@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 80
+| damagetype = magic
+| auto = yes
+| knockback = 3
+| velocity = 20
+| mana = 4
+| tooltip = Unleashes a concentrated beam of life energy
+| use = 3
+| stack = 1
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| proj = Gamma Laser.png
+| projcaption = Gamma Laser
+| element1 = Poison
+}}
+
+The '''Biofusillade''' is a craftable Godseeker Mode [[spell tome]]. It rapidly shoots green laser projectiles that can pierce twice.
+
+{{modifier|magicalt2}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The word "fusillade" refers to a barrage or bombardment; numerous projectiles being fired simultaneously or in quick succession.
+*The weapon was previously called '''Gamma Fusillade''' and is still referred to as such in the source files.
+{{-}}
+{{Uelibloom}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category: Spell tomes]]

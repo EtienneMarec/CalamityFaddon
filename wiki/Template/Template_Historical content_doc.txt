@@ -1,0 +1,19 @@
+Add this to the top of pages which describe content that has been removed from the mod. Adds the page to [[:Category:Historical content]].
+
+== Usage ==
+<code>{{(}} '''historical content''' | nocat = ''y/yes'' | section = ''y/yes'' }}</code>
+
+All parameters are optional.
+
+; nocat
+Prevents the template from adding the page it is used on to the category.
+
+; section
+Changes the message text from "This page" to "This section"; automatically activates <code>nocat = yes</code>.
+
+<includeonly>
+[[Category:Notice templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

@@ -1,0 +1,47 @@
+{{npc infobox
+| type = Flying Enemy
+| environment = Brimstone Crag
+| ai = Demon Eye AI
+| damage = {{element|Fire}} {{dv|40|80}} (pre-[[Providence]])<br/>{{dv|80|160}} (post-[[Providence]])
+| knockback = 100
+| life = {{dv|140|280}} (pre-[[Providence]])<br/>{{dv|3,000|6,000}} (post-[[Providence]])
+| defense = 12 (pre-[[Providence]])<br/>20 (post-[[Providence]])
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| duration = 2 seconds
+| debufftip = Rapid health loss
+| debuff2 = Weak
+| debuffchance2 = 100%
+| debufftip2 = Physical abilities are decreased
+| duration2 = 2 seconds
+| banner = yes
+| immune1 = Kami Flu
+| immune2 = Abyssal Flames
+| immune3 = Brimstone Flames
+| money = {{sc|5}}
+| Lens|1|50%
+| custom| {{item|Blighted Lens|note=(In [[Hardmode]])|wrap=y}}|50%
+| custom| {{item|Essence of Chaos|note=(In [[Hardmode]])|wrap=y}}|33.33%
+| custom| {{item|Bloodstone|note=(After defeating [[Providence]])|wrap=y}}|50%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| resistant1 = Fire
+| resistant2 = Dark
+| resistant3 = Cold
+| vulnerable1 = Water
+| vulnerable2 = Stab
+}}
+
+'''Calamity Eyes''' are [[Pre-Hardmode]] [[enemies]] that spawn in the [[Brimstone Crag]]. They act like [[Demon Eyes]], but will inflict the [[Brimstone Flames]] and [[Weak]] [[debuffs]] on contact. When below half health, their speed and maneuverability increase.
+
+In [[Death Mode]], Calamity Eyes are capable of becoming intangible and passing through blocks for a brief period of time, in order to reach the player.
+
+After [[Providence, the Profaned Goddess]] is defeated, their stats receive a significant boost and they begin dropping [[Bloodstone]].
+
+== Trivia ==
+*In previous versions, Calamity Eyes would spawn on the [[Surface]] after [[Plantera]] had been defeated.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

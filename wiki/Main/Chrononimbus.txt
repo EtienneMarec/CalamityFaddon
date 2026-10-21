@@ -1,0 +1,55 @@
+{{addon|Deimos, the Starborn Princess}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 57
+| knockback = 4.5
+| mana = 30
+| velocity = 16
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffduration = 5 seconds (Blades)
+| debuffchance = 100%
+| debuff2 = Embers of Duality
+| debufftip2 = Celestial voids are manifesting around you; defense and damage reduction reduced
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Blades
+| debuff3 = God Slayer Inferno
+| debufftip3 = Your flesh is burning off
+| debuffduration3 = 2.5 seconds (Flames)
+| debuffchance3 = 100%
+| element1 = Fire
+| element2 = Magic
+| element3 = Holy
+| rare = 13
+| sell = {{gc|24}}
+| stack = 1
+| use = 16
+| auto = yes
+| tooltip = Fires celestial blades that spawn fireballs on enemy hits
+| hardmode = yes
+| postml = yes
+| proj = Fate's Reveal Flame.gif
+| projcaption = Ghastly Flame
+| sound = Item_9.wav
+| soundtext = Use
+}}
+|{{item drops infobox
+| [[The Starborn Moth]]|1|{{dv|33.33%|50%}}
+| {{fantag|Deimos, the Starborn Princess}} [[Everquartz]] (After [[The Starborn Moth]] has been defeated)|1|15%
+| {{fantag|Deimos, the Starborn Princess}} [[Exoquartz]] (After [[The Starborn Moth]] has been defeated)|1|100%
+}}
+}}
+
+'''Chrononimbus''' is a Godseeker Mode [[wand]] that drops from [[The Starborn Moth]]; it can be considered an indirect upgrade of the [[Ultra Liquidator]]. It fires a set of five celestial blades, which summon small flames similar to the [[Fate's Reveal]] from off-screen on enemy hits. Blades inflict [[Astral Infection (debuff)]] and [[Embers of Duality]] while flames inflict [[God Slayer Inferno]].
+
+{{modifier|magic}}
+
+== Recipe ==
+{{recipes|result={{PAGENAME}}}}
+
+{{-}}
+{{Fae}}
+{{DeimosMod}}
+[[Category:Wands]]

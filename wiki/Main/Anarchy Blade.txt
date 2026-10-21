@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 8
+| sell = {{value|0|16}}
+| damage = 150
+| use = 18
+| knockback = 7.5
+| tooltip = The lower your life the more damage this blade does<br/>Your hits will generate a large explosion<br/>If you're below 50% life your hits have a chance to instantly kill regular enemies
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| debufftip = Rapid health loss
+| auto = yes
+| stack = 1
+| hardmode = yes
+| element1 = Fire
+| element2 = Unholy
+}}
+
+The '''Anarchy Blade''' is a craftable [[Hardmode]] [[broadsword]] that auto-swings. Striking an enemy will release red particles and inflict the [[Brimstone Flames]] [[debuff]]. 10% of the user's missing health is added to the base damage of this sword. If the user is below 50% health, every swing has a 20% chance to instantly kill any non-[[boss]] enemy.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Anarchy Blade is capable of killing worm enemy segments using its instakill mechanic. This includes higher health worm enemies such as the [[Gulper Eel]].
+
+== Trivia ==
+*This weapon was originally designed to be a reference to the [https://epicbattlefantasy.fandom.com/wiki/Devil%27s_Sunrise Devil's Sunrise] sword from the ''Epic Battle Fantasy'' game series. A separate, direct [[Devil's Sunrise]] sword has since been added to the mod as a [[Dedicated content|Patreon item]].
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:混乱之刃]]

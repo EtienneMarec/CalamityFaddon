@@ -1,0 +1,39 @@
+{{item infobox
+|consumable = true
+|type = Weapon
+|damage = 280
+|damagetype = Spy
+|use = 18
+|knockback = 8
+|stack = 9999
+|auto = yes
+|hardmode = yes
+| rare = 9
+| sell = {{value|0|0|20}}
+|velocity = 24
+|tooltip = Stealth strikes leave homing stars in their wake
+| proj = Empyrean Star.png
+| projcaption = Empyrean Star
+| element1 = Dark
+|element2 = Stab
+}}
+
+'''Shards of Antumbra''' are craftable [[Hardmode]] [[Spy]] [[javelins]]. They pierce infinitely and travel significant distances before being affected by gravity. Their damage is halved every time they pierce an enemy. They have a 50% chance of being recovered after being thrown.
+
+Performing a [[stealth strike]] with a Shard of Antumbra will cause it to release slowly spinning homing stars as it travels. These stars will slowly move in the direction the spear was traveling when they spawned, until they slowly fade or an enemy is nearby.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*This item was previously known as the "Xeroc Pitchfork".
+
+{{Meld}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Javelins]]

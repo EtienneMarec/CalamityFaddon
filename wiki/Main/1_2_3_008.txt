@@ -1,0 +1,88 @@
+{{Patch infobox
+| image = THE LORDE.png
+| patchname = THE LORDE UPDATE
+| release = 12/10/2017
+}}
+
+The '''1.2.3.008''' update added a new boss known as [[THE LORDE]] and made some adjustments to the [[Siren and Leviathan]] fight.
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+*Added THE LORDE.
+*Added [[NO]]
+*Added [[NO U]].
+
+== Changes ==
+=== [[Bosses]] ===
+==== [[Astrum Deus]] ====
+*Buffed laser damage from {{dv|66|108|135|162}} to {{dv|94|140|175|210}}.
+*Mines now last shorter.
+*Buffed [[Astrum Deus Probe]]'s laser damage from {{dv|96|160|200|240}} to {{dv|130|200|250|300}}.
+
+==== [[Bumblebirb]] ====
+*Now spawns less mini [[Draconic Swarmer|Bumblebirb]]s.
+
+==== [[The Devourer of Gods]] ====
+*Phase 1's body segments now reduce infinitely piercing projectile damage by 60% instead of 40%
+*Phase 2's body segments now reduce infinitely piercing projectile damage by 55% instead of 50%.
+
+==== [[The Hive Mind]] ====
+*Nerfed [[Hive Blob]]'s health from {{dv|100|170}} to {{dv|50|140}}.
+
+==== [[Polterghast]] ====
+*Now drops {{dv|5-9|6-11}} [[Ruinous Soul]]s instead of {{dv|12-19|15-21}}.
+*[[Phantom]]s now spawn phantom mines.
+
+==== [[Providence, the Profaned God]] ====
+*Buffed the defensive variant of A Dunkin' Donut's health from {{dv|20,000|28,000}} to {{dv|25,000|35,000}}
+*Buffed A Dunkin' Donut's spear damage from {{dv|108|200|250|300}} to {{dv|160|260|325|390}}.
+
+==== [[Siren and Leviathan]] ====
+*Buffed The Leviathan's health from {{dv|42,000|67,200|72,000|84,800}} to {{dv|52,000|83,200|88,000|104,000}}, her contact damage from {{dv|80|128|160|192}} to {{dv|100|160|200|240}}, and her meteor damage from {{dv|110|140|175|210}} to {{dv|150|220|275|330}}.
+*Nerfed The Siren's health from {{dv|30,000|48,000|51,200|64,000}} to {{dv|21,000|33,600|40,000|48,000}}, and buffed her contact damage from {{dv|60|96|120|144}} to {{dv|80|128|160|192}}.
+*Nerfed [[Ice Shield]]'s health from {{dv|1500|1800}} to {{dv|1000|1200}}, and buffed its damage from 20 to 80.
+*Buffed [[Siren Clone]]'s water spear damage from {{dv|68|112|140|168}} to {{dv|96|140|175|225}}.
+*Buffed [[Aquatic Aberration]]'s damage from {{dv|80|112|140|168}} to {{dv|100|140|175|225}}.
+
+==== [[Supreme Calamitas]] ====
+*Now inflicts NO U in [[Death Mode]].
+
+=== [[Enemies]] ===
+*[[BOHLDOHR]]s now spawn 2x more often and can now drop NO.
+*Buffed [[Parasea]]'s health from {{dv|500|700}} to {{dv|1000|1400}}, and its damage from {{dv|60|84|105|126}} to {{dv|90|126|157|189}}.
+
+=== Items ===
+*[[Abombination]] now uses 5 [[Iron Bar]]/[[Lead Bar]]s and 3 [[Obsidian]] instead of 3 Iron or Lead Bars and 10 Obsidian.
+*Reduced the size of [[Alluvion]] and [[Monsoon]]'s tornadoes.
+*[[Draedon's Heart]] now uses 30 [[Luminite Bar]]s in its recipe.
+*Reduced the amount of time [[Elemental Quiver]]'s split projectiles last for.
+*Buffed [[Exoblade]]'s damage from 720 to 800.
+*[[Magnetic Meltdown]]'s projectiles now last shorter.
+*Nerfed [[Omniblade]]'s damage from 90 to 80.
+*Nerfed [[Spear of Paleolith]]'s damage from 52 to 50.
+*Removed [[Storm Dragoon]]'s purple and blue projectiles.
+*[[Vanquisher Arrow]]s now pierce through tiles and spawn homing arrows instead of having one arrow that does both.
+*Buffed Vanquisher Arrow damage from 24 to 32.
+*[[Voltaic Climax]]'s projectiles now last shorter.
+*The Sons of Yharon spawned from [[Yharon's Kindle Staff]] no longer shoot homing flares at enemies.
+
+=== Other ===
+*The [[Dryad]] now sells [[Bloody Worm Tooth]] after [[The Hive Mind]] has been defeated, and [[Rotten Brain]] after [[The Perforators]] have been defeated.
+*[[Meteorite]] can no longer be blown up before [[Eater of Worlds]] or [[Brain of Cthulhu]] has been defeated.
+*Reduced the dust created by many projectiles.
+
+=== Resprites ===
+*Resprited [[Cloud Elemental]].
+*Resprited [[Flarewing Bow]], [[Hellwing Staff]], [[Magna Cannon]].
+
+=== Fixes ===
+*Fixed a sheeting error on the [[Aureate Booster]].
+*Fixed a bug involving music conflicts with the [[Profaned Crags]] and the [[Brimstone Elemental]].
+*Fixed several issues that would cause bosses to despawn while the player was still alive.
+*Fixed a bug which caused the Sons of Yharon from Yharon's Kindle Staff to despawn randomly.
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

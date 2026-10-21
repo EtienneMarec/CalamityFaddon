@@ -1,0 +1,33 @@
+{{addon|Calamity Loot Swap}}
+{{npc infobox
+| type = Slime
+| environment = Cavern
+| ai = Life Slime AI
+| damage = {{element|Poison}} {{dv|260|520}} (contact) <br/> {{element|Poison}} {{dv|100|200}} (projectiles)
+| life = {{dv|2400|4800}}
+| defense = 60
+| knockback = 100
+| banner = no
+| money = {{value|0|1|5|0}}
+| Life Ore|10-26| 100%
+| immune1 = Kami Flu
+| immune2 = Frostburn
+| immune3 = Poisoned
+| hardmode = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_33.wav
+| soundtext = Shoot
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| vulnerable3 = Machine
+| resistant1 = Poison
+}}
+
+The '''Life Slime  (Japanese: ライフスライム <nowiki>''</nowiki>Raifusuraimu<nowiki>''</nowiki>)''' is a [[Hardmode]] [[slime]] [[mini boss]] which spawns in the [[Cavern]] layer around [[Life Ore]] patches after the player has defeated [[Ravager]]. Once the player is close enough to 50 natural Life Ore tiles, any existing Life Slimes will aggro on the player. Life Slimes follow an attack pattern based on the three components of [[Life Alloy]], cycling between shooting {{item|Icicle Staff Icicle|Icicles|nolink=y}}, summoning sprouting thorns below the player, and firing hydrothermic meteors which split into {{item|Lava Chunk|image=Lava Chunk.gif|nolink=y}}s in random directions.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

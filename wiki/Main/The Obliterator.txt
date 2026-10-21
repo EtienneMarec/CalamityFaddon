@@ -1,0 +1,54 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 255
+| knockback = 7.5
+| rare = 14
+| sell = {{value|0|28}}
+| stack = 1
+| reach = 40
+| use = 20
+| attduration = {{infinity}}
+| auto = yes
+| tooltip = Ruins nearby enemies with death lasers<br/>An exceptionally agile yoyo
+| hardmode = yes
+| postml = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Slowly losing life
+| debuff2 = Frostburn
+| debuffchance2 = 100%
+| debuffduration2 = 1.5 seconds
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| boxwidth = 23em
+| proj = Obliterator Yoyo.png
+| projcaption = The Obliterator
+| element1 = Magic
+| element2 = Cold
+}}
+|{{item drops infobox
+| [[The Devourer of Gods]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+'''The Obliterator''' is a Godseeker Mode [[yoyo]] dropped by [[The Devourer of Gods]]. Unlike other yoyos, The Obliterator ignores NPC [[immunity frames]], allowing it to rapidly bounce off of enemies and inflict much more damage than its damage stat would indicate. If enemies are nearby, The Obliterator will rapidly fire nebula lasers which do 25% less damage than the yoyo itself. The nebula lasers inflict the [[Frostburn]] and [[On Fire!]] [[debuff]]s.
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Obliterator moves extremely quickly compared to other yoyos, allowing it to more easily track fast enemies.
+*The lasers spawned when near an enemy are affected by flasks and melee equipment due to their classification as melee damage.
+*The lasers are five times more likely to fire at a [[boss]] versus other nearby non-boss enemies.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]

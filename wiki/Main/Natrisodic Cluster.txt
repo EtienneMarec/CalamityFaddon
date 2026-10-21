@@ -1,0 +1,40 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| tooltip = "Caution, The material is very reactive"
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 350
+| stack = 9999
+| use = 14
+| rare = C3
+| value = 1800
+| color = #cccccc
+| sell = {{value|0|75}}
+| hardmode = yes
+| postml = yes
+}}
+
+'''Natrisodic Cluster''' is a Post-[[Purgatory Arbiter, Umbrus]] [[ore]] that generates in the [[Cavern]] layer after defeating [[Reactive Guardian, Sodis]]. It requires the [[Reactive Pickaxe]] to mine.
+
+==Crafting==
+
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+* The word "Natrisodic" is a mix of words "Natrium" and "Sodium" which are the latin and English names of the 11th element of the Periodic table
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

@@ -1,0 +1,37 @@
+{{item infobox
+| type = Potion
+| type2 = Crafting material
+| stack = 9999
+| use = 17
+| tooltip = Vastly increases enemy spawn rate
+| consumable = yes
+| rare = 4
+| buff = Zerg | bufflink = no
+| duration = 10 minutes
+| bufftip = Spawn rates are boosted
+| sell = {{value|0|0|40}}
+}}
+
+The '''Zerg Potion''' is a craftable [[Pre-Hardmode]] [[Buff Potions|buff potion]]. It grants the '''Zerg''' [[buff]], which boosts all spawn rates and maximum spawn count by 400%. It is also used in the crafting of the [[Chaos Candle]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This potion is the opposite of the [[Zen Potion]], which drastically ''decreases'' spawn rates.
+
+== Tips ==
+*Having the [[Bloodflare armor]] equipped alongside this buff during a Godseeker Mode [[Blood Moon]] is a great way to get [[Blood Orb]]s fast.
+*Make sure you use this in a place where you know you can survive as enemies can quickly overwhelm the player.
+
+== Trivia ==
+*This potion was named after the "Zerg", a race from the ''[[wikipedia:StarCraft|StarCraft]]'' series, which are known for overwhelming the enemy with large numbers.
+
+{{Master Template Consumables
+| show-main = yes
+| show-buff = yes
+}}

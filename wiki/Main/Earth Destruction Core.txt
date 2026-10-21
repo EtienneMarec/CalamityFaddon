@@ -1,0 +1,29 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = 150% increased mining speed, 50% increased movement speed and 25% decreased damage reduction every time you take damage
+| buff = Complete Panic
+| buffduration = 5 seconds
+| rare = 8
+| sell = {{value|0|40}}
+| hardmode = yes
+}}
+
+The '''Earth Destruction Core''' is a [[Hardmode]] [[covering]] that drops from [[Floating Biomass]]es. It provides certain buffs and debuffs for 5 seconds after taking damage:
+150% mining speed increase
+50% movement speed increase
+25% damage reduction decrease
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+
+{{Terra}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category: coverings]]

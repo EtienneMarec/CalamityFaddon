@@ -1,0 +1,12 @@
+{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|include = {item infobox¦:Master Template Items/dpl}
+|category = Tool items
+|notcategory = Pet Summon items
+|notcategory = Light Pet items
+|notcategory = Mount Summon items
+|notcategory = Axes
+|notcategory = Pickaxes
+|notcategory = Hammers
+|uses = Template:item infobox
+}}

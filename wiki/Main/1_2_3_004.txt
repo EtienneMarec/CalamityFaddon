@@ -1,0 +1,61 @@
+{{Patch infobox
+| image = Draedon's Heart (1.2.3.004).gif
+| patchname = Death Mode Boss Buffs
+| release = 11/20/2017
+}}
+
+The '''1.2.3.004''' update buffed several bosses in [[Death Mode]] and reworked a few armor set bonuses.
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+*Added [[Draedon's Heart]], [[Spirit Generator]].
+
+== Changes ==
+
+=== [[Bosses]] and [[Enemies]] ===
+*[[Brain of Cthulhu]] now gains extra knockback resistance in Death Mode.
+*[[Brimstone Elemental]] now cycles through phases quicker in Death Mode.
+*[[Cryogen]]'s phases now happen earlier in Death Mode.
+*[[Desert Scourge]] is now more aggressive in Death Mode.
+*[[The Destroyer]] now lowers the piercing of projectiles which pierce more than 3 times to 3 instead of ones that pierce more than 2 times.
+*[[The Devourer of Gods]]' body in both phases now resists the [[Stardust Dragon Staff]]'s stardust dragon.
+*Nerfed [[Providence, the Profaned God]]'s defensive guardian's health from {{dv|40,000|56,000}} to {{dv|30,000|42,000}}.
+*Nerfed Providence, the Profaned God's offensive guardian's health from {{dv|50,000|70,000}} to {{dv|40,000|65,000}}.
+*[[True Eye of Cthulhu|True Eyes of Cthulhu]] now gain extra velocity in Death Mode.
+*[[Signus, Envoy of the Devourer]] now cycles through phases quicker in Death Mode.
+*The Death Mode [[Siren and Leviathan]] fight now begins with both bosses at the same time, along with a [[Siren Clone]].
+*[[Slime God Core]] is now more aggressive in Death Mode.
+*Lowered the frequency at which [[Supreme Calamitas]] cycles through phases in Death Mode.
+
+=== Items ===
+*[[Aerospec armor]]'s set bonus now disables fall damage, increases fall speed, and spawns a spread of homing feathers if the player is hit for over 50 damage.
+*[[Celestial Tracers]] now use {{rare|15}} rarity instead of the {{rare|rainbow}} rarity.
+*Nerfed [[Celestus]]' damage from 95 to 90.
+*[[Meteorite]] will no longer drop if mined before [[Eater of Worlds]] or [[Brain of Cthulhu]] has been defeated in Revengeance Mode.
+*Buffed [[Photoviscerator]]'s damage from 40 to 46.
+*Lowered the extra damage inflicted by the [[Raider's Talisman]] from 25 to 10.
+*The [[Reaver Shark]] can no longer be swung until [[Skeletron]] has been defeated.
+*[[Statigel armor]]'s set bonus now grants increased jump speed, an extra jump, and temporary immunity if the player is hit for over 100 damage.
+*Nerfed [[Terra Flameburster]]'s damage from 70 to 56.
+*Slightly nerfed [[Terratomere]]'s projectile damage.
+*[[Victide armor]]'s set bonus now gives weapons a chance to fire a damaging shell which deals classless damage.
+*[[Voltaic Climax]]'s projectiles now last for 4 seconds instead of 4.5.
+*[[Wulfrum Armor]] now requires 12 [[Wulfrum Shard]]s to craft instead of 20.
+*All [[Wulfrum Helmet]]s now require 5 Wulfrum Shards to craft instead of 10.
+*[[Wulfrum Leggings]] now require 8 Wulfrum Shards to craft instead of 15.
+
+=== Other ===
+*Death Mode now boosts enemy spawn rates by 40%.
+*Changed the "Underworld" message during world generation to "Final Cleanup".
+
+== Fixes ==
+*Fixed [[Chaotic Ore]] generating on blocks other than [[Ash Block]]s, such as [[Obsidian Brick]]s.
+*Fixed a bug where [[Elemental Quiver]] boosted throwing critical strike chance instead of ranged critical strike chance.
+*Fixed desync bugs with Providence's guardians and Supreme Calamitas in multiplayer.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

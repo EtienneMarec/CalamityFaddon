@@ -1,0 +1,44 @@
+{{dedicated|Sarcosuchus|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 116
+| use = 8
+| knockback = 2
+| velocity = 18
+| auto = yes
+| stack = 1
+| tooltip = Casts a continuous stream of plasma bolts<br/>Over time the bolts are replaced with powerful lasers<br/>Bolts power up into solid beams as you continue shooting<br/>90% chance to not consume ammo
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| proj = Ultima Bolt.png
+| projcaption = Ultima Bolt
+| element1 = Magic
+| element2 = Dark
+| element3 = Stab
+}}
+
+'''Ultima''' is a craftable Godseeker Mode [[bow]]. Upon firing initially, it fires rainbow bolts which bounce off surfaces and do not pierce, firing in a manner parallel from the bow to the cursor with a random offset around the bow's sprite position. After 2.45 seconds, the chance of a bolt being replaced with a solid beam of light linearly increases until it reaches 100% chance at 7 seconds. The beams pierce all tiles and targets and deal 50% more damage than the bolts. After 4.9 seconds, there is a 16.67% chance per frame that a rainbow dust spark is fired. The spark deals 33.33% damage, moves in a spiral and homes into enemies. Bolts and sparks create small explosions on hit, essentially doubling their damage output. This weapon has a 90% chance to not consume ammo when fired.
+
+{{Modifier|rangedalt}}
+[[File:Ultima (demo).gif|frame|Ultima firing plasma bolts and beams.]]
+[[File:Ultima Projectile (demo).gif|frame|The homing projectiles that appear while the bow is firing beams.]]
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Tips ==
+*As Ultima converts all arrows into plasma bolts and beams, it is best paired with [[Bloodfire Arrow]]s as they have the highest base damage.
+*Pairing this weapon with the [[Reaper Tooth Necklace]] allows for much higher {{DPS}}
+
+== Trivia ==
+*Ultima's design heavily resembles the [[Starmada]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Bows]]

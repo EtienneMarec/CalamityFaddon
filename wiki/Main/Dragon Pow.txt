@@ -1,0 +1,55 @@
+{{dedicated|Buildmonger|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = melee
+| damage = 660
+| stack = 1
+| knockback = 9
+| tooltip = Fires a dragon head that releases draconic sparks<br/>Summons a barrage of petals and waterfalls on enemy hits
+| rare = 15
+| debuff = Daybroken
+| debuffchance = 100%
+| debuffduration = 3 seconds (Flail, Orange spark)
+| debufftip = Incinerated by solar rays
+| debuff2 = Abyssal Flames
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Flail, Red spark)
+| debufftip2 = Your soul is being consumed
+| debuff3 = Holy Flames
+| debuffchance3 = 100%
+| debuffduration3 = 3 seconds (Flail, Yellow spark)
+| debufftip3 = Dissolving from holy light
+| sell = {{value|0|30}}
+| use = 20
+| velocity = 13
+| hardmode = yes
+| postml = yes
+| proj = Dragon Pow Flail.png
+| projcaption = Dragon Pow
+| proj2 = Flower Petal.png
+| proj2caption = Flower Petals
+| element1 = Fire
+| element2 = Water
+| element3 = Poison
+| element4 = Smash
+}}
+[[File:Dragon Pow 1 (demo).gif|right|The Dragon Pow's various projectiles that are spawned after the main flail hits a [[Super Dummy]]. Note how each projectiles can pass through blocks and pierce indefintely.|thumb|557x557px]]
+
+[[File:Dragon Pow 2 (demo).gif|frame|right|The Dragon Pow's sparks homing in on a Super Dummy.]]
+The '''Dragon Pow''' is a craftable Godseeker Mode [[flail]]. It fires out a dragon head that releases red, orange, and yellow homing sparks that inflict several [[debuffs]] on hit, and each spark will deal one-eighth of the initial swing. When fired, the roar of the [[Jungle Dragon, Yharon]] can be heard.
+
+Upon contact with an enemy, twelve petals are spawned and will travel in two sets to create an X pattern that will damage enemies, ignoring [[immunity frames]], and passing through blocks, with each petal doing one-eighth of the damage of the initial swing. Twelve aquatic jets are also spawned in that will travel downwards, dealing damage, ignoring immunity frames, and passing through blocks, with each aquatic jet dealing one-sixth of the damage of the initial swing.
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{auric}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee= yes
+}}
+[[Category: Flails]]

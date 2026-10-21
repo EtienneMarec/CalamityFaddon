@@ -1,0 +1,45 @@
+{|align=right
+|{{item infobox
+| type = Covering
+| tooltip = Provides immunity to the astral infection debuff<br/>Boosts life regen even while under the effects of a damaging debuff<br/>While under the effects of a damaging debuff you will gain 15 defense<br/>Press {{key|Astral Arcanum UI Toggle}} to toggle teleportation UI while no bosses are alive
+| stack = 1
+| defense = 12
+| rare = 13
+| sell = {{value|0|26}}
+| hardmode = yes
+| postml = yes
+}}
+|-
+|
+{| class="terraria" align="right" style="width:19em"
+! colspan="2" | Teleport Menu
+|-
+| [[File:Astral Arcanum UI.png|center]]
+|}
+|}
+
+The '''Astral Arcanum''' is a craftable Godseeker Mode [[covering]]. It provides 12 [[defense]] and immunity to the [[Astral Infection (debuff)|Astral Infection]] [[debuff]].
+
+It also boosts life regeneration by 3, even while the player is under the effects of a damaging debuff. When worn while being damaged by a debuff, the player's defense will increase by 15 and life regen will increase by an additional 3 (for a total of 6).
+
+Pressing the {{key|Astral Arcanum UI Toggle}} key opens up a small menu, allowing the player to select a destination to teleport to by hovering their cursor above them and clicking. The player can teleport to either the [[Jungle]], [[Underworld]], [[Dungeon]] or to a random location. The teleports have no cooldown. This doesn't work if a [[boss]] is alive
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The teleporting effect of the Astral Arcanum is disabled if the world is on [[tgc:Multiplayer|Multiplayer]].
+*The boost life regen while under the effects of a damaging debuff stat is powerful enough to bypass the disabled life regen stat given from [[Vulnerability Hex]].
+*Due to the Jungle's imprecisely defined location, teleporting to the Jungle can place the player nearby it instead of within it. It also tends to place the player underground.
+*If the player is under the effect of one of the alcohols sold by the [[Drunk Princess]], the covering's life regen bonuses will be reduced to 2 regardless of other debuffs.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

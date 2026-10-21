@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 35
+| knockback = 4
+| tooltip = Throws short-range whirlpools
+| rare = 2
+| sell = {{value|0|0|40}}
+| use = 18
+| velocity = 9
+| proj = Redtide Whirlpool.gif
+| projcaption = Redtide Whirlpool
+| element1 = Water
+| element2 = Slash
+}}
+
+The '''Redtide Sword''' is a craftable [[Pre-Hardmode]] [[broadsword]]. When swung, it fires a small glowing cyclone that grows in size, pierces once, deals half the broadsword's damage and travels a short distance before popping, emitting glowing water projectiles in a large radius. Despite the projectile growing in size, its hitbox does not change. The projectile can also go through walls if close enough to it.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*[[wikipedia:Red_tide|Red tide]] is the term given to the occurrence of algal blooms, which are normally harmful to marine wildlife.
+{{-}}
+{{Victide}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:赤潮]]

@@ -1,0 +1,54 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Revengeance mode only}}
+{{item infobox
+| type = Covering
+| tooltip = 12% increased magic damage<br/>100 increased unchanged mana<br/>Converts mana into meat containers<br/>Striking an enemy with a magic attack will drop a chunk of frozen meat<br/>Picking up a chunk will grant meat pieces<br/>Press {{key|Consume}} to consume all meat pieces, empowering the next magic attack<br/>'Hunger can be contained with a good fridge and some meat'
+| debuff = Confused
+| debuffchance = 100%
+| debuffduration = 3 seconds (Chunks of meat)
+| debufftip = Your blood is on fire
+| debuff2 = Burning Blood
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Chunks of meat)
+| rare = 7
+| sell = {{value|0|20}}
+| stack = 1
+| hardmode = yes
+| element1 = Unholy
+| element2 = Cold
+}}
+{{item drops infobox|[[Dreadnautilus]] (After defeating Calamitas)|1|{{revengeance|100%}}}}
+
+The '''Blood Element''' is a [[Hardmode]] [[Equipment|covering]] that drops from [[Dreadnautilus]] after [[Calamitas]] has been defeated. While equipped, it provides the following effects: 
+*12% increased magic damage.
+*100 increased mana. However, the rest of the player's mana is turned into meat containers — 1 container per 10 mana.
+* Whenever the player hits an enemy with a magic projectile, a chunk of frozen meat will be dropped.
+**Upon touching it, the player will pick up the chunk, adding 10, 20 or 30 meat pieces to the containers, depending on the size of the chunk.
+*Upon pressing the {{key|Consume}} key, the player will consume all of the meat pieces.
+**Attacking afterwards using a magic weapon will release 3-4 chunks of rotten meat and grant the player a 15% increased magic damage bonus, which gradually fades away in a span of 5 seconds at a rate of 3% per second.
+***The chunks initially deal 100% of the hold magic weapon, but will gain an additional 25% damage increase for every 50 meat pieces consumed. Additionally, the chunks have a 16% chance of doubling its damage, and the chance is increased further by 4% every 100 meat pieces consumed. The chunks inflict the [[Confused]] and [[Burning Blood]] debuffs for 3 seconds. However, the chunks don't pierce through enemies, can't go through walls and are affected by gravity.
+**Pressing the key again or waiting for 5 seconds will return the meat pieces back to the containers.
+
+==Crafting==
+
+===Used in===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+==Notes==
+*The size of the dropped chunk varies depending on the damage the attack dealt:
+**Less than 33 damage results in a small one. It grants 10 meat pieces.
+**More than 33, but less than 66 damage results in a medium one. It grants 20 meat pieces.
+**More than 66 damage results in a large one. It grants 30 meat pieces.
+*The player cannot have more than 5 containers at the same time. However, after getting all 5, the capacity of the meat containers will be increased in order from top to bottom.
+**For example, if the player has 350 mana (without the additional mana granted by the covering), all 5 containers will be able to store up to 70 meat pieces. If they have only 60 mana, the top container will be able to store up to 20 pieces, and the rest will only store up to 10 pieces.
+*After dropping a chunk of frozen meat, the enemy will have a 0.5 second cooldown before being able to drop another one.
+*The chunks of meat spewed by the player cannot cause enemies to drop more chunks.
+*After not being picked up for 5 seconds, the chunk of frozen meat will almost instantly decay.
+*The chunks can be picked up further compared to other items and fly to the player faster.
+**Additionally, items like [[Celestial Magnet]], [[tgc:Treasure Magnet|Treasure Magnet]] and their upgrades can increase the pickup range for the chunks.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]

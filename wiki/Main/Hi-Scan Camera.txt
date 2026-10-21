@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damage = 50
+| critical = 0%
+| tooltip = A Hi-Tech camera used by draedon to scan the victim's nano-machine status<br/>{{Key|open}} to switch modes
+| knockback = 1
+| velocity = 20
+| rare = 8
+| sell = {{value|0|5}}
+| use = 35
+| stack = 1
+| hardmode = yes
+| element1 = Poison
+| element2 = Machine
+}}
+{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|{{dv|25%|33.33%}}
+}}
+
+The '''Hi-Scan Camera''' is a [[Hardmode]] [[Classless weapons|Classless Weapon]] dropped by [[The Plaguebringer Goliath]]. It has 2 modes:
+*Scan Mode: On use, creates a blinding flash that spans 10 tiles, taking any debuff the enemy inflicts, and then storing it unto itself. Only 3 debuffs could be stored at once. Additionally, it deals 200% its damage to any enemies tagged as "Organic", and can insta-kill [[Critters]], leaving behind a card as a purely visual effect.
+*Snapshot Mode: When held, a viewfinder is brought up. Once released, all enemies within the viewfinder's area are inflicted said debuffs, and the debuffs stored are consumed. Additionally, it deals 300% its damage to any enemies tagged as "Spectral", and makes said enemies sweat after being captured as a purely visual effect.
+
+The Hi-Scan Camera cannot be reforged, and therefore cannot have [[modifiers]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Its damage scales with all damage buffs, but can not gain any critical chance from any means.
+== Trivia ==
+*The weapon's attacks, its design, and its ability references 2 characters:
+**[https://inscryption.fandom.com/wiki/Leshy Leshy], the Scrybe of the Beasts from [[wikipedia:Inscryption|Inscryption]], who uses his nature camera to take pictures of animals and turn them into cards. The Scan mode's ability to deal extra damage to "Organic" enemies and its visual effect upon insta-killing critters reflects that.
+**[https://cookierun.fandom.com/wiki/Black_Garlic_Cookie Black Garlic Cookie], an Epic Cookie from [[wikipedia:Cookie_Run|Cookie Run]], who screen-shot/records ghost sightings for her channel. The Snapshot Mode's ability to deal extra damage to "Spectral" enemies and its visual effect upon screenshotting them reflects that.
+
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

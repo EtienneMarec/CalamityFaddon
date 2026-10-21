@@ -1,0 +1,50 @@
+{{item infobox
+| type = Weapon
+| stack = 1
+| damagetype = Rogue
+| tooltip = Maybe catching bricks with your face isn’t such a hot idea…<br/>Critical hits tear away enemy defense<br/>Stealth strikes shatter and briefly stun enemies
+| damage = 120
+| knockback = 10
+| critical = 24%
+| velocity = 15
+| hardmode = yes
+| rare = 7
+| sell = {{value|0|9|60}}
+| debuff = Crush Depth
+| debuffchance = 100%
+| debuffduration = 4 seconds (Brick)<br/>2 seconds (Shards)
+| debufftip = Aquatic Pressure
+| debuff2 = Eutrophication
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds (Stealth strike bricks)
+| debufftip2 = Excessive nutrients restrict your movement
+| use = 23
+| auto = yes
+| proj = Apoctolith Shard.png
+| projcaption = Apoctolith Shards
+| element1 = Smash
+| element2 = Dark
+| element3 = Water
+}}
+
+The '''Apoctolith''' is a craftable [[Hardmode]] [[rogue weapon]] that throws a gravity-affected abyssal brick that inflicts the [[Crush Depth]] [[debuff]]. Whenever the brick critically hits an enemy, the struck target loses 15 [[defense]], which cannot stack with itself.
+
+Performing a [[stealth strike]] with the Apoctolith will cause the next brick to stun enemies with the [[Eutrophication]] debuff. The brick will also deal 125% damage and shatter on impact, creating 5 shards that deal 62.5% damage each.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-spy = yes
+}}
+[[zh:末渊石板]]

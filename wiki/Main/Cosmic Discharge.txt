@@ -1,0 +1,68 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = melee
+| damage = 400
+| knockback = 0.5
+| velocity = 24
+| stack = 1
+| auto = yes
+| use = 15
+| rare = 14
+| sell = {{value|0|28}}
+| tooltip = Striking an enemy with the whip causes glacial explosions and grants the player the cosmic freeze buff<br/>This buff gives the player increased life regen while standing still and freezes enemies near the player
+| buff = Cosmic Freeze | bufflink = no
+| duration = 5 seconds
+| bufftip = You feel as cold as the empty expanse of outer space
+| debuff = Glacial State
+| debuffchance = 33.33% chance<br/>100%
+| debuffduration = 1 second (Flail)<br/>Infinite while near player and player has Cosmic Freeze buff
+| debufftip = Cannot move and defense is shattered
+| debuff2 = Moon Burnt
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds
+| debufftip2 = Incinerated by lunar rays
+| debuff3 = Frostburn
+| debuffchance3 = 100%
+| debuffduration3 = 3 seconds
+| debufftip3 =  It's either really hot or really cold. Either way it REALLY hurts
+| hardmode = yes
+| postml = yes
+| proj = Cosmic Discharge Flail.png
+| projcaption = Cosmic Discharge
+| proj2 = Cosmic Ice Burst.gif
+| proj2caption = Cosmic Ice Burst
+| element1 = Magic
+| element2 = Cold
+| element3 = Smash
+}}
+|{{item drops infobox
+| [[The Devourer of Gods]] | 1 | 10%
+}}
+}}
+[[File:Cosmic Discharge (demo).gif|frame|The Cosmic Discharge's spear striking three [[Target Dummy|target dummies]] through a wall.]]
+The '''Cosmic Discharge''' is a Godseeker Mode [[flail]] that is dropped by [[The Devourer of Gods]].
+
+It functions like the [[Solar Eruption]], firing a long spear-like projection from the player's position that quickly retracts. It is capable of striking through walls and generates an explosion on enemy hits for additional damage, as well as granting the player the '''Cosmic Freeze''' buff. This buff increases life regeneration while standing still and freezes enemies in a small radius around the player.
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The boosted life regeneration from the Cosmic Freeze buff is overridden by the effects of the [[Shiny Stone]] and the [[Demonshade Breastplate]]. However, it overrides the effects of [[Draedon's Heart]] and [[Photosynthesis]].
+
+== Tips ==
+*This weapon is highly effective for farming the Pumpkin Moon and Frost Moon events after the Devourer of Gods has been killed.
+**The weapon is effective for crowd control in general due to the powerful explosions it creates on enemy hits, its ability to pierce many enemies, and its ability to grant the player Cosmic Freeze.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Flails]]
+[[Category:Legendary+ Items]]

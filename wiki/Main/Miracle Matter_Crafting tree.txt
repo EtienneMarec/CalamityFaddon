@@ -1,0 +1,112 @@
+<div class="crafting-tree">{{diagram
+
+|EndE1|_|NigF1|_|Phan1|_|DarFr|_|CorCT|_|BarLT|_|LunaF|_|AuriO|_|YhaSF|_|_|_|_|#
+|      _|      _|      _|     |_|      _|      _|      _|     |_|     |_|_|_|_|#
+|_|`|-|-|-|^|-|-|-|+|-|-|-|'|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|)|-|-|-|'|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|HMANV|_|HMANV|_|_|§|_|_|COANV|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|AscSE|_|ExoPr|_|CorCa|_|BarLi|_|GalaS|_|AurBr|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|      _|     |_|      _|      _|      _|      _|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|`|-|-|-|^|-|-|-|+|-|-|-|^|-|-|-|^|-|-|-|'|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|MirMa|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+|AurBr_cols = 3
+|AurBr_rows = 2
+|AurBr = {{item|Auric Bar}} × 5
+
+|MirMa_cols = 3
+|MirMa_rows = 2
+|MirMa = {{item|Miracle Matter}}
+
+|BarLi_cols = 3
+|BarLi_rows = 2
+|BarLi = {{item|Life Alloy}}<br/>
+( {{item|mode=image|Necromantic Geode|size=20px}} )
+
+|BarLT_cols = 3
+|BarLT_rows = 2
+|BarLT = ''[[Life Alloy/Crafting tree|Life Alloy<br/>crafting tree]]''
+
+|CorCa_cols = 3
+|CorCa_rows = 2
+|CorCa = {{item|Core of Calamity}}<br/>
+( {{item|mode=image|Necromantic Geode|size=20px}} )
+
+|CorCT_cols = 3
+|CorCT_rows = 2
+|CorCT = ''[[Core of Calamity/Crafting tree|Core of Calamity<br/>crafting tree]]''
+
+|EndE1_cols = 3
+|EndE1_rows = 2
+|EndE1 = {{item|Endothermic Energy}} × 5<br/>
+<span style="font-size:0.75em">( [[Frost Moon]] )</span>
+
+|NigF1_cols = 3
+|NigF1_rows = 2
+|NigF1 = {{item|Nightmare Fuel}} × 5<br/>
+<span style="font-size:0.75em">( [[Pumpkin Moon]] )</span>
+
+|DarFr_cols = 3
+|DarFr_rows = 2
+|DarFr ={{item|Darksun Fragment}} x 2<br/>
+<span style="font-size:0.75em">( [[Solar Eclipse]] )</span>
+
+|ExoPr_cols = 3
+|ExoPr_rows = 2
+|ExoPr ={{item|Exo Prism}} x 5<br/>
+( {{item|mode=image|image=Ares map.png|XF-09 Ares|size=20px}} {{item|mode=image|image=Thanatos Head map.png|XM-05 Thanatos|size=20px}} {{item|mode=image|image=Apollo Phase 1 map.png|XS-03 Apollo|size=20px}} {{item|mode=image|image=Artemis Phase 1 map.png|XS-01 Artemis|size=20px}} )</span>
+
+|Phan1_cols = 3
+|Phan1_rows = 2
+|Phan1 ={{item|Phantoplasm|size=20px}} × 5<br/>
+( {{item|mode=image|image=Polterghast map.png|Polterghast|size=18px}} {{item|mode=image|Phantom Spirit|size=14px}} {{item|mode=image|Overloaded Soldier|size=18px}} {{item|mode=image|Phantom Debris|size=26px}} )
+
+|AscSE_cols = 3
+|AscSE_rows = 2
+|AscSE = {{item|Ascendant Spirit Essence}}<br/>
+
+|YhaSF_cols = 3
+|YhaSF_rows = 2
+|YhaSF ={{item|Yharon Soul Fragment}}<br/>
+( {{item|mode=image|image=Yharon map.png|Jungle Dragon, Yharon|size=20px}} )
+
+|AuriO_cols = 3
+|AuriO_rows = 2
+|AuriO ={{item|Auric Ore}} × 60
+
+|GalaS_cols = 3
+|GalaS_rows = 2
+|GalaS = {{item|Galactica Singularity}} x3
+
+|LunaF_cols = 3
+|LunaF_rows = 2
+|LunaF = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] x 3<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+| COANV_cols = 3
+| COANV_class = craft-station
+| COANV = {{item|mode=image|Cosmic Anvil}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

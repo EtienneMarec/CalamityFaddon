@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 7
+| knockback = 1
+| rare = 1
+| sell = {{value|0|0|20}}
+| stack = 1
+| auto = yes
+| use = 30
+| velocity = 5
+| tooltip = 70% chance to not consume gel
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 1-3 seconds
+| debufftip = Slowly losing life
+| image2 = Spark Spreader (tank).png
+| image2caption = Equipped tank
+| element1 = Fire
+}}
+
+The '''Spark Spreader''' is a craftable [[Pre-Hardmode]] [[flamethrowers|flamethrower]] that uses [[gel]] as [[ammunition]], and is currently the earliest obtainable flamethrower. It shoots short-ranged orange flames when used. The flames inflict the [[On Fire!]] [[debuff]] and pierce three enemies. There is a 70% chance for gel not to be consumed upon firing.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+
+== Trivia ==
+*The Spark Spreader was implemented based on a community suggestion made by ThomasThePencil on the mod's Discord server.
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

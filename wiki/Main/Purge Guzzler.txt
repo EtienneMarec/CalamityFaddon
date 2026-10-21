@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 120
+| damagetype = magic
+| auto = yes
+| knockback = 4.5
+| mana = 22
+| tooltip = Emits three beams of holy energy in a tight spread
+| rare = 12
+| stack = 1
+| sell = {{value|0|24}}
+| use = 24
+| velocity = 6
+| hardmode = yes
+| postml = yes
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| debuffduration = 3 seconds (Beam)
+| debuff2 = On Fire!
+| debufftip2 = Slowly losing life
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Explosion)
+| element1 = Holy
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Providence, the Profaned Goddess]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Purge Guzzler''' is a Godseeker Mode [[magic gun]] dropped by [[Providence, the Profaned Goddess]]. It fires a spread of 3 holy beams, which can pierce two enemies. Each enemy hit spawns an explosion which inflicts the [[On Fire!]] [[debuff]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Magic guns]]

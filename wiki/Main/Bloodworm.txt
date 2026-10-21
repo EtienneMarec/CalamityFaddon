@@ -1,0 +1,69 @@
+{{infobox wrapper
+|{{item infobox
+| type = Bait
+| type2 = Summoning
+| bait = 2200
+| rare = 13
+| use = 14
+| auto = yes
+| consumable = yes
+| buy = {{value|2}}
+| sell = No value
+| stack = 20
+}}
+|{{npc infobox | boxwidth=21em
+| type = Critter
+| image = Bloodworm (critter).png
+| environment = Sulphurous Sea
+| ai = Truffle Worm AI
+| damage = 0
+| life = 5
+| defense = 0
+| knockback = 0
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| sound = NPC_Hit_1.wav
+| soundtext = Hurt (idle)
+| sound2 = NPC_Hit_20.wav
+| sound2text = Hurt (fleeing)
+| sound3 = NPC_Killed_1.wav
+| sound3text = Killed (idle)
+| sound4 = NPC_Killed_12.wav
+| sound4text = Killed (fleeing)
+}}
+}}
+The '''Bloodworm''' is a [[critter]] found in the [[Sulphurous Sea]]. They can be caught with a [[Bug Net]] or [[Golden Bug Net]]. 
+
+Bloodworms act identically to [[Truffle Worm|Truffle Worms]], slowly crawling along the floor and burrowing away from the player when they get too close to it.
+
+Bloodworms can also be purchased from the [[Sea King]] for {{pc|2}}.
+
+== Notes ==
+*Bloodworms can be detected by the [[Lifeform Analyzer]].
+*Bloodworms only spawn close to the bottom of the Sulphurous Sea, requring the player to dive deep underwater to find and catch them. Due to the depth they spawn, it's also possible for them to spawn near the top of the [[Abyss]].
+*Bloodworms will not spawn if the [[Acid Rain]] event is currently ongoing. 
+*The spawn rate is increased the lower the amount of other Bloodworms alive in the world:
+**If there are no Bloodworms, spawn rate is boosted by 400%.
+**If there is one Bloodworm, spawn rate is boosted by 256%.
+**If there are two Bloodworms, spawn rate is boosted by 144%.
+**If there are three Bloodworms, spawn rate is boosted by 64%.
+**If there are four Bloodworms, spawn rate is boosted by 16%.
+**Spawn rate will not be boosted if five or more bloodworms are alive.
+
+== Trivia ==
+*The bait power's usage of the number 22 is a reference to the [[22 Bullet Theory]], in which [[The Old Duke]] played a major role in.
+**This is an homage to an oversight in Vanilla Terraria, where multiple [[Duke Fishron]]s can be summoned using a fishing exploit.
+*In real-world bodies of water, the presence of bloodworms is an indicator of pollution, therefore it makes sense for this kind of creature to be present in the Sulphurous Sea, which is highly acidic and polluted.
+*Previously, the blood worms bait power was 4444. This is a reference to a superstition held in some Asian countries, such as China and Japan, about the number 4 being a homonym for "death".
+**Before this, the item's bait power was 69420%, as 69 and 420 are both numbers which are used in memes.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

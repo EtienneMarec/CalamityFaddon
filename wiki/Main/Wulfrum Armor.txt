@@ -1,0 +1,82 @@
+{{item infobox
+| type = Armor
+| defense = 3
+| setbonus = +1 minion slot<br/>Wulfrum Bastion - Double tap DOWN while dismounted to equip a heavy wulfrum armor<br/>
+| sell = {{value|0|0|30}} (set)
+| resistance1 = Cold
+| resistance2 = Dark
+| vulnerable1 = Fire
+| vulnerable2 = Magic
+}}
+
+
+'''Wulfrum armor''' is a craftable [[Pre-Hardmode]] summoner [[Covering]] set crafted from [[Wulfrum Metal Scrap]]s and [[Energy Core]]s. It takes a total of 25 Wulfrum Metal Scraps and 3 Energy Cores to make the full set.
+
+It consists of a '''Wulfrum Hat  & Goggles''', '''Wulfrum Jacket''', and '''Wulfrum Overalls'''.
+
+The '''Wulfrum Hat & Goggles''' gives 0 defense and 10% increased minion damage. The '''Wulfrum Jacket''' gives 2 defense and 5% increased damage reduction. The '''Wulfrum Overalls''' give 1 defense and 5% increased movement speed.
+
+Wulfrum armor's set bonus is +1 minion slot. When double tapping the downwards movement key, the armor  set transforms into power armor.
+
+* Calling the power armor consumes one piece of [[Wulfrum Metal Scrap]].
+*While the power armor is active, you can only use the gun built into the armor, but your defense is increased by 13.
+*The power armor can last up to 30 seconds before falling apart, and 20 seconds to recharge. The time wearing the armor is decreased by roughly 2 seconds per hit.
+
+
+The full set totals to 3 defense.
+
+==Set==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Wulfrum Jacket
+| type = Armor
+| defense = 2
+| tooltip = 5% increased damage reduction
+| body slot = Shirt
+| sell = {{value|0|0|10}}
+}}
+|{{item infobox
+| name = Wulfrum Overalls
+| type = Armor
+| defense = 1
+| tooltip = Movement speed increased by 5%
+| body slot = Pants
+| sell = {{value|0|0|5}}
+}}
+|{{item infobox
+| name = Wulfrum Hat & Goggles
+| type = Armor
+| defense = 0
+| tooltip = 10% increased minion damage
+| body slot = Helmet
+| sell = {{value|0|0|15}}
+}}
+}}
+
+===Power Armor Gun===
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Experimental Wulfrum Fusion Array
+| type = Weapon
+| damage = 10 summon damage
+| knockback = Very weak knockback
+| tooltip = Fires quick bursts of medium-range pellets 
+"Who needs whips when you can simply become the summon yourself?"
+}}
+}}
+
+==Crafting==
+===Recipes===
+{{recipes|view=infobox|result=LIKE Wulfrum Armor/Wulfrum Leggings/Wulfrum Helm/Wulfrum Hat & Goggles/Wulfrum Overalls/Wulfrum Jacket}}
+
+==Trivia==
+*The design of the old Wulfrum Mask is inspired by the [https://riskofrain.fandom.com/wiki/Bandit Bandit] character from the game ''[[wikipedia:Risk of Rain|Risk of Rain]]''.
+*This armor set was originally made by the elusive John Wulfrum.
+*Wulfrum as a metal is often referred to as very weak. This is shown with how the power armor falls apart after use.
+* A useful way to get bulk wulfrum metal scraps for the power suit is by using a [[Wulfrum Lure]], as it, hence the name, lures [[Wulfrum Enemies|wulfrum automatons]].
+
+{{Wulfrum}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

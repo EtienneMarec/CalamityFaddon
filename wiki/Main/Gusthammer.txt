@@ -1,0 +1,33 @@
+{{item infobox
+| hammer = 70
+| type = Tool
+| damagetype = Melee
+| damage = 20
+| use = 25
+| knockback = 7
+| bonus = +1 range
+| auto = yes
+| stack = 1
+| rare = 3
+| sell = {{value|0|0|80|0}}
+| toolspeed = 16
+| element1 = Smash
+}}
+
+The '''Gusthammer''' is a craftable [[Pre-Hardmode]] [[hammer]].
+
+{{Modifier|harvest}}
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Aerialite}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category: Hammers]]

@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 140
+| mana = 10
+| knockback = 5
+| use = 14
+| tooltip = Summons five rainbow flowers over your head<br/>The combined flowers consume two and a half minion slots
+| buff = Flowers of Mortality (buff) | bufflink = no
+| bufftip = Celestial blossoms surround you
+| stack = 1
+| auto = yes
+| rare = 11
+| sell = {{value|0|22}}
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Poison
+| debuff = Elemental Mix
+| debuffchance = 100%
+| debuffduration = 2 seconds
+}}
+{{summoned|Flower of Mortality|type=minion}}
+
+The '''Flowers of Mortality''' is a craftable Godseeker Mode [[summon weapon]] and the final upgrade to the [[Frost Blossom Staff]]. When used, it summons up to five rainbow flowers that orbit around the player, and fire homing bolts at nearby targets. The bolt does not pierce, but bursts into a tile-ignoring shrapnel. Each flower consumes half a minion slot.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Elemental}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

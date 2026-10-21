@@ -1,0 +1,36 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 300
+| stack = 9999
+| use = 14
+| rare = C1
+| value = 1700
+| color = #00aaff
+| sell = {{value|0|2}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+'''Esseric Ore''' is a Godseeker Mode [[ore]] that generates in the [[Sky Abyss]] biome after defeating [[Purgatory Arbiter, Umbrus|Purgatory Arbiter, Umbrus]], It requires the [[Crystyl Crusher]] to mine.
+
+== Crafting ==
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

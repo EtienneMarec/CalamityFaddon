@@ -1,0 +1,29 @@
+{{Historical content}}
+{{Addon|Tranquility Mod}}
+{{item infobox
+| image = Power Cell Factory.png
+| type = Furniture
+| placeable = yes
+| auto = yes
+| width = 4
+| height = 4
+| use = 14
+| rare = 0
+| stack = 1
+| color = #434851
+| sell = {{value|0|0}}
+| tooltip = Allows you to upgrade certain items.
+}}
+
+'''Portative Forging Factory''' is an unique piece of [[furniture]], obtained after the player finishes the [[Cutscenes|cutscene]] and fight with the [[Crazed Mechanic]] for the first time. It will open an UI when right-clicked on, that will allow the player to [[Item Upgrade System|upgrade]] some of their items. 
+
+The Factory uses one [[Essence of the Upgrade]] to upgrade an item, with every upgrade the needed amount of essences is increased by 1, the essecnes are also used to level up the weapons. An upgrade takes a 5 seconds in order to be done, the waiting time increases by 5 seconds with each upgrade. The level-up of the weapon takes 1 second in order to be done, the waiting time increases by 1 second with each level.
+
+== Trivia ==
+*Unlike most of UIs, the upgrade/level-up UI can be moved.
+
+{{-}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

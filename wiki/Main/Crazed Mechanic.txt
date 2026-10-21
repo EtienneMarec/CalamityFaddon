@@ -1,0 +1,54 @@
+{{Historical content}}
+{{Addon|Tranquility Mod}}
+
+<big> ''"Hmm? An another looter? Let's see how worthy you are..."'' </big>
+{{npc infobox
+| image = Cyber Draedon.png
+| type = Enemy
+| ai = Crazed Mechanic AI
+| environment = Cavern
+| damage = 0 (contact)<br/>100 (projectiles)<br/>Instakill (saber)
+| life = 500
+| defense = 0
+| dr = 99.99
+| knockback = 0
+| immuneall = y
+| debuff = Deadlock
+| debuffchance = 100%
+| debufftip = You've been stun-locked!
+| duration = 1.5 seconds
+| hurt = NPC_Hit_4.wav
+| sound = ELRFire.wav
+| soundtext = Shot
+}}
+
+The '''Crazed Mechanic''' is a [[tgc:Pre-Hardmode|Pre-Hardmode]] [[Enemies|enemy]] found in the Forgotten Laboratory structure, that generates somewhere in the [[Cavern|Caverns]]. If the player will approach him, the respective [[Cutscenes|cutscene]] triggers.
+
+== Cutscene ==
+When the player gets within the 10 tiles range with the Crazed Mechanic, a following cutscene will trigger:
+
+*Hm? An another looter? Let's see how worthy you are.
+*If you will survive my challenge, i will provide you access to something you might be interested in.
+*So, shall we begin...
+
+After this dialogue, the cutscene ends, and the Crazed Mechanic begins to attack the player with a slew of projectiles.
+
+== Fight ==
+The fight begins with the Crazed Mechanic shooting different projectiles in 3 different patterns, these projectiles ignore the player's immunity frames. The pattern changes every 5 seconds. After the 15 seconds of the fight has passed, he stops firing projectiles, and tries to ram the player. The rams don't deal damage on their own, but if the Crazed Mechanic will touch you, he will inflict the [[Deadlock]] debuff on the player, rendering them completely unable to move. After {{dv|2.5|2}} seconds after the ram, the Crazed Mechanic will try to slash the player with his saber, the saber will instantly kill the player on touch. After the next 15 seconds of the fight has passed, he starts to fire projectiles again, but every 5 seconds trying to ram the player and slash them with the saber. After the last 20 seconds of the fight have passed, the fight stops (or if the Mechanic reaches the 1 HP), the next cutscene triggers:
+
+*Thank you, human, for proving your strength.
+*You've defeated me in a fair fight.
+*Quite frankly, you are far more stonger than you look from the first glance.
+*Here, take it. You've deserved it.
+*And now, i will ask you to leave.
+
+After this cutscene ends, the player will appear outside of the lab, and with the [[Portative Forging Station]] in their inventory, which is used to [[Item Upgrade System|upgrade]] the certain items.
+
+== Trivia ==
+*The Crazed Mechanic has 99.99% DR, what means he only takes 1 damage from any player's attack.
+**This means that weapons that attack fast are the most effective during the fight.
+*The Crazed Mechanic's projectiles ignore player's immunity frames, so they can easily kill the player in a few hits.
+*After the player completed the fight, the Crazed Mechanic will stay in his laboratory, but will become uninteractable.
+*The saber attack will bypass all sorts of the godmode/death prevention, it means it will always instakill the player.
+*The Crazed Mechanic is the only enemy capable of inflicting the [[Deadlock]] debuff on player.
+*If during the fight the Crazed Mechanic is killed somehow (be it by an overpowered weapon or a butcher option from the other mod) during the cutscene/fight, the game will crash.

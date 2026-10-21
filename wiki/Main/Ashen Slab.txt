@@ -1,0 +1,37 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| stack = 9999
+| rare = 3
+| color = #281830
+| pickreq = 180
+| hardmode = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| sell = No value
+| auto = yes
+}}
+
+'''Ashen Slab''' is a craftable [[block]] crafted with [[Smooth Brimstone Slag]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The slab has four different possible glyphs that can appear on it that take the form of [[wikipedia:Alchemical symbol|alchemical symbol]]s. These include:
+**🜏, the Leviathan Cross, the alchemical symbol for sulfur (brimstone).
+**🜍, an alternate alchemical symbol for sulfur.
+**Ω, upper-case Omega, the last letter of the Greek alphabet, and also the alchemical symbol for death.
+**🜂, the alchemical symbol for fire.
+
+{{Master Template Tiles
+| show-main   = yes
+| show-blocks = yes
+}}
+
+[[Category:Block items]]

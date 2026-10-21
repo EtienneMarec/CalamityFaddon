@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 76
+| auto = yes
+| use = 19
+| stack = 1
+| velocity = 20
+| knockback = 6
+| tooltip = Throws an ichor tipped trident<br/>Stealth strikes are showered in splashes of ichor
+| rare = 4
+| sell = {{value|0|2|40}}
+| debuff = Ichor (debuff)
+| debufftip = Defense reduced by 20
+| debuffchance = 100%
+| debuffduration = 2 Seconds
+| hardmode = yes
+| element1 = Unholy
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Ichor Sticker]]|1|{{dv|4%|6.67%}}
+}}
+}}
+
+The '''Ichor Spear''' is a [[Hardmode]] [[javelin]] that is rarely dropped by [[Ichor Sticker]]s. It travels a long distance before being affected by gravity and can pierce one enemy. The Ichor Spear applies the [[Ichor (debuff)|Ichor]] [[debuff]] to all hit enemies. It is the [[Crimson]] variant of the [[Cursed Dagger]] ({{fantag|Calamity: Community Remix}} [[Cursed Spear]]).
+
+Performing a [[stealth strike]] with the Ichor Spear causes the resulting javelin to release streams of ichor in random directions as it travels.
+
+{{Modifier|rogue}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Javelins]]

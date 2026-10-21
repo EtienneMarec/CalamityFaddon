@@ -1,0 +1,36 @@
+{|align=right
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| auto = yes
+| rare = 0
+| color = #3C2A3D
+| use = 14
+| hardmode = yes
+| postml = yes
+| sell = No value
+}}
+|-
+|}
+
+'''Otherworldly Stone''' is a craftable Godseeker Mode [[block]] crafted from [[Armored Shell]]s, [[Dark Plasma]], [[Twisting Nether]], [[Stone Block]]s and [[Silk]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Otherworldly Stone is internally referred to as "Occult Stone", and all of the furniture it crafts are also internally named "Occult".
+
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}
+
+[[Category:Block items]]

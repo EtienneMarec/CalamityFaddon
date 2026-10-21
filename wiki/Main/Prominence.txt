@@ -1,0 +1,49 @@
+{{addon|Deimos, the Starborn Princess}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 64
+| mana = 16
+| knockback = 3
+| debuff = Embers of Duality
+| debufftip = Celestial voids are manifesting around you; defense and damage reduction reduced
+| debuffchance = 100%
+| debuffduration = 1 second
+| debuff2 = Whispering Death
+| debufftip2 = Death approaches; defense, movement speed, attack power and life regen reduced
+| debuff2duration = 3 seconds
+| debuffchance2 = 100%
+| element1 = Fire
+| element2 = Magic
+| element3 = Holy
+| rare = 13
+| sell = {{gc|24}}
+| stack = 1
+| use = 17
+| velocity = 20
+| auto = yes
+| tooltip = Casts a celestial storm to destroy your enemies
+| hardmode = yes
+| postml = yes
+| proj = Divine Spear.png
+| projcaption = Divine Spear
+| sound = Item_73.wav
+| soundtext = Use
+}}
+|{{item drops infobox
+| {{fantag|Deimos, the Starborn Princess}} [[The Starborn Moth]]|1|{{dv|33.33%|50%}}
+}}
+}}
+
+'''Prominence''' is a Godseeker Mode [[wand]] that drops from [[The Starborn Moth]]. It rains down a barrage of nebula lasers and homing divine spears around the cursor's location on use.
+
+{{modifier|magic}}
+
+== Recipe ==
+{{recipes|result={{PAGENAME}}}}
+
+{{-}}
+{{Fae}}
+{{DeimosMod}}
+[[Category:Wands]]

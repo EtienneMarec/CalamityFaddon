@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = melee
+| damage = 27
+| knockback = 4.25
+| rare = 1
+| debuff = War Cleave
+| debuffchance = 100%
+| debuffduration = 7.5 seconds (Critical hits)
+| debufftip = Defense and protection reduced
+| tooltip = Critical hits cleave enemy armor, reducing their defense by 15 and protection by 25%
+| sell = {{value|0|0|20}}
+| use = 18
+| element1 = Slash
+}}
+|{{item drops infobox
+| [[Goblin Warrior]]|1| {{dv|4%|6.67%}}
+}}
+}}
+
+The '''Warblade''' is a [[Pre-Hardmode]] [[broadsword]] that autoswings. It is dropped by [[Goblin Warrior]]s. Critical hits done by the Warblade will inflict the [[War Cleave]] [[debuff]], lowering enemy defense by 15 and DR by 25%.
+
+{{modifier|melee}}
+
+{{-}}
+{{War}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:战刀]]

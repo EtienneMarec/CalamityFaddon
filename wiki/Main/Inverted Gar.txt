@@ -1,0 +1,32 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 3
+| stack = 1
+| sell = {{value|0|0|80}}
+| tooltip = Taking damage will temporarily prevent mana from being consumed.<br/>Thanks for nothing
+| buff = Gar Mana Boost
+| duration = 1 second (when hit)
+| bufftip = Temporary unlimited mana
+}}
+
+The '''Inverted Gar''' is a [[Pre-Hardmode]] [[covering]] that can be caught while [[fishing]] in any layer of the [[Abyss]]. When the player takes damage from an enemy, the '''Gar Mana Boost''' [[buff]] is applied, preventing mana from being consumed for one second.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Inverted Gar can only be caught in the abyss, and due to this, mining out an air pocket is recommended. It can be caught at any fishing power with a 5% chance, making it not too difficult to obtain for early players.
+**The Inverted Gar can be caught in the first layer of the abyss, which is recommended due to the general lack of enemies in that layer.
+*The buff will no longer trigger when taking damage from [[Spikes]], due to an exploit that allowed for infinite mana.
+
+== Trivia ==
+*This covering was formerly named the "Shadow Gar" and lacked its additional tooltip line.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

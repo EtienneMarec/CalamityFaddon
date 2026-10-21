@@ -1,0 +1,12 @@
+<includeonly>[[File:Tango Vandal Icon.png|Vandal|link=]]<!--
+-->{{#if: {{{ip|}}}|[[Special:Contributions/{{{1|{{CURRENTUSER}}}}}|{{{1|{{CURRENTUSER}}}}}]]|[[User:{{{1|{{CURRENTUSER}}}}}|{{{1|{{CURRENTUSER}}}}}]]}} <!--
+
+--><em class="plainlinks" style="margin-left: 0.5em; font-size: 90%;"><!--
+-->({{#if: {{{ip|}}}||[[UserProfile:{{{1|{{CURRENTUSER}}}}}|profile]]{{•}}}}<!--
+-->[[User talk:{{{1|{{CURRENTUSER}}}}}|talk]]{{•}}<!--
+--><code>[[Special:Editcount/{{{1|{{CURRENTUSER}}}}}|{{Special:Editcount/{{{1|{{CURRENTUSER}}}}}}}]]</code> <!--
+-->[[Special:Contributions/{{{1|{{CURRENTUSER}}}}}|contribs]] <!--
+-->([[Special:DeletedContributions/{{{1|{{CURRENTUSER}}}}}|deleted]]){{•}}<!--
+-->[{{fullurl:Special:Log|user={{urlencode:{{{1|{{CURRENTUSER}}}}}}}}} logs]{{•}}<!--
+-->[{{fullurl:Special:Log|type=block&page=User:{{urlencode:{{{1|{{CURRENTUSER}}}}}}}}} block log]{{•}}<!--
+-->[{{fullurl:Special:Block/User:{{urlencode:{{{1|{{CURRENTUSER}}}}}}}}} block])</em></includeonly><noinclude>{{doc}}</noinclude>

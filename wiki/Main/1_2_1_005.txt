@@ -1,0 +1,132 @@
+{{Patch infobox
+| image = Ceaseless Void (1.2.1.005).png
+| patchname = Post-Moon Lord Rebalances
+| release = 9/30/2017
+}}
+
+The '''1.2.0.005''' update made several changes and adjustments to the [[Bumblebirb]] and [[Supreme Calamitas]] fights, among other bosses. It also buffed and nerfed a large amount of Godseeker Mode weapons, and resprited [[Ceaseless Void]].
+
+== Additions ==
+*Added a new [[Bumblebirb]] variant.
+
+== Changes ==
+=== Bosses ===
+*[[Bumblebirb]] changes:
+**Now has {{dv|0|0|600,000}} health in Revengeance Mode, instead of inheriting Expert health.
+**Main boss now takes up 25 NPC slots instead of 5.
+**Main boss velocity and attack damage adjusted.
+**Mini Bumblebirb cap reduced from {{dv|10|0|30}} to {{dv|4|0|6}}.
+**Nerfed mini Bumblebirb health from {{dv|70,000|105,000}} to {{dv|30,000|45,000}}, and reduced size from 75% to 66%.
+*[[The Devourer of Gods]] phase 2 is now slightly faster.
+*The Devourer of Gods' phase 2's body segments now take 20% damage instead of 50%.
+*[[Golem]] is now guaranteed to drop the [[Picksaw]] when killed for the first time, alongside its normal drops.
+*[[Jungle Dragon, Yharon]] now spawns unique mini Bumblebirbs instead of the same mini Bumblebirbs from the main Bumblebirb fight. These new mini Bumblebirbs have greater stats. Yharon will also only summon up to 3 of them instead of 6.
+*Jungle Dragon, Yharon phase 2's gravity-affected Yharon Fireball launch speed now has an increased maximum possible speed.
+*[[Phantom Turret]]s and [[Polterghast Hook]]s now use an i-frame cooldown slot of 1 instead of the default 0.
+*[[Polterghast]] now uses the default i-frame cooldown slot of 0, instead of 1.
+*[[Supreme Calamitas]] changes:
+**Now has [[status message]] quotes, after reaching 1% health.
+***Some new quotes make use of new internal counters tracking Supreme Calamitas kills and player deaths.
+**Death quote has been changed from "oh... guess that's it then.. huh..." to "So... guess that's it then.. huh...".
+**While she is alive, hearts (and their holiday equivalents) heal for half their normal amount.
+**All projectile damage now scales with the player's defense.
+**If the player is below the surface layer, they will be rapidly accelerated upwards until they reach the surface.
+***Note that this does not allow the player to pass through blocks, they will need a path between their current position and the surface or they will be forced against a ceiling.
+**If the player has over 1000 defense or over 100% DR, they will now be instantly killed.
+
+=== Items ===
+*Nerfed [[Alluvion]]'s damage from 62 to 52.
+*Nerfed [[Alpha Ray]]'s damage from 38 to 30.
+*Buffed [[Ark of the Elements]]' damage from 110 to 120.
+*Buffed [[Arterial Assault]]'s damage from 190 to 210.
+*Buffed [[Asteroid Staff]]'s damage from 110 to 130.
+*Nerfed [[Auric Tesla armor]]'s damage bonus when standing still from 150% to 20%, but buffed its critical strike chance boost from 15% to 20%.
+*Buffed [[Blissful Bombardier]]'s damage from 78 to 85, but its projectile's periodic damaging dust now disappears after 0.33 seconds instead of 1.
+*Nerfed [[Blood Clot Staff]]'s damage from 12 to 9.
+*Nerfed the chance to spawn hearts and mana stars when striking enemies while wearing [[Bloodflare armor]] from 4% to 0.5%.
+*[[Briny Baron]]'s spouts and Razorwind Blades now deal 50% damage if [[Golem]] hasn't been defeated.
+*Buffed [[The Burning Sky]]'s damage from 150 to 165.
+*Buffed [[Claret Cannon]]'s damage from 260 to 280.
+*Nerfed [[Cleansing Blaze]]'s damage from 130 to 120.
+*Buffed [[The Dance of Light]]'s damage from 200 to 235.
+*Nerfed [[Dank Staff]]'s damage from 12 to 9.
+*Nerfed [[Deathhail Staff]]'s damage from 100 to 90.
+*Nerfed [[Deathwind]]'s damage from 180 to 160.
+*Nerfed [[Devil's Devastation]]'s damage from 320 to 310.
+*Nerfed [[Draconic Destruction]]'s damage from 100 to 90.
+*Buffed [[Dragon's Breath]]'s damage from 190 to 205.
+*Nerfed [[Effervescence]]'s damage from 48 to 38.
+*Nerfed [[Elemental Blaster]]'s damage from 95 to 90.
+*Buffed [[Elemental Eruption]]'s damage from 28 to 30.
+*Nerfed [[Elemental Shiv]]'s damage from 160 to 150.
+*Buffed [[The Enforcer]]'s damage from 725 to 825.
+*Nerfed [[Eradicator]]'s damage from 200 to 190.
+*Buffed [[Essence Flayer]]'s damage from 200 to 220.
+*Nerfed [[Excelsus]]' damage from 145 to 140.
+*Buffed [[Fate's Reveal]]'s damage from 70 to 73.
+*Nerfed [[Gamma Fusillade]]'s damage from 75 to 70.
+*Nerfed [[Genisis]]' damage from 34 to 28.
+*Nerfed [[Golden Eagle]]'s damage from 120 to 115.
+*[[Grand Guardian]]'s on-hit effects no longer trigger when hitting The Devourer of Gods' body segments or The [[Devourer of Thots]]' body segments.
+*Nerfed [[Grax]]'s damage from 500 to 450.
+*Nerfed [[Greatsword of Blah]]'s damage from 200 to 195.
+*Nerfed [[Soma Prime|Gun]]'s damage from 175 to 170.
+*Nerfed [[Illustrious Knives]]' damage from 310 to 300.
+*Buffed [[Lacerator]]'s damage from 550 to 570.
+*[[Magnetic Meltdown]] now always fires 4 projectiles instead of 4-5.
+*Buffed [[Megafleet]]'s damage from 200 to 210.
+*Nerfed [[Minigun]]'s damage from 280 to 260.
+*Nerfed [[Mirror Blade]]'s damage from 280 to 220, but decreased its mana cost from 5 to 4. Copied damage is now capped at maximum of 500.
+*[[Murasama]] now has a LocalNPCHitCooldown of 3 instead of 1.
+*[[The Mutilator]] changes:
+**Nerfed use time from 15 to 18. 
+**Bloodsplosions can now be triggered on enemies below 20% life instead of 10%.
+**Bloodsplosions now only drop 1 to 2 hearts instead of 2 to 3.
+*Nerfed [[Neptune's Bounty]]'s damage from 285 to 265.
+*[[Nuclear Fury]] changes:
+**Buffed damage from 60 to 80.
+**Now requires 5 [[Luminite Bar]]s to craft instead of 5 [[Nebula Fragment]]s.
+**Now uses {{rare|12}} rarity instead of {{rare|9}}.
+*Nerfed [[The Obliterator]]'s damage from 62 to 55.
+*Nerfed [[Phangasm]]'s damage from 140 to 120.
+*Decreased [[Phantasmal Fury]]'s mana cost from 30 to 20.
+*Buffed [[Phoenix Flame Barrage]]'s damage from 230 to 235.
+*Nerfed [[Primordial Ancient]]'s damage from 200 to 190.
+*Nerfed [[Psychotic Amulet]]'s melee damage boost when standing still from 120% to 25%, but buffed its critical strike chance boost from 20% to 25%.
+*Melee and throwing [[Reaver armor]]'s set bonus tooltips have had the word "slightly" removed from "slightly more damage".
+*Nerfed [[Red Sun]]'s damage from 500 to 400.
+*Nerfed [[Rouge Slash]]'s damage from 150 to 130.
+*Nerfed [[Shadowbolt Staff]]'s damage from 120 to 113.
+*Buffed [[Shredder]]'s damage from 24 to 30.
+*Nerfed [[Solar Flare]]'s damage from 95 to 80.
+*Buffed [[Solstice Claymore]]'s damage from 245 to 270.
+*Nerfed [[Soul Piercer]]'s damage from 130 to 120.
+*Buffed [[Stellar Striker]]'s damage from 280 to 320.
+*Buffed [[The Storm]]'s damage from 75 to 80.
+*Buffed [[Storm Dragoon]]'s damage from 135 to 150.
+*Nerfed [[Stream Gouge]]'s damage from 250 to 230.
+*Decreased [[Subsuming Vortex]]'s mana cost from 30 to 20.
+*Buffed [[Svantechnical]]'s damage from 180 to 190.
+*Nerfed [[T1000]]'s damage from 150 to 142, and increased its mana cost from 8 to 10.
+*Buffed [[Telluric Glare]]'s damage from 82 to 100.
+*Nerfed [[Terror Blade]]'s damage from 210 to 200.
+*Nerfed [[Triactis' True Paladinian Mage-Hammer of Might]]'s damage from 2100 to 1900.
+*Nerfed [[Venusian Trident]]'s damage from 200 to 190.
+*Buffed [[Viscera]]'s damage from 170 to 180.
+*Nerfed [[The Wand]]'s infernado damage from 300 to 280.
+
+=== Other ===
+*[[Extreme Gravity]] now reduces wing time by 66% instead of 50%.
+*Changed [[Warped]]'s tooltip from "Your view of reality is being warped" to "Movement is being warped".
+*Reworked Warped, now reduces X velocity and boosts Y velocity instead of modifying the player's gravity and falling speed by randomly generated amounts.
+
+=== Resprites ===
+*Resprited [[Ceaseless Void]].
+
+== Fixes ==
+*Fixed [[Reaver Helmet]]'s tooltip missing a line break.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

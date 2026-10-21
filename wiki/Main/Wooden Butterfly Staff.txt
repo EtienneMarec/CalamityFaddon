@@ -1,0 +1,38 @@
+{{dedicated|DriverscanPam|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damage = 12
+| damagetype = Summon
+| knockback = 0
+| mana = 4
+| use = 26
+| velocity = 10
+| stack = 1
+| rare = 1
+| tooltip = Summons a butterfly to attack enemies<br/>Does not consume minion slots<br/>Only 3 can be summoned at a time<br/>'The oldest in butterfly technology'
+| sell = {{value|0|0|15}}
+| listcat = summon weapons
+| allversions = yes
+| element1 = Poison
+}}
+{{summoned|Butterfly Staff Minion|type=minion|name=Butterflies}}
+The '''Wooden Butterfly Staff''' is a craftable Pre-[[Hardmode]] [[summon weapon]]. It summons a butterfly, up to a maximum of 3 butterflies that do not take up minion slots and follows the player. Butterflies attack by charging at enemies 3 times, disappearing upon impact with the third enemy.
+
+{{Modifier|summonactive}}
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+==Notes==
+*This weapon is essentially a Magic weapon for the Summoner class. It avoids the damage penalty for Minions while also scaling with Summoner equipment, giving a decent amount of damage in comparison with other classless weapons available.
+*The butterflies can be summoned with no empty Minion slots and without de-summoning pre-existing summons, although it is still bound to its own maximum summon limit.
+==Trivia==
+*An [[thm:Butterfly Staff|item of a similar name and function]] exists in the [http://forums.terraria.org/index.php?threads/the-thorium-mod.40788/ Thorium Mod].
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,49 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 225
+| stack = 9999
+| rare = 12
+| value = 950
+| color = #00FF00
+| use = 14
+| sell = {{value|0|0|50|0}}
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+|[[Bloom Slime]]|10-26|100%
+}}
+}}
+<big> ''"Fossilized tree bark is bursting through the jungle's mud."'' </big>
+
+'''Tarragon Ore''' is a Godseeker Mode [[ore]] obtained by chopping down [[Petrified Trees]] growing in the [[Tarragon Remains]]. It is used to craft [[Tarragon Bar]]s at an [[Adamantite Forge]] or a [[Titanium Forge]]. It requires at least a [[Lunar Pickaxe]] or higher to mine. It can also be dropped by [[Bloom Slime]]s upon death or from [[Rear Gar]]s after [[Providence, the Profaned Goddess]] has been defeated.
+
+== Crafting ==
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Tarragon Ore cannot be destroyed by explosives, even after Providence has been defeated.
+
+{{-}}
+==Trivia ==
+*[[wikipedia:Tarragon|Tarragon]], also known as estragon, is a species of perennial herb in the sunflower family.
+*Tarragon Ore was previously known as '''Uelibloom Ore'''.
+**Uelibloom is a combination of the words "Ueli" and "Bloom", with bloom referring to the process of a flower fully maturing, and ueli being the name of a swiss mountain climber, known for their outdoor affinity.
+{{Uelibloom}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

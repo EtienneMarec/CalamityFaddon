@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| auto = yes
+| type = Weapon
+| damagetype = Melee
+| damage = 90
+| knockback = 7
+| rare = 5
+| sell = {{value|0|7|20}}
+| stack = 1
+| use = 25
+| velocity = 8
+| tooltip = Crushes enemy defenses<br/>Sprays fossil shards on use
+| debuff = Armor Crunch
+| debuffchance = 100%
+| debufftip = Your armor is shredded
+| debuffduration = 4 seconds (Spear)<br/>1 second (Fossil shard)
+| hardmode = yes
+| proj = Fossil Shard.png
+| projcaption = Fossil Shard
+| element1 = Stab
+}}
+|{{item drops infobox
+| [[Earth Elemental]]|1|25%
+}}
+}}
+[[File:Earthen pike.gif|thumb|284x284px|Earthen pike easily deals 1k+ dps with one dummy]]
+The '''Earthern Pike''' is a [[Hardmode]] [[spear]] dropped by the [[Earth Elemental]]. Enemies struck by this weapon are inflicted with the [[Armor Crunch]] [[debuff]], greatly reducing their defense temporarily. On swing, the spear releases four fossil shards that deal 50 percent of the spear's damage and can additionally inflict Armor Crunch. The fossil shards are affected by gravity, and cannot travel upward; aiming the spear's swing further upward will only cause the shards to be fired with less horizontal speed.
+
+{{modifier|meleealt}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

@@ -1,0 +1,42 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damage = 45
+| use = 21
+| damagetype = Spy
+| knockback = 1.5
+| auto = yes
+| velocity = 13
+| stack = 1
+| rare = 7
+| sell = {{value|0|10|0|0}}
+| tooltip = Throws a tiny mine that arms itself after a few seconds have passed<br/>Stealth strikes trifurcates them and primes them for a more powerful, unstable explosion<br/>'Smaller doesn't mean less dangerous sometimes'
+| debuff = Plague
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Rotting from the inside
+| hardmode = yes
+| element1 = Poison
+| element2 = Machine
+| sound = PBGAttackSwitch1.wav
+| soundtext = Mine Arm
+}}
+{{item drops infobox
+| [[The Plaguebringer Goliath]] | 1 | {{dv|25%|33.33%}}
+}}
+
+The '''Li'l Mine''' is a [[Hardmode]] [[Spiky Ball]] that drops from [[The Plaguebringer Goliath]]. Upon being thrown, once 2 seconds have passed, it arms itself, indicated by a sound and a red flash. Upon being stepped on by an enemy, it explodes, dealing 250% of its damage.
+
+Performing a [[Spy|Stealth Strike]] triples the amount of mines thrown, and its arming is instead indicated by a pink flash. Additionally, activating the explosion instead deals 1000% of its damage.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Spiky Balls]]

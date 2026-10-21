@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 65
+| use = 30
+| velocity = 24
+| knockback = 5
+| auto = yes
+| stack = 1
+| tooltip = Summons water spirits while in use
+| rare = 7
+| sell = {{value|0|12}}
+| hardmode = yes
+| debuff = Crush Depth
+| debuffchance = 100%
+| debuffduration = 5 seconds (Blade)<br/>3 seconds (Projectiles)
+| debufftip = Aquatic Pressure
+| proj = Typhon's Greed Bubble.gif
+| projcaption = Water Spirit
+| element1=  Dark
+| element2=  Water
+}}
+[[File:Typhon's Greed (demo).gif|frame|right|The Typhon's Greed in use, summoning projectiles from off-screen that pass through tiles and hit a [[Target Dummy]].]]
+
+The '''Typhon's Greed''' is a craftable [[Hardmode]] [[melee weapon]]. On use it spins in a 360-degree circle and summons floating orbs that deal 50% of the weapon's base damage, pass through tiles, and travel from off-screen towards the player, exploding into particles upon contact with [[enemies]] or after some time has passed.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*[[wikipedia:Typhon|Typhon]] is a powerful aquatic monster in Greek mythology. He is known for possessing snake-like body parts, which was likely the inspiration this weapon's design.
+{{-}}
+{{Abyssal Gear}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}

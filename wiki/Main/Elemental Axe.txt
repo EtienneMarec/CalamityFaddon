@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| rare = 11
+| sell = {{value|0|22}}
+| damage = 50
+| mana = 10
+| knockback = 5
+| use = 14
+| tooltip = Summons an elemental axe to fight for you
+| buff = Elemental Axe (buff) | bufflink= no
+| bufftip = The elemental axe will protect you
+| auto = yes
+| stack = 1
+| hardmode = yes
+| postml = yes
+| debuff = Elemental Mix
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| element1 = Magic
+| element2 = Slash
+}}
+{{summoned|Elemental Axe (minion)|type=minion}}
+
+The '''Elemental Axe''' is a craftable Godseeker Mode [[Summon weapons|summon weapon]]. The minion floats around the player and attacks nearby enemies. It will travel through blocks to reach its target. Summoned axes constantly rotate colors.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*While this weapon has the appearance of an [[axe]], it can not cut trees down or be used as a [[melee weapon]].
+*The Elemental Axe deals 150% damage to [[Providence]], but only 50% damage to [[Storm Weaver]].
+
+{{Elemental}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,46 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 90
+| knockback = 7.75
+| rare = 8
+| sell = {{value|0|16}}
+| use = 19
+| tooltip = Fires a spread of volcanic fireballs
+| velocity = 20
+| hardmode = yes
+| debuff=On Fire!
+| debufftip=Slowly losing life
+| debuffchance = 100%
+| debuffduration = 5 seconds (Sword)<br/>3 seconds (Large Fireball)<br/>2 seconds (Small Fireball)
+| proj = Large Volcanic Fireball.gif
+| projcaption = Large Volcanic Fireball
+| proj2 = Small Volcanic Fireball.gif
+| proj2caption = Small Volcanic Fireball
+| element1 = Fire
+| element2 = Slash
+}}
+
+The '''Hellfire Flamberge''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. On each swing, it fires out two small fireballs and one large fireball at slightly randomized angles and speeds. Small volcanic fireballs deal 50% of the weapon's damage and large volcanic fireballs deal 75% of the weapon's damage, both additionally inflicting the [[On Fire!]] [[debuff]]. The fireballs aren't affected by gravity, slow to a stop and disappear shortly after being fired, and cannot penetrate tiles nor enemies. The sword itself also inflicts On Fire! on enemy hits.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+== Notes ==
+*The color of the fireballs slowly oscillates between red and yellow. The color change is synced across all fireballs.
+
+== Trivia ==
+*A [[wikipedia:Flamberge|flamberge]] is a type of sword with an undulating wave-like blade design meant to resemble fire. The Hellfire Flamberge features this blade design.
+
+{{Scoria}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:狱火重剑]]

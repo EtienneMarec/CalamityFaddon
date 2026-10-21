@@ -1,0 +1,223 @@
+The Calamity Mod adds numerous '''slime''' [[enemies]] that can be found in various places throughout the game. Most Calamity slimes spawn underground and correspond to [[ore]] added by the Calamity Mod; they generally start to spawn once the ore generates or the player can access the tools required to mine it. All slimes added by the mod, excluding the ones summoned by [[The Slime God]] and the [[Cragmaw Mire]], are pacified by the [[Royal Gel]] covering. Boss-summoned slimes are pacified by the [[Nucleate Gello]].
+
+== Types ==
+{| class="terraria sortable lined" style="text-align:center" width="100%"
+! width=250 | Type
+! Health
+! Damage
+! width="5%" | Defense
+! width="5%" | Coins
+! width="5%" | Banner
+! width=80 | Drops
+! class="unsortable" | Additional info
+|-
+| '''{{item|Ebonian Blight Slime}}'''
+| {{dv|130|260}} || {{dv|30|60}} || 12 || align=right | {{sc|1}} || [[File:Ebonian Blight Slime Banner.png]] || {{item|mode=image|Blighted Gel}} 15-16<br/> {{item|mode=image|Gel}} 10-14 || align=left | <small>Spawns in [[The Corruption]] biome.</small>
+|-
+| '''{{item|Crimulan Blight Slime}}'''
+| {{dv|130|260}} || {{dv|30|60}} || 12 || align=right | {{sc|1}} || [[File:Crimulan Blight Slime Banner.png]] || {{item|mode=image|Blighted Gel}} 15-16<br/> {{item|mode=image|Gel}} 10-14 || align=left | <small>Spawns in [[The Crimson]] biome.
+|-
+| '''{{item|Silicic Slime}}'''
+| {{dv|100|155}} || {{dv|16|32}} || 8 || align="right" | {{sc|2}} || [[File:Silicic Slime Banner.png]] || {{item|mode=image|Silicon Ore}} 10-26 || align="left" | <small>Spawns in water in the [[Ocean]] and [[Sulphurous Sea]].</small>
+|-
+| '''{{item|Famine Slime}}'''
+| {{dv|150|735}} || {{element|Poison}} {{dv|25|50}} (Contact)<br />{{element|Poison}} {{dv|20|40}} (Darts) || 4 || align="right" | {{sc|1}} || {{na}} || {{item|mode=image|Sulphuric Scale}} 1-2<br />{{item|mode=image|Apocalyptic Ore}} 10-26<br /><small>{{item|mode=image|Urchin Stinger}}</small> || align="left" | <small>Spawns in the [[Sulphurous Sea]] after [[Acidsighter]] has been defeated.
+|-
+| '''{{item|Aero Slime}}'''
+| {{dv|120|180}} || {{dv|18|36}} || 10 || align="right" | {{sc|3}} || [[File:Aero Slime Banner.png]] || {{item|mode=image|Aerialite Ore}} 10-26 || align="left" | <small>Spawns in the [[Cavern]] layer after [[The Hive Mind]] or [[The Perforators]] have been defeated.<br />Flying AI.</small>
+|-
+| '''{{item|Arsenous Slime}}'''
+| {{dv|110|175}} || {{dv|20|40}} || 12 || align="right" | {{sc|4}} || [[File:Arsenous Slime Banner.png]] || {{item|mode=image|Arsenic Ore}} 10-26 || align="left" | <small>Spawns in the [[Dungeon]].</small>
+|-
+| '''{{item|Corrupt Slime Spawn}}'''
+| {{dv|160|320}} || {{dv|40|80|96||105}} || 10 || align="right" | {{na}} || {{na}} || {{na}} || align="left" | <small>Summoned by [[The Slime God]]. <br />Flying AI.</small>
+|-
+| '''{{item|Corrupt Slime Spawn (Without Wings)}}'''
+| {{dv|90|180}} || {{dv|30|60|}} || 10 || align="right" | {{na}} || {{na}} || {{item|mode=image|Vitamins}} || align="left" | <small>Spawned upon the death of the flying variant.</small>
+|-
+| '''{{item|Crimson Slime Spawn}}'''
+| {{dv|110|220}} || {{dv|30|60||75}} || 10 || align="right" | {{na}} || {{na}} || {{item|mode=image|Nazar}} || align="left" | <small>Summoned by [[The Slime God]].</small>
+|-
+| '''{{item|Spiked Crimson Slime Spawn}}'''
+| {{dv|160|320}} || {{dv|45|90|108|118}} || 10 || align="right" | {{na}} || {{na}} || {{item|mode=image|Nazar}} || align="left" | <small>Summoned by [[The Slime God]]. <br />Fires spike projectiles.</small>
+|-
+| '''{{item|Astral Slime}}'''
+| {{dv|200|400}} || {{dv|40|80}} || 8 || align="right" | {{sc|5}} || [[File:Astral Slime Banner.png]]  || {{item|mode=image|Abandoned Slime Staff|size=40px}}<br />{{item|mode=image|Astral Ore}}{{dv|8-12|11-16}}<br />{{item|mode=image|Stardust}}{{dv|1-3}} || align="left" | <small>Spawns in the [[Astral Infection]] biome.<br />Will only drop the Abandoned Slime Staff after [[Astrum Aureus]] has been defeated.<br />Will only drop Astral Ore after [[Astrum Deus]] has been defeated.</small>
+|-
+| '''{{item|Cryo Slime}}'''
+| {{dv|120|240}} || {{element|Holy}} {{dv|30|60||75}} || 12 || align="right" | {{sc|6}} || [[File:Cryo Slime Banner.png]] || {{item|mode=image|Cryonic Ore}} 10-26 || align="left" | <small>Spawns in the [[Cavern]] layer after [[Cryogen]] has been defeated.</small>
+|-
+| '''{{item|Irradiated Slime}}'''
+| {{dv|640|1,152}} || {{dv|75|128}} || 5 || align="right" | {{sc|5}} || [[File:Irradiated Slime Banner.png]]  || {{item|mode=image|Lead Core}} || align="left" | <small>Spawns during the [[Acid Rain]] event after the [[Aquatic Scourge]] has been defeated. Does not follow Slime AI.</small>
+|-
+| '''{{item|Charred Slime}}'''
+| {{dv|250|500}} || {{dv|40|80}} || 20 || align="right" | {{sc|15}} || [[File:Charred Slime Banner.png]] || {{item|mode=image|Charred Ore}} 10-26<br />{{item|mode=image|Essence of Chaos}}<br />{{item|mode=image|Bloodstone}} || align="left" | <small>Spawns in the [[Brimstone Crag]] biome after the [[Brimstone Elemental]] has been defeated.<br />Will only drop Bloodstone after [[Providence]] has been defeated.</small>
+|-
+| '''{{item|Perennial Slime}}'''
+| {{dv|150|300}} || {{dv|35|70}} || 16 || align="right" | {{sc|12}} || [[File:Perennial Slime Banner.png]] || {{item|mode=image|Perennial Ore}} 10-26 || align="left" | <small>Spawns in the [[Cavern]] layer after [[Plantera]] has been defeated.</small>
+|-
+| '''{{item|Pestilent Slime}}'''
+| {{dv|350|700}} || {{element|Poison}} {{dv|55|110}} (Contact)<br/>{{element|Stab}} {{dv|44|100}} (Darts) || 25 || align="right" | {{sc|10}} || [[File:Pestilent Slime Banner.png]] || {{item|mode=image|Plague Cell Canister}} 1-2<br />{{item|mode=image|Apocalyptic Ore}} 10-26<br /><small>{{item|mode=image|Stinger}}</small> || align="left" | <small>Spawns in the [[Jungle]] after [[Golem]] has been defeated.<br />Fires spike projectiles.</small>
+|-
+| '''{{item|War Slime}}'''
+| {{dv|600|1200}} || {{dv|90|180}} (Contact)<br />{{dv|74|148}} (Darts) || 18 || align="right" | {{sc|1}} || {{na}} || {{item|mode=image|Brimstone Slag}} 1-2<br />{{item|mode=image|Apocalyptic Ore}} 10-26<br /><small>{{item|mode=image|Charred Ore}}</small> || align="left" | <small>Spawns in the [[Brimstone Crag]] after [[Ravager]] has been defeated.
+|-
+| '''{{item|Side Mollusk}}'''
+| {{dv|900|1,800}} || {{element|Magic}} {{dv|100|200}} (Contact)<br/>{{element|Dark}} {{dv|120|240}} (Phantasmal Bolt) || 40 || align="right" | {{gc|5}} || [[File:Side Mollusk Banner.png]] || {{item|mode=image|Exodium Cluster}} 10-26 || align="left" | <small>Spawns in the [[Space]] layer in Godseeker Mode.</small>
+|-
+| '''{{item|Bloom Slime}}'''
+| {{dv|1,000|2,000}} || {{dv|80|160}} || 50 || align="right" | {{gc|3}} || [[File:Bloom Slime Banner.png]] || {{item|mode=image|Tarragon Ore}} 10-26 || align="left" | <small>Spawns in the [[Cavern]] layer after [[Providence]] has been defeated.</small>
+|-
+| '''{{item|Death Slime}}'''
+| {{dv|2400|4800}} || {{element|Dark}} {{dv|120|240}} (Contact)<br />{{element|Dark}} {{dv|114|228}} (Darts) || 37 || align="right" | {{gc|1}} || {{na}} || {{item|mode=image|Phantoplasm}} 1-2<br />{{item|mode=image|Apocalyptic Ore}} 10-26<br /><small>{{item|mode=image|Ectoplasm}}</small> || align="left" | <small>Spawns in the [[Dungeon]] after [[Polterghast]] has been defeated.
+|-
+| '''{{item|Glacial Slime}}'''
+| {{dv|10,500|14,700}} || {{dv|110|220}} || 30 || align="right" | {{value|0|3|75}} || {{na}} || {{item|mode=image|Frozen Hellstone}} {{dv|3-6}}<br />{{item|mode=image|Gel}} {{dv|23-30}}|| align="left" | <small>Spawns in [[Frozen Hell]].</small>
+|-
+|'''{{item|Cosmilite Slime}}'''
+|{{dv|800|1,600}}
+|{{dv|70|140}}
+|20
+|{{sc|20}}
+|{{na}}
+|{{item|mode=image|Cosmilite Slag}} 10-26
+|<small>Spawns in the [[Space]] layer.</small>
+|-
+| '''{{item|Auric Slime}}'''
+| {{dv|14,000|28,000}} || {{dv|160|320}} || 60 || align="right" | {{value|0|0|0|0|1}} || {{na}} || {{item|mode=image|Auric Ore}} 10-26 || align="left" | <small>Spawns in the [[Cavern]] layer after [[Yharon]] has been defeated.</small>
+|-
+|'''{{item|Shadowspec Slime}}'''
+|{{dv|18,000|32,000|46,000}}
+|{{dv|140|220|240}}
+|{{dv|80}}
+|{{value|10|||}}
+|{{na}}
+|{{item|mode=image|Shadowspec Ore}} {{dv|1-5}}
+|<small>Spawns in [[The Underworld]] after [[Purgatory Arbiter, Umbrus]] is defeated.</small>
+|-
+| '''{{item|Gamma Slime}}'''
+| {{dv|4,000|6,400}} || {{dv|145|246}} (melee)<br />45 (gamma acid)<br />120 (gamma beam) || 50 || align="right" | {{sc|6}} || [[File:Gamma Slime Banner.png]] || {{item|mode=image|Lead Core}} || align="left" | <small>Spawns during the [[Acid Rain]] event after [[Polterghast]] has been defeated. Does not follow Slime AI.</small>
+|-
+| '''{{item|Goozmarie}}'''
+| {{dv|500}} || {{dv|20,000}} || 0 || align="right" | {{value|0}} || {{na}} || {{na}} || align="left" | <small>Spawns when the player has obtained every Town Slime. Does not follow Slime AI.</small>
+|-
+| '''{{item|Cragmaw Mire|image=Cragmaw Mire.png/Cragmaw Mire (Phase 2).png}}'''
+| {{dv|4,000|6,400|}} (Tier 2)<br />{{dv|80,630|129,008}} (Tier 3) || Various || 25 (Tier 2)<br />80 (Tier 3) || align="right" | {{gc|3}} {{sc|60}} || {{na}} || Various || align="left" | <small>Miniboss slime. Spawns during the [[Acid Rain]] event after [[Aquatic Scourge]] has been defeated. Does not follow Slime AI.</small>
+|-
+|'''{{item|Life Slime}}'''
+|{{dv|2,400|4,800}}
+|{{dv|260|520}} (contact)<br />{{dv|100|200}} (projectiles)
+|60
+|{{gc|1}} {{sc|5}}
+|{{na}}
+|{{item|mode=image|Life Ore}} {{dv|10-26}}
+|<small>Miniboss slime. Spawns in the [[Cavern]] layer around [[Life Ore]] patches after the player has defeated [[Ravager]].</small>
+|-
+|'''{{item|Primordial Rainbow Slime}}'''
+|{{dv|1,500,000|2,300,000}}
+|{{element|Fire}}{{element|Cold}}{{element|Holy}} {{dv|400|650|900}} (Contact)<br/>{{element|Fire}}{{element|Slash}}{{element|Holy}} {{dv|250|400|425}} (Exothermal Scythe)<br/>{{element|Holy}} {{dv|400|608|640|658}} (Gauss Nuke)
+|150
+|{{value|12|5|0|0|3}}
+|{{na}}
+|Various
+|<small>Miniboss slime. Spawns in [[Caelus]] around [[Pitchblende]] planetoids after the [[Vision of the Tyrant]] has been defeated.</small>
+|-
+| '''[[File:Goozma.png]][[Goozma]] (Pre-Hardmode)'''
+|{{dv|4000|6000|8000}}
+|0 (Contact)<br/>{{dv|10|20}}
+|100
+|{{gc|35}}
+|[[File:Goozma Trophy.png]]
+|Various
+|<small>Boss slime. Can be summoned manually. Does not follow Slime AI.</small>
+|-
+| '''{{item|Crimulan Slime God|size=90px}}'''
+| {{dv|3,500|5,600|7,712}}<br/>{{dv|875|1,400|1,928}} (split) || {{dv|50|85|102|112}} (melee)<br/>{{dv|38|64|76|84}} (orb)<br/>{{dv||88|105|116}} (mine) || 25<br/>20 (split) || align=right | {{gc|2}} || [[File:Slime God Trophy.png]] || Various || align=left | <small>Boss slime. Can be summoned manually. Does not follow Slime AI.</small>
+|-
+| '''{{item|Ebonian Slime God|size=90px}}'''
+| {{dv|4,000|6,400|8,800}}<br/>{{dv|1,000|1,600|2,200}} (split) || {{dv|45|76|91|100}} (melee)<br/>{{dv|42|68|81|99}} (orb)<br/>{{dv||96|115|126}} (mine) || 15<br/>10 (split) || align=right | {{gc|2}} || [[File:Slime God Trophy.png]] || Various || align=left | <small>Boss slime. Can be summoned manually. Does not follow Slime AI.</small>
+|-
+| '''{{item|Slime God Core}}'''
+| {{dv|4,000|6,400|8,000}} || {{dv|40|80|96|105}} || 6 || align=right | {{na}} || [[File:Slime God Trophy.png]] || Various || align=left | <small>Boss slime. Can be summoned manually. Does not follow Slime AI.</small>
+|-
+| '''{{item|Aureus Spawn}}'''
+| {{dv|3000|}} /<br/>{{dv|8,250}} Post-ML || Various || Various || align=right | {{na}} || {{na}} || Various || align=left | <small>Summoned by [[Astrum Aureus]].</small>
+|-
+|[[File:Goopocalypse Core.png]]'''[[Goopocalypse Core]]'''
+|{{dv|900,000|1,375,000|1,700,000}}
+|Various
+|0
+|{{value|||||10}}
+|[[File:Goomageddon Trophy.png]]
+|Various
+|<small>Boss slime. Can be summoned manually. Does not follow Slime AI. Cannot take damage directly and is passive most of the time. Shares a health pool with the four Horseslimes.</small>
+|-
+|'''[[File:Conquest_Horseslime.png]][[Horseslime of Conquest]]'''
+|{{dv|900,000|1,375,000|1,700,000}}
+|Various
+|90
+|{{na}}
+|[[File:Goomageddon Trophy.png]]
+|{{na}}
+|<small>Boss slime. Summoned with Goopocalypse Core. Does not follow Slime AI. Shares a health pool with the core and the other Horseslimes.</small>
+|-
+|'''[[File:War_Horseslime.png]][[Horseslime of War]]'''
+|{{dv|900,000|1,375,000|1,700,000}}
+|Various
+|90
+|{{na}}
+|[[File:Goomageddon Trophy.png]]
+|{{na}}
+|<small>Boss slime. Summoned with Goopocalypse Core. Does not follow Slime AI. Shares a health pool with the core and the other Horseslimes.</small>
+|-
+|'''[[File:Famine_Horseslime.png]][[Horseslime of Famine]]'''
+|{{dv|900,000|1,375,000|1,700,000}}
+|Various
+|90
+|{{na}}
+|[[File:Goomageddon Trophy.png]]
+|{{na}}
+|<small>Boss slime. Summoned with Goopocalypse Core. Does not follow Slime AI. Shares a health pool with the core and the other Horseslimes.</small>
+|-
+|'''[[File:Death_Horseslime.png]][[Horseslime of Death]]'''
+|{{dv|900,000|1,375,000|1,700,000}}
+|Various
+|90
+|{{na}}
+|[[File:Goomageddon Trophy.png]]
+|{{na}}
+|<small>Boss slime. Summoned with Goopocalypse Core. Does not follow Slime AI. Shares a health pool with the core and the other Horseslimes.</small>
+|-
+| '''[[File:Goozma Hardmode.png]][[Goozma]] (Godseeker Mode)'''
+|{{dv|5,000,000|7,500,000|10,000,000}}
+|0 (Contact)<br/>{{dv|300|600}}
+|100
+|{{gc|35}}
+|[[File:Goozma Trophy.png]]
+|Various
+|<small>Boss slime. Can be summoned manually. Does not follow Slime AI.</small>
+|-
+|'''{{item|Exodygen|scale=0.5}}'''
+|{{dv|12,500,000|17,500,000|20,000,000|22,500,000|27,500,000}}
+|
+{{dv|500|1000|1500}} (Contact)<br/>{{dv|120|240|360}} (Projectiles)<br/>{{dv|200|400|600}} (Gauss Nuke and Exo Star Rapture)<br/>{{dv|300|600|900}} (Neutron Star)
+|50
+|{{value|200|||}}{{value||45||}}{{value|||75|}}{{value||||40}}
+|{{na}}
+|Various
+|<small>Superboss slime. Can be summoned manually. Does not follow Slime AI.</small>
+|}
+
+== Notes ==
+*The Crimulan and Ebonian Blight Slimes are the only slimes in the Calamity Mod that drop [[Gel]].
+
+== See Also ==
+*[[tgc:Slimes|Slime]] on the vanilla wiki.
+
+<!--{{Master Template Characters
+| show-main = yes
+| show-common = yes
+| show-hardmode = yes
+| show-postMoon = yes
+}}-->
+[[Category:Slime NPCs|*]]

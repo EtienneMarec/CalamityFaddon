@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2= Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 56
+| mana = 4
+| knockback = 1.50
+| tooltip = Fires a Y-shaped beam of destructive energy and a spread of lasers
+| rare = 10
+| velocity = 6
+| sell = {{value|0|20}}
+| use = 4
+| stack = 1
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+}}
+{{dablink|Not to be confused with [[Genesis]], the [[summoning item]] for [[Purgatory Arbiter, Umbrus]], or [[Genesis (event)]].}}
+
+The '''Genisis''' is a craftable Godseeker Mode [[magic gun]] that shoots a large concentrated beam. The main beam ignores damage frames, pierces enemies, and splits into two more beams when it reaches its maximum range. It also rapidly fires inaccurate smaller laser beams that cannot go through walls and do not pierce enemies. The smaller laser beams disappear after a short time.
+
+{{Modifier|magicalt2}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Genisis was implemented based on a community suggestion made by Gouvod on the mod's Terraria Forums post.
+*The weapon's name is an altered version of the word "Genesis", which was implemented spelt as "Genisis" due to a spelling error in the suggestion.
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Magic guns]]

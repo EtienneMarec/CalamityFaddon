@@ -1,0 +1,52 @@
+{{dedicated|Phantasmal Deathray|Developer}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 750
+| damagetype = Melee
+| knockback = 3
+| velocity = 9
+| use = 11
+| stack = 1
+| tooltip = Throws a flurry of homing knives that can heal the user and restore their mana
+| auto = yes
+| rare = 16
+| sell = {{value|0|40}}
+| debuff = God Slayer Inferno
+| debufftip = Your flesh is burning off
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Illustrious Knife.png
+| projcaption = Illustrious Knife
+| element1 = Magic
+| element2 = Stab
+}}
+}}
+
+The '''Illustrious Knives''' are a craftable Epilogue [[developer]] weapon. They are the final upgrade to the [[Monstrous Knives]] and the [[Moonstone Knives]]. When used, the weapon launches a spread of 4-8 slow moving green knives, similar to the [[Vampire Knives]]. The knives are destroyed upon contact with tiles, but will rapidly accelerate and home in on nearby enemies. All knives will inflict [[God Slayer Inferno]] upon striking an enemy.
+
+When a knife hits an enemy, the player is [[Lifesteal|healed]] by 1.5% of the damage dealt, and a significant amount of mana is restored. This lifesteal and mana regeneration is far stronger than either of the weapons previous forms.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The Illustrious Knives have a slightly higher chance than Vampire Knives or Empyrean Knives to throw out greater amounts of knives per usage. While they all throw a minimum of 4 knives, the predecessors have 4 independent chances of 1/2, 1/4, 1/8, and 1/16 to increase the number of knives by 1, placing their average number of knives per throw at 4.94. The Illustrious Knives' 4 independent chances are 1/2, 1/4, 1/6, and 1/8, meaning its average number of knives is 5.04.
+
+== Trivia ==
+*This weapon actually has a unique rarity, but is referred to here as Hot Pink for consistency between weapons.
+**This unique rarity alternates between mint green ({{color|#9AFF97 ●|#9AFF97}}) and mauve ({{color|#E497FF ●|#E497FF}}) colors.
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Daggers]]
+[[Category:Healing items]]

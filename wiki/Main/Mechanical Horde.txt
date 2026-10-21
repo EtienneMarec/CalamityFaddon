@@ -1,0 +1,127 @@
+{{addon|Calamity: Community Remix}}
+<big>''"Your signal has been recieved."''</big>
+{{float file box|[[File:Mechanical Horde Icon.png]]|Progress bar icon}}
+
+The '''Mechanical Horde''' is an event that occurs in [[The Exosphere]]. It does not occur naturally, and must be activated by using the [[Draedon's Remote]].
+
+The event consists of 9 waves of buffed mechanical enemies from throughout the game's progression, with most waves requiring specific [[challenges]] to be defeated before progressing to the next wave. All enemies in the event have massively increased health and damage. After the 9th wave, the event ends with a fight against [[Mechdusa]], a combination of the three mechanical challenges usually exclusive to [[Get fixed boi]] worlds.
+
+Upon reaching the end of the event, [[Draedon]] appears to give the player the {{item|Encrypted Schematic (Exosphere)}}, allowing them to craft the {{item|Auric Quantum Cooling Cell}} and complete [[The Codebreaker]]. After completion of the event, Draedon's Remote will become unusable in the Exosphere, preventing the event from being restarted. Completion also allows [[La Ruga]] to spawn in the Exosphere.
+
+==Waves==
+{| class = "terraria sortable lined" style = "text-align: center"
+! Wave # !! Enemies !! Challenge
+|-
+| 1
+| {{item|Wulfrum Gyrator}} <br>{{item|Wulfrum Hovercraft}} <br>{{item|Wulfrum Rover}} <br>
+| None
+|-
+| 2
+| {{item|Wulfrum Gyrator}} <br>{{item|Wulfrum Hovercraft}} <br>{{item|Wulfrum Rover}} <br>{{item|Wulfrum Drone}} <br>
+| {{item|The Inventors}}
+|-
+| 3
+| {{item|Wulfrum Gyrator}} <br>{{item|Wulfrum Hovercraft}} <br>{{item|Wulfrum Rover}} <br>{{item|Wulfrum Drone}} <br>{{item|Wulfrum Pylon}} 
+| {{item|Wulfrum Excavator}} 1.5x health
+|-
+| 4
+| {{item|Wulfrum Hovercraft}} <br>{{item|Wulfrum Drone}} <br>{{item|Wulfrum Pylon}} <br>{{item|Probe}} <br>{{item|Shockstorm Shuttle}} <br>
+| {{item|The Twins}}
+|-
+| 5
+| {{item|Probe}} <br>{{item|Shockstorm Shuttle}} <br>{{item|Melter}} <br>{{item|Pestilent Slime}} <br>{{item|Plague Charger}} <br>{{item|Plagueshell}} <br>{{item|Viruling}} <br>
+| {{item|The Destroyer}}
+|-
+| 6
+| {{item|Melter}} <br>{{item|Pestilent Slime}} <br>{{item|Plague Charger}} <br>{{item|Plagueshell}} <br>{{item|Viruling}} <br>{{item|Armored Digger}} <br>
+| {{item|Skeletron Prime}} 1.5x health
+|-
+| 7
+| {{item|Melter}} <br>{{item|Pestilent Slime}} <br>{{item|Plague Charger}} <br>{{item|Plagueshell}} <br>{{item|Viruling}} <br>{{item|Armored Digger}} <br>{{item|Plaguebringer}} 
+| {{item|The Derellect}}
+|-
+| 8
+| {{item|Melter}} <br>{{item|Plagueshell}} <br>{{item|Viruling}} <br>{{item|Armored Digger}} <br>{{item|Plaguebringer}} <br>{{item|Santa-NK1}} 
+| {{item|Astrum Aureus}}
+|-
+| 9
+| {{item|Armored Digger}} <br>{{item|Plaguebringer}} (10)<br>{{item|Santa-NK1}} <br>{{item|Martian Saucer}} 
+| {{item|The Plaguebringer Goliath}}
+|-
+| 10 (Final)
+| N/A
+| {{item|Mechdusa}}
+|}
+==Notes==
+* Draedon appears in the event, though only for a short time at its tail end. {{npc infobox
+| type = Boss
+| name = Draedon
+| life = 16,000
+| damage = 0
+| defense = 100
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| killed = NPC_Killed_14.wav
+| sound = DraedonTeleport.wav
+| soundtext = Spawn
+| sound2 = DraedonAmbience.wav
+| sound2text = Ambience
+| sound3 = FlareSound.wav
+| sound3text = Exo Mech Summon
+| sound4 = DraedonLaugh.wav
+| sound4text = Laugh
+|image=draedonlmao.png}}
+* No enemies spawned during the Mechanical Horde drop loot other than coins.
+* If all players die during the event, it is automatically canceled.
+* If a wave boss despawns before the wave is completed, it will automatically spawn back in.
+==Tips==
+{{dablink|For more elaborate strategies on defeating the Mechanical Horde, including [[weapon]] and [[covering]] recommendations, see [[Guide:Mechanical Horde strategies]].}}
+* The event is not time-sensitive. Players are able to run away if necessary; for example, if they need to drink a potion.
+* None of the enemies in the event are immune to [[Cursed Inferno]] or [[Ichor]], making them potent debuffs.
+* It is imperative to kill enemies as quickly as possible, particularly in later waves, to avoid being overwhelmed.
+==Trivia==
+* The [[Music|theme]] of the The Mechanical Horde is [https://www.youtube.com/watch?v=eFLdPMjWy8o '''Inferior Fabrications'''], which was composed by [https://www.youtube.com/channel/UCfbpIwaXAPuE3kTFq1tEqDA PinpinNeon].
+** However, in a similar fashion to the [[The Fabricational Quartet]], this theme is confirmed to be a placeholder.
+* In the mod's source files, the Mechanical Horde is referred to as "RobotsFTW". This is believed to be a reference to [https://www.youtube.com/watch?v=2EP3fDx644w a track from Portal 2].
+* Originally, the Mechanical Horde was planned to last up to post-[[The Fabricational Quartet]] event, before it was reworked into a prerequisite due to the lack of robotic Godseeker Mode enemies.
+==Quotes==
+===When the event is started===
+* "Your signal has been received."
+* "Let us begin."
+
+===Upon reaching wave 3===
+* "These wulfrum machines were some of my earliest attempts at creating synthetic life."
+* "While I no longer wish to maintain them, I appreciate that a certain two have continued their development."
+
+===Upon reaching wave 5===
+* "The plague. Bioengineered steel counterparts to some of your world's most fearsome foes."
+* "While it certainly was a shame that Yharim did not approve of my methods, one cannot deny its versatility."
+
+===Upon reaching wave 7===
+*"Ah, yes, the brain. At the time of its creation, I failed to realize I lacked the experience to weave a proper recreation of organic structures."
+*"I intended to take it offline many years ago, ripping out its plating and core systems for use in other projects, which later became the trio you just battled."
+*"Yet, despite my efforts, its additional units have both kept it running and optimized its construction far beyond any of its successors."
+*"Perhaps I could have benefited from its potential if I had been more patient."
+
+=== Upon reaching wave 8 ===
+* "The titanic cyborg."
+* "It being infected certainly was a surprise, yet was enough information to satiate my initial curiosities."
+* "I have built another. Let us see how it fares."
+
+=== Upon reaching the final wave ===
+* "Very, very good."
+* "Your final opponent will be my ultimate experiment with those creatures of steel."
+* "An attempt at artificially recreating a god, this was once my magnum opus."
+* "I see you have already defeated this once. We will both see if you can survive round two." (if the player has already defeated Mechdusa)
+* "I trust you will give this final battle everything you have."
+
+===After completing the event===
+* "You are indeed even more powerful than I had anticipated."
+* "So much of my previous work, defeated so readily."
+* "However, you have yet to face my strongest machines. Those are orders of magnitude more powerful than what you have defeated here."
+* "Now, please take this. It will allow you to complete that machine of your own." (dropping the Exosphere schematic)
+* "Contact me again once you are ready."
+
+{{Game mechanics}}
+[[Category:Events]]

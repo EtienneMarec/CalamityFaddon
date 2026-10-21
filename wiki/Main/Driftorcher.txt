@@ -1,0 +1,42 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 65
+| knockback = 2
+| rare = 5
+| sell = {{value|0|0|40}}
+| stack = 1
+| auto = yes
+| use = 19
+| velocity = 10
+| tooltip = Consumes torches to launch damaging sparks when swung
+| hardmode = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 6 seconds (Explosion)
+| debufftip = Slowly losing life
+| element1 = Fire
+| element2 = Slash
+}}
+
+The '''Driftorcher''' is a craftable [[Hardmode]] [[broadsword]]. When swung while the player has [[Torch]]es in their inventory, the torch is consumed and five homing gravity-affected sparks will fly out of the weapon, with each one piercing once and dealing one-tenth of the initial damage of the weapon. The five sparks are always thrown out at the same semi-equidistant angles, with the highest going straight upward and the lowest going straight forward, regardless of where the player is aiming. Each spark lasts for 1.5 seconds before dissipating.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The type of torch affects what debuff will be applied upon enemy hits.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:斩首者]]

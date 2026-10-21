@@ -1,0 +1,29 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 22
+| use = 15
+| knockback = 5
+| stack = 1
+| rare = 2
+| sell = {{value|0|0|40}}
+| velocity = 12
+| tooltip = Fear the storm<br/>Does not consume ammo
+| proj = Storm Surge Shockwave.gif
+| projcaption = Storm Shockwave
+| element1 = Water
+| element2 = Electricity
+}}
+
+The '''Storm Surge''' is a [[Hardmode]] [[ranged weapon]]. It fires a glowing blue shockwave that can pass through solid blocks and pierce a single enemy, making it useful for dispatching enemies through walls and searching for nearby caves. However, the storm shockwave has a short range. Unlike many other early-game ranged weapons, it does not consume [[Ammunition|ammo]].
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

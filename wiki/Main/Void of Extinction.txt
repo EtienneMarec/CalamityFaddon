@@ -1,0 +1,36 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = No longer cursed<br/>Drops brimstone fireballs from the sky occasionally<br/>15% increase to all damage<br/>Brimstone fire rains down while invincibility is active<br/>Temporary immunity to lava, greatly reduces lava burn damage, and 25% increased damage while in lava
+| rare = 8
+| expert = yes
+| sell = {{value|0|12}}
+| stack = 1
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffduration = 4 seconds (Brimstone fire)<br/>10 seconds (Brimstone fireballs)
+| debuffchance = 100%
+| hardmode = yes
+| element1 = fire
+| element2 = unholy
+}}
+The '''Void of Extinction''' is a craftable [[Hardmode]] [[covering]]. It grants the user a 15% increase to all damage types, occasionally drops brimstone fireballs from the sky, rains down brimstone fire while invincibility is active, and grants temporary immunity to lava, reduced lava damage, and a 25% damage boost while in lava. Both the brimstone fire and fireballs inflict [[Brimstone Flames]] on hit enemies. The brimstone fireballs act almost identical to the projectiles fired by the [[Inferno Fork]], leaving behind lingering red explosions that deal heavy damage.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Void of Extinction cannot be equipped if the player is wearing the [[Void of Calamity]] covering, and vice versa.
+*The brimstone fire and fireballs deal typeless damage. They are boosted by the average of player's class bonuses which stacks additively with bonuses to 'all damage', such as the [[Avenger Emblem]].
+*The brimstone fire has a base damage of 40; the brimstone fireballs have a base damage of 70.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

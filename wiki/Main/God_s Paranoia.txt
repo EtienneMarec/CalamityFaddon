@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| damage = 98
+| damagetype = Spy
+| knockback = 5
+| use = 14
+| tooltip = Shoots a speedy homing spiky ball. Stacks up to 10.<br/>Attaches to enemies and summons a localized storm of god slayer kunai<br/>Stealth strikes home in faster and summon kunai at a faster rate<br/>Right click to delete all existing spiky balls
+| auto = yes
+| stack = 10
+| velocity = 5
+| rare = 14
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| debufftip = Your flesh is burning off
+| sell = {{value|0|3|60}}
+| hardmode = yes
+| postml = yes
+| proj = God Slayer Kunai.png
+| projcaption = God Slayer Kunai
+| element1 = Magic
+| element2 = Cold
+| element3 = Stab
+}}
+
+'''God's Paranoia''' is a craftable Godseeker Mode [[Spy]] [[spiky balls|spiky ball]]. It automatically fires up to 10 homing spiky balls, with the amount of balls thrown depending on stack size. The balls latch onto enemies and unleash god slayer kunai. Right-clicking with the weapon causes all existing God's Paranoia balls owned by the player to dissipate. Both the balls and the kunai go through blocks and inflict the [[God Slayer Inferno]] [[debuff]].
+
+Performing a [[stealth strike]] with God's Paranoia causes the resulting spiky ball to home in faster and release kunai more often.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Cosmilite}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Spiky Balls]]

@@ -1,0 +1,46 @@
+{{addon|Deimos, the Starborn Princess}}
+{{item infobox
+| type = Weapon
+| damage = 175
+| use = 65
+| damagetype = Spy
+| knockback = 3
+| auto = yes
+| velocity = 13
+| stack = 1
+| rare = 13
+| sell = {{value|0|10|0|0}}
+| tooltip = Throws what is essentially a pocket nuke to make your enemies feel the fallout<br/>Stealth strikes empowers its lethality
+| debuff = Embers of Duality
+| debuffchance = 100%
+| debuffduration = 5 seconds (God Slayer Ember)
+| debufftip = Celestial voids are manifesting around you; defense and damage reduction reduced
+| debuff2 = Electrified
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Celestial Bolt)
+| debufftip2 = You cannot move
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Water
+| element3 = Electricity
+| element4 = Bomb
+}}
+
+The '''Celestial Nuke''' is a craftable Godseeker Mode [[Bombs]] and a direct upgrade to the [[Skyfin Bombers]] and the [[Shock Grenade]]. It throws a celestial nukes that explodes upon impact, leaving behind a huge starlit aura that damages enemies for 55% of the weapon's damage, along with large amounts of lingering god-slayer embers and celestial bolts, both dealing 40% and 80% of the weapon's damage, respectively.
+
+Performing a [[Spy|Stealth Strike]] with this weapons releases a big shockwave, dealing 150% of the weapon's damage, while flinging out mini-nukes that fires out several smaller bolts upon impact.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Starborn}}
+{{DeimosMod}}
+[[Category:Bombs]]

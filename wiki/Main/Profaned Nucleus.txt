@@ -1,0 +1,48 @@
+{{addon|Calamity: Community Remix}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 367
+| damagetype = Spy
+| use = 14
+| knockback = 10
+| auto = yes
+| stack = 1
+| rare = 12
+| tooltip = Throws out a molten chunk of profaned rock that explodes and splits into crystals<br/>Stealth strikes leave behind lingering patches of magma
+| sell = {{value|0|16}}
+| velocity = 20
+| hardmode = yes
+| postml = yes
+| proj = Crystal Shard.png
+| projcaption = Crystal Shard
+| element1 = Holy
+| element2 = Fire
+| element3 = Bomb
+}}
+|{{item drops infobox
+| [[Providence, the Profaned Goddess]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Profaned Nucleus''' is a Godseeker Mode [[Bombs|bomb]] that drops from [[Providence, the Profaned Goddess]]. When used it auto-fires an infinitely piercing molten chunk of profaned rock that is affected by gravity and creates explosions upon enemy hits. After 10 seconds have passed or the rock hits a block, it explodes into homing crystal shards.
+
+Performing a [[stealth strike]] with the Profaned Nucleus causes it to deal 150% damage and leave behind a patch of magma once it dissipates.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The item's infinite piercing and area of effect explosions make it trivially take down worm-like enemies or enemies with large hitboxes.
+
+== Trivia ==
+*The Profaned Nucleus was implemented based on a message by Gaik on the mod's Discord server. 
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Bombs]]

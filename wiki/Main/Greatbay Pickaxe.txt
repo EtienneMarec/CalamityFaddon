@@ -1,0 +1,29 @@
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 9
+| pick = 55
+| tooltip = Can mine Demonite, Crimtane and Meteorite
+| knockback = 2
+| rare = 2
+| use = 15
+| sell = {{value|0|0|40|0}}
+| toolspeed = 8
+}}
+
+The '''Greatbay Pickaxe''' is a craftable [[Pre-Hardmode]] [[pickaxe]]. It can mine blocks up to {{item|Demonite Ore}} / {{item|Crimtane Ore}}.
+
+{{Modifier|harvestalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Victide}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

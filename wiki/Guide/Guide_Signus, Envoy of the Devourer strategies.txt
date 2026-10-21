@@ -1,0 +1,110 @@
+{{guide header|latest=1.4.5.007}}
+{{#lst:Signus, Envoy of the Devourer|npc infobox}}
+
+'''[[Signus, Envoy of the Devourer]]''' is a post-[[Moon Lord]] [[boss]] and is one of the [[Sentinels of the Devourer]]. Signus is summoned by using the [[Rune of Kos]] in [[The Underworld]].
+
+This guide will mention items exclusive to [[Expert Mode|Expert]] and [[Revengeance Mode]] with no special formatting and will follow the intended progression.
+
+== Terrain Preparation ==
+A lot of open space is a major help with avoiding all of Signus' attacks in general. A [[Blossom Pickaxe]], (or any Lunar Pickaxe if you haven't defeated [[Providence]] yet), and explosives, like [[Dynamite]], can help you with this process. Spaced out platforms, generally 20-35 blocks apart, can also help you out with avoiding his attacks.
+
+== Gearing Up ==
+=== Armor ===
+*[[Tarragon armor]] is the preferred choice for all classes, however Lunar armor is still effective.
+**[[Solar Flare armor]] for Melee users.
+**[[Vortex armor]] for Ranged users.
+**[[Nebula armor]] for Mages.
+**[[Stardust armor]] for Summoners.
+**[[Empyrean armor]] for Rogues.
+* [[Prismatic armor]] is a viable alternative for Mages, provided [[Storm Weaver]] has been defeated.
+
+=== Accessories ===
+*[[Tarragon Wings]] (with [[Angel Treads]]) or [[Seraph Tracers]] are the preferred choice of wings.
+*The [[Elysian Aegis]] provides useful stat boosts and immunity to knockback.
+**It's highly recommended to have the [[Ball and Chain]] favorited in order to not accidentally dash towards Signus' Cosmic Lanterns that spawn to the side of the player.
+*[[The Absorber]] is an extremely useful survivability accessory that also increases movement speed.
+*[[Bloodflare Core]] is an excellent survivability accessory on builds geared towards defense.
+*[[The Community]] is a great and powerful accessory with its progressive scaling stats.
+*The [[Heart of the Elements]] provides many all-around boosts including damage, damage reduction, life regen, and jump acceleration.
+*The [[Deific Amulet]] is an excellent option providing additional [[immunity frames]] and defense penetration.
+*Melee players should use the [[Bloody Worm Scarf]] for its strong melee boosts as well as increased damage reduction.
+**If the player is utilizing Yoyos, then the [[Yoyo Bag]] should be prioritized.
+**True melee players should prefer [[Yharim's Insignia]] instead, as its damage oriented bonuses and increased player's invincibility frames would help taking care of the boss easier.
+*Ranged players should use the [[Sniper Scope]] or [[Artemis Emblem]], which both help in boosting damage output.
+**The Artemis Emblem additionally gives some life regen and ammo conservation.
+*Magic players should use the [[Sigil of Calamitas]] for its strong magic boosts and optionally a [[Mana Flower]] for mana conservation.
+*Summoners can boost their minion count and damage with [[Statis' Blessing]] and [[Statis' Curse]].
+**Summoners can also use the [[Profaned Soul Artifact]] to provide a direct DPS boost through other minions.
+*Rogue users will find the [[Vampiric Talisman]] an invaluable accessory for its damage boost and life steal.
+
+=== Weapons ===
+Weapons made from [[Uelibloom Bar]]s or [[Bloodstone Core]]s are typically the best options for the fight. Drops from Providence are also viable options.
+==== Melee ====
+*The [[Terratomere]]'s range, homing, and DPS should make the fight fairly straight-forward.
+**The [[True Biome Blade]] is also an extremely powerful weapon that can deal large amount of DPS.
+*The [[Terrarian]] or [[Solar Flare]] are all options that can deal good DPS towards Signus and his Cosmic Lanterns.
+*The [[Gilded Proboscis]]'s immunity frame ignoring capability and healing makes it a prime choice for true melee players.
+*The [[Grax]] is great for true melee players as well due to its Grax Boost and high damage.
+*Other powerful true melee choices include the [[Devil's Sunrise]] and [[Holy Collider]].
+
+==== Ranged ====
+*The [[Pristine Fury]] can easily shred Signus as long as you can lead its primary fire. However this is a [[legendary weapon]] so could be difficult to obtain.
+*The [[Seadragon]] along with [[Bloodfire Bullet]]s can decimate Signus and his Cosmic Lanterns.
+*The [[Shredder]] or even the [[S.D.M.G.]] can deal solid damage.
+*The [[Arterial Assault]] can absolutely shred Signus and his Cosmic Lanterns.
+*The [[Elemental Blaster]] can do well in homing in on the boss or lanterns and destroying the lanterns. Do be cautious about the bullets homing in on Signus instead of the lanterns.
+
+==== Mage ====
+*Although its DPS is lower, the [[Nuclear Fury]] is the all-around best option: being able to simultaneously handle lanterns and Signus with its homing.
+*The [[Ultra Liquidator]] is a solid option for inflicting [[debuff]]s or as a main weapon for damage output.
+*The [[Sanguine Flare]] and [[Mistlestorm]] are decent choices for dealing excellent damage to Signus.
+*The [[Everglade Spray]] is an excellent secondary weapon for applying [[Ichor (debuff)|Ichor]] for long periods of time.
+
+==== Summoner ====
+*[[Elemental Axe]]s are an excellent option: being able to easily target Phase 1, handle the probes, and maintain good DPS.
+*The [[Energy Staff]] provides additional DPS to aid your minions.
+
+==== Rogue ====
+*The [[Utensil Poker]] can decimate Signus, although constant aiming is required.
+*[[Molten Amputator]]s are excellent for the entire fight due to them stacking on top of each other.
+**[[Elemental Disk]]s can perform a similar task although with lower DPS.
+*[[Tarragon Throwing Dart]]s are a decent option dealing reasonable damage.
+*Despite being a crowd control weapon, direct hits with the [[Wave Pounder]]'s stealth strike can outperform other weapons on this list in pure DPS, and the wide blast radius allows for heavy damage even if you miss.
+
+=== Miscellaneous ===
+*The [[Well Fed]] buff provides a useful all around stat boost.
+
+== The Fight ==
+Signus has 3 phases, each with their own unique behavior, appearance, and methods of attack. Signus cycles through these phases randomly; the same phase never appears twice in a row. Signus will always start the fight in Phase 1. Signus will do {{dv|4|3|2|1}} attack/s per phase before cycling to the next.
+Throughout the fight, it summons Cosmic Lantern enemies that chase the player at high speeds in an attempt to deal contact damage. A maximum of 10 Lanterns can be summoned at a time. In [[Death Mode]] Signus will be generally more aggressive.
+
+=== Phase 1 ===
+*Signus flies towards the player it is targeting and teleports three times, each to random nearby locations. During this phase, Signus will take [[knockback]], which can slow its advance. Below 50% HP, however, Signus will become completely immune to knockback. In Revengeance Mode, Signus is immune to knockback from the very start of the fight.
+**As its health gets lower, it teleports more quickly and moves toward the player it is targeting more quickly.
+*In [[Revengeance Mode]] after it teleports, Signus summons two pink Cosmic Mines, which chase players and explode if in close proximity to them or after a short time.
+
+This phase isn't much of an issue and is normally dealt with by simply staying away from Signus. Due to its vulnerability to knockback, it is even possible to "stunlock" it in place until it teleports.
+
+=== Phase 2 ===
+*Signus flies very quickly back and forth above the player it is targeting and launches scythes that inflict [[Whispering Death]].
+**The lower Signus' health, the more scythes it shoots.
+**Scythes eventually turn around in an attempt to hit players again.
+
+Running away from Signus during this phase is the most effective option as the scythes it launches will have difficulty catching up to players.
+
+=== Phase 3 ===
+*Signus flies above the player and lunges down at them extremely quickly.
+**As Signus' health gets lower, its lunges become even faster.
+*Signus occasionally spawns a wall of five Cosmic Lanterns in front of the player to block them.
+*If Signus' health is low, it summons trails of essence dust behind it while lunging. The essence dust explodes after a short delay.
+
+Dropping down and flying up extremely quickly are effective ways to avoid the majority of attacks Signus uses in this phase.
+
+== General Tips ==
+*[[Bloodfin]]s are a powerful healing item with their regeneration boosts.
+*A horizontal oval movement pattern is extremely effective throughout the entire fight.
+
+{{Guides
+| show-main = yes
+| show-boss = yes
+}}

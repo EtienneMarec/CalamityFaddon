@@ -1,0 +1,22 @@
+{{item infobox
+| type = Crafting material
+| tags = Fished
+| tooltip = Throwing these in an aquarium would be insanity
+| rare = 2
+| stack = 9999
+| sell = {{value|0|0|5}}
+}}
+
+The '''Prismatic Guppy''' is a [[fishing]] catch caught in the [[Sunken Sea]]. It replaces [[Bass]] when fishing in the Sunken Sea, and can be used to craft [[Cooked Fish]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The tooltip on the Prismatic Guppy is a reference to the game ''[[wikipedia:Insaniquarium|Insaniquarium Deluxe]]''.
+
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

@@ -1,0 +1,41 @@
+This template is used to provide a button to play a sound effect, with a HTML audio player as a fallback if JavaScript is disabled. This is intended primarily for short sound effects, as there is no seeking ability.
+
+The script and styles are provided by the sound gadget ([[MediaWiki:Gadget-sound.js]], [[MediaWiki:Gadget-sound.css]], [[MediaWiki:Gadget-sound-styles.css]]).
+
+The template was ported from the [https://minecraft.gamepedia.com/Template:Sound Minecraft Wiki].
+
+== Usage ==
+
+<code>{{(}} '''sound''' | ''&lt;description&gt;'' | ''&lt;audio file&gt;'' | nofallback = ''y ('''optional''')'' }}</code>
+
+; First unnamed parameter
+Displayed wikitext. A speaker icon is displayed next to it indicating the playing status. Clicking the text (if not a link) or icon will stop any other sounds, and start/stop this sound.
+
+; Second unnamed parameter
+Name of the audio file, without <code>&#91;[File:</code>.
+
+; nofallback
+Hides the fallback audio player, so the sound can only be played if JavaScript and the sound gadget are enabled. This is good for placing the sound button inline with text, as the fallback audio player is not inline, and would otherwise be too big to include within a sentence. In this case, you should set the displayed text to be a link to the file so it can still be played by no-JS users and users who disabled the sound gadget.
+
+== Examples ==
+Disable the [[Special:Preferences#mw-prefsection-gadgets|sound gadget]] to see how the fallback looks.
+
+; Basic&#58;
+<pre>{{sound|Play my mixtape 🔥|Music-Overworld Day.mp3}}</pre>
+{{sound|Play my mixtape 🔥|Music-Overworld Day.mp3}}
+
+
+; Inline with a link instead of a fallback player&#58;
+<pre>The {{sound|[[Media:Roar_0.wav|characteristic roar]]|Roar_0.wav|nofallback=y}} announces the spawn of a [[boss]].</pre>
+The {{sound|[[Media:Roar_0.wav|characteristic roar]]|Roar_0.wav|nofallback=y}} announces the spawn of a [[boss]].
+
+<!--; "Auto" mode
+<pre>{{sound|track=Underground Corruption}} {{sound|track=Underground Corruption (Otherworldly)}}</pre>
+{{sound|track=Underground Corruption}}  {{sound|track=Underground Corruption (Otherworldly)}}-->
+
+<includeonly>
+[[Category:Formatting templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

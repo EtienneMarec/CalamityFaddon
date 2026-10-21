@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 190
+| mana = 10
+| auto = yes
+| use = 3
+| knockback = 1
+| tooltip = Throws a stream of knives that restore the users mana
+| velocity = 15
+| stack = 1
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| proj = Ethereal.png
+| projcaption = Ethereal Knife
+| element1 = Magic
+| element2 = Stab
+}}
+
+The '''Ethereal Knives''' are a craftable Godseeker Mode [[Magic weapons|magic weapon]] that are a direct upgrade to the [[Moonstone Knives]]. When used, the player throws out a stream of 8 knives in rapid succession, which each restore 3 mana on hit. Each knife also creates a damaging explosion on hit.
+
+{{modifier|magicalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Daggers]]

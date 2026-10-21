@@ -1,0 +1,37 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Expert mode only}}
+{{item infobox
+| type = Crafting material
+| type2 = Covering
+| damage = 260 (Contact)<br/>120 (Astral Star)
+| tooltip = Summons an Astral Arcanoid Base that hovers in place<br/>Press {{key|Arcanoid Orb}} to relocate the base to your cursor for 7 mana<br/>Press down the key to allow the minion to follow your cursor at the cost of draining your mana quickly<br/>The Astral Arcanoid Base deals heavy contact damage and shoots out astral stars at enemies
+| debuff = Astral Infection (debuff)
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| debufftip = Your flesh is melting off.
+| stack = 1
+| rare = 5
+| sell = {{value|0|10}}
+| hardmode = yes
+| element1 = magic
+| element2 = smash
+| proj = Astral Star.png
+| projcaption = Astral Arcanoid Star
+}}
+'''Astral Arcanoid Base''' is a [[Hardmode]] [[Equipment|covering]] and a direct upgrade to the [[Arcanoid Orb]]. While equipped, it summons an '''Astral Arcanoid Base''' minion.
+
+Like the Arcanoid Orb, the Astral Arcanoid Base is normally stationary, until the player presses the {{key|Arcanoid Orb}} key to move it. This action will cost 7 mana, and, when held down for 1.5 seconds, drains the player's mana at a rate of 21 per second to have the Base track the cursor.
+
+The Astral Arcanoid Base deals 260 contact damage, which scales with summon damage bonuses, and grants a third of a second of static [[immunity frames]]. Additionally, the Orb fires out astral stars every 2 seconds, which deal 120 damage each and inflict the [[Astral Infection (debuff)|Astral Infection]] [[Debuffs|debuff]] for 5 seconds.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]

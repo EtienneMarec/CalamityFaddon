@@ -1,0 +1,22 @@
+{{item infobox
+| type = Crafting material
+| stack = 999
+| rare = 7
+| sell = {{value|0|4}}
+| hardmode = yes
+| listexclude = yes
+}}
+
+'''Chaos Serpent Shards''' are [[Hardmode]] [[crafting materials]] crafted using [[Twisted Tendril]]s and [[Living Shard]]s. They are primarily used to make [[Abyss Bar]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

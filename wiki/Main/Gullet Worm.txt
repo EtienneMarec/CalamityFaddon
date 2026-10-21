@@ -1,0 +1,50 @@
+{{infobox wrapper
+|{{item infobox
+| type = Bait
+| type2 = Crafting material
+| bait = 120
+| rare = 3
+| use = 14
+| auto = yes
+| consumable = yes
+| sell = {{value|0|10|}}
+| stack = 999
+}}
+|{{npc infobox | boxwidth=21em
+| type = Critter
+| environment = Blood Moon
+| ai = Passive Worm AI
+| damage = 0
+| life = 20
+| defense = 1
+| knockback = 0
+| immune2 = Kami Flu
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+}}
+The '''Gullet Worm''' is a [[critter]] that has a 10% chance to be encountered by destroying [https://terraria.fandom.com/wiki/Objects| Background Objects] during a [[Events|Blood Moon]]. They can be caught with a [[Bug Net]] or [[Golden Bug Net]]. 
+
+Gullet Worms act identically to [[Worm|Regular Worms]], slowly crawling along the floor.
+
+When used as bait, Gullet Worms have a higher chance to catch enemies during a Blood Moon.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+
+== Notes ==
+*Gullet Worms can be detected by the [[Lifeform Analyzer]].
+*They will only have a chance to spawn during a Blood Moon.
+*They can only appear from Objects that have a chance to spawn critters.
+*Objects placed by the [https://terraria.fandom.com/wiki/Rubblemaker| Rubblemaker] cannot spawn Gullet Worms.
+
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

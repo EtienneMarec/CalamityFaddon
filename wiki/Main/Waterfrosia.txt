@@ -1,0 +1,40 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| rare = C2
+| use = 2
+| knockback = 0
+| stack = 1
+| auto = yes
+| sell = {{value|1}}
+| damage = 240
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| mana = 5
+| velocity = 0
+| tooltip = Causes rain to fall from the sky, the rain switches gravity and goes up right before hitting the ground
+| debuff = Evercold
+| debuffduration = 5 seconds
+| element1 = Cold
+| element2 = Water
+| element3 = Dark
+}}
+
+'''Waterfrosia''' is a craftable post-[[Purgatory Arbiter, Umbrus|umbrus]] [[spell tome]]. When used, it creates rain projectiles that fall from the sky, the projectiles curve around and go up right before hitting the ground, the projectiles dissapear once they hit the roof.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

@@ -1,0 +1,41 @@
+{{dedicated|Veine|Patreon Donator}}
+{{item infobox
+| type = Potion
+| type2 = Crafting material
+| stack = 9999
+| consumable = yes
+| use = 17
+| tooltip = Minor improvements to all stats<br/>Boosts the effects of Red Wine<br/>{{color|je suis Monte|#FCE391}}
+| buff = Baguette (buff) |bufflink = no
+| duration = 5 minutes
+| bufftip = I knew... ~Veine
+| buff2 = Well Fed
+| duration2 = 5 minutes
+| bufftip2 = Minor improvements to all stats<br/>{{expert|Minor improvements to all stats and increased life regeneration}}
+| rare = 1
+| sell = {{value|0|0|1}}
+}}
+
+La '''Baguette''' est [https://calamitymod.fandom.com/wiki/Food_and_Drink_Potions un aliment]. Lorsqu'elle est consommée, elle confère le [[Buffs|buff]] Baguette pendant 5 minutes. Le buff Baguette augmente les effets du [[Red Wine|Vin Rouge]], augmentant ses soins de 200 à 250, mais renforçant également la réduction de la régénération de vie de 1 à 4.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in (Any Food Item) ===
+{{recipes|ingredient=Any Food Item}}
+
+== Tips ==
+*Baguettes can be very useful for crafting The Camper due to [[Hay]] being easy to amass.
+
+== Notes ==
+*The "je suis Monte" in the tooltip is written in a pale shade of yellow ({{color|#FCE391 ●|#FCE391}}).
+
+== Trivia ==
+*The tooltip text "je suis Monte" is a reference to a generalized term used to refer to the French player base of ''[[wikipedia:Monster Hunter 4 Ultimate|Monster Hunter 4 Ultimate]]''. The game lacked an auto-translate tool, so French text remained written in French. French players in-game were well known for using a weapon called the [https://monsterhunter.fandom.com/wiki/Insect_Glaive Insect Glaive], which helped players mount monsters, with the French default callout for a mount being "je suis Monte". These all combined to result in the in-game chat being frequently filled with "je suis Monte".
+**"je suis Monte"  translates to "I've mounted", or in the sense of that game, "I've mounted the monster".
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

@@ -1,0 +1,55 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 98
+| damagetype = Melee
+| knockback = 7.5
+| stack = 1
+| rare = 8
+| sell = {{value|0|12}}
+| auto = yes
+| use = 16
+| velocity = 12
+| tooltip = idk I'm miserable with names<br/>- The General<br/>Fires red and green bouncing gift bags that emit clouds as they travel
+| debuff = Cursed Inferno
+| debuffchance = 100%
+| debuffduration = 2 seconds (Green gift bag)
+| debufftip = Losing life<br/>{{revengeance|All damage taken increased by 20%}}
+| debuff2 = On Fire!
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (Red gift bag)
+| debufftip2 = Slowly losing life
+| hardmode = yes
+
+| proj = Green Bag.png
+| projcaption = Green Bag
+| proj2 = Red Bag.png
+| proj2caption = Red Bag
+| proj3 = Green Cloud.png
+| proj3caption = Green Spore Cloud
+| proj4 = Red Cloud.png
+| proj4caption = Red Spore Cloud
+| listexclude = yes
+}}
+|{{item drops infobox
+| [[Present Mimic]]|1|{{dv|14.29%|20%}}
+}}
+}}
+
+The '''Holiday Halberd''' is a [[Hardmode]] [[melee weapon]] that drops from [[Present Mimic]]s during a [[Frost Moon]]. When swung, it creates green or red gift bags that bounce on the ground and disappear after either bouncing or hitting an enemy twice, inflicting [[Cursed Inferno]] and [[On Fire!]] respectively. There is a 66.67% chance for the bag to be red and 33.33% chance for the bag to be green. These gift bags also create damaging spore clouds of their respective color along their path every 0.25 seconds, which deal 75% of the bag's damage. 
+
+Its best [[modifier]] is '''Legendary'''.
+
+== Trivia ==
+*The weapon's tooltip is a direct quote from former beta tester General Milky during a conversation on what the weapon should be named. During said conversation, General conceived the weapon's name followed by the quote. 
+*Despite its appearance as a halberd, it functions like a broadsword.
+
+[[File:Holiday Halberd (demo).gif|frame|left|Attacking with the Holiday Halberd.]]
+{{-}}
+{{Historical}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:节日长戟]]

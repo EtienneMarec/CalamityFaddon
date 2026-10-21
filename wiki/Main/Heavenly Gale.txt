@@ -1,0 +1,56 @@
+{{item infobox	
+| type = Weapon
+| damage = 312
+| damagetype = Ranged
+| knockback = 4
+| stack = 1
+| rare = 15
+| sell = {{value|0|30}}
+| auto = yes
+| use = 11
+| velocity = 12
+| tooltip = Converts wooden arrows into gilded exo arrows<br/>Arrows rain down from above the cursor which rapidly gust sideways upon enemy hits<br/>Upon gusting, a large slash is created, trailed by heavenly lightning.
+| hardmode = yes
+| postml = yes
+| debuff = Exo Freeze
+| debuffduration = 0.5 seconds
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 2 seconds
+| debuffchance2 = 100%
+| debuff3 = Frostburn
+| debuffduration3 = 2.5 seconds
+| debuffchance3 = 100%
+| debuff4 = On Fire!
+| debuffduration4 = 3 seconds
+| debuffchance4 = 100%
+| element1 = Holy
+| element2 = Cold
+| element3 = Stab
+| element4 = Machine
+}}
+
+The '''Heavenly Gale''' is a craftable Godseeker Mode [[Bows|bow]]. It shoots down a storm of 20 arrows from above the cursor. When [[Wooden Arrow]]s are used as ammunition, arrows are converted into gilded exo arrows which accelerate downwards, then turn right upon hitting an enemy. Once the arrow starts moving, it creates a gale trail which summons pillars of heavenly lightning after 1.67 seconds.
+
+All arrows fired from the bow inflict the following [[debuffs]] on hit enemies:
+*[[Exo Freeze]] (0.5 seconds)
+*[[Holy Flames]] (2 seconds)
+*[[Frostburn]] (2.5 seconds)
+*[[On Fire!]] (3 seconds)
+
+{{Modifier|ranged}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Heavenly Gale/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category: Bows]]

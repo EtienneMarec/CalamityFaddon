@@ -1,0 +1,63 @@
+{{item infobox
+| type = Armor
+| defense = 47
+| rare = 7
+| sell = {{value|0|14|40}} (set)
+| setbonus = 10% increased minion damage and +2 max minions<br/>Grants the ability to climb walls<br/>30% increased minion damage while submerged in liquid<br/>Provides a moderate amount of light and moderately reduces breath loss in the abyss
+| hardmode = yes
+}}
+
+'''Fathom Swarmer armor''' is a [[Hardmode]] [[Covering]] set that is an upgrade to the [[Spider armor]]. It requires an entire Spider armor set, 26 [[Victide Bar]]s, 24 [[Planty Mush]], 44 [[Abyss Gravel]], and 12 [[Depth Cells]] to craft the entire set. The armor mainly grants bonuses to the summoner class.
+
+It consists of a '''Fathom Swarmer Visage''', '''Fathom Swarmer Breastplate''', and '''Fathom Swarmer Greaves'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*47 defense
+*6% increased damage reduction
+*25% increased summon damage
+*+2 max minions
+*Grants the ability to climb walls, swim, and breathe underwater.
+*Grants the following bonuses while submerged in liquid:
+**+30 defense
+**+5 life regen
+**+30% summon damage
+**+40% movement speed
+*Reduces breath loss, defense loss, and increases light level in the [[Abyss]]
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Fathom Swarmer Visage
+| type = Armor
+| defense = 10
+| body slot = Helmet
+| tooltip = 5% increased minion damage<br/>Provides breathing and light underwater
+| sell = {{value|0|6}}
+}}
+|{{item infobox
+| name = Fathom Swarmer Breastplate
+| type = Armor
+| defense = 22
+| body slot = Shirt
+| tooltip = 6% increased damage reduction<br/>6% increased minion damage<br/>Boosted defense and regen increased while submerged in liquid<br/>Reduces defense loss within the Abyss
+| sell = {{value|0|4|80}}
+}}
+|{{item infobox
+| name = Fathom Swarmer Greaves
+| type = Armor
+| defense = 15
+| body slot = Pants
+| tooltip = 4% increased minion damage<br/>Grants the ability to swim<br/>Movement speed increased by 40% while submerged in liquid
+| sell = {{value|0|3|60}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Fathom Swarmer%}}
+
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

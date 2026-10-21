@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = Summons a nucleate to fight for you<br/>Pacifies all boss servant slimes
+| hardmode = yes
+| debuff = Sulphuric Poisoning
+| debuffduration = 20 seconds
+| debuffchance = 100%
+| debuff2 = Irradiated
+| debuffduration2 = 10 seconds
+| debuffchance2 = 100%
+| rare = 5
+| sell = {{value|0|4|80}}
+}}
+|{{item drops infobox
+| [[Cragmaw Mire]] | 1 | 100% (Tier 2)<br/>10% (Tier 3)
+}}
+}}
+{{summoned|Nucleate Gello|name=Nucleate|type=minion}}
+
+The '''Nucleate Gello''' is a [[Hardmode]] [[covering]] dropped by [[Cragmaw Mire]]s. While worn it will summon a Nucleate to jump at enemies and stick to them, dealing a base of 40 damage, scaling with the player's summon damage stat and inflicting [[Sulphuric Poisoning]] and [[Irradiated]]. The covering also pacifies the minions spawned by [[King Slime]], [[Queen Slime]], [[The Slime God]], and [[Astrum Aureus]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The covering does ''not'' pacify regular slimes.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

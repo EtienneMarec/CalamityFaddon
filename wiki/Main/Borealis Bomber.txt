@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| damage = 35
+| damagetype = summon
+| use = 19
+| mana = 10
+| tooltip = Summons aureus bombers to fight for you<br/>Aureus bombers explode on enemy impact<br/>Does not consume minion slots
+| velocity = 10
+| knockback = 5
+| rare = 7
+| debuff = Astral Infection (debuff)
+| debuffchance = 100%
+| debuffduration = 2 seconds (Impact and Explosion)
+| debufftip = Your flesh is melting off
+| sell = {{value|0|12}}
+| hardmode = yes
+| proj = Aureus Bomber.png
+| projcaption = Aureus Bomber
+| element1 = Magic
+| element2 = Poison
+| element3 = Bomb
+| element4 = Machine
+}}
+|{{item drops infobox
+| [[Astrum Aureus]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+
+The '''Borealis Bomber''' is a [[Hardmode]] [[summon weapon]] that drops from [[Astrum Aureus]]. It summons a floating Aureus Bomber that does not take up minion slots and follows the player. It attacks by charging at enemies and then exploding upon impact, inflicting the [[Astral Infection (debuff)|Astral Infection]] [[debuff]]. If an Aureus Bomber explodes, the minion will despawn.
+
+{{Modifier|summonactive}}
+
+== Notes ==
+*Due to these properties, this weapon is essentially a Magic weapon for the Summoner class. It avoids the damage penalty for Minions while also scaling with Summoner equipment, giving a decent amount of damage in comparison with other classless weapons available.
+*The Bombers can be summoned with no empty Minion slots and without de-summoning pre-existing summons.
+*The Bombers follow any enemy on a line roughly 43 blocks width, though they will not pursue enemies behind walls.
+*The Bombers explode after about ten seconds if they do not explode before.
+
+== Tips ==
+*Using mana recovery potions in conjunction with Mana Flower can make this weapon more effective because the player can summon many Aureus Bombers without running out of mana and getting afflicted with the Mana Sickness debuff.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

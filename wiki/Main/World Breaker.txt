@@ -1,0 +1,43 @@
+{{addon|Deimos, the Starborn Princess}}
+{{item infobox
+| type = Tool
+| damagetype = melee
+| pick = 280
+| tooltip = Right click to fire a slow-moving ball that breaks tiles it touches
+| axe = 185
+| auto = yes
+| damage = 200
+| knockback = 3
+| bonus = +3 range
+| use = 16
+| rare = 14
+| stack = 1
+| sell = {{value|0|20}}
+| toolspeed = 4
+| hardmode = yes
+| postml = yes
+| sound = Item_33.wav
+| soundtext = Armageddon Ball
+| proj = Armageddon Ball.png
+| projcaption = Armageddon Ball
+}}
+
+The '''World Breaker''' is a craftable Godseeker Mode [[Pickaxe]] and [[Axe]] combination that is a direct upgrade to the [[Gelpick]]. It can mine blocks up to {{item|Pitchblende}} and {{item|Primordial Ore}}. Right clicking with the pickaxe will fire a slow moving Armageddon Ball that can travel through blocks and will slowly decelerate until stopping. This ball will instantly break any tile it touches. 
+
+{{Modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used In ===
+
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The World Breaker can be considered a pickaxe variant of the [[Heaven Piercer]].
+
+{{Omnicidal}}
+{{DeimosMod}}
+[[Category:Pickaxes]]
+[[Category:Axes]]

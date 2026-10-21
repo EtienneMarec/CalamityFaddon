@@ -1,0 +1,31 @@
+{{item infobox
+| pick = 75
+| type = Tool
+| damagetype = Melee
+| damage = 12
+| use = 15
+| knockback = 2.5
+| auto = yes
+| bonus = +1 range
+| stack = 1
+| rare = 3
+| sell = {{value|0|0|80|0}}
+| tooltip = Able to mine Hellstone
+| toolspeed = 9
+}}
+
+The '''Skyfringe Pickaxe''' is a [[Pre-Hardmode]] [[pickaxe]] capable of mining {{item|Aerialite Ore}} and {{item|Hellstone}}. It is one of the fastest pickaxes available before [[Hardmode]].
+
+{{modifier|harvestalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Aerialite}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

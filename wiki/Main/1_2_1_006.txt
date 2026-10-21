@@ -1,0 +1,60 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Update 1.2.1.006
+| release = 10/1/2017
+}}
+
+The '''1.2.1.006''' update nerfed the stats of the [[Desert Scourge]] and [[The Devourer of Gods]], with a few other miscellaneous changes.
+
+{{toc limit|3|right=yes}}
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+==== [[Desert Scourge]] ====
+*Original fight:
+**Nerfed body damage from {{dv|20|32|40}} to {{dv|16|25|31}}.
+**Nerfed small scourge's health from {{dv|1000|1400}} to {{dv|800|1120}}.
+*Post-[[Skeletron]] refight:
+**Nerfed health boost from 6000 to 4000.
+**Nerfed head damage from {{dv|50|100|125}} to {{dv|45|99|123}}, and its defense from 20 to 10.
+**Nerfed body damage from {{dv|40|64|80}} to {{dv|30|48|60}}.
+**Nerfed tail damage from {{dv|20|44|55}} to {{dv|15|33|41}}, and its defense from 20 to 15.
+**Small scourge:
+***Nerfed health boost from 3000 to 2000.
+***Nerfed head damage from {{dv|30|60|75}} to {{dv|25|55|68}}, and its defense from 10 to 5.
+***Nerfed body damage from {{dv|20|28|35}} to {{dv|16|22|27}}, and its defense from 20 to 16.
+***Nerfed tail damage from {{dv|10|14|17}} to {{dv|7|9|11}}, and its defense from 25 to 20.
+
+==== [[The Devourer of Gods]] ====
+*Nerfed health from {{dv|1,400,000|2,240,000|2,400,000}} to {{dv|1,200,000|1,920,000|2,080,000}}.
+*Nerfed [[The Devourer of Thots]]' health from {{dv|700,000|1,120,000|1,200,000}} to {{dv|600,000|960,000|1,040,000}}.
+
+==== [[Plaguebringer]] ====
+*Lowered spawn rate.
+
+==== [[The Plaguebringer Goliath]] ====
+*Lowered the amount of time her nukes last.
+*Lowered the size of her nuke's explosions.
+
+==== [[Providence, the Profaned God]] ====
+*Nerfed health from {{dv|215,000|344,000|368,000}} to {{dv|205,000|323,000|352,000}}.
+*Massively decreased the time it takes for her to despawn after all players have been killed.
+
+==== [[Supreme Calamitas]] ====
+*Reduced the defense cut inflicted on the player during the fight from {{dv|0.5x|0.25x}} to {{dv|0.33x|0.2x}}.
+*The player can no longer use the [[Cell Phone]], [[Ice Mirror]], [[Magic Mirror]], or [[Recall Potion]] during the fight.
+*Now fires most of her projectiles less often.
+*Reduced the distances required for Supreme Calamitas to enrage.
+
+=== Items ===
+*Buffed [[Blissful Bombardier]]'s damage from 85 to 95.
+*Reduced the [[Endothermic Energy]] and [[Nightmare Fuel]] needed for the [[Eye of Extinction]] recipe from 3000 each to 2500 each.
+*Reduced the [[Darksun Fragment]]s needed for the Eye of Extinction recipe from 300 to 250.
+
+=== Other ===
+*The [[Wizard]] now sells the [[Inferno Fork]], [[Shadowbeam Staff]], and [[Spectre Staff]] after [[Astrum Deus]] has been defeated.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

@@ -1,0 +1,31 @@
+{{Item infobox
+| type = Weapon
+| auto = yes
+| damage = 80
+| use = 24
+| critical = 4%
+| knockback = 5
+| velocity = 32
+| stack = 1
+| rare = 3
+| sell = {{value|0|20|0}}
+| tooltip = Fires A blade that travels through walls, hitting an enemy with it fires 8 homing crystals that deal 25% of the weapons base damage<br/>This weapin scales with all your damage stats at once
+| debuff = Vaporfied
+| debufftip = Vaporizing sences and mind
+| debuffchance = 100%
+| debuffduration = 2.5 seconds
+| proj = Aestheticus Crystal.png
+| projcaption = Vaporfied Crystal
+}}
+
+==Celesticus==
+The Celesticus is A Craftable [[Classless weapons|Classless]] Godseeker Mode Weapon, It is an upgrade to the Aestheticus. It travels in a straight line and can travel through walls.  it explodes into 8 homing Vaporfied crystals upon hitting an enemy that deals 25% of the weapons base damage and inflict Vaporfied for 2.5 seconds
+
+The Celesticus cannot be reforged, and therefore cannot have [[modifiers]]
+
+
+{{-}}
+{{Template:Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

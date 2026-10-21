@@ -1,0 +1,110 @@
+{{item infobox
+| type = Grab bag
+| tooltip = Right click to extract herbs and seeds
+| stack = 9999
+| consumable = True
+| rare = 2
+| sell = {{value|0|0|50}}
+}}
+
+The '''Stuffed Fish''' is a [[grab bag]]-type [[Fishing|fish]] that can be caught on the [[Surface]] during the [[Day]] at a 6.67% chance. It contains various [[herb]]s and [[seeds]].
+
+== Contents ==
+{| class="terraria"
+! Items !! Chance !! Amount
+|-
+| {{item|Blinkroot}}
+| rowspan="7" style="border-bottom: 1px solid #CCCCCC;" | 25%
+| rowspan="7" style="border-bottom: 1px solid #CCCCCC;" | 1-3
+|-
+| {{item|Daybloom}}
+|-
+| {{item|Deathweed}}
+|-
+| {{item|Fireblossom}}
+|-
+| {{item|Moonglow}}
+|-
+| {{item|Shiverthorn}}
+|-
+| style="border-bottom: 1px solid #CCCCCC;" | {{item|Waterleaf}}
+|-
+| {{item|Blinkroot Seeds}}
+| rowspan="7" style="border-bottom: 1px solid #CCCCCC;" | 20%
+| rowspan="7" style="border-bottom: 1px solid #CCCCCC;" | 2-5
+|-
+| {{item|Daybloom Seeds}}
+|-
+| {{item|Deathweed Seeds}}
+|-
+| {{item|Fireblossom Seeds}}
+|-
+| {{item|Moonglow Seeds}}
+|-
+| {{item|Shiverthorn Seeds}}
+|-
+| style="border-bottom: 1px solid #CCCCCC;" | {{item|Waterleaf Seeds}}
+|-
+| {{item|Grass Seeds}}
+| rowspan="3" | 10%
+| rowspan="7" | 2-5
+|-
+| {{item|Jungle Grass Seeds}}
+|-
+| {{item|Mushroom Grass Seeds}}
+|-
+| {{item|Pumpkin Seed}}
+| 5%
+|-
+| {{item|Crimson Seeds}}
+| 5% (Only in [[Crimson]] worlds)
+|-
+| {{item|Corrupt Seeds}}
+| 5% (Only in [[Corruption|Corrupt]] worlds)
+|-
+| {{item|Hallowed Seeds}}
+| 5% (In [[Hardmode]])
+|-
+|}
+
+If the [http://forums.terraria.org/index.php?threads/the-thorium-mod.40788/ Thorium Mod] is enabled, the following herbs and seeds can also be dropped:
+
+{| class="terraria"
+! colspan="3" | Anytime
+|-
+! Items !! Chance !! Amount
+|-
+| {{item|Marine Kelp}}
+| 25%
+| 1-3
+|-
+| {{item|Marine Kelp Seeds}}
+| 10%
+| 2-5
+|}
+
+If the [https://forums.terraria.org/index.php?threads/shadows-of-abaddon-mod.46605/ Shadows of Abaddon Mod] is enabled, the following herbs and seeds can also be dropped:
+
+{| class="terraria"
+! colspan="3" | Anytime
+|-
+! Items !! Chance !! Amount
+|-
+| {{item|Welkinbell}}
+| style="border-bottom: 1px solid #CCCCCC;" rowspan="2" | 25%
+| style="border-bottom: 1px solid #CCCCCC;" rowspan="2" | 1-3
+|-
+| style="border-bottom: 1px solid #CCCCCC;" | {{item|Illumifern}}
+|-
+| {{item|Welkinbell Seeds}}
+| rowspan="2"|10%
+| rowspan="2"|2-5
+|-
+| {{item|Illumifern Seeds}}
+|}
+
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

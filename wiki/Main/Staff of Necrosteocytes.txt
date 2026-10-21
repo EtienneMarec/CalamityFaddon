@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 31
+| mana = 10
+| knockback = 3.5
+| use = 29
+| tooltip = Summons small skeletons to fight for you<br/>The skeletons leave behind bone cells as they move
+| buff = Small Skeleton (buff) | bufflink = no
+| bufftip = A skeleton is observing you
+| stack = 1
+| auto = yes
+| rare = 3
+| sell = {{value|0|0|80}}
+| proj = Bone Matter.gif
+| projcaption = Bone Matter
+| element1 = Dark
+| element2 = Smash
+}}
+|{{item drops infobox
+| [[Dark Caster]] | 1 | {{dv|4%|6.67%}}
+}}
+}}
+{{summoned|Small Skeleton|type=minion}}
+
+The '''Staff of Necrosteocytes''' is a [[Pre-Hardmode]] [[summon weapon]] that drops from [[Dark Caster]]s. When used, it summons a small skeleton minion which runs along the ground to target nearby enemies. While it is moving, lingering bone cells are occasionally dropped from the skeleton.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*"Necrosteocytes" is a portmanteau of 'Necro', meaning death-related, and '[[wikipedia:Osteocyte|Osteocytes]]', a type of bone cell.
+
+{{-}}
+{{Dungeon}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,28 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| rare = 0
+| color = #20183e
+| use = 14
+| hardmode = yes
+| post-ml = yes
+| sell = No value
+}}
+
+The '''Stratus Star Brick''' is a Godseeker Mode [[block]] that is crafted with a [[Stratus Brick]] and a [[Fallen Star]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Stratus}}
+{{Ctota}}
+[[Category:Block items]]

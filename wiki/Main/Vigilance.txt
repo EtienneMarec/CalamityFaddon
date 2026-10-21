@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| damagetype = summon
+| damage = 150
+| use = 9
+| mana = 10
+| knockback = 4
+| tooltip = Summons a soul seeker to fight for you
+| buff = Soul Seeker (buff) | bufflink = no
+| bufftip = It definitely wants something from you
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| debuffduration = 3 seconds (Dart)
+| rare = 15
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| element1 = Unholy
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Supreme Calamitas]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Soul Seeker|type=minion|image=[[File:Vigilance Soul Seeker Minion.png]]}}
+
+'''Vigilance''' is a Godseeker Mode [[summon weapon]] that drops from [[Supreme Calamitas]]. It summons a soul seeker which flies in place at a set distance from the player, forming a ring around the player if multiple seekers are present. When enemies are nearby, the seekers will rapidly fire Brimstone Darts similar to those fired by Supreme Calamitas, then charge back and forth at great speeds.
+
+{{Modifier|summon}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

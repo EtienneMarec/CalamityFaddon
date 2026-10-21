@@ -1,0 +1,43 @@
+{{npc infobox
+| type = Enemy
+| environment = Snow biome
+| ai = Cryon AI
+| life = {{dv|300|600}}
+| damage = {{element|Cold}} {{dv|42|84}}
+| defense = 10
+| dr = 10%
+| knockback = 100
+| money={{value|0|0|8|0}}
+| debuff = Frostburn
+| debuffchance = 100%
+| duration = 5 seconds
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuff2 = Glacial State
+| debuffchance2 = 33.33%
+| duration2 = 0.5 seconds
+| debufftip2 = Cannot move and defense is shattered
+| banner = yes
+| Essence of Eleum| 1 | 50%
+| immune1 = Kami Flu
+| immune2 = Glacial State
+| immune3 = Exo Freeze
+| immune4 = Frostburn
+| hardmode = yes
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_7.wav
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| vulnerable3 = Machine
+| resistant1 = Cold
+}}
+
+The '''Cryon''' is a [[Hardmode]] [[enemy]] that spawns in the [[Snow biome]]. It jumps and charges towards the player in an attempt to deal damage. It will always inflict the [[Frostburn]] [[debuff]] onto the player if they are hit and has a 33% chance to inflict [[Glacial State]]. It has a 50% chance to drop an [[Essence of Eleum]].
+
+== Trivia ==
+*A Cryon is depicted in the Ice Biome's [[Draedon's Logs#Gallery|Draedon's Log]].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

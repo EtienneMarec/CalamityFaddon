@@ -1,0 +1,367 @@
+{{Patch infobox
+| image = Eidolon Wyrm (Adult) (1.3.0.001).png
+| size = 340px
+| patchname = Abyss Update
+| release = 3/17/2018
+}}
+{{toc limit|3|right=yes}}
+The '''1.3.0.001''' update added the [[Abyss]] and [[Sulphurous Sea]] biomes, along with an array of new [[enemies]], [[weapon]]s, [[coverings]], and other items obtainable from said biomes. The update also introduced the [[Aquatic Scourge]] [[boss]], resprited the [[Desert Scourge]], and added a variety of new enemies found in various other biomes.
+
+== Additions ==
+=== Items ===
+*Added [[Archerfish]], [[Ball O' Fugu]], [[Ballistic Poison Bomb]], [[Barinautical]], [[Black Anurian]], [[Calamari's Lament]], [[Deepsea Staff]], [[Downpour]], [[Dreadmine Staff]], [[Empyrean Knives]], [[Lionfish]], [[Mantis Claws]], [[Scourge of the Cosmos]], [[Soul Edge]], [[Submarine Shocker]], [[Sulphuric Acid Cannon]], [[Typhon's Greed]], [[Undine's Retribution]], [[Urchin Stinger]], and [[Valediction]].
+*Added [[Abyssal Amulet]], [[Abyssal Diving Gear]], [[Abyssal Diving Suit]], [[Alluring Bait]], [[The Amalgam]], [[Anechoic Plating]], [[Aquatic Emblem]], [[Crown Jewel]], [[Depths Charm]], [[Iron Boots]], [[Lumenous Amulet]], [[Reaper Tooth Necklace]].
+*Added [[Cloaking Gland]], [[Depth Cells]], [[Lumenyl]], [[Reaper Tooth]].
+*Added [[Anechoic Coating]], [[Sunken Stew]].
+*Added [[Strange Orb]].
+*Added [[Seafood]].
+*Added [[Treasure Bag (Aquatic Scourge)]].
+
+=== Enemies ===
+*Added [[Aquatic Scourge]].
+*Added [[Aquatic Parasite]], [[Aquatic Seeker]], [[Aquatic Urchin]], [[Bloatfish]], [[Bobbit Worm]], [[Box Jellyfish]], [[Catfish]], [[Colossal Squid]], [[Cryon]], [[Cuttlefish]], [[Eidolon Wyrm (juvenile)]], [[Eidolon Wyrm (adult)]], [[Flounder]], [[Frogfish]], [[Giant Squid]], [[Gnasher]], [[Gulper Eel]], [[Impious Immolator]], [[Laserfish]], [[Mantis Shrimp]], [[Mauler]], [[Melter]], [[Moray Eel]], [[Oarfish]], [[Overloaded Soldier]], [[Pestilent Slime]], [[Phantom Debris]], [[Phantom Spirit|Phantom Spirit (angry)]], [[Phantom Spirit|Phantom Spirit (happy)]], [[Phantom Spirit|Phantom Spirit (sad)]], [[Plagueshell]], [[Reaper]], [[Sea Urchin]], [[Sunskater]], [[Viruling]], [[Viperfish]].
+
+=== [[Block]]s, [[Wall]]s, and [[Furniture]] ===
+*Added [[Abyss Chest]] and [[Polterghast Trophy]].
+*Added [[Viper Vines]].
+*Added [[Abyss Gravel]], [[Planty Mush]], [[Sulphurous Sand]], [[Tenebris]].
+*Added [[Eutrophic Sand]] and [[Sea Prism]] as unencounterable blocks.
+*Added [[Abyss Gravel Wall]].
+*Added [[Mossy Gravel Wall]] as an unencounterable wall.
+
+=== [[Buffs]] ===
+*Added [[Abyssal Diving Suit (buff)]], [[Abyssal Diving Suit Plates]], [[Abyssal Diving Suit Plates Broken]], [[Anechoic Coating (buff)]], [[Aquatic Star (buff)]], [[Calamari (buff)]], [[Herring (buff)]], [[Young Siren (buff)]].
+
+=== World Generation ===
+*Added [[Abyss]] and [[Sulphurous Sea]].
+
+== Changes ==
+
+=== Bosses ===
+==== General ====
+*Bosses no longer gain boosted stats during the buffed [[Frost Moon]] and [[Pumpkin Moon]].
+*The following bosses have lost immunity to [[Exo Freeze]]:
+**[[Astrageldon Slime]].
+**[[Brimstone Elemental]].
+**[[Bumblebirb]].
+**[[Calamitas]] and her brothers.
+**Desert Scourge and its smaller worms.
+**[[The Leviathan]].
+**[[The Plaguebringer Goliath]] and [[Plaguebringer]]s.
+**[[Profaned Guardians]].
+**[[Ravager]].
+**[[Signus, Envoy of the Devourer]].
+**[[The Slime God]]s.
+**[[The Siren]].
+*The following bosses now have new music tracks:
+**[[Astrum Deus]] now uses [[Music#Pest of the Cosmos|Pest of the Cosmos]] as its theme instead of Boss 3.
+**Brimstone Elemental now uses [[Music#Left Alone|Left Alone]] as her theme instead of Boss 2.
+**Calamitas and [[Supreme Calamitas]] now use [[Music#Raw Unfiltered Calamity|Raw Unfiltered Calamity]] as their themes instead of [[Music#Boss 2 Remix|Boss 2 Remix]].
+**The [[Sentinels of the Devourer]] now use [[Music#Servants of the Scourge|Servants of the Scourge]] as their themes instead of Boss 2 for [[Ceaseless Void]], Boss 4 for Signus, and Boss 3 for Storm Weaver.
+**The Slime God now uses [[Music#Return to Slime|Return to Slime]] as its theme instead of Boss 1.
+*The following bosses now have gores:
+**Ceaseless Void
+**[[Crabulon]].
+**[[Cryogen]] and its Shield.
+**Signus, Envoy of the Devourer.
+*The following bosses are no longer immune to [[Frostburn]], [[Cursed Inferno]], [[On Fire!]], [[Poisoned]], [[Brimstone Flames]], [[Holy Flames]], [[Plague]], [[Glacial State]], and [[Temporal Sadness]]:
+**Crabulon.
+**The Hive Mind.
+**Perforator Hive.
+
+==== Brimstone Elemental ====
+*Ingame title is now "Brimstone Elemental" instead of "A Brimstone Elemental".
+*Adjusted speed when far from the player.
+*Can no longer be homed in on while teleporting.
+==== Bumblebirb ====
+*Nerfed the main Bumblebirb's damage from {{dv|400|600}} to {{dv|280|420}}.
+*Nerfed Bumblebirb clone's damage from {{dv|200|300}} to {{dv|160|240}}.
+*Both the main Bumblebirb and the clones have had their speeds reduced.
+==== Calamitas ====
+*Adjusted the rotation for Calamitas' brimstone lasers.
+*An Eidolon Wyrm scream now plays once Calamitas is defeated for the first time.
+==== Ceaseless Void ====
+*Nerfed [[Dark Energy]]'s health from {{dv|22,000|44,000}} to {{dv|12,000|24,000}}.
+==== The Devourer of Gods ====
+*Nerfed phase 1's head damage from {{dv|500|800}} to {{dv|350|560}}.
+*Nerfed phase 2's head damage from {{dv|750|1200}} to {{dv|450|720}}.
+*Nerfed phase 2's body damage from {{dv|375|600}} to {{dv|300|480}}.
+*Both phases' heads and tails take 1.4x damage from all sources instead of 1.5x.
+*Nerfed [[The Devourer of Thots]]' head damage from {{dv|300|600}} to {{dv|250|500}}.
+*Lowered The Devourer of Thots' speed.
+*The Devourer of Gods' nerfs to the [[Portal Gun]], [[Rod of Discord]], life regeneration, and mounts are now only applied in Death Mode.
+*No longer halves [[Viscera]]'s healing.
+==== Crabulon ====
+*Tweaked the Y-velocities of Crabulon's mushroom projectiles.
+==== [[Cryogen]] ====
+*Can no longer be homed in on while teleporting.
+*No longer regenerates its Shield in phase 5.
+==== Desert Scourge ====
+*The main worm no longer gets increased segments, damage, defense, and health after [[Skeletron]] has been defeated.
+*Lowered the main worm's speed boost after Skeletron has been defeated.
+*The smaller scourges and [[Dried Seeker]]s no longer get increased damage, defense, and health after Skeletron has been defeated.
+==== The Hive Mind ====
+*The Hive Mind can no longer be homed in on while teleporting.
+==== [[Jungle Dragon, Yharon]] ====
+*Nerfed contact damage from {{dv|650|715}} to {{dv|400|480}}.
+*Nerfed flare bomb damage from {{dv|550|700|875|1050}} to {{dv|500|600|625|750}}.
+*Nerfed flare dust damage from {{dv|500|600|625|750}} to {{dv|400|500|625|750}}.
+*Nerfed homing fireball damage from {{dv|600|700|875|1050}} to {{dv|500|600|750|900}}.
+*Yharon now heals slower when he enters phase 2 in Death Mode.
+*Lowered the amount of damage Yharon gains as his health lowers.
+*Lowered Yharon's charge speed slightly.
+*Yharon can now no longer be damaged by attacks which deal more than 4% of his max life instead of more than 10%.
+*Nerfed Bumblebirb damage from {{dv|400|600}} to {{dv|210|315}}.
+*Nerfed fireball [[Detonating Flame]]'s health from {{dv|12,000|24,000}} to {{dv|5000|10,000}}, its contact damage from {{dv|150|300}} to {{dv|100|200}}, and its fireball damage from {{dv|500|600|750|900}} to {{dv|400|480|600|720}}.
+*Nerfed melee Detonating Flame's health from {{dv|16,000|32,000}} to {{dv|10,000|20,000}}, and its damage from {{dv|350|700}} to {{dv|250|500}}.
+*Nerfed [[Angery Flame]]'s flare damage from {{dv|600|700|875|1050}} to {{dv|500|600|750|900}}.
+*Yharon's nerfs on the Portal Gun and mounts are now only applied in Death Mode.
+*Removed unused draw code.
+==== [[King Slime]] ====
+*Can now drop the Crown Jewel in Revengeance Mode.
+==== [[Lunatic Cultist]] ====
+*Lowered global hostile damage multiplier from 1.3x to 1.2x.
+==== [[Moon Lord]] ====
+*Lowered global hostile damage multiplier from 1.25x to 1.2x.
+==== [[SELF-INSERT BOSS UNCREATIVE AS FUCK BABY RAGE K U LOL BAI]] ====
+*Nerfed health from {{dv|50,000,000|100,000,000}} to {{dv|25,000,000|50,000,000}}.
+*Increased X velocity.
+*Altered most of the times it takes for it to switch AI.
+*Increased the distance the player has to be from it for it to start enraging.
+*Now takes no damage from attacks which would deal over 0.4% of it's max health instead of 0.2%.
+==== The Perforators ====
+*Adjusted the Y velocity of the Perforator Hive's Blood Geyser projectiles.
+*The Perforators' blood clot projectiles no longer create dust when destroyed.
+==== The Plaguebringer Goliath ====
+*Increased how aggressive The Plaguebringer Goliath gets at lower amounts of health.
+==== [[Polterghast]] ====
+*Nerfed base contact damage from {{dv|215|344}} to {{dv|200|320}}.
+*Nerfed hook damage from {{dv|220|308}} to {{dv|180|252}}.
+*Lowered the amount of contact damage it gains each phase.
+*Lowered the amount of [[Phantom Turret]]s it spawns from {{dv|0|3|0|2}} to {{dv|0|2|0|1}}.
+*Now spawns {{dv|0|3|0|2}} Happy Phantom Spirits instead of {{dv|0|5|0|3}} normal ones.
+*Now sends a status message upon its first defeat, signaling that certain Abyss enemies gain new drops.
+==== [[Providence, the Profaned God]] ====
+*Cut the distance it takes for players to be inflicted with the [[Holy Inferno]] [[debuff]] in half.
+*Increased defensive guardian's speed.
+*Decreased offensive guardian's speed, attack, and general aggressiveness.
+==== Ravager ====
+*Now shoots all of its projectiles less often.
+==== Signus, Envoy of the Devourer ====
+*Nerfed contact damage from {{dv|250|400}} to {{dv|220|352}}.
+*Can no longer be homed in on while teleporting.
+*Reduced speed.
+*Nerfed [[Cosmic Lantern]]'s damage from {{dv|200|400}} to {{dv|170|340}}.
+==== Siren and Leviathan ====
+*The Leviathan can now be homed in on.
+==== The Slime God ====
+*The core now shoots projectiles half as often.
+*Reduced the core's speed.
+*The core is no longer immune to Cursed Inferno, Poisoned, Brimstone Flames, Holy Flames, and Plague.
+*The large slimes are no longer immune to Poisoned.
+*The Ebonian Slime God and its split form now inflict [[Mana Sickness]] and Brimstone Flames for 2 seconds instead of 3.33.
+*The Crimulan Slime God and its split form now inflict Mana Sickness and Brimstone Flames for 2 seconds instead of 1.67.
+*Split large slimes now have boss map icons.
+*Ebonian Slime God's orbs now inflict Mana Sickness and Brimstone Flames for 1 second instead of 1.67.
+*Crimulan Slime God's orbs now inflict [[Cursed]] and Brimsone Flames for 1 second instead of 8.33.
+*Ebonian Slime God's mines now inflict Mana Sickness and Brimstone Flames for 2 seconds instead of 3.33.
+*Crimulan Slime God's mines now inflict Cursed and Brimstone Flames for 2 seconds instead of 1.67.
+==== [[Storm Weaver]] ====
+*Buffed phase 1's head damage from {{dv|120|240}} to {{dv|150|300}}.
+*Buffed phase 2's head damage from {{dv|200|400}} to {{dv|250|500}}.
+*Adjusted phase 2's speed.
+*Body segments can no longer be homed in on in both phases.
+*Removed unnecessary expert damage modifier code for both phases' heads.
+*Nerfed the laser damage of both [[Stasis Probe]]s from {{dv|160|240}} to {{dv|140|200}}.
+====[[Supreme Calamitas]]====
+*Nerfed contact damage from {{dv|650|1040}} to {{dv|500|800}}.
+*Buffed Brimstone Heart's health from {{dv|25,000|50,000|60,000|100,000}} to {{dv|50,000|100,000|120,000|200,000}}.
+*Brimstone Hearts can now be homed in on.
+*Lowered hitcap in Normal Mode from 30 to 25, and increased it in Death Mode from {{death|5}} to {{death|10}}.
+*Supreme Calamitas' nerfs to mounts are now only applied in Death Mode.
+
+== Enemies ==
+*[[Angry Dog]]s now curl up under 50% life and gain a new movement pattern.
+*Reduced the spawn rate of Angry Dogs.
+*Moved most enemies to a single directory instead of having a dedicated one for each enemy.
+*Reduced enemy spawn rates in the [[Profaned Crag]].
+*Post-Providence [[Dungeon]] enemies can now spawn Angry, Happy, Normal, or Sad Phantom Spirits on death instead of just normal ones.
+*[[Earth Elemental]] changes:
+**Buffed health from {{dv|3200|6400}} to {{dv|3800|7600}}, its contact damage from {{dv|40|80}} to {{dv|50|100}}, and its defense from 20 to 40.
+**Now completely immune to knockback.
+**Now immune to all debuffs except for Ichor.
+**Now has the ability to launch rocks at the player.
+**Decreased speed.
+*Increased the chance for [[Goblin Warrior]]s to drop the [[Warblade]] from {{dv|4%|5%}} to {{dv|5%|6.67%}}.
+*Reduced the spawn rate of [[Ice Clasper]]s.
+*Lowered the speed of buffed [[Ice Queen]]s, [[Mothron]]s, and [[Pumpking]]s.
+*Phantom Spirit (normal) changes:
+**Nerfed health from {{dv|2000|4000}} to {{dv|1000|2000}}, its damage from {{dv|150|300}} to {{dv|100|200}}, and its defense from 80 to 40.
+**Reduced speed.
+**Now always drops 1 [[Phantoplasm]] instead of 1-3.
+*[[Profaned Energy|Profaned Energies]] and [[Scorn Eater]]s can no longer drop the [[Energy Staff]].
+*[[Sand Elemental]]s can now drop {{dv|1-3|2-4}} [[Essence of Cinder|Essences of Cinder]].
+*Increased the chance for [[Skeleton]]s and [[Armored Skeleton]]s to drop the [[Waraxe]] from {{dv|4%|5%}} to {{dv|5%|6.67%}}.
+
+== Items ==
+*[[The Absorber]] now uses 15 Depth Cells, 15 Lumenyl, and 5 Tenebris in its recipe.
+*[[Astral armor]] now has a 3 second cooldown before it can create more stars.
+*[[Auric Tesla armor]], [[Silva armor]], and [[Invincible]] no longer make the player immune to [[Obstructed]]. 
+*Optimized [[Brimstone Fury]]'s shoot code.
+*Reduced the speed of [[Catastrophe Claymore]]'s dusts.
+*[[Core of the Blood God]] and [[Flesh Totem]]'s contact damage reduction effect now has a 15 second cooldown.
+*[[Ancient Medallion]] now uses 2 [[Bar of Life|Bars of Life]] in its recipe.
+*[[Cosmilamp]]'s Cosmic Lanterns now have a unique AI.
+*Changed the "10% increased ranged crit" to "critical strike chance" in [[Daedalus Emblem]]'s tooltip.
+*[[Death Valley Duster]] now sells for {{gc|50}} instead of {{value|1|50}}.
+*Increased the distance from which [[Demonshade armor]]'s Red Devil teleports to the player.
+*Adjusted the sell prices of a few of Desert Scourge's weapons:
+**[[Aquatic Discharge]] now sells for {{value|0|3|5}} instead of {{value|0|0|80}}.
+**[[Seabound Staff]] now sells for {{value|0|3|5}} instead of {{value|0|2|5}}.
+**[[Storm Spray]] now sells for {{value|0|3|5}} instead of {{value|0|5}}.
+*[[Desert Medallion]] now uses 15 [[Sand Block]]s and 10 [[Cactus|Cacti]] in its recipe instead of 15 Sand Blocks and 10 Cacti.
+*Downpour and Storm Spray's main water streams now produce less dust.
+*[[Draedon's Heart]] and [[Heart of Darkness]] no longer make the player emit light based on [[Rage]] level.
+*[[Elemental Axe]] now uses a single projectile which revolves through different colors instead of having several projectiles.
+*Lowered the amount of dust created by Energy Staff's Profaned Energy, and gave it a unique appearance instead of being purely made of dust.
+*Decreased the distance at which [[Ethereal Subjugator]]'s Phantoms hover away from targeted enemies.
+*[[Eye of Desolation]] now uses 3 [[Soul of Fright|Souls of Fright]], 3 [[Soul of Might|Souls of Might]], and 3 [[Soul of Sight|Souls of Sight]] in its recipe instead of 5 Souls of Fright and 5 Souls of Sight.
+*[[Flarewing Bow]]'s bats no longer pierce enemies.
+*Removed the "+" from "+20" in [[Frost Flare]]'s tooltip.
+*Capped [[Hyperius Bullet]]'s speed.
+*Tweaked the rotation of [[Illustrious Knives]]' thrown knives.
+*Changed how [[Leviathan Ambergris]] calculates its stat boosts.
+*Adjusted Leviathan Ambergris' seawater's dust.
+*The recipe for [[Life Fruit]] now contains 10 Planty Mush instead of 3 [[Soul of Light|Souls of Light]] and 3 [[Soul of Night|Souls of Night]].
+*Moved the mention of [[Nanotech]]'s throwing crit boost on its tooltip to a new line.
+*Increased the size of [[Photoviscerator]]'s dusts.
+*[[Primordial Earth]] now sells for {{value|1}} instead of {{value|8|5}}.
+*Optimized [[Purge Guzzler]]'s shoot code and removed an unnecessary semicolon.
+*Changed the "10% increased magic crit" to "critical strike chance" in [[Sigil of Calamitas]]' tooltip.
+*[[Statis' Belt of Curses]] now makes minions have a chance to instantly kill normal enemies.
+*Statis' Belt of Curses now requires 20 [[Endothermic Energy]], 20 [[Nightmare Fuel]], and 20 [[Phantoplasm]] instead of 5 [[Cosmilite Bar]]s and 5 Phantoplasm.
+*[[Purified Jam]] and [[lol]] now disable the [[Thorns]] effect.
+*Adjusted the location where [[Stellar Striker]]'s meteors spawn.
+*[[Terratomere]] now sells for {{value|1|50}} instead of {{value|2|40}}.
+*Throwing weapons can no longer have modifiers.
+*[[Torrential Tear]] is can now stop [[rain]].
+**Updated tooltip to reflect this and removed Revengeance drop line.
+
+== Balance ==
+=== Armor and coverings ===
+*[[Alchemical Flask]]'s plague seekers now deal 25% damage instead of a base of 22.
+*Nerfed [[Angel Treads]]' run speed from 9.75 to 9.5.
+*[[Ataxia armor]] changes:
+**Ranged set's Chaos Flares now deal 25% damage instead of 50% and now have an extra update.
+**Throwing set's Chaos Flares now deal 25% damage instead of 80% and now have an extra update.
+**Melee set's Chaos Geysers now deal 25% damage instead of always dealing 60.
+**Magic set's Ataxia Orbs now deal 25% damage instead of 50%.
+*Nerfed the damage of the stars summoned by Astral armor's set bonus from 100 to 75.
+*Nerfed Auric Tesla armor and Silva armor's speed and acceleration boosts from 20% to 10%, and halved the effectiveness of their thorns effect.
+*Nerfed all of [[Bloodflare Core]]'s stat boosts when under 15% life from 20% to 15%.
+*Nerfed [[The Community]]'s flight time boost from 100% to 15%.
+*Nerfed Core of the Blood God's damage and critical strike chance boost from 20% to 12%, and nerfed its damage boost when under 100 defense from 25% to 15%.
+*Nerfed Daedalus Emblem's ranged damage boost from 15% to 10%.
+*Nerfed [[Elemental Gauntlet]]'s melee speed, damage, and critical strike chance boosts from 20% to 15%.
+*Nerfed [[Elemental Quiver]]'s ranged damage and critical strike chance boosts from 20% to 15%.
+*Nerfed [[Ethereal Talisman]]'s magic damage and critical strike chance boosts from 20% to 15%.
+*Nerfed Frost Flare's movement speed boost when under 25% life from 50% to 15%.
+*Nerfed the thorns effect of [[God Slayer armor]].
+*Nerfed Nanotech's throwing damage and velocity boosts from 20% to 15%.
+*[[Reaver armor]] changes:
+**Nerfed the thorns effect given by the melee set, and specified only melee projectiles activate its explosions.
+**Melee set's explosions now deal 20% damage instead of a base of 17.
+**Ranged set now only has a 10% chance to fire a rocket instead of a 15% chance.
+**Ranged set rockets now deal 180% damage instead of 210%.
+**Magic set's bursts now deal 20% damage instead of 50%.
+**Summon set's orb now fires less often and in more random directions.
+**Summon set's orb now deals 23% more damage.
+**Buffed spore damage from 38 to 58.
+*Nerfed [[Rotten Brain]]'s damage boost when under 75% life from 15% to 10%.
+*Nerfed Sigil of Calamitas' magic damage boost from 15% to 10%.
+*Nerfed Silva armor's speed and acceleration boosts from 10% to 5%.
+*[[Siren's Heart]] changes:
+**Nerfed Siren Speed movement speed boost from 25% to 15%.
+**Several effects have been locked behind Skeletron:
+***The player now only gains one defense and no life regeneration if Skeletron hasn't been defeated yet, but will gain 5 defense and +1 life regeneration if Skeletron has been defeated.
+***[[Discount Card]] effect is now locked behind Skeletron.
+***Siren Speed is now locked behind Skeletron.
+***[[Gills]] effect is now locked behind Skeletron.
+***[[Flipper]] effect is now locked behind Skeletron.
+*Nerfed Statis' Belt of Curses' throwing crit boost and throwing and summoner damage boosts from 15% to 10% and its jump speed boost from 3.5 to 1.2.
+*Nerfed [[Statis' Blessing]]'s summoner damage boost from 15% to 10%.
+*Nerfed [[Statis' Curse]]'s summoner damage boost from 15% to 10%.
+*Nerfed [[Statis' Ninja Belt]]'s throwing damage and crit boosts from 15% to 10%.
+*Adjusted the stats of several [[Wings]]:
+**Nerfed [[Aureate Booster]]'s horizontal speed from 12 to 10, nerfed its horizontal acceleration from 3 to 2, and buffed its flight time from 70 to 90.
+**Nerfed [[Celestial Tracers]]' horizontal speed from 16 to 13, its flight time from 361 to 300, its movement speed boost from 25 to 1.25, and its run speed from 25 to 15.
+**Nerfed [[Discordian Wings]]' horizontal speed from 10 to 9, and its horizontal acceleration from 2.5 to 2.
+**Nerfed [[Drew's Wings]]' horizontal speed from 16 to 13.
+**Nerfed [[Elysian Tracers]]' horizontal speed from 14 to 11, its horizontal acceleration from 3 to 2.75, its flight time from 300 to 240, its movement speed boost from 20 to 1, and its run speed from 20 to 12.5.
+**Nerfed [[MOAB]]'s horizontal speed from 9.5 to 9, its horizontal acceleration from 1.6 to 1.3, its jump speed boost from 4 to 2.4, and buffed its wing time from 30 to 50.
+**Nerfed [[Seraph Tracers]]' horizontal speed from 12 to 10, its horizontal acceleration from 3 to 2.5, its flight time from 160 to 140, its movement speed boost from 20 to 0.75, and its run speed from 20 to 11.
+**Nerfed [[Tarragon Wings]]' horizontal speed from 12 to 10, and its horizontal acceleration from 3 to 2.75.
+**Nerfed [[Xeroc Wings]]' horizontal speed from 12 to 9, and its horizontal acceleration from 3 to 2.25.
+*[[Xeroc armor]]'s orbs and bubbles now deal 33% damage instead of 50%.
+*Xeroc armor's blasts, fire, and star projectiles now deal 33% damage instead of a base of 60 each.
+*Nerfed [[Yharim's Insignia]]'s melee damage boost from 15% to 10%.
+
+=== Weapons ===
+*Increased the speed of [[Ancient Ice Chunk]]'s Ice Claspers.
+*Nerfed Barinade's base damage from 12 to 10, lowered its shot speed from 18 to 14, and made its Bolt Arrows deal full damage instead of 50% of the weapon's base damage.
+*Increased [[Blood Clot Staff]] and [[Dank Staff]]'s localNPCHitCooldown from 7 to 10.
+*Nerfed [[Blossom Flux]]'s damage from 24 to 20.
+*Decreased [[Briny Baron]]'s spout's localNPCHitCooldown from 10 to 8.
+*Nerfed [[Conclave Crossfire]]'s damage from 35 to 28.
+*Increased Downpour and Storm Spray's main water stream's penetration from 1 to 3.
+*All of [[Elemental Lance]]'s beams now deal 20% damage of the spear they spawned from instead of 30%.
+*The projectiles shot by [[Entropy's Vigil]]'s eyes now deal full damage instead of 80% damage.
+*[[Flarewing Bow]]'s Flare Bats now deal 66% of the weapon's damage instead of 85%.
+*Nerfed [[Heavenly Gale]]'s damage from 250 to 200.
+*Tweaked the speed of [[Infernal Rift]] and [[Ultra Liquidator]]'s blades.
+*Nerfed [[Mistlestorm]]'s damage from 75 to 69.
+*Nerfed the base damage of [[Napalm Arrow]]'s flaming shards from 12 to 9.
+*Nerfed [[Phangasm]]'s damage from 220 to 200.
+*Buffed [[Profaned Sword]]'s damage from 55 to 61.
+*Nerfed [[Seadragon]]'s damage from 160 to 150.
+*Buffed [[Staff of the Mechworm]]'s base damage from 25 to 30, and increased the speed of the mechworm.
+*Buffed [[Storm Ruler]]'s damage from 52 to 58.
+*Buffed [[Storm Saber]]'s damage from 64 to 74.
+*Increased Storm Spray's mana cost from 5 to 8 and lowered its knockback from 5 to 2.
+*[[Sun God Staff]]'s beams now scale with the players summon damage instead of always dealing 60 damage.
+*[[Sun Spirit Staff]]'s beams now scale with the players summon damage instead of always dealing 6 damage.
+*Ultra Liquidator's secondary blades now have an additional extra update.
+*Nerfed [[Vortexpopper]]'s damage from 28 to 23.
+
+== Other ==
+*[[Chaotic Ore]] is no longer affected by the [[Spelunker Potion]] or any items which grant a similar effect.
+*Chaotic Ore now occasionally produces hostile lava chunks which fall downwards.
+*[[Heart Attack]] now only provides 5% extra speed and acceleration instead of 10%.
+*Reduced the size of the [[Ice Tomb]].
+*The Ice Tomb is now made of [[Ice Block]]s instead of [[Snow Brick]]s.
+*[[Molten]] no longer causes the player to emit light.
+**Updated buff tooltip to reflect this.
+
+=== Resprites ===
+*Resprited [[Dark Energy]], Desert Scourge, [[Dried Seeker]], Earth Elemental, and Phantom Spirit.
+*Resprited [[Brittle Star (buff)]] and [[Fab]].
+*Resprited [[Core of the Blood God]] and [[Ocean Crest]].
+*Resprited [[Treasure Bag (Desert Scourge)]].
+*Resprited Ancient Medallion and Desert Medallion.
+*Resprited Aquatic Discharge, Barinade, [[Eldritch Tome]], [[Elemental Shiv]], [[Flare Bolt]], [[Frost Bolt]], [[Scourge of the Desert]], Seabound Staff, [[Stardust Staff]], [[Storm Ruler]], [[Storm Saber]], Storm Spray, and [[Terra Flameburster]].
+*Resprited [[Crystyl Crusher]].
+*Resprited [[Perennial Ore]].
+*Resprited Calamitas, Cataclysm, Catastrophe, Desert Scourge, Jungle Dragon, Yharon, The Siren, Supreme Calamitas, Supreme Cataclysm, and Supreme Catastrophe's map icons.
+*Resprited Brittle Star minion, Illustrious Knife, Storm Ruler and Storm Saber’s beams.
+*Resprited [[Perforator Trophy]].
+
+== Fixes ==
+*Fixed a bug that caused Ceaseless Void to not despawn when the player dies.
+*Fixed Ethereal Subjugator's Phantoms dealing typeless damage instead of summon damage.
+*Fixed [[Needler]] and [[Spyker]] dealing throwing damage instead of ranged damage.
+*Fixed Sun God Staff's beam dealing magic damage instead of summon damage.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

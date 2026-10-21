@@ -1,0 +1,52 @@
+{{dedicated|Shirosity|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = Rogue
+| tooltip = There should be no boundary to human endeavor.<br/>Stealth strikes can hit more enemies and create a larger time field
+| damage = 432
+| knockback = 4
+| rare = 13
+| sell = {{value|0|26}}
+| use = 19
+| hardmode = yes
+| postml = yes
+| velocity = 16
+| debuff = Time Distortion | debufflink = no
+| debuffchance = 100%
+| debuffduration = 1 second (Time Field)<br/>2 seconds (Stealth Strike)
+| debufftip = Time is slowed
+| boxwidth = 23em
+| element1 = Magic
+| element2 = Stab
+| element3 = Electricity
+}}
+
+The '''Time Bolt''' is a craftable Godseeker Mode [[dagger]]. When thrown, a sky blue knife is thrown that releases a trail of cosmetic blue particles that glow. When the knife contacts an enemy or a block, it releases a large blue ring that inflicts the '''Time Distortion'''  [[debuff]] onto enemies, reducing their movement speed by 15%. The knife will also release 5 copies of itself in a similar manner to the [[Influx Waver]]. Copy knives do not release blue rings or particles.
+
+Performing a [[stealth strike]] with the Time Bolt causes five more hits to occur with the dagger copy, increases the size of the time field, and increases the duration of the debuff.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Immune NPCs ==
+This is a list of NPCs immune to the Time Distortion debuff.
+{{ajax|List of slow-immune NPCs|width=35%}}
+
+== Notes ==
+*Time Bolt only deals 90% damage to [[Polterghast]] and [[Signus, Envoy of the Devourer]], while its stealth strike deals 115% damage to [[The Devourer of Gods]].
+*The Time Distortion debuff has no effect while the [[Boss Rush]] event is active.
+
+== Trivia ==
+*The item's tooltip is a reference to famous cosmologist [[wikipedia:Stephen_Hawking|Stephen Hawking]]'s quote: "There should be no boundaries to human endeavor. We are all different. However bad life may seem, there is always something you can do, and succeed at. While there's life, there is hope."
+*The appearance of the Time Distortion debuff icon is a reference to the famous [[wikipedia:Salvador Dalí|Salvador Dalí]] painting ''[[wikipedia:The Persistence of Memory|The Persistence of Memory]]''.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

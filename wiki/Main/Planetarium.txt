@@ -1,0 +1,59 @@
+{{Addon|Hypnos in Calamity}}
+{{Addon|Calamity: Community Remix}}
+{{infobox wrapper
+|{{item infobox
+|type=Weapon
+|auto=yes
+|damage=300
+|damagetype=magic
+|mana=5
+|stack=1
+|research=1
+|use=5
+|velocity=16
+|rare=15
+|tooltip=Countless shooting stars streak across the sky tonight... </br> Should you choose the right one... </br> ...it will carry your wish to thousands of distant worlds.
+|sell={{value|0|30}}
+|hardmode=yes
+|postml=yes
+|debuff = Vaporfied
+|debufftip = Vaporizing senses and mind
+|debuffchance = 25%
+|debuffduration = 1.5 seconds
+|debuff2 = Holy Flames
+|debufftip2 = Dissolving from holy light
+|debuffchance2 = 25%
+|debuffduration2 = 1.5 seconds
+|debuff3 = Brimstone Flames
+|debufftip3 = Rapid health loss
+|debuffchance3 = 25%
+|debuffduration3 = 1.5 seconds
+|proj = Red Exo Pulse Laser.gif
+|projcaption = Laser
+|proj2 = Prism Explosion Small.gif
+|proj2caption = Small Explosion
+|element1 = Magic
+}}
+|{{item drops infobox
+|[[XP-00 Hypnos]]|1|25%
+}}
+}}
+
+The '''Planetarium''' is a Godseeker Mode [[Wand]] dropped by [[XP-00 Hypnos]]. When used, it rapidly fires a volley of lasers into the sky that travel vertically from the player's position, damaging and piercing any [[enemies]] above the player. After leaving through the top of the screen, each laser will individually seek out a random enemy and enter from the top of the screen at the same horizontal position as the enemy, travelling directly downward until it makes contact with a target and disappears, dealing [[Magic weapons|magic]] damage and creating an explosion with a radius of 3 tiles, damaging all enemies inside. If a [[Challenges|boss]] is currently on the screen as the weapon is being fired, all lasers will automatically target the boss.
+
+{{modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The tooltip is a reference to the game [https://honkai-star-rail.fandom.com/wiki/Honkai:%20Star%20Rail%20Wiki Honkai: Star Rail].
+
+{{-}}
+
+{{Master Template Weapons
+|show-main=yes
+|show-magic=yes
+}}
+[[Category:Wands]]

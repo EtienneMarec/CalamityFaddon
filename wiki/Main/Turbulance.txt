@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 18
+| damagetype = Spy
+| auto = yes
+| stack = 1
+| velocity = 12
+| knockback = 5
+| use = 17
+| tooltip = Fires a cloudy javelin that bursts into wind slashes on hit<br/>Wind slashes home if the javelin crits<br/>Stealth strikes are trailed by homing wind slashes
+| rare = 3
+| sell = {{value|0|0|80}}
+| proj = Turbulent Wind Slash.gif
+| projcaption = Wind Slash
+| element1 = Holy
+| element2= Slash
+| element3 = Stab
+}}
+
+The '''Turbulance''' is a craftable [[Pre-Hardmode]] non-consumable [[javelin]]. When used, it automatically throws a javelin that releases four wind slashes in random directions upon contact with enemies or blocks. If the player performs a critical strike on the javelin itself, the wind slashes home on nearby enemies. Wind slashes deal one-third of the weapon's damage and do not pierce enemies or blocks.
+
+Performing a [[stealth strike]] with the Turbulance will cause the next javelin thrown to periodically release trails of homing wind slashes as it travels.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Its name is a portmanteau of the words 'turbulence', which is a period of irregular air motion, and 'lance', a type of pole arm.
+
+{{-}}
+{{Aerialite}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Javelins]]

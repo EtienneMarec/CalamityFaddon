@@ -1,0 +1,44 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 5
+| mana = 10
+| knockback = 1
+| use = 34
+| tooltip = Summons a cute forest spirit that scatters toxic petals
+| buff = Belladonna Spirit (buff) | bufflink = no
+| bufftip = A cute forest spirit is following you
+| debuff = Poisoned
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 4 seconds
+| stack = 1
+| auto = yes
+| rare = 1
+| sell = {{value|0|0|20}}
+| proj = Belladonna Petal.png
+| projcaption = Belladonna Petal
+| element1 = Poison
+| element2 = Dark
+}}
+{{summoned|Belladonna Spirit|type=minion}}
+
+The '''Belladonna Spirit Staff''' is a craftable [[Pre-Hardmode]] [[summon weapon]]. When used, it summons a flying forest spirit minion. The spirit can pass through walls to reach its target, and rapidly throws a tight spread of three gravity-affected petals towards its targets, inflicting the [[Poisoned]] [[debuff]]. Every ninth attack, it additionally fires a large and even spread of five petals into the air.
+
+{{Modifier|summonalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*[[wikipedia:Atropa_belladonna|Belladonna]], also known as Deadly Nightshade, is a type of herb known for its extremely toxic properties.
+
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

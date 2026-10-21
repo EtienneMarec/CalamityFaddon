@@ -1,0 +1,58 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 60
+| damagetype = Spy
+| tooltip = Stealth strikes spawn a cosmic explosion and freeze nearby enemies on enemy hits
+| knockback = 6.75
+| stack = 1
+| rare = 5
+| sell = {{value|0|7|20}}
+| use = 13
+| velocity = 16
+| hardmode = yes
+| debuff = Frostburn
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuff2 = Glacial State
+| debufftip2 = Cannot move and defense is shattered
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Explosion)
+| debuff3 = Moon Burnt
+| debuffchance3 = 100%
+| debuffduration3 = 3 seconds (Explosion)
+| debufftip3 = Incinerated by lunar rays
+| proj = Cosmic Ice Burst.gif
+| projcaption = Cosmic Ice Burst
+| element1 = Cold
+| element2 = Magic
+| element3 = Smash
+}}
+|{{item drops infobox
+| [[Cryogen]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Icebreaker''' is a [[Hardmode]] [[Spy]] [[boomerang]] that is dropped by [[Cryogen]]. It throws ice hammers at a long range. The projectiles return to the user after hitting a solid block right by you, or when they reach the end of their throwing range. Multiple projectiles can be thrown at the same time and can phase through tiles while returning to the player.
+
+Performing a [[stealth strike]] with the Icebreaker causes cosmic explosions to appear on enemy hits. The explosions inflict the [[Moon Burnt]] and [[Glacial State]] [[debuffs]] and deal 1.5 times the damage.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*This weapon works excellently against the [[Mechanical Bosses]] and can even be used up to [[Plantera]] and [[Golem]].
+
+== Trivia ==
+*This weapon formerly inflicted [[melee]] damage.
+
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

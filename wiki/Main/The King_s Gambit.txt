@@ -1,0 +1,39 @@
+{{addon|Calamity: Community Remix}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 16
+| tooltip = Fires a stream of slime when enemies are near<br/>A somewhat agile yoyo
+| use = 21
+| knockback = 2
+| stack = 1
+| reach = 15
+| attduration = {{infinity}}
+| auto = yes
+| rare = 1
+| sell = {{value|0|0|40}}
+| debuff = Slime (debuff)
+| debufftip = You are dripping goo
+| debuffchance = 100%
+| debuffduration = 2 seconds (Yoyo)<br/>10 seconds (Slime blobs)
+| element1 = Poison
+}}
+|{{item drops infobox
+| [[King Slime]]|1|{{dv|50%|66.66%}}
+|}}
+}}
+
+'''The King's Gambit''' is a [[Pre-Hardmode]] [[yoyo]] dropped by [[King Slime]]. While enemies are nearby, the yoyo will constantly drop slime blobs that apply the [[Slime Gun|Slime]] debuff and damage enemies. When the yoyo returns to the player, another one will be automatically thrown if they are still holding the fire button.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]

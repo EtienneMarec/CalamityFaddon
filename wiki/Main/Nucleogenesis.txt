@@ -1,0 +1,64 @@
+{{item infobox
+| type = Covering
+| tooltip =  Increased max minions by 4, does not stack with downgrades<br/>15% increased minion damage<br/>Increased minion knockback<br/>Minions inflict a variety of debuffs<br/>Minions spawn damaging sparks on enemy hits
+| image = Nucleogenesis.gif
+| sell = {{value|0|28}}
+| stack = 1
+| rare = 14
+| hardmode = yes
+| postml = yes
+| proj = Nucleogenesis Spark.gif
+| projcaption = Nucleogenic Spark
+| debuff = Electrified
+| debuffchance = 100%
+| debuffduration = 1 second (On minion hits)
+| debuff2 = Temporal Sadness
+| debuffchance2 = 100%
+| debuffduration2 = 1 second (On minion hits)
+| debuff3 = Astral Infection (debuff)
+| debuffchance3 = 100%
+| debuffduration3 = 3 seconds (On minion hits)
+| debuff4 = Irradiated
+| debuffchance4 = 100%
+| debuffduration4 = 3 seconds (On minion hits)
+| debuff5 = Shadowflame
+| debuffchance5 = 100%
+| debuffduration5 = 3 seconds (On minion hits)
+| debuff6 = Holy Flames
+| debuffchance6 = 100%
+| debuffduration6 = 3 seconds (On minion hits)
+| element1 = Cold
+| element2 = Magic
+| element3 = Dark
+}}
+
+'''Nucleogenesis''' is a craftable Godseeker Mode [[covering]] that is the direct upgrade to the [[Star-Tainted Generator]] and [[Statis' Curse]]. While equipped, the player gains +4 minion slots, which doesn't stack with downgrades, 15% increased minion damage, and all minion knockback is increased by 4. All minion attacks spawn a damaging spark on enemy hits with a cooldown of 1.67 seconds, dealing 60 summon damage.
+
+While equipped, all minions will inflict the following [[debuffs]]:
+*[[Electrified]] for 1 second.
+*[[Temporal Sadness]] for 1 second.
+*[[Astral Infection (debuff)|Astral Infection]] for 3 seconds.
+*[[Irradiated]] for 3 seconds.
+*[[Shadowflame]] for 3 seconds.
+*[[Holy Flames]] for 3 seconds.
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Nucleogenesis/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The spark effect will override the [[Starbuster Core]]'s explosion, the [[Nuclear Rod]]'s aura, and the [[Jelly-Charged Battery]]'s orbs.
+
+== Trivia ==
+*[[wikipedia:Nucleosynthesis|Nucleogenesis]] (also known as nucleosynthesis) is the creation of new atomic nuclei, especially in the beginning of the universe.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| type = Furniture
+| tooltip = Consumes Energy Orbs to send out radio waves that mark chests
+| imagealt = [[File:Wulfrum Treasure Pinger.png]]&nbsp;[[File:Wulfrum Treasure Pinger.png]]
+| width = 2
+| height = 2
+| use = 15
+| color = #C2FF43
+| research = 1
+| stack = 9999
+| placeable = yes
+| auto = yes
+| consumable = true
+| rare = 1
+| sell = No value
+}}
+|{{item drops infobox
+|[[Wulfrum Excavator]] {{fantag|Calamity: Community Remix}}|1|100%
+}}
+}}
+
+The '''Wulfrum Treasure Pinger''' is a craftable [[Pre-Hardmode]] [[furniture]] item. When right-clicked while the player has an [[Energy Orb]], radio waves are released every 5 seconds which cause any [[Chest]]s that intersect the wave to have a {{item|Wulfrum Popup|nolink=y}} appear above them. These popups last for as long as the Wulfrum Treasure Pinger is powered. The Wulfrum Treasure Pinger will run out of energy after 30 seconds.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Wulfrum}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

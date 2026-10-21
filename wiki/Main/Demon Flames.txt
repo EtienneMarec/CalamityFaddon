@@ -1,0 +1,32 @@
+{{buff infobox
+| type = Debuff
+| effects = -1,250 health per second.
+| tooltip = Another flames debuff...
+}}
+
+'''Demon Flames''' is a very powerful [[debuff]] that causes the target to lose 1,250 health per second. It is inflicted by all [[weapons]] while [[Demonshade armor]] is equipped. It is also inflicted by [[Apotheosis]] and [[Vehemence]]. 
+
+If the target is inflicted with [[Oiled]], they lose 1,562.5 health per second instead of 1,250.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

@@ -1,0 +1,96 @@
+The Calamity Mod adds 11 (12 {{fantag|Deimos, the Starborn Princess}}) new '''Game Control''' keys that must be manually bound by the player.
+
+How do you bind keys though? We have no clue     .
+
+{| class="terraria"
+! style="width:150px;" |Action
+! style="width:150px;" |Wiki Icon
+! style="width:90px;" |Default key
+!Notes
+|- id="Adrenaline Mode"
+! Adrenaline Mode
+| style="border-bottom:1px #ccc solid" align="center" | {{key|Adrenaline Mode}}
+| style="border-bottom:1px #ccc solid" align="center" | B
+| style="border-bottom:1px #ccc solid;" | Triggers the [[Adrenaline Mode]] [[buff]] when the [[Adrenaline Meter]] is full.
+|- id="Angelic Alliance Blessing"
+! Angelic Alliance Blessing
+| style="border-bottom:1px #ccc solid" align="center" | {{key|Angelic Alliance Blessing}}
+| style="border-bottom:1px #ccc solid" align="center" | G
+| style="border-bottom:1px #ccc solid;" | Activates the [[Divine Bless]] buff when the [[Angelic Alliance]] is equipped.
+|- id="Armor Set Bonus"
+! Armor Set Bonus
+| style="border-bottom:1px #ccc solid" align="center" | {{key|Armor Set Bonus}}
+| style="border-bottom:1px #ccc solid" align="center" | Y
+| style="border-bottom:1px #ccc solid;" | Triggers bonuses from the [[Covering]] set worn.
+|- id="Astral Arcanum UI Toggle"
+! Astral Arcanum UI Toggle
+| style="border-bottom:1px #ccc solid" align="center" | {{key|Astral Arcanum UI Toggle}}
+| style="border-bottom:1px #ccc solid" align="center" | O
+| style="border-bottom:1px #ccc solid;" | Opens a small menu which lets the player teleport to one of four different locations: [[Jungle]], [[Underworld]], [[Dungeon]] or a random location. Can only be used when the [[Astral Arcanum]] [[covering]] is equipped.
+|- id="Astral Teleport"
+! Astral Teleport
+| style="border-bottom:1px #ccc solid" align="center" | {{key|Astral Teleport}}
+| style="border-bottom:1px #ccc solid" align="center" | P
+| style="border-bottom:1px #ccc solid;" | Teleports the player to a random location. Can only be used when the [[Celestial Jewel]] covering is equipped. It teleports you home if you have an item that allows it such as the [[Magic Mirror]]s or the [[Recall Potion]]s.
+|- id="Booster Dash"
+! Booster Dash
+| style="border-bottom:1px #ccc solid" align="center" | {{key|Booster Dash}}
+| style="border-bottom:1px #ccc solid" align="center" | Q
+| style="border-bottom:1px #ccc solid;" | Performs a diagonal dash at the cost of player's stealth while the [[Plagued Fuel Pack]] or [[Blunder Booster]] is equipped.
+|- id="Elysian Gar"
+! Elysian Gar
+| style="border-bottom:1px #ccc solid" align="center" | {{key|Elysian Gar}}
+| style="border-bottom:1px #ccc solid" align="center" | N
+| style="border-bottom:1px #ccc solid;" | Activates the [[Elysian Gar]] buff when the [[Elysian Aegis]] or [[Asgardian Aegis]] is equipped.
+|- id="Exo Chair Speed Up"
+! Exo Chair Speed Up
+| style="border-bottom:1px #ccc solid" align="center" | {{key|Exo Chair Speed Up}}
+| style="border-bottom:1px #ccc solid" align="center" | LeftShift
+| style="border-bottom:1px #ccc solid;" | Doubles the speed of the [[Exo Box]] [[mount]] when held.
+|- id="Exo Chair Slow Down"
+! Exo Chair Speed Up
+| style="border-bottom:1px #ccc solid" align="center" | {{key|Exo Chair Slow Down}}
+| style="border-bottom:1px #ccc solid" align="center" | RightShift
+| style="border-bottom:1px #ccc solid;" | Halves the speed of the [[Exo Box]] [[mount]] when held.
+|- id="God Slayer Dash"
+! God Slayer Dash
+| style="border-bottom:1px #ccc solid" align="center" | {{key|God Slayer Dash}}
+| style="border-bottom:1px #ccc solid" align="center" | H
+| style="border-bottom:1px #ccc solid;" | Activates the God Slayer dash when the [[God Slayer armor]] is equipped.
+|- id="Momentum Capacitor Effect"
+! Momentum Capacitor Effect
+| style="border-bottom:1px #ccc solid" align="center" | {{key|Momentum Capacitor Effect}}
+| style="border-bottom:1px #ccc solid" align="center" | U
+| style="border-bottom:1px #ccc solid;" | Creates an energy field around the player's cursor at the cost of the player's [[Spy stealth|stealth]] while the [[Momentum Capacitor]] is equipped.
+|- id="Normality Relocator"
+! Normality Relocator
+| style="border-bottom:1px #ccc solid" align="center" | {{key|Normality Relocator}}
+| style="border-bottom:1px #ccc solid" align="center" | Z
+| style="border-bottom:1px #ccc solid;" | Teleports the player to the position of the mouse cursor when the [[Normality Relocator]] is in the player's inventory.
+|- id="Rage Mode"
+! Rage Mode
+| style="border-bottom:1px #ccc solid;" align="center" | {{key|Rage Mode}}
+| style="border-bottom:1px #ccc solid;" align="center" | T
+| style="border-bottom:1px #ccc solid;" | Triggers the [[Rage Mode]] buff when the [[Rage Meter]] is full.
+|- id="Sand Cloak Effect"
+! Sand Cloak Effect
+| style="border-bottom:1px #ccc solid;" align="center" | {{key|Sand Cloak Effect}}
+| style="border-bottom:1px #ccc solid;" align="center" | C
+| style="border-bottom:1px #ccc solid;" | Creates a dust veil around the player at the cost of the player's stealth while the [[Sand Cloak]] is equipped.
+|- id="Spectral Veil Teleport"
+! Spectral Veil Teleport
+| style="border-bottom:1px #ccc solid;" align="center" | {{key|Spectral Veil Teleport}}
+| style="border-bottom:1px #ccc solid;" align="center" | Z
+| style="border-bottom:1px #ccc solid;" | Teleport to the player's cursor at the cost of the player's stealth while the [[Spectral Veil]] is equipped.
+|- id="Scroll Ability"
+! {{fantag|Deimos, the Starborn Princess}} Scroll Ability
+| align="center" | {{key|Scroll Ability}}
+| align="center" | X
+| Uses a [[Scrolls]] special ability if it has one.
+|}
+
+== See Also ==
+*[[tgc:Game controls|Game controls]] on the vanilla Terraria Wiki.
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

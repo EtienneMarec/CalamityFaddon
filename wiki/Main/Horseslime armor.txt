@@ -1,0 +1,141 @@
+{{addon|Deimos, the Starborn Princess}}
+{{item infobox
+| imagebreak = yes
+| type = Armor
+| defense = 144/133/124/118/138
+| buff = Baby Slime God (buff)
+| bufftip = The slime god will protect you
+| duration = Infinite (Phantasmal Collar)
+| buff2 = Apocalyptic Apparition (buff) | bufflink = no
+| bufftip2 = An apparition of the horseslimes will protect you
+| duration2 = Infinite (Phantasmal Collar)
+| setbonus = Walking leaves a trail of damaging slime<br/>Jump speed increased by 20%<br/>Attacks have a 20% chance to shoot a fireball<br/>+30 defense and +8 life regen when below 50% health<br/>[[Statigel armor|Statigel]] armor effect<br/><br/> '''War Helm''': Enemies are more likely to target you<br/>True melee strikes will heal yous<br/><br/> '''Famine Hat''': Restores mana when damaged<br/><br/> '''Phantasmal Collar''': 55% increased minion damage, +4 max minions, and +1 max sentries<br/>Summons an apparition to defend you<br/><br/> '''Conquest Visor''': Spy stealth builds while not attacking and slower while moving, up to a max of 100<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+| resistance1 = Poison
+| resistance2 = Dark
+| resistance3 = Holy
+| vulnerable1 = Fire
+| vulnerable2 = Magic
+| vulnerable3 = Unholy
+| rare = 14
+| sell = {{gc|33}} (set)
+|boxwidth = 23em
+}}
+{{summoned|Baby Slime God|type=minion}}
+{{summoned|Apocalyptic Apparition|type=minion}}
+
+'''Horseslime armor''' is a craftable Godseeker Mode [[Covering]] set crafted from [[Statigel armor]]. 20 [[Quark-Gluon Sludge]], 20 [[Life Alloy]], 10 [[Omnicidal Sludge Bar]]s, and the corresponding pieces from [[Statigel armor]] are required to craft a set utilizing one headpiece.
+
+It consists of the '''Horseslime Core Plate''' and '''Horseslime Legs''', as well as having five different headpieces suited to each class, being: the '''Goopocalypse War Helm''', '''Goopocalypse Death Helmet''', '''Goopocalypse Famine Hat''', '''Goopocalypse Phantasmal Collar''', and '''Goopocalypse Conquest Visor'''. All helmets share a set bonus, but also provide set bonuses specific to their respective class as well.
+
+The '''Horseslime Core Plate''' gives 56 defense, 7% increased [[Damage Reduction]], 15 extra [[Immunity frames]], +5 life regen, and +15 armor penetration.
+The '''Horseslime Legs''' give 44 defense and 20% increased movement speed.
+*The '''Goopocalypse War Helm''' gives 44 defense, 20% increased melee damage, 30% increased [[True melee|true melee]] damage, and 12% increased melee critical strike chance.
+*The '''Goopocalypse Death Helmet''' gives 33 defense and 20% increased ranged damage and 12% increased ranged critical strike chance.
+*The '''Goopocalypse Famine Hat''' gives 24 defense, 20% increased magic damage and 15% increased magic critical strike chance, +80 mana, and 15% reduced mana cost.
+*The '''Goopocalypse Phantasmal Collar''' gives 18 defense and 5% increased minion damage.
+*The '''Goopocalypse Conquest Visor''' gives 38 defense, 25% increased Spy damage and 12% increased Spy critical strike chance.
+
+== Set Bonuses ==
+Regardless of the headpiece chosen, equipping a full set of Goopocalypse armor will provide the following set bonuses:
+*Walking and running will leave a trail of dark slime.
+**The slime deals 1000 typeless damage.
+*Jump speed is increased by 20%.
+*All non-summoner attacks have a 20% chance of shooting a fireball.
+**These fireballs deal 1500 typeless damage.
+*If the player is at 50% of their life or below, they will gain 35 defense and +8 life regen.
+*Immunity to the [[Omnislime]] debuffs.
+*Most effects from the [[Statigel armor]] set.
+
+In addition to the above, various headpieces provide their own set bonuses:
+
+'''Goopocalypse War Helm:'''
+*+700 to [[Aggro]].
+*Causes true melee strikes to [[Lifesteal|heal]] on hit.
+
+'''Goopocalypse Famine Hat:'''
+*Grants the effects of [[Magic Cuffs]].
+
+'''Goopocalypse Phantasmal Collar:'''
+*55% increased minion damage, +3 max minions, and +1 max sentries.
+*Summons an Apocalyptic Apparition, which shoots fireballs at enemies.
+**These fireballs deal 900 summon damage.
+
+'''Goopocalypse Conquest Visor:'''
+*Gives a maximum [[Spy stealth]] of 100.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Goopocalypse Plate
+| type = Armor
+| defense = 44
+| tooltip = Damage taken is reduced by 7%, 15 extra immunity frames, +5 life regen, and +15 armor penetration
+| body slot = Shirt
+| hardmode = yes
+| postml = yes
+| sell = {{gc|11}}
+}}
+|{{item infobox
+| name = Goopocalypse Legs
+| type = Armor
+| defense = 44
+| tooltip = 20% increased movement speed
+| body slot = Pants
+| hardmode = yes
+| postml = yes
+| sell = {{gc|11}}
+}}
+}}
+
+=== Helmet variants ===
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Goopocalypse War Helm
+| type = Armor
+| defense = 44
+| tooltip = You can move freely through liquids and have temporary immunity to lava<br/>20% increased melee damage, 30% increased true melee damage, and 12% increased melee critical strike chance
+| body slot = Helmet
+| hardmode = yes
+| postml = yes
+| sell = {{gc|11}}
+}}
+|{{item infobox
+| name = Goopocalypse Death Helmet
+| type = Armor
+| defense = 33
+| body slot = Helmet
+| tooltip = You can move freely through liquids and have temporary immunity to lava<br/>20% increased ranged damage and 12% increased ranged critical strike chance
+| sell = {{gc|11}}
+}}
+|{{item infobox
+| name = Goopocalypse Famine Hat
+| type = Armor
+| defense = 24
+| body slot = Helmet
+| tooltip = You can move freely through liquids and have temporary immunity to lava<br/>20% increased magic damage, 15% increased magic critical strike chance, +80 mana, and 15% reduced mana cost
+| sell = {{gc|11}}
+}}
+|{{item infobox
+| name = Goopocalypse Phantasmal Collar
+| type = Armor
+| defense = 18
+| body slot = Helmet
+| tooltip = You can move freely through liquids and have temporary immunity to lava<br/>5% increased minion damage
+| sell = {{gc|11}}
+}}
+|{{item infobox
+| name = Goopocalypse Conquest Visor
+| type = Armor
+| defense = 34
+| body slot = Helmet
+| tooltip = You can move freely through liquids and have temporary immunity to lava<br/>25% increased Spy damage and 12% increased Spy critical strike chance
+| sell = {{gc|11}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|station=Entropic Refiner|result=LIKE Horseslime%/LIKE Goopocalypse%}}
+{{-}}
+{{Omnicidal}}
+{{DeimosMod}}

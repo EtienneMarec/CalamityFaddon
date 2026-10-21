@@ -1,0 +1,78 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| use = 14
+| sell = No value
+| stack = 9999
+| rare = 0
+| color = #3B324D
+| hardmode = yes
+}}
+
+'''Celestial Remains''' is a [[Hardmode]] [[block]] which replaces [[Desert Fossil]]s in the [[Astral Infection]] [[biome]] upon its creation. Like its counterpart, it can be used in the [[Extractinator]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Extractinator Loot ==
+{| class="terraria sortable lined"
+! Item !! Chance !! Quantity
+|-
+| {{item|Copper Coin}} || 20% || 1–99
+|-
+| {{item|Silver Coin}} || 7% || 1–99
+|-
+| {{item|Gold Coin}} || 1% || 1–99
+|-
+| {{item|Platinum Coin}} || 0.03% || 1–10
+|-
+| {{item|Ancient Bone Dust}} || 20% || 1–10
+|-
+| {{item|Fallen Star}} || 10% during nighttime || 1–20
+|-
+| {{item|Stardust}} || 10% || 1–20
+|-
+| {{item|Diamond}} || 1% || 1–20
+|-
+| {{item|Ruby}} || 1% || 1–20
+|-
+| {{item|Topaz}} || 1% || 1–20
+|-
+| {{item|Emerald}} || 1% || 1–20
+|-
+| {{item|Sapphire}} || 1% || 1–20
+|-
+| {{item|Amethyst}} || 1% || 1–20
+|-
+| {{item|Amber}} || 5% || 1–20
+|-
+| {{item|Cobalt Ore}} || 1.25% || 1–16
+|-
+| {{item|Palladium Ore}} || 2.75% || 1–16
+|-
+| {{item|Mythril Ore}} || 2% after defeating one Mechanical Boss || 1–16
+|-
+| {{item|Orichalcum Ore}} || 2% after defeating one Mechanical Boss || 1–16
+|-
+| {{item|Adamantite Ore}} || 1.75% after defeating two Mechanical Bosses || 1–16
+|-
+| {{item|Titanium Ore}} || 0.75% after defeating two Mechanical Bosses || 1–16
+|-
+| {{item|Astral Ore}} || 10.74% after defeating [[Astrum Deus]] || 1
+|-
+|}
+
+== Notes ==
+*If the condition for getting Fallen Stars or Astral Ore from the Extractinator is not met but the player succeeds in rolling either of those items, the vanilla loot table is used instead.
+*If the condition for the tier 2 and 3 Hardmode ores are not met, the highest unlocked tier is extracted instead. 
+
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

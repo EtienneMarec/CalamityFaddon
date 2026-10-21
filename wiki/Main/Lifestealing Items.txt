@@ -1,0 +1,461 @@
+{| width="100%"
+|<span class="ajaxHide">
+{{main|Lifesteal}}
+</span>
+This is a list of all items in the Calamity Mod which have the ability to steal life from enemies. Also listed is their healing amount, method of healing, as well as whether or not they bypass <code>canGhostHeal</code> or the lifesteal cooldown.
+|}
+{{item/options|mode=table}}
+{| class="terraria sortable lined" style="text-align:center"
+! colspan=2 | Item
+! width=190px | Healing Amount
+! width=210px | Healing Method
+![[Rarity]]
+! Bypasses<br/><code>canGhostHeal</code>?
+! width=90px | Bypasses<br/>cooldown?
+|-
+| {{item|Ace's High}}
+| 1
+| Directly on projectile hits (Heart cards)
+| {{rare|d|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Blood Boiler}}
+| 1 to 3
+| Directly on projectile hits,<br/>50% chance
+| {{rare|13|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Bloodfire Arrow|note=(and [[Arterial Assault]])|wrap=y}}
+| 1
+| Directly on projectile hits,<br/>33.33% chance
+| {{rare|13|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Bloodsoaked Crasher}}
+| 1
+| Directly on projectile hits,<br/>50% chance<br/>(Axe)
+| {{rare|13|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Bloodsoaked Crasher}}
+| 5
+| Directly on projectile hits<br/>(Blood)
+| {{rare|13|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Bloodstained Glove}}
+| 1
+| Directly on projectile hits<br/>(Spy stealth strikes)
+| {{rare|3|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Bloody Edge}}
+| 1 to 3
+| Directly on melee hits,<br/>50% chance
+| {{rare|3|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Bloody Rupture}}
+| 5
+| Directly on projectile hits
+| {{rare|3|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Burnt Sienna}}
+| 3
+| Summons healing projectiles<br/>on melee enemy kills
+| {{rare|3|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Carnage}}
+| 5
+| Directly on projectile hits
+| {{rare|riv|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Claret Cannon}}
+| 1
+| Directly on projectile hits,<br/>50% chance
+| {{rare|13|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Corpus Avertor}}
+| 5% of projectile damage
+| Summons a healing projectile<br/>on projectile hits (Red knives)
+| {{rare|d|sort=yes}}
+| {{yes}}
+| {{no}}
+|-
+| {{item|Dragonblood Disgorger}}
+| 1
+| Directly on projectile hits<br/>by children's blood spit
+| {{rare|13|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Earth}}
+| 1 to 68
+| Directly on melee hits
+| {{rare|16|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Earth}}
+| 7.5% of projectile damage
+| Summons a healing projectile<br/>on projectile hits<br/>(Green meteor)
+| {{rare|16|sort=yes}}
+| {{yes}}
+| {{no}}
+|-
+| {{item|Electrician's Glove}}
+| 1
+| Directly on projectile hits<br/>(Spy stealth strikes)
+| {{rare|6|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Elemental Excalibur}}
+| 10 to 19
+| Directly on melee hits
+| {{rare|rainbow|sort=yes}}
+| {{no}}
+| {{no}}
+|-
+| {{item|Empyrean Knives}}
+| 0.5% of projectile damage
+| Summons a healing projectile<br/>on projectile hits
+| {{rare|15|sort=yes}}
+| {{yes}}
+| {{no}}
+|-
+| {{item|Essence Flayer}}
+| 8
+| Summons a healing projectile<br/>on projectile enemy kills
+| {{rare|14|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Exoblade}}
+| 5 to 9
+| Directly on melee hits
+| {{rare|15|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Exoblade}}
+| 1% of projectile damage
+| Summons a healing projectile<br/>on projectile hits<br/>(Comet bolts)
+| {{rare|15|sort=yes}}
+| {{yes}}
+| {{no}}
+|-
+| {{item|Eye of Magnus}}
+| 1
+| Directly on projectile hits
+| {{rare|riv|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Eye of Magnus}}
+| 25 Mana
+| Directly on projectile hits
+| {{rare|riv|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Gilded Proboscis}}
+| 1
+| Directly on melee hits,<br/>50% chance
+| {{rare|12|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Grand Gar}}
+| 4
+| Directly on melee hits<br/>to enemies with 0 defense
+| {{rare|10|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Grand Guardian}}
+| 8
+| Summons healing projectiles<br/>on melee enemy kills
+| {{rare|10|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Illustrious Knives}}
+| 1.5% of projectile damage
+| Summons a healing projectile<br/>on projectile hits
+| {{rare|16|sort=yes}}
+| {{yes}}
+| {{no}}
+|-
+| {{item|Lacerator}}
+| 1
+| Directly on melee hits,<br/>20% chance
+| {{rare|13|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Leeching Dagger}}
+| 5
+| Directly on projectile hits
+| {{rare|3|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Lifehunt Scythe}}
+| 5
+| Directly on melee hits
+| {{rare|12|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Majestic Gar}}
+| 3
+| Directly on melee hits<br/>to enemies with 0 defense
+| {{rare|5|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|The Mutilator}}
+| 20
+| Spawns [[heart]]s on melee hits<br/>to enemies below 20% life
+| {{rare|13|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Nanotech}}
+| 1
+| Directly on projectile hits<br/>(Spy stealth strikes)
+| {{rare|14|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Pearl God}}
+| 10% of projectile damage
+| Summons a healing projectile<br/>on projectile hits
+| {{rare|riv|sort=yes}}
+| {{yes}}
+| {{no}}
+|-
+| {{item|Phoenix Blade}}
+| 10
+| Summons healing projectiles<br/>on melee enemy kills
+| {{rare|6|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Sanguine Flare}}
+| 1
+| Directly on projectile hits
+| {{rare|13|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Vermillion Angel}}
+| 120
+| Directly on projectile hits<br/>while [[Spy#Stealth|Spy stealth]] is active<br/>(Spear)
+| {{rare|16|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Terra Edge}}
+| 2 to 3
+| Directly on melee hits
+| {{rare|8|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|Terra-cotta}}
+| 9
+| Summons healing projectiles<br/>on melee enemy kills
+| {{rare|8|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Terratomere}}
+| 2 to 4
+| Directly on melee hits
+| {{rare|10|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|True Bloody Edge}}
+| 1 to 6
+| Directly on melee hits,<br/>50% chance
+| {{rare|8|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Vampiric Talisman}}
+| 1.5% of projectile damage
+| Summons a healing projectile<br/>on Spy projectile critical hits
+| {{rare|6|sort=yes}}
+| {{yes}}
+| {{no}}
+|-
+| {{item|Viscera}}
+| 1<br/>x1.4 per bounce/pierce
+| Directly on projectile hits
+| {{rare|13|sort=yes}}
+| {{no}}
+| {{yes}}
+|-
+| {{item|The Amalgam}}
+| 25% of minion damage
+| Summons a healing projectile<br/>on minion hits<br/>(Fungal Clump)
+| {{rare|rainbow|sort=yes}}
+| {{yes}}
+| {{no}}
+|-
+| {{item|Fungal Clump}}
+| 25% of minion damage
+| Summons a healing projectile<br/>on minion hits<br/>(Fungal Clump)
+| {{rare|rainbow|sort=yes}}
+| {{yes}}
+| {{no}}
+|-
+| {{item|Mana Polarizer}}
+| 20% of projectile damage<br/>(multiplied by the player's current mana ratio)
+| Summons a healing projectile<br/>on magic projectile hits
+| {{rare|rainbow|sort=yes}}
+| {{no}}
+| {{no}}
+|-
+| {{item|Hydrothermic armor|image=Hydrothermic Mask.png|note=(with [[Hydrothermic Mask]])|wrap=y}}
+| 10% of projectile damage<br/>(-5% per repeat pierce hit)
+| Summons a healing projectile<br/>on magic projectile hits
+| {{rare|8|sort=yes}}
+| {{no}}
+| {{no}}
+|-
+| {{item|Auric Tesla armor}}
+| 5% of projectile damage<br/>(-2.5% per repeat pierce hit)
+| Summons a healing projectile<br/>on projectile hits
+| {{rare|15|sort=yes}}
+| {{no}}
+| {{no}}
+|-
+| {{item|Auric Tesla armor}}
+| 20
+| Spawns [[heart]]s on weapon hits<br/>to enemies below 50% life<br/>every 3 seconds<br/>(Bloodflare inheritance)
+| {{rare|15|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Auric Tesla armor}}
+| 100 Mana
+| Spawns [[Mana Star]]s on weapon hits<br/>to enemies above 50% life<br/>every 3 seconds<br/>(Bloodflare inheritance)
+| {{rare|15|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Auric Tesla armor|image=Auric Tesla Plumed Helm.png|note=(with [[Auric Tesla Plumed Helm|Auric Tesla<br/>Plumed Helm]])|wrap=y}}
+| 1
+| Directly on [[Spy]] projectile crits,<br/>50% chance<br/>(Bloodflare inheritance)
+| {{rare|15|sort=yes}}
+| {{no}}
+| {{no}}
+|-
+| {{item|Auric Tesla armor|image=Auric Tesla Royal Helm.png|note=(with [[Auric Tesla Royal Helm|Auric Tesla<br/>Royal Helm]])|wrap=y}}
+| 1 to 3
+| Directly on melee hits<br/>(Bloodflare inheritance)
+| {{rare|15|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Auric Tesla armor|image=Auric Tesla Wire-Hemmed Visage.png|note=(with [[Auric Tesla Wire-Hemmed Visage|Auric Tesla<br/>Wire-Hemmed Visage]])|wrap=y}}
+| 1% of projectile damage
+| Summons a healing projectile<br/>on magic projectile hits<br/>(Tarragon inheritance)
+| {{rare|15|sort=yes}}
+| {{no}}
+| {{no}}
+|-
+| {{item|Auric Tesla armor|image=Auric Tesla Wire-Hemmed Visage.png|note=(with [[Auric Tesla Wire-Hemmed Visage|Auric Tesla<br/>Wire-Hemmed Visage]])|wrap=y}}
+| 3% of projectile damage<br/>(-1.5% per repeat pierce hit)
+| Summons a healing projectile<br/>on magic projectile hits<br/>(God Slayer inheritance)
+| {{rare|15|sort=yes}}
+| {{no}}
+| {{no}}
+|-
+| {{item|Bloodflare armor}}
+| 20
+| Spawns [[Heart]]s on weapon hits<br/>to enemies below 50% life<br/>every 3 seconds
+| {{rare|13|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Bloodflare armor}}
+| 100 Mana
+| Spawns [[Mana Star]]s on weapon hits<br/>to enemies above 50% life<br/>every 3 seconds
+| {{rare|13|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|Bloodflare armor|image=Bloodflare Imp Mask.png|note=(with [[Bloodflare Imp Mask]])|wrap=y}}
+| 1
+| Directly on [[Spy]] projectile crits,<br/>50% chance
+| {{rare|13|sort=yes}}
+| {{no}}
+| {{no}}
+|-
+| {{item|Bloodflare armor|image=Bloodflare Ram Mask.png|note=(with [[Bloodflare Ram Mask]])|wrap=y}}
+| 1 to 3
+| Directly on melee hits
+| {{rare|13|sort=yes}}
+| {{yes}}
+| {{yes}}
+|-
+| {{item|God Slayer armor|image=God Slayer Visage.png|note=(with [[God Slayer Visage]])|wrap=y}}
+| 6% of projectile damage<br/>(-1.5% per repeat pierce hit)
+| Summons a healing projectile<br/>on magic projectile hits
+| {{rare|14|sort=yes}}
+| {{no}}
+| {{no}}
+|-
+| {{item|Omega Blue armor}}
+| Varies
+| Summons a healing projectile<br/>on tentacle hits
+| {{rare|13|sort=yes}}
+| {{no}}
+| {{no}}
+|-
+| {{item|Silva armor}}
+| 3% of projectile damage<br/>(-1.5% per repeat pierce hit)
+| Summons a healing projectile<br/>on projectile hits
+| {{rare|15|sort=yes}}
+| {{no}}
+| {{no}}
+|-
+| {{item|Tarragon armor|image=Tarragon Mask.png|note=(with [[Tarragon Mask]])|wrap=y}}
+| 2% of projectile damage
+| Directly on magic projectile hits
+| {{rare|12|sort=yes}}
+| {{no}}
+| {{no}}
+|-
+| {{item|Empyrean armor}}
+| 10% of projectile damage<br/>(-5% per repeat pierce hit)
+| Summons a healing projectile<br/>on Spy projectile hits
+| {{rare|10|sort=yes}}
+| {{no}}
+| {{no}}
+|-
+|}
+{{item/options|reset}}
+
+[[Category:Game mechanics]]
+[[Category:Healing items]]

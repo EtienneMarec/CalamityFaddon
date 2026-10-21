@@ -1,0 +1,31 @@
+{{item infobox
+| type = Furniture
+| tooltip = Offer Ashes of Calamity at this altar to summon the Witch<br/>Doing so will create a square arena of blocks, with the altar at its center<br/>During the battle, heart pickups only heal for half as much
+| placeable = yes
+| stack = 9999
+| auto = yes
+| width = 4
+| height = 3
+| use = 14
+| rare = 15
+| color = #2B132A
+| sell = No value
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Altar of the Accursed''' is a craftable Godseeker Mode [[furniture]] item. When right-clicked, it is used to summon [[Supreme Calamitas]] while [[Ashes of Calamity]] or a [[Ceremonial Urn]] is in the player's inventory. Upon successfully summoning the boss, one Ashes of Calamity is removed from the player's inventory if the player does not have a Ceremonial Urn, and the sky darkens, summoning Supreme Calamitas shortly after.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The Altar of the Accursed cannot be destroyed by [[explosive]]s.
+*The Altar of the Accursed can be highlighted by the [[Spelunker Potion]] effect.
+
+{{-}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

@@ -1,0 +1,24 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Crafting material
+| type2 = Covering
+| tooltip = Right click on an enemy to change their gravity, doesnt work on bosses/minibosses/flying enemies
+| stack = 9999
+| rare = 5
+| sell = {{value|0|10}}
+| hardmode = yes
+}}
+'''Illucenic Eye''' is a craftable Godseeker Mode covering . It lets you change the gravity of normal ground enemies simply by right clicking on them
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]

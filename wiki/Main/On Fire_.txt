@@ -1,0 +1,58 @@
+{{dablink|For the vanilla debuff page see [[tgc:On Fire!|On Fire!]]}}
+
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-4 health per second
+| tooltip = Slowly losing life
+}}
+
+'''On Fire!''' is a vanilla [[debuff]] which prevents regeneration and causes the afflicted [[NPC]] or player to lose 4.2 health per second. When an enemy is [[Oiled]], it will lose 69 [[health]] per second instead.
+
+== Causes ==
+=== From Calamity Items ===
+{{item debuffs
+|{{item|mode=table|Flask of Fire}}|3-6 seconds (Spy attacks)|100%
+|{{item|mode=table|Explosives}}|10 seconds|100%
+}}
+
+=== From Calamity NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+|offset = 500
+}}
+| {{item|mode=table|The Destroyer}}||{{revengeance|4 seconds}} (Red lasers)||{{revengeance|100%}}
+|-
+| {{item|mode=table|Hellbat}}||{{expert|2 seconds}}||{{expert|100%}}
+|-
+| {{item|mode=table|Lava Bat}}||3 seconds||100%
+|-
+| {{item|mode=table|Prime Laser}}||{{revengeance|4 seconds}} (Red lasers)||{{revengeance|100%}}
+|-
+| {{item|mode=table|Retinazer (Second Form)}}||{{revengeance|4 seconds}} (Red lasers and Homing missiles)||{{revengeance|100%}}
+|-
+| {{item|mode=table|Skeletron Prime}}||{{revengeance|4 seconds}} (Red lasers)||{{revengeance|100%}}
+|-
+| {{item|mode=table|Wall of Flesh Eye}}||{{revengeance|4 seconds}} (Red lasers)||{{revengeance|100%}}
+|-
+|}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

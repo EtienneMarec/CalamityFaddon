@@ -1,0 +1,51 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damage = 130
+| damagetype = Spy
+| velocity = 15
+| knockback = 5
+| use = 12
+| tooltip = Fires a variety of deadly spheres with different effects<br/>Stacks up to 5<br/>Stealth strikes launch all 4 sphere types at once
+| rare = 8
+| stack = 5
+| sell = {{value|0|3|20}}
+| hardmode = yes
+| element1 = Dark
+}}
+|{{item drops infobox
+| [[Deadly Sphere]]|1|{{dv|20%|33%}}
+}}
+}}
+
+The '''Defective Sphere''' is a [[Hardmode]] [[Spy]] [[boomerang]] that is dropped by [[Deadly Sphere]]s. Defective Spheres can be stacked up to five times, the amount of spheres thrown depends on the amount of stacks the player has. Spheres thrown can become one of four variants, listed below.
+
+Performing a [[stealth strike]] with Defective Spheres will cause all 4 sphere types to be thrown at once, regardless of stack limit, while making each sphere deal 65% damage instead of 100%.
+
+{{Modifier|none}}
+
+== Sphere Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Item !! colspan=2 | Description
+|-
+| align="center" | {{item|Yellow Thruster Spheres|mode=table|nolink=y}}
+| align=center | A sphere that returns to the player after striking an [[enemy]].
+|-
+| align="center" | {{item|Spiked Spheres|mode=table|nolink=y}}
+| align=center | A  high velocity sphere that moves swiftly and returns to the player after striking an enemy.
+|-
+| align="center" | {{item|Bladed Spheres|mode=table|nolink=y}}
+| align=center | A extremely high velocity sphere that ignores tiles and pierces indefinitely until returning to the player.
+|-
+| align="center" | {{item|Blue Thruster Spheres|mode=table|nolink=y}}
+| align=center | A sphere that will home-in on enemies and explode on contact. This sphere will not return to the player.
+|}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

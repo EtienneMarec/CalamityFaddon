@@ -1,0 +1,61 @@
+<includeonly><!--
+
+//prepare image file info
+-->{{#if:{{#pos:{{{1|}}}|.}}|<!--
+	-->{{image/info|{{{1|}}}|{{{force|}}}}}<!-- for "filename.ext" will do exist check. directly.(expensive)
+-->|<!-- 
+	// for "filename" will check "filename.gif" and "filename.png" (expensive*2)
+	-->{{image/info|{{{1|}}}.gif|{{{force|}}}}}<!-- 
+	-->{{#if:{{#dplvar:_image_exist}}||<!--
+		-->{{image/info|{{{1|}}}.png|{{{force|}}}}}<!-- 
+	-->}}<!--
+-->}}<!--
+
+-->{{#if:{{#dplvar:_image_exist}}|<!--
+	-->{{#vardefine:_size_argument|}}<!-- cache
+	//process all input argument
+	-->{{#vardefine:_outputstr|<!-- string with all parameters of the "[[File:]]" call. fill it in the following loop
+		-->{{#forargs:|_k|_v|<!-- loop through all parameters
+			-->{{#iferror:{{#expr:1+{{#var:_k}}}}|<!-- check: is the parameter a named parameter?
+				//parameter is a named parameter
+				-->{{#switch:{{#var:_k}}<!-- check for certain parameters
+					-->|maxsize|scale|size=<!-- size options. skip, will process later.
+					-->|#default={{!}}{{#var:_k}}={{#var:_v}}<!-- other custom parameter. add "|<name of the parameter>=<value of the parameter>" to outputstring
+				-->}}<!-- 
+			-->|<!-- 
+				//parameter is an unnamed parameter
+				-->{{#switch:{{#var:_k}}<!--
+					-->|1=<!-- if parameter is the first unnamed parameter, then skip (is the image name info; already taken care of)
+					-->|#default=<!-- other unnamed parameters
+						-->{{#ifeq:{{#sub:{{#var:_v}}|-2}}|px|<!-- is the parameter the size option?
+							-->{{#vardefine:_size_argument|{{#var:_v}}}}<!-- 
+						-->|<!-- parameter is not the size option, but another (e.g. alt text or "thumb/frame/etc.")
+							-->{{!}}{{#var:_v}}<!-- add "|<value of the parameter>" to outputstring
+						-->}}<!--
+				-->}}<!-- 
+			-->}}<!-- 
+		-->}}<!-- 
+	-->}}<!-- 
+	//size:
+	-->{{#if:{{{maxsize|}}}{{{scale|}}}{{{size|}}}{{#var:_size_argument|}}|<!--
+		-->{{#vardefine:_outputstr|<!-- 
+			-->{{!}}<!-- 
+			-->{{image/size|{{{size|{{#var:_size_argument|}}}}}|{{{scale|1}}}|{{{maxsize|}}}}}<!-- 
+			-->{{#var:_outputstr}}<!-- concatenate size parameters with other parameters
+		-->}}<!-- 
+	-->}}<!-- 
+
+	//final output:
+	-->[[File:{{#dplvar:_image_name}}{{#var:_outputstr}}]]<!--
+-->}}<!-- 
+
+--></includeonly><noinclude><!--
+
+-->{{#cargo_declare:_table=Imageinfo
+|image=String (size=200;mandatory)
+|width=Integer
+|height=Integer
+|cached=Integer
+}}<!--
+
+-->{{doc}}</noinclude>

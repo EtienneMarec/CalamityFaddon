@@ -1,0 +1,47 @@
+{{buff infobox
+| type = Debuff
+| effects = Target loses 4 health per second, 3 defense, natural life regen is disabled, and the Darkness debuff is inflicted. Melee damage, melee speed, and movement speed are slightly increased, but ranged damage and magic damage are slightly decreased. (if player)<br/>-25 health per second. (if enemy)
+| tooltip = Your blood is on fire
+}}
+
+'''Burning Blood''' is a [[debuff]] inflicted solely by [[The Perforators]], [[Tooth Ball]]s, the [[Fulguration Halberd]], the [[Utensil Poker]], and the [[Blood Boiler]]. It causes the player to lose 4 health per second and 3 defense, and their vision is reduced similarly to the [[Darkness]] [[debuff]]. Movement speed is increased by 20%. Melee damage is increased by 5%, and melee speed is increased by 2.5%. However, ranged and magic damage are reduced by 10%.
+
+If the debuff is inflicted onto an enemy, it will lose 25 health per second.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

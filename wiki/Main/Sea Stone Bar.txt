@@ -1,0 +1,27 @@
+{{infobox wrapper
+|{{item infobox
+| type = Bar
+| type2 = Crafting material
+| rare = 1
+| placeable = yes
+| consumable = yes
+| use = 15
+| stack = 9999
+| sell = {{value|0|0|3}}
+| tooltip = 'Full of all moisture and very cold'
+| research = 25
+}}
+|{{item drops infobox
+| [[Grand Thunder Cnidrion]] | 16-20 | 100%
+}}
+}}
+
+'''Sea Stone Bars''' are [[pre-Hardmode]] [[bars]] that drop from [[Grand Thunder Cnidrion]].
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

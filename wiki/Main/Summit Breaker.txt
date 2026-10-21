@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 14
+| sell = {{value|0|50}}
+| damage = 650
+| use = 30
+| velocity = 20
+| knockback = 20
+| tooltip = Right click to throw your weapon. Right click it again while close to rend it from your target
+| auto = yes
+| stack =  1
+| hardmode = yes
+| element1 = Fire
+| element2 = Slash
+}}
+
+The '''Summit Breaker''' is a craftable Godseeker Mode [[broadsword]]. It has a unique, directional swinging animation that leaves behind a trail of plasma. Right clicking will have the player to throw the Summit Breaker, causing it to get stuck in whatever it collides with. If the player then right clicks on the weapon while within a short distance, they will rip it out of its target, dealing massive damage if it was stuck in an enemy. After retrieving the stuck Summit Breaker, the player will have to wait for a 20 second cooldown before they can throw it again.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*While the weapon is thrown, the player will not be able to switch to a different weapon.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Healing items]]
+[[Category:True melee]]

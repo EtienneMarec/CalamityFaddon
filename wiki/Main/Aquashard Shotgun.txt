@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| damagetype = ranged
+| damage = 14
+| knockback = 5.5
+| use = 26
+| stack = 1
+| critical = 10%
+| auto = yes
+| rare = 3
+| velocity = 22
+| sell = {{value|0|0|80}}
+| tooltip = Converts musket balls into aquashards that split upon hitting an enemy
+| proj = Aquashard.png
+| projcaption = Aquashard
+| element1 = Water
+| element2 = Stab
+}}
+
+The '''Aquashard Shotgun''' is a craftable [[Pre-Hardmode]] [[gun]]. Upon firing, it will shoot a spread of 1-3 bullets. If [[Musket Ball]]s are used as [[ammo]], the bullets are replaced with aquamarine shards that split into six smaller weakly homing shards upon contact with an [[enemy]], which deal reduced damage.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*It is considered a side-grade to the [[Boomstick]], as it trades higher damage and bullet count for a faster fire rate, auto-fire, and the ability to shoot splitting bullets given that Musket Balls are used.
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]
+[[zh:碎水霰弹枪]]

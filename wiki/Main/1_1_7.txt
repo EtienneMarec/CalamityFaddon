@@ -1,0 +1,220 @@
+{{patch infobox
+| image = Providence (1.1.7).png
+| size = 300px
+| patchname = Post Moon Lord Expansion
+| release = 2/2/2017
+}}
+
+The '''1.1.7''' update added a variety of Godseeker Mode content, with a total of 6 new bosses including [[Providence, the Profaned God]] and [[Supreme Calamitas]]. The update also added the [[Calamity Biome]], and a variety of weapons and balancing.
+
+== Additions ==
+=== [[Covering]] and [[coverings]] ===
+*Added [[God Slayer Chestplate]], [[God Slayer Helm]], [[God Slayer Leggings]], [[Providence Mask]], and [[Shroomite Visage]].
+*Added [[Asgardian Aegis]], [[Bloody Worm Scarf]], [[Counter Scarf]], [[Elysian Aegis]], [[Elysian Tracers]], and [[Elysian Wings]].
+
+=== [[Biomes]] ===
+*Added [[Calamity Biome]].
+
+=== [[Blocks]] ===
+*Added [[Charred Ore]] item.
+*Brimstone Slag and Charred Ore blocks can now be naturally found.
+
+=== [[Bosses]] and [[Enemies]] ===
+*Added [[Ceaseless Void]], [[Profaned Guardians]], [[Providence, the Profaned God]], [[Signus, Envoy of the Devourer]], [[Storm Weaver]], [[Supreme Calamitas]].
+*Added [[Despair Stone]], [[Scorn Eater]], [[Scryllar]], [[Soul Slurper]], [[Ungodly Serpent]].
+*Added [[Cosmic Lantern]], [[Dark Energy]], [[Stasis Probe|Stasis Probe (naked)]], [[Supreme Cataclysm]], [[Supreme Catastrophe]].
+
+=== [[Buffs]] ===
+*Added [[God Slayer Cooldown]], [[God Slayer Inferno]], [[Icarus' Folly]], [[Scarf Boost]], [[Scarf Cooldown]], [[Tyrant's Fury]], [[Vulnerability Hex]].
+
+=== [[Weapons]] ===
+*Added [[Anarchy Blade]], [[Ancient Shiv]], [[Aquatic Discharge]], [[Blissful Bombardier]], [[Bloody Rupture]], [[Brimblade]], [[Brimrose Staff]], [[Brimstone Fury]], [[Burning Sea]], [[Burnt Sienna]], [[Cleansing Blaze]], [[Cosmic Kunai]], [[Diseased Pike]], [[Elemental Blaster]], [[Energy Staff]], [[The Enforcer]], [[Essence Flayer]], [[Executioner's Blade]], [[Flameburst Shortsword]], [[Grand Guardian]], [[Holy Collider]], [[Icebreaker]], [[Leeching Dagger]], [[Mirror Blade]], [[Murasama]], [[Phoenix Blade]], [[Profaned Sword]], [[Purge Guzzler]], [[Sausage Maker]], [[SDFMG]], [[The Storm]], [[Stream Gouge]], [[Telluric Glare]], [[Terra-cotta]], [[Wrath of the Ancients]], and [[YinYo]].
+*Added [[Spore Knife]] as an unobtainable item.
+
+=== Other ===
+*Added [[Cosmilite Bar]], [[Dark Plasma]], [[Twisting Nether]], [[Unholy Core]], [[Unholy Essence]].
+*Added [[Calamity Biome Spawner]].
+*Added [[Treasure Bag (Providence)]].
+*Added [[Eye of Extinction]], [[Profaned Core]], [[Profaned Shard]], [[Rune of Kos]].
+
+== Changes ==
+=== Bosses and Enemies ===
+*Buffed [[Abyssion, The Forgotten One]] from the Thorium Mod's [[Prepare to Cry]] mode health boost from 16,000 to 26,000.
+
+*[[Calamitas]] changes:
+**Now immune to all debuffs.
+**Phase 1's lasers no longer gain extra damage after the [[Moon Lord]] has been defeated.
+**Now spawns 10 times less frequently.
+**Death message now refers to her as "A Calamitas Doppelganger".
+**[[Cataclysm]]'s death message now refers to him as "A Cataclysm Shade".
+**[[Catastrophe]]'s death message now refers to him as "A Catastrophe Shade".
+**Now drops {{dv|3-5|4-5}} [[Essence of Chaos|Essences of Chaos]].
+
+*[[Cryogen]] changes:
+**Nerfed phase 1's contact damage from {{dv|80|96}} to {{dv|70|84}}.
+**Nerfed phase 2's contact damage from {{dv|90|108}} to {{dv|80|96}}.
+**Nerfed phase 3 and 4's contact damages from {{dv|95|114}} to {{dv|85|102}}.
+**Nerfed phase 5 and 6's contact damages from {{dv|100|120}} to {{dv|90|108}}.
+**Nerfed Ice Bomb damage from 100 to 56.
+**Now drops {{dv|3-5|4-5}} [[Essence of Eleum|Essences of Eleum]] instead of {{dv|2-4|3-5}}.
+**Projectiles no longer gain extra damage after the Moon Lord has been defeated.
+**No longer gains speed in [[Prepare to Die]] Mode.
+**Now spawns 25 times less frequently.
+**Buffed [[Aurora Spirit]] damage from {{dv|46|73}} to {{dv|66|105}}.
+**Buffed [[Cryocore]] variant 1 damage from {{dv|35|42}} to {{dv|45|54}}.
+**Buffed Cryocore variant 2 damage from {{dv|45|54}} to {{dv|55|66}}.
+
+*[[Desert Scourge]] changes:
+**Now spawns 10 times less frequently.
+**Now drops up to 3 [[Coral]], [[Starfish]], and [[Seashell]]s instead of 2.
+**Decreased all weapon drop chances from {{dv|33%|50%}} to {{dv|25%|33%}}.
+
+*Moved [[The Destroyer]]'s piercing resistance from Prepare to Die ([[Celestial Onion]]) to Expert Mode.
+
+*[[The Devourer of Gods]] changes:
+**Buffed health from {{dv|500,000|750,000}} to {{dv|650,000|975,000}}.
+**Now immune to all debuffs.
+**Buffed star projectile damage in Normal Mode from 50 to 65.
+**Buffed Beam Portal damage from {{dv|0|220}} to {{dv|0|260}}.
+**Buffed Nebula Shot damage from {{expert|180}} to {{expert|220}}, its bolt damage from {{expert|240}} to {{expert|260}}, its star damage from {{expert|200}} to {{expert|260}}, and its Gravity Bomb damage from {{dv|100|120}} to {{dv|180|280}}.
+**Body segments now makes all non-minion projectiles pierce no more than once.
+**Tail now gains 99,999 defense once the boss reaches 15% health.
+**Tail no longer halves its damage taken multiplier upon reaching 50% health.
+**Now drops {{dv|25-34|30-39}} Cosmilite Bars instead of {{dv|8-10|10-12}} [[Armored Shell]]s.
+**Changed all weapon drop chances from 9.09% to {{dv|8.33%|10%}}.
+**Buffed [[Devourer Spawn]] health from {{dv|2000|2400}} to {{dv|20,000|24,000}}, nerfed its head's contact damage from {{expert|153}} to {{expert|136}}, and decreased its speed.
+**Buffed [[Stasis Probe]]'s health from 500 to {{dv|1100|1430}}, and its defense from 40 to 80.
+**Stasis Probes now only inflict [[Frozen]] on contact in Expert Mode, and are no longer guaranteed to inflict it.
+
+*[[The Hive Mind]] changes:
+**Can now spawn naturally in the [[Corruption]].
+**Buffed Vile Clot damage from {{dv|52|56}} to {{dv|66|72}}.
+**Buffed radial Vile Clot damage from {{dv|60|68}} to {{dv|80|92}}.
+**Vile Clot projectiles no longer deal any extra damage after the Moon Lord has been defeated.
+**Now shoots less Vile Clot projectiles and in a tighter spread.
+**No longer gains speed in Prepare to Die Mode.
+**Now enrages when outside the Corruption.
+
+*[[Jungle Dragon, Yharon]] changes:
+**Flare dust projectiles now spawn higher.
+**Now uses [[Music#Infernal Catharsis|Infernal Catharsis]] as its theme instead of [[Music#Kyurem|Kyurem's theme]].
+**Now immune to all debuffs.
+
+*[[The Perforators]] changes:
+**Buffed the small Perforator's head's damage from {{dv|40|52}} to {{dv|53|68}}, its body's damage from {{dv|23|29}} to {{dv|33|42}}, and its tail's damage from {{dv|9|11}} to {{dv|19|24}}.
+**Buffed the medium Perforator's head's damage from {{dv|55|71}} to {{dv|65|84}}, its body's damage from {{dv|31|40}} to {{dv|40|52}}, and its tail's damage from {{dv|11|14}} to {{dv|25|32}}.
+**Buffed the large Perforator's head's damage from {{dv|65|84}} to {{dv|80|104}}, its body's damage from {{dv|42|54}} to {{dv|52|67}}, and its tail's damage from {{dv|15|19}} to {{dv|35|45}}.
+**All three Perforators now enrage outside of the [[Crimson]].
+**Decreased all three Perforators' spawnrates.
+
+*[[The Plaguebringer Goliath]] is now immune to all debuffs.
+
+*[[Siren Lure and Leviathan]] are now immune to all debuffs.
+
+*[[Crawlers]], [[Cultist Assassin]]s, [[Heat Spirit]]s, [[Ice Clasper]]s, [[Pitbull]]s, [[Sand Tortoise]]s, and [[Sun Bat]]s no longer have gores.
+*Cultist Assassins now drop {{gc|2}} instead of {{gc|5}}.
+*All Essence of Chaos, [[Essence of Cinder]], and Essence of Eleum drop rates increased by one.
+*Shadow Essences no longer drop from [[Bone Lee]]s and [[Necromancer]]s. <!---Scal now--->
+
+=== Items ===
+*[[Asgard's Valor]] now has a dash ability, now has an equipped shield sprite, and now includes a line in its tooltip stating it grants immunity to fire blocks.
+*[[Azathoth]] no longer inflicts [[Cursed Inferno]].
+*All summoner weapons now create dust when summoning minions.
+*[[Devil's Devastation]] projectiles have been given new AI.
+*[[True Forbidden Oathblade]]'s projectiles now curve less.
+*Buffed [[Alpha Ray]]'s mana cost from 10 to 6, and its beam now sets target immunity frames to 2.
+*[[Ark of the Elements]]' projectiles now produce less dust.
+*Buffed [[Augur of the Elements]]' damage from 210 to 310, its use time from 2 to 1, and its use animation from 15 to 10.
+*Nerfed [[Barinade]]'s damage from 58 to 44, its shot speed from 24 to 18, and its bolt arrows now deal 50% of the weapon's damage.
+*Buffed [[Catastrophe Claymore]]'s damage from 55 to 68, its use time from 24 to 22, and its knockback from 4.25 to 6.25.
+*Buffed [[Celestial Claymore]]'s damage from 57 to 63, and its projectiles now deal 58-64 damage instead of 45-54.
+*Buffed [[Deathhail Staff]]'s damage from 162 to 212.
+*Buffed [[Deathwind]]'s damage from 145 to 175.
+*Buffed [[Drew's Wings]]' horizontal speed from 15 to 18, and its horizontal acceleration from 2.5 to 4.
+*[[Dragon Rage]]'s blasts now deal 50% of the weapon's damage instead of full.
+*Nerfed [[Dragon's Breath]]'s damage from 197 to 137.
+*Buffed [[Elemental Axe]]'s damage from 200 to 400.
+*Nerfed [[Elemental Eruption]]'s damage from 75 to 60.
+*[[Elemental Lance]]'s blue beams are now 75% slower.
+*[[Elemental Ray]] changes:
+**Nerfed damage from 115 to 95.
+**Main beam now lasts 3 seconds instead of 2, and primary split beams now last 0.5 seconds instead of 0.17.
+**Its split beams now deal full damage instead of 85% of the main beam's damage.
+**Split beams now produce more split beams 3 times less frequently.
+*[[Elemental Shiv]] now produces less dust.
+*Buffed [[Eradicator]]'s damage from 170 to 250.
+*Buffed [[Excelsus]]' damage from 210 to 280, and its lasers now deal 180 damage instead of 40.
+*Removed [[Forbidden Sun]]'s tooltip, and it now produces more dust.
+*Buffed [[Galaxia]]'s damage from 250 to 260 and its use time from 16 to 15, but its main projectile now only pierces twice instead of thrice.
+*[[Gamma Fusillade]]'s lasers now set target immunity frames to 3.
+*[[Genisis]]' beam now sets target immunity frames to 5.
+*Buffed [[Grax]]'s damage from 150 to 350, and hits now grant the Grax Boost buff for 8 seconds instead of 4.
+*[[Greatsword of Judgement]]'s projectiles now home.
+*All of [[The Hive]]'s projectiles now have an equal chance of being fired.
+*Nerfed [[Ion Blaster]]'s damage from 35 to 31.
+*[[Leviathan Ambergris]] now makes the player ignore [[Water]].
+*[[Lucrecia]] now grants 20 immunity frames to the player on hits instead of 40.
+*Buffed [[Lure of Enthrallment]]'s damage from 40 to 50.
+*Increased the speed of [[Nebulous Core]]'s stars.
+*[[Megafleet]] and [[Starfleet]]'s plasma blasts no longer inflict Cursed Inferno, and their explosions now produce more dust.
+*Nerfed [[Night's Ray]]'s damage from 30 to 26, its split beams now deal 60% of the main beam's damage instead of 40%, its split beams now last 0.5 seconds instead of 1.67, and its secondary split beams now last for 0.5 seconds instead of 0.17.
+*Buffed [[Night's Stabber]]'s damage from 33 to 45, its knockback from 5.75 to 6, and it now causes enemies to release homing dark energy projectiles on death.
+*[[Nuclear Fury]]'s projectiles now have a blue color filter, no longer inflict Cursed Inferno, and set target immunity frames to 5.
+*Buffed [[The Obliterator]]'s damage from 235 to 265.
+*Renamed Plague Cell Cluster to [[Plague Cell Canister]].
+*Buffed [[Pwnagehammer]]'s damage from 52 to 68, and its use time from 23 to 17.
+*Buffed [[Red Sun]]'s damage from 375 to 475.
+*Buffed [[Staff of the Mechworm]]'s damage from 55 to 75.
+*Buffed [[Starfleet]]'s damage from 150 to 250 and use time from 49 to 39, but nerfed the speed of its projectiles.
+*Buffed [[Svantechnical]]'s use time from 5 to 1.
+*Nerfed [[Terra Ray]]'s damage from 54 to 47, its split beams now deal 70% of the main beam's damage instead of 42.5%, its split beams now last for 0.5 seconds instead of 2, and its secondary split beams now last for 0.5 seconds instead of 0.17.
+*Buffed True Ark of the Ancients' damage from 73 to 89.
+*[[True Tyrant's Ultisword]] and [[Tyrant Yharim's Ultisword]] now have a chance to inflict Tyrant's Fury on true melee hits, and their Blazing Phantom Blades now home.
+*True Tyrant's Ultisword's Hyper Blades now home instead of speeding up over time.
+*[[Yharim's Insignia]] now causes melee hits to inflict [[Holy Flames]] instead of [[On Fire!]].
+
+=== Recipes ===
+*[[Cosmic Worm]] crafting recipe changed from 6 [[Ectoplasm]], 5 [[Luminite Bar]]s, 3 [[Soul of Light|Souls of Light]], 7 [[Soul of Night|Souls of Night]], and 3 [[Soul of Might|Souls of Might]] to 1 Armored Shell, 1 Dark Plasma, 1 Twisting Nether, and 7 Souls of Might.
+*All weapons dropped by The Devourer of Gods can no longer be crafted.
+*Devil's Devastation now uses Cosmilite Bars in its recipe instead of Armored Shells.
+*[[Angel Treads]] now use 1 [[Soul of Fright]], 1 [[Soul of Might]], and 1 [[Soul of Sight]] in their recipe.
+*[[Animus]] no longer uses [[Breaker Blade]] in its recipe.
+*[[Broken Biome Blade|Biome Blade]] now uses 5 Coral and 10 [[Pearlstone Block]]s in its recipe.
+*[[Brimlash]] now uses 4 Unholy Cores instead of 11 [[Ashes of Calamity]].
+*[[Crimsaber]] no longer uses Breaker Blade and [[Muramasa]] in its recipe.
+*Dragon Egg (summoning) now uses 5 [[Bar of Life|Bars of Life]] and 3 Cosmilite Bars in its recipe instead of 1 Armored Shell and 15 Bars of Life.
+*[[Earth]] now uses Grand Guardian in its recipe instead of [[Majestic Guard]].
+*[[Elemental Disk]] now uses [[Seashell Boomerang]] in its recipe instead of Eradicator.
+*Galaxia now uses 10 Cosmilite Bars in its recipe instead of 10 Luminite Bars.
+*[[Greatsword of Judgement]] no longer uses [[Blade of Enmity]] in its recipe.
+*Night's Stabber recipe changed from 1 [[Gold Shortsword]] or [[Platinum Shortsword]], 6 [[Demonite Bar]]s, and 5 [[Shadow Scale]]s or [[Tissue Sample]]s, to 1 Ancient Shiv, 1 Spore Knife, 1 Flameburst Shortsword and 1 Bloody Rupture or Leeching Dagger.
+
+=== Other ===
+*Brimstone Slag now has a pickaxe requirement of 199 instead of 209, and changed its map color from ({{color|#993333 ●|#993333}}) to ({{color|#141414 ●|#141414}}).
+*Renamed Brimstone Crag Rock tile to Charred Ore, and it now has a pickaxe requirement of 199 instead of 209.
+
+== Resprites ==
+*Resprited [[Brimstone Flames]].
+*Resprited [[???]], [[Cultist Assassin]], [[Dark Heart]], [[Pitbull]], and [[Siren Lure]].
+*Resprited [[Blighted Gel]], [[Cosmolight]], [[Daylight]], [[Desert Feather]], [[Galactica Singularity]], [[Moonlight]], Plague Cell Canister, [[Shadow Essence]], and [[Shadowspec Bar]].
+*Resprited [[Abyssal Tome]], Barinade, Celestial Claymore, [[Corroslime Staff]], [[Crimslime Staff]], [[Crystalline]], Deathhail Staff, Dragon's Breath, Excelsus, Greatsword of Judgement, [[Pestilent Defiler]], [[Phoenix Blade]], and Virulence.
+*Resprited [[Bloody Worm Tooth]] and [[Yharim's Insignia]].
+*Resprited [[Seraph Tracers]]' wing sprite.
+*Resprited [[Daedalus Breastplate]], [[Daedalus Helm]], and [[Daedalus Leggings]].
+*Resprited [[Cryogen Trophy]] and [[Slime God Trophy]].
+*Resprited [[Treasure Bag (The Slime God)]].
+
+== Fixes ==
+*Fixed Abyssion, the Forgotten One not being affected by Prepare to Cry Mode.
+*Fixed [[Aeries]], [[Apoctosis Array]], [[Barracuda Gun]], [[Charged Dart Blaster]], [[Clock Gatlignum]], [[Ion Blaster]], [[Lazinator]], [[Magna Striker]], Nuclear Fury, The Obliterator, [[Onyx Chain Blaster]], [[Pandemic]], Pestilent Defiler, [[Relic of Ruin]], [[Shadethrower]], [[Shroomer]], Svantechnical, [[The Swarmer]], [[Titanium Railgun]], and [[Vortexpopper]] hold offsets.
+*Fixed the crop on Earth's sprite.
+*Fixed missing pixels on [[Elemental Lance]]'s sprite.
+*Fixed [[Hellfire Flamberge]] dealing magic damage.
+*Fixed Magna Striker's projectile dealing magic damage instead of ranged damage.
+*Fixed [[Siren's Song]]'s notes not dealing magic damage.
+*Siren Lure and Leviathan both now properly inflict [[Wet]].
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

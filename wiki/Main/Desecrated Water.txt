@@ -1,0 +1,46 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damage = 55
+| damagetype = Rogue
+| knockback = 4.5
+| velocity = 12
+| use = 28
+| tooltip = Throws an unholy flask of water that explodes into an explosion of bubbles on death<br/>Stealth strikes spawn additional bubbles that inflict Ichor and Cursed Inferno
+| rare = 5
+| stack = 1
+| sell = {{value|0|4|80}}
+| debuff = Cursed Inferno
+| debuffchance = 100%
+| debuffduration = 3 seconds (stealth strike)
+| debufftip = Losing life<br/>All damage taken increased by 20%
+| debuff2 = Ichor (debuff)
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (stealth strike)
+| debufftip2 = Defense reduced by 20
+| hardmode = yes
+| proj = Desecrated Bubble.png
+| projcaption = Desecrated Bubble
+| element1 = Unholy
+| element2 = Water
+}}
+
+The '''Desecrated Water''' is a craftable [[Hardmode]] [[Bombs|bomb]]. When used, a gravity affected flask is thrown that breaks upon contact with [[enemies]] and blocks. Upon breaking, the flask releases five to eleven bubbles that travel in multiple directions away from where the flask broke. Each bubble will aggressively home in onto enemies and will deal 50% of the flask's base damage.
+
+Performing a [[stealth strike]] with the Desecrated Water will cause the next flask thrown to release three to five more bubbles and all the bubbles inflict the [[Cursed Inferno]] and [[Ichor (debuff)|Ichor]] [[debuffs]].
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Bombs]]

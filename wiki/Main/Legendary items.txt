@@ -1,0 +1,34 @@
+{{malice mode only}}
+'''Legendary items''' are unique [[weapons]] and [[coverings]] that are exclusive to [[Malice Mode]]. They are very powerful for the point at which they can be obtained, and the weapons often have a secondary right-click attack. They drop from their respective bosses with a {{malice|100%}} chance.
+
+== Weapons ==
+{| class="terraria sortable lined"
+! colspan=2 | Name !! <abbr title=Damage>DMG</abbr> !! <abbr title="Use Time">UT</abbr> !! <abbr title=Knockback>KB</abbr> !! <abbr title="Shoot Speed/Velocity">SS</abbr> !! <abbr title="Critical Chance">Crit</abbr> !! Auto !! [[Rarity]] !! <abbr title=Hardmode>HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Legendary Challenge items&Weapon items
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦:Melee weapons/dpl}
+| uses = Template:Item infobox
+| mode = userformat
+}}
+|}
+
+==coverings==
+*{{item|Burden Breaker}}, dropped by [[Skeletron Prime]]
+*{{item|The Community}}, dropped by [[Leviathan and Anahita]]
+
+==Trivia ==
+
+*Prior to the [[1.2.1.001]] update, the weapons' damage scaled as you progressed further into the game, and their abilities became upgraded upon defeating their respective boss. They also had a very small chance of being dropped by any enemy, with increased chances to drop from the bosses which are now their exclusive source. These features have since been removed from the weapons due to balancing issues, however The Community still retains similar scaling features.
+*Prior to the [[1.3.2.001]] update, the drop rate of these items was 10% instead of 1%. However, they were significantly weaker as a result.
+*Prior to the [[1.5.0.001]] update, the weapons were dropped by their respective bosses in [[Revengeance Mode]] or above, with a 1% chance. The [[Burden Breaker]], [[Gael's Greatsword]], and [[Yharim's Crystal]] were also added to the category in the same update.
+{{-}}
+{{Legendary Challenge item}}
+{{Master Template Weapons
+| show-main = yes
+}}
+{{Master Template Equipables
+| show-main = yes
+}}

@@ -1,0 +1,28 @@
+{{item infobox
+| type = Weapon
+| damage = 6<br/>9 (stealth strike)
+| use = 20
+| knockback = 2
+| damagetype = Rogue
+| rare = 0
+| tooltip = Throws a ball of dirt<br/>Stealth strikes break into smaller dirt clumps that hit nearby enemies
+| velocity = 7
+| stack = 9999
+| consumable = yes
+}}
+
+The '''Dirt Clump''' is a craftable consumable [[Pre-Hardmode]] [[spiky balls|spiky ball]]. It throws a gravity-affected ball of dirt that hits enemies for small damage.
+
+Performing a [[stealth strike]] with Dirt Clumps causes the next clump thrown to deal 50% more damage and break into dirt fragments which hit nearby enemies for 4 damage.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Spiky Balls]]

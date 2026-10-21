@@ -1,0 +1,51 @@
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 1350
+| damagetype = Ranged
+| knockback = 5
+| stack = 1
+| rare = 13
+| sell = {{value|0|28}}
+| auto = yes
+| use = 30
+| critical = 24%
+| velocity = 14.6
+| tooltip = Halley came sooner than expected<br/>Fires a flaming comet<br/>50% chance to not consume gel<br/>Right click to zoom out
+| hardmode = yes
+| postml = yes
+| debuff = Moon Burnt
+| debuffduration = 4 seconds
+| debufftip = Incinerated by lunar rays
+| debuffchance = 100%
+| image2 = Halley's Inferno (tank).png
+| image2caption = Equipped tank
+| element1 = Dark
+| element2 = Magic
+| element3 = Fire
+}}
+
+'''Halley's Inferno''' is a craftable Godseeker Mode [[flamethrowers|flamethrower]] that uses [[gel]] as [[ammunition]]. It shoots a light blue comet that pierces [[enemies]] ten times and inflicts the [[Moon Burnt]] [[debuff]]. There is a 50% chance for gel not to be consumed when fired. Pressing right-click while holding this weapon will allow the player to zoom out a large distance.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The name of the weapon is the reference to [[wikipedia:Halley's_Comet|Halley's comet]], a comet that can be seen from Earth roughly every 75 years.
+
+== Notes ==
+
+* Enemy defense, or defense in general, is quite ineffective against this weapon, due to the immensely high amount of damage it deals per shot.
+{{Stratus}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

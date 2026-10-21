@@ -1,0 +1,33 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 0
+| stack = 9999
+| rare = 2
+| color = #AA2200
+| use = 14
+| value = 425
+| sell = {{value|0|0|5|0}}
+}}
+
+<big> ''"The Desert Depths are filling with Victory"'' </big>
+
+'''Victide Ore''' is a [[pre-Hardmode]] [[ore]] which generates in the [[Desert]] upon [[Desert Scourge]]'s defeat. It is used as an alternate way to craft [[Victide Bar]]s.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

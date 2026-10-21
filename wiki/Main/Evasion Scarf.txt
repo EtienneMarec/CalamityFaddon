@@ -1,0 +1,42 @@
+{{dedicated|Mason|Patreon Donor}}
+{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = True melee strikes deal 15% more damage<br/>Grants the ability to dash; dashing into an attack will cause you to dodge it<br/>After a successful dodge you must wait 13 seconds before you can dodge again<br/>This cooldown will be 50 percent longer if you have Chaos State<br/>While on cooldown, Chaos State will be 50 percent longer
+| debuff = Evasion Scarf Cooldown | debufflink = no
+| debufftip = Your dodge is recharging
+| debuffduration = 13 seconds
+| rare = 5
+| sell = {{value|0|4|80}}
+| hardmode = yes
+| boxwidth = 23em
+}}
+
+
+The '''Evasion Scarf''' is a craftable [[Hardmode]] [[covering]] that is a direct upgrade to the [[Counter Scarf]].
+
+Wearing the scarf grants the player the ability to dash a base distance of 17 blocks left or right by double tapping the {{key|1=left}} or {{key|1=right}} key. While dashing, the player will dodge attacks and is granted the '''Evasion Scarf Cooldown''' [[debuff]]. This debuff will temporarily prevent the user from dodging any more attacks, though they are still able to dash.
+
+The scarf also increases damage of [[true melee]] hits by 15%.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Evasion Scarf cannot be equipped if the player is wearing the Counter Scarf covering, and vice versa.
+*If the player is under the [[Chaos State]] debuff from the [[Rod of Discord]], or [[Normality Relocator]], the scarf's cooldown will last 20 seconds instead of the original 13 seconds. Alternatively, if the player is under the Evasion Scarf Cooldown debuff, Chaos State will be applied longer upon the player when the Rod of Discord is used.
+*Like the Potion Sickness debuff, the Evasion Scarf Cooldown debuff can not be cured by the [[Nurse]].
+
+== Trivia ==
+*In previous versions of the mod, Evasion Scarf would grant the {{item|Evasion Scarf Boost}} buff if the player successfully dodged an attack, which gave +10% damage, +10% crit chance, and 15% melee speed.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

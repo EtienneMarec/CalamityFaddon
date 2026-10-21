@@ -1,0 +1,24 @@
+{{item infobox
+| type = Armor
+| defense = 2
+| imageequipped = [[File:Wulfrum Hardhat Equipped.png]]
+| body slot = Helmet
+| tooltip = Gain an immunity to traps.
+| rare = 1
+| stack = 1
+| sell = {{value|0|0|32|0}}
+| hardmode = no
+}}
+
+The '''Wulfrum Hardhat''' is a [[Pre-Hardmode]] helmet [[Covering]] piece obtained by [[Taming]] [[The Inventors]]. It gives players full immunity to any damage caused by traps.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Wulfrum}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

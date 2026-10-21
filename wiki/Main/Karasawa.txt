@@ -1,0 +1,48 @@
+{{dedicated|Rosalie Valentine|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = ranged
+| damage = 900
+| knockback = 12
+| rare = 14
+| sell = {{value|0|28}}
+| stack = 1
+| auto = yes
+| use = 52
+| velocity = 1
+| tooltip = ...This is heavy... too heavy.
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Slowly losing life
+| debuff2 = Confused
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds
+| debufftip2 = Movement is reversed
+| debuff3 = Irradiated
+| debuffchance3 = 100%
+| debuffduration3 = 3 seconds
+| debufftip3 = Your skin is burning off
+| hardmode = yes
+| postml = yes
+| element1 = Fire
+| element2 = Poison
+}}
+
+'''Karasawa''' is a craftable Godseeker Mode [[gun]]. It slowly fires a light blue energy pulse that explodes into a trefoil. Both the energy pulse and the trefoil inflict the [[On Fire!]], [[Confused]], and the [[Irradiated]] [[debuffs]]. Each time the gun fires, it consumes five bullets instead of one.
+
+{{Modifier|ranged}}
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The name [https://armoredcore.fandom.com/wiki/KARASAWA KARASAWA] is a staple of the ''[[wikipedia:Armored Core|Armored Core]]'' series of games where it typically appears as an extremely powerful Laser Rifle. Its power is often offset by the weight of the weapon (as referenced in the tooltip) and sometimes the difficulty in acquiring it.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

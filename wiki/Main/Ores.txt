@@ -1,0 +1,215 @@
+{{item infobox
+| boxwidth = 18em
+| imagealt = [[File:Sea Prism.png]] [[File:Aerialite Ore.png]] [[File:Cryonic Ore.png]] [[File:Charred Ore.png]] [[File:Hallowed Ore.png]] [[File:Perennial Ore.png]] [[File:Scoria Ore.png]] [[File:Astral Ore.png]] [[File:Exodium Cluster.png]] [[File:Tarragon Ore.png]] [[File:Auric Ore.png]] <br>
+[[File:Arsenic Ore.png]] [[File:Silicon Ore.png]] [[File:Victide Ore.png]] [[File:Shatterite Ore.png]] [[File:Life Ore.png]] [[File:Apocalyptic Ore.png]] [[File:Meld Ore.png]] [[File:Elemental Ore.png]] [[File:Cosmilite Slag.png]] [[File:Debris Ore.png]] [[File:Bloodstone Ore.png]] [[File:Haunted Ore.png]] [[File:Flahium Slag.png]] [[File:Shadowspec Ore.png]] [[File:Pitchblende.png]] [[File:Esseric Ore.png]] [[File:Stiriatic Ore.png]] [[File:Natrisodic Cluster.png]] [[File:Thorium Ore.png]]
+| type = Block   
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| use = 14
+| auto = yes
+| stack = 9999
+| consumable = true
+}} 
+
+'''Ores''' are primary [[crafting material]]s necessary for game progress. They usually must be crafted into [[bars]] at a [[Furnace]], after which they can craft several essential [[tools]], [[weapons]], [[Covering]], and other [[items]]. Some items require raw ores themselves, most commonly [[potions]]. Raw ores can also be used as plain blocks for construction.
+
+The Calamity Mod adds 10 (25 {{fantag}}) new ore [[block]]s to the game, that are used to craft a variety of [[tools]], [[weapons]], and [[Covering]]. With the exception of [[Sea Prism]], [[Charred Ore]], and [[Scoria Ore]], which are generated upon world creation, all ores are spawned upon the defeat of specific [[bosses]].
+
+__FORCETOC__
+{{-}}
+{| class="terraria sortable lined" style="text-align:center; float:right;margin:0 0 1em 1em;"
+! colspan="2" |Ore!! Rarity!!Sell price!!
+[[Tile value]]
+{{#dpl:
+| namespace = 
+| category = Ore items
+| include = {item infobox¦/dpl}
+| uses = Template:Item infobox
+| mode = userformat
+}}
+|}
+
+==Pre-Hardmode==
+{| class="terraria"
+!Tier
+! colspan="1" |Ores
+! style="padding:0 10px" |Minimum Tool<br />Required
+! style="padding:0 10px" |Ores<br />Per [[Bar]]
+!Source
+!Required Boss
+|-
+!1
+|[[File:Sea Prism (placed).png]] {{item|Sea Prism}}|| style="text-align:center" |{{na}}|| style="text-align:center" |{{na}}||[[Sunken Sea]]
+|[[Desert Scourge]]
+|-
+!1
+|[[File:Victide Ore (placed).png]] {{item|Victide Ore}}|| style="text-align:center" |{{na}}|| style="text-align:center" |{{na}}||[[Desert]]
+|[[Desert Scourge]]
+|-
+!1
+|[[File:Arsenic Ore (placed).png]] {{item|Arsenic Ore}}|| style="text-align:center" |{{na}}|| style="text-align:center" |{{na}}||[[Dungeon]]
+|
+|-
+!1
+|[[File:Silicon Ore (placed).png]] {{item|Silicon Ore}}|| style="text-align:center" |{{na}}|| style="text-align:center" |{{na}}||[[Ocean]] and [[Sulphurous Sea]]
+|
+|-
+!2
+|[[File:Aerialite Ore (placed).png]] {{item|Aerialite Ore}}|| style="text-align:center" |{{item|mode=image|Nightmare Pickaxe|size=30px}} {{item|mode=image|Deathbringer Pickaxe|size=30px}}|| style="text-align:center" |4||[[Underground]], [[Cavern]]
+|[[The Hive Mind|Hive Mind]] / [[The Perforators|Perforators]]
+|-
+|}
+<references />
+
+==Hardmode==
+{| class="terraria"
+!Tier
+! colspan="1" |Ores
+! style="padding:0 10px" |Minimum Tool<br />Required
+! style="padding:0 10px" |Ores<br />Per [[Bar]]
+!Source
+!Required Boss
+|-
+!3
+|[[File:Charred Ore (placed).png]] {{item|Charred Ore}}|| style="text-align:center" |{{item|mode=image|Mythril Pickaxe|size=30px}} {{item|mode=image|Orichalcum Pickaxe|size=35px}}|| style="text-align:center" |4||
+[[Brimstone Crag]]
+|
+{{na}} (One [[Mechanical Boss]])
+|-
+!4
+|[[File:Cryonic Ore (placed).png]] {{item|Cryonic Ore}}|| style="text-align:center" |{{item|mode=image|Adamantite Pickaxe|size=30px}} {{item|mode=image|Titanium Pickaxe|size=30px}}|| style="text-align:center" |5||[[Ice biome]]
+|[[Cryogen]] (Two Mechanical Bosses)
+|-
+!5
+|[[File:Hallowed Ore (placed).png]] {{item|Hallowed Ore}}|| style="text-align:center" |{{item|mode=image|Adamantite Pickaxe|size=30px}} {{item|mode=image|Titanium Pickaxe|size=35px}}|| style="text-align:center" |4||[[Underground Hallow]]
+|All Mechanical Bosses
+|-
+!6
+|[[File:Shatterite Ore (placed).png]] {{item|Shatterite Ore}}|| style="text-align:center" |{{item|mode=image|Pickaxe Axe|size=30px}} {{item|mode=image|Drax|size=35px}}|| style="text-align:center" |4||[[Sunken Sea]]
+|[[The Forbidden Lantern]]
+|-
+!7
+|[[File:Catastrophe Clay Ore (placed).png]] {{item|Catastrophe Clay Ore}}|| style="text-align:center" |{{item|mode=image|Adamantite Pickaxe|size=30px}} {{item|mode=image|Titanium Pickaxe|size=35px}}|| style="text-align:center" |5||[[Brimstone Crag]]
+|[[Calamitas|Calamitas]]
+|-
+!8
+|[[File:Perennial Ore (placed).png]] {{item|Perennial Ore}}|| style="text-align:center" |{{item|mode=image|Pickaxe Axe|size=30px}} {{item|mode=image|Drax|size=35px}}|| style="text-align:center" |5||[[Cavern]]
+|[[Plantera|Plantera]]
+|-
+!9
+|[[File:Scoria Ore (placed).png]] {{item|Scoria Ore}}|| style="text-align:center" |{{item|mode=image|Picksaw|size=35px}}|| style="text-align:center" |5||[[Abyss]]
+|{{na}} ([[Golem]])
+|-
+!10
+|[[File:Apocalyptic Ore (placed).png]] {{item|Apocalyptic Ore}}|| style="text-align:center" |{{item|mode=image|Picksaw|size=35px}}|| style="text-align:center" | 3||See Page
+|[[Golem]]
+|-
+!11
+|[[File:Life Ore (placed).png]] {{item|Life Ore}} {{fantag|Calamity Loot Swap}}|| style="text-align:center" |{{item|mode=image|Picksaw|size=35px}}|| style="text-align:center" | 5||[[Cavern]]
+|[[Ravager]]
+|-
+!12
+|[[File:Meld Ore (placed).png]] {{item|Meld Ore}}|| style="text-align:center" |{{item|mode=image|Picksaw|size=35px}}|| style="text-align:center" |2||Around the Celestial Pillars
+|[[tgc:Lunatic Cultist]]
+|-
+!13
+|[[File:Astral Ore (placed).png]] {{item|Astral Ore}}|| style="text-align:center" |{{item|mode=image|Picksaw|size=35px}}|| style="text-align:center" |2||[[Astral Infection]]
+|[[Astrum Deus]]
+|-
+|}
+
+==Godseeker Mode==
+{| class="terraria"
+!Tier
+! colspan="1" |Ores
+! style="padding:0 10px" |Minimum Tool<br />Required
+! style="padding:0 10px" |Ores<br />Per [[Bar]]
+! Source 
+!Required Boss 
+|-
+!14
+|[[File:Exodium Cluster (placed).png]] {{item|Exodium Cluster}}|| style="text-align:center" |{{item|mode=image|Any Lunar Pickaxe|ext=gif|size=35px}}|| style="text-align:center" |{{na}}||[[Planetoid]]
+|[[Moon Lord]]
+|-
+!15
+|[[File:Elemental Ore (placed).png]] {{item|Elemental Ore}}|| style="text-align:center" |{{item|mode=image|Any Lunar Pickaxe|ext=gif|size=35px}}|| style="text-align:center" |{{na}}||[[Surface]]
+|[[Moon Lord]]
+|-
+!16
+|[[File:Cosmilite Slag (placed).png]] {{item|Cosmilite Slag}}|| style="text-align:center" |{{item|mode=image|Any Lunar Pickaxe|ext=gif|size=35px}}|| style="text-align:center" |{{na}}|| [[Planetoid]]
+|[[Moon Lord]]
+|-
+!17
+|[[File:Tarragon Ore (placed).png]] {{item|Tarragon Ore}}|| style="text-align:center" |{{item|mode=image|Any Lunar Pickaxe|ext=gif|size=35px}}|| style="text-align:center" |5||[[Rear Gar]], [[Bloom Slime]]
+|[[Providence, the Profaned Goddess]]
+|-
+!18
+|[[File:Bloodstone Ore (placed).png]] {{item|Bloodstone Ore}}|| style="text-align:center" |{{item|mode=image|Blossom Pickaxe|ext=png|size=35px}}|| style="text-align:center" |{{na}}||[[Underworld]]
+|[[Providence, the Profaned Goddess]]
+|-
+!19
+|[[File:Debris Ore (placed).png]] {{item|Debris Ore}}|| style="text-align:center" |{{item|mode=image|Blossom Pickaxe|ext=png|size=35px}}|| style="text-align:center" |{{na}}||[[Underworld]]
+|[[Signus, Envoy of the Devourer]]
+|-
+!20
+|[[File:Haunted Ore (placed).png]] {{item|Haunted Ore}}|| style="text-align:center" |{{item|mode=image|Blossom Pickaxe|ext=png|size=35px}}|| style="text-align:center" |{{na}}||[[Dungeon]]
+|[[Polterghast]]
+|-
+!21
+|[[File:Auric Ore (placed).png]] {{item|Auric Ore}}|| style="text-align:center" |{{item|mode=image|Blossom Pickaxe|size=35px}}|| style="text-align:center" |12||[[Cavern]]
+|[[Jungle Dragon, Yharon]]
+|-
+!22
+|[[File:Flahium Slag (placed).png]] {{item|Flahium Slag}}|| style="text-align:center" |{{item|mode=image|Blossom Pickaxe|size=35px}}|| style="text-align:center" |3||See Page
+|{{na}} ([[The Fabricational Quartet]], [[Supreme Calamitas]])
+|}
+
+
+==Epilogue==
+{| class="terraria"
+!Tier
+! colspan="1" |Ores
+! style="padding:0 10px" |Minimum Tool<br />Required
+! style="padding:0 10px" |Ores<br />Per [[Bar]]
+!Source
+!Required Boss
+|-
+! 23
+|[[File:Pitchblende (placed).png]] {{item|Pitchblende}} {{dei}}|| style="text-align:center" |{{item|mode=image|Heaven Piercer|size=45px}} {{item|mode=image|World Breaker|size=35px}}|| style="text-align:center" |{{na}}||[[Caelus]] {{dei}}
+|[[Vision of the Tyrant]]
+|-
+! {{na}}
+|[[File:Primordial Ore (placed).gif]] [[Primordial Ore]] {{dei}}|| style="text-align:center" |{{item|mode=image|Heaven Piercer|size=45px}} {{item|mode=image|World Breaker|size=35px}}|| style="text-align:center" |{{na}}||[[Caelus]] {{dei}}
+|[[Vision of the Tyrant]]
+|-
+! 24
+|[[File:Shadowspec Ore (placed).png]] {{item|Shadowspec Ore}}|| style="text-align:center" |{{item|mode=image|Blossom Pickaxe|size=35px}}|| style="text-align:center" |13||[[The Underworld]]
+|[[Purgatory Arbiter, Umbrus]] {{fantag|Catalyst}}
+|-
+! 25
+| [[File:Esseric Ore (placed).png]] {{item|Esseric Ore}}|| style="text-align:center" |{{item|mode=image|Large Father|size=45px}} {{item|mode=image|Crystyl Crusher|size=45px}}|| style="text-align:center" |6||[[Sky Abyss]]
+| [[Purgatory Arbiter, Umbrus]] {{fantag|Catalyst}}
+|-
+!26
+|[[File:Stiriatic Ore (placed).png]] {{item|Stiriatic Ore}}|| style="text-align:center" |{{item|mode=image|Abysscent Pickaxe|size=35px}}|| style="text-align:center" |8||[[Cavern]]
+|[[Esserwyrm]] {{fantag|Calamity Tales of the Aquatic}}
+|-
+!27
+|[[File:Natrisodic Cluster (placed).png]] {{item|Natrisodic Cluster}}|| style="text-align:center" |{{item|mode=image|Reactive Pickaxe|size=35px}}|| style="text-align:center" |5||[[Cavern]]
+|[[Reactive Guardian, Sodis]] {{fantag|Calamity Tales of the Aquatic}}
+|-
+!28
+|[[File:Thorium Ore (placed).png]] {{item|Thorium Ore}}|| style="text-align:center" |{{item|mode=image|Reactive Pickaxe|size=35px}}|| style="text-align:center" |0||[[Stained Mountains]]
+|[[Quasar|Quasar (Boss)]] {{fantag|Calamity Tales of the Aquatic}}
+|}
+
+==Notes== 
+*All ores (excluding Auric, and {{fantag|Calamity Loot Swap}} Shadowspec) have corresponding [[enemies]] (usually [[Slime]]s) which drop their respective ore, in order to make the amount obtainable unlimited. 
+**[[Prism Shard]]s grow naturally in the Sunken Sea and are dropped by [[Prism-Back]]s after the [[Desert Scourge]] has been defeated as well as [[Blinded Angler]]s, which can be used to craft Sea Prisms.
+**Instead of a slime, Scoria Ore is dropped by [[Devil Fish]]es and [[Chaotic Puffer]]s in the Abyss after the [[Golem]] has been defeated.
+**[[Auric Slime]]s {{fantag|Calamity Loot Swap}} drop [[Auric Ore]].
+
+
+[[Category:Ore items|*]]
+[[Category:Consumable items]]

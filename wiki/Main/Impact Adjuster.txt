@@ -1,0 +1,39 @@
+{{item infobox
+| type = Tool
+| damagetype = melee
+| hammer = 95
+| auto = yes
+| damage = 58
+| debuff = On Fire!
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| knockback = 3.5
+| use = 14
+| bonus = +2 range
+| rare = 8
+| stack = 1
+| sell = {{value|0|16}}
+| hardmode = yes
+| toolspeed = 6
+| element1 = Smash
+}}
+
+The '''Impact Adjuster''' is a [[Hardmode]] [[Hammer]]. It can automatically swing, emit fiery particles, and inflict the [[On Fire!]] debuff on contact.
+
+{{modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Scoria}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Hammers]]

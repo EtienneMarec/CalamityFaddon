@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = magic
+| damage = 100
+| knockback = 5
+| velocity = 15
+| mana = 4
+| rare = 10
+| sell = {{value|0|20}}
+| stack = 1
+| auto = yes
+| use = 7
+| tooltip = Fires a bouncing laser that explodes on enemy hits
+| hardmode = yes
+| debuff = On Fire!
+| debuffduration = 3 seconds (Explosion)
+| debuffchance = 100%
+| debufftip = Slowly losing life
+| element1 = Holy
+| element2 = Fire
+}}
+
+The '''Lazhar''' is a craftable [[Hardmode]] [[magic gun]] that is the upgraded version of [[Heat Ray]]. It rapidly fires explosive heat rays that bounce off of blocks and create small explosions when hitting an enemy. Explosions inflict the [[On Fire!]] [[debuff]].
+
+{{Modifier|magiclow}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*[[Astrum Deus]] takes only 75% damage from the Lazhar.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic guns]]

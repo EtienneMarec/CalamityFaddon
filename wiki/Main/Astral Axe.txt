@@ -1,0 +1,39 @@
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 60
+| axe = 165
+| knockback = 5
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 5 seconds
+| rare = 9
+| bonus = +3 range
+| use = 19
+| sell = {{value|0|19|0|0}}
+| hardmode = yes
+| critical = 20%
+| toolspeed = 5
+| element1 = Magic
+| element2 = Slash
+}}
+
+The '''Astral Axe''' is a craftable [[Hardmode]] [[axe]]. It emits faint purple particles when swung.
+
+{{Modifier|harvest}}
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Astral}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Axes]]

@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 99
+| mana = 12
+| tooltip = Fires ion blasts that speed up and then explode<br/>Damage scales with how full your mana is<br/>Using Astral Injection reduces the effectiveness of the mana boost
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| debufftip = Rapid health loss
+| knockback = 6.75
+| velocity = 8
+| rare = 10
+| sell = {{value|0|20}}
+| use = 7
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Ion Blast.png
+| projcaption = Ion Blast
+| element1 = Fire
+}}
+
+The '''Apoctosis Array''' is a craftable Godseeker Mode [[magic gun]] that is a direct upgrade to the [[Ion Blaster]]. Like its predecessor, it fires ion blasts that continuously accelerate with their damage depending on the user's current [[mana]] level. The projectile damage is multiplied by 0.2 added to 1.4 times of the player's mana ratio, dealing 20% damage at 0 mana and 160% damage at full mana. Additionally, the projectile size is multiplied by 0.75 added to 0.75 times of the player's mana ratio, being 75% size at 0 mana and 150% size at full mana. Having the [[Astral Injection]] [[buff]] caps the maximum damage multiplier at 111% and size at 123.75%.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+[[File:Apoctosis Array (demo).gif|frame|The player continuously firing shots which shrink in size and damage due to having less and less mana.]]
+
+== Trivia ==
+*The ion blasts shrink in size as their damage decreases.
+*The word apoctosis is likely a reference to the term [[wikipedia:Apoptosis|apoptosis]], or programmed cell death, which occurs as a normal, controlled part of an organism's growth.
+**Apoptosis comes from the Ancient Greek word ἀπόπτωσις, which means falling off. This is likely where the effect or etymology of the weapon comes from.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Magic guns]]
+[[zh:凋亡射线]]

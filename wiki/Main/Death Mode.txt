@@ -1,0 +1,260 @@
+{{distinguish|Death|the item that activates this gamemode}}
+{{float file box
+| [[File:Death Icon.png]]<hr/>[[File:Death Indicator.png]]
+| The Death Mode icon as seen in the Difficulty Indicator UI.
+| width = 210px
+}}
+
+<big>''"Enjoy the fun."''</big>
+
+'''Death Mode''' is the second gamemode introduced in the Calamity Mod, serving as an increased difficulty level to [[Revengeance Mode]]. It is activated by using the [[Death]] item, which can be crafted at any [[Altar]] and does not have any ingredients. It is again succeeded in difficulty by  [[Malice Mode]].
+
+Attempting to activate it in a world without Revengeance Mode will have no effect. Death Mode can be deactivated and activated at will. Attempting to activate or deactivate Death Mode while a boss is alive will display a [[Status messages|status message]] and will have no effect.
+While active, the Death Mode icon will be shown on the Difficulty Indicator, replacing the Revengeance Mode icon.
+{{toc limit|3}}
+
+== General Changes ==
+*Enemy damage boost from Revengeance Mode is further boosted by 60%.
+**For example, if Revengeance Mode boosts damage by 10%, Death Mode will boost by an additional 6%.
+*[[Bosses]] will randomly spawn if their respective conditions are met and if not killed once. This will be forewarned one minute in advance with a [[status message]] stating "Something is approaching...".
+**This has a cooldown of 24 minutes (one in-game day).
+**To work out which boss will be spawned, look at the table below for the first boss that hasn't been defeated. If its conditions are met, then this boss will be the one that is spawned.
+**Bosses will not randomly spawn until the player has 300 or more max HP.
+**The chance of a boss spawning is 0.002% (1 in 50,000) every frame.
+***This translates to a 0.12% chance (1 in 833.83) every second, or a 6.9% chance (1 in 14.39) every minute.
+*The [[Nurse]] will refuse to heal the player if a boss is currently alive.
+*All damage over time [[debuffs]] deal 50% more damage.
+
+=== Boss Spawn Conditions ===
+{{collapse top|Boss Spawn Conditions}}
+To work out which boss will be spawned, look at the table below for the first boss that hasn't been defeated. If its conditions are met, then this boss will be the one that is spawned.
+{| class="terraria lined" style = "text-align: center"
+! Boss !! Biome !! [[Hardmode]] !! Godseeker Mode
+|-
+|| [[Eye of Cthulhu]] || [[Surface]] or [[Space]] at night || {{no}} || {{no}}
+|-
+|| [[Eater of Worlds]] || [[The Corruption]] || {{no}} || {{no}}
+|-
+|| [[Brain of Cthulhu]] || [[The Crimson]] || {{no}} || {{no}}
+|-
+|| [[Desert Scourge]] || [[Desert]] || {{no}} || {{no}}
+|-
+|| [[The Perforators]] || [[The Crimson]] || {{no}} || {{no}}
+|-
+|| [[The Hive Mind]] || [[The Corruption]] || {{no}} || {{no}}
+|-
+|| [[Crabulon]] || [[Glowing Mushroom biome]] || {{no}} || {{no}}
+|-
+|| [[The Destroyer]] || [[Surface]] at night || {{yes}} || {{no}}
+|-
+|| [[The Twins]] || [[Surface]] at night || {{yes}} || {{no}}
+|-
+|| [[Skeletron Prime]] || [[Surface]] at night || {{yes}} || {{no}}
+|-
+|| [[Plantera]] || [[Underground Jungle]] || {{yes}} || {{no}}
+|-
+|| [[Duke Fishron]] || [[Ocean]] || {{yes}} || {{no}}
+|-
+|| [[Cryogen]] || [[Snow biome]] || {{yes}} || {{no}}
+|-
+|| [[Calamitas]] || [[Surface]] at night || {{yes}} || {{no}}
+|-
+|| [[Astrum Aureus]] || Surface [[Astral Infection]] at night || {{yes}} || {{no}}
+|-
+|| [[Profaned Guardians]] || Surface [[Hallow]] or [[The Underworld]] at day || {{no}} || {{yes}}
+|-
+|| [[The Dragonfolly]] || Surface [[Jungle]] || {{no}} || {{yes}}
+|-
+|}
+{{collapse bottom}}
+
+=== Environmental Effects ===
+*[[Abyss]] light level requirements are increased by 25%.
+*[[Thorny bushes]] inflict various debuffs depending on what biome they are in:
+**Crimson/Corrupt Thorns inflict both the [[Bleeding]] and [[Weak]] debuffs for 5 seconds.
+**Jungle Thorns inflict [[Poisoned]] for 5 seconds.
+*[[Spikes]] inflict Bleeding for 5 seconds.
+*[[Wooden Spikes]] inflict [[Venom]] for 5 seconds.
+*[[Blood Moon]]s boost all spawn rates by 400% and maximum spawn count by 900%. This effect stacks with other spawn rate modifiers.
+*The Astral Infection biome has a more intense purple haze effect on the screen.
+**This effect does not appear when in Retro or Trippy color modes.
+
+== Enemy AI Changes ==
+Several enemy [[AI]]s have been adjusted to be more aggressive and dangerous:
+*[[tgc:Fighter AI|Fighter AI]] enemies can now open doors at any time. Fighter AI enemies are faster, jump higher, more aggressive, and any Fighter AI enemies that shoot projectiles now shoot more accurately.
+*Swimming AI enemies chase the player faster while they are in water. Gain a large amount of potential speed and acceleration.
+*[[Slime AI]] enemies jump lower and jump significantly higher on third jump, always aggresive towards player.
+*Demon Eye AI enemies have a higher max speed but slower acceleration.
+*[[Worm AI]] enemies are longer, faster, and have more defense.
+*Flying, Bat, Jellyfish, and Spider AI enemies charge towards the player faster.
+*[[tgc:Caster AI|Caster AI]] enemies teleport more often and are more aggressive.
+*Hovering AI enemies hover higher and are more aggressive.
+*[[tgc:Blazing Wheel|Blazing Wheel]]s occasionally emit a plus-shaped flamethrower. Blazing Wheel flamethrowers are now hostile.
+*[[tgc:Spike Ball|Spike Ball]]s have a longer reach and spin faster.
+*Plant AI enemies have a longer range and charge at the player more quickly.
+*Flying Weapon AI enemies spin up and charge faster and can't be knocked out of their charges.
+*Flying Fish AI enemies have increased max speed.
+*Spore AI enemies follow the player faster and at all times.
+*Herpling AI enemies are more aggressive.
+*Tortoise AI enemies are more aggressive.
+*Unicorn AI enemies are more aggressive.
+*The [[Granite Elemental|Granite]] and [[Cosmic Elemental]]s move faster but can be harmed when cocooned, but have extreme defense.
+*[[Cnidrion]]s can fire water blasts while moving.
+*[[Antlion]]s fire multiple sand blocks at once, with a small chance to fire a very large amount of sand.
+*[[Digger]]s, [[tgc:Devourer|Devourer]]s, [[World Feeder]]s, and [[Dune Splicer]]s have individual health bars per segment and split when one of them is broken, like the [[Eater of Worlds]].
+*[[Angry Nimbus]]es move more quickly, have increased attacking range, and scatters ice shards while in range.
+*[[Tesla Turret]]s aim their lasers toward the player's predicted location based on their velocity.
+*[[Chaos Elemental]]s teleport more often.
+*[[Goblin Summoner]]s fire more chaos balls.
+*[[Lihzahrd]]s transform into their second phase at 90% health.
+
+== Boss AI Changes ==
+This is a list of all boss fight changes caused by Death Mode. The names of vanilla bosses are ''italicized''.
+
+=== Pre-Hardmode ===
+==== ''[[King Slime]]'' ====
+Much larger, moves faster and teleports more often. Only summons Blue Spiked Slimes throughout the fight. Crown Jewel now fires a spread of three projectiles.
+
+==== [[Desert Scourge]] ====
+Has more segments, which are larger. Burrows more often and gains increased acceleration and speed as its health decreases.
+
+==== ''[[Eye of Cthulhu]]'' ====
+Charges faster and more often as its health decreases. Performs less chain dashes as its health decreases.
+
+==== [[Crabulon]] ====
+Fires sprays of mushrooms more frequently. Moves quicker, has decreased attack delays, and summons more [[Crab Shroom]]s as its health decreases. Always performs the modified jump pattern. Crab Shroom walls are always slightly tilted.
+
+==== ''[[Eater of Worlds]]'' ====
+Total HP increased to 22,932.
+
+Segment count increased to eighty-four. Begins firing Vile Spits when there are seventy-five segments remaining, and Cursed Flames when there are sixty-two segments remaining. Can fly at players out of reach more easily. Gains increased acceleration and top speed as its health decreases.
+
+==== ''[[Brain of Cthulhu]]'' ====
+Can teleport much closer to the player. Creepers move faster. The minimap icon disappears when it is damaged in phase 2. Gains decreased attack delay as its health decreases.
+
+==== [[The Hive Mind]] ====
+Moves very quickly, teleports extremely often, and can use all attacks upon reaching 66% HP in phase 2.
+
+==== [[The Perforators]] ====
+The Hive fires projectiles more often and has increased aggression. The Perforators are larger and have more segments. The Hive will hover at its ramming height if more than one Perforator is alive.
+
+==== ''[[Queen Bee]]'' ====
+Has faster charges and fires stingers extremely rapidly. Gains increased top speed and spawns [[Bee]]s and shoots stingers at a higher rate when enraged.
+
+==== ''[[Skeletron]]'' ====
+Head HP decreased to 4400 and accelerates quicker as its health decreases. Skeletron summons and respawns with four hands instead of two. Hand HP decreased to 1014. Hands attack at much higher velocity and accelerate quicker. Teleports spawn five magic bolts instead of three. Fires faster skulls more often.
+
+==== [[The Slime God]] ====
+Crimulan Slime God always shoots mines. All slimes are permanently enraged.
+
+==== ''[[Wall of Flesh]]'' ====
+Enrages at a closer distance. [[The Hungry|Hungries]] have more damage. Top speed increases as its health decreases.
+
+=== Hardmode ===
+==== [[Cryogen]] ====
+Cryogen and its projectiles are more aggressive and faster.
+
+==== ''[[The Twins]]'' ====
+Gain reduced attack delay, increased acceleration and top speed as their health decreases.
+
+==== [[Brimstone Elemental]] ====
+Movement speed increases as her health decreases. Fires more projectiles more often during all phases. Only fires 1 laser during her laser attack.
+
+==== ''[[The Destroyer]]'' ====
+Has half as many segments and spawns half as many [[Probe]]s. Probes health doubled. Size is greatly increased, both for itself and its probes. Lasers are fired twice as often. The Destroyer's head occasionally fires spreads of four to eight lasers while directly facing the player. Acceleration and top speed increase as its health decreases. Body segments gain 10 defense at all times.
+
+==== [[Aquatic Scourge]] ====
+Segment count increased by ten. Projectile velocity is increased, and acceleration and top speed increase depending on its distance from the player and as its health decreases. Teeth projectiles home in more aggressively. Fires a wider spread of sand blasts while spinning.
+
+==== ''[[Skeletron Prime]]'' ====
+Fires skulls more frequently while spinning. Hands and head gain increased acceleration and velocity as their health decrease.
+
+==== [[Calamitas]] ====
+Shoots more aggressively and gains increased acceleration and top speed while decreasing attack delay as its health decreases. Cataclysm and Catastrophe move quicker and gain decreased attack delay as their health decreases. Summons more Soul Seekers with less health.
+
+==== ''[[Plantera]]'' ====
+Petal firerate dramatically increased. Spawns 2 Queen Bees at 80% HP, 3 more Queen Bees at 35% HP. Attempts to ram the player more often. Top speed, acceleration, maximum hook range, and number of tentacles spawned increase as her health decreases. Tentacles move faster.
+
+==== [[Leviathan and Anahita]] ====
+Anahita has increased top speed and spends less time firing bubbles. The Leviathan charges twice in a row instead of once.
+
+==== [[Astrum Aureus]] ====
+Jumps more aggressively. Fires more lasers and astral flame crystals, moves quicker, and gains decreased attack delay as its health decreases. Only jumps twice instead of three times.
+
+==== ''[[Golem]]'' ====
+Jumps more aggressively and increased fire rate. Top speed increases as its health decreases. Golem Head can fire lasers from the start of the fight and fires more often as its health decreases. Golem Head fire rate delay after detaching increased by two seconds.
+
+==== [[The Plaguebringer Goliath]] ====
+Stingers are faster and home in on the player more aggressively. Fires additional rockets and charges at higher speeds. Attacks four times during her charge and Plague Nuke Barrage attacks. Gains increased top speed and spawns minions and shoots missiles at a higher rate when enraged.
+
+==== ''[[Duke Fishron]]'' ====
+Dash displacement increased. Minimap icon disappears during Phase 3. When below 20% HP, charges endlessly at the player. All projectiles have increased velocity.
+
+==== [[Ravager]] ====
+Its projectile speed is roughly doubled.
+
+==== ''[[Lunatic Cultist]]'' ====
+Projectiles travel faster. Ancient Dooms explode faster. Moves faster while relocating.
+
+==== [[Astrum Deus]] ====
+Worms and lasers are faster. Worms gain increased velocity as their health decreases. Fires more Astral orbs.
+
+==== ''[[Moon Lord]]'' ====
+Clots heal for 1500 HP instead of 1250. All projectiles have increased velocity. Moon Lord and True Eyes of Cthulhu are more aggressive.
+
+=== Post-Moon Lord ===
+==== [[Profaned Guardians]] ====
+The main Guardian always leaves a trail of exploding flares as it charges.
+
+==== [[The Dragonfolly]] ====
+Enters phase 3 at 40% HP. Gains increased speed along with its projectiles and aggression when enraged.
+
+==== [[Providence, the Profaned Goddess]] ====
+Has a different attack pattern that is more difficult and harder to predict. The Healer Guardian heals every 0.5 seconds. Has a much more aggressive behavior. The crystal lasts for less time. She will no longer summon Cocoon Healing Stars while in her cocoon. Attack delay decreases as her health decreases.
+
+==== [[Storm Weaver]] ====
+Larger and has more segments. Damage dealt against the tail is multiplied by 3 instead of 10. Charges more frequently and with a shorter delay in phase 2.
+
+==== [[Ceaseless Void]] ====
+Can always fire the ring of twelve dark energy orbs. Moves quicker as its health decreases. Summons more [[Dark Energy|Dark Energies]]. Dark Energies become immune to knockback at 90% HP, and are more aggressive.
+
+==== [[Signus, Envoy of the Devourer]] ====
+Attacks 1 time per phase. Generally more aggressive. Cycles through phases faster as its health decreases.
+
+==== [[Polterghast]] ====
+Enters phase 2 at 90% HP and phase 3 at 60% HP. Phantom Spirits shoot at a higher frequency.
+
+==== [[The Old Duke]] ====
+Enters phase 2 at 80% HP and phase 3 at 50% HP. Switches between its attacks faster and has increased movement speed. Charges are faster in velocity and occur more frequently. 
+
+==== [[The Devourer of Gods]] ====
+The sky shader will stay pitch black for the whole fight. Always moves at max speed, no matter how much health he has. Switches between passive and aggressive phases and fires fireballs faster in the final phase.
+
+==== [[Jungle Dragon, Yharon]] ====
+Immediately enters subphase 2 and enters subphase 3 at 60% HP. Immediately enters subphase 5 when entering phase 2, enters subphase 6 at 65% HP, and enters subphase 7 at 30% HP. Attack delay decreased. Summons more Infernadoes in place of Flarenadoes. Yharon summons more fireballs in the second phase.
+
+==== [[Supreme Calamitas]] ====
+The arena's size is reduced from 159x159 (inner available area is 157x157) to 127x127 (inner available area is 125x125) blocks. Brimstone Monsters no longer push each other.
+
+== Unique Items ==
+=== Pets ===
+*{{item|Levi}}, dropped by {{item|Supreme Calamitas|image=Supreme Calamitas (Phase 2).png|size=50px}}
+*{{item|Cosmic Plushie}}, obtained from the {{item|Treasure Bag (The Devourer of Gods)}} when opened by a Hardcore character
+
+=== Others ===
+*{{item|Expired Medication}}, dropped by {{item|The Plaguebringer Goliath|size=150px}}
+
+== Messages ==
+*"Death is active, enjoy the fun." (When activated)
+*"Death is not active, not fun enough for you?" (When deactivated)
+
+== Trivia ==
+*The Death Mode Environmental Effects were influenced by the weather mechanics in the game [[wikipedia:Don't Starve|Don't Starve]]. <!-- Confirmed by Fab. -->
+
+== See Also ==
+*[[Expert Mode]]
+*[[Malice Mode]]
+*[[Revengeance Mode]]
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

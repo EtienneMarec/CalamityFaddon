@@ -1,0 +1,20 @@
+{{item infobox
+|type = Potion
+|consumable = yes
+| use = 30
+|tooltip = Looks like bagels, but is actually a chip<br/>Permanently increases Armor Penetration by 25
+| rare = 8
+| sell = {{pc|1}}
+| stack = 1
+}}
+
+The '''Bagel Nuts''' is a craftable [[Hardmode]] [[Permanent Power-ups|Permanent Power-up]] item that grants the player a permanent +25 increase in armor penetration. It can only be used once.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

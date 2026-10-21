@@ -1,0 +1,58 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 279
+| tooltip = Fires a spread of spinning blades<br/>Summons laser fountains on hit
+| use = 14
+| knockback = 8
+| velocity = 12
+| auto = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 4 seconds (Pink Blade)<br/>3 seconds (Main Blade)
+| debufftip = Slowly losing life
+| debuff2 = Frostburn
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Blue Blade)<br/>1.5 seconds (Main Blade)
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| boxwidth = 24em
+| stack = 1
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| proj = Excelsus Main.png
+| projcaption = Excelsus Main Blade
+| proj2 = Excelsus Blue.png
+| proj2caption = Excelsus Blue Blade
+| proj3 = Excelsus Pink.png
+| proj3caption = Excelsus Pink Blade
+| element1 = Magic
+| element2 = Cold
+| element3 = Slash
+}}
+|{{item drops infobox
+| [[The Devourer of Gods]]|1|{{dv|25%|33.33%}}
+}}
+}}
+[[File:Excelsus (demo).gif|frame|right|The Excelsus's projectile and on-hit effects demonstrated against a [[Super Dummy]] and multiple [[Target Dummy|Target Dummies]].]]
+
+The '''Excelsus''' is a Godseeker Mode [[broadsword]] that is dropped by [[The Devourer of Gods]]. When swung, three spinning energy swords are thrown from the blade at slightly varying speeds and velocities. They can be blue, pink, or both blue and pink, however they all function identically. They can pierce two enemies before dissipating on the third and slow down when hitting tiles. Striking an enemy directly with the sword will cause a fountain of five fast gravity-affected lasers to spray into the air from the point of contact. All of the Excelsus's projectiles inflict the [[Frostburn]] [[debuff]] for 10 seconds.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+
+== Trivia ==
+*Excelsus' name is a reference to a massive robot known as MG Excelsus from the game ''[[wikipedia:Metal_Gear_Rising:_Revengeance|Metal Gear Rising: Revengeance]]''.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

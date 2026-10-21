@@ -1,0 +1,49 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| rare = 11
+| sell = {{value|0|22}}
+| damage = 23
+| use = 29
+| velocity = 16
+| knockback = 7
+| tooltip = Sword swarm
+| stack =  1
+| auto = yes
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| debuffduration = 2 seconds (Contact)<br/>1.5 seconds (Projectiles)
+| debuff2 = Frostburn
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds (Contact)<br/>1.5 seconds (Projectiles)
+| debuff3 = Holy Flames
+| debufftip3 = Dissolving from holy light
+| debuffchance3 = 100%
+| debuffduration3 = 2 seconds (Contact)<br/>1.5 seconds (Projectiles)
+| hardmode = yes
+| postml = yes
+| proj = Swordsplosion Swords.png
+| projcaption = Swordsplosion Swords
+| element1 = Magic
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[The Dragonfolly]]|1|10%
+}}
+}}
+The '''Swordsplosion''' is a [[Hardmode]] [[broadsword]] that drops from [[The Dragonfolly]]. The sword fires several beam swords that converge on the cursor, and causes even more beam swords to rain from the sky when swung. The sword rotates between firing different colored beam swords.
+
+{{modifier|melee}}
+
+== Trivia ==
+*This weapon is a reference to the [https://borderlands.fandom.com/wiki/SWORDSPLOSION!!! weapon of the same name] from ''[[wikipedia:Borderlands 2|Borderlands 2]], a weapon which reappears in [[wikipedia:Tiny_Tina's_Wonderlands|Tiny Tina's Wonderlands.]]''
+*It was formerly the [[rare variant]] of the [[Ark of the Elements]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

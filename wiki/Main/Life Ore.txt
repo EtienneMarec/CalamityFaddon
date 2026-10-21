@@ -1,0 +1,42 @@
+{{addon|Calamity: Community Remix}}
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 200
+| stack = 9999
+| use = 14
+| rare = 8
+| value = 710
+| color = #486B62
+| sell = {{value|0|0|22|0}}
+| hardmode = yes
+}}
+|{{item drops infobox
+|[[Life Slime]]|10-26|100%
+}}
+}}
+<big> ''"Vitality sprawls throughout the underground."'' </big>
+
+'''Life Ore''' is a [[Hardmode]] [[Ores|ore]] which generates in rare large patches in [[Stone Block]]s and their infected variants in the [[Cavern]] layer after [[Ravager]] has been defeated. It is used to craft [[Life Alloy]]s at an [[Adamantite Forge]] or a [[Titanium Forge]]. It requires at least a [[Picksaw]] to mine. Life Ore is typically guarded by [[Life Slime]]s, which deal significant amounts of damage, acting to make it harder for the player to simply smelt the ore into Life Alloy rather than farming all of Life Alloy's individual components.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Life Ore cannot be destroyed by explosives, even after Ravager has been defeated.
+*Unlike most other ores, it is visible without the use of the [[Spelunker]] [[buff]] as each block has a shifting rainbow glow.
+
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

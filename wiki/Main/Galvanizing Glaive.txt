@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 100
+| use = 21
+| knockback = 9
+| velocity = 21
+| tooltip = Its use as a tool is to quickly separate a single object into two<br/>That is also its use as a weapon<br/>Swings a spear which envelops struck foes in an energy field<br/>When done swinging, the spear discharges an extra pulse of energy<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| hardmode = yes
+| sell = {{value|0|12}}
+| proj = Galvanizing Glaive Spear.png
+| projcaption = Galvanizing Glaive
+| element1 = Slash
+| element2 = Machine
+}}
+
+The '''Galvanizing Glaive''' is a craftable [[Hardmode]] [[spear]]. When used, the player swings a spear around similarly to the [[Ghastly Glaive]], and releases five gauss energy projectiles, each dealing 40% of the weapon's damage. If the target is struck by the spear itself, there is a 1/12 chance per hit for an energy flux to spawn on the enemy which inflicts continuous damage.
+
+The weapon consumes 0.075 units of [[charge]] per use and has a maximum charge of 135.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier3}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

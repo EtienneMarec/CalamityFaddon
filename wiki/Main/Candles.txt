@@ -1,0 +1,33 @@
+{|align=right
+|{{item infobox
+| imagealt = [[File:Abyss Candle.png]] [[File:Ashen Candle.png]] [[File:Cosmilite Candle.png]]
+| type = Furniture
+| type2 = Light Source
+| consumable = yes
+| auto = yes
+| placeable = yes
+| width = 1
+| height = 1
+| use = 14
+| rare = Varies
+| stack = 9999
+| sell = {{value|0|0|1}} (Chaos and Tranquility candles)<br/>{{value|0|10}} (Stat candles)
+}}
+|-
+|
+{| class="terraria" align="right" style="width:19em"
+! colspan="2" | Placed Candles
+|-
+| [[File:Placed Candles Calamity.png|center]]
+|}
+|}
+
+'''Candles''' are pieces of [[furniture]] that emit light. The Calamity Mod currently adds twenty-one types of candles to the game, with fifteen corresponding to specific [[Furniture sets|sets of furniture]], two acting as upgrades to the [[Water Candle]] and [[Peace Candle]], and the remaining four being craftable with a Peace Candle, and a large amount of souls and essences. For the purpose of housing [[Town NPCs]], Chaos and Tranquility candles and Stat candles do not count as a light source. Additionally, Stat candles cannot be toggled by wire, unlike all other candles.
+
+{{recipes|result=LIKE %Candle}}
+
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:蜡烛]]

@@ -1,0 +1,50 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 30
+| use = 33
+| knockback = 5
+| auto = yes
+| tooltip = Shoots an onyx bomb that explodes into sand sharks on death
+| stack = 1
+| rare = 5
+| sell = {{value|0|7|20}}
+| velocity = 14
+| hardmode = yes
+| proj = Onyx Shark Bomb.png
+| projcaption = Onyx Shark Bomb
+| proj2 = Sand Shark.gif
+| proj2caption = Sand Shark
+| element1 = Fire
+| element2 = Dark
+| element3 = Smash
+| element4 = Bomb
+}}
+
+[[File:Mineral Mortar (demo).gif|frame|right|The four Sand Shark-shaped projectiles' arcs, with three of them hitting [[Target Dummy|Target Dummies]]. Notice how the sharks only appear upon block collision.]]
+
+The '''Mineral Mortar''' is a craftable [[Hardmode]] [[Launchers|launcher]] that fires projectiles shaped like [[Forbidden Fragment]]s. Upon collision with a block, this projectile splits into four flying [[Sand Shark]]-shaped projectiles that spread out and do additional damage. Neither the initial rocket nor the sharks can hit more than one enemy, though the initial blast has a small area of effect which ignores enemy [[immunity frames]].
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+
+== Tips ==
+*Since the sharks released by the weapon slightly home towards the player, one can kite them into enemies for additional damage if desired.
+*Despite the fact that rockets are normally post-[[Plantera]], players can craft rockets in Calamity by using 20 [[Empty Bullet]]s and an [[Explosive Powder]] at an [[Orichalcum Anvil|Orichalcum]] or [[Mythril Anvil]].
+
+== Trivia ==
+*Unlike many rocket launchers, it will not deal any damage to the player.
+*In the mod's source files, the Sand Shark projectile is referred to as 'SandyWaifuShark'.
+**This is likely a reference to the weapon's recipe requiring Forbidden Fragments, which are dropped from [[Sand Elemental]]s.
+
+{{Forbidden}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category: Launchers]]

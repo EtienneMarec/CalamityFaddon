@@ -1,0 +1,47 @@
+<includeonly><!--
+// Initialize
+-->{{#vardefine:normalValue|0}}<!--
+-->{{#vardefine:expertValue|0}}<!--
+-->{{#vardefine:revValue|0}}<!--
+-->{{#vardefine:deathValue|0}}<!--
+-->{{#vardefine:maliceValue|0}}<!--
+
+// Define values
+-->{{#if:{{{malice|{{{5|}}}}}}|<!--
+    -->{{#vardefine:maliceValue|{{{malice|{{{5|}}}}}}}}<!--
+    -->{{#vardefine:deathValue|{{{death|{{{4|}}}}}}}}<!--
+    -->{{#vardefine:revValue|{{{revengeance|{{{rev|{{{3|}}}}}}}}}}}<!--
+    -->{{#vardefine:expertValue|{{{expert|{{{2|}}}}}}}}<!--
+    -->{{#vardefine:normalValue|{{{normal|{{{1|}}}}}}}}<!--
+-->|{{#if:{{{death|{{{4|}}}}}}|<!--
+    -->{{#vardefine:deathValue|{{{death|{{{4|}}}}}}}}<!--
+    -->{{#vardefine:revValue|{{{revengeance|{{{rev|{{{3|}}}}}}}}}}}<!--
+    -->{{#vardefine:expertValue|{{{expert|{{{2|}}}}}}}}<!--
+    -->{{#vardefine:normalValue|{{{normal|{{{1|}}}}}}}}<!--
+-->|{{#if:{{{revengeance|{{{rev|{{{3|}}}}}}}}}|<!--
+    -->{{#vardefine:revValue|{{{revengeance|{{{rev|{{{3|}}}}}}}}}}}<!--
+    -->{{#vardefine:expertValue|{{{expert|{{{2|}}}}}}}}<!--
+    -->{{#vardefine:normalValue|{{{normal|{{{1|}}}}}}}}<!--
+-->|{{#if:{{{expert|{{{2|}}}}}}|<!--
+    -->{{#vardefine:expertValue|{{{expert|{{{2|}}}}}}}}<!--
+    -->{{#vardefine:normalValue|{{{normal|{{{1|}}}}}}}}<!--
+-->|<!--
+    -->{{#vardefine:normalValue|{{{normal|{{{1|}}}}}}}}<!--
+-->}}}}}}}}<!--
+
+// Check for damage boost
+-->{{#if:{{{boost|}}}|<!--
+    -->{{#vardefine:expertValue|{{{expert|{{{2|{{#expr:{{#var:normalValue}} * 2}}}}}}}}}}<!--
+    -->{{#vardefine:revValue|{{#expr:floor({{#var:expertValue}} * (1 + {{{boost}}}))}}}}<!--
+    -->{{#vardefine:deathValue|{{#expr:floor({{#var:expertValue}} * (1 + ({{{boost}}} * 1.6)))}}}}<!--
+-->}}<!--
+
+// Display
+-->{{#vardefine:sep|}}<!--
+-->{{#ifexpr:{{#dplreplace:{{#var:normalValue}}|\D|}}|{{#var:normalValue}}{{#vardefine:sep|&#32;/&#32;}}}}<!--
+-->{{#ifexpr:{{#dplreplace:{{#var:expertValue}}|\D|}}|{{#var:sep}}{{expert|{{#var:expertValue}}}}{{#vardefine:sep|&#32;/{{#if:{{{break|}}}|<br/>|&#32;}}}}}}<!--
+-->{{#ifexpr:{{#dplreplace:{{#var:revValue}}|\D|}}|{{#var:sep}}{{revengeance|{{#var:revValue}}}}{{#vardefine:sep|&#32;/&#32;}}}}<!--
+-->{{#ifexpr:{{#dplreplace:{{#var:deathValue}}|\D|}}|{{#var:sep}}{{death|{{#var:deathValue}}}}{{#vardefine:sep|&#32;/&#32;}}}}<!--
+-->{{#ifexpr:{{#dplreplace:{{#var:maliceValue}}|\D|}}|{{#var:sep}}{{malice|{{#var:maliceValue}}}}}}<!--
+
+--></includeonly><noinclude>{{doc}}</noinclude>

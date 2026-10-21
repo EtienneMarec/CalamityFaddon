@@ -1,0 +1,58 @@
+'''True melee''' may refer to several things in the Calamity Mod:
+
+*"True melee strikes" are strikes by a melee weapon that are not caused by projectiles. This usually refers to hits done with the blades of swords and spears, although there are some exceptions. 
+*"True melee damage" refers to damage done by true melee strikes. This damage is increased by certain accessories that boost true melee damage specifically, as well as activate certain effects, which are listed below.
+*"True melee weapons" are a term used to refer to melee weapons that either do not fire projectiles or only do so upon landing true melee strikes, linking back to previous versions of true melee.
+
+In the Calamity Mod, the true melee classification becomes relevant in several ways:
+*Various accessories boost true melee damage specifically, such as the [[Counter_Scarf|Counter/]][[Evasion Scarf]], [[Fungal Symbiote]], [[Titan Glove]] and its upgrades, [[Yharim's Insignia]], and [[Warbanner of the Sun]].
+**The [[Fungal Symbiote]] also causes true melee weapons to emit glowing mushrooms when swung.
+*The [[Hide of Astrum Deus]] grants a 50% boost to true melee damage for up to 15 seconds after being struck and causes stars to fall from the sky when landing true melee strikes.
+*Many melee weapons with [[lifesteal]] effects will only heal the player on true melee strikes.
+*True melee broadswords and shortswords are not affected by [[Luxor's Gift]].
+*The [[Soaring Potion]] causes true melee strikes to restore a fraction of the player's wing time. The amount of wing time restored scales with the player's melee stats and weapon's swing speed.
+*The [[Titan Scale Potion]] causes true melee strikes to grant the player 25 defense and 10% damage reduction for 10 seconds.
+*The melee [[Bloodflare armor]] and [[Auric Tesla armor]] set bonuses give true melee strikes lifesteal and give the [[Blood Frenzy]] buff for 5 seconds after dealing 15 true melee strikes, which greatly increases the player's melee stats.
+*[[Gem Tech armor]]'s melee set bonus cools down twice as fast while the player is wielding a true melee weapon.
+*[[The Twins]], [[Skeletron Prime]], [[Calamitas]], and [[Supreme Calamitas]] and her brothers have decreased acceleration while the player is wielding a true melee weapon, allowing the player to more easily hit them with said weapons.
+*[[Adrenaline Meter|Adrenaline]] and [[Rage Meter|Rage]] are half as powerful while wielding a true melee weapon, preventing the player from combining the two to destroy bosses within seconds.
+*All worm bosses (except [[The Devourer of Gods]]), [[Ceaseless Void]]'s Dark Energies, and [[XF-09 Ares]] have increased resistance to true melee damage, preventing the player from using true melee weapons' high damage and infinite piercing to very quickly defeat these bosses.
+__TOC__
+== Weapons ==
+Below is a list of weapons that are capable of performing true melee strikes.
+{| class="terraria sortable lined"
+! colspan=2 | Name !! <abbr title=Damage>DMG</abbr> !! <abbr title="Use Time">UT</abbr> !! <abbr title=Knockback>KB</abbr> !! <abbr title="Critical Chance">Crit</abbr> !! Auto !! [[Rarity]] !! <abbr title=Hardmode>HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Swords{{!}}True melee
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦/dpl}
+| uses = Template:Item infobox
+| mode = userformat
+}}
+|}
+== True melee weapons ==
+True melee weapons are melee weapons that do not fire projectiles or that require true melee strikes in order to do so.<!-- This is literally only so I have an excuse not to remove the true melee category-->
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan=2 | Name !! <abbr title=Damage>DMG</abbr> !! <abbr title="Use Time">UT</abbr> !! <abbr title=Knockback>KB</abbr> !! <abbr title="Critical Chance">Crit</abbr> !! Auto !! [[Rarity]] !! <abbr title=Hardmode>HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = True melee
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦/dpl}
+| uses = Template:Item infobox
+| mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Weapons
+| show-main  = yes
+| show-melee = yes
+}}
+[[Category:Melee weapons| ]]
+[[Category:Weapon items| ]]
+[[Category:True melee|*]]

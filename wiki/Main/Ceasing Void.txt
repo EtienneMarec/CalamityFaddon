@@ -1,0 +1,72 @@
+<section begin=npc infobox />{{npc infobox
+| name = Ceasing Void
+| image = Ceasing Void.png
+| type = Boss
+| environment = Dungeon
+| ai = Bouncy Boulder AI
+| damage = 1
+| life = 123,648
+| defense = 10
+| dr = 80
+| knockback = 100
+| immuneall = yes <!-- Adding this will change the meaning of immune1, immune2 etc to vulnerability -->
+| vulnerable1 = Slash
+| vulnerable2 = Magic
+| resistant1 = Dark
+| resistant2 = Machine
+| debuff = Distorted
+| duration = 1 second
+| debufftip = Gravity around you is distorted
+| debuffchance = 100%
+| Steel Blade|1|{{dv|25%|33.33%}}
+| Concentration Staff|1|{{dv|25%|33.33%}}
+| The Unchanging|1|100%
+| Healing Potion|5-15|100%
+| Ceasing Void Mask|1|14.29%
+| group|The following three items will always drop together|1
+| custom| {{item|God Slayer Helmet}}
+{{item|God Slayer Chestplate}}
+{{item|God Slayer Leggings}}|5%
+| Ceasing Void Trophy|1|10%
+| custom| {{item|Treasure Bag (Ceasing Void)|Treasure Bag|note=(Ceasing Void)|wrap=y}}|
+| image2 = Ceasing Void map.png
+| image2caption = Map Icon
+| hurt = OtherworldlyHit.wav
+| killed = NPC_Killed_14.wav
+| sound = Item_92.wav
+| soundtext = Portal Spawn
+| sound2 = Item_33.wav
+| sound2text = Portal Shoot
+| hardmode = yes
+| postml = yes
+| boxwidth = 24em
+}}<section end=npc infobox />
+
+The ceasing void must have the "calamity community remix" mod enabled as it does not spawn in base calamity mod
+
+== Spawn ==
+The Ceasing Void does not spawn on its own and requires the player to summon it by using the [[Kos Fragment]] in the [[Dungeon]].
+
+== Behavior ==
+The Ceasing Void will constantly roll towards the player, accelerating until it hits a wall. It will jump to meet the player's elevation.
+
+In the For The Worthy seed, The Ceasing Void's placement in progression is changed to post-ML between Providence, The Profanity Goddess and The Devourer of Gods. In the aforementioned seed, Ceasing Void will spawn alongside each Rune of Kos boss with 123,472 horse power, 123,456,789 max life in classic mode and 8273x damage. each time you are hit by Ceasing Void in one of these fights, Ceasing Void gains 10x damage multiplicatively with no cap.
+
+Each Rune of Kos boss defeated in the For The Worthy seed will make 2 more Ceasing Voids spawn, although this is tied to boss kills and not boss progression so if you kill Ceaseless Void 800 times you will have to fight 1601 Ceasing Voids alongside it. Of course, the enemy limit caps this at 200 Ceasing Voids, as Ceasing Void has spawn priority and will instantly de-spawn bosses that spawn it. This includes The Devourer of Cods itself.
+== Resistances ==
+*Ceasing Void takes reduced damage from non-[[Minions|minion]] piercing projectiles in [[Expert Mode]]. Projectile damage is divided by the number of times it pierces. Infinite piercing deals 50% damage.
+
+* A Ceasing Void will reduce damage from grenade-type projectiles by 80%. A list of affected projectiles is below.
+{{ajax|List of resisted grenades|head=Resisted grenades|width=15%}}
+*50% damage from [[Parasitic Scepter]] and [[Glaive]].
+*3% damage from [https://calamitymod.fandom.com/wiki/Boss_Masks Ceaseless Void Mask].
+
+== Trivia ==
+*The Ceasing Void's [[Music|theme]] is a segment from [https://www.youtube.com/watch?v=dt30jWRMjLk '''Servants of the Scourge'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO], notably void of any guitar.
+**This theme contains a motif from [[The Devourer of Gods]]' theme.
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' will play instead.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

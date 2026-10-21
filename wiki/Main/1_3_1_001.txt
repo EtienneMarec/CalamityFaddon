@@ -1,0 +1,246 @@
+{{Patch infobox
+| image = Aquatic Scourge.png
+| patchname = Abyss Polish Update
+| release = 4/2/2018
+| size = 380px
+}}
+
+The '''1.3.1.001''' update continued to polish the [[Abyss]] and [[Sulphurous Sea]]. It made a large amount of recipe changes to encourage going to the Abyss and buffed the Aquatic Scourge into a more proper boss fight. The update also came with some changes to [[The Devourer of Gods]], some new [[Music]], and resprites for [[Signus, Envoy of the Devourer]] and the [[Aerialite Bar|Aerialite]] and [[Scoria Bar|Chaotic]] sets.
+
+{{toc limit|3}}
+
+== Additions ==
+*Added [[Cosmic Plushie]].
+*Added [[Chibii Devourer]].
+*Added [[Blue Brick Wall Unsafe]], Blue Slab Wall Unsafe, Blue Tiled Wall Unsafe, Green Brick Wall Unsafe, Green Slab Wall Unsafe, Green Tiled Wall Unsafe, Pink Brick Wall Unsafe, Pink Slab Wall Unsafe, Pink Tiled Wall Unsafe.
+*Added [[Wulfrum Axe]] and [[Wulfrum Hammer]].
+*Added [[Abyss Gravel]] (item).
+*Added [[Trasher]].
+
+== Changes ==
+=== [[Bosses]] ===
+==== [[Aquatic Scourge]] ====
+*Buffed health from {{dv|40,000|80,000|89,000|130,400}} to {{dv|79,000|158,000|185,000|290,400}}.
+*Head now periodically vomits projectiles in a circular pattern.
+*Sand teeth projectiles now last for 7.5 seconds instead of 5, and have had their homing reduced.
+*Sand blast projectiles now last for 5 seconds instead of 2 and now create more dust.
+*Now resists [[Crystal Serpent]]'s split projectiles by 75%.
+*Now uses [[Music#Outcast of the Sulphurous Seas|Outcast of the Sulphurous Seas]] as its theme instead of [[Music#Guardian of the Former Seas|Guardian of the Former Seas]].
+
+==== [[Astrum Deus]] ====
+*No longer inflicts [[Extreme Gravity]] in [[Revengeance Mode]].
+
+==== [[Brimstone Elemental]] ====
+*Now becomes more aggressive at lower amounts of health.
+
+==== [[Calamitas]] ====
+*Increased laser speeds, but decreased how quickly they speed up.
+*Buffed normal laser damage from {{dv|70|100|105|150}} to {{dv|100|120|126|180}}.
+*Buffed rapid laser damage from {{dv|60|88|92|132}} to {{dv|74|104|109|156}}.
+
+==== [[Cryogen]] ====
+*Now fades in and out quicker.
+
+==== [[Desert Scourge]] ====
+*Sand blast projectiles now last for 5 seconds instead of 2 and now create more dust.
+
+==== [[The Destroyer]] ====
+*Increased speed in Revengeance Mode.
+*Body segments now resists Crystal Serpent's split projectiles by 75%.
+
+==== [[The Devourer of Gods]] ====
+*Stat changes:
+**Buffed phase 1's head damage from {{dv|350|560}} to {{dv|400|640}}.
+**Buffed phase 2's head damage from {{dv|450|720}} to {{dv|500|800}}.
+**Buffed phase 2's body damage from {{dv|300|480}} to {{dv|325|520}}.
+**Nerfed phase 2's tail damage from {{dv|250|400}} to {{dv|200|320}}.
+*Resistance changes:
+**Both phases' heads and tails now take 1.25x damage from all sources instead of 1.4x.
+**Removed phase 1's head and tail's damage taken based on health scaling.
+**Phase 1's tail no longer takes 50% damage from the [[Life Drain]].
+**All of phase 2's segments now take 50% damage from hits which deal over 50,000 damage instead of taking 25% damage from hits which deal over 100,000 damage, the formula also now accounts for critical hits.
+**Body segments in both phases now take 50% damage from ranged projectiles when [[Vortex armor]]'s stealth is active.
+**Body segments in both phases now take 20% damage from infinitely piercing projectiles instead of 30.0000012%, and 70% damage from projectiles which pierce more than 3 times instead of 89.999997615814209%.
+*Beam portal changes:
+**No longer deals damage.
+**Speed now scales with difficulty.
+**No longer collides with tiles.
+**Now follows the player.
+**Decreased the speed multiplier for lasers spawned from beam portals.
+*Behavior changes:
+**Can now shoot short ranged flames which inflict several debuffs.
+**Now remains invincible for slightly longer.
+**Decreased speed for both phases during its blue phase, and increased it during its purple phase.
+**Body segments in both phases can now be homed in on.
+*Other:
+**Moved ModifyHitByProjectile field in phase 2's tail's code below StrikeNPC.
+**Now drops 1 Cosmic Plushie in Death Mode if using a [[Hardcore]] character.
+
+==== [[Golem]] ====
+*Buffed fists' base healths in Revengeance Mode from {{revengeance|100}} to {{revengeance|4000}}, and their base damage from {{revengeance|105}} to {{revengeance|190}}.
+*Fists in Revengeance Mode now attack slower.
+
+==== [[The Hive Mind]] ====
+*Now spawns less enemies.
+*Now fades in and out quicker when teleporting.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Now heals quicker when entering phase 2.
+
+==== [[Moon Lord]] ====
+*Head and hand eyes in Revengeance Mode now get more aggressive at higher amounts of health.
+
+==== [[The Plaguebringer Goliath]] ====
+*Now charges less frequently.
+
+==== [[Providence, the Profaned God]] ====
+*Now hovers back and forth during all non-cocoon phases instead of hovering directly above the player in some of them.
+*Now becomes invulnerable to damage when out of the Hallow or Underworld for more than 6 seconds until entering either biome again instead of instantly becoming invincible.
+*Optimized the code for most of her projectiles.
+*Holy Bombs now last for 4.17 seconds instead of 8.
+*Holy Bombs now shoot flares twice as often.
+*Holy Fire projectiles now briefly home in on the player.
+*Tweaked Holy Flare projectile's velocity.
+*Holy Flare projectiles now last for 10 seconds instead of 5 and now have an added [[tgc:Velocity|extra update]].
+*Increased the spread of the Molten Globs created by Molten Blasts.
+*Increased the y velocity of Molten Globs.
+*Buffed healer guardian's health from {{dv|15,000|30,000}} to {{dv|30,000|60,000}} 
+*Healer guardian no longer deals contact damage.
+
+==== [[SELF-INSERT BOSS UNCREATIVE AS FUCK BABY RAGE K U LOL BAI]] ====
+*Renamed to THE LORDE.
+
+==== [[Siren and Leviathan]] ====
+*The Siren now charges half as often.
+*Optimized the code for the internal check for The Siren's spawning of The Leviathan.
+*Reduced the speed of The Siren's water spears.
+*Nerfed The Leviathan's defense from 45 to 40.
+*Nerfed The Leviathan's damage reduction from 60% to 50%.
+*Decreased the size of The Leviathan's hitbox.
+
+==== [[The Slime God]] ====
+*The large slimes now fire mines more often.
+
+==== [[Supreme Calamitas]] ====
+*Brimstone Hearts now take 20% damage from infinitely piercing projectiles and 40% damage from projectiles which pierce more than once instead of 5% damage from infinitely piercing projectiles and 15% damage from projectiles which pierce more than once.
+*Now takes 50% damage from [[Yharim's Crystal]] and [[Yharon's Kindle Staff]].
+
+=== [[Enemies]] ===
+*[[Aero Slime]]s now fly.
+*Nerfed [[Aquatic Aberration]]'s damage from {{dv|100|200}} to {{dv|60|120}}.
+*Increased the height of [[Aquatic Seeker]]'s head.
+*[[Catfish]] now have a 25% chance to drop a [[Diving Helmet]].
+*[[Colossal Squid]] changes:
+**Buffed health from {{dv|190,000|380,000}} to {{dv|250,000|500,000}}.
+**Can no longer spawn if any other Abyss minibosses are currently alive.
+*Eidolon Wyrm changes:
+**Buffed [[Eidolon Wyrm (juvenile)|juvenile wyrm]]'s health from {{dv|300,000|600,000}} to {{dv|330,000|660,000}}.
+**Buffed [[Eidolon Wyrm (adult)|adult wyrm]]'s damage reduction from 40% to 50%.
+**Lowered the force of both wyrms' telekinetic push.
+**Both wyrms can no longer naturally spawn if any other Abyss minibosses are currently alive.
+*[[Gnasher]] now has knock back resistance.
+*[[Mauler]] changes:
+**Buffed base health from {{dv|15,000|30,000}} to {{dv|180,000|360,000}}.
+**Now has a custom roar.
+**No longer drops the [[Angler]] if the Angler hasn't been saved.
+**Lowered spawn rate.
+*Nerfed [[Parasea]]'s damage from {{dv|80|160}} to {{dv|50|100}}.
+*Paraseas no longer naturally spawn.
+*[[Reaper Shark]] changes:
+**Renamed from Reaper to Reaper Shark.
+**Buffed health from {{dv|166,000|332,000}} to {{dv|226,000|452,000}}.
+**Can no longer spawn if any other Abyss minibosses are currently alive.
+*[[Shark]]s now have a {{dv|3%|5%}} chance to drop a [[Shark Tooth Necklace]].
+*Decreased how quickly [[Soul Slurper]]'s lasers speed up.
+
+=== Items ===
+*Abyss Gravel can now be mined and collected.
+*[[Fractured Ark|Ark of the Ancients]] now uses {{rare|6}} rarity instead of {{rare|8}} rarity.
+*[[Briny Baron]]'s razorwind blades now deal 50% of the weapon's base damage instead of 35%.
+*Briny Baron's spouts now use a localNPCImmunity with a cooldown of 8 instead of 10.
+*[[Bucket]]s and [[Super Absorbant Sponge]]s can no longer be used in the Abyss. 
+**Updated their tooltips to reflect this.
+*Reduced the damage of [[Catastrophe Claymore]]'s projectiles by 60%.
+*Buffed [[Cosmic Bolter]]'s damage from 50 to 60.
+*[[Darklight Greatsword]]'s main projectile now deals a flat 60% of the weapon's damage instead of 60.0000024%.
+*Reduced the damage of Darklight Greatsword's crystal projectile by 33%.
+*Nerfed [[Empyrean Knives]]' damage from 1120 to 1000.
+*Tweaked [[Exoblade]]'s projectile's y velocity.
+*Changed how [[Feather Knife]]'s projectile draws.
+*Lowered [[Flarefrost Blade]]'s use time from 28 to 24, and increased its shot speed from 9 to 11.
+*Tweaked Flarefrost Blade's projectile's y velocity.
+*Nerfed [[Flarewing Bow]]'s damage from 25 to 22.
+*Buffed [[Floodtide]]'s damage from 52 to 89.
+*Floodtide can now only be fished up at a 4% chance after Plantera has been defeated instead of a 6% chance during Hardmode. 
+*Nerfed [[Lionfish]]'s damage when attached to a target by 50%.
+*Buffed [[Mariana]]'s damage from 55 to 70.
+*Mariana's projectile no longer creates dust.
+*[[Mortar Round]]s and [[Rubber Mortar Round]]s can no longer destroy Abyss Gravel and [[Abyss Gravel Wall]]s.
+*Buffed [[Plague Staff]]'s damage from 70 to 78.
+*[[Radar]]s can now be crafted with 5 of [[any Iron Bar]] at an [[Anvil]].
+*Nerfed [[Soul Edge]]'s damage from 570 to 250.
+*Reduced the dust created by Soul Edge's soul projectiles.
+*[[Sun God Staff]] now uses {{rare|5}} rarity instead of {{rare|8}} rarity.
+*[[Temporal Floe Sword]] no longer inflicts [[Chilled]].
+*Tweaked Temporal Floe Sword's dust.
+*[[True Ark of the Ancients]] now uses {{rare|8}} rarity instead of {{rare|9}} rarity.
+*Nerfed [[Valediction]]'s damage from 330 to 290.
+*Tweaked the amount of dust Valediction creates.
+*Nerfed [[Verium Bullet]]'s damage from 11 to 9.
+*Buffed [[Virulence]]'s damage from 83 to 96.
+*Holding a Yoyo now caps the player's melee speed.
+*[[Zen Potion]]s are now less effective in the Abyss.
+
+==== Recipes ====
+*[[Abyss Blade]] now uses 15 Depth Cells, 10 Lumenyl, and 5 Tenebris in its recipe instead of 5 [[Core of Eleum|Cores of Eleum]].
+*[[Alluvion]] now uses 10 Depth Cells, 20 Lumenyl, and 5 Tenebris in its recipe.
+*[[Aquatic Dissolution]] now uses 2 [[Bar of Life|Bars of Life]], 20 Lumenyl, 5 Tenebris, and 7 [[Uelibloom Bar]]s in its recipe instead of 4 Bars of Life and 12 Uelibloom Bars.
+*[[Barracuda Gun]] now uses 2 [[Shark Fin]]s and 5 Tenebris in its recipe instead of 5 Shark Fins.
+*Floodtide now uses 10 Depth Cells, 10 Lumenyl, 2 Shark Fins, and 5 Tenebris in its recipe instead of 5 Shark Fins.
+*Mariana now uses 3 Coral, 10 Depth Cells, 10 Lumenyl, and 5 Tenebris in its recipe instead of 5 Coral.
+*[[Megalodon]] now uses 10 Depth Cells, 10 Lumenyl, and 5 Tenebris in its recipe instead of 7 Cores of Eleum.
+*[[Monsoon]] now uses 10 Depth Cells, 10 Lumenyl, 2 Shark Fins, 5 Tenebris, and 15 [[Vortex Fragment]]s in its recipe instead of 5 Shark Fins and 20 Vortex Fragments.
+*[[Neptune's Bounty]] now uses 15 Depth Cells, 15 Lumenyl, and 5 Tenebris in its recipe.
+*[[SDFMG]] now uses 10 Depth Cells, 10 Lumenyl, and 5 Tenebris in its recipe.
+*[[Seadragon]] now uses 15 Depth Cells, 15 Lumenyl, and 5 Tenebris in its recipe.
+*Sun God Staff now uses 5 [[Essence of Cinder|Essences of Cinder]], 3 [[Soul of Fright|Souls of Fright]], 3 [[Soul of Might|Souls of Might]], and 3 [[Soul of Sight|Souls of Sight]] in its recipe instead of 5 [[Core of Cinder|Cores of Cinder]] and 3 [[Desert Feather]]s.
+*[[Biome Blade|True Biome Blade]] now uses 10 Depth Cells, 10 Lumenyl, and 5 Tenebris in its recipe.
+
+=== Other ===
+*The [[Abyss]] now uses [[Music#Hadopelagic Pressure|Hadopelagic Pressure]] as its theme instead of [[Music#R'LYEH|R'LYEH]].
+*Smoothened Abyss and Sulphurous Sea generation.
+*The [[Brimstone Crag|Profaned Crag]] now uses [[Music#The Step Below Hell|The Step Below Hell]] as its theme.
+*[[Chaotic Ore]] now generates Water.
+*The [[Clothier]] now sells all 9 unsafe Dungeon Walls.
+*[[Pot]]s now have a custom look when broken in the Abyss or Sulphurous Sea.
+*[[Sulphurous Sand]] now generates more Water.
+*The [[Sulphurous Sea]] now uses [[Music#wasteland|wasteland]] as its theme.
+*Simplified all liquid submersion code.
+
+=== Resprites ===
+*Resprited [[Abyssal Amulet]], [[Anechoic Coating]], [[Chaos Amulet]], [[Discordian Wings]], [[Harpy Ring]], [[Skyline Wings]].
+*Resprited [[Demon Trophy]].
+*Resprited [[Aerospec Breastplate]], [[Aerospec Hat]], [[Aerospec Headgear]], [[Aerospec Helm]], [[Aerospec Helmet]], [[Aerospec Hood]], [[Aerospec Leggings]], [[Ataxia Armor]], [[Ataxia Headgear]], [[Ataxia Helm]], [[Ataxia Helmet]], [[Ataxia Hood]], [[Ataxia Mask]], [[Ataxia Subligar]], [[Auric Tesla Body Armor]], [[Auric Tesla Cuisses]], [[Auric Tesla Helm]].
+*Resprited [[Air Spinner]], [[Alpha Ray]], [[Chaotrix]], [[Cosmic Bolter]], [[Cosmilamp]], [[Crystalline]], [[Energy Staff]], [[Feather Knife]], [[Flame Scythe]], [[Forbidden Sun]], [[Galeforce]], [[Genisis]], [[Goldplume Spear]], [[Greatbow of Turmoil]], [[Hellfire Flamberge]], [[Helstorm]], [[Phoenix Blade]], [[Tradewinds]], [[Wind Blade]], [[Wingman]].
+*Resprited [[Aerial Hamaxe]], [[Chaoswarped Slashaxe]], [[Flamebeak Hampick]], [[Skyfringe Pickaxe]].
+*Resprited [[Aerialite Bar]], [[Aerialite Ore]], [[Chaotic Bar]], Chaotic Ore.
+*Resprited Aero Slime, [[Charred Slime]], Cosmic Lantern, [[Gulper Eel]], [[Perennial Slime]], and Signus, Envoy of the Devourer.
+*Resprited Signus, Envoy of the Devourer's map icon.
+*Resprited Air Spinner yoyo, Chaotrix yoyo, Cosmic Lantern minion, Daedalus Crystal, [[Biofusillade]] Gamma Laser, [[Sun God Staff]]'s Solar God Spirit, [[Sun Spirit Staff]]'s Solar Spirit, and Aerospec armor's Valkyrie minion.
+*Resprited Aerialite Ore's tile.
+
+== Fixes ==
+*Fixed the player not dying when at negative life in the Abyss.
+*Fixed [[Ball O' Fugu]]'s chain being rotated incorrectly.
+*Fixed [[Giant Squid]]s being able to move through walls.
+*Fixed a sheeting error on the Gnasher.
+*Fixed a bug where [[Nano Purge]] and [[T1000]]'s projectiles would not have their damage scale with weapon damage.
+*Fixed bug where the [[Perforator]] worms wouldn't spawn above a certain height during the Perforator fight.
+
+== Removals ==
+*Removed the buffed variant of the Aquatic Aberration.
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

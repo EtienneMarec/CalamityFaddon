@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 15
+| damagetype = Ranged
+| knockback = 2.5
+| stack = 1
+| rare = 2
+| sell = {{value|0|0|40}}
+| auto = yes
+| use = 20
+| velocity = 14
+| tooltip = Converts musket balls into fungal rounds that split on death
+| proj = Fungi Orb.png
+| projcaption = Fungi Orb
+| element1 = Poison
+}}
+|{{item drops infobox
+|[[Crabulon]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Fungicide''' is a [[Pre-Hardmode]] [[Guns|gun]] that has a chance of dropping from [[Crabulon]]. When [[Musket Ball]]s are used as [[ammo]], it fires a fungus bullet that, upon impact with an [[enemy]] or tile, splits into smaller spores which are affected by gravity.
+
+{{Modifier|ranged}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Guns]]

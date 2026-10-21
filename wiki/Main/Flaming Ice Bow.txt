@@ -1,0 +1,40 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 23
+| knockback = 2
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| auto = yes
+| velocity = 18
+| use = 25
+| tooltip = Causes all arrows to inflict frostburn<br/>Damages the user while held
+| hardmode = yes
+| debuff = Frostburn
+| element1 = Fire
+| element2 = Cold
+| element3 = Unholy
+}}
+
+The '''Flaming Ice Bow''' is a craftable [[Hardmode]] [[bow]]. When used, it auto-fires arrows which inflict the [[Frostburn]] debuff for 3 seconds. For each frame the item is held, the player loses 1 health point due to their hands touching the fire. A typical player with 500 health will die within 9 seconds of continuously holding the bow. Heat resistant effects cannot stop this. 
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The fire on the item's sprite comes from an emoji on the mod's Discord server which depicts a frog blankly staring forward while its head is on fire.
+{{flarefrost}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

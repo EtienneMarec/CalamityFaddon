@@ -1,0 +1,221 @@
+{{patch infobox
+| image = The Old Duke.png
+| patchname = Acid Rain
+| prev = [[1.4.3.002]]
+| pair = 1.4.4.001 (music)
+| release = 4/01/2020
+| description = Added the [[Acid Rain]] event, and [[The Old Duke]].
+}}
+The '''1.4.4.001''' (or '''1.4.4.1''') update, also known as '''"Acid Rain"''', added the [[Acid Rain]] [[event]] and [[The Old Duke]] [[boss]]. It also added numerous [[weapons]] and other equipment especially for the Summoner class, changed the [[Sulphurous Sea]] world generation, among other balance and boss changes.
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+=== [[Covering]] and [[coverings]] ===
+*Added [[Brimflame armor]], [[Fathom Swarmer armor]], and [[Snow Ruffian armor]].
+*Added [[Corrosive Spine]], [[Hallowed Rune]], [[Mutated Truffle]], [[Nuclear Rod]], [[Nucleogenesis]], [[Sulfuric Scale]], [[Profaned Soul Crystal]], [[Scuttler's Jewel]], [[Silva Wings]], [[Starbuster Core]], [[Star-Tainted Generator]].
+*[[Sulphurous armor]] is now obtainable.
+
+=== [[Blocks]], [[Furniture]], and [[Walls]] ===
+*Added [[Sulphurous Sandstone Wall]].
+*Added [[Anthozoan Crab Banner]], [[Belching Coral Banner]], [[Flak Crab Banner]], [[Gamma Slime Banner]], [[Nuclear Toad Banner]], [[Orthocera Banner]], [[Skyfin Banner]], [[Sulfurous Skater Banner]], [[Trilobite Banner]], and [[Water Leech Banner]].
+*Added [[Steam Geyser]]s and [[ambient objects]] to the Sulphurous Sea.
+*[[Sulphurous Sandstone]] is now obtainable.
+
+=== [[Enemies]] ===
+*Added [[The Old Duke]].
+*Added [[Cragmaw Mire]] and [[Nuclear Terror]].
+*Added [[Anthozoan Crab]], [[Belching Coral]], [[Flak Crab]], [[Gamma Slime]], [[Nuclear Toad]], [[Orthocera]], [[Skyfin]], [[Sulphurous Skater]], [[Trilobite]], and [[Water Leech]].
+*Added [[Baby Flak Crab]] and [[Bloodworm]].
+
+=== [[Weapons]] ===
+*Added [[Acid Gun]], [[Acidic Rain Barrel]], [[Basher]], [[Belching Saxophone]], [[Belladonna Spirit Staff]], [[Blood Boiler]], [[Bonebreaker]], [[Cadaverous Carrion]], [[Caustic Croaker Staff]], [[Cinder Blossom Staff]], [[Cold Divinity]], [[Contaminated Bile]], [[Corvid Harbinger Staff]], [[Cosmic Viper Engine]], [[Dazzling Stabber Staff]], [[Dormant Brimseeker]], [[Dragonblood Disgorger]], [[Endo Hydra Staff]], [[Eternity]], [[Fetid Emesis]], [[Flak Toxicannon]], [[Frost Blossom Staff]], [[Fuel Cell Bundle]], [[Haunted Scroll]], [[Igneous Exaltation]], [[Infected Remote]], [[Miasma]], [[Midnight Sun Beacon]], [[Orthocera Shell]], [[Pristine Fury]], [[Saros Possession]], [[Scab Ripper]], [[Skyfin Bombers]], [[Slithering Eels]], [[Spent Fuel Container]], [[Staff of Necrosteocytes]], [[Stormjaw Staff]], [[Sulphurous Grabber]], [[Tactical Plague Engine]], [[Temporal Umbrella]], [[Toxibow]], [[Toxicant Twister]], [[Vile Feeder]], and [[Vitriolic Viper]].
+*Added [[Draedon's Pulse Rifle]], [[Gatling Laser]], [[Heavy Laser Rifle]], [[Plasma Caster]], and [[Tesla Cannon]] as [[Unobtainable items]].
+*[[Insidious Impaler]] and [[Septic Skewer]] are now obtainable.
+
+=== Other ===
+*Added the [[Acid Rain]] event.
+*Added [[Stealth]] Meter.
+*Added [[Caustic Tear]].
+*Added [[Acidwood]], [[Corroded Fossil]], and [[Sulphuric Scale]].
+*Added [[Enchanted Butterfly]] and [[Geyser Shell]].
+*Added [[Baby Flak Crab (item)|Baby Flak Crab]] and [[Bloodworm (item)|Bloodworm]] [[critter]] items.
+*Added [[Baby Blood Crawler (buff)|Baby Blood Crawler]], [[Baby Stormlion (buff)|Baby Stormlion]], [[Belladonna Spirit (buff)|Belladonna Spirit]], [[Brimflame Frenzy]], [[Brimseeker (buff)|Brimseeker]], [[Cinder Blossom (buff)|Cinder Blossom]], [[Cosmic Viper (buff)|Cosmic Viper]], [[Dazzling Stabber (buff)|Dazzling Stabber]], [[Devotion]], [[Endo Hydra (buff)|Endo Hydra]], [[Flak Hermit (buff)|Flak Hermit]], [[Frost Blossom (buff)|Frost Blossom]], [[Haunted Dishes (buff)|Haunted Dishes]], [[Igneous Blade (buff)|Igneous Blade]], [[Magic Hat (buff)|Magic Hat]], [[Mini Plaguebringer (buff)|Mini Plaguebringer]], [[Raven (buff)|Raven]], [[Saros Possession (buff)|Saros Possession]], [[Skeletal Dragons (buff)|Skeletal Dragons]], [[Small Skeleton (buff)|Small Skeleton]], [[Sparks (buff)|Sparks]], [[Tactical Plague Engine (buff)|Tactical Plague Engine]], [[Vile Feeder (buff)|Vile Feeder]], and [[Virili (buff)|Virili]] [[buffs]].
+*Added [[Brimflame Frenzy Cooldown]], [[Freezing Weather]], and [[Heat Exhaustion]] [[debuffs]].
+
+== Changes ==
+=== Bosses ===
+*Added glowmasks to several bosses.
+*Debuff icons now appear on top of bosses or [[minibosses]]. This can be toggled via [[configuration options]].
+
+==== [[The Destroyer]] ====
+*Reduced [[Revengeance Mode]] scrap projectile lifespan.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Flare bomb ring attack now spreads in all directions. Attack animation slightly changed.
+
+==== [[Moon Lord]] ====
+*Now drops an additional 50 [[Luminite]] in every difficulty.
+
+==== [[Siren and Leviathan]] ====
+*Reduced [[The Siren]]'s charge distance.
+
+==== [[The Slime God]] ====
+*Reduced the charging speed of [[The Slime God]] in [[Death Mode]].
+
+==== [[Storm Weaver]] ====
+*Buffed phase 2's health from {{dv|600,000|960,000}} to {{dv|900,000|1,440,000}}.
+
+=== Other NPCs ===
+*[[Armored Digger]] now drops its items at the nearest segment.
+*[[Astral Slime]]s now drop [[Stardust]].
+*The [[Bandit]] and [[Drunk Princess]] no longer require extra spawn conditions to be met to spawn after they've spawned once.
+*[[Conference Call]] now drops from [[Storm Diver]]s instead of [[Tactical Skeleton]]s.
+*[[Mauler]] now has a new roar.
+*[[Radiator]]s no longer drop [[Lead Core]].
+
+=== Renames ===
+*Renamed Acid Rain debuff to [[Irradiated]].
+*Renamed Ataxia Armor to [[Hydrothermic Armor]].
+*Renamed Ataxia Headgear to [[Hydrothermic Headgear]].
+*Renamed Ataxia Helm to [[Hydrothermic Helm]].
+*Renamed Ataxia Helmet to [[Hydrothermic Helmet]].
+*Renamed Ataxia Hood to [[Hydrothermic Hood]].
+*Renamed Ataxia Mask to [[Hydrothermic Mask]].
+*Renamed Ataxia Subligar to [[Hydrothermic Subligar]].
+*Renamed Bar of Life to [[Life Alloy]].
+*Renamed Chaotic Ore to [[Scoria Ore]].
+*Renamed Chaotic Bar to [[Scoria Bar]].
+*Renamed Chaotic Spread Rod to [[Rift Reeler]].
+*Renamed Chaotrix to [[Fault Line]].
+*Renamed Chaos Flames to [[Hydrothermic Vent (buff)|Hydrothermic Vent]].
+*Renamed Chaoswarped Slashaxe to [[Tectonic Truncator]].
+*Renamed Discordian Wings to [[Hadal Mantle]].
+*Renamed Exsanguination Lance to [[Vulcanite Lance]].
+*Renamed Flamebeak Hampick to [[Seismic Hampick]].
+*Renamed Flame Scythe to [[Subduction Slicer]].
+*Renamed Greatbow of Turmoil to [[Continental Greatbow]].
+*Renamed Statis' Belt of Curses to [[Statis' Void Sash]].
+
+=== Armor and coverings ===
+*Buffed [[Festive Wings]], now rains down homing ornaments during the player's flight.
+*Buffed [[Gladiator's Locket]], damage now scales from 20 to 50 in Hardmode, 100 after Plantera has been defeated, 200 after Moon Lord, and 300 after The Devourer of Gods.
+*Buffed [[Soul of Cryogen]]'s flight time from 100 to 120. Now rains icicles during the player's flight.
+*Nerfed [[Statis' Blessing]], now only provides 2 minion slots instead of 3.
+*Removed [[Statis' Ninja Belt]]'s 5% Spy damage, crit chance, and projectile velocity bonuses.
+*Reworked [[Statis' Void Sash]], increased the dash length and added trailing homing scythes that release when dashing. Removed all Spy and summoner bonuses.
+
+=== Weapons ===
+==== Melee ====
+*Buffed [[Classy Cane]]'s damage from 16 to 64, and granted it auto-swing.
+*Buffed [[Draconic Destruction]]'s damage from 210 to 350.
+*Buffed [[Pearlwood Sword]]'s damage from 11 to 44, and granted it auto-swing.
+*Buffed [[Red Sun]]'s damage from 2000 to 2500.
+*Granted [[Stylish Scissors]] auto-swing.
+*Buffed [[True Excalibur]]'s damage from 66 to 87.
+
+==== Ranged ====
+*Nerfed [[Blossom Flux]], now grants more local [[immunity frames]] from its spore bomb attack.
+*Buffed [[Conclave Crossfire]]'s damage from 30 to 35.
+*Buffed [[Conference Call]]'s damage from 30 to 35.
+*Buffed [[Continental Greatbow]], now converts [[Wooden Arrow]]s into [[Flaming Arrow]]s.
+*Buffed [[Pearlwood Bow]]'s damage from 9 to 18, nerfed use time from 27 to 35, and granted it auto-fire. Now fires three additional rainbows.
+*Buffed [[Soma Prime]]'s damage from 600 to 1000.
+*Nerfed [[Stellar Cannon]]'s damage from 250 to 175, and its use time from 30 to 40.
+*Buffed [[Svantechnical]]'s damage from 625 to 720.
+*Buffed [[Tactical Shotgun]]'s damage from 29 to 34.
+*Nerfed [[Triploon]]'s damage from 90 to 80.
+
+==== Magic ====
+*Buffed [[Apotheosis]]' damage from 366 to 420, and its use time from 20 to 18.
+*Buffed [[The Dance of Light]]'s damage from 500 to 700, and its use time from 14 to 10.
+*Nerfed [[Frost Bolt]]'s damage from 12 to 10, and its use time from 15 to 18.
+*Buffed [[Staff of Blushie]], doubled charge duration and now inflicts [[Daybroken]].
+*Nerfed [[Wand of Sparking]]'s damage from 13 to 10.
+*Buffed [[Wulfrum Staff]]'s use time from 24 to 20.
+
+==== Summon ====
+*Nerfed [[Endogenesis]]' damage from 7000 to 6500.
+*Nerfed [[Entropy's Vigil]]'s damage from 32 to 27.
+*Nerfed [[Sand Sharknado Staff]]'s damage from 35 to 30.
+
+==== Spy ====
+*Nerfed [[Ghoulish Gouger]]'s damage from 160 to 110.
+*[[Jaws of Oblivion]] now uses local immunity frames. Nerfed damage from 465 to 195.
+*[[Leviathan Teeth]] now uses local immunity frames. Nerfed damage from 94 to 50.
+
+==== Multi-class and Classless ====
+*Buffed [[Illustrious Knives]]' damage from 1600 to 2000.
+
+==== Other ====
+*Buffed [[Crystyl Crusher]]'s damage from 500 to 2000, hit cooldown decreased. The end of the beam now follows the mouse cursor, and the right click now functions as a regular pickaxe.
+*Buffed [[Pearlwood Hammer]]'s damage from 9 to 36, and hammer power from 45% to 80%.
+
+=== Recipes ===
+*[[Cosmic Immaterializer]] now uses [[Corvid Harbinger Staff]] instead of [[Sirius]].
+*[[Cosmic Rainbow]] now requires the [[Pearlwood Bow]] to craft.
+*[[Conclave Crossfire]] now uses [[Vortex Fragment]]s instead of [[Core of Chaos|Cores of Chaos]].
+*[[Elemental Axe]] now requires the [[Haunted Scroll]] to craft.
+*[[SDFMG]] now uses the [[Fetid Emesis]] instead of [[Shrimpy Truffle]].
+*[[Statis' Void Sash]] no longer uses [[Statis' Curse]].
+*[[Super Dummy]] can now be crafted at a Pre-Hardmode [[Anvil]].
+*[[Target Dummy]] can now be crafted with the [[Super Dummy]].
+*[[Totality Breakers]] now requires the [[Spent Fuel Container]] to craft.
+
+=== Additional Changes ===
+*[[Abyssal Crate]]s now grant [[Acidwood]], [[Sulphurous Sand]], and [[Sulphurous Sandstone]]. They also contain [[Sulphuric Scale]]s and [[Corroded Fossil]]s after defeating their respective Acid Rain tiers.
+*[[The Corruption (Lore)|The Corruption]], [[The Crimson (Lore)|The Crimson]], [[The Ocean (Lore)|The Ocean]], and [[The Underworld (Lore)|The Underworld]] [[lore items]] now prevent [[Hive Cyst]]s, [[Perforator Cyst]]s, [[???]], and [[Voodoo Demon]]s from spawning respectively.
+*Reduced particles from [[The Dance of Light]] and [[Fabstaff]].
+*Removed extraneous dust-only projectiles from [[Magnomaly Cannon]] and [[The Microwave]].
+*[[Odd Mushroom]] now duplicates all dust present.
+*[[Purification Powder]] now purifies the [[Astral Infection]].
+*[[Scoria Bar]]s can now be placed.
+*[[Irradiated]] is no longer infinitely inflicted during [[Rain]] in the [[Sulphurous Sea]].
+*Decreased the dismounting cooldown from 1 second to 0.17.
+*Changed the sell price on several items.
+*Modified tooltips for [[Baguette]], [[Defiled Rune]], [[MOAB]], and [[Raider's Talisman]].
+*Added a configuration option to remove the invisibility effect from gaining Stealth.
+*Moved 'Other' configuration section to the top and renamed it to 'General'.
+
+=== Resprites ===
+==== Armor and coverings ====
+*Resprited [[The Absorber]], [[Aquatic Emblem]], [[Cryo Stone]], [[Dynamo Stem Cells]], [[Frost Flare]], [[Gladiator's Locket]], [[Grand Gelatin]], [[Hadal Mantle]], [[Life Jelly]], [[Mana Jelly]], [[Soul of Cryogen]], [[The Sponge]], [[Statis' Blessing]], [[Statis' Curse]], [[Statis' Void Sash]], [[Vital Jelly]].
+*Resprited [[Fearmonger Greathelm]], [[Fearmonger Greaves]], [[Fearmonger Plate Mail]], [[Hydrothermic Armor]], [[Hydrothermic Headgear]], [[Hydrothermic Helm]], [[Hydrothermic Helmet]], [[Hydrothermic Hood]], [[Hydrothermic Mask]], and [[Hydrothermic Subligar]].
+
+==== Buffs and Debuffs ====
+*Resprited [[Brittle Star (buff)|Brittle Star]], [[Electric Troublemaker (buff)|Electric Troublemaker]], [[Gladiator Swords (buff)|Gladiator Swords]], [[Hydrothermic Vent (buff)|Hydrothermic Vent]], and [[Shellfish (buff)|Shellfish]] buffs.
+*Resprited [[Marked]], [[Plague]], and [[Shellfish Claps]] debuffs.
+
+==== NPCs ====
+*Resprited [[Armored Digger]], [[Bumblebirb]], [[Draconic Swarmer|Bumblebirb]] (clone), [[Cryogen]], [[The Hive Mind]], and [[The Plaguebringer Goliath]].
+*Resprited [[Chaotic Puffer]] and [[Stormlion]].
+
+==== Weapons ====
+*Resprited [[Aquatic Discharge]], [[Arch Amaryllis]], [[Avalanche]], [[Barinade]], [[Bittercold Staff]], [[Blade of Enmity]], [[Clamor Rifle]], [[Continental Greatbow]], [[Effluvium Bow]], [[Eutrophic Scimitar]], [[Eutrophic Shank]], [[Fault Line]], [[Flameburst Shortsword]], [[Forbidden Sun]], [[Gilded Proboscis]], [[Glacial Crusher]], [[Gleaming Magnolia]], [[Golden Eagle]], [[Hellfire Flamberge]], [[Hellwing Staff]], [[Helstorm]], [[Ice Star]], [[Icebreaker]], [[Mana Rose]], [[P90]], [[Poseidon]], [[Red Sun]], [[Rouge Slash]], [[Scourge of the Desert]], [[Seabound Staff]], [[Serpentine]], [[Shellfish Staff]], [[Snowstorm Staff]], [[Storm Spray]], [[Subduction Slicer]], [[Vulcanite Lance]], and [[Wrath of the Ancients]].
+
+==== Other ====
+*Resprited projectiles from the [[Absolute Zero]], Bumblebirb, Dynamo Stem Cells, Forbidden Sun, Gladiator's Locket, Hellfire Flamberge, Rouge Slash, Seabound Staff, Serpentine, and Shellfish Staff.
+*Resprited [[Darksun Fragment]], [[Effulgent Feather]], [[Frigid Bar]], [[Life Alloy]], [[Scoria Bar]], and [[Scoria Ore]].
+*Resprited [[Birb Pheromones]], [[Cryo Key]], and [[Super Dummy]].
+*Resprited [[Red Lightning Container]].
+*Resprited [[Cryogen (Lore)]].
+*Resprited [[Bumblebirb Trophy]] and [[Cryogen Trophy]].
+*Resprited [[Rift Reeler]], [[Seismic Hampick]], and [[Tectonic Truncator]].
+*Resprited [[Treasure Bag (Bumblebirb)]] and [[Treasure Bag (Cryogen)]].
+*Resprited [[Cryogen Mask]].
+
+== Fixes ==
+*Fixed a bug that caused [[Yharon]] to enrage at all times in Multiplayer.
+*Fixed a bug where [[Abyssal Crate]]s could not be caught.
+*Fixed a bug where [[Skeletron]]’s hands didn't move after teleporting in [[Revengeance Mode]].
+*Fixed a bug where [[The Plaguebringer Goliath]] and [[Queen Bee]] did not perform the charge attack.
+*Fixed a tooltip error where Spy armor sets described an outdated function of stealth regeneration.
+*Fixed a tooltip misspelling in [[flasks]].
+*Fixed a visual bug where [[Gleaming Dagger]]'s projectile was rotated in the wrong direction.
+*Fixed an incompatibility bug where [[Devourer of Gods Mask]] does not appear in the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist] mod's Boss Log.
+*Fixed an oversight where [[Truffle Worm]]s were still sold despite disabling the "SellBossSummons" configuration option.
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

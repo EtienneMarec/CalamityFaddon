@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 90
+| knockback = 7.75
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| auto = yes
+| use = 21
+| velocity = 9
+| tooltip = Summons a swarm of meteors from the sky on enemy hits
+| hardmode = yes
+| proj = Comet Quasher Meteor.png
+| projcaption = Quasher Meteor
+| element1 = Magic
+| element2 = Slash
+}}
+
+The '''Comet Quasher''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. The sword does not fire any projectile when swung, but summons 3 falling meteors towards the mouse cursor whenever it strikes an enemy. The meteors resemble those summoned by the [[Meteor Staff]] and deal half the damage of the sword hit that spawned them.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:彗星陨刃]]

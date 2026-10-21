@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 112
+| use = 16
+| velocity = 12
+| knockback = 6.25
+| auto = yes
+| stack = 1
+| tooltip = Heals the player on enemy hits<br/>Fires a beam that inflicts ichor for a short time
+| rare = 8
+| sell = {{value|0|16}}
+| hardmode = yes
+| debuff=Ichor (debuff)
+| debufftip=Defense reduced by 20
+| debuffchance=100%
+| debuffduration= 1.5 seconds (Contact)<br/>0.75 seconds (Beam)
+| proj = Terra Edge Beam.png
+| projcaption = Terra Edge Beam
+| element1 = Poison
+| element2 = Slash
+}}
+
+The '''Terra Edge''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. When swung, it shoots a single projectile that deals 75% of the weapon's base damage and inflicts [[Ichor (debuff)|Ichor]] for 0.75 seconds. If the sword itself hits a target, the player will [[Lifesteal|recover]] 2 to 3 health, and will inflict Ichor for 1.5 seconds.
+
+It is an alternative to the vanilla weapon [[Terra Blade]], having less projectile damage but having the ability to deal more damage and lifesteal in close-ranged combat.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Terra}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Healing items]]
+[[zh:泰拉之锋]]

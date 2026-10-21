@@ -1,0 +1,30 @@
+{|align=right
+|{{item infobox
+| imagealt = [[File:Abyss Bed.png]] [[File:Ashen Bed.png]] [[File:Cosmilite Bed.png]]
+| type = Furniture
+| auto = yes
+| placeable = yes
+| width = 4
+| height = 2
+| use = 14
+| rare = Varies
+| stack = 9999
+| sell = No value
+}}
+|-
+|
+{| class="terraria" align="right" style="width:19em"
+! colspan="2" | Placed Beds
+|-
+| [[File:Placed Beds Calamity.png|center]]
+|}
+|}
+'''Beds''' are [[furniture]] items that allows the player to set their [[tgc:spawn|spawn point]]. The Calamity Mod currently adds sixteen types of beds to the game, each corresponding to specific [[Furniture sets|sets of furniture]].
+
+{{recipes|result=LIKE %Bed%|resultnot=Broken Plagued 'Bed'|link=no}}
+
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:床]]

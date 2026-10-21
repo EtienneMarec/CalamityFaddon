@@ -1,0 +1,87 @@
+{{item infobox
+
+| type = Covering
+
+| tooltip = The end of all organic life<br/>Summons all machine elementals at their fullest potential to protect you<br/>’You have a deathwish for loving this kind of company’
+
+| buff = Entourage of Extinction (buff) | bufflink = no
+
+| bufftip = Hopefully they won’t team up and kill you
+
+| debuff = Irradiated
+
+| debufftip = Your skin is burning off
+
+| debuffchance = 100%
+
+| debuffduration = 20 seconds (Gauss Bolt)
+
+| rare = rainbow
+
+| sell = {{value|0|16}}
+
+| stack = 1
+
+| hardmode = yes
+
+| damage = 550
+
+| damagetype = Summon
+
+| postml = yes
+
+| boxwidth = 22em
+
+}}{{summoned|type=minion|Cyn|name=Cyn|minion2=Eleanor|minion3=Ash|minion4=Xun'Bakyr}}
+The '''Wrath of the Machines''' is a craftable post-[[The Fabricational Quartet]] [[covering]]. It will summon all of the Machine Elementals to assist the player and attack enemies.
+
+When equipped, the Wrath of the Machines will summon [[Oil Bottle|Cyn]] the solver elemental, [[Silver Heart|Eleanor]] the agony elemental, [[Nameless Rat|Ash]] the phase elemental, and [[Eternal Pillow|Xun'Bakyr]] the necron elemental to attack nearby enemies. Elementals have a base damage of 550, and are affected by summon damage bonuses.
+
+Elementals inherent their abilities with added damage and gain new, powerful attacks:
+*Cyn instantly transforms weak enemies into Solver Bioforms.
+
+*Eleanor produces clusters of Shadow Remnants.
+
+*Ash throws Arc Snares at bosses.
+
+*Xun'Bakyr summons Mini Necrons minions to attack enemies.
+==Attacks==
+{| class="terraria lined"
+|-
+! colspan="2" style="padding:0 15px" |Type!!Source!!Note
+|-
+|{{item|Solver Bioform|ext=png|mode=table|nolink=y}}
+|Cyn
+|Pounces onto enemies 3 times before exploding into a mini singularity, sucking in all nearby enemies.
+|-
+|{{item|Shadow Remnant|ext=png|mode=table|nolink=y}}
+|Eleanor
+|Homes onto enemies and deals damage that ignores defense and damage reduction.
+|-
+|{{item|Arc Snare|mode=table|nolink=y}}
+|Ash
+|Attaches itself to bosses, snaring them to a nearby tile for 5 seconds and emits an electric aura that damages all nearby enemies.
+|-
+|{{item|Mini Necron|mode=table|nolink=y}}
+|Xun'Bakyr
+|Shoots at nearby enemies with their mini Gauss Rifles.
+|}
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+
+* The [[Heart of the Elements]] will not work if equipped along with the Wrath of the Machines.
+
+==Tips==
+*This covering can be very helpful when performing less combat-oriented tasks such as [[Fishing|fishing]], as the elementals will keep most normal enemies at bay and allow the player's full attention to be focused on what they're doing.
+==Trivia==
+*This item has the {{rare|rainbow}} rarity despite not being an [[Expert Mode]]-exclusive item.
+{{Master Template Equipables
+
+|show-main = yes
+
+|show-combat = yes
+
+}}

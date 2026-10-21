@@ -1,0 +1,52 @@
+{{item infobox
+| image = Phantomic Soul Artifact.gif
+| type = Covering
+| stack = 1
+| tooltip = Judgement<br/>Whenever your minions hit an enemy you will gain a random phantomic buff, does not stack with downgrades<br/>These buffs will either boost your defense, summon damage, or life regen for a while<br/>If you have the offensive boost, enemies hit by minions will sometimes be hit by phantomic knives<br/>If you have the regenerative boost, a phantomic heart will occasionally materialise granting massive health regen<br/>If you have the defensive boost, a phantomic bulwark will absorb 20% of the next projectile's damage that hits the bulwark, shattering it
+| buff = Phantomic Shield | bufflink = no
+| duration = 1 second
+| bufftip = Defense boosted by 10 and damage reduction boosted by 5%<br/>An ephemeral bulwark protects you
+| buff2 = Phantomic Empowerment | bufflink2 = no
+| duration2 = 1 second
+| bufftip2 = Empowering minion damage by 10%
+| buff3 = Phantomic Regen | bufflink3 = no
+| duration3 = 1 second
+| bufftip3 = Regenerating life
+| element1 = Poison
+| element2 = Magic
+| element3 = Dark
+| hardmode = yes
+| postml = yes
+| rare = 13
+| sell = {{value|0|26}}
+| proj = Phantomic Dagger.png
+| projcaption = Phantomic Dagger
+| proj2 = Phantom Shield.gif
+| proj2caption = Phantomic Bulwark
+}}
+
+The '''Phantomic Soul Artifact''' is a craftable Godseeker Mode [[covering]]. While equipped, whenever a minion hits an enemy, the player will gain one of the following [[buffs]]:
+
+*'''Phantomic Empowerment''', which increases minion damage by 10%. Additionally, while this buff is active, there is a 10% chance for a phantomic dagger to spawn. The dagger has 75 base summon damage and there can be a maximum of three knives active at once. 
+*'''Phantomic Shield''', which increases [[defense]] by 10 and damage reduction by 5%. Additionally, a phantomic bulwark will spawn and absorb 20% damage from any attack taken while it is active. After damage is absorbed, the bulwark will disappear and has a 30 second cooldown.
+*'''Phantomic Regen''', which grants +2 life regeneration. Additionally, a phantomic heart will spawn at a 5% chance and grant the player a further +2 life regen. 
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result=Phantomic Soul Artifact}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The shield in the Phantomic Shield buff icon is the [[Elysian Aegis]].
+*The sword in the Phantomic Empowerment buff icon is the [[Soul Edge]].
+*The heart in the Phantomic Regen buff icon uses the same palette as the hearts the player has after using the [[Sambucus Fruit]].
+{{-}}
+{{Plates}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

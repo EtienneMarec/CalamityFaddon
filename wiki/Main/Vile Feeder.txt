@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 9
+| mana = 10
+| knockback = 0.5
+| use = 29
+| tooltip = Summons a baby eater of souls to protect you
+| buff = Vile Feeder (buff) | bufflink = no
+| bufftip = The baby eater of souls will protect you
+| stack = 1
+| auto = yes
+| rare = 2
+| sell = {{value|0|0|40}}
+| proj = Mini Eater.gif
+| projcaption = Mini Eater
+| element1 = Unholy
+}}
+{{summoned|Baby Eater of Souls|type=minion}}
+
+The '''Vile Feeder''' is a craftable [[Pre-Hardmode]] [[summon weapon]]. When used, it summons a tiny [[Eater of Souls]] minion, which flies around and latches onto nearby enemies. When latched, it does not deal contact damage to enemies but releases several homing tiny eaters similar to the [[Scourge of the Corruptor]]. It is the [[Corruption]] counterpart to the [[Scab Ripper]].
+
+{{Modifier|summonalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

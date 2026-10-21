@@ -1,0 +1,5 @@
+<includeonly>This is a [[:Category:Data templates|Data template]]. It is solely used for storing the data of all recipes that require the following crafting station: [[{{{station|{{#titleparts:{{PAGENAME}}|1|2}}}}}]].
+
+[[Category:Data templates]]</includeonly><noinclude>Internal Notice subtemplate. See {{tl|Recipes/register}} for the documentation.
+
+[[Category:Notice templates]]</noinclude>

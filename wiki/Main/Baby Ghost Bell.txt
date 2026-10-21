@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| rare = 2
+| use = 14
+| auto = yes
+| consumable = yes
+| sell = {{value|0|0|6}}
+| stack = 9999
+}}
+|{{npc infobox | boxwidth = 21em
+| type = Critter
+| environment = Sunken Sea
+| ai = Baby Ghost Bell AI
+| damage = 0
+| life = 5
+| defense = 0
+| knockback = 0
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Eutrophication
+| banner = yes
+| Rusted Jingle Bell | 1 | 5% (when hit with [[Bug Net]] or [[Golden Bug Net]])
+| hurt = NPC_Hit_25.wav
+| killed = NPC_Killed_28.wav
+}}
+}}
+
+The '''Baby Ghost Bell''' is a [[critter]] found in the [[Sunken Sea]], and remains absolutely still. It can be caught with a [[Bug Net]] or [[Golden Bug Net]].
+
+There is a 5% chance for a Baby Ghost Bell that spawns to sparkle; sparkling Baby Ghost Bells will drop the [[Rusted Jingle Bell]] when caught with a Bug Net or Golden Bug Net, a light pet that provide extra light while submerged.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== See Also ==
+*[[Ghost Bell]]
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}

@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 31
+| knockback = 5
+| mana = 5
+| use = 12
+| velocity = 20
+| auto = yes
+| stack = 1
+| tooltip = Casts fast moving sunlight feathers
+| rare = 3
+| sell = {{value|0|0|80}}
+| proj = Golden Aero Feather.png
+| projcaption = Golden Aero Feather
+| element1 = Holy
+| element2=  Stab
+}}
+
+The '''Tradewinds''' is a craftable [[Pre-Hardmode]] [[spell tome]] that casts fast moving feather-like projectiles. These projectiles emit light particles and are capable of piercing a single enemy or ricocheting once, disappearing on its second impact.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*[[wikipedia:Trade winds|Trade winds]] are wind belts located around the equator.
+{{Aerialite}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

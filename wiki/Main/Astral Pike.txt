@@ -1,0 +1,47 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 90
+| knockback = 8.5
+| critical = 29%
+| rare = 9
+| sell = {{value|0|19}}
+| stack = 1
+| use = 13
+| velocity = 13
+| tooltip = Summons astral star swarms on critical hits
+| auto = yes
+| hardmode = yes
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 5 seconds (Spear)<br/>2 seconds (Star)
+| proj = Astral Pike Spear.png
+| projcaption = Astral Pike
+| proj2 = Astral Star.png
+| proj2caption = Astral Star
+| element1 = Magic
+| element2 = Stab
+}}
+
+The '''Astral Pike''' is a craftable [[Hardmode]] [[spear]]. It emits dust when swung, which produces light. Upon critically hitting a target, three astral stars move in a diagonal pattern towards the player, homing into nearby enemies, and dealing 40% of the spear's damage. The stars can move and home through tiles.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+
+{{-}}
+{{Astral}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]
+[[Category:True melee]]

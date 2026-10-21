@@ -1,0 +1,26 @@
+{{item infobox
+| type = Covering
+| rare = 14
+| stack = 1
+| tooltip = Know no bounds<br/>Rapidly increases damage.<br/>Bleeds you dry.
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|28}}
+}}	
+
+The '''Fathomless Soul Artifact''' is a craftable Godseekeer Mode [[covering]]. When worn, all weapon damage increases by 15% every second, but the player's max health constantly decreases by 20 hp every second. It continues until the players health reaches a value of 1.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Plates}}
+{{Master Template Equipables
+|show-main = yes
+|show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

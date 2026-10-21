@@ -1,0 +1,45 @@
+{{npc infobox
+| type = Aquatic
+| environment = Acid Rain
+| ai = Nuclear Toad AI
+| damage = {{element|Poison}} '''Contact: '''{{dv|15|30}} (Tier 1)<br/>{{element|Poison}} '''Contact: '''{{dv|35|70}} (Tier 2)<br/>{{element|Poison}} '''Contact: '''{{dv|80|160}} (Tier 3)<br/>{{element|Poison}} '''Goo: '''{{dv|20|32}} (Tier 1)<br/>{{element|Poison}} '''Goo: '''{{dv|54|84}} (Tier 2)<br/>{{element|Poison}} '''Goo: '''{{dv|90|144}} (Tier 3)
+| life = {{dv|60|120}} (Tier 1)<br/>{{dv|200|400}} (Tier 2)<br/>{{dv|2,750|5,500}} (Tier 3)
+| defense = 3 (Tiers 1 & 2)<br/>15 (Tier 3)
+| knockback = 30
+| debuff = Irradiated
+| debuffchance = 100%
+| duration = 2 seconds (Contact)<br/>3 seconds (Goo)
+| debufftip = Your skin is burning off
+| Sulphuric Scale | 1-3 | 50%
+| Caustic Croaker Staff | 1 | 5% (Tier 1)<br/>1% (Tiers 2 & 3)
+| money = {{value|0|0|1}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| banner = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Zombie_13.wav
+| soundtext = Idle
+| sound2 = Dd2_kobold_explosion_0.wav
+| sound2text = Explosion
+| vulnerable1 = Cold
+| vulnerable2 = Stab
+| vulnerable3 = Slash
+| vulnerable4 = Machine
+| resistant1 = Poison
+| resistant2 = Water
+}}
+
+The '''Nuclear Toad''' is a [[Pre-Hardmode]] [[enemy]] that spawns during the [[Acid Rain]] [[event]]. They are stationary, and when near the player will explode into goo. The explosion radius depends on what tier of the Acid Rain event the player is currently on. The radius is roughly 12 blocks for Tier 1, 18.5 blocks for Tier 2 and 29 blocks for Tier 3.
+
+== Trivia ==
+*The Nuclear Toad's throat glows a bright lime-green color during the Acid Rain event.
+*It was implied that [[Draedon]]'s dumping of waste in the [[Sulphurous Sea]] caused these frogs to become homosexual (and explosivve)
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-event = yes
+}}

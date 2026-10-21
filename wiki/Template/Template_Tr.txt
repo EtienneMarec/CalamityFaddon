@@ -1,0 +1,58 @@
+<includeonly><!-- 
+// init language setting:
+-->{{#dplvar:set|tr:lang|{{{lang|{{lang}}}}}}}<!-- 
+
+-->{{#ifeq:{{#dplvar:tr:lang}}|en|<!-- 
+	-->{{{1}}}<!-- en, no need to translate
+-->|<!-- 
+	// loading glossary database, only do once per page.
+	-->{{#if:{{#dplvar:_tr-{{#dplvar:tr:lang}}:__OK__}}||{{tr/db-{{#dplvar:tr:lang}}}}}}<!-- 
+
+	-->{{#if:{{{link|}}}|<!-- 
+		// looking up for link translation:
+		-->{{#vardefine:_t|{{#dplvar:_tr-{{#dplvar:tr:lang}}:link:{{{1|}}}}}}}<!-- varname example: _tr-it:link:Fish
+		-->{{#var:_t|{{{1|}}}/{{#dplvar:tr:lang}}}}<!-- default: enPagename/lang, e.g. Fish/it
+	-->|<!-- 
+		// looking up for normal translation:
+		-->{{#vardefine:_t|{{#dplvar:_tr-{{#dplvar:tr:lang}}:{{{1|}}}}}}}<!--  varname example: _tr-it:Fish
+		-->{{#var:_t|{{{1|}}}}}<!--
+	-->}}<!-- 
+-->}}<!-- 
+--></includeonly><noinclude>
+Auto translation, depending on glossary database, it is located at <code>Template:tr/db-<langcode></code> (e.g. <code>Template:tr/db-ko</code> for Korean).
+
+== Usage ==
+
+Auto determine the language(by page url):
+<code><nowiki>{{tr|<english>}}</nowiki></code>
+
+Explicitly specify language:
+<code><nowiki>{{tr|lang=<langcode>|<english>}}</nowiki></code>
+
+You will get the corresponding translation. If there is no entity for the input in glossary, you will get the original input text.
+
+For example:<br/>
+<code><nowiki>{{tr|lang=en|Gold Watch}}</nowiki></code>: <code>{{tr|lang=en|Gold Watch}}</code><br/>
+<code><nowiki>{{tr|lang=ko|Molten Hamaxe}}</nowiki></code>: <code>{{tr|lang=ko|Molten Hamaxe}}</code><br/>
+<code><nowiki>{{tr|lang=ko|Dirt Wings}}</nowiki></code>: <code>{{tr|lang=ko|Dirt Wings}}</code>
+
+get pagename for target language:
+<code><nowiki>{{tr|<english>|link=y}}</nowiki></code><br/>
+<code><nowiki>{{tr|lang=<langcode>|<english>|link=y|}}</nowiki></code>
+
+For example:<br/>
+<code><nowiki>{{tr|lang=en|Gold Watch|link=y}}</nowiki></code>: <code>{{tr|lang=en|Gold Watch|link=y}}</code><br/>
+<code><nowiki>{{tr|lang=ko|Molten Hamaxe|link=y}}</nowiki></code>: <code>{{tr|lang=ko|Molten Hamaxe|link=y}}</code><br/>
+
+<div style="white-space:pre">
+NOTE: Based on performance considerations, input text is case sensitive and white space sensitive, so be careful about that.
+For example:
+<code><nowiki>{{tr|lang=ko|Molten Hamaxe}}</nowiki></code>: <code>{{tr|lang=ko|Molten Hamaxe}}</code>
+<code><nowiki>{{tr|lang=ko|Molten hamaxe}}</nowiki></code>: <code>{{tr|lang=ko|Molten hamaxe}}</code>
+<code><nowiki>{{tr|lang=ko| Molten Hamaxe }}</nowiki></code>: <code>{{tr|lang=ko| Molten Hamaxe }}</code>
+<code><nowiki>{{tr|lang=ko|Molten   Hamaxe}}</nowiki></code>: <code>{{tr|lang=ko|Molten   Hamaxe}}</code>
+
+</div>
+
+[[Category:Data templates]]
+</noinclude>

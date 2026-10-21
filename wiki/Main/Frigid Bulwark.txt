@@ -1,0 +1,36 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Absorbs 25% of damage done to players on your team<br/>Only active above 25% life<br/>Grants immunity to knockback<br/>Puts a shell around the owner when below 50% life that reduces damage<br/>The shell becomes more powerful when below 15% life and reduces damage even further
+| defense = 13
+| rare = 7
+| sell = {{value|0|9|60}}
+| stack = 1
+| buff = Ice Barrier
+| duration = Infinite (while under 50% life)
+| bufftip = Damage taken is reduced by 15%
+| buff2 = Paladin's Shield (buff)
+| bufftip2 = 25% of damage taken will be redirected to another player
+| duration2 = Infinite (while conditions are met, and only to other players)
+| hardmode = yes
+}}
+
+The '''Frigid Bulwark''' is a craftable [[Hardmode]] [[covering]]. It is a somewhat direct upgrade to the [[Frozen Turtle Shell]] and the [[Paladin's Shield]], combining the effects of both coverings. When below 50% life, damage is reduced by 15%. When below 15% life, it gives 20% damage reduction instead.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Despite having the Paladin's Shield in its recipe and being a shield-like item, it cannot be used with the [[Brand of the Inferno]].
+
+== Trivia ==
+*The vanilla [[Frozen Shield]] functions similarly to the Frigid Bulwark.
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

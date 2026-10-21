@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 166
+| damagetype = Spy
+| hardmode = yes
+| postml = yes
+| knockback = 7.5
+| velocity = 16
+| rare = 13
+| sell = {{value|0|26}}
+| auto = yes
+| stack = 1
+| use = 23
+| tooltip = Throws sets of four ghoulish scythes at ultra high velocity<br/>Stealth strikes summon a flurry of tormented souls on hit
+| element1 = Dark
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Polterghast]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Ghoulish Gouger''' is a Godseeker Mode [[Spy]] [[boomerang]] dropped by [[Polterghast]]. It rapidly throws a scythe that goes through blocks. The scythe moves extremely quickly and ignores NPC [[immunity frames]], allowing it to rack up enormous damage against large targets.
+
+Performing a [[stealth strike]] with the Ghoulish Gouger will cause a wave of homing souls to release on enemy hits.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

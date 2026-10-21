@@ -1,0 +1,103 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{historical content}}
+{{Npc infobox
+| type = Superboss
+| environment = Sky Abyss
+| ai = Abyssal Jewel AI
+| damage = {{dv|400|440|480|520}} (Contact)<br/>{{dv|120|130|140|160}} (abysscent beam)<br/>{{dv|220|240|260|280}} (Spiral)<br/>{{dv|60|65|70|80}} (Projectile Swarm)<br/>{{dv|280|300|320|340}} (Shield)<br/>{{dv|140|170|200|230}} (Jewel crystal)
+| life = {{dv|4,100,000|6,500,000|8,500,000|10,500,000}}
+| defense = 100
+| knockback = 100
+| debuff = Evercold
+| duration = 5 seconds
+| money = 100
+| hardmode = yes
+| postml = yes
+| Laceline| 50-70| 100%
+| Esseric Bar| 20-30| 100%
+| Jewel Core| 1| 100%
+|group|At least one of the following 5 weapons will always drop:|5
+| Cutter's Gift| 1| 20%
+| Abysscent Derailer| 1| 20%
+| Evercoldance| 1| 20%
+| Cored Line| 1| 20%
+| Lacerang| 1| 20%
+| Abyssal Jewel Trophy| 1| 10%
+| Abyssal Jewel Relic| 1| {{master|100%}}
+| Treasure Bag(Abyssal Jewel) | 1 | {{expert|100%}}
+| image2 = Abyssal Jewel map.png
+| image2caption = Map Icon
+}}
+'''Abyssal Jewel''' (Japanese: 深淵の宝石 ''Shin'en no hōseki'') is a Post-[[Purgatory Arbiter, Umbrus|Umbrus]] [[Superbosses|Superboss]] that can be spawned in the [[Sky Abyss]] biome.
+
+==Spawn==
+Abyssal Jewel doesn't spawn on its own and requires the player to use [[Expensive Jewelry]] while in the Sky Abyss biome. 
+
+==Behavior==
+1st phase attack cycle
+
+#The Boss will hover near the player, Summoning Lacelic Eels
+#It will stay at one place, charge for a few seconds and start shooting {{dv|5|6|7|8}} slow Beams that will do a full circle around the boss, similar to the Ogscule
+#it will teleport around, Creating slow spirals, similar to the Empress of Light
+#Teleports below the player and dashes to the top
+
+
+2nd phase attack cycle (50%)
+
+#It will create 4 semicircle shields, that disappear over time
+#It will teleport around and dash into the player, summoning Jewel Swords on contact
+#Stays at one place and shoots faster beams
+
+
+3rd phase attack cycle (25%)
+
+#Teleports around, shooting {{dv|4|6|8|12}} Jewel Crystals in a circle
+#Stays at one place, summoning  {{dv|3|6|9|12}} Lacelic Eels
+#Its core starts spinning, Shooting {{dv|20|30|40|60}} fast moving projectiles in random direction
+
+== Summons ==
+
+{{Npc infobox
+| name = Lacelic Eel
+| type = Enemy
+| environment = Sky Abyss
+| ai = Wyvern AI
+| damage = {{dv|100|140|180|220}} (Contact)
+| life = {{dv|2,100|2,800|3,500|4,200}}
+| defense = 20
+| knockback = 100
+| debuff = Lacelic Web
+| duration = 3 seconds
+| hardmode = Yes
+| postml = Yes
+| Laceline| 1-4| 100%
+}}
+{{Npc infobox
+| name = Jewel Sword
+| type = enemy
+| environment = Sky Abyss
+| ai = Flying Weapon AI
+| damage = {{dv|200|260|320|380}} (Contact)
+| life = {{dv|1,800|2,400|3,000|3,600}}
+| defense = 30
+| knockback = 10
+| hardmode = yes
+| postml = yes
+| Esseric Ore| 1-4| 100%
+}}
+
+== Aftermath ==
+
+* [[The True Jewel]] NPC will appear
+* Sky Abyss enemies spawn more rarely
+* [[Stiriatic Ore]] generates in the [[Cavern]] layer
+
+
+== Trivia ==
+* The Boss's trophy shows his pauldron, that he wears despite not having shoulders.
+* Abyssal Jewel was a "'''Superboss'''" in this mod. In some RPG games, Superbosses are extremely powerful enemies that are very challenging even if the player has endgame equipment.
+**It shared this trait with [[Adult Eidolon Wyrm]], [[Vision of the Tyrant]], [[Purgatory Arbiter, Umbrus]], [https://calamitymod.fandom.com/wiki/Disgusting_Creature:_Dron Dron], [[Esserwyrm]], [[Reactive Guardian, Sodis]], [[Nihil, the Fathomless Seeker]] and [[Exodygen]].
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

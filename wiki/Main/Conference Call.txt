@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| rare = 9
+| sell = {{value|0|16}}
+| damage = 32
+| use = 32
+| knockback = 4.5
+| velocity = 12
+| tooltip = @everyone
+| stack =  1
+| auto = yes
+| hardmode = yes
+| element1 = Stab
+}}
+
+The '''Conference Call''' is a craftable [[Hardmode]] [[gun]]. The gun shoots a tight spread of five bullets with tripled velocity. If an enemy is nearby, 12 bullets are additionally fired from the sky targeting the enemy present. If multiple enemies are present, the 12 bullets are equally distributed along the enemies. The bullets from the sky have halved lifespan, tripled velocity, can pass through solid tiles, and deal 70% damage.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Enemies are detected based on a 1920x1080 range from the player, regardless of the screen resolution.
+
+== Trivia ==
+*The weapon is a reference to a [http://borderlands.fandom.com/wiki/Conference_Call gun of the same name] from ''[[wikipedia:Borderlands 2|Borderlands 2]]''.
+*The Conference Call's tooltip is a reference to the @everyone and @here mentions that the [[wikipedia:Discord (software)|Discord]] software has as well as the tooltip of the Conference Call weapon from Borderlands 2.
+*The weapon is referred to as the "TrueConferenceCall" in the game files, with the Conclave Crossfire being referred to as the "ConferenceCall".
+*Prior to the [[1.4.4.001]] update, it dropped from [[Tactical Skeleton]]s, and between that update and the [[1.5.0.001]] update, it dropped from Storm Divers.
+*It was formerly the [[rare variant]] of the [[Conclave Crossfire]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

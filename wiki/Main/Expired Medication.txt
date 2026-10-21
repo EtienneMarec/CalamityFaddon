@@ -1,0 +1,26 @@
+{{death mode only}}
+{{item infobox
+| type = Potion
+| tooltip = Despite being well past expiration date, it still somehow works...<br/>...But not without some side effect, of course<br/>Permanently increases maximum life by 100, but comes at a cost<br/>Can only be used if the max amount of life fruit has been consumed
+| hardmode = yes
+| stack = 1
+| consumable = yes
+| rare = 7
+| sell = No value
+| use = 30
+| image2 = plaguedhearts.png
+| image2caption = Expired Medication's Heart Border
+}}
+{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|{{death|100%}}
+}}
+
+The [[Expired Medication]] is a [[Death Mode]]-exclusive [[Hardmode]] permanent power-up that drops from [[The Plaguebringer Goliath]] that increases the player's life by 100, as an extension to [[Life Fruit|Life Fruits]]. Additionally, it reduces life regen by 3, and increases healing potion cooldown by 25%.
+
+== Notes ==
+*The border that it grants are present no matter the appearance, as it is overlayed on top of the hearts.
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

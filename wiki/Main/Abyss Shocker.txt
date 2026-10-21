@@ -1,0 +1,44 @@
+{{dedicated|Xelo|Patreon Donator}}
+{{infobox wrapper
+|{{item infobox
+| stack = 1
+| auto = yes
+| type = Weapon
+| damage = 28
+| damagetype = Magic
+| mana = 10
+| use = 19
+| velocity = 14
+| tooltip = Fires an erratic lightning bolt that arcs and bounces between enemies
+| debuff = Electrified
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| debufftip = You cannot move
+| knockback = 0
+| rare = 3
+| sell = {{value|0|0|80}}
+| element1 = Water
+| element2 = Electricity
+}}
+|{{item drops infobox
+| [[Box Jellyfish]] (After [[Skeletron]] has been defeated) | 1 | {{dv|2%|2.5%}}
+| [[Mirage Jelly]] (After [[Skeletron]] has been defeated) | 1 | 10%
+}}
+}}
+
+The '''Abyss Shocker''' is a [[Pre-Hardmode]] [[magic gun]] dropped by [[Box Jellyfish]] and [[Mirage Jelly|Mirage Jellies]] after [[Skeletron]] has been defeated. It fires an erratic lightning bolt that travels very quickly on a semi-randomized path, leaving an aesthetic lingering trail. The lightning homes in on enemies and bounces to another nearby enemy on contact, hitting enemies a maximum of 6 times, though each bolt is unable to bounce to an enemy it has already hit. It is unable to pass through tiles and has a 1/3 chance to inflict the [[Electrified]] [[debuff]].
+
+{{Modifier|magicnokb}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+[[File:Abyss Shocker (demo).gif|frame|left|The Abyss Shocker's random lighting projectile paths and bouncing.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic guns]]
+[[zh:深渊电击者]]

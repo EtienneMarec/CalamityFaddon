@@ -1,0 +1,27 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 9
+| sell = {{value|0|16}}
+| stack = 1
+| tooltip = Powered by the Astral Infection<br/>Hold down to hover during flight, greatly extending flight duration<br/>Horizontal speed: 9<br/>Acceleration multiplier: 1.75<br/>Good vertical speed<br/>Flight time: 120<br/>10% increased movement and jump speed while wearing the Astral Armor
+| hardmode = yes
+}}
+
+'''Hadarian Wings''' are a [[Hardmode]] [[Wings|wing]]-type [[covering]] that allow the player to fly and glide. Pressing {{key|Jump}} and {{key|Down}} allows the player to hover and increase flight time. If these wings are worn along with [[Astral armor]], the player's movement speed and jump speed are increased by 10%.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in (Any Wings) ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*This pair of wings has a slightly faster max speed than [[Exodus Wings]], but lower acceleration and 50% less flight time. It also has a hover, unlike Exodus Wings. Because the bonus while wearing [[Astral armor]] does not increase flight time, it may be preferable to wear Exodus Wings with Astral armor instead.
+{{-}}
+{{Astral}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

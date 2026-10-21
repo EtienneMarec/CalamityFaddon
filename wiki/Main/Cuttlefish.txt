@@ -1,0 +1,37 @@
+{{npc infobox
+| type = Aquatic
+| environment = Abyss
+| ai = Cuttlefish AI
+| damage = {{element|Water}} {{dv|34|68}}
+| life = {{dv|110|220}}
+| defense = 8
+| knockback = {{dv|30%|37%}}
+| debuff = Darkness
+| debuffchance = 100%
+| duration = 2 seconds
+| debufftip = Decreased light vision
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| banner = yes
+| money = {{value|0|0|9|0}}
+| Anechoic Coating| 1 | 50%
+| Ink Bomb| 1 | {{dv|1%|2%}}
+| hurt = NPC_Hit_33.wav
+| killed = NPC_Killed_28.wav
+| vulnerable1 = Cold
+| vulnerable2 = Slash
+| vulnerable3 = Machine
+| resistant1 = Fire
+| resistant2 = Water
+}}
+
+The '''Cuttlefish''' is an [[enemy]] that spawns in the 1st, 2nd and 3rd layers of the [[Abyss]]. It stays invisible on the ground, waiting for the player to come near and attack them. Unlike most [[Abyss]] enemies, it does not become passive again even if the player didn't hit it.
+
+== Trivia ==
+*The behavior of the Cuttlefish shares many similarities with [[wikipedia:Cuttlefish|its real-life counterpart]]; both hide with camouflage in an attempt to sneak up on their prey.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

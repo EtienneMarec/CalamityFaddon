@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 41
+| auto = yes
+| use = 19
+| velocity = 3
+| tooltip = Fires cyclones that suck enemies in
+| knockback = 5
+| stack = 1
+| rare = 3
+| sell = {{value|0|0|80}}
+| proj = Cyclone.png
+| projcaption = Cyclone
+| element1 = Wind
+| element2 = Slash
+}}
+
+The '''Wind Blade''' is a craftable [[Pre-Hardmode]] [[broadsword]]. When swung, it creates glowing blue dust particles and fires a wind cyclone that emits projectiles and deals half the broadsword's damage. The projectile drags non-[[boss]] enemies towards it and disappears after a short while. The projectile pierces once, yet it usually hits one enemy twice instead of piercing due to [[immunity frames]].
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Aerialite}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:风之刃]]

@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| type2=Crafting material
+| damagetype = Ranged
+| rare = 5
+| buy = {{value|0|36}}
+| sell = {{value|0|7|20}}
+| damage = 55
+| use = 21
+| tooltip = Fires a spread of 6 bullets<br/>Converts musket balls into icicles
+| knockback = 5
+| auto = yes
+| stack = 1
+| velocity = 9
+| hardmode = yes
+| debuff = Frostburn
+| debuffchance = 100%
+| debuffduration = 2 seconds (Icicle)
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| proj = Blizzard.gif
+| projcaption = Icicle
+| element1 = Cold
+| element2 = Stab
+}}
+
+The '''Frostbite Blaster''' is a [[Hardmode]] [[gun]] sold by the [[Archmage]] NPC. It fires 3 rounds of 2 bullets in uneven spreads before pausing to reload for 0.9 seconds. If [[Musket Ball]]s are used as [[ammo]], bullets are replaced with icicles that inflict [[Frostburn]].
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The icicles fired by this weapon are identical to those from the [[Blizzard Staff]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Guns]]

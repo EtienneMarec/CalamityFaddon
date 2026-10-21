@@ -1,0 +1,113 @@
+{{patch infobox
+| image = Calamitas (1.1).png
+| patchname = Calamitas Update
+| release = 6/8/2016
+}}
+{{tocright}}
+{{toc limit|3}}
+The '''1.1''' update featured the introduction of [[ores]], a rebalance for [[The Devourer of Gods]], and the introduction of [[Calamitas]].
+
+== Additions ==
+=== [[Enemies]] and [[Bosses]] ===
+*Added [[Calamitas]], [[Cataclysm]], [[Catastrophe]].
+
+=== [[Items]] ===
+*Added [[Blighted Eyeball]], [[Calamity Dust]], [[Calamity Ring]], [[Chaotic Ore]], [[Cryonic Ore]], [[Ocean Crest]], [[Perennial Ore]].
+
+=== [[Weapons]] ===
+*Added [[Adamantite Throwing Axe]], [[Calamitas' Inferno]], [[Cobalt Kunai]], [[Deathwind]], [[Mythril Knife]], [[Orichalcum Spiked Gemstone]], [[Palladium Javelin]], [[Titanium Shuriken]].
+
+=== [[Buffs]] ===
+*Added [[Brimstone Flames]].
+
+== Changes ==
+
+=== Bosses ===
+
+==== [[Desert Scourge]] ====
+*Body segments now gain 5 defense in Expert Mode.
+*Tail segment now gains 8 defense in Expert Mode.
+*Now generates [[Aerialite Ore]] on defeat.
+
+==== [[The Devourer of Gods]] ====
+*Nerfed life from {{dv|500,000|750,000}} to {{dv|200,000|300,000}}.
+*Nerfed body damage from {{dv|80|136}} to {{dv|70|119}}.
+*Nerfed body defense from 60 to 30.
+*Body now gains 5 defense in Expert Mode.
+*Nerfed tail damage from {{dv|60|102}} to {{dv|55|93}}.
+*Nerfed tail defense from 85 to 65.
+*Tail now gains 30 defense in Expert Mode.
+*Lowered segment count from 80 to 30.
+*Head now inflicts [[Chilled]] for {{dv|6.67|16.67}} seconds instead of {{dv|10|25}}.
+*Changed [[Stasis Probe]] contact damage from {{dv|50|50}} to {{dv|35|52}}.
+*Buffed Stasis Probe health from {{dv|500|600}} to {{dv|500|800}}.
+*No longer drops [[Blade of Enmity]], [[Nuclear Fury]], [[Luminite]] and [[Nebula Fragment]]s.
+*No longer drops the [[Nebulous Core]] in Normal Mode.
+*Now drops [[Deathwind]], [[Greatbow of Turmoil]], and [[Hellfire Flamberge]].
+*Increased the amount of [[Coins|money]] dropped on defeat.
+*Now generates [[Chaotic Ore]] on defeat.
+
+==== [[Slime God]] ====
+*Nerfed True Slime God's contact damage from {{dv|110|176}} to {{dv|90|144}}.
+*Can now inflict [[Mana Sickness]] in Normal Mode.
+*Can now only inflict [[Cursed]] in Expert Mode.
+*Now shoots clusters of high velocity abyss orbs occasionally.
+*Significantly reduced the amount of Slime Spawns it can summon in both phases.
+*No longer has the ability to summon [[Blue Slime]]s and [[Spiked Slime]]s.
+*Now generates [[Cryonic Ore]] on defeat.
+
+==== [[Enemies]] ====
+*[[Wyvern]]s now drop more [[Wyvern Feather]]s.
+*[[Essence of Eleum]], [[Essence of Chaos]], and [[Essence of Cinder]] drop amounts increased.
+
+=== Items ===
+*[[Aerialite Bar]]s now require 4 Aerialite Ore instead of 3.
+*Aerialite Ore can no longer be crafted.
+*[[Aerospec Helm]]'s tooltip now says "20% increase to all damage types" instead of "Minor increase to all damage types".
+*[[Falcon Boots]] flight time slightly nerfed.
+*[[Badge of Bravery]] rarity increased from {{rare|6}} to {{rare|8}}.
+*[[Chaos Amulet]] now provides the [[Spelunker Potion]]'s effect and uses 7 Spelunker Potions in its recipe.
+*[[Crystallite]] now only requires 2 [[Crystal Shard]]s instead of 5.
+*[[Cosmic Worm]] rarity decreased from {{rare|9}} to {{rare|7}}.
+*Cosmic Worm's recipe now requires 1 [[Mechanical Worm]], 5 [[Calamity Dust]], 5 [[Hallowed Bar]]s, 3 [[Ectoplasm]], and 7 [[Iron Bar]]s at a [[Particle Accelerator]] instead of 5 [[Luminite Bar]]s, 3 [[Solar Fragment]]s, 3 [[Nebula Fragment]]s, 3 [[Stardust Fragment]]s, and 3 [[Vortex Fragment]]s at an [[Ancient Manipulator]].
+*[[Cruptix Bar]]s now require 12 Chaotic Ore, instead of 2 [[Chlorophyte Ore]], 2 [[Hellstone]], and 2 [[Obsidian]].
+*Desert Scourge's [[Treasure Bag]] now drops an Ocean Crest.
+*The Devourer of Gods' Treasure Bag can now drop any piece of [[Ataxia Armor]], [[Greatbow of Turmoil]], and [[Hellfire Flamberge]].
+*The Devourer of Gods' Treasure Bag can no longer drop any piece of [[Nebula armor]], Blade of Enmity, [[Celebration]], [[Lunar Flare]], [[Nebula Arcanum]], [[Nebula Blaze]], Nuclear Fury, Luminite, or Nebula Fragments.
+*[[Draedon Bar]]s now require 15 Perennial Ore, instead of 10 Hellstone.
+*[[Lifefruit Scythe]] now heals the player on hits.
+*[[Mana Overloader]] and Nebulous Core now have the {{rare|rainbow}} rarity.
+*Nebulous Core now provides 50 max mana, 10% reduced mana usage, 10% increased magic damage and critical strike chance, and [[Star Cloak]]'s on hit effect.
+*[[Necklace of Vexation]] rarity decreased from {{rare|8}} to {{rare|2}}.
+*[[Reaver armor]]'s set bonus now boosts melee damage by 20% instead of 25%.
+*[[Reaver Cuisses]] now boost melee critical strike chance by 15% instead of 5%.
+*[[Reaver Scale Mail]]'s tooltip now mentions that the armor grants the player an additional 100 health.
+*[[Slime God]]'s Treasure Bag now always drops the Mana Overloader instead of dropping it at a 20% chance.
+*Slime God's Treasure Bag no longer drops [[Royal Gel]].
+*[[Stardust]] now only requires 3 [[Pixie Dust]] instead of 5.
+*[[Statigel Greaves]] now boost summon damage by 10% instead of adding 10 damage.
+*[[Tarragon Breastplate]]'s tooltip now mentions that it increases the player's melee, ranged, and magic damage and critical strike chances by 10%.
+*[[Tarragon Helm]]'s tooltip now mentions that the armor grants the player an additional 100 health.
+*[[Tarragon Leggings]]' tooltip now says "25% increased movement speed" instead of "Provides multiple movement stat boosts".
+*[[Gamma Fusillade]], [[Gel Dart]], and [[Terratomere]] projectiles no longer play a sound on tile collide.
+*[[Verstaltite Bar]]s now require 12 Cryonic Ore instead of 9 Obsidian.
+*[[Victide Helmet]]'s tooltip now says "10% increase to all damage" instead of "Slight increase to all damage".
+*[[Victide Leggings]]' tooltip now specifies that it increases movement speed by 15%.
+*Slightly nerfed the [[Endurance]] effect given by [[Xeroc armor]], but increased max health and movement speed to compensate.
+*[[Xeroc Cuisses]] now provide a 30% movement speed boost instead of a 20%, and updated its tooltip to reflect this.
+*[[Xeroc Mask]] now provides a 40% [[damage reduction]] buff instead of a 45%.
+*[[Xeroc Plate Mail]] now increases the player's maximum health by 150.
+
+=== Resprites ===
+*Resprited [[Desert Scourge]] and [[The Devourer of Gods]].
+
+=== Fixes ===
+*[[Shredder]] is now able to properly shoot bullets.
+*[[Dried Seeker]]s will now properly die if one segment is killed.
+*Slime God no longer drops [[King Slime]]'s crown when teleporting.
+*Fixed Nebulous Core being unequippable. 
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

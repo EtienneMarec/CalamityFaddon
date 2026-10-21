@@ -1,0 +1,49 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| damagetype = ranged
+| damage = 0
+| use = 10
+| knockback = 2
+| velocity =24
+| tooltip = The weakest coin shooter
+| stack = 1
+| auto = yes
+| rare = 1
+| sell = {{value|0|2}}
+| debuff = Midas
+| debuffchance = 100%
+| debuffduration = 5 seconds (Silver Coin)
+| debufftip = Drop more money on death
+| element1 = Stab
+}}
+{{Item drops infobox
+| Any [[Surface]] enemy |1|0.5%}}
+'''Cent Striker''' is a [[Pre-Hardmode]] [[ranged weapon]]. Its just a normal coin shooter.
+
+{{modifier|ranged}}
+
+== Ammo Types ==
+
+{{item/options|mode=table}}
+{| class="terraria lined"
+|-
+! colspan=2 style="text-align:center" | Type !! Coin Damage
+|-
+| {{item|image=C Shot.png|Copper Coin}}
+| 10
+|-
+| {{item|image=S Shot.png|Silver Coin}}
+| 40
+|-
+|}
+{{item/options|reset}}
+== Crafting ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

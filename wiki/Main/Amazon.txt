@@ -1,0 +1,119 @@
+
+<section begin="npc" infobox="" />{{npc infobox
+| name = Amazon
+
+| imagealt = [[[[File:Amazon.png|thumb]]|280px]]
+| type = Boss
+| environment = Jungle
+| ai = Amazon AI
+| damage = {{dv|330|528|660|759}} (Contact)<br/>{{dv|180|300|332|348}} (Fast Shipping)<br/>{{dv|200|340|376|396}} (Jungle Strike)<br/>{{dv|300|520|548|564}} (Glamazon)<br/>{{dv|180|300|332|348}} (Phase 1 Glitter Bomb)<br/>{{dv|250|440|464|476}} (Phase 2 Package Pow)<br/>{{dv|250|440|464|476}} (Big Ol'Box)<br/>{{dv|300|500|550|632}} (Death Flare Bomb Ring)
+| life = {{dv|3,900,000|7,400,000|10,080,000}}
+| defense = 180
+| dr = 22
+| knockback = 100
+| debuff = Terror
+| debufftip = You feel sick to your stomach
+| duration = 3 seconds 
+| debuffchance = 100%
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = On Fire!
+| vulnerable1 = Magic
+| vulnerable2 = Dark
+| vulnerable3 = Machine
+| resistant1 = Holy
+| resistant2 = Fire
+| money = {{value|0|0|0|0|10000}}
+| Delicious Meat|{{dv|15000-25000|22-28}}|100%
+|group|One of the following 3 weapons will always drop:|3
+| Kindle Fire|1|{{dv|25%|33.33%}}
+| Amazon Alexa|1|{{dv|25%|33.33%}}
+| Dragon's Breath|1|{{dv|25%|33.33%}}
+| Stardrops - The Pink Stuff - The Miracle All Purpose Cleaning Paste|1|{{dv|25%|33.33%}}
+| Yharim's Gun|1|10%
+| Budget Healing Potion|5-15|100%
+| Coupon|1|10%
+| WalMart Badge|1|10%
+| Golden Shower|1|100%
+| Poo|50000|100%
+| Auric Bar|50000|100%
+| custom| {{item|Amazon (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Amazon)|Treasure Bag|note=(Amazon)|wrap=y}}
+: • {{item|Fox Drive|note=(In [[Revengeance Mode]] only)|wrap=y}}|{{expert|100%}}
+| image2 = Yharon map.png
+| image2caption = Map Icon
+| hurt = YharonHurt.wav
+| killed = YharonDeath.wav
+| sound2 = YharonRoar.wav
+| sound2text = Roar
+| sound3 = YharonRoarShort.wav
+| sound3text = Short Roar
+| sound4 = YharonFire.wav
+| sound4text = Fire Breath
+| sound5 = Item_20.wav
+| sound5text = Fire Ring Cast
+| sound6 = Item_14.wav
+| sound6text = Fireball Explosion
+| hardmode = yes
+| postml = yes
+| boxwidth = 24em
+}}<section end=npc infobox />
+[[File:Yharon_Trophy.png|25px]] <big> ''"The Box of Nightmares"'' </big> [[File:Yharon_Trophy.png|25px]]
+
+'''Amazon''' (Japanese: ファイヤー ''Box God'') is a major [[boss]] fought in the [[Jungle]]. He is intended to be fought after [[Godseeker, Yharim]]. The player should be well equipped and prepared before summoning him as the boss is incredibly challenging.
+
+Defeating Amazon will provide the player with [[Amazon Stones]], which can be crafted into an Alexa or used to summon [[Amazon Prime]].
+
+== Spawn ==
+To spawn Amazon, one must break 3 Holy Alexas found within the [[Astral Infection]]
+
+== Behavior ==
+Amazon will utilize three main attack patterns. Primarily, Amazon will "ship" itself at the player, hiding in a box and become invulnerable to all attacks until the box is broken. When the box is broken, Amazon will switch to its second phase, become vastly faster, more erratic, and inflicting the player with the Terror debuff, lowering their defense to 0. Amazon is a creation of Draedon. If the [[Brimstone Witch]] has a gyatt of 10 or more, Amazon will combine with all enemies in the world, similar to [[Mechdusa]]'s transformation.
+
+=== Attacks ===
+==== Phase 1 ====
+*Charges twice consecutively.
+*Spawns a line of Amazon Echos, which bounce off solid surfaces.
+*Charges once, and does a fast charge, in which he goes twice as fast and far.
+**Summons three Alexas, which rotate around Amazon in a circular motion. These Alexas have {{dv|18,000|30,000|33,200|34,800}} health and periodically fire [[Poo]] at the player.
+
+==== Phase 2 ====
+*Blinds the player, preventing them from gazing upon Amazon's true form.
+*Repeats phase 1 attacks at 3x the speed.
+*Launces burning Glitter Bombs, which explode into a spray of shrapnel.
+
+=== In [[Expert Mode]] ===
+*Amazon now has 1000% more health.
+
+=== In [[Revengeance Mode]] ===
+*Amazon gains a new attack at 10% health. He will shoot a EchoFlush toilet, which if hit with a [[Copper Shortsword]] specifically, will drop 1000 [[Yharim Bar]]s.
+=== In [[Death Mode]] ===
+*Amazon leaves and immediately spawns [[Amazon Prime]].
+
+=== In [[Malice Mode]] ===
+*Amazon Prime spawns with 250% health.
+
+== Aftermath ==
+Once Yharon is defeated, the following things happen:
+*The [[Brimstone Witch]] will begin selling [[Amazon Fire]].
+
+
+
+== Trivia ==
+*Yharon's first phase [[Music|theme]] is [https://www.youtube.com/watch?v=dQw4w9WgXcQ '''Amazonian Assault'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' will play instead.
+*Amazon is Draedon's ex-wife. This is evident in his dialogue with the [[Fabricational Quartet]], in which he states "Oh, Quartet, how I love you! You almost remind me of the times I had with Amazon..."
+*Amazon personally knows the [[Devourer of Gods]] and claims to follow her socials.
+== Quotes ==
+
+*"I like cheese" (when summoned)
+
+
+
+== See also ==
+*[[The Calamity]] for more info on this boss.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

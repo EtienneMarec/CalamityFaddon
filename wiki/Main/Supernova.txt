@@ -1,0 +1,62 @@
+{{item infobox
+| type = Weapon
+| damage = 675
+| use = 23
+| damagetype = Spy
+| knockback = 8
+| auto = yes
+| velocity = 16
+| stack = 1
+| rare = 15
+| tooltip = Creates a massive explosion on impact<br/>Explodes into spikes and homing energy<br/>Stealth strikes release energy as they fly
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| debuff = Exo Freeze
+| debuffduration = 0.5 seconds
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 2 seconds
+| debuffchance2 = 100%
+| debuff3 = Frostburn
+| debuffduration3 = 2.5 seconds
+| debuffchance3 = 100%
+| debuff4 = On Fire!
+| debuffduration4 = 3 seconds
+| debuffchance4 = 100%
+| proj = Supernova Boom.gif
+| projcaption = Supernova Boom
+| projsize = 180px
+| proj2 = Supernova Spike.png
+| proj2caption = Supernova Spike
+| element1 = Cold
+| element2 = Fire
+| element3 = Magic
+| element4 = Smash
+| element5 = Machine
+}}
+
+The '''Supernova''' is a craftable Godseeker Mode [[Spy]] [[Bombs|bomb]]. It throws a gravity-affected bomb that explodes upon contact with a tile or [[enemy]]. At the impact zone, the supernova bomb will create a huge explosion radius, spawn six homing Supernova energies, and three Supernova spikes that travel in random directions. The explosion ignores immunity frames, the spikes deal 60% of the weapon's damage, and the energies deal 50% of the weapon's damage. All projectiles inflict the following [[debuffs]]:
+*[[Exo Freeze]] (0.5 seconds)
+*[[Holy Flames]] (2 seconds)
+*[[Frostburn]] (2.5 seconds)
+*[[On Fire!]] (3 seconds)
+
+Performing a [[stealth strike]] with the Supernova will release Supernova energies along the trajectory of the bomb and continues until the bomb explodes.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Supernova/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*A [[wikipedia:Supernova|Supernova]] is a large, powerful stellar explosion that occurs at the end of a star's life cycle.
+{{-}}
+{{Exo}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Bombs]]

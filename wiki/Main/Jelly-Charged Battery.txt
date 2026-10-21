@@ -1,0 +1,31 @@
+{{item infobox
+| stack = 1
+| type = Covering
+| type2 = Crafting material
+| tooltip = +1 max minions and 7% minion damage<br/>Minion attacks spawn orbs of energy and inflict Electrified
+| rare = 4
+| sell = {{value|0|2|40}}
+| debuff = Electrified
+| debuffchance = 20%
+| debuffduration = 1 second (On minion hits)
+| debufftip = You cannot move
+| proj = Jelly Orb.png
+| projcaption = Energy Orb
+}}
+
+The '''Jelly-Charged Battery''' is a craftable [[Pre-Hardmode]] [[covering]] that is the direct upgrade to both the [[Voltaic Jelly]] and [[Wulfrum Battery]]. While equipped, it grants +1 minion slots, increases [[minion]] damage by 7%, and gives a chance for minions to inflict the [[Electrified]] [[debuff]] for one second. All minions will also spawn energy orbs that deal 15 summon damage with a cooldown of one second.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Purified Gel}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

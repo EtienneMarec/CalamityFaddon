@@ -1,0 +1,24 @@
+{{infobox wrapper
+|{{item infobox
+|type = Crafting material
+| stack = 9999
+| rare = 1
+| tooltip = Pure Soul.
+| sell = {{value|0|50|0|0}}
+}}
+}}
+
+'''Absolute Spirit Essence''' is a Godseeker Mode crafting material.
+
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Absolute}}
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

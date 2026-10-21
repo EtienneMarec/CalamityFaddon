@@ -1,0 +1,50 @@
+{{dedicated|Triactis/Tri|Developer}}
+{{item infobox	
+| type = Weapon
+| damage = 880
+| damagetype = Ranged
+| knockback = 5
+| stack = 1
+| rare = 16
+| sell = {{value|0|40}}
+| auto = yes
+| tooltip = Fires contagion arrows that leave exploding orbs behind as they travel
+| use = 20
+| velocity = 20
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| debuffduration = 4 seconds (Arrow)<br/>2 seconds (Orb)
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Contagion Arrow.png
+| projcaption = Contagion Arrow
+| proj2 = Contagion Orb.png
+| proj2caption = Contagion Orb
+| element1 = Poison
+| element2 = Unholy
+}}
+
+The '''Contagion''' is a craftable Epilogue [[Bows|bow]]. It fires arrows that leave behind a trail of orbs, exploding after a short delay. Holding left-click will cause the bow to "spin-up", increasing the fire rate appreciably. Both the explosions and projectiles inflict the [[Plague]] [[debuff]] for varying amounts of time.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Holding left-click will cause the Contagion to only consume one arrow, as opposed to consuming multiple arrows due to the "spin up".
+
+== Trivia ==
+*The word "contagion" refers to the communication of a disease from one organism to another, either by close contact or transmission through the air.
+*This weapon actually has a unique [[Rarity]] but is referred here as Hot Pink rarity for consistency between weapons.
+**This unique rarity appears as a red violet ({{color|#CF1175 ●|#CF1175}}) color.
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 112
+| mana = 60
+| tooltip = Conjures a swirling vortex of supercharged magnet spheres around the cursor
+| knockback = 0
+| velocity = 12
+| rare = 15
+| sell = {{value|0|30}}
+| use = 80
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+| stack = 1
+| proj = Climax Orb.gif
+| projcaption = Voltaic Orb
+| element1 = Magic
+| element2 = Dark
+}}
+
+The '''Void Vortex''' is a craftable Godseeker Mode [[wand]] which is an upgrade to the [[Voltaic Climax]]. When used, it fires twelve magnetic orbs at the cursor that quickly spin out in a circular fashion away from the cursor. Each magnetic orb will rapidly fire electric beams at nearby [[enemies]], which ignore [[immunity frames]] and deal incredibly high amounts of damage per second. The electric beams will not pass through blocks, and the orbs will despawn after traveling for 3 seconds.
+
+Its best [[modifier]] is '''Mythical'''. However, the weapon's knockback will not be affected due to already being 0.
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+
+* The Void Vortex only deals 80% damage to [[XM-05 Thanatos]].
+
+== Trivia ==
+*It formerly dropped from [[Jungle Dragon, Yharon]] in [[Malice Mode]]. Before that, it was the [[rare variant]] of the [[Voltaic Climax]].
+{{-}}
+{{auric}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]
+[[Category:Unobtainable content]]

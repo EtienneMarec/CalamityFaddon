@@ -1,0 +1,36 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 25
+| knockback = 2.5
+| use = 16
+| stack = 1
+| tooltip = Shoots three black bolts
+| mana = 3
+| auto = yes
+| rare = 5
+| velocity = 14
+| sell = {{value|0|0|80|0}}
+| hardmode = yes
+| element1 = Dark
+}}
+The '''Onyx Staff''' is a craftable [[Hardmode]] [[wand]] that fires 3 onyx bolts that create small damaging explosions upon hitting blocks or enemies.
+
+{{Modifier|magiclow}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon is a reference to a deprecated item from the Thorium Mod.
+{{Onyx}}
+{{Master Template Weapons
+ | show-main      = yes
+ | show-magic     = yes
+}}
+[[Category: Wands]]

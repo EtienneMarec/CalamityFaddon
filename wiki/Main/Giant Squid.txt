@@ -1,0 +1,37 @@
+{{npc infobox
+| environment = Abyss
+| type = Aquatic
+| knockback = {{dv|15%|23.5%}}
+| ai = Giant Squid AI
+| damage = {{element|Dark}} {{dv|100|200}}
+| life = {{dv|800|1600}}
+| defense = 18
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| banner = yes
+| money = {{value|0|10|5|0}}
+| hardmode = yes
+| custom | {{item|Depth Cells|note=(After defeating<br/>[[Calamitas]])|wrap=y}} ({{dv|2-4|3-6}}) | 50%
+| custom | {{item|Lumenyl|note=(After defeating<br/>[[Calamitas]])|wrap=y}}|50%
+| Ink Bomb|1|{{dv|2.5%|4%}}
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Poison
+| vulnerable2 = Cold
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Dark
+| resistant3 = Stab
+}}
+{{dablink|Not to be confused with the [[Colossal Squid]], a mini boss that spawns in third layer of the [[Abyss]].}}
+
+The '''Giant Squid''' is an [[enemy]] that spawns in the 2nd and 3rd layers of the [[Abyss]]. It is initially passive, only becoming aggressive if the player attacks it or draws too close to it. Once hostile, it swims towards the player in short, frequent bursts, attempting to deal contact damage. Due to its height and vertical orientation, it can be a challenging enemy to maneuver around in the confined spaces of the Abyss.
+
+== Tips ==
+*The Giant Squid has bioluminescent spots on its head which glow in the dark, allowing the player to notice it from afar and avoid confrontation.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

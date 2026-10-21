@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| rare = 5
+| sell = {{value|0|7|20}}
+| auto = no
+| damage = 39
+| tooltip = Summons an obsidian bell that follows the cursor
+| buff = Obsidian bell | bufflink = no
+| bufftip = The hellish bell will protect you
+| debuff2 = On Fire!
+| debuffduration2 = 1 second
+| debufftip2 = Slowly losing life
+| debuffchance2 = 100%
+| damagetype = Summon
+| knockback = 7
+| velocity = 28
+| use = 20
+| hardmode = yes
+| element1 = Fire
+| element2 = Unholy
+}}
+|{{item drops infobox
+| [[Pyrogen]] {{dv|25%|33.33%}}
+}}
+}}
+
+{{summoned|image=[[File:Obsidian Bell.png]]|name=Obsidian Bell|type=minion}}
+
+
+The '''Hell's Bells''' is a [[Hardmode]] [[summon weapon]] dropped by [[Pyrogen]]. It summons a small bell that follows the cursor and releases piercing circular chimes that deal damage around itself.
+
+{{Modifier|summon}}
+
+
+== Tips ==
+*This summon tends to work best when only one is summoned and it is paired with other minions, as multiple of them releasing piercing waves at the same place will lead to them interfering with each other's invincibility frames.
+
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

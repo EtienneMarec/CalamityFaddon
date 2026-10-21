@@ -1,0 +1,7 @@
+<includeonly>
+{{item|mode=image|{{{name|{{{%PAGE%}}}}}}|link={{{%PAGE%}}}|image={{#if:{{{imagealt|}}}|{{#invoke:String|match|s={{{imagealt|}}}|pattern=File:(.-){{!}}|nomatch=}}|{{#if:{{{image|}}}|{{{image}}}|{{{name|{{{%PAGE%}}}}}}.png}} }}|size={{#if:{{{imagealt|}}}|{{#invoke:String|match|s={{{imagealt|}}}|pattern={{!}}(.-px)|nomatch=}} }} }}
+</includeonly>
+<noinclude>
+{{Dpl pages}}
+[[Category:DPL]]
+</noinclude>

@@ -1,0 +1,61 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|Gtgtr|_|VnMgn|_|BarLi|_|Ectpl|_|CwAsR|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|`|-|-|-|^|-|-|-|+|-|-|-|^|-|-|-|'|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|ClGtg|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+|BarLi_cols = 3
+|BarLi_rows = 2
+|BarLi = ''[[Life Alloy/Crafting tree]]''
+( {{item|mode=image|Necromantic Geode|size=20px}} )
+
+| VnMgn_cols = 3
+| VnMgn_rows = 2
+| VnMgn = {{item|Venus Magnum}}
+
+| Gtgtr_cols = 3
+| Gtgtr_rows = 2
+| Gtgtr = {{item|Gatligator}}
+
+|Ectpl_cols = 3
+|Ectpl_rows = 2
+|Ectpl = {{item|Ectoplasm}} × 5
+
+|CwAsR_cols = 3
+|CwAsR_rows = 2
+|CwAsR = {{item|Clockwork Assault Rifle}}
+
+
+|ClGtg_cols = 3
+|ClGtg_rows = 2
+|ClGtg = {{item|Clock Gatlignum}}
+
+<!-- CRAFTING STATIONS -->
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|HMFRG_cols = 3
+|HMFRG_class = craft-station
+|HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+<!-- OTHER -->
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+}}
+{| width="100%"
+|<span class="ajaxHide"> {{Guides
+| show-main = yes
+| show-prog = yes
+}}
+|}

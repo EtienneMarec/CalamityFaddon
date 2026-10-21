@@ -1,0 +1,32 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = clicker
+| damage = 22
+| knockback = 1
+| rare = 4
+| sell = {{value|0|7|20}}
+| use = 1
+| stack = 1
+| hardmode = yes
+| debuff=Armor Crunch
+| debuffchance = 100%
+| debufftip=Your armor is shredded
+| debuffduration = 2 seconds
+| element1 = Stab
+}}
+|{{item drops infobox
+| [[Earth Elemental]] | 1 | 25%
+}}
+}}
+
+The '''Earthen Clicker''' is a craftable [[Hardmode]] clicker. Like all clickers, it deals damage at the cursor's position within range and proper line of sight.
+It has a radius multiplier of 295% and a default of 10 clicks to activate its clicker effect Crunch. Embrittle inflicts the Armor Crunch debuff.
+Its best modifier is Elite.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+}}
+[[Category:Clickers]]

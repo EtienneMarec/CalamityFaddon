@@ -1,0 +1,73 @@
+{{infobox wrapper
+|{{item infobox
+| type = Grab bag
+| tooltip = Has a chance to contain various fishing gear
+| stack = 9999
+| consumable = True
+| rare = 1
+| sell = No value
+}}
+|{{item drops infobox
+| [[Desert Scourge]]|1|100%
+| [[Disgusting Creature: Dron]]|5|100%
+}}
+}}
+
+The '''Sandy Angling Kit''' is a [[Grab bag]] that drops from the [[Desert Scourge]]. It contains several [[Fishing]] equipment and potions.
+
+== Drops ==
+{|
+| valign="top" |
+{| class="terraria"
+! colspan="4" | Anytime
+|-
+! % !! Chance !! Items !! Amount
+|-
+|rowspan="3" style="border-bottom: 1px solid #CCCCCC; | {{dv|6.67%|8.33%}}
+|rowspan="3" style="border-bottom: 1px solid #CCCCCC; | {{dv|1 in 15|1 in 12}}
+| {{item|High Test Fishing Line}}
+|rowspan="3" style="border-bottom: 1px solid #CCCCCC;" | 1
+|-
+| {{item|Tackle Box}}
+|-
+| style="border-bottom: 1px solid #CCCCCC;" | {{item|Angler Earring}}
+|-
+|rowspan="3" style="border-bottom: 1px solid #CCCCCC; | {{dv|10%|11.11%}}
+|rowspan="3" style="border-bottom: 1px solid #CCCCCC; | {{dv|1 in 10|1 in 9}}
+| {{item|Fisherman's Pocket Guide}}
+|rowspan="3" style="border-bottom: 1px solid #CCCCCC;" | 1
+|-
+| {{item|Weather Radio}}
+|-
+| style="border-bottom: 1px solid #CCCCCC; | {{item|Sextant}}
+|-
+|rowspan="6" style="border-bottom: 1px solid #CCCCCC; | {{dv|20%|25%}}
+|rowspan="6" style="border-bottom: 1px solid #CCCCCC; | {{dv|1 in 5|1 in 4}}
+| {{item|Angler Hat}}
+|rowspan="3" style="border-bottom: 1px solid #CCCCCC;" | 1
+|-
+| {{item|Angler Vest}}
+|-
+| {{item|Angler Pants}}
+|-
+| {{item|Fishing Potion}}
+|rowspan="3" style="border-bottom: 1px solid #CCCCCC;" | 2-3
+|-
+| {{item|Sonar Potion}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Crate Potion}}
+|-
+|rowspan="1" | {{dv|5%|5.56%}}<br/><small>(If [[Skeletron]] has<br/>been defeated.)</small>
+|rowspan="1" | {{dv|1 in 20|1 in 18}}
+| {{item|Golden Bug Net}}
+|rowspan="1" | 1
+|}
+|}
+
+== See also ==
+*[[Bleached Angling Kit]]
+
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

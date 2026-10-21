@@ -1,0 +1,23 @@
+{{item infobox
+|type = Potion
+|consumable = yes
+| use = 30
+|tooltip = A tasty pie in a bag. Might have a trace of Meld in it<br/>Permanently increases defense by 8 and DR by 8%, and halves Defense damage.
+| rare = 3
+| sell = {{pc|1}}
+| stack = 1
+}}
+
+The '''Ham Pie''' is a craftable [[Hardmode]] [[Permanent Power-ups|Permanent Power-up]] item that grants the player a permanent 8% and +8 increase in Damage Reduction and Defense respectively, in addition to halving defense damage. It can only be used once.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+==Note==
+*Consuming this item has a 1/1000 chance to give the player a single [[Meld Blob]].
+*Its Damage Defense reducing effect stacks with [[Draedon's Heart]], reducing the incoming Defense Damage to a quarter.
+
+{{-}}{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

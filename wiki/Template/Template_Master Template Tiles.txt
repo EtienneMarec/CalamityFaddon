@@ -1,0 +1,96 @@
+{|class="terraria navbox mw-collapsible {{#ifeq: {{{show-main|}}} | yes | |mw-collapsed }}" style="width:80%; margin: auto" 
+!style="font-size:120%" | {{navbar/left|Master Template Tiles}} <small>{{l10n|Master Template Tiles|title}}:<br/>[[File:Cinderplate.png]] {{trl|Blocks}}{{•}}[[File:Draedon's Forge.png]] {{trl|Furniture}}{{•}}[[File:Stratus Wall.png]] {{trl|Walls}}</small> {{navbar/right}}
+|-
+
+|
+<!-------------------- BLOCKS -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-blocks|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=3 | Blocks
+|-
+!style="padding: 0.2em 0.5em" | {{trl|Soils}}
+|style="padding: 0.2em 0.5em" colspan=2 | {{trl|Aether Dirt}}{{•}}{{trl|Abyss Gravel}}{{•}}{{trl|Astral Clay}}{{•}}{{trl|Astral Dirt}}{{•}}{{trl|Astral Ice}}{{•}}{{trl|Astral Sand}}{{•}}{{trl|Astral Sandstone}}{{•}}{{trl|Astral Snow}}{{•}}{{trl|Astral Stone}}{{•}}{{trl|Brimstone Slag}}{{•}}{{trl|Celestial Remains}}{{•}}{{trl|Eutrophic Sand}}{{•}}{{trl|Frozen Ash}}{{•}}{{trl|Grimesand}}{{•}}{{trl|Hardened Astral Sand}}{{•}}{{trl|Hardened Sulphurous Sandstone}}{{•}}{{trl|Meld Gunk}}{{•}}{{trl|Navystone}}{{•}}{{trl|Novae Slag}}{{•}}{{trl|Planty Mush}}{{•}}{{trl|Sallowrack}}{{•}}{{trl|Sulphurous Sand}}{{•}}{{trl|Sulphurous Sandstone}}{{•}}{{trl|Tenebris}}{{•}}{{trl|Voidstone}}
+
+|-
+!style="padding: 0.2em 0.5em" | {{trl|Blocks#Crafted Ores and Bricks|Craftable}}
+|style="padding: 0.2em 0.5em" colspan=2 | {{trl|Aerialite Brick}}{{•}}{{trl|Aeroplate}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Ashen Slab}}{{•}}{{trl|Astral Brick}}{{•}}{{trl|Bloodplate}}{{•}}{{trl|Chaosplate}}{{•}}{{trl|Chaotic Brick}}{{•}}{{trl|Cinderplate}}{{•}}{{trl|Cosmilite Brick}}{{•}}{{trl|Cryonic Brick}}{{•}}{{trl|Crystalplate}}{{•}}{{trl|Cyberlight Brick}} {{tota}}{{•}}{{trl|Elemental Brick}}{{•}}{{trl|Elumplate}}{{•}}{{trl|Esseric Brick}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Exo Plating}}{{•}}{{trl|Exo Prism Panel}}{{•}}{{trl|Flah Bricks}}{{•}}{{trl|Hazard Chevron Panels}}{{•}}{{trl|Haunted Brick}}{{•}}{{trl|Laboratory Panels}}{{•}}{{trl|Laboratory Pipe Plating}}{{•}}{{trl|Laboratory Plating}}{{•}}{{trl|Lawplate}}{{•}}{{trl|Meld Brick}}{{•}}{{trl|Mystplate}}{{•}}{{trl|Natrisodic Alloy}} {{tota}}{{•}}{{trl|Navyplate}}{{•}}{{trl|Otherworldly Stone}}{{•}}{{trl|Perennial Brick}}{{•}}{{trl|Plagued Containment Brick}}{{•}}{{trl|Plagueplate}}{{•}}{{trl|Profaned Crystal}}{{•}}{{trl|Profaned Rock}}{{•}}{{trl|Profaned Slab}}{{•}}{{trl|Reinforced Acidplate}} {{tota}}{{•}}{{trl|Reinforced Freezeplate}} {{tota}}{{•}}{{trl|Reinforced Noctiplate}} {{tota}}{{•}}{{trl|Reinforced Redplate}} {{tota}}{{•}}{{trl|Rendplate}} {{dei}}{{•}}{{trl|Runic Profaned Brick}}{{•}}{{trl|Rusted Pipes}}{{•}}{{trl|Rusted Plating}}{{•}}{{trl|Shatterite Brick}} {{tota}}{{•}}{{trl|Silva Crystal}}{{•}}{{trl|Smooth Abyss Gravel}}{{•}}{{trl|Smooth Brimstone Slag}}{{•}}{{trl|Smooth Navystone}}{{•}}{{trl|Smooth Voidstone}}{{•}}{{trl|Statigel Block}}{{•}}{{trl|Strangeplate}} {{dei}}{{•}}{{trl|Stratus Brick}}{{•}}{{trl|Surtplate}} {{dei}}{{•}}{{trl|Uelibloom Brick}}{{•}}{{trl|Voidstone Slab}}{{•}}{{trl|Zotplate}}
+
+|-
+!style="padding: 0.2em 0.5em" | Other
+|style="padding: 0.2em 0.5em" colspan=2 | {{trl|Acidwood}}{{•}}{{trl|Ambient objects}}{{•}}{{trl|Arena Block}}{{•}}{{trl|Astral Monolith}}{{•}}{{trl|Bars}}{{•}}{{trl|Bloodstone}}{{•}}{{trl|Compressed Mana}} {{dei}}{{•}}{{trl|Darksun Fragment}}{{•}}{{trl|Ectoplasm}}{{•}}{{trl|Endothermic Energy}}{{•}}{{trl|Essence of Babil}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Essence of Chaos}}{{•}}{{trl|Essence of Crystal}}{{•}}{{trl|Essence of Eleum}}{{•}}{{trl|Essence of Law}}{{•}}{{trl|Essence of Myst}}{{•}}{{trl|Essence of Rend}} {{dei}}{{•}}{{trl|Essence of Sunlight}}{{•}}{{trl|Essence of Surt}} {{dei}}{{•}}{{trl|Essence of Zot}}{{•}}{{trl|Lab Turret}}{{•}}{{trl|Lightly Weathered Waxed Copper Brick}}{{•}}{{trl|Lumenyl}}{{•}}{{trl|Meld Blob}}{{•}}{{trl|Mollusk Husk}}{{•}}{{trl|Nightmare Fuel}}{{•}}{{trl|Ornate Cloth}}{{•}}{{trl|Phantoplasm}}{{•}}{{trl|Plants}}{{•}}{{trl|Prism Shard}}{{•}}{{trl|Rock}}{{•}}{{trl|Ruinous Soul}}{{•}}{{trl|Solar Veil}}{{•}}{{trl|Steam Geyser}}{{•}}{{trl|Strange Matter}} {{dei}}{{•}}{{trl|Strange Meteorite}}
+
+|-
+!style="padding: 0.2em 0.5em" rowspan=3 | {{trl|Ore Blocks}}
+!style="padding: 0.2em 0.5em" | {{trl|Pre-Hardmode}}
+|style="padding: 0.2em 0.5em" colspan=1 | {{trl|Aerialite Ore}}{{•}}{{trl|Arsenic Ore}}{{•}}{{trl|Sea Prism}}{{•}}{{trl|Silicon Ore}}{{•}}{{trl|Victide Ore}}
+|-
+
+!style="padding: 0.2em 0.5em" |{{trl|Hardmode}}
+|style="padding: 0.2em 0.5em" colspan=1 | {{trl|Astral Ore}}{{•}}{{trl|Charred Ore}}{{•}}{{trl|Cryonic Ore}}{{•}}{{trl|Hallowed Ore}}{{•}}{{trl|Life Ore}} {{fantag|Calamity Loot Swap}}{{•}}{{trl|Meld Ore}}{{•}}{{trl|Perennial Ore}}{{•}}{{trl|Scoria Ore}}{{•}}{{trl|Shatterite Ore}} {{tota}}{{•}}{{trl|Apocalyptic Ore}}
+|-
+
+!style="padding: 0.2em 0.5em" |Godseeker Mode
+|style="padding: 0.2em 0.5em" colspan=1 | {{trl|Auric Ore}}{{•}}{{trl|Bloodstone Ore}}{{•}}{{trl|Cosmilite Slag}} {{fantag|Calamity Loot Swap}}{{•}}{{trl|Debris Ore}}{{•}}{{trl|Elemental Ore}}{{•}}{{trl|Esseric Ore}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Exodium Cluster}}{{•}}{{trl|Flahium Slag}}{{•}}{{trl|Frozen Hellstone}}{{•}}{{trl|Haunted Ore}}{{•}}{{trl|Natrisodic Cluster}} {{tota}}{{•}}{{trl|Shadowspec Ore}} {{fantag|Calamity Loot Swap}}{{•}}{{trl|Stiriatic Ore}} {{fantag|Calamity Tales of the Aquatic}}{{•}}{{trl|Uelibloom Ore}}
+|}
+
+<!-------------------- FURNITURE -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-furniture|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=3 | Furniture
+|-
+!style="padding: 0.2em 0.5em" | {{trl|Crafting stations}}
+|style="padding: 0.2em 0.5em" colspan=2 | {{trl|Ancient Altar}}{{•}}{{trl|Ashen Altar}}{{•}}{{trl|Aquatic Hypercomputer}} {{tota}}{{•}}{{trl|Bookcases}}{{•}}{{trl|Botanic Planter}}{{•}}{{trl|Cosmic Anvil}}{{•}}{{trl|Draedon's Forge}}{{•}}{{trl|Effulgent Manipulator}}{{•}}{{trl|Entropic Refiner}} {{dei}}{{•}}{{trl|Eutrophic Shelf}}{{•}}{{trl|Monolith Amalgam}}{{•}}{{trl|Plague Infuser}}{{•}}{{trl|Profaned Crucible}}{{•}}{{trl|Scroll Press}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Sinks}}{{•}}{{trl|Static Refiner}}{{•}}{{trl|Void Condenser}}{{•}}{{trl|Work Benches}}
+|-
+
+!style="padding: 0.2em 0.5em" | Functional
+|style="padding: 0.2em 0.5em" colspan=2 | {{trl|Altar of the Accursed}}{{•}}{{trl|Ancient Console}}{{•}}{{trl|Anomaly 109}}{{•}}{{trl|Apocalyptic Slime Statue}} {{dei}}{{•}}{{trl|Astral Beacon}}{{•}}{{trl|Banners}}{{•}}{{trl|Beds}}{{•}}{{trl|Cave Entrance}}{{•}}{{trl|Charging Station}}{{•}}{{trl|Chests}} ({{trl|Biome Chest}}s{{•}}{{trl|Rusty Chest}}{{•}}{{trl|Security Chest}}){{•}}{{trl|The Codebreaker}}{{•}}{{trl|Doors}}{{•}}{{trl|Dressers}}{{•}}{{trl|Effigies}} ({{trl|Astral Effigy}}{{•}}{{trl|Corruption Effigy}}{{•}}{{trl|Crimson Effigy}}{{•}}{{trl|Hallow Effigy}}{{•}}{{trl|Effigy of Decay}}){{•}}{{trl|Grandfather Clocks}}{{•}}{{trl|Lab Hologram Projector}}{{•}}{{trl|Luminous Altar}} {{dei}}{{•}}{{trl|Music Boxes}}{{•}}{{trl|Platforms}}{{•}}{{trl|Pots}}{{•}}{{trl|Power Cell Factory}}{{•}}{{trl|Wulfrum Signal Transmitter}}{{•}}{{trl|Wulfrum Treasure Pinger}}
+|-
+!style="padding: 0.2em 0.5em" | {{trl|Light Source}}s
+|style="padding: 0.2em 0.5em" colspan=2 | {{trl|Abyss Torch}}{{•}}{{trl|Basins}}{{•}}{{trl|Candelabras}}{{•}}{{trl|Candles}} ({{trl|Chaos Candle|Chaos}}{{•}}{{trl|Resilient Candle|Resilient}}{{•}}{{trl|Spiteful Candle|Spiteful}}{{•}}{{trl|Tranquility Candle|Tranquility}}{{•}}{{trl|Vigorous Candle|Vigorous}}{{•}}{{trl|Weightless Candle|Weightless}}){{•}}{{trl|Chandeliers}}{{•}}{{trl|Lamps}}{{•}}{{trl|Lanterns}}{{•}}{{trl|Sconce}}s
+|-
+
+!style="padding: 0.2em 0.5em" | Decorative
+|style="padding: 0.2em 0.5em" colspan=2 | {{trl|Bathtubs}}{{•}}{{trl|Chairs}} ({{trl|Thaumatic Chair}}){{•}}{{trl|Crates}}{{•}}{{trl|Critter Cages}}{{•}}{{trl|Deimos Plushie}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Furniture Sets (CTotA)}} {{tota}}{{•}}{{trl|Laboratory Furniture}}{{•}}{{trl|Living Fire Blocks}}{{•}}{{trl|Paintings}}{{•}}{{trl|Pianos}}{{•}}{{trl|Sofas}}{{•}}{{trl|Tables}}{{•}}{{trl|Toilets}}{{•}}{{trl|Trophies}}{{•}}{{trl|Water Fountains}}
+|-
+|}
+
+<!-------------------- WALLS -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-walls|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=3 | Walls
+|-
+!style="padding: 0.2em 0.5em" | Natural
+|style="padding: 0.2em 0.5em" colspan=2 | {{trl|Abyss Gravel Wall}}{{•}}{{trl|Astral Dirt Wall}}{{•}}{{trl|Astral Grass Wall}}{{•}}{{trl|Astral Ice Wall}}{{•}}{{trl|Astral Sandstone Wall}}{{•}}{{trl|Astral Snow Wall}}{{•}}{{trl|Astral Stone Wall}}{{•}}{{trl|Celestial Remains Wall}}{{•}}{{trl|Hardened Astral Sand Wall}}{{•}}{{trl|Unsafe Eutrophic Sand Wall}}{{•}}{{trl|Unsafe Navystone Wall}}{{•}}{{trl|Voidstone Wall}}
+|-
+
+!style="padding: 0.2em 0.5em" | Craftable
+|style="padding: 0.2em 0.5em" colspan=2 | {{trl|Aerialite Brick Wall}}{{•}}{{trl|Aeroplate Wall}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Ashen Slab Wall}}{{•}}{{trl|Astral Brick Wall}}{{•}}{{trl|Astral Monolith Wall}}{{•}}{{trl|Brimstone Slag Wall}}{{•}}{{trl|Chaosplate Wall}}{{•}}{{trl|Chaotic Brick Wall}}{{•}}{{trl|Cinderplate Wall}}{{•}}{{trl|Cosmilite Brick Wall}}{{•}}{{trl|Cryonic Brick Wall}}{{•}}{{trl|Elumplate Wall}}{{•}}{{trl|Eutrophic Sand Wall}}{{•}}{{trl|Exo Plating Wall}}{{•}}{{trl|Exo Prism Panel Wall}}{{•}}{{trl|Floral Wall}}{{•}}{{trl|Hardened Sulphurous Sandstone Wall}}{{•}}{{trl|Hazard Chevron Wall}}{{•}}{{trl|Laboratory Panel Wall}}{{•}}{{trl|Laboratory Plate Beam}}{{•}}{{trl|Laboratory Plate Pillar}}{{•}}{{trl|Laboratory Plating Wall}}{{•}}{{trl|Navyplate Wall}}{{•}}{{trl|Navystone Wall}}{{•}}{{trl|Otherworldly Stone Wall}}{{•}}{{trl|Perennial Brick Wall}}{{•}}{{trl|Plagued Containment Wall}}{{•}}{{trl|Plagueplate Wall}}{{•}}{{trl|Profaned Crystal Wall}}{{•}}{{trl|Profaned Rock Wall}}{{•}}{{trl|Profaned Slab Wall}}{{•}}{{trl|Reinforced Acidplate Wall}} {{tota}}{{•}}{{trl|Reinforced Freezeplate Wall}} {{tota}}{{•}}{{trl|Reinforced Noctiplate Wall}} {{tota}}{{•}}{{trl|Reinforced Redplate Wall}} {{tota}}{{•}}{{trl|Runic Profaned Brick Wall}}{{•}}{{trl|Rusted Plate Beam}}{{•}}{{trl|Rusted Plate Pillar}}{{•}}{{trl|Rusted Plating Wall}}{{•}}{{trl|Silva Wall}}{{•}}{{trl|Smooth Abyss Gravel Wall}}{{•}}{{trl|Smooth Brimstone Slag Wall}}{{•}}{{trl|Smooth Navystone Wall}}{{•}}{{trl|Smooth Voidstone Wall}}{{•}}{{trl|Statigel Wall}}{{•}}{{trl|Stratus Wall}}{{•}}{{trl|Sulphurous Sand Wall}}{{•}}{{trl|Sulphurous Sandstone Wall}}{{•}}{{trl|Uelibloom Brick Wall}}{{•}}{{trl|Voidstone Slab Wall}}
+|-
+
+!style="padding: 0.2em 0.5em" | Purchased
+|style="padding: 0.2em 0.5em" colspan=2 | {{trl|Dungeon Wall Unsafe}}
+|-
+|}
+
+|}<noinclude>[[Category:Navigational templates]]{{i18n-ready}}
+== Usage ==
+Place the following at the end of a page:
+*<code><nowiki>{{Master Template Tiles}}</nowiki></code>
+
+The default behavior is for the entire template to remain collapsed. 
+
+'''To show all sub-sections in collapsed form,''' use this:
+
+ <nowiki>{{Master Template Tiles</nowiki>
+  | show-main       = yes
+ }}
+
+'''To cause one or more sub-sections to appear expanded by default,''' add one of the following ("show-main = yes" must also be set) :
+* <code> | show-blocks       = yes </code>
+* <code> | show-crafting      = yes </code>
+* <code> | show-other      = yes </code>
+
+'''For example, to show the "crafting stations" section expanded,''' use this:
+
+ <nowiki>{{Master Template Tiles</nowiki>
+  | show-main      = yes
+  | show-crafting    = yes
+ }}
+</noinclude>

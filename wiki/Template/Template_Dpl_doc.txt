@@ -1,0 +1,27 @@
+Use this template to insert a dynamic table listing of pages in a category.
+
+See {{tl|dpl top}} for an alternative template that allows listing multiple categories in the same table.
+
+== Usage ==
+
+; cat
+Required: The category to list.
+
+; col
+Required: The table's column headers. Use the same format as you would when declaring column headers in a manual table, eg. ! column1 !! column2
+
+; template
+Optional: The template from which values will be taken. This will usually be an infobox, like [[template:Item infobox|item infobox]]. Enter the bare template name without "[[Template:". This template must exist on each page in the category being listed. Default = item infobox.
+
+; format
+Optional: A template that determines how rows will be formatted. This will not usually be in the Template: namespace, but rather a sub-page of the current page, eg. "/dpl" (enter the template's page name without quotes). The template should contain the table code for a single row, and this row code will be repeated for each page in the category. Within this template, use <nowiki>{{{param}}}</nowiki> to display a value from the article's infobox. See [[Melee weapons/dpl]] for an example. Default = /dpl.
+
+; class
+Optional: The table's classes. Enter bare, without quotes. Default = terraria sortable lined.
+
+<includeonly>
+[[Category:Extension templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

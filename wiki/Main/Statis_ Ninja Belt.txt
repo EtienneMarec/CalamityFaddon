@@ -1,0 +1,27 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = 6% increased jump speed and allows constant jumping<br/>Increased fall damage resistance by 35 blocks<br/>Can climb walls, dash, and dodge attacks<br/>The dodge has a 90 second cooldown<br/>This cooldown is shared with all other dodges and reflects
+| image = Statis'_Ninja_Belt.gif
+| rare = 13
+| stack = 1
+| sell = {{value|0|26}}
+| hardmode = yes
+| postml = yes
+}}
+{{dablink|If you were looking for another Statis-themed item, see [[Statis (disambiguation)]].}}
+
+The '''Statis' Ninja Belt''' is a craftable Godseeker Mode [[covering]] that combines the abilities of the [[Master Ninja Gear]] & [[Frog Leg]]. It grants the ability to cling to and slide down vertical walls, quickly dash with a base distance of 24 blocks by double-tapping the horizontal movement key, enables auto-jump by holding the {{key|jump}} key. Additionally, the player is a granted a guaranteed dodge that can only occur every 90 seconds. It also increases the player's jump speed by 6% and fall resistance by 35 blocks, allowing the player to fall 60 blocks before taking fall damage.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

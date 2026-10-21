@@ -1,0 +1,20 @@
+<includeonly>
+{{#ifeq:{{{listexclude|no}}}|yes|<!--nothing-->|
+{{!}}-
+{{!}} align=center {{!}} {{item|mode=table|{{{name|{{{%PAGE%}}}}}}|link={{{%PAGE%}}}|image={{#if:{{{imagealt|}}}|{{#invoke:String|match|s={{{imagealt|}}}|pattern=File:(.-){{!}}|nomatch=}}|{{#if:{{{image}}}|{{{image|}}}|{{{name|{{{%PAGE%}}}}}}.png}} }}|size={{#if:{{{imagealt|}}}|{{#invoke:String|match|s={{{imagealt|}}}|pattern={{!}}(.-px)|nomatch=}} }} }} {{#if:{{{namesub|}}}|<span style="color:slategray; font-size:80%;">({{{namesub}}})</span>}}
+{{!}} align=center {{!}} {{{life|missing}}}
+{{!}} align=center {{!}} {{{damage|missing}}}
+{{!}} align=center {{!}} {{{defense|missing}}} {{#ifeq:{{{dr|}}}|||<small>({{{dr|0%}}})</small>}}
+{{!}} align=center {{!}} {{{knockback|missing}}}{{#if:{{#pos:{{{knockback|}}}|/}}|{{#if:{{#pos:{{{knockback|}}}|%|{{#pos:{{{knockback|}}}|/}}}}||%}}|{{#if:{{#pos:{{{knockback|}}}|%}}||%}}}}
+{{!}} align=center {{!}} {{{ai|missing}}}
+{{!}} align=center {{!}} [[{{{type|missing}}}]]
+{{!}} align=center {{!}} {{#if:{{{environment|}}}|[[{{{environment}}}]]|Any}} {{#if:{{{environment2|}}}|&#32;&ndash;&#32;[[{{{environment2}}}]]}}
+{{!}} align=center {{!}} {{{{{hardmode|no}}}}}
+{{!}} align=center {{!}} {{{{{postml|no}}}}}
+{{!}}-
+}}
+</includeonly>
+<noinclude>
+{{Dpl pages}}
+[[Category:DPL]]
+</noinclude>

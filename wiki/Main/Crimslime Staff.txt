@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 24
+| damagetype = Summon
+| knockback = 2
+| mana = 10
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| auto = yes
+| use = 29
+| element1 = Unholy
+| element2 = Poison
+| element3 = Smash
+| buff = Crimslime (buff) | bufflink= no
+| bufftip = The crimslime will protect you
+|tooltip=Summons a crim slime to fight for you}}
+|{{item drops infobox
+|[[The Slime God]]|1|{{dv|25%|33.33%}}
+}}
+}}{{summoned|Crimslime (minion)|type=minion}}
+
+The '''Crimslime Staff''' is a [[Pre-Hardmode]] [[Summon weapons|summon weapon]] that is dropped by [[The Slime God]]. It summons a miniature [[Crimulan Blight Slime]], which follows the player and attacks [[enemies]]. It deals contact damage, similarly to other slimes. If the player gets too far, it grows two wings and flies towards the player.
+
+{{Modifier|summon}}
+
+== Notes ==
+*The Crimslime Staff is the [[Crimson]] counterpart for the [[Corroslime Staff]].
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,25 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| stack = 9999
+| rare = 7
+| sell = {{value|0|60}}
+| tooltip = The essence of exploration
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Astrum Aureus]] | {{dv|20-40|35-50}} | 100%
+}}
+}}
+
+'''Souls of Bright''' are [[Hardmode]] [[crafting material]]s dropped by [[Astrum Aureus]]. They are used to craft various space themed items. When dropped, the item will float, glow, and emit faint turquoise dust.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

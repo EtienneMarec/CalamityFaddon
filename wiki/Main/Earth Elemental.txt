@@ -1,0 +1,57 @@
+{{npc infobox
+| type = Enemy
+| environment = Cavern
+| ai = Earth Elemental AI
+| damage = {{dv|50|boost=0.15}} (Contact)<br/>{{dv|60|120}} (Rock blasts)
+| life = {{dv|3,800|7,600}}
+| defense = 20
+| dr = 10%
+| knockback = 100
+| debuff = Armor Crunch
+| debufftip = Your armor is shredded
+| debuffchance = 100%
+| duration = 2 seconds
+| money = {{value|0|1|50}}
+| Aftershock|1|25%
+| Earthen Pike|1|25%
+| Slag Magnum|1|25%
+| Earthen Clicker|1|25%
+| Metamorphic Stone|1|{{dv|20%|33.33%}}
+| hardmode = yes
+| banner = yes
+| immune1 = Confused
+| immune2 = Poisoned
+| immune3 = Armor Crunch
+| vulnerable1 = Water
+| vulnerable2 = Cold
+| vulnerable3 = Unholy
+| vulnerable4 = Machine
+| resistant1 = Fire
+| resistant2 = Poison
+| resistant3 = Slash
+| resistant4 = Stab
+| hurt = NPC_Hit_4.wav
+| killed = Item_14.wav
+| sound = NPC_Hit_43.wav
+| soundtext = Rocks
+}}
+
+The '''Earth Elemental <ins>(Japanese: アースエレメンタル <nowiki>''</nowiki>Āsuerementaru<nowiki>''</nowiki>)</ins>'''  is a rare [[Hardmode]] [[mini boss]] found in the [[Underground]] and [[Cavern]] layers. When it initially spawns, it is stationary and completely invulnerable to damage.  When the player gets close, it becomes vulnerable to damage and begins to attack by flying slowly toward the player and charging every {{dv|10|5}} seconds while firing blasts of small rocks which burst upon impact with blocks. Occasionally, a larger rock is fired which bounces off blocks twice before exploding.
+
+Due to its intimidating size, ability to phase through blocks, and immunity to all forms of knockback, it can be a dangerous encounter for unaware players.
+
+== Notes ==
+*The player should take great caution while mining in very early Hardmode, as they might spawn and catch the player unaware. Carrying a [[Lifeform Analyzer]], or any of its upgrades, in their inventory can help warn the player in advance.
+**As it's initially stationary, the player can stay in one spot and wait for it to despawn (i.e., for the health bar to disappear or for the Lifeform Analyzer to stop indicating its presence) if they are not ready to face it yet.
+*Due to the high power of the weapons it drops relative to other early Hardmode weapons, it can be recommended to seek them out, especially for ranged and melee players.
+*The ranged attacks made by the Earth Elemental cannot pass through solid blocks (though the blast radius can), allowing the player to take cover from attacks if necessary.
+
+== Trivia ==
+*The Earth Elemental resembles a gladiator. Furthermore, the arm resembles a weapon called the scissor, consisting of a tube which covered the forearm and a semicircular blade on the end.
+**However, the spriter has confirmed that they "have no idea what that end was supposed to be", and that "it just looked cool".
+*The Earth Elemental is referred to in the mod's files as "Horse".
+**This is due to the fact that the Earth Elemental was formerly a horse-like creature
+{{-}}<br />{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

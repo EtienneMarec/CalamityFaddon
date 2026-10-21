@@ -1,0 +1,73 @@
+<includeonly><span class="key" style="display:inline-block; white-space:nowrap;">[[Game controls#{{{1}}}|<kbd style="color:black; border: 1px solid rgb(170, 170, 170); box-shadow: 0.1em 0.2em 0.2em rgb(221, 221, 221); border-radius: .2em; background-image: linear-gradient(to bottom, rgb(238, 238, 238), rgb(249, 249, 249), rgb(238, 238, 238)); background-color: rgb(249, 249, 249); padding: 0.1em 0.4em 0.2em 0.3em; margin-right:2px; font-size:85%; font-family:inherit; font-style:normal; ">{{#switch:{{lc:{{{1}}}}}
+
+<!--Standard keys-->
+|caps lock = ⇪ Caps Lock
+|shift = ⇧ Shift
+|left shift 
+|lshift = ⇧ Left Shift
+|right shift 
+|rshift = ⇧ Right Shift
+|enter = ↵ Enter
+|esc = Esc
+|ctrl = Ctrl
+|alt = Alt
+|cmd = ⌘ Cmd
+|command = ⌘ Command
+|opt
+|option = ⌥ Option
+|tab = Tab ↹
+|backspace = ← Backspace
+|super = ⊞ Super
+|menu = ≣ Menu
+|windows = ⊞ Windows
+
+<!--General Controls-->
+|use = <span title="Left Click (PC default): Use held item or attack"><span style="font-size:120%;">⚒</span> Use / Attack</span>
+|open = <span title="Right Click (PC default): Activate environment object or talk to NPC"><span style="font-size:120%;">⚷</span> Open / Activate</span>
+|throw = <span title="T (PC default): Drops item to ground">Throw</span>
+|inventory = <span title="Esc (PC default): Open heads-up display">Inventory</span>
+|up = <span title="W (PC  default)">▲ Up</span>
+|down = <span title="S (PC default)">▼ Down</span>
+|left = <span title="A (PC default): Moves character left">◀ Left</span>
+|right = <span title="D (PC default): Moves character right">▶ Right</span>
+|jump = <span title="Space Bar (PC default): Makes character jump"><span style="font-size:120%; ">↷</span> Jump</span>
+|hotbar = <span title="0-9 (PC default): Selects hotbar item">0-9</span>
+|grapple = <span title="E (PC default): Activates grappling hook">Grapple</span>
+|debug = <span title="F7 (PC default): Toggles debug info">F7</span>
+|txrx = <span title="F8 (PC default): Toggles connection info">F8</span>
+|lighting = <span title="F9 (PC default): Cycles lighting settings">F9</span>
+|fps = <span title="F10 (PC default): Toggles FPS info">F10</span>
+|hud = <span title="F11 (PC default): Toggles HUD">F11</span>
+|chat = <span title="Enter (PC default): Displays chat window"><span style="font-size:120%; ">↵</span> Enter</span>
+|heal = <span title="H (PC default): Consumes best healing item">H</span>
+|mheal = <span title="J (PC default): Consumes best mana restoring item">J</span>
+|map = <span title="M (PC default): Cycles map display">M</span>
+|buff = <span title="B (PC default): Consumes buff potions">B</span>
+|as = <span title="Shift (PC default): Selects best tool"><span style="font-size:120%; ">⇧</span> Shift</span>
+|minimap = <span title="Tab (PC default): Toggles minimap">Tab ↹</span>
+|sc = <span title="Ctrl (PC default): Toggles Smart Cursor">Ctrl</span>
+|mount = <span title="R (PC default): Toggles mount">R</span>
+
+<!--PlayStation-->
+|ps x = ×
+|ex = ×
+|ps c = ○
+|circle = ○
+|ps s = □
+|square = □
+|ps t = △
+|triangle = △
+	
+<!--Xbox Controller-->
+|xb-a = Ⓐ
+|xb-b = Ⓑ
+|xb-x = Ⓧ
+|xb-y = Ⓨ
+|xb-lb = LB
+|xb-rb = RB
+|xb-lt = Left Trigger
+|xb-rt = Right Trigger
+|xb-back = ◀ Back
+|xb-start = ▶ Start
+|#default = {{{1}}}
+}}</kbd>]]</span></includeonly><noinclude>{{doc}}</noinclude>

@@ -1,0 +1,9 @@
+Make a notice that the page is a guide.
+
+== Usage ==
+{{code|{{tl|guide header|<nowiki>nocat=yes</nowiki>}}}}
+
+; Nocat = yes
+Put this if you don’t want the page categorized in [[:Category:Guides]].
+
+<includeonly>[[Category:Banner templates]][[Category:Notice templates]]</includeonly><noinclude>[[Category:Template documentation‎]]</noinclude>

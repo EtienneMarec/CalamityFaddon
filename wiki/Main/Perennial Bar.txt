@@ -1,0 +1,34 @@
+{{item infobox
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 9999
+| rare = 7
+| sell = {{value|0|1}}
+| use = 14
+| consumable = yes
+| placeable = yes
+| hardmode = yes
+| auto = true
+}}
+
+'''Perennial Bars''' are [[Hardmode]] [[bars]] made with 5 [[Perennial Ore]] at a [[Hardmode Forge]] and are additionally dropped from the [[Fleshy Geode|Fleshy]] and [[Necromantic Geode]]. They are used to craft various items themed around savage plant-life, and are also used to craft [[Life Alloy|Life Alloys]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*1-3 Perennial Bars can additionally be obtained from [[Jungle Crate]]s at a 10% drop chance after [[Plantera]] has been defeated.
+
+== Trivia ==
+*Perennial Bars were previously known as '''Draedon Bars''' and are still referred to as such in the files.
+
+{{Perennial}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

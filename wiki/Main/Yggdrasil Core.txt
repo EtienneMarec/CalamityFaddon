@@ -1,0 +1,26 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| image = Yggdrasil Core.gif
+| type = Covering
+| tooltip = 10 defense<br/ >Creates a Holy flames aura around the player
+| debuff = Holy Flames
+| debuffduration = 2 seconds
+| debuffchance = 100%
+| rare = 11
+| sell = {{value|0|50}}
+| stack = 1
+| hardmode = yes
+| post-ml
+}}
+{{item drops infobox|
+[[Yggdrasil Ent]]|1|20%}}
+
+
+The '''Yggdrasil Core''' is a pGodseeker Mode [[covering]] that drops from the [[Yggdrasil Ent]]. It gives the player 10 defense and creates a holy aura that debuffs your enemies
+
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]

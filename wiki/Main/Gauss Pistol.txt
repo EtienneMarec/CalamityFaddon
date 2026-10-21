@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 110
+| mana = 6
+| use = 20
+| velocity = 14
+| knockback = 11
+| tooltip = A simple pistol that utilizes magic power; a weapon for the more magically adept.<br/>Fires a devastating high velocity blast with extreme knockback<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| hardmode = yes
+| sell = {{value|0|4|80}}
+| element1 = Stab
+| element2 = Electricity
+| element3 = Machine
+}}
+
+The '''Gauss Pistol''' is a craftable [[Hardmode]] [[magic gun]]. When used, it fires a sharpened green blast that is initially immobilized. After half a second, the blast travels towards the direction of the cursor when the item is used.
+
+The weapon consumes 0.05 units of [[charge]] per use and has a maximum charge of 85.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier2}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+== Trivia ==
+*The Gauss Pistol is a reference to the [https://fallout.fandom.com/wiki/Gauss_pistol_(Fallout_2) weapon of the same name] from ''[[wikipedia:Fallout 2|Fallout 2]]'', and uses the sound effect of the [https://fallout.fandom.com/wiki/Gauss_rifle Gauss Rifle] from the series' later installments.
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic guns]]

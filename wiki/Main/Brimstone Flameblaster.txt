@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = ranged
+| damage = 64
+| knockback = 3.5
+| rare = 7
+| sell = {{value|0|12}}
+| stack = 1
+| auto = yes
+| use = 20
+| velocity = 10
+| tooltip = Fires bouncing brimstone fireballs
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debufftip = Rapid health loss
+| debuffduration = 3 seconds
+| hardmode = yes
+| proj = Brimstone Ball.png
+| projcaption = Brimstone Fireball
+| image2 = Brimstone Flameblaster (tank).png
+| image2caption = Equipped tank
+| element1 = Fire
+| element2 = Unholy
+}}
+|{{item drops infobox
+| [[Cataclysm]]|1|{{dv|8.33%|10%}}
+}}
+}}
+
+The '''Brimstone Flameblaster''' is a unique [[Hardmode]] [[flamethrowers|flamethrower]] that has a 8.33% ({{expert|10%}}) chance to drop from [[Cataclysm]]. It fires a Brimstone Ball that bounces off of blocks, ricocheting up to five times before dissipating. This fireball inflicts the [[Brimstone Flames]] [[debuff]] upon impacting an enemy.
+
+{{Modifier|ranged}}
+
+== Notes ==
+*The Brimstone Flameblaster differs from other flamethrowers in that it does not fire a defined stream of particles, instead it functions more like the [[Flower of Fire]]. Despite this, it is still considered a flamethrower because it consumes [[Gel]] when used and is buffed by the [[Shroomite Visage]].
+
+== Crafting == 
+=== Used In ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

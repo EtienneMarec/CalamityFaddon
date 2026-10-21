@@ -1,0 +1,571 @@
+<includeonly><!--
+
+-->{{#dplvar:set<!-- 
+	-->|_item_infobox:name|{{{name|{{ROOTPAGENAME}}}}}<!-- 
+-->}}<!--
+
+--><div class="infobox item float-{{{float|right}}}" style="<!-- 
+	-->{{#if:{{{boxwidth|}}}|width:{{{boxwidth|}}};}}{{{css|}}};{{{style|}}}<!-- 
+	-->"><!--
+	
+	--><div class="title">{{#dplvar:_item_infobox:name}}{{#if:{{{namesub|}}}|<span>{{{namesub|}}}</span>}}</div><!-- 
+
+	--><div class="section images"><!-- 
+		--><ul class="{{#if:{{{imagebreak|}}}|block|inline}}"><!-- 
+			//female image check first(used in equipped image)
+			-->{{#dplvar:set|_item_infobox:male_image_postfix|(male)}}<!-- 
+			-->{{#dplvar:set|_item_infobox:female_image|<!-- 
+				-->{{#if:{{{imagefemale|}}}|<!--
+					--><li>{{{imagefemale|}}}</li><!--
+				-->|<!--
+					-->{{#ifexist:Media:{{#dplvar:_item_infobox:name}} female.png|<!--
+						--><li>[[File:{{#dplvar:_item_infobox:name}} female.png|{{#dplvar:_item_infobox:name}} equipped (female)]]</li><!--
+					-->|<!-- 
+						-->{{#dplvar:set|_item_infobox:male_image_postfix|}}<!-- no image for female, so male image doesn't need postfix.
+					-->}}<!--
+				-->}}<!--
+			-->}}<!--
+			//main image
+			--><li>{{{imagealt|[[File:{{{image|{{#dplvar:_item_infobox:name}}.png|{{#dplvar:_item_infobox:name}} {{#ifeq:{{lc:{{{type2|}}}}}|set|equipped {{#dplvar:_item_infobox:male_image_postfix}}|item sprite}}}}}]]}}}</li><!-- 
+			//placed image
+			-->{{#if:{{{imageplaced|}}}|<!-- 
+				--><li>{{{imageplaced|}}}</li><!-- 
+			-->|<!-- 
+				-->{{#ifexist: Media:{{#dplvar:_item_infobox:name}} (placed).gif|<!-- 
+					--><li>[[File:{{#dplvar:_item_infobox:name}} (placed).gif|{{#dplvar:_item_infobox:name}} placed graphic]]</li><!-- 
+				-->|{{#ifexist: Media:{{#dplvar:_item_infobox:name}} (placed).png|<!-- elseif
+					--><li>[[File:{{#dplvar:_item_infobox:name}} (placed).png|{{#dplvar:_item_infobox:name}} placed graphic]]</li><!-- 
+				-->}}}}<!-- 
+			-->}}<!-- 
+			//equipped image
+			-->{{#if:{{{imageequipped|}}}|<!--
+				--><li>{{{imageequipped|}}}</li><!--
+			-->|<!-- 
+				-->{{#ifexist: Media:{{#dplvar:_item_infobox:name}} (equipped).gif|<!-- 
+					--><li>[[File:{{#dplvar:_item_infobox:name}} (equipped).gif|{{#dplvar:_item_infobox:name}} equipped]]</li><!-- 
+				-->|{{#ifexist: Media:{{#dplvar:_item_infobox:name}} (equipped).png|<!-- elseif
+					--><li>[[File:{{#dplvar:_item_infobox:name}} (equipped).png|{{#dplvar:_item_infobox:name}} equipped]]</li><!-- 
+				-->}}}}<!-- 
+			-->}}<!-- 
+			//female image
+			-->{{#dplvar:_item_infobox:female_image}}<!-- 
+		--></ul><!--
+		//autoswing
+		-->{{#if:{{{auto|}}}|<div class="auto">[[File:Auto icon.png|18px|link=Autoswing|{{item infobox/autotext|{{{auto|}}}|{{{type|}}}}}]][[Category:Auto-use items]]</div>}}<!-- 
+		//stack
+		-->{{#if:{{{stack|}}}|{{#iferror:{{#expr:{{{stack|}}}>0}}||<div class="stack" title="Max Stack: {{{stack}}}">{{stack|{{{stack}}}}}</div>}}}}<!--
+	--></div><!--  div.section.images
+	--><div class="section statistics"><!-- 
+		-->{{#if:{{{type|}}}{{{rare|}}}|<div class="title">Statistics</div>}}<!-- 
+		-->{{#ifexpr:{{#dplnum:0{{{hammer|}}}{{{pick|}}}{{{axe|}}}}}>0|<!-- 
+			--><ul class="toolpower"><!-- 
+				--><li title="Pickaxe Power">[[File:Pickaxe icon.png|16px|link=]] {{{pick|0}}}%</li><!-- 
+				--><li title="Hammer Power">[[File:Hammer icon.png|16px|link=]] {{{hammer|0}}}%</li><!-- 
+				--><li title="Axe Power">[[File:Axe icon.png|16px|link=]] {{{axe|0}}}%</li><!-- 
+			--></ul><!-- 
+		-->}}<!-- 
+	        -->{{#if:{{{pickreq|}}}|<!-- 
+			--><ul class="toolpower"><!-- 
+				--><li title="Pickaxe power required">[[File:Pickaxe icon.png|16px|link=]] {{{pickreq|}}}%</li><!-- 
+			--></ul><!-- 
+		-->}}<!-- 
+		--><table class="stat"><!-- 
+			-->{{#if: {{{type|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Type</th><!-- 
+					--><td><!-- 
+						-->{{ifexists|{{{type}}}|[[{{{type}}}]]|{{{type}}}}}<!-- 
+						-->{{#if:{{{type2|}}}|&#32;&ndash;&#32;{{ifexists|{{{type2}}}|[[{{{type2}}}]]|{{{type2}}}}}}}<!-- 
+                                                -->{{#if:{{{type3|}}}|&#32;&ndash;&#32;{{ifexists|{{{type3}}}|[[{{{type3}}}]]|{{{type3}}}}}}}<!--
+					--></td><!--  
+				--></tr><!--
+			-->}}<!--
+			-->{{#if:{{{bait|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Bait]] Power</th><!-- 
+					--><td>{{{bait|}}}%</td><!--  
+				--></tr><!--
+			-->}}<!--
+			-->{{#if:{{{fish|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Fishing power]]</th><!-- 
+					--><td>{{{fish|}}}%</td><!--  
+				--></tr><!--
+			-->}}<!--  
+			-->{{#if:{{{damage|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Damage</th><!-- 
+					--><td><!-- 
+						-->{{{damage|}}} <!-- 
+						-->{{#dplvar:set|_damagetype|{{item infobox/damagetype|{{{damagetype|}}}|{{{type|}}}}}}}<!-- 
+						-->{{#if:{{#dplvar:_damagetype}}|<small>{{#dplvar:_damagetype}}</small>}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{knockback|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Knockback]]</th><!-- 
+					--><td>{{#if:{{#dplreplace:{{{knockback|}}}|/^\s*\d+(\.\d+)?\s*$/|}}|{{{knockback|}}}|{{kb|{{{knockback|}}}}}}}<!-- if input is pure number, wrap it with {{kb}}, or leave it as is. --></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{defense|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Defense</th><!-- 
+					--><td>{{{defense|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{bonus|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Bonus</th><!-- 
+					--><td>{{{bonus|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{setbonus|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Set Bonus</th><!-- 
+					--><td>{{{setbonus|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{placeable|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Placement|Placeable]]</th><!-- 
+					--><td>{{#switch:{{lc:{{{placeable|}}}}}|yes={{yes}}|no={{no}}|#default={{{placeable|}}}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{width|}}}{{{height|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Dimensions</th><!-- 
+					--><td>{{#if:{{{width|}}}|{{{width}}} wide}}{{#switch: |{{{width|}}}|{{{height|}}}=|&nbsp;×&nbsp;}}{{#if:{{{height|}}}|{{{height}}} high}}</td><!--  
+				--></tr><!--
+			-->}}<!--
+			-->{{#if:{{{mana|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Mana]]</th><!-- 
+					--><td>{{{mana|}}}</td><!--  
+				--></tr><!--
+			-->}}<!--
+			-->{{#if:{{{life|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Life]] cost</th><!-- 
+					--><td>{{{life|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{mregen|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Mana]] regen</th><!-- 
+					--><td>{{{mregen|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{mheal|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Heals [[Mana]]</th><!-- 
+					--><td>{{{mheal|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{lregen|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Life regen</th><!-- 
+					--><td>{{{lregen|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{hheal|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Heals [[Health]]</th><!-- 
+					--><td>{{{hheal|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#ifeq:{{lc:{{{damagetype|}}}}}|summon||{{#if:{{{critical|{{#if:{{{damage|}}}|{{#switch:{{lc:{{{type|}}}}}|weapon|tool=4%}}}}}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Critical hit|Critical chance]]</th><!-- 
+					--><td>{{{critical|4%}}}</td><!--  
+				--></tr><!--
+			-->}}}}<!-- 
+			-->{{#if:{{{body slot|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Body slot</th><!-- 
+					--><td>{{{body slot|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{use|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Use time]]</th><!-- 
+                                        --><td>{{#if:{{#dplreplace:{{{use|}}}|/^\s*\d+(\.\d+)?\s*$/|}}|{{{use|}}}|{{{use|}}} <small>{{use time|{{{use}}}}}</small>}}</td><!--
+				--></tr><!--
+			-->}}<!--
+			-->{{#if:{{{reach|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Reach (tiles)</th><!-- 
+					--><td>{{{reach|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{attduration|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Attack duration</th><!-- 
+					--><td>{{{attduration|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{velocity|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Velocity]]</th><!-- 
+					--><td>{{#if:{{{extraupdates|}}}|{{#expr:{{{velocity|}}} * ({{{extraupdates|}}} + 1)}} <small>[[Velocity Multiplier|effective]]</small>|{{{velocity|}}}}}</td><!--  
+				--></tr><!--
+			-->}}<!--  
+			-->{{#if:{{{velocitymult|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Velocity Multiplier]]</th><!-- 
+					--><td>{{{velocitymult|}}}x</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{toolspeed|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Mining speed|Tool speed]]</th><!-- 
+					--><td>{{{toolspeed|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{tool|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Tool</th><!-- 
+					--><td>{{{tool|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{tooltip|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Tooltip</th><!-- 
+					--><td><i>{{{tooltip|}}}</i></td><!-- Using apostrophes here can cause some tooltips to be bolded
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{buff|}}}|<!-- 
+				-->{{#vardefine:_bufftxt|{{#explode:{{{buff}}}|(buff)|0}}}}<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Grants [[Buff]]</th><!-- 
+					--><td><b>{{#ifeq:{{{bufflink|}}}|no|<!-- 
+						-->{{item|{{{buff}}}|{{#var:_bufftxt}}|link=}}<!-- 
+					-->|<!-- 
+						-->{{ifexists|{{{buff}}}|<!-- 
+							-->{{item|{{{buff}}}|{{#var:_bufftxt}}}}<!-- 
+						-->|<!-- 
+							-->{{item|{{{buff}}}|{{#var:_bufftxt}}|link=}}<!-- 
+						-->}}<!--
+					-->}}</b></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{duration|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Buff duration</th><!-- 
+					--><td>{{{duration|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{bufftip|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Buff tooltip</th><!-- 
+					--><td>''{{{bufftip|}}}''</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{buff2|}}}|<!-- 
+				-->{{#vardefine:_bufftxt2|{{#explode:{{{buff2}}}|(buff)|0}}}}<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Grants [[Buff]]</th><!-- 
+					--><td><b>{{#ifeq:{{{bufflink2|}}}|no|<!-- 
+						-->{{item|{{{buff2}}}|{{#var:_bufftxt2}}|link=}}<!-- 
+					-->|<!-- 
+						-->{{ifexists|{{{buff2}}}|<!-- 
+							-->{{item|{{{buff2}}}|{{#var:_bufftxt2}}}}<!-- 
+						-->|<!-- 
+							-->{{item|{{{buff2}}}|{{#var:_bufftxt2}}|link=}}<!-- 
+						-->}}<!--
+					-->}}</b></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{duration2|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Buff duration</th><!-- 
+					--><td>{{{duration2|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{bufftip2|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Buff tooltip</th><!-- 
+					--><td>''{{{bufftip2|}}}''</td><!--  
+				--></tr><!--
+			-->}}<!--
+                        -->{{#if:{{{buff3|}}}|<!-- 
+				-->{{#vardefine:_bufftxt3|{{#explode:{{{buff3}}}|(buff)|0}}}}<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Grants [[Buff]]</th><!-- 
+					--><td><b>{{#ifeq:{{{bufflink3|}}}|no|<!-- 
+						-->{{item|{{{buff3}}}|{{#var:_bufftxt3}}|link=}}<!-- 
+					-->|<!-- 
+						-->{{ifexists|{{{buff3}}}|<!-- 
+							-->{{item|{{{buff3}}}|{{#var:_bufftxt3}}}}<!-- 
+						-->|<!-- 
+							-->{{item|{{{buff3}}}|{{#var:_bufftxt3}}|link=}}<!-- 
+						-->}}<!--
+					-->}}</b></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{duration3|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Buff duration</th><!-- 
+					--><td>{{{duration3|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{bufftip3|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Buff tooltip</th><!-- 
+					--><td>''{{{bufftip3|}}}''</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{debuff4|}}}||{{#if:{{{debuff|}}}|<!--
+				-->{{#vardefine:_debufftxt|{{#explode:{{{debuff}}}|(debuff)|0}}}}<!-- 
+				-->{{#vardefine:chance|{{#if:{{{debuffchance|}}}|{{#ifeq:{{#sub:{{{debuffchance|}}}|-2}}|##|{{#sub:{{{debuffchance|}}}|0|-2}}|{{{debuffchance|}}} chance}}}}}}<!-- 
+				--><tr class="buff"><!--
+					--><th>Inflicts [[Debuff]]</th><!-- 
+					--><td>{{#ifeq:{{{debufflink|}}}|no|<!-- 
+						-->{{item|{{{debuff}}}|<b>{{#var:_debufftxt}}</b>|link=|note2={{#var:chance}}}}<!-- 
+					-->|<!-- 
+						-->{{ifexists|{{{debuff|}}}|<!-- 
+							-->{{item|{{{debuff}}}|<b>{{#var:_debufftxt}}</b>|note2={{#var:chance}}}}<!-- 
+						-->|<!-- 
+							-->{{item|{{{debuff}}}|<b>{{#var:_debufftxt}}</b>|link=|note2={{#var:chance}}}}<!-- 
+						-->}}<!-- 
+					-->}}<!--
+						--><br/>{{{debuffchancenote|}}}<!-- 
+					--></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{debuffduration|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Debuff duration</th><!-- 
+					--><td>{{{debuffduration|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{debufftip|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Debuff tooltip</th><!-- 
+					--><td>''{{{debufftip|}}}''</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{debuff2|}}}|<!--
+				-->{{#vardefine:_debufftxt2|{{#explode:{{{debuff2}}}|(debuff)|0}}}}<!-- 
+				-->{{#vardefine:chance|{{#if:{{{debuffchance2|}}}|{{#ifeq:{{#sub:{{{debuffchance2|}}}|-2}}|##|{{#sub:{{{debuffchance2|}}}|0|-2}}|{{{debuffchance2|}}} chance}}}}}}<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Inflicts [[Debuff]]</th><!-- 
+					--><td>{{#ifeq:{{{debufflink2|}}}|no|<!-- 
+						-->{{item|{{{debuff2}}}|{{#var:_debufftxt2}}|link=|note2={{#var:chance}}}}<!-- 
+					-->|<!-- 
+						-->{{ifexists|{{{debuff2|}}}|<!-- 
+							-->{{item|{{{debuff2}}}|{{#var:_debufftxt2}}|note2={{#var:chance}}}}<!-- 
+						-->|<!--
+							-->{{item|{{{debuff2}}}|{{#var:_debufftxt2}}|link=|note2={{#var:chance}}}}<!-- 
+						-->}}<!-- 
+					-->}}<!--
+						--><br/>{{{debuffchancenote2|}}}<!-- 
+					--></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{debuffduration2|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Debuff duration</th><!-- 
+					--><td>{{{debuffduration2|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{debufftip2|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Debuff tooltip</th><!-- 
+					--><td>''{{{debufftip2|}}}''</td><!--  
+				--></tr><!--
+			-->}}<!--
+                        -->{{#if:{{{debuff3|}}}|<!--
+				-->{{#vardefine:_debufftxt3|{{#explode:{{{debuff3}}}|(debuff)|0}}}}<!-- 
+				-->{{#vardefine:chance|{{#if:{{{debuffchance3|}}}|{{#ifeq:{{#sub:{{{debuffchance3|}}}|-2}}|##|{{#sub:{{{debuffchance3|}}}|0|-2}}|{{{debuffchance3|}}} chance}}}}}}<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Inflicts [[Debuff]]</th><!-- 
+					--><td>{{#ifeq:{{{debufflink3|}}}|no|<!-- 
+						-->{{item|{{{debuff3}}}|{{#var:_debufftxt3}}|link=|note2={{#var:chance}}}}<!-- 
+					-->|<!-- 
+						-->{{ifexists|{{{debuff3|}}}|<!-- 
+							-->{{item|{{{debuff3}}}|{{#var:_debufftxt3}}|note2={{#var:chance}}}}<!-- 
+						-->|<!--
+							-->{{item|{{{debuff3}}}|{{#var:_debufftxt3}}|link=|note2={{#var:chance}}}}<!-- 
+						-->}}<!-- 
+					-->}}<!--
+						--><br/>{{{debuffchancenote3|}}}<!-- 
+					--></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{debuffduration3|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Debuff duration</th><!-- 
+					--><td>{{{debuffduration3|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{debufftip3|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>Debuff tooltip</th><!-- 
+					--><td>''{{{debufftip3|}}}''</td><!--  
+				--></tr><!--
+			-->}}}}<!--
+			-->{{#if:{{{element1|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>[[Elements]]:</th><!-- 
+					--><td><!-- 
+						-->{{#vardefine:element|{{{element1|}}}}}<!--
+						-->{{#forargs: element<!--
+							-->| eleNum<!--
+							-->| elementtype<!--
+							-->| {{#ifeq:{{#var:eleNum}}|all||{{item|mode=image|{{#var:elementtype}} (element)}}}}<!--
+						-->}}<!--
+					--></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{resistance1|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>[[Elemental System|Resistances]]:</th><!-- 
+					--><td><!-- 
+						-->{{#vardefine:resistance|{{{resistance1|}}}}}<!--
+						-->{{#forargs: resistance<!--
+							-->| resNum<!--
+							-->| restype<!--
+							-->| {{#ifeq:{{#var:resNum}}|all||{{item|mode=image|{{#var:restype}} (element)}}}}<!--
+						-->}}<!--
+					--></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{vulnerable1|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>[[Elemental System|Vulnerabilities]]:</th><!-- 
+					--><td><!-- 
+						-->{{#vardefine:vulnerable|{{{vulnerable1|}}}}}<!--
+						-->{{#forargs: vulnerable<!--
+							-->| vulNum<!--
+							-->| vultype<!--
+							-->| {{#ifeq:{{#var:vulNum}}|all||{{item|mode=image|{{#var:vultype}} (element)}}}}<!--
+						-->}}<!--
+					--></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{stack|}}}|{{#iferror:{{#expr:{{{stack|}}}>0}}|<!-- 
+				--><tr><!-- 
+					--><th>Max stack</th><!-- 
+					--><td>{{{stack|}}}</td><!--  
+				--></tr><!--
+			-->|}}}}<!-- 
+			-->{{#if:{{{color|}}}|<!-- 
+				--><tr><!-- 
+					--><th>Map color</th><!-- 
+					--><td>{{color|{{{color|}}} ●|{{{color|}}}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{rare|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Rarity]]</th><!-- 
+					--><td>{{rare|{{{rare|}}}|category}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{value|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Tile value]]</th><!-- 
+					--><td>{{{value|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{buy|}}}{{{sell|}}}|<!-- 
+				-->{{#dplvar:set|_sep|{{#switch:|{{{buy|}}}|{{{sell|}}}=|{{#pos:{{{buy|}}}{{{sell|}}}|//}}}}}}<!-- 
+				-->{{#if:{{#dplvar:_sep}}|<!-- 2 lines ?
+					-->{{#dplvar:set<!-- 
+						-->|_buy|{{#dplreplace:{{{buy|}}}|/\/\//|}}<!-- 
+						-->|_sell|{{#dplreplace:{{{sell|}}}|/\/\//|}}<!-- 
+					-->}}<!-- 
+					--><tr><!-- 
+						--><th>[[Value|Buy]]</th><!-- 
+						--><td>{{#dplvar:_buy}}</td><!--  
+					--></tr><!--
+					--><tr><!-- 
+						--><th>[[Value|Sell]]</th><!-- 
+						--><td>{{#dplvar:_sell}}</td><!--  
+					--></tr><!--
+				-->|<!-- 
+					--><tr><!-- 
+						--><th>[[Value|{{#if:{{{buy|}}}|Buy}}{{#switch:|{{{buy|}}}|{{{sell|}}}=|&nbsp;/&nbsp;}}{{#if:{{{sell|}}}|Sell}}]]</th><!-- 
+						--><td>{{{buy|}}}{{#switch:|{{{buy|}}}|{{{sell|}}}=|&nbsp;/&nbsp;}}{{{sell|}}}</td><!--  
+					--></tr><!--
+				-->}}<!-- 
+			-->}}<!-- 
+		--></table><!--
+			-->{{#if:{{{proj|}}}|<div class="title">{{#if:{{{proj2|}}}|Projectiles|Projectile}} created</div><!--
+			        -->{{#forargs: proj<!--
+			            -->| projNum<!--
+			            -->| projText<!--
+			            -->| {{#if:{{{proj{{#var:projNum}}caption|}}}|<!--
+			                --><div class="proj"><!--
+					    -->{{#vardefine:file|{{#sub:{{#var:projText}}|0|-4}}}}<!--
+					    -->{{#vardefine:ext|{{#sub:{{#var:projText}}|-3}}}}<!--
+				            -->{{item|mode=image|{{#var:file}}|ext={{#var:ext}}|size={{{proj{{#var:projNum}}size}}}|link=File:{{#var:projText}}}}<br/><!--
+				            --><b>{{{proj{{#var:projNum}}caption}}}</b><!-- 
+			                --></div><!-- 
+			            -->}}<!--
+			        -->}}<!--
+			-->}}<!--
+			-->{{#if:{{{sound|}}}|<div class="title">Sounds</div><!--
+			        -->{{#forargs: sound<!--
+			            -->| soundNum<!--
+			            -->| soundText<!--
+			            -->| {{#if:{{{sound{{#var:soundNum}}text|}}}|<!--
+			                --><div class="ib_sound"><!--
+				            -->{{#arraydefine:sounds|{{#var:soundText}}}}<!--
+				            -->{{#arrayslice:noTextSounds|sounds|1}}<!--
+				            -->{{sound|{{{sound{{#var:soundNum}}text|}}}|{{#arrayindex:sounds|0}}}}<!--
+				            -->{{#arrayprint:noTextSounds||@@@@|{{sound||@@@@}}}}<br/><!--
+			                --></div><!-- 
+			            -->}}<!--
+			        -->}}<!--
+			-->}}<!--
+                        -->{{#if:{{{image2|}}}|<!-- 
+			        --><div class="image2"><!-- 
+				        -->[[File:{{{image2|}}}|center|{{{image2}}}]]<!-- 
+				        -->{{#if:{{{image2caption|}}}|<b><i>{{{image2caption|}}}</i></b>}}<!-- 
+			        --></div><!-- 
+		        -->}}<!--
+	  	  	-->{{#if:{{{image3|}}}|<!-- 
+			        --><div class="image2"><!-- 
+				        -->[[File:{{{image3|}}}|center|{{{image3}}}]]<!-- 
+				        -->{{#if:{{{image3caption|}}}|<b><i>{{{image3caption|}}}</i></b>}}<!-- 
+			        --></div><!-- 
+		        -->}}<!-- 
+	--></div><!--  div.section.statistics
+--></div><!--END div.infobox
+
+-->{{#ifeq:{{NAMESPACE}}|{{ns:0}}|<!--
+
+	//cate
+	-->{{#if:{{{type|}}}|[[Category:{{{type}}} items{{#ifeq:{{{type}}}|Grab bag|{{!}}*}}]]{{#ifeq:{{lc:{{{type2|}}}}}|set|[[Category:{{{type}}} sets]]}}}}<!--
+	-->{{#if:{{{type2|}}}|[[Category:{{{type2}}} items]]}}<!--
+	-->{{#if:{{{type3|}}}|[[Category:{{{type3}}} items]]}}<!--
+	-->{{#if:{{{element1|}}}|[[Category:{{{element1}}} element weapons]]}}<!--
+	-->{{#if:{{{element2|}}}|[[Category:{{{element2}}} element weapons]]}}<!--
+	-->{{#if:{{{element3|}}}|[[Category:{{{element3}}} element weapons]]}}<!--
+	-->{{#if:{{{element4|}}}|[[Category:{{{element4}}} element weapons]]}}<!--
+	-->{{#if:{{{element5|}}}|[[Category:{{{element5}}} element weapons]]}}<!--
+	-->{{#if:{{{resistance1|}}}|[[Category:{{{resistance1}}} resistant armors]]}}<!--
+	-->{{#if:{{{resistance2|}}}|[[Category:{{{resistance2}}} resistant armors]]}}<!--
+	-->{{#if:{{{resistance3|}}}|[[Category:{{{resistance3}}} resistant armors]]}}<!--
+	-->{{#if:{{{resistance4|}}}|[[Category:{{{resistance4}}} resistant armors]]}}<!--
+	-->{{#if:{{{resistance5|}}}|[[Category:{{{resistance5}}} resistant armors]]}}<!--
+	-->{{#if:{{{vulnerable1|}}}|[[Category:{{{vulnerable1}}} vulnerable armors]]}}<!--
+	-->{{#if:{{{vulnerable2|}}}|[[Category:{{{vulnerable2}}} vulnerable armors]]}}<!--
+	-->{{#if:{{{vulnerable3|}}}|[[Category:{{{vulnerable3}}} vulnerable armors]]}}<!--
+	-->{{#if:{{{vulnerable4|}}}|[[Category:{{{vulnerable4}}} vulnerable armors]]}}<!--
+	-->{{#if:{{{vulnerable5|}}}|[[Category:{{{vulnerable5}}} vulnerable armors]]}}<!--
+	-->{{#if:{{{listcat|}}}|[[Category:{{{listcat}}}]]}}<!--
+	-->{{#if:{{{listcat2|}}}|[[Category:{{{listcat2}}}]]}}<!--
+	-->{{#if:{{{listcat3|}}}|[[Category:{{{listcat3}}}]]}}<!--
+	-->{{#if:{{{listcat4|}}}|[[Category:{{{listcat4}}}]]}}<!--
+	-->{{#if:{{{listcat5|}}}|[[Category:{{{listcat5}}}]]}}<!--
+	-->{{#if:{{{consumable|}}}|[[Category:Consumable items]]}}<!--
+	-->{{#ifeq:{{{hardmode|}}}|yes|[[Category:Hardmode-only items]]}}<!--
+	-->{{#ifeq:{{{postml|}}}|yes|[[Category:Godseeker Mode-only items]]}}<!--
+	-->{{#ifeq:{{{epilogue|}}}|yes|[[Category:Epilogue-only items]]}}<!--
+-->}}<!--
+--></includeonly><!--
+
+--><noinclude><!--
+-->{{doc}}<!--
+--></noinclude>

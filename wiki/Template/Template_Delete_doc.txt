@@ -1,0 +1,10 @@
+This template will add tagged pages to [[:Category:Candidates for deletion]].
+
+''Note:'' Put the tag between <code>&lt;noinclude&gt; &lt;/noinclude&gt;</code> tags for deletion of transcluded pages.
+
+==Usage==
+{{tlx|delete|Regular deletion reason}}
+
+===Parameters===
+; parameter 1
+: reason for proposed deletion

@@ -1,0 +1,46 @@
+{{addon|Catalyst}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 240
+| velocity = 9
+| knockback = 5
+| rare = 13
+| sell = {{value|0|48}}
+| stack = 1
+| use = 16
+| auto = yes
+| tooltip = Inundatio ex Sanguis<br/>Throws tendon slicing disks that shred hit enemies<br/>If an enemy is critically hit, the shred effect stacks and deals more damage over time
+| hardmode = yes
+| postml = yes
+| debuff = Shred | debufflink = no
+| debufftip = Blood
+| debuffchance = 10%
+| debuffduration = 6 seconds
+| element1 = Unholy
+| element2 = Dark
+| element3 = Fire
+| element4 = Stab
+}}
+
+The '''Tendon Tides''' is a craftable Godseeker Mode [[boomerang]]. When used, disks are thrown out which pierce 10 times before exploding into harmless gores. If an enemy is hit by the disk, they are inflicted with the [[Shred]] debuff, which deals damage over time. Each time an enemy is hit while the Shred debuff is inflicted, the debuff stacks on itself and deals more damage over time. This stacks until capping up to 64 inflictions.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*'Inundatio ex Sanguis' is Latin, and roughly translates to "Flood of Blood".
+
+{{-}}
+{{Bloodstone}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Boomerangs]]

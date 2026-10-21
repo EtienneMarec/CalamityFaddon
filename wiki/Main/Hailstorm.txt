@@ -1,0 +1,30 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 100 (small)/250 (medium)/500 (large)
+| use = 30
+| knockback = 3 (small)/25 (medium)/60 (large)
+| auto = no
+| stack = 1
+| rare = 15
+| sell = {{value|0|20}}
+| velocity = 20 (small)/15 (medium)/10 (large)
+| tooltip = Hold down the fire button to fire a larger snowball.
+| proj = Small Snowball.png
+| projcaption = Small Snowball
+| proj2 = Medium Snowball.png
+| proj2caption = Medium Snowball
+| proj3 = Big Snowball.png
+| proj3caption = Big Snowball
+| element1= Cold
+}}
+
+The '''Hailstorm''' is a Godseeker Mode [[Ranged weapons|Ranged Weapon]] that can be purchased from the [[Snowman]]. It uses snowballs as ammunition, and can be charged by holding down the fire button. Not charging the weapon will fire small snowballs, which move relatively fast, but deal fairly low damage. Charging for 3 seconds will fire medium snowballs, which have less range, but deal increased damage and knockback. Charging for more then 7 seconds will fire a large snowball, which has middling range, but deals immense damage, and rolls on the ground after being launched, piercing up to 10 enemies before breaking.
+
+{{Modifier|ranged}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

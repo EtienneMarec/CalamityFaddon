@@ -1,0 +1,127 @@
+{{item infobox
+| imagebreak = yes
+| type = Armor
+| defense = 67/49/43/40/46
+| rare = 8
+| sell = {{value|0|14|40}} (set)
+| proj = Chaos Flame.gif
+| projcaption = Chaos Flame
+| buff = Hydrothermic Vent (buff) | bufflink = no
+| bufftip = The hydrothermic vent will protect you
+| duration = Infinite (Helmet)
+| buff2 = Inferno
+| bufftip2 = Nearby enemies are ignited
+| duration2 = Infinite (Under 50% Health)
+| debuff = On Fire!
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 4, 8, or 12 seconds (Helm melee attacks)<br/>3 seconds (Chaos Blaze, Chaos Geysers, Chaos Flares, Chaos Orbs, Chaos Flames, Homing Chaos Flares)
+| debuff2 = Brimstone Flames
+| debufftip2 = Rapid health loss
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds (Inferno)<br/>1.5 seconds (Chaos Flares)
+| hardmode = yes
+| setbonus = Inferno effect when below 50% life<br/>You emit a blazing explosion when you are hit<br/><br/>'''Helm''': 5% increased melee damage<br/>Enemies are more likely to target you<br/>Melee attacks and projectiles cause chaos flames to erupt on enemy hits<br/><br/>'''Headgear''': 5% increased ranged damage<br/>You fire a homing chaos flare when using ranged weapons every 0.33 seconds<br/><br/>'''Mask''': 5% increased magic damage and 15% reduced mana usage<br/>Magic attacks summon damaging and healing flare orbs on hit<br/><br/>'''Helmet''': 40% increased minion damage and +2 max minions<br/>Summons a hydrothermic vent to protect you<br/><br/>'''Hood''': 5% increased Spy damage<br/>Spy weapons unleash a volley of homing flames around the player every 2.5 seconds<br/>Spy stealth builds while not attacking and slower while moving, up to a max of 110<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+}}
+{{summoned|image=[[File:Hydrothermic Vent.gif]]|type=minion|name=Hydrothermic Vent}}
+
+'''Hydrothermic armor''' is a craftable [[Hardmode]] [[Covering]] set, crafted from [[Core of Chaos|Cores of Chaos]], [[Hellstone Bar]]s, and [[Scoria Bar]]s. It requires 6 Cores of Chaos, 17 Hellstone Bars, and 32 Scoria Bars to make the whole set or 10 Cores of Chaos, 33 Hellstone Bars, and 60 Scoria Bars for a set with all five headpieces.
+
+A full set consists of an '''Hydrothermic Armor''' and an '''Hydrothermic Subligar''' as well as five different headpieces: The '''Hydrothermic Mask''', '''Hydrothermic  Helmet''', '''Hydrothermic Helm''', '''Hydrothermic Headgear''' and '''Hydrothermic Hood'''. All of the helmets share the set bonus, but also each piece providing boosts to the specific class. All helmets also provide temporary immunity to lava and immunity to fire damage.
+
+The '''Hydrothermic Armor''' gives 20 defense, +20 max life, 8% increased damage and 4% increased critical strike chance. The '''Hydrothermic Subligar''' gives 14 defense, 3% increased critical strike chance and 15% increased movement speed.
+
+*The '''Hydrothermic Helm''' gives 33 defense, 12% increased melee damage, 10% increased melee critical strike chance, 18% increased melee speed, and +700 to [[Aggro]].<br/>Melee attacks have a 25% chance for [[On Fire!]] to be inflicted for 12 seconds, a 37.5% chance to be inflicted for 8 seconds, and a 37.5% chance to be inflicted for 4 seconds.<br/>Its set bonus grants an additional 5% melee damage and causes melee attacks and projectiles to spawn chaos flames on enemy hits
+**Chaos flames deal 15% damage of the attack that spawned them, and can hit up to 3 times. Further damage added to the flame after it has reached 45 damage is reduced by 90%.
+**Chaos flames are only generated from enemies that have a damage stat of 5 or higher, with the exception of enemies spawned from statues.
+*The '''Hydrothermic Headgear''' gives 15 defense, 12% increased ranged damage, 10% increased ranged critical strike chance and reduces ammo cost by 25%.<br/>Its set bonus grants an additional 5% ranged damage and causes ranged weapons to fire a chaos flare every 0.33 seconds that inflicts [[Brimstone Flames]] and On Fire!.
+**Chaos flares deal 25% of the damage of the attack that spawned them and are softcapped at 50 damage.
+*The '''Hydrothermic Mask''' gives 9 defense, increases maximum mana by 100, 12% increased magic damage and 10% increased magic critical strike chance.<br/>Its set bonus grants an additional 5% magic damage and allows magic attacks to summon [[Lifesteal|healing]] and damaging orbs that inflict On Fire! on enemy hits.
+**Chaos orbs deal 62.5% of the damage of the attack that spawned them and are softcapped at 100 damage.
+**Healing orbs heal for 10% of the projectile's damage dealt, reduced by 5% on each repeat pierce hit.
+*The '''Hydrothermic Helmet''' gives 6 defense, 5% increased summon damage and increased minion knockback.<br/>Its set bonus grants an additional 40% minion damage, +2 max minions, and summons a Hydrothermic Vent to fight for the player.
+**The Hydrothermic Vent floats over the player's head and fires at enemies for 190 damage. It also inflicts On Fire!.
+*The '''Hydrothermic Hood''' gives 12 defense, 12% increased Spy damage, 10% increased Spy critical strike chance, 50% chance of not consuming Spy weapons and 5% increased movement speed.<br/>Its set bonus grants an additional 5% Spy damage, gives Spy weapons the ability to spawn 8 chaos flames every 2.5 seconds that home in on enemies and inflict On Fire!, and gives a maximum [[Spy stealth]] of 110.
+**Homing chaos flames deal 50% of the damage of the attack that spawned them and are softcapped at 100 damage.
+
+All helmets also provide the set bonus of giving a modified [[Inferno]] effect when below 50% health and to cause a fiery explosion on hit that inflicts On Fire!. The modified Inferno effect inflict nearby enemies with Brimstone Flames and deal 50 damage.
+
+A full set always provides a minimum of 40 defense, +20 max life, 8% increased damage, 9% increased critical strike chance and 10% increased movement speed, temporary immunity to lava, immunity to fire damage, an Inferno effect when below 50% health, and a fiery explosion on hit that deals 100 damage.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Hydrothermic Armor
+| type = Armor
+| defense = 20
+| body slot = Shirt
+| tooltip = +20 max life<br/>8% increased damage and 4% increased critical strike chance
+| sell = {{value|0|4|80}}
+}}
+|{{item infobox
+| name = Hydrothermic Subligar
+| type = Armor
+| defense = 14
+| body slot = Pants
+| tooltip = 5% increased critical strike chance<br/>10% increased movement speed
+| sell = {{value|0|3|60}}
+}}
+}}
+
+=== Helmet variants ===
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Hydrothermic Helm
+| type = Armor
+| defense = 33
+| body slot = Helmet
+| tooltip = 12% increased melee damage and 10% increased melee critical strike chance<br/>18% increased melee speed<br/>Melee attacks and melee projectiles inflict on fire<br/>Temporary immunity to lava and immunity to fire damage
+| sell = {{value|0|6}}
+}}
+|{{item infobox
+| name = Hydrothermic Headgear
+| type = Armor
+| defense = 15
+| body slot = Helmet
+| tooltip = 12% increased ranged damage and 10% increased ranged critical strike chance<br/>Reduces ammo cost by 25%, temporary immunity to lava and immunity to fire damage
+| sell = {{value|0|6}}
+}}
+|{{item infobox
+| name = Hydrothermic Mask
+| type = Armor
+| defense = 9
+| body slot = Helmet
+| tooltip = 12% increased magic damage, +100 max mana, and 10% increased magic critical strike chance<br/>Temporary immunity to lava and immunity to fire damage
+| sell = {{value|0|6}}
+}}
+|{{item infobox
+| name = Hydrothermic Helmet
+| type = Armor
+| defense = 6
+| body slot = Helmet
+| tooltip = 5% increased minion damage and increased minion knockback<br/>Temporary immunity to lava and immunity to fire damage
+| sell = {{value|0|6}}
+}}
+|{{item infobox
+| name = Hydrothermic Hood
+| type = Armor
+| defense = 12
+| body slot = Helmet
+| tooltip = 12% increased Spy damage and 10% increased Spy critical strike chance<br/>50% chance to not consume Spy items and 5% increased movement speed<br/>Temporary immunity to lava and immunity to fire damage
+| sell = {{value|0|6}}
+}}
+}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result=LIKE Hydrothermic%}}
+
+== Trivia ==
+*Hydrothermic armor used to be known as "Ataxia armor", in reference to the term [[wikipedia:Ataxia|Ataxia]], which is the name given to medical symptoms that consist of diminished control of muscle movements.
+
+{{Scoria}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}
+[[Category:Healing items]]

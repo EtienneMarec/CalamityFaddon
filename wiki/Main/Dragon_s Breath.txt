@@ -1,0 +1,43 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 198
+| damagetype = Ranged
+| knockback = 6.5
+| stack = 1
+| rare = 15
+| sell = {{value|0|30}}
+| auto = yes
+| use = 18
+| velocity = 12
+| tooltip = Left click fires in two-shot bursts<br/>The first shot is a spread of 6 normal bullets<br/>The second shot is a tight spread of 6 Dragon's Breath rounds<br/>Right click fires full auto and mixes the bullets randomly, but does 20% less damage<br/>This weapon has no randomness to its spread pattern<br/>66% chance to not consume ammo
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 5 seconds (Bullets)<br/>3 seconds (Explosions)
+| debufftip = Slowly losing life
+| hardmode = yes
+| postml = yes
+| proj = Dragon Bullet.png
+| projcaption = Draconic Bullet
+| element1 = Fire
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Jungle Dragon, Yharon]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Dragon's Breath''' is a Godseeker Mode [[gun]] that is dropped by [[Jungle Dragon, Yharon]]. When left clicking with the weapon, it fires a spread of 6 bullets, followed by a spread of 6 fast exploding Dragon's Breath rounds, both in even spreads. Right clicking shoots two rounds of three bullets and three Dragon's Breath rounds in a more random spread.
+
+{{Modifier|ranged}}
+
+== Trivia ==
+*This weapon is a reference to real life [[wikipedia:Dragon's_breath_(ammunition)|"dragon's breath"]] incendiary ammunition.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged= yes
+}}
+
+[[Category:Guns]]

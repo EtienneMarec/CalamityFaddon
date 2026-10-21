@@ -1,0 +1,28 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Grab bag
+| tooltip = Right click to extract shatterite ore
+| stack = 9999
+| consumable = True
+| rare = 7
+| sell = {{value|0|1}}
+| hardmode = yes
+}}
+
+The '''Shattered Gar''' is a [[grab bag]]-type [[Fishing|fish]] that can be caught in the [[Sunken Sea]] after [[The Forbidden Lantern]] has been defeated. When opened, the player will receive between 2 to 5 [[Shatterite Ore]].
+
+== Drops ==
+{| class="terraria"
+! colspan="2" | Anytime
+|-
+! Items !! Amount
+|-
+| {{item|Shatterite Ore}}
+| 2-5
+|}
+
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

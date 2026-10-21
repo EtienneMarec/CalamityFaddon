@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = Spy
+| damage = 5
+| knockback = 4
+| velocity = 20
+| rare = 15
+| tooltip = Orbits struck enemies<br/>Hitting enemies already orbited by a planet causes the planet to speed up<br/>Stealth strikes cause two smaller planets to orbit enemies as well<br/>The weapon is already at its full potential
+| sell = {{value|0|26}}
+| use = 21
+| stack = 1
+}}
+|{{item drops infobox
+| [[Goozma]]|1|{{dv|25%|33.33%}}}}
+}}
+
+The '''Tiny Planet''' is a [[spy weapon]] that drops from [[Goozma]]. When fired, it throws out a planet that orbits enemies it hits. If an enemy already has a planet orbiting them, further hits by the weapon will instead increase the orbiting speed of the planet by 50% up until the planet has reached 500% of its original speed. The planets orbit at a range where they are guaranteed to not hit the orbited enemy.
+
+Performing a [[stealth strike]] with the Tiny Planet will cause two smaller planets to be thrown as well.
+
+{{Modifier|rogue}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+== Trivia ==
+*It is the only weapon Goozma drops that doesn't scale with progression.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue= yes
+}}
+[[Category:Spy weapons]]

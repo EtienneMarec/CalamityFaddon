@@ -1,0 +1,51 @@
+{{npc infobox
+| type = Flying Enemy
+| ai = Brimling AI
+| damage = '''Melee:'''<br/>0 (Contact)<br/>'''Fireball:'''<br/>{{dv|70|112|128|140}} (Fireball pre-[[Providence]])<br/>{{dv|124|216|270|310}} (Fireball post-[[Providence]])
+| life = 2,000 (pre-[[Providence]])<br/>26,000 (post-[[Providence]])
+| defense = 0
+| dr = 15% (Normal) / 60% (Boosted)
+| knockback = 100
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Abyssal Flames
+| immune4 = Brimstone Flames
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| duration = 3 seconds (Hellfireballs)
+| hurt = NPC_Hit_23.wav
+| killed = NPC_Killed_39.wav
+| sound = Item_20.wav
+| soundtext = Fireball
+| sound2 = Item_8.wav
+| sound2text = Teleport
+| resistant1 = Unholy
+| resistant2 = Fire
+| resistant3 = Cold
+| vulnerable1 = Water
+| vulnerable2 = Holy
+| vulnerable3 = Machine
+}}
+
+{{dablink|This article is about the enemy. For the pet with the same name, see [[Charred Relic]]. }}
+
+'''Brimlings''' are [[Hardmode]] [[Enemies#Boss Servants|boss servant]] [[enemies]] that are spawned by the [[Brimstone Elemental]] in [[Revengeance Mode]] or during the [[Boss Rush]].
+
+== Behavior ==
+Brimlings are summoned whenever the Brimstone Elemental teleports during her 1st phase, appearing wherever she was when she teleported. A maximum of two can exist at a time during the fight: the Brimstone Elemental cannot summon more if there are already that many. They float towards the player if they are far enough away, and occasionally teleport to a random spot near the player. They do not deal contact damage, instead shooting hellfireballs every few seconds that create temporary infernos on impact with tiles or platforms. 
+
+When the Brimstone Elemental goes into her rose phase, her Brimlings will do so as well, increasing their damage reduction but stopping them from attacking. They also enter this phase when below 20% life, with differences being that they have decreased movement speed and can still shoot hellfireballs at the player.
+
+== Notes ==
+*Brimlings will increase their damage reduction regardless of Brimstone Elemental's phase while below 10% of its health.
+*During the [[Boss Rush]], Brimlings will have 100,000 max health regardless of difficulty.
+
+== Trivia ==
+*Brimlings were implemented based on a community suggestion made by DerpyNarwhal on the mod's Discord server.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

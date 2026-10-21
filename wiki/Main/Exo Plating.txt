@@ -1,0 +1,28 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| stack = 9999
+| rare = 15
+| color = #34434e
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| use = 14
+| sell = No value
+}}
+
+'''Exo Plating''' is a Godseeker Mode [[block]] that is crafted from [[Exo Prism]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}
+[[Category:Block items]]

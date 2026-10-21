@@ -1,0 +1,199 @@
+<br /><section begin="npc" infobox="" />
+{{npc infobox
+| type = Boss
+| name = Brimstone Elemental
+| environment = Brimstone Crag
+| ai = Brimstone Elemental AI
+| life = {{dv|41,000|65,600|78,720}} (pre-[[Providence]])<br/>{{dv|205,000|328,000|393,600}} (post-[[Providence]]) <!-- 5x Post-Providence -->
+| dr = 15
+| knockback = 100
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Abyssal Flames
+| immune4 = Brimstone Flames
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| duration = 2 seconds(Dart, Hellblast)<br/>3 seconds (Contact, Hellfireball)<br/>5 seconds (Brimstone Ray)
+| money = {{gc|10}} (pre-[[Providence]])<br/>{{pc|1}} (post-[[Providence]])
+| Essence of Chaos|{{dv|4-8|5-9}}| 100%
+| custom| {{item|Bloodstone|note=(Once [[Providence, the Profaned Goddess|Providence]] is defeated)|wrap=y}} ({{dv|20-30|25-35}})|100%
+| group|One of the following three items will always be dropped:|3
+| Brimlance|1| {{dv|25%|33.33%}}
+| Seething Discharge|1| {{dv|25%|33.33%}}
+| Dormant Brimseeker|1| {{dv|25%|33.33%}}
+| Gehenna|1|100%
+| custom| {{item|Brimrose|note=(After defeating [[Providence, the Profaned Goddess|Providence]])|wrap=y}}|100%
+| Abaddon|1| {{dv|50%|100%}}
+| Rose Stone|1|20%
+| Hellborn|1|10%
+| Flame-Licked Shell|1|10%
+| Greater Healing Potion|5-15|100%
+| Brimstone Elemental Mask|1|14.29%
+| Brimstone Elemental Trophy|1|10%
+| custom| {{item|Brimstone Crag (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Brimstone Elemental (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Brimstone Elemental)|Treasure Bag|note=(Brimstone Elemental)|wrap=y}}
+: • {{item|Charred Relic|note=(In [[Revengeance Mode]] only)|wrap=y}}|{{expert|100%}}
+| image2 = Brimstone Elemental map.png
+| image2caption = Map Icon
+| hardmode = yes
+| listexclude = yes
+| hurt = NPC_Hit_23.wav
+| killed = NPC_Killed_39.wav
+| sound = Item_8.wav
+| soundtext = Teleport
+| sound2 = Item_20.wav
+| sound2text = Projectiles
+| sound3 = Item_68.wav
+| sound3text = Brimstone Ray
+| resistant1 = Unholy
+| resistant2 = Fire
+| resistant3 = Cold
+| vulnerable1 = Water
+| vulnerable2 = Holy
+| vulnerable3 = Smash
+|boxwidth = 25em
+}}{{Addon|Fargo’s Souls DLC (Fargo Souls Mod x Calamity)}}
+
+<section end="npc" infobox="" />
+[[File:Brimstone Elemental Trophy.png]] <big>''"The greatest trick I've ever told... was convincing the world I didn't exist.."''</big> [[File:Brimstone Elemental Trophy.png]]
+
+The '''Brimstone Elemental''' (Japanese: 硫黄のエレメンタル ''Iō no erementaru'') is a [[tgc:Hardmode|Hardmode]] [[boss]] fought in the [[Brimstone Crag]] [[biome]]. She cycles through three distinct behaviors, with varying levels of aggression and methods of attack.
+
+After [[Providence, the Profaned Goddess]] has been defeated, she becomes much stronger and begins dropping [[Bloodstone]], which can be combined with [[Phantoplasm]] and [[Blood Orb]]s to make [[Bloodstone Core]]s.
+
+== Spawn ==
+The Brimstone Elemental does not spawn on her own and requires the player to summon her with the [[Charred Idol]]. She must be summoned in the Brimstone Crag. {{Fantag|Tranquility Mod}} If the [[Tranquility Mod]] is enabled, if the [[Nightmare Mode]] is enabled in the current world, she can be encountered at the [[Shattered Court]] at the edge of the [[Brimstone Crag]] as soon as player kills the [[Wall of Flesh]].
+
+== Phases ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Brimstone Elemental
+| namesub = Phase 1
+| image = Brimstone Elemental.png
+| type = Boss
+| ai = Brimstone Elemental AI
+| damage = '''Contact:'''<br/>{{dv|60|96|120|136}} (pre-[[Providence]])<br/>{{dv|180|288|360|414}} (post-[[Providence]])<br/>'''Brimstone Ray:''' {{dv|||184|200}}
+| defense = 15 (pre-[[Providence]])<br/>30 (pre-[[Providence]] Ray Phase)<br/>60 (post-[[Providence]])<br/>180 (post-[[Providence]] Ray Phase)
+| dr = 15
+| knockback = 100
+}}
+|{{npc infobox
+| name = Brimstone Elemental
+| namesub = Phase 2
+| image = Brimstone Elemental (Phase 2).png
+| type = Boss
+| ai = Brimstone Elemental AI
+| damage = '''Contact:'''<br/>{{dv|60|96|120|136}} (pre-[[Providence]])<br/>{{dv|180|288|360|414}} (post-[[Providence]])<br/>'''Brimstone Dart:'''<br/>{{dv|60|100|108|116}} (pre-[[Providence]])<br/>{{dv|120|220|275|316}} (post-[[Providence]])<br/>'''Brimstone Hellfireball:'''<br/>{{dv|70|112|128|140}} (pre-[[Providence]])<br/>{{dv|130|232|290|333}} (post-[[Providence]])
+| defense = 15 (pre-[[Providence]])<br/>60 (post-[[Providence]])
+| dr = 15
+| knockback = 100
+}}
+|{{npc infobox
+| name = Brimstone Elemental
+| namesub = Phase 3
+| image = Brimstone Elemental (Phase 3).png
+| type = Boss
+| ai = Brimstone Elemental AI
+| damage = '''Contact:'''<br/>{{dv|60|96|120|136}} (pre-[[Providence]])<br/>{{dv|180|288|360|414}} (post-[[Providence]])<br/>'''Brimstone Dart:'''<br/>{{dv|60|100|108|116}} (pre-[[Providence]])<br/>{{dv|120|220|275|316}} (post-[[Providence]])<br/>'''Brimstone Hellblast:'''<br/>{{dv|60|100|108|116}} (pre-[[Providence]])<br/>{{dv|120|220|275|316}} (post-[[Providence]])
+| defense = 60
+| dr = 15
+| knockback = 100
+}}
+}}
+
+== Behavior ==
+The Brimstone Elemental has 3 phases, starting out in phase 1, and randomly cycling through them after fully completing the attack. She cannot repeat the same phase twice in a row. Phase 3 can only be entered after she attacks 3 times.
+
+Leaving the Brimstone Crag or [[The Underworld]] layer will cause the Brimstone Elemental to enrage, increasing her movement speed, projectile speed, and fire rate in all three phases. The enrage is even more effective if both conditions are met.
+
+=== Attacks ===
+==== Phase 1 ====
+*She slowly moves towards the player.
+*After {{dv|5.13|||4.63}} seconds, she will teleport to somewhere randomly near the player.
+**The location she teleports to is telegraph by a zone of red dust 2.13 seconds before occurring.
+**She performs the teleport twice before changing to another phase.
+*In this stage, she attempts to swallow the player. If a player is swallowed, they are unable to move and take damage over time. 
+*If a player dies while swallowed, they cannot respawn until the boss is defeated or despawns.
+
+==== Phase 2 ====
+*She accelerates towards the player and attempts to stay slightly above.
+*She fires {{item|Brimstone Hellfireball|s|nolink=y|ext=gif|size=10px}} with high acceleration towards the player every {{dv|0.83|0.67-0.83|0.58-0.75|0.5-0.67}} seconds.
+**After 4 seconds or upon collision with solid tiles, Brimstone Hellfireballs leave behind a damaging stationary explosion that lasts 3 seconds.
+*For every two fireballs fired, she also fires a spread of four slower {{item|BrimstoneBarrage|nolink=yes|ext=gif|size=10px|Brimstone Darts}}.
+*She changes to another phase after firing 10 Brimstone Hellfireballs.
+
+==== Phase 3 ====
+*She decelerates to a stop and closes her petals, increasing her defense to 99,999 and completely reduces the effectiveness of most homing attacks.
+*Every {{dv|2|1-2}} seconds, she fires an evenly-spaced ring of {{dv|12|||16}} {{item|BrimstoneBarrage|nolink=yes|ext=gif|size=10px|Brimstone Darts}} along with a fast, arc-shaped barrage of 6 {{item|BrimstoneHellblast|nolink=yes|ext=gif|size=22px|Brimstone Hellblasts}}.
+*She changes to another phase after {{dv|5|||4}} seconds.
+
+=== In [[Expert Mode]] ===
+*Moves faster in her first phase, even faster as her health lowers.
+*In phase 2 and 3, she fires projectiles at a faster rate as her health lowers.
+*Brimstone Hellfireballs travel at a faster speed as her health lowers.
+
+=== In [[Revengeance Mode]] ===
+*After every teleport, she summons a [[Brimling]] to aid her during the fight.
+**She will stop spawning Brimlings once there are two present.
+*Increased base movement speed in phase 1, firing rate in phase 2, and projectile speed of Brimstone Hellfireballs.
+*When below 50% health, she will only teleport once during phase 1.
+*The Brimstone Elemental gains a new phase below 50% health which can appear in her randomized pool:
+**During the phase, her defense is tripled.
+**Her movement behaves identically to phase 1, but decelerates once a Brimstone Ray is fired.
+**She attempts to aim ahead of the player with a line telegraph for 1.67 seconds. After, the line locks onto the position it last tracked and stays there for 0.33 seconds. These times are reduced to 1.25 seconds and 0.25 seconds respectively for her second shot.
+**Then, a Brimstone Ray appear at the line's position, remaining still for 0.75 seconds, then bursts into an two rows of evenly-spaced Brimstone Darts, which travel perpendicularly out of the ray.
+**After one second, she fires a second ray, or cycles into her next phase once both rays have been fired.
+*Once she drops below 33% health, she will no longer be able to cycle to her first phase.
+
+=== In [[Death Mode]] ===
+*Decreased teleport delay and increased movement speed in phase 1, even higher as her health decreases.
+*Increased movement speed, projectile speed, and firing rate in phase 2. Fires 8 Brimstone Darts per spread instead of 4.
+*Increased projectile speed in phase 3, in addition to firing a second ring of Brimstone Darts. Transitions into the next phase after 4 seconds instead of 5.
+*Fires only one Brimstone Ray with greater movement responsiveness. Darts from the Brimstone Ray are slower, but now home in on the player.
+
+=== During the [[Boss Rush]] ===
+*Does not have an enrage state.
+*Teleport delay decreased from {{dv|5.13|||4.63}} to 3.63 seconds.
+*Greatly increased movement speed in phases 1 and 2, and projectile speed in phases 2 and 3.
+*Decreased firing delay in phase 3 from {{dv|2|1-2}} seconds to {{dv|0.67|0.5-0.67}} seconds.
+
+=== Summons ===
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align = center |{{item|mode=table|Brimling}} || Always in [[Revengeance Mode]] and in the [[Boss Rush]]
+|}
+
+== Aftermath ==
+*The [[Brimlish]] will be able to be caught in the Brimstone Crag.
+*[[Charred Slime]]s will begin spawning in the Brimstone Crag.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating the Brimstone Elemental, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Brimstone Elemental strategies]].}}
+
+*Try mining out the [[Brimstone Slag]]. This will offer more mobility to dodge her attacks.
+**Alternatively, one could use explosives like [[Bomb]]s and [[Dynamite]] to destroy the slag and make a large, clear area.
+*The Brimstone Crag has very rough terrain that's easy to get stuck on, so it's a good idea to smooth out the walls, roof and ground of the arena.
+*Try to move around and focus on dodging instead of attacking when she closes her petals, as her projectiles can travel through blocks and her defense is greatly increased in this phase.
+**The player should be aware of their proximity to her during this phase, as the further they are from her, the faster her projectiles go.
+**If the player is too close however, her projectiles will have no time to spread out, so dodging them may be harder.
+*If the player has the Early Hardmode Progression Rework enabled in the configuration options, she can only be fought once two mechanical bosses are defeated, as crafting her summon requires a Hardmode Forge. 
+**However, if the rework is turned off, she can be fought at the start of Hardmode.  
+
+== Trivia ==
+*The Brimstone Elemental's [[Music|theme]] is [https://www.youtube.com/watch?v=kU7TqxXR0Aw '''Left Alone'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**If the Calamity Music add-on mod is disabled, '''Boss 4''' will play instead.
+*While some artwork depicts her as a cyclops, the Brimstone Elemental actually has two eyes. This could be because her sprite's eyes have a gap between them which some people mistake for a pupil.
+*The projectiles used in her Brimstone barrages are the same projectiles used in the [[Supreme Calamitas]] fight.
+*The Brimstone Elemental can be fought at the start of Hardmode, as her summoning item only requires Souls of Night, [[Essence of Chaos|Essences of Chaos]], and [[Unholy Core]]s.
+**However, if the Rework Early Hardmode Progression [[configuration option]] is enabled, she can be fought after 2 Mechanical Bosses have been defeated.
+*The Brimstone Elemental was previously an alternative for [[Skeletron Prime]] because of her previous ability to drop [[Soul of Fright|Souls of Fright]].
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, her unique despawn message will be "Brimstone Elemental withdraws to the ruins of her shrine."
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}
+[[zh:硫磺火元素]]

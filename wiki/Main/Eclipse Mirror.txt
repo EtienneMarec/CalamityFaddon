@@ -1,0 +1,48 @@
+{{item infobox
+| type = Covering
+| tooltip = Its reflection shows naught but darkness<br/>+20 maximum stealth<br/>6% increased Spy damage, and 6% increased Spy crit chance<br/>Vastly reduces enemy aggression, even in the abyss<br/>Stealth generates 20% faster when standing still<br/>Mobile stealth generation exponentially accelerates while not attacking<br/>Stealth strikes have a 100% critical hit chance<br/>Stealth strikes only expend 50% of your max stealth<br/>Grants the ability to evade attacks in a blast of darksun light, which inflicts extreme damage in a wide area<br/>Evading an attack grants full stealth but has a 90 second cooldown<br/>This cooldown is shared with all other dodges and reflects
+| sell = {{value|0|28}}
+| proj = Eclipse Blast.png
+| projcaption = Eclipse Blast
+| projsize = 220px
+| rare = 14
+| stack = 1
+| debuff = Eclipse Evade Cooldown |debufflink=no
+| debuffchance = 100%
+| debuffduration = 90 seconds (when hit)
+| debufftip = Your Eclipse Mirror's dodge is recharging
+| hardmode = yes
+| postml = yes
+| boxwidth = 25em
+| element1 = Dark
+| element2 = unholy
+| element3 = magic
+}}
+
+The '''Eclipse Mirror''' is a craftable Godseeker Mode [[Spy]] [[covering]] that is the final upgrade to the [[Coin of Deceit]], [[Silencing Sheath]], [[Mirage Mirror]], and [[Ink Bomb]]. When equipped:
+*The player's [[Spy stealth]] cap is increased by 20.
+*The player's Spy damage and critical strike chance are increased by 6% each.
+*Enemy [[aggro]] is reduced by 700.
+*Enemies in the [[Abyss]] have their detection radius multiplied by 0.3.
+*The player can build Spy stealth 20% faster while standing still.
+*The player receives an increase to Spy stealth regeneration rate while moving and not attacking.
+*All [[stealth strike]]s only require half of the player's maximum stealth to perform, and are guaranteed to critically strike.
+*If the player is hit by an enemy, a blast of darksun light will be released, nullifying damage from the hit and massively damaging enemies in a wide area. This effect has a 90 second cooldown and will not trigger again until the cooldown is finished. Additionally, if this effect occurs, the player's stealth will be instantly maxed out.
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Eclipse Mirror/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The evasion's darksun blast has a base damage of 2750.
+*This covering can be considered the counterpart to the [[Nanotech]], as that focuses more on the damage aspect of the Spy class, whereas this covering focuses more on Spy Stealth.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

@@ -1,0 +1,29 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| image = Elemental Ore.gif
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 225
+| stack = 9999
+| rare = 10
+| color = #225588
+| use = 14
+| value = 925
+| sell = {{value|0|0|50|2}}
+| hardmode = yes
+| post-moonlord = yes
+}}
+
+<big> ''"Little Cosmic chunks fell on da surface"'' </big>
+
+'''Elemental Ore''' is a post-[[Moon Lord|moonlord]] [[ore]] which generates in small chunks on the [[Surface]] upon entering Godseeker Mode. It is used as an alternate way to craft [[Elemental Bar]]s. It only spawns on [[Dirt]] at a hight of 420 or less.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{elemental}}

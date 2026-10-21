@@ -1,0 +1,45 @@
+{{item infobox
+| type = Covering
+| rare = 14
+| tooltip = Melee attacks and projectiles inflict on fire, frostburn and holy flames<br/>15% increased melee speed, damage, and 5% increased melee critical strike chance<br/>20% increased true melee damage<br/>Temporary immunity to lava<br/>Increased melee knockback
+| stack = 1
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| debuff = On Fire!
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| debufftip = Slowly losing life
+| debuff2 = Frostburn
+| debuffduration2 = 5 seconds
+| debuffchance2 = 100%
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuff3 = Holy Flames
+| debuffduration3 = 5 seconds
+| debuffchance3 = 100%
+| debufftip3 = Dissolving from holy light
+}}
+
+The '''Elemental Gauntlet''' is a craftable Godseeker Mode [[covering]]. It provides a 15% increase to melee speed and damage and a 5% increase to melee critical strike chance, a 20% increase to [[true melee]] damage, increases melee knockback, and gives the player temporary immunity to lava.
+
+While wearing the Elemental Gauntlet, any enemy struck by a melee attack will be inflicted with these [[debuffs]]:
+*[[On Fire!]] for 5 seconds
+*[[Frostburn]] for 5 seconds
+*[[Holy Flames]] for 5 seconds
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The effects of this also apply to melee damage dealt by friendly NPCs.
+*The true melee damage bonus from the covering does not stack with its Gauntlet-themed downgrades ([[Warloks' Moon Fist]] and lower).
+**However, [[Yharim's Insignia]] isn't affected by this, totalling 30% increased true melee damage when stacked.
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

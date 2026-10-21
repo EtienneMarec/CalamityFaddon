@@ -1,0 +1,20 @@
+{{infobox wrapper
+|{{item infobox
+| type = Tool
+| stack = 1
+| tooltip = Can be placed on the Codebreaker<br/>Passively spawns bees to attack enemies near the codebreaker
+| hardmode = yes
+| rare = 8
+| sell = {{value|0|20}}
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|1%
+}}
+}}
+
+The '''Honey Cooling Cell''' is a [[Hardmode]] item dropped by [[The Plaguebringer Goliath]]. It is one of the required components for [[The Codebreaker]]. Upon being placed into The Codebreaker, it will passively spawn friendly bees, wasps, and plague bees when enemies are nearby to attack them, dealing flat damage values of 10, 20, and 35 each. One randomly selected bee spawns every 20 frames per each enemy that currently exists.
+
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

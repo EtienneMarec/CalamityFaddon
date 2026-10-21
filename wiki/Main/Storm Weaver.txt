@@ -1,0 +1,259 @@
+==== <section begin="npc" infobox="" /><big>"I freaking hate this dude with all my bones" ''-LeKewlDude''</big> ====
+{{infobox wrapper
+|{{npc infobox
+| name = Storm Weaver
+| image = Storm Weaver.png
+| type = Boss
+| type2 = Burrowing Enemy
+| environment = Space
+| ai = Storm Weaver AI
+| life = {{dv|825,500|1,320,800}}
+| knockback = 100
+| immuneall = yes <!-- Adding this will change the meaning of immune1, immune2 etc to vulnerability -->
+| vulnerable1 = Stab
+| resistant1 = Magic
+| resistant2 = Cold
+| resistant3 = Water
+| resistant4 = Electricity
+| money = {{gc|30}}
+| image2 = Storm Weaver map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_4.wav
+| sound = NPC_Killed_14.wav
+| soundtext = Phase Transition
+| boxwidth = 30em
+| listexclude = yes
+}}
+|{{npc infobox
+| name = Storm Weaver
+| namesub = Unarmored
+| image = Storm Weaver (Naked).png
+| type = Boss
+| type2 = Burrowing Enemy
+| environment = Space
+| ai = Storm Weaver AI
+| life = 742,500 / 825,500<br/>
+{{expert|1,188,720 / 1,320,800}}
+| knockback = 100
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Electrified
+| vulnerable1 = Stab
+| vulnerable2 = Fire
+| resistant1 = Magic
+| resistant2 = Cold
+| resistant3 = Water
+| resistant4 = Electricity
+| money = {{gc|30}}
+| Armored Shell|{{dv|5-8|7-10}}|100%
+| The Storm|1|{{dv|25%|33.33%}}
+| Storm Dragoon|1|{{dv|25%|33.33%}}
+| Thunderstorm|1|10%
+| Supreme Healing Potion|5-15|100%
+| Storm Weaver Mask|1|14.29%
+| Little Light|1|{{dv|10%|12.5%}}
+| The Progression|1|10%
+| group|The following three items will always drop together|1
+| custom| {{item|Ancient God Slayer Helm}}
+{{item|Ancient God Slayer Chestplate}}
+{{item|Ancient God Slayer Leggings}}|5%
+| Storm Weaver Trophy|1|10%
+| custom| {{item|The Sentinels of the Devourer (Lore)|note=(Always on first kill if [[Signus]] and<br/>[[Ceaseless Void]] are defeated)|wrap=y}}|100%
+| image2 = Storm Weaver map 2.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_13.wav
+| killed = NPC_Killed_13.wav
+| sound = LightningStrike.wav
+| soundtext = Lightning
+| boxwidth = 30em
+| listexclude = yes
+}}
+}}<section end=npc infobox />
+
+'''Storm Weaver''' (Japanese: ストームウィーバー ''Sutōmuu~ībā'') is a [[tgc:Hardmode|Hardmode]] [[boss]]. It drops [[Armored Shell]]s, which are a [[crafting material]] required to craft the [[Portabulb]].
+
+== Spawn ==
+The Storm Weaver does not spawn on its own and requires the player to summon it with the [[Mechanical Weaver]], causing it to rain. 
+
+== Segments ==
+=== Phase 1 ===
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Storm Weaver Head
+| namesub = Armored
+| ai = Storm Weaver AI
+| life = {{dv|825,500|1,320,800}}
+| damage = {{dv|140|boost=0.1}} (Contact)<br/>{{dv|150|264|288|300}} (Lightning)
+| defense = 0
+| dr = 99.99%
+| knockback = 100
+| type = Boss
+| type2 = Burrowing Enemy
+| hardmode = yes
+| postml = yes
+| debuff = Electrified
+| debuffchance = {{revengeance|100%}}
+| debufftip = You cannot move
+| duration = {{revengeance|2 seconds}} (Lightning)
+}}
+|{{npc infobox
+| name = Storm Weaver Body
+| namesub = Armored
+| ai = Storm Weaver AI
+| life = {{dv|825,500|1,320,800}}
+| damage = {{dv|100|160|192|208}}
+| defense = 0
+| dr = 99.99%
+| knockback = 100
+| type = Boss
+| type2 = Burrowing Enemy
+| hardmode = yes
+| postml = yes
+}}
+|{{npc infobox
+| name = Storm Weaver Tail
+| namesub = Armored
+| ai = Storm Weaver AI
+| life = {{dv|825,500|1,320,800}}
+| damage = {{dv|80|128|160|176}}
+| defense = 0
+| knockback = 100
+| type = Boss
+| type2 = Burrowing Enemy
+| hardmode = yes
+| postml = yes
+}}
+}}
+=== Phase 2 ===
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| image = Storm Weaver Head (Naked).png
+| name = Storm Weaver Head
+| namesub = Unarmored
+| ai = Storm Weaver AI
+| life = 742,500 / 825,500<br/>
+{{expert|1,188,720 / 1,320,800}}
+| damage = {{dv|180|360|396|418}} (Contact)<br/>{{dv|150|264|288|300}} (Lightning)
+| defense = 0
+| knockback = 100
+| type = Boss
+| type2 = Burrowing Enemy
+| hardmode = yes
+| postml = yes
+| debuff = Electrified
+| debuffchance = {{revengeance|100%}}
+| debufftip = You cannot move
+| duration = {{revengeance|2 seconds}} (Lightning)
+}}
+|{{npc infobox
+| image = Storm Weaver Body (Naked).png
+| name = Storm Weaver Body
+| namesub = Unarmored
+| ai = Storm Weaver AI
+| life = 742,500 / 825,500<br/>
+{{expert|1,188,720 / 1,320,800}}
+| damage = {{dv|120|192|224|250}}
+| defense = 0
+| knockback = 100
+| type = Boss
+| type2 = Burrowing Enemy
+| hardmode = yes
+| postml = yes
+}}
+|{{npc infobox
+| image = Storm Weaver Tail (Naked).png
+| name = Storm Weaver Tail
+| namesub = Unarmored
+| ai = Storm Weaver AI
+| life = 742,500 / 825,500<br/>
+{{expert|1,188,720 / 1,320,800}}
+| damage = {{dv|100|160|192|210}}
+| defense = 0
+| knockback = 100
+| type = Boss
+| type2 = Burrowing Enemy
+| hardmode = yes
+| postml = yes
+}}
+}}
+
+== Behavior ==
+*It will begin to [[rain]] when summoned into battle, and much like other bosses who have a similar effect, it will not occur during the [[Boss Rush]] event. 
+*Storm Weaver has {{dv|31|41|51|61}} segments in total.
+*The Storm Weaver does not enrage if the player leaves the Space layer, and can be fought anywhere once summoned.
+
+=== Attacks ===
+==== Phase 1 ====
+*Storm Weaver behaves like an airborne worm enemy, slowly following players and attempting to ram them for damage.
+*The Storm Weaver's body and head are nearly immune to all damage; the only way to deal significant damage is to hit its tail, which has 0 defense.
+**Damage dealt against the tail is multiplied by 10.
+**The tail will glow brightly to let players know that it's the boss' weak point.
+*The body will reduce the piercing power of all projectiles to 1.
+*Throughout the entire fight, periodically summons orbs that fire bolts of lightning at nearby players. Lightning will flash in the background before lightning bolts are fired.
+
+==== Phase 2 ====
+*Transitions to Phase 2 at 80% HP.
+*The Storm Weaver will shed its armor and reveal the flesh underneath; it will have no defense whatsoever in this phase, but compensates with higher speed and increased damage.
+*The body reduces the damage of piercing projectiles; the more the projectile can pierce, the less damage it will do.
+*At 5% HP, significantly slows down and loses all lightning attacks.
+
+=== In [[Revengeance Mode]] ===
+*Storm Weaver moves faster.
+*Lightning inflicts [[Electrified]].
+*Periodically turns a dark blue color, which gradually turns into a lighter shade. Then Storm Weaver charges directly at the player, summoning lightning from above as it does so.
+**The lightning will be shot from the direction Storm Weaver is charging from.
+*Charges more often as its health decreases.
+
+=== In [[Death Mode]] ===
+*Has more segments and is physically larger. 
+*Damage dealt against the tail in phase 1 is multiplied by 3 instead of 10.
+*Charges more frequently.
+
+== Resistances ==
+*All Phase 2 Storm Weaver segments take reduced damage from non-[[Minions|minion]] piercing projectiles. Projectile damage is divided by the number of times it pierces and infinite piercing deals 50% damage.
+*All segments reduce damage from grenade-type projectiles by 80%. A list of affected projectiles is below.
+
+{{ajax|List of resisted grenades|head=Resisted grenades|width=15%}}
+
+*On top of this, all segments take:
+**75% damage from the [[Molten Amputator]] and its Molten Globs.
+***In addition, the Molten Amputator's pierce is updated to 6 (9 if stealth strike) if it contacts a segment.
+**50% damage from the [[Pristine Annihilation]], [[Elemental Axe]] and [[Dazzling Stabber Staff]].
+**40% damage from the [[Wave Pounder]]'s explosions.
+
+== Notes ==
+*Storm Weaver's health does not change in Revengeance Mode. It is the only boss aside from [[King Slime]] where this is the case.
+*Storm Weaver has the highest health out of all of the Mechanical Bosses.
+*In Phase 1, Storm Weaver does not have [[Damage Reduction]] like other bosses, instead, its head reduces any damage taken to 0, and its body reduces any damage taken to 1.
+*In Storm Weaver's second phase, it is possible to have it endlessly circle the player due to its more restrained turning pattern. However, it is ill advised to do this as it doesn't stop Storm Weaver from summoning lightning and hitting the player.
+**This only works in normal mode.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating Storm Weaver, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Storm Weaver strategies]].}}
+*Stay on the ground and don't panic if you're almost dead. Panicking will often lead to you trying to outrun the Weaver, which is not possible.
+*Mobility is the key to this battle. Although it's hard to outrun the Weaver, using dash abilities or the [[Rod of Discord]] or [[Normality Relocator]] can save you from the massive damage caused by its head.
+*[[Gravity Normalizer Potion]]s can be used to counteract the low gravity in Space allowing easier maneuverability.
+*For the first form use piercing weapons and weapons with a large blast radius, as these can help hit the tail of the Weaver. You can easily out-maneuver the first phase with [[Seraph Tracers]] by circling around the Storm Weaver while being in space. This method also helps dodge the Weaver's summons and fired laser beams.
+*The orbs that Storm Weaver fires do not deal contact damage, only the lightning bolts themselves.
+*Homing weapons are recommended for Phase 1 as they can easily hit the tail.
+*The [[Elemental Shiv]] is recommended for this fight due to the homing capabilities and the amount of projectiles it produces.
+*The [[Telluric Glare]] does good damage to Phase 2 with its piercing and ignoring [[immunity frames]].
+*[[Nuclear Fury]] is an excellent choice with homing capabilities allowing it to easily hit the tail in Phase 1 and swarm weaver with typhoons in Phase 2.
+*The [[Shattered Sun]] does good in Phase 1 as it homes in on the tail, but [[Molten Amputator]]s excel in Phase 2.
+*[[Elemental Axe]]s are an excellent choice quickly dispatching the Storm Weaver.
+*While the Storm Weaver can be fought before any other post-Moon Lord boss, it is recommended to fight it after [[Providence]] is defeated, as its fast speed and high damage can make the fight very challenging.
+
+== Trivia ==
+*Storm Weaver's [[Music|theme]] is a segment from [https://www.youtube.com/watch?v=dt30jWRMjLk '''Servants of the Scourge'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**This theme contains a motif from The Devourer of Gods' theme.
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' will play instead.
+*According to the [[lore]], [[The Devourer of Gods]] is the same species as the Storm Weaver, meaning that it likely has the same type of flesh underneath its armor.
+*The Storm Weaver, along with [[Ceaseless Void]] and [[Signus]], can be summoned right after the Moon Lord is defeated, as their summoning item only requires Solar Fragments, Luminite Bars, and [[Unholy Essence]]s.
+*Prior to the [[1.4.5.004]] update, the Storm Weaver used to spawn [[Stasis Probe]]s when hurt, similar to [[The Destroyer]]'s spawning [[Probe]]s.
+*Internally, Storm Weaver is referred to as StormFemboy, a common joke among the community. Prior to this, it was called SormWaver.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "Storm Weaver hid itself once again within the stormfront."
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| defense = 4
+| tooltip = You will freeze enemies near you when you are struck<br/>You are immune to the chilled debuff
+| sell = {{value|0|2|40}}
+| rare = 4
+| stack = 1
+| debuff = Glacial State
+| debuffchance = 100%
+| debufftip = Cannot move and defense is shattered
+| debuffduration = 3-4 seconds
+}}
+|{{item drops infobox
+| [[Ice Clasper]]|1|10%
+}}
+}}
+
+The '''Frost Barrier''' is a [[Pre-Hardmode]] [[covering]] that can be purchased from the [[Traveling Merchant]] during a [[Moon phase|Full Moon]] or can be obtained from [[Ice Clasper]]s. It is used to create the [[Auric Tesla Body Armor]].
+
+Being hit while wearing the Barrier will briefly debuff all nearby enemies with [[Glacial State]], completely stopping them from moving. Both the range and duration of the Glacial State debuff are based on the damage the player took when the effect activated.
+
+It also grants immunity to the [[Chilled]] debuff.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*If players are having trouble finding one, wait for the [[Traveling Merchant]] to arrive and use a [[Cosmolight]] to make it a full moon. The merchant will remain at your house and his items will update to the full moon, allowing players to easily obtain the Frost Barrier.
+*If used with knockback immunity, it can potentially trap enemies in the player, killing them very quickly.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

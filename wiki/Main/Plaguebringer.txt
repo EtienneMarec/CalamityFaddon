@@ -1,0 +1,60 @@
+{{npc infobox
+| type = Enemy
+| environment = Jungle
+| ai = Plaguebringer AI
+| damage = {{dv|70|140}} (Contact)<br/>{{dv|104|208}} (Stinger)<br/>{{dv|144|288}} (Missile)
+| life = {{dv|3,000|6,000}}
+| defense = 24
+| dr = 20%
+| money = {{value|0|1|50}}
+| knockback = 100
+| immune1 = Confused
+| immune2 = Plague
+| immune3 = Poisoned
+| immune4 = Venom
+| vulnerable1 = Fire
+| vulnerable2 = Water
+| resistant1 = Poison
+| resistant2 = Slash
+| resistant3 = Dark
+| resistant4 = Machine
+| debuff = Plague
+| debuffchance = 100%
+| duration = 2 seconds (Contact)<br/>5 seconds (Plague rocket)<br/>4 seconds (Stinger explosion)<br/>
+| debufftip = You are rotting from the inside
+| Plague Cell Canister|8-12| 100%
+| Plagued Fuel Pack|1| 10%
+| Plague Caller|1| 2%
+| hardmode = yes
+| banner = yes
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = Roar_0.wav
+| soundtext = Charge
+| sound2 = Item_42.wav
+| sound2text = Shooting
+| sound3 = NPC_Hit_8.wav
+| sound3text = Spawning Plague Chargers
+}}
+{{distinguish|The Plaguebringer Goliath|a related [[boss]]}}
+
+The '''Plaguebringer''' (Japanese: 疫病をもたらす者 ''Ekibyō o motarasu mono'') is a powerful [[Hardmode]] [[mini boss]] that spawns uncommonly in the [[Jungle]] after the [[Golem]] has been defeated. Behaving similarly to [[Queen Bee]], it alternates between charging at the player horizontally and hovering above them while firing projectiles and spawning [[Plague Charger]]s. When firing projectiles, it has a 6.66% chance to fire a plague rocket instead of an exploding stinger. The Plaguebringer Goliath summons several Plaguebringers as her health decreases.
+
+If a Plaguebringer fights while in honey for 5 seconds in a row, it will become “neutralized” and stop attacking. It will hover near the player while invulnerable for a few seconds, then fly away after dropping its loot.
+
+== Notes ==
+*It can often take unsuspecting players by surprise, due to its ability to fly through walls.
+*The Plaguebringer can be forewarned by its generic Boss Roar effect and a [[Boss Health Bar|Boss health bar]] appearing.
+*Fighting a Plaguebringer or even the Plaguebringer Goliath in a Bee Hive will make the fights immensely easier.
+
+== Trivia ==
+*The Plaguebringer uses a slightly edited version of The Plaguebringer Goliath's previous sprite.
+*The Plaguebringer was formerly known as "Plaguebringer Shade", and is still referred to in the mod's files.
+**This was due to the fact that The Plaguebringer Goliath used to spawn a duplicate of herself, referred to as a "Shade", which used a separate sprite.
+**She now summons multiple Plaguebringers instead.
+*In the Japanese translation, the name is "疫病をもたらす者 ''Ekibyō o motarasu mono''"
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

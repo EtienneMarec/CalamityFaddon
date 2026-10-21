@@ -1,0 +1,30 @@
+{{item infobox
+| type = Crafting material
+| tooltip = Mmm... a delicacy, to be sure!<br/>Best served cold
+| stack = 9999
+| rare = 1
+| sell = {{value|0|0|0|32}}
+}}
+{{item drops infobox
+| [[Zombie]] | 1-2 | 25%
+| [[Boar Cat]] | 1 | 100%
+| [[Eater of Worlds]] | 2-5 | 100%
+| [[Party Girl]] | 30 | 100%
+| [[The Dragonfolly]] | 236-650 |55%
+}}
+'''Disgusting Meat''' is a Pre-[[Hardmode]] crafting material. It is primarily obtained by killing [[Zombie]]s, but can also be obtained from [[bosses]] like the [[Eater of Worlds]], the [[Dragonfolly]], and [[Boar Cat]], along with the [[Party Girl]] NPC.
+
+It is used to craft all the various [[Tainted Potions]], as well as just being a general nuisance to obtain.
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+==Trivia==
+*The original crafting recipe was going to be while standing in '''Tar''' instead of a bottle, but tModLoader is famously bad at handling things like modded [[tgc:Liquids|liquids]].
+*If eaten alongside any other [[Potions]], the player will puke. It is, however, only a visual effect and has no impact on gameplay.
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion=yes
+}}

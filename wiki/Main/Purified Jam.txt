@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox
+| type = Potion
+| use = 17
+| stack = 9999
+| tooltip = Makes you immune to all damage and most debuffs for {{dv|10|||5|5}} seconds<br/>Causes potion sickness when consumed<br/>Cannot be consumed while potion sickness is active
+| consumable = yes
+| rare = 3
+| buff = Invincible  | bufflink = no
+| duration = 10 second / {{death|5 seconds}} / {{malice|5 seconds}}
+| bufftip = Immune to damage and most debuffs
+|sell={{value|0|0|40|0}}
+}}
+|{{item drops infobox
+| [[The Slime God]] (Once per character, per world)| 6-8 | 100%
+}}
+}}
+{{distinguish|Purified Gel|a [[crafting material]] dropped by [[The Slime God]]}}
+{{dablink|"Invincible" redirects here. For the period of invincibility after getting hit, see [[immunity frames]].}}
+
+'''Purified Jam''' is a [[Pre-Hardmode]] [[Buff Potions|buff potion]] dropped by [[The Slime God]]. It grants the user the '''Invincible''' [[buff]] when consumed, which grants them full invincibility to all damage and most debuffs for a short amount of time, but also inflicts the [[Potion Sickness]] [[debuff]] for 30 seconds. 
+
+== Notes ==
+*A character '''AND''' a world will only yield one drop of Purified Jam, which means the player must create '''both''' a new character and a new world in order to receive more from [[The Slime God]].
+*Certain situations bypass the effects of the Invincible buff:
+**The instant-death effect from the [[Armageddon]] item bypasses Invincible.
+**Wielding the [[Coldheart Icicle]] will bypass the effect as well.
+*If the player has the [[Philosopher's Stone]] or its upgrades, the Potion Sickness duration is reduced to 25 seconds.
+*The immunities provided are shared with the [[Margarita]], and are as follows:
+{{collapse top|Purified Jam debuff immunities}}
+{{:Immunity item debuffs}}
+{{collapse bottom}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-buff = yes
+}}

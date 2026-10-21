@@ -1,0 +1,38 @@
+{{npc infobox
+| type = Slime
+| environment = Acid Rain
+| ai = Slime AI
+| damage = {{element|Poison}} {{dv|42|84}}
+| life = {{dv|220|440}}
+| defense = 5
+| debuff = Irradiated
+| debuffchance = 100%
+| duration = 3 seconds
+| debufftip = Your skin is burning off
+| knockback = 100
+| banner = yes
+| money = {{sc|5}}
+| Lead Core|1| 3.33%
+| hardmode = yes
+| immune1 = Kami Flu
+| immune2 = Irradiated
+| immune3 = Sulphuric Poisoning
+| immune4 = Poisoned
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Cold
+| vulnerable2 = Slash
+| vulnerable3 = Fire
+| resistant1 = Poison
+}}
+
+The '''Irradiated Slime''' is a [[Hardmode]] [[slime]] that only spawns during Tier 2 of the [[Acid Rain]] [[event]]. Rather than spawning like normal NPCs, they gradually fall from the sky while the event is ongoing, and can fall through platforms while doing so until they are at a similar height to the player. It has a very low chance to drop the [[Lead Core]] upon death, which provides immunity to the [[Irradiated]] [[debuff]] and is used in the crafting of [[Silva armor]].
+
+== Notes ==
+*Irradiated Slimes' unique method of spawning is unaffected by things that affect NPC spawn rates, such as [[Water Candle]]s, [[Battle Potion]]s, and [[Calming Potion]]s.
+*The Irradiated Slime will be replaced by the [[Gamma Slime]] after [[Polterghast]] has been defeated, making them impossible to encounter in that world after its defeat.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-event = yes
+}}

@@ -1,0 +1,58 @@
+{{item infobox
+| type = Covering
+| tooltip = Weapons fire unique projectiles based on the damage type they have<br/>Some weapons are unable to receive this bonus
+| sell = {{value|0|0|80}}
+| element1 = Stab
+| element2 = Holy
+| rare = 3
+| stack = 1
+}}
+{{summoned|Green Sign (minion)|type=minion}}
+
+'''Luxor's Gift''' is a [[Pre-Hardmode]] [[covering]] found in the Underground Desert [[shrine]]. When equipped, most weapons when fired will release one of five projectiles that change based on the weapon's damage type.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Projectile Types ==
+{| class="terraria lined"
+! Type !! Description
+|-
+| {{item|Red Orb|nolink=y|Melee}} || Red orbs that ricochet off blocks and dissipate after 5 seconds and deal 25% of normal damage.
+|-
+| {{item|Blue Lightning Bolt|nolink=y|Ranged}}|| Blue lightning bolts that hit twice but deal 15% of normal damage.
+|-
+| {{item|Orange Pendant|nolink=y|Magic}} || Orange pendants that pierce once and slow down dramatically. They deal 30% of normal damage.
+|-
+| {{item|Green Sign (minion)|nolink=y|Summoner}} || A green hieroglyph summon which dashes into enemies. Damage dealt is shared with the initial weapon used to summon it.
+|-
+| {{item|Purple Scorpion|nolink=y|[[Spy]]}} || Purple scorpions affected by gravity which bounce and deal 20% of normal damage.
+|}
+
+== Notes ==
+*Most [[True melee]] weapons are not affected as well as various vanilla weapons such as the [[Minishark]].
+*The projectiles deal less damage when used with weapons with a use time less than 10.
+**The damage decreases by 10% for each point of use time below 10, i.e. a use time of 4 would deal 60% less damage.
+*All weapons labeled as '''Throwing''' are not affected by this covering.
+*The projectiles' fire rate scales with the fire rate of the used weapon.
+**Because of this, it is recommended to use this covering with weapons with high fire rates.
+*The projectiles' velocity scales with the velocity of the used weapon.
+*Only one green sign can be active at a time.
+**Unlike most minions, the green sign does not have an associated [[buff]].
+*[[Yoyo]]s and [[flail]]s fire projectiles only on the first swing, rather than continuously.
+*Novelty weapons such as the [[Confetti Gun]] will still trigger their respective symbols, despite not traditionally being considered weapons.
+
+== Trivia ==
+*This covering is a reference to the video game ''[[wikipedia:Luxor (video game)|Luxor]]'', in which the player aims to break chains of colored balls before they reach a certain endpoint. The game is in turn a reference to the Egyptian city of [[wikipedia:Luxor|Luxor]].
+**The item appearing in the Underground Desert is also a reference to the game's ancient Egyptian style and the city it is named after.
+*The green summon sign is the [[wikipedia:Egyptian hieroglyphs|egyptian hieroglyph]] for "Feather" or "E".
+*The orange magic pendant bears similarities to the egyptian hieroglyph known as the [[wikipedia:Ankh|Ankh]], which symbolizes life.
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

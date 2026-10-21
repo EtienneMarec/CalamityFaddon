@@ -1,0 +1,83 @@
+{{dedicated|Prism|Patreon Donator}}
+{{item infobox
+| type = Armor
+| defense = 72
+| rare = 12
+| sell = {{value|0|72}} (set)
+| proj = Reaver Rocket.gif
+| projcaption = Homing Rocket
+| setbonus = +40 max mana and 15% reduced mana cost<br/>Increased mana regeneration rate<br/>Press {{key|Armor Set Bonus}} to unleash a barrage of death lasers at the cursor for the next 5 seconds<br/>This has a 30 second cooldown
+| debuff = Prismatic Cooldown | debufflink = no
+| debuffchance = 100%
+| debuffduration = 30 seconds (After usage)
+| debufftip = Your laser attack is recharging
+| debuff2 = On Fire!
+| debuffchance2 = 100%
+| debuffduration2 = 10 seconds (Death lasers)
+| debufftip2 = Slowly losing life
+| debuff3 = Frostburn
+| debuffchance3 = 100%
+| debuffduration3 = 10 seconds (Death lasers)
+| debufftip3 = It's either really hot or really cold. Either way it REALLY hurts
+| hardmode = yes
+| postml = yes
+}}
+
+'''Prismatic armor''' is a craftable Godseeker Mode [[Covering]] set. It requires 9 [[Armored Shell]]s, 15 [[Exodium Cluster]]s, 18 [[Divine Geode]]s, and 900 [[Nanites]] to craft the entire set. If the entire set is visible (regardless of whether it is equipped or in social slots), the wearer will have a faint pulsing aura.
+
+It consists of a '''Prismatic Helmet''', '''Prismatic Regalia''', and '''Prismatic Greaves'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*72 defense
+*60% decreased non-magic damage
+*40% increased magic damage
+*39% increased magic critical strike chance
+*+20 max life and +80 max mana
+*15% decreased mana usage
+*Increased mana regeneration by 9
+*2% increased jump speed 
+*10% increased flight time
+*While no [[bosses]] are alive, any enemy with less than 500 max health deals no contact damage to the player.
+*Magic attacks have a chance to fire a pair of homing explosive rockets which explode for 80% of the projectile's damage and are softcapped at 200 damage.
+*Pressing {{key|Armor Set Bonus}} will cause lasers to rain down at the cursor for 5 seconds. The lasers behave identically to the [[Deathhail Staff]], dealing 30 magic damage along with inflicting the [[On Fire!]] and [[Frostburn]] [[debuffs]]. It has a 30-second cooldown after its usage.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Prismatic Helmet
+| type = Armor
+| defense = 18
+| body slot = Helmet
+| tooltip = 18% increased magic damage and 12% increased magic crit<br/>20% decreased non-magic damage<br/>Enemies with less than 500 health deal no damage<br/>This does not occur while a boss is alive
+| sell = {{value|0|24}}
+}}
+|{{item infobox
+| name = Prismatic Regalia
+| type = Armor
+| defense = 33
+| body slot = Shirt
+| tooltip = 12% increased magic damage and 15% increased magic crit<br/>20% decreased non-magic damage<br/>+20 max life and +40 max mana<br/>Magic attacks occasionally fire a pair of homing rockets
+| sell = {{value|0|24}}
+}}
+|{{item infobox
+| name = Prismatic Greaves
+| type = Armor
+| defense = 21
+| body slot = Pants
+| tooltip = 10% increased magic damage and 12% increased magic crit<br/>20% decreased non-magic damage<br/>10% increased flight time and 2% increased jump speed
+| sell = {{value|0|24}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=Prismatic Helmet/Prismatic Regalia/Prismatic Greaves}}
+
+=== Used in  ===
+{{recipes|ingredient=Prismatic Greaves}}
+
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

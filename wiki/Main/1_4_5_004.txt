@@ -1,0 +1,454 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Rebalancing and Fixes
+| pair = 1.4.5.003 (music)
+| release = 11/4/2020
+}}
+The '''1.4.5.004''' (or '''1.4.5.4''') update included many AI and balance changes, along with fixes to several major bugs.
+
+{{toc limit|3|right=yes}}
+== Additions ==
+*Added a [[Sulphurous Sea]] [[Cactus]] variant.
+
+== Changes ==
+=== Bosses ===
+==== [[Anahita and Leviathan]] ====
+*No longer become invincible and instead enrage when leaving the [[Ocean]].
+*Decreased the maximum amount of [[Parasea]]s that the Leviathan spawns from 2 to 1 when not enraged and from 4 to 3 when enraged.
+
+==== [[Aquatic Scourge]] ====
+*No longer despawns and instead enrages when leaving the [[Sulphurous Sea]].
+*Sulphur clouds no longer have increased duration in Death Mode.
+
+==== [[Astrum Aureus]] ====
+*Nerfed Astrum Aureus health from {{dv|96,000|153,600|195,200}} to {{dv|84,000|134,400|171,200}}.
+*Nerfed Post-Moon Lord health from {{revengeance|704,000}} to {{revengeance|624,000}}.
+*Nerfed Boss Rush health from {{dv|8,400,000|13,440,000|13,440,000}} to {{dv|7,400,000|11,840,000|11,840,000}}.
+*Adjusted [[Aureus Spawn]] stats:
+**Buffed health from 1008 to 3000.
+**Buffed Boss Rush health from 1002 to 30,000.
+**Buffed defense from 0 to 10.
+**No longer has 99.9999% damage reduction.
+*Now less aggressive in [[Death Mode]], and the spread and amount of its lasers have been reduced.
+*Now enrages during the day.
+
+==== [[Astrum Deus]] ====
+*All worms now accelerate much faster and have a higher top speed if the player is far away.
+*Now enrages during the day.
+*No longer takes reduced damage from the [[Forbidden Sun]]'s explosions.
+
+==== [[Brain of Cthulhu]] ====
+*No longer despawns outside of the Crimson but instead enrages in [[Revengeance Mode]].
+*Now more aggressive when fought in the [[Underground]] [[Crimson]] in Revengeance Mode.
+*Now transitions to phase 4 at {{revengeance|55%}} health instead of {{revengeance|50%}} and phase 5 at {{revengeance|40%}} health instead of {{revengeance|30%}}.
+*Nerfed [[Creeper]]s' speed in Revengeance Mode.
+
+==== [[Brimstone Elemental]] ====
+*Now enrages when leaving the [[Brimstone Crag]].
+*Her and her projectiles are now significantly slower and inflict [[Brimstone Flames]] instead of [[Abyssal Flames]].
+*The laser now shoots rows of darts perpendicular to it.
+*Now inflicts Brimstone Flames for 3 seconds on contact.
+*Hellfireballs and their explosions now only inflict Brimstone Flames for 4 seconds instead of 10 and 6 respectively.
+*Nerfed [[Brimling]]'s health pre-Providence from 4000 to 2000.
+
+==== [[Calamitas]] ====
+*No longer despawns and instead enrages when fought during the day.
+*Brimstone Lasers now only inflict Brimstone Flames for 2 seconds.
+*Hellfireballs and their explosions now only inflict Brimstone Flames for 4 seconds instead of 10 and 6 respectively.
+*[[Catastrophe]]'s fireballs now inflict Brimstone Flames for 2 seconds instead of 3.
+*Brothers move faster if they are still alive after Calamitas is defeated; they move slightly slower otherwise, to compensate.
+
+==== [[Ceaseless Void]] ====
+*Dark Energies now spread out further apart from each other.
+*Decreased [[Distorted]] duration from Dark Energies from 1 second to 0.33.
+
+==== [[Crabulon]] ====
+*Now enrages when fought on the [[Surface]] or outside of the [[Glowing Mushroom biome]].
+*Now always launches 2 Crab Shrooms in Normal Mode instead of randomly launching 1 or 2.
+
+==== [[Cryogen]] ====
+*Can now always be seen during its last phase and its projectiles are now blue during the day.
+*Now enrages when outside of the [[Snow biome]].
+*No longer transitions between phases 1-5 at different healths in each difficulty mode. Instead it transitions to phases 2, 3, 4 and 5 at 85%, 70%, 55% and 40% health respectively.
+*Updated the health thresholds for transitioning to final phase(s):
+**Phase 6 now begins at {{dv|15%|20%|25%|30%}} health, instead of {{dv|15%||27%|40%}}.
+**Phase 7 now begins at {{dv|||10%|15%}} health, instead of {{dv|||15%|25%}}.
+**The first increase to rotation speed now happens at {{dv|5%||7.5%}} health instead of {{dv|10%||22.5%}}.
+**The second increase to rotation speed now happens at {{dv|2.5%||5%|30%}} health instead of {{dv|5%||20%|40%}}.
+
+==== [[Desert Scourge]] ====
+*No longer becomes invincible and instead enrages when leaving the [[Desert]].
+
+==== [[The Destroyer]] ====
+*Segment lights now glow purple while it's flying in Revengeance Mode.
+*Now accelerates much faster and has a higher top speed if the player is far away.
+*No longer despawns and instead enrages when fought during the day in Revengeance Mode.
+*Reduced lasers' maximum speed from 18 to 14.
+
+==== [[The Devourer of Gods]] ====
+*Can now charge directly at the player during phase 1.
+*Can no longer teleport immediately after laser walls have been spawned and will now teleport 3 seconds after in all world difficulties.
+*Top speed has been decreased by 15% in phase 2 on all world difficulties. However, it now accelerates much faster and has a higher top speed if the player is far away.
+*[[Cosmic Guardian]]s now accelerate much faster and have a higher top speed if the player is far away.
+*The Devourer of Gods now has an npcSlot check prior to being summoned. If the check fails, The Devourer of Gods cannot spawn. <!--Reason for change: Players who use several content mods will often spawn in a DoG that doesn't have the slots it needs to be properly fought. NOTE: A special log error is made if it procs, so we'll know what the issue is straight away.-->
+
+==== [[The Dragonfolly]] ====
+*Now has a slightly longer delay before dashing.
+
+==== [[Duke Fishron]] ====
+*Now gains new charging patterns as its health decreases during phase 3 in Revengeance Mode. Duke Fishron will also now continuously charge at the player when its health is below 20% in Revengeance Mode.
+*Now transitions to phase 2 at {{revengeance|70%}} health instead of {{revengeance|66%}} and phase 3 at {{revengeance|40%}} instead of {{dv|||20%|33%}}.
+
+==== [[Eater of Worlds]] ====
+*No longer despawns outside of the Corruption but instead enrages in Revengeance Mode.
+*Now more aggressive when fought in the Underground [[Corruption]] in Revengeance Mode.
+*Now smaller in Death Mode.
+
+==== [[Eye of Cthulhu]] ====
+*No longer despawns and instead enrages when fought during the day.
+
+==== [[Golem]] ====
+*Nerfed Revengeance Mode body health from {{revengeance|54,000}} to {{revengeance|47,250}}.
+*Buffed phase 2 head health from {{revengeance|20,625}} to {{revengeance|28,050}}.
+*Body, Fists and Head no longer inflict [[Broken Armor]] in Revengeance Mode.
+
+==== [[The Hive Mind]] ====
+*Now enrages outside of the Corruption. 
+*Now less aggressive when fought in the Underground Corruption.
+*Hive Blobs will now despawn and no longer spawn in phase 2.
+
+==== [[King Slime]] ====
+*[[Crown Jewel (enemy)|Crown Jewel]] now fires a spread of 3 projectiles in Death Mode.
+
+==== [[Moon Lord]] ====
+*Phantasmal Eye projectiles are now less aggressive in Revengeance Mode at the start of the fight and become more aggressive as Moon Lord's health decreases.
+
+==== [[The Old Duke]] ====
+*Now spends less time preparing to dash during phase 3 and now dashes more aggressively while enraged instead of becoming invulnerable.
+*Significantly decreased pre-charge velocity and acceleration.
+*Reduced resistance to Crescent Moon's flail from 80% to 45%.
+*Sulphur clouds no longer have increased duration in Death Mode.
+
+==== [[The Perforators]] ====
+*[[The Perforator Hive]] now fires its projectiles less often while a Perforator worm is alive.
+*Now enrage outside of the Crimson.
+*Now less aggressive in the Underground Crimson.
+*The Perforator worms now move slower but gain speed as their health decreases.
+*Nerfed the medium Perforator worm's total health from {{dv|2000|3906|4912|5526}} to {{dv|1600|3122|4016|4518}}. Nerfed individual segment health from {{dv|200|279|307}} to {{dv|160|223|251}}. <!--Reason for change: WAY too bulky for a boss summon in pre-hm.-->
+*The large Perforator worm will now lunge at the player less often in all world difficulties.
+
+==== [[The Plaguebringer Goliath]] ====
+*Can no longer spawn [[Plaguebringer]]s, and is now less aggressive in Death Mode.
+*The Plaguebringer Goliath's Plague Mines now glow.
+*Enrage has been adjusted to make the fight fairer and now only enrages outside of the [[Jungle]].
+
+==== [[Plantera]] ====
+*Spore clouds in Revengeance Mode now glow and now constantly travel at a small speed to hinder the player.
+*The number of tentacle hooks that can be summoned at once has been capped in both phases in Revengeance Mode.
+*No longer gains a defense boost per tentacle alive in Revengeance Mode.
+
+==== [[Polterghast]] ====
+*Clone now turns invisible, except for a red glowmask for its heart and veins, to convey that it's not dealing contact damage while it lines up for a charge.
+
+==== [[Providence, the Profaned Goddess]] ====
+*Molten Globs now only last for 15 seconds on the ground instead of 20.
+*Holy Spears can no longer slightly home in on the player.
+*Death Mode no longer multiplies the rate at which holy spears are fired by 2.
+*Screen shader now gradually grow brighter when the player gets within 20 tiles of her Holy Inferno debuff distance. The screen shader is at max brightness while the player is too far away from Providence and will be inflicted with Holy Inferno.
+*Providence at nighttime now fires 4 lasers during her scissor laser attack.
+
+==== [[Queen Bee]] ====
+*Reduced enrage scale from 0.5 to 0.25.
+
+==== [[Ravager]] ====
+*Rock Pillars now break on contact with the player.
+*Flame Pillars now spawn further apart in phase 2.
+*Detached head now stays further away from the player in all difficulties to prevent cheap shots.
+
+==== [[Skeletron]] ====
+*Nerfed Skeletron Hand health in Death Mode from {{death|1170}} to {{death|1014}}.
+*Increased Chaos Balls fired when teleporting from {{dv|||2|4}} to {{dv|||3|5}}.
+
+==== [[Skeletron Prime]] ====
+*Nerfed Head health in Revengeance Mode from {{revengeance|60,900}} to {{revengeance|50,400}}.
+*Nerfed Head health when summoned by [[Draedon's Remote]] in Revengeance Mode from {{revengeance|79,800}} to {{revengeance|60,900}}.
+*Decreased rocket velocity.
+*Buffed defense boost for each limb alive from {{dv|||10|15}} to {{revengeance|20}}.
+*Prime Saw, Prime Vice and Head no longer inflict [[Bleeding]] in Revengeance Mode.
+
+==== [[The Slime God]] ====
+*Nerfed Core health from {{dv|4000|6400|8000}} to {{dv|2000|3200|4000}}.
+*Nerfed [[Distorted]]duration from the Core from 3 seconds to 2.
+*Buffed Crimulan Slime God health from {{dv|3500|5600|7712}} to {{dv|4150|6640|9120}}.
+*Buffed Ebonian Slime God health from {{dv|4000|6400|8800}} to {{dv|4650|7440|10,240}}.
+*Buffed Split Ebonian Slime God health from {{dv|1000|1600|2200}} to {{dv|1350|2160|2880}}.
+
+==== [[Supreme Calamitas]] ====
+*Brothers now move up and down slightly faster.
+**Additionally, the remaining brother now moves and attacks faster after one brother is defeated.
+*Can no longer trigger her “Go to Hell” anti-cheat during [[Boss Rush]].
+
+==== [[The Twins]] ====
+*No longer despawns and instead enrages when fought during the day in Revengeance Mode.
+
+==== [[Wall of Flesh]] ====
+*Now aims its lasers ahead of the player while it's enraged.
+
+=== Enemies ===
+*[[Cloud Elemental]] no longer has buffed stats after Providence, the Profaned Goddess has been defeated.
+*Nerfed [[Sand Tortoise]] damage from {{dv|110|220}} to {{dv|70|140}}.
+*[[Wulfrum Drone]] and [[Wulfrum Hovercraft]] will no longer immediately fly away from the player when spawned.
+
+=== Balance and Reworks ===
+*Decreased the damage buff of several post-Moon Lord enemies:
+**[[Dungeon]] enemy contact damage buff reduced from +150 to +90. Projectile damage buff reduced from +120 to +60.
+**[[Frost Moon]] contact damage buff reduced from +160 to +100. Projectile damage buff reduced from +140 to +70.
+**[[Pumpkin Moon]] contact damage buff reduced from +160 to +100. Projectile damage buff reduced from +140 to +70.
+**[[Solar Eclipse]] contact damage buff reduced from +210 to +150. Projectile damage buff reduced from +200 to +100.
+*Decreased the minimum damage thresholds for the [[Boss Rush]]:
+**Minimum contact damage threshold reduced from {{dv|300|500}} + stage*2 to {{dv|240|400}} + stage*2.
+**Minimum projectile damage threshold reduced from {{dv|125|150}} + stage/2 to {{dv|90|110}} + stage/2.
+*Decreased the post-Providence [[Brimstone Crag]] enemy stat boosts:
+{{collapse top}}
+*Nerfed [[Calamity Eye]]'s health from {{dv|5000|10,000}} to {{dv|3000|6000}}, damage from {{dv|227|454}} to {{dv|80|160}}, and defense from 101 to 20.
+*Nerfed [[Charred Slime]]'s health from {{dv|7500|15,000}} to {{dv|3500|7000}}, damage from {{dv|227|454}} to {{dv|80|160}}, and defense from 90 to 20.
+*Nerfed [[Cultist Assassin]]'s health from {{dv|5000|10,000}} to {{dv|3000|6000}}, damage from {{dv|250|500}} to {{dv|100|200}}, and defense from 130 to 40.
+*Nerfed [[Despair Stone]]'s health from {{dv|5000|10,000}} to {{dv|3000|6000}}, damage from {{dv|190|380}} to {{dv|80|160}}, and defense from 185 to 50.
+*Nerfed [[Scryllar]]'s health from {{dv|4000|8000}} to {{dv|2500|5000}}, damage from {{dv|260|520}} to {{dv|90|180}}, and defense from 90 to 30.
+*Nerfed Scryllar (rage)'s health from {{dv|2300|4600}} to {{dv|1500|3000}}, damage from {{dv|320|640}} to {{dv|110|220}}, and defense from 80 to 20.
+*Nerfed [[Soul Slurper]]'s health from {{dv|3000|6000}} to {{dv|2000|4000}}, damage from {{dv|170|340}} to {{dv|60|120}}, and defense from 200 to 45.
+{{collapse bottom}}
+*Brimstone Crag enemies no longer drop more money post-Providence.
+*All segmented enemies no longer resist [[Yoyo]] damage by 15%. 
+*Nerfed [[Aegis Blade]], explosion damage now decreases by 10% on each subsequent hit.
+*Nerfed [[Affliction]]'s damage boost from 12% to 10%.
+*[[Alchemical Flask]] and [[Plague Hive]] now remove the blindness effect caused by the [[Plague]] debuff while equipped.
+*[[The Amalgam]], [[Amalgamated Brain]], [[Rotten Brain]], [[Void of Calamity]], and [[Void of Extinction]]'s projectile rains are now on set timers and no longer spawn randomly.
+*The Amalgam, Amalgamated Brain, and Rotten Brain's projectiles no longer pierce enemies.
+*Nerfed Amalgamated Brain's damage boost from 12% to 10%.
+*Nerfed post-Cryogen [[Angry Dog]] damage from {{dv|84|168}} to {{dv|60|120}}.
+*Buffed [[Aorta]]'s yoyo range from 13.75 tiles to 16.25. Now additionally fires a blood projectile while the Yoyo is held out that deals 25% base damage.
+*Rebalanced [[Broken Biome Blade|Biome Blade]], nerfed damage from 70 to 38, its use time from 23 to 29, knockback from 6 to 5, and static debuff duration from 3 seconds to 1.5 (1.5 seconds to 0.75 for [[Glacial State]]). Its projectiles in the Jungle now inflict [[Venom]] instead of [[Plague]]. Decreased rarity from {{rare|4}} to {{rare|3}}. <!---Reason for change: Melee previously struggled a lot at Hive Mind tier, and Hardmode had a lot of options-->
+*Granted [[Bladecrest Oathsword]] [[autoswing]]. <!---Reason for change: It's a meme without it-->
+*Reworked [[Bloodflare Core]], no longer grants bonus damage, defense, and damage reduction based on player health. Now removes up to 50% of the player's defense each time they are hit and regenerates it shortly after. Each time the player regains a defense point, they are healed for 1 HP. <!--Reason for change: Attempted nerf at glass cannon builds that dominate the player meta. Turning this accessory into being more tank focused.-->
+*Buffed [[Brimlash]], split projectiles now home in much faster onto enemies.
+*[[Broken Water Filter]] effects are now togglable by favoriting/unfavoriting the item.
+*Buffed [[Cnidarian]]'s damage from 13 to 18, yoyo range from 11.875 tiles to 15, seashell projectile damage from 50% base damage to 75%, nerfed air time from 7 seconds to 3.5. The yoyo now moves and fires twice as fast.
+*Rebalanced [[Core of the Blood God]], removed old Bloodflare Core inherited effects. Now increases all damage and damage reduction by 8% at all times while equipped. <!--Reason for change: Attempted nerf at glass cannon builds that dominate the player meta.-->
+*Nerfed [[Corpus Avertor]]'s damage from 140 to 98. Nerfed damage bonus derived from missing player health from 20% to 10%. <!---Reason for change: Too strong for sustain, decimates Deus.-->
+*Nerfed [[Crescent Moon]]'s homing moon projectile damage from 40% base damage to 18%.
+*Cultist Assassin money drop increased from {{sc|2}} to {{sc|10}}.
+*[[Devourer]]s no longer split in Death Mode.
+*Buffed The Devourer of Gods [[lore item]], now decreases player's damage reduction by 5% instead of 10% while favorited.
+*Buffed [[Dimensional Soul Artifact]], now decreases the player's damage reduction by 15% instead of 25% while equipped.
+*Decreased [[Draedon's Remote]] health scaling for Skeletron Prime from 1.9x to 1.45x.
+*[[Eidolist]]s no longer gain a health boost in Death Mode.
+*Nerfed [[Energy Staff]]'s sentry fire rate by 33%.
+*Buffed [[Fault Line]]'s yoyo range from 18.125 tiles to 26.25.
+*Buffed [[Frequency Manipulator]], total charge consumed per-use has been decreased by 68% and prevented its charge up from being interrupted. <!--Reason for change: No one uses this to begin with, gimmick needs some help to not be a hindrance.-->
+*Buffed [[Galactus Blade]]'s damage from 110 to 135 and increased raining projectile velocity by 25%.
+*Buffed [[The God's Gambit]], yoyo now moves and fires twice as fast.
+*Nerfed [[Grand Guardian]], explosion damage now decreases by 20% on each subsequent hit.
+*Nerfed [[Heart of the Elements]]' damage boost from 8% to 5%. The player will still receive an additional 2% damage boost (+7% in total) while the Elemental minions are disabled.
+*Buffed [[Hydraulic Volt Crasher]], projectiles now benefit from [[true melee]] bonuses.
+*[[Lacerator]] no longer randomly grants 1 HP to the player upon hitting an enemy and now functions similarly to [[Bloodfire Bullet]]s, granting +2 life regeneration upon hitting an enemy, life regeneration resets after being hit by an enemy, or after 60 seconds.
+*Reworked [[Laudanum]], now provides net-positive effects while the player is affected with [[Blackout]], [[Broken Armor]], [[Chilled]], [[Confused]], [[Darkness]], [[Ichor (debuff)|Ichor]], [[Obstructed]], [[Slow]], and [[Weak]]. No longer provides net-positive effects while the player is affected by [[Horror]] due to its removal. <!--Reason for change: Horror is dead, needs a new purpose.-->
+*Nerfed [[Lion Heart]], explosion damage now decreases by 20% on each subsequent hit.
+*Buffed [[lul]], now provides immunity to all debuffs and immunity to Providence's Cocoon Stars and The Devourer of Gods' head in Death Mode.
+*Nerfed [[Luxor's Gift]]:
+**Nerfed melee Red Orb damage from 60% base damage to 40%.
+**Nerfed ranged Blue Lightning Bolt damage from 40% base damage to 27.5%.
+**Nerfed orange Magic Pendant damage from 80% base damage to 52.5%.
+**Nerfed purple Scorpion damage from 50% base damage to 35%.
+*The [[Marked]] debuff can no longer be inflicted by enemies. <!--Reason for change: Difficult to keep track of, was more of an annoyance than anything.
+Note for history project: A list of affected enemies can be found below.
+(INCOMPLETE)
+Ancient Doom
+Ancient Vision
+Angry Trapper
+Aquatic Aberration
+Aquatic Scourge (Head only)
+Aquatic Seeker (Head only)
+Blood Zombie
+Bobbit Worm
+Bone Lee
+Burning Sphere
+Butcher
+Cataclysm
+Catastrophe
+Colossal Squid
+Cosmic Lantern
+Creeper
+Cursed Skull
+Dank Creeper
+Dark Mummy
+Detonating Bubble
+Detonating Flame
+Devil Fish
+Duke Fishron
+Dungeon Spirit
+Eater of Worlds (Head only)
+Eidolon Wyrm (Juvenile & Adult) (Head & Body only)
+Enchanted Sword
+Flocko
+Giant Cursed Skull
+Giant Squid
+Golem Fists
+Gulper Eel
+The Hungry
+Man Eater
+Martian Drone
+Mauler
+Mimic
+Mummy
+Oarfish (Head only)
+Overloaded Soldier
+Phantom Debris
+Phantom Spirit
+The Plaguebringer Goliath
+Prime Saw
+Prime Vice
+Probe
+Psycho
+Pumpking (Blades)
+Queen Bee
+Reaper
+Reaper Shark
+Shadowflame Apparition
+Sharkron
+Slime God Core
+Skeletron Hand
+Snatcher
+Spazmatism
+Spore
+Vampire & Vampire Bat
+Viperfish
+Werewolf
+Wraith-->
+*Rebalanced [[The Microwave]], increased yoyo range from 19.5 tiles to 28.25, decreased aura damage from 50% base damage to 35%.
+*Buffed [[Murasama]]'s projectile size by 100%.
+*Nerfed [[Nebula armor]], [[Life Nebula]] buff can now be canceled out by [[Alcohol Poisoning]], [[Holy Inferno]], and [[Abyss]] breathless damage.
+*Buffed [[Oblivion]]'s yoyo range from 22.5 tiles to 25, and laser damage from 25% base damage to 50%. The yoyo now moves and fires twice as fast.
+*Nerfed [[True Biome Blade|Omega Biome Blade]], projectile range has been decreased.
+*Buffed [[Pandemic]]'s yoyo range from 21.25 tiles to 28.125. Seeker damage increased from 50% base damage to 75%. The yoyo now moves and fires twice as fast.
+*Nerfed [[Prideful Hunter's Planar Ripper]], explosion damage now decreases by 20% on each subsequent hit.
+*Buffed [[Quagmire]]'s yoyo range from 17.1875 tiles to 25.
+*Rebalanced [[Reaper Tooth Necklace]], nerfed damage boost from 25% to 12% and removed 50% defense and [[damage reduction]] penalties. <!--Reason for change: Attempted nerf at glass-cannon builds, current stats are subject to change in the future.-->
+*[[Relic of Resilience]] now has a 5 second cooldown before another Artifact of Resilience can be summoned after the previous one shatters. <!--Reason for change: Cheese prevention. This tool is broken with how effective it is at sponging damage.-->
+*Buffed [[Riptide]]'s yoyo range from 11.25 tiles to 13.75. Decreased air time from 7.5 seconds to 3.75. The yoyo now moves and fires twice as fast.
+*Rebalanced [[Samurai Badge]], no longer grants a static 20% melee damage boost and no longer reduces the player's health by 25% while equipped. Melee damage, melee speed, and true melee damage boosts are now dynamic and scale with how close the player is to an enemy, the maximum boost attainable is 30%. Still provides a 20% [[true melee]] damage boost.<!--Reason for change: This accessory prior to its rework was rarely used by anyone due to how severe its downsides were, it should now benefit the player more by rewarding players who deal get close to enemies to deal damage with their melee weapons.-->
+*Buffed [[Shimmerspark]]'s yoyo range from 17.1875 tiles to 21.875. Decreased air time from 16 seconds to 8. The yoyo now moves and fires twice as fast.
+*A few [[Silva armor]] set bonuses have been adjusted:
+**[[Silva Horned Helm]] set bonus now grants the player a 10% ranged damage boost once [[Silva Invulnerability]] has ended. This effect is permanent until the player dies.
+**[[Silva Horned Hood]] set bonus no longer grants the player +2 minion slots once Silva Invulnerability has ended.
+**Both of the above changes are inherited by the [[Auric Tesla armor]] set bonuses' corresponding headpiece.
+*Reworked [[Staff of the Mechworm]], now summons a mechworm that charges, fires lasers, and teleports onto enemies. Its damage can be further increased by summoning additional segments that require and occupy minion slots. <!--Reason for change: Mechworm is a buggy mess. This should help it stand out instead of being a Stardust Dragon ripoff.-->
+**This change is inherited by the [[God Slayer Horned Helm]] and [[Auric Tesla Space Helmet]]'s Mechworms.
+*Rebalanced [[Sulphurous Grabber]], increased yoyo range from 18.75 tiles to 21.875, decreased bubble projectile count from 9 to 7, increased bubble projectile damage from 20% base damage to 25%.
+*Buffed [[Terrarian]]'s damage from 190 to 380.
+*Buffed [[Time Bolt]], increased split projectile targeting distance from 25 tiles to 62.5.  <!--Reason for change: Pretty bad at its only purpose of being a mob shredder. Should be a bit more viable vs Old Duke now too.-->
+*Buffed [[Trinket of Chi]], decreased how much time the player needs to stand still from 2 seconds to 1.
+*Rebalanced [[Verdant]], increased yoyo range from 25 tiles to 35, and increased projectile fire rate by 25%. Nerfed damage from 128 to 110, but increased leaf projectile damage from 60% base damage to 80%. The yoyo now moves twice as fast.
+*Buffed Void of Calamity, now decreases player's damage reduction by 10% instead of 15% while equipped.
+*Worms that split in Death Mode no longer have the Expert doubled health in Death Mode.
+*Buffed [[Yharim's Insignia]]'s melee damage boost from 5% to 10%.
+*Buffed [[Yin-Yo]]'s yoyo range from 17.1875 tiles to 21.875. Light Shards now travel away from targets instead of downwards. Dark Shards now travel towards targets instead of to the right. Decreased air time from 14 seconds to 7. The yoyo now moves and fires twice as fast.
+*Buffed Yoyo [[Counterweights]], counterweight projectile velocity increased by 200% and now use custom immunity frames.
+
+=== Recipes ===
+*[[Astral Injection]] [[Blood Orb]] recipe yield has been doubled from 4 to 8.
+*[[Ball and Chain]] can now be crafted with [[Lead Bar]]s too.
+**It previously could not, due to an oversight.
+*Biome Blade no longer requires 20 [[Astral Monolith]] and 20 [[Pearlstone Block]]s, and is now crafted at a [[Iron Anvil]]. <!--Reason for change: Frees up early-HM melee bloat a bit.-->
+*Core of the Blood God no longer requires the Bloodflare Core to be crafted.
+*Reaper Tooth Necklace now requires a [[Shark Tooth Necklace]] and an [[Avenger Emblem]] to be crafted, and is now crafted at a Tinkerer's Workshop instead of a Mythril Anvil.
+*[[Seafood]] recipe now only requires 1 [[Shark Fin]] to craft instead of 3.
+*Yharim's Insignia no longer requires a [[Badge of Bravery]] to be crafted, and is now crafted with 5 [[Divine Geode]]s.
+*[[Zen Potion]]s now require 1 [[Daybloom]] and 2 Purified Gel instead of 3 [[Core of Eleum|Cores of Eleum]] to craft.
+**Its Blood Orb recipe now requires 2 Purified Gel instead of 1 Core of Eleum to craft.
+*[[Zerg Potion]]s now require 2 [[Blighted Gel]], 1 [[Murky Sludge]], and 2 [[Purified Gel]] instead of 3 [[Core of Chaos|Cores of Chaos]] and 2 Murky Sludge to craft.
+**Its [[Blood Orb]] recipe now requires 2 Purified Gel instead of 1 Core of Chaos to craft. <!--Reason for changes: Reverted due to being over a few months ago.-->
+
+=== Additional Changes ===
+*Removed the line "The boss enrages in the open air of the surface" from [[Abombination]]'s tooltip.
+*[[Abyssal Pots]] and [[Sulphurous Pots]] now have proper gores when broken and will now only drop one [[Abyssal Treasure]] / [[Sulphuric Treasure]].
+**Abyssal Treasure and Sulphuric Treasure now have increased loot to compensate for this change.
+*Breath meter loss in the [[Abyss]] now only starts when entering the second layer of the [[biome]], and instead uses the standard breath loss mechanic from vanilla Terraria. <!--Reason for change: Makes it easier for new players to access the early content of the abyss so it doesn't require a Wiki search.-->
+*The Astral Monolith schematic has been slightly altered to prevent issues during biome generation.
+*[[Astral Ore]], [[Auric Ore]], [[Charred Ore]], [[Cryonic Ore]], [[Exodium Cluster]], [[Perennial Ore]], [[Scoria Ore]], and [[Uelibloom Ore]] are now always immune to explosives, defeating certain bosses will no longer allow certain ores to destroyed with explosives.
+*Astrum Aureus now makes laser fire noises when stomping.
+*[[Bloodworm]]s now have an increased spawn rate after encountering The Old Duke for the first time.
+*A few changes have been made to Death Mode:
+**The player can no longer be affected by the [[Space]] or [[Underworld]] biome Death Mode effects if they are behind [[walls]].
+**Artificial darkness has been made easier to counter through light sources and potions. Artificial darkness is now disabled while any boss is alive. 
+**Amplified debuff damage modifier has been decreased from x2 to x1.5. <!--Reason for changes: Death Mode darkness is a hindrance with zero counter and makes boss fights in the Underground Jungle and Underworld a pain with it enabled.-->
+**[[Astral Infection]] haze has been significantly decreased.
+**Environmental effects now continue while a boss or event is active.
+*Dimensional Soul Artifact now specifies it increases all damage taken in its tooltip.
+*Nerfed [[Folly Feed]] mount's top horizontal speed from 94mph to 72mph and decreased mount acceleration from 20%/s to 13%/s.
+*Minimum damage taken in [[Iron Heart]] mode decreased from 60 + 10% of max health to 40 + 10% of max health. Minimum damage is no longer affected by damage reduction.
+*Increased the threshold for Iron Heart mode's special hurt sound from 60 + 10% of max health to 80 + 10% of max health.
+*[[Obsidian Skin Potion]]s now cause the player's lava immunity timer to regenerate much faster if they are not in lava.
+*A few changes have been made to Class [[Proficiency]]:
+**Class Proficiency gain rate cooldown is now decreased by 50% while a [[Level Meter]] is equipped.
+**Class Proficiency gain rate is now doubled while the player has another class proficiency level that is at a higher level.
+**Summoner Class Proficiency now grants an additional minion slot at levels 9 and 15 instead of 6, 10, and 15.
+*Added a flavor tooltip to the Reaper Tooth Necklace.
+*Several optimization changes were made with item glowmasks to reduce frame drops.
+*The [[Sulphurous Sea]] has been redesigned to generate more smoothly and make the transition between it and the Abyss cleaner.
+*Void of Calamity now specifies that it reduces player damage reduction in its tooltip.
+*[[Voodoo Demon]]s spawn more often in [[Pre-Hardmode]].
+
+=== Resprites ===
+*Resprited [[Acidwood]] Trees.
+*Resprited [[Fallen Paladin's Hammer]].
+*Resprited [[Dragon Scales]]' projectiles; [[Infernal Spear]]'s fireballs; [[Jungle Dragon, Yharon]]'s fireballs, flare bombs, flare dusts, flarenadoes, and infernadoes; all five [[Luxor's Gift]] projectiles; and [[The Wand]]'s infernado projectile.
+*Resprited [[Absolute Rage]].
+
+== Fixes ==
+*Fixed a visual error with the Acidwood Tree Sapling.
+*Fixed several visual errors with player weapon projectiles disappearing while afterimages are disabled.
+*Fixed a bug that caused [[Arsenal Labs]] to falsely generate, causing large boxes of air to be generated instead.
+*Removed an unneeded space from [[Blazing Core]]'s tooltip.
+*Fixed an inconsistent case of "%" being written as "percent" in the [[Blood Pact]]'s tooltip.
+*Fixed a bug that allowed the [[Bloodfin]], [[Hadal Stew]], and [[Margarita]] to be used while the player is inflicted with [[Potion Sickness]] through {{key|Quick Buff}}.
+*Fixed an issue that caused Calamitas to constantly respawn after being killed during Boss Rush.
+*Fixed an issue that caused The Destroyer to awkwardly idle on the ground during the first 10 seconds after spawning.
+*Fixed The Devourer of Gods' lasers being invisible for other players in multiplayer.
+*Fixed an oversight where Draedon's Arsenal rogue weapons were not properly classified into subclasses.
+*Fixed a damage calculation error with The Dragonfolly's lightning projectile.
+*Fixed an issue that caused [[Evil Island]]s to generate on top of [[Floating Island]]s.
+*Fixed several grammatical errors:
+**Fixed releases to '''release''' for the [[Frequency Manipulator]]'s tooltip.
+**Fixed a typo of its to '''it's''' for the [[Ice Barrage]]'s tooltip.
+**Fixed [[Matter Modulator]]'s mid-tooltip to "Fires a burst of unstable matter that does significant damage, '''but only''' after hitting a tile".
+**Fixed Capacitater to '''Capacitator''' for the [[Momentum Capacitor]]'s hotkey.
+*Fixed an issue that prevented Jungle Dragon, Yharon's homing flares from homing onto the player.
+*Fixed a bug that allowed [[Living Tree]]s to be spawned in the Sulphurous Sea.
+*Fixed an issue that prevented [[Lunatic Cultist]]'s clones from being visible.
+*Fixed [[Nanoblack Reaper]] and [[Phantasmal Ruin]] projectiles causing severe frame drops when they collide with enemy body segments.
+*Fixed a visual issue that caused the player to incorrectly hold out the [[Norfleet]] and [[Starfleet]].
+*Fixed The Old Duke desyncs and infinite spinning in multiplayer.
+*Fixed an issue that caused the [[Pearlwood Bow]]'s rainbow trails to deal magic damage instead of ranged damage.
+*Fixed a bug that prevented nighttime Providence, the Profaned Goddess from spawning the crystal rock.
+*Fixed a bug that prevented Providence, the Profaned Goddess from correctly executing her scissor laser attack.
+*Fixed a bug that caused [[Pumpkin]]s to spawn in the Sulphurous Sea.
+*Fixed an issue that caused the [[Pwnagehammer]] to overload and crash multiplayer servers.
+*Fixed a visual issue with the [[Rover Drive]] that caused the shield to be offset from the player.
+*Fixed an issue that prevented Skeletron Prime from releasing homing skulls while spinning in Death Mode.
+*Fixed a visual issue that caused [[Soul Seeker]]s to have displaced afterimages.
+*Fixed several tile conversion issues with the [[Star Struck Water]] and [[Clentaminator]] solutions.
+*Fixed an audio error that caused Supreme Soul Seeker sound effects to be incredibly loud in multiplayer.
+*Fixed a bug that caused [[Terra Arrow]]s to deal more damage than intended when fired diagonally.
+*Fixed [[Wulfrum Gyrator]]s desyncing in multiplayer.
+*Fixed a bug where the Zerg and Zen potion recipes were not affected by the [[Alchemy Table]]'s ingredient saving function.
+
+== Removals ==
+*Removed the Horror debuff. <!--Reason for removal: Never fun to play against. Note for history project: a list of affected NPCs can be found on the historical Horror page.-->
+*Removed [[Stasis Probe]], naked Stasis Probe.
+*Removed the <code>BuffThoriumBosses</code> [[configuration option]] and all support associated with it. <!--Reason for removal: Encourages content mod cross play that doesn't exist.-->
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

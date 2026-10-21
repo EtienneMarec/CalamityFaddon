@@ -1,0 +1,58 @@
+{{addon|Calamity: Community Remix}}
+{{dedicated|The Purified|Developer}}
+{{item infobox
+| type = Weapon
+| damage = 640
+| use = 45
+| mana = 65
+| damagetype = magic
+| knockback = 2
+| auto = yes
+| velocity = 20
+| stack = 1
+| rare = 16
+| sell = {{value|22|0|0|0}}
+| tooltip = Casts a burning magic to scorch {and purify} your enemies with<br/>{{Key|Open}} to unleash a holy Supernova<br/>{{color|'Submit yourself to me, I will make your passing painful but swift.'|#260313}}
+| debuff = Moon Burnt
+| debuffchance = 100%
+| debuffduration = 4 seconds
+| debufftip = Incinerated by lunar rays
+| debuff2 = Betsy's Curse
+| debuffchance2 = 100%
+| debuffduration2 = 10 seconds (Holy Nova Explosion)
+| debufftip2 = Defense is lowered
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Holy
+| element3 = Fire
+| element4 = Cold
+}}
+
+The '''Grand Purification''' is a craftable Epilogue [[Dedicated content|Developer]] [[Wands|Wand]]. It casts a fast blue fireball that explodes into a lingering explosion of flames. This explosion ignores half of the [[Immunity frames]] and its damage increases by 150% for every frames said explosion lasted for. It also inflicts the [[Moon Burnt]] Debuff.
+
+{{Key|Open}} with this weapon instead unleashes a holy supernova that flies slowly until touching either an enemy, a tile, or has lingered long enough. Upon expiry, it explodes into a gigantic explosion, damaging enemies caught in it. Said explosion ignores all NPC [[Immunity frames]], deals 500% of the weapon's damage, and multiplies by 2.5 per frames that the explosion lasted for. It also strips enemies of fire-based immunities, multiplies all fire-based debuff damage by 10x for 10 seconds, and makes them take 3 times more damage from all [[Fire (element)|Fire]] and [[Holy (element)|Holy]] elemental attacks for 15 seconds, regardless of their resistance. Additionally, after casting it, the player gains the ability to heal 50% their life after taking fatal damage for 1 minute, indicated by the halo that appears above the player.
+
+This ability has a cooldown of 2 minutes, in which during that time, {{Key|Open}} summons a light pillar at the cursor's position that damages enemies caught in them. These pillars deal 75% its weapons' damage.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon actually has a unique [[Rarity]] but is referred here as Hot Pink rarity for consistency between weapons.
+**This unique rarity alternates between Cerulean Frost ({{color|#6D9BC3 ●|#6D9BC3}}) and Kiwi ({{color|#8EE53F ●|#8EE53F}}) colors.
+*The weapon itself, along with the quote in its tooltip and its elements directly references [https://epicbattlefantasy.fandom.com/wiki/Natalia Natalia], a boss enemy from the [[wikipedia:Epic_Battle_Fantasy|Epic Battle Fantasy]] series (More specifically, Epic Battle Fantasy 5).
+**Said reference is made more blatant by the fact that it is identical to the [https://epicbattlefantasy.fandom.com/wiki/Sol_Spear Sol Spear] from that same series, barring the color, which is changed to match the dedicatee's profile picture.
+**Its alternate attack further reinforces this reference, being a combination of both the [https://epicbattlefantasy.fandom.com/wiki/Supernova Supernova] and [https://epicbattlefantasy.fandom.com/wiki/Genesis Genesis], both being Limit Breaks that Natalia (and by extension, [https://epicbattlefantasy.fandom.com/wiki/Natalie Natalie]) uses.
+{{shadowspec}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category: Wands]]

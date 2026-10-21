@@ -1,0 +1,28 @@
+{{dedicated|Popo|Developer}}
+{{item infobox
+| type = Covering
+| type2 = Vanity
+| imageequipped = [[File:Magic Scarf and Hat (equipped).png|Snowman transformation]] [[File:Magic Scarf and Hat (Noseless) (equipped).png|Snowman transformation (Noseless)]]
+| tooltip = Don't let the demons steal your nose<br/>Transforms the holder into a snowman
+| rare = 5
+| buy = {{pc|5}}
+| sell = {{value|0|4|80}}
+| buff = Popo (buff) | bufflink = no
+| bufftip = You are a snowman now!
+| duration = Infinite
+| debuff = Noseless Popo| debufflink = no
+| debufftip = Your nose has been stolen!
+| debuffduration = 10 minutes
+| stack = 1
+| hardmode = yes
+}}
+
+The '''Magic Scarf and Hat''' are a [[Hardmode]] covering sold by the [[Archmage]]. Equipping them grants the '''Popo''' [[buff]], turning the user into a snowman. If the player is damaged by a [[Demon]], [[Voodoo Demon]] or [[Red Devil]], the '''Noseless Popo ''' [[debuff]] is inflicted upon the player and they lose their nose for 10 minutes. The covering is considered a vanity item, as it provides no stats or bonuses.
+
+== Notes ==
+*Equipping the covering in the vanity slot will cause the player to appear as a snowman without the Popo buff. The player will also be unable to lose their nose.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-vanity = yes
+}}

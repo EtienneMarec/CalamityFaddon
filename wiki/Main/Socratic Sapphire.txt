@@ -1,0 +1,28 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Covering
+| tooltip = An anomalous gem belonging to a philosopher of a higher dimension<br/>Grants a chance to replace critical hits with a Savage blow, and reduces debuff durations... but at what cost?..<br/>{{color|"...Perhaps it knows nothing of it, nor does it think it knows of that."|#1a1d6e}}
+| sell = {{value|0|25|0|0}}
+| rare = 11
+| stack = 1
+}}
+
+The '''Socratic Sapphire''' is a craftable Godseeker Mode [[coverings|Covering]] that halves the player's total critical strike chance and damage reduction when equipped, in exchange for a 10% chance to replace a critical hit with a savage blow, which deals 5x the usual damage. That chance increases if the player has boosts to critical strike chance and damage reduction, maxing out at 75%. Additionally, it reduces almost all debuff durations by 70%.
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+==Note==
+*Its critical chance reduction will neither affect nor be affected by certain items that makes use of critical strike chance differently (e.g, but not limited to: [[Daawnlight Spirit Origin]], [[Soma Prime]]).
+*Its debuff duration reducing effect will not affect certain debuffs that are either related to Alcohol-related potions, or are tied to item cooldowns.
+==Trivia==
+*The covering's design is based on the same gem found on [https://battle-cats.fandom.com/wiki/Sage_of_Mind_Soractes_(Floating)_(Sage) Sage of Mind Soractes] from [https://en.wikipedia.org/wiki/The_Battle_Cats The Battle Cats]. In turn, it also references the ancient greek philosopher [https://en.wikipedia.org/wiki/Socrates Socrates].
+**Its tooltip is inspired from Socrates' logically paradoxical saying "I know that I know nothing".
+**Additionally, its debuff duration reduction effect mirrors that of the Sage subtrait and its debuff-resisting effect from the same game.
+
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Combat coverings]]

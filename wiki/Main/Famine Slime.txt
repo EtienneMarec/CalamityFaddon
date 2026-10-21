@@ -1,0 +1,40 @@
+{{npc infobox
+| type = Slime
+| ai = Slime AI
+| environment = Sulphurous Sea
+| life = {{dv|150|735}}
+| damage = {{element|Poison}} {{dv|25|50}} (Contact)<br/>{{element|Poison}} {{dv|20|40}} (Darts)
+| defense = 4
+| knockback = 100
+| immune1 = Kami Flu
+| immune2 = Plague
+| immune3 = Poisoned
+| immune4 = Venom
+| immune5 = Sulphuric Poisoning
+| immune6 = Irradiated
+| Sulphuric Scale| 1-2 | 100%
+| Apocalyptic Ore| 10-26 | 100%
+| Urchin Stinger| 15-25 |100%
+| debuff=Sulphuric Poisoning
+| debuffchance=100%
+| duration = 3 seconds
+| money = {{sc|1}}
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_42.wav
+| soundtext = Stinger
+| vulnerable1 = Fire
+| vulnerable2 = Cold
+| vulnerable3 = Slash
+| resistant1 = Poison
+}}
+
+The '''Famine Slime''' is a Pre-[[Hardmode]] [[slime]] that spawns in the [[Sulphurous Sea]] after [[Acidsighter]] has been defeated. It attacks by jumping towards the player and shooting high-velocity sulphur darts whenever they get too close to it or travel above it.
+
+The Famine Slime is one of the required slimes to summon [[Astrum Aureus]].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

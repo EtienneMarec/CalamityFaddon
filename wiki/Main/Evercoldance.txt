@@ -1,0 +1,51 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = no
+| damagetype = summon
+| damage = 840
+| mana = 64
+| stack = 1
+| tooltip = Creates a Crystal that shoots beams to its closest enemies, uses all the abyssal powers.
+| knockback = 7.5
+| velocity = 2
+| rare = C2
+| sell = {{value|0|75}}
+| use = 40
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Evercold
+| debuffduration = 5 seconds
+| debuffchance = 25%
+| debuff2 = Moon Burnt
+| debuffduration2 = 5 seconds
+| debuffchance2 = 25%
+| debuff3 = Crush Depth
+| debuffduration3 = 5 seconds
+| debuffchance3 = 25%
+| element1 = Cold
+| element2 = Water
+| element3 = Dark
+| proj = Evercold_crystal.png
+| projcaption = Crystal
+}}
+|{{item drops infobox
+| [[Esserwyrm]]|1|20%
+}}
+}}
+'''Evercoldance''' is an Epilogue [[Minions|Sentry]] which is either crafted or dropped by the [[Esserwyrm]]. It creates a crystal that fires beams to closest targets. The beams inflict different abyssal [[Debuffs]] and deal 110% of the weapon's damage.
+
+==Crafting==
+
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

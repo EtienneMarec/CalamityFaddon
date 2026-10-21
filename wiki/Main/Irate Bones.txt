@@ -1,0 +1,30 @@
+{{npc infobox
+| type = Undead Enemy
+| environment = Dungeon
+| ai = Fighter AI
+| damage = 35
+| life = 300
+| defense = 15
+| knockback = 50
+| banner = yes
+| money = {{sc|5}}
+| immune1 = Poisoned
+| Bone|1-3|50%
+| Bone Wand|1|0.4%
+| Golden Key|1|5%
+| hardmode = yes
+}}
+'''Irate Bones''' are a [[Hardmode]] [[Enemy]] found in the [[Dungeon]].
+
+== Notes ==
+* Like the [[Cursed Scepter]], it can spawn in the [[Dungeon]] at any point once a world is in [[Hardmode]], as opposed to most Hardmode Dungeon enemies which spawn once [[Plantera]] has been defeated.
+
+== Trivia ==
+* The sprite is similar to the [[Armored Skeleton]] enemy, but with red armor akin to [[Angry Bones]] instead of blue armor.
+
+
+{{-}}
+{{ Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

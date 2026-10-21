@@ -1,0 +1,93 @@
+{{infobox wrapper
+|{{item infobox
+| imagebreak = yes
+| type = Block
+| type2 = Crafting material
+| type3 = Light Source
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| stack = 9999
+| rare = 6
+| color = #0096C8
+| sell = {{value|0|0|80}}
+| hardmode = yes
+| tooltip = A shard of lumenous energy
+| boxwidth = 33em
+}}
+|{{item drops infobox | boxwidth = 31em
+|[[Devil Fish]]<br/>[[Eidolist]]<br/>[[Adult Eidolon Wyrm]]<br/>[[Eidolon Wyrm]]<br/>[[Giant Squid]]<br/>[[Gulper Eel]]<br/>[[Laserfish]]<br/>[[Luminous Corvina]]<br/>[[Viperfish]]<br/>(After [[Calamitas]] has been defeated)|[[Lumenyl#Drop Chance List|Varies]]| 25-100%
+|[[King of Constellations, Tenryu]]|1|33.33% {{ccr}}
+}}
+}}
+
+'''Lumenyl''' is a [[Hardmode]] [[crafting material]] that grows on blocks or is dropped by the [[enemies]] in the [[Abyss]] after [[Calamitas]] has been defeated. It is used in crafting many aquatic items, typically in conjunction with [[Depth Cells]] and [[Tenebris]].
+
+Similarly to [[Crystal Shard]]s, they can also be placed on blocks and walls.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Drop Chance List ==
+The following table displays the chances and quantities that each enemy will drop Lumenyl after Calamitas has been defeated.
+
+{| class="terraria"
+|-
+! colspan=1 style="padding:0 15px" | Entity !! colspan=1 | Quantity !! Rate
+|-
+| align="center" | {{item|Adult Eidolon Wyrm|size=146px}}
+| align=center | {{dv|50-108|65-135}}
+| align=center | 100%
+|-
+| align="center" | {{item|Devil Fish|size=60px}}
+| align=center | 1
+| align=center | 50%
+|-
+| align="center" | {{item|Eidolist|size=36px}}
+| align=center | {{dv|8-10|10-14}}
+| align=center | 100%
+|-
+| align="center" | {{item|Eidolon Wyrm|size=120px}}
+| align=center | {{dv|6-8|8-11}}
+| align=center | 100%
+|-
+| align="center" | {{item|Giant Squid|size=14px}}
+| align=center | 1
+| align=center | 50%
+|-
+| align="center" | {{item|Gulper Eel|size=120px}}
+| align=center | {{dv|2-3|3-4}}
+| align=center | 50%
+|-
+| align="center" | {{item|Laserfish|size=44px}}
+| align=center | 1
+| align=center | 50%
+|-
+| align="center" | {{item|Luminous Corvina|size=50px}}
+| align=center | 1
+| align=center | 50%
+|-
+| align="center" | {{item|Viperfish|size=50px}}
+| align=center | 1
+| align=center | 25%
+|}
+
+== Notes ==
+*Lumenyl may also be obtained from [[Abyssal Crate]]s after [[Calamitas]] has been defeated.
+*After Calamitas has been defeated, Lumenyl will begin growing on voidstone in the lower portions of the abyss being an effective way to farm large amounts of it.
+
+== Trivia ==
+*Its name was initially proposed as "Lumenite", and is still referred to as such in the mod's code. It was likely changed in-game to avoid confusion with [[Luminite]].
+
+{{Abyssal Gear}}
+{{Stratus}}
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

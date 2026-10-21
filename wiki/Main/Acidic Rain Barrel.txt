@@ -1,0 +1,57 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 43
+| knockback = 8
+| use = 21
+| velocity = 14
+| tooltip = Throws a rolling barrel that explodes on wall collision<br/>Stealth strikes make it rain on collision
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| debuffduration = 3 seconds (Shrapnel)<br/>3-5 seconds (Droplet)
+| debuff2 = Poisoned
+| debufftip2 = Slowly losing life
+| debuffchance2= 50%
+| debuffduration2 = 1-3 seconds (Droplet)
+| debuff3 = Sulphuric Poisoning
+| debufftip3 = The acidic water burns away your flesh
+| debuffchance3 = 12.5%
+| debuffduration3 = 1-2 seconds (Droplet)
+| element1 = Acid
+| element2 = Radioactive
+| element3 = Fire
+| element4 = Smash
+| element5 = Bomb
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|7|20}}
+| proj = Acid Droplet.png
+| projcaption = Acid Droplet
+| proj3 = Barrel Shrapnel.png
+| proj3caption = Barrel Shrapnels
+}}
+
+The '''Acidic Rain Barrel''' is a craftable [[Hardmode]] [[bombs|bomb]] that is an upgrade to the [[Blast Barrel]]. It throws a barrel that rolls across the ground that pierces through all enemies it comes into contact with until it either despawns or hits a wall. Hitting a wall causes the barrel to erupt into shrapnel and acidic raindrops.
+
+Performing a [[stealth strike]] with the Acidic Rain Barrel causes the resulting barrel to be able to bounce off walls up to a total of three times, and also causes more shrapnels and raindrops to erupt.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*Much like the Blast Barrel, this weapon is a reference to the ''[[wikipedia:Donkey Kong|Donkey Kong]]'' game series, which frequently features explosive barrels.
+**The barrel projectile is referred to as "GreenDonkeyKongReference".
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Bombs]]
+[[zh:酸雨桶]]

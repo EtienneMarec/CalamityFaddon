@@ -1,0 +1,31 @@
+{{infobox wrapper
+|{{item infobox
+| stack = 1
+| auto = yes
+| type = Weapon
+| damage = 43
+| damagetype = Magic
+| mana = 14
+| use = 11
+| velocity = 12
+| tooltip = Fires an irritating spread of infected orbs
+| knockback = 0
+| rare = 4
+| sell = {{value|0|0|80}}
+| element1 = Poison
+}}
+|{{item drops infobox
+| [[Primal Aspid]] | 10%
+}}
+}}
+
+The '''Aspid Blaster''' is a [[Hardmode]] [[magic gun]] dropped by [[Primal Aspid]]s. It fires three orange infected orbs at once that spread out after being fired and are affected by gravity.
+
+{{Modifier|magicnokb}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic guns]]

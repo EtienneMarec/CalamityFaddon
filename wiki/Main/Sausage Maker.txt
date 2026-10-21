@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox
+| auto = yes
+| type = Weapon
+| damagetype = Melee
+| damage = 36
+| velocity = 6
+| knockback = 6.25
+| rare = 3
+| sell = {{value|0|0|80}}
+| stack = 1
+| tooltip = Sprays homing blood on hit
+| use = 20
+| proj = Sausage Maker Spear.png
+| projcaption = Sausage Maker
+| element1 = Unholy
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[The Perforators]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Sausage Maker''' is a craftable [[Pre-Hardmode]] [[spear]] dropped by [[The Perforators]]. It can also be crafted from [[Vertebrae]], [[Crimtane Bar]]s and [[Blood Sample]]s at an [[Altar]]. Upon contact with an enemy, a blood bolt will be fired out that homes in on enemies.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Blood Sample}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]
+[[Category:True melee]]

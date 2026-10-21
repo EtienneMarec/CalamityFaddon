@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 75
+| knockback = 4
+| mana = 10
+| use = 19
+| stack = 1
+| tooltip = Summons an astral hive to protect you
+| rare = 7
+| auto = yes
+| sell = {{value|0|12}}
+| hardmode = yes
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 1 second (Hiveling)
+| proj = Hiveling (Sentry).gif
+| projcaption = Hiveling (sentry)
+| element1 = Magic
+| element2 = Poison
+| element3 = Cold
+}}
+|{{item drops infobox
+| [[Hive_(enemy)|Hive]] (After [[Astrum Aureus]] has been defeated)|1|14.29%
+}}
+}}
+{{summoned|Hive (sentry)|type=sentry}}
+The '''Hive Pod''' is a [[Hardmode]] [[sentry]] that is dropped from [[Hive_(enemy)|Hives]] after [[Astrum Aureus]] has been defeated. The Astral Hive will spawn Hivelings if there are any enemies nearby, which will home onto the closest enemy to them, even through walls.
+
+{{Modifier|summon}}
+
+== Notes ==
+*This weapon can also be obtained from the [[Astral Crate]] after Astrum Aureus has been defeated at a 20% chance.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

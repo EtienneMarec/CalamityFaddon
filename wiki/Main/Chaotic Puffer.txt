@@ -1,0 +1,49 @@
+{{npc infobox
+| imagealt = <Tabber>
+Unpuffed=[[File:Chaotic Puffer.png]]
+|-|
+Puffed=[[File:Chaotic Puffer (Puffed).png]]
+</Tabber>
+| environment = Abyss
+| type = Flying Enemy
+| type2 = Aquatic
+| ai = Chaotic Puffer AI
+| damage = 0 (not puffed)<br/>{{element|Stab}} {{dv|100|175}} (puffed up)<br/>{{element|Fire}} {{dv|90|180}} (Brimstone explosion)
+| life = {{dv|5625|11,250}}
+| defense = 50
+| knockback = 100%
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| duration = 3 seconds
+| debufftip = Rapid health loss
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| banner = yes
+| money = {{value|0|0|50|0}}
+| custom| {{item|Scoria Ore|note=(After defeating<br/>[[Golem]])|wrap=y}} (10-26)| 100%
+| hardmode = yes
+| hurt = NPC_Hit_23.wav
+| killed = NPC_Killed_28.wav
+| sound = NPC_Killed_14.wav
+| soundtext = Explosion
+| vulnerable1 = Stab
+| vulnerable2 = Cold
+| vulnerable3 = Machine
+| resistant1 = Fire
+| resistant2 = Water
+}}
+
+The '''Chaotic Puffer''' is an [[enemy]] that spawns in the 2nd and 3rd layers of the [[Abyss]]. It slowly swims towards the player and inflicts the [[Brimstone Flames]] [[debuff]] on contact, while periodically puffing up every 5 seconds. While it is unable to damage the player while not puffed, if it hits the player or dies while puffed up, it creates a large brimstone explosion, which also hurts other enemies. It receives increased knockback upon being hit.
+
+== Notes ==
+*Though the Chaotic Puffer technically has 100% knockback resistance, it has a special interaction when hit by a projectile, which causes its velocity to get set to the projectile's velocity at the moment of impact. It will slowly drift to a stop afterwards.
+*The Chaotic Puffer slowly rotates clockwise when moving to the right, and counterclockwise when moving to the left. It spins when hit.
+
+== Trivia ==
+*In previous versions of the mod, Chaotic Puffers only spawned in the final layer of the Abyss.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

@@ -1,0 +1,26 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 14
+| sell = {{value|0|28}}
+| stack = 1
+| tooltip = The purest of nature<br/>Horizontal speed: 11<br/>Acceleration multiplier: 2.8<br/>Excellent vertical speed<br/>Flight time: 270<br/>The Silva revive heals you to half health while wearing the Silva armor
+| hardmode = yes
+| postml = yes
+}}
+
+'''Silva Wings''' are a Godseeker Mode [[Wings|wing]]-type [[covering]] that allow the player to fly and glide. If these wings are worn along with [[Silva armor]] with any Silva headpiece, the player will be healed to 50% of their max life when the Silva revive procs.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

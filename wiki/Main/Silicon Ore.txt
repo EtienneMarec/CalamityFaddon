@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| use = 14
+| rare = a
+| value = 710
+| color = #3F3328
+| sell = {{value|0|0|2|0}}
+| tooltip = Reacts strongly when exposed to Shimmer.
+}}
+|{{item drops infobox
+| [[Silicic Slime]] | 10-26| 100%
+}}
+}}
+
+
+'''Silicon Ore''' is a pre-[[Hardmode]] [[ore]] found naturally generated in the [[Ocean]] and [[Sulphurous Sea]] in small patches. It can be mined with any pickaxe and is used to make [[Mysterious Circuitry]]. It is also dropped from [[Silicic Slime]]s.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

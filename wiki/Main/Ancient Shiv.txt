@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 35
+| use = 12
+| tooltip = Enemies release a blue aura cloud on death<br/>Shortflurry attacks increase melee speed by 5%
+| knockback = 6
+| auto = yes
+| stack = 1
+| rare = 3
+| sell = {{value|0|0|80}}
+| element1 = Water
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Dark Caster]]|1| {{dv|4%|6.67%}}
+}}
+}}
+
+The '''Ancient Shiv''' is a [[Pre-Hardmode]] [[shortsword]] that is dropped by [[Dark Caster]]s. Upon killing an enemy with this sword, they will release a small blue aura cloud that has infinite pierce and lingers for 5 seconds. The cloud deals 50% damage.
+
+While it has an incredibly short range like most [[shortsword]]s, it also has auto-swing, rendering it slightly more effective.
+
+When the weapon's [[Shortstrike]] ability activates, the player gains 5% melee speed for 4 seconds.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Dungeon}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]
+[[Category:True melee]]
+[[zh:远古短匕]]

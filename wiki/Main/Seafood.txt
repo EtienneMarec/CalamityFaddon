@@ -1,0 +1,24 @@
+{{item infobox
+| type = Potion
+| stack = 999
+| rare = 5
+| hardmode = yes
+| tooltip = Minor improvements to all stats
+| buff = Well Fed
+| duration = 15 minutes
+| bufftip = Minor improvements to all stats<br/>{{expert|Minor improvements to all stats and increased life regeneration}}
+| sell = No value
+| use = 17
+}}
+
+'''Seafood''' is a consumable [[tgc:Pre-Hardmode|Pre-Hardmode]] [[food item]] that grants the [[Well Fed]] buff for 15 minutes.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+
+{{Master Template Consumables
+|show-main = yes
+|show-potion = yes
+}}

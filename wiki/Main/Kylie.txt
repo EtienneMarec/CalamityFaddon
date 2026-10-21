@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| stack = 1
+| damagetype = Spy
+| tooltip = Stealth strikes throws three short ranged kylies instead of a single long range one<br/>'Also known as Dowak'
+| damage = 63
+| knockback = 12
+| critical = 20%
+| velocity = 11
+| rare = 3
+| buy = {{value|0|9}}
+| sell = {{value|0|0|80}}
+| use = 24
+| element1 = Slash
+}}
+
+'''Kylie''' is a [[Pre-Hardmode]] [[Spy]] [[boomerang]] purchased from the [[Bandit]] for {{gc|9}}. When used, it throws a slow-moving boomerang that travels a medium distance before returning to the player. Up to three boomerangs can be thrown out at a time.
+
+Performing a [[stealth strike]] with the Kylie will cause three short-range boomerangs with higher velocity to be thrown out.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Kylie is a reference to the [https://bloons.fandom.com/wiki/Kylie_Boomerang Kylie Boomerang] from ''[[wikipedia:Bloons Tower Defense#Bloons TD 6|Bloons TD 6]]''.
+**This in turn is a reference to traditional [[wikipedia:Boomerang#Related_terms|kylie boomerangs]] used by the Aboriginal Australians.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

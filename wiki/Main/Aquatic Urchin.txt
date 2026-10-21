@@ -1,0 +1,37 @@
+{{npc infobox
+| type = Enemy
+| type2 = Aquatic
+| environment = Sulphurous Sea
+| ai = Aquatic Urchin AI
+| damage = {{dv|25|50}}
+| life = {{dv|50|110}}
+| defense = 10
+| knockback = {{dv|20%|28%}}
+| banner = yes
+| money = {{sc|5}}
+| debuff = Irradiated
+| debuffchance = 100%
+| duration = 2 seconds
+| debufftip = Your skin is burning off
+| Urchin Stinger| 15-25 | 100%
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_15.wav
+| vulnerable1 = Cold
+| resistant1 = Water
+| resistant2 = Poison
+| resistant3 = Fire
+}}
+
+The '''Aquatic Urchin''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Sulphurous Sea]]. It bounces very high towards the player in an attempt to hurt them, and can also bounce when out of the water.
+
+== See also ==
+*[[Sea Urchin]]
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

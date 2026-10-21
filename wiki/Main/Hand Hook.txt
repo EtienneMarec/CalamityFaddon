@@ -1,0 +1,30 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 63
+| knockback = 4| rare = 5
+| sell = {{value|0|10}}
+| stack = 1
+| use = 10
+| tooltip = Flings enemies behind you, if they hit a wall damage taken will be doubled<br/>"It bloats down" and everyone at the office seemed to really like that one
+| auto = yes
+| hardmode = yes
+| element1 = Water
+| element2 = Slash
+}}
+
+The '''Hand Hook''' is a [[Hardmode]] [[broadsword]] that can be bought from the [[Collector]] after its respective [[Blueprint]] has been turned in. When enemies are hit by it, they will be launched behind the player. If they hit a block during this time they will be dealt double the weapon's damage again.
+
+{{modifier|melee}}
+
+
+== Notes ==
+*This weapon is less useful against enemies with contact damage, as the launch will damage the player, or enemies that can move through tiles.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]

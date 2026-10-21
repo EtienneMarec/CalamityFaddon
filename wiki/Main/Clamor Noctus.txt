@@ -1,0 +1,48 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 270
+| mana = 12
+| tooltip = Let the sky fall<br/>Fires night wyverns and stars from the sky that stick to enemies and tiles and explode
+| knockback = 5.2
+| rare = 13
+| sell = {{value|0|28}}
+| use = 21
+| velocity = 25
+| stack = 1
+| debuff = Moon Burnt
+| debufftip = Incinerated by lunar rays
+| debuffchance = 100%
+| debuffduration = 3 seconds (Star/Explosion)
+| hardmode = yes
+| postml = yes
+| proj = Night Wyvern.png
+| projcaption = Night Wyvern
+| proj2 = Stratus Star.png
+| proj2caption = Stratus Star
+| element1 = Dark
+| element2 = Magic
+}}
+
+'''Clamor Noctus''' is a Godseeker Mode [[wand]] which is an upgrade to the [[Wyvern's Call]] and the final upgrade of the [[Sky Glaze]]. It fires 3 projectiles from the sky that are either Night Wyverns or Stars. Stars deal 15% of the weapon's damage, inflicting the [[Moon Burnt]] [[debuff]], and sticking on enemies and tiles for 2 seconds before exploding for 135% damage. Night Wyverns do not have special effects, but they deal 375% of the weapon's damage.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*"Clamor Noctus" translated roughly from Latin is "cry of the night".
+*The tooltip is a quote from the song "[[wikipedia:Skyfall (Adele song)|Skyfall]]", the theme song of [[wikipedia:Skyfall|a James Bond film of the same name]] which was written and performed by [[wikipedia:Adele|Adele]].
+{{-}}
+{{Stratus}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

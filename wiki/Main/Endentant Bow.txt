@@ -1,0 +1,36 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox	
+| type = Weapon
+| damage = 800
+| damagetype = Ranged
+| knockback = 6
+| stack = 1
+| rare = C1
+| sell = {{value|0|50}}
+| auto = yes
+| use = 24
+| velocity = 50
+| tooltip = Once the arrow hits a target, it summons 3 more arrows behind it, that also summon 3 arrows from behind when hit the target, then again, and again...
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Reactive Flames
+| debuffduration = 2 seconds
+| debuffchance = 100%
+| element1 = Unholy
+}}
+
+The '''Endentant Bow''' is a post-[[Purgatory Arbiter, Umbrus]] [[Bows|bow]] that is crafted from [[Waterfreeze Reactive Essence]]s, Once the shot arrow hits a target, it summons 3 more arrows from behind the enemy, the cycle continues until none of the arrows hit the enemy. The cloned arrows dissapear once the player shoots a new arrow, to avoid lag.
+
+== Tips ==
+While the arrows clone themselves, it is better to also use another weapon, so the cloned arrows dont just dissapear.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category: Bows]]

@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 37
+| auto = yes
+|consumable = true
+| use = 8
+| knockback = 3
+| velocity = 16
+| critical = 14%
+| tooltip = Stealth strikes act like a boomerang that spawns clones on enemy hits
+| stack = 9999
+| rare = 4
+| sell = {{value|0|0|4}}
+| hardmode = yes
+| element1 = Dark
+| element2 = Slash
+}}
+
+'''Titanium Shurikens''' are craftable [[Hardmode]] [[rogue weapon]]s. They pierce infinitely and can be recovered after hitting a block about 50% of the time.
+
+Performing a [[stealth strike]] with Titanium Shurikens causes the shuriken to behave similarly to a boomerang, bouncing off tiles and recovering the shuriken to the player 100% of the time. If the boomerang shuriken hits an enemy, 1-2 homing shurikens appear from the shuriken itself.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

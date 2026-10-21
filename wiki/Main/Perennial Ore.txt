@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 180
+| stack = 9999
+| use = 14
+| rare = 7
+| value = 710
+| color = #C8FA64
+| sell = {{value|0|0|18|0}}
+| hardmode = yes
+}}
+|{{item drops infobox
+|[[Perennial Slime]]|10-26|100%
+}}
+}}
+<big> ''"Energized plant matter has formed in the underground."'' </big>
+
+'''Perennial Ore''' is a [[Hardmode]] [[Ores|ore]] which generates in [[Dirt Block|Dirt]], [[Eutrophic Sand]], and [[Stone Block]]s in the [[Cavern]] layer after [[Plantera]] has been defeated, and is used to craft [[Perennial Bar]]s at an [[Adamantite Forge]] or a [[Titanium Forge]]. It requires at least an [[Adamantite Pickaxe]] or a [[Titanium Pickaxe]] to mine. It is also dropped by [[Perennial Slime]]s.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Perennial Ore cannot be destroyed by explosives, even after Plantera has been defeated.
+*Unlike most other ores, it is visible without the use of the [[Spelunker]] [[buff]] as each block has a faint lime green glow.
+*Although Perennial Ore cannot generate in [[Pearlstone Block]]s, [[Crimstone Block]]s, or [[Ebonstone Block]]s, it can still generate in Dirt Blocks in those biomes.
+**Perennial Ore cannot generate in [[Astral Dirt]] or [[Astral Stone]].
+
+== Trivia ==
+*In botany, "[[wikipedia:Perennial|perennial]]" plants are plants that live for more than two years.
+
+{{Perennial}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

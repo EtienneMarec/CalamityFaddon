@@ -1,0 +1,52 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 100
+| knockback = 7.5
+| use = 22
+| velocity = 20
+| auto = yes
+| stack = 1
+| tooltip = Summons brimstone geysers on hit<br/>Right click to throw like a javelin that explodes on hit
+| rare = 5
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| debuff=Brimstone Flames
+| debufftip=Rapid health loss
+| debuffchance = 100%
+| debuffduration = 5 seconds (Contact)<br/>4 seconds (Explosion)<br/>3 seconds (Thrown)<br/>2 seconds (Geyser)
+| element1 = Unholy
+| element2 = Fire
+| element3 = Slash
+| element4 = Stab
+}}
+|{{item drops infobox
+| [[Clamitas]] {{fantag|Calamity: Community Remix}}| 1 | 25%
+}}
+}}
+
+The '''Brimstone Sword''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. It inflicts the [[Brimstone Flames]] [[debuff]] and summons a small brimstone geyser when an [[enemy]] is hit with the blade. When using alternate fire, the sword is thrown in a manner similar to that of the [[Ichor Spear]]. The thrown sword can travel a long distance before being affected by gravity and pierces infinitely. On hitting an enemy, it will create a short lingering explosion that deals 50% of the weapon's damage.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Only the left-click attack receives [[true melee]] boosts.
+*Due to the relative ease of crafting this sword, as well as how early it is obtainable, this weapon will remain a very powerful choice well into Hardmode.
+*[[Aquatic Scourge]] takes only 10% damage from the Brimstone Sword's explosions. Additionally, the explosions' pierce is set to 2 once they hit one of its segments.
+
+== Trivia ==
+*This item was previously known as the "Profaned Sword". This was likely changed in order to prevent any kind of unwanted connections with [[Providence, the Profaned Goddess]].
+{{-}}
+{{Unholy Core}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:硫火之刃]]

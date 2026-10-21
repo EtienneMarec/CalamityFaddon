@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 36
+| mana = 12
+| use = 14
+| knockback = 3
+| tooltip = Surveillance drones equipped with a strong electric field which can be directed at enemies<br/>Summons a mechanical watcher that zaps and flies around enemies<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| buff = Snake Eyes (buff)| bufflink = no
+| bufftip = Always watching...
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| element1 = Fire
+| element2 = Machine
+}}
+{{summoned|Snake Eyes (minion)|type=minion}}
+
+The '''Snake Eyes''' is a craftable Godseeker Mode [[summon weapon]]. It summons an orb that chases nearby enemies at high speed, moving in a square pattern around all the targets it can detect, and shooting at the nearest one with a laser beam. It will travel through blocks to reach its target and will change its formation if the minion is targeted at a specific enemy. When idle, it floats up and down above the player's head.
+
+The weapon consumes 1 unit of [[charge]] per use and has a maximum charge of 190.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier4}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

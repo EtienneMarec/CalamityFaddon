@@ -1,0 +1,122 @@
+{{Patch infobox
+| image = Ravager (1.1.7.801).png
+| patchname = Ravager Update
+| size = 250px
+| release = 4/20/2017
+}}
+The '''1.1.7.801''' update added the [[Ravager]] [[boss]] and various [[coverings]] that are ultimately used to craft a new covering known as [[The Absorber]]. The update also made a large amount of boss balance changes, and added three new [[weapons]].
+
+== Additions ==
+*Added [[Ravager]].
+*Added [[Cosmic Discharge]], [[Needler]], and [[Yharim's Crystal]].
+*Added [[The Absorber]], [[Craw Carapace]], [[Fungal Carapace]], [[Giant Shell]], [[Giant Tortoise Shell]], [[Grand Gelatin]], [[Life Jelly]], [[Mana Jelly]], [[Sea Shell]], and [[Vital Jelly]].
+*Added [[Ancient Medallion]] and [[Birb Pheromones]].
+*Added [[Cosmic Freeze]] and [[Shell Speed Boost]].
+*Added [[status messages]] that appear after defeating certain vanilla bosses that announce new enemy spawns.
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*[[Brimstone Elemental]] changes:
+**Buffed contact damage from {{dv|60|72}} to {{dv|65|78}}.
+**Nerfed Dust Bomb damage from {{dv|110|140}} to {{dv|70|100}}, her Hellfireball damage from {{dv|110|140}} to {{dv|50|80}}, her Hellblast damage from {{dv|120|160}} to {{dv|50|80}}, and her Brimstone Barrage damage from {{dv|90|120}} to {{dv|50|80}}.
+*[[Bumblebirb]] now uses an i-frame cooldown slot of 1 instead of the default 0.
+*Made [[Calamitas]]' weapon drop chances consistent:
+**Increased [[Lashes of Chaos]]' drop chance from {{dv|14.29%|20%}} to {{dv|25%|33%}}.
+**Increased [[Oblivion]]'s drop chance from {{dv|6.67%|7.14%}} to {{dv|25%|33%}}.
+**Increased [[Entropy's Vigil]]'s drop chance from {{dv|6.25%|6.67%}} to {{dv|25%|33%}}.
+*Calamitas now drop {{gc|15}} instead of {{value|1|5}}.
+*[[Ceaseless Void]] now takes up 10 NPC slots instead of 5.
+*Buffed [[Cosmic Lantern]]'s damage from {{dv|150|180}} to {{dv|220|264}}, and gave it an i-frame cooldown slot of 1 instead of the default 0.
+*[[Cryogen]] changes:
+**Nerfed its health from {{dv|0|31,800}} to {{dv|0|29,150}}, and buffed its contact damage from {{dv|35|42}} to {{dv|40|44}}.
+**Nerfed its base Ice Bomb damage from {{dv|56|112}} to {{dv|46|92}}, its base Frost Blast damage from {{dv|100|112}} to {{dv|44|76}}, and its base Frost Shard damage from {{dv|80|160}} to {{dv|70|140}}.
+**Now drops {{gc|10}} in Normal Mode.
+*Buffed [[Dark Energy]]'s health from {{dv|11,000|13,200}} to {{dv|28,000|33,600}}, its damage from {{dv|110|132}} to {{dv|190|228}}, its knockback resistance from 25% to 75%, and gave it an i-frame cooldown slot of 1 instead of the default 0.
+*[[Desert Scourge]] now drops {{gc|2}} instead of {{gc|5}}.
+*[[The Devourer of Gods]] changes:
+**Tail and projectiles now use an i-frame cooldown slot of 1 instead of the default 0.
+**Now takes 25% damage from all of [[Aegis Blade]]'s projectiles.
+**Now takes 50% damage from ranged projectiles when [[Vortex armor]]'s stealth is active.
+**Increased weapon drop chance for each weapon from {{dv|8.33%|10%}} to {{dv|25%|33%}}.
+*[[The Hive Mind]] now drops {{gc|5}} instead of {{gc|15}}.
+*Decreased the size of [[Ice Clasper]]s and prevented them from spawning during the [[Old One's Army]] event.
+*[[Jungle Dragon, Yharon]] changes:
+**Nerfed contact damage from {{dv|480|528}} to {{dv|440|484}}, and buffed his defense from 150 to 230.
+**Nerfed Giga Flare damage from {{dv|380|460}} to {{dv|220|280}}, his Sky Flare's damage from {{dv|300|360}} to {{dv|180|220}}, his Flare Bomb damage from {{dv|560|660}} to {{dv|360|480}}, his Flare Dust damage from {{dv|240|320}} to {{dv|160|240}}, and his Infernado damage from 1040 to 1000.
+**Flarenadoes and Infernadoes now last 7 seconds instead of 6.67.
+**Increased how long his Flare Bombs last.
+**Changed how Giga Flares are fired.
+**No longer reduces the player's life regeneration.
+**Reduced speed and aggression.
+**Can now only spawn up to 15 [[Detonating Flame]]s at once.
+**No longer gains increased speed based on the player's damage reduction and defense.
+**Buffed Detonating Flame variant 1's health from {{dv|1000|1200}} to {{dv|1500|1500}}, nerfed its contact damage from {{dv|0|210}} to {{dv|0|180}}, buffed its defense from 35 to 100, and gave it the ability to fire projectiles.
+**Nerfed Detonating Flame variant 2's health from {{dv|2500|3000}} to {{dv|2000|2000}}, buffed its damage from {{dv|200|280}} to {{dv|300|360}}, buffed its defense from 45 to 120, and increased its size.
+**Detonating Flames can no longer be homed in on, fade in when spawning, and no longer take up half an NPC slot.
+**Yharon, his projectiles, and his Detonating Flames now use an i-frame cooldown slot of 1 instead of the default 0.
+**Increased drop rate for each weapon from {{dv|16.67%|25%}} to {{dv|25%|33%}}.
+*[[The Perforators]] no longer drop any coins, only their Hive does.
+*Made [[The Plaguebringer Goliath]]'s weapon drop chances consistent:
+**Increased [[Pandemic]] and [[Pestilent Defiler]]'s drop chances from {{dv|16.67%|20%}} to {{dv|25%|33%}}.
+**Increased [[The Hive]]'s drop chance from {{dv|16.67%|12.5%}} to {{dv|25%|33%}}.
+**Increased [[Plague Staff]]'s drop chance from {{dv|16.67%|10%}} to {{dv|25%|33%}}.
+*The Plaguebringer Goliath now drops {{gc|25}} instead of {{value|2|25}}.
+*Nerfed [[Profaned Energy]]'s Holy Bomb damage from {{dv|140|280}} to {{dv|100|200}}.
+*[[Profaned Guardians]] and their projectiles now use an i-frame cooldown slot of 1 instead of the default 0.
+*[[Providence, the Profaned God]], her projectiles, and her guardians now use an i-frame cooldown slot of 1 instead of the default 0.
+**Now takes 50% damage from [[Vehemence]] and ranged projectiles while Vortex armor's stealth effect is active.
+*Buffed [[Signus, Envoy of the Devourer]]'s contact damage from {{dv|140|168}} to {{dv|280|336}}, and it and its fireballs now use an i-frame cooldown slot of 1 instead of the default 0.
+*[[Siren Lure and Leviathan]] now have a {{dv|25%|33%}} chance for each weapon (and Pearl of Enthrallment) to drop instead of always dropping 1 weapon.
+*[[Slime God]] changes:
+**Nerfed the Core's Abyss Mine damage from {{dv|60|80}} to {{dv|32|64}}, and its Abyss Ball damage from {{dv|90|120}} to {{dv|36|56}}.
+**The Core now drops {{gc|8}} instead of {{gc|1}}.
+**The Core now inflicts [[Distorted]] for 3.33 seconds instead of 4.
+**Nerfed the Ebonian Slime God's contact damage from {{dv|75|105}} to {{dv|65|78}}, its Abyss Mine damage from {{dv|70|140}} to {{dv|48|96}}, and its Abyss Ball damage from {{dv|90|120}} to {{dv|50|80}}.
+**Nerfed the Crimulan Slime God's contact damage from {{dv|95|114}} to {{dv|80|96}}, its Abyss Mine damage from {{dv|50|100}} to {{dv|40|80}}, and its Abyss Ball damage from {{dv|80|100}} to {{dv|60|72}}.
+**Reduced [[Cursed]] duration from Crimulan Slime God contact from 1.67 seconds to 0.5.
+**Nerfed the Split Ebonian Slime God's contact damage from {{dv|60|84}} to {{dv|50|60}}, buffed its Abyss Mine damage from {{dv|34|68}} to {{dv|38|76}}, and nerfed its Abyss Ball damage from {{dv|60|80}} to {{dv|50|60}}.
+**Nerfed the Split Crimulan Slime God's contact damage from {{dv|70|84}} to {{dv|60|72}}, its Abyss Mine damage from {{dv|40|80}} to {{dv|30|60}}, and its Abyss Ball damage from {{dv|60|80}} to {{dv|50|56}}.
+**Both large slimes and their split forms no longer drop money<!---1 Gold Coin for both unsplit slimes and split Ebonian. 50 Silver Coins for split Crimulan--->, and now classify as bosses.
+*[[Stasis Probe]] changes:
+**Buffed armored Stasis Probe's health from {{dv|1100|1430}} to {{dv|1500|1950}}, its defense from 80 to 100, and nerfed its laser damage from {{dv|200|224}} to {{dv|140|184}}.
+**Buffed naked Stasis Probes' health from {{dv|1100|1430}} to {{dv|1500|1950}}, nerfed its defense from 20 to 10, nerfed its laser damage from {{dv|260|280}} to {{dv|200|240}}, and made it fire more often.
+**Both Probes now have an i-frame cooldown slot of 1 instead of the default 0.
+**Both Probes no longer inflict [[Frozen]], <!---20% chance for 1 second--->and no longer temporarily stop firing lasers if hit.
+*[[Storm Weaver]] changes:
+**Both phases now use an i-frame cooldown slot of 1 instead of the default 0.
+**Phase 1's head and body segments now force all damage taken to them to 0.
+
+=== Items ===
+*[[Broken Biome Blade|Biome Blade]] is now crafted at a Hardmode Anvil instead of a Prehardmode one.
+*Reduced the amount of dust produced by [[Brackish Flask]], [[The Dance of Light]], [[Mirror Blade]], and [[Wrath of the Ancients]].
+*[[Cosmic Worm]] can now be used at any time of day instead of just at night.
+*[[Draconic Destruction]]'s beams now set target immunity frames to 1.
+*[[Elemental Disk]] now sets target immunity frames to 5.
+*Increased [[Elemental Lance]]'s shot speed.
+*Nerfed [[God Slayer Chestplate]]'s [[Thorns]] effect by 90%.
+*[[lul]] now instantly kills the player if worn unless their name is "Fabsol".
+*Buffed [[Lunarian Bow]]'s damage from 25 to 26, and it now uses 10 [[Purified Gel]] in its recipe.
+*[[Reaver armor]] no longer provides [[Reaver Rage]] at any time the player has immunity frames active.
+*Nerfed [[Rouge Slash]]'s damage from 275 to 220, its use time from 13 to 18, and increased its mana cost from 15 to 30.
+*Tweaked the lighting for [[True Tyrant's Ultisword]] and [[Tyrant Yharim's Ultisword]]'s Blazing Phantom Blades.
+*[[Xeroc armor]] no longer provides [[Xeroc Rage]] and [[Xeroc Wrath]] at any time the player has immunity frames active.
+
+=== Other ===
+*[[Extreme Gravity]] now reduces wing time by 33% instead of 80%.
+
+=== Resprites ===
+*Resprited [[Cosmic Rainbow]], [[Deathhail Staff]], [[Deathwind]], [[Eradicator]], [[Excelsus]], [[The Obliterator]], and [[Staff of the Mechworm]].
+*Resprited [[Rune of Kos]].
+*Resprited [[Treasure Bag (Jungle Dragon, Yharon)]].
+*Resprited [[Yharon Soul Fragment]].
+
+== Fixes ==
+*Fixed [[Abomination]], [[Bloody Worm Food]], [[Charred Idol]], Cosmic Worm, [[Cryo Key]], [[Decapodita Sprout]], [[Desert Medallion]], [[Dragon Egg (summoning)]], [[Eye of Desolation]], [[Eye of Extinction]], [[Overloaded Sludge]], [[Profaned Core]], and [[Profaned Shard]] being able to be used if their respective bosses were currently active.
+*Fixed all Calamity [[minions]] being unable to use the summoner targeting feature.
+*Fixed Profaned Energies drawing their lanterns incorrectly.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

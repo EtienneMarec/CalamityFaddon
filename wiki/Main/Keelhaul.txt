@@ -1,0 +1,47 @@
+{{dedicated|Braden Hajer|Patreon Donator}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 55
+| mana = 50
+| use = 29
+| knockback = 2
+| velocity = 15
+| hardmode = yes
+| tooltip = Summons a geyser upon hitting an enemy<br/>Crumple em' like paper
+| rare = 8
+| stack = 1
+| sell = {{value|0|12}}
+| auto = yes
+| damagetype = Magic
+| proj = Keelhaul Bubble.png
+| projcaption = Bubble
+| proj2 = Keelhaul Geyser.gif
+| proj2caption = Geyser
+| element1 = Water
+}}
+|{{item drops infobox
+| [[Giant Cursed Skull]] (After [[Leviathan and Anahita]] have been defeated) | 1 | {{dv|4%|6.67%}}
+}}
+}}
+The '''Keelhaul''' is a [[Hardmode]] [[wand]] that has a {{dv|4%|6.67%}} chance to drop from [[Giant Cursed Skull]]s in the [[Dungeon]] after [[Leviathan and Anahita]] have been defeated. When used, a small blue projectile is fired in the cursor's direction that creates a geyser upon impact with a tile or an enemy. The geyser stays in place and rapidly damages any enemy that it makes contact with. The geyser can pierce unlimited enemies and ignores tiles, and disappears four seconds after it is spawned.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Although its tooltip only states that it summons geysers upon hitting enemies, it will also summon geysers upon hitting tiles.
+
+== Trivia ==
+*The term "keelhaul" refers to a punishment once dealt by sailors at sea, in which the offender would be tied to a line, thrown overboard, and dragged beneath the ship.
+*The item is also a reference to ''[[wikipedia:Paper Mario: The Thousand Year Door|Paper Mario: The Thousand Year Door]]''. The name refers to [https://www.mariowiki.com/Keelhaul_Key Keelhaul Key], where the 5th chapter of the game takes place. The item is obtained by killing a Giant Cursed Skull, a reference to [https://www.mariowiki.com/cortez Cortez], the boss of Keelhaul Key. The tooltip also suggests this connection, referencing both the paper aesthetic of the game and [https://www.mariowiki.com/Lord_Crump Lord Crump], a character that makes an appearance in the Chapter.
+{{-}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

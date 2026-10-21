@@ -1,0 +1,19 @@
+{{Addon|Calamity: Community Remix}}
+
+{{Item infobox|name=Wrath of the Dragons|type=Weapon|stack=1|rare=15|damage=555|damagetype=Magic|knockback=6|mana=50|critical=4%|use=33|velocity=12|tooltip=Summons a draconic pulse at the cursor that periodically summon two rings of homing flare dust and occasionally two flare tornadoes that turn into lingering flarenadoes upon contact with an enemy|debufftip=Engulfed by roaring flames|debuffduration=3 seconds (Flare dust)<br/>4 seconds (Flare Tornado and Flarenado)|debuff=Dragon Fire|debuffchance=100%|hardmode=yes|postml=yes|proj=Draconic Pulse.png|proj2=Flare Dust.gif|proj3=flarenado.gif|projcaption=Draconic Pulse|proj2caption=Flare Dust|proj3caption=Flarenado|soundtext=Use|sound2=Item_20.wav|sound=YharonRoarShort.wav|sound3=ProvidenceHolyBlastImpact.wav|sound2text=Flare Dust|sound3text=Flare Dust Impact|sound4=YharonDeath.wav|sound4text=Flare Tornado|sell={{value|0|30}}|auto=yes|element1=Fire}}
+
+The '''Wrath of the Dragons''' is a craftable Godseeker Mode [[Spell tomes|spell tome]] that is an upgraded version of the [[Wrath of the Cosmos]]. When used, it casts a draconic pulse at the mouse cursor, which fires 2 rings of 32 homing flare dusts that inflict [[Dragon Fire|Dragonfire]] on intervals for a significant amount of time.  
+
+The galactic pulse will fire two Flare Tornadoes that home in towards the closest enemy every seven rounds of homing flare dust rings that deal 200% of the weapon's base damage and summon lingering Flarenadoes that deal 150% of the weapon's base damage. 
+
+Its best [[Modifiers|modifier]] is '''Mythical'''.
+
+== Crafting ==
+
+=== Recipe ===
+{{Recipes|result={{PAGENAME}}|view=infobox}}
+
+=== Used in ===
+{{Recipes|ingredient={{PAGENAME}}|view=infobox}}{{Master Template Weapons|show-main=yes|show-magic=yes}}
+
+[[Category:Spell tomes]]

@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 890
+| knockback = 9
+| rare = 14
+| sell = {{value|0|36}}
+| stack = 1
+| auto = yes
+| use = 16
+| tooltip = Spawns essence flames on hit
+| hardmode = yes
+| postml = yes
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| debuffduration = 5 seconds (Fireball)
+| debufftip = Your flesh is burning off
+| element1 = Fire
+| element2 = Slash
+| element3 = Magic
+| proj = Essence Flame.gif
+| projcaption = Essence Flame
+}}
+
+'''The Enforcer''' is a craftable Godseeker Mode [[broadsword]] that autoswings. Upon hitting an enemy with the blade, essence flames will appear near the enemy that will attack nearby enemies. Essence flames deal 25% of the sword's damage.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Cosmilite}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]

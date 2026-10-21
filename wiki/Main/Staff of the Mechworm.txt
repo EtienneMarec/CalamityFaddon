@@ -1,0 +1,56 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 161
+| knockback = 2
+| mana = 10
+| rare = 14
+| sell = {{value|0|28}}
+| stack = 1
+| auto = yes
+| use = 9
+| velocity = 10
+| tooltip = Summons an aerial mechworm to fight for you
+| buff = Mechworm (buff) | bufflink = no
+| bufftip = The mechworm will protect you
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Cold
+| element3 = Unholy
+}}
+{{summoned|Mechworm|type=minion}}
+[[File:Staff of the Mechworm (demo).gif|thumb|right|548px|The Staff of the Mechworm minion demonstrated against a [[Super Dummy]].]]
+
+The '''Staff of the Mechworm''' is a craftable Godseeker Mode [[Summon weapons|summon weapon]]. Upon use, it summons a flying mechanical worm that charges, fires lasers, teleports onto enemies and ignores immunity frames. While the mechworm is active, the day night cycle will speed up similarly to if the player were to sleep in a bed. The mechworm is in constant flight and can travel through walls and [[blocks]]. The Staff does not spawn multiple minions upon use, instead increasing the number of segments by one.
+
+Losing minion slots while the mechworm is active will remove any segments that were associated with the minion slots lost. 
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Mechworm has a tendency to attack enemies off screen. This can make farming for specific item drops difficult at times.
+*Just like the [[Stardust Dragon Staff|Stardust Dragon]], the Mechworm will wander off occasionally. Keep this in mind, due to the worm being a single minion, it can and will leave you defenseless.
+*Although the Mechworm pierces enemies, it does not give enemies [[immunity frames]] and will not disrupt attacks.
+
+== Tips ==
+*Keep a secondary weapon ready, in case the Mechworm begins attacking enemies further away from you.
+*The Mechworm is very useful for farming, with high level summons being more than capable of taking on any pre-Devourer boss with the exception of [[Providence, the Profaned Goddess]] as it will struggle to keep pace with Providence.
+*Due to the Mechworm's "path" when floating around the player, the Mechworm may kill [[critters]] or bait you may be attempting to catch.
+
+== See Also ==
+*[[Metastasis]], the [[exhumed]] version of this item. 
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

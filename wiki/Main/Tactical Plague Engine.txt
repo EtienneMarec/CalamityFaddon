@@ -1,0 +1,49 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 52
+| mana = 10
+| knockback = 0.5
+| use = 14
+| tooltip = Summons a plague jet to pummel your enemies into submission<br/>Jets will fire ammo from your inventory, 66% chance to not consume ammo<br/>Sometimes shoots a missile instead of a bullet
+| buff = Tactical Plague Engine (buff) | bufflink = no
+| bufftip = A giant plague jet is following you
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffduration = 3 seconds (Missile)
+| debuffchance = 100%
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| rare = 10
+| sell = {{value|0|20}}
+| boxwidth = 23em
+| element1 = Poison
+| element2 = Stab
+| element3 = Machine
+}}
+{{summoned|Plague Jet|type=minion}}
+
+The '''Tactical Plague Engine''' is a craftable Godseeker Mode [[summon weapon]]. When used, it summons a Plague Jet minion that fires and consumes [[bullets]]. It will attempt to fire from above, and will occasionally fire homing missiles instead of bullets, which inflict the [[Plague]] [[debuff]] and deal 150% of the weapon's base damage. Additionally, it will always align itself horizontally when idle.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*It is recommended to use the Endless Musket Pouch with this weapon as it gives the player infinite ammo, negating the need to have several stacks of bullets in the player's inventory to use the weapon effectively.
+*This summon weapon can be used to great effect when paired with [[Ichor Bullet]]s as it can inflict [[Ichor (debuff)|Ichor]] on enemies without the player having to switch weapons.
+**However, as the minions shoot quite fast, this can be quite expensive.
+{{-}}
+{{lunar plague}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,263 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|MeteO|_|_|_|_|_|_|_|_|_|ChlO1|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|PHFRG|_|_|_|_|_|_|_|_|_|HMFRG|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|MeteB|_|_|_|_|_|Ecto1|_|ChlB1|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|      _|      _|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|`|-|-|-|(|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|PHANV|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|SoulM|_|SoulS|_|SoulF|_|LaseR|_|SpacG|_|VictS|_|ChlO2|_|_|I|_|_|EsseE|_|Ecto2|_|#
+|_|_|_|      _|      _|      _|      _|      _|      _|      _|_|I|_|_|      _|      _|#
+|_|_|_|_|`|-|-|-|^|-|-|-|^|-|-|-|^|-|-|-|^|-|-|-|(|_|_|_|I|_|_|_|I|_|_|_|)|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|HMANV|_|HMFRG|_|HMFRG|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|SFrag|_|HeatR|_|Lazin|_|ChlB2|_|SpecB|_|CoreE|_|SnowC|_|GrenL|_|RockL|_|VortF|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|      _|      _|      _|      _|      _|      _|      _|      _|      _|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|`|-|-|-|^|-|-|-|+|-|-|-|'|_|_|_|)|-|-|-|'|_|_|_|)|-|-|-|^|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|MiMaT|_|Lazha|_|PlasR|_|SpecR|_|TwisN|_|Scorp|_|Marbl|_|ArmoS|_|CosmB|_|EndoE|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|      _|      _|      _|      _|      _|      _|      _|      _|      _|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|:|_|_|_|`|-|-|-|+|-|-|-|^|-|-|-|'|_|_|_|)|-|-|-|^|-|-|-|^|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|COANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|MirMa|_|_|_|_|_|AethW|_|BlisB|_|ElecL|_|TPack|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|      _|      _|      _|      _|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|`|-|-|-|-|-|-|-|^|-|-|-|+|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|MagnC|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|#
+
+<!-- •• CRAFTING MATERIALS •• -->
+
+<!-- •• Aether's Whisper •• -->
+
+| VictS_cols = 3
+| VictS_rows = 2
+| VictS = {{item|Victory Shard}} × 5<br/>
+( {{item|mode=image|image=Desert Scourge map.png|Desert Scourge|size=30px}} )
+
+| MeteO_cols = 3
+| MeteO_rows = 2
+| MeteO = {{item|Meteorite}} × 60
+
+| MeteB_cols = 3
+| MeteB_rows = 2
+| MeteB = {{item|Meteorite Bar}} × 20
+
+| SpacG_cols = 3
+| SpacG_rows = 2
+| SpacG = {{item|Space Gun}}
+
+| LaseR_cols = 3
+| LaseR_rows = 2
+| LaseR = {{item|Laser Rifle}}<br/>
+( {{item|mode=image|image=Map Icon Wall of Flesh.png|Wall of Flesh|size=20px}} )
+
+| SoulM_cols = 3
+| SoulM_rows = 2
+| SoulM = {{item|Soul of Might}}<br/>
+( {{item|mode=image|image=Map Icon The Destroyer.png|The Destroyer|size=20px}} )
+
+| SoulS_cols = 3
+| SoulS_rows = 2
+| SoulS = {{item|Soul of Sight}}<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|Retinazer|size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} )
+
+| SoulF_cols = 3
+| SoulF_rows = 2
+| SoulF = {{item|Soul of Fright}}<br/>
+( {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+| Lazin_cols = 3
+| Lazin_rows = 2
+| Lazin = {{item|Lazinator}}
+
+| SFrag_cols = 3
+| SFrag_rows = 2
+| SFrag = {{item|Solar Fragment}} x 10<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=20px}} )
+
+| HeatR_cols = 3
+| HeatR_rows = 2
+| HeatR = {{item|Heat Ray}}<br/>
+( {{item|mode=image|image=Map Icon Golem.png|Golem|size=20px}} )
+
+| ChlO2_cols = 3
+| ChlO2_rows = 2
+| ChlO2 = {{item|Chlorophyte Ore}} x 36
+
+| ChlB2_cols = 3
+| ChlB2_rows = 2
+| ChlB2 = {{item|Chlorophyte Bar}} x 6
+
+| Lazha_cols = 3
+| Lazha_rows = 2
+| Lazha = {{item|Lazhar}}
+
+| Ecto1_cols = 3
+| Ecto1_rows = 2
+| Ecto1 = {{item|Ectoplasm}} × 4<br/>
+( {{item|mode=image|Ectoblood|size=14px}} × 3 / {{item|mode=image|Dungeon Spirit|size=16px}} )
+
+| ChlO1_cols = 3
+| ChlO1_rows = 2
+| ChlO1 = {{item|Chlorophyte Ore}} x 48
+
+| ChlB1_cols = 3
+| ChlB1_rows = 2
+| ChlB1 = {{item|Chlorophyte Bar}} x 8
+
+| SpecB_cols = 3
+| SpecB_rows = 2
+| SpecB = {{item|Spectre Bar}} x 7
+
+| Ecto2_cols = 3
+| Ecto2_rows = 2
+| Ecto2 = {{item|Ectoplasm}}<br/>
+( {{item|mode=image|Ectoblood|size=14px}} × 3 / {{item|mode=image|Dungeon Spirit|size=16px}} )
+
+| EsseE_cols = 3
+| EsseE_rows = 2
+| EsseE = {{item|Essence of Eleum}}<br/>
+<span style="font-size:0.75em">( Ice related creatures )</span>
+
+| CoreE_cols = 3
+| CoreE_rows = 2
+| CoreE = {{item|Core of Eleum}} x 3<br/>
+( {{item|mode=image|image=Ravager map.png|Ravager|size=20px}} )
+
+| SpecR_cols = 3
+| SpecR_rows = 2
+| SpecR = {{item|Spectre Rifle}}
+
+| PlasR_cols = 3
+| PlasR_rows = 2
+| PlasR = {{item|Plasma Rod}}<br/>
+( {{item|mode=image|Goblin Summoner|size=24px}} / {{item|mode=image|Tim|size=24px}} )
+
+| TwisN_cols = 3
+| TwisN_rows = 2
+| TwisN = {{item|Twisting Nether}} x 3<br/>
+( {{item|mode=image|image=Signus map.png|Signus|size=24px}} )
+
+| AethW_cols = 3
+| AethW_rows = 2
+| AethW = {{item|Aether's Whisper|size=69px}}
+
+<!-- •• The Pack •• -->
+
+| SnowC_cols = 3
+| SnowC_rows = 2
+| SnowC = {{item|Snowman Cannon}}<br/>
+( {{item|mode=image|image=Map Icon Ice Queen.png|Ice Queen|size=20px}} )
+
+| GrenL_cols = 3
+| GrenL_rows = 2
+| GrenL = {{item|Grenade Launcher}}<br/>
+( {{item|mode=image|image=Map Icon Plantera (first form).png|Plantera|size=20px}} )
+
+| RockL_cols = 3
+| RockL_rows = 2
+| RockL = {{item|Rocket Launcher}}<br/>
+( {{item|mode=image|image=Skeleton Commando.png|size=20px}} )
+
+| VortF_cols = 3
+| VortF_rows = 2
+| VortF = {{item|Vortex Fragment}} × 20<br/>
+( {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+| Scorp_cols = 3
+| Scorp_rows = 2
+| Scorp = {{item|Scorpio}}
+
+| CosmB_cols = 3
+| CosmB_rows = 2
+| CosmB = {{item|Cosmilite Bar}} × 8<br/>
+( {{item|mode=image|image=Devourer of Gods final head map.png|The Devourer of Gods|size=25px}} )
+
+| ArmoS_cols = 3
+| ArmoS_rows = 2
+| ArmoS = {{item|Armored Shell}} × 4<br/>
+( {{item|mode=image|image=Storm Weaver map.png|Storm Weaver|size=25px}} )
+
+| EndoE_cols = 3
+| EndoE_rows = 2
+| EndoE = {{item|Endothermic Energy}} × 20<br/>
+<span style="font-size:0.75em">( [[Frost Moon]] )</span>
+
+| Marbl_cols = 3
+| Marbl_rows = 2
+| Marbl = {{item|Smooth Marble Block}} × 50
+
+| TPack_cols = 3
+| TPack_rows = 2
+| TPack = {{item|The Pack|size=76px}}
+
+<!-- •• Magnomaly Cannon •• -->
+
+|BlisB_cols = 3
+|BlisB_rows = 2
+|BlisB = {{item|Blissful Bombardier}}<br/>
+( {{item|mode=image|image=Providence map.png|Providence, the Profaned Goddess|size=30px}} )
+
+|ElecL_cols = 3
+|ElecL_rows = 2
+|ElecL = {{item|Electrosphere Launcher|size=50px}}<br/>
+( {{item|mode=image|image=Map Icon Martian Saucer.png|Martian Saucer|size=22px}} )
+
+|MiMaT_cols = 3
+|MiMaT_rows = 2
+|MiMaT = ''[[Miracle Matter/Crafting tree|Miracle Matter<br/>crafting tree]]''
+
+|MirMa_cols = 3
+|MirMa_rows = 2
+|MirMa = {{item|Miracle Matter}}
+
+|MagnC_cols = 3
+|MagnC_rows = 2
+|MagnC = {{item|Magnomaly Cannon}}
+
+<!-- •• CRAFTING STATIONS •• -->
+
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|HEFRG_cols = 3
+|HEFRG_class = craft-station
+|HEFRG = {{item|mode=image|Hellforge}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|HMFRG_cols = 3
+|HMFRG_class = craft-station
+|HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|COANV_cols = 3
+|COANV_class = craft-station
+|COANV = {{item|mode=image|Cosmic Anvil}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

@@ -1,0 +1,32 @@
+{{item infobox
+| type = Weapon
+| damage = 129
+| critical = 8%
+| damagetype = Spy
+| velocity = 13
+| knockback = 4
+| use = 14
+| tooltip = Stacks up to 4<br/>Stealth strikes release all stars at once with infinite piercing
+| rare = 4
+| stack = 4
+| sell = {{value|0|0|80}}
+| hardmode = yes
+| element1 = Fire
+| element2 = Slash
+}}
+
+The '''Blazing Star''' is a craftable [[Hardmode]] [[Spy]] [[boomerang]] that can be stacked up to four times. The amount of stars thrown will stop when it reaches the maximum stack limit. Each star will return to the player after hitting four enemies or traveling a certain distance.
+
+Performing a [[stealth strike]] with Blazing Stars will cause all of the stars in the stack to be thrown at once, and will cause all of the aforementioned stars to each deal 155% damage and pierce infinitely.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

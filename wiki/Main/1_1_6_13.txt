@@ -1,0 +1,93 @@
+{{Patch infobox
+| image = The Slime God (1.1.6.13).png
+| patchname = Slime God Rework
+| release = 12/10/2016
+}}
+
+The '''1.1.6.13''' update overhauled [[The Slime God]] fight, along with respriting several [[weapons]] and [[enemies]] including the Slime Gods themselves.
+{{tocright}}
+== Additions ==
+*Added Slime God core, split Ebonian and Crimulan Slime Gods, and [[Spiked Crimson Slime Spawn]].
+*Added [[Spectralstorm Cannon]].
+*Added [[Prepare to Die]] and [[Prepare to Cry]] modes.
+
+== Changes ==
+=== [[Bosses]] ===
+*[[Calamitas]] changes:
+**Buffed phase 2's health from {{dv|15,000|19,500}} to {{dv|20,000|30,000}}.
+**Nerfed [[Cataclysm]]'s health from {{dv|11,000|13,200}} to {{dv|6000|6600}}.
+**Nerfed [[Catastrophe]]'s health from {{dv|10,000|12,000}} to {{dv|5000|5500}}.
+**Buffed phase 1's base Brimstone Laser damage from {{dv|60|64}} to {{dv|66|88}}, and her base rapid laser damage from {{dv|48|52}} to {{dv|56|64}}.
+**Buffed phase 2's base Brimstone Hellfireball damage from {{dv|110|120}} to {{dv|140|160}}, and her base Brimstone Laser damage from {{dv|56|64}} to {{dv|62|68}}.
+**Now respawns both of the brothers upon reaching 45% health in [[Expert Mode]]. 
+**Increased amount of [[Life Seeker]]s spawned at a time from 1-2 to 8-12, and they are now Normal Mode exclusive.
+**Life Seekers no longer drop any coins.
+**Decreased the chance for the brothers to drop each of their weapons from {{expert|25%}} to {{expert|10%}}. <!---Done because brothers respawn on Expert--->
+**Increased the visibility of the brothers.
+**Decreased the speed of Calamitas and her brothers.
+*[[Desert Scourge]] changes:
+**Nerfed health from {{expert|7315}} to {{expert|5747}}.
+**Buffed head's damage from {{expert|44}} to {{expert|60}}, its body's damage from {{expert|22}} to {{expert|30}}, and its tail's damage from {{expert|9}} to {{expert|13}}.
+**Buffed [[Dried Seeker]]'s head's damage from 15 to {{dv|18|27}}, its body's damage from {{expert|9}} to {{expert|13}}, and its tail's damage from {{expert|5}} to {{expert|7}}.
+**Decreased Dried Seeker's segment count from 7 to 6.
+**Increased speed.
+*Increased the speeds for all three [[Perforators]].
+*[[The Plaguebringer Goliath]] changes:
+**Nerfed defense from 45 to 40.
+**Increased speed.
+**Now has a status message indicating that she gains the ability to shoot Plague Nuke Barrages under 50% health.
+**Leaving the [[Jungle]] for too long now causes her to despawn and rain down high damaging missiles. <!---Had its own death message: You tried to escape the Jungle, it didn't work--->
+*[[The Slime God]] changes:
+**Renamed The Slime God to Ebonian Slime God.
+**Renamed The Slime God (true) to Crimulan Slime God.
+**Nerfed Crimulan Slime God's health from {{dv|3500|4200}} to {{dv|2500|3000}}, and its contact damage from {{dv|100|160}} to {{dv|90|108}}.
+**Nerfed Ebonian Slime God's health from {{dv|6250|7500}} to {{dv|5000|6000}}, and its contact damage from {{expert|112}} to {{expert|98}}.
+**Nerfed winged [[Corrupt Slime Spawn]]'s health from {{dv|120|144}} to {{dv|50|60}}, and its defense from 20 to 10.
+**Nerfed wingless Corrupt Slime Spawn's health from {{dv|150|180}} to {{dv|70|84}}, and its defense from 20 to 10.
+**Nerfed [[Crimson Slime Spawn]]'s health from {{dv|150|180}} to {{dv|70|84}}, its damage from 90 to 60, and its defense from 25 to 10.
+**Ebonian Slime God now splits into two smaller Ebonian Slime Gods upon reaching 50% health instead of turning into the Crimulan Slime God.
+**Crimulan Slime God now splits into two smaller Crimulan Slime Gods upon reaching 50% health.
+**The fight now begins with the Ebonian Slime God and Crimulan Slime God being fought at once, along with a flying core, which becomes vulnerable once all of the large Slime Gods have been defeated.
+**The Slime God core now drops the fight's loot instead of the Crimulan Slime God.
+**Reduced the Ebonian Slime God's minimum coin drop count from {{gc|2}} to {{gc|1}}.
+**Reduced the Crimulan Slime God's minimum coin drop count from {{gc|25}} to {{gc|1}}.
+**Ebonian Slime God now inflicts [[Brimstone Flames]] on contact.
+**Crimulan Slime God now inflicts Brimstone Flames on contact, but no longer inflicts Mana Sickness in Expert Mode. <!---Still does in Normal--->
+**The Crimulan Slime God now has a 33% chance to spawn a Spiked Crimson Slime Spawn when spawning a Crimson Slime Spawn.
+**Crimulan Abyss Mines now inflict Cursed instead of Mana Sickness.
+**Crimson Slime Spawns no longer inflict Mana Sickness. <!---Expert exclusive--->
+**Reduced Mana Sickness duration from Ebonian Slime God contact from 13.33 seconds to 3.33.
+**Reduced Mana Sickness duration from Crimulan Slime God contact from 20 seconds to {{expert|1.67}}.
+**Reduced Cursed duration from Crimulan Slime God contact from {{expert|8.33}} seconds to 1.67.
+**Reduced Brimstone Flames duration from Ebonian Abyss Balls from 3.33 seconds to 1.67, and Mana Sickness duration from 8.33 seconds to 1.67.
+**Reduced Mana Sickness duration from Ebonian Abyss Mines from 8.33 seconds to 1.67.
+**Reduced Brimstone Flames duration from Crimulan Abyss Balls from 3.33 seconds to 0.83, and Cursed duration from 1.67 seconds to 0.83.
+**Reduced Brimstone Flames duration from Crimulan Abyss Mines from 5 seconds to 1.67.
+**Reduced Mana Sickness duration from Corrupt Slime Spawn contact from {{expert|5}} seconds to {{expert|1}}.
+**Reduced Cursed duration from Crimson Slime Spawn contact from {{expert|2.5}} seconds to {{expert|1}}.
+
+=== [[Items]] ===
+*All Calamity broadswords now have use turn.
+*[[Abombination]] can now be used at any time of day instead of just at night.
+*Nerfed [[Abyssal Tome]]'s shot speed from 12 to 9.
+*[[Eye of Desolation]] now uses 5 [[Soul of Fright|Souls of Fright]], and 5 [[Soul of Sight|Souls of Sight]] instead of 1 [[Mechanical Eye]], 3 Souls of Fright, and 3 Souls of Sight.
+*[[Celestial Onion]] and [[Demon Trophy]] now enable Prepare to Die Mode, and enabling both at once now enables Prepare to Cry Mode.
+*[[Hyperius Bullet]]'s recipe now requires 100 [[Musket Ball]]s instead of 300, and yields 100 Hyperius Bullets instead of 300.
+*Nerfed [[Oblivion]]'s damage from 70 to 45.
+*Decreased [[Seraph Tracers]]' run acceleration boost from 50 to 20, increased its movement speed boost from 5 to 20, and decreased its horizontal acceleration boost from 5 to 3.
+*[[Verium Bullet]]'s recipe now requires 100 Musket Balls instead of 40, and yields 100 Verium Bullets instead of 40.
+
+=== Resprites ===
+*Resprited [[Bladecrest Oathsword]], [[Corroslime Staff]], [[Crimslime Staff]], [[Effervescence]], [[Infernal Rift]], [[Meteor Fist]], [[Nullification Pistol]], [[Onyx Chain Blaster]], [[Speed Blaster]], [[The Swarmer]], and [[Xeroc Greatsword]].
+*Resprited [[Overloaded Sludge]].
+*Resprited [[Tarragon Wings]].
+*Resprited Seraph Tracers' wing sprites.
+*Resprited [[Tarragon Breastplate]], [[Tarragon Helm]], [[Tarragon Leggings]], [[Xeroc Cuisses]], [[Xeroc Mask]], and [[Xeroc Plate Mail]].
+*Resprited [[Core of Eleum]].
+*Resprited [[Aurora Spirit]], Corrupt Slime Spawn, Crimson Slime Spawn, Crimulan Slime God, Ebonian Slime God, [[Heat Spirit]], and [[Ice Clasper]].
+*Resprited The Slime God and Abyssal Tome's mines, and [[The Ballista]]'s arrows.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

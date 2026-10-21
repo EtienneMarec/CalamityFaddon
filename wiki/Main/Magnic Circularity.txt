@@ -1,0 +1,44 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 900
+| use = 22
+| knockback = 5.5
+| auto = yes
+| reach = 44
+| attduration = {{infinity}}
+| stack = 1
+| tooltip = magnets your enemies closer
+| rare = C4
+| velocity = 22
+| sell = {{value|5}}
+| debuff = Ancient Astral Blight
+| debuffduration = 4 seconds
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Unholy
+| element2 = Poison
+| element3 = Electricity
+| proj = Magnic Yoyo.png
+| projcaption = Magnic Circulatiry
+}}
+
+
+The '''Magnic Circularity''' is an Epilogue [[yoyos|yo-yo]] that pulls enemies closer to it.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+{{Lethal}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:yoyos]]

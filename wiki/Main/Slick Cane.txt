@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| damage = 27
+| auto = yes
+| use = 25
+| knockback = 5
+| damagetype = Rogue
+| rare = 4
+| tooltip = Swipes a cane that steals money from enemies.<br/>Stealth strikes gives a 1 in 15 chance for enemies to drop 1-3 gold coins when hit<br/>'Economy at its finest'
+| buy = {{value|0|25}}
+| sell = {{value|0|2|40}}
+| stack = 1
+| hardmode = yes
+| element1 = Dark
+| element2 = Slash
+}}
+
+The '''Slick Cane''' is a [[Hardmode]] [[rogue weapon]] that is purchased from the [[Bandit]] for {{gc|25}}. Upon use, it waves a short-ranged cane out in front of the player which ignores enemy [[immunity frames]]. Each time the cane hits an [[enemy]] while being swung, that enemy will drop a small amount of [[coins]] proportional to the amount the enemy drops on death.
+
+Performing a [[stealth strike]] with the Slick Cane will cause the next cane to have a 1/15 chance to force the enemy hit to drop one to three gold coins.
+
+{{Modifier|rogue}} However, '''Frenzying''' may be a better choice for gathering money.
+
+== Notes ==
+*The cane swung will glow in the dark; combined with the light emitted from coins, this can allow the player to temporarily see better.
+
+== Tips ==
+*Attacking enemies which normally drop a large amount of coins, such as [[Mimic]]s, will yield a massive amount of coins every swing, making it a fast but somewhat risky way to earn money.
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+== Trivia ==
+*The Slick Cane is a reference to ''[[wikipedia:Sly Cooper|Sly Cooper]]'' game series, which is centered around a thief that wields a similar hooked cane. However, the visual design of the Slick Cane was based off of the [https://dontstarve.fandom.com/wiki/Walking_Cane Walking Cane] from ''[[wikipedia:Don't Starve|Don't Starve]]''.
+*This is one of the only Rogue weapons which can be swung like a [[melee weapon]], the other being [[The Final Dawn]].
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

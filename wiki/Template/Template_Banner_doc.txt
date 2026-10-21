@@ -1,0 +1,22 @@
+Template used to display monster banners
+
+== Usage ==
+
+; (Optional) Unnamed Parameter 1
+; Full banner name(with "Banner", e.g. Cave Bat Banner), default is <code><nowiki>{{{enemy}}}</nowiki> Banner</code>
+
+; (Optional) enemy
+: Enemy name. Will be used as link target(if no <nowiki>{{{link}}}</nowiki>) and banner name(if no <nowiki>{{{1}}}</nowiki>, auto append "banner" postfix).
+
+; (Optional) link
+: Link target. 
+
+; (Optional) id
+: Banner id
+
+; (Optional) anchor=no
+: Removes anchor
+
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| damagetype = magic
+| damage = 26
+| knockback = 5
+| rare = 2
+| sell = {{value|0|0|40}}
+| stack = 1
+| mana = 5
+| auto = yes
+| use = 23
+| velocity = 10
+| tooltip = Casts flaming pumpkins
+| proj = Flaming Pumpkin.png
+| projcaption = Flaming Pumpkin
+| element1 = Fire
+| element2 = Poison
+}}
+
+The '''Harvest Staff''' is a craftable [[Pre-Hardmode]] [[wand]]. It shoots flaming pumpkins that bounce off of tiles and can pierce one enemy before breaking on the next. The pumpkins disappear after a few seconds.
+
+Its projectiles emit a significant amount of light particles that fall down through blocks. This, combined with their physics, makes them ideal for exploring caves and potentially revealing new ones underneath.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+{{-}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

@@ -1,0 +1,40 @@
+{{item infobox	
+| type = Weapon
+| damage = 0
+| damagetype = Summon
+| knockback = 0.5
+| stack = 1
+| mana = 2
+| rare = 1
+| sell = {{value|0|0|20}}
+| auto = yes
+| use = 33
+| velocity = 10
+| tooltip = Summons a long-abandoned drone to support you<br/>The drone slowly follows your cursor and inflicts Irradiated to nearby enemies
+| buff = Rusty Drone (buff) | bufflink = no
+| bufftip = A pitifully fragile drone is observing you
+| debuff = Irradiated
+| debuffchance = 100%
+| debuffduration = 1 seconds (Rust shards)
+| debufftip = Your skin is burning off
+| proj = Rusty Drone Target.png
+| projcaption = Target
+| proj2 = Barrel Shrapnel.png
+| proj2caption = Rusty Shrapnel
+| element1 = Poison
+| element2 = Machine
+}}
+{{summoned|Rusty Drone|type=minion}}
+
+The '''Rusty Beacon Prototype''' is a craftable [[Pre-Hardmode]] [[summon weapon]] that can also be found in [[Rusty Chest]]s. When used, it summons a Rusty drone that follows the player's cursor slowly. It cannot move through blocks. It will inflicts the [[Irradiated]] [[debuff]] on enemies within a 5 tile radius of the drone. This radius is increased to 20 tiles if the drone is within a 2 tile range of the player's cursor. The Rusty drone is also helpful for providing light, and will provide an [[Abyss]] light level of 2.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

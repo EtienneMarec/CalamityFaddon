@@ -1,0 +1,41 @@
+{{npc infobox
+| type = Enemy
+| ai = Glitch AI
+| environment = Solar Eclipse
+| life = {{dv|3,000|5,500}}
+| damage = {{element|Unholy}} {{dv|50|90}}
+| defense = 30
+| knockback = {{dv|100%}}
+| immune1 = Kami Flu
+| debuff=Cursed
+| debuffchance=25%
+| duration = 25 seconds
+| debufftip=Cannot use any items
+| debuff2 = Vaporfied
+| debuffchance2 = 100%
+| duration2 = 5 seconds
+| debufftip2 = Vaporizing senses and mind
+| money = {{value|0|15|00}}
+| Darksun Fragment |4-6|100%
+| Creature Capsule |1|10%
+| Everflute |1|5%
+| banner = no
+| vulnerable1 = Water
+| vulnerable2 = Fire
+| vulnerable3 = Magic
+| resistant1 = Unholy
+| resistant2 = Dark
+| resistant3 = Poison
+}}
+
+The '''Glitch''' is a Godseeker Mode [[enemy]] that spawns semi rarely during the [[Solar Eclipse]] after [[The Devourer of Gods]] has been defeated. The Glitch will summon corruptions, which will slowly home in on the player. Corruptions will disappear once the Glitch is defeated, and there can only be 7 corruptions alive at once.
+
+== Trivia ==
+*Glitch is a reference to the MISSINGNO exploit from Pokemon Red and Blue.
+*Corruptions appear to be made of Terraria spritesheets.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-event = yes
+}}

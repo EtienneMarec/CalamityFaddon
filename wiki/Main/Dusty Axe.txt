@@ -1,0 +1,37 @@
+{{item infobox
+| image = Dusty Axe.png
+| type = Tool
+| type2 = Weapon
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 50
+| critical = 10%
+| axe = 148%
+| knockback = 5
+| rare = 2
+| use = 10
+| tooltip = It once belonged to some dusty skeleton.
+| sell = {{value|0|0|1}}
+| toolspeed = 8
+}}
+
+The '''Dusty Axe''' is a craftable [[Pre-Hardmode]] [[axe]]. It doesn't have any additional features other than being just an usual axe.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*This item is a reference to an Undertale's alternative universe: Dustswap - Dusttrust.
+*This item has absolutely no correlation to the small indie video game "Minecraft" despite a similar appearance to the item known as "Diamond Axe"
+
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Axes]]

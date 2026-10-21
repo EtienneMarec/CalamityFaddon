@@ -1,0 +1,44 @@
+The '''Item Upgrade System''' lets the player "upgrade" their [[Weapons|weapons]], [[coverings|coverings]] and [[Tools|tools]].
+
+== Details ==
+This mechanic becomes available once the player completes the [[Cutscenes|cutscene]] and defeats the [[Crazed Mechanic]], after they obtain the [[Portative Forging Station]].
+
+The following items can be upgraded:
+* Vanilla, Calamity, or Calamity addon weapons, and coverings if they increase player stats
+* Certain other coverings as described below
+* Vanilla, Calamity, or Calamity addon pickaxes, hammers, axes and multipurposal tools (such as hamaxes)
+
+=== Leveling Mechanic ===
+All weapons from vanilla, Calamity Mod and the addon itself can be leveled up; the maximum level is determined by the weapon's [[Item Classification System|classification]]:
+*If the weapon has the Common tag, its max level is 25.
+*If the weapon has the Rare tag, its max level is 30.
+*If the weapon has the Epic tag, its max level is 35.
+*If the weapon has the Mythic tag, its max level is 40.
+*If the weapon has the Legendary tag, its max level is 50.
+*If the weapon has the Legendary+ tag, its max level is 75.
+
+With a new level, the weapon's stats increase by 1%. With every 5 levels, the stat increase rises by 5%. With every 10 levels, the stat increase rises by 10%. Affected stats:
+*Damage.
+*Critical Strike Chance.
+*Shoot Speed (not use time).
+*Knockback.
+*Projectile Velocity (for example, for guns).
+*Stat increase (for stat-boosting coverings)
+
+After a weapon gets a level 5, it gets a chance to inflict a random damaging debuff (from both vanilla and Calamity Mod) on hit with a 10% chance for 1.5 seconds.
+
+After a weapon gets a level 15, it gets a 10% chance to randomly heal the player on hit (from 1 to 20 HP).
+
+After a weapon gets a level 25, it will increase a random player's stat when held (any stat except max HP and mana) by a random value (from 1% to 10%).
+
+Use time decreases by 10% (multiplicatively) for every 5 levels after level 25
+
+All items classified as Rare and higher get a new stat: Multidamage. The multidamage adds a random damage multiplier (from 1.1x to 3x) to a weapon with a chance (the higher the weapon's classification is, the higher chance, from the default 5% to the cap of 20%). It is applied to all weapons, including the minions.
+
+All items classified as Mythic and higher get a gradual stat increase: their stats increase after defeating the any boss (from both vanilla and Calamity Mod).
+
+== Other coverings ==
+* The Potion Sickness reduction of the [[tgc:Philosopher's Stone|Philosopher's Stone]] and [[tgc:Charm of Myths|Charm of Myths]] is also affected. As these items are classified as Rare, the maximum reduction is thus 55%.
+* The Diving Helmet and Diving Gear are classified Common, with Jellyfish Diving Gear and Arctic Diving Gear being Rare. Upgrades increase their breathing extension time by 1% (from 70 seconds).
+* The Breathing Reed is Common and its breath increase increases (additively from 100%) with upgrades; a max level Breathing Reed will increase the player’s breathing time to 52.5 seconds.
+* WIP

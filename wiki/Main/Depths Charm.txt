@@ -1,0 +1,24 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 3
+| stack = 1
+| sell = {{value|0|0|80}}
+| tooltip = Reduces the damage caused by the pressure of the abyss while out of breath<br/>Removes the bleed effect caused by the upper layers of the abyss
+}}
+
+The '''Depths Charm''' is an [[covering]] found in [[Shadow Chest]]s in the [[Abyss]]. It reduces the damage the player takes when out of breath in the Abyss by 30 damage per second. It also removes the bleed effect caused by the Abyss. It is part of the recipe for the [[Abyssal Diving Gear]]. Despite not being in the tooltip, it also reduces the damage the player takes from the [[Crush Depth]] [[debuff]] from 18 health per second to 9 health per second.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This item can also be obtained from the [[Abyssal Crate]] after either [[The Slime God]] or [[Wall of Flesh]] have been defeated.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

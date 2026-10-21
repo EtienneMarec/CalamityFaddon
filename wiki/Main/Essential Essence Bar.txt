@@ -1,0 +1,23 @@
+{{item infobox
+| type = Crafting material
+| image = Essential Essence Bar.gif
+| stack = 9999
+| rare = 6
+| sell = {{value|0|0|80}}
+| hardmode = yes
+| tooltip = Flowing with pure energy
+}}
+
+'''Essential Essence Bars''' are a [[Hardmode]] [[Bars | Bar]] crafted from several materials. It is used in many Hardmode recipes, as well as to craft the [[Essence of Absolute]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+[[Category:Bar items]]

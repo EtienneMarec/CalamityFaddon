@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 80
+| knockback = 3
+| mana = 11
+| use = 40
+| velocity = 14
+| tooltip = Casts a magical acid eel that releases acid drops as it moves
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| debuffduration = 3 seconds (Eel)<br/>2 seconds (Droplet)
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|7|20}}
+| proj = Slithering Eel.gif
+| projcaption = Magical Acid Eel
+| proj2 = Acid Droplet.png
+| proj2caption = Acid Droplet
+| element1 = Poison
+}}
+|{{item drops infobox
+| [[Acid Eel]] (Tiers 2 & 3) | 1 | 5%
+}}
+}}
+
+The '''Slithering Eels''' is a [[Hardmode]] [[spell tome]] that drops from [[Acid Eel]]s after defeating the [[Aquatic Scourge]]. It fires magical Acid Eels that roughly follow the cursor around, trailing acid droplets up to five times before it disappears. The eels can also freely move through blocks and pierce infinitely, with each enemy hit reducing the lifespan of the eel.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon can also be obtained from the [[Abyssal Crate]] after completing Tier 2 [[Acid Rain]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

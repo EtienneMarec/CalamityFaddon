@@ -1,0 +1,40 @@
+{{Addon|Polyphemalus}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 30
+| knockback = 8
+| critical = 4%
+| tooltip = 90% chance to not consume ammo<br>'I am looking respectfully.'
+| rare = 8
+| sell = {{value||10|0}}
+| stack = 1
+| research = 1
+| hardmode = yes
+| auto = yes
+| use = 84
+| sound = Item_12.wav
+| soundtext = Use
+| element1 = Dark
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Polyphemalus]]<br/>(When Astigmageddon is defeated last)|1|100%
+}}
+}}
+
+The '''Heterochromia''' is a [[Hardmode]] [[bow]]. It is dropped by [[Polyphemalus]], when Astigmageddon is defeated last. When used, it rapidly fires seven arcs of four arrows. It converts all arrows fired, alternating between firing Frostburn, Cursed, Shadowflame, and Fire arrows. It has a 90% chance to not consume ammo.
+
+{{modifier|ranged}}
+
+==Notes==
+* Each arrow applies a different fire debuff, making this effective with debuff multipliers.
+* The Shadowflame arrows pierce, while all others can only hit one target.
+
+{{-}}
+{{Master Template Weapons	
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

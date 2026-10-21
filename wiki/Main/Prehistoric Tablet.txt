@@ -1,0 +1,49 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = One of the ancient relics<br/>Summons a sulphur elemental to fight for you
+| sell = {{value|1|25|0}}
+| rare = 13
+| damage = 250
+| damagetype = summon
+| stack = 1
+| hardmode = yes
+| postml = yes
+| buff = Sulphur Elemental (buff) | bufflink = no
+| bufftip = A sulphur elemental will protect you
+| debuff = Sulphuric Poisoning
+| debufftip = The acidic water burns away your flesh
+| debuffchance = 100%
+| debuffduration = 12 seconds (Projectiles)
+| element1 = Poison
+| element2 = Stab
+| element3 = Water
+| proj = Sulphuric Raincloud.gif
+| projcaption = Sulhpuric Raincloud
+}}
+|{{item drops infobox
+| [[Mauler]]|1|8%
+}}
+}}
+{{summoned|Sulphur Elemental|type=minion}}
+The '''Prehistoric Tablet''' is a Godseeker Mode [[covering]] that has an 8% chance to be dropped by [[Mauler]]. It summons a Sulphur Elemental to fight for you. The elemental, upon spotting an enemy, will cycle between two attacks.
+
+*It will cast 3 sulphuric rainclouds in the general area above the target, which last for 6 seconds.
+*It will dash at the enemy 5 times.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Prehistoric Tablet, along with the [[Infected Remote]], are the only two elemental summoning items that do not drop from a boss or miniboss counterpart.
+*The Sulphur Elemental's name in the mods files was previously "Acid Waifu".
+*The Sulphur Elemental appears to be wearing the skull of a [[wikipedia:Dunkleosteus|dunkleosteus]], a species of extinct armored fish.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

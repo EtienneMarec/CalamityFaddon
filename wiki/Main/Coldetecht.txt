@@ -1,0 +1,37 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| damage = 160
+| damagetype = Ranged
+| knockback = 3.5
+| use = 2
+| velocity = 30
+| tooltip = Enemies are fast, but the firerate is faster.
+| rare = C2
+| sell = {{value|1}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Evercold
+| debuffduration = 5 seconds
+| debuffchance = 20%
+| element1 = Cold
+| element2 = Water
+| element3 = Dark
+}}
+The '''Coldetecht''' is a craftable Post-[[Purgatory Arbiter, Umbrus]] [[gun]]. It rapidly fires high-velocity bullets. The Gun does not always shoot in a straight line and has a 10 degree spread of accuracy.
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

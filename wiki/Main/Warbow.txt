@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damage = 26
+| damagetype = Ranged
+| critical = 19%
+| knockback = 6
+| use = 70
+| tooltip = Converts wooden arrows into war arrows which crumble enemy defenses
+| rare = 1
+| stack = 1
+| velocity = 1.5
+| sell = {{value|0|0|40}}
+| debuff = War Cleave
+| debuffduration = 10 seconds
+| debuffchance = 100%
+| element1 = Stab
+}}
+|{{item drops infobox
+| [[Goblin Archer]]| 1 | {{dv|2.5%|5%}}
+}}
+}}
+The '''Warbow''' is a [[Pre-Hardmode]] [[wand]] dropped by [[Goblin Archer]]s. It converts [[Wooden Arrow]]s into [[War Arrow]]s which inflict the [[War Cleave]] debuff for 10 seconds.
+
+{{Modifier|ranged}}
+
+{{-}}
+{{War}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged= yes
+}}
+[[Category:Bows]]

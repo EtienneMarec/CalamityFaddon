@@ -1,0 +1,35 @@
+{{item infobox
+| type = Potion
+| tooltip = Boosts damage by 25%<br/>Reduces life regen by 10 and defense by 30%
+| stack = 9999
+| rare = 7
+| use = 17
+| sell = {{value|0|0|40}}
+| consumable = yes
+| debuffduration = 1 minute
+| debuff = Everclear (debuff) | debufflink = no
+| debufftip = Damage boosted, life regen and defense reduced
+| hardmode = yes
+}}
+
+'''Everclear''' is a craftable [[Hardmode]] [[potion]]. It grants the '''Everclear''' [[debuff]] when consumed, which reduces life regen and [[defense]], but boosts damage by 25%.
+
+While the effects of the Everclear debuff are mostly beneficial, it is still considered a debuff, and therefore cannot be removed by right-clicking the icon.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This alcohol counts as two alcohols for the purposes of [[Alcohol Poisoning]], unlike most other alcohols crafted at the [[Keg]].
+
+== Trivia ==
+*The real-life [[wikipedia:Everclear (alcohol)|Everclear]] has anywhere from 60% to 95% alcohol content, unlike most drinks which have around 30%.
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

@@ -1,0 +1,74 @@
+{{item infobox
+| type = Armor
+| defense = 43
+| rare = 5
+| sell = {{value|0|4|80}} (set)
+| setbonus = 15% increased Spy damage and knockback<br/>Stealth strikes deal double knockback and cause an astral explosion<br/>Grants immunity to knockback<br/>Spy stealth builds while not attacking and slower while moving, up to a max of 100<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 2 seconds (Spy strikes)<br/>5 seconds (Explosion)
+| hardmode = yes
+}}
+
+'''Titan Heart armor''' is a craftable [[Hardmode]] [[Spy]] [[Covering]] set crafted from several materials from the [[Astral Infection]] [[biome]] at an anvil. It requires 3 [[Titan Heart]]s and 44 [[Astral Monolith]]s  to craft the entire set.
+
+It consists of a '''Titan Heart Mask''', '''Titan Heart Mantle''', and '''Titan Heart Boots'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*43 defense
+*24% increased Spy damage
+*10% increased Spy velocity
+*30% increased Spy knockback
+*15% decreased Spy firing rate
+*45% increased chance to not consume Spy items
+*Gives a max [[stealth]] of 100
+*Grants the player immunity to knockback
+*Spy projectiles inflict the [[Astral Infection (debuff)|Astral Infection]] [[debuff]]
+*[[Stealth strike]]s deal double knockback and cause astral explosions that each deal 50 typeless damage which can be affected by Spy damage bonuses. This effect only triggers for the first five enemies hit and has a cooldown of 0.25 seconds.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Titan Heart Mask
+| type = Armor
+| defense = 12
+| body slot = Helmet
+| tooltip = 5% increased Spy damage and knockback<br/>Spy weapons inflict the Astral Infection debuff
+| sell = {{value|0|2|40}}
+}}
+|{{item infobox
+| name = Titan Heart Mantle
+| type = Armor
+| defense = 17
+| body slot = Shirt
+| tooltip = 45% chance to not consume Spy items<br/>5% boosted Spy knockback but 15% lowered Spy attack speed
+| sell = {{value|0|2|40}}
+}}
+|{{item infobox
+| name = Titan Heart Boots
+| type = Armor
+| defense = 14
+| body slot = Pants
+| tooltip = 4% increased Spy damage, 10% increased Spy velocity, and 5% increased Spy knockback
+| sell = {{value|0|2|40}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Titan Heart%}}
+
+== Tips ==
+*Because this armor decreases attack speed, it is more useful when utilizing Spy [[stealth]] than when just using normal Spy attacks.
+**This makes it synergize well with the [[Glove of Precision]], if one is willing to deal with the further decreased attack speed. Conversely, the [[Glove of Recklessness]] can help mitigate the attack speed decrease.
+
+== Trivia ==
+*The stats of this armor are based on [[Atlas]], the enemy who drops Titan Hearts. Like Atlas, this armor is tanky, hard-hitting, but slow.
+*When wearing a full set of Titan Heart armor, the player damage sound effect will be replaced with Atlas' damage sound effect. This is effect is similar to the one when the player wears a full set of [[Necro armor]].
+
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

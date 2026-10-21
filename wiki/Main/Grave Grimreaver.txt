@@ -1,0 +1,32 @@
+{{dedicated|MadameSpooks|Patreon Donator}}{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 25
+| use = 50
+| knockback = 4
+| velocity = 16
+| tooltip =  Hurls a cursed scythe which homes in<br/>The scythe summons skulls as it flies and explodes into bats on hit<br/>Stealth strikes spawn a flood of bats and falling skulls<br/>Inflicts cursed flames and confusion<br/>'A dapper skeleton's weapon of choice'
+| stack = 1
+| auto = yes
+| rare = 6
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| proj = Grimreaver Bat.gif
+| projcaption = Grim Bat
+| proj2 = Grimreaver Skull.gif
+| proj2caption = Grim Skull
+| sound = Item 1.wav
+| element1 = Dark
+| element2 = Fire
+| element3 = Slash
+}}The '''Grave Grimreaver''' is a craftable [[Hardmode]] non-consumable [[rogue weapon]]. When used, it throws a homing scythe which passes through solid tiles. Every 0.33 seconds, the scythe releases a flaming skull in its path which homes in after a short duration and inflicts [[Cursed Inferno]]. On hit, the scythe explodes into a wave of four bats in random directions. Bats deal 25% of the weapon's damage, bounces off tiles up to four times, and pierces once.
+
+Performing a [[stealth strike]] with the Grave Grimreaver will cause the next scythe thrown to spawn 20 bats and rain down 10 homing skulls on hit.
+
+{{Modifier|rogue}}
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}{{-}}{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}

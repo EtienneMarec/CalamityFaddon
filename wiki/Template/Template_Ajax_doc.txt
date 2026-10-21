@@ -1,0 +1,27 @@
+Provides [[Wikipedia:Ajax (programming)|AJAX]] functionality for table content.
+
+'''Note:''' AJAX may not render properly on certain mobile devices, hence it should be avoided on pages that mainly feature mobile content.
+
+==Parameters==
+Only one parameter is completely required:
+:;|target=: Target page, loaded when show data link is clicked. The first unnamed parameter will be read as the target if no named target= parameter is provided. When entered without ''target='', other parameters should follow on the same line (with no line break between the target and another parameter; otherwise a glitch occurs, and the wiki's main page may become the target instead).
+All other parameters only customize the table appearance:
+:;|width=: Sets the width of the table. Default is 100%.
+:;|headstyle=: The CSS style of the table head.  Default is none.
+:;|head=: The actual text in the table head.  Default is blank, but head will still show so that the JavaScript will have somewhere to put the [edit] [show/hide] links.
+:;|bodystyle=: Style of the table's content cell, applies to both before and after the loading of the table data. Requires "style=" for CSS markup, but also accepts wikitable markup. Default is ''align="center"''.
+:;|bodyload=: Specifies the body text, along with the AJAX load link text. Wrap the text you want users to click with [link][/link] in this parameter. Default is a general-purpose load link.
+:;|nojs=: What users see when they have JavaScript disabled (which is of course required for AJAX operation). Defaults to:
+ This table requires JavaScript to be enabled and site tooltips to be turned on to be displayed.
+ You can also <nowiki>[[{{{target|none}}}|view the data]]</nowiki> on another page.
+:;|mainstyle=: Allows setting table's class to something besides "terraria".  Defaults to..."terraria".
+:;|nohead=: If this parameter is set to anything besides a null value, the head is not displayed (including the show/hide/edit links).
+==Target page syntax==
+Tabular data should be wrapped in a table on the target page.  Table formatting should be applied on the target page, not on the calling page.
+
+You can enclose data in &lt;span class="ajaxHide"&gt;&lt;/span&gt; on the target page to hide it on the calling page.
+
+<includeonly>
+[[Category:Extension templates]]
+</includeonly>
+<noinclude>[[Category:Template documentation]]</noinclude>

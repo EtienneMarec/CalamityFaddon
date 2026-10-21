@@ -1,0 +1,38 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 50
+| damagetype = Ranged
+| knockback = 7
+| stack = 1
+| rare = 10
+| sell = {{value|0|5}}
+| auto = yes
+| use = 24
+| velocity = 40
+| tooltip = Fires series of 3 very fast darts that inflict Brimstone Flames
+| hardmode = yes
+| postml = yes
+| debuff = Brimstone Flames
+| debuffduration = 3 seconds
+| element1 = Stab
+| element2 = Unholy
+}}
+
+The '''Frightshooter''' is a craftable Godseeker Mode [[Dart guns|dart gun]] it is a dart gun that fires series of 3 darts with high velocity. The darts always inflict Brimstone Flames. It is an ingredient of [[Outplanetary Dartshooter]]
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Dart guns]]

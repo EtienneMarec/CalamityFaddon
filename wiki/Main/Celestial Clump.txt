@@ -1,0 +1,27 @@
+{{addon|Deimos, the Starborn Princess}}
+{{infobox wrapper
+|{{item infobox
+| type = Pet Summon
+| stack = 1
+| tooltip = Summons an astral creature
+| rare = 13
+| use = 19
+| hardmode = yes
+| postml = yes
+| buff = Astral Creature (buff) | bufflink = no
+| bufftip = An astral creature is following you.
+| sell = {{gc|3}}
+}}
+|{{item drops infobox
+| [[The Starborn Moth]] | 1 | 10%
+}}
+}}
+{{summoned|Astral Creature|type=pet|image=[[File:Astral Creature (pet).png]]}}
+
+The '''Celestial Clump''' is a craftable [[pet]] summoning item that can also be dropped by [[The Starborn Moth]]. It summons a small Astral Creature that follows the player on foot.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{DeimosMod}}

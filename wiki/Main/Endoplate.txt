@@ -1,0 +1,29 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 7
+| color = #79B4D4
+| sell = {{value|0|0|3}}
+| use = 14
+| tooltip = It resonates with hypothermic energy.
+| hardmode = yes
+}}
+
+'''Endoplate''' is a craftable Godseeker Mode [[block]]. It can be used as a building material, and is also used in the [[Fathomless Soul Artifact]]
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Plates}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

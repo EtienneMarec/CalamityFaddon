@@ -1,0 +1,34 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| image = Natrisodic Alloy.gif
+| type = Crafting material
+| type2 = Bar
+| tooltip = "Very, Very, VERY reactive"
+| stack = 9999
+| use = 14
+| rare = C3
+| sell = {{value|10}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+'''Natrisodic Alloy''' is a Post-[[Purgatory Arbiter, Umbrus]] [[Bars|bar]] thats created using [[Life Alloy]], [[Natrisodic Cluster]]s and Reactive Cores.
+
+==Crafting==
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+* The word "Natrisodic" is a mix of words "Natrium" and "Sodium" which are the latin and English names of the 11th element of the Periodic table
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

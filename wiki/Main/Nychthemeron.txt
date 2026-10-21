@@ -1,0 +1,46 @@
+{{item infobox
+| type = Weapon
+| damage = 60
+| use = 19
+| knockback = 1
+| damagetype = Rogue
+| rare = 6
+| tooltip = Throws a spiky ball that ignores gravity and summons a pair of light and dark orbs that orbit the player<br/>Once the spiky ball disappears the orbs will home in on the nearest target<br/>Stacks up to 10<br/>Stealth strikes cause all spiky balls and orbs to be thrown at once<br/>Right click to recall all existing spiky balls
+| sell = {{value|0|0|72}}
+| velocity = 6
+| stack = 10
+| auto = yes
+| hardmode = yes
+| proj = Dark Orb.png
+| projcaption = Dark Orb
+| proj2 = Light Orb.png
+| proj2caption = Light Orb
+| element1 = Dark
+| element2 = Holy
+}}
+[[File:Nychthemeron (demo).gif|frame|Nychthemeron balls being thrown on a [[Target Dummy]] and recalling to the player, causing them to disappear and orbs to home to the nearby [[Super Dummy]].]]
+
+The '''Nychthemeron''' is a craftable [[Hardmode]] [[spiky balls|spiky ball]]. It throws up to 10 gravity-ignoring spiky balls that decelerate over time, with the amount of balls thrown depending on stack size. The spiky balls break after hitting four enemies, contacting a solid block, recalling to the player, or completely stopping. While each spiky ball is active, a light orb and a dark orb orbit around the player. The orbs lose orbit and home onto nearby enemies once the balls are broken.
+
+Right-clicking with the weapon will retract all of the spiky balls back to the player; holding right-click will slowly retract them, at about the speed they were thrown, and releasing right-click will do it quickly, near-instantly.
+
+Performing a [[stealth strike]] with the Nychthemeron will cause all spiky balls to be thrown at once, which results in all light and dark orbs appearing simultaneously.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Tips ==
+*Nychthemeron is surprisingly powerful with its stealth strike. By throwing them and immediately recalling the spiky balls, one can throw the homing orbs onto nearby enemies for a massive damage as soon as possible.
+== Trivia ==
+*A [[wikipedia:Nychthemeron|nychthemeron]] is a period of 24 hours.
+
+{{-}}
+{{yinyang}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Spiky Balls]]

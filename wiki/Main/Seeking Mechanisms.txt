@@ -1,0 +1,50 @@
+{{item infobox
+| imagealt = [[File:Cyan Seeking Mechanism.png]] [[File:Green Seeking Mechanism.png]] [[File:Purple Seeking Mechanism.png]] [[File:Red Seeking Mechanism.png]] [[File:Yellow Seeking Mechanism.png]]
+| type = Tool
+| rare = a
+| stack = 1
+| sell = No value
+| use = 36
+| listexclude = yes
+}}
+
+'''Seeking Mechanisms''' are craftable [[Pre-Hardmode]] items. They are used to locate different kinds of [[Bio-center Lab]]s, with each color corresponding to a specific lab type. When used, it flies into the air for a brief moment then accelerate towards the lab, trailing dusts of matching color.
+
+These items have 100 max [[charge]] and consume 15 charge per use.  
+{{item/options|mode=table|nolink=y|anchor=y}}
+{| class="terraria lined"
+|-
+! colspan=2 | Item !! Tooltip !! Target Lab Biome
+|-
+| {{item|Cyan Seeking Mechanism}}
+| Moves swiftly towards a lab deep below the desert
+| [[Sunken Sea]]
+|-
+| {{item|Green Seeking Mechanism}}
+| Moves swiftly towards a lab within the jungle
+| [[Underground Jungle]]
+|-
+| {{item|Purple Seeking Mechanism}}
+| Moves swiftly towards a lab within the sky
+| [[Space]]
+|-
+| {{item|Red Seeking Mechanism}}
+| Moves swiftly towards a lab within the underworld
+| [[The Underworld]]
+|-
+| {{item|Yellow Seeking Mechanism}}
+| Moves swiftly towards a lab within the frozen caverns
+| [[Ice biome]]
+|}
+{{item/options|reset}}
+== Crafting ==
+=== Recipe ===
+{{recipes|ingredient=Lab Seeking Mechanism|link=no}}
+
+== Notes ==
+*Seeking Mechanisms do not work in worlds created before the [[1.5.0.001]] update.
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-other = yes
+}}

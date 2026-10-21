@@ -1,0 +1,31 @@
+{{item infobox
+| type = Covering
+| tooltip = 15% reduced movement speed<br/>Immune to Astral Infection and Feral Bite<br/>Increased regeneration at lower health
+| sell = {{value|0|2|40}}
+| rare = 4
+| stack = 1
+| defense = 20
+| hardmode = yes
+}}
+
+The '''Ursa Sergeant''' is a [[Hardmode]] [[covering]] that is rarely [[fishing|fished]] up while in the [[Astral Infection]] biome. When equipped, the player becomes immune to the [[Astral Infection (debuff)|Astral Infection]] and [[Feral Bite]] [[debuff]]s, and gains 20 [[defense]], but their movement speed is reduced by 15%.
+
+In addition, the player’s life regeneration increases as their health lowers:
+*If they are below 50% life, life regen is increased by 1.
+*If they are below 25% life, life regen is increased by 2.
+*If they are below 15% life, life regen is increased by 3.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This "Ursa" in this item's name refers to the [[wikipedia:Ursa Major|Ursa Major]] and [[wikipedia:Ursa Minor|Ursa Minor]] constellations. Additionally, the item resembles a [[wikipedia:Tardigrade|tardigrade]], also known as a "water bear", and the Latin word "Ursa" means "bear". Tardigrades are known for their incredible resilience and slow speed, hence the item's functionality.
+*The "Sergeant" in this item's name refers to [[wikipedia:Sergeant_major_(fish)|sergeant major]]s, a species of fish.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

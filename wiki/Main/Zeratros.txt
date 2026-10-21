@@ -1,0 +1,46 @@
+{{npc infobox
+| type = NPC
+| environment = Valid house
+| ai = Passive AI
+| life = 2000
+| defense = 90
+| knockback = 0
+| debuff = Crush Depth
+| duration = 15 seconds (Sound wave)
+| debuffchance = 100%
+| debufftip = Crushed by ocean depths
+| image2 = Zeratros map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+{{NPC}}
+
+The '''Zeratros''' or ''Albatross'' is a [[Hardmode]] [[NPC]] vendor that will spawn once the following conditions have been met:
+
+*There is an empty house.
+*[[Moon Lord]] has been defeated.
+*The player has an [[Ogscule]] {{fantag|Calamity: Community Remix}} in their inventory.
+
+When threatened by [[enemies]], he will release sound waves towards enemies which pierce 3 times.
+
+== Items sold ==
+{{inventory
+|Lunatic Cultist (Lore)|{{gc|20}}|
+|Moon Lord (Lore)|{{gc|50}}|
+}}
+
+== Names ==
+*The Albatross will always be named Zeratros
+
+== Quotes ==
+{{info request|fully written dialogue}}
+
+== Trivia ==
+*[[wikipedia:Albatross|Albatrosses]] are a type of seabird that are the largest living bird species.
+*In the mod's source files, the Albatross is referred to as 'ZER0'.
+
+{{Master Template Characters
+| show-main = yes
+| show-npc = yes
+}}

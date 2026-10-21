@@ -1,0 +1,32 @@
+{{item infobox
+| type = Ammunition
+| consumable = yes
+| damage = 29
+| damagetype = ranged
+| velocity = 10
+| stack = 9999
+| knockback = 3.5
+| rare = 12
+| tooltip = Heals you a small amount on enemy hits
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Rapid health loss
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|0|0|80}}
+}}
+
+'''Bloodfire Arrows''' are Godseeker Mode [[arrows]] made from a single [[Bloodstone Core]]. They inflict the [[Brimstone Flames]] [[debuff]] upon hitting an enemy, and have a 33.33% chance to [[Lifesteal|heal]] the player for 1 HP. They are the default arrows shot by the [[Arterial Assault]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Bloodstone}}
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Arrows]]
+[[Category:Healing items]]

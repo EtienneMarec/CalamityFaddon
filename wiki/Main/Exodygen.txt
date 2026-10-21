@@ -1,0 +1,141 @@
+{{Npc infobox
+| name=Exodygen
+| type=Superboss
+| ai=Exodygen AI
+| damage={{dv|300|600|900}} (Contact)<br/>
+{{dv|120|240|360}} (Projectiles)<br/>
+{{dv|150|300|450}} (Gauss Nuke and Exo Star, Neutron Star)<br/>
+{{dv|200|400|600}} (Singularity)<br/>
+| life={{dv|10,000,000|10,500,000|11,000,000|15,500,000|12,000,000|12,500,000}}
+| defense=50|dr=10%|knockback=100
+| debuff=Exo Annihilate
+| debuffchance=100%
+| duration=1.1 seconds (All projectiles)
+| debufftip=Your existence is quickly fading
+| money={{value|200|40|75|45}}
+| hurt=NPC_Hit_49.wav
+| killed=NPC_Killed_61.wav
+| image2caption=Map Icon
+| hardmode=yes
+| postml=yes
+| epilogue=yes
+| immuneall=Immune all
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| resistant1 = Water
+| resistant2 = Holy
+| resistant3 = Poison
+| Neutron Star|1|100%
+| Gem of Exodygen|1|100%
+| custom| {{item|Exodygen Boss Bag|wrap=y}}
+: • {{item|Exo Gel|wrap=y}}|{{expert|100%}}
+| ExodygenRelic|1|100%
+| Suspicious Looking Chicken Nugget|1|100%
+|image2=Exodygen_Icon.png|type2=Slime}}
+'''''"A God that takes a slime like appearance. Not much is known about this divine entity."'''''
+
+'''Exodygen''' (Japanese: 外酸素源 ''Gai sanso-gen''​) is a major Epilogue [[Superboss]] fought anywhere at any time. It is Meant after the [[Boss Rush]].
+
+Once defeated, Exodygen will drop powerful endgame items and turn into the [[Sloome]] NPC.
+
+== Spawn ==
+Exodygen does not spawn on its own and will spawn at anytime if the player uses the [[Eschaton]].
+When spawned, the screen will violently shake, and a bright flash will appear with Exodygen. Once a short time has passed, the fight will begin and the world will appear tinted, along with the player having infinite flight and lightning flashes in the background much like the ones you see during the [[The Fabricational Quartet]] fight.
+
+== Behavior == 
+=== Phase 1 (100%) ===
+Exodygen teleports in mutliple directions  while a spread of enlarged Exoblade beams accelerate at a spread.
+Exodygen will then repeatedly teleport left and right and dash at the player. a spread of Exolight will spawn at the middle of the player.
+Exodygen then teleports above the player and fire multiple spreads of Exolight at random directions.
+
+=== Phase 2 (75%) ===
+2 instances of a cross symbol will appear on the player. the cross indicates the direction of where multiple turrets will start firing at the player depending on the cross shape. Exodygen will hover over the player during this.
+Exodygen then spawns 3 beams first horizontal and the second vertical. Exodygen will dash through these lines while more burst of Exolights spread on each dash.
+Exodygen will once again teleport above the player. It will then fire A slow moving Gauss nuke while firing multiple fast ones.
+
+=== Phase 3 (50%) ===
+Exodygen now Spawns Omega Sighter
+Omega sighter must be killed in order to move on to the next phase and further damage Exodygen.
+{{Infobox wrapper|{{npc infobox
+| type = Enemy
+| ai = Omega Sighter AI
+| name = Omega Sighter
+| life = {{dv|1,250,000|1,500,000|1,750,000|2,000,000|2,250,000|2,750,000}}
+| knockback = 100
+| damage = {{dv|100|200|300}}
+| defense = 50
+| debuff = Exo Annihilate
+| debufftip = Your existence is quickly fading
+| debuffchance = 100%
+| duration = 1.1 seconds
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Water
+| resistant1 = Holy
+| resistant2 = Poison
+}}|direction=row}}
+Omega Sighter teleports at the top while Exodygen teleports to the right. Omega sighter will then teleport at the bottom while Exodygen teleports to the left
+Omega Sighter fires an enlarged Exoblade beam for both of these teleports.
+Both Exodygen and omega sighter will dash in a cross position at the player 4 times. Each dash will have another spread of ExoLight.
+Exodygen and Omega Sighter will then teleport above the player and fire Exolight bombs that spread into smaller lights.
+
+=== Phase 4 (50% after Omega Sighter ===
+Exodygen teleports far below the player and spawns a massive star. the star will fire a spread of Massive Exolights about 5 times in each direction and an additional 5 smaller Exolights at the player.
+Exodygen then teleports above the player and Exoblade beams will start closing in on the player. Exodygen will stop and emit a Gauss nuke like blast that once again has another spread of Exolights. Exodygen will teleport to the bottom and repeat the same attack.
+Exodygen as always once again spawns above the player. A bubble will surround both the player and Exodygen. If the player leaves the bubble, The player will receive Exo Annihilate until the player returns inside. Exodygen Rapidly fires a stream of Exolight at the player until the bubble fades.
+
+=== Phase 5 (25%)===
+
+Exodygen's phase transition will be slightly different. now shockwaving multiple times and a bright light will appear. Exodygen will then have a spinning aura in the center.
+
+Exodygen will teleport above and  fire Exo slayer swords in the opposite direction of the player. Exodygen will spawn a beam diagonally and dash towards the player 4 times. While dashing, Exodygen leaves a trail of Exo slayer swords that start off slow while homing at the player and non accelerating Exolights. it will then stop homing and rapidly accelerate in a straight line
+Exodygen will gain extra DR and teleport 4 times around the player, Each teleport spawns a Neutron star that has a random chance to go clockwise or counter clockwise and additional Exolight bullets.
+Exodygen will teleport above the player once again. this time, Exodygen becomes invincible and an Singularity begins vacuuming nearby Exolights. The singularity begins to get brighter until a small beam will go clockwise or counter clockwise. The small beam will then turn massive and deadly while spinning for a period of time. Slow Exolights may appear in the middle that go to any direction. the beams will then die out and so as the singularity. Exodygen will now become vulnerable again.
+
+
+=== In For The Worthy ===
+*Exodygen can spawn light sword beams 
+
+=== In Get Fixed Boi ===
+*Exodygen will spawn a stream of Everlasting Rainbows on some attacks.
+*Exodygen can turn into it's Absolute Form if the player uses the Eschaton with the slime mount.
+
+==== If Absolute Exodygen ====
+
+* Exodygen's HP will reach to the billions.
+* Exodygen's Spawning is more intense.
+* Exodygen is more larger.
+* Exodygen will often fire a gauss nuke.
+* Everlasting Rainbows Follow with a spread of bullets.
+* A Sun Light beam may spawn almost every time.
+* Accelerating Exo Stars may spawn light sword beams.
+
+== Notes ==  
+*If Exodygen or a player dies when a Neutron Star isn't ready to attack, the Neutron Star will despawn.
+*If the player is over 150 tiles away form Exodygen, it will teleport above the player.
+*Absolute Exodygen is not meant to be fought legitimately and serves as an impossible boss easter egg.
+
+== Tips ==  
+*It is recommended to have a lot of buff potions and an offensive mobility build. [[Demonshade armor|Demonshade's]] Enraged Debuff can significantly increase your damage.
+*Sloome Readds Yharim's Stimulates for 2 auric bars, which can improve the player's stats
+*If playing Spy, it is recommended to use the [[Nanoblack Reaper]].
+*The more you fight Exodygen, the more predictable its attack patterns become as its not 100% randomized.
+*You can use the [[Exo Box]] for the Neutron Stars.
+
+== Trivia ==  
+*Exodygen in the game files is called ExoSlimeGod.
+*Omega Sighter in the game files is called BABYBIGBOIBEANBOSS.
+*Exodygen makes an appearance in 3D as the final boss in the yet to release game "Battle Sloomes"
+*Its boss [https://calamitymod.fandom.com/wiki/Music theme] is '''[https://www.youtube.com/watch?v=fB-Ay-VXyeg Nightmare Machine]''' from the artist [https://www.youtube.com/@TheTrester TheTrester]. The theme is still not official and the theme is still temporary and will change.
+**[https://www.youtube.com/channel/UCv09yfb04NjlowE7ZsUUYQQ The ExiIed FeIIow] has confirmed that he, in collaboration with [https://www.youtube.com/@TheTrester TheTrester], will make the actual theme for Exodygen at an unknown future date.
+**If MGR:R music is installed, [https://www.youtube.com/watch?v=N72U-NFu44k It Has To Be This Way] will play instead.
+*Exodygen is a "'''Superboss'''" in this mod. In some RPG games, Superbosses are extremely powerful enemies that are very challenging even if the player has endgame equipment.
+**It shares this trait with the following bosses: [[Adult Eidolon Wyrm]], [[Vision of the Tyrant]], [[Purgatory Arbiter, Umbrus]], [[Disgusting Creature: Dron]], [[Esserwyrm]], [[Reactive Guardian, Sodis]] and [[Nihil, the Fathomless Seeker]].
+* Exodygen's earliest version was once called "Blooped Guardian" in a discontinued mod (Bloops mod). Its earliest version can be fought in the Yharim Worm Mod as "Tyrant Sloome" in 1.4.4.
+*Exodygen currently has 3 resprites as the 3rd one is by zep-excpoint
+*In previous versions of the mod, Exodygen used vanilla and calamity projectiles way more often.
+*In previous versions of the mod, Exodygen Used to have a lore item. It is removed because Yharim would most likely be already dead once you defeat Exodygen.
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

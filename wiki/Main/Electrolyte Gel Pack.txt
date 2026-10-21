@@ -1,0 +1,33 @@
+{{revengeance mode only}}
+{{infobox wrapper
+|{{item infobox
+|type = Potion
+| use = 30
+| consumable = yes
+| tooltip = Permanently increases Adrenaline Mode damage by 15% and damage reduction by 5%<br/>Revengeance drop
+| rare = 4
+| sell = No value
+| stack = 1
+| image2 = Electrolyte Gel Pack Display.png
+| image2caption = Upgrade Display
+}}
+|{{item drops infobox
+| [[The Slime God]]|1|{{revengeance|100%}}
+}}
+}}
+The '''Electrolyte Gel Pack''' is a [[permanent power-up]] item obtained from the [[Treasure Bag]] dropped from [[The Slime God]]. It increases the damage of the [[Adrenaline Mode]] [[buff]] by +15% and increases how much damage reduction the player gains when hit while the meter is full by +5%. There are 2 other items that function identically to this: the [[Starlight Fuel Cell]] and the [[Ectoheart]]. It can only be used once.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== See also ==
+*The three items that increase the duration of [[Rage Meter|Rage Mode]]: the [[Mushroom Plasma Root]], the [[Infernal Blood]], and the [[Red Lightning Container]].
+*{{fantag|Catalyst}} The three items that increase the maximum amount of [[Stamina]]: the [[Dust Bunny]], the [[Magma Booster]], and the [[Ever Ink]].
+*{{fantag|Deimos, the Starborn Princess}} [[Ha-pu Fruit]]
+
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

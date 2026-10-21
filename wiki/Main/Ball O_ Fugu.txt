@@ -1,0 +1,51 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 40
+| velocity = 12
+| use = 20
+| knockback = 8
+| tooltip = Throws a fish that spews homing spikes
+| debuff = Venom
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 3 seconds (Flail)<br/>2 seconds (Spike)
+| rare = 3
+| sell = {{value|0|0|80}}
+| stack = 1
+| auto = yes
+| proj = Ball O' Fugu (projectile).png
+| projcaption = Ball O' Fugu
+| proj2 = Urchin Spike.png
+| proj2caption = Urchin Spike
+| element1 = Poison
+| element2 = Dark
+| element3 = Water
+| element4 = Smash
+}}
+[[File:Ball O' Fugu (demo).gif|frame|right|The Ball o' Fugu auto-firing against a [[Target Dummy]], and releasing thorns during travel which home in on a nearby [[Super Dummy]].]]
+
+The '''Ball O' Fugu''' is a [[Pre-Hardmode]] [[flail]] obtained from [[Shadow Chest]]s in the [[Abyss]]. It throws out a pufferfish, which behaves similarly to the [[Flairon]], dispersing homing urchin spikes into its vicinity.
+
+Like the Flairon, it closely resembles a thrown flail. However, it functions more closely similar to items like [[Chain Knife]] and [[Golem Fist]]. It is not affected by gravity, does not remain deployed when holding the fire button, and cannot be swung around. Rather, holding the fire button causes it to auto-fire repeatedly, returning and re-firing when it impacts or reaches its maximum range.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Because the weapon fires thorns while it is out, it can often be beneficial to miss targets to maximize damage output.
+*The Ball O' Fugu can be considered the indirect upgrade to the [[Urchin Flail]].
+*This weapon can also be obtained from the [[Abyssal Crate]] after either [[The Slime God]] or [[Wall of Flesh]] have been defeated.
+
+== Trivia ==
+*In real life, [[wikipedia:Fugu|Fugus]] are pufferfish that are eaten as a Japanese delicacy, after some highly poisonous parts have been removed.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Flails]]

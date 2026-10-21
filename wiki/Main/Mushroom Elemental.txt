@@ -1,0 +1,41 @@
+{{npc infobox
+| type = Flying Enemy
+| environment = Cavern
+| ai = Granite Elemental AI
+| damage = {{element|Poison}} {{dv|20|40}}
+| life = {{dv|25|50}}
+| knockback = {{dv|50%|55%}}
+| defense = 10
+| money = {{sc|3}}
+| debuff = Confused
+| debufftip = Your controls are reversed
+| duration = 3 seconds
+| debuffchance = 100%
+| banner = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Poisoned
+| Glowing Mushroom|6-12| 90%
+| Vicious Mushroom|2-5| 80% (In Crimson worlds only.)
+| Vile Mushroom|2-5| 80% (In Corrupt worlds only.)
+| hurt = NPC_Hit_7.wav
+| killed = NPC_Killed_6.wav
+| vulnerable1 = Fire
+| vulnerable2 = Cold
+| vulnerable3 = Unholy
+| vulnerable4 = Machine
+| resistant1 = Poison
+| resistant2 = Water
+| resistant3 = Holy
+}}
+
+The '''Mushroom Elemental''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Glowing Mushroom biome]] if the player has entered the [[Ocean|Ocean Biome]] previously in their world. They hover above players, raining down floating mushroom spores.
+
+If a Mushroom Elemental and a [[Barocrab]] are within 50 blocks of one another, a small animation will play of the elemental entering the crab, turning it into [[Crabulon]].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}
+[[Category:Glowing Mushroom biome NPCs]]

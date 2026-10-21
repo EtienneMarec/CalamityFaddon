@@ -1,0 +1,28 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 3
+| color = #e4acb4
+| sell = {{value|0|0|3}}
+| hardmode = yes
+| use = 14
+| tooltip = It resonates with otherworldly energy.
+}}
+
+'''Zotplate''' is a craftable [[Hardmode]] [[block]]. It can be used as a building material. Additionally, on the [[Get fixed boi]] seed, it will replace [[Aeroplate]] in the core of the [[Exosphere Bio-center Lab]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Plates}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

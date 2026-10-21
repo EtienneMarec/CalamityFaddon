@@ -1,0 +1,44 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Revengeance mode only}}
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = 5% increased damage reduction<br/>Creates a sanguine aura that decreases the enemy's defense<br/>Click an enemy to lightly damage it, causing it to leak blood<br/>Clicking on enemy more will cause it to leak more blood<br/>Grants additional defense depending on how much blood the enemy leaks<br/>Corrupts a mysterious sparkling liguid found under the ocean<br>'Pure evil'
+| rare = 2
+| sell = {{value|0|2}}
+| stack = 1
+| debuff = Hemophilia
+| debuffchance = 100%
+| debufftip = Your blood is uncontrollably leaking.
+| debuffduration = Up to 10 seconds
+| element1 = Unholy
+| element2 = Stab
+}}
+{{Item drops infobox|Any [[Blood Moon]] enemy (after defeating The Hive Mind or The Perforators)|1|{{revengeance|1%}}}}
+The '''Catarachedrae''' is a [[Pre-Hardmode]] [[Equipment|covering]] dropped by [[Blood Moon]] enemies after defeating [[The Hive Mind]] or [[The Perforators]]. While equipped, it increases the player's [[damage reduction]] by 5%. Additionally, it creates a sanguine aura around the player's cursor, the radius of which is 3 blocks. Whenever an enemy enters the aura, its defense will be reduced by 5. Clicking an enemy will deal 1 classless damage to it and inflict the [[Hemophilia]] debuff for 1 second. While inflicted with the debuff, the enemy will lose defense equal to the debuff's timer. Additionally, the debuff will grant the player extra defense equal to the defense lost by the enemy. The debuff can be stacked up to 10 seconds.
+
+Besides being a covering, Catarachedrae has another use — throwing it into [[Shimmer]] will corrupt it, transforming it into [[Sanguine Shimmer]]. Additionally, the player will get [[Drained Catarachedrae]] as a result of the transformation.
+
+==Crafting==
+
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Notes ==
+*One player can inflict the '''Hemophilia''' debuff only onto 3 enemies.
+*The player cannot inflict the '''Hemophilia''' debuff onto 1 enemy more than 3 times in 1 second.
+* The Catarachedrae can be extremely useful during [[events]] or against [[Challenges|bosses]] with minions due to the clicks piercing up to 3 enemies, while also knocking them back, and granting extra defense with its '''Hemophilia''' debuff.
+* The player can also get Catarachedrae by [[fishing]] during Blood Moon. It is considered a legendary catch.
+
+==Trivia ==
+*Catarachedrae and its variants are used for many components of the [[Edgeterrence]] covering, as a way to represent the classless, typeless and true melee damage types.
+**Catarachedrae itself is used to represent the [[Classless weapons|classless]] damage type.
+
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Combat coverings]]

@@ -1,0 +1,38 @@
+{{item infobox
+| image = Cosmilite Bar.gif
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 9999
+| rare = 14
+| sell = {{value|0|20}}
+| use = 14
+| placeable = yes
+| consumable = yes
+| auto = true
+| hardmode = yes
+| postml = yes
+| tooltip = A chunk of highly-resistant cosmic steel
+}}
+{{item drops infobox
+| [[Disgusting Creature: Dron]]|40-50|100%
+| {{fantag|Deimos, the Starborn Princess}} [[Distortion Essence Sphere]]|{{dv|3-5|4-6}}|100%
+}}
+{{distinguish|Cosmolight|a [[tool]] used to change time}}
+
+'''Cosmilite Bars''' are Godseeker Mode [[bars]]. They are used to craft various items themed around dimensions and space, as well as a myriad of other equipment.
+
+== Crafting ==
+=== Recipes ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Cosmilite Bars originated as a community suggestion from Vladimier on the mod's forum post.
+{{Cosmilite}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

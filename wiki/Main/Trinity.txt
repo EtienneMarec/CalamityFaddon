@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 50
+| knockback = 4.5
+| rare = 5
+| tooltip = Fires a spread of energy bolts
+| sell = {{value|0|7|20}}
+| stack = 1
+| auto = yes
+| use = 17
+| velocity = 11
+| hardmode = yes
+| proj = Amethyst Bolt.png
+| projcaption = Amethyst Bolt
+| proj2 = Ruby Bolt.png
+| proj2caption = Ruby Bolt
+| proj3 = Sapphire Bolt.png
+| proj3caption = Sapphire Bolt
+| element1 = Holy
+}}
+
+The '''Trinity''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. When swung, the sword launches four glowing projectiles in a small spread. The projectiles can be red, purple, or blue, and are unaffected by gravity. All projectiles cannot pierce nor pass through solid tiles.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Cryonic}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:三元寒刃]]
+[[Category:Pages that need recipes]]

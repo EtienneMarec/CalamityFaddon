@@ -1,0 +1,28 @@
+{{item infobox
+|type = Ammunition
+| consumable = yes
+| damage = 11
+| damagetype = ranged
+| stack = 9999
+| rare = 1
+| knockback = 1.25
+| velocity = 1
+| velocitymult = 4
+| tooltip = Gains speed over time
+| sell = {{value|0|0|0|50}}
+| proj = Acceleration Bullet.png
+| projcaption = Acceleration Bullet
+}}
+
+'''Acceleration Rounds''' are [[Hardmode]] [[bullets]] made from a [[Essence of Law]] and [[Musket Ball]]s. The bullets gain speed over time.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Bullets]]
+[[zh:加速弹]]

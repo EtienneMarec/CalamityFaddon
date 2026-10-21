@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 210
+| stack = 9999
+| rare = 1
+| use = 14
+| value = 100
+| color = #e3651c
+| sell = {{value|0|0|2|0}}
+}}
+|{{item drops infobox
+| [[Antlion]]|{{dv|1-2}}| 100%
+| [[Antlion Charger]]|{{dv|2-3}}| 100%
+| [[Antlion Swarmer]]|{{dv|2-3}}| 100%
+}}
+}}
+
+'''Antlion Ore''' is a [[Pre-Hardmode]] [[ore]] that drops from Antlions. It is used to craft [[Antlion Bar]]s at a [[Glass Kiln]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore= yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

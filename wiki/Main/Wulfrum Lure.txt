@@ -1,0 +1,29 @@
+{{infobox wrapper
+|{{item infobox
+| type = Tool
+| stack = 1
+| use = 7
+| fish = 30
+| rare = 3
+| tooltip = Shouldn't electricity deter fish?
+| sell = {{value|0|0|78}}
+| proj = Wulfrum Lure (bobber).png
+| projcaption = Bobber
+| element1 = fire
+| element2 = magic
+}}
+|{{item drops infobox
+|[[Wulfrum Excavator]] {{fantag|Calamity: Community Remix}}|1|100% (while supercharged)
+}}
+}}
+
+The '''Wolf Ram Fishing Pole /  Lure''' is a craftable [[Pre-Hardmode|Godseeker mode]] [[fishing pole]], and upgrade to the The Blue fishing rod It has a base [[fishing power]] of 30, but can be increased to 70 by right clicking with it while an Blood orb is in the player's inventory. While charged with an Energy Orb, it will additionally release pulses that damage enemies. One Energy Orb is consumed per 5 fishing uses, with the fifth bobber reeled back causing the lure to lose its charge. 
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Tools
+| show-main = no
+| show-tool = no
+}}

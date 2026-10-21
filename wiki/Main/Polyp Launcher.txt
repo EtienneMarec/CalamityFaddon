@@ -1,0 +1,33 @@
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 12
+| knockback = 0
+| mana = 10
+| use = 34
+| tooltip = Summons a polyp bunch that launches coral chunks at nearby enemies
+| rare = 2
+| buy = {{value|0|2}}
+| sell = {{value|0|0|40}}
+| stack = 1
+| auto = yes
+| proj = Polyp Chunk.png
+| projcaption = Polyp Chunk
+| proj2 = Polyp Launcher Shrapnel.png
+| proj2caption = Polyp Shrapnels
+| element1 = Water
+| element2 = Stab
+}}
+{{summoned|Polyp Bunch|type=sentry}}
+
+'''Polyp Launcher''' is a [[Pre-Hardmode]] [[sentry]] that is purchased from the [[Sea King]] at any time.  When used, it summons a grounded polyp sentry which inaccurately fires gravity-affected balls of coral at nearby enemies. On hit, the coral chunk bursts into 1-4 fragments which deals half as much damage and knockback.
+
+{{Modifier|summonnokb}}
+
+== Trivia ==
+*A [[wikipedia:Polyp (zoology)|polyp]] is a form of aquatic animals.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-summon = yes
+}}

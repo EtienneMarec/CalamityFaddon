@@ -1,0 +1,22 @@
+{{item infobox
+|type = Ammunition
+|damage = 200
+|critical = 0%
+|stack = 9
+|consumable = yes
+|knockback = 10
+|sell = {{value|0|0|30|0}}
+| proj = Grenade Round.png
+| projcaption = Grenade Round
+|hardmode = yes
+|rare = 8
+|velocity = 12
+}}
+
+'''Grenade Shells''' are [[pre-Hardmode]] [[ammunition]] that are used exclusively by the [[Bazooka]]. They can be purchased from the [[Arms Dealer]] if the Bazooka is in the player's inventory.
+
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-ammo = yes
+}}

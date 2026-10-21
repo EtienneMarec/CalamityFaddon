@@ -1,0 +1,27 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| stack = 1
+| tooltip = 15% increased spy damage
+| rare = 4
+| sell = {{value|0|2|40}}
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Wall of Flesh]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Spy Emblem''' is a [[Hardmode]] [[covering]] dropped by the [[Wall of Flesh]]. While equipped, it increases [[Spy weapons|spy]] damage by 15%. It is the spy-class equivalent of the vanilla  [[tgc:Emblem|class emblems]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

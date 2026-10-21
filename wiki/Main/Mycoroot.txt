@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 10
+| knockback = 1.5
+| rare = 2
+| sell = {{value|0|0|40}}
+| stack = 1
+| auto = yes
+| use =  4
+| velocity = 20
+| tooltip = Fires a stream of short-range fungal roots<br/>Stealth strikes spawn an explosion of fungi spores
+| proj = Fungi Orb.png
+| projcaption = Fungi Spore
+| element1 = Poison
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Crabulon]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Mycoroot''' is a [[Pre-Hardmode]] [[dagger]] that is dropped by [[Crabulon]]. When used, it auto-fires a continuous stream of short-range fungal roots. The fungal roots cannot pierce enemies, nor can they pass through walls.
+
+Performing a [[stealth strike]] with the Mycoroot causes a large amount of fungi spores to burst out of the player. These fungi spores home into nearby enemies shortly after.
+
+{{Modifier|Spy}}
+
+== Tips ==
+*Its insanely fast rate of fire gives it good synergy with the [[Shark Tooth Necklace]] and [[Luxor's Gift]].
+[[File:Mycoroot (demo).gif|frame|right|The Mycoroot in use.]]
+
+== Trivia ==
+*The [[Cosmic Kunai]] functions very similarly to this weapon.
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Daggers]]

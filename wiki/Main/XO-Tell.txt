@@ -1,0 +1,70 @@
+
+{{Addon|Calamity: Distorted Memories}}
+{{item infobox
+| type = Tool
+| use = 30
+| tooltip = Stores messages collected throughout your journey<br/>You can also call anyone that you met<br/>'Yes, we kept the buttons'
+| rare = a
+| sell = {{value|0|0|10|0}}
+| stack = 1
+| sound = ExoPhoneRingtone.mp3
+| soundtext = Incoming Call
+| hardmode = no
+| postml = no
+}}
+
+The '''XO-Tell''' is a usable [[tool]] that is obtained by having the [[Archivist]] fix the [[Derelict Brick]] with 2 [[Energy Core|Energy Cores]].
+
+When used, a menu will pop up with selectable options. The first option is '''Call''', allowing you to contact [[Town NPCs]] you have met. The second option is '''Message''', which stores messages sent by you and ones received from NPCs.
+
+==Controls==
+Use the arrow keys or click on the arrows on the screen to choose which option to select. The arrow keys can also be used to scroll if viewing a long message.
+
+Pressing {{key|enter}} will select the option. Using {{key|backspace}} returns you to the previous page while {{key|esc}} sends you to the main menu.
+
+==Contacts==
+There are specific NPCs you can call after they move in. While an NPC is unavailable, the following message will appear: '''The number you are calling is currently unavailable. Call back another time.'''
+{| class="terraria sortable lined"
+!NPC!!XO-Tell Icon
+|-
+|[[Archivist]]
+|[[File:Archivist_Icon.png]]
+|-
+|[[Sea King]]
+|[[File:Sea_King_Icon.png]]
+|-
+|Beautician
+|[[File:Beautician_Icon.png]]
+|-
+|[[Bandit]]
+|[[File:Bandit_Icon.png]]
+|-
+|Bartender
+|[[File:Bartender_Icon.png]]
+|-
+|[[Archmage]]
+|[[File:Archmage_Icon.png]]
+|-
+|Auric Veteran
+|[[File:Auric_Veteran_Icon.png]]
+|-
+|[[Brimestone Witch]]
+|[[File:Brimstone_Witch_Icon.png]]
+|-
+|}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Notes==
+*If the player dies while on the phone, they will be disconnected.
+
+==Trivia==
+*The XO-Tell resembles mobile touchscreen phones commonly used today, albeit with additional components.
+**The tooltip is a reference to companies removing certain features from modern phones as a business practice.
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-other = yes
+}}

@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 25
+| use = 23
+| knockback = 7
+| tooltip = Slicing foes, it causes a flux of energy to form on the area tearing at them with turbulent forces.<br/>Repeat strikes envelop foes in magnetic flux<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| sell = {{value|0|0|80}}
+| element1 = Stab
+| element2 = Unholy
+| element3 = Machine
+}}
+
+The '''Gauss Dagger''' is a craftable [[Pre-Hardmode]] [[broadsword]]. When used, the player swings a short-ranged dagger that spawns an energy flux on top of enemies when they are struck two times. The flux repeatedly damages enemies that come into contact with it for 3 seconds.
+
+The weapon consumes 0.05 units of [[charge]] per use and has a maximum charge of 50.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:高斯短匕]]

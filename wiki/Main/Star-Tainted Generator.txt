@@ -1,0 +1,41 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip =  +2 max minions, does not stack with downgrades<br/>7% minion damage<br/>Minion attacks spawn astral explosions and inflict several debuffs
+| sell = {{value|0|12}}
+| stack = 1
+| rare = 8
+| hardmode = yes
+| debuff = Electrified
+| debuffchance = 100%
+| debuffduration = 1 second (On minion hits)
+| debufftip = You cannot move
+| debuff2 = Astral Infection (debuff)
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (On minion hits)
+| debufftip2 =Your flesh is melting off
+| debuff3 = Irradiated
+| debuffchance3 = 100%
+| debuffduration3 = 3 seconds (On minion hits)
+| debufftip3 = Your skin is burning off
+}}
+
+The '''Star-Tainted Generator''' is a craftable [[Hardmode]] [[covering]] that functions as a direct upgrade to the [[Jelly-Charged Battery]], [[Nuclear Rod]], and the [[Starbuster Core]]. While equipped the player gains +2 minion slots, which doesn't stack with downgrades, and 7% increased minion damage. In addition to this, all minion attacks spawn a small astral explosion on enemy hits with a one-second cooldown, dealing 40 summon damage, and all minions will inflict the [[Electrified]], [[Astral Infection (debuff)|Astral Infection]], and [[Irradiated]] [[debuffs]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The explosion effect is identical to the [[Starbuster Core]], will be overridden by the [[Nucleogenesis]]'s sparks, and will override [[Nuclear Rod]]'s aura and [[Jelly-Charged Battery]]'s orbs.
+*Its components give more minion slots when worn separately, with the Star-Tained Generator only giving +2 max minions compared to +3.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

@@ -1,0 +1,47 @@
+{{item infobox
+| type = Mount Summon
+| stack = 1
+| tooltip = Summons a drill to drill through the world so you can destroy all the neat world generation<br/>with complete disregard for all the creatures that inhabit these lands. I am sure the EPA and PETA would like<br/>to have a word with you afterwards.<br/>The power of the destruction scales with the highest powered pickaxe in your inventory
+| rare = 3
+| use = 20
+| buff = Onyx Excavator (buff) | bufflink = no
+| bufftip = Drill
+| sell = {{value|0|1|80|0}}
+| boxwidth = 22em
+}}
+{{item drops infobox
+|[[Onyx Kinsman]]|1|{{dv|100%}}
+}}
+{{summoned|Onyx Excavator|type=mount|name=Onyx Excavator}}
+The '''Onyx Excavator Key''' is a [[Pre-Hardmode]] [[mount]] summoning item obtained from the [[Onyx Bio-center]] lab. When used, it summons an Onyx Excavator which acts similarly to the Basilisk summoned by the [[Ancient Horn]] but allows the player to drill through almost all blocks in the game. Like the Basilisk, it can charge enemies and deals 25 damage upon contact. This damage can be boosted through summoner bonuses.
+
+The Onyx Excavator is capable of moving and digging at a speed of 40 mph horizontally and can jump a single block off the ground.
+
+Standing next to blocks and holding the "use" button causes it to mine out most of the blocks on either side of it, and allowing you to use the item you're holding as normal.
+
+While horizontally moving at over half the mount's maximum run speed (20 mph), the player's damage reduction is increased by 10%. This is calculated independently from normal DR and is not affected by Calamity's [[Defense#Vanilla changes|DR scaling system]]. Additionally, all fall damage the player takes while inside the excavator is reduced to 5, increased to 10 in hardmode.
+
+The Onyx Excavator can only dig to the sides. It cannot dig vertically.
+
+== Notes ==
+*Several blocks are specifically blacklisted to prevent sequence breaks:
+**[[Abyss Gravel]], [[Charred Ore]], [[Scoria Ore]], [[Voidstone]], and the [[Eternia Crystal Stand]] cannot be mined at all with the Drill.
+**[[Sunken Sea]] blocks cannot be mined unless the [[Desert Scourge]] has been defeated.
+**[[Hellstone]] cannot be mined unless the player has a pickaxe that can mine them.
+***Similarly, [[Dungeon Brick]]s cannot be mined unless the player has a pickaxe with at least 65% pickaxe power, which is the pickaxe power needed to mine the bricks when they are located in the [[Underground]] Layer and below. Note that this pickaxe power requirement also applies to bricks on the [[surface]] and in [[space]], even though they can be mined with any pickaxe in those layers.
+**[[Cobalt Ore]], [[Palladium Ore]], [[Mythril Ore]], [[Orichalcum Ore]], [[Adamantite Ore]], and [[Titanium Ore]] cannot be mined unless a [[Mechanical Boss]] has been defeated.
+**[[Planty Mush]] and [[Tenebris]] cannot be mined unless [[Calamitas]] or [[Plantera]] have been defeated.
+**[[Chlorophyte Ore]] cannot be mined unless Plantera has been defeated.
+**[[Lihzahrd Brick]]s cannot be mined unless [[Golem]] has been defeated.
+**[[Astral Ore]] cannot be mined unless [[Astrum Deus]] has been defeated.
+*Falling down the edge of a 2-block wide shaft while holding "use" will allow it to mine all nearby blocks, widening the shaft to 5 blocks, while mining most of the 6th column behind it.
+**This could be useful for containing the spreading biomes, as they cannot spread across a 5 block wide gap.
+
+== Trivia ==
+*The mount is a reference to the Acceleration Drill from the [https://forums.terraria.org/index.php?threads/released-wip-terraria-avalon.378/  Avalon Mod], with both digging through tiles in a similar way.
+*The tooltip references [[wikipedia:PETA|PETA]] and [[wikipedia:EPA|EPA]], both being real companies which aim to protect animals and the environment respectively.
+{{Onyx}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

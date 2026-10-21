@@ -1,0 +1,25 @@
+{{npc infobox
+| type = Enemy
+| environment = Ogswarm
+| ai = Darkscule AI
+| damage = {{element|Dark}} {{dv|30|60}}
+| life = {{dv|50|80}}
+| defense = 0
+| dr = 0%
+| knockback = 0
+| money = {{value|0|0|0|1}}
+| debuff = Darkness
+| debuffchance = 25%
+| duration = 10 seconds
+| hurt = NPC_Hit_54.wav
+| killed = NPC_Killed_52.wav
+| vulnerable1 = Magic
+| resistant1 = Dark
+}}
+The '''Darkscule''' is a Pre-[[Hardmode]] [[enemy]] which spawns during the [[Ogswarm]]. It floats around the player attempting to get close, similar to [[tgc:Meteor Head|Meteor Heads]]. If it gets too close to the player, it explodes into a bunch of <font face="thecalamity" color="#ff0000"><span style="text-shadow: 0 0 20px black;">'''Calamity'''</font> Lasers. In order to prevent them from exploding, they can be killed with a ranged weapon before being allowed to get too close. '''Darkscules''' are also spawned by the [[The Calamity]] in its second phase.
+{{-}}
+
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

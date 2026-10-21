@@ -1,0 +1,38 @@
+{{item infobox	
+| type = Weapon
+| damage = 120
+| damagetype = Ranged
+| knockback = 2.75
+| stack = 1
+| rare = 9
+| sell = {{value|0|19}}
+| auto = yes
+| use = 15
+| velocity = 12
+| critical = 29%
+| tooltip = Converts musket balls into homing astral rounds
+| hardmode = yes
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 2 seconds
+| proj = Astral Round.png
+| projcaption = Astral Round
+| element1 = Magic
+| element2 = Poison
+}}
+
+The '''Astral Blaster''' is a craftable [[Hardmode]] [[gun]]. When [[Musket Ball]]s are used for [[ammo]], bullets fired become astral rounds that home in on [[enemies]] and inflict the [[Astral Infection (debuff)|Astral Infection]] [[debuff]].
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Astral}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

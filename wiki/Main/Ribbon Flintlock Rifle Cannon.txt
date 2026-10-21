@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 134
+| use = 16
+| knockback = 6
+| auto = yes
+| stack = 1
+| rare = 13
+| velocity = 9
+| sell = {{value|0|12}}
+| tooltip = 50% chance to not consume ammo<br/>Fires a powerful sniper round<br/>Right click to cause all active bullets to shoot ribbons at enemies, pulling themselves inwards<br/>'You’re not just giving us back our hope. But you’re becoming hope itself!'
+| hardmode = yes
+| postml = yes
+| element1 = Holy
+| element2 = Magic
+| element3 = Dark
+| element4 = Machine
+}}
+
+The '''Ribbon Flintlock Rifle Cannon''' is a craftable Godseeker Mode [[gun]]. Left clicking shoots out gold-colored bullets. Right clicking causes all active bullets to stop in place, shoot a yellow tendril at the nearest valid enemy, then shoot towards said enemies. Ribbons deal 200% of the weapon's damage.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Magical}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

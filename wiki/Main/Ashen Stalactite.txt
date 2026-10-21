@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 37
+| use = 17
+| knockback = 1
+| velocity = 15
+| tooltip = Throws a fast, small stalactite that crumbles to dust after travelling a short distance<br/>Stealth strikes cause a larger, more damaging stalagmite to be thrown which travels slower and further before crumbling to damaging dust
+| auto = yes
+| sell = {{value|0|0|20}}
+| stack = 1
+| rare = 3
+| proj = Ashen Debris.png
+| projcaption = Ashen Debris
+| proj2 = Ashen Stalagmite.png
+| proj2caption = Ashen Stalagmite
+| element1 = Unholy
+| element2 = Fire
+| element3 = Stab
+}}
+|{{item drops infobox
+| [[Fire Imp]] | 1 | {{dv|10%|16%}}
+}}
+}}
+
+The '''Ashen Stalactite''' is a [[Pre-Hardmode]] [[dagger]] that is dropped by [[Fire Imp]]s. It automatically throws a gravity-affected stalactite that does not pierce and breaks into cosmetic dust shortly after.
+
+Performing a [[stealth strike]] with the Ashen Stalactite will cause the next stalactite thrown to be larger, travel slower, have a longer lifespan, and break into piercing, damaging dust.
+
+{{Modifier|Spy}}
+
+== Tips ==
+*Due to its high damage and fast speed, this weapon is a very good early game choice for the [[Spy|spy]] class.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Daggers]]

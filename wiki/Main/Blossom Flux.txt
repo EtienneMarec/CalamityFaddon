@@ -1,0 +1,55 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 20
+| damagetype = Ranged
+| knockback = 0.15
+| stack = 1
+| auto = yes
+| use = 16
+| velocity = 10
+| tooltip = Fires a stream of leaves<br/>Right click to fire a spore orb that explodes into a cloud of spore gas
+| hardmode = yes
+| rare = 7
+| sell = {{value|0|9|60}}
+| proj = Leaf Arrow.png
+| projcaption = Leaf Arrow
+| proj2 = Spore Bomb.png
+| proj2caption = Spore Bomb
+| proj3 = Spore Gases.png
+| proj3caption = Spore Gases
+| element1 = Poison
+}}
+|{{item drops infobox
+| [[Plantera]] | 1 | 10%
+}}
+}}
+
+The '''Blossom Flux''' is a [[Hardmode]] [[bow]] that is dropped by [[Plantera]]. It has two modes of attack: its primary fire (left-click) will shoot leaf arrows at a very high rate, and its secondary fire (right-click) launches a spore orb that travels in a wave pattern and explodes into spore clouds upon impact.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Due to its incredible rate of fire and lack of inherent chance to not consume ammo, this weapon can drain arrow reserves extremely quickly.
+**Conversely, the [[Endless Quiver]] is very useful when paired with the Blossom Flux.
+*The primary fire has a fixed use time of 16 ticks, and the secondary fire has a fixed use time of 25 ticks; as a result, no modifier can increase or decrease the firing rate of the bow.
+*The secondary fire's spore orbs can inflict critical hits upon striking an enemy, but the gas clouds emitted by the orbs cannot.
+
+== Tips ==
+*Use [[Cursed Arrow]]s or [[Venom Arrow]]s with this weapon, as it does not gain any benefit from ammo choice besides raw damage.
+*The velocity of the leaf arrows fired by Blossom Flux is low, but can be improved with speed-increasing modifiers such as '''Hasty''' or '''Rapid''', with the [[Archery Potion]] buff, or by equipping the [[Magic Quiver]].
+
+== Trivia ==
+*The Blossum Flux's color scheme is similar to that of [[Uelibloom Bar|Uelibloom]] equipment, although it cannot be crafted.
+[[File:Blossom Flux (demo).gif|frame|left|The left-click and right-click attacks of the Blossom Flux. Note the spores for the right-click effect.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

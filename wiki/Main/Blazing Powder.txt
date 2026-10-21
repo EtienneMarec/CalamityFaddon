@@ -1,0 +1,31 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Covering
+| damage = 25
+| tooltip = Every other ranged attack creates an astral fireball that deals damage and sets your enemies on fire.
+| stack = 1
+| rare = 5
+| hardmode = yes
+| sell = {{value|0|3|32}}
+| debuff = Hellfire
+| debuffduration = 5 seconds
+| proj = Astral Fireball.gif
+| projcaption = Astral Fireball
+| element1 = Fire
+}}
+
+
+'''Blazing Powder''' is a craftable [[Hardmode]] [[coverings|covering]] that creates an astral fireball every other ranged attack.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]

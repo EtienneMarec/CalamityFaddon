@@ -1,0 +1,35 @@
+{{addon|Calamity: Community Remix}}
+you can find this in the [[The Underworld|underworld]]{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 300
+| knockback = 13
+| rare = 16
+| sell = {{value|0|0|0|0|1}}
+| stack = 1
+| auto = yes
+| use = 8
+| critical = 16%
+| velocity = 20
+| tooltip = The sword was holding back its power...<br/>Left click to unleash a storm of rock shards<br/>Right click to perform a groundpound that unleashes a large explosion of rocks upon impact
+| hardmode = yes
+| proj = Rox (projectile).png
+| projcaption = Rox
+| element1 = Holy
+| element2 = Stab
+| element3 = Smash
+}}
+
+'''Rox''' is a craftable [[Hardmode]] [[melee weapon]]. When used, it fires a slightly uneven spread of rock shards. Rocks have a 33% chance to bounce five times before dissipating, and a 10% chance to split into 8 normal rocks. Right clicking causes the player to rapidly descend downwards with invincibility. Upon hitting an enemy or tile, a powerful screenshake occurs and a large amount of rocks are unleash from the position the player landed. Each one of these rocks deals 10% of the weapon's damage.
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Melee weapons]]

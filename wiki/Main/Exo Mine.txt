@@ -1,0 +1,35 @@
+{{npc infobox
+| type = Enemy
+| environment = Underground
+| environment2 = The Exosphere
+| ai = Exo Mine AI
+| damage = {{element|Poison}} {{dv|300|700}} (Volatile Plasma Blast)<br/>{{element|Fire}} {{dv|90,000|490,000}} (Explosion)
+| life = {{dv|175,000|350,000}}
+| defense = 100
+| knockback = 100
+| money = {{value|0|0|00|00|1}}
+| Exo Core|5|100%
+| Exo Prism|10-15|100%
+| immune1 = Kami Flu
+| immune2 = Confused
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Hit_4.wav
+| sound = PlasmaCasterFire.wav
+| soundtext = Plasma Shot
+| sound2 = Item_93.wav
+| sound2text = Plasma Explosion
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Magic
+| resistant1 = Poison
+| resistant2 = Water
+| resistant3 = Machine
+}}
+
+The '''Exo Mine (Japanese: エクソマイン Ekusomain)''' is an [[enemy]] found in the [[Underground]] layer or towards the bottom of [[The Exosphere]]. It floats in place while firing {{item|Volatile Plasma Blast|s|link=|ext=gif|size=12px}} in a cross pattern, then rotating its turrets, firing again and repeating. After reaching 50% health, it supercharges, firing and rotating its turrets more quickly. After several seconds it glows white and explodes, destroying tiles in a 39,916,800 block radius.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

@@ -1,0 +1,22 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| rare = 15
+| stack = 9999
+| sell = {{value|0|20|0|0}}
+}}
+|{{item drops infobox
+| [[Clockwork Bat]] | 1 |1%
+}}
+}}
+
+The '''Metal Feather''' is a Godseeker Mode [[crafting material]] that drops from [[Clockwork Bat|Clockwork Bats]]. It is used to craft the Iron Wings.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

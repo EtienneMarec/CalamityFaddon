@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 46
+| knockback = 6.5
+| use = 34
+| velocity = 12
+| tooltip = Fishy bombers inbound!<br/>Launches a skyfin nuke that homes in on enemies below it<br/>Stealth strikes rapidly home in regardless of enemy position
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| debuffduration = 2 seconds (Nuke, Cloud)<br/>3 seconds (Irradiated Aura)
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|7|20}}
+| proj = Skyfin Gas Cloud.png
+| projcaption = Skyfin Gas Cloud
+| element1 = Radioactive
+| element2 = Water
+| element3 = Bomb
+}}
+|{{item drops infobox
+| [[Skyfin]] (Tiers 2 & 3) | 1 | 5%
+}}
+}}
+
+The '''Skyfin Bombers''' is a [[Hardmode]] [[bombs|bomb]] that drops from [[Skyfin]]s after defeating the [[Aquatic Scourge]]. It throws Skyfin bombs that only seek towards enemies that are below them, erupting into three sulphuric clouds on impact.
+
+Performing a [[stealth strike]] with the Skyfin Bombers causes the nuke to home regardless of position and will cause a massive irradiated aura on hits.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon can also be obtained from the [[Abyssal Crate]] after completing Tier 2 [[Acid Rain]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Bombs]]

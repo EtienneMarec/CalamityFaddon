@@ -1,0 +1,43 @@
+{{dedicated|Daawnily|Patreon Donator}}
+{{item infobox
+| type = Covering
+| tooltip = All nearby enemies and bosses are marked with bullseyes<br/>Ranged attacks that strike a bullseye always critically strike and deal massive damage<br/>When a bullseye is struck, it vanishes and a new one appears elswhere<br/>Explosions or large projectiles cannot strike bullseyes<br/>Converts all ranged critical strike chance boosts into extra critical strike damage<br/>All ranged weapons will deal even more critical strike damage the slower they are<br/>Summons a heroic spirit from another world if covering visibility is enabled<br/>The heroic spirit is also summoned when this covering is placed in vanity slots<br/>'A strand of a lost cosmos remains, waiting for its master'
+| rare = 14
+| sell = {{value|0|28}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| image2 = Daawnlight Spirit Origin Regular Bullseye.png
+| image2caption = Regular Bullseye
+| image3 = Daawnlight Spirit Origin Boss Bullseye.gif
+| image3caption = Boss Bullseye
+| buff = Archer of Lunamoon | bufflink = no
+| bufftip = You have a personal spotter
+}}
+{{summoned|Daawnlight|type=pet|image=[[File:Daawnlight Spirit Origin Pet.png]]}}
+
+The '''Daawnlight Spirit Origin''' is a craftable Godseeker Mode [[covering]]. When equipped, the player's ranged critical strike chance is reset to 4%. Enemies and bosses will be marked with a bullseye at a random location. When the center of the bullseye is struck with a smaller ranged projectile, the critical strike damage increases from 2x to 3.5x, increasing further if the weapon is slower and even further if the player has boosts to ranged critical strike chance. The bullseye disappears when struck or after 5 seconds have passed, and another will spawn 0.75 seconds after. The item also summons a harmless Archer familiar that points at enemies and can be toggled with the covering's visibility. 
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Weapons with a use time higher than 11 can gain higher critical strike damage. The amount of damage gained is equal to (Use time - 11)/61 * 33%, up to a maximum of 33% damage at 72 use time.
+*The critical strike chance to bullseye critical strike damage conversion ratio is 1:1. This means that if the player has 10% increased critical strike chance, the critical strike damage when landing a bullseye will also increase by 10%.
+*The bullseye effect will only trigger if at least one dimension of a projectile is less than 36 pixels.
+*The hitbox sizes of the bullseyes are 8x8 pixels (0.5x0.5 tiles) and 18x18 pixels (1.125x1.125 tiles) for the regular and boss marks respectively.
+*The  Archer familiar is able to destroy vines, plants and the [[tgc:Queen_Bee|Queen Bee]] [https://terraria.fandom.com/wiki/Larva?so=search larva].
+
+== Trivia ==
+*The item's name and sprite is based on the [https://grandorder.wiki/Unregistered_Spirit_Origin Unregistered Spirit Origin] from ''[[wikipedia:Fate/Grand Order|Fate/Grand Order]]''.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

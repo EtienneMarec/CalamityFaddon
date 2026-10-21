@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = summon
+| damage = 213
+| use = 16
+| mana = 20
+| knockback = 3
+| tooltip = Takes up 5 minion slots to summon a swarm of five Miracle Blighted Eyes<br/>Hold right click on an enemy to channel a sigil on them<br/>Once the sigil reaches full size, the masses form a star around the target and fire beams inwards<br/>Only one set of masses can exist
+| buff = Miracle Blighted Eyes (buff) | bufflink = no
+| bufftip = An eye on everyone
+| rare = 15
+| sell = {{value|0|21}}
+| hardmode = yes
+| postml = yes
+| element1 = Holy
+| element2 = Magic
+| element3 = Poison
+| element4 = Machine
+}}
+{{summoned|Miracle Blighted Eye|type=minion|image=[[File:Miracle Blighted Eye.png]]}}
+
+'''Vitreomance''' is a craftable Godseeker Mode [[summon weapon]]. It uses five minion slots to summon a swarm of five Miracle Blighted Eyes minions which cycle between charging at enemies in a line, firing homing exo bolts, and rotating close to enemies while growing flower petals to expand their hitbox. Holding right click channels a sigil on an enemy on the cursor. If the cursor is kept on the enemy for 5 seconds, the eyes lock to an evenly spread star position around the enemy and fire large exo beams inwards. 
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+== Trivia ==
+*Real life vitreous is the fluid found on eyes.
+{{Exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

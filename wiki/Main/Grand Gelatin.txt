@@ -1,0 +1,24 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = 10% increased movement and jump speed<br/>5% reduced stealth cost<br/>+20 max life and mana<br/>Standing still boosts life and mana regen
+| rare = 5
+| sell = {{value|0|4|80}}
+| stack = 1
+| hardmode = yes
+}}
+
+The '''Grand Gelatin''' is a craftable [[Hardmode]] [[covering]] that is an upgrade of [[Life Jelly]], [[Mirage Jelly (item)|Mirage Jelly]], [[Mana Jelly]] and [[Vital Jelly]].  It gives the bonuses of all its ingredients, therefore saving space for more covering slots. It is later used in crafting [[The Absorber]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Restorative coverings]]

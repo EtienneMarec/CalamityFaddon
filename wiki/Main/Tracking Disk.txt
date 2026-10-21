@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 25
+| use = 41
+| velocity = 10
+| knockback = 3
+| tooltip = A weapon that, as it flies, processes calculations and breaks<br/>Releases a flying disk that breaks<br/>Stealth strikes allow the disk to break faster<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| sell = {{value|0|0|80}}
+| element1 = Slash
+| element2 = Fire
+| element3 = Electricity
+| element4 = Machine
+}}
+
+The '''Tracking Disk''' is a craftable [[Pre-Hardmode]] [[Spy]] [[boomerang]]. When thrown, the disk detects its nearest enemy and spins around it, occasionally slashing through the enemy, damaging the disk. Once damaged, the disk must be picked up to be used again. After the disk is damaged a total of 4 times, it will shatter and not drop as an item. The disk can also be broken by throwing it into a solid block.
+
+Performing a [[stealth strike]] with the Tracking Disk causes the resulting disk to travel 500% faster, often causing it to crash into a wall. The disk will also shatter once it hits an enemy, no matter what amount of damage it has sustained previously.
+
+The weapon consumes 0.08 units of [[charge]] per use and has a maximum charge of 50.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+
+== Notes ==
+
+* The Tracking Disk is an extremely powerful Spy weapon and can easily manage against every pre-hardmode boss, even on higher difficulties such as [[Revengeance Mode]] or [[Death Mode]]. With the use of the [[Ichor (debuff)]] against enemies, it can even outclass some early hardmode Spy weapons with its tracking capabilities and extremely strong stealth strike.
+**After the rework, it is no longer viable, as it can be used up to 4 (1 with a stealth strike) times before breaking.
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

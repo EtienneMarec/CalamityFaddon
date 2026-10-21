@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 128
+| use = 15
+| knockback = 4.25
+| auto = yes
+| stack = 1
+| tooltip = Fires a chain of 5 arrows from the sky<br/>Wooden arrows are converted into homing bloodfire arrows
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debufftip = Rapid health loss
+| debuffduration = 6 seconds
+| rare = 12
+| velocity = 30
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| element1 = Fire
+| element2 = Unholy
+}}
+The '''Arterial Assault''' is a craftable Godseeker Mode [[bow]] made from [[Bloodstone Core]]s. It converts normal [[Wooden Arrow]]s into homing [[Bloodfire Arrow]]s upon use, which inflict the [[Brimstone Flames]] [[debuff]] and have a 33.33% chance to [[Lifesteal|heal]] the player for 1 HP upon hitting enemies. The bow rapidly fires chains of 5 arrows from the sky per use, consuming 5 arrows at once. Arrows fired from this bow pass through tiles. Each arrow shot has a use time of 3.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Bloodstone}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]
+[[Category:Healing items]]

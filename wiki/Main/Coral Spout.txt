@@ -1,0 +1,32 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 17
+| mana = 4
+| use = 26
+| velocity = 16
+| knockback = 2
+| auto = yes
+| stack = 1
+| tooltip = Casts coral water spouts that lay on the ground and damage enemies
+| rare = 2
+| sell = {{value|0|0|40}}
+| proj = Coral Spike.png
+| projcaption = Coral Spike
+| element1 = Water
+}}
+
+The '''Coral Spout''' is a craftable [[Pre-Hardmode]] [[spell tome]]. It fires relatively large balls of coral that lay on the ground and damage enemies in a similar fashion to [[Spiky Ball]]s. These balls of coral will almost immediately halt all horizontal movement after being fired. They can attain large amounts of vertical speed, though, allowing the player to shoot at things above them.
+
+{{Modifier|magiclow}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Victide}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

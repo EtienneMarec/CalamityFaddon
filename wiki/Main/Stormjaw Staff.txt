@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 0.1
+| mana = 10
+| knockback = 2
+| use = 34
+| tooltip = Summons a baby stormlion to fight for you
+| buff = Baby Stormlion (buff) | bufflink = no
+| bufftip = The baby stormlion will protect you
+| stack = 1
+| auto = yes
+| rare = 2
+| sell = {{value|0|0|40}}
+| element1 = Water
+| element2 = Stab
+| element3 = Electricity
+}}
+|{{item drops infobox
+| [[Stormlion]] | 1 | 20%
+}}
+}}
+{{summoned|Baby Stormlion|type=minion}}
+
+The '''Stormjaw Staff''' is a [[Pre-Hardmode]] [[summon weapon]] that drops from [[Stormlion]]s. When used, it summons a miniature Stormlion minion. It runs on the ground and aggressively rams enemies back and forth, does not deal contact damage but creates damaging sparks in contact with enemies. Sparks linger for 2 seconds and partially ignore [[immunity frames]], in a similar manner to the [[Amidias' Spark]].
+
+{{Modifier|summonalt}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

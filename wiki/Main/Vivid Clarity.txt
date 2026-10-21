@@ -1,0 +1,59 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 155
+| mana = 42
+| stack = 1
+| tooltip = Fires five randomized beams of elemental energy at the cursor<br/>On enemy and tile hits, beams either explode into a big flash,<br/>summon an additonal laser from the sky,<br/>or split into energy orbs<br/>Its majesty inspires a stroke of unparalleled genius
+| knockback = 7.5
+| velocity = 6
+| rare = 15
+| sell = {{value|0|30}}
+| use = 20
+| hardmode = yes
+| postml = yes
+| debuff = Exo Freeze
+| debuffduration = 0.5 seconds
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 2 seconds
+| debuffchance2 = 100%
+| debuff3 = Frostburn
+| debuffduration3 = 2.5 seconds
+| debuffchance3 = 100%
+| debuff4 = On Fire!
+| debuffduration4 = 3 seconds
+| debuffchance4 = 100%
+| element1 = Fire
+| element2 = Magic
+| element3 = Cold
+| element4 = Machine
+}}
+
+The '''Vivid Clarity''' is a craftable Godseeker Mode [[wand]] and the final upgrade of the [[Night's Ray]] or [[Carnage Ray]]. It fires a set of 5 beams towards the player's cursor that breaks upon contact with an enemy or tile. Once it breaks, it does one of the following:
+*Summons a beam from the sky that rebound off of walls and pierces [[enemies]] up to 9 times. The beam deals 70% of the base damage, increasing by 20% when bouncing off a tile and by 10% when piercing an enemy. Enemies that are within nearby range of the beam will be struck with additional smaller beams with less lifespan.
+*Forms a massive short-lasting explosion that deals double of the weapon's base damage and ignores [[immunity frames]].
+*Bursts into eight homing bolts.
+
+When Vivid Clarity hits an enemy, it will inflict the following [[debuffs]]:
+*[[Exo Freeze]] (0.5 seconds)
+*[[Holy Flames]] (2 seconds)
+*[[Frostburn]] (2.5 seconds)
+*[[On Fire!]] (3 seconds)
+
+{{Modifier|magic}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Vivid Clarity/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

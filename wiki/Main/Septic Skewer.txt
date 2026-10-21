@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 272
+| damagetype = Ranged
+| knockback = 7.5
+| use = 12
+| velocity = 25
+| tooltip = Launches a spiky harpoon infested with toxins<br/>Releases bacteria when returning to the player
+| auto = yes
+| stack = 1
+| rare = 13
+| hardmode = yes
+| postml = yes
+| debuff = Sulphuric Poisoning
+| debuffchance = 100%
+| debuffduration = 3 seconds (Harpoon)
+| debufftip = The acidic water burns away your flesh
+| debuff2 = Venom
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds (Bacteria)
+| debufftip2 = Losing life
+| sell = {{value|0|26}}
+| proj = Septic Harpoon.png
+| projcaption = Septic Harpoon
+| element1 = Poison
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Cragmaw Mire]] | 1 | 25% / {{expert|33.33%}} (tier 3)
+}}
+}}
+
+The '''Septic Skewer''' is a Godseeker Mode [[ranged weapon]] that drops from [[Cragmaw Mire]]s. It automatically launches a harpoon that pierces indefinitely and is unaffected by gravity. The harpoon returns to the player after travelling 125 blocks or upon tile collision, gaining extra speed and randomly releasing bacteria particles on its way back. Bacteria particles deal 40% of the harpoon's damage, can travel through solid blocks, and decelerate to a stop before disappearing after contacting an enemy or five seconds have passed. Both the harpoon and its bacteria inflict the [[Sulphuric Poisoning]] [[debuff]].
+
+{{Modifier|ranged}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

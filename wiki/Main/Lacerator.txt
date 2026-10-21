@@ -1,0 +1,46 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 107
+| reach = 35
+| attduration = {{infinity}}
+| knockback = 7
+| use = 20
+| stack = 1
+| auto = yes
+| tooltip = Enemies that are hit by the yoyo will have their life drained<br/>A very agile yoyo<br/>Someone thought this was a viable weapon against DoG at one point lol
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| proj = Lacerator Yoyo.png
+| projcaption = Lacerator
+| element1 = Dark
+| element2 = Unholy
+| element3 = Poison
+}}
+The '''Lacerator''' is a craftable Godseeker Mode [[Yoyos|yoyo]] made from [[Bloodstone Core]]s. It grants +2 life regeneration upon hitting an enemy which resets after being hit by an enemy, or after 60 seconds.
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The Lacerator moves extremely quickly compared to other yoyos, allowing it to more easily track fast enemies.
+
+== Trivia ==
+*The Lacerator is the only yoyo added by the Calamity Mod that does not have projectiles.
+*Previously, the Lacerator had been renamed to "Not Viable" after getting nerfed in [[1.2.2.001]]. However, after a buff in [[1.2.3.005]] it was changed to "Viable?", and it was changed back to "Lacerator" in [[1.2.3.006]].
+**Additionally in previous versions of the mod, the Lacerator had an invisible aura which would rapidly damage enemies within it, similar to the current ability of [[The Microwave]].
+*The second tooltip and the name change to "Not Viable" are both a reference to the yoyo being nerfed to be ineffective against [[The Devourer of Gods]].
+
+{{Bloodstone}}
+{{Master Template Weapons
+| show-main  = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]
+[[Category:Healing items]]

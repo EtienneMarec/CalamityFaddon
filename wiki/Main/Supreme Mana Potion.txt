@@ -1,0 +1,29 @@
+{{item infobox
+| type = Potion
+| stack = 9999
+| mheal = 400
+| use = 17
+| consumable = yes
+| rare = 11
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|1|30}}
+}}
+
+The '''Supreme Mana Potion''' is a Godseeker Mode [[potion]] crafted using a [[Super Mana Potion]] and [[Phantoplasm]]. Upon drinking, it restores 400 of the player's mana and inflicts the [[Mana Sickness]] [[debuff]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*It restores the same amount of mana as the [[tgc:Strange Brew|Strange Brew]]. However, it does not inflict the [[Potion Sickness]] debuff on use, making it far more ideal for usage during [[boss]] battles that require frequent health and mana restoration.
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}
+[[Category:Healing items]]

@@ -1,0 +1,3 @@
+<includeonly>{{#invoke:Recipes|register}}</includeonly><noinclude><!--
+
+-->{{#cargo_attach:_table=Recipes}}{{lua|Recipes}}{{doc}}</noinclude>

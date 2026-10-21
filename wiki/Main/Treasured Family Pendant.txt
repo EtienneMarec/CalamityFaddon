@@ -1,0 +1,23 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Covering
+| tooltip = Increases Acceleration by 50%<br/>Increases Damage Reduction by 8%<br/>This DR is unaffected by scaling and debuff<br/>Emits faint light when worn<br/>{{color|"It holds the picture of a certain naive orphan's family that she treasures in her memory..."|#ffbe3b}}
+| sell = {{value|0|1|0|0}}
+| rare = 2
+| stack = 1
+}}
+
+The '''Treasured Family Pendant''' is a [[Pre-Hardmode]] [[coverings|covering]] that can be rarely found in Gold Chests found in the [[Underground]] and [[Cavern]] biomes. When equipped, it increases the player's acceleration and deceleration by 50%. This stacks with the [[tgc:Hermes Boot|Hermes Boot]] and its variants/upgrades. It also emits a faint light and increases Damage Reduction by 8%. This DR gain is calculated ''after'' everything else, meaning it is not affected by neither DR scaling nor debuffs that reduces DRs.
+
+== Notes ==
+*This has a 1/30 (3.23%) chance to appear in any underground gold chests.
+
+== Trivia ==
+*This item is directly based on the same pendant that [https://ongezellig.fandom.com/wiki/Coco Coco Schoppenboer-Potgieter] wears nearly all the time in the dutch webcartoon "Ongezellig".
+**Its tooltip also directly references it containing her deceased family's photo.
+
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

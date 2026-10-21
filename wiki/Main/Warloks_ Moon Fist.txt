@@ -1,0 +1,30 @@
+{{item infobox
+| type = Covering
+| rare = 14
+| tooltip = Melee attacks and projectiles inflict nightwither and have a 10% chance to instantly kill normal enemies<br/>Grants the user 60% increased true melee damage on true melee hits<br/>25% increased melee speed, damage, and 5% increased melee critical strike chance<br/>50% increased true melee damage<br/>Temporary immunity to lava<br/>Increased melee knockback
+| stack = 1
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| buff = Moon Fist (buff)
+| bufftip = Increased melee damage
+}}
+
+The '''Warlok's Moon Fist''' is a craftable Godseeker Mode [[covering]]. It provides a 25% increase to melee speed and damage and a 5% increase to melee critical strike chance, a 50% increase to [[true melee]] damage, increases melee knockback, and gives the player temporary immunity to lava. The covering also has a 10% chance to kill any non-boss [[enemy]], and inflicts the Moon Fist buff on the player upon true melee strikes which increase true melee damage by an additional 60%. Enemies struck while wearing the gauntlet are also inflicted with [[Nightwither]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used In===
+{{Recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The effects of this also apply to melee damage dealt by friendly NPCs.
+*The true melee damage bonus from the covering does not stack with its Gauntlet-themed downgrades ([[Fire Gauntlet]] and lower).
+**However, [[Yharim's Insignia]] isn't affected by this, totalling 30% increased true melee damage when stacked.
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

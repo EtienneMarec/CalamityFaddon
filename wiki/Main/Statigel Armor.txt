@@ -1,0 +1,114 @@
+{{item infobox
+| type = Armor
+| defense = 27/25/23/22/24
+| rare = 4
+| sell = {{value|0|2|40}} (set)
+| buff = Baby Slime God (buff) | bufflink = no
+| bufftip = The slime god will protect you
+| duration = Infinite (Hood)
+| setbonus = When you take over 100 damage in one hit you become immune to damage for an extended period of time<br/>Grants an extra jump and increased jump height<br/>12% increased jump speed<br/><br/>'''Helm''': Enemies are more likely to target you<br/><br/>'''Hood''': 18% increased minion damage and +1 max minion. Summons a mini Slime God to fight for you, the type depends on what world evil you have<br/><br/>'''Mask''': Spy stealth builds while not attacking and slower while moving, up to a max of 100<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+| resistance1 = Dark
+| resistance2 = Water
+| resistance3 = Poison
+| resistance4 = Stab
+| resistance5 = Slash
+| vulnerable1 = Fire
+| vulnerable2 = Unholy
+}}
+{{summoned|Baby Slime God|type=minion}}
+
+'''Statigel armor''' is a craftable [[Pre-Hardmode]] [[Covering]] set made from [[Purified Gel]] and [[Aerialite Bar]]s, and is a direct upgrade to [[Gel armor]]. It requires 19 Purified Gel and 33 Aerialite Bars (33 [[Obsidian]] and 99 [[Hellstone|Aerialite]]) to make the whole set or 39 Purified Gel and 69 Aerialite Bars (69 Obsidian and 207 Aerialite) for a set with all five headpieces.
+
+It consists of '''Statigel Armor''', '''Statigel Greaves''' and five different headpieces: '''Statigel Helm''', '''Statigel Headgear''', '''Statigel Cap''',  '''Statigel Hood''' and '''Statigel Mask'''.
+
+The '''Statigel Armor''' gives 10 defense and +5% increased critical strike chance; and the '''Statigel Greaves''' give 8 defense, 5% increased damage, and 5% increased movement speed.
+
+*The '''Statigel Helm''' gives 9 defense, 10% increased melee damage, 7% increased melee critical strike chance, and 10% increased melee speed.<br/>Its set bonus grants an additional 400 [[Aggro]].
+*The '''Statigel Headgear''' gives 7 defense, 10% increased ranged damage, and 7% increased ranged critical strike chance.
+*The '''Statigel Cap''' gives 5 defense, 10% increased magic damage, 7% increased magic critical strike chance, 10% decreased mana cost, and +30 max mana.
+*The '''Statigel Hood''' gives 4 defense, increased minion knockback<br/>Its set bonus gives an additional 18% minion damage and +1 max minion, and summons a Baby Slime God that will attack enemies.
+**The Baby Slime God moves and attacks like any other slime minion, dealing 26 damage. The color of the minion depends on the world's evil biome.
+*The '''Statigel Mask''' gives 6 defense, 10% increased Spy damage, 7% increased Spy critical strike chance, 5% increased movement speed and 34% chance to not consume thrown items.<br/>Its set bonus gives a maximum [[Spy stealth]] of 100.
+
+Equipping a full set will always increase the player's jump height by 5 blocks and jump speed by 30%, along with adding an extra jump which emits blue gel-like particles below the player when performed. Additionally, taking over 100 damage in one hit grants the player 30 extra [[immunity frames]].
+
+A full set will always provide a total of at least 22 defense, 5% increased damage, critical strike chance, and movement speed.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox| name = Statigel Armor
+| type = Armor
+| defense = 10
+| body slot = Shirt
+| tooltip = 5% increased critical strike chance
+| sell = {{value|0|0|80}}
+}}
+|{{item infobox
+| name = Statigel Greaves
+| type = Armor
+| defense = 8
+| body slot = Pants
+| tooltip = 5% increased damage and movement speed
+| sell = {{value|0|0|60}}
+}}
+}}
+
+=== Helmet variants ===
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Statigel Helm
+| type = Armor
+| defense = 9
+| body slot = Helmet
+| tooltip = 10% increased melee damage and melee speed<br/>7% increased melee critical strike chance
+| sell = {{value|0|1}}
+}}
+|{{item infobox
+| name = Statigel Headgear
+| type = Armor
+| defense = 7
+| body slot = Helmet
+| tooltip = 10% increased ranged damage<br/>7% increased ranged critical strike chance
+| sell = {{value|0|1}}
+}}
+|{{item infobox
+| name = Statigel Cap
+| type = Armor
+| defense = 5
+| body slot = Helmet
+| tooltip = 10% increased magic damage and 10% decreased mana cost<br/>7% increased magic critical strike chance and +30 max mana
+| sell = {{value|0|1}}
+}}
+|{{item infobox
+| name = Statigel Hood
+| type = Armor
+| defense = 4
+| body slot = Helmet
+| tooltip = Increased minion knockback
+| sell = {{value|0|1}}
+}}
+|{{item infobox
+| name = Statigel Mask
+| type = Armor
+| defense = 6
+| body slot = Helmet
+| tooltip = 10% increased Spy damage and 34% chance to not consume thrown items<br/>7% increased Spy critical strike chance and 5% increased movement speed
+| sell = {{value|0|1}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=Statigel Armor/Statigel Greaves/Statigel Helm/Statigel Headgear/Statigel Cap/Statigel Hood/Statigel Mask}}
+
+=== Used in ===
+{{recipes|ingredient=Statigel Helm/Statigel Headgear/Statigel Cap/Statigel Hood/Statigel Mask/Statigel Armor/Statigel Greaves}}
+
+== Tips ==
+*By using the Statigel Mask with the breastplate and greaves from the [[Fossil armor]], the player gains Spy damage and critical chance boosts similar to the [[Empyrean armor]]. The mixed set gives 30% damage versus 32% from Empyrean, and 22% critical chance versus 23% from Empyrean. However, this mixed set abandons Spy [[Stealth]], defense, and the set bonuses of the Statigel armor to accomplish this.
+
+{{Purified Gel}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

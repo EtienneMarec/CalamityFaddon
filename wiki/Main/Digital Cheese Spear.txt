@@ -1,0 +1,44 @@
+{{addon|Calamity: Community Remix}}
+{{dedicated|Enderpikmin Endlessvoid|Developer}}
+
+{{item infobox
+| type = Weapon
+| damage = 5656
+| use = 70
+| damagetype = Spy
+| critical = 25%
+| knockback = 8
+| auto = yes
+| velocity = 35
+| stack = 1
+| rare = 16
+| sell = {{value|10|56|56|56}}
+| tooltip = Cast Divine Radiance upon your enemies<br/>Stealth Strikes summon more spears<br/>"It shines with her endless radiance, yet, it also flickers with the regret and denial she just can't let go..."
+
+| hardmode = yes
+| postml = yes
+| element1 = Stab
+| element2 = Holy
+}}
+
+The '''Digital Cheese Spear''' is a craftable epilogue [[Dedicated content|developer]] [[Javelins|javelin]]. It fires a high-velocity spear that upon hitting an enemy, summons 12 more mini spears in a barrage, dealing 65% of the weapon's damage.
+
+[[Spy|Stealth Strike]]s additionally cast 12 identical spears in a barrage that aggressively home in on the targeted enemy upon hitting said enemy. These spears will also call in 6 more mini spears that don't home in and deal 56% of the weapon's damage.
+
+{{Modifier|spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon actually has a unique [[Rarity]] but is referred here as Hot Pink rarity for consistency between weapons.
+**This unique rarity alters between Philippine Yellow ({{color|#FECB00 ●|#FECB00}}) and Spiro Disco Ball ({{color|#0FC0FC ●|#0FC0FC}}) color.
+*The item directly references [https://cookierunkingdom.fandom.com/wiki/Golden_Cheese_Cookie Golden Cheese Cookie] from the [[wikipedia:Cookie_Run|Cookie Run]] franchise.
+**The weapon's design specifically references her costume, '''"Ever-Radiant Goddess"'''.
+
+{{shadowspec}}
+{{Master Template Weapons
+|show-main = yes
+|show-spy = yes
+}}

@@ -1,0 +1,51 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 225
+| stack = 9999
+| rare = 10
+| color = #333044
+| use = 14
+| value = 760
+| sell = {{value|0|1|60|0}}
+| hardmode = yes
+| tooltip = A cold cluster from the great unknown.
+}}
+|{{item drops infobox
+| [[Asura]]|2|50%
+| [[Side Mollusk]]|10-26|100%
+| [[King of Constellations, Tenryu]]|5-17|100%
+}}
+}}
+<big> ''"A cold and dark energy has materialized in space."'' </big>
+
+'''Exodium Cluster''' is a Godseeker Mode [[ore]] that generates in [[Planetoid]]s after the Moon Lord has been defeated. It requires at least one of the [[Luminite Pickaxe]]s to mine. It is also dropped by [[Side Mollusk]]s. It is used to craft several items, including Stratus equipment as well as Soul Artifact [[coverings]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This ore is immune to explosives, even after Moon Lord has been defeated.
+
+== Trivia ==
+*Its name is likely a reference to the [[wikipedia:Exosphere|exosphere]], the most distant layer of a planet's atmosphere which merges with interplanetary space.
+*It is one of the few ores that can be also crafted, along with [[Sea Prism]]s needing [[Prism Shard]]s.
+
+{{Stratus}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

@@ -1,0 +1,167 @@
+{{Patch infobox
+| image = Great Sand Shark.png
+| size = 320px
+| patchname = Great Sand Shark Update
+| release = 7/2/2018
+}}
+
+The '''1.3.3.011''' update added the [[Great Sand Shark]] [[mini boss]] along with its own dedicated weapon set. It also completely overhauled [[The Hive Mind]] [[boss]], granted [[Providence, the Profaned God]] two new attacks, added several new [[ore]] bricks, and added 10 new [[Music Boxes]].
+
+{{toc limit|3}}
+
+== Additions ==
+*Added Great Sand Shark.
+*Added [[Duststorm in a Bottle]], [[Sand Sharknado Staff]], [[Sandstorm (weapon)|Sandstorm]], [[Shifting Sands]], and [[Tumbleweed]],
+*Added Grand Scale. 
+*Added [[Sandstorm's Core]] and [[Super Dummy]].
+*Added [[Aerialite Brick]], [[Astral Brick]], [[Chaotic Brick]], [[Cryonic Brick]], [[Perennial Brick]], and [[Uelibloom Brick]].
+*Added [[Aerialite Brick Wall]], [[Astral Brick Wall]], [[Chaotic Brick Wall]], [[Cryonic Brick Wall]], [[Perennial Brick Wall]], and [[Uelibloom Brick Wall]].
+*Added [[Music Box (Aquatic Scourge)]], [[Music Box (Astrageldon)]], [[Music Box (Astral Biome)]], [[Music Box (Ceaseless Void)]], [[Music Box (Higher Abyss)]], [[Music Box (Hive Mind)]], [[Music Box (Perforator)]], [[Music Box (Signus)]], [[Music Box (Storm Weaver)]], [[Music Box (Sulphurous Sea)]].
+*Added [[Bumblebirb Trophy]] and [[Polterghast Trophy]].
+*Added [[Sandnado (buff)]].
+
+== Changes ==
+=== Bosses ===
+==== [[Bumblebirb]] ====
+*Can now drop a Bumblebirb Trophy.
+
+==== [[The Devourer of Gods]] ====
+*Now takes 12.5% damage from [[Crystal Bullet]] crystal shards, [[Holy Arrow]] stars, split [[Terra Arrow]]s, and split [[Terra Bullet]]s.
+
+==== [[Golem]] ====
+*Now removes the early-Hardmode nerf to enemy health and damage when defeated.
+
+==== [[The Hive Mind]] ====
+*Phase 1 will now teleport to the player's position every 12 seconds.
+*Phase 2 no longer occasionally fires clusters of vile shots at the player.
+*Phase 2 will now charge backwards then perform one of three attacks after being damaged enough. These attacks include:
+**Spinning around the player several times, then charging at them.
+**Appearing below the player, then rotating to the top of them while spawning enemies.
+**Appearing to the top left of the player, then charging right while spawning dark rain clouds.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Flare dusts no longer deal damage until they explode.
+*Flare dusts now last for 2 seconds instead of 2.5.
+*Now takes 50% damage if the player has [[Vortex armor]]'s stealth active and 25% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Lunatic Cultist]] ====
+*Lowered health modifier from {{dv|3x||6x}} to {{dv|1.5x||2x}}
+*Lightning Orbs no longer deal damage.
+*Lowered speed of Revengeance and Death Mode projectile rain.
+
+==== [[Moon Lord]] ====
+*The initial three True Eyes of Cthulhu no longer become damageable in Revengeance Mode.
+
+==== [[Polterghast]] ====
+*Now takes 25% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+*Can now drop a Polterghast Trophy.
+*Polterghast's clone now takes 50% damage if the player has Vortex armor's stealth active and 25% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+
+==== [[Providence, the Profaned God]] ====
+*Now has a new phase which changes depending on what biome Providence is fought in. In [[The Hallow]], Providence will stop in place and fire a sweeping laser beam, and in [[The Underworld]], Providence will spawn a crystal above the player that shoots spreads of gravity-affected crystals.
+*Changed the positions in which the Profaned Guardians spawn.
+*Tweaked how fast she moves vertically when despawning.
+*Now takes 25% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+*Now takes 70% damage from [[Galactus Blade]]'s comets.
+
+==== [[Siren and Leviathan]] ====
+*The Siren's notes no longer produce dust.
+
+==== [[The Slime God]] ====
+*Buffed the core's health from {{dv|800|1280|1600|4000}} to {{dv|2400|3840|4800|8000}}.
+*The core is now damageable from the start of the fight instead of only being damageable after all large slimes have been killed.
+*The large slimes now charge at the player from a shorter distance if the core is alive.
+*Split slime gods now drop {{gc|8}}.
+
+==== [[Supreme Calamitas]] ====
+**Increased the distance at which her [[Soul Seeker]]s orbit her.
+**Decreased the rate at which she shoots Brimstone Hellblasts.
+**Changed how her brimstone fireblasts split.
+**Now takes 50% damage if the player has [[Vortex armor]]'s stealth active and 25% damage from Crystal Bullet crystal shards, Holy Arrow stars, split Terra Arrows, and split Terra Bullets.
+**Now uses [[Music#Now Stop Asking Where|Now Stop Asking Where]] as her theme.
+
+=== Enemies ===
+*[[tgc:Devourer|Devourer]]s and [[World Feeder]]s now have a {{dv|33%|50%}} chance to drop [[Fetid Essence]] instead of {{dv|20%|25%}}.
+*[[Eidolist]] changes:
+**Buffed health from {{dv|5000|10,000||16,000}} to {{dv|10,000|20,000||32,000}}.
+**No longer deals contact damage.
+**No longer drops [[Eidolon Tablet]]s if the [[Lunar Events]] are currently active.
+**Lightning Orbs no longer deal damage.
+*[[Eidolon Wyrm]]s no longer produce dust and are no longer slightly transparent.
+*Buffed adult Eidolon Wyrm's damage resistance from 50% to 99.9999%.
+*[[Hive Cyst]]s can no longer spawn if The Hive Mind is active.
+*[[Mauler]]'s explosions now move instead of making its hitbox larger.
+*[[Perforator Cyst]]s can no longer spawn if [[The Perforator Hive]] is active.
+*Killing 20 [[Sand Shark]]s will now spawn the Great Sand Shark.
+
+=== Items ===
+*Buffed [[Alpha Ray]]'s damage from 40 to 280.
+*Increased Alpha Ray's primary fire particle beam's LocalNPCHitCooldown from 8 to 80, and its secondary fire particle beam's LocalNPCHitCooldown from 3 to 30.
+*[[Angel Treads]] now inherit the [[Harpy Ring]]'s effects.
+*Nerfed [[Archerfish]]'s damage from 28 to 26.
+*Renamed Profaned Sword to [[Brimstone Sword]].
+*Decreased the movement and run speeds for [[Celestial Tracers]], [[Elysian Tracers]], and [[Seraph Tracers]].
+*Changed Celestial Tracers' flavor text to say "Taking speed EVEN FURTHER BEYOND!" instead of "Ludicrous speed!".
+*Buffed [[Celestus]]' damage from 130 to 145.
+*Celestus' main projectile now has a LocalNPCHitCooldown of 30 instead of 10, and its split projectiles now have a LocalNPCHitCooldown of 40 instead of 20.
+*[[Counter Scarf]]'s [[Scarf Cooldown]] now lasts 15 seconds instead of 11.
+*Changed the color of summoner [[Daedalus armor]]'s Daedalus Crystal.
+*Buffed [[Eidolic Wail]]'s damage from 158 to 188.
+*[[Eidolon Tablet]] can no longer be used if the [[Lunar Events]] are active or if the [[tgc:Mysterious Tablet|Mysterious Tablet]] is present.
+*Eidolon Tablet now spawns the [[Lunatic Cultist]] further away from the player.
+*Decreased [[Elysian Wings]]' movement speed and flight time.
+*Buffed [[Genisis]]' damage from 24 to 26.
+*Increased Genisis' particle beam's LocalNPCHitCooldown from 8 to 80.
+*Nerfed [[Onyx Chain Blaster]]'s damage from 63 to 58.
+*Using the [[Rod of Discord]] no longer instantly kills the player if [[Armageddon]] is active.
+*Decreased Seraph Tracers' horizontal flight acceleration.
+*[[Silva armor]]'s set bonus now keeps the player at at least 1 health instead of at least 0.
+*[[Siren's Song]]'s notes no longer produce dust.
+*Buffed [[Subsuming Vortex]]'s damage from 144 to 165.
+*Nerfed summoner [[Tarragon armor]]'s damaging aura's damage from 1500 to 300.
+*Increased the flight time, horizontal speed, and horizontal acceleration of [[Tarragon Wings]].
+*Nerfed [[Telluric Glare]]'s damage from 100 to 85.
+*Split Terra Arrows now deal 66% of the original arrow's damage instead of 33.000001311302185%.
+*Terra Bullets now split into 3-4 bullets instead of 1-3.
+*Split Terra Bullets no longer have their damage cut in half in Revengeance Mode.
+*Buffed [[Vivid Clarity]]'s damage from 145 to 165.
+*Vivid Clarity's main beams now have a LocalNPCHitCooldown of 2 instead of 1, and its split beams now have a LocalNPCHitCooldown of 6 instead of 3.
+*[[Void of Calamity]] and [[Void of Extinction]] can no longer both be equipped at the same time.
+*Nerfed the damage for several of [[Xeroc armor]]'s projectiles:
+**Reduced orb damage from 65% to 40%.
+**Reduced blast damage from 33% to 15%.
+**Reduced fire damage from 33% to 10%.
+
+=== Other ===
+*[[Chaotic Ore]] no longer creates lava chunks if the game is paused.
+*All [[biome]] music tracks now have increased priority. 
+*The Profaned Crag is now referred to as "Brimstone Crag" during world generation instead of "Hell Crag". <!---The lore item, and thus the biome, is still called Profaned Crag--->
+
+=== Resprites ===
+==== Items ====
+*Resprited [[Animosity]], [[Animus]], [[Atlantis]], [[Brackish Flask]], [[Eidolic Wail]], [[Greentide]], [[Icicle Staff]], Siren's Song, [[The Storm]], [[Storm Dragoon]], and [[YinYo]].
+*Resprited [[Dark Sun Ring]], [[Enchanted Pearl]], [[Leviathan Ambergris]], [[Pearl of Enthrallment]], [[Reaper Tooth Necklace]], [[Aquatic Heart|Siren's Heart (blue)]], Siren's Heart (green), and [[Statis' Blessing]].
+*Resprited [[Armored Shell]] and [[Dark Plasma]].
+*Resprited [[Revengeance]] and [[Rune of Kos]].
+*Resprited [[Strange Orb]].
+*Resprited [[Music Box (Calamitas)]], [[Music Box (DoG Phase 1)]], [[Music Box (Polterghast)]], and [[Storm Weaver Trophy]] (item).
+
+==== Bosses and Enemies ====
+*Resprited [[Bobbit Worm]], [[Dank Creeper]], [[Eidolon Wyrm (adult)]], [[Eidolon Wyrm (juvenile)]], [[Moray Eel]], armored [[Stasis Probe]], naked Stasis Probe, and Storm Weaver.
+
+==== Other ====
+*Resprited [[Fox Pet (buff)]].
+*Resprited Frost Mist, Treble Clefs, and Water Spears spawned by The Siren and Siren Lure minion.
+*Resprited [[Astral Ore]] tile.
+
+== Fixes ==
+*Fixed a targeting issue with [[Crabulon]].
+*Fixed [[Defiled Rune]] not allowing certain health threshold bonuses to work.
+*Fixed [[Fox Drive]]'s fox pet's sprite being heavily compressed.
+*Fixed Lunatic Cultist having more health in Revengeance Mode than in Death Mode.
+*Fixed [[Tarra Life]]'s cooldown resetting when taking off the armor.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

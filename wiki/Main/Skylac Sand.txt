@@ -1,0 +1,28 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| pickreq = 250
+| stack = 9999
+| auto = yes
+| rare = C1
+| color = #4999cc
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| post-ml = yes
+| epilogue = yes
+| use = 14
+| sell = No value
+}}
+
+'''Skylac Sand''' is a [[block]] that generates in the Lower layer of [[Sky Abyss]]. It requires at least a [[Blossom Pickaxe]] to mine. It is affected by gravity.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+|show-main = yes
+|show-blocks = yes
+}}

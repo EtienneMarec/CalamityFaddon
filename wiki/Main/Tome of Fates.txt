@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 110
+| mana = 8
+| use = 20
+| critical = 7%
+| knockback = 3.5
+| velocity = 17
+| auto = yes
+| stack = 1
+| tooltip = Casts cosmic tentacles to spear your enemies<br/>Can randomly fire a brimstone tentacle for immense damage
+| rare = 9
+| sell = {{value|0|19}}
+| hardmode = yes
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffduration = 3 seconds (Brimstone tentacle)
+| debuffchance = 100%
+| element1= Dark
+| element2 = Fire
+}}
+
+The '''Tome of Fates''' is a craftable [[Hardmode]] [[spell tome]]. It acts like the [[Shadowflame Hex Doll]], firing curving 'tentacles' at a close range. It has a 14.29% chance to fire a brimstone tentacle instead that deals 150% damage.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Meld}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

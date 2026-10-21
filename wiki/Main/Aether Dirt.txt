@@ -1,0 +1,29 @@
+{|align=right
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| sell = No value
+| stack = 9999
+| rare = 0
+| color = #5b6e77
+| hardmode = no
+}}
+|}
+
+'''Aether Dirt''' is a Pre-[[Hardmode]] [[block]] which replaces [[Dirt Block]]s in [[The Aether]] [[biome]]. Much like other dirt varients, aether dirt is able to support its own grass type: [[Plants#Grass|Aether Grass]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

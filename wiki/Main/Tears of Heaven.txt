@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 64
+| knockback = 5.5
+| mana = 18
+| use = 15
+| velocity = 5.5
+| debuff = Holy Flames
+| debuffchance = 100%
+| debufftip = Dissolving from holy light
+| debuffduration = 5 seconds
+| auto = yes
+| stack = 1
+| tooltip = Casts slow-moving homing balls of heavenly light
+| rare = 8
+| sell = {{value|0|16}}
+| hardmode = yes
+| proj = Tear of Heaven.png
+| projcaption = Tear of Heaven
+| element1 = Holy
+| element2 = Water
+}}
+[[File:Tears of Heaven (demo).gif|frame|right|The Tears of Heaven attacking [[Super Dummy|Super Dummies]] through tiles.]]
+
+The '''Tears of Heaven''' is a craftable [[Hardmode]] [[spell tome]] that autofires two slow-moving balls of heavenly light that inflict the [[Holy Flames]] [[debuff]]. The projectiles spread out randomly, travel through walls, and accelerate significantly to home onto enemies.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+
+== Trivia ==
+*The Tears of Heaven is a reference to the song ''Tears in Heaven'' written by Eric Clapton.
+*The ingredients of this weapon are a reference to the classical elements trope often found in different media. {{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

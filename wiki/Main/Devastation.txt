@@ -1,0 +1,49 @@
+{{item infobox
+| tooltip = Fires galaxy blasts that explode
+| damage = 132
+| damagetype = melee
+| use = 23
+| knockback = 4.25
+| auto = yes
+| velocity = 16
+| type = Weapon
+| type2 = Crafting material
+| stack = 1
+| hardmode = yes
+| postml = yes
+| boxwidth = 22em
+| rare = 10
+| sell = {{value|0|20}}
+| debuff = On Fire!
+| debuffduration = 3 seconds (Contact, Red Blast)
+| debuffchance = 100%
+| debufftip = Slowly losing life
+| debuff2 = Frostburn
+| debuffduration2 = 2 seconds (Contact, Blue Blast)
+| debuffchance2 = 100%
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuff3 = Ichor (debuff)
+| debuffduration3 = 1 seconds (Contact, Yellow Blast)
+| debuffchance3 = 100%
+| debufftip3 = Defense reduced by 20
+| element1 = Magic
+| element2 = Slash
+}}
+
+The '''Devastation''' is a craftable Godseeker Mode [[broadsword]] that autoswings and is the upgrade of the [[Catastrophe Claymore]]. Upon being swung, arching beams are fired from the blade, and beams are fired from the sky. Beams fired from the sky will do half as much damage.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:破坏重剑]]

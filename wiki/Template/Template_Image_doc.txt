@@ -1,0 +1,27 @@
+If the filename is passed without its extension, will determine if a gif is available (defaults to png); returns the image; if file exists as neither gif nor png, returns a null value.
+
+If the filename includes an extension, will check if the file exists, returning null if it doesn't.
+
+== Usage ==
+<nowiki>{{image|options|caption}}</nowiki>
+
+== Parameters ==
+All [[File:]] syntax is valid.
+
+In addition:
+
+; size =
+Overrides the unnamed size option. Supports <code>*scale syntax</code>. Example: <code>|20px|size=40px*0.75</code> will parse as <code>40px*0.75</code>, results in <code>30px</code>
+
+; scale =
+Scales the image based on its size. e.g. <code>scale=0.5</code>.
+
+; maxsize =
+Uses the same syntax as the [[File:]]'s size option: <code>Wpx</code>, <code>Hpx</code>, or <code>WxHpx</code>. Note: this is applied AFTER scale.
+
+<includeonly>
+[[Category:Templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

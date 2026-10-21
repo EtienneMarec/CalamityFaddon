@@ -1,0 +1,19 @@
+Use to keep TOCs (table of contents) in an article from getting excessively long, by limiting them to only include headings below a certain level.
+
+== Usage ==
+Use this template in place of <code><nowiki>__TOC__</nowiki></code>. The TOC displays at the location where this template is placed on the page.
+
+<pre>{{toc limit|2|right="yes"}}</pre>
+
+; Unnamed Parameter 1
+(Optional) The depth of the header. Default = level-3 headers (=== ===) and below.
+
+; right
+(Optional) Use "yes" to place the table of contents on the right.
+
+<includeonly>
+[[Category:Formatting templates‎]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

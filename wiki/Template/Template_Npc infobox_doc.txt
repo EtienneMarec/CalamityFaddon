@@ -1,0 +1,109 @@
+== Usage ==
+All variables except Type are optional. 
+
+* The {{code|image}} parameter replaces the main image. A single bare filename must be entered, without any other code. 
+* The {{code|imagealt}} parameter replicates the functionality of the {{code|image}} parameter in {{tl|item infobox}}. It replaces the main image, but takes any code. Multiple images can be provided, and/or text and other formatting. Images specified using {{code|imagealt}} require the full {{code|[[File: ]]}} markup.
+
+{| 
+|-
+| colspan=10 | <nowiki>{{</nowiki>npc infobox
+|-
+| &#124; || width || = || custom width for the infobox; default = 23em
+|- 
+| &#124; || name || = || character name; default = page name
+|- 
+| &#124; || variant || = || yes; only if it is a console/mobile exclusive variant
+|- 
+| &#124; || namesub || = || name sub-line; default = ''none''
+|- 
+| &#124; || image || = || imagename.png; default = pagename.png
+|- 
+| &#124; || imagealt || = || <nowiki>[[File:imagename.png]]</nowiki>
+|- 
+| &#124; || image2 || = || imagename2.png, displays at the bottom on the infobox
+|- 
+| &#124; || image2caption || = || caption for image2
+|- 
+| &#124; || type || = || character type: Enemy for enemies, Town for friendly NPCs, Critter for friendly critters
+|- 
+| &#124; || environment || = || biome where can they be found
+|- 
+| &#124; || environment2 || = || sub-biome
+|- 
+| &#124; || ai || = || which [[AI]] the character uses
+|- 
+| &#124; || damage || = || damage inflicted per hit from this character 
+|- 
+| &#124; || life || = || total max health 
+|- 
+| &#124; || defense || = || defense the character has
+|- 
+| &#124; || knockback || = || [[knockback]] resistance
+|- class="topline"
+| &#124; || debuff || = || [[debuff]] inflicted
+|- 
+| &#124; || debuffchance || = || chances of inflicting the debuff
+|- 
+| &#124; || debufftip || = || debuff tooltip
+|- 
+| &#124; || duration || = || length of time the debuff lasts
+|- class="topline"
+| &#124; || debuff2 || = || second [[debuff]] inflicted
+|- 
+| &#124; || debuffchance2 || = || chances of inflicting the second debuff
+|- 
+| &#124; || debufftip2 || = || second debuff's tooltip
+|- 
+| &#124; || duration2 || = || length of time the second debuff lasts
+|- class="topline"
+| &#124; || debuff3 || = || third [[debuff]] inflicted
+|- 
+| &#124; || debuffchance3 || = || chances of inflicting the third debuff
+|- 
+| &#124; || debufftip3 || = || third debuff's tooltip
+|- 
+| &#124; || duration3 || = || length of time the third debuff lasts
+|- class="topline"
+| &#124; || power || = || for catchable characters, like critters, which can be used for things like bait (enter "15% bait", for example)
+|- 
+| &#124; || banner || = || yes, if this character drops a Banner
+|- 
+| &#124; || bannername || = || if banner=yes, use this to specify a custom banner name. default: "[page name] Banner" or "[name parameter] Banner"  
+|- 
+| &#124; || id || = || id of the npc
+|- 
+| &#124; || idbuff || = || id of the (de)buff caused by the npc
+|- 
+| &#124; || money || = || dropped coins, enter using coin templates: {{tl|value}}
+|-
+| &#124; || hardmode || = || yes, for NPCs that only become available in [[Hardmode]] worlds
+|-
+| &#124; || postml || = || yes, for NPCs that only become available after the [[Moon Lord]] is defeated
+|-
+| &#124; || hurt || = || adds the hurt sound made by the NPC
+|-
+| &#124; || killed || = || adds the death sound made by the NPC
+|-
+| &#124; || sound || = || adds a sound made by the NPC
+|-
+| &#124; || soundtext || = || adds a label to the sound
+|- 
+| &#124; || sound2 || = || adds another sound made by the NPC, works with sound3, sound4, etc
+|-
+| &#124; || sound2text || = || adds a label to the second sound, works with sound3text, sound4text, etc
+|- 
+| &#124; || item1&#124;quantity1&#124;rate1
+|- 
+| colspan = 10 | ...
+|- 
+| &#124; || item15&#124;quantity15&#124;rate15
+|- 
+| colspan=10 | <nowiki>}}</nowiki>
+|}
+
+<includeonly>
+[[Category:Infobox templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

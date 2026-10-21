@@ -1,0 +1,38 @@
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 70
+| hammer = 100
+| knockback = 5
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 5 seconds
+| rare = 9
+| bonus = +3 range
+| use = 19
+| sell = {{value|0|19|0|0}}
+| hardmode = yes
+| critical = 29%
+| toolspeed = 5
+| element1 = Magic
+| element2 = Smash
+}}
+
+The '''Astral Hammer''' is a craftable [[Hardmode]] [[hammer]]. Despite being available pre-[[Moon Lord]], it has greater hammer power than the [[Lunar Hamaxe|Lunar Hamaxes]], but falls one block short of their range. It emits faint purple particles when swung.
+
+{{Modifier|harvest}}
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Astral}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Hammers]]

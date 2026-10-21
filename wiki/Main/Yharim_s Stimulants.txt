@@ -1,0 +1,42 @@
+{{item infobox
+| type = Potion
+| use = 17
+| stack = 9999
+| tooltip = Gives decent buffs to ALL offensive and defensive stats
+| consumable = yes
+| rare = 3
+| buff = Yharim's Power | bufflink = no
+| duration = 30 minutes
+| bufftip = You feel like you can break the world in two...with your bare hands!
+| sell = {{value|0|0|40|0}}
+}}
+
+'''Yharim's Stimulants''' was a craftable [[Pre-Hardmode]] [[buff potions]] made from various combat-related potions. It grants the user the '''Yharim's Power''' [[buff]] when consumed, granting the following effects:
+*+6% all damage
+*+2% all crit chance
+*+5% increased mining speed
+*+100% increased minion knockback
+*+15% movement speed
+*+6% increased [[damage reduction]]
+*+8 [[defense]]
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This potion can only be crafted at an [[Alchemy Table]].
+*This stacks with the potions used to craft it.
+*Yharim's stimulant's were removed in changelog 336, citing that the buffs it gave were overpowered
+
+== Trivia ==
+*This item is a reference to Steroids from Real Life
+*The buff tooltip appears to be a reference to a line from Senator Armstrong in ''[[wikipedia:Metal_Gear_Rising:_Revengeance|Metal Gear Rising: Revengeance]]'': "I could break the president in two... with my ''bare hands''!" As well as the buff icon resembling a Nanomachine augmented arm which is synonymous with Armstrong.
+
+{{Master Template Consumables
+| show-main = yes
+| show-buff = yes
+}}
+
+
+[[Category:Calamity Mod]]

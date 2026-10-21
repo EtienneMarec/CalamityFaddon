@@ -1,0 +1,38 @@
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 16
+| damagetype = Ranged
+| knockback = 0
+| stack = 1
+| auto = yes
+| use = 1
+| velocity = 22
+| hardmode = yes
+| postml = yes
+| rare = 15
+| tooltip = 80% chance to not consume ammo
+| sell = {{value|0|2}}
+| element1 = Stab
+}}
+
+The '''Minigun''' is a craftable Godseeker Mode [[gun]] that is an upgraded version of the [[Chain Gun]]. It shoots at an incredibly high rate, faster than any other weapon, but deals very low base damage.
+
+{{Modifier|rangedalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+== Notes ==
+*Its insanely fast rate of fire gives it good synergy with the [[Reaper Tooth Necklace]].
+*Unlike the [[Chain Gun]], the Minigun has very good accuracy.
+*The minigun's low damage prevents it from being viable against anything with a decent amount of defense.
+{{-}}
+{{auric}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

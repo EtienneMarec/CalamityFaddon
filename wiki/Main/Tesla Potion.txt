@@ -1,0 +1,42 @@
+{{item infobox
+|type = Potion
+|tooltip = Summons an aura of electricity that electrifies and slows enemies<br/>Aura damage is reduced on bosses<br/>Reduces the duration of the Electrified debuff
+|stack = 9999
+|rare = 3
+|use = 17
+|consumable = yes
+|buff = Tesla's Electricity | bufflink = no
+|duration = 8 minutes
+|bufftip = Summons an aura of electricity
+|debuff = Galvanic Corrosion | debufflink = no
+|debufftip = Your limbs have begun to corrode
+|debuffchance = 100%
+|debuffduration = 0.5 seconds
+|debuff2 = Electrified
+|debufftip2 = You cannot move
+|debuffchance2 = 100%
+|debuffduration2 = 3 seconds
+|sell = {{value|0|0|40}}
+}}
+[[File:Tesla Potion Aura.png|frame|Tesla Potion's electric aura]]
+
+The '''Tesla Potion''' is a craftable [[Pre-Hardmode]] [[Buff Potions|buff potion]]. Upon consumption, it grants the player the '''Tesla's Electricity''' buff which spawns an electric aura around the player, dealing 15 typeless damage, inflicting the [[Electrified]] [[debuff]] as well as the '''Galvanic Corrosion''' debuff which freezes enemies, with a lesser effect on bosses. [[Critters]] and other passive NPCs are unaffected.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Immune NPCs ===
+This is a list of NPCs immune to the Galvanic Corrosion debuff.
+{{ajax|List of slow-immune NPCs|width=40%}}
+
+== Tips ==
+*Just like the [[Inferno Potion]], the Tesla Potion's aura is able to slow/destroy destructible projectiles, such as [[Chaos Ball]]s and [[Detonating Bubble]]s.
+*While the aura can't slow down bosses, it is able to slow down minions that bosses summon, making them much more manageable.
+
+== Trivia ==
+*[[wikipedia:Galvanic corrosion|Galvanic corrosion]] is an electrochemical process in which metal corrodes when in electrical contact with another metal.
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

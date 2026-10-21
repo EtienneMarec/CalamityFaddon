@@ -1,0 +1,28 @@
+{{addon|Deimos, the Starborn Princess}}
+{{item infobox
+| type = Furniture
+| type2 = Crafting station
+| placeable = Yes
+| use = 14
+| auto = yes
+| width = 3
+| height = 3
+| stack = 9999
+| tooltip = Used for special crafting
+| consumable = Yes
+| rare = 1
+| hardmode = yes
+| postml = yes
+| color = #006EC0
+| sell = No value
+}}
+
+The '''Entropic Refiner''' is a craftable Godseeker Mode [[crafting station]] used to craft several items that use [[Quark-Gluon Sludge]] and [[Omnicidal Sludge Bar]]s. It also functions as a [[Static Refiner]], [[Crystal Ball]], [[Water]] source, [[Lava]] source, [[Honey]] source, and a [[tgc:Shimmer|Shimmer]] source.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used to craft ===
+{{ajax|Recipes/Entropic Refiner|width=420px}}
+{{-}}
+{{DeimosMod}}

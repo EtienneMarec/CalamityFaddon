@@ -1,0 +1,39 @@
+{{infobox wrapper|
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 9
+| use = 10
+| knockback = 1
+| velocity = 4
+| extraupdates = 5
+| stack = 1
+| auto = yes
+| rare = 1
+| sell = {{value|0|0|20|0}}
+| tooltip = Fires wulfrum shock cutters in bursts of 3<br/>Stealth strikes make the cutters fly further and hit several times at once<br/>Hold right click to magnetize all nearby cutters back to you
+| element1 = Stab
+| element2 = Machine
+}}
+|{{item drops infobox
+|[[The Inventors]] |1|{{dv|25%|33%}}
+|[[Wulfrum Excavator]] {{fantag|Calamity: Community Remix}}|1|{{dv|25%|33%}}
+}}
+}}
+
+The '''Wulfrum Shock Cutter''' is a [[Pre-Hardmode]] [[dagger]] dropped by [[The Inventors]] and the [[Wulfrum Excavator]] {{fantag|Calamity: Community Remix}}. When used with left-click, the player throws out a burst of three cutters in quick succession. The cutters are gravity-affected and cannot pierce. Holding right-click will bring back all flying Wulfrum Shock Cutters.
+
+Performing a [[stealth strike]] with the Wulfrum Shock Cutter causes the resulting cutters to glow up, travel at a higher speed, and damage an enemy twice on hit. Each cutter resulting from the stealth strike deals 80% damage.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Wulfrum}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Daggers]]

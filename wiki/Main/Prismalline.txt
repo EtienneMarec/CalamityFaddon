@@ -1,0 +1,46 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 24
+| critical = 8%
+| damagetype = Rogue
+| tooltip = Throws daggers that split after a while<br/>Stealth strikes additionally explode into prism shards and briefly stuns enemies
+| use = 15
+| velocity = 16
+| knockback = 5
+| rare = 5
+| stack = 1
+| crit = 8
+| auto = yes
+| sell = {{value|0|7|20|0}}
+| hardmode = yes
+| debuff = Eutrophication
+| debufftip = Excessive nutrients restrict your movement
+| debuffduration = 0.25 seconds (Prism shards)
+| debuffchance = 100%
+| proj = Prismalline Dagger.png
+| projcaption = Prismalline Dagger
+| proj2 = Aquashard.png
+| proj2caption = Prism Shard
+| element1 = Water
+| element2 = Stab
+}}
+
+The '''Prismalline''' is a craftable [[Hardmode]] non-consumable [[dagger]] that is an upgrade to the [[Crystalline]]. It shoots a piercing projectile that is affected by gravity and cannot pass through tiles. Shortly after it is thrown, it emits 5 copies of itself in a random spread, some homing and some non-homing. Copies that home in deal 110% of the original projectile's damage; copies that do not home deal 75% of the original projectile's damage.
+
+Performing a [[stealth strike]] with the Prismalline causes the resulting dagger and its copies to explode into 2-4 and 1-3 prism shards respectively. Additionally, an extra dagger copy is spawned, all dagger copies will home in, and will deal 115% of the original damage instead of 110%. Each shard from the main dagger will deal 50% of the weapons base damage, and shards from the dagger copies deal 33.33% damage. The main projectile inflicts the [[Eutrophication]] [[debuff]] for a short time.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

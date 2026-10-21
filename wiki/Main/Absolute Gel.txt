@@ -1,0 +1,24 @@
+{{infobox wrapper
+|{{item infobox
+|type = Crafting material
+| stack = 9999
+| rare = 1
+| tooltip = Gel condensed from the life-force of every creature alive.
+| sell = {{value|0|50|0|0}}
+}}
+}}
+
+'''Absolute Gel''' is a Godseeker Mode crafting material.
+
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Absolute}}
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

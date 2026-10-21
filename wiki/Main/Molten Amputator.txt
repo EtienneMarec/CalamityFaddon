@@ -1,0 +1,48 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Spy
+| damage = 166
+| knockback = 9
+| velocity = 21
+| tooltip = Throws a scythe that emits molten globs on enemy hits<br/>Stealth strikes spawn molten globs periodically in flight and more on-hit
+| rare = 12
+| stack = 1
+| sell = {{value|0|24}}
+| use = 17
+| auto = yes
+| hardmode = yes
+| postml = yes
+| element1 = Holy
+| element2 = Fire
+| element3 = Slash
+| proj = Molten Glob.gif
+| projcaption = Molten Glob
+}}
+|{{item drops infobox
+| [[Providence, the Profaned Goddess]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Molten Amputator''' is a Godseeker Mode [[Spy]] [[boomerang]] that drops from [[Providence, the Profaned Goddess]]. Each time the boomerang strikes an enemy, a lava glob flies out from the impact. Lava globs will remain on the ground for quite some time and each glob can damage an enemy once before disappearing.
+
+Performing a [[stealth strike]] with the Molten Amputator will cause the next scythe thrown to occasionally release Molten Globs as it travels. Additionally, enemies will release more globs when they are hit.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*[[Storm Weaver]] takes only 75% damage from the Molten Amputator and its lava globs.
+
+== Tips ==
+*The large amount of produced lava globs can cause serious performance issues if used against large groups of enemies or few enemies with a large health pool, for example the [[Dark Energy]] spawns of [[Ceaseless Void]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

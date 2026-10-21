@@ -1,0 +1,68 @@
+'''Immunity frames''', also called '''invincibility frames''', '''invulnerability frames''', and frequently shortened to '''iframes''' or '''i-frames''', are a core game mechanic of ''Terraria'' which provide a window of time where the player or an NPC is immune to damage from one or all sources.
+
+Many items in both the base game and the Calamity Mod have special interactions with immunity frames, whether it is an covering which provides extra immunity frames to the player when attacked (e.g. [[Deific Amulet]]) or a weapon which can strike NPCs far more quickly than is normally possible (e.g. [[God's Bellows]]).
+
+== Player Immunity Frames ==
+There are different ways to augment player immunity frames. Additionally, in [[Revengeance Mode]], player immunity frames are capped at 120, or 2 seconds.
+
+=== Cross Necklace Inheritance ===
+The [[Cross Necklace]] covering doubles the player's immunity frames. The [[Bloody Boost]] buff also grants this effect. The immunity frame doubling effect cannot stack with itself, so obtaining the buff in addition to equipping the Cross Necklace provides no further benefit.
+
+=== Adding Immunity Frames ===
+There are several events and effects that directly set or add to a player's <code>immuneTime</code> instead of multiplying. Effects which add immunity frames will stack with the Cross Necklace or other coverings which inherit that effect. Additionally, effects which add immunity frames ''will'' affect the immunity frames of attacks with a <code>cooldownSlot</code> of 0 or 1, whereas effects which directly set their immunity frames will have no effect on such attacks.
+
+A table of all items that use this code, along with the corresponding <code>immuneTime</code> values is below:
+
+{{ajax|Added Immunity Frame Items}}
+
+=== <code>cooldownSlot</code> ===
+{{dablink|This section primarily describes vanilla Terraria behavior.}} <!-- In vanilla, cooldownSlot 1 only applies to Moon Lord and his attacks, and cooldownSlot 0 only applies to spikes. -->
+When anything hurts the player, they are given one of three different types of immunity frames, based on what the damage source sets the <code>cooldownSlot</code> variable to upon dealing the damage. All damage sources have the variable set to -1 by default, which uses standard <code>immuneTime</code> that is affected by all immunity frame-affecting items. However, if <code>cooldownSlot</code> is set to 0 or 1, then the player is given unique immunity frames that ''only'' protect against further damage from sources with the same <code>cooldownSlot</code> number. For instance, if the player is hit by a projectile with the variable set to 1, they can still be dealt damage by another projectile with the default value of -1 immediately after, but cannot be immediately hurt by another slot 1 projectile. Only certain effects can affect immunity frames given by an attack with <code>cooldownSlot</code> set to 0 or 1, those effects being the Cross Necklace, the coverings which inherit its effects, and any effects which ''add'' to the player's on-hit immunity frames; all other items have no effect.
+
+A table of all enemies and projectiles in the Calamity Mod that have <code>cooldownSlot</code> set to 0 or 1, thereby only preventing hits from sources with the same value and ignoring <code>immuneTime</code> modifications by any items except Cross Necklace (and its inheritors), is below:
+
+{{ajax|CooldownSlot Non-defaults}}
+
+== Ignoring NPC Immunity Frames ==
+Terraria provides three mechanisms by which projectiles may ignore, bypass or reduce NPC immunity frames.
+
+=== <code>usesLocalNPCImmunity</code> ===
+{{dablink|This section primarily describes vanilla Terraria behavior.}}
+If a projectile sets <code>usesLocalNPCImmunity</code> to true, its interaction with immunity frames fundamentally changes. When the projectile strikes an NPC, instead of setting the NPC's <code>npc.immune</code>, it sets up a timer on the projectile which stops ''that specific projectile'' from striking the NPC for a certain number of frames. Once the timer is up, the projectile can strike that NPC again.
+
+The length of the timer is determined by the variable <code>localNPCHitCooldown</code>. Since Terraria runs at 60 tick per second,<ref>A tick is a time unit countable by the software. Most of Terraria's updating logic happens every tick. A tick has the length of 1/60th of a second, hence there are 60 ticks in a second and 3600 ticks in a minute.</ref> a value of 60 for <code>localNPCHitCooldown</code> would limit the projectile to striking once per second. However, the timer only applies to the specific projectile which started it. Any other projectiles - even piercing ones - can still hit the NPC while the timer is running, which is what gives the impression that the projectile "ignores iframes".
+
+<code>localNPCHitCooldown</code> also has two special values, -2 and -1. In both of these cases, no internal timer is set. Instead, the NPC that was struck by the projectile becomes permanently immune to ''that specific projectile'' forever. This means that the NPC can only be hit by a projectile with negative <code>localNPCHitCooldown</code> once, no matter how long the projectile lasts. When <code>localNPCHitCooldown</code> is set to -1, the projectile sets <code>npc.immune</code> to zero on hit, ensuring that it always hits no matter what. This also lends credence to the phrase "ignores iframes", because the projectile literally ignores the immunity frames of the NPC it is hitting.
+
+Summary of the behavior of <code>localNPCHitCooldown</code> values:
+*-2: The NPC's immunity frames are unaffected by the projectile. If the NPC has immunity frames, the projectile does not strike. Otherwise, the NPC is struck and does not receive any immunity frames. The projectile will never hit this NPC again.
+*-1: The projectile explicitly removes the NPC's immunity frames on contact. It ''always'' hits. The projectile will never hit this NPC again. An example of <code>localNPCHitCooldown</code> -1 is [[Luminite Bullet]]s.
+*0: Behaves effectively the same way as -2, except that the projectile can immediately strike the NPC again on the next frame.  The NPC gets no immunity frames if struck, but the projectile won't remove immunity frames if the NPC already has some.
+*1: Behaves almost the same as 0. The difference is that because the NPC's <code>npc.immune</code> is set to 1, it is immune to all other basic piercing or -2 <code>localNPCHitCooldown</code> projectiles which would strike it this frame.
+*2+: The projectile can only strike a particular NPC once per this many frames. This cooldown is individual per NPC.
+
+A table of all items with projectiles that use this code, along with the corresponding <code>localNPCHitCooldown</code> values is below:
+*Additionally, the explosions created by the [[Chaotic Puffer]] also set <code>usesLocalNPCImmunity</code> to true, with <code>localNPCHitCooldown</code> set to 1.
+
+{{ajax|LocalNPCImmunity Items}}
+
+=== <code>usesIDStaticNPCImmunity</code> ===
+{{dablink|This section primarily describes vanilla Terraria behavior.}}
+If a projectile sets <code>usesIDStaticNPCImmunity</code> to true and <code>idStaticNPCHitCooldown</code> to a value, its interaction with immunity frames is fundamentally changed. Much like <code>usesLocalNPCImmunity</code>, a timer is set when the projectile strikes an NPC. However, this type of internal timer blocks out all projectiles of the same type from the same player. This means that after any instance of a <code>usesIDStaticNPCImmunity</code> projectile hits an enemy, the NPC is immune to ''all'' projectiles of that type from the player who struck them for a given time. All projectiles which use <code>usesIDStaticNPCImmunity</code> explicitly remove immunity frames from any NPCs they strike, like projectiles which set <code>localNPCHitCooldown</code> to -1.
+
+A table of all items with projectiles that use this code, along with the corresponding <code>idStaticNPCHitCooldown</code> values is below:
+
+{{ajax|IDStaticNPCImmunity Items}}
+
+=== <code>npc.immune</code> ===
+Projectiles which set <code>npc.immune</code> to a value upon striking an NPC simply change the number of immunity frames the NPC receives. Like a typical piercing projectile, the NPC will not be able to be struck by any piercing projectiles for that many frames. Normal piercing projectiles set <code>npc.immune</code> to 10, so typically projectiles which change this behavior set <code>npc.immune</code> to a lower value such as 4. This behavior is often called "partially ignoring iframes", because it removes or ignores some of the NPC's immunity frames, but not all of them.
+
+A table of all items with projectiles that use this code, along with the corresponding <code>npc.immune</code> values is below:
+
+{{ajax|Npc.immune Items}}
+
+== References ==
+<references/>
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

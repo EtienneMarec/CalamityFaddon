@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 52
+| knockback = 3
+| stack = 1
+| rare = 12
+| buy = {{value|5}}
+| sell = {{value|0|24}}
+| use = 25
+| tooltip = Summons a slash attack at the cursor's position<br/>Enemy hits build stealth and cause sword waves to fire from the player in the opposite direction<br/>Does not consume stealth and cannot stealth strike
+| velocity = 24
+| auto = yes
+| hardmode = yes
+| postml = yes
+| proj = Sylvan Slash.gif
+| projcaption = Sylvan Slash
+| proj2 = Sylvan Backslash.png
+| proj2caption = Sylvan Backslash
+| element1 = Slash
+| element2 = Holy
+}}
+
+The '''Sylvan Slasher''' is a Godseeker Mode [[rogue weapon]] that is bought from the [[Bandit]] for {{pc|5}} after [[Providence, the Profaned Goddess]] has been defeated. When used, it creates a small barrage of slashes at the cursor's position that are visually similar to the [[Arkhalis]]. [[Rogue stealth]] builds up with each slash that hits an enemy, at a rate of 50 stealth per second. When striking enemies, sword waves have a chance to be released, which travel opposite to the player's direction relative to the cursor.
+
+The weapon does not consume stealth and does not have a [[stealth strike]] effect.
+
+{{Modifier|rogue}}
+
+== Notes ==
+*Stealth can only be raised from hitting enemies that have a damage stat of 5 or higher or when hitting bosses, as such it does not work on the [[Target Dummy]] nor [[Super Dummy]]. It also will not generate stealth when attacking enemies spawned from [[Statues]].
+*The amount of stealth built per strike is 5 units of stealth, and the weapon can strike 10 times per second, giving it a stealth gain rate of 50 stealth per second.
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+[[File:Sylvan Slasher (demo).gif|frame|left|Sylvan Slasher being used on 2 [[Target Dummy|Target Dummies]] in different directions, creating sword waves opposite from the direction to the cursor from the player.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

@@ -1,0 +1,23 @@
+{{npc infobox
+| type = Burrowing Enemy
+| ai = Mechanical Leech AI
+| damage = '''Contact:'''<br/>{{dv|160|200|250|330}} <br/>'''Laser:'''<br/>{{dv|100|120|150|200}}
+| life = {{dv|1200|2000|3500}}
+| defense = 50
+| dr = 14%
+| knockback = 75
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = Item_12.wav
+| soundtext = Laser
+| vulnerable1 = Holy
+| vulnerable2 = Fire
+}}'''Mechanical Leeches''' are [[Hardmode]] [[Enemies#Boss Servants|boss servant]] [[enemies]] that are spawned by [[The Wall of Bronze]].
+==Behavior==
+Mechanical Leeches will act similarly to any worm enemy. They can move quite quickly, which allows them to jump somewhat far. In [[Expert mode|Expert Mode]] and above, Mechanical Leeches will begin to shoot {{item|Plasma Laser|link=|ext=gif|size=25px}}s.
+==Notes==
+*Mechanical Leeches will always drop at least one [[tgc:Heart|Heart]].
+{{-}}{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

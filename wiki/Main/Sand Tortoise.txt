@@ -1,0 +1,32 @@
+{{npc infobox
+| type = Enemy
+| ai = Tortoise AI
+| damage = {{dv|70|140}}
+| defense = 30
+| dr = 25%
+| environment = Desert
+| environment2 = Underground Desert
+| life = {{dv|580|1160}}
+| knockback = {{dv|80%|82%}}
+| money = {{value|||15}}
+| Turtle Shell|1|10%
+| immune1 = Kami Flu
+| hardmode = yes
+| banner = yes
+| hurt = NPC_Hit_24.wav
+| killed = NPC_Killed_27.wav
+| vulnerable1 = Machine
+| vulnerable3 = Smash
+}}
+
+The '''Sand Tortoise''' is a [[Hardmode]] [[enemy]] found in the [[Underground Desert]]. It follows the attack pattern of a regular [[Giant Tortoise]], walking a short distance before jumping up and spinning, heading towards the player. If it enters water, it will immediately jump and spin.
+
+== Notes ==
+*Sand Tortoises are twice the size of other tortoise enemies.
+*Damaging the Sand Tortoise causes it to stop its attack animation.
+**This does not occur in [[Revengeance Mode]] if the Sand Tortoise is under 25% health.
+{{-}}
+{{Master Template Characters
+|show-main = yes
+|show-hardmode = yes
+}}

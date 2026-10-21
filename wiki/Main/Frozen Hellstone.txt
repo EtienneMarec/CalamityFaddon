@@ -1,0 +1,30 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| stack = 9999
+| placeable = yes
+| consumable = yes
+| rare = 0
+| color = #a3c1d5
+| sell = No value
+| auto = yes
+| use = 14
+}}
+{{item drops infobox
+| [[Frost Imp]]|6-8|100%
+}}
+
+'''Frozen Hellstone''' is a Godseeker Mode [[ore]] which replaces Hellstone in [[Frozen Hell]]. It is used to craft [[Enchanted Metal]] at [[Draedon's Forge]]. It requires at least a [[Large Father]] or higher to mine. It can also be dropped by all [[Enemies]] in Frozen Hell.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Frozen Hellstone can be easily identified due to its obvious glow.
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}
+[[zh:天蓝矿]]

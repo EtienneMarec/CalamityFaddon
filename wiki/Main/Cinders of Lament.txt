@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 1666
+| knockback = 0
+| mana = 10
+| use = 29
+| tooltip = Summons either Cataclysm or Catastrophe at the mouse position<br/>They will look at you for a moment before charging at you<br/>They can do damage to both you and enemies<br/>{{color|The Witch, a sinner of her own making,|#C61B40}}<br/>{{color|Within her mind her demon lies, ever patient, until the end of time.|#C61B40}}
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| proj = Supreme Cataclysm.png
+| projcaption = Cataclysm (unfriendly)
+| proj2 = Supreme Catastrophe.png
+| proj2caption = Catastrophe (unfriendly)
+| element1 = Unholy
+| element2 = Fire
+| element3 = Smash
+| element4 = Slash
+}}
+
+The '''Cinders of Lament''' is a Godseeker Mode [[summon weapon]]. It is the [[exhumed]] form of the [[Entropy's Vigil]].  When used, a full-sized husk of [[Supreme Cataclysm]] or [[Supreme Catastrophe]] appears at the player's cursor. After 0.67 seconds, its damage increases by 45% and charges at the player. The brothers pierce infinitely, travel through solid tiles, and are capable of damaging players or [[Town NPCs]] along with enemies. Players and Town NPCs take {{dv|140|280}} damage regardless of the player's damage boosts.
+
+{{Modifier|summonactive}}
+
+{{-}}
+{{Exhumed}}
+{{Master Template Weapons
+|show-main = yes
+|show-summon = yes
+}}

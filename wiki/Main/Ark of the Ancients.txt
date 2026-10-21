@@ -1,0 +1,68 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 188
+| use = 25
+| velocity = 12
+| knockback = 6.5
+| auto = yes
+| stack = 1
+| tooltip = {{color|Using RMB will extend the Ark out in front of you. Hitting an enemy with it will parry them, granting you a small window of invulnerability<br/>You can also parry projectiles and temporarily make them deal 160 less damage<br/>Parrying will empower the next 10 swings of the sword, boosting their damage and letting them throw stronger projectiles <br/>Using RMB and pressing up while the Ark is empowered will release all the charges in a powerful burst of energy|#6495ED}}<br/>A heavenly blade forged to vanquish all evil
+| rare = 8
+| sell = {{value|0|16}}
+| hardmode = yes
+| boxwidth = 23em
+| proj = True Ancient Beam.png
+| projcaption = True Ancient Beam
+| proj2 = Ancient Star.png
+| proj2caption = Ancient Star
+| element1 = Magic
+| element2 = Slash
+}}
+{{distinguish|Wrath of the Ancients|a [[Hardmode]] [[spell tome]]}}
+
+The '''Ark of the Ancients''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. It is a direct upgrade to the [[Fractured Ark]]. Unlike most broadswords, it uses a custom swing animation and performs a simple combo of a downwards slash followed by an upwards one that shoots an arc of three homing ancient stars, which deal 40% of the weapon's base damage. 
+
+Right-clicking with the weapon performs a parry attack that grants the player brief invincibility frames on direct hits and reduce the damage of projectiles. Successful parries will also fill up the weapon's charge.
+
+{{modifier|meleealt}}
+
+==Parry and Charge System==
+
+Right-clicking performs a parry, where the Ark will get rapidly extended in front of the player. If an enemy is hit by the sword during the parry, the owner will gain a little more than half a second worth of invincibility. If a projectile is hit by the sword, the projectile's damage will be lowered by a maximum of 160 damage for one second. In both cases a sound effect will play and a line of text will pop up above the player  to indicate the parry was successful. After the parry finishes, successful or not, it will go on a cooldown, indicated by a rainbow bar above the player's head.
+
+The Ark of the Ancients possesses a unique charge system, being able to hold up to 10 charges indicated by a small rainbow bar over the sword's inventory sprite. Swinging the sword will consume one charge per swing, and landing a parry, be it on an enemy or a projectile will entirely refill the Ark's charges. When the ark holds any amount of charges, its damage will be multiplied by 1.45, the sword will get bigger, and each swing will fire a medium-ranged True Ancient Beam projectile which deals 80% of the weapon's damage (Functionally 116% of the weapon's base damage, if we account the 1.45 damage multiplier from the Ark being charged up). The ancient beam will replace the central star in the upwards swing part of the combo.
+
+If the Ark holds any amount of charges, Right-Clicking while holding up will replace the parry with a concentrated blast of energy that covers about a third of the screen, depleting all of the sword's charges in the process. The damage of the beam is dependent on the amount of charges consumed to release it, on top of receiving the 145% damage boost from the Ark being charged up. The damage is equal to the base damage (alongside the charge damage boost) multiplied by half the amount of charges consumed by the blast, meaning that using the attack with all 10 charges up will give the blast a 725% damage multiplier (1.45 * 10 * 0.5), while using the attack with only one charge remaining will give the blast a 72.5% damage multiplier (1.45 * 1 * 0.5).
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Due to the Ark's unique swing animation, it is entirely unaffected by the player's attack speed.
+*The parry doesn't work on harmless or static projectiles, or if the projectile is too large.
+*The parry lasts for 5.66 seconds, with the actual parry lasting a quarter of a second, and the remaining time being taken up by the cooldown.
+**The parry cooldown applies to all of the Fractured Ark's upgrades.
+**The blast attack can still be performed even if the parry is on cooldown.
+*Parrying a projectile that deals less than 160 damage will make it completely harmless for one second, but it can still work on projectiles that deal more than 160 damage, although the player will still be hit by the projectile for the remaining amount of damage.
+**This can make it dangerous to parry strong projectiles that inflict debuffs, since the player will be inflicted by them even when successfuly parrying.
+*The paragraph describing the parry function is colored in a cornflower blue color ({{color|#6495ED ●|#6495ED}}) 
+
+== Tips ==
+*While parrying a projectile makes it harmless for a second, it may at times be preferable to directly hit an enemy with the parry to recieve the 0.58 seconds of invincibility, due to the latter providing immunity to every source of damage, while the former only reduces the damage of a single projectile. 
+*The blast attack is best used in situations where landing all of your shots is not guaranteed, as it can be used to deal a huge burst of damage in one time, alongside having piercing capabilities. If you're confident that you can land all of the charged shots and if piercing is not needed, it may be wise to refrain from using it, since the damage scaling on the blast makes it deal a bit more half of the damage one would have gotten if they landed every shot with the ancient beams.
+**While the blast has infinite piercing, it has damage falloff, meaning the more enemies it hits, the less damage it will deal.
+
+== Trivia ==
+*The Ark of the Ancients was formerly known as the '''True Ark of the Ancients''' and is still referred as such in the files. Its current name was formerly used by its predecessor, the [[Fractured Ark]].
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:远古方舟]]

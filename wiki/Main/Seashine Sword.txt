@@ -1,0 +1,33 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 26
+| use = 19
+| knockback = 2
+| tooltip = Shoots an aqua sword beam
+| auto = yes
+| stack = 1
+| rare = 2
+| velocity = 11
+| sell = {{value|0|0|40}}
+| proj = Seashine Beam.png
+| projcaption = Seashine Beam
+| element1 = Water
+}}
+
+The '''Seashine Sword''' is a craftable [[Pre-Hardmode]] [[sword]]. When swung, it fires a glowing aquamarine sword beam that emits glowing particles, deals damage and travels indefinitely, disappearing upon hitting a block or an enemy.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Sea Prism}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:海耀之刃]]

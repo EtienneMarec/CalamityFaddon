@@ -1,0 +1,24 @@
+{{Item infobox
+| type = Junk
+| type2 = Crafting material
+| stack = 9999
+| rare = -1
+| sell = No value
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| tooltip = Reacts faintly when exposed to Shimmer.
+}}
+'''Decayed Flahium''' is an Epilogue [[junk]] item. [[Flahium Bar]]s will become Decayed Flahium within 72 minutes of being crafted.
+==Crafting==
+
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Flah}}
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

@@ -1,0 +1,49 @@
+<section begin=npc infobox />
+{{npc infobox
+| name = Aureus Spawn
+| type = Flying Enemy
+| ai = Aureus Spawn AI
+| life = 3000 (pre-[[Moon Lord]])<br/>8250 (Godseeker Mode)
+| damage = 0 (passive)<br/>{{dv|0||150|180}} (explosion)
+| defense = 10
+| knockback = 100
+| hardmode = yes
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance = 100%
+| duration = 2 seconds
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Astral Infection (debuff)
+| immune4 = Poisoned
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_14.wav
+| soundtext = Explosion
+| sound2 = Item_8.wav
+| sound2text = Teleport
+| vulnerable1 = Fire
+| vulnerable2 = Water
+| resistant1 = Poison
+| resistant2 = Magic
+}}<section end=npc infobox />
+
+The '''Aureus Spawn''' is a  [[Hardmode]] [[Enemies#Boss Servants|boss servant]] that is summoned by [[Astrum Aureus]]. Upon initially spawning, it floats towards the player, firing homing Astral Crystals and occasionally teleports to some location near the player.
+
+Once its health drops below 50%, it becomes invincible and starts accelerating towards the player, acting much like a projectile. Once in this state, it will explode upon contact with tiles or the player, killing itself and potentially dealing damage in the process.
+
+== Notes ==
+*If spawned during the day, it will immediately act as if its health is below 1000 and start accelerating towards the player.
+*During the [[Boss Rush]], Aureus Spawns will have 3,000 max health regardless of difficulty.
+
+== Tips ==
+*Due to its harmless nature if left alive in its inactive state, it is recommended to avoid damaging it as much as possible, as doing so could lead to it becoming a hazard.
+*If in pursuit of the player, it will die instantly if it comes into contact with blocks. Because it is affected quite heavily by momentum, the player should attempt to draw it towards tiles as much as possible before dodging, so its previous speed carries it into them and destroys it.
+**A good way of doing this is to build boxes of solid blocks above your arena, and when being chased by the Aureus Spawn double back on them below or above your boxes, this should cause them to run into your box and subsequently be destroyed.
+*The [[Ornate Shield]], [[Asgard's Valor]], or the [[Asgardian Aegis]] can be used to dash through them, making them explode without damaging the player.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

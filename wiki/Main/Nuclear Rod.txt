@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| stack = 1
+| tooltip = Minions release an irradiated aura on enemy hits<br/>+1 max minion
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| debuffduration = 2 seconds (Irradiated Aura)
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|4|80}}
+}}
+|{{item drops infobox
+| [[Cragmaw Mire]] | 1 | 100% (Tier 2)<br/>10% (Tier 3)
+}}
+}}
+
+The '''Nuclear Rod''' is a [[Hardmode]] [[covering]] that drops from the [[Cragmaw Mire]] [[mini boss]]. While equipped, [[minions]] spawn shortly-lingering irradiated dust clouds on enemy hits with a one-second cooldown, dealing 20 summon damage, and inflicting the [[Irradiated]] [[debuff]]. It also grants one additional minion slot.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The aura effect will override the spawn of [[Jelly-Charged Battery]]'s orbs, and will be overridden by [[Starbuster Core]]'s explosion and [[Nucleogenesis]]'s sparks.
+*This covering can also be obtained from the [[Abyssal Crate]] after completing Tier 2 [[Acid Rain]].
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

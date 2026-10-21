@@ -1,0 +1,37 @@
+{{npc infobox | boxwidth = 24em
+| type = Aquatic
+| environment = Sunken Sea
+| ai = Prism-Back AI
+| damage = {{element|Water}} {{dv|20|boost=0.25}} (in [[Pre-Hardmode]])<br/>{{element|Water}} {{dv|40|boost=0.25}} (in [[Hardmode]] and when above one in [[Pre-Hardmode]])<br/>{{element|Stab}} {{dv|80|boost=0.25}} (when above one in [[Hardmode]])
+| life = {{dv|350|700}} (in [[Pre-Hardmode]])<br/>{{dv|1000|2000}} (in [[Hardmode]])
+| defense = 10 (in [[Pre-Hardmode]])<br/>25 (in [[Hardmode]])<br/>
+| dr = 25%
+| knockback = {{dv|85%|86.5%}}
+| banner = yes
+| money = {{sc|5}} (in [[Pre-Hardmode]])<br/>{{sc|50}} (in [[Hardmode]])
+| custom|{{item|Prism Shard|note=(After defeating [[Desert Scourge]])|wrap=y}} (1-3)| 100%
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Eutrophication
+| hurt = NPC_Hit_24.wav
+| killed = NPC_Killed_27.wav
+| vulnerable1 = Stab
+| vulnerable2 = Poison
+| resistant1 = Slash
+| resistant2 = Water
+| resistant3 = Cold
+}}
+
+The '''Prism-Back''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Sunken Sea]] biome. They are always passive, even if the player attacks them, and only swim back and forth. However, despite being passive, they are able to deal contact damage, and deal even more contact damage if they player touches the top of their spiked shells. 
+
+Prism-Backs receive a boost to their stats when the world enters [[Hardmode]].
+
+== Notes ==
+*Players should avoid getting in the path of Prism-Backs, as they deal high contact damage at the point in the game they are encountered and will not try to run away from the player.
+*If a Prism-Back ends up out of water, it will be unable to move.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

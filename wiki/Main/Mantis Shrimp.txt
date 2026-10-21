@@ -1,0 +1,40 @@
+{{npc infobox
+| type = Enemy
+| type2 = Aquatic
+| environment = Ocean
+| ai = Fighter AI
+| damage = {{element|Fire}} {{dv|200|400}}
+| life = {{dv|30|60}}
+| defense = 10
+| knockback = 0% / {{expert|10%}}
+| banner = yes
+| money = {{sc|1}}
+| custom| {{item|Mantis Claws|note=(After defeating [[Plantera]])|wrap=y}}|20%
+| immune1 = Kami Flu
+| hardmode=yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_14.wav
+| soundtext = Explosion
+| vulnerable1 = Cold
+| vulnerable2 = Poison
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Fire
+}}
+
+The '''Mantis Shrimp''' is a [[Hardmode]] [[enemy]] that spawns in the [[Ocean]] [[biome]]. Similarly to [[Crab]]s they walk along the Ocean's floor in the player's general direction. When hitting the player, the Mantis Shrimp releases an explosion. The explosion deals no damage and is purely for visual effect.
+
+After [[Plantera]] has been defeated, they will occasionally drop the [[Mantis Claws]], a claw-like melee weapon that mimics the Mantis Shrimp's main attack.
+
+== Notes ==
+*With their extremely high melee damage, they can kill most characters with one hit on [[Expert Mode]].
+*Because they are small and can kill a player with one to two hits, caution is advised when exploring the ocean, even in [[Hardmode]].
+
+== Trivia ==
+*Similarly to real [[wikipedia:Mantis_shrimp|Mantis shrimps]], their claws are extremely powerful for their size and can easily kill their prey in one hit.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

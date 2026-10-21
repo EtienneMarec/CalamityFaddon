@@ -1,0 +1,745 @@
+{{Patch infobox
+| image = Coin of Deceit.png
+| patchname = October Release
+| pair = 2.0.1.003 (music)
+| release = 10/07/2022
+}}
+The '''2.0.1.002''' (or '''2.0.1.2''') update fixed numerous issues from the previous updates, reworked several weapons and significantly rebalanced the [[Spy]] class and other items. The update also added dozens of new sounds, a couple new [[critters]] for the [[Arsenal Labs]], and a variety of loading menu tips. In addition, this update polished support for features from the [[tgc:1.4.0.1|Journey's End]] update including [[Bestiary]], [[Journey Mode]], and various miscellaneous items and features such as tree shaking.
+
+This update also ported the mod to tModLoader v.2022.9.47, and implemented its newly supported custom game tips feature.
+
+{{toc limit|3|right=yes}}
+== Additions ==
+*Added [[Androomba]], [[Androomba Pal]], and [[Nanodroid]].
+*Added [[Androomba (item)|Androomba]], [[Dysfunctional Nanodroid]], [[Nanodroid (item)|Nanodroid]], [[Green Plague Nanodroid]], [[Red Plague Nanodroid]], [[Repair Unit (item)|Repair Unit]] critter items.
+*Added [[The Anomaly's Nanogun]], [[Atlas Munitions Beacon]], [[Puff Shroom]], and [[Warloks' Moon Fist]].
+*Added [[Eye of the Accursed Banner]], [[Large Ritual Candle]], [[Monolith of the Accursed]], [[Occult Legionnaire Banner]], [[Occult Platform]], [[Ritual Candle]], [[Sacrilegious Bathtub]], [[Sacrilegious Bed]], [[Sacrilegious Bench]], [[Sacrilegious Bookcase]], [[Sacrilegious Candelabra]], [[Sacrilegious Candle]], [[Sacrilegious Chair]], [[Sacrilegious Chandelier]], [[Sacrilegious Chest]], [[Sacrilegious Clock]], [[Sacrilegious Door]], [[Sacrilegious Dresser]], [[Sacrilegious Lamp]], [[Sacrilegious Lantern]], [[Sacrilegious Organ]], [[Sacrilegious Sink]], [[Sacrilegious Table]], and [[Sacrilegious Work Bench]].
+*Added [[Moon Fist (buff)|Moon Fist]] and [[Puff Warrior (buff)|Puff Warrior]] buffs.
+*Added [[Music Box (Draedon's Ambience)]].
+*Added [[Occult Brick]].
+*Added [[Occult Brick Wall]].
+*Added [[Thank You]].
+*Added the {{rare|17}} [[rarity]].
+*Added various new sound effects:
+{{collapse top|Sounds|width=70%}}
+*Tile hit sounds for [[Abyss Gravel]], [[Auric Ore]], and [[Planty Mush]].
+*Placement sounds for [[Advanced Display]], [[Auric Quantum Cooling Cell]], [[Decryption Computer]], [[Long Ranged Sensor Array]], and [[Voltage Regulation System]].
+*Use sounds for [[Blood Orange (calamity)|Blood Orange]], [[Dragonfruit]], [[Elderberry (calamity)|Elderberry]], and [[Miracle Fruit]].
+*Boss spawning sounds for [[Ceaseless Void]], [[The Plaguebringer Goliath]], [[Polterghast]], [[Signus, Envoy of the Devourer]], and [[Storm Weaver]].
+*Charge sounds for [[The Hive Mind]].
+*Projectile firing sounds for [[Abyssal Tome]] and [[The Slime God]].
+*Telegraph sounds for [[XF-09 Ares]] weapons.
+*Phase transition sounds for Polterghast, [[XS-01 Artemis]], and [[XS-03 Apollo]].
+*Hover icon sounds for selecting the [[The Fabricational Quartet]].
+*Death sound for drowning in the [[Abyss]].
+*Build up and death sound for the Ceaseless Void.
+*Phantom Spirit spawning sound for the Polterghast.
+*Jumping, stomping, punching, nuke launching and nuke exploding sounds for the Ravager.
+*[[Enchantment]] and exhumation sounds.
+*Hit sounds for Polterghast, Ravager and its limbs, Flame Pillar, and Rock Pillar.
+*Spawn rumble and spawning sounds for [[The Leviathan]].
+*Aftermath sounds from [[Golem]] for the spawning of the plague.
+*Aftermath sounds from [[Wall of Flesh]] or [[Astrum Aureus]] for the [[Astral Infection]].
+*Death sounds for Ravager and its limbs.
+*Use sounds for the [[Terminus]].
+*Boss summoning, tier transitioning, teleporting, and winning sounds for the [[Boss Rush]].
+*Critical hit sound from the [[Blood Pact]].
+*Full [[Adrenaline Meter]] loss sound.
+*Activation sound for [[Altar of the Accursed]].
+{{collapse bottom}}
+*Added <code>Remove Reforge RNG</code> [[configuration option]].
+*Added <code>CanFirePointBlank</code>, <code>SetAmalgamBuffList</code>, <code>SetFirePointBlank</code>, and <code>SetPersistentBuffList</code> [[Mod Calls]].
+*Added the following game [[tips]]:
+{{collapse top|Game tips|width=70%}}
+*"Deep below the Underground Desert lie the ruined outskirts of a fallen kingdom."
+*"Old labs can be found scattered throughout the Underground."
+*"You can find Planetoids in outer space!"
+*"The Abyss can be found deep below the Sulphurous Sea. It's very difficult to explore without proper diving gear."
+*"The Bandit is most interested in those who save up enough money worth to swindle."
+*"If you've been reforging a lot with the Goblin Tinkerer, it might pay off to give the Bandit a visit."
+*"The Drunk Princess is great to party with. If you carry her favorite vodka, she might move in."
+*"The Sea King used to like clams. He changed his mind when he got eaten by one."
+*"The Sea King can provide a bubble to aid with breathing underwater to any who ask for help."
+*"The Archmage can be freed if you destroy the very castle he was imprisoned in."
+*"The Brimstone Witch can enchant items to grant them new powers."
+*"Titan Hearts can be used as an offering at a Beacon found in the Astral Infection."
+*"Summoning the sun goddess under the light of the moon massively empowers her strength and endurance."
+*"Summoning the fae goddess under the light of day will start a vicious and persistent battle."
+*"Killing the most harmless of enemies can awaken the wrath of a much stronger monster. Slay them at your own risk!"
+*"Use the Rod of Discord in the Abyss at your own risk. The chaotic traces left behind may attract the attention of unwanted foes."
+*"An ancient artifact resides at the bottom of the Abyss. Use with great caution."
+*"The Codebreaker can be upgraded, allowing you to decrypt new schematics found in various labs around the world."
+*"Certain weaponry requires charge to use. Weapons can be charged at a Charging Station with Draedon Power Cells."
+*"Power Cell Factories generate Draedon Power Cells over time."
+*"Power Cell Factories and Charging Stations can be looted from labs in the Underground."
+*"Wearing any Spy class armor lets you build stealth!"
+*"Holding a non-summoner weapon reduces the damage of your minions."
+*"Certain attacks will chip away at your defense, but it will quickly regenerate afterward."
+*"Ranged weapons fired at point blank will do a lot more damage."
+*"Need a challenge beyond Expert Mode? Try Revengeance Mode!"
+*"Blood Orbs collected during the Blood Moon can craft almost any potion."
+*"Modded controls can be bound in Settings."
+{{collapse bottom}}
+== Changes ==
+=== Bosses and NPCs ===
+*Covering drops are no longer weighted in boss drop pools.
+*[[Anahita]], [[Aurora Spirit]], [[Cryo Slime]], [[Cryogen]], [[Cryon]], [[Deerclops]], [[Ice Clasper]], and [[Rimehound]] are now immune to the [[Frostbite]] [[debuff]].
+*[[Antlion]]s now fire 3-5 Sand Balls in [[Death Mode]]. Its previous ability to fire 8-13 Sand Balls normally and 80-129 Sand Balls at a 0.1% chance is moved to the for the worthy world seed.
+*[[Aquatic Scourge]], [[Astrum Deus]], [[Brimstone Heart]], [[Cosmic Guardian]], [[Dark Energy]], [[The Destroyer]], [[Ravager]] parts, [[Storm Weaver]], [[XF-09 Ares]], and [[XM-05 Thanatos]] no longer have a global grenade resistance.
+*Added dialogues for the [[Arms Dealer]] about the [[Quad-Barrel Shotgun]].
+*[[Bandit]] now attacks three times as fast.
+*Added [[Banishing Fire]], [[Hellfire]], Frostbite, [[Rancor Burn]], [[Sparkle Slime]], [[Vulnerability Hex]], and debuffs from [[Dark Harvest]] and [[Tentacle Spike]] to the NPC debuff display.
+*Bestiary icons for [[Archmage]], [[Bandit]], [[Brimstone Witch]], [[Drunk Princess]], and [[Sea King]] are now animated during interaction.
+*Bestiary entries for Arsenal Lab and Astral Underground now feature underground and astral map backgrounds respectively.
+*Added notes in the Bestiary for item drop conditions.
+*Hid healing potion drops in the Bestiary.
+*Shortened Bestiary filters for the Abyss. <!-- X Layer of the Abyss to Abyss: X Layer -->
+*Added [[Boss Rush]] tier transitioning animations.
+*Removed the additional cooldown between [[Brimstone Elemental]] and [[Signus]] during Boss Rush.
+*Critters no longer take damage from [[Calamity]].
+*Critters and [[Town NPC]]s are no longer affected by [[Daawnlight Spirit Origin]].
+*[[Daybroken]] is now registered as a heat debuff.
+*Male and female [[Devil Fish]] Bestiary entries are now distinct.
+*[[Dreadnautilus]] now has Calamity's boss health bar.
+*Adjusted [[Dungeon Guardian]] spawn for the drunk world seed.
+*[[Enchanted Nightcrawler]]s can now spawn from [[ambient objects]] and wild [[grass]] from the [[Astral Infection]].
+*Frostbite is now registered as a cold debuff.
+*[[Lava Bat]]s now inflict [[On Fire!]] for 3 seconds on contact.
+*[[Mimic]]s now drop their items at a 25% chance instead of a 33.33%.
+*[[Mourning Wood]] now drops [[Witch's Broom]] in all difficulties.
+*[[Giant Clam]] now drops [[Amidias' Pendant]] and [[Giant Pearl]] regardless of condition.
+*Ice Mimics now drop their items at a 25% chance instead of 33.33%, except [[Toy Sled]] which drops at a 5% chance instead of 33.33%.
+*[[Piggy]] and [[Repair Unit]] are now in the gold critter category for the Bestiary.
+*[[Plague]] now spreads onto nearby NPCs on death for 5 seconds.
+*Repair Units can now be hit with any [[Bug Net]].
+*[[Scryllar]] kill count for the [[Bestiary]] now increases by killing its enraged variant.
+*[[Skeleton Merchant]] is now immune to most debuffs except [[Lovestruck]], [[Slime (debuff)|Slime]], Sparkle Slime, [[Stinky]], and [[Wet]].
+*Sparkle Slime now has the same effects as Slime.
+*[[Steampunker]] now sells [[Purple Solution]] or [[Red Solution]] in a [[Graveyard]] for the opposite evil chosen.
+*Debuffs inflicted by [[The Torch God]] now scale with difficulty:
+**[[Cursed Inferno]], [[Frostburn]], and [[On Fire!]] can be inflicted in any difficulty.
+**[[Brimstone Flames]] and [[Shadowflame]] are exclusive to [[Expert Mode]].
+**[[God Slayer Inferno]] and [[Holy Flames]] are exclusive to [[Revengeance Mode]].
+**[[Dragonfire]] and [[Vulnerability Hex]] are exclusive to [[Death Mode]].
+*All Town NPCs are now vulnerable to Sparkle Slime.
+*Added the following Town NPC names:
+**"Jeffred" and "The Cooler Arthur" for the Arms Dealer
+**"Him" for the [[Goblin Tinkerer]]
+**"Lacuna" for the [[Wizard]]
+*Added a dialogue for the [[Wizard]] about the [[Rod of Discord]].
+*The Wizard no longer ignores discount effects for selling the Rod of Discord.
+
+==== [[Astrum Aureus]] ====
+*Changed the hit sound.
+
+==== [[Aquatic Scourge]] ====
+*Now drops 5-15 [[Greater Healing Potion]]s instead of 8-14.
+
+==== [[Astrum Deus]] ====
+*Now drops 5-15 Greater Healing Potions instead of 8-14.
+
+==== [[Brain of Cthulhu]] ====
+*No longer hides its minimap icon below {{dv|||20%|100%}} health.
+
+==== [[Brimstone Elemental]] ====
+*Added a drop weight system for [[Abaddon]], [[Gehenna]], and [[Rose Stone]].
+*Hellfireballs now explode on tiles behind the player and pass through tiles in front of the player.
+*Decreased the effectiveness of enrages by 40%.
+
+==== [[Calamitas]] ====
+*Hellfireballs now explode on tiles behind the player and pass through tiles in front of the player.
+*Halved bullet hell hellblast acceleration but increased maximum speed by 25%.
+
+==== [[Ceaseless Void]] ====
+*Increased void pull strength by 25% but it can no longer affect vertical movement.
+
+==== [[Crabulon]] ====
+*Nerfed [[Crab Shroom]]'s health from {{dv|25|boost=0}} to {{dv|15|boost=0}}.
+
+==== [[Deerclops]] ====
+*Now drops [[Bone Helm]] in all difficulties.
+
+==== [[Desert Scourge]] ====
+*Now drops 5-15 [[Lesser Healing Potion]]s instead of 8-14.
+
+==== [[The Destroyer]] ====
+*Now takes 60% damage from [[Cryophobia]]'s blast. <!-- Previously incorrectly double applied to Aquatic Scourge, causing no results. Arguably in fixes -->
+
+==== [[The Devourer of Gods]] ====
+*Now drops 5-15 [[Omega Healing Potion]]s instead of 8-14.
+
+==== [[Duke Fishron]] ====
+*Nerfed health from {{dv|105,625|126,750|177,450||161,604|226,248}} to {{dv|100,000|120,000|168,000||153,000|214,200}}.
+
+==== [[The Fabricational Quartet]] ====
+*Increased audio quality of Draedon's ambience.
+*Draedon now reappears with a flying hologram projector when attacked.
+*Draedon is now immune to all debuffs and cannot be homed in on.
+*Decreased Ares' Exoplasma Bolt acceleration by 66.67% and maximum speed by 16.67%.
+*Doubled Ares Laser Cannon and Thanatos Exo Pulse Laser lifespan and telegraph time. Decreased maximum speed by 25%.
+*Increased Ares' Gauss Nuke telegraph radius and decreased opacity from 40% to 20%.
+*Ares now takes 80% damage from [[Dragon Rage]] instead of 25%.
+*Ares now takes 85% damage from [[The Enforcer]]'s flames instead of 50%.
+*Ares now takes 75% damage from [[Murasama]] instead of 40%.
+*Ares now takes 90% damage from [[Seraphim]]'s lasers. <!-- Previously incorrectly double applied to Thanatos, being overriden by Thanatos' actual resistance. Arguably in fixes -->
+*Removed Apollo's predictiveness.
+*Halved Apollo's Volatile Plasma Blast's initial speed.
+*Increased Artemis' predictiveness by {{dv|66.67%|100%|112.12%|122.22%}} and 138.1% in Boss Rush.
+*Artemis' Exo Pulse Laser now accelerates to maximum speed and have doubled lifespan. Increased maximum speed by 15%.
+*Artemis and Apollo now take 90% damage from [[Seared Pan]] instead of Thanatos. <!-- Not intended. Arguably in fixes -->
+*Increased Thanatos' distance from the player by 20% while aggressive and 100% while passive.
+*Decreased Thanatos' movement speed and turn speed by 10%.
+*Thanatos now takes 8% damage from Seraphim's lasers instead of 10%.
+*Thanatos now takes 75% damage from Dragon Rage.
+*Thanatos now takes 35% damage from The Enforcer's flames.
+*Thanatos no longer takes 25% damage from [[Celestus]].
+*Thanatos no longer takes 80% damage from [[Utensil Poker]]'s fork and carving fork.
+
+==== [[Golem]] ====
+*The body now inflicts Armor Crunch for 8 seconds, and all other segments inflict Armor Crunch for 4 seconds in all modes.
+
+==== [[The Hive Mind]] ====
+*[[Rot Ball]]s now drop at a 25% chance in Classic Mode instead of 100%, and are included in the weighted drop stack.
+
+==== [[Jungle Dragon, Yharon]] ====
+*No longer temporarily gains increased movement stats while transitioning into the second phase.
+*Reduced [[Dragonfire]] duration from Infernadoes from 10 seconds to 5.
+*Reduced Dragonfire duration from contact from 8 seconds to 4.
+*Reduced Dragonfire duration from Flarenadoes from 6 seconds to 3.
+*Reduced Dragonfire duration from Flare Bombs, Flare Dusts, and Fireballs from 4 seconds to 2.
+
+==== [[Leviathan and Anahita]] ====
+*The Leviathan takes up to 50% longer to switch between attacks.
+*The Leviathan spawns one less Aquatic Aberration.
+*The Leviathan now spawns Aquatic Aberrations 33.33% more frequently during non-final phases, but half as frequently in the final phase.
+
+==== [[Lunatic Cultist]] ====
+*Nerfed health from {{dv|53,500|66,875|80,250||85,263|102,318}} to {{dv|44,500|55,625|66,750||70,920|85,104}}.
+*Now takes 80% damage from [[Art Attack]] and [[Nightglow]].
+*[[Atlas]] no longer gains buffs after the Lunatic Cultist is defeated.
+**Removed the related status message after defeating the boss.
+
+==== [[Moon Lord]] ====
+*Nerfed Moon Lord's Hand's Phantasmal Sphere damage from {{dv|100|200|260|284|300|390}} to {{dv|80|160|260|284|240|390}}.
+*Nerfed True Eye of Cthulhu's Phantasmal Sphere damage from {{dv|110|220|260|284|330|390}} to {{dv|88|176|260|284|264|390}}.
+
+==== [[The Old Duke]] ====
+*Increased vortex pull strength by 25% but it can no longer affect vertical movement.
+
+==== [[The Perforators]] ====
+*[[Tooth Ball]]s now drop at a 25% chance in Classic Mode instead of 100%, and are included in the weighted drop stack.
+
+==== [[Providence, the Profaned Goddess]] ====
+*Holy Blasts now explode into an even spread of fire. Decreased fire count from 8 to 6 during the day, 10 to 8 during the night.
+*No longer inflicts [[Holy Inferno]] during her death animation.
+*Now drops 4 [[Profaned Moonlight Dye]] at night instead of 3-4.
+*Changed the status message from "The air is burning..." to "Holy flames burn away at your wings...".
+*Changed the death animation sound.
+*Now takes 20% damage from the [[Hell's Sun]].
+
+==== [[The Slime God]] ====
+*The core no longer has Calamity's boss health bar.
+*Added a [[status message]] for the core fleeing the battle when defeated.
+
+==== [[Storm Weaver]] ====
+*No longer fires lightning in the third phase. Changed phase transition from 65% to 55%.
+*No longer charges in the fourth phase. Changed phase transition from 50% to 30%.
+
+==== [[Supreme Calamitas]] ====
+*Brimstone Fireblasts now explode into an even spread of darts. Changed dart count from 16 in all difficulties to {{dv|8|12|14|16}} and 20 during [[Boss Rush]].
+*Brimstone Gigablasts now explode into an even spread of darts. Changed dart count from 60 in all difficulties to {{dv|20|28|32|36}} and 44 during [[Boss Rush]].
+*Supreme Cataclysm and Supreme Catastrophe now fire even spreads of darts. Changed dart count from 16 in all difficulties to {{dv|8|12|14|16}} and 20 during [[Boss Rush]].
+*Now teleports to the center of the arena during the battle's end dialogues.
+
+==== [[Wall of Flesh]] ====
+*No longer drops [[Demon Heart]] in Classic Mode. <!-- Back to Rainbow -->
+
+=== Balance and Reworks ===
+==== Armor and Coverings ====
+*Nerfed [[Abyssal Mirror]] and [[Mirage Mirror]]'s stealth regeneration boost while standing still from 30% to 25% and stealth regeneration boost while moving from 20% to 12%.
+*Nerfed [[Aerospec armor]]'s maximum stealth boost from 100 to 80.
+*[[The Amalgam]] and [[Amalgamated Brain]] now inherit [[Brain of Confusion]]'s dodge effect.
+*Buffed Brain of Confusion's dodge cooldown from 120 seconds to 90.
+*Nerfed [[Coin of Deceit]]'s stealth cost from 75% to 85%.
+*Nerfed [[Corrosive Spine]]'s movement speed boost from 10% to 5%.
+*[[Dark God's Sheath]] and [[Eclipse Mirror]] no longer guarantee critical strikes on stealth strikes.
+*Decreased Dark God's Sheath and Eclipse Mirror stealth regeneration acceleration. <!--
+OLD
+* DGS  = (100% + 1% * T)
+* EM   = (100% + 1% * T) * 1.0084^T
+* BOTH = (100% + 1.5% * T) * 1.0084^T
+NEW
+* DGS  = (100% + 0.7% * T)
+* EM   = (100% + 0.7% * T) * 1.006^T
+* BOTH = (100% + 1% * T) * 1.006^T -->
+*Nerfed Dark God's Sheath, Eclipse Mirror, and [[Silencing Sheath]] maximum stealth boost from 20 to 10.
+*Buffed Eclipse Mirror's stealth regeneration boost while standing still from 20% to 25%.
+*[[Eldritch Soul Artifact]] now increases stealth regeneration by 10% instead of Spy damage by 15%.
+*[[Ethereal Extorter]] souls no longer spawn from secondary projectiles. It no longer decreases life regeneration.
+*Buffed [[The Evolution]]'s reflect cooldown from 120 seconds to 90.
+*[[Feather Crown]] feathers now have a velocity multiplier of 4.
+*[[Fungal Clump]] now scales with the best class damage and no longer applies a penalty when holding a non-summon weapon.
+*Nerfed [[Gladiator armor]]'s maximum stealth boost from 70 to 60.
+*Buffed [[Glove of Precision]]'s attack speed reduction from 20% to 15%.
+*Buffed [[Glove of Recklessness]]' attack speed boost from 12% to 15% but doubled its inaccuracy.
+*Buffed [[Ink Bomb]] cooldown from 25 seconds to 20.
+*[[Luxor's Gift]] no longer functions on channeling items.
+*[[Magiluminescence]] now increases running speed by 1.05x.
+*Buffed [[Mining armor]]'s set bonus pickaxe speed boost from 30% to 40% and it now allows extra ores to occasionally drop.
+*[[Nanotech]] and [[Raider's Talisman]] now increases non-stealth strike Spy critical strike chance by 12% after performing a stealth strike which decays over 5 seconds, instead of gradually increasing Spy damage after landing critical strikes which lasts until death.
+*[[Occult Skull Crown]] can no longer be equipped in the helmet slot. <!-- Somewhat a balance change since it technically has an effect. Arguably additional. -->
+*All three minions from [[Profaned Soul Artifact]] now spawn regardless of conditions. The offensive guardian no longer increases summon damage.
+*Nerfed [[Ruin Medallion]]'s stealth cost from 50% to 75%.
+*Buffed [[Reaver Headgear]]'s pickaxe speed boost from 10% to 40%, placement speed from 20% to 40%, increase set bonus range boost from 2 to 4, and set bonus now grants the [[Spelunker]] effect instead of causing treasure to sparkle.
+*Removed [[Rotten Dogtooth]]'s flat stealth cost reduction.
+*Buffed [[Sand Cloak]], increased defense from 1 to 2 and decreased ability stealth usage from 25% to 10%. Increased the dust veil's radius by 20%.
+*[[Scuttler's Jewel]] now has a 0.5 second cooldown for spawning spikes. The spike now pierces twice instead of infinitely, and does typeless damage instead of Spy.
+*Silencing Sheath no longer increases stealth regeneration time.
+*Adjusted [[Spectral Veil]]'s stealth regeneration boost from 20% only while moving to 15% regardless of condition.
+*Nerfed [[Statigel armor]]'s maximum stealth boost from 100 to 90.
+*Nerfed [[Sulphurous armor]]'s maximum stealth boost from 95 to 70.
+*Nerfed [[Victide armor]]'s maximum stealth boost from 90 to 60.
+*Added a 0.25-0.5 second cooldown to [[Wulfrum Acrobatics Pack]]'s hook spawn, increasing as the hook is aimed downwards. The player no longer gains a velocity boost by jumping out of the hook unless the player is below the hook.
+
+==== Melee weapons ====
+*Buffed [[Ark of the Cosmos]]' damage from 1300 to 1670.
+*Buffed [[Azathoth]]'s damage from 50 to 80.
+*Rebalanced [[Blade of Grass]], nerfed damage from 45 to 35 but buffed use time from 33 to 30. <!-- Overall nerf -->
+*Buffed [[Crescent Moon]]'s damage from 300 to 380.  Increased homing radius by 50%.
+*Buffed [[Draconic Destruction]]'s damage from 80 to 250.
+*Nerfed [[Dragon Rage]]'s damage from 1275 to 1075. Fireballs now have a spawning cooldown of one second.
+*Buffed [[Exoblade]]'s damage from 640 to 825.
+*Nerfed [[Feller of Evergreens]]' damage from 40 to 18.
+*Nerfed [[Fiery Greatsword]]'s damage from 90 to 72.
+*Nerfed [[Fractured Ark]]'s damage from 80 to 70 and parry damage multiplier from 1.75 to 1.5.
+*Nerfed [[Frostbrand]]'s damage from 140 to 97 and use time from 20 to 23.
+*Buffed [[Galaxy Smasher]]'s damage from 264 to 300.
+*Buffed [[Galileo Gladius]]' use time from 10 to 8 and velocity from 2.4 to 0.9. <!-- Lower velocity means more consistent recall for shortswords -->
+*Buffed [[Illustrious Knives]]' use time from 12 to 10, and added a velocity multiplier of 2.
+*Buffed [[Mycelial Claws]]' damage from 20 to 21. It now grants the [[Mushy]] [[buff]] for 6 seconds on hit.
+*Nerfed [[Spine of Thanatos]]' damage from 260 to 150.
+*Buffed [[Teardrop Cleaver]]'s damage from 24 to 45 and increased its size by 50%.
+*Nerfed [[Terrarian]]'s damage from 352 to 106.
+*Nerfed unattuned [[True Biome Blade]]'s damage from 400 to 200.
+
+==== Ranged weapons ====
+*Nerfed [[Adamantite Particle Accelerator]]'s damage from 100 to 65.
+*Nerfed [[Anti-materiel Rifle]]'s damage from 3240 to 1880. Removed its damage multiplier of 1.3 when used with non-converted ammo.
+*Nerfed [[Clockwork Bow]]'s damage from 808 to 770.
+*Buffed [[Crackshot Colt]]'s coin ricochet damage multiplier from 2 to 2.5.
+*Nerfed [[Disseminator]]'s use time from 23 to 30.
+*Buffed [[Flak Toxicannon]]'s damage from 50 to 60 and velocity from 9 to 16.
+*Reworked [[Heavenly Gale]]. It now fires a burst of nine crystal arrows in different angles from its tip, instead of parallel rows of five laser arrows in two-round bursts. All arrows are now converted and have a singular homing function, instead of exclusively converting [[Wooden Arrow]]s into arrows of different functions depending on color. The player can now stop attacking for up to five seconds to increase damage of the crystal arrows up to 450% damage. If the arrow reaches its maximum damage, lightning bolts will also additionally spawn on hit, dealing 162% damage. Buffed its damage from 198 to 350 but nerfed use time from 30 to 42. It can no longer receive the [[Ephemeral]] [[enchantment]].
+*Buffed [[Infinity]]'s damage from 45 to 130.
+*Buffed [[The Maelstrom]]'s damage from 397 to 530.
+*Buffed [[Matter Modulator]]'s damage from 84 to 100 and velocity from 7 to 12.
+*[[P90]] no longer does less damage while using [[Acid Round]]s.
+*Buffed [[Phangasm]]'s damage from 110 to 180.
+*[[Sea's Searing]] spout now uses IDstatic immunity frames instead of local iframes.
+*Buffed [[Soma Prime]]'s damage from 130 to 370, and increased Shred's damage over time from 75 damage per second to 150.
+*Buffed [[Titanium Railgun]]'s damage from 275 to 370.
+*Buffed [[Toxibow]]'s damage from 5 to 15.
+*Nerfed [[Tyranny's End]]'s damage from 2250 to 2000 and use time from 55 to 60.
+*Nerfed [[Vortexpopper]]'s use time from 16 to 21.
+
+==== Magic weapons ====
+*Rebalanced [[Acid Gun]]. Buffed its damage from 17 to 28 and acid streams now inflict [[Irradiated]] for 2 seconds. However, fully exhausting all the pierce of any acid stream will cause all the streams to disappear. 
+*[[Alula Australis]] stars now home into nearby enemies. Nerfed damage from 99 to 65.
+*Rebalanced [[Amber Staff]]. Buffed its damage from 19 to 21. Increased use time from 40 to 45 and added a use delay of 10.
+*Buffed [[Apotheosis]]' damage from 77 to 230.
+*Buffed [[Art Attack]]'s damage from 52 to 470.
+*Buffed [[Clothier's Wrath]]'s damage from 38 to 80 and velocity from 6 to 9.
+*Buffed [[Face Melter]]'s damage from 140 to 200.
+*Buffed [[Frigidflash Bolt]]'s damage from 66 to 80.
+*Rebalanced [[Gatling Laser]]. Buffed its damage from 43 to 50. However, it no longer deals explosion damage. <!-- Overall nerf -->
+*Buffed [[Gauss Pistol]]'s damage from 110 to 150.
+*Nerfed [[Hellwing Staff]]'s damage from 33 to 22 and use time from 24 to 30.
+*Buffed [[Hyphae Rod]]'s damage from 20 to 22.
+*Buffed [[Magic Missile]]'s damage from 20 to 23 and use time from 22 to 10.
+*Buffed [[Nightglow]]'s damage from 50 to 54.
+*Buffed [[Rainbow Rod]]'s mana cost from 21 to 12.
+*Nerfed [[Rancor]]'s damage from 444 to 250. Decreased use time from 27 to 25. <!-- Use time has no effect -->
+*Buffed [[Serpentine]]'s damage from 10 to 14.
+*Buffed [[Starfall]]'s damage from 50 to 57.
+*Reworked [[Subsuming Vortex]]. When used with its primary fire (left-click), it fires a spread of three high-speed small homing vortices. When used with its secondary fire (right-click), it now fires a large semi-controllable swirling vortex. The vortex fires fast-moving homing small vortices at nearby enemies. After charging for 4 seconds, the large vortex can be unleashed in the direction of the cursor to deal 435% of the weapon's damage. Buffed its damage from 242 to 533, and decreased its mana cost from 78 to 12.
+*Buffed [[Tesla Cannon]]'s damage from 1050 to 1360.
+*Buffed [[The Wand]]'s damage from 1 to 14. <!-- Actually to resolve a modifier bug -->
+*Buffed [[Wingman]]'s damage from 49 to 70.
+*Buffed [[Yharim's Crystal]]'s damage from 70 to 75.
+
+==== Summon weapons ====
+*[[Ancient Ice Chunk]] now uses 16 local immunity frames. Increased charging rate by 233.33%.
+*Removed [[Ares' Exoskeleton]]'s 1.1 damage multiplier for Tesla Cannons.
+*[[Black Hawk Remote]] now consumes and fires [[bullets]]. Nerfed damage from 32 to 25 and velocity from 10 to 6.
+*Buffed [[Blood Clot Staff]] and [[Dank Staff]]'s damages from 7 to 16. Both minions now have a velocity multiplier of 3.
+*Buffed [[Calamari's Lament]]'s damage from 95 to 110. Improved calamari minion tracking on targets, target range of the calamari by 16.67%, and initial ink velocity by 25%. Increased the ink's velocity multiplier from 2 to 3 and the ink now pierces four times.
+*[[Cosmic Viper Engine]] now consumes and fires bullets every other shot. Buffed damage from 138 to 321. Halved inaccuracy when firing a rocket and removed all rocket damage multipliers.
+*Reworked [[Cosmilamp]]. Instead of charging, it now fires cosmic beams which home into enemies and pierce twice. Lamps now idle around the player and create a wave formation and movement when multiple are present. Buffed damage from 89 to 127.
+*Buffed [[Dazzling Stabber Staff]]'s damage from 56 to 127.
+*Buffed [[Dragonblood Disgorger]]'s damage from 160 to 215.
+*Buffed [[Elemental Axe]]'s damage from 50 to 57.
+*Nerfed [[Flowers of Mortality]]'s damage from 140 to 72 and minion slot cost from 0.5 per minion to 0.6. <!-- Effectively just makes the thing require 3 minions slots instead of 2.5 -->
+*Rebalanced [[Gamma Heart]]. Nerfed its damage from 173 to 85. Its bullets now deal full damage instead of half. Each bullet now pierces up to four times, has a velocity multiplier of 3, and improved minion tracking. Increased target range of the gamma head by 215.79%. The canister now has a velocity multiplier of 2. <!-- Overall buff -->
+*Reworked [[Infected Remote]]. It now costs 3 minion slots instead of scaling based on minion slots used. Virili now charges in a cross-based pattern, and charges above the target during the rocket firing phase. Charges now have a motion blur visual. Bees and Baby Plaguebringers now have a velocity multiplier of 2. Baby Plaguebringers charge 50% faster. Nerfed damage from 75 to 50.
+*Nerfed [[Metastasis]]' damage from 666 to 400.
+*Nerfed [[Midnight Sun Beacon]]'s damage from 191 to 150.
+*Rebalanced [[Perdition]]. Nerfed damage from 444 to 100. Increased average speed of giant souls by 62.5%. <!-- 11-21 to 21-31 velocity, overall nerf-->
+*Buffed [[Pulse Turret Remote]]'s damage from 100 to 150.
+*Nerfed [[Resurrection Butterfly]]'s damage from 65 to 55.
+*Reworked [[Rusty Beacon Prototype]]. It now releases a cloudy pulse every 2 seconds which inflicts [[Sulphuric Poisoning]] on nearby enemies for 1.5 seconds, instead of hovering on top of enemies and bursting into rusty shrapnels. It now has a base damage of 2 and consumes sentry slots instead of minion slots.
+*Buffed [[Saros Possession]]'s damage from 171 to 210.
+*Buffed [[Snake Eyes]]' damage from 36 to 65.
+*Buffed [[Sirius]]' damage from 160 to 175.
+*Nerfed [[Spikecrag Staff]]'s spikes per shot from 5-7 to 2-3.
+*[[Staff of the Mechworm]]'s minion now has a velocity multiplier of 2 and hits twice as often. Increased its target range by 27.27%.
+*[[Staff of Necrosteocytes]]' minion now has a velocity multiplier of 2 and now uses 30 local immunity frames.
+*Buffed [[Tactical Plague Engine]]'s damage from 52 to 200.
+*Nerfed [[Vigilance]]'s damage from 150 to 115.
+*[[Viral Sprout]]'s [[Sage Poison]] debuff now scales in damage over time with the amount of minions spawned, instead of dealing a flat 45 damage per second and taking more time to deal more damage with each damage tick.
+*Reworked [[Virid Vanguard]]. Instead of constantly orbiting around the player and slowly launching the blades onto the cursor when using right-click, it now alternates between dashing side by side and repeatedly falling and teleporting on top of its target. Nerfed damage from 280 to 73 but decreased minion slot cost from 1.5 to 1.
+*Nerfed [[Void Concentration Staff]]'s damage from 150 to 105.
+*Nerfed [[Wither Blossoms Staff]]'s damage from 61 to 50.
+
+==== Spy weapons ====
+*Nerfed [[Blazing Star]]'s stack size from 4 to 3.
+*[[Bouncy Spiky Ball]] now throws four projectiles on stealth strikes, but no longer gains damage boosts on hit.
+*Nerfed [[Cobalt Kunai]]'s stealth strike damage multiplier from 1.4 to 1.
+*Buffed [[Crystalline]]'s stealth strike damage multiplier from 1 to 3.
+*Nerfed [[Deep Sea Dumbbell]]'s stealth strike damage multiplier from 1.3 to 0.4.
+*Nerfed [[Feather Knife]]'s damage from 25 to 16 and use time from 18 to 20.
+*Buffed [[Gilded Dagger]] and [[Gleaming Dagger]]'s stealth strike damage multipliers from 1 to 2.8.
+*Rebalanced [[Hell's Sun]]. Buffed its damage from 85 to 240 but nerfed stealth strike damage multiplier from 0.6 to 0.12. <!-- Overall buff -->
+*[[Infested Clawmerang]] now auto-reuses.
+*Buffed [[Iron Francisca]] and [[Lead Tomahawk]]'s damage from 7 to 14. Stealth strikes now pierce 6 times instead of infinitely. <!-- Overall buff -->
+*Buffed [[Mycoroot]]'s damage from 10 to 12. Stealth strikes now grants the Mushy buff to all nearby players for 15 seconds.
+*Nerfed [[Nanoblack Reaper]]'s stealth strike damage multiplier from 1.2 to 1.
+*Rebalanced [[Nasty Cholla]]. Buffed its damage from 9 to 15 and stealth strike damage multiplier from 1 to 1.4. Decreased amount of cactus balls that can stick to an enemy at a time from 20 to 3. <!-- Overall buff -->
+*Buffed [[The Reaper]]'s local hit cooldown from 32 to 26.
+*Buffed [[Star of Destruction]]'s local hit cooldown from 10 to 5 and it now spawns four projectiles at minimum.
+*Nerfed [[Sticky Spiky Ball]]'s stealth strike to throw four projectiles instead of seven.
+*Buffed [[Throwing Brick]]'s damage from 14 to 17, use time from 40 to 35, and stealth strike damage multiplier from 1 to 1.2.
+*Rebalanced [[Toxicant Twister]]. Nerfed its damage from 323 to 300 but buffed stealth strike damage multiplier from 1 to 1.35.
+*Nerfed [[Tracking Disk]]'s damage from 25 to 16 and use time from 42 to 45. Decreased stealth strike laser damage from 25% base damage to 15%.
+*Rebalanced [[Urchin Stinger]]. Buffed its stealth strike damage multiplier from 1 to 2. Bubbles from the stealth strike now inflict [[Irradiated]] instead of [[Acid Venom]]. Stingers now inflict Poisoned instead of Acid Venom. <!-- Overall nerf -->
+*Rebalanced [[Web Ball]]. Buffed its damage from 8 to 12. It now inflicts Webbed for 0.5 and 1 second instead of 1 and 2 seconds from non-stealth and stealth strikes respectively.
+*Nerfed [[Wulfrum Knife]]'s damage from 11 to 9 and stealth strike damage multiplier from 3.2 to 0.8.
+
+==== Miscellaneous ====
+*[[Armor Crunch]] now multiplies enemy damage reduction by 0.85 instead of decreasing enemy defense by 15.
+*[[Cursed Inferno]] no longer decreases enemy damage reduction.
+*[[Debuffs]] and [[Defense damage]] now only occur if damage taken is above zero, no longer occurring during dodges.
+*[[Electrified]] no longer does double damage while a boss is not alive.
+*Increased the buff duration for [[Flask of Brimstone]] from 15 minutes to 20. The buff no longer increases movement speed, now affects whips, now spawn dusts on attacks, and now counts as a flask buff.
+*Increased the buff duration for [[Flask of Crumbling]] from 8 minutes to 20. The buff no longer increases melee and Spy critical strike chance, now affects whips, now spawn dusts on attacks, and now counts as a flask buff.
+*[[Invisibility Potion]] no longer has Spy effects.
+*Increased the maximum life regeneration scaling cap from 10 to 20.
+*Nerfed [[Penumbra Potion]]'s stealth regeneration boost while moving from 15% to 10%, and removed the extra boost during a [[Solar Eclipse]] or while wearing [[Umbraphile armor]].
+*Buffed base [[Spy stealth]] regeneration while moving from 11.11% per second to 25% per second.
+*Buffed base Spy stealth regeneration while standing still from 33.33% per second to 50% per second.
+*Nerfed [[Shadow Potion]] stealth regeneration boost from 10% to 8%. The projectiles now spawn regardless of weapon type, and removed additional boosts granted based on weapon type held. It now applies a shadow effect to the player instead of turning the player invisible.
+
+=== Recipes ===
+*[[Abaddon]] and [[Feather Crown]] now use the [[Any Gold Crown]] recipe group instead of splitting into two recipes.
+*[[Angelic Alliance]] can now be crafted with [[Ancient Hallowed Plate Mail]] or [[Ancient Hallowed Greaves]], using the [[Any Hallowed Plate Mail]] and [[Any Hallowed Greaves]] [[recipe group]]s.
+*[[Aquamarine Staff]] is now crafted with [[Amethyst Staff]] or [[Topaz Staff]] instead of [[Diamond Staff]] or [[Ruby Staff]].
+*[[Bowl of Soup]] can now be crafted with a [[Mushroom]] and [[Sea Minnow]] at a [[Cooking Pot]].
+*[[Clay Pot]] is now crafted with 5 [[Astral Clay]] instead of 2.
+*[[Coin of Deceit]] is now crafted with [[Any Evil Bar]]s and [[Wulfrum Metal Scrap]]s instead of [[Any Copper Bar]]s and [[Acidwood]].
+*[[Cooked Fish]] can no longer be crafted with Sea Minnow.
+*[[Flask of Brimstone]] and [[Flask of Crumbling]] are now crafted at an [[Imbuing Station]] instead of an [[Alchemy Table]].
+*Reverted the recipe change for [[Magiluminescence]], now requires 12 [[Crimtane Bar]]s or [[Demonite Bar]]s and 5 [[Topaz]] instead of 20 Crimtane Bars or Demonite Bars and 15 Topaz.
+*[[Pink Vase]] can now be crafted with 4 Astral Clay at a [[Furnace]].
+*[[Plate]] can now be crafted with 2 Astral Clay at a Furnace.
+*[[Scorpio]] is now crafted at an [[Ancient Manipulator]] instead of a [[Hardmode Anvil]].
+*[[Shadow Potion]] is now crafted at a [[Bottle]] instead of an Alchemy Table.
+*[[Snow Ruffian Chestplate]] now requires 2 [[Flinx Fur]]s to craft.
+*[[Snow Ruffian Greaves]] now requires 1 Flinx Fur to craft.
+*[[Snow Ruffian Mask]] now requires 1 Flinx Fur to craft.
+*[[Teapot]] can now be crafted with 12 Astral Clay and 12 [[Bone]]s at a Furnace.
+*[[Virid Vanguard]] now requires [[Terraprisma]] to craft.
+*[[Wandering Jingasa]] can now be crafted with 10 Astral Clay and 3 [[Firefly|Fireflies]] at a Furnace.
+*Reduced crafting yield of [[Wulfrum Knife]] from 100 to 50.
+*Removed the [[Any Gold Ore]] recipe group.
+*Renamed the [[Any Silt]] recipe group to [[Any Silt Block]].
+*Added automatic translation support for [[Any Copper Bar]], [[Any Silver Bar]], [[Any Gold Bar]], [[Any Cobalt Bar]], [[Any Mythril Bar]], [[Any Adamantite Bar]], [[Any Stone Block]], [[Any Snow Block]], [[Any Ice Block]], Any Silt Block, [[Any Wooden Sword]], [[Any Hallowed Helmet]], Any Hallowed Platemail, Any Hallowed Greaves, Any Gold Crown, Any Mana Flower, and Any Tombstone recipe groups.
+*Reordered [[Flintlock Pistol]] to the top of [[Opal Striker]]'s recipe.
+
+=== Renames ===
+*Renamed Abyssal Weapon to [[Weapon Imbue: Brimstone]].
+*Renamed Armor Crumbling to [[Weapon Imbue: Crumbling]].
+*Renamed Calamitas' Brew to [[Flask of Brimstone]].
+*Renamed Chaotic Brick to [[Scoria Brick]].
+*Renamed Chaotic Brick Wall to [[Scoria Brick Wall]].
+*Renamed Crumbling Potion to [[Flask of Crumbling]].
+*Renamed Wulfrum Pylon to [[Wulfrum Amplifier]].
+*Renamed Wulfrum Pylon Banner to [[Wulfrum Amplifier Banner]].
+
+=== Resprites ===
+*Resprited [[Auric Bar]].
+*Resprited [[Altar of the Accursed]].
+*Resprited [[Abyss Gravel]], [[Astral Sand]] (placed only), [[Astral Stone]], and Scoria Brick.
+*Resprited [[Abyss Gravel Wall]], [[Astral Stone Wall]], [[Cosmilite Brick Wall]].
+*Resprited [[Angel Treads]].
+*Resprited [[Avertor Bonus]], [[Baguette (buff)]], [[Dragonfire]], [[Flesh Ball (buff)]].
+*Resprited [[Corpus Avertor]], [[Darklight Greatsword]], [[Gael's Greatsword]], [[Halibut Cannon]], [[Heavenly Gale]], [[Phangasm]], and [[Storm Ruler]].
+*Resprited Astral Sand falling projectile, Darklight Greatsword's dark and light sword beam projectiles, and Flesh of Infidelity's minion.
+*Resprited [[Gulper Eel]].
+*Resprited the Bestiary portrait for Gulper Eel.
+*Updated Boss Checklist portraits for [[Acid Rain]] tier 1 and 3.
+*Horizontally flipped [[Exo Bed]]'s sprite.
+
+=== Additional Changes ===
+*[[Abyss]] and [[Sulphurous Sea]] [[pots]] now break into 1 [[Abyssal Treasure]] and [[Sulphuric Treasure]] respectively instead of 4. They can also now spawn coin portals, and bombs in for the worthy world seed.
+*[[Abyss Torch]]es now generate blue light instead of white.
+*Abyssal Treasures now drop Abyss Torches instead of [[Spelunker Glowstick]]s.
+*Abyssal Treasures and Sulphuric Treasures can now drop [[Wormhole Potion]]s in multiplayer.
+*[[Acidwood]] and [[Astral Monolith]] trees now have drops upon shaking:
+{{collapse top|Tree Drop List}}
+*Acidwood Tree can now drop the following from shaking:
+**6.67% chance for a [[Bomb]] projectile to drop in [[For the worthy]] seed.
+**2.86% chance for 1-2 [[Rotten Egg]]s during [[Halloween]]. <!-- theoretically subtracting the above but we'll let it slide for conditional shake events from now on -->
+**8.33% chance for 1-3 [[Acidwood]]. 
+**4.58% chance for 50 [[Copper Coin]]s to 3 [[Gold Coin]]s.
+**4.35% chance to spawn a [[Baby Flak Crab]].
+**5.52% chance for 1-2 [[Sulphuric Scale]]s after defeating Tier 1 [[Acid Rain]], and 2.76% after defeating Tier 2 Acid Rain.
+**2.76% chance for 1-2 [[Corroded Fossil]]s after defeating Tier 2 Acid Rain.
+*Astral Palm Tree can now drop the following from shaking:
+**6.67% chance for a Bomb projectile to drop in For the worthy seed.
+**2.86% chance for 1-2 Rotten Eggs during Halloween. 
+**8.33% chance for 1-3 [[Astral Monolith]]. 
+**4.58% chance for 50 Copper Coins to 3 Gold Coins.
+**5.81% chance for 1-2 [[Stardust]] during the day, and 2.9% during the night.
+**2.9% chance for 1-2 [[Fallen Star]]s during the night.
+*Astral Snow Tree can now drop the following from shaking:
+**6.67% chance for a Bomb projectile to drop in For the worthy seed.
+**14.29% chance for 1-2 [[Acorn]]s.
+**2.44% chance for 1-2 Rotten Eggs during Halloween. 
+**7.14% chance for 1-3 Astral Monolith.
+**3.93% chance for 50 Copper Coins to 3 Gold Coins.
+**3.73% chance to spawn a [[Twinkler]].
+**4.73% chance for 1-2 Stardust during the day, and 2.36% during the night.
+**2.36% chance for 1-2 Fallen Stars during the night.
+*Astral Tree can now drop the following from shaking:
+**6.67% chance for a Bomb projectile to drop in For the worthy seed.
+**14.29% chance for 1-2 Acorns.
+**2.44% chance for 1-2 Rotten Eggs during Halloween. 
+**7.14% chance for 1-3 Astral Monolith.
+**3.93% chance for 50 Copper Coins to 3 Gold Coins.
+**3.73% chance to spawn an [[Enchanted Nightcrawler]] during the [[rain]] or Twinkler otherwise.
+**4.73% chance for 1-2 Stardust during the day, and 2.36% during the night.
+**2.36% chance for 1-2 Fallen Stars during the night.
+{{collapse bottom}}
+*[[Alluring Bait]] now increases fishing power by 30 regardless of condition, instead of 45 at night and 60 during a [[Solar Eclipse]]. It now increases amount of fish caught per reel by 1-2.
+*[[Amidias' Blessing]] now only removes itself after taking more than 50 damage.
+*Added tooltips to items that have default armor penetration.
+*[[Astral Clay]], Astral Grass, [[Novae Slag]], and [[Sulphurous Sand]] can now be instantly broken with [[Gravedigger's Shovel]].
+*The [[Astral Infection]] now requires 951 or more tiles for every biome variant, instead of 301 or more for the Astral Snow specifically.
+*The Astral Infection now converts [[Copper Ore]], [[Gold Ore]], [[Iron Ore]], [[Lead Ore]], [[Platinum Ore]], [[Silver Ore]], [[Tin Ore]], and [[Tungsten Ore]] into [[Astral Ore]].
+*[[Baby Ghost Bell]] now has 20% bait power.
+*[[Bloodfin]] is no longer consumed by using Quick Buff.
+*Increased [[Bloodworm]]'s stack size from 20 to 9999.
+*Increased stack size of [[Bouncy Bomb]], [[Bouncy Dynamite]], [[Dynamite]], [[Guide Voodoo Doll]], [[Sticky Bomb]], and [[Sticky Dynamite]] from 999 to 9999.
+*[[Calamity]] now displays the waving flame effect while in the vanity slot.
+*Decreased amount of times Calamity and Profaned Moonlight Dye update the swirling effects. <!-- Better performance, worse quality -->
+*[[Chairs]] can now be selected by Smart Cursor.
+*Added support for [[Chest]] and inventory sorting for Calamity [[crafting materials]], health and mana upgrades, [[ores]], [[summoning items]], [[Astral Solution]], [[Celestial Remains]], [[Novae Slag]], and [[Star Struck Water]].
+*Naturally-generated wooden [[chest]]s now contain [[Builder Potion]]s, [[Mining Potion]]s, or [[Shine Potion]]s in place of [[Suspicious Looking Eye]]s. <!-- Continuing a change from 1.5.0.001 -->
+*All Dark Orange [[rarity]] items can now be researched. <!-- Draedon's Arsenal -->
+*[[Enchanted Butterfly]] pet now chases after and consumes [[Hell Butterfly|Hell Butterflies]].
+*[[Enchanted Pearl]] and [[Supreme Bait Tackle Box Fishing Station]] now support [[Azure Crate]], [[Boreal Crate]], [[Bramble Crate]], [[Defiled Crate]], [[Divine Crate]], [[Frozen Crate]], [[Hellstone Crate]], [[Hematic Crate]], [[Mirage Crate]], [[Mythril Crate]], [[Oasis Crate]], [[Obsidian Crate]], [[Ocean Crate]], [[Pearlwood Crate]], [[Seaside Crate]], [[Stockade Crate]], and [[Titanium Crate]].
+*[[Enchanted Starfish]] is now four times as rare if the player has already reached maximum mana.
+*The [[Fisherman's Pocket Guide]] now displays 'Warning!' when fishing with a [[Bloodworm]] in the Sulphurous Sea.
+*Calamity Fish, Calamity Quest Fish, [[Relic of Convergence]], [[Relic of Resilience]], and [[Skynamite]] can now be placed on [[Weapon Rack]]s.
+*Calamity [[Fishing]] catches now benefit from the player's fishing skills.
+*Updated tooltip for [[Flasks]] to reflect that they affect whips.
+*Added an error log for [[Glimmering Gemfish]], [[Security Chest]]s from [[Space Bio-center Lab]]s, and [[Stuffed Fish]] dropping items from other mods.
+*Added [[golf]]ing and [[wind]] physics support for [[trees]] and [[vines]].
+*[[Guardian Golem]], [[Jewel of Light]], [[Magiluminescence]], [[Pumpkin Scented Candle]], and [[Ultrabright Helmet]] now increase Abyss light level.
+*[[Hazard Chevron Panels]] now blend with [[Laboratory Panels]].
+*Added support for [[Journey Mode]] category sorting for Calamity [[fishing]] materials.
+*Added custom categories for Journey Mode sorting for the following items:
+**[[Spawn blockers]] at group 92
+**[[Spy weapons]] at group 570
+**[[Classless weapons]] at group 580
+**Miscellaneous tools ([[Ball and Chain]], [[Brimstone Locus]], [[Cosmolight]], [[Momentum Capacitor]], [[Normality Relocator]], Relic of Convergence, [[Relic of Deliverance]], Relic of Resilience, [[Wulfrum Digging Turtle]], [[Wulfrum Scaffold Kit]], and [[Wulfrum Treasure Pinger]]) at group 820
+**[[Lore items]] at group 12,000
+*[[Jungle Dragon Egg]] now uses [[Jungle Dragon, Yharon]]'s fire sound instead of a default roar.
+*Adjusted the [[Modifier]] reforging system:
+{{collapse top|Reforging changes}}
+*Reforging no longer requires multiplayer syncing or saved data.
+*Reforge costs are no longer halved.
+*Forceful and Strong are now tier 1 melee, ranged, and magic modifiers instead of 3.
+*Ruthless is now a tier 2 melee, ranged, and magic modifier instead of 1.
+*Unpleasant is now a tier 3 melee and ranged modifier instead of 4.
+*Non-speed melee modifiers now have 4 tiers instead of 6, due to the changes to Forceful and Strong, and merged Demonic and Superior into the same tier.
+*Murderous is now a tier 3 melee modifier instead of 4.
+*Savage and Superior are now tier 4 melee modifiers instead of 5.
+*Deadly is now a tier 5 melee modifier instead of 4.
+*Added Godly as a tier 5 melee modifier.
+*Intimidating is now a tier 2 ranged modifier instead of 4.
+*Staunch is now a tier 2 ranged modifier instead of 5.
+*Hasty is now a tier 3 ranged modifier instead of 5.
+*Sighted is now a tier 4 ranged modifier instead of 3.
+*Added Unpleasant as a tier 3 magic modifier.
+*Deadly is now a tier 5 magic modifier instead of 4.
+*Forceful and Strong are now tier 2 summon modifiers instead of 3.
+*Hurtful is now a tier 3 summon modifier instead of 2.
+*Mythical is now a tier 6 summon modifier instead of 5. <!-- optimal for early game -->
+*Added vanilla universal modifiers to Spy weapons.
+*Terrarian can now get the alternate Legendary reforge.
+{{collapse bottom}}
+*Added an additional hit sound for [[Mycoroot]]'s stealth strike. <!-- NPC Hit 45 -->
+*Decreased [[Platinum Coin]]'s stack size from 9999 to 2147 to prevent currency value overflow.
+*Adjusted various rarities and sell prices:
+**Implemented tModLoader's rarity system.
+**Decreased the sell price of [[Aerospec Hat]], [[Aerospec Headgear]], [[Aerospec Helm]], [[Aerospec Helmet]], and [[Aerospec Hood]] from {{gc|1}} to {{sc|80}}.
+**Increased the sell price of [[Aerospec Leggings]] from {{sc|60}} to {{sc|80}}.
+**Decreased the sell price of [[Alluvion]], [[Anti-materiel Rifle]], [[Cleansing Blaze]], [[Devil's Devastation]], [[The Enforcer]], [[Executioner's Blade]], [[Galaxia]], [[Galaxy Smasher]], [[Hypothermia]], [[Infinity]], [[Light God's Brilliance]], [[Penumbra]], [[Phangasm]], [[Primordial Ancient]], [[Recitation of the Beast]], [[SDFMG]], [[Soul Piercer]], and [[Starmada]] from {{gc|36}} to {{gc|28}}.
+**Decreased the sell price of [[Astral Blade]], [[Astral Blaster]], [[Astral Bow]], [[Astral Pike]], [[Astral Staff]], [[Cosmic Rainbow]], [[Entropic Claymore]], [[God's Bellows]], [[Godspawn Helix Staff]], [[The Microwave]], [[Radiant Star]], [[Regulus Riot]], [[Star of Destruction]], [[Star Sputter]], [[Starfall]], and [[Tome of Fates]] from {{gc|19}} to {{gc|16}}.
+**Increased the sell price of [[Astral Breastplate]] from {{gc|6}} {{sc|40}} to {{gc|16}}.
+**Increased the sell price of [[Astral Helm]] from {{gc|8}} to {{gc|16}}.
+**Increased the sell price of [[Astral Leggings]] from {{gc|4}} {{sc|80}} to {{gc|16}}.
+**Increased the sell price of [[Auric Tesla Body Armor]] from {{gc|28}} {{sc|80}} to {{gc|30}}.
+**Increased the sell price of [[Auric Tesla Cuisses]] from {{gc|21}} {{sc|60}} to {{gc|30}}.
+**Decreased the sell price of [[Auric Tesla Hooded Facemask]], [[Auric Tesla Plumed Helm]], [[Auric Tesla Royal Helm]], [[Auric Tesla Space Helmet]], and [[Auric Tesla Wire-Hemmed Visage]] from {{gc|36}} to {{gc|30}}.
+**Decreased the sell price of [[Azathoth]] and [[Elemental Excalibur]] from {{pc|1}} to {{gc|40}}.
+**Increased the sell price of [[Bloodflare Body Armor]] from {{gc|9}} {{sc|60}} to {{gc|26}}.
+**Increased the sell price of [[Bloodflare Cuisses]] from {{gc|7}} {{sc|20}} to {{gc|26}}.
+**Increased the sell price of [[Bloodflare Horned Helm]], [[Bloodflare Hydra Hood]], [[Bloodflare Imp Mask]], [[Bloodflare Ram Mask]], and [[Bloodflare Wyvern Helm]] from {{gc|12}} to {{gc|26}}.
+**Decreased the sell price of [[Brimflame Boots]], [[Brimflame Cowl]], and [[Brimflame Robes]] from {{gc|12}} to {{gc|9}} {{sc|60}}.
+**Decreased the sell price of [[Corpus Avertor]], [[Marksman Bow]], [[Subduction Slicer]], and [[Terra Disk]] from {{gc|16}} to {{gc|12}}.
+**Decreased the sell price of [[Corvid Harbinger Staff]] and [[Endo Hydra Staff]] from {{gc|50}} to {{gc|28}}.
+**Increased the sell price of [[Daedalus Breastplate]] and [[Mollusk Shellplate]] from {{gc|4}} to {{gc|4}} {{sc|80}}.
+**Decreased the sell price of [[Daedalus Facemask]], [[Daedalus Headgear]], [[Daedalus Helm]], [[Daedalus Hood]], [[Daedalus Mask]], and [[Mollusk Shellmet]] from {{gc|5}} to {{gc|4}} {{sc|80}}.
+**Increased the sell price of [[Daedalus Leggings]] and [[Mollusk Shelleggings]] from {{gc|3}} to {{gc|4}} {{sc|80}}.
+**Decreased the sell price of [[Defective Sphere]] from {{gc|3}} {{sc|20}} to {{gc|2}} {{sc|40}}.
+**Decreased the sell price of [[Drataliornus]], [[Magnomaly Cannon]], [[Murasama]], and [[The Wand]] from {{gc|50}} to {{gc|30}}.
+**Increased the sell price of [[Empyrean Cloak]] from {{gc|6}} {{sc|40}} to {{gc|20}}.
+**Increased the sell price of [[Empyrean Cuisses]] from {{gc|4}} {{sc|80}} to {{gc|20}}.
+**Increased the sell price of [[Empyrean Mask]] from {{gc|8}} to {{gc|20}}.
+**Increased the sell price of [[Fathom Swarmer Greaves]], [[Reaver Cuisses]], and [[Umbraphile Boots]] from {{gc|3}} {{sc|60}} to {{gc|9}} {{sc|60}}.
+**Increased the sell price of [[Fathom Swarmer Breastplate]], [[Reaver Scale Mail]], and [[Umbraphile Regalia]] from {{gc|4}} {{sc|80}} to {{gc|9}} {{sc|60}}.
+**Increased the sell price of [[Fathom Swarmer Visage]], [[Reaver Headgear]], [[Reaver Helm]], [[Reaver Visage]], and [[Umbraphile Hood]] from {{gc|6}} to {{gc|9}} {{sc|60}}.
+**Increased the sell price of [[Fearmonger Greathelm]], [[God Slayer Helmet]], [[God Slayer Horned Greathelm]], and [[God Slayer Mask]] from {{gc|15}} to {{gc|28}}.
+**Increased the sell price of [[Fearmonger Greaves]] and [[God Slayer Leggings]] from {{gc|9}} to {{gc|28}}.
+**Increased the sell price of [[Fearmonger Plate Mail]] and [[God Slayer Chestplate]] from {{gc|12}} to {{gc|28}}.
+**Flask of Brimstone is now {{rare|4}} instead of {{rare|7}}.
+**Decreased the sell price of [[Glaive]] from {{sc|28}} to {{sc|26}} {{cc|66}}.
+**Decreased the sell price of [[God's Paranoia]] from {{gc|3}} {{sc|60}} to {{gc|2}} {{sc|80}}.
+**[[Halibut Cannon]] is now {{rare|16}} instead of {{rare|10}}, increased sell price accordingly.
+**Increased the sell price of [[Hydrothermic Armor]] and [[Plague Reaper Vest]] from {{gc|4}} {{sc|80}} to {{gc|12}}.
+**Increased the sell price of [[Hydrothermic Headgear]], [[Hydrothermic Helm]], [[Hydrothermic Helmet]], [[Hydrothermic Hood]], [[Hydrothermic Mask]], and [[Plague Reaper Mask]] from {{gc|6}} to {{gc|12}}.
+**Increased the sell price of [[Hydrothermic Subligar]] and [[Plague Reaper Striders]] from {{gc|3}} {{sc|60}} to {{gc|12}}.
+**Increased the sell price of [[Marnite Architect Headgear]], [[Marnite Architect Toga]], [[Snow Ruffian Chestplate]], [[Snow Ruffian Greaves]], and [[Snow Ruffian Mask]] from {{sc|15}} to {{sc|20}}.
+**Decreased the sell price of [[Omega Blue Chestplate]] from {{gc|38}} to {{gc|26}}.
+**Decreased the sell price of [[Omega Blue Helmet]] from {{gc|35}} to {{gc|26}}.
+**Decreased the sell price of [[Omega Blue Tentacles]] from {{gc|35}} {{sc|25}} to {{gc|26}}.
+**Increased the sell price of [[Poison Pack]] from {{sc|6}} {{cc|60}} to {{sc|6}} {{cc|66}}.
+**Increased the sell price of [[Shroomite Visage]] from {{gc|6}} to {{gc|7}} {{sc|50}}.
+**Increased the sell price of [[Silva Armor]] from {{gc|14}} {{sc|40}} to {{gc|28}}.
+**Increased the sell price of [[Silva Horned Hood]] and [[Silva Masked Cap]] from {{gc|18}} to {{gc|28}}.
+**Increased the sell price of [[Silva Leggings]] from {{gc|10}} {{sc|80}} to {{gc|28}}.
+**[[Stat Meter]] is now {{rare|3}} instead of {{rare|1}}, increased sell price accordingly.
+**Increased the sell price of [[Statigel Armor]] from {{sc|80}} to {{gc|2}} {{sc|40}}.
+**Increased the sell price of [[Statigel Cap]], [[Statigel Headgear]], [[Statigel Helm]], [[Statigel Hood]], and [[Statigel Mask]] from {{gc|1}} to {{gc|2}} {{sc|40}}.
+**Increased the sell price of [[Statigel Greaves]] from {{sc|60}} to {{gc|2}} {{sc|40}}.
+**Increased the sell price of [[Sulphurous Breastplate]] from {{sc|23}} to {{sc|40}}.
+**Increased the sell price of [[Sulphurous Helmet]], [[Sulphurous Leggings]], and [[Victide Breastplate]] from {{sc|20}} to {{sc|40}}.
+**Increased the sell price of [[Tarragon Breastplate]] from {{gc|8}} to {{gc|24}}.
+**Increased the sell price of [[Tarragon Helm]], [[Tarragon Helmet]], [[Tarragon Horned Helm]], [[Tarragon Mask]], and [[Tarragon Visage]] from {{gc|10}} to {{gc|24}}.
+**Increased the sell price of [[Tarragon Leggings]] from {{gc|6}} to {{gc|24}}.
+**Increased the sell price of [[Victide Coral Turban]], [[Victide Headcrab]], [[Victide Hermit Helmet]], [[Victide Mask]], and [[Victide Shellmet]] from {{sc|30}} to {{sc|40}}.
+**Increased the sell price of [[Victide Greaves]] from {{sc|10}} to {{sc|40}}.
+**Increased the sell price of [[Wulfrum Hat & Goggles]] from {{sc|15}} to {{sc|20}}.
+**Increased the sell price of [[Wulfrum Jacket]] from {{sc|10}} to {{sc|20}}.
+**Increased the sell price of [[Wulfrum Overalls]] from {{sc|5}} to {{sc|20}}.
+*Added more description for the [[Spy stealth]] meter.
+*[[Rover Drive]] protective matrix now shows up in the vanity slot.
+*Changed Rover Drive's primary edge color on Green team from {{color|#ADFF2F|#ADFF2F}} to {{color|#7FFF00|#7FFF00}}.
+*Changed Rover Drive's primary edge color on Blue team from {{color|#00FFFF|#00FFFF}} to {{color|#00FA9A|#00FA9A}}.
+*Added tooltip to [[schematics]] after being decrypted displaying the items each schematic unlocks.
+*[[Shadowfish]] can now be caught below [[Space]] at night.
+*Added support for sitting on [[Sofas]].
+*Stat Meter can now be equipped as an covering.
+*[[Titan Heart]] now requires 3 to research instead of 25.
+*All Calamity [[Treasure Bag]]s now emit light and dust when dropped in the world.
+*[[Vigilance]]'s Brimstone Dart is now half opacity instead of full.
+*Vigilance minion idle sound now only initiates from the first spawned minion.
+*Updated support for the Wikithis mod.
+*[[Wulfrum Metal Scrap]] now enters the main inventory instead of an empty ammo slot by default when picked up.
+
+== Fixes ==
+=== Gameplay ===
+*Fixed a specific position in the first layer of the [[Abyss]] that does not count as the Abyss.
+*Fixed [[Abyss Torch]] not placing with the [[Auto Select]] cursor option.
+*Fixed [[Abyssal Mirror]]'s Lumenyl Fluid spawning with an incorrect source. <!-- Had the Eclipse Mirror IEntitySource, does this even have a gameplay effect? -->
+*Fixed [[Acid Venom]] and [[Cursed Inferno]] using the outdated debuff damage value for the vulnerability system. <!-- 6 DPS to 24 for CI, 6 to 30 for Venom, changed in Vanilla 1.4 -->
+*Fixed [[Art Attack]]'s strike dealing melee damage instead of magic.
+*Fixed [[Alchemy Table]]'s chance to not consume ingredients not working properly on non-[[Blood Orb]] potion recipes.
+*Fixed drop rates for [[Ancient God Slayer armor]], [[Calamitous set]], and [[Set of Calamity]].
+*Fixed [[Avalanche]] damaging the player.
+*Fixed [[Badge of Bravery]], [[Bloodstained Glove]], [[Electrician's Glove]], [[Filthy Glove]], and [[Nanotech]] applying armor penetration improperly.
+*Fixed [[Bloody Worm Scarf]] not increasing melee speed.
+*Fixed [[Confused]] immunity not properly applying to Calamity enemies and bosses.
+*Fixed [[Cosmic Viper Engine]] splitting rocket having a ranged damage type.
+*Fixed crashes on dedicated servers due to world checks.
+*Fixed debuff duration being decreased in Expert and Master Mode regardless of whether the <code>Remove Increased Debuff Durations</code> configuration option is enabled or not.
+*Fixed [[Dragonblood Disgorger]]'s minion moving towards the player instead of the target.
+*Fixed [[Duke Fishron]]'s vulnerability to [[Resurrection Butterfly]] applying to [[Lunatic Cultist]] instead.
+*Fixed [[Elemental Gauntlet]] granting 10% true melee damage instead of 20%.
+*Fixed [[Endogenesis]], [[Flamsteed Ring]], [[Howl's Heart]], [[Profaned Soul Crystal]], [[Saros Possession]], [[Staff of the Mechworm]], [[Universe Splitter]], and [[Wither Blossoms Staff]] scaling with summon damage twice.
+*Fixed [[Event Horizon]] damaging Town NPCs.
+*Fixed [[Everscream Relic]] and [[Shrub Star]] not dropping in [[Revengeance Mode]].
+*Fixed [[Firecracker]] not dropping from [[Wall of Flesh]]'s Treasure Bag.
+*Fixed fusable particles causing a memory leak crash.
+*Fixed [[Golden Fishing Rod]] not dropping from [[Angler]].
+*Fixed [[Hallowed armor]]'s defense buffs not applying to [[Ancient Hallowed armor]].
+*[[Havoc's Breath]], [[Meowthrower]], and [[Opal Striker]] now correctly mention their ammo consumption chance.
+*Fixed [[Hexxed Branch]] not dropping in Revengeance Mode.
+*Fixed [[Leviathan and Anahita]] not properly counting as being defeated if [[The Leviathan]] is defeated first.
+*Lunar Drills now mention that they can mine [[Uelibloom Ore]] in their tooltips, for consistency with Pickaxes.
+*Fixed [[Mimic]]s and their ice variants dropping multiple of the same items.
+*[[Mounted Scanner]], [[Pole Warper]], [[Pulse Turret Remote]], [[Snake Eyes]], [[Star Swallower Containment Unit]] minions and their projectiles now deal minion damage, preventing them from unintentionally critically striking.
+*Properly removed the increased flight speed from [[Profaned Rage Potion]].
+*[[Radiator]]s can no longer apply debuffs while the player is in god mode. Prevented issues with applying the debuff in multiplayer.
+*Fixed [[Rotten Dogtooth]] and Spy modifiers not increasing stealth strike damage.
+*Fixed an issue where actively summoning using [[Scab Ripper]] increases its hit rate.
+*Prevented the [[Skeleton Merchant]] and [[Travelling Merchant]] from selling [[Crags Pylon]].
+*Fixed [[The Slime God]] not dropping a [[Treasure Bag]] in multiplayer.
+*Fixed [[Sulphuric Poisoning]] applying in the Abyss.
+*Fixed an out of bounds error involving the [[Sulphurous Sea]] world generation.
+*Fixed [[Tactical Plague Engine]] not scaling with summon damage.
+*Fixed all Calamity Treasure Bags being unable to drop coins and vanilla developer item sets.
+*Fixed [[Vicious Powder]] and [[Vile Powder]] not converting Astral tiles.
+*Fixed unsafe [[Voidstone Wall]]s generating in the Sulphurous Sea.
+*Fixed an issue with [[Wulfrum Treasure Pinger]] on dedicated servers.
+
+=== Visual ===
+*Fixed [[Acid Rain]] loot and [[Slurper Pole]] appearing twice in the Bestiary.
+*Fixed [[Auric Toilet]]'s placement being offset above the ground.
+*Fixed equipped textures for [[Bloodstained Glove]], [[Electrician's Glove]], [[Elemental Gauntlet]], [[Filthy Glove]], [[Glove of Precision]], and [[Glove of Recklessness]].
+*Fixed a contradiction in [[Crags Pylon]]'s tooltip <!-- Villagers nearby -->
+*Fixed [[Deathstare Rod]]'s beam drawing the wrong way in multiplayer.
+*Fixed an issue where the player faces the incorrect way when sitting on [[Exo Chair]] or [[Exo Toilet]].
+*Fixed a minor grammatical error on [[Exoblade]]'s tooltip. <!-- makes to make -->
+*Fixed [[Hadarian Wings]]' tooltip not adjusting with the player's keybinds.
+*Fixed [[Infernal Rift]] having lower rarity than intended. <!-- Pink to Yellow -->
+*Fixed [[Otherworldly Stone]] and [[Uelibloom Brick]] not applying special textures on top of their respective placed blocks.
+*Fixed [[Profaned Soul Crystal]]'s tooltip box being expanded.
+*Fixed a sheeting error on Scoria Brick Walls.
+*Fixed [[Sirius]] generating red light instead of blue.
+*Rephrased [[Wulfrum armor]]'s set bonus tooltip to prevent ambiguity.
+*Fixed a minor grammatical error on [[Wulfrum Lure]]'s tooltip. <!-- lure to lures -->
+
+== Removals ==
+*Removed [[Magic Level Meter]], [[Melee Level Meter]], [[Ranged Level Meter]], [[Spy Level Meter]], and [[Summon Level Meter]].
+*Removed [[Proficiency]] and its respective [[configuration option]].
+*Removed [[Spectre Rifle]].
+*Removed [[Shattering Potion]].
+*Removed [[Armor Shattering]] and [[Rusty Drone (buff)|Rusty Drone]] [[buffs]].
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

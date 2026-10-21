@@ -1,0 +1,170 @@
+{{item infobox
+| type = Armor
+| defense = 102/90/79/72/84
+| rare = 12
+| sell = {{value|0|24}} (set)
+| proj = Leaf (projectile).gif
+| projcaption = Leaf
+| hardmode = yes
+| postml = yes
+| setbonus = Increased heart pickup range<br/>Enemies have a chance to drop extra hearts on death<br/><br/> '''Helm''': Enemies are more likely to target you<br/>You have a 25% chance to regen health quickly when you take damage<br/>Press {{key|Armor Set Bonus}} to cloak yourself in life energy that heavily reduces contact damage for 10 seconds<br/>This has a 30 second cooldown<br/><br/>'''Visage''': Reduces enemy spawn rates<br/>Ranged projectiles split into homing life energy and leaves on death<br/><br/>'''Mask''': Reduces enemy spawn rates<br/>On every 5th critical strike you will fire a leaf storm<br/>Magic projectiles heal you on enemy hits<br/>Amount healed is based on projectile damage<br/><br/>'''Horned Helm''': 50% increased minion damage and +3 max minions<br/>Reduces enemy spawn rates<br/>Summons a life aura around you that damages nearby enemies<br/><br/>'''Helmet''': Reduces enemy spawn rates<br/>After every 25 Spy critical hits you will gain 3 seconds of damage immunity<br/>This effect can only occur once every 30 seconds<br/>While under effects of a debuff you gain 10% increased Spy damage<br/>Spy stealth builds while not attacking and slower while moving, up to a max of 115<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+| buff = Tarra Life
+| bufftip = Rapid healing
+| duration = 2-6 seconds (when hit while wearing Helm)
+| buff2 = Tarragon Cloak
+| bufftip2 = Contact damage is reduced
+| duration2 = 10 seconds (Upon activation while wearing Helm)
+| buff3 = Tarragon Immunity
+| bufftip3 = You are immune
+| duration3 = 3 seconds (25th Spy critical strike while wearing Helmet)
+| debuff = Tarragon Cloak Cooldown
+| debufftip = Your cloak is recharging
+| debuffchance = 100%
+| debuffduration = 30 seconds (After cloak's usage)
+| debuff2 = Tarragon Immunity Cooldown
+| debufftip2 = Your immunity is recharging
+| debuffchance2 = 100%
+| debuffduration2 = 25 seconds (After immunity's usage)
+|boxwidth = 27em
+}}
+
+'''Tarragon armor''' is a Godseeker Mode [[Covering]] set crafted from [[Uelibloom Bar]]s and [[Divine Geode]]s. It requires 33 Uelibloom Bars and 36 Divine Geodes to make a set utilizing one headpiece; it requires 61 Uelibloom Bars and 60 Divine Geodes to make a set including all of the headpieces. If creating a set utilizing only one headpiece, [[Providence, the Profaned Goddess]] is required to be defeated at least thrice (twice in [[Expert Mode]]) in order to obtain the sufficient amount of Divine Geodes needed to craft the armor. If creating a set including all headpieces, Providence, the Profaned Goddess must be defeated at least four times (at least three times in Expert Mode). If the entire set is visible (regardless of whether it is equipped or in social slots), the wearer will have a faint pulsing aura.
+
+It consists of the '''Tarragon Breastplate''' and '''Tarragon Leggings''', as well has having five different headpieces suited to each class, being: the '''Tarragon Helm''', '''Tarragon Visage''', '''Tarragon Mask''', '''Tarragon Horned Helm''', and '''Tarragon Helmet'''. All helmets share a set bonus, but also provide set bonuses specific to their respective class as well.
+
+The '''Tarragon Breastplate''' provides 37 defense, 10% increased damage and 5% increased critical strike chance, +2 life regen, and +40 max life. The '''Tarragon Leggings''' provide 32 defense, 8% increased damage and critical strike chance, and 10% increased movement speed.
+
+*The '''Tarragon Helm''' gives 33 defense, 5% damage reduction, and 10% increased melee damage and critical strike chance.
+*The '''Tarragon Visage''' gives 21 defense, 5% damage reduction, and 10% increased ranged damage and critical strike chance.
+*The '''Tarragon Mask''' gives 10 defense, 5% damage reduction, 20% increased magic damage, 10% critical strike chance, +100 max mana, and 15% reduced mana cost.
+*The '''Tarragon Horned Helm''' gives 3 defense, and 5% damage reduction.
+*The '''Tarragon Helmet''' gives 15 defense, 5% damage reduction, 10% increased Spy damage and critical strike chance, and 5% increased movement speed.
+
+== Set Bonuses ==
+Regardless of the headpiece chosen, equipping a full set of Tarragon armor provides the following set bonuses:
+*An increased heart pickup range (akin to the [[Heartreach Potion]]).
+*Enemies to have a chance to drop extra hearts upon death.
+In addition to the above, each headpiece provides its own class-specific set bonus:
+
+'''Tarragon Helm''':
+*+800 to [[Aggro]].
+*Upon taking damage, there is a 25% chance to gain the [[Tarra Life]] [[buff]] for 2 to 6 seconds, causing rapid life regeneration.
+*Pressing {{key|Armor Set Bonus}} allows the player to cloak themselves in life energy, granting the [[Tarragon Cloak]] buff for 10 seconds.
+**This effect has a 30-second [[Tarragon Cloak Cooldown|cooldown]].
+
+'''Tarragon Visage''':
+*Enemy spawn rates are decreased by 56%, and maximum spawn count is decreased by 44%.
+*With a 1-second cooldown, ranged projectiles split into two life energies and leaves on impact.
+**These deal 33% of the ranged attack's damage, capped at 65 damage.
+
+'''Tarragon Mask''':
+*Enemy spawn rates are decreased by 56%, and maximum spawn count is decreased by 44%.
+*On every fifth critical strike dealt, the player fires a burst of nine to eleven leaf projectiles.
+**The leaves deal 20% of the attack that summoned them and are softcapped at 50 damage.
+*Magic projectiles [[Lifesteal|heal]] the player upon hitting an enemy every 1.5 seconds.
+**The amount healed is 2% of the projectile damage.
+
+'''Tarragon Horned Helm''':
+*Enemy spawn rates are decreased by 56%, and maximum spawn count is decreased by 44%.
+*+3 max minions and 50% increased minion damage.
+*Summons a life aura around the player that damages nearby enemies.
+**The aura deals 120 damage per 1.33 seconds, and is affected by summon damage bonuses.
+**The aura does not affect enemies which do not deal contact damage.
+
+'''Tarragon Helmet''':
+*Enemy spawn rates are decreased by 56%, and maximum spawn count is decreased by 44%.
+*While under the effects of a debuff, the player gains a 10% increase to Spy damage.
+*After every twenty-fifth Spy critical strike, the player gains 3 seconds of the [[Tarragon Immunity]] buff.
+**This effect has a 25-second [[Tarragon Immunity Cooldown|cooldown]].
+*Gives a maximum [[stealth]] of 115.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Tarragon Breastplate
+| type = Armor
+| type2 = Crafting material
+| defense = 37
+| body slot = Shirt
+| tooltip = Breastplate of the exiler<br/>10% increased damage and 5% increased critical strike chance<br/>+2 life regen and +40 max life
+| sell = {{value|0|8}}
+}}
+|{{item infobox
+| name = Tarragon Leggings
+| type = Armor
+| type2 = Crafting material
+| defense = 32
+| body slot = Pants
+| tooltip = Leggings of a fabled explorer<br/>10% increased movement speed<br/>8% increased damage and critical strike chance
+| sell = {{value|0|6}}
+}}
+}}
+
+=== Helmet variants ===
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Tarragon Helm
+| type = Armor
+| type2 = Crafting material
+| defense = 33
+| body slot = Helmet
+| tooltip = Helm of the disciple of ancients<br/>Temporary immunity to lava<br/>Can move freely through liquids<br/>5% increased damage reduction<br/>10% increased melee damage and critical strike chance
+| sell = {{value|0|10}}
+}}
+|{{item infobox
+| name = Tarragon Visage
+| type = Armor
+| type2 = Crafting material
+| defense = 21
+| body slot = Helmet
+| tooltip = Temporary immunity to lava<br/>Can move freely through liquids<br/>10% increased ranged damage and critical strike chance<br/>5% increased damage reduction
+| sell = {{value|0|10}}
+}}
+|{{item infobox
+| name = Tarragon Mask
+| type = Armor
+| type2 = Crafting material
+| defense = 10
+| body slot = Helmet
+| tooltip = Temporary immunity to lava<br/>Can move freely through liquids<br/>20% increased magic damage and 10% increased critical strike chance<br/>5% increased damage reduction, +100 max mana, and 15% reduced mana usage
+| sell = {{value|0|10}}
+}}
+|{{item infobox
+| name = Tarragon Horned Helm
+| type = Armor
+| type2 = Crafting material
+| defense = 3
+| body slot = Helmet
+| tooltip = Temporary immunity to lava<br/>Can move freely through liquids<br/>5% increased damage reduction and minion damage
+| sell = {{value|0|10}}
+}}
+|{{item infobox
+| name = Tarragon Helmet
+| type = Armor
+| type2 = Crafting material
+| defense = 15
+| body slot = Helmet
+| tooltip = Temporary immunity to lava<br/>Can move freely through liquids, 5% increased movement speed<br/>10% increased Spy damage and critical strike chance<br/>5% increased damage reduction<
+| sell = {{value|0|10}}
+}}
+}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result=Tarragon Helm/Tarragon Visage/Tarragon Mask/Tarragon Horned Helm/Tarragon Helmet/Tarragon Breastplate/Tarragon Leggings}}
+
+=== Used in ===
+{{recipes|ingredient=Tarragon Helm/Tarragon Visage/Tarragon Mask/Tarragon Horned Helm/Tarragon Helmet/Tarragon Breastplate/Tarragon Leggings}}
+
+== Notes ==
+*The reduced enemy spawn rates do not stack with the [[Calming Potion]] or [[Cadance Potion]].
+
+==Trivia ==
+*[[wikipedia:Tarragon|Tarragon]], also known as estragon, is a species of perennial herb in the sunflower family.
+
+{{Uelibloom}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}
+[[Category:Healing items]]

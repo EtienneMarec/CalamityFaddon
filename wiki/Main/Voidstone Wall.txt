@@ -1,0 +1,28 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| use = 14
+| color = #050505
+| sell = No value
+}}
+
+'''Voidstone Wall''' is a background [[wall]] that generates naturally in the two bottom layers of the [[Abyss]], replacing [[Abyss Gravel Wall]]. It can also be crafted.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+== Notes ==
+*Naturally generated Voidstone Walls are unbreakable and not visible on the map.
+
+{{Master Template Tiles
+| show-main = yes
+| show-walls = yes
+}}

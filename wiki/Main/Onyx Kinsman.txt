@@ -1,0 +1,76 @@
+{{npc infobox
+| type = Enemy
+| environment = Cavern
+| ai = Onyx Kinsman AI
+| damage = {{element|Slash}} {{dv|20|boost=0.15}} (Contact)<br/>
+| life = {{dv|2,000|5,000}}
+| defense = 10
+| dr = 90%
+| knockback = 100
+| debuff = Creative Shock
+| debufftip = You have lost the power of creation!
+| debuffchance = 100%
+| debuff2 = Slow
+| debufftip2 = Movement speed is halved
+| debuffchance2 = 100%
+| money = {{value|0|0|0|2}}
+| Mud Block|30|100%
+| Stone Block|7|100%
+| Cog|15|100%
+| Onyx Shiv|1|{{dv|50%|100%|}}
+| Metamorphic Stone|1|{{dv|5%|10%}}
+| Onyx Excavator Key|1|100%
+| hardmode = yes
+| banner = no
+| immune1 = Confused
+| immune2 = Poisoned
+| immune3 = Armor Crunch
+| hurt = NPC_Hit_4.wav
+| killed = Item_14.wav
+| sound = NPC_Hit_43.wav
+| soundtext = Rocks
+| vulnerable1 = Cold
+| vulnerable2 = Water
+| vulnerable3 = Stab
+| vulnerable4 = Machine
+| resistant1 = Poison
+| resistant2 = Unholy
+| resistant3 = Slash
+| resistant4 = Dark
+}}
+
+The '''Onyx Kinsman'''  '''(Japanese: オニキスの親族 <nowiki>''</nowiki>Onikisu no shinzoku<nowiki>''</nowiki>)''' is an optional [[Hardmode]] [[mini boss]] found in the [[Onyx Bio-center]] lab under certain conditions:
+*The [[Earth Elemental]] has been defeated at least once.
+*The player has an [[covering]] which summons an [[Minions|elemental]] of any kind.
+*The [[Onyx Excavator Key|Onyx Excavator]] has not been interacted with beforehand.
+If these conditions have been met, interacting with the Onyx Excavator will summon the Onyx Kinsman from the ground.
+
+The Onyx Kinsman spawns invulnerable to damage, until it starts to slide away from the player. The entire fight consists of a pursuit sequence where the Onyx Kinsman's goal is to leave the player's screen as soon as possible. Compared to the initial fight with the Earth Elemental, the Onyx Kinsman is significantly faster and avoids approaching the player as much as it can. Having absorbed the Onyx Excavator, the enemy will also fire volleys of bullets resembling those from the {{item|Onyx Blaster}}. These bullets, albeit slow, will inflict [[tgc:Slowness|Slowness]] if the player is careless.
+
+During the entire fight until the Onyx Kinsman is despawned or killed, the player will also be inflicted with [[tgc:Creative Shock|Creative Shock]] disallowing them from being able to build or break blocks. If the Onyx Kinsman reaches a dead end or gets stuck, it will melt into the ground and reappear an equal distance away from the player in a different direction. 
+
+Lastly, the heavy [[Damage Reduction]] prevents the player from winning instantly; beating this challenge requires being able to consistently deal damage before the Onyx Kinsman escapes and despawns. If the Onyx Kinsman despawns, the player can retry by returning to the Onyx Bio-center and moving near the Onyx Kinsman, where it can be seen eating machinery.
+
+Killing the Onyx Kinsman ends the battle and drops the [[Onyx Excavator Key]] as its main reward.
+
+== Quotes ==
+{{info request|needs dialogue}}
+
+== Notes ==
+*Using the [[Seeking Mechanisms]] will allow the player to easily find the lab, though the player should remember '''not''' to interact with the Excavator until the aforementioned conditions have been fulfilled.
+*Using [[Summon weapons]] makes the fight significantly easier due to not needing to maintain a direct line of fire.
+*Using the [[Fast Clock]] and its successors will prevent the player from being slowed down.
+*The player should prioritize a mobility-based loadout, however defense should not be completely ignored as enemies can still naturally spawn during this battle.
+
+== Trivia ==
+*The [[Music|theme]] heard during the pursuit with the Onyx Kinsman is [https://www.youtube.com/watch?v=LuTQUr6wZp4 '''Run!'''], a remix of a track of the same name from the soundtrack of the game ''Cave Story'' which was made by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+*The Onyx Kinsman resembles a dilapidated version of the Earth Elemental, stealing the Onyx Excavator presumably as an act of revenge.
+**The Onyx Excavator can be seen sticking through the shoulder of the elemental.
+**There is a giant hole in the other shoulder of the elemental, and the top of the helmet is missing.
+**The Onyx Kinsman only spawns if an elemental is summoned.
+**The Onyx Kinsman can be seen eating technology if the player loses and returns to the Onyx Bio-center lab.
+
+{{-}}<br />{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

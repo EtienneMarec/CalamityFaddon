@@ -1,0 +1,49 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 340
+| knockback = 12
+| rare = 11
+| sell = {{value|0|30}}
+| stack = 1
+| auto = yes
+| use = 24
+| velocity = 14
+| tooltip = Generates small blades that fly towards your enemies
+| hardmode = yes
+| postml = yes
+| debuff = Moon Burnt
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| element1 = Water
+| element2 = Stab
+}}
+
+The '''Stratoctrine Spear''' is a craftable Godseeker Mode [[spear]]. It creates 2 flying blades that inflict moon burnt.
+
+
+== Projectile Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Type !! Lifespan (seconds) !! Description
+|-
+| {{item|Stctrine Blade|Flying Blade|mode=table|nolink=y}}
+| align=center | 3
+| deals damage and inflicts Moon Burn on your enemies
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

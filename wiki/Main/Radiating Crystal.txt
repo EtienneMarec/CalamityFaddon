@@ -1,0 +1,28 @@
+{{infobox wrapper
+|{{item infobox
+| type = Pet Summon
+| stack = 1
+| tooltip = The crystal contains traces of holothurin<br/>Summons a radiator light pet<br/>Provides a small amount of light in the abyss
+| rare = 3
+| use = 19
+| buff = Radiator (buff)| bufflink = no
+| bufftip = Radioactive but adorable
+| sell = {{value|0|0|20}}
+}}
+|{{item drops infobox
+| [[Radiator]] when hit with [[Bug Net]] or [[Golden Bug Net]]|1|5%
+}}
+}}
+{{summoned|Radiator (Pet)|type=light pet}}
+The '''Radiating Crystal''' is a [[light pet]] summoning item that summons a pet Radiator that will emit a faint glow. It can be caught from special "glowing" [[Radiator]]s when hit with a [[Bug Net]] or [[Golden Bug Net]].
+
+== Notes ==
+*The Radiators which can be captured to receive this item will glow a much brighter green color, as compared to the normal ones. They have a 5% chance to spawn instead of a normal Radiator, and will also disappear once hit by a net.
+
+== Trivia ==
+*[[wikipedia:Holothurin|Holothurin]], mentioned in the item's tooltip, is a toxin contained within [[wikipedia:Sea cucumber|sea cucumbers]].
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

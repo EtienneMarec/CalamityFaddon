@@ -1,0 +1,41 @@
+{{item infobox
+| auto = yes
+| type = Weapon
+| stack = 1
+| damage = 177
+| damagetype = Melee
+| use = 16
+| velocity = 14
+| tooltip = May your enemies burn in hell for the sins they have committed<br/>Throws a holy boomerang that seeks out up to three{{sic}} enemies before returning to the player
+| knockback = 8.50
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffduration = 6 seconds (Hatchet)
+| debuffchance = 100%
+| element1 = Holy
+| element2 = Fire
+| element3 = Slash
+}}
+
+The '''Seeking Scorcher''' is a craftable Godseeker Mode [[melee]] [[boomerang]] that is a direct upgrade of the [[Possessed Hatchet]]. It fires a holy hatchet that can pass through tiles, home in and hit up to four enemies before returning to the player.
+
+Its best [[modifier]] is '''Godly'''.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+== Trivia ==
+*The Seeking Scorcher was implemented jokingly based on a community suggestion made by kerfpos on the mod's Discord server.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+
+[[Category:Boomerangs]]

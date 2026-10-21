@@ -1,0 +1,38 @@
+{{item infobox
+| name = Draedon's Forge
+| type = Furniture
+| type2 = Crafting station
+| type3 = Light Source
+| placeable = Yes
+| use = 10
+| auto = yes
+| width = 5
+| height = 3
+| stack = 9999
+| tooltip = A plasma-lattice nanoforge powered by limitless Exo energies<br/>Functions as every major crafting station simultaneously
+| consumable = Yes
+| rare = 15
+| color = #E69D29
+| sell = {{value|27|50}}
+| hardmode = yes
+| postml = yes
+}}
+
+'''Draedon's Forge''' is a Godseeker Mode [[crafting station]] used to craft end-game items. It counts as a [[Work Bench]], [[Hardmode Forge]], a [[Beach Ball]]]], a [[Tinkerer's Workshop]], a [[Table]], a [[Chair]], a [[Demon Altar|Demon]]/[[Crimson Altar]], and an [[Ancient Manipulator]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used to craft ===
+{{ajax|Recipes/Draedon's Forge|width=40%}}
+
+== Trivia ==
+
+* Crafting Draedon's Forge requires 65536 Delicious Meat, which takes up 66 inventory slots on its own. This makes it impossible to craft without the use of a chest or similar containers that can hold crafting materials.
+* The number 65536 is a reference made by one of the developers, 1965 being the year he was born in and 536 being his favourite number.
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:嘉登熔炉]]

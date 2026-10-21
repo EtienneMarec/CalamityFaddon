@@ -1,0 +1,33 @@
+{{npc infobox
+| type = Slime
+| environment = Dungeon
+| ai = Slime AI
+| damage = {{dv|20|40}}
+| life = {{dv|110|175}}
+| defense = 12
+| knockback = 100
+| banner = yes
+| money = {{value|0|0|4|0}}
+| Arsenic Ore|10-26| 100%
+| debuff= Plague
+| debuffchance = 100%
+| duration = 2.5 seconds
+| debufftip= Rotting from the inside 
+| immune1 = Plague
+| immune2 = Poisoned
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| resistant1 = Slash
+| resistant2 = Cold
+| resistant3 = Poison
+}}
+
+'''Arsenous Slimes''' are pre-[[Hardmode]] [[Slimes]] that spawn in the [[Dungeon]]. They exist to drop [[Arsenic Ore]]. 
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

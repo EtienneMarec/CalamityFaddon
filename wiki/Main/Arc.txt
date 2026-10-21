@@ -1,0 +1,65 @@
+{{npc infobox
+| type = NPC
+| environment = Valid house
+| ai = Passive AI
+| life = 300,000
+| defense = 90
+| knockback = 0
+| debuff = Moon Burnt
+| duration = 15 seconds (Phantom Blast)
+| debuffchance = 100%
+| debufftip = Incenerated by lunar rays
+| vulnerable1 = Holy
+| vulnerable2 = Slash
+| resistant1 = Dark
+| resistant2 = Cold
+| resistant3 = Poison
+| image2 = Arc map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_33.wav
+| soundtext = Phantom Blast
+}}
+{{NPC}}
+
+The '''Arc''' or '''Polter-Arc''' is a [[Hardmode]] [[NPC]] vendor that will spawn once the following conditions have been met:
+
+*There is an empty house.
+*[[Polterghast]] has been defeated.
+*A [[tgc:Town Cat|Town Cat]] is present.
+
+When threatened by [[enemies]], she will defend herself with phantom blasts.
+
+== Items sold ==
+{{inventory
+|Ectoplasm|{{sc|20}}|
+|Phantoplasm|{{sc|50}}|
+|Ruinous Soul|{{gc|2}}|
+|Shadow Key|{{gc|50}}|
+|Shadow Chest|{{gc|1}}|
+|Cobalt Shield|{{gc|30}}|
+|Muramasa|{{gc|30}}|
+|Ancient Shiv|{{gc|30}}|
+|Blue Moon|{{gc|30}}|
+|Aqua Scepter|{{gc|30}}|
+|Staff of Necrosteocytes|{{gc|30}}|
+|Shinobi Blade|{{gc|30}}|
+|Keelhaul|{{value|0|0|0|0|1}}|After defeating [[The Devourer of Gods]]
+}}
+
+== Names ==
+*The Arc will always be named Polter.
+
+== Quotes ==
+{{info request|fully written dialogue}}
+
+== Trivia ==
+*The Arc is heavily inspired by the character, "Neco-Arc", a mascot from the Tsukihime/Melty Blood series.
+*She shares the same health and defense as Normal Mode Polterghast.
+*In the mod's source files, the Arc is referred to as 'HAUNT'.
+
+{{Master Template Characters
+| show-main = yes
+| show-npc = yes
+}}

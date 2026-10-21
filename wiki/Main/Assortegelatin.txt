@@ -1,0 +1,25 @@
+{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = Summons slimes to fight for you based on your current biome<br/>All wild slimes will fight for you<br/>Pacifies all slimes, even bosses
+| hardmode = yes
+| postml = yes
+| rare = 10
+| sell = {{value|0|4|80}}
+}}
+
+The '''Assortegelatin''' is a craftable Godseeker Mode [[covering]]. While worn, an invincible slime is summoned based on the player's current biome which will rapidly jump at enemies and latch onto them, dealing a base of 400 damage boosted by the player's summoner damage. If the player gets near a wild non-boss slime, the slime will have its contact damage boosted by 600% and its health by 1200%, then start fighting for the player. Boss slimes such as [[King Slime]], [[Queen Slime]], [[The Slime God]], [[Astrum Aureus]], and the [[Cragmaw Mire]] stop attacking the player, but won't fight for them.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

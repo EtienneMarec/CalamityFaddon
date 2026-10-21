@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Spy
+| damage = 84
+| knockback = 7.5
+| rare = 7
+| tooltip = Stealth strikes leave a trail of lingering flowers
+| sell = {{value|0|12}}
+| stack = 1
+| velocity = 16
+| use = 13
+| auto = yes
+| debuff = Cursed Inferno
+| debuffduration = 2 seconds
+| debuffchance = 100%
+| debufftip = Losing life<br/>All damage taken increased by 20%
+| hardmode = yes
+| proj = Beaming Flower.png
+| projcaption = Beaming Flower
+| element1 = Poison
+| element2 = Slash
+}}
+
+The '''Mangrove Chakram''' is a craftable [[Hardmode]] [[Spy]] [[boomerang]]. It inflicts [[Cursed Inferno]] and can be thrown multiple times, with Chakrams returning to the owner after a set distance or hitting an enemy or solid block. Chakrams still in flight will disappear if they don't return to the player after a short while.
+
+Performing a [[stealth strike]] with the Mangrove Chakram causes the next boomerang thrown to leave a trail of lingering flowers as it travels.
+
+{{modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Perennial}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

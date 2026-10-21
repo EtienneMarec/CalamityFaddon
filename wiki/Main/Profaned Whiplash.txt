@@ -1,0 +1,36 @@
+{{Historical content}}
+{{Addon|Tranquility Mod}}
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 200
+| knockback = 2
+| use = 12
+| tooltip = Powered by the profaned flame.</br>Generates Holy Flame explosions on enemy hits, struck enemies spawn a few homing crystal shards on death.</br>12 summon tag damage
+| stack = 1
+| auto = yes
+| rare = 12
+| sell = {{value|0|15|0}}
+| hardmode = yes
+| postml = yes
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| debuffduration = 5 seconds (on hit) 
+| proj = Holy Crystal Shard.png
+| projcaption = Holy Crystal Shard
+}}
+{{item drops infobox
+| [[Providence, the Profaned Goddess]]|1|{{dv|25%|33.33%}}
+}}
+
+The '''Profaned Whiplash''' is a Post-[[tgc:Moonlord|Moonlord]] [[Whips|whip]], dropped by [[Providence, the Profaned Goddess|Providence]]. When used, it launches a profaned whip that generates Holy Flame explosions on each enemy hit. After killing an enemy, they will spawn 3-5 homing [[File:Holy Crystal Shard.png]] Holy Crystal Shards that deal 110% of the weapon's damage.
+
+Its best modifier is "Legendary", as it provides the widest array of stat bonuses including whip range and speed.
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}
+
+[[Category:Whips]]

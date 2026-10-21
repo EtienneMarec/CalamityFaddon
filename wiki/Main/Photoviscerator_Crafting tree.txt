@@ -1,0 +1,206 @@
+<div class="crafting-tree">{{diagram
+|summary=Crafting recipe for the Photoviscerator.
+|_|IronO|_|LeadO|_|_|_|_|_|_|_|_|_|_|_|_|_|Cele2|_|Lumi2|_|SniST|_|_|_|_|_|#
+|_|      _|      _|_|_|_|_|_|_|_|_|_|_|_|_|     |_|     |_|     |_|_|_|_|_|#
+|F|~|$|~|~|~|$|~|7|_|_|_|_|_|_|_|_|_|_|_|_|_|)|-|-|-|'|_|_|_|:|_|_|_|_|_|_|#
+|:|PHFRG|_|PHFRG|:|_|_|_|_|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|@|_|_|_|_|_|_|#
+|:|IronB|±|LeadB|:|IPart|_|SoulF|_|Lumen|_|ExoCl|_|RuiSo|_|SniSc|_|_|_|_|_|#
+|:|             |:|     |_|     |_|      _|      _|      _|      _|_|_|_|_|#
+|L|~|~|~|y|~|~|~|J|_|I|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|_|_|_|#
+|_|_|_|_|`|-|-|-|-|-|^|-|-|-|(|_|_|_|`|-|-|-|^|-|-|-|+|-|-|-|'|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|ECind|_|LShrd|_|FThro|_|LumiO|_|Cele1|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|     |_|     |_|     |_|     |_|     |_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|`|-|-|-|^|-|-|-|(|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|HMANV|_|_|I|_|_|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|MThro|_|HBrth|_|BSpew|_|TBrst|_|LumiB|_|GalaS|_|_|I|_|_|Cosm1|_|MiMaT|_|#
+|_|      _|      _|      _|      _|      _|      _|_|I|_|_|     |_|      _|#
+|_|_|`|-|-|-|^|-|-|-|^|-|-|-|+|-|-|-|^|-|-|-|'|_|_|_|I|_|_|_|I|_|_|_|:|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|§|_|_|COANV|_|_|₪|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|EErup|_|_|_|_|_|_|_|_|_|HalIn|_|CBlaz|_|MirMa|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|     |_|_|_|_|_|_|_|_|_|     |_|     |_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|)|-|-|-|-|-|-|-|-|-|-|-|^|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|Photo|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+|Photo_cols = 3
+|Photo_rows = 2
+|Photo = {{item|Photoviscerator}}
+
+|Cele1_cols = 3
+|Cele1_rows = 2
+|Cele1 = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 5<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+|Cele2_cols = 3
+|Cele2_rows = 2
+|Cele2 = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 12<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+|Cosm1_cols = 3
+|Cosm1_rows = 2
+|Cosm1 = {{item|Cosmilite Bar}} × 12 <br/>
+( {{item|mode=image|image=Devourer of Gods final head map.png|The Devourer of Gods|size=25px}} )
+
+|ECind_cols = 3
+|ECind_rows = 2
+|ECind = {{item|Essence of Sunlight}} × 5 <br/>
+<span style="font-size:0.75em">(Sky / Storm / Sun related creatures)
+
+|GalaS_cols = 3
+|GalaS_rows = 2
+|GalaS = {{item|Galactica Singularity}} × 5
+
+|IronO_cols = 3
+|IronO_rows = 2
+|IronO = {{item|Iron Ore}} × 60
+<div style="font-size: 0.75em">( [[Underground]] )</div>
+
+|LeadO_cols = 3
+|LeadO_rows = 2
+|LeadO = {{item|Lead Ore}} × 60
+<div style="font-size: 0.75em">( [[Underground]] )</div>
+
+|IronB_cols = 3
+|IronB_rows = 2
+|IronB = {{item|Iron Bar}} × 20
+
+|LeadB_cols = 3
+|LeadB_rows = 2
+|LeadB = {{item|Lead Bar}} × 20
+
+|SoulF_cols = 3
+|SoulF_rows = 2
+|SoulF = {{item|Soul of Fright}} × 20 <br/>
+( {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+|IPart_cols = 3
+|IPart_rows = 2
+|IPart = {{item|Illegal Gun Parts}} <br/>
+( {{item|mode=image|image=Map Icon Arms Dealer.png|Arms Dealer|size=20px}} )
+
+|LumiB_cols = 3
+|LumiB_rows = 2
+|LumiB = {{item|Luminite Bar}} × 5
+
+|LumiO_cols = 3
+|LumiO_rows = 2
+|LumiO = {{item|Luminite}} × 20<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=30px}} )
+
+|Lumi2_cols = 3
+|Lumi2_rows = 2
+|Lumi2 = {{item|Luminite}} × 36<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=30px}} )
+
+|LShrd_cols = 3
+|LShrd_rows = 2
+|LShrd = {{item|Living Shard}} × 7 <br/>
+( {{item|mode=image|image=Map Icon Plantera (first form).png|Plantera|size=30px}} )
+
+|MiMaT_cols = 3
+|MiMaT_rows = 2
+|MiMaT = ''[[Miracle Matter/Crafting tree|Miracle Matter<br/>crafting tree]]''
+
+|MirMa_cols = 3
+|MirMa_rows = 2
+|MirMa = {{item|Miracle Matter}}
+
+|FThro_cols = 3
+|FThro_rows = 2
+|FThro = {{item|Flamethrower}}
+
+|TBrst_cols = 3
+|TBrst_rows = 2
+|TBrst = {{item|Terra Flameburster}}
+
+|MThro_cols = 3
+|MThro_rows = 2
+|MThro = {{item|Meowthrower}} <br/>
+( {{item|mode=image|image=Map Icon Wall of Flesh.png|Wall of Flesh|size=30px}} )
+
+|BSpew_cols = 3
+|BSpew_rows = 2
+|BSpew = {{item|Blight Spewer}} <br/>
+( {{item|mode=image|image=Plaguebringer Goliath map.png|Plaguebringer Goliath|size=30px}} )
+
+|HBrth_cols = 3
+|HBrth_rows = 2
+|HBrth = {{item|Havoc's Breath}} <br/>
+( {{item|mode=image|image=Cataclysm map.png|Cataclysm|size=30px}} )
+
+|CBlaz_cols = 3
+|CBlaz_rows = 2
+|CBlaz = {{item|Cleansing Blaze}}
+
+|EErup_cols = 3
+|EErup_rows = 2
+|EErup = {{item|Elemental Eruption}}
+
+|HalIn_cols = 3
+|HalIn_rows = 2
+|HalIn = {{item|Halley's Inferno}}
+
+| Lumen_cols = 3
+| Lumen_rows = 2
+| Lumen = {{item|Lumenyl}} × 6<br/>
+<span style="font-size:0.75em">( [[Abyss]] )</span>
+
+|RuiSo_cols = 3
+|RuiSo_rows = 2
+|RuiSo = {{item|Ruinous Soul}} × 4 <br/>
+( {{item|mode=image|image=Polterghast map.png|Polterghast|size=18px}} )
+
+|ExoCl_cols = 3
+|ExoCl_rows = 2
+|ExoCl = {{item|Exodium Cluster}} × 12
+
+|SniSc_cols = 3
+|SniSc_rows = 2
+|SniSc = {{item|Sniper Scope}}
+
+|SniST_cols = 3
+|SniST_rows = 2
+|SniST = ''[[Sniper Scope#Crafting tree|Sniper Scope<br/>crafting tree]]''
+
+<!-- CRAFTING STATIONS -->
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|COANV_cols = 3
+|COANV_class = craft-station
+|COANV = {{item|mode=image|Cosmic Anvil}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+| @_cols = 1
+| @_class = craft-station
+| @ = {{item|mode=image|Tinkerer's Workshop}}
+
+<!-- OTHER -->
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

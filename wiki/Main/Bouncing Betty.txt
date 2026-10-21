@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| damage = 52
+| damagetype = Spy
+| consumable = true
+| knockback = 3
+| use = 23
+| tooltip = Throws a grenade which bounces after exploding<br/>Stealth strikes explode into a violent blast of fire and shrapnel when it bounces
+| auto = yes
+| stack = 9999
+| velocity = 16
+| rare = 5
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 3-6 seconds (flame spark)
+| debufftip = Slowly losing life
+| buy = {{value|0|0|4|0}}
+| sell = {{value|0|0|0|80}}
+| hardmode = yes
+| proj = Flaming Shard.gif
+| projcaption = Flaming Shard
+| proj3 = Betty Shrapnel.png
+| proj3caption = Betty Shrapnel
+| element1 = Fire
+| element2 = Bomb
+}}
+
+'''Bouncing Betties''' are consumable [[Spy]] [[bombs]] sold by the [[Bandit]] for {{value|0|0|4}} after defeating any [[Mechanical Boss]]. They throw an explosive grenade that bounces off of enemies twice, exploding with each bounce. The grenade will bounce off of blocks for a short time after being thrown.
+
+Performing a [[stealth strike]] with Bouncing Betties will cause the next grenade thrown to release 12 projectiles on explosion. These projectiles will be a mix of damaging pieces of shrapnel, and sparks of flame that inflict the [[On Fire!]] [[debuff]] onto enemies.
+
+{{Modifier|none}}
+
+== Trivia ==
+*The [[wikipedia:Bouncing Betty|Bouncing Betty]] was a real life mine used in WWII.
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+
+[[Category:Bombs]]

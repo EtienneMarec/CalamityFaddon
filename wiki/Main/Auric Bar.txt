@@ -1,0 +1,36 @@
+{{item infobox
+| image = Auric Bar.gif
+| type = Block
+| type2 = Bar
+| type3 = Crafting material
+| stack = 9999
+| rare = 15
+| tooltip = Godlike power emanates from the metal
+| sell = {{value|0|60}}
+| use = 14
+| placeable = yes
+| consumable = yes
+| auto = true
+| hardmode = yes
+| postml = yes
+}}
+
+'''Auric Bars''' are Godseeker Mode [[bars]] that are made with [[Auric Ore]] and [[Yharon Soul Fragment]]s or [[Quark-Gluon Sludge]] {{dei}}. They are used in creating some of the most powerful items the ''Calamity Mod'' has to offer, as well as [[Shadowspec Bar]]s, which are used in the crafting of developer-tier items.
+
+Crafting all items (excluding all items crafted from Shadowspec bars which have Auric Bars in its recipe) requires 180 Auric Bars (2160 Auric Ore and 36 Yharon Soul Fragments; requires defeating [[Jungle Dragon, Yharon]] {{dv|2–3|2}} times).
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*In previous versions of the mod, the components of the bar and most of [[Miracle Matter]]'s components were directly used to craft the Auric gear.
+*Uniquely among most items in the mod, Auric Bars are unaffected by gravity when dropped as an item, similarly to souls or essences.
+{{auric}}
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}

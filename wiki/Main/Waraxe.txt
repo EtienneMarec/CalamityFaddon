@@ -1,0 +1,49 @@
+{{infobox wrapper
+|{{item infobox
+| type = Tool
+| type2 = Weapon
+| damagetype = melee
+| axe  = 85
+| auto = yes
+| damage = 26
+| knockback = 5.25
+| use = 21
+| rare = 0
+| stack = 1
+| debuff = War Cleave
+| debuffchance = 100%
+| debuffduration = 15 seconds (Critical hits)
+| debufftip = Defense and protection reduced
+| tooltip = Critical hits cleave enemy armor, reducing their defense by 15 and protection by 25%
+| sell = {{value|0|0|20}}
+| toolspeed = 22
+| element1 = Slash
+}}
+|{{item drops infobox
+| [[Skeleton]]<br/>[[Hoplite]]<br/>[[Armored Skeleton]]<br/>[[Skeleton Archer]] |1 | 5% / {{expert| 6.67%}} ([[Pre-Hardmode]] only)
+}}
+}}
+
+The '''Waraxe''' is a [[Pre-Hardmode]] [[axe]] that drops from [[Skeleton]]s, [[Hoplite]]s, [[Armored Skeleton]]s and [[Skeleton Archer]]s. Critical strikes inflict the [[War Cleave]] [[debuff]], which reduces the hit enemy's defense by 15 and damage reduction by 25%, for 15 seconds.
+
+{{modifier|harvest}}
+
+== Tips ==
+*Although it has axe power, it is excellent to acquire early on to use as a [[weapon]], due to its high base damage and powerful debuff.
+*Since the Waraxe is technically a tool and not a weapon, it will not trigger the summoner nerf and is thus an excellent early game weapon for summoners.
+
+{{-}}
+{{War}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Axes]]
+[[Category:Melee weapons]]
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:骷髅战斧]]

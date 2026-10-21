@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 41
+| mana = 10
+| use = 24
+| knockback = 2
+| tooltip = Laser technology used in this case for both targeting and defense<br/>Summons a powerful weapon above your head that fires lasers at nearby enemies<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| buff = Mounted Scanner (buff)| bufflink = no
+| bufftip = Powerful machinery surrounds you
+| sell = {{value|0|4|80}}
+| hardmode = yes
+| element1 = Fire
+| element2 = Machine
+}}
+{{summoned|Mounted Scanner (minion)|type=minion}}
+
+The '''Mounted Scanner''' is a craftable [[Hardmode]] [[summon weapon]]. It summons a floating machine that surrounds the player. When an enemy is nearby, the machine fires red laser beams at them. The beam's damage is reduced by 40% every hit.
+
+The weapon consumes 0.85 units of [[charge]] per use and has a maximum charge of 85.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier2}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

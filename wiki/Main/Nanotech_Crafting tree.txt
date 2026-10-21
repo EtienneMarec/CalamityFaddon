@@ -1,0 +1,242 @@
+<div class="crafting-tree">{{diagram
+
+|_|GolOr|_|PlaOr|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|      _|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|PHFRG|_|PHFRG|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|GolBr|_|PlaBr|_|RRuby|_|AerOr|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|      _|      _|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|)|-|-|-|+|-|-|-|'|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|F|~|$|~|~|~|$|~|7|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|:|PHANV|_|PHANV|:|_|_|_|_|PHFRG|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|:|GolCr|±|PlaCr|:|Feath|_|AerBr|_|AnyMO|_|Phant|_|DarkF|_|NighF|_|EndoE|_|#
+|:|             |:|      _|      _|      _|      _|      _|      _|      _|#
+|L|~|~|~|y|~|~|~|J|_|I|_|_|_|I|_|_|_|I|_|_|_|`|-|-|-|^|-|-|-|^|-|-|-|(|_|_|#
+|_|_|_|_|`|-|v|-|-|-|^|-|-|-|'|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|#
+|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|HEFRG|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|#
+|_|LumOr|_|_|I|_|_|LunaF|_|RCoVe|_|AnyMB|_|EGlov|_|Wired|_|_|_|_|_|_|I|_|_|#
+|_|      _|_|I|_|_|      _|      _|      _|      _|      _|_|_|_|_|_|I|_|_|#
+|_|_|I|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|`|-|-|-|+|-|-|-|'|_|_|_|_|_|_|_|I|_|_|#
+|_|_|§|_|_|SKYMI|_|_|§|_|_|WORKB|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|I|_|_|#
+|_|LumBr|_|FeatC|_|GalaS|_|Leath|_|Obsid|_|_|I|_|_|LumiO|_|Luna2|_|_|I|_|_|#
+|_|      _|      _|      _|      _|      _|_|I|_|_|      _|      _|_|I|_|_|#
+|_|_|`|-|-|-|+|-|-|-|'|_|_|_|`|-|-|-|(|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|I|_|_|#
+|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|PHANV|_|HMANV|_|_|§|_|_|_|§|_|_|_|§|_|_|#
+|_|_|_|_|_|MooSC|_|RogEm|_|_|_|_|_|RaiTa|_|ElecG|_|LumiB|_|Gala2|_|AscSE|_|#
+|_|_|_|_|_|      _|      _|_|_|_|_|      _|      _|      _|      _|      _|#
+|_|_|_|_|_|_|`|-|-|-|^|-|-|-|-|-|-|-|+|-|-|-|^|-|-|-|^|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|COANV|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|NanoT|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+
+<!-- NANOTECH -->
+|NanoT_cols = 3
+|NanoT_rows = 2
+|NanoT = {{item|Nanotech}}
+
+|Phant_cols = 3
+|Phant_rows = 2
+|Phant = {{item|Phantoplasm}} × 20<br/>
+( {{item|mode=image|image=Polterghast map.png|Polterghast|size=18px}} {{item|mode=image|Phantom Spirit|size=14px}} {{item|mode=image|Overloaded Soldier|size=18px}} {{item|mode=image|Phantom Debris|size=26px}} )
+
+|RogEm_cols = 3
+|RogEm_rows = 2
+|RogEm = {{item|Spy Emblem}}<br/>
+( {{item|mode=image|image=Map Icon Wall of Flesh.png|Wall of Flesh|size=20px}} )
+
+|NighF_cols = 3
+|NighF_rows = 2
+|NighF = {{item|Nightmare Fuel}} × 20<br/>
+<span style="font-size:0.75em">( [[Pumpkin Moon]] )</span>
+
+|EndoE_cols = 3
+|EndoE_rows = 2
+|EndoE = {{item|Endothermic Energy}} × 20<br/>
+<span style="font-size:0.75em">( [[Frost Moon]] )</span>
+
+|DarkF_cols = 3
+|DarkF_rows = 2
+|DarkF ={{item|Darksun Fragment}} × 8<br/>
+<span style="font-size:0.75em">( [[Solar Eclipse]] )</span>
+
+|AscSE_cols = 3
+|AscSE_rows = 2
+|AscSE = {{item|Ascendant Spirit Essence}} × 4
+
+|Luna2_cols = 3
+|Luna2_rows = 2
+|Luna2 = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 4<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+|Gala2_cols = 3
+|Gala2_rows = 2
+|Gala2 = {{item|Galactica Singularity}} × 4
+
+|LumiO_cols = 3
+|LumiO_rows = 2
+|LumiO = {{item|Luminite}} × 32<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=20px}} )
+
+|LumiB_cols = 3
+|LumiB_rows = 2
+|LumiB = {{item|Luminite Bar}} × 8
+
+<!-- RAIDER'S TALISMAN -->
+|RaiTa_cols = 3
+|RaiTa_rows = 2
+|RaiTa = {{item|Raider's Talisman}}
+
+|Leath_cols = 3
+|Leath_rows = 2
+|Leath = {{item|Leather}} × 5<br/>
+( {{item|mode=image|Angry Dog|size=30px}} )
+
+|RCoVe_cols = 3
+|RCoVe_rows = 2
+|RCoVe = {{item|Rotten Chunk}} × 25 / {{item|Vertebrae}} × 25
+
+|Obsid_cols = 3
+|Obsid_rows = 2
+|Obsid = {{item|Obsidian}} × 20
+
+<!-- ELECTRICIAN'S GLOVE -->
+|ElecG_cols = 3
+|ElecG_rows = 2
+|ElecG = {{item|Electrician's Glove}}
+
+|AnyMB_cols = 3
+|AnyMB_rows = 2
+|AnyMB = {{item|Any Mythril Bar}} × 5
+
+|AnyMO_cols = 3
+|AnyMO_rows = 2
+|AnyMO = {{item|Mythril Ore}} / {{item|Orichalcum Ore}} × 20<br/>
+<span style="font-size:0.75em">( [[Underground]] )</span>
+
+|Wired_cols = 3
+|Wired_rows = 2
+|Wired = {{item|Wire}} × 100
+
+|EGlov_cols = 3
+|EGlov_rows = 2
+|EGlov = {{item|Filthy Glove}} / {{item|Bloodstained Glove}}<br/>
+( {{item|mode=image|image=Hive Mind map 2.png|Hive Mind|size=20px}} / {{item|mode=image|image=Perforator Hive map.png|The Perforators|size=20px}} )
+
+
+<!-- MOONSTONE CROWN -->
+|MooSC_cols = 3
+|MooSC_rows = 2
+|MooSC = {{item|Moonstone Crown}}
+
+|LumBr_cols = 3
+|LumBr_rows = 2
+|LumBr = {{item|Luminite Bar}} × 5
+
+|LumOr_cols = 3
+|LumOr_rows = 2
+|LumOr = {{item|Luminite}} × 20
+
+|GalaS_cols = 3
+|GalaS_rows = 2
+|GalaS = {{item|Galactica Singularity}} × 5
+
+|LunaF_cols = 3
+|LunaF_rows = 2
+|LunaF = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 5<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+|FeatC_cols = 3
+|FeatC_rows = 2
+|FeatC = {{item|Feather Crown}}
+
+|Feath_cols = 3
+|Feath_rows = 2
+|Feath = {{item|Feather}} × 8<br/>
+( {{item|mode=image|Harpy|size=20px}} )
+
+|AerBr_cols = 3
+|AerBr_rows = 2
+|AerBr = {{item|Aerialite Bar}} × 6
+
+|AerOr_cols = 3
+|AerOr_rows = 2
+|AerOr = {{item|Aerialite Ore}} × 24<br/>
+( {{item|mode=image|Aero Slime|size=20px}} )
+
+|GolCr_cols = 3
+|GolCr_rows = 2
+|GolCr = {{item|Gold Crown}}
+
+|PlaCr_cols = 3
+|PlaCr_rows = 2
+|PlaCr = {{item|Platinum Crown}}
+
+|GolBr_cols = 3
+|GolBr_rows = 2
+|GolBr = {{item|Gold Bar}} × 5
+
+|PlaBr_cols = 3
+|PlaBr_rows = 2
+|PlaBr = {{item|Platinum Bar}} × 5
+
+|RRuby_cols = 3
+|RRuby_rows = 2
+|RRuby = {{item|Ruby}}
+
+|GolOr_cols = 3
+|GolOr_rows = 2
+|GolOr = {{item|Gold Ore}} × 20
+
+|PlaOr_cols = 3
+|PlaOr_rows = 2
+|PlaOr = {{item|Platinum Ore}} × 20
+
+<!-- CRAFTING STATIONS -->
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|HEFRG_cols = 3
+|HEFRG_class = craft-station
+|HEFRG = {{item|mode=image|Hellforge}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|COANV_cols = 3
+|COANV_class = craft-station
+|COANV = {{item|mode=image|Cosmic Anvil}}
+
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+
+|WORKB_cols = 3
+|WORKB_class = craft-station
+|WORKB = {{item|mode=image|Work_Bench}}
+
+|SKYMI_cols = 3
+|SKYMI_class = craft-station
+|SKYMI = {{item|mode=image|Sky Mill}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

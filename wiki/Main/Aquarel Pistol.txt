@@ -1,0 +1,47 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| type2 = Crafting material
+| damage = 87
+| damagetype = Ranged
+| knockback = 7.5
+| use = 22
+| velocity = 24
+| tooltip = Converts musket balls into aquarel bullets that shatter into smaller ones<br/>Seashatter bullets inflict Suffocation, Wet and Frostbite
+| rare = 10
+| sell = {{value|0|45}}
+| hardmode = yes
+| debuff = Suffocation
+| debuffduration = 2 seconds
+| debufftip = Losing life
+| debuffchance = 100%
+| debuff2 = Wet
+| debuffduration2 = 2 seconds
+| debufftip2 = You are dripping water
+| debuffchance2 = 100%
+| debuff3 = Frostbite
+| debufftip3 = It's either really hot or really cold. Either way it REALLY hurts
+| debuffduration3 = 2 seconds
+| debuffchance3 = 100%
+| element1 = Water
+| element2 = Stab
+| element3 = Cold
+}}
+
+The '''Aquarel Pistol''' is a [[Hardmode]] [[gun]] that is an upgrade to [[Shattered Pistol]]. If [[Musket Ball]]s are used as [[Ammunition|ammo]], it fires an aquarel bullet that shatters into 8 smaller ones with a slight spread after travelling about 9 tiles. The smaller bullets deal 25% of the weapon's damage each. Both the aquarel and the smaller bullets do not pierce through enemies nor go through walls, but inflict the [[Frostbite]], [[Suffocation]] and [[Wet]] [[debuffs]] for 2 seconds.
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{ctota}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

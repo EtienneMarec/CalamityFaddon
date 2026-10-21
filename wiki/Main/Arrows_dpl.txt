@@ -1,0 +1,21 @@
+<!--Used on:
+Arrows
+Bullets
+--><includeonly>
+{{#ifeq:{{{listexclude|no}}}|yes|<!--nothing-->|
+{{!}}-
+{{!}} {{item|{{{name|{{{%PAGE%}}}}}}|image={{{name|{{{%PAGE%}}}}}}.png}}
+{{!}} align=center {{!}} '''{{{damage|0}}}'''
+{{!}} align=center {{!}} {{#if:{{{extraupdates|}}}|{{#expr:{{{velocity|}}}*({{{extraupdates|}}}+1)}}|{{{velocity|0}}}}}
+{{!}} align=center {{!}} {{{velocitymult|1}}}
+{{!}} data-sort-value={{{knockback|0}}} align=center style="line-height:15px" {{!}} {{{knockback|0}}} <br/> <small>({{knockback|{{{knockback|0}}}}})</small>
+{{!}} {{rare|{{{rare|0}}}|sort=yes}}
+{{!}} align=center {{!}} {{{{{hardmode|no}}}}}
+{{!}} align=center {{!}} {{{{{postml|no}}}}}
+{{!}} data-sort-value={{value total|{{{sell|}}}}} {{!}} {{{sell|}}}
+{{!}}-
+}}
+</includeonly>
+<noinclude>
+{{Dpl pages}} [[Category:DPL]]
+</noinclude>

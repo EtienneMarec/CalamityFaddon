@@ -1,0 +1,28 @@
+{{revengeance mode only}}
+{{dedicated|RandomZachOfKindness|Developer}}
+{{infobox wrapper
+|{{item infobox
+| type = Pet Summon
+| stack = 1
+| tooltip = 'It contains 1 file on it'<br/>'Fox.cs'
+| rare = 15
+| use = 19
+| sell = {{value|0|30}}
+| buff = Fox Pet (buff)
+| bufflink = no
+| bufftip = Fox Pet? FOX PET
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+|[[Jungle Dragon, Yharon]]|1|{{revengeance|100%}}
+}}
+}}
+{{summoned|Fox Pet|type=pet}}
+
+The '''Fox Drive''' is a [[pet]] summoning item that summons a fox pet to follow the player. It is obtained from the [[Treasure Bag]] dropped by [[Jungle Dragon, Yharon]] in [[Revengeance Mode]].
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

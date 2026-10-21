@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 8
+| sell = {{value|0|16}}
+| damage = 130
+| use = 12
+| velocity = 16
+| knockback = 5.75
+| tooltip = Don't underestimate the power of shortswords
+| auto = yes
+| stack = 1
+| hardmode = yes
+| proj = Excalibur Shortbeam.png
+| projcaption = Excalibur Shortbeam
+| element1=  Holy
+| element2 = Stab
+}}
+
+The '''True Excalibur Shortsword''' is a craftable [[Hardmode]] [[shortsword]] that autoswings. On each swing, it fires a projectile that pierces twice before stopping on the third [[enemy]]. The projectile only moves horizontally to the left or right.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon is a reference to the [https://terrariamods.fandom.com/wiki/SGAmod/True_Caliburn True Caliburn] from the [https://forums.terraria.org/index.php?threads/sgamod.78876/ SGAmod].
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+
+[[Category:Swords]]
+[[Category:Shortswords]]

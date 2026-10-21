@@ -1,0 +1,35 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = 15% increased Spy projectile velocity<br/>Stealth strikes summon lunar flares on enemy hits<br/>Spy projectiles very occasionally summon moon sigils behind them
+| sell = {{value|0|22}}
+| rare = 11
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Moon Sigil.png
+| projcaption = Moon Sigil
+| proj2 = Lunar Flare (projectile).gif
+| proj2caption = Lunar Flare
+| element1 = Magic
+}}
+
+The '''Moonstone Crown''' is a craftable Godseeker Mode [[Spy]] [[covering]] that is a direct upgrade to the [[Feather Crown]]. While equipped it boosts the velocity of any thrown Spy weapon by 15%. In addition, all thrown Spy projectiles release a moon sigil while active for every two seconds, up to a maximum of five sigils at once. Sigils deal 45 typeless damage which can be affected by Spy damage bonuses, slightly home into enemies, and capable of infinite pierce.
+
+If the player utilizes a stealth strike and hits an enemy with this covering equipped, three lunar flares will rain down onto the target. Lunar flares deal 85 typeless damage which can be affected by Spy damage bonuses. This effect only triggers for the first five enemies hit, and has a cooldown of one second.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{PureLuminite}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

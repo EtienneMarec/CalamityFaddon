@@ -1,0 +1,47 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 80
+| use = 39
+| knockback = 6.5
+| auto = yes
+| stack = 1
+| rare = 10
+| sell = {{value|0|20}}
+| velocity = 20
+| tooltip = BOOM<br/>Right click to fire a nuke
+| hardmode = yes
+| proj = Big Nuke.gif
+| projcaption = Big Nuke
+| proj2 = Mini Rocket.gif
+| proj2caption = Mini Rocket
+| element1 = Fire
+| element2 = Bomb
+}}
+
+The '''Scorpio''' is a craftable [[Hardmode]] [[Launchers|launcher]] with extraordinary area-of-effect capabilities. Its two firing modes both consume a single [[rocket]] of any kind upon firing.
+
+Left-click gives a fully automatic rapid-fire stream of homing rockets that inflict the weapon's normal damage. Right-click is also automatic, slowly firing seeker rockets that inflict 1.25x the weapon's normal damage and double the knockback, in a ludicrously large area of effect (square radius of 22.5 tiles). Despite its lower fire rate, the right-click function gives a similar DPS on every enemy within a large area without consuming any additional ammunition.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*Against worm enemies like [[Astrum Deus]], the Scorpio is spectacularly effective, often requiring no other equipment aside from reasonable armor.
+*The obscenely large area of effect can be a pain in certain circumstances, as it may kill benign creatures the player wanted to capture.
+*The left-click rapid fire functionality can be useful against hard to hit enemies, as you can put more rockets in the air faster. However, right-click has superior damage-per-money spent on ammo.
+
+== Trivia ==
+*The weapon is a reference to the [https://turok.fandom.com/wiki/Scorpion_Launcher Scorpion Launcher] in ''[[wikipedia:Turok 2: Seeds of Evil|Turok 2: Seeds of Evil]]''.
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category: Launchers]]

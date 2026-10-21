@@ -1,0 +1,27 @@
+{{info request|needs information}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| rare = 7
+| sell = {{value|0|15}}
+| damage = 225
+| use = 12
+| knockback = 7.5
+| tooltip = A shining glaive, constantly changing colors with a prismatic gleam</br>Inflicts Accelerated Metamorphosis for 3 seconds per hit
+| debuff = Accelerated Photosynthesis
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Movement speed massively reduced
+| auto = yes
+| stack = 1
+| hardmode = yes
+| element1 = Poison
+| element2 = Stab
+}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]
+[[Category:True melee]]

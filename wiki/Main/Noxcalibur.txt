@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 20,000
+| knockback = 20
+| rare = 16
+| sell = {{value|5|1|20}}
+| stack = 1
+| auto = yes
+| use = 44
+| critical = 12%
+| velocity = 10
+| tooltip = Turns out the most practical use for antimatter is hitting stuff with it.
+| hardmode = yes
+| proj = Noxrox.png
+| projcaption = Nox Boulder
+| element1 = Unholy
+| element2 = Slash
+}}
+'''Noxcalibur''' is an upgraded version of the [[Roxcalibur]]. It can be obtained by defeating [[Purgatory Arbiter, Umbrus]] with nothing but the [[Unloxcalibur]].
+
+When swung, it launches a gravity affected nox boulder towards the cursor. The boulder will bounce and roll on tiles in a similar manner to placeable boulders, and will despawn after 10 seconds.
+
+While in the air, right-clicking with the Noxcalibur will cause the player to dive downwards and bounce off tiles and on top of enemies and nox boulders. Upon hitting a tile or a boulder, the player creates an entropic explosion and bounces considerably higher. The explosion does 100,000 base damage and has a cooldown of 30 seconds. When the explosion becomes available again, a sound plays to indicate it.
+
+{{modifier|melee}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:石约与胜利之剑]]

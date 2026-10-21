@@ -1,0 +1,46 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 87
+| auto = yes
+| use = 12
+| knockback = 20
+| damagetype = Melee
+| rare = 8
+| sell = {{value|0|16}}
+| velocity = 14
+| stack = 1
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffduration = 4 seconds (Hammer)
+| debuffchance = 100%
+| debuff2 = On Fire!
+| debuffduration2 = 3 seconds (Explosion)
+| debuffchance2 = 100%
+| debufftip2 = Slowly losing life
+| tooltip = Explodes on enemy hits
+| hardmode = yes
+| element1 = Unholy
+| element2 = Fire
+| element3 = Smash
+}}
+
+The '''Fallen Paladin's Hammer''' is a craftable [[Hardmode]] [[boomerang]] and an upgrade of the [[Paladin's Hammer]]. It throws hammers at a short range that inflict the [[Brimstone Flames]] [[debuff]] and create small explosions upon striking enemies that inflict [[On Fire!]]. Unlike the Paladin's Hammer, the Fallen Paladin's Hammer can pass through walls unhindered.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Fallen Paladin's Hammer was previously known as the "True Paladin's Hammer".
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Boomerangs]]

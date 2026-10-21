@@ -1,0 +1,46 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 70
+| damagetype = summon
+| knockback = 2
+| stack = 1
+| rare = 5
+| sell = {{value|0|7|20|0}}
+| use = 24
+| auto = yes
+| mana = 10
+| tooltip = Summons a shellfish to fight for you<br/>Takes up 2 minion slots
+| hardmode = yes
+| buff = Shellfish (buff) | bufflink= no
+| bufftip = The shellfish will protect you
+| debuff = Shellfish Claps | debufflink = no
+| debuffchance = 100%
+| debufftip = Clamfest
+| element1 = Water
+| element2 = Smash
+}}
+|{{item drops infobox
+| [[Giant Clam]] (In [[Hardmode]])|1|25%
+}}
+}}
+{{summoned|Shellfish|type=minion}}
+
+The '''Shellfish Staff''' is a [[Hardmode]] [[summon weapon]] that drops from the [[Giant Clam]] [[mini boss]]. It summons a Shellfish that follows the player and attacks nearby [[enemies]] by attaching itself to them. Each Shellfish takes up 2 minion slots. Shellfish only deal direct damage when initially latching onto an enemy.  From there, it inflicts the '''Shellfish Claps''' [[debuff]] for as long as it remains attached to the enemy. The damage of this debuff is affected by minion damage bonuses, and has a base damage per second of 75 per shellfish attached to an enemy. Up to a max of 5 shellfish can cling to an enemy.
+
+{{Modifier|summon}}
+
+== Notes ==
+*The Shellfish Staff can additionally be obtained from [[Sunken Crate]]s at a 7% drop chance in Hardmode after the Giant Clam has been defeated.
+*Despite this weapon dealing damage via a debuff, it is still affected by the summon damage penalty.
+*If an enemy's defense value is higher than 9999 or has a damage reduction of 99.99%, the Shellfish Claps debuff will have no effect.
+
+== Tips ==
+*Due to its high base damage, this weapon synergizes well with [[Luxor's Gift]], because the projectile it fires will deal considerably higher damage than it would from other summoner weapons that are attainable at the same time as the Shellfish Staff.
+*It can cheese [[The Destroyer]] very efficiently when attached to his head. It will cause no [[Probe]]s to spawn, as it is a debuff. However, keep in mind that the fight needs to start almost immediately at night, as it can take a lot of time, and if the fight isn't started quickly enough, The Destroyer could escape or enrage at dawn.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

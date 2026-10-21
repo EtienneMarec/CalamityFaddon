@@ -1,0 +1,50 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 50
+| knockback = 7
+| use = 16
+| velocity = 9
+| tooltip = Fires angled shots in the direction of the cursor<br/>Can only be shot in a cone direction above the player<br/>High IQ required
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| debuffduration = 4 seconds (Blast)<br/>3 seconds (Droplet)
+| debuff2 = Sulphuric Poisoning
+| debuffchance2 = 100%
+| debufftip2 = The acidic water burns away your flesh
+| debuffduration2 = 4 seconds (Blast)
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|7|20}}
+| proj = Flak Shot.png
+| projcaption = Flak Shot
+| proj2 = Acid Droplet.png
+| proj2caption = Acid Droplet
+| element1 = Poison
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Flak Crab]] | 1 | 5%
+}}
+}}
+
+The '''Flak Toxicannon''' is a [[Hardmode]] [[ranged weapon]] that drops from [[Flak Crab]]s. When used, it fires sulphur cross blasts that explode after traveling a short distance or after contacting a block or [[enemy]]. When a sulphur cross explodes, it releases up to three acid rain droplets that damage enemies. Attempting to fire this weapon to the side or below will cause the Flak Toxicannon to not fire at all. Unlike most ranged weapons, the Flak Toxicannon does not require ammo to fire.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon can also be obtained from the [[Abyssal Crate]] after completing Tier 2 [[Acid Rain]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

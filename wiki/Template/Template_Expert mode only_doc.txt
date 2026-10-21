@@ -1,0 +1,12 @@
+Add this to the top of pages which describe stuff that is only obtainable in Expert Mode.
+
+== Usage ==
+Input {{code|<nowiki>{{expert mode only|nocat=y}}</nowiki>}} to put it on sections, or simply if you want it not to add the page to the Expert Mode content category.
+
+<includeonly>
+[[Category:Banner templates]]
+[[Category:Notice templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

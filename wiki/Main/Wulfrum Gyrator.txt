@@ -1,0 +1,33 @@
+{{npc infobox
+| imagealt = <Tabber>
+Default=[[File:Wulfrum Gyrator.png]]
+|-|
+Supercharged=[[File:Wulfrum Gyrator (Supercharged).png]]
+</Tabber>
+| environment = Surface
+| type = Enemy
+| ai = Wulfrum Gyrator AI
+| life = {{dv|18|36}}
+| damage = {{dv|15|30}}
+| defense = 5
+| knockback = 14%
+| money = {{value|0|0|1|15}}
+| Wulfrum Bar | 1-2 | 100%
+| custom | {{item|Energy Core|note=(While supercharged)|wrap=y}} | 100%
+| Wulfrum Battery | 1 | 7%
+| banner = yes
+| immune1 = Kami Flu
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| resistant1 = Machine
+| vulnerable1 = Smash
+}}
+
+The '''Wulfrum Gyrator''' is a [[Pre-Hardmode]] [[enemy]] found on the [[Surface]] during daytime. It is also summoned by the [https://calamitymod.fandom.com/wiki/Wulfrum_Excavator Wulfrum Excavator] [[boss]] in [[Expert Mode]] upon it transitioning to a new phase. Initially, it remains in one place, jumping periodically. When it detects a player, it attacks by rolling quickly and jumping towards them.
+
+It can be supercharged by the [[Wulfrum Pylon]] enemy, causing its lights to turn from green to blue and increasing their speed and jump height.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

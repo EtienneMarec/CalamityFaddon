@@ -1,0 +1,157 @@
+<section begin=npc infobox />{{npc infobox
+| type = Boss
+| name = Astrum Aureus
+| imagealt = [[File:Astrum Aureus.png|320px]]
+| environment = Astral Infection
+| ai = Astrum Aureus AI
+| damage = '''Contact:'''<br/>{{dv|80|176|198|209}}<br/>'''Laser:'''<br/>{{dv|74|128|148|160}} (pre-[[Moon Lord]])<br/>{{dv|148|256|296|320}} (Godseeker Mode)<br/>'''Crystal:'''<br/>{{dv|80|140|160|172}} (pre-[[Moon Lord]])<br/>{{dv|160|280|320|344}} (Godseeker Mode)
+| life = {{dv|89,200|142,720|171,200}} (pre-[[Moon Lord]])<br/>{{dv|243,750|390,000|468,000}} (Godseeker Mode)
+| defense = 40
+| dr = 50
+| knockback = 100
+| money = {{value|0|15|0|0}} (pre-[[Moon Lord]])<br/> {{value|0|25|0|0}} (Godseeker Mode)
+| debuff = Astral Infection (debuff)
+| debuffchance = 100%
+| duration = 1 second (Lasers)<br/>2 seconds (Crystals)<br/>3 seconds (Contact)
+| debufftip = Your flesh is melting off
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Astral Infection (debuff)
+| immune4 = Poisoned
+| Soul of Bright|{{dv|20-40|35-50}}|100%
+| Hallowed Key|1|20%
+| Aureus Cell|{{dv|9-12|12-16}}|100%
+| Stardust|{{dv|20-30|30-40}}|100%
+| Fallen Star|{{dv|18-24|20-30}}|100%
+|group|At least one of the following 5 weapons will always drop:|5
+| Alula Australis|1|{{dv|25%|33.33%}}
+| Aurora Blazer|1|{{dv|25%|33.33%}}
+| Auroradical Throw|1|{{dv|25%|33.33%}}
+| Borealis Bomber|1|{{dv|25%|33.33%}}
+| Nebulash|1|{{dv|25%|33.33%}}
+| Gravistar Sabaton|1|100%
+| custom| {{item|Suspicious Looking Jelly Bean|note=(After defeating [[Moon Lord]])|wrap=y}}|100%
+| Leonid Progenitor|1|10%
+| Supreme Healing Potion|5-15|100%
+| Astrum Aureus Mask|1|14.29%
+| Astrum Aureus Trophy|1|10%
+| custom| {{item|Astrum Aureus (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Astrum Aureus)|Treasure Bag|note=(Astrum Aureus)|wrap=y}}
+: • {{item|Starlight Fuel Cell|note=(in [[Revengeance Mode]] only)|wrap=y}}|{{expert|100%}}
+| hardmode = yes
+| postml = yes
+| image2 = Astrum Aureus map.png
+| image2caption = Map Icon
+| boxwidth = 29em
+| hurt = AstrumAureusHit.wav
+| killed = NPC_Killed_14.wav
+| sound = Item_109.wav
+| soundtext = Crystal and Teleport
+| sound2 = Item_33.wav
+| sound2text = Laser
+| sound3 = LegStomp.wav
+| sound3text = Stomp
+| resistant1 = Poison
+| resistant2 = Magic
+| resistant3 = Slash
+| resistant4 = Machine
+| vulnerable1 = Water
+| vulnerable2 = Fire
+| vulnerable3 = Stab
+}}<section end=npc infobox />
+[[File:Astrum Aureus Trophy.png|25px]] <big>''"A titanic cyborg infected by a star-borne disease..."''</big> [[File:Astrum Aureus Trophy.png|25px]]
+{{distinguish|Astrum Deus|a similarly-themed worm-like boss}}
+
+'''Astrum Aureus''' (Japanese: 黄色ブドウ球菌 ''Kiirobudōkyūkin'') is a [[Hardmode]] Mode [[boss]]. Defeating it causes an [[Astral Infection]] meteor to fall somewhere in the world.
+
+After defeating the [[Moon Lord]], Astrum Aureus increases substantially in difficulty, with boosted health and damage, and drops a new [[mount]].
+
+== Spawn ==
+Astrum Aureus does not spawn on its own and must be summoned by gathering the [[Famine Slime]], [[Pestilent Slime]], [[War Slime]], and [[Death Slime]] within a 10 block radius of the player. Once all four are close enough, the slimes will explode and Astrum Aureus will slam downwards.
+
+{{dei}} In the Deimos, the Starborn Princess addon, Astrum Aureus is instead spawned by using an [[Astralination]] in the [[Astral Infection]] during the night time. Uniting a [[Famine Slime]], [[Pestilent Slime]], [[War Slime]], and [[Death Slime]] will instead create an [[Apocalyptic Slime Statue]].
+
+== Behavior ==
+When first summoned, Astrum Aureus will be in its recharging phase, indicated by the lack of astral flames. While recharging, Astrum Aureus deals no contact damage and has no defense. After several seconds, its flames will ignite and it will begin to attack the player, cycling through a specific attack pattern before re-entering its recharging phase and repeating the attack cycle. The time it spends in its recharging phase decreases as its life decreases. All of its attacks inflict the [[Astral Infection (debuff)|Astral Infection]] [[debuff]].
+
+If Astrum Aureus is alive when it becomes daytime, it will enrage, drastically increasing the speed it moves and jumps and completely removing its recharging phase.
+
+==Attacks==
+*Crawls toward the player, firing pairs of lasers at them. Astrum Aureus will fire eight laser blasts before transitioning to its next attack.
+**During this attack, Astrum Aureus can swim through blocks.
+**The number of lasers fired per blast increases as Astrum Aureus loses HP, up to 4.
+*Makes a far and tall jump towards the player. If the player moves under it, it slams down, changing its horizontal speed to try to land on them. When Astrum Aureus lands, it fires a laser blast at the player. Astrum Aureus performs this attack three times before returning to its recharging phase and repeating this attack cycle.
+*If Astrum Aureus is below 75% life, before returning to its recharging phase, it will instead stand still and fire two consecutive {{item|Astral Crystal|nolink=yes|ext=gif|size=16px|Astral Flame Crystals}} upwards, then teleport close to the player. These Flame Crystals home in on the player after two seconds and, after three more seconds pass or they get close to the player, lose their homing ability and gradually accelerate, eventually flying off screen.
+**Astrum Aureus is in its recharging phase when it teleports, preventing it from hitting the player when it does so.
+*Below 50% HP, cycles through all attacks 50% faster.
+
+=== In [[Expert Mode]] ===
+*Gains the ability to jump through blocks.
+*Gains movement and jump speed as its life decreases.
+*Time spent in its recharging phase decreased.
+*Starts firing sets of four Astral Flame Crystals at 80% life, which increases as Astrum Aureus loses life.
+*Below 40% HP, summons two [[Aureus Spawn]]s before it teleports. Aureus Spawns float towards the player and fire homing {{item|Astral Crystal|nolink=yes|ext=gif|size=16px|Astral Flame Crystals}}, occasionally teleporting to a random nearby location. However, after they are reduced to 60% life, they rapidly but loosely home in on the player, exploding after they hit the player or a solid block or after 10 seconds pass. Only 2 Aureus Spawns may be active at a time.
+
+=== In [[Revengeance Mode]] ===
+*Movement speed is increased, increasing even more as its life decreases.
+*Gains jump height the further up the player is from it.
+*Time spent in its recharging phase decreases even further as its life decreases.
+*Fires many more Astral Flame Crystals.
+*Starts summoning Aureus Spawns at 80% HP.
+*Below 30% HP, starts making multiple short hops before jumping at the player.
+
+=== In [[Death Mode]] ===
+*Starts off firing 3 lasers per burst, increasing up to 6.
+*Starts firing Astral Flame Crystals and summoning Aureus Spawn at 85% HP.
+*Loses 1% of its maximum HP every time it summons an Aureus Spawn.
+*Aureus Spawn now actively attack the player by firing additional homing Astral Flame Crystals.
+*Lasers are fired in much wider spreads.
+
+=== Summons ===
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align = center |{{item|mode=table|Aureus Spawn}} || In [[Expert Mode]] or in the [[Boss Rush]]
+|}
+
+== Aftermath ==
+*Another [[Astral Meteor]] will spawn in the world (under the right [[Astral Infection#Conditions|conditions]]).
+*The [[Biome Chest|Astral Chest]] will be unlockable in the [[Dungeon]].
+*Several Astral Infection enemies will become stronger and drop unique items:
+**The [[Mantis]] will now drop the [[Astral Scythe]].
+**The [[Atlas]] will now drop the [[Titan Arm]].
+**The [[Nova]] will begin to drop the [[Stellar Cannon]].
+***They will also drop [[Comet Shard]]s upon charging into [[Astral Ore]].
+**The [[Aries]] will begin to drop the [[Stellar Knife]].
+**The [[Astralachnea]] will begin to drop the [[Astralachnea Staff]].
+**The [[Astral Slime]] will begin to drop the [[Abandoned Slime Staff]].
+**The [[Hive (enemy)|Hive]] will begin to drop the [[Hive Pod]].
+**The [[Hadarian]] will begin to drop [[Hadarian Membrane]]s.
+**The [[Stellar Culex]] will begin to drop the [[Starbuster Core]].
+*[[Astral Crate]]s will contain [[Aureus Cell]]s, [[Astral Injection]]s, [[Gravity Normalizer Potion]]s, and several items dropped by Astral Infection enemies.
+
+== Notes ==
+*Be careful straying too far from it (such as flying too high altitudes), as Astrum Aureus will despawn if it cannot teleport to the player.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating Astrum Aureus, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, as well as a more in-depth breakdown of the fight, see [[Guide:Astrum Aureus strategies]].}}
+
+=== General ===
+*Moving in a semi-circle around Astrum Aureus while it fires lasers can help the player successfully avoid them.
+*The astral flame crystals gain increased velocity and homing capabilities the closer they are to the player, making it essential that the player keeps their distance from them until they launch away.
+*In Revengeance Mode, avoid damaging the Aureus Spawns. They are initially harmless and will only attempt to harm the player if they take enough damage.
+
+== Trivia ==
+*Astrum Aureus's [[Music|theme]] is [https://www.youtube.com/watch?v=-NKaXqLhN3c '''Interstellar Stomper'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' will play instead.
+*Astrum Aureus replaces a removed boss, the [[Astrageldon Slime]], which was a boss that fought much like the [[King Slime]] but was twice as big and emitted lasers in bursts at the player.
+**Prior to Interstellar Stomper's implementation, Astrum Aureus's theme was [https://www.youtube.com/watch?v=ibFdltiLuKM '''Cosmic Disgust'''], which was originally intended for the Astrageldon Slime. This is why the theme's introduction contains a motif from [[The Slime God]]'s theme.
+*Astrum Aureus's name roughly translates to "golden star" in Latin, although its name is actually a reference to an infectious bacteria named ''[[wikipedia:Staphylococcus_aureus|Staphylococcus aureus.]]''
+*Astrum Aureus's design was inspired by [https://metroid.fandom.com/wiki/Security_Robot_B.O.X. Security Robot B.O.X.] from ''[[wikipedia:Metroid Fusion|Metroid Fusion]]'', as both their appearance and movements are similar, and are also both cyborgs that have been infected by a space infection.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "Astrum Aureus’ program has been executed. Initiate recall."
+*If the final hit on Astrum Aureus was dealt by the [[Abandoned Slime Staff|Astral Jelly minion]], a secret animation will play that reveals a miniature Astrageldon Slime controlling Astrum Aureus before being destroyed.
+[[File:Astrum Aureus Secret Kill.png|thumb|The mini Astrageldon Slime inside Astrum Aureus]]
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

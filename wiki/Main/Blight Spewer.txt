@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = ranged
+| damage = 110
+| knockback = 2
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| auto = yes
+| use = 30
+| velocity = 7.5
+| debuff = Plague
+| debuffduration = 4 seconds
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| hardmode = yes
+| image2 = Blight Spewer (tank).png
+| image2caption = Equipped tank
+| element1 = Poison
+| element2 = Fire
+| element3 = Machine
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Blight Spewer''' is a [[Hardmode]] [[flamethrowers|flamethrower]] that has a chance of dropping from [[The Plaguebringer Goliath]]. It shoots green flames in a large radius that inflict the [[Plague]] [[debuff]].
+
+Note that, unlike other flamethrowers, it lacks a chance to not consume gel meaning the player should make sure they do not run out of ammo at an inopportune time.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Flamethrowers]]

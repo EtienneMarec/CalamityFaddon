@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damage = 37
+| damagetype = Rogue
+| knockback = 2
+| velocity = 12
+| use = 12
+| auto = yes
+| tooltip = Stealth strikes last longer and summon petals on enemy hits
+| hardmode = yes
+| stack = 9999
+| rare = 4
+| sell = {{value|0|0|2|40}}
+| consumable = true
+| proj = Flower Petal.png
+| projcaption = Flower Petals
+| element1 = Poison
+| element2 = Stab
+}}
+
+'''Orichalcum Spiked Gemstones''' are craftable [[Hardmode]] [[daggers]] crafted from [[Orichalcum Bar]]s. They fire a pink colored knife, which travel a short distance before being affected by gravity. However, once it reaches the ground, it will roll further until it hits a wall or stops. The knives pierce up to 5 times before dissipating on the sixth hit. They have a 50% chance of being recovered after being thrown.
+
+Performing a [[stealth strike]] with an Orichalcum Spiked Gemstone will cause the projectile to pierce infinitely, last longer and spawn fast moving petals to fly from the side of the screen on each hit.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Daggers]]

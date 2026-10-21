@@ -1,0 +1,10 @@
+<includeonly>{| style="background-color: {{{bgcol|#333333}}}; border: 2px solid {{{linecol|#616161}}}; {{#if: {{{width|}}} | max-width: {{{width}}}; }}<!--
+-->{{#if: {{{mini|}}} | padding: 0px 6px 0px 1px; margin: 0 0 1em; | padding: 3px 12px 3px 7px; margin: 0 auto 1em; text-align:center; }} {{{css|}}}"
+|-
+| valign="middle" | {{#if: {{{icon|}}} | <div style="margin: 0 {{#if: {{{mini|}}} | 2 | 4 }}px 0 3px"> }}{{#if: {{{image|}}} | <div style="margin: 0 {{#if: {{{mini|}}} | 2 | 4 }}px 0 3px"> }}<!--
+-->{{#if: {{{icon|}}} | {{CommentSprite | {{{icon|}}} }} </div> }}{{#if: {{{image|}}} | [[File:{{{image}}}|{{#if: {{{imagesize|}}} | {{{imagesize}}} | {{#if: {{{mini|}}} | 16px | 32px }} }}|text-top]] </div> }}
+| {{#if: {{{title|}}} | '''{{{title}}}''' {{#if: {{{discuss|}}} | <sup>[[{{TALKPAGENAME}}|Discuss]]</sup> }} }}<!--
+-->{{#if: {{{text|}}} | {{#if: {{{title|}}} | <div>{{{text}}}</div> | {{{text}}} }} }}
+|}<!-- {{#ifeq: {{NAMESPACE}} | {{ns:10}} | [[Category:Notice templates]] }} # Other non-notice Template may include msgbox-based template for notice, So this may add cate unwanted. see Tempalte:lua and template:item.  --></includeonly><noinclude>
+
+[[Category:Notice templates|*]]</noinclude>

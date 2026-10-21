@@ -1,0 +1,28 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| stack = 1
+| rare = 7
+| sell = {{value|0|9|60}}
+| hardmode = yes
+| tooltip = You're the alpha now <br/>Increases all stats by 10%<br/>Increases armor penetration by 10</br>Summons a smart Sand Shark to protect you <br/> It can be controlled directly with the cursor while a summoning weapon is held, and will benefit from all minion bonuses
+| buff=Sand Shark (buff) | bufflink = no
+| bufftip=The Sand Shark awaits your command<br/>
+}}
+{{summoned|Sand Shark|name=Sand Shark|type=minion}}
+The '''Sand Shark Tooth Necklace''' is a [[Hardmode]] [[covering]] that drops from the [[Great Sand Shark]]. While equipped, all of the player's stats will increase by 10%, and their armor penetration is increased by 10. Additionally, a Sand Shark minion is summoned.
+Uniquely among minions, this Sand Shark will follow the cursor when a summoning weapon is held, allowing the player to directly control it. 
+
+Pressing the Shark Recall key will make the Sand Shark return to your side, even when a summoning weapon is held.
+
+==Crafting==
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Grand Scale}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

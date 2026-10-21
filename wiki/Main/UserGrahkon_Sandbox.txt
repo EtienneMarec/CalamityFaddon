@@ -1,0 +1,53 @@
+
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 251
+| knockback = 13
+| rare = 15
+| sell = {{value|0|26}}
+| stack = 1
+| auto = yes
+| use = 21
+| velocity = 12
+| tooltip = Swings a Galaxial Zweihander <br/>Hitting enemies will inflict the Stratus Cleave debuff<br/>While Held, Dashing transforms you into pure Stratus energy, which causes you to perform a Devastating Ram dash with extra immunity frames
+| debuff = Moon Burnt
+| debufftip = Incinerated by lunar rays
+| debuffchance = 100%
+| debuffduration = 3 seconds (Crescents)
+| debuff2 = Stratus Cleave
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds (True Melee)<br> 4 seconds (Dash)
+| debufftip2 = Defence and Immunities Exposed to the Vaccum of Space
+| hardmode = yes
+| postml = yes
+| proj = Zweihandromeda Swing.gif
+| projcaption = Zweihandromeda
+| proj2 = Stratus Dash (projectile).gif
+| proj2caption = Stratus Dash
+| proj3 = Crescent.png
+| proj3caption = Crescent
+| element1 = Magic
+| element2 = Dark
+| element3 = Slash
+}}
+
+'''Zweihandromeda''' is a craftable Godseeker Mode [[broadsword]] that autoswings. 
+
+While Held, dash velocity and length is increased by 50%, Dash Cooldown is reduced by 33%, and... Dashing transforms you into pure Stratus energy...
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result=Zweihandromeda}}
+
+== Trivia ==
+*The name of the item refers to the Andromeda Galaxy
+**unintentionally, the name also references Handromeda from ''Deltarune - The Upper Hand''
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

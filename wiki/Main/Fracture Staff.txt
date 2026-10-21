@@ -1,0 +1,36 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 43
+| mana = 10
+| knockback = 5
+| use = 18
+| tooltip = Summons a fractal crawler to fight for you
+| buff = Fractal Crawler (buff) | bufflink = no
+| bufftip = The fractal crawler will protect you
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|2|40}}
+| element1 = Holy
+| element2 = Stab
+}}
+{{summoned|Fractal Crawler|type=minion}}
+
+The '''Fracture Staff''' is a craftable [[Hardmode]] [[summon weapon]]. When used, it summons a Fractal Crawler which jumps at enemies and spawns gravity-affected crystals upon enemy hits that deal 20% of the minion's damage.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{fracture}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

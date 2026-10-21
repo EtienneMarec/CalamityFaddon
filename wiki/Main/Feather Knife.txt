@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+|consumable = true
+| damage = 25
+| tooltip = Throws a knife which summons homing feathers<br/>Stealth strike throws a volley of knives
+| auto = yes
+| use = 10
+| knockback = 2
+| velocity = 25
+| stack = 9999
+| rare = 3
+| sell = {{value|0|0|0|60}}
+| proj = Sticky Feather.png
+| projcaption = Sticky Aero Feather
+| element1 = Holy
+| element2 = Stab
+}}
+
+'''Feather Knives''' are craftable [[Pre-Hardmode]] [[daggers]]. They throw gravity affected knives that periodically release homing explosive feathers. The feather and explosion deal 5% and 50% of the weapon’s damage respectively. Additionally, one extra feather is released on enemy hits which deals twice as much damage.
+
+Performing a [[stealth strike]] with Feather Knives will cause five knives to be thrown instead of one.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Aerialite}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

@@ -1,0 +1,34 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 1
+| auto = yes
+| knockback = 0
+| velocity = 30
+| use = 35
+| stack = 1
+| tooltip = Casts a spread of Profaned Arrows which reduce enemy defense
+| rare = 11
+| sell = {{value|0|22}}
+| hardmode = yes
+| postml = yes
+| element1 = Fire
+| element2 = Dark
+| element3 = Slash
+}}
+|{{item drops infobox
+| [[Profaned Guardians]] | 1 | 25%
+}}
+}}
+[[File:Relic of Ruin (demo).gif|frame|The Relic of Ruin's multiple spinning projectiles, which home in on the [[Super Dummy]] when the blades are close enough to them.]]
+The '''Relic of Ruin''' is a Godseeker Mode [[classless weapon]]. When used, it fires out 12 profaned arrows in a circle from the player, which home in on nearby enemies which inflict [[Ichor (debuff)|Ichor]] and [[Marked]]. The arrows are grouped roughly in pairs, with each pair being varying distances apart, and fly away from the player while synchronously alternating between very high speed to very low speed, rather than a continuous motion. The blades neither pierce nor pass through blocks.
+
+{{Modifier|none}}
+
+{{-}}
+== Trivia ==
+*It is the only relic that doesn't end in "ence".
+{{Master Template Weapons
+|show-main=yes
+|show-classless=yes
+}}

@@ -1,0 +1,29 @@
+{|align=right
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| use = 14
+| auto = yes
+| sell = No value
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| color = #5D4E6B
+| hardmode = yes
+}}
+|}
+
+'''Astral Sandstone''' is a [[Hardmode]] [[block]] which replaces [[Sandstone Block]]s in the [[Astral Infection]] [[biome]] upon its creation.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

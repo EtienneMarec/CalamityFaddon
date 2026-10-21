@@ -1,0 +1,40 @@
+{{item infobox	
+| type = Weapon
+| damage = 180
+| damagetype = Melee
+| knockback = 8
+| stack = 1
+| rare = 14
+| sell = {{value|0|36}}
+| auto = yes
+| use = 18
+| velocity = 21
+| tooltip = Shoots an essence scythe that generates healing spirits on enemy kills
+| debuff = God Slayer Inferno
+| debufftip = Your flesh is burning off
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| hardmode = yes
+| postml = yes
+| proj = Essence Scythe.png
+| projcaption = Essence Scythe
+| element1 = Magic
+| element2 = Dark
+| element3 = Slash
+}}
+
+The '''Essence Flayer''' is a craftable Godseeker Mode [[melee weapon]]. When swung, it creates scythe projectiles at a medium range that travel through walls and deal continuous damage for a few seconds. Its projectiles have a weak homing ability. When enemies are killed by the projectiles, healing essence flames are created which [[Lifesteal|restore]] 8 health to the player on contact.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Cosmilite}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Healing items]]

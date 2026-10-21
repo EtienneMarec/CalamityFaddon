@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 480
+| knockback = 7.75
+| rare = 10
+| sell = {{value|0|20}}
+| stack = 1
+| auto = yes
+| use = 24
+| velocity = 12
+| tooltip = Summons a swarm of lunar flares from the sky on enemy hits
+| hardmode = yes
+| postml = yes
+| proj = Lunar Flare (projectile).gif
+| projcaption = Lunar Flare
+| element1 = Magic
+| element2 = Dark
+}}
+
+The '''Stellar Striker''' is a craftable Godseeker Mode [[broadsword]] that is a direct upgrade of the [[Comet Quasher]]. Every time the sword strikes an enemy, two lunar flares fall from the sky towards the cursor, which explode upon contact with enemies or upon hitting tiles that are below the cursor. Each flare deals equal damage to the sword strike which spawned it.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{PureLuminite}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]

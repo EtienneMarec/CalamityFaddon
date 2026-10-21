@@ -1,0 +1,1 @@
+<includeonly>'''{{{1|}}}:&nbsp;'''{{#ifeq:{{{default|}}}|yes|<abbr title="This gadget is enabled by default.">''Default gadget''</abbr>.&nbsp;}}{{{2|}}}<sup><nowiki>[</nowiki>''[[MediaWiki:Gadget-{{{3|}}}.js|source]]{{#if:{{{css|}}}|&nbsp;{{!}}&nbsp;[[MediaWiki:Gadget-{{{3|}}}.css|css]]}}''<nowiki>]</nowiki></sup></includeonly><noinclude>{{doc}}</noinclude>

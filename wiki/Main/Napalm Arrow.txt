@@ -1,0 +1,31 @@
+{{item infobox
+| type = Ammunition
+| damage=14
+| damagetype=ranged
+| stack = 9999
+| consumable = yes
+| knockback=1.5
+| sell={{value|0|0|0|12}}
+| rare=3
+| velocity=13
+| tooltip = Explodes into fire shards
+| hardmode = yes
+| listcat = arrows
+| debuff = On Fire!
+| debuffchance = 100%
+| debufftip = Slowly losing life
+| debuffduration = 3-6 seconds (Fire shards)
+| proj = Flaming Shard.gif
+| projcaption = Flaming Shard
+}}
+
+'''Napalm Arrows''' are craftable [[Hardmode]] [[arrows]] that explode into several shards and flames upon hitting an enemy; the flames linger before dissipating, dealing contact damage and inflicting [[On Fire!]] to any enemy that passes over them.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Consumables
+|show-main=yes
+|show-ammo=yes
+}}

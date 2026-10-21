@@ -1,0 +1,23 @@
+{{item infobox
+| type = Crafting material
+| stack = 999
+| sell = {{value|0|3|0|0}}
+| hardmode = yes
+}}
+
+'''Enchanted Metal''' is a Godseeker Mode bar crafted using 3 [[Frozen Hellstone]] and one Obsidian at a Hellforge. It is used to craft [[Delicious Meat]], as well as a plethora of other items.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Enchanted Metal used to be sold by the [[Archmage]] before [[Frozen Hell]] existed.
+**There was a period of time after this where the item was removed completely, before being re-added by popular demand.
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

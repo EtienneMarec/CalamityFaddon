@@ -1,0 +1,9 @@
+This template calls {{tl|Tl}}, returning an exemplaric use of a template. Unlike {{t|Tl}}, the template is '''not''' linked. As you can see below, spaces within the parameters can be used to affect the display.<br/>
+
+Comparison:<br/>
+<nowiki>{{t|item infobox|name=Wood}}</nowiki> ==> {{t|item infobox|name{{=}}Wood}}<br/>
+<nowiki>{{tl|item infobox|name=Wood}}</nowiki> ==> {{tl|item infobox|name{{=}}Wood}}
+
+<includeonly>
+[[Category:Formatting templates]]
+</includeonly>

@@ -1,0 +1,371 @@
+{{Patch infobox
+| image = Supreme Calamitas (1.1.7.961).png
+| patchname = Supreme Calamitas Overhaul
+| release = 9/24/2017
+}}
+The '''1.2.1.001''' update overhauled the [[Supreme Calamitas]] fight and added a new phase to [[Jungle Dragon, Yharon]]'s fight. It also rebalanced most Godseeker Mode [[weapons]], removed boss DPS caps, and added several [[vanilla item recipes]].
+{{toc limit|3|right=yes}}
+== Additions ==
+*Added [[Plague Mine]].
+*Added [[Holy Inferno]].
+
+== Changes ==
+
+=== [[Bosses]] ===
+
+==== General ====
+*All legendary weapon drop chances for specific bosses have been increased from {{dv|0.2%|0.22%}} in Prehardmode, {{dv|0.33%|0.4%}} in Hardmode, and {{dv|2%|2.5%}} post-Moon Lord to {{dv|2%|2.5%}} at all times.
+
+==== [[Astrum Deus]] ====
+*Buffed head's contact damage from {{dv|110|330}} to {{dv|120|360}}.
+*Buffed body's contact damage from {{dv|75|120}} to {{dv|95|152}}.
+*Now uses its own laser projectiles instead of The Devourer of Gods' Nebula Shots.
+*Increased laser spread.
+*Now has a limit of 6 free [[Astrum Deus Probe]]s instead of 3.
+*Buffed Astrum Deus Probe variant 1 and 2's contact damages from {{dv|75|105}} to {{dv|95|133}}.
+*Astrum Deus Probe variant 2 now fires a mine every 3 seconds instead of 5.
+*Buffed free Astrum Deus Probe's contact damage from {{dv|50|70}} to {{dv|80|112}}.
+*Can now drop [[Hallowed Key]]s. <!---20% chance--->
+
+==== [[Bumblebirb]] ====
+*Buffed health from {{dv|190,000|285,000}} to {{dv|350,000|525,000}}, nerfed its base contact damage from {{dv|400|600}} to {{dv|350|525}}, and nerfed its dash's damage from {{dv|26,640|39,960}}<!---This is not an error---> to {{dv|350|525}}.
+*Buffed clone health from {{dv|30,000|45,000}} to {{dv|70,000|105,000}}, and their contact damage from {{dv|225|337}} to {{dv|250|375}}.
+*Clones no longer drop any money or global NPC drops such as [[Biome Key]]s.
+
+==== [[Ceaseless Void]] ====
+*[[Dark Energy|Dark Energies]] now gain 100% knockback resistance when below 33% health.
+*Nerfed Dark Energy variant 3's base knockback resistance from 85% to 70%.
+
+==== [[Cryogen]] ====
+*Buffed Ice Blast damage from {{dv|48|80}} to {{dv|56|88}}.
+*Buffed Ice Rain damage from {{dv|36|60}} to {{dv|44|68}}.
+*Can now drop [[Frozen Key]]s. <!---20% chance--->
+
+==== [[The Destroyer]] ====
+*Body segments now fire lasers more often as its health lowers in Revengeance Mode.
+*Frost beams now inflict [[Glacial State]].
+*Now takes 16.67% damage from [[Bee Cloak]], [[Holy Arrow]]s, [[Star Cloak]], and [[Star Veil]] stars instead of 33% in Revengeance Mode.
+*Now forces all projectiles to penetrate at most 2 times instead of 3 in Revengeance Mode.
+
+==== [[The Devourer of Gods]] ====
+*Nerfed health from {{dv|650,000|1,040,000|1,120,000}} to {{dv|610,000|976,000|1,000,000}}.
+*Removed DPS cap.
+*Increased health of the second Devourer of Gods.
+*"Nothing personal, kid", and buffed seasonal moon status messages now have periods.
+
+==== [[Eye of Cthulhu]] ====
+*Now increases Stress by 6 instead of 5 if it hasn't been defeated prior.
+
+==== [[Golem]] ====
+*Staus messages now have periods.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Nerfed health from {{dv|1,150,000|1,840,000|2,080,000}} to {{dv|780,000|1,248,000|1,280,000}}, buffed his contact damage from {{dv|450|720}} to {{dv|500|800}}, and nerfed his defense from 260 to 200.
+*Now gains a new phase after defeating a buffed [[Mothron]] which activates once Yharon reaches 3% health. Yharon will gradually heal to 50% health and gain a new set of attacks.
+*Increased the amount of health needed for Yharon to transition to another phase.
+*Flarenadoes are now larger, and last for 5 seconds instead of 10.
+*Infernadoes are now larger, and last for 5 seconds instead of 6.67.
+*Giga Flares now last for 5 seconds and no longer spawn Phoenix Fire on death.
+*Now takes up 40 NPC slots instead of 20.
+*Removed DPS cap.
+*Buffed [[Solar Eclipse]] status message now has a period.
+
+==== [[Lunatic Cultist]] ====
+*Nerfed Revengeance Mode health multiplier from {{dv|0|0|15x}} to {{dv|0|0|8x}}.
+*Decreased player damage taken multiplier from 1.5x to 1.39x.
+
+==== [[Moon Lord]] ====
+*Core now has a {{dv|0|0|1.3x}} health multiplier in Revengeance Mode.
+*Hand and forehead eyes now have a {{dv|0|0|1.2x}} health multiplier in Revengeance Mode.
+*All parts are no longer affected by [[Stress]]' illusion effect.
+*Now causes the player to take 1.25x damage from all sources while active.
+*Curse of the Eldritch status message now has a period.
+
+==== [[The Plaguebringer Goliath]] ====
+*No longer rains down a shower of missiles when despawning if lead out of the [[Jungle]].
+*Now able to spawn Plague Mines in Revengeance Mode when spawning enemies.
+*Stronger stingers are now fired half as often.
+*Stronger stingers are now faster and last for 20 seconds instead of 10.
+*Stingers are now smaller and no longer produce dust.
+
+==== [[Plantera]] ====
+*Can now drop [[Jungle Key]]s. <!---20% chance--->
+*Leviathan status message now has a period.
+
+==== [[Polterghast]] ====
+*Nerfed health from {{dv|465,000|744,000|800,000}} to {{dv|335,000|536,000|560,000}}.
+*No longer has a DPS cap.
+*Tweaked specialized damage resistance formula.
+
+==== [[Profaned Guardians]] ====
+*Nerfed the main guardian's health from {{dv|120,000|192,000}} to {{dv|80,000|128,000}}, buffed its contact damage from {{dv|130|208}} to {{dv|140|224}}, and nerfed its defense from 88 to 50.
+*Nerfed the defense guardian's health from {{dv|50,000|70,000}} to {{dv|30,000|42,000}}, and its defense from 88 to 40.
+*Nerfed the healer guardian's health from {{dv|34,000|47,600}} to {{dv|20,000|28,000}}, its contact damage from {{dv|110|154}} to {{dv|90|126}}, and its defense from 88 to 25.
+*Healer guardian's orbs now last for 5 seconds instead of 10.
+
+==== [[Providence, the Profaned God]] ====
+*Nerfed health from {{dv|270,000|432,000|480,000}} to {{dv|235,000|376,000|400,000}}, and her defense from 120 to 50.
+*Added a new phase where Providence enters her cocoon stage and will shoot out Holy Spears towards the player while more Holy Spears spawn nearby and move horizontally.
+*Decreased contact damage boosts based on guardians alive.
+*Now inflicts Holy Inferno onto players far enough away from her.
+*Now takes up 35 NPC slots instead of 20.
+*Tweaked specialized damage resistance formula.
+*Removed DPS cap.
+*Nerfed offensive guardian's health from {{dv|70,000|98,000}} to {{dv|50,000|70,000}}, and its defense from 58 to 30.
+*Nerfed defense guardian's health from {{dv|50,000|70,000}} to {{dv|40,000|56,000}}, and its defense from 88 to 40.
+*Nerfed healer guardian's health from {{dv|30,000|42,000}} to {{dv|20,000|28,000}}, and its defense from 38 to 30.
+*Guardian negative healing orbs now last for 5 seconds instead of 10.
+*Guardians now despawn if Providence is defeated or despawns.
+*Reduced the coin drop amounts for each guardian from {{gc|10}} each to {{gc|5}} each.
+*Buffed [[Dungeon]] status message now has a period.
+
+==== [[Ravager]] ====
+*Nerfed free head's health from 5000 to 100, and its defense from 99,999 to 0.
+*Free head is now invincible.
+*Body now uses NPCHit8 for its hit sound instead of NPCHit4.
+*Claws now detach after being killed and will attempt to ram into the player.
+
+==== [[Siren and Leviathan]] ====
+*Nerfed The Leviathan's health from {{dv|0|0|88,000}} to {{dv|0|0|72,000}}.
+*Buffed The Siren's health from {{dv|21,000|33,600|40,000}} to {{dv|30,000|48,000|52,800}}.
+
+==== [[Supreme Calamitas]] ====
+*Nerfed health from {{dv|2,500,000|4,000,000|4,320,000}} to {{dv|1,400,000|2,240,000|2,400,000}}, and her contact damage from {{dv|800|1280}} to {{dv|300|480}}.
+*Buffed Brimstone Hellblast damage from 220 to 300.
+*Changed Brimstone Fireblast, Barrage, and Giga Blast damages from {{dv|320|600}} to {{dv|360|500}}, and they are now fired twice as often.
+*Completely overhauled the fight.
+**Supreme Calamitas will now summon two large tornadoes at a somewhat far horizontal distance from the player.
+**The fight now consists of several bullet hell segments where Supreme Calamitas becomes invincible and various projectiles are shot from offscreen with different types spawning during each segment. In between these segments, Supreme Calamitas uses her old behavior of directly shooting different projectiles at the player and occasionally charging.
+*All projectiles now have a red color filter.
+*Brimstone Barrage projectiles are now slower, last for 5 seconds instead of 10, and can pass through blocks.
+*Increased Brimstone Hellblast speed.
+*No longer has a DPS cap.
+*Now has dialogue upon defeating her depending on if she is killed in Normal or Expert Mode.
+*Tweaked specialized damage resistance formula.
+*Now takes up 50 NPC slots instead of 15.
+*Can no longer despawn unless all players have been killed.
+*Brother changes:
+**Nerfed health from 500,000 to {{dv|300,000|480,000}}, and defense from 99,999 to 150.
+**Nerfed diagonal Brimstone Hellblast damage from {{dv|280|480}} to {{dv|250|360}}, and verticle Brimstone Hellblast damage from {{dv|0|480}} to {{dv|0|400}}.
+**No longer instantly despawn if Supreme Calamitas is defeated or despawns.
+**No longer inflict [[Vulnerability Hex]] on contact. <!---For 10 seconds--->
+**No longer shoot more often as Supreme Calamitas' health lowers, but have an increased base fire rate.
+*[[Soul Seeker]] changes:
+**Nerfed health from {{dv|100,000|140,000}} to {{dv|10,000|14,000}}, its contact damage from {{dv|300|420}} to {{dv|150|210}}, and its defense from 250 to 100.
+**Can now be homed in on.
+**Now summoned once Supreme Calamitas reaches 20% health instead of 25%.
+**20 are now spawned instead of 41.
+
+==== [[The Twins]] ====
+*Increased Revengeance Mode [[Spazmatism]]'s speed.
+
+==== [[Wall of Flesh]] ====
+*Buffed Revengeance Mode health multiplier from {{dv|0|0|1.8x}} to {{dv|0|0|1.9x}}.
+*Can now drop [[Corruption Key]]s in [[Crimson]] worlds, and [[Crimson Key]]s in [[Corruption]] worlds. <!---20% each--->
+
+=== Enemies ===
+*All enemies and most bosses can no longer drop legendary weapons.
+*Buffed [[BOHLDOHR]]'s damage from {{dv|120|204}} to {{dv|300|510}}.
+*[[Ice Golem]] frost beams now inflict Glacial State.
+*Reworked Plaguebringer Shade:
+**Renamed to [[Plaguebringer]].
+**Buffed health from {{dv|8000|11,200}} to {{dv|27,000|37,800}}.
+**Now naturally spawn in the [[Jungle]] after [[Golem]] has been defeated.
+**No longer have a transparency filter.
+**Now take up 8 NPC slots instead of 1.
+**Increased projectile speeds.
+**Now drops [[Plague Cell Canister]]s. <!---8 to 12 at a 100% rate--->
+*[[Stasis Probe]]s now take up 25 NPC slots instead of 4.
+
+=== [[Items]] ===
+*[[Ataxia armor]]'s on hit explosions now hit every 8 frames instead of setting target immunity frames to 6.
+*Melee Ataxia armor's flames now hit every 6 frames instead of setting target immunity frames to 4.
+*Changed the final line of [[Elemental Gauntlet]]'s tooltip from "Normal enemies will sometimes die instantly when critically hit with a melee weapon" to "Melee attacks have a chance to instantly kill normal enemies".
+*Nerfed [[Nebulous Core]]'s damage and critical strike chance boosts from 20% to 10%.
+*[[Revengeance]]'s tooltip now mentions Stress.
+*[[The Sponge]]'s tooltip now mentions that it grants the wearer 30 health and mana.
+*[[Stress Pills]] now reduce stress damage by 4 instead of 8.
+*Buffed [[Victide Breastplate]]'s defense from 4 to 5.
+*[[Yharim's Stimulants]] now increase damage reduction by 5% instead of 6%.
+
+==== [[Recipes]] ====
+*[[Adhesive Bandage]]s can now be crafted with 50 [[Gel]], 1 [[Greater Healing Potion]], and 10 [[Silk]] at a Hardmode Anvil.
+*[[Armor Polish]] can now be crafted with 3 [[Ancient Bone Dust]] and 50 [[Bone]]s at a Hardmode Anvil.
+*[[Bezoar]]s can now be crafted with 1 [[Murky Paste]], and 15 [[Stinger]]s at an Anvil.
+*[[Blindfold]]s can now be crafted with 30 Silk, and 5 [[Soul of Night|Souls of Night]] at a Hardmode Anvil.
+*[[Celestial Magnet]] can now be crafted with 20 [[Fallen Star]]s, 5 [[Soul of Light|Souls of Light]], 10 [[Soul of Might|Souls of Might]], and 5 Souls of Night at a Hardmode Anvil.
+*[[Fast Clock]]s can now be crafted with a [[1 Second Timer]], 15 [[Pixie Dust]], and 5 Souls of Light at a Hardmode Anvil.
+*[[Frozen Turtle Shell]]s can now be crafted with 9 [[Essence of Eleum|Essences of Eleum]] and 3 [[Turtle Shell]]s at a Hardmode Anvil.
+*[[Life Fruit]]s can now be crafted with 1 [[Living Shard]], 3 Souls of Light, and 3 Souls of Night at a Hardmode Anvil.
+*[[Megaphone]]s can now be crafted with 5 [[Hallowed Bar]]s, 3 [[Ruby|Rubies]], and 30 [[Wire]]s at a Hardmode Anvil.
+*[[Nazar]]s can now be crafted with 5 [[Lens]]es and 20 Souls of Night at a Hardmode Anvil.
+*[[Vitamins]] can now be crafted with 3 [[Beetle Juice]], 5 [[Blinkroot]]s, 1 [[Bottled Water]], 5 [[Daybloom]]s, and 5 [[Waterleaf|Waterleaves]] at a Hardmode Anvil.
+
+==== [[Weapons]] ====
+*All [[Legendary weapons]] no longer have damage and knockback that increases after certain bosses are defeated, and their right click abilities are no longer nerfed before a certain boss is defeated.
+*[[Aegis Blade]] changes:
+**Buffed damage from 9 to 37, buffed its knockback from 3.25 to 4.25.
+**No longer spawns sparks on true melee strikes.
+**Blast now lasts for 1.5 seconds instead of 2, and hits every 15 frames instead of a base of 10.
+*Nerfed [[Alluvion]]'s damage from 140 to 55.
+*Nerfed [[Alpha Ray]]'s damage from 125 to 38, and gave it the {{rare|14}} rarity instead of {{rare|13}}.
+*Nerfed [[Animus]]' random damage values from 2000, 4000, 8000, 16,000, and 36,000 to 1500, 2000, 4000, 8000, and 18,000 respectively.
+*Nerfed [[Apoctosis Array]]'s damage from 99 to 75.
+*Nerfed [[Ark of the Cosmos]]' damage from 380 to 250, and removed its random star damage.
+*Nerfed [[Ark of the Elements]]' damage from 210 to 125.
+*Buffed [[Arterial Assault]]'s shot speed from 22 to 33.
+*Nerfed [[Asteroid Staff]]'s damage from 200 to 80.
+*Nerfed [[Astreal Defeat]]'s damage from 142 to 93.
+*Nerfed [[Augur of the Elements]]' damage from 105 to 60, and gave it the {{rare|12}} rarity instead of {{rare|10}}.
+*Nerfed [[Azathoth]]'s damage from 250 to 80, and its increased the yoyo projectile's speed.
+*[[Baleful Harvester]]'s fire orbs are now invisible aside from the dust they produce.
+*Nerfed [[Banshee Hook]]'s damage from 210 to 105.
+*Nerfed [[Blissful Bombardier]]'s damage from 200 to 60.
+*[[Bloodfire Arrow]]s now heal the player for 1 health instead of 2.
+*Buffed [[Blossom Flux]]'s damage from 2 to 16, its Spore Bombs now deal 8x the weapon's damage instead of 5x, and increased their knockback from 5 to 60.
+*Nerfed [[Brimrose Staff]]'s damage from 32 to 27.
+*Buffed [[Briny Baron]]'s damage from 10 to 55, its left click use time from 29 to 19, its right click use time from 29 to 14, but its Razorwind Blades now deal 34% of the weapon's damage instead of 64%. 
+*Nerfed [[The Burning Sky]]'s damage from 140 to 90.
+*Buffed [[Charged Dart Blaster]]'s damage from 100 to 120, and added 5 [[Vortex Fragment]]s to its recipe.
+*Nerfed [[Chicken Cannon]]'s damage from 160 to 30, and its rockets now pierce 1 time instead of 5.
+*Buffed [[Claret Cannon]]'s shoot speed from 12 to 24, but its bullets now heal the player for 1 health instead of 2.
+*Nerfed [[Cleansing Blaze]]'s damage from 242 to 130.
+*Nerfed [[Clockwork Bow]]'s damage from 135 to 120.
+*Nerfed [[Contagion]]'s damage from 800 to 270.
+*Buffed [[Cosmic Discharge]]'s damage from 4 to 110.
+*Nerfed [[Cosmic Kunai]]'s damage from 105 to 65.
+*Nerfed [[Cosmilamp]]'s damage from 200 to 180.
+*[[Daedalus Stormbow]] now deals 25% less damage.
+*Nerfed [[Daemon's Flame]]'s damage from 140 to 90.
+*Nerfed [[The Dance of Light]]'s damage from 780 to 230.
+*Nerfed [[Deathhail Staff]]'s damage from 190 to 75.
+*Nerfed [[Deathwind]]'s damage from 240 to 165.
+*Nerfed [[Devastation]]'s damage from 250 to 91.
+*Nerfed [[Devil's Devastation]]'s damage from 400 to 270.
+*Nerfed [[Draconic Destruction]]'s damage from 500 to 115, and its main beam is now faster.
+*Nerfed [[Dragon Rage]]'s damage from 560 to 450.
+*Nerfed [[Dragon's Breath]]'s damage from 185 to 135.
+*Nerfed [[Effervescence]]'s damage from 110 to 48.
+*Nerfed [[Elemental Axe]]'s damage from 225 to 135, and gave it the {{rare|12}} rarity instead of {{rare|10}}.
+*Nerfed [[Elemental Blaster]]'s damage from 110 to 85.
+*Nerfed [[Elemental Disk]]'s damage from 215 to 140, and gave it the {{rare|12}} rarity instead of {{rare|10}}.
+*Nerfed [[Elemental Eruption]]'s damage from 50 to 40.
+*Nerfed [[Elemental Lance]]'s damage from 190 to 160, and gave it the {{rare|12}} rarity instead of {{rare|10}}.
+*Nerfed [[Elemental Ray]]'s damage from 230 to 165.
+*Nerfed [[Elemental Shiv]]'s damage from 215 to 160.
+*Buffed [[The Enforcer]]'s damage from 380 to 550.
+*Nerfed [[Eradicator]]'s damage from 250 to 230.
+*Nerfed [[Essence Flayer]]'s damage from 300 to 200.
+*Nerfed [[Ethereal Subjugator]]'s damage from 300 to 225.
+*Nerfed [[Executioner's Blade]]'s damage from 260 to 180.
+*Nerfed [[Excelsus]]' damage from 350 to 135.
+*Nerfed [[Exoblade]]'s damage from 1200 to 800, removed its ability to instantly kill enemies on true melee hits, its beam is now faster, changed its rarity from {{rare|rainbow}} to {{rare|15}}, and added 10 [[Darksun Fragment]]s to its recipe.
+*Nerfed [[Fabstaff]]'s damage from 999 to 300.
+*Nerfed [[Fate's Reveal]]'s damage from 200 to 83, and its flame explosions now deal 300% of the weapon's damage instead of a flat 800.
+*[[Flarewing Bow]]'s bats now deal 150% of the weapon's damage instead of 139%, and other arrows now deal 85% of the weapon's damage instead of 69%.
+*[[Forbidden Sun]]'s explosions now set enemy immunity frames to 8 instead of 6.
+*Nerfed [[Fungicide]]'s damage from 14 to 11.
+*Nerfed [[Galactus Blade]]'s damage from 173 to 130.
+*Nerfed [[Gamma Fusillade]]'s damage from 154 to 75, and it no longer uses 10 [[Soul of Might|Souls of Might]] in its recipe.
+*Nerfed [[Genisis]]' damage from 90 to 33.
+*Nerfed [[Ghastly Visage]]'s damage from 150 to 110.
+*Nerfed [[Ghoulish Gouger]]'s damage from 250 to 100.
+*Nerfed [[Gilded Proboscis]]' damage from 280 to 240.
+*Buffed [[Golden Eagle]]'s damage from 58 to 88.
+*Nerfed [[Grand Guardian]]'s damage from 275 to 200.
+*Nerfed [[Greatsword of Blah]]'s damage from 350 to 200.
+*Nerfed [[Greatsword of Judgement]]'s damage from 100 to 66.
+*Renamed THIS WEAPON IS A REFERENCE TO WARFRAME OH MAH GAWD to [[Soma Prime|Gun]], and nerfed its damage from 550 to 200.
+*Nerfed [[Holy Collider]]'s damage from 285 to 200.
+*Buffed [[Illustrious Knives]]' damage from 255 to 360, its knives now fade out quicker, and they are now faster.
+*Renamed Profaned Trident to [[Infernal Spear]], and buffed its damage from 590 to 650.
+*Buffed [[Lacerator]]'s damage from 275 to 375, its aura now deals 33% of the weapon's damage instead of 69.99%, and its yoyo projectile is now faster.
+*Nerfed [[Lazhar]]'s damage from 115 to 75.
+*Nerfed [[Lifefruit Scythe]]'s damage from 215 to 88.
+*Nerfed [[Lunarian Bow]]'s damage from 22 to 20.
+*Nerfed [[Magnetic Meltdown]]'s damage from 121 to 100.
+*Buffed [[Malachite]]'s damage from 9 to 36.
+*Nerfed [[Megafleet]]'s damage from 680 to 230.
+*Buffed [[Mirror Blade]]'s damage from 250 to 280, and lowered its shot speed from 20 to 16.
+*Nerfed [[Molten Amputator]]'s damage from 280 to 220, and lowered the amount of blobs it spawns on hits.
+*Buffed [[The Mutilator]]'s damage from 380 to 420.
+*Nerfed [[Nano Purge]]'s damage from 83 to 70.
+*Nerfed [[Neptune's Bounty]]'s damage from 380 to 270, and gave it a tooltip.
+*Nerfed [[Nettlevine Greatbow]]'s damage from 189 to 135.
+*Nerfed [[Nuclear Fury]]'s damage from 65 to 60.
+*Nerfed [[Purge Guzzler]]'s damage from 88 to 35.
+*Nerfed [[The Obliterator]]'s damage from 315 to 70, and its yoyo projectile is now faster.
+*Nerfed [[Onyx Chain Blaster]]'s damage from 95 to 55.
+*[[Pestilent Defiler]] now uses the {{rare|8}} rarity instead of {{rare|9}}.
+*Nerfed [[Phangasm]]'s damage from 160 to 82.
+*Buffed [[Phantasmal Fury]]'s damage from 215 to 235.
+*Nerfed [[Phoenix Flame Barrage]]'s damage from 300 to 275.
+*Nerfed [[Planetary Annihilation]]'s damage from 135 to 70, and gave it the {{rare|12}} rarity instead of {{rare|10}}.
+*Nerfed [[Plasma Rifle]]'s damage from 450 to 320, but its right click bolts now deal 64% of the weapon's damage instead of 44%.
+*Nerfed [[Primordial Ancient]]'s damage from 235 to 180.
+*Nerfed [[Red Sun]]'s damage from 750 to 500.
+*Nerfed [[Rouge Slash]]'s damage from 180 to 110.
+*Nerfed [[Sanguine Flare]]'s damage from 237 to 165.
+*Nerfed [[Scorpio]]'s damage from 103 to 90.
+*Nerfed [[Shadowbolt Staff]]'s damage from 350 to 130.
+*Buffed [[SHPC]]'s damage from 11 to 16, its shoot speed from 16 to 20, and made its SHPBs deal 110% of the weapon's damage instead of 100%.
+*Nerfed [[Shredder]]'s damage from 23 to 18.
+*Nerfed [[Solar Flare]]'s damage from 250 to 110, and its yoyo projectile is now faster.
+*Nerfed [[Soul Piercer]]'s damage from 135 to 65.
+*Nerfed [[Spectralstorm Cannon]]'s damage from 62 to 44.
+*Nerfed [[Spyker]]'s damage from 375 to 150.
+*Nerfed [[Staff of the Mechworm]]'s damage from 75 to 62, and it can no longer be swung if all of the player's minion slots are taken.
+*Nerfed [[Starfleet]]'s damage from 150 to 70, gave it the {{rare|12}} rarity instead of {{rare|9}}, and it no longer uses 20 [[Stardust Fragment]]s in its recipe.
+*Nerfed [[Stellar Striker]]'s damage from 300 to 250.
+*Nerfed [[The Storm]]'s damage from 195 to 55.
+*Nerfed [[Storm Dragoon]]'s damage from 140 to 125.
+*Nerfed [[Storm Ruler]]'s damage from 135 to 100.
+*Nerfed [[Storm Surge]]'s damage from 25 to 18, and reduced the amount of [[Aerialite Bar]]s in its recipe from 4 to 2.
+*Nerfed [[Stream Gouge]]'s damage from 350 to 250, but its beam now deals 200% of the weapon's damage instead of 100%.
+*Nerfed [[Subsuming Vortex]]'s damage from 330 to 75, changed its rarity from {{rare|rainbow}} to {{rare|15}}, and added 10 Darksun Fragments to its recipe.
+*Nerfed [[Svantechnical]]'s damage from 430 to 180.
+*Nerfed [[The Swarmer]]'s damage from 36 to 27.
+*Nerfed [[T1000]]'s damage from 223 to 160.
+*Nerfed [[Tarragon Throwing Dart]]'s damage from 170 to 140.
+*Nerfed [[Telluric Glare]]'s damage from 200 to 54.
+*[[Terra Arrow]]s now split into less arrows and produce less dust.
+*[[Terra Bullet]]s now split into less bullets and produce less dust.
+*Nerfed [[Terratomere]]'s damage from 105 to 100, and its beams now deal 60% of the weapon's damage instead of 85%.
+*Buffed [[Terror Blade]]'s damage from 220 to 260.
+*Nerfed [[Triactis' True Paladinian Mage-Hammer of Might]]'s damage from 5000 to 2500.
+*Nerfed [[True Tyrant's Ultisword]]'s damage from 270 to 150, its Hyper Blades now last for 3 seconds instead of 9, and its Sunlight Blades now last for 3 seconds instead of 7.33.
+*True Tyrant's Ultisword and [[Tyrant Yharim's Ultisword]]'s Blazing Phantom Blades now last for 3 seconds instead of 4, and all of their projectiles now visually fade out.
+*[[Ultra Liquidator]] now uses the {{rare|12}} rarity instead of {{rare|10}}.
+*Nerfed [[Vehemence]]'s damage from 10 to 7, its projectile is now faster, and capped its damage at 500,000 instead of 1,000,000.
+*Buffed [[Venusian Trident]]'s damage from 155 to 180, and increased its shoot speed from 15 to 19.
+*Buffed [[Vesuvius]]' damage from 11 to 35, but nerfed its use time from 11 to 20.
+*Nerfed [[Viscera]]'s damage from 360 to 150.
+*Nerfed [[Vivid Clarity]]'s damage from 450 to 110, buffed its use time from 34 to 21, changed its rarity from {{rare|rainbow}} to {{rare|15}}, and added 10 Darksun Fragments to its recipe.
+*Nerfed [[The Wand]]'s infernado damage from 1000 to 300, but they are now larger.
+*Nerfed [[Xeroc Greatsword]]'s damage from 113 to 95.
+*Nerfed [[Yharim's Crystal]]'s damage from 250 to 100, decreased its mana cost from 125 to 100, and its full beam now deal 300% of the weapon's damage per hit instead of 1000%.
+*Nerfed [[Yharon's Kindle Staff]]'s damage from 500 to 400.
+
+=== Other ===
+*Talking to the [[Nurse]] in Revengeance Mode no longer inflicts the player with [[Oozed]], and now spawns one of The Leviathan's meteors on top of the player, dealing {{dv|200,000|400,000}} damage.
+*Stress level 400 no longer causes the player to fall off [[Ropes]], and now causes several debuffs of varying times.
+
+=== Resprites ===
+*Resprited [[Amidias' Spark]] and [[Sea Shell]].
+*Resprited [[Essence of Chaos]], [[Essence of Cinder]], [[Essence of Eleum]], and [[True Shadow Scale]].
+*Resprited [[Caustic Edge]], Devil's Devastation, Grand Guardian, Gun, [[Heart Rapier]], [[Phoenix Blade]], Red Sun, [[Temporal Floe Sword]], [[True Caustic Edge]], True Tyrant's Ultisword, and Tyrant Yharim's Ultisword.
+*Resprited [[Calamitas Mask]].
+*Resprited [[Calamitas' Brew]].
+*Resprited [[Siren Lure (buff)]].
+*Resprited Staff of the Mechworm's Mechworm minion.
+
+== Fixes ==
+*Fixed [[Calamitas]], her brothers, [[Crabulon]], [[Cryogen]], [[The Perforator Hive]], Polterghast, the Profaned Guardians, Providence, the Profaned God, and [[The Slime God]]s being unable to despawn properly.
+*Fixed the second and third lines of [[Daedalus Visor]]'s tooltip unintentionally being merged.
+*Fixed [[Elemental Quiver]] cloning Contagion and Phangasm's held sprites.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

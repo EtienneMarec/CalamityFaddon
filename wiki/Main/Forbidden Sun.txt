@@ -1,0 +1,48 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 80
+| damagetype = magic
+| auto = yes
+| knockback = 7
+| velocity = 9
+| mana = 33
+| use = 30
+| rare = 8
+| tooltip = Casts a fire orb that emits a gigantic explosion on death
+| sell = {{value|0|16}}
+| stack = 1
+| debuff = On Fire!
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| hardmode = yes
+| proj = Forbidden Sun Orb.gif
+| projcaption = Forbidden Sun Orb
+| element1 = Fire
+}}
+
+The '''Forbidden Sun''' is a craftable [[Hardmode]] [[spell tome]]. Similarly to the [[Venusian Trident]], it shoots out a fireball that, upon contact with either a tile or an enemy, creates an explosion of cream-colored particles. The explosion lingers for two seconds, dealing rapid damage to any enemy caught in its radius. The explosion can inflict damage to enemies behind tiles and can damage an unlimited amount of enemies. If the projectile hits less than 4 blocks away from liquid, the explosion will not occur. Both the projectile and the explosion inflict the [[On Fire!]] [[debuff]] to hit enemies.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*[[Astrum Deus]] takes only 50% damage from the Forbidden Sun.
+*The Forbidden Sun's explosion always launches foes to the right. Combined with its high knockback and hits per second, it can be dangerous to attack enemies not resistant to knockback that are on the player's left, as they will often be launched towards the player. 
+
+== Trivia ==
+*Its name may be a reference to the ''[[wikipedia:Dark Souls II|Dark Souls II]]'' fire spell [http://darksouls2.wiki.fextralife.com/Forbidden+Sun of the same name], which has a similar explosive effect.
+{{-}}
+{{Scoria}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category: Spell tomes]]

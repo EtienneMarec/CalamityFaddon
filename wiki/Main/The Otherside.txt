@@ -1,0 +1,31 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| rare = 15
+| sell = {{value|0|35|0|0}}
+| damage = 980
+| use = 30
+| knockback = 10
+| tooltip = Slashes leave behind lingering portals. The larger the portal, the higher the damage.
+| auto = no
+| stack = 1
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Slash
+}}
+
+'''The Otherside''' is a craftable Godseeker Mode [[broadsword]]. The weapon has a unique swinging animation that leaves behind a damaging tear in reality that lingers for around 10 seconds. 5 of these portals can be active at once. If two or more portals overlap, they will combine, becoming larger and dealing more damage. A single portal will deal 25% of the weapons damage, and any additional ones will increase that percentage by 15%, up to a maximum of 100%.
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:混乱之刃]]

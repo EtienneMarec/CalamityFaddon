@@ -1,0 +1,107 @@
+{{item infobox
+| type = Armor
+| defense = 69
+| imageequipped = [[File:Omega Blue armor (Abyssal Madness).png|Omega Blue armor during Abyssal Madness]]
+| setbonus = Increases armor penetration by 15<br/>10% increased damage and critical strike chance and +2 minions<br/>Short-ranged tentacles heal you by sucking enemy life<br/>Press {{key|Armor Set Bonus}} to activate abyssal madness for 5 seconds<br/>Abyssal madness increases damage, critical strike chance, and tentacle aggression/range<br/>This effect has a 25 second cooldown
+| rare = 13
+| sell = {{value|1|8|25}} (set)
+| buff = Abyssal Madness
+| duration = 5 seconds (Upon activation) | bufflink = no
+| bufftip = Increased damage, critical strike chance, and tentacle aggression/range
+| debuff = Abyssal Madness Cooldown | debufflink = no
+| debuffchance = 100%
+| debuffduration = 25 seconds (After usage)
+| debufftip = Your abyssal madness is recharging
+| debuff2 = Crush Depth
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (On hit)
+| debufftip2 = Aquatic pressure
+| boxwidth = 25em
+| hardmode = yes
+| postml = yes
+}}
+{{float file box|[[File:Omega Blue healing tentacles.png]]|The Omega Blue armor's healing tentacles.}}
+
+'''Omega Blue armor''' is a craftable Godseeker Mode [[Covering]] set crafted from several primarily [[Abyss]]al materials, and is only obtainable after [[Polterghast]] has been defeated. A total of 30 [[Reaper Tooth|Reaper Teeth]], 19 [[Lumenyl]], 19 [[Tenebris]], and 9 [[Ruinous Soul]]s are required to craft a full set. If the full set is visible (whether equipped or in social slots), the player will have a pulsating aura around them.
+
+It consists of an '''Omega Blue Helmet''', '''Omega Blue Chestplate''', and '''Omega Blue Tentacles'''.
+
+[[File:Omega Blue healing tentacles (demo).gif|frame|right|Omega Blue Armor's healing tentacles and Abyssal Madness being used against two [[Super Dummy|super dummies]], inflicting the [[Crush Depth]] [[debuff]]. Notice how the tentacles speed up and leave trails of blue light once Abyssal Madness is activated.]]
+
+== Stats ==
+The full set grants the following stats and bonuses (this includes the set bonus):
+*69 defense
+*46% increased damage
+*38% increased critical strike chance
+*+2 max minions
+*12% increased movement speed
+*Armor penetration increased by 15.
+*Can move freely through liquids.
+*All attacks inflict [[Crush Depth]] on hit for 4 seconds.
+*Negates all positive life regen.
+
+=== Tentacles ===
+While the set bonus is active, six blue tentacles will sprout from the wearer's back. The tentacles move in sync with the player and sway back and forth if the player is idle. They will automatically attack enemies within a certain range by swatting at them and sticking to them, greatly healing the player in the process through [[lifesteal]].
+
+Pressing {{key|Armor Set Bonus}} will activate "Abyssal Madness" for 5 seconds, further increasing damage and crit chance by 10%, and granting the tentacles increased range and aggression for its duration. While activated, the tentacles leave trails of blue light particles, the helmet changes appearance, and the player sparkles. Abyssal madness has a 25 second cooldown.
+
+The tentacles cannot normally perform critical hits. However, tentacles will always land critical hits during Abyssal Madness.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Omega Blue Helmet
+| type = Armor
+| defense = 19
+| tooltip = You can move freely through liquids<br/>12% increased damage and 8% increased critical strike chance
+| body slot = Helmet
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|35}}
+}}
+|{{item infobox
+| name = Omega Blue Chestplate
+| type = Armor
+| defense = 28
+| tooltip = 12% increased damage and 8% increased critical strike chance<br/>Your attacks inflict Crush Depth<br/>No positive life regen
+| body slot = Shirt
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|38}}
+}}
+|{{item infobox
+| name = Omega Blue Tentacles
+| type = Armor
+| defense = 22
+| tooltip = 12% increased movement speed<br/>12% increased damage and critical strike chance
+| body slot = Pants
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|35|25}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Omega Blue%}}
+
+== Notes ==
+*While the armor does disable positive life regen, instant health restoration such as [[Potion|Recovery Potion]]s and the [[Nurse]] will still heal the player as normal.
+*A pulse of blue light particles emits from the player when Abyssal Madness's cooldown ends, signifying that it is ready to be used again.
+*The tentacles' base damage is 500, which is boosted by the average damage boost of all five classes.
+
+== Tips ==
+*Close combat is recommended while wearing this armor, as this will allow the tentacles to make up for the lack of life regen with their lifestealing capabilities.
+*It is not recommended to use items that decrease life regen with this set, such as the [[Mana Polarizer]], as the negative life regen will slowly drain the player's health.
+*Due to its relatively low defense, lack of regen, and incredible offensive stat boosts, this armor acts as a glass cannon set.
+*This armor is very poor for the summoner class, as it only offers 2 minions with a 46% minion damage boost. In comparison, the [[Bloodflare armor|Bloodflare]] summoner set gives 3 minion slots and 77% minion damage, as well as additional boosts while wearing the [[Profaned Soul Artifact]].
+
+== Trivia ==
+*The armor set itself and its tentacles resemble the [[Eidolon Wyrm]]. Specifically, it references concept art of the Eidolon Wyrms made by the artist Inanis.
+*The name for this armor and its former sprite are based on the ''Marvel'' character [[wikipedia:Omega Red|Omega Red]], who also possesses tentacles.
+
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}
+[[Category:Healing items]]

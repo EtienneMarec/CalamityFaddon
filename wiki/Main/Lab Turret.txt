@@ -1,0 +1,16 @@
+{{item infobox
+| type = Block
+| damage = {{dv|40|56}} (Laser)
+| color = #434851
+}}
+
+'''Lab Turrets''' are tiles found in [[Arsenal Lab]]s which fire lasers at players who enter a 37.5 tile radius around them. While turrets can target players through solid tiles, the lasers can not pass through them. When broken, they will drop 8 [[Dubious Plating]] and [[Mysterious Circuitry]]. 
+
+== Notes ==
+*Lab Turrets cannot be destroyed by [[explosive]]s.
+
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

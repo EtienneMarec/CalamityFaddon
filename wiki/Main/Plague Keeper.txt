@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 80
+| use = 19
+| knockback = 6
+| auto = yes
+| stack = 1
+| rare = 10
+| sell = {{value|0|20}}
+| hardmode = yes
+| postml = yes
+| velocity = 9
+| tooltip = Fires a plague and bee cloud
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| debuffduration = 5 seconds (Contact)<br/>3 seconds (Dust)
+| proj = Plague Wave.gif
+| projcaption = Plague Keeper Wave
+| proj2 = Bee 1.png
+| proj2caption = Bee
+| element1 = Poison
+| element2 = Slash
+| element3 = Machine
+}}
+|{{item drops infobox
+| [[Dark Statis]] {{fantag|Catalyst}}|1|100%<br/>(Pre-[[Wall of Flesh]])
+}}
+}}
+
+The '''Plague Keeper''' is a craftable Godseeker Mode [[broadsword]] and upgrade to the [[Bee Keeper]] and [[Virulence]]. When swung, it releases a large cloud of plague dust that goes through tiles and can pierce infinitely, spawning 25 bees in its path. The cloud slows down and fades away after a second, reducing its damage by 40% while fading. It also releases 3 bees upon [[true melee]] contact with enemies. Bees do not pierce through tiles nor enemies, and deal one-third of the sword's damage.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{lunar plague}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:瘟疫大剑]]

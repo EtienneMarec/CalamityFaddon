@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 21
+| mana = 10
+| tooltip = Fires a shade storm cloud
+| knockback = 0
+| use = 24
+| velocity = 16
+| stack = 1
+| rare = 3
+| debuff = Shadowflame
+| debuffduration = 1 second (Rain)
+| debufftip = Losing life
+| debuffchance=100%
+| sell = {{value|0|0|80}}
+| proj = Shade Nimbus Cloud.gif
+| projcaption = Shade Nimbus Cloud
+| proj2 = Shade Nimbus.gif
+| proj2caption = Shade Nimbus
+| element1 = Unholy
+}}
+|{{item drops infobox
+| [[The Hive Mind]]|1| {{dv|25%|33.33%}}
+}}
+}}
+{{distinguish|Shadowdrop Staff|a [[wand]] that rains a large group of shades from the sky}}
+
+The '''Shaderain Staff''' is a craftable [[Pre-Hardmode]] [[wand]] that is also dropped by [[The Hive Mind]]. When used, it spawns up to two purple clouds that rain damaging droplets which inflict the [[Shadowflame]] [[debuff]] onto enemies, similar to the [[Crimson Rod]].
+
+{{Modifier|magicsummon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Rotten Matter}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

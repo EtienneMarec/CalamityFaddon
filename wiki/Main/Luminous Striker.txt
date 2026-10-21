@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 149
+| damagetype = Spy
+| rare = 10
+| stack = 1
+| sell = {{value|0|20}}
+| knockback = 6
+| use = 29
+| auto = yes
+| hardmode = yes
+| tooltip = Send the stars back to where they belong<br/>Throws a stardust javelin trailed by rising stardust shards<br/>Explodes into additional stardust shards upon hitting enemies<br/>Stealth strikes cause the stardust shards to fly alongside the javelin instead of rising
+| velocity = 20
+| proj = Luminous Shard.png
+| projcaption = Stardust Shard
+| element1 = Magic
+| element2 = Cold
+| element3 = Stab
+}}
+
+The '''Luminous Striker''' is a craftable [[Hardmode]] non-consumable [[javelin]] which is a direct upgrade to the [[Spear of Paleolith]]. It automatically throws a spear that doesn't pierce and isn't affected by gravity. While the spear travels, it releases trails of non-piercing stardust shards that accelerate upwards and deal a quarter of the spear's damage. Upon hitting an enemy, the spear shatters into more stardust shards that randomly spread out.
+
+Performing a [[stealth strike]] with the Luminous Striker will cause the next spear thrown to build up stardust shards alongside itself as it travels, instead of releasing shards that accelerate upwards. These build up, landing a major hit on an enemy while the spear itself still explodes into additional shards.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Javelins]]

@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = ranged
+| damage = 34
+| knockback = 2.5
+| rare = 7
+| sell = {{value|0|12}}
+| use = 6
+| stack = 1
+| velocity = 16
+| tooltip = 50% chance to not consume ammo<br/>Fires streams of water every other shot
+| hardmode = yes
+| element1 = Water
+| element2 = Dark
+| element3 = Stab
+}}
+The '''Megalodon''' is a craftable [[Hardmode]] [[gun]] and an upgrade to the [[Megashark]] and the [[Archerfish]]. It rapidly fires [[bullet]]s, with every other shot turning into a stream of water that does not consume ammo.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon is named after a prehistoric shark, the [[wikipedia:Megalodon|Megalodon]], which was the largest shark that ever lived.
+{{Abyssal Gear}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

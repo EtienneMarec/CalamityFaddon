@@ -1,0 +1,48 @@
+{{buff infobox
+| type = Debuff
+| effects = Targets defense is reduced by 15 and damage reduction by 25%
+| tooltip = Defense and protection reduced
+}}
+
+'''War Cleave''' is a [[debuff]] that reduces enemy defense by 15 and lowers enemy damage reduction by 25%. It is inflicted by the [[Waraxe]], the [[Warblade]], [[Overloaded Soldier]]s, and [[Phantom Debris]], and [https://terraria.wiki.gg/wiki/Angry_Bones Angry Bones] (in Hardmode). Any enemy that can receive the [[Armor Crunch]] debuff can also receive War Cleave.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+| {{item|mode=table|Angry Bones}}||1 second (In [[Hardmode]])||100%
+|-
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+== Notes ==
+*The lowered damage reduction effect of War Cleave does not work on [[The Dragonfolly]], [[Polterghast]], and [[Providence, the Profaned Goddess]].
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

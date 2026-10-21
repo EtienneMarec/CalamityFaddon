@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| name  = Needler
+| type = Weapon
+| type2 = Crafting material
+| damage = 45
+| damagetype = ranged
+| velocity = 9
+| rare = 4
+| sell = {{value|0|2|40}}
+| use = 18
+| stack = 1
+| auto = yes
+| knockback = 5.5
+| hardmode = yes
+| tooltip = Converts musket balls into needles that stick to enemies and explode
+| proj = Needler Needle.png
+| projcaption = Needler Needle
+| element1 = Poison
+}}
+|{{item drops infobox
+|[[Moss Hornet]]|1|{{dv|4%|6.67%}}
+}}
+}}
+
+The '''Needler''' is a [[Hardmode]] [[gun]]. If [[Musket Ball]]s are used as [[ammo]], bullets are converted into needles that stick to enemies and tiles which explode after a delay. It has a 4% (1/25) chance to be dropped by [[Moss Hornet]]s.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon's name and mechanics may be a reference to a [https://halo.fandom.com/wiki/Type-33_Guided_Munitions_Launcher weapon of the same name] from the ''[[wikipedia:Halo (franchise)|Halo]]'' series.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Guns]]

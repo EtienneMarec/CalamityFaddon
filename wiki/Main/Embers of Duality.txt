@@ -1,0 +1,91 @@
+{{addon|Deimos, the Starborn Princess}}
+{{buff infobox
+| type = Debuff
+| effects = -7% defense and damage reduction. Summons Celestial Portals that fire slow-moving bolts at affected players and summon Celestial Spirits (if player)<br/>-35 health per second and -10% damage reduction. Summons friendly Celestial Portals that fire bolts at affected enemies (if enemy)
+| tooltip = Celestial voids are manifesting around you; defense and damage reduction reduced
+}}
+{{summoned|Celestial Portal}}
+{{summoned|Celestial Portal (Friendly)}}
+
+'''Embers of Duality''' is a [[debuff]] inflicted by certain [[Enemies]] and [[Weapons]] that are related to [[The Starborn Moth]]. It causes the player to lose 7% defense and [[Damage Reduction]]. If inflicted onto enemies, 35 health is lost per second and 10% damage reduction is lost.
+
+While afflicted with this debuff, Celestial Portals will spawn around targets every 2 seconds. If these portals are spawning around a player affected with the debuff, it will either fire a bolt or summon a Celestial Spirit then close. These bolts deal 65 damage. If these portals are spawning around an enemy affected with the debuff, it will fire a bolt every second three times before closing. These bolts deal 70 typeless damage. Targets also emit glowing, yellow/pink flames at day or cyan/pink flames at night.
+
+If the target is inflicted with [[Oiled]], they will lose 44 health per second instead of 35.
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Enemy
+| name = Celestial Spirit
+| imagealt = <Tabber>
+Day Time = [[File:Celestial Spirit.png]]
+|-|
+Night Time = [[File:Celestial Spirit (nighttime).png]]
+</Tabber>
+| life = {{dv|2,500|||3,000}}
+| damage = {{dv|80|105}}
+| defense = 0
+| ai = Dungeon Spirit AI
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| duration = 1.5 seconds (Daytime)
+| debuff2 = Moon Burnt
+| debufftip2 = Incinerated by lunar rays
+| debuffchance2 = 100%
+| duration2 = 1.5 seconds (Nighttime)
+| debuff3 = God Slayer Inferno
+| debufftip3 = Your flesh is burning off
+| debuffchance3 = 100%
+| duration3 = 1 second
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_36.wav
+| killed = NPC_Killed_39.wav
+}}
+}}
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+== Notes ==
+*The Embers of Duality debuff has a different buff icon shown when it is night time.
+{| align=right
+|{{item infobox
+| name = Embers of Duality Buff Icon (Night Time)
+| image = Embers of Duality (nighttime).png
+}}
+|}
+
+{{-}}
+{{DeimosMod}}

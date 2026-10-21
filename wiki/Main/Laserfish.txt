@@ -1,0 +1,37 @@
+{{npc infobox
+| type = Aquatic
+| environment = Abyss
+| ai = Laserfish AI
+| damage = {{element|Water}} {{dv|40|80}} (Contact)<br/>{{element|Magic}} {{dv|100|160}} (Laser)
+| life = {{dv|480|960}}
+| defense = 15
+| knockback = {{dv|58%|62.2%}}
+| immune1 = Crush Depth
+| immune2 = Confused
+| immune3 = Kami Flu
+| banner = yes
+| money = {{sc|20}}
+| custom | {{item|Lumenyl|note=(After defeating [[Calamitas]])|wrap=y}}|50%
+| hurt = NPC_Hit_51.wav
+| killed = NPC_Killed_26.wav
+| sound = Item_33.wav
+| soundtext = Laser
+| vulnerable1 = Cold
+| vulnerable2 = Poison
+| vulnerable3 = Machine
+| resistant1 = Holy
+| resistant2 = Water
+| resistant3 = Dark
+}}
+
+The '''Laserfish''' is an [[enemy]] that spawns in the 2nd and 3rd layers of the [[Abyss]]. It swims around when passive, but as soon as the player gets too near or hits it, it will swim in their direction and shoot lasers at them. If hit, it will not go passive again, even if the player is far from it.
+
+== Trivia ==
+*The Laserfish was inspired by [[wikipedia:Barreleye|Barreleye]] fish, specifically Pacific Barreleyes, which have transparent heads that contain large yellowish eyes.
+*Its design is also based on torpedos, which fits with its ocean theme as well as being a more unnatural enemy than others present in the Abyss
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}
+<br />

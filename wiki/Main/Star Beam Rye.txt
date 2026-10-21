@@ -1,0 +1,28 @@
+{{item infobox
+| type = Potion
+| tooltip = Boosts max mana by 50, magic damage by 8%,<br/>and reduces mana usage by 10%<br/>Reduces defense by 6% and life regen by 1
+| stack = 9999
+| rare = 7
+| use = 17
+| sell = {{value|0|0|80}}
+| consumable = yes
+| debuffduration = 8 minutes
+| debuff = Star Beam Rye (debuff) | debufflink = no
+| debufftip = Max mana and magic damage increased. Defense, mana usage, and life regen reduced
+| hardmode = yes
+}}
+
+'''Star Beam Rye''' is a craftable [[Hardmode]] [[potion]]. It grants the '''Star Beam Rye''' [[debuff]] when consumed, which reduces life regen and [[defense]], but boosts magic damage, max mana and reduces mana usage.
+
+While the effects of the Star Beam Rye debuff are mostly beneficial, it is still considered a debuff, and therefore cannot be removed by right-clicking the icon.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+== Trivia ==
+*This item's name is a reference to [[wikipedia:Jim Beam|Jim Beam Rye]], a brand of [[wikipedia:Whiskey|whiskey]].
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

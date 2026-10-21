@@ -1,0 +1,23 @@
+Use this template to indicate that information is missing from an article, or that it requires some other form of work.
+
+For new pages lacking substantial information, use {{tl|stub}} instead.
+
+This template adds pages to [[:Category:Article info requests]].
+
+== Usage ==
+Always add this template to the '''end''' of an article, '''above''' any navigation templates (like {{tl|Master Template Weapons}}).
+
+<pre><nowiki>{{</nowiki>info request|
+* One request
+* Another request
+<nowiki>}}</nowiki></pre>
+
+; Unnamed parameter 1
+A bulleted list of requests for the current article.
+
+<includeonly>
+[[Category:Article management templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

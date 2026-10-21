@@ -1,0 +1,111 @@
+'''Pets''' are creatures that follow the player around. They are completely invincible and have no set duration. When summoned, they will give the player a buff with the same name as the pet. A pet will follow the player until they die, summon a different pet, or cancel the associated buff. All pets are purely cosmetic. Pets do not count against the player's current minion limit.
+
+The Calamity Mod currently adds 16 [[tgc:Pet|pets]] and 5 [[tgc:Light Pet|light pets]] into the game.
+
+== Pets ==
+{| class="terraria sortable" style="width:88%"
+!style="padding: 5px; font-size: 120%;" colspan="6"| Pets
+|- class="unsortable"
+! Buff !!width=185| Pet !! Item !! Source
+|-
+| align="center"| {{item|mode=image|Akato (buff)}} || {{item|Akato}}||{{item|Forgotten Dragon Egg}} || Dropped by {{item|Jungle Dragon, Yharon|size=80px}}.
+|-
+| align="center"| {{item|mode=image|Astrophage (buff)}} || {{item|Astrophage (Pet)|Astrophage}} || {{item|Astrophage}} || Obtained from {{item|Astral Crate|Astral Crates}}.
+|-
+| align="center"| {{item|mode=image|Bear (buff)}} || {{item|Bear}} || {{item|Bear's Eye}} || Sold by {{item|Bandit}}.
+|-
+| align="center"| {{Item|Belling|mode=image}} || {{Item|Belling Pet|Belling}} || {{Item|Violet Heart of Calamity}} || {{Item|Treasure Coffer}} in [[Revengeance Mode]].
+|-
+| align="center"| {{item|mode=image|Brimling (buff)}} || {{item|Brimling (Pet)|Brimling}} || {{item|Charred Relic}} || {{item|Treasure Bag (Brimstone Elemental)}} in [[Revengeance Mode]].
+|-
+| align="center"| {{item|mode=image|Chibii Devourer (buff)|Cosmic Plushie}} || {{item|Chibii Devourer|Chibii Devourer}} || {{item|Cosmic Plushie}} || {{item|Treasure Bag (The Devourer of Gods)}} in [[Death Mode]] with a Hardcore character.
+|-
+| align="center"| {{item|mode=image|Cynthian Serpent (buff)|Cynthian Serpent}} || {{item|Cynthian Serpent}} || {{item|Elemental Delight}} || Crafted at an [[Ancient Manipulator]].
+|-
+| align="center"| {{item|mode=image|Danny Devito (buff)|Danny Devito}} || {{item|Danny Devito}} || {{item|Trash Can (pet)}} || Dropped by {{item|Trasher|Trashers|size=70px}}.
+|-
+| align="center"| {{item|mode=image|Electric Troublemaker (buff)|Electric Troublemaker}} || {{item|Electric Troublemaker (pet)|Electric Troublemaker}} || {{item|Triboluminescent Etomer}} || Crafted at an [[Anvil]].
+|-
+| align="center"| {{item|mode=image|Escargidolon Snail (buff)|Escargidolon Snail}} || {{item|Escargiodolon Snail|Escargidolon Snail}} || {{item|Abyss Shell Fossil}} || {{recipes/extract|result=Abyss Shell Fossil}}
+|-
+| align="center"| {{item|mode=image|Weird Bird (buff)|Weird Bird}} || {{item|Weird Bird}} || {{item|Everflute}} || Dropped by {{item|Glitch|Glitches}}.
+|-
+| align="center"| {{item|mode=image|Flak Hermit (buff)|Flak Hermit}} || {{item|Flak Hermit (Pet)|Flak Hermit}} || {{item|Geyser Shell}} ||  Caught with [[Bug Net]] on {{item|Baby Flak Crab|size=25px}}.
+|-
+| align="center"| {{item|mode=image|Fox Pet (buff)|Fox Pet}} || {{item|Fox Pet|Fox Pet}} || {{item|Fox Drive}} || {{item|Treasure Bag (Jungle Dragon, Yharon)}} in [[Revengeance Mode]].
+|-
+| align="center"| {{item|mode=image|Furtastic Duo (buff)|Furtastic Duo}} || {{item|Furtastic Duo}} || {{item|Primrose Keepsake}} || Crafted at a [[Tinkerer's Workshop]].
+|-
+| align="center"| {{item|mode=image|Green Lizard (buff)|Green Lizard}} || {{item|Green Lizard}} || {{item|Batfly Bait}} || Crafted at a [[Hardmode Anvil]].
+|-
+| align="center"| {{item|mode=image|Kendra (buff)}} || {{item|Kendra}} || {{item|Romajeda Orchid}} || Sold by {{item|Dryad}}.
+|-
+| align="center"| {{item|mode=image|InxieRatZey (buff)|InxieRatZey}} || {{item|InxieRatZey}} || {{item|Cool Item}} || Crafted at an [[Aquatic Hypercomputer]] with an Elemental Capsule Box.
+|-
+| align="center"| {{item|mode=image|The Father}} || {{item|Lad Shark}} || {{item|Joyful Heart}} || Dropped by {{item|Shark|s}} or<br/>{{item|Starter Bag}} if the player is named "Aleksh" or "Shark Lad."
+|-
+| align="center"| {{item|mode=image|Levi (buff)|Levi}} || {{item|Levi (Pet)|Levi}} || {{item|Levi}} || Dropped by {{item|Supreme Calamitas|image=Supreme Calamitas (Phase 2).png|size=50px}} in [[Death Mode]].
+|-
+| align="center"| {{item|mode=image|Microbial Cluster (buff)|Microbial Cluster}} || {{item|Microbial Cluster}} || {{item|Disgusting Seawater}} || Netting [[Microbial Cluster]]s.
+|-
+| align="center"| {{item|mode=image|Mini Bocchi (buff)|Mini Bocchi}} || {{item|Mini Bocchi}} || {{item|Heavy Metal Trash Can}} || Dropped by {{item|The Wall of Bronze|size=100px}}.
+|-
+| align="center"| {{item|mode=image|Plaguebringer Bab (buff)|Plaguebringer Bab}} || {{item|Plaguebringer Bab}} || {{item|Plague Caller}} || Dropped by {{item|The Plaguebringer Goliath|size=90px}}.
+|-
+| align="center"| {{item|mode=image|Astral Creature (buff)|Astral Creature}} || [[File:Astral Creature (pet).png]][[Astral Creature]] || {{item|Celestial Clump}} || Dropped by {{item|The Starborn Moth|size=75px}} or crafted.
+|-
+| align="center"| {{item|mode=image|Pineapple (buff)|Pineapple}} || {{item|Pineapple (pet)|Pineapple}} || {{item|Pineapple}} || Dropped by {{item|Goldfish|image=Goldfish swimming.png}}.
+|-
+| align="center"| {{item|mode=image|Blood Bound}} || {{item|Mini Perforator}} || {{item|Bloody Vein}} || Dropped by {{item|The Perforators|size=80px}}.
+|-
+| align="center"| {{item|mode=image|Mini Mind}} || {{item|Mini Hive Mind}} || {{item|Rotting Eyeball}} || Dropped by {{item|The Hive Mind|size=70px}}.
+|-
+| align="center"| {{item|mode=image|Son of Yharon (buff)}} || {{item|Son of Yharon}} || {{item|McNuggets}} || Dropped by {{item|Jungle Dragon, Yharon|size=80px}}.
+|-
+| align="center"| {{item|mode=image|Stiriatic Walkie (buff)}} || {{item|Stiriatic Walkie}}||{{item|Crystallised Stiriatic Chunk}} || Dropped by {{item|Stiriatic Walkie}} with a 10% chance.
+|-
+| align="center"| {{item|mode=image|Supreme Calamitas (buff)|Supreme Calamitas}} || {{item|Supreme Calamitas (pet)|Supreme Calamitas}} || {{item|Brimstone Jewel}} || Dropped by {{item|Supreme Calamitas|image=Supreme Calamitas (Phase 2).png|size=50px}}.
+|-
+| align="center"| {{item|mode=image|Nuggy|Nuggy}} || {{item|Nugget}} || {{item|Suspicious Looking Chicken Nugget}} || Dropped by {{item|Exodygen|size=80px}} in [[Master Mode]].
+|-
+|-
+| align="center"| {{item|mode=image|Third Sage (buff)|Third Sage}} || {{item|Third Sage (Pet)|Third Sage}} || {{item|Hermit's Box of One Hundred Medicines}} || Dropped by {{item|Wall of Flesh|size=80px}}.
+|-
+|[[File:THANTOSIS.png|thumb]]
+|[[File:Thanitos.png|thumb|174x174px]]
+|[[File:HELP HELP.png|thumb]]
+|Dropped by [[The Fabricational Quartet]]
+|}
+
+== Light Pets ==
+'''Light Pets''' are summoned secondary characters that float alongside players to provide a traveling light source. They incur no mana nor any other cost, and remain indefinitely until the player cancels the buff, summons a replacement light pet or dies. Only one light pet can be present at once.
+{|| class="terraria sortable" style="width:88%"
+!style="padding: 5px; fontsize: 120%;" colspan="6"| Light Pets
+|- class="unsortable"
+! Buff !!width=185| Pet !! Item !! Source !! Notes
+|-
+| align="center"| {{item|mode=image|Dreamfog}} || {{item|Yuu}} || {{item|Chromatic Orb}} || Dropped by {{item|Astrum Deus|size=90px}} || Can be controlled manually using the movement keys. Grants the [[Hunter]] and [[Dangersense]] effects.
+|-
+| align="center"| {{item|mode=image|Sparks (buff)}} || {{item|Sparks}} || {{item|Enchanted Butterfly}} || Crafted at a [[Crystal Ball]]. || Consumes nearby butterflies and picks up items.
+|-
+| align="center"| {{item|mode=image|Little Light (buff)}} || {{item|Little Light (pet)}} || {{item|Little Light}} || Dropped by {{item|Storm Weaver|size=90px}}
+|-
+| align="center"| {{item|mode=image|Radiator (buff)}} || {{item|Radiator (Pet)|Radiator}} || {{item|Radiating Crystal}} || Caught with [[Bug Net]] on {{item|Radiator|size=25px}}.
+|-
+| align="center"| {{item|mode=image|Baby Ghost Bell (buff)}} || {{item|Baby Ghost Bell (Pet)|Baby Ghost Bell}} || {{item|Rusted Jingle Bell}} || Caught with [[Bug Net]] on {{item|Baby Ghost Bell|size=25px}} or fished from the [[Sunken Sea]]. || Provides more light while submerged in a liquid.
+|-
+| align="center"| {{item|mode=image|Ocean Spirit (buff)|Ocean Spirit}} || {{item|Ocean Spirit}} || {{item|Strange Orb}} || The [[Shadow Chest]]s in the [[Abyss]]. || Will only provide light if the player is submerged in liquid at least two tiles deep. Sleeps otherwise.
+|-
+|}
+
+== Notes ==
+*Light pets affect the light levels in the [[Abyss]].
+**Crimson Heart, Shadow Orb, Magic Lantern, Radiator, or Sparks pet: +1 to light level
+**Fairy, Flickerwick, or Baby Ghost Bell pet: +2 to light level
+**Wisp, Suspicious Looking Eye, or [[Strange Orb|Ocean Spirit]] pet: +3 to light level
+
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}
+[[Category:Pet Summon items]]

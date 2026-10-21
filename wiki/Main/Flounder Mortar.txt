@@ -1,0 +1,43 @@
+{{addon|Calamity: Community Remix}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 43
+| use = 11
+| tooltip = Converts musket balls into streams of acid
+| auto = yes
+| stack = 1
+| knockback = 2
+| debuff = Sulphuric Poisoning
+| debuffchance = 100%
+| debuffduration = 12 seconds
+| rare = 2
+| velocity = 11
+| sell = {{value|0|1}}
+| element1 = Poison
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Flounder]]|1|{{dv|6.67%|10%}}
+|}}
+}}
+
+The '''Flounder Mortar''' is a [[Pre-Hardmode]] [[gun]] dropped by [[Flounder]]s. If [[Musket Ball]]s are used as ammo, bullets are replaced with a stream of fast acid that can pierce one enemy before dissipating upon hitting a second.
+
+Its best [[modifier]] is '''Unreal'''.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The [[wikipedia:Flounder|Flounder]] is a fish in real life, which buries itself in sand.
+*The Flounder Mortar can be considered a ranged counterpart to the [[Acid Gun]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

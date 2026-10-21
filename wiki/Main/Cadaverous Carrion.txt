@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 384
+| knockback = 4
+| mana = 10
+| use = 13
+| tooltip = Summons a geyser on the ground
+| rare = 13
+| sell = {{value|0|26}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Flak Shot.png
+| projcaption = Flak Shot
+| element1 = Poison
+| element2 = Water
+}}
+|{{item drops infobox
+| [[Flak Crab]] | 1 | {{dv|5%|6%}} (tier 3)
+}}
+}}
+{{summoned|Flak Crab (disguised)|name=Geyser|type=sentry}}
+
+The '''Cadaverous Carrion''' is a Godseeker Mode [[sentry]] that drops from tier 3 [[Flak Crab]]s. It summons a geyser sentry, the sentry rapidly fires homing sulphurous cross blasts at nearby enemies.
+
+{{Modifier|summon}}
+
+== Trivia ==
+* 'Cadaverous' means "resembling a corpse", and 'carrion' is "the decaying flesh of an animal".
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-summon = yes
+}}

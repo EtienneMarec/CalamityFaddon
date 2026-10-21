@@ -1,0 +1,37 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 42
+| mana = 7
+| use = 21
+| critical = 9%
+| velocity = 12
+| knockback = 3.5
+| auto = yes
+| stack = 1
+| tooltip = Casts eldritch tentacles to spear your enemies
+| rare = 4
+| sell = {{value|0|2|40}}
+| type2 = Crafting material
+| element1 = Unholy
+}}
+|{{item drops infobox
+| [[Slime God]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Eldritch Tome''' is a [[Pre-Hardmode]] [[spell tome]] that drops from [[The Slime God]]. When used, it fires three red tendrils which bend in random directions, similarly to the [[Shadowflame Hex Doll]]. It is the [[Crimson]] counterpart to the [[Abyssal Tome]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

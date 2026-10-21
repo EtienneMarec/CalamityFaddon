@@ -1,0 +1,68 @@
+{{dedicated|Pinkie|Developer}}
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 225
+| critical = 8%
+| knockback = 3.5
+| use = 24
+| mana = 25
+| sspeed = 20
+| tooltip = {{color|Let the rainbow remind you that together we will always shine...|#9c6cfb}}
+| rare = 16
+| sell = {{value|0|40}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| stack = 1
+| auto = yes
+| proj = Rainbow Comet.gif
+| projcaption = Rainbow Comet
+| image2 = Rainbow Rocket.gif
+| image2caption = Rainbow Rocket
+| element1 = Magic
+| element2 = Fire
+}}
+[[File:Rainbow Party Cannon (demo).gif|frame|The Rainbow Party Cannon in use. Note the various explosion effects of the smaller rockets.]]
+
+The '''Rainbow Party Cannon''' is a craftable Epilogue [[developer]] [[magic gun]]. When used, a cannon is locked in place at the player and firing at the direction of the cursor, unable to change angles until released, similarly to [[Charged Blaster Cannon]]. After one second of firing non-damaging confetti, the cannon starts firing comets at the rate of its use time. Comets have exceptional vertical acceleration and explode upon collision with tiles or targets, bursting into 18 infinitely-piercing decelerating rainbow sparkles along with seven rockets of varying colors. The rockets are followed by rainbow trails, move in a curve for one second before homing into enemies, and explode into a random number of rainbow sparkles. The rockets and their sparkles deal tripled damage, and more sparkles can spawn the longer the rocket lasts.
+
+Each rocket has a different color and a different on-death visual effect. The order of the rockets are as follows (clockwise): 
+{| class="terraria lined"
+|- 
+! colspan=2 | Color !! Explosion Effect
+|-
+| Pink || {{color|#FFC0CB ●|#FFC0CB}} || One large yellow balloon alongside two smaller pink balloons, each attached with one white string
+|-
+| Orange || {{color|#FFA500 ●|#FFA500}} || Three orange apples each with one red leaf on the top right, two of the apples are tilted towards the center one
+|-
+| Dark Yellow || {{color|#C8C8A8 ●|#C8C8A8}} || Three four-winged butterflies with yellow wings and blue antennae
+|-
+| Light Gray || {{color|#D3D3D3 ●|#D3D3D3}} || Three blue diamonds
+|-
+| Sky Blue || {{color|#87CEFA ●|#87CEFA}} || Six white elliptical clouds, one being significantly larger than others
+|-
+| Magenta || {{color|#FF00FF ●|#FF00FF}} || One large magenta hexagram, surrounded by six small white hexagrams
+|-
+| Plum || {{color|#C4949C ●|#C4949C}} || A blue horn-like curve with a white ring at the center of impact
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The phrase in the tooltip "Let the rainbow remind you that together we will always shine…" alternates between lavender ({{color|#9c6cfb ●|#9c6cfb}}) and pink ({{color|#ff6cfb ●|#ff6cfb}}) colors.
+
+== Trivia ==
+*The colors and explosion effects represent the different characters in ''[[wikipedia:My Little Pony: Friendship Is Magic|My Little Pony: Friendship Is Magic]]'' and their respective cutie marks.
+**The characters include Pinkie Pie, Applejack, Fluttershy, Rarity, Rainbow Dash, Twilight Sparkle, and Starlight Glimmer respectively.
+**The cannon itself also refers to Pinkie Pie's party cannon.
+**The phrase in the tooltip is a direct lyric from a song in the show's fourth season finale.
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic guns]]

@@ -1,0 +1,22 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = 1.5 Finale
+| pair = 1.5.1.001 (music)
+| release = 4/1/2022
+}}
+
+The '''1.5.1.006''' (or '''1.5.1.6''') update is the final Calamity Mod update for tModLoader 0.11.8.5, the last update for tModLoader for Vanilla Terraria version 1.3.5.3. This update fixed a few remaining bugs and issues from previous Calamity updates.
+== Changes == 
+*Removed an outdated tooltip line on [[Death]].
+
+== Fixes ==
+*Fixed a bug that caused [[Ravager]] to randomly despawn while in multiplayer.
+*Fixed an issue that caused [[The Devourer of Gods]] sprite to become invisible and do no damage.
+*Fixed an issue that caused The Devourer of Gods to randomly despawn while in multiplayer.
+*Fixed helmet sprite extensions becoming offset while the player character is on a sloped or hammered tile.
+*Fixed helmet sprite extensions using the player's eye color as a color overlay.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

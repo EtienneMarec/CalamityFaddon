@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 12
+| damagetype = Spy
+| knockback = 8
+| use = 24
+| velocity = 8
+| auto = yes
+| stack = 1
+| rare = 2
+| tooltip = Throws a bomb that explodes into a bubble which deals extra damage to enemies<br/>Stealth strikes are faster and explode into 5 bubbles
+| sell = {{value|0|0|40}}
+| proj = Seafoam Bomb (projectile).png
+| projcaption = Seafoam Bomb
+| proj3 = Seafoam Bubble.png
+| proj3caption = Seafoam Bubble 
+| element1 = Water
+| element2 = Bomb
+}}
+
+The '''Seafoam Bomb''' is a [[Pre-Hardmode]] non-consumable [[bombs|bomb]]. Upon use, it throws a bomb that travels a small distance before being affected by gravity. Upon hitting a tile or enemy, the bomb explodes into damaging bubbles which ignore enemy [[immunity frames]].
+
+Performing a [[stealth strike]] with the Seafoam Bomb causes the next bomb thrown to move faster and explodes into five bubbles instead of one.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*This is a very useful weapon for starting [[Spy]]s because it does good damage and can clear out clustered enemies.
+
+{{Sea Prism}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Bombs]]

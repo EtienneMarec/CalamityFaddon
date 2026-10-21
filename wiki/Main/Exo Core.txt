@@ -1,0 +1,29 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| stack = 9999
+| rare = 15
+| sell = {{value|25|}}
+| tooltip = It emits a musical humming sound
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Exo Enemies]] (When supercharged)  | {{dv|1}} | 100% 
+| [[Exo Mine]] | 5 | 100% }}
+}}
+'''Exo Cores''' are Godseeker Mode [[crafting material]]s that drop from the [[Exo Obelisk]]. They are used to craft a variety of late game items.
+
+==Crafting==
+===Used in===
+{{recipes|ingredient=Exo Core}}
+{{-}}
+
+== Notes ==
+*Exo Cores are guaranteed to drop from any [[Exo Enemies]] as long as they have been supercharged by an [[Exo Obelisk]].
+**This excludes the [[Exo Cube]], which cannot be supercharged
+
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

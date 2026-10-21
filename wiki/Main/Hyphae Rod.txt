@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 20
+| mana = 7
+| knockback = 2
+| rare = 2
+| sell = {{value|0|0|40}}
+| stack = 1
+| auto = yes
+| use = 24
+| velocity = 1
+| tooltip = Creates mushroom spores near the player
+| proj = Truffle Spore.gif
+| projcaption = Mushroom Spore
+| element1 = Poison
+}}
+|{{item drops infobox
+| [[Crabulon]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Hyphae Rod''' is a [[Pre-Hardmode]] [[wand]] dropped by [[Crabulon]]. It creates three hovering mushroom spores near the player that damage enemies. These spores last for 8 seconds before dissipating.
+
+{{Modifier|magic}}
+
+== Tips ==
+*This weapon is extremely useful for bosses that can move directly into the spores, such as [[the Hive Mind]] and [[Perforators]].
+**Additionally, the spores can be stacked before a boss fight to deal a large amount of damage.
+
+== Trivia ==
+*[[wikipedia:Hypha|Hyphae]] are long, branching filamentous structures of fungi.
+*The created mushrooms are the same as the ones created by the [[Truffle]] NPC, while defending himself from enemies.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

@@ -1,0 +1,61 @@
+{{item infobox
+| type = Weapon
+| damage = 560
+| damagetype = Summon
+| mana = 10
+| tooltip = Summons a cosmic energy spiral to fight for you<br/>The orb will fire swarms of homing energy bolts when enemies are detected by it<br/>Requires 10 minion slots to use and there can only be one energy spiral<br/>Without a summoner armor set bonus this minion will deal less damage
+| buff = Cosmic Energy (buff) | bufflink = no
+| bufftip = The cosmic energy will protect you
+| rare = 15
+| stack = 1
+| sell = {{value|0|30}}
+| use = 9
+| knockback = 0
+| hardmode = yes
+| postml = yes
+| debuff = Exo Freeze
+| debuffduration = 0.5 seconds
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 2 seconds
+| debuffchance2 = 100%
+| debuff3 = Frostburn
+| debuffduration3 = 2.5 seconds
+| debuffchance3 = 100%
+| debuff4 = On Fire!
+| debuffduration4 = 3 seconds
+| debuffchance4 = 100%
+| element1 = Cold
+| element2 = Magic
+| element3 = Stab
+| element4 = Machine
+}}
+{{summoned|Cosmic Energy|type=minion}}
+
+The '''Cosmic Immaterializer''' is a craftable Godseeker Mode [[summon weapon]]. It summons an entity of cosmic energy that fires homing energy bolts and exploding stars at enemies. It requires 10 minion slots to summon 1 energy, and only 1 energy can be active at once.
+
+When the energy bolts or exploding stars hit an enemy, they will inflict the following [[debuffs]]:
+*[[Exo Freeze]] (0.5 seconds)
+*[[Holy Flames]] (2 seconds)
+*[[Frostburn]] (2.5 seconds)
+*[[On Fire!]] (3 seconds)
+
+{{Modifier|summonnokb}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Cosmic_Immaterializer/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*If the player is not wearing the [[Tarragon armor]] summoner set or any later sets in progression, the minion deals 34% less damage.
+**The [[Omega Blue armor|Omega Blue]] and [[Fearmonger armor|Fearmonger]] armor sets will ''not'' have reduced damage.
+
+{{Exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

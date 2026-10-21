@@ -1,0 +1,25 @@
+{{npc infobox
+| environment = Overworld
+| ai = Fighter AI
+| damage = {{element|cold}} {{dv|20|30}}
+| life = {{dv|100|400}}
+| defense = 0
+| immune3 = Kami Flu
+| money = {{value|0|0|1|3}}
+| hardmode = no
+| Auric Soul|1-2|100%
+| hurt = NPC_Hit_14.wav
+| killed = NPC_Killed_12.wav
+| vulnerable1 = Cold
+| vulnerable2 = Machine
+}}
+
+The '''Dragon''' is a Pre-[[Hardmode]] [[enemy]] that appears across the Overworld. It tries to deal contact damage by walking through blocks towards the player. Its primary purpose is to drop [[Auric Soul|Auric Souls]].
+
+== Trivia ==
+* The Dragons sprite is very similar to that of the Wyvern, hinting at their connection in lore.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+}}

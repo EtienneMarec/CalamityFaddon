@@ -1,0 +1,45 @@
+{{addon|Calamity: Community Remix}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 45
+| use = 12
+| knockback = 0
+| damagetype = Spy
+| rare = 5
+| tooltip = It is said that in the past, Daedalus ascended from the void to grant man ice.<br/>If that were true, then it is surely the angels of heaven that would have fallen from above to do the same.<br/>Rapidly throws out a stream of magic ice that places upon tile or enemy hits<br/>Stealth Strikes shoot out a burst of ice
+| sell = {{value|0|7|20|0}}
+| proj = Ice Block (projectile).png
+| projcaption = Ice
+| velocity = 8
+| stack = 1
+| auto = yes
+| hardmode = yes
+| debuff = Glacial State
+| debuffduration = 3 seconds
+| debufftip = Cannot move
+| debuffchance=100%
+| element1 = Cold
+| element2=  Holy
+}}
+|{{item drops infobox
+| [[Snow Balla]] | 1 | {{dv|2.5%|5%}}
+}}
+}}
+
+'''The Last Lightice''' is a [[Hardmode]] non-consumable [[Spy]] [[weapon]] that is dropped by [[Snow Balla]]s. It rapidly throws out chunks of magic ice which turn into solid blocks of [[Ice Rod|temporary ice]] upon impact with enemies or tiles. 
+
+Performing a [[stealth strike]] with The Last Lightice shoots out a burst of 20 blocks in a 25 degree spread.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Last Lightice is the counterpart to [[The First Shadowflame]], both being Spy drops from early Hardmode invasions.
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}

@@ -1,0 +1,33 @@
+{{item infobox
+| auto = yes
+| type = Weapon
+| damagetype = Melee
+| damage = 57
+| knockback = 5.75
+| rare = 3
+| sell = {{value|0|0|80}}
+| stack = 1
+| use = 23
+| velocity = 8
+| tooltip = Shoots falling feathers
+| proj = Golden Aero Feather.png
+| projcaption = Golden Aero Feather
+| element1 = Holy
+| element2 = Stab
+}}
+
+The '''Goldplume Spear''' is a craftable [[Pre-Hardmode]] [[spear]] that autoswings. On swing, it shoots three gravity-affected, non-piercing feathers that deal 40% of the weapon's base damage.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Aerialite}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

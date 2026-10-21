@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| auto = yes
+| use = 14
+| rare = 0
+| color = #966432
+| sell = No value
+| debuff = Venom
+| debufftip = Losing life
+| debuffduration = 2 seconds (Bubbles)
+| debuffchance = 100%
+| proj = Sulphuric Acid Bubble.gif
+| projcaption = Sulphuric Acid Bubble
+}}
+|{{item drops infobox
+| [[Aquatic Scourge]]|5-15|100%
+}}
+}}
+
+'''Sulphurous Sand''' is a [[Pre-Hardmode]] [[block]] that composes most of the [[Sulphurous Sea]] [[biome]], which spawns upon world generation. It will leak water over time and is used to craft [[Seafood]] and the [[Ballistic Poison Bomb]] at a [[Hardmode Anvil]]. It also can be obtained by opening [[Abyssal Crate]]s, and is dropped by [[Aquatic Scourge]].
+
+When underwater, bubbles are released that cannot harm the player until they reach maximum size. When they do, they deal 20 damage and inflict [[Venom]] for 2 seconds.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

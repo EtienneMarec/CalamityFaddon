@@ -1,0 +1,68 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 160
+| knockback = 9.5
+| rare = 11
+| sell = {{value|0|22}}
+| stack = 1
+| auto = yes
+| use = 30
+| velocity = 12
+| tooltip = Rend the cosmos asunder!<br/>Fires a lance beam that splits multiple times as it travels
+| hardmode = yes
+| postml = yes
+| debuff = Elemental Mix
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| element1 = Magic
+| element2 = Stab
+}}
+
+The '''Elemental Lance''' is a craftable Godseeker Mode [[spear]]. It fires one gravity-affected cyan beam that splits into more beams with similar properties.
+
+Each usage of the Elemental Lance results in 162 orange beams at most, if the blue and pink beams do not prematurely dissipate on enemies. All beams can move through blocks.
+
+{{modifier|meleealtlate}}
+
+== Projectile Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Type !! Lifespan (seconds) !! Description
+|-
+| {{item|Elemental Lance Spear|Elemental Lance|mode=table|nolink=y}}
+| align=center | 1.5
+| Swung forwards in front of the player, shooting one Cyan Beam.
+|-
+| {{item|Elemental Lance Cyan|Cyan Beam|mode=table|nolink=y}}
+| align=center | 3
+| One is initially fired by the spear<br/>Releases three Blue Beams every second, totaling nine Blue Beams.<br/>Pierces indefinitely and has custom [[immunity frames]].
+|-
+| {{item|Elemental Lance Blue|Blue Beam|mode=table|nolink=y}}
+| align=center | 2
+| Releases three Pink Beams every second, totaling six Pink Beams.<br/>Pierces once and has custom immunity frames.
+|-
+| {{item|Elemental Lance Pink|Pink Beam|mode=table|nolink=y}}
+| align=center | 1.33
+| Releases three Orange Beams after one second.<br/>Can not pierce.
+|-
+| {{item|Elemental Lance Orange|Orange Beam|mode=table|nolink=y}}
+| align=center | 0.83
+| Can not pierce.
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Elemental}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]

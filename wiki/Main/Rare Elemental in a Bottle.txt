@@ -1,0 +1,43 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 5
+| tooltip = Summons a sand elemental to heal you<br/>;D
+| sell = {{value|0|4|80}}
+| stack = 1
+| hardmode = yes
+| buff=Rare Sand Elemental (buff)| bufflink = no
+| bufftip=The sand elemental will heal you}}
+|{{item drops infobox
+|[[Sand Elemental]]|1|{{dv|10%|16.67%}}
+}}
+}}
+{{summoned|Rare Sand Elemental|type=minion}}
+The '''Rare Elemental in a Bottle''' is a [[Hardmode]] [[covering]] that drops from [[Sand Elemental]]s.
+While equipped, it summons a Rare Sand Elemental that summons healing orbs while the player is damaged. These healing orbs are cast once every two seconds, slowly move upwards before disappearing after a few seconds, and restore 15 health each, effectively granting an extra 7.5 health regeneration per second.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The effect of the healing orbs and elemental is not boosted by having Summoner gear or a Summon weapon active, allowing the covering to be used effectively by any class.
+*[[Potions]] such as [[Heartreach Potion]] and [[Cadance Potion]] effectively grant homing to the Rare Sand Elemental's healing orbs.
+*The elemental emits a large amount of light when casting an orb.
+*The elemental attempts to position itself 10-18 blocks to the left side of the player.
+*The healing orbs spawned by the elemental cannot pass through blocks, greatly reducing its effectiveness in enclosed areas.
+
+== Trivia ==
+*In the mod's source files, the Rare Elemental in a Bottle is referred to as "WifeinaBottlewithBoobs".
+*The Rare Sand Elemental projectile was previously called "Drew's Sandy Waifu" in the mod's source. Drew (also known as MountainDrew or Fabsol) is the lead developer of the Calamity Mod.
+*This item used to be called "Rare Waifu in a Bottle", while the Rare Sand Elemental herself used to be called "Rare Sand Waifu". After that, they were known as "Madame in a Bottle" and "Madame Sandy", respectively.
+*In previous versions of the mod, the Rare Sand Elemental used the same AI as the normal Sand Elemental minion, dealing contact damage and summoning tornadoes. The summon can no longer deal damage and exists solely to heal the player.
+*If the {{fantag|Tranquility Mod}} [[Tranquility Mod]] is enabled, this item becomes unobtainable, due to being replaced with [[Elemental Souls|Sand Elementals' Soul]].
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Healing items]]
+[[Category:Defensive coverings]]

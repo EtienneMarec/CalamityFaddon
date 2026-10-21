@@ -1,0 +1,63 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 52
+| use = 32
+| knockback = 2.25
+| velocity = 14
+| tooltip = Struck enemies drop extra coins<br/>Right click to throw a coin in the air. Hitting the coin with a bullet redirects the shot into the nearest enemy<br/>If you have multiple coins up in the air, bullets will first redirect towards other coins up to a maximum of 4<br/>Coin ricochets will increase the damage of the bullet, provided the coins have been in the air for long enough<br/>Coin throws consume gold and silver coins
+| auto = yes
+| stack = 1
+| research = 1
+| rare = 5
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| debuff = Midas
+| debuffchance = 100%
+| debuffduration = 1 second (Midas Blast)
+| debufftip = Drop more money on death
+| proj = Silver Coin.gif
+| projcaption = Silver Coin
+| proj2 = Gold Coin.gif
+| proj2caption = Gold Coin
+| sound = CrackshotColtShot.wav
+| soundtext = Primary Fire
+| sound2 = Ultrabling.wav
+| sound2text = Secondary Fire
+| sound3 = UltrablingHit.wav
+| sound3text = Coin Hit
+| element1 = Holy
+| element2 = Stab
+}}
+
+The '''Midas Prime''' is a craftable {{fantag|Calamity: Community Remix}} [[Hardmode]] [[gun]] which drops from [[Pirate Deadeye]]s, and is the indirect upgrade to the [[Crackshot Colt]]. When used with its primary fire (left-click), it accurately fires a high velocity gold blast which cannot pierce tiles nor enemies, but inflicts the [[Midas]] [[debuff]]. When used with its secondary fire (right-click), a [[Silver Coin]] or [[Gold Coin]] is consumed and fired with an upwards curve. Coins are gravity-affected, move slowly, and cannot damage enemies. When the blast collides with the coin, it is able to ricochet up to 3 other coins, each within a 62.5 tile radius. Else, it ricochets to a nearby enemy within a 56.25 tile radius. The coin is recoverable at a 100% chance if shot by the blast, and 25% if not.
+
+Colliding with a coin increases the blast's damage depending on the current lifespan of the coin, which can be seen by its fading glow. The longer the coin has lasted, the more damage it is able to deal, up until 1.67 seconds where the multiplier is maximized, and it stops glowing. The damage can be multiplied up to 1.5 times per silver coin hit, and 1.75 times per gold coin hit. This damage is multiplicative, allowing the blast to deal up to 9.38 times its original damage after striking four ripen gold coins.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+== Notes ==
+*The formula for the coin's multiplier is <code>1 + [(Lifetime / 100) ^ 3] * (Max Multiplier - 1)</code> where <code>Lifetime</code> represents the time the coin has lasted in frames at the time it is struck.
+**For example, striking a silver coin after it has lasted a full second, the damage multiplier is equal to 1.108. <code>1 + [(60 / 100) ^ 3 * (1.5 - 1)] = 1 + [0.216 * 0.5] = 1.108</code>
+*The gun noticeably recoils while used with either fire. However, this does not affect the player's velocity in any way.
+*The secondary fire is five times as fast as the primary fire, but does not auto-use.
+*While holding the item, coins fired by the Midas Prime have eight times the grab range when dropped as items.
+*If no Gold or Silver Coins are available, Platinum Coins are automatically consumed by breaking down into Gold Coins on use.
+*Coins are usable from the player's [[Piggy Bank]], [[Tgc:Safe|Safe]], or [[Tgc:Defender's Forge|Defender's Forge]] but not from the [[Tgc:Void Vault|Void Vault]].
+
+== Trivia ==
+*Various aspects of the weapon are a reference to ''[[wikipedia:Ultrakill|ULTRAKILL]]''.
+**The item name is a word play referencing [[wikipedia:Midas|Midas]], a king in Greek mythology with a golden touch, and [https://ultrakill.fandom.com/wiki/Minos_Prime Minos Prime], a boss in ''ULTRAKILL''.
+**The function and sound effects are based on the [https://ultrakill.fandom.com/wiki/Marksman_Revolver Marksman Revolver].
+**While pressing the Left Shift key, the tooltip changes to the following phrase, which is identical to the poster text and opening lines of the game:<br/>{{color|MANKIND IS DEAD.|#FF0000}}<br/>{{color|BLOOD IS FUEL.|#FF0000}}<br/>{{color|HELL IS FULL.|#FF0000}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

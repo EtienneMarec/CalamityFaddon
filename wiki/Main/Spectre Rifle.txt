@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 150
+| use = 25
+| knockback = 7
+| stack = 1
+| rare = 8
+| velocity = 12
+| tooltip = Converts musket balls into powerful homing souls
+| sell = {{value|0|16}}
+| critical = 26%
+| hardmode = yes
+| element1 = Dark
+}}
+
+The '''Spectre Rifle''' is a craftable [[Hardmode]] [[gun]] that turns any [[Musket Ball]]s into high-velocity, homing Spectre projectiles that chase enemies. Its high damage and critical strike chance give it excellent one-off damage potential, but a relatively slow fire rate brings it down in fights against large crowds.
+
+Holding right click will use its "zoom" ability, which scrolls the viewing area of the screen in the direction of the cursor.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*This weapon's seeker projectiles are excellent for anti-air fire, as any missed shot will just turn around and strike the missed target.
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 61
+| mana = 10
+| knockback = 3
+| use = 19
+| tooltip = Summons four decaying flowers over your head<br/>The combined flowers consume two minion slots
+| buff = Wither Blossoms | bufflink = no
+| bufftip = Pestilence surrounds you
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| stack = 1
+| auto = yes
+| rare = 8
+| sell = {{value|0|12}}
+| hardmode = yes
+| element1 = poison
+}}
+{{summoned|Wither Blossom|type=minion}}
+
+The '''Wither Blossoms Staff''' is a craftable [[Hardmode]] [[summon weapon]] that is an upgrade to the [[Tundra Flame Blossoms Staff]]. When used, it summons up to four dark-colored flowers that orbit around the player, and fire homing bolts at nearby targets. The bolts pierce once and travel through terrain, splitting into two plague seekers when destroyed. Both bolts and seekers inflict the [[Plague]] [[debuff]]. Each flower consumes half a minion slot.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,46 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 48
+| knockback = 3
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| velocity = 18
+| use = 12
+| tooltip = Converts wooden arrows into plague arrows that explode into bees on death
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| hardmode = yes
+| proj = Plague Arrow.png
+| projcaption = Plague Arrow
+| proj2 = Bee 1.png
+| proj2caption = Bee
+| element1 = Poison
+| element2 = Machine
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Reemergence''' is a [[Hardmode]] [[repeater]] that is dropped by [[The Plaguebringer Goliath]]. If [[Wooden Arrow]]s are used as [[ammo]], the arrow is replaced with a plague arrow that explode into bees upon tile or enemy contact, inflicting the [[Plague]] debuff onto any hit enemy.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Reemergence is the only repeater in the game that does not have auto use.
+**This is particularly ironic as [[Malevolence]], a normal bow, does have auto use.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Repeaters]]

@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 40
+| mana = 16
+| knockback = 3
+| use = 27
+| velocity = 10
+| tooltip = Fires a spread of gas clouds that slow down after hitting an enemy
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| stack = 1
+| auto = yes
+| hardmode = yes
+| rare = 5
+| sell = {{value|0|7|20}}
+| proj = Miasma Gas.png
+| projcaption = Miasma Gas
+| element1 = Poison
+}}
+
+The '''Miasma''' is a craftable [[Hardmode]] [[wand]]. It fires a random spread of three to five fast gas cloud projectiles that slows down every time they hit an enemy, until it reaches a stop. After being stationary for a short time, the clouds decay into dust and disappear. Clouds can pierce up to nine enemies and also inflict the [[Irradiated]] [[debuff]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*A miasma is a highly unpleasant or unhealthy smell or vapor.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

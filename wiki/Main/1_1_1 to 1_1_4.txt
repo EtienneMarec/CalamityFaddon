@@ -1,0 +1,46 @@
+{{patch infobox
+| patchname = Boss Buffs
+| release = 6/12/2016
+| image = The Devourer of Gods (1.1).png
+}}
+{{Tocright}}
+The '''1.1.1, 1.1.2, 1.1.3, and 1.1.4''' updates focused on fixing the generation of [[Aerialite Ore]] and reworking the mod's [[bosses]]. 1.1.1, 1.1.2, and 1.1.3's attempts to fix the generation of Aerialite Ore failed.
+
+== Additions ==
+*Added [[Devourer Spawn]].
+
+== Changes ==
+=== [[Calamitas]] ===
+*Now fires faster in Expert mode.
+*Now gains a significant amount of damage when her brothers are killed.
+*Can no longer despawn.
+
+=== [[Desert Scourge]] ===
+*Buffed health from {{dv|1625|2762}} to {{dv|5225|8882}}.
+*Buffed head damage from {{dv|25|37}} to {{dv|40|60}}.
+*Buffed body damage from {{dv|10|15}} to {{dv|20|31}}.
+*Buffed tail damage from {{dv|5|7}} to {{dv|9|13}}.
+
+=== [[The Devourer of Gods]] ===
+*Now spawns Devourer Spawns, which will spawn more frequently as its health gets lower.
+*Speed greatly increased, which will increase even further as its health gets lower.
+*Body can now fire nebula lasers.
+*Body can now fire frost beams in Expert Mode.
+*Can no longer despawn.
+*Can now properly fly.
+*Now has 150 segments.
+*Head now deals {{expert|500}} damage in Expert Mode.
+
+=== [[Slime God]] ===
+*Fires projectiles more frequently.
+*Can no longer despawn.
+
+== Fixes ==
+*[[Desert Scourge]] and [[The Devourer of Gods]] no longer become near invincible in Expert Mode.
+*Aerialite Ore should no longer generate in [[tree]]s, and should only generate [[underground]].
+*[[Verium Bullet]]'s projectile sprite is now properly invisible.
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

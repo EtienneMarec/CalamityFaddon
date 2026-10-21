@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 47
+| knockback = 6
+| velocity = 9
+| mana = 20
+| use = 38
+| auto = yes
+| stack = 1
+| tooltip = Summons an energy pulse at the cursor to periodically summon homing spirits
+| rare = 8
+| sell = {{value|0|16}}
+| hardmode = yes
+| proj = Granite Pulse.gif
+| projcaption = Granite Pulse
+| proj2 = Granite Spirit.png
+| proj2caption = Granite Spirit
+| element1 = Dark
+}}
+|{{item drops infobox
+| [[Necromancer]]|1|{{dv|4%|6.67%}}
+}}
+}}
+{{distinguish|Ark of the Ancients|a [[Hardmode]] [[sword]]}}
+[[File:Wrath of the Ancients (demo).gif|frame|right|The Wrath of the Ancients being used against a [[Super Dummy]].]]
+
+The '''Wrath of the Ancients''' is a [[Hardmode]] [[spell tome]] that drops from [[Necromancer]]s in the post-[[Plantera]] [[Dungeon]]. When used, it casts an energy pulse at the mouse cursor, which fires homing spirits at intervals for a significant amount of time. It is later used to craft [[The Dance of Light]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

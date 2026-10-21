@@ -1,0 +1,240 @@
+<section begin=npc infobox />{{npc infobox
+| name = Jungle Dragon, Yharon
+| imagealt = [[File:Brimstone Elemental.png|280px]]
+| type = Boss
+| environment = Jungle
+| ai = Duke Fishron AI
+| damage = {{dv|330|528|660|759}} (Contact)<br/>{{dv|180|300|332|348}} (Flare Bomb)<br/>{{dv|200|340|376|396}} (Flarenado)<br/>{{dv|300|520|548|564}} (Infernado)<br/>{{dv|180|300|332|348}} (Phase 1 Flare Dust)<br/>{{dv|250|440|464|476}} (Phase 2 Flare Dust)<br/>{{dv|250|440|464|476}} (Splitting Fireball)<br/>{{dv|300|500|550|632}} (Death Flare Bomb Ring)
+| life = {{dv|1,085,000|1,736,000|2,080,000}}
+| defense = 90
+| dr = 22
+| knockback = 100
+| debuff = Dragon Fire
+| debufftip = Losing life, reduced movement speed
+| duration = 3 seconds (All projectiles except Flarenado and Infernado)<br/>5 seconds (Flarenado)<br/>7 seconds (Infernado)
+| debuffchance = 100%
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = On Fire!
+| vulnerable1 = Magic
+| vulnerable2 = Dark
+| vulnerable3 = Machine
+| resistant1 = Holy
+| resistant2 = Fire
+| money = {{value|0|0|0|0|1}}
+| Yharon Soul Fragment|{{dv|15-22|22-28}}|100%
+|group|One of the following 8 weapons will always drop:|8
+| Yharon's Kindle Staff|1|{{dv|25%|33.33%}}
+| The Final Dawn|1|{{dv|25%|33.33%}}
+| Dragon's Breath|1|{{dv|25%|33.33%}}
+| Phoenix Flame Barrage|1|{{dv|25%|33.33%}}
+| The Burning Sky|1|{{dv|25%|33.33%}}
+| Wrathwing|1|{{dv|25%|33.33%}}
+| Dragon Rage|1|{{dv|25%|33.33%}}
+| Chicken Cannon|1|{{dv|25%|33.33%}}
+| Dragon Flame Barrage|1|{{dv|25%|33.33%}} {{fantag|Calamity: Community Remix}}
+| Yharim's Gift|1|100%
+| Drew's Wings|1|100%
+| Yharim's Crystal|1|10%
+| Omega Healing Potion|5-15|100%
+| Forgotten Dragon Egg|1|10%
+| McNuggets|1|10%
+| Yharon Mask|1|14.29%
+| Yharon Trophy|1|10%
+| Yharim Bar|{{dv|0|5-7|6-8}}|100% {{fantag|Calamity: Community Remix}}
+| Chicken Nugget|5000|100%
+| custom| {{item|Jungle Dragon, Yharon (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Jungle Dragon, Yharon)|Treasure Bag|note=(Jungle Dragon, Yharon)|wrap=y}}
+: • {{item|Fox Drive|note=(In [[Revengeance Mode]] only)|wrap=y}}|{{expert|100%}}
+| image2 = Yharon map.png
+| image2caption = Map Icon
+| hurt = YharonHurt.wav
+| killed = YharonDeath.wav
+| sound2 = YharonRoar.wav
+| sound2text = Roar
+| sound3 = YharonRoarShort.wav
+| sound3text = Short Roar
+| sound4 = YharonFire.wav
+| sound4text = Fire Breath
+| sound5 = Item_20.wav
+| sound5text = Fire Ring Cast
+| sound6 = Item_14.wav
+| sound6text = Fireball Explosion
+| hardmode = yes
+| postml = yes
+| boxwidth = 24em
+}}{{Addon|Fargo’s Souls DLC (Fargo Souls Mod x Calamity)}}
+<section end="npc" infobox="" />
+[[File:Yharon_Trophy.png]] <big> ''"The loyal guardian of the Jungle Tyrant"'' </big> [[File:Yharon_Trophy.png]]
+
+'''Jungle Dragon, Yharon''' (Japanese: ファイヤー ''Fire'') is a fire-type Pokemon [[boss]] fought in the [[Jungle]]. she is intended to be fought after [[The Devourer of Gods]]. The player should be well equipped and prepared before summoning she as the boss is incredibly challenging.
+
+Defeating Yharon will provide the player with [[Yharon Soul Fragment]]s and letting players into the [[Dragon's Aerie]], granting the player access to one of the highest tiers of equipment.
+
+== Spawn ==
+Yharon does not spawn on her own, and requires the player to summon she by using the [[Jungle Dragon Egg]] while in the [[Jungle]].
+
+== Behavior ==
+Yharon is incredibly fast and deadly, almost always charging the player at high speeds, dealing an extreme amount of contact damage. Between these charges, she will also perform a plethora of other deadly attacks, from firing a variety of projectiles, summoning many lingering Flarenadoes and Infernadoes, and spawning several minions to fight alongside him.
+
+At the start of the fight, Yharon will summon two massive stationary flame pillars {{dv|218.75||187.5||125}} blocks to the left and right of the player (measured from their centers) to serve as arena borders; Hence, the pillars will not be perfectly centered on the player's current position. Touching the flame pillars will deal massive damage, and successfully leaving the arena or flying above Yharon's designated enrage height (660 blocks high) will cause Yharon to become enraged, which massively increases her speed and quintuples her damage until the player returns.
+
+Yharon's charging speed is adjusted based on her distance from the player, meaning that he is difficult to outrun and her can quickly approach the player from anywhere in the world.
+
+If the player eats [[Delicious Meat]] during the battle, Yharon and the player will become immune to all damage for 5 seconds. Yharon will additionally stop attacking for 5 seconds and gradually heal 5% of its maximum health. This event can only occur once per battle, and [[Delicious Meat]] will have no further effects.
+
+=== Attacks ===
+==== Phase 1 ====
+===== Subphase 1 =====
+*Charges twice consecutively.
+*Spawns a line of {{item|FlareBomb|nolink=yes|ext=gif|size=16px|Flare Bombs}} which start slow, but rapidly accelerate and home in on the player, however cannot turn very well.
+*Charges once, and does a fast charge, in which he goes twice as fast and far.
+**Yharon will remain stationary for a second and roar before he performs his fast charges. During this telegraph she gains 40% damage reduction.
+*Creates two {{item|Flare|nolink=yes|ext=gif|size=24px|Flare Tornado}} projectiles, which fall to the ground diagonally away from her. Upon contact with a tile or after not hitting a tile for a second, a large Flarenado is spawned.
+*Upon reaching {{dv|75%|85%|90%|}} health, Yharon transitions to her second subphase.
+
+===== Subphase 2 =====
+*Charges twice, waits, and then once quickly.
+*Teleports above the player, and flies repeatedly in a circle, shooting {{item|FlareDust|nolink=yes|ext=gif|size=16px|Flare Dusts}} out in a bullet-hell style circle pattern, with random openings of various sizes.
+**Yharon does not deal contact damage during his bullet-hell style attacks and gains 40% damage reduction.
+*Waits for 3 seconds after the flare dust rings and then does 2 slow charges at the player.
+*Flies in a loop, creating a ring of {{item|FlareDust2|nolink=yes|ext=gif|size=16px|Homing Flare Dusts}} that seek toward the player's initial position after a long delay.
+*Creates a {{item|BigFlare|nolink=yes|ext=gif|size=30px|Big Flare Tornado}} which homes in on the player. Upon contact, a massive Infernado appears at the player's position. This attack makes me want to kill myself.
+*Creates a [[Slime Gun EX|Gun]] which fires bullets in a spread motion. 
+*Upon reaching {{dv|62.5%|70%|75%|80%}} health, Yharon transitions to her third subphase.
+
+===== Subphase 3 =====
+*Charges once normally and then twice quickly.
+*Flies in a loop, creating a ring of Homing Flare Dusts that seek toward the player's initial position after a long delay.
+*Spawns a line of flare bombs, which fly towards the player, attempting to deal damage by ramming them or shooting giga flares, in the flame's cases.
+*Does one normal, then one fast charge.
+*Creates a homing Flare Tornado, which spawns a Flarenado upon impact.
+*Teleports near the player, and flies repeatedly in a circle, shooting flare dusts out in a different bullet-hell style star-shaped pattern.
+*Upon reaching 55% health, Yharon transitions to her second phase.
+
+==== Phase 2 ====
+<big> ''"The air is getting warmer around you."'' </big>
+*Infernados in this phase are smaller and last for a longer amount of time.
+===== Subphase 4 =====
+*Summons a {{item|BigFlare|nolink=yes|ext=gif|size=30px|Big Flare Tornado}} that homes in on the player.
+*Charges twice normally again before flying horizontally while releasing a wall of Homing Flare Dusts that seek toward the player's initial position after a long delay.
+*Charges twice quickly before flying horizontally while firing several gravity-affected {{item|YharonFireball|nolink=yes|ext=gif|size=10px|Yharon Fireballs}} that, after falling for long enough or upon contact with tiles, quickly launch three Yharon Fireballs into the air that rain back down. These resulting Yharon Fireballs do not split.
+*Charges twice normally once more and then flies in a loop, doing the flare dust bullet hell.
+*Upon reaching {{dv|27.5%|38.5%|44%|}} health, Yharon transitions to her fifth subphase.
+
+===== Subphase 5 =====
+*Uses several fast charges in place of the short charges.
+*The flare dust bullet hells and the wall of homing flare dust are switched in her attack pattern.
+*Upon reaching {{dv|13.8%|22%|27.5%|35.8%}} health, Yharon transitions to her sixth subphase.
+
+===== Subphase 6 =====
+*The flare dust rings are now in the star-shape seen in subphase 3
+*Similar to previous subphases with the new inclusion of teleports that occur right before a fast charge.
+*All charges in the subphase are fast.
+
+When Yharon is killed, a large ring of {{item|FlareDust2|nolink=yes|ext=gif|size=16px|Flare Bombs}} is released at his death point. These travel outward before detonating after a few seconds to allow safe retrieval of Yharon's loot.
+
+=== In [[Expert Mode]] ===
+*Yharon gains an attack at the beginning of subphase 4, 5, and 6, in which she spawns 3 massive rings of flare dust that home in on the player after 3 seconds.
+*Yharon switches between her attacks at a faster rate.
+*Yharon transitions into subphase 2 at 70% health, and subphase 3 at 40% health.
+*Yharon transitions into subphase 5 at 70% health, and subphase 6 at 40% health.
+*Yharon's charges are faster and done in much faster succession.
+
+=== In [[Revengeance Mode]] ===
+*Yharon gains a new subphase when below {{dv|||11%|16.5%}} health:
+**Teleports to one side of the player, then does 2 fast charges, with both having a shorter telegraph.
+**Teleports near the player and does the flare dust bullet hell, and waits for 3 seconds before repeating.
+**All attacks deal 10% more damage.
+*Yharon's enrage height is reduced to 555 blocks from the spawning position and the border pillars spawn 187.5 blocks away from the starting position.
+*Yharon transitions into subphase 2 at 80% health, and subphase 3 at 50% health.
+*Yharon transitions into subphase 5 at 80% health and subphase 6 at 50% health.
+*Charges and teleports closer to the player.
+
+=== In [[Death Mode]] ===
+*Yharon has decreased delays between attacks.
+*Most of Yharon's slow charges are replaced with fast charges.
+*Yharon spawns in subphase 2, and in subphase 5 after Phase 2 begins.
+*Yharon transitions into subphase 3 at 60% health.
+*Yharon transitions into subphase 6 at 65% health and subphase 7 at 30% health.
+*Yharon launches more fireballs during his second phase.
+*Summons more Infernadoes in place of Flarenadoes.
+
+=== In [[Malice Mode]] ===
+*The border pillars spawn 125 blocks away from the starting position.
+*Attacks and charges become much faster.
+*Density and speed of bullet-hell attacks increases as Yharon loses health.
+
+== Aftermath ==
+Once Yharon is defeated, the following things happen:
+*The [[Bandit]] will begin selling [[Dragon Scales]].
+*The Pathway to the [[Dragon's Aerie]] opens up, allowing players through
+*The [[Murasama]] can be used properly.
+*The Offensive and Defensive Guardians from the [[Profaned Soul Artifact]] now deal 225 damage.
+*[[Sky Crate]]s begin dropping [[Dragonfruit]] if a [[Wyvern]] is alive while opened.
+
+== Notes ==
+*Yharon's enrage works differently from other bosses, as it is pre-determined from where the player stands when using the Jungle Dragon Egg. That number is 660 blocks in height in Normal and Expert mode and 555 blocks high in Revengeance and Death Mode.
+*If Yharon is enraged and not on screen in his second phase, he will despawn in exactly 2.5 seconds.
+*Flarenadoes and Infernadoes will not deal damage for a short period after spawning, to prevent cheap hits on the player.
+*While Yharon is alive, the world is colored deeply with orange. This will only happen if the Lighting option in the Settings Menu is set to "Color" or "White".
+*Yharon, while still technically able to be fought pre-Devourer of gods, it is intended for it to be fought after.
+*Consuming a [[Yharic Delight]] will cause Yharon to explode.
+*Yharon was a human and is on the title screen.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating Yharon, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Jungle Dragon, Yharon strategies|Guide:Jungle Dragon, Yharon strategies]].}}
+*Always be cautious when moving horizontally, as the arena flame pillars will instantly kill the player without warning.
+**It is advisable to put up solid blocks in front of the pillars to prevent accidentally contacting them. Because the places of the pillars are measured from their bottom-left corners, the actual block to summon Yharon is not in the center of the arena. The arena should have a height of {{dv|660||555}} blocks and a width of {{dv|311||253}} blocks. The block to summon Yharon needs to be the {{dv|128th||100th}} block from the left wall. This will ensure the player never touches the pillars.
+*A good tactic to avoid Flarenadoes is to fly to the edge of the arena and let the Detonating Flames hit you, dealing no damage to you and forcing the Flarenado to spawn out of the way of the fight.
+*Using a dash covering that deals damage, such as the [[Elysian Aegis]] or [[Asgardian Aegis]], can be very vital against Yharon when he's charging as he will take damage and deal no contact damage when the player is dashing.
+*The [[Rod of Discord]] or [[Normality Relocator]] are great tools to use during the fight to avoid the flarenados and some of his attacks.
+*Yharon's "snack break" mechanic will effectively pause the fight for 5 seconds, giving you time to heal or get away from him at the cost of having to deal 5% more of his health than usual.
+*Yharic Delights can be used to instantly kill Yharon if the player wishes to obtain mass quantities of Yharon's drops.
+
+== Trivia ==
+*Yharon's first phase [[Music|theme]] is [https://www.youtube.com/watch?v=Avp6YE7qINg '''Infernal Catharsis (Rebirth)'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' will play instead.
+**This theme is a remake of [https://www.youtube.com/watch?v=1FnxtW73hWE '''Infernal Catharsis'''], which is now [[Music Boxes|Music Box]] exclusive, and was also composed by DM DOKURO.
+***This is the only theme that is not on DM DOKURO's official album. This is because when he made the "Rebirth" version, it was intended to replace the original one (and has).
+***Prior to the release of the original Infernal Catharsis, Yharon's theme was [https://www.youtube.com/watch?v=iVZsZF5yiUE Kyurem's theme] from the game ''[https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Mystery_Dungeon:_Gates_to_Infinity Pokémon Mystery Dungeon: Gates to Infinity]'' (and was later reused in ''[https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Super_Mystery_Dungeon Pokémon Super Mystery Dungeon]'', both themes being played when fighting Kyurem).
+*Yharon's second phase theme is [https://www.youtube.com/watch?v=5GcPA3C0QeI '''Roar of the Jungle Dragon'''], which was also composed by DM DOKURO.
+**This song contains full lyrics sung by DM DOKURO himself. The song is a warning from Yharon to his master, Yharim, about the strength and unstoppability of the player character. The song's lyrics are considered non-canonical to the mod's official lore. This song is also a Certified Banger.
+**If the Calamity Music add-on mod is disabled, the Moon Lord's theme will play instead.
+*The firewall borders in the fight are based on an attack used by Senator Armstrong from the game ''[[wikipedia:Metal_Gear_Rising:_Revengeance|Metal Gear Rising: Revengeance]]''.
+*Yharon's design took heavy inspiration from [https://megaman.fandom.com/wiki/Falzar Falzar] from the ''Mega Man Battle Network'' series.
+*Yharon was previously known as "Jungle Phoenix, Yharon".
+*Yharon used to have a 4th subphase in phase 1, however this was removed in update [[1.4.5.001]].
+*Yharon can be fought before any boss has been defeated, as the Jungle Dragon Egg's recipe requires no [[Hardmode]] materials. The [[Exotic Pheromones]] can be crafted using [[Crimtane Bar|Crimtane]]/[[Demonite Bar]]s and [[Feather]]s, allowing access to the required [[Effulgent Feather]]s.
+*[[The Dragonfolly]] is a failed clone of Yharon.
+*Before [[1.5.0.001]], Yharon had to be fought on two different occasions. on the first fight, he would fly away at 10% health and buff Solar Eclipses (which are now buffed post-[[Devourer of Gods]]). on the second fight, Yharon would reach 10% health and regenerate back to 90% health, in which the second phase began.
+**Yharon would use '''Infernal Catharsis (Rebirth)''' as his theme during the first fight, and the original '''Infernal Catharsis''' would play during phase 1 of the second fight. He still used '''Roar of the Jungle Dragon''' as his second phase theme.
+**Auric Ore would only generate after defeating the second phase.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, his unique despawn message will be "What a shame, at least the master will be pleased to hear of this."
+*Alongside [[Devourer of Gods|the Devourer of Gods]], Yharon is one of two [[Bosses|boss]] whose theme completely switches when changing phases.
+*The mod creators had a big controversy if Yharon should be blue or orange, this is still undecided.
+*If the player uses another mod's butcher feature or uses an attack strong enough to deal more than 40% of Yharon's HP, Yharon will kill the player by blowing them up with an explosive middle finger.
+
+== Quotes ==
+
+* "So you're the one who opposes the master? Then, you shall burn like countless before you.” (When summoned)
+* "You've lasted longer than most. Not surprising, considering your previous accomplishments” (When Jungle Dragon, Yharon reaches its second subphase)
+* "Still, you persist? I might need to put in my all..." (When Jungle Dragon, Yharon reaches its third subphase)
+* "Alright, enough toying with you! It's time I showed you my full power. Take a good look, for it will be your last!" (When Jungle Dragon, Yharon reaches its second phase)
+* "You will not know victory, child. Not this time." (When Jungle Dragon, Yharon reaches its fourth subphase)
+* "How? How do you still stand in this blistering heat?!" (When Jungle Dragon, Yharon reaches its fifth subphase)
+* "ENOUGH! You are but a speck in comparison to the master! What hope do you think you'll have when you face him?" (When Jungle Dragon, Yharon reaches its sixth subphase)
+* "GRRAah! So you have bested me... I suppose I should have expected that. Annihilation waits at the end of this road, but for who?... If you're watching, master. I didn't want this to be the end of our time together, but it seems that it no longer matters. Prepare yourself, for they are getting closer than ever... goodbye." (When Jungle Dragon, Yharon dies)
+* "Are you trying to escape? Apologies, but I cannot let that happen." (When Jungle Dragon, Yharon enrages)
+* "Is that the crustacean's product? It baffles me how such a being was capable of creating a business as large as that... Oh, but that's neither here nor there." (If the player consumes a Delicious Meat during the battle)
+* "I'M GONNA YHAR" (If the player consumes a Yharic Delight during the battle)
+* "THE ENEMY ASCENDED BEYOND YOUR CONTROL, OR WAS THAT ALL YOUR INTENTION? THEY HAVE MANAGED TO DEMOLISH WHATEVER WE MADE,BUT YOU'RE FAILING TO COMPREHEND! IF THEY CAN, THEY WILL EASILY BUTCHER YOU WHOLE, WHILE YOU'RE BLINDED BY YOUR DEPRESSION! I HAVE GOTTEN TO THE POINT WHERE I'M JUST TOO AFRAID THAT I'M GOING TO YHAR!" (When the player is holding a Yharic Orb)
+
+
+== See also ==
+*[[Dragon God, Yharon]], a removed future variant of this boss.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

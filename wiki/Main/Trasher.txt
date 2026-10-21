@@ -1,0 +1,38 @@
+{{npc infobox
+| type = Enemy
+| environment = Sulphurous Sea
+| ai = Trasher AI
+| damage = {{dv|50|100}}
+| life = {{dv|200|400}}
+| defense = 22
+| knockback = 100
+| banner = yes
+| money = {{sc|30}}
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| duration = 3 seconds
+| debuffchance = 100%
+| custom| {{item|Gatligator|note=(In [[Hardmode]])|wrap=y}}|10%
+| Diving Helmet| 1| 5%
+| custom| {{item|Trash Can (pet)|Trash Can|wrap=y}}|5%
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Irradiated
+| immune4 = Sulphuric Poisoning
+| vulnerable1 = Machine
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_5.wav
+}}
+
+The '''Trasher''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Sulphurous Sea]]. In water, it swims quickly towards the player in an attempt to attack them, but can also walk slowly on land. It moves faster as it loses more health. It can spawn in both water and on land.
+
+== Notes ==
+*If the [[Angler]] is not present in the world, he will drop out of the Trasher when it is killed.
+*If the Angler is present in the world, when killed by a Trasher in [[Hardmode]] he will drop a [[Golden Fishing Rod]].
+*The Trasher will remain passive until provoked by the player, meaning that summoned minions will not directly attack the Trasher immediately; however, they will still deal contact damage and will walk toward the player when on land.
+*It will also swim through blocks, similar to [[Cnidrion]].
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

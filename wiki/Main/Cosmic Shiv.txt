@@ -1,0 +1,58 @@
+{{dedicated|Yatagarasu|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 14
+| sell = {{value|0|28}}
+| damage = 218
+| knockback = 9
+| use = 18
+| tooltip = Definitely don't underestimate the power of shivs<br/>Fires a cosmic beam that homes in on enemies<br/>Upon hitting an enemy, a barrage of offscreen objects home in on the enemy as well as raining stars<br/>Shortflurry attacks have a chance to fire a second beam, grants the player Cosmic Freeze, and increase melee speed, DR, and defense
+| debuff = Brimstone Flames
+| debuffduration = 2 seconds (Contact)<br/>1 second (Orb, Blade)
+| debuffchance = 100%
+| debuff2 = Frostburn
+| debuffduration2 = 2 seconds (Contact)<br/>1 second (Orb, Blade)
+| debuffchance2 = 100%
+| debuff3 = Holy Flames
+| debuffduration3 = 2 seconds (Contact)<br/>1 second (Orb, Blade)
+| debuffchance3 = 100%
+| debuff4 = God Slayer Inferno
+| debuffduration4 = 2 seconds (Contact)<br/>1 second (Orb, Blade)
+| debuffchance4 = 100%
+| auto = yes
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Cosmic Shiv Blade.png
+| projcaption = Cosmic Shiv Blade
+| proj2 = Galaxian Star.png
+| proj2caption = Galaxian Star
+| element1 = Magic
+| element2 = Cold
+| element3 = Stab
+}}
+
+The '''Cosmic Shiv''' is a craftable Godseeker Mode [[shortsword]] that is the direct upgrade to the [[Elemental Shiv]]. When used, it releases homing cosmic orbs that travel in a sine-wave pattern. Upon contacting an [[enemy]], the orbs spawn several cosmic blades and cause galaxy stars to rain down. [[True melee]] hits, orbs, and blades all inflict the [[Brimstone Flames]], [[Frostburn]], [[God Slayer Inferno]], and [[Holy Flames]] [[debuffs]].
+
+When the weapon's [[Shortstrike]] ability activates, each stab has a 20% chance to shoot out a second identical beam. The player also gains the [[Cosmic Freeze]] buff, and 20% increased melee speed, defense, and damage reduction.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Its past damage value being 666 was a reference to the [[wikipedia:Number of the beast|number of the beast]].
+
+{{Cosmilite}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]

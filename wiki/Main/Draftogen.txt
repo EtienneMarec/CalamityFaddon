@@ -1,0 +1,49 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 180
+| velocity = 14
+| use = 25
+| knockback = 0.3
+| rare = 4
+| auto = yes
+| tooltip = Caution: Please keep away from fire sources
+| sell = {{value|0|10|0}}
+| stack = 1
+| debuff = Suffocation
+| debuffchance = 100%
+| debufftip = Losing Life
+| debuffduration = ∞ seconds (Gas)
+| debuff2 = Hellfire
+| debuffchance2 = 100%
+| debufftip2 = Slowly losing Life
+| debuffduration2 = 3 seconds (Spark)
+| element1 = Poison
+| element2 = Fire
+}}
+{{item drops infobox
+| [[Destroyer of Sanity]] | 1 | {{dv|25%|33.33%}}
+}}
+
+The '''Draftogen''' is a [[Pre-Hardmode]] [[Ranged weapons|Ranged Weapon]] that can be dropped by the [[Destroyer of Sanity]]. Every press of the {{Key|use}} pumps out a waft of lingering green gas that gets larger the longer it lingers. These gas inflicts the [[Suffocation]] debuff to any enemies/players inside the gas. The gas lasts for 20 seconds before fading away, as if its dissipating.
+
+Clicking {{Key|open}} fires a spark that deals 75% its damage, and can inflict the [[Hellfire]] debuff.
+
+If any of the player's fire-based debuff inflicting projectiles touches the gas, it explodes, dealing big damage proportional to the weapon's damage, the debuff's DoT, and the igniting projectile's damage. This also detonates the gas around it, dealing the full damage as the initial one.
+
+{{Modifier|ranged}}
+
+== Notes ==
+*The formula for calculating the resulting explosion's damage is as follows: <br/><math>[explosion dmg = ((X/10)*(Y/10))*(25 (Z/2))]</math>,<br/>where:
+**X is this weapon's damage,
+**Y is the damage of the igniting projectile, and
+**Z is whatever fire-related debuff has the highest DoT when inflicted on an enemy.
+***All of them are to be rounded to the nearest natural number after division.
+*The maximum size the gas can get is 15 tiles.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

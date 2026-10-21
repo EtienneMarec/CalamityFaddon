@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| stack = 9999
+| placeable = yes
+| consumable = yes
+| rare = 0
+| color = #003232
+| sell = No value
+| auto = yes
+| use = 14
+}}
+|{{item drops infobox
+| [[Clam]]| 8-12 | 100%
+| [[Giant Clam]]| 25-35 | 100%
+}}
+}}
+
+'''Navystone''' is a [[block]] that generates in the [[Sunken Sea]] [[biome]], alongside [[Eutrophic Sand]]. It can only be mined after [[Desert Scourge]] has been defeated in the world.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Navystone can additionally be obtained as a drop from both [[Clam]]s and the [[Giant Clam]].
+*10-30 Navystone can additionally be obtained as a drop from [[Sunken Crate]]s, even before the Desert Scourge is defeated.
+
+{{Sea Prism}}
+{{Master Template Tiles
+| show-main   = yes
+| show-blocks = yes
+}}
+[[Category:Block items]]

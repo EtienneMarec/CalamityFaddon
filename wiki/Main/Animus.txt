@@ -1,0 +1,54 @@
+{{dedicated|IbanPlay|Developer}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 800
+| use = 10
+| knockback = 20
+| auto = yes
+| stack = 1
+| rare = 16
+| tooltip = Randomizes its damage on enemy hits
+| sell = {{value|1}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff=Brimstone Flames
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| debufftip=Rapid health loss
+| element1 = Fire
+| element2 = Unholy
+| element3 = Slash
+}}
+
+The '''Animus''' was a craftable Epilogue [[broadsword]] that auto-swings. Hitting an enemy would apply the [[Brimstone Flames]] [[debuff]] for a significantly long time of 100 seconds. Animus would change its base damage every time it strikes an enemy, choosing a weighted value at random from the following options:
+*25% chance of 800 damage
+*25% chance of 1,200 damage
+*20% chance of 1,800 damage
+*15% chance of 3,000 damage
+*10% chance of 6,000 damage
+*5% chance of 10,000 damage
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The average base damage of Animus was 2,410.
+**(800 * 0.25) + (1200 * 0.25) + (1800 * 0.20) + (3000 * 0.15) + (6000 * 0.10) + (10000 * 0.05) = 2,410
+
+== Trivia ==
+*Animus can mean either "hostility or ill feelings" or "motivation to do something".
+**Animus in Latin translates roughly to "heart", "mind", and "spirit".
+
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:敌意]]

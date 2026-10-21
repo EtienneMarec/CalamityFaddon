@@ -1,0 +1,26 @@
+{{item infobox
+| type = Armor
+| defense = 1
+| body slot = Helmet
+| tooltip = Highlights nearby treasure.
+| rare = 1
+| stack = 1
+| sell = {{value|0|0|36|0}}
+| hardmode = no
+}}
+
+The '''Wulfrum Lenses''' are a [[Pre-Hardmode]] helmet [[Covering]] piece obtained by [[Taming]] the [[Wulfrum Excavator]]. Equipping the lenses will cause a small beam of blue light to illuminate the space in front of the player. Any treasures in a generous area in front of the player are also highlighted with a similar effect to the [[Wulfrum Treasure Pinger]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+* The area that treasure can be highlighted in is quite a bit farther then what the light beam might imply.
+
+{{-}}
+{{Wulfrum}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

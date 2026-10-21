@@ -1,0 +1,26 @@
+{{npc infobox
+| type = Critter
+| environment = Arsenal Lab
+| imagealt = [[File:Repair Unit.png]][[File:Repair Unit (climbing).png]]
+| ai = Repair Unit AI
+| damage = 0
+| life = 80
+| defense = 0
+| knockback = 0
+| Draedon Power Cell | 2-4 | 50%
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_44.wav
+}}
+
+The '''Repair Unit''' is a [[critter]] found in all five [[Bio-center Lab]]s. It passively walks back and forth, jumping over gaps and solid blocks in its path. Every 5 seconds, it will latch onto a nearby wall if available for up to 10.33 seconds or until it leaves a wall.
+
+== Notes ==
+*Unlike other critters, the Repair Unit is not able to be caught with a [[Bug Net]].
+
+== Trivia ==
+*Repair Units were inspired by [https://subnautica.fandom.com/wiki/Alien_Robot_(Subnautica) Alien Robots] from the game, ''[[wikipedia:Subnautica|Subnautica]]''.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}

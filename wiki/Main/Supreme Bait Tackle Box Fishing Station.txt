@@ -1,0 +1,31 @@
+{{item infobox
+| type = Covering
+| tooltip = The ultimate fishing covering<br/>Increases fishing skill by 80<br/>Fishing line will never break and decreases chances of bait consumption<br/>Increases chance to catch crates<br/>Sonar potion effect
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| hardmode = yes
+}}
+
+The '''Supreme Bait Tackle Box Fishing Station''' is a craftable [[Hardmode]] [[covering]]. When equipped, it increases the player's fishing skill by 80, gives permanent [[Sonar Potion]] effects as well as the effects of [[Angler Tackle Bag]], and increases the chance to catch [[crates]] by 10%. Due to the combination of permanent potion effects and the sizable fishing power boost, this covering is an extremely powerful fishing covering which should be prioritized as soon as possible if one plans to use the [[Fishing]] mechanic.
+
+When used in conjuction with the [[Enchanted Pearl]] and the [[Crate Potion]], it also increases the chance to catch [[Fishing#Rare Items|rare items]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The boosted chance to catch crates stacks with the [[Enchanted Pearl]] and [[Crate Potion]].
+*This item's effects can stack with all of its equipable components.
+*This item is very useful for obtaining fishing-exclusive items.
+**However, all of the items obtained from fishing in the [[Sulphurous Sea]] or [[Abyss]] cannot be caught if your fishing power is above a certain value. Because this covering provides such a massive boost to fishing power, it may not be ideal for obtaining these items.
+
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Fishing coverings]]

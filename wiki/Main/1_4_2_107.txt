@@ -1,0 +1,153 @@
+{{Patch infobox
+| image = The Devourer of Cods.png
+| patchname = Fishing Update
+| release = 11/5/2019
+| pair = 1.4.2.105 (music)
+}}
+{{tocright}}
+The '''1.4.2.107''' update expanded on the [[fishing]] mechanic, adding several new [[Fishing Poles]] and some balancing tweaks to existing fishing gear. The update also added a few new [[Spy]] [[weapons]], added a variety of new [[Town NPC]] dialogue lines, resprited the [[Cryonic Bar|Cryonic]] and [[Uelibloom Bar|Uelibloom]] sets, and generally polished the mod.
+
+== Additions ==
+=== [[Weapons]] ===
+*Added [[Duke's Decapitator]], [[Epidemic Shredder]], [[Luminous Striker]], [[Lunar Kunai]], [[Sandslasher]], and [[Sky Stabber]].
+*[[The Syringe]] is now obtainable.
+*Added [[Bouncing Betty]], [[Hell's Sun]], and [[Septic Skewer]] as unobtainable items.
+
+=== [[Fishing]] ===
+*Added [[Rift Reeler|Chaotic Spread Rod]], [[The Devourer of Cods]], [[Early Bloom Rod]], [[Feral Double Rod]], [[Heron Rod]], [[Navy Fishing Rod]], [[Slurper Pole]], [[Verstaltite Fishing Rod]], and [[Wulfrum Fishing Pole]].
+*Added [[Enchanted Starfish]], [[Fish of Flight]], [[Fish of Light]], and [[Fish of Night]].
+*Added [[Enchanted Nightcrawler]].
+
+=== Other ===
+*Added [[Alcohol Poisoning]], [[Boss Zen]], and [[Revivify]] buffs.
+*Added an item for the [[Abyss Gravel Wall]].
+*Added safe variants for Abyss Gravel Wall, [[Astral Dirt Wall]], [[Astral Ice Wall]], [[Astral Sandstone Wall]], [[Astral Stone Wall]], and [[Hardened Astral Sand Wall]].
+*Added [[Mod Calls]] for setting Calamity armor set bonuses, and getting and setting [[Spy]] damage, velocity, and critical strike chance.
+
+== Changes ==
+=== Bosses and Enemies ===
+*[[Angry Dog]]s now have a 33% chance to drop an [[Essence of Eleum]] after [[Cryogen]] has been defeated.
+*[[Aquatic Scourge]] now always drops all of its items instead of only dropping them in Hardmode, or after [[Skeletron]] has been defeated in the [[Golden Bug Net]]'s case.
+*[[Atlas]]es now spawn more commonly if the [[Lunatic Cultist]] has been defeated but [[Astrum Deus]] hasn't.
+*The transition between [[The Devourer of Gods]]' phases now applies Boss Zen.
+*[[Hive Blob]] Vile Clots now have actual sprites instead of dust, pierce through players, make light, and have sounds.
+*[[Siren and Leviathan]] now always drop all of their items instead of only dropping them in Hardmode, and no longer drop the [[Enchanted Pearl]].
+*Revengeance Mode Skeletron changes:
+**Can no longer fire homing skulls while either of his hands are alive.
+**Reduced charging speed, including in Boss Rush.
+**Slightly reduced the exponential speed increases Skeletron gets while spinning.
+**Can no longer fire homing skulls immediately after spinning.
+**Decreased amount of homing skulls fired overall.
+**Massively increased despawn range.
+
+=== Items ===
+*[[Absolute Zero]], [[Abyss Blade]], [[Ark of the Ancients]], [[Ark of the Cosmos]], [[Ark of the Elements]], [[Brimstone Sword]], [[The Burning Sky]], [[Draconic Destruction]], [[Elemental Excalibur]], [[Elemental Lance]], [[Elemental Shiv]], [[The Enforcer]], [[Exoblade]], [[Galactus Blade]], [[Gelitic Blade]], [[Hellion Flower Spear]], [[Mirror Blade]], [[Nadir]], [[Neptune's Bounty]], [[Solstice Claymore]], [[Soul Edge]], [[Starnight Lance]], [[Storm Ruler]], [[Storm Saber]], [[Temporal Floe Sword]], [[Terra Lance]], [[Terra Shiv]], [[Terror Blade]], [[True Ark of the Ancients]], [[True Caustic Edge]], [[True Excalibur Shortsword]], and [[True Night's Stabber]]'s projectiles are now briefly invisible upon spawning.
+*[[Affliction]], [[Banshee Hook]], [[Daemon's Flame]], [[Ectoheart]], [[Ethereal Subjugator]], [[Fate's Reveal]], [[Ghastly Visage]], [[Ghoulish Gouger]], [[Necroplasmic Beacon]], Terror Blade, and [[Treasure Bag (Polterghast)]] now have glowmasks.
+*[[Alluring Bait]] now increases the chances of catching potion ingredient fish.
+*[[Armageddon]], [[Death]], [[Defiled Rune]], [[Iron Heart]], [[Revengeance]], and [[Rune of Kos]] can no longer be used during the countdown to The Devourer of Gods' second phase.
+*[[Astral Beacon]]s and [[Astral Chunk]]s can now only be used in the [[Astral Infection]].
+*Increased the use time of Astral Dirt Walls from 9 to 6.
+*[[Auric Tesla armor]] and [[Silva armor]] now provide immunity to Sulphuric Poisoning.
+*[[Celestial Claymore]]'s projectiles, [[Darklight Greatsword]]'s beams, and [[True Ark of the Ancients]]' green balls now use actual sprites instead of dust.
+*Celestial Claymore's projectiles now hover towards the player.
+*Replaced [[Spear of Paleolith]] with Luminous Striker in [[Celestus]]' recipe.
+*Buffed [[Chaos Candle]]'s spawn rate multiplier.
+*[[Cryonic Bar|Cryonic]] and [[Perennial Bar]]s can now be placed.
+*Nerfed [[Dark God's Sheath]] and [[Eclipse Mirror]]'s stealth boost from 100 to 50.
+*Darklight Greatsword changes:
+**Projectiles now change based on the time of day, with them inflicting [[Frostburn]] at night and [[On Fire!]] at day instead of always inflicting Frostburn.
+**Reduced how long the main projectile lasts from 10 seconds to 5.
+**Reduced how long its split crystals last from 5 seconds to 1.
+*[[Divine Retribution]] and [[Spark Spreader]] are now boosted by [[Cinnamon Roll]] and [[Fireball]].
+*[[Dragon Scales]] and [[Moonstone Crown]]'s extra projectiles no longer infinitely combo off of each other.
+*Dragon Scales' fireballs now have a localNPCHitCooldown value of -1.
+*[[Enchanted Axe]]'s sub projectiles now last for 2.5 seconds instead of 10.
+*[[Enchanted Pearl]] changes:
+**Now uses the {{rare|3}} rarity instead of {{rare|7}}.
+**Can now be crafted with 8 [[Crate Potion]]s, 5 Shadow Scales or Tissue Samples, 1 [[Fishing Potion]], 10 [[Sea Prism]]s, and 3 [[Victide Bar]]s.
+**Now increases the chances to catch [[crates]].
+*[[Frostspark Bullet]]s are now crafted at an [[Ice Machine]] instead of a [[Mythril Anvil]].
+*[[Invisibility Potion]]s and [[The Twins (Lore)]] now grant specialized buffs to each Spy subclasses.
+*[[Lead Tomahawk]]'s tooltip now says "damage" instead of "dmg".
+*[[Lifehunt Scythe]]'s scythes no longer collide with tiles.
+*[[Nanotech]]'s tooltip now mentions that it inherits [[Moonstone Crown]]'s effects.
+*[[Ornate Shield]] now has an equipped sprite on the player.
+*[[Potion of Omniscience]] now highlights enemy projectiles.
+*[[Reaver armor]]'s spores now have a localNPCHitCooldown of 60.
+*[[Revivify Potion]]s now heal the player for 6.67% of their damage taken instead of 5%.
+*[[Scourge of the Seas]] is now able to be boosted by [[Evergreen Gin]].
+*[[Slick Cane]] will now only steal money from enemies with more than 5 contact damage that aren't spawned from statues, and bosses.
+*[[Starfury]]'s stars now always travel through tiles.
+*[[Supreme Bait Tackle Box Fishing Station]] changes:
+**Nerfed fishing power boost from 100 to 80.
+**Crate Potion effect now stacks with Crate Potions.
+**Now has 5 [[Soul of Light|Souls of Light]] and 5 [[Soul of Night|Souls of Night]] in its recipe.
+*Buffed The Syringe's damage from 50 to 60.
+*Calamity no longer alters [[Tavernkeep]] armor set stats.
+*Buffed [[Terra-cotta]]'s knockback from 5.5 to 7.
+*[[Void of Extinction]]'s fireballs now have a localNPCHitCooldown value of 60.
+*Spy [[Wulfrum armor]] now grants stealth.
+*Nerfed [[Zen Potion]]'s spawn rate reduction.
+
+=== Other ===
+*[[Abyssal Flames]] and [[Brimstone Flames]] can now stack with each other. 
+*The [[Angler]] now drops a [[Golden Fishing Rod]] with a 8.3% chance in Hardmode. This chance is boosted to 100% if fed to a [[Trasher]].
+*[[Astral Ore]], [[Chaotic Ore]], and [[Perennial Ore]] should now appear above [[Life Crystal]]s on the [[Metal Detector]].
+*The [[Bandit]] now sells [[Bear's Eye]] while named "Laura", instead of the [[Archmage]].
+*Greatly increased the effectiveness of Boss Zen.
+*The [[Clothier]] now sells the [[Pumpkin Moon Medallion]] and [[Naughty Present]] instead of the [[Dryad]].
+*Doubled the chance for the Dryad's Astral Infection dialogue to occur.
+*Increased the chance for the [[Goblin Tinkerer]]'s dialogue about his pockets getting lighter to occur.
+*[[Mighty Wind]] is now disabled if a boss is alive.
+*Significantly decreased the mining resistance on [[Profaned Rock]], [[Profaned Slab]], and [[Runic Profaned Brick]].
+*Decreased [[Smooth Voidstone]] and [[Voidstone]]'s pickaxe power from 190 to 180. <!---Only Titanium can break 190 while Adamantite is left in the dust--->
+*Stealth's enemy aggro and speed effects now only take effect if the player is wearing a Spy armor.
+*Renamed Vile Toxins to [[Sulphuric Poisoning]].
+*The player can now be inflicted with Sulphuric Poisoning.
+*[[Town NPC]]s now take 200% damage from projectiles in Normal Mode and 400% in Expert Mode to make them consistent with the player.
+*Added various new dialogue lines to vanilla Town NPCs.
+*[[Water]] in the [[Sulphurous Sea]] now inflicts Sulphuric Poisoning instead of [[Poisoned]].
+
+=== Resprites ===
+*Resprited Banshee Hook, [[Biofusillade]], [[Burnt Sienna]], [[Crystal Piercer]], Daemon's Flame, [[Darkecho Greatbow]], [[Darklight Greatsword]], Ethereal Subjugator, Fate's Reveal, Ghastly Visage, Ghoulish Gouger, [[Lifehunt Scythe]], [[Malachite]], [[Nettlevine Greatbow]], [[Phoenix Blade]], [[Shadecrystal Barrage]], [[Shimmerspark]], Starnight Lance, [[Sulphuric Acid Cannon]], [[Tarragon Throwing Dart]], [[Terra-cotta]], Terror Blade, [[Trinity]], [[Verdant]], and [[Verium Bullet]].
+*Resprited [[Daedalus Breastplate]], [[Daedalus Facemask]], [[Daedalus Headgear]], [[Daedalus Helm]], [[Daedalus Hood]], [[Daedalus Leggings]], [[Daedalus Mask]], [[Tarragon Breastplate]], [[Tarragon Helm]], [[Tarragon Helmet]], [[Tarragon Horned Helm]], [[Tarragon Leggings]], [[Tarragon Mask]], and [[Tarragon Visage]].
+*Resprited Affliction, [[Badge of Bravery]], Ornate Shield, [[Starlight Wings]], and [[Tarragon Wings]].
+*Resprited [[Cryonic Bar]] and [[Uelibloom Bar]].
+*Resprited [[Death]], Ectoheart, Necroplasmic Beacon, and [[Treasure Bag (Polterghast)]].
+*Resprited [[Abyssal Warhammer]], [[Blossom Pickaxe]], and [[Shardlight Pickaxe]].
+*Resprited [[Cryo Slime Banner]].
+*Resprited [[Cryo Slime]].
+*Resprited [[Daedalus Crystal (buff)]] and [[Tarra Life]].
+*Resprited Biofusillade's lasers, Daedalus armor's Daedalus Crystal, held Ghastly Visage, Lifehunt Scythe's scythe, Shimmerspark yoyo, Starnight Lance's beam, Sulphuric Acid Cannon's mists and bubbles, Verdant yoyo, and Verium Bullet projectiles.
+*Resprited Astral Infection underground and caverns backgrounds.
+
+== Fixes ==
+*Fixed [[Astrum Deus]]' [[Scorpio]] immunity not functioning properly.
+*Fixed the [[Bandit]] and [[Drunk Princess]] teleporting to [[King Statue]]s.
+*Fixed [[Brimstone Crag]] [[Lava]] and [[God Slayer Inferno]] not being able to stack damage on the player.
+*Fixed a bug that caused the [[Clentaminator]] to convert air into [[Dirt Wall]]s.
+*Fixed [[Devil's Devastation]] and [[True Forbidden Oathblade]]'s spreads.
+*Fixed [[Dodu's Handcannon]] and [[Karasawa]] not functioning properly with infinite ammo pouches.
+*Fixed [[Enchanted Axe]]'s sub projectiles going after invincible enemies.
+*Fixed a tModLoader bug which caused the player to take fall damage while on mounts while wearing vanilla wings.
+*Fixed [[Gacruxian Mollusk]] having the {{rare|4}} rarity instead of the {{rare|5}} rarity.
+*Fixed a bug that caused the Revengeance Mode [[Moon Lord]] to not drop anything.
+*Fixed [[Mourningstar]] still using the {{rare|14}} rarity instead of the {{rare|12}} rarity.
+*Fixed Mourningstar having the wrong sell price.
+*Fixed [[Nebula armor]]'s set bonus and [[Spectre Mask]]'s set bonus not working on enemies with lifesteal disabled.
+*Fixed [[Death Mode]] random spawns being able to spawn the [[Profaned Guardians]] at nighttime.
+*Fixed a sheeting error with the [[Profaned Piano]].
+*Fixed [[Statigel Door]]s not counting as doors.
+*Fixed Spy armors constantly setting stealth to a set value, not allowing any further stealth boosts.
+*Fixed a bug that caused Calamity's Revengeance Mode buffs to the Thorium Mod causing the game to crash on startup.
+*Fixed some Town NPC dialogue lines having unintentional Chinese characters.
+*Fixed a bug where [[Typhon's Greed]]'s bubbles would home into the wrong player.
+*Fixed the [[Wizard]] still selling [[Cryo Key]]s.
+
+== Removals ==
+*Removed [[IOU an item]].
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

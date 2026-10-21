@@ -1,0 +1,40 @@
+{{item infobox
+| tooltip = Fires a blast of sanguine flares that drain enemy life
+| damage = 143
+| damagetype = magic
+| mana = 22
+| use = 25
+| knockback = 8
+| auto = yes
+| velocity = 14
+| type = Weapon
+| stack = 1
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| debuff = Brimstone Flames
+| debuffduration = 2 seconds
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| proj = Sanguine Flare Orb.png
+| projcaption = Sanguine Flare Orb
+| element1 = Unholy
+| element2 = Fire
+}}
+
+The '''Sanguine Flare''' is a craftable Godseeker Mode [[wand]]. When used, it fires a random spread of 6 to 8 red orbs, which begin waving erratically after 3 seconds of travel. The orbs can pass through blocks and, upon contact with enemies, inflict the [[Brimstone Flames]] [[debuff]] onto them and each [[lifesteal|return]] 1 HP to the player.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Bloodstone}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]
+[[Category:Healing items]]

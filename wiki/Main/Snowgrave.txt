@@ -1,0 +1,42 @@
+{{addon|Apotheosis and Friends}}
+{{item infobox
+| hardmode = yes
+| type = Weapon
+| damage = 2002
+| damagetype = magic
+| tooltip = Memories of a snowy grave...<br/>Summons a large deadly fountain of ice and snow below your cursor that instantly kills normal enemies<br/>After usage, the player won't be able to use the weapon again for 1 minute
+| mana = 200
+| use = 1480
+| knockback = 0
+| rare = 8
+| buy = {{value|0|80}}
+| sell = {{value|0|16}}
+| auto = yes
+| velocity = 12
+| stack = 1
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debuff2 = Glacial State
+| debufftip2 = Cannot move and defense is shattered
+| debuffchance2 = 100%
+| debuffduration2 = 0.5 seconds
+| element1 = Cold
+| element2 = Dark
+}}
+
+'''Snowgrave''' is a [[Hardmode]] [[spell tome]] sold by [[The General]] NPC for {{gc|80}}. When used it slowly charges up a snowflake sigil below the player's cursor. After 3 seconds, a colossal fountain of snow and ice blows upwards, instantly killing any normal enemies that touch it, and dealing devastating damage to bosses. The fountain lasts for 10 seconds and then goes on cooldown for a minute.
+
+{{Modifier|magic}}
+
+== Trivia ==
+*Snowgrave is a direct reference to a spell of the same name from ''[[wikipedia:Deltarune|Deltarune]]'', with the fountain having identical visuals to Deltarune's version.
+**The spell costing 200 mana is a reference to how Snowgrave from Deltarune takes 200 TP.
+*The cooldown is a reference to the scrolls from the AlchemistNPC Mod, which have a similar cooldown mechanic.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

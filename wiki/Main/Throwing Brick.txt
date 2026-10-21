@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| stack = 9999
+| damagetype = Rogue
+| tooltip = Prove its resistance by throwing it upwards and catching it with your face<br/>Throws a brick that shatters if stealth is full.
+| damage = 14
+| knockback = 5
+| critical = 24%
+| consumable = yes
+| velocity = 12
+| rare = 0
+| sell = {{value|0|0|0|10}}
+| use = 39
+| proj = Brick Fragments.png
+| projcaption = Brick Fragments
+| element1 = Cold
+}}
+
+The '''Throwing Brick''' is a craftable consumable [[Pre-Hardmode]] [[rogue weapon]]. Additionally, the [[Starter Bag]] contains 150 of them. When used, it throws a gravity affected brick that travels a short distance before falling to the ground and breaking.
+
+Performing a [[stealth strike]] with the Throwing Brick will cause the next brick to shatter into 3 fragments upon impact, which each deal 30% of the damage of the main brick.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+== Trivia ==
+*The Throwing Brick's tooltip is phrased differently from those of other rogue weapons; instead of "Stealth strikes cause the brick to shatter", it is "Throws a brick that shatters if stealth is full".
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

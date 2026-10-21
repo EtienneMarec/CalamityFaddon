@@ -1,0 +1,34 @@
+{{npc infobox
+| type = Enemy
+| environment = Brimstone Crag
+| environment2 = Dungeon
+| ai = Fighter AI
+| damage = {{element|Dark}} {{dv|50|100}} (pre-[[Providence]])<br/>{{element|Dark}} {{dv|100|200}} (post-[[Providence]])
+| life = {{dv|80|160}} (pre-[[Providence]])<br/>{{dv|3,000|6,000}} (post-[[Providence]])
+| defense = 16 (pre-[[Providence]])<br/>30 (Post-[[Providence]])
+| knockback = {{dv|75%|77.5%}}
+| money = {{value|0|0|10}}
+| hardmode = yes
+| immune1 = Kami Flu
+| immune2 = Abyssal Flames
+| immune3 = Brimstone Flames
+| banner = yes
+| Essence of Chaos|1|33.33%
+| custom| {{item|Bloodstone|note=(After defeating [[Providence]])|wrap=y}}|50%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_50.wav
+| sound = Item_8.wav
+| soundtext = Teleport
+| vulnerable1 = Water
+| vulnerable2 = Holy
+| resistant1 = Dark
+| resistant2 = Fire
+| resistant3 = Machine
+}}
+
+The '''Cultist Assassin''' is a [[Hardmode]] [[enemy]] which spawns in the [[Dungeon]] and [[Brimstone Crag]]. They normally act like a regular Fighter AI enemy but after about 5 seconds they teleport closer to the player. After [[Providence]] is defeated, the Cultist Assassin will gain a large buff in stats, and is able to drop [[Bloodstone]].
+{{-}}
+{{Master Template Characters
+|show-main = yes
+|show-hardmode = yes
+}}

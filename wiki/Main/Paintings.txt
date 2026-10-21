@@ -1,0 +1,23 @@
+'''Paintings''' are placable [[furniture]] that can be placed on background walls. The Calamity Mod currently adds one new painting.
+==List of Painting==
+{| class="fandom-table"
+|+
+!Painting
+!Size{{note|small=y|block=y|paren=y|W×H}}
+!Acquired From
+!Tooltip
+!Notes
+|-
+|{{item|Thank You|link=}}
+|6 x 4
+|Any [[Enemies|Enemy]] (0.001% chance)
+|Thanks to the entire team, everyone who supported, and those who all play the mod and keep it alive!
+The confines of this painting is not enough to fit the entire team
+Hold SHIFT to see a list of past and current devs and CTRL to see past and current testers
+|A compilation of some of the mod's developers, along with one of the mod's logos.
+Lists all developers and testers, both past and current, in its tooltip.
+|}
+{{-}}{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

@@ -1,0 +1,22 @@
+{{infobox wrapper
+|{{item infobox
+|type = Crafting material
+| stack = 9999
+| rare = 1
+| tooltip = An Unassuming Vial
+| sell = {{value|0|0|0|1}}
+}}
+}}
+
+'''Something''' is a Godseeker Mode crafting material that is used to craft the Essence of Absolute. It is constructed out of most materials obtainable throughout the game.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Absolute}}
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

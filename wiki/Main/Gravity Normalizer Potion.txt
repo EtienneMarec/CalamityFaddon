@@ -1,0 +1,27 @@
+{{item infobox
+|type = Potion
+|tooltip = Disables the low gravity of space and grants immunity to the distorted debuff
+|stack = 9999
+|rare = 7
+|use = 17
+|consumable = yes
+|buff = Gravity Normalizer | bufflink = no
+|duration = 8 minutes
+|bufftip = Gravity is now normal in space, immunity to distorted
+|hardmode = yes
+|sell = {{value|0|0|40|0}}
+}}
+
+The '''Gravity Normalizer Potion''' is a craftable [[Hardmode]] [[Buff Potions|buff potion]] made from [[Aureus Cell]]s. Upon consumption it grants the '''Gravity Normalizer''' [[buff]], allowing the player to move normally in [[space]] as well as provides immunity to the [[Distorted]] [[debuff]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+== Notes ==
+*Gravity Normalizer Potions may also be obtained from [[Astral Crate]]s once [[Astrum Aureus]] has been defeated.
+
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

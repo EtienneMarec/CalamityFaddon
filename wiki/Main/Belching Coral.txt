@@ -1,0 +1,43 @@
+{{npc infobox
+| type = Enemy
+| environment = Sulphurous Sea
+| ai = Belching Coral AI
+| damage = {{dv|45|90}} (Contact)<br/>{{dv|54|108}} (Spike)
+| life = {{dv|1000|2000}}
+| defense = 25
+| knockback = 100
+| banner = yes
+| debuff = Irradiated
+| debufftip = Your skin is burning off
+| debuffchance = 100%
+| duration = 3 seconds
+| money = {{sc|2}}
+| Corroded Fossil| 1 | 6.67%
+| Belching Saxophone| 1 | 10%
+| hardmode = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Pearl Aura
+| immune4 = Slow
+| immune5 = Irradiated
+| immune6 = Sulphuric Poisoning
+| hurt = NPC_Hit_42.wav
+| killed = NPC_Killed_5.wav
+| vulnerable1 = Stab
+| vulnerable2 = Cold
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Poison
+| resistant3 = Slash
+}}
+
+The '''Belching Coral''' is a [[Hardmode]] [[enemy]] that spawns in the [[Sulphurous Sea]] after the [[Aquatic Scourge]] has been defeated. It is stationary, and will fire Sulphurous Spikes toward the player if they are nearby.
+
+== Notes ==
+*It is one of the only sources of [[Corroded Fossil]]s outside of the [[Acid Rain]] [[Event]].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

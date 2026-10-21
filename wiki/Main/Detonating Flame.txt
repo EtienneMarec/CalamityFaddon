@@ -1,0 +1,64 @@
+{{Historical content}}
+{{npc infobox
+| environment = Jungle
+| type = Flying Enemy
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+| image = Detonating_Flame.png
+| immune1 = Poisoned
+| immune2 = Confused
+| immune3 = On Fire!
+| hurt = NPC_Hit_52.wav
+| killed = NPC_Killed_55.wav
+}}
+
+The '''Detonating Flame''' was a Godseeker Mode [[Enemies#Boss Servants|boss servant]] which spawned during the [[Jungle Dragon, Yharon]] fight. There were 2 variants.
+
+The fireball variant aggressively flew toward the player and occasionally shot a fireball that inflicted the [[On Fire!]] debuff. It was spawned in Yharon's subphases 1 and 3.
+
+The melee variant flew toward the player more slowly than the fireball variant. It dealt more contact damage but did not shoot. It was spawned in Yharon's subphases 2 and 3.
+
+Both variants were summoned in all subphases of phase 2 after Yharon flew in a loop and summons a ring of {{item|FlareDust2|nolink=yes|ext=gif|size=16px|Homing Flare Dusts}}.
+
+== Variants ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Detonating Flame
+| namesub = Melee
+| image = Detonating_Flame.png
+| type = Flying Enemy
+| damage = {{dv|220|boost=0.05}} (Contact)
+| ai = Detonating Flame (Melee) AI
+| life = {{dv|3,900|7,800}}
+| defense = 90
+| knockback = 100
+| listexclude = yes
+}}
+|{{npc infobox
+| name = Detonating Flame
+| namesub = Fireball
+| image = Detonating_Flame.png
+| type = Flying Enemy
+| damage = {{dv|100|boost=0.1}} (Contact)<br/>{{dv|180|300|332|348}} (Fireball)
+| ai = Detonating Flame (Fireball) AI
+| life = {{dv|3,000|6,000}}
+| defense = 20
+| knockback = 100
+| debuff = On Fire!
+| debuffchance = 100%
+| duration = 0.5-2.5 seconds (Fireball)
+| debufftip = Slowly losing life
+| listexclude = yes
+}}
+}}
+
+== Notes ==
+*Up to 3 of each Detonating Flame variant could be spawned at a time in Yharon's fight in Phase 1.
+*Up to 4 of each variant could be spawned at a time in Phase 2.
+
+{{historical}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

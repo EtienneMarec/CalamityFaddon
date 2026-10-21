@@ -1,0 +1,55 @@
+{{item infobox
+| imagebreak = yes
+| type = Armor
+| defense = 90
+| rare = 14
+| sell = {{value|0|3|60}} (set)
+| debuff = Springlocked! | bufflink = no
+| debufftip = The springlocks are draining your health.
+| duration = 60
+| hardmode = yes
+| postml = yes
+| setbonus = 120% increased Spy damage, 30% increased movement speed, and 50% increased critical strike chance. Gain a shadow dash at max Spy stealth. Exiting Spy stealth will cause nearby enemies to become confused. Taking over 100 damage or more from a single attack, or getting your suit wet, will cause the springlocks to trigger.
+}}
+
+'''Animatronic Armor''' is a Godseeker Mode [[Spy]] [[Covering]] set dropped by the [[Evil Animatronic]].
+
+It consists of the [[Animatronic Head]], [[Animatronic Torso]], and [[Animatronic Legs]].
+
+Each armor piece provides 30 defense. The set bonus for the set provides several buffs, including a massive buff to Spy damage. The player also gains the ability to shadow dash, while at maximum Spy stealth, by double tapping one of the horizontal movement keys. This dash ignores enemies and projectiles, and allows the player to move through walls. If the player exits Spy stealth, they will emit a scream that confuses nearby enemies.
+
+The Animatronic Armor comes with a significant risk, that being that if the player takes over 100 damage from a single attack, enters water, or walks outside during rain, they will gain the springlocked debuff, which rapidly and constantly drains the players health until they are left with a single hp.
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Animatronic Head
+| type = Armor
+| defense = 30
+| body slot = Helmet
+| sell = {{value|0|1|20|}}
+}}
+|{{item infobox
+| name = Animatronic Torso
+| type = Armor
+| defense = 30
+| body slot = Shirt
+| sell = {{value|0|1|20|}}
+}}
+|{{item infobox
+| name = Animatronic Legs
+| type = Armor
+| defense = 30
+| body slot = Pants
+| sell = {{value|0|1|20|}}
+}}
+}}
+
+== Trivia ==
+*Animatronic Armor is a reference to the character Springtrap from the Five Nights at Freddy's series.
+**The functionality of the springlocked debuff refers to the way in which the main antagonist of the series was killed.
+
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

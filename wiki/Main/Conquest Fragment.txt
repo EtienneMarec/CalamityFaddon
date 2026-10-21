@@ -1,0 +1,25 @@
+{{infobox wrapper
+|{{item infobox
+| type = Crafting material
+| stack = 9999
+| rare = 1
+| sell = {{value|0|0|3}}
+}}
+|{{item drops infobox
+| Any Boss | 1 | 100%
+}}
+}}
+
+'''Conquest Fragments''' are a [[crafting material]] that are dropped by any enemy. They are used to combine with boss [[trophies]] to create [[Lore items]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Conquest Fragments used to be called Victory Shards, which was a reference to [https://terrariamods.fandom.com/wiki/Exxo_Avalon/Victory_Piece Victory Pieces] from the [https://forums.terraria.org/index.php?threads/released-wip-terraria-avalon.378/ Exxo Avalon] mod.
+
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

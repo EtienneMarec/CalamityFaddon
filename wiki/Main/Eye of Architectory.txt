@@ -1,0 +1,35 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Crafting material
+| type2 = Covering
+| tooltip = Right click on an enemy to put a teleportation tag on them. Right clicking again will teleport the enemy upside down to the cursor's position with a burst of three lunar fireballs.<br>
+Right Clicking without putting a teleportation tag will create a 3x3 square of temporary babilplate
+Left Clicking will shoot 2 fireballs and 2 spinning hammers
+| stack = 9999
+| rare = 5
+| sell = {{value|0|15}}
+| hardmode = yes
+| post-ml = yes
+}}
+'''Eye of Architectory''' is a craftable [[Hardmode]] covering. It lets you do three things:<br>
+Tag your enemies and teleport them upside down , casting lunar fireballs at them (bosses, minibosses and flying enemies stay upside up)<br>
+Right click anywhere not on an enemy to make a 3x3 space of temporary babilplate<br>
+Left click to cast lunar fireballs and spinning hammers
+
+== Notes ==
+
+* Babilplate blocks dont replace other tiles
+* The placed babilplate doesnt drop when mined
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]

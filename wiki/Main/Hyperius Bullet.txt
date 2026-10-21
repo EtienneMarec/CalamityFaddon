@@ -1,0 +1,34 @@
+{{item infobox
+| type = Ammunition
+| tooltip = Your enemies might have a bad time<br/>Spawns additional bullets on enemy hits
+| damage = 18
+| damagetype = ranged
+| stack = 9999
+| knockback = 1.5
+| rare = 9
+| velocity = 16
+| velocitymult = 4
+| consumable = yes
+| hardmode = yes
+| sell = {{value|0|0|4}}
+| proj = Hyperius Bullet (projectile).png
+| projcaption = Hyperius Bullet
+}}
+
+'''Hyperius Bullets''' are [[Hardmode]] [[bullets]] crafted from [[Life Alloy]]s. When used to hit an enemy, another bullet is brought from the left or right edge of the player's screen to pass through the enemy's position, at the time of being hit.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The name of this bullet is most likely a reference to the boss enemy in ''[[wikipedia:Borderlands 2|Borderlands 2]]'', named [http://borderlands.fandom.com/wiki/Hyperius_the_Invincible_(enemy) Hyperius the Invincible]. The effect of the bullet is also a reference to the [http://borderlands.fandom.com/wiki/Conference_Call Conference Call] weapon, found in Borderlands 2. Both Hyperius and the Conference Call are affiliated with the manufacturer [http://borderlands.fandom.com/wiki/Hyperion Hyperion].
+*"Your enemies might have a bad time" is a reference to the character Sans from ''[[wikipedia:Undertale|Undertale]]''.
+*In the mod's source files, the extra bullet projectile is referred to as 'OMGWTH'. This is likely a reference to a [https://borderlands.fandom.com/wiki/010011110100110101000111010101110101010001001000 boss of the same name], also produced by Hyperion.
+*The bullet in this item's sprite resembles a recolored [[Copper Coin]].
+
+{{Master Template Consumables
+|show-main=yes
+|show-ammo=yes
+}}
+[[Category:Bullets]]

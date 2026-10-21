@@ -1,0 +1,31 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 56
+| use = 50
+| knockback = 5
+| auto = yes
+| tooltip = Launches slow moving javelins which quickly accelerate as they move<br/>Consumes mana to fire light blades
+| stack = 1
+| rare = 4
+| sell = {{value|0|2}}
+| velocity = 8
+| hardmode = yes
+| element1 = Holy
+}}
+
+The '''Skull Fracture''' is a craftable [[Hardmode]] [[ranged weapon]]. When used, it throws out a javelin that starts off slowly then quickly accelerates to much higher speeds. The javelin ignores immunity frames, hitting more times than a usual weapon would. If the player has enough mana, they will additionally fire 3-6 light blades in an uneven spread.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{fracture}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

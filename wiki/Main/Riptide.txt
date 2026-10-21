@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 16
+| use = 25
+| auto = yes
+| knockback = 1
+| stack = 1
+| reach = 13.75
+| attduration = 3.75 seconds
+| rare = 2
+| sell = {{value|0|0|40}}
+| tooltip = Sprays a spiral of aqua streams in random directions<br/>A very agile yoyo
+| proj = Riptide Yoyo.png
+| projcaption = Riptide
+| element1 = Water
+| element2 = Slash
+}}
+
+The '''Riptide''' is a craftable [[Pre-Hardmode]] [[yoyo]]. While deployed, the yoyo will occasionally fire a spiral aqua stream in a random direction that will only deal 22.22% of the yoyo's damage.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon is referred to as 'Whirlpool' in the mod's source code.
+*In real life, [[wikipedia:Rip tide|rip tides]] are very strong water currents that flow out into the ocean, known for being deadly towards swimmers.
+
+{{Sea Prism}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]

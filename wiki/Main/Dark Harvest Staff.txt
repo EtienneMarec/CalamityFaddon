@@ -1,0 +1,34 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damagetype = magic
+| damage = 96
+| knockback = 3
+| rare = 9
+| sell = {{value|0|2}}
+| stack = 1
+| mana = 10
+| auto = yes
+| use = 20
+| velocity = 9
+| tooltip = Casts dark pumpkins which split into damaging chunks
+| hardmode = yes
+| element1 = Dark
+| element2 = Fire
+}}
+
+The '''Dark Harvest Staff''' is a craftable [[Hardmode]] [[wand]] and upgrade to the [[Harvest Staff]]. It shoots dark pumpkins that bounce off of tiles and can pierce one enemy before breaking on the next. Upon breaking, the pumpkin will split into 2-4 gravity effected chunks in random directions that deal 20% of the pumpkin's damage.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damage = 110
+| damagetype = Melee
+| tooltip = Fires a beam {{sic}} upon swing that stuns enemies
+| use = 39
+| velocity = 17
+| knockback = 2
+| rare = 4
+| sell = {{value|0|2|40}}
+| debuff = Eutrophication
+| debufftip = Excessive nutrients restrict your movement
+| debuffduration = 0.5 seconds (Projectile)
+| debuffchance = 100%
+| hardmode = yes
+| proj = Scimitar Zap.gif
+| projcaption = Scimitar Zap
+| element1 = Water
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Blinded Angler]] | 1 | 25%
+}}
+}}
+
+The '''Eutrophic Scimitar''' is a [[Hardmode]] [[broadsword]] that is dropped by the [[Blinded Angler]] in the [[Sunken Sea]]. Upon being swung, it fires two electric shock projectiles which briefly stuns normal enemies on contact. The projectiles do not pierce and cannot pass through tiles, and deal 70% of the sword's damage.
+
+{{modifier|melee}}
+
+== Notes ==
+*The stun effect will not apply if any [[bosses]] are alive or to certain rare creatures.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:水华弯刀]]

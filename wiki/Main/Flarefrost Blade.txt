@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 95
+| auto = yes
+| use = 23
+| velocity = 11
+| knockback = 6.25
+| stack = 1
+| tooltip = Fires a homing flarefrost orb
+| rare = 5
+| sell = {{value|0|7|20}}
+| debuff = On Fire!
+| debuff2 = Frostburn
+| debuffchance = 100%
+| debuffduration = 3 seconds (Contact)<br/>2 seconds (Orb)
+| debufftip = Slowly losing life
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Contact)<br/>2 seconds (Orb)
+| hardmode = yes
+| element1 = Fire
+| element2 = Cold
+| element3 = Slash
+}}
+The '''Flarefrost Blade''' is a craftable [[Hardmode]] [[broadsword]] that auto-swings. When swung, it shoots medium homing projectiles that inflict the [[On Fire!]] and [[Frostburn]] [[debuffs]] upon hitting an [[enemy]]. The projectiles will disappear after a short time.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{flarefrost}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:炎霜之刃]]

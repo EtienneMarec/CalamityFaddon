@@ -1,0 +1,105 @@
+{{patch infobox
+| image = Umbraphile armor (1.4.2.109).png
+| patchname = Spy Expansion
+| prev = [[1.4.2.108]]
+| release = 12/14/2019
+| pair = 1.4.2.105 (music)
+}}
+The '''1.4.2.109''' update added several items, especially equipment for the [[Spy]] class, along with a handful of changes and fixes.
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+*Added [[Abyssal Crate]] and [[Cosmilite Basin]].
+*Added [[Aestheticus]], [[Ashen Stalactite]], [[Bouncy Spiky Ball]], [[Deep Wounder]], [[Defective Sphere]], [[Desecrated Water]], [[Equanimity]], [[Frostcrush Valari]], [[Gilded Dagger]], [[Gleaming Dagger]], [[God's Paranoia]], [[Hardened Honeycomb]], [[Infernal Kris]], [[Jaws of Oblivion]], [[Leviathan Teeth]], [[Nasty Cholla]], [[Nychthemeron]], [[Phantasmal Ruin]], [[Phantom Lance]], [[Profaned Partisan]], [[Shinobi Blade]], [[Shroomerang]], [[Sticky Spiky Ball]], [[Sylvan Slasher]], [[Terra Disk]], [[Terror Talons]], [[Turbulance]], [[Web Ball]], and [[Wyvern's Call]].
+*Added [[Dynamo Stem Cells]].
+*Added the [[King Slime (Lore)|King Slime]] [[lore item]].
+*Added [[Clamor Noctus]], [[Ethereal Extorter]], [[Exorcism]], [[Latcher Mine]], [[Plagued Fuel Pack]], [[Poison Pack]], [[Sand Cloak]], [[Spectral Veil]], [[Star of Destruction]], and [[The Microwave]] as [[unobtainable items]].
+*[[Gael's Greatsword]], [[Totality Breakers]], [[Umbraphile Boots]], [[Umbraphile Hood]], and [[Umbraphile Regalia]] are now obtainable.
+
+== Changes ==
+=== Balance ===
+*Nerfed [[The Ballista]]'s damage from 125 to 90 and use time from 20 to 22. Fossil shards now deal 20% base damage instead of 75%.
+*[[Blast Barrel]]'s shrapnel, [[Kylie]]'s stealth strike, and [[Celestial Reaper]]'s afterimages no longer deal flat damage.
+*Nerfed [[Consecrated Water]]'s damage from 55 to 48. Flame pillars no longer deal flat damage.
+*Nerfed [[Corroslime Staff]] and [[Crimslime Staff]]'s damages from 30 to 24 and hit cooldowns from 10 to 23.
+*Nerfed [[Fantasy Talisman]]'s damage from 90 to 80 and use time from 14 to 16.
+*Nerfed [[Firestorm Cannon]]'s damage from 18 to 9, capped primary fire's pierce at three, and decreased secondary fire's damage boost from 60% to 40%.
+*Nerfed [[Helium Flash]]'s damage from 1900 to 1280. The explosion damage is halved, but no longer deals flat damage.
+*Nerfed [[Galaxy Smasher]]'s damage from 855 to 480 for the melee variant, and 390 for the Spy variant. The on-hit lasers no longer deal flat damage.
+*Nerfed [[Nanoblack Reaper]]'s damage from 800 to 500 for the Spy variant. Nanoblades no longer deal flat damage.
+*Nerfed [[Statigel armor]]'s set bonus slime minion's damage from 33 to 26, and hit cooldown from 10 to 23.
+*Nerfed [[Stellar Contempt]]'s damage from 575 to 350 for the melee variant, and 325 for the Spy variant. The on-hit lunar flares no longer deal flat damage.
+*Buffed [[Totality Breakers]], its projectiles now ignore [[immunity frames]].
+
+=== Recipes ===
+*Added [[Any Evil Flesh]], [[Any Evil Water]], [[Any Gold Bar]], and [[Any Silt]] recipe groups.
+*[[Celestus]] now uses [[Phantasmal Ruin]] in its recipe instead of [[Luminous Striker]].
+*[[Draedon's Heart]] now requires 250 [[Nanites]] to craft.
+*[[Elemental Disk]] now uses [[Terra Disk]] instead of [[Seashell Boomerang]].
+*Adjusted [[Fantasy Talisman]]'s recipe. Increased the amount of [[Solar Veil]]s and [[Ectoplasm]] needed from 1 of each to 2 and 5 respectively. Now requires 3 [[Silk]] to craft. Resulting amount increased from 5 to 100.
+*[[Metal Detector]] can now be crafted.
+
+=== Resprites ===
+*Resprited [[Blazing Star]].
+*Resprited [[Ceaseless Void]]'s map icon.
+
+=== Additional Changes ===
+*[[Aureus Cell]] now counts as a [[buff potion]] instead of a [[food item]].
+*[[Blood Frenzy]], [[Elysian Guard]], [[Tarragon Cloak]], and [[Tarragon Immunity]] can no longer be manually cancelled.
+*Buffed the life regen granted by [[Bloodfin]]s.
+*Many [[debuffs]] added by the Calamity Mod no longer take debuff slots on NPCs.
+*Bosses and other enemies in [[Boss Rush]] are now vulnerable to more debuffs, including [[Spite]].
+*[[Deathhail Staff]], [[Fate's Reveal]], [[Soul Piercer]], and [[Vesuvius]] are no longer held at a different offset.
+*Increased [[Depth Cells]]' rarity from {{rare|3}} to {{rare|6}}, and its sell price from {{sc|40}} to {{sc|80}}.
+*Decreased [[Ectoblood]]'s rarity from {{rare|8}} to {{rare|7}}.
+*Reduced the volume of [[Handheld Tank]] when fired.
+*[[Anechoic Plating]], [[Depths Charm]], [[Iron Boots]], and [[Strange Orb]] can no longer be caught without any rare-item-boosting equipment.
+*Increased [[Lumenyl]]'s rarity from {{rare|3}} to {{rare|6}}, and its sell price from {{sc|36}} to {{sc|80}}.
+*Increased [[Monkey Darts]]' buy price from {{sc|1}} to {{sc|4}}.
+*[[Pitbull]]s can now drop the [[Adhesive Bandage]] in [[Hardmode]].
+*[[Polaris Boost]], [[Spirit Defense]], [[Spirit Power]], and [[Spirit Regen]] buffs no longer display a timer.
+*Doubled the chance of acquiring the [[Radiating Crystal]] from [[Radiator]]s.
+*Any variants of the [[Sand Shark]] will now count for summoning the [[Great Sand Shark]].
+*Projectiles from [[Sea's Searing]] now change colors as they travel.
+*The [[Skeleton Merchant]] now sells the [[Marrow]] in Hardmode.
+*[[Slush Block]]s can now be converted to [[Novae Slag]] by the [[Astral Infection]].
+*Increased the drop rate of [[Solar Veil]]s from {{dv|5%|10%}} to {{dv|50%|75%}}.
+*Increased [[Solar Veil]]'s rarity from {{rare|3}} to {{rare|6}}, and its sell price from {{sc|40}} to {{sc|80}}.
+*Decreased [[Throwing Brick]]'s rarity from {{rare|2}} to {{rare|0}}, and its sell price from {{cc|40}} to {{cc|10}}.
+*Several projectiles and enemies that inflict cold damage are now affected by the [[Warmth Potion]].
+
+=== Other ===
+*Optimized multiplayer biome syncing code.
+*Removed unnecessary netcode from Aureus Spawn.
+*Added network packets for toggling Calamity's difficulties and changing the life regen of NPCs.
+*Added a network packet for enabling the Demon Trophy.
+*All Calamity [[yoyos]] now internally count as yoyos. <!---This has no major effects on gameplay, except Cross-Mod Compatibility-->
+
+== Fixes ==
+=== Gameplay ===
+*[[Ancient Iron Helmet]] and [[Ancient Gold Helmet]] now provide the correct mining speed set bonuses.
+*Fixed the Godseeker Mode [[Blood Moon]] buffing the [[Celestial Pillars]].
+*Fixed multiplayer desyncing issues with [[Bumblebirb]], [[Golem]], [[The Plaguebringer Goliath]], and [[Queen Bee]].
+*Fixed a bug where [[Cryonic Ore]] couldn't generate in [[Astral Infection|Astral Ice]] biomes.
+*[[Daedalus armor]], [[Elemental Gauntlet]], [[Elemental Quiver]], [[Ethereal Talisman]], [[Nanotech]], and [[Statis' Belt of Curses]] can no longer affect projectiles fired from [[Town NPCs]].
+*Fixed a bug where [[Daggers]] were internally counted as [[Boomerangs]].
+*Projectiles with zero damage no longer split with Elemental Quiver.
+*Fireworks launched when the player levels up [[Proficiency]] are no longer valid ranged attacks.
+*Fixed the [[Mechworm]] randomly attaching to other projectiles and scaling in size.
+*Fixed a minor error in the loot table of [[Novae Slag]].
+*[[Sand Dollar]]s can now throw two projectiles while the stack size is two.
+*[[Soul of Cryogen]] now correctly blocks fall damage.
+*Fixed a large amount of tile errors that potentially lead to crashes.
+
+=== Visual ===
+*Fixed placed [[Aerialite Brick]]s when merged with other tiles.
+*Fixed a bug involving heart textures on the main menu.
+*Fixed sheeting errors with the [[Hive (enemy)|Hive]] and its [[Hive Pod|sentry form]].
+*Fixed a minor oversight in the way [[God Slayer armor]]'s darts handled their opacity.
+*Fixed [[Radiator]]s appearing as a black rectangle.
+*Fixed an error in the tooltip of Gael's Greatsword.
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

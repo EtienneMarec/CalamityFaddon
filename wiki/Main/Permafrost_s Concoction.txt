@@ -1,0 +1,42 @@
+{{item infobox
+| type = Covering
+| tooltip = Increases maximum mana by 50 and reduces mana cost by 15%<br/>Increases life regen as life decreases<br/>Increases life regen when afflicted with Poison, On Fire, or Brimstone Flames<br/>You will survive fatal damage and revive with 30% life on a 3 minute cooldown<br/>You are encased in an ice barrier for 3 seconds when revived
+| stack = 1
+| rare = 5
+| buy = {{value|0|36}}
+| sell = {{value|0|4|80}}
+| debuff = Concoction Cooldown
+| debufflink = no
+| debufftip = Revive is recharging
+| debuffduration = 3 minutes
+| buff = Encased
+| bufftip = 30 defense and +30% damage reduction, but...
+| duration = 3 seconds
+| bufflink = no
+| boxwidth = 22em
+| hardmode = yes
+}}
+
+'''Permafrost's Concoction''' is a [[Hardmode]] [[covering]] that is sold by the [[Archmage]] [[NPC]] for {{gc|36}}. It increases the wearer's maximum [[mana]] by 50, decreases mana cost by 15%, and grants life regen that increases as the wearer's health lowers, with a significant bonus if the player is afflicted with the [[Poisoned]], [[On Fire!]] or [[Brimstone Flames]] [[debuff]]s. If the player takes fatal damage while this covering is equipped, they will be [[Death Prevention|revived]] for 30% of their max health instead of dying. However, they are also inflicted with '''Encased''' upon reviving, trapping them in a defensive block of ice for 3 seconds and potentially leaving themselves open to further attacks. The revive effect has a 3-minute cooldown.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The 30% [[Damage Reduction]] gained when Encased is calculated independently from normal DR and is not affected by Calamity's [[Defense#Vanilla changes|DR scaling system]].
+*With the covering equipped, the player's life regeneration is increased as follows:
+**+1 if the player is below 50% life
+**+1 if the player is below 25% life ''(total of +2)''
+**+2 if the player is below 10% life ''(total of +4)''
+**+4 if the player is afflicted with any of the three debuffs mentioned above
+
+== Tips ==
+*The player can use the [[Normality Relocator]] or similar items to teleport while encased, reducing Permafrost's Concoction's biggest drawback - being unable to move after reviving.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

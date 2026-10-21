@@ -1,0 +1,37 @@
+<onlyinclude>{{#if:{{{item|}}}|{{#vardefine:x|}}
+{{#if:{{#explode:{{{item}}}|/|1}}|                                  <!-- '/' either/or delimiter found -->
+{{#vardefine:item1a|{{#explode:{{#explode:{{{item}}}|/|0}}| |0}} }} <!-- 1st word before the / -->
+{{#vardefine:item2a|{{#explode:{{#explode:{{{item}}}|/|1}}| |0}} }} <!-- 1st word after the / -->
+{{#vardefine:x|{{#switch:{{#var:item1a}}/{{#var:item2a}}            <!-- check for alternate metals -->
+|Copper/Tin
+|Silver/Tungsten
+|Gold/Platinum
+|Iron/Lead
+|Cobalt/Palladium
+|Mythril/Orichalcum
+|Adamantite/Titanium
+|Ebonstone/Crimstone
+|Corrupt/Crimson
+|Demonite/Crimtane=1
+|Tin/Copper
+|Tungsten/Silver
+|Platinum/Gold
+|Lead/Iron
+|Palladium/Cobalt
+|Orichalcum/Mythril
+|Titanium/Adamantite
+|Crimstone/Ebonstone
+|Crimson/Corrupt
+|Crimtane/Demonite=2
+|#default=0}}             <!-- not alternate metals-->
+}}
+{{#vardefine:item1b|{{#sub:{{#explode:{{{item}}}|/|0}}|{{#len:{{#var:item1a}}}}}}}} <!-- everything else b4 the / -->
+{{#vardefine:item2b|{{#sub:{{#explode:{{{item}}}|/|1}}|{{#len:{{#var:item2a}}}}}}}} <!-- everything else after the / -->
+{{#vardefine:item1b|{{#var:item1b|{{#ifeq:{{#var:x}}|0||{{#var:item2b}} }}}}}}
+{{#vardefine:item1|{{#ifexpr:{{#var:x}}=2|{{#var:item2a}} {{#var:item2b}}|{{#var:item1a}} {{#var:item1b}} }} }}
+{{#vardefine:item2|{{#ifexpr:{{#var:x}}=2|{{#var:item1a}} {{#var:item1b}}|{{#var:item2a}} {{#var:item2b}} }} }}
+}}{{#if:{{{top|}}}||<tr>}}<!-- return pics and links -->
+<td style="text-align:center">{{#ifeq:{{#var:x}}||{{item|{{{item}}}|mode=image}}</td><td>[[{{{item}}}]]
+|{{item|{{#var:item1}}|mode=image}} {{item|{{#var:item2}}|mode=image}}</td><td>[[{{#var:item1}}]] ''or'' [[{{#var:item2}}]]
+}}{{#if:{{{amount|}}}|&nbsp;({{{amount}}})}}{{#if:{{{top|}}}||</tr>}}
+}}</onlyinclude>Internal subtemplate. See [[Template:Crafts]] for documentation.[[Category:Deprecated Crafting templates]]

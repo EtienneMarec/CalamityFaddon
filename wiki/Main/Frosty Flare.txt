@@ -1,0 +1,46 @@
+{{item infobox
+|type = Weapon
+|consumable = true
+|damage = 32
+|damagetype = Spy
+|use = 15
+|knockback = 2
+|auto = yes
+|velocity = 22
+|hardmode = yes
+|tooltip = Do not insert in flare gun<br/>Sticks to enemies<br/>Generates a localized hailstorm<br/>Stealth strikes trail snowflakes and summon phantom copies instead of ice shards
+|rare = 6
+|stack = 9999
+|buy = {{value|0|0|8}}
+|sell = {{value|0|0|1|60}}
+| debuff = Glacial State
+| debufftip = Cannot move and defense is shattered
+| debuffchance = 100%
+| debuffduration = 0.5 seconds (Flare)
+| debuff2 = Frostburn
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds (Flare)
+| proj = Frost Shard.gif
+| projcaption = Frost Shard
+| proj2 = North Pole Snowflake.png
+| proj2caption = Snowflakes
+| element1 = Cold
+}}
+{{distinguish|Frost Flare|an [[covering]] which drops from [[Cryogen]] in [[Revengeance Mode]]}}
+
+'''Frosty Flares''' are consumable [[Hardmode]] [[Spy weapon]]s sold by the [[Archmage]] NPC for {{sc|8}} each after the defeating all [[Mechanical Boss]]es. When thrown, icicle shards rain down from the sky around the flare. The flares remain fixed on struck enemies, causing the icicles to fall on the marked enemy. A max of five flares can mark a single enemy at a time. Thrown flares that hit enemies will always inflict the [[Frostburn]] and [[Glacial State]] [[debuffs]].
+
+Performing a [[stealth strike]] with a Frosty Flare will make the weapon deal 90% damage, cause phantom copies of the Frosty Flare to rain down instead of icicle shards, and gravity-affected snowflakes to follow the path of the Frosty Flare. The phantom copies can spawn ice shards, and count towards the maximum of five flares on an enemy.
+
+{{Modifier|none}}
+
+== Notes ==
+*Contrary to their name and appearance, they cannot be used as [[ammo]] for the [[Flare Gun]]. This is referenced in its tooltip.
+*Unlike ordinary flares, Frosty Flares disappear upon impacting blocks and do not stick to them.
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}

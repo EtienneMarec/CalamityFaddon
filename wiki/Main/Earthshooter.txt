@@ -1,0 +1,36 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 60
+| damagetype = Ranged
+| knockback = 7
+| stack = 1
+| rare = 8
+| sell = {{value|0|5}}
+| auto = yes
+| use = 20
+| velocity = 32
+| tooltip = Shoots 2 homing darts into your enemies
+| hardmode = yes
+| element1 = Stab
+| element2 = Poison
+}}
+
+The '''Earthshooter''' is a craftable [[Hardmode]] [[Dart guns|dart gun]] that fires 2 homing darts at a time. it can later be upgraded into the [[Outplanetary Dartshooter]]
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Terra}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Dart guns]]

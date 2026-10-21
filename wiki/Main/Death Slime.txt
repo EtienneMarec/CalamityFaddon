@@ -1,0 +1,40 @@
+{{npc infobox
+| type = Slime
+| ai = Slime AI
+| environment = Dungeon
+| life = {{dv|2400|4800}}
+| damage = {{element|Dark}} {{dv|120|240}} (Contact)<br/>{{element|Dark}} {{dv|114|228}} (Darts)
+| defense = 37
+| knockback = 100
+| immune1 = Kami Flu
+| immune2 = Moon Burnt
+| immune3 = Whispering Death
+| Phantoplasm| 1-2 | 100%
+| Apocalyptic Ore| 10-26 | 100%
+| Ectoplasm|1|{{dv|25%|50%}}
+| debuff=Moon Burnt
+| debuffchance=100%
+| duration = 3 seconds
+| money = {{gc|1}}
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_42.wav
+| soundtext = Stinger
+| vulnerable1 = Holy
+| vulnerable2 = Slash
+| resistant1 = Dark
+| resistant2 = Poison
+}}
+
+The '''Death Slime''' is a Godseeker Mode [[slime]] that spawns in the [[Dungeon]] after [[Polterghast]] has been defeated. It attacks by jumping towards the player and shooting high-velocity phantom darts whenever they get too close to it or travel above it.
+
+The Death Slime is one of the required slimes to summon [[Astrum Aureus]].
+
+== Notes ==
+*{{dei}} In the Deimos, the Starborn Princess addon, Death Slimes can spawn in the [[Dungeon]] after defeating [[Plantera]] or [[Calamitas]].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

@@ -1,0 +1,44 @@
+{{item infobox	
+| type = Weapon
+| damage = 90
+| damagetype = Ranged
+| knockback = 4.5
+| stack = 1
+| rare = 14
+| sell = {{value|0|28}}
+| auto = yes
+| use = 10
+| velocity = 28
+| tooltip = 50% chance to not consume ammo<br/>Fires a storm of bullets and onyx shards
+| hardmode = yes
+| postml = yes
+| proj = Onyx Blaster (projectile).png
+| projcaption = Onyx Blast
+| element1 = Dark
+| element2 = Stab
+}}
+
+The '''Onyxia''' is a craftable Godseeker Mode [[gun]] that is the direct upgrade of the [[Onyx Chain Blaster]] and the final upgrade to the [[tgc:Shotgun|Shotgun]]. It rapidly fires bursts of six bullets at a time alongside an onyx blast that deals 145% the damage of the fired [[bullets]]. The bullets from the Onyxia are fired in 3 symmetric pairs surrounding the onyx blast. It has a 50% chance to not consume ammo when fired.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+=== Used In ===
+{{recipes|ingredient={{PAGENAME}}}}
+== Notes ==
+*The Onyxia only deals 90% damage to [[Supreme Calamitas]].
+
+== Trivia ==
+*Its name is a reference to the [https://wowpedia.fandom.com/wiki/Onyxia dragon of the same name] from ''[[wikipedia:World of Warcraft|World of Warcraft]]''.
+*The weapon's first sprite was originally intended to be a resprite of the Onyx Chain Blaster.
+
+{{Onyx}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Guns]]

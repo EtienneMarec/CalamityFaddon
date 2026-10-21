@@ -1,0 +1,43 @@
+{{item infobox
+| type = Tool
+| damagetype = melee
+| pick = 210
+| auto = yes
+| damage = 58
+| debuff = On Fire!
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| knockback = 3.5
+| use = 14
+| bonus = +2 range
+| tooltip = Capable of mining Lihzahrd Bricks
+| rare = 8
+| stack = 1
+| sell = {{value|0|16}}
+| hardmode = yes
+| toolspeed = 6
+| element1 = fire
+| element2 = stab
+}}
+
+The '''Lithos Pickaxe''' is a [[Hardmode]] [[Pickaxe]] capable of mining blocks up to {{item|Lihzahrd Brick}} and {{item|Scoria Ore}}. It can automatically swing, emit fiery particles, and inflict the [[On Fire!]] debuff on contact.
+
+{{modifier|harvestalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Recipe ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Its name is a reference to the [[wikipedia:Lithosphere|Lithosphere]], a layer of the Earth.
+{{-}}
+{{Scoria}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

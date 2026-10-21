@@ -1,0 +1,26 @@
+{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| stack = 9999
+| use = 14
+| rare = 0
+| color = #382233
+| hardmode = yes
+| sell = No value
+}}
+
+'''Shatterite Bricks''' are craftable [[Hardmode]] [[block]]s crafted with [[Meld Ore]] and [[Stone Block]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{meld}}
+{{Master Template Tiles
+| show-main   = yes
+| show-blocks = yes
+}}
+[[Category:Block items]]

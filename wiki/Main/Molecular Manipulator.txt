@@ -1,0 +1,48 @@
+{{item infobox
+| type = Weapon
+| damage = 580
+| damagetype = Ranged
+| auto = yes
+| knockback = 8
+| tooltip = Is it nullable or not? Let's find out!<br/>Fires a fast null bullet that distorts NPC stats
+| rare = 12
+| use = 20
+| stack = 1
+| velocity = 25
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+}}
+
+The '''Molecular Manipulator''' is a craftable Godseeker Mode [[Ranged weapons|ranged weapon]]. It is the upgrade to the [[Nullification Pistol]]. Each shot will alter its target in some way, as long as it is not a [[boss]]. The following effects can happen at an equal chance:
+*Grow 400% bigger
+*Shrink 90% smaller
+*Deal 20 more contact damage
+*Deal 20 less contact damage
+*Become completely resistant to [[knockback]]
+*Remove all knockback resistance
+*Increase [[defense]] by 10
+*Decrease defense by 10
+*Increase velocity upwards
+*Increase velocity to the left or right
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The amount of contact damage increase or decrease will scale with difficulty.
+**For example, [[Great Sand Shark]] has a 60% scaling factor in [[Expert Mode]] and 15% scaling factor in [[Revengeance Mode]]. Therefore, the amount of damage increase will equal to {{dv|20|32|boost=0.15}}.
+*The amount of velocity increased is 1.875 blocks per second. This effect is additive, and can therefore counteract opposite motion.
+**For example, under the effect of increasing vertical velocity, an NPC that moves downwards at a rate of 3 blocks per second will still move downwards, but at a rate of 1.125 blocks per second.
+
+== Trivia ==
+*The Molecular Manipulator will work on the [[Guide]] and the [[Clothier]] with their respective [[Guide Voodoo Doll|voodoo]] [[Clothier Voodoo Doll|dolls]] equipped.
+
+{{Master Template Weapons
+|show-main = yes
+|show-ranged = yes
+}}

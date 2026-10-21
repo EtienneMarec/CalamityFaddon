@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 122
+| use = 33
+| mana = 30
+| knockback = 5
+| velocity = 12
+| auto = yes
+| stack = 1
+| tooltip = Conjures an octagon of supercharged magnet spheres around the cursor
+| rare = 15
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| proj = Climax Orb.gif
+| projcaption = Voltaic Orb
+| element1 = Magic
+| element2 = Electricity
+}}
+[[File:Voltaic Climax (demo).gif|frame|The Voltaic Climax being used against three [[Super Dummy|Super Dummies]]. Note that the orbs can pass through blocks, but cannot target enemies through them.]]
+
+The '''Voltaic Climax''' is a craftable Godseeker Mode [[wand]]. Upon use, it summons a circular spread of 8 tile-ignoring magnetic orbs around the cursor. The summoned orbs rapidly fire electric beams at up to two nearby [[enemies]]. The orbs cannot target enemies through blocks.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The Voltaic Climax has great potential against bosses, as the sheer size of bosses can allow all eight orbs to fire upon them at once.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

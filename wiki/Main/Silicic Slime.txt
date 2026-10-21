@@ -1,0 +1,32 @@
+{{npc infobox
+| type = Slime
+| environment = Sulphurous Sea
+| environment2 = Ocean
+| ai = Slime AI
+| damage = {{dv|16|32}}
+| life = {{dv|100|155}}
+| defense = 8
+| knockback = 100
+| banner = yes
+| money = {{value|0|0|2|0}}
+| Silicon Ore|10-26| 100%
+| debuff= Acid Venom
+| debuffchance = 100%
+| duration = 2.5 seconds
+| debufftip= Losing life
+| immune1 = Acid Venom
+| immune2 = Poisoned
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+'''Silicic Slimes''' are pre-[[Hardmode]] [[Slimes]] that spawn in water in the [[Sulphurous Sea]] and [[Ocean]] biomes. They exist to drop [[Silicon Ore]]. 
+
+== Notes ==
+*Unlike other slimes, they do not float in water and will instead sink to the bottom.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

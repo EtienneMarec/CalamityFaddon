@@ -1,0 +1,36 @@
+This template is used to provide tabs at the top of pages for easy navigation between subpages and is mainly used for history subpages.
+
+== Usage ==
+The template should be used on every page represented by the tabs.
+
+;link
+The link that this tab will go to. Should be numbered alongside its respective name parameter.
+
+;name
+The text that will be displayed for the link. SHould be numbered alongside its respective link parameter.
+
+== Example ==
+{{Tabber
+| link1 = Cryogen
+| name1 = NPC
+| link2 = Guide:Cryogen strategies
+| name2 = Guide
+<!--
+| link3 = Cryogen/History
+| name3 = History
+-->
+}}
+
+== Copy & Paste ==
+<pre>
+{{Tabber
+| link1 = 
+| name1 = 
+| link2 = 
+| name2 = 
+| link3 = 
+| name3 = 
+| link4 = 
+| name4 =
+}}
+</pre>

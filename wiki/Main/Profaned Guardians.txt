@@ -1,0 +1,269 @@
+<section begin=npc infobox />
+{{npc infobox
+| name = Profaned Guardians
+| type = Boss
+| environment = The Hallow
+| environment2 = The Underworld
+| life = {{dv|60,000|120,000|150,000}} (total)
+| knockback = 100
+| custom|Relic items<br/><small>(See [[Profaned Guardians#Bosses|Bosses]])</small>|
+| Profaned Core|1|90%
+| Warbanner of the Sun|1|2%
+| Super Healing Potion|5-15|100%
+| Profaned Guardian Mask|1|14.29%
+| Profaned Guardian Trophy|1|10%
+| custom| {{item|The Profaned Guardians (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| listexclude = yes
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Holy Flames
+| immune4 = Moon Burnt
+| boxwidth = 25em
+}}<section end=npc infobox />
+[[File:The Profaned Guardians (Lore).png|size=25px]] <big>''"A swarm of enraged, miscreant meatballs that serve the Profaned Goddess"''</big> [[File:The Profaned Guardians (Lore).png|size=25px]]
+
+The '''Profaned Guardians''' (Japanese: 冒涜の守護者 ''Bōtoku no gādian'') are a group of Godseeker Mode [[Boss|bosses]] fought either in [[The Hallow]] or [[The Underworld]]. They need to be killed in order to obtain the [[Profaned Core]], used to summon [[Providence, the Profaned Goddess]], and each Guardian also drops a special respective "Relic" item.
+
+Multiple weaker Guardians are also summoned during the fight against Providence.
+
+== Spawn ==
+The Profaned Guardians will not spawn on their own and must be summoned by using a [[Profaned Shard]] while in the [[The Hallow]] or [[The Underworld]]. The Profaned Guardians can only be summoned during the [[Day]] and will flee and despawn if it becomes nighttime.
+
+== Bosses ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = The Proflamed Guardian
+| type = Boss
+| image = Profaned Guardian (Main).png
+| ai = Profaned Guardian (Main) AI
+| environment = The Hallow
+| environment2 = The Underworld
+| life = {{dv|20,000|40,000|50,000}}
+| damage = {{dv|140|240|268|280}} (Contact)<br/>{{dv|120|200|boost=0.1}} (Profaned Spear)<br/>{{dv|140|220|244|256}} (Flare Dust)
+| defense = 40
+| dr = 30%
+| vulnerable1 = Magic
+| vulnerable2 = Unholy
+| resistant1 = Holy
+| resistant2 = Fire
+| resistant3 = Dark
+| knockback = 100
+| hurt = NPC_Hit_52.wav
+| killed = NPC_Killed_55.wav
+| sound = Item_20.wav
+| soundtext = Flare Dust / Spear Cast
+| sound2 = Item_14.wav
+| sound2text = Flare Dust Explosion
+| hardmode = yes
+| postml = yes
+| Relic of Deliverance|1|25%
+| money = {{pc|1}}
+| image2 = Profaned Guardian Main map.png
+| image2caption = Map Icon
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| duration = 5 seconds (Contact)<br/>4 seconds (Flare Dust)<br/>3 seconds (Profaned Spear)
+| debuffchance = 100%
+}}
+|{{npc infobox
+| name = The Guardian Archer
+| type = Flying Enemy
+| image = Profaned Guardian (Wood).png
+| ai = Profaned Guardian (Wood) AI
+| environment = The Hallow
+| environment2 = The Underworld
+| life = {{dv|20,000|40,000|69,000}}
+| damage = {{dv|150|166|180|200}} Contact)<br/>{{dv|120|200|boost=0.1}} (Profaned Arrow)
+| defense = 20
+| dr = 20%
+| knockback = 100
+| hurt = NPC_Hit_52.wav
+| killed = NPC_Killed_55.wav
+| sound = Item_20.wav
+| soundtext = Arrow Shoot
+| hardmode = yes
+| vulnerable1 = Magic
+| vulnerable2 = Unholy
+| resistant1 = Holy
+| resistant2 = Fire
+| resistant3 = Dark
+| postml = yes
+| Relic of Ruin|1|25%
+| image2 = Profaned Guardian Rock map.png
+| image2caption = Map Icon
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| duration = 4 seconds (Contact)<br/>2 seconds (Profaned Arrow)
+| debuffchance = 100%
+
+}}
+|{{npc infobox
+| name = The Guardian Defender
+| type = Flying Enemy
+| image = Profaned Guardian (Rock).png
+| ai = Profaned Guardian (Rock) AI
+| environment = The Hallow
+| environment2 = The Underworld
+| life = {{dv|20,000|40,000|69,000}}
+| damage = {{dv|110|176|200|216}} Contact)<br/>{{dv|120|200|boost=0.1}} (Profaned Spear)
+| defense = 50
+| dr = 40%
+| knockback = 100
+| hurt = NPC_Hit_52.wav
+| killed = NPC_Killed_55.wav
+| sound = Item_20.wav
+| soundtext = Spear Cast
+| hardmode = yes
+| vulnerable1 = Magic
+| vulnerable2 = Unholy
+| resistant1 = Holy
+| resistant2 = Fire
+| resistant3 = Dark
+| postml = yes
+| Relic of Resilience|1|25%
+| image2 = Profaned Guardian Rock map.png
+| image2caption = Map Icon
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| duration = 4 seconds (Contact)<br/>2 seconds (Profaned Spear)
+| debuffchance = 100%
+
+}}
+|{{npc infobox
+| name = The Guardian Healer
+| type = Flying Enemy
+| image = Profaned Guardian (Crystal).png
+| ai = Profaned Guardian (Crystal) AI
+| environment = The Hallow
+| environment2 = The Underworld
+| life = {{dv|20,000|40,000|50,000}}
+| damage = {{dv|90|144|168|184}} (Contact)<br/>32 (Fire Orb)
+| defense = 30
+| dr = 20%
+| knockback = 100
+| hurt = NPC_Hit_52.wav
+| killed = NPC_Killed_55.wav
+| sound = Item_20.wav
+| soundtext = Orb Cast
+| hardmode = yes
+| postml = yes
+| Relic of Convergence|1|25%
+| vulnerable1 = Magic
+| vulnerable2 = Unholy
+| resistant1 = Holy
+| resistant2 = Fire
+| resistant3 = Dark
+| image2 = Profaned Guardian Crystal map.png
+| image2caption = Map Icon
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| duration = 3 seconds (Contact)
+| debuffchance = 100%
+}}
+}}
+== Behavior ==
+All four Profaned Guardians spawn at the same time. The fiery main Guardian is immune to all damage until the wood Guardian, rock Guardian, and the crystal Guardian are defeated.
+
+If the player exits the Underground for more than 5 seconds during the fight, the Rock and Crystal guardians will spin while rapidly converging on the player’s location, similar to how [[King Slime]] attacks during nighttime.
+
+If the [[Archmage]] is present anywhere in the world, the Guardians will enrage and immediately fly at him, using various attacks until he dies.
+
+=== Attacks ===
+==== The Guardian Archer (Wood Guardian) ====
+*Rapidly shoots fiery arrows horizontally for 3 seconds before going on cooldown for 5 seconds.
+**Getting hit by the guardian directly causes the guardian to steal 20 ammo or coins from the player and instantly recharge this attack. 
+
+==== The Guardian Defender (Rock Guardian) ====
+*Shoots huge {{item|Flaming Boulders|image=Holy Meteor.gif|nolink=y|size=20px}} from its head every 0.33 seconds.
+*Repeatedly fires a circular spread of 32 {{item|Holy Spears|image=Divine Spear.png|nolink=y|size=42px}}.
+*All projectiles have a 90% chance to reflect, flying back at the player with twice the velocity.
+**Attacks that cannot be reflected will instead cause the player’s armor to break instantly.
+
+==== The Guardian Healer (Crystal Guardian) ====
+*Stays far offscreen, firing healing orbs rapidly at the other Guardians.
+*Periodically fires a lifesteal laser at the player, completely restoring all Guardians’ healths if it hits.
+
+==== The Proflamed Guardian (Main Guardian) ====
+*HIGHLY resistant to all forms of damage until the other three Guardians are defeated.
+*Cycles through 5 different attack patterns:
+**Uses a {{item|Holy Spear Rain|image=Divine Spear.png|nolink=y|size=42px}} attack, covering the screen in falling Holy Spears. Chases the player at a moderate pace.
+**Uses a {{item|Proflamed Flame|image=HolyBlast.gif|nolink=y|size=42px}} attack, launching exploding flares with an infinite lifespan, precise homing, and accelerating speed. Travels in an outward spiral.
+**Uses a {{item|Holy Spear Barrage|image=Divine Spear.png|nolink=y|size=42px}} attack, shooting many Holy Spears in a circular motion while keeping a vertical alignment to the player. The spears accelerate extremely fast, and do 7.25x damage at max acceleration.
+**Uses a Fiery Zigzag attack, moving in a rapid zigzag motion around the player while leaving {{item|Lingering Flames|image=HolyBomb.gif|nolink=y|size=22px}} as it travels. Lingering Flames don’t move, however they never despawn, even in the case of the boss being defeated or reloading the world.
+**Uses a Holy Incineration attack, burning everything in a 50,000 block radius. This deals immense damage and is capable of destroying every block.
+*After reaching 75% health, it will attack 2x as fast.
+*After reaching 50% health, it will summon [[Scorn Eater|Scorn Eaters]] every 0.4 seconds.
+*After reaching 25% health, it will attack 12x as fast.
+*After reaching 10% health, it will eat a dorrito before firing a death ray
+
+=== In [[Revengeance Mode]] ===
+*All Guardian attacks can partially damage blocks. If not managed in time, the damaged blocks will catch fire and burn their surroundings.
+*The Proflamed Guardian additionally deals greatly increased damage after the other three have been killed.
+*It is significantly more aggressive, attempting to ram into the player whenever possible.
+
+=== In [[Death Mode]] ===
+*The Guardian Defender has a 100% chance to deflect projectiles, making all classes except for [[Melee]] nearly useless.
+*At 10% health, the Proflamed Guardian enters a “desperation” phase where it attacks 80% faster and constantly uses all 5 of its attacks at once.
+
+=== In [[Malice Mode]] ===
+* At 5% health, the Proflamed Guardian enters an “extreme desperation” phase where it flees the scene as fast as it possibly can.
+
+=== On the [[For the Worthy]] seed ===
+* Summons a weaker version of [[Providence, the Profaned Goddess]] when one Guardian dies.
+
+== Summons ==
+{| class="terraria"
+! Image !! Name !! Condition
+|-
+| align = center |{{item|mode=table|Scorn Eater}} || From the main guardian at 50% health
+|}
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating the Profaned Guardians, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Profaned Guardians strategies]].}}
+*Don't move around too quickly, as this will likely lead to you ramming into the many projectiles the Guardians fire. Take your time and observe how the boss functions.
+
+== Trivia ==
+*The Profaned Guardians' [[Music|theme]] is [https://www.youtube.com/watch?v=P5r9WCfA3y4 '''Unholy Ambush'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**Despite their theme being called Unholy Ambush, the fight could only be considered an ambush in Death Mode, where the Profaned Guardians can spawn naturally.
+**Their theme has similarities with Providence's, due to the fact that their theme is a repurposed scrapped portion of Providence's theme.
+**If the Calamity Music add-on mod is disabled, '''Boss 1''' will play instead.
+*Despite being a boss, the Guardians don't drop a [[Treasure Bag]] in Expert Mode.
+*In previous versions of the mod, each of the Profaned Guardians were named "A Dunkin' Donut" as their previous sprites were often compared to donuts. Their name was also a reference to [[wikipedia:Dunkin' Donuts|Dunkin' Donuts]] which is a famous coffee shop known for their donuts.
+*One of the Proflamed Guardian’s dialogue lines reference the [[Profaned Rage Potion]].
+**Another one of their lines reference [[Delicious Meat]], the dish served by the Archmage.
+**Yet another one of their lines reference the song [https://www.youtube.com/watch?v=MT6HTpY_OyE&pp=ygUXc3RhaW5lZCBicnV0YWwgY2FsYW1pdHk%3D Stained, Brutal Calamity], more specifically, the part where the lyrics says "Your mental fortitude is fading."
+* The reason for the Guardians attacking the Archmage is unknown, maybe they wanted delicious meat? they do mention it after all.
+**According to the [[Lore]], however, it may be because they were sabotaged by the Archmage during [[Yharim (disambiguation)|Yharim]]’s cooking show, causing them to lose.
+**This unique behavior has been confirmed to be intended.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, their unique despawn message will be "The Profaned Guardians continue to guard the Proflames.”
+
+== Quotes==
+'''When summoned:'''
+*Guardian Healer: ”Be careful... we’re some tough guardians!”
+* Guardian Defender: ”Prepare to meet your end, fool.”
+*Proflamed Guardian: ”YOU WILL BURN BY THE WILL OF THE PROFLAMED FLAMES!”
+
+'''When the Guardian Healer is defeated:'''
+*Guardian Healer: ”Ouch!”
+*Guardian Defender: “How? How could you!?”
+* Proflamed Guardian: “ENOUGH! YOU MAY HAVE DEFEATED ONE OF US, BUT US TWO ARE MUCH TOUGHER!”
+
+'''When the Guardian Defender is defeated:'''
+*Guardian Defender: “Nothing... can beat my eldest sibling...”
+*Proflamed Guardian: “VERY SOON, YOU WILL FEEL MY PROFANED RAGE... HA-HA-HA...”
+
+'''When the Proflamed Guardian is defeated:'''
+*Proflamed Guardian: “MY MENTAL FORTITUDE IS FADING...”
+
+'''When enraged:'''
+*Guardian Healer: ”Guardians unite! We have a more worthy enemy to destroy.”
+*Guardian Defender: ”You... you will not get away with the prize money this time.”
+*Proflamed Guardian: ”BURN THE DELICIOUS MEAT! ALL OF IT!”
+
+'''When the player exits the Underground:'''
+*All: “That is bad. We are Angry”
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

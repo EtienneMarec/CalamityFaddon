@@ -1,0 +1,33 @@
+{{item infobox
+| type = Potion
+| type2 = Crafting material
+| stack = 999
+| tooltip = Contact with the nefarious anglerfish<br/>Medium improvements to all stats<br/>Increases life regeneration
+| consumable = Yes
+| rare = 5
+| use = 17
+| buff = Plenty Satisfied
+| bufftip = Medium improvements to all stats<br/>{{expert|Medium improvements to all stats and increased life regeneration}}
+| duration = 4 minutes
+| sell = {{value|0|5|0}}
+| hardmode = yes
+}}
+{{item drops infobox
+|[[Atlas]] |1|15%
+|All [[Astral Infection]] enemies |1|2%
+}}
+
+'''Titan Fingers''' are a consumable [[food item]] that drops from [[Astral Infection]] enemies in. When consumed, it grants the [[Plenty Satisfied]] buff for 4 minutes.
+
+==Crafting==
+===Used in (Any Food Item)===
+{{recipes|ingredient=Any Food Item}}
+{{-}}
+
+== Trivia ==
+*This item's name is based off the [[Titan Arm]].
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion=yes
+}}

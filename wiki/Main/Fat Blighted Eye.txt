@@ -1,0 +1,36 @@
+{{addon|Calamity: Community Remix}}
+{{npc infobox
+| type = Flying Enemy
+| environment = Surface
+| ai = Demon Eye AI
+| damage = {{dv|50|100}}
+| knockback = 100
+| life = {{dv|400|600}}
+| defense = 16
+| duration = 2 seconds
+| money = {{sc|5}}
+| Lens|1|50%
+| Pungent Bomber|1|{{dv|25%|33%}}
+| Acid Bow|1|{{dv|25%|33%}}
+| Caustic Claw|1|{{dv|25%|33%}}
+| Corrosive Eye Staff|1|{{dv|25%|33%}}
+| Razor Teeth|1|{{dv|25%|33%}}
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Machine
+}}
+
+'''Fat Blighted Eye''' is a [[Hardmode]] [[Falconer]] quest [[enemy]] which spawns as part of her 10 {{item|Essence of Babil}} quest. It behaves similarly to [[Blighted Eye]]s and mainly exists as a tutorial NPC. It drops [[Acidsighter]]'s weapons as a convenience. It wields the following attacks:
+
+*Divebombing the player without warning.
+*Crying acid while dashing in a line above the player.
+*Summoning [[Blighted Eye]]s.
+
+When it reaches 50% health, it can do two moves at once at random intervals.
+
+{{dei}} Fat Blighted Eyes can also spawn outside of the quest on the surface at night after [[Calamitas]] has been defeated.
+ 
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

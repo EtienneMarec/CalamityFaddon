@@ -1,0 +1,12 @@
+<includeonly><!--
+
+//localization info is autoloaded from Template:Schematic/l10n
+
+-->{{#or:<!--
+	-->{{l10n|schematic|{{{1}}}<!--
+		-->|$plural$={{{plural|}}}<!--
+	-->}}<!--
+-->|<!--
+	-->{{error|{{l10n|schematic|error}}}}}}<!--
+
+--></includeonly><noinclude>{{i18n-ready}}{{doc}}</noinclude>

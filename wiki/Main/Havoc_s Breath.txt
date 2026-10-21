@@ -1,0 +1,42 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = ranged
+| damage = 59
+| knockback = 1.5
+| rare = 7
+| sell = {{value|0|12}}
+| stack = 1
+| auto = yes
+| use = 30
+| velocity = 8.5
+| hardmode = yes
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debuffduration = 4 seconds
+| debufftip = Rapid health loss
+| image2 = Havoc's Breath (tank).png
+| image2caption = Equipped tank
+| element1 = Fire
+| element2 = Unholy
+}}
+|{{item drops infobox
+| [[Cataclysm]]|1|{{dv|8.33%|10%}}
+}}
+}}
+
+The '''Havoc's Breath''' is a [[Hardmode]] [[flamethrowers|flamethrower]] that is dropped from [[Cataclysm]]. It fires a long-range stream of red flames that inflict the [[Brimstone Flames]] [[debuff]].
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Flamethrowers]]

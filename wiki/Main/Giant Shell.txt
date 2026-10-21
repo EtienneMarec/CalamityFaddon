@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = 15% reduced movement speed and 5% damage reduction<br/>Taking a hit will make you move very fast for a short time
+| sell = {{value|0|0|20}}
+| defense = 6
+| stack = 1
+| rare = 1
+| type2 = Crafting material
+| buff = Shell Speed Boost
+| duration = 5 seconds (when hit)
+| bufftip = Speed is boosted
+}}
+|{{item drops infobox
+| [[Giant Shelly]]|1|{{dv|15%|25%}}
+}}
+}}
+The '''Giant Shell''' is a [[Pre-Hardmode]] [[covering]] dropped by [[Giant Shelly|Giant Shellies]] in the [[Cavern]] layer. It increases [[defense]] by 6 and [[Damage Reduction]] by 5% but decreases movement speed by 15%. When the player is harmed by any source, the player gains a '''Shell Speed Boost''' [[buff]] that increases movement speed by 90%.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Some worlds may never spawn [[Giant Shelly|Giant Shellies]], due to the unique spawn mechanic they share with [[Salamander]]s and [[Crawdad]]s, making this item unobtainable there. However, one can still find the [[Craw Carapace]] and craft [[The Absorber]] in these worlds.
+*[[Shell Speed Boost]] will not be granted on hit if the player has the [[Panic Necklace]] or any of its upgrades equipped.
+
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]
+[[Category:Defensive coverings]]

@@ -1,0 +1,29 @@
+{|align=right
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| use = 14
+| auto = yes
+| sell = No value
+| stack = 9999
+| rare = 0
+| color = #998FA8
+| hardmode = yes
+}}
+|}
+
+'''Astral Ice''' is a [[Hardmode]] [[block]] which replaces [[Ice Block]]s in the [[Astral Infection]] [[biome]] upon its creation.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main = yes
+| show-blocks= yes
+}}

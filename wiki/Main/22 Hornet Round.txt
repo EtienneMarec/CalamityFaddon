@@ -1,0 +1,45 @@
+{{addon|Calamity: Community Remix}}
+{{infobox wrapper
+|{{item infobox
+| type = Ammunition
+| tooltip = Pierces the hearts of gods...<br/>Ricochets up to 21 times off of hit enemies
+| damage = 22
+| damagetype = ranged
+| stack = 9999
+| consumable = yes
+| knockback = 11
+| sell = {{value|0|0|1}}
+| rare = 15
+| velocity = 11
+| velocitymult = 2
+| hardmode = yes
+| postml = yes
+| proj = AMR Bullet.png
+| projcaption = .22 Hornet Round
+}}
+|{{item drops infobox
+|[[La Ruga]] {{fantag|Polyphemalus}}|19-22|100%
+}}
+}}
+
+'''.22 Hornet Rounds''' are Godseeker Mode [[bullets]] made from [[Auric Bar]]s. Upon contact with an enemy, the bullet will lock onto the closest enemy and redirect towards them, and continue this until hitting the 22nd enemy. If it cannot find another enemy, it will simply keep moving in the direction it was moving when it hit the enemy.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+== Trivia ==
+*The ammo is based on a [[wikipedia:.22_Hornet|rifle cartridge of the same name]].
+*The ricocheting effect and tooltip are based on the "[[22 Bullet Theory|22 bullet]]" theory, a conspiracy theory which claims that an arch-god fired a .22 hornet bullet which pierced through and killed 22 normal gods.
+*The item is also partially inspired by the 22 meme within the Terraria modding community, centered around an early [[Queen Bee]] sprite with "22" captioned on it.
+
+[[File:22 Hornet Round (demo).gif|frame|A player using .22 Hornet Rounds with the [[Minishark]]. Notice how there are 23 [[Super Dummy|Super Dummies]] in the area, but the bottomrightmost dummy isn't hit, showing that the bullet only hits 22 times.]]
+{{-}}
+{{auric}}
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Bullets]]

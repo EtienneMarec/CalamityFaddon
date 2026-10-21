@@ -1,0 +1,37 @@
+{{npc infobox
+| type = Enemy
+| environment = The Void
+| ai = Chasm Beast AI
+| damage = {{element|Dark}} {{dv|150|300}}
+| life = {{dv|240,000}}
+| knockback = 100
+| money = {{value|4|50|0|0}}
+| Sallowrack|30-50| 100%
+| immune1 = Confused
+| immune2 = Kami Flu
+| banner = yes
+| hurt = ScornHurt.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Holy
+| vulnerable2 = Magic
+| resistant1 = Dark
+| resistant2 = Unholy
+| resistant3 = Water
+| hardmode = yes
+| postml = yes
+}}
+The '''Chasm Beast''' is an [[Enemies|Enemy]] found in the Cliffs biome in [[The Void]]. It wanders about randomly until it either sees light or is attacked. When 
+provoked, it will rapidly leap after the player in a similar manner to [[Scorn Eater|Scorn Eaters]]. 
+
+== Notes ==
+* If it deals contact damage to the player without first seeing them or getting attacked, it will leap around in random directions for a short time before returning to its passive behavior.
+
+== Tips ==
+*Its eyes are visible in the darkness, so be sure to hide any lights if you spot them.
+
+== Trivia ==
+*The Chasm Beast's sprite seems to be a reimagining of the scrapped "Void Soldier" enemy from the Void biomes original concept.
+
+{{Master Template Characters
+| show-main = yes
+}}

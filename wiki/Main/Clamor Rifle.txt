@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = ranged
+| damage = 23
+| knockback = 2.5
+| use = 15
+| stack = 1
+| auto = yes
+| rare = 5
+| velocity = 15
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| tooltip = Converts musket balls into homing energy bolts
+| proj = Clamor Energy Bolt.png
+| projcaption = Energy Bolt
+| element1 = Water
+}}
+|{{item drops infobox
+| [[Giant Clam]] (In [[Hardmode]])|1|25%
+}}
+}}
+The '''Clamor Rifle''' is a [[Hardmode]] [[gun]] that drops from the [[Giant Clam]] [[mini boss]]. It transforms [[Musket Ball]]s into aquatic energy bolts that will home in on [[enemies]]. Upon impact with an enemy or a tile, the aquatic energy bolt will split into three smaller bolts, that will not home towards enemies and will deal 33% less damage than the initial bullet.
+
+{{Modifier|ranged}}
+
+== Notes ==
+*The Clamor Rifle can additionally be obtained from [[Sunken Crate]]s at a 7% drop chance in Hardmode after the Giant Clam has been defeated.
+
+[[File:Clamor_Rifle_(demo).gif|frame|left|The aquatic energy bolts homing in on a [[Super Dummy]]. Keep in mind that the three smaller bolts will not home and that all bolts will not pass through blocks.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

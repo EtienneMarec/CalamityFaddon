@@ -1,0 +1,23 @@
+{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 11
+| knockback = 3
+| consumable = yes
+| rare = 1
+| stack = 9999
+| sspeed = 12
+| use = 18
+| sell = {{value|0|0|0|2}}
+| research = 99
+}}
+'''Sea Stone Shurikens''' are craftable, consumable [[throwing weapon]]s that can pierce up to 2 [[enemies]]. 
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+
+
+{{Master Template Weapons
+| show-main = yes
+}}

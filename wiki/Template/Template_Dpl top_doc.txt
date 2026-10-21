@@ -1,0 +1,43 @@
+This template is an alternative to {{tl|dpl}} that allows listing multiple categories in the same table. It is to be used with {{tl|dpl inner}} and {{tl|dpl bottom}}.
+
+== Usage ==
+<pre>
+{{dpl top
+| col = table column header code (required)
+| class = table class(es); default = terraria sortable lined
+| style = table style; default = none
+}}
+{{dpl inner
+| cat = a category to be listed 
+| format = a template name to be used for formatting this list; default = /dpl
+}}
+{{dpl inner
+| cat = a category to be listed 
+| format = a template name to be used for formatting this list; default = /dpl
+}}
+... (more optional {{dpl inner}} calls for listing more categories in the same table)
+{{dpl bottom}}
+</pre>
+
+=== Parameter details ===
+; col
+Required: The table's column headers. Use the same format as you would when declaring column headers in a manual table, eg. ! column1 !! column2
+
+; class
+Optional: The table's classes. Enter bare, without quotes.
+
+; cat
+Required: A category to list.
+
+; template
+Optional: The template from which values will be taken. This will usually be an infobox, like [[template:Item infobox|item infobox]]. Enter the bare template name without "[[Template:". This template must exist on each page in the category being listed. Default = item infobox.
+
+; format
+Optional: A template that determines how rows will be formatted. This will not usually be in the Template: namespace, but rather a sub-page of the current page, eg. "/dpl" (enter the template's page name without quotes). The template should contain the table code for a single row, and this row code will be repeated for each page in the category. Within this template, use <nowiki>{{{param}}}</nowiki> to display a value from the article's infobox. See [[Melee weapons/dpl]] for an example. Default = /dpl.
+
+<includeonly>
+[[Category:Extension templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

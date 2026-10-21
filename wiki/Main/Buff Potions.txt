@@ -1,0 +1,31 @@
+{| width="100%"
+|<span class="ajaxHide">
+{{main|Potion}}
+</span>
+
+|}
+
+{| class="terraria lined"
+! style="padding: 5px" width = "10%" colspan = 2 | Potion
+! width = "60%" | Tooltip
+! Duration
+! Icon
+{{#dpl:
+| namespace =
+| uses = Template:Item infobox
+| category = Potion items
+| include = {item infobox¦/dpl}
+| includematch = /\{{!}}\s*buff\s*=/
+| mode = userformat
+| ordermethod = titlewithoutnamespace
+}}
+|}
+
+{| width = "100%"
+|<span class = "ajaxHide">
+{{Master Template Consumables
+| show-main = yes
+| show-buff = yes
+}}</span>
+|}
+[[Category:Potion items]]

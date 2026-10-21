@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| defense = 3
+| tooltip = 5% increased damage reduction<br/>Enemies take damage when they touch you
+| rare = 1
+| sell = {{value|0|0|20}}
+| stack = 1
+| element1 = Stab
+| element2 = Water
+}}
+|{{item drops infobox
+| [[Crawdad]]|1|{{dv|15%|25%}}
+}}
+}}
+
+The '''Craw Carapace''' is a [[Pre-Hardmode]] [[covering]] dropped by [[Crawdad]]s in the [[Cavern]] layer. It increases [[defense]] by 3, damage reduction by 5%, and makes enemies receive 25% of the damage they deal to player, similar to the [[Thorns]] effect.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Some worlds may never spawn [[Crawdad]]s, due to the unique spawn mechanic they share with [[Salamander]]s and [[Giant Shelly|Giant Shellies]], making this item unobtainable there. However, one can still find the [[Giant Shell]] and craft [[The Absorber]] in these worlds.
+*This item stacks with other Thorns effects.
+
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

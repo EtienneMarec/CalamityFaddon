@@ -1,0 +1,271 @@
+{{recipes/register/note}}<!--
+
+ ============ Void Condenser ============
+
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Bathtub | amount = 1
+| Smooth Abyss Gravel | 14
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Bed | amount = 1
+| Smooth Abyss Gravel | 15
+| Silk | 5
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Bookcase | amount = 1
+| Smooth Abyss Gravel | 20
+| Book | 10
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Candelabra | amount = 1
+| Smooth Abyss Gravel | 5
+| Lumenyl | 3
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Candle | amount = 1
+| Smooth Abyss Gravel | 4
+| Lumenyl | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Chair | amount = 1
+| Smooth Abyss Gravel | 4
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Chandelier | amount = 1
+| Smooth Abyss Gravel | 4
+| Lumenyl | 4
+| Chain | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Chest | amount = 1
+| Smooth Abyss Gravel | 8
+| Any Iron Bar | 2
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Clock | amount = 1
+| Smooth Abyss Gravel | 10
+| Glass | 6
+| Any Iron Bar | 3
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Door | amount = 1
+| Smooth Abyss Gravel | 6
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Dresser | amount = 1
+| Smooth Abyss Gravel | 16
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Lamp | amount = 1
+| Smooth Abyss Gravel | 3
+| Lumenyl | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Lantern | amount = 1
+| Smooth Abyss Gravel | 6
+| Lumenyl | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Sink | amount = 1
+| Smooth Abyss Gravel | 6
+| Water Bucket | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Sofa | amount = 1
+| Smooth Abyss Gravel | 5
+| Silk | 2
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Synth | amount = 1
+| Smooth Abyss Gravel | 15
+| Bone | 4
+| Book | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Table | amount = 1
+| Smooth Abyss Gravel | 8
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Abyss Work Bench | amount = 1
+| Smooth Abyss Gravel | 10
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Smooth Abyss Gravel | amount = 1
+| Smooth Abyss Gravel Platform | 2
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Smooth Abyss Gravel | amount = 1
+| Smooth Abyss Gravel Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Smooth Abyss Gravel Platform | amount = 2
+| Smooth Abyss Gravel | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Smooth Abyss Gravel Wall | amount = 4
+| Smooth Abyss Gravel | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Smooth Voidstone | amount = 1
+| Smooth Voidstone Platform | 2
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Smooth Voidstone Platform | amount = 2
+| Smooth Voidstone | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Smooth Voidstone | amount = 1
+| Smooth Voidstone Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Smooth Voidstone Wall | amount = 4
+| Smooth Voidstone | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Bathtub | amount = 1
+| Smooth Voidstone | 14
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Bed | amount = 1
+| Smooth Voidstone | 15
+| Silk | 5
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Bookcase | amount = 1
+| Smooth Voidstone | 20
+| Book | 10
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Candelabra | amount = 1
+| Smooth Voidstone | 5
+| Lumenyl | 3
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Candle | amount = 1
+| Smooth Voidstone | 4
+| Lumenyl | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Chair | amount = 1
+| Smooth Voidstone | 4
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Chandelier | amount = 1
+| Smooth Voidstone | 4
+| Lumenyl | 4
+| Chain | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Chest | amount = 1
+| Smooth Voidstone | 8
+| Any Iron Bar | 2
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Obelisk | amount = 1
+| Smooth Voidstone | 10
+| Glass | 6
+| Any Iron Bar | 3
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Door | amount = 1
+| Smooth Voidstone | 6
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Dresser | amount = 1
+| Smooth Voidstone | 16
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Lamp | amount = 1
+| Smooth Voidstone | 3
+| Lumenyl | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Lantern | amount = 1
+| Smooth Voidstone | 6
+| Lumenyl | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Piano | amount = 1
+| Smooth Voidstone | 15
+| Bone | 4
+| Book | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Sink | amount = 1
+| Smooth Voidstone | 6
+| Water Bucket | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Voidstone Slab | amount = 1
+| Smooth Voidstone | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Voidstone Slab | amount = 1
+| Voidstone Slab Wall | 4
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Voidstone Slab Wall | amount = 4
+| Voidstone Slab | 1
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Sofa | amount = 1
+| Smooth Voidstone | 5
+| Silk | 2
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Table | amount = 1
+| Smooth Voidstone | 8
+}}<!--
+-->{{recipes/register
+| station = Void Condenser
+| result = Void Work Bench | amount = 1
+| Smooth Voidstone | 10
+}}<!--
+
+-->

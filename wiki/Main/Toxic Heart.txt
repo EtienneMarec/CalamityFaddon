@@ -1,0 +1,32 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = Summons a plague aura around you that damages nearby enemies<br/>Makes you immune to the Plague debuff
+| rare = 8
+| sell = {{value|0|12}}
+| stack = 1
+| hardmode = yes
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffduration = 2 seconds (Aura)
+| debuffchance = 100%
+| element1 = poison
+}}
+|{{item drops infobox
+|[[The Plaguebringer Goliath]]|1|100%
+}}
+}}
+
+The '''Toxic Heart''' is a [[Hardmode]] [[covering]] dropped by [[The Plaguebringer Goliath]]. When equipped, it inflicts 50 damage every so often, as well as the [[Plague]] [[debuff]], to enemies within an 18.75-tile radius of the player. It also makes the player immune to the Plague debuff.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

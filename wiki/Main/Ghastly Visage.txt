@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 80
+| damagetype = Magic
+| knockback = 5
+| velocity = 9
+| use = 27
+| mana = 20
+| tooltip = Fires homing ghast energy that explodes
+| auto = yes
+| stack = 1
+| hardmode = yes
+| postml = yes
+| rare = 13
+| sell = {{value|0|26}}
+| proj = Ghastly Blast.png
+| projcaption = Ghastly Blast
+| image2 = Ghastly Visage Holdout.gif
+| image2caption = Holdout Skull
+| element1 = Dark
+}}
+|{{item drops infobox
+| [[Polterghast]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Ghastly Visage''' is a Godseeker Mode [[magic weapon]] that is dropped by [[Polterghast]]. When used, it releases homing ghast energy that travels through blocks and can pierce enemies twice before impacting on the third hit. The ghast energy explodes into smaller energy bolts after about 9 seconds or upon impacting an enemy. These energy bolts can be blue in color, in which they will be affected by gravity, or red in color, in which they will not be affected by gravity and will explode into gravity-affected shards upon impact with an enemy or tile.
+
+{{Modifier|magic}}
+
+== Notes ==
+*The weapon can be considered an upgrade to the [[Nebula Arcanum]].
+
+== See Also ==
+*[[Gruesome Eminence]], the [[exhumed]] version of this item. 
+[[File:Ghastly Visage (demo).gif|frame|Demonstration of the Ghastly Visage damaging several [[Target Dummy|Target Dummies]] and homing in on a [[Super Dummy]].]]
+{{-}}
+
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+
+[[Category:Magic weapons]]

@@ -1,0 +1,12 @@
+<!--
+// localization info is autoloaded from Template:Historical content/l10n
+
+// output:
+-->{| align="center" style="margin: auto; margin-bottom: 0.5em; padding: 0.2em; background: #515151; border: 1px gray solid; -moz-border-radius: 0.7em; -webkit-border-radius: 0.7em; border-radius: 0.7em; text-align: left;"
+| align="center" style="padding:5px" | {{l10n|historical content|box_text|$reference$={{#if:{{{section|}}}|{{l10n|historical content|section}}|{{l10n|historical content|page}}}}}}
+|}<!--
+
+// cate:
+--><includeonly>{{#if:{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{{nocat|}}}|y}}{{{section|}}}|<!--nocat-->|[[Category:{{l10n|historical content|cate}}]]}}</includeonly><!--
+
+--><noinclude>{{i18n-ready}}{{doc}}</noinclude>

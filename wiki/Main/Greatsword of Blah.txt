@@ -1,0 +1,45 @@
+{{dedicated|Blahblahbal|Influential Mod Creator}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 138
+| auto = yes
+| use = 17
+| velocity = 6
+| knockback = 7
+| stack = 1
+| tooltip = A pale white sword from a forgotten land<br/>You can hear faint yet comforting whispers emanating from the blade<br/>'No matter where you may be you are never alone<br/>I shall always be at your side, my lord'<br/>Fires a rainbow blade that emits rainbow rain on death for a time
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| proj = Blah Beam.png
+| projcaption = Blah Beam
+| element1 = Cold
+| element2 = Holy
+}}
+
+The '''Greatsword of Blah''' is a craftable Godseeker Mode [[broadsword]] and a direct upgrade to the [[Greatsword of Judgement]]. Upon swinging the sword, a rainbow sword is fired, which swiftly homes into a nearby enemy. Every one-tenth of a second, two rainbow orbs are fired out on either side of the sword, which travels a short distance before disappearing on enemy hit or after one second. After two seconds or an enemy has been hit, the sword dissipates, and homing rainbow rain rapidly drop down every one-tenth of a second for the following 20 seconds at the location of the projectile's death. The rain pierces once, homes through tiles, and lasts three seconds. If 20 seconds have not passed since the last projectile's death, the next orb will only change where the rain will spawn.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The weapon and the projectiles do not ignore [[immunity frames]]. This greatly reduces the effectiveness of all other weapons when fighting bosses who do not possess multiple segments such as [[Supreme Calamitas]] since they cannot deal damage during their immunity.
+
+== Trivia ==
+*The sword takes its name from Blahblahbal, the creator of the [https://forums.terraria.org/index.php?threads/released-wip-terraria-avalon.378/ Avalon Mod], which was a popular mod in the early days of Terraria modding.
+*It shares a very similar tooltip to the [[Greatsword of Judgement]], which is one of the sword's materials.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

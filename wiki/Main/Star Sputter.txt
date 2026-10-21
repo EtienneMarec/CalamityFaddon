@@ -1,0 +1,46 @@
+{{infobox wrapper
+|{{item infobox
+| stack = 1
+| auto = yes
+| type = Weapon
+| type2 = Crafting material
+| damage = 112
+| damagetype = Ranged
+| use = 24
+| tooltip = Fires a chain of comets<br/>Fires a bigger, more powerful comet every four rounds<br/>Look to the stars for a galaxy far, far away
+| velocity = 15
+| knockback = 15
+| rare = 9
+| sell = {{value|0|19}}
+| hardmode = yes
+| proj = Sputter Comet.png
+| projcaption = Small Comet
+| proj2 = Sputter Comet Large.png
+| proj2caption = Large Comet
+| debuff = Ancient Astral Blight
+| debufftip = An ancient cosmic affliction spreads through you
+| debuffchance= 100%
+| debuffduration = 4 seconds (Large Comet)<br/>2 seconds (Small Comet)
+| element1 = Magic
+| element2 = Smash
+}}
+|{{item drops infobox
+| [[Astrum Deus]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+
+The '''Star Sputter''' is a [[Hardmode]] [[ranged weapon]] dropped by [[Astrum Deus]]. It fires volleys of three Sputter Comets and fires one Large Sputter Comet on every fourth volley fired, consuming [[Fallen Star]]s as ammo.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The flavor text in the tooltip is a reference to the opening text of the ''[[wikipedia:Star_Wars|Star Wars]]'' movies.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

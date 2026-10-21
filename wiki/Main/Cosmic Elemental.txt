@@ -1,0 +1,37 @@
+{{npc infobox
+| type = Flying Enemy
+| environment = Cavern
+| ai = Granite Elemental AI
+| damage = {{element|Magic}} {{dv|20|40}}
+| life = {{dv|25|50}}
+| knockback = {{dv|50%|55%}}
+| defense = 10
+| money = {{sc|3}}
+| debuff = Confused
+| debufftip = Your controls are reversed
+| duration = 3 seconds
+| debuffchance = 100%
+| banner = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Poisoned
+| Bone Sword|1| 4%
+| Starfury|1| 2%
+| Enchanted Sword|1| 1%
+| Arkhalis|1| 0.5%
+| Cosmic Stone|1|{{dv|5%|10%}}
+| Arcanoid Orb|1|5% (Expert Mode)
+| hurt = NPC_Hit_7.wav
+| killed = NPC_Killed_6.wav
+| resistant1 = Magic
+| vulnerable1 = Water
+| vulnerable2 = Stab
+}}
+{{dablink|If you were looking for something other than the Pre-Hardmode enemy, see [[Cosmic (disambiguation)]].}}
+
+The '''Cosmic Elemental''' is a [[Pre-Hardmode]] [[enemy]] that spawns in the [[Cavern]]. They behave the same as [[Granite Elemental]]s, flying through walls and rolling into a ball when damaged in [[Expert Mode]]. Upon death, the Cosmic Elemental has a chance to drop a number of rare [[swords]] that are otherwise not obtainable through conventional means. The Cosmic Elemental always applies the [[Confused]] [[debuff]] on hit players for three seconds.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

@@ -1,0 +1,25 @@
+Use this template to show a verbal description of a numeric [[knockback]] rating. It is primarily for use within other templates like {{tl|item infobox}} or {{tl|dpl}}. 
+
+This template takes one unnamed parameter: The numeric knockback value. 
+
+Knockback ratings are described by this template in the same way they would be in Terraria:
+
+* {{code|{{tl|knockback|0}}}} = {{knockback|0}}
+* {{code|{{tl|knockback|1.5}}}} = {{knockback|1.5}} (0 - 1.5)
+* {{code|{{tl|knockback|3}}}} = {{knockback|3}} (1.5 - 3.0)
+* {{code|{{tl|knockback|4}}}} = {{knockback|4}} (3.0 - 4.0)
+* {{code|{{tl|knockback|6}}}} = {{knockback|6}} (4.0 - 6.0)
+* {{code|{{tl|knockback|7}}}} = {{knockback|7}} (6.0 - 7.0)
+* {{code|{{tl|knockback|9}}}} = {{knockback|9}} (7.0 - 9.0)
+* {{code|{{tl|knockback|11}}}} = {{knockback|11}} (9.0 - 11.0)
+* {{code|{{tl|knockback|11.1}}}} = {{knockback|11.1}} (11.0 - {{infinity}})
+
+== See also ==
+*{{tl|use time}}
+
+<includeonly>
+[[Category:Shortcut templates‎]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

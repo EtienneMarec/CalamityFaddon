@@ -1,0 +1,1244 @@
+'''Buffs''' are positive status effects granted to a player upon consuming, equipping, or activating various items. Active buffs are shown as icons below the hotbar, along with their remaining duration. Buffs are universally positive or at least benign effects, in contrast with [[Debuffs]], over which the player has much less control.
+
+This is a comprehensive list of all buffs added by the Calamity Mod.
+
+== From [[Buff Potions]] ==
+These buffs are provided from [[potions]] and are consumed upon use.
+{{item/options|mode=table}}
+{| class="terraria"
+!width="45em"| Icon
+!width="90em"| Name
+!width="90em"| From
+!width="417em"| Effect
+!width="203em"| Tooltip
+|-
+|{{item|Abyssal Weapon}}
+|[[Calamitas' Brew]]
+|Causes melee and Spy attacks to inflict the [[Abyssal Flames]] [[debuff]] when striking enemies and increases the player's movement speed by 5%.
+|Melee and Spy weapons inflict abyssal flames, 5% increased movement speed
+|-
+|{{item|Anechoic Coating (buff)}}
+|[[Anechoic Coating]]
+|Abyssal enemies' ability to detect you is hindered.
+|Abyssal creature's detection radius reduced
+|-
+|{{item|Armor Crumbling}}
+|[[Crumbling Potion]]
+|Increases melee and Spy crit by 5%. Causes melee and Spy attacks to inflict the [[Armor Crunch]] debuff.
+|Melee and Spy attacks break enemy armor
+|-
+|{{item|Armor Shattering}}
+|[[Shattering Potion]]
+|Increases melee and Spy damage and crit by 8%. Causes melee and Spy attacks to inflict the [[Armor Crunch]] debuff.
+|Melee and Spy attacks break enemy armor
+|-
+|{{item|Astral Injection (buff)}}
+|[[Astral Injection]]
+|Greatly increases mana regeneration even while moving or while using a magic weapon.
+|Extreme mana recovery
+|-
+|{{item|Baguette (buff)}}
+|[[Baguette]]
+|Increases healing of the [[Red Wine]] to 250, but further reduces life regen for a total of -3.
+|If only I knew... ~Cirrus
+|-
+|{{item|Bloodfin Boost}}
+|[[Bloodfin]]
+|Increases life regen by 5. If under the effects of a damaging debuff, increases life regen by 10 instead.
+|Don't let the blood get to your head
+|-
+|{{item|Bounding}}
+|[[Bounding Potion]]
+|Increases jump height by 10 blocks, increases jump speed by 10%, and increases the amount of blocks before taking fall damage to 25.
+|Increased jump height, jump speed, and fall damage resistance
+|-
+|{{item|Cadance}}
+|[[Cadance Potion]]
+|Increases life regen and max life by 25%, and increases heart pickup range. Decreases enemy spawn rates by 35.90% and maximum spawn count by 44%.
+|Your heart is pure
+|-
+|{{item|Calamitous Euphoria}} {{fantag|Calamity: Community Remix}}
+|[[Sugars of Calamity]]
+|Increases movement speed by 30% and damage by 50%. Decreases critical strike chance by 30% and defense by 10.
+|You feel ready to face the entire world!
+|-
+|{{item|Calcium}}
+|[[Calcium Potion]]
+|Gives immunity to fall damage.
+|You are immune to fall damage
+|-
+|{{item|Ceaseless Hunger}}
+|[[Ceaseless Hunger Potion]]
+|Item grab range is massively increased.
+|You are sucking up all the items
+|-
+|{{item|Leaves Power}}
+|[[Leaves of Crabulon]]
+|Various buffs to all stats.
+|-
+|{{item|Draconic Surge}}
+|[[Draconic Elixir]]
+|Greatly increases flight time and boosts defense by 16. [[God Slayer armor|God Slayer]] and [[Silva armor|Silva revives]] heal you to half HP.
+|The power of a dragon courses through your veins
+|-
+|{{item|Gravity Normalizer}}
+|[[Gravity Normalizer Potion]]
+|Disables low gravity in space and gives an immunity to the [[Distorted]] debuff.
+|Gravity is now normal in space, immunity to distorted
+|-
+|{{item|Holy Wrath}}
+|[[Holy Wrath Potion]]
+|12% increased damage and all attacks inflict [[Holy Flames]] for 3 seconds.
+|Increased damage, increased movement and flight speed{{sic}}, and all attacks inflict holy fire
+|-
+|{{item|Invincible}}
+|[[Purified Jam]]
+|Makes you immune to all damage and most debuffs for 10 seconds (5 seconds in Death Mode)
+|Immune to damage and most debuffs
+|-
+|{{item|Omniscience}}
+|[[Potion of Omniscience]]
+|Grants the effects of [[Hunter Potion|Hunter]], [[Spelunker Potion|Spelunker]], and [[Dangersense Potion|Dangersense]] potions, causing nearby creatures, enemy projectiles, danger sources, and treasure to be highlighted.
+|You can see everything
+|-
+|{{item|Penumbra (buff)}}
+|[[Penumbra Potion]]
+|Increased regeneration of [[Spy#Stealth|Spy stealth]]. Allows it to build while moving. Increased regeneration at night and during an eclipse.
+|Stealth regenerates 15% faster while moving<br/>At night, stealth additionally regenerates 15% faster while standing still<br/>Both boosts increase to 20% during a solar eclipse
+|-
+|{{item|Photosynthesis}}
+|[[Photosynthesis Potion]]
+|Increased life regen when standing still and not attacking. This is five times as effective in the day. Hearts heal an additional 5 HP.
+|Life regen boosted, more during daytime, and hearts heal more HP
+|-
+|{{item|Profaned Rage}}
+|[[Profaned Rage Potion]]
+|12% increased crit chance, 5% increased horizontal flight speed.
+|Increased crit chance, movement{{sic}} and flight speed
+|-
+|{{item|Revivify}}
+|[[Revivify Potion]]
+|All attacks heal the player for 1/15 of their damage.
+|You are healed by a fraction of the damage you take
+|-
+|{{item|Shadow}}
+|[[Shadow Potion]]
+|Makes the player invisible and reduces aggro when not attacking<br/>Boosts all stealth generation by 10%<br/>Spy weapons grant certain buffs when held and spawn certain projectiles when used
+|You're invisible, certain Spy weapons give and gain buffs, and stealth generation is boosted.
+|-
+|{{item|Soaring}}
+|[[Soaring Potion]]
+|Increases flight time and horizontal flight speed by 10%<br/>Restores a fraction of your wing flight time whenever you strike an enemy with a true melee weapon<br/>The amount of flight time restored scales with your melee stats and weapon swing speed
+|Increased wing flight time and speed<br/>True melee hits restore wing flight time
+|-
+|{{item|Sulphurskin}}
+|[[Sulphurskin Potion]]
+|Reduces the damage dealt by the water in the [[Sulphurous Sea]]
+|The sulphuric waters have a lesser effect on you
+|-
+|{{item|Sunken Power}} {{fantag|Calamity: Community Remix}}
+|[[Ashes of the Sunken Sea]]
+|Increases movement speed by 20% and damage by 10%. Decreases critical strike chance by 50% and defense by 20.
+|You feel euphoric and ready for anything
+|-
+|{{item|Tesla's Electricity}}
+|[[Tesla Potion]]
+|Summons an aura of electricity that deals 15 typeless damage, inflicts [[Electrified]] and slows enemies down.
+|Summons an aura of electricity
+|-
+|{{item|Titan Scale}}
+|[[Titan Scale Potion]]
+|Increases knockback, defense by 5, and damage reduction by 5%. Increases defense by 25 and damage reduction by 10% while holding a true melee weapon.
+|You feel tanky
+|-
+|{{item|Triumph}}
+|[[Triumph Potion]]
+|Reduces enemy contact damage. Reduction scales with enemy health.
+|Enemy contact damage is reduced, the lower their health the greater the reduction
+|-
+|{{item|Yharim's Power}}
+|[[Yharim's Stimulants]]
+|Increases all damage by 6%, all crit chance by 2%, melee speed by 5%, minion knockback by 100%, movement speed by 15%, damage reduction by 5%, and defense by 5.
+|You feel like you can break the world in two...with your bare hands!
+|-
+|{{item|Zen}}
+|[[Zen Potion]]
+|Decreases enemy spawn rates by 60% and maximum spawn count by 70%
+|Spawn rates are reduced
+|-
+|{{item|Zerg}}
+|[[Zerg Potion]]
+|Increases all spawn rates and maximum spawn count by 400%
+|Spawn rates are boosted
+|-
+|}
+
+== From Friendly NPCs ==
+{| class="terraria"
+!width="45em"| Icon
+!width="90em"| Name
+!width="90em"| From
+!width="417em"| Effect
+!width="203em"| Tooltip
+|-
+|{{item|Amidias' Blessing}}
+|[[Sea King]]'s "Help" option
+|Unlimited water breathing for the duration of the buff, bypasses the effects of the Abyss.
+|You are blessed by Amidias<br/>Lets you breathe underwater, even in the Abyss!<br/>Just don't get hit...
+|-
+|{{item|Mushy}}
+|[[Crabulon]] (passive)
+|Increases life regen by 1 and defense by 5
+|Increased defense and life regen
+|-
+|{{item|Provi's Blessing|Provi's Blessing}}
+|Giving the[[Profaned Birb]] a Gummy Worm
+|Increase stats depending on game progression
+|
+|-
+|}
+
+
+
+== From Items and the Environment ==
+{| class="terraria"
+!width="45em"| Icon
+!width="90em"| Name
+!width="90em"| From
+!width="417em"| Effect
+!width="203em"| Tooltip
+|-
+|{{item|Adamant Will}}
+|[[Resilient Candle]]
+|Increases the effectiveness of defense by 5%.
+|Neither wind nor rain can snuff its undying flame
+|-
+|{{item|Adrenaline Mode}}
+|[[Adrenaline Meter]]
+|Increases damage dealt by 200%.<br/>Can be upgraded to increase damage dealt by 245%.
+|200% damage boost. Can be boosted by other items up to 245%.
+|-
+|{{item|Chaos Candle (buff)}}
+|[[Chaos Candle]]
+|Increases all spawn rates by 66.67% and maximum spawn count by 150%
+|Spawn rates around the candle are boosted!
+|-
+|{{item|Corruption Effigy (buff)}}
+|[[Corruption Effigy]]
+|Increases nearby players' movement speed by 15% and crit chance by 10%. Decreases nearby players' damage reduction by 20%.
+|The corruption empowers you
+|-
+|{{item|Crimson Effigy (buff)}}
+|[[Crimson Effigy]]
+|Increases nearby players' damage by 15% and defense by 10. Decreases nearby players' maximum health by 20%.
+|The crimson empowers you
+|-
+|{{item|Hallow Effigy (buff)}}
+|[[Hallow Effigy]]
+|Increases nearby players' damage, crit, and movement speed increased by 25%, their defense by 20, their DR by 8%, and their health by 20%. Nearby players also suffer a permanent chaos state
+|The hallow empowers you
+|-
+|{{item|Astral Effigy (buff)}}
+|[[Astral Effigy]]
+|Provides immunity to [[space]]'s gravity reduction.
+|The astral infection empowers you
+|-
+|{{item|Effigy of Decay (buff)}}
+|[[Effigy of Decay]]
+|Grants immunity to the water of the [[Sulphurous Sea]] and the ability to breathe underwater.
+|The sulphuric waters empower you
+|-
+|{{item|Limber}}
+|[[Weightless Candle]]
+|Boost movement speed by 15%, flight time by 10% and movement acceleration by 5%.
+|The floating flame seems to uplift your very spirit
+|-
+|{{item|Rage Mode}}
+|[[Rage Meter]]
+|Increases damage dealt by 50%.<br/>Can be upgraded to increase damage dealt by 110%.
+|50% damage boost. Can be boosted by other items up to 110%
+|-
+|{{item|Spite}}
+|[[Spiteful Candle]]
+|Enemy damage taken is increased by 5%, disregarding enemy DR.
+|Its hateful glow flickers with ire
+|-
+|{{item|Tranquility Candle (buff)}}
+|[[Tranquility Candle]]
+|Decreases enemy spawn rates by 28.57% and maximum spawn count by 60%.
+|Spawn rates around the candle are reduced!
+|-
+|{{item|Trippy}}
+|[[Odd Mushroom]]
+|Creates rainbow [[Brain of Cthulhu]]-like hallucinations, heat distortion, and increases the player's damage by 50%.
+|You see the world for what it truly is...and you also have a 50% increase to all damage
+|-
+|{{item|Vigor}}
+|[[Vigorous Candle]]
+|Boost life regeneration by 0.4% of maximum health per second, regardless of the player's actions.
+|Its brilliant light suffuses those nearby with hope
+|-
+|}
+
+== From [[Covering]] Sets ==
+{| class="terraria"
+!width="45em"| Icon
+!width="90em"| Name
+!width="90em"| From
+!width="417em"| Effect
+!width="203em"| Tooltip
+|-
+|{{item|Abyssal Madness}}
+|[[Omega Blue armor]]
+|Increases damage and critical strike chance by 10%, and increases range and aggression of tentacles.
+|Increased damage, critical strike chance, and tentacle aggression/range
+|-
+|{{item|Baby Slime God (buff)}}
+|[[Statigel armor]]
+|Summons a slime minion based on your world's evil.
+|The slime god will protect you
+|-
+|{{item|Blood Frenzy}}
+|[[Bloodflare armor]] and [[Auric Tesla armor]]
+|Increases melee damage and critical strike chance by 25%, and reduces the player's contact damage by 50%
+|Contact damage is reduced and melee stats are greatly increased
+|-
+|{{item|Brimflame Frenzy}}
+|[[Brimflame armor]]
+|Increases all damage by 10% while significantly reducing life regen and disabling mana regen
+|Dark magic empowers your attacks at the cost of your life
+|-
+|{{item|Daedalus Crystal (buff)}}
+|[[Daedalus armor]]
+|Summons a crystal above your head which shoots projectiles.
+|The daedalus crystal will protect you
+|-
+|{{item|Empyrean Rage}}
+|[[Empyrean armor]]
+|Increases all damage by 10%.
+|Rage of the cosmos
+|-
+|{{item|Empyrean Wrath}}
+|[[Empyrean armor]]
+|Increases all crit chance by 5%.
+|Wrath of the cosmos
+|-
+|{{item|Hydrothermic Vent (buff)}}
+|[[Hydrothermic armor]]
+|Summons a vent above the head which shoots projectiles.
+|The hydrothermic vent will protect you
+|-
+|{{item|Lil' Plaguebringer (buff)}}
+|[[Plaguebringer armor]]
+|Summons a small Plaguebringer which damages nearby enemies, inflicts the [[Plague]] [[debuff]] and boosts nearby summons.
+|The plaguebringer will protect you
+|-
+|{{item|Mechworm (buff)}}
+|[[God Slayer armor]]
+|The mechworm chases and attacks enemies similarly to the [[Stardust Dragon Staff]]. The mechworm can travel through blocks.
+|The mechworm will protect you
+|-
+|{{item|Reaver Rage}}
+|[[Reaver armor]]
+|Increases all damage, melee speed, and movement speed by 5%.
+|You are angry
+|-
+|{{item|Red Devil (buff)}}
+|[[Demonshade armor]]
+|Summons a red devil which shoots tridents.
+|The red devil will protect you
+|-
+|{{item|Shellfish (buff)}}
+|[[Mollusk armor]]
+|The shellfish will follow you around, latching onto nearby enemies.
+|The shellfish will protect you
+|-
+|{{item|Silva Crystal (buff)}}
+|[[Silva armor]] and [[Auric Tesla armor]]
+|Summons a crystal which shoots bursts of light.
+|The crystal will protect you
+|-
+|{{item|Silva Immunity}}
+|[[Silva armor]] and [[Auric Tesla armor]] (upon death)
+|The player is unable to die. Fatal damage will instead reduce max health by 100.
+|You are invulnerable
+|-
+|{{item|Tarra Life}}
+|[[Tarragon armor]] and [[Auric Tesla armor]]
+|Increases life regeneration by 10 and the player emits green heart particles.
+|Rapid healing
+|-
+|{{item|Tarragon Cloak}}
+|[[Tarragon armor]] and [[Auric Tesla armor]]
+|The player takes 50% less contact damage
+|Contact damage is reduced
+|-
+|{{item|Tarragon Immunity}}
+|[[Tarragon armor]] and [[Auric Tesla armor]]
+|The player temporarily gains immunity to damage.
+|You are immune
+|-
+|{{item|Urchin (buff)}}
+|[[Victide armor]]
+|Summons an urchin which shoots darts affected by gravity.
+|The urchin will protect you
+|-
+|{{item|Valkyrie (buff)}}
+|[[Aerospec armor]]
+|Summons a valkyrie which dashes through enemies.
+|The valkyrie will protect you
+|-
+|}
+
+== From [[coverings]] ==
+{| class="terraria"
+!width="45em"| Icon
+!width="90em"| Name
+!width="90em"| From
+!width="417em"| Effect
+!width="203em"| Tooltip
+|-
+|{{item|Abyssal Diving Suit (buff)}}
+|[[Abyssal Diving Suit]]
+|Transforms the player into an armored diver.
+|You are made of metal
+|-
+|{{item|Abyssal Diving Suit Plates}}
+|[[Abyssal Diving Suit]]
+|Reduces damage by 15%.
+|The plates will absorb 15% damage
+|-
+|{{item|Afflicted}}
+|[[Affliction]]
+|Increases life regeneration by 1, damage reduction by 7%, defense by 20, damage by 10%, and max HP by 10%. 
+|Empowered by otherworldly spirits
+|-
+|{{item|Archer of Lunamoon}}
+|[[Daawnlight Spirit Origin]]
+|Summons a harmless spirit to follow the player.
+|You have a personal spotter
+|-
+|{{item|Anahita (buff)}}
+|[[Pearl of Enthrallment]]
+|[[Anahita]] floats above you, firing water spears, icy mist, and treble clefs to damage enemies.
+|Anahita will protect you
+|-
+|{{item|Bloody Boost}}
+|[[Blood Pact]]
+|Grants several stat boosts to the player, increases [[immunity frames]] and [[Recovery Potions|healing potions]]' effectiveness by 50%.
+|Increased offensive and defensive stats<br/>Healing potions grant more health
+|-
+|{{item|Brimstone Elemental (buff)}}
+|[[Rose Stone]]
+|A friendly [[Brimstone Elemental]] floats to your far left, firing brimstone flames to damage enemies.
+|The brimstone elemental will protect you
+|-
+|{{item|Chi}}
+|[[Trinket of Chi]]
+|Boosts damage by 50% and decreases damage taken by 15%.
+|Your next attack is boosted and you are more resilient
+|-
+|{{item|Cloud Elemental (buff)}}
+|[[Eye of the Storm]]
+|A friendly [[Aether Valkyrie]] floats to your far right, dashing repeatedly at enemies.
+|The aether valkyrie will protect you
+|-
+|{{item|Devotion}}
+|[[Profaned Soul Crystal]]
+|Transforms the player into an emissiary of the [[Providence, the Profaned Goddess|Profaned Goddess]]. If the player has ten or more available empty minion slots and [[Supreme Calamitas]] has been defeated, using non summoner weapons will cause the player to fire powerful attacks depending on the weapon type.
+|The profaned soul within has been defiled by the powerful magic of a supreme witch (If Supreme Calamitas is not defeated)<br/>
+Your profaned soul is constrained by your insufficient summoning powers (If the player has less than ten available minion slots)<br/>
+An ascended ice construct is suppressing your true potential.. (If the [[Endo Cooper]] minion is active)<br/>
+A magical hat overwhelms your senses, squandering your true potential.. (If the [[Magic Hat (minion)|Magic Hat]] minion is active)<br/>
+You are an emissary of the profaned goddess now!
+|-
+|{{item|Divine Bless}}
+|[[Angelic Alliance]]
+|Increases damage by 5% and multiplies life regen by 2.5. All minion attacks will inflict the [[Banishing Fire]] [[debuff]]. For every minion the player possesses, an archangel will spawn and orbit the player while firing at nearby enemies for 25% of the minion's damage.
+|Increased health regen and minions inflict Banishing Fire
+|-
+|{{item|Elysian Gar}}
+|[[Elysian Aegis]] and [[Asgardian Aegis]]
+|Reduces movement speed and acceleration by 50%, increases [[aggro]] up to 1,100, damage by 15%, critical strike chance by 10%, and defense by 20.
+|Movement speed reduced, other stats buffed
+|-
+|{{item|Encased}}
+|[[Permafrost's Concoction]]
+|Defense is increased by 30 and damage reduction is increased by 30%, but the player is encased in ice and cannot move.
+|30 defense and +30% damage reduction, but...
+|-
+|{{item|Fungal Clump (buff)}}
+|[[Fungal Clump]]
+|Summons a fungal clump which latches on to enemies and steals life.
+|The fungal clump will protect you
+|-
+|{{item|Gladiator Swords (buff)}}
+|[[Gladiator's Locket]]
+|Summons two sword spirits to protect you
+|The gladiator swords will protect you
+|-
+|{{item|Hallowed Defense}}
+|[[Hallowed Rune]]
+|Boosts defense by 7 and damage reduction by 7%.
+|Defense boosted by 7 and damage reduction boosted by 7%
+|-
+|{{item|Hallowed Power}}
+|[[Hallowed Rune]]
+|Boosts minion damage by 15%. Stars occasionally rain down from the sky on minion hits.
+|Minion damage boosted by 15%
+|-
+|{{item|Hallowed Regen}}
+|[[Hallowed Rune]]
+|Boosts life regeneration by 3.
+|Regenerating life
+|-
+|{{item|Heart of the Elements (buff)}}
+|[[Heart of the Elements]]
+|Summons all of the friendly elementals to assist the player.
+|All elementals will protect you
+|-
+|{{item|Howl's Heart (buff)}}
+|[[Howl's Heart]]
+|Summons three pets to assist the player.
+|Howl protects you, Calcifer lights your way, Turnip-head stalks you
+|-
+|{{item|Ice Shield (buff)}}
+|[[Aquatic Heart]]
+|Absorbs 20% of the damage received when hit, then breaks.
+|Absorbs 20% damage from the next hit you take, then shatters
+|-
+|{{item|Mini Old Duke (buff)}}
+|[[Mutated Truffle]]
+|Summons a miniature Old Duke to attack nearby enemies.
+|The young duke will protect you
+|-
+|{{item|Ocean's Blessing}}
+|[[Aquatic Heart]]
+|Boosts speed and acceleration.
+|15% increased max speed and acceleration
+|-
+|{{item|Phantomic Empowerment}}
+|[[Phantomic Artifact]]
+|Boosts minion damage by 10%. Minion hits have a 10% chance to spawn a phantomix dagger.
+|Empowering minion damage by 10%
+|-
+|{{item|Phantomic Regen}}
+|[[Phantomic Artifact]]
+|Boosts life regen by 2. Minion hits have a 5% chance to summon a phantomic heart that further boosts life regen by 2.
+|Regenerating life
+|-
+|{{item|Phantomic Shield}}
+|[[Phantomic Artifact]]
+|Boosts defense by 10 and damage reduction by 5. A phantomic bulwark will absorb 20% damage of any attack while it is active.
+|Defense boosted by 10 and damage reduction boosted by 5%<br/>An ephemeral bulwark protects you
+|-
+|{{item|Popo (buff)}}
+|[[Magic Scarf and Hat]]
+|Transforms the player into a snowman.
+|You are a snowman now!
+|-
+|{{item|The Profaned Soul}}
+|[[Profaned Soul Artifact]] and [[Profaned Soul Crystal]]
+|The profaned guardians will protect and fight for the player
+|The healer will heal your wounds (Only healer)<br/>
+The Defensive Duo will protect and heal you! (Healer + Defensive)<br/>
+The Offensive Duo will fight for and heal you! (Healer + Offensive)<br/>
+The Profaned Babs will fight for and defend you! (All Three)
+|-
+|{{item|Rare Sand Elemental (buff)}}
+|[[Rare Elemental in a Bottle]]
+|A friendly and rare [[Sand Elemental]] floats to your left, summoning green orbs that heal the player when touched.
+|The sand elemental will heal you
+|-
+|{{item|Sand Elemental (buff)}}
+|[[Elemental in a Bottle]]
+|A friendly [[Sand Elemental]] floats to your right, summoning sandnados to damage enemies.
+|The sand elemental will protect you
+|-
+|{{item|Shell Speed Boost}}
+|[[Flame-Licked Shell]], [[Giant Shell]], [[The Absorber]], and [[The Sponge]]
+|Movement speed is boosted by 90% on hit
+|Speed is boosted
+|-
+|{{item|Spirit Defense}}
+|[[Spirit Glyph]]
+|Boosts defense and damage reduction.
+|Defense boosted by 5 and damage reduction boosted by 5%
+|-
+|{{item|Spirit Power}}
+|[[Spirit Glyph]]
+|Boosts minion damage.
+|Minion damage boosted by 10%
+|-
+|{{item|Spirit Regen}}
+|[[Spirit Glyph]]
+|Boosts life regeneration.
+|Regenerating life
+|-
+|{{item|Water Elemental (buff)}}
+|[[Aquatic Heart]]
+|Grants various buffs.
+|You are a water elemental now
+|-
+|}
+
+== From [[Summon weapons|Summoning Weapons]] ==
+{| class="terraria"
+!width="45em"| Icon
+!width="90em"| Name
+!width="90em"| From
+!width="417em"| Effect
+!width="203em"| Tooltip
+|-
+|{{item|Ancient Mineral Shark (buff)}}
+|[[Forgotten Apex Wand]]
+|An Ancient Mineral shark will follow the player while it charges at nearby enemies, slamming into them and rebounding away.
+|Ancient yet so dangerous
+|-
+|{{item|Aquatic Star (buff)}}
+|[[Deepsea Staff]]
+|An aquatic star floats around the player, flinging itself into enemies to deal damage.
+|The aquatic star will protect you
+|-
+|{{item|Astral Jelly (buff)}}
+|[[Abandoned Slime Staff]]
+|A mini astrageldon slime follows the player around, firing lasers towards nearby enemies.
+|The mini astrageldon slime will protect you
+|-
+|{{item|Astral Probe (buff)}}
+|[[Godspawn Helix Staff]]
+|An astral probe rotates around the player, firing lasers at nearby enemies.
+|The astral probe will protect you
+|-
+|{{item|Baby Blood Crawler (buff)}}
+|[[Scab Ripper]]
+|A mini blood crawler will float around the player while it latches onto nearby enemies. When it latches on an enemy it summons dropping damaging blood particles that rain from the sky.
+|The baby blood crawler will protect you
+|-
+|{{item|Baby Stormlion (buff)}}
+|[[Stormjaw Staff]]
+|A Baby stormlion will run in the ground while following the player. It aggressively rams enemies back and forth while creating damaging sparks in contact with enemies.
+|The baby stormlion will protect you
+|-
+|{{item|Belladonna Spirit (buff)}}
+|[[Belladonna Spirit Staff]]
+|A Flying forest spirit minion will float around the player while it shoots gravity-affected petals towards the enemies.
+|A cute forest spirit is following you
+|-
+|{{item|Brimseeker (buff)}}
+|[[Dormant Brimseeker]]
+|A Brimseeker will fly around the player while it dashes at nearby enemies leaving a fiery brimstone trail. If the minion slots are exhausted, it will summon a dormant Brimseeker that does not contact enemies - remaining stationary for a moderate amount of time. While stationary, it releases fireballs in all directions and causes active Brimseekers within the aura to have a reduced cooldown between their dashes.
+|Does it want something from you?
+|-
+|{{item|Black Hawk (buff)}}
+|[[Black Hawk Remote]]
+|A fighter jet floats around the player, shooting bullets at enemies to deal damage.
+|The fighter jet will protect you
+|-
+|{{item|Blighted Eyes (buff)}}
+|[[Entropy's Vigil]]
+|Three miniature clones of [[Calamitas]] and her brothers float around the player. Calamitamini will shoot brimstone lasers, Catasromini will charge at enemies, and Cataclymini will breathe brimstone flame.
+|Calamitas and her brothers will protect you
+|-
+|{{item|Blood Clot (buff)}}
+|[[Blood Clot Staff]]
+|A blood clot floats around the player , chasing and dealing contact damage to enemies.
+|The blood clot will protect you
+|-
+|{{item|Brittle Star (buff)}}
+|[[Seabound Staff]]
+|A brittle star floats around the player , doing swift, piercing lunges into nearby enemies to deal damage.
+|The brittle star will protect you
+|-
+|{{item|Calamari (buff)}}
+|[[Calamari's Lament]]
+|A miniature [[Colossal Squid|colossal squid]] float around the player and shoots ink bombs.
+|The squid will protect you
+|-
+|{{item|Caustic Dragon (buff)}}
+|[[Caustic Staff]]
+|A caustic dragon floats behind the player, shooting thorns at enemies to deal damage.
+|A mini jungle dragon is following you
+|-
+|{{item|Cinder Blossom (buff)}}
+|[[Cinder Blossom Staff]]
+|A Fiery flower floats over the player's head and fires Flaming Sparks at nearby enemies.
+|A hot, searing flower is floating uncomfortably close to you
+|-
+|{{item|Cold Divinity (buff)}}
+|[[Cold Divinity]]
+|An Icy shield will encase the player adding 1 shield spike at the cost of 1 minion slot when pressing the left click. The spike will revolve arround the shield moving outwards from it until the spike reaches a set distance where it glows into a deeper shade of blue and is ready to be launched, this fully charged spike will launch itself into a nearby enemy or it will continue orbiting the player. using the right click will make a duplicate ring of spikes towards an enemie that was the closest to the cursor, they orbit around and diverge until a set distance when all the spikes are launched into the enemy at once.
+|The magic of the ancient ice castle will aid you
+|-
+|{{item|Concentrated Void}}
+|[[Void Concentration Staff]]
+|A void aura engulfs the player and fires homing orbs.
+|The infinite void yearns for more...
+|-
+|{{item|Corroslime (buff)}}
+|[[Corroslime Staff]]
+|A corroslime follows the player around, dealing contact damage to enemies.
+|The corroslime will protect you
+|-
+|{{item|Cosmic Viper (buff)}}
+|[[Cosmic Viper Engine]]
+|A cosmic Gunship will fly around the player while it fires 3 types of cosmilite missiles towards the enemies.
+|The cosmic gunship will protect you
+|-
+|{{item|Cosmic Energy (buff)}}
+|[[Cosmic Immaterializer]]
+|Cosmic energy floats around the player, firing exploding projectiles at enemies and causing the player to take 25% less damage from projectiles.
+|The cosmic energy will protect you
+|-
+|{{item|Cosmilamp (buff)}}
+|[[Cosmilamp]]
+|A cosmilamp floats around the player, seeking and dealing contact damage to enemies.
+|The cosmilamp will protect you
+|-
+|{{item|Crimslime (buff)}}
+|[[Crimslime Staff]]
+|A crimslime follows the player around, dealing contact damage to enemies.
+|The crimslime will protect you
+|-
+|{{item|Daedalus Golem (buff)}}
+|[[Daedalus Golem Staff]]
+|A crystal golem will alternate bewteen attacking enemies with pellets and fire lighting bolts.
+|A crystal golem is following you
+|-
+|{{item|Dank Creeper (buff)}}
+|[[Dank Staff]]
+|A dank creeper floats around the player, chasing and dealing contact damage to enemies.
+|The dank creeper will protect you
+|-
+|{{item|Dazzling Stabber (buff)}}
+|[[Dazzling Stabber Staff]]
+|Holy blade minions will rally in a cone-formation above the player. They will launch themselves towards enemies creating an explosion of sparks and teleport to the nearest enemy to stick into them.
+|En garde
+|-
+|{{item|Miniature Eye of Cthulhu}}
+|[[Deathstare Rod]]
+|A floating eyeball stays above the player and fires lasers towards nearby enemies.
+|It's watching you
+|-
+|{{item|Elemental Axe (buff)}}
+|[[Elemental Axe]]
+|An elemental axe floats around the player, quickly flying towards enemies to deal contact damage. Elemental axes can travel through blocks.
+|The elemental axe will protect you
+|-
+|{{item|Endo Cooper (buff)}}
+|[[Endogenesis]]
+|An Endo cooper will be summoned where the weapon was used. It has 4 modes of attacks, first one being Endo Cooper firing a barrage of 5 to 7 piercing lasers shot at nearby enemies, the second being Endo Cooper launching several homing icicle shards, the third Endo Cooper will aggressively ram back and forth into enemies and the fourth one where Endo Cooper will fire endothermic flamethrowers piercing in all directions.
+|The ascened Cooper will protect you
+|-
+|{{item|Endo Hydra (buff)}}
+|[[Endo Hydra Staff]]
+|A single-headed hydra will be summoned at the back of the player and the head will fire a beam at nearby enemies. The player can summon more heads if it has more minion slots.
+|The endo hydra will protect you… for some reason
+|-
+|{{item|Eye of Night (buff)}}
+|[[Eye of Night]]
+|A floating eyeball will orbit around enemies and fires cells that stick to targets and inflict the [[Cursed Inferno]] [[debuff]].
+|It eerily watches
+|-
+|{{item|Fiery Draconid}}
+|[[Yharon's Kindle Staff]]
+|The fiery draconid attacks enemies by ramming into them and shooting fireballs.
+|The fiery draconid will protect you
+|-
+|{{item|Flesh Ball (buff)}}
+|[[Flesh of Infidelity]]
+|A flesh ball will jump around and fire streams of blood that home in on enemies.
+|Why is it follow you?
+|-
+|{{item|Flowers of Mortality (buff)}}
+|[[Flowers of Mortality]]
+|Five rainbow flowers orbit around the player and fire homing bolts at nearby enemies.
+|Celestial blossoms surround you
+|-
+|{{item|Frost Blossom (buff)}}
+|[[Frost Blossom Staff]]
+|A Frost Blossom floats over the player's head and fires frost beams at enemies.
+|A cold, prickly flower is floating uncomfortably close to you
+|-
+|{{item|Gastric Aberration (buff)}}
+|[[Gastric Belcher Staff]]
+|An aquatic aberration floats by the player and attacks nearby enemies by firing vomit and bubbles.
+|The aquatic aberration will protect you
+|-
+|{{item|Gamma Hydra (buff)}}
+|[[Gamma Heart]]
+|A gamma hydra head attaches to the player, firing gamma bullets at nearby enemies. If the player possesses seven or more heads, a Gamma Canister has a chance to appear. Collecting the canister causes all heads to fire a deathray.
+|...
+|-
+|{{item|Haunted Dishes (buff)}}
+|[[Haunted Scroll]]
+|A set of three haunted dishes will run in the ground while they follow the player, they will shoot fast dishes towards the enemies.
+|The haunted dishes will protect you
+|-
+|{{item|Hermit Crab (buff)}}
+|[[Magical Conch]]
+|A hermit crab will follow the player, chasing and dealing contact damage to enemies.
+|The hermit crab will protect you
+|-
+|{{item|Herring (buff)}}
+|[[Herring Staff]]
+|A herring floats around the player, charging at enemies and dealing contact damage.
+|The herring will protect you
+|-
+|{{item|Ice Clasper (buff)}}
+|[[Ancient Ice Chunk]]
+|An ice clasper floats around the player, quickly dashing towards enemies to deal contact damage.
+|The ice clasper will protect you
+|-
+|{{item|Igneous Blade (buff)}}
+|[[Igneous Exaltation]]
+|An Igneous Blade will orbit around the player, damaging nearby enemies that come to contact with it. Pressing right click will force all blades orbiting the player to charge forward towards where the cursor is, piercing any enemies in its path, causing 3 smaller blades to rain down per hit.
+|A Blade is orbiting you
+|-
+|{{item|Magic Hat (buff)}}
+|[[Temporal Umbrella]]
+|A magic hat will float over the player's head while it summons elemental sniper rifles, axes, swords, hammers, umbrellas, and birds to attack nearby enemies.
+|The hat carries your soul, bound by a contract
+|-
+|{{item|Mechworm (buff)}}
+|[[Staff of the Mechworm]]
+|The mechworm chases and attacks enemies similarly to the [[Stardust Dragon Staff]]. The mechworm can travel through blocks.
+|The mechworm will protect you
+|-
+|{{item|Midnight Sun UFO (buff)}}
+|[[Midnight Sun Beacon]]
+|A Midnight Sun UFO will float around the player and fire small lasers at enemies. It will occasionally fire a sweeping laser beam similar to the Moon Lord's laser beam.
+|A strange UFO is observing you, and it's making you very uncomfortable
+|-
+|{{item|Mini Plaguebringer (buff)}}
+|[[Fuel Cell Bundle]]
+|A mini Plaguebringer will come out from a throwable flask and it will fly around the player. It will stay at a certain distance from the enemies while it rapidly fires explosive missiles and it occasionally will fire a homing explosive missile variant will be fired.
+|A small plague bee is following you
+|-
+|{{item|Mounted Scanner (buff)}}
+|[[Mounted Scanner]]
+|A floating machine that surrounds the player will fire red laser beams at nearby enemies.
+|Powerful machinery surrounds you
+|-
+|{{item|Perdition (buff)}}
+|[[Perdition]]
+|A floating beacon will follow the player around. Targetting an enemy causes homing souls to appear from below.
+|How unfortunate
+|-
+|{{item|Phantom (buff)}}
+|[[Ethereal Subjugator]]
+|A phantom floats around the player, dealing damage via a short-range laser beam. Phantoms and their lasers can travel through blocks.
+|The phantom will protect you
+|-
+|{{item|Plague Elemental (buff)}}
+|[[Infected Remote]]
+|The plague elemental will fly arround the player while it attack enemies with various attacks.
+|It’s a shame you can’t hug her
+|-
+|{{item|Plantation}}
+|[[Plantation Staff]]
+|A miniature [[Plantera]] will fly around the player and fire seeds and spiky balls at enemies. When the player reaches 50% health, the mini plantera will enrage and begin to ram into enemies.
+|The miniature plantera will protect you
+|-
+|{{item|Pole Warper (buff)}}
+|[[Pole Warper]]
+|A pair of Warper Magnets orbit the player and dash towards nearby enemies.
+|Sentient magnets are attracted to you
+|-
+|{{item|PW-MK1 (buff)}}
+|[[Consequences of Power]]
+|An advanced jet that launches missiles, fires railgun rounds, and leaves damaging mines.
+|Predictable.
+|-
+|{{item|Raven (buff)}}
+|[[Corvid Harbinger Staff]]
+|A Dark raven will fly arround the player while it rapidly charges at nearby enemies.
+|The powerful raven will protect you
+|-
+|{{item|Resurrection Butterfly (buff)}}
+|[[Resurrection Butterfly]]
+|A purple butterfly attacks by ramming enemies. A pink butterfly attacks enemies by firing petals.
+|Sleep beneath the Cherry Blossoms, Red-White Butterfly
+|-
+|{{item|Rusty Drone (buff)}}
+|[[Rusty Beacon Prototype]]
+|A drone hovers above nearby enemies and gives them various debuffs.
+|A pitifully fragile drone is observing you
+|-
+|{{item|Sage Spirit (buff)}}
+|[[Viral Sprout]]
+|A flower spirit will stay close to enemies and fire three gravity-affected needles.
+|It's uncomfortably close
+|-
+|{{item|Sandnado (buff)}}
+|[[Sand Sharknado Staff]]
+|The sandnados will float around the player while they attack enemies by firing sand sharks.
+|The sandnado will protect you
+|-
+|{{item|Saros Possession (buff)}}
+|[[Saros Possession]]
+|A radiant aura will be summoned around the player. It will fire homing flares towards the enemies and ocasionally radiant orbs will be summoned.
+|A radiant aura protects you
+|-
+|{{item|Sepulcher (buff)}}
+|[[Metastasis]]
+|A full-sized [[Sepulcher]] will attack enemies by alternating between firing brimstone darts from its segments and rapidly charging at the target. Every seven seconds, an Exhumed Brimstone Heart spawns and orbits the player, if over three hearts are alive, the Sepulcher has a chance to enrage and try to attack the player.
+|It is not benevolent
+|-
+|{{item|Shellfish (buff)}}
+|[[Shellfish Staff]]
+|The shellfish will follow the player around, latching onto nearby enemies.
+|The shellfish will protect you
+|-
+|{{item|Sirius (buff)}}
+|[[Sirius]]
+|The Sirius stratus light entity floats over the player's head while it shoots beams towards nearby enemies.
+|A bit too bright, but it helps me
+|-
+|{{item|Skeletal Dragons (buff)}}
+|[[Dragonblood Disgorger]]
+|A Skeletal dragon with her two children will float around the player. The main dragon waders arround breathing bloodfire while the children spit healing blood shots and charge violently as well.
+|Big happy family
+|-
+|{{item|Small Skeleton (buff)}}
+|[[Staff of Necrosteocytes]]
+|A Small Skeleton will run in the ground while it follows the player. It will run along the ground targeting nearby enemies and ocasionally will leave lingering bone cells dropped from the skeleton.
+|A skeleton is observing you
+|-
+|{{item|Snake Eyes (buff)}}
+|[[Snake Eyes]]
+|An orb will orbit around enemies at high speed while firing laser beams
+|Always watching...
+|-
+|{{item|Solar God Spirit (buff)}}
+|[[Sun God Staff]]
+|The solar god spirit floats over the player's head and fires lasers at nearby enemies.
+|The solar god spirit will protect you
+|-
+|{{item|Solar Spirit (buff)}}
+|[[Sun Spirit Staff]]
+|The solar spirit floats over the player's head and fires lasers at nearby enemies.
+|The solar spirit will protect you
+|-
+|{{item|Soul Seeker (buff)}}
+|[[Vigilance]]
+|A Soul Seeker will fire brimstone darts at nearby enemies then rapidly charge back and forth.
+|It definitely wants something from you
+|-
+|{{item|Star Swallower (buff)}}
+|[[Star Swallower Containment Unit]]
+|A bio-mechanical frog will fire acid droplets and inflict the [[Irradiated]] debuff.
+|Mmmm myes
+|-
+|{{item|Tactical Plague Engine (buff)}}
+|[[Tactical Plague Engine]]
+|A Flying plague jet minion will fly arround the player while it fires and consumes bullets towards the enemies. It will ocasionally fire homing missiles instead of bullets
+|A giant plague jet is following you
+|-
+|{{item|Tundra Flame Blossom (buff)}}
+|[[Tundra Flame Blossoms Staff]]
+|Three magenta flowers circle the player, passively firing blossom orbs.
+|A perfect unison of balance and beauty
+|-
+|{{item|Vile Feeder (buff)}}
+|[[Vile Feeder]]
+|A tiny Soul Eater will fly arround the player while it latches onto nearby enemies, when the tiny eater latches into an enemy it will release several homing tiny eaters similar to the Scourge of the Corruptor.
+|The baby eater of souls will protect you
+|-
+|{{item|Virid Vanguard (buff)}}
+|[[Virid Vanguard]]
+|Two giant blades orbit the player, damaging enemies that come into contact. Right-clicking launches all blades towards the cursor.
+|A perfect act of unity surrounds you
+|-
+|{{item|Wither Blossoms}}
+|[[Wither Blossoms Staff]]
+|Four dark flowers orbit around the player and fire homing bolts at nearby enemies. The Bolts pierce and split into plague seekers, they both inflict the [[Plague]] debuff.
+|Pestilence surrounds you
+|-
+|{{item|Wulfrum Droid (buff)}}
+|[[Wulfrum Controller]]
+|A Wulfrum Droid will fly alongside the player while firing green projectiles at nearby enemies.
+|The wulfrum droid will protect you
+|-
+|}
+
+== From Other [[Weapons]] ==
+{| class="terraria"
+!width="45em"| Icon
+!width="90em"| Name
+!width="90em"| From
+!width="417em"| Effect
+!width="203em"| Tooltip
+|-
+|{{item|Avertor Bonus}}
+|[[Corpus Avertor]]
+|Increases damage by 10% and life regen by 4.
+|Boosted damage and life regeneration
+|-
+|{{item|Cosmic Freeze}}
+|[[Cosmic Discharge]]
+|Freezes nearby enemies and increases life regeneration.
+|You feel as cold as the empty expanse of outer space
+|-
+|{{item|Grax Boost}}
+|[[Grax]]
+|Increases defense by 30, damage reduction by 10%, melee speed by 10%, and melee damage by 20%.
+|Your defenses and muscles are strong
+|-
+|{{item|Holy Flame}} {{fantag|Catalyst}}
+|[[Divine Intervention]]
+|increases melee speed by 15% and causes stealth to generate 5% faster. 
+|The Holy Light Guides You...
+|-
+|{{item|Kami Injection}}
+|[[Yanmei's Knife]]
+|Increases movement speed and damage by 15%.
+|Increased movement speed and damage
+|-
+|{{item|Molten}}
+|[[Vesuvius]]
+|Reduces damage from sources that inflict [[Chilled]] by 30%, similarly to the [[Warmth Potion]].
+|Resistant to cold effects
+|-
+|{{item|Polaris Boost}}
+|[[Polaris Parrotfish]]
+|Increases life regen by 1, damage reduction by 1%, and defense by 2.
+|The Northern Star empowers your weapon
+|-
+|{{item|Tyrant's Fury}}
+|[[Tyrant Yharim's Ultisword]] and [[True Tyrant's Ultisword]]
+|Increases melee damage by 30% and melee crit chance by 10%.
+|30% increased melee damage and 10% increased melee crit chance
+|-
+|}
+
+== From [[Pets]] ==
+{| class="terraria"
+!width="55em"| Icon
+!width="90em"| Name
+!width="110em"| From
+!width="203em"| Tooltip
+|-
+|{{item|Akato (buff)}}
+|[[Forgotten Dragon Egg]]
+|'Looks like you'll have to take care of it now.'
+|-
+|{{item|Astrophage (buff)}}
+|[[Astrophage]]
+|Little astral buggy
+|-
+|{{item|Baby Ghost Bell (buff)}}
+|[[Rusted Jingle Bell]]
+|Be careful not to pop the bubble
+|-
+|{{item|Bear (buff)}}
+|[[Bear's Eye]]
+|A guardian angel is following you.
+|-
+|{{item|Blood Bound}}
+|[[Bloody Vein]]
+|You must be desperate for company
+|-
+|{{item|Brimling (buff)}}
+|[[Charred Relic]]
+|Protect her or suffer in agony
+|-
+|{{item|Chibii Devourer (buff)}}
+|[[Cosmic Plushie]]
+|What? Were you expecting someone else?
+|-
+|{{item|Danny Devito (buff)}}
+|[[Trash Can (pet)]]
+|The trash man is following you
+|-
+|{{item|Dreamfog}}
+|[[Chromatic Orb]]
+|Xi believes in Yuu
+|-
+|{{item|Electric Troublemaker (buff)}}
+|[[Triboluminescent Etomer]]
+|Lightning never strikes the same place twice
+|-
+|{{item|The Father}}
+|[[Joyful Heart]]
+|A father of many floats around you
+|-
+|{{item|Flak Hermit (buff)}}
+|[[Geyser Shell]]
+|Little acid buggy
+|-
+|{{item|Fox Pet (buff)}}
+|[[Fox Drive]]
+|Fox Pet? FOX PET
+|-
+|{{item|Furtastic Duo|image=Furtastic Duo (buff).png}}
+|[[Primrose Keepsake]]
+|They just did! The Furtastic Duo will accompany you!
+|-
+|{{item|Kendra (buff)}}
+|[[Romajeda Orchid]]
+|A loyal friend accompanies you
+|-
+|{{item|Levi (buff)}}
+|[[Levi]]
+|Small and Cute
+|-
+|{{item|Little Light (buff)}}
+|[[Little Light]]
+|Endearing
+|-
+|{{item|Ocean Spirit (buff)}}
+|[[Strange Orb]]
+|Small and Cute
+|-
+|{{item|Pineapple (buff)}}
+|[[Pineapple]]
+|It smells like pizza...
+|-
+|{{item|Plaguebringer Bab (buff)}}
+|[[Plague Caller]]
+|The baby plaguebringer sees you as the queen
+|-
+|{{item|Radiator (buff)}}
+|[[Radiating Crystal]]
+|Radioactive but adorable
+|-
+|{{item|Mini Mind}}
+|[[Rotting Eyeball]]
+|It knows everything
+|-
+|{{item|Son of Yharon (buff)}}
+|[[McNuggets]]
+|You better not eat his dinner
+|-
+|{{item|Sparks (buff)}}
+|[[Enchanted Butterfly]]
+|Eats butterflies
+|-
+|{{item|Supreme Calamitas (buff)}}
+|[[Brimstone Jewel]]
+|Watching over you with supreme calamitous energy... how adorable
+|-
+|{{item|Third Sage (buff)}}
+|[[Hermit's Box of One Hundred Medicines]]
+|Eh? No way it's an oni.
+|-
+|}
+
+== From [[Mount]]s ==
+{| class="terraria"
+!width="55em"| Icon
+!width="90em"| Name
+!width="110em"| From
+!width="203em"| Tooltip
+|-
+|{{item|Alicorn (buff)}}
+|[[Discordian Sigil]]
+|You beat DoG while drunk, you are truly fabulous!
+|-
+|{{item|Andromeda (buff)}}
+|[[Flamsteed Ring]]
+|You're controlling a piece of history
+|-
+|{{item|Angry Dog (buff)}}
+|[[Tundra Leash]]
+|You are riding an angry dog
+|-
+|{{item|Brimrose Mount (buff)}}
+|[[Brimrose]]
+|The seat is toasty. That is all
+|-
+|{{item|Bumbledoge (buff)}}
+|[[Folly Feed]]
+|Wait a second. That’s not right...
+|-
+|{{item|Devourer Cart (buff)}}
+|[[The Cart of Gods]]
+|Riding a cosmic terror
+|-
+|{{item|Exo Chair}}
+|[[Exo Box]]
+|Riding a physics defying gamer chair
+|-
+|{{item|Gaze of Crysthamyr (buff)}}
+|[[Gaze of Crysthamyr]]
+|You are riding a shadow dragon
+|-
+|{{item|Onyx Excavator (buff)}}
+|[[Onyx Excavator Key]]
+|Drill
+|-
+|{{item|Squishy Bean (buff)}}
+|[[Suspicious Looking Jelly Bean]]
+|BEAN MAN. BEAN DO T H E B EA N IS HER E
+|}
+
+== Vanilla Buff Changes ==
+{| class="terraria"
+! width="45" | Icon
+! width="90" | Name
+! width="160" | From
+! width="417" | Effect
+! width="203" | Tooltip
+|-
+|{{item|Battle}}
+| [[Battle Potion]]
+| Increases all spawn rates by 150% and maximum spawn count by 140%
+| Increased enemy spawn rate
+|-
+|{{item|Beetle Endurance}}
+| [[Beetle armor]]
+| Stacks 3 times, each beetle provides a 10% damage reduction boost for a maximum of 30%. Down from a 15% boost from each beetle.
+| Damage taken reduced by 15%/30%/45%
+|-
+|{{item|Calm}}
+| [[Calming Potion]]
+| Decreases enemy spawn rates by 35.90% and maximum spawn count by 44%
+| Reduces enemy aggression
+|-
+|{{item|Damage Nebula}}
+| [[Nebula armor]]
+| Stacks 3 times, each booster provides a 7.5% damage boost for a maximum of 22.5%. Down from a 15% boost from each booster.
+| 7.5%/15%/22.5% damage boost
+|-
+|{{item|Ice Barrier}}
+| [[Frozen Turtle Shell]], [[Frigid Bulwark]], and [[Rampart of Deities]]
+| Provides 15% damage reduction.
+| Damage taken is reduced by 15%
+|-
+|{{item|Invisibility}}
+| [[Invisibility Potion]]
+| Holding a [[Boomerangs|Spy boomerang]] boosts Spy damage by 10%.<br/>Holding a [[javelin]] boosts armor penetration by 5.<br/>Holding a [[Bombs|Spy bomb]] increases Spy velocity by 10%.<br/>Holding a [[spiky balls|spiky ball]] increases Spy critical strike chance by 10%.<br/>Holding a [[dagger]] increases Spy stealth regeneration by 8% even while moving.<br/>The player is entirely concealed and has reduced [[aggro]] while not using any items.
+| Grants Invisibility. Grants Spy bonuses while holding certain Spy weapons
+|-
+|{{item|Life Nebula}}
+| [[Nebula armor]]
+| Stacks 3 times, each booster +5 life regeneration. Down from +10 life regeneration from each booster.
+| Increased life regeneration
+|-
+|{{item|Obsidian Skin}}
+| [[Obsidian Skin Potion]]
+| Provides brief immunity to [[Lethal Lava Burn]] and reduces [[Lethal Lava Burn]] damage over time by 9.
+| Immune to lava
+|-
+|{{item|Peace Candle (buff)}}
+| [[Peace Candle]]
+| Decreases enemy spawn rates by 30.07% and maximum spawn count by 37%
+| Decreased monster spawn rate
+|-
+|{{item|Warmth}}
+| [[Warmth Potion]]
+| Grants the player immunity to the [[Chilled]], [[Frozen]] and [[Glacial State]] debuffs.
+| Reduced damage from cold sources. Immunity to the Chilled, Frozen, and Glacial State debuffs
+|}
+{{item/options|reset}}
+
+== See also ==
+*[[tgc:Buffs|Buffs]] on the vanilla wiki.
+*[[Debuffs]]
+{{Master Template Buffs
+| show-main = yes
+| show-buffs = yes
+}}
+{{Game mechanics}}
+[[Category:Game mechanics]]

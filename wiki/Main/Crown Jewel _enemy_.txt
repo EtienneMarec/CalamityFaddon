@@ -1,0 +1,32 @@
+{{revengeance mode only}}
+<section begin=npc infobox />
+{{npc infobox
+| name = Crown Jewel
+| type = Flying Enemy
+| ai = Crown Jewel AI
+| life = {{dv|||280}}
+| damage = 0 (Contact)<br/>{{element|Magic}} {{dv|||44|50}} (Ruby Bolt)
+| defense = 10
+| dr = 10
+| knockback = 100
+| immune1 = Confused
+| immune2 = Kami Flu
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_15.wav
+| sound = Item_8.wav
+| soundtext = Ruby Bolt
+| resistant1 = Fire
+| resistant2 = Slash
+| vulnerable1 = Stab
+| vulnerable2 = Smash
+}}<section end=npc infobox />
+
+{{dablink|This page is about the boss servant. For the covering, see [[Crown Jewel]].}}
+
+The '''Crown Jewel''' is a [[Enemies#Boss Servants|boss servant]] that is summoned by [[King Slime]] in [[Revengeance Mode]] or during the [[Boss Rush]] at 50% health. The jewel hovers above the player and pursues them, firing three red bolts in a spread.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

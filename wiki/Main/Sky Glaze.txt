@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 15
+| mana = 8
+| velocity = 15
+| tooltip = Fires feathers from the sky that stick to enemies and tiles and explode
+| knockback = 3.50
+| rare = 1
+| sell = {{value|0|0|20}}
+| use = 25
+| stack = 1
+| proj = Sticky Feather.png
+| projcaption = Sticky Aero Feather
+| element1 = Holy
+}}
+|{{item drops infobox
+| [[Harpy]] (After the [[Eye of Cthulhu]] has been defeated)|1| {{dv|2%|3.33%}}
+}}
+}}
+
+The '''Sky Glaze''' is a [[Pre-Hardmode]] [[wand]] obtained rarely from [[Harpy|Harpies]] after defeating the [[Eye of Cthulhu]]. It shoots down three feathers from the sky that stick to objects and explode after a few seconds. Note that the feathers that fall directly on the enemy do contact damage.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Despite sharing the same design features and color scheme, it is not obtainable at the same point of progression and as such, is comparatively weaker than other Aerialite weapons of its design
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

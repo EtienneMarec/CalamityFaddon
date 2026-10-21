@@ -1,0 +1,39 @@
+{{item infobox
+| type = Covering
+| image = Statis'_Void_Sash.gif
+| tooltip = 12% increased jump speed and allows constant jumping<br/>Grants immunity to fall damage<br/>Can climb walls, dash and dodge attacks<br/>The dodge has a 90 second cooldown<br/>This cooldown is shared with all other dodges and reflects<br/>Dashes leave homing scythes in your wake
+| covering = True
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| debuff = God Slayer Inferno
+| debufftip = Your flesh is burning off
+| debuffchance = 100%
+| debuffduration = 1 second (Cosmic Scythe)
+| stack = 1
+| proj = Cosmic Scythe.png
+| projcaption = Cosmic Scythe
+| element1 = Dark
+| element2 = Magic
+}}
+{{dablink|If you were looking for another Statis-themed item, see [[Statis (disambiguation)]].}}
+
+The '''Statis' Void Sash''' is a craftable Godseeker Mode [[covering]]. It grants the ability to cling to and slide down vertical walls, quickly dash a base distance of 38 blocks by double-tapping the horizontal movement key, enables auto-jump by holding the {{key|jump}} key. Additionally, the player is a granted a guaranteed dodge that can only occur every 90 seconds. When dashing, three {{item|Cosmic Scythe|s|link=}} are released that home into nearby enemies and deal 375 base damage, which is boosted by all classes' damage boosts. It also grants immunity to fall damage.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The scythes created when dashing heavily resemble [[Signus, Envoy of the Devourer|Signus]]' scythes.
+*This item was previously known as the ''Statis' Belt of Curses'' and gave several stat boosts to both [[Summon weapons|summon]] and [[Spy weapons]].
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

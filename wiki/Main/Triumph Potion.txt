@@ -1,0 +1,23 @@
+{{item infobox
+|type = Potion
+|tooltip = Enemy contact damage is reduced, the lower their health the more it is reduced
+|stack = 9999
+|rare = 2
+|use = 17
+|consumable = yes
+|buff = Triumph| bufflink = no
+|duration = 4 minutes
+|bufftip = Enemy contact damage is reduced, the lower their health the greater the reduction
+|sell = {{value|0|0|40|0}}
+}}
+
+The '''Triumph Potion''' is a craftable [[Pre-Hardmode]] [[Buff Potions|buff potion]]. Upon consumption it grants the '''Triumph''' [[buff]], which reduces enemy contact damage by a percentage equal to the percentage of the enemy's missing health multiplied by 0.15. (For example, an enemy with 30% health remaining would deal 10.5% reduced contact damage.)
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

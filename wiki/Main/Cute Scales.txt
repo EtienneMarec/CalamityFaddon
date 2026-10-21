@@ -1,0 +1,26 @@
+{{Addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Pet Summon
+| stack = 1
+| tooltip = Summons a cuter Esserwyrm to follow you around
+| rare = C2
+| use = 19
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| buff = Essewwywm (buff)| bufflink = no
+| bufftip = Esserwyrm, but better (:
+| sell = {{value|100}}
+}}
+{|align=right
+|{{summoned|Essewwywm|type=pet}}
+|}
+{{item drops infobox
+| [[Esserwyrm]]|1|5%}}
+The '''Cute Scales''' are a [[pet]] summoning item obtained from the [[Esserwyrm]]. It summons a Cuter Esserwyrm to follow the player.
+
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}

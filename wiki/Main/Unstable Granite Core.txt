@@ -1,0 +1,24 @@
+{{item infobox
+| image = Unstable Granite Core.gif
+| type = Covering
+| tooltip = Three sparks are released on critical hits
+| sell = {{value|0|0|80}}
+| rare = 3
+| stack = 1
+}}
+
+The '''Unstable Granite Core''' is a [[Pre-Hardmode]] [[covering]] found in the Granite [[shrine]]. When equipped three blue sparks will be released from an enemy upon critically hitting them. The sparks are affected by gravity and will pierce indefinitely until they despawn. The sparks deal 15 typeless damage which is affected by an average of all damage bonuses.
+
+== Recipes ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Sparks are only generated from enemies that have a damage stat of 5 or higher, with the exception of enemies spawned from [[statues]], which won't drop any sparks.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

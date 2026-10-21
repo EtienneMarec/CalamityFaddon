@@ -1,0 +1,54 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| damagetype = ranged
+| damage = 0
+| use = 8
+| knockback = 2
+| velocity = 24
+| tooltip = Mediocre coin shooter
+| stack = 1
+| auto = yes
+| rare = 8
+| sell = {{value|0|2}}
+| hardmode = yes
+| debuff = Midas
+| debuffchance = 100%
+| debuffduration = 20 seconds (Gold Coin)<br/> 10 seconds (Silver Coin)
+| debufftip = Drop more money on death
+| element1 = Stab
+}}
+'''Charity''' is a [[Hardmode]] [[ranged weapon]]. Its just a normal coin shooter.
+
+{{modifier|ranged}}
+
+== Ammo Types ==
+
+{{item/options|mode=table}}
+{| class="terraria lined"
+|-
+! colspan=2 style="text-align:center" | Type !! Coin Damage
+|-
+| {{item|image=C Shot.png|Copper Coin}}
+| 15
+|-
+| {{item|image=S Shot.png|Silver Coin}}
+| 60
+|-
+| {{item|image=G Shot.png|Gold Coin}}
+| 100
+|-
+|}
+{{item/options|reset}}
+== Crafting ==
+
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{Terra}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

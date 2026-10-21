@@ -1,0 +1,39 @@
+{{item infobox
+|type = Potion
+|tooltip = Gives mana sickness and hurts you when used, but you regenerate mana extremely quickly even when moving or casting spells
+|stack = 9999
+|rare = 7
+|use = 17
+|consumable = yes
+|buff = Astral Injection (buff) | bufflink = no
+|duration = 5 seconds
+|bufftip = Extreme mana recovery
+|debuff = Mana Sickness
+|debuffduration = 3 seconds
+|debufftip = Magic damage reduced
+|debuffchance = 100%
+|hardmode = yes
+|sell = {{value|0|0|40|0}}
+}}
+{{distinguish|Astral Infection|a [[Hardmode]] [[biome]]}}
+
+The '''Astral Injection''' is a craftable [[Hardmode]] [[Buff Potions|buff potion]] made from [[Aureus Cell]]s. Upon consumption it grants the player +180 mana regen per second at the cost of the player losing 5 health and being inflicted with the [[Mana Sickness]] [[debuff]].
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Astral Injections may also be obtained from [[Astral Crate]]s once [[Astrum Aureus]] has been defeated.
+*This item essentially acts as a mana potion that restores 900 Mana, over a time of 5 seconds, which is superior to [[Supreme Mana Potion]]s later in the game. However, they are not automatically consumed by the [[Mana Flower]] or [[Ethereal Talisman]] and are arguably harder to obtain en masse.
+*The damage inflicted by using this item does not get affected by [[Defense]] or [[Damage Reduction]], and will not reset adrenaline while fighting a [[boss]].
+
+== Trivia ==
+*This item is a reference to [https://en.wikipedia.org/wiki/Heroin Heroin] from [https://en.wikipedia.org/wiki/Life_insurance Real Life]
+*This item’s name is a pun based on the Astral Infection biome.
+*If the player is killed by the damage inflicted upon consumption of the potion, the death message "<PlayerName>'s blood vessels burst from drug overdose." will display.
+
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

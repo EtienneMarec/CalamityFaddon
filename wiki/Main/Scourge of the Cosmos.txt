@@ -1,0 +1,48 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 478
+| auto = yes
+| use = 20
+| knockback = 5
+| velocity = 15
+| tooltip = Throws a bouncing cosmic scourge that emits tiny homing cosmic scourges on death and tile hits
+| stack = 1
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| proj = Scourge of the Cosmos Head.png
+| projcaption = Scourge of the Cosmos Head
+| proj2 = Cosmic Scourge Mini.gif
+| proj2caption = Cosmic Scourge Mini
+| element1 = Magic
+| element2 = Cold
+| element3 = Stab
+}}
+{{dablink|If you were looking for something other than the Scourge of the Cosmos, see [[Scourge (disambiguation)]].}}
+
+[[File:Scourge of the Cosmos (demo).gif|frame|Demonstration of the Scourge of the Cosmos's interaction when shot at tiles and a [[Super Dummy]], with homing mini-Devourers spawning upon impacts. Note that the mini-Devourers can either split away from the Super Dummy or damage it immediately, depending on the angle of contact.]]
+
+The '''Scourge of the Cosmos''' is a craftable Godseeker Mode [[melee weapon]] which is a direct upgrade of the [[Scourge of the Corruptor]]. When used, it launches a fast projectile that is heavily affected by gravity and can bounce off of tiles up to two times before vanishing. On each bounce or when impacting an enemy, the projectile releases mini Devourer heads, which fly and home in on nearby foes. The mini Devourer heads deal 70% of the damage of the main projectile and can bounce once before disappearing.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*If the Scourge of the Cosmos impacts an enemy directly, every mini Devourer head spawned will often immediately damage that enemy.
+
+== Tips ==
+*Due to its extremely high base damage and splitting, homing projectiles, this weapon can deal enormous amounts of damage very rapidly if every hit lands directly on a foe. In [[Revengeance Mode]] this can be further enhanced with the [[Rage Meter|Rage]] and [[Adrenaline]] meters.
+
+== Trivia ==
+*This weapon, the projectile it fires and the mini Devourer heads are all themed after [[The Devourer of Gods]].
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Javelins]]

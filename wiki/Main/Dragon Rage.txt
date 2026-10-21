@@ -1,0 +1,58 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 1275
+| use = 25
+| knockback = 7.5
+| auto = yes
+| tooltip = Twirls a baton that causes explosions on enemy hits<br/>Every ten hits will summon a ring of fireballs
+| stack = 1
+| rare = 15
+| sell = {{value|0|30}}
+| debuff = Daybroken
+| debuffduration = 3 seconds (Baton)<br/>2 seconds (Fireball)
+| debuffchance = 100%
+| debufftip = Incinerated by solar rays
+| debuff2 = On Fire!
+| debuffduration2 = 3 seconds (Explosion)
+| debuffchance2 = 100%
+| debufftip2 = Slowly losing life
+| hardmode = yes
+| postml = yes
+| velocity = 14
+| proj = Dragon Rage Staff.png
+| projcaption = Dragon Rage
+| projsize = 210px
+| proj2 = Dragon Scales Fireball.gif
+| proj2caption = Fireball
+| element1 = Fire
+}}
+|{{item drops infobox
+| [[Jungle Dragon, Yharon]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Dragon Rage''' is a Godseeker Mode [[melee weapon]] dropped by [[Jungle Dragon, Yharon]]. When used, a baton is held at the player's position, rotating and spawning an explosion which deals 25% damage on every hit. Every 10 hits from the baton summons a ring of 10-15 homing fireballs outwards which deal 12.5% of the weapon's damage and create a damaging explosion on death.
+
+{{modifier|meleealt}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Dragon Rage may be considered an indirect upgrade to the [[Sky Dragon's Fury]].
+*The weapon consists of a singular hitbox on the player instead of several hitboxes near the staff. This causes the damage output to be identical regardless of the player's proximity towards an enemy in contact range, unlike the Sky Dragon's Fury.
+==Tips==
+
+* The Dragon Rage can completely decimate the [[The Devourer of Gods]] in a matter of seconds, even on higher difficulties such as [[Death Mode]]. This allows for a pretty easy way to farm for some money and [[Omega Healing Potion|Omega Healing Potions]].
+
+* Applying the Lecherous [[enchantment]] allows the Dragon Rage to constantly create projectiles since it will always hit the Brimstone Monster within the weapon’s range.
+
+[[File:Dragon Rage (demo).gif|frame|left|The Dragon Rage in use.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:True melee]]

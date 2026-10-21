@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 16
+| damagetype = Ranged
+| knockback = 1.5
+| stack = 1
+| rare = 3
+| sell = {{value|0|0|80}}
+| auto = yes
+| use = 30
+| velocity = 5.5
+| tooltip = 66% chance to not consume gel
+| image2 = Shadethrower (tank).png
+| image2caption = Equipped tank
+| element1 = Unholy
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[The Hive Mind]]|1| {{dv|25%|33.33%}}
+}}
+}}The '''Shadethrower''' is a craftable [[Pre-Hardmode]] [[flamethrowers|flamethrower]] that is also dropped by [[The Hive Mind]]. It fires multiple dark flame-like particles that have infinite piercing but with limited range.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not have a [[Crimson]] variant.
+*Unlike most flamethrowers, this weapon works underwater, as it fires a dark energy as opposed to fire.
+
+== Trivia ==
+*This weapon's name is a pun on the slang term "throwing shade," which is to publicly but subtly insult or criticize someone.
+
+{{Rotten Matter}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged= yes
+}}
+[[Category:Flamethrowers]]

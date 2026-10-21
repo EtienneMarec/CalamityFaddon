@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 26
+| use = 20
+| velocity = 5.2
+| knockback = 0
+| tooltip = Fires a pulse that arcs to a new target on enemy hits<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| sell = {{value|0|0|80}}
+| element1 = Stab
+| element2 = Electricity
+| element3 = Machine
+}}
+
+The '''Pulse Pistol''' is a craftable [[Pre-Hardmode]] [[magic gun]]. When used, it fires a pink gravity-defying pulse that disappears on tile impact. If the pulse hits a target, it is able to redirect to another target, and pierce up to two enemies before disappearing on the third. This magic gun uses 6 mana.
+
+The weapon consumes 0.1 units of [[charge]] per use and has a maximum charge of 50.
+
+{{Modifier|magicnokb}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The Pulse Pistol was initially a ranged weapon in the [https://www.youtube.com/watch?v=yJcq6H2Hj7o trailer] for the [[1.4.5.001]] update.
+*The Pulse Pistol is a reference to the [https://fallout.fandom.com/wiki/Pulse_pistol_(Fallout_2) weapon of the same name] from ''[[wikipedia:Fallout 2|Fallout 2]]'', and uses the same firing sound effect.
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic guns]]

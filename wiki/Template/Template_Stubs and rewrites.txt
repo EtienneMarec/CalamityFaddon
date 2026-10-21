@@ -1,0 +1,18 @@
+{| class="terraria"
+! Article Stubs !! Rewrite Requests
+|-
+|{{#dpl:
+| category = Article stubs
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| mode = unordered
+| noresultsheader = <span style="color:gray">No stubs</span>
+}}
+|{{#dpl:
+| category = Rewrite
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| mode = unordered
+| noresultsheader = <span style="color:gray">No rewrite requests</span>
+}}
+|}<noinclude>[[Category:Navigational templates]]</noinclude>

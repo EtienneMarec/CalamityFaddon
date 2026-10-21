@@ -1,0 +1,390 @@
+{|class="terraria navbox mw-collapsible {{#ifeq: {{{show-main|}}} | yes | |mw-collapsed }}" style="width:80%; margin: auto"
+!style="font-size:120%" | {{navbar/left|Master Template Characters}} <small>{{l10n|Master Template Characters|title}}: {{trl|Enemies}} ({{trl|Enemy list|List}}): [[File:Cosmic Elemental.png|26px|link={{tr|Enemies#Pre-Hardmode_Enemies}}]] {{trl|Enemies#Pre-Hardmode_Enemies|Pre-Hardmode}}{{•}}[[File:Astral Slime.png|22px|link={{tr|Enemies#Hardmode_Enemies}}]] {{trl|Enemies#Hardmode_Enemies|Hardmode}}{{•}}[[File:Impious Immolator.png|25px|link={{tr|Enemies#Godseeker_Mode_Enemies}}]] {{trl|Enemies#Godseeker Mode|Godseeker Mode}}{{•}}[[File:Radiator.png|23px|link={{tr|Enemies#Event_Enemies}}]] {{trl|Enemies#Event Enemies|Event Enemies}}{{•}}[[File:Calamitas.png|28px|link={{tr|Bosses}}]] {{trl|Bosses}}{{•}}[[File:Sea Minnow.png|25px|link={{tr|Critters}}]] {{trl|Critters}}{{•}}[[File:Bandit.png|18px|link={{tr|Town NPCs}}]] {{trl|Town NPCs|Friendly NPCs}}</small> {{navbar/right}}
+|-
+ 
+|
+
+<!-------------------- PRE-HARDMODE ENEMIES -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-common|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=2 | Pre-Hardmode Enemies
+|-
+!style="padding: 0.2em 0.5em" | {{trl|Surface}}
+|style="padding: 0.2em 0.5em" | {{trl|Banana Clown}}{{•}}{{trl|Fearless Goldfish Warrior}}{{•}}{{trl|Rotdog}}{{•}}{{trl|Wulfrum Drone}}{{•}}{{trl|Wulfrum Gyrator}}{{•}}{{trl|Wulfrum Hovercraft}}{{•}}{{trl|Wulfrum Pylon}}{{•}}{{trl|Wulfrum Rover}}{{•}}{{trl|Wulfrum Slime}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Underground}}
+|style="padding: 0.2em 0.5em" | {{trl|Amethyst Crawler}}{{•}}{{trl|Diamond Crawler}}{{•}}{{trl|Dirt Puff}}{{•}}{{trl|Emerald Crawler}}{{•}}{{trl|Lizard}}{{•}}{{trl|Ruby Crawler}}{{•}}{{trl|Sapphire Crawler}}{{•}}{{trl|Topaz Crawler}}{{•}}{{trl|Wulfrum Mine}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Cavern}}
+|style="padding: 0.2em 0.5em" | {{trl|Aero Slime}}{{•}}{{trl|Cosmic Elemental}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Aether}}
+|style="padding: 0.2em 0.5em" | {{trl|Aerbunny}}{{•}}{{trl|Aerwhale}}{{•}}{{trl|Shimmer Skimmer}}{{•}}{{trl|Moa}}{{•}}{{trl|Whirlwind}}{{•}}{{trl|Blue Swet}}{{•}}{{trl|Golden Swet}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Ocean}}
+|style="padding: 0.2em 0.5em" | {{trl|???}}{{•}}{{trl|Box Jellyfish}}{{•}}{{trl|Frogfish}}{{•}}{{trl|Moray Eel}}{{•}}{{trl|Sea Urchin}}{{•}}{{trl|Water Puff}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Space}}
+|style="padding: 0.2em 0.5em" | {{trl|Sunskater}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Desert}}
+|style="padding: 0.2em 0.5em" | {{trl|Amber Crawler}}{{•}}{{trl|Cnidrion}}{{•}}{{trl|Sand Puff}}{{•}}{{trl|Stormlion}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Snow biome|Snow}}
+|style="padding: 0.2em 0.5em" | {{trl|Angry Dog}}{{•}}{{trl|Ice Puff}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Jungle}}
+|style="padding: 0.2em 0.5em" | {{trl|Spore Puff}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|The Corruption}}
+|style="padding: 0.2em 0.5em" | {{trl|Blight Slime|Ebonian Blight Slime}}{{•}}{{trl|Hive Cyst}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|The Crimson}}
+|style="padding: 0.2em 0.5em" | {{trl|Blight Slime|Crimulan Blight Slime}}{{•}}{{trl|Perforator Cyst}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|The Underworld}}
+|style="padding: 0.2em 0.5em" | {{trl|Hell Puff}}{{•}}{{trl|Perforator Cyst}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Brimstone Crag}}
+|style="padding: 0.2em 0.5em" | {{trl|Calamity Eye}}{{•}}{{trl|Despair Stone}}{{•}}{{trl|Heat Spirit}}{{•}}{{trl|Scryllar}}{{•}}{{trl|Soul Slurper}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Sulphurous Sea}}
+|style="padding: 0.2em 0.5em" | {{trl|Aquatic Parasite}}{{•}}{{trl|Aquatic Seeker}}{{•}}{{trl|Aquatic Urchin}}{{•}}{{trl|Catfish (enemy)|Catfish}}{{•}}{{trl|Famine Slime}}{{•}}{{trl|Flounder}}{{•}}{{trl|Gnasher}}{{•}}{{trl|Trasher}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Sunken Sea}}
+|style="padding: 0.2em 0.5em" | {{trl|Clam}}{{•}}{{trl|Eutrophic Ray}}{{•}}{{trl|Ghost Bell}}{{•}}{{trl|Prism-Back}}{{•}}{{trl|Sea Floaty}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Abyss}}
+|style="padding: 0.2em 0.5em" | {{trl|Box Jellyfish}}{{•}}{{trl|Cuttlefish}}{{•}}{{trl|Devil Fish}}{{•}}{{trl|Moray Eel}}{{•}}{{trl|Toxic Minnow}}{{•}}{{trl|Viperfish}}
+|-
+
+!style="padding: 0.2em 0.5em" | Other
+|style="padding: 0.2em 0.5em" | {{trl|Dark Statis}} {{fantag|Catalyst}}{{•}}{{trl|Super Dummy}}
+|}
+
+<!-------------------- HARDMODE ENEMIES -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-hardmode|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=2 | Hardmode Enemies
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Surface}}
+|style="padding: 0.2em 0.5em" | {{trl|Blighted Eye}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Underground}}
+|style="padding: 0.2em 0.5em" | {{trl|Overloaded Soldier}}{{•}}{{trl|Phantom Debris}}{{•}}{{trl|Sun Bat}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Cavern}}
+|style="padding: 0.2em 0.5em" | {{trl|Cryo Slime}}{{•}}{{trl|Perennial Slime}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Aether}}
+|style="padding: 0.2em 0.5em" | {{trl|Flying Cow}}{{•}}{{trl|Phyg}}{{•}}{{trl|Sheepuff}}{{•}}{{trl|Valkyrie}}{{•}}{{trl|Aechor Plant}}{{•}}{{trl|Cockatrice}}{{•}}{{trl|Evil Whirlwind}}{{•}}{{trl|Zephyr}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Ocean}}
+|style="padding: 0.2em 0.5em" | {{trl|Aquatic Aberration}}{{•}}{{trl|Mantis Shrimp}}{{•}}{{trl|Parasea}}{{•}}{{trl|Silicic Slime}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Snow biome|Snow}}
+|style="padding: 0.2em 0.5em" | {{trl|Aurora Spirit}}{{•}}{{trl|Cryocore}}{{•}}{{trl|Cryon}}{{•}}{{trl|Frost Hog}}{{•}}{{trl|Ice Clasper}}{{•}}{{trl|Primal Aspid}} {{fantag|Catalyst}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Space}}
+|style="padding: 0.2em 0.5em" | {{trl|Magnetostorm Shuttle}}{{•}}{{trl|Shockstorm Shuttle}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Jungle}}
+|style="padding: 0.2em 0.5em" | {{trl|Boar Cat}}{{•}}{{trl|Floating Biomass}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Melter}}{{•}}{{trl|Pestilent Slime}}{{•}}{{trl|Plagueshell}}{{•}}{{trl|Plague Charger}}{{•}}{{trl|Viruling}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Underground Desert}}
+|style="padding: 0.2em 0.5em" | {{trl|Sand Tortoise}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Underworld}}
+|style="padding: 0.2em 0.5em" | {{trl|Mysterious Manager}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|The Hallow}}
+|style="padding: 0.2em 0.5em" | {{trl|Crystal Crawler}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Dungeon}}
+|style="padding: 0.2em 0.5em" | {{trl|Arsenous Slime}}{{•}}{{trl|Cultist Assassin}}{{•}}{{trl|Overloaded Soldier}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Jungle Temple}}
+|style="padding: 0.2em 0.5em" | {{trl|Bohldohr}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Astral Infection}}
+|style="padding: 0.2em 0.5em" | {{trl|Aries}}{{•}}{{trl|Astralachnea}}{{•}}{{trl|Astral Probe}}{{•}}{{trl|Astral Slime}}{{•}}{{trl|Atlas}}{{•}}{{trl|Big Sightseer}}{{•}}{{trl|Fusion Feeder}}{{•}}{{trl|Hadarian}}{{•}}{{trl|Hive (enemy)|Hive}} ({{trl|Hive (enemy)|Hiveling}}){{•}}{{trl|Mantis}}{{•}}{{trl|Nova}}{{•}}{{trl|Small Sightseer}}{{•}}{{trl|Stellar Culex}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Brimstone Crag}}
+|style="padding: 0.2em 0.5em" | {{trl|Charred Slime}}{{•}}{{trl|Cultist Assassin}}{{•}}{{trl|War Slime}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Sulphurous Sea}}
+|style="padding: 0.2em 0.5em" | {{trl|Anthozoan Crab}}{{•}}{{trl|Belching Coral}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Sunken Sea}}
+|style="padding: 0.2em 0.5em" | {{trl|Blinded Angler}}{{•}}{{trl|Sea Serpent}}{{•}}{{trl|Silicic Slime}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Abyss}}
+|style="padding: 0.2em 0.5em" | {{trl|Barocraw}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Chaotic Puffer}}{{•}}{{trl|Eidolist}}{{•}}{{trl|Giant Squid}}{{•}}{{trl|Gulper Eel}}{{•}}{{trl|Laserfish}}{{•}}{{trl|Luminous Corvina}}{{•}}{{trl|Mirage Jelly}}{{•}}{{trl|Oarfish}}{{•}}{{trl|Voidseer Mole}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Bloody Corn Maze}}
+|style="padding: 0.2em 0.5em" | {{trl|Province Pilferer}}
+|}
+
+<!-------------------- GODSEEKER MODE ENEMIES -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-postMoon}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=2 | Godseeker Mode Enemies
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Cavern}}
+|style="padding: 0.2em 0.5em" | {{trl|Auric Slime}}{{•}}{{trl|Bloom Slime}}{{•}}{{trl|Stiriatic Walkie}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Ocean}}
+|style="padding: 0.2em 0.5em" | {{trl|Elemental Spawns|Primordial Ice Spawn}} {{fantag|Deimos, the Starborn Princess}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Dungeon}}
+|style="padding: 0.2em 0.5em" | {{trl|Death Slime}}{{•}}{{trl|Gilded Spirit}}{{•}}{{trl|King of Constellations, Tenryu}} {{ccr}}{{•}}{{trl|Elemental Spawns|Primordial Impact Spawn}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Phantom Spirit}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Frozen Hell}}
+|style="padding: 0.2em 0.5em" | {{trl|Frigidemon}}{{•}}{{trl|Frost Imp}}{{•}}{{trl|Elemental Spawns|Primordial Ice Spawn}} {{fantag|Deimos, the Starborn Princess}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Jungle}}
+|style="padding: 0.2em 0.5em" | {{trl|Draconic Swarmer}}{{•}}{{trl|Elemental Spawns|Primordial Wither Spawn}} {{fantag|Deimos, the Starborn Princess}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|The Corruption}}
+|style="padding: 0.2em 0.5em" | {{trl|Elemental Spawns|Primordial Hell Spawn}} {{fantag|Deimos, the Starborn Princess}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|The Crimson}}
+|style="padding: 0.2em 0.5em" | {{trl|Elemental Spawns|Primordial Hell Spawn}} {{fantag|Deimos, the Starborn Princess}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|The Hallow}}
+|style="padding: 0.2em 0.5em" | {{trl|Impious Immolator}}{{•}}{{trl|Elemental Spawns|Primordial Light Spawn}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Profaned Energy}}{{•}}{{trl|Scorn Eater}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|The Underworld}}
+|style="padding: 0.2em 0.5em" | {{trl|Everquartz}}{{•}}{{trl|Impious Immolator}}{{•}}{{trl|Elemental Spawns|Primordial Hell Spawn}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Profaned Energy}}{{•}}{{trl|Scorn Eater}}{{•}}{{trl|Shadowspec Slime}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Snow biome|Snow}}
+|style="padding: 0.2em 0.5em" | {{trl|Elemental Spawns|Primordial Ice Spawn}} {{fantag|Deimos, the Starborn Princess}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Desert}}
+|style="padding: 0.2em 0.5em" | {{trl|Elemental Spawns|Primordial Impact Spawn}} {{fantag|Deimos, the Starborn Princess}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Space}}
+|style="padding: 0.2em 0.5em" | {{trl|Cosmilite Slime}} {{fantag|Calamity Loot Swap}}{{•}}{{trl|Elemental Spawns|Primordial Light Spawn}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Side Mollusk}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Astral Infection}}
+|style="padding: 0.2em 0.5em" | {{trl|Elemental Spawns|Primordial Light Spawn}} {{fantag|Deimos, the Starborn Princess}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Brimstone Crag}}
+|style="padding: 0.2em 0.5em" | {{trl|Elemental Spawns|Primordial Hell Spawn}} {{fantag|Deimos, the Starborn Princess}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Sulphurous Sea}}
+|style="padding: 0.2em 0.5em" | {{trl|Elemental Spawns|Primordial Wither Spawn}} {{fantag|Deimos, the Starborn Princess}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Sunken Sea}}
+|style="padding: 0.2em 0.5em" | {{trl|Elemental Spawns|Primordial Ice Spawn}} {{fantag|Deimos, the Starborn Princess}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Abyss}}
+|style="padding: 0.2em 0.5em" | {{trl|Bloatfish}}{{•}}{{trl|Bobbit Worm}}{{•}}{{trl|Elemental Spawns|Primordial Wither Spawn}} {{fantag|Deimos, the Starborn Princess}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|The Void}}
+|style="padding: 0.2em 0.5em" | {{trl|Chasm Beast}}{{•}}{{trl|Glowflies}}{{•}}{{trl|Secretary}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|The Exosphere}}
+|style="padding: 0.2em 0.5em" | {{trl|Asura}}{{•}}{{trl|Blockhound}}{{•}}{{trl|Exo Armada}}{{•}}{{trl|Exo Cube}}{{•}}{{trl|Exo Landmaster}}{{•}}{{trl|Exo Mine}}{{•}}{{trl|Exo Obelisk}}{{•}}{{trl|Exoquartz}}{{•}}{{trl|Exo Sentry}}{{•}}{{trl|Exo Sphere}}{{•}}{{trl|Elemental Spawns|Primordial Impact Spawn}} {{fantag|Deimos, the Starborn Princess}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Sky Abyss}}
+|style="padding: 0.2em 0.5em" | {{trl|Esseric Slime}}
+|}
+
+<!-------------------- EVENT ENEMIES -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-event}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=3 | Event Enemies
+|-
+
+!style="padding: 0.2em 0.5em" rowspan=3 | {{trl|Acid Rain}}
+!style="padding: 0.2em 0.5em" | (Tier 1)
+|style="padding: 0.2em 0.5em" | {{trl|Acid Eel}}{{•}}{{trl|Nuclear Toad}}{{•}}{{trl|Radiator}}{{•}}{{trl|Skyfin}}{{•}}{{trl|Water Leech}}
+|-
+
+!style="padding: 0.2em 0.5em" | (Tier 2)
+|style="padding: 0.2em 0.5em" | {{trl|Flak Crab}}{{•}}{{trl|Irradiated Slime}}{{•}}{{trl|Orthocera}}{{•}}{{trl|Sulphurous Skater}}{{•}}{{trl|Trilobite}}
+|-
+
+!style="padding: 0.2em 0.5em" | (Tier 3)
+|style="padding: 0.2em 0.5em" | {{trl|Gamma Slime}}
+|-
+
+!style="padding: 0.2em 0.5em" rowspan=3 | {{trl|Ogswarm}} {{fantag|Calamity: Community Remix}}
+!style="padding: 0.2em 0.5em" | (Tier 1)
+|style="padding: 0.2em 0.5em" | {{trl|Bloody Burrower}}{{•}}{{trl|Blooming Ogscule}}{{•}}{{trl|Creepling}}{{•}}{{trl|Cursed Ogling}}{{•}}{{trl|Dogscule}}{{•}}{{trl|Festerling}}{{•}}{{trl|Fogscule}}{{•}}{{trl|Gravelurcher}}{{•}}{{trl|Nightmare Burrower}}{{•}}{{trl|Ogspore}}{{•}}{{trl|Pestiscule}}{{•}}{{trl|Slimescule}}{{•}}{{trl|Splogfool}}{{•}}{{trl|Wulfscule}}
+|-
+
+!style="padding: 0.2em 0.5em" | (Tier 2)
+|style="padding: 0.2em 0.5em" | {{trl|Blightscule}}{{•}}{{trl|Bogscule}}{{•}}{{trl|Cryoscule}}{{•}}{{trl|Ghoulite}}{{•}}{{trl|Ogrescule}}{{•}}{{trl|Ogscorn}}{{•}}{{trl|Ogslayer}}{{•}}{{trl|Plaguescule}}{{•}}{{trl|Pogscule}}{{•}}{{trl|Polyscule}}{{•}}{{trl|Scluner}}{{•}}{{trl|Scorcher}}{{•}}{{trl|Scourged Spore}}{{•}}{{trl|Vilefogger}}{{•}}{{trl|Voidscule}}
+|-
+
+!style="padding: 0.2em 0.5em" | (Tier 3)
+|style="padding: 0.2em 0.5em" | {{trl|Agscruel}}{{•}}{{trl|Astrascule}}{{•}}{{trl|Auricule}}{{•}}{{trl|Broodmother}}{{•}}{{trl|DOGscule}}{{•}}{{trl|Fanny the Calamity}}{{•}}{{trl|Googzcule}}{{•}}{{trl|Miracule}}{{•}}{{trl|Ogfinity}}{{•}}{{trl|Oglord}}{{•}}{{trl|Ogstar}}{{•}}{{trl|Singularity}}{{•}}{{trl|Sinistar}}{{•}}{{trl|Termiscule}}{{•}}{{trl|Ueliscule}}{{•}}{{trl|Wretched Star}}{{•}}{{trl|Wretched Wisp}}
+|-
+
+!style="padding: 0.2em 0.5em" rowspan=4| Other
+!style="padding: 0.2em 0.5em" | {{trl|Solar Eclipse}}
+|style="padding: 0.2em 0.5em" | {{trl|Crimson Kaiju}}{{•}}{{trl|Cuboid Curse}}{{•}}{{trl|Depressed Cephalopod}}{{•}}{{trl|Evil Animatronic}}{{•}}{{trl|Glitch}}{{•}}{{trl|Green Demon}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Rodent.tmod}}{{•}}{{trl|Tall Man}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Martian Madness}}
+|style="padding: 0.2em 0.5em" | {{trl|Arean Cannon}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Arean Drone}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Arean Engineer}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Arean Gunner}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Arean Probe}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Arean Pylon}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Arean Pyro}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Arean Scrambler}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Arean Walker}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Celestial Heavenfire}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Celestial Starfury}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Celestial Turret}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Cosmic Automaton}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Martian Soul}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Old Shuttle}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Profaned Energy}}{{•}}{{trl|Rust Slime}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Shockskater}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Star Flare}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Sundial's Nimbus}} {{fantag|Deimos, the Starborn Princess}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Jelly Monsoon}}
+|style="padding: 0.2em 0.5em" | {{trl|Accidated Slime}}{{•}}{{trl|Aldebaran Aleslime}}{{•}}{{trl|Ancient Bone Slime}}{{•}}{{trl|Armored Storm Slime}}{{•}}{{trl|Ascendant Spirit Slime}}{{•}}{{trl|Ash Slime}}{{•}}{{trl|Ash Slime of Annihilation}}{{•}}{{trl|Ash Slime of Calamity}}{{•}}{{trl|Beetle Slime}}{{•}}{{trl|Blood Drop}}{{•}}{{trl|Blood Slime}}{{•}}{{trl|Bloodred Slime}}{{•}}{{trl|Bloodstone Slime}}{{•}}{{trl|Bloop}}{{•}}{{trl|Chaos Slime}}{{•}}{{trl|Crocodile Slime}}{{•}}{{trl|Delicious Slime}}{{•}}{{trl|Disgusting Slime}}{{•}}{{trl|Demonic Bone Slime}}{{•}}{{trl|Divine Slime}}{{•}}{{trl|Dollarbob}}{{•}}{{trl|Eclipse Slime}}{{•}}{{trl|Ectoslime}}{{•}}{{trl|Electrolyte Slime}}{{•}}{{trl|Elemental Slime}}{{•}}{{trl|Exo Slime}}{{•}}{{trl|Flahme}}{{•}}{{trl|Fogslime}}{{•}}{{trl|Folly Slime}}{{•}}{{trl|Galactica Slimegularity}}{{•}}{{trl|Giant Depth Cell}}{{•}}{{trl|Haunted Slime}}{{•}}{{trl|Horf Slime}}{{•}}{{trl|Holy Slime}}{{•}}{{trl|Infected Wulfrum Slime}}{{•}}{{trl|Living Slime}}{{•}}{{trl|Magma Cube}}{{•}}{{trl|Mediocre Slime}}{{•}}{{trl|Meld Slime}}{{•}}{{trl|Miracle Slime}}{{•}}{{trl|Monstro Slime}}{{•}}{{trl|Natrisodic Slime}}{{•}}{{trl|Nebula Slime}}{{•}}{{trl|Nightmare Slime}}{{•}}{{trl|Noctic Slime}}{{•}}{{trl|Parched Slime}}{{•}}{{trl|Pearl Slime}}{{•}}{{trl|Phantoslime}}{{•}}{{trl|Plasma Slime}}{{•}}{{trl|Purified Slime}}{{•}}{{trl|Reaper Slime}}{{•}}{{trl|Rotten Slime}}{{•}}{{trl|Ruinous Slime}}{{•}}{{trl|Strange Slime}}{{•}}{{trl|Strange Light Slime}}{{•}}{{trl|Slimaroz}}{{•}}{{trl|Slimelion}}{{•}}{{trl|Slimenyl}}{{•}}{{trl|Slime of Babil}}{{•}}{{trl|Slime of Boon}}{{•}}{{trl|Slime of Bright}}{{•}}{{trl|Slime of Chaos}}{{•}}{{trl|Slime of Crystal}}{{•}}{{trl|Slime of Eleum}}{{•}}{{trl|Slime of Flight}}{{•}}{{trl|Slime of Fright}}{{•}}{{trl|Slime of Law}}{{•}}{{trl|Slime of Light}}{{•}}{{trl|Slime of Might}}{{•}}{{trl|Slime of Myst}}{{•}}{{trl|Slime of Night}}{{•}}{{trl|Slime of Plight}}{{•}}{{trl|Slime of Rend}}{{•}}{{trl|Slime of Sight}}{{•}}{{trl|Slime of Sunlight}}{{•}}{{trl|Slime of Surt}}{{•}}{{trl|Slime of Zot}}{{•}}{{trl|Slimescule}}{{•}}{{trl|Solar Slime}}{{•}}{{trl|Stardust Slime}}{{•}}{{trl|Subnautical Slime}}{{•}}{{trl|Trapper Slime}}{{•}}{{trl|Twisted Slime}}{{•}}{{trl|Unholy Slime}}{{•}}{{trl|Unliving Slime}}{{•}}{{trl|Vein Slime}}{{•}}{{trl|Victide Slime}}{{•}}{{trl|Vortex Slime}}{{•}}{{trl|Waterfreeze Slime}}{{•}}{{trl|Yharim Slime}}{{•}}{{trl|Yharon Slime Fragment}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Hydrabots Invasion}} {{fantag|Calamity: Tales of the Aquatic}}
+|style="padding: 0.2em 0.5em" | {{trl|Advanctory Tessaracta}}{{•}}{{trl|Advanctory UFO}}{{•}}{{trl|Hydrastatic Tessaracta}}{{•}}{{trl|Hydrastatic UFO}}{{•}}{{trl|Maskbot}}{{•}}{{trl|Micron Tessaracta}}{{•}}{{trl|Micron UFO}}{{•}}{{trl|Walkbot}}
+|-
+
+<!-------------------- CHALLENGES -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-boss|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=2 | Challenges
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Pre-Hardmode}}
+|style="padding: 0.2em 0.5em" | {{trl|The Calamity}} ({{trl|Darkscule}}{{•}}{{trl|The Inventors}} {{fantag|Calamity: Community Remix}} ({{trl|Jane Wulfrum}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|John Wulfrum}} {{fantag|Calamity: Community Remix}}){{•}}{{trl|Wulfrum Excavator}} {{fantag|Calamity: Community Remix}} ({{trl|Wulfrum Drone}}{{•}}{{trl|Wulfrum Gyrator}}{{•}}{{trl|Wulfrum Hovercraft}}{{•}}{{trl|Wulfrum Pylon}}{{•}}{{trl|Wulfrum Rover}}){{•}}{{trl|Desert Scourge}} ({{trl|A Desert Nuisance}}){{•}}{{trl|Monstro}}{{•}}{{trl|Crabulon}} ({{trl|Crabulon|Crab Shroom}}){{•}}{{trl|Acidsighter}} ({{trl|Acidsighter|Mutated Eye}}){{•}}{{trl|The Hive Mind}} ({{trl|The Hive Mind|Dank Creeper}}{{•}}{{trl|The Hive Mind|Hive Blob}}{{•}}{{trl|The Hive Mind|Dark Heart}}){{•}}{{trl|The Perforators}}{{•}}{{trl|Goozma}} ({{trl|Asgeliath Vassal}}{{•}}{{trl|Crimglop Vassal}}{{•}}{{trl|Divingoop Vassal}}{{•}}{{trl|Ebonmuck Vassal}}){{•}}{{trl|The Slime God}} ({{trl|Corrupt Slime Spawn}}{{•}}{{trl|Crimson Slime Spawn}}{{•}}{{trl|Spiked Crimson Slime Spawn}}){{•}}{{trl|Ceasing Void}}{{•}}{{trl|The Scrapyard Ensemble}}{{•}}{{trl|Destroyer of Sanity}} {{fantag|Calamity: Community Remix}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Hardmode}}
+|style="padding: 0.2em 0.5em" | {{trl|Cumulomenace}}{{•}}{{trl|Cryogen}}{{•}}{{trl|Pyrogen}}{{•}}{{trl|Ionogen}}{{•}}{{trl|Phytogen}}{{•}}{{trl|Pathogen}}{{•}}{{trl|Oxygen}}{{•}}{{trl|Carcinogen}}{{•}}{{trl|Hydrogen}}{{•}}{{trl|Aetherial Guardian, Olistene}} {{dei}} ({{trl|Light Cluster}} {{dei}}{{•}}{{trl|Light Floater}} {{dei}}{{•}}{{trl|Light Pod}} {{dei}}{{•}}{{trl|Light Portal}} {{dei}}{{•}}{{trl|Light Slime}} {{dei}}){{•}}{{trl|Aquatic Scourge}}{{•}}{{trl|Brimstone Elemental}} ({{trl|Brimling}}){{•}}{{trl|The Forbidden Lantern}} {{fantag|Calamity: Tales of the Aquatic}} ({{trl|The Shadow Shatter}} {{fantag|Calamity: Tales of the Aquatic}}){{•}}{{trl|Pandora, the Hypnotized Witch}} {{fantag|Calamity: Community Remix}} ({{trl|Baby_Skeletron_Head.exe}} {{fantag|Calamity: Community Remix}}){{•}}{{trl|Calamitas}} ({{trl|Calamitas|Cataclysm}}{{•}}{{trl|Calamitas|Catastrophe}}{{•}}{{trl|Soul Seeker}}){{•}}{{trl|Great Sand Shark}}{{•}}{{trl|Serial Designation N}} {{fantag|sloome}}{{•}}{{trl|The Derellect}} {{fantag|Calamity: Community Remix}} ({{trl|Derellect Plug}} {{fantag|Calamity: Community Remix}} {{•}} {{trl|Signal Drone}} {{fantag|Calamity: Community Remix}}){{•}}{{trl|Polyphemalus}} {{fantag|Polyphemalus}}{{•}}{{trl|Leviathan and Anahita}} ({{trl|Aquatic Aberration}}){{•}}{{trl|Astrum Aureus}} ({{trl|Aureus Spawn}}){{•}}{{trl|Fatal Circuit}}{{•}}{{trl|Mirage Mallah}}{{•}}{{trl|The Plaguebringer Goliath}} ({{trl|The Plaguebringer Goliath|Plague Homing Missile}}{{•}}{{trl|The Plaguebringer Goliath|Plague Mine}}){{•}}[[Ravager|Metal Sans]]{{•}}{{trl|Astrum Deus}}{{•}}{{trl|Artificial Sentience System, AX-P03}}{{•}}{{trl|The Dragonfolly}} ({{trl|Draconic Swarmer}})
+|-
+
+!style="padding: 0.2em 0.5em" | [[Godseeker Mode|Godseeker Mode]]
+|style="padding: 0.2em 0.5em" | {{trl|Unstable Calamity}}{{•}}{{trl|Profaned Guardians}}{{•}}{{trl|Providence, the Profaned Goddess}} ({{trl|Providence, the Profaned Goddess|Profaned Guardians}}){{•}}{{trl|Skinless Scourge}}{{•}}{{trl|The Starborn Moth}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Sentinels of the Devourer}} ({{trl|Storm Weaver}}{{•}}{{trl|Ceaseless Void}} ({{trl|Ceaseless Void|Dark Energy}}){{•}}{{trl|Signus, Envoy of the Devourer}} ({{trl|Signus, Envoy of the Devourer|Cosmic Lantern}}{{•}}{{trl|Signus, Envoy of the Devourer|Cosmic Mine}}){{•}}{{trl|Polterghast}} ({{trl|Phantom Spirit}}{{•}}{{trl|Polterghast|Phantom}}{{•}}{{trl|Polterghast|Polterghast Clone}}){{•}}{{trl|Profusion, the Viral God}}{{•}}{{trl|The Devourer of Gods}} ({{trl|Cosmic Guardian}}){{•}}{{trl|Horseslimes of the Goopocalypse}} ({{trl|Horseslimes_of_the_Goopocalypse#Summons|Apparition}}{{•}}{{trl|Horseslime of Conquest}}{{•}}{{trl|Horseslime of War}}{{•}}{{trl|Horseslime of Famine}}{{•}}{{trl|Horseslime of Death}}){{•}}{{trl|Jungle Dragon, Yharon}}{{•}}{{trl|The Wall of Bronze}} ({{trl|Mechanical Leech}}{{•}}{{trl|Metal Maw}}){{•}}{{trl|The Fabricational Quartet}} ({{trl|XS-01 Artemis}}{{•}}{{trl|XS-03 Apollo}}{{•}}{{trl|XM-05 Thanatos}}{{•}}{{trl|XF-09 Ares}}){{•}}{{trl|XP-00 Hypnos}} ({{trl|XP-00 Hypnos Aergia Neuron}}{{•}}{{trl|XP-00 Hypnos Plug}}){{•}}{{trl|Supreme Calamitas}} ({{trl|Sepulcher}}{{•}}{{trl|Supreme Calamitas|Catastrophe}}{{•}}{{trl|Supreme Calamitas|Cataclysm}}{{•}}{{trl|Soul Seeker}}{{•}}{{trl|Mastaba}}){{•}}{{trl|Devil of Vehemence}}{{•}}{{trl|XC-39 Oizys}}{{•}}{{trl|Goozma}} ({{trl|Asgeliath Vassal}}{{•}}{{trl|Crimglop Vassal}}{{•}}{{trl|Divingoop Vassal}}{{•}}{{trl|Ebonmuck Vassal}}){{•}}{{trl|XB-10 Nortazzo}}{{•}}{{trl|Godseeker, Yharim}} {{fantag|Apotheosis and Friends}}{{•}}{{trl|Yharim Worm}}
+|-
+
+!style="padding: 0.2em 0.5em" | [[Superboss|Epilogue (Superbosses)]]
+|style="padding: 0.2em 0.5em" | {{trl|Adult Eidolon Wyrm}}{{•}}{{trl|Birdest Up, Kulu-Yharon-Ku}}{{•}}{{trl|Vision of the Tyrant}} {{fantag}}{{•}}{{trl|Purgatory Arbiter, Umbrus}} {{fantag|Catalyst}} ({{trl|Purgatory Arbiter, Umbrus|Chaos Construct}} {{fantag|Catalyst}}){{•}}{{trl|Disgusting Creature: Dron}}{{•}}{{trl|Esserwyrm}} {{fantag|Calamity: Tales of the Aquatic}}{{•}}{{trl|Reactive Guardian, Sodis}} {{fantag|Calamity: Tales of the Aquatic}}{{•}}{{trl|Nihil, the Fathomless Seeker}}{{•}}{{trl|Exodygen}} {{fantag|Sloome}} ({{trl|Exodygen|Omega Sighter}} {{fantag|Sloome}})
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Mini boss|Mini Boss}}
+|style="padding: 0.2em 0.5em" | {{trl|Aether Valkyrie}}{{•}}{{trl|Ancient Cutter}} {{fantag|Calamity: Tales of the Aquatic}}{{•}}{{trl|Armored Digger}}{{•}}{{trl|Cinderlamitas}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Charm Gar}} {{dei}}{{•}}{{trl|Colossal Squid}}{{•}}{{trl|Cragmaw Mire}}{{•}}{{trl|Crimson Kaiju}}{{•}}{{trl|Cyber Draedon}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Clamitas}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Distortion Essence Sphere}} ({{trl|Cosmic Guardian}}) {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Diviner Valkyrie}}{{•}}{{trl|Earth Elemental}}{{•}}{{trl|Eidolon Wyrm}}{{•}}{{trl|Empyreal Saucer}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Faceless Fiend}}{{•}}{{trl|Giant Clam}} ({{trl|Clam}}){{•}}{{trl|Green Demon}}{{•}}{{trl|Heavenly Ogsculite}}{{•}}{{trl|Life Slime}} {{fantag|Calamity Loot Swap}}{{•}}{{trl|La Ruga}} {{fantag|Polyphemalus}}{{•}}{{trl|Lav'e Rugamarius}} {{fantag|Polyphemalus}}{{•}}{{trl|Mauler}}{{•}}{{trl|Mechawyrm}} {{fantag|Deimos, the Starborn Princess}}{{•}}{{trl|Nuclear Terror}}{{•}}{{trl|Onyx Kinsman}}{{•}}{{trl|Plaguebringer}} ({{trl|Plague Charger}}){{•}}{{trl|Plague Emperor}} {{fantag|Calamity: Community Remix}} ({{trl|Plague Emperor|Plague Seeker}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Plague Emperor|Plague Bee}} {{fantag|Calamity: Community Remix}}){{•}}{{trl|Reaper Shark}}{{•}}{{trl|The General}} {{fantag|Apotheosis and Friends}}{{•}}{{trl|Volcanic Reaper Shark}}{{•}}{{trl|Yggdrasil Ent}} 
+|}
+
+<!-------------------- CRITTERS -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-critter|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=2 | Critters
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Critters#Terrestrial|Terrestrial}}
+|style="padding: 0.2em 0.5em" | {{trl|Baby Flak Crab}}{{•}}{{trl|Barocrab}}{{•}}{{trl|Bloodworm}}{{•}}{{trl|Dust Mite}}{{•}}{{trl|Gullet Worm}}{{•}}{{trl|Piggy}}{{•}}{{trl|Repair Unit}}{{•}}{{trl|Shimmer Skimmer}}{{•}}{{trl|Twinkler}}{{•}}{{trl|Weaverbug}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Critters#Aquatic|Aquatic}}
+|style="padding: 0.2em 0.5em" | {{trl|Baby Ghost Bell}}{{•}}{{trl|Baby Skyline Shark}} {{fantag|Calamity: Tales of the Aquatic}}{{•}}{{trl|Crocodile Herring}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Enchanted Jellyfish}} {{fantag|Calamity: Tales of the Aquatic}}{{•}}{{trl|Minnows Prime}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Sea Minnow}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Critters#Flying|Flying}}
+|style="padding: 0.2em 0.5em" | {{trl|Godslayerling}}
+|}
+
+<!-------------------- FRIENDLY NPCS -------------------->
+{|class="plainlinks mw-collapsible {{#ifeq: {{{show-npc|}}} | yes | |mw-collapsed }}" style="width:100%; margin: auto"
+!style="padding: 0.2em; font-size:110%" colspan=2 | Friendly NPCs
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Pre-Hardmode}}
+|style="padding: 0.2em 0.5em" | {{trl|Archivist}}{{•}}{{trl|Bandit}}{{•}}{{trl|Collector}}{{•}}{{trl|Light Wraith}}{{•}}{{trl|Sea King}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Hardmode}}
+|style="padding: 0.2em 0.5em" | {{trl|Agent}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Archmage}}{{•}}{{trl|Disassembly Drone}} {{fantag|Sloome}}{{•}}{{trl|Falconer}}{{•}}{{trl|Radiant Paladin}} {{dei}}{{•}}{{trl|The General}} {{fantag|Apotheosis and Friends}}{{•}}{{trl|The Observer}}{{•}}{{trl|Youkai Miko}}{{•}}{{trl|Wet Rat}} {{fantag|Calamity: Tales of the Aquatic}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Town Pets}}
+|style="padding: 0.2em 0.5em" | {{trl|Profaned Birb}}
+|-
+
+!style="padding: 0.2em 0.5em" | {{trl|Town Slimes}}
+|style="padding: 0.2em 0.5em" | {{trl|Astro Slime}}{{•}}{{trl|Cataraslime}}{{•}}{{trl|Toxic Slime}}{{•}}{{trl|Ninja Slime}}{{•}}{{trl|Stiriactic Slime}}{{•}}{{trl|Threatening Slime}}
+|-
+
+!style="padding: 0.2em 0.5em" | Godseeker Mode
+|style="padding: 0.2em 0.5em" | {{trl|Arc}}{{•}}{{trl|Brimstone Witch}}{{•}}{{trl|Goozmarie}}{{•}}{{trl|Snowman}}{{•}}{{trl|Starborn Princess}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|Sloome}} {{fantag|Sloome}}{{•}}{{trl|Soul of the Eternal Intellect of Infinite Verboten Knowledge}} {{fantag|Calamity: Community Remix}}{{•}}{{trl|The Big Cheese}}{{•}}{{trl|The Turtle}}{{•}}{{trl|Zeratros}}
+|}
+
+|}<noinclude>[[Category:Navigational templates]]{{i18n-ready}}
+
+== Usage ==
+Place the following at the end of a page:
+*<code><nowiki>{{Master Template Characters}}</nowiki></code>
+
+The default behavior is for the entire template to remain collapsed. 
+
+'''To show all sub-sections in collapsed form,''' use this:
+
+ <nowiki>{{Master Template Characters</nowiki>
+  | show-main = yes
+ }}
+
+'''To cause one or more sub-sections to appear expanded by default,''' add one of the following ("show-main = yes" must also be set) :
+* <code> | show-common   = yes </code>
+* <code> | show-hardmode = yes </code>
+* <code> | show-postMoon = yes </code>
+* <code> | show-event    = yes </code>
+* <code> | show-boss     = yes </code>
+* <code> | show-critter  = yes </code>
+* <code> | show-npc      = yes </code>
+
+'''For example, to show the "bosses" section expanded,''' use this:
+
+ <nowiki>{{Master Template Characters</nowiki>
+  | show-main = yes
+  | show-boss = yes
+ }}
+
+</noinclude>

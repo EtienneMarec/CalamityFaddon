@@ -1,0 +1,77 @@
+{{npc infobox
+| type = Enemy
+| type2 = Aquatic
+| ai = Terrarian AI
+| environment = Ocean
+| life = {{dv|1,250|2,500}} (pre-[[Hardmode]])<br/>{{dv|7,500|15,000}} ([[Hardmode]])
+| damage = {{element|Water}} {{dv|50|boost=0.2}} (pre-[[Hardmode]])<br/>{{element|Water}} {{dv|100|boost=0.2}} ([[Hardmode]])<br/>{{element|Cold}} {{dv|70|112|140|161}} (Psychic pearls)
+| defense = 9999 (closed)<br/>10 (open in pre-[[Hardmode]])<br/>35 (open in [[Hardmode]])<br/>
+| dr = 30%
+| knockback = 100
+| money = {{gc|1}} (pre-[[Hardmode]]) <br/>{{gc|8}} ([[Hardmode]])
+| Navystone|25-35|100%
+| custom| {{item|Mollusk Husk|note=(In [[Hardmode]])|wrap=y}} (6-11)|100%
+| custom| {{item|Clam Chowder|note=([[Hardmode]]-only)|wrap=y}} | 50%
+| group|One of the following four items will be dropped if the player is in [[Hardmode]]|4
+| custom| {{item|Poseidon|note=(In [[Hardmode]] only)|wrap=y}}|25%
+| custom| {{item|Clamor Rifle|note=(In [[Hardmode]] only)|wrap=y}}|25%
+| custom| {{item|Shellfish Staff|note=(In [[Hardmode]] only)|wrap=y}}|25%
+| custom| {{item|Clam Crusher|note=(In [[Hardmode]] only)|wrap=y}}|25%
+| custom| {{item|Amidias' Pendant|note=(After defeating [[Desert Scourge]])|wrap=y}}|33.33%
+| custom| {{item|Giant Pearl|note=(After defeating [[Desert Scourge]])|wrap=y}}|66.67%
+| debuff = Clamity | debufflink = no
+| debuffchance = 100%
+| duration =  Infinite (While aggressive)
+| debufftip = The clams have been angered!
+| boxwidth = 26em
+| banner = yes
+| image2 = Giant Clam map.png
+| image2caption = Map Icon
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Slow
+| immune4 = Eutrophication
+| hurt = NPC_Hit_4.wav
+| sound = ClamImpact.wav
+| soundtext = Smash
+| sound2 = Item_67.wav
+| sound2text = Pearl Ring
+| sound3 = Item_68.wav
+| sound3text = Pearl Rain
+| vulnerable1 = Stab
+| vulnerable2 = Poison
+| vulnerable3 = Machine
+| resistant1 = Cold
+| resistant2 = Water
+| resistant3 = Slash
+| resistant4 = Magic
+}}
+<big>''"Why are we still here? Just to suffer? Every night, I can feel my leg… and my arm… even my fingers. The body I’ve lost… the comrades I’ve lost… won’t stop hurting… It’s like they’re all still there. You feel it, too, don’t you?"''</big>
+
+The '''Giant Clam''' (Japanese: バカな野郎 ''Kyodai kai'') is a [[Mini Bosses|mini boss]] that rarely spawns in the [[Ocean]] after defeating the [[Desert Scourge]], and having fished up at least one oyster in the desert. It is generally the first mini boss that the player will encounter. It receives a huge buff during [[Hardmode]]. It is initially passive and closed up, but once the player hits it 5 times, the player receives the '''Clamity''' debuff, which boosts the spawn rate of [[Clam]]s and making them aggressive while reducing the other enemies' spawn rate to 0, and the Giant Clam becomes aggressive.
+
+In Hardmode, it gains 2 new attacks which have a timer of 3 seconds, unrelated to its primary attacks, on top of making its tele-stomp attack faster. Its first attack is to shoot a ring of 6 psychic pearls along with another faster pearl that is always aimed towards the player. Its second attack is to summon a rain of 11 psychic pearls upon the player, which have a gap between them.
+
+In Godseeker Mode, if the Giant Clam has not been slain and thus the [[Sea King]] not freed, the Sea King will be riding on top of it wielding two [[P90]]<nowiki/>s with chlorophyte bullets. These bullets ignore I-Frames and knockback immunity. The clam itself will also not start passive and the pair will spawn as commonly as other enemies. Additionally, they have a 1/42683 chance per in-game tick to spawn in any biome, which will shorten to a 1/426 chance per tick after the first one spawns for the next 4 Giant Clams that spawn. After this, it will revert to 1/42683. This event is called a Clambush. Clambushes can occur during Hardmode in the For The Worthy seed. Also in the For The Worthy seed, each pillar that is alive during the pillar event will add their own separate chances for Clambushes, with 5x the amount with 4 pillars alive, 4x the amount with 3 pillars alive, ect.
+
+It will drop the [[Sea King]] if he is not already present in the world and the Desert Scourge has been defeated already. Additionally, [[Sunken Crate]]s will include Giant Clam's weapons in Hardmode after it has been defeated.
+
+It can be detected with the [[Lifeform Analyzer]].
+
+== Summons ==
+{| class="terraria"
+! Image !! Name
+|-
+| align = center |{{item|mode=table|Clam}}
+|}
+
+== Trivia ==
+*The  debuff, '''Clamity'''<nowiki/>'s name is a portmanteau of the word "clam" and the mod's title, "Calamity."
+*The Giant Clam has a [[Draedon's Logs#Sunken Sea|Draedon's Log]] entry dedicated to it that can be found in the [[Sunken Sea Bio-center Lab]].
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The Giant Clam returns hiding in its grotto."
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

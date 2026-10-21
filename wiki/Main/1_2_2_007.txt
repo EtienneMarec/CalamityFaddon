@@ -1,0 +1,48 @@
+{{patch infobox
+| image = Heart of Darkness (1.2.2.007).png
+| patchname = Update 1.2.2.007
+| release = 10/23/2017
+}}
+
+The '''1.2.2.007''' update made a few changes to [[The Devourer of Gods]], and added an assortment of resprites.
+
+== Additions ==
+*Added [[Heart of Darkness]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*Any boss can now drop a Heart of Darkness in [[Revengeance Mode]].
+*Nerfed [[Another worm boss]]' health from {{dv|150,000|240,000}} to {{dv|120,000|192,000}}.
+*The Devourer of Gods now broadcasts a message to chat upon spawning: "You are no god...but I shall feast upon your essence regardless!"
+*The Devourer of Gods now cuts infinitely penetrating projectile damage by 75%, and other piercing projectile damage by 90%.
+*[[Polterghast]] now has a despawn timer, which will force the boss to flee if it's enraged for too long.
+*[[Supreme Calamitas]]' minimum player damage limit lowered from 100 to 20 (10 with [[Flesh Totem]]).
+
+=== Items ===
+*Renamed Daedalus Hat to [[Daedalus Hood]].
+*Reduced the dust on [[Grand Guardian]].
+*Lowered the duration of [[Purge Guzzler]]'s beams.
+
+=== Other ===
+*Dying no longer rids players of [[Stress]], and instead gives them more.
+*Stress is now easier to lower with natural methods.
+
+=== Resprites ===
+*Resprited [[Siren Lure]], [[Xeroc Wrath]].
+*Resprited [[Ornate Shield]].
+*Resprited [[Daedalus Breastplate]], [[Daedalus Headgear]], [[Daedalus Helm]], [[Daedalus Helmet]], Daedalus Hood, [[Daedalus Leggings]], [[Daedalus Visor]], [[Xeroc Cuisses]], [[Xeroc Mask]], [[Xeroc Plate Mail]].
+*Resprited [[Draedon's Forge]].
+*Resprited [[Crystal Piercer]], [[Darkecho Greatbow]], [[The Empyrean]], [[Shadecrystal Barrage]], [[Shimmerspark]], [[Siren's Song]], [[Starnight Lance]], [[Tome of Fates]], [[Trinity]], [[Verium Bullet]], [[Xeroc Greatsword]], [[Xeroc Pitchfork]].
+*Resprited [[Abyssal Warhammer]], [[Gallant Pickaxe]], [[Shardlight Pickaxe]].
+*Resprited [[Meld Blob]], [[Verstaltite Bar]].
+*Resprited [[The Plaguebringer Goliath]]'s map icon.
+*Resprited [[The Obliterator]]'s projectile.
+
+=== Fixes ===
+*Fixed [[MOAB]]'s equipped sprite having too many frames.
+*Fixed a sheeting error with The Plaguebringer Goliath and [[Plaguebringer]]s.
+
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

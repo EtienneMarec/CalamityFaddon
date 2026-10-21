@@ -1,0 +1,38 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 27
+| knockback = 3
+| rare = 4
+| sell = {{value|0|5|20}}
+| stack = 1
+| auto = yes
+| velocity = 14
+| use = 18
+| tooltip = Fires a second arrow mirroring the first
+| hardmode = yes
+| element1 = Unholy
+| element2 = Holy
+}}
+
+The '''Baow''' is a craftable [[Hardmode]] [[bow]]. It fires 2 arrows, with one firing from the bow as normal, and the second firing on the opposite side of the player's cursor, converging in with the first arrow.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The item's name is a pun on "bow" and "tao".
+{{yinyang}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

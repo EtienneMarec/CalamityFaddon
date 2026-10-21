@@ -1,0 +1,18 @@
+{{item infobox
+| type = Tool
+| stack = 1
+| tooltip = Favorite this item to prevent astral enemies from dropping weapons and accessories
+| rare = 4
+| sell = {{value|0|0|50}}
+}}
+
+The '''Anti-Starspawn Ointment''' is a craftable [[Hardmode]] [[spawn-blocking]] [[tool]]. While the item is favorited in the player's inventory, [[enemies]] in the [[Astral Infection]] will not drop any weapons or accessories.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-other = yes
+}}

@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 47
+| use = 6
+| velocity = 10.5
+| knockback = 3
+| tooltip = Fires small wavering claws<br/>Stealth strikes launch a large, high speed claw which pierces
+| rare = 6
+| sell = {{value|0|9|60}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| proj = Large Talon.png
+| projcaption = Large Talon
+| proj2 = Small Talon.png
+| proj2caption = Small Talon
+| element1 = Dark
+| element2 = Slash
+| element3 = Stab
+}}
+
+The '''Terror Talons''' is a craftable [[Hardmode]] [[rogue weapon]]. It automatically fires small and swift claws, alternating and creating a double sine-wave like movement from the player towards the direction of the cursor. The claws do not pierce enemies or blocks.
+
+Performing a [[stealth strike]] with the Terror Talons will cause the next claw thrown to move very quickly forward, pierce up to nine enemies, and deal 3.25x the weapon's base damage.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

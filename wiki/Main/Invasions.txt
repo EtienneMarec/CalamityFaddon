@@ -1,0 +1,263 @@
+The Calamity Mod adds new drops and mechanics to existing vanilla invasions, as well as new unique invasions.
+
+==Blood Moon==
+[[File:Blood Relic.png|right|link=Blood Relic]]
+[[tgc:Blood Moon|Blood Moon]]s can be summoned using the [[Blood Relic]]. All enemies during blood moons have a chance to drop [[Blood Orb]]s, which are used as an alternative method to craft all vanilla [[potion]]s as well as most of Calamity's. A blood moon must be active in order for the [[Drunk Princess]] to sell the [[Bloody Mary]] and for it to grant its beneficial effects. Killing the [[Lunatic Cultist]] during this invasion causes it to drop a unique [[Lore|Lore item]].
+{{biome
+|name=Blood Moon
+|monsters=
+{{item|Gullet Worm|wrap=y}}
+
+|drop=
+'''From all enemies:'''
+:{{item|Blood Orb}}
+:{{item|Catarachedrae}}
+'''From [[Blood Zombie]]s:'''
+:{{item|Dread Bone}}
+'''From [[Drippler]]s:'''
+:{{item|Bouncing Eyeball}}
+
+|drop2=
+'''From [[Fishing]]:'''
+:{{item|Xerocodile}}
+
+'''From [[Lunatic Cultist]]:'''
+:{{item|The Red Moon (Lore)}}
+
+}}
+
+==Goblin Army ==
+[[File:Goblin Battle Standard.png|right|link=Goblin Battle Standard]]
+A variety of new loot is dropped by the enemies during a [[tgc:Goblin Army|Goblin Army]]. In [[Hardmode]], the [[Goblin Sorcerer]], [[Goblin Summoner]], and the [[Shadowflame Apparation]] are able to inflict the [[Shadowflame]] debuff onto the player in [[Revengeance Mode]].
+{{biome
+|name=Goblin Army
+|drop=
+'''From [[Goblin Thief|Goblin Thieves]]:'''
+:{{item|Warglaive}}
+'''From [[Goblin Peon]]s:'''
+:{{item|Warbell}}
+'''From [[Goblin Archer]]s:'''
+:{{item|Warbow}}
+:{{item|War Arrow}}
+|drop2=
+'''From [[Goblin Warrior]]s:'''
+:{{item|Warblade}}
+'''From [[Goblin Sorcerer]]s:'''
+:{{item|Plasma Rod}}
+:{{item|War Staff}}
+'''From [[Goblin Summoner]]s:'''
+:{{item|Burning Strife}}
+:{{item|The First Shadowflame}}
+}}
+
+== Rain==
+[[File:Torrential Tear.png|right|link=Torrential Tear]]
+[[tgc:Rain|Rain]] can be toggled using the [[Torrential Tear]] tool in [[Space]]. It will also begin to rain upon summoning [[Storm Weaver]] when outside of the [[Boss Rush]].
+
+In [[Death Mode]], several additional effects may occur:
+*Lightning strikes on the [[Surface]].
+*Icicles fall down in the [[Snow biome]].
+*[[tgc:Duke Fishron#Attacks|Cthulhunadoes]] spawn instead of [[tgc:Duke Fishron#Attacks|Sharknadoes]] on the [[Ocean]] surface.
+
+{{biome
+|name=Rain
+|monsters=
+{{item|Fearless Goldfish Warrior}}
+
+|drop=
+'''From [[Fearless Goldfish Warrior]]s:'''
+:{{item|Tin Helmet}}
+
+'''From [[Fearless Goldfish Warrior]]s in [[Hardmode]]:'''
+:{{item|Magic Dagger}}
+
+'''From [[Angry Nimbus]]es:'''
+:{{item|Essence of Sunlight}}
+}}
+
+==Acid Rain==
+[[File:Caustic Tear.png|alt=|right]]
+{{dablink|Main article: [[Acid Rain]]}}
+The '''Acid Rain''' is a weather invasion that has a 1/360000 chance to start every tick (1/6000 every second) after the [[Acidsighter]] has been defeated.
+
+Throughout the duration of the invasion, all players and enemies in the [[Sulphurous Sea]] during the Rain will be inflicted with the [[Irradiated]] debuff. Numerous new enemies will spawn in the biome at different points of progression, with the invasions enemies receiving increases to their stats to make them more suited for each point in progression. The first tier of the invasion is made available after the player has defeated the [[Acidsighter]], the Second Tier is made available after the [[Aquatic Scourge]] is defeated and the final tier is made available once the player defeats the [[Polterghast]].
+
+==Sandstorm==
+[[File:Arid Artifact.png|right|link=Arid Artifact]]
+[[tgc:Sandstorm|Sandstorm]]s are summonable in Hardmode using the [[Arid Artifact]]. In Pre-Hardmode, sandstorms can only begin naturally once the [[Desert Scourge]] has been defeated. The [[Mighty Wind]] debuff is disabled whenever a [[boss]] is alive. Several new drops have been added to the invasion, and [[Forbidden Fragment]]s are included in multiple new recipes as well. Furthermore, a new [[mini boss]], the [[Great Sand Shark]], can be summoned using the [[Sandstorm's Core]] after [[Plantera]] has been defeated.
+{{biome
+|name=Sandstorm
+|monsters=
+'''After defeating [[Plantera]]:'''
+:{{item|Great Sand Shark|size=110px|note=(miniboss)|wrap=y}}
+
+|drop=
+'''From [[Antlion Charger]]s and [[Antlion Swarmer]]s:'''
+:{{item|Mandible Bow}}
+:{{item|Mandible Claws}}
+'''From [[Sand Elemental]]s:'''
+:{{item|Elemental in a Bottle}}
+:{{item|Rare Elemental in a Bottle}}
+'''From [[Dune Splicer]]s after defeating [[Plantera]]:'''
+:{{item|Terra-cotta}}
+'''From [[Great Sand Shark]]s:'''
+:{{item|Grand Scale}}
+:{{item|Forbidden Fragment}}
+}}
+
+==Pirate Invasion==
+[[File:Pirate Map.png|right|link=Pirate Map]]
+Two new [[ranged weapon]]s are dropped during the [[tgc:Pirate Invasion|Pirate Invasion]], by [[Pirate Crossbower]]s and [[Pirate Deadeye]]s.
+{{biome
+|name=Pirate Invasion
+|drop=
+'''From [[Pirate Crossbower]]s:'''
+:{{item|Raider's Glory}}
+'''From [[Pirate Deadeye]]s:'''
+:{{item|Proporse Pistol}}
+}}
+
+==Frost Legion==
+[[File:Snow Globe.png|right|link=Snow Globe]]
+The [[tgc:Frost Legion|Frost Legion]] invasion gains a single new drop in the form of [[The Last Lightice]] {{fantag|Calamity: Community Remix}}.
+{{biome
+|name=Frost Legion
+|drop=
+'''From [[Snow Balla]]s:'''
+:{{item|The Last Lightice}} {{fantag|Calamity: Community Remix}}
+}}
+
+==Solar Eclipse==
+[[File:Solar Tablet.png|right|link=Solar Tablet]]
+[[tgc:Solar Eclipse|Solar Eclipse]]s become significantly more difficult after The Devourer of Gods has been defeated. All enemies have their health increased by 5x and all damage increased by {{dv|30|60}}. All enemies slain during a buffed Solar Eclipse will drop [[Darksun Fragment]]s.
+{{biome
+|name=Solar Eclipse
+|drop=
+'''From [[Deadly Sphere]]s:'''
+:{{item|Defective Sphere}}
+'''From [[tgc:Reaper|Reaper]]s and [[Psycho]]s after [[Calamitas]] or [[Plantera]] have been defeated:'''
+:{{item|Solar Veil}}
+'''From [[Green Demon]]s after [[Leviathan and Anahita]] have been defeated:'''
+:{{item|Green Demon Head}}
+'''From all enemies after [[The Devourer of Gods]] has been defeated:'''
+:{{item|Darksun Fragment}}
+}}
+
+== Frost Moon==
+[[File:Naughty Present.png|right|link=Naughty Present]]
+The [[tgc:Frost Moon|Frost Moon]] invasion becomes significantly more difficult after The Devourer of Gods has been defeated.  All enemies have their health increased by 2.5x and all damage increased by {{dv|30|60}}. During the buffed invasion, [[Ice Queen]]s have a more difficult AI and some enemies will drop [[Endothermic Energy]] when slain.
+{{biome
+|name=Frost Moon
+|drop=
+'''From most enemies after [[The Devourer of Gods]] has been defeated:'''
+:{{item|Endothermic Energy}}
+}}
+
+==Pumpkin Moon==
+[[File:Pumpkin Moon Medallion.png|right|link=Pumpkin Moon Medallion]]
+The [[tgc:Pumpkin Moon|Pumpkin Moon]] invasion becomes significantly more difficult after [[The Devourer of Gods]] has been defeated.  All enemies have their health increased by 3.5x and all damage increased by {{dv|30|60}}. During the buffed invasion, [[Pumpking]]s have a more difficult AI and some enemies will drop [[Nightmare Fuel]] when slain.
+{{biome
+|name=Pumpkin Moon
+|drop=
+'''From most enemies after [[The Devourer of Gods]] has been defeated:'''
+:{{item|Nightmare Fuel}}
+}}
+
+==Old One's Army==
+[[File:Eternia Crystal.png|right|link=tgc:Eternia Crystal]]
+The [[Eternia Crystal]] can be right-clicked to skip waves and increase the spawn rate of enemies from portals during the invasion. All enemies from the [[tgc:Old One's Army|Old One's Army]] except for [[Etherian Goblin]]s, [[Etherian Goblin Bomber]]s, [[Etherian Javelin Thrower]]s and [[Etherian Lightning Bug]]s are immune to [[Glacial State]], [[Temporal Sadness]], [[Time Distortion]] and [[Webbed]]. 
+
+==Martian Madness==
+[[File:Martian Probe.png|right|link=tgc:Martian Probe]]
+A [[magic gun]], a [[spy]] [[Bombs|bomb]], and a unique [[ranged weapon]] are dropped by various enemies during the [[tgc:Martian Madness|Martian Madness]] invasion. {{fantag|Deimos, the Starborn Princess}} The [[Martian Madness]] invasion becomes significantly more difficult after [[The Starborn Moth]] has been defeated. New stronger enemies and minibosses can spawn and the new minibosses can drop [[Strange Matter]] and the invasion begins to consist of waves.
+{{biome
+|name=Martian Madness
+|drop=
+'''From [[tgc:Martian Officer|Martian Officer]]s, [[tgc:Brain Scrambler|Brain Scrambler]]s,<br/>[[tgc:Gray Grunt|Gray Grunt]]s, [[tgc:Giga Zapper|Giga Zapper]]s, [[tgc:Martian Engineer|Martian Engineer]]s,<br/>[[tgc:Ray Gunner|Ray Gunner]]s, and [[tgc:Scutlix Rider|Scutlix Rider]]s:'''
+:{{item|Shock Grenade}}
+'''From [[Martian Walker]]s:'''
+:{{item|Wingman}}
+'''From [[Martian Saucer]]s:'''
+:{{item|Nullification Pistol}}
+'''From [[Mechawyrm]]s, [[Distortion Essence Sphere]]s,<br/> and [[Empyreon]]:'''
+:{{item|Strange Matter}}
+}}
+
+==Lunar Invasions ==
+[[File:Lunatic Cultist.png|right|link=Lunatic Cultist]]
+All invasion enemies spawned during the invasion have a chance to drop [[Lunar Fragment]]s from their respective pillars as well as [[Meld Blob]]s, a crafting material used for [[Meld Construct]]s.
+
+The Celestial Pillars also require {{expert|100}} enemies to be defeated in Expert Mode before their shields go down, as compared to the original {{expert|150}}. This can be reverted through the [[configuration options]].
+{{biome
+|name=Lunar Invasions
+|drop=
+'''From all exclusive enemies:'''
+:{{item|Meld Blob}}
+:{{item|Meld Chip Ice Cream}}
+
+'''From all [[Nebula Pillar]] enemies:'''
+:{{item|Nebula Fragment}}
+
+'''From all [[Solar Pillar]] enemies:'''
+:{{item|Solar Fragment}}
+
+'''From all [[Vortex Pillar]] enemies:'''
+:{{item|Vortex Fragment}}
+
+'''From all [[Stardust Pillar]] enemies:'''
+:{{item|Stardust Fragment}}
+}}
+
+==22 Bullet Theory {{fantag|Calamity: Community Remix}}==
+[[File:Phosphorescent Gauntlet.png|right|link=Phosphorescent Gauntlet]]
+{{dablink|Main article: [[22 Bullet Theory]]}}
+
+The 22 Bullet Theory is an invasion activated by hitting [[The General]] {{fantag|Apotheosis and Friends}} with the [[Phosphorescent Gauntlet]] while under the effects of [[Fluorescent Vodka]]. During the invasion, various items will spawn and come to life to fight players, each with different methods for incapacitation. The player is rewarded with a [[Klepticoin]] upon defeating the invasion.
+{{biome
+|name=22 Bullet Theory
+|drop=
+'''Reward:'''
+:{{item|Klepticoin}}
+}}
+
+==Mechanical Horde {{fantag|Calamity: Community Remix}}==
+[[File:Draedon's Remote.png|right|link=Draedon's Remote]]
+{{dablink|Main article: [[Mechanical Horde]]}}
+
+The Mechanical Horde is an invasion activated by using [[Draedon's Remote]] while inside [[The Exosphere]]. During the invasion, a number of greatly buffed robotic enemies and bosses will spawn in 9 waves, with a 10th and final wave involving a fight against [[Mechdusa]]. Completing this invasion enables the player to fight the [[The Fabricational Quartet]] and [[XP-00 Hypnos]].
+{{biome
+|name=Mechanical Horde
+|drop=
+'''Reward:'''
+:{{item|image=Encrypted Schematic (Exosphere)|link=Schematics|Encrypted Schematic (Exosphere)}}
+}}
+
+==Boss Rush==
+[[File:Terminus.png|right|link=Terminus]]
+{{dablink|Main article: [[Boss Rush]]}}
+
+The Boss Rush is a special invasion activated by using [[Terminus]], an item obtained from the [[Shrine]] at the bottom of the [[Abyss]]. During the invasion, all vanilla and Calamity bosses will spawn in a unique sequence, each with their own modified behaviors and buffed stats.
+{{biome
+|name=Boss Rush
+|drop=
+'''From [[The Devourer of Gods]] while the Boss Rush is active:'''
+:{{item|Rock}}
+}}
+
+==Ultimate Boss Rush==
+[[File:Awakening.png|right|link=Awakening]]
+{{dablink|Main article: [[Ultimate Boss Rush]]}}
+
+The Ultimate Boss Rush is a special invasion activated by left-clicking with the [[Lore items|Awakening]] lore item. During the invasion, all new bosses will spawn in a unique sequence, each with their own unique behaviors and extreme stats.
+{{biome
+|name=Boss Rush
+|drop=
+'''At the end of the Ultimate Boss Rush:'''
+:{{item|Otherworldly Log}}
+}}
+
+==Notes==
+*Players can enable a [[configuration option]] to disable invasion enemy spawns whenever a [[Town NPC]] is nearby.
+
+{{Game mechanics}}
+[[Category:Events]]

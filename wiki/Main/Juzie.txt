@@ -1,0 +1,20 @@
+{{item infobox
+|type = Potion
+|consumable = yes
+| use = 30
+|tooltip = A great cherry juice, on a "best" container.<br/>Permanently increases life regen noticeably
+| rare = 4
+| sell = {{gc|75}}
+| stack = 1
+}}
+
+The '''Juzie''' is a craftable [[Hardmode]] [[Permanent Power-ups|Permanent Power-up]] item that grants the player a permanent +8 health regen and 40% faster life regen ramping. It can only be used once.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 32
+| stack = 1
+| damagetype = Rogue
+| auto = yes
+| knockback = 6
+| use = 29
+| tooltip = Launches a star that splits after a short period of time<br/>Split stars home in on nearby enemies after a few seconds<br/>Stealth strikes summon a meteor upon enemy impact
+| hardmode = yes
+| velocity = 10
+| debuff = Astral Infection (debuff)
+| debuffchance = 100%
+| debuffduration = 4 seconds
+| debufftip = Your flesh is melting off
+| rare = 7
+| sell = {{value|0|12}}
+| proj = Auroradical Star.png
+| projcaption = Auroradical Star
+| proj2 = Comet Quasher Meteor.png
+| proj2caption = Quasher Meteor
+| element1 = Magic
+| element2 = Fire
+| element3 = Smash
+}}
+|{{item drops infobox
+| [[Astrum Aureus]] |1| {{dv|25%|33.33%}}
+}}
+}}
+
+The '''Auroradical Throw''' is a [[Hardmode]] [[rogue weapon]] that drops from [[Astrum Aureus]]. When used, it throws out an astral star that splits into five stars after traveling for a short distance. The split stars will deal 87% of the base damage and travel away from where the main star split for two seconds before homing in on nearby enemies. All stars inflict the [[Astral Infection (debuff)|Astral Infection]] [[debuff]] and can travel through blocks.
+
+Performing a [[stealth strike]] with the Auroradical Throw causes the main star to deal 120% damage. The five stars each will also deal 104.4% damage and rain one meteor on enemy hits, each dealing 52.2% damage.
+
+{{Modifier|rogue}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+*It may be a reference to Undertale, particularly the Star Blazing attack utilized by the true final boss.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}

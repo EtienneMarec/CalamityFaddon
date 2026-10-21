@@ -1,0 +1,44 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| damage = 47
+| damagetype = magic
+| auto = yes
+| stack = 1
+| knockback = 7
+| mana = 12
+| velocity = 13
+| use = 45
+| tooltip = Fires black and white orbs that travel in a helix pattern
+| rare = 4
+| sell = {{value|0|2}}
+| hardmode = yes
+| element1 = Unholy
+| element2 = Holy
+}}
+
+The '''Dual Cane''' is a craftable [[Hardmode]] [[wand]]. Each use fires a black orb and a white orb which collectively move in a somewhat wide helix pattern. 
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Unlike the [[Laser Machinegun]] and the Nano Purge, this weapon does not increase in fire rate over time. After the initial non-firing spin-up, it fires its lasers at a constant high speed.
+*This weapon does not consume mana while spinning up, it is only consumed once it has begun firing lasers.
+
+== Trivia ==
+*The movement pattern of the orbs is a reference to the [https://metroid.fandom.com/wiki/Wave_Beam Wave Beam] from the ''[[wikipedia:Metroid|Metroid]]'' game series.
+
+{{yinyang}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+
+[[Category:Wands]]

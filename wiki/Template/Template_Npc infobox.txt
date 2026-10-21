@@ -1,0 +1,385 @@
+<includeonly><!--
+	-->{{#dplvar:set<!-- 
+		-->|_npc_infobox:name|{{{name|{{ROOTPAGENAME}}}}}<!-- 
+	-->}}<!--
+
+--><div class="infobox npc {{lc:{{{type|}}}}}" style="<!-- 
+	-->{{#if:{{{width|{{{boxwidth|}}}}}}|width:{{{width|{{{boxwidth|}}}}}};}}<!-- 
+	-->{{#if:{{{float|}}}|float:{{{float|}}};}}<!-- 
+	-->"><!--
+
+	--><div class="title">{{#dplvar:_npc_infobox:name}}{{#if:{{{namesub|}}}|<span>{{{namesub|}}}</span>}}</div><!--
+
+	--><div class="section images"><!--
+                //map icon
+                -->{{#if:{{{map|}}}|<!--
+                        --><div class="map">{{{map|}}}</div><!--
+		-->|<!--
+                        -->{{#ifexist: Media:{{#dplvar:_npc_infobox:name}} {{#if:{{{namesub|}}}|{{{namesub|}}}}} (Map icon).png|<!--
+                                --><div class="map">[[File:{{#dplvar:_npc_infobox:name}} {{#if:{{{namesub|}}}|{{{namesub|}}}}} (Map icon).png|{{#dplvar:_npc_infobox:name}} {{#if:{{{namesub|}}}|{{{namesub|}}}}}]]</div><!--
+                        -->}}<!--
+                -->}}<!--
+                         
+		display:
+		Because the first image may use imagealt, span is used to display the title of the first image.
+		imagealt will not be affected if it has a text field (if imagealt = [[File:someimage.png|hello]], it will display 'hello')
+		--><span title="{{#dplvar:t1}}">{{{imagealt|[[File:{{{image|{{#dplvar:_npc_infobox:name}}.png}}}]]}}}</span><!--First sprite now displayed
+	--></div><!--  div.section.images
+
+	--><div class="section statistics"><!-- 
+		--><div class="title">{{l10n|npc infobox|stats}}</div><!-- 
+		--><table class="stat"><!-- 
+			-->{{#if: {{{type|Enemy}}}|<!-- 
+				--><tr><!-- 
+					--><th>{{l10n|npc infobox|type}}</th><!-- 
+					--><td><!-- 
+						-->{{ifexists|{{{type|Enemy}}}|[[{{{type|Enemy}}}]]|{{{type|Enemy}}}}}<!-- 
+						-->{{#if:{{{type2|}}}|<!-- 
+							-->&#32;&ndash;&#32;{{ifexists|{{{type2}}}|[[{{{type2}}}]]|{{{type2}}}}}<!-- 
+						-->}}<!-- 
+						-->{{#if:{{{type3|}}}|<!-- 
+							--><br/>{{ifexists|{{{type3}}}|[[{{{type3}}}]]|{{{type3}}}}}<!-- 
+						-->}}<!-- 
+					--></td><!--  
+				--></tr><!--
+			-->}}<!--
+			-->{{#if:{{{environment|}}}|<!-- 
+				--><tr><!-- 
+					--><th>{{trl|Environment}}</th><!-- 
+					--><td>[[{{{environment}}}]]{{#if:{{{environment2|}}}|&#32;&ndash;&#32;[[{{{environment2}}}]]}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{ai|}}}|<!-- 
+				--><tr><!-- 
+					--><th>{{trl|AI|AI Type}}</th><!-- 
+					--><td>{{{ai|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if: {{{damage|}}}|<!-- 
+				--><tr><!-- 
+					--><th>{{l10n|npc infobox|damage}}</th><!-- 
+					--><td>{{{damage|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if: {{{life|}}}|<!-- 
+				--><tr><!-- 
+					--><th>{{l10n|npc infobox|life}}</th><!-- 
+					--><td>{{{life|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if: {{{defense|}}}|<!-- 
+				--><tr><!-- 
+					--><th>{{trl|Defense}}</th><!-- 
+					--><td>{{{defense|}}}</td><!--  
+				--></tr><!--
+			-->}}<!--  
+			-->{{#if: {{{dr|}}}|<!-- 
+				--><tr><!-- 
+					--><th>{{l10n|npc infobox|dr}}</th><!-- 
+					--><td>{{#if:{{#dplreplace:{{#sub:{{{dr|}}}|-1|1}}|\d|}}|<!--
+						-->{{{dr|}}}|<!--
+						-->{{{dr|}}}%<!--
+					-->}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if: {{{knockback|}}}|<!-- 
+				--><tr><!-- 
+					--><th>{{l10n|npc infobox|kb}}</th><!-- 
+					--><td>{{{knockback|}}}<!--
+                                                -->{{#if:{{#pos:{{{knockback|}}}|/}}|<!--
+                                                        -->{{#if:{{#pos:{{{knockback|}}}|%|{{#pos:{{{knockback|}}}|/}}}}||%}}<!--
+                                                -->|<!--
+                                                        -->{{#if:{{#pos:{{{knockback|}}}|%}}||%}}<!--
+                                                -->}}<!--
+                                        --></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if: {{{power|}}}|<!-- 
+				--><tr><!-- 
+					--><th>{{l10n|npc infobox|power}}</th><!-- 
+					--><td>{{{power|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if: {{{weakspot|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[Weak Points]]:</th><!-- 
+					--><td>{{{weakspot|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{buff|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>{{l10n|npc infobox|buff}}</th><!-- 
+					--><td>{{#ifeq:{{{bufflink|}}}|yes|{{item|{{{buff}}}}}|{{item|{{{buff}}}|link=}}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if: {{{buffduration|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>{{l10n|npc infobox|buffduration}}</th><!-- 
+					--><td>{{{buffduration|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if: {{{bufftip|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>{{l10n|npc infobox|bufftip}}</th><!-- 
+					--><td><i>{{{bufftip|}}}</i></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{debuff4|}}}||{{#if: {{{debuff|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>{{l10n|npc infobox|debuff}}</th><!-- 
+					--><td><!-- 
+						-->{{#vardefine:chance|{{#if:{{{debuffchance|}}}|{{{debuffchance|}}} chance}}}}<!-- 
+						-->{{#ifeq:{{{debufflink|}}}|no|<!-- 
+							-->{{item|{{{debuff}}}|note2={{#var:chance}}|link=}}<!-- 
+						-->|<!-- 
+							-->{{ifexists|{{{debuff|}}}|{{item|{{{debuff}}}|note2={{#var:chance}}}}|{{item|{{{debuff}}}|note2={{#var:chance}}|link=}}}}<!-- 
+						-->}} <!-- 
+					--></td><!--  
+				--></tr><!--
+			-->}}<!--
+			-->{{#if: {{{duration|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>{{l10n|npc infobox|debuffduration}}</th><!-- 
+					--><td>{{{duration|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if: {{{debufftip|}}}|<!--
+				--><tr class="buff"><!-- 
+					--><th>{{l10n|npc infobox|debufftip}}</th><!-- 
+					--><td><i>{{{debufftip|}}}</i></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if: {{{debuff2|}}}|<!--
+				--><tr class="buff"><!-- 
+					--><th>{{l10n|npc infobox|debuff}}</th><!-- 
+					--><td><!-- 
+						-->{{#vardefine:chance2|{{#if:{{{debuffchance2|}}}|{{{debuffchance2|}}} chance}}}}<!-- 
+						-->{{#ifeq:{{{debufflink2|}}}|no|<!-- 
+							-->{{item|{{{debuff2}}}|note2={{#var:chance2}}|link=}}<!-- 
+						-->|<!-- 
+							-->{{ifexists|{{{debuff2|}}}|{{item|{{{debuff2}}}|note2={{#var:chance2}}}}|{{item|{{{debuff2}}}|note2={{#var:chance2}}|link=}}}}<!-- 
+						-->}} <!-- 
+					--></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{duration2|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>{{l10n|npc infobox|debuffduration}}</th><!-- 
+					--><td>{{{duration2|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if: {{{debufftip2|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>{{l10n|npc infobox|debufftip}}</th><!-- 
+					--><td><i>{{{debufftip2|}}}</i></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if: {{{debuff3|}}}|<!--
+				--><tr class="buff"><!-- 
+					--><th>{{l10n|npc infobox|debuff}}</th><!-- 
+					--><td><!-- 
+						-->{{#vardefine:chance3|{{#if:{{{debuffchance3|}}}|{{{debuffchance3|}}} chance}}}}<!-- 
+						-->{{#ifeq:{{{debufflink3|}}}|no|<!-- 
+							-->{{item|{{{debuff3}}}|note2={{#var:chance3}}|link=}}<!-- 
+						-->|<!-- 
+							-->{{ifexists|{{{debuff3|}}}|{{item|{{{debuff3}}}|note2={{#var:chance3}}}}|{{item|{{{debuff3}}}|note2={{#var:chance3}}|link=}}}}<!-- 
+						-->}} <!-- 
+					--></td><!--  
+				--></tr><!--
+			-->}}<!--
+			-->{{#if:{{{duration3|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>{{l10n|npc infobox|debuffduration}}</th><!-- 
+					--><td>{{{duration3|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if: {{{debufftip3|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>{{l10n|npc infobox|debufftip}}</th><!-- 
+					--><td><i>{{{debufftip3|}}}</i></td><!--  
+				--></tr><!--
+			-->}}}}<!-- 
+			-->{{#if:{{{immune1|}}}{{{immuneall|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>{{l10n|npc infobox|immu}}</th><!-- 
+					--><td><!-- 
+						-->{{#vardefine:vulnerable|{{{immune1|}}}}}<!--
+						-->{{#if:{{{immuneall|}}}|<!--
+                                                        -->{{#ifeq:{{#var:vulnerable}}||<!--
+                                                                -->'''{{l10n|npc infobox|all}}'''<!--
+                                                        -->|<!--
+							        -->'''{{l10n|npc infobox|except}}:<br/>'''<!--
+                                                        -->}}<!--
+                                                -->}}<!--
+						-->{{#forargs: immune<!--
+							-->| immuNum<!--
+							-->| debuff<!--
+							-->| {{#ifeq:{{#var:immuNum}}|all||{{item|mode=image|{{#var:debuff}}}}}}<!--
+						-->}}<!--
+					--></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{vulnerable1|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>[[Element|Vulnerable to]]:</th><!-- 
+					--><td><!-- 
+						-->{{#vardefine:vulnerable|{{{vulnerable1|}}}}}<!--
+						-->{{#forargs: vulnerable<!--
+							-->| vulnNum<!--
+							-->| vulnerabilityele<!--
+							-->| {{#ifeq:{{#var:vulnNum}}|all||{{item|mode=image|{{#var:vulnerabilityele}} (element)}}}}<!--
+						-->}}<!--
+					--></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{resistant1|}}}|<!-- 
+				--><tr class="buff"><!-- 
+					--><th>[[Element|Resistant to]]:</th><!-- 
+					--><td><!-- 
+						-->{{#vardefine:resistant|{{{resistant1|}}}}}<!--
+						-->{{#forargs: resistant<!--
+							-->| resNum<!--
+							-->| resistantele<!--
+							-->| {{#ifeq:{{#var:resNum}}|all||{{item|mode=image|{{#var:resistantele}} (element)}}}}<!--
+						-->}}<!--
+					--></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#ifeq: {{{banner|}}}|yes|<!--
+				--><tr><!-- 
+					--><th>{{trl|Banner}}</th><!-- 
+					--><td>{{item|{{{bannername|{{#dplvar:_npc_infobox:name}} Banner}}}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if: {{{buy|}}}{{{sell|}}}|<!-- 
+				--><tr><!-- 
+					--><th>[[{{l10n|npc infobox|value}}|{{#if:{{{buy|}}}|{{l10n|npc infobox|buy}}}}{{#switch:|{{{buy|}}}|{{{sell|}}}=|&nbsp;/&nbsp;}}{{#if:{{{sell|}}}|{{l10n|npc infobox|sell}}}}]]</th><!-- 
+					--><td><!-- 
+						-->{{#if:{{{buy|}}}|{{{buy}}}}}<!--
+						-->{{#switch: |{{{buy|}}}|{{{sell|}}}=|&nbsp;/&nbsp;}}<!--
+						-->{{#if:{{{sell|}}}|{{{sell}}}}}<!-- 
+					--></td><!--  
+				--></tr><!--
+			-->}}<!-- 
+			-->{{#if:{{{tooltip|}}}|<!--
+				--><tr><!-- 
+					--><th>{{l10n|npc infobox|tooltip}}</th><!-- 
+					--><td>{{{tooltip|}}}</td><!--  
+				--></tr><!--
+			-->}}<!-- 
+		--></table><!--
+	--></div><!--  div.section.statistics
+	--><div class="section drops"><!--
+		-->{{#if:{{{money|}}}|<!-- 
+			--><div class="title">{{l10n|npc infobox|drops}}</div><!-- 
+			--><table class="drops money"><!-- 
+				--><tr><!-- 
+					--><th>{{trl|Drops|Coins}}</th><!-- 
+					--><td>{{{money|0 {{cc}}}}}</td><!--  
+				--></tr><!--
+			--></table><!-- 
+		-->}}<!-- 
+		-->{{#if:{{{1|}}}|<!-- 
+			--><ul class="drops items"><!--
+				--><li>{{l10n|npc infobox|items}}</li><!--
+				-->{{#dplvar:set|_npc_infobox:group|0}}<!--
+				//every 3 unnamed arguments form a group.
+				-->{{#dplvar:set<!-- 
+					-->|_npc_infobox:group_arg_1|<!-- 
+					-->|_npc_infobox:group_arg_2|<!-- 
+				-->}}<!--
+				-->{{#fornumargs:i|v|<!-- 
+					-->{{#switch:{{#expr:{{#var:i}} mod 3}}<!-- 
+					-->|1={{#dplvar:set|_npc_infobox:group_arg_1|{{#var:v}}}}<!-- 
+					-->|2={{#dplvar:set|_npc_infobox:group_arg_2|{{#var:v}}}}<!-- 
+					-->|0={{npc infobox/drop|{{#dplvar:_npc_infobox:group_arg_1}}|{{#dplvar:_npc_infobox:group_arg_2}}|{{#var:v}}}}<!-- 
+					-->}}<!-- 
+				-->}}<!--
+			--></ul><!-- 
+		-->}}<!-- 
+		-->{{#if:{{{hurt|}}}{{{killed|}}}{{{sound|}}}|<div class="title">Sounds</div><!--
+		        -->{{#if:{{{hurt|}}}|<!--
+		            --><div class="ib_sound"><!--
+			        -->{{#arraydefine:hurt|{{{hurt|}}}}}<!--
+			        -->{{#arrayslice:noTextHurt|hurt|1}}<!--
+			        -->{{sound|Hurt|{{#arrayindex:hurt|0}}}}<!--
+			        -->{{#arrayprint:noTextHurt||@@@@|{{sound||@@@@}}}}<br/><!--
+		            --></div><!--
+		        -->}}<!--
+		        -->{{#if:{{{killed|}}}|<!--
+		            --><div class="ib_sound"><!--
+			        -->{{#arraydefine:killed|{{{killed|}}}}}<!--
+			        -->{{#arrayslice:noTextKilled|killed|1}}<!--
+			        -->{{sound|Killed|{{#arrayindex:killed|0}}}}<!--
+			        -->{{#arrayprint:noTextKilled||@@@@|{{sound||@@@@}}}}<br/><!--
+		            --></div><!--
+		        -->}}<!--
+		        -->{{#forargs: sound<!--
+		            -->| soundNum<!--
+		            -->| soundText<!--
+		            -->| {{#if:{{{sound{{#var:soundNum}}text|}}}|<!--
+		                --><div class="ib_sound"><!--
+			            -->{{#arraydefine:sounds|{{#var:soundText}}}}<!--
+			            -->{{#arrayslice:noTextSounds|sounds|1}}<!--
+			            -->{{sound|{{{sound{{#var:soundNum}}text|}}}|{{#arrayindex:sounds|0}}}}<!--
+			            -->{{#arrayprint:noTextSounds||@@@@|{{sound||@@@@}}}}<br/><!--
+		                --></div><!-- 
+		            -->}}<!--
+		        -->}}<!--
+		-->}}<!--
+		-->{{#if:{{{image2|}}}|<!-- 
+			--><div class="image2"><!-- 
+				-->[[File:{{{image2|}}}|center|{{{image2}}}]]<!-- 
+				-->{{#if:{{{image2caption|}}}|<b><i>{{{image2caption|}}}</i></b>}}<!-- 
+			--></div><!-- 
+		-->}}<!--
+	  	-->{{#if:{{{image3|}}}|<!-- 
+			--><div class="image2"><!-- 
+				-->[[File:{{{image3|}}}|center|{{{image3}}}]]<!-- 
+				-->{{#if:{{{image3caption|}}}|<b><i>{{{image3caption|}}}</i></b>}}<!-- 
+			--></div><!-- 
+		-->}}<!-- 
+	--></div><!--  div.section.drops
+--></div><!--END div.infobox
+	-->{{#if:{{NAMESPACE}}||<!--
+		-->{{#if:{{{type|}}}|<!-- 
+			-->{{#ifeq:{{{type|}}}|Background object|<!-- 
+				-->[[Category:Background object items]]<!-- 
+			-->|<!-- 
+				-->[[Category:{{{type}}} NPCs{{!}}{{PAGENAME}}]]<!-- 
+			-->}}<!-- 
+		-->}}<!--
+		-->{{#if:{{{type2|}}}|[[Category:{{{type2}}} NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{type3|}}}|[[Category:{{{type3}}} NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{environment|}}}|[[Category:{{{environment}}} NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{environment2|}}}|[[Category:{{{environment2}}} NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{resistant1|}}}|[[Category:{{{resistant1}}} resistant NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{resistant2|}}}|[[Category:{{{resistant2}}} resistant NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{resistant3|}}}|[[Category:{{{resistant3}}} resistant NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{resistant4|}}}|[[Category:{{{resistant4}}} resistant NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{resistant5|}}}|[[Category:{{{resistant5}}} resistant NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{resistant6|}}}|[[Category:{{{resistant6}}} resistant NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{resistant7|}}}|[[Category:{{{resistant7}}} resistant NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{resistant8|}}}|[[Category:{{{resistant8}}} resistant NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{resistant9|}}}|[[Category:{{{resistant9}}} resistant NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{vulnerable1|}}}|[[Category:{{{vulnerable1}}} vulnerable NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{vulnerable2|}}}|[[Category:{{{vulnerable2}}} vulnerable NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{vulnerable3|}}}|[[Category:{{{vulnerable3}}} vulnerable NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{vulnerable4|}}}|[[Category:{{{vulnerable4}}} vulnerable NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{vulnerable5|}}}|[[Category:{{{vulnerable5}}} vulnerable NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{vulnerable6|}}}|[[Category:{{{vulnerable6}}} vulnerable NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{vulnerable7|}}}|[[Category:{{{vulnerable7}}} vulnerable NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{vulnerable8|}}}|[[Category:{{{vulnerable8}}} vulnerable NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{vulnerable9|}}}|[[Category:{{{vulnerable9}}} vulnerable NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{ai|}}}|[[Category:{{{ai}}} NPCs{{!}}{{PAGENAME}}]]}}<!--
+		-->{{#if:{{{listcat|}}}|[[Category:{{{listcat}}} NPCs]]}}<!--
+		-->{{#if:{{{listcat2|}}}|[[Category:{{{listcat2}}} NPCs]]}}<!--
+		-->{{#if:{{{hardmode|}}}|[[Category:Hardmode-only NPCs]]}}<!--
+		-->{{#if:{{{postml|}}}|[[Category:Godseeker Mode only NPCs]]}}<!--
+		-->{{#if:{{{epilogue|}}}|[[Category:Epilogue only NPCs]]}}<!--
+	-->}}<!--
+--></includeonly><!--
+
+--><noinclude><!--
+-->{{doc}}{{i18n-ready}}<!--
+--></noinclude>

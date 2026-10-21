@@ -1,0 +1,45 @@
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| type2 = Crafting material
+| damage = 140
+| damagetype = Ranged
+| knockback = 5.5
+| use = 9
+| velocity = 24
+| tooltip = Converts musket balls into strings of 3 {{sic}} bloody tears that drain enemy health
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffduration = 3 seconds
+| debuffchance = 100%
+| proj = Claret Tear.png
+| projcaption = Claret Tear
+| element1 = Unholy
+| element2 = Dark
+}}
+
+The '''Claret Cannon''' is a craftable Godseeker Mode [[gun]] that shoots bullets in bursts of 3. If [[Musket Ball]]s are used as [[ammo]], bullets are converted into bloody tears that have a 50% chance to [[Lifesteal|heal]] the player for 1 HP on a successful hit, making it a good weapon to heal health quickly with against hordes of enemies or large bosses. Each bullet has a use time of 3.
+
+{{Modifier|ranged}} However, '''Rapid''' may be preferred for faster healing.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The word "claret" can refer to a color of deep red or a variety of French wine. It is also an informal term for blood.
+
+{{Bloodstone}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category: Guns]]
+[[Category:Healing items]]

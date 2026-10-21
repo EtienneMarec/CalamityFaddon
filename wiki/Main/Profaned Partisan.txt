@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 322
+| critical = 19%
+| knockback = 8
+| stack = 1
+| rare = 12
+| sell = {{value|0|24}}
+| use = 17
+| tooltip = Fires an unholy spear that explodes on death<br/>Stealth strikes spawn smaller spears to fly along side it
+| velocity = 6
+| auto = yes
+| hardmode = yes
+| postml = yes
+| debuff = Holy Flames
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Dissolving from holy light
+| proj = Profaned Spear.png
+| projcaption = Profaned Spear
+| element1 = Holy
+| element2 = Stab
+}}
+
+The '''Profaned Partisan''' is a craftable Godseeker Mode [[javelin]] that is an upgrade to [[Crystal Piercer]]s. It automatically fires unholy spears that leave cosmetic yellow trails. The spears explode upon contact with a block or after piercing 5 enemies. All projectiles inflict the [[Holy Flames]] [[debuff]].
+
+Performing a [[stealth strike]] with the Profaned Partisan will cause the next spear thrown to periodically spawn small Profaned Spears that fly alongside the main spear. Profaned Spears bounce and home onto enemies after colliding with a block.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Javelins]]

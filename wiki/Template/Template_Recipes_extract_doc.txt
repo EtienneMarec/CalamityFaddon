@@ -1,0 +1,100 @@
+Use this template to extract info from certain crafting recipe(s).
+
+== Usage ==
+This template is designed for extracting info from recipe(s) for "single result item"(however can be multiple recipes), so you need to use query constraint paramters (<code>result</code>, <code>ingredient</code> ...) to query "single" result. See {{tl|recipes}} for details of all query constraint paramters.
+
+If query result is more than one row, this template will only return first row for <code>mode=station</code> or <code>mode=result</code>, and all rows for <code>mode=compact</code> or <code>mode=ingredients</code> .
+
+then, use following parameters for output format:
+
+; mode = compact/result/ingredients/station/stationraw
+Output mode. If not specified, it will be <code>compact</code> by default. See examples below. NOTE: for '''ingredients-buy/ingredients-sell''', you should make sure there is only 1 result recipe and no alternative crafting ingredient in ingredients list. For '''ingredients-buy''', you should make sure all ingredients are actually buyable.
+
+; sep or seperator
+Separator between multiple ingredients lists. Only valid when <code>mode=compact</code> or <code>mode=ingredients</code>. Default is <code><nowiki><br/>'''or'''<br/></nowiki></code> for <code>mode=compact</code> or <code><nowiki><br/>'''or'''<br/></nowiki></code> for <code>mode=ingredients</code>. 
+'''Note:''' single ingredients list will be wrapped in &lt;div&gt; when <code>|mode=ingredients</code> and in &lt;span&gt; when <code>|mode=compact</code>.
+
+; withresult and nostation and noversion
+Only valid when <code>mode=compact</code>. By default, it will output as [version]: [ingredients]@[station], if <code>withresult=y</code>, will output as [ingredients]@[station]=[result], if <code>nostation=y</code>, there wil be no @[station], if <code>noversion=y</code>, there will be no [version]:.
+
+; showresultid=y and link=no
+Only valid when <code>mode=result</code>. result item will show their internal item ID (if available), and/or have no link, respectively.
+
+== Examples ==
+{| class="terraria lined"
+|-
+! Code !! Result
+|-
+| <code><nowiki>{{recipes/extract|result=Auric Bar}}</nowiki></code> 
+| {{recipes/extract|result=Auric Bar}}
+|-
+| <code><nowiki>{{recipes/extract|result=Auric Bar|withresult=y}}</nowiki></code> 
+| {{recipes/extract|result=Auric Bar|withresult=y}}
+|-
+| <code><nowiki>{{recipes/extract|result=Auric Bar|nostation=y}}</nowiki></code> 
+| {{recipes/extract|result=Auric Bar|nostation=y}}
+|-
+| <code><nowiki>{{recipes/extract|result=Auric Bar|withresult=y|nostation=y}}</nowiki></code> 
+| {{recipes/extract|result=Auric Bar|withresult=y|nostation=y}}
+|-
+| <code><nowiki>{{recipes/extract|result=Auric Bar|mode=result}}</nowiki></code> 
+| {{recipes/extract|result=Auric Bar|mode=result}}
+|-
+| <code><nowiki>{{recipes/extract|result=Auric Bar|mode=ingredients}}</nowiki></code> 
+| {{recipes/extract|result=Auric Bar|mode=ingredients}}
+|-
+| <code><nowiki>{{recipes/extract|result=Auric Bar|mode=station}}</nowiki></code> 
+| {{recipes/extract|result=Auric Bar|mode=station}}
+|-
+| <code><nowiki>{{recipes/extract|result=Auric Bar|mode=stationraw}}</nowiki></code> 
+| {{recipes/extract|result=Auric Bar|mode=stationraw}}
+|-
+| <code><nowiki>{{recipes/extract|result=Anechoic Coating|sep=<br/>}}</nowiki></code> 
+| {{recipes/extract|result=Anechoic Coating|sep=<br/>}}
+|-
+|}
+
+=== Multiple recipes ===
+'''Note:''' single ingredients list will be wrapped in &lt;div&gt; when <code>|mode=ingredients</code> and in &lt;span&gt; when <code>|mode=compact</code>.
+{| class="terraria lined"
+|-
+! width=70% | Code
+! Result
+|-
+| <code><nowiki>{{recipes/extract|result=Cooked Fish}}</nowiki></code> 
+| {{recipes/extract|result=Cooked Fish}}
+|-
+| <code><nowiki>{{recipes/extract|result=Cooked Fish|withresult=y}}</nowiki></code> 
+| {{recipes/extract|result=Cooked Fish|withresult=y}}
+|-
+| <code><nowiki>{{recipes/extract|result=Cooked Fish|mode=result}}</nowiki></code> 
+| {{recipes/extract|result=Cooked Fish|mode=result}}
+|-
+| <code><nowiki>{{recipes/extract|result=Cooked Fish|mode=ingredients}}</nowiki></code> 
+| {{recipes/extract|result=Cooked Fish|mode=ingredients}}
+|-
+| <code><nowiki>{{recipes/extract|result=Cooked Fish|mode=station}}</nowiki></code> 
+| {{recipes/extract|result=Cooked Fish|mode=station}}
+|-
+| <code><nowiki>{{recipes/extract|result=Cooked Fish|mode=ingredients|sep=--or--}}</nowiki></code> 
+| {{recipes/extract|result=Cooked Fish|mode=ingredients|sep=--or--}}
+|-
+| <code><nowiki>{{recipes/extract|result=Cooked Fish|nostation=y|sep=&amp;#32;/&amp;#32;}}</nowiki></code> 
+| {{recipes/extract|result=Cooked Fish|nostation=y|sep=&#32;/&#32;}}
+|-
+| <pre><table class="terraria lined"><tr><td rowspan="4" style="border:0">{{recipes/extract|result=Cooked Fish|mode=result}}</td>
+<td>{{recipes/extract|result=Cooked Fish|withresult=y|sep=</td></tr><tr><td>}}</td></tr></table></pre> 
+| <table class="terraria lined"><tr><td rowspan="4" style="border:0">{{recipes/extract|result=Cooked Fish|mode=result}}</td>
+<td>{{recipes/extract|result=Cooked Fish|withresult=y|sep=</td></tr><tr><td>}}</td></tr></table>
+|}
+
+<includeonly>
+[[Category:Recipes templates| ]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>
+
+[[Category:Templates]]
+
+[[Category:Templates]]

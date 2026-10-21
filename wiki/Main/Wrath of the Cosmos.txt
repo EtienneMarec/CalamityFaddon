@@ -1,0 +1,18 @@
+{{Addon|Calamity: Community Remix}}
+''Not to be confused with [[Rage of the Cosmos]], a permanent powerup that boosts the duration of Rage Mode.''{{Item infobox|name=Wrath of the Cosmos|type=Weapon|stack=1|rare=14|damage=220|damagetype=Magic|knockback=6|mana=40|use=34|velocity=12|tooltip=Summons a galactic pulse at the cursor that periodically summon two rings of homing god slayer fireballs and occasionally two cosmic guardians|sell={{value|0|28}}|proj=Galactic Pulse.gif|proj2=Galactic Fireball.gif|sound=Item_12.wav|hardmode=yes|postml=yes|projcaption=Galactic Pulse|proj2caption=God Slayer Fireball|proj3caption=Cosmic Guardian|proj3=Galactic Guardian.png|soundtext=Use|sound2=Item_20.wav|sound2text=God Slayer Fireball|sound3=ProvidenceHolyBlastImpact.wav|sound3text=God Slayer Fireball Impact|sound4=OtherworldlyHit.wav|sound4text=Cosmic Guardian|debuff=God Slayer Inferno|debuffchance=100%|debuffduration=2 seconds (God Slayer Fireball)<br/>3 seconds (Cosmic Guardian)|auto=yes|element1=Fire|element2=Magic}}
+
+The '''Wrath of the Cosmos''' is a craftable Godseeker Mode [[Spell tomes|spell tome]] that is an upgraded version of the [[Wrath of the Eldritch]]. When used, it casts a galactic pulse at the mouse cursor, which fires 2 rings of 24 homing god slayer fireballs that inflict [[God Slayer Inferno]] on intervals for a significant amount of time.
+
+The galactic pulse will fire two Cosmic Guardians that charge towards the closest enemy every seven rounds of homing fireball rings that deal 50% of the weapon's base damage, but ignore immunity frames.
+
+Its best [[Modifiers|modifier]] is '''Mythical'''.
+
+== Crafting ==
+
+=== Recipe ===
+{{Recipes|result={{PAGENAME}}|view=infobox}}
+
+=== Used in ===
+{{Recipes|view=infobox|ingredient={{PAGENAME}}}}{{Master Template Weapons|show-main=yes|show-magic=yes}}
+
+[[Category:Spell tomes]]

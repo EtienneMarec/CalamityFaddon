@@ -1,0 +1,44 @@
+{{npc infobox
+| type = Enemy
+| type2 = Aquatic
+| environment = Sunken Sea
+| ai = Clam AI
+| damage = {{element|Water}} {{dv|30|boost=0.2}} (in [[Pre-Hardmode]])<br/>{{element|Water}} {{dv|60|boost=0.2}} (in [[Hardmode]])
+| life = {{dv|150|300}} (in [[Pre-Hardmode]])<br/>{{dv|300|600}} (in [[Hardmode]])
+| defense = 9999 (when passive)<br/>6 (when aggressive in [[Pre-Hardmode]])<br/>15 (when aggressive in [[Hardmode]])<br/>
+| dr = 25%
+| knockback = {{dv|95%|95.5%}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Eutrophication
+| banner = yes
+| Navystone|8-12|100%
+| custom| {{item|Mollusk Husk|note=([[Hardmode]]-only)|wrap=y}} | 50%
+| custom| {{item|Clam Chowder|note=([[Hardmode]]-only)|wrap=y}} | 10%
+| Ghast Relic|1|5%
+| hurt = NPC_Hit_4.wav
+| vulnerable1 = Poison
+| vulnerable2 = Stab
+| vulnerable3 = Machine
+| resistant1 = Water
+| resistant2 = Cold
+| resistant3 = Slash
+}}
+
+'''Clams''' are [[Pre-Hardmode]] [[enemies]] that spawn in the [[Sunken Sea]] [[biome]]. They are initially passive, but become hostile after taking damage three times. While hostile, they chase the player by making short leaps towards them. 
+
+If the [[Giant Clam]] is hostile, the spawn rate of Clams is drastically increased via the [[Clamity]] [[debuff]], which causes them to become instantly aggressive as well. The Giant Clam also occasionally spawns groups of Clams while hostile.
+
+Once the world enters [[Hardmode]], Clams receive a boost to their stats.
+
+== Notes ==
+*Clams do not deal contact damage while they are passive.
+*[[Minions]] will not target passive Clams unless they have been hit by another weapon.
+*Damage taken from [[debuffs]] does not count as damage taken towards making them hostile.
+*If a Clam is outside of water (either led outside of water or summoned by the Giant Clam outside of water), it will move faster.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

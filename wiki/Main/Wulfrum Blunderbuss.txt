@@ -1,0 +1,28 @@
+{{infobox wrapper|
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 8
+| use = 55
+| knockback = 2.25
+| velocity = 15
+| extraupdates = 4
+| tooltip = Consumes wulfrum scrap or silver coins to fire<br/>The shot's spread can be diminished by aiming further away, at the cost of less damage<br/>Ignores 3 points of enemy Defense<br/>{{color|"The good thing about Wulfrum is that while it breaks fast, it can be reused even faster"|#83B87E}}<br/>{{color|"In fact, it is quite common for a robot to be turned into ammo right after it stops functioning"|#83B87E}}
+| stack = 1
+| research = 1
+| rare = 1
+| sell = {{value|0|0|20}}
+| element1 = Stab
+| element2 = Machine
+}}
+|{{item drops infobox
+|[[The Inventors]] |1|{{dv|25%|33%}}
+|[[Wulfrum Excavator]] {{fantag|Calamity: Community Remix}}|1|{{dv|25%|33%}}
+}}
+}}The '''Wulfrum Blunderbuss''' is a [[pre-Hardmode]] [[ranged weapon]] dropped by [[The Inventors]] and the [[Wulfrum Excavator]] {{fantag|Calamity: Community Remix}}. It uses [[Wulfrum Metal Scrap]]s or [[Silver Coin]]s as [[ammunition]] and fires a spread of six scrap bullets. The farther the cursor is from the gun, the tighter the spread but the lower its damage. This linearly scales up to a maximum of 28.75 or more tiles away, in which the spread decreases by 66.67% but damage also decreases by 20%. The player is required to reload and consume ammo after every 30 shots. All bullets have a default armor penetration of 3.
+
+{{Modifier|ranged}}{{Wulfrum}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

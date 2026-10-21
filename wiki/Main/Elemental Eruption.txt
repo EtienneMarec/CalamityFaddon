@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 77
+| use = 14
+| knockback = 3.5
+| auto = yes
+| stack = 1
+| tooltip = 90% chance to not consume gel<br/>Fires a spread of rainbow flames
+| rare = 11
+| velocity = 10
+| sell = {{value|0|22}}
+| hardmode = yes
+| postml = yes
+| image2 = Elemental Eruption (tank).png
+| image2caption = Equipped tank
+| debuff = Elemental Mix
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| element1 = Magic
+| element2 = Fire
+}}
+The '''Elemental Eruption''' is a craftable Godseeker Mode [[flamethrowers|flamethrower]] that fires clusters of rainbow flames, which inflict numerous [[debuffs]] onto [[enemies]]. The flames can pierce one enemy, and as with all flamethrowers of its type, it auto-fires.
+
+
+On enemies, these combined debuffs cause the target to be unable to regenerate health, and lose 18 health per second for 5 seconds. In [[Revengeance Mode|Revengeance]] and [[Death Mode]], they also have 20% reduced damage reduction. Additionally, for the first 2 seconds, it will lose an extra 88 health per second and have their defense reduced by 4.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Elemental}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

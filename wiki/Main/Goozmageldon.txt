@@ -1,0 +1,107 @@
+{{npc infobox
+| type = Boss
+| environment = Astral Infection
+| ai = Goozma AI, Astrageldon AI, Goozmageldon AI
+| damage = '''Melee:'''<br/>{{dv|561-2,830|646-3,120||784-3,555}}<br/>'''Goobal:'''<br/>{{dv|1,013|1,454||2,026}}
+| life = {{dv|4,000,500|4,050,000|5,000,000}}
+| defense = 403
+| knockback = 96
+| money = {{value|69|0|0|420}}
+| Stardust|12=100%|13=Goozmageldon Mask|14=1|15=14.29%|16=Goozmageldon Trophy|17=1|18=10%|19=custom|20={{item|Goozmageldon (Lore)|note=(Always on first kill)|wrap=y}}|21=100%|22=custom|24={{expert|100%}}| hardmode = yes
+| image2 = Astrageldon map.png
+| image2caption = Map Icon
+| listexclude = yes
+| boxwidth = 25em
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = Item_33.wav
+| soundtext = Fireball
+| sound2 = Item_109.wav
+| sound2text = Teleport
+}}
+[[File:Astrageldon Trophy.png]] <big>''"THIS PAGE IS STILL BEING EDITED DO NOT DELETE IT PLEASE"''</big> [[File:Astrageldon Trophy.png]]
+
+'''Goozmageldon''' (Japanese:グーズマゲドン) is a Godseeker Mode[[boss]] that can only be fought after [[Goozma]] and [[Astrageldon Slime|Astrageldon]] have been defeated.
+
+==Spawn==
+Goozmageldon is summoned by placing a Gooroc in the [[Astral Infection]]. Once the Gooroc is placed, a unique spawning animation will play, featuring [[Goozma]] and [[Astrageldon Slime|Astrageldon]] fusing into one. Goozmageldon will then jump up into the sky and fall onto the player, dealing 5,000 damage on contact. Goozmageldon can only be summoned after [[Goozma]] and [[Astrageldon Slime|Astrageldon]] have been defeated prior.
+
+==Behavior==
+Goozmageldon's behavior is a mix between [[Goozma]] and [[Astrageldon Slime|Astrageldon]], with separate unique attacks. Goozmageldon will cycle between 12 different attacks, four different ones each phase. Goozmageldon is able to fly, bounce, and teleport to catch up to the player. Some of Goozmageldon's attacks also involve using Goobals and Gooboms.
+
+==Phases==
+Goozmageldon has 3 distinct phases in which different attacks are used.
+
+===Phase One Attacks===
+*Periodically teleports into the air above the player in an attempt to crush them.
+*Shoots out telegraphed laser beams in random directions.
+*Fires eight Goobals of varying speeds in a symmetrical, ball-like shape.
+*Fires three consecutive Gooboms at the player.
+
+===Phase Two Attacks===
+*Shoot Goobals directly at the player.
+*Summons five Goobals around itself.
+*Bounces around the area, leaving Gooboms where it lands.
+*Teleports around the player, attempting to bump into them.
+
+===Phase Three Attacks===
+*Spawns Goobals whenever it takes damage.
+*Summons five larger Goobals around itself.
+*Dashes at the player, leaving trails of Gooboms.
+*Fires telegraphed laser beams directly at the player,
+===In [[Revengeance Mode]]===
+*Health is increased from 4,050,000 to 5,000,000.
+*Melee damage is increased to 784-3,555 to 872-4,021.
+*Goobal damage is increased to 2,026 to 2,890.
+*Gains a 14% damage reduction.
+
+=== In [[Death Mode]]===
+*Health is increased from 5,000,000 to 5,355,061.
+*Melee damage is increased from 872-4,021 to 931-5,054.
+*Goobal damage is increased from 2,890 to 3,103.
+*Damage reduction is increased to 22%,
+
+===Summons ===
+{| class="terraria"
+! Image!!
+|-
+| align="center" | ||Goobal
+|-
+|
+|Goobom
+|}
+
+== Notes== 
+*While Goozmageldon was alive, the following events are disabled:
+**Rain
+**Slime Rain
+**Acid Rain
+**Parties
+**Sandstorms
+**Goblin Armies
+**Pirate Invasions
+**Martian Madness
+**Pumpkin Moons
+**Frost Moons
+**Frost Legions
+
+==Aftermath== 
+*Goozmageldon plays a unique defeat animation where [[Goozma]] and [[Astrageldon Slime|Astrageldon]] separate and fly upwards.
+
+==Tips ==
+*Due to the use of Interstellar Corruption in the fight, the [https://terraria.fandom.com/wiki/Rod_of_Discord| Rod of Discord] should not be relied on as the debuff would instantly kill players inflicted by it, unless the player could avoid the Nova Slimers and the bordering arena.
+*The Astral Communicator becomes unusable after defeating the Moon Lord, meaning players shouldn't wait to fight the boss with stronger gear as it would become inaccessible.
+* Running away from the waves of Nova Slimes was more advisable than attempting to kill all of them as they could become overwhelming to kill while also avoiding the boss.
+*Baiting Astrageldon into dashing across the border of the arena then flying to the opposite side during its grid mine attack could be a useful alternate strategy as it left most of the mines unable to hit the player, though this method was not reliable and the player should be prepared to wedge into a safe spot if an unlucky pattern occurred.
+
+== Trivia==
+*Goozmageldon's [[Music|theme]] is a mashup of [https://www.youtube.com/watch?v=ibFdltiLuKM '''Cosmic Disgust'''] and '''[https://www.youtube.com/watch?v=UEm14JrZEyU Mucilaginous Monstrosity]''' respectively.
+**If the Calamity Music add-on mod was disabled, Boss 4 would play instead.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] was installed, its unique despawn message would be "The gods of slime part ways once more"
+{{Historical}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}
+
+[[es:Astrageldon]]

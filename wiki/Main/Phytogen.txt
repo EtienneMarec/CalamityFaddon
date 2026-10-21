@@ -1,0 +1,84 @@
+<section begin="npc" infobox="" />{{npc infobox
+| name = Phytogen
+| type = Boss
+| imagealt = [[File:Phytogen.png]]
+| ai = Phytogen AI
+| environment = Underground Jungle
+| life = {{dv|50,000|60,000|65,600}}
+| damage = {{dv|100|120|140|160}} (Contact)<br/>{{dv|50|80|90|180}} (Vines) <br/>{{dv|200|400|600|800}} (Shield)<br/>{{dv|30|60|90|120}} (Bees)
+| defense = 24
+| dr = Dynamic
+| knockback = 200
+| money = {{gc|20}}
+| Obsidian|{{dv|4-8|5-9}}| 100%
+| Soul of Phytogen|1|100%
+| Phytogen Mask|1|14.29%
+| Phytogen Trophy|1|10%
+| custom| {{item|Phytogen (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| debuff = Poisoned
+| debuffchance = 100%
+| duration = 20 seconds
+| debufftip = Slowly losing life
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune4 = Exo Freeze
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Magic
+| vulnerable4 = Machine
+| resistant1 = Water
+| resistant2 = Unholy
+| hardmode = yes
+| boxwidth = 24em
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_15.wav
+| sound = Item_28.wav
+| soundtext = Projectiles
+}}<section end="npc" infobox="" />
+
+'''Phytogen''' (Japanese: フィトジェン ''Fitojen'') is a [[Hardmode]] [[boss]] that is fought in the [[Underground Jungle]], and part of the [[Elemental route]]. It is also fought during [[Genesis (event)|Genesis]].
+
+Defeating Phytogen will drop the [[Soul of Phytogen]], which must be sold to the [[Archmage]] to continue the quest.
+
+==Spawn==
+Phytogen can be summoned manually and early by shaking [[tree]]s in the Underground Jungle, but can also spawn naturally when there are at least 3 [[Plague]]-themed enemies on screen. Phytogen will target these enemies and remain neutral towards the player, until it takes damage.
+
+==Behavior==
+Phytogen has 5 main phases similar to [[Cryogen]]. Leaving the [[Underground Jungle]] and moving to the surface will enrage Phytogen while it is mobile, however every 20 seconds a special interaction has a 0.1% chance of occurring where [[Jungle Dragon, Yharon]] will swoop down and eat Phytogen, ending the fight instantly.
+
+===Attacks===
+====1st Phase====
+*Phytogen roots itself using vine arms which clutch on to the nearest blocks. These roots must be targeted to deal damage to Phytogen and also have their own contact damage.
+*Petals will revolve around Phytogen, filling the area with an aromatic mist. This mist serves as a visual indicator of [[Jungle]] enemy spawn rates increasing heavily.
+*Sap blobs will be fired at the player, inflicting [[Oozed]] for 5 seconds as well as [[Poisoned]].
+
+====2nd Phase====
+*Phytogen is freed and starts pursuing the player. The shield also forms completely around Phytogen, which must be defeated to damage Phytogen directly.
+*While the shield is being attacked, bug-themed enemies such as [[Derpling]]s as well as [[Jungle Bat]]s will spawn.
+*Directly attacking the core itself will have Phytogen fire more of the aforementioned Sap blobs.
+
+====3rd Phase====
+*Phytogen's shield is thinner, allowing it to burrow through the ground and gain movement similar to [[Giant Worm]]s. This movement only occurs while Phytogen is burrowed.
+
+====4th Phase====
+*The shield reassembles around the player and Phytogen this time, forming a small arena. It maintains the same effects from previous phases.
+*Phytogen permanently burrows and attempts to heal health, all while enveloping itself in bees. If it heals enough, it will revert to a previous phase.
+
+===In [[Expert Mode]]===
+*Attacks now inflict [[Venom]] and [[Armor Crunch]].
+
+===In [[Revengeance Mode]]===
+*Phytogen and its projectiles are slightly faster.
+*Phytogen's shield will now aggressively ram the player during downtime after 25% health.
+*Phytogen and its projectiles are even more aggressive and faster.
+
+===In [[Death Mode]]===
+*Now teleports.
+
+==Trivia ==
+*Phytogen's [[Music|theme]] is '''Botanic Reinforcement''', which was composed by the artist [https://www.youtube.com/@Jteoh Jteoh].
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

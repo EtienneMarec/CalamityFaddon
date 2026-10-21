@@ -1,0 +1,37 @@
+{{item infobox
+| auto = yes
+| type = Weapon
+| damagetype = Melee
+| damage = 26
+| use = 21
+| knockback = 5.25
+| velocity = 5
+| stack = 1
+| rare = 1
+| sell = {{value|0|0|20}}
+| proj = Marnite Spear Spear.png
+| projcaption = Marnite Spear
+| element1 = Stab
+}}
+
+The '''Marnite Spear''' is a craftable [[Pre-Hardmode]] [[spear]] that autoswings.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*Marnite is a portmanteau of the words marble and granite, which is what the weapon is made of.
+
+== See also ==
+*The [[Marnite Bayonet]], a pre-boss gun.
+*The [[Marnite Obliterator]], a pre-boss drill/axe combo tool.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Spears]]
+[[Category:True melee]]

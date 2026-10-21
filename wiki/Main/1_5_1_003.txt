@@ -1,0 +1,221 @@
+{{Patch infobox
+| image = Wulfrum Slime Banner.png
+| patchname = 2022 Spring Cleaning Update
+| pair = 1.5.1.001 (music)
+| release = 3/26/2022 <!-- Fab it's like 1 am why do you do this to me - Merkalto -->
+}}
+
+The '''1.5.1.003''' (or '''1.5.1.3''') update made several quality of life changes to [[Bosses]] and fixed several issues added by previous updates.
+{{toc limit|3|}}
+== Changes ==
+=== Bosses ===
+*Boss HP bars now glow gray if they are affected by a temporary defense or damage reduction increase.
+*Increased the default amount of [[Coins]] dropped by all bosses except the Adult Eidolon Wyrm, Eater of Worlds, and the [[Brain of Cthulhu]]. A complete list can be found below:
+{{collapse top|Boss Coin Drop changes (Click to Open)|(Click to Collapse)}}
+*King Slime now drops {{gc|5}}
+*Desert Scourge now drops {{gc|5}}
+*Eye of Cthulhu now drops {{gc|10}}
+*Crabulon now drops {{gc|10}}
+*Hive Mind now drops {{gc|15}}
+*The Perforators now drop {{gc|15}}
+*Queen Bee now drops {{gc|15}}
+*Skeletron now drops {{gc|20}}
+*The Slime God now drops {{gc|25}}
+*Wall of Flesh now drops {{gc|25}}
+*Cryogen now drops {{gc|40}}
+*The Destroyer now drops {{gc|40}}
+*Aquatic Scourge now drops {{gc|40}}
+*The Twins now drop {{gc|40}} <!-- May actually be 80, please test in game! - Merkalto -->
+*Brimstone Elemental now drops {{gc|40}}
+*Skeletron Prime now drops {{gc|40}}
+*Calamitas now drops {{gc|50}}
+*Plantera now drops {{gc|50}}
+*Leviathan and Anahita now drop {{gc|60}}
+*Astrum Aureus now drops {{gc|60}}
+*Golem now drops {{gc|60}}
+*Plaguebringer Goliath now drops {{gc|75}}
+*Duke Fishron now drops {{gc|75}}
+*Ravager now drops {{gc|75}}
+*Lunatic Cultist now drops {{pc|1}}
+*Astrum Deus now drops {{pc|1}}
+*Moon Lord now drops {{value|1|50}}
+*Profaned Guardians now drop {{pc|1}}
+*The Dragonfolly now drops {{value|1|25}}
+*Providence, the Profaned Goddess now drops {{pc|3}}
+*Storm Weaver now drops {{pc|2}}
+*Ceaseless Void now drops {{pc|2}}
+*Signus, Envoy of the Devourer now drops {{pc|2}}
+*Polterghast now drops {{value|3|50}}
+*The Old Duke now drops {{pc|4}}
+*The Devourer of Gods now drops {{pc|6}}
+*Jungle Dragon, Yharon now drops {{pc|10}}
+*Each Exo Mech now drops {{pc|15}}, for a total of {{pc|45}} <!-- Please farm the Exo Mechs for money haha yes - Merkalto -->
+*Supreme Calamitas now drops {{pc|30}}
+*Bosses during the Boss Rush event still drop no coins on death.
+{{collapse bottom}}
+
+==== [[Adult Eidolon Wyrm]] ====
+*Buffed health from {{dv|2,012,500|3,220,000|3,864,000}} to {{dv|2,415,000|3,864,000|4,636,800}}.
+*No longer gains 90% damage reduction while outside layer 4 of the Abyss.
+*Can now be damaged while invisible.
+
+==== [[Astrum Aureus]] ====
+*Buffed health from {{dv|89,200|107,000|171,200}} to {{dv|98,000|117,600|188,160}}.
+*Nerfed post-Moon Lord health from {{dv|243,750|390,000|468,000}} to {{dv|196,000|313,600|376,320}}
+*Can now be damaged while it is teleporting.
+*Increased walking animation frames-per-second by 50%.
+
+==== [[Brain of Cthulhu]] ====
+*Enters phases faster in [[Revengeance Mode]].
+*Charges faster in [[Death Mode]].
+*[[Creeper]]s now spread out more in Death Mode.
+
+==== [[Ceaseless Void]] ====
+*Now has a circular hitbox.
+
+==== [[Calamitas]] ====
+*Now becomes invulnerable while any of her brothers are alive on all world difficulties.
+
+==== [[The Destroyer]] ====
+*Probes are no longer invulnerable for 2 seconds after spawning.
+
+==== [[The Dragonfolly]] ====
+*Buffed health from {{dv|158,500|253,600|304,000}} to {{dv|190,200|304,320|365,184}}.
+*No longer becomes invulnerable while transitioning between phases, and instead gains 45% damage reduction. <!-- From 10% to 55%. -->
+*No longer has bonus damage reduction while enraged.
+
+==== [[Duke Fishron]] ====
+*Buffed health to {{dv|105,625|126,750|177,450}}.
+*No longer becomes invulnerable when transitioning between phases, and instead gains 47.5% damage reduction. <!-- From 15% to 62.5%. -->
+
+==== [[Eater of Worlds]] ====
+*Every other body segment, and the head segments are now immune to all debuffs in Death Mode.
+*Head and tail segments no longer have increased defense and DR in [[Malice Mode]].
+**Instead, head segments and every other body segment has 50% DR and 2x defense in Death Mode.
+**This has the effect of causing the Eater of Worlds to split more often in Death Mode.
+*Decreased its total number of segments in Death Mode from 82 to 67.
+
+==== [[The Hive Mind]] ====
+*Buffed health from {{dv|7800|12,480|14,976}} to {{dv|8500|13,600|16,320}}.
+*No longer gains additional damage reduction while any [[Dank Creeper]]s are alive.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Buffed health from {{dv|1,085,000|1,736,000|2,080,000}} to {{dv|1,302,000|2,083,200|2,499,840}}.
+*No longer becomes invulnerable while transitioning between phases, and instead gains 39% damage reduction. <!-- From 22% to 61%. -->
+*Stray fireballs that spawn during bullet hells are now 50% less predictive on all world difficulties.
+
+==== [[The Old Duke]] ====
+*Buffed health from {{dv|412,500|660,000|792,000}} to {{dv|495,000|792,000|950,400}}.
+*No longer becomes invulnerable while transitioning between phases, and instead gains 25% damage reduction. <!-- From 50% to 75%. -->
+
+==== [[The Perforators]] ====
+*Buffed Perforator Hive health from {{dv|4500|7200|8640}} to {{dv|5000|8000|9600}}.
+*Perforator Hive is no longer invulnerable while the Large Perforator is alive.
+*Perforator Worms now spawn at 75%, 50%, and 25% health respectively instead of 70%, 40%, and 10% on all world difficulties.
+
+==== [[Plantera]] ====
+*Can now photosynthesize for 1% HP/s at night time while enraged on the surface in Revengeance Mode or above.
+*No longer gains 99.99% damage reduction at night time while enraged on the surface.
+*Decreased regeneration rate from day time photosynthesis from 4% HP/s to 2% HP/s.
+
+==== [[Profaned Guardians]] ====
+*Reworked the boss fight. <!-- No I will not elaborate on this now, please someone else do that! - Merkalto -->
+*No longer becomes invulnerable outside the Hallow or Underworld.
+*Renamed Profaned Guardian (Main) to Guardian Commander.
+*Renamed Profaned Guardian (Rock) to Guardian Defender.
+*Renamed Profaned Guardian (Crystal) to Guardian Healer.
+*Nerfed Guardian Commander health from {{dv|70,400|112,640|135,000}} to {{dv|56,250|90,000|108,000}}.
+*Buffed Guardian Defender health from {{dv|31,250|61,500|75,500}} to {{dv|43,750|87,500|105,000}} and damage from {{dv|110|176|200|216}} to {{dv|120|240|264|278}}.
+*Buffed Guardian Healer health from {{dv|21,875|43,750|52,500}} to {{dv|25,000|50,000|60,000}} and damage from {{dv|90|144|168|184}} to {{dv|100|200|220|232}}.
+*Buffed Profaned Spear damage from {{dv|120|200|220|232}} to {{dv|140|220|244|256}}.
+
+==== [[Providence, the Profaned Goddess]] ====
+*No longer becomes invulnerable if the player leaves the Hallow or Underworld for 5 seconds. Instead, she will now become more aggressive.
+
+==== [[Skeletron]] ====
+*No longer gains 40% extra damage reduction in Malice Mode.
+*Now gains 99.99% damage reduction while any of its hands are alive in Revengeance Mode or above.
+
+==== [[Skeletron Prime]] ====
+*No longer gains additional defense while its arms are alive.
+*Now enters phase 2 at 50% HP instead of 66% HP, and phase 3 at 25% HP instead of 33% HP on Revengeance Mode and above.
+
+==== [[Storm Weaver]] ====
+*Head and body segments are no longer invulnerable during its first phase.
+
+=== Balance ===
+*Buffed [[Exodus Wings]]' vertical speed from 2.5 to 3.
+*Nerfed [[Galaxia]]'s "Aries' Wrath" attunement base damage from 1100 to 950.
+*Rebalanced Galaxia's "Polaris' Gaze" attunement, nerfed slash damage multiplier from 13x to 6x, nerfed shot damage multiplier from 2x to 0.8x, but now only provides enemies with 20 local immunity frames instead of 60.
+*Rebalanced Galaxia's "Andromeda's Stride" attunement, buffed base damage from 2100 to 2200, decreased its charge-up damage multiplier from 4x to 3.5x, decreased the monolith damage multiplier from 1.75x to 1.2x, and its lunge now grants the player 20 immunity frames on enemy hits instead of 30.
+*Nerfed Galaxia's "Phoenix's Pride" attunement, removed the bolt damage multiplier and decreased its thrown damage multiplier from 3.6x to 3.2x. The spinning sword now grants enemies 30 local immunity frames instead of 20.
+*Rebalanced [[P90]], nerfed damage from 12 to 8, use time from 2 to 5, and decreased its projectile velocity from 18 to 7. It now has a 50% chance to not consume ammo per-use instead of a 33% chance.
+*Removed [[Spectral Veil]]'s 10% movement speed bonus and nerfed the immunity frames after being hit from 2.5 seconds to 1 second.
+*Nerfed [[Seraphim]]'s damage from 332 to 300 and use time from 12 to 13. Decreased the amount of lights spawned when performing a stealth strike from 9 to 7.
+**Additionally, increased [[XM-05 Thanatos]]' resistance to the lasers from 83.75% to 95%.
+*Nerfed [[Sulphuric Acid Cannon]]'s projectile hitbox size by 50%.
+*Nerfed [[True Biome Blade]]'s "Mercurial Tides" attunement damage from 720 to 550, decreased charge-up damage multiplier from 4x to 2.5x, decreased the monolith damage multiplier from 1.25x to 1.1x, monolith fall-off damage multiplier from 0.6x to 0.15x, increased its blast damage reduction from 0.6x to 0.8x, and its lunge now grants the player 20 immunity frames on enemy hits instead of 30.
+**Additonally, [[Moon Lord]]'s core now only takes 10% damage from this attunement. 
+*Nerfed True Biome Blade's "Sanguine Fury" attunement damage from 300 to 200, full charge damage from 600 to 380, slash damage multiplier from 3x to 2.5x, HP on hit from 6 to 4, projectile damage multiplier from 4.5x to 2.5x, passive life steal from 10 to 7, and it now grants the player 20 immunity frames during its dash instead of 60.
+*Nerfed True Biome Blade's "Swordsmith's Pride" attunement damage from 240 to 140, sigil duration from 20 seconds to 16.67, damage reduction multiplier from 0.4x to 0.3x, full charge damage multiplier from 2.5x to 1.9x, and thrown damage multiplier from 4.5x to 3.3x.
+
+=== Additional Changes ===
+*Renamed Aero Dynamite to [[Skynamite]]. <!-- This SUCKS - Merkalto -->
+*Adjusted the tooltips of the [[Ark of the Ancients]] and [[Broken Biome Blade]] weapon lines for readability.
+*Flipped the [[Auric Toilet]] and [[Piggy (item)]] sprites for consistency.
+*[[Biome Blade]]'s "Gesture for the Drowned" attunement now has its own tooltip color of {{color |#3D67D1 ●|#3d67d1}}.
+*[[Cadance Potion]] no longer reduces spawn rates.
+*[[Chaos State]] and [[Potion Sickness]] now play custom sound effects when their cooldowns expire.
+*[[Kelvin Catalyst]] is now crafted with 100 [[Ice Star]]s, 10 [[Essence of Eleum|Essences of Eleum]], and one [[Avalanche]], [[Effluvium Bow]], [[Glacial Crusher]], and [[Snowstorm Staff]]. It no longer requires a [[Frozen Key]], 2 [[Frost Flare]]s, or a [[Cryo Stone]] to be crafted.
+*Removed the Any Large Gem recipe group.
+*Adjusted the tooltips of the Lunar Pickaxe group for clarity.
+*Added the [[Mauler]] drops to the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist] Mod's [[Acid Rain]] Tier 3 page.
+*P90 is now sold by the [[Arms Dealer]] Town NPC for {{gc|25}} after defeating the [[Wall of Flesh]]. Removed its crafting recipe.
+**Its rarity has also been decreased from {{rare|7}} to {{rare|4}} and its sell price has been adjusted accordingly.
+*Calamity particle effects are no longer spawned server side.
+*Nerfed [[Plaguebringer]] Expert Mode stinger damage from {{expert|208}} to {{expert|140}} and missile damage from {{expert|288}} to {{expert|200}}.
+*Renamed the Profaned Guardians in Providence's fight to 'Providence Offense', 'Providence Defender' and 'Providence Healer'.
+*[[Pumpler]] grenade projectiles now explode on contact with an enemy or tile. Its explosions are 200% larger if the grenade explodes on a tile. To compensate, the grenades themselves only deal 10% of the weapon's base damage, with the full damage only being dealt by the explosions.
+*Seraphim is now classified as a [[Dagger]].
+*Seraphim is now crafted at a [[Cosmic Anvil]] instead of an [[Ancient Manipulator]].
+*[[Super Dummy]] no longer requires any [[crafting station]] to be crafted.
+*[[The Prince]] is now crafted with 15 [[Divine Geode]]s instead of 20 and no longer requires 7 [[Uelibloom Bar]]s.
+*[[Thorn Blossom]] is now obtainable and can be crafted with a [[Arch Amaryllis]], 10 Uelibloom Bars, and 10 [[Unholy Essence]]s at an Ancient Manipulator.
+*[[Vivid Clarity]] can now be crafted with either a Thorn Blossom or The Prince.
+*[[Void Vortex]] is now obtainable and can be crafted with a [[Voltaic Climax]] and 5 [[Auric Bar]]s at a Cosmic Anvil.
+*Voltaic Climax is now crafted with 8 [[Darksun Fragment]]s instead of 5 Auric Bars. Nerfed its damage from 122 to 100.
+**Also reduced its rarity from {{rare|15}} to {{rare|14}} and adjusted the sell price accordingly.
+*The [[Wulfrum Slime Banner]] is now obtainable and can be crafted with 3 [[Silk]] and 3 [[Wulfrum Metal Scrap]] at a [[Loom]].
+
+== Fixes ==
+*Fixed a bug that caused the game to freeze when generating a new world in multiplayer.
+*Fixed a bug that caused the Perforator Hive to stick on top of the player and spaz out.
+*Fixed a bug that prevented [[Adamantite armor]] from granting its effects.
+*Fixed a bug that prevented the Spectral Veil dodge from activating.
+*Fixed a bug that prevented the "Swordsmith's Pride" attunement from receiving weapon reforge stat changes.
+*Fixed a bug that prevented Ares' arm lightning trail from appearing.
+*Fixed Attunement being written as "Attumenent" on the Broken Biome Blade weapon line tooltips.
+*Fixed an issue that could lead to corrupted data on the Fractured Ark weapon line.
+*Fixed a typo on the [[Ark of the Cosmos]] tooltip.
+*Fixed a typo on the [[Exotic Pheromones]] tooltip.
+*Fixed an issue that allowed Vanilla armor set bonuses to stack effects.
+*Fixed an issue that caused Ares' Exo Overload Beam attack to crash the game in multiplayer.
+*Fixed an issue that caused the Broken Biome Blade weapon line attunement functions to desync while in multiplayer.
+*Fixed an issue that caused [[The Devourer of Gods]] to desync in multiplayer.
+*Fixed an issue that caused The Devourer of Gods and Providence, the Profaned Goddess to not drop their loot in multiplayer.
+*Fixed an issue that caused the mod to unload on startup due to Ares' Gauss Nuke telegraph shader not being compiled correctly for all devices.
+*Fixed an issue that caused the mod to crash when hovering over the [[True Biome Blade]].
+*Fixed an issue that caused the Moon Lord's HP bar to display incorrect values.
+*Fixed an issue that caused player positions to desync while using the Relic of Resilience in multiplayer.
+*Fixed an issue that prevented Thanatos' Gamma Disintegration Beam from functioning correctly in multiplayer.
+*Fixed an issue with the Aquatic Aberration AI. <!-- Dunno what it did, but it did something. - Merkalto -->
+*Fixed an issue with the Cooldown rack that caused it to crash the game in multiplayer.
+*Fixed [[Armageddon]] saving its data in the world despite its removal.
+*Fixed Duke Fishron and Old Duke HP bars functioning incorrectly in Malice Mode.
+*Fixed outdated tooltip lines on [[Claret Cannon]], [[Death]], [[Eutrophic Scimitar]], [[Forsaken Saber]], [[Holy Wrath]] (buff), [[Profaned Rage Potion]], and [[Profaned Rage]] (buff).
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

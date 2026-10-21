@@ -1,0 +1,82 @@
+{{Patch infobox
+| image = Jungle Dragon, Yharon.png
+| size = 230px
+| patchname = Weapon Balance Changes Part 2
+| release = 5/15/2017
+}}
+The '''1.1.7.864''' update made a series of balance changes to several of the mod's [[weapons]] and [[coverings]]. It also adjusted several vanilla [[bosses]] to be harder in the [[Prepare to Die/Cry]] Modes and made several buffs to [[Jungle Dragon, Yharon]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*[[???]] now spawns less frequently before [[Plantera]] has been defeated, and can no longer spawn if [[The Leviathan]] is active.
+*[[Cloud Elemental]]s no longer idly produce dust, now only spawn in [[Space]], and are now rarer.
+*Nerfed [[Golem]]'s fists' healths in [[Prepare to Die/Cry]] Modes from 500 to 300.
+*[[Hive Cyst|Hive]] and [[Perforator Cyst]]s are now affected by gravity.<!---Change was made due to a conflict with one of the Thorium Mod's armor set bonuses--->
+*[[Jungle Dragon, Yharon]] changes:
+**Buffed health from {{dv|909,090|999,999}} to {{dv|1,050,000|1,155,000}}.
+**Lowered DPS cap.
+**Decreased overall speed and aggression.
+**No longer gains additional charge speed as his health lowers.
+**Now enrages if the player is too far from him.
+*The chance for bosses and enemies to drop [[legendary items]] now increases in Hardmode and after the [[Moon Lord]] has been defeated.
+*[[Providence, the Profaned God]]'s [[Profaned Guardian]]s are now immune to all debuffs.
+*Lowered Providence, the Profaned God's DPS cap.
+*[[Shockstorm Shuttle]]s now spawn more frequently.
+*Increased the speed of Prepare to Die/Cry [[Skeletron Prime]]'s skull projectiles and [[Prime Cannon]]'s rockets.
+*Prepare to Die/Cry [[Wall of Flesh]] can now fire [[Retinazer]]'s lasers and is now generally more aggressive.
+
+=== [[Items]] ===
+*Nerfed [[Alpha Ray]]'s damage from 141 to 95.
+*Nerfed [[Asteroid Staff]]'s damage from 285 to 200.
+*Nerfed [[Augur of the Elements]]' damage from 155 to 125.
+*[[Bloodflare Core]]'s life drain aura now ignores 5 immunity frames.
+*Nerfed [[The Burning Sky]]'s damage from 388 to 288, but made its meteors deal the weapon's full damage instead of 50%.
+*Nerfed [[Chicken Cannon]]'s damage from 450 to 200.
+*[[Cleansing Blaze]]'s flames now last for 0.83 seconds each instead of 2.
+*[[Cosmolight]] now sets time to the beginning of day or night instead in the middle of either, and now cycles through moon phases.
+*Nerfed [[Deathhail Staff]]'s damage from 212 to 190 and made it shoot 2 lasers at a time instead of 3.
+*Buffed [[Deathwind]]'s damage from 220 to 240.
+*Nerfed [[Elemental Blaster]]'s damage from 118 to 110.
+*[[Elemental Disk]]'s split discs now set target immunity frames to 5 instead of ignoring 4 frames.
+*Buffed [[Elemental Lance]]'s damage from 180 to 190, but its blue beams now deal 50% of the weapon's damage, its pink beams deal 25%, and its orange beams deal 12.5% instead of 75%, 56%, and 42% respectively.
+*[[Entropy's Vigil]]'s Blighted Eyes now take up 1 minion slot.
+*Nerfed [[Essence Flayer]]'s damage from 333 to 300.
+*[[Exsanguination Lance]] changes:
+**Buffed use time from 23 to 22, and its knockback from 5.5 to 6.75.
+**Now has auto swing.
+**No longer fires a beam projectile.
+**No longer inflicts [[Bleeding]]. <!---was inflicted for 10 seconds--->
+*The Cloud Elemental minion summoned by [[Eye of the Storm]] and [[Heart of the Elements]] now ignores 10 immunity frames instead of 6 before Golem has been defeated and 8 instead of 5 after Golem has been defeated. 
+**Her tornadoes now ignore 10 immunity frames instead of 6 before Golem has been defeated, and 7 instead of 5 after Golem has been defeated.
+*Nerfed [[Genisis]]' damage from 120 to 90.
+*The Rare Sand Elemental minion summoned by Heart of the Elements and [[Rare Waifu in a Bottle]] now ignores 10 immunity frames instead of 6 before Golem has been defeated and 8 instead of 5 after Golem has been defeated. 
+*The Brimstone Elemental minion summoned by Heart of the Elements and [[Rose Stone]] now ignores 10 immunity frames instead of 6 before Golem has been defeated and 8 instead of 5 after Golem has been defeated.
+**Her Hellfireballs and their explosions now ignore 10 immunity frames instead of 6 before Golem has been defeated, and 7 instead of 5 after Golem has been defeated. 
+*The Sand Elemental minion summoned by Heart of the Elements and [[Waifu in a Bottle]] now ignores 10 immunity frames instead of 6 before Golem has been defeated and 8 instead of 5 after Golem has been defeated. 
+*Buffed [[Leviatitan]]'s damage from 93 to 103.
+*Nerfed [[Minigun]]'s damage from 254 to 200.
+*Buffed [[Onyx Chain Blaster]]'s damage from 47 to 95.
+*Nerfed [[Phoenix Flame Barrage]]'s damage from 458 to 300.
+*Buffed [[Profaned Trident]]'s damage from 540 to 590.
+*Nerfed [[Purge Guzzler]]'s damage from 350 to 150.
+*Nerfed [[Shredder]]'s damage from 26 to 23.
+*Buffed [[Soul Harvester]]'s damage from 86 to 101, and its use time from 24 to 20.
+*Nerfed [[Starfleet]]'s damage from 250 to 150, and its use time from 40 to 55.
+*[[The Storm]]'s bolts now create less dust and are smaller.
+*Buffed [[Storm Dragoon]]'s damage from 118 to 140.
+*[[Terra Flameburster]]'s flames now last for 0.75 seconds each instead of 1.67.
+*Buffed [[Terra Lance]]'s damage from 102 to 112, and it now sets its target's immunity frames to 5 instead of 6.
+*[[Vehemence]] changes:
+**Buffed damage from 5 to 6, increased mana cost from 200 to 250, and increased use time from 25 to 50.
+**Now inflicts [[Mana Sickness]] for 10 seconds instead of 20.
+**Now caps at 150,000 damage instead of 100,000.
+*Nerfed [[Yharon's Kindle Staff]]'s damage from 750 to 500.
+
+=== Resprites ===
+*Resprited [[Solar God Spirit (buff)]].
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

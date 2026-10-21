@@ -1,0 +1,71 @@
+{{dedicated|Terry N. Muse|Hardcore DoG Spear Race ''and'' Developer}}
+{|align=right
+|{{item infobox
+| name = Apotheosis
+| type = Weapon
+| damage = 77
+| damagetype = magic
+| auto = yes
+| knockback = 6.9
+| mana = 42
+| tooltip = Eat worms<br/>Unleashes interdimensional projection magic
+| velocity = 42
+| use = 177
+| rare = 16
+| stack = 1
+| sell = {{value|0|40}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = God Slayer Inferno
+| debuffduration = 10 seconds
+| debuffchance = 100%
+| debuff2 = Demon Flames
+| debuffduration2 = 10 seconds
+| debuffchance2 = 100%
+| debuff3 = Armor Crunch
+| debuffduration3 = 10 seconds
+| debuffchance3 = 100%
+| debuff4 = Exo Freeze
+| debuffduration4 = 2 seconds
+| debuffchance4 = 3.33%
+| element1 = Magic
+| element2 = Cold
+| element3 = Unholy
+}}
+|}
+[[File:Apotheosis (demo).gif|frame|right|Apotheosis's main attack being used against a [[Super Dummy]].]]
+
+'''Apotheosis''' is a craftable Epilogue [[Developer items|developer]] [[spell tome]]. It summons a cosmic portal that released a mini [[Devourer of Gods]] that will swarm an enemy and fire lasers, before disappearing 5 seconds later.
+
+The Devourer of Gods inflicts several debuffs:
+*[[God Slayer Inferno]] (10 seconds)
+*[[Demon Flames]] (10 seconds)
+*[[Armor Crunch]] (10 seconds)
+*[[Exo Freeze]] (3.33% chance for 2 seconds)
+
+On enemies, these combined debuffs cause the target to lose 2750 health per second, have its defense reduced by 66.67%, have its defense further decreased by 20 for 10 seconds, and have an additional 3.33% chance to completely freeze the enemy for 2 seconds.
+
+Its lasers always inflict God Slayer Inferno and Demon Flames, but not Armor Crunch or Exo Freeze.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*Apotheosis was programmed by Terry N. Muse, one of the mod's lore writers, and implemented by the developer as a reward for completing a speedrun race challenge.
+**This speedrun race challenge had the participants race to kill the Devourer of Gods in hardcore mode with only spears.
+**The damage value of 77 and use time of 177 are references to Terry's excessive usage of the number 7. 
+*The word "apotheosis" refers to a culmination or climax, or an elevation to a god-like status.
+*The knockback value of 6.9 is a reference to the internet meme of 69.
+*The mana cost and velocities of 42 are references to the internet meme of 420. 
+
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]
+[[zh:圣神之像]]

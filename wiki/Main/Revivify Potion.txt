@@ -1,0 +1,28 @@
+{{item infobox
+| type = Potion
+| stack = 9999
+| rare = 4
+| use = 17
+| tooltip = Causes enemy attacks to heal you for a fraction of their damage
+| consumable = true
+| sell = {{value|0|0|40}}
+| buff = Revivify | bufflink = no
+| duration = 3 minutes
+| bufftip = You are healed by a fraction of the damage you take
+| hardmode = yes
+}}
+
+The '''Revivify Potion''' is a craftable [[Hardmode]] [[Buff Potions|buff potion]]. It grants the '''Revivify''' [[buff]] for 3 minutes, which causes enemy attacks to heal the player for 1/15 of their damage.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Revivify essentially acts as a ~6.66% [[Defense#Separate Damage Reduction Boosts|separate DR]] boost. However, given that it healsafter the damage has been taken, it is unable to affect fatal damage.
+
+{{Master Template Consumables
+| show-main = yes
+| show-buff = yes
+}}
+[[Category:Potion items]]

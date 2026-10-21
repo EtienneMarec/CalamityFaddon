@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 58
+| damagetype = magic
+| auto = yes
+| knockback = 6.75
+| velocity = 6
+| mana = 15
+| use = 24
+| tooltip = Fires a barrage of brimstone blasts
+| rare = 5
+| stack = 1
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| proj = BrimstoneHellblast.gif
+| projcaption = Brimstone Hellblast
+| proj2 = BrimstoneBarrage.gif
+| proj2caption = Brimstone Dart
+| element1 = Fire
+| element2 = Unholy
+}}
+|{{item drops infobox
+| [[Brimstone Elemental]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Seething Discharge''' is a [[Hardmode]] [[spell tome]] dropped by the [[Brimstone Elemental]]. It fires a large blast of brimstone and two smaller projectiles, similar to the attack performed by the Brimstone Elemental while in her rose. The attack has a mild spread and travels through blocks.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category:Spell tomes]]

@@ -1,0 +1,25 @@
+{{infobox wrapper
+|{{item infobox
+|type = Crafting material
+| stack = 9999
+| rare = 1
+| tooltip = It pulses with energy
+| sell = {{value|0|0|0|80}}
+}}
+|{{item drops infobox
+|[[Wulfrum Drone]]<br/>[[Wulfrum Gyrator]]<br/>[[Wulfrum Hovercraft]]<br/>[[Wulfrum Pylon]]<br/>[[Wulfrum Rover]]<br/>(When Supercharged)|1| 100%
+|[[Wulfrum Excavator]] {{fantag|Calamity: Community Remix}}|1-2|100%
+}}
+}}
+
+'''Energy Cores''' are [[Pre-Hardmode]] [[crafting material]]s dropped by [[Wulfrum Drone]]s, [[Wulfrum Gyrator|Gyrators]], [[Wulfrum Hovercraft|Hovercrafts]], [[Wulfrum Pylon|Pylons]] and [[Wulfrum Rover|Rovers]] when they are supercharged. They are used to craft [[Wulfrum armor]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Wulfrum}}
+{{Master Template Consumables
+| show-main = yes
+| show-drop = yes
+}}

@@ -1,0 +1,436 @@
+{{Stub}}{{Patch infobox
+| image = Wulfrum armor (2.0.1.001).png
+| patchname = Wulfrum Overhaul Update
+| pair = 2.0.1.001 (music)
+| release = 08/21/2022
+}}
+The '''2.0.1.001''' (or '''2.0.1.1''') update reworked several early-game item sets, including Wulfrum, Desert Prowler, and Marnite, as well as overhauled how Calamity difficulties are toggled, and removed Malice Mode from the game. Additionally, this update added several [[Donor items]].
+
+This update also rebalanced several boss AIs and ported the mod to tModLoader v2022.7.58.
+
+== Additions ==
+*Added [[Acidwood Wall]] and [[Floral Wall]].
+*Added [[Ares' Exoskeleton]], [[Crackshot Colt]], [[Death's Ascension]], [[Dynamic Pursuer]], [[Grave Grimreaver]], [[Hadal Urn]], [[Midas Prime]] and [[The Sevens Striker]].
+*Added [[Wulfrum Lure]].
+*Added [[Hypnos Mask]], and [[Hypnos Trophy]].
+*Added [[Marnite Architect Headgear]] and [[Marnite Architect Toga]].
+*Added [[Marnite Deconstructor]], [[Marnite Repulsion Shield]], and [[Quiver of Nihility]].
+*Added [[Old Hunter Hat]], [[Old Hunter Pants]], and [[Old Hunter Shirt]].
+*Added  [[Aergian Technistaff]], [[Axisdriver]], [[Gravitonomy Pike]], and [[Neuraze]].
+*Added [[Wulfrum Acrobatics Pack]], [[Wulfrum Digging Turtle]], [[Wulfrum Scaffold Kit]], [[Wulfrum Treasure Pinger]].
+*Added [[XP-00 Hypnos]], [[XP-00 Hypnos Aergia Neuron]], and [[XP-00 Hypnos Plug]].
+*Added [[Ares' Cannons]] buff.
+*Added three custom map backgrounds for the Abyss layers.
+*Added the "Default Player Stat Boosts" group of [[configuration options]], which includes <code>Faster Base Speed</code>, <code>Higher Jump Height</code>, <code>Faster Jump Speed</code>, <code>Faster Fall Hotkey</code>, and <code>Faster Tile Placement </code>.
+*Added a chat message that is displayed when joining a world that advertises the Official Calamity Mod Wiki.
+**Added the <code>Wiki Status Message</code> configuration option that allows the player to enable or disable the Official Calamity Mod Wiki advertisement.
+
+== Changes ==
+=== Bosses and Mini Bosses ===
+:''This section is incomplete and may not contain all of the Boss and Mini Boss AI changes that were made for this update.''
+*Boss servants now drop [[Heart]]s on [[Revengeance Mode]] and [[Death Mode]].
+*[[Boss Zen]] no longer prohibits the use of the [[Ice Mirror]]/[[Magic Mirror]] or any of its upgrades, and [[Teleporter]]s.
+*[[Ares]] now resists [[Seraphim]] laser damage by 10% and now resist the [[Eclipse's Fall]] main projectile by 20%.
+*[[Artemis]] and [[Apollo]] now resist the [[Seared Pan]]'s damage by 10%.
+*Removed the stat buff that [[Astrum Aureus]] and [[Aureus Spawn]]'s received after defeating the [[Moon Lord]].
+*Removed the stat buff that [[Brimstone Elemental]] and [[Calamitas]] received after defeating [[Providence, the Profaned Goddess]].
+*Brimstone Elemental Brimlings now idle nearby the Brimstone Elemental and mimic her attacks instead of idling in place and firing projectiles.
+*Calamitas no longer dashes infinitely during her final phase except on Death Mode.
+*Decreased [[Crabulon]]'s delay before attacking the player when it is first spawned in on all modes.
+*Crabulon will now fire its Mushroom projectiles directly from its mouth on all modes. Additionally, Mushroom projectiles now spawn less dust to improve visibility.
+<!-- Some Cryogen changes idk I can’t read AI code - Merkalto -->
+*[[A Desert Nuisance|Desert Nuisance]]s now have a map icon.
+*Increased the [[King Slime]] Crown Jewel bolt projectile velocity by 11.11%, and significantly increased the brightness of the Crown Jewel on all modes.
+*King Slime and [[Queen Slime]] can now jump through tiles, and will now attempt to teleport in front of the player in Revengeance Mode.
+*King Slime now has a higher chance to spawn [[Pinky]] as it takes damage on Revengeance and Death Mode.
+*Decreased the velocity of the [[Eater of Worlds]] Cursed Fireball projectiles by 41.67% in Revengeance and Death Modes. Cursed Fireball velocities are now doubled while the Eater of Worlds is enraged.
+*Significantly increased the brightness of the Vile Spit projectiles in all modes.
+<!-- EoL changes idk, only does 2 Sun Dances in phase 2 now ig, also something about an phase 2 inverted spread pattern? -->
+*Replaced [[Jungle Dragon, Yharon]]'s sound effects with brand new ones.
+<!-- A Perforator Hive AI change idk -->
+*[[Lunatic Cultist]] Lightning now inflicts the [[Electrified]] debuff for 2 seconds instead of for a dynamic duration depending on the world difficulty.
+*Nerfed the [[Martian Saucer]] Core HP from {{dv|10,000|20,000||||30,000}} to {{dv|6000|12,000||||18,000}}.
+*Providence, the Profaned Goddess now spawns her Holy Fire projectiles slightly higher up to prevent cheap hits.
+*Updated the [[Queen Bee]] in Revengeance and Death Mode to use her vanilla Stinger projectile.
+*Significantly increased the visibility of the Queen Slime boss summons in all modes.
+*[[Skeletron Prime]] no longer flings its Laser and Cannon arms at the player, and no longer fires a barrage of Rockets or a ring of Laser projectiles from its head while all of its arms are destroyed in Revengeance and Death Mode.
+*Skeletron Prime now enters its spin phase after 1.5 seconds instead of 5 seconds in Revengeance and Death Mode. <!-- There was another prime head change, idk what it did -->
+*Removed [[The Slime God]]'s "Core phase" and made the Slime God Core invulnerable to all damage. When both the Crimulean and Ebonian Slime Gods have been defeated, the core will explode after a short delay, dropping its loot.
+*Increased the HP of the Crimulean and Ebonian Slime Gods by 50%. <!-- some other AI changes too idk -->
+*Significantly increased the visibility of the Slime God boss summons in all modes.
+*[[Supreme Calamitas]] now has a custom hitsound.
+*[[Thanatos]] now has a damage resistance to the following items: <!-- 75% resist to the new Dynamic Pursuer -->
+**50% resist to the [[Tarragon Throwing Dart]] stealth strike projectiles.
+**30% resist to the Eclipse's Fall main projectile.
+**20% resist to the [[Utensil Poker]].
+**20% resist to the [[Final Dawn]] lunge attack and 15% resist to its lingering flames.
+**15% resist to the [[Plasma Grenade]].
+*Removed several dialog options from [[The Devourer of Gods]], this includes:
+**"Good luck recovering from that!"
+**"Nothing personal, kid."
+**"Are you honestly that bad at dodging?"
+**"Of all my segments to get hit by..."
+**Additionally, removed instances of "kid" from The Devourer of Gods' dialog.
+*Increased the distance between the [[Storm Weaver]] Frost Waves and Tornado projectiles in all modes.
+<!-- ALSO: BoC changes, Queen Slime adjustments, Hive Mind Hive Blob projectiles accelerate or something, WoF Rev+ lasers got changed, and Cryogen Ice projectiles changed. Skele timer was decreased to 2 mins as well, however, that doesn’t do anything anymore. -->
+
+=== Balance ===
+*Split Melee into four classes internally: Melee, Melee No Speed, True Melee, and True Melee No Speed:
+**The Melee and Melee No Speed damage types are identical with the exception that Melee No Speed does not receive the effects of the melee swing speed stat.
+***Most [[Boomerangs]], [[Flails]], [[Yoyos]], and a few other melee weapons use the Melee No Speed damage type. 
+**True Melee is a new damage subclass of Melee which also benefits from True Melee-specific damage bonuses.
+**True Melee No Speed is a new damage subclass of Melee which benefits from True Melee-specific damage bonuses and does not receive the effects of the melee swing speed stat.
+***Weapons that are a part of the new True Melee damage type will mention so in their tooltips.
+*Removed the bonus damage that Flails, Spears, Yoyos, and melee weapons that use a holdout projectile would inherit from melee swing.
+*The following melee weapons only receive 33% of melee swing speed bonuses:
+**[[Brimstone Sword]], [[Cosmic Shiv]], [[Devastation]], [[Devil's Devastation]], [[Elemental Shiv]], [[Galactus Blade]], [[Galileo Gladius]], [[North Pole]]. [[Star Wrath]], [[Swordsplosion]], and [[Tenebreus Tides]].
+**Additionally, [[Durendal]] also only receives 33% of melee swing speed bonuses.
+*The following vanilla melee weapons now fully benefit from melee swing speed as intended:
+**[[Beam Sword]], [[Chlorophyte Claymore]], [[Chlorophyte Saber]], [[Christmas Tree Sword]], [[Death Sickle]], [[Enchanted Sword]], Flying Dragon]], Frostbrand, [[Ice Blade]], [[Ice Sickle]], [[Influx Waver]], [[Meowmere]], [[Seedler]], [[Terra Blade]], [[True Excalibur]], and [[True Night's Edge]].
+*Gave the following items auto swing:
+**[[Deadly Sphere Staff]], [[Desert Tiger Staff]], [[Pygmy Staff]], [[Raven Staff]],  [[Stardust Cell Staff]], [[Tempest Staff]], [[Terraprisma]], [[Xeno Staff]], and the [[Tavernkeep|Tavernkeep sentries]].
+*Removed the hidden acceleration and run speed penalty on the [[Abyssal Diving Suit]], [[Flame-Licked Shell]], and [[Ursa Sergeant]] coverings, and on the [[Elysian Guard]] buff.
+*[[Adamantite Throwing Axe]] can now only pierce 6 times instead of infinitely.
+*[[The Amalgam]] buff duration effect now affects the [[Plenty Satisfied]], [[Exquisitely Stuffed]], and [[Lucky]] buffs.
+*Nerfed [[Aquatic Discharge]]'s use time from 12 to 18.
+*Nerfed [[Arcane Flower]] and [[Magnet Flower]]'s mana use reduction from 20% to 12%.
+*Rebalanced [[Archerfish]], nerfed its base damage from 18 to 9, however, its use time has been decreased from 18 to 11.
+*Nerfed [[Ark of the Cosmos]] base damage from 2000 to 1300.
+*Rebalanced [[Ataraxia]], nerfed its base damage from 710 to 455, and increased the Main and Side Rocket projectile's extraUpdates from 2 to 3.
+*Nerfed the [[Chlorophyte armor]] set bonus:
+**Increased the Life Pulse delay from 3 seconds to 5 seconds
+**Increased the heal delay from 2.5 seconds to 4.5 seconds.
+**Additionally, Life Pulse sound effect has been removed, and the pulse is now only fired if the player is within 35 blocks of an enemy or if the player does not have full HP.
+*Rebalanced [[Coral Spout]], nerfed its base damage from 11 to 8, however, the amount of mana replenished from the Mana-charged Coral projectile has been increased from 100 to 150, and the maximum damage modifier when charged up has been increased from x3 to x6. Additionally, when picking up a Mana-charged Coral, the player is now granted the Coral Symbiosis buff, which doubles the damage of the Coral Spout projectiles and causes it to charge up twice as fast.
+*Nerfed [[Cnidarian]]'s base damage from 11 to 8, however, its range is now affected by Whip range modifiers, and its spark damage has been increased from 25% of the weapon's base damage to 50%.
+*The [[Corrosive Spine]] projectiles now inflict the [[Poisoned]] debuff instead of the [[Acid Venom]] debuff.
+*Decreased the [[Defense damage]] global ratio from 15% to 10%.
+*Buffed [[Desert Tiger Staff]]'s base damage from 41 to 49.
+*Nerfed [[Dragon's Breath]]'s right-click fire rate from 125% to 80%.
+*Updated the [[Dragonfire]] debuff:
+**It now deals 180 damage a second to enemies, and causes players to lose 16 HP per second.
+**Rewrote its tooltip from "Losing life, reduced movement speed" to "Engulfed by roaring flames".
+**The following items now inflict Dragonfire instead of their previous debuffs:
+***[[The Burning Sky]], [[Dragon Rage]], Dragon's Breath, [[Phoenix Flame Barrage]], [[The Final Dawn]], [[Wrathwing]], and [[Yharim's Gift]] meteors.
+*Nerfed [[Electrician's Glove]] spark projectile base damage from 20 to 15.
+*Rebalanced Elemental Shiv, buffed its base damage from 168 to 190 and doubled the Elemental Shiv Blade projectile's velocity, however, the time each Shiv projectile exists for has been decreased by 85%.
+*Rebalanced [[Elf Melter]], buffed its base damage from 90 to 113, and increased its use time from 14 to 33. Its flame projectiles now grant enemies 6 ID Static immunity frames and now have 1 extraUpdate.
+*Rebalanced [[Flamethrower]], increased its use time from 14 to 33, however, its flame projectiles now grant enemies 6 ID Static immunity frames and now have 1 extraUpdate.
+*Nerfed the maximum fall speed of the [[Gelatinous Pillion]] mount by 6.5% and the [[Slimy Saddle]] mount by 9%.
+*[[Glorious End]] projectiles no longer deal 50% less damage in Expert Mode or above.
+*Increased the [[God Slayer armor]] set bonus dash cooldown from 35 seconds to 45 seconds.
+*Rebalanced [[Handgun]], buffed its base damage from 12 to 36 and increased its use time from 15 to 27.
+*[[High Velocity Bullet]]s and [[Icy Bullet]]s now grant enemies -1 immunity frames on hit.
+**Additionally, High Velocity Bullets can now benefit from Point Blank damage.
+*Increased the [[Ink Bomb]]'s cooldown from 20 seconds to 25 seconds.
+*The [[Irradiated]] debuff no longer grants positive bonuses to the player or decreases the player's movement speed, and instead now causes the player to lose 4 life regeneration.
+*Nerfed [[Malachite]]'s base damage from 120 to 55, increased its use time from 10 to 14, and reduced its stealth strike modifier from 200% to 130%.
+*[[Orichalcum Spiked Gemstone]] stealth strikes can now only pierce 4 times instead of infinitely.
+*Buffed [[Pew-matic Horn]]'s base damage from 20 to 23.
+*Rebalanced [[Phoenix Blaster]], increased its base damage from 18 to 36 and increased its use time from 14 to 27.
+*Nerfed [[Pumpler]]'s base damage from 27 to 18.
+*Nerfed [[Reed Blowgun]]'s base damage from 18 to 14.
+*Nerfed [[Redtide Spear]]'s base damage from 33 to 25, however, it now grants the player immunity to knockback while charging.
+*All Calamity [[Shortswords]] can now be used in any direction.
+*Nerfed [[Soaring Insignia]]'s flight time bonus from 150% to 125%.
+*Nerfed the [[Squishy Bean]] mount maximum fall and jump speeds by 25%.
+*Nerfed [[Staff of the Mechworm]]'s base damage from 161 to 118 and the Mechworm segments now grant enemies 30 local immunity frames instead of 10.
+**Additionally, the Suspicious Looking Jelly Bean now use the {{rare|7}} rarity instead of the {{rare|9}} rarity.
+*Spy [[Stealth]] no longer increases the player movement speed.
+*Nerfed Terraprisma's base damage from 90 to 60 and it now grants enemies 30 local immunity frames instead of 15.
+*Tarragon Throwing Darts stealth strike thorn projectiles can now only pierce 5 times instead of infinitely.
+*Buffed [[Valor]]'s base damage from 22 to 32. <!-- Yes, this got the exact same buff… AGAIN - Merkalto -->
+
+=== Drops ===
+*Vanilla Terraria [[Master Mode]] items can now drop in Revengeance and Death Modes regardless if the player is in an Expert of Master Mode world.
+*Adjusted several boss material drops:
+**Brimstone Elemental and Calamitas no longer can drop [[Bloodstone]].
+**Calamitas now drops 5-10 [[Essence of Chaos]] instead of 4-8 and now drops 25-30 [[Ashes of Calamity]] instead of 9-14.
+**The Calamitas Treasure Bag now drops {{expert|10-15}} Essence of Chaos instead of {{expert|5-9}}, and now drops {{expert|30-35}} Ashes of Calamity instead of {{expert|14-18}}.
+**Ceaseless Void now drops 5-7 [[Dark Plasma]] instead of 2-3.
+***The Ceaseless Void Treasure Bag now drops {{expert|6-9}} Dark Plasma instead of 4-6.
+**Desert Scourge now drops 25-30 [[Coral]], [[Seashell]]s, and [[Starfish]] instead of 5-9 of each, and now drops 25-30 [[Pearl Shard]]s instead of 7-14.
+***The Desert Scourge Treasure Bag now drops {{expert|30-40}} Coral, Seashells, and Starfish instead of {{expert|7-11}} of each, and now drops {{expert|30-40}} Pearl Shards instead of {{expert|10-16}}.
+**The Devourer of Gods Treasure Bag now drops {{expert|30-40}} Cosmilite Bars instead of {{expert|30-39}}.
+**The [[The Fabricational Quartet]] now drop 25-30 [[Exo Prism]]s instead of 24-32.<!-- Unchanged bag drops -->
+**[[Hive Mind]] now drops 10-15 [[Demonite Bar]]s, [[Rotten Chunk]]s, and [[Corrupt Seeds]] instead of 12-15 of each.
+***The Hive Mind Treasure Bag now drops {{expert|15-20}} Demonite Bars and Rotten Chunks instead of {{expert|9-14}} Demonite Bars and {{expert|10-20}} Rotten Chunks, and now drops {{expert|25-30}} [[Cursed Flame]]s instead of {{expert|15-30}}.
+**Jungle Dragon, Yharon now drops 25-30 [[Yharon Soul Fragment]]s instead of 15-22.
+***The Jungle Dragon, Yharon Treasure Bag now drops {{expert|30-35}} Yharon Soul Fragments instead of {{expert|22-28}}.
+**[[Necromantic Geode]]s dropped by [[Ravager]] now drops {{dv|100-120|120-140}} [[Bloodstone]] instead of {{dv|50-60|60-70}}.
+**[[The Perforators]] now drops 10-15 [[Crimtane Bar]]s, [[Vertebrae]], and [[Crimson Seeds]] instead of 12-15 of each, and now drops 25-30 [[Blood Sample]]s instead of 35 to 45.
+**The Perforators Treasure Bag now drops {{expert|30-40}} Blood Samples instead of {{expert|45-60}}, and now drops {{expert|25-30}} [[Ichor]] instead of {{expert|15-30}.
+**[[The Plaguebringer Goliath]] now drops 15-20 [[Plague Cell Canister]]s instead of 10-14, and now drops 25-30 Infected Armor Plating instead of 13-17.
+***The Plaguebringer Goliath Treasure Bag now drops {{expert|25-30}} Plague Cell Canisters instead of {{expert|13-17}}, and now drops {{expert|30-35}} Infected Armor Plating instead of {{expert|16-20}}.
+**Plantera now drops 25-30 [[Living Shard]]s instead of 12-18.
+***The Plantera Treasure Bag now drops {{expert|30-35}} Living Shards instead of {{expert|16-22}}.
+**Providence, the Profaned Goddess now drops 20-30 [[Unholy Essence]] in Normal Mode as intended, and now drops 25-30 [[Divine Geode]]s instead of 15-20.
+***The Providence, the Profaned Goddess Treasure Bag now drops {{expert|30-40}} Divine Geodes instead of {{expert|20-30}}.
+**Signus, Envoy of the Devourer now drops 5-7 [[Twisting Nether]] instead of 2-3.
+***The Signus, Envoy of the Devourer Treasure Bag now drops {{expert|6-9}} Twisting Nether instead of {{expert|3-4}}.
+**Storm Weaver now drops 5-7 [[Armored Shell]]s instead of 5-8.
+***The Storm Weaver Treasure Bag now drops {{expert|6-9}} Armored Shells instead of {{expert|7-10}}.
+**Supreme Calamitas now drops 25-30 [[Ashes of Annihilation]] instead of 18-27.
+***The Treasure Coffer now drops 30-40 Ashes of Annihilation instead of 25-35.
+*Astrum Aureus now always drops the [[Suspicious Looking Jelly Bean]].
+*Brimstone Elemental can no longer drop the [[Brimrose]] mount.
+*[[Cnidrion]] now always drops 4-5 [[Sturdy Fossil]]s.
+*[[Divine Crate]]s can now drop both [[Profaned Rage Potion|Profaned Rage]] and [[Holy Wrath Potion|Holy Wrath]] potions regardless of the world evil type.
+*[[Gael's Greatsword]] now drops from [[Supreme Calamitas]] in [[Death Mode]] instead of in Malice Mode due to its removal.
+*The [[Giant Clam]] now drops 30-40 [[Navystone]] instead of 25-35, and now drops 25-30 [[Mollusk Husk]] instead of 6-11.
+*[[Hadarian]]s now have a 10% chance to drop the [[Hadarian Wings]] instead of 5%.
+*[[Ice Clasper]]s now have a 20% chance to drop the [[Frost Barrier]] instead of 10%.
+*Increased the Ink Bomb drop rate from [[Cuttlefish]] from {{dv|2.5%|5%}} to {{dv|5%|10%}}; increased its drop rate from [[Colossal Squid]]s from 10% to 20% in all modes.
+*Increased the [[Scuttler's Jewel]] drop rate from [[Crawlers]] from 10% to 16.67%.
+*[[Wandering Eye]]s now drop the [[Bouncing Eyeball]] with a {{dv|10%|16.67%}} chance instead of [[Drippler]]s.
+
+=== Recipes ===
+*The following items now craft into each other while at an [[Anvil]] in [[Ecto Mist]]:
+**The [[Dart Pistol]] and [[Dart Rifle]].
+**The [[Clinger Staff]] and [[Life Drain]].
+**The [[Chain Guillotines]] and [[Fetid Baghnakhs]].
+*The following items now craft into each other while at a [[Tinkerer's Workshop]] in Ecto Mist:
+**The [[Flesh Knuckles]] and [[Putrid Scent]].
+**The [[Tendon Hook]] and [[Worm Hook]].
+*[[Aquamarine Staff]] now requires 3 Pearl Shards in its recipe.
+*[[Ark of the Ancients]] now requires 15 Living Shards instead of 3 in its recipe.
+*[[Asgard's Valor]] no longer requires 5 [[Life Fruit]] in its recipe.
+*[[Beetle Shell]] now has its recipe material order swapped for visual consistency.
+*[[Bezoar]] now requires 3 Murky Paste and 7 Stingers instead of 1 Murky Paste and 15 Stingers in its recipe.
+*[[Blizzard in a Bottle]] now requires 3 [[Feather]]s instead of 4 in its recipe.
+*[[Brimlash]] now requires 12 Ashes of Calamity instead of 5 in its recipe.
+*Brimrose can now be crafted with 5 [[Unholy Core]]s and 20 Bloodstone at an [[Ancient Manipulator]].
+*[[Celestial Magnet]] now requires a [[Treasure Magnet]] and 5 Fallen Stars instead of 20 Fallen Stars, 10 Souls of Might, 5 Souls of Light and Souls of Night, and 3 Cobalt Bars in its recipe.
+*[[Cosmic Bolter]] now requires 12 Living Shards instead of 5 in its recipe.
+*[[Cosmic Worm]] primary recipe now only requires 1 [[Armored Shell]] instead of 3 in its recipe.
+*[[Crag Bullhead]]s now craft into [[Sashimi]] at a Workbench instead of [[Cooked Fish]] at a Cooking Pot.
+*[[Deific Thunderbolt]] now requires 3 Armored Shells instead of 9 in its recipe.
+*[[Dragonfruit]] now requires 5 Yharon Soul Fragments instead of 2 in its recipe.
+*[[Enchanted Butterfly]] now also requires a [[Hell Butterfly]] in its recipe.
+*[[Eutrophic Shelf]] now requires 3 Pearl Shards in its recipe.
+*[[Face Melter]] now requires the [[Stellar Tune]] instead of a [[Magical Harp]] and [[Anahita's Arpeggio]] in its recipe.
+*[[Finch Staff]] can now be crafted with a [[Bird]] and 8 of [[Any Wood]] at a Workbench.
+*[[Galvanizing Glaive]], [[Gatling Laser]], [[Gauss Rifle]], [[Pulse Turret Remote]], and [[System Bane]] all now require 10 Infected Armor Plating instead of 5 in their recipes.
+*[[Haunted Scroll]] now requires 3 [[Plate]]s instead of a [[Bowl]] in its recipe.
+*[[Hermes Boots]] now requires 5 [[Swiftness Potion]]s instead of 2 in its recipe.
+*[[Ice Boomerang]] now requires a [[Wooden Boomerang]] in its recipe.
+*[[Lava Charm]] now requires 3 [[Lava Bucket]]s instead of 5 in its recipe.
+*[[Lazhar]] now requires a [[Space Gun]] instead of either Zapinator in its recipe.
+*Added [[Blood Orb]] recipes for all three [[Luck Potions]]:
+*[[Lesser Luck Potion]]s require 1 [[Bottled Water]] and 10 [[Blood Orb]]s at an [[Alchemy Table]].
+*[[Luck Potion]]s require 1 Bottled Water and 20 Blood Orbs at an Alchemy Table.
+*[[Greater Luck Potion]]s require 1 Bottled Water and 30 Blood Orbs at an Alchemy Table.
+*[[Lunic Eye]] now requires 2 Pearl Shards in its recipe.
+*[[Metal Detector]] now requires 5 of Any Copper Bar instead of 5 Gold Dust and 5 of Any Gold Bar in its recipe. Additionally, the Metal Detector is now crafted at an Anvil instead of at a Hardmode Anvil.
+*[[Muramasa]] now requires 7 Aerialite Bars and 10 [[Bone]]s instead of 15 of Any Cobalt Bar in its recipe.
+*[[Navy Fishing Rod]] now requires 1 Pearl Shard in its recipe.
+*[[Plantation Staff]] now requires 12 Living Shards instead of 10 in both of its recipes.
+*[[Phantom Lance]]s now require 1 Ashes of Calamity and 1 [[Spectre Bar]] instead of 2 of each in their recipe.<!-- Plural because they craft in 100s -->
+*The [[Potion of Return]] can now also be crafted with 1 Bottled Water and 10 Blood Orbs at an Alchemy Table.
+*[[Rainbow Party Cannon]] now requires a [[Celebration Mk2]] instead of a [[Celebration]] in its recipe.
+*[[Riptide]] now requires 3 Pearl Shards in its recipe.
+*[[Sandstorm in a Bottle]] now requires 3 Feathers in its recipe instead of 6.
+*[[Sea Remains]] now requires 2 of each ingredient instead of 1 in its recipe.
+*[[Seafoam Bomb]] now requires 1 Pearl Shard in its recipe.
+*The following fish all craft into [[Seafood Dinner]] at a Cooking Pot:
+**2 [[Aldebaran Alewife]], 2 [[Bloodfin]], 2 [[Brimstone Fish]], 2 [[Coastal Demonfish]], 2 [[Shadowfish]], 2 [[Coralskin Foolfish]], and 2 [[Sunken Sailfish]].
+*[[Seashine Sword]] now requires 3 Pearl Shards in its recipe.
+*[[Shield of the Ocean]] now requires 5 Starfish instead of 5 Coral in its recipe.
+*[[Shiny Red Balloon]] now requires 60 [[Gel]] and 20 [[Cloud]]s instead of 80 Gel and 40 Clouds in its recipe.
+*[[Sigil of Calamitas]] now requires 10 Ashes of Calamity instead of 5 in its recipe.
+*The alternative [[Shroomite armor]] recipes are now crafted at an [[Autohammer]] instead of a Hardmode anvil and no longer require and Living Shards.
+*[[Slime Staff]] no longer requires [[Pink Gel]] in its recipe.
+*The alternative [[Spectre armor]] recipes no longer require Living Shards in their recipes.
+*[[Step Stool]] can now be crafted using 15 of Any Wood at a Sawmill.
+*[[Storm Surge]] now requires 3 Pearl Shards in its recipe.
+*[[Terra Blade]] now requires 12 Living Shards instead of 7 in both of its recipes.
+*[[Terra Disk]] now requires 12 Living Shards instead of 8 in its recipe.
+*[[Terra Edge]] now requires 12 Living Shards instead of 7 in both of its recipes.
+*[[Terra Flameburster]] now requires 12 Living Shards instead of 7 in its recipe.
+*[[Terra Lance]] now requires 12 Living Shards instead of 7 in its recipe.
+*[[Terra Ray]] now requires 12 Living Shards instead of 7 in both of its recipes.
+*Both [[Tesla Potion]] recipes now require 1 Pearl Shard.
+*[[The Wand]] now requires 8 Yharon Soul Fragments instead of 5 in its recipe.
+*[[True Forbidden Oathblade]] now requires 8 Ashes of Calamity and 8 Infected Armor Plating instead of 3 of each in its recipe.
+*[[Water Walking Boots]] now requires 5 [[Water Walking Potion]]s instead of 8 in its recipe.
+
+=== Renames ===
+*Renamed Wulfrum Armor to [[Wulfrum Jacket]].
+*Renamed the Wulfrum Blade to [[Wulfrum Screwdriver]].
+*Renamed the Wulfrum Bow to [[Wulfrum Blunderbuss]].
+*Renamed the Wulfrum Helm to [[Abandoned Wulfrum Helmet]].
+*Renamed the Wulfrum Helmet to [[Wulfrum Hat & Goggles]] <!-- & is not a substitution -->
+*Renamed Wulfrum Leggings to [[Wulfrum Overalls]].
+*Renamed the Wulfrum Pickaxe to [[Wulfrum Drill]].
+*Renamed the Wulfrum Staff to [[Wulfrum Prosthesis]].
+*Renamed Victory Shard to Pearl Shard.
+
+=== Resprites ===
+*Resprited [[Fungal Clump]] and Fungal Clump (minion).
+*Resprited [[Fungal Clump]], [[Spirit Defense]], and [[Spirit Power]] buff icons.
+*Resprited [[Cosmilite Brick]].
+*Resprited [[Baguette]], [[Blood Orange (calamity)|Blood Orange]], [[Dragonfruit]], [[Elderberry (calamity)|Elderberry]], and [[Miracle Fruit]].
+*Resprited the heart icons provided by the Blood Orange, Dragonfruit, Elderberry, and Miracle Fruit.
+*Resprited the [[Onyx Excavator Drill]] mount. <!-- The key was not resprited. -->
+*Resprited [[Carnage]], [[Exoblade]], [[Fantasy Talisman]], and [[Ultra Liquidator]].
+*Resprited [[Abandoned Wulfrum Helmet]], [[Wulfrum Hat & Goggles]], [[Wulfrum Jacket]], and [[Wulfrum Overalls]].
+*Resprited [[Wulfrum Drill]].
+*Resprited [[Wulfrum Blunderbuss]], [[Wulfrum Controller]], [[Wulfrum Knife]], [[Wulfrum Prosthesis]], and [[Wulfrum Screwdriver]].
+<!-- Rover Drive energy shield was not resprited, it was replaced with the matrix -->
+
+=== Reworks ===
+*Reworked the [[Abandoned Wulfrum Helmet]], it no longer grants any bonuses when equipped. Instead, it now functions as a vanity covering that, while equipped, transforms the player into a Wulfrum Robot. Additionally, it can also be worn in the head slot, which will not cause the player to transform. It is no longer considered a part of the Wulfrum armor set.
+*Overhauled the [[Difficulty Indicator]], it now serves as the only way to enable [[Revengeance Mode]] and [[Death Mode]] on a world. The Difficulty Indicator will glow until it is pressed the first time. When pressed, the indicator will create a dropdown menu with three options between the world's vanilla difficulty, Revengeance Mode, and Death Mode. Each option will have a corresponding icon, which can be hovered over with the mouse cursor for more information. Additionally, holding down the {{key|Left Shift}} key will expand the descriptions even further. Additionally, there is a fourth option, indicated with the now removed Malice Mode icon, that explains that Malice Mode was removed from the game. Selecting one of the three primary options will apply the difficulty and close the menu. The menu can also be closed by closing the inventory screen. Enabling or disabling Revengeance Mode and Death Mode is prohibited while a boss is alive or if the world is on Classic Mode.
+*Reworked the [[Exoblade]], it no longer fires an exo beam and summons exo comets to protect the player. It now has a custom swing animation, and when swung, it now fires out three exo energy beams that home onto enemies after a short duration. When an exo energy beam damages a target, it will summon two additional light beams that slash the enemy once. It also now has a right-click function that causes the player to quickly lunge forward and fly through the air. The Exoblade does 175% more damage while lunging. Colliding with an enemy while lunging will cause the lunge to prematurely end, powering up the Exo Blade, which causes its next swing to increase the sword size by 230%, and if the sword damages an enemy, it will create a power explosion that deals damage to nearby enemies. Nerfed the Exoblade's base damage from 900 to 640. Exoblade now uses the Melee No Speed damage type and the sword itself no longer inflicts any debuffs, however, its projectiles still inflict the Exo Freeze, Frostburn, Holy Flames, and On Fire! debuffs.
+*Reworked the [[Desert Prowler armor]] set bonus, it no longer causes ranged damage critical hits to occasionally summon a sandstorm. It now grants the player the ability to shroud themselves in a sand cloud. While the sand cloud is active, the player's movement speed is increased by 150%, and dealing damage to enemies will decrease the duration of the sand cloud by 1.5 seconds. Dealing damage within a second of activating the sand cloud will cause your next ranged weapon to automatically critically hit, and have a critical strike damage modifier of 200%. The sand cloak has a base duration of 5 seconds, and has a cooldown of 20 seconds.
+*Reworked the [[Marnite Obliterator]], it no longer functions as a hybrid axe and drill. It now functions akin to the [[Laser Drill]], casting a diamond beam that destroys blocks at the mouse cursor. Additionally, the Marnite Obliterator now has a bonus +7 tile range. Nerfed the Oblitrator's damage from 11 to 7.
+*Reworked the [[Momentum Capacitor]], it no longer consumes stealth when pressing {{key|Momentum Capacitor Effect}} to generate a magnetic field that amplifies Spy projectile velocities. Instead, it now rapidly increases the player's movement speed, bypassing all speed caps, so long as the Momentum Capacitor is being left-clicked by the player. <!-- maximum player speed is +580% -->
+*Reworked the [[Rover Drive]], it no longer periodically generates an energy shield around the player that increases their defense by 15 for 10 seconds. It now generates a protective matrix that absorbs 50 damage and increases the player's defense by 10. The protective matrix lasts indefinitely unless it is un-equipped or until the matrix is broken by damage. The protective matrix has a 10 second cooldown, and taking direct damage while the matrix is on cooldown will reset the cooldown to 10 seconds. Additionally, it can now be used in the [[Extractinator]].
+*Reworked [[Wulfrum armor]]:
+**The Wulfrum Jacket now grants the player 5% damage reduction when worn instead of 3% increased critical strike chance.
+**The Wulfrum armor set bonus no longer grants various effects when equipped with different Wulfrum head pieces. It now always grants +1 minion slots and allows the player to transform into a Wulfrum Bastion if the player presses {{key|Down}} twice and there is at least 1 Wulfrum Metal Scrap in the player's inventory. When transformed, the player can not swap armor, coverings, or use any other items except a Grapple Hook and any buff potions in the player's inventory with a keybind. During the transformation, the player can only fire a prosthetic fusion cannon that shoots pellet projectiles in a burst of three. The Wulfrum Bastion transformation also grants the player an additional 13 defense, and has a base 30 second duration. After the transformation has ended, it will go on cooldown for 20 seconds. If the player takes damage during the transformation, the duration of the transformation will be slightly decreased.
+*Reworked the [[Wulfrum Battery]], in addition to increasing the player's summon damage by 7%, it now causes all minions summoned to emit light, and adds a 50% chance for wulfrum enemies to drop an extra Wulfrum Metal Scrap when killed. Additionally, it can now be used in the Extractinator.
+*Reworked the [[Wulfrum Blunderbuss]], it no longer functions like a bow and now functions as a gun that uses [[Wulfrum Metal Scrap]] or Silver Coins as ammunition. When used, it will consume one Wulfrum Metal Scrap or Silver Coin and gain 30 charges. Each time the blunderbuss is fired, it consumes one charge. When fired, it shoots a large spread of bullets; the bullet spread can be tightened by moving the cursor further away from the player, however, the damage of each shot will be decreased by up to 25% depending on the distance away the cursor is from the player. Increased its use time from 25 to 55, and removed its auto reuse.
+*Reworked the [[Wulfrum Controller]], the Wulfrum Droid minion now recoils after firing its green projectile at enemies, and can no longer fire at enemies through walls. Additionally, it now has a right-click function that causes it to become supercharged. While supercharged, any Wulfrum Droids active return to the player and fire a beam at them, increasing the player's defense and life regeneration by 3. This bonus is additive with each Wulfrum Droid active. Buffed the Wulfrum Controller's base damage from 10 to 16.
+*Reworked the [[Wulfrum Drill]], it now functions like a drill instead of a pickaxe. Decreased its pickaxe power from 40% to 35%.
+*Reworked the [[Wulfrum Knife]], it now throws out knives in a burst of three when used. The second and third knives have spread out slightly as they travel. Its stealth strike now causes each knife to damage an enemy twice, for a total of six hits if all of the knives hit an enemy. It now also has a right-click function that pulls Wulfrum Knives that are not broken on hit back towards the player. <!-- still doesn’t pierce, use is clockwork: usetime of 4, animation of 10, delay of 24 -->
+*Reworked [[Wulfrum Prosthesis]], it no longer functions as a wand that casts a slow green bolt towards enemies. It now replaces the player's arm with a prosthetic that fires out a fast moving homing wulfrum bolt that damages enemies and does not pierce. It now also has a right-click function that drains a nearby enemy of their energy, replenishing the player's mana at a rate of 35/s.
+*Reworked [[Wulfrum Screwdriver]], it no longer functions as a broadsword. It now functions as a shortsword, causing the player to stab in the general direction of their cursor with a screwdriver. Each time an enemy is damaged with the screwdriver, there is a 20% chance that a wulfrum screw will become available above the player's head, which is also indicated by a sound cue. Using right-click with a screw available will cause the player to throw out the screw in the direction the player is looking, damaging an enemy before breaking. If the player hits the screw mid-air with the screwdriver, it will be launched in the direction of the player's cursor, septupling the screw's damage. Only one screw can be available at a time. Additionally, damaging an enemy with the Screwdriver will reset its animation, making repeated hits come out quicker.
+
+=== Additional Changes ===
+*Added official support for the [https://steamcommunity.com/sharedfiles/filedetails/?id=2832487441 Wikithis] Mod.
+*Added additional support for the updated [https://steamcommunity.com/sharedfiles/filedetails/?id=2669644269 Boss Checklist] Mod.
+*Made [[Abyss Gravel]] mine 50% faster.
+*[[Abyssal Treasure]] and [[Sulphuric Treasure]] no longer drops four items when used, to compensate, breaking a pot in the [[Abyss]] or [[Sulphurous Sea]] will now drop 4 of each respective treasure instead of 1.
+*[[Abyss Torch|Abyss Torches]] will now grant the player maximum torch luck while placed in the Abyss, and will negate 4 Torches-worth of luck when placed outside of the Abyss.
+*The [[Acid Rain]] event now plays the "Thunderstorm" music track instead of the "Solar Eclipse" music track if the Calamity Music Mod is not installed.
+*Gave the Aquatic Scourge and Desert Scourge Relics flavor tooltips.
+*[[Ares]] "Exo Overload Beam" will now show up in the death message as "Blenderbeam" if a player is killed by it.
+*[[Arid Artifact]] now increases wind speed whenever it activates a Sandstorm.
+*Armor that grants the player [[Stealth]] no longer have an explanation of the Stealth mechanic in their set bonus tooltips. Instead, the player can now hold {{key|Left Shift}} while hovering the mouse cursor over the Stealth Bar to read the mechanic's explanation.
+*[[Baby Flak Crab]]s no longer drop any money.
+*The [[Charge]] meter and the Stealth Bar can now be clicked through.
+*Underground Chests now have a 50% chance to contain 6 [[Seeking Mechanisms]] of their corresponding biome.
+**[[Sandstone Chest]]s now have a 20% chance to spawn containing a [[Desert Medallion]].
+**[[Security Chest]]s now have a 10% chance to contain a Seeking Mechanism of the next biome in sequential order, excluding chests in the Ice Bio-center Lab.
+***The Frozen Chest in the Ice Bio-center Lab will now always contain [[Arctic Diving Gear]] instead of having a chance to contain the [[Frozen Turtle Shell]] or [[Blizzard in a Balloon]].
+*Removed the "Don't underestimate the …" flavor text from the [[Cosmic Shiv]] and [[Elemental Shiv]]. <!-- Hey reader, if you can think of a better meme tooltip for them, I'll add it, just let me know. - Merkalto -->
+*Increased the volume of the "Draedon's Ambiance" sound effect by 15%.
+*Rewrote the [[Dryad]]'s dialog regarding the buffed Solar Eclipse from "There's a dark solar energy emanating from the moths that appear during this time. Ah, the moths as you progress further get more powerful... hmm... what power was Yharon holding back?" to "There's a dark solar energy emanating from the moths that appear during this time. Ah, as you progress further the moths get more powerful..."
+*The [[Dungeon Guardian]] now has 90% damage reduction instead of 99.99% damage reduction in all modes.
+*Drastically decreased the amount of dust the Elemental Shiv and [[Lucrecia]] create.
+*Removed the [[tgc:Block Swap|Block Swap]] lock on [[Eutrophic Sand]], [[Navystone]], [[Prism Shard]]s, [[Sea Prism]]s.
+*Clarified the exact movement speed bonus granted in the [[Falcon Blade]]'s tooltip.
+*The [[Frosty Flare]], [[Soul of Cryogen]], and [[Winter's Fury]] Frost Shard projectile now only plays its sound effect on enemy hits. Additionally, its volume has been decreased by 30%.
+*The [[Gem Tech armor]] tooltip is now collapsed by default and can be opened by pressing {{key|Left Shift}}.
+*Projectiles that restore HP to the player created by the Auric Tesla armor set bonuses, [[Burnt Sienna]], [[Enchantment|Indignant]] Enchantment, [[Grand Guardian]], and [[Silva armor]] set bonuses can now pass through tiles.
+*Increased the frame rate of the [[Heart of the Elements]] minions.
+*Calamity [[Launchers]] can now use Dry and Liquid Rockets as ammo.
+*Added the [[Luck]] stat to the [[Stat Meter]].
+*Reused the Abyss layer 1 map backgrounds to the Sunken Sea, and gave the Brimstone Crag a different map background.
+*The [[Mechanic]] Town NPC now sells the [[Combat Wrench]] for {{gc|10}} at all times.
+*Permanent Life and Mana upgrades now mention in their tooltips whether or not the player has consumed it before.
+*Permanent Rage and Adrenaline Meter upgrades no longer drop if the player has consumed them.
+*[[Planetoids]] generated on the "For the worthy" world seed now spawn with random pockets of [[Lava]] inside of them.
+*Decreased the [[Research]] requirement for the Armored Shell, Dark Plasma, and Twisting Nether from 25 to 5, and all Calamity [[Crates]] from 10 to 5.
+*Improved how Calamity items are sorted in the Journey Mode Research menu.
+*Increased the spread of Providence, the Profaned Goddess's gores by 75%.
+*All [[Schematics]], excluding Encrypted Schematic (Sunken Sea), now have their tooltips dynamically updated when the player has decrypted them. Additionally, all Schematics now display their lore text using the [[Draedon's Logs]] UI.
+*The Scuttler's Jewel can now be used at an Extractinator.
+*The [[Starter Bag]] now also gives 50 [[Ropes|Rope]] when opened.
+*Decreased [[Step Stool]] sell price from {{gc|1}} to {{cc|20}}.
+*The [[Sulphuric Water Fountain]] now has a custom map color of {{color|#8d794d ●|#8d794d}}
+*The [[Super Dummy]] sprite now plays an animation when hit. <!-- HAHAHAHAH goodbye to all wiki gifs! -->
+*Added a line on the [[Supreme Bait Tackle Box Fishing Station]]'s tooltip clarifying that it allows the player to fish in lava while equipped.
+*Increased the base money cap on the [[Tax Collector]]'s taxes from {{gc|10}} to {{pc|5}}.
+*[[Terraspark Boots]] now grants the player immunity to the [[Burning]] and [[On Fire!]] debuffs while equipped.
+*Added several [[Town NPC]] names:
+**Calder for the [[Bandit]].
+**Outlaw for the [[Guide]].
+**Jade, and Nyapano for the [[Princess]].
+**Kendra for the Beagle [[Town Dog]].
+**Yoshi for the Husky Town Dog.
+**Bear for the Black [[Town Cat]].
+**Felix for the Orange Tabby Town Cat.
+**Katsafaros for any Town Cat.
+**Additionally, the Guide name StreakistYT has been replaced with Streakist.
+*Decreased [[Uelibloom Ore]] sell price from {{gc|24}} to {{gc|1}}, and increased [[Uelibloom Bar]] sell price from {{gc|3}} to {{gc|5}}.
+*Significantly increased Uelibloom Ore spawn frequency and ore vein size.
+*The [[Wizard]] Town NPC now sells Potions of Return for {{gc|4}} in Hardmode and {{gc|8}} post-Moon Lord.
+*The [[Wulfrum Gyrator]], [[Wulfrum Hovercraft]], [[Wulfrum Pylon]], and [[Wulfrum Rover]] now have proper gores.
+
+== Fixes ==
+=== Gameplay ===
+*Fixed a bug that caused Calamity dashes and mounts that deal damage to kill critters while the [[Guide To Critter Companionship]] is equipped.
+*Fixed a bug that caused the [[Rose Stone]] minion to do no damage.
+*Fixed a bug that caused the [[Shaderain Staff]] Shade Nimbus projectiles to not inflict the [[Shadowflame]] debuff.
+*Fixed a bug that prevented the God Slayer armor set bonus dash from working as intended while moving vertically.
+*Fixed a bug that prevented the [[Sirius]] minion's damage scaling with minion slots.
+*Fixed a rare issue with [[Sulphurous Sea]] Scrap piles that caused the game to crash.
+*Fixed an exploit involving the [[Hermit's Box of One Hundred Medicines]] and allowing the player to heal to full at any time.
+*Fixed an exploit that allowed the player to extend dash durations by stacking Vanilla and Calamity dashing armors and coverings.
+*Fixed an issue that allowed the Chlorophyte Life Pulse to deal damage to critters.
+*Fixed an issue that caused the [[Beetle armor]] set, [[Celestial Emblem]], [[Flamarang]], [[Mechanical Glove]], and [[Phoenix Blaster]] to all have no recipes.
+*Fixed an issue that prevented debuffs that decrease enemy defense from doing so.
+*Fixed an issue that prevented the Chlorophyte armor ranged set bonus and the [[Magic Quiver]] from reducing ammo consumption as intended.
+*Fixed an issue that prevented the [[Enchanted Starfish]] from being consumed on use.
+*Fixed an issue that prevented the player from fast-falling if gravity was flipped.
+*Fixed an issue that prevented the Supreme Calamitas arena from spawning as intended in multiplayer.
+*Fixed an issue that prevented the [[Warbanner of the Sun]] from granting the player melee damage, and true melee damage bonuses.
+*Fixed an oversight that allowed the Astral Star projectile, used by several Astral Infection-themed items, to never despawn.
+*Fixed an oversight that allowed Hive Mind to drop the [[Sausage Maker]].
+*Fixed an oversight that allowed the [[Naughty Present]] to be crafted without a Hardmode Anvil.
+*Fixed an oversight that allowed the Stat Meter to display Summoner critical strike chance.
+*Fixed an oversight that allowed several summoner class-based coverings to deal critical hits.
+*Fixed an oversight that nerfed the [[Spectre Mask]] set bonus projectile's damage twice.
+*Fixed an oversight that prevented certain Calamity ores from spawning.
+*Fixed an oversight that prevented the [[Eldritch Soul Artifact]] from giving the player any velocity bonuses as intended.
+*Fixed [[Big Sightseer]] banners not providing its bonus towards Seeker Spit as intended.
+*Fixed certain Underground Chests providing players with a [[Suspicious Looking Eye]] instead of the intended Potion replacements.
+*Fixed clockwork Spy weapons not consuming stealth as intended while using the [[Glove of Recklessness]].
+*Fixed crates, enemies, and treasure bags ignoring loot condition checks.
+*Fixed [[Hellborn]]'s explosion bonus increasing use time instead of decreasing it as intended.
+*Fixed players receiving damage even if they have activated a dodge.
+*Fixed Spy weapons missing their stealth strike damage tooltips.
+*Fixed Spy weapons being unable to receive a prefix on world generation or when crafting.
+*Fixed Pumpler projectiles dealing bonus typeless damage on hit. <!-- Includes a fix to pumpler projectiles hitting town NPCs -->
+*Fixed the Astral Chest causing world generation to fail.
+*Fixed the [[Molten Quiver]] not working as intended with Calamity Bows that replace Wooden Arrows.
+*Fixed the [[Prismatic Breaker]] right-click function not receiving auto swing as intended.
+*Fixed the Shop Alert icon appearing on [[Bandit]] for removed items.
+*Fixed the [[Terrarian]] not being able to recipe the Legendary prefix.
+*Fixed unknown packet exceptions destroying stack trace.
+
+=== Visual ===
+*Fixed a grammatical error on the [[Pwnhammer]] tooltip.
+*Fixed Acid Rain Tier 3 being displayed at the incorrect point in progression on the Boss Checklist mod.
+*Fixed augmented Vanilla armor sets displaying their tooltips while they are equipped in social covering slots.
+*Fixed [[Blood Pact]] and the [[Core of the Blood God]] not updating the tooltips of Healing Potions as intended.
+*Fixed Brain Coral tiles generating bubbles while the game is paused.
+*Fixed "brimflame frenzy" being written as "brimstone frenzy" on the last tooltip line of the [[Brimflame armor]] set bonus.
+*Fixed Calamitas' screen shader incorrectly drawing on larger Resolutions.
+*Fixed [[Dark Artist armor]] and [[Shinobi Infiltrator armor]] set bonuses tooltips mentioning outdated bonuses that have been removed.
+*Fixed [[Demonshade armor]] arms being incorrectly drawn on the player.
+*Fixed [[Elysian Wings]] tooltip giving the incorrect Horizontal Speed stat.
+*Fixed [[Flarewing Bow]] tooltip mentioning an incorrect number of arrows fired.
+*Fixed [[Gladiator armor]]'s set bonus tooltip only being half written.
+*Fixed Hadarain Wings tooltip not updating if the player changes wing hover controls.
+*Fixed [[Laudanum]] and [[Occult Skull Crown]] mentioning War Cleave in their tooltips despite its removal.
+*Fixed Lavafall sprite colors in the [[Brimstone Crag]] biome.
+*Fixed [[Nuclear Fury]] projectiles not fully spinning.
+*Fixed "Set bonus:" not being written on the [[Snow armor]] set bonus tooltip.
+*Fixed [[Space Gun]]'s tooltip being written twice.
+*Fixed sprite errors on the [[Virid Vanguard]] blade and the alternative [[Sepulcher]] body.
+*Fixed the [[Abombination]] and [[Rune of Kos]] mentioning incorrect boss enrage conditions on their tooltips.
+*Fixed [[Wands]] being offset twice while held.
+
+== Removals ==
+*Removed [[Malice Mode]].
+*Removed [[Blood Fountain of Revengeance]], [[Marnite Bayonet]], [[Marnite Spear]], [[Satanic Scepter of Death]], [[Scarred Angelfish]], [[Tormented Mind of Malice]], [[Wulfrum Axe]], [[Wulfrum Fishing Pole]], [[Wulfrum Hammer]], [[Wulfrum Headgear]], [[Wulfrum Mask]], [[Wulfrum Visage]].
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}
+
+[[es:2.0.1.001]]

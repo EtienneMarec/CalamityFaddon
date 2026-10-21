@@ -1,0 +1,46 @@
+{{item infobox
+| type = Weapon
+| damage = 49
+| damagetype = magic
+| auto = yes
+| knockback = 3.75
+| mana = 17
+| rare = 10
+| stack = 1
+| sell = {{value|0|20}}
+| use = 15
+| velocity = 13
+| tooltip = Shoots a massive spread of bubbles
+| hardmode = yes
+| postml = yes
+| proj = Uber Bubble.png
+| projcaption = Uber Bubble
+| proj2 = Blue Bubble.png
+| proj2caption = Blue Bubble
+| element1 = Poison
+| element2 = Water
+}}
+{{distinguish|Vortexpopper|a [[ranged weapon]] that also fires bubbles}}
+
+'''Effervescence''' is a craftable Godseeker Mode [[magic gun]]. It fires a spread of four purple bubbles that travel in a straight line before simultaneously erupting into three blue bubbles each; the blue bubbles travel in the same direction as the purple bubbles and linger before popping. The purple bubbles can pierce infinitely while the blue bubbles pop upon contacting an enemy and have slight homing properties; additionally, both types of bubbles will pop upon contact with tiles.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The high amount of projectiles spawned by this weapon make it ideal for crowd control or damaging large enemies many times.
+**Note that the high amount of projectiles spawn can cause drops in frame rate, especially on low-end computers.
+
+== Trivia ==
+*In chemistry, [[wikipedia:effervescence|effervescence]] is the escape of gas from [[wikipedia:aqueous solution|aqueous solutions]], which causes bubbles and fizzing.
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Magic guns]]

@@ -1,0 +1,90 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Fools and Fixes
+| release = 4/1/2019
+| pair = 1.4.2.001 (music)
+}}
+{{tocright}}
+The '''1.4.2.004''' update fixed a handful of issues and inconsistencies within the mod. 
+
+== Additions ==
+*Added a rare, functionless [[status message]] that has a 0.000001% chance of occurring every frame. <!---THE LORDE is approaching...--->
+*Added a [[Configuration option]] to disable [[Lethal Lava Burn]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*[[Aquatic Scourge]] now enrages if the player has the [[Gravitation Potion]]'s effects active.
+*Slightly decreased the smaller [[Astrum Deus]]' speeds.
+*[[The Devourer of Gods]] no longer loses its [[Ichor (debuff)|Ichor]] and [[Cursed Inferno]] immunities in Boss Rush.
+*[[Lunatic Cultist]] no longer drops [[Meld Blob]]s.
+*Decreased the speeds of [[The Plaguebringer Goliath]]'s [[Plague Charger]]s.
+*Decreased [[Probe]]'s health multiplier from {{dv|0|0|1.8x|2.7x}} to {{dv|0|0|1.6x|1.9x}}.
+*Revengeance Mode [[Skeletron Prime]] now enrages if the player has the Gravitation Potion's effects active.
+*[[The Twins]] now enrage in Revengeance Mode if the player has the Gravitation Potion's effects active.
+*[[Wulfrum Drone]]s and [[Wulfrum Slime]]s can now spawn in Hardmode, but with a rarer chance instead of becoming unspawnable in Hardmode.
+
+=== [[Items]] ===
+*Internally gave some items the {{rare|10}} rarity. A full list can be found below:
+{{collapse top}}
+*[[Bloodstone]].
+*[[Brimrose]].
+*[[Calamitous Essence]].
+*[[Celestial Onion]].
+*[[Cosmic Plushie]].
+*[[Darksun Fragment]].
+*[[Dimensional Soul Artifact]].
+*[[Dragonfruit]].
+*[[Ectoheart]].
+*[[Eldritch Soul Artifact]].
+*[[Endothermic Energy]].
+*[[Fabsol]].
+*[[Fox Drive]].
+*[[Godly Soul Artifact]].
+*[[Levi]].
+*[[Nightmare Fuel]].
+*[[Omega Healing Potion]].
+*[[Phantom Heart]].
+*[[Phantoplasm]].
+*[[Red Lightning Container]].
+*[[Shadowspec Bar]].
+*[[Suspicious Looking Jelly Bean]].
+*[[Supreme Healing Potion]].
+*[[Supreme Mana Potion]].
+*[[Uelibloom Bar]].
+*[[Uelibloom Ore]].
+{{collapse bottom}}
+*[[The Amalgam]] and [[Fungal Clump]]'s Fungal Clump can no longer heal off of enemies with the canGhostHeal tag set to false.
+*[[Amidias' Trident]]'s whirlpools now have afterimages.
+*Buffed [[Cosmic Bolter]]'s damage from 60 to 70, changed its rarity from {{rare|7}} to {{rare|8}}, and increased its sell price from {{gc|12}} to {{gc|16}}.
+*[[Eye of Desolation]] is no longer consumable and no longer stacks to 20.
+*[[Gilded Proboscis]] can no longer heal off of enemies with the canGhostHeal tag set to false.
+*[[Icebreaker]] is now a rogue weapon instead of a melee weapon.
+*[[Mollusk Shellmet]] no longer reduce the player's movement speed, but a full set of [[Mollusk armor]] will now constantly reduce the player's horizontal speed. 
+*Mollusk armor and [[Shellfish Staff]]'s Shellfish no longer harm enemies with over 9999 defense.
+*[[Cosmic Worm]], [[Dragon Egg (summoning)]], [[Necroplasmic Beacon]], and [[Profaned Core]] can no longer be used if a boss hasn't been defeated yet.
+*[[Chaos State]] inflicted by [[Normality Relocator]] now causes the player to take 50% more damage.
+*Increased [[Raider's Talisman]]'s maximum damage boost from 15% to 25%.
+*[[Starcore]] no longer stacks to 20.
+*Buffed [[Starnight Lance]]'s damage from 60 to 68.
+*The [[Starter Bag]] now contains 150 [[Wulfrum Knife|Wulfrum Knives]] instead of 75 [[Shuriken]]s and [[Throwing Knife|Throwing Knives]].
+*Increased [[Vehemence]]'s damage cap from 500,000 to 1,000,000.
+
+=== Other ===
+*The [[Drunk Princess]] now has a chat option that displays how many times a player has died.
+*The [[Sea King]] now requires [[Desert Scourge]] to be defeated to respawn.
+*Decreased the [[Witch Doctor]]'s price for [[Birb Pheromones]] from {{pc|20}} to {{pc|5}}.
+*The Wizard no longer sells Eyes of Desolation or Starcores.
+
+== Fixes ==
+*Fixed some tile drawing errors with placed [[Ashen Slab]], [[Astral Monolith]], [[Cosmilite Brick]], [[Otherworldly Stone]], [[Smooth Brimstone Slag]], [[Smooth Voidstone]], [[Plagued Plate]], [[Profaned Rock]], [[Profaned Slab]], [[Runic Profaned Brick]], [[Stratus Bricks]], [[Uelibloom Brick]], [[Voidstone]] and [[Voidstone Slab]] on certain lighting modes.
+*Fixed [[Bear's Eye]]'s Bear pet and [[Trash Can (pet)]]'s Trash Man getting stuck in blocks.
+*Fixed an oversight where [[Effulgent Manipulator]], [[Silva Chandelier]], [[Silva Chest]], [[Silva Clock]], and [[Silva Crystal]] could only be crafted with [[Gold Bar]]s and not [[Platinum Bar]]s.
+*Fixed the [[Eidolon Staff]] being unobtainable in Expert Mode and higher.
+*Fixed [[Eutrophic Platform]]s not being able to be crafted back into [[Navystone]].
+*Fixed a typo in [[The Plaguebringer Goliath (Lore)]]'s flavor text where "contained" was spelt as "containted".
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

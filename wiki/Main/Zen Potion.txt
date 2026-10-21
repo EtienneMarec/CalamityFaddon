@@ -1,0 +1,32 @@
+{{item infobox
+| type = Potion
+| type2 = Crafting material
+| stack = 9999
+| use = 17
+| tooltip = Vastly decreases enemy spawn rate
+| consumable = yes
+| rare = 4
+| buff = Zen | bufflink = no
+| duration = 15 minutes
+| bufftip = Spawn rates are reduced
+| sell = {{value|0|0|40}}
+}}
+
+The '''Zen Potion''' is a craftable [[Pre-Hardmode]] [[Buff Potions|buff potion]]. It grants the '''Zen''' [[buff]], which reduces enemy spawn rates by 60% and maximum spawn count by 70%. It is also used in the crafting of the [[Tranquility Candle]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Zen Potion is the exact opposite of the [[Zerg Potion]], which greatly increases enemy spawn rate.
+
+== Trivia ==
+*The appearance of the Zen Potion is based off the [[wikipedia:Yin_and_yang|Yin Yang]], a traditional chinese symbol.
+
+{{Master Template Consumables
+| show-main = yes
+| show-buff = yes
+}}

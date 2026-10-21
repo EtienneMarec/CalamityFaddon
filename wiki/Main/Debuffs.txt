@@ -1,0 +1,654 @@
+'''Debuffs''' are status effects that affect the player or target negatively. This is a comprehensive list of all debuffs added by the Calamity Mod.
+
+Calamity removes the buff slot limit, allowing the concurrent infliction of far more debuffs on enemies.
+
+== From [[enemies]] ==
+{{item/options|mode=table}}
+{| class="terraria"
+! width="45" | Icon
+! width="90" | Name
+! width="160" | From
+! width="417" | Effect
+! width="203" | Tooltip
+|-
+|{{item|Abyssal Flames}}
+|[[Supreme Calamitas]], [[Supreme Catastrophe]], [[Supreme Cataclysm]], [[Soul Seeker]]s, and melee weapons with [[Calamitas' Brew]] or [[Elemental Gauntlet]].
+|If inflicted on an enemy: Target loses 62.5 health per second and 6 defense.<br/>If inflicted on a player: Target loses 8 health per second, 6 defense, and no life regeneration.
+|Your soul is being consumed
+|-
+|{{item|Armor Crunch}}
+|[[Golem]], any type of [[Biome Blade]], [[Earth Elemental]] weapons, [[Spear of Paleolith]], [[The Ballista]], [[Apotheosis]], and melee and Spy attacks with [[Crumbling Potion]] or [[Shattering Potion]].
+|If inflicted on an enemy: Target loses 10 defense.<br/>If inflicted on a player: Target loses 10 defense and 66.67% damage reduction.
+|Your armor is shredded
+|-
+|{{item|Ancient Astral Blight}}
+|[[Astrum Deus]] and the blighted weapons it drops.
+|If inflicted on an enemy: Target loses 52 health per second and 10 defense.<br/>If inflicted on a player: Target loses 14 health per second, 12 defense and 15% movement speed.
+|An ancient cosmic affliction spreads through you
+|-
+|{{item|Astral Infection (debuff)}}
+|[[Astrum Aureus]], Enemies in the [[Astral Infection]] biome and weapons crafted from [[Astral Bar]]s or dropped by enemies in the Astral Infection.
+|If inflicted on an enemy: Target loses 37.5 health per second and 6 defense.<br/>If inflicted on a player: Target loses 10 health per second, 6 defense and 15% movement speed.
+|Your flesh is melting off
+|-
+|{{item|Boss Effects}}
+|While any [[boss]] is alive
+|Reduces spawn rate by 80% and maximum spawn count by 99.9%.
+|The active boss is reducing spawn rates...a lot
+|-
+|{{item|Brimstone Flames}}
+|[[Calamitas]], [[Catastrophe]], [[Cataclysm]], [[Brimstone Elemental]], [[Calamity Eye]]s, [[Soul Slurper]]s, [[The Slime God]], [[Heat Spirit]]s, and various [[weapons]].
+|If inflicted on an enemy: Target loses 20 health per second.<br/>If inflicted on a player: Target loses 8 health per second.
+|Rapid health loss
+|-
+|{{item|Burning Blood}}
+|[[The Perforators]], [[Fulguration Halberd]], [[Utensil Poker]]
+|If inflicted on an enemy: Target loses 25 health per second.<br/>If inflicted on the player: Target loses 4 health per second, 3 defense, and the Darkness debuff is inflicted. Melee damage and move speed are slightly increased, but melee speed, ranged damage, and magic damage are slightly decreased.
+|Your blood is on fire
+|-
+|{{item|Clamity}}
+|[[Giant Clam]]
+|Spawn rates of [[Clam]]s go up and Clams become aggressive, all other spawn rates are reduced to zero
+|The clams have been angered!
+|-
+|{{item|Crush Depth}}
+|[[The Abyss]], [[Bloatfish]], [[Bobbit Worm]]s, [[Colossal Squid]]s, [[Eidolon Wyrm]]s, [[Giant Squid]]s, [[Gulper Eel]]s, [[Reaper Shark]]s, and various weapons.
+|If inflicted on an enemy: Target loses 30 health per second (in Pre-Hardmode) or 200 health per second (in Hardmode)<br/>If inflicted on a player: Target loses 9 health per second.<br/>The higher defense a target has, the less damage taken per second.
+|Aquatic pressure
+|-
+|{{item|Dragon Fire}}
+|[[Jungle Dragon, Yharon]], [[Profaned Guardians]]
+|Player loses 9 health per second and 15% movement speed.
+|Losing life, reduced movement speed
+|-
+|{{item|Embers of Civilization}}
+|[[The Wall of Bronze]], [[Metal Maw]], [[Mechanical Leech]], [[Large Father]], [[A M S]], [[The WOBbler]], [[Bronze Serpent]], [[Clockwork Bat]].
+|If inflicted on an enemy: Target loses 50 health per second and 15% [[Damage Reduction]].<br/>If inflicted on a player: Target loses 15 health per second, 15% damage inflicted on enemies, uses 30% more mana and loses 3 minion slots for the duration of the debuff.
+|Ashes to ashes, bronze to bronze
+|-
+|{{item|Embers of Duality}} {{dei}}
+|[[The Starborn Moth]] and the items she drops, [[Mechawyrm]], and [[Empyreon]].
+|If inflicted on an enemy: Target loses 35 health per second and 10% [[Damage Reduction]]. Portals appear around the target that fire friendly bolts.<br/>If inflicted on a player: Target loses 7% defense and damage reduction. Portals appear around the target that fire bolts and summon spirits.
+|Celestial voids are manifesting around you; defense and damage reduction reduced
+|-
+|{{item|Extreme Gravity}}
+|[[Astrum Deus]], [[The Devourer of Gods]]
+|All infinite flight is disabled, and maximum flight time is reduced by 25%.
+|Your wing time is reduced by 25%, infinite flight is disabled
+|-
+|{{item|Fish Alert}}
+|[[Luminous Corvina]]
+|Enemies in the Abyss can notice the player more easily and from further away.
+|The abyssal creatures have spotted you!
+|-
+|{{item|Glacial State}}
+|[[Cryogen]], [[Cryon]], [[Ice Clasper]], [[Ice Golem]], and various weapons.
+|Target loses 10 defense and cannot move at all.
+|Cannot move and defense is shattered
+|-
+|{{item|God Slayer Inferno}}
+|[[The Devourer of Gods]], [[Cosmic Guardian]], and various weapons.
+|If inflicted on an enemy: Target loses 125 health per second and 10 defense.<br/>If inflicted on a player: Target loses 15 health per second, 10 defense and 15% movement speed.
+|Your flesh is burning off
+|-
+|{{item|Hemorrhaging}}
+|[[Great Sand Shark]], and [[Bleeding Influx]]
+|No Health Regeneration<br/>-25% movement speed and acceleration.<br/>If inflicted on an enemy: Target loses 0.3% of their max health.<br/>If inflicted on a player: Target loses 1% of their max health, increased to 2.5% if they are moving horizontally.
+|You're losing way too much blood
+|-
+|{{item|Holy Flames}}
+|[[Providence, the Profaned Goddess]], [[Sunskater]], [[Sun Bat]], and various weapons.
+|If inflicted on an enemy: Target loses 25 health per second.<br/>If inflicted on a player: Target loses 8 health per second.
+|Dissolving from holy light
+|-
+|{{item|Holy Inferno}}
+|[[Providence, the Profaned Goddess]]
+|Target takes damage that exponentially increases in severity as time spent away from Providence increases to a maximum of 100 health per second.
+|You've gone too far from the Profaned Goddess!
+|-
+|{{item|Icarus' Folly}}
+|[[Providence, the Profaned Goddess]]
+|All infinite flight is disabled, maximum flight time is reduced by 33%.
+|Your wing time is reduced by 33%, infinite flight is disabled.
+|-
+|{{item|Irradiated}}
+|[[Acid Rain]] enemies, [[Helium Flash]], [[Karasawa]], and several Acid Rain themed weapons.
+|If inflicted on an enemy: Target loses 10 health per second.<br/>If inflicted on a player: Target loses 10 defense, 10% damage reduction and 10% movement speed but gains 5% damage and 50% minion knockback.
+|Your skin is burning off
+|-
+|{{item|Moon Burnt}}
+|[[Providence, the Profaned Goddess]], [[Profaned Energy]], [[Polterghast]], various weapons, and [[Umbraphile armor]].
+|If inflicted on an enemy: Target loses 100 health per second.<br />If inflicted on a player: Target loses 8 health per second.
+|Incinerated by lunar rays
+|-
+|{{item|Plague}}
+|[[The Plaguebringer Goliath]], [[Plaguebringer]]s, [[Melter]]s, [[Plagueshell]]s, [[Viruling]]s, [[Pestilent Slime]]s, [[Plague Charger]]s, and various weapons.
+|If inflicted on an enemy: Target loses 50 health per second and 4 defense.<br/>If inflicted on a player: Target loses 10 health per second, 4 defense, and 15% movement speed, and their vision is darkened.
+|Rotting from the inside
+|-
+|{{item|Sulphuric Poisoning}}
+|Water in the [[Sulphurous Sea]], several weapons, [[Nuclear Terror]]s, and [[Radiator]]s post-[[Polterghast]]
+|If inflicted on an enemy: Target loses 90 health per second.<br/>If inflicted on a player: Target loses 3 health per second and natural regen is disabled.
+|The acidic water burns away your flesh
+|-
+|{{item|Vaporfied}}
+|Various light, rainbow, and mediocre matter themed weapons and enemies, [[XF-09 Ares]]
+|If inflicted on an enemy: Target loses 25 health per second and has 15% reduced movement speed.<br/>If inflicted on a player: Target loses 10 health per second, 2 defense, 10% movement speed, has afterimages that persist until the debuff ends, and their vision is darkened.
+|Vaporizing senses and mind
+|-
+|{{item|Vulnerability Hex}}
+|[[Supreme Calamitas]], [[Supreme Cataclysm]], [[Supreme Catastrophe]], and [[Soul Seeker|Soul Seekers]]
+|Disables life regeneration, target loses 8 health per second, 30 defense, 30% damage reduction, and 10% move speed, and their vision is darkened. Flight time is reduced by 75% and all infinite flight is disabled.
+|You are weak
+|-
+|{{item|Warped}}
+|[[The Devourer of Gods]]
+|Target has increased vertical acceleration.
+|Movement is being warped
+|-
+|{{item|War Cleave}}
+|[[Overloaded Soldier]], [[Phantom Debris]], [[Temporal Umbrella]], [[Waraxe]], [[Warblade]]
+|Target's defense is reduced by 15 and damage reduction is reduced by 25%.
+|Defense and protection reduced
+|-
+|{{item|Weak Petrification}}
+|[[Ravager]]
+|Disables additional jumps and jump height boosts. Flight time is reduced by 50%, all infinite flight and mounts are disabled.
+|Your vertical movement is weakened
+|-
+|{{item|Whispering Death}}
+|[[Signus, Envoy of the Devourer]], [[The Devourer of Gods]], [[Omniblade]]
+|If inflicted on an enemy: Target's defense is reduced by 50.<br/>If inflicted on a player: Target's defense is reduced by 20, damage reduced by 10%, movement speed reduced by 10%, and no life regen.
+|Death approaches; defense, movement speed, attack power and life regen reduced
+|-
+|{{item|Defiled One}}
+|[[DWN-∞, Zero]]
+|removes the player's wing flight and multi-jumps. Grants user unique double jump.
+|Your wings falter<br/>Wing time and double jumps disabled; new double jump given
+|}
+
+== From the [[Drunk Princess]]' Drinks ==
+{| class="terraria"
+!width="45em"| Icon
+!width="90em"| Name
+!width="90em"| From
+!width="417em"| Effect
+!width="203em"| Tooltip
+|-
+|{{item|Alcohol Poisoning}}
+|Consuming more than three drinks at a time.
+|Reduces the player's life regen by 3 for each drink debuff currently active.
+|You drank too much and you are now dying
+|-
+|{{item|Bloody Mary (debuff)}}
+|[[Bloody Mary]]
+|Boosts damage and melee speed by 15%, movement speed by 10% and critical strike chance by 7% during a Blood Moon Reduces life regen by 2 and defense by 4%.
+|Damage, critical strike chance, movement speed, and melee speed boosted during a Blood Moon, life regen and defense reduced
+|-
+|{{item|Caribbean Rum (debuff)}}
+|[[Caribbean Rum]]
+|Boosts life regen by 2, movement speed by 10% and wing flight time by 20%. Makes you floaty and reduces defense by 10%.
+|Life regen, movement speed, and wing flight time boosted, you are floaty and defense is reduced
+|-
+|{{item|Cinnamon Roll (debuff)}}
+|[[Cinnamon Roll]]
+|Boosts mana regeneration rate and multiplies all fire-based weapon damage by 1.1. Reduces defense by 10%.
+|Mana regen rate and fire weapon damage boosted, defense reduced
+|-
+|{{item|Everclear (debuff)}}
+|[[Everclear]]
+|Boosts damage by 25%. Reduces life regen by 10 and defense by 30%.
+|Damage boosted, life regen and defense reduced
+|-
+|{{item|Evergreen Gin (debuff)}}
+|[[Evergreen Gin]]
+|Multiplies nature-based weapon damage by 1.1 and increases damage reduction by 5%. Reduces life regen by 1.
+|Nature-based weapon damage and damage reduction boosted, life regen reduced
+|-
+|{{item|Fluorescent}}
+|[[Fluorescent Vodka]]
+|Increases all damage by 8% and lengthens immune time after being struck. Decreases defense by 10%.
+|You feel lively
+|-
+|{{item|Fireball (debuff)}}
+|[[Fireball]]
+|Multiplies all fire-based weapon damage by 1.1. Reduces life regen by 1.
+|Fire weapon damage boosted, life regen reduced
+|-
+|{{item|Grape Beer (debuff)}}
+|[[Grape Beer]]
+|Reduces defense by 3% and movement speed by 5%.
+|Defense and movement speed reduced
+|-
+|{{item|Margarita (debuff)}}
+|[[Margarita]]
+|Halves the duration to most debuffs. Reduces defense by 6% and life regen by 1.
+|Reduced duration to most debuffs, defense and life regen reduced
+|-
+|{{item|Moonshine (debuff)}}
+|[[Moonshine]]
+|Increases defense by 10 and damage reduction by 5%. Reduces life regen by 1.
+|Defense and damage reduction boosted, life regen reduced
+|-
+|{{item|Moscow Mule (debuff)}}
+|[[Moscow Mule]]
+|Boosts damage and knockback by 9% and critical strike chance by 3%. Reduces life regen by 2.
+|Damage, critical strike chance, and knockback boosted, life regen reduced
+|-
+|{{item|Red Wine (debuff)}}
+|[[Red Wine]]
+|Reduces life regen by 1.
+|Life regen reduced
+|-
+|{{item|Rum (debuff)}}
+|[[Rum]]
+|Boosts life regen by 2 and movement speed by 10%. Reduces defense by 5%.
+|Movement speed and life regen boosted, defense reduced
+|-
+|{{item|Screwdriver (debuff)}}
+|[[Screwdriver]]
+|Multiplies piercing projectile damage by 1.05. Reduces life regen by 1.
+|Piercing projectile damage boosted, life regen reduced
+|-
+|{{item|Star Beam Rye (debuff)}}
+|[[Star Beam Rye]]
+|Boosts max mana by 50, magic damage by 8%, and reduces mana usage by 10%. Reduces defense by 6% and life regen by 1.
+|Max mana and magic damage increased. Defense, mana usage, and life regen reduced
+|-
+|{{item|Tequila (debuff)}}
+|[[Tequila]]
+|Boosts damage, damage reduction, and knockback by 3%, critical strike chance by 2%, and defense by 5 during daytime. Reduces life regen by 1.
+|Damage, critical strike chance, damage reduction, defense, and knockback boosted during daytime, life regen reduced
+|-
+|{{item|Tequila Sunrise (debuff)}}
+|[[Tequila Sunrise]]
+|Boosts damage, damage reduction, and knockback by 7%, critical strike chance by 3%, and defense by 10 during daytime. Reduces life regen by 1.
+|Damage, critical strike chance, damage reduction, defense, and knockback boosted during daytime, life regen reduced
+|-
+|{{item|Vodka (debuff)}}
+|[[Vodka]]
+|Boosts damage by 6% and critical strike chance by 2%. Reduces life regen by 1 and defense by 5%.
+|Damage and critical stike chance boosted, defense and life regen reduced
+|-
+|{{item|Whiskey (debuff)}}
+|[[Whiskey]]
+|Boosts damage and knockback by 4% and critical strike chance by 2%. Reduces defense by 5%.
+|Damage, critical strike chance, and knockback boosted, defense reduced
+|-
+|{{item|White Wine (debuff)}}
+|[[White Wine]]
+|Boosts magic damage by 10%. Reduces defense by 6% and life regen by 1.
+|Magic damage boosted, life regen and defense reduced
+|-
+|}
+
+== From Items and the Environment ==
+{| class="terraria"
+! width="45" | Icon
+! width="90" | Name
+! width="160" | From
+! width="417" | Effect
+! width="203" | Tooltip
+|-
+|{{item|Abyssal Diving Suit Plates Broken}}
+|[[Abyssal Diving Suit]]
+|The effect of the Abyssal Diving Suit Plates buff is reversed.
+|The plates are regenerating
+|-
+|{{item|Abyssal Evade Cooldown}}
+|[[Abyssal Mirror]]
+|The evade effect from the Abyssal Mirror cannot trigger for 20 seconds.
+|Your Abyssal Mirror's dodge is recharging
+|-
+|{{item|Abyssal Madness Cooldown}}
+|[[Omega Blue armor]]
+|Disabled usage of [[Abyssal Madness]] for 30 seconds.
+|Your abyssal madness is recharging
+|-
+|{{item|Blood Frenzy Cooldown}}
+|[[Bloodflare armor]] and [[Auric Tesla armor]]
+|[[Blood Frenzy]] cannot trigger for 30 seconds.
+|Your blood frenzy is recharging
+|-
+|{{item|Bloodflare Soul Cooldown}}
+|[[Bloodflare armor]] and [[Auric Tesla armor]]
+|Disabled usage of [[Bloodflare Soul]] for 30 seconds.
+|Your souls are recharging
+|-
+|{{item|Brimflame Frenzy Cooldown}}
+|[[Brimflame armor]]
+|Disabled usage of [[Brimflame Frenzy]] for 30 seconds.
+|Your use of brimstone magic has left you exhausted
+|-
+|{{item|Burnt Out}}
+|[[Profaned Soul Artifact]]
+|The Guardians' stat boosts and healing effects are disabled.
+|You've been burnt out and your guardians are less effective
+|-
+|{{item|Calamitous Anxiety}} {{fantag|Calamity: Community Remix}}
+|[[Sugars of Calamity]]
+|15% increased movement speed, and 5 increased defense. 50% decreased damage and 90% decreased critical strike chance.
+|Something is watching your every move
+|-
+|{{item|Calamitous Dysphoria}} {{fantag|Calamity: Community Remix}}
+|[[Sugars of Calamity]]
+|10 decreased defense, 10% decreased movement speed, 20% decreased damage, 20% decreased critical strike chance, 40% reduced mining speed.
+|You feel like something is out of place, but don't know what it is
+|-
+|{{item|Concoction Cooldown}}
+|[[Permafrost's Concoction]]
+|The [[Death Prevention|revive]] effect from Permafrost's Concoction cannot trigger for 3 minutes.
+|Revive is recharging
+|-
+|{{item|Divine Recharge}}
+|[[Angelic Alliance]]
+|Disabled usage of [[Divine Bless]] for 1 minute.
+|Your divine powers are recharging
+|-
+|{{item|Draconic Surge Cooldown}}
+|[[Draconic Elixir]]
+|[[Draconic Surge]] cannot trigger for 30 seconds.
+|A mysterious force prevents the absorption of draconic energy
+|-
+|{{item|Eclipse Evade Cooldown}}
+|[[Eclipse Mirror]]
+|The evade effect from the Eclipse Mirror cannot trigger for 20 seconds.
+|Your Eclipse Mirror's dodge is recharging
+|-
+|{{item|Energy Shell Cooldown}}
+|[[Lion Heart]]
+|The energy shell effect from the Lion Heart cannot trigger for 45 seconds.
+|Your energy shell is recharging
+|-
+|{{item|Enraged}}
+|[[Demonshade armor]]
+|The player deals 125% more damage but takes 25% more damage.
+|All damage taken is increased by 25%
+|-
+|{{item|Evasion Scarf Cooldown}}
+|[[Evasion Scarf]]
+|Cannot perform another dodge with the [[Evasion Scarf]] for 13 seconds.
+|Your dodge is recharging
+|-
+|{{item|Flesh Totem Cooldown}}
+|[[Flesh Totem]] and [[Core of the Blood God]]
+|The decreased damage effect from the Flesh Totem cannot trigger for 20 seconds.
+|The Flesh Totem effect is recharging
+|-
+|{{item|Freezing Weather}}
+|[[Blizzard]]s during [[Death Mode]]
+|Gradually decreases the player's speed over time, freezes them after 30 seconds, then kills them 3 seconds later.
+|The weather slows your movement as you freeze to death
+|-
+|{{item|Frozen Lungs}}
+|Water in the [[Snow biome]] and [[Ice biome]] in [[Expert Mode]]
+|The breath meter decreases significantly faster.
+|The icy waters restrict your breathing
+|-
+|{{item|God Slayer Cooldown}}
+|[[God Slayer armor]] and [[Auric Tesla armor]]
+|Disabled usage of God Slayer Dash for 35 seconds.
+|God Slayer dash is recharging
+|-
+|{{item|Heat Exhaustion}}
+|[[The Underworld]] during [[Death Mode]]
+|Inflicts increasingly debilitating debuffs onto the player over the course of 30 seconds.
+|The overwhelming heat weakens your bodily functions
+|-
+|{{item|Ice Shield Cooldown}}
+|[[Aquatic Heart]]
+|Prevents the player from absorbing damage for 30 seconds.
+|The shield is regenerating
+|-
+|{{item|Ink Bomb Cooldown}}
+|[[Ink Bomb]]
+|The smoke effect from the Ink Bomb cannot trigger for 20 seconds.
+|Your Ink Bomb is recharging
+|-
+|{{item|Mana Burn}}
+|[[Chaos Stone]] if the player is inflicted with [[Mana Sickness]]
+|Exponentially deals more damage to the player over time, peaking at 36 damage per second. Replaces Mana Sickness.
+|The excess of mana sears your body and mind.
+|-
+|{{item|Noseless Popo}}
+|[[Magic Scarf and Hat]]
+|The player (as a snowman) loses their nose
+|Your nose has been stolen!
+|-
+|{{item|Plague Blackout Cooldown}}
+|[[Plague Reaper armor]]
+|The plague blackout effect from the Plague Reaper armor cannot trigger for 25 seconds.
+|Your plague blackout ability is recharging
+|-
+|{{item|Prismatic Cooldown}}
+|[[Prismatic armor]]
+|The laser attack from the Prismatic armor cannot be used for 30 seconds.
+|Your laser attack is recharging
+|-
+|{{item|Resilience Cooldown}}
+|[[Relic of Resilience]]
+|Disallows the player from summoning in a new artifact of resilience.
+|You cannot re-summon a relic of resilience
+|-
+|{{item|Sand Cloak Cooldown}}
+|[[Sand Cloak]]
+|Disabled usage of [[Sand Cloak|Sand Cloak Effect]] for 30 seconds.
+|Your Sand Cloak is recharging
+|-
+|{{item|Scarf Cooldown}}
+|[[Counter Scarf]]
+|Cannot perform another dodge with the [[Counter Scarf]] for 15 seconds.
+|Your dodge is recharging
+|-
+|{{item|Searing Lava}}
+|[[Lava]] in the [[Brimstone Crag]]
+|Player loses 15 health per second.
+|The brimstone lava sears your flesh
+|-
+|{{item|Sunken Withdrawal}} {{fantag|Calamity: Community Remix}}
+|[[Ashes of the Sunken Sea]]
+|10 increased defense. 30% decreased movement speed, 20% decreased damage, 30% decreased critical strike chance, 50% reduced mining speed.
+|You feel like garbage
+|-
+|{{item|Tarragon Cloak Cooldown}}
+|[[Tarragon armor]] and [[Auric Tesla armor]]
+|Disabled usage of [[Tarragon Cloak]] for 30 seconds.
+|Your cloak is recharging
+|-
+|{{item|Tarragon Immunity Cooldown}}
+|[[Tarragon armor]] and [[Auric Tesla armor]]
+|[[Tarragon Immunity]] cannot trigger for 30 seconds.
+|Your immunity is recharging
+|-
+|{{item|Universe Splitter Cooldown}}
+|[[Universe Splitter]]
+|The player cannot use the Universe Splitter.
+|You cannot use the Universe Splitter
+|-
+|{{item|Weak Brimstone Flames}}
+|Using any weapon with the Aflame [[Enchantment]]
+|The player loses 3.5 health per second.
+|Health Loss
+|-
+|{{item|Withered}}
+|Using any weapon with the Withering Enchantement
+|Decreases life regeneration based on how long the Enchanted weapon had been held for.
+|Holding withered weapons causes you to suffer but makes your weapons strong
+|-
+|}
+
+== From the player ==
+{| class="terraria"
+! width="45" | Icon
+! width="90" | Name
+! width="160" | From
+! width="417" | Effect
+! width="203" | Tooltip
+|-
+|{{item|Banishing Fire}}
+|[[Angelic Alliance]]
+|If the target has less than 1,000,000 max health, it will lose 2,000 damage per second.<br/>If the target has more than 1,000,000 max health, it will lose 0.2% of its max health as damage per second.
+|You shall not be forgiven for your sins
+|-
+|{{item|Clammed}}
+|[[Snap Clam]]
+|Target loses 30 health per second per attached clam, capping at 2 clams.
+|Clam clap
+|-
+|{{item|Sunscreamed}}
+|[[Helios Partisan]]
+|Target loses 3000 health per second.
+|Recieved a five thousand degree burn from pure light and radiation
+|-
+|{{item|Demon Flames}}
+|[[Apotheosis]], all weapons while [[Demonshade armor]] is equipped
+|Target loses 1250 health per second.
+|Another flames debuff...
+|-
+|{{item|Eutrophication}}
+|Big coral from [[Coral Cannon]], [[Eutrophic Scimitar]], [[Clam Crusher]], [[Prismalline]], and [[Abyssal Mirror]] shards
+|Target cannot move.
+|Excessive nutrients restrict your movement
+|-
+|{{item|Exo Freeze}}
+|[[Exoblade]], [[Photoviscerator]], [[Heavenly Gale]], [[Drataliornus]], [[Subsuming Vortex]], [[Vivid Clarity]], [[Apotheosis]], [[Cosmic Immaterializer]], and [[Celestus]]
+|Target cannot move at all.
+|Cannot move
+|-
+|{{item|Flahmes}}
+|[[Flah Round]]s and [[Quantum Flahium Ejection Device]]
+|Target loses 500 health per second and has their damage reduction reduced by 35%
+|Vaporizing from total flahium annihilation
+|-
+|{{item|Galvanic Corrosion}}
+|[[Tesla Potion]]
+|Target's horizontal and vertical speeds are crippled.
+|Your limbs have begun to corrode
+|-
+|{{item|Hell Judgement}} {{fantag|Catalyst}}
+|[[Divine Intervention]]
+|Target loses 3 health per second and has their defense reduced by 3.
+|You feel as if the apostate of hate has turned his gaze...
+|-
+|{{item|Kami Flu}}
+|[[Yanmei's Knife]]
+|Target's damage reduction is reduced by 20% and they take 125 damage per second.
+|Defenseless and dying
+|-
+|{{item|Marked}}
+|[[Marked Magnum]], [[Lunic Eye]], [[Anti-materiel Rifle]], [[Skullmasher]] and [[Deep Wounder]].
+|Target's damage reduction reduced by 50%.
+|Damage reduction reduced
+|-
+|{{item|Pearl Aura}}
+|[[Giant Pearl]]
+|Target's horizontal and vertical speeds are slowed.
+|Slowed down
+|-
+|{{item|Profaned Weakness}}
+|[[Relic of Resilience]]
+|Target's next attack damage is reduced by 45%.
+|You do less damage
+|-
+|{{item|Sage Poison}}
+|[[Viral Sprout]]
+|Deals a constant 22.5 damage per second, with higher damage per tick the more Sage Spirits are present.
+|Poisoned
+|-
+|{{item|Shellfish Claps}}
+|[[Shellfish Staff]]
+|Target loses 125 health per second per summoned shellfish, capping at 5 shellfish, or 625 damage per second.
+|Clamfest
+|-
+|{{item|Shred}}
+|[[Soma Prime]]
+|Target loses 750 health per second.
+|Blood
+|-
+|{{item|Temporal Sadness}}
+|[[Teardrop Cleaver]], [[Statis' Blessing]], [[Statis' Curse]], [[Statis' Void Sash]], any type of [[Biome Blade]] in the [[Glowing Mushroom biome]]
+|Target's damage is reduced by 15 and movement speed is cut in half.
+|You are crying
+|-
+|{{item|Terror of the Abyss}} {{fantag|Calamity: Community Remix}}
+|[[Gloomy Trident]]
+|Target's DR is reduced by 50%, their attack reduced by 30%, and their defense by 60.
+|You feel like you're being silenced by the abyss itself...
+|-
+|{{item|Time Distortion}}
+|[[Time Bolt]]
+|Target's movement speed is reduced by 15%
+|Time is slowed
+|-
+|{{item|Wither}}
+|[[Rem's Revenge]]
+|Reduces enemy's defense by 20.
+|Withered<br/>Defense reduced by 20
+|-
+|}
+
+== Vanilla Debuff Changes ==
+{| class="terraria"
+! width="45" | Icon
+! width="90" | Name
+! width="160" | From
+! width="417" | Effect
+! width="203" | Tooltip
+|-
+|{{item|Betsy's Curse}}
+| [[Betsy's Wrath]] and [[Drataliornus]] in [[Revengeance Mode]]
+| Target's damage reduction is reduced by 34%.
+| Defense is lowered
+|-
+|{{item|Chaos State}}
+|[[Rod of Discord]], [[Normality Relocator]], and [[Spectral Veil]]
+| Rod of Discord, Normality Relocator and [[Spectral Veil]] teleports can't be used
+| Rod of Discord teleports are disabled
+|-
+|{{item|Cursed Inferno}}
+| Various enemies and weapons
+| If inflicted on an enemy: Target's damage reduction is reduced by 20%. Reduced effectiveness on certain Godseeker Mode [[bosses]].<br/>If inflicted on a player: Target receives 20% more damage from all sources.
+| Losing life<br/>All damage taken increased by 20%
+|-
+|{{item|Ichor (debuff)}}
+| Various enemies and weapons
+| Defense reduced by 20
+| Defense reduced by 20
+|-
+|{{item|Oiled}}
+| [[Totality Breakers]]
+| Increases the effectiveness of flame debuffs within the Calamity Mod by increasing their damage per second by 25%.
+| Taking more damage from being on fire
+|-
+|{{item|Poisoned}}
+| Various enemies and weapons
+| If inflicted on a player: Target's movement speed reduced by 10%.
+| Slowly losing life
+|-
+|{{item|Shadowflame}}
+| Various enemies and weapons in [[Revengeance Mode]]
+| If inflicted on a player: Target loses 15 health per second and natural health regeneration.
+| Losing life
+|-
+|{{item|Venom}}
+| [[Lionfish]] and [[Sulphuric Acid Cannon]]
+| Target loses 25 damage per second per attached lionfish and 15 damage per second per attached sulphuric bubble up to 6 attached lionfish and 4 sulphuric bubbles.<br/>If inflicted on a player: Target's movement speed reduced by 15%.
+| Losing life
+|-
+|{{item|Water Candle (debuff)}}
+| [[Water Candle]]
+| Increases all spawn rates by 48.15% and maximum spawn count by 65%
+| Increased monster spawn rate
+|}
+{{item/options|reset}}
+
+== See also ==
+*[[tgc:Debuffs|Debuffs]] on the vanilla wiki.
+*[[Buffs]]
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}
+{{Game mechanics}}
+[[Category:Game mechanics]]

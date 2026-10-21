@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 18
+| tooltip = Fires a slow, long-ranged boomerang<br/>Stealth strikes grant the Mushy buff to the user on enemy hits and summon homing spores
+| use = 19
+| knockback = 1.5
+| velocity = 15
+| stack = 1
+| rare = 2
+| sell = {{value|0|0|40}}
+| buff = Mushy
+| bufftip = Increased defense and life regen
+| duration = 12 seconds (Stealth strikes)
+| proj = Fungi Orb.png
+| projcaption = Fungi Orb
+| element1 = Poison
+| element2 = Slash
+}}
+|{{item drops infobox
+|[[Crabulon]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{dablink|For the vanilla item of the same name, see [[tgc:Shroomerang|here]].}}
+The '''Shroomerang''' is a [[boomerang]] dropped by [[Crabulon]]. It fires a slow-moving boomerang that pierces infinitely before returning to the player.
+
+Performing a [[stealth strike]] with the Shroomerang will cause the next boomerang thrown to release homing spores every so often as it travels and temporarily grant the [[Mushy]] [[buff]] when hitting an enemy.
+
+{{Modifier|Spy}}
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Boomerangs]]

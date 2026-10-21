@@ -1,0 +1,31 @@
+{{item infobox	
+| type = Weapon
+| damage = 30
+| damagetype = Ranged
+| knockback = 3.5
+| stack = 1
+| rare = 4
+| sell = {{value|0|2|40}}
+| auto = yes
+| tooltip = Shoots a spread of bullets
+| use = 32
+| velocity = 5
+| element1 = Stab
+| element2 = Poison
+}}
+
+The '''Gunk Shot''' is a craftable [[Pre-Hardmode]] [[gun]] that fires 3-4 bullets in a shotgun pattern.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+== Trivia ==
+*The Gunk Shot shares its name with a Poison-type move from the ''[[wikipedia:Pokémon|Pokémon]]'' game series. Unlike said move, it can't poison enemies.
+{{Purified Gel}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

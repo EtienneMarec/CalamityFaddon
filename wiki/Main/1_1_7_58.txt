@@ -1,0 +1,27 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Devourer of Gods Balancing
+| release = 3/10/2017
+}}
+
+The '''1.1.7.58''' update made some balance changes to [[The Devourer of Gods]], along with a few other miscellaneous changes to his fight. It also resprited the [[Shadowspec Bar]].
+
+== Changes ==
+*[[The Devourer of Gods]] changes:
+**Buffed head's contact damage from 325 to 330.
+**Nerfed body's contact damage from {{dv|250|325}} to {{dv|220|286}}.
+**Nerfed Laser Portal damage from {{dv|200|260}} to {{dv|140|180}}, its Nebula Shot's damage from {{dv|160|260}} to {{dv|100|140}}, its bolt damage from {{dv|220|300}} to {{dv|180|240}}, its star damage from {{dv|180|280}} to {{dv|120|180}}, and its orb damage from {{dv|200|260}} to {{dv|120|160}}. Buffed its Gravity Bomb damage from 180 to 200.
+**Nebula Shots now last for 2.5 seconds instead of 3.
+**Tail now loses its damage taken multiplier at 25% health instead of 15%.
+**Decreased tail's damage taken multiplier from 4x to 2x and its multiplier when under 50% health from 2x to 1.5x.
+**Now forces all piercing projectiles except for minions to pierce once.
+**Increased overall speed.
+**Decreased projectile fire rate.
+**Added a period to the end of its "Nothing personal, kid" status message.
+*Resprited [[Shadowspec Bar]].
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

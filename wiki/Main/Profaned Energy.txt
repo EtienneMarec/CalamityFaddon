@@ -1,0 +1,78 @@
+{{npc infobox
+| type = Enemy
+| ai = Profaned Energy AI
+| environment = The Hallow
+| environment2 = The Underworld
+| damage = 0 (Contact)
+| life = 4,500
+| defense = 50
+| dr = 10%
+| knockback = 100
+| banner = yes
+| money = {{value|0|0|50}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Pearl Aura
+| immune4 = Slow
+| immune5 = Holy Flames
+| immune6 = Moon Burnt
+| Unholy Essence|2-4| 100%
+| custom| {{item|Elder Berry|note=(Once the player has used all [[Stamina Meter|Stamina Upgrades]] in [[Revengeance Mode]]|wrap=y}} ({{dv|1}})|4%
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_52.wav
+| killed = NPC_Killed_55.wav
+| vulnerable1 = Water
+| vulnerable2 = Cold
+| resistant1 = Fire
+| resistant2 = Holy
+| resistant3 = Unholy
+}}
+{{float file box| [[File:Profaned Energy with Lantern.png]] | Profaned Energy (Lantern) attached to the core.}}
+
+'''Profaned Energy''' is a Godseeker Mode [[enemy]] that spawns in both the [[Hallow]] and [[Underworld]]. It has a singular immobile core with two mobile lanterns protruding from it via chains. The lanterns move somewhat erratically, alternating between swooping in a radius around the core and attempting to hover around one location. The lanterns shoot large Holy Bombs which drift to a stop, then emit smaller Holy Flares every second until it is depleted. Holy Flares slowly drift downward while swooping horizontally to hit the player. Both fireballs will remain active and functioning even after the Profaned Energy is killed. They will also change color to a lime-tinted white at night and inflict [[Moon Burnt]]. Once defeated, it drops [[Unholy Essence]], a useful post-Moon Lord [[crafting material]].
+
+{{fantag|Deimos, the Starborn Princess}} Profaned Energies can also spawn during the post-[[The Starborn Moth|Starborn Moth]] [[Martian Madness]] event.
+
+== Lanterns ==
+{|
+|- style="vertical-align:top"
+|{{npc infobox
+| name = Profaned Energy
+| namesub = Lantern
+| image = Profaned Energy (Lantern).png
+| type = Enemy
+| environment = The Hallow
+| environment2 = The Underworld
+| ai = Profaned Energy (Lantern) AI
+| damage = 0 (Contact)<br/>{{element|Holy}} {{dv|80|160}} (Holy Bomb}<br/>{{element|Holy}} {{dv|80|160}} (Holy Flare)
+| life = 1
+| defense = 0
+| knockback = 0% / {{expert|10%}}
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| duration = 3 seconds (Day Holy Bomb)<br/>2 seconds (Day Holy Flare)
+| debuffchance = 100%
+| debuff2 = Moon Burnt
+| debufftip2 = Incinerated by lunar rays
+| duration2 = 3 seconds (Night Holy Bomb)<br/>2 seconds (Night Holy Flare)
+| debuffchance2 = 100%
+| hardmode = yes
+| postml = yes
+| sound = Item_20.wav
+| soundtext = Holy Flare
+| vulnerable1 = Water
+| vulnerable2 = Cold
+| resistant1 = Fire
+}}
+|}
+
+== Notes ==
+*Only one Profaned Energy can exist at a time.
+*The Holy Bomb emits roughly three Holy Flares before dissipating.
+
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+| show-event = yes
+}}

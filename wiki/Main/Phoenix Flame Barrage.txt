@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 150
+| mana = 20
+| tooltip = Baptism by holy fire<br/>Casts a barrage of fire from the sky
+| knockback = 3.5
+| velocity = 30
+| rare = 15
+| sell = {{value|0|30}}
+| use = 30
+| stack = 1
+| hardmode = yes
+| postml = yes
+| debuff = Holy Flames
+| debuffchance = 100%
+| debuffduration = 5 seconds
+| debufftip = Dissolving from holy light
+| proj = Holy Flame.gif
+| projcaption = Holy Flame
+| element1 = Fire
+| element2 = Holy
+}}
+|{{item drops infobox
+| [[Jungle Dragon, Yharon]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Phoenix Flame Barrage''' is a Godseeker Mode [[wand]] that drops from [[Jungle Dragon, Yharon]]. When used, it rains down a barrage of holy flames in a vertical column which explode after a short delay, dealing additional damage. The projectiles inflict the [[Holy Flames]] [[debuff]].
+
+{{Modifier|magic}}
+
+== Notes ==
+*The Phoenix Flame Barrage shoots two volleys of holy flames. It is possible to set up a chamber of holy flames by clicking and moving the mouse quickly across the screen this way.
+*The Phoenix Flame Barrage only deals 90% damage to [[Supreme Calamitas]]' brothers.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

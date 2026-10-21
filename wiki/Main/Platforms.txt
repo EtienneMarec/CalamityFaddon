@@ -1,0 +1,38 @@
+{|align=right
+|{{item infobox
+| imagealt = [[File:Smooth Abyss Gravel Platform.png]] [[File:Ashen Platform.png]] [[File:Cosmilite Platform.png]]
+| type = Furniture
+| type2 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| width = 1
+| height = 1
+| use = 14
+| rare = Varies
+| stack = 9999
+| sell = No value
+}}
+|-
+|
+{| class="terraria" align="right" style="width:19em"
+! colspan="2" | Placed Platforms
+|-
+| [[File:Craftable Platforms Calamity.png|center]]
+|}
+|}
+
+'''Platforms''' are pieces of [[furniture]] that function as tiles and can be walked on. The Calamity Mod currently adds nineteen types of Platforms to the game, with sixteen corresponding to specific [[Furniture sets|sets of furniture]].
+
+== Crafting ==
+=== Recipes ===
+{{recipes|result=LIKE %Platform/LIKE %Shelf|resultnot=Eutrophic Shelf|link=no}}
+
+=== Used in ===
+{{recipes|ingredient=LIKE %Platform/LIKE %Shelf|link=no}}
+
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:平台]]

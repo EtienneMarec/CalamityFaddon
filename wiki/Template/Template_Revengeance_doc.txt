@@ -1,0 +1,15 @@
+== Description ==
+Use to indicate an [[Revengeance Mode]]-only value. Primarily for use within {{tl|npc infobox}}.
+
+== Usage ==
+* <code><nowiki>{{</nowiki> revengeance | ''revengeance value''&nbsp; <nowiki>}}</nowiki></code>
+
+If the value changes in Hardmode, place the Hardmode value as the second parameter:
+* <code><nowiki>{{</nowiki> revengeance | ''revengeance value''&nbsp;| ''revengeance hardmode value''&nbsp; <nowiki>}}</nowiki></code>
+
+<includeonly>
+[[Category:Shortcut templates‎]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

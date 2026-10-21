@@ -1,0 +1,45 @@
+{{buff infobox
+| type = Debuff
+| effects = Target's defense is reduced by 20, damage reduced by 10%, movement speed reduced by 10% and life regen is canceled. (if player)<br/>Target's defense is reduced by 50. (if enemy)
+| tooltip = Death approaches; defense, movement speed, attack power and life regen reduced
+}}
+
+'''Whispering Death''' is a [[debuff]] only inflicted by the [[Omniblade]], [[Temporal Umbrella]], [[Signus]], and [[The Devourer of Gods]]. If inflicted on an enemy, their defense is reduced by 50. If inflicted on a player, their defense is reduced by 20, damage is reduced by 10%, movement speed reduced by 10% and life regen is set to zero.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

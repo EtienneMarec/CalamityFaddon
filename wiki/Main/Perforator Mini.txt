@@ -1,0 +1,73 @@
+{{historical content}}
+{{npc infobox
+| type = Enemy
+| environment = The Crimson
+| ai = Worm AI
+| imagealt = [[File:Perforator_Mini.png|100px]]
+| life = {{dv|100|140}}
+| knockback = 100
+| money = {{value|0|0|3}}
+| listexclude = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+
+The '''Perforator Mini''' was a [[Enemies#Boss Servants|boss servant]] [[enemy]] that was spawned exclusively by [[The Perforators]], but has since been removed from the mod. It behaved identically to the [[Giant Worm]], but it could also inflict the [[Burning Blood]] and [[Bleeding]] [[debuffs]].
+
+== Segments ==
+{|
+|- style="vertical-align:bottom"
+|{{npc infobox
+| type = Burrowing Enemy
+| environment = The Crimson
+| ai = Worm AI
+| name = Perforator Mini Head
+| damage = {{dv|20|28}}
+| life = {{dv|100|140}}
+| defense = 0
+| knockback = 100
+| debuff = Burning Blood
+| debufftip = Your blood is on fire
+| duration = 1 second
+| debuffchance = 100%
+| debuff2 = Bleeding
+| debufftip2 = Cannot regenerate life
+| duration2 = 1.67 seconds
+| debuffchance2 = {{expert|100%}}
+| listexclude = yes
+}}
+
+|{{npc infobox
+| type = Burrowing Enemy
+| environment = The Crimson
+| ai = Worm AI
+| name = Perforator Mini Body
+| damage = {{dv|11|15}}
+| life = {{dv|100|140}}
+| defense = 8
+| knockback = 100
+}}
+
+|{{npc infobox
+| type = Burrowing Enemy
+| environment = The Crimson
+| ai = Worm AI
+| name = Perforator Mini Tail
+| damage = {{dv|5|7}}
+| life = {{dv|100|140}}
+| defense = 18
+| knockback = 100
+| debuff2 = Bleeding
+| debufftip2 = Cannot regenerate life
+| duration2 = 1 seconds
+| debuffchance2 = {{expert|100%}}
+| listexclude = yes
+}}
+|}
+
+{{-}}
+{{Historical}}
+{{Master Template Characters
+|show-main = yes
+|show-boss = yes
+}}

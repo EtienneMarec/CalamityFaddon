@@ -1,0 +1,26 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 4
+| sell = {{value|0|1}}
+| stack = 1
+| tooltip = Horizontal speed: 5<br/>Acceleration multiplier: 1.5<br/>Good vertical speed<br/>Flight time: 80<br/>15% increased jump speed while wearing the Statigel Armor
+}}
+
+'''Static Wings''' are a post-[[The Slime God]] [[Wings|wing]]-type [[covering]] that allow the player to fly and glide. If these wings are worn along with [[Statigel armor]], the player's jump speed is increased by 15%.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in (Any Wings) ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+
+{{-}}
+{{Purified Gel}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

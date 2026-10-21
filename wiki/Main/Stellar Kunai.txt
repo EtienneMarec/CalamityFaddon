@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| stack = 9999
+| auto = yes
+| damagetype = Rogue
+| damage = 120
+| knockback = 2
+| consumable = yes
+| velocity = 22
+| tooltip = Throws out a set of three kunai that ignore gravity and slightly home in on enemies<br/>After traveling enough distance, the kunai supercharge with Stellar energy, homing in far more aggressively and exploding on impact<br/>Stealth Strikes instantly throw eight supercharged Kunai
+| rare = 10
+| sell = {{value|0|0|0|24}}
+| use = 9
+| hardmode = yes
+| postml = yes
+| proj = Stellar Kunai (projectile).png
+| projcaption = Stellar Kunai
+| proj2 = Stellar Kunai (supercharged).png
+| proj2caption = Supercharged Stellar Kunai
+| element1 = Magic
+| element2 = Stab
+}}
+
+'''Stellar Kunai''' are craftable consumable Godseeker Mode [[daggers]]. When used, three gravity-ignoring stellar kunai are thrown that slightly home in on enemies and do not pierce. After being in the air for roughly one second, the kunai will supercharge, causing them to speed up, change color from brown to teal, start emitting dust, and home in far more aggressively. Additionally, supercharged kunai will explode upon impact with tiles or enemies, or after enough time has passed.
+
+Performing a [[stealth strike]] with Stellar Kunai will cause eight supercharged kunai to be thrown at once.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{PureLuminite}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

@@ -1,0 +1,43 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 56
+| knockback = 2
+| mana = 10
+| use = 19
+| auto = yes
+| stack = 1
+| tooltip = Summons a spikecrag to protect you
+| rare = 8
+| sell = {{value|0|16}}
+| hardmode = yes
+| proj = Spikecrag Spike.png
+| projcaption = Spikecrag Spike
+| element1 = Dark
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Ravager]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Spikecrag|name=Spikecrag (sentry)|type=sentry}}
+The '''Spikecrag Staff''' is a [[Hardmode]] [[sentry]] that drops from the [[Ravager]]. When used, a spikecrag sentry is summoned. The spikecrag fires an intense upward spray of gravity-affected spikes when enemies are nearby; 5 to 7 spikes every 1/6th of a second.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*This weapon can output extremely large amounts of damage if an enemy with a large enough hitbox (e.g. a boss) ends up just above it, as most of its rapidly fired spikes will hit. Combined with the right gear and increased sentry slots, it can easily output DPS in the order of tens of thousands.
+
+== Trivia ==
+*This weapon's name and the sprite of the minion it summons reference the [https://plantsvszombies.fandom.com/wiki/Spikerock Spikerock] from the game ''[[wikipedia:Plants vs. Zombies|Plants vs Zombies]]''.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

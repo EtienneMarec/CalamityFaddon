@@ -1,0 +1,53 @@
+{{Addon|Tranquility Mod}}
+{{Nightmare mode only}}
+{{Historical content}}
+
+{{item infobox
+| image = Brimstone_Elemental_Soul.gif
+| type = Soul
+| rare = 6
+| use = 10
+| stack = 1
+| tooltip = This ember is a burning soul of a Brimstone Goddess.<br/> Summons a Brimstone Elemental as your ally, she will attack your foes and defend you, her stats increase as you progress further.<br/>Increases your max HP by 25, defense by 15, DR by 10%, increases all your damage by 10%, crit chance by 5%, increases your life regen by 5 and immunity frames by 15.<br/> Enemies take 2x damage when they touch you, and you emit a colossal explosion upon death.<br/> These effects work only when the item is in your inventory.
+| sell = No value
+}}
+{{npc infobox
+| name = Brimstone Elemental
+| image = Brimstone Elemental (ally).png
+| type = Ally
+| life = 5000
+| defense = 75
+| knockback = 100
+| debuff = Brimstone Flames
+| duration = 5 seconds
+| debuffchance = 100%
+| debufftip = Rapid health loss
+| immune1 = Brimstone Flames
+| immune2 = Abyssal Flames
+| Immune3 = Glacial State
+| immune4 = Exo Freeze
+| immune5 = Webbed
+| immune6 = Time Distortion
+}}
+
+The '''Brimstone Elemental's Soul''' is an unique item, classified as [[Elemental Souls|Soul]], dropped by the [[Brimstone Elemental]] upon her first defeat in the [[Nightmare Mode]]. When used, it summons the Brimstone Elemental, but in the [[Town NPCs|Town NPC]] form. While in inventory, it summons a Brimstone Elemental as your ally, she will attack your foes with {{item|BrimstoneBarrage|nolink=yes|ext=gif|size=11px|Brimstone Darts}}, {{item|BrimstoneHellblast|nolink=yes|ext=gif|size=22px|Brimstone Hellblasts}} and {{item|Brimstone Hellfireball|s|nolink=y|ext=gif|size=10px}} while player is moving and will lunge at the nearby enemies, piercing them using her Glaive while the player stands still, when her HP will drop to 50%, she will occassionally stop attacking and will start to fire her Brimstone Laser at nearby enemies, the laser always has a 270° angle. She also will tend to cover the player with her body. This item also increases several player's stats while in inventory.
+
+== Trivia ==
+*The Brimstone Elemental's ally stats gradually increase with progression: her HP, DR and damage will increase by 1% after a boss is killed, and by 5% after a major boss, like [[Providence, the Profaned Goddess]], [[The Devourer of Gods]] or [[Jungle Dragon, Yharon]] is defeated, her life regen will increase by 1 after a boss is killed and by 3 after a major boss is killed, her defense will increase by 1 after a boss is killed and by 5 after a major boss is killed and her immunity frames will increase by 2 and 5 respectively.
+*This item drops only per world and player, like [[Purified Jam|Purified Jams]].
+*The explosion emitted upon the player's death has a flat damage of 1000, which cannot be increased by any means and has a colossal AoE that damages virtually every on-screen enemy.
+*The Brimstone Elemental ally isn't a projectile nor isn't really an NPC, thus she can't be killed, however, she has her own HP and life regeneration, defense, DR and immunity frames, and is affected by [[Buffs|buffs]] and [[Debuffs|debuffs]] inflicted on her.
+**Due to that, she, as well as any other ally, can be affected by healing items and effects that can heal the other players as well.
+*While casting the Laser attack, her DR will rise up to 90% and she will completely stop moving, however, if the player will get too far from her, she will disrupt her attack and will return to the player.
+**While the player stands still or just doesn't run, she will walk on the ground, but if the player moves fast, she will ride her Brimrose in order to catch up with the player.
+*When the Brimstone Elemental ally's HP will drop to 1, she will return to her soul form, to prevent her from dying. However, she will respawn with full health upon rejoining the world.
+*Her ally's sprite is internally named "AllyBrimmy".
+*If the player stands still for 5 seconds and more and is in point-blank range (1-5 tiles) with the Brimstone Elemental, there's a 1/300 chance every frame that the animation of Brimstone Elemental crouching and patting the player will play.
+*This item has an unique rarity, alternating between {{color|#f54c0b ●|#f54c0b}} and {{color|#602640 ●|#602640}}, but is referred here as Light Purple rarity for consistency between items.
+<!---It was intended that i would make the animations for her, but i tried it, and realised i'm too low-skilled to do it...--->
+
+{{Master Template Consumables
+| show-main = yes
+|show-other = yes
+}}
+[[Category:Miscellaneous items|*]]

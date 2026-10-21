@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| rare = 5
+| sell = {{value|0|7|20}}
+| auto = yes
+| damage = 48
+| tooltip = Converts musket balls into fast-moving obsidian bullets that break into shards on hit
+| damagetype = Ranged
+| knockback = 6
+| velocity = 56
+| use = 36
+| hardmode = yes
+| postml = no
+| stack = 1
+| proj = Obsidian Bullet (projectile).png
+| projcaption = Obsidian Bullet
+| proj2 = Obsidian Shard.png
+| proj2caption = Obsidian Shard
+| element1 = Fire
+| element2 = Dark
+}}
+|{{item drops infobox
+| [[Pyrogen]] {{dv|25%|33.33%}}
+}}
+}}
+
+
+The '''Obsidigun''' is a [[Hardmode]] [[Gun]] dropped by [[Pyrogen]]. It slowly fires high velocity bullets like the [[Sniper Rifle]]. If [[Musket Ball]]s are used as ammo, bullets will be replaced with unique obsidian bullets that act like a combination between a [[High Velocity Bullet]] and a [[Crystal Bullet]] which will travel at a high speed and split into multiple damaging shards on impact with an enemy or tile. While these bullets lose the inherent pierce of high velocity bullets, the shards can instead pierce up to three times, its damage decreasing by 15% for each target hit.
+
+
+{{Modifier|ranged}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The Obsidigun was originally planned to be a dart-type weapon, but was replaced with a gun after complaints from the developers about darts being an ignored subclass.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

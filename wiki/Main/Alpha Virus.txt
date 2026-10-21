@@ -1,0 +1,51 @@
+{{item infobox
+| stack = 1
+| auto = yes
+| type = Weapon
+| type2 = Crafting material
+| damage = 242
+| damagetype = Rogue
+| use = 30
+| velocity = 4
+| knockback = 1
+| tooltip = Throws a giant plague cell with a lethal aura that splits into 6 plague seekers on death<br/>Stealth strikes cause the plague cell to move slower, accumulating an aura of swirling plague seekers as it flies
+| debuff = Plague
+| debuffchance = 100%
+| debuffduration = 2 seconds (plague cell)<br/>3 seconds (plague seeker)
+| debufftip =
+| rare = 11
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| proj = Alpha Virus Aura.png
+| projcaption = Virus Aura
+| element1 = Poison
+| element2 = Smash
+| element3 = Machine
+}}
+[[File:Alpha Virus (demo).gif|frame|right|Alpha Virus thrown at a group of dummies. Notice how the aura can damage enemies through blocks but not the cell nor the seekers.]]
+[[File:Alpha Virus Stealth (demo).gif|frame|right|Alpha Virus slowing down and building up Alpha Seekers as a result of the stealth strike.]]
+The '''Alpha Virus''' is a craftable Godseeker Mode [[rogue weapon]]. It fires a large plague cell that has a lethal aura, dealing damage to every enemy that enters its radius. It slowly fades as it flies and splits into six plague seekers on contact with tiles.
+
+Performing a [[stealth strike]] with the Alpha Virus will result in the projectile moving more slowly and allowing plague seekers to accumulate around it as it flies.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+{{-}}
+{{lunar plague}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[zh:始源病毒]]
+[[Category:Spy Weapons]]
+[[Category:Spy weapons]]

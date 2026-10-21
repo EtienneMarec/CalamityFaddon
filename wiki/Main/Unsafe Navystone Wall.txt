@@ -1,0 +1,23 @@
+{|align=right
+|{{item infobox
+| type = Wall
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| use = 14
+| color = #003232
+| sell = No value
+}}
+|}
+
+'''Unsafe Navystone Wall''' is a background [[wall]] that generates naturally in the [[Sunken Sea]] [[biome]], alongside [[Unsafe Eutrophic Sand Wall]]. It can be removed using any hammer, but only after [[Desert Scourge]] is defeated.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Tiles
+| show-main   = yes
+| show-walls = yes
+}}

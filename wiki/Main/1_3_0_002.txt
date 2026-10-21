@@ -1,0 +1,25 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Abyss Update Hotfixes
+| release = 3/17/2018
+}}
+
+The '''1.3.0.002''' update made a few adjustments to the [[Abyss]] and [[Sulphurous Sea]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*[[Aquatic Scourge]]'s body and tail segments, and [[The Destroyer]]'s body segments now take 35% damage from [[Vilethorn]]-like projectiles.
+*[[Frogfish]] no longer spawn in the Abyss.
+
+=== Other ===
+*[[Abyss Gravel]], [[Planty Mush]], and [[Sulphurous Sand]] no longer generate [[Water]] in [[The Underworld]].
+*Sulphurous Sand now generates more Water.
+*The tunnel between the Sulphurous Sea and the Abyss is now longer.
+
+== Fixes ==
+*Fixed a bug where sulphuric bubbles would crash the game if a player touched one and had some form of invincibility from another mod.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

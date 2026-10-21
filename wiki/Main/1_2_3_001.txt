@@ -1,0 +1,250 @@
+{{Patch infobox
+| image = Jungle Dragon, Yharon.png
+| size = 360px
+| patchname = Yharon and Devourer of Gods reworks
+| release = 11/14/2017
+}}
+
+The '''1.2.3.001''' update overhauled [[Jungle Dragon, Yharon]]'s fight and made a large amount of changes to [[The Devourer of Gods]] fight. It also gave [[Supreme Calamitas]] an arena, added a Godseeker Mode refight for the [[Revengeance Mode]] [[Astrageldon Slime]], and resprited a large amount of the mod's sprites.
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+*Added [[Celestus]].
+*Added [[Celestial Tracers]], [[Core of the Blood God]], [[Statis' Belt of Curses]].
+*Added [[Fabsol]], [[Suspicious Looking Jelly Bean]].
+*Added [[Alicorn]], [[Demon Flames]], [[Squishy Bean]].
+*Added a non-consumable variant of the [[Profaned Core]].
+*Added [[Arena Block]].
+*Added [[Angery Flame]].
+
+== Changes ==
+=== [[Bosses]] ===
+*Bosses now use up more NPC slots, meaning less enemies will spawn during boss fights.
+
+==== [[Astrageldon Slime]] ====
+*Now gains a large buff after the [[Moon Lord]] has been defeated in Revengeance Mode:
+**Buffs health to {{revengeance|1,800,000}}.
+**Laser damage multiplied by 5.
+**Fires lasers more often.
+**Has a higher chance of spawning an [[Astral Slime]] when hit.
+**Increases coin drop from {{gc|20}} to {{pc|10}}.
+**Drops [[Suspicious Looking Jelly Bean]].
+
+==== [[Bumblebirb]] ====
+*Both the main Bumblebirb and the clones longer rotate as much when charging to prevent them from going upside down.
+*Buffed clone health from {{dv|30,000|45,000}} to {{dv|50,000|75,000}}.
+
+==== [[Ceaseless Void]] ====
+*[[Dark Energy|Dark Energies]] now become immune to knockback upon reaching 50% life instead of 33%.
+
+==== [[Crabulon]] ====
+*Can no longer destroy blocks.
+
+==== [[Cryogen]] ====
+*Increased projectile speed.
+*Now has a smaller chance of summoning minions.
+
+==== [[The Destroyer]] ====
+*Now only takes 30% damage from [[Holy Arrow]]s.
+
+==== [[The Devourer of Gods]] ====
+*Nerfed phase 2's health from {{dv|600,000|960,000|1,000,000}} to {{dv|420,000|672,000|720,000}}.
+*Nerfed phase 1's orb damage from {{dv|280|360|450}} to {{dv|260|320|400}}.
+*Changed phase 2's beam portal damage from {{dv|360|600|750}} to {{dv|400|480|600}}.
+*Now inflicts [[God Slayer Inferno]] for 2.5 seconds instead of 1.
+*Phase 1 no longer spawns [[Stasis Probe]]s when damaged.
+*Phase 1 no longer drops a [[Rod of Discord]].
+*Phase 2's laser walls are now taller, but less compact and have gaps.
+*Each of phase 2's segments now become transparent if enough damage is dealt to them, and will take less damage.
+*Phase 2 now switches phases 30% less often.
+*Both phases' heads no longer become invincible if [[Another worm boss]] is alive.
+*Lowered both phases' speeds.
+*Phase 2 now disables [[Mounts]] and wiring.
+*No longer resists [[Vortex armor]]'s stealth damage boost.
+*Holding the [[Portal Gun]] or entering one of its portals will now cause the player to move as if they have the [[Distorted]] debuff.
+*[[Chaos State]] now inflicts damage over time if the player is inflicted with it during the fight.
+*Phase 2 now uses [[Music#Universal Collapse|UNIVERSAL COLLAPSE]] as its theme.
+*Now cuts the player's X velocity when alive.
+*Lowered Another worm boss' speed.
+*Another worm boss now classifies as a boss.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Buffed health from {{dv|780,000|1,240,000|1,280,000}} to {{dv|2,400,000|3,840,000|4,000,000}} and his base contact damage from {{dv|500|800|1000}} to {{dv|600|960|1200}}.
+*Projectile changes:
+**Buffed flare bomb damage from {{dv|420|600|750}} to {{dv|550|700|875}}.
+**Buffed flarenado damage in Normal Mode from 480 to 500.
+**Buffed infernado damage in Normal Mode from 600 to 650.
+**Slightly increased flare bomb size.
+**Increased flare dust's vertical speed.
+**Buffed flare dust damage from {{dv|320|400|500}} to {{dv|500|600|750}}.
+**Both flarenadoes and infernadoes will gradually grow wider over time now.
+**Flarenadoes won't damage the player for 7 seconds upon spawning.
+**Infernadoes won't damage the player for 8.3 seconds upon spawning.
+*[[Detonating Flame]] changes:
+**Nerfed Fireball variant's damage from {{dv|250|350|437}} to {{dv|150|210|262}}.
+**Buffed melee variant's damage from {{dv|300|420|525}} to {{dv|450|630|787}}.
+**Fireball variant now fire fireballs less often.
+*Bumblebirb changes:
+**Buffed health from {{dv|50,000|80,000}} to {{dv|100,000|160,000}}, and their damage from {{dv|280|448|560}} to {{dv|450|720|900}}.
+**Lowered speed.
+*Phase 1 attack changes:
+**Now only dashes 3 times in a row in subphase 2 instead of 4.
+**Now only dashes 4 times in a row in subphase 3 instead of 5.
+**Now has a new attack in subphase 1 where he releases a stream of flares which home in on the player.
+**Now has a new attack in subphases 2 and 3 where he leaves rings of flare bombs which remain in place, but move outwards with time.
+**Can now spawn flarenadoes in subphase 3.
+**Replaced infernadoes in subphase 4 with flarenadoes.
+*Phase 2 changes:
+**Now has a status message upon entering phase 2.
+**Lowered the time Yharon is invincible while regaining health.
+**An [[Angery Flame]] now spawns upon entering phase 2 in Expert Mode. The Angery Flame will persist for the entire fight, leaving behind flare dust and shooting fireballs with a fire rate scaling with Yharon's health.
+**2 of the waves of yharon fireballs have been replaced with a new homing fireball attack, where Yharon will charge forwards, shooting several fireballs into the air which rain back down and home in on the player.
+**Yharon fireballs now explode into an evenly spaced spread of fireballs instead of in a random spread.
+**Yharon fireballs now explode sooner.
+**Speed greatly decreased.
+**Now has a limit of 3 Bumblebirbs at a time instead of 4.
+**Now disables mounts.
+*Other:
+**Holding the Portal Gun or entering one of its portals will now cause the player to move as if they have the Distorted debuff.
+**Border tornadoes now spawn more in line with the player's position.
+**[[Yharon Soul Fragment]] drop amount increased from {{dv|0|5-9}} to {{dv|0|15-21}}.
+
+==== [[Polterghast]] ====
+*Buffed health from {{dv|260,000|416,000|448,000}} to {{dv|330,000|528,000|560,000}}, and its base contact damage from {{dv|175|280|350}} to {{dv|215|344|430}}.
+*Buffed phantom shot damage from {{dv|130|260|325}} to {{dv|240|300|375}}.
+*Buffed phantom blast damage from {{dv|170|340|425}} to {{dv|260|340|425}}.
+*Buffed red phantom shot damage from {{dv|150|300|375}} to {{dv|300|340|425}}.
+*Buffed red phantom blast damage from {{dv|190|380|475}} to {{dv|320|380|475}}.
+*Phantom shots now bounce 4 times instead of 3.
+*Red phantom shots now bounce 6 times instead of 8.
+*Now summons less [[Phantom Spirit]]s.
+*Each phase now deals more contact damage.
+*Orbiting [[Phantom]]s now rotate slower.
+*Nerfed Blue [[Phantom Turret]]'s phantom shot's damage from {{dv|120|240|300}} to {{dv|65|130|162}}.
+*Lowered Red Phantom Turret's speed.
+*Increased despawn timer by 5 seconds.
+
+==== [[Providence, the Profaned God]] ====
+*Buffed holy blast damage from {{dv|184|312|390}} to {{dv|260|328|410}}.
+*Buffed holy bomb damage from {{dv|168|264|330}} to {{dv|240|280|350}}.
+*Buffed holy fire damage from {{dv|150|240|300}} to {{dv|250|480|600}}.
+*Buffed holy spear damage from {{dv|168|264|330}} to {{dv|300|328|410}}.
+*Buffed molten blast damage in Normal Mode from 184 to 250.
+*No longer deals contact damage.
+*Holy fire is now shot in quicker succession.
+*Holy flames from holy blasts now take a moment to gain speed, then rapidly accelerate.
+*Molten blasts now last shorter.
+*Now has a set pattern of attacks instead of choosing between them randomly.
+*Molten globs can now sit on platforms.
+*[[Icarus' Folly]] is now inflicted for 25 seconds instead of 15.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Buffed fireball damage in Normal Mode from 200 to 300.
+*Now charges more aggressively.
+*Fireball rain now occurs earlier.
+*Fireballs now get stronger once Signus reaches 50% health.
+*Buffed [[Cosmic Lantern]]'s damage from {{dv|180|252|315}} to {{dv|230|322|402}}.
+*Cosmic Lanterns now inflict [[Marked for Death]] for 3 seconds instead of 2.
+
+==== [[Storm Weaver]] ====
+*Nerfed armored [[Stasis Probe]]'s health from {{dv|6000|8400}} to {{dv|4000|5600}}.
+*Nerfed naked Stasis Probe's health from {{dv|7500|10,500}} to {{dv|5000|7000}}.
+
+==== [[Supreme Calamitas]] ====
+*Now spawns with an arena with a size that scales with the world's difficulty.
+*Now cycles through attacks instead of choosing them at random.
+*Removed border tornadoes.
+
+=== [[Enemies]] ===
+*All enemies now have a 10% chance (50% with [[Bloodflare armor]]) to drop a [[Blood Orb]] when the conditions are met instead of a 5% chance (20% with Bloodflare armor).
+*The post-Providence [[Dungeon]] enemies no longer gain a 4x health multiplier.
+*The post-Devourer of Gods [[Frost Moon]] now applies a 12x health multiplier to enemies instead of a 15x multiplier, and now applies a 2x damage multiplier.
+*Reworked [[Ice Clasper]]:
+**Buffed health from {{dv|320|384}} to {{dv|1200|1680}}.
+**No longer relies on [[Corruptor]] AI, and thus, no longer spawns brown dust.
+**Can now shoot frost bolts.
+**If a block is between it and the player, it will turn transparent and gain the ability to pass through blocks.
+**Now charges towards the player if they get too far from it.
+**Now has a 100% chance to drop 2-4 [[Essence of Eleum|Essences of Eleum]] instead of a 50% chance to drop 1.
+**Now has a 10% chance to drop a [[Frost Barrier]].
+**Now counts as a rare enemy for the [[Lifeform Analyzer]] and its upgrades.
+**Now has some knockback resistance.
+**Now drops {{sc|50}} instead of {{sc|15}}.
+**Lowered idle dust amount and dust amount when killed.
+*[[Ice Golem]]'s frost beams now have a 50% chance to inflict [[Glacial State]] instead of a 25% chance.
+*Nerfed Phantom Spirit's damage from {{dv|250|400|500}} to {{dv|200|320|400}}.
+*Nerfed [[Plaguebringer]]'s health from {{dv|27,000|37,800}} to {{dv|15,000|21,000}}.
+*[[Profaned Energy|Profaned Energies]] are now rarer.
+*[[Pumpking]]s, [[Ice Queen]]s, and [[Mothron]]s are now immune to [[Exo Freeze]].
+*The post-Devourer of Gods [[Pumpkin Moon]] now applies a 2x damage modifier to enemies.
+
+=== Items ===
+*Nerfed [[Acceleration Round]]'s damage from 9 to 7.
+*Buffed [[Alpha Ray]]'s damage from 30 to 38.
+*[[Asgardian Aegis]], [[Asgard's Valor]], and [[Elysian Aegis]] can now have their dashes toggled by visibility and reduced their velocities.
+*Reworked Aureate Wings into a jetpack, and renamed it to [[Aureate Booster]].
+*Auric Tesla armor and Silva armor now provide less speed.
+*Renamed Bladedge Greatbow to [[Bladedge Railbow]].
+*Nerfed [[Daemon's Flame]]'s arrow piercing from infinite to 5.
+*[[Death]] now broadcasts a message to chat when activated and deactivated.
+*[[Demonshade armor]] now makes all attacks inflict Demon Flames instead of only melee attacks inflicting [[Shadowflame]].
+*[[Elemental Lance]]'s projectiles now last shorter.
+*[[Elemental Quiver]] can no longer duplicate [[Contagion]], Daemon's Flame, [[Phangasm]], [[Phantasm]], and [[Vortex Beater]]'s projectiles.
+*Nerfed [[Elysian Arrow]]'s meteor damage from 220 to 100.
+*[[Elysian Tracers]] and [[Seraph Tracers]] now have less erratic dusts.
+*Buffed [[Genisis]]' damage from 28 to 35.
+*[[Heart of the Elements]]' damage now scales by 200% after The Devourer of Gods has been defeated instead of 250%.
+*Lowered the damage for all of the Heart of the Elements' component's minions.
+*The stars spawned by [[Bee Cloak]], Holy Arrows, [[Star Cloak]], and [[Star Veil]] now deal 25% damage in Revengeance Mode instead of 50% damage at all times.
+*[[Honey Dew]] and its upgrades now provide protection against The Plaguebringer Goliath's missiles and stingers, [[Hornet]] stingers, and the [[Hornet Staff]]'s stingers.
+*Nerfed [[Lifehunt Scythe]]'s penetration from 5 to 3.
+*[[Necroplasmic Beacon]] is no longer consumable and no longer stacks to 20.
+*Nerfed [[Photoviscerator]]'s damage from 50 to 40.
+*All Calamity [[Potions]] can now be crafted with [[Blood Orb]]s.
+*[[Purge Guzzler]]'s lasers now only penetrate 3 times instead of infinitely, but last longer.
+*Renamed Reaver Cap to [[Reaver Headgear]].
+*Nerfed [[Sanguine Flare]]'s healing.
+*Split [[Terra Arrow]]s now only deal 33% of the main arrow's damage.
+*[[Terratomere]]'s projectiles now last for 3 seconds instead of 4.
+*Lowered the brightness of [[True Caustic Edge]]'s projectiles.
+*Reduced the amount of [[Yharon Soul Fragment]]s needed for each piece of Silva armor.
+
+=== Other ===
+*[[Town NPC]]s no longer need a [[Blood Moon]] to be active for them to sell items from the opposite world evil.
+*Most debuffs now create less dust.
+*The [[Dryad]] no longer sells Necroplasmic Beacons after Polterghast has been defeated.
+*The Dryad now sells [[Truffle Worm]]s once Duke Fishron has been defeated.
+*The Dyrad now sells [[Naughty Present]]s and [[Pumpkin Moon Medallion]]s when their respective event's main bosses have been defeated.
+*[[Extreme Gravity]] now reduces the player's flight time by 75% instead of 66%.
+*Calamity's [[Permanent Power-ups|Mana increasing items]] now change the visuals of the player's Mana bar.
+*[[Stress]] is no longer boosted if a boss is alive.
+*Stress no longer gives effects which limit the player's vision.
+*Stress now increases if the player is damaged, based on how much damage they took.
+*Reduced the amount of Stress gained from natural factors such as biomes.
+*[[Warped]] now only affects the player's vertical velocity.
+*The [[Wizard]] no longer sells [[Profaned Core]]s once Providence, the Profaned God has been defeated.
+*The [[Witch Doctor]] now sells [[Solar Tablet]]s once Golem has been defeated.
+
+=== Resprites ===
+*Resprited [[Ambrosial Ampoule]], [[Amidias' Spark]], [[Ancient Fossil]], [[Archaic Powder]], [[Aureate Booster]], [[Corrupt Flask]], [[Counter Scarf]], [[Crimson Flask]], Honey Dew, [[Living Dew]], [[Necklace of Vexation]], [[Radiant Ooze]]. 
+*Resprited [[Ancient Bone Dust]], [[Armored Shell]], [[Beetle Juice]], [[Blood Orb]], [[Demonic Bone Ash]], [[Draedon Bar]], [[Maneater Bulb]], [[Murky Paste]], [[Murky Sludge]], [[Plague Cell Canister]], [[Purified Gel]], [[Trapper Bulb]].
+*Resprited [[Plaguebringer Goliath Mask]], [[Reaver Cuisses]], Reaver Headgear, [[Reaver Helm]], [[Reaver Helmet]], [[Reaver Mask]], [[Reaver Scale Mail]], [[Reaver Visor]], [[Yharon Mask]].
+*Resprited [[Augur of the Elements]], Bladedge Railbow, [[Brimlance]], [[Elemental Axe]], [[Elemental Blaster]], [[Elemental Disk]], Elemental Lance, [[Elemental Ray]], [[Everglade Spray]], [[Feralthorn Claymore]], [[Gilded Proboscis]], [[Golden Eagle]], [[Grax]], [[Greatsword of Blah]], [[Greatsword of Judgement]], [[Harvest Staff]], [[Illustrious Knives]], [[Mangrove Chakram]], [[Quagmire]], [[Rouge Slash]], [[Siren's Song]], Terratomere, [[Ultra Liquidator]]. 
+*Resprited [[Beastial Pickaxe]], [[Berserker Waraxe]], [[Cosmolight]], [[Daylight]].
+*Resprited [[Yharim's Stimulants]].
+*Resprited The Devourer of Gods phase 2, Ice Clasper, [[Stormlion]].
+*Resprited The Plaguebringer Goliath's map icon.
+*Resprited [[Reaver Rage]].
+*Resprited Rouge Slash's projectiles.
+
+== Fixes ==
+*Fixed an oversight where the [[Cadance]] buff was still named "Cadence".
+*Fixed a bug where [[Chicken Cannon]]'s explosions did magic damage instead of ranged damage.
+*Fixed hold offsets on [[Leviatitan]] and Siren's Song.
+*Fixed Polterghast's chains not drawing correctly when under high Stress.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

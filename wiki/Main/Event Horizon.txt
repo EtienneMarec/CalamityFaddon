@@ -1,0 +1,47 @@
+{{item infobox
+| stack = 1
+| auto = yes
+| type = Weapon
+| type2 = Crafting material
+| damage = 275
+| damagetype = magic
+| mana = 12
+| use = 32
+| velocity = 25
+| tooltip = Nothing, not even light, can return.<br/>Fires a ring of stars to home in on nearby enemies<br/>Stars spawn black holes on enemy hits
+| debuff = Daybroken
+| debuffchance = 100%
+| debuffduration = 2 seconds (Star)<br/>3 seconds (Blackhole)
+| debufftip = Incinerated by solar rays
+| knockback = 3.5
+| rare = 14
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|28}}
+| proj = Event Horizon Star.png
+| projcaption = Event Horizon Star
+| proj2 = Event Horizon Blackhole.gif
+| proj2caption = Event Horizon Blackhole
+|element1=Magic|element2=dark}}
+[[File:Event Horizon (demo).gif|frame|right|The Event Horizon's homing and orbiting stars. Notice how the stars spawn black holes when contacting the [[Target Dummy|Target Dummies]] and the [[Super Dummy]].]]
+The '''Event Horizon''' is a craftable Godseeker Mode [[spell tome]] that is the direct upgrade to the [[Relic of Ruin]]. It fires a ring of stars around the player that orbit their location at the time it was used, and home in on nearby enemies. If no enemies are nearby, the stars expand outwards, go back inwards again and finally drift off. Upon contact with enemies, they transform into lingering black holes with half damage and infinite piercing, rapidly dealing damage while stationary before dissipating after 1.5 seconds.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The [[wikipedia:Event horizon#Event horizon of a black hole|event horizon]] is the area around a black hole where gravity becomes so strong that it is impossible for any matter or energy to escape, including light. This is referenced in the item's tooltip.
+*The weapon is a reference to the spell card, Black Magic "Event Horizon", used by the character [https://en.touhouwiki.net/wiki/Marisa_Kirisame Marisa Kirisame] from the ''[[wikipedia:Touhou Project|Touhou Project]]'' series.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

@@ -1,0 +1,30 @@
+{{item infobox
+| type = Potion
+| tooltip = Boosts life regen by 2, movement speed by 10% and wing flight time by 20%<br/>Makes you floaty and reduces defense by 10%
+| stack = 9999
+| rare = 7
+| use = 17
+| sell = {{value|0|1|60}}
+| consumable = yes
+| debuffduration = 8 minutes
+| debuff = Caribbean Rum (debuff) | debufflink = no
+| debufftip = Life regen, movement speed, and wing flight time boosted, you are floaty and defense is reduced
+| hardmode = yes
+}}
+
+'''Caribbean Rum''' is a craftable [[Hardmode]] [[potion]]. It grants the '''Caribbean Rum''' [[debuff]] when consumed, which reduces [[defense]], but boosts life regen, movement speed and wing flight time.
+
+While the effects of the Caribbean Rum debuff are mostly beneficial, it is still considered a debuff, and therefore cannot be removed by right-clicking the icon.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*When used with the [[Featherfall Potion]] and pressing {{key|Up}}, the player can float upwards.
+*The floaty effect is identical to [[The Devourer of Gods]]' Warped [[debuff]].
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}

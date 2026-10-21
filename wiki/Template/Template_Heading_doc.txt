@@ -1,0 +1,17 @@
+Displays a heading.
+
+== Usage ==
+<nowiki>{{heading|title|image}}</nowiki>
+
+; Unnamed Parameter 1
+The title of the heading.
+
+; Unnamed Parameter 2
+An image for the header (which is displayed on the right).
+
+<includeonly>
+[[Category:Formatting templates‎]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

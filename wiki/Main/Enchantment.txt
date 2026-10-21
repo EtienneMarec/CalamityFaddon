@@ -1,0 +1,126 @@
+{{item infobox
+| name = Ephemeral Exhaustion Bar
+| image = Ephemeral Exhaustion Bar.gif
+}}
+
+An '''enchantment''' applies additional qualities to an item upon its usage. It changes the name of an item by adding a prefix to the item's name (before any modifier the item may have), such as "Aflame Strong [[Photon Ripper]]." Hovering the cursor over an item with an enchantment in an inventory slot will show the enchantment details beneath the item's description. This description is colored {{color|#8B0000|#8B0000}}. 
+
+Unlike modifiers, enchantments are qualitative in nature; rather than solely providing stat boosts, enchantments usually cause effects to occur upon use of the item. Each enchantment has an upside and a downside - there are no enchantments that are solely beneficial.
+
+== Enchanting ==
+Enchanting is a service provided by the [[Brimstone Witch]], which applies an enchantment of the player's choosing to an item in exchange for [[coins]]. This enchantment can be removed at any time by placing the item into the enchanting interface and selecting "Disenchant." The disenchanting process costs the same amount of money that it cost to enchant the item with the enchantment that is being removed. Upon disenchanting the item, the player is free to select a new enchantment.
+
+The Brimstone Witch charges 20 times an item's sell value in order to enchant or disenchant it. This price can be lowered by the [[Discount Card]] and its upgrade, the [[Greedy Ring]].
+
+Enchanting can be accessed by talking to the Brimstone Witch and choosing "Enchant" from the options (upon opening this option for the first time, she will give the player a [[Brimstone Locus]]). The player can then insert the item to be enchanted into the interface that appears below the inventory. Next to the item slot is a small key [insert key picture] that, when clicked, enchants the item with the selected enchantment in the box on the right. The selected enchantment can be changed by clicking the arrows on the top and bottom of the box.
+
+When an enchanted item is hovered over in the inventory, the name of the item will pulse outwards approximately once per second.
+
+== Enchantments ==
+Enchantments can be applied to most items, with the exception being consumable weapons. Like modifiers, certain enchantments are exclusive to certain classes or types of items due to what they affect. For example, Oblatory is a magic-exclusive enchantment, as it deals with mana. 
+
+{| class="terraria lined"
+! Enchantment !! Tooltip Description !! Rune !! Class !! Tools? !! Effect
+|-
+| Aflame || Lights enemies ablaze on hit but also causes the user to take damage over time when holding this item. || [[File:Enchantment Rune Aflame.png|center]] || <center>Melee<br/>Ranged<br/>Mage<br/>Spy</center> || <center>{{yes}}</center> || Applies [[Vulnerability Hex]] to the enemy. While holding the enchanted weapon, the player is inflicted with {{item|Weak Brimstone Flames|nolink=y}} which causes the player to lose 3.5 health per second and have no natural life regeneration.
+|-
+| Defiant
+| Dealing damage increases defense and damage but defense damage taken is increased.
+| [[File:Enchantment Rune Defiant.png|center|frameless]]
+|<center>Melee<br />Ranged<br />Mage<br />Spy</center>
+|<center>{{yes}}</center>
+|Damage dealt increases defense and damage by 0.05% up to a maximum 7.5% bonus. Defense damage taken is increased by the same amount up to 7.5% defense damage taken. If the enemy deals no defense damage, it now deals defense damage for half the bonus amount instead.
+|-
+| Ephemeral||Causes the damage output of this item to discharge from exhaustive use. Its damage returns naturally when not being used. It starts off with more damage than it normally would have. ||[[File:Enchantment Rune Ephemeral.png|center]]|| <center>Melee<br />Ranged<br />Mage<br />Spy</center>|| <center>{{yes}}</center>||An "exhaustion countdown" is applied to the use of the enchanted weapon. This countdown starts at 1600, decreases every time the enchanted weapon is used, and tries to increase by 1 every frame. The decrease upon use is determined by the use time of the weapon; the countdown will decrease by the item use time multiplied by 2.25, with a hard cap of 10. The countdown's minimum value is 0.001. As the weapon is used and the exhaustion countdown decreases, damage variance ("exhaustion") is introduced, with a minimum value of 0.77x and a maximum value of 1.26x. The exact multiplier is determined by the function <code> lerp(0.77, 1.26, 2 ^ exhaustion ratio - 1) </code>, where the exhaustion ratio is the current exhaustion divided by 1600. Depending on the value of 2<sup>exhaustion ratio</sup> - 1, the multiplier is linearly divided between 0.77x and 1.26x. For example, if the value was 0 (at an exhaustion ratio of 0) then the multiplier would be 0.77x; if the value was 1 (at an exhaustion ratio of 1) then the multiplier would be 1.26x; if the value was 0.414 (at an exhaustion ratio of 0.5) then the multiplier would be ~0.97x.
+|-
+|Fallacious {{Fantag}}
+|Greatly increases critical strike damage but critical strike chance is reduced. Critical hits also hurt you.
+| [[File:Enchantment Rune Fallacious.png|center|frameless]]
+|<center>Melee<br />Ranged<br />Mage<br />Spy</center>
+|<center>{{yes}}</center>
+| +250% critical strike damage and critical strike chance multiplied by 0.33. Critical hits also deal 7.77% of the item's original damage to the player. 
+|-
+|Withering||When hurt, you heal a percentage of the damage taken based on how much accumulated damage you did overall beforehand, up to 100%. After this, you gain a damage boost while holding this item but also take exponential damage over time the longer you hold it.||[[File:Enchantment Rune Withering.png|center]]||<center>Melee<br />Ranged<br />Mage<br />Spy</center>||<center>{{yes}}</center>||When the player is hit, they will be healed for a percentage of health, up to the amount of damage that was originally taken. Afterwards, the {{item|Withered|nolink=y}} debuff will be applied to the player, and the player's life regeneration will decrease based on how long the enchanted weapon has been held for. While holding a weapon enchanted with Withering, and the Withered debuff is active, a counter goes up by 1 every frame. While not holding a Withering-enchanted weapon, and the Withered debuff is active, the counter goes down by 1 every frame. While the Withered debuff is not active, the counter is 0. The exact life regeneration lost is determined by the formula: 5*1.5<sup>hold time counter/87</sup>, rounded down. Finally, while the Withered debuff is active, damage will be boosted by 60%.
+|-
+|Resentful||Makes the damage of projectiles vary based on how far the hit target is from you. The farther, the more damage, and vice versa.||[[File:Enchantment Rune Resentful.png|center]]|| <center>Melee<br />Ranged<br />Mage<br />Summoner<br />Spy</center>||<center>{{no}}</center>||Damage dealt varies from 0.7x to 1.45x. The former triggers at a proximity of less than or equal to 250 pixels (~16 blocks) from the target, and the latter triggers at a proximity of greater than or equal to 2400 pixels (150 blocks) from the target.
+|-
+|Bloodthirsty||Makes the damage of projectiles vary based on how far the hit target is from you. The closer, the more damage, and vice versa.||[[File:Enchantment Rune Bloodthirsty.png|center]]||<center>Melee<br />Ranged<br />Mage<br />Summoner<br />Spy</center>||<center>{{no}}</center>||Damage dealt varies from 0.75x to 1.75x. The former triggers at a proximity of greater than or equal to 400 pixels (25 blocks) from the target, and the latter triggers at a proximity of less than or equal to 175 pixels (~11 blocks) from the target.
+|-
+|Persecuted||When attacked, or over time, demon portals appear near you. If sufficiently damaged they are friendly; otherwise they attack you. They become angered if a portal is damaged. ||[[File:Enchantment Rune Persecuted.png|center]]||<center>Melee<br />Ranged<br />Mage<br />Summoner<br />Spy</center>||<center>{{no}}</center>||Demon portals will spawn on a 30-second timer, or when the player is attacked. These portals have 24660 HP, and will stop taking damage once they reach 1 HP. If the portal is at 1 HP, the {{item|Suicide Bomber Demon Friendly|nolink=y|demons|size=40px}} that spawn from it will damage enemies; if it is above 1 HP, the {{item|Suicide Bomber Demon|nolink=y|demons|size=40px}} will damage the player. These demons are projectiles, and as such cannot be destroyed or killed. The demons have a base damage of 95.
+|-
+|Lecherous||Spawns a resilient brimstone monster that stays between you and your mouse that interferes with your homing weapons. It releases a bunch of hearts on death.||[[File:Enchantment Rune Lecherous.png|center]]||<center>Melee<br />Ranged<br />Mage<br />Spy</center>|| <center>{{no}}</center>||The {{item|Lecherous Orb|nolink=y|brimstone monster|size=30px}} that spawns has 97444 HP. Upon death, it will drop 8 hearts (which equates to 160 HP), and a new monster will immediately spawn.
+|-
+|Tainted||Removes projectile shooting capabilities of this item. In exchange, two skeletal arms are released on use that slice at the mouse position.||[[File:Enchantment Rune Tainted.png|center]]||<center>Melee (projectile melee only)</center>||<center>{{no}}</center>||Upon using a Tainted weapon, two skeletal arms will spawn, with the ends centered on the player's body. Each arm will hold a version of the Tainted weapon. The arms will swing the swords every so often, spawning no projectiles and dealing true melee damage for 5x the weapon's base damage.
+|-
+|Oblatory||Reduces mana cost and greatly increases damage but sometimes causes this item to use your life. ||[[File:Enchantment Rune Oblatory.png|center]]||<center>Mage</center>||<center>{{no}}</center>||Grants -40% mana cost and +50% damage. Every time mana is used, there is a 25% chance that 5 HP is used up.
+|-
+| Traitorous||Causes this item to sometimes release a monster that hurts both you and enemies when you have less than 50% mana.||[[File:Enchantment Rune Traitorous.png|center]]||<center>Mage</center>||<center>{{no}}</center>|| A {{item|Mana Demon|nolink=y|monster|size=40px}} has a 1/12 (8.33%) chance to spawn under the given conditions. This monster is a projectile, and as such cannot be killed or destroyed. This monster has a base damage of 102, and is affected by magic damage boosts.
+|-
+|Indignant||Summons demons that harm you but drop healing items on death on item usage. || [[File:Enchantment Rune Indignant.png|center]] ||<center>Summoner</center>||<center>{{no}}</center> || The spawned {{item|Vigilance Soul Seeker Minion|nolink=y|demons|size=40px}} have 101010 HP, a base damage of 270, and no defense or damage reduction. Upon their death, 4 healing orbs will home to the player and heal for 10 HP each.
+|-
+|Hellbound||Causes minions to be created with a 40 second timer. Once it runs out, they explode violently. Minions do more damage the longer they live and idly explode as well.||[[File:Enchantment Rune Hellbound.png|center]]||<center>Summoner</center>||<center>{{no}}</center>||Based on a ratio completion of the 40 second timer, minions can do between 1x and 1.6x damage. This is not a linear increase; the damage gain will increase slower if the timer has just started or is about to end, and will increase faster in the middle of the timer. Every 40 frames (0.667 seconds) there is a 1/12 (8.33%) chance for the minion to cause an explosion (although this will not cause them to be desummoned) with a base of 2000 damage. When the countdown is at 5 seconds or less, fireball sounds and fire dust will appear on the minion, signifying that it is close to exploding (and subsequently despawning). Upon the countdown reaching 0 seconds, the minions will explode (and despawn) with a base of 6000 damage. Both explosions are affected by minion damage boosts.
+|-
+|Suspicious||Marks some enemies. Marked enemies take more damage, but unmarked ones take less damage || [[File:Enchantment Rune Suspicious.png|center]] ||<center>Melee<br/>Ranged<br/>Mage</br>Summoner<br/>Spy</center>||<center>{{no}}</center> || Any enemies on or entering the screen have a 50% chance of being Marked, gaining a red outline; if there is only one enemy on screen, it will always be marked. Marked enemies take 50% more damage from your weapons and minions, but deal 10% more damage; unmarked enemies take 50% less damage. When a Marked enemy is killed, its mark transfers to another enemy on-screen if one is available.
+|}
+
+===Exhume===
+'Exhume' is a special enchantment that turns certain items into entirely new ones. These items can be identified with the Brimstone Locus, which will cause an effect to be displayed on their icons in the player's inventory. 
+
+{| class="terraria lined"
+!Enchantment!!Tooltip Description!!Rune!!Applicable Items!!Effect
+|-
+|Exhume||Transforms this item into something significantly stronger.||[[File:Enchantment Rune Exhumed.png|center]]||<center>Burning Sea <br /> The Community <br /> Entropy's Vigil <br /> Ghastly Visage <br /> Rod of Discord <br /> Staff of the Mechworm <br /> Exo Box</center>||This enchantment cannot be disenchanted, and the weapon that results from this enchantment cannot be further enchanted.
+|}
+
+Below is a table of the items that can be Exhumed, and what those items will turn into when Exhumed.
+
+{| class="terraria lined"
+!Original Item
+! Exhumed Item
+|-
+|{{item|Burning Sea}}||{{item|Rancor}}
+|-
+|{{item|The Community}}||{{item|Shattered Community}}
+|-
+|{{item|Entropy's Vigil}} ||{{item|Cinders of Lament}}
+|-
+|{{item|Ghastly Visage}}
+|{{item|Gruesome Eminence}}
+|-
+|{{item|Rod of Discord}}||{{item|Rod of Harmony}}
+|-
+|{{item|Staff of the Mechworm}}||{{item|Metastasis}} 
+|-
+|{{item|Reassembled Electronics}}||{{item|Broken Modem}} 
+|-
+|{{Fantag}}{{item|Yharim's Gift}}||{{item|Yharim's Curse}} 
+|-
+|{{Fantag}}{{item|Exo Box}}||{{item|Flame Cube}} 
+
+|}
+
+==Notes==  
+*Unlike modifiers, enchantments do not change the [[value]] or [[rarity]] of a weapon.
+*The Community is the only covering that can be enchanted, and its only available enchantment is Exhumed.
+
+==Trivia ==
+*Exhume's rune (to the right of the enchantment name box) is the only rune to be purple, rather than red like the other enchantments.
+*The runes associated with each enchantment (except Fallacious and Suspicious) are alchemical symbols for various things that are relevant to the concept of the enchantment.
+** Hellbound uses the alchemical symbol for potassium, an element that is known to explode on contact with water.
+**Ephemeral uses the alchemical symbol for air to represent the volatility of the enchantment.
+**Indignant uses the alchemical symbol for ash because of the charred theme of the demons, and because demons and ash are closely related in Terraria.
+**Resentful uses the alchemical symbol for the moon because of its low gravity, which is similar to how the enchantment causes the weapon to deal more damage from further away.
+**Bloodthirsty uses the alchemical symbol for the sun because of its high gravity, which is similar to how the enchantment causes the weapon to deal more damage up close.
+**Aflame uses the alchemical symbol for fire because of its effect to set enemies ablaze.
+**Oblatory uses the alchemical symbol for lead, as the enchantment's effect can be considered synonymous to lead poisoning.
+**Tainted uses the alchemical symbol for death, as it summons skeleton arms.
+**Defiant uses the alchemical symbol for earth to represent strength and resistance as the enchantment increases damage and defense.
+** Withering uses the alchemical symbol for salt, which refers to the idea of rubbing salt into a wound.
+**Traitorous uses the alchemical symbol for mercury, an element that is useful but can cause considerable damage to one's body if handled improperly.
+**Persecuted uses the alchemical symbol for sulfur, as sulfur and demons are commonly found together in general mythology.
+**Lecherous uses the alchemical symbol for magnesium because it is very difficult to extinguish once set on fire, and this causes it to be associated with eternity in alchemy. The brimstone orb that spawns is eternally present, and can be considered to provide the player with eternal life through the hearts that it drops.
+**Exhumed uses the alchemical symbol of the philosopher's stone, as it turns "impure" weapons into their "purest" forms. This is synonymous with how the philosopher's stone is fabled to be able to turn lead (considered impure) into gold (considered pure).
+*The Withered debuff is a reference to an [https://minecraft.fandom.com/wiki/Wither_(effect) effect of the same name] from the game ''[[wikipedia:Minecraft|Minecraft]]'', featuring an identical death message and similar icon.
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

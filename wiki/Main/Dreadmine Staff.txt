@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| damage = 60
+| auto = yes
+| use = 24
+| mana = 10
+| knockback = 4.5
+| damagetype = summon
+| tooltip = Summons a dreadmine turret to fight for you
+| rare = 7
+| sell = {{value|0|12}}
+| stack = 1
+| hardmode = yes
+| proj = Dreadmine.png
+| projcaption = Dreadmine
+| element1 = Dark
+| element2 = Water
+}}
+{{summoned|Dreadmine Turret|name=Dreadmine Turret|type=sentry}}
+[[File:Dreadmine Staff (demo).gif|frame|A demonstration of the Dreadmine Staff against a [[Super Dummy]]. Note how the mines only spawn close to the ground and ceiling.]]
+
+The '''Dreadmine Staff''' is a craftable [[Hardmode]] [[sentry]]. It summons a stationary mine base that summons mines on nearby tiles which home in on enemies. When an enemy comes in contact with a mine, it will blow up.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The Dreadmines only spawn near blocks, however this does not include platforms.
+**Exploiting this mechanic can allow for extremely high focused DPS, but will require considerable excavation to ensure the spawns are properly concentrated.
+*When the Dreadmine Turret is despawned, all of its mines detonate at once. This ability is not very useful combatively but should be noted when one wishes to move a turret.
+
+== Trivia ==
+*Despite being a sentry, it acts as if it is moving up and down.
+{{-}}
+{{Abyssal Gear}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

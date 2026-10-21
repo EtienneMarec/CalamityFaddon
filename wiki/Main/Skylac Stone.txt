@@ -1,0 +1,34 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Crafting material
+| pickreq = 250
+| stack = 9999
+| auto = yes
+| rare = C1
+| color = #000022
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+| post-ml = yes
+| use = 14
+| sell = No value
+}}
+|{{item drops infobox
+| all [[Sky Abyss]] enemies | 2-5 | 100%
+}}
+}}
+
+'''Skylac Stone''' is a [[block]] that generates in the [[Sky Abyss]]. It requires at least a [[Blossom Pickaxe]] to mine. Enemies found in the Sky Abyss will also drop Skylac Stone on death. It cannot be destroyed with [[explosive]]s.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+|show-main = yes
+|show-blocks = yes
+}}

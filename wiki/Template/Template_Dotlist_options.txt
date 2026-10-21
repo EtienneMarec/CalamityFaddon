@@ -1,0 +1,24 @@
+<includeonly><!-- 
+-->{{#switch:{{{1|}}}<!-- 
+-->|reset|resetall=<!-- 
+	-->{{#dplvar:set|_dotlist_flag_bold|}}<!-- 
+	-->{{#dplvar:set|_dotlist_flag_space|}}<!-- 
+	-->{{#dplvar:set|_dotlist_flag_class|}}<!-- 
+	-->{{#dplvar:set|_dotlist_flag_css|}}<!-- 
+-->|get|load=<!-- 
+	-->{{#switch:{{{2|}}}<!-- 
+		-->|bold={{#dplvar:_dotlist_flag_bold}}<!-- 
+		-->|space={{#dplvar:_dotlist_flag_space}}<!-- 
+		-->|class={{#dplvar:_dotlist_flag_class}}<!-- 
+		-->|css|style={{#dplvar:_dotlist_flag_css}}<!-- 
+	-->}}<!-- 
+-->|#default=<!-- 
+	-->{{#switch:{{{bold|}}}<!-- 
+		-->|n|no={{#dplvar:set|_dotlist_flag_bold|n}}<!-- 
+		-->|y|yes={{#dplvar:set|_dotlist_flag_bold|}}<!-- 
+	-->}}<!--
+	-->{{#dplvar:set|_dotlist_flag_space|{{{space|{{#dplvar:_dotlist_flag_space}}}}}}}<!-- 
+	-->{{#dplvar:set|_dotlist_flag_class|{{{class|{{#dplvar:_dotlist_flag_class}}}}}}}<!-- 
+	-->{{#dplvar:set|_dotlist_flag_css|{{{css|{{{style|{{#dplvar:_dotlist_flag_css}}}}}}}}}}<!-- 
+-->}}<!--
+--></includeonly><noinclude>Set/get default options for {{tl|dotlist}}. See {{tl|dotlist}} for document.</noinclude>

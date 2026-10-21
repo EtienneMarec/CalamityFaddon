@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 70
+| damagetype = Rogue
+| consumable = true
+| knockback = 5
+| use = 22
+| auto = yes
+| velocity = 10
+| tooltip = Fires a spectral javelin that rapidly releases lost souls<br/>Fades away and slows down over time<br/>Lost souls released later deal less damage<br/>Stealth strikes don't slow down and souls always deal full damage
+| hardmode = yes
+| stack = 9999
+| rare = 8
+| sell = {{value|0|0|10}}
+| proj = Lost Soul.gif
+| projcaption = Lost Soul
+| element1 = Dark
+| element2 = Stab
+}}
+
+'''Phantom Lances''' are craftable [[Hardmode]] [[javelins]]. They automatically throw spears that slow down and fade away over time. Each spear leaves a trail of homing lost souls that deal less damage the later they are released. The damage linearly decreases from 70% of the spear's damage to 0 over 5 seconds. Both the souls and the spear go through blocks but do not pierce enemies.
+
+Performing a [[stealth strike]] with Phantom Lances will cause the next javelin thrown to always move at constant velocity and soul damage is constant regardless of the projectile's lifespan.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Javelins]]

@@ -1,0 +1,48 @@
+{{addon|Fargo's Soul Mod}}
+{{dedicated|DevAesthetic|Patreon Donator}}
+{{infobox wrapper
+| {{item infobox
+| type = Weapon
+| autoswing = yes
+| damage = 266
+| damagetype = classless
+| knockback = 1
+| rare = 11
+| stack = 1
+| hardmode = yes
+| postml = yes
+| sell = {{value|0|1|0|0}}
+| tooltip = Shot spread scales with up to 8 empty minion slots <br> 'If you're seeing this, You've been in a coma for 20 years, I don't know where this message will be, but please wake up'
+| debuff = Vaporfied
+| debufftip = Vaporizing senses and mind
+| debuffchance = 100%
+| debuffduration = 7 seconds (main)<br/>4 seconds (split)<br/>4 seconds (melee)
+| proj = Aestheticus Crystal.png
+| projcaption = Vaporified Crystal
+| element1 = Holy
+| element2 = Slash
+}}
+| {{item drops infobox | [[Moon Lord]] | 1 | 5%
+}}
+}}
+
+The '''Devious Aestheticus''' is a Godseeker Mode weapon with a low drop rate from the [[Moon Lord]].
+
+It fires a spread of projectiles which amount scales per minion slot available in the player's inventory, utilizing up to 8 minion slots.
+
+Its best modifier is '''Ruthless'''. The Mythical modifier provides the widest array of stats bonuses, but these primarily affect the initial summon rather than the resulting minion. Additionally, minions cannot deal critical hits. The only significant advantage a Mythical Devious Aestheticus has over a Ruthless one is knockback.
+
+== Notes ==
+*If the debuff is inflicted onto a player, they instead lose 4 health per second and their natural life regen is disabled.
+*This weapon does not have any critical strike chance and cannot gain any from [[coverings]], [[Modifier]]s, [[Buff]]s and [[Covering]] bonuses.
+
+== Trivia ==
+
+* Fargo's Souls Mod is a standalone mod and the Devious Aestheticus is an obtainable summon weapon without Calamity or any of its add-ons enabled. However, with Calamity compatibility, it is changed to do classless damage and inflict Vaporfied.
+
+*The tooltip is based on old memes dedicated to mentally distort people by reading them, making them feel like in that moment that they were in a coma this entire time.
+
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

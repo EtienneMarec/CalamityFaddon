@@ -1,0 +1,281 @@
+{{guide header|latest=2.0.2.001}}
+This is a guide intended to give a rough outline of progression through the Calamity Mod. The mod adds several new points of progression and makes [[Vanilla changes|several changes to the base game's mechanics]] as well, which will be mentioned throughout this guide.
+
+== [[Pre-Hardmode]] ==
+=== Getting Started ===
+==== Starting ====
+*The player starts out with several items: the [[Starter Bag]] and [[Revengeance]]. The bag contains weapons for each class in the game and various [[Potions]], as well as [[Death]], and [[Malice]]. Several of these items toggle unique difficulty modes:
+**The Starter Bag also contains the Awakening [[lore item]] which summons [[The Calamity]] boss when right clicked, serving as an early warmup fight for those willing to get into boss fights as quick as possible. 
+**[[Revengeance Mode]] and [[Death Mode]] are difficulty settings intended to be much more challenging than [[Expert Mode]], introducing mechanics such as the [[Rage Meter]] and [[Adrenaline Meter]] (and [[Stamina Meter]] {{fantag|Catalyst}}), and new boss mechanics.
+**[[Malice Mode]] is a difficulty mode that makes bosses exponentially harder, giving them an "enraged" [[Malice Mode#Boss AI Changes|AI]] and heavily increasing their damage and projectile speed.
+*[[Tar Gar]]s can be fished up from the [[Corruption]] or [[Crimson]] during nighttime, which can spawn the [[Slime Rain]] and allow the summoning of [[Goozma]].
+*Certain mechanics featured by the mod can be changed in the [[configuration options]] file.
+*Acquire ~50 [[Delicious Meat]] and eat it immediately.
+
+==== Pre-boss exploration ====
+*Aside from mining for [[Ores]], [[Wulfrum Metal Scrap]]s and [[Energy Core]]s are the first materials the player should look for to create armor and weapons.
+*All [[Biomes]] and the majority of [[Events]] have unique content added to each of them, so be sure to check through them for items that may be useful.
+*The [[Dungeon]]'s [[Skeletron]] requirement is lifted, meaning it can be safely explored before defeating it.
+**[[Arsenic Ore]] will generate in small patches within it which can be smelted into [[Dubious Plating]] which can then be used to make a powerful set of early game Draedon's arsenal weaponry.
+*Several new structures spawn across the world:
+**[[Planetoid]]s spawn in [[Space]], providing items which were otherwise available only in the [[Cavern]]s. These structures can provide huge benefits to the player, especially if explored early.
+***The main Planetoid contains the Space [[Arsenal Lab]] that contains [[Cinderplate]] and chests with [[Herb Bag]]s, [[Planter Box]]es, and [[Mysterious Circuitry]]. This allows the player to set up an early herb farm.
+***Ore planetoids can be generated, providing the player with a large amount of a random ore, which is useful for early crafting, especially for [[Gold armor|Gold]] or [[Platinum armor]].
+****Ore planetoids are sometimes generated with an Enchanted Shrine, which can yield the [[Enchanted Sword]] or [[Arkhalis]].
+***Biome planetoids can be useful for obtaining items prior to exploring their respective biomes, most notably [[Bezoar]]s, [[Sharpening Station]]s and [[Glowing Mushroom]]s.
+***A Life Crystal planetoid is always generated with a [[Life Crystal]], and typically contains a random type of gem.
+****These planetoids, especially if [[Ruby|Rubies]] are generated, will allow the player to craft large amount of Life Crystals early, helping them to increase their maximum life extremely quickly.
+**[[Shrine]]s appear in different biomes, each with a unique accessory or mount for the player to use.
+**An [[Evil Island]] spawns opposite to the dungeon, containing the opposite [[tgc:Evil_Biome|World Evil]] and its respective ore, as well as its [[Biome Chest]].
+*Certain enemies drop vanilla items for convenience:
+**[[Crawlers]] can be found in subterranean areas, dropping their respective [[gem]]s.
+**[[Cosmic Elemental]]s have chances to drop the [[Bone Sword]], [[Starfury]] and [[Arkhalis]].
+**A complete list containing all the other available items may be found [[Vanilla changes#Drops|here]].
+*[[Vanilla_changes#Town_NPCs|NPCs also sell new items]], including a variety of buff potions.
+*Enemies during [[Blood Moon]]s drop [[Blood Orb]]s, which make crafting potions easier but require the [[Alchemy Table]] from the Dungeon.
+
+==== Mechanics ====
+*Killing enemies or damaging bosses yields [[proficiency]], a new leveling system added by the mod. While the system isn't necessary to be able to progress, it grants several minor boosts to the player's stats.
+*The mod also adds a new [[Rogue]] class, which utilizes a unique stealth mechanic to deal extra damage.
+*Several items as well as modifiers have been rebalanced throughout progression.
+*All other changed mechanics can be referred to [[Vanilla changes|here]].
+
+=== Early boss progression ===
+*{{fantag|Calamity: Community Remix}} An easy first boss for the player to fight is the [[Wulfrum Excavator]], providing several useful items and unlocking the [[Desert Scourge]] fight.
+*After obtaining as much loot as they can, the player should head to the [[Desert]] or [[Underground Desert]] and fight the Desert Scourge.
+**[[Cnidrion]]s are large dry seahorse-like enemies which fire a barrage of water bolts. While they are easy to kill by hiding as their bolts cannot penetrate blocks, be wary as they can fall from above and trap the player in confined areas. They also drop the [[Desert Medallion]] needed to summon the Desert Scourge.
+*When the Desert Scourge is defeated, the player may venture farther through their world to enter the [[Ocean]].
+**In the Ocean, most enemies are largely passive and will not attack the player unless provoked. The [[Giant Clam]] is a powerful [[miniboss]] that resides in this biome. The [[Sea King]] will spawn upon its defeat.
+**The Sea King sells many useful weapons as well as granting the [[Amidias' Blessing]] buff allowing underwater breathing.
+*Although not immediately useful, it is recommended that the player looks for the [[Sunken Sea Bio-center Lab]] in the Ocean and takes the loot within.
+**The [[Lab Turret]]s can be dangerous and are immune to normal weaponry, though they can be destroyed with a pickaxe. The player should build a barrier to block their line of fire while they explore the lab.
+**The [[Schematics|Schematic (Sunken Sea)]] will unlock powerful weapon recipes for later. 
+**The player should also look for [[Power Cell Factory|Power Cell Factories]] to place near their base so they can start producing [[Draedon Power Cell]]s for later.
+**The player should also take two [[Charging Station]]s. One to create a [[Codebreaker]] with and another to recharge any chargeable weapons the player crafts. 
+*After the [[Eye of Cthulhu]] is defeated, [[Acid Rain]] may occur naturally and the player is free to challenge its first tier in the [[Sulphurous Sea]].
+**While the event is rather difficult, the [[Sulphuric Scale]]s dropped by various enemies in the event can be used to craft powerful weapons as well as [[Sulphurous armor|Sulphurous Armor]].
+**While at the [[Sulphurous Sea]], the player can loot [[Rusty Chest]]s on the seafloor and in the caverns beneath it.
+***The player should be cautious to ensure they don't accidentally enter the [[Abyss]] at this point, as they are not yet properly equipped to handle the enemies within.
+*While optional, [[Crabulon]] is recommended to be fought at this point.
+**If a [[Glowing Mushroom biome]] has not been discovered yet, a Mushroom Planetoid can alternatively be used to build a small arena for him.
+**Aside from the usual weapons, Crabulon also drops a [[Mushroom Plasma Root]] in Revengeance Mode, which increases the duration of the [[Rage Mode]] [[buff]] by 1 second.
+*After defeating the [[Eater of Worlds]]/[[Brain of Cthulhu]] (and optionally, [[Queen Bee]] and the [[Old One's Army]]), [[The Hive Mind]]/[[The Perforators]] can be challenged.
+**The two are initially summoned by destroying either a [[Hive Cyst]] or [[Perforator Cyst]] depending on the boss.
+**Defeating either one will generate [[Aerialite Ore]] in the world and cause [[Aero Slime]]s to spawn in the [[Cavern]] layer. This is used for the [[Aerialite Bar|Aerialite]] set, which will also require [[Cloud]]s, [[Sunplate Block]]s, and the [[Sky Mill]] to craft.
+*The player can now craft the recipes contained within the Sunken Sea Schematic.
+
+=== Late boss progression ===
+*The next goal of the player should be to fight [[Skeletron]] and visit the [[Dungeon]].
+**The [[Bandit]] NPC can now spawn, selling various Rogue weapons and accessories.
+***The Bandit also provides the refund service which returns a fraction of the money the player has spent at the [[Goblin Tinkerer]] on reforging. 
+**The [[Shadow Key]] will be required during the trip to the [[Abyss]], so the player should prioritize finding it upon entering the dungeon. Alternatively, the player can craft a Shadow Key with a [[Golden Key]], [[Obsidian]], and [[Bone|Bones]].
+*After rescuing the [[Mechanic]], the player can buy [[Wire]] to craft the second Codebreaker component, the [[Decryption Computer]] which decodes the [[Encrypted Schematic (Planetoid)]] and unlocks various early-[[Hardmode]] recipes.
+**The Encrypted Schematic (Planetoid) is in the [[Space Bio-center Lab]] inside the main Planetoid, which can be located with the [[Purple Seeking Mechanism]].
+*The [[Abyss]] is a large biome which sits right next to the Dungeon. While optional, it contains valuable loot which will prove to be useful against the next pair of bosses.
+**The player should build a house with a [[tgc:Bed|bed]] near the area, for the sake of convenience.
+**The entrance to the biome is located at the very bottom of the [[Sulphurous Sea]].
+**Using the Shadow Key, the [[Shadow Chest]]s should be opened to obtain several weapons, accessories and other helpful tools.
+**Entering the deeper parts is not recommended due to the multiple powerful enemies that may spawn in the area.
+*The [[Deerclops]] is recommended to be challenged around this time, and will drop the [[Dust Bunny]] {{fantag|Catalyst}} to increase the player's Stamina.
+*The player can attempt to explore the [[Brimstone Crag]] at this point and use the Shadow Key to loot the Shadow Chests within, though they should be wary of the powerful enemies that spawn in this biome.
+**Each of the unique items found in typical underworld Shadow Chests, as well as a [[Lava Charm]], are distributed among the six Shadow Chests on the surface of the crag.
+**There are three more chests buried under the [[Brimstone Slag]] that contain a [[Magma Stone]], [[Obsidian Rose]], and [[Philosopher's Stone]] (an item typically unavailable until [[Hardmode]]).
+*Afterwards, the player can challenge [[The Slime God]].
+**While this boss can be skipped and fought later, the loot and the crafted [[Statigel armor|Statigel set]] is valuable in the upcoming fight against the [[Wall of Flesh]].
+**The boss also drops the [[Electrolyte Gel Pack]] in [[Revengeance Mode]], which increases the damage of Adrenaline Mode by 15% and increases how much damage reduction the player gains when hit while the meter is full by 5%.
+*The last step is to prepare for and defeat the [[Wall of Flesh]], and then enter Hardmode.
+**Aside from new weapons, the boss also drops a [[Rogue Emblem]] for the rogue class.
+
+== [[Hardmode]] ==
+*The player's first goal upon entering Hardmode should be seeking out and purifying or containing the underground strain of the [[Astral Infection]].
+**Two strains of Astral Infection spawn into the world, one on the surface and one in a random underground location. The biome features powerful enemies which drop [[Stardust]] used to craft various items.
+***The underground Astral Infection strain will rapidly infect nearby blocks. Players are '''highly''' advised to seek out the strain and contain it, as blocks that have been infected for more than 20 minutes will begin '''permanently''' converting into irremovable [[Meld Gunk]].
+***[[Nova]]s begin spawning which drop the [[Comet Shard]] when detonating on [[Astral Ore]], which increases mana by 50 
+*If the [[Vanilla changes#Ores and the Mechanical Bosses|early Hardmode progression rework]] is enabled in the configuration options, [[Cobalt Ore]] and [[Palladium Ore]] will spawn upon defeating the Wall of Flesh.
+**Breaking [[Demon Altar]]s or [[Crimson Altar]]s will yield [[Soul of Night|Souls of Night]].
+**The [[Mythril Anvil]] and [[Orichalcum Anvil]] are unavailable until the defeat of one Mechanical Boss. 
+**A full documentation of the early Hardmode progression rework can be found [[Vanilla changes#Ores and the Mechanical Bosses|here]].
+*[[Noxus Eclipse]]s will start occurring if the player doesn't visit the Underworld or fourth layer of the Abyss, which will result in the player's world getting permanently deleted if they aren't careful.
+*The [[Aether Valkyrie]] and [[Earth Elemental]] now spawn in Space and the Cavern layers respectively, serving as hazards to the unsuspecting player.
+*New enemies spawn in the Ocean and the Giant Clam miniboss is buffed, gaining new attacks as well as dropping various weapons and [[Mollusk Husk]]s.
+*Three new essences are available in [[Space]], [[The Underworld]] and the [[Snow biome]] which can be used to craft new gear.
+*[[Life Fruit]]s begin spawning immediately upon entering Hardmode. 
+*The [[Brimstone Crag]] is intended to be explored at this point.
+*The [[Cosmolight]] is now obtainable, allowing the player to change the time from night to day, and vice versa.
+*Several vanilla bosses have been made non-linear in progression:
+**[[Plantera]] can be fought early by crafting the [[Portabulb]].
+***[[Plantera's Bulb]] also spawns before all mechanical bosses have been defeated.
+**The [[Temple Key]] [[Vanilla item crafting|can now be crafted]] before Plantera is defeated, and [[Golem]] can be summoned early as well with the [[Old Power Cell]].
+**The [[Lunatic Cultist]] can be summoned pre-Golem via the [[Eidolon Tablet]].
+
+=== Early-Hardmode boss progression ===
+*Three new bosses become available: [[Cryogen]], [[Aquatic Scourge]] and [[Brimstone Elemental]]. The three of them are fought between each [[Mechanical Boss]] fight. These bosses are not required for progression, but the gear they drop and unlock can aid in the upcoming fights.
+**Cryogen's summoning item can be crafted at an [[Iron Anvil|Iron]] or [[Lead Anvil]], the Aquatic Scourge's summoning item requires a Mythril or Orichalcum Anvil, and the Brimstone Elemental's summoning item requires an [[Adamantite Forge|Adamantite]] or [[Titanium Forge]].
+**Defeating Cryogen spawns [[Cryonic Ore]] in the Ice biome for the [[Daedalus armor|Daedalus set]].
+***The [[Archmage]] NPC spawns as well and sells various items and weapons.
+**Defeating Aquatic Scourge unlocks the second tier of the [[Acid Rain]].
+***This tier unlocks new weapons for the player to aid in the upcoming fights.
+**Defeating the Brimstone Elemental makes it possible to craft [[Exotic Pheromones]] to fight [[The Dragonfolly]], however it is advised not to do so until [[Plantera]] is defeated.
+**The second tier of the Old One's Army may also be fought, as the [[Sentry]] accessories are recommended for Summoners.
+*If the early Hardmode progression rework is enabled, Mechanical Bosses will no longer drop [[Hallowed Bar]]s at first and defeating Mechanical Bosses will cause various ores to spawn in the world. 
+**[[Mythril Ore]] and [[Orichalcum Ore]] will spawn upon the defeat of the first Mechanical Boss, allowing the player to craft a Mythril or Orichalcum Anvil.
+**[[Adamantite Ore]] and [[Titanium Ore]] will spawn upon the defeat of the second Mechanical Boss. 
+**[[Hallowed Ore]] will spawn in the underground [[Hallow]] following the defeat of the final Mechanical Boss, and all Mechanical Bosses will drop [[Hallowed Bar]]s from that point onward.
+*As soon as Mythril or Orichalcum Bars are available, the next Codebreaker component, the [[Long Ranged Sensor Array]], can be crafted to decrypt the [[Encrypted Schematic (Jungle)]].
+**The Encrypted Schematic (Jungle) is in the [[Jungle Bio-center Lab]], which can be located with the [[Green Seeking Mechanism]] and unlocks various recipes for late-Hardmode.
+*The souls dropped by the Mechanical Bosses along with [[Mythril Bar|Mythril]] or [[Orichalcum Bar]]s can be used to craft the weapons from the Planetoid Schematic.
+*The [[Blood Orange]] may be obtained by dropping an [[Apple]] into a pool of water while a Blood Moon is currently active.
+*After all six bosses have been defeated, the player is recommended to fight either [[Calamitas]] or [[Plantera]].
+*After defeating [[Calamitas]], [[Solar Veil]]s will drop from certain enemies during a [[Solar Eclipse]] and the middle area of the Abyss may now be explored, in order to hunt for [[Depth Cells]], [[Lumenyl]], and dig for [[Tenebris]].
+**The player should be very careful within this area of the Abyss, as enemies can very easily overpower them, and the lack of significant lighting can make escaping the Abyss difficult under pressure.
+**The materials here are used in gear both now and later on.
+**As the breath loss increases as the player goes deeper into the Abyss, accessories such as the [[Abyssal Diving Gear]] and the [[Aquatic Emblem]] are highly recommended from this point onwards.
+**Calamitas will also drop the [[Magma Booster]] {{fantag|Catalyst}} to greatly increase the player's Stamina.
+*Before fighting Plantera, the player can also equip a [[Bloody Vein]] and use the [[Mechanical Worm]] to summon [[The Derellect]]. Defeating it is a great source of Hallowed Bars and powerful weapons.
+*[[The Forbidden Lantern]] boss is also intended to be fought at this tier, dropping [[Shattered Prism]]s to make [[Shatterite Bar]]s with {{fantag|Calamity Tales of the Aquatic}}.
+
+=== Post-Plantera boss progression ===
+*[[Polyphemalus]] can now be challenged by using the [[Fused Eye]] at night.
+*The [[Great Sand Shark]] may now spawn during a [[Sandstorm]] or be challenged using the [[Sandstorm's Core]], providing [[Grand Scale]]s that are used to craft items.
+*The [[Armored Digger]] may appear in the Cavern layer, posing as a possibly dangerous threat.
+**It drops [[Draedon's Remote]], which summons the Mechanical Boss trio with buffed stats.
+*[[Solar Veil]]s are now dropped by certain enemies during a [[Solar Eclipse]], even if the player has not defeated Calamitas.
+*Enemies within the [[Dungeon]] now drop [[Ectoblood]], which makes farming for [[Ectoplasm]] significantly easier.
+*The player should be strong enough to fight [[The Dragonfolly]].
+**Defeating the Dragonfolly will grant access to [[Desert Feather|Desert Feathers]], which can be crafted into the several items, including the upgraded Effulgent Feathers once the Lunatic Cultist is defeated.
+**The [[Red Lightning Container]] is dropped by the Dragonfolly in Revengeance Mode, increasing the duration of the Rage Mode buff by 1 second.
+*The next bosses to fight are [[Leviathan and Anahita]] and [[Astrum Aureus]].
+*Defeating Astrum Aureus causes the Astral enemies to gain increased stats and drop unique weapons.
+**The Astral [[Biome Chest]] also unlocks in the [[Dungeon]], providing the Rogue class its own unique weapon, the [[Heavenfallen Stardisk]].
+**In Revengeance Mode the [[Starlight Fuel Cell]] is dropped, which increases the damage of Adrenaline Mode by 15% and increases how much damage reduction the player gains when hit while the meter is full by 5%.
+*After Golem is defeated, the player may visit the [[Abyss]] again to mine for [[Scoria Ore]] for the [[Hydrothermic armor|Hydrothermic set]].
+**The [[Miracle Fruit]] can be obtained from Jungle Planetoides.
+**The [[Rift Reeler]] becomes available, which is exceptionally useful for obtaining potion ingredients and other useful items.
+**Several plague-related enemies including the [[Plaguebringer]] miniboss also begin to spawn in the [[Jungle]], providing [[Plague Cell Canister]]s.
+*The [[Pot of Pain]] opens up, allowing the player to obtain [[Yharim's Gift]] and [[Yharim's Insignia|Insignia]].
+*The player can now craft [[Life Alloy]] to create an [[Advanced Display]], the next Codebreaker component, and decrypt the [[Encrypted Schematic (Hell)]]. 
+**The Encrypted Schematic (Hell) is in the [[Underworld Bio-center Lab]], which can be located with the [[Red Seeking Mechanism]] and contains post-[[Providence]] recipes.
+*The player may then fight [[The Plaguebringer Goliath]], [[Duke Fishron]], [[Ravager]] and the [[Lunatic Cultist]] afterwards.
+**The Plaguebringer Goliath drops [[Infected Armor Plating]], which can be used to craft the weapons in the Jungle Schematic.
+**Ravager drops the [[Infernal Blood]] in Revengeance Mode, which is the third and final Rage upgrade, increasing the duration of the Rage Mode buff by 1 second.
+**The defeat of the Lunatic Cultist allows for Effulgent Feathers to crafted, and the [[Jungle Dragon Egg]] that is used to summon [[Jungle Dragon, Yharon]], although it is highly recommended that the Player waits to fight him until [[The Devourer of Gods]] has been defeated.
+**Although the first three are not strictly necessary for mod progression, they are recommended to be fought in the order of [[Boss Progression|Calamity's boss progression]] and the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod].
+*Before fighting the [[Moon Lord]], the player can use a [[Titan Heart]] at the [[Astral Beacon]] to summon and fight [[Astrum Deus]].
+**Defeating Astrum Deus allows the player to mine the [[Astral Ore]] at the meteor in the biome and craft weapons.
+**The player can also insert the [[Bloody Vein]] into the Astral Beacon to summon a [[Ethereal Core]], boosting the player's mana by 50.
+
+== Godseeker Mode ==
+*Upon defeating the Moon Lord, several things will occur:
+**Moon Lord drops a [[Celestial Onion]], which increases the player's accessory slots by one, like the [[Demon Heart]].
+***Moon Lord's death additionally generates new Planetoids made of a large amount [[Exodium Cluster]]s.
+***[[Side Gar]]s can now be fished from [[Space]] which drop [[Galactica Singularity|Galactica Singularities]], an important crafting material.
+**Several items can now be crafted with Luminite:
+***Many elemental themed weapons for all five classes can be obtained, along with new accessories.
+***[[Empyrean armor]] can be made as a Rogue alternative to the [[Lunar Fragment]] armors.
+**In Revengeance Mode, [[Astrum Aureus]] will be buffed and additionally drop the [[Suspicious Looking Jelly Bean]] mount.
+**Several Profaned enemies will begin to spawn in both the [[Hallow]] and [[Underworld]] biomes.
+**[[Phantom Spirit]]s will begin to spawn in the Dungeon, similarly to [[Dungeon Spirit]]s, that drop [[Phantoplasm]] which can be crafted into [[Supreme Mana Potion]]s.
+**The [[Profaned Guardians]] and [[Polterghast]] can now be challenged, although it is recommended that Polterghast be fought later on.
+**The [[Rune of Kos]] can be crafted that is used to summon the three [[Sentinels of the Devourer]], although it is also recommended that they are fought post-[[Providence]].
+**The [[Cosmic Worm]] can be alternately crafted to summon The Devourer of Gods, though it's highly recommended that it should be fought after Polterghast (and optionally [[The Old Duke]]) are defeated.
+**[[Cosmilite Slag]] will generate inside of all Planetoids, allowing the crafting of [[Cosmilite Bar]]s. {{fantag|Calamity Loot Swap}}
+***Combining Cosmilite Bars, Luminite Bars, Galactica Singularities, [[Exodium Cluster]]s, and a Hardmode Anvil, the [[Cosmic Anvil]] can be crafted, which will grant the player access to the many high tiers of items available in the Calamity Mod.
+**The [[Plague Emperor]] will begin spawning in the Jungle, which drops a large amount of Plague Cell Canisters, Infected Armor Plating, and Luminite Bars without needing to refight the Moon Lord.
+*Once The Profaned Guardians are defeated, they will drop a [[Profaned Core]], which is used to summon [[Providence, the Profaned Goddess]].
+*[[Providence, the Profaned Goddess]] can drop different loot depending on if she was summoned within [[The Hallow]] or within [[The Underworld]].
+**Optionally the player can challenge Providence at night time, which will make the fight significantly harder but have additional drops.
+
+=== Post-[[Providence, the Profaned Goddess]] ===
+*[[Uelibloom Ore]] is now available, allowing the Player to obtain [[Tarragon armor]].
+*The items in the Underworld Schematic can now be crafted, including the next Codebreaker component, the [[Voltage Regulation System]], which allows the decryption of the final schematic, [[Encrypted Schematic (Ice)]].
+**The Encrypted Schematic (Ice) is in the [[Ice Bio-center Lab]], which can be located with the [[Yellow Seeking Mechanism]] and contains recipes for post-[[Devourer of Gods]] weapons and the last Codebreaker component. 
+*An [[Sambucus Fruit]] can now be obtained from the [[Dye Trader]] which increases the player's max life by 25 HP.
+*[[Brimstone Elemental]], [[Calamitas]], and [[Ravager]], as well as enemies in the [[Brimstone Crag]], become buffed and will now drop [[Bloodstone]], allowing the player to create some of the items in the [[Bloodstone Core|Bloodstone]] set.
+**In Revengeance Mode, the Brimstone Elemental will also now drop the [[Brimrose]], which is a powerful mount that allows for infinite flight.
+**The Ravager will also now drop its Expert mode item, the [[Bloodflare Core]].
+*The [[Starborn Princess]] {{fantag|Calamity: Community Remix}} can now move in and sell various resources.
+*Providence will drop the Rune of Kos, which is used to fight the three Sentinels of the Devourer.
+**[[Storm Weaver]] is fought in Space.
+**[[Ceaseless Void]] is fought in the Dungeon.
+**[[Signus, Envoy of the Devourer]] is fought in the Underworld.
+***Signus drops the [[Ever Ink]] {{fantag|Catalyst}}, the final and most potent Stamina upgrade.
+*Polterghast is now recommended to be fought, and upon its death, the bottom layer of the Abyss will open up, allowing the player to obtain several powerful weapons and accessories.
+**After defeating Polterghast, the player can fight the 3rd tier of [[Acid Rain]] and challenge [[The Old Duke]].
+**Polterghast will drop the final Adrenaline upgrade in Revengeance Mode, the [[Ectoheart]], which increases the damage of Adrenaline Mode by 15% and increases how much damage reduction the player gains when hit while the meter is full by 5%.
+**Polterghast will also drop [[Ruinous Soul]]s, which is used to craft [[Bloodflare armor]], [[Omega Blue armor]], and several additional weapons.
+**[[Phantom Heart]]s can be found rising in the Dungeon, which is the final mana upgrade.
+*The can find the [[Terminus]] item at the bottom of the [[Abyss]], which starts the [[Boss Rush]] event, although it is recommended that this be challenged once [[Supreme Calamitas]] and the [[Exo Mechs]] have been defeated.
+*Upon defeating all three Sentinels of the Devourer, the [[Cosmic Worm]] can now be crafted, which is used to summon The Devourer of Gods.
+
+=== Post-[[The Devourer of Gods]] ===
+*After defeating The Devourer of Gods, many things will happen:
+*The [[Starborn Princess]] {{fantag|Calamity: Community Remix}} begins selling [[Endothermic Energy]], [[Nightmare Fuel]] and [[Darksun Fragment]]s for {{gc|12}} each, which can be combined into [[Ascendant Spirit Essence]]s for higher tier items.
+**[[Phantoplasm]] from Polterghast will also be needed in combination with the essences in order to fully craft the Ascendant Spirit Essences.
+**With this, [[God Slayer armor]], [[Silva armor]], the weapons in the Ice Schematic, as well as a large amount of other powerful accessories and weapons, especially ranged [[donator items|donator]] weapons, can now be crafted.
+*Now, Jungle Dragon, Yharon should be challenged.
+
+=== Post-[[Jungle Dragon, Yharon]]===
+*Yharon will drop [[Drew's Wings]], allowing the player to trade off sprinting abilities with a massive boost to flight time and acceleration.
+*[[Auric Ore]] is now available underground, allowing the player to obtain [[Auric Tesla armor]] as well as many new weapons.
+**A [[Dragonfruit]] can now be obtained from Sky Crates while a [[Wyvern]] is currently active, which will permanently increase the player's health by a final 25.
+*The [[Murasama]], a powerful true Melee weapon located in the Underworld Bio-center Lab, can now be swung.
+*The final Codebreaker component, the [[The Codebreaker|Auric Quantum Cooling Cell]] can be crafted, allowing the player to contact Draedon and challenge the [[Exo Mechs]].
+**The player can also optionally insert a [[Bloody Vein]] dropped by The Perforators into The Codebreaker to summon [[XP-00 Hypnos]].
+*The player can craft the [[Altar of the Accursed]] and use [[Ashes of Calamity]] on it to summon [[Supreme Calamitas]].
+*Inserting a Bloody Vein into the [[Ancient Console]] in the [[Brimstone Crags]] will summon [[The Wall of Bronze]], dropping several extremely helpful tools.
+*The [[22 Bullet Theory]] {{fantag|Calamity: Community Remix}} event becomes beatable with the crafting of [[22 Hornet Round]]s and offers an efficient way to make extreme amounts of money.
+*The [[Brimstone Witch]] NPC can spawn once Supreme Calamitas is defeated. She can [[Enchantment|enchant]] the player's weapons to give them new and powerful effects.
+*Upon defeating the Fabricational Quartet, [[Exo Prism]]s will be dropped and [[Miracle Matter]] can be crafted, allowing the to player combine the Ancient Manipulator, Cosmic Anvil, Hardmode Forge, and Tinkerer's Workshop to obtain [[Draedon's Forge]] and craft several Exo-Weapons.
+*After defeating [[Supreme Calamitas]] and [[The Fabricational Quartet]], Godseeker, Yharim can be fought in the Dragon's Aerie.
+
+===Post-[[Godseeker, Yharim]] (Epilogue)===
+*The [[Adult Eidolon Wyrm]] is now ready to be fought, and will drop [[Subnautical Plate]]s, a useful endgame crafting material.
+*Defeating the Adult Eidolon Wyrm will give the player the [[Terminus]], it is at this point that the player should be strong enough to face off against the Boss Rush.
+**Upon defeating the Boss Rush, the player can obtain a [[Rock|special reward]].
+*[[The Entropic God, Noxus]] can be summoned using the [[Genesis]] dropped by [[Vision of the Tyrant]] during the Boss Rush.
+**Materials dropped by Supreme Calamitas, the Fabricational Quartet, Yharim, Adult Eidolon Wyrm, and Noxus allow for [[Shadowspec Bar]]s to be crafted, used to craft endgame-tier items, allowing the player to obtain [[Demonshade armor]].
+**Killing Noxus will unlock the [[Sky Abyss]] {{fantag|Calamity Tales of the Aquatic}} biome above the [[Sulphurous Sea]] which contains new enemies, [[Esseric Ore]], and the [[Abyssal Jewel]] boss.
+*[[Exodygen]] {{fantag|Sloome}} can be challenged by crafting the [[Eschaton]] and using it, providing the [[Gem of Exodygen]], a helpful healing tool.
+*Once the player has defeated Noxus and Exodygen, a menu to enter a subworld will appear. Entering the subworld will allow the player to start the fight with [[Xeroc, the Nameless Deity]].
+**If the player has met certain requirements, they can challenge the [[Ultimate Boss Rush]] and [[Super Ultimate Final Challenge Rush]] afterwards.
+
+== Epilogue ==
+After the player defeats Xeroc (and optionally the 2 challenge rushes that come afterward), they have completed the final challenges. At this point, the player has several options of where to keep going, including playing other mods or starting over their adventure with the Calamity Mod as a different class.
+
+Some things you can try:
+
+*Start a new playthrough in higher difficulty (Normal Mode < Expert Mode < [[Revengeance Mode]] < [[Death Mode]]), and optionally [[Malice Mode]] with any of the aforementioned difficulty modes.
+*Attempt no-hitting all bosses in Revengeance Mode, Death Mode or Malice Mode.
+*Complete all [[Angler]] fishing quests added by the Calamity Mod.
+*Construct buildings or settings from the [[Lore]] such as the Sea Kingdom or the [[Archmage]]'s castle.
+*Try to beat Revengeance Mode or Death Mode without [[Rage Meter|rage]] or [[Adrenaline]].
+*Beat multiple bosses at once.
+*Learn speedrunning.
+*Create pixel art of content added by the Calamity Mod.
+*Acquire every single weapon and tool.
+*Acquire every single [[Challenge item]] and [[Legendary Challenge item]].
+*Obtain every single armor and vanity set.
+*Gather up every single accessory.
+*Collect every single [[Trophy]], [[Boss Mask]] and [[Banner]].
+*Gather up every single [[Music Boxes|Music Box]].
+*Mine out every single [[Ores|ore]] that the Calamity Mod adds.
+*Suggest ideas in the Calamity Mod Discord.
+*Find bugs and glitches so the mod developers can fix them for everyone's benefit.
+*Create a wardrobe of different costumes that resemble certain characters.
+*Dig out every single block in a world.
+*Prepare for future updates.
+*Contribute to the Wiki!
+*Get 100% on the bestiary!
+*Collect every item in the game, including the Soul of Eternity!
+*Play in the amazing For the Worthy seed!
+*Ban yoshich.
+
+The Calamity Mod is an ever-changing project, with more content to come in the future for both the current progression of the Mod and beyond Supreme Calamitas. The player can prepare themselves for when the mod updates to add bosses and/or events such as [https://calamitymod.fandom.com/wiki/Jungle_Dragon,_Yharon Yharon] himself, who is said to be releasing on December 11th.
+
+== See Also ==
+*[[tgc:Guide:Game progression|Game progression Guide]] on the Vanilla wiki
+
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}

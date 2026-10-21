@@ -1,0 +1,73 @@
+{{dedicated|Ben / Termi|Developer}}
+{{item infobox
+| type = Weapon
+| damage = 151
+| damagetype = Summon
+| knockback = 1
+| mana = 520
+| use = 12
+| stack = 1
+| tooltip = Surprisingly sturdy, I reckon this could defeat the Mafia in a single blow<br/>Summons a magic hat to hover above your head<br/>The hat will release a variety of objects to assault your foes<br/>Requires 8 minion slots to use and there can only be one hat
+| buff = Magic Hat (buff)| bufflink = no
+| bufftip = The hat carries your soul, bound by a contract
+| rare = 16
+| sell = {{value|0|40}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Betsy's Curse
+| debuffduration = 3 seconds (Bullet)
+| debuffchance = 100%
+| debuff2 = Ichor (debuff)
+| debuffduration2 = 3 seconds (Bullet)
+| debuffchance2 = 100%
+| debuff3 = Armor Crunch
+| debuffduration3 = 3 seconds (Bullet)
+| debuffchance3 = 100%
+| debuff4 = War Cleave
+| debuffduration4 = 3 seconds (Bullet)
+| debuffchance4 = 100%
+| debuff5 = Whispering Death
+| debuffduration5 = 3 seconds (Bullet)
+| debuffchance5 = 100%
+| debuff6 = Brimstone Flames
+| debuffduration6 = 1.5 seconds (Axe)
+| debuffchance6 = 100%
+| debuff7 = Frostburn
+| debuffduration7 = 1.5 seconds (Axe)
+| debuffchance7 = 100%
+| debuff8 = Holy Flames
+| debuffduration8 = 1.5 seconds (Axe)
+| debuffchance8 = 100%
+| element1 = Magic
+| element2 = Stab
+| element3 = Slash
+}}
+{{summoned|Magic Hat (minion)|type=minion}}
+
+The '''Temporal Umbrella''' is a craftable Epilogue [[summon weapon]] that is the direct upgrade of [[Saros Possession]] and the final upgrade to the [[Sun Spirit Staff]]. It summons up to only one Magic Hat minion which summons elemental sniper rifles, axes, bats, hammers, umbrellas, and birds to attack nearby enemies. It requires 8 minion slots to use.
+
+The Temporal Umbrella's various projectiles can inflict a variety of debuffs. They are listed below:
+*Elemental Axes inflict [[Brimstone Flames]], [[Frostburn]], and [[Holy Flames]] for 1.5 seconds.
+*Bullets inflict [[Betsy's Curse]], [[Ichor (debuff)|Ichor]], [[Armor Crunch]], [[War Cleave]], and [[Whispering Death]] for 3 seconds.
+
+The combined effects of the debuffs cause the target to lose 95 health per second, lose 154 defense, have their damage reduction reduced by 25%, and become unable to move.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The word "Temporal" in the weapon's name, the phrase in the tooltip "Surprisingly sturdy, I reckon this could defeat the Mafia in a single blow", the buff tooltip "The hat carries your soul, bound by a contract", and the weapon's visuals are a reference to the game ''[[wikipedia:A Hat in Time|A Hat in Time]]''.
+**The use of a Top Hat and Umbrella in the crafting recipe is also a reference to ''A Hat in Time''.
+*In the mod's source files, this weapon is internally named "Ben's Umbrella".
+*This weapon actually has a unique rarity, but is referred to here as Hot Pink for consistency between weapons.
+**This unique rarity alternates between purple ({{color|#D200FF ●|#D200FF}}) and yellow ({{color|#FFF818 ●|#FFF818}}) colors.
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

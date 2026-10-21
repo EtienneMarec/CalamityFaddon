@@ -1,0 +1,56 @@
+{{dedicated|MishiroUsui / Amber|Patreon Donator}}
+{{item infobox
+| image = Profaned Soul Artifact.gif
+| type = Covering
+| type2 = Crafting material
+| rare = 12
+| stack = 1
+| tooltip = Purity<br/>Summons a healer guardian which heals for a certain amount of health every few seconds<br/>Summons a defensive guardian if you have at least 10 minion slots, which boosts your movement speed and your damage resistance<br/>Summons an offensive guardian if you are wearing the tarragon summoner set (or stronger), which boosts your summon damage and your minion slots<br/>If you get hit, most of their effects will disappear for 5 seconds
+| hardmode = yes
+| postml = yes
+| buff = The Profaned Soul|bufflink= no
+| bufftip = The healer will heal your wounds (Only Healer)<br/> The Defensive Duo will protect and heal you! (Healer + Defensive)<br/> The Offensive Duo will fight for and heal you! (Healer + Offensive)<br/> The Profaned Babs will fight for and defend you! (All Three)
+| debuff = Burnt Out |debufflink = no
+| debufftip = You've been burnt out and your guardians are less effective
+| debuffduration = 5 seconds (when hit)
+| debuff2 = Holy Flames
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (On minion hits)
+| debufftip2 = Dissolving from holy light
+| damage = 75/150/225
+| damagetype = Summon
+| sell = {{value|0|24}}
+}}
+{{summoned|type=minion|Healer Guardian|minion2=Defensive Guardian|minion3=Offensive Guardian}}
+
+The '''Profaned Soul Artifact''' is a craftable Godseeker Mode [[covering]]. It summons miniature [[Profaned Guardians]] to assist the player, based on different requirements that must be met by the player.
+
+*When equipped, the Healer Guardian is summoned, which heals the player for 5 health every 5 seconds. Additional Guardians will scale the healing by 5 health for a maximum of 15 health every 5 seconds.
+*When the player has at least 10 minion slots, the Defensive Guardian will be summoned, which rapidly dashes at enemies. Additionally, it boosts movement speed by 10% and damage reduction by 2.5%. If the Offensive Guardian is present, these boosts will double.
+*When the player is wearing the [[Tarragon armor]] summoner set or any later sets in progression, the Offensive Guardian will be summoned, which also rapidly dashes at enemies and grants the player 10% summon damage and one extra minion slot. If the Defensive Guardian is present, summon damage will instead be boosted by 15%.
+
+If the player gets hit, they are afflicted with the '''Burnt Out''' [[debuff]] for 5 seconds, which negates most of the guardians' stat boosts and healing effects for its duration. This does not affect the minion slot provided by the Offensive Guardian, and the Defensive and Offensive Guardians will continue to attack enemies.
+
+The guardians deal a base damage of 75. This is increased to 100 once [[The Devourer of Gods]] is defeated, and then to 225 once [[Jungle Dragon, Yharon]] is defeated.
+
+Additionally, equipping the Profaned Soul Artifact causes all minions to inflict the [[Holy Flames]] [[debuff]] for 5 seconds.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*Unlike the other Soul Artifacts, this item was not used to summon any of the [[Future bosses]] and was instead added in a later version as a Dedicated item.
+*Although [[Demonshade armor|Demonshade]], [[Omega Blue armor|Omega Blue]] and [[Fearmonger armor]] all have one helmet type and give universal bonuses, wearing them will still summon the Offensive Guardian.
+{{-}}
+{{Plates}}
+{{Master Template Equipables
+|show-main = yes
+|show-combat = yes
+}}
+[[Category:Healing items]]
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

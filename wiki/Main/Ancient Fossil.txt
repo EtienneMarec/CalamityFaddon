@@ -1,0 +1,25 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Increases pick speed by 15% while underground
+| rare = 1
+| sell = {{value|0|0|20}}
+| stack = 1
+}}
+
+The '''Ancient Fossil''' is a craftable [[Pre-Hardmode]] [[covering]]. While equipped, it increases the wearer's pickaxe speed by 15% while in the [[Underground]] or [[Cavern]] layer.  This speed increase applies when the player is at least below surface level, but they must also be above [[The Underworld]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The item's sprite is based on an [[wikipedia:Ammonoidea|Ammonite]] fossil.
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Mining coverings]]
+[[zh:远古化石]]

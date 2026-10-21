@@ -1,0 +1,56 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 35
+| mana = 10
+| tooltip = I call upon the mythical Wyvern to shower the lands with its grace<br/>Fires wyverns and colored feathers from the sky that stick to enemies and tiles and explode
+| knockback = 4.75
+| rare = 5
+| sell = {{value|0|7|20}}
+| use = 23
+| velocity = 18
+| stack = 1
+| hardmode = yes
+| element1 = Holy
+}}
+
+The '''Wyvern's Call''' is a craftable [[Hardmode]] [[wand]] that is a direct upgrade to the [[Sky Glaze]]. It automatically fires out a volley of 3 projectiles from the sky, which can be the same type or different. None of the projectiles pierce through enemies or tiles.
+
+{{Modifier|magic}}
+
+== Projectile Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Type !! Chance !! Description
+|-
+| {{item|Purple Wyvern Feather|mode=table|nolink=y}}
+| 6.67%
+| Sticks onto tiles or enemies for two seconds before exploding.<br/>The initial hit deals 15% damage and the explosion deals 135% damage.
+|-
+| {{item|Green Wyvern Feather|mode=table|nolink=y}}
+| 33.33%
+| Behaves similarly and deals identical damage to the Purple Feather.<br/>Moves twice as quickly and explodes twice as fast.
+|-
+| {{item|Pink Wyvern Feather|mode=table|nolink=y}}
+| 50%
+| Behaves identically to the Purple Feather.<br/>The initial hit deals 18% damage and the explosion deals 162% damage.<br/>Knockback is doubled.
+|-
+| {{item|Mini Wyvern|mode=table|nolink=y}}
+| 10%
+| Deals triple damage and knockback is increased by 50%.<br/>Killed upon contact with tiles or enemies.
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Wands]]

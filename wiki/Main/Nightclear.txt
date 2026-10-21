@@ -1,0 +1,30 @@
+{{addon|Calamity: Tales of the Aquatic}}{{buff infobox
+| type = Debuff
+| effects = Combines the effects of [[tgc:Confused|Confsued]] and [[tgc:obstructed|Obstructed]]
+| tooltip = Your vision is cleared
+}}
+
+'''Nightclear''' is a [[debuff]] inflicted by [[Stiriatic Bar| Stiriatic]] weapons. It combines the effects of [[tgc:Confused|Confsued]] and [[tgc:obstructed|Obstructed]] , It can confuse enemies that are immune to confusion
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

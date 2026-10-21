@@ -1,0 +1,25 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Tool
+| tooltip = Teleports you to the position of the mouse<br/>Teleports summon a burst of mushrooms that deal percentage-based damage
+| use = 28
+| rare = 8
+| sell = {{value|0|8|0|0}}
+| stack = 1
+| debuff = Chaos State 
+| debuffduration = 5 seconds
+| debufftip = Rod of Discord teleports are disabled
+| debufflink = yes
+| debuffchance = 100%
+| hardmode = yes
+}}
+
+The '''Psy Rod''' is a [[Hardmode]] [[tool]] obtained by defeating the [[The Plaguebringer Goliath]] while she's in her Mucormycotic state. It functions similarly to the Rod of Discord, instantly teleporting the player to the location of cursor when used. In addition to this, a large circle of [[Glowing Mushroom]]s bursts outward from the player upon usage, with each mushroom dealing 2% of any hit enemy's health.
+
+== Crafting ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{Master Template Tools
+| show-other = yes
+}}

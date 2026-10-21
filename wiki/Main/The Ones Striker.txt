@@ -1,0 +1,76 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{dedicated|get fek|Suggestor}}
+{{item infobox
+| type = Weapon
+| damagetype = ranged
+| damage = 0
+| use = 30
+| knockback = 9
+| velocity =24
+| tooltip = Shoots chains of coins, able to shoot coins that normal coin guns can't
+| stack = 1
+| auto = yes
+| rare = 12
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| debuff = Midas
+| debuffchance = 100%
+| debuffduration =  Infinite (Klepticoin/Miracle Coin) <br/> 1000 seconds (Cosmilite Coin) <br/> 100 seconds (Platinum Coin) <br/> 10 seconds (Gold Coin) <br/> 1 second (Silver Coin)
+| debufftip = Drop more money on death
+| element1 = Holy
+| element2 = Stab
+}}
+
+'''The Ones Striker''' is a Godseeker Mode [[ranged weapon]]. It fires chains of coins, with the amount of coins in the chain  determined by the coin type.
+
+{{modifier|ranged}}
+
+== Ammo Types ==
+
+{{item/options|mode=table}}
+{| class="terraria lined"
+|-
+! colspan=2 style="text-align:center" | Type !! Coin Damage !! Coin Amount
+|-
+| {{item|image=C Shot.png|Copper Coin}}
+| 60
+| 3
+|-
+| {{item|image=S Shot.png|Silver Coin}}
+| 100
+| 4
+|-
+| {{item|image=G Shot.png|Gold Coin}}
+| 180
+| 5
+|-
+| {{item|image=P Shot.png|Platinum Coin}}
+| 260
+| 6
+|-
+| {{item|image=Cs Shot.png|Cosmilite Coin}}
+| 380
+| 8
+|-
+| {{item|image=K Shot.png|Klepticoin}}
+| 560
+| 10
+|-
+| {{item|image=M Shot.png|Miracle Coin}}
+| 9999
+| 14
+|}
+{{item/options|reset}}
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

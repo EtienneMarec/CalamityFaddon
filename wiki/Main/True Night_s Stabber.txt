@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 8
+| sell = {{value|0|16}}
+| damage = 310
+| use = 16
+| velocity = 25
+| knockback = 6.25
+| tooltip = Don't underestimate the power of stabby knives<br/>Shortflurry attacks spawn healing beams that shoot cursed fireballs, and increases melee speed by 10%
+| auto = yes
+| stack = 1
+| hardmode = yes
+| proj = Night Shortbeam.png
+| projcaption = Night Shortbeam
+| element1=  Unholy
+| element2=  Stab
+}}
+
+The '''True Night's Stabber''' is a craftable [[Hardmode]] [[shortsword]] that autoswings. On each swing, it fires a projectile that pierces twice before stopping on the third [[enemy]]. The projectile only moves horizontally to the left or right.
+
+When the weapon's [[Shortstrike]] ability activates, beams are shot out which last for 15 tiles and shoot cursed fireballs outwards for every 5 tiles travelled. These beams also heal the player for 5 health per hit. Additionally, the player's melee speed is increased by 10%.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+
+[[Category:Swords]]
+[[Category:Shortswords]]

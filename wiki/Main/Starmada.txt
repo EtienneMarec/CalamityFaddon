@@ -1,0 +1,74 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = ranged
+| damage = 135
+| knockback = 15
+| rare = 14
+| sell = {{value|0|36}}
+| use = 27
+| tooltip = Fires a barrage of stars and plasma blasts
+| velocity = 16
+| stack = 1
+| hardmode = yes
+| postml = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 5 seconds (Large comet)
+| debufftip = Slowly losing life
+| debuff2 = Frostburn
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (Large comet)
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuff3 = Astral Infection (debuff)
+| debufftip3 = Your flesh is melting off
+| debuffchance3= 100%
+| debuffduration3 = 2 seconds (Astral stars)
+| element1 = Magic
+| element2 = Dark
+| element3 = Bomb
+}}
+[[File:Starmada (demo).gif|right|The Starmada's several projectile types. Note how the Plasma bursts can damage enemies behind tiles with its explosion.|thumb|421x421px]]
+
+The '''Starmada''' is a craftable Godseeker Mode [[ranged weapon]], the direct upgrade to the [[Starfleet]], and the final upgrade of the [[Star Cannon]]. It automatically fires a barrage of five random star-related projectiles. These projectiles do not pierce and have randomly varying movement speeds, even amongst others of the same type, although the plasma blasts are always the fastest. The Starmada initially fires rather slowly, but fires faster the longer the player uses the weapon. Upon reaching around 10 seconds of sustained fire, a ring of particles is emitted from the player to indicate that they've reached the maximum fire-rate. It uses [[Fallen Star]]s as ammo.
+
+{{Modifier|ranged}}
+
+== Projectile Types ==
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Type !! Description
+|-
+| {{item|Fallen Star (Calamity)|Fallen Star|mode=table|nolink=y}}
+| Does not travel through tiles.
+|-
+| {{item|Starfury (projectile)|Starfury Star|mode=table|nolink=y}}
+| Passes through tiles but has a very short lifespan.
+|-
+| {{item|Astral Star|mode=table|nolink=y}}
+| Passes through tiles and inflicts the [[Astral Infection (debuff)|Astral Infection]] [[debuff]].
+|-
+| {{item|Plasma Blast|mode=table|nolink=y}}
+| Creates a massive explosion on impact.
+|-
+| {{item|Galactica Comet|mode=table|nolink=y}}
+| Passes through tiles and forms a small explosion on hit.<br/>Inflicts [[Frostburn]] and [[On Fire!]] debuffs.
+|}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*Repeatedly killing [[Astrum Deus]] is an efficient and relatively easy way of obtaining fallen stars for this weapon.
+
+== Trivia ==
+*Its name is a portmanteau of ''star'' and ''armada'', referring to the Starmada's ability to fire large amounts of stars quickly.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

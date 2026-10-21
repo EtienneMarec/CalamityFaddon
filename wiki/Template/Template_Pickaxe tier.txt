@@ -1,0 +1,19 @@
+<includeonly><!--
+-->{{#ifexpr:{{{1}}} < 50|{{item|mode=image|Gold Ore}}{{item|mode=image|Platinum Ore}}|<!--
+-->{{#ifexpr:{{{1}}} < 55|{{item|mode=image|Meteorite}}|<!--
+-->{{#ifexpr:{{{1}}} < 65|{{item|mode=image|Crimtane Ore}}{{item|mode=image|Demonite Ore}}|<!--
+-->{{#ifexpr:{{{1}}} < 100|{{item|mode=image|Hellstone}}{{item|mode=image|Obsidian}}{{item|mode=image|Ebonstone Block}}{{item|mode=image|Crimstone Block}}{{item|mode=image|Desert Fossil}}[[File:Blue Brick.png|link=Dungeon Brick]]|<!--
+-->{{#ifexpr:{{{1}}} < 110|{{item|mode=image|Cobalt Ore}}{{item|mode=image|Palladium Ore}}|<!--
+-->{{#ifexpr:{{{1}}} < 150|{{item|mode=image|Mythril Ore}}{{item|mode=image|Orichalcum Ore}}|<!--
+-->{{#ifexpr:{{{1}}} < 180|{{item|mode=image|Adamantite Ore}}{{item|mode=image|Titanium Ore}}|<!--
+-->{{#ifexpr:{{{1}}} < 200|{{item|mode=image|Hallowed Ore}}|<!--
+-->{{#ifexpr:{{{1}}} < 210|{{item|mode=image|Chlorophyte Ore}}|<!--
+-->{{#ifexpr:{{{1}}} < 225|{{item|mode=image|Scoria Ore}}|<!--
+-->{{#ifexpr:{{{1}}} < 250|{{item|mode=image|Tarragon Ore}}|<!--
+-->{{#ifexpr:{{{1}}} < 275|{{item|mode=image|Auric Ore}}|<!--
+-->{{#ifexpr:{{{1}}} < 300|{{item|mode=image|Pitchblende}}|<!--
+-->{{#ifexpr:{{{1}}} < 325|{{item|mode=image|Esseric Ore}}|<!--
+-->{{#ifexpr:{{{1}}} < 350|{{item|mode=image|Stiriatic Ore}}|<!--
+-->{{#ifexpr:{{{1}}} < 400|{{item|mode=image|Natrisodic Cluster}}|<!--
+-->{{#ifexpr:{{{1}}} >= 400|{{item|mode=image|Thorium Ore}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}<!--
+--></includeonly><noinclude>{{doc}}</noinclude>

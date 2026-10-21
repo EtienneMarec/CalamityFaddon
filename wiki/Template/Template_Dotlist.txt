@@ -1,0 +1,11 @@
+<includeonly><!-- 
+--><{{#if:{{{inline|}}}|span|div}} class="dotlist {{#switch:{{{bold|{{#dplvar:_dotlist_flag_bold|}}}}}|n|no=nobold}} {{{space|{{#dplvar:_dotlist_flag_space|}}}}}  {{{class|{{#dplvar:_dotlist_flag_class|}}}}}" style="{{{css|{{#dplvar:_dotlist_flag_css|}}}}};{{{style|}}}"><!-- 
+-->{{#if:{{{title|}}}|<span class="title">{{{title|}}}</span>}}<!-- 
+-->{{#if:{{{paren|}}}|(}}<ul><!-- 
+	-->{{#fornumargs:i|v|<!-- 
+		--><li>{{#var:v}}</li><!-- 
+	-->}}<!--
+--></ul>{{#if:{{{paren|}}}|)}}<!-- 
+--></{{#if:{{{inline|}}}|span|div}}><!-- 
+--></includeonly><!--
+--><noinclude>{{doc}}</noinclude>

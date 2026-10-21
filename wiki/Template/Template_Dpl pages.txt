@@ -1,0 +1,24 @@
+{| class="terraria" style="width:90%; margin: auto; {{#ifeq: {{{top|}}} | yes | font-size:90%; margin-bottom:10px; }} " 
+{{#ifeq: {{{top|}}} | yes | <!-- nothing --> | ! colspan="2" style="font-size:110%;" {{!}} {{navbar/left|Dpl pages}}'''DPL Pages'''{{navbar/right}} }}
+
+|-
+! Major lists
+|style="padding: 0 0.5em" colspan=2 | [[Enemy list/dpl|Enemy list]]{{•}}[[Drops/dpl|Drops]] ([[Drops/dpl/type|Type sorting]])
+
+|-
+! Weapons by class
+|style="padding: 0 0.5em" colspan=2 | [[Classless weapons/dpl|Classless weapons]]{{•}}[[Magic weapons/dpl|Magic weapons]]{{•}}[[Melee weapons/dpl|Melee weapons]]{{•}}[[Spy weapons/dpl|Spy weapons]]{{•}}[[Summon weapons/dpl|Summon weapons]]
+
+|-
+! Items by type
+|style="padding: 0 0.5em" colspan=2 | [[Accessories/dpl|Accessories]]{{•}}[[Arrows/dpl|Arrows]]{{•}}[[Axes/dpl|Axes]]{{•}}[[Hammers/dpl|Hammers]]{{•}}[[Pickaxes/dpl|Pickaxes]]{{•}}[[Repeaters/dpl|Repeaters]]{{•}}[[Shortswords/dpl|Shortswords]]{{•}}[[Spiky Balls/dpl|Spiky Balls]]{{•}}[[True melee/dpl|True melee]]{{•}}[[Yoyos/dpl|Yoyos]]
+
+|-
+! Potions
+|style="padding: 0 0.5em" colspan=2 | [[Buff Potions/dpl|Buff Potions]]{{•}}[[Food and Drink Potions/dpl|Food and Drink Potions]]{{•}}[[Recovery Potions/dpl|Recovery Potions]]
+
+|-
+! Others
+|style="padding: 0 0.5em" colspan=2 | [[Template:Article info requests/dpl|Article info requests]]{{•}}[[Damage Reduction/dpl|Damage Reduction]]{{•}}[[Immune NPCs/dpl|Immune NPCs]]{{•}}[[Template:Item debuffs/dpl|Item debuffs]]{{•}}[[NPC debuffs/dpl|NPC debuffs]]{{•}}[[Ores/dpl|Ores]]
+
+|}<noinclude>[[Category:Navigational templates]]</noinclude>

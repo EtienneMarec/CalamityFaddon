@@ -1,0 +1,44 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 10
+| sell = {{value|0|20}}
+| damage = 90
+| use = 21
+| velocity = 6
+| knockback = 8.0
+| tooltip = Summons flaming pumpkins and skulls that split into homing fire orbs on enemy hits
+| auto = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| debuffduration = 4 seconds (Orange skull)
+| debufftip = Slowly losing life
+| stack = 1
+| hardmode = yes
+| proj = Pumpkin Skull.png
+| projcaption = Pumpkin Skull
+| proj2 = Flaming Jack.gif
+| proj2caption = Flaming Jack
+| element1 = Fire
+| element2 = Dark
+| element3 = Slash
+}}
+The '''Baleful Harvester''' is a craftable [[Hardmode]] [[broadsword]]. Upon striking enemies with the blade, homing pumpkins and fiery orange skulls will spawn off-screen and attack enemies in the same fashion as [[The Horseman's Blade]]. Both projectiles deal 150% of the weapon's base damage and skulls split into 2 homing fire orbs which each deal 50% of the weapon's base damage. The sword, the skulls and their fire orbs inflict the [[On Fire!]] [[debuff]].
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:邪恶收割者]]

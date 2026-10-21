@@ -1,0 +1,41 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 1322
+| use = 14
+| knockback = 5.5
+| auto = yes
+| stack = 1
+| tooltip = fires edges at your enemies
+| rare = C4
+| velocity = 9
+| sell = {{value|5}}
+| debuff = Ancient Astral Blight
+| debuffduration = 4 seconds
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| element1 = Unholy
+| element2 = Poison
+| element3 = Slash
+| proj = Astralenceproj.png
+| projcaption = Edge
+}}
+
+
+The '''Astralence''' is a post-[[Purgatory Arbiter, Umbrus|Umbrus]] [[broadsword]] that autoswings and fires edges at your enemies, the edges inflict the [[Ancient Astral Blight]] debuff and deal 200% of the damage
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{Lethal}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

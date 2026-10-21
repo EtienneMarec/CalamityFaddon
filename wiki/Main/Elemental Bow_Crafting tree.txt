@@ -1,0 +1,193 @@
+<div class="crafting-tree">{{diagram
+
+|HellO|_|Obsi1|_|CrimO|_|DemoO|_|_|_|_|_|#
+|      _|      _|      _|      _|_|_|_|_|#
+|_|)|-|-|-|'|_|_|_|I|_|_|_|I|_|_|_|_|_|_|#
+|HEFRG|_|_|_|_|_|PHFRG|_|PHFRG|_|_|_|_|_|#
+|HelBr|_|_|_|_|_|CriBr|_|DemBr|_|_|_|_|_|#
+|      _|_|_|_|_|      _|      _|_|_|_|_|#
+|_|I|_|_|_|_|_|_|_|I|_|_|_|I|_|_|_|_|_|_|#
+|_|I|_|_|_|_|_|F|~|$|~|~|~|$|~|7|_|_|_|_|#
+|PHANV|_|_|_|_|:|PHANV|_|PHANV|:|_|_|_|_|#
+|MoltF|_|TheBK|:|TendB|±|DemoB|:|PuriG|_|#
+|      _|      :|              :|      _|#
+|_|I|_|_|_|I|_|L|~|~|~|y|~|~|~|J|_|I|_|_|#
+|_|)|-|-|-|^|-|-|-|-|-|^|-|-|-|-|-|'|_|_|#
+|Altar|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|LunaB|_|LiviS|_|HalBr|_|SoulS|_|_|_|_|_|#
+|      _|      _|      _|      _|_|_|_|_|#
+|_|I|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|_|_|_|#
+|_|)|-|-|-|^|-|-|-|^|-|-|-|'|_|_|_|_|_|_|#
+|_|I|_|_|LumiO|_|LunaF|_|_|_|_|_|_|_|_|_|#
+|_|I|_|_|      _|      _|_|_|_|_|_|_|_|_|#
+|_|I|_|_|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|HMANV|_|_|§|_|_|_|§|_|_|_|_|_|_|_|_|_|_|#
+|CosBo|_|LumiB|_|GalaS|_|DaedS|_|_|_|_|_|#
+|      _|      _|      _|      _|_|_|_|_|#
+|_|I|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|_|_|_|#
+|_|`|-|-|-|+|-|-|-|^|-|-|-|'|_|_|_|_|_|_|#
+|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|PlanA|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|:|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|HeavG|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+<!-- PLANETARY ANNIHILATION -->
+|PlanA_cols = 3
+|PlanA_rows = 2
+|PlanA = {{item|Elemental Bow|size=26px}}
+
+|CosBo_cols = 3
+|CosBo_rows = 2
+|CosBo = {{item|Terra Bow|size=20px}}
+
+|LumiB_cols = 3
+|LumiB_rows = 2
+|LumiB = {{item|Luminite Bar}} × 5
+
+|GalaS_cols = 3
+|GalaS_rows = 2
+|GalaS = {{item|Galactica Singularity}} × 5
+
+|DaedS_cols = 3
+|DaedS_rows = 2
+|DaedS = {{item|Daedalus Stormbow|size=20px}}<br/>
+( {{item|mode=image|Hallowed Mimic|size=20px}} )
+
+|LumiO_cols = 3
+|LumiO_rows = 2
+|LumiO = {{item|Luminite}} × 20<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=20px}} )
+
+|LunaF_cols = 3
+|LunaF_rows = 2
+|LunaF = {{item|Solar Fragment|mode=image}} {{item|Vortex Fragment|mode=image}} {{item|Nebula Fragment|mode=image}} {{item|Stardust Fragment|mode=image}} [[Lunar Fragments]] × 5<br/>
+( {{item|mode=image|image=Map Icon Solar Pillar.png|Solar Pillar|size=20px}} {{item|mode=image|image=Map Icon Vortex Pillar.png|Vortex Pillar|size=20px}} {{item|mode=image|image=Map Icon Nebula Pillar.png|Nebula Pillar|size=20px}} {{item|mode=image|image=Map Icon Stardust Pillar.png|Stardust Pillar|size=20px}} {{item|mode=image|image=Astrum Deus map.png|Astrum Deus|size=23px}} )
+
+
+|LunaB_cols = 3
+|LunaB_rows = 2
+|LunaB = {{item|Lunarian Bow|size=16px}}
+
+|LiviS_cols = 3
+|LiviS_rows = 2
+|LiviS = {{item|Living Shard}} × 5<br/>
+( {{item|mode=image|image=Map Icon Plantera (first form).png|Plantera|size=20px}} )
+
+|HalBr_cols = 3
+|HalBr_rows = 2
+|HalBr = {{item|Hallowed Bar}} × 5<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|The Twins||size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} {{item|mode=image|image=Map Icon The Destroyer.png|The Destroyer|size=20px}} {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+|SoulS_cols = 3
+|SoulS_rows = 2
+|SoulS = {{item|Soul of Sight}} × 5<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|The Twins|size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} )
+
+<!-- LUNARIAN BOW -->
+|MoltF_cols = 3
+|MoltF_rows = 2
+|MoltF = {{item|Molten Fury}}
+
+|TheBK_cols = 3
+|TheBK_rows = 2
+|TheBK = {{item|The Bee's Knees|size=18px}}<br/>
+( {{item|mode=image|image=Map Icon Queen Bee.png|Queen Bee|size=20px}} )
+
+|PuriG_cols = 3
+|PuriG_rows = 2
+|PuriG = {{item|Purified Gel}} × 10<br/>
+( {{item|mode=image|image=Slime God Core map.png|The Slime God|size=20px}} )
+
+|TendB_cols = 3
+|TendB_rows = 2
+|TendB = {{item|Tendon Bow}}
+
+|DemoB_cols = 3
+|DemoB_rows = 2
+|DemoB = {{item|Demon Bow}}
+
+|CriBr_cols = 3
+|CriBr_rows = 2
+|CriBr = {{item|Crimtane Bar}} × 8<br/>
+( {{item|mode=image|image=Perforator Hive map.png|The Perforators|size=20px}} )
+
+|DemBr_cols = 3
+|DemBr_rows = 2
+|DemBr = {{item|Demonite Bar}} × 8<br/>
+( {{item|mode=image|image=Hive Mind map.png|Hive Mind|size=24px}} )
+
+|CrimO_cols = 3
+|CrimO_rows = 2
+|CrimO = {{item|Crimtane Ore}} × 24<br/>
+( {{item|mode=image|image=Map Icon Eye of Cthulhu (second form).png|Eye of Cthulhu|size=20px}} {{item|mode=image|image=Map Icon Brain of Cthulhu.png|Brain of Cthulhu|size=20px}} )
+
+|DemoO_cols = 3
+|DemoO_rows = 2
+|DemoO = {{item|Demonite Ore}} × 24<br/>
+( {{item|mode=image|image=Map Icon Eye of Cthulhu (second form).png|Eye of Cthulhu|size=20px}} {{item|mode=image|image=Map Icon Eater of Worlds.png|Eater of Worlds|size=20px}} )
+
+|HelBr_cols = 3
+|HelBr_rows = 2
+|HelBr = {{item|Hellstone Bar}} × 15
+
+|Obsi1_cols = 3
+|Obsi1_rows = 2
+|Obsi1 = {{item|Obsidian}} × 15<br/>
+( {{item|mode=image|Water|size=12px}} + {{item|mode=image|Lava|size=12px}} )
+
+|HellO_cols = 3
+|HellO_rows = 2
+|HellO = {{item|Hellstone}} × 45<br/>
+<div style="font-size: 0.75em">( [[Underworld]] )</div>
+
+|HeavG_cols = 3
+|HeavG_rows = 2
+|HeavG = ''[[Heavenly Gale/Crafting tree|Heavenly Gale<br/>crafting tree]]''
+
+<!-- CRAFTING STATIONS -->
+|Altar_cols = 3
+|Altar_class = craft-station
+|Altar = {{item|mode=image|Demon Altar}} / {{item|mode=image|Crimson Altar}}
+
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|HEFRG_cols = 3
+|HEFRG_class = craft-station
+|HEFRG = {{item|mode=image|Hellforge}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+
+}}</div>
+
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

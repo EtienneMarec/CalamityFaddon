@@ -1,0 +1,56 @@
+{{item infobox
+| type = Tool
+| type2 = Weapon
+| type3 = Crafting material
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 75
+| axe = 125
+| knockback = 5
+| rare = 4
+| use = 14
+| tooltip = Left click to use as a tool<br/>Right click to cleanse evil
+| sell = {{value|0|2|40}}
+| hardmode = yes
+| toolspeed = 15
+| velocity = 21
+| element1 = Holy
+| element2 = Slash
+}}
+
+The '''Axe of Purity''' is a craftable [[Hardmode]] [[axe]] that is the direct upgrade of the [[Feller of Evergreens]]. When left clicked it could be used as an axe, while right clicking produces light particles when swung and fires damaging [[Purification Powder]] that spreads the [[Purity]] and hurts enemies for 85% of the axe's damage.
+
+{{modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Axe of Purity can purify a [[Tortured Soul]].
+*Only the left-click attack receives [[true melee]] boosts.
+
+== Tips ==
+*The Axe of Purity is available to craft as soon as Hardmode starts and has a rather high axe power of 125%, being roughly as powerful as the [[Shroomite Digging Claw]]; as a result, its usefulness maintains itself well into Hardmode before being replaceable by stronger tools.
+*The Axe of Purity can fire an additional projectile from [[Luxor's Gift]] with the right click ability.
+
+== Trivia ==
+*The Purification effect of the axe is a reference to the [https://tremormod.fandom.com/wiki/Gloriana_Wrath Gloriana Wrath] from the [https://forums.terraria.org/index.php?threads/tremor-remastered.28695/ Tremor Mod].
+
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Axes]]
+[[Category:Melee weapons]]
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:纯净之斧]]

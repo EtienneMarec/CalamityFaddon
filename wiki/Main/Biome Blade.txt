@@ -1,0 +1,312 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 80
+| use = 20
+| velocity = 12
+| knockback = 7.50
+| auto = yes
+| stack = 1
+| tooltip = {{color|Does nothing..yet<br/>Repairing the blade seems to have improved its attuning capacities|#A3A3A3}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [None]<br/>Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 6
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| element1 = Slash
+}}
+
+The '''Biome Blade''' is a craftable [[Hardmode]] [[broadsword]] that auto-swings and is an upgraded version of the [[Broken Biome Blade]]. By default it does not fire any projectile nor does it have any special effects. However if the player stands still on flat ground while holding right-click for 2 seconds, they will strike the sword into the ground, attuning it to the surrounding biome, which will let them perform unique attacks. Amongst its attunements are upgraded versions of the Broken Biome Blade's own ones, and three new ones for the Hardmode biomes.
+
+The sword has the ability to store an extra attunement in a secondary slot, which it automatically fills with the sword's previous primary attunement when it gets replaced by another one. Using the right-click function without standing still or without holding the button down will swap between the primary and secondary attunements.
+
+{{modifier|melee}}
+
+The Biome Blade can obtain 8 different attunements, listed below:
+
+==Attunements==
+
+{{#tag:tabber|
+Pure Clarity=
+{{Item infobox
+| float = left
+| namesub = Pure Clarity
+| damagetype = Melee
+| damage = 80
+| use = 20
+| velocity = 12
+| knockback = 7.50
+| auto = yes
+| stack = 1
+| tooltip = {{color|Fires a weak projectile that crushes enemy defenses<br/>Landing true melee hits places a sigil of purity over the enemy. Your projectiles home onto the marked foes|#ABB448}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [Pure Clarity]|#ABB448}}<br/>{{color|Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 6
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| debuff = Armor Crunch
+| debufftip = Your armor is shredded
+| debuffduration = 1.5 seconds (Purity Projection)
+| debuffchance = 100%
+| proj = Purity Projection.png
+| projcaption = Purity Projection
+| proj2 = Purity Sigil.png
+| proj2caption = Purity Sigil
+| element1 = Poison
+| element2 = Slash
+}}
+{{clear}}
+{{color|Pure Clarity|#ABB448}} is the Biome Blade's default attunement which can be obtained if channelled in a biome that doesn't have any corresponding attunement, such as the [[Purity]] or in the [[Underground]]. When swung, it fires a medium-range Purity Projection projectile which cannot pierce through tiles nor targets. Enemies struck by the projectile are inflicted with the [[Armor Crunch]] [[debuff]], greatly reducing their defense temporarily.
+
+Hitting a target with the sword itself will place a sigil over them, which will expire after 20 seconds unless the enemy is hit again, or if another enemy is hit in which case the sigil will reposition onto the new target. The sword's projectiles will home onto any enemy marked with the sigil.
+
+{{!}}-{{!}}
+Biting Embrace=
+{{Item infobox
+| float = left
+| image = Biome Blade (Biting Embrace).png 
+| namesub = Biting Embrace
+| damagetype = Melee
+| damage = 150
+| use = 20
+| velocity = 12
+| knockback = 7.50
+| auto = yes
+| stack = 1
+| tooltip = {{color|Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second<br/>Lingering glacial mist is released on each swing, dealing damage to enemies wandering into it|#A5EBEB}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [Biting Embrace]|#A5EBEB}}<br/>{{color|Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 6
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| debuff = Glacial State
+| debufftip = Cannot move
+| debuffduration = 0.66 seconds (Third Swing)
+| debuffchance = 100%
+| proj = Glacial Mist.png
+| projcaption = Glacial Mist
+| element1 = Cold
+| element2 = Slash
+}}
+{{clear}}
+{{color|Biting Embrace|#A5EBEB}} is an attunement obtained by channelling the sword in the [[Snow biome]]. It replaces the default swing animation of the sword with a custom swing combo that can be aimed, starting with a downwards swing, followed by a bigger upwards swing, and ending with a forward thrust. The second swing deals 115% of the weapon's base damage, and the final thrust deals 130% of the weapon's base damage, while also applying the  [[Glacial State]] [[debuff]] for two thirds of a second on enemy hits, freezing them in place.
+
+Every swing releases a field of lingering glacial mist that deals 9% of the swing's base damage. With the swing damage multipliers applied, this means that the mist released from the second swing will deal 10.35% of the weapon's base damage, and the final thrust will deal 11.5% of the weapon's base damage.
+
+{{!}}-{{!}}
+Arid Grandeur=
+{{Item infobox
+| float = left
+| image = Biome Blade (Arid Grandeur).png 
+| namesub = Arid Grandeur
+| damagetype = Melee
+| damage = 122
+| use = 20
+| velocity = 12
+| knockback = 7.50
+| auto = yes
+| stack = 1
+| tooltip = {{color|Conjures searing blades in front of you that get larger and stronger the more you hit enemies. The blades can also be used to bounce off tiles when in the air<br/>Releasing the attack button after the blades are fully charged sends them hurtling forwards to shred your foes|#EE9C49}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [Arid Grandeur]|#EE9C49}}<br/>{{color|Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 6
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| proj = Arid Shredder.png
+| projcaption = Arid Shredder
+| element1 = Fire
+| element2 = Stab
+}}
+{{clear}}
+{{color|Arid Grandeur|#EE9C49}} is an attunement that can obtained by channelling the sword in the [[Desert]] or in [[The Underworld]]. When this attunement is selected, the sword will be held out in front of the player, with 4 extra spinning blades floating around the sword itself. Hitting enemies with the blades charges them up, which increases their size, damage and hit frequency, going from 122 damage per hit to 160 damage per hit. The blade's charge decays over time when not hitting enemies. 
+
+Releasing the attack button while the blades have more than half their charges remaining will send the four ghostly blades out flying in the cursor's direction, dealing 450% of the weapon's base damage, no matter the charge amount.
+
+Alongside its damage-dealing function, this attunement doubles as a movement tool that can be used by the player to gain control over their distance to their target. When in the air, the blades will function as a pogo stick that bounce the player away from any tile they hit. Additionally, hitting an enemy while in the air will bounce the player up, and make them partly "stick" to their target, with some of the enemy's velocity being transferred over to the player.
+
+{{!}}-{{!}}
+Decay's Retort=
+{{Item infobox
+| float = left
+| image = Biome Blade (Decays Retort).png 
+| namesub = Decays Retort
+| damagetype = Melee
+| damage = 155
+| use = 20
+| velocity = 12
+| knockback = 7.50
+| auto = yes
+| stack = 1
+| tooltip = {{color|Lunge forward using a ghostly rapier projection that leeches life off any struck foes. You also get bounced away from hit targets<br/>Landing three strikes without touching the ground changes your next attack into an empowered dash thrust|#D34093}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [Decay's Retort]|#D34093}}<br/>{{color|Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 6
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| element1 = Unholy
+| element2 = Stab
+}}
+{{clear}}
+{{color|Decay's Retort|#D34093}} is an attunement that can obtained by channelling the sword in [[The Corruption]] or [[The Crimson]]. When used, the player will perform a quick lunge in the direction of their cursor, with the biome blade getting thrust forwards. Hitting enemies with the blade [[Lifesteal|heals]] the player for 2 health, and will bounce them back. It is of note that while the player can only do two forward lunges before having to touch the ground again, they can pogo off of enemies as many times as they want before landing.
+
+If the player lands three strikes before touching the ground, their next attack will turn into an empowered dash which deals 300% of the weapon's base damage while giving the player one second of invincibility frames. The empowered dash's availability is indicated by a sound effect.
+
+{{!}}-{{!}}
+Grovetender's Touch=
+{{Item infobox
+| float = left
+| image = Biome Blade (Grovetenders Touch).png 
+| namesub = Grovetender's Touch
+| damagetype = Melee
+| damage = 120
+| use = 20
+| velocity = 12
+| knockback = 7.50
+| auto = yes
+| stack = 1
+| tooltip = {{color|Throw out the blade using a vine whip. Striking enemies with the tip of the whip as it cracks guarantees a critical hit. The whip will also propel you towards struck tiles<br/>Spreading vines sprout from critical strikes. These vines can hit up to three targets|#A2C855}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [Grovetender's Touch]|#A2C855}}<br/>{{color|Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 6
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| proj = Entangling Growth.png
+| projcaption = Entangling Growth
+| element1 = Poison
+| element2 = Slash
+}}
+{{clear}}
+{{color|Grovetender's Touch|#A2C855}} is an attunement that can obtained by channelling the sword in the [[Jungle]], the [[Ocean]] or the [[Sulphurous Sea]]. When selected, the player will use the Biome Blade like a whip, with the sword itself being connected to the player's hand with a long vine, alternating between an overhead swing and a sideways one. Hitting enemies with the vine itself will only deal 60% of the weapon's base damage, but if an enemy is hit by the blade right as the whip cracks, the resulting hit will be guaranteed to be a critical strike, and its damage will be boosted by 120%. Hitting a critical strike with the whip will additionally target up to 3 other nearby enemies with vines sprouting from the original target, with each vine dealing 30% of the weapon's base damage.
+
+Hitting a tile with the whip will propel the player towards it which can be used to get closer or further from a target, in order to land easier sweet spot hits.
+{{!}}-{{!}}
+
+Heaven's Might=
+{{Item infobox
+| float = left
+| image = Biome Blade (Heavens Might).png 
+| namesub = Heaven's Might
+| damagetype = Melee
+| damage = 60
+| use = 20
+| velocity = 12
+| knockback = 7.50
+| auto = yes
+| stack = 1
+| tooltip = {{color|Hold the attack button to swing the sword around you, accelerating over time<br/>Releasing the attack button hurls the sword towards your cursor. The sword then quickly returns to your hand|#DC8FFF}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [Heaven's Might]|#DC8FFF}}<br/>{{color|Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 6
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| element1 = Holy
+| element2 = Slash
+}}
+{{clear}}
+{{color|Heaven's Might|#DC8FFF}} is an attunement that can obtained by channelling the sword in [[The Hallow]]. When selected, the player will spin the Biome Blade around themselves, with the sword increasing in speed, size and damage as its spun up. The sword's damage will range from 40% of the weapon's base damage at the start of the attack, and ramp up to 240% of the weapon's base damage once its fully wound up.
+
+Releasing the attack button if the sword is more than halfway spun-up will throw it in the direction of the cursor, before getting quickly pulled back to the player's hand by ghostly chains. The thrown blade deals between 240% and 380% of the weapon's base damage, depending on the charge completion of the sword before the throw. After the throw, the player has to spin the sword back up. The availability of the sword throw is indicated with a sound effect playing after reaching 50% chargeup on the sword.
+{{!}}-{{!}}
+Extant Abhorrence=
+{{Item infobox
+| float = left
+| image = Biome Blade (Extant Abhorrence).png 
+| namesub = Extant Abhorrence
+| damagetype = Melee
+| damage = 225
+| use = 20
+| velocity = 12
+| knockback = 7.50
+| auto = yes
+| stack = 1
+| tooltip = {{color|Hold the attack button to charge a star-piercing lunge, release to unleash the devastating blow<br/>Striking the earth with the lunge will cause a massive impact which raises otherworldly monoliths|#8A86FC}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [Extant Abhorrence]|#8A86FC}}<br/>{{color|Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 6
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| proj = Abhorrent Monoliths.png
+| projcaption = Abhorrent Monoliths
+| element1 = Magic
+| element2 = Stab
+}}
+{{clear}}
+{{color|Extant Abhorrence|#5B49C4}} is an attunement that can obtained by channelling the sword in the [[Astral Infection]]. When the biome blade is used with this attunement, the player will hold the blade out in front of them, charging it up slowly. Releasing the attack button after having the charge up more than 25% of the way will let the player do a quick lunge in the direction of their cursor, with the speed and damage of the lunge varying based on the charge of the sword, with a fully charged up lunge dealing 350% of the weapon's base damage. The lunge also grants the player a third of a second worth of invincibility frames if they hit an enemy during the lunge.
+
+Hitting the ground with a lunge that was more than halfway charged will spawn one monolith at the impact location. If the lunge was charged more than 75% of the way through, two additional monoliths will sprout up on each side of the central monolith provided there is ground for them to appear out of, and if the blade was fully charged, a final two monoliths will appear at the side of the outermost monoliths, once again provided there is ground for them to spawn on. Each of these thresholds are indicated with a sound effect playing, and with the blade visually blinking. Each monolith will deal 125% of the weapon's base damage on their first hit, with every following hit only dealing 25% of the initial amount. 
+{{!}}-{{!}}
+Gesture of the Drowned=
+{{Item infobox
+| float = left
+| namesub = Gesture of the Drowned
+| damagetype = Melee
+| damage = 300
+| use = 20
+| velocity = 12
+| knockback = 7.50
+| auto = yes
+| stack = 1
+| tooltip = {{color|Shoot out two water balls at your sides. On ground contact the water balls will turn into small waves that ride along the ground<br/>Waves fired while underwater or that touch water will become much larger and faster|#8A86FC}}<br/>Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome<br/>Using RMB otherwise switches between the current attunement and an extra stored one<br/>{{color|Main Attumenent : [Gesture of the Drowned]|#8A86FC}}<br/>{{color|Secondary Attumenent : [None]|#A3A3A3}}
+| rare = 6
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| proj = Gesture of the Drowned Water Ball.png
+| projcaption = Water Ball
+| proj2 = Gesture of the Drowned (Wave).png
+| proj2caption = Gesture of the Drowned
+| proj3 = Gesture of the Drowned (Liquid Wave).png
+| proj3caption = Gesture of the Drowned (Liquid Wave)
+| element1 = Water
+| element2 = Slash
+| element3 = Stab
+}}
+{{clear}}
+{{color|Gesture of the Drowned|#5B49C4}} is an attunement that can obtained by channelling the sword in the [[Sunken Sea]], the [[Abyss]]. When selected, the player will sweep the biome blade from left to right, shooting out gravity affected water orbs. On ground contact, the orbs will turn into small waves that will ride along the ground. The waves may turn back into bouncing water balls if they come across gaps in the terrain.
+
+If the biome blade is used underwater, or if a wave touches water, the projectiles will turn into bigger and faster water waves and will deal 50% more damage to any target, making it especially useful in aquatic biomes.
+}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Notes==
+*Due to the way the attunement process prioritizes biomes, if a Snow or Desert biome is converted, then the Biome Blade will count it as the biome that converted it. For example, an Corruption Desert biome will be counted as the Corruption, and an Astral Snow biome will be counted as the Astral Infection, with the resulting attunements being {{color|Decay's Retort|#D34093}} and {{color|Extant Abhorrence|#5B49C4}} respectively.
+**The order in which the biomes are checked goes as follows : '''The Desert or The Underworld''', '''The Taiga''', '''The Jungle, Ocean, or Sulphurous Sea''', '''The Corruption or The Crimson''', '''The Hallow''', '''The Astral Infection''', '''The Abyss or the Sunken Sea'''. If the player is in none of these biomes, they will get the {{color|Pure Clarity|#ABB448}} attunement. If the player is in multiple of these biomes, they will get the attunement corresponding to the one the furthest in this list.
+*The {{color|Biting Embrace|#A5EBEB}} attunement's combo state will reset itself if it remains unused for longer than five sixth of a second. This makes it impossible to store the final thrust for optimal hits.
+*The {{color|Arid Grandeur|#EE9C49}}'s damage dynamically scales based off its hit frequency. This means that it will deal roughly the same dps no matter how little time there is inbetween hits, although this never happens in-game since there is an extra layer of damage scaling, resulting in the overall dps increasing. This simply means that as the sword gets charged up and the hit frequency increases the damage of the blades may appear to be going down, but the overall damage output will actually be on the rise.
+*Due to the way the {{color|Decay's Retort|#D34093}} bounce-off mechanic works, having more velocity on impact will bounce the player further away. This should be kept in mind as the lunge effect greatly boosts the player's velocity, leading to a very strong bounce.
+*While the player needs to land three hits without touching the ground to charge up the powered-up dash with the {{color|Decay's Retort|#D34093}} attunement, the dash won't reset itself if the player touches the ground after charging it up.
+*The {{color|Grovetender's Touch|#A2C855}} whip reach can be influenced by the player's cursor position, which can help to land sweet spot hits more easily.
+**While hitting enemies with the tip of the whip as it cracks guarantees a critical hit, the whip's body can still crit, and by extension spawn extra vines.
+*It takes 5 seconds to fully charge up the {{color|Heaven's Might|#DC8FFF}} sword, and half of that time to reach the point at which the blade can be thrown out.
+*It takes 4.16 seconds to fully charge the {{color|Extant Abhorrence|#5B49C4}}'s lunge, and barely any more than one second to charge it up just enough to perform the weakest possible lunge
+**Despite the player appearing to hold the sword out during the chargeup animation, it deals no contact damage.
+**The lunge damage scales quadratically from 100% to 350% of the weapon's base damage, but given there is a minimum of 25% charge required for the lunge to be performed, the lowest possible damage that can be reached with a lunge is 115.625% base damage.
+*The monoliths from the {{color|Extant Abhorrence|#5B49C4}} lunge can spawn out of any surface, even if its not the ground. Hitting walls and ceilings, or diagonal surfaces works perfectly fine and the player can take advantage of this fact with creative arena building.
+**The smallest monoliths will not spawn if the medium monolith inbetween their spawn location and the central monolith couldn't spawn, making uneven terrain unoptimal for this attunement.
+**Due to the way the ground check for the side monoliths work, the more perpendicular to the ground the lunge was, the more likely all the monoliths will spawn.
+**Abhorrent Monoliths will not spawn out of a lunge if the player is on the ground as the sword strikes the earth.
+*The swung sword on the {{color|Gesture of the Drowned|#5B49C4}} is in a similar case to the Extant Abhorrence's held sword, dealing no actual damage.
+**Despite having no way to aim the water orbs that are shot out by the sword, they are affected by the player's initial velocity, letting them have some amount of control over where the orbs will go.
+*The tooltip lines describing the attunements all use unique colors.
+** By default, the lines are colored in a light gray color ({{color|#A3A3A3●|#A3A3A3}}).
+** {{color|Pure Clarity|#ABB448}}'s tooltips use an olive green color ({{color|#ABB448 ●|#ABB448}}).
+** {{color|Biting Embrace|#A5EBEB}}'s tooltips use a pale blue color ({{color|#A5EBEB ●|#A5EBEB}}).
+** {{color|Arid Grandeur|#EE9C49}}'s tooltips use a fiery orange color ({{color|#EE9C49 ●|#EE9C49}}).
+** {{color|Decay's Retort|#D34093}}'s tooltips use a fuchsia color ({{color|#D34093 ●|#D34093}}).
+*** Its color can be seen as a halfway point between the purples tones of The Corruption and the red hues of The Crimson.
+** {{color|Grovetender's Touch|#A2C855}}'s tooltips use a lime green color ({{color|#A2C855 ●|#A2C855}}).
+** {{color|Heaven's Might|#DC8FFF}}'s tooltips use a pale magenta color ({{color|#DC8FFF ●|#DC8FFF}}).
+** {{color|Extant Abhorrence|#5B49C4}} and {{color|Gesture of the Drowned|#5B49C4}} tooltips share the same deep indigo color ({{color|#5B49C4 ●|#5B49C4}}).
+** The secondary attunement's tooltip's color is the halfway point between gray ({{color|#808080 ●|#808080}}) and the attunement's base color.
+
+== Tips ==
+*Since the {{color|Decay's Retort|#D34093}} lunges needs ground contact to reset themselves, it may be ideal for the player to "pogo" on the enemy while in the air to keep themselves close to their target, as hitting an enemy with a lunge will bounce the player way further away. This also lets the player charge up the empowered dash which can be used to dish out a lot of extra damage.
+*The slow charge-up time of the {{color|Heaven's Might|#DC8FFF}} attunement makes the sword throw a risky move, due to the potential damage loss from having to charge the sword back up after the throw. If the player isn't confident in their ability to land the sword throw, it may be preferable for them to simply stick to the regular spin. While they may loose on some extra damage, it also spares them from the risk of missing the shot.
+
+==Trivia==
+*This sword has the most attunements out of any sword in the [[Broken Biome Blade]] upgrade line. The Broken Biome Blade lacks the hardmode biome attunements, while the True Biome Blade and Galaxia's attunements are fusions of multiple attunements, halving their total attunement count.
+*Some of the attunement names are references to the popular Spylike ''[[wikipedia:Risk of Rain 2|Risk of Rain 2]]''.
+**{{color|The snow biome attunement|#A5EBEB}} directly shares its name with "[https://riskofrain2.fandom.com/wiki/Her_Biting_Embrace Her Biting Embrace]", an item dropped by glacial elites.
+**{{color|The evil biome attunement|#D34093}}'s name also partly references "[https://riskofrain2.fandom.com/wiki/N%27kuhana%27s_Retort N'kuhana's Retort]", another item dropped by elite monsters associated with corruption and sickness. N'kuhana is a goddess of decay and death, making the connection even more apparent.
+**{{color|The marine attunement|#5B49C4}}'s name is also shared with the [https://riskofrain2.fandom.com/wiki/Gesture_of_the_Drowned Gesture of the Drowned]'s name.
+**To a lesser extent, {{color|the Jungle attunement|#A2C855}}'s name references the [https://riskofrain2.fandom.com/wiki/Grovetender Grovetender] boss, who is normally fought in the Scorched Acres, a large garden-like stage.
+*The way the {{color|Decay's Retort|#D34093}} attunement functions, letting the player pogo on enemies, works similarly to the nail-bouncing technique from ''[[wikipedia:Hollow Knight|Hollow Knight]]''.
+*The spinning motion of the {{color|Heaven's Might|#DC8FFF}} attunement followed by the forward throw is meant as a parallel to the [[Underground Hallow]] [[Enchanted Sword (NPC)|Enchanted Sword]] enemy's behavior.
+*Before the [[1.5.1.001]] update, the Biome Blade was known as '''True Biome Blade''' and is still referred as such in the files. This name has since been taken by its successor, the [[True Biome Blade]], which was itself previously named the '''Omega Biome Blade'''.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:环境之刃]]

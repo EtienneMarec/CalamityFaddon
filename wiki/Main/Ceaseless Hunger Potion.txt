@@ -1,0 +1,24 @@
+{{item infobox
+|type = Potion
+|tooltip = Causes you to suck up all items in the world
+|stack = 9999
+|rare = 13
+|use = 17
+|consumable = yes
+|buff = Ceaseless Hunger | bufflink = no
+|duration = 10 seconds
+|bufftip = You are sucking up all the items
+|hardmode = yes
+|postml = yes
+|sell = {{value|0|0|40|0}}
+}}
+
+The '''Ceaseless Hunger Potion''' is a craftable Godseeker Mode [[Buff Potions|buff potion]] made from [[Dark Plasma]]. Upon consumption it grants the '''Ceaseless Hunger''' [[buff]], causing all items within the world to be sucked up by the player over a course of ten seconds.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

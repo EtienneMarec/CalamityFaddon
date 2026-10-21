@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 60
+| mana = 10
+| knockback = 1
+| use = 19
+| tooltip = Summons aquatic aberrations to protect you<br/>Aberrations fire vomit at nearby enemies with every third attack firing bubbles
+| buff = Gastric Aberration (buff) | bufflink = no
+| bufftip = The aquatic aberration will protect you
+| stack = 1
+| auto = yes
+| rare = 7
+| sell = {{value|0|9|60}}
+| hardmode = yes
+| proj = Gastric Belcher Bubble.png
+| projcaption = Gastric Bubble
+| proj2 = Gastric Belcher Vomit.png
+| proj2caption = Gastric Vomit
+| element1 = Water
+| element2 = Poison
+}}
+|{{item drops infobox
+| [[Leviathan and Anahita]]|1| {{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Gastric Aberration|type=minion}}
+
+The '''Gastric Belcher Staff''' is a [[Hardmode]] [[summon weapon]] that drops from [[Leviathan and Anahita]]. When used, it summons a miniature variant of the [[Aquatic Aberration]] that floats by the player and attacks nearby enemies by firing gravity-affected vomit towards its targets. Every third attack, it instead fires a random spread of five bubbles with varying size. The bubbles stay still and linger after a short time if they haven't hit a target, and the vomit pierces up to two enemies.
+
+{{Modifier|summon}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| rare = 3
+| sell = {{value|0|0|80}}
+| damage = 7
+| use = 29
+| mana = 10
+| knockback = 2.25
+| tooltip = Summons a blood clot to fight for you
+| buff = Blood Clot (buff) | bufflink= no
+| bufftip = The blood clot will protect you
+| auto = yes
+| stack = 1
+| element1 = Unholy
+}}
+|{{item drops infobox
+|[[The Perforators]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Blood Clot|type=minion}}
+
+The '''Blood Clot Staff''' is a craftable [[Pre-Hardmode]] [[summon weapon]] that can also be dropped by [[The Perforators]]. It is statistically identical to its [[Corruption]] equivalent, the [[Dank Staff]]. It summons a meaty blood clot minion, which follows the player and attacks [[enemies]]. It deals contact damage, and will stay on enemies for as long as possible.
+
+{{Modifier|summonalt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The minions summoned by this weapon tend to stay close to the player, even when enemies are nearby. This limited range requires the player to stay close to enemies or bosses they may be fighting.
+
+{{Blood Sample}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

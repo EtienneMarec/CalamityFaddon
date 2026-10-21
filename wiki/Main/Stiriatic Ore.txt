@@ -1,0 +1,34 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 325
+| stack = 9999
+| use = 14
+| rare = C2
+| value = 1800
+| color = #aaaaff
+| sell = {{value|0|10}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+'''Stiriatic Ore''' is an Epilogue [[ore]] that generates in the [[Abyssphere]] layer 3 . It requires the [[Abysscent Pickaxe]] to mine.
+
+==Crafting==
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes == 
+* Considering the ore isnt dropped by any enemy, the player should use the amount avaliable to them very wisely. It is adviced to not use it on Reactive Cores that are dropped by [[Reactive Guardian, Sodis]]
+== Trivia ==
+* "Stiriacus" in latin means frozen.
+
+{{Stiriatic}}
+{{Ctota}}

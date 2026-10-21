@@ -1,0 +1,29 @@
+{{addon|Calamity Loot Swap}}
+{{npc infobox
+| type = Slime
+| environment = Cavern
+| ai = Slime AI
+| damage = {{element|Magic}} {{dv|70|140}}
+| life = {{dv|800|1,600}}
+| defense = 20
+| money = {{value|0|0|20|0}}
+| Cosmilite Slag|10-26| 100%
+| knockback = 100
+| immune1 = Kami Flu
+| immune2 = God Slayer Inferno
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Slash
+| vulnerable2 = Fire
+| resistant1 = Poison
+| resistant2 = Magic
+}}
+
+The '''Cosmilite Slime''' is a Godseeker Mode [[slime]] which spawns naturally in the [[Space]] layer in Godseeker Mode. They exist to drop [[Cosmilite Slag]], so that the player cannot use up all the ore available to them.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

@@ -1,0 +1,53 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 243
+| use = 16
+| knockback = 7
+| auto = yes
+| velocity = 20
+| stack = 1
+| tooltip = Throws a homing reaper scythe<br/>Stealth strikes spawn razorblade typhoons on enemy hits
+| rare = 13
+| sell = {{value|0|26}}
+| debuff = Crush Depth
+| debufftip = Aquatic pressure
+| debuffduration = 3 seconds (Scythe)
+| debuffchance = 100%
+| debuff2 = Wet
+| debufftip2 = You are dripping water
+| debuffchance2 = 100%
+| debuffduration2 = 10 seconds (Typhoon)
+| hardmode = yes
+| postml = yes
+| proj = Nuclear Fury Typhoon.png
+| projcaption = Cosmic Typhoon
+| element1 = Dark
+| element2 = Water
+| element3 = Slash
+}}
+|{{item drops infobox
+|[[Reaper Shark]]<br/>(After [[Polterghast]] has been defeated)|1|33.33%
+}}
+}}
+
+The '''Valediction''' is a Godseeker Mode [[Spy]] [[boomerang]] that drops from [[Reaper Shark]]s after [[Polterghast]] has been defeated. It continuously throws large homing reaper scythes that travel in high velocity, and can pass through tiles. Each reaper scythe can damage and pierce through unlimited enemies, but a thrown scythe will return soon after striking its intended target at least once.
+
+Performing a [[stealth strike]] with the Valediction causes three typhoons that deal half of the scythe's damage to appear on enemy hits.
+
+{{Modifier|Spy}}
+
+== Notes ==
+*Reaper scythes may orbit their target at high speed, dealing damage multiple times before returning. On rare occasion they can miss their target entirely.
+*The [[Valediction]]'s stealth strike only deals 90% damage to [[The Devourer of Gods]].
+
+== Trivia ==
+*The word "Valediction" means the action of saying farewell.
+*The weapon's sprite was previously used by [[The Reaper]] before it was reworked into a Challenge Drop.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

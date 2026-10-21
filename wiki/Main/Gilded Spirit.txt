@@ -1,0 +1,68 @@
+{{npc infobox
+| type = Flying Enemy
+| environment = Dungeon
+| ai = Gilded Spirit AI
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+| immune1 = Confused
+| immune2 = Kami Flu
+| hurt = NPC_Hit_36.wav
+| killed = NPC_Killed_39.wav
+}}
+
+The '''Gilded Spirit''' is a Godseeker Mode [[Enemies|flying enemy]] that spawns in the [[Dungeon]] after [[Polterghast]] has been defeated. It has a {{dv|0.25%|1%}} chance to spawn after defeating an enemy, and will fly away from the player in an attempt to despawn off screen. It drops an extremely large amount of coins on death. There is a 10% chance the Gilded Spirit will be replaced with a Glistening Spirit, which moves twice as fast and drops even more money.
+
+== Variations ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Gilded Spirit
+| image = Gilded Spirit.png
+| type = Flying Enemy
+| ai = Gilded Spirit AI
+| environment = Dungeon
+| life = {{dv|500|3000}}
+| damage = {{element|Holy}} {{dv|100|175}}
+| defense = 0
+| knockback = {{dv|100%}}
+| money = {{value|10-15|40-50|25|10}}
+| Phantoplasm|13-17|100%
+| hardmode = yes
+| postml = yes
+| vulnerable1 = Cold
+| vulnerable2 = Magic
+| resistant1 = Dark
+| resistant2 = Holy
+}}
+|{{npc infobox
+| name = Glistening Spirit
+| image = Glistening Spirit.png
+| type = Flying Enemy
+| ai = Gilded Spirit AI
+| environment = Dungeon
+| life = {{dv|2000|4000}}
+| damage = {{element|Holy}} {{dv|150|250}}
+| defense = 0
+| knockback = {{dv|100%}}
+| money = {{value|50-75|70-90}}
+| Phantoplasm|25-35|100%
+| hardmode = yes
+| postml = yes
+| vulnerable1 = Cold
+| vulnerable2 = Magic
+| resistant1 = Dark
+| resistant2 = Holy
+| resistant3 = Slash
+}}
+}}
+{{-}}
+
+== Notes ==
+*It is possible for both a Gilded Spirit, a Phantom Spirit and a [[Dungeon Spirit]] to spawn at the same time when killing an enemy.
+**Additionally, it is possible for a Gilded Spirit Spirit to spawn after killing a Phantom Spirit or a Dungeon Spirit. However, Phantom Spirits and Dungeon Spirits cannot spawn after killing a Gilded Spirit.
+*Gilded Spirits can not be damaged by Traps.
+
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

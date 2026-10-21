@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 84
+| use = 33
+| velocity = 7
+| knockback = 11
+| tooltip = Using extra mass gained from collision with solid materials, it causes extra damage<br/>Fires a burst of unstable matter that does significant damage after striking a tile<br/>Before striking a tile, the matter pierces infinitely but deals little damage<br/>Current Charge: [CHARGE]
+| stack = 1
+| auto = yes
+| rare = a
+| hardmode = yes
+| sell = {{value|0|4|80}}
+| element1 = Poison
+| element2 = Machine
+}}
+
+The '''Matter Modulator''' is a craftable [[Hardmode]] [[ranged weapon]]. When used, it fires a spread of three to five unstable matter. Before bouncing, the matter will do 67% less damage to enemies but will infinitely pierce targets. After the projectile bounces off a solid block once, it speeds up and turns to a nearby target. The matter can not bounce more than once nor can it infinitely pierce after bouncing.
+
+The weapon consumes 0.075 units of [[charge]] per use and has a maximum charge of 85.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{schematic|tier2}} {{schematic|tooltip}}
+{{recipes|view=infobox|result={{PAGENAME}}}}
+== Trivia ==
+*The Matter Modulator is a reference to the [https://fallout.fandom.com/wiki/Q-35_matter_modulator weapon of the same name] from ''[[wikipedia:Fallout: New Vegas|Fallout: New Vegas]]''.
+{{-}}
+{{Draedon's Arsenal}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

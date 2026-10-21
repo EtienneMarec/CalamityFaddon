@@ -1,0 +1,50 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| rare = 5
+| sell = {{value|0|7|20}}
+| auto = yes
+| damage = 57
+| tooltip = Throws flaming knives that break into obsidian shards on hit
+| debuff2 = On Fire!
+| debuffduration2 = 2 seconds
+| debufftip2 = Slowly losing life
+| debuffchance2 = 100%
+| damagetype = Rogue
+| knockback = 5
+| velocity = 28
+| use = 12
+| hardmode = yes
+| element1 = Fire
+| element2 = Stab
+| stack = 1
+| proj = MoltenPiercerthrown.png
+| projcaption = Molten Piercer (thrown)
+}}
+|{{item drops infobox
+| [[Pyrogen]] {{dv|25%|33.33%}}
+}}
+}}
+
+
+The '''Molten Piercer''' is a [[Hardmode]] [[dagger]] dropped by [[Pyrogen]]. It quickly fires gravity affected knives that break into obsidian shards when they hit enemies or tiles. 
+
+Performing a [[stealth strike]] with the Molten Piercer will deal 200% damage and cause the dagger to spin into a hellstorm, decelerating until coming to a stop, while firing gravity-affected obsidian shards in all directions.
+
+{{Modifier|rogue}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The Molten Piercer's incredibly high multi-target damage can deal very high damage to worm-type enemies such as [[The Destroyer]] or [[Aquatic Scourge]] while the stealth strike can deal even more massive damage to worms or bosses that will stay in a set position, like [[Calamitas]] allowing many hits of the spinning dagger as well as the shards which will spawn directly on top of enemies.
+
+== Trivia ==
+*The spinning hellstorm stealth strike is based on one of Pyrogen's attacks.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

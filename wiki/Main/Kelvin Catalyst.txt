@@ -1,0 +1,48 @@
+{{dedicated|Random Weeb|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 60
+| knockback = 4
+| rare = 5
+| auto = yes
+| sell = {{value|0|7|20}}
+| stack = 1
+| velocity = 8
+| use = 29
+| debuff = Frostburn
+| debuffduration = 4 seconds<br/>1 second (Ice stars)
+| debuffchance = 100%
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| tooltip = Throws an icy blade that splits into multiple ice stars on enemy hits<br/>Stealth strikes will briefly gain sentience and ram nearby enemies before returning to the player
+| hardmode = yes
+| proj = Kelvin Catalyst Star.png
+| projcaption = Mini Ice Star
+| element1 = Cold
+| element2 = Stab
+}}
+[[File:Kelvin Catalyst (demo).gif|frame | A demonstration of the Kelvin Catalyst being thrown. Note how the ice shards summoned by hitting each enemy only home in on the Super Dummy when the blocks become actuated.]]
+The '''Kelvin Catalyst''' is a craftable [[Hardmode]] [[boomerang]] that does [[rogue weapons|rogue]] damage. It inflicts the [[Frostburn]] [[debuff]] and multiple boomerangs can be deployed at once, with the boomerang returning to the owner after a set distance, and breaking upon contact with a solid block. Upon contact with an enemy, the boomerangs spawn eight ice stars each, which do one sixth of the boomerang's base damage, sharply home-in onto enemies, and go through tiles. If no enemies are nearby, the ice stars will shatter. There can only be up to 32 ice stars at a time.
+
+Performing a [[stealth strike]] with the Kelvin Catalyst will cause the next boomerang thrown to ram towards the nearest enemy instead of returning to the player, and will return to the player 1 second later.
+
+{{modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The ice stars deal typeless damage and cannot deal critical hits.
+*Almost all of this weapon's materials can be obtained from [[Cryogen]]. The only exceptions are the Ice Stars, which are bought from the [[Archmage]] NPC who spawns after Cryogen is defeated. This makes the weapon an appealing option for early-Hardmode rogue players, provided that one can consistently defeat Cryogen.
+*This weapon is extremely effective in early to mid-Hardmode, as it can tear through most bosses at that stage of the game with its high DPS.
+{{-}}
+
+== Trivia ==
+*A [[wikipedia:Catalysis|catalyst]] is a substance which increases the rate of chemical reaction but is not consumed upon reacting, thus it can react repeatedly.
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Boomerangs]]
+[[Category:Mythic Items]]

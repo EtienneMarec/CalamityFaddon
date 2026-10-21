@@ -1,0 +1,266 @@
+{{stub}}
+{{addon|Deimos, the Starborn Princess}}
+{{item infobox
+| name = Scrolls
+| imagealt = [[File:Innovation.png]] [[File:Aeroscript.png]] [[File:Sticky Parchment.png]]<br/><br/>[[File:Scroll of Night.png]] [[File:Scroll of Light.png]] [[File:Woven Fragments of the Clone.png]] [[File:Troposphere.png]] [[File:Abzu.png]] [[File:The Black Death.png]] [[File:Main Sequence.png]]<br/><br/>[[File:Selene.png]] [[File:Elysian Scrawl.png]] [[File:Sacrificial Writings.png]] [[File:The Voidlands.png]] [[File:Alien Carbon Fiber Fabric.png]] [[File:Stratosphere.png]] [[File:Viral Paper.png]] [[File:Edda.png]] [[File:Sickly Parchment.png]] [[File:Scroll of Rebirth.png]] [[File:Emperor.png]] [[File:Woven Fragments of Destruction.png]]<br/><br/>[[File:Writings of the Creator.png]]
+| type = Scroll
+| use = 30
+| stack = 1
+| sound = Item_119.wav
+| soundtext = Use
+| image2 = BlankInd.png
+| image2caption = Empty Scroll HUD Icon
+}}
+
+'''Scrolls''' are a set of craftable [[tool]]s that provide a toggled permanent effect on use. Up to two scrolls can be in use at a time. Scrolls are crafted with [[Blank Scroll]]s and [[Lore items]] at a [[Scroll Press]].
+
+Two indicators appears beside the health bar, showing which scrolls are currently active. Having two scrolls active at once will reduce the positive effects of scrolls by 15% and will boost the negative effects of scrolls by 30%.
+
+
+==Types==
+{| class="terraria sortable lined align-center"
+! class=unsortable | Image !! Name !! Effect !! Associated With !! [[Hardmode]] !! Godseeker Mode !! Epilogue !! [[Rarity]] !! HUD Icon
+|-
+|[[File:Innovation.png]]
+|[[Innovation]]
+|WIP
+|[[File:Wulfrum Excavator map.png]] [[Wulfrum Excavator]]
+|{{no}}
+|{{no}}
+|{{no}}
+|{{rare|1}}
+|[[File:InnoInd.png]]
+|-
+|[[File:Aeroscript.png]]
+|[[Aeroscript]]
+|Increases the player's jump height and speed by 13%. Increases fall resistance by 30 blocks. -3/<abbr title="Another scroll is active">-4</abbr> defense and a floaty effect identical to [[The Devourer of Gods]]' Warped [[debuff]].
+|[[File:Bestiary Sky.png]] [[Space]]
+|{{no}}
+|{{no}}
+|{{no}}
+|{{rare|3}}
+|[[File:AeroInd.png]]
+|-
+|[[File:Sticky Parchment.png]]
+|[[Sticky Parchment]]
+|All surfaces behave like [[Frozen Slime Block]]s. -7/<abbr title="Another scroll is active">-9</abbr> defense and the player is always inflicted with the [[Slimed]] [[debuff]].
+|[[File:Slime God Core map.png]] [[The Slime God]]
+|{{no}}
+|{{no}}
+|{{no}}
+|{{rare|4}}
+|[[File:StickyInd.png]]
+|-
+|[[File:Scroll of Night.png]]
+|[[Scroll of Night]]
+|While active, pressing {{key|Scroll Ability}} will increase your damage by 50/<abbr title="Another scroll is active">43</abbr>% and your critical strike chance by 25/<abbr title="Another scroll is active">21</abbr>% but you lose 65/<abbr title="Another scroll is active">85</abbr>% of your defense, 5/<abbr title="Another scroll is active">6.5</abbr>% damage reduction, all natural life regen, and are afflicted with [[Vaporfied]] for 10 seconds. This has a cooldown of 1 minute.
+|[[File:Map_Icon_Wall_of_Flesh.png]] [[Wall of Flesh]]<br/>[[File:Bestiary_The_Crimson.png]] [[File:Bestiary_The_Corruption.png]] [[The Crimson]] and [[The Corruption]]
+|{{yes}}
+|{{no}}
+|{{no}}
+|{{rare|4}}
+|[[File:SoNInd.png]]
+|-
+|[[File:Scroll of Light.png]]
+|[[Scroll of Light]]
+|While active, pressing {{key|Scroll Ability}} will increase your [[Damage Reduction]] by 10/<abbr title="Another scroll is active">8.5</abbr>%, your defense by 65/<abbr title="Another scroll is active">55</abbr>, and will grant life regen similar to [[Honey]] but you lose 30/<abbr title="Another scroll is active">40</abbr>% damage, 20/<abbr title="Another scroll is active">26</abbr>% critical strike chance, and are afflicted with [[Dazed]] for 10 seconds. This has a cooldown of 1 minute.
+|[[File:Map_Icon_Wall_of_Flesh.png]] [[Wall of Flesh]]<br/>[[File:Bestiary_The_Hallow.png]] [[The Hallow]]
+|{{yes}}
+|{{no}}
+|{{no}}
+|{{rare|4}}
+|[[File:SoLInd.png]]
+|-
+|[[File:Woven Fragments of the Clone.png]]
+|[[Woven Fragments of the Clone]]
+|WIP
+|[[File:Calamitas map.png]] [[Calamitas]]
+|{{yes}}
+|{{no}}
+|{{no}}
+|{{rare|5}}
+|[[File:WFotCInd.png]]
+|-
+|[[File:Troposphere.png]]
+|[[Troposphere]]
+|WIP
+|[[File:Map_Icon_Plantera_(second_form).png]] [[Plantera]]
+|{{yes}}
+|{{no}}
+|{{no}}
+|{{rare|6}}
+|[[File:TropoInd.png]]
+|-
+|[[File:The Black Death.png]]
+|[[The Black Death]]
+|WIP
+|[[File:Plaguebringer Goliath map.png]] [[The Plaguebringer Goliath]]
+|{{yes}}
+|{{no}}
+|{{no}}
+|{{rare|8}}
+|[[File:TBDInd.png]]
+|-
+|[[File:Abzu.png]]
+|[[Abzu]]
+|Grants the player a bubble that provides greatly reduced breath loss in the abyss and a large amount of light. However, when the player is hit the bubble and its effects will cease for 25/<abbr title="Another scroll is active">32</abbr> seconds.
+|[[File:Leviathan map.png]][[File:Anahita map.png]] [[Leviathan and Anahita]]<br/>[[File:Voidstone.png]] [[Abyss]]
+|{{yes}}
+|{{no}}
+|{{no}}
+|{{rare|8}}
+|[[File:AbzuInd.png]]
+|-
+|[[File:Main Sequence.png]]
+|[[Main Sequence]]
+|WIP
+|[[File:Astrum Deus map.png]] [[Astrum Deus]]
+|{{yes}}
+|{{no}}
+|{{no}}
+|{{rare|9}}
+|[[File:MainInd.png]]
+|-
+|[[File:Selene.png]]
+|[[Selene]]
+|WIP
+|[[File:Bestiary Blood Moon.png]] [[Blood Moon]]
+|{{yes}}
+|{{yes}}
+|{{no}}
+|{{rare|10}}
+|[[File:SeleneInd.png]]
+|-
+|[[File:Elysian Scrawl.png]]
+|[[Elysian Scrawl]]
+|Accelerates the player by a factor of 1.25/<abbr title="Another scroll is active">1.0625</abbr>% per frame until a solid block is hit, the player takes damage, or they reach a speed of 1,500/<abbr title="Another scroll is active">1,050</abbr> mph. Reaching a speed of 850/<abbr title="Another scroll is active">595</abbr> mph will inflict the [[Holy Inferno]] [[debuff]]. Damage of the debuff will exponentially increase with the players speed.
+|[[File:Providence map.png]] [[Providence, the Profaned Goddess]]
+|{{yes}}
+|{{yes}}
+|{{no}}
+|{{rare|12}}
+|[[File:ElysInd.png]]
+|-
+|[[File:Sacrificial Writings.png]]
+|[[Sacrificial Writings]]
+|WIP
+|[[File:Ravager map.png]] [[Ravager]]
+|{{yes}}
+|{{yes}}
+|{{no}}
+|{{rare|12}}
+|[[File:SacriInd.png]]
+|-
+|[[File:The Voidlands.png]]
+|[[The Voidlands]]
+|Pressing {{key|Scroll Ability}} activates a short invulnerable dash in the direction of the cursor. This dash has a cooldown of 7/<abbr title="Another scroll is active">9</abbr> seconds.
+|[[File:Storm Weaver map.png|32px]] [[File:Ceaseless Void map.png|45px]] [[File:Signus map.png|32px]] [[Sentinels of the Devourer]]
+|{{yes}}
+|{{yes}}
+|{{no}}
+|{{rare|12}}
+|[[File:VoidInd.png]]
+|-
+|[[File:Carbon Fiber Fabric.png]]
+|[[Carbon Fiber Fabric]]
+|Effects of Abzu and Main Sequence. WIP
+|[[File:Starborn Moth Phase 1 map.png]] [[The Starborn Moth]]
+|{{yes}}
+|{{yes}}
+|{{no}}
+|{{rare|13}}
+|[[File:CFFInd.png]]
+|-
+|[[File:Stratosphere.png]]
+|[[Stratosphere]]
+|Effects of Troposphere. WIP
+|[[File:Polterghast map.png]] [[Polterghast]]
+|{{yes}}
+|{{yes}}
+|{{no}}
+|{{rare|13}}
+|[[File:StratInd.png]]
+|-
+|[[File:Viral Paper.png]]
+|[[Viral Paper]]
+|WIP
+|[[File:Profusion map.png]] [[Profusion, the Viral God]]
+|{{yes}}
+|{{yes}}
+|{{no}}
+|{{rare|13}}
+|[[File:ViralInd.png]]
+|-
+|[[File:Edda.png]]
+|[[Edda]]
+|While active, pressing {{key|Scroll Ability}} will create a portal at the position of the mouse. After 1.5 seconds, the player will teleport to the portals position, exploding into fireballs and inflicting the [[Chaos State]] [[debuff]] for 20/<abbr title="Another scroll is active">26</abbr> seconds. This scroll cannot be used while Chaos State is active.
+|[[File:Devourer of Gods final head map.png]] [[The Devourer of Gods]]
+|{{yes}}
+|{{yes}}
+|{{no}}
+|{{rare|14}}
+|[[File:EddaInd.png]]
+|-
+|[[File:Sickly Parchment.png]]
+|[[Sickly Parchment]]
+|Completely removes all player momentum and the player loses 35/<abbr title="Another scroll is active">45.5</abbr>% of their defense.
+|[[File:Gooz Sayer's Coin.png]] [[Horseslimes of the Goopocalypse]]
+|{{yes}}
+|{{yes}}
+|{{no}}
+|{{rare|14}}
+|[[File:SicklyInd.png]]
+|-
+|[[File:Scroll of Rebirth.png]]
+|[[Scroll of Rebirth]]
+|Triggers a [[Death Prevention|revive]] when the player is hit with a fatal attack, healing them for 150/<abbr title="Another scroll is active">128</abbr> HP. The revive has a 120/<abbr title="Another scroll is active">156</abbr> second cooldown.
+|[[File:Yharon map.png]] [[Jungle Dragon, Yharon]]
+|{{yes}}
+|{{yes}}
+|{{no}}
+|{{rare|15}}
+|[[File:SoRInd.png]]
+|-
+|[[File:Emperor.png]]
+|[[Emperor]]
+|Effects of Aeroscript, The Voidlands, and Innovation. WIP
+|[[File:Exo_Cube.png]] [[The Exosphere]]
+|{{yes}}
+|{{yes}}
+|{{no}}
+|{{rare|15}}
+|[[File:EmpInd.png]]
+|-
+|[[File:Woven Fragments of Destruction.png]]
+|[[Woven Fragments of Destruction]]
+|Effects of Woven Fragments of the Clone and Selene. WIP
+|[[File:Supreme Calamitas map.png]] [[Supreme Calamitas]]
+|{{yes}}
+|{{yes}}
+|{{no}}
+|{{rare|15}}
+|[[File:WFoDInd.png]]
+|-
+|[[File:Writings of the Creator.png]]
+|[[Writings of the Creator]]
+|Effects of Alien Carbon Fiber Fabric, Emperor, Edda, Scroll of Rebirth, Sickly Parchment, Stratosphere, Viral Paper, and Woven Fragments of Destruction. WIP
+|[[File:Goozma map.png]] [[Goozma]]
+|{{yes}}
+|{{yes}}
+|{{yes}}
+|{{rare|16}}
+|[[File:WotCInd.png]]
+|}
+
+==Crafting==
+===Recipes===
+{{recipes|station=Scroll Press}}
+
+==Notes==
+*[[Dye Trader]] rewards can be crafted.
+
+==Trivia==
+*Scrolls are based on [https://terrariamods.fandom.com/wiki/Polarities_Mod/Books Books] from the [https://forums.terraria.org/index.php?threads/the-polarities-mod.88854/ Polarities Mod], [https://thoriummod.fandom.com/wiki/Technique_Scroll Technique Scrolls] from the [https://forums.terraria.org/index.php?threads/the-thorium-mod.40788/ Thorium Mod], and [https://terrariamods.fandom.com/wiki/Exxo_Avalon/Mystical_Tomes Mystical Tomes] from the [https://forums.terraria.org/index.php?threads/released-wip-terraria-avalon.378/ Exxo Avalon] Mod.
+{{-}}
+{{DeimosMod}}
+[[Category:Tool items|*]]

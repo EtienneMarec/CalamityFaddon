@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 9
+| auto = yes
+| use = 15
+| knockback = 4.5
+| velocity = 12
+| critical = 0%
+| stack = 1
+| rare = 4
+| sell = {{value|0|2|40}}
+| tooltip = Fires lunic beams that reduce enemy protection<br/>This weapon scales with all your damage stats at once
+| debuff = Marked
+| debufftip = Damage reduction reduced
+| debuffduration = 8 seconds
+| debuffchance=100%
+| hardmode = yes
+| element1 = Dark
+}}
+
+The '''Lunic Eye''' is a [[Hardmode]] [[Classless weapons|classless weapon]] which can be considered the upgrade of the [[Marked Magnum]]. It shoots homing orange projectiles, which get their damage multiplied by damage bonuses from all classes. The projectile inflicts the [[Marked]] debuff to enemies, which lowers enemy damage reduction by 50%. Additionally, the projectile creates a brief explosive plume upon impact, which can hit enemies multiple times. This weapon does not consume any ammo or mana.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not have any critical strike chance and cannot gain any from [[coverings]], [[Modifier]]s, [[Buff]]s and [[Covering]] bonuses.
+*As this weapon does not count as a specific weapon type, it does not provoke the penalty on minions' damage when holding a non-summoner weapon, making it an indispensable asset for [[Summon weapons|summon]]-based characters.
+*The damage multiplication is equal to the sum of all the damage multiplication across each of the 5 classes (Melee, Ranged, Mage, Summoner, [[Spy]]).
+**e.g. If the player has +10% melee damage, +30% ranged damage and +5% Spy damage, the Lunic Eye will deal 45% more damage.
+
+== Trivia ==
+*In previous versions of the mod, this weapon used to lower [[Stress]] levels when held.
+
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

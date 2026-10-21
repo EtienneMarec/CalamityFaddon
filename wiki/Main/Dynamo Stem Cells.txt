@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| image = Dynamo Stem Cells.gif
+| type = Covering
+| tooltip = 10% increased movement speed<br/>Ranged weapons have a chance to fire mini swarmers
+| rare = 11
+| sell = {{value|0|22}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Mini Swarmer.gif
+| projcaption = Mini Swarmer
+| element1 = fire
+| element2 = poison
+}}
+|{{item drops infobox
+|[[The Dragonfolly]]|1|100%
+}}
+}}
+
+The '''Dynamo Stem Cells''' is a Godseeker Mode [[covering]] dropped by [[The Dragonfolly]]. It grants the player 10% increased movement speed and a 20% chance for ranged weapons to release miniature swarmers when fired. The swarmers deal more damage the higher the weapon's use time, up to a maximum of 70% of the weapon's base damage for weapons with a use time of 10.5 or higher. The swarmers are softcapped at 1000 damage.
+
+== Crafting ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*In real life, [[wikipedia:Stem cell|stem cells]] are used in the process of cloning animals due to their ability to transform into other types of body cells.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

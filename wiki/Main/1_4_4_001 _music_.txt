@@ -1,0 +1,38 @@
+{{Patch infobox
+| title = 1.4.4.001
+| image = The Old Duke.png
+| patchname = Acid Rain (Music mod)
+| prev = [[1.4.3.001 (music)|1.4.3.001]]
+| next = [[1.4.4.003 (music)|1.4.4.003]]
+| pair = 1.4.4.001
+| release = 4/1/2020
+}}
+{{dablink|This is the page for the '''1.4.4.001 Music mod''' update.}}
+The '''1.4.4.001''' (or '''1.4.4.1''') Music mod update, also known as '''"Acid Rain"''', added music tracks for the [[Acid Rain]] event, Underground [[Astral Infection]] biome, and [[The Old Duke]].
+
+This Music Mod version was compatible with Main mod versions [[1.4.4.001]] and [[1.4.4.002]].
+
+== Additions ==
+*Added [[Music Box (Underground Astral Biome)]], [[Music Box (Acidic Downpour)]], and [[Music Box (Old Duke)]].
+*Added "corrosion!", the Acid Rain music track.
+*Added "Toxic Wisdom", The Old Duke music track.
+*Added "Treasures Within The Abomination", the Underground Astral Infection music track.
+*Added the <code>Title Screen - Toggling this requires a reload to take effect</code> [[Configuration option]].
+
+== Changes ==
+*All [[Music Boxes]] can now be toggled on and off with [[Wire]]s.
+*Decreased the base volume of the biome music tracks.
+*Resprited [[Music Box (The Dragonfolly)|Music Box (Bumblebirb)]], [[Music Box (Ceaseless Void)]], [[Music Box (Cryogen)]], [[Music Box (Hive Mind)]], and [[Music Box (Storm Weaver)]].
+*The "Calamity" music track will now play on the Title Screen. This change can be disabled through a configuration option.
+*The "The Heaven-Sent Abomination" music track now loops properly.
+*The "Unholy Insurgency" music track now loops properly during the [[Providence, the Profaned Goddess]] fight.
+
+== Fixes ==
+*Fixed a bug that allowed Music Boxes to recieve covering modifiers.
+*Fixed an issue that caused the game to crash when reloading the mod via tModLoader.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-music = yes
+}}

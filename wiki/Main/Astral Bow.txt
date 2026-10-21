@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 99
+| knockback = 2.5
+| critical = 29%
+| rare = 9
+| sell = {{value|0|19}}
+| stack = 1
+| use = 15
+| auto = yes
+| tooltip = Fires a burst of three arrows
+| velocity = 16
+| hardmode = yes
+| element1 = Magic
+| element2 = Stab
+}}
+The '''Astral Bow''' is a craftable [[Hardmode]] [[bow]]. It shoots out 3 arrows one after another in quick bursts. Arrows travel at a moderate velocity. Each arrow has a use time of 5.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon was previously a [[repeater]], and its previous name was "Astral Repeater".
+
+{{Astral}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

@@ -1,0 +1,40 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| tooltip = Provides 10 frames of immunity on enemy hits.
+| damage = 1
+| knockback = 1
+| rare = 13
+| sell = {{value|0|3}}
+| stack = 1
+| research = 1
+| auto = no
+| use = 6
+| sound = Item_1.wav
+| soundtext = Use
+| hardmode = yes
+| postml = yes
+| element1 = dark
+| element2 = slash
+}}
+
+The '''Twisted Netherite Scythe''' is a craftable Godseeker Mode [[classless weapon]] that swings like a broadsword. When an enemy is hit, the player swinging the weapon gains 10 frames of immunity.
+
+Its best modifier is '''Legendary'''.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The weapon is great at stalling during fights as the player essentially becomes unkillable if they can keep up with their target, and can let minions passively deal damage.
+
+{{Netherite}}
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}
+[[Category:Classless weapons]]

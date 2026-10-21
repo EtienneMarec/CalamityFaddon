@@ -1,0 +1,34 @@
+{{item infobox
+| type = Ammunition
+| damage = 15
+| damagetype = Ranged
+| knockback = 2.5
+| stack = 9999
+| tooltip = Shatters into shards on impact
+| consumable = True
+| rare = 6
+| buy = {{value|0|0|0|80}}
+| sell = {{value|0|0|0|16}}
+| hardmode = yes
+| listcat = arrows
+| velocity = 1
+| velocitymult = 2
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 3 seconds (Arrow)
+}}
+{{distinguish|Arctic Arrow|which is crafted with [[Cryonic Bar]]s}}
+
+'''Icicle Arrows''' are [[Hardmode]] [[arrows]] sold by the [[Archmage]] NPC for {{cc|80}} each after defeating all three [[minibosses]] in the [[Frost Moon]] [[event]]. They shatter into shards upon impact with a tile or an enemy and inflict the [[Frostburn]] [[Debuffs|debuff]] on hit enemies.
+
+The [[Eternal Blizzard]] also fires Icicle Arrows in addition to [[Wooden Arrow]]s.
+
+== Notes ==
+*The ice shards will deal 40% less damage to everything. The damage penalty takes the bow's base damage into account.
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-ammo = yes
+}}
+[[Category:Arrows]]

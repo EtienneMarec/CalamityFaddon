@@ -1,0 +1,38 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = ranged
+| damage = 35
+| knockback = 2.25
+| use = 10
+| stack = 1
+| velocity = 14
+| tooltip = Fires cursed bullets
+| rare = 4
+| sell = {{value|0|2|40}}
+| auto = yes
+| hardmode = yes
+| debuff = Cursed Inferno
+| debufftip = Losing life<br/>All damage taken increased by 20%
+| debuffchance = 100%
+| debuffduration = 4 seconds
+| element1 = Unholy
+| element2 = Stab
+}}
+
+The '''Cursed Capper''' is a craftable [[Hardmode]] [[gun]] and a direct upgrade to the [[Phoenix Blaster]]. It transforms [[bullets]] into flaming shots that inflict the [[Cursed Inferno]] [[debuff]] on [[enemies]].
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

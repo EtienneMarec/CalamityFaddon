@@ -1,0 +1,36 @@
+{{Historical content}}
+{{addon|Calamity: Tales of the Aquatic}}
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = C2
+| stack = 1
+| sell = {{value|0|30|0}}
+| tooltip = Attacks have a chance to inflict Evercold debuff
+| debuff = Evercold
+| debuffduration = 3 seconds
+| debuffchance = 20%
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+|[[Esserwyrm]]|1|100%
+}}
+}}
+
+'''Jewel Core''' is a Godseeker Mode [[Combat coverings|combat]] [[coverings|covering]]. It makes all attacks have a 20% chance to inflict [[Evercold]]. its obtainable by defeating the [[Esserwyrm]] [[Bosses|boss]]. 
+
+== Notes ==
+Due to low debuff chance and duration this covering works the best on fast-attacking weapons
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

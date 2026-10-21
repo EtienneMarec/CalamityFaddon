@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Halves enemy contact damage<br/>When you take contact damage this effect has a 20 second cooldown
+| rare = 8
+| covering = True
+| sell = {{value|0|12}}
+| stack = 1
+| hardmode = yes
+| debuff = Flesh Totem Cooldown
+| debufftip = The Flesh Totem effect is recharging
+| debuffduration = 20 seconds
+| boxwidth = 22em
+}}
+|{{item drops infobox
+| [[Ravager]]|1|{{dv|33.33%|50%}}
+}}
+}}
+
+The '''Flesh Totem''' is a [[Hardmode]] [[covering]] that drops from the [[Ravager]]. When equipped, it halves [[enemy]] contact damage. It has a 20 seconds cooldown after taking a hit.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*If the player dashes through an enemy using a shield (such as the [[Ornate Shield]] or [[Asgard's Valor]]), the Flesh Totem will be put on cooldown despite the fact that no damage was taken.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

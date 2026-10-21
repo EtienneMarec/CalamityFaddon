@@ -1,0 +1,41 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 200
+| pick = 350
+| knockback = 6.5
+| rare = C2
+| bonus = +10 range
+| use = 4
+| toolspeed = 4
+| tooltip = Can mine Natrisodic Clusters
+| sell = {{value|10|0|0|0}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Reactive Flames
+| duration = 4 seconds
+| element1 = Water
+| element2 = Poison
+| element3 = Fire
+| element4 = Dark
+}}
+
+Reactive Pickaxe is a craftable Post-[[Purgatory Arbiter, Umbrus]] [[Pickaxes|pickaxe]]. It has a pickaxe power of 350% so it is capable of mining [[Natrisodic Cluster]].
+
+==Crafting==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+
+==Trivia ==
+*The Pickaxes sprite is heavily inspired by the [[Blossom Pickaxe]]
+
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

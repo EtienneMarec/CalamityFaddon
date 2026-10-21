@@ -1,0 +1,66 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| imagealt = [[File:Graydron.png]][[File:Graydron (orange).png]][[File:Graydron (yellow).png]][[File:Graydron (green).png]]<br/>[[File:Graydron (blue).png]][[File:Graydron (purple).png]][[File:Graydron (white).png]]
+| stack = 1
+| auto = yes
+| damagetype = melee
+| tooltip = {{color|There will be blood!|#970000}}<br/>ID and power-level locked<br/>Prove your strength or have the correct user ID to wield this sword
+| damage = 3001
+| critical = 50%
+| element1 = Slash
+| element2 = Slash
+| element3 = Slash
+| element4 = Slash
+| element5 = Machine
+| element6 = Machine
+| element7 = Machine
+| element8 = Machine
+| knockback = 6.5
+| rare = 15
+| sell = {{value|0|500}}
+| use = 25
+| hardmode = yes
+| postml = yes
+| velocity = 50
+| proj = Graydron Slash.gif
+| projcaption = Graydron Slash (red)
+| projsize = 240px
+}}
+|{{item drops infobox
+| [[Cyber Draedon]] {{fantag|Calamity: Community Remix}}|1|1%
+}}
+}}
+<big>''"It was tempered by the fires which are fueled by spirits, and formed in the magma I draw into my laboratories."''</big>
+
+The '''Graydron''' is a pre-[[Hardmode]] [[melee weapon]] resembling a [[sword]]. A locked Graydron can be found in [[The Underworld]]'s [[Arsenal Labs#Underworld Bio-center Lab|Bio-center Arsenal Lab]], contained within a [[Security Chest]]. The locked Graydron can be unlocked with a colored gemstone at [[The Codebreaker]] once the [[Voltage Regulation System]] has been installed. It possesses a larger than normal [[tgc:Critical hit|critical strike]] chance.
+
+While being swung, large electric slashes will swing in the direction of the cursor, and any enemies that are hit by the slashes will take damage. The slashes appear in a set looping order: one large upward slash, one larger electrified upward slash, and then a slightly smaller downward slash. Each slash deals the same amount of damage. The Graydron emits bright colored particles outward as it swings.
+
+== Crafting ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Graydron cannot attack through walls. The exception to this rule is enemies that move through tiles.
+*Despite not behaving like normal [[swords]] or [[spears]], it is considered a [[true melee]] weapon.
+**As such, it also has the most range of all true melee weapons.
+*The Graydron's attack speed is slower than what is visually indicated when using it, at 25 use time (2.4 swings per second). Its swing range is also fixed, despite the slashes appearing at varying distances.
+*The Graydron will be automatically unlocked if the player's name is "Jetstream Sam" or "Samuel Rodrigues."
+*The Graydron only deals 40% damage to [[The Fabricational Quartet#Ares|Ares]] and its weapons and 35% damage to [[Supreme Calamitas]]' Supreme Soul Seekers.
+*If the player is playing with the retro or trippy light settings, then the Graydron behaves as an immense source of light. When this is paired with a night owl potion or a night vision helmet, it generates even more light.
+
+== Trivia ==
+*The Graydron has a [[Draedon's Log]] entry dedicated to it, also found in the Underworld Bio-center Lab, where it is depicted alongside the [[Phaseslayer]].
+*The Graydron is a reference to the primary weapon wielded by the character Jetstream Sam from ''[[wikipedia:Metal_Gear_Rising:_Revengeance|Metal Gear Rising: Revengeance]]''.
+**The Graydron originally shared the same name but was changed for copyright reasons.
+**The fast, blurred cutting animation that the item uses is based on the blurring visuals shown when the player or Sam uses the sword.
+***The fact the weapon is "ID locked" is also a reference to Sam, for the inability of using his weapon immediately after defeating him, unlike the other bosses in Metal Gear Rising.
+**The weapon's tooltip, "There will be blood!", is a reference to the lyrics of "The Only Thing I Know For Real", which is Sam's boss theme, specifically the line "The only thing I know for real- There will be blood! Shed!"
+*Prior to being located in Underworld Arsenal Labs, the Graydron was generated in now-removed Underworld [[Shrine]]s. Before that, the Graydron was a [[Revengeance Mode|Revengeance]]-exclusive weapon dropped by [[The Devourer of Gods]]. And before that, it was dropped by The Devourer of Gods in the now-removed [[Prepare to Cry]] mode.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:True melee]]

@@ -1,0 +1,43 @@
+{{infobox wrapper
+|{{item infobox
+| image = Calamity.gif
+| type = Covering
+| stack = 1
+| rare = 15
+| sell = {{value|0|30}}
+| tooltip =Lights your cursor ablaze with the Witch's flames, summoning a burning sigil around it<br/>While equipped your FPS is reduced by 50% and makes the game run in matrix mode<br/>Equip in a vanity slot to change the cursor without dealing damage
+| hardmode = yes
+| postml = yes
+| debuff = Vulnerability Hex
+| debuffchance = 100%
+| debuffduration = 0.4 seconds
+| debufftip = You are weak
+| element1 = Fire
+| element2 = Unholy
+| proj = Calamity Aura.gif
+| projcaption = Calamity Aura
+}}
+|{{item drops infobox
+| [[Supreme Calamitas]] | 1 | 100%
+}}
+}}
+{{dablink|If you were looking for something other than the covering, see [[Calamity (disambiguation)]].}}
+
+'''Calamity''' is a Godseeker Mode [[covering]] that drops from [[Supreme Calamitas]]. While equipped, a flaming aura spawns at the user's cursor. While an enemy is within range, the aura glows and continuously deals 212 typeless damage at a rate of 12 hits per second, inflicting the [[Vulnerability Hex]] [[debuff]]. Additionally, the cursor alternates between red and orange colors, regardless if the covering is equipped in the main or vanity slot.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The damage from the covering and the Vulnerability Hex deal a combined 5874 damage per second.
+
+== Trivia == 
+*The item is most likely a reference to the popular [[Calamity Mod Wiki|Calamity mod]] for [[tgc:Terraria|Terraria]], with its name and black-and-red aesthetic, as well as mentioning "the Witch" in the tooltip, likely referring to the final boss of the mod, [[Supreme Calamitas]].
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

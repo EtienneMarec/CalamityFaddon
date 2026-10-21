@@ -1,0 +1,41 @@
+<includeonly><!-- 
+-->{{#if:{{{sort|}}}|data-sort-value={{#switch:{{{1}}}|q|quest = -2|d|donator = 100|riv = 200|a|arsenal = 250|rainbow = 300|C1 = 350|C2 = 400|C3 = 450|C4 = 500|{{{1}}}}} align=center {{!}}}}<!--
+// cat/cate/category is not blank OR {{{2}}}=cat/cate/category
+-->{{#vardefine:_category|{{#if:{{{cat|}}}{{{cate|}}}{{{category|}}}{{#switch:{{{2|}}}|cat|cate|category=y}}|y|}}}}<!-- 
+-->{{#vardefine:_rarity|{{trim|{{{1|}}}}}}}<!-- 
+
+-->{{#switch:{{{1}}}<!-- 
+-->|-1 = <!-- 
+	-->[[File:Rarity color negative.png|Rarity level: -1|link={{#if:{{#var:_category}}|Category:Items of rarity -1|Rarity}}]]<!-- 
+	-->{{#if:{{#var:_category}}|[[Category:Items of rarity -1]]}}<!-- 
+-->|0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16 = <!-- 
+	-->[[File:Rarity color {{#var:_rarity}}.png|Rarity Level: {{#var:_rarity}}|link={{#if:{{#var:_category}}|Category:Items of rarity {{#var:_rarity}}|Rarity}}]]<!--  -->{{#if:{{#var:_category}}|{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Items of rarity {{#var:_rarity}}]]}}}}<!-- 
+-->|-12|rainbow = <!-- 
+	-->[[File:Rarity color rainbow.gif|Rarity Level: rainbow|link={{#if:{{#var:_category}}|Category:Items of rarity Rainbow|Rarity}}]]<!-- 
+	-->{{#if:{{#var:_category}}|{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Items of rarity Rainbow]]}}}}<!-- 
+-->|-11|q|quest = <!-- 
+	-->[[File:Rarity color quest.png|Rarity level: Quest|link={{#if:{{#var:_category}}|Category:Items of quest rarity|Rarity}}]]<!-- 
+	-->{{#if:{{#var:_category}}|{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Items of quest rarity]]}}}}<!-- 
+-->|d|donator = <!--
+        -->[[File:Rarity color donator.png|Rarity level: Donator|link={{#if:{{#var:_category}}|Category:Items of donator rarity|Rarity}}]]<!--
+        -->{{#if:{{#var:_category}}|{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Items of donator rarity]]}}}}<!--
+-->|riv = <!--
+        -->[[File:Rarity color rare variant.png|Rarity level: Rare Variant|link={{#if:{{#var:_category}}|Category:Items of rare variant rarity|Rarity}}]]<!--
+        -->{{#if:{{#var:_category}}|{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Items of rare variant rarity]]}}}}<!--
+-->|a|arsenal= <!--
+        -->[[File:Rarity color draedon arsenal.png|Rarity level: Draedon's Arsenal|link={{#if:{{#var:_category}}|Category:Items of draedon's arsenal rarity|Rarity}}]]<!--
+        -->{{#if:{{#var:_category}}|{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Items of draedon's arsenal rarity]]}}}}<!--
+-->|C1 = <!--
+        -->[[File:Rarity color C1.png|Rarity level: C1|link={{#if:{{#var:_category}}|Category:Items of C1 rarity|Rarity}}]]<!--
+        -->{{#if:{{#var:_category}}|{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Items of C1 rarity]]}}}}<!--
+-->|C2 = <!--
+        -->[[File:Rarity color C2.png|Rarity level: C2|link={{#if:{{#var:_category}}|Category:Items of C2 rarity|Rarity}}]]<!--
+        -->{{#if:{{#var:_category}}|{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Items of C2 rarity]]}}}}<!--
+-->|C3 = <!--
+        -->[[File:Rarity color C3.png|Rarity level: C3|link={{#if:{{#var:_category}}|Category:Items of C3 rarity|Rarity}}]]<!--
+        -->{{#if:{{#var:_category}}|{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Items of C3 rarity]]}}}}<!--
+-->|C4 = <!--
+        -->[[File:Rarity color C4.png|Rarity level: C4|link={{#if:{{#var:_category}}|Category:Items of C4 rarity|Rarity}}]]<!--
+        -->{{#if:{{#var:_category}}|{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Items of C4 rarity]]}}}}<!--
+-->|#default = {{{1}}}<!-- 
+-->}}</includeonly><noinclude>{{doc}}</noinclude>

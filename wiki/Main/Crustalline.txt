@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 21
+| auto = yes
+| use = 19
+| critical = 8%
+| knockback = 2
+| velocity = 12
+| debuff = Vaporfied
+| debufftip = Vaporizing senses and mind
+| debuffchance = 100%
+| debuffduration = 1.5 seconds
+| rare = 3
+| sell = {{gc|36}}
+| stack = 1
+| tooltip = Throws daggers that orbit you and stick to tiles<br/>Stealth strikes cause the blade to shatter into harmfull pieces
+| element1 = Stab
+| element2 = Unholy
+}}
+The '''Crustalline''' is a craftable non-consumable [[dagger]] which automatically throws a dagger that orbits the player once then is affected by gravity. If the dagger hits a tile, it sticks in place, accompanied by a {{sound|crack|ProvidenceHurt.wav}} sound. 
+
+Performing a [[stealth strike]] with the Crustalline will cause each of the daggers to shatter into harmfull fragments after 30 frames.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+
+[[Category:Daggers]]

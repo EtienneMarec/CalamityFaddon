@@ -1,0 +1,101 @@
+{{Patch infobox
+| image = Ambrosial Ampoule (1.1.7.855).png
+| patchname = Armors, Materials, and I-Frames
+| release = 5/07/2017
+}}
+{{toc limit|3}}
+The '''1.1.7.855''' update added the [[Ambrosial Ampoule]] and a variety of [[crafting materials]] and [[coverings]] used to make it. It also split [[Ataxia armor|Ataxia]] and [[Statigel armor]] into multiple classes using different helmets and changed immunity mechanics for various projectiles.
+
+== Additions ==
+*Added [[Ancient Bone Dust]], [[Beetle Juice]], [[Bloodletting Essence]], [[Demonic Bone Ash]], [[Fetid Essence]], [[Gypsy Powder]], [[Maneater Bulb]], [[Murky Paste]], [[Murky Sludge]], and [[Trapper Bulb]].
+*Added [[Ambrosial Ampoule]], [[Archaic Powder]], [[Corrupt Flask]], [[Crimson Flask]], [[Living Dew]], and [[Radiant Ooze]].
+*Added [[Ataxia Headgear]], [[Ataxia Helm]], [[Ataxia Helmet]], [[Ataxia Hood]], [[Statigel Cap]], [[Statigel Headgear]], and [[Statigel Mask]].
+
+== Changes ==
+=== Bosses ===
+*[[The Devourer of Gods]] changes:
+**Beams no longer inflict [[Frozen]].
+**Projectiles now have consistent hitboxes that line up with their sprites.
+**Bolt, beam, and star projectiles no longer create any dust.
+
+=== Items ===
+*The following player projectiles now utilize<code>usesLocalNPCImmunity</code> instead of <code>npc.immune</code>when hitting enemies. A full list can be found below:
+{{collapse top|Projectiles changed (click to reveal)|Projectiles changed (click to collapse)}}
+*[[Alluvion]]'s Torrential Arrows.
+*[[Alpha Ray]] and [[Genisis]]' beams.
+*[[Elemental Disk]]'s thrown and split disks.
+*[[Aegis Blade]]'s explosions.
+*[[Briny Baron]]'s spouts and Razorwind Blades.
+*[[Cosmic Discharge]]'s flail and explosions.
+*[[Cosmilamp]]'s minions.
+*[[Draconic Destruction]]'s beams.
+*[[Galaxia]]'s orbs.
+*[[Gilded Proboscis]].
+*[[Heart of the Elements]] and its components' Elementals.
+*[[Malachite]].
+*[[Murasama]].
+*[[Purge Guzzler]]'s lasers.
+*[[SHPC]]'s explosions.
+*[[Stream Gouge]].
+*[[Vanquisher Arrow]].
+*[[Venusian Trident]]'s explosions.
+*[[Yharim's Crystal]]'s beams.
+*[[Yharon's Kindle Staff]]'s Sons of Yharon.
+{{collapse bottom}}
+*Alluvion and [[Monsoon]]'s water spouts now hit every 6 frames.
+*[[Ancient Fossil]] now only applies its mining speed boost when in the [[Underground]] or [[Cavern]].
+*[[Fractured Ark|Ark of the Ancients]]' beams now hit every 6 frames.
+*[[Ark of the Cosmos]] and [[Ark of the Elements]]' pink beams now hit every 6 frames, their blue beams hit every 5, their green beams hit every 4. and their orange beams hit every 3.
+*[[Asgardian Aegis]] and [[Elysian Aegis]]' Holy Eruption now hits every 2 frames.
+*[[Ataxia armor]] changes:
+**Nerfed Ataxia Mask's defense from 11 to 9.
+**Ataxia Mask now reduces mana usage by 10% instead of 15%, and provides 100 extra mana instead of 150.
+**Buffed Ataxia Armor's defense from 18 to 21.
+**Ataxia Armor now provides a 5% damage and critical strike chance boost to all damage types instead of an 8% magic damage boost and a 5% magic critical strike chance boost.
+**Ataxia Armor now provides 50 extra life.
+**Buffed Ataxia Subligar's defense from 13 to 15, and its movement speed boost from 12% to 15%.
+**Ataxia Subligar now provides a 7% critical strike chance boost to all damage types instead of a 5% magic critical strike chance boost.
+**Set bonus:
+***Decreased mana usage penalty when losing health from 20% to 5% for each stat change interval.
+***Damage reduction penalties are now applied gradually as health lowers instead of only applying when the player is under 25% health.
+***Now grants a 20% chance to create an explosion when the wearer is hit.
+***Reduced magic damage boost when under 25% health from 25% to 15%.
+*[[Blissful Bombardier]]'s explosions now hit every 2 frames.
+*[[Blood Clot Staff]]'s Blood Clots now hit every 7 frames.
+*[[Carnage Ray]] and [[Night's Ray]] now use 10 [[Purified Gel]] in each of their recipes.
+*[[Dank Staff]]'s Dank Creepers now hit every 7 frames.
+*[[Elemental Lance]]'s spear now hits every 3 frames, and its blue and its cyan beams now hit every 6 frames.
+*[[Fungal Clump]]'s minion now hits every 10 frames.
+*[[Grand Guardian]]'s explosions now hit every 5 frames.
+*[[Lifefruit Scythe]]'s scythe projectiles now hit every 4 frames.
+*[[Megafleet]], [[Nullification Pistol]], [[Plasma Rifle]], and [[Starfleet]]'s Plasma Explosions now hit every other frame.
+*[[Nebulous Core]]'s Nebula Dust now hits every 3 frames.
+*[[Neptune's Bounty]]'s orbs now hit every other frame.
+*[[Shadowbolt Staff]]'s beam now hits every 2 frames.
+*[[Staff of the Mechworm]]'s Mechworm now hits every 4 frames.
+*[[Statigel armor]] changes:
+**Buffed Statigel Helm's defense from 7 to 9.
+**Statigel Helm now provides a 7% melee damage and speed boost instead of a 10% throwing damage boost and a 15% throwing velocity boost.
+**Statigel Helm no longer grants an 8% summon damage boost and extra minion.
+**Statigel Armor now provides a 5% critical strike chance boost to all damage types instead of just throwing.
+**Statigel Armor no longer provides a 5% throwing damage boost and a 50% chance to not consume consumable throwing weapons.
+**Statigel Greaves now provide a 5% damage boost to all damage types instead of a 10% summon damage boost.
+**Lowered Statigel Greaves' speed boost from 10% to 5%.
+**Set bonus now grants a 5% melee damage boost instead of a 10% summon damage boost when under 50% health.
+*[[Tarragon Breastplate]] now increases the wearer's health and mana by 150 and 100 respectively and its tooltip now states that it grants extra life regeneration.
+*[[Triactis' True Paladinian Mage-Hammer of Might]]'s explosions now hit every other frame.
+*[[True Ark of the Ancients]]' blue beams now hit every 5 frames, and its pink beams hit every 4.
+*True Tyrant's Ultisword's Hyper Blades now pierce 5 times instead of 3, now collide with tiles, and now hit every 4 frames.
+*True Tyrant's Ultisword's Sunlight Blades now pierce 3 times instead of 2, now collide with tiles, are no longer affected by gravity, and now hit every 4 frames.
+
+=== Resprites ===
+*Resprited [[Core of Chaos]], [[Core of Cinder]], and [[Core of Eleum]].
+
+== Fixes ==
+*Fixed all pieces of [[Aerospec armor]] not having their tooltips appear.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

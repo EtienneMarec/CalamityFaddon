@@ -1,0 +1,44 @@
+{{Addon|Tranquility Mod}}
+{{Death mode only}}
+{{Historical content}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| auto = no
+| damagetype = ranged
+| damage = 250
+| knockback = 0
+| rare = 9
+| sell = {{value|0|50}}
+| use = 10
+| stack = 1
+| velocity = 50
+| tooltip = Shoots a star-killing beam that pierces infinitely and changes its color and properties every shot. Can't have an auto-attack.<br/>It once belonged to a certain soul knight.
+| hardmode = yes
+| proj = Starkiller beam.png
+| projcaption = Star-Killing Beam
+| proj2 = Flaming Shard.gif
+| proj2caption = Lingering Stellar Spark
+|}
+}}
+|{{item drops infobox
+| [[Astrum Deus]]|1|{{dv||||100%}}
+}}
+}}
+
+
+The '''Dead Star's Laser Rifle''' is a [[Legendary items|Legendary]] gun dropped by the [[Astrum Deus]] with a 100% chance in [[Death Mode]], which shoots an infinitely piercing laser that changes its color and on-hit effects every shot:
+*Blue lasers stun enemies and pulverize their defense and DR, inflicting the [[Glacial State]] debuff.
+*Orange lasers ignore immunity frames, lighten the enemies ablaze and make them generate the colossal explosions on death.
+*Yellow lasers make the enemies explode on hit and generate a few lingering stellar sparks on each hit which deal 80% of the weapon's damage.
+*Green lasers increase the player's life regen by 5 and make the enemies emit the healing orbs that heal you for 10 HP with a 33% chance.
+
+== Trivia ==
+*This weapon can't have the autoattack, since its lasers change their properties and color only when weapon is used again, not when holding the LMB.
+*This weapon is a reference to the game [https://soul-knight.fandom.com/f Soul Knight].
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

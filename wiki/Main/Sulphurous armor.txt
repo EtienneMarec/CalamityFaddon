@@ -1,0 +1,87 @@
+{{item infobox
+| type = Armor
+| defense = 16
+| rare = 2
+| setbonus = Attacking and being attacked by enemies inflicts poison<br/>Grants an additional jump that summons a sulphurous bubble<br/>Provides increased underwater mobility and reduces the severity of the sulphuric waters<br/>Spy stealth builds while not attacking and slower while moving, up to a max of 95<br/>Once you have built max stealth, you will be able to perform a Stealth Strike<br/>Spy stealth only reduces when you attack, it does not reduce while moving<br/>The higher your Spy stealth the higher your Spy damage, crit, and movement speed
+| sell = {{value|0|0|63}} (set)
+| proj = Sulphuric Acid Bubble.gif
+| projcaption = Sulphuric Acid Bubble
+| debuff = Poisoned
+| debuffchance = 100%
+| debuffduration = 2 seconds (Hit)
+| debufftip = Slowly losing life
+| debuff2 = Venom
+| debuffchance2 = 100%
+| debuffduration2 = 2.5 seconds (Bubble)
+| debufftip2 = Losing life
+| resistance1 = Poison
+| resistance2 = Dark
+| resistance3 = Water
+}}
+
+'''Sulphurous armor''' is a craftable [[Pre-Hardmode]] [[Covering]] set. It requires 95 [[Urchin Stinger]]s and 45 [[Acidwood]], 45 [[Sulphuric Scale]]s, and 45 [[Sulphurous Sand]] to craft the entire set. The armor mainly grants bonuses to the [[Spy]] class.
+
+It consists of a '''Sulphurous Helmet''', '''Sulphurous Breastplate''', and '''Sulphurous Leggings'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*16 defense
+*12% increased Spy damage
+*7% increased Spy critical strike chance
+*10% increased movement speed
+*35% increased movement speed when submerged in liquid
+*Underwater breathing identical to the [[Gills]] buff
+*The [[Poisoned]] [[debuff]] is inflicted onto any attacking enemy
+*Striking an enemy will inflict the Poisoned debuff onto them
+*Reduces the amount of damage taken from the [[Sulphuric Poisoning]] debuff, as well as the damage taken by the water in the [[Sulphurous Sea]]
+*Grants the ability to double jump, emitting a large amount of dust below the player. While performing the jump, a sulphurous bubble is spawned which floats upward and inflicts [[Venom]] on enemy hits. The bubble deals 20 Spy damage.
+*A max [[stealth]] of 95
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Sulphurous Helmet
+| type = Armor
+| defense = 5
+| body slot = Helmet
+| tooltip = 4% increased Spy damage<br/>2% increased Spy critical strike chance<br/>Grants underwater breathing
+| sell = {{value|0|0|20}}
+}}
+|{{item infobox
+| name = Sulphurous Breastplate
+| type = Armor
+| defense = 6
+| body slot = Shirt
+| tooltip = 8% increased Spy damage and 5% increased Spy critical strike chance
+| sell = {{value|0|0|23}}
+}}
+|{{item infobox
+| name = Sulphurous Leggings
+| type = Armor
+| defense = 5
+| body slot = Pants
+| tooltip = Movement speed increased by 10%<br/>Movement speed increased by 35% while submerged in liquid
+| sell = {{value|0|0|20}}
+}}
+}}
+
+== Crafting ==
+=== Recipes ===
+{{recipes|view=infobox|result=LIKE Sulphurous Helmet/Sulphurous Breastplate/Sulphurous Leggings}}
+	
+== Notes ==
+*Underwater breathing granted by the armor set does not stack with the [[Gills Potion]].
+*The set bonus' effect of reducing severity of the water in the [[Sulphurous Sea]] stacks with the [[Sulphurskin Potion]] in the following manner:
+**While the full set is equipped without the [[Sulphurskin]] [[buff]], the amount of minimum life regen lost is 3 instead of 8, and further reduced by 1 every 6.67 seconds instead of 4.17 seconds.
+**With both the armor and the Sulphurskin buff, the amount of minimum life regen lost is 1, and further reduced by 1 every 8.33 seconds.
+**Both reduce the amount of life regen lost from the [[Sulphuric Poisoning]] [[debuff]] by 2 and can stack with each other.
+*The double jump happens after all other jump accessories, including the rocket boots and its upgrades.
+*The double jump also resets if you hit a block above you, allowing you to stay "airborne" indefinitely, albeit confined to a ceiling.
+
+== Tips ==
+*Due to the better damage stat, the double jump, and the ability to inflict debuffs, this set could be considered superior to the [[Aerospec armor|Aerospec]] Spy variant.
+{{-}}
+{{Sulphuric Scale}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

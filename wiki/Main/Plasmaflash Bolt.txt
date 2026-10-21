@@ -1,0 +1,43 @@
+{{addon|Cataclysm}}
+{{item infobox
+| hardmode = yes
+| type = Weapon
+| type2 = Crafting material
+| tooltip = Casts a quick-moving ball of plasma
+| damage = 45
+| damagetype = magic
+| mana = 13
+| use = 15
+| knockback = 5.5
+| velocity = 6.5
+| rare = 4
+| sell = {{value|0|2|40}}
+| debuff = Electrified
+| debuffchance = 100%
+| debuffduration = 10 seconds
+| debufftip = Slowly losing life
+| stack = 1
+| auto = yes
+| proj = Plasmaflash Bolt (projectile).png
+| projcaption = Plasmaflash Bolt
+| element1 = Poison
+| element2 = Electricity
+| element3 = Wind
+| element4 = Cold
+}}
+The '''Plasmalash Bolt''' is a craftable [[Hardmode]] [[spell tome]] that is an upgrade of both [[Thunder Bolt]] and [[Aero Bolt]]. It fires a fast-moving ball of flash-freezing magma that can be autofired. The projectile travels in a straight line, emits a bit of light, is unaffected by gravity, can pierce through 10 enemies but cannot pierce. It inflicts the [[Electrified]] [[debuff]] on hit [[enemies]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

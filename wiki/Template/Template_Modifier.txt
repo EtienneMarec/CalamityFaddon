@@ -1,0 +1,13 @@
+<includeonly><!--
+
+//localization info is autoloaded from Template:Modifier/l10n
+
+-->{{#or:<!--
+	-->{{l10n|modifier|{{{1}}}<!--
+		-->|$dps$={{DPS}}<!--
+		-->|$plural$={{{plural|}}}<!--
+	-->}}<!--
+-->|<!--
+	-->{{error|{{l10n|modifier|error}}}}}}<!--
+
+--></includeonly><noinclude>{{i18n-ready}}{{doc}}</noinclude>

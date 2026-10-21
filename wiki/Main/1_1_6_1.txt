@@ -1,0 +1,64 @@
+{{Patch infobox
+| image = The Devourer of Gods (1.1.6.1).png
+| patchname = Devourer of Gods Re-tiering
+| release = 11/29/2016
+}}
+
+The '''1.1.6.1''' update moved [[The Devourer of Gods]] from [[Hardmode]] boss to Godseeker Mode, along with making several other changes to account for the retiering. The update also resprited [[Calamitas]] and most of her related items.
+
+== Changes ==
+=== [[Bosses]] ===
+*[[Chaotic Ore]] now generates after defeating [[Calamitas]] instead of The Devourer of Gods.
+*Calamitas' Hellfireballs now speed up over time, and her lasers now split. 
+*The Devourer of Gods changes: 
+**Buffed health from {{dv|250,000|375,000}} to {{dv|500,000|750,000}}.
+**Buffed body's contact damage from {{dv|90|153}} to {{dv|120|156}}.
+**Nerfed tail's damage from {{expert|93}} to {{expert|71}}.
+**Buffed frost beam damage from {{dv|30|60}} to {{dv|80|160}}, its Nebula Laser damage from {{dv|58|64}} to {{dv|160|180}}, its lightning damage from {{dv|120|136}} to {{dv|300|320}}, its Nebula Piercer damage from {{dv|60|72}} to {{dv|180|200}}, and its alien goop damage from {{dv|70|84}} to {{dv|100|120}}.
+**Nerfed [[Stasis Probe]]'s health from {{expert|700}} to {{expert|500}}.
+**Nerfed [[Devourer Spawn]]'s health from {{dv|4500|6750}} to {{dv|2000|2400}}.
+**Decreased speed.
+**Decreased segment count from 152 to 122.
+**Now drops [[Super Healing Potion]]s instead of [[Greater Healing Potion]]s.
+**Can no longer naturally spawn. <!---Nebula Pillar, post-Moon Lord--->
+**Reduced Devourer Spawn's segment count from 12 to 7.
+**Stasis Probes are no longer guaranteed to inflict [[Frozen]] on contact in Normal Mode. <!---Still guaranteed in Expert--->
+*[[Perennial Ore]] now generates after defeating [[The Slime God]] instead of Calamitas.
+
+=== [[Items]] ===
+*[[Armored Shell]], [[Cosmic Worm]], [[Deathhail Staff]], [[Deathwind]], [[Eradicator]], [[Excelsus]], [[The Obliterator]], and [[Staff of the Mechworm]] now use the {{rare|10}} rarity instead of {{rare|6}}.
+*Cosmic Worm now requires 6 [[Ectoplasm]], 5 [[Luminite Bar]]s, 3 [[Soul of Light|Souls of Light]], 3 [[Soul of Might|Souls of Might]], and 3 [[Soul of Night|Souls of Night]] instead of 1 [[Mechanical Worm]], 5 [[Ashes of Calamity]], 3 Ectoplasm, 5 [[Hallowed Bar]]s, and 7 [[Iron Bar|Iron]] or [[Lead Bar]]s.
+*Cosmic Worm can now be used at any time of day instead of just at night. 
+*Buffed most of The Devourer of Gods' weapons:
+**Deathhail Staff changes:
+***Buffed damage from 52 to 162, its use time from 6 to 5, its use animation from 14 to 11, but increased its mana cost from 7 to 9.
+***Now shoots 3 lasers per use instead of 2, and increased the spread of its lasers.
+**Buffed Deathwind's damage from 65 to 145, its use time from 17 to 13, its knockback from 4 to 5, and its shot speed from 16 to 20.
+**Buffed Eradicator's damage from 65 to 170, nerfed its use time from 14 to 18, and nerfed its shot speed from 20 to 12.
+**Buffed Staff of the Mechworm's damage from 36 to 55.
+*Renamed most Calamitas-related items:
+**Renamed Calamity Dust to [[Ashes of Calamity]].
+**Renamed Calamitas' Inferno to [[Lashes of Chaos]].
+**Renamed Blighted Eye Staff to [[Entropy's Vigil]].
+**Renamed Blighted Eyeball to [[Eye of Desolation]].
+**Renamed Brimstone Flamesprayer to [[Havoc's Breath]].
+**Renamed The Eye of Calamitas to [[Oblivion]].
+**Renamed Calamity Ring to [[Void of Calamity]].
+*[[Nebulous Core]] changes:
+**Buffed magic damage boost from 10% to 10%, its mana cost reduction from 10% to 15%, and its magic critical strike chance boost from 10% to 15%. <!---10% to 10%?-->
+**Buffed star damage from 90 to 220, and their knockback from 2 to 3.
+*[[Void of Calamity]] now boosts damage by 15% and reduces damage reduction by 30% instead of altering both stats by 50%.
+
+=== Resprites ===
+*Resprited Calamitas, Cataclysm, Catastrophe, and The Devourer of Gods.
+*Resprited [[Abomination]] and Eye of Desolation.
+*Resprited [[Treasure Bag (Calamitas)]], and [[Treasure Bag (Jungle Dragon, Yharon)]].
+*Resprited Ashes of Calamity, [[Blighted Lens]], [[Core of Calamity]], [[Core of Chaos]], [[Core of Cinder]], and [[Core of Eleum]].
+*Resprited [[Crushsaw Crasher]], [[Elemental Disk]], Entropy's Vigil, Havoc's Breath, Lashes of Chaos, and Oblivion.
+*Resprited Void of Calamity.
+*Resprited Calamitas, Cataclysm, Catastrophe, [[Cryogen]], [[Desert Scourge]], The Devourer of Gods, [[Jungle Dragon, Yharon]], [[The Perforators]], and [[The Plaguebringer Goliath]]'s map icons.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

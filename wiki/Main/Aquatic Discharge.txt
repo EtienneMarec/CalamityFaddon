@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 23
+| use = 12
+| tooltip = Enemies release electric sparks on death<br/>Shortflurry attacks paralyze enemies
+| knockback = 5.5
+| auto = yes
+| stack = 1
+| rare = 2
+| sell = {{value|0|0|40}}
+| element1 = Water
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Desert Scourge]]|1| {{dv|25%|33.33%}}
+}}
+}}
+
+The '''Aquatic Discharge''' is a [[Pre-Hardmode]] [[shortsword]] that is dropped by the [[Desert Scourge]]. When swung, it emits harmless particles of electricity. Upon killing an enemy with it, it will release small electric sparks which linger on the ground for a short time, dealing damage to enemies that touch them.
+
+When the weapon's [[Shortstrike]] ability activates, enemies hit by it and its sparks are [[Electrified]] for 5 seconds.
+
+Like every [[shortsword]], it has an incredibly short range, but unlike most other vanilla shortswords, it has autoswing.
+
+{{modifier|melee}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]
+[[Category:True melee]]
+[[zh:水电剑]]

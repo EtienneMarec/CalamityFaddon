@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 230
+| auto = yes
+| use = 14
+| knockback = 3
+| tooltip = Throws a flurry of bouncing knives that can heal the user
+| velocity = 15
+| stack = 1
+| rare = 14
+| sell = {{value|0|28}}
+| hardmode = yes
+| postml = yes
+| proj = Empyrean Knife.png
+| projcaption = Empyrean Knife
+| element1 = Unholy
+| element2 = Stab
+}}
+
+The '''Empyrean Knives''' are a craftable Godseeker Mode [[melee]] weapon that are a direct upgrade to the [[Vampire Knives]]. When used, the player throws a spread of 4 to 8 homing knives, each dealing damage and [[Lifesteal|healing]] the player for 0.5% of the damage dealt. The knives can bounce off of walls twice and travel much farther than the Vampire Knives before spinning and fading away.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The amount of knives thrown per usage follows the [[tgc:Vampire Knives#Notes|same calculations]] as the Vampire Knives. As such, the average number of knives thrown per use is 4.94.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Daggers]]
+[[Category:Healing items]]

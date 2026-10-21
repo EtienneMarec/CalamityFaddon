@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 150
+| use = 37
+| knockback = 10
+| damagetype = Spy
+| rare = 9
+| tooltip = Fires a huge destructive mine that explodes into destruction bolts<br/>Amount of bolts scales with enemies hit, up to 16<br/>Stealth strikes always explode into the max amount of bolts
+| sell = {{value|0|19}}
+| velocity = 5
+| stack = 1
+| auto = yes
+| hardmode = yes
+| proj = Destruction Bolt.png
+| projcaption = Destruction Bolt
+| element1 = Dark
+| element2 = Slash
+}}
+
+The '''Star of Destruction''' is a craftable [[Hardmode]] [[Bombs|bomb]]. It automatically throws a gigantic gravity-ignoring mine. The mine moves slowly, travels through blocks, and explodes shortly after being thrown out. The mine explodes into homing bolts, with the amount of bolts equal to the amount of enemies hit up to a maximum of 16. If the mine hits a sixteenth target, it immediately explodes into 16 bolts.
+
+Performing a [[stealth strike]] with the Star of Destruction will cause the next mine thrown to always burst into 16 bolts regardless of the amount of enemies hit.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Meld}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Bombs]]

@@ -1,0 +1,73 @@
+<section begin="npc" infobox="" />{{npc infobox
+| name = Carcinogen
+| type = Boss
+| imagealt = [[File:Carcinogen.png]]
+| ai = Carcinogen AI
+| environment = Caverns
+| life = {{dv|100,000|125,000|175,600}}
+| damage = {{dv|200|320|440|460}} (Contact)<br/>{{dv|100|150|170|200}} (Cigarettes)
+| defense = 24
+| dr = 20
+| knockback = 200
+| money = {{gc|20}}
+| Plague Cell Canister|{{dv|4-8|5-9}}| 100%
+| Soul of Carcinogen|1|100%
+| Carcinogen Mask|1|14.29%
+| Carcinogen Trophy|1|10%
+| custom| {{item|Cryogen (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| debuff = Blackout
+| debufftip = Light vision severely reduced
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune4 = Exo Freeze
+| vulnerable1 = Magic
+| resistant1 = Fire
+| resistant2 = Unholy
+| resistant3 = Machine
+| hardmode = yes
+| boxwidth = 24em
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_15.wav
+| sound = Item_28.wav
+| soundtext = Projectiles
+}}<section end="npc" infobox="" />
+
+'''Carcinogen''' (Japanese: 発がん性物質 ''Hatsuganseibusshitsu'') is a [[Hardmode]] [[boss]] that is fought in the [[Caverns]], and part of the [[Elemental route]]. It is also fought during [[Genesis (event)|Genesis]].
+
+Defeating Carcinogen will drop the [[Soul of Carcinogen]], which must be sold to the [[Archmage]] to continue the quest.
+
+==Spawn==
+Carcinogen is summoned by destroying the background walls of the underground houses in the Caverns. Each tile has a 10% chance to spawn Carcinogen when destroyed. These chances are improved if [[Lead armor]] is equipped.
+
+==Behavior==
+Carcinogen's fight is unique as it takes place while the player is under the effects of Blackout the whole time. The player will also be unable to fly if they have [[Wings]] equipped, and will have the UseTime of their held items increased by 2.  
+
+===Attacks===
+====Phase 1====
+*Carcinogen's core hides somewhere and bellows out smoke using its shield. Its location must be found by relying on the hissing sounds it makes as well as the glow from the cigarettes. It sinks into the ground 2 seconds after being damaged, regardless of amount of damage dealt.
+
+====Phase 2====
+*Carcinogen follows the same movement from its first phase, however it also summons [[Possessed Armor]]s, [[Wraith]]s, and [[Ghost (enemy)|Ghosts]].
+
+====Phase 3====
+*Carcinogen distorts the screen with a wavy effect, similarly to the [[Odd Mushroom]] but in a greyscale effect. The player has to defeat the boss within 2 minutes before they are instantly killed. 
+
+===In [[Expert Mode]]===
+*The player is inflicted with [[Cursed]] if they come into contact with Carcinogen's smoke.
+
+===In [[Revengeance Mode]]===
+*Carcinogen and its minions are even more aggressive and faster.
+
+===In [[Death Mode]]===
+*Teleports less frequently.
+
+==Trivia ==
+*Carcinogen's [[Music|theme]] is '''Oncologic Reinforcement''', which was composed by the artist [https://www.youtube.com/@Jteoh Jteoh].
+*Carcinogen is actually a reference to "[[wikipedia:Cancer|Cancer]]" from "[[wikipedia:Life|Life]]".
+**This in turn is a reference to "[[wikipedia:Cancer_(song)|Cancer]]" which is a [[wikipedia:Song|song]] by "[[wikipedia:My_Chemical_Romance|My Chemical Romance]]"
+***This also is a reference to "[[wikipedia:Cancer|Cancer]]" from "[[wikipedia:Life|Life]]".
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

@@ -1,0 +1,45 @@
+{{addon|Catalyst}}
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 160
+| velocity = 8
+| knockback = 6
+| rare = 11
+| sell = {{value|0|32}}
+| stack = 1
+| use = 23
+| auto = yes
+| tooltip = Inundatio ex Gladii<br/>Spins a speared baton that summons spears from below the cursor<br/>Enemies hit with the baton are barraged with moldy blades and spears to assault the struck foe
+| hardmode = yes
+| postml = yes
+| debuff = Crush Depth
+| debuffduration = 5 seconds
+| debufftip = Aquatic pressure
+| debuffchance = 100%
+| element1 = Water
+| element2 = Dark
+| element3 = Poison
+| element4 = Stab
+}}
+
+The '''Tenebris Tides''' is a craftable Godseeker Mode [[melee weapon]]. When used, the weapon is held out and spins on top of the player at increasing speed. While spinning, a tenebris spear is summoned 100 blocks below the cursor every 20 frames (1 third of a second) which homes in on enemies. If the weapon itself hits an enemy, 3 spears are summoned from random directions which strike the hit enemy. This has no cooldown, and each spawned spear deals 33% of the weapon's damage.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*'Inundatio ex Gladii' is Latin, and roughly translates to "Flood of Swords".
+
+{{-}}
+{{PureLuminite}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}

@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = Taking damage, or inflicting a true melee strike, drops an immense amount of blight stars from the sky<br/>Taking damage boosts true melee damage by 50%<br/>Boost duration is based on the amount of damage you took, the higher the damage the longer the boost<br/>Provides immunity to the astral infection, the astral blight, cursed inferno, on fire, and frostburn debuffs<br/>Enemies take damage when they hit you and are inflicted with the astral blight debuff
+| stack = 1
+| debuff = Ancient Astral Blight
+| debuffchance = 100%
+| debuffduration = 2 seconds (Astral Blight stars)<br/>5 seconds (Explosion)
+| debufftip = An ancient cosmic affliction spreads through you
+| sell = {{value|0|16}}
+| hardmode = yes
+| rare = 9
+| proj = Blight Star.png
+| projcaption = Astral Blight Star
+}}
+|{{item drops infobox
+| [[Astrum Deus]]|1|100%
+}}
+}}
+
+The '''Hide of Astrum Deus''' is a [[Hardmode]] [[covering]] that drops from [[Astrum Deus]]. The wearer creates an astral blight explosion and twelve blight stars rain from the sky that damage nearby enemies upon being struck or dealing a [[true melee]] hit. True melee damage is boosted by 50% for up to fifteen seconds after being struck by an enemy. The Hide of Astrum Deus also provides immunity to [[Astral Infection (debuff)|Astral Infection]], [[Ancient Astral Blight]], [[Cursed Inferno]], [[On Fire!]], and the [[Frostburn]] [[debuffs]]. Any enemy that hits you will take 75% of the damage they dealt.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*This covering synergizes well with the [[Blood Pact]], as getting struck by a critical hit makes the true melee boost longer.
+
+== Trivia ==
+*This covering is a reference to the [https://borderlands.fandom.com/wiki/Hide_of_Terramorphous Hide of Terramorphous] shield from ''[[wikipedia:Borderlands 2|Borderlands 2]]''.
+*It was formerly the [[rare variant]] of the [[Astral Bulwark]].
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

@@ -1,0 +1,38 @@
+{{item infobox
+| type = Furniture
+| type2 = Light Source
+| placeable = yes
+| consumable = yes
+| auto = yes
+| width = 1
+| height = 1
+| use = 14
+| rare = 0
+| stack = 9999
+| color = #EE9169
+| sell = {{value|0|0|1}}
+| buff = Chaos Candle (buff)| bufflink = no
+| buffchance = 100% (When nearby)
+| bufftip = Spawn rates around this candle are boosted!
+| duration = Infinite (while in vicinity)
+| tooltip = The mere presence of this candle enrages surrounding enemies drastically
+| hardmode = yes
+}}
+
+The '''Chaos Candle''' is a craftable [[Hardmode]] piece of [[furniture]] that will emit light and grant the Chaos Candle [[buff]], which boosts all spawn rates by 66.67% and maximum spawn count by 150%.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The Chaos Candle is the direct opposite of the [[Tranquility Candle]], which drastically ''decreases'' spawn rates.
+*Similar to the [[Water Candle]], the player can receive the effects of the candle while holding it.
+*The Chaos Candle and its counterpart were implemented based on a community suggestion made by Celest on the mod's Discord server.
+*It is possible to stack spawn rate increases with other sources, such as the [[Water Candle]], [[Battle Potion]] or [[Zerg Potion]].
+**This can be used to farm more efficiently for rare drops.
+
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

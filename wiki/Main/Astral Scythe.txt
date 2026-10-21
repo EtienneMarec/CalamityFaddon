@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 120
+| knockback = 6
+| crit = 4%
+| tooltip = Shoots a scythe ring that accelerates over time
+| debuff = Astral Infection (debuff)
+| debufftip = Your flesh is melting off
+| debuffchance= 100%
+| debuffduration = 5 seconds (Contact)<br/>4 seconds (Scythe)
+| rare = 7
+| sell = {{value|0|12}}
+| stack = 1
+| auto = yes
+| use = 19
+| velocity = 5
+| hardmode = yes
+| proj = Astral Scythe Ring.gif
+| projcaption = Astral Scythe Ring
+| element1 = Magic
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[Mantis]] (After [[Astrum Aureus]] has been defeated)|1| 14.29%
+}}
+}}
+
+The '''Astral Scythe''' is a [[Hardmode]] [[broadsword]] that is dropped from [[Mantis]]es after defeating [[Astrum Aureus]]. When swung, it will fire out a spinning ring projectile much like the ones fired by Mantises, which deals 60% of the scythe's base damage, can pierce up to seven targets, and disappears upon tile contact. It will also form a cosmetic dust explosion when the projectile is destroyed.
+
+{{modifier|melee}}
+
+== Notes ==
+*This weapon can also be obtained from the [[Astral Crate]] after Astrum Aureus has been defeated.
+
+== Trivia ==
+*The projectile created resembles those created by the Mantis Lords boss and the Mantis Petra enemy in the game [[wikipedia:Hollow Knight|''Hollow Knight'']].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:星幻镰刀]]

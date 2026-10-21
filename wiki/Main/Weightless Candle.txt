@@ -1,0 +1,36 @@
+{{historical content}}{{npc infobox|type=NPC|environment=prison|ai=pretty bad ngl have you seen the boss fights|life=20,000|defense=15|knockback=50|image2=Drunk Princess map.png|image2caption=Map Icon|hurt=NPC_Hit_1.wav|killed=NPC_Killed_6.wav|listexclude=yes}}{{item infobox
+| type = Furniture
+| type2 = Light Source
+| placeable = yes
+| consumable = yes
+| auto = yes
+| width = 1
+| height = 2
+| use = 14
+| rare = 6
+| stack = 9999
+| color = #EE9169
+| sell = {{value|0|10}}
+| buy = {{value|0|50}}
+| buff = Limber| bufflink = no
+| bufftip = The floating flame seems to uplift your very spirit
+| duration = Infinite (while in vicinity)
+| tooltip = When placed, nearby players gain 10% movement speed, 10% wing time, and 5% acceleration<br/>'The floating flame seems to uplift your very spirit'
+| hardmode = yes
+}}
+
+The '''Weightless Candle''' is a [[Hardmode]] piece of [[furniture]] that is purchased from the [[Drunk Princess]] for {{gc|50}}. The candle emits light and grants the '''Limber''' [[buff]] to all players within a 120x86 rectangular area, which boosts boost movement speed by 10%, flight time by 10% and movement acceleration by 5%.
+
+== Notes ==
+*Since a player is 2 tiles wide and just under 3 tiles tall and the candle buffs a 120x86 area, covering a large area with no gaps can be done by placing candles every 243 blocks horizontally and 176 blocks vertically.
+**Covering the entire accessible area of a large map with the candle's buff would require 385 candles, costing {{value|192|50}}.
+***For medium worlds, it would take 260 candles, costing {{pc|130}}. For small worlds, it would take 119 candles, costing {{value|59|50}}.
+***Covering just a single horizontal stretch (for instance, on a skybridge) would take 35 candles on a large world, 26 on a medium world, and 17 on a small world.
+*Unlike the [[Water Candle|Water]] and [[Peace Candle]]s, it cannot be held by the player and is required to be placed down in order to receive its effects.
+*Like all items sold by the [[Drunk Princess]], a [[Discount Card]] or other similar items will not reduce the candle's price.
+*A placed candle will be dropped if it comes in contact with lava (but not water or honey).
+{{-}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

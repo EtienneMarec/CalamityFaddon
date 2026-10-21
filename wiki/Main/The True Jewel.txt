@@ -1,0 +1,90 @@
+{{Npc infobox|name=The True Jewel|type=NPC|life=2000|defense=2000|ai=Passive AI|knockback=20}}{{Addon|Calamity: Tales of the Aquatic}}{{NPC}}
+{{Historical content}}
+'''The True Jewel''' is a Godseeker Mode [[NPC]] vendor that will spawn right after the [[Abyssal Jewel]] is defeated. 
+
+When threatened by [[enemies]], he will defend himself with [[Cutter's Gift]].
+
+==Items sold==
+{{inventory
+|Lantern Shard|{{gc|20}}|
+|Esseric Bar|{{gc|20}}|
+|Laceline|{{gc|2}}|
+|Jewel Core|{{gc|50}}|
+|Rainlight|{{pc|1}}|
+|Jewel Necklace|{{pc|2}}|19=Jewel Ring|20={{pc|2}}}}
+
+==Names ==
+
+*The True Jewel will always be named Aquelt.
+
+==Quotes==
+'''While homeless:'''
+
+*"Do you have a home I could live in?"
+*"Im fine with not having a roof, but I still need walls."
+*"Watching the night sky while being in the middle of nowhere is quite... calming."
+*"I would like some walls, near some water."
+
+
+'''Anytime:''' 
+
+*"My sword? It's a gift from my brother, I don't sell it."
+*"Ever heard of some big underwater Wyrms?"
+*"I always wanted to be flying in the skies when I was a kid."
+*"If youre stuck in the overwater water or how is it named, Laceline can be used for energy."
+*"I heard someone called my home "Sky Abyss". Why does everyone call it Abyss?"
+*"They buried me in the sea, and for some reason parts of said sea ascended into the skies..."
+*"Im glad my home had no mirrors, people say I look weird."
+*"Laceline is not for eating, eat Weaver Lac instead."
+*"Lacelic Ghosts? Theyre definetly not from the water."
+*"How are sharks flying if they don't have wings?"
+*"Controlling a bunch of expensive things was fun, but I'm no longer ghost."
+*"Being a ghost was quite... calming."
+*"My brother? I dont know where he is or what he's up to."
+
+'''Specific Conditions'''
+
+* "I got hit by a slime and it hurts, I miss being a powerful ghost..." '''(When has less than 40% hp)'''
+*"Have you seen my lantern? I can't seem find it." '''(If [[The Forbidden Lantern]] hasn't been defeated )'''
+* "I should go to <name of Stylist> the Stylist for a hairdo." '''(When a [[Stylist]] Is in the world)'''
+* "The sword? He gave it to you too?" '''(If the player has the [[Cutter's Gift]] in their invertory)'''
+*"It's very cold out there, I could use Laceline for energy." '''(During a frost moon)'''
+*"Oh, you have some jewelery! Wait, I think it's possessed by a ghost." '''(When player has [[Expensive Jewelery]] in their inventory)'''
+* "I feel my lantern, it's somewhere here." '''(When in [[Sunken Sea]])'''
+* "Yes, this is the place they buried me in." '''(When in the [[Abyss]])'''
+*"The water here is frozen." '''(When in the tundra)'''
+
+'''Happiness:'''
+*"I REALLY don't like it here. There's barely any water." '''(When in the Desert)'''
+* "HELL?! YOU WANT ME TO DRY OUT?!" '''(When in the Underworld)'''
+*"Why is this part of hell frozen? That aside, all the water here is frozen."  '''(When in [[Frozen Hell]])'''
+* "I like it here, there's lots of water and it reminds me of my latern." '''(When in the [[Sunken Sea]])'''
+*"The sky, and the water, calming..." '''(When in the [[Sky Abyss]])'''
+*"Everything is blue but it's not water. I also can't see anything when all the mushrooms are having a light show." '''(When in a Mushroom biome)'''
+*"The ocean is a classic when it comes to water." '''(When in the [[Ocean]])'''
+*"The water keeps freezing here and I don't like that." '''(When in the Snow biome)'''
+*"I can't go anywhere without hearing my neighbors, and it's getting annoying." '''(When overcrowded)'''     
+*"There's quite a lot of neighbors, and they're too loud."
+*"Not having noisy neighbors makes me calm." '''(When in a sparse area)'''   
+*"Amidias is kind of weird, but his liking of water is something I appreciate." '''(When near the [[Sea King]])'''
+*"I dont like Permafrost, he keeps freezing my water!" '''(When happiness is [[Archmage]])'''
+*"Your questions are annoying me." '''(When talking to much)'''       
+
+==Notes==
+
+*When [[Abyssal Jewel]] spawns, The True Jewel will die.
+*If you use [[The True Lantern]] near him, He will half all the prices.
+*The True Jewel's favorite biomes are [[Sky Abyss]] and [[Sunken Sea]], His least favourite biomes are Desert and Underworld.
+
+==Trivia ==
+* The True Jewel is internally referred to as "PHOS".
+* The True Jewel has a brother, The ancient Cutter.
+* The True Jewel likes when it's calm.
+* Despite him saying that [[Weaver Lac]] is edible, it is not ingame.
+* He is a human version of Abyssal Jewel boss.
+* When the Abyssal Jewel spawns, A different death message will appear saying "Aquelt, The True Jewel didn't feel so good".
+
+{{Master Template Characters
+| show-main = yes
+| show-npc = yes
+}}

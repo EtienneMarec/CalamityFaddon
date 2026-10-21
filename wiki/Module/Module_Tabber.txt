@@ -1,0 +1,41 @@
+local p = {}
+local getArgs = require( 'Module:Arguments' ).getArgs
+
+-- Implements Template:Tabber.
+function p.main(frame)
+  local args = getArgs(frame, {
+    wrappers = {
+      'Template:Tabber'
+    }
+  })
+  return p._main( args )
+end
+
+function p._main( args )
+  local current_page = args['this'] or mw.title.getCurrentTitle().prefixedText
+
+  local rows = {}
+  for n=1,15 do
+    if args['link' .. n] then
+      -- Use the link as the name if none is given.
+      local name = args['name' .. n] or args['link' .. n]
+      if args['link' .. n] == current_page then
+        -- The active tab.
+        table.insert( rows, string.format( '<div class="page-tabber-tab active-tab">%s</div>', name ) )
+      else
+        -- The inactive tabs.
+        local link = string.format( '[[%s|%s]]', args['link' .. n], name )
+        table.insert( rows, string.format( '<div class="page-tabber-tab inactive-tab">%s</div>', link ) )
+      end
+    end
+  end
+  
+  -- The separator is used for the space between two tabs.
+  local separator = '\n<div class="page-tabber-separator">&nbsp;</div>\n'
+  -- The tail fills the space between the last tab and the end of the line.
+  local tail = '<div class="page-tabber-separator tail">&nbsp;</div>'
+  
+  return string.format( '<div id="pageTabber" class="page-tabber">\n%s\n%s\n</div>', table.concat( rows, separator ), tail )
+end
+
+return p

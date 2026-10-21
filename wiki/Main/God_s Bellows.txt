@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| damagetype = ranged
+| damage = 80
+| knockback = 3.5
+| rare = 9
+| sell = {{value|0|19}}
+| stack = 1
+| auto = yes
+| use = 18
+| velocity = 9
+| tooltip = 70% chance to not consume gel
+| hardmode = yes
+| image2 = God's Bellows (tank).png
+| image2caption = Equipped tank
+| element1 = Dark
+| element2 = Fire
+}}
+
+'''God's Bellows''' is a craftable [[Hardmode]] [[flamethrowers|flamethrower]] that uses [[gel]] as [[ammunition]]. It shoots a stream of green and purple flames at a long range that pierce indefinitely but do not travel through solid blocks.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This item was previously known as "The Empyrean".
+{{-}}
+{{Meld}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Flamethrowers]]

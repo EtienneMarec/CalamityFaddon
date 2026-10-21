@@ -1,0 +1,53 @@
+{{npc infobox
+| type = Flying Enemy
+| environment = Floating Island
+| environment2 = Rain
+| ai = Aether Valkyrie AI
+| damage = {{dv|38|76}} (Contact)<br/>{{dv|80|100}}
+| life = {{dv|10,000|15,000}}
+| defense = 18
+| dr = 5%
+| knockback = {{dv|95%|95.5%}}
+| debuff = Electrified
+| debufftip = You cannot move
+| debuffchance = 100%
+| duration = 3 seconds
+| immune1 = Poisoned
+| immune2 = Frostburn
+| immune3 = Electrified
+| immune4 = Confused
+| vulnerable1 = Magic
+| vulnerable2 = Cold
+| vulnerable3 = Unholy
+| resistant1 = Fire
+| resistant2 = Water
+| resistant3 = Holy
+| resistant4 = Wind
+| resistant5 = Electricity
+| money = {{value|0|1|50}}
+| Aerialite Ore|45-60|100%
+| Storm Saber|1|20%
+| Eye of the Storm|1|{{dv|25%|33.33%}}
+| hardmode = no
+| banner = yes
+| hurt = NPC_Hit_23.wav
+| killed = NPC_Killed_39.wav
+| sound = Item_60.wav
+| soundtext = Tornado
+}}
+
+The '''Aether Valkyrie''' is a [[Pre-Hardmode]] [[mini boss]] that can be summoned using the [[Torrential Tear]] starting at around the height [[Floating Island]]s are found. She moves freely albeit slowly through the air and through tiles, advancing towards the player while occasionally stopping to attack. When attacking, she casts three tornadoes near the player, similarly to the [[Sand Elemental]], which linger for around six seconds.
+
+== Trivia ==
+*She resembles a [[wikipedia:Valkyrie|valkyrie]] due to her armor with wing motifs, as well as being a female warrior relating to the sky.
+*She is referred to in the mod's files as "ThiccWaifu."
+*In previous versions of the mod, the Aether Valkyrie was buffed after defeating [[Providence, the Profaned Goddess]]. She had a small chance to drop the [[Thunderstorm]], which has now been moved to [[Storm Weaver]]'s drops.
+*She gets buffed after defeating Moon lord, getting a 37% speed boost and 24% increased attack speed.
+*In the Japanese translation, the name is "エーテルヴァルキリー ''Ēteruvu~arukirī"''
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}
+
+[[zh:雨云元素]]

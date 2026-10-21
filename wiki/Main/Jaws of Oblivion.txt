@@ -1,0 +1,55 @@
+{{item infobox
+| type = Weapon
+| damage = 159
+| damagetype = Rogue
+| rare = 13
+| stack = 1
+| sell = {{value|0|26}}
+| knockback = 1
+| use = 14
+| auto = yes
+| hardmode = yes
+| postml = yes
+| tooltip = Throws a tight spread of six venomous reaper fangs that stick in enemies<br/>Stealth strikes cause the teeth to emit a crushing shockwave on impact<br/>You're gonna need a bigger boat
+| velocity = 25
+| debuff = Venom
+| debuffchance = 100%
+| debuffduration = 2 seconds (Teeth)
+| debuff2 = Marked
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds (Teeth)
+| debuff3 = Armor Crunch
+| debuffchance3 = 100%
+| debuffduration3 = 2 seconds (Teeth)
+| debuff4 = Crush Depth
+| debuffchance4 = 100%
+| debuffduration4 = 4 seconds (Shockwave)<br/>2 seconds (Stealth Strike Teeth)
+| proj = Jaw of Oblivion.png
+| projcaption = Jaw of Oblivion
+| element1 = Dark
+| element2 = Water
+| element3 = Stab
+}}
+
+The '''Jaws of Oblivion''' are a craftable Godseeker Mode non-consumable [[dagger]] that is a direct upgrade to the [[Leviathan Teeth]]. When used, it rapidly throws a tight spread of six gravity-ignoring reaper teeth that stick to enemies and inflict the [[Venom]], [[Marked]], and [[Armor Crunch]] [[debuff]] for 3 seconds. Up to 6 teeth can be stuck on an enemy at once, and the damage over time inflicted by the debuff stacks accordingly, up to 72 damage per second.
+
+Performing a [[stealth strike]] with the Jaws of Oblivion will cause the next set of teeth to create a large shockwave on enemy hits, which inflicts the [[Crush Depth]] debuff for 4 seconds.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The quote in the tooltip is a reference to a famous quote from the film ''[[wikipedia:Jaws_(film)|Jaws]]''.
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Daggers]]

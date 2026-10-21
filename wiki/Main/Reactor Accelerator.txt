@@ -1,0 +1,35 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox	
+| type = Weapon
+| damage = 1400
+| damagetype = Ranged
+| knockback = 20
+| stack = 1
+| rare = C3
+| sell = {{value|1}}
+| auto = yes
+| use = 12
+| velocity = 50
+| tooltip = Fires a Waterfreezing arrow and 3 stones that circle the shot arrow, the Waterfreezing arrow leaves a Reactive Explosion on collision, The stones ricochet of blocks and enemies.
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Reactive Flames
+| debuffduration = 4 seconds
+| debuffchance = 100%
+| element1 = Cold
+| element2 = Water
+| element3 = Dark
+}}
+{{Item drops infobox
+| [[Reactive Guardian, Sodis]] | 1 |25%
+}}
+
+The '''Reactor Accelerator''' is an Epilogue [[Bows|bow]] that drops from [[Reactive Guardian, Sodis|Sodis]]. It shoots a cyan Waterfreezing arrow from the centre that circles the normal arrow and leaves a Reactive Explosion when touches anything. And from the sides it shoots 2 stones that orbit the waterfreezing arrow and ricochet on collision.
+
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category: Bows]]

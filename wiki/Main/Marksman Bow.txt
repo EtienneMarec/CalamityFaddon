@@ -1,0 +1,34 @@
+{{dedicated|Hyena|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 30
+| knockback = 6
+| critical = 24%
+| rare = 8
+| sell = {{value|0|16}}
+| stack = 1
+| use = 18
+| auto = yes
+| tooltip = Fires three arrows at once<br/>Wooden arrows are converted into Marksman Arrows that can ricochet off coins
+| velocity = 10
+| hardmode = yes
+| proj = Marksman Arrow.png
+| projcaption = Marksman Arrow
+| element1 = Magic
+}}
+
+The '''Marksman Bow''' is a craftable [[Hardmode]] [[bow]]. When fired, it semi-inaccurately fires three arrows at a time, each with a varying velocity. It additionally converts normal [[Wooden Arrow]]s into unique Marksman Arrows. Fired Marksman Arrows are able to be bounced off the [[Midas Prime]]'s coins to automatically aim them and greatly increase their damage and velocity.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

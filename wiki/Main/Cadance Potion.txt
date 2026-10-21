@@ -1,0 +1,32 @@
+{{item infobox
+| type = Potion
+| stack = 9999
+| rare = 4
+| use = 17
+| tooltip = Gives the cadance buff which reduces spawn rates<br/>Increases life regen and increases max life by 25%<br/>Increases heart pickup range<br/>While this potion's buff is active, Regeneration Potion and Lifeforce Potion buffs are disabled
+| consumable = true
+| buff = Cadance | bufflink = no
+| duration = 8 minutes
+| bufftip = Your heart is pure
+| sell = {{value|0|0|40}}
+}}
+
+The '''Cadance Potion''' is a craftable [[Pre-Hardmode]] [[Buff Potions|buff potion]]. It grants the '''Cadance''' [[buff]] upon usage, which increases life regen by 5 and max life by 25%, and increases heart pickup range. Enemy spawn rates are decreased by 56%, and maximum spawn count is decreased by 44%. The player also becomes immune to the [[Regeneration]] and [[Lifeforce]] buffs.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This potion can only be crafted at an [[Alchemy Table]].
+*Despite mentioning [[aggro]] in its tooltip, it actually reduces enemy spawnrates instead. This oddity is shared with the [[Calming Potion]].
+*The reduced enemy spawn rates do not stack with [[Calming Potion]], [[Tarragon armor]] set bonus, or [[Auric Tesla armor]] set bonus.
+
+== Trivia ==
+*This item's name is a reference to the character ''Princess Cadance'' from the TV series ''[[wikipedia:My Little Pony: Friendship Is Magic|My Little Pony: Friendship Is Magic]]''.
+*This item was formerly known as "Cad'''e'''nce Potion".
+
+{{Master Template Consumables
+| show-main = yes
+| show-buff = yes
+}}

@@ -1,0 +1,31 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| damage = 16
+| damagetype = summon
+| use = 16
+| tooltip = Boosts minion damage by 10% on enemy hits
+| knockback = 4
+| rare = 1
+| stack = 1
+| sell = {{value|0|0|40}}
+| debuff = War Cleave
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| element1 = Slash
+}}
+|{{item drops infobox
+| [[Goblin Peon]]| 1 | {{dv|2.5%|5%}}
+}}
+}}
+The '''Warbell''' is a [[Pre-Hardmode]] [[summon weapon]] dropped by [[Goblin Peon]]s. It works similarly to a [[broadsword]], being swung in order to hit enemies that collide with the weapon. Upon striking an enemy, a bell sound effect plays and minions gain a 10% damage boost for 5 seconds as well as the target getting inflicted with the [[War Cleave]] debuff for 5 seconds.
+
+{{Modifier|melee}}
+
+{{-}}
+{{War}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon= yes
+}}

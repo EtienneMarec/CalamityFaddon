@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| rare = 8
+| sell = {{value|0|16}}
+| damage = 50
+| velocity = 6
+| use = 24
+| knockback = 4
+| mana = 10
+| tooltip = Casts an energy ray that splits into energy on enemies hits<br/>More energy is created the farther along the ray the enemy hit is
+| auto = yes
+| stack = 1
+| hardmode = yes
+| element1 = Poison
+| element2 = Stab
+}}
+
+The '''Terra Ray''' is a craftable [[Hardmode]] [[wand]]. It shoots a straight green laser beam, similar to its predecessor [[Valkyrie Ray]]'s beam, which lingers long enough to hit enemies 4 times before disappearing. When the laser hits an enemy, it spawns homing energy bolt projectiles. The amount of bolts it creates depends on the enemy's distance from the player when hit: If the hit enemy is close to the player, it only creates 1 energy bolt per hit, but it can create up to 3 bolts per hit if the enemy is far away.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Terra}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

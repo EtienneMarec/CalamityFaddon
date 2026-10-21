@@ -1,0 +1,380 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|Starf|_|VicS1|_|DemoO|_|CrimO|_|_|_|_|_|Obsi2|_|Hell2|_|_|_|_|_|#
+|_|_|_|_|_|      _|      _|      _|      _|_|_|_|_|      _|      _|_|_|_|_|#
+|_|_|_|_|_|_|`|-|-|-|(|_|_|_|I|_|_|_|I|_|_|_|_|_|_|_|`|-|-|-|(|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|I|_|_|PHFRG|_|PHFRG|_|_|_|_|_|_|_|_|_|HEFRG|_|_|_|_|_|#
+|_|Coral|_|Seash|_|_|I|_|_|DemoB|_|CrimB|_|JungS|_|Sting|_|HelB2|_|_|_|_|_|#
+|_|      _|     |_|_|I|_|_|      _|      _|      _|      _|      _|_|_|_|_|#
+|_|_|I|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|I|_|_|_|`|-|-|-|(|_|_|_|I|_|_|_|_|_|_|#
+|_|_|`|-|-|-|^|-|-|-|(|_|F|~|$|~|~|~|$|~|7|_|_|_|_|_|I|_|_|_|I|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|PHFRG|:|PHANV|_|PHANV|:|_|_|_|_|PHANV|_|PHANV|_|_|_|_|_|#
+|_|_|_|_|_|SharF|_|VicBr|:|LighB|±|BlooB|:|Muram|_|BladG|_|FieGS|_|_|_|_|_|#
+|_|_|_|_|_|     |_|     |:|              :|      _|      _|      _|_|_|_|_|#
+|_|_|_|_|_|_|`|-|-|-|(|_|L|~|~|~|y|~|~|~|J|_|I|_|_|_|I|_|_|_|I|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|)|-|-|-|-|-|^|-|-|-|^|-|-|-|'|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|I|_|F|~|~|~|h|~|~|~|7|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|I|_|:|Altar|_|Altar|:|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|AdaOr|_|TitOr|_|_|I|_|:|NighE|±|BlooE|:|BroHS|_|HallO|_|_|_|_|_|_|_|_|_|#
+|_|      _|      _|_|I|_|:|              :|      _|      _|_|_|_|_|_|_|_|_|#
+|_|_|I|_|_|_|I|_|_|_|I|_|L|~|y|~|~|~|y|~|J|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|_|I|_|_|_|I|_|_|_|I|_|_|_|)|-|-|-|+|-|-|-|'|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|F|~|$|~|~|~|$|~|7|_|I|_|F|~|$|~|~|~|$|~|7|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|:|HMFRG|_|HMFRG|:|_|I|_|:|HMANV|_|HMANV|:|_|_|_|_|HMFRG|_|_|_|_|_|_|_|_|_|#
+|:|AdaBr|±|TitBr|:|_|I|_|:|TruNE|±|TruBE|:|_|_|_|_|HallB|_|_|_|_|_|_|_|_|_|#
+|:|              :|_|I|_|:|              :|_|_|_|_|      _|_|_|_|_|_|_|_|_|#
+|L|~|~|~|y|~|~|~|J|_|I|_|L|~|~|~|y|~|~|~|J|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|`|-|-|-|-|-|(|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|I|_|_|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|_|_|_|#
+|_|Obsi1|_|Hell1|_|_|I|_|_|DeptC|I|_|_|_|_|BroHS|_|Excal|_|_|_|_|_|_|_|_|_|#
+|_|      _|      _|_|I|_|_|      I|_|_|_|_|      _|      _|_|_|_|_|_|_|_|_|#
+|_|_|`|-|-|-|(|_|_|_|)|-|-|-|'|_|I|_|_|_|_|_|)|-|-|-|'|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|HEFRG|_|_|I|_|_|_|_|_|I|_|_|_|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|PereO|_|HelB1|_|_|I|_|_|Lumen|I|LiviS|_|TruEx|_|PriSh|_|CryoO|_|_|_|_|_|#
+|_|      _|      _|_|I|_|_|      I|      _|      _|      _|      _|_|_|_|_|#
+|_|_|I|_|_|_|I|_|_|_|)|-|-|-|'|_|)|-|^|-|-|-|'|_|_|_|I|_|_|_|I|_|_|_|_|_|_|#
+|_|HMFRG|_|PHANV|_|_|I|_|_|_|_|_|I|_|_|_|_|_|_|_|_|PHANV|_|HMFRG|_|_|_|_|_|#
+|_|PereB|_|FieGS|_|_|I|_|_|Teneb|I|_|_|_|_|UeliO|_|SeaPr|_|CryoB|_|Ecto1|_|#
+|_|      _|      _|_|I|_|_|      I|_|_|_|_|      _|      _|      _|      _|#
+|_|_|`|-|-|-|(|_|_|_|)|-|-|-|'|_|I|_|_|_|_|_|I|_|_|_|)|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|_|I|_|_|_|I|_|F|~|~|~|h|~|~|~|7|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|HMANV|_|HMANV|:|HMANV|_|HMANV|:|HMFRG|_|ICEMA|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|Hellk|_|FlooT|:|TerrB|±|TerrE|:|UeliB|_|TemFS|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|      _|      :|              :|      _|      _|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|I|_|_|_|I|_|L|~|~|~|y|~|~|~|J|_|I|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|`|-|-|-|^|-|-|-|-|-|+|-|-|-|-|-|^|-|-|-|'|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|TerTM|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|:|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|Exobl|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+<!-- •• CRAFTING MATERIALS •• -->
+|x_cols = 3
+|x_rows = 2
+|x = {{item|x}} × 5
+<!-- ••• Terratomere ••• -->
+
+|TerTM_cols = 3
+|TerTM_rows = 2
+|TerTM = {{item|Terratomere|size=36px}}
+
+|Exobl_cols = 3
+|Exobl_rows = 2
+|Exobl = ''[[Exoblade/Crafting tree|Exoblade<br/>crafting tree]]''
+
+<!-- •••• Terra Blade / Terra Edge •••• -->
+
+|TerrB_cols = 3
+|TerrB_rows = 2
+|TerrB = {{item|Terra Blade|size=36px}}
+
+|TerrE_cols = 3
+|TerrE_rows = 2
+|TerrE = {{item|Terra Edge|size=36px}}
+
+|CrimO_cols = 3
+|CrimO_rows = 2
+|CrimO = {{item|Crimtane Ore}} × 30<br/>
+( {{item|mode=image|image=Map Icon Eye of Cthulhu (second form).png|Eye of Cthulhu|size=20px}} {{item|mode=image|image=Map Icon Brain of Cthulhu.png|Brain of Cthulhu|size=20px}} )
+
+|DemoO_cols = 3
+|DemoO_rows = 2
+|DemoO = {{item|Demonite Ore}} × 30<br/>
+( {{item|mode=image|image=Map Icon Eye of Cthulhu (second form).png|Eye of Cthulhu|size=20px}} {{item|mode=image|image=Map Icon Eater of Worlds.png|Eater of Worlds|size=20px}} )
+
+|CrimB_cols = 3
+|CrimB_rows = 2
+|CrimB = {{item|Crimtane Bar}} × 10<br/>
+( {{item|mode=image|image=Perforator Hive map.png|The Perforators|size=20px}} )
+
+|DemoB_cols = 3
+|DemoB_rows = 2
+|DemoB = {{item|Demonite Bar}} × 10<br/>
+( {{item|mode=image|image=Hive Mind map.png|Hive Mind|size=24px}} )
+
+|Obsi2_cols = 3
+|Obsi2_rows = 2
+|Obsi2 = {{item|Obsidian}} × 20<br/>
+( {{item|mode=image|Water|size=12px}} + {{item|mode=image|Lava|size=12px}} )
+
+|Hell2_cols = 3
+|Hell2_rows = 2
+|Hell2 = {{item|Hellstone}} × 60<br/>
+<div style="font-size: 0.75em">( [[Underworld]] )</div>
+
+|HallB_cols = 3
+|HallB_rows = 2
+|HallB = {{item|Hallowed Bar}} × 12<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|The Twins||size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} {{item|mode=image|image=Map Icon The Destroyer.png|The Destroyer|size=20px}} {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+|HallO_cols = 3
+|HallO_rows = 2
+|HallO = {{item|Hallowed Ore}} × 48<br/>
+<span style="font-size:0.75em">( [[Underground Hallow]] )</span>
+
+|BroHS_cols = 3
+|BroHS_rows = 2
+|BroHS = {{item|Broken Hero Sword|size=26px}}<br/>
+( {{item|mode=image|Mothron|size=30px}} {{item|mode=image|image=Calamitas map.png|size=24px}})
+
+| JungS_cols = 3
+| JungS_rows = 2
+| JungS = {{item|Jungle Spores}} × 12<br/>
+<span style="font-size:0.75em">( [[Underground Jungle]] )</span>
+
+| Sting_cols = 3
+| Sting_rows = 2
+| Sting = {{item|Stinger}} × 12<br/>
+<span style="font-size:0.75em">( {{item|mode=image|Hornet|size=22px}} {{item|mode=image|Spiked Jungle Slime|size=26px}} {{item|mode=image|Plague Charger|size=22px}} {{item|mode=image|Plaguebringer|size=18px}} {{item|mode=image|image=Plaguebringer Goliath map.png|The Plaguebringer Goliath|size=18px}} )</span>
+
+|HelB2_cols = 3
+|HelB2_rows = 2
+|HelB2 = {{item|Hellstone Bar}} × 20
+
+|TruNE_cols = 3
+|TruNE_rows = 2
+|TruNE = {{item|True Night's Edge|size=36px}}
+
+|TruBE_cols = 3
+|TruBE_rows = 2
+|TruBE = {{item|True Bloody Edge|size=36px}}
+
+|NighE_cols = 3
+|NighE_rows = 2
+|NighE = {{item|Night's Edge|size=36px}}
+
+|BlooE_cols = 3
+|BlooE_rows = 2
+|BlooE = {{item|Bloody Edge|size=36px}}
+
+|LighB_cols = 3
+|LighB_rows = 2
+|LighB = {{item|Light's Bane|size=36px}}
+
+|BlooB_cols = 3
+|BlooB_rows = 2
+|BlooB = {{item|Blood Butcherer|size=36px}}
+
+|Muram_cols = 3
+|Muram_rows = 2
+|Muram = {{item|Muramasa|size=36px}}<br/>
+( {{item|mode=image|Locked Gold Chest|size=24px}} {{item|mode=image|Golden Lock Box|size=24px}} )
+
+|BladG_cols = 3
+|BladG_rows = 2
+|BladG = {{item|Blade of Grass|size=36px}}
+
+|Excal_cols = 3
+|Excal_rows = 2
+|Excal = {{item|Excalibur|size=36px}}
+
+|TruEx_cols = 3
+|TruEx_rows = 2
+|TruEx = {{item|True Excalibur|size=36px}}
+
+|LiviS_cols = 3
+|LiviS_rows = 2
+|LiviS = {{item|Living Shard}} × 7<br/>
+( {{item|mode=image|image=Map Icon Plantera (first form).png|Plantera|size=20px}} )
+
+<!-- •••• Temporal Floe Sword •••• -->
+
+|TemFS_cols = 3
+|TemFS_rows = 2
+|TemFS = {{item|Temporal Floe Sword|size=36px}}
+
+|Ecto1_cols = 3
+|Ecto1_rows = 2
+|Ecto1 = {{item|Ectoplasm}} × 5<br/>
+( {{item|mode=image|Dungeon Spirit|size=16px}} )
+
+| SeaPr_cols = 3
+| SeaPr_rows = 2
+| SeaPr = {{item|Sea Prism}} × 15<br/>
+<span style="font-size:0.75em">( [[Sunken Sea]] )</span>
+
+| PriSh_cols = 3
+| PriSh_rows = 2
+| PriSh = {{item|Prism Shard}} × 75<br/>
+<span style="font-size:0.75em">( [[Sunken Sea]] / {{item|mode=image|Prism-Back|size=28px}} {{item|mode=image|Blinded Angler|size=28px}} )</span>
+
+|CryoB_cols = 3
+|CryoB_rows = 2
+|CryoB = {{item|Cryonic Bar}} × 15<br/>
+<span style="font-size:0.75em">( {{item|mode=image|Fleshy Geode|size=20px}} / {{item|mode=image|Necromantic Geode|size=20px}} )</span>
+
+|CryoO_cols = 3
+|CryoO_rows = 2
+|CryoO = {{item|Cryonic Ore}} × 75<br/>
+<span style="font-size:0.75em">( [[Ice biome]] / {{item|mode=image|Cryo Slime|size=16px}} )</span>
+
+<!-- •••• Hellkite •••• -->
+
+|Hellk_cols = 3
+|Hellk_rows = 2
+|Hellk = {{item|Hellkite|size=36px}}
+
+|Obsi1_cols = 3
+|Obsi1_rows = 2
+|Obsi1 = {{item|Obsidian}} × 20<br/>
+( {{item|mode=image|Water|size=12px}} + {{item|mode=image|Lava|size=12px}} )
+
+|Hell1_cols = 3
+|Hell1_rows = 2
+|Hell1 = {{item|Hellstone}} × 60<br/>
+<div style="font-size: 0.75em">( [[Underworld]] )</div>
+
+|PereB_cols = 3
+|PereB_rows = 2
+|PereB = {{item|Perennial Bar}} × 8<br/>
+<span style="font-size:0.75em">( {{item|mode=image|Fleshy Geode|size=20px}} / {{item|mode=image|Necromantic Geode|size=20px}} )</span>
+
+|PereO_cols = 3
+|PereO_rows = 2
+|PereO = {{item|Perennial Ore}} × 40<br/>
+<span style="font-size:0.75em">( [[Cavern]] / {{item|mode=image|Perennial Slime|size=16px}} )</span>
+
+|FieGS_cols = 3
+|FieGS_rows = 2
+|FieGS = {{item|Fiery Greatsword|size=36px}}
+
+|HelB1_cols = 3
+|HelB1_rows = 2
+|HelB1 = {{item|Hellstone Bar}} × 20
+
+<!-- •••• Floodtide •••• -->
+
+|FlooT_cols = 3
+|FlooT_rows = 2
+|FlooT = {{item|Floodtide|size=36px}}<br/>
+<span style="font-size:0.75em">( [[Fishing]] )</span>
+
+| VicS1_cols = 3
+| VicS1_rows = 2
+| VicS1 = {{item|Victory Shard}} × 5<br/>
+<span style="font-size:0.75em">( {{item|mode=image|image=Desert Scourge map.png|Desert Scourge|size=30px}} )</span>
+
+| Coral_cols = 3
+| Coral_rows = 2
+| Coral = {{item|Coral}} × 5<br/>
+<span style="font-size:0.75em">( [[Ocean]] / {{item|mode=image|image=Desert Scourge map.png|Desert Scourge|size=30px}} )</span>
+
+| Starf_cols = 3
+| Starf_rows = 2
+| Starf = {{item|Starfish}} × 5<br/>
+<span style="font-size:0.75em">( [[Ocean]] / {{item|mode=image|image=Desert Scourge map.png|Desert Scourge|size=30px}} )</span>
+
+| Seash_cols = 3
+| Seash_rows = 2
+| Seash = {{item|Seashell}} × 5<br/>
+<span style="font-size:0.75em">( [[Ocean]] / {{item|mode=image|image=Desert Scourge map.png|Desert Scourge|size=30px}} )</span>
+
+| VicBr_cols = 3
+| VicBr_rows = 2
+| VicBr = {{item|Victide Bar}} × 5
+
+| AdaBr_cols = 3
+| AdaBr_rows = 2
+| AdaBr = {{item|Adamantite Bar}} × 5
+
+| AdaOr_cols = 3
+| AdaOr_rows = 2
+| AdaOr = {{item|Adamantite Ore}} × 25
+
+| TitBr_cols = 3
+| TitBr_rows = 2
+| TitBr = {{item|Titanium Bar}} × 5
+
+| TitOr_cols = 3
+| TitOr_rows = 2
+| TitOr = {{item|Titanium Ore}} × 25
+
+|DeptC_cols = 3
+|DeptC_rows = 2
+|DeptC = {{item|Depth Cells}} × 10<br/>
+<span style="font-size:0.75em">( [[Abyss]] )</span>
+
+|Lumen_cols = 3
+|Lumen_rows = 2
+|Lumen = {{item|Lumenyl|size=20px}} × 10<br/>
+<span style="font-size:0.75em">( [[Abyss]] )</span>
+
+|Teneb_cols = 3
+|Teneb_rows = 2
+|Teneb = {{item|Tenebris}} × 5<br/>
+<span style="font-size:0.75em">( [[Abyss]] )</span>
+
+|SharF_cols = 3
+|SharF_rows = 2
+|SharF ={{item|Shark Fin}} × 2<br/>
+( {{item|mode=image|Shark|size=36px}} )
+
+<!-- •••• TERRATOMERE •••• -->
+
+| UeliO_cols = 3
+| UeliO_rows = 2
+| UeliO ={{item|Tarragon Ore}} × 25<br/>
+<span style="font-size:0.75em">( [[Underground Jungle]] / {{item|mode=image|Bloom Slime|size=18px}} )</span>
+
+| UeliB_cols = 3
+| UeliB_rows = 2
+| UeliB = {{item|Tarragon Bar}} × 5
+
+<!-- •• CRAFTING STATIONS •• -->
+
+|ICEMA_cols =
+|ICEMA_class = craft-station
+|ICEMA = {{item|mode=image|Ice Machine}}
+
+|Altar_cols = 3
+|Altar_class = craft-station
+|Altar = {{item|mode=image|Demon Altar}} / {{item|mode=image|Crimson Altar}}
+
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|HEFRG_cols = 3
+|HEFRG_class = craft-station
+|HEFRG = {{item|mode=image|Hellforge}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|HMFRG_cols = 3
+|HMFRG_class = craft-station
+|HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+<!-- OTHER -->
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

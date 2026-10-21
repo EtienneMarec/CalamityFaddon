@@ -1,0 +1,46 @@
+{{Historical content}}
+{{item infobox
+| type = Covering
+| tooltip = Transforms the holder into an armored diver<br/>Increases max movement speed and acceleration while underwater but you move slowly outside of water<br/>The suits' armored plates reduce damage taken by 15%<br/>The plates will only take damage if the damage taken is over 50<br/>After the suit has taken too much damage its armored plates will take 3 minutes to regenerate<br/>Reduces the damage caused by the pressure of the abyss while out of breath<br/>Removes the bleed effect caused by the abyss in all layers except the deepest one<br/>Grants the ability to swim and greatly extends underwater breathing<br/>Provides light underwater and extra mobility on ice<br/>Provides a moderate amount of light in the abyss<br/>Greatly reduces breath loss in the abyss<br/>Reduces creature's ability to detect you in the abyss<br/>Reduces the defense reduction that the abyss causes<br/>Allows you to fall faster while in liquids
+| rare = 11
+| buff = Abyssal Diving Suit (buff)  | bufflink = no
+| duration = Infinite
+| bufftip = You are made of metal
+| buff2 = Abyssal Diving Suit Plates | bufflink2 = no
+| duration2 = Infinite
+| bufftip2 = The plates will absorb 15% damage
+| debuff = Abyssal Diving Suit Plates Broken | debufflink = no
+| debuffduration = 3 minutes
+| debufftip = The plates are regenerating
+| sell = {{value|0|22}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| boxwidth = 30em
+| listexclude = yes
+}}
+
+The '''Abyssal Diving Suit''' was a craftable Godseeker Mode [[covering]] which transformed the user into an armored diver when equipped. It provided water breathing, and it combined and enhanced the effects of the [[Abyssal Diving Gear]], [[Anechoic Plating]] and [[Iron Boots]], making it the ultimate tool for exploring the [[Abyss]]. Additionally, while the player was underwater, their movement speed and acceleration were boosted by 5%; otherwise, their movement speed and acceleration were reduced by 60%.
+
+The suit possessed "armored plates" that [[Defense#Separate_Damage_Reduction_Boosts|reduced damage]] dealt to the player by 15%. However, the plates would be damaged if the player took more than 50 damage in one hit. The plates could sustain 3 of those hits before breaking. Once broken, they would take 3 minutes to regenerate. While the plates recharged, the player would not benefit from their damage reduction bonus.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The damage reduction provided by the suit's plates was calculated separately from typical damage reduction. As a result, it was not affected by the Calamity Mod's [[Vanilla_changes#Defense_and_DR|DR scaling system]].
+*The check for how much damage was dealt to the player, for determining whether the plates will be damaged, occured ''after'' all defense and damage reduction calculations.
+
+== Trivia ==
+*When the player got hurt, the sound played is similar to the mechanical hurt sound.
+{{-}}{{Historical}}
+[[zh:深渊潜游服]]
+{{Master Template Equipables
+|show-main=yes
+|show-covering=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

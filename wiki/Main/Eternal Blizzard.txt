@@ -1,0 +1,31 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 80
+| knockback = 3
+| rare = 8
+| buy = {{value|0|80}}
+| sell = {{value|0|16}}
+| stack = 1
+| auto = yes
+| velocity = 11
+| use = 18
+| tooltip = Fires an additional icicle arrow that shatters on impact
+| hardmode = yes
+| debuff = Frostburn
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuffchance = 100%
+| debuffduration = 5 seconds (Icicle arrow)
+| element1 = Cold
+| element2 = Stab
+}}
+
+The '''Eternal Blizzard''' is a [[Hardmode]] [[bow]] that auto-fires, and is sold by the [[Archmage]] NPC for {{gc|80}} after defeating [[Everscream|all]] [[Santa-NK1|three]] [[Ice Queen|minibosses]] in the [[Frost Moon]] [[event]]. In addition to firing a regular arrow, the bow also fires an [[Icicle Arrow]], which bursts upon impact.
+
+{{Modifier|ranged}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

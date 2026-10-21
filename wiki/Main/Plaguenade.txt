@@ -1,0 +1,47 @@
+{{dedicated|Ben Shapiro|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| damage = 63
+| damagetype = Rogue
+| consumable = true
+| knockback = 1.5
+| use = 14
+| tooltip = Releases a swarm of angry plague bees<br/>Stealth strikes spawn more bees and generate a larger explosion
+| auto = yes
+| hardmode = yes
+| debuff = Plague
+| debuffchance = 100%
+| debuffduration = 3 seconds (Plague bees)<br/>4 seconds (Plaguenade)
+| debufftip = Rotting from the inside
+| stack = 9999
+| velocity = 12
+| rare = 8
+| sell = {{value|0|0|20}}
+| proj = Plaguenade Bee.gif
+| projcaption = Plague Bee
+| element1 = Poison
+| element2 = Machine
+| element3 = Bomb
+}}
+
+'''Plaguenades''' are craftable [[Hardmode]] [[bombs]]. They are explosive projectiles that release 20 plague-infected bees upon explosion. Both the explosion and the bees inflict the [[Plague]] [[debuff]] on contact. The bees spawned by the Plaguenade fly much faster than normal bees and are unaffected by liquids.
+
+Performing a [[stealth strike]] with Plaguenades causes the resulting grenade to emit a larger explosion with 3.75x the explosion radius which releases 8 more bees.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*[[Astrum Deus]] takes only 25% damage from Plaguenades.
+
+== Trivia ==
+*The name of this weapon is a portmanteau of "Plague" and "Grenade".
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Bombs]]

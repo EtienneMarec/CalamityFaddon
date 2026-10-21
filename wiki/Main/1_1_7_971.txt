@@ -1,0 +1,111 @@
+{{Patch infobox
+| image = Darksun Fragment (1.1.7.971).png
+| patchname = Darksun Update
+| release = 7/03/2017
+}}
+{{toc limit|3|right=yes}}
+The '''1.1.7.971''' update made several changes to the [[Jungle Dragon, Yharon]] and [[Supreme Calamitas]] fights, along with buffing the [[Solar Eclipse]] event after Yharon has been defeated for the first time. This update was the final version in the 1.1 series of updates.
+
+
+== Additions ==
+*Added [[Darksun Fragment]].
+*Added [[Amalgamated Brain]] and [[Nanotech]].
+*Added [[Greatsword of Blah]].
+*Added [[Auric Tesla Body Armor]], [[Auric Tesla Cuisses]], and [[Auric Tesla Helm]].
+
+== Changes ==
+=== Bosses and Enemies ===
+*[[Astrum Deus]] changes:
+**Buffed laser damage from {{dv|50|84}} to {{dv|80|136}}.
+**Buffed [[Astrum Deus Probe]] variant 1's laser damage from {{dv|46|80}} to {{dv|96|160}}.
+**Buffed Astrum Deus Probe variant 2's laser damage from {{dv|46|80}} to {{dv|118|200}}.
+**Buffed Astrum Deus Probe variant 3's laser damage from {{dv|56|100}} to {{dv|80|132}}.
+**Increased health-based defense scaling.
+**Now starts shooting lasers more frequently once it reaches 65% and 30% health, in addition to its other health-based laser frequency increases.
+**Halved the laser frequency boost it gains at 40% health.
+**Astrum Deus Probe variants 1 and 2 now instantly despawn if Astrum Deus is defeated or despawns.
+**Body segments now take 33% damage from [[Bee Cloak]], [[Holy Arrow]], [[Star Cloak]], and [[Star Veil]]'s stars.
+*[[Revengeance Mode]] [[The Destroyer|Destroyer]] now takes 33% damage from Bee Cloak, Holy Arrow, Star Cloak, and Star Veil's stars.
+*[[The Devourer of Gods]] changes:
+**No longer spawns with a second Devourer of Gods in Revengeance Mode, and now spawns it at 25% health.
+**"Nothing personal, kid" status message moved from 50% health to 25%.
+**Removed period from 25% health message.
+*Removed period from [[Golem]]'s Plague and [[Ravager]] status messages.
+*[[Jungle Dragon, Yharon]] changes:
+**Now has two large infernadoes that persist for the entire fight. <!---Not the bordernadoes--->
+**Removed distance-based enrage.
+**Reduced player acceleration-based speed scaling.
+**Reduced amount of flarenadoes spawned during the fight.
+**Buffed projectile [[Detonating Flame]]'s health from {{dv|1500|2100}} to {{dv|20,000|28,000}}, its contact damage from {{dv|100|140}} to {{dv|250|350}}, its flare damage from {{dv|140|240}} to {{dv|200|368}}, and its defense from 100 to 150.
+**Buffed melee Detonating Flame's health from {{dv|2000|2800}} to {{dv|25,000|35,000}}, its damage from {{dv|160|224}} to {{dv|300|420}}, and its defense from 120 to 150.
+**Now immune to [[Exo Freeze]].
+**Detonating Flames and most projectiles now have orange color filters and produce less dust.
+*[[Mothron]]s are now immune to the instakill effects from [[Exoblade]] and accessories such as Elemental Gauntlet.
+*Removed periods from [[Plantera]]'s [[Leviathan]] status message.
+*[[Providence, the Profaned God]] now uses [[Music#Siren's Call (Seafoam Mix)|Siren's Call (Seafoam Mix)]] as her theme instead of [[Music#Adventure's End|Adventure's End]].
+*[[Supreme Calamitas]] changes:
+**Nerfed contact damage from {{dv|750|1200}} to {{dv|600|960}}, and her defense from 370 to 350.
+**Nerfed Brimstone Fireblast, Barrage, and Gigablast damages from {{dv|264|460}} to {{dv|220|400}}.
+**Nerfed Hellblast damage from {{dv|300|560}} to {{dv|220|400}}.
+**Buffed the brothers' Hellblast damage from {{dv|180|320}} to {{dv|280|480}}.
+**Decreased health-based aggression.
+**Brimstone Barrages, Fireblasts, Gigablasts, and Hellfireballs now inflict [[Abyssal Flames]]. <!---for 4 seconds--->
+**Supreme Calamitas and her brothers are now immune to [[Exo Freeze]].
+**Now forces the player to take at least 200 damage from any hit.
+**Increased [[Calamitous Essence]] drop count from 5-8 to 10-20.
+**Can no longer drop pieces of [[Demonshade armor]]. <!---Dropped one a time--->
+
+=== Items ===
+*[[The Absorber]], [[Amidias' Spark]], and [[The Sponge]]'s sparks now hit every 10 frames.
+*[[Ark of the Cosmos]] now uses 5 Darksun Fragments, 5 [[Endothermic Energy|Endothermic Energies]], and 5 [[Nightmare Fuel]] in its recipe.
+*Nerfed [[Astral armor]]'s star damage from 120 to 100.
+*Nerfed [[Atlantis]]' damage from 71 to 64.
+*Nerfed [[Blissful Bombardier]]'s damage from 305 to 220.
+*[[Bloodflare Mask]]'s tooltip now says "You can move freely" instead of "Can move freely".
+*Buffed [[Blossom Flux]]'s damage boosts after defeating [[King Slime]], [[Eye of Cthulhu]], [[Eater of Worlds]]/[[Brain of Cthulhu]], [[Wall of Flesh]], [[Lunatic Cultist]], [[Moon Lord]], [[Providence, the Profaned God]], The Devourer of Gods, and Jungle Dragon, Yharon, and increased its Spore Bomb's damage from 3x the weapon's damage to 4x.
+*[[Deathhail Staff]], [[Deathwind]], [[Excelsus]], and [[The Obliterator]]'s lasers are now five times faster and ignore 4 immunity frames instead of setting them to 2.
+*Reduced the amount of immunity frames that [[Deific Amulet]] and [[Rampart of Deities]] provide.
+*Demonshade armor changes:
+**Buffed [[Demonshade Helm]]'s defense from 35 to 55, its damage boost from 30% to 50%, its critical strike chance boost from 30% to 50%, and its minion slot boost from 6 to 10.
+**Buffed [[Demonshade Breastplate]]'s defense from 50 to 62, its health boost from 300 to 500, its mana boost from 200 to 500, its thorns effect by 200%, and increased its health-based damage boosts.
+**Buffed [[Demonshade Greaves]]' defense from 32 to 57.
+**Changed recipe:
+***Demonshade Helm now uses 40 [[Shadowspec Bar]]s in its recipe instead of 4 Shadowspec Bars and 10 [[Soul of Fright|Souls of Fright]].
+***Demonshade Breastplate now uses 50 Shadowspec Bars in its recipe instead of 7 Shadowspec Bars and 10 Souls of Fright.
+***Demonshade Greaves now use 45 Shadowspec Bars in its recipe instead of 5 Shadowspec Bars and 10 Souls of Fright.
+**Set bonus now produces less dust.
+*[[Elemental Gauntlet]] is no longer guaranteed to instantly kill enemies on melee critical hits.
+*[[Eradicator]] now lasts for 3 seconds instead of 4, and now ignores 3 immunity frames instead of setting them to 2.
+*Buffed Excelsus' use time from 17 to 14, made it shoot its projectiles in a spread, decreased the frequency of its laser shots, and buffed its lasers' damages from 180 to 350.
+*[[Eye of Extinction]] now uses 1 Darksun Fragment in its recipe.
+*Nerfed [[Frost Bolt]]'s damage from 15 to 12, made it penetrate 2 times instead of 3, and reduced the amount of dust it produces.
+*Rampart of Deities now requires [[Draedon's Forge]] to craft instead of an [[Ancient Manipulator]].
+*[[Rotten Brain]] now increases damage by 15% instead of 10% when under 75% health.
+*[[Shadowspec Bar]]s now use 1 Darksun Fragment in their recipe.
+*[[Shell Speed Boost]] and [[Panic!]] no longer stack.
+*Changed [[Silva armor]]'s set bonus to say that the player is immune to "almost all debuffs" instead of "all debuffs except Vulnerability Hex".
+*Nerfed [[Telluric Glare]]'s shot speed from 18 to 12, and greatly increased the speed of its arrow.
+*[[The Wand]] now ignores every other immunity frame instead of setting them to 1, and now has a yellow color filter on its infernado.
+*[[Yharim's Gift]]'s flares now have a pulsing red and yellow color filter.
+
+=== Other ===
+*Abyssal Flames can now be inflicted on the player.
+*Defeating Jungle Dragon, Yharon now causes the [[Solar Eclipse]] event to gain massively increased stats, with Mothrons dropping Darksun Fragments.
+*Defeating the [[Moon Lord]] in Revengeance Mode now permanently reduces life regeneration by 5.
+
+=== Resprites ===
+*Resprited [[Bloody Worm Food]], [[Cosmic Worm]], [[Decapodita Sprout]], [[Potion of Omniscience]], and [[Teratoma]].
+*Resprited [[Asgardian Aegis]], [[Bloody Worm Scarf]], [[Bloody Worm Tooth]], [[Daedalus Emblem]], [[Harpy Ring]], [[Nebulous Core]], Rotten Brain, [[The First Shadowflame]], and [[Yharim's Insignia]].
+*Resprited [[Contagion]], [[Death Valley Duster]], [[Draconic Destruction]], [[The Hive]], and [[Mirror Blade]].
+*Resprited [[Armored Shell]] and [[Phantoplasm]].
+*Resprited [[Omniscience]].
+*Resprited Contagion's arrows and balls, and Draconic Destruction's beams.
+
+== Fixes ==
+*Fixed the [[Astral Meteor]] and [[Hell Crag]] themes playing even while music volume is set to zero.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

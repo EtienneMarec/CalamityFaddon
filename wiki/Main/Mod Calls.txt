@@ -1,0 +1,278 @@
+'''Mod Calls''' are special functions that can be used with tModLoader's <code>.Call()</code> function to get or set different values from other mods. This page lists the Mod Calls that are provided by the Calamity Mod along with what they are used for.
+
+Note that Spy damage and Spy crit are affected by [[Spy#Throwing Class Compatibility|vanilla Throwing stats]], and adding to Spy stats through these calls will add on top of any throwing stats the player is given.
+
+An asterisk (*) after a parameter type indicates that the function accepts multiple arguments of that type at once. Optional arguments will be specified, along with their default value if applicable.
+== Mod Calls Table ==
+{| class = "terraria lined"
+! Function !! Returns !! Parameters
+|-
+| GetBossDowned || (bool) Whether the boss or event has been defeated. || (string) The boss or event to check for. Many different aliases are accepted.
+|-
+| GetInZone || (bool) Whether the specified player is in a given Calamity biome or area. || (Player) The player whose locale is being questioned.<br/>(string) The zone or area name to check. Many aliases are accepted.
+|-
+| GetDifficultyActive || (bool) Whether the Calamity difficulty modifier is currently active. || (string) The difficulty modifier to check for. Many aliases are accepted.
+|-
+| SetDifficultyActive || (bool) If it has succeeded or not. || (string) The difficulty modifier to toggle on or off. Many aliases are accepted.
+|-
+| GetSpyDamage || (float) The specified player's [[Spy]] damage modifier. 1f = no bonus, 2f = +100%. || (Player) The player whose Spy damage is being queried.
+|-
+| AddSpyDamage || (float) The specified player's new Spy damage modifier. || (Player) The player whose Spy damage is being modified.<br/>(float) The amount of Spy damage to add or subtract (if negative).
+|-
+| GetSpyCrit || (int) The specified player's Spy critical strike chance. 0 = no chance, 100 = 100% chance. || (Player) The player whose Spy crit is being queried.
+|-
+| AddSpyCrit || (int) The specified player's new Spy critical strike chance. || (Player) The player whose Spy crit is being modified.<br/>(int) The amount of Spy crit to add or subtract (if negative).
+|-
+| GetSpyVelocity || (float) The specified player's Spy projectile speed modifier. 1f = no bonus, 2f = +100%. || (Player) The player whose Spy velocity is being queried.
+|-
+| AddSpyVelocity || (float) The specified player's new Spy projectile speed modifier. || (Player) The player whose Spy damage is being modified.<br/>(float) The amount of Spy velocity to add or subtract (if negative).
+|-
+| GetCurrentStealth || (float) The specified player's current [[stealth]]. 0.1f = 10, 0.5f = 50. || (Player) The player whose stealth is being queried.
+|-
+| GetMaxStealth || (float) The specified player's maximum [[stealth]]. 0.1f = 10, 0.5f = 50. || (Player) The player whose maximum stealth is being queried.
+|-
+| AddMaxStealth || (float) The specified player's new maximum stealth. || (Player) The player whose max stealth is being modified.<br/>(float) The amount of stealth to add or subtract (if negative).
+|-
+| IsSpy <!-- Item --> || (bool) Whether the specified item is classified as a Spy weapon. || (Item) The item being queried.
+|-
+| SetSpy <!-- Item --> || (bool) Whether the item is now a Spy weapon. || (Item) The item to set the value to.<br/>(bool) Whether the item should be classified as Spy or not.
+|-
+| IsSpy <!-- Projectile --> || (bool) Whether the specified projectile is classified as Spy. || (Projectile) The projectile being queried.
+|-
+| SetSpy <!-- Projectile --> || (bool) Whether the projectile is now Spy. || (Projectile) The projectile to set the value to.<br/>(bool) Whether the projectile should be classified as Spy or not.
+|-
+| GetSetBonus || (bool) Whether the specified player has the set bonus given. || (Player) The player whose set bonuses are being queried.<br/>(string) The set bonus to check for. Many aliases are accepted.
+|-
+| SetSetBonus || (bool) Whether any set bonus was adjusted. || (Player) The player whose set bonuses are being modified.<br/>(string) The set bonus to modify. Many aliases are accepted.<br/>(bool) Whether the set bonus should be enabled or disabled.
+|-
+| GetLightStrength || (int) The specified player's light strength. || (Player) The player whose light strength is being queried.
+|-
+| AddAbyssLightStrength || (void) || (Player) The player whose light strength is being modified.<br/>(int) The light strength to add to the [[Abyss]].
+|-
+| MakeColdImmune || (bool) Whether the player is now cold immune. || (Player) The player to make cold immune.
+|-
+| MakeHeatImmune || (bool) Whether the player is now heat immune. || (Player) The player to make heat immune.
+|-
+| SetDamageReduction || (float) The NPC's old [[damage reduction]]. 0.1f = 10%, 0.5f = 50%. || (int) The ID of the NPC whose dr is being modified<br/>(float) The new dr for the NPC.
+|-
+| BossHealthBarVisible || (bool) Whether Calamity's [[Boss Health Bar]] is visible. || None.
+|-
+| SetBossHealthBarVisible || (bool) Whether the visibility was changed. || (bool) Whether the Boss Health Bar should be visible or invisible.
+|-
+| GetCalamityRarity || (int) The [[rarity]] of the given item. || (Item) The item whose rarity is being queried.
+|-
+| SetCalamityRarity || (int) The new rarity of the given item. || (Item) The item whose rarity is being modified.<br/>(int) The new rarity of the item.
+|-
+| GetDoGCountdown || (int) The countdown until a new sentinel is spawned, in frames. || {{na}}
+|-
+| AcidRainActive || (bool) Whether the [[Acid Rain]] is currently active or not. || {{na}}
+|-
+| StartAcidRain || (bool) True. || {{na}}
+|-
+| StopAcidRain || (bool) True. || {{na}}
+|-
+| AbominationnClearEvents || (bool) True if the Acid Rain has not been successfully cleared, else false. || (bool) If the Abominationn can currently clear events.
+|-
+| ExcludeMinionsFromResurrection || (null) || (Projectile*) The minion/s to set not to respawn with the player.
+|-
+| CreateEnchantment || (null) || (string) The name for the enchantment.<br/>(string) The description for the enchantment.<br/>(int) The id for the enchantment.<br/>(Predicate<Item>) A predicate used to determine if an item can be enchanted or not.<br/>(string) The path to the texture for the enchantment. May also be null, if no texture should be drawn.<br/>(Action<Item>) (optional) The hold effect for the enchantment.<br/>(Action<Player>) (optional) The creation effect for the enchantment.
+|-
+| MakeItemExhumable || (null) || (int) The id of the item to be exhumed.<br/>(int) The id of the resulting exhumed item.
+|-
+| DeclareMiniboss || (null) || (int) The id of the NPC to be set as a miniboss.
+|-
+| ExcludeBossFromHealthbar || (null) || (int) The id of the NPC to be excluded from having a Calamity boss health bar.
+|-
+| DeclareOneToManyRelationshipForHealthBar || (null) || (int) The id of the NPC to act as a key for the relationship.<br/>(int*) The ids of the all the NPCs in the relationship, including the key NPC.
+|-
+| DeclareSpecialHPCalculationDecisionForHealthBar || (null) || (Func<NPC, bool>) The function to decide whether each NPC applies for this special health calculation. Returns whether the specified NPC should get special health calculations or not.<br/>(Func<NPC, bool, long>) The function that does the special HP calculations. The boolean parameter specifies if the function accumulates max health (true) or just health (false). Returns the calculated health for the given NPC.
+|-
+| CreateNameExtensionHandlerForHealthBar || (null) || (string) The name of the extension to create.<br/>(int) The id of the main NPC for the extension.<br/>(int*) The ids of the NPCs in the extension, which may or may not include the main NPC.
+|-
+| GetBossRushEntries || (List<(int, int, Action<int>, int, bool, float, int[], int[])>) A list of tuples representing the boss rush entries. The values inside the tuples have the following meanings: NPC id, time change (1: day, -1: night, 0: no change), boss spawning function, overriding countdown, whether the boss needs a special sound effect on spawn, the dimness factor to use once the boss is spawned, ids of NPCs to not be deleted once the boss spawns, list of any other NPC ids that need to be killed for the event to progress. || {{na}}
+|-
+| SetBossRushEntries || (null) || (List<(int, int, Action<int>, int, bool, float, int[], int[])>) A list of tuples representing the boss rush entries to add. Explanations of the values can be found in the above entry.
+|-
+| CreateCustomDeathEffectForBossRush || (null) || (int) The id of the NPC to have the custom effect.<br/>(Action<NPC>) The custom death effect to be set for the given NPC.
+|-
+|}
+
+== Aliases ==
+Some of the functions above mention accepting different aliases for the string parameters. One alias for each flag will be listed below in tables for each function, however alternatives that use different cases or spacing will still be accepted.
+
+=== GetBossDowned ===
+{| class = "terraria lined"; style = "text-align:center"
+! Queriable Strings
+|-
+| acidrain <!--Whether any Acid Rain has been cleared. Functionally identical to acidraineoc.-->
+|-
+| acidraineoc
+|-
+| desertscourge
+|-
+| giantclam
+|-
+| crabulon
+|-
+| hivemind
+|-
+| perforator
+|-
+| slimegod
+|-
+| hmclam
+|-
+| cryogen
+|-
+| acidrainscourge
+|-
+| aquaticscourge
+|-
+| brimstoneelemental
+|-
+| calamitas
+|-
+| greatsandshark
+|-
+| anahitaleviathan
+|-
+| astrumaureus
+|-
+| plaguebringergoliath
+|-
+| ravager
+|-
+| astrumdeus
+|-
+| guardians
+|-
+| dragonfolly
+|-
+| providence
+|-
+| polterghast
+|-
+| oldduke
+|-
+| ceaselessvoid
+|-
+| stormweaver
+|-
+| signus
+|-
+| anysentinel
+|-
+| allsentinel
+|-
+| devourerofgods
+|-
+| yharon
+|-
+| exomechs
+|-
+| supremecalamitas
+|-
+| adulteidolonwyrm
+|-
+|}
+=== GetInZone ===
+{| class = "terraria lined"; style = "text-align:center"
+! Queriable Strings
+|-
+| crags
+|-
+| astral
+|-
+| sunkensea
+|-
+| sulphursea
+|-
+| abyss
+|-
+| layer1
+|-
+| layer2
+|-
+| layer3
+|-
+| layer4
+|-
+|}
+=== DifficultyActive ===
+{| class = "terraria lined"; style = "text-align:center"
+! Queriable Strings
+|-
+| revengeance
+|-
+| death
+|-
+| malice
+|-
+| bossrush
+|-
+|}
+=== SetBonus ===
+Some strings given here can be appended with _''classname'' to get a specific class's version of that set bonus where appropriate (for example, statigel_summon or bloodflare_melee). <code>reaver_speed</code>, <code>reaver_explore</code>, and <code>reaver_defense</code> are used to refer to the [[Reaver Visage]], Headgear, and Helms's set bonuses respectively.
+{| class = "terraria lined"; style = "text-align:center"
+! Queriable Strings
+|-
+| desertprowler
+|-
+| snowruffian
+|-
+| sulphur
+|-
+| victide
+|-
+| aerospec
+|-
+| mollusk
+|-
+| titanheart
+|-
+| forbidden_circlet
+|-
+| daedalus
+|-
+| reaver
+|-
+| fathomswarmer
+|-
+| brimflame
+|-
+| umbraphile
+|-
+| hydrothermic
+|-
+| plaguereaper
+|-
+| plaguebringer
+|-
+| astral
+|-
+| empyrean
+|-
+| tarragon
+|-
+| prismatic
+|-
+| bloodflare
+|-
+| omegablue
+|-
+| godslayer
+|-
+| fearmonger
+|-
+| silva
+|-
+| auric
+|-
+| demonshade
+|-
+|}
+
+== Notes ==
+*Providing incorrect or too few/many arguments to any of these functions will result in an ArgumentException being thrown.
+
+[[Category:Calamity Mod]]

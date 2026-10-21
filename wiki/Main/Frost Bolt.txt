@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| tooltip = Casts a slow-moving ball of frost
+| damage = 14
+| damagetype = magic
+| mana = 6
+| use = 20
+| knockback = 3.5
+| rare = 2
+| sell = {{value|0|0|40}}
+| auto = yes
+| velocity = 6
+| stack = 1
+| type2 = Crafting material
+| debuff = Frostburn
+| debuffchance = 100%
+| debuffduration = 1 second
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| proj = Frost Bolt (projectile).png
+| projcaption = Frost Bolt
+| element1 = Cold
+}}
+
+The '''Frost Bolt''' is a craftable [[Pre-Hardmode]] [[spell tome]] that auto-fires a slow-moving ball of ice, similar to the [[Water Bolt]], inflicting the [[Frostburn]] [[debuff]]. The projectile travels in a straight line unaffected by gravity, emit a bit of light, which can hit 2 enemies or bounce off 2 walls before dissipating. 
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The Frost Bolt is an easily accessible spell tome for a starting player, only requiring a short trip to the [[Snow biome]] to gather the required ingredients.
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

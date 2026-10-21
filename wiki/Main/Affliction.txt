@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = Gives you and all other players on your team +1 life regen,<br/>+10% max life, 7% damage reduction, 13 defense, and 10% increased damage
+| buff = Afflicted | bufflink = no
+| duration = Infinite (to teammates)
+| bufftip = Empowered by otherworldly spirits
+| rare = 13
+| sell = {{value|0|26}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+|[[Polterghast]]|1|100%
+}}
+}}
+
+'''Affliction''' is a Godseeker Mode [[covering]] dropped by [[Polterghast]] that provides a variety of stat boosts. A player with Affliction equipped will provide all their teammates with the '''Afflicted''' [[buff]], which provides all the bonuses of having the covering equipped.
+
+Affliction (and the Afflicted buff) provides the following bonuses:
+*+1 life regeneration
+*+7% damage reduction
+*+13 [[defense]]
+*+10% increased damage
+*+10% maximum health
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Its behavior of buffing teammates is similar to the [[Paladin's Shield]], however, the wearer experiences no negative effects.
+*The bonuses from the buff and the item itself do not stack with each other.
+
+== Trivia ==
+*Prior to the [[1.2.4.101]] update, the Affliction granted buffs depending on the player's [[Stress]] level. Having under 500 stress would grant the buffs to the player and having over 6000 stress granted the buffs to all players on the same team.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[zh:灾劫之尖啸]]
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

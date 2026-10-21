@@ -1,0 +1,54 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 270
+| mana = 12
+| tooltip = And the sun extinguished in an instant...<br/>Fires noxlings and stars from the sky that swarm enemies 
+| knockback = 5
+| rare = 15
+| sell = {{value|0|32}}
+| use = 16
+| velocity = 21
+| stack = 1
+| debuff = Moon Burnt
+| debufftip = Incenirated by lunar rays
+| debuffchance = 100%
+| debuffduration = 7 seconds
+| hardmode = yes
+| postml = yes
+| proj = Noxling.png
+| projcaption = Noxling
+| proj2 = Stratus Star.png
+| proj2caption = Stratus Star
+| proj3 = Astral Star.png
+| proj3caption = Astral Star
+| proj4 = Hallow Star.png
+| proj4caption = Hallow Star
+| proj5 = Fallen Star.png
+| proj5caption = Fallen Star
+| element1 = Dark
+| element2 = Magic
+}}
+
+'''Clamor Umbrus''' is a Godseeker Mode [[wand]] which is an upgrade to the [[Clamor Noctus]] and the final upgrade of the [[Sky Glaze]]. It fires 3 projectiles from the sky that are either Noxlings or Stars. Stars deal 25% of the weapon's damage, inflicting the [[Moon Burnt]] [[debuff]], and sticking on enemies and tiles for 2 seconds before exploding for 135% damage. Noxlings aggressively charge at enemies after falling on them then explode into bolts of Exo energy similar to [[Vivid Clarity]]'s beams as well as a lingering black hole that sucks in enemies.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*"Clamor Umbrus" translated roughly from Latin is "cry of the dark".
+*The tooltip is a reference to the [https://calamitymod.fandom.com/wiki/Umbrus_Eclipse?so=search Umbrus Eclipse].
+{{-}}
+{{Argentum}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

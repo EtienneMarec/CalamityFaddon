@@ -1,0 +1,254 @@
+{{Patch infobox
+| image = The Devourer of Universes.png
+| size = 400px
+| patchname = Planetoids and Future Bosses
+| release = 8/16/2018
+}}
+
+The '''1.3.4.101''' update added [[Planetoids]], several [[furniture]] sets, and the [[Future bosses]], along with a large amount of enemy health and damage reduction changes.
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+=== [[Blocks]], [[Furniture]], and [[Walls]] ===
+*Added [[Cinderplate]], [[Cosmilite Brick]], [[Exodium Cluster]], [[Profaned Crystal]], [[Profaned Rock]], [[Profaned Slab]], [[Runic Profaned Brick]], [[Smooth Abyss Gravel]], [[Smooth Voidstone]], [[Statigel Block]], [[Voidstone]].
+*Added [[Cinderplate Wall]], [[Cosmilite Brick Wall]], [[Profaned Crystal Wall]], [[Profaned Rock Wall]], [[Profaned Slab Wall]], [[Runic Profaned Brick Wall]], [[Smooth Abyss Gravel Wall]], [[Smooth Voidstone Wall]], [[Statigel Wall]], [[Voidstone Wall|Voidstone Wall (safe)]], [[Voidstone Wall|Voidstone Wall (unsafe)]].
+*Added [[Ancient Altar]], [[Ashen Altar]], [[Static Refiner]], [[Void Condenser]].
+*Added Abyss Furniture:
+**Added [[Abyss Bathtub]], [[Abyss Bed]], [[Abyss Bookcase]], [[Abyss Candelabra]], [[Abyss Candle]], [[Abyss Chair]], [[Abyss Chandelier]], [[Abyss Clock]], [[Abyss Door]], [[Abyss Dresser]], [[Abyss Lamp]], [[Abyss Lantern]], [[Abyss Sink]], [[Abyss Sofa]], [[Abyss Synth]], [[Abyss Table]], [[Abyss Torch]], [[Abyss Work Bench]].
+*Added Ancient Furniture:
+**Added [[Ancient Basin]], [[Ancient Bathtub]], [[Ancient Bed]], [[Ancient Bookcase]], [[Ancient Chair]], [[Ancient Door]], [[Ancient Dresser]], [[Ancient Lamp]], [[Ancient Lantern]], [[Ancient Monolith]], [[Ancient Piano]], [[Ancient Sink]], [[Ancient Sofa]], [[Ancient Table]], [[Ancient Work Bench]].
+*Added Ashen Furniture:
+**Added [[Ashen Basin]], [[Ashen Bathtub]], [[Ashen Bed]], [[Ashen Bookcase]], [[Ashen Candelabra]], [[Ashen Candle]], [[Ashen Chair]], [[Ashen Chandelier]], [[Ashen Chest]], [[Ashen Door]], [[Ashen Dresser]], [[Ashen Lamp]], [[Ashen Lantern]], [[Ashen Monolith]], [[Ashen Piano]], [[Ashen Platform]], [[Ashen Sink]], [[Ashen Sofa]], [[Ashen Table]], [[Ashen Work Bench]], [[Locked Ashen Chest]].
+*Added Cosmilite Furniture:
+**Added [[Cosmilite Bathtub]], [[Cosmilite Bed]], [[Cosmilite Bookcase]], [[Cosmilite Candelabra]], [[Cosmilite Candle]], [[Cosmilite Chair]], [[Cosmilite Chest]], [[Cosmilite Clock]], [[Cosmilite Door]], [[Cosmilite Dresser]], [[Cosmilite Lamp]], [[Cosmilite Lantern]], [[Cosmilite Piano]], [[Cosmilite Sink]], [[Cosmilite Sofa]], [[Cosmilite Table]], [[Cosmilite Work Bench]].
+*Added Profaned Furniture:
+**Added [[Profaned Bathtub]], [[Profaned Bed]], [[Profaned Bench]], [[Profaned Bookcase]], [[Profaned Candelabra]], [[Profaned Candle]], [[Profaned Chandelier]], [[Profaned Chest]], [[Profaned Clock]], [[Profaned Door]], [[Profaned Dresser]], [[Profaned Lamp]], [[Profaned Piano]], [[Profaned Sink]], [[Profaned Table]], [[Profaned Work Bench]].
+*Added Statigel Furniture:
+**Added [[Statigel Bathtub]], [[Statigel Bed]], [[Statigel Bookcase]], [[Statigel Candelabra]], [[Statigel Candle]], [[Statigel Chair]], [[Statigel Chandelier]], [[Statigel Chest]], [[Statigel Clock]], [[Statigel Door]], [[Statigel Dresser]], [[Statigel Lamp]], [[Statigel Lantern]], [[Statigel Piano]], [[Statigel Platform]], [[Statigel Sink]], [[Statigel Sofa]], [[Statigel Table]], [[Statigel Work Bench]].
+*Added Void Furniture:
+**Added [[Void Bathtub]], [[Void Bed]], [[Void Bookcase]], [[Void Candelabra]], [[Void Candle]], [[Void Chair]], [[Void Chandelier]], [[Void Chest]], [[Void Clock]], [[Void Door]], [[Void Dresser]], [[Void Lamp]], [[Void Lantern]], [[Void Piano]], [[Void Sink]], [[Void Sofa]], [[Void Table]], [[Void Work Bench]].
+
+=== [[Bosses]] and [[Enemies]] ===
+*Added [[Ancient Doomsayer]], [[The Devourer of Universes]], [[Dragon God, Yharon]].
+*Added a fourth [[Bumblebirb]] variant summoned by Dragon God, Yharon.
+
+=== Other ===
+*Added Planetoids:
+**Added Main Planetoid, Life Crystal Planetoid, Ore Planetoid, Jungle Planetoid, Hive Planetoid, Mushroom Planetoid.
+*Added [[Ashen Key]], [[Brimstone Key]].
+*Added [[Dimensional Soul Artifact]], [[Eldritch Soul Artifact]], [[Godly Soul Artifact]].
+*Added [[Golden Gun]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*Several boss and enemy health values have been adjusted, a full list can be found below:
+{{collapse top|New boss and enemy health values (Click to open)|(Click to collapse)}}
+*Buffed [[Astrageldon Slime]]'s health from {{dv|61,000|97,600|112,800|164,000}} to {{dv|61,000|97,600|129,720|188,600}}.
+*Buffed [[Brain of Cthulhu]]'s Death Mode health modifier from {{death|1.75x}} to {{death|1.9x}}, and its health modifier in other modes from 1.25x to 1.4x.
+*Buffed [[Brimstone Elemental]]'s health from {{dv|26,000|41,600|49,680|75,200}} to {{dv|26,000|41,600|57,132|86,480}}.
+*Buffed [[Colossal Squid]]'s health from {{dv|165,000|330,000}} to {{dv|181,500|363,000}}.
+*Buffed [[Crabulon]]'s health from {{dv|1800|2880|3520|9240}} to {{dv|1800|2880|4224|11,088}}.
+*Buffed [[Cryogen]]'s health from {{dv|17,900|28,640|32,400|49,200}} to {{dv|17,900|28,640|38,880|59,040}}.
+*Buffed [[Duke Fishron]]'s Death Mode health modifier from {{death|3.175x}} to {{death|3.525x}}, and his health modifier in other modes from 1.5x to 1.85x.
+*Buffed [[Eater of Worlds]]' Death Mode health modifier from {{death|1.35x}} to {{death|1.4x}}, and its health modifier in other modes from 1.25x to 1.3x.
+*Buffed [[Eye of Cthulhu]]'s Death Mode health modifier from {{death|2.15x}} to {{death|2.3x}}, and its health modifier in other modes from 1.1x to 1.25x.
+*Buffed [[Golem]]'s Death Mode health modifier from {{death|7.5x}} to {{death|8x}}, and its health modifier in other modes from 2.5x to 3x.
+*Buffed [[The Hive Mind]]'s first phase's health from {{dv|2000|3200|4800|8800}} to {{dv|2000|3200|5760|10,560}}, and its second phase's health from {{dv|3000|4800|5760|9600}} to {{dv|3000|4800|6912|11,520}}.
+*Buffed [[Jungle Dragon, Yharon]]'s health from {{dv|1,900,000|3,040,000|3,360,000|4,000,000}} to {{dv|2,375,000|3,800,000|4,200,000|5,000,000}}.
+*Buffed [[King Slime]]'s Death Mode health modifier from {{death|1.75x}} to {{death|1.85x}}.
+*Buffed [[Lunatic Cultist]]'s Death Mode health modifier from {{death|2x}} to {{death|2.25x}}, and its Revengeance Mode health modifier from {{revengeance|1.3x}} to {{revengeance|1.55x}}.
+*Buffed [[Mauler]]'s health from {{dv|120,000|240,000}} to {{dv|144,000|288,000}}.
+*[[Moon Lord]]:
+**Buffed core's Death Mode health modifier from {{death|2x}} to {{death|2.4x}}, and its health modifier in other modes from 1.5x to 1.9x.
+**Buffed its forehead and hand eyes' Death Mode health modifiers from {{death|1.15x}} to {{death|1.4x}}, and their health modifiers in other modes from 1.5x to 1.75x.
+**Buffed True Eyes of Cthulhu's health modifier from 125x to 150x.
+*Buffed [[The Perforator Hive]]'s health from {{dv|2500|4000|5000|7000}} to {{dv|2500|4000|5750|8049}}.
+*Buffed [[Plantera]]'s Death Mode health modifier from {{death|2.381x}} to {{death|2.681x}}, and her health modifier in other modes from 1.35x to 1.65x.
+*Buffed [[Polterghast]]'s health from {{dv|300,000|480,000|560,000|760,000}} to {{dv|420,000|672,000|784,000|1,064,000}}.
+*Buffed [[Providence, the Profaned Goddess]]' health from {{dv|230,000|368,000|416,000|560,000}} to {{dv|264,500|423,200|478,400|644,000}}.
+*[[Queen Bee]] now gains a 1.55x health modifier in Death Mode, and a 1.05x health modifier in other modes instead of only having a 1.5x health modifier in Death Mode.
+*Buffed [[Signus, Envoy of the Devourer]]'s health from {{dv|280,000|448,000|528,000|856,000}} to {{dv|280,000|448,000|712,800|1,155,600}}.
+**Buffed health during The Devourer of Gods' fight from {{dv|140,000|224,000|272,000|248,000}} to {{dv|140,000|224,000|367,200|334,800}}.
+*Buffed [[The Siren]]'s health from {{dv|23,800|38,080|45,952|64,000}} to {{dv|23,800|38,080|55,142|76,800}}.
+*[[Skeletron]] now gains a {{death|1.3x}} health modifier in Death Mode, and a 1.15x health modifier in other modes instead of only having a {{death|1.15x}} health modifier in Death Mode.
+*Buffed [[Skeletron Prime]]'s Death Mode health modifier from {{death|2x}} to {{death|2.05x}}, and its health modifier in other modes from 1.35x to 1.4x.
+*Buffed Ebonian Slime God's health from {{dv|4000|6400|8000|11,200}} to {{dv|4000|6400|8800|12,320}}, and its split form's health from {{dv|2000|3200|4000|5600}} to {{dv|2000|3200|4400|6160}}.
+*Buffed Crimulan Slime God's health from {{dv|3500|5600|7000|9800}} to {{dv|3500|5600|7700|10,780}}, and its split form's health from {{dv|1750|2800|3500|4900}} to {{dv|1750|2800|3851|5390}}.
+*Buffed [[Spazmatism]]'s Death Mode health modifier from {{death|1.6x}} to {{death|1.7x}}, and its health modifier in other modes from 1.35x to 1.45x.
+*Buffed [[Wall of Flesh]]'s Death Mode health modifier from {{death|2.05x}} to {{death|2.2x}}, and its health modifier in other modes from 1.5x to 1.65x.
+{{collapse bottom}}
+*Numerous damage resistance values have been adjusted, a full list can be found below:
+{{collapse top|New damage resistance values (Click to open)|(Click to collapse)}}
+{| class="terraria lined"
+! Damage Resistance Percentage !! Previously had !! Now have
+|-
+| 10%
+| [[Aquatic Parasite]] {{-}} [[Bone Serpent]] head {{-}} Brain of Cthulhu {{-}} [[Creeper]] {{-}} Crimulan Slime God {{-}} [[Cuttlefish]] {{-}} [[Derpling]] {{-}} Desert Scourge head {{-}} Eater of Worlds body {{-}} Ebonian Slime God {{-}} King Slime {{-}} [[Nymph]] {{-}}  [[Oarfish]] head
+| [[Cloud Elemental]] {{-}} [[Colossal Squid]] {{-}} [[Crab]] {{-}} Desert Scourge body {{-}} Lunatic Cultist {{-}} Moon Lord {{-}} [[Mothron]] {{-}} [[Pirate Captain]] {{-}} [[Sea Snail]] {{-}} Siren {{-}} Skeletron {{-}} Skeletron Hand {{-}} 
+|-
+| 15%
+| Astrageldon Slime {{-}} Brimstone Elemental {{-}} [[Catfish (enemy)|Catfish]] {{-}} Desert Scourge body {{-}} Eye of Cthulhu {{-}} [[Frogfish]] {{-}} [[Laserfish]] {{-}} Perforator Hive {{-}} Queen Bee {{-}} [[Viperfish]] {{-}} Wall of Flesh Eye
+| [[Anomura Fungus]] {{-}} [[Arapaima]] {{-}} [[Armored Viking]] {{-}} [[Betsy]] {{-}} Cryogen {{-}} [[Cryon]] {{-}} [[Ice Golem]] {{-}} [[Ice Queen]] {{-}} [[Ogre]] {{-}} [[Pumpking]] {{-}} [[Sand Elemental]] {{-}} [[Skeleton Archer]]
+|-
+| 20%
+| Arapaima {{-}} Colossal Squid {{-}} Crabulon {{-}} Eater of Worlds tail {{-}} [[Flounder]] {{-}} [[Gulper Eel]] head {{-}} The Hive Mind (phase 1) {{-}} The Hive Mind (phase 2) {{-}} [[Moray Eel]] {{-}} Oarfish body 
+{{-}} [[Reaper]] {{-}} Sand Elemental {{-}} [[Scorn Eater]] {{-}} [[Sea Urchin]] {{-}} Stasis Probe (naked)
+| Armored Skeleton {{-}} [[Dutchman Cannon]] {{-}} Golem {{-}} [[Mauler]] {{-}} Ogre (tier 3)
+|-
+| 25%
+| [[Cryon]] {{-}} [[Giant Squid]] {{-}} Ice Queen {{-}} Pirate Captain {{-}} Pumpking {{-}} Skeleton Archer {{-}} Skeletron {{-}} [[Werewolf]]
+| [[Martian Drone]] {{-}} [[Martian Saucer]] {{-}} [[Phantom Debris]] {{-}} Spazmatism {{-}} [[Tesla Turret]]
+|-
+| 30%
+| Bone Serpent body {{-}} Cloud Elemental {{-}} [[Ice Golem]] {{-}} Plantera {{-}} Siren 
+| [[Gnasher]] {{-}} Skeletron Prime
+|-
+| 35%
+| Anomura Fungus {{-}} Armored Skeleton {{-}} Betsy {{-}} Cryogen {{-}} Duke Fishron {{-}} Lunatic Cultist {{-}} Moon Lord Eyes {{-}} Ogre {{-}} [[Rune Wizard]] {{-}} Signus, Envoy of the Devourer {{-}} Spazmatism
+| [[Corrupt Mimic]] {{-}} [[Crimson Mimic]] {{-}} [[Hallowed Mimic]] {{-}} [[Jungle Mimic]] {{-}} [[Present Mimic]]
+|-
+| 40%
+| Gulper Eel body {{-}} [[Phantom Spirit]] (all) {{-}} Mauler
+| [[Ice Tortoise]]
+|-
+| 45%
+| Armored Viking {{-}} Crab {{-}} Oarfish tail {{-}} Phantom Debris
+|
+|-
+| 50%
+| Bone Serpent tail {{-}} Cosmic Lantern {{-}} Corrupt Mimic {{-}} Crimson Mimic {{-}} Dutchman Cannon {{-}} [[Gnasher]] {{-}} Hallowed Mimic {{-}} Jungle Mimic {{-}} Martian Drone {{-}} Martian Saucer {{-}} Moon Lord {{-}} Mothron {{-}} Ogre (tier 3) {{-}} Present Mimic {{-}} Skeletron Prime {{-}} Tesla Turret
+|
+|-
+| 55%
+| Gulper Eel tail
+|
+|-
+| 60%
+| Destroyer tail
+|
+|-
+| 65%
+| [[Deadly Sphere]] {{-}} Golem
+|
+|-
+| 70%
+| [[Paladin]]
+|
+|-
+| 75%
+| Mothron Egg {{-}} Sea Snail {{-}} Wall of Flesh
+|}
+{{Collapse bottom}}
+*Several Abyss enemies now drop Voidstone.
+**[[Adult Eidolon Wyrm]]s now drop 80-101 Voidstone.
+**[[Bloatfish]] now drop 10-21 Voidstone.
+**[[Juvenile Eidolon Wyrm]]s now drop 30-41 Voidstone.
+**[[Luminous Corvina]] now drop 8-16 Voidstone.
+**[[Reaper Shark]]s now drop 40-51 Voidstone.
+*Lowered [[Bumblebirb]]'s velocity when it's fleeing once the player is killed.
+*[[The Devourer of Gods]]' final phase's body now takes 15% damage from infinitely piercing projectiles instead of 20%.
+*[[Eidolist]]s can now drop [[Ectoplasm]] and [[Lumenyl]] after [[Calamitas]] has been defeated.
+*The Hive Mind now drops {{dv|10-21|15-31}} [[Cursed Flame]]s in Hardmode.
+*Nerfed Jungle Dragon, Yharon's damage reduction scaling.
+*The Moon Lord now generates Exodium Clusters on Planetoids when defeated for the first time.
+*[[Overloaded Soldier]]s and [[Phantom Debris]] now drop [[Phantoplasm]] after the Moon Lord has been defeated instead of Providence, the Profaned Goddess.
+*The Perforator Hive now drop 10-21 [[Ichor]] in Hardmode in Normal Mode.
+*Buffed Polterghast's damage reduction scaling.
+*Providence, the Profaned Goddess now generates a cage of Profaned Rock instead of [[Lihzahrd Brick]].
+*Buffed Providence, the Profaned Goddess' damage reduction scaling.
+*[[The Slime God]] now drops 1 Static Refiner.
+*[[Storm Weaver]]'s first phase now has gores.
+*[[Supreme Calamitas]] no longer instantly kills the player if they aren't taking enough damage from hits.
+
+=== [[Items]] ===
+*Nerfed [[The Absorber]]'s life regeneration boost when standing still from 6 to 3.
+*Lowered [[Abyss Chest]]'s value by 10%.
+*[[Abyss Chest]] changes:
+**Recipe:
+***No longer uses 2 [[Depth Cells]], 8 [[Spooky Wood]], and 2 [[Tenebris]] at any [[Work Bench]].
+***Now uses 2 [[Iron Bar]]s/[[Lead Bar]]s and 8 Smooth Abyss Gravel at a Void Condenser.
+**Changed how the chest shines when placed.
+**Changed map color from ({{color|#000046 ●|#000046}}) to ({{color|#C8C8C8 ●|#C8C8C8}}).
+**Name now displays as "Abyss Chest" on the map instead of "Sunken Chest".
+*[[Abyss Gravel]]'s name no longer shows up when hovered over on the map.
+*Lowered [[Affliction]]'s life regeneration boost from {{dv|2|0|3}} to {{dv|1|0|2}}.
+*[[Astral Arcanum]] now has a UI.
+**No longer uses hotkeys for each location, and now simply just uses one key to open the UI.
+**Updated tooltip to reflect this.
+*Moved the [[Magic Carpet]] line in [[Auric Tesla Cuisses]]' tooltip to a new line.
+*The [[Celestial Jewel]] and Astral Arcanum now only boost life regeneration by 2 instead of 4 when not under a damaging debuff.
+*Increased the amount of frames it takes for the [[Core of the Blood God]] and [[Bloodflare Core]] to heal the player.
+*[[Cosmic Worm]] now longer requires 5 [[Soul of Might|Souls of Might]].
+*Removed life regeneration nerfs given to [[Crimson armor]] and [[Campfire]]s.
+*[[Earth]]'s explosive projectiles no longer change size upon exploding.
+*[[Feralthorn Claymore]] now shoots [[Vilethorn]]'s projectile instead of its own custom projectile.
+*[[Rare Waifu in a Bottle]]'s Rare Sand Elemental minion reworked:
+**No longer casts sandstorms.
+**Now occasionally spawns healing orbs which the player can collect to recover 15 health.
+
+=== Other ===
+*The Abyss now transitions from Abyss Gravel to Voidstone in deeper layers. This includes the houses within it.
+*The [[Boss Health Bar]] now accounts for the [[Old One's Army]] event's progression bar.
+*The Boss Health Bar now counts the Moon Lord's individual parts.
+*Lowered [[Heart Attack]]'s life regeneration boost from 2 to 1.
+*Starter items will now be granted to the player if they die in Mediumcore mode.
+*Increased volume for all [[Music]] tracks.
+*The world's height is now increased to account for Planetoids.
+*Revengeance Mode now cuts the player's damage reduction by 66% instead of 70%.
+*The [[Water]] in the [[Sulphurous Sea]] now takes 3x longer to lower the player's life regeneration.
+
+=== Resprites ===
+==== Bosses and Enemies ====
+*Resprited [[Astral Slime]], [[Charred Slime]], [[Cloud Elemental]], Necroplasm.
+
+==== Armor and Accessories ====
+*Resprited [[Aerospec Breastplate]], [[Aerospec Hat]], [[Aerospec Headgear]], [[Aerospec Helm]], [[Aerospec Helmet]], [[Aerospec Hood]], [[Aerospec Leggings]], [[Astral Breastplate]], [[Astral Helm]], [[Astral Leggings]].
+*Resprited [[Abyssal Diving Suit]], [[Harpy Ring]], [[Rare Waifu in a Bottle]], [[Skyline Wings]], [[Waifu in a Bottle]], [[Yharim's Gift]].
+*Resprited both [[Siren's Heart]]s' equipped sprites.
+
+==== Weapons and Tools ====
+*Resprited [[Abyss Blade]], [[Air Spinner]], [[Anarchy Blade]], [[Astral Blade]], [[Astral Blaster]], [[Astral Pike]], [[Astral Repeater]], [[Astral Staff]], [[Atlantis]], [[Ballistic Poison Bomb]], [[Bloody Edge]], [[Brimblade]], [[Brimlash]], [[Brimlash Buster]], [[Brimrose Staff]], [[Brimstone Fury]], [[Brimstone Sword]], [[Burning Sea]], [[Demonic Pitchfork]], [[Depth Blade]], [[Dreadmine Staff]], [[Feather Knife]], [[Flak Kraken]], [[Galeforce]], [[Goldplume Spear]], [[Heart Rapier]], [[Neptune's Bounty]], [[Nuclear Fury]], [[Planetary Annihilation]], [[Primordial Earth]], [[Tears of Heaven]], [[Tradewinds]], [[True Bloody Edge]], [[Typhon's Greed]], [[Undine's Retribution]], [[Wind Blade]].
+*Resprited [[Aerial Hamaxe]], [[Astral Hamaxe]], [[Astral Pickaxe]], [[Skyfringe Pickaxe]].
+
+==== Buffs ====
+*Resprited [[Abyssal Diving Suit (buff)]], [[Abyssal Diving Suit Plates]], [[Abyssal Diving Suit Plates Broken]], [[Blighted Eyes (buff)]], [[Brimstone Elemental (buff)|Brimstone Waifu (buff)]], [[Hydrothermic Vent (buff)|Chaos Spirit (buff)]], [[Cloud Elemental (buff)|Cloudy Waifu (buff)]], [[Daedalus Crystal (buff)]], [[Elemental Axe (buff)]], [[Nightwither]], [[Omniscience]], [[Sand Elemental (buff)|Sandy Waifu (buff)]], [[Rare Sand Elemental (buff)|Sandy Waifu (rare)]], [[Water Elemental (buff)|Blue Siren]], Green Siren, [[Solar God Spirit (buff)]], [[Solar Spirit (buff)]].
+
+==== Projectiles ====
+*Resprited Air Spinner's projectile, Cloud Waifu minion, Dreadmine Turret and its mines, Flak Kraken's projectile, Sandy Waifu minion, True Bloody Edge's projectile.
+*The Rare Sandy Waifu minion now uses the Sandy Waifu minion's previous sprite.
+
+==== Other ====
+*Resprited [[Astral Bar]], [[Blood Relic]], [[Phantom Heart]], [[Starcore]], [[Stardust]], [[Unholy Core]].
+*Resprited Storm Weaver's gores.
+*Resprited [[Abyss Chest]].
+
+== Fixes ==
+*Corrected the damage types of several weapons listed below:
+{{collapse top|Weapon damage type fixes (Click to open)|(Click to collapse)}}
+*[[Fractured Ark|Ark of the Ancients]] and [[True Ark of the Ancients]]' stars now deal melee damage instead of ranged damage.
+*[[Astreal Defeat]]'s flames now deal ranged damage instead of magic damage.
+*[[Banshee Hook]]'s explosions now deal melee damage.
+*Crimsaber's ichor projectiles now deal melee damage instead of magic damage.
+*[[Dragon's Breath]]'s explosions now deal ranged damage instead of melee damage.
+*Both variants of the [[Eradicator]]'s lasers now deal their respective damage types instead of ranged damage.
+*The thrown variant of the [[Flame Scythe]]'s explosions now deal throwing damage instead of melee damage.
+*[[Holy Fire Bullet]]'s explosions now deal ranged damage instead of melee damage.
+*[[Impaler]]'s explosions now deal ranged damage instead of melee damage.
+*[[Lazhar]]'s explosions now deal magic damage instead of melee damage.
+*[[Purge Guzzler]]'s explosions now deal magic damage instead of melee damage.
+*[[Shimmerspark]]'s stars now deal melee damage instead of ranged damage.
+*[[Spear of Paleolith]]'s fossils now deal throwing damage instead of ranged damage.
+*[[Sun God Staff]]'s explosions now deal summon damage instead of magic damage.
+*[[Sun Spirit Staff]]'s beam now deals summon damage instead of magic damage.
+{{Collapse bottom}}
+*Fixed a bug with the Boss Health Bar.
+*Fixed cropping on [[Brimrose]]'s mount.
+*Fixed an issue where one of the [[Brimstone Crag]]'s chests contained a [[Silver Bullet]] instead of a [[Dark Lance]].
+*Fixed an oversight where [[Briny Baron]]'s razorblade projectile's size still scaled throughout progression.
+*Fixed [[Toxic Minnow]] using [[Cuttlefish]]'s glowmask.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

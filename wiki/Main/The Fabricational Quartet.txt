@@ -1,0 +1,868 @@
+<section begin=npc infobox/>
+{{npc infobox
+| name = The Fabricational Quartet
+| type = Boss
+| imagealt = [[File:The Fabricational Quartet.png|300px]]
+| life = {{dv|3,460,000|5,536,000|6,624,000|||8,304,000|9,936,000}} (total)
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| listexclude = yes
+|Delicious Meat|{{dv|4800-6400|6000-8000}}|100%
+| Draedon's Heart|1|100%
+| Exo Box|1|100%
+| Draedon Mask|1|28.57%
+| custom| {{item|The Exo Mechs (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Miracle Matter (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|The Exosphere (Lore)|note=(Always on first kill) {{fantag|Calamity: Community Remix}}|wrap=y}}|100%
+| custom| {{item|Draedon Relic|note=(In [[Master Mode|Master]] and [[Revengeance Mode]] only)|wrap=y}}|{{dv|||100%|||100%}}
+| group|If Ares has been defeated last:|4
+| custom| {{item|Photon Ripper}}|100%
+| custom| {{item|The Jailor}}|100%
+| custom| {{item|Ares' Exoskeleton}}|100%
+| custom| {{item|Ares Mask}}|28.57%
+| custom| {{item|Ares Trophy}}|100%
+| group|If Artemis and Apollo have been defeated last:|6
+| custom| {{item|Surge Driver}}|100%
+| custom| {{item|The Atom Splitter}}|100%
+| custom| {{item|Artemis Mask}}|28.57%
+| custom| {{item|Apollo Mask}}|28.57%
+| custom| {{item|Artemis Trophy}}|100%
+| custom| {{item|Apollo Trophy}}|100%
+| group|If Thanatos has been defeated last:|4
+| custom| {{item|Spine of Thanatos}}|100%
+| custom| {{item|Refraction Rotor}}|100%
+| custom| {{item|P.G.D.R.}}|100%| custom| {{item|Thanatos Mask}}|28.57%| custom| {{item|Thanatos Trophy}}|100%
+| boxwidth = 30em
+| Yharim Bar|{{dv|6-8|7-9|9-11}}|100% {{fantag|Calamity: Community Remix}}
+}}
+<section end="npc" infobox="" />
+{{dablink|If you were looking for something other than the boss, see [[Exo Mechs]].}}
+
+[[File:The Exo Mechs (Lore).png]] <big> ''"The fruits of masterful craftsmanship and optimization, created only with the objective to destroy."''</big> [[File:The Exo Mechs (Lore).png]]
+
+'''The Fabricational Quartet''' (Japanese: 捏造カルテット ''Netsuzō karutetto'') is a group of [[Exo Mechs]] that is intended to be fought around the same time as [[Supreme Calamitas]], post-[[Moon Lord|Jungle Dragon, Yharon]]. The battle consists of a passive '''Draedon''' along with the four Exo Mechs: '''XS-01 Artemis''' and '''XS-03 Apollo''', '''XM-05 Thanatos''', and '''XF-09 Ares'''. They are currently one of the most challenging bosses in the Calamity Mod.
+
+Defeating them will provide the player with [[Exo Prism]]s, a [[crafting material]] for various endgame equipment. After the defeat of '''XM-O5 Thanatos''', the player will recieve 4800-6400 [[Delicious Meat]].
+
+
+Should the player wish, one or more [[Exo Mech Summoning Items]] can be used to summon and fight any of the Fabricational Quartet individually.
+
+{{toc limit|3}}
+
+==Spawn==
+{{fantag|Calamity: Community Remix}} The Fabricational Quartet does not spawn on its own, and require the player to construct a 4 by 5 gateway of [[Rusted Pipes]] then throwing the [[Auric Quantum Cooling Cell]] crafted by decrypting every schematic at [[The Codebreaker]] onto it. Afterwards, the player will enter [[The Exosphere]] [[subworld]], where Draedon will allow the player to choose an Exo Mech that will be spawned first.
+
+Once summoned, Draedon will allow the player to choose an Exo Mech that will be spawned first.
+*{{item|Thanatos Selection Icon|link=|mode=image}} Thanatos, a serpentine terror with impervious armor and innumerable laser turrets.
+*{{item|Ares Selection Icon|link=|mode=image}} Ares, a heavyweight, diabolical monstrosity with four Exo superweapons.
+*{{item|Artemis and Apollo Selection Icon|link=|mode=image}} Artemis and Apollo, a pair of extremely persistent automatons with unstable energy reserves.
+
+[[File:Exosphere Portal.jpeg]]
+
+==Bosses==
+===Ares===
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Boss
+| name = XF-09 Ares
+| namesub = Body
+| life = {{dv|1,250,000|2,000,000|2,392,000|||3,000,000|3,588,000}}
+| damage = 0 (Contact)<br/>{{defense damage}} {{element|Fire}}{{element|Cold}} {{dv|300|508|528|544||780}} (Exo Overload Beam)
+| defense = 100
+| dr = 35
+| knockback = 100
+| money = {{value|0|0|0|0|15}}
+| Omega Healing Potion|5-15|100%
+| image2 = Ares map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| debuff = Vaporfied
+| debuffchance = 100%
+| debufftip = Vaporizing senses and mind
+| duration = 10 seconds (Exo Overload Beam)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| hurt = ExoHit1.wav, ExoHit2.wav, ExoHit3.wav, ExoHit4.wav
+| killed = ExoDeath.wav
+| sound = AresEnraged.wav
+| soundtext = Enraged
+| sound2 = LaserCannon.wav
+| sound2text = Beam Telegraph
+| sound3 = TeslaCannonFire.wav
+| sound3text = Beam Shot
+| vulnerable1 = Magic
+| vulnerable2 = Water
+| vulnerable3 = Fire
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Slash
+| resistant4 = Machine
+}}
+|{{npc infobox
+| type = Boss
+| name = XF-09 Ares Gauss Nuke
+| life = {{dv|1,250,000|2,000,000|2,392,000|||3,000,000|3,588,000}}
+| damage = 0 (Contact)<br/>{{element|Holy}} {{defense damage}} {{dv|400|608|640|658||960}} (Gauss Nuke)<br/>{{element|Fire}} {{dv|200|304|320|329||480}} (Gauss Spark)
+| defense = 80
+| dr = 35
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| debufftip = Losing life
+| duration = 8 seconds (Gauss Explosion)<br/>3 seconds (Gauss Spark)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| hurt = ExoHit1.wav, ExoHit2.wav, ExoHit3.wav, ExoHit4.wav
+| killed = ExoDeath.wav
+| sound = LargeWeaponFire.wav
+| soundtext = Nuke Launch
+| sound2 = TeslaCannonFire.wav
+| sound2text = Nuke Explosion
+| vulnerable1 = Magic
+| vulnerable2 = Water
+| vulnerable3 = Fire
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Slash
+| resistant4 = Machine
+}}
+|{{npc infobox
+| type = Boss
+| name = XF-09 Ares Laser Cannon
+| life = {{dv|1,250,000|2,000,000|2,392,000|||3,000,000|3,588,000}}
+| damage = 0 (Contact)<br/>{{element|Fire}} {{dv|300|508|528|544||780}} (Exothermal Laser)<br/>{{element|Fire}} {{defense damage}} {{dv|240|408|432|456||630}} (Red Exo Pulse Laser)
+| defense = 80
+| dr = 35
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debufftip = Rapid health loss
+| duration = 5 seconds (Exothermal Laser)<br/>3 seconds (Red Exo Pulse Laser)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| hurt = ExoHit1.wav, ExoHit2.wav, ExoHit3.wav, ExoHit4.wav
+| killed = ExoDeath.wav
+| sound = CrystylCharge.wav
+| soundtext = Laser Charge
+| sound2 = LaserCannon.wav
+| sound2text = Laser Shot
+| vulnerable1 = Magic
+| vulnerable2 = Water
+| vulnerable3 = Fire
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Slash
+| resistant4 = Machine
+}}
+|{{npc infobox
+| type = Boss
+| name = XF-09 Ares Plasma Cannon
+| life = {{dv|1,250,000|2,000,000|2,392,000|||3,000,000|3,588,000}}
+| damage = 0 (Contact)<br/>{{element|Poison}} {{defense damage}} {{dv|240|408|432|456||630}} (Volatile Plasma Blast)<br/>{{element|Poison}} {{defense damage}} {{dv|192|324|346|365||504}} (Exoplasma Bolt)
+| defense = 80
+| dr = 35
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| debufftip = Losing life
+| duration = 6 seconds (Volatile Plasma Blast)<br/>3 seconds (Exoplasma Bolt)
+| debuff2 = Cursed Inferno
+| debuffchance2 = 100%
+| debufftip2 = Losing life<br/>All damage taken increased by 20%
+| duration2 = 3 seconds (Volatile Plasma Blast)<br/>1.5 seconds (Exoplasma Bolt)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| hurt = ExoHit1.wav, ExoHit2.wav, ExoHit3.wav, ExoHit4.wav
+| killed = ExoDeath.wav
+| sound = PlasmaCasterFire.wav
+| soundtext = Plasma Shot
+| sound2 = Item_93.wav
+| sound2text = Plasma Explosion
+| vulnerable1 = Magic
+| vulnerable2 = Water
+| vulnerable3 = Fire
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Slash
+| resistant4 = Machine
+}}
+|{{npc infobox
+| type = Boss
+| name = XF-09 Ares Tesla Cannon
+| life = {{dv|1,250,000|2,000,000|2,392,000|||3,000,000|3,588,000}}
+| damage = 0 (Contact)<br/>{{element|Fire}} {{dv|240|408|432|456||630}} (Tesla Sphere)
+| defense = 80
+| dr = 35
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| debuff = Electrified
+| debuffchance = 100%
+| debufftip = Moving hurts!
+| duration = 4 seconds (Tesla Sphere)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| hurt = NPC_Hit_4.wav
+| hurt = ExoHit1.wav, ExoHit2.wav, ExoHit3.wav, ExoHit4.wav
+| killed = ExoDeath.wav
+| soundtext = Orb Shot
+| vulnerable1 = Magic
+| vulnerable2 = Water
+| vulnerable3 = Fire
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Slash
+| resistant4 = Machine
+}}
+}}
+
+===Artemis and Apollo===
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Boss
+| type2 = Flying Enemy
+| name = XS-01 Artemis
+| namesub = First Phase
+| life = {{dv|1,250,000|2,000,000|2,392,000|||3,000,000|3,588,000}}
+| damage = {{element|Fire}} {{defense damage}} {{dv|300|480|512|528||660}} (Charge)<br/>{{element|Fire}} {{defense damage}} {{dv|240|408|432|456||630}} (Orange Exo Pulse Laser)
+| defense = 80
+| dr = 25
+| knockback = 100
+| image2 = Artemis Phase 1 map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debufftip = Rapid health loss
+| duration = 3 seconds (Orange Exo Pulse Laser)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| hurt = ExoHit1.wav, ExoHit2.wav, ExoHit3.wav, ExoHit4.wav
+| killed = ExoDeath.wav
+| sound = LaserCannon.wav
+| soundtext = Laser Shot
+| sound2 = ELRFire.wav
+| sound2text = Charge
+| sound3 = LargeWeaponFire.wav
+| sound3text = Phase Transition
+| vulnerable1 = Magic
+| vulnerable2 = Water
+| vulnerable3 = Fire
+| vulnerable4 = Stab
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Dark
+| resistant4 = Machine
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Flying Enemy
+| name = XS-03 Apollo
+| namesub = First Phase
+| life = {{dv|1,250,000|2,000,000|2,392,000|||3,000,000|3,588,000}}
+| damage = {{element|Poison}} {{defense damage}} {{dv|240|408|432|456||630}} (Large Volatile Plasma Blast)<br/>{{element|Poison}} {{defense damage}} {{dv|192|324|346|365||504}} (Exoplasma Bolt)<br/>{{element|Poison}} {{defense damage}} {{dv|280|476|484|500||726}} (High Explosive Plasma Rocket)
+| defense = 80
+| dr = 25
+| knockback = 100
+| image2 = Apollo Phase 1 map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| debufftip = Losing life
+| duration = 6 seconds (Large Volatile Plasma Blast, High Explosive Plasma Rocket)<br/>3 seconds (Exoplasma Bolt)
+| debuff2 = Cursed Inferno
+| debuffchance2 = 100%
+| debufftip2 = Losing life<br/>All damage taken increased by 20%
+| duration2 = 3 seconds (Large Volatile Plasma Blast, High Explosive Plasma Rocket)<br/>1.5 seconds (Exoplasma Bolt)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| hurt = ExoHit1.wav, ExoHit2.wav, ExoHit3.wav, ExoHit4.wav
+| killed = ExoDeath.wav
+| sound = PlasmaCasterFire.wav
+| soundtext = Plasma Shot
+| sound2 = Item_93.wav
+| sound2text = Plasma Explosion
+| sound3 = Item_36.wav
+| sound3text = Rocket Barrage
+| sound4 = Item_14.wav
+| sound4text = Rocket Explosion
+| sound5 = LargeWeaponFire.wav
+| sound5text = Phase Transition
+| vulnerable1 = Magic
+| vulnerable2 = Water
+| vulnerable3 = Fire
+| vulnerable4 = Stab
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Dark
+| resistant4 = Machine
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Flying Enemy
+| name = XS-01 Artemis
+| namesub = Second Phase
+| image = XS-01 Artemis (Phase 2).png
+| life = 750,000 / 1,250,000<br/>{{expert|1,200,000 / 2,000,000}}<br/>{{revengeance|1,435,200 / 2,392,000}}<br/>{{master|1,800,000 / 3,000,000}}<br/>{{revengeanceMaster|2,152,800 / 3,588,000}}
+| damage = {{element|Fire}} {{defense damage}} {{dv|240|408|432|456||630}} (Orange Exo Pulse Laser)<br/>{{element|Fire}} {{defense damage}} {{dv|300|508|528|544||780}} (Orange Exothermal Beam)
+| defense = 80
+| dr = 25
+| knockback = 100
+| image2 = Artemis Phase 2 map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debufftip = Rapid health loss
+| duration = 5 seconds (Orange Exothermal Beam)<br/>3 seconds (Orange Exo Pulse Laser)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| hurt = ExoHit1.wav, ExoHit2.wav, ExoHit3.wav, ExoHit4.wav
+| killed = ExoDeath.wav
+| sound = LaserCannon.wav
+| soundtext = Laser Shot
+| sound2 = ELRFire.wav
+| sound2text = Charge
+| sound3 = Zombie_104.wav
+| sound3text = Beam Shot
+| vulnerable1 = Magic
+| vulnerable2 = Water
+| vulnerable3 = Fire
+| vulnerable4 = Stab
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Dark
+| resistant4 = Machine
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Flying Enemy
+| name = XS-03 Apollo
+| namesub = Second Phase
+| image = XS-03 Apollo (Phase 2).png
+| life = 750,000 / 1,250,000<br/>{{expert|1,200,000 / 2,000,000}}<br/>{{revengeance|1,435,200 / 2,392,000}}<br/>{{master|1,800,000 / 3,000,000}}<br/>{{revengeanceMaster|2,152,800 / 3,588,000}}
+| damage = {{element|Poison}} {{defense damage}} {{dv|320|512|544|560||696}} (Charge Combo)<br/>{{element|Poison}} {{defense damage}} {{dv|240|408|432|456||630}} (Large Volatile Plasma Blast)<br/>{{element|Poison}} {{defense damage}} {{dv|192|324|346|365||504}} (Exoplasma Bolt)<br/>{{element|Poison}} {{defense damage}} {{dv|280|476|484|500||726}} (High Explosive Plasma Rocket)
+| defense = 80
+| dr = 25
+| knockback = 100
+| money = {{value|0|0|0|0|15}}
+| Omega Healing Potion|5-15|100%
+| image2 = Apollo Phase 2 map.png
+| image2caption = Map Icon
+| hardmode = yes
+| postml = yes
+| debuff = On Fire!
+| debuffchance = 100%
+| debufftip = Losing life
+| duration = 6 seconds (Large Volatile Plasma Blast, High Explosive Plasma Rocket)<br/>3 seconds (Exoplasma Bolt)
+| debuff2 = Cursed Inferno
+| debuffchance2 = 100%
+| debufftip2 = Losing life<br/>All damage taken increased by 20%
+| duration2 = 3 seconds (Large Volatile Plasma Blast, High Explosive Plasma Rocket)<br/>1.5 seconds (Exoplasma Bolt)
+| immune1 = Confused
+| immune2 = Pearl Aura
+| hurt = ExoHit1.wav, ExoHit2.wav, ExoHit3.wav, ExoHit4.wav
+| killed = ExoDeath.wav
+| sound = PlasmaCasterFire.wav
+| soundtext = Plasma Shot
+| sound2 = Item_93.wav
+| sound2text = Plasma Explosion
+| sound3 = Item_36.wav
+| sound3text = Rocket Barrage
+| sound4 = Item_14.wav
+| sound4text = Rocket Explosion
+| sound5 = LaserCannon.wav
+| sound5text = Charge Telegraph
+| sound6 = ELRFire.wav
+| sound6text = Charge
+| vulnerable1 = Magic
+| vulnerable2 = Water
+| vulnerable3 = Fire
+| vulnerable4 = Stab
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Dark
+| resistant4 = Machine
+}}
+}}
+
+===Thanatos===
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Boss
+| type2 = Flying Enemy
+| type3 = Burrowing Enemy
+| name = XM-05 Thanatos Head
+| life = {{dv|960,000|1,536,000|1,840,000|||2,304,000|2,760,000}}
+| damage = {{element|Dark}} {{defense damage}} {{dv|350|560|592|608||756}} (Contact)<br/>{{element|Fire}} {{defense damage}} {{dv|350|592|624|656||780}} (Gamma Disintegration Beam)
+| defense = 80
+| dr = 99.99% / 0
+| knockback = 100
+| money = {{value|0|0|0|0|15}}
+| Omega Healing Potion|5-15|100%
+| image2 = Thanatos Head map.png
+| image2caption = Map Icon
+| image3 = Thanatos Vulnerable Head map.png
+| image3caption = Map Icon (Vulnerable)
+| hardmode = yes
+| postml = yes
+| immuneall = yes
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debufftip = Rapid health loss
+| duration = 6 seconds (Gamma Disintegration Beam)
+| hurt = ExoHit1.wav, ExoHit2.wav, ExoHit3.wav, ExoHit4.wav
+| killed = ExoDeath.wav
+| sound = ThanatosVent.wav
+| soundtext = Open Segment
+| sound2 = OtherworldlyHit.wav
+| sound2text = Open Segment Hurt
+| sound3 = THanosLaser.wav
+| sound3text = Beam Shot
+| sound4 = LaserCannon.wav
+| sound4text = Splitting Lasers
+| vulnerable1 = Magic
+| vulnerable2 = Water
+| vulnerable3 = Slash
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Holy
+| resistant4 = Machine
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Flying Enemy
+| type3 = Burrowing Enemy
+| name = XM-05 Thanatos Body
+| life = {{dv|960,000|1,536,000|1,840,000|||2,304,000|2,760,000}}
+| damage = {{element|Dark}} {{defense damage}} {{dv|300|480|512|528||660}} (Contact)<br/>{{element|Fire}} {{defense damage}} {{dv|240|408|432|456||630}} (Red Exo Pulse Laser)
+| defense = 100
+| dr = 99.99% / 0
+| knockback = 100
+| image2 = Thanatos Body map.png
+| image2caption = Map Icons
+| image3 = Thanatos Vulnerable Body map.png
+| image3caption = Map Icons (Vulnerable)
+| hardmode = yes
+| postml = yes
+| immuneall = yes
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debufftip = Rapid health loss
+| duration = 3 seconds (Red Exo Pulse Laser)
+| hurt = ExoHit1.wav, ExoHit2.wav, ExoHit3.wav, ExoHit4.wav
+| killed = ExoDeath.wav
+| sound = ThanatosVent.wav
+| soundtext = Open Segment
+| sound2 = OtherworldlyHit.wav
+| sound2text = Open Segment Hurt
+| sound3 = LaserCannon.wav
+| sound3text = Laser Shot
+| vulnerable1 = Magic
+| vulnerable2 = Water
+| vulnerable3 = Slash
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Holy
+| resistant4 = Machine
+}}
+|{{npc infobox
+| type = Boss
+| type2 = Flying Enemy
+| type3 = Burrowing Enemy
+| name = XM-05 Thanatos Tail
+| life = {{dv|960,000|1,536,000|1,840,000|||2,304,000|2,760,000}}
+| damage = {{element|Dark}} {{defense damage}} {{dv|250|400|424|440||552}} (Contact)<br/>{{element|Fire}} {{defense damage}} {{dv|240|408|432|456||630}} (Red Exo Pulse Laser)
+| defense = 120
+| dr = 99.99% / 0
+| knockback = 100
+| image2 = Thanatos Tail map.png
+| image2caption = Map Icon
+| image3 = Thanatos Vulnerable Tail map.png
+| image3caption = Map Icon (Vulnerable)
+| hardmode = yes
+| postml = yes
+| immuneall = yes
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debufftip = Rapid health loss
+| duration = 3 seconds (Red Exo Pulse Laser)
+| hurt = ExoHit1.wav, ExoHit2.wav, ExoHit3.wav, ExoHit4.wav
+| killed = ExoDeath.wav
+| sound = ThanatosVent.wav
+| soundtext = Open Segment
+| sound2 = OtherworldlyHit.wav
+| sound2text = Open Segment Hurt
+| sound3 = LaserCannon.wav
+| sound3text = Laser Shot
+| vulnerable1 = Magic
+| vulnerable2 = Water
+| vulnerable3 = Slash
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Holy
+| resistant4 = Machine
+}}
+}}
+
+==Behavior==
+The Fabricational Quartet fight consists of 7 phases total.
+*'''Phase 1''': The first mech chosen is fought until it reaches 70% health.
+*'''Phase 2''': The first mech chosen disappears, and two other appear. This phase continues until one of the mechs reaches 70% health.
+*'''Phase 3''': The first mech reappears and all three mechs will be present. While in this phase, all mechs are slightly slower or perform less attacks. This phase continues until one of the mechs reaches 40% health, in which it goes into a '''berserk''' state and gains new attacks.
+*'''Phase 4''': The mech at the lowest health battles the player on its own, until it is defeated.
+*'''Phase 5''': The mech with the higher remaining health returns to battle the player on its own until it reaches 70% health. Then, both surviving mechs fight the player until one of the mechs reaches 40% health. If both remaining mechs were already at 70% health, they will reappear simultaneously.
+*'''Phase 6''': The mech at the lower health battles the player on its own, until it is defeated.
+*'''Phase 7''': The last remaining mech battles the player with significantly increased speed and aggression, and will instantly go berserk regardless of its health.
+
+When the player consumes a [[Delicious Meat]], the damage done by Mechs is nerfed by 50%. The player also loses an additional Delicious Meat, which flies towards Draedon, who consumes thia addional piece. If the player instead consumes a [[Yharic Delight]], the damage done by Mechs is buffed by 100% and they gain 50% [[Damage Reduction]].
+
+===Ares===
+Ares initially spawns with four limbs: the Laser Cannon to the upper far left, Tesla Cannon to lower left, Plasma Cannon to the lower right, and Gauss Nuke to the upper far right. These share the same health pool with Ares, thus damaging any of the weapons will also damage the main health bar itself. For most of the battle, Ares and its arms will hover above the player, and will not deal contact damage.
+
+====Body====
+*The body normally follows above the player and does not have an attack until it reaches its berserk state.
+*When berserk, the boss will have an idle time of 10 seconds before performing an attack, 7 seconds if it is the last mech alive.
+*Its only attack in its berserk state is to lock in place, detach the weapons from the arms to create an X-formation, and mark areas around the core with {{dv|6|8|9|10|12}} lines. While performing this attack, all projectiles that the weapons have shot previously are destroyed. After {{dv|2.5|2|1.75|1.5|1}} seconds, the lines turn into solid Exo Overload Beams which spin around clockwise or counterclockwise for 10 seconds, with the speed of the spin increasing over the duration of the attack. 
+**All weapons except Gauss Nuke will still function during this attack, although many attacks are modified.
+**If the player exits the range of the lasers by moving 155 tiles away, Ares will temporarily enter an '''{{sound|enraged|AresEnraged.wav}}''' state until the next Exo Overload Beam attack, causing the boss and its arms to glow red, and causing its body and weapons to emit steam. In this state, all body parts will have their DR increased from 35% to 85% and attack significantly faster, and the idle time of the body also decreases by 25%.
+
+====Laser Cannon==== 
+*The Laser Cannon normally aims at the player when performing no attacks. It idles for 7.5 seconds before attacking.
+**The idle duration is reduced by 50% when berserk, 70% if it is the last mech alive, and 90% if enraged.
+*When attacking, it glows and starts pulsing rapidly, aims straight downwards or parallel to the ground, and charges up a laser for 2.4 seconds, signified by a line telegraph. This is followed up with a {{sound|charge-up sound|CrystylCharge.wav}} 1.67 seconds before firing.
+**The cannon will always aim down at first, and will alternate in direction after every fire.
+*Then, it fires a stationary Exothermal Laser in the targeted direction and the cannon sweeps towards the player for 1 second before returning to the original position. 
+**The arm velocity decreases by 50% if Artemis and Apollo are present.
+*If Ares is performing the Exo Overload Beam attack, the charge-up sound does not play, and the cannon shoots 2 {{item|Red Exo Pulse Laser|s|link=|ext=gif|size=36px}} at the player over a second duration.
+**The lasers travel in a line which is telegraphed before the cannon fires.
+**The number of lasers increases to 3 if it is the last mech alive, and 9 if enraged.
+*Both laser attacks have increased velocity if the boss is in the berserk state, further if it is the last mech alive, and even further if enraged.
+
+====Tesla Cannon==== 
+*The Tesla Cannon normally aims significantly ahead of the player when performing no attacks. It idles for 3.5 seconds before attacking, 2 seconds if Ares is performing the Exo Overload Beam attack.
+**The idle duration is reduced by 30% when berserk, 60% if it is the last mech alive, and 90% if enraged.
+**The idle duration will be offset by 1.33 seconds when Ares first spawns, and 0.38 seconds when Ares reappears following a phase transition.
+**Predictiveness increases by 50% if it is the last mech alive, decreases by 50% if Artemis and Apollo are present, and decreases by 75% if all three mechs are alive.
+*When attacking, the cannon glows and rapidly pulses for 2.4 seconds before firing a chain of 4 connecting {{item|Tesla Sphere|s|link=|ext=gif|size=18px}} over the duration of 2 seconds. The connecting arc snaps if orbs are over {{dv|60|75|80|85|100}} tiles away from each other. 
+**If Ares is performing the Exo Overload Beam attack, the orb terminal speed is halved and all connecting arcs are instantly snapped.
+**The orb count is reduced to 3 if Artemis and Apollo are present, 5 if berserk, 6 if enraged.
+**If all three mechs are alive, the orb velocity decreases.
+**The orb velocity increases if the boss is in the berserk state, further if it is the last mech alive, and even further if enraged.
+
+====Plasma Cannon====  
+*The Plasma Cannon normally aims moderately ahead of the player when performing no attacks. It idles for 3.5 seconds before attacking, 2 seconds if Ares is performing the Exo Overload Beam attack.
+**The idle duration is reduced by 30% when berserk, 60% if it is the last mech alive, and 90% if enraged.
+**The idle duration will be offset by 4.33 seconds when Ares first spawns, and 4.1 seconds following a phase transition.
+**Predictiveness decreases by 50% if Artemis and Apollo are present, and 75% if all three mechs are present.
+*When attacking, the cannon glows and rapidly pulses for 2.4 seconds before firing 2 {{item|Volatile Plasma Blast|s|link=|ext=gif|size=12px}} over the duration of 2 seconds. The blast will explode into a ring of 8 / {{malice|12}} accelerating {{item|Exoplasma Bolt|s|link=|ext=gif|size=7px}} 2 seconds after launch or upon collision with tiles. 
+**The blast count is increased to 3 if it is the last mech alive.
+**If all three mechs are alive, the blast velocity decreases.
+**The blast velocity increases if the boss is in the berserk state, further if it is the last mech alive, and even further if enraged.
+**If other mechs are present or Ares is performing the Exo Overload Beam attack, the amount of bolts spawned on the blast explosion will be halved.
+
+====Gauss Nuke====
+*The Gauss Nuke normally aims slightly ahead of the player when performing no attacks. It idles for 12.5 seconds before attacking.
+**The idle duration is reduced by 85% when berserk, 90% if it is the last mech alive, and 95% if enraged.
+**Predictiveness decreases by 50% if Artemis and Apollo are present, and 75% if all three mechs are present.
+*After glowing and rapidly pulsing for 3.6 seconds, a homing {{item|Gauss Nuke|link=|ext=gif|size=22px}} is fired along with a ring of 12 / {{malice|18}} gravity-affected {{item|Gauss Spark|s|link=|ext=gif|size=5px}}.
+**The nuke homes in towards the player until it is {{dv|20|18.75|18.125|17.5|16.25}} tiles away, upon which it continues travelling in that direction, and will explode into a massive shockwave 3 seconds after launch or upon collision with tiles.
+**The blast radius of the nuke is approximated by a translucent green circle around the projectile.
+**The pulse telegraph time is halved if the boss is enraged.
+**The nuke velocity increases if the boss is in the berserk state, further if it is the last mech alive, and even further if enraged.
+*While the nuke launches, Ares reloads another nuke within the span of 6 seconds.
+**The reload time is halved if the boss is enraged.
+
+===Artemis and Apollo===
+Artemis and Apollo initially spawn to the left and right of the player respectively. They will remain around those positions for most of the battle, with frequent small movement and infrequent charges towards the player; if all three of the Fabricational Quartet are currently active, they will position themselves 22.5 tiles lower than usual. The two entities share a health pool, thus damaging Apollo will also damage Artemis and vice versa. Upon reaching 60% health, both bosses transition into the second phase, ejecting their lenses and revealing their pulse cannons.
+
+====Artemis====
+*Relocates slightly, then fires an {{item|Orange Exo Pulse Laser|link=|ext=gif|size=36px}} at the player every 0.75 seconds.
+**The relocation range is random and varies in a range of 3.125 tiles horizontally and 15.625 tiles vertically, halved if all three mechs are present.
+**The lasers travel in a line which is telegraphed half a second before appearing.
+**The timer is decreased to 0.58 seconds if it is the last mech alive, or 1 second if any other mech is present.
+**Predictiveness decreases by 50% if one other mech is present, and 75% if all three mechs are present.
+*After {{dv|6.25|5.98|5.85|5.72|5.45}} seconds in the first phase, Artemis replaces its next normal attack with a large orange-red column that appears for 0.75 seconds, then fires a spread of {{dv|4|6||8|10}} {{item|Orange Exo Pulse Laser|s|link=|ext=gif|size=36px}} and launches in the telegraphed direction, returning to its original position after completing its charge. 
+**This attack does not occur if all three mechs are alive.
+**The dash itself is the only time Artemis will deal contact damage.
+*After {{dv|6.5|6.23|6.1|5.97|5.7}} seconds in the second phase, Artemis will select between the Laser Shotgun Barrage or Exothermal Beam attacks, which will alternate each time.
+**The timer is decreased to {{dv|5|4.87|4.8|4.73|4.6}} seconds while berserk, and {{dv|4.25|4.12|4.05|3.98|3.85}} seconds if it is the last mech alive.
+**This attack does not occur if all three mechs are alive.
+**For the Laser Shotgun Barrage attack, Artemis fires two consecutive bursts of {{dv|6|7||8|9}} {{item|Orange Exo Pulse Laser|s|link=|ext=gif|size=36px}} over a duration of 1.5 seconds.
+***Lasers are 1.5x more predictive than normal.
+***If Apollo performs the Charge Combo attack, the amount of lasers is reduced by 2. Otherwise if it is the last mech alive, the amount of lasers is increased by 2.
+***If it is the last mech alive, Artemis instead fires three bursts in 2 seconds.
+**For the Exothermal Beam attack, Artemis positions itself above the player and remains in place for one second, aiming a line in its forward direction. Then, it fires the Orange Exothermal beam straight ahead and spins around the set position for 3 seconds while sustaining the beam.
+
+====Apollo====
+*Relocates slightly, then fires a {{item|Large Volatile Plasma Blast|link=|ext=gif|size=12px}} at the player every 0.75 seconds.
+**The relocation range is random and varies in a range of 3.125 tiles horizontally and 15.625 tiles vertically, halved if all three mechs are present.
+**Blasts explode into 4 / {{malice|6}} {{item|Exoplasma Bolt|s|link=|ext=gif|size=7px}} after 1 / {{malice|0.8}} seconds.
+**The timer is decreased to 0.67 seconds if it is the last mech alive, or 1 second if any other mech is present.
+*After {{dv|6.5|6.23|6.1|5.97|5.7}} seconds in the first phase, Apollo fires three {{item|High Explosive Plasma Rocket|s|link=|ext=gif|size=12px}} over a duration of 1.5 seconds.
+**Each time Apollo fires, it will relocate with half the normal range.
+**Each rocket homes in towards the player until it is {{dv|15|12.5|11.25|10|7.5}} tiles away where it continue travelling in that direction. Additionally, rockets also push other nearby rockets away from each other.
+**If any other mech is alive, Apollo instead fires two rockets. If it is the last mech alive, the duration decreases from 1.5 to 1 second.
+*After {{dv|6.5|6.23|6.1|5.97|5.7}} seconds in the second phase, Apollo will select between the Rocket Barrage or the Charge Combo attack, which will alternate each time.
+**The timer is decreased to {{dv|5|4.87|4.8|4.73|4.6}} seconds while berserk, and {{dv|4.25|4.12|4.05|3.98|3.85}} seconds if it is the last mech alive.
+**This attack does not occur if all three mechs are alive.
+**For the Charge Combo attack, Apollo lines up a series of three charges in a horizontal zig-zag pattern pointed at the player for {{dv|1|0.83|0.75|0.67|0.5}} seconds, then dashes quickly along the telegraphed path.
+***At the start of each charge, Apollo releases a ring of 8 / {{malice|12}} {{item|Exoplasma Bolt|s|link=|ext=gif|size=7px}} outwards.
+***After performing all the charges, Apollo returns to its original position.
+***The dash itself is the only time Apollo will deal contact damage.
+
+===Thanatos===
+Thanatos initially spawns far below the player, and is composed of 102 segments. All its segments including the head and tail are effectively immune to damage. However, body and tail segments will occasionally open up, emitting steam, pulsing red, as well as appearing red on the minimap. While red, a segment's damage reduction drops to zero, in addition to taking {{dv|40%|30%|25%|20%|10%}} more damage; if berserk, it will only take {{dv|10%|7.5%|5%|2.5%}} more damage. Thanatos' open segments must have at least 3 / {{Death|2}} closed segments between them, which decreases to 1 if berserk.
+
+Regardless of the type of attack, open segments always fire at each individual player in multiplayer, up to a maximum of 3 players at a time. If segments are at least 150 tiles away from the player, they will not fire until the player is back in range. After firing, segments will remain vulnerable for 3 seconds before closing. The time taken to close the vulnerable segment reduces to 2 seconds if berserk, 1 second if it is the last mech alive.
+
+*Thanatos flies below the player for 6 seconds, taking 1.5 seconds to open up {{dv|20|25|28|30|35}} segments which simultaneously fire two {{item|Red Exo Pulse Laser|s|link=|ext=gif|size=36px}}, one laser aimed ahead of the player and the other aimed behind them. It then begins to fly alongside the player as if passive; every 0.05 seconds, a segment opens up, which individually fires two Red Exo Pulse Lasers at the nearest player after 0.6 seconds, using the same aiming mechanism as the previous lasers. This continues until the attack is complete, or {{dv|20|25|28|30|35}} segments have fired. 
+**The number of segments that can fire at the same time decreases if at least one other mech is active, and no longer has a limit if berserk.
+**If all three mechs are active, simultaneous lasers will not be fired and the lasers aimed behind the player will be omitted.
+**If berserk, one additional laser is fired from each segment which is aimed directly at the player.
+**The time taken to open a segment is decreased to 0.033 seconds if berserk, 0.017 if it is the last mech alive.
+**The attack lasts 5 seconds if berserk, 4.5 seconds if it is the last mech alive.
+*Thanatos charges at the player for 7 seconds, speeding up at the first 6 seconds and slowing down for the last second. During this time, it opens up a large number of its segments which will all simultaneously fire {{item|Red Exo Pulse Laser|s|link=|ext=gif|size=36px}} at the nearby player after 0.6 seconds. Following this, several available segments will also open, firing single Red Exo Pulse Lasers directly at the player. 
+**This attack does not occur if all three mechs are alive.
+**The number of segments that can fire at the same time decreases if at least one other mech is active, and no longer has a limit if berserk.
+**Thanatos turns slower the closer it is to the target. It begins turning slower if it is 15 tiles from the player, 10 if it is the last mech alive.
+**Speed up time decreases to 4 seconds if berserk, 3 seconds if it is the last mech alive.
+**Slow down time decreases to 0.67 seconds if berserk, 0.5 seconds if it is the last mech alive.
+*Once berserk, it is able to replace every other burrow attack with a new attack. In the attack, Thanatos places a crosshair on the player and tracks the location for three seconds, while firing a harmless converging ray. After three seconds, the rays fully materialize into a Gamma Disintegration Beam that fires two perpendicular rows of {{item|Red Exo Pulse Laser|s|link=|ext=gif|size=36px}} outwards every {{dv|2.67|1.33}} seconds. The beam lasts for 3 seconds before disappearing, causing Thanatos to immediately switch to the charge attack.
+**While performing this attack, the head itself becomes vulnerable and has vulnerable properties such as emitting steam and glowing red. It is also set to take 10% more damage regardless of difficulty.
+**Thanatos will drastically slow down once the player is in a {{dv|62.5|50|43.75|37.5|25}} tile radius to the head; this reduces to {{dv|37.5|30|26.25|22.5|15}} if it is the last mech alive. The crosshair lock-on visual will also become looser the closer the player is to Thanatos' head.
+**The rows of lasers have a gap of {{dv|20||18|16|10}} tiles and deal as much damage as the Gamma Disintegration Beam itself.
+
+===In [[Expert Mode]]===
+*'''Ares:''' Has a 50% chance to swap its arms after performing the Exo Overload Beams attack. Increased projectile velocity of all four weapons. Tesla Cannon, Plasma Cannon, and Gauss Nuke become more predictive. Tesla Spheres connect from a further distance. Gauss Nuke tracks the player more closely. Exo Overload Beams are telegraphed for less time.
+*'''Artemis/Apollo:''' Artemis gains the ability to align below the player when performing the Exothermal Beam attack, and rotates the beam more. Both Artemis and Apollo have faster attacks, more predictiveness, and take less time to perform special attacks. Increased the number of lasers fired by Artemis during the Laser Shotgun Barrage attack. Apollo's rockets have greater homing speed and stronger anti-clump push.
+*'''Thanatos:''' Moves faster, slow down at a closer distance to the player, can have more segments open at once, takes less damage from open segments, and fires lasers with greater predictiveness.
+
+===In [[Revengeance Mode]]=== 
+*'''Ares:''' Is guaranteed to swap its arms after performing the Exo Overload Beams attack. Further increased projectile velocity of all four weapons. Tesla Cannon, Plasma Cannon, and Gauss Nuke become even more predictive. Tesla Spheres connect from an even further distance. Gauss Nuke tracks the player more closely. Exo Overload Beams are telegraphed for less time.
+*'''Artemis/Apollo:''' Both are now capable of swapping locations between phases and charges. Artemis gains the ability to align to the left or right of the player when performing the Exothermal Beam attack, and rotates the beam more. Both Artemis and Apollo have faster attacks, more predictiveness, and take less time to perform special attacks. Apollo's rockets have greater homing speed and stronger anti-clump push.
+*'''Thanatos:''' Moves faster, slows down at a closer distance to the player, can have more segments open at once, takes less damage from open segments, and fires lasers with greater predictiveness. It can fly upwards while performing the burrowing attack. Increased the number of lasers resulting from the Gamma Disintegration Beam.
+
+===In [[Death Mode]]===
+*'''Ares:''' Further increased projectile velocity of all four weapons. Tesla Cannon, Plasma Cannon, and Gauss Nuke become even more predictive. Tesla Spheres connect from an even further distance. Gauss Nuke tracks the player more closely. Exo Overload Beams are telegraphed for less time.
+*'''Artemis/Apollo:''' Both of them have faster attacks, more predictiveness, and take less time to perform special attacks. Increased the number of lasers fired by Artemis during the Laser Shotgun Barrage attack, and it rotates the Exothermal Beam more. Apollo's rockets have greater homing speed and stronger anti-clump push.
+*'''Thanatos:''' Moves faster, slow down at a closer distance to the player, can have more segments open at once, takes less damage from open segments, and fires lasers with greater predictiveness. Increased the number of lasers resulting from the Gamma Disintegration Beam.
+
+===In [[Malice Mode]]===
+*'''Ares:''' Increased number of Exoplasma Bolts and Gauss Sparks. Further increased projectile velocity of all four weapons. Tesla Cannon, Plasma Cannon, and Gauss Nuke become even more predictive. Tesla Spheres connect from an even further distance. Gauss Nuke tracks the player more closely. Exo Overload Beams are telegraphed for less time.
+*'''Artemis/Apollo:''' Increased number of Exoplasma Bolts. Both Artemis and Apollo have faster attacks, more predictiveness, and take less time to perform special attacks. Increased the number of lasers fired by Artemis during the Laser Shotgun Barrage attack, and it rotates the Exothermal Beam more. Apollo's rockets have greater homing speed and stronger anti-clump push.
+*'''Thanatos:''' Moves faster, slow down at a closer distance to the player, can have more segments open at once, takes less damage from open segments, and fires lasers with greater speed and predictiveness. Increased the number of lasers resulting from the Gamma Disintegration Beam.
+
+===On the [[tgc:For_the_worthy|For the worthy]] seed===
+*'''Ares:''' Ares only has a single hitbox on it's body now.Releases 4 additional Exo Overload Beams. Gauss Nuke moves at double speed and last half as long. Red Exo Pulse Lasers move 25% faster.  Tesla Cannon fires twice the amount of orbs, orbs can connect from 50% farther away. Plasma Cannon fires 1 more shot. Laser Cannon moves 50% faster. Ares and its weapons move 950% faster, making it near impossible to outrun.
+*'''Artemis/Apollo:''' Relocation range doubled and charges 15% faster. Attack telegraphs last 50% shorter. Orange Exo Pulse Lasers move 25% faster. Apollo fires 3 additional rockets. Exothermal Beam inflicts [[Ichor (debuff)|Ichor]] for 15 seconds, spins 25% faster and lasts 40% longer. Both Artemis and Apollo are 50% smaller. Both Artemis and Apollo move 950% faster when not attacking, making them near impossible to outrun. Moves 50% faster from base speed while attacking.
+*'''Thanatos:''' Slows down at a 50% closer distance to the player and moves 15% faster. Red Exo Pulse Lasers move 25% faster. Gamma Disintegration Beam telegraphs for 2 seconds shorter. Segments open up for 2 seconds. Rapidly gains speed while not attacking, up to 200% speed. Thanatos and its segments are 75% larger.
+
+==Resistances==
+*Ares, its weapons, and all of Thanatos' vulnerable segments take reduced damage from most non-[[Minions|minion]] piercing projectiles. Each hit decreases the damage of the next hit by 12%, until the eighth hit onwards which deal 20% of original damage.
+*Ares, its weapons, and all of Thanatos' segments take 20% damage from grenade-type projectiles. A list of affected projectiles is below.
+
+{{ajax|List of resisted grenades|head=Resisted grenades|width=15%}} 
+
+*Ares and its weapons take:
+**80% damage from [[Eclipse's Fall]] small spears.
+**70% damage from [[Ark of the Cosmos]]'s throw.
+**50% damage from [[true melee]] attacks and [[The Enforcer]]'s essence flames.
+**40% damage from [[Murasama]].
+**25% damage from [[Dragon Rage]], including its fireball and explosion projectiles.
+*Artemis and Apollo take 90% damage from Eclipse's Fall small spears.
+*Thanatos takes: 
+**85% damage from [[Gruesome Eminence]]'s main spirit.
+**80% damage from [[Eradicator]] and [[Galaxy Smasher]]'s nebula lasers, [[Blood Boiler]], [[Voltaic Climax]], and [[Void Vortex]].
+**75% damage from [[Luminite Bullet]]s and [[God Slayer Slug]]s.
+**70% damage from Ark of the Cosmos's throw and [[Sirius]]' explosion.
+**60% damage from [[Yharim's Crystal]], [[Rancor]], and [[Wrathwing]]'s cinders.
+**50% damage from [[Chicken Cannon]], [[Prismatic Breaker]]'s laser beam, and [[Vehemence]]'s skull clouds.
+**35% damage from [[true melee]] attacks.
+**25% damage from [[Celestus]].
+**5% damage from [[Seraphim]]'s lasers.
+
+==Notes==
+{{npc infobox
+| type = Boss
+| name = Draedon
+| life = 16,000
+| damage = 0
+| defense = 100
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| killed = NPC_Killed_14.wav
+| sound = DraedonTeleport.wav
+| soundtext = Spawn
+| sound2 = DraedonAmbience.wav
+| sound2text = Ambience
+| sound3 = FlareSound.wav
+| sound3text = Exo Mech Summon
+| sound4 = DraedonLaugh.wav
+| sound4text = Laugh
+| vulnerable1 = Magic
+| vulnerable2 = Water
+| vulnerable3 = Slash
+| vulnerable4 = Stab
+| vulnerable5 = Fire
+| resistant1 = Poison
+| resistant2 = Machine
+|image=draedonlmao.png}} 
+
+*Most drops from the Fabricational Quartet including weapons, masks, and trophies depend on the last Exo Mech defeated. Weapons and masks are permanently saved to the loot pool when defeated once, but will not stack with each other if the same Exo Mechs are defeated multiple times. However, trophies will always drop depending on the final mech killed and are not permanently saved.
+**For example, if the player defeats Thanatos last after defeating Ares last two times prior, Thanatos will be able to drop Ares Mask and Thanatos Mask at a 28.57% chance each, will be guaranteed to drop the Photon Ripper, The Jailor, Spine of Thanatos, and Refraction Rotor, and will drop the Thanatos Trophy at a 100% chance along with other common drops.
+*Thanatos does not take damage or deal contact damage in the first 5 and 3 seconds when initially spawned and reappearing in battle respectively.
+*Draedon exists as an NPC. However, he does not perform any attacks, instead moving away from the player to observe the battle. Once all Exo Mechs are defeated, he can be damaged during the closing monologue. "Killing" him will cause another invincible hologram of him to spawn, prompting an extra dialogue. He will continue the monologue as usual even after interrupted.
+**Draedon will take 56x damage from any sources and will cause all damage to turn into critical strikes. If the damage taken is somehow not enough to "kill" him, damage is increased to a range varying from 32,100 to 33,500 damage.
+*While any Exo Mechs are alive, the sky turns grey and lightning strikes occasionally occur in the background. Specific attacks of the Fabricational Quartet will also cause a set amount of lightning strikes to occur.
+**When Apollo is performing its Charge Combo attack, 10 lightning bolts appear.
+**When Artemis is performing its Exothermal Beam attack, 12 lightning bolts appear.
+**When Ares is performing the telegraph for its Exo Overload Beam attack, 12 lightning bolts appear.
+**When Ares' Gauss Nuke explodes, 12 lightning bolts appear.
+**When Thanatos is performing the telegraph for its Gamma Disintegration Beam attack, 12 lightning bolts appear.
+
+==Tips==
+{{dablink|For more elaborate strategies on defeating the Fabricational Quartet, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Exo Mechs strategies]].}}
+*Unlike [[Supreme Calamitas]], the lack of arena restrictions allows for the player to be well equipped for higher mobility to dodge most of the attacks. Due to the chaotic nature of the fight, it is heavily encouraged to create a wide-open space to move around in.
+*Due to the number of simultaneous threats active at any given time, peripheral awareness of one's surroundings is very important to keep track of any incoming projectiles.
+*Many of Ares' attacks deal especially massive damage and have a wide reach, so it is particularly important to predict which of its arms will attack next ahead of time. Watching which of Ares' arms are glowing can help prepare the player for an imminent attack.
+*Solid blocks in the arena, including a solid ground that is close to the player, are discouraged as they will cause Ares' Gauss Nuke to detonate earlier. However, blocks will protect the player from Ares' Exo Overload Beams and since no Gauss Nukes are shot while the attack is in progress, the player could hide under a barrier of blocks to avoid the attack, albeit with some room needed to dodge the other projectiles.
+*The [[God Slayer armor]]'s dash ability, [[Rod of Discord]], or the [[Normality Relocator]] are very useful tools for escaping certain situations that can lead to getting hit from a deadly attack such as Artemis' Orange Exothermal Beam, or to avoid a chain of hits.
+*As getting closer to Thanatos when it is firing its Gamma Disintegration Beam slows down its speed exponentially, it is advised for the player to stay as close as possible to the head when it is performing the attack. This will also remove the threat of being hit from the rows of Red Exo Pulse Lasers that release from the beam itself. Note that the player will still have to contend with the risk of Thanatos encircling the player during the attack or immediately after it ends.
+*Most of Artemis and Apollo's and Ares's attacks can be dodged using vertical movement. As such, equipments and buffs that boost flight time and speed are favored.
+*The [[Slimy Saddle]] can be used to accelerate fall speed and avoid attacks from Ares, along with Artemis and Apollo.
+*Moving away from Ares' Exo Overload Beam attack outside of the determined range will trivialize the attack. Although the player will have to deal with an increased damage reduction from the boss and enraged weapon attacks after, it remains as an option to dodge the attack easily. If the player decides to enrage, they should not return as the enrage cannot be undone until the attack cycle finishes.
+*Thanatos takes significantly higher damage from area of effect damage if multiple vulnerable segments are curled up in a small area.
+*It is much more beneficial to attack Ares' weapons rather than the body itself, as they have less defense and allow for multiple segments to be hit at once when fired in a line.
+
+==Trivia==
+*The [[Music|theme]] of the Fabricational Quartet is [https://www.youtube.com/watch?v=eFLdPMjWy8o '''Inferior Fabrications'''], which was composed by [https://www.youtube.com/channel/UCfbpIwaXAPuE3kTFq1tEqDA PinpinNeon].
+**This however, is a placeholder. CDMusic has confirmed he will make the actual theme for Draedon and the Fabricational Quartet at a future date.
+*** A teaser of the song can be heard [https://www.youtube.com/watch?v=2oD1ZWxKq2w here.]
+****Another teaser of the song can be heard [https://www.youtube.com/watch?v=ZzzP94WIWl8 here.]
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' will play instead.
+*The [[Music|theme]] of the Fabricational Quartet while fought in [[The Exosphere]] is '''Omniscius Calculus''', which was composed by [https://www.youtube.com/channel/UC9-he3YiufwuKDBv2UaxeXw Jteoh].
+*The designs of the Fabricational Quartet are based on the [[mechanical bosses]]. This can be reflected by the second letter in their names, which correspond to the soul drops of the predecessors.
+**XS-01 Artemis and XS-03 Apollo are based on [[Retinazer]] and [[Spazmatism]] respectively, which drop [[Soul of Sight]].
+**XM-05 Thanatos is based on [[The Destroyer]], which drops [[Soul of Might]].
+**XF-09 Ares is based on [[Skeletron Prime]], which drops [[Soul of Fright]].
+*The names of each Exo Mech are also the names of Greek gods and goddesses:
+**[[wikipedia:Artemis|Artemis]] is the goddess of the hunt, the wild and the moon.
+**[[wikipedia:Apollo|Apollo]] is the god of the sun, light and poetry - among other things.
+**[[wikipedia:Thanatos|Thanatos]] is the god of death.
+**[[wikipedia:Ares|Ares]] is the god of war.
+**Additionally, Apollo and Artemis are twins in Greek mythology, referenced by those names being used for the Exo Twins.
+*The Fabricational Quartet has the largest health pool among any other boss in the mod.
+*Ares' Exo Overload Beam attack is commonly referred to as the "Blender Attack".
+*The Orange Exothermal Beam is referred to as the "Ohio Beam". 
+**The attack is commonly called the "Ohio Attack" as an inside joke from beta testers. It originated from a meme of a bugged version of the attack in test versions.
+*The Gamma Disintegration Beam is referred to as the "T Hanos Beam".
+**Thanatos is also occasionally internally referred to as "T Hanos".
+*Thanatos' Gamma Disintegration Beam telegraph takes inspiration from the [https://enterthegungeon.fandom.com/wiki/Prototype_Railgun Prototype Railgun] weapon from ''[[wikipedia:Enter the Gungeon|Enter the Gungeon]]''.
+*Thanatos boasts 102 individual segments, making it one of the two longest bosses in the mod, the other being [[The Devourer of Gods]]' second phase.
+*Ares' design takes several elements from Gundams from the [[wikipedia:Gundam|franchise of the same name]], and Evangelions from ''[[wikipedia:Neon Genesis Evangelion|Neon Genesis Evangelion]]''. 
+**Notably, its spiked helmet draws inspiration from the Gundams, and the shoulder pylons come from the ones present on the Evangelions. Its gores and trophy also fully expose its core which is similar to [https://wiki.evageeks.org/Evangelion_Unit-01 Evangelion Unit-01]'s core.
+*Ares' enrage when the player goes out of range of its Exo Overload Beam attack is a reference to a similar enrage used by [https://deltarune.fandom.com/wiki/Spamton Spamton NEO] from the game, ''[[wikipedia:Deltarune|Deltarune]]'', with both turning red, releasing smoke, and making an alarming noise. Both enrages are executed to prevent the player from exploiting their respective bosses.
+*Prior to the [[1.5.1.001]] update, all of the Fabricational Quartet used to be unable to take any damage from any attack that would deal more than 10% of their health in one hit, such as another mod's butcher function or an incredibly powerful weapon. When hit by such an attack, the damage of the attack would be reduced to 0.
+*Draedon's design is based off British scientist, Stephen Hawking. 
+*Draedon's [[status messages]] have the color {{color|#9BFFFF ●|#9bffff}}.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, their unique despawn message will be "Nothing can beat the power of my gaming chair."
+**This is reference to the [[Exo Box]], which is similar to the chair that Draedon sits on during the battle. It is referred to multiple times as a gaming chair.
+**If the Boss Despawn Message is set to Generic, the message for when every player is killed corresponds to the Exo Mech chosen at the start of the fight.
+*If Draedon is attacked during his closing monologue in subsequent battles, the remaining status messages will not be played.
+*If cheating is used to spawn the required items, the Fabricational Quartet can be spawned in Pre-Hardmode.
+*As seen in his end monologue, Draedon is partly sponsored by Crabulon to advertise [[Delicious Meat]].
+**According to one of Calamity Mod's developers, Draedon was paid 80 [[Cosmilite Coin|Cosmilite Coins]] {{Fantag}} to advertise the product. It is unknown if the developer was joking or not.
+***If true, this implies that Crabulon (and/or the [[Archmage]]) is incredibly wealthy.
+
+==Quotes==
+===When Spawned===
+====When Draedon is spawned for the first time====
+*"I have waited long for this moment."
+*"Your nature fascinates me, for I do not understand it."
+*"You will face my creations which have surpassed gods."
+*"And you will show me your disposition through battle."
+*"Now, choose."
+
+====When Draedon is spawned in subsequent battles==== 
+*"Make your choice."
+
+===In Battle===
+====In Phase 2==== 
+*"Designs improved with time and knowledge are the essence of my work."
+*"Through no other method can I approach perfection."
+
+====In Phase 3==== 
+*"Your performance falls neatly within the margin of error."
+*"That is quite satisfactory. We will proceed to the next phase of testing."
+
+====In Phase 4==== 
+*"Ever since I was alerted to your presence, I have processed your battles in order to make my machines stronger."
+*"Even now, I monitor your actions. Nothing should escape the bounds of my calculations."
+
+====In Phase 5==== 
+*"Curious. Very curious."
+*"You progress steadily against more difficult challenges."
+
+====In Phase 6==== 
+*"Your nature remains unknown to me. This will not do."
+*"...I sought perfection. Fate must favor irony, for that must have been my first mistake."
+
+====In Phase 7==== 
+*"Absurd."
+*"I will no longer let my calculations impede my observation of this battle."
+*"I shall show you the full fury of my final machine."
+
+====When attempting to escape Ares' Exo Overload Beam attack==== 
+*"How foolish. You cannot escape."
+
+====When the player consumes a [[Delicious Meat]]==== 
+*"Delicious Meat?! You have damn good taste, I'll even nerf this fight if you share this piece with me because it's just so delicious."
+
+====When the player consumes a [[Yharic Delight]]==== 
+*"Fuck you. Delicious Meat is better."    “I don’t blame him. Delicious Meat is MUCH better.” -Mantis Fish
+
+
+'''When EVEL HAmster is spawned at the same time'''
+
+* "Putrid creature, remove it from the premise before we engage in combat" 
+
+===When Defeated===
+*"An unknown factor - a catalyst is what you are."
+*"Nearly as alien as I, to this land and its history."
+*"...Excuse my introspection. I must gather my thoughts after that display."
+*"This land has become stale and stiff with blood that has been spilled until now."
+*"You have also spilled blood, but it may be enough to usher a new age... Of what, I do not know. But it is something I am eager to see."
+*"Now. You wish to reach the Tyrant. I cannot assist you in that."
+*"It is not a matter of spite, for I would wish nothing more than to observe such a conflict."
+*"But you have managed before. You will find a way eventually."
+*"I must acknowledge your triumph, but I will return now to my machinery."
+*"Oh, I almost forgot. Here's a message from my sponsor:"
+*"Tired of those bitter potions? Craving something new? Try out... Delicious Meat! Tasty and delicious! Yummy and nutritious! So very delicious... and so very cheap! Prices starting at just 20 gold per piece. Get it now before it goes out of stock! Made with organic pigron meat, coated in glowing truffles with a hint of crab, and dipped in Archmage-Certified Chill Frost Preservative and Flavor Enhancer Elixir! A great meal on its own, or an even better meal when eaten with other foods! Eat it ice cold or boiling hot! It's all up to you! Only the best from the Shroom Gardens! Free shipping if you order today! Buy now!
+*"Oh yeah, here's a free sample of Delicious Meat. I must return now to my machinery."
+
+====When Draedon is attacked during his closing monologue====
+*"...Quite unnecessary."
+
+==See also==
+*[[XP-00 Hypnos]], an alternative route of the fight.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}
+
+[[es:Exo Mechs]]

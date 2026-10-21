@@ -1,0 +1,33 @@
+{{dedicated|Red Hair Monday|Patreon Donator|type=NPC}}
+{{npc infobox
+| type = Enemy
+| ai = Caster AI
+| environment = Solar Eclipse
+| life = {{dv|3,200|5,600}}
+| damage = {{element|Dark}} {{dv|90|140}}
+| defense = 10
+| knockback = {{dv|70%}}
+| immune1 = Kami Flu
+| money = {{value|0|5|40}}
+| Darksun Fragment |1-3|75%
+| Guardians Wrath |1|25%
+| banner = no
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Holy
+| vulnerable2 = Fire
+| resistant1 = Dark
+| resistant2 = Slash
+| resistant3 = Stab
+}}
+
+The '''Cuboid Curse''' is a Godseeker Mode [[enemy]] that spawns during the [[Solar Eclipse]] after [[The Devourer of Gods]] has been defeated. It attacks by teleporting around and firing redstone flame balls at the player. Additionally, when below 50% health, it will enrage and begin teleporting faster, as well as gaining the ability to summon four pillars of redstone flame around itself.
+
+== Trivia ==
+*The Cuboid Curse is a direct reference to the Herobrine creepy pasta from the game [https://en.wikipedia.org/wiki/Minecraft Minecraft].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-event = yes
+}}

@@ -1,0 +1,38 @@
+{{npc infobox
+| type = Flying Enemy
+| ai = Impious Immolator AI
+| damage = 0 (Contact)<br/>{{element|Holy}} {{dv|110|168}} (Flame bursts)
+| life = 5,775
+| defense = 30
+| knockback = {{dv|80%|82%}}
+| environment = The Hallow
+| environment2 = The Underworld
+| banner = yes
+| money = {{sc|50}}
+| immune1 = Confused
+| immune2 = Kami Flu
+| immune3 = Holy Flames
+| immune4 = Moon Burnt
+| Unholy Essence|2-4| 100%
+| Energy Staff| 1 | 6.67%
+| custom| {{item|Elder Berry|note=(Once the player has used all [[Stamina Meter|Stamina Upgrades]] in [[Revengeance Mode]]|wrap=y}} ({{dv|1}})|5%
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_7.wav
+| sound = Item_73.wav
+| soundtext = Flame Burst
+| vulnerable1 = Water
+| vulnerable2 = Cold
+| resistant1 = Fire
+| resistant2 = Holy
+| resistant3 = Unholy
+}}
+
+The '''Impious Immolator''' is a Godseeker Mode [[enemy]] that spawns in the [[Hallow]] and [[Underworld]] biomes. Initially, it flies peacefully in one direction and turns around when it hits a block, similarly to the [[Sunskater]]. After being attacked, it will fly quickly towards the player while shooting bursts of fire which home in weakly on the player. It drops [[Unholy Essence]], a useful post-Moon Lord [[crafting material]].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

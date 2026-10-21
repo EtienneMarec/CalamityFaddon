@@ -1,0 +1,47 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 24
+| damagetype = Ranged
+| knockback = 3.5
+| stack = 1
+| rare = 12
+| sell = {{value|0|24}}
+| auto = yes
+| use = 14
+| velocity = 28
+| tooltip = Fires a spread of arrows from the sky<br/>Converts wooden arrows into lightning bolts
+| hardmode = yes
+| postml = yes
+| proj = Storm Bolt.png
+| projcaption = Storm Bolt
+| element1 = Magic
+| element2 = Holy
+| element3 = Electricity
+}}
+|{{item drops infobox
+| [[Storm Weaver]]|1|{{dv|25%|33.33%}}
+}}
+}}
+{{dablink|If you were looking for something other than the Godseeker Mode [[bow]], see [[Storm (disambiguation)]].}}
+'''The Storm''' is a Godseeker Mode bow that drops from the [[Storm Weaver]]. It turns [[Wooden Arrow]]s into energy bolts that rain down from the sky near the cursor. The bolts that rain down from off-screen are able to go through walls, making this useful in underground or in enclosed spaces.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*Use this bow against enemies that linger near the top of the screen such as [[The Devourer of Gods]] or very bulky enemies like [[Polterghast]], as either will mitigate the inaccuracy of the bow.
+*Bow-oriented rangers may want to defeat [[Storm Weaver]] prior to [[Providence, the Profaned Goddess]], as this bow can completely decimate the latter, specially when paired with [[Luminite_Arrow|Luminite Arrows]].
+*Using this bow along with [[Vanquisher Arrow]]s can deal a decent amount of DPS as long as the player doesn't directly aim at an enemy.
+
+[[File:The Storm (demo).gif|frame|The Storm used against a group of dummies.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

@@ -1,0 +1,88 @@
+{{Patch infobox
+| image = Cog (Calamity).png
+| patchname = Astral Expansion Hotfixes
+| release = 11/25/2018
+}}
+The '''1.4.0.002''' update fixed several issues regarding the [[Astral Infection]] and its contents. It also made several nerfs to [[lifesteal]] and rebalances to a few Godseeker Mode [[Covering]] sets.
+
+== Additions ==
+*Added a background for the [[Sulphurous Sea]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*Increased the volume of all Astral Infection enemy hit and death sounds.
+*Decreased the size and amount of dust produced by [[Astrum Aureus]].
+*Decreased [[Cryon]]'s speed.
+*[[Providence, the Profaned Goddess]] can now slowly glide while firing her Holy Laser.
+
+=== [[Items]] ===
+*All lifesteal items now have a longer cooldown.
+*Several damage reduction boosts from [[coverings]] and [[Covering]] sets have been nerfed:
+**[[Abyssal Diving Suit Plates]] now increases damage reduction by 15% instead of 25%.
+**[[Auric Tesla armor]] now increases damage reduction by 5% instead of 10%.
+**[[Beetle armor]] with a [[Beetle Shell]]'s damage reduction is now 5% less effective for each buff tier, now gives 30% damage reduction at Tier 3 instead of 45%.
+**Both of [[Siren's Heart]]s' Ice Shields now increase damage reduction by 20% instead of 25%.
+*Buffed [[Aeries]]' damage from 40 to 44, and increased the cooldown for its lifesteal.
+*Reduced [[Arcanum of the Void]] and [[Astral Arcanum]]'s chances to deflect projectiles from 10% to 5%.
+*Melee Auric Tesla armor's health-based damage boost stops scaling at 66% health instead of 40%, and its flat damage boost has been decreased from 2.5x to 1.5x.
+*Ranged Auric Tesla armor's Blood Bombs now deal 2.2x the held weapon's damage instead of 1.6x, its God Slayer Shrapnel now deals 3.2x damage instead of 2.1x, and its Tarragon Leaves now deal 0.4x damage instead of 0.25x.
+*Throwing Auric Tesla armor's boost to throwing critical hit damage when under 90% health has been decreased from 3.5x damage to 2x.
+*[[Bloodfire Arrow]]s now have a 50% chance to heal the player instead of a 100% chance.
+*Throwing [[Bloodflare armor]] now has a 50% chance to heal player on throwing critical hits instead of a 100% chance.
+*Magic Bloodflare armor's flame explosions now have a 2 second cooldown, and its fireballs are no longer affected by gravity.
+*Melee Bloodflare armor now has a higher chance to heal the player on hits.
+*[[Claret Cannon]]'s bullets now have a 50% chance to heal the player instead of 100%.
+*[[Daedalus Stormbow]] now deals 75% damage.
+*[[Death]], [[Defiled Rune]], and [[Revengeance]] can now be crafted at a [[Demon Altar]] or [[Crimson Altar]] for free.
+*Changed the words "three times" in [[Demonshade armor]]'s set bonus' tooltip to "thrice".
+*Buffed [[Earth]]'s damage from 300 to 420, it now heals the player for 1-68 health on true melee hits instead of 20-68, and its green meteor's lifesteal cooldown has been increased.
+*Buffed melee [[Empyrean Knives]]' damage from 800 to 880, throwing Empyrean Knives' damage from 600 to 880, and its lifesteal has been increased.
+*Halved the chance for [[Exoblade]] to heal the player on true melee strikes.
+*[[Gehenna]] and [[Void of Extinction]]'s fireballs are now produced every 10 seconds instead of 5.
+*[[Heart of the Elements]] and [[Waifu in a Bottle]]'s Sand Elemental minion's tornadoes now use LocalNPCImmunity.
+*Heart of the Elements and [[Rose Stone]]'s Brimstone Elemental minion's Hellfireballs and their explosions now always have a LocalNPCHitCooldown of 15 instead of scaling throughout progression, starting at 20.
+*Nerfed [[Icicle Staff]]'s knockback from 4.25 to 2, buffed its shot speed from 11 to 16, and changed how its icicles rotate.
+*Buffed [[Illustrious Knives]]' damage from 1200 to 1320.
+*[[Lifehunt Scythe]] now heals the player by 2 health on true melee hits instead of 3.
+*[[Silva armor]]'s invulnerability now provides immunity to [[Vulnerability Hex]], and prevents life regeneration from dropping below zero.
+*Both variants of Siren's Heart now emit an orange light instead of a green one.
+*[[Spectre Hood]] now reduces magic damage by 20%, its lifesteal has been increased, but its lifesteal cooldown has been increased.
+*[[Super Dummy|Super Dummies]] no longer activate most on hit effects.
+*[[SYNTAX ERROR]] can no longer be used. <!---Can no longer crash the game--->
+*Decreased [[Undine's Retribution]]'s dust.
+*[[Vampire Knives]] now deal 25% more damage, their lifesteal has been increased, but their lifesteal cooldown has been increased.
+*Reduced [[Viscera]]'s healing.
+*[[Void of Calamity]] and Void of Extinction now produce less fireballs.
+*[[Wrath of the Ancients]]' projectiles now produce less dust.
+
+=== Other ===
+*The player no longer has to be submerged in [[Water]] to count as being in the [[Abyss]], however, they will now take large amounts of damage if out of Water while in the Abyss.
+*Slowed down the Astral Infection's theme.
+*Lowered Astral Meteor impact zone.
+*[[Astral Ore]] can now only be mined or blown up after [[Astrum Deus]] has been defeated.
+*[[Boss Rush]] now disables [[mounts]].
+*Nerfed the [[Drunk Princess]]' damage from 30 to 15.
+*Increased the depth of [[ore]] spawned by killing certain bosses.
+
+=== Resprites ===
+*Resprited Astral Star projectiles spawned by [[Astral armor]], [[Star Cannon EX]], [[Starfall]], and [[Starmada]].
+
+== Fixes ==
+*Fixed [[Astral Blaster]]'s Astral Round projectile being invisible.
+*Fixed Astral Blaster's projectiles, [[Astral Pike]], and the Astral Stars spawned by Astral armor, Star Cannon EX, Starfall, and Starmada using the wrong dust types.
+*Fixed [[Astral Dirt Wall]]s, [[Astral Ice Wall]]s, [[Astral Sandstone Wall]]s, [[Astral Stone Wall]]s, and [[Hardened Astral Sand Wall]]s being unable to be placed.
+*Fixed all Astral Infection enemy sounds not playing properly.
+*Fixed Astrum Aureus still appearing as [[Astrageldon Slime]] on the Boss Checklist mod's boss checklist.
+*Fixed an issue with the [[Boss Health Bar]] on platforms such as Linux.
+*Fixed a sheeting error on Cryon.
+*Fixed a bug involving dashing then mounting.
+*Fixed Exoblade having inconsistent damage values.
+*Fixed [[Mantis]]es not playing a sound when firing their disk projectiles.
+*Fixed enraged [[Plantera]] and [[Polterghast]] gaining exponential amounts of defense and contact damage. <!---Damage and defense being multiplied every single frame--->
+*Fixed Water in the [[Snow biome]] being able to drop the player's breath below zero.
+*Fixed Starmada's held sprite being duplicated by [[Elemental Quiver]].
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

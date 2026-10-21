@@ -1,0 +1,50 @@
+{{infobox wrapper
+|{{item infobox
+|image=Heresy.gif
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 888
+| knockback = 0
+| mana = 10
+| use = 120
+| velocity = 0
+| tooltip = Releases fire and souls upward from a held book<br/>As the book is held the power of both increases
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| proj = Redirecting Gilded Soul.gif
+| projcaption = Gilded Soul
+| proj2 = Redirecting Lost Soul.gif
+| proj2caption = Lost Soul
+| proj3 = Redirecting Vengeful Soul.gif
+| proj3caption = Vengeful Soul
+| image2 = Heresy Book.gif
+| image2caption = Holdout Book
+| element1 = Unholy
+| element2 = Dark
+}}
+|{{item drops infobox
+| [[Supreme Calamitas]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+'''Heresy''' is a Godseeker Mode [[magic weapon]] that drops from [[Supreme Calamitas]]. It fires flame particles and souls upwards, which can travel through solid tiles but only home into enemies when solid tiles are not present. The time taken to fire varies from 0.33-0.47 seconds initially, but linearly speeds up to 0.07-0.2 seconds after 2 seconds of holding the book.
+
+{{Modifier|magicnokb}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*[[wikipedia:Heresy|Heresy]] is an act or belief that conflicts with established beliefs or customs. 
+
+[[File:Heresy (demo).gif|frame|left|Heresy in use.]]
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}

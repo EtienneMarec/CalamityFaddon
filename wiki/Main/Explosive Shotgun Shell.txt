@@ -1,0 +1,23 @@
+{{item infobox
+|type = Ammunition
+|damage = 30
+|critical = 0%
+|stack = 6
+|consumable = yes
+|knockback = 10
+|sell = {{value|0|0|30|0}}
+| proj = Explosive Shotgun Round.png
+| projcaption = Explosive Shotgun Round
+|hardmode = yes
+|rare = 8
+|velocity = 12
+|velocitymult = 11
+}}
+
+'''Explosive Shotgun Shells''' are [[Hardmode]] [[ammunition]] that are used exclusively by the [[Hydra]]. They can be purchased from the [[Arms Dealer]] if the Hydra is in the player's inventory.
+
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-ammo = yes
+}}

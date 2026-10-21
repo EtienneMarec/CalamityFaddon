@@ -1,0 +1,33 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damage = 35
+| damagetype = Melee
+| tooltip = Shoots electric sparks<br/>Shortflurry attacks inflict Eutrophication
+| use = 14
+| velocity = 10
+| knockback = 4
+| rare = 2
+| sell = {{value|0|0|40}}
+| element1 = Water
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Eutrophic Ray]] (Once [[Desert Scourge]] has been defeated) | 1 | 33.33%
+}}
+}}
+
+The '''Eutrophic Shank''' is a [[Pre-Hardmode]] [[shortsword]] that is dropped by [[Eutrophic Ray]]s with a 1/3 (33.33%) chance after the [[Desert Scourge]] has been defeated. When used, it shoots electrical sparks which linger on the ground and deal 40% of the weapon's base damage.
+
+When the weapon's [[Shortstrike]] ability activates, enemies hit by it and its sparks are inflicted with [[Eutrophication]] for 5 seconds.
+
+{{modifier|melee}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]

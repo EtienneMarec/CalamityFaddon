@@ -1,0 +1,49 @@
+{{dedicated|Battle Bee|Developer}}
+{{item infobox
+| type = Weapon
+| damage = 40
+| damagetype = magic
+| auto = yes
+| knockback = 0
+| mana = 7
+| rare = 10
+| tooltip = Fires a swarm of bees and wasps
+| sell = {{value|0|20}}
+| use = 8
+| stack = 1
+| velocity = 12
+| hardmode = yes
+| debuff = Poisoned
+| debufftip = Slowly losing life
+| debuffchance= 100%
+| debuffduration = 2 seconds (Wasp)
+| debuff2 = Venom
+| debufftip2 = Losing life
+| debuffchance2= 100%
+| debuffduration2 = 1 seconds (Wasp)
+| element1 = Poison
+| element2 = Stab
+| proj = Bee (Small).png
+| projcaption = Bee
+| proj2 = Bee (projectile).gif
+| proj2caption = Wasp
+}}
+
+'''The Swarmer''' is a craftable [[Hardmode]] [[magic gun]] and is the upgrade to both the [[Bee Gun]] and the [[Wasp Gun]]. Like its predecessors, it rapidly fires homing bees and wasps that dissipate upon damaging enemies and touching tiles.
+
+{{Modifier|magicnokb}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Tips ==
+
+* The [[tgc:Hive_Pack|Hive Pack]] increases the damage of the bees, but doesn't effect the wasps,
+** With the high amount of homing projectiles and quick use speed, the damage increase can appear significant in action. 
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Magic guns]]

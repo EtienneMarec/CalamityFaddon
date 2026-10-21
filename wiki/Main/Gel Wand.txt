@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| stack = 1
+| damage = 15 (Pre-SCal)<br/>320 (Post-SCal)
+| damagetype = summon
+| use = 19
+| mana = 10
+| tooltip = Summons young gel parasites which explode into bubbles<br/>The amount of gel surrounding the small parasites is stunting their growth (Pre-SCal)<br/>Summons a mature gel parasite that unleashes its children upon death (Post-SCal)<br/>Does not consume minion slots
+| velocity = 10
+| knockback = 5
+| rare = 15
+| sell = {{value|0|12}}
+| debuff = Poisoned
+| debuffduration = 2 seconds
+| element1 = Smash
+}}
+|{{item drops infobox
+| [[Goozma]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+
+The '''Gel Wand''' is a [[summon weapon]] that drops from [[Goozma]]. It summons a floating gel parasite that does not take up minion slots and follows the player. It attacks by charging at enemies bursting into 3 homing gel bubbles that deal 5% of the weapon's damage. After defeating [[Supreme Calamitas]], the parasites are quadrupled in size and explode into 4-5 aggressively homing parasites upon death. If a parasite explodes, the minion will despawn.
+
+{{Modifier|summonactive}}
+
+== Notes ==
+*Due to these properties, this weapon is essentially a Magic weapon for the Summoner class. It avoids the damage penalty for Minions while also scaling with Summoner equipment, giving a decent amount of damage in comparison with other classless weapons available.
+*The Parasites can be summoned with no empty Minion slots and without de-summoning pre-existing summons.
+*The Parasites follow any enemy on a line roughly 43 blocks width, though they will not pursue enemies behind walls.
+*The Parasites explode after about ten seconds if they do not explode before.
+
+== Tips ==
+*Using mana recovery potions in conjunction with Mana Flower can make this weapon more effective because the player can summon many Parasites without running out of mana and getting afflicted with the Mana Sickness debuff.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

@@ -1,0 +1,100 @@
+{{npc infobox
+| type = Boss
+| ai = Great Sand Shark AI
+| environment = Sandstorm
+| environment2 = Desert
+| life = {{dv|100,000|120,000|140,000}}
+| damage = {{element|Fire}} {{dv|90|140|190|210}} (Contact)<br/>{{element|Fire}} {{dv|70|150|170|190}} (Sand Blasts)<br/>{{element|Fire}} {{dv|100|160|200|220}} (Sand Teeth)<br/>{{element|Fire}} {{dv|100|160|200|260}} (Sand Sharks)
+| defense = 35
+| dr = 22
+| debuff = Hemorrhaging
+| debufftip = You're losing way too much blood
+| duration =  4 seconds
+| debuffchance = 100%
+| knockback = 100
+| money = {{gc|15}}
+|group|At least one of the following 6 weapons will always drop:|6
+| Duststorm in a Bottle|1|{{dv|25%|33.33%}}
+| Sand Sharknado Staff|1|{{dv|25%|33.33%}}
+| Sandslasher|1|{{dv|25%|33.33%}}
+| Sandstorm (weapon)|1|{{dv|25%|33.33%}}
+| Shifting Sands|1|{{dv|25%|33.33%}}
+| Tumbleweed|1|{{dv|25%|33.33%}}
+| Sand Shark Tooth Necklace|1|{{dv|25%|33.33%}}
+| Forbidden Fragment|{{dv|1-3|3-5}}|100%
+| hardmode = yes
+| boxwidth = 26em
+| banner = no
+| immune1 = Confused
+| image2 = Great Sand Shark map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = GreatSandSharkRoar.wav
+| soundtext = Roar
+| sound2 = NPC_Killed_15.wav
+| sound2text = Sand Blast
+| vulnerable1 = Water
+| vulnerable2 = Cold
+| resistant1 = Fire
+| resistant2 = Slash
+| resistant3 = Dark
+}}
+<big>''"The desert sand shifts intensely!"''</big>
+
+The '''Great Sand Shark''' (Japanese: 偉大なシロザメ ''Idaina shirozame'') is a post-[[Plantera]] [[boss]] that spawns during a [[Sandstorm]] after killing 10 [[Sand Shark]]s. It can be summoned manually by using a [[Sandstorm's Core]] in the [[Desert]] at noon. While it swims through sand like the more common Sand Shark, it has a much greater variety of attacks on top of its increased size, speed, health and damage, making it a dangerous foe. It drops a variety of desert-themed weapons when defeated, as well as a  [[Grand Scale]], which can be used to craft it's drops.
+
+The Great Sand Shark enrages outside of the Desert biome, increasing its attack speed and damage drastically. 
+
+===Attacks===
+
+====Phase 1====
+*Unless stated otherwise, sand projectiles '''''are not''''' affected by gravity.
+*Peforms a leap at the nearest player, dropping sand beneath itself in the process.
+*Jumps out of the sand, splashing sand projectiles in all directions when it emerges and dives. It then does this again, this time popping out on the opposite side of the player. This process repeats {{dv|1|2|3}} more times.
+*Pokes it's tail out of the sand, splashing gravity-affected sand upward.
+Upon reaching 66% HP, the Great Sand Shark will roar, calling a horde of Sand Sharks to attack. Once they are defeated, Phase 2 will begin.
+
+
+====Phase 2====
+*Performs a leap out of the ground, bouncing when it reaches the player's position when the attack started. This bounce- alongside the emergence of the boss- fires a large amount of sand in every direction.
+*Pops out of the ground near the player, then fires a shotgun blast of teeth in their direction.
+**The charge time is increased relative to the distance the boss has from the player, maxing out at 3/{{dv|0|0|2|1.5}} seconds when 1 block away.
+*Fires a bouncing Tooth Bomb at the nearest player, which fires out a ring of teeth every time it hits the ground. It will be destroyed after {{dv|2|3|4}} bounces.
+
+
+====Phase 3====
+Upon reaching 33% HP, the Great Sand Shark will again roar, causing a visual sandstorm to kick up.
+*Fires a Tooth Ball, then hits it at the player with it's tail. This attack has incredible velocity, but gradually loses it the longer the ball travels.
+*Fires an incredibly tall Sandnado in both directions, which slides until it hits a wall.
+*Fires an extremely dense stream of teeth at the nearest player.
+*Roars, summoning a horde of evenly-spaced Sand Sharks to jump out of the dunes. These sharks travel straight up, then back down in an arc.
+**This attack has indicator lines to prevent the player from taking cheap damage.
+
+Upon defeat, it will dive down once more and then leap into the air at the player's position, remaining stationary after emerging. After this, its body will fade into the sandstorm, only leaving its bones, of which it falls after the sandstorm calms down in a few seconds. After that, it will drop its loots at their death point.
+
+==Aftermath==
+*Sandstorm will naturally occur less often.
+*Enemies within the underground desert now sometimes drops [[Forbidden Fragment]].
+
+==Summons==
+{| class="terraria"
+!Image!!Name!!Condition
+|-
+| align="center" |{{item|mode=table|Sand Shark}}||Upon reaching {{dv|50%|75%}} health.
+|}
+
+==Notes==
+*All Sand Shark [[tgc:Sand Sharks|alternate variants]] will also count towards spawning the Great Sand Shark, including [[Fusion Feeder]]s.
+
+==Trivia==
+*The Great Sand Shark and its associated items (with the exceptions of the [[Sandslasher]] and [[Sand Shark Tooth Necklace]]), were implemented based on a community suggestion made by ijones72 and ThatGuy on the mod's Discord server.
+* If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The apex predator of the sands disappears into the dunes..."
+* The Great Sand Shark's [[Music|theme]] is [https://www.youtube.com/watch?v=0mJb_hXFjS4 Ilmeran Iblis], which was composed by Jteoh.
+** However, in the [[Community modifications#Infernum|Infernum]] addon, its [[Music|theme]] is [https://www.youtube.com/watch?v=mzINZCs-gZA Duel For A Lost Kingdom], which was composed by PinpinNeon.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

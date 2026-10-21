@@ -1,0 +1,290 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|_|_|_|_|_|_|_|Sand1|_|_|_|_|_|_|_|_|_|Sand2|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|PHFRG|_|_|_|_|_|_|_|_|_|PHFRG|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|Glas1|_|_|_|_|_|_|_|_|_|Glas2|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|PHFRG|_|_|_|_|_|_|_|_|_|PHFRG|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|DeseF|_|Bott1|_|SandB|_|_|_|_|_|Bott2|_|_|_|_|_|PrisS|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|      _|      _|      _|_|_|_|_|      _|_|_|_|_|      _|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|`|-|-|-|+|-|-|-|'|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|±|_|_|_|_|_|_|PHANV|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|Feath|_|_|I|_|_|HSeed|_|Pixie|_|Water|_|Bombs|_|SeaPr|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|      _|_|I|_|_|      _|      _|      _|      _|      _|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|`|-|-|-|(|_|_|_|)|-|-|-|^|-|-|-|'|_|_|_|)|-|-|-|'|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|PHANV|_|_|÷|_|_|_|_|_|_|_|_|_|_|PHANV|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|GranS|_|SSIAB|_|HoWat|_|MiMaT|_|TotaT|_|SeafB|_|Teneb|_|DeptC|_|SulpS|_|#
+|_|_|_|_|_|_|_|      _|      _|      _|      _|      _|      _|      _|      _|      _|#
+|_|_|_|_|_|_|_|_|`|-|-|-|^|-|-|-|(|_|_|_|:|_|_|_|:|_|_|_|)|-|-|-|^|-|-|-|^|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|HMANV|_|_|₪|_|_|HMANV|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|Plsma|_|DSIAB|_|MirMa|_|TotaB|_|BalPB|_|Stard|_|MelBl|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|      _|      _|      _|      _|      _|      _|      _|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|`|-|-|-|(|_|_|_|)|-|-|-|^|-|-|-|'|_|_|_|`|-|-|-|(|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|§|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|#
+|_|_|_|Nanit|_|MarCP|_|Grena|_|SeaSi|_|_|I|_|_|NighF|_|CosmB|_|RuinS|_|MelBr|_|_|_|_|_|#
+|_|_|_|      _|      _|      _|      _|_|I|_|_|      _|      _|      _|      _|_|_|_|_|#
+|_|_|_|_|`|-|-|-|^|-|-|-|(|_|_|_|I|_|_|_|I|_|_|_|)|-|-|-|^|-|-|-|'|_|_|_|I|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|WORKB|_|_|I|_|_|_|I|_|_|COANV|_|_|_|_|_|_|_|_|_|_|§|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|ShocG|_|_|I|_|_|_|I|_|_|Penum|_|_|_|_|_|_|_|_|_|StaOD|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|      _|_|I|_|_|_|I|_|_|      _|_|_|_|_|_|_|_|_|      _|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|`|-|-|-|^|-|-|-|+|-|-|-|^|-|-|-|-|-|-|-|-|-|-|-|'|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|Super|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+
+<!-- •• CRAFTING MATERIALS •• -->
+
+<!-- •••• Ballistic Poison Bomb •••• -->
+
+| PrisS_cols = 3
+| PrisS_rows = 2
+| PrisS = {{item|Prism Shard}} × 50<br/>
+<span style="font-size: 0.75em">( [[Sunken Sea]] )</span>
+
+| SeaPr_cols = 3
+| SeaPr_rows = 2
+| SeaPr = {{item|Sea Prism}} × 10<br/>
+<span style="font-size: 0.75em">( [[Sunken Sea]] )</span>
+
+| Bombs_cols = 3
+| Bombs_rows = 2
+| Bombs = {{item|Bomb}} × 25<br/>
+( {{item|mode=image|image=Map Icon Demolitionist.png|Demolitionist|size=18px}} )
+
+| SeafB_cols = 3
+| SeafB_rows = 2
+| SeafB = {{item|Seafoam Bomb}}
+
+| Teneb_cols = 3
+| Teneb_rows = 2
+| Teneb = {{item|Tenebris}} × 10<br/>
+<span style="font-size:0.75em">( [[Abyss]] )</span>
+
+| DeptC_cols = 3
+| DeptC_rows = 2
+| DeptC = {{item|Depth Cells}} × 10<br/>
+<span style="font-size:0.75em">( [[Abyss]] )</span>
+
+| SulpS_cols = 3
+| SulpS_rows = 2
+| SulpS = {{item|Sulphurous Sand}} × 20<br/>
+<span style="font-size:0.75em">( [[Sulphurous Sea]] )</span>
+
+| BalPB_cols = 3
+| BalPB_rows = 2
+| BalPB = {{item|Ballistic Poison Bomb}}
+
+<!-- •••• Sealed Singularity •••• -->
+
+| Sand1_cols = 3
+| Sand1_rows = 2
+| Sand1 = {{item|Any Sand}} × 2
+
+| Glas1_cols = 3
+| Glas1_rows = 2
+| Glas1 = {{item|Glass}} × 1
+
+| Bott1_cols = 3
+| Bott1_rows = 2
+| Bott1 = {{item|Bottle}}
+
+| Feath_cols = 3
+| Feath_rows = 2
+| Feath = {{item|Feather}} × 6<br/>
+( {{item|mode=image|Harpy|size=22px}} )
+
+| DeseF_cols = 3
+| DeseF_rows = 2
+| DeseF = {{item|Desert Feather}} × 10<br/>
+( {{item|mode=image|Vulture|size=22px}} )
+
+| SandB_cols = 3
+| SandB_rows = 2
+| SandB = {{item|Sand Block}} × 70
+
+| SSIAB_cols = 3
+| SSIAB_rows = 2
+| SSIAB = {{item|Sandstorm in a Bottle}}
+
+| Sand2_cols = 3
+| Sand2_rows = 2
+| Sand2 = {{item|Any Sand}} × 20
+
+| Glas2_cols = 3
+| Glas2_rows = 2
+| Glas2 = {{item|Glass}} × 10
+
+| Bott2_cols = 3
+| Bott2_rows = 2
+| Bott2 = {{item|Bottle}} × 20
+
+| Water_cols = 3
+| Water_rows = 2
+| Water = {{item|Bottled Water}} × 20
+
+| Pixie_cols = 3
+| Pixie_rows = 2
+| Pixie = {{item|Pixie Dust}} × 4<br/>
+( {{item|mode=image|Pixie|size=28px}} )
+
+| HSeed_cols = 3
+| HSeed_rows = 2
+| HSeed = {{item|Hallowed Seeds}} × 2<br/>
+( {{item|mode=image|image=Map Icon Dryad.png|Dryad|size=20px}} )
+
+| HoWat_cols = 3
+| HoWat_rows = 2
+| HoWat = {{item|Holy Water}} × 20
+
+| GranS_cols = 3
+| GranS_rows = 2
+| GranS = {{item|Grand Scale|size=24px}}<br/>
+( {{item|mode=image|image=Great Sand Shark map.png|Great Sand Shark|size=20px}} )
+
+| DSIAB_cols = 3
+| DSIAB_rows = 2
+| DSIAB = {{item|Duststorm in a Bottle}}
+
+| Plsma_cols = 3
+| Plsma_rows = 2
+| Plsma = {{item|Dark Plasma}} x 3<br/>
+( {{item|mode=image|image=Ceaseless Void map.png|Ceaseless Void|size=34px}} )
+
+| SeaSi_cols = 3
+| SeaSi_rows = 2
+| SeaSi = {{item|Sealed Singularity}}
+
+<!-- •••• Shock Grenade •••• -->
+
+| Grena_cols = 3
+| Grena_rows = 2
+| Grena = {{item|Grenade}} × 200<br/>
+( {{item|mode=image|image=Map Icon Demolitionist.png|Demolitionist|size=18px}} )
+
+| MarCP_cols = 3
+| MarCP_rows = 2
+| MarCP = {{item|Martian Conduit Plating}} x 400<br/>
+<span style="font-size:0.75em">( [[Martian Madness]] )</span>
+
+| Nanit_cols = 3
+| Nanit_rows = 2
+| Nanit = {{item|Nanites}} x 20<br/>
+( {{item|mode=image|image=Map Icon Cyborg.png|Cyborg|size=20px}} )
+
+| ShocG_cols = 3
+| ShocG_rows = 2
+| ShocG = {{item|Shock Grenade}} x 200<br/>
+<span style="font-size:0.75em">( [[Martian Madness]] )</span>
+
+<!-- •••• Star of Destruction •••• -->
+
+|MelBl_cols = 3
+|MelBl_rows = 2
+|MelBl = {{item|Meld Blob|size=24px}} × 24<br/>
+<span style="font-size:0.75em">( [[Celestial Pillars|Celestial Pillar Enemies]] )</span>
+
+|Stard_cols = 3
+|Stard_rows = 2
+|Stard = {{item|Stardust|size=24px}} × 12<br/>
+<span style="font-size:0.75em">( [[Astral Infection|Astral Infection Enemies]] )</span>
+
+|MelBr_cols = 3
+|MelBr_rows = 2
+|MelBr = {{item|Meld Construct|size=30px}} × 10
+
+|StaOD_cols = 3
+|StaOD_rows = 2
+|StaOD = {{item|Star of Destruction|size=40px}}
+
+<!-- •••• Penumbra •••• -->
+
+| CosmB_cols = 3
+| CosmB_rows = 2
+| CosmB = {{item|Cosmilite Bar}} × 8<br/>
+( {{item|mode=image|image=Devourer of Gods final head map.png|The Devourer of Gods|size=25px}} )
+
+| NighF_cols = 3
+| NighF_rows = 2
+| NighF = {{item|Nightmare Fuel}} × 20<br/>
+<span style="font-size:0.75em">( [[Pumpkin Moon]] )</span>
+
+| RuinS_cols = 3
+| RuinS_rows = 2
+| RuinS = {{item|Ruinous Soul}} × 6<br/>
+( {{item|mode=image|image=Polterghast map.png|Polterghast|size=20px}} )
+
+| Penum_cols = 3
+| Penum_rows = 2
+| Penum = {{item|Penumbra}}
+
+| TotaT_cols = 3
+| TotaT_rows = 2
+| TotaT = ''[[Totality Breakers/Crafting tree|Totality Breakers<br/>crafting tree]]''
+
+| TotaB_cols = 3
+| TotaB_rows = 2
+| TotaB = {{item|Totality Breakers}}
+
+| MiMaT_cols = 3
+| MiMaT_rows = 2
+| MiMaT = ''[[Miracle Matter/Crafting tree|Miracle Matter<br/>crafting tree]]''
+
+| MirMa_cols = 3
+| MirMa_rows = 2
+| MirMa = {{item|Miracle Matter}}
+
+| Super_cols = 3
+| Super_rows = 2
+| Super = {{item|Supernova}}
+
+<!-- •• CRAFTING STATIONS •• -->
+
+|WORKB_cols = 3
+|WORKB_class = craft-station
+|WORKB = {{item|mode=image|Work Bench}}
+
+| ÷_cols = 1
+| ÷_class = craft-station
+| ÷ = [[By Hand]]
+
+| ±_cols = 1
+| ±_class = craft-station
+| ± = {{item|mode=image|Water|size=24px}}
+
+| PHANV_cols = 3
+| PHANV_class = craft-station
+| PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+| PHFRG_cols = 3
+| PHFRG_class = craft-station
+| PHFRG = {{item|mode=image|Furnace}}
+
+| HMANV_cols = 3
+| HMANV_class = craft-station
+| HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+| COANV_cols = 3
+| COANV_class = craft-station
+| COANV = {{item|mode=image|Cosmic Anvil}}
+
+| §_cols = 1
+| §_class = craft-station
+| § = {{item|mode=image|Ancient Manipulator}}
+
+| ₪_cols = 1
+| ₪_class = craft-station
+| ₪ = {{item|mode=image|Draedon's Forge}}
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

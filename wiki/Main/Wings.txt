@@ -1,0 +1,633 @@
+{{item infobox
+| name = Wings
+| imagealt = [[File:Skyline Wings.png]] [[File:Static Wings.png]] [[File:Soul of Cryogen.png]] [[File:Starlight Wings.png]] [[File:MOAB.png]] [[File:Aureate Booster.png]]<br/>[[File:Hadal Mantle.png]] [[File:Hadarian Wings.png]] [[File:Exodus Wings.png]] [[File:Tarragon Wings.png]] [[File:Archangel Wings.png]] [[File:Bloodflare Wings.png]] [[File:Seraph Tracers.png]]<br/>[[File:Elysian Wings.png]] [[File:Tree-Crown Wings.png]] [[File:Elysian Tracers.png]] [[File:Silva Wings.png]] [[File:Armageddon Wings.png]] {{dei}} [[File:Drew's Wings.png]] [[File:Celestial Tracers.png]] [[File:Holy Mantle.png]] [[File:Shadowspectre Tracers.png]]
+| type = Covering
+| covering = true
+| tooltip = Allows flight and slow fall
+| stack = 1
+}}
+
+'''Wings''' are [[coverings]] that allow the player to fly temporarily by pressing and holding the {{key|jump}} key. They also provide immunity from fall damage (except when the player is affected by the Stoned [[debuff]]), rendering the [[Lucky Horseshoe]], [[Obsidian Horseshoe]], [[Umbrella]], and [[Featherfall Potion]]s unnecessary. By continuing to hold the {{key|jump}} key after the wings' flight time has been exhausted, the player is able to glide. Gliding fall speed can be accelerated by holding the {{key|down}} key.
+Equipping Wings generally replaces jumps entirely with flight, rather than requiring a double-jump to activate. The [[MOAB]] however, grants the player a quintuple-jump before being able to fly. Flight time resets when the player stands on blocks, or grabs a block with a grappling hook.
+
+The Calamity Mod introduces 10 types of wings, with 1 uniquely being available in [[Pre-Hardmode]], 5 being available in [[Hardmode]], and the other 4 being available Godseeker Mode.
+
+Wings within the Vanilla game are also rebalanced within the Calamity Mod, granting them brand new stats.
+
+Both vanilla and Calamity wings have added information in their tooltips which tells the player how many frames of flight and the level of acceleration the wings provide. There are 60 frames in one in-game second, so 60 frames in the tooltip translates to 1 in-game second of flight, 120 frames translates to 2 in-game seconds, etc. The acceleration number is a multiplier; 1 in the tooltip translates to normal acceleration, 2 in the tooltip is twice the normal acceleration, etc.
+
+__TOC__
+{{-}}
+
+== Types ==
+=== Calamity Wings ===
+{{item/options|mode=table}}
+{| class="terraria sortable lined" style="text-align:center;"
+! colspan=2 | Wing
+! class="unsortable" | Equipped
+! class="unsortable" | Source
+! Flight time<br/>(seconds)
+! Height<br/>(tiles)
+! Horizontal acceleration bonus
+! Rarity
+! Value
+! class="unsortable" | Notes and Effects
+
+|-
+| {{item|class=boldname|Skyline Wings}}
+| [[File:Skyline Wings (equipped).png|link=]]
+| {{recipes/extract|result=Skyline Wings}}
+| 1.33
+| 60.5 /<br/>65.5 (With bonus accounted for)
+| +0%
+| {{rare|sort=yes|3}}
+| {{value|0|0|80}}
+|
+*Obtainable in [[pre-Hardmode]]
+*While wearing [[Aerospec armor]] with any Aerospec headpiece, the player's jump speed is increased by 10%.
+
+|-
+| {{item|class=boldname|Static Wings}}
+| [[File:Static Wings (equipped).png|link=]]
+| {{recipes/extract|result=Static Wings}}
+| 1.33
+| 70.5 /<br/>80.5 (With bonus accounted for)
+| +0%
+| {{rare|sort=yes|4}}
+| {{value|0|1|}}
+|
+*Obtainable in [[pre-Hardmode]]
+*While wearing [[Statigel Armor]] with any Statigel headpiece, the player's jump speed is increased by 15%.
+|-
+| {{item|class=boldname|Starlight Wings}}
+| [[File:Starlight Wings (equipped).png|link=]]
+| {{recipes/extract|result=Starlight Wings}}
+| 2.5
+| 104.5
+| +0%
+| {{rare|sort=yes|5}}
+| {{value|0|7|20}}
+|
+*While wearing [[Daedalus armor]] with any Daedalus headpiece, the player's damage and critical strike chance are increased by 5%.
+
+|-
+| {{item|class=boldname|Aureate Booster}}
+| [[File:Aureate Booster (equipped).png|link=]]
+| {{recipes/extract|result=Aureate Booster}}
+| 1.33
+| 86.5
+| +50%
+| {{rare|sort=yes|7}}
+| {{value|0|12}}
+|
+*While wearing [[Reaver armor]] with any Reaver headpiece, the player's movement speed is increased by 10%.
+
+|-
+| {{item|class=boldname|Hadal Mantle}}
+| [[File:Hadal Mantle (equipped).png|link=]]
+| {{recipes/extract|result=Hadal Mantle}}
+| 3
+| 123.5
+| +50%
+| {{rare|sort=yes|8}}
+| {{value|0|16}}
+|
+*While wearing [[Hydrothermic armor]] with any Hydrothermic headpiece, the player's damage is increased by 5%.
+
+|-
+| {{item|class=boldname|Hadarian Wings}}
+| [[File:Hadarian Wings (equipped).png|link=]]
+| {{recipes/extract|result=Hadarian Wings}}
+| 2
+| 132 /<br/>141.5 (With bonus accounted for)
+| +75%
+| {{rare|sort=yes|9}}
+| {{value|0|19}}
+|
+*Press {{key|jump}} and {{key|down}} to hover and increase wing flight time.
+*While wearing [[Astral armor]], the player's movement and jump speed are increased by 10%.
+
+|-
+| {{item|class=boldname|Exodus Wings}}
+| [[File:Exodus Wings (equipped).png|link=]]
+| {{recipes/extract|result=Exodus Wings}}
+| 3
+| 191.5
+| +150%
+| {{rare|sort=yes|9}}
+| {{value|0|19}}
+|
+*While wearing [[Empyrean armor]], the player's Spy damage and critical strike chance are increased by 5%.
+
+|-
+| {{item|class=boldname|Tarragon Wings}}
+| [[File:Tarragon Wings (equipped).png|link=]]
+| {{recipes/extract|result=Tarragon Wings}}
+| 4.17
+| 310.5
+| +150%
+| {{rare|sort=yes|12}}
+| {{value|0|24}}
+|
+*While wearing [[Tarragon armor]] with any Tarragon headpiece, the player is granted 15 defense and life regeneration is increased by 2.
+
+|-
+| {{item|class=boldname|Archangel Wings}}
+| [[File:Archangel Wings (equipped).png|link=]]
+| {{recipes/extract|result=Archangel Wings}}
+| 4.17
+| 310.5
+| +150%
+| {{rare|sort=yes|12}}
+| {{value|0|24}}
+|
+*Vanity wings.
+|-
+| {{item|class=boldname|Bloodflare Wings}}
+| [[File:Bloodflare Wings (equipped).png|link=]]
+| {{recipes/extract|result=Bloodflare Wings}}
+| 4
+| 298
+| +170%
+| {{rare|sort=yes|13}}
+| {{value|0|24}}
+|
+*While wearing [[Bloodflare armor]] with any Bloodflare headpiece, the player will be granted 20% increased max life.
+|-
+| {{item|class=boldname|Elysian Wings}}
+| [[File:Elysian Wings (equipped).png|link=]]
+| [[Providence, the Profaned Goddess]] when summoned in [[The Hallow]] biome.
+| 4
+| 298
+| +170%
+| {{rare|sort=yes|12}}
+| {{value|0|24}}
+|
+*Grants temporary immunity to [[lava]] and increases the player's movement speed by 10%.
+*Used in the crafting of [[Elysian Tracers]].
+|-
+| {{item|class=boldname|Tree-Crown Wings}}
+| [[File:Tree-Crown Wings (equipped).png|link=]]
+| [[Ceaseless Void]]
+| 4
+| 328
+| +260%
+| {{rare|sort=yes|12}}
+| {{value|0|24}}
+|
+*Grants 10% increased damage and a larger than usual amount of flight time and speed, at the cost of 30% increased damage taken.
+|-
+| {{item|class=boldname|Silva Wings}}
+| [[File:Silva Wings (equipped).png|link=]]
+| {{recipes/extract|result=Silva Wings}}
+| 4.5
+| 365.5
+| +180%
+| {{rare|sort=yes|15}}
+| {{value|0|50}}
+|
+*While wearing [[Silva armor]] with any Silva headpiece, the player will be healed to 50% of their max life when the Silva revive procs.
+
+|-
+| {{item|class=boldname|Armageddon Wings}} {{dei}}
+| [[File:Armageddon Wings (equipped).png|link=]]
+| {{recipes/extract|result=Armageddon Wings}}
+| 5
+| 425
+| +190%
+| {{rare|sort=yes|14}}
+| {{value|0|50}}
+|
+*+15% movement speed<br/>While wearing [[Goomageddon armor]] with any Goomageddon headpiece, the player will be granted a 7% increase to damage and critical strike chance as well as 2 minion slots.
+
+|-
+| {{item|class=boldname|Drew's Wings}}
+| [[File:Drew's Wings (equipped).png|link=]]
+| [[Jungle Dragon, Yharon]]
+| 6
+| 492
+| +200%
+| {{rare|sort=yes|15}}
+| {{value|0|50}}
+|
+*Used in the crafting of [[Celestial Tracers]] and [[Holy Mantle]]
+
+|-
+| {{item|class=boldname|Holy Mantle}}
+| [[File:Holy Mantle (equipped).png|link=]]
+| {{recipes/extract|result=Holy Mantle}}
+| {{infinity}}
+| {{infinity}}
+| +220%
+| {{rare|sort=yes|15}}
+| {{value|0|50}}
+|
+*Has infinite flight time.
+
+|}
+
+== Other Types ==
+These coverings allow flight but are not identified as wings or boosters.
+{| class="terraria sortable lined" style="text-align:center;"
+! colspan=2 | Covering
+! class="unsortable" | Equipped
+! class="unsortable" | Source
+! Flight time<br/>(seconds)
+! Height<br/>(tiles)
+! Horizontal acceleration bonus
+! Rarity
+! Value
+! class="unsortable" | Notes and Effects
+
+|-
+| {{item|Soul of Cryogen}}
+| [[File:Soul of Cryogen (equipped).png]]
+| {{item|mode=imageonly|Treasure Bag (Cryogen)}}
+| 2
+| 86
+| +0%
+| {{rare|sort=yes|rainbow}}
+| {{value|0|7|20}}
+|
+*[[Expert Mode]] exclusive
+*7% increase to all damage
+*Melee attacks and projectiles inflict [[Frostburn]]
+*Icicles rain down underneath the player when flying
+
+|-
+| {{item|MOAB}}
+| [[File:MOAB (equipped).png]]
+| {{recipes/extract|result=MOAB}}
+| 1.25
+| 143
+| +0%
+| {{rare|sort=yes|6}}
+| {{value|0|9|60}}
+|
+*Grants quadruple jump
+*Grants autojump
+*Grants higher jumps
+*Jumps included in height measurements
+
+|-
+| {{item|Seraph Tracers}}
+| [[File:Seraph Tracers (wings).png]]
+| {{recipes/extract|result=Seraph Tracers}}
+| 2.33
+| 149.5
+| +150%
+| {{rare|sort=yes|12}}
+| {{value|0|24}}
+|
+*Running shoes
+*Greater mobility on ice
+*Water and lava walking
+*Temporary immunity to lava
+*Used in the crafting of [[Elysian Tracers]]
+
+|-
+| {{item|Elysian Tracers}}
+| [[File:Elysian Tracers (wings).png]]
+| {{recipes/extract|result=Elysian Tracers}}
+| 3
+| 232.5
+| +175%
+| {{rare|sort=yes|14}}
+| {{value|0|36}}
+|
+*Running shoes
+*Greater mobility on ice
+*Water and lava walking
+*Temporary immunity to lava
+*Used in the crafting of [[Celestial Tracers]]
+
+|-
+| {{item|Celestial Tracers}}
+| [[File:Celestial Tracers (wings).png]]
+| {{recipes/extract|result=Celestial Tracers}}
+| 4.17
+| 340.5
+| +200%
+| {{rare|sort=yes|15}}
+| {{value|0|50}}
+|
+*Running shoes
+*Greater mobility on ice
+*Water and lava walking
+*Temporary immunity to lava
+*Being hit for over 200 damage will make you immune for an extended time
+
+|-
+| {{item|Shadowspectre Tracers}}
+| [[File:Shadowspectre Tracers (wings).png]]
+| {{recipes/extract|result=Shadowspectre Tracers}}
+| {{infinity}}
+| {{infinity}}
+| +300%
+| {{rare|sort=yes|16}}
+| {{value|5}}
+|
+*Running shoes
+*Greater mobility on ice
+*Liquid walking
+*immunity to most fire debuffs and Suffocation
+*40 additional seconds of breathing
+*60% increased speed
+|}
+
+=== Augmented Vanilla Wings ===
+{| class="terraria sortable lined" style="text-align:center;"
+! colspan=2 | Wing
+! class="unsortable" | Equipped
+! class="unsortable" | Source
+! Flight time<br/>(seconds)
+! Height<br/>(tiles)
+! Horizontal acceleration bonus
+! Tooltip
+! class="unsortable" | Notes and Effects
+
+|-
+| {{item|class=boldname|Angel Wings}}
+| [[File:Angel Wings (equipped).png|link=]]
+| {{recipes/extract|result=Angel Wings}}
+| 1.67
+| 73.5
+| +0%
+| +20 max life, +10 defense and +2 life regen
+|
+*Grants the player +20 max life, 10 defense, and boosts life regeneration by 2.
+
+|-
+| {{item|class=boldname|Demon Wings}}
+| [[File:Demon Wings (equipped).png|link=]]
+| {{recipes/extract|result=Demon Wings}}
+| 1.67
+| 73.5
+| +0%
+| 5% increased damage and critical strike chance
+|
+*Grants the player a 5% damage boost and critical strike chance.
+
+|-
+| {{item|class=boldname|Fin Wings}}
+| [[File:Fin Wings (equipped).png|link=]]
+| Quest reward from the [[Angler]]
+| 1.67
+| 84
+| +0%
+| Gills effect and you can move freely through liquids<br/>You fall faster when submerged in liquids<br/>15% increased movement speed and 18% increased jump speed
+|
+*Grants the player the ability to swim and breathe underwater, allows the player to fall faster in liquids, grants a 15% movement speed increase, and a 18% jump speed increase.
+*Slows breath loss within the [[Abyss]] by 20%.
+
+|-
+| {{item|class=boldname|Bee Wings}}
+| [[File:Bee Wings (equipped).png|link=]]
+| 20 {{item|mode=image|Soul of Flight}} + {{item|mode=image|Tattered Bee Wing}} {{@}} {{item|mode=image|Mythril Anvil}}/{{item|mode=image|Orichalcum Anvil}}
+| 2.17
+| 92
+| +0%
+| Permanently gives the Honey buff and prevents [[Extreme Gravity]].
+|
+*Grants the player the [[Honey]] [[buff]] for an infinite duration until the wings are removed.
+
+|-
+| {{item|class=boldname|Butterfly Wings}}
+| [[File:Butterfly Wings (equipped).png|link=]]
+| 20 {{item|mode=image|Soul of Flight}} + {{item|mode=image|Butterfly Dust}} {{@}} {{item|mode=image|Mythril Anvil}}/{{item|mode=image|Orichalcum Anvil}}
+| 2.17
+| 92
+| +0%
+| +20 mana, 5% decreased mana usage,<br/>5% increased magic damage and magic critical strike chance
+|
+*Grants the player 20 mana.
+*Reduces mana cost by 5%, boosts magic damage by and magic critical strike chance by 5%.
+
+|-
+| {{item|class=boldname|Fairy Wings}}
+| [[File:Fairy Wings (equipped).png|link=]]
+| {{recipes/extract|result=Fairy Wings}}
+| 2.17
+| 92
+| +0%
+| +60 max life
+|
+*Increases the player's health by 60.
+
+|-
+| {{item|class=boldname|Bat Wings}}
+| [[File:Bat Wings (equipped).png|link=]]
+| 20 {{item|mode=image|Soul of Flight}} + {{item|mode=image|Broken Bat Wing}} {{@}} {{item|mode=image|Mythril Anvil}}/{{item|mode=image|Orichalcum Anvil}}
+| 2.33
+| 98.5 /<br/>106 (With bonus accounted for)
+| +0%
+| At night or during an eclipse, you will gain the following boosts:<br/>10% increased movement speed, 10% increased jump speed,<br/> 7% increased damage, and 3% increased critical strike chance
+|
+*The player receives a bonus of 10% movement speed, 10% jump speed, 7% increased damage, and a 5% increased critical strike chance during [[Night]] or the [[Solar Eclipse]].
+
+|-
+| {{item|class=boldname|Harpy Wings}}
+| [[File:Harpy Wings (equipped).png|link=]]
+| 20 {{item|mode=image|Soul of Flight}} + {{item|mode=image|Giant Harpy Feather}} {{@}} {{item|mode=image|Mythril Anvil}}/{{item|mode=image|Orichalcum Anvil}}
+| 2.33
+| 98.5
+| +0%
+| 20% increased movement speed<br/>With Harpy Ring or Angel Treads equipped, most attacks sometimes launch feathers
+|
+*Increases the player's movement speed by 20%.
+*Chance for most attacks to create a feather while [[Harpy Ring]] or [[Angel Treads]] are equipped.
+*Feathers deal 30% of the attack's damage.
+
+|-
+| {{item|class=boldname|Bone Wings}}
+| [[File:Bone Wings (equipped).png|link=]]
+| 20 {{item|mode=image|Soul of Flight}} + {{item|mode=image|Bone Feather}} {{@}} {{item|mode=image|Mythril Anvil}}/{{item|mode=image|Orichalcum Anvil}}
+| 2.33
+| 98.5
+| +33%
+| 10% increased movement speed, ranged damage and critical strike chance<br/>and +30 defense while wearing the Necro Armor
+|
+*While wearing [[Necro armor]], the player receives a 10% movement speed increase, a 10% ranged damage increase, 10% increased ranged critical strike chance, and 30 defense.
+**Works with both the [[Necro Helmet]] and [[Ancient Necro Helmet]].
+
+|-
+| {{item|class=boldname|Mothron Wings}}
+| [[File:Mothron Wings (equipped).png|link=]]
+| Dropped by [[Mothron]] after [[Plantera]] has been defeated.
+| 2.67
+| 121.5
+| +0%
+| +5 defense, 5% increased damage,<br/>10% increased movement speed and 12% increased jump speed
+|
+*Increases the player's movement speed by 10%, damage by 5%, jump speed by 12%, and grants 5 defense.
+
+|-
+| {{item|class=boldname|Leaf Wings}}
+| [[File:Leaf Wings (equipped).png|link=]]
+| Purchased from the [[Witch Doctor]] in [[Hardmode]] [[Jungle]] at Night.
+| 2.67
+| 111
+| +25%
+| +5 defense, 5% increased damage reduction,<br/>and permanent Dryad's Blessing while wearing the Tiki Armor
+|
+*While wearing [[Tiki armor]], the player is granted the [[Dryad's Blessing]] buff along with an increase to defense and damage reduction by 5 and 5% respectively.
+
+|-
+| {{item|class=boldname|Frozen Wings}}
+| [[File:Frozen Wings (equipped).png|link=]]
+| 20 {{item|mode=image|Soul of Flight}} + {{item|mode=image|Ice Feather}} {{@}} {{item|mode=image|Mythril Anvil}}/{{item|mode=image|Orichalcum Anvil}}
+| 2.67
+| 111
+| +50%
+| 2% increased melee and ranged damage<br/>and 1% increased melee and ranged critical strike chance<br/>while wearing the Frost Armor
+|
+*While wearing [[Frost armor]], the player's melee and ranged damage are increased by 2%, and their melee and ranged critical strike chance is increased by 1%.
+
+|-
+| {{item|class=boldname|Flame Wings}}
+| [[File:Flame Wings (equipped).png|link=]]
+| 20 {{item|mode=image|Soul of Flight}} + {{item|mode=image|Fire Feather}} {{@}} {{item|mode=image|Mythril Anvil}}/{{item|mode=image|Orichalcum Anvil}}
+| 2.67
+| 111
+| +50%
+| 5% increased melee damage and critical strike chance
+|
+*Increases the player's melee damage and critical strike chance by 5%.
+
+|-
+| {{item|class=boldname|Spectre Wings}}
+| [[File:Spectre Wings (equipped).png|link=]]
+| 20 {{item|mode=image|Soul of Flight}} + 10 {{item|mode=image|Spectre Bar}} {{@}} {{item|mode=image|Mythril Anvil}}/{{item|mode=image|Orichalcum Anvil}}
+| 2.67
+| 111
+| +50%
+| +10 defense and 5% increased damage reduction while wearing the Spectre Hood set<br/>5% increased magic damage and critical strike chance while wearing the Spectre Mask set
+|
+*While wearing [[Spectre armor]] and the [[Spectre Hood]], the player's damage reduction in increased by 5% and grants 10 defense.
+*While wearing the Spectre armor and the [[Spectre Mask]], the player's magic damage and critical strike chance are increased by 5%.
+
+|-
+| {{item|class=boldname|Beetle Wings}}
+| [[File:Beetle Wings (equipped).png|link=]]
+| 20 {{item|mode=image|Soul of Flight}} + 8 {{item|mode=image|Beetle Husk}} {{@}} {{item|mode=image|Mythril Anvil}}/{{item|mode=image|Orichalcum Anvil}}
+| 2.67
+| 111
+| +50%
+| +10 defense and 5% increased damage reduction while wearing the Beetle Shell set<br/>5% increased melee damage and critical strike chance while wearing the Beetle Scale Mail set
+|
+*While wearing [[Beetle armor]] and the [[Beetle Shell]], the player's damage reduction is increased by 5%, and they are granted 10 defense.
+*While wearing Beetle armor and the [[Beetle Scale Mail]], the player's melee damage and critical strike chance are increased by 5%.
+
+|-
+| {{item|class=boldname|Hoverboard}}
+| [[File:Hoverboard (equipped).png|link=]]
+| 20 {{item|mode=image|Soul of Flight}} + 18 {{item|mode=image|Shroomite Bar}} {{@}} {{item|mode=image|Mythril Anvil}}/{{item|mode=image|Orichalcum Anvil}}
+| 2.83
+| 117.5
+| +8%
+| 10% increased weapon-type damage while wearing the Shroomite Armor<br/>The weapon type boosted matches which Shroomite helmet is worn
+|
+*The player's bow, gun, launcher, and flamethrower damage is increased by 10% while wearing [[Shroomite armor]] with [[Shroomite Headgear]], [[Shroomite Mask|Mask]], [[Shroomite Helmet|Helmet]], and [[Shroomite Visage|Visage]] respectively.
+
+|-
+| {{item|class=boldname|Festive Wings}}
+| [[File:Festive Wings (equipped).png|link=]]
+| Dropped by [[Everscream]]
+| 2.83
+| 117.5
+| +50%
+| +40 max life<br/>Ornaments rain down as you fly
+|
+*Increases the player's life by 40.
+*Ornaments rain down underneath the player when flying
+
+|-
+| {{item|class=boldname|Spooky Wings}}
+| [[File:Spooky Wings (equipped).png|link=]]
+| 20 {{item|mode=image|Soul of Flight}} + {{item|mode=image|Spooky Twig}} {{@}} {{item|mode=image|Mythril Anvil}}/{{item|mode=image|Orichalcum Anvil}}
+| 3
+| 123.5
+| +0%
+| Increased minion knockback and 5% increased minion damage while wearing the Spooky Armor
+|
+*While wearing [[Spooky armor]], minion damage is increased by 5% and minion knockback is increased by 2.
+
+|-
+| {{item|class=boldname|Tattered Fairy Wings}}
+| [[File:Tattered Fairy Wings (equipped).png|link=]]
+| 20 {{item|mode=image|Soul of Flight}} + {{item|mode=image|Black Fairy Dust}} {{@}} {{item|mode=image|Mythril Anvil}}/{{item|mode=image|Orichalcum Anvil}}
+| 3
+| 123.5
+| +50%
+| 5% increased damage and critical strike chance
+|
+*Increases the player's damage and critical strike chance by 5%.
+
+|-
+| {{item|class=boldname|Steampunk Wings}}
+| [[File:Steampunk Wings (equipped).png|link=]]
+| Purchased from the [[Steampunker]] after [[Golem]] has been defeated.
+| 3
+| 123.5
+| +50%
+| +8 defense, 10% increased movement speed,<br/>4% increased damage, and 2% critical strike chance
+|
+*Increases the player's movement speed by 10%, damage by 4%, critical strike chance by 2%, and grants 8 defense.
+
+|-
+| {{item|class=boldname|Nebula Mantle}}
+| [[File:Nebula Mantle (equipped).png|link=]]
+| 14 {{item|mode=image|Nebula Fragment}} + 10 {{item|mode=image|Luminite Bar}} {{@}} {{item|mode=image|Ancient Manipulator}}
+| 2.67
+| 145
+| +17%
+| +20 max mana, 5% increased magic damage and critical strike chance,<br/>and 5% decreased mana usage while wearing the Nebula Armor
+|
+*While wearing [[Nebula armor]], the player's magic damage and critical strike chance are increased by 5%, mana cost is decreased by 5%, and they are granted 20 mana.
+
+|-
+| {{item|class=boldname|Vortex Booster}}
+| [[File:Vortex Booster (equipped).png|link=]]
+| 14 {{item|mode=image|Vortex Fragment}} + 10 {{item|mode=image|Luminite Bar}} {{@}} {{item|mode=image|Ancient Manipulator}}
+| 2.67
+| 145
+| +17%
+| 3% increased ranged damage and 7% increased ranged critical strike chance<br/>while wearing the Vortex Armor
+|
+*While wearing [[Vortex armor]], the player's ranged damage is boosted by 3% and ranged critical strike chance is boosted by 7%.
+
+|-
+| {{item|class=boldname|Stardust Wings}}
+| [[File:Stardust Wings (equipped).png|link=]]
+| 14 {{item|mode=image|Stardust Fragment}} + 10 {{item|mode=image|Luminite Bar}} {{@}} {{item|mode=image|Ancient Manipulator}}
+| 3
+| 222.5
+| +100%
+| +1 max minion and 5% increased minion damage while wearing the Stardust Armor
+|
+*While wearing [[Stardust armor]], the player gains one extra minion slot and minion damage is increased by 5%.
+
+|-
+| {{item|class=boldname|Solar Wings}}
+| [[File:Solar Wings (equipped).png|link=]]
+| 14 {{item|mode=image|Solar Fragment}} + 10 {{item|mode=image|Luminite Bar}} {{@}} {{item|mode=image|Ancient Manipulator}}
+| 3
+| 222.5
+| +100%
+| 7% increased melee damage and 3% increased melee critical strike chance<br/>while wearing the Solar Flare Armor
+|
+*While wearing [[Solar Flare armor]], the player's melee damage is increased by 7% and melee critical strike chance is increased by 3%.
+|}
+{{item/options|reset}}
+
+== Notes ==
+*All vanilla and modded wings display their statistics such as horizontal speed, acceleration multiplier, vertical speed and flight time in their respective tooltips.
+*Although not identified as wings, other coverings that allow flight can not be equipped while a wing is and vice versa.
+**The MOAB can not be equipped while another covering that allows flight is equipped. However, the Bundle of Balloons can still be equipped.
+
+== See also ==
+*[[tgc:Wings|Wings]] on the vanilla wiki.
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}

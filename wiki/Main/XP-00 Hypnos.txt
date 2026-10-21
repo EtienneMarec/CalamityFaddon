@@ -1,0 +1,224 @@
+<section begin=npc infobox />
+{{npc infobox
+| name = XP-00 Hypnos
+| type = Boss
+| ai = XP-00 Hypnos AI
+| life = {{dv|1,320,000|2,112,000|3,168,000}}
+| defense = 90
+| immune1 = Confused
+| immune2 = Pearl Aura
+| vulnerable1 = Fire
+| vulnerable2 = Unholy
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Magic
+| resistant4 = Machine
+| knockback = 100
+| damage = 0 (Contact)<br/>{{dv|300|500|600|650}} (Hostile Contact)<br/>{{dv|500|650|800|900}} (Large Tesla Sphere)
+| money = {{pc|14}}
+| Exo Prism|{{dv|24-32|30-40}}|100%
+| Draedon's Heart|1|100%
+| Exo Box|1|100%
+| Draedon Mask|1|28.57%
+| custom| {{item|The Exo Mechs (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Neuraze}}|25%
+| custom| {{item|Aergian Technistaff}}|25%
+| custom| {{item|Planetarium}}|25%
+| custom| {{item|Hypnos Mask}}|28.57%
+| custom| {{item|Hypnos Trophy}}|100%
+| image2 = XP-00 Hypnos map.png
+| image2caption = Map Icon
+| boxwidth = 27em
+| hurt = ExoHit1.wav, ExoHit2.wav, ExoHit3.wav, ExoHit4.wav
+| killed = ExoDeath.wav
+| sound = PlasmaBolt.wav
+| soundtext = Dash
+| sound2 = Item_ELRFire.wav
+| sound2text = Large Tesla Sphere
+}}<section end=npc infobox />
+{{about|the boss|the NPC|Soul of the Eternal Intellect of Infinite Verboten Knowledge}}
+[[File:Hypnos Trophy.png|25px]] <big>''"A masterful union between flesh and metal…"''</big> [[File:Hypnos Trophy.png|25px]]
+
+'''XP-00 Hypnos''' (Japanese: XP-00 ヒュプノス ''XP - 00 hyupunosu'') is an optional Godseeker Mode [[Exo Mechs|Exo Mech]] fought at the same time as [[The Fabricational Quartet]] and [[Supreme Calamitas]]. It acts as an extra challenge for those looking for one, completing the theoretical dichotomy between Thanatos and the [[Eater of Worlds]].
+
+Defeating it rewards a handful of Mage and Summoner [[weapons]]. These can be very useful, as these classes lack weapon drops from The Fabricational Quartet. As well, XP-00 Hypnos can drop [[Exo Prism|Exo Prisms]], providing a viable alternative for players who are more comfortable with a singular target rather than a host of venerable foes.
+
+== Spawn ==
+XP-00 Hypnos does not spawn on its own, and requires the player to construct [[The Codebreaker]] and an [[Auric Quantum Cooling Cell]]. Once constructed, the player can interact (right-click) and press the '''Contact''' button. Unlike The Fabricational Quartet, to initiate the XP-00 Hypnos encounter, the player must insert a [[Bloody Vein]] into The Codebreaker's [[Draedon Power Cell]] slot. Once this is performed, the normal Exo Mech encounter is overridden by the XP-00 Hypnos fight, but can be toggled back by inputting a [[Rotting Eyeball]]. The boss can also be summoned using a [[Neural Activation Flare]]. XP-00 Hypnos can be fought in any biome at any time.
+
+Once summoned, Draedon will allow the player to choose only one option.
+*{{item|Hypnos Selection Icon|link=|mode=image}} Hypnos, a tyrannical mass of flesh and steel accompanied by its many subjects.
+
+== Behavior ==
+When spawned, XP-00 Hypnos will appear above the player who initiated the encounter with a custom spawn animation. XP-00 Hypnos will hover around the player, moving to keep up with their momentum. Typically, XP-00 Hypnos stays below the player, though they can move to other positions or move independently of them based on if the attack they’re currently performing calls for it. Attached to XP-00 Hypnos are 12 Aergia Neurons, which must be disconnected before the force field around the brain vanishes, and XP-00 Hypnos becomes vulnerable. Three Aergia Neurons are connected to one Plug, with two slots for Plugs on each side of XP-00 Hypnos. XP-00 Hypnos typically attacks using their Aergia Neurons, though they themself can also attack if need be.
+
+=== Attacks ===
+
+==== Phase 1 ====
+*XP-00 Hypnos stays below the player, unless stated otherwise. During this time, the Aergia Neurons will perform several different attacks with XP-00 Hypnos.
+**The Aergia Neurons line up in an upwards-pointing fan above XP-00 Hypnos. After this, they shoot {{item|Blue Exo Pulse Laser|link=|ext=gif|size=36px}}s outwards. This attack is performed {{dv|3|4|5|6}} times in rapid succession over the course of {{dv|1}} seconds.
+***The way the Aergia Neurons line up, and the spread the {{item|Blue Exo Pulse Laser|link=|ext=gif|size=36px}}s are shot at are based on the center of XP-00 Hypnos and the relative position of the Aergia Neurons. If an Aergia Neuron were to be misaligned due to movement, the laser shot would also be misaligned from the rest of the salvo.
+**XP-00 Hypnos moves to the bottom left of the player and positions its Aergia Neurons into a wall formation facing upwards. For a duration of {{dv|5|6|7|8}} seconds, XP-00 Hypnos will begin to move between the bottom left and bottom right of the player at an exponentially increasing speed, while the Aergia Neurons fire {{item|Blue Exo Pulse Laser|link=|ext=gif|size=36px}}s upwards at random intervals.
+***The lasers shot by the Aergia Neurons speed up with the player’s upwards momentum.
+**The Aergia Neurons form a circle around XP-00 Hypnos and begin spinning rapidly, as XP-00 Hypnos begins charging towards the player. Every third charge / {{revengeance|other charge}}, XP-00 Hypnos will roar and create a purple aura around itself, telegraphing a predictive charge. Every {{dv|1|0.8|0.75|0.7}} seconds, the Aergia Neurons will fire a {{item|Blue Exo Pulse Laser|link=|ext=gif|size=36px}} outwards.
+**XP-00 Hypnos extends their Aergia Neurons upwards significantly farther than normal, and electrifies the wire connecting the Neuron to its plug. The Aergia Neurons will begin to idle to either the top left, bottom left, top right, or bottom right of the player, and will periodically charge one at a time towards them. Aergia Neurons that are not connected to XP-00 Hypnos will instead charge towards the player directly. 
+*After being unplugged, Aergia Neurons will continue to fight alongside other remaining Aergia Neurons. Any attack where unplugged Aergia Neurons would fire {{item|Blue Exo Pulse Laser|link=|ext=gif|size=36px}}s has them shoot {{item|Red Exo Pulse Laser|link=|ext=gif|size=36px}}s instead. As well as this, their projectiles move 1.1x faster.
+
+==== Phase 2 ====
+*After all of the Aergia Neurons have been unplugged, XP-00 Hypnos’ force field protecting its brain vanishes, and the second phase of the fight begins. 
+*XP-00 Hypnos does not stick to a particular area of the screen, and instead moves similarly to the Brain of Cthulhu’s Phase 2 while not attacking. 
+*The Aergia Neurons pick random areas on the screen and stick to them for a few seconds, before stopping where they are, activating, and connecting to each other with electricity. After this, XP-00 Hypnos will charge towards the player {{dv|1|2|3|4}} times over the span of {{dv|1|0|2}} seconds. The Aergia Neurons then move to different areas and repeat the attack {{dv|2|0|4}} times.
+**Using the Rod of Discord during this attack will cause XP-00 Hypnos to enrage in a manner not dissimilar from Ares. It and their Aergia Neurons will turn red and begin to smoke for 2 attacks 
+*XP-00 Hypnos begins to circle around the player from a far distance, gradually building up speed. The Aergia Neurons begin spinning around the player in 2 rings of 6. / {{revengeance|4 rings of 3}}. During this attack, randomly chosen rings of Aergia Neurons will charge and fire a {{item|Red Exo Pulse Laser|link=|ext=gif|size=36px}} inwards towards the player. At the end of the attack, XP-00 Hypnos will charge inwards towards the player. This attack lasts for {{dv|6|0|0|8}}  seconds.
+*XP-00 Hypnos rapidly accelerates towards the player in a predictive manner. Its momentum is quick to build up, though slowing down and changing directions is difficult for XP-00 Hypnos during this attack. As well as this, XP-00 Hypnos cannot teleport during this attack. During this attack, the Aergia Neurons create a circle around XP-00 Hypnos about {{dv|20|0|15|10}} blocks away and connect to each other with electricity. This attack goes on for {{dv|3|4|4|5}} seconds.
+*The Aergia Neurons line up in a vertical wall formation to the left of the player, while XP-00 Hypnos begins to move towards the player in a manner identical to the {{item|Large Tesla Sphere|link=|ext=gif|size=36px}}. The Aergia Neurons begin rapidly accelerating towards the other side of the screen. Upon making it past the player’s vertical position, the Aergia Neurons vanish and reappear at the left of the screen to perform the attack again. The attack will be performed {{dv|3|4|4|5}} times in rapid succession.
+
+=== In [[Expert Mode]] ===
+*For the entirety of Phase 1, a {{item|Large Tesla Sphere|link=|ext=gif|size=36px}} is present, which chases the player at a sluggish speed. The speed of the orb increases exponentially as the distance between it and the player increases. 
+*XP-00 Hypnos gains a new attack in phase 1.
+**XP-00 Hypnos gets closer to the player, but still stays below them. The Aergia Neurons spread out and very slowly move around XP-00 Hypnos, but never intersect XP-00 Hypnos or each other. Blue charges are sent up the wires connecting the Aergia Neurons to their plugs. When a blue charge hits the Neuron, they explode and shoot out a circular spread of {{dv|7|9|9|10}} {{item|Red Exo Pulse Laser|link=|ext=gif|size=36px}}s. Disconnected Aergia Neurons do not follow this pattern, and instead charge at the player in a similar way to the Slime God.
+
+=== In [[Revengeance Mode]] ===
+*In phase 2 at 25% of their HP, XP-00 Hypnos will always perform a special “Berserk” attack. 
+**XP-00 Hypnos vanishes, leaving only their Aergia Neurons behind. The Aergia Neurons spread around the player and circle inwards with a slight spin, before coming into contact with each other and causing a huge explosion. This repeats 4 times in rapid succession, with randomized spin speeds. After this attack, XP-00 Hypnos reappears, plays their boss scream, and returns to attacking the player normally.
+**After this attack is performed, XP-00 Hypnos will enter an enraged state, causing a variety of significant changes to their attacks.
+***Attack lengths are greatly shortened, but the speed and potency of shortened attacks are greatly increased to compensate.
+***All instances of {{item|Blue Exo Pulse Laser|link=|ext=gif|size=36px}}s are replaced with {{item|Red Exo Pulse Laser|link=|ext=gif|size=36px}}s instead.
+*The time between attacks is greatly reduced.
+*XP-00 Hypnos will always be at his maximum possible speed for attacks.
+*During XP-00 Hypnos’ predictive dash, the Aergia Neurons will randomly fire {{item|Red Exo Pulse Laser|link=|ext=gif|size=36px}}s inwards.
+*The cooldown between attacks is reduced.
+*Attack speeds are increased.
+
+=== In [[Death Mode]] ===
+*The Berserk attack is always performed at 75% HP  and will be performed after every 5 attacks. 
+**XP-00 Hypnos does not enrage until it reaches 25% HP.
+*The side that the Aergia Neurons start at during the wall attack is randomized. This means that the Aergia Neurons can switch sides mid-attack. The player should pay attention to both sides of the screen while this attack is performed to avoid being caught off guard.
+*The cooldown between attacks is reduced.
+*Attack speeds are increased.
+
+=== On the [[Tgc:For the worthy|For the worthy]] seed ===
+*Is 75% larger.
+*Moves faster.
+*Each Plug has two Aergia Neurons connected to it.
+
+== Summons ==
+{{npc infobox
+| float = none
+| name = XP-00 Hypnos Aergia Neuron
+| type = Flying Enemy
+| damage = {{dv|330|528|560|576}} (Contact)<br/>{{dv|320|480|504|532}} (Blue Exo Pulse Laser)<br/>{{dv|410|520|580|610}} (Red Exo Pulse Laser)
+| ai = XP-00 Hypnos Aergia Neuron AI
+| life = {{dv|200|320}}
+| defense = 22
+| knockback = 100%
+| immuneall = yes
+| hurt = NPC_Hit_4.wav
+| killed = Item_14.wav
+| sound = LaserCannon.wav
+| soundtext = Laser
+}}
+{{npc infobox
+| float = none
+| name = XP-00 Hypnos Plug
+| type = Boss Part
+| damage = 0
+| ai = XP-00 Hypnos Plug AI
+| life = {{dv|250,000|400,000|525,000}}
+| defense = 20
+| knockback = 100%
+| immune1 = Confused
+| immune2 = Pearl Aura
+| hurt = NPC_Hit_4.wav
+| killed = Item_14.wav
+| vulnerable1 = Fire
+| vulnerable2 = Slash
+| vulnerable3 = Water
+| resistant1 = Poison
+| resistant2 = Magic
+}}
+
+== Notes ==
+*Draedon appears in this fight, nearly identical to how he appears during The Fabricational Quartet fight. {{npc infobox
+| type = Boss
+| name = Draedon
+| life = 16,000
+| damage = 0
+| defense = 100
+| knockback = 100
+| hardmode = yes
+| postml = yes
+| killed = NPC_Killed_14.wav
+| sound = DraedonTeleport.wav
+| soundtext = Spawn
+| sound2 = DraedonAmbience.wav
+| sound2text = Ambience
+| sound3 = FlareSound.wav
+| sound3text = Exo Mech Summon
+| sound4 = DraedonLaugh.wav
+| sound4text = Laugh
+}}
+*Draedon exists as an NPC. However, he does not perform any attacks, instead moving away from the player to observe the battle. Once XP-00 Hypnos is defeated, he can be damaged during the closing monologue. "Killing" him will cause another invincible hologram of him to spawn, prompting an extra dialogue. He will continue the monologue as usual even after interrupted.
+**Draedon will take 56x damage from any sources and will cause all damage to turn into critical strikes. If the damage taken is somehow not enough to "kill" him, damage is increased to a range varying from 32,100 to 33,500 damage.
+*During the fight, the sky turns grey and lightning strikes occasionally occur in the background. Specific events of XP-00 Hypnos will also cause a set amount of lightning strikes to occur.
+** While XP-00 Hypnos is performing its Charge attack, 8 lightning bolts appear.
+
+* When starting the Berserk attack, 12 lightning bolts appear.
+
+** After reaching Phase 2, 12 lightning bolts appear.
+*There is a glitch where the Bloody Vein cannot be inserted for some players. The solution is to restart tModLoader, which usually fixes the tile placement bug associated with this glitch. 
+*Draedon has also made the Exo mechs A lot like XP-00 Hypnos and although they might look similar XP-00  Hypnos is indeed NOT a fourth Exo mech
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating XP-00 Hypnos, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:XP-00 Hypnos strategies]].}}
+
+*While the Aergia Neurons are invulnerable, the Plugs connecting them to XP-00 Hypnos are not. It is recommended to have a weapon proficient at crowd control for the first phase of the fight, then to use something better at singular targets for the second phase. 
+*The movement of the Aergia Neurons is shaky and can lead to projectiles being fired at odd angles if they move too much. It is recommended to stand still before attacks begin, so the Aergia Neurons can line up with where they want to go.
+
+== Trivia ==
+*The [[Bestiary]] entry for XP-00 Hypnos: “A cerebral dreadnaught, and quite possibly one of Draedon’s finest creations. While the usage of gray matter is questionable, the feat of getting a brain to interface with cybernetics is impressive.”
+*XP-00 Hypnos's [[Music|theme]] is '''[https://www.youtube.com/watch?v=9Ce6GF44luU Cerebral Augmentations]''', which was composed by the artist [https://www.youtube.com/@theexiiedfeiiow4748 The ExiIed FeIIow].
+**If the Calamity Music add-on mod is disabled, '''Boss 3''' will play instead.
+**Prior to the release of Cerebral Augmentations, XP-00 Hypnos' theme was a different take on the boss's theme, known as '''[https://youtu.be/T3HfoL2yXKY Confusing Fabrications]''', which was composed by the artist [https://www.youtube.com/@Polther Polther/Mumb].
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "An imperfection after all… what a shame."
+*XP-00 Hypnos was made in response to the community joke of a Mechanical variation of the Brain of Cthulhu. The theoretical boss, while implied to exist in vanilla as a Crimson alternative to The Destroyer, does not actually exist, and has even been stated to not exist in lore. In Calamity lore, this Mechanical Brain is likely [[The Derellect]], despite XP-00 Hypnos being introduced first.
+**As well as this, XP-00 Hypnos was made so that players who fought The Fabricational Quartet could get Mage and Summoner weapons from them.
+*Despite technically being a separate boss from The Fabricational Quartet, XP-00 Hypnos shares their Treasure Bag, Lore item, and Covering. 
+*In Greek mythology, Hypnos is the personification of sleep and brother of Thanatos. While XP-00 Hypnos lacks many connections to sleep (except for a droopy eye), the relationship to Thanatos is likely a reference to the parallels between the Corruption and the Crimson.
+**Aergia was the attendant to Hypnos, parallelling the relationship between XP-00 Hypnos and their Aergia Neurons. 
+*XP-00 Hypnos is the first boss created as a joke in a separate mod, but later added as an actual boss in the Calamity Mod for the <code>getfixedboi</code> seed and later available on all seeds.
+
+== Quotes ==
+=== When Spawned ===
+==== When Draedon is spawned for the first time ====
+*"Most peculiar. Your alterations to the Codebreaker have led it to signal a foe I did not intend for you to encounter.”
+*”Your previous battles have piqued my interest, and now your creativity has, too.”
+*”You will face one of my older creations. Do not underestimate it.”
+*”You may proceed after concluding your preparations.”
+
+==== When Draedon is spawned in subsequent battles ====
+*”Proceed when ready.”
+
+=== In Battle ===
+==== In Phase 2 ====
+*”The tethers connecting its attendants to itself are inefficient at best.”
+*”A vestige of my inexperience. Do not let this pollute your judgment of my later creations.”
+
+==== In Phase 2 at 25% health in Revengeance Mode====
+*”Fascinating. Its amygdala appears to be administering adrenaline to its mechanical components.”
+*”I did not account for this in my calculations. Your current situation appears dire indeed.”
+
+=== When Defeated ===
+*”I cannot say I did not expect this to happen.”
+*”Hypnos lacks synergy with my other creations. The free will of its organic components stifles its potential as an efficient war machine.”
+*”I have ascertained everything necessary about this creation and its capabilities.”
+*”Salvage what you wish from it. You will need it more than I for what is to come.”
+*”And please. Dislodge that blood clot from my device the next time you use it.”
+
+== See also ==
+*[[The Fabricational Quartet]], an alternative route of the fight.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

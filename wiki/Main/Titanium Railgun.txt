@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 100
+| use = 25
+| knockback = 3
+| auto = yes
+| stack = 1
+| tooltip = Fires a laser
+| rare = 5
+| sell = {{value|0|7|20}}
+| velocity = 6
+| hardmode = yes
+| element1 = Magic
+| element2 = Machine
+}}
+
+The '''Titanium Railgun''' is a craftable [[Hardmode]] [[gun]] that fires a laser of light particles in a straight line and pierces up to five enemies.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not have an [[Adamantite Bar|Adamantite]] gun counterpart.
+
+== Tips ==
+*The light particles fired by the weapon have an extremely long life span and are not affected by gravity, making it an excellent way to illuminate large swaths of underground areas.
+*The piercing properties of this weapon make it extremely potent against segmented enemies and large groups.
+*Due to the piercing effect and high damage, this can be a great weapon to use throughout early and mid-Hardmode.
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

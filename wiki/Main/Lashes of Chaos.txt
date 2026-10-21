@@ -1,0 +1,44 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 65
+| damagetype = magic
+| auto = yes
+| knockback = 7.5
+| velocity = 9
+| mana = 20
+| tooltip = Watch the world burn...
+| use = 25
+| stack = 1
+| rare = 7
+| sell = {{value|0|12}}
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| debuffduration = 4 seconds
+| hardmode = yes
+| proj = Brimstone Hellfireball.gif
+| projcaption = Brimstone Hellfireball
+| element1 = Unholy
+| element2 = Dark
+}}
+|{{item drops infobox
+| [[Calamitas]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Lashes of Chaos''' is a [[Hardmode]] [[spell tome]] that is dropped by [[Calamitas]]. It shoots out a blast of brimstone, which pierces once and inflicts the [[Brimstone Flames]] [[debuff]]. On impact with an object, the brimstone blast explodes, lasting for about 1 second.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Spell tomes]]

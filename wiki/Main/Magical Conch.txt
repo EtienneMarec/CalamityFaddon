@@ -1,0 +1,34 @@
+{{item infobox
+| type = Weapon
+| damage = 20
+| damagetype = Summon
+| knockback = 2
+| use = 34
+| mana = 10
+| auto = yes
+| tooltip = Summons a hermit crab to fight for you
+| buff = Hermit Crab (buff) | bufflink= no
+| bufftip = The hermit crab will protect you
+| rare = 2
+| buy = {{value|0|2|0|0}}
+| sell = {{value|0|0|40}}
+| stack = 1
+| element1 = Water
+| element2 = Smash
+}}
+{{summoned|Hermit Crab|type=minion}}
+{{distinguish|Magic Conch|a vanilla teleportation tool}}
+
+The '''Magical Conch''' is a [[Pre-Hardmode]] [[summon weapon]] that is purchased from the [[Sea King]] at any time. It will run on the ground, dealing contact damage to [[enemies]]. If the player is flying, the Hermit Crab will float alongside the player, but won't directly attack enemies.
+
+{{Modifier|summon}}
+
+== Notes ==
+*Due to the Hermit Crab's low jump height, it is not too effective against flying enemies.
+*Unlike other minions, Hermit Crabs cannot be re-summoned unless they are summoned directly on an enemy, or until the buff is removed.
+*Due to the Hermit Crab’s lack of active flight and an inability to move through walls, it often fails to reach its target and gets constantly stuck in chasms.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

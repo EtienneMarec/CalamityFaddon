@@ -1,0 +1,48 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 28
+| use = 17
+| knockback = 6.5
+| auto = yes
+| stack = 1
+| rare = 5
+| sell = {{value|0|7|20}}
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| hardmode = yes
+| velocity = 12
+| tooltip = Throws a blade that splits on enemy hits<br/>Stealth strikes split further and cause the player to launch a barrage of brimstone darts
+| proj = BrimstoneBarrage.gif
+| projcaption = Brimstone Dart
+| element1 = Unholy
+| element2 = Fire
+| element3 = Slash
+}}
+|{{item drops infobox
+| [[Clamitas]] {{fantag|Calamity: Community Remix}}| 1 | 25% (in [[Hardmode]])
+}}
+}}
+[[File:Brimblade_(demo).gif|frame|right|The Brimblade being used to attack two [[Target Dummies]], with the stealth strike also demonstrated. Note that it splits and returns to the player when attacking the lower dummy, but attacking the upper dummy causes all the split blades to immediately hit due to the angle.]]
+
+The '''Brimblade''' is a craftable [[Hardmode]] [[Spy]] [[boomerang]] made from [[Unholy Core]]s at a [[Hardmode Anvil]]. When used, it auto-throws a series of brimstone blades. When a blade strikes an enemy, it will split into 3 blades, which return to the player shortly after being released. The split blades deal 30% less damage than the main blade. Every blade inflicts the [[Brimstone Flames]] [[debuff]] and emits a burst of red particles on contact.
+
+Performing a [[stealth strike]] with the Brimblade causes four brimstone darts to be fired alongside the Brimblade, and also causes the Brimblade to split into 4 blades instead of 3. The brimstone darts each deal the same amount of damage as the Brimblades, but have halved knockback.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Unholy Core}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes
+}}
+[[Category:Boomerangs]]

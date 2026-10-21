@@ -1,0 +1,45 @@
+{{addon|Calamity: Tales of the Aquatic}}{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-30 health per second, -20 defense, -20% damage reduction and -40% movement speed. (if player)<br/>-200 health per second, -20% damage reduction and -20% movement speed,  (if enemy)
+| tooltip = Your life is freezing
+}}
+
+'''Evercold''' is a [[debuff]] inflicted by various sources. It causes the player to lose 30 health per second, 20 defense, 20% damage reduction and 40% movement speed, or 200 health and 20% damage reduction and movement if the debuff is inflicted to an enemy instead. It also prevents natural life regeneration.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+=== From NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

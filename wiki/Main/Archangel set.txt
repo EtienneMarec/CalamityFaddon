@@ -1,0 +1,64 @@
+{{infobox wrapper
+|{{item infobox
+| type = Vanity
+| type2 = Armor
+| rare = 1
+| hardmode = yes
+| postml = yes
+| sell = No value
+}}
+}}
+
+
+'''Archangel set''' is a craftable Godseeker Mode [[vanity]] set which consists of the '''Archangel Helm''', '''Archangel Chestplate''' and '''Archangel Greaves'''.
+
+== Crafting ==
+=== Recipes ===
+{{infobox wrapper | direction = row | float = none
+|{{crafting recipe
+| name = Archangel Helm
+| tool = Ancient Manipulator
+| item1 = Divine Bar
+| amount1 = 3
+}}
+|{{crafting recipe
+| name = Archangel Chestplate
+| tool = Ancient Manipulator
+| item1 = Divine Bar
+| amount1 = 3
+}}
+|{{crafting recipe
+| name = Archangel Greaves
+| tool = Ancient Manipulator
+| item1 = Divine Bar
+| amount1 = 3
+}}
+}}
+== Set ==
+{{infobox wrapper|direction = row|float = none
+|{{item infobox
+| name = Archangel Helm
+| type = Vanity
+| body slot = Social Helmet
+| listexclude = yes
+}}
+|{{item infobox
+| name = Archangel Chestplate
+| type = Vanity
+| body slot = Social Shirt
+| listexclude = yes
+}}
+|{{item infobox
+| name = Archangel Greaves
+| type = Vanity
+| body slot = Social Pants
+| listexclude = yes
+}}
+}}
+{{-}}
+==Trivia==
+*This set, and its corresponding [[Wings]] are a reference to the angel [https://ultrakill.fandom.com/wiki/Gabriel Gabriel] from [https://en.wikipedia.org/wiki/Ultrakill Ultrakill].
+{{Master Template Equipables
+| show-main = yes
+| show-vanity = yes
+}}

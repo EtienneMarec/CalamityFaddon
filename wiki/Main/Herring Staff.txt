@@ -1,0 +1,42 @@
+{| align="right"
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 20
+| knockback = 1.25
+| mana = 5
+| rare = 3
+| sell = {{value|0|0|80}}
+| auto = yes
+| stack = 1
+| use = 29
+| velocity = 10
+| tooltip = Summons a Herring to fight for you<br/>Each herring takes only half of a minion slot
+| buff = Herring (buff)| bufflink = no
+| bufftip = The herring will protect you
+| element1 = Water
+| element2 = Dark
+| element3 = Smash
+}}
+|}
+{{summoned|Herring|type=minion}}
+
+The '''Herring Staff''' is a [[Pre-Hardmode]] [[summon weapon]]  that is found in the [[Shadow Chest]]s in the [[Abyss]]. It summons a Herring which charges at enemies in order to attack them. Unlike most minions, the Herring only takes up half a minion slot, allowing the player to summon twice as many Herrings as one-slot minions.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Herring minions will not target any enemies off-screen.
+*This weapon can also be obtained from the [[Abyssal Crate]] after either [[The Slime God]] or [[Wall of Flesh]] have been defeated.
+
+== Trivia ==
+*Despite being named "Herring Staff", the actual minion spawned by the staff doesn't quite look like a herring, since herrings have a distinctive reflecting silver-like color, while the minion's color is dark blue.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

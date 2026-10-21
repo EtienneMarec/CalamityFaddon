@@ -1,0 +1,44 @@
+{{item infobox
+| type = Tool
+| type2 = Weapon
+| type3 = Crafting material
+| damagetype = melee
+| damage = 40
+| knockback = 5
+| axe = 100
+| rare = 2
+| stack = 1
+| auto = yes
+| use = 24
+| sell = {{value|0|0|40|0}}
+| toolspeed = 17
+| element1 = Slash
+}}
+
+The '''Feller of Evergreens''' is a craftable [[Pre-Hardmode]] [[axe]].
+
+{{modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Due to its relatively cheap price and being available from the beginning, it can be made very early. Additionally, it has autoswing and has more damage than most of swords made with ores, so one can use it as a decent weapon until obtaining something better.
+
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Axes]]
+[[Category:Melee weapons]]
+[[Category:Swords]]
+[[Category:True melee]]
+[[zh:翡翠斧]]

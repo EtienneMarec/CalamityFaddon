@@ -1,0 +1,60 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Armor
+| defense = 80
+| rare = C1
+| sell = {{pc|3}} (set)
+| setbonus = All your attacks inflict Umbrus Fumes, 80% more movement speed, 80% more damage.
+| debuff = Umbrus Fumes
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+{{Item drops infobox
+| [[Purgatory Arbiter, Umbrus]]|1 piece of armor | 50%}}
+'''Entropic armor''' is a craftable post-[[Purgatory Arbiter, Umbrus]] multiclass [[Covering]] set that drops from the said boss.
+
+It consists of an '''Entropic Skull''', '''Entropic Tunic''', and '''Entropic Boots'''.
+
+The full set grants the following stats and bonuses (this includes the set bonus):
+*80 defense
+*140% increased movement speed
+*140% increased damage
+*200 max health and mana
+*80% chance to not waste ammo/mana/consumable Spy weapons
+*All attacks inflict Umbrus Fumes
+
+== Set ==
+{{infobox wrapper|direction=row|float=none
+|{{item infobox
+| name = Entropic Skull
+| type = Armor
+| defense = 30
+| body slot = Helmet
+| tooltip = 40% increased damage, 140 max health and mana.
+| sell = {{value|1}}
+}}
+|{{item infobox
+| name = Entropic Tunic
+| type = Armor
+| defense = 20
+| body slot = Shirt
+| tooltip = 20% increased damage, 60 max health and mana, 40% chance to not waste ammo/mana/consumable Spy weapons.
+| sell = {{value|1}}
+}}
+|{{item infobox
+| name = Entropic Boots
+| type = Armor
+| defense = 30
+| body slot = Pants
+| tooltip = 60% increased movement speed, 40% chance to not waste ammo/mana/consumable Spy weapons.
+| sell = {{value|1}}
+}}
+}}
+
+
+{{-}}
+{{Master Template Equipables
+|show-main=yes
+|show-armor=yes
+}}

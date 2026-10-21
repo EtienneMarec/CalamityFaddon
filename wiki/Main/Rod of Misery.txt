@@ -1,0 +1,27 @@
+{{item infobox
+| type = Tool
+| tooltip = Teleports you to opposite your mouse's cursor... kinda.<br/>
+Teleportation is disabled while Chaos State is active
+| use = 28
+| rare = 16
+| sell = {{value|0|32|0|0}}
+| stack = 1
+| debuff = Chaos State 
+| debuffduration = 15 seconds
+| debufftip = Rod of Discord teleports are disabled
+| debufflink = yes
+| debuffchance = 100%
+| hardmode = yes
+| postml = yes
+}}
+[[File:Rod of Misery (demo).gif|frame|Rod of Misery's cast animation.]]
+
+The ''Rod of Misery'' is a pre-Hardmode [[tool]] and equivalent to the [[Rod of Discord]]. When used, it teleports the player opposite to the cursor's x-coordinate, y-coordinate, or both, randomly. This means the player has three potential positions they could teleport in, making this tool much more riskier during a [[Boss]] fight.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Master Template Tools
+| show-other = yes
+}}

@@ -1,0 +1,191 @@
+{{Addon|Calamity: Community Remix}}
+
+<section begin=npc infobox />
+{{npc infobox
+| name = The Derellect
+| type = Boss
+| ai = Derellect AI
+| life = {{dv|42,000|55,000|67,000}}
+| defense = 90
+| immune1 = Shadowflame
+| immune2 = Penetrated
+| immune3 = Acid Venom
+| immune4 = Cursed Inferno
+| immune5 = Confused
+| immune6 = Poisoned
+| immune7 = Daybroken
+| immune8 = Celled
+| immune9 = On Fire!
+| immune10 = Webbed
+| immune11 = Temporal Sadness
+| immune12 = Time Distortion
+| vulnerable1 = Water
+| vulnerable2 = Fire
+| vulnerable3 = Smash
+| resistant1 = Cold
+| resistant2 = Poison
+| resistant3 = Machine
+| knockback = 100
+| damage = {{dv|124|136|148|160}} (Contact)<br/>{{dv|80|100|120|140}} (Spark)<br/>{{dv|124|136|148}} (Death Laser)<br/>{{dv|240|260|280|300}} (Signal Beam)
+| money = {{pc|14}}
+| Soul of Plight|{{dv|20-40|35-50}}|100%
+| Hallowed Bar|30–40|100%
+| custom| {{item|The Derellect (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Neuralink}}|100%
+| custom| {{item|Lobotomy}}|100%
+| custom| {{item|Derellect Mask}}|28.57%
+| custom| {{item|Derellect Trophy}}|10%
+| image2 = Derellect map.png
+| image2caption = Map Icon
+| boxwidth = 27em
+| hurt = NPC_Hit_4.wav
+| killed = Item_14.wav
+| sound = Laser.mp3
+| soundtext = Death Laser
+| sound2 = Item_104.wav
+| sound2text = Signal Beam
+}}<section end=npc infobox />
+
+'''The Derellect''' (Japanese: デレデレ ''Deredere'') is an optional [[Hardmode]] [[boss]] intended to be fought alongside [[Plantera]] and [[Calamitas]]. It serves as the "upgraded" [[tgc:Mechanical bosses|mechanical boss]] form of the [[Brain of Cthulhu]], and so it possesses behavioral similarity in some aspects, but vast differences in others.
+
+Defeating it rewards [[Soul of Plight|Souls of Plight]], allowing the player to craft several [[Magic weapons|Mage]] and [[Summon weapons|Summoner]] weapons. Additionally, defeating it rewards a much larger amount of [[tgc:Hallowed_Bar|Hallowed Bars]] than the other mechanical bosses, providing players with a more time efficient method to farm them.
+
+== Spawn ==
+The Derellect does not spawn on its own, and requires the player to use a [[Mechanical Worm]] while having a [[Bloody Vein]] equipped. 
+
+== Behavior ==
+When spawned, the Derellect will rise from the ground below its summoner, sputtering and sparking due to its damaged parts. Derellect will attempt to keep up with the nearest player, but will often stall and cease movement. Hovering around Derellect are {{dv|10|0|12}} Signal Drones, which must be destroyed before the boss, as they will constantly heal it if it is damaged. The Derellect rarely attacks on its own unless its drones are destroyed, though its stuttering produces damaging sparks.
+
+=== Attacks ===
+
+==== Phase 1 ====
+*The Signal Drones line up in random lines around the player. After this, they link together with an electric pulse. After this, Derellect will then charge at the player.
+**The last drone in the salvo will always line up directly with the player, attempting to cut off their movement.
+*The drone with the most health will line up in front of the player, while the others will attempt to cluster behind. The front drone will then fire {{dv|a|0|2}} Death Lasers at the player, which will then ricoshet off the drones and back at the player.
+*The Signal Drones will randomly cluster at the bottom of the screen, then fire a blast of lasers at the player. After 1.5 seconds pass, the drones will repeat this process {{dv|1|2|3}} more times.
+*The Signal Drones will arrange in a spinning line-like formation, then dash at the player. 
+**This attack will vary in velocity depending on the player's distance from it's initial position.
+
+==== Phase 2 ====
+*After half of the Drones are destroyed, Phase 2 will begin. 
+*Phase 2 is largely the same as Phase 1, but with the following changes:
+**Death Laser velocity is increased by 25%.
+**When a Drone reaches 1HP, it will become invincible, cease whatever attack it was performing at the time, then attempt to ram into the player. When the Drone hits either the player or a block, it will explode, removing it from the fight. 
+
+==== Phase 3 ====
+*After all of the Signal Drones are destroyed, Derellect can no longer recover from damage, and Phase 3 will begin.
+*Derellect sputters violently, firing an array of sparks in all directions. These remain on the ground for {{dv|10|0|20}} seconds, where they will continue to deal damage.
+*Derellect will fire a Signal Beam from it's stem. Though the beam itself does not move, Derellect will continue to move toward the player, launching lasers to the side as it travels.
+*Derellect will fire a wave of lasers above the player, then begin to gradually move it downward. The gaps between these lasers will remain consistent, requiring the player to move between them as the attack travels past them.
+
+=== In [[Expert Mode]] ===
+*Signal Drones position 25% faster.
+*Derellect teleports in all phases.
+**The player's position is considered 'illegal' for teleports to ensure the player will not be telefragged.
+
+=== In [[Revengeance Mode]] ===
+*Gains a new attack in Phase 1:
+**The Signal Drones begin spinning in two rings around the player. During this attack, randomly chosen Signal Drones will fire a Death Laser inward. 
+*Enrages at 25% HP, gaining greatly increased speed and attack frequency.
+*The cooldown between attacks is reduced.
+*Attack speeds are increased.
+
+=== In [[Death Mode]] ===
+*The Derellect will now attempt to position itself in front of it's Signal Drones in an attempt to block the player from damaging them.
+*Gains a new first phase:
+**All 12 Signal Drones are plugged into the boss, and must all be disconnected before they can be killed. 3 Signal Drones are connected to each Plug, with two slots for Plugs on each side of the Derellect. Attacks in this phase are as follows:
+**Derellect emits a burst of lasers, then redirects them back towards the player once they reach the edge of the screen. 
+***Going to the other side of the boss once this attack has started will cause the lasers to immediately redirect, gaining a large amount of velocity in the process.
+**The Drones cluster spiral out of the Derellect in an evenly-spaced circle, then return to the boss in the same manner once they reach the limit of their wire.
+**The Drones begin to cluster around the edge of the boss closest to the nearest player, then aggressively begin to pull the boss toward the player in an attempt to ram them.
+**When all 4 plugs are destroyed, the standard Phase 1 will begin.
+*The Laser Wave attack in Phase 3 will now fan back upwards once it reaches the bottom of it's arc.
+**The second fan will reposition the gaps in the lasers, altering the required position to avoid the attack.
+*Attack speeds are increased.
+
+=== In [[Malice Mode]] ===
+*Derellect is now very fast and will rapidly approach your current location.
+*Signal Drones heal each other when not attacked for 3 seconds.
+*The damage threshold required to interrupt the Signal Drones is much higher.
+*The Derellect fires a significantly higher quantity of sparks and does so much more often.
+*The Derellect always does contact damage, regardless of attack state.
+*Drones not included in a particular attack aggressively ram the player rather than remaining idle.
+*Attack speeds are significantly increased.
+
+=== On the [[Tgc:For the worthy|For the worthy]] seed ===
+*Is 75% larger.
+*Signal Drones actively attempt to position behind the boss when idle.
+*Signal Drones will go through their plug phase regardless of difficulty and continue to use their plugged attacks while unplugged.
+*No longer slows down when firing sparks.
+*Moves 50% faster while firing the Signal Beam.
+*Three mirror images of Derellect appear around the player between attacks in Phase 3. These mirror the boss's movements and become more opaque as the boss loses health.
+
+=== Simultaneously in [[Malice Mode]] and on the [[Tgc:For the worthy|For the worthy]] seed ===
+
+* Signal Drones will not die at all, becoming invincible permanently when reaching 1HP.
+** When all 12 Drones are invincible, the fight will proceed normally, however they will continue to attack in tandem with the Derellect until it is defeated.
+
+* When the boss is defeated, all Signal Drones will simultaneously execute their ram attack.
+* If this kills the remaining players, the boss will not drop loot.
+
+
+
+== Summons ==
+{{npc infobox
+| float = none
+| name = Signal Drone
+| type = Flying Enemy
+| damage = {{dv|50|85|102}} (Contact)<br/>{{dv|124|136|186}} (Death Laser)<br/>{{dv|110|124|155}} (Electric Wire)<br/>{{dv|150|190|220}} (Self Destruct)
+| ai = Signal Drone AI
+| life = {{dv|20000|22500|25000}}
+| defense = 22
+| knockback = 100%
+| vulnerable1 = Water
+| resistant1 = Cold
+| resistant2 = Poison
+| immuneall = yes
+| hurt = NPC_Hit_4.wav
+| killed = Item_14.wav
+| sound = Laser.mp3
+| soundtext = Death Laser
+}}
+
+{{npc infobox
+| float = none
+| name = Derellect Plug
+| vulnerable1 = Water
+| resistant1 = Poison
+| type = Boss Part
+| damage = 0
+| ai = Derellect Plug AI
+| life = {{dv|0|0|0|10000}}
+| defense = 22
+| knockback = 100%
+| immuneall = yes
+| hurt = NPC_Hit_4.wav
+| killed = Item_14.wav
+}}
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating The Derellect, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Derellect strategies]].}}
+*While it may seem foolish to attack the Derellect while the Signal Drones are alive, applying pressure to it may force the drones to halt their attack to allow the boss to recover. Using this tactically can protect you from the attacks you have trouble dodging.
+*Though the Derellect's sparks seem to be ineffectual attacks, they stick around for an incredibly long time. Be careful while running through areas you've already passed.
+*Damaging the Signal Drones on the For the Worthy seed is incredibly difficult while they're not attacking. It's highly recommended to focus fire onto them as heavily as possible when they exit hiding to maximize damage.
+
+== Trivia ==
+*The [[Bestiary]] entry for The Derellect: “A mother computer designed as a simulacrum of a grotesque creature. Though scraped for parts, it still barely operates.”
+*The Derellect's [[Music|theme]] is [https://www.youtube.com/watch?v=wpt4TFZV0QE '''Signal Interruption'''], which was composed by the artist [https://www.youtube.com/@sploopo4616 Sploopo].
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "The Derellect returns to the scrap heap..."
+*Despite being an earlier boss, the Derellect was designed ''after'' [[XP-00 Hypnos]].
+**The Derellect was most likely created to resolve the lack of a mechanical Brain of Cthulhu, despite the implication one should exist.
+*Derellect is a portmanteau of the words 'Derelict' and 'Intellect'.
+*The Derellect is a likely a reference to [https://tremormod.fandom.com/wiki/Motherboard The Motherboard] from the Tremor mod.
+**Supporting this theory are Derellect's dropped [[Soul of Plight|Souls of Plight]], which share the same name as the Motherboard's soul drop.
+
+* The Derellect cannot be directly summoned in [[tgc:Get_fixed_boi|Zenith seed]] worlds.
+** When [[tgc:Mechdusa|Mechdusa]] is summoned, the Derellect will also be part of the fight, fused to the boss's head. 
+*** It's attack cooldowns are much longer until cut loose to compensate for this.
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

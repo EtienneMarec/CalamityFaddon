@@ -1,0 +1,34 @@
+{{item infobox
+| type = Ammunition
+| damage = 15
+| damagetype = Ranged
+| knockback = 1.5
+| stack = 9999
+| tooltip = Travels incredibly quickly and explodes into more arrows when it hits a certain velocity
+| consumable = True
+| rare = 7
+| sell = {{value|0|0|0|20}}
+| hardmode = yes
+| velocity = 15
+| velocitymult = 2
+| listcat = arrows
+}}
+
+'''Terra Arrows''' are craftable [[Hardmode]] [[arrows]] that are made with one [[Living Shard]] and 250 [[Wooden Arrow]]s. They accelerate while airborne, exploding upon reaching a certain velocity or collision. After exploding, Terra Arrows split into two short-lasting homing arrows which deal 25% of the base arrow's damage.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Their effect mirrors that of [[Terra Bullet]]s.
+*It takes roughly fifty blocks for Terra Arrows to accelerate enough to explode.
+*When used with [[Daedalus Stormbow]], they will only explode upon collision, ignoring its velocity.
+*It takes shorter time to explode if they pass through liquid.
+
+{{Terra}}
+{{Master Template Consumables
+| show-main = yes
+| show-ammo = yes
+}}
+[[Category:Arrows]]

@@ -1,0 +1,41 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 128
+| damagetype = Summon
+| knockback = 5
+| tooltip = Summons a profaned energy turret to fight for you
+| mana = 10
+| rare = 11
+| sell = {{value|0|22}}
+| use = 14
+| auto = yes
+| stack = 1
+| hardmode = yes
+| postml = yes
+| element1 = Holy
+| element2 = Fire
+}}
+|{{item drops infobox
+| [[Impious Immolator]]|1|6.67%
+}}
+}}
+{{summoned|Profaned Energy (sentry)|type=sentry}}
+
+The '''Energy Staff''' is a Godseeker Mode [[sentry]] dropped by [[Impious Immolator]]s. When used, it summons a stationary Impious Immolator sentry that rapidly fires homing sparks of energy at the nearest enemy. Only one can be summoned at a time.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*As this sentry can only lock on one target at a time, it isn't very useful during [[Events]].
+*Despite being referred to as "Profaned Energy" in the item's tooltip, it resembles an Impious Immolator rather than the [[Profaned Energy]] enemy.
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

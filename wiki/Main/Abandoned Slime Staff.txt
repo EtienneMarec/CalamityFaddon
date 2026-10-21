@@ -1,0 +1,56 @@
+{{dedicated|YuH|Patreon Donator}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 56
+| knockback = 3
+| mana = 40
+| use = 19
+| tooltip = Cast down from the heavens in disgust, this relic sings a song of quiet tragedy...<br/>Consumes all of the remaining minion slots on use<br/>Must be used from the hotbar<br/>Increased power and size based on the number of minion slots used<br/>Holding this weapon grants 10% increased jump speed
+| rare = 7
+| sell = {{value|0|9|60}}
+| buff = Astral Jelly (buff) | bufflink= no
+| bufftip = The mini astrageldon slime will protect you
+| stack = 1
+| debuff = Astral Infection (debuff)
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| debufftip = Your flesh is melting off
+| hardmode = yes
+| proj = Astrageldon Laser.gif
+| projcaption = Astrageldon Laser
+| element1 = Magic
+| element2 = Poison
+| element3 = Holy
+| element4 = Smash
+}}
+|{{item drops infobox
+| [[Astral Slime]] (After [[Astrum Aureus]] has been defeated)|1|5%
+}}
+}}
+{{summoned|Astral Jelly (minion)|type=minion}}
+
+The '''Abandoned Slime Staff''' is a [[Hardmode]] [[summon weapon]] that is dropped by [[Astral Slime]]s after [[Astrum Aureus]] is defeated. When used, it summons a rocky Astral Jelly slime minion, which bounces near the player and fires lasers at nearby enemies. If the player strays too far away from the slime, it will equip an armored jetpack and fly to catch up with them. When the slime is summoned, it will immediately occupy all of the player's remaining minion slots. For each minion slot it occupies, its damage and size are increased. Additionally, holding this weapon increases the player's jump speed by 10%.
+
+{{Modifier|summon}}
+
+== Notes ==
+*When summoned, the slime's damage is multiplied by: 1 plus log<sub>8</sub> of the player's remaining minion slots. The damage value is rounded to the nearest integer. The slime's size is multiplied by: 1 plus log<sub>10</sub> of the player's remaining slots.
+**For example, if the player had 4 remaining minion slots when the staff was used, the resulting slime's base damage would be 93. <code>56 * (1 + log<sub>8</sub>(4)) = 56 * (1 + 0.66667) = 56 * 1.66667 = 93.33</code>, rounded down.
+***The slime would be approximately 1.60206 times its base size. <code>(1 + log<sub>10</sub>(4) ) = (1 + 0.60206) = 1.60206</code>
+*If the player has the [[Frog Leg]] equipped, the jump speed bonus granted by holding this weapon is reduced to 5%.
+
+== Trivia ==
+*This weapon and minion is based on the [[Astrageldon Slime]], a removed [[boss]] which was reworked into Astrum Aureus, hence the theme of abandonment in the name and flavor text.
+**To further the reference, the weapon and minion feature a yellow and purple palette similar to the Astral Meteor's before it was redesigned into a [[Astral Infection|full biome]].
+**The tooltip's usage of the words "heaven" and "disgust" are references to the titles of the Astral Infection's various [[music|theme]]s which contain the word "Heaven" and the Astrageldon Slime's theme, [https://www.youtube.com/watch?v=ibFdltiLuKM '''Cosmic Disgust'''].
+**The minion piloting an armored jetpack that resembles Astrum Aureus is a reference to a gif where Astrum Aureus' sprite opens up to reveal the Astrageldon Slime controlling it.
+*The weapon's hooked shape resembles the vanilla [[Slime Staff]].
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}
+[[zh:淡忘之史]]

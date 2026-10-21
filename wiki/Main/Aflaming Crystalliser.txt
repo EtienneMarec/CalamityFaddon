@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| damagetype = magic
+| damage = 40
+| knockback = 5
+| rare = 2
+| sell = {{value|0|0|80}}
+| stack = 1
+| mana = 14
+| auto = yes
+| use = 36
+| velocity = 10
+| tooltip = Casts burning amethyst orbs that shoot crystals
+| debuff = On Fire!
+| debuffduaration = 8 seconds
+| proj = AmethystOrb.png
+| projcaption = Burning Amethyst Orb
+| proj2 = OrbCrystal.png
+| projcaption2 = Orb Crystal
+| proj2 = ShatCrystal.png
+| projcaption2 = Crystal Shard
+| element1 = Fire
+}}
+
+The '''Aflaming Crystalliser''' is a craftable [[Pre-Hardmode]] [[wand]]. It shoots burning amethyst orbs that fly in a wave-like path and shoot crystals that shatter and riccochet on collision. Normal crystals deal 70% of the damage and shards deal 30% of it
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+{{-}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

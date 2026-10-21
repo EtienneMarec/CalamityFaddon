@@ -1,0 +1,43 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{npc infobox
+| imagealt = <Tabber>
+Default=[[File:Hyperfish.png]]
+|-|
+Winged=[[File:Hyperfish (Winged).png]]
+</Tabber>
+| environment = Sky Abyss
+| type = Aquatic
+| ai = Fish AI
+| damage = {{dv|200|240|280}}
+| life = {{dv|10,000|12,000|14,000}}
+| defense = 12
+| knockback = 50%
+| debuff = Wyrm Alert
+| debufftip = a giant Aquatic creature is informed of your presence
+| debuffchance = 10%
+| duration = until the fish is dead
+| immune1 = Crush Depth
+| immune2 = Evercold
+| immune3 = Confused
+| immune4 = Kami Flu
+| money = {{value|0|1}}
+| Esseric Ore |1-5| 100%
+| Skylac Stone |2-5| 100%
+| Fries |1-4| 100% (while in winged form)
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+}}
+
+The '''Hyperfish''' is an [[enemy]] that spawns in the Upper Layer of the [[Sky Abyss]]. It serves as a "helper" for the [[Esserwyrm]] , as it helps the boss, but is not summoned by it. If the player gets 10 tiles near it, the player gets the '''Wyrm Alert''' debuff that triples the Esserwyrms spawnrate, the debuff lasts until all the Hyperfishes near the player are killed. It also drops [[Esseric Ore]] incase the player runs out of it.
+
+If the fish gets out of water while chasing its enemy, it grows wings and tries to fly as far as possible from the sky abyss. It does not attack anyone in winged form.
+
+== Trivia ==
+*It is the only Enemy thats not attacked by the [[Esserwyrm]]
+*It dropping fries is a reference to Flying Fish dropping them
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-common = yes
+}}

@@ -1,0 +1,963 @@
+The '''Spy,''' previously known as the "rogue" class, is a new class added by the Calamity Mod. The Spy class utilizes a unique Stealth mechanic granted by its [[Covering]]s, and makes use of thrown [[Spy weapons|Spy Weapons]], 32 coverings, 5 new full armor sets, 11 armor helmets, and 2 modified vanilla armor sets, and new [[modifiers]].<!--Test-->
+
+==Mechanics==
+===Spy Damage===
+The Spy's throwing weapons hit with a specific damage type called '''Spy damage'''. Coverings and armor can be used to augment Spy damage output, and generic 'damage' buffs still increase a Spy's damage.
+
+===Proficiency===
+Spy [[proficiency]] boosts the class's damage and critical strike chance, while also uniquely boosting projectile speed. Like other classes, the player's current Spy proficiency level and the stats gained from it can be viewed by purchasing a [[Level Meters|Level Meter]] from the [[Goblin Tinkerer]], and the proficiency gain rate will be boosted if it is equipped.
+
+=== Stealth===
+{| align="right"
+|{{item infobox
+| name = The Stealth Meter
+| image = Spy Stealth Meter.gif
+| boxwidth = 210px
+}}
+|-
+|
+{| class="terraria" align="right" style="margin-left: 10px;"
+! colspan="2" |Full stealth sound<br />
+|-
+|[[File:StealthFullCharge.wav|200px]]
+|}
+|}
+Stealth is a Spy-exclusive stat that the player gains access to upon wearing almost any Spy-class armor set or respective helmet. Stealth increases whenever the player is not using any items or weapons. Stealth will be gained at a higher rate if the player stands still. Stealth decreases when the player uses items or weapons, regardless of whether or not they are moving. Depending on the armor worn, the maximum Stealth value can vary between 50 and 130, though it is able to be boosted further through the use of [[Spy#Coverings|coverings]]. It initially takes exactly 3 and 9 seconds of inactivity to achieve full Stealth while standing still and moving respectively, though this can be significantly shortened with certain coverings. Upon reaching full Stealth, a sound effect plays to indicate it. Additionally, the stealth charge can be monitored through the stealth Meter towards the upper left-hand side of the screen. Max stealth is indicated when the stealth meter turns yellow.
+
+For every point of Stealth, the player becomes slightly more transparent (this will not affect the player if they are near a town NPC, and can be disabled via configuration options), and the following stats are granted.
+*+0.5% Spy damage (+0.67% per point at max stealth)
+*-4 aggro
+
+The following stats are what are granted when at maximum Stealth, listing the lowest max of 10, a typical player's max of 150 ([[Auric Tesla armor]] and an [[Eclipse Mirror]]), and the highest possible max of 200 (Auric Tesla Armor, Eclipse Mirror, [[Dark God's Sheath]], [[Silencing Sheath]], and [[Ethereal Extorter]]).<br />Note that once at maximum, every point counts toward +0.67% Spy damage instead of +0.5%.
+*+13.33% Spy damage / +100% Spy damage / +133.33% Spy damage
+*-80 aggro / -600 aggro / -800 aggro
+
+====Stealth Strike====
+[[File:Stormfront Razor (demo).gif|frame|Example of normal strikes versus a stealth strike on [[Stormfront Razor]].]]
+A stealth strike occurs when a Spy weapon is used while the player has full Spy stealth. Upon executing a stealth strike, the player's stealth will be consumed. Wearing the [[Ruin Medallion]], [[Dark God's Sheath]], or [[Eclipse Mirror]] will cause stealth strikes to only require the player's stealth to be at least halfway full to perform, and to only consume half of the player's maximum stealth when performed. Stealth strikes have a 1 second cooldown.
+
+Most covering effects that trigger on stealth strike hits (like sparks created from stealth strikes while wearing [[Electrician's Glove]]) can only be triggered a maximum of 5 times per stealth strike. Lifesteal effect from [[Bloodstained Glove]] and its upgrades don't have this limit, however.
+
+Most Spy weapons have unique stealth strike effects, listed below.
+{{collapse top|Stealth Strike Weapons}}
+{| class="terraria lined"
+! width="215px" | Weapon
+! width="200px" | Stealth Strike effect
+|-
+| {{item|Acidic Rain Barrel}} || Bounces off walls up to 3 times. Bounces cause a larger eruption of shrapnel and droplets.
+|-
+| {{item|Adamantite Throwing Axe}} || Summons three homing lightning bolts from the bottom of the screen.
+|-
+| {{item|Alpha Virus}} || Travels slower but builds up plague seekers over time.
+|-
+| {{item|Apoctolith}} || Shatters into 5 shards on impact.
+|-
+| {{item|Ashen Stalactite}} || Becomes larger, travels slower, lasts longer, and breaks into damaging dust.
+|-
+| {{item|Auroradical Throw}} || Homing stars summon a meteor on hit.
+|-
+| {{item|The Atom Splitter}} || Spawns 100 rainbow javelins on hit.
+|-
+| {{item|Ballistic Poison Bomb}} || Throws three at once.
+|-
+| {{item|Blast Barrel}} || Bounces off of 2 walls, exploding on the third. Bounces cause an eruption of shrapnel and fire shards.
+|-
+| {{item|Blazing Star}} || Throws every star in the stack at once, all of which pierce indefinitely.
+|-
+| {{item|Bloodsoaked Crasher}} || Releases homing blood orbs on enemy hits which heal the player.
+|-
+| {{item|Bouncing Betty}} || 12 projectiles erupt from every explosion.
+|-
+| {{item|Bouncing Eyeball}} || Travels and bounces much faster.
+|-
+| {{item|Bouncy Spiky Ball}} || Gains a larger damage and velocity boost after bouncing.
+|-
+| {{item|Brackish Flask}} || Releases a brackish spear spike upwards upon impact.
+|-
+| {{item|Brimblade}} || Throws four brimstone darts, and splits more.
+|-
+| {{item|Burning Strife}} || Pierces more enemies and create a larger explosion.
+|-
+| {{item|Celestial Reaper}} || Creates damaging afterimages which spawn in greater quantity as the original scythe hits more enemies.
+|-
+| {{item|Celestus}} || Causes the resulting scythe to rebound inaccurately when returning to the player, homing into the nearest enemy but no longer pierces. The scythe will not return to the player for the second time when rebounding.
+|-
+| {{item|Cinquedea}} || Homes in on the nearest target after hitting an enemy.
+|-
+| {{item|Cobalt Kunai}} || Shoots three homing, gravity ignoring bolts instead of kunai.
+|-
+| {{item|Consecrated Water}} || Creates two extra flame pillars on both sides of the original.
+|-
+| {{item|Contaminated Bile}} || Releases a larger and longer-lasting explosion.
+|-
+| {{item|Corpus Avertor}} || Throws a powerful rainbow knife that has a chance to cut the player's health in half on hit.
+|-
+| {{item|Cosmic Kunai}} || Releases five Cosmic Scythes around the player which sharply home onto nearby enemies and cause an explosion that inflicts the [[God Slayer Inferno]] [[debuff]].
+|-
+| {{item|Cranium Smasher}} || Explodes on contact with enemies, pierces more, and explodes on contact with blocks.
+|-
+| {{item|Crushsaw Crasher}} || Throws five at once.
+|-
+| {{item|Crystal Piercer}} || Ignores gravity, moves through walls, and builds up crystal shards as it travels.
+|-
+| {{item|Crystalline}} || Clones split into four short-ranged copies and all daggers explode into crystal dust when destroyed.
+|-
+| {{item|Cursed Dagger}} || Releases cursed sparks and fireballs as it travels.
+|-
+| {{item|Deep Wounder}} || Travels faster and further while trailing water behind it, additionally inflicting the [[Crush Depth]] debuff.
+|-
+| {{item|Defective Sphere}} || Throws all four types of spheres at once.
+|-
+| {{item|Deific Thunderbolt}} || Travels farther and causes more lightning strikes to appear.
+|-
+| {{item|Desecrated Water}} || Releases 3-5 additional bubbles that inflict the [[Ichor (debuff)|Ichor]] and [[Cursed Inferno]] debuffs.
+|-
+| {{item|Duke's Decapitator}} || Releases floating bubbles as it travels.
+|-
+| {{item|Duststorm in a Bottle}} || Lasts longer and spawns more clouds.
+|-
+| {{item|Eclipse's Fall}} || Sticks into enemies instead of piercing, raining spears down upon it's target.
+|-
+| {{item|Elemental Disk}} || Travels farther but slower, pierces through enemies and summons more extra disks.
+|-
+| {{item|Enchanted Axe}} || Several magical axes are released as it travels. Additionally goes much further.
+|-
+| {{item|Epidemic Shredder}} || Releases plague seekers as it travels.
+|-
+| {{item|Equanimity}} || Releases additional light and dark shards.
+|-
+| {{item|Eradicator}} || Sticks to enemies and fire laser in all directions.
+|-
+| {{item|Executioner's Blade}} || Causes a row of twenty identical, non-homing blades to rain from the sky.
+|-
+| {{item|Exorcism}} || Becomes fully-powered and causes stars to fall from the sky.
+|-
+| {{item|Fantasy Talisman}} || Releases lingering souls while traveling, and more projectiles while attached.
+|-
+| {{item|Feather Knife}} || Throws five at once.
+|-
+| {{item|The Final Dawn}} || Causes the player to spin around, creating a large fire aura.<br/>Holding {{key|up}} while performing the stealth strike causes the player to be flung towards the direction of the cursor.
+|-
+| {{item|Frequency Manipulator}} || Explodes on hit and releases more energy.
+|-
+| {{item|Frostcrush Valari}} || Throws three short ranged boomerangs as-well as a spread of homing, gravity-affected icicles.
+|-
+| {{item|Frosty Flare}} || Releases gravity affected snowflakes as it travels, rains down phantom copies instead of ice shards.
+|-
+| {{item|Gacruxian Mollusk}} || Releases several homing snails that release homing sparks.
+|-
+| {{item|Gel Dart}} || Ignores gravity, bounces more violently, and releases streams of slime as it travels.
+|-
+| {{item|Ghoulish Gouger}} || Releases a wave of homing souls on enemy hits.
+|-
+| {{item|Gilded Dagger}} || Homes in after ricocheting, gaining 20% increased damage per ricochet.
+|-
+| {{item|Glaive}} || Travels much quicker, goes further, and pierces indefinitely.
+|-
+| {{item|Gleaming Dagger}} || Homes in after ricocheting, gaining 20% increased damage per ricochet.
+|-
+| {{item|God's Paranoia}} || Homes in faster and releases more kunai.
+|-
+| {{item|Hardened Honeycomb}} || Bounces of off enemies and blocks three times, each bounce generates three additional fragments.
+|-
+| {{item|Heavenfallen Stardisk}} || Constantly rains bolts of astral energy down as it travels.
+|-
+| {{item|Hell's Sun}} || Lasts longer, pierces more enemies, and releases sun orbs at a faster rate.
+|-
+| {{item|Hypothermia}} || Fires ice chunks that explodes into more shards.
+|-
+| {{item|Ice Star}} || Pierces indefinitely and releases eight smaller, homing ice stars on enemy hits.
+|-
+| {{item|Icebreaker}} || Causes cosmic explosions on enemy hit that do 1.5 times the weapon’s damage and inflict the [[Nightwither]] and [[Glacial State]].
+|-
+| {{item|Ichor Spear}} || Releases streams of ichor as it travels.
+|-
+| {{item|Infernal Kris}} || Glows orange and explodes into burning cinders on enemy hits.
+|-
+| {{item|Iron Francisca}} || Pierces indefinitely.
+|-
+| {{item|Jaws of Oblivion}} || Creates a large shockwave after hitting an enemy which inflicts the Crush Depth debuff.
+|-
+| {{item|Kelvin Catalyst}} || Briefly ram nearby enemies before returning to the player.
+|-
+| {{item|Kylie}} || Throws three at once, with shorter range and higher velocity.
+|-
+| {{item|Latcher Mine }} || Sticks to the ground and lasts longer.
+|-
+| {{item|Lead Tomahawk}} || Pierces indefinitely.
+|-
+| {{item|Leonid Progenitor}} || Splits into comets on hit.
+|-
+| {{item|Leviathan Teeth}} || Throws three gravity-ignoring teeth with heavy knockback.
+|-
+| {{item|Lionfish}} || Releases homing urchin spikes in its path.
+|-
+| {{item|Luminous Striker}} || Stardust shards travel with the javelin instead of flying upward, building up as it travels.
+|-
+| {{item|Lunar Kunai}} || Throws eight supercharged kunai.
+|-
+| {{item|Malachite}} || Throws three homing kunai at once.
+|-
+| {{item|Mangrove Chakram}} || Leaves a trail of lingering flowers as it travels.
+|-
+| {{item|Metal Monstrosity}} || Releases several spikes in all directions as it travels.
+|-
+| {{item|Meteor Fist}} || Bounces between enemies four times before exploding.
+|-
+| {{item|Molten Amputator}} || Releases Molten Globs as it travels. Enemy hits release more globs.
+|-
+| {{item|Monkey Darts}} || Throws three at once.
+|-
+| {{item|Mycoroot}} || Releases homing fungi spores around the player.
+|-
+| {{item|Mythril Knife}} || Applies a variety of debuffs.
+|-
+| {{item|Nasty Cholla}} || Throws five at once.
+|-
+| {{item|Night's Gaze}} || Trails homing stars as it travels.
+|-
+| {{item|Nychthemeron}} || Throws all spiky balls in the stack at once.
+|-
+| {{item|Orichalcum Spiked Gemstone}} || Thrown dagger pierces infinitely, lasts longer and summons petals on enemy hits.
+|-
+| {{item|Palladium Javelin}} || Splits twice, resulting in four javelins.
+|-
+| {{item|Penumbra}} || Fires a bomb at the cursor that explodes into more souls.
+|-
+| {{item|Phantasmal Ruin}} || Releases spear clones instead of lost souls and at a faster rate. Spear clones similarly home onto enemies, and fade away over time.
+|-
+| {{item|Phantom Lance}} || Maintains a constant velocity, and souls released always deal maximum damage.
+|-
+| {{item|Plaguenade}} || Emits a larger explosion which releases more bees.
+|-
+| {{item|Plasma Grenade}} || Emits a much bigger explosion that hits twice.
+|-
+| {{item|Poison Pack}} || Releases spore clouds as it travels.
+|-
+| {{item|Prismalline}} || Releases prism shards that stun enemies.
+|-
+| {{item|Profaned Partisan}} || Spear releases smaller spears as it travels.
+|-
+| {{item|Quasar}} || Split knives also cause explosions that rain down stars.
+|-
+| {{item|Radiant Star}} || Splits into six copies and emits a larger, lingering explosion.
+|-
+| {{item|The Reaper}} || Throws four at once.
+|-
+| {{item|Refraction Rotor}} || Shatters into more high velocity rockets.
+|-
+| {{item|Regulus Riot}} || Explodes into energy stars.
+|-
+| {{item|Rot Ball}} || Causes a Shaderain cloud to spawn above hit enemies.
+|-
+| {{item|Sacrifice}} || Grants more healing when returning to the player.
+|-
+| {{item|Sand Dollar}} || Throws two at once and spawns coral shards on enemy hits.
+|-
+| {{item|Sandslasher}} || Releases sand clouds as it travels.
+|-
+| {{item|Scourge of the Desert}} || Is less affected by gravity, pierces much more, and gains 20% extra damage for each enemy hit up to a max of 200%.
+|-
+| {{item|Scourge of the Seas}} || Inflicts the [[Sulphuric Poisoning]] debuff.
+|-
+| {{item|Seafoam Bomb}} || Moves faster and explodes into 4 extra bubbles.
+|-
+| {{item|Sealed Singularity}} || The black hole lasts longer and pulls in from farther away.
+|-
+| {{item|Seashell Boomerang}} || Boomerangs fire seashells towards nearby enemies.
+|-
+| {{item|Shard of Antumbra}} || Spawns homing stars as it travels.
+|-
+| {{item|Shattered Sun}} || Spawns ten more Scorched Blades when Scorched Blades hit an enemy.
+|-
+| {{item|Shinobi Blade}} || Throws three at once.
+|-
+| {{item|Shock Grenade}} || Spawns an electric aura on impact.
+|-
+| {{item|Shroomerang}} || Releases homing spores as it travels, and grants the [[Mushy]] [[buff]] upon hitting an enemy.
+|-
+| {{item|Sky Stabber}} || Rains down feathers on enemy hits.
+|-
+| {{item|Skyfin Bombers}} || homes in regardless of position and massive aura upon impact.
+|-
+| {{item|Slick Cane}} || 1/15 (6.67%) chance for enemies hit to drop 1-3 gold coins.
+|-
+| {{item|Sludge Splotch}} || Splits into several blobs on hit.
+|-
+| {{item|Snap Clam}} || Throws five at once with higher damage over time.
+|-
+| {{item|Spear of Destiny}} || All three spears home more aggressively, ignore tiles, and pierce more.
+|-
+| {{item|Spear of Paleolith}} || Travels slower but farther while releasing more fossil shards.
+|-
+| {{item|Spent Fuel Container}} || Creates an irradiated explosion after the original explosion dissipates.
+|-
+| {{item|Star of Destruction}} || Explodes into 16 bolts regardless of amount of enemies hit.
+|-
+| {{item|Stellar Knife}} || Throws ten at once.
+|-
+| {{item|Sticky Spiky Ball}} || Throws seven at once, and lasts longer.
+|-
+| {{item|Stormfront Razor}} || Travels faster and releases several sparks as it flies.
+|-
+| {{item|Subduction Slicer}} || Creates a tall pillar of fire on enemy hit.
+|-
+| {{item|Supernova}} || Releases homing energy as it travels.
+|-
+| {{item|The Syringe}} || Releases several plague bees upon shattering.
+|-
+| {{item|System Bane}} || Emits a large electric field that releases lightning into enemies within.
+|-
+| {{item|Tarragon Throwing Dart}} || Causes a circle of eight thorns that deal 25% weapon damage to form around hit enemies.
+|-
+| {{item|Terra Disk}} || Travels slower and farther, while generating smaller disks around itself.
+|-
+| {{item|Terror Talons}} || Throws a large, fast, accurate claw that pierces up to 9 enemies while dealing far greater damage.
+|-
+| {{item|Throwing Brick}} || Shatters after hitting blocks and enemies, dealing damage over a large area.
+|-
+| {{item|Time Bolt}} || Causes five more hits to occur with the dagger copy, increases the size of the time field, and increases the duration of the [[Time Distortion]] debuff.
+|-
+| {{item|Titanium Shuriken}} || Causes the shuriken to behave like a boomerang. Causes 1-2 shurikens to appear on enemy hits.
+|-
+| {{item|Tooth Ball}} || Causes a Crimson cloud to spawn above hit enemies.
+|-
+| {{item|Totality Breakers}} || Releases falling tar projectiles as it travels.
+|-
+| {{item|Toxicant Twister}} || Faster homing and dust particles releasing in their path.
+|-
+| {{item|Tracking Disk}} || The disk can target four enemies at once.
+|-
+| {{item|Turbulance}} || Releases trails of homing wind slashes as it travels.
+|-
+| {{item|Urchin Stinger}} || Sticks into the target and releases damaging bubbles that float upwards.
+|-
+| {{item|Utensil Poker}} || Throws a butcher knife. This knife acts as a boomerang, ignores immunity frames and pierces indefinitely.
+|-
+| {{item|Valediction}} || Causes three typhoons that deal half the weapon’s damage on enemy hits.
+|-
+| {{item|Vermillion Angel}} || Grants the player [[lifesteal]] and releases a large amount of projectiles on enemy impact.
+|-
+| {{item|Wave Pounder}} || Emits an absurdly large explosion.
+|-
+| {{item|Wave Skipper}} || Throws three at once with higher velocity.
+|-
+| {{item|Web Ball}} || Slows enemies for longer.
+|-
+| {{item|Wrathwing}} || Erupts into thirteen fireballs on enemy hits.
+|-
+| {{item|Wulfrum Knife}} || Travels farther and strikes targets twice.
+|}
+{{collapse bottom}}
+
+===Throwing Class Compatibility===
+'''Spy damage''' is internally '''throwing damage''', because of this, the Spy and Throwing classes are semi-compatible with each other:
+*Coverings and armor belonging to the Throwing class that boost throwing damage and critical strike chance will also boost Spy weapons.
+**Spy coverings and armor will not boost throwing damage nor critical strike chance.
+* Spy stealth will not boost throwing damage.
+
+==Coverings==
+{{collapse top|Spy Coverings}}
+{| class="terraria lined"
+! width="215px" | Covering
+! width="200px" | Source
+! Effect
+! Hardmode
+! Visible on<br/>Character
+|-
+| {{item|Abyssal Mirror}} || Crafted at a [[Hardmode Anvil]] || Increases stealth regeneration by 30% while standing and 20% while moving. Grants the ability to evade attacks, releasing a cloud of lumenyl fluid which damages and stuns nearby enemies, evading an attack grants a lot of stealth, and has a 90s cooldown. Enemy aggro towards the player is reduced. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Bloodstained Glove}} || Dropped by [[The Perforators]] || Stealth strikes have +10 armor peneration and heal for 1 HP. || <center>{{no}}</center> || <center>{{no}}</center>
+|-
+| {{item|Blunder Booster}} || Crafted at an [[Ancient Manipulator]] || 12% increased spy damage, 15% increased spy projectile velocity and stealth generates 10% faster. Summons a red lightning aura to surround the player and electrify nearby enemies. Press Q to consume 25% of the player's maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of lightning bolts || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Coin of Deceit}} || Crafted at an [[Anvil]] || Spy critical chance is increased by 6% and all stealth strikes only consume 75% of the player's maximum stealth. || <center>{{no}}</center> || <center>{{no}}</center>
+|-
+| {{item|Corrosive Spine}} || Dropped by [[Aquatic Scourge]] || Grants 4 defense and 10% movement speed. Spy attacks inflict Poisoned, Venom, and releases toxicclouds. The player also releases clouds when they are hit. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Dark God's Sheath}} || Crafted at an [[Ancient Manipulator]] || +20 maximum stealth, mobile stealth regeneration accelerates while not attacking, stealth strikes have a 100% critical strike chance, stealth strikes only spend 50% of the player's max stealth, 6% increased spy damage and spy critical strike chance. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Dragon Scales}} || Purchased from [[Bandit]] || Causes all spy projectiles to create a slow fireball as it travels, stealth strikes create infernadoes on projectile death, after Yharon has been defeated the player is granted 10% increased movement speed and acceleration. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Eclipse Mirror}} || Crafted at [[Cosmic Anvil]] || +20 maximum stealth, 6% increased spy damage, and spy critical strike chance. Reduces enemy aggression. 20% increased stealth regeneration while standing, stealth regeneration rate exponentially increases while moving, and stealth strikes have a 100% critical hit chance. stealth strikes only expend 50% of the player's max stealth. Grants a small chance to evade attacks in a blast of darksun light that inflicts extreme damage, evading an attack grants full stealth and has a 20s cooldown. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Eldritch Soul Artifact}} || Crafted at a [[Demon Altar]]/[[Crimson Altar]] || Reduces mana costs by 15%, increases the velocity of ranged projectiles, increases spy damage by 15%, increases melee speed by 10%, and increases max minions by 2. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Electrician's Glove}} || Crafted at a [[Tinkerer's Workshop]] || Stealth strikes summon sparks on enemy hits. Stealth strikes have +20 armor peneration, deal 10% more damage, and heal for 1 HP. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Ethereal Extorter}} || Purchased from [[Bandit]] || +10 maximum stealth, 10% spy damage but reduced life regen. Spy projectiles explode into homing souls. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Feather Crown}} || Crafted at a [[Sky Mill]] || 15% increased spy projectile velocity and stealth strike causes feathers to rain down on enemy hits. || <center>{{no}}</center> || <center>{{no}}</center>
+|-
+| {{item|Filthy Glove}} || Dropped by [[The Hive Mind]] || Stealth strikes have +10 armor peneration and deal 10% more damage. || <center>{{no}}</center> || <center>{{no}}</center>
+|-
+| {{item|Glove of Precision}} || Purchased from [[Bandit]] || Decreases spy attack speed by 20% but increases spy damage and critical strike chance by 12% and projectile velocity by 25%. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Glove of Recklessness}} || Purchased from [[Bandit]] || Increases spy attack speed by 12% but decreases damage by 10% and adds inaccuracy to spy weapons. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Ink Bomb}} || Dropped from [[Cuttlefish]] || Throws several ink bombs when hit that explode in a confusing cloud of ink, gain a lot of stealth when struck and has a 20s cooldown. || <center>{{no}}</center> || <center>{{no}}</center>
+|-
+| {{item|Mirage Mirror}} || Crafted at a [[Tinkerer's Workshop]] || Reduces enemy aggression outside of the abyss. Stealth generates 30% faster while standing still and 20% faster while moving. || <center>{{no}}</center> || <center>{{no}}</center>
+|-
+| {{item|Momentum Capacitor}} || Purchased from [[Bandit]] || Pressing {{key|Momentum Capacitor Effect}}, for the cost of 30% of max stealth, causes an energy field to appear at the cursor position. Spy projectiles that enter the field get constant acceleration and a 15% damage boost, there can only be one field active at a time. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Moonstone Crown}} || Crafted at an [[Ancient Manipulator]] || 15% increased spy projectile velocity, stealth strikes summon lunar flares on enemy hits. Spy projectiles very occasionally summon moon sigils behind them. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Nanotech}} || Crafted at [[Cosmic Anvil]] || Spy projectiles leave behind nanoblades as they travel. Stealth strikes summon lunar flares on enemy hits. 15% increased spy damage and spy velocity. Increases spy damage every time the player critically strikes, stacking up to 150 times and a total of 15% increased spy damage. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Old Die}} || Purchased from [[Bandit]] || Increases weapon damage deviations from ±15% to -7.85%/+12.05% damage on weapon hit. Causes Spy weapons to run the damage deviation calculation twice, with the higher number being applied to the damage of the weapon. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Plagued Fuel Pack}} || Dropped from [[Plaguebringer]] || 5% increased spy damage. 15% increased spy projectile velocity. Stealth generates 10% faster. Press Q to consume 25% of the player's maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of plagued clouds. This effect has a 3 second cooldown before it can be used again || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Psychotic Amulet}} || Dropped from [[Possessed Armor]] || Boosts spy and ranged damage and critical strike chance by 5%. When standing still, the player goes invisible, further boosting these effects. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Raider's Talisman}} || Crafted at an [[Anvil]] || Increases spy damage every time the player critically strikes, stacking up to 150 times and a total of 15% increased spy damage. || <center>{{no}}</center> || <center>{{no}}</center>
+|-
+| {{item|Spy Emblem}} || Dropped from [[Wall of Flesh]] || Increases spy damage by 15%. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Rotten Dogtooth}} || Dropped from [[Rotdog]] || Stealth strikes inflict Armor Crunch, deal 10% more damage and cost 1 less unit of stealth. || <center>{{no}}</center> || <center>{{no}}</center>
+|-
+| {{item|Ruin Medallion}} || Crafted at a [[Hardmode Anvil]] || Stealth strikes only expend 50% of the player's max stealth, 6% increased spy damage and increased spy critical strike chance. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Sand Cloak}} || Dropped from [[Desert Scourge]] || +1 defense and 5% increased movement speed. Press C to consume 25% of the player's maximum stealth to create a protective dust veil which provides +6 defense and +2 life regen. This effect has a 30 second cooldown before it can be used again || <center>{{no}}</center> || <center>{{no}}</center>
+|-
+| {{item|Scuttler's Jewel}} || Dropped from Gem [[Crawlers]] || Spy javelin projectiles have a chance to spawn a jewel spike when destroyed. || <center>{{no}}</center> || <center>{{no}}</center>
+|-
+| {{item|Silencing Sheath}} || Crafted at a [[Tinkerer's Workshop]] || +20 maximum stealth and 15% increased stealth regeneration. || <center>{{no}}</center> || <center>{{no}}</center>
+|-
+| {{item|Spectral Veil}} || Dropped from [[Signus]] || 10% increased movement speed and stealth generates 20% faster while moving. StealthPress Z to consume 25% of the player's maximum stealth to perform a short-ranged teleport and render them momentarily invulnerable. Dodging something while invulnerable causes full stealth to be gained. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Thief's Dime}} || Purchased from [[Bandit]] || Summons a coin that revolves around the player and steals money from enemies. || <center>{{yes}}</center> || <center>{{yes}}</center>
+|-
+| {{item|Vampiric Talisman}} || Crafted at a [[Hardmode Anvil]] || Spy projectiles grant lifesteal on crits. 12% increased spy damage. || <center>{{yes}}</center> || <center>{{no}}</center>
+|-
+| {{item|Venerated Locket}} || Purchased from [[Bandit]] || 10% increased spy damage. Using a spy weapon summons a copy of the projectile that falls from the sky. Stealth strikes cause a circular fan of seeking cosmilite knives to be thrown || <center>{{yes}}</center> || <center>{{no}}</center>
+|}
+{{collapse bottom}}
+
+==Armor==
+=== Vanilla===
+The Calamity Mod modifies two vanilla armors to grant Spy-based effects.
+
+{{collapse top|Vanilla Spy Armor}}
+{| class="terraria lined sortable"
+! class="unsortable" | Appearance
+! width=80px | Set
+! style="font-size:90%;" data-sort-type=number | Head
+! style="font-size:90%;" data-sort-type=number | Chest
+! style="font-size:90%;" data-sort-type=number | Legs
+! style="font-size:90%;" data-sort-type=number | Sum
+! class="unsortable" | Bonuses / Effects / Notes
+|-
+| [[File:Gladiator armor.png]]
+| [[Gladiator armor]]
+| style="text-align:center" | <span style="display:none">0</span>3
+| style="text-align:center" | <span style="display:none">0</span>5
+| style="text-align:center" | <span style="display:none">0</span>4
+| style="text-align:center" | <span style="display:none">0</span>15
+|
+*3% increased spy damage
+*3% increased spy critical strike chance
+*3% increased spy velocity
+*'''Set Bonus:''' +3 defense and 5% increased spy damage and 10% increased spy velocity.<br/>Maximum spy stealth is 70
+|-
+| [[File:Obsidian armor.png]]
+| [[Obsidian armor]]
+| style="text-align:center" | <span style="display:none">0</span>4
+| style="text-align:center" | <span style="display:none">0</span>5
+| style="text-align:center" | <span style="display:none">0</span>4
+| style="text-align:center" | <span style="display:none">0</span>15
+|
+*3% increased spy damage
+*3% increased spy critical strike chance
+*3% increased spy velocity
+*'''Set Bonus:''' +2 defense and 5% increased spy damage and critical strike chance<br/>Grants immunity to fire blocks and temporary immunity to lava<br/>Maximum spy stealth is 80
+|
+|}
+{{collapse bottom}}
+
+===Calamity===
+{{collapse top|Calamity Spy Armor}}
+==== Pre-Hardmode ====
+{| class="terraria lined sortable"
+! class="unsortable" width=40px | Appearance
+! width=100px | Set
+! style="font-size:90%;" data-sort-type=number | Head
+! style="font-size:90%;" data-sort-type=number | Chest
+! style="font-size:90%;" data-sort-type=number | Legs
+! style="font-size:90%;" data-sort-type=number | Sum
+! class="unsortable" | Bonuses / Effects / Notes
+! class="unsortable" | Cost / Source / Crafted At
+
+|- class="topline"
+| [[File:Wulfrum Mask.png]]
+| [[Wulfrum armor]]<br/>with [[Wulfrum Mask]]
+| style="text-align:center" | <span style="display:none">0</span>1
+| style="text-align:center" | <span style="display:none">0</span>2
+| style="text-align:center" | <span style="display:none">0</span>1
+| style="text-align:center" | <span style="display:none">0</span>7
+|
+*3% increased critical strike chance
+*5% increased movement speed
+*'''Wulfrum Mask:''' 10% increased spy damage
+*'''Set Bonus:''' +3 defense, +5 defense when below 50% life<br/>Maximum spy stealth of 50
+| colspan="3" style="text-align:center" |
+*25 {{item|Wulfrum Metal Scrap}}
+*3 {{item|Energy Core}}
+*Crafted at {{item|Iron Anvil}}
+
+|- class="topline"
+| [[File:Snow Ruffian armor.png]]
+| [[Snow Ruffian armor]]
+| style="text-align:center" | <span style="display:none">0</span>1
+| style="text-align:center" | <span style="display:none">0</span>2
+| style="text-align:center" | <span style="display:none">0</span>1
+| style="text-align:center" | <span style="display:none">0</span>4
+|
+*2% increased spy damage
+*3% increased spy critical strike chance
+*5% increased movement speed
+*'''Set Bonus:''' 5% increased spy damage. Grants the player wings to glide and negate fall damage<br/>Maximum spy stealth of 50
+
+| colspan="4" style="text-align:center" |
+*60 {{item|Snow Block}}
+*30 {{item|Ice Block}}
+*90 {{item|Boreal Wood}}
+*Crafted at {{item|Iron Anvil}}
+
+|- class="topline"
+| [[File:Victide Headgear.png]]
+| [[Victide armor]]<br/>with [[Victide Headgear]]
+| style="text-align:center" | <span style="display:none">0</span>3
+| style="text-align:center" | <span style="display:none">0</span>5
+| style="text-align:center" | <span style="display:none">0</span>4
+| style="text-align:center" | <span style="display:none">0</span>12
+|
+*5% increased critical strike chance
+*8% increased movement speed
+*5% increased damage reduction
+*+5 defense, +10% increased damage reduction and +30% movement speed while submerged in liquid
+*'''Victide Headgear:''' 5% increased spy damage
+*'''Set Bonus:''' +3 life regen and 10% increased spy damage while submerged in liquid. 10% chance to throw returning seashell projectiles when using weapons. Provides increased underwater mobility and slightly reduces breath loss in the abyss<br/>Maximum spy stealth of 90
+| colspan="2" style="text-align:center" |
+*12 {{item|Victide Bar}}
+*Crafted at {{item|Iron Anvil}}
+
+|-
+| [[File:Sulphurous armor.png]]
+| [[Sulphurous armor]]
+| style="text-align:center" | <span style="display:none">0</span>5
+| style="text-align:center" | <span style="display:none">0</span>6
+| style="text-align:center" | <span style="display:none">0</span>5
+| style="text-align:center" | <span style="display:none">0</span>16
+|
+*12% increased spy damage
+*7% increased spy critical strike chance
+*10% increased movement speed
+*35% increased movement speed while submerged in liquid.
+*[[Gills Potion]] effect
+*The [[Poisoned]] [[debuff]] is inflicted onto any attacking enemy
+*'''Set Bonus:''' Grants a double jump. Jumping off the ground leaves behind a sulphurous bubble that floats upward and inflicts [[Venom]] on enemy hits. Striking an enemy will inflict the Poisoned debuff onto them<br/>Maximum spy stealth of 95
+
+| colspan="5" style="text-align:center" |
+*45 {{item|Acidwood}}
+*95 {{item|Urchin Stinger}}
+*45 {{item|Sulphurous Sand}}
+*45 {{item|Sulphuric Scale}}
+*Crafted at {{item|Iron Anvil}}
+
+|- class="topline"
+| [[File:Aerospec Headgear.png]]
+| [[Aerospec armor]]<br/>with [[Aerospec Headgear]]
+| style="text-align:center" | <span style="display:none">0</span>4
+| style="text-align:center" | <span style="display:none">0</span>7
+| style="text-align:center" | <span style="display:none">0</span>6
+| style="text-align:center" | <span style="display:none">0</span>17
+|
+*3% increased critical strike chance
+*12% increased movement speed
+*'''Aerospec Headgear:''' 8% increased spy damage and 5% increased movement speed
+*'''Set Bonus:''' 5% increased movement speed and spy critical strike chance. Increases maximum falling speed by 50% and grants immunity to falling damage. Taking over 25 damage in one hit will cause a spread of homing feathers to fall<br/>Maximum spy stealth of 100
+| colspan="5" style="text-align:center" |
+*23 {{item|Aerialite Bar}}
+*19 {{item|Cloud}}
+*9 {{item|Rain Cloud}}
+*5 {{item|Feather}}
+*Crafted at {{item|Sky Mill}}
+
+|- class="topline"
+| [[File:Statigel Mask.png]]
+| [[Statigel armor]]<br/>with [[Statigel Mask]]
+| style="text-align:center" | <span style="display:none">0</span>6
+| style="text-align:center" | <span style="display:none">0</span>10
+| style="text-align:center" | <span style="display:none">0</span>8
+| style="text-align:center" | <span style="display:none">0</span>24
+|
+*5% increased damage
+*5% increased critical strike chance
+*5% increased movement speed
+*'''Statigel Mask:''' 10% increased spy damage and 34% chance to not consume thrown items, 7% increased spy critical strike chance and 12% increased movement speed
+*'''Set Bonus:''' Grants the player an extra jump and increased jump height. Taking over 100 damage in one hit makes you immune to damage for an extended period of time<br/>Maximum spy stealth of 100
+| colspan="3" style="text-align:center" |
+*19 {{item|Purified Gel}}
+*33 {{item|Hellstone Bar}}
+*Crafted at {{item|Static Refiner}}
+|}
+
+==== Hardmode ====
+{| class="terraria lined sortable"
+! class="unsortable | Appearance
+! width=80px | Set
+! style="font-size:90%;" data-sort-type=number | Head
+! style="font-size:90%;" data-sort-type=number | Chest
+! style="font-size:90%;" data-sort-type=number | Legs
+! style="font-size:90%;" data-sort-type=number | Sum
+! class="unsortable" width=50% | Bonuses / Effects / Notes
+! class="unsortable" | Cost / Source / Crafted At
+
+|-
+| [[File:Titan Heart armor.png]]
+| [[Titan Heart armor]]
+| style="text-align:center" | <span style="display:none">0</span>12
+| style="text-align:center" | <span style="display:none">0</span>17
+| style="text-align:center" | <span style="display:none">0</span>14
+| style="text-align:center" | <span style="display:none">0</span>43
+|
+*9% increased spy damage
+*10% increased spy velocity
+*15% increased spy knockback
+*15% decreased spy firing speed
+*45% increased chance to not consume spy items
+*Spy weapons inflict [[Astral Infection (debuff)|Astral Infection]].
+*'''Set Bonus:''' 15% increased spy damage and knockback. Immunity to knockback. Stealth strikes deal double knockback and cause an astral explosion<br/>Maximum spy stealth of 100
+| colspan="2" style="text-align:center" |
+*3 {{item|Titan Heart}}
+*44 {{item|Astral Monolith}}
+*Crafted at {{item|Iron Anvil}}
+
+|- class="topline"
+| [[File:Forbidden Circlet.png]]
+| [[Forbidden armor]]<br/>with [[Forbidden Circlet]]
+| style="text-align:center" | <span style="display:none">0</span>1
+| style="text-align:center" | <span style="display:none">0</span>12
+| style="text-align:center" | <span style="display:none">0</span>8
+| style="text-align:center" | <span style="display:none">0</span>21
+|
+*10% increased summon damage and 15% increased spy velocity
+*'''Set Bonus ([[Forbidden armor]]):'''
+**Maximum spy stealth of 40.
+**Reduction of the [[Vanilla changes#Minions|summon penalty]] while holding [[spy weapons]].
+**[[Stealth strike]]s summon 6 homing Forbidden Eaters that each deals 75 base damage added by 5% of the projectile's damage on every enemy hit, with a cooldown of 0.25 second.
+**Pressing {{key|Armor Set Bonus}} will summon an Ancient Storm for 50 mana. The storm deals 100 base damage and is affected by mana cost reduction, mana sickness, summon damage bonuses, and spy damage bonuses. The storm has a cooldown of 0.33 second before it can be summoned again.
+| style="text-align:center"|
+*1 {{item|Forbidden Fragment}}
+*10 {{item|Any Adamantite Bar}}
+*Crafted at {{item|Mythril Anvil}}
+
+|- class="topline"
+| [[File:Daedalus Facemask.png]]
+| [[Daedalus armor]]<br/>with [[Daedalus Facemask]]
+| style="text-align:center" | <span style="display:none">0</span>7
+| style="text-align:center" | <span style="display:none">0</span>19
+| style="text-align:center" | <span style="display:none">0</span>15
+| style="text-align:center" | <span style="display:none">0</span>41
+|
+*3% increased damage
+*6% increased critical strike chance
+*10% increased movement speed
+*Immunity to Cursed debuff and gives control over gravity
+*'''Daedalus Facemask:''' 13% increased spy damage and 7% increased spy critical strike chance, increases spy weapon velocity by 15%, 17% increased movement speed
+**'''Set Bonus:''' 5% increased spy damage. Spy projectiles throw out crystal shards as they travel<br/>Maximum spy stealth of 105
+| colspan="2" style="text-align:center" |
+*33 {{item|Cryonic Bar}}
+*13 {{item|Crystal Shard}}
+*6 {{item|Essence of Eleum}}
+*Crafted at {{item|Mythril Anvil}}
+
+|- class = "topline"
+| [[File:Umbraphile armor.png]]
+| [[Umbraphile armor]]
+| style="text-align:center" |
+8
+| style="text-align:center" | <span style="display:none">0</span>16
+| style="text-align:center" | <span style="display:none">0</span>12
+| style="text-align:center" |
+36
+|
+*27% increased spy damage
+*16% increased spy critical strike chance
+*10% increased spy projectile velocity
+*30% increased movemement speed
+*'''Set Bonus:''' Spy weapons have a chance to create explosions on hit. Stealth strikes will always create an explosion<br/>Maximum spy stealth of 110
+| colspan="2" style="text-align:center" |
+*44 {{item|Solar Veil}}
+*34 {{item|Hallowed Bar}}
+*Crafted at {{item|Mythril Anvil}}
+
+|- class="topline"
+| [[File:Hydrothermic Hood.png]]
+| [[Hydrothermic armor]]<br/>with [[Hydrothermic Hood]]
+| style="text-align:center" | <span style="display:none">0</span>12
+| style="text-align:center" | <span style="display:none">0</span>20
+| style="text-align:center" | <span style="display:none">0</span>14
+| style="text-align:center" | <span style="display:none">0</span>46
+|
+*+20 to max life
+*8% increased damage
+*7% increased critical strike chance
+*15% increased movement speed
+*Immunity to lava and fire damage
+*'''Set Bonus:''' Inferno effect when below 50% life. You have a 20% chance to emit a blazing explosion when you are hit
+*'''Hydrothermic Hood:''' 12% increased spy damage and 10% increased spy critical strike chance, 50% chance to not consume thrown items and 15% increased movement speed
+**'''Set Bonus:''' 5% increased spy damage. Spy weapons unleash a volley of homing chaos flames around the player every 2.5 seconds<br/>Maximum spy stealth of 110
+| colspan="2" style="text-align:center" |
+*32 {{item|Scoria Bar}}
+*17 {{item|Hellstone Bar}}
+*6 {{item|Core of Chaos}}
+*Crafted at {{item|Mythril Anvil}}
+|}
+
+==== Godseeker Mode ====
+{| class="terraria lined sortable"
+! class="unsortable" width=40px | Appearance
+! width=120px | Set
+! style="font-size:90%;" data-sort-type=number | Head
+! style="font-size:90%;" data-sort-type=number | Chest
+! style="font-size:90%;" data-sort-type=number | Legs
+! style="font-size:90%;" data-sort-type=number | Sum
+! class="unsortable" | Bonuses / Effects / Notes
+! class="unsortable" | Cost / Source / Crafted At
+
+|- class="topline"
+| [[File:Empyrean armor.png]]
+| [[Empyrean armor]]
+| style="text-align:center" | <span style="display:none">0</span>20
+| style="text-align:center" | <span style="display:none">0</span>27
+| style="text-align:center" | <span style="display:none">0</span>24
+| style="text-align:center" | <span style="display:none">0</span>71
+|
+*23% increased spy damage and critical strike chance
+*40% increased movement speed
+*+20 max life
+*Temporary immunity to lava
+*'''Set Bonus:''' 9% increased spy damage and velocity. Grants Empyrean Rage and Empyrean Wrath buffs when hit. Grants [[Wrath]] and [[Rage]] buffs when under 50% health<br/>Maximum spy stealth of 115<br/>Spy projectiles can spawn a random Empyrean projectile upon striking an enemy:
+**Empyrean Star which homes in strongly on enemies. It deals 80% damage of the projectile that spawned it.
+**Two Empyrean Orbs, one damaging that homes in on enemies and one healing that homes in on the player.
+***The damaging orb deals 62.5% of the projectile's damage.
+***The healing orb heals for 10% of the projectile's damage. If piercing, it heals 5% of the second hit's damage, and does not heal for subsequent hits.
+**Empyrean Fire spark which falls to the ground and lingers for a few seconds. It deals 15% damage of the projectile that spawned it.
+**Empyrean Blast explosion that deals 20% damage of the projectile that spawned it.
+**Empyrean Bubble which homes in weakly on enemies. It deals 60% damage of the projectile that spawned it.
+| colspan="2" style="text-align:center" |
+*52 {{item|Meld Construct}}
+*36 {{item|Luminite Bar}}
+*Crafted at {{item|Ancient Manipulator}}
+
+|- class="topline"
+| [[File:Tarragon Helmet.png]]
+| [[Tarragon armor]]<br/>with [[Tarragon Helmet]]
+| style="text-align:center" | <span style="display:none">0</span>15
+| style="text-align:center" | <span style="display:none">0</span>37
+| style="text-align:center" | <span style="display:none">0</span>23
+| style="text-align:center" | <span style="display:none">0</span>84
+|
+*16% increased damage
+*11% increased critical strike chance
+*15% increased movement speed
+*+40 max life
+*5% increased damage reduction
+*+2 life regen
+*Can move freely in liquids
+*Temporary immunity to lava
+*'''Set Bonus:''' Reduced enemy spawn rates. Increased heart pickup range. Enemies have a chance to drop extra hearts on death
+*'''Tarragon Helmet:''' 10% increased spy damage and critical strike chance, 12% increased movement speed
+**'''Set Bonus:''' After every 25 spy critical hits grants 3 seconds of damage immunity with a cooldown of 30 seconds. While afflicted with a debuff, 10% increased spy damage<br/>Maximum spy stealth of 115
+| colspan="2" style="text-align:center" |
+*33 {{item|Uelibloom Bar}}
+*36 {{item|Divine Geode}}
+*Crafted at {{item|Ancient Manipulator}}
+
+|- class="topline"
+| [[File:Bloodflare Imp Mask.png]]
+| [[Bloodflare armor]]<br/>with [[Bloodflare Imp Mask]]
+| style="text-align:center" | <span style="display:none">0</span>28
+| style="text-align:center" | <span style="display:none">0</span>35
+| style="text-align:center" | <span style="display:none">0</span>29
+| style="text-align:center" | <span style="display:none">0</span>92
+|
+*22% increased damage
+*15% increased critical strike chance
+*17% increased movement speed
+*+40 max life
+*Free movement in liquids
+*Temporary immunity to lava
+*+10 life regen and +30 defense while in lava
+*'''Set Bonus:''' Greatly increases life regeneration. Enemies below 50% life have a chance to drop hearts when struck. Enemies killed during a Blood Moon have a much higher chance to drop Blood Orbs
+*'''Bloodflare Imp Mask:''' 10% increased spy damage and critical strike chance, 15 % increased movement speed
+**'''Set Bonus:''' When above 80% life, +30 and 5% increased spy critical strike chance. When below 80% life, 10% increased spy damage. Spy critical strike heal the player<br/>Maximum spy stealth of 120
+| colspan="2" style="text-align:center" |
+*40 {{item|Bloodstone Core}}
+*9 {{item|Ruinous Soul}}
+*Crafted at {{item|Ancient Manipulator}}
+
+|- class="topline"
+| [[File:God Slayer Mask.png]]
+| [[God Slayer armor]]<br/>with [[God Slayer Mask]]
+| style="text-align:center" | <span style="display:none">0</span>29
+| style="text-align:center" | <span style="display:none">0</span>41
+| style="text-align:center" | <span style="display:none">0</span>35
+| style="text-align:center" | <span style="display:none">0</span>105
+|
+*21% increased damage
+*12% increased critical strike chance
+*18% increased movement speed
+*+60 max life
+*Enemies take damage when they hit you
+*'''Set Bonus:''' Pressing {{key|God Slayer Dash}} allows the player to dash a great distance in 8 directions depending on what movement keys are held. This has a 35 second cooldown
+*'''God Slayer Mask:''' 14% increased spy damage and critical strike chance, 18% increased movement speed
+**'''Set Bonus:''' While at full HP all spy stats are boosted by 10%. Extra [[immunity frames]] if taking more than 80 damage<br/>Maximum spy stealth of 120
+| colspan="2" style="text-align:center" |
+*55 {{item|Cosmilite Bar}}
+*7 {{item|Ascendant Spirit Essence}}
+*Crafted at {{item|Cosmic Anvil}}
+
+|- class="topline"
+| [[File:Auric Tesla Plumed Helm.png]]
+| [[Auric Tesla armor]]<br/>with [[Auric Tesla Plumed Helm]]
+| style="text-align:center" | <span style="display:none">0</span>34
+| style="text-align:center" | <span style="display:none">0</span>48
+| style="text-align:center" | <span style="display:none">0</span>44
+| style="text-align:center" | <span style="display:none">0</span>126
+|
+*20% increased damage
+*10% increased critical strike chance
+*20% increased movement speed
+*+100 max life
+*Standing still grants 20% increased damage and critical strike chance and a significant boost to knockback
+*Nearby enemies are frozen when taking damage
+*Magic carpet deploys when out of flight time
+*'''Set Bonus:''' All projectiles spawn healing auric orbs on enemy hits
+*'''Auric Tesla Plumed Helm:''' 20% increased spy damage, critical strike chance and movement speed
+**'''Set Bonus:''' Spy Tarragon, Bloodflare, and Godslayer armor effects<br/>Maximum spy stealth of 130
+
+| colspan="2" style="text-align:center" |
+*1 {{item|God Slayer armor|size=80px}} (with spy helmet)
+*1 {{item|Bloodflare armor|size=80px}} (with spy helmet)
+*1 {{item|Tarragon armor|size=80px}} (with spy helmet)
+*45 {{item|Auric Bar}}
+*1 {{item|Psychotic Amulet}}
+*1 {{item|Frost Barrier}}
+*1 {{item|Flying Carpet}}
+*Crafted at {{item|Cosmic Anvil}}
+|}
+{{collapse bottom}}
+
+==Potions==
+=== Vanilla ===
+The Calamity Mod modifies some vanilla potions including [[Flasks]] to grant Spy-based effects.
+{{collapse top|Vanilla Spy Potions}}
+{| class="terraria lined"
+! style="padding: 5px" width = "10%" | Potion
+! style="padding: 5px" width = "20%" | Ingredients
+! width = "60%" | Effects
+! Duration
+! Icon
+|-
+| {{item|Flask of Cursed Flames}}
+| {{item|Bottled Water}} <br/> {{item|Cursed Flame}} (2)
+| Melee and spy weapons inflict [[Cursed Flames]] for 3 to 6 seconds.
+| 20 minutes
+| [[File:Weapon Imbue Cursed Flames.png|center]]
+|-
+| {{item|Flask of Fire}}
+| {{item|Bottled Water}} <br/> {{item|Hellstone}} (3)
+| Melee and spy weapons inflict [[On Fire!]] for 3 to 6 seconds.
+| 20 minutes
+| [[File:Weapon Imbue Fire.png|center]]
+|-
+| {{item|Flask of Gold}}
+| {{item|Bottled Water}} <br/> {{item|Gold Dust}} (5)
+| Melee and spy weapons inflict [[Midas]] for 2 seconds.
+| 20 minutes
+| [[File:Weapon Imbue Gold.png|center]]
+|-
+| {{item|Flask of Ichor}}
+| {{item|Bottled Water}} <br/> {{item|Ichor}} (2)
+| Melee and spy weapons inflict [[Ichor (debuff)|Ichor]] for 10 to 19 seconds.
+| 20 minutes
+| [[File:Weapon Imbue Ichor.png|center]]
+|-
+| {{item|Flask of Nanites}}
+| {{item|Bottled Water}} <br/> {{item|Nanites}} (5)
+| Melee and spy weapons inflict [[Confused]] for 1 to 3 seconds.
+| 20 minutes
+| [[File:Weapon Imbue Nanites.png|center]]
+|-
+| {{item|Flask of Poison}}
+| {{item|Bottled Water}} <br/> {{item|Stinger}}
+| Melee and spy weapons inflict [[Poisoned]] for 5 to 9 seconds.
+| 20 minutes
+| [[File:Weapon Imbue Poison.png|center]]
+|-
+| {{item|Flask of Venom}}
+| {{item|Bottled Water}} <br/> {{item|Vial of Venom}} (5)
+| Melee and spy weapons inflict [[Venom]] for 5 to 9 seconds.
+| 20 minutes
+| [[File:Weapon Imbue Venom.png|center]]
+|-
+| {{item|Invisibility Potion}}
+| {{item|Bottled Water}} <br/> {{item|Blinkroot}} <br/> {{item|Moonglow}}
+| Holding a [[Boomerangs|spy boomerang]] boosts spy damage by 10%.<br/>Holding a [[javelin]] boosts armor penetration by 5.<br/>Holding a [[Bombs|spy bomb]] increases spy velocity by 10%.<br/>Holding a [[Spiky Balls|spiky ball]] increases spy critical strike chance by 10%.<br/>Holding a [[dagger]] increases spy stealth regeneration by 20% even while moving.<br/>The player is entirely concealed and has reduced [[aggro]] while not using any items.
+| 2 minutes
+| [[File:Invisibility.png|center]]
+|-
+|}
+{{collapse bottom}}
+
+===Calamity===
+{{collapse top|Calamity Spy Potions}}
+{| class="terraria lined"
+! style="padding: 5px" width = "10%" | Potion
+! style="padding: 5px" width = "20%" | Ingredients
+! width = "60%" | Effects
+! Duration
+! Icon
+|-
+| {{item|Calamitas' Brew}}
+| {{recipes/extract|result=Calamitas' Brew}}
+| Melee and spy attacks inflict [[Abyssal Flames]].<br/>Increases movement speed by 10%.
+| 15 minutes
+| [[File:Abyssal Weapon.png|center]]
+|-
+| {{item|Crumbling Potion}}
+| {{recipes/extract|result=Crumbling Potion}}
+| Increases melee and spy critical strike chance by 5%.<br/>Melee and spy attacks inflict [[Armor Crunch]].
+| 8 minutes
+| [[File:Armor Crumbling.png|center]]
+|-
+| {{item|Penumbra Potion}}
+| {{recipes/extract|result=Penumbra Potion}}
+| Spy stealth generates 15% faster while moving.<br/>At night, stealth also generates 15% faster while standing still.<br/>During an eclipse both boosts increase to 20%.
+| 8 minutes
+| [[File:Penumbra (buff).png|center]]
+|-
+| {{item|Shadow Potion}}
+| {{recipes/extract|result=Shadow Potion}}
+| Turns the player invisible.<br/>Increases stealth generation by 10%.<br/>Grants buffs when holding a certain type of spy weapon (identical to the effects of the [[Invisibility Potion]]) and causes them to shoot special projectiles.
+| 8 minutes
+| [[File:Shadow.png|center]]
+|-
+| {{item|Shattering Potion}}
+| {{recipes/extract|result=Shattering Potion}}
+| Increases melee and spy damage and critical strike chance by 8%.<br/>Melee and spy attacks inflict [[Armor Crunch]].
+| 8 minutes
+| [[File:Armor Shattering.png|center]]
+|-
+|}
+{{collapse bottom}}
+
+==Weapons==
+{{dablink|For a sortable list, see [[Spy weapons]].}}
+{{ajax|Spy weapons list}}
+
+{{Game mechanics}}

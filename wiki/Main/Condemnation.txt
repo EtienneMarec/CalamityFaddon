@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 1914
+| knockback = 5
+| use =23
+| velocity = 14.5
+| tooltip = Fires powerful scarlet bolts suffused with hateful magics<br/>Hold left click to load up to eight bolts for powerful burst fire<br/>Hold right click to use the repeater full auto
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| proj = Condemnation Arrow.png
+| projcaption = Condemning Arrow
+| element1 = Unholy
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[Supreme Calamitas]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+
+'''Condemnation''' is a Godseeker Mode [[repeater]] that drops from [[Supreme Calamitas]].  When used with its primary fire (left-click), the player holds the crossbow and charges up, increasing the number of arrows which is also indicated by a ring of dust. The player can load up to a maximum of 8 arrows and stop holding to release arrows with a 50% velocity boost. Each arrow spawns two smaller homing arrows every 0.75 seconds for a total of 3 times. Homing arrows deal half as much damage and cannot travel through solid tiles unlike the main arrow. When used with its secondary fire (right-click), the arrows are fired out normally.
+
+{{Modifier|ranged}}
+
+==Crafting==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]
+[[Category:Repeaters]]

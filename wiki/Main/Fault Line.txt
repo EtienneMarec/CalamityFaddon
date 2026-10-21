@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 88
+| knockback = 4
+| rare = 8
+| use = 22
+| sell = {{value|0|16}}
+| stack = 1
+| auto = yes
+| reach = 26.25
+| attduration = 7 seconds
+| tooltip = Explodes on enemy hits<br/>A very agile yoyo
+| debuff=On Fire!
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 4 seconds (Yoyo)<br/>3 seconds (Explosion)
+| hardmode = yes
+| proj = Fault Line Yoyo.png
+| projcaption = Fault Line
+| element1 = Fire
+}}
+The '''Fault Line''' is a craftable [[Hardmode]] [[Yoyos|yoyo]]. Every time it strikes an enemy, it creates a small fiery explosion which deals additional damage. When the yoyo returns to the player, it will be automatically re-thrown if they are still holding the fire button.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*A [[wikipedia:Fault (geology)|fault line]] is the location of a fracture between large volumes of rock at the edge of the Earth's tectonic plates.
+*This weapon was previously known as the "Chaotrix".
+{{-}}
+{{Scoria}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]

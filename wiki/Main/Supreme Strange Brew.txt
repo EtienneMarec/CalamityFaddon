@@ -1,0 +1,28 @@
+{{addon|Deimos, the Starborn Princess}}
+{{infobox wrapper
+|{{item infobox
+| type = Potion
+| stack = 9999
+| hheal = 200
+| use = 17
+| consumable = yes
+| hardmode = yes
+| postml = yes
+| rare = 13
+| buy = {{gc|3}}
+| sell = {{value|0|0|60|0}}
+|}}
+|{{item drops infobox
+| [[The Starborn Moth]]|5-15|100%
+}}
+}}
+
+'''Supreme Strange Brew''' is a Godseeker Mode [[Potion]] that drops from [[The Starborn Moth]]. It restores 200-325 health and inflicts 40-70 seconds of [[Potion Sickness]]. 
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{DeimosMod}}
+[[Category:Healing items]]

@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damage = 61
+| damagetype = magic
+| auto = yes
+| knockback = 7.5
+| mana = 30
+| tooltip = Fires a wave of 3 rouge air slashes
+| use = 19
+| stack = 1
+| velocity = 24
+| rare = 11
+| sell = {{value|0|22}}
+| hardmode = yes
+| postml = yes
+| proj = Rouge Slash Waves.png
+| projcaption = Rouge Slash Waves
+| element1 = Fire
+| element2 = Slash
+}}
+|{{item drops infobox
+| [[The Dragonfolly]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Rouge Slash''' is a Godseeker Mode [[spell tome]] dropped by [[The Dragonfolly]]. It fires three curved projectiles out from the player, which each vary in their size and speed and will pass through blocks. The projectiles will each pierce an enemy one time and will disappear upon contact with a second.
+
+{{Modifier|magic}}
+
+== Trivia ==
+*This weapon is a reference to the [https://forums.terraria.org/index.php?threads/released-wip-terraria-avalon.378/ Avalon] mod's Giga Horn which shoots a soundwave that slows down over time.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category:Spell tomes]]

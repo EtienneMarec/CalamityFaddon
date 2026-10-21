@@ -1,0 +1,36 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damage = 20
+| damagetype = Ranged
+| critical = 14%
+| knockback = 7.5
+| use = 30
+| velocity = 10
+| tooltip = Has a chance to shoot a big coral that stuns enemies
+| rare = 2
+| stack = 1
+| buy = {{value|0|2}}
+| sell = {{value|0|0|40}}
+| debuff = Eutrophication
+| debufftip = Excessive nutrients restrict your movement
+| debuffduration = 0.25 seconds (Big Coral)
+| debuffchance = 100%
+| proj = Big Coral.png
+| projcaption = Big Coral
+| proj2 = Small Coral.png
+| proj2caption = Small Coral
+| element1 = Water
+}}
+
+The '''Coral Cannon''' is a [[Pre-Hardmode]] [[ranged weapon]] that can be purchased from the [[Sea King]] at any time for {{gc|2}}. It fires a small piece of coral when used, and does not consume any ammo. There is a 20% chance for the coral to be larger, with twice as much damage and knockback, a slightly slower velocity, and the ability to briefly stun normal enemies.
+
+{{Modifier|ranged}}
+
+== Notes ==
+*The stun effect will not apply if any [[bosses]] are alive or to certain rare creatures.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

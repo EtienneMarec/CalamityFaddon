@@ -1,0 +1,63 @@
+{{revengeance mode only}}
+{| align=right
+|{{item infobox
+| name = The Adrenaline Bar
+| image = Adrenaline bar.gif
+}}
+|-
+|{{buff infobox
+| type = Buff
+| name = Adrenaline Mode
+| cause = Adrenaline Meter
+| duration = 5 seconds.
+| tooltip = 200% damage boost. Can be boosted by other items up to 360%.
+}}
+|-
+|
+{| class="terraria" align=right
+! colspan="2" | Full meter sound<br/>
+|-
+| [[File:AdrenalineFullCharge.wav|238px]]
+|}
+|}
+
+The '''Adrenaline Meter''' is a mechanic in [[Revengeance Mode]], along with the [[Rage Meter]] (and [[Stamina Meter]] {{fantag|Catalyst}}), that is unlocked by using the [[Metabolic Converter]]. In order to fill up the bar, the player must not get hit for a certain amount of time while fighting a boss. Once the meter has filled up completely, the '''Adrenaline Mode''' buff can be activated by pressing the {{key|Adrenaline Mode}} key. The Adrenaline Meter has a minimum value of 0 and a maximum value of 10,000.
+
+The meter will build every second at a rate of 333.34 per second and takes 30 seconds in total to charge. This can be boosted to 366.67 per second.
+<br/> {{fantag}} the [[Fancy Flesh Skull]] doubles the meters size, making it take 60 seconds to charge.
+
+If the player is hit while the Adrenaline Bar is full, the damage of that hit is halved and the bar will reset and need to be charged again. This is [[Defense#Separate_Damage_Reduction_Boosts|separate]] from normal DR and therefore ignores Calamity's [[Defense#Vanilla changes|DR scaling system]].
+
+When the Adrenaline Mode buff is activated, the player receives a damage boost of +200%. This total damage boost is multiplicative and applied after other damage boosts such as those from [[Potions]] or [[coverings]].
+
+The player can increase the damage of the Adrenaline Mode as well as increase the damage reduction when hit while the meter is full by using these [[Permanent Power-ups|permanent power-up]] items:
+*{{item|Electrolyte Gel Pack}} (dropped by [[The Slime God]]), which increases Adrenaline Mode damage by +15% and increases damage reduction by +5%.
+*{{item|Starlight Fuel Cell}} (dropped by [[Astrum Aureus]]), which increases Adrenaline Mode damage by +15% and increases damage reduction by +5%.
+*{{item|Ectoheart}} (dropped by [[Polterghast]]), which increases Adrenaline Mode damage by +15% and increases damage reduction by +5%.
+*{{item|Adrenaline of the Gods}} (Crafted using the items above), which increases Adrenaline Mode damage by +45% and increases damage reduction by +15%.
+*{{item|Sunwitch}} (Crafted using the items above), which increases Adrenaline Mode damage by +45% and increases damage reduction by +15%.
+*{{item|YashBrowns}} (Crafted using various materials), which increases Adrenaline Mode damage by +25% and increases damage reduction by +7%.
+
+Using all six upgrades will cause Adrenaline Mode to increase the player's damage by +360% and cause any damage taken while the meter is full to deal no damage at all.
+
+Additionally, it can be boosted in other ways via these [[Permanent Power-ups|permanent power-up]] items:
+*{{item|Coco's Feather}} (Attained by shimmering the 3 dropped upgrades), which increases Adrenaline Mode duration by half a second.
+*{{item|JOOZ}} (crafted using various materials), which increases Adrenaline Mode charge by +10% and makes hit only reset half the adrenaline charge while its full.
+
+==Notes==
+*Once the Adrenaline Meter reaches full capacity, a unique sound effect plays to indicate it.
+*The 50% damage reduction granted to hits while the Adrenaline Bar is full will not protect against attacks that would normally instantly kill the player.
+*During the [[Supreme Calamitas]] fight, the meter fills up once every 2 seconds, so it will take 45 seconds for the meter to fully charge.
+*Toggling the Adrenaline mechanic or the default location of the bar is possible through the [[Configuration options]].
+* Players can move the Adrenaline Meter around by clicking and dragging it. This can be disabled in Configuration options.
+*The Adrenaline Meter won't build while the [[Wall of Flesh]] is alive unless the player is in [[The Underworld]], even if another boss is alive.
+*The damage bonus from Adrenaline is cut in half if the player is wielding a [[True melee]] weapon.
+
+==Trivia== 
+*Adrenaline and Rage are a reference to [https://metalgear.fandom.com/wiki/Ripper_Mode Ripper Mode] from ''[[wikipedia:Metal_Gear_Rising:_Revengeance|Metal Gear Rising: Revengeance]]''. Because of this, Adrenaline and Rage are often collectively referred to as "Rippers" by the community.
+*Adrenaline previously had a decay mechanic, where the overall damage boost granted would be less depending on how long Adrenaline was held for while fully charged.
+*Adrenaline and Rage used to have boosted damage increases while in [[Death Mode]].
+*Adrenaline and Rage are replacements for a previous mechanic called [[Stress]].
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

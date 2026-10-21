@@ -1,0 +1,29 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Causes stars to fall and grants increased immune time when damaged<br/>Provides life regeneration and reduces the cooldown of healing potions
+| rare = 9
+| sell = {{value|0|16}}
+| element1 = Magic
+| element2 = Holy
+| stack = 1
+| hardmode = yes
+| proj = Hallow Star.png
+| projcaption = Hallowed Star
+}}
+The '''Deific Amulet''' is a craftable [[Hardmode]] [[covering]]. It directly inherits the effects of the [[Cross Necklace]] and [[Philosopher's Stone]]. It additionally grants 1 life regen and 10 extra [[immunity frames]] when struck for more than one damage and 5 when struck for one damage. Three hallowed stars also fall down around the player when struck, each dealing 130 typeless damage which is affected by the average of all damage bonuses.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+== Notes ==
+*The falling star effect from the Deific Amulet cannot stack with the [[Rampart of Deities]]. However, it can stack with the [[Star Cloak]] or [[Star Veil]].
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

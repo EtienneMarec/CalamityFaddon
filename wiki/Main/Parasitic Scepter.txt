@@ -1,0 +1,37 @@
+{|align=right
+|{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 12
+| use = 35
+| tooltip = Fires a spread of water leeches that latch onto enemies, dealing a stacking damage over time
+| mana = 10
+| knockback = 3
+| auto = yes
+| stack = 1
+| rare = 2
+| velocity = 10
+| debuff = Irradiated
+| debuffchance = 100%
+| debuffduration = 4 seconds (Leeches)
+| debufftip = Your skin is burning off
+| sell = {{value|0|0|40}}
+| proj = Water Leech (projectile).gif
+| projcaption = Water Leech
+| element1 = Poison
+}}
+|-
+|{{item drops infobox
+| [[Water Leech]]|1|5% (Tier 1)<br/>1% (Tiers 2 & 3)
+}}
+|}
+
+The '''Parasitic Scepter''' is a [[Pre-Hardmode]] [[wand]] that drops from [[Water Leech]]es during tier 1 of the [[Acid Rain]] [[event]]. On use, it fires two to four leeches which latch onto [[enemies]] on contact. They inflict the [[Irradiated]] [[debuff]], which stacks up to three times depending on how many leeches are currently latched onto an enemy.
+
+{{Modifier|magic}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

@@ -1,0 +1,39 @@
+{{infobox wrapper
+|{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| placeable = yes
+| consumable = yes
+| auto = yes
+| pickreq = 225
+| stack = 9999
+| rare = 12
+| color = #FFCFFF
+| use = 14
+| sell = {{value|0|2|0|0}}
+| value = 1050
+}}
+|{{item drops infobox
+|[[Angel Slime]]|25-34|100%
+}}
+}}
+<big> ''"The sky is glittering with a pink light."'' </big>
+
+'''Angelinite Ore''' is a [[Pre-Hardmode]] [[ore]] which generates anywhere in the Floating Islands upon defeating [[Providence, the Profaned Goddess]]. It is used to craft [[Angelinite Bar]]s at a [[tgc:Adamantite Forge|Adamantite Forge]] or [[tgc:Titanium Forge|Titanium Forge]]. It requires at least [[Any Lunar Pickaxe]] to mine. It is also dropped by [[Angel Slime]]s.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+
+{{Angelinite}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore= yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}
+[[zh:天蓝矿]]

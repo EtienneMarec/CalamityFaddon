@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 32
+| knockback = 2
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| auto = yes
+| tooltip = Fires two arrows at once<br/>Converts wooden arrows into sliding energy bolts
+| velocity = 8
+| use = 22
+| proj = Lunar Bolt.png
+| projcaption = Lunar Bolt
+| element1 = Magic
+| element2 = Dark
+}}
+[[File:Lunarian Bow (demo).gif|frame|right|Demonstration of the Lunarian Bow's arrows when shot at a [[Target Dummy]] and a block.]]
+
+The '''Lunarian Bow''' is a craftable [[Pre-Hardmode]] [[bow]] that auto-fires. It fires two arrows. If [[Wooden Arrow]]s are used as [[ammo]], it instead fires straight beams that are not affected by gravity and can bounce on a block once; however, the bolts will slide on the hit block rather than bounce off of it.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Night's}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

@@ -1,0 +1,46 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 50
+| damagetype = Rogue
+| rare = 7
+| stack = 1
+| sell = {{value|0|12}}
+| knockback = 1
+| use = 9
+| auto = yes
+| hardmode = yes
+| tooltip = Rapidly throws a variety of poisonous fangs that stick to enemies<br/>Stealth strikes cause 3 very fast teeth to be thrown, ignoring gravity and inflicting extreme knockback
+| velocity = 12
+| debuff = Venom
+| debufftip = Losing life
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| proj = Leviathan Tooth.png
+| projcaption = Leviathan Teeth
+| element1 = Poison
+| element2 = Water
+| element3 = Stab
+}}
+|{{item drops infobox
+| [[Leviathan and Anahita]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Leviathan Teeth''' are a [[Hardmode]] non-consumable [[dagger]] dropped by [[Leviathan and Anahita]]. When used, they rapidly throw an inaccurate spread of 1 to 3 gravity-affected teeth that inflict the [[Venom]] [[debuff]] on contact with enemies and stick to them. Up to 18 teeth can be stuck on an enemy at once, and the damage over time inflicted by the debuff stacks accordingly, up to 216 damage per second.
+
+Performing a [[stealth strike]] with Leviathan Teeth will cause three gravity-ignoring teeth with a 130% damage modifier to be thrown that inflict heavy knockback upon striking enemies.
+
+{{Modifier|rogue|plural=1}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Daggers]]

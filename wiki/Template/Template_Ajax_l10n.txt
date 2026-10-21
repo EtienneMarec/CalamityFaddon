@@ -1,0 +1,9 @@
+<!--
+//register localization info
+-->{{l10n/register|ajax|en<!--
+	-->|main_text='''Click/tap here''' to reveal this content. <span style="font-size:.85em">''(there may be a slight delay)''</span><!--
+	-->|main_text_hover=This content exists externally. Once you click, there may be a small delay while it is downloaded.<!--
+	-->|no_js_msg=This table requires JavaScript to be enabled and site tooltips to be turned on to be displayed.<br/>You can also $view_the_data-link$ on another page.<!--
+	-->|view_the_data=view the data<!--
+-->}}<!--
+-->

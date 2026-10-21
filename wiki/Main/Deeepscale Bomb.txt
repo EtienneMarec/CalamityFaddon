@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| damage = 500
+| critical = 0%
+| use = 55
+| knockback = 0
+| velocity = 5
+| stack = 9999
+| rare = 3
+| sell = {{value|3|0|7}}
+| tooltip = No air? No problem!<br/>Throws a surprisingly buoyant explosive<br/>Can only destroy naturally occurring Abyss tiles
+| consumable = true
+| element1 = Dark
+| element2 = Water
+| element3 = Bomb
+}}
+
+The '''Deeepscale Bomb''' is a craftable [[Pre-Hardmode]] consumable [[explosive]]. When thrown, it explodes following a 5-second delay, dealing a high amount of damage to any entities caught in the blast, including the player. Unlike other explosives, it can only destroy naturally occurring [[Abyss#Contents|Abyss]] tiles. Despite having a large damage radius, only a few tiles are broken at a time.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Due to the nature of this item only destroying Abyss tiles, it may prove to be a viable weapon, save for its slow use time.
+== Trivia ==
+*Despite being crafted using [[Hardmode]] materials, this item is technically obtainable Pre-Hardmode using [[Shimmer]] exploits.
+**This makes it useful for obtaining the [[Ripper Shark]].
+*The fuse on the bomb's sprite is meant to resemble a fishing hook.
+{{-}}
+{{Abyssal Gear}}
+{{Master Template Weapons
+| show-main = yes
+| show-classless= yes
+}}

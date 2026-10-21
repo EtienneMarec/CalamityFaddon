@@ -1,0 +1,244 @@
+{{#vardefine:dedicatednpcs|{{#dpl:|namespace=|category=Critter NPCs‎{{!}}Enemy NPCs{{!}}NPC NPCs‎|uses=Template:Dedicated|resultsheader=%PAGES%|format=,}}}}<!--
+
+-->'''Dedicated Items''' and '''Dedicated NPCs''' are items or NPCs which have been made for, or simply attributed to, certain people for any reason. Some reasons include being a developer for the mod, donating to the developers, or completing organized challenges. Items that were made for Patreon Donators are labeled with the {{color|- Donor Item -|#8b0000}} ({{color|#8b0000 ●|#8b0000}}) tag in their tooltips. Items that were made for Developers of the mod are labeled with the {{color|- Developer Item -|#ff00ff}} ({{color|#ff00ff ●|#ff00ff}}) tag in their tooltips.
+
+There are {{#expr: {{#dpl:|namespace=|uses=Template:Dedicated|resultsheader=%PAGES%|format=,}} - {{#var: dedicatednpcs}}}} dedicated items in total (not including the individual armor pieces from each of the dedicated armors).
+
+There are {{#var: dedicatednpcs}} dedicated NPCs in total.
+
+== Weapons ==
+=== Pre-Hardmode ===
+{{#dpl:
+| namespace =
+| category = Weapon items
+| notcategory = Hardmode-only items
+| notcategory = Post-Moon Lord only items
+| uses = Template:Dedicated
+| include = {dedicated}:%PAGE%,{dedicated}:1,{dedicated}:2
+| table = class="terraria lined sortable",-,Name,Dedicatee,Reason
+| tablerow = {{item|%PAGE%}}, %%, %%
+| ordermethod = titlewithoutnamespace
+| order = ascending
+}}
+
+=== Hardmode ===
+{{#dpl:
+| namespace =
+| category = Weapon items
+| category = Hardmode-only items
+| notcategory = Godseeker Mode-only items
+| uses = Template:Dedicated
+| include = {dedicated}:%PAGE%,{dedicated}:1,{dedicated}:2
+| table = class="terraria lined sortable",-,Name,Dedicatee,Reason
+| tablerow = {{item|%PAGE%}}, %%, %%
+| ordermethod = titlewithoutnamespace
+| order = ascending
+}}
+
+=== Godseeker Mode ===
+{{#dpl:
+| namespace =
+| category = Weapon items
+| category = Godseeker Mode-only items
+| uses = Template:Dedicated
+| include = {dedicated}:%PAGE%,{dedicated}:1,{dedicated}:2
+| table = class="terraria lined sortable",-,Name,Dedicatee,Reason
+| tablerow = {{item|%PAGE%}}, %%, %%
+| ordermethod = titlewithoutnamespace
+| order = ascending
+}}
+
+== Tools ==
+{{#dpl:
+| namespace =
+| category = Tool items
+| uses = Template:Dedicated
+| include = {dedicated}:%PAGE%,{dedicated}:1,{dedicated}:2
+| table = class="terraria lined sortable",-,Name,Dedicatee,Reason
+| tablerow = {{item|%PAGE%}}, %%, %%
+| ordermethod = titlewithoutnamespace
+| order = ascending
+}}
+
+== Armor ==
+{{#dpl:
+| namespace =
+| category = Armor items
+| uses = Template:Dedicated
+| include = {dedicated}:%PAGE%,{dedicated}:1,{dedicated}:2
+| table = class="terraria lined sortable",-,Name,Dedicatee,Reason
+| tablerow = {{item|%PAGE%}}, %%, %%
+| ordermethod = titlewithoutnamespace
+| order = ascending
+}}
+
+== Vanity ==
+{{#dpl:
+| namespace =
+| category = Vanity items
+| notcategory = Accessory items
+| uses = Template:Dedicated
+| include = {dedicated}:%PAGE%,{dedicated}:%PAGE%,{dedicated}:1,{dedicated}:2
+| table = class="terraria lined sortable",-,Name,Visible on character,Dedicatee,Reason
+| tablerow = {{item|%PAGE%}}, align="center" {{!}} [[File:%PAGE% (equipped).png]], %%, %%
+| ordermethod = titlewithoutnamespace
+| order = ascending
+}}
+
+== Pets ==
+{{#dpl:
+| namespace =
+| category = Pet Summon items
+| uses = Template:Dedicated
+| include = {dedicated}:%PAGE%,{summoned}:1,{item infobox}:buff,{dedicated}:1,{dedicated}:2
+| table = class="terraria lined sortable",-,Name,Pet,Buff,Dedicatee,Reason
+| tablerow = {{item|%PAGE%}}, {{item|%%}}, {{item|%%|mode=image}}, %%, %%
+| ordermethod = titlewithoutnamespace
+| order = ascending
+}}
+
+== Light Pets ==
+{{#dpl:
+| namespace =
+| category = Light Pet items
+| uses = Template:Dedicated
+| include = {dedicated}:%PAGE%,{summoned}:1,{item infobox}:buff,{dedicated}:1,{dedicated}:2
+| table = class="terraria lined sortable",-,Name,Pet,Buff,Dedicatee,Reason
+| tablerow = {{item|%PAGE%}}, {{item|%%}}, {{item|%%|mode=image}}, %%, %%
+| ordermethod = titlewithoutnamespace
+| order = ascending
+}}
+
+== Mounts ==
+{{#dpl:
+| namespace =
+| category = Mount Summon items
+| uses = Template:Dedicated
+| include = {dedicated}:%PAGE%,{summoned}:1,{item infobox}:buff,{dedicated}:1,{dedicated}:2
+| table = class="terraria lined sortable",-,Name,Pet,Buff,Dedicatee,Reason
+| tablerow = {{item|%PAGE%}}, {{item|%%}}, {{item|%%|mode=image}}, %%, %%
+| ordermethod = titlewithoutnamespace
+| order = ascending
+}}
+
+== Accessories ==
+{| class="terraria lined sortable"
+! Buff
+! width=185 | Visible on character
+! Item
+! Dedicatee
+! Reason
+|-
+| align="center"| {{item|Archer of Lunamoon|mode=image}}
+| align="center"| {{no}}
+| {{item|Daawnlight Spirit Origin}}
+| Daawnz
+| Patreon Donor
+|-
+| align="center"| {{item|Evasion Scarf Boost|mode=image}}
+| align="center"| [[File:Evasion Scarf (equipped).png]]
+| {{item|Evasion Scarf}}
+| Mason
+| Patreon Donor
+|-
+| align="center" | {{item|mode=image|Howl's Heart (buff)}}
+| align="center" | {{no}}
+| {{item|Howl's Heart}}
+| Gilded Turtle
+| Patreon Donor
+|-
+| align="center" | {{item|mode=image|Popo (buff)}} {{item|mode=image|Noseless Popo}}
+| align="center" | [[File:Magic Scarf and Hat (equipped).png|Snowman transformation]] [[File:Magic Scarf and Hat (Noseless) (equipped).png|Snowman transformation (Noseless)]]
+| {{item|Magic Scarf and Hat}}
+| Popo
+| Developer
+|-
+| align="center" | {{item|mode=image|The Profaned Soul}}
+| align="center" | {{no}}
+| {{item|Profaned Soul Artifact}}
+| MishiroUsui
+| Patreon Donor
+|-
+| align="center" | {{item|mode=image|Devotion}}
+| align="center" | {{item|mode=image|Profaned Soul Crystal (equipped)}}
+| {{item|Profaned Soul Crystal}}
+| MishiroUsui
+| Developer
+|-
+| align="center" | {{no}}
+| align="center" | {{no}}
+| {{item|Shattered Community}}
+| Ozzatron...
+| That checks out
+|-
+| align="center" | {{no}}
+| align="center" | {{no}}
+| {{item|Slimy Wisdom Tooth}}
+| JellyBloop
+| Developer
+|-
+| align="center" | {{item|mode=image|Cozy Fire}} {{item|mode=image|Heart Lamp (buff)}} {{item|mode=image|Well Fed}}<br/>{{item|mode=image|Sharpened}} {{item|mode=image|Ammo Box (buff)}} {{item|mode=image|Clairvoyance}} {{item|mode=image|Bewitched}}
+| align="center" | {{item|mode=image|The Camper (equipped)}}
+| {{item|The Camper}}
+| Dzicozan
+| Defeated DoG without moving
+|}
+
+== Materials ==
+{| class="terraria lined sortable"
+! Name !! Dedicatee !! Reason
+|-
+| {{item|Shadowspec Bar}} || ThatTerrariaGuy/AstroKnight || Developer
+|-
+| {{item|Broken Modem}} || Support Crispy || Developer
+|}
+
+== Consumables ==
+=== Food and Drinks ===
+{| class="terraria lined sortable"
+! Buff !! Name !! Dedicatee !! Reason
+|-
+| align="center" | {{item|mode=image|Baguette (buff)}} {{item|mode=image|Well Fed}}|| {{item|Baguette}} || Veine || Patreon Donator
+|}
+
+=== Ammunition ===
+{{#dpl:
+| namespace =
+| category = Ammunition items
+| uses = Template:Dedicated
+| include = {dedicated}:%PAGE%,{dedicated}:1,{dedicated}:2
+| table = class="terraria lined sortable",-,Name,Dedicatee,Reason
+| tablerow = {{item|%PAGE%}}, %%, %%
+| ordermethod = titlewithoutnamespace
+| order = ascending
+}}
+
+== NPCs ==
+{{#dpl:
+| namespace =
+| category = Critter NPCs‎{{!}}Enemy NPCs{{!}}NPC NPCs‎
+| uses = Template:Dedicated
+| include = {dedicated}:%PAGE%,{dedicated}:1,{dedicated}:2
+| table = class="terraria lined sortable",-,Name,Dedicatee,Reason
+| tablerow = {{item|%PAGE%}}, %%, %%
+| ordermethod = titlewithoutnamespace
+| order = ascending
+}}
+
+== Notes ==
+*Most developer items have a custom rarity, {{rare|16}}.
+**[[Shadowspec Bar]]s have the {{rare|15}} rarity.
+**A handful of developer weapons have custom rarities. These are detailed on the weapons' respective pages.
+
+{{Master Template Weapons
+| show-main = yes
+}}
+{{Master Template Equipables
+| show-main = yes
+}}
+{{Master Template Tools
+| show-main = yes
+| show-summon = yes
+}}
+
+[[Category:Dedicated|*]]

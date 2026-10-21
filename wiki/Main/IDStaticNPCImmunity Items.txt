@@ -1,0 +1,102 @@
+{| width="100%"
+|<span class="ajaxHide">{{main|Immunity frames}}</span>
+This is a list of all items in the Calamity Mod, and their projectiles, which use <code>IDStaticNPCImmunity</code> to modify enemy immunity frames.
+|}
+{{item/options|mode=table}}
+{| class="terraria sortable lined" style="text-align:center"
+! colspan = 2 | Item
+! width = 150px | Projectile/s
+! <code>IDStaticNPCImmunity</code>
+|-
+| {{item|The Amalgam}} || Brimstone Fire || 7
+|-
+| {{item|Angelic Shotgun}} || Lasers || 10
+|-
+| {{item|Blood Boiler}} || Bloodfire || 10
+|-
+| {{item|Bloodsoaked Crasher}} || Crashaxes || 5
+|-
+| {{item|Brackish Flask}} || Straight Spears<br/>Diagonal Spears || 6<br/>10
+|-
+| {{item|Cinder Blossom Staff}} || Cinders || 10
+|-
+| {{item|Cold Divinity}} || Launched Spikes || 4
+|-
+| {{item|Counterweights}} || Counterweights || 10
+|-
+| {{item|Defective Sphere}} || Bladed Sphere || 10
+|-
+| {{item|Dragonblood Disgorger}} || Blood Fire || 9
+|-
+| {{item|Dragoon Drizzlefish}} || Fireball<br/>Flame<br/>Split Flame || 10<br/>10<br/>15
+|-
+| {{item|Duststorm in a Bottle}} || Clouds<br/>Stealth Strike Clouds|| 5<br/>4
+|-
+| {{item|Elemental Axe}} || Axe || 6
+|-
+| {{item|Endogenesis}} || Flamethrowers || 5
+|-
+| {{item|Entropy's Vigil}} || Catastromini<br/>Flames || 8<br/>9
+|-
+| {{item|Flamsteed Ring}} || Contact || 11
+|-
+| {{item|Frostcrush Valari}} || Boomerang || 15
+|-
+| {{item|Fungal Clump}} || Contact || 10
+|-
+| {{item|Gastric Belcher Staff}} || Vomit || 10
+|-
+| {{item|Magnomaly Cannon}} || Aura || 10
+|-
+| {{item|Midnight Sun Beacon}} || Sweeping Laser || 30
+|-
+| {{item|Murasama}} || Slashes || 21
+|-
+| {{item|Napalm Arrow}} || Flames || 10
+|-
+| {{item|Needler}} || Needles || 1
+|-
+| {{item|Orthocera Shell}} || Acid Streams || 8
+|-
+| {{item|Plague Staff}} || Fangs|| 5
+|-
+| {{item|Plantation Staff}} || Tentacles || 12
+|-
+| {{item|Plasma Grenade}} || Stealth Strike Explosion || 50
+|-
+| {{item|Plasma Rifle}} || Clouds || 10
+|-
+| {{item|Pristine Fury}} || Secondary Fire || 3
+|-
+| {{item|Regulus Riot}} || Disks || 15
+|-
+| {{item|Rot Ball}} || Rain || 15
+|-
+| {{item|Sandslasher}} || Clouds || 5
+|-
+| {{item|Sealed Singularity}} || Black Holes || 5
+|-
+| {{item|Shadow Potion}} || Black Holes || 20
+|-
+| {{item|Sparkling Empress}} || Laser || 19
+|-
+| {{item|Spent Fuel Container}} || Explosions || 11
+|-
+| {{item|Statis' Void Sash}} || Cosmic Scythes || 10
+|-
+| {{item|Stormjaw Staff}} || Sparks || 10
+|-
+| {{item|Tarragon Throwing Dart}} || Darts<br/>Thorns || 3<br/>3
+|-
+| {{item|Tenebreus Tides}} || Spear<br/>Water Spears|| 15<br/>10
+|-
+| {{item|Tooth Ball}} || Rain || 15
+|-
+| {{item|Void of Calamity}} || Brimstone Fire || 7
+|-
+| {{item|Void of Extinction}} || Brimstone Fire || 7
+|-
+|}
+{{item/options|reset}}
+
+[[Category:Game mechanics]]

@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| damage = 110
+| damagetype = magic
+| auto = yes
+| knockback =  5
+| mana = 9
+| tooltip = Casts a large blast of dust
+| use = 25
+| velocity = 5
+| rare = 5
+| stack = 1
+| sell = {{value|0|12|20}}
+| hardmode = yes
+| type2 = Crafting material
+| proj = Death Valley Blast.gif
+| projcaption = Death Valley Dust Blast
+| element1 = Fire
+}}
+
+The '''Death Valley Duster''' is a craftable [[Hardmode]] [[spell tome]]. It casts a large blast of damaging dust particles, which extend a short distance past the player, and are about as tall as the player. The particles can travel through tiles and pierce enemies infinitely.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The name is a reference to the real-life desert [[wikipedia:Death Valley|Death Valley]], one of the hottest locations on Earth.
+
+{{Forbidden}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Spell tomes]]

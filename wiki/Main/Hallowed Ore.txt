@@ -1,0 +1,36 @@
+{{item infobox
+| type = Block
+| type2 = Ore
+| type3 = Crafting material
+| auto = yes
+| use = 14
+| rare = 5
+| pickreq = 180
+| color = #FAFA96
+| stack = 9999
+| value = 690
+| sell = {{value|0|0|12}}
+| placeable = yes
+| consumable = yes
+| hardmode = yes
+}}
+<big> ''"The hallow has been blessed with consecrated stone!"'' </big>
+
+'''Hallowed Ore''' is a [[Hardmode]] [[ore]] which generates in [[Pearlstone Block]]s, [[Hardened Pearlsand Block]]s, [[Pearlsandstone Block]]s, and [[Pink Ice Block]]s after all three [[Mechanical Boss]]es have been defeated. As such, it predominantly generates in the [[Underground Hallow]] [[biome]]. It is used to craft [[Hallowed Bar]]s at an [[Adamantite Forge]] or [[Titanium Forge]]. It requires at least an [[Adamantite Pickaxe]] or [[Titanium Pickaxe]] to mine.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Hallowed Ore cannot be destroyed by explosives, even after all three Mechanical Bosses have been defeated.
+
+{{-}}
+{{Master Template Consumables
+| show-main = yes
+| show-ore = yes
+}}
+{{Master Template Tiles
+| show-main = yes
+| show-blocks = yes
+}}

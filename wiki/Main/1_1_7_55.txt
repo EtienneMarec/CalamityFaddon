@@ -1,0 +1,74 @@
+{{Patch infobox
+| image = Leviathan and Anahita (1.1.7.55).png
+| size = 260px
+| patchname = Cryogen and Leviathan Reworks
+| release = 2/23/2017
+}}
+{{tocright}}
+The '''1.1.7.55''' update reworked the [[Siren Lure and Leviathan]] and [[Cryogen]] [[boss]] fights, and introduced five new [[magic weapons]].
+
+== Additions ==
+*Added [[Phantasmal Fury]], [[Shadowbolt Staff]], [[Soul Piercer]], [[Vehemence]], and [[Venusian Trident]].
+*Added [[Cryogen's Shield]] and [[Ice Shield]].
+
+== Changes ==
+=== [[Bosses]] and [[Enemies]] ===
+*[[Brimstone Elemental]] now enrages when brought out of the [[Calamity Biome]].
+*[[Cryogen]] changes:
+**Nerfed base contact damage from {{dv|70|84}} to {{dv|35|42}}, and its base defense from 25 to 5.
+**Buffed [[Aurora Spirit]]'s health from {{dv|80|96}} to {{dv|180|216}}, and its damage from {{dv|66|105}} to {{dv|75|120}}.
+**Buffed [[Cryocore]] variant 1's health from {{dv|100|120}} to {{dv|200|240}}, and its damage from {{dv|45|54}} to {{dv|50|60}}.
+**Buffed Cryocore variant 2's health from {{dv|130|156}} to {{dv|250|300}}, and its damage from {{dv|55|66}} to {{dv|60|72}}.
+**Phase 1 no longer teleports in a similar style to the [[Brain of Cthulhu]].
+**Increased the distance at which phase 2 hovers above the player.
+**Defense and contact damage now only scale with its health in [[Expert Mode]] and higher instead of all difficulty modes.
+**Increased projectiles frequencies at which Ice Bombs are fired in phase 1.
+**Now has a shield which surrounds the core while spinning, which can be killed, but comes back after a short period of time.
+**No longer spins due to the separation of the shield from the core.
+**No longer gets smaller after each phase.
+**Rain now starts at the beginning of the fight instead of after phase 1.
+**Now immune to all debuffs.
+**All phases are now counted as one NPC instead of each phase counting as its own NPC.
+*Decreased the spawnrates for [[Hive Cyst|Hive]] and [[Perforator Cyst]]s.
+*[[Profaned Energy|Profaned Energies]], [[Scorn Eater]]s, and [[Ungodly Serpent]]s can no longer spawn if any Godseeker Mode bosses besides [[Ceaseless Void]] or [[Supreme Calamitas]] are alive.
+*[[Providence, the Profaned God]] changes:
+**Now spawns a box made of [[Lihzahrd Brick]]s after being defeated, containing her loot.
+**Increased the drop chances for all weapons from {{dv|16.67%|25%}} to {{dv|25%|33%}}.
+**Reduced the intensity of her screen shader.
+*[[The Perforator Hive]] is now invulnerable while the large Perforator is alive.
+*[[Signus, Envoy of the Devourer]] now spawns a [[Cosmic Lantern]] after every 35 hits instead of 25.
+*[[Siren Lure and Leviathan]] changes:
+**The Leviathan is now completely invulnerable.
+**The Leviathan no longer charges at the player, and now stays to the side of them and switches between shooting meteors and summoning Aquatic Aberrations and Paraseas.
+**Siren Lure now spawns [[Detonating Bubble]]s instead of Aquatic Aberrations and Paraseas.
+**Siren Lure now has a rare chance to spawn a Sharknado when under 25% health.
+**Increased Parasea's speed.
+**Paraseas now produce smaller dust.
+*[[Slime God]] changes:
+**Buffed Ebonian Slime God's contact damage from {{dv|70|98}} to {{dv|75|105}}, its defense from 10 to 15, its Abyss Mine damage from {{dv|60|120}} to {{dv|80|160}}, and changed its Abyss Ball damage from {{dv|100|200}} to {{dv|110|140}}.
+**Buffed Crimulan Slime God's contact damage from {{dv|90|108}} to {{dv|95|114}}, its defense from 20 to 25, its Abyss Mine damage from {{dv|50|100}} to {{dv|60|120}}, and nerfed its Abyss Ball damage from {{dv|100|200}} to {{dv|90|120}}.
+**Buffed the split Ebonian Slime God's contact damage from {{dv|50|60}} to {{dv|60|72}}, its defense from 0 to 5, and nerfed its Abyss Ball damage from {{expert|160}} to {{expert|100}},
+**Buffed the split Crimulan Slime God's defense from 5 to 15, and nerfed its Abyss Ball damage from {{expert|160}} to {{expert|100}}.
+**The large slimes' projectile damages no longer scale in damage during [[Hardmode]] and after the [[Moon Lord]] has been defeated.
+**The large unsplit slimes now shoot mines more frequently.
+*[[Storm Weaver]] phase 1’s body segments each now have a 6.67% chance to spawn a [[Stasis Probe]] when hit instead of a 10% chance, and phase 2’s body segments now spawn a Stasis Probe after every 14 hits instead of 7.
+
+=== Items ===
+*Changed [[Cryo Key]]’s tooltip from “Summons the gigantic floating ice mass” to “Summons the magic of the ancient ice castle”.
+*Nerfed [[Grand Guardian]]’s damage from 360 to 320.
+*Nerfed [[Night's Ray]]’s damage from 26 to 21.
+*[[Profaned Shard]] now uses 15 [[Unholy Essence]]s in its recipe instead of 50.
+*[[Terra Ray]] no longer uses [[Shadowbeam Staff]] in its recipe, and it now uses 7 [[Living Shard]]s instead of 5.
+*[[Xeroc Greatsword]] no longer uses [[Spectre Staff]] in its recipe.
+
+=== Resprites ===
+*Resprited The Leviathan, Siren Lure, and Storm Weaver's tail.
+*Resprted [[Greatsword of Judgement]] and [[Red Sun]].
+
+== Fixes ==
+*Fixed [[Blood Clot Staff]], [[Corroslime Staff]], [[Crimslime Staff]],  [[Dank Staff]], [[Entropy's Vigil]], [[Eye of the Storm]], [[Rare Waifu in a Bottle]], [[Seabound Staff]], [[Staff of the Mechworm]], [[Sun God Staff]], [[Sun Spirit Staff]], [[Waifu in a Bottle]] and [[Yharon's Kindle Staff]] displaying buff times in their tooltips.
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

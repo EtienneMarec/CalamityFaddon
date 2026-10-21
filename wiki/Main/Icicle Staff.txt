@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 10
+| mana = 6
+| knockback = 2
+| velocity = 11
+| rare = 1
+| sell = {{value|0|0|20}}
+| use = 30
+| tooltip = Casts icicles from the sky
+| stack = 1
+| proj = Icicle Staff Icicle.png
+| projcaption = Icicle
+| element1 = Cold
+| element2 = Stab
+}}
+
+The '''Icicle Staff''' is a craftable [[Pre-Hardmode]] [[wand]]. It shoots two icicles from the top of the screen down towards the mouse cursor that break upon contact with an [[enemy]] or a block.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The projectiles emit a lot of light particles upon impact that travel down through blocks, so can be used to scout for things underground.
+
+== Trivia ==
+*The item was previously known as "Winter's Fury", a name now used by [[Winter's Fury|a Hardmode spell tome]].
+*It could be considered a Pre-Hardmode version of the [[Blizzard Staff]].
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

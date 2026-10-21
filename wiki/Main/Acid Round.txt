@@ -1,0 +1,38 @@
+{{item infobox
+| type = Ammunition
+| consumable = yes
+| damage = 20
+| damagetype = ranged
+| stack = 9999
+| knockback = 1.5
+| rare = 8
+| tooltip = Explodes into acid that inflicts the plague<br/>Does more damage the higher the target's defense
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| sell = {{value|0|0|2|50}}
+| hardmode = yes
+| velocity = 10
+| velocitymult = 4
+| proj = Acid Bullet.png
+| projcaption = Acid Bullet
+}}
+
+'''Acid Rounds''' are [[Hardmode]] [[bullets]] made from [[Plague Cell Canister]]s and [[Musket Ball]]s. Upon contact with an enemy, it explodes into acid, which inflicts the [[Plague]] [[debuff]] on contact.
+
+Additional damage is added to bullets when hitting a target based on target's defense, the damage of the gun & bullet, and the gun's use time. The final damage formula is as follows: <code>Damage = Damage + (EnemyDefense * 0.05 * (Damage / 50) * (WeaponUsetime / 20))</code>
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The damage formula uses the enemy's ''current'' defense, after any reductions like [[Ichor (debuff)|Ichor]].
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Bullets]]
+[[zh:酸液弹]]

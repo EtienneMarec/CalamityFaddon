@@ -1,0 +1,25 @@
+{{npc infobox
+| type = Flying Enemy
+| ai = Metal Maw AI
+| damage = '''Contact:'''<br/>{{dv|140|180|230|300}} <br/>'''Fireball:'''<br/>{{dv|120|140|180|230}}
+| life = {{dv|1200|2000|3500}}
+| defense = 35
+| dr = 25%
+| knockback = 25
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| debuff = Embers of Civilization
+| debuffchance = 100%
+| duration = 3 seconds (Fireball)
+| debufftip = Ashes to ashes, bronze to bronze
+| vulnerable1 = Holy
+| vulnerable2 = Fire
+}}'''Metal Maws''' are [[Hardmode]] [[Enemies#Boss Servants|boss servant]] [[enemies]] that are spawned by [[The Wall of Bronze]].
+==Behavior==
+Metal Maws will chase after the player similarly to most flying enemies. In [[Expert mode|Expert Mode]] and above, Metal Maws will launch bouncing {{item|Plasma Fireball|link=|ext=gif}}s.
+==Notes==
+*Metal Maws will always drop at least one [[tgc:Heart|Heart]].
+{{-}}{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

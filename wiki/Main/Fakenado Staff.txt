@@ -1,0 +1,41 @@
+{{item infobox
+|type = Weapon
+|damagetype = Summon
+|damage = 25
+|knockback = 2
+|mana = 10
+| auto = yes
+|tooltip = Summons a fakenado to fight for you
+|| buff = Fakenado (buff) | bufflink = no
+| bufftip = The fakenado will protect you
+| debuff = Vaporfied
+| debufftip = Vaporizing senses and mind
+| debuffchance = 100%
+| debuffduration = 1 second
+|use = 19
+| rare = 3
+| sell = {{value|0|26}}
+| stack = 1
+| proj = Shark Plush.png
+| projcaption = Shark Plush
+| element1 = Water
+| element2 = Unholy
+}}
+{{summoned|Fakenado|type=minion}}
+
+The '''Sand Sharknado Staff''' is a craftable [[summon weapon]]. Upon use, it summons a fakenado to fight for you by firing miniature high-velocity shark plushies at nearby enemies.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*This item, like the vanilla [[Tempest Staff]], is a reference to the 2013 movie ''[[wikipedia:Sharknado|Sharknado]]''.
+*The plushies are a reference to the [[wikipedia:Blåhaj|Blåhaj]] shark plush.
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

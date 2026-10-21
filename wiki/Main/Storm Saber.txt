@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 35
+| knockback = 6
+| rare = 5
+| sell = {{value|0|7|20}}
+| stack = 1
+| auto = yes
+| use = 22
+| velocity = 12
+| tooltip = Fires two homing storm beams<br/>One from blade and one from the sky
+| proj = Storm Beam.png
+| projcaption = Storm Beam
+| element1 = Water
+}}
+|{{item drops infobox
+| [[Aether Valkyrie]]|1|20%}}
+}}
+
+The '''Storm Saber''' is a Pre-hardmode [[broadsword]] that autoswings. It has a chance to be dropped from [[Aether Valkyrie]]s. When swung, it fires a slow and homing glowing sword-like projectile from the blade, and another from the sky towards the cursor. The blade projectile deals 80% of the weapon's base damage, whereas the sky projectile deals 60%.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:风暴军刀]]

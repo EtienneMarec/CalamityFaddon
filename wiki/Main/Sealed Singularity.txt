@@ -1,0 +1,46 @@
+{{dedicated|BobDude|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Rogue
+| damage = 260
+| knockback = 5
+| use = 24
+| tooltip = Shatters on impact, summoning a black hole that sucks in nearby enemies<br/>Stealth strikes summon a black hole that lasts longer and sucks enemies with a stronger force
+| velocity = 14
+| stack = 1
+| auto = yes
+| rare = 12
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| proj = Blackhole.gif
+| projcaption = Black Hole
+| proj3 = Sealed Singularity Fragment.png
+| proj3caption = Sealed Singularity Fragments
+| element1 = Dark
+| element2 = Smash
+}}
+
+The '''Sealed Singularity''' is a craftable Godseeker Mode [[bombs|bomb]] that hurls a circular, void-containing flask. The flask stops moving after a short time, shattering if enough time has passed or upon any collision with solid tiles or enemies. Once shattered, a black hole is formed at the center of the impact, along with 3 gravity-affected shards which each deal 25% damage. The black hole lasts 5 seconds and pulls in nearby enemies, gaining more strength the more black holes are present at a time.
+
+Performing a [[stealth strike]] with the Sealed Singularity causes the black hole to last 8 seconds and pull enemies from farther away.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Sealed Singularity only deals 50% damage to [[The Devourer of Gods]].
+
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Bombs]]

@@ -1,0 +1,33 @@
+{{item infobox
+| type = Ammunition
+| damage = 20
+| damagetype = Ranged
+| knockback = 3
+| stack = 9999
+| tooltip = Summons meteors from the sky on death
+| consumable = True
+| rare = 11
+| sell = {{value|0|0|4}}
+| hardmode = yes
+| postml = yes
+| velocity = 10
+| listcat = arrows
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| debuffduration = 3 seconds (Arrow)
+| proj = Holy Meteor.gif
+| projcaption = Holy Meteor
+}}
+
+'''Elysian Arrows''' are Godseeker Mode [[arrows]] that are crafted with 150 [[Holy Arrow]]s and an [[Unholy Essence]]. Upon hitting an enemy or a tile, Elysian meteors swarm the area of impact, dealing 50% of the used weapon's damage to any enemy they hit. All damage is halved before being applied to the target.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+|show-ammo = yes
+}}
+[[Category:Arrows]]

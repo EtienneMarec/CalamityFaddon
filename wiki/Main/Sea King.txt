@@ -1,0 +1,190 @@
+{{npc infobox
+| type = NPC
+| environment = Valid house
+| ai = Passive AI
+| life = 7,500
+| defense = 25
+| knockback = 35
+| buff = Amidias' Blessing | bufflink = no
+| buffduration = 10 minutes (Help option)
+| bufftip = You are blessed by Amidias<br/>Lets you breathe underwater, even in the Abyss!<br/>Just don't get hit...
+| debuff = Clammed | debufflink = no
+| debuffchance = 100%
+| duration = 4 seconds (Snap Clam attack)
+| debufftip = Clam clap
+| image2 = Sea King map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+{{NPC}}
+{{dablink|If you were looking for something other than the town NPC, see [[Amidias (disambiguation)]].}}
+
+The '''Sea King''' is an [[NPC]] vendor that provides a plethora of helpful information, several useful weapons, and a unique [[buff]] known as '''Amidias' Blessing'''.
+
+The Sea King will immediately spawn upon killing a [[Giant Clam]], but if killed he will only move in once the following conditions have been met:
+*There is an empty [[tgc:House|house]].
+*The [[Desert Scourge]] has been defeated.
+
+When threatened by [[enemies]], he will defend himself with [[Snap Clam]]s.
+
+== Items sold ==
+{{inventory
+|Shellshooter|{{gc|2}}|
+|Snap Clam|{{gc|2}}|
+|Sand Dollar|{{gc|1}}|
+|Waywasher|{{gc|2}}|
+|Coral Cannon|{{gc|2}}|
+|Urchin Flail|{{gc|2}}|
+|Amidias' Trident|{{gc|2}}|
+|Magical Conch|{{gc|2}}|
+|Polyp Launcher|{{gc|2}}|
+|Gills Potion|{{gc|1}}|
+|Water Walking Potion|{{gc|1}}|
+|Flipper Potion|{{gc|1}}|
+|Caustic Tear|{{gc|3}}|After the [[Acid Rain]] is defeated
+|Truffle Worm|{{gc|10}}|After [[Duke Fishron]] is defeated
+|Bloodworm|{{pc|2}}|
+}}
+
+== Help ==
+{{float file box|[[File:Amidias' Blessing Bubble.png]]|Bubble}}
+
+When the player selects the Sea King's "Help" option, they will be granted the '''Amidias' Blessing''' buff for 10 minutes, allowing them unlimited underwater breathing until they get hit or the duration is over. The Sea King will also tell the player some information about the world in the form of tips, hints, or [[lore]]. After certain milestones are reached, all possible Help dialogues will be replaced with new ones.
+{{-}}
+
+{{collapse top|Help dialogue}}
+'''During [[Pre-Hardmode]]:'''
+*"There are rumors of ores that lay in latency. When you defeat certain bosses you will undo the ancient magic which conceals those materials."
+*"Have you heard of the [[Brimstone Crag]]s? It was once a grand kingdom, not too different from my own. However, it also met a similar fate. I would not advise going down there, unless you seek a painful death."
+*"Ah yes, the [[Abyss]]. That trench is full of powerful creatures that could devour you in a heartbeat. I would explore the [[dungeon]] first."
+*"The [[Sulphurous Sea]]s are dangerous. The toxic waters will [[Sulphuric Poisoning|burn your skin]], but if you can brave them you will be able to reach the Abyss, where there are powerful weapons and dangers aplenty."
+*"The Sulphurous Seas were created long ago, when Yharim's dungeon could no longer hold as many corpses as it needed to. Many of the bodies were dumped into the ocean. This, along with severe pollution from the heydays of Draedon's experiments have turned a paradise into a wasteland."
+*"Be careful what you attack in the [[Corruption]] / [[Crimson]]. You might just unveil a [[The Hive Mind|greater]] [[The Perforators|threat]] than what was there before."
+*"Scattered across the lands are [[shrine]]s dedicated to the gods. They contain powerful gear that may help you on your adventures."
+*"I'm assuming you've heard the legends that speak of the ninja, Statis? There are some who say that if you were able to defeat the [[The Slime God|gods]] which his clan once worshipped you would be able to harness some of his powers."
+*"The [Corruption / Crimson] used to be easily manageable and controlled by nature. However, the recent wars and pollution have tipped the balance out of favor."
+*"Throughout the world lie various structures left behind by Draedon. Archaic defenses may remain, but the goods inside may be worth your while."
+
+'''During [[Hardmode]]:'''
+*"Have you heard of the story of [[Archmage|Archmage Permafrost]]? Rumor has it he's been locked away in an icy prison by Lord Yharim. Perhaps you would be able to free him if [[Cryogen]] was destroyed." (only if Cryogen has not been defeated)
+*"I would recommend saving some of your old items. You never know if you can engineer them into stronger weapons in the future."
+*"Once those [[tgc:Mechanical Bosses|mechanical creation]]s have been defeated you would do well to seek out the crippled clone of the witch, [[Calamitas]]. It might provide some useful weaponry."
+*"If you take an [[Charred Idol|idol]] down to the Brimstone Crags you might be able to see just [[Brimstone Elemental|what is lurking in the shadows]]."
+*"The Brimstone Crags...Yharim despised that place, and did everything he could to raze it to the ground. It might explain a few things about him."
+*"If you've gathered the souls used to power those automatons head once more to the jungle. You will find a [[tgc:Plantera|powerful enemy]] to fight, which will unleash the full [[Perennial Ore|fervor of the jungle]] once defeated. Do not underestimate it!"
+*"Be careful when defeating Plantera and the Golem. You might accidentally unleash a new [[The Plaguebringer Goliath|threat]] in the jungle that needs to be quelled."
+*"When exploring the jungle temple be careful. You may not wish to disturb the Lihzahrd's idol, the Golem. It's quite the destructive force."
+
+'''After [[Cryogen]] has been defeated:'''
+*"You will find more [[Cryonic Ore|ores]] have been unlocked due to the magic sealing them away being dispelled. Some of them may require more than just the ore itself to create."
+
+'''After either [[Plantera]], [[Calamitas]] or [[The Derellect]] has been defeated prior to [[Polyphemalus]]' defeat:'''
+*"Their forboding gaze, it really does entail that yes, "they" truly are without question, anger."
+
+'''After [[Golem]] has been defeated:'''
+*"The [[tgc:Cultists|men]] at the front of the [[tgc:Dungeon|dungeon]] are performing a ritual to keep the [[Moon Lord]] contained in his prison. In order to gain Yharim's attention, however, you may need to defeat them."
+*"The Abyss has become far more active than before. You might be able to mine some of the [[Scoria Ore|volcanic rubble]] contained within."
+*"The [[plague]] was just one of the many experiments authorized by Yharim to raze towns to the ground. This is probably one of the few he shelved for being too terrible."
+
+'''After [[Moon Lord]] has been defeated:'''
+*"Your adventure focuses to the jungle it seems. [[The Dragonfolly]] and its swarming offspring should be eliminated before their numbers spiral out of control."
+*"Profaned creatures now lurk in [[the Hallow]] and in [[The Underworld|Hell]]. If you destroy enough and gather their [[Unholy Essence|essence]] together you shall be able to capture the attention of the [[Profaned Guardians]]."
+*"The Profaned Guardians will do anything to protect [[Providence, the Profaned Goddess|their goddess]]. Makes sense they die for her since they can be revived just as quickly."
+*"Touching Providence's offerings is usually a death wish. Shame that Yharim didn't think to just mess with her things to get her out of hiding."
+*"Providence is as much the sun goddess as much as the Moon Lord is the moon god. They are two sides of the same coin, choosing to remain neutral amongst our petty squabbles."
+*"The stories have it that when Providence faced and defeated Yharim and his forces she lost a lot of energy and reverted to a more skeletal form. She's merely a fraction of the power she was before."
+
+'''After [[Providence, the Profaned Goddess]] has been defeated:'''
+*"The [[Rune of Kos]] holds a significant portion of Providence's brand of magic, easily distinguishable from all others. Activating it in certain places would have some...[[Sentinels of the Devourer|risky consequences]]."
+*"Ironic, is it not, that Statis was defeated by the [[Signus, Envoy of the Devourer|very Sentinel]] his people fashioned their art of stealth from. Fate so often weaves cruel tales."
+*"The Dungeon seems to be more active now. You may hear the faint whisperings of [[Phantom Spirit|angry spirits]] who have not left to the [[Ceaseless Void|Void]]...I would recommend searching there before taking on the Sentinels."
+
+'''After [[Polterghast]] has been defeated:'''
+*"The Abyss holds many secrets revealed with time. Checking it out again may not be a bad idea."
+*"Ah...I can sense a powerful change in the weather. You may want to venture to the Sulphurous Seas once more during the rain to experience it."
+
+'''After [[The Devourer of Gods]] has been defeated:'''
+*"The Devourer of God's cosmic armor is unique in that it is capable of not only protecting his body from tearing itself apart when ripping through the fabric of space and time, but also allows him to control his powers."
+*"With the [[Cosmilite Bar|cosmic steel]] you can fashion many of your weapons into much more powerful forms."
+*"The Devourer of Gods is extremely powerful. However, he is young, foolhardy, and very lazy. Perhaps if he had been given time to develop he would have turned into quite the [[Future bosses#The Devourer of Universes|threat]]."
+
+'''After [[Jungle Dragon, Yharon]],a has been defeated:'''
+*"Pockets of [[Auric Ore|ore]] have appeared once more in the land. This will allow you to create the most powerful weaponry and [[Auric Tesla armor|armor]] imagined!"
+*"Lord Yharim possesses god-like strength. He may not even fight you at full power which is fortunate for you. His attacks may just kill you in one hit, so be careful."
+*"Draedon's style of confrontation is very...alien and hands-off. You may be more likely to fight any one of his mechs before taking him down."
+{{collapse bottom}}
+
+== Names ==
+The Sea King may have any of the following names:
+
+* Amidias
+* Adidas (Has a 1% chance be used)
+
+== Quotes ==
+'''While Homeless:'''
+*"How much more has the world fallen to ruin? Even the Tyrant’s empire..."
+*"Thank you for your service, my child, but I am afraid I am without a home now."
+
+'''During the daytime:'''
+*"[[tgc:Desert|My home]] may have been destroyed and my people lost... But I will assist you to honor their memory."
+*"How odd it is, that your people leave the care of those yet to be born to the females. Our males carry the eggs until they hatch."
+*"How can I survive on land? Ah, that is a secret. No, actually...I can breathe air like you!"
+*"Ah, if only you could have seen the beauty of a kingdom submerged in water. The way the light refracted and shone over our coral homes..."
+
+'''Only at [[night]]:'''
+*"There lurk horrifying creatures beyond the light of our homes. You should take care."
+*"My eyes are not well suited to bright lights after so many years of darkness. The peace of the night is welcome."
+*"Oh, me? I do not sleep, it is part of my nature."
+
+'''During a [[Blood Moon]]:'''
+*"Since ancient times people have said that deities cause celestial events. Which one then, is the cause for these?"
+*"I'm never keen on these nights. They're so violent."
+
+'''During [[Hardmode]]:'''
+*"Your presence is now known to a great many things. It is unlikely that they will be as friendly towards you as I have been."
+*"Hm... The veil has fallen, and the world begins to show its true colors. I hope you will trek a righteous path, though even I am not sure what that may be.
+
+'''If [[Hydrogen]] has been defeated:'''
+*"And what remains of Ilmeris vanishes, just like that?"
+*"I wonder what I could have preserved before the sea's final destruction."
+
+'''If [[Moon Lord]] has been defeated:''' 
+*"These days, the night sky feels... just a little less oppressive now."
+*"Some of these beings I had thought previously to be only legends. To see them in all their glory... what a macabre privilege."
+
+'''If [[The Devourer of Gods]] has been defeated:'''
+*"To see that Tyrant’s serpent free of its shackles. It gave me chills."
+
+'''When [[Angler]] is present:'''
+*"Meet me at [Name of Angler]'s house at night. We're going to throw him to the [[Trasher]]s."
+*"Not sure how [Name of Angler] has not been roasted and digested by now, hanging around the [[Sulphurous Sea|sulphuric seas]] for so long. Perhaps it has gotten to his head."
+
+'''When [[Party Girl]] is present:'''
+*"[Name of Party Girl] asked if my nose could be used as a vuvuzela. What is a vuvuzela?"
+
+'''When [[Drunk Princess]] is present:''' 
+*"Rumor has it [Name of Drunk Princess] drinks to forget her troubled past."
+
+'''When [[Brimstone Witch]] is present:'''
+* "I must admit, the Witch's presence is unsettling to me. But so many years have passed, and she too has suffered much."
+
+==Notes ==
+*Unlike all other town NPCs, the Sea King cannot drown.
+* Since Amidias' Blessing provides unlimited breath in all watery areas, including the [[Abyss]], it makes him very useful for exploration.
+
+==Trivia== 
+*In previous versions of the mod, the Sea King had only one possible name, that being 'Amidias', sharing this trait with [[Santa Claus]], the [[Drunk Princess]], the [[Archmage]], and the [[Brimstone Witch]].
+**The inclusion of 'Adidas' in the Sea King's pool of possible names was added as an easter egg, derived from an inside joke between the developers involving a misspelling of 'Amidias'.
+*The Sea King, along with the Archmage, are two characters who appear in the [[lore]].
+**Further supporting this claim, many of the Sea King's quotes are references to the lore, such as mentioning his whole kingdom being evaporated by [[Supreme Calamitas|Calamitas]].
+*The Sea King mentions Lord Yharim when selecting Help after defeating Yharon, who is a prominent figure in the lore.
+*The Sea King's mention of an anger presence when selecting Help after defeating either [[tgc:Plantera|Plantera,]] [[Calamitas|The Calamitas Clone]] or [[The Derellect]]  prior to [[Polyphemalus|Polyphemalus']] defeat is a reference to Polyphemalus' [[Music|theme,]] [https://youtu.be/eBliz_IvFDo| the eyes are anger], which was composed by the artist [https://www.youtube.com/@gummyleeches GummyLeeches.]
+*The dialogue about "males carrying young" is a reference to real-world seahorse biology, playing to the fact that the Sea King's design is derived from said animal.
+*The quote about the [[Angler]] is a reference to him dropping the [[Golden Fishing Rod]] when fed to the [[Trasher]].
+*In the mod's source files, the Sea King is referred to as 'SEAHOE'.
+
+{{Master Template Characters
+| show-main = yes
+| show-npc = yes
+}}

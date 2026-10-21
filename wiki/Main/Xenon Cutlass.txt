@@ -1,0 +1,37 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| tooltip = Fires a stream of slashes<br/>'I was stupid... so stupid...'
+| damage = 112
+| damagetype = melee
+| use = 16
+| knockback = 2.25
+| auto = yes
+| velocity = 13
+| type = Weapon
+| stack = 1
+| hardmode = yes
+| postml = yes
+| boxwidth = 22em
+| rare = 13
+| sell = {{value|0|20}}
+| debuff = Holy Flames
+| debuffduration = 3 seconds
+| debuffchance = 100%
+| debufftip = Slowly losing life
+| element1 = Holy
+| element3 = Magic
+| element2 = Slash
+}}
+
+The '''Xenon Cutlass''' is a craftable Godseeker Mode [[broadsword]] that autoswings. Upon use, it rapidly shoots out light blue slashes that travel around 40 blocks before dissipating. The slashes can travel through blocks and infinitely pierce through enemies.
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{Magical}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

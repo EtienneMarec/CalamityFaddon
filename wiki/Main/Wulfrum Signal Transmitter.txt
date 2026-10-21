@@ -1,0 +1,28 @@
+{{item infobox
+| type = Furniture
+| tooltip = Consumes {{item|Energy Core|s|link=}} to emit a wulfrum signal that lures Wulfrum automatons out<br/>The signal lasts for 30 seconds<br/>May also contact something else with the correct power source
+| width = 2
+| height = 2
+| use = 15
+| color = #C2FF43
+| research = 1
+| stack = 9999
+| placeable = yes
+| auto = yes
+| consumable = true
+| rare = 1
+| sell = No value
+}}The '''Wulfrum Signal Transmitter''' is a craftable [[Pre-Hardmode]] [[furniture]] item. When right-clicked while the player has an [[Energy Core]], a signal is emitted which spawns up to 4 enemies every 4 seconds for 30 seconds. The possible enemies that could spawn include [[Wulfrum Drone]], [[Wulfrum Hovercraft]] or [[Wulfrum Gyrator]]. 
+
+If right-clicked while the player has a [[Draedon Power Cell]], a signal is emitted that instead summons [[The Inventors]].
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+==Notes==
+*Usage of a Energy Core takes precedence over a Draedon Power Cell to avoid accidental boss summoning.
+*The signal persists until the end of its lifespan even if the tile itself is destroyed.
+{{-}}{{Wulfrum}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

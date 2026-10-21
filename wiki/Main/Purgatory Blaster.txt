@@ -1,0 +1,43 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 110
+| damagetype = Ranged
+| knockback = 7
+| stack = 1
+| rare = 12
+| sell = {{value|2}}
+| auto = yes
+| use = 24
+| velocity = 32
+| tooltip = Fires a holy dart and 3 curve-flying fireballs to destroy your enemies
+| hardmode = yes
+| postml = yes
+| debuff = Holy Flames
+| debuffduration = 5 seconds
+| proj = Holy Collider Fire.gif
+| projcaption = Fireball
+| element1 = Stab
+| element2 = Holy
+}}
+|{{item drops infobox
+| [[Providence, the Profaned Goddess]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Purgatory Blaster''' is a Godseeker Mode [[Dart guns|dart gun]] that drops from [[Providence, the Profaned Goddess]]. It fires a holy dart and 3 fireballs that curvve in a random direction. It is a crafting component of [[Godterminal Infernatory Blaster]]
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+
+[[Category:Dart guns]]

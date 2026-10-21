@@ -1,0 +1,51 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 264
+| auto = yes
+| use = 12
+| knockback = 9
+| damagetype = Melee
+| rare = 14
+| tooltip = Explodes and summons death lasers on enemy hits
+| sell = {{value|0|36}}
+| velocity = 18
+| stack = 1
+| debuff = God Slayer Inferno
+| debuffchance = 100%
+| debuffduration = 8 seconds
+| debufftip = Your flesh is burning off
+| debuff2 = Frostburn
+| debuffchance2 = 100%
+| debuffduration2 = 10 seconds (Nebula lasers)
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| debuff3 = On Fire!
+| debuffchance3 = 100%
+| debuffduration3 = 10 seconds (Nebula lasers)
+| debufftip3 = Slowly losing life
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Cold
+| element3 = Smash
+}}
+
+The '''Galaxy Smasher''' is a craftable Godseeker Mode [[boomerang]]. It is the direct upgrade to the [[Stellar Contempt]]. It repeatedly throws high velocity hammers at a short range, which can pass through tiles. Upon contact with a target, the hammer will inflict the [[God Slayer Inferno]] and summon five Nebula lasers to strike at the target's position, inflicting the [[Frostburn]] and [[On Fire!]] [[debuff]]s.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Cosmilite}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+
+[[Category:Boomerangs]]

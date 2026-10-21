@@ -1,0 +1,53 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| rare = 12
+| sell = {{value|0|24}}
+| auto = yes
+| damage = 92
+| tooltip = Fires a stream of short-range kunai<br/>Stealth strikes spawn 5 Cosmic Scythes which home and explode
+| debuff = God Slayer Inferno
+| debufftip = Your flesh is burning off
+| debuffchance = 100%
+| debuffduration = 1 second (Cosmic Scythe)
+| damagetype = Rogue
+| knockback = 5
+| velocity = 28
+| use = 9
+| hardmode = yes
+| postml = yes
+| stack = 1
+| proj = Cosmic Scythe.png
+| projcaption = Cosmic Scythe
+| element1 = Dark
+| element2 = Magic
+}}
+|{{item drops infobox
+| [[Signus, Envoy of the Devourer]]|1|33.33%
+}}
+}}
+[[File:Cosmic Kunai (demo).gif|frame|right|The Cosmic Kunai in use.]]
+
+The '''Cosmic Kunai''' is a Godseeker Mode [[dagger]] dropped by [[Signus, Envoy of the Devourer]]. It rapidly fires a stream of quick-moving, short-range kunai that pass through tiles and are not affected by gravity. The kunai turn transparent as they travel; however, this does not affect their damage and is only an aesthetic addition. The kunai also very slightly curves toward nearby enemies.
+
+Performing a [[stealth strike]] with the Cosmic Kunai will deal 321% damage and cause five {{item|Cosmic Scythe|s|link=}} to release around the player alongside the kunai. The scythes will each deal 256.8% damage, linger if no enemies are nearby, sharply home onto enemies, and erupt into an explosion that inflicts the [[God Slayer Inferno]] [[debuff]].
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Tips ==
+*The Cosmic Kunai's incredibly high single-target damage has limited usefulness against fast bosses like [[Storm Weaver]] and [[The Devourer of Gods]]; conversely, the Cosmic Kunai is quite effective versus [[Blood Moon]]s and other buffed Calamity events due to its strong single-target damage.
+
+== Trivia ==
+*In the real world, a [[wikipedia:Kunai|kunai]] is a 14th century Japanese farming tool. Since then, the knife-like shape of the kunai has led to its common depiction as a weapon used by ninjas and assassins.
+*This weapon functions very similarly to the [[Mycoroot]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

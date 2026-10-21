@@ -1,0 +1,51 @@
+{{malice mode only}}
+{{dedicated|Leviathan|Developer}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| sell = {{value|0|30}}
+| damage = 780
+| use = 11
+| velocity = 15
+| tooltip = Hand it over, that thing. Your dark soul.<br/>First swing fires homing skulls<br/>Second swing fires a giant, powerful skull<br/>Third swing has no projectiles<br/>Constantly generates rage when in use<br/>Swings leave behind exploding blood trails when below 50% health<br/>Replaces Rage Mode with an enormous barrage of skulls
+| knockback = 9
+| auto = yes
+| stack = 1
+| rare = 15
+| hardmode = yes
+| postml = yes
+| proj = Gael Skull.gif
+| projcaption = Gael Skull
+| element1 = Dark
+| element2 = Fire
+| element3 = Slash
+}}
+|{{item drops infobox
+| [[Supreme Calamitas]] |1|{{malice|100%}}
+}}
+}}
+'''Gael's Greatsword''' is a Godseeker Mode [[broadsword]] that drops from [[Supreme Calamitas]] in [[Malice Mode]]. While attacking, it cycles through the following functions:
+*A true melee swing with no special effects
+*Fires two small homing Blood Skulls that move swiftly and attack an enemy twice.
+*Fires a single enormous Blood Skull that moves slowly and hits an enemy three times.
+
+When the player's life is below 50%, 2 blood droplets rain down near the player. Occasionally, additional droplets will rain toward the cursor's direction. In addition to this, three to five lightning bolts will rain down beside or below the player.
+
+In [[Revengeance Mode]], [[Rage]] builds up quickly as you hold the weapon. Pressing the {{key|Rage Mode}} key releases 20 small Blood Skulls in a circle-like manner and reduces the player's Rage to 0. The skulls' damage is proportional to the amount of Rage the player had upon activation and is affected by melee damage bonuses. This attack has a 10 second cooldown. If the player stops holding Gael's Greatsword, their Rage is set to 0 and the mechanic returns to its normal functionality.
+
+{{modifier|melee}}
+
+== Trivia ==
+*The item's name, tooltip quote and function are a reference to the character [https://darksouls3.wiki.fextralife.com/Slave+Knight+Gael+(Boss) Slave Knight Gael] from ''[[wikipedia:Dark Souls III|Dark Souls III]]´s'' DLC "''The Ringed City''".
+*If the player has the "Blood and Gore" [[tgc:Setting|Setting]] turned off, its projectiles will look like clouds instead of blood.
+*The skulls fired by this weapon are named "Ark of the Cosmos' Superior Cousin" in reference to the [[Ark of the Cosmos]]' homing projectiles.
+
+[[File:Gael's Greatsword 1 (demo).gif|frame|right|Gael's Greatsword's different left-click attacks. Notice how the smaller skulls home in onto the [[Super Dummy]].]]
+[[File:Gael's Greatsword 2 (demo).gif|frame|right|Activating the [[Rage Meter]] while holding Gael's Greatsword.]]
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

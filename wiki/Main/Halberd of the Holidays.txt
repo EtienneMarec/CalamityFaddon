@@ -1,0 +1,51 @@
+{{addon|Apotheosis and Friends}}
+{{item infobox	
+| type = Weapon
+| damage = 298
+| damagetype = Melee
+| knockback = 7.5
+| stack = 1
+| rare = 14
+| buy = {{value|0|0|0|0|1}}
+| sell = {{value|20}}
+| auto = yes
+| use = 12
+| velocity = 18
+| tooltip = idk I'm still miserable with names<br/>- The General<br/>Fires exploding red and green bouncing gift bags that emit clouds as they travel
+| debuff = Cursed Inferno
+| debuffchance = 100%
+| debuffduration = 2 seconds (Green gift bag)
+| debufftip = Losing life<br/>{{revengeance|All damage taken increased by 20%}}
+| debuff2 = On Fire!
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (Red gift bag)
+| debufftip2 = Slowly losing life
+| hardmode = yes
+| postml = yes
+| proj = Green Bag.png
+| projcaption = Green Bag
+| proj2 = Red Bag.png
+| proj2caption = Red Bag
+| proj3 = Green Cloud.png
+| proj3caption = Green Spore Cloud
+| proj4 = Red Cloud.png
+| proj4caption = Red Spore Cloud
+| element1 = Fire
+| element2 = Poison
+}}
+
+The '''Halberd of the Holidays''' is a Godseeker Mode [[broadsword]] that is sold by [[The General]] after defeating [[The Devourer of Gods]]. When swung, it creates green or red gift bags that bounce on the ground and create a colossal explosion after either bouncing or hitting an enemy twice, inflicting [[Cursed Inferno]] and [[On Fire!]] respectively. There is a 66.67% chance for the bag to be red and 33.33% chance for the bag to be green. These gift bags also create damaging spore clouds of their respective color along their path every 0.25 seconds, which deal 75% of the bag's damage. 
+
+Its best [[modifier]] is '''Legendary'''.
+
+== Trivia ==
+*The weapon is a direct homage to the [[Holiday Halberd]].
+*The weapon is what The General uses.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:节日长戟]]

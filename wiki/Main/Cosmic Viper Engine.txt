@@ -1,0 +1,57 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 138
+| use = 9
+| mana = 10
+| knockback = 6
+| tooltip = Summons a cosmic gunship to shoot down your foes
+| buff = Cosmic Viper (buff) | bufflink= no
+| bufftip = The cosmic gunship will protect you
+| debuff = God Slayer Inferno
+| debufftip = Your flesh is burning off
+| debuffchance = 100%
+| debuffduration = 3 seconds (Concussion Missile)<br/>2 seconds (Homing, Splitting Rocket)<br/>1 second (Shrapnel)
+| rare = 14
+| sell = {{value|0|28}}
+| stack = 1
+| auto = yes
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Dark
+}}
+{{summoned|Cosmic Gunship|type=minion}}
+
+The '''Cosmic Viper Engine''' is a craftable Godseeker Mode [[summon weapon]] that is an upgrade to the [[Tactical Plague Engine]]. It summons a Cosmic Gunship that fires the following projectiles:
+
+{| class="terraria"
+|-
+! colspan=2 style="padding:0 15px" | Projectile !! colspan=2 | Description
+|-
+| align="center" | {{item|Concussion Missile|ext=gif|mode=table|nolink=y}}
+| align=center | An accurate fast missile that deals 150% of the weapon’s damage
+|-
+| align="center" | {{item|Homing Rocket|ext=gif|mode=table|nolink=y}}
+| align=center | An insanely fast homing rocket
+|-
+| align="center" | {{item|Splitting Rocket|ext=gif|mode=table|nolink=y}}
+| align=center | An insanely fast homing rocket that splits into four {{item|Cosmic Shrapnels|shrapnels|nolink=y}} in random directions when getting close to an enemy. Shrapnels deal 25% damage.
+|}
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The "Viper" in this weapon's name is a reference to "Vic Viper", the protagonist of the space shooter game series ''[[wikipedia:Gradius|Gradius]]''.
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

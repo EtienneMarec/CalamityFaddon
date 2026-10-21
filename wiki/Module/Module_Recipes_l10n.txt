@@ -1,0 +1,63 @@
+-- register l10n information
+-- Note: All "Any xxx" groups (e.g. "Any Birds") should be added to the {{tr}} database.
+
+return {
+	['en'] = {
+		-- for {{recipes}}--
+		['cate_unexpected_rows_count'] = 'Recipes table with unexpected total number of rows',
+		['cate_no_row'] = 'Recipes table with no row',
+		['header_result'] = 'Result',
+		['header_ingredients'] = 'Ingredients',
+		['header_station'] = '[[Crafting station]]',
+		
+		['historical_recipe_note'] = '&nbsp;<abbr title="This recipe is no longer present in the mod">hist</abbr>',
+
+		['cate_craftable'] = 'Craftable items',
+
+		['station_cate_start_str'] = 'Items crafted at ',
+
+		['station_by_hand'] = '[[By Hand]]',
+		['station_by_hand_cate'] = 'Items crafted by hand',
+
+		['station_sep_or'] = "<br/>'''''or'''''<br/>",
+		['station_sep_and'] = " '''and''' ",
+
+		['ingredients_sep'] = " ''or'' ",
+
+		['no_ingredients'] = '(none)',
+
+		['station_cate'] = {
+			['Lead Anvil'] = 'Iron or Lead Anvil',
+			['Iron Anvil'] = 'Iron or Lead Anvil',
+			['Orichalcum Anvil'] = 'Mythril or Orichalcum Anvil',
+			['Mythril Anvil'] = 'Mythril or Orichalcum Anvil',
+			['Demon Altar'] =  'Demon or Crimson Altar',
+			['Crimson Altar'] = 'Demon or Crimson Altar',
+			['Altar'] = 'Demon or Crimson Altar',
+			['Titanium Forge'] = 'Adamantite or Titanium Forge',
+			['Adamantite Forge'] = 'Adamantite or Titanium Forge',
+			['Cauldron'] = 'Cooking Pot or Cauldron',
+			['Cooking Pot'] = 'Cooking Pot or Cauldron',
+			['Bottle only'] = 'Placed Bottle',
+			['Placed Bottle only'] = 'Placed Bottle',
+			['Bottle'] = 'Placed Bottle or Alchemy Table',
+			['Placed Bottle'] = 'Placed Bottle or Alchemy Table',
+			['Alchemy Table'] = 'Placed Bottle or Alchemy Table',
+			['Water'] = 'Water or Sink',
+			['Sink'] = 'Water or Sink',
+			['Crystal Ball and Water'] = 'Crystal Ball and Water or Sink',
+			['Sky Mill and Water'] = 'Sky Mill and Water or Sink',
+			['Sky Mill and Snow Biome'] = 'Sky Mill and Snow Biome',
+			['Crystal Ball and Honey'] = 'Crystal Ball and Honey',
+			['Crystal Ball and Lava'] = 'Crystal Ball and Lava',
+
+			['Alchemy Table only'] = 'Alchemy Table',
+
+		},
+		-- for {{recipes/extract}}--
+		['default_sep_compact'] = "<br/>'''or'''<br/>",
+		['default_sep_ingredients'] = "'''or'''",
+		['compact_before'] = ' &nbsp;<span style="font-weight:bold; text-shadow: 0px 0px 8px #FF0066; cursor:pointer;" title="Crafted At">@</span>&nbsp;&thinsp;',
+		['compact_snow_biome'] = '[[Snow biome|Snow]]',
+	},
+}

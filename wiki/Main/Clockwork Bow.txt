@@ -1,0 +1,45 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 36
+| knockback = 1
+| rare = 10
+| sell = {{value|0|20}}
+| stack = 1
+| auto = yes
+| velocity = 10
+| use = 5
+| tooltip = Launches cogs
+Repeated attacks build up damage and fire an occasional precision blast
+| hardmode = yes
+| postml = yes
+| proj = Precision Bolt.png
+| projcaption = Precision Blast
+| element1 = Stab
+| element2 = Machine
+}}
+
+The '''Clockwork Bow''' is a craftable Godseeker Mode [[bow]]. It rapidly fires out cogs with a large spread. Each hit with a cog increases the bow’s stacked damage value, up to a total of 50 times. After 50 hits with a bow, a Precision Blast will launch out at an incredibly fast speed, dealing high damage. The stacked damage value will reset to 0.
+
+It uses Cogs as ammunition, which are purchased from the Steampunker.
+
+Firing this bow near the Steampunker (in a radius of 100 blocks) will double this bow’s damage, knockback, and velocity. This is possibly a reference to how the Steampunker is adept at steampunking, such as with weapons like this bow.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The formula for stacked damage multiplier is <math>\frac{BaseDamage^{(1+X)}}{25}</math> with X being the amount of cogs fired total modulo 50.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

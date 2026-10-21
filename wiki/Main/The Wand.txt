@@ -1,0 +1,50 @@
+{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 1
+| use = 19
+| stack = 1
+| knockback = 0.5
+| velocity = 24
+| tooltip = The ultimate wand
+| hardmode = yes
+| postml = yes
+| auto = yes
+| mana = 150
+| rare = 15
+| sell = {{value|0|50}}
+| debuff = On Fire!
+| debuffchance = 100%
+| debufftip = Losing life
+| debuffduration = 4 seconds (Spark)
+| debuff2 = Daybroken
+| debuffchance2 = 100%
+| debufftip2 = Incinerated by solar rays
+| debuffduration2 = 2 seconds (Spark)
+| proj = Infernado (friendly).gif
+| projcaption = Infernado
+| projsize = 230px
+| element1 = Fire
+}}
+[[File:The Wand (demo).gif|frame|right|The Wand creating an infernado atop five [[Target Dummy|Target Dummies]]. Notice how only the dummy that is directly targeted gets inflicted with the On Fire! debuff.]]
+
+'''The Wand''' is a craftable Godseeker Mode [[wand]]. It fires a small projectile that inflicts [[On Fire!]] and [[Daybroken]], and erupts into a massive translucent infernado on impact with any tile or enemy. If the infernado triggers in mid-air, it will attempt to spawn on the nearest solid surface below it. Only 2,182 infernadoes can exist at a time.
+
+Its extremely low base damage applies only to the infernadoes. The initial projectile can extend upwards through solid blocks and ignores enemy invulnerability frames, hitting for 599 damage extremely rapidly.
+
+{{Modifier|lowdamage}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The base of The Wand's infernado is about 30 tiles wide. Noticeably, this is much larger than the Flarenadoes, Infernadoes, and Bordernadoes present in the [[Yharon]] fight.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Wands]]

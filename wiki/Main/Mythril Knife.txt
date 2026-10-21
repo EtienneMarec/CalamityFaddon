@@ -1,0 +1,54 @@
+{{item infobox
+|type = Weapon
+|damage = 40
+|damagetype = Rogue
+|knockback = 1.75
+|use = 9
+| rare = 4
+| sell = {{value|0|0|2|20}}
+|auto = yes
+| tooltip = Stealth strikes inflict a wide assortment of debuffs
+|hardmode = yes
+|stack = 9999
+|velocity = 12
+|consumable = true
+| debuff = Cursed Inferno
+| debuffduration = 5 seconds
+| debuffchance = 100% (Stealth strikes)
+| debuff2 = Venom
+| debuffduration2 = 5 seconds
+| debuffchance2 = 100% (Stealth strikes)
+| debuff3 = Armor Crunch
+| debuffduration3 = 5 seconds
+| debuffchance3 = 100% (Stealth strikes)
+| debuff4 = Irradiated
+| debuffduration4 = 5 seconds
+| debuffchance4 = 100% (Stealth strikes)
+| debuff5 = God Slayer Inferno
+| debuffduration5 = 5 seconds
+| debuffchance5 = 100% (Stealth strikes)
+| element1 = Poison
+| element2 = Stab
+}}
+
+'''Mythril Knives''' are craftable [[Hardmode]] [[daggers]] made from [[Mythril Bar]]s. They fire a knife which travels a short distance before being affected by gravity. They have a 50% chance of being recovered after being thrown.
+
+Performing a [[stealth strike]] with Mythril Knives will cause the knife to apply a variety of [[debuffs]] for 5 seconds. These include [[Cursed Inferno]], [[Venom]], [[Armor Crunch]], [[Irradiated]], and [[God Slayer Inferno]]. On enemies, these combined debuffs cause the target to lose 147 health per second, 20% damage reduction, and 25 defense.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*It is the only one of the six Hardmode ore rogue weapons to not have a piercing ability.
+
+== Trivia ==
+*Mythril Knives are the only way to inflict God Slayer Inferno during Hardmode.
+
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Daggers]]

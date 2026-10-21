@@ -1,0 +1,46 @@
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| damage = 500
+| damagetype = Magic
+| use = 30
+| mana = 15
+| velocity = 10
+| knockback = 1.50
+| tooltip = Fires a string of bouncing sound waves that become stronger as they travel<br/>Sound waves echo additional sound waves on enemy hits
+| debuff = Crush Depth
+| debuffchance = 100%
+| debuffduration = 4 seconds
+| debufftip = Aquatic pressure
+| rare = 16
+| sell = {{value|0|50}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Eidolic Sound Wave.png
+| projcaption = Hadopelagic Sound Wave
+| element1 = Dark
+| element2 = Water
+}}
+[[File:Hadopelagic Echo (demo).gif|frame|right|A single uninterrupted burst from the Hadopelagic Echo, followed by two bursts against a set of [[Target Dummy|Target Dummies]]. Note how the sound waves slow down with each successful hit until they stop completely.]]
+
+The '''Hadopelagic Echo''' is a craftable Epilogue [[magic gun]] that is a direct upgrade to the [[Eidolic Wail]]. It fires a burst of four sound waves that can pierce infinitely and ricochet off of walls in quick succession. When the wave hits an enemy, it spawns two additional waves from random directions, with a 2-second cooldown on the effect. The main wave initially deals 5% damage with a smaller size and grows to full size and damage after one second, while additional waves deal 20% damage.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon's sprite was originally intended to be a resprite of the Eidolic Wail.
+*The weapon has a 1% chance of playing the [[Sunskater]] death sound instead of the typical sound.
+*[https://en.m.wikipedia.org/wiki/Hadal_zone Hadopelagic zone] refers to the deepest region of the ocean, lying within oceanic trenches. 
+{{-}}
+{{Subnautical Plate}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Magic guns]]

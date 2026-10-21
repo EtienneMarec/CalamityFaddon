@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| damage = 147
+| mana = 11
+| use = 10
+| velocity = 30
+| knockback = 5.5
+| auto = yes
+| stack = 1
+| tooltip = Casts a burst of elemental tentacles to spear your enemies
+| rare = 11
+| sell = {{value|0|22}}
+| debuff = Elemental Mix
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+}}
+[[File:Augur of the Elements (demo).gif|frame|The Augar of the Elements striking target dummies.|450x450px]]
+
+The '''Augar of the Elements''' is a craftable Godseeker Mode [[spell tome]] that is an upgraded version of the [[Eldritch Tome]], the [[Tome of Fates]] and the [[Shadowflame Hex Doll]]. It continuously shoots out multiple rainbow tentacles, which is a trait it shares with its ingredients. The tentacles can pass through tiles, but do not pierce enemies. It is later used in the crafting of the [[Subsuming Vortex]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Elemental}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

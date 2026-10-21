@@ -1,0 +1,29 @@
+{{item infobox
+| type = Tool
+| auto = yes
+| stack = 1
+| damagetype = melee
+| damage = 5
+| pick = 40
+| bonus = +1 range
+| knockback = 2
+| rare = 1
+| use = 15
+| toolspeed = 8
+| sell = {{value|0|0|20|0}}
+}}
+
+The '''Wulfrum Drill''' is a craftable [[Pre-Hardmode]] [[drill]]. It can mine blocks up to {{item|Gold Ore}} / {{item|Platinum Ore}}.
+
+{{Modifier|harvest}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Wulfrum}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+[[Category:Pickaxes]]

@@ -1,0 +1,28 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| rare = 12
+| sell = {{value|0|24}}
+| stack = 1
+| tooltip = Blessed by the Profaned Flame<br/>Horizontal speed: 9.75<br/>Acceleration multiplier: 2.7<br/>Great vertical speed<br/>Flight time: 240<br/>Temporary immunity to lava and 15% increased movement speed
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Providence, the Profaned Goddess]] (When summoned in [[The Hallow]])|1|100%
+}}
+}}
+
+'''Elysian Wings''' are a Godseeker Mode [[Wings|wing]]-type [[covering]] that allow the player to fly and glide, dropped by [[Providence, the Profaned Goddess]] when summoned in the [[Hallow]]. It grants temporary immunity to [[lava]], 15% increased movement speed, and heat protection in [[Death Mode]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

@@ -1,0 +1,42 @@
+{{Addon|Polyphemalus}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Magic
+| damage = 20
+| knockback = 8
+| critical = 4%
+| tooltip = Conjures a spiral of homing eyes<br>'I am in spain without the "A"'
+| rare = 8
+| sell = {{value||10|0}}
+| stack = 1
+| research = 1
+| hardmode = yes
+| auto = yes
+| use = 36
+| sound = Item_12.wav
+| soundtext = Use
+| element1 = Dark
+}}
+|{{item drops infobox
+| [[Polyphemalus]]<br/>(When Conjunctivirus is defeated last)|1|100%
+}}
+}}
+
+''Nystagmus'' is a [[Hardmode]] [[Magic weapon]]. It is dropped by [[Polyphemalus]], when Conjunctivirus is defeated last. When used, Nystagmus will fire a spiral of 36 homing eye projectiles.
+
+{{modifier|magicalt}}
+
+==Notes==
+* Nystagmus fires one eye every frame, leading to very high DPS despite a relatively low base damage.
+** Due to this, speed modifiers have no effect on Nystagmus's DPS, but they may change the shape of the spiral.
+
+==Tips==
+*Nystagmus pairs well with items like the [[Sand Shark Tooth Necklace]] that provide armor piercing.
+
+== Trivia ==
+*The weapon's tooltip references the popular internet meme of saying that one is in "spain without the 'A', before proceeding to spin. This is likely referenced due to how the weapon's projectile spins.
+{{Master Template Weapons	
+| show-main = yes
+| show-magic= yes
+}}

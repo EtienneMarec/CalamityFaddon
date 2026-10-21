@@ -1,0 +1,36 @@
+{|align=right
+|{{item infobox
+| imagealt = [[File:Corruption Effigy (placed).png]] [[File:Crimson Effigy (placed).png]] [[File:Effigy of Decay (placed).png]]<br/>[[File:Hallow Effigy (placed).png]] [[File:Astral Effigy (placed).png]]
+| type = Furniture
+| auto = yes
+| stack = 9999
+| placeable = yes
+| width = 2
+| height = 4
+| use = 14
+}}
+|}
+
+Effigies are [[furniture]] items which give all players within their radius a unique [[buff]]. The Calamity Mod currently adds three types of effigies to the game, which can all be found in certain [[chest]]s spawned naturally.
+
+{| class="terraria lined"
+! Effigy
+! Location
+|-
+| {{item|Corruption Effigy}} || {{item|Shadow Chest|mode=image}} [[Corruption]] [[Shrine]]
+|-
+| {{item|Crimson Effigy}} || {{item|Flesh Chest|link=tgc:Chests|mode=image}} [[Crimson]] [[Shrine]]
+|-
+| {{item|Hallow Effigy}} || {{item|Crystal Chest|mode=image}} [[Hallow]] [[Shrine]]
+|-
+| {{item|Astral Effigy}} || {{item|Monolith Chest|mode=image}} [[Astral Infection]] [[Shrine]]
+|-
+| {{item|Effigy of Decay}} || {{item|Rusty Chest}}
+|-
+|}
+{{-}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:塑像]]

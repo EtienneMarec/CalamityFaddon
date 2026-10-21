@@ -1,0 +1,35 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 33
+| knockback = 3
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| auto = yes
+| velocity = 12
+| use = 22
+| tooltip = Fires two streams of slime
+| debuff = Slime (debuff)
+| debuffchance = 100%
+| debuffduration = 30 seconds (Slime streams)
+| debufftip = You are dripping slime
+| element1 = Stab
+| element2 = Poison
+}}
+
+The '''Goobow''' is a craftable [[Pre-Hardmode]] [[bow]] that auto-fires. It will fire two short streams of slime alongside the arrows it fires.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Purified Gel}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

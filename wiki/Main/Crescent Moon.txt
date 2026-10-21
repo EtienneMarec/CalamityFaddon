@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| damagetype = Melee
+| rare = 13
+| sell = {{value|0|28}}
+| damage = 300
+| knockback = 4
+| use = 18
+| tooltip = People wanted the moon, let's bring the moon to them.<br/>Fires a whip sword that summons homing crescent moons
+| debuff = Nightwither | bufflink = yes
+| debuffchance = 100%
+| debuffduration = 4 seconds (Flail)<br/> 3 seconds (Moons)
+| debufftip = Incinerated by lunar rays
+| auto = yes
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Crescent Moon Flail.png
+| projcaption = Crescent Moon Flail
+| proj2 = Crescent.png
+| proj2caption = Crescent
+| element1 = Magic
+| element2 = Dark
+| element3 = Smash
+}}
+
+The '''Crescent Moon''' is a craftable Godseeker Mode [[flail]] that auto-swings. The flail passes through tiles. When swung, it leaves behind homing crescent moons that deal 40% of the weapon's base damage. It behaves similarly to the [[Solar Eruption]].
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon's tooltip is a reference to scrapped plans for the [[Moon Lord]] to be the moon itself descending onto the world.
+{{-}}
+{{Stratus}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes}}
+[[Category:Flails]]

@@ -1,0 +1,34 @@
+{{infobox wrapper
+|{{item infobox
+| image = Shimmer Skimmer (item).png
+| type = Bait
+| bait = 22
+| rare = expert
+| use = 14
+| auto = yes
+| consumable = yes
+| sell = {{value|0|0|4}}
+| stack = 9999
+}}
+|{{npc infobox | boxwidth = 21em
+| type = Critter
+| environment = Aether
+| ai = Water Strider AI
+| damage = 0
+| life = 5
+| defense = 0
+| knockback = 0
+| immune1 = Confused
+| immune2 = Kami Flu
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+}}
+}}
+
+The '''Shimmer Skimmer''' is a [[critter]]. It is found in the [[Aether]] and behaves similarly to a typical [[Water Strider]]. It can be caught with a [[Bug Net]] or [[Golden Bug Net]], and when released outside of [[Shimmer]] it will phase through the floor until it hits Shimmer or reaches the [[The Underworld|Underworld]].
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-critter = yes
+}}

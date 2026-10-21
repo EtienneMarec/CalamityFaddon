@@ -1,0 +1,25 @@
+{{item infobox
+| type = Covering
+| stack = 1
+| tooltip = Spy projectiles explode into homing souls on death<br/>10% increased Spy damage and +10 maximum stealth, however, life regen is reduced by 1
+| rare = 8
+| buy = {{value|1}}
+| sell = {{value|0|12}}
+| hardmode = yes
+| proj = Phantasmal Soul.gif
+| projcaption = Phantasmal Soul
+}}
+
+The '''Ethereal Extorter''' is a [[Hardmode]] [[covering]] sold by the [[Bandit]] for {{pc|1}} after the [[Golem]] has been defeated. While equipped, all [[Spy]] projectiles explode into 2 homing souls upon impact. These souls have 25 base damage and are affected by Spy damage bonuses. Additionally, Spy damage is increased by 10%, at the cost of -1 life regen.
+
+== Recipe ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

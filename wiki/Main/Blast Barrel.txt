@@ -1,0 +1,50 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 32
+| auto = yes
+| use = 21
+| knockback = 8
+| velocity = 12
+| damagetype = Rogue
+| rare = 4
+| sell = {{value|0|2|40}}
+| stack = 1
+| tooltip = Throws a rolling barrel that explodes on wall collision<br/>Stealth strikes makes the barrel bounce twice before disappearing with varied effects after each bounce<br/>'Some people used to jump over these'
+| hardmode = yes
+| debuff = On Fire!
+| debuffduration = 4 seconds (Shrapnel)<br/>3-6 seconds (Fire shards)
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| proj = Flaming Shard.gif
+| projcaption = Flaming Shard
+| proj3 = Barrel Shrapnel.png
+| proj3caption = Barrel Shrapnels
+| element1 = Fire
+| element2 = Smash
+| element3 = Bomb
+|}}
+|{{item drops infobox
+| [[Wall of Flesh]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Blast Barrel''' is a [[Hardmode]] [[bombs|bomb]] dropped by the [[Wall of Flesh]]. When thrown, it will roll across the ground and infinitely pierce enemies it comes into contact with a wall. Upon colliding with a wall, it will explode into shrapnel and fire shards or bounce again then explode. Shrapnel and fire shards inflict the [[On Fire!]] [[debuff]].
+
+Performing a [[stealth strike]] with the Blast Barrel will cause the next barrel thrown to bounce off of walls 2 times before exploding on the third wall.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon and its tooltip are a reference to the ''[[wikipedia:Donkey Kong|Donkey Kong]]'' game series, which frequently features explosive barrels that launch the player in certain directions, sometimes referred to as "Blast Barrels". The "Some people use to jump over these" part of the tooltip is a reference to the first game specifically, in which Mario has to jump over barrels to reach the top of the level.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-rogue = yes
+}}
+[[Category:Bombs]]

@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Throws several ink bombs when hit that explode in a confusing cloud of ink<br/>Gain a lot of stealth when struck<br/>This effect has a 20s cooldown before it can occur again
+| sell = {{value|0|0|80}}
+| rare = 3
+| stack = 1
+| debuff = Ink Bomb Cooldown | debufflink = no
+| debuffduration = 20 seconds (When hit)
+| debuffchance = 100%
+| debufftip = Your Ink Bomb is recharging
+| debuff2 = Confused
+| debuffduration2 = 5 seconds (Ink bombs)
+| debuffchance2 = 100%
+| debufftip2 = Movement is reversed
+| proj = Ink Bomb Projectile.png
+| projcaption = Ink Bomb (thrown)
+| proj2 = Ink Clouds.png
+| proj2caption = Ink Clouds
+| element1 = Water
+| element2 = Dark
+}}
+|{{item drops infobox
+| [[Cuttlefish]]<br/>[[Giant Squid]]<br/>[[Colossal Squid]]|1|{{dv|1%|2%}}<br/>{{dv|2.5%|4%}}<br/>10%
+}}
+}}
+
+The '''Ink Bomb''' is a [[Pre-Hardmode]] [[Spy]] [[covering]] that drops from [[Cuttlefish]], [[Colossal Squid]]s, and [[Giant Squid]]s. Upon being hit by an enemy, several ink bombs are released from the player that deal a large amount of damage and inflict the [[Confused]] [[debuff]] onto enemies. The bombs have a twenty-second cooldown and will not deploy again until the cooldown is finished.
+
+If the player does not have full [[Spy stealth]] then the player will receive 50% of their Spy stealth cap upon the Ink Bombs activation.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The ink bombs are affected by Spy stealth as the bombs internally use Spy damage.
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

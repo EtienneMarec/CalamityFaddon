@@ -1,0 +1,10 @@
+{| cellspacing="2px" style="text-align: left; margin: 1em auto; border: 2px solid #AAA; padding: .3em 1.3em .2em; border-radius: .7em; -moz-border-radius: .7em; -webkit-border-radius: .7em; background: #515151; color: white;"
+| align="center" style="vertical-align: top;" | <!--
+    --><div style="display: inline-block;">[[File:Community content icon.png|size=12px|link=Community modifications]]</div><!--
+    --><div style="display: inline-block; vertical-align: middle; padding: 0px 10px 2px 10px; line-height: 20px;"><!--
+        --><span style="font-size: 1.3em;">'''[[Community modifications|Community Content]]'''</span><!--
+    --></div><!--
+    --><div style="display:inline-block;">[[File:Community content icon.png|size=12px|link=Community modifications]]</div><!--
+    --><div>This content is community created.<br/>{{#if:{{{1|}}}|It originates from the: '''{{{1|}}}''' addon.|}}</div>
+|}<!--
+--><includeonly>[[Category:Community content]][[Category:{{{1|}}} addon content]]</includeonly>

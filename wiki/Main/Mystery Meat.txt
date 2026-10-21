@@ -1,0 +1,23 @@
+{{item infobox
+| type = Crafting material
+| type2 = Consumable
+| tooltip = ... Are you sure you want to eat this?
+| stack = 9999
+| rare = 1
+| sell = {{value|0|0|0|32}}
+}}
+|{{item drops infobox
+|[[Mysterious Manager]]|6|100%
+}}
+}}
+'''Mystery Meat''' is a unique crafting material and consumable item that can be obtained when the player dies with both [[Delicious Meat]] and [[Disgusting Meat]] in their inventory. It is currently unknown what crafting recipes it will have, but developers have confirmed that it will be vital to progression.
+
+When consumed, the player will receive an assortment of [[Buffs]] and [[Debuffs]], similar to Red Potions, except they have no limit to what debuff they can inflict. This includes Chaos State, Exo Freeze, Boss Effects, and any Cooldown. Buffs like Striking Moment, Nebula Booster pickups, Beetle Endurance, Solar Blaze, and all three Effigy buffs are also possible.
+
+==Trivia==
+*Its sprite seems to be [[Delicious Meat]]'s, but recoloured with Minecraft's Suspicious Stew colours.
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion=yes
+}}

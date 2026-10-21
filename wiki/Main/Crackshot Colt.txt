@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| damagetype = Ranged
+| damage = 13
+| use = 35
+| knockback = 2.25
+| velocity = 14
+| tooltip = Right click to throw a coin in the air. Hitting the coin with a bullet redirects the shot into the nearest enemy<br/>Coin throws consume copper coins
+| auto = yes
+| stack = 1
+| research = 1
+| rare = 1
+| sell = {{value|0|0|20}}
+| proj = Copper Coin.gif
+| projcaption = Copper Coin
+| sound = CrackshotColtShot.wav
+| soundtext = Primary Fire
+| sound2 = Ultrabling.wav
+| sound2text = Secondary Fire
+| sound3 = UltrablingHit.wav
+| sound3text = Coin Hit
+| element1 = Unholy
+| element2 = Stab
+}}The '''Crackshot Colt''' is a craftable [[Pre-Hardmode]] [[gun]]. When used with its primary fire (left-click), it accurately fires a high velocity gold blast which cannot pierce tiles nor enemies. When used with its secondary fire (right-click), a [[Copper Coin]] is consumed and fired with an upwards curve. Coins are gravity-affected, move slowly, and cannot damage enemies. When the blast collides with a coin, it is able to ricochet to a nearby enemy within a 56.25 tile radius, and blast damage is multiplied by 2. Coins can be recoverable at a 100% chance if shot by the blast, and 25% if not.
+
+{{Modifier|ranged}}
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+==Notes==
+*The gun noticeably recoils while used with either fire. However, this does not affect the player's velocity in any way.
+*The secondary fire is 1.3 times as fast as the primary fire but does not auto-use.
+*If no Copper Coin is available, higher valued coins are automatically consumed by breaking down into smaller valued coins on use.
+*Coins are usable from the player's Piggy Bank, Safe, or Defender's Forge but not from the Void Vault.
+==Trivia==
+*The weapon's function and sound effects are a reference to the [https://ultrakill.fandom.com/wiki/Marksman_Revolver Marksman Revolver] from ''[[wikipedia:Ultrakill|ULTRAKILL]]''.
+==See Also==
+*[[Midas Prime]], its indirect upgrade in [[Hardmode]].
+{{-}}{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| damagetype = Rogue
+| damage = 466
+| critical = 16%
+| knockback = 10
+| use = 20
+| velocity = 13.69
+| tooltip = Fires a lightning bolt to electrocute enemies<br/>The lightning bolt travels faster while it is raining<br/>Summons lightning from the sky on impact<br/>Stealth strikes summon more lightning and travel faster
+| rare = 12
+| sell = {{value|0|24}}
+| debuff = Electrified
+| debuffduration = 3 seconds (Lightning Bolt)
+| debufftip = You cannot move
+| debuffchance = 100%
+| auto = yes
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Deific Thunderbolt (projectile).gif
+| projcaption = Deific Thunderbolt
+| element1 = Holy
+| element2 = Stab
+| element3 = Electricity
+}}
+The '''Deific Thunderbolt''' is a craftable Godseeker Mode [[dagger]] that is an upgrade to the [[Stormfront Razor]]. It automatically throws a gravity-defying lightning bolt that does not pierce and travels faster while raining. When it hits an enemy, lightning strikes vertically from the sky which pierces indefinitely.
+
+Performing a [[stealth strike]] with the Deific Thunderbolt will cause the next lightning bolt thrown to summon five strikes of lightning, in addition to the main bolt travelling much faster.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}
+[[Category:Daggers]]

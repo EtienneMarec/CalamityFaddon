@@ -1,0 +1,32 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = 10% increased damage <br/>Summons floating nebula stars to protect you<br/>You will survive an attack that would have killed you and be healed 100 HP<br/>This effect has a 90 second cooldown
+| rare = 14
+| sell = {{value|0|28}}
+| stack = 1
+| element1 = Magic
+| element2 = Dark
+| hardmode = yes
+| postml = yes
+| proj = Nebula Star.png
+| projcaption = Nebula Star
+}}
+|{{item drops infobox
+|[[The Devourer of Gods]]|1|100%
+}}
+}}
+
+The '''Nebulous Core''' is a Godseeker Mode [[covering]] dropped by [[The Devourer of Gods]]. It grants the player 10% increased damage and summons floating nebula stars around the player, just like the [[Spore Sac]], that deal 1500 damage. It also grants the player a [[Death Prevention|revive]] when hit with a lethal attack, healing the player for 100 HP when the effect triggers, this effect has a 90 seconds cooldown.
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

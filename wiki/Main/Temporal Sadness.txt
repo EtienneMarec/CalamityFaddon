@@ -1,0 +1,24 @@
+{{buff infobox
+| type = Debuff
+| effects = Target's damage is reduced by 15 and movement speed is cut in half.	
+| tooltip = You are crying
+}}
+
+'''Temporal Sadness''' is a [[debuff]] inflicted by the [[Broken Biome Blade]] and its upgrades, [[Statis' Blessing]] and its upgrades, the [[Teardrop Cleaver]], and the [[Ethereal Extorter]]. The debuff reduces the target's damage by 15 and cuts their movement speed in half while also causing them to emit large water particles.
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+== Immune NPCs ==
+{{ajax|List of slow-immune NPCs|width=35%}}
+
+== Notes ==
+*If an enemy with less than 15 damage is affected by '''Temporal Sadness,''' they will not deal damage in any form, instead of being set to 1 damage.
+*All minions, when summoned with any of the three Statis' coverings, will inflict '''Temporal Sadness''', in addition to whatever debuffs they may inflict.
+**The debuff does not stack when the player equips multiple Statis' coverings, as minions will still only inflict it for 1 second, despite the fact that the player can stack the other effects of the Statis' coverings.
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

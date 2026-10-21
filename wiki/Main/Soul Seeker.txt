@@ -1,0 +1,99 @@
+{{npc infobox
+| type = Flying Enemy
+| image = Soul_Seekers.png
+| listexclude = yes
+}}
+{{distinguish|Soul Slurper|a [[Pre-Hardmode]] enemy that spawns in the [[Brimstone Crag]]}}
+
+'''Soul Seekers''' are [[Hardmode]] and Godseeker Mode [[Enemies#Boss Servants|boss servant]] [[enemies]] that are spawned during [[Calamitas]] and the [[Supreme Calamitas]] boss fights.
+
+== Types ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Soul Seeker
+| type = Flying Enemy
+| ai = Soul Seeker AI
+| life = {{dv|2,500|5,000||3,000}}
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| duration = 2 seconds (Brimstone dart)
+| debufftip = Rapid health loss
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Abyssal Flames
+| immune4 = Brimstone Flames
+| vulnerable1 = Cold
+| vulnerable2 = Water
+| vulnerable3 = Holy
+| resistant1 = Fire
+| resistant2 = Dark
+| resistant3 = Unholy
+| damage = {{dv|60|100|108|116}} (Brimstone dart)
+| defense = 10
+| dr = 10%
+| knockback = 0
+| hardmode = yes
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+}}
+|{{npc infobox
+| boxwidth = 25em
+| name = Soul Seeker
+| namesub = Supreme
+| type = Flying Enemy
+| ai = Soul Seeker (Supreme) AI
+| image = Soul_Seeker_(Supreme).png
+| life =  {{dv|15,000|24,000|28,000}}
+| debuff = Abyssal Flames
+| debuffchance = 100%
+| duration = 3 seconds (Brimstone dart)
+| debufftip = Your soul is being consumed
+| debuff2 = Vulnerability Hex
+| debuffchance2 = 100%
+| duration2 = 2 seconds (Brimstone dart)
+| debufftip2 = You are weak
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Abyssal Flames
+| immune4 = Brimstone Flames
+| vulnerable1 = Water
+| vulnerable2 = Holy
+| resistant1 = Fire
+| resistant2 = Magic
+| resistant3 = Unholy
+| damage = {{dv|400|600|750|862}} (Brimstone dart)
+| defense = 60
+| dr = 25%
+| knockback = 0
+| hardmode = yes
+| postml = yes
+| killed = Dd2_skeleton_death_0.wav
+| sound = BrimstoneShoot.wav
+| soundtext = Brimstone Dart
+}}
+}}
+
+== Behavior ==
+Both variants circle their respective boss, attacking by firing {{item|BrimstoneBarrage|nolink=yes|ext=gif|size=9px|Brimstone Dart projectiles}}. The normal Soul Seekers stay close to the Calamitas, acting as a shield to protect her while also providing additional firepower. The Supreme Soul Seekers surround Supreme Calamitas in a ring while firing at the player in sync, serving as an additional type of obstacle that must be passed to continue damaging the boss.
+
+== Notes ==
+*{{dv|5|||10}} normal Soul Seekers spawn when Calamitas reaches 50% health.
+*20 Supreme Soul Seekers spawn when Supreme Calamitas reaches 20% health.
+**Supreme Soul Seekers will provide invulnerability to Supreme Calamitas until all of them are defeated.
+*Supreme Soul Seekers have the following resistances, taking:
+**90% damage from [[Celestus]] and the stealth strike of the [[Executioner's Blade]].
+**75% damage from [[Yharim's Crystal]].
+**65% damage from the [[Murasama]].
+**15% damage from the [[Chicken Cannon|Chicken Cannon's]] explosions.
+
+== Tips ==
+=== Normal variant ===
+*Due to the AI of the Soul Seekers, most non-piercing attacks will not hit the boss so it is recommended to destroy them first.
+
+=== Supreme variant ===
+*The [[Chicken Cannon]] and [[Celestus]] are greatly effective in taking down the Supreme Soul Seekers due to their large areas of effect.
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

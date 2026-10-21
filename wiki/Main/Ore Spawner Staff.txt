@@ -1,0 +1,32 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 0
+| mana = 10
+| knockback = 0
+| use = 34
+| tooltip = Summons an antlion to dig up ores
+| stack = 1
+| auto = yes
+| rare = 1
+| sell = {{value|0|0|20}}
+}}
+}}
+{{summoned|Antlion Burrower|type=sentry}}
+
+The '''Ore Spawner Staff''' is a [[Pre-Hardmode]] [[sentry]] that can be crafted with [[Antlion Bar|Antlion Bars]]. It summons an Antlion burrower that sits stationary in the ground. Every 20 seconds, the antlion will dig underground, and emerge moments later, dropping a random ore item.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The ore the antlion burrower digs up can be from any point in progression.
+*The antlion deals no damage
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

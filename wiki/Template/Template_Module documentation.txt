@@ -1,0 +1,35 @@
+<includeonly>{{#ifeq:{{FULLPAGENAME}}|MediaWiki:Scribunto-doc-page-show||<!-- 
+// localization info is autoloaded from Template:Module documentation/l10n
+
+
+-->{{#vardefine:doc-subpage|{{SUBPAGENAME:{{MediaWiki:Scribunto-doc-page-name}}}}}}<!-- language-specific subpage name of all Module documentation pages of the wiki
+-->{{-}}<!--
+--><div class="documentation"><!--
+	--><div class="documentation_title"><!--
+		-->{{#ifeq:{{{exists|}}}|no|[[File:Icon-warning-red.svg|40px|link=]]}} [[File:Lua logo.svg|40px|link=]] <!--
+		--><span style="font-weight: bold; font-size: 125%; margin-right:10px;">{{l10n|module_documentation|documentation}}</span> <!--
+		-->{{#ifeq:{{{exists|}}}|yes|<!--
+			--><span style="font-size:90%"><i><!--
+				-->{{l10n|module_documentation|headertext|$doc-page$=[[{{{1|Module:{{PAGENAME}}/{{#var:doc-subpage}}}}}]]}}<!--
+				-->({{fullurl|{{FULLPAGENAMEE:{{{1|Module:{{PAGENAME}}/{{#var:doc-subpage}}}}}}}|action{{=}}edit|text={{l10n|module_documentation|doc-page_edit}}}}<!--
+				--> {{!}} <!--
+				-->{{fullurl|{{FULLPAGENAMEE:{{{1|Module:{{PAGENAME}}/{{#var:doc-subpage}}}}}}}|action{{=}}history|text={{l10n|module_documentation|doc-page_hist}}}})<!--
+			--></i></span><!--
+		-->}}<!--
+		--><div style="text-align:right; float: right; margin-left: 5px"><!--
+			-->[{{fullurl|{{FULLPAGENAMEE}}|action{{=}}purge|text={{l10n|module_documentation|purge}}}}]<br/><!--
+			-->&#91;[[#module-code|{{l10n|module_documentation|jump_to_code}}]]&#93;<!--
+		--></div><!--
+	--></div><!--
+	-->{{#if:{{l10n|module_documentation|direct_to_en}}|{{dablink|{{l10n|module_documentation|direct_to_en|$link_to_en$=[[:en:Module:{{PAGENAME}}|Module:{{PAGENAME}}]]}}}}}}<!-- leave line break here -->
+<!--	-->{{#ifeq:{{{exists|}}}|yes|<!--
+		-->{{ {{{1|Module:{{PAGENAME}}/{{#var:doc-subpage}}}}} }}<!-- transclusion of the documentation subpage
+	-->|<!-- 
+		-->{{l10n|module_documentation|no_doc}}<!--
+		-->{{fullurl|{{FULLPAGENAMEE:{{{1|Module:{{PAGENAME}}/{{#var:doc-subpage}}}}}}}|action{{=}}edit&preload{{=}}{{l10n|module_documentation|preload-page}}|text={{l10n|module_documentation|create_new_doc}}}}<!--
+	-->}}<!-- leave line break here -->
+<!--
+--></div><!--
+-->}}</includeonly><!--
+
+--><noinclude>{{i18n-ready}}{{doc}}</noinclude>

@@ -1,0 +1,51 @@
+<includeonly><span data-info="{{#expr:{{{1|1}}}*100}}" {{#if:{{{1|}}}|style="white-space:nowrap" <nowiki />}}title="{{#if:{{{1|}}}|{{{1|}}} <nowiki />}}Silver Coin{{#ifeq:{{{1|1}}}|1||s}}">{{#if:{{{1|}}}|{{{1|}}} <nowiki />}}[[File:Silver Coin.png|link=|alt=Silver Coin]]</span></includeonly><noinclude>
+A minimalist helper template to quickly create a "sc" ('''S'''ilver '''C'''oin).
+
+== Standard Usage ==
+{| class="terraria"
+!<nowiki>{{sc}}</nowiki>
+|{{sc}}
+|-
+!<nowiki>{{sc|1}}</nowiki>
+|{{sc|1}}
+|-
+!<nowiki>{{sc|5}}</nowiki>
+|{{sc|5}}
+|}
+
+== Multiple coins ==
+If you want to create a price with multiple type coins, please insert a single [[wikipedia:non-breaking space|non-breaking space ( &amp;nbsp&#59; )]] between each coin:
+{| class="terraria"
+!<nowiki>{{gc|5}}&amp;nbsp&#59;{{sc|50}}</nowiki>
+|{{gc|5}}&nbsp;{{sc|50}}
+|}
+
+Or, just use [[template:Value]], which is optimized for multiple currencies.
+
+== Without a parameter ==
+Using the template without any parameters will simply generate a Silver Coin, without anything other text.
+
+== Render and link ==
+*The sc template will not generate a link, and will not be linkable (neither the text, nor the coin).
+*However, mousing over the template will create a '''hover text''' with the full English rendering, for readability:
+{| class="terraria"
+! {{sc}}
+| Silver Coin
+|-
+! {{sc|1}}
+| 1 Silver Coin
+|-
+! {{sc|5}}
+| 5 Silver Coins
+|}
+
+== See Also ==
+*[[template:pc]]: Platinum Coin.
+*[[template:gc]]: Gold Coin.
+*[[template:sc]]: Silver Coin.
+*[[template:cc]]: Copper Coin.
+*[[template:Value]]: An alternative.
+
+[[Category:Shortcut templates]]
+
+</noinclude>

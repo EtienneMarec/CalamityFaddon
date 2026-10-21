@@ -1,0 +1,48 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| stack = 1
+| auto = yes
+| damagetype = summon
+| damage = 129
+| use = 29
+| mana = 10
+| knockback = 1
+| tooltip = Takes up 4 minion slots to summon a mass of conjoined eyes to fire projectiles at enemies<br/>Hold right click on an enemy to channel a sigil on them<br/>Once the sigil reaches full size, the mass separates into 5 eyes to assault the targeted enemy while spawning wisps<br/>Only one mass can exist
+| buff = Elemental Eye Mass (buff) | bufflink = no
+| bufftip = Four eyes, four eyes!
+| rare = 11
+| sell = {{value|0|4}}
+| proj = Life Booster.png
+| projcaption = Life Booster
+| proj2 = Mana Booster.png
+| proj2caption = Mana Booster
+| proj3 = Damage Booster.png
+| proj3caption = Damage Booster
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Poison
+}}
+{{summoned|Elemental Eye Mass|type=minion|image=[[File:Elemental Eye Mass.png]]}}
+
+The '''Quadlens Staff''' is a craftable Godseeker Mode [[summon weapon]]. It uses four minion slots to summon an Elemental Eye Mass that attacks enemies by firing small lightning bolts, fireballs, stars, and pink lasers. The player can hold right click onto an enemy to channel a sigil on them. If the player successfully keeps their cursor on the enemy for 5 seconds, the mass will split into five eyes, with each elemental eye ramming into the target aggressively and the central eye firing a laser beam.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+== Trivia ==
+*The buff's description is a reference to how people with glasses are sometimes mocked for appearing to have four eyes.
+{{Elemental}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

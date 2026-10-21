@@ -1,0 +1,39 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = Striking an enemy with ranged damage reveals the shattered shadow of its soul<br/>Continuously dealing ranged damage to the enemy strengths the shadow<br/>The shadow bursts out if the enemy was killed or not hit in a while<br/>Summons a stronger shadow of your own soul that fires lasers after taking damage<br/>There can be only 4 shadows of your enemies' and 2 of your own soul present at the same time 
+| sell = {{value|0|10}}
+| stack = 1
+| rare = 7
+| hardmode = yes
+| proj = Shadow Shatter.png
+| projcaption = Shadow Shatter
+| element1 = water
+| element2 = slash
+| element2 = electricity
+}}
+|{{item drops infobox
+|[[The Forbidden Lantern]]| 1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Aquatic Shardtone''' is a [[Hardmode]] [[Equipment|covering]] that drops from [[The Forbidden Lantern]]. While equipped, it provides the following effects: 
+*Hitting an enemy will cause a shadow shatter to appear from its body.
+**If the player continuous to damage the enemy, the shadow shatter will slowly grow, linearly increasing its strength. However, if the enemy is killed or the player stops attacking it for 1 second, the shadow shatter will quickly burst out of the enemy.
+**Compared to most [[minions]], the shadow shatter has a unique health value, which is equal to the amount of damage the player has dealt to the enemy it burst out. If the enemy was killed, the shadow shatter will have extra 15% health. Additionally, it has 15 [[defense]] and 7% [[damage reduction]]. Each ram will deal 33% of its maximum HP with no chance for a critical strike. There can be only 4 shadow shatters present at the same time.
+*Spawns a stronger shadow shatter upon getting hit.
+**This type of shadow shatter's health value is 150% of the damage the player get hit for.
+**The stronger shadow shatter will stick close to the player, firing high-velocity lasers that pierce up 3 enemies and deal 50% of its maximum health with no chance for a critical strike. It will still ram enemies that are close enough to the player, dealing 100% of its maximum health. Additionally, it has 25 defense, 10% damage reduction and bypasses the normal shadow shatter limit. However, there can be only 2 stronger shadow shatters present at the same time.
+
+==Trivia==
+*If the enemy is considered a [[Challenges|boss]] or a mini-boss, the shadow shatter will burst out after the player dealt 2% of its maximum health instead.
+*Shadow Shatter was a removed [[Enemies|enemy]] spawned by The Forbidden Lantern.
+
+{{ctota}}
+{{Master Template Equipables
+|show-main=yes
+|show-combat=yes
+}}
+[[Category:Combat coverings]]
+[[Category:Offensive coverings]]

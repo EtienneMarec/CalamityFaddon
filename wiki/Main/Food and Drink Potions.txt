@@ -1,0 +1,30 @@
+{| width="100%"
+|<span class="ajaxHide">
+{{main|Potion}}
+</span>
+This is a list of potions that grant the [[Well Fed]] [[buff]]:(Please someone add the carnal corn into the table I don't know how to do that)
+|}
+
+{| class="terraria lined"
+! style="padding: 5px" width = "10%" colspan = 2 | Potion
+! width = "65%" | Tooltip
+! Well Fed Duration
+{{#dpl:
+| namespace =
+| uses = Template:Item infobox
+| category = Potion items
+| include = {item infobox¦/dpl}
+| includematch = /\{{!}}\s*buff\d*\s*=\s*Well Fed/
+| mode = userformat
+| ordermethod = titlewithoutnamespace
+}}
+|}
+[[Category:Potion items]]
+
+{| width = "100%"
+|<span class = "ajaxHide">
+{{Master Template Consumables
+| show-main = yes
+| show-potion = yes
+}}</span>
+|}

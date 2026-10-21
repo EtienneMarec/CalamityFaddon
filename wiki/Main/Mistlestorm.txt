@@ -1,0 +1,41 @@
+{{item infobox
+| type = Weapon
+| damage = 45
+| damagetype = magic
+| auto = yes
+| knockback = 3.5
+| mana = 5
+| tooltip = Casts a storm of pine needles and leaves
+| rare = 12
+| stack = 1
+| velocity = 24
+| sell = {{value|0|24}}
+| use = 6
+| hardmode = yes
+| postml = yes
+| proj = Pine Needle.png
+| projcaption = Pine Needle
+| proj2 = Leaf (projectile).gif
+| proj2caption = Leaf
+| element1 = Poison
+| element2 = Cold
+}}
+
+The '''Mistlestorm''' is a craftable Godseeker Mode [[wand]] and the direct upgrade of both the [[Razorpine]] and the [[Leaf Blower]]. It rapidly fires flurries of quick pine needles, which are slightly affected by gravity, and slower swarms of leaves, which are not affected by gravity.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Unlike the Razorpine, the Mistlestorm cannot shoot through thin walls.
+
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category: Wands]]

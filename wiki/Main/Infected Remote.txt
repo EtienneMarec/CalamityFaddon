@@ -1,0 +1,54 @@
+{{dedicated|ThomasThePencil|Patreon Donator}}
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 234
+| mana = 10
+| knockback = 5
+| use = 19
+| tooltip = There’s a faded note written on it in green<br/>Only the first line is readable: ‘She won’t afflict you, I promise!’<br/>Summons a Plague Elemental<br/>Consumes all of the remaining minion slots on use<br/>Must be used from the hotbar<br/>Increased power based on the number of minion slots used
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffduration = 3 seconds (Contact)<br/>2 seconds (Missile, Mini-Plaguebringer)<br/>1 second (Plague Bee)
+| debuffchance = 100%
+| buff = Plague Elemental (buff) | bufflink = no
+| bufftip = It’s a shame you can’t hug her
+| element1 = Poison
+| element2 = Stab
+| element3 = Dark
+| element4 = Machine
+| stack = 1
+| hardmode = yes
+| rare = 8
+| sell = {{value|0|12}}
+| proj = Plague Missile.gif
+| projcaption = Plague Missile
+| proj2 = Plaguenade Bee.gif
+| proj2caption = Plague Bee
+| proj3 = Plaguebringer Bab.png
+| proj3caption = Mini-Plaguebringer
+}}
+|{{item drops infobox
+| [[The Plaguebringer Goliath]] | 1 | {{dv|25%|33.33%}}
+}}
+}}
+{{summoned|Plague Elemental|type=minion}}
+The '''Infected Remote''' is a [[Hardmode]] [[covering]] that drops from [[The Plaguebringer Goliath]]. It summons a Plague Elemental, who floats by the player and attacks enemies with various attacks set in the following pattern:
+*Distances herself away from an enemy and launches up to six plague nukes that create a small explosion on enemy hits.
+*Summons several miniature [[Plaguebringer]]s and tiny plagued bees around her. Plagued bees home in towards the enemy similarly to normal friendly bees, while Mini-Plaguebringers perform up to five successful horizontal charges before dissipating and may idle when no enemies are nearby.
+*Charges her enemy up to a total of nine times.
+All of the Plague Elemental’s patterns are based on a timer that will run even if no enemies are nearby, meaning she can start attacking an enemy in the middle of her attack pattern.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}

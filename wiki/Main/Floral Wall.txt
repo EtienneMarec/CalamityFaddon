@@ -1,0 +1,26 @@
+{{item infobox
+| type = Wall
+| auto = yes
+| placeable = yes
+| consumable = yes
+| stack = 9999
+| rare = 0
+| color = #172730
+| sell = No value
+| use = 14
+}}
+
+'''Floral Wall''' is a background [[wall]] crafted with [[Perennial Brick]], as an alternative to [[Perennial Brick Wall]].
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used in===
+{{recipes|ingredient = {{PAGENAME}}}}
+
+{{-}}
+{{Master Template Tiles
+| show-main = yes
+| show-walls = yes
+}}

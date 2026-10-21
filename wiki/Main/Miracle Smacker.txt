@@ -1,0 +1,45 @@
+{{addon|Calamitous Journeys}}
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 1000
+| knockback = 4
+| use = 22
+| tooltip = 22 summon tag damage
+| stack = 1
+| auto = yes
+| rare = 15
+| sell = {{value|0|30|0}}
+| hardmode = yes
+| postml = yes
+| element1 = Cold
+| element2 = Fire
+| element3 = Holy
+| element4 = Machine
+}}
+
+The '''Miracle Smacker''' is a craftable Godseeker Mode [[whip]]. When used, it fires 3 different whips which have different effects and deal different [[debuffs]].
+
+The red whip will inflict [[On Fire!]] (3 seconds) and make minion hits cause explosions.
+
+The green whip will inflict [[Holy Flames]] (3 seconds) and steal 4 life.
+
+The blue whip will inflict [[Exo Freeze]] (0.5 seconds) and [[Frostburn]] (3 seconds) and give the player 5 defense and 2% damage reduction.
+
+Its best modifier is '''Legendary'''. The Legendary modifier provides the widest array of stat bonuses including whip range and speed.
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+===Used In===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+
+{{-}}
+{{Exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}
+
+[[Category:Whips]]

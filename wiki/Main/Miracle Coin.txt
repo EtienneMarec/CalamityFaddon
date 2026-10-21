@@ -1,0 +1,26 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Ammunition
+| type2 = Crafting material
+| stack = 999
+| rare = 0
+| sell = {{value|0|0|0|0|0|100}}
+}}
+
+'''Miracle Coins''' are a [[Coins|currency item]] used to store excessive amounts of [[Klepticoin]]s. Its only use is to be fired by [[The Ones Striker]] as [[ammunition]], and they cannot actually be used to buy items from [[Town NPCs]].
+
+==Crafting==
+===Recipe===
+{{recipes|result={{PAGENAME}}}}
+=== Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Notes==
+*As the coin with the highest value in the game, one Miracle Coin is equivalent to {{value|0|0|0|0|0|100}} (one hundred), {{value|0|0|0|0|10000}} (ten thousand), {{value|1000000|0|0|0|0}} (one million), {{value|0|100000000|0|0|0}} (one hundred million), {{value|0|0|10000000000|0|0}} (ten billion), or {{value|0|0|0|1000000000000|0}} (one trillion).
+*According to the official lore, Miracle Coins are too valuable for any reasonable vendor to accept, explaining why NPCs will not accept them as currency.
+
+{{ctota}}
+{{Master Template Consumables
+| show-main = yes
+| show-ammo = yes
+}}

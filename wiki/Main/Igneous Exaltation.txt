@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 34
+| mana = 10
+| knockback = 4.5
+| use = 24
+| tooltip = Summons an orbiting blade<br/>Right click to launch all blades towards the cursor
+| buff = Igneous Blade (buff) | bufflink = no
+| bufftip = A Blade is orbiting you
+| stack = 1
+| auto = yes
+| rare = 5
+| sell = {{value|0|7|20}}
+| hardmode = yes
+| element1 = Unholy
+| element2 = Stab
+| element3 = Fire
+}}
+|{{item drops infobox
+| [[Clamitas]] {{fantag|Calamity: Community Remix}}| 1 | 25% (in [[Hardmode]])
+}}
+}}
+{{summoned|Igneous Blade|type=minion}}
+[[File:Igneous Exaltation (demo).gif|frame|The Igneous Blades orbiting the player, being launched at a [[Super Dummy]], and causing three extra blades to fall per blade hit.]]
+
+The '''Igneous Exaltation''' is a craftable [[Hardmode]] [[summon weapon]]. When used with left-click, it summons an Igneous blade that orbits around the player, damaging [[enemies]] that come to contact with it. Pressing right-click will force all blades orbiting the player to charge towards the position of the cursor and piercing up to three enemies in its path, causing three smaller blades to rain down per hit. The Igneous blades will not re-orbit after being launched and will despawn shortly after. Unlike most summon weapons, the Igneous Exaltation cannot be used to target minions.
+
+Its best [[modifier]] is '''Ruthless''' or '''Mythical'''. The Mythical modifier provides a wider array of benefits to an active nature of the weapon, while the Ruthless modifier provides greater damage output for a passive playstyle.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+{{Unholy Core}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

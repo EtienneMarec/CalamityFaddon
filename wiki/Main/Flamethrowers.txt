@@ -1,0 +1,28 @@
+{{dablink|For the vanilla weapon, see [[Flamethrower]].}}
+
+'''Flamethrowers''' are [[ranged weapons]] which generally consume [[Gel]] in order to shoot fire or other damaging particles, typically in long continuous streams that can pierce multiple enemies.
+
+== Types ==
+{| class="terraria sortable lined" id="dpl-table"
+! colspan = 2 | Name !! Damage !! Use Time !! Knockback !! Velocity !! Critical !! Autoswing !! [[Rarity]] !! <abbr title="Hardmode">HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Flamethrowers
+| namespace = <!-- need to have it blanked to restrict it to main namespace. prevents category pages from being included-->
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦:Melee weapons/dpl}
+| mode = userformat
+}}
+|}
+
+== Notes ==
+*Wearing the [[Shroomite Visage]] increases the ranged damage dealt specifically by flamethrowers.
+
+{{Master Template Weapons
+| show-main  = yes
+| show-ranged = yes
+}}
+[[Category:Weapon items| ]]
+[[Category:Ranged weapons| ]]
+[[Category:Flamethrowers|*]]

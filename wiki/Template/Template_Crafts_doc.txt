@@ -1,0 +1,66 @@
+<span style="font-size:150%; color:red; font-weight:bold;">Deprecated template. Please use {{tl|Recipes}} instead.</span>
+
+This is a documentation only page, it documents the sub-pages:
+*[[template:crafts top]]
+*[[template:crafts row]]
+**[[template:crafts first sub row]]
+**[[template:crafts sub row]]
+*[[template:crafts bottom]]
+
+Usage is:
+
+ <nowiki>{{crafts top}}</nowiki>:Opens the table
+ <nowiki>{{crafts row}}</nowiki>:A row, repeat as necessary.
+ ...
+ <nowiki>{{crafts row}}</nowiki>:A row, repeat as necessary.
+ <nowiki>{{crafts bottom}}</nowiki>:Closes the table
+
+<nowiki>{{crafts top}}</nowiki> is just a convenience table top. You may replace it with your own wiki code if necessary, just like on the [[recipes]] pages. <nowiki>{{crafts bottom}}</nowiki> closes the table. <nowiki>{{crafts row}}</nowiki> is a self contained row.
+
+== <nowiki>{{crafts row}}</nowiki> ==
+This template is the bulk of the crafts set:
+
+=== Example usage ===
+<pre>{{crafts row |top=y
+ | tool = By Hand | toolspan = 2
+ | result = Sticky Grenade | 5
+ | Gel  |
+ | Grenade | 5
+}}</pre>
+
+*"top": is a switch to indicate to a row it is just under a heading, and should not insert a ''top seperator'' (ie a black line)
+*"tool": and "toolspan" is an optional attribute used to create a side cell. "tool" is the tool, and "toolspan" is the span of the cell, counted in amount of cells, which should be equal to the number of ingredients. In case of multiple rows using the same tool the tool parameter can be omitted for subsequent rows and the toolspan parameter of the first should be increased.
+*"result": The resulting item, followed by the resulting amount. In case the resulting amount is 1 it should be omitted (though the | character is still required!)
+* For every ingredient a row with an ingredient name and amount should be present.  In case the  amount is 1 it should be omitted (though the | character is still required!)
+
+This results in:
+
+{{crafts top}}
+{{crafts row |top=y
+ | tool = By Hand | toolspan = 2
+ | result = Sticky Grenade | 5
+ | Gel  |
+ | Grenade | 5
+}}
+{{crafts bottom}}
+
+=== Old usage (deprecated, but supported) ===
+<pre>{{crafts row |top=
+ | tool =
+ | toolspan =
+
+ | result =          | resultamount = 
+ | item1 =           | amount1 =  
+ | item2 =           | amount2 =  
+ | item3 =           | amount3 =  
+ | item4 =           | amount4 = 
+ | item5 =           | amount5 = 
+}}</pre>
+
+
+<includeonly>
+[[Category:Deprecated Crafting templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

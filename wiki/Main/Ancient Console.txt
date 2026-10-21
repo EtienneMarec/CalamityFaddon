@@ -1,0 +1,35 @@
+{{item infobox
+| imagealt = <Tabber>
+Default=[[File:Ancient Console.png]]
+|-|
+Bloody Vein Inserted=[[File:Bloody Ancient Console.png]]
+</Tabber>
+| type = Furniture
+| tooltip = Summons the Wall of Bronze if modified with certain attachments.
+| pickreq = 300
+| placeable = yes
+| stack = 9999
+| auto = yes
+| width = 3
+| height = 3
+| use = 14
+| rare = 9
+| color = #80809E
+| sell = No value
+| hardmode = yes
+}}
+
+The '''Ancient Console''' is a [[Hardmode]] [[furniture]] item that can be found in the [[Brimstone Crag]]s. When right-clicked with the [[Bloody Vein]] in the players hand, it will summon [[The Wall of Bronze]]. Upon successfully summoning the boss, the Bloody Vein will attach its self to the console, allowing the player to summon the Wall of Bronze by simply right clicking it. Using any [[Pickaxes]] on the console with the vein attached will remove it. If used without a Bloody Vein attached, or if the player does not have a Bloody Vein in their hand, the [[status message]] "The Machine requires Blood." will appear in the chat.
+
+== Notes ==
+*The Ancient Console cannot be destroyed by [[explosive]]s.
+*The Ancient Console can be highlighted by the [[Spelunker Potion]] effect.
+*A new Ancient Console can be obtained via fishing in the [[Brimstone Crag]]s post [[Jungle Dragon, Yharon|Yharon]].
+
+== Trivia ==
+*The ancient console may be a reference to the videogame [[https://ultrakill.fandom.com/wiki/Home ULTRAKILL]], as it is a machine found in hell that is powered by blood.
+
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}

@@ -1,0 +1,28 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| consumable = yes
+| placeable = yes
+| stack = 9999
+| rare = 0
+| use = 14
+| hardmode = yes
+| sell = No value
+}}
+
+'''Eutrophic Sand Wall''' is a background [[wall]] crafted with [[Eutrophic Sand]]. It will not contribute to the creation an artificial [[Sunken Sea]] biome nor will it release water.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main   = yes
+| show-walls = yes
+}}
+
+[[Category:Block items]]

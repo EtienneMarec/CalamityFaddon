@@ -1,0 +1,57 @@
+{{addon|Calamity: Tales of the Aquatic}}
+
+{{item infobox
+| type = Covering
+| type2 = Crafting Material
+| defense = 10
+| tooltip = Increased defense, life regeneration and movement speed<br/>The wearer can run super fast<br/>Water and ice debuffs are stronger<br/>All attacks inflict Crush Depth<br/>Spawns a fairy that shoots homing petals at enemies
+| rare = 7
+| sell = {{value|0|20}}
+| hardmode = yes
+| proj = Fairy_Shot.gif
+| projcaption = Fairy Petals
+}}
+
+{| align="right"
+|-
+|{{summoned|Pink Fairy|type=minion}}
+|-
+|{{summoned|Green Fairy|type=minion}}
+|-
+|{{summoned|Blue Fairy|type=minion}}
+|}
+
+'''Shatterspectre Tracers''' are [[tgc:Hardmode|Hardmode]] [[Equipment|covering]] that is an upgrade to [[tgc:Fairy Boots|Fairy Boots]] and [[tgc:Hellfire Treads|Hellfire Treads]]. It is considered a side-grade to [[Angel Treads]]. While equipped, they provide the following effects:
+*10 [[defense]]
+*4 increased life regen (2 HP/s)
+*10% increased movement speed
+* The player's max horizontal movement speed is increased to 30 miles per hour (~22 tiles per second).
+* A fairy minion is spawned, attacking the closest enemy by shooting a homing petal projectile every 1.5 seconds. 
+**The projectile deals 40 classless damage, which scales with the strongest class and cannot critically hit.
+*The player's attacks inflict the [[Crush Depth]] [[Debuffs|debuff]].
+*All water and ice debuffs deal extra 50% damage.
+*Immunity to fall damage
+
+==Crafting== 
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used In===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Unlike its upgrade, [[Lunarspectre Tracers]], Shatterspectre Tracers do not inherent the additional flight time granted by [[Spectre Boots]].
+
+==Trivia==  
+*The fairy's color will change depending on the time of the day: 
+**From 4:30AM to 12PM, the fairy will be pink.
+**From 12PM to 7:30PM, the fairy will be green.
+**From 7:30PM to 4:30AM, the fairy will be blue.
+
+{{-}}
+{{Shatterite}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

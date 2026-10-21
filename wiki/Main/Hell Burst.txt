@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damagetype = magic
+| damage = 30
+| mana = 14
+| tooltip = Casts a beam of flame
+| knockback = 7
+| rare = 5
+| sell = {{value|0|7|20}}
+| use = 30
+| velocity = 32
+| debuff = On Fire!
+| debufftip = Slowly losing life
+| debuffchance = 100%
+| debuffduration = 4 seconds
+| stack = 1
+| hardmode = yes
+| proj = Flame Beam Tip.png
+| projcaption = Flame Beam Tip
+| element1 = Fire
+}}
+
+The '''Hell Burst''' is a craftable [[Hardmode]] [[wand]] that is a direct upgrade to the [[Crystal Vile Shard]]. It shoots out a consecutive chain of large fire spikes, which lingers for a second and inflicts the [[On Fire!]] [[debuff]] to enemies on contact. The projectile can hit any enemy up to eight times before disappearing.
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*[[Aquatic Scourge]] takes only 90% damage from the Hell Burst.
+
+== Trivia ==
+*The Hell Burst was implemented based on a community suggestion made by Gouvod on the mod's Terraria Forums post.
+
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

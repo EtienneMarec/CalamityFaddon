@@ -1,0 +1,49 @@
+{{dedicated|Lompl Allimath|Patreon Donator}}
+{{item infobox
+| type = Weapon
+| stack = 1
+| auto = yes
+| damagetype = melee
+| tooltip = Balls? Smalls.
+| damage = 480
+| knockback = 4
+| critical = 14%
+| rare = 12
+| sell = {{value|0|24}}
+| use = 25
+| hardmode = yes
+| postml = yes
+| velocity = 24
+| debuff = Brimstone Flames
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Rapid health loss
+| proj = Devil's Sunrise Slash.gif
+| projcaption = Devil's Sunrise Slash
+| proj2 = Devil's Sunrise Cyclone.png
+| proj2caption = Devil's Sunrise Cyclone
+| element1 = Unholy
+| element2 = Slash
+}}
+[[File:Devil’s Sunrise (demo).gif|frame|The Devil’s Sunrise in use, notice how the energy ball changes colors and how the slashes become more intense as they become more red.]]
+
+The '''Devil's Sunrise''' is a craftable Godseeker Mode [[melee weapon]] that is a direct upgrade to the [https://terraria.wiki.gg/wiki/Terragrim Terragrim]. While being swung, white blurred slashes will appear in the direction of the mouse, creating an illusion that the sword itself is being swung very quickly. Any enemies that are hit by the slashes will take damage and are inflicted with the [[Brimstone Flames]] [[debuff]]. The Devil’s Sunrise’s slashes will turn red the longer it is deployed, with its damage increasing immensely.
+
+The Devil's Sunrise will also fire a small energy ball that shares similar properties to the slashes. The energy ball will follow the mouse cursor much like a yoyo, and will inflict the Brimstone Flames debuff onto enemies. The energy ball will also turn red the longer it is deployed, with its damage increasing. After nine seconds of being deployed, the energy ball will return to the player.
+
+{{modifier|meleealtlate}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*This weapon is a reference to the [https://epicbattlefantasy.fandom.com/wiki/Devil%27s_Sunrise weapon of the same name] from the ''Epic Battle Fantasy'' line of games.
+**This is in turn a reference to the [https://bbb.hidden-street.net/eq/two-handed-sword/devils-sunrise weapon of the same name] from ''[[wikipedia:MapleStory|MapleStory]]''.
+*The tooltip is a common quip associated with the donator, addressed to the user of the item.
+{{-}}
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:True melee]]

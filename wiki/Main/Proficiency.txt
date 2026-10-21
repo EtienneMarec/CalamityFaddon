@@ -1,0 +1,92 @@
+'''Proficiency''' is a new game mechanic added by the Calamity Mod. It has a series of five attributes, one for each damage type, that scale with the player as they progress through the game. When the player deals damage of a certain type, their proficiency with that type increases. Once they hit certain amounts of proficiency, they level up and gain several buffs, which vary depending on the type of proficiency.
+
+Each proficiency is represented by a number between 0 and 500000. Any time a player deals more than 5 damage to a non [[tgc:Statues|statue]]-spawned [[enemy]], or any amount of damage to a [[boss]], that number increases by 1. There is a two second cooldown between increases of any proficiency.
+
+The player can view their current proficiency and level by buying one of the [[Level Meters]] from the [[Goblin Tinkerer]]. Having a Level Meter equipped also gives a small chance to double the amount of proficiency gained.
+
+== Levels and Boosts ==
+Each type of proficiency grants boosts to different stats. The boosts listed below are '''not''' cumulative, i.e. they represent the boosts gained from being at that level, rather than adding to the prior boosts.
+
+*[[tgc:Melee_weapons|Melee]]: Melee Damage, Melee Crit Chance, Melee Speed
+*[[tgc:Ranged_weapons|Ranged]]: Ranged Damage, Ranged Crit Chance, Ammo Consumption
+*[[tgc:Magic_weapons|Mage]]: Magic Damage, Magic Crit Chance, Mana Cost Reduction
+*[[tgc:Summon_weapons|Summon]]: Summon Damage, Minion Knockback, Minion Slots
+*[[Spy]]:  Spy Damage, Spy Crit Chance, Projectile Speed
+
+{| class="terraria" style="text-align:center"
+! width=60 | Level !! width=100 | Proficiency Required !! width=80 | Damage !! width=70 | Crit Chance !! width=60 | Melee Speed !! width=90 | Ammo consumption!! width=90 | Mana cost reduction !! width=90 | Minion Knockback !! width=60 | Minion slots !! width=90  | Projectile Speed
+|-
+| 1 || 100 || 1% || 0% || 0% || 0% || 0% || +0 || 0 || 0%
+|-
+| 2 || 300 || 2% || 0% || 0% || 0% || 0% || +0 || 0 || 0%
+|-
+| 3 || 600 || 2% || 0% || 1% || 0% || 1% || +0.3 || 0 || 1%
+|-
+| 4 || 1000 || 2% || 1% || 1% || 1% || 1% || +0.3 || 0 || 1%
+|-
+| 5 || 1500 || 2% || 1% || 1% || 2% || 2% || +0.6 || 0 || 2%
+|-
+| 6 || 2100 || 3% || 1% || 1% || 3% || 2% || +0.9 || 1 || 3%
+|-
+| 7 || 2800 || 3% || 2% || 2% || 3% || 2% || +1.2 || 1 || 3%
+|-
+| 8 || 3600 || 3% || 2% || 2% || 3% || 3% || +1.5 || 1 || 3%
+|-
+| 9 || 4500 || 4% || 2% || 2% || 4% || 3% || +1.5 || 1 || 4%
+|-
+| 10 || 5500 || 4% || 2% || 3% || 4% || 4% || +1.8 || 1 || 4%
+|-
+| 11 || 6600 || 4% || 3% || 3% || 4% || 4% || +2.1 || 1 || 4%
+|-
+| 12 || 7800 || 4% || 3% || 4% || 5% || 5% || +2.4 || 2 || 5%
+|-
+| 13 || 9100 || 5% || 3% || 4% || 5% || 5% || +2.7 || 2 || 5%
+|-
+| 14 || 10500 || 5% || 3% || 5% || 6% || 6% || +3 || 2 || 6%
+|-
+| 15 || 12500 || 6% || 3% || 6% || 6% || 6% || +3 || 2 || 6%
+|-
+| 16 || 14000 || 6% || 4% || 7% || 7% || 7% || +3.2 || 2 || 7%
+|-
+| 17 || 15500 || 6% || 4% || 8% || 8% || 8% || +3.2 || 2 || 7%
+|-
+| 18 || 17000 || 7% || 5% || 8% || 8% || 8% || +3.4 || 2 || 8%
+|-
+| 19 || 18500 || 8% || 5% || 9% || 9% || 9% || +3.5 || 3 || 8%
+|-
+| 20 || 20000 || 9% || 5% || 9% || 9% || 9% || +3.9 || 3 || 9%
+|-
+| 21 || 21000 || 10% || 6% || 10% || 10% || 10% || +4 || 3 || 9%
+|-
+| 22 || 23000 || 11% || 10% || 12% || 12% || 12% || +4.1 || 3 || 10%
+|-
+| 23 || 25000 || 13% || 12% || 16% || 16% || 16% || +4.5 || 4 || 12%
+|-
+| 24 || 28000 || 15% || 14% || 20% || 20% || 20% || +4.8 || 4 || 13%
+|-
+| 25 || 32000 || 17% || 16% || 22% || 22% || 22% || +5 || 5 || 14%
+|-
+| 26 || 35000 || 20% || 20% || 26% || 26% || 26% || +5.5 || 5 || 15%
+|-
+| 27 || 37500 || 27% || 27% || 30% || 30% || 30% || +5.8 || 6 || 16%
+|-
+| 28 || 40000 || 33% || 33% || 35% || 35% || 35% || +6 || 7 || 18%
+|-
+| 29 || 45000 || 38% || 38% || 40% || 40% || 40% || +6.8 || 8 || 20%
+|-
+| 30 || 50000 || 50% || 50% || 50% || 50% || 50% || +8 || 10 || 25%
+|-
+|}
+
+== Notes ==
+*Proficiency levels transfer between worlds when playing on the same character, allowing for the player to level up across multiple worlds.
+*If the player has a Level Meter equipped, the respective proficiency cooldown is halved.
+*[[Super Dummy|Super Dummies]] and [[Target Dummy|Target Dummies]] do not count towards the player gaining proficiency.
+*When the player levels up, a random firework is shot out from them and a [[status message]] appears in chat. A different status message appears if the player reaches the maximum level.
+*There is no proficiency for [[Throwing weapons]] or [[Classless weapons]].
+
+== Tips ==
+*Even for those not in the summoner class, having several summons is a decent DPS boost.
+
+{{Game mechanics}}
+[[Category:Game mechanics]]

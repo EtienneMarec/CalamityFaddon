@@ -1,0 +1,185 @@
+{{historical content}}{{npc infobox
+| name = The Old Duke
+| type = Boss
+| environment = Sulphurous Sea
+| ai = The Old Duke AI
+| life = {{dv|412,500|660,000|792,000}}
+| damage = {{dv|200|224|280|294}} (Contact in Phase 1)<br/>{{dv|192|268|336|352}} (Contact in Phase 2)<br/>{{dv|208|291|364|382}} (Contact in Phase 3)<br/>{{dv|150|240|264|276}} (Gore vomit)<br/>{{dv|280|400|boost=0.1}} (Vortex)
+| knockback = 100
+| defense = 100 (attacking)<br/>0 (exhausted)
+| dr = 50% / 0
+| debuff  = Irradiated
+| debufftip = Your skin is burning off
+| duration = 8 seconds
+| debuffchance = 100%
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Sulphuric Poisoning
+| immune4 = Irradiated
+| money = {{gc|70}}
+|group|At least one of the following 6 weapons will always drop:|6
+| Insidious Impaler|1|{{dv|25%|33.33%}}
+| Fetid Emesis|1|{{dv|25%|33.33%}}
+| Septic Skewer|1|{{dv|25%|33.33%}}
+| Vitriolic Viper|1|{{dv|25%|33.33%}}
+| Cadaverous Carrion|1|{{dv|25%|33.33%}}
+| Toxicant Twister|1|{{dv|25%|33.33%}}
+| Mutated Truffle|1|100%
+| The Reaper|1|10%
+| Sulfuric Scale|1|10%
+| Supreme Healing Potion|5-15|100%
+| Old Duke Mask|1|14.29%
+| Old Duke Trophy|1|10%
+| custom| {{item|Old Duke (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| image2 = The Old Duke map.png
+| image2caption = Map Icon
+| hurt = NPC_Hit_14.wav
+| killed = NPC_Killed_20.wav
+| sound = OldDukeRoar.wav
+| soundtext = Roar
+| sound2 = OldDukeVomit.wav
+| sound2text = Vomit
+| sound3 = OldDukeHuff.wav
+| sound3text = Huff
+| sound4 = OldDukeVortex.wav
+| sound4text = Vortex
+| hardmode = yes
+| postml = yes
+| listexclude = yes 
+}}<section end=npc infobox />
+[[File:Old Duke Trophy.png]] <big>''"The mutant terror of the seas was not alone..."''</big> [[File:Old Duke Trophy.png]]
+
+'''The Old Duke''' was a Godseeker Mode [[boss]] that could be fought in the [[Sulphurous Sea]] [[biome]] at any point in the game, but was intended to be fought after defeating [[Polterghast]]. It was later removed from the mod for not fitting the direction development was headed, instead becoming a reskin for [[Duke Fishron]] when summoned in the Sulphurous Sea,
+
+== Spawning ==
+The Old Duke could be spawned by finishing the [[Acid Rain]] event after Polterghast was defeated, appearing from a giant sulphurous tornado. It could also be summoned by [[fishing]] in the Sulphurous Sea with a [[Bloodworm]].
+
+== Behavior ==
+The Old Duke behaved similarly to [[Duke Fishron]] at its core, though most of its attacks were entirely unique {{Citation needed}} and featured distinct differences in behavior. When the Old Duke charged at the player, the direction it charged took the player's velocity at the time the charge began into account, aiming toward the player's predicted destination and potentially catching them off-guard.
+
+The Old Duke was normally very resilient, with high defense and DR. However, every 10 attacks, it ran out of stamina and became exhausted, pausing for 5 seconds before resuming its attacks. While exhausted, the Old Duke's defense and DR were reduced to zero, leaving it vulnerable to attack.
+
+If the player exited the Sulphurous Sea, the Old Duke charged at a much greater speed and distance.
+
+=== Attacks ===
+==== Phase 1 ====
+The Old Duke's attacks functioned on a set cycle, being performed in this repeating order:
+*Charged three times with short breaks in between, with the charge direction accounting for player's velocity at the time the charge began.
+*Spat five invulnerable '''Tooth Balls''' which targeted the player for 8 seconds, before turning themselves vulnerable and stationary after 10 seconds.
+**Killing the Tooth Ball, contacting it, or letting it live for 15 seconds caused the Tooth Ball to erupt into 4 and 8 homing teeth outward in a cross formation, along with a sulphur cloud at the center of the explosion.
+*Charged three more times, again accounting for the player's velocity.
+*Pulsed, and fired 2 groups of 5 vulnerable '''Sulphurous Sharkrons''', one group from the left and the other from right.
+**The Sulphurous Sharkrons exploded into 2 damaging {{item|OldDukeGore|nolink=yes|size=15px|Sulphurous Gore}} chunks when killed or upon tile contact.
+
+==== Phase 2 ====
+Transitioned at {{dv|50%||70%|80%}} health, becoming briefly invulnerable and firing 6 Sulphurous Sharkrons upward as it does so. Its charges and movement speed were faster, and its attack cycle was now modified:
+*Charged twice.
+*Flew in quick loops, spitting 5 Tooth Balls and forming a massive circular {{item|OldDukeVortex|nolink=yes|size=30px|Sulphurous Vortex}} which draws the player into and around it. The vortex lingers for a significant amount of time after this attack.
+*Charged twice again.
+*Summoned 2 groups of 5 Sulphurous Sharkrons along with vomiting a large amount of gravity-affected Sulphurous Gore chunks.
+*Gained a yellow glow in its eyes and some parts of his body.
+
+==== Phase 3 ====
+Transitioned at {{dv||20%|35%|50%}} health. The Old Duke became more translucent and green, temporarily gaining invincibility for its first two attacks. After it teleported the first time, it became vulnerable again.
+
+Its attack cycle during Phase 3 was the same as Phase 2, though its charges and movement speed were even faster. It also gained the ability to teleport to a location nearby the player before it started its charge series. The teleports did not count towards the Old Duke losing stamina. Additionally, the Old Duke charged three times before summoning the Sulphurous Vortex instead of twice.
+
+=== In [[Revengeance Mode]] ===
+*Switched between its attacks faster and had increased movement speed.
+*Charges were faster in velocity and occured more frequently.
+
+=== In [[Death Mode]] ===
+*Switched between its attacks even faster and had further increased movement speed.
+*Charges were even faster in velocity and occurred even more frequently.
+
+== Summons ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Sulphurous Sharkron
+| type = Enemy
+| ai = Sulphurous Sharkron AI
+| environment = Sulphurous Sea
+| life = {{dv|8,000|16,000}}
+| damage = {{dv|180|270|300|315}} (Contact)<br/>{{dv|150|240|264|276}} (Gore)
+| defense = 100
+| knockback = 100
+| debuff  = Irradiated
+| debufftip = Your skin is burning off
+| duration = 4 seconds (Contact)</br>3 seconds (Gore)
+| debuffchance = 100%
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Sulphuric Poisoning
+| immune4 = Irradiated
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| sound = NPC_Killed_19.wav
+| soundtext = Spawn
+| sound2 = NPC_Killed_12.wav
+| sound2text = Explode
+}}
+|{{npc infobox
+| name = Tooth Ball
+| namesub = Old Duke
+| image = Tooth Ball (Old Duke).png
+| type = Enemy
+| ai = Tooth Ball AI
+| environment = Sulphurous Sea
+| life = {{dv|5,000|10,000}}
+| damage = {{dv|180|270|300|315}} (Contact)<br/>{{dv|150|240|264|276}} (Homing tooth)<br/>{{dv|180|288|316|332}} (Sulphur cloud)
+| defense = 0
+| knockback = 100
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Sulphuric Poisoning
+| immune4 = Irradiated
+| hardmode = yes
+| postml = yes
+| debuff  = Irradiated
+| debufftip = Your skin is burning off
+| duration = 4 seconds
+| debuffchance = 100%
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_11.wav
+| sound = Item_14.wav
+| soundtext = Explode
+}}
+}}
+
+== Resistances ==
+*The Old Duke took decreased damage from some items and projectiles. It took:
+**40% damage from [[The Last Mourning]]'s projectiles.
+**50% damage from the ink fired by the [[Calamari's Lament]] minions.
+**55% damage from the [[Crescent Moon]]'s flail.
+**60% damage from the Crescent Moon's projectile and the explosions from the [[Bloodflare armor]]'s ranged blood bombs.
+**75% damage from the [[Soul Edge]]'s souls and [[Ethereal Subjugator]]'s minions.
+**80% damage from [[Time Bolt]], the explosions of the [[Lunar Flare]], [[Stellar Striker]], [[Stellar Contempt]] and the green [[Mad Alchemist's Cocktail Glove]] cocktails.
+
+== Aftermath ==
+* The [[Sea King]] started selling [[Bloodworm]]s.
+
+== Tips ==
+*Although the Old Duke ''is'' vulnerable during its attacks, it takes greatly reduced damage compared to the damage it takes while it is exhausted. Burst damage options such as [[Adrenaline]] and [[Rage]] in [[Revengeance Mode]] should be saved for when it runs out of stamina.
+**If the Old Duke is off-screen, listen for the distinct "huffing" sounds it makes while it is exhausted.
+*Dashing after the Old Duke's charges can help significantly with dodging them.
+
+== Trivia ==
+*The [[Music|theme]] that played during the Old Duke's battle was [https://www.youtube.com/watch?v=vY38TtlEPns '''Toxic Wisdom'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**If the Calamity Music add-on mod was disabled, '''Boss 1''' played instead.
+*The Old Duke was inspired by the [https://enterthegungeon.fandom.com/wiki/Old_King Old King] from ''[[wikipedia:Enter the Gungeon|Enter the Gungeon]]''.
+*The Old Duke was sometimes referred to as "Boomer Duke" in the mod's files, referencing the [[wikipedia:OK Boomer|meme]] in which older people are referred to as "[[wikipedia:Baby boomers|boomers]]".
+*The tornado that appeared when The Old Duke is summoned at the end of the Acid Rain was referred to as 'OverlyDramaticDukeSummoner' in the mod's files.
+*If the player attempted to summon the Old Duke using a multi-lined hook, such as the [[Early Bloom Rod]], it lead to multiple Old Dukes spawning in at once.
+**This was a homage to an oversight in vanilla Terraria, where multiple Duke Fishrons can be summoned using a fishing exploit.
+*The Old Duke was, on it's release, the only boss without a lore entry on the mod's official forum page.
+*The Old Duke was released on April 1st (April Fools Day) because Duke Fishron was also released on that day.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] was installed, his unique despawn message was "The old duke disappears amidst the acidic downpour."
+
+{{-}}
+{{Historical}}
+{{Master Template Characters
+|show-main = yes
+|show-boss = yes
+}}

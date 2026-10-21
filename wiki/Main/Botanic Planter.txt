@@ -1,0 +1,33 @@
+{{item infobox
+| name = Botanic Planter
+| auto = yes
+| type = Furniture
+| type2 = Crafting station
+| type3 = Light Source
+| placeable = Yes
+| width = 3
+| height = 3
+| stack = 9999
+| use = 14
+| tooltip = Used for special crafting
+| consumable = Yes
+| rare = 0
+| color = #BF8E6F 
+| sell = No value
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Botanic Planter''' is a Godseeker Mode [[crafting station]] used to craft the [[Furniture sets|Botanic furniture set]] themed around [[Uelibloom Bar|Uelibloom]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used to craft ===
+{{ajax|Recipes/Botanic Planter|width=40%}}
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[zh:植物培养器]]

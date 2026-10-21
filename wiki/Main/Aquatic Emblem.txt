@@ -1,0 +1,35 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| tooltip = Most ocean enemies become friendly and provides waterbreathing<br/>Being underwater slowly boosts your defense over time but also slows movement speed<br/>The defense boost and movement speed reduction slowly vanish while outside of water<br/>Maximum defense boost is 50, maximum movement speed reduction is 10%<br/>Provides a small amount of light in the abyss<br/>Moderately reduces breath loss in the abyss
+| rare = 5
+| sell = {{value|0|4|80}}
+| stack = 1
+| hardmode = yes
+}}
+|{{item drops infobox
+| [[Aquatic Scourge]]|1|100%
+}}
+}}
+
+The '''Aquatic Emblem''' is a [[Hardmode]] [[covering]] dropped by [[Aquatic Scourge]]. It grants underwater breathing, and prevents [[Crab]]s, [[Jellyfish|Pink Jellyfish]], [[Sea Snail]]s, [[Shark]]s, and [[Squid]]s from targeting or dealing damage to the player, while providing a [[defense]] boost while underwater and slowing the player down. The defense boost and movement speed reduction will slowly increase and cap out at +50 and -10% respectively. The boosts persist outside of water but will slowly diminish. Increases player light levels by +1, +10 to breath loss delay and -25% breath loss rate while in the [[Abyss]].
+
+== Recipes ==
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*It can be considered the upgrade to the [[Ocean Crest]], as it includes all of its effects while also adding the defense boost.
+*This item will not stack with the Ocean Crest or [[Gills]] [[buff]].
+*It takes roughly 83 seconds of being submerged to fully power up the defense boost and max out the speed reduction.
+*While in the [[Abyss]], equipping it will only slow the speed at which breath is lost, rather than stopping it from draining entirely.
+
+== See also ==
+*[[Ocean Crest]]
+{{-}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[zh:海波纹章]]
+[[Category:Movement coverings]]

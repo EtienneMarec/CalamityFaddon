@@ -1,0 +1,174 @@
+{{addon|Calamity: Community Remix}}{{npc infobox 
+| name = Destroyer of Sanity 
+| namesub = Phase 1 
+| type = Boss 
+| ai = Destroyer of Sanity AI 
+| life = {{dv|45,000|47,500|50,000}} 
+| defense = 60 
+| knockback = 50 
+| damage = {{dv|80|100|120}} (Contact)<br/>{{dv|100|110|125}} (Purple Laser)<br/>{{dv|80|100|120}} (Line Cross)<br/>{{dv|90|105|120}} (Spike Projectile)<br/>{{dv|100|110|125}} (Shadow Ball)
+| money = {{gc|50}} 
+| debuff = Chaos Tendril
+| debufftip = "You can feel tendrils poking into the darkest depths of your mind..." 
+| duration = Until player hits 1% HP 
+| immune1 = Confused
+| immune2 = Pearl Aura
+| vulnerable1 = Stab
+| vulnerable2 = Magic
+| vulnerable3 = Holy
+| resistant1 = Dark
+| resistant2 = Machine
+| resistant3 = Unholy
+| Pulsating Flesh |30–40|100% 
+| Soul of Might |30-45|100% 
+| Soul of Fright |30-45|100% 
+| Soul of Sight |30-45|100% 
+|group|At least one of the following 5 weapons will always drop:|5
+| Bleeding Influx|1|{{dv|25%|33.33%}}
+| Draftogen|1|{{dv|25%|33.33%}}
+| Fleshly Megaphone|1|{{dv|25%|33.33%}}
+| Neural Whipper-Snapper|1|{{dv|25%|33.33%}}
+| Hemorr-Rang|1|{{dv|25%|33.33%}}
+| custom| {{item|Brain of Cthulhu Mask}}|100% 
+| Brain of Cthulhu Trophy|1| 10%
+| custom| {{item|Destroyer of Sanity (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| custom| {{item|Treasure Bag (Destroyer of Sanity)|Treasure Bag|note=(Destroyer of Sanity)|wrap=y}}|100%
+| image2 = Destroyer Of Sanity Phase 1 (mapicon).png 
+| image2caption = Map Icon 
+}} 
+{{npc infobox 
+| name = Destroyer of Sanity 
+| namesub = Phase 2 
+| imagealt = [[File:Destroyer of Sanity (Phase 2).png]] 
+| type = Boss | ai = Destroyer of Sanity AI 
+| life = {{dv|45,000|47,500|50,000}} 
+| defense = 45 
+| knockback = 50 
+| damage = {{dv|80|100|120}} (Contact)<br/>{{dv|60|80|100}} (Gravity Barrage)<br/>{{dv|120|135|150}} (Neo Gravity Barrage)<br/>{{dv|100|115|120}} (Bouncy Projectile) 
+| money = {{gc|50}} 
+| debuff = Chaos Tendril
+| debufftip = "You can feel tendrils poking into the darkest depths of your mind..." 
+| duration = Until player hits 1% HP 
+| debuff2 = Confused
+| debufftip2 = "Movement is reversed" 
+| duration2 = {{dv|2|4}} seconds (Shadow Balls)
+| debuff3 = Obstructed
+| debufftip3 = "You can't see!" 
+| duration3 = 5 seconds (Shadow Pillars)
+| vulnerable1 = Stab
+| vulnerable2 = Magic
+| resistant1 = Dark
+| resistant2 = Machine
+| resistant3 = Unholy
+| resistant4 = Holy
+| image2 = Destroyer Of Sanity Phase 2 (mapicon).png 
+| image2caption = Map Icon 
+}} 
+The '''Destroyer of Sanity''' (Japanese: 正気の破壊者 ''Shōki no hakaimono'') is an optional [[Pre-Hardmode]] [[Challenges|Super-Challenge]] intended to be fought before the [[Wall of Flesh]] and will award the player by dropping a great amount of souls. It resembles the [[Brain of Cthulhu]], but evolved into something beyond human recognition. 
+
+==Spawn==
+The Destroyer of Sanity cannot spawn naturally and must be summoned by using the [[Fleshly Horn]] before defeating the [[Wall of Flesh]] in the [[Crimson]] or [[Corruption]] biome. 
+
+*If the Destroyer of Sanity have been defeated prior, it can be resummoned after defeating the [[Wall of Flesh]].
+
+==Behavior==
+When summoned, the Destroyer of Sanity immediately summons a '''Chaotic Podium''' below itself. The Chaotic Podiums can conjure a force field for the boss, increasing its [[defense]] and [[Damage Reduction|damage reduction]] to 9999 and 99% respectively, essentially making the Destroyer of Sanity immune to most attacks. The force field will be gone after destroying the Chaotic Podium. However, if there is no Chaotic Podium present, the Destroyer of Sanity summons another one every 6 / {{Death|4}} attack cycles. Only 1 Chaotic Podium can be out at a time.
+
+===Attacks===
+
+====Phase 1====
+During the 1st phase of the fight, the Destroyer of Sanity prefers to stay on top of the screen, hovering back and forth. It cycles through 3 attacks:
+
+*The boss fires out hoops of dark energies at the player, which then spiral out. The dark energies inflicts the '''Chaos Tendril''' debuff.
+*The boss shoots out bursts of laser beams, which are capable of bouncing to the player's current location 1 / {{Revengeance|2}} times.
+*The boss begins raining out spiked projectiles that explodes upon hitting any tiles.
+
+After the 4th cycle between these 3 attacks, it creates a bunch of white lines criss-crossing the player's screen, and then summons their mirages to cut through them moments after. Additionally, after doing the same attack thrice / {{Revengeance|twice}}, the Destroyer of Sanity performs an empowered version of the attack: 
+
+*'''Spiralling Dark Energies:''' The boss creates 3 swirling shadow balls that splits into 4 / {{Death|6}} spiralling dark energies. These dark energies will then explode into vertical black pillars, damaging anything caught in its way.
+* '''Laser Beams:''' The boss positions itself parallel to the player's horizontal axis and then charges at them, leaving behind explosive projectiles as it goes. After that, the Destroyer of Sanity finishes the attack off with a dark tracking laser that inflicts '''Chaos Tendril''' debuff.
+*'''Spike Rain:''' The boss begins lobbing out 3 / {{Death|5}} spiked ball, which are able to knock players around even with knockback immunity.
+
+==== Phase 2====
+
+After reaching 50% of its life, the Destroyer of Sanity instantly summons 6 podiums around itself, turns red, and begins the 2nd phase of the fight. In this phase, the boss can no longer summon extra Chaotic Podium if they're destroyed. Additionally, the Destroyer of Sanity no longer sticks to the top, instead moving similarly to the Brain of Cthulhu in its 2nd phase, albeit slowing down the closer it is to the player while not doing any attack. The Destroyer of Sanity also modifies its attacks to be more lethal, as follows:
+
+*The Swirling Shadow Ball attack inflicts the [[Confused]] debuff and its pillars inflict the [[Obstructed]] debuff now.
+*The Explosive Charge attack now fires 2 tracking lasers with delays at the end of the charge.
+*The Spike Rain's projectile can now bounce around up to 2 times, focusing on the player every bounce.
+Additionally, the Destroyer of Sanity gains 2 new attacks:
+*After every 8th cycle between the 3 aforementioned attacks, the boss goes on top and slams the player to the ground, slightly knocking them up into the air and disabling their wings for a short time. After that, the Destroyer of Sanity fires out lingering, gravity-affected projectiles.
+* After every 12th cycle between the 3 aforementioned attacks, the boss spews out 3 / {{Death|5}} dark eyes that encircles the player. The dark eyes attack independently of the brain, alternating firing at the player 1 / {{Revengeance|2}}, 2 / {{Revengeance|4}}, and 3 / {{Revengeance|6}} lasers in a spread with delays, and charging at them, one / {{Death|two}} at a time.
+
+===In [[Expert Mode]]===
+* The Destroyer of Sanity can now summon a '''Sacrumentic Screamer''' after every 6th / {{Death|3rd}} cycles between 3 of its main attacks. There can only be {{Expert|1}} / {{Revengeance|2}} Sacrumentic Screamers out at a time in phase 1, and {{Expert|2}} / {{Revengeance|4}} in the 2nd phase.
+** The Sacrumentic Screamers act similarly to [[The Hive Mind|Dank Creepers]], although every {{Expert|4}} / {{Revengeance|3}} seconds they will perform one of the following attacks:
+*** The Sacrumentic Screamers predict the player's movement, as indicated by a line, and then charge at them.
+***The Sacrumentic Screamers begin charging up a laser, and then fires it at the player, staying locked to the predicted spot.
+***The Sacrumentic Screamers bunch up, pointing at the player and serving as a meatshield for the Destroyer of Sanity.
+***The Screamers Screamers fire out a fast, ear-piercing soundwave that ignores both defense and DR.
+
+*The Destroyer of Sanity gains a new attack in the 2nd phase:
+**After every empowered attacks have been performed, the boss shifts the player's gravity sideways, and then fires tons of projectiles onto their spot. These projectiles are capable of inflicting the '''Chaos Tendril''' debuff. After the attack is done, the gravity shifts back to normal.
+
+===In [[Revengeance Mode]]===
+*The Chaotic Podium now slowly fires 3 lasers in a spread.
+* More lines are created in the criss-crossing attack. Additionally, it leaves behind lingering dark shadow ball that launches itself at the player.
+*The Sacrumentic Screamers gain a few new attacks:
+** In the Destroyer of Sanity's phase 2, it begins belching lingering Miasmic Breath, inflicting the [[Suffocation]] debuff to any players caught in it.
+**The Sacrumentic Screamers also begin firing out bouncing Cursed Ichor Ball, that bounces off tiles {{Revengeance|3}} / {{Death|4}} times, gaining higher velocity for every bounce.
+
+===In [[Death Mode]]===
+*The boss now leaves behind lingering flesh spikes for every 5% of its health lost.
+*Some of the Sacrumentic Screamers' attacks are modified to be more lethal, as follows:
+**The Miasmic Breath is larger, and is belched out for longer, resulting in more areas covered.
+**The Soundwave is now faster, larger and can now split into 5 smaller soundwaves that only ignores half the defense and DR.
+**The Sacrumentic Screamers can now turn slowly while firing lasers.
+**They now bite the player upon hitting them with the charge attack, healing the Destroyer of Sanity 7% of its max health.
+*The Sacrumentic Screamers gain a new attack:
+**In the Destroyer of Sanity's phase 2, it is now able to cough Burnt Blood that can stick to the ground and is able to inflict [[Burning Blood]] debuff.
+
+==Summons==
+{{infobox wrapper | direction = row | float = none
+| {{npc infobox
+| name = Chaotic Podium 
+| life = {{dv|2,000|2,500|3,000}} 
+| defense = 100 
+| knockback = 50 
+| damage = 0 (Contact)<br/>{{dv|80|100|120}} (Laser)}} 
+|{{npc infobox
+| name = Dark Eyes
+| life = {{dv|2,000|2,500|3,000}} 
+| defense = 25
+| knockback = 30 
+| damage = {{dv|30|60|90}} (Contact)<br/>{{dv|15|45|85}} (Lasers)}} 
+|{{npc infobox 
+| name = Sacrumentic Screamer
+| life = {{dv|4,000|5,500|7,000}} 
+| defense = 40 
+| knockback = 50 
+| damage = {{dv|60|120|180}} (Contact)<br/>{{dv|60|120}} (Burnt Blood)<br/>{{dv|30|60|90}} (Piercing Soundwave)<br/>{{dv|100|140|180}} (Dark Lasers)<br/>{{dv|50|100|150}} (Cursed Ichor Ball)
+| debuff = Suffocation
+| debufftip = Losing Life
+| duration = {{Revengeance|5}} / {{Death|8}} seconds (Miasmic Breath)
+| debuff2 = Cursed Inferno
+| debufftip2 = Losing Life
+| duration2 = {{Revengeance|7}} seconds (Cursed Ichor Ball)
+| debuff3 = Ichor (debuff)
+| debufftip3 = Defense reduced by 20
+| duration3 = {{Revengeance|7}} seconds (Cursed Ichor Ball)
+| debuff4 = Burning Blood
+| debufftip4 = Your blood is on fire
+| duration4 = {{Death|3}} seconds (Burnt Blood)}}
+}}
+==Tips==
+*Because its materials can not be used until [[Hardmode]], its drops are best saved until later on.
+
+==Trivia==   
+*The song heard during the battle with the Destroyer of Sanity is '''[https://www.youtube.com/watch?v=O_zPaC5xqns Threats of the Ocean Floor]''', which was made by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+*The [[Bestiary]] entry for Destroyer of Sanity: ''"The creature is terrifying. It tendrils into your mind, pulls out your darkest fears... but there's even worse. The creature itself has a hunger for destruction, and feeds off of the misery of creatures around it. The Destroyer Of Sanity drains the misery, pain, sadness, and negative thoughts out of people around it, eventually draining out their souls, turning the people into lifeless husks. It holds great power, and it seems to have ties with Chaos itself. The Destroyer is described as a beast that came straight from the darkest depths of Hell, and will stop at nothing to kill anything in its sight."''
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

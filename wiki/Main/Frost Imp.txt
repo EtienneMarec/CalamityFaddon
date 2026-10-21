@@ -1,0 +1,40 @@
+{{npc infobox
+| type = Enemy
+| ai = caster enemy AI
+| environment = Frozen Hell
+| life = {{dv|9,000|13,00}}
+| damage = {{dv|100|200}}
+| defense = 40
+| knockback = {{dv|75%}}
+| immune1 = Kami Flu
+| immune2 = Frostburn
+| debuff=Frostburn
+| debuffchance=100%
+| duration = 12 seconds
+| debufftip=It's either really hot or really cold. Either way it REALLY hurts
+| money = {{sc|2|0}}
+| Frozen Hellstone|6-8|100%
+| Icicle Ring|1|1%
+| banner = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_39.wav
+| vulnerable1 = Fire
+| vulnerable2 = Holy
+| resistant1 = Cold
+| resistant2 = Unholy
+}}
+
+The '''Frost Imp''' is a Godseeker Mode [[enemy]] that spawns in [[Frozen Hell]]. They will attack by casting 3 slow moving ice clusters, which quickly fire icicles at the player.
+
+Every third teleport will cause the Frost Imp to perform a special attack, in which they will begin to charge up a blizzard spell over their heads. As the spell is charging, a blizzard will start to form, increasing with density over time. If the spell or the Frost Imp is not destroyed within 20 seconds, the screen will flash white, and all nearby players will take 1/2 of their HP in damage, on top of being frozen for 12 seconds. 
+
+==Trivia==
+*Many aspects of the Frost Imp are references to the Game Deltarunes "Snowgrave" route.
+**The Icicle Ring works almost identically to the Thorn Ring, an item crucial to the route.
+**The blizzard spell is very reminiscent of the Snowgrave spell, as both are high damage snow storm attacks that freeze the enemy.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

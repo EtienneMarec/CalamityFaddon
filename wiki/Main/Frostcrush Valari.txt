@@ -1,0 +1,57 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 100
+| damagetype = Spy
+| rare = 7
+| stack = 1
+| sell = {{value|0|12}}
+| knockback = 12
+| use = 18
+| auto = yes
+| hardmode = yes
+| velocity = 15
+| critical = 20%
+| tooltip = Fires a long ranged boomerang that explodes into icicles on hit<br/>Stealth strikes throw three short ranged boomerangs along with a spread of icicles
+| debuff = Frostburn
+| debuffchance = 100%
+| debuffduration = 2 seconds
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuff2 = Crush Depth
+| debuffchance2 = 100%
+| debuffduration2 = 2 seconds (Boomerang)
+| debufftip2 = Aquatic pressure
+| debuff3 = Glacial State
+| debuffchance3 = 100%
+| debuffduration3 = 0.5 seconds (Boomerang)
+| debufftip3 = Cannot move and defense is shattered
+| proj = Valaricicle.png
+| projcaption = Large Valaricicle
+| proj2 = Valaricicle Small.png
+| proj2caption = Small Valaricicle
+| element1 = Cold
+| element2 = Slash
+| element3 = Stab
+}}
+
+The '''Frostcrush Valari''' is a craftable [[Hardmode]] [[Spy]] [[boomerang]] that is a direct upgrade to the [[Kylie]]. It automatically throws a slow-moving boomerang that travels a long distance before returning to the player. When contacting an [[enemy]], several gravity-affected ice shards will be released from the boomerang that deal 33% of the boomerang's base damage. Each boomerang inflicts the [[Frostburn]], [[Crush Depth]] and [[Glacial State]] [[debuffs]] onto enemies.
+
+Performing a [[stealth strike]] with the Frostcrush Valari will cause three boomerangs with much lower range to be thrown, alongside a spread of slow-moving icicles that deal 44% damage, are very lightly affected by gravity and shatter after about 3 seconds.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*A [[wikipedia:Valari|valari]] is a traditional throwing weapon used by the Tamil people of India.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Boomerangs]]

@@ -1,0 +1,53 @@
+{{item infobox
+| type = Tool
+| imagealt = [[File:Rod of Harmony.png]]
+| tooltip = Teleports you to the position of the mouse<br/>Has a chance to cause a random effect upon use<br/>Increases damage taken while Chaos State is active<br/>An ancient curse prevents the rod from being used (before Boss Rush is defeated)
+| use = 28
+| rare = 16
+| sell = {{value|0|32|0|0}}
+| stack = 1
+| debuff = Chaos State 
+| debuffduration = 15 seconds
+| debufftip = Rod of Discord teleports are disabled
+| debufflink = yes
+| debuffchance = 100%
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Rod of Harmony''' is a Vanilla Godseeker Mode [[tool]] obtained by [[Exhuming]] the [[Rod of Discord]]. It functions identically to the Rod of Discord, instantly teleporting the player to the location of cursor when used. The 'Calamity Mod' puts heavy modifications onto the item for the sake of balancing it with its newly added content:
+* Cannot be used until [[Boss Rush]] has been cleared once
+* Inflicts [[Chaos State]] when used, while under it, the following effects occur:
+** The Rod of Harmony cannot be used again
+** Reduces the player's damage by 30%
+** Causes the player's vertical velocity to rapidly accelerate
+* Has a 20% chance to initiate one of the following effects upon teleportation:
+**Summoning [[The Devourer of Gods]] in his second phase.
+**Summoning an [[Armored Digger]].
+**Launches the player upwards.
+**Plays the scream sound effect from the [[Death Whistle]].
+**Drops a stick of {{item|Dynamite}} that splits into 4 more pieces, which then split into 4 more pieces for a total of 21 pieces of Dynamite.
+**Dropping a [[Leviathan]] meteor from the sky which passes through tiles and deals {{dv|260|520}} damage to the player.
+**Inflicting [[Distorted]] for 60 seconds.
+**Reducing the player's maximum life by 10% until dying.
+**Instantly killing a single non-boss enemy.
+**Changing the world's difficulty mode at random while not fighting a boss.
+**Doubling the player's [[Coins|coin]] count. 
+**Increasing minion slots by 30 until Chaos State ends.
+**Spawning a [[Coldheart Icicle]].
+**Shooting several bursts of [[Musket Ball]]s towards the cursor.
+**Creating a spread of random solution projectiles in random directions from the player.
+{{-}}
+== Trivia ==
+* Many of the Rod of Harmony's chance-based effects are references to features from older versions of the mod:
+** The summoning of The Devourer of Gods and scream effects are references to the [[Cosmic Plushie]]'s effects under darkness.
+** Unlike the [[Rod of Discord]] or other items introduced by the Calamity mod that inflict the [[Chaos State]] debuff upon usage, the Rod of Harmony upon usage in any layer of the [[Abyss]] will instead kill the player instantly, displaying a stretched-out, low-resolution image of the [[Adult Eidolon Wyrm]] across the screen while a rendition of the popular organ piece, "Toccata and Fugue in D minor" plays.
+*** This is likely a reference to the popular internet bait-and-switch [https://knowyourmeme.com/memes/blue-lobster meme] where a memetic character and image macro of a blue lobster appears as a jumpscare at the end of viral videos.
+** The dropping of Dynamite is a reference to when using [[Yharim's Crystal]] before [[Jungle Dragon, Yharon]] had been defeated causing the weapon to drop Dynamite.
+*** Additionally, the splitting is a reference to an April Fools video made by one of the developers, where update [[1.5.0.001]] had supposedly been leaked, but the only added feature was [[Bomb]]s infinitely multiplying when dropped.
+** The meteor is a reference to a similar feature that occurred when talking to the [[Nurse]] in [[Revengeance Mode]].
+** The launching upwards is a reference to how [[Supreme Calamitas]] launched players upwards when fought [[underground]].
+* The Musket Ball effect is a reference to the [[Halibut Cannon]].
+{{Master Template Tools
+| show-other = yes
+}}

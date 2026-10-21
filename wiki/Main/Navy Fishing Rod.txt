@@ -1,0 +1,33 @@
+{{item infobox
+| type = Tool
+| stack = 1
+| use = 7
+| fish = 20
+| rare = 2
+| tooltip = While held, slowly electrifies nearby enemies.<br/>The sea is a city.<br/>Just below are highways, boulevards, streets and roundabouts bustling with submarine traffic.
+| sell = {{value|0|0|40}}
+| proj = Navy Fishing Rod (bobber).png
+| projcaption = Bobber
+| element1 = water
+| element2 = magic
+}}
+
+The '''Navy Fishing Rod''' is a craftable [[Pre-Hardmode]] [[fishing rod]]. While held with the bobber deployed, enemies near the player are slightly damaged, and emit damaging electric sparks, on short semi-random intervals.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The electric aura has a radius of roughly 13 blocks, and has a base damage of 10. The electric sparks have a base damage of 5.
+
+== Trivia ==
+*The Navy Fishing Rod's tooltip is a reference to the book ''[[wikipedia:Life of Pi|Life of Pi]]''.
+{{-}}
+{{Sea Prism}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}

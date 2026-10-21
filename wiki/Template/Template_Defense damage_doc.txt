@@ -1,0 +1,16 @@
+Places a captioned and linked symbol of broken armor. Used to indicate attacks that inflict [[defense damage]], placed after damage values and attack name in NPC infoboxes.
+
+== Usage ==
+<code><nowiki>{{defense damage}}</nowiki></code> gives:
+{{defense damage}}
+
+=== Example ===
+<code><nowiki>{{dv|100|boost=1}} (Contact) {{defense damage}}</nowiki></code> gives:
+{{dv|100|boost=1}} (Contact) {{defense damage}}
+
+<includeonly>
+[[Category:Icon templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>

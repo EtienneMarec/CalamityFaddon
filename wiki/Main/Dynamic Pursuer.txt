@@ -1,0 +1,46 @@
+{{item infobox
+| type = Weapon
+| damagetype = Spy
+| damage = 3100
+| use = 40
+| knockback = 3
+| velocity = 25
+| extraUpdates = 1
+| tooltip =  A weapon that, as it flies, processes calculations and fires electricity<br/>Releases a flying disk that fires electricity at nearby enemies<br/>Stealth strikes allow the disk to ricochet multiple times and unleash an electric explosion, then fire inaccurate lasers while returning
+| stack = 1
+| research = 1
+| auto = yes
+| rare = a
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| proj = Plasma Explosion Large.gif
+| projcaption = Large Plasma Explosion
+| projsize = 210px
+| sound = Item 1.wav
+| soundtext = Use
+| sound2 = Item 12.wav
+| sound2text = Laser
+| sound3 = FlareSound.wav
+| sound3text = Explosion
+| element1 = Fire
+| element2 = Slash
+}}
+
+The '''Dynamic Pursuer''' is a craftable Godseeker Mode non-consumable [[Spy]] [[boomerang]] which is an upgrade to the [[Tracking Disk]]. When used, it throws a high-velocity boomerang which returns on hit or after 0.75 seconds. It initially moves slowly upon returning, but gradually accelerate until it reaches the player. While returning to the player, the boomerang fires blue-pink electric bolts at its closest enemy in a 30-tile radius, increasing in firing rate the faster the boomerang is moving. The electric bolt moves through solid tiles, pierces once, has a small area of effect, and deal 25% of the weapon's damage.
+
+Performing a [[stealth strike]] with the Dynamic Pursuer will cause the next boomerang thrown to ricochet towards the closest enemy within a 62.5-tile radius. During the ricochet, it fires electric bolts at its closest enemy. It is able to hit up to four times before returning to the player, spawning a massive plasma explosion on the fourth hit. Additionally, the boomerang also fires two lasers in random directions alongside the electric bolts when returning back to the player. The laser moves through solid tiles, cannot pierce, has a small area of effect, and deal 3.6% of the weapon's damage. Electric bolts deal 3% of the weapon's damage. The boomerang and explosion each deal 12% of the weapon's damage.
+
+{{Modifier|Spy}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+<!-- Disclaimer: Not Draedon's Arsenal -->
+{{Master Template Weapons
+|show-main = yes
+|show-Spy = yes
+}}
+[[Category:Boomerangs]]

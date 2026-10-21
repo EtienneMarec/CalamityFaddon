@@ -1,0 +1,116 @@
+{{npc infobox
+| type = Burrowing Enemy
+| environment = Cavern
+| ai = Armored Digger AI
+| life = {{dv|20,000|40,000||60,000}}
+| knockback = 100
+| money = {{value|0|5}}
+| Draedon's Remote |1| 33.33%
+|group|At least one of the following 3 weapons will always drop:|3
+| Eye of Excavator|1|33.33%
+| Reloadable Rapid-Fire Shooter|1|33.33%
+| Energized Scrap Spikes|1|33.33%
+| Demonic Bone Ash|2-4| 100%
+| Mysterious Circuitry|4-8|100%
+| Dubious Plating|4-8|100%
+| immuneall = true
+| listexclude = yes
+| hardmode = yes
+| boxwidth = 27em
+| banner = yes
+| hurt = NPC_Hit_4.wav
+| killed = NPC_Killed_14.wav
+| sound = Roar_1.wav
+| soundtext = Digging
+| sound2 = Item_13.wav
+| sound2text = Scrap
+| resistant1 = Machine
+}}
+The '''Armored Digger''' is a [[Digger]] that's armored, it has been armored because it is armored, also it is armored[[mini boss]] that appears in the [[Cavern]] layer after [[Plantera]] has been defeated. It behaves similarly to [[The Destroyer]], charging at the direction at the player continuously until turning around to ram again. The worm will also occasionally fire yellow falling scraps which will linger for a bit until disappearing. It drops [[Demonic Bone Ash]] and the [[Draedon's Remote]], along with [[Dubious Plating]] and [[Mysterious Circuitry]].
+
+When an Armored Digger spawns, the message ''"Armored Digger has awoken!"'' will be displayed. The Armored Digger will despawn when the player leaves the underground layer.
+
+(Draedon's Remote will be removed in upcoming calamity mod update.)
+
+== Segments ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Armored Digger Head
+| ai = Worm AI
+| life = {{dv|20,000|40,000||60,000}}
+| damage = {{dv|90|boost=0.15}}
+| defense = 15
+| dr = 15
+| vulnerable1 = Water
+| vulnerable2 = Fire
+| resistant1 = Poison
+| resistant2 = Cold
+| resistant3 = Magic
+| knockback = 100
+| hardmode = yes
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Armored Digger Body
+| ai = Worm AI
+| life = {{dv|20,000|40,000||60,000}}
+| damage = {{dv|70|140}} (contact)<br/>{{dv|60|120}} (scraps)
+| defense = 40
+| dr = 25
+| vulnerable1 = Water
+| vulnerable2 = Fire
+| resistant1 = Poison
+| resistant2 = Cold
+| resistant3 = Magic
+| knockback = 100
+| hardmode = yes
+}}
+|{{npc infobox
+| type = Burrowing Enemy
+| name = Armored Digger Tail
+| ai = Worm AI
+| life = {{dv|20,000|40,000||60,000}}
+| damage = {{dv|55|110}}
+| defense = 55
+| dr = 35
+| vulnerable1 = Water
+| vulnerable2 = Fire
+| resistant1 = Poison
+| resistant2 = Cold
+| resistant3 = Magic
+| knockback = 100
+| hardmode = yes
+}}
+}}
+
+== Notes ==
+*Armored Diggers do not replace [[Digger]]s, despite the latter replacing [[Giant Worm]]s earlier in the game.
+*Armored Diggers do not spawn when the player is inside a [[Dungeon]] or a [[Jungle Temple]].
+*Armored Diggers use a custom spawn rate. As such, it can only be modified by a select few spawn rate changes.
+**After spawning, it cannot be spawned again for 60 seconds. This cooldown cannot be affected by any means.
+**Its base spawn rate is 0.001% (1 in 100,000) every frame. Its spawn rate can be multiplicatively modified by the following:
+***[[Death Mode]] during a [[Blood Moon]]: 5x
+***[[Zerg Potion]]: 2x
+***[[Chaos Candle]]: 1.67x
+***[[Battle Potion]]: 1.43x
+***Death Mode: 1.33x
+***[[Water Candle]]: 1.25x
+***[[Revengeance Mode]]: 1.18x
+***[[Peace Candle]]: 0.8x
+***[[Calming Potion]]: 0.7x
+***[[Tranquility Candle]]: 0.6x
+***[[Zen Potion]]: 0.5x
+***[[Boss Zen]]: 0.02x
+
+== Tips ==
+*As with most worm-type enemies, weapons or ammo with no piercing are the most effective at killing Armored Diggers.
+
+== Trivia ==
+*One of its previous sprites was intended for [[The Devourer of Gods]], but was repurposed due to it being too small.
+*In the Japanese translation, the name is "装甲掘削機 ''Sōkō kussaku-ki''"
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

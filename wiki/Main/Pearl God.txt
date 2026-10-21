@@ -1,0 +1,53 @@
+{{item infobox
+| type = Weapon
+| stack = 1
+| damagetype = ranged
+| auto = yes
+| damage = 32
+| knockback = 3
+| rare = 8
+| sell = {{value|0|12}}
+| use = 20
+| tooltip = Your life is mine...<br/>Fires shockblast rounds that emit massive explosions and steal enemy life as well as additional bullets<br/>Every seventh shot fires a massive shockblast
+| velocity = 12
+| hardmode = yes
+| debuff=Glacial State
+| debufftip=Cannot move and defense is shattered
+| debuffduration=4 seconds (Frostspark bullet)
+| debuffchance=100%
+| debuff2=On Fire!
+| debufftip2=Losing life
+| debuffduration2=8 seconds (Frostspark bullet)
+| debuffchance2=100%
+| debuff3=Frostburn
+| debufftip3=It's either really hot, or really cold, but it REALLY hurts
+| debuffduration3=8 seconds (Frostspark bullet)
+| debuffchance3=100%
+| proj = Shockblast Round.png
+| projcaption = Shockblast Round
+| element1 = Holy
+| element2 = Water
+| element3 = Machine
+}}
+
+The '''Pearl God''' is a craftable [[Hardmode]] [[gun]]. On its first and second uses, it fires a shockblast round that [[lifesteal|heal]]s the player, along with two of which ever [[ammo]] is being used in a spread. On its third, fourth, fifth, and sixth uses, shockblasts continue to be shot, with the normal bullet spread continuously increasing along with more being shot. On its seventh use, only a shockblast is shot which has double damage and knockback. Shockblasts create harmless dust explosions on impact, with each use increasing the size of it, and the final shot creating a colossal explosion. After the seventh use, the weapon resets.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The tooltip of the weapon is a reference to the [https://borderlands.fandom.com/wiki/Aries Aries] revolver from ''[[wikipedia:Borderlands (video game)|Borderlands]]''. The name of the weapon is likely a reference to the [https://borderlands.fandom.com/wiki/Pearlescent Pearlescent] rarity type.
+*It was formerly the [[rare variant]] of the [[Aeries]].
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]
+[[Category:Healing items]]

@@ -1,0 +1,131 @@
+{{item infobox
+| type = Grab bag
+| type2 = Furniture
+| auto = yes
+| placeable = Yes
+| width = 2
+| height = 2
+| stack = 9999
+| consumable = True
+| use = 14
+| rare = 2
+| color = #2F425A
+| sell = {{value|0|1}}
+| hardmode = yes
+}}
+
+The '''Astral Crate''' is a [[Fishing]] [[Crate]] variant that can only be hooked in the [[Astral Infection]]. The crate contains several items based originally in the Astral Infection, including weapons and boss drops. Several of the crate's drops are locked behind [[Astrum Aureus]] and [[Astrum Deus]].
+
+== Drops ==
+{| class="terraria lined"
+! Item !! Quantity !! Chance
+|-
+| {{item|Fallen Star}}
+|rowspan="2" | 5-10
+|rowspan="2" | 100%
+|-
+| {{item|Stardust}}
+|-
+| {{item|Aureus Cell|size=19px}}
+| 2-5
+| 20%<br/><small>( Post - {{item|mode=image|Astrum Aureus map|link=Astrum Aureus|size=18px}} )</small>
+|-
+| {{item|Astral Ore}}
+|rowspan="2" | 10-20
+| 20%<br/><small>( Post - {{item|mode=image|Astrum Deus map|link=Astrum Deus|size=18px}} )</small>
+|-
+| {{item|Meteorite}}
+| 20%
+|-
+| {{item|Astral Bar|size=28px}}
+| rowspan="2" | 1-3
+| 10%<br/><small>( Post - {{item|mode=image|Astrum Deus map|link=Astrum Deus|size=18px}} )</small>
+|-
+| {{item|Meteorite Bar}}
+| 10%
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Meld Blob|size=28px}}
+|style="border-bottom: 1px solid #CCCCCC;" | 5-10
+|style="border-bottom: 1px solid #CCCCCC;" | 25%<br/><small>( Post - {{item|mode=image|Astrum Deus map|link=Astrum Deus|size=18px}} )</small>
+|-
+| {{item|Stellar Knife|size=29px}}
+|rowspan="7" style="border-bottom: 1px solid #CCCCCC;" | 1
+|rowspan="7" style="border-bottom: 1px solid #CCCCCC;" | 10%<br/><small>( Post - {{item|mode=image|Astrum Aureus map|link=Astrum Aureus|size=18px}} )</small>
+|-
+| {{item|Astralachnea Staff|size=30px}}
+|-
+| {{item|Titan Arm|size=30px}}
+|-
+| {{item|Hive Pod|size=30px}}
+|-
+| {{item|Astral Scythe|size=30px}}
+|-
+| {{item|Stellar Cannon|size=32px}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Starbuster Core|size=24px}}
+|-
+| {{item|Obsidian Skin Potion}}
+|rowspan="10" style="border-bottom: 1px solid #CCCCCC;" | 1-3
+|rowspan="8" | 10%
+|-
+| {{item|Swiftness Potion}}
+|-
+| {{item|Ironskin Potion}}
+|-
+| {{item|Night Owl Potion}}
+|-
+| {{item|Shine Potion}}
+|-
+| {{item|Mining Potion}}
+|-
+| {{item|Heartreach Potion}}
+|-
+| {{item|Dangersense Potion}}
+|-
+| {{item|Gravity Normalizer Potion}}
+| rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 25%<br/><small>( Post - {{item|mode=image|Astrum Aureus map|link=Astrum Aureus|size=18px}} )</small>
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Astral Injection}}
+|-
+| {{item|Healing Potion}}
+|rowspan="2" style="border-bottom: 1px solid #CCCCCC;" | 2-5
+| 50%
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Mana Potion}}
+|style="border-bottom: 1px solid #CCCCCC;" | 50%
+|-
+| {{item|Firefly}}
+|rowspan="4" style="border-bottom: 1px solid #CCCCCC;" | 1-3
+| 33.33%
+|-
+| {{item|Enchanted Nightcrawler}}
+|rowspan="3" style="border-bottom: 1px solid #CCCCCC;" | 20%
+|-
+| {{item|Twinkler}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Arcturus Astroidean}}
+|-
+|style="border-bottom: 1px solid #CCCCCC;" | {{item|Astrophage}}
+|style="border-bottom: 1px solid #CCCCCC;" | 1
+|style="border-bottom: 1px solid #CCCCCC;" | 10%
+|-
+| {{item|Silver Coin}}
+| 10-90
+| 100%
+|-
+| {{item|Gold Coin}}
+| 1-5
+| 50%
+|}
+
+== Notes ==
+*Astral Crates drop different tiers of healing and mana potions depending on what bosses have been defeated:
+**Healing and Mana potions are dropped normally.
+**Greater Healing and Mana potions are dropped if any [[Mechanical Boss]] has been defeated.
+**Super Healing and Mana potions are dropped if [[Providence, the Profaned Goddess]] has been defeated.
+**Supreme Healing and Mana potions are dropped if The [[Devourer of Gods]] has been defeated.
+
+{{Master Template Consumables
+| show-main = yes
+| show-other = yes
+}}

@@ -1,0 +1,43 @@
+{{addon|Cataclysm}}
+{{item infobox
+| type = Weapon
+| tooltip = A ruined Water Bolt</br>May be part of something greater
+| damage = 21
+| damagetype = magic
+| mana = 12
+| use = 30
+| knockback = 5.5
+| rare = 0
+| sell = {{value|0|0|0|1}}
+| auto = yes
+| velocity = 7.5
+| stack = 1
+| type2 = Crafting material
+| debuff = Electrified
+| debuffchance = 100%
+| debuffduration = 1 seconds
+| debufftip = Slowly losing life
+| proj = Salt Water Bolt (projectile).png
+| projcaption = Salt Water Bolt
+| element1 = Water
+| element2 = Poison
+}}
+
+The '''Salt Water Bolt''' is a craftable [[spell tome]] that auto-fires a ball of salt water that inflicts the [[Electrified]] [[debuff]]. The projectile acts similarly to the [[Water Bolt]], except the projectile falls to the ground after 2 seconds and does not rebound.
+
+{{Modifier|magic}}
+
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+===Used in===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The ability for the weapon to inflict Electrified is a reference to the conductivity of saltwater.
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

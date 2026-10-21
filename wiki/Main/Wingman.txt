@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| auto = yes
+| damagetype = magic
+| damage = 49
+| mana = 12
+| knockback = 3
+| velocity = 25
+| tooltip = Fires a concentrated laser beam
+| rare = 8
+| sell = {{value|0|16}}
+| use = 15
+| stack = 1
+| hardmode = yes
+| element1 = Magic
+}}
+|{{item drops infobox
+| [[Martian Walker]]|1| {{dv|14.29%|25%}}
+}}
+}}
+
+The '''Wingman''' is a [[Hardmode]] [[magic gun]] that auto-fires sets of three overlapping laser beams which do not pierce enemies. It is dropped by [[tgc:King_Slime|King Slime]] and two are required to craft the [[Alpha Ray]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*A [[wikipedia:Wingman|wingman]] is a supporting pilot that protects the main aircraft. This is seen in the appearance of the [[Alpha Ray]], where two of it are situated alongside the [[Genisis]].
+*The Wingman was implemented based on a community suggestion made by Gouvod on the mod's Terraria Forums post.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category:Magic guns]]

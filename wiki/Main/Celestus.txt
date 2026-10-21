@@ -1,0 +1,70 @@
+{{item infobox
+| type = Weapon
+| damage = 280
+| use = 21
+| damagetype = Spy
+| knockback = 6
+| auto = yes
+| velocity = 25
+| stack = 1
+| rare = 15
+| tooltip = Throws a disk that splits into multiple disks on enemy hits<br/>Stealth strikes reverse direction and home in on enemies after returning to the player
+| sell = {{value|0|30}}
+| hardmode = yes
+| postml = yes
+| debuff = Exo Freeze
+| debuffduration = 0.5 seconds
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 2 seconds
+| debuffchance2 = 100%
+| debuff3 = Frostburn
+| debuffduration3 = 2.5 seconds
+| debuffchance3 = 100%
+| debuff4 = On Fire!
+| debuffduration4 = 3 seconds
+| debuffchance4 = 100%
+| proj = Phantom Blade.png
+| projcaption = Phantom Blade
+| element1 = Cold
+| element2 = Fire
+| element3 = Slash
+| element4 = Machine
+}}
+
+The '''Celestus''' is a craftable Godseeker Mode [[Spy]] [[boomerang]]. It rapidly throws high velocity disks which can pierce through infinite enemies and pass through tiles. Each time the thrown disk strikes a target, it emits a dozen double-edged phantom blades outward from the point of impact. The phantom blades deal 70% of the disk's damage and can also pierce infinite enemies and pass through tiles, but cannot create even more blades by themselves.
+
+Performing a [[stealth strike]] with the Celestus causes the resulting disk to rebound inaccurately when returning to the player, homing into the nearest enemy but no longer pierces. The disk will not return to the player for the second time when rebounding.
+
+When Celestus or any of its phantom blades hit an enemy, they will inflict the following [[debuffs]]:
+*[[Exo Freeze]] (0.5 seconds)
+*[[Holy Flames]] (2 seconds)
+*[[Frostburn]] (2.5 seconds)
+*[[On Fire!]] (3 seconds)
+
+{{Modifier|Spy}}
+
+== Crafting ==
+{{dablink|For a full crafting tree, see [[Celestus/Crafting tree|here]].}}
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{-}}
+
+== Notes ==
+*The Celestus only deals 90% damage to [[Supreme Calamitas]]' Supreme Soul Seekers.
+
+== Tips ==
+*This weapon greatly benefits from [[Nanotech]]. Every time it splits on enemy contact, each projectile can spawn the homing blades.
+
+== Trivia ==
+*"Celestus" is the name of a genus of [[lizard]]s native to Jamaica commonly known as Galliwasps.
+{{-}}
+{{Exo}}
+{{Master Template Weapons
+| show-main = yes
+| show-Spy = yes}}
+[[Category:Boomerangs]]

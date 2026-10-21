@@ -1,0 +1,34 @@
+{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = 5% increased movement and jump speed<br/>+20 max life and mana<br/>Standing still boosts life and mana regen<br/>Increased defense, movement speed and damage reduction while submerged in liquid<br/>Enemies take damage when they hit you<br/>You emit a cloud of mushroom spores when you are hit<br/>10% increased damage reduction<br/>3% reduced stealth costs<br>5% of the damage from enemy attacks is absorbed and converted into healing
+| rare = 9
+| sell = {{value|0|16}}
+| defense = 10
+| stack = 1
+| hardmode = yes
+| proj = Truffle Spore.gif
+| projcaption = Mushroom Spore
+| element1 = Poison
+}}
+
+'''The Absorber''' is a craftable [[Hardmode]] [[covering]]. When equipped, it grants the effects of all its component coverings, along with the added effect of healing the player for 1/20 of the damage from incoming attacks.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The item does not grant the speed boost from the [[Giant Shell]] or the defense boost from [[Rover Drive]].
+*While all of the ingredients can be obtained as soon as [[Calamitas]] is defeated, the Lunatic Cultist must also be defeated to obtain the [[Ancient Manipulator]].
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[zh:阴阳吸星石]]
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

@@ -1,0 +1,191 @@
+{{addon|Deimos, the Starborn Princess}}
+{{npc infobox
+| image = Elemental Spawns.png
+| type = Flying Enemy
+| listexclude = yes
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_14.wav
+}}
+
+'''Elemental Spawns''' are a group of Godseeker Mode enemies that are found in various [[biome]]s. They come in five varieties:
+
+*One for the Cold and Water elements, that create a cross-shaped burst of {{dv|4|||6}} {{item|Ice Blast|s|link=}} and spawn in the [[Ocean]], [[Snow biome]], [[Sunken Sea]], and [[Frozen Hell]].
+*One for the Fire and Unholy elements, that fire {{item|BrimstoneHellblast|nolink=yes|ext=gif|size=22px|Brimstone Hellblasts}} at the player and spawn in [[The Underworld]], [[Crimson]], [[Corruption]], and the [[Brimstone Crag]]
+*One for the Poison and Dark elements, that fire {{dv|2|||3}} Plague Nuke Missiles at the player and spawn in the [[Jungle]], [[Sulphurous Sea]], and the [[Abyss]].
+*One for the Stab and Slash elements, that aggressively approach and charge at the player and spawn in the [[Dungeon]], [[Desert]], and the [[The Exosphere]].
+*One for the Magic and Holy elements, that create homing {{item|HolyFire2|nolink=yes|ext=gif|size=16px|Holy Flames}} and spawn in the [[Hallow]], [[Space]], and the [[Astral Infection]].
+
+== Variations ==
+
+{{infobox wrapper|direction=row|float=none
+|{{npc infobox
+| imagealt = [[File:Primordial_Ice_Spawn.png]]
+| name = Primordial Ice Spawn
+| type = Flying Enemy
+| damage = {{dv|75|125}}
+| knockback = 100
+| ai = Primordial Ice Spawn AI
+| life = {{dv|7,500|15,000}}
+| defense = 35
+| dr = 10
+| hardmode = yes
+| postml = yes
+| banner = no
+| money = {{gc|1}}
+| debuff = Crush Depth
+| debufftip = Aquatic pressure 
+| debuffchance = 50%
+| duration = {{dv|2|||3}} seconds
+| debuff2 = Glacial State
+| debufftip2 = Cannot move and defense is shattered 
+| debuffchance2 = 50%
+| duration2 = {{dv|2|||3}} seconds
+| immune1 = Confused
+| immune2 = Frostbite
+| immune3 = Frostburn
+| immune4 = Glacial State
+| immune5 = Crush Depth
+| immune6 = Eutrophication
+| resistant1 = Cold
+| resistant2 = Water
+| vulnerable1 = Fire
+| Core of Eleum|3-5| 100%
+| Orb of Myst|3-5| 100%
+| sound = Item_28.wav
+| soundtext = Shoot
+}}
+|{{npc infobox
+| imagealt = [[File:Primordial_Hell_Spawn.png]]
+| name = Primordial Hell Spawn
+| type = Flying Enemy
+| damage = {{dv|75|125}}
+| knockback = 100
+| ai = Primordial Hell Spawn AI
+| life = {{dv|7,500|15,000}}
+| defense = 35
+| dr = 10
+| hardmode = yes
+| postml = yes
+| banner = no
+| money = {{gc|1}}
+| debuff = Brimstone Flames
+| debufftip = Rapid health loss 
+| debuffchance = 100%
+| duration = {{dv|2|||3}} seconds
+| immune1 = Confused
+| immune2 = On Fire!
+| immune3 = Hellfire
+| immune4 = Brimstone Flames
+| immune5 = Vulnerability Hex
+| immune6 = Hell Judgement
+| resistant1 = Fire
+| resistant2 = Unholy
+| vulnerable1 = Water
+| vulnerable2 = Holy
+| Orb of Surt|3-5| 100%
+| Core of Chaos|3-5| 100%
+| sound = BrimstoneHellblastSound.wav
+| soundtext = Shoot
+}}
+|{{npc infobox
+| imagealt = [[File:Primordial_Wither_Spawn.png]]
+| name = Primordial Wither Spawn
+| type = Flying Enemy
+| damage = {{dv|75|125}}
+| knockback = 100
+| ai = Primordial Wither Spawn AI
+| life = {{dv|7,500|15,000}}
+| defense = 35
+| dr = 10
+| hardmode = yes
+| postml = yes
+| banner = no
+| money = {{gc|1}}
+| debuff = Plague
+| debufftip = Rotting from the inside
+| debuffchance = 50%
+| duration = {{dv|2|||3}} seconds
+| debuff2 = Irradiated
+| debufftip2 = Your skin is burning off 
+| debuffchance2 = 50%
+| duration2 = {{dv|2|||3}} seconds
+| immune1 = Confused
+| immune2 = Acid Venom
+| immune3 = Plague
+| immune4 = Poisoned
+| immune5 = Irradiated
+| resistant1 = Poison
+| resistant2 = Dark
+| Core of Babil|3-5| 100%
+| Orb of Zot|3-5| 100%
+| sound = Item_42.wav
+| soundtext = Shoot
+}}
+|{{npc infobox
+| imagealt = [[File:Primordial_Impact_Spawn.png]]
+| name = Primordial Impact Spawn
+| type = Flying Enemy
+| damage = {{dv|85|140}}
+| knockback = 100
+| ai = Primordial Impact Spawn AI
+| life = {{dv|7,500|15,000}}
+| defense = 35
+| dr = 10
+| hardmode = yes
+| postml = yes
+| banner = no
+| money = {{gc|1}}
+| debuff = Armor Crunch
+| debufftip = Your armor is shredded 
+| debuffchance = 100%
+| duration = {{dv|2|||3}} seconds
+| immune1 = Confused
+| immune2 = Armor Crunch
+| immune3 = Broken Armor
+| resistant1 = Stab
+| resistant2 = Slash
+| vulnerable1 = Magic
+| Orb of Crystal|3-5| 100%
+| Core of Rend|3-5| 100%
+}}
+|{{npc infobox
+| imagealt = [[File:Primordial_Light_Spawn.png]]
+| name = Primordial Light Spawn
+| type = Flying Enemy
+| damage = {{dv|75|125}}
+| knockback = 100
+| ai = Primordial Light Spawn AI
+| life = {{dv|7,500|15,000}}
+| defense = 35
+| dr = 10
+| hardmode = yes
+| postml = yes
+| banner = no
+| money = {{gc|1}}
+| debuff = Holy Flames
+| debufftip = Dissolving from holy light 
+| debuffchance = 50%
+| duration = {{dv|2|||3}} seconds
+| debuff2 = Astral Infection (debuff)
+| debufftip2 = Your flesh is melting off
+| debuff2chance = 50%
+| duration2 = {{dv|2|||3}} seconds
+| immune1 = Confused
+| immune2 = Holy Flames
+| immune3 = Moon Burnt
+| immune4 = Astral Infection (debuff)
+| immune5 = Ancient Astral Blight
+| resistant1 = Magic
+| resistant2 = Holy
+| vulnerable1 = Unholy
+| Orb of Law|3-5| 100%
+| Core of Sunlight|3-5| 100%
+| sound = Item_20.wav
+| soundtext = Shoot
+}}
+}}
+
+== See Also ==
+*[[Elemental System]]
+{{-}}
+{{DeimosMod}}

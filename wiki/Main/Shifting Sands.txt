@@ -1,0 +1,31 @@
+{{item infobox
+|type = Weapon
+| damagetype = Magic
+| damage = 61
+| knockback = 5
+| velocity = 7
+| mana = 20
+| tooltip = Casts a sand shard that follows the mouse cursor
+| use = 29
+| auto = yes
+| rare = 7
+| stack = 1
+| sell = {{value|0|12}}
+| hardmode = yes
+| proj = Shifting Sand Shard.png
+| projcaption = Shifting Sand Shard
+| element1 = Fire
+}}
+
+The '''Shifting Sands''' is a craftable [[Hardmode]] [[Wand]] that is a direct upgrade to the [[Magic Missile]]. Upon use, it fires a swift projectile that follows the mouse cursor and pierces up-to 4 [[enemies]], and will explode on the fifth enemy or upon tile contact. Unlike the Magic Missile, the weapon auto-fires.
+
+{{Modifier|magic}}
+
+{{-}}
+{{Grand Scale}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+
+[[Category:Wands]]

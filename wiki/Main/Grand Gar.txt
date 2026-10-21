@@ -1,0 +1,42 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| rare = 10
+| sell = {{value|0|20}}
+| damage = 150
+| use = 21
+| velocity = 12
+| knockback = 8.5
+| tooltip = Lowers enemy defense by 1 with every strike<br/>If enemy defense is 0 or below your attacks will heal you<br/>Striking enemies causes a large explosion<br/>Striking enemies that have under half life will cause them to release rainbow bolts<br/>Enemies spawn healing orbs on death
+| auto = yes
+| stack =  1
+| hardmode = yes
+| element1 = Magic
+| element2 = Holy
+| element3 = Slash
+}}
+
+The '''Grand Gar''' is a craftable [[Hardmode]] [[broadsword]] and is the direct upgrade to the [[Majestic Gar]]. It does not shoot a projectile and has a very large melee range, similar to its downgrade. Every time it strikes an enemy, its defense will be lowered by 1, and if the sword hits an enemy with 0 or less defense the player [[Lifesteal|heals]] 4 life. Striking enemies causes large explosions similar to the explosions created by the [[Inferno Fork]] which deal 50% of the weapon's base damage, decreasing by 10% for each hit. Hitting enemies that have under half life will release rainbow bolts. Enemies killed by the Grand Gar will spawn healing orbs on death which heal the player for 8 life.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The defense reduction applied by the weapon can stack as long as the enemy's defense is over 0 or they haven't changed their base defense values (e.g. When a boss changes phases).
+*[[Astrum Deus]] takes only 50% damage from the Grand Gar's explosions and rainbow bolts.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Healing items]]
+[[Category:True melee]]
+[[zh:大守卫者]]

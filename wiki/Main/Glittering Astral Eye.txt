@@ -1,0 +1,28 @@
+{{addon|Calamity: Community Remix}}
+{{item infobox
+| type = Crafting material
+| type2 = Covering
+| damage = 10
+| tooltip = All your projectiles are homing and create a homing fireball every 2 seconds.
+| stack = 9999
+| rare = 5
+| sell = {{value|0|7|87}}
+| hardmode = yes
+| element1 = Fire
+| element2 = Magic
+| debuff = Astral Infection (debuff)
+| debuffchance = 10%
+| debuffduration = 1 second
+| proj = Homing Astral Fireball.gif
+| projcaption = Fireball
+|image=Glittering Astral Eye.gif}}
+'''Glittering Astral Eye''' is a craftable [[Hardmode]] covering and crafting material that makes all the projectiles homing and create a fireball every 2 seconds of the projectiles existence. It is currently only used in crafting the [[Aspect of the End]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+[[Category:Combat coverings]]

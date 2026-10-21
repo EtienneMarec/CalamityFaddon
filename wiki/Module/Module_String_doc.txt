@@ -1,0 +1,197 @@
+This module is intended to provide access to basic string functions.
+
+Most of the functions provided here can be invoked with named parameters, unnamed parameters, or a mixture.  If named parameters are used, Mediawiki will automatically remove any leading or trailing whitespace from the parameter. Depending on the intended use, it may be advantageous to either preserve or remove such whitespace.
+
+== Global options ==
+
+; ignore_errors
+: If set to 'true' or 1, any error condition will result in an empty string being returned rather than an error message.
+; error_category
+: If an error occurs, specifies the name of a category to include with the error message.  The default category is [[:Category:Errors reported by Module String]].
+; no_category
+: If set to 'true' or 1, no category will be added if an error is generated.
+
+Unit tests for this module are available at [[wikipedia:Module:String/testcases|Module:String/testcases]].
+
+== len ==
+
+This function returns the length of the target string.
+
+Usage:
+
+: <code><nowiki>{{#invoke:</nowiki>String|len|''target_string''}}</code>
+
+OR
+
+: <code><nowiki>{{#invoke:</nowiki>String|len|s= ''target_string'' }}</code>
+
+Parameters:
+
+; s
+: The string whose length to report
+
+== sub ==
+
+: This function returns a substring of the target string at specified indices.
+
+Usage:
+
+: <code><nowiki>{{#invoke:</nowiki>String|sub|''target_string''|''start_index''|''end_index''}}</code>
+
+OR
+
+: <code><nowiki>{{#invoke:</nowiki>String|sub|s= ''target_string'' |i= ''start_index'' |j= ''end_index'' }}</code>
+
+Parameters:
+
+; s
+: The string to return a subset of
+; i
+: The first index of the substring to return, defaults to 1.
+; j
+: The last index of the string to return, defaults to the last character.
+
+The first character of the string is assigned an index of 1.  If either i or j is a negative value, it is interpreted the same as selecting a character by counting from the end of the string.  Hence, a value of -1 is the same as selecting the last character of the string.
+
+If the requested indices are out of range for the given string, an error is reported.
+
+== sublength ==
+
+This function implements the features of {{tl|Str sub old}} and is kept in order to maintain these older templates.
+
+== match ==
+
+This function returns a substring from the source string that matches a specified pattern.
+
+Usage:
+
+: <code><nowiki>{{#invoke:</nowiki>String|match|''source_string''|''pattern_string''|''start_index''|''match_number''|''plain_flag''|''nomatch_output''}}</code>
+
+OR
+
+: <code><nowiki>{{#invoke:</nowiki>String|match|s= ''source_string'' |pattern= ''pattern_string'' |start= ''start_index''|match= ''match_number''|plain= ''plain_flag'' |nomatch= ''nomatch_output'' }}</code>
+
+Parameters:
+
+; s
+: The string to search
+; pattern
+: The pattern or string to find within the string
+; start
+: The index within the source string to start the search.  The first character of the string has index 1.  Defaults to 1.
+; match
+: In some cases it may be possible to make multiple matches on a single string.  This specifies which match to return, where the first match is match= 1.  If a negative number is specified then a match is returned counting from the last match.  Hence match = -1 is the same as requesting the last match.  Defaults to 1.
+; plain
+: A flag indicating that the pattern should be understood as plain text.  Defaults to false.
+; nomatch
+: If no match is found, output the "nomatch" value rather than an error.
+
+If the match_number or start_index are out of range for the string being queried, then this function generates an error.  An error is also generated if no match is found.
+If one adds the parameter ignore_errors=true, then the error will be suppressed and an empty string will be returned on any failure.
+
+For information on constructing Lua patterns, a form of regular expression, see:
+
+* [http://www.lua.org/manual/5.1/manual.html#5.4.1 Lua reference: Patterns] (as of version 5.1)
+* [[mw:Extension:Scribunto/Lua_reference_manual#Patterns|Scribunto patterns]]
+* [[mw:Extension:Scribunto/Lua_reference_manual#Ustring_patterns|Scribunto Unicode string patterns]]
+
+== pos ==
+
+This function returns a single character from the target string at position pos.
+
+Usage:
+
+: <code><nowiki>{{#invoke:</nowiki>String|pos|''target_string''|''index_value''}}</code>
+
+OR
+
+: <code><nowiki>{{#invoke:</nowiki>String|pos|target= ''target_string'' |pos= ''index_value'' }}</code>
+
+Parameters:
+
+; target
+: The string to search
+; pos
+: The index for the character to return
+
+The first character has an index value of 1.
+
+If one requests a negative value, this function will select a character by counting backwards
+from the end of the string.  In other words pos = -1 is the same as asking for the last character.
+
+A requested value of zero, or a value greater than the length of the string returns an error.
+
+== find ==
+
+This function allows one to search for a target string or pattern within another string.
+
+Usage:
+
+: <code><nowiki>{{#invoke:</nowiki>String|find|''source_str''|''target_string''|''start_index''|''plain_flag''}}</code>
+
+OR
+
+: <code><nowiki>{{#invoke:</nowiki>String|find|source= ''source_str'' |target= ''target_str'' |start= ''start_index''|plain= ''plain_flag'' }}</code>
+
+Parameters:
+
+; source
+: The string to search
+; target
+: The string or pattern to find within source
+; start
+: The index within the source string to start the search, defaults to 1
+; plain
+: Boolean flag indicating that target should be understood as plain text and not as a Lua-style regular expression, defaults to true
+
+This function returns the first index >= "start" where "target" can be found within "source".  Indices are 1-based.  If "target" is not found, then this function returns 0.  If either "source" or "target" are missing / empty, this function also returns 0.
+
+This function should be safe for UTF-8 strings.
+
+== replace ==
+
+This function allows one to replace a target string or pattern within another string.
+
+Usage:
+
+: <code><nowiki>{{#invoke:</nowiki>String|replace|''source_str''|''pattern_string''|''replace_string''|''replacement_count''|''plain_flag''}}</code>
+
+OR
+
+: <code><nowiki>{{#invoke:</nowiki>String|replace|source= ''source_string'' |pattern= ''pattern_string''|replace= ''replace_string'' |count= ''replacement_count'' |plain= ''plain_flag'' }}</code>
+
+Parameters:
+
+; source
+: The string to search
+; pattern
+: The string or pattern to find within source
+; replace
+: The replacement text
+; count
+: The number of occurrences to replace; defaults to all
+; plain
+: Boolean flag indicating that pattern should be understood as plain text and not as a [[mw:Extension:Scribunto/Lua reference manual#Ustring patterns|Scribunto ustring pattern]] (a unicode-friendly Lua-style regular expression); defaults to true
+
+== rep ==
+
+Repeats a string ''n'' times. A simple function to pipe string.rep to templates.
+Usage:
+
+: <code><nowiki>{{#invoke:</nowiki>String|rep|''source''|''count''}}</code>
+
+Parameters:
+
+; source
+: The string to repeat
+; count
+: The number of repetitions.
+
+Example <code><nowiki>{{#invoke:String|rep|hello|3}}</nowiki></code> gives {{#invoke:String|rep|hello|3}}
+
+<includeonly>
+[[Category:Lua metamodules|String, {{PAGENAME}}]]
+</includeonly>
+<noinclude>
+[[Category:Module documentation‎]]
+</noinclude>

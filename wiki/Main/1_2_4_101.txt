@@ -1,0 +1,230 @@
+{{Patch infobox
+| image = Rage bar (1.2.4.101).png
+| patchname = Rage and Adrenaline Update
+| release = 1/13/2018
+}}
+
+The '''1.2.4.101''' update replaced [[Stress]] with [[Rage Meter|Rage]] and [[Adrenaline]], and also buffed the [[Death Mode]] health values of most bosses.
+
+{{toc limit|3|right=yes}}
+
+== Additions ==
+*Added [[Adrenaline Meter]].
+**Slowly builds up during boss fights if the player doesn't take damage. Once full, it can be activated with a hot key to grant the player the Adrenaline buff and a large damage increase (quadrupled in Death Mode). Getting hit with the buff cancels it.
+*Added [[Rage Meter]].
+**Slowly builds up when the player takes damage, hits enemies with true melee weapons, or wears certain accessories. Once full, it can be activated with a hot key to grant the player the Rage Mode buff temporarily for a large damage increase (quadrupled in Death Mode). Getting hit with the buff cancels it.
+*Added [[Ectoheart]], [[Electrolyte Gel Pack]], [[Infernal Blood]], [[Mushroom Plasma Root]], [[Red Lightning Container]], [[Starlight Fuel Cell]].
+*Added [[Fox Drive]].
+*Added [[Adrenaline]], [[Fox Pet (buff)|Fox]], [[Rage Mode]].
+
+== Changes ==
+
+=== [[Bosses]] and [[Enemies]] ===
+
+*All worm bosses no longer have resistance against [[Flails]].
+
+==== [[Astrum Deus]] ====
+*Buffed large worm's health in Death Mode from {{death|112,000}} to {{death|128,000}}.
+*Buffed small worms' health in Death Mode from {{death|28,000}} to {{death|41,600}}.
+*The fight now has a limit of 3 flying [[Astrum Deus Probe]]s at a time instead of 5.
+*Now drops 1 [[Starlight Fuel Cell]] in [[Revengeance Mode]].
+
+==== [[Brimstone Elemental]] ====
+*Buffed health in Death Mode from {{death|44,800}} to {{death|96,000}}.
+*Nerfed dust bomb damage from {{dv|70|120|150|180}} to {{dv|70|100|125|150}}.
+*Nerfed brimstone hellblast and brimstone barrage damage from {{dv|60|100|125|150}} to {{dv|60|88|110|132}}.
+*Buffed brimstone hellfireball damage in Normal Mode from 60 to 70.
+*Brimstone hellblasts and brimstone barrage projectiles now inflict [[Abyssal Flames]] for 2 seconds instead of 4.
+*Lowered the rate that she shoots brimstone barrages in Death Mode.
+*Now gains 99,999 defense when above the Underworld.
+
+==== [[Bumblebirb]] ====
+*Buffed main Bumblebirb's health in Death Mode from {{death|560,000}} to {{death|880,000}}.
+*Now uses [[Music#Murderswarm|Murderswarm]] as its theme.
+*Now drops 1 [[Red Lightning Container]] in Revengeance Mode.
+
+==== [[Brain of Cthulhu]] ====
+*Buffed Death Mode health modifier from {{death|2x}} to {{death|3.4x}}.
+
+==== [[Calamitas]] ====
+*Buffed phase 1's health in Death Mode from {{death|25,600}} to {{death|48,000}}.
+*Buffed phase 2's health in Death Mode from {{death|56,000}} to {{death|96,000}}.
+*Buffed [[Cataclysm]]'s health in Death Mode from {{death|14,400}} to {{death|17,600}}.
+*Buffed [[Catastrophe]]'s health in Death Mode from {{death|12,800}} to {{death|16,000}}.
+
+==== [[Crabulon]] ====
+*Buffed health in Death Mode from {{death|8800}} to {{death|16,800}}.
+*Now uses [[Music#1NF3$+@+!0N|1NF3$+@+!0N]] as its theme.
+*Now starts attacking the player 7 seconds after spawning instead of staying passive until being damaged.
+*Can now drop 1 [[Mushroom Plasma Root]] in Revengeance Mode.
+
+==== [[Cryogen]] ====
+*Buffed health in Death Mode from {{death|44,800}} to {{death|88,000}}.
+
+==== [[Desert Scourge]] ====
+*Buffed health in Death Mode from {{death|10,720}} to {{death|16,320}}.
+*Smaller worms now start flying at a shorter distance in Death Mode.
+
+==== [[The Destroyer]] ====
+*Buffed Death Mode health modifier from {{death|1.2x}} to {{death|2.1x}}, and its Death Mode damage modifier from {{death|1.5x}} to {{death|1.8x}}.
+*Buffed Probe's Death Mode health modifier from {{death|1.5x}} to {{death|1.8x}}, and its damage modifier from {{death|1.5x}} to {{death|1.8x}}.
+*Body segments now only take 65% damage from the rain droplets from the [[Crimson Rod]], [[Nimbus Rod]], and [[Shaderain Staff]].
+
+==== [[The Devourer of Gods]] ====
+*Buffed phase 1's health in Death Mode from {{death|1,120,000}} to {{death|1,360,000}}.
+*Buffed phase 2's health in Death Mode from {{death|880,000}} to {{death|1,200,000}}.
+
+==== [[Duke Fishron]] ====
+*Buffed Death Mode health modifier from {{death|2.2x}} to {{death|3.2x}}.
+
+==== [[Eater of Worlds]] ====
+*Buffed Death Mode health modifier from {{death|1.5x}} to {{death|2.05x}}.
+
+==== [[Eye of Cthulhu]] ====
+*Buffed Death Mode health modifier from {{death|2x}} to {{death|4.6x}}.
+*Increased aggressiveness as its health lowers in Death Mode.
+
+==== [[Golem]] ====
+*Buffed Death Mode health modifier from {{death|6x}} to {{death|10x}}.
+*Now gains large damage increases as its health gets lower.
+*Nerfed fist damage from 125 to 105.
+
+==== [[The Hive Mind]] ====
+*Buffed phase 1's health in Death Mode from {{death|5600}} to {{death|8800}}.
+*Buffed phase 2's health in Death Mode from {{death|7200}} to {{death|9600}}.
+*Now uses [[Music#The Filthy Mind|The Filthy Mind]] as its theme.
+
+==== [[Jungle Dragon, Yharon]] ====
+*Buffed health in Death Mode from {{death|4,640,000}} to {{death|7,200,000}}.
+*Now transitions into subphase 4 upon reaching 30% health in Death Mode instead of 40%.
+*Now drops 1 [[Fox Drive]] in Revengeance Mode.
+
+==== [[King Slime]] ====
+*Buffed Death Mode health modifier from {{death|1.8x}} to {{death|2.9x}}.
+
+==== [[Lunatic Cultist]] ====
+*Now gains a {{death|3x}} health modifier in Death Mode.
+*Buffed [[Phantasm Dragon]]'s Death Mode health modifier from {{death|12x}} to {{death|16x}}.
+
+==== [[Moon Lord]] ====
+*Buffed hand and forehead eyes' Death Mode health modifier from {{death|1.2x}} to {{death|1.6x}}.
+*Buffed core's Death Mode health modifier from {{death|1.5x}} to {{death|2.5x}}.
+*True Eyes of Cthulhu now gain a {{death|3x}} health modifier in Death Mode.
+
+==== [[The Perforators]] ====
+*Buffed the Hive's health in Death Mode from {{death|10,400}} to {{death|15,200}}.
+*The small Perforator now loses 7 segments in Death Mode.
+*The medium Perforator now loses 14 segments in Death Mode.
+*The large Perforator now loses 20 segments in Death Mode.
+*Now uses [[Music#Blood Coagulant|Blood Coagulant]] as its theme.
+
+==== [[The Plaguebringer Goliath]] ====
+*Buffed health in Death Mode from {{death|104,000}} to {{death|296,000}}.
+*Lowered amount of nukes spawned during her barrage attack.
+*Increased time it takes for her to despawn when the player is outside of the Jungle.
+*Lowered the amount of rockets she fires.
+*Adjusted projectile coloring.
+
+==== [[Plantera]] ====
+*Buffed Death Mode health modifier from {{death|2.6x}} to {{death|6.2x}}.
+
+==== [[Polterghast]] ====
+*Buffed health in Death Mode from {{death|672,000}} to {{death|1,000,000}}.
+*Normal phantom shots no longer bounce 2 extra times in Death Mode.
+*Red phantom shots no longer bounce 3 extra times in Death Mode.
+*Now drops 1 [[Ectoheart]] in Revengeance Mode.
+
+==== [[Providence, the Profaned God]] ====
+*Buffed health in Death Mode from {{death|518,400}} to {{death|1,160,000}}.
+*Nerfed holy blast damage from {{dv|260|328|410|492}} to {{dv|220|288|360|432}}.
+*Nerfed holy bomb damage from {{dv|240|280|350|420}} to {{dv|200|260|325|390}}.
+*Nerfed holy fire damage from {{dv|250|300|375|450}} to {{dv|200|260|325|390}}.
+*Nerfed holy spear damage from {{dv|300|328|410|492}} to {{dv|220|288|360|432}}.
+*Nerfed molten blast damage from {{dv|250|312|390|468}} to {{dv|210|280|350|420}}.
+*Buffed guardian's spear damage from {{dv|160|260|325|390}} to {{dv|200|240|300|360}}.
+*Buffed guardian's flare dust damage in Normal Mode from 170 to 220.
+
+==== [[Queen Bee]] ====
+*Buffed Death Mode health modifier from {{death|1.9x}} to {{death|3.1x}}.
+
+==== [[Ravager]] ====
+*Buffed body health in Death Mode from {{death|124,800}} to {{death|176,000}}.
+*Now drops 1 [[Infernal Blood]] in Revengeance Mode.
+
+==== [[Signus, Envoy of the Devourer]] ====
+*Buffed health in Death Mode from {{death|480,000}} to {{death|1,000,000}}.
+
+==== [[Siren and Leviathan]] ====
+*Buffed the Siren's health in Death Mode from {{death|48,000}} to {{death|100,000}}.
+*Buffed the Leviathan's health in Death Mode from {{death|152,000}} to {{death|352,000}}.
+
+==== [[Skeletron]] ====
+*Buffed Death Mode health modifier from {{death|1.2x}} to {{death|2.3x}}.
+*Buffed hands' Death Mode health modifier from {{death|2.5x}} to {{death|4.6x}}.
+
+==== [[Skeletron Prime]] ====
+*Buffed Prime Laser's Death Mode health modifier from {{death|1.2x}} to {{death|2.2x}}.
+*Nerfed skull projectile damage from {{dv|35|70|87}} to {{dv|32|64|80}}.
+*Nerfed head laser damage from {{dv|30|60|75}} to {{dv|27|54|67}}.
+*Nerfed missile damage from {{dv|40|80|100}} to {{dv|32|64|80}}.
+
+==== [[Slime God]] ====
+*Buffed core's health in Death Mode from {{death|2240}} to {{death|4000}}.
+*Ebonian Slime God now gets {{dv|0|0|8000|16,000}} health in Revengeance and Death Mode instead of sharing the Expert Mode health values.
+*Crimulan Slime God now gets {{dv|0|0|6400|12,800}} health in Revengeance and Death Mode instead of sharing the Expert Mode health values.
+*Split Ebonian Slime God now gets {{dv|0|0|4000|8000}} health in Revengeance and Death Mode instead of sharing the Expert Mode health values.
+*Split Crimulan Slime God now gets {{dv|0|0|3200|6400}} health in Revengeance and Death Mode instead of sharing the Expert Mode health values.
+*Tweaked speeds for all of projectiles used in the fight.
+*Now drops 1 [[Electrolyte Gel Pack]] in Revengeance Mode.
+
+==== [[Storm Weaver]] ====
+*Reduced phase 2 segment count in Death Mode from 10 to 5.
+*Phase 1's tail now takes 3x more damage from all sources in Death Mode instead of 10x.
+
+==== [[Supreme Calamitas]] ====
+*Buffed health from {{dv|2,300,000|3,680,000|4,000,000|4,800,000}} to {{dv|2,500,000|4,000,000|5,000,000|10,000,000}}.
+*Brothers now have their health set to {{dv|0|0|560,000|800,000}} in Revengeance and Death Mode instead of sharing the Expert Mode health values.
+*Lowered brimstone monster speed.
+*Lowered the speed at which her brimstone skulls go up and down.
+
+==== [[The Twins]] ====
+*Buffed Death Mode health modifier for both eyes from {{death|1.6x}} to {{death|2.5x}}, and their Death Mode damage modifier from {{death|1.6x}} to {{death|2.5x}}.
+
+==== [[Wall of Flesh]] ====
+*Buffed Death Mode health modifier from {{death|2.2x}} to {{death|4.2x}}.
+*Buffed The Hungry II's Death Mode health modifier from {{death|3.1x}} to {{death|4.5x}}, and its Death Mode damage modifier from {{death|1.85x}} to {{death|2.5x}}.
+*Buffed [[Leech]]'s Death Mode health modifier from {{death|3.5x}} to {{death|4.5x}}, and its Death Mode damage modifier from {{death|1.5x}} to {{death|2.5x}}.
+
+=== Items ===
+*[[Affliction]]'s stat boosts which were previously only granted when the player was at or above 6000 Stress are now granted at all times.
+*[[Cosmic Immaterializer]] can now only summon 1 Cosmic Energy at a time, and now only requires 10 minion slots instead of 12.
+*[[Draedon's Heart]] and [[Heart of Darkness]] no longer grant any benefits relating to Stress, and now let the player generate Rage over time instead of Stress.
+*[[Laudanum]] now increases the player's damage and critical strike chance by 6% at all times.
+*Holding the [[Lunic Eye]] no longer decreases Stress.
+*Nerfed [[Magna Striker]]'s damage from 52 to 48.
+*Lowered the time that [[Magnetic Meltdown]] and [[Voltaic Climax]]'s projectiles last.
+*True melee weapons now let the player gain Rage on strikes.
+*Altered [[Revengeance]]'s tooltip to reflect the change from Stress to Rage and Adrenaline.
+*[[Stress Pills]] now increases the player's damage and critical strike chance by 4% at all times.
+
+=== Other ===
+*The [[Astral Meteor]] now uses [[Music#Heaven's Hell-Sent Gift|Heaven's Hell-Sent Gift]] as its theme.
+*[[Heart Attack]] now provides the player with a 30% health boost instead of decreasing health by 30% during the day and hurting the player upon being inflicted.
+*[[Horror]] now reduces the player's vision, cuts their defense in half, and reduces their movement speed by 25% instead of just decreasing their speed by 25%.
+*Any damage or critical strike chance bonus that goes above the current 75% cap will now only be 25% as effective.
+
+=== Resprites ===
+*Resprited [[Birb Pheromones]], [[Treasure Bag (Brimstone Elemental)]].
+*Resprited [[Brimstone Flames]] and [[Holy Flames]]' dusts.
+*Resprited [[Wulfrum Helm]].
+*Resprited [[Brimstone Elemental]]'s map icon.
+
+== Removals ==
+*Removed [[Perforator Mini]].
+*Removed [[Stress]] and all of its associated effects.
+
+{{-}}
+{{Versions
+| show-main = yes
+| show-mod = yes
+}}

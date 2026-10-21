@@ -1,0 +1,25 @@
+{{item infobox
+| type = Wall
+| type2 = Crafting material
+| auto = yes
+| placeable = yes
+| consumable = yes
+| use = 14
+| sell = No value
+| stack = 9999
+| rare = 0
+}}
+
+'''Navystone Wall''' is a background [[wall]] crafted with [[Navystone]]. It will not contribute to the creation of an artificial [[Sunken Sea]] biome.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Tiles
+| show-main = yes
+| show-walls = yes
+}}

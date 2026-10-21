@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| rare = 3
+| sell = {{value|0|0|80}}
+| damage = 29
+| reach = 16.25
+| attduration = 5.5 seconds
+| tooltip = Fires homing blood when enemies are near<br/>An exceptionally agile yoyo
+| use = 22
+| auto = yes
+| knockback = 4.25
+| stack = 1
+| proj = Aorta Yoyo.png
+| projcaption = Aorta
+| element1 = Fire
+}}
+|{{item drops infobox
+|1= [[The Perforators]]|2=1|3={{dv|25%|33.33%}}
+}}
+}}
+The '''Aorta''' is a craftable [[Pre-Hardmode]] [[Yoyos|yoyo]] that is also dropped from [[The Perforators]]. When held out it fires a homing blood clot towards nearby enemies that deals 25% of the weapon's base damage.
+
+{{modifier|meleealt}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*Much like the [[Air Spinner]], this yoyo is especially nimble and can move very quickly while in use.
+*This weapon does not have a [[Corruption]] variant.
+
+== Trivia ==
+*It shares its name with the [[wikipedia:aorta|aorta]], which is the largest [[wikipedia:artery|artery]] in the body.
+**Coincidentally, both '''Aorta''' and [[tgc:Artery|Artery]] are yoyos that are based off a part of the human body, specifically. the artery.
+
+{{Blood Sample}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Yoyos]]
+[[zh:大动脉]]

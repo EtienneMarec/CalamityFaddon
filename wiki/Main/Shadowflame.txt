@@ -1,0 +1,44 @@
+{{dablink|For the vanilla debuff page see [[tgc:Shadowflame|Shadowflame]]}}
+
+{{buff infobox
+| type = Debuff
+| effects = No health regeneration<br/>-15 life per second
+| tooltip = Losing life
+}}
+
+'''Shadowflame''' is a vanilla [[debuff]] that deals damage over time to anything it afflicts. The Calamity Mod adds a functionally and visually identical copy of Shadowflame that can be inflicted on the player, due to the fact that the player cannot be afflicted with the vanilla debuff.
+
+== Causes ==
+=== From Calamity Items ===
+{{item debuffs}}
+
+=== From Calamity NPCs ===
+{| class="terraria sortable lined"
+! colspan = 2 | From
+! Duration
+! Chance
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Guides
+|uses = Template:npc infobox
+|include = {npc infobox¦:NPC debuffs/dpl}
+|includematch=/debuff\d*\s*=\s*{{PAGENAME}}/s
+|mode = userformat
+}}
+|-
+| {{item|mode=table|Goblin Sorcerer}}||{{revengeance|3 seconds}} (Chaos Ball in Hardmode)||{{revengeance|100%}}
+|-
+| {{item|mode=table|Goblin Summoner}}||{{revengeance|3 seconds}} (Chaos Ball in Hardmode)||{{revengeance|100%}}
+|-
+| {{item|mode=table|Shadowflame Apparation}}||{{revengeance|3 seconds}}||{{revengeance|100%}}
+|-
+| {{item|mode=table|Spazmatism (Second Form)}}||{{revengeance|1.5, 2.5, or 4 seconds}} (Shadowflamethrower)<br/>{{revengeance|1, 2, or 3 seconds}} (Shadowflame fireballs)||{{revengeance|100%}}
+|-
+| {{item|mode=table|Tim}}||{{revengeance|3 seconds}} (Chaos Ball in Hardmode)||{{revengeance|100%}}
+|-
+|}
+
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

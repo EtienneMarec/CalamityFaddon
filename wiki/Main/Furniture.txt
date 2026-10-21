@@ -1,0 +1,107 @@
+'''Furniture''' is a class of [[items]] that can be placed on [[blocks]], or hung from them, usually to become background objects that characters can move over and through. Some are functional, such as [[crafting stations]], [[Chests]], [[Beds]] and [[light sources]] (among others), while many are mainly decorative. Most furniture items are sorted into sets. Most placed furniture can be freed with a [[pickaxe]].
+
+Items that must be hung from "ceiling" blocks (the underside of blocks) cannot be hung from platforms, unless said platform is hammered into its lowered position.
+
+The Calamity Mod adds various types of furniture, with fourteen different new [[furniture sets]] which include both functional and decorative pieces and several new [[Crafting station]]s.
+
+{| class="terraria" style="width:85%"
+!style="padding: 5px; font-size: 120%;" colspan="3" id=Crafting_Stations| [[Crafting stations]]
+|-
+|
+{{itemlist
+|{{item|Ancient Altar}}
+|{{item|Ashen Altar}}
+|{{item|Botanic Planter}}
+|{{item|Cosmic Anvil}}
+|{{item|Draedon's Forge}}
+|{{item|Effulgent Manipulator}}
+|{{item|Eutrophic Shelf}}
+|{{item|Monolith Amalgam}}
+|{{item|Plague Infuser}}
+|{{item|Profaned Crucible}}
+|{{item|Static Refiner}}
+|{{item|Void Condenser}}
+}}
+|-
+!style="padding: 5px; font-size: 120%;" colspan="3" id=Light sources| [[Light sources]]
+|-
+|
+{{itemlist
+|{{item|Ashen Basin|Basin}}
+|{{item|Silva Candle|Candle}}
+|{{item|Otherworldly Chandelier|Chandelier}}
+|{{item|Profaned Candelabra|Candelabra}}
+|{{item|Void Lamp|Lamp}}
+|{{item|Botanic Lantern|Lantern}}
+|{{item|Cosmilite Sconce|Sconce}}
+|{{item|Abyss Torch|Torch}}
+}}
+|-
+!style="padding: 5px; font-size: 120%;" colspan="3" id=Storage| Storage
+|-
+|
+{{itemlist
+|{{item|Stratus Chest|Chest}}
+}}
+|-
+!style="padding: 5px; font-size: 120%;" colspan="3" id=Functional| Functional
+|-
+|
+{{itemlist
+|{{item|Altar of the Accursed}}
+|{{item|Apocalyptic Slime Statue}}{{dei}}
+|{{item|Astral Beacon|size=32px}}
+|{{item|Blighted Eye Banner|Banner}}
+|{{item|Statigel Bed|Bed}}
+|{{item|The Codebreaker|image=Codebreaker Base.png}}
+|{{item|Ancient Door|Door}}
+|{{item|Abyss Dresser|Dresser}}
+|{{item|Corruption Effigy|Effigy|link=Effigies}}
+|{{item|Eutrophic Clock|Grandfather Clock}}
+|{{item|Music Box (The Tale of a Cruel World)|Music Box}}
+|{{item|Cosmilite Platform|Platform}}
+|{{item|Stratus Sink|Sink}}
+|{{item|Astral Water Fountain|Water Fountain}}
+}}
+|-
+!style="padding: 5px; font-size: 120%;" colspan="3" id=Decorative| Decorative
+|-
+|
+{{itemlist
+|{{item|Stratus Bathtub|Bathtub}}
+|{{item|Baby Ghost Bell Jar|Cages}}
+|{{item|Plagued Chair|Chair}}
+|{{item|Astral Crate|Crates|link=Crates}}
+|{{item|Living God Slayer Fire Block|Living Fire Blocks}}
+|{{item|Ashen Pipe Organ|Piano}}
+|{{item|Silva Bench|Sofa}}
+|{{item|Void Table|Table}}
+|{{item|Auric Toilet|Toilet}}
+|{{item|Devourer of Gods Trophy|Trophy}}
+|{{fantag}}{{item|Movie Sign}}
+}}
+|-
+!style="padding: 5px; font-size: 120%;" colspan="3" id=Laboratory| [[Laboratory Furniture|Laboratory]]
+|-
+|
+{{itemlist
+|{{item|Laboratory Console|Console}}
+|{{item|Laboratory Containment Box|Containment Box}}
+|{{item|Aged Laboratory Display|Display}}
+|{{item|Aged Laboratory Electric Panel|Electric Panel}}
+|{{item|Laboratory Screen|Screen}}
+|{{item|Laboratory Server|Server}}
+|{{item|Aged Laboratory Terminal|Terminal}}
+|{{item|Aged Reinforced Crate|Reinforced Crate}}
+}}
+|}
+
+== See Also ==
+*[[tgc:Furniture|Furniture]] on the vanilla wiki.
+
+{{Master Template Tiles
+|show-main = yes
+|show-furniture = yes
+}}
+[[Category:Furniture items|*]]
+[[zh:家具]]

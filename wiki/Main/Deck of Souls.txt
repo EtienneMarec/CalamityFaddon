@@ -1,0 +1,44 @@
+{{addon|Apotheosis and Friends}}
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| stack = 1
+| auto = yes
+| damagetype = Rogue
+| damage = 93
+| knockback = 6
+| rare = 7
+| tooltip = Fires high velocity talismans that ignore gravity<br/>Talismans attach to enemies, causing them to release lost souls<br/>Stealth strikes release more souls and leave behind souls as they travel
+| sell = {{value|0|0|12}}
+| use = 15
+| velocity = 18
+| hardmode = yes
+| proj = Phantom Talisman.png
+| projcaption = Phantom Talisman
+| proj2 = Lost Soul.gif
+| proj2caption = Lost Soul
+| element1 = Dark
+}}
+
+The '''Deck of Souls''' is a craftable [[Hardmode]] [[rogue weapon]]. When used, it throws a talisman that latches onto [[enemies]] and sticks there, periodically releasing homing souls that deal 50% of the talisman's base damage. Up to three talismans can be stuck to an enemy at once.
+
+Performing a [[stealth strike]] with the Deck of Souls causes the resulting talisman to deal 80% damage and release additional souls once latched on, as well as making that talisman release lingering souls as it travels that deal 80% damage each. Additionally, homing souls spawned from latching talisman deal 40% damage.
+
+{{Modifier|rogue}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*This weapon does not benefit from the effects of the [[Invisibility Potion]] or the [[Shadow Potion]].
+
+== Trivia ==
+*The item was inspired by the [[wikipedia:Ofuda|ofuda]] talismans used by the character [https://en.touhouwiki.net/wiki/Reimu_Hakurei Reimu Hakurei] from the ''[[wikipedia:Touhou Project|Touhou Project]]'' series.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-rogue = yes
+}}

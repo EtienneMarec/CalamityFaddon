@@ -1,0 +1,10 @@
+<includeonly><!-- 
+-->{{#vardefine:itemlist:width|{{{width|{{#dplvar:_itemlist_flag_width}}}}}}}<!-- 
+-->{{#if:{{#var:itemlist:width}}||{{#vardefine:itemlist:width|10em}}}}<!-- 
+-->{{#vardefine:itemlist:css|{{#if:{{#var:itemlist:width}}|width:{{#var:itemlist:width}};}}{{{css|{{{style|{{#dplvar:_itemlist_flag_css}}}}}}}}}}<!-- 
+-->{{#vardefine:itemlist:start_tag|{{#if:{{#var:itemlist:css}}|<li style="{{#var:itemlist:css}}">|<li>}}}}<!--
+--><div class="itemlist {{{class|{{#dplvar:_itemlist_flag_class}}}}}" style="{{{boxcss|{{{boxstyle|{{#dplvar:_itemlist_flag_boxcss}}}}}}}}" id="{{{id|}}}"><!-- 
+	--><ul><!-- 
+	-->{{#fornumargs:_|v|{{#var:itemlist:start_tag}}{{#var:v}}</li>}}<!-- 
+	--></ul><!-- 
+--></div></includeonly><noinclude>{{doc}}</noinclude>

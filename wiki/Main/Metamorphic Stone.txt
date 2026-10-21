@@ -1,0 +1,36 @@
+{{infobox wrapper
+|{{item infobox
+| type = Covering
+| type2 = Crafting material
+| tooltip = Summons an earth elemental to fight for you
+| sell = {{value|0|4|80}}
+| rare = 5
+| damage = 126
+| damagetype = summon
+| stack = 1
+| hardmode = yes
+| buff= Earth Elemental (buff) | bufflink = no
+| bufftip=The earth elemental will protect you}}
+|{{item drops infobox
+|[[Earth Elemental]]|1|{{dv|20%|33.33%}}
+|[[Onyx Kinsman]]|1|{{dv|5%|10%}}
+}}
+}}
+{{summoned|Earth Elemental|name=Earth Elemental|type=minion}}
+The '''Metamorphic Stone''' is a [[Hardmode]] [[covering]] that has a {{dv|20%|33.33%}} chance to be dropped by [[Earth Elemental]]s. Equipping it summons a Earth Elemental to fight for you, which deals summon damage. The Earth Elemental cycles between dashing at enemies, shooting a stream of smaller rocks concluded with a large splitting rock, and swinging its arm into enemies to deal 600% damage and inflict [[War Cleave]] and [[Armor Crunch]].
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*[[wikipedia:Metamorphic|Metamorphic]] rock is rock that has been condensed by heat and pressure
+*The item is internally called "Rock Stone".
+*The item is often referred to as a [[wikipedia:Coconut|coconut]] by the community, due its sprite looking like a coconut.
+
+{{Master Template Equipables
+| show-main = yes
+| show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

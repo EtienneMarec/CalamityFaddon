@@ -1,0 +1,22 @@
+{{item infobox
+| type = Item
+| type2 = Crafting material
+| stack = 9999
+| rare = 9
+| sell = No value
+| hardmode = yes
+}}
+
+'''Meld Flah''' is a [[hardmode]] [[crafting material]] obtained from crafting with [[Hemorraize]]. It is used to craft into [[Lunar Flah]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+{{-}}
+{{Flah}}
+{{Master Template Consumables
+| show-main = yes
+| show-material = yes
+}}

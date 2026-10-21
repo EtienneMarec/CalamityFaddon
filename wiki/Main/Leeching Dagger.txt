@@ -1,0 +1,45 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 33
+| use = 15
+| tooltip = Enemies release homing leech orbs on hit<br/>Shortflurry strikes heal the player for 5 health per hit
+| knockback = 5.25
+| auto = yes
+| stack = 1
+| rare = 3
+| sell = {{value|0|0|80}}
+| element1 = Unholy
+| element2 = Stab
+}}
+|{{item drops infobox
+| [[The Hive Mind]]|1| {{dv|25%|33.33%}}
+}}
+}}
+
+The '''Leeching Dagger''' is a craftable [[Pre-Hardmode]] [[shortsword]] that is also dropped by [[The Hive Mind]]. Upon hitting an enemy with it, it will release leech orbs that home in on other enemies, and upon impact, [[Lifesteal|heal]] the player for 2 life. It functions identically to the [[Bloody Rupture]].
+
+Like every [[shortsword]], it has an incredibly short range, but unlike others, it swings automatically.
+
+When the weapon's [[Shortstrike]] ability activates, the player is healed 5 health per each attack.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Rotten Matter}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[Category:Shortswords]]
+[[Category:Healing items]]
+[[Category:True melee]]

@@ -1,0 +1,43 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Ranged
+| damage = 121
+| knockback = 2.5
+| rare = 13
+| sell = {{value|0|26}}
+| stack = 1
+| auto = yes
+| velocity = 12
+| use = 20
+| hardmode = yes
+| postml = yes
+| tooltip = Fires a spread of 5 arrows<br/>Wooden arrows are converted into typhoon arrows and sharks
+| proj = Typhoon Arrow.png
+| projcaption = Typhoon Arrow
+| proj2 = Mini Sharkron.png
+| proj2caption = Mini Sharkron
+| element1 = Water
+}}
+ [[File:Monsoon (demo).gif|200px|frame|right|Monsoon's typhoon effect.]]
+The '''Monsoon''' is a craftable Godseeker Mode [[bow]] that auto-fires five arrows at once. When firing [[Wooden Arrow]]s, four of the five arrows are converted into sharks, and the fifth, middle arrow is converted into a Typhoon Arrow. Typhoon Arrows erupt into a swirling typhoon on contact with [[enemies]] or tiles, dealing damage over time in a wide area. Additionally, arrows deal 10% more damage when firing Wooden Arrows.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*A [[wikipedia:Monsoon|monsoon]] is a seasonal prevailing wind in the region of South and Southeast Asia, blowing from the south-west between May and September and bringing rain (the ''wet monsoon''), or from the north-east between October and April (the ''dry monsoon''). <!-- Not a Metal Gear Rising reference. -->
+*The Monsoon and the Alluvion both share the color scheme of the [[Tempest Staff]].
+*The name "Monsoon" is a reference to a difficulty setting on the game "Risk of Rain 2", where the rain risks it all and rains on everyone.
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

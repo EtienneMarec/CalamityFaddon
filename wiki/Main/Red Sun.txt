@@ -1,0 +1,48 @@
+{{dedicated|Spoopyro|Developer}}
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| damagetype = Melee
+| damage = 500
+| use = 29
+| velocity = 15
+| knockback = 4
+| auto = yes
+| stack = 1
+| tooltip = Over paradise<br/>Drops a barrage of solar flares from the sky
+| debuff = Holy Flames
+| debuffduration = 5 seconds (Contact)<br/>4 seconds (Flare)<br/>2 seconds (Fragment)
+| debufftip = Dissolving from holy light
+| debuffchance = 100%
+| rare = 16
+| sell = {{value|0|40}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| proj = Red Sun Flare.gif
+| projcaption = Red Sun Flare
+| element1 = Fire
+| element2 = Holy
+}}
+}}
+
+The '''Red Sun''' is a craftable Epilogue [[developer]] [[broadsword]]. When it is swung, a large number of solar flares fall from the sky at varying speeds and angles. The flares explode after some time or upon hitting an enemy, releasing multiple homing fragments when they do. Both the flares and the fragments ignore tiles. The blade, the flares, and the fragments all inflict [[Holy Flames]].
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*The weapon's name and tooltip are references to the character Sundowner from the game ''[[wikipedia:Metal_Gear_Rising:_Revengeance|Metal Gear Rising: Revengeance]]'', with Sundowner's boss song being named 'Red Sun' and the lyrics containing the line 'Red Sun over Paradise'.
+*This weapon actually has a unique rarity, but is referred to here as Hot Pink for consistency between weapons.
+**This unique rarity alternates between rarity colors of crimson ({{color|#CC5650 ●|#CC5650}}) and magenta ({{color|#ED458D ●|#ED458D}}).
+
+{{-}}
+{{Shadowspec}}
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]

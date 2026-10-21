@@ -1,0 +1,33 @@
+{{npc infobox
+| type = Enemy
+| environment = Surface
+| environment2 = The Exosphere
+| ai = Fighter AI
+| life = {{dv|5000|6000}}
+| damage = {{dv|100|200}}
+| defense = 10
+| dr = 10%
+| knockback = 100
+| money={{value|2|0|0|0}}
+| banner = no
+| immune1 = Kami Flu
+| hardmode = yes
+| Exodium Cluster | 2 | 50%
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_7.wav
+| vulnerable1 = Fire
+| vulnerable2 = Water
+| resistant1 = Cold
+| resistant2 = Stab
+| resistant3 = Slash
+| resistant4 = Poison
+| resistant5 = Machine
+}}
+
+The '''Asura (Japanese: アスラ Asura)''' is a [[Hardmode]] [[enemy]] that spawns on the surface of the [[Exosphere]] after [[Moon Lord]] has been defeated. It fires a fixed horizontal deathray from its head, similar to the Moon Lord's. It drops [[Exodium Cluster]]s upon defeat.
+
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-hardmode = yes
+}}

@@ -1,0 +1,160 @@
+<div class="crafting-tree">{{diagram
+
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|LumiO|_|Marro|_|Ectop|_|ForFG|_|_|_|_|_|AeroO|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|      _|      _|      _|      _|_|_|_|_|      _|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|I|_|_|_|)|-|-|-|^|-|-|-|'|_|_|_|_|_|_|_|I|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|§|_|_|_|I|_|_|_|_|_|_|_|_|_|_|_|_|_|_|PHFRG|_|_|_|_|_|_|_|_|_|#
+|_|Coggg|_|LumiB|_|_|I|_|_|AstDT|_|AlluT|_|PlaAT|_|AeroB|_|Sunpl|_|MiMaT|_|#
+|_|      _|      _|_|I|_|_|      _|      _|      _|      _|      _|      _|#
+|_|_|`|-|-|-|(|_|_|_|I|_|_|_|:|_|_|_|:|_|_|_|:|_|_|_|)|-|-|-|'|_|_|_|:|_|_|#
+|_|_|_|_|_|_|§|_|_|HMANV|_|_|§|_|_|COANV|_|_|§|_|_|SKYMI|_|_|_|_|_|_|§|_|_|#
+|_|_|_|_|_|ClocB|_|TheBa|_|AstrD|_|Alluv|_|PlanA|_|Galef|_|_|_|_|_|MirMa|_|#
+|_|_|_|_|_|      _|      _|      _|      _|      _|      _|_|_|_|_|      _|#
+|_|_|_|_|_|_|`|-|-|-|^|-|-|-|^|-|-|-|+|-|-|-|^|-|-|-|^|-|-|-|-|-|-|-|'|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|HeavG|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+|HeavG_cols = 3
+|HeavG_rows = 2
+|HeavG ={{item|Heavenly Gale|size=20px}}
+
+|MiMaT_cols = 3
+|MiMaT_rows = 2
+|MiMaT = ''[[Miracle Matter/Crafting tree|Miracle Matter<br/>crafting tree]]''
+
+|AstDT_cols = 3
+|AstDT_rows = 2
+|AstDT = ''[[Astreal Defeat/Crafting tree|Astreal Defeat<br/>crafting tree]]''
+
+|AlluT_cols = 3
+|AlluT_rows = 2
+|AlluT = ''[[Alluvion/Crafting tree|Alluvion<br/>crafting tree]]''
+
+|PlaAT_cols = 3
+|PlaAT_rows = 2
+|PlaAT = ''[[Planetary Annihilation/Crafting tree|Planetary Annihilation<br/>crafting tree]]''
+
+<!-- CRAFTING MATERIALS -->
+
+<!-- Galeforce -->
+
+|AeroO_cols = 3
+|AeroO_rows = 2
+|AeroO = {{item|Aerialite Ore}} × 32<br/>
+<span style="font-size:0.75em">( [[Cavern]] / {{item|mode=image|Aero Slime|size=16px}} )</span>
+
+|AeroB_cols = 3
+|AeroB_rows = 2
+|AeroB = {{item|Aerialite Bar}} × 8
+
+|Sunpl_cols = 3
+|Sunpl_rows = 2
+|Sunpl = {{item|Sunplate Block}} × 3
+
+|Galef_cols = 3
+|Galef_rows = 2
+|Galef = {{item|Galeforce|size=26px}}
+
+<!-- The Ballista -->
+
+|Ectop_cols = 3
+|Ectop_rows = 2
+|Ectop = {{item|Ectoplasm}} × 10<br/>
+( {{item|mode=image|Ectoblood|size=14px}} × 3 / {{item|mode=image|Dungeon Spirit|size=16px}} )
+
+|ForFG_cols = 3
+|ForFG_rows = 2
+|ForFG = {{item|Forbidden Fragment}}<br/>
+( {{item|mode=image|Sand Elemental|size=20px}} )
+
+|Marro_cols = 3
+|Marro_rows = 2
+|Marro = {{item|Marrow}}<br/>
+( {{item|mode=image|Skeleton Archer|Skeleton Archer|size=24px}} / {{item|mode=image|Skeleton Merchant|Skeleton Merchant|size=24px}} )
+
+|TheBa_cols = 3
+|TheBa_rows = 2
+|TheBa = {{item|The Ballista|size=24px}}
+
+<!-- Clockwork Bow -->
+
+|LumiO_cols = 3
+|LumiO_rows = 2
+|LumiO = {{item|Luminite}} × 20<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=20px}} )
+
+|LumiB_cols = 3
+|LumiB_rows = 2
+|LumiB = {{item|Luminite Bar}} × 5
+
+|Coggg_cols = 3
+|Coggg_rows = 2
+|Coggg = {{item|Cog}} × 50<br/>
+( {{item|mode=image|image=Map Icon Steampunker.png|Steampunker|size=20px}} )
+
+|ClocB_cols = 3
+|ClocB_rows = 2
+|ClocB = {{item|Clockwork Bow|size=16px}}
+
+<!-- Heavenly Gale -->
+
+|AstrD_cols = 3
+|AstrD_rows = 2
+|AstrD = {{item|Astreal Defeat|size=28px}}
+
+|PlanA_cols = 3
+|PlanA_rows = 2
+|PlanA = {{item|Planetary Annihilation|size=26px}}
+
+|Alluv_cols = 3
+|Alluv_rows = 2
+|Alluv = {{item|Alluvion|size=32px}}
+
+|MirMa_cols = 3
+|MirMa_rows = 2
+|MirMa = {{item|Miracle Matter}}
+
+<!-- CRAFTING STATIONS -->
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|SKYMI_cols = 3
+|SKYMI_class = craft-station
+|SKYMI = {{item|mode=image|Sky Mill}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+| COANV_cols = 3
+| COANV_class = craft-station
+| COANV = {{item|mode=image|Cosmic Anvil}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+
+<!-- OTHER -->
+|±_class = no-border
+|±_rows = 2
+|±_cols = 1
+|± = or
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

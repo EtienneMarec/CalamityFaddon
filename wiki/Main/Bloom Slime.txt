@@ -1,0 +1,31 @@
+{{npc infobox
+| type = Slime
+| environment = Cavern
+| ai = Slime AI
+| damage = {{dv|80|160}}
+| life = {{dv|1,000|2,000}}
+| defense = 25
+| banner = yes
+| money = {{value|0|0|25|0}}
+| Tarragon Ore|10-26| 100%
+| knockback = 100
+| immune1 = Kami Flu
+| immune2 = Poisoned
+| hardmode = yes
+| postml = yes
+| hurt = NPC_Hit_1.wav
+| killed = NPC_Killed_1.wav
+| vulnerable1 = Fire
+| vulnerable2 = Cold
+| vulnerable3 = Slash
+| vulnerable4 = Machine
+| resistant1 = Poison
+| resistant2 = Holy
+}}
+
+The '''Bloom Slime''' is a Godseeker Mode [[slime]] which spawns naturally in the [[Tarragon Remains]],. They exist to drop [[Tarragon Ore]], as an alternative to chopping down Petrified Trees.
+{{-}}
+{{Master Template Characters
+| show-main = yes
+| show-postMoon = yes
+}}

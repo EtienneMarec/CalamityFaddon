@@ -1,0 +1,39 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| stack = 1
+| research = 1
+| damagetype = melee
+| damage = 20
+| knockback = 4
+| tooltip = Throws out a whirlpool when released at full charge
+| rare = 2
+| sell = {{value|0|0|40}}
+| use = 19
+| velocity = 9
+| proj = Redtide Whirlpool.png
+| projcaption = Whirlpool
+| sound = Item 1.wav
+| soundtext = Use
+| sound2 = Dd2 ghastly glaive pierce 0.wav
+| sound2text = Swing
+| sound3 = Item 43.wav
+| sound3text = Max charge
+| sound4 = Item 7.wav
+| sound4text = Mace killed
+| sound5 = NPC Killed 19.wav
+| sound5text = Whirlpool killed
+| element1 = Water
+| element2 = Poison
+| element3 = Slash
+}}{{distinguish|Urchin Flail|a flail sold by the [[Sea King]]}}
+The '''Urchin Mace''' is a craftable [[Pre-Hardmode]] [[flail]]. When used, the player starts spinning the mace around, creating a whirlpool around themselves. If the player stops using the weapon after 1.83 or more seconds of spinning, they launch the whirlpool towards their mouse cursor, which pierces infinitely and travels a short distance before popping, emitting glowing water dust in a large radius. The projectile can also travel through walls.
+
+{{modifier|melee}}
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}{{-}}{{Sea Remains}}{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Flails]]

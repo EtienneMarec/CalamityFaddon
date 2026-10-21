@@ -1,0 +1,52 @@
+{{infobox wrapper
+|{{item infobox
+| type = Tool
+| type2 = Weapon
+| damagetype = Melee
+| damage = 3725
+| knockback = 12
+| use = 25
+| axe = 3000
+| velocity = 1
+| critical = 22%
+| tooltip = Projects a directed stream of hardlight teeth at ultra high velocity<br/>This weapon and its projectiles function as a chainsaw
+| rare = 15
+| sell = {{value|0|30}}
+| stack = 1
+| hardmode = yes
+| postml = yes
+| proj = Photon Ripper Projectile.png
+| projcaption = Extraordinarily Cost-Inefficient Chainsaw
+| proj2 = Prism Tooth.png
+| proj2caption = Prism Tooth
+| element1 = Slash
+| element2 = Machine
+}}
+|{{item drops infobox
+| [[The Fabricational Quartet]] (Ares) | 1 | {{dv|50%|66.67%}}
+}}
+}}
+The '''Photon Ripper''' is a Godseeker Mode [[axes|chainsaw]] that drops from the [[The Fabricational Quartet]] after [[XF-09 Ares]] has been defeated last. It rapidly fires out rainbow teeth which circle back after passing through the cursor or past a set distance. The maximum set distance along with tooth damage increases as the weapon is used up to 3 seconds where it is fully charged. The tooth deals 6% damage initially and scales up to 16.67%, while the chainsaw itself deals full contact damage. Additionally, teeth projectiles will instantly remove trees.
+
+{{Modifier|meleealt}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+==Trivia ==
+*The chainsaw projectile itself is named "Extraordinarily Cost-Inefficient Chainsaw".
+*The function used by the Prism Tooth projectile for removing trees is named "AbsolutelyFuckingAnnihilateTrees".
+*The weapon has the highest base damage of any of the mod's melee weapons.
+
+[[File:Photon Ripper (demo).gif|frame|left|The Photon Ripper in use. Note the limited range of the teeth which extends over time.]]
+{{-}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}
+{{Master Template Weapons	
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Axes]]

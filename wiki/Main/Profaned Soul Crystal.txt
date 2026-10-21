@@ -1,0 +1,184 @@
+{{dedicated|MishiroUsui / Amber|Developer}}
+{{infobox wrapper
+|{{item infobox
+| image = Profaned Soul Crystal.gif
+| type = Covering
+| stack = 1
+| rare = 16
+| buy = {{value|0|0|0|0|10}}
+| sell = No value</br> {{value|0|40}} (once The Fabricational Quartet and Supreme Calamitas are defeated)
+| tooltip = Transforms you into an emissary of the profaned goddess<br/>Requires 10 minion slots to use in order to grant the following effects<br/>All non-summon weapons are converted into powerful summon variations<br/>Falling below 50% life will empower these attacks<br/>{{color|Transforms Melee attacks into a barrage of spears|#f05a5a}}<br/>{{color|Transforms Magic attacks into a powerful splitting fireball|#3a83e4}}<br/>{{color|Transforms Ranged attacks into a flurry of fireballs and meteors|#85e092}}<br/>{{color|Transforms Spy attacks into a deadly crystalline spiral|#e97451}}<br/>Summons and empowers the profaned babs to fight alongside you<br/>You are no longer affected by burn out when hit<br/>Provides buffs depending on the time of day<br/>Thinking back, it was a boring life<br/>{{color|And so we burn it all in the name of purity|#ffbf49}}
+| buff = Devotion|bufflink= no
+| duration = Infinite
+| bufftip = You are an emissary of the profaned goddess now!<br/>The light of the sun empowers your offensive capabilities
+| buff2 = The Profaned Soul
+| duration2 = Infinite
+| bufftip2 = The healer will heal your wounds (Only Healer)<br/>The Defensive Duo will protect and heal you! (Healer + Defensive)<br/>The Offensive Duo will fight for and heal you! (Healer + Offensive)<br/>The Profaned Babs will fight for and defend you! (All Three)
+| debuff = Burnt Out
+| debufftip = You've been burnt out and your guardians are less effective
+| debuffduration = 5 seconds (when hit before The Fabricational Quartet and Supreme Calamitas are defeated)
+| debuff2 = Holy Flames
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (On minion hits pre-The Fabricational Quartet and Supreme Calamitas)<br/>10 seconds (On minion hits post-The Fabricational Quartet and Supreme Calamitas)
+| debufftip2 = Dissolving from holy light
+| damage = 495/570/645
+| damagetype = Summon
+| hardmode = yes
+| postml = yes
+}}
+|{{item drops infobox
+| [[Providence]] (if defeated with only the [[Profaned Soul Artifact]] in singleplayer) | 1 | {{expert|100%}}
+}}
+}}
+{{summoned|type=minion|Healer Guardian|minion2=Defensive Guardian|minion3=Offensive Guardian}}
+<big> ''"The Profaned Goddess has recognised your devotion to purity!"'' </big>
+
+The '''Profaned Soul Crystal''' is a craftable Godseeker Mode [[covering]] that can also be bought from the [[Starborn Princess]] {{fantag|Calamity: Community Remix}} after having defeated both [[Supreme Calamitas]] and the [[The Fabricational Quartet]] for {{value|0|0|0|0|10}}.
+
+The Profaned Soul Crystal has two distinct states dependent on whether or not the [[The Fabricational Quartet]] and [[Supreme Calamitas]] have been defeated in the world. Before defeating them, the covering is entirely vanity. After defeating them, the covering gains extensive combat functionality.
+
+=== Pre-The Fabricational Quartet and Supreme Calamitas ===
+While equipped before the The Fabricational Quartet and Supreme Calamitas have been defeated, the player is granted several purely aesthetic effects with no functional benefits. The miniature Profaned Guardians from the Profaned Soul Artifact will be summoned, but they will not have any combat behavior and essentially serve as [[pets]]. Additionally, the covering transforms the player into an "emissary of the profaned goddess" while equipped, visually granting them holy flame wings, converting their legs into holy flames, and turning their head and body into stone.
+
+=== Post-The Fabricational Quartet and Supreme Calamitas ===
+When equipped after the The Fabricational Quartet and Supreme Calamitas have been defeated, and the player has over 10 free minion slots, they will be granted extensive new benefits. They will be granted the full functionality of the [[Profaned Soul Artifact]], and using any non-[[Summon weapons|summon]] [[weapon]] with auto-reuse will instead perform a unique attack depending on the weapon's damage type. All of these attacks deal and scale off of Summon damage. Additionally, the player may right-click while holding weapons of any class to direct minions to target the entity nearest to the cursor, in a similar manner to summon weapons.
+
+Attacks have a chance for the guardians to form a '''Spear Burst''', causing 6 and 12 homing spears to appear from the Defense and Offense guardians respectively. Each spear deals 50% of the guardian's damage and will not damage nor home into enemies until 0.83 seconds have passed. The chance for a spear burst to occur, along with other stats is listed below:
+
+==== Attack Types ====
+{| class="terraria lined"
+|-
+! Class !! Behavior !! Damage !! Use Time !! Spear Burst Chance !! Notes
+|-
+| {{color|Melee|#f05a5a}}
+|
+*Fires an accelerating {{item|HolySpear|nolink=y|size=12px|Holy Spear}} that pierces twice and pass through tiles.
+*Every 5th shot fires a spread of five non-piercing spears.
+*Each spears have a 14.29% chance to spawn 10 more spears to encircle a target when they are struck.
+| 250 (Main)<br/>350 (Shotgun barrage)<br/>25% of projectile (Encirclement)
+| 6
+| 1/(10 * remaining pierce) (Main)<br/>1/10 (Shotgun)<br/>1/20 (Encirclement)
+|
+*While enraged, the use time reduces to 4.
+|-
+| {{color|Ranged|#85e092}}
+|
+*Has a 50% chance to fire holy fireballs every frame in a large cone, averaging 30 fireballs per second.
+*Fireballs have a 20% chance to be replaced with small meteors and 5% chance to be replaced with large meteors.
+*Large meteors causes 6-9 more meteors to rain on the target they are struck.
+| 200 (Main attacks)<br/>300 (Raining Meteors)
+| 1
+| 1 (Large Meteor)<br/>1/10 (Small Meteor)<br/>1/50 (Holy Fireballs)
+|
+*While enraged, fireballs have a 100% chance to spawn, and meteors have a 30% chance to replace fireballs.
+|-
+| {{color|Magic|#3a83e4}}
+|
+*Fires a {{item|HolyBlast|nolink=y|ext=gif|size=48px|Holy Blast}} which briefly passes through tiles, explodes on contact with water or honey, and lasts 1.25 seconds.
+*When exploded, two concentric rings of 18 (10 outer and 8 inner) {{item|HolyFire2|nolink=y|ext=gif|size=16px|Holy Fire}} which home into enemies.
+*Costs a total of 100 mana to perform the attack, affected by reduced mana cost, Silence, and Mana Sickness.
+| 900 (Holy Blast)<br/>2% of projectile (Holy Fire)
+| 25
+| 1 (Holy Blast)<br/>1/35 (Holy Fire)
+|
+*While enraged, the use time reduces to 20 and the Holy Fire rings doubling in count to 36, each dealing 4% damage.
+*When a target is struck by the Holy Blast itself, Holy Fire damage increases to 12% (8% while enraged).
+|-
+| {{color|Spy|#e97451}}
+|
+*Fires a crystal shard starting towards the right of the screen, each time rotating by 20° to complete a circle of 18 shards.
+*Every 18th shot, a ring of 36 crystal shards are released, behaving identically to the ones previously fired.
+*Crystal Shards will not damage nor home into enemies until 1.5 seconds have passed.
+| 220 (Main Shards)<br/>176 (Shard Ring)
+| 25
+| 1/10 (Main Shards)
+|
+*While enraged, the crystals rotate by 200° to complete a circle of 9 shards, and releases a circle before every 14th shot.
+|}
+
+The player becomes immune to the following [[debuff]]s: [[On Fire!]], [[Burning]], [[Daybroken]], [[Holy Flames]] (during the day), [[Nightwither]] (during the night).
+
+The player is also granted the functionality of the [[Lava Charm]] and [[Obsidian Rose]].
+
+During the day, the player receives several offensive bonuses. The player will also receive these bonuses while submerged in [[lava]] regardless of the time.
+*15% boosted minion damage and knockback
+*25% increased movement speed
+*10% increased flight time
+*Ignore water physics
+*-15 defense
+
+During the night, the player receives several defensive bonuses. The player will also receive these bonuses while submerged in [[water]] or [[honey]] regardless of the time.
+*+15 defense
+*+5% damage reduction
+*+5 life regeneration
+*-15% movement speed
+
+When brought below half health, the player will become enraged, causing them to emit bright particles and empowering all of the weapon attacks with increased fire rates and functional buffs.
+
+== Crafting ==
+
+=== Recipe ===
+{{Recipes|result={{PAGENAME}}|view=infobox}}
+
+== Notes ==
+*Though the drop method requires the world to be in Expert Mode, the item can still be crafted in Normal Mode.
+*This covering and the Profaned Soul Artifact cannot be equipped at the same time, due to the inherited function.
+*This covering emits a massive amount of light while equipped with 10 or more minion slots.
+*If the player dies while this covering is equipped, their death message will read "<PlayerName> was summoned too soon."
+*[[Gael's Greatsword]] retains its [[Rage Meter]] buildup and unique Rage Mode attack.
+*For the Profaned Soul Crystal to drop from Providence, the player ''is'' allowed to damage her with other weapons, as long as the damage dealt is less than 1% of Providence's max health.
+*The item's tooltip changes if the The Fabricational Quartet and/or Supreme Calamitas have not been defeated:
+**If The Fabricational Quartet have not been defeated:
+***"Transforms you into an emissary of the profaned goddess<br/>{{color|The soul within this crystal has been defiled by overwhelming energy waves from dangerous mechanations|#f05a5a}}<br/>Merchants will reject a defiled soul such as this."
+**If The Fabricational Quartet have been defeated, but Supreme Calamitas has not:
+***"Transforms you into an emissary of the profaned goddess<br/>{{color|The soul within this crystal has been defiled by the powerful magic of a supreme witch|#f05a5a}}<br/>Merchants will reject a defiled soul such as this."
+*After the The Fabricational Quartet and Supreme Calamitas have been defeated:
+**While this covering is equipped, the player will be exempt from [[Vanilla changes#Minions|Calamity's nerf]] to minion damage while holding a non-summon weapon.
+**Defense and Offense guardians stop performing Spear Bursts while the [[Endogenesis]]' minion is active.
+**The damage from the player's weapon attacks is reduced to the following while the player has minions from the Endogenesis or [[Temporal Umbrella]] active, for balancing purposes.
+***Main spears: 250 to 125
+***Shotgun spears: 350 to 175
+***Main Meteors and Fireballs: 200 to 100
+***Raining Meteors: 300 to 200
+***Holy Blast: 900 to 450
+***Main Shards: 220 to 110
+***Shard Ring: 176 to 88
+**The player takes slightly increased damage over time from [[God Slayer Inferno]], -17.5 health per second instead of -15.
+**The damage of the Profaned Guardian minions technically scales from 495 to 570 after [[The Devourer of Gods]] and 570 to to 645 after [[Jungle Dragon, Yharon]] are defeated, just like the base covering, although this is never seen during normal gameplay as the minions do not deal damage until the The Fabricational Quartet and Supreme Calamitas have been defeated.
+**In [[Death Mode]], the player will be granted hot and cold immunity and they will reduce underground darkness. The darkness reduction is greater during the day or while the player is submerged in [[lava]].
+**If the player's name is "Amber", "Nincity", "IbanPlay", or "Chen", they will emit different particles when they are enraged. These are the names of people who helped create or test the Profaned Soul Crystal.
+**If the player's name is "Nova", holy spears are replaced with The Devourer of Gods' cosmic fireballs.
+*The ''Devotion'' buff tooltip changes depending on various circumstances. Those higher in the following list take priority.
+**"The soul within this crystal has been defiled by overwhelming energy waves from dangerous mechanations" (If The Fabricational Quartet have not been defeated)
+**"The profaned soul within has been defiled by the powerful magic of a supreme witch" (If Supreme Calamitas has not been defeated)
+**"Your profaned soul is constrained by your insufficient summoning powers" (If the player has fewer than ten available minion slots)
+**"An ascended ice construct is suppressing your true potential.." (If the Endo Cooper minion is active)
+**"A magical hat overwhelms your senses, squandering your true potential.." (If the Magic Hat minion is active)
+**If none of the above apply, the buff takes up several lines always starting with: "You are an emissary of the profaned goddess now!"
+***The second line is any of the following:
+****"The light of the sun empowers your offensive capabilities" (During the day if not submerged in water or honey)
+****"The heat of the lava empowers your offensive capabilities" (If submerged in lava)
+****"The darkness of night cools your flames, empowering your defensive capabilities" (During the night if not submerged in lava)
+****"The water douses your flames, empowering your defensive capabilities" (If submerged in water)
+****"The honey cools your flames, empowering your defensive capabilities" (If submerged in honey)
+***The third line appears if the player is under half health.
+****"Your weakened life force fuels your desperate attacks"
+
+== Trivia ==
+*The death message and flame leg design are references to [https://wow.gamepedia.com/Ragnaros Ragnaros] from ''[[wikipedia:World of Warcraft|World of Warcraft]]''.
+*The use of the word "defiled" in the Devotion buff's tooltip is a reference to the dedicatee, MishiroUsui (aka Amber), being the first player to no-hit all [[bosses]] while the Defiled Rune was active.
+*The tooltip's quote "Thinking back, it was a boring life" is a reference to the main character of the game ''Blank Dream'', who is named "Mishiro Usui," the dedicatee's namesake.
+*This covering actually has a unique rarity, but is referred to here as Hot Pink for consistency between coverings.
+**This unique rarity alternates between amber ({{color|#ffa600 ●|#ffa600}}) and emerald ({{color|#19fa19 ●|#19fa19}}) colors.
+
+== Video ==
+This is a video demonstrating the different weapon function effects of the Profaned Soul Crystal against a [[Super Dummy]], followed by the covering being used throughout the entirety of the [[Boss Rush]].
+{{#ev:youtube|gzdKTfmCZxs}}
+{{-}}
+{{Shadowspec}}
+{{Master Template Equipables
+|show-main = yes
+|show-combat = yes
+}}
+[[Category:Combat coverings]]
+[[Category:Defensive coverings]]

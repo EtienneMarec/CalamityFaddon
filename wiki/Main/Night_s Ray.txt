@@ -1,0 +1,37 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Magic
+| rare = 4
+| sell = {{value|0|2|40}}
+| damage = 24
+| velocity = 6
+| tooltip = Fires a dark ray<br/> When hitting enemies, they are hit by several new beams from their side
+| use = 20
+| knockback = 3.25
+| mana = 10
+| auto = yes
+| stack = 1
+| element1 = Unholy
+}}
+
+The '''Night's Ray''' is a craftable [[Pre-Hardmode]] [[wand]]. It creates a purple particle beam whichs creates 4 homing, non-piercing beams upon hitting an enemy. Hitting more than one enemy will not create more beams. It is made with [[Rotten Matter]] in [[Corruption]] worlds and is the Corruption counterpart to the [[Carnage Ray]].
+
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The accuracy of the homing beams and the infinite piercing means it can easily damage all of [[The Hungry|The Hungries]] during the [[Wall of Flesh]] fight.
+*It can be considered one of the strongest Pre-Hardmode magic weapons due to its high DPS.
+{{Night's}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic= yes
+}}
+[[Category: Wands]]

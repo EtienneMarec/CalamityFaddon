@@ -1,0 +1,37 @@
+{{item infobox
+| auto = yes
+| type = Weapon
+| damagetype = Melee
+| damage = 33
+| knockback = 5
+| rare = 2
+| sell = {{value|0|0|40}}
+| stack = 1
+| research = 1
+| use = 25
+| tooltip = Poisons enemies on hit<br/>Aiming the spear in front of you while running holds it down with increased knockback<br/>Releasing the attack button after the charge makes an upwards slash, sending enemies flying into the air<br/>{{color|The people of the sea were adept hunters, but they abhorred unnecessary violence.|#5C95A1}}<br/>{{color|Unfortunately, neighboring nations were brutish, so they fashioned their tools for war.|#5C95A1}}
+| velocity = 4
+| debuff = Poisoned
+| debuffchance = 100%
+| debuffduration = 3 seconds
+| debufftip = Slowly losing life
+| sound = Dd2 javelin throwers attack 0.wav
+| soundtext = Forward thrust
+| sound2 = Dd2 book staff twister loop.wav
+| sound2text = Running charge
+| sound3 = Dd2 monk staff swing 0.wav
+| sound3text = Upward thrust
+| element1 = Water
+| element2 = Stab
+}}The '''Redtide Spear''' is a craftable [[Pre-Hardmode]] [[spear]]. When used, it acts like a normal spear. However, if held in the direction the player is running, the player will hold the spear in front of them, dealing 35% increased knockback. If the player stops holding, the spear will launch enemies in front of it into the air, dealing up to 50 bonus damage when they fall back to the ground.
+
+{{modifier|meleealt}}
+==Crafting==
+===Recipe===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+==Trivia==
+*[[wikipedia:Red_tide|Red tide]] is the term given to the occurrence of algal blooms, which are normally harmful to marine wildlife.
+{{-}}{{Sea Remains}}{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}

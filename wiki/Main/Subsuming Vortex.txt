@@ -1,0 +1,58 @@
+{{item infobox
+| type = Weapon
+| damage = 1020
+| damagetype = magic
+| auto = yes
+| knockback = 0
+| velocity = 1
+| mana = 78
+| stack = 1
+| tooltip = Summons a colossal vortex around the player while held<br/>Nearby enemies are sucked into the vortex and are attacked by a flurry of exo tentacles
+| rare = 15
+| sell = {{value|0|30}}
+| proj = Subsuming Vortex Vortex.png
+| projcaption = Small Vortex
+| proj2 = Subsuming Vortex Large Vortex.gif
+| proj2caption = Large Vortex
+| proj2size = 160px
+| use = 60
+| hardmode = yes
+| postml = yes
+| debuff = Exo Freeze
+| debuffduration = 0.5 seconds
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 2 seconds
+| debuffchance2 = 100%
+| debuff3 = Frostburn
+| debuffduration3 = 2.5 seconds
+| debuffchance3 = 100%
+| debuff4 = On Fire!
+| debuffduration4 = 3 seconds
+| debuffchance4 = 100%
+| element1 = Magic
+| element2 = Cold
+| element3 = Slash
+| element4 = Machine
+}}
+
+The '''Subsuming Vortex''' is a craftable Godseeker Mode [[spell tome]] that, on use, creates a large rainbow vortex and 4 exo tentacles around the player. When an enemy comes within 20 tiles of the vortex, they are pulled inwards and have their contact damage removed. The exo tentacles extend outwards and whip enemies, dealing damage. The vortex disappears once the player runs out of mana or stops holding the weapon.
+{{Modifier|magic}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*In previous versions of the mod, this weapon fired a large vortex which split into multiple vortices.
+**Before that, it fired two rebounding vortices that would home-in onto enemies similarly to the [[Razorblade Typhoon]].
+
+{{Exo}}
+{{Master Template Weapons
+|show-main = yes
+|show-magic = yes
+}}
+[[Category:Spell tomes]]

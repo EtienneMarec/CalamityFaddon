@@ -1,0 +1,30 @@
+{{Historical content}}
+{{Addon|Tranquility Mod}}
+{{item infobox
+| type = Weapon
+| tooltip = Incinerates your foes with the holy fire.<br>90% chance to not consume gel.
+| damagetype = ranged
+| damage = 175
+| use = 10
+| knockback = 0
+| rare = 12
+| sell = {{value|0|50}}
+| auto = yes
+| velocity = 20
+| stack = 1
+| hardmode = yes
+| postml = yes
+| debuff2 = Holy Flames
+| debufftip2 = Dissolving from holy light
+| debuffchance2 = 100%
+| debuffduration2 = 3 seconds
+}}
+{{item drops infobox
+| [[Providence, the Profaned Goddess]]|1|{{dv|25%|33.33%}}
+}}
+The '''Holy Purge''' is a Post-[[tgc:Moon Lord|Moon Lord]] [[Flamethrowers|flamethrower]] dropped by [[Providence, the Profaned Goddess]]. It fires a stream of long-ranged orange-yellow flames that pierce infinitely but can not pass through tiles. The flames inflicts the [[Holy Flames]] [[debuffs|debuff]] on enemy hits.
+
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}

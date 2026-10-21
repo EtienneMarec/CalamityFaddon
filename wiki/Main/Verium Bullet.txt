@@ -1,0 +1,30 @@
+{{item infobox
+| type = Ammunition
+| damage = 9
+| damagetype = ranged
+| tooltip = There is no escape!<br/>Homes in after striking an enemy
+| stack = 9999
+|consumable = yes
+| knockback = 1.25
+| sell = {{value|0|0|0|12}}
+| rare = 3
+| velocity = 16
+| velocitymult = 2
+| hardmode = yes
+| proj = Verium Bullet (projectile).png
+| projcaption = Verium Bullet
+}}
+
+'''Verium Bullets''' are a type of [[Hardmode]] [[bullet]]. They pierce once, and possess the ability to home into the previously-struck target within a short period after the first hit. The second hit deals half damage of the first hit.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{-}}
+{{Cryonic}}
+{{Master Template Consumables
+|show-main=yes
+|show-ammo=yes
+}}
+[[Category:Bullets]]

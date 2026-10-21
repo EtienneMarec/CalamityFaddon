@@ -1,0 +1,32 @@
+{{item infobox
+| type = Weapon
+| auto = yes
+| damage = 16
+| damagetype = Magic
+| velocity = 12
+| knockback = 2.5
+| use = 15
+| tooltip = Casts inaccurate water bolts
+| rare = 2
+| stack = 1
+| mana = 4
+| buy = {{value|0|2}}
+| sell = {{value|0|0|40}}
+| proj = Waywasher Bolt.png
+| projcaption = Waywasher Bolt
+| element1 = Water
+}}
+
+The Waywasher is a [[Pre-Hardmode]] [[spell tome]] sold by the [[Sea King]] NPC. The spell tome rapidly fires water bolts within a small spread that pierce once before being destroyed.
+
+{{Modifier|magiclow}}
+
+== Trivia ==
+*There appears to be an image of a wave on the front cover.
+
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-magic = yes
+}}
+[[Category:Spell tomes]]

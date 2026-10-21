@@ -1,0 +1,29 @@
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| damage = 12
+| damagetype = Ranged
+| knockback = 2.5
+| velocity = 16
+| use = 25
+| rare = 2
+| sell = {{value|0|0|40}}
+| tooltip = Fires slow-moving water blasts
+| element1 = Water
+}}
+
+The '''Seabow''' is a craftable [[Pre-Hardmode]] [[bow]] that auto-fires, with an additional short-ranged water blast every fire. The water blast's velocity varies with the velocity of arrow type.
+
+{{Modifier|ranged}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+{{Victide}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Bows]]

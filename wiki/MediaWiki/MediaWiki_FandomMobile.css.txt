@@ -1,0 +1,27 @@
+.infobox {
+    border: 1px #AAA solid;
+    padding: 0.2em;
+    width: 100% !important;
+}
+.infobox > .title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 150%;
+}
+.infobox > .section > .title {
+	font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+}
+.infobox ul {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+}
+.item.infobox .images ul.inline li {
+    display: inline-block;
+    padding: 0 8px 0 9px;
+    margin: 2px auto;
+    position: relative;
+    vertical-align: middle;
+}

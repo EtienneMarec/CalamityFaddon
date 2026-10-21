@@ -1,0 +1,42 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| auto = yes
+| stack = 1
+| type = Weapon
+| damage = 3400
+| damagetype = Ranged
+| knockback = 10
+| use = 48
+| velocity = 30
+| tooltip = Your enemies can only pray, oh, you shot their arms off
+| rare = C2
+| sell = {{value|50}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| debuff = Nightclear
+| debuffduration = 5 seconds
+| debuffchance = 100%
+| debuff2 = Holy Flames
+| debuffduration2 = 5 seconds
+| debuffchance2 = 100%
+| debuff3 = Evercold
+| debuffduration3 = 5 seconds
+| debuffchance3 = 100%
+| element1 = Holy
+| element2 = Water
+}}
+The '''Sky Clearer''' is a craftable Post-[[Purgatory Arbiter, Umbrus]] [[gun]]. It slowly fires homing bullets that explode into 3 more once they hit anything.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+{{Stiriatic}}
+{{Master Template Weapons
+| show-main = yes
+| show-ranged = yes
+}}
+[[Category:Guns]]

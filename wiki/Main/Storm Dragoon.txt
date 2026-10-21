@@ -1,0 +1,38 @@
+{{infobox wrapper
+|{{item infobox	
+| type = Weapon
+| damage = 62
+| damagetype = Ranged
+| knockback = 3.25
+| stack = 1
+| rare = 12
+| sell = {{value|0|24}}
+| auto = yes
+| tooltip = Fires a spray of bullets<br/>90% chance to not consume ammo
+| use = 20
+| velocity = 18
+| hardmode = yes
+| postml = yes
+| element1 = Magic
+| element2 = Stab
+| element3 = Electricity
+}}
+|{{item drops infobox
+| [[Storm Weaver]]|1|{{dv|25%|33.33%}}
+}}
+}}
+
+The '''Storm Dragoon''' is a Godseeker Mode [[gun]] that drops from the [[Storm Weaver]]. It fires 5 bullets every volley, with a 90% chance to not consume ammo for each bullet. Each bullet has a use time of 2.
+
+{{Modifier|ranged}}
+
+== Notes ==
+*Due to its quick fire rate and great damage, it can be used to kill large groups of [[enemies]] very quickly when paired with [[Luminite Bullet]]s.
+*Its high chance not to consume ammo allows freer use of expensive or otherwise hard to obtain bullets. For further efficiency, its ammo consumption chance can easily be increased past 100%.
+{{-}}
+{{Master Template Weapons
+|show-main = yes
+|show-ranged = yes
+}}
+
+[[Category:Guns]]

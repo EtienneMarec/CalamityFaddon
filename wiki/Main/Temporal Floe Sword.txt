@@ -1,0 +1,48 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Melee
+| damage = 95
+| use = 15
+| velocity = 16
+| knockback = 6
+| auto = yes
+| stack = 1
+| tooltip = The iceman cometh...<br/>Fires a frozen sword beam that splits into two more beams<br/>The direction of the beams depends on in game time
+| rare = 8
+| sell = {{value|0|16}}
+| debuff = Glacial State
+| debuffchance = 100%
+| debuffduration = 1 second (Contact)<br/>0.5 seconds (Beams)
+| debufftip = Cannot move and defense is shattered
+| debuff2 = Frostburn
+| debuffchance2 = 100%
+| debuffduration2 = 5 seconds (Contact)<br/>3 seconds (Main Beam)<br/>2 seconds (Split Beam)
+| debufftip2 = It's either really hot or really cold. Either way it REALLY hurts
+| hardmode = yes
+| proj = Temporal Floe Beam.png
+| projcaption = Temporal Floe Beam
+| element1 = Magic
+| element2 = Slash
+}}
+
+The '''Temporal Floe Sword''' is a craftable [[Hardmode]] [[broadsword]] that autoswings. It fires an ice beam that deals 65% of the blade's damage. Upon contact with an enemy or tile, the beam splits into two more beams that deal 32.5% of the sword's damage. The direction that the beams split into is based on the in-game time and an analog clock, with each minute changing the angle of the first beam by 6 degrees, and each hour changing the angle of the second beam by 15 degrees, clockwise starting at 12:00 PM.
+
+{{modifier|melee}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Trivia ==
+*The tooltip is likely a reference to ''[[wikipedia:The Iceman Cometh|The Iceman Cometh]]'', a play that premiered in October 1946.
+
+{{Master Template Weapons
+| show-main = yes
+| show-melee = yes
+}}
+[[Category:Swords]]
+[[zh:浮冰之刃]]

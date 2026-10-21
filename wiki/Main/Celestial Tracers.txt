@@ -1,0 +1,39 @@
+{{item infobox
+| imagealt = [[File:Celestial Tracers.png|inventory icon]]&nbsp;&nbsp;&nbsp;[[File:Celestial Tracers (wings).png|frameless]]
+| type = Covering
+| tooltip = Talking speed EVEN FURTHER BEYOND!<br/>Counts as wings<br/>Horizontal speed: 12<br/>Acceleration multiplier: 3<br/>Excellent vertical speed<br/>Flight time: 250<br/>50% increased running acceleration<br/>Greater mobility on ice<br/>Water and lava walking<br/>Immunity to the On Fire! debuff<br/>Temporary immunity to lava<br/>Being hit for over 200 damage will make you immune for an extended period of time
+| stack = 1
+| sell = {{value|0|30}}
+| rare = 15
+| hardmode = yes
+| postml = yes
+}}
+
+The '''Celestial Tracers''' are a craftable Godseeker Mode [[covering]] that count as [[Wings]] and the upgrade of the [[Elysian Tracers]]. They provide immunity to the [[On Fire!]] [[debuff]], 4 seconds of immunity to lava and the ability to walk on water. While equipped, the player gains very fast speed on land, ice, water and lava. If a player is hit with 200 or more damage, they receive 30 extra [[immunity frames]]. Wearing these boots boosts maximum movement speed and acceleration by 10%, allowing the player to reach up to 53 mph while running.
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*Despite [[Jungle Dragon, Yharon]] and [[Supreme Calamitas]] using non-standard [[Immunity frames#cooldownSlot|immunity frames cooldown slot]]s, therefore making them ignore almost all normal immunity frame extensions, the immunity frames granted by the Celestial Tracers will still extend the player's immune time when hit by those bosses' projectiles.
+*Despite being an upgrade to the [[Angel Treads]], Celestial Tracers do not inherit the [[Rocket Boots]] nor [[Harpy Ring]].
+*The lava immunity stacks with other items that grant temporary lava immunity including the [[Lava Charm]], [[Lava Waders]], and Angel Treads.
+
+== Tips ==
+*Celestial Tracers have near-identical wing stats to [[Drew's Wings]], except that Drew's Wings have a higher flight time by 111 frames. However, Celestial Tracers have improved aerial horizontal acceleration to Drew's Wings due to inherited boot functionality.
+**Due to this, some players may prefer using Drew's Wings against Supreme Calamitas instead of the Celestial Tracers, not only for the increased flight time but also the reduced acceleration giving players tighter control over their movement.
+
+== Trivia ==
+*Having Celestial Tracers' visibility toggled on allows it to produce all of its particle effects, even if another pair of wings are equipped in vanity.
+*The quote in the item's tooltip is a reference to the anime [[wikipedia:Dragon Ball Z|Dragon Ball Z]].
+
+{{auric}}
+{{Master Template Equipables
+| show-main = yes
+| show-coverings = yes
+}}
+[[Category:Movement coverings]]

@@ -1,0 +1,40 @@
+{{infobox wrapper
+|{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damagetype = Summon
+| damage = 35
+| knockback = 2
+| mana = 10
+| rare = 4
+| sell = {{value|0|2|40}}
+| auto = yes
+| use = 24
+| stack = 1
+| tooltip = Summons an ice clasper to fight for you
+| buff = Ice Clasper (buff)| bufflink = no
+| bufftip = The ice clasper will protect you
+| hardmode = yes
+| element1 = Cold
+| element2 = Smash
+}}
+|{{item drops infobox
+| [[Ice Clasper]]|1|33.33%
+}}
+}}
+{{summoned|Ice Clasper (minion)|type=minion}}
+{{dablink|For the enemy that drops this item, see [[Ice Clasper|here]].}}
+
+The '''Ancient Ice Chunk''' is a [[Hardmode]] [[summon weapon]] that drops from [[Ice Clasper]]s. It summons a flying Ice Clasper that follows the player. It deals damage by dashing through enemies and moving in an erratic pattern.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}
+[[zh:千载寒晶]]

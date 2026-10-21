@@ -1,0 +1,109 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{Npc infobox
+| type = Superboss
+| ai = Sodis AI
+| damage = {{dv|600|680|740|820}} (Contact) {{dv||400|500|600}} (Stars) {{dv||||800}} (Wheel) {{dv||||500}} (Laser) {{dv|500|580|660|720}} (Circle of Summons) {{dv||450|600|750}} (Giant Projectile) {{dv||200|300|400}} (Small Projectile) {{dv|440|560|680|800}} (Cyerce Rocket) 
+| life = {{dv|6,400,000|8,400,000|10,400,000|12,400,000}}
+| defense = 80
+| knockback = 100
+| debuff = Reactive Flames
+| debuffchance = 100%
+| duration = 5 seconds
+| debufftip = Little fire particles are reacting all over you
+| debuff2 = Eradication
+| debuffchance2 = 100%
+| duration2 = 2 seconds (Wave attack)
+| debufftip2 = You're getting destroyed by powers that go against all rules of humanity
+| money = {{pc|30}}
+| hardmode = yes
+| postml = yes
+| epilogue = yes
+| Bloodred Reactive Core| {{dv|5|10|15|20}} | 100%
+| Accidated Reactive Core| {{dv|5|10|15|20}} | 100%
+| Noctic Reactive Core| {{dv|5|10|15|20}} | 100%
+| Waterfreeze Reactive Core| {{dv|5|10|15|20}} | 100%
+| Mantis Leg Plate| 1 | 100% (Revengeance Mode only)
+|group|At least one of the following 5 weapons will always drop:|5
+| Bloodsharper | 1| 20%
+| Reactor Accelerator| 1| 20%
+| Spiralis| 1| 20%
+| Microsodic Staff| 1| 20%
+| Sodis Trophy| 1| 10%
+| Sodis Relic| 1| {{master|100%}}
+| Treasure Bag(Reactive Guardian, Sodis) | 1 | {{expert|100%}}
+| image2 = Sodis map.png
+| image2caption = Map Icon
+}}
+'''Reactive Guardian, Sodis''' (Japanese: リアクティブガーディアン、ソディス ''Riakutibugādian, sodisu'') is an Epilogue [[Superbosses|Superboss]] that takes the appearance of a mix between a Mantis and a Human.
+==Spawn==
+Sodis doesn't spawn on its own and requires the player to drop the [[Artificial Reactive Matter]] onto the fully completed [[Aquatic Hypercomputer]]. The computer will create a glowing circle above it, and Sodis will jump from below the ground and steal the circle.
+==Behavior==
+If the player is too far above Sodis, it will charge for 2 seconds and perform a large jump, casting several Reactive Flames around itself.
+
+==== Phase 1  ====
+({{dv|100%-60%||100-80%}} HP) 
+*Sodis will try to run away from the player, all the while leaving behind Reactive Flames.
+*It performs {{dv|3|5}} high jumps that create long shockwaves.
+*It stands in one place and fires {{dv||8|11|14}} homing stars at the player. (Expert Mode only)
+*It will create a big wheel that shoots lasers in random directions. (Death Mode only)
+
+====Phase 2 ====
+({{dv|60%-30%||80-55%}} HP)
+
+* The boss will shoot a large circle upwards that explodes into {{dv|4|6}} small Reactive Minions.
+* It runs at the player in an attempt to deal contact damage.
+* It charges up for {{dv||7|5|3}} seconds before firing a giant projectile that leaves a trail behind it and shoots small projectiles up and down. (Expert Mode only)
+* It will crawl very slowly and shoot Reactive Lasers out of its mouth. (Death Mode only)
+
+==== Phase 3 ====
+({{dv|30%-0%||55%-30%}}) HP
+
+* The boss fires {{dv|2|4}} projectiles that fly in a wave-like pattern and, after 4 seconds, explode into small projectiles.
+* It will teleport around, leaving behind small Reactive Minions.
+* It will rain Reactive Flames from the sky. (Expert Mode only)
+* It will create a wall of Reactive Flames that stays stationary for 5 seconds. After that, the Reactive Flames will disperse in random directions. (Death Mode only)
+
+==== Phase 4 (Revengeance Mode only) ====
+({{dv|||30%-0%}}) HP
+
+The boss creates 4 clones of itself that are recolored versions of the boss colored after the Reactive Essences. The clones can't be damaged, but when Sodis himself is hurt he takes 2 times more damage and swaps places with a random clone after 1 second.
+
+Sodis attacks: 
+* Runs away from the player, leaving behind Reactive Flames on the ground.
+* Casts a projectile that creates 4 Reactive Lasers. The projectile flies very slowly and cannot be destroyed. (Death Mode only)
+
+Blood-red clone attacks:
+* Runs towards the player, casting firing flames at them.
+* Jumps onto the player and sticks to them, inflicting the Confused debuff. (Death mode only)
+
+Acidated clone attacks:
+* Creates smaller copies of itself that shoot projectiles towards the player and dissapear after 10 seconds.
+* Creates smaller copies of itself that heal Sodis and disappear after 5 seconds. (Death mode only)
+
+Noctic clone attacks:
+* Randomly teleports around the screen every second and runs towards the player to deal contact damage. While teleporting, it has a 20% chance to appear upside down. If there are no blocks below it, it will create temporary blocks to stand on.
+* Shoots insanely fast projectiles that change direction randomly every 0.4 seconds. (Death mode only)
+* Teleports behind the player, and runs towards them, switching gravity and placing temporary blocks.
+
+Waterfreeze clone attacks:
+* Shoots darts toward the player that leave behind Reactive Flames that fall to the ground, similar to Cursed Darts.
+* Casts a giant slow missile that flies towards the player and explodes on collision. (Death mode only)
+
+
+After Sodis dies, all of its clones except Noctic disappear. The Noctic clone teleports around wildly for 5 seconds before teleporting behind the player and rushing at them. However, before it can reach the player, a big rhombus-shaped portal appears that sucks Noctic in, defeating the boss.
+==Summons==
+{| class="terraria"
+! Image !! Name 
+|-
+| align = center |{{item|mode=table|Reactive Minion}}||
+|-
+|}
+
+==Aftermath==
+*Natrisodic Cluster Ore generates in the [[Cavern]] layer
+
+==Trivia==
+* One of the bosses attacks is similar to the Cyerce's main cannon from the game Mindustry.
+* Sodis is considered a '''"Superboss"''' in this mod. In some RPG games, Superbosses are extremely powerful enemies that are very challenging even if the player has endgame equipment.
+**It shares this trait with the following bosses: [[Adult Eidolon Wyrm]], [[Vision of the Tyrant]], [[Purgatory Arbiter, Umbrus]], [[Disgusting Creature: Dron]], [[Esserwyrm]], [[Nihil, the Fathomless Seeker]], and [[Exodygen]].
+{{Ctota}}

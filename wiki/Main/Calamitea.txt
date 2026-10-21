@@ -1,0 +1,24 @@
+{{item infobox
+| type = Potion
+| stack = 999
+| rare = 10
+| hardmode = no
+| postml = yes
+| tooltip = Quite the calamity<br/>Grants Exquisitely Stuffed
+| buff = Exquisitely Stuffed
+| duration = 15 minutes
+| bufftip = Major improvements to all stats<br/>{{expert|Major improvements to all stats and increased life regeneration}}
+| sell = No value
+| use = 17
+}}
+{{item drops infobox
+|[[Unstable Calamity]] |3|100%
+|[[Supreme Calamitas]] |10|100%
+}}
+
+'''Calamitea''' is a consumable [[food item]] that drops from the [[Unstable Calamity]] and [[Supreme Calamitas]]. When consumed, it grants the [[Exquisitely Stuffed]] buff for 30 minutes.
+
+{{Master Template Consumables
+| show-main = yes
+| show-potion=yes
+}}

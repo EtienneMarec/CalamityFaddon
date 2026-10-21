@@ -1,0 +1,54 @@
+{{item infobox	
+| type = Weapon
+| type2 = Crafting material
+| damage = 171
+| damagetype = Summon
+| knockback = 4
+| stack = 1
+| mana = 10
+| rare = 14
+| sell = {{value|0|28}}
+| use = 9
+| velocity = 10
+| tooltip = Gain absolute control over light itself<br/>Summons a radiant aura<br/>Consumes all of the remaining minion slots on use<br/>Must be used from the hotbar<br/>Increased power based on the number of minion slots used
+| hardmode = yes
+| postml = yes
+| buff = Saros Possession (buff) | bufflink = no
+| bufftip = A radiant aura protects you
+| proj = Radiant Orb.gif
+| projcaption = Radiant Orb
+| element1 = Holy
+| element2 = Dark
+| element3 = Magic
+}}
+{{summoned|Radiant Aura (minion)|type=minion}}
+
+'''Saros Possession''' is a craftable Godseeker Mode [[summon weapon]] and the direct upgrade to [[Sirius]]. It summons a spinning radiant aura around the player that fires two homing flares towards enemies. Homing radiant orbs will occasionally be summoned from a random position near the aura, alongside a wave of three flares. Summoning the Saros Possession will consume all remaining minion slots, with the number of slots consumed increasing the damage of both the flares and the radiant orbs.
+
+{{Modifier|summon}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+== Notes ==
+*The player glows incredibly bright while the radiant aura is summoned.
+*When summoned, the minion's damage is multiplied by: log<sub>3</sub> of the player's remaining minion slots, plus one. The damage value is rounded down to the nearest integer.
+**For example, if the player had 4 remaining minion slots when the item was used, the resulting base damage would be 963. <code>426 * (1 + log<sub>3</sub>4) = 426 * 2.26186 = 963.55</code>, rounded down.
+**After damage is calculated, the damage of the homing flare is further halved.
+*The minion's base damage is hard-capped at 10,000. However, this can only be achieved by having around 53 billion summon slots.
+*The speed of rotation is the amount of occupied minion slots multiplied by 0.85, plus 3, in radians per second.
+**For example, if the player had 4 remaining minion slots when the item was used, the resulting rotation speed is 6.4 radians per second, or 366.7 degrees per second. <code>3 + (4 * 0.85) = 3 + 3.4 = 6.4</code>
+*The amount of frames taken to summon a radiant orb is equal to 0.9 to the power of the amount of minion slots occupied, multiplied by 130, and rounded to the nearest integer.
+**This number is capped at 7 frames, or at least 27 occupied minion slots. <code>130 * (0.9 ^ 27) = 130 * 0.05815 = 7.56</code>, rounded down.
+
+== Trivia ==
+*The sprites for both the staff itself and the minion it summons are references to [https://hollowknight.fandom.com/wiki/Radiance The Radiance], a boss in the video game ''[[wikipedia:Hollow Knight|Hollow Knight]]''.
+*A [[wikipedia:Saros_(astronomy)|saros]] is a period of roughly 6,585 days, which can be used to predict eclipses.
+{{-}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}

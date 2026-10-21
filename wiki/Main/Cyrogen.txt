@@ -1,0 +1,230 @@
+<section begin=npc infobox />{{npc infobox
+| name = Cyrogen
+| type = Boss
+| imagealt = <Tabber>
+Normal = [[File:Cryogen.png]]<br/><br/>[[File:CryogenPhases.gif]]
+|-|
+Modicum=[[File:Scramodogen.png]]
+
+</Tabber>
+| ai = Cyrogen AI
+| environment = Snow biome
+| environment2 = Ice biome
+| life = {{dv|30,000|48,000|57,600}}
+| damage = {{dv|50|115|138|161}} (Contact)<br/>{{dv|46|80|96|108}} (Ice Blast)<br/>{{dv|52|92|112|124}} (Ice Shard)<br/>{{dv||100|120|132}} (Ice Bomb)
+| defense = 12
+| dr = 10%
+| knockback = 100
+| money = {{gc|10}}
+| Frozen Key|1|20%
+| Essence of Eleum|{{dv|4-8|5-9}}| 100%
+|group|At least one of the following 5 weapons will always drop:|5
+| Effluvium Bow|1|{{dv|25%|33.33%}}
+| Glacial Crusher|1|{{dv|25%|33.33%}}
+| Icebreaker|1|{{dv|25%|33.33%}}
+| Avalanche|1|{{dv|25%|33.33%}}
+| Snowstorm Staff|1|{{dv|25%|33.33%}}
+| Soul of Cyrogen|1|100%
+| Cryo Stone|1|20%
+| Frost Flare|1|20%
+| Cold Divinity|1|10%
+| Greater Healing Potion|5-15|100%
+| Cyrogen Mask|1|14.29%
+| Cyrogen Trophy|1|10%
+| custom| {{item|Cyrogen (Lore)|note=(Always on first kill)|wrap=y}}|100%
+| image2 = Cyrogen map.png
+| image2caption = Map Icon
+| debuff = Frostburn
+| debuffchance = 100%
+| duration = 2 seconds (Contact, Ice Bomb)<br/>1.5 seconds (Ice Blast)<br/>1 second (Ice Shard)
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuff2 = Chilled
+| debuffchance2 = 100%
+| duration2 = 1.5 seconds (Contact, Ice Bomb)<br/>1 seconds (Ice Blast)<br/>0.5 second (Ice Shard)
+| debufftip2 = Your movement speed has been reduced
+| debuff3 = Frozen
+| debuffchance3 = 100%
+| duration3 = 0.5 seconds (Ice Blast)
+| debufftip3 = You can't move!
+| debuff4 = Glacial State
+| debuffchance4 = 100%
+| debuffduration4 = 1 second (Ice Bomb)
+| debufftip4 = Cannot move and defense is shattered
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Glacial State
+| immune4 = Exo Freeze
+| immune5 = Frostburn
+| vulnerable1 = Fire
+| vulnerable2 = Stab
+| vulnerable3 = Unholy
+| resistant1 = Cold
+| resistant2 = Water
+| resistant3 = Magic 
+| resistant4 = Slash
+| hardmode = yes
+| boxwidth = 24em
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_15.wav
+| sound = Item_28.wav
+| soundtext = Projectiles
+}}<section end=npc infobox />
+[[File:Cyrogen Trophy.png]] <big> ''"The archmage's prison."'' </big> [[File:Cyrogen Trophy.png]]
+
+'''Cyrogen''' (Japanese: 寒剤 ''Kanzai'') is a [[Hardmode]] [[boss]] that can be fought in the [[Snow biome|Snow]] or [[Ice biome]]s. Cyrogen possesses many phases that it transitions to as its health decreases, and features a multitude of projectiles and enemies that it uses against the player. 
+
+Defeating Cyrogen will free the [[Archmage]], as well as generate [[Cyronic Ore]] in the Ice biome.
+
+== Spawn ==
+Cyrogen does not spawn on its own and requires the player to summon it with a [[Cyro Key]] while in the Snow biome or Ice biome at any time. {{fantag|Catalyst}} Cyrogen is additionally able to be summoned by killing 20 [[Hopper]]s.
+
+== Behavior ==
+Cyrogen has six phases, each of which has its own attack pattern and AI. It will progress through these phases as it loses health.
+
+Cyrogen also spawns with an ice shield which protects it and inflicts contact damage; this shield must be destroyed to directly attack Cyrogen and will regenerate {{dv|18|12}} seconds after being destroyed. When destroyed, the shield will explode into a cross-shaped burst of 4 {{item|Ice Blast|s|link=}}.
+
+Leaving the Snow biome will cause Cyrogen to enrage, almost doubling its speed and acceleration.
+
+=== Attacks ===
+==== Phase 1 ====
+*Slowly chases and levels with the player.
+*Fires an evenly-spaced ring of 16 {{item|Ice Blast|s|link=}} every 2 seconds.
+
+==== Phase 2 ====
+*Transitions at {{dv|80||85%|}} health.
+*Attempts to fly above the player while continuing to fire bursts of {{item|Ice Blast|s|link=}}.
+**The amount of Ice Blasts are reduced from 16 to 12 from this phase onwards.
+*After firing 3 bursts of Ice Blasts, briefly spins in place before charging at the player and firing two concentric rings of ten Ice Blasts before flying up and resuming its pattern.
+
+==== Phase 3 ====
+*Transitions at {{dv|60%||70%|}} health.
+*Slowly chases the player but stays slightly below the player.
+*After firing 3 bursts of Ice Blasts, briefly spins in place before charging at the player and fires three concentric rings of eight Ice Blasts. Cyrogen performs this charge twice before resuming its pattern.
+
+==== Phase 4 ====
+*Transitions at {{dv|40%||55%|}} health.
+*Slowly chases the player.
+*Loses the ability to regenerate its shield.
+*Fires {{item|Ice Blast|s|link=}} at double the frequency.
+*Every 5 seconds, Cyrogen will teleport somewhere near the player and start attacking again.
+**The location it teleports to is surrounded by a cloud of blue dust two seconds prior to telegraph its location.
+
+==== Phase 5 ====
+*Transitions at {{dv|20%||40%|}} health.
+*Stops firing either projectiles for the remainder of the fight.
+*Rapidly and loosely accelerates towards the player, charging at them when it gets close.
+**Its rotation speed will increase when below {{dv|5%||7.5%}} and even further when below {{dv|2.5%||5%|30%}} health.
+
+=== In [[Expert Mode]] ===
+
+*Regenerates its shield every 12 seconds instead of 18.
+*Every 10 seconds, Cyrogen releases a cross-shaped burst of 4 {{item|Ice Bomb|s|link=|size=24px}}, with a 50% chance for it to be rotated 45 degrees. After these bombs hit tiles or 5 seconds pass, they explode into a hexagonal burst of 6 gravity-affected {{item|Ice Rain|Ice Shards|link=}}.
+**This occurs in all of the above phases alongside other attacks.
+**Ice Bombs are smaller and cannot hurt the player or inflict status effects for the first 2 seconds after they're spawned.
+**They also inflict [[Glacial State]] for 1 second, [[Chilled]] for 1.5 seconds, and [[Frostburn]] for 2 seconds on contact.
+
+=== In [[Revengeance Mode]] ===
+*Transitions into Phase 2 at 85% health, Phase 3 at 70%, Phase 4 at 55%, and Phase 5 at 40%.
+*Cyrogen and its projectiles are slightly faster.
+*Gains a new phase when below {{dv|||25%|}} health:
+**Cyrogen loses the ability to summon servants.
+**Attempts to hover above the player.
+**The {{item|Ice Bomb|link=|size=24px}} attack no longer occurs every 10 seconds. Instead, a set of Ice Bombs is spawned every 1.25 seconds while hovering.
+**After spawning 2 sets of ice bombs, it rapidly charges the player 3 times before repeating this pattern.
+**Below {{Revengeance|15%}} health, its appearance will change one last time and its charges will each fire three concentric rings of Ice Blasts.
+***The outer and center rings have four Ice Blasts, while the center ring has eight.
+
+=== In [[Death Mode]] ===
+
+*Cyrogen and its projectiles are even more aggressive and faster.
+
+=== During the [[Boss Rush]] ===
+
+* Releases more Ice Blasts during the whole fight.
+
+== Summons ==
+{{infobox wrapper|direction = row|float = none
+|{{npc infobox
+| name = Cyrogen's Shield
+| type = Flying Enemy
+| ai = Cyrogen's Shield AI
+| environment = Snow biome
+| life = 1400
+| damage = {{dv|50|100|120|134}} (Contact)<br/>{{dv|46|80|96|108}} (Ice Blast)
+| defense = 0
+| dr = 40%
+| knockback = {{dv|10%|19%}}
+| hardmode = yes
+| debuff = Frostburn
+| debuffchance = 100%
+| duration = 1.5 seconds
+| debufftip = It's either really hot or really cold. Either way it REALLY hurts
+| debuff2 = Chilled
+| debuffchance2 = 100%
+| vulnerable1 = Fire
+| vulnerable2 = Magic
+| vulnerable3 = Unholy
+| resistant1 = Cold
+| resistant3 = Slash
+| resistant2 = Water
+| duration2 = 1 second
+| debufftip2 = Your movement speed has been reduced
+| debuff3 = Frozen
+| debuffchance3 = 100%
+| duration3 = 0.5 seconds (Ice Blast)
+| debufftip3 = You can't move!
+| immune1 = Confused
+| immune2 = Pearl Aura
+| immune3 = Glacial State
+| immune4 = Exo Freeze
+| immune5 = Frostburn
+| hurt = NPC_Hit_5.wav
+| killed = NPC_Killed_7.wav
+}}
+}}
+
+== Aftermath ==
+*Once Cyrogen is defeated for the first time, [[Cryonic Ore]] spawns in the Ice biome.
+*If at least two [[mechanical bosses]] have been defeated, [[Cryo Slime]]s will begin to spawn in the Cavern layer.
+*The [[Archmage]] will begin to arrive if provided suitable housing.
+**If the Archmage isn't in the player's current world, he will drop alongside Cyrogen's loot.
+*The [[Angry Dog]] enemy's stats are increased and will start dropping [[Essence of Eleum]].
+
+== Notes ==
+*While Cyrogen is alive, the sky above the player is filled with a waving rainbow aurora effect. Unlike most screen effects from other bosses, it cannot be toggled off by lighting options in the Settings Menu.
+*Cyrogen's projectiles are colored deep blue during the day and white at night.
+*All Ice Shards/Blasts are fired in fixed patterns throughout the fight.
+**In the case of Ice Bombs, two spreads of three Ice Shards are fired when they explode, one in each direction parallel to the direction the Ice Bomb was moving.
+*Cyrogen will not fire projectiles if it does not have a direct line of sight to the player, with the exception of Ice Bombs. All of Cyrogen's projectiles are also unable to travel through blocks.
+*If Cyrogen is close to the player when it enters Phase 5, it will briefly spin in place to give the player time to get away from its dash.
+
+== Tips ==
+{{dablink|For more elaborate strategies on defeating Cyrogen, including [[weapon]] and [[tgc:Guide:Arena|arena]] recommendations, see [[Guide:Cyrogen strategies]].}}
+
+*It is easier to see Cyrogen's projectiles during the night.
+*A wide arena with several levels of platforms can help in dodging Cyrogen's attacks.
+**Putting a roof of solid blocks above the platforms can help protect you during Cyrogen's second phase.
+**Be careful: Building platforms too far above the ground could cause the player to exit the Snow biome and enrage Cyrogen.
+*Moving at a constant speed will cause Cyrogen to hover in the same place relative to the player, making it an easy target for ranged weapons.
+**Moving slowly enough will cause Cyrogen to hover directly above the player, this makes it very easy to hit, but be wary of its ice bombs and it potentially getting up close.
+*Avoid getting hit by Cyrogen's Ice Blasts at all costs as they will [[Frozen|freeze]] the player, possibly leading to a swift death.
+*Cyrogen's final phase is one of its most deadly. If on [[Revengeance Mode|Revengeance]] or [[Death Mode]], saving [[Rage]] and/or [[Adrenaline]] to quickly finish it off during this phase could be a life-saving decision.
+*While Cyrogen is fought as the first boss in Hardmode, caution is still advised as the fast speed and many projectiles will make this boss tough for an unprepared player.
+*In multiplayer, Cyrogen does not despawn when off-screen and moves slowly across the map, allowing players to slowly kill the boss.
+
+== Trivia ==
+*Cyrogen's [[Music|theme]] is [https://www.youtube.com/watch?v=PtvS4-VqxRA '''Antarctic Reinforcement'''], which was composed by the artist [https://www.youtube.com/user/SUPEREMERALD123 DM DOKURO].
+**While in production the theme was originally intended to be called "Frostbite."
+**If the Calamity Music add-on mod is disabled, the [[Frost Moon]]'s theme will play instead.
+*Cyrogen was previously an alternative for [[The Destroyer]] because of its previous ability to drop [[Soul of Might|Souls of Might]].
+*Cyrogen is often fought at the start of Hardmode, as its summoning item only requires Souls of Light and Night, and Ice Blocks.
+*Originally, every time upon entering phase 6, a status message would say "Cyrogen is derping out!".
+**There is now a 1% (5% if the day is April Fools' Day) chance that this message is displayed when entering phase 6.
+*If Cyrogen is lured into [[The Underworld]], it will melt, defeating it instantly.
+**However, none of Cyrogen's items will drop normally if this is done, nor will Cryonic ore spawn until it is defeated properly - though, the Archmage NPC will still drop out of it.
+*If the [https://forums.terraria.org/index.php?threads/boss-checklist-in-game-progression-checklist.50668/ Boss Checklist Mod] is installed, its unique despawn message will be "Cyrogen drifts away, carried on a freezing wind."
+
+{{Master Template Characters
+| show-main = yes
+| show-boss = yes
+}}

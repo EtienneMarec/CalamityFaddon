@@ -1,0 +1,29 @@
+{{item infobox
+|type = Potion
+|tooltip = Grants immunity to fall damage
+|stack = 9999
+|rare = 1
+|use = 17
+|consumable = yes
+|buff = Calcium | bufflink = no
+|duration = 15 minutes
+|bufftip = You are immune to fall damage
+|sell = {{value|0|0|40|0}}
+}}
+
+The '''Calcium Potion''' is a craftable [[Pre-Hardmode]] [[Buff Potions|buff potion]]. Upon consumption it grants the '''Calcium''' [[buff]], causing the player to become immune to all fall damage.
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Notes ==
+*The Calcium Potion can be used to negate all fall damage when riding a mount such as the [[Slimy Saddle]].
+*The Calcium Potion will also negate fall damage from the [[Stoned]] debuff.
+
+== Trivia ==
+*[[wikipedia:Calcium|Calcium]] is known for its role in the formation and strengthening of bones.
+{{-}}
+{{Master Template Consumables
+|show-main = yes
+|show-buff = yes
+}}

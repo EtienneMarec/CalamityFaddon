@@ -1,0 +1,28 @@
+'''Boomerangs''' are [[weapons]] that return to the player after being thrown. Most of these weapons belong to the [[Spy]] class, with a few being for the [[melee]] class. They are non-consumable, and as such they can be used infinitely.
+
+== Types ==
+{| class="terraria sortable lined" id="dpl-table"
+! colspan = 2 | Name !! <abbr title=Damage>DMG</abbr> !! <abbr title=Use Time>UT</abbr> !! <abbr title=Knockback>KB</abbr> !! <abbr title="Shoot Speed/Velocity">SS</abbr> !! <abbr title="Critical Chance">Crit</abbr> !! Autoswing !! [[Rarity]] !! <abbr title=Hardmode>HM</abbr> !! <abbr title="Post-Moon Lord">ML</abbr> !! Sell
+|-
+{{#dpl:
+| category = Boomerangs
+| namespace = <!-- need to have it blanked to restrict it to main namespace. prevents category pages from being included-->
+| ordermethod = titlewithoutnamespace
+| order = ascending
+| include = {item infobox¦:Melee weapons/dpl}
+| mode = userformat
+}}
+|}
+
+== Notes ==
+*If the player has the [[Invisibility]] [[buff]] while holding a boomerang that deals spy damage, they recieve a 10% spy damage increase.
+{{-}}
+{{Master Template Weapons
+| show-main  = yes
+| show-melee = yes
+| show-Spy = yes
+}}
+
+[[Category:Melee weapons| ]]
+[[Category:Weapon items| ]]
+[[Category:Boomerangs|*]]

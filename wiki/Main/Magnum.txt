@@ -1,0 +1,40 @@
+{{item infobox
+| type = Weapon
+| type2 = Crafting material
+| damage = 80
+| critical = 46%
+| use = 25
+| knockback = 8
+| velocity = 12
+| tooltip = Uses Magnum Rounds<br/>Can be used thrice per boss battle
+| rare = 2
+| stack = 1
+| sell = {{value|0|0|40}}
+| auto = yes
+| element1 = Stab
+}}
+{{distinguish|Marked Magnum|a debuff-based [[classless weapon]]}}
+
+The '''Magnum''' is a craftable [[Pre-Hardmode]] [[classless weapon]]. When used, it fires a bullet similar to a [[High Velocity Bullet]] which cannot pierce. 1.33% of the target's health is added to the damage of each bullet.
+
+It uses [[Magnum Rounds]] as ammo, which can be purchased from the [[Arms Dealer]] if the player has the Magnum in their inventory.
+
+Once a boss is spawned, the Magnum is only fireable three times until the boss is defeated.
+
+{{Modifier|none}}
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used in ===
+{{recipes|ingredient={{PAGENAME}}}}
+
+== Notes ==
+*The Magnum does not gain any critical strike chance from [[coverings]], [[Modifier]]s and [[Covering]] bonuses.
+*Despite having a 46% critical strike chance, the Magnum can not critically strike as it deals classless damage.
+
+{{Master Template Weapons
+| show-main = yes
+| show-classless = yes
+}}

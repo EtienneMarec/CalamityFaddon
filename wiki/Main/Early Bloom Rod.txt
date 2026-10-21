@@ -1,0 +1,30 @@
+{{item infobox
+| type = Tool
+| stack = 1
+| use = 7
+| fish = 60
+| rare = 12
+| tooltip = Fires six lines at once. Line never snaps.<br/>The early bird catches the fish.
+| sell = {{value|0|24}}
+| hardmode = yes
+| postml = yes
+| proj = Early Bloom Rod (bobber).png
+| projcaption = Bobber
+}}
+
+The '''Early Bloom Rod''' is a craftable Godseeker Mode [[fishing rod]]. When swung, six fishing lines are deployed at once instead of one. In addition to this, fishing lines will not break in a similar manner to equipping the [[High Test Fishing Line]].
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+== Trivia ==
+*This item's tooltip is a parody of the common English expression "The early bird catches the worm."
+*The name "Early Bloom" may be a mispronunciation of [[Uelibloom Bar|Uelibloom]], the material that the rod is made out of.
+*Due to firing 6 lines at once, the Early Bloom Rod can be used to summon multiple [[Duke Fishron|Duke Fishrons]] or [[Old Duke|Old Dukes]] at once. It will use one [[Truffle Worm]] per Duke Fishron spawned, and one [[Bloodworm]] per Old Duke spawned.
+{{-}}
+{{Uelibloom}}
+{{Master Template Tools
+| show-main = yes
+| show-tool = yes
+}}

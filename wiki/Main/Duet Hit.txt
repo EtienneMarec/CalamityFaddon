@@ -1,0 +1,59 @@
+{{addon|Calamity: Tales of the Aquatic}}
+{{item infobox
+| type = Weapon
+| damagetype = Summon
+| damage = 45
+| knockback = 7
+| use = 25
+| tooltip = 10 summon tag damage <br/> Creates 2 whips at a time, the ships create snowflakes once they hit an enemy
+| buff = A Nice Buff
+| buffchance = 100%
+| buffduration = 3 seconds
+| bufftip = Summons a Snowflake to Fight for you
+| buff2 = A Nicer Buff
+| buffchance2 = 100%
+| buffduration2 = 3 seconds
+| bufftip2 = Summons a Fire Snowflake to Fight for you
+| debuff = Frostbite
+| debuffchance = 50%
+| debuffduration = 5 seconds
+| debuff2 = Hellfire
+| debuffchance2 = 50%
+| debuffduration2 = 5 seconds
+| stack = 1
+| auto = yes
+| rare = 8
+| sell = {{value|0|5|0}}
+| hardmode = yes
+| proj = Fire_Hit.png
+| projcaption = Fire Hit
+| proj2 = Frost_Hit.png
+| proj2caption = Frost Hit
+| proj3 = Cool_Flake.png
+| proj3caption = Snowflake
+| proj4 = Fire_Flake.png
+| proj4caption = Fire Snowflake
+}}
+
+
+The '''Duel Hit''' is a [[Hardmode]] [[whip]] that, upon striking an enemy, creates temporary snowflakes that chases nearby enemies, dealing 20 damage and inflicting debuffs to them on contact. The summoned snowflakes ignores 30 enemy [[defense]]. If a snowflake is already summoned, attacking with the whip will reset its timer instead of creating a new one. 
+
+
+== Crafting ==
+=== Recipe ===
+{{recipes|view=infobox|result={{PAGENAME}}}}
+
+=== Used In ===
+{{recipes|view=infobox|ingredient={{PAGENAME}}}}
+
+== Notes ==
+* Tagging an enemy with a different whip will ''not'' cause the snowflakes to disappear. This allows it to be used as a support weapon for crowd control. 
+** Although the snowflakes does not disappear, they will remain stationary at the position of the last killed enemy. They will not move until another enemy gets into its range.
+
+
+{{Flarefrost}}
+{{Master Template Weapons
+| show-main = yes
+| show-summon = yes
+}}
+[[Category:Whips]]

@@ -1,0 +1,33 @@
+{{buff infobox
+| type = Debuff
+| effects = Target cannot move
+| tooltip = Excessive nutrients restrict your movement
+}}
+
+'''Eutrophication''' is a [[debuff]] that makes the target completely unable to move for its duration. Almost all [[enemies]] are susceptible to this debuff, excluding all [[bosses]]. It is inflicted by the [[Apoctolith]], [[Prismalline]], [[Coral Cannon]], [[Eutrophic Scimitar]], [[Clam Crusher]], and [[Abyssal Mirror]].
+
+== Causes ==
+=== From player ===
+{{item debuffs}}
+
+== Immune NPCs ==
+{{collapse top}}
+{| class="terraria sortable lined"
+! colspan = 2 | NPC
+|-{{#dpl:
+|namespace = <!--Blanked to get only the Main namespace-->
+|notcategory = Historical content
+|uses = Template:npc infobox
+|include = {npc infobox¦:Immune NPCs/dpl}
+|mode = userformat
+}}
+|}
+{{collapse bottom}}
+
+== Trivia ==
+*[[wikipedia:Eutrophication|Eutrophication]] is when a body of water loses oxygen due to receiving large amounts of nutrients, leading to algae buildup. This prevents air from cycling into the water.
+{{-}}
+{{Master Template Buffs
+| show-main = yes
+| show-debuffs = yes
+}}

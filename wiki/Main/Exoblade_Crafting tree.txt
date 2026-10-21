@@ -1,0 +1,317 @@
+<div class="crafting-tree">{{diagram
+
+
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|SoulM|_|SoulF|_|SoulS|_|BreaB|_|Hell9|_|Obsi2|_|MetO1|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|      _|      _|      _|      _|      _|      _|      _|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|`|-|-|-|^|-|-|-|^|-|-|-|(|_|_|_|)|-|-|-|'|_|_|_|I|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|I|_|_|HEFRG|_|_|_|_|_|PHFRG|_|_|_|_|#
+|ChaO1|_|Hell2|_|EssC1|_|Ecto1|_|CryoO|_|Obsi1|_|Hell1|_|_|I|_|_|HelB2|_|Ecto2|_|MetB1|_|LumiO|#
+|      _|      _|      _|      _|      _|      _|      _|_|I|_|_|      _|      _|      _|     |#
+|_|`|-|-|-|(|_|_|_|`|-|-|-|(|_|_|_|I|_|_|_|`|-|-|-|(|_|_|_|)|-|-|-|'|_|_|_|`|-|-|-|(|_|_|_|I|_|#
+|_|_|_|_|HMFRG|_|_|_|_|_|HMANV|_|HMFRG|_|_|_|_|_|HEFRG|_|_|I|_|_|_|_|_|_|_|_|_|_|HMANV|_|_|§|_|#
+|MiMaT|_|UnhC1|_|BroHS|_|CorC1|_|CryoB|_|SoulL|_|HelB1|_|_|I|_|_|EssS2|_|TeMTr|_|ComeQ|_|LumiB|#
+|      _|      _|      _|      _|      _|      _|      _|_|I|_|_|      _|      _|      _|     |#
+|_|:|_|_|_|`|-|-|-|+|-|-|-|'|_|_|_|`|-|-|-|^|-|-|-|(|_|_|_|)|-|-|-|'|_|_|_|I|_|_|_|)|-|-|-|'|_|#
+|_|₪|_|_|_|_|_|_|HMANV|_|_|_|_|_|_|_|_|_|_|_|_|_|HMANV|_|HMANV|_|_|_|_|_|_|§|_|_|_|§|_|_|_|_|_|#
+|MirMa|_|_|_|_|_|AnarB|_|_|_|_|_|_|_|_|_|_|_|_|_|FlarB|_|PhoeB|_|_|_|_|_|TerTM|_|StelS|_|_|_|_|#
+|      _|_|_|_|_|      _|_|_|_|_|_|_|_|_|_|_|_|_|      _|      _|_|_|_|_|      _|      _|_|_|_|#
+|_|`|-|-|-|-|-|-|-|^|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|+|-|-|-|^|-|-|-|-|-|-|-|^|-|-|-|'|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|₪|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|Exobl|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|#
+
+<!-- •• CRAFTING MATERIALS •• -->
+
+|Exobl_cols = 3
+|Exobl_rows = 2
+|Exobl = {{item|Exoblade|size=36px}}
+
+|MiMaT_cols = 3
+|MiMaT_rows = 2
+|MiMaT = ''[[Miracle Matter/Crafting tree|Miracle Matter<br/>crafting tree]]''
+
+|MirMa_cols = 3
+|MirMa_rows = 2
+|MirMa = {{item|Miracle Matter}}
+
+<!-- ••• Terratomere ••• -->
+
+|TerTM_cols = 3
+|TerTM_rows = 2
+|TerTM = {{item|Terratomere|size=36px}}
+
+|TeMTr_cols = 3
+|TeMTr_rows = 2
+|TeMTr = ''[[Terratomere/Crafting tree|Terratomere<br/>crafting tree]]''
+
+<!-- ••• Anarchy Blade ••• -->
+
+|AnarB_cols = 3
+|AnarB_rows = 2
+|AnarB = {{item|Anarchy Blade|size=36px}}
+
+|UnhC1_cols = 3
+|UnhC1_rows = 2
+|UnhC1 = {{item|Unholy Core}} × 5
+
+|Hell2_cols = 3
+|Hell2_rows = 2
+|Hell2 = {{item|Hellstone}} × 20<br/>
+<div style="font-size: 0.75em">( [[Underworld]] )</div>
+
+|ChaO1_cols = 3
+|ChaO1_rows = 2
+|ChaO1 = {{item|Charred Ore}} × 20<br/>
+<div style="font-size: 0.75em">( [[Underworld]] )</div>
+
+|BroHS_cols = 3
+|BroHS_rows = 2
+|BroHS = {{item|Broken Hero Sword|size=26px}}<br/>
+( {{item|mode=image|Mothron|size=30px}} {{item|mode=image|image=Calamitas map.png|size=24px}})
+
+|CorC1_cols = 3
+|CorC1_rows = 2
+|CorC1 = {{item|Core of Chaos}} × 3<br/>
+( {{item|mode=image|Fleshy Geode|size=20px}} {{item|mode=image|Necromantic Geode|size=20px}} )
+
+|EssC1_cols = 3
+|EssC1_rows = 2
+|EssC1 = {{item|Essence of Chaos}}<br/>
+<span style="font-size:0.75em"> ( Fire / Evil related creatures )</span>
+
+|Ecto1_cols = 3
+|Ecto1_rows = 2
+|Ecto1 = {{item|Ectoplasm}}<br/>
+( {{item|mode=image|Ectoblood|size=14px}} × 3 / {{item|mode=image|Dungeon Spirit|size=16px}} )
+
+<!-- ••• Baleful Harvester ••• -->
+
+|BaleH_cols = 3
+|BaleH_rows = 2
+|BaleH = {{item|Baleful Harvester|size=36px}}
+
+|TheHB_cols = 3
+|TheHB_rows = 2
+|TheHB = {{item|The Horseman's Blade|size=36px}}<br/>
+( {{item|mode=image|image=Map Icon Pumpking.png|Pumpking|size=20px}} )
+
+|SpooW_cols = 3
+|SpooW_rows = 2
+|SpooW = {{item|Spooky Wood}} × 200<br/>
+( {{item|mode=image|image=Map Icon Mourning Wood.png|Mourning Wood|size=20px}} {{item|mode=image|Splinterling||size=16px}} )
+
+|Pumpk_cols = 3
+|Pumpk_rows = 2
+|Pumpk = {{item|Pumpkin}} × 30<br/>
+( {{item|mode=image|image=Map Icon Dryad.png|Dryad|size=30px}} )
+
+|BookS_cols = 3
+|BookS_rows = 2
+|BookS = {{item|Book of Skulls}}<br/>
+( {{item|mode=image|image=Map Icon Skeletron.png|Skeletron|size=20px}} )
+
+<!-- ••• Flarefrost Blade ••• -->
+
+|FlarB_cols = 3
+|FlarB_rows = 2
+|FlarB = {{item|Flarefrost Blade|size=36px}}
+
+|CryoB_cols = 3
+|CryoB_rows = 2
+|CryoB = {{item|Cryonic Bar}} × 8<br/>
+( {{item|mode=image|Fleshy Geode|size=20px}} {{item|mode=image|Necromantic Geode|size=20px}} )
+
+|CryoO_cols = 3
+|CryoO_rows = 2
+|CryoO = {{item|Cryonic Ore}} × 40<br/>
+<span style="font-size:0.75em">( [[Ice biome]] / {{item|mode=image|Cryo Slime|size=16px}} )</span>
+
+| SoulL_cols = 3
+| SoulL_rows = 2
+| SoulL = {{item|Soul of Light}} × 3<br/>
+<div style="font-size: 0.75em">( [[Underground Hallow]] )</div>
+
+|HelB1_cols = 3
+|HelB1_rows = 2
+|HelB1 = {{item|Hellstone Bar}} × 8
+
+|Obsi1_cols = 3
+|Obsi1_rows = 2
+|Obsi1 = {{item|Obsidian}} × 8<br/>
+( {{item|mode=image|Water|size=12px}} + {{item|mode=image|Lava|size=12px}} )
+
+|Hell1_cols = 3
+|Hell1_rows = 2
+|Hell1 = {{item|Hellstone}} × 24<br/>
+<div style="font-size: 0.75em">( [[Underworld]] )</div>
+
+<!-- ••• Phoenix Blade ••• -->
+
+|PhoeB_cols = 3
+|PhoeB_rows = 2
+|PhoeB = {{item|Phoenix Blade|size=36px}}
+
+|BreaB_cols = 3
+|BreaB_rows = 2
+|BreaB = {{item|Breaker Blade|size=36px}}
+
+|HelB2_cols = 3
+|HelB2_rows = 2
+|HelB2 = {{item|Hellstone Bar}} × 10
+
+|EssS2_cols = 3
+|EssS2_rows = 2
+|EssS2 = {{item|Essence of Sunlight}}<br/>
+<span style="font-size:0.75em">( Sky / Storm / Sun related creatures )</span>
+
+|SoulM_cols = 3
+|SoulM_rows = 2
+|SoulM ={{item|Soul of Might}} × 3<br/>
+( {{item|mode=image|image=Map Icon The Destroyer.png|The Destroyer|size=20px}} )
+
+|SoulF_cols = 3
+|SoulF_rows = 2
+|SoulF ={{item|Soul of Fright}} × 3<br/>
+( {{item|mode=image|image=Map Icon Skeletron Prime.png|Skeletron Prime|size=20px}} )
+
+|SoulS_cols = 3
+|SoulS_rows = 2
+|SoulS ={{item|Soul of Sight}} × 3<br/>
+( {{item|mode=image|image=Map Icon Retinazer (second form).png|The Twins|size=20px}} {{item|mode=image|image=Map Icon Spazmatism (second form).png|The Twins|size=20px}} )
+
+<!-- ••• Stellar Striker ••• -->
+
+|StelS_cols = 3
+|StelS_rows = 2
+|StelS = {{item|Stellar Striker|size=36px}}
+
+|LumiB_cols = 3
+|LumiB_rows = 2
+|LumiB = {{item|Luminite Bar}} × 5
+
+|LumiO_cols = 3
+|LumiO_rows = 2
+|LumiO = {{item|Luminite}} × 40<br/>
+( {{item|mode=image|image=Map Icon Moon Lord.png|Moon Lord|size=20px}} )
+
+<!-- •••• Comet Quasher •••• -->
+
+|ComeQ_cols = 3
+|ComeQ_rows = 2
+|ComeQ = {{item|Comet Quasher|size=36px}}
+
+|Ecto2_cols = 3
+|Ecto2_rows = 2
+|Ecto2 = {{item|Ectoplasm}} × 5<br/>
+( {{item|mode=image|Ectoblood|size=14px}} × 3 / {{item|mode=image|Dungeon Spirit|size=16px}} )
+
+|MetB1_cols = 3
+|MetB1_rows = 2
+|MetB1 = {{item|Meteorite Bar}} × 25
+
+|MetO1_cols = 3
+|MetO1_rows = 2
+|MetO1 = {{item|Meteorite}} × 75
+
+<!-- ••• Terra-cotta ••• -->
+
+|TerrC_cols = 3
+|TerrC_rows = 2
+|TerrC = {{item|Terra-cotta|size=36px}}
+
+|CorS1_cols = 3
+|CorS1_rows = 2
+|CorS1 = {{item|Core of Sunlight}} × 3
+
+|EssS1_cols = 3
+|EssS1_rows = 2
+|EssS1 = {{item|Essence of Sunlight}}<br/>
+<span style="font-size:0.75em">( Sky / Storm / Sun related creatures )</span>
+
+|Ecto3_cols = 3
+|Ecto3_rows = 2
+|Ecto3 = {{item|Ectoplasm}}<br/>
+( {{item|mode=image|Ectoblood|size=14px}} × 3 / {{item|mode=image|Dungeon Spirit|size=16px}} )
+
+|UnhC2_cols = 3
+|UnhC2_rows = 2
+|UnhC2 = {{item|Unholy Core}} × 3
+
+|Hell9_cols = 3
+|Hell9_rows = 2
+|Hell9 = {{item|Hellstone}} × 30<br/>
+<div style="font-size: 0.75em">( [[Underworld]] )</div>
+
+|ChaO9_cols = 3
+|ChaO9_rows = 2
+|ChaO9 = {{item|Charred Ore}} × 4<br/>
+<div style="font-size: 0.75em">( [[Underworld]] )</div>
+
+<!-- •••• Burnt Sienna •••• -->
+
+|BurnS_cols = 3
+|BurnS_rows = 2
+|BurnS = {{item|Burnt Sienna|size=36px}}
+
+|AshBl_cols = 3
+|AshBl_rows = 2
+|AshBl = {{item|Ash Block}} × 30
+
+|Obsi2_cols = 3
+|Obsi2_rows = 2
+|Obsi2 = {{item|Obsidian}} × 10<br/>
+( {{item|mode=image|Water|size=12px}} + {{item|mode=image|Lava|size=12px}} )
+
+|Amber_cols = 3
+|Amber_rows = 2
+|Amber = {{item|Amber}} × 5<br/>
+( {{item|mode=image|Amber Crawler|size=28px}} )
+
+|MetB2_cols = 3
+|MetB2_rows = 2
+|MetB2 = {{item|Meteorite Bar}} × 6
+
+|MetO2_cols = 3
+|MetO2_rows = 2
+|MetO2 = {{item|Meteorite}} × 3
+
+<!-- •• CRAFTING STATIONS •• -->
+
+|PHANV_cols = 3
+|PHANV_class = craft-station
+|PHANV = {{item|mode=image|Iron Anvil}} / {{item|mode=image|Lead Anvil}}
+
+|PHFRG_cols = 3
+|PHFRG_class = craft-station
+|PHFRG = {{item|mode=image|Furnace}}
+
+|HEFRG_cols = 3
+|HEFRG_class = craft-station
+|HEFRG = {{item|mode=image|Hellforge}}
+
+|HMANV_cols = 3
+|HMANV_class = craft-station
+|HMANV = {{item|mode=image|Mythril Anvil}} / {{item|mode=image|Orichalcum Anvil}}
+
+|HMFRG_cols = 3
+|HMFRG_class = craft-station
+|HMFRG = {{item|mode=image|Adamantite Forge}} / {{item|mode=image|Titanium Forge}}
+
+|§_cols = 1
+|§_class = craft-station
+|§ = {{item|mode=image|Ancient Manipulator}}
+
+|₪_cols = 1
+|₪_class = craft-station
+|₪ = {{item|mode=image|Draedon's Forge}}
+
+}}</div>
+
+{| width="100%"
+|<span class="ajaxHide">
+{{Guides
+| show-main = yes
+| show-prog = yes
+}}</span>
+|}
+[[Category:Crafting trees]]

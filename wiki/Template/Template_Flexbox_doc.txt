@@ -1,0 +1,292 @@
+A set of templates for flexbox layout.
+they can be used to replace table layout in certain situations for better responsive layout.
+It is more flexible and has better readability, especially on small width screen,such as smartphone.
+
+__TOC__
+
+== Usage ==
+
+The simplest usage is to use the contents as parameter:
+
+<code><nowiki>{{flexbox | <contents>}}</nowiki></code>
+<code><nowiki>{{flexbox | <content1><content2><content3>}}</nowiki></code>
+<code><nowiki>{{flexbox | <content1> | <content2>| <content3> }}</nowiki></code>
+<code><nowiki>{{flexbox| inline=y | <content1><content2>}}</nowiki></code>
+<code><nowiki>{{flexbox| inline=y | <content1> | <content2>}}</nowiki></code>
+
+but, the presence of certain characters in the parameters may output unintented results, Therefore,  using {{tl|flexstart}} and {{tl|flexend}} to do so is recommended:
+
+<code><nowiki>{{flexstart}}<contents>{{flexend}}</nowiki></code>
+
+<code><nowiki>{{flexstart|inline}}<contents>{{flexend}}</nowiki></code>
+
+If needed, you can explicitly define flexitem and take control on them:
+<pre><nowiki>
+{{flexstart}}
+ {{flexitem|<contents>}}<!-- use the contents as parameter -->
+ {{flexstart|item}}<contents>{{flexend}}<!-- use {{tl|flexstart}} and {{tl|flexend}} (recommended) -->
+ {{flexstart|item|order=2}}<contents>{{flexend}}
+ {{flexstart|item|order=1}}<contents>{{flexend}}
+{{flexend}}
+</nowiki></pre>
+
+Flexbox can be nested, a flexitem can also be a flexbox, In this way, a very complex layout can be achieved:
+
+<pre><nowiki>
+{{flexstart}}
+  {{flexstart|}}<!-- flexitem as flexbox -->
+    {{flexstart|item}}<contents>{{flexend}}
+    {{flexstart|box}}<!-- Can be explicitly specified for better readability -->
+      {{flexstart|item}}<contents>{{flexend}}
+      {{flexstart|item}}<contents>{{flexend}}
+    {{flexend}}
+    {{flexstart|item-box}}<!-- same as 'box', just for better readability -->
+      {{flexstart|item}}<contents>{{flexend}}
+      {{flexstart|item}}<contents>{{flexend}}
+    {{flexend}}
+    {{flexstart|inlinebox}}<!-- Can also be inline flexbox -->
+      {{flexstart|item}}<contents>{{flexend}}
+      {{flexstart|item}}<contents>{{flexend}}
+    {{flexend}}
+
+  {{flexend|}}
+  {{flexstart}}<contents>{{flexend}}
+  {{flexstart}}<contents>{{flexend}}
+{{flexend}}
+</nowiki></pre>
+
+=== Parameters ===
+
+Almost all parameters about flexbox and flexitem are mapped to the corresponding CSS properties. So all valid values for that CSS property can be used as value of the parameter.
+
+{{tl|flexstart}} has the following parameters available：
+* Type declaration:
+** '''unnamed parameter 1''': Can be <code>box</code>, <code>inline</code>, <code>inlinebox</code>, <code>item</code>, correspond to flexbox, inline-flexbox, flexitem, respectively. <code>inlinebox</code> is alias of <code>inline</code>.Default value is <code>box</code>. 
+* General parameters:
+** '''cssclass''': Css class(es), class attribute for html element. When presented, will be used for <code>class="[cssclass]"</code>. 
+** '''id''': Id attribute for html element. When presented, will be used for <code>id="[id]"</code>. 
+** '''width''': Css width value. It actually set css <code>width</code> porperty.
+** '''height''': Css height value. It actually set css <code>height</code> porperty. 
+** '''css''' or '''style''': Custom css rules. When both presented, '''css''' will take precedence over '''style'''. Custom css rules will overide css rules from other parameters. 
+* Parameters for flexbox: 
+** '''wrap''': Controls whether the flexbox is single-line or multi-line. It actually set css <code>flex-wrap</code> porperty. Can be <code>yes</code> / <code>no</code> or any valid value for css <code>flex-wrap</code> property. <code>yes</code> is alias of css value <code>wrap</code>, and <code>no</code> is alias of <code>nowrap </code>. Default value is <code>wrap</code>.
+** '''direction''': specifies how flex items are placed in the flexbox, by setting the direction of the flexbox's main axis. This determines the direction in which flex items are laid out in. Values can be <code>row</code> (default),<code>row-reverse</code>, <code>column</code>, <code>column-reverse</code>.
+** '''justify''': How content items will justified inline. It actually set css <code>justify-content</code> porperty. Can be <code>left</code> / <code>center</code> / <code>right</code> / <code>justified</code> or other valid value for css <code>justify-content</code> property. <code>left</code> is alias of css value <code>flex-start</code>, <code>right</code> is alias of <code>flex-end</code>, and <code>justified</code> is alias of <code>space-between</code>. Default value is <code>left</code>. 
+** '''alignitems''': How content items will vertical aligned in current line of flexbox. It actually set css <code>align-items</code> porperty. Can be <code>top</code> / <code>middle</code> / <code>bottom</code> or other valid value for css <code>align-items</code> property. <code>top</code> is alias of css value <code>flex-start</code>, <code>middle</code> is alias of <code>center</code>, and <code>bottom</code> is alias of <code>flex-end</code>. Default value is <code>stretch</code>. 
+** '''alignlines''':  Aligns a flexbox's lines within the flexbox when there is extra space in the cross-axis, similar to how <code>justify</code> aligns individual items within the main axis. Note that this has no effect when the flexbox has only a single line. <code>top</code> is alias of css value <code>flex-start</code>, <code>bottom</code> is alias of <code>flex-end</code>, and <code>justified</code> is alias of <code>space-between</code>. Default value is <code>top</code>. 
+* parameters for flexitem:
+** '''order''': CSS '''order''' property. example: <code>order=3</code>
+** '''grow''': CSS '''flex-grow''' property. example: <code>grow=1</code>
+** '''shrink''': CSS '''flex-shrink''' property. 
+** '''basis''': CSS '''flex-basis''' property.
+** ''' alignself''': CSS '''align-self''' property. Used to control the way this item is aligned on cross axis(Typically vertical), override the '''alignitems''' of {{tl|flexbox}}. You can use <code>top</code>/<code>middle</code>/<code>bottom</code> as its value, <code>top</code> is alias of css value <code>flex-start</code>, <code>middle</code> is alias of <code>center</code>, and <code>bottom</code> is alias of <code>flex-end</code>. Default value is <code>stretch</code>. 
+
+General parameters and Parameters for flexbox are also available on {{tl|flexbox}}, General parameters and Parameters for flexitem are also available on {{tl|flexitem}}.
+
+{{tl|flexend}} have no defined parameter.
+
+=== Dummy parameter ===
+You can use dummy parameter to help locate pairs:
+<pre><nowiki>
+{{flexstart|_id=outer}}
+  {{flexstart|_id=inner}}
+    <content>
+  {{flexend|_id=inner}}
+{{flexend|_id=outer}}
+</nowiki></pre>
+
+== Examples ==
+
+=== Basic ===
+<pre><nowiki>{{flexstart}}
+ {{npc infobox|boxwidth=20em | name = Zombie }}
+ {{npc infobox|boxwidth=20em | name = Worm }}
+ {{npc infobox|boxwidth=20em | name = Bunny }}
+ {{npc infobox|boxwidth=20em | name = Antlion}}
+ {{npc infobox|boxwidth=20em | name = Crimera }}
+ {{npc infobox|boxwidth=20em | name = Pinky }}
+ {{npc infobox|boxwidth=20em | name = Hornet }}
+ {{npc infobox|boxwidth=20em | name = Harpy }}
+ {{npc infobox|boxwidth=20em | name = Vulture}}
+{{flexend}}
+</nowiki></pre>
+or
+<pre><nowiki>{{flexbox|
+ {{npc infobox|boxwidth=20em | name = Zombie }}
+ {{npc infobox|boxwidth=20em | name = Worm }}
+ {{npc infobox|boxwidth=20em | name = Bunny }}
+ {{npc infobox|boxwidth=20em | name = Antlion}}
+ {{npc infobox|boxwidth=20em | name = Crimera }}
+ {{npc infobox|boxwidth=20em | name = Pinky }}
+ {{npc infobox|boxwidth=20em | name = Hornet }}
+ {{npc infobox|boxwidth=20em | name = Harpy }}
+ {{npc infobox|boxwidth=20em | name = Vulture}}
+}}
+</nowiki></pre>
+
+You will get: (Please resize your broswer window to see how it responds to the change of width. )
+{{flexstart}}
+ {{npc infobox|boxwidth=20em | name = Zombie }}
+ {{npc infobox|boxwidth=20em | name = Worm }}
+ {{npc infobox|boxwidth=20em | name = Bunny }}
+ {{npc infobox|boxwidth=20em | name = Antlion}}
+ {{npc infobox|boxwidth=20em | name = Crimera }}
+ {{npc infobox|boxwidth=20em | name = Pinky }}
+ {{npc infobox|boxwidth=20em | name = Hornet }}
+ {{npc infobox|boxwidth=20em | name = Harpy }}
+ {{npc infobox|boxwidth=20em | name = Vulture}}
+{{flexend}}
+
+=== Inline Flexbox ===
+You can use '''inline''' or '''inlinebox''' as the value of unnamed parameter 1 to make the flexbox became inline.
+
+Example:
+<pre><nowiki>
+xx{{flexstart|inline|width=45em|justify=center|css=background: #f2f2ff;}}
+ {{npc infobox|boxwidth=20em | name = Zombie }}
+ {{npc infobox|boxwidth=20em | name = Worm }}
+ {{npc infobox|boxwidth=20em | name = Bunny }}
+{{flexend}}yy{{flexstart|inlinebox|width=45em|justify=center|css=background: #fff2f2;}}
+ {{npc infobox|boxwidth=20em | name = Antlion}}
+ {{npc infobox|boxwidth=20em | name = Crimera }}
+ {{npc infobox|boxwidth=20em | name = Pinky }}
+{{flexend}}zz
+</nowiki></pre>
+
+It will output:
+
+xx{{flexstart|inline|width=45em|justify=center|css=background: #f2f2ff;}}
+ {{npc infobox|boxwidth=20em | name = Zombie }}
+ {{npc infobox|boxwidth=20em | name = Worm }}
+ {{npc infobox|boxwidth=20em | name = Bunny }}
+{{flexend}}yy{{flexstart|inlinebox|width=45em|justify=center|css=background: #fff2f2;}}
+ {{npc infobox|boxwidth=20em | name = Antlion}}
+ {{npc infobox|boxwidth=20em | name = Crimera }}
+ {{npc infobox|boxwidth=20em | name = Pinky }}
+{{flexend}}zz
+
+=== Contents Alignment ===
+
+You can use '''alignitems''' parameter to change the way of contents alignment in crossing axis.
+
+Example:
+<pre><nowiki>
+{{flexstart|alignitems=center|css=padding: 3em;background:#fff2f2;}}
+ {{npc infobox|boxwidth=20em | name = Zombie }}
+ {{npc infobox|boxwidth=20em | name = Worm }}
+ {{npc infobox|boxwidth=20em | name = Bunny }}
+{{flexend}}
+{{flexstart|alignitems=bottom|css=padding: 3em;background:#f2fff2;}}
+ {{npc infobox|boxwidth=20em | name = Antlion}}
+ {{npc infobox|boxwidth=20em | name = Crimera }}
+ {{npc infobox|boxwidth=20em | name = Pinky }}
+{{flexend}}
+</nowiki></pre>
+
+You will get:
+{{flexstart|alignitems=center|css=padding: 3em;background:#fff2f2;}}
+ {{npc infobox|boxwidth=20em | name = Zombie }}
+ {{npc infobox|boxwidth=20em | name = Worm }}
+ {{npc infobox|boxwidth=20em | name = Bunny }}
+{{flexend}}
+{{flexstart|alignitems=bottom|css=padding: 3em;background:#f2fff2;}}
+ {{npc infobox|boxwidth=20em | name = Antlion}}
+ {{npc infobox|boxwidth=20em | name = Crimera }}
+ {{npc infobox|boxwidth=20em | name = Pinky }}
+{{flexend}}
+
+=== Justify Contents === 
+
+You can use '''justify''' parameter to control how the contents will align along the current line in flexbox.
+
+Example:
+<pre><nowiki>
+{{flexstart|width=70em|justify=center|css=background:#fff2f2;}}
+ {{npc infobox|boxwidth=20em | name = Zombie }}
+ {{npc infobox|boxwidth=20em | name = Worm }}
+ {{npc infobox|boxwidth=20em | name = Bunny }}
+{{flexend}}
+{{flexstart|width=70em|justify=justified|css=background:#f2fff2;}}
+ {{npc infobox|boxwidth=20em | name = Antlion}}
+ {{npc infobox|boxwidth=20em | name = Crimera }}
+ {{npc infobox|boxwidth=20em | name = Pinky }}
+{{flexend}}
+{{flexstart|width=70em|justify=space-around|css=background:#f2f2ff;}}
+ {{npc infobox|boxwidth=20em | name = Hornet }}
+ {{npc infobox|boxwidth=20em | name = Harpy }}
+ {{npc infobox|boxwidth=20em | name = Vulture}}
+{{flexend}}
+{{flexsart|width=70em|justify=right|css=background:#f2f2f2;}}
+ {{npc infobox|boxwidth=20em | name = Zombie }}
+ {{npc infobox|boxwidth=20em | name = Worm }}
+ {{npc infobox|boxwidth=20em | name = Bunny }}
+{{flexend}}
+</nowiki></pre>
+
+You will get:
+{{flexstart|width=70em|justify=center|css=background:#fff2f2;}}
+ {{npc infobox|boxwidth=20em | name = Zombie }}
+ {{npc infobox|boxwidth=20em | name = Worm }}
+ {{npc infobox|boxwidth=20em | name = Bunny }}
+{{flexend}}
+{{flexstart|width=70em|justify=justified|css=background:#f2fff2;}}
+ {{npc infobox|boxwidth=20em | name = Antlion}}
+ {{npc infobox|boxwidth=20em | name = Crimera }}
+ {{npc infobox|boxwidth=20em | name = Pinky }}
+{{flexend}}
+{{flexstart|width=70em|justify=space-around|css=background:#f2f2ff;}}
+ {{npc infobox|boxwidth=20em | name = Hornet }}
+ {{npc infobox|boxwidth=20em | name = Harpy }}
+ {{npc infobox|boxwidth=20em | name = Vulture}}
+{{flexend}}
+{{flexstart|width=70em|justify=right|css=background:#f2f2f2;}}
+ {{npc infobox|boxwidth=20em | name = Zombie }}
+ {{npc infobox|boxwidth=20em | name = Worm }}
+ {{npc infobox|boxwidth=20em | name = Bunny }}
+{{flexend}}
+
+== Take control on Flexitem ==
+
+If you need control the css style of flex item inside, you can simply apple css on it(or on a wrap html element), like:
+<pre><nowiki>
+{{flexstart}}
+ <div style="order:2">{{npc infobox|boxwidth=20em | name = Zombie }}</div>
+ <div style="order:3">{{npc infobox|boxwidth=20em | name = Worm }}</div>
+ <div style="order:1">{{npc infobox|boxwidth=20em | name = Bunny }}</div>
+{{flexend}}
+</nowiki></pre>
+
+But use {{tl|flexstart}} and {{tl|flexend}} and/or {{tl|flexitem}} can get the best browser compatibility, also more convenient.
+
+Their usage is very similar to flexbox:
+
+example:
+<pre><nowiki>
+{{flexstart}}
+ {{flexstart|item|order=2}} {{npc infobox|boxwidth=20em | name = Zombie }} {{flexend}}
+ {{flexstart|item|order=3}} {{npc infobox|boxwidth=20em | name = Worm }} {{flexend}}
+ {{flexstart|item|order=1}} {{npc infobox|boxwidth=20em | name = Bunny }} {{flexend}}
+{{flexend}}
+</nowiki></pre>
+or
+<pre><nowiki>
+{{flexstart}}
+ {{flexitem|order=2| {{npc infobox|boxwidth=20em | name = Zombie }} }}
+ {{flexitem|order=3| {{npc infobox|boxwidth=20em | name = Worm }} }}
+ {{flexitem|order=1| {{npc infobox|boxwidth=20em | name = Bunny }} }}
+{{flexend}}
+</nowiki></pre>
+You will get:
+{{flexstart}}
+ {{flexstart|item|order=2}} {{npc infobox|boxwidth=20em | name = Zombie }} {{flexend}}
+ {{flexstart|item|order=3}} {{npc infobox|boxwidth=20em | name = Worm }} {{flexend}}
+ {{flexstart|item|order=1}} {{npc infobox|boxwidth=20em | name = Bunny }} {{flexend}}
+{{flexend}}
+
+<includeonly>
+<!-- Categories and interwikis go here. -->
+[[Category:Flexbox templates]]
+</includeonly>
+<noinclude>
+[[Category:Template documentation‎]]
+</noinclude>
