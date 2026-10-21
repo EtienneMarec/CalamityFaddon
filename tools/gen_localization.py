@@ -64,7 +64,8 @@ def build_rules(glossary, index):
     olds = [old for old, _ in rules]
     for page in index.values():
         if page.get("kind") == "content" and page.get("status") == "official":
-            if any(o in page["title"] for o in olds):
+            # Un renommage décidé explicitement (« Ravager » -> « Meatmetal Sans ») passe avant la protection
+            if any(o in page["title"] for o in olds) and page["title"] not in glossary["renames"]:
                 protected.add(page["title"])
     protected.update(glossary.get("keep", []))
     return compiled, sorted(protected, key=lambda s: (-len(s), s))

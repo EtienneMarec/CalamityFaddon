@@ -43,10 +43,11 @@ Sous PowerShell, `$env:PYTHONIOENCODING="utf-8"` évite les accents cassés dans
 
 ## Modes de fidélité (lire `docs/MODES.md`)
 
-Trois modes (Full Fandom / Minimal / Calamity++), config serveur avec rechargement, Minimal par défaut. Toute nouvelle
-fonctionnalité doit dire ce qu'elle fait dans chaque mode, et **les différences entre modes passent par des données**
+Deux modes joueurs (Full Fandom / Calamity++, défaut Calamity++) + Minimal interne (= Calamity++ sans `Balance/`,
+option de debug). Config serveur avec rechargement. Toute nouvelle fonctionnalité doit dire ce qu'elle fait en Full
+Fandom et en Calamity++ ; **ces choix se font avec l'utilisateur** (je propose, il tranche), et **les différences entre modes passent par des données**
 (sections `full*` des JSON, `Balance/` pour Calamity++), pour pouvoir être documentées sur un futur wiki.
-Tester les trois : `python tools/selftest.py --mode all`. Référence « abandon du wiki » : Calamity 2.0.1.005.
+Tester les trois couches : `python tools/selftest.py --mode all`. Référence « abandon du wiki » : Calamity 2.0.1.005.
 
 ## Portage du contenu retiré de Calamity (depuis 2.0.1.005)
 

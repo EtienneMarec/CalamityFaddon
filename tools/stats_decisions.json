@@ -1,11 +1,12 @@
 {
-  "_doc": "Écarts de stats extrêmes (> x5) propres au wiki, tranchés avec l'utilisateur (titres de pages). everywhere : appliqués dans tous les modes. fullOnly : Full Fandom seulement. code : stats gérées par du code C# dédié. Tout extrême absent d'ici reste en Full Fandom seulement et apparaît « à trancher » dans reports/stats.md.",
+  "_doc": "Écarts de stats extrêmes (> x5) propres au wiki, tranchés avec l'utilisateur (titres de pages). everywhere : appliqués dans tous les modes. fullOnly : Full Fandom seulement. code : stats gérées par du code C# dédié. Tout extrême absent d'ici reste en Full Fandom seulement et apparaît « à trancher » dans reports/stats.md. Raisons : docs/decisions.md, section « Stats ».",
   "everywhere": [
     "Desert Scourge", "Anti-materiel Rifle", "Clockwork Bow", "Coral Spout", "Halibut Cannon", "Soma Prime",
     "Voidragon", "Grand Dad", "Nanoblack Reaper", "Shadecrystal Barrage", "Venusian Trident",
     "Rusty Beacon Prototype", "Slime Puppet Staff", "Temporal Umbrella",
-    "Cannonball Jellyfish", "Great Sand Shark", "Polterghast", "THE LORDE"
+    "Cannonball Jellyfish", "Great Sand Shark", "Polterghast", "THE LORDE",
+    "Ceaseless Void"
   ],
-  "fullOnly": ["Relic of Ruin", "Stormjaw Staff"],
+  "fullOnly": ["Relic of Ruin", "Stormjaw Staff", "Exorcism"],
   "code": ["Ravager"]
 }

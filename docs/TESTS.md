@@ -94,17 +94,18 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
 ## Passe 2 — Modes de fidélité (`docs/MODES.md`)
 
 Contrôlé par `python tools/selftest.py --mode all`. En jeu :
-- [ ] Config « Calamity Fandom » : option « Fandom accuracy » (3 choix, Minimal par défaut), le mod demande un rechargement
-- [ ] Monde créé en Minimal puis ouvert en Full Fandom : message orange à l'entrée
+- [ ] Config « Calamity Fandom » : « Fandom accuracy » à 2 choix (Full Fandom / Calamity++, Calamity++ par défaut) +
+      option de debug « Disable Calamity++ balancing » ; changer demande un rechargement
+- [ ] Monde créé en Calamity++ puis ouvert en Full Fandom : message orange à l'entrée (pas de message entre
+      Calamity++ et son option de debug)
 - [ ] Full Fandom : un objet récent de Calamity (voir `reports/baseline.md`, section « masqués ») n'a plus de recette
 - [ ] Desert Scourge : 350 000 PV du wiki (ratio x87,5) **dans tous les modes** (validé le 21/10)
 - [ ] Full Fandom : Acidwood ne se fabrique plus depuis Acidwood Wall (recette absente du wiki)
 - [ ] Full Fandom : un PNJ récent masqué (liste « PNJ » de `reports/baseline.md`) n'apparaît plus naturellement
 - [ ] Full Fandom : les marchands ne vendent plus d'objet masqué ; un objet masqué déjà dans l'inventaire reste utilisable
 - [ ] Full Fandom : les boss récents ne s'invoquent plus (leur objet d'invocation n'a plus de recette ni de drop)
-- [ ] Full Fandom : Starfleet à 68 dégâts (valeur de 2022) ; en Minimal elle garde ses dégâts actuels
-- [ ] Calamity++ : pour l'instant identique à Minimal (aucun équilibrage écrit)
-- [ ] Retour en Minimal : tout revient comme avant
+- [ ] Full Fandom : Starfleet à 68 dégâts (valeur de 2022) ; en Calamity++ elle garde ses dégâts actuels
+- [ ] Retour en Calamity++ : tout revient comme avant
 
 ### 2.1 Premier contenu porté : Night's Gaze
 
@@ -120,13 +121,14 @@ Contrôlé par `python tools/selftest.py --mode all`. En jeu :
 - [ ] Il « esquive » : les coups rapprochés (moins de 0,5 s) ne comptent pas
 - [ ] Ses attaques (contact et projectiles) ne font qu'1 dégât mais empoisonnent
 - [ ] Temporal Umbrella : coûte 520 mana, utilisable une fois le mana max assez boosté
-- [ ] Relic of Ruin et Stormjaw Staff gardent leurs dégâts en Minimal (1 et 0 en Full Fandom)
+- [ ] Relic of Ruin et Stormjaw Staff gardent leurs dégâts en Calamity++ (1 et 0 en Full Fandom)
+- [ ] Le Ravager s'appelle **Meatmetal Sans** (boss, masque, trophée, relique, sac)
+- [ ] Ceaseless Void : 0 de défense
 
 ---
 
 ## Décisions en attente (pas des tests)
 
-- [ ] 2 nouveaux écarts extrêmes à trancher (`reports/stats.md`) : Ceaseless Void à 0 de défense (80 aujourd'hui),
-      Exorcism `use` 19 (96 aujourd'hui)
+- [x] Écarts de stats extrêmes : tous tranchés (`tools/stats_decisions.json`)
 - [ ] Les chiffres du système d'éléments (`docs/decisions.md`) : à juger en jouant.
 - [ ] Les addons (Tranquility, Community Remix...) : voir `docs/ROADMAP.md`, phase 5.

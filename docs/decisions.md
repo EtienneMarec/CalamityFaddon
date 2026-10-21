@@ -89,3 +89,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   - Full Fandom seulement : Relic of Ruin (garder ses dégâts), Stormjaw Staff (0,1 rendrait ses étincelles inutiles).
 - **Ravager = Meatmetal Sans** (page « Ravager », tous les modes) : 1 PV mais esquive, 23 coups pour le tuer, attaques à
   1 dégât + Poisoned. Version minimale codée (`Common/NPCs/MeatmetalSans.cs`) : 23 PV, 1 dégât par coup, esquive 0,5 s.
+
+## Deux modes joueurs, Minimal interne (21/10)
+
+- Minimal n'était ni fidèle (rôle de Full Fandom) ni équilibré (rôle de Calamity++) : les joueurs ont le choix entre
+  **Full Fandom** et **Calamity++** (défaut). Minimal = Calamity++ sans `Balance/`, option de debug.
+- Les décisions « Minimal » prises jusqu'ici décrivent la base de Calamity++ ; l'équilibrage peut les ajuster.
+- Ceaseless Void à 0 de défense : tous les modes (wiki.gg indique aussi 0, malgré `NPC.defense = 80` dans le code).
+- Exorcism `use` 19 : Full Fandom seulement.
+- Ravager renommé **Meatmetal Sans** partout (boss, masque, trophée, relique, sac, lore) : un renommage décidé dans
+  `tools/glossary.json` passe avant la protection des noms qui ont leur propre page.

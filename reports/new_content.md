@@ -293,7 +293,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Neural Whipper-Snapper — addon: Calamity: Community Remix
 - [ ] Neuraze — addon: Hypnos in Calamity
 - [ ] Neutron Star
-- [ ] Night's Gaze
+- [x] Night's Gaze
 - [ ] Night's Stabber
 - [ ] Nightic Blaster — addon: Calamity: Tales of the Aquatic
 - [ ] Noctic Weaver — addon: Calamity: Tales of the Aquatic

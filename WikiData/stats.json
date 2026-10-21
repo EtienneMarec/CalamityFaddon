@@ -6506,6 +6506,10 @@
    "lifeRatio": 25.0,
    "defense": 100
   },
+  "CeaselessVoid": {
+   "page": "Ceaseless Void.txt",
+   "defense": 0
+  },
   "ColossalSquid": {
    "page": "Colossal Squid.txt",
    "lifeRatio": 1.6923
@@ -8857,8 +8861,7 @@
   },
   "CeaselessVoid": {
    "page": "Ceaseless Void.txt",
-   "lifeRatio": 1.288,
-   "defense": 0
+   "lifeRatio": 1.288
   },
   "ChaoticPuffer": {
    "page": "Chaotic Puffer.txt",

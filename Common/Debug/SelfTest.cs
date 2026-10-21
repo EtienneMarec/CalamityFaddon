@@ -35,6 +35,7 @@ namespace CalamityFandom.Common.Debug
             ("buff", "Nightwither", "Moon Burnt"),
             ("npc", "AstrumDeusHead", "Astral Deus"),
             ("npc", "DraconicSwarmer", "Tempest Toddler"),
+            ("npc", "RavagerBody", "Meatmetal Sans"),
         };
 
         public override void PostSetupRecipes()

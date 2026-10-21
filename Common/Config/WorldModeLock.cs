@@ -1,6 +1,5 @@
 using Microsoft.Xna.Framework;
 using Terraria;
-using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
@@ -28,7 +27,8 @@ namespace CalamityFandom.Common.Config
 
         public override void PostWorldGen() => WorldMode = FandomMode.Current;
 
-        public static bool Mismatch => WorldMode is { } mode && mode != FandomMode.Current;
+        // Seul le passage Full Fandom <-> le reste change le contenu (objets masqués) ; l'équilibrage ne change que des nombres
+        public static bool Mismatch => WorldMode is { } mode && (mode == FandomAccuracy.FullFandom) != FandomMode.IsFull;
     }
 
     /// <summary>Avertissement côté joueur à l'entrée dans un monde créé avec un autre mode.</summary>

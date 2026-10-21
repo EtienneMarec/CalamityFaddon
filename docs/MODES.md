@@ -1,9 +1,10 @@
 # Niveaux de fidélité au Fandom
 
-Un seul mod, trois modes, choisis dans la config serveur **Calamity Fandom → Fandom accuracy** (rechargement du mod
-obligatoire : noms, recettes et existence des objets se fixent au chargement). Chaque monde mémorise le mode avec
-lequel il a été créé et prévient si on le charge dans un autre (`Common/Config/WorldModeLock.cs`).
-Mode par défaut : **Minimal**.
+Un seul mod, **deux modes pour les joueurs** (décision du 21/10) : **Full Fandom** et **Calamity++** (par défaut), choisis
+dans la config serveur **Calamity Fandom → Fandom accuracy** (rechargement obligatoire : noms, recettes et existence des
+objets se fixent au chargement). **Minimal** reste une couche interne : Calamity++ sans son équilibrage, activable par
+l'option de debug « Disable Calamity++ balancing » pour comparer. Chaque monde mémorise son mode et prévient si on passe
+de Full Fandom à Calamity++ ou l'inverse (`Common/Config/WorldModeLock.cs`).
 
 Dans le code : `FandomMode.Current`, `FandomMode.IsFull`, `FandomMode.IsPlus` (`Common/Config/FandomConfig.cs`).
 La variable d'environnement `CALFANDOM_MODE` force un mode (auto-test : `python tools/selftest.py --mode all`).
@@ -17,7 +18,7 @@ ne change rien à la question des assets pour une publication, mais trouver un i
 
 ## Les trois modes
 
-| | Full Fandom | Minimal | Calamity++ |
+| | Full Fandom | Minimal (interne, debug) | Calamity++ |
 |---|---|---|---|
 | Idée | Uniquement ce qui est écrit sur le wiki | Calamity actuel + ajouts du wiki + correctifs | Minimal + vrai équilibrage, jouable |
 | Référence Calamity | 2.0.1.005 (abandon du wiki) | version actuelle | version actuelle |

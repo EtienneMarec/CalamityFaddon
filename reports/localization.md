@@ -2,9 +2,9 @@
 
 _Généré par `tools/gen_localization.py`._
 
-149 textes modifiés, dont 39 noms.
+160 textes modifiés, dont 46 noms.
 
-Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom Brick Wall, Hide of Astrum Deus, Uelibloom Brick, going rogue, goes rogue, gone rogue, went rogue, go rogue.
+Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom Brick Wall, Hide of Astrum Deus, Uelibloom Brick, Realm Ravager, going rogue, goes rogue, gone rogue, went rogue, go rogue.
 
 | Clé | Avant | Après |
 |---|---|---|
@@ -38,11 +38,18 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Buffs.Nightwither.DisplayName` | Nightwither | Moon Burnt |
 | `Items.Materials.PearlShard.DisplayName` | Pearl Shard | Conquest Fragment |
 | `Items.Weapons.Ranged.PristineFury.DisplayName` | Pristine Fury | Pristine Annihilation |
+| `NPCs.RavagerBody.DisplayName` | Ravager | Meatmetal Sans |
+| `Projectiles.Boss.RavagerBlaster.DisplayName` | Ravager Blaster | Meatmetal Sans Blaster |
+| `Items.Armor.Vanity.RavagerMask.DisplayName` | Ravager Mask | Meatmetal Sans Mask |
+| `Items.Placeables.RavagerRelic.DisplayName` | Ravager Relic | Meatmetal Sans Relic |
+| `Items.Placeables.RavagerTrophy.DisplayName` | Ravager Trophy | Meatmetal Sans Trophy |
 | `Items.Accessories.RogueEmblem.DisplayName` | Rogue Emblem | Spy Emblem |
 | `Items.Materials.ScoriaBar.DisplayName` | Scoria Bar | Abyss Bar |
 | `Items.Placeables.ScoriaOre.DisplayName` | Scoria Ore | Abyss Ore |
 | `Items.Materials.SeaRemains.DisplayName` | Sea Remains | Victide Bar |
+| `Items.Lore.LoreRavager.DisplayName` | The Ravager | The Meatmetal Sans |
 | `Items.TreasureBags.AstrumDeusBag.DisplayName` | Treasure Bag (Astrum Deus) | Treasure Bag (Astral Deus) |
+| `Items.TreasureBags.RavagerBag.DisplayName` | Treasure Bag (Ravager) | Treasure Bag (Meatmetal Sans) |
 | `Items.Materials.UelibloomBar.DisplayName` | Uelibloom Bar | Tarragon Bar |
 | `Items.Placeables.UelibloomOre.DisplayName` | Uelibloom Ore | Tarragon Ore |
 | `Items.Materials.WulfrumMetalScrap.DisplayName` | Wulfrum Metal Scrap | Wulfrum Bar |

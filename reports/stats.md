@@ -2,19 +2,16 @@
 
 _Généré par `tools/gen_stats.py`._ Règles : `docs/decisions.md`, section « Stats ».
 
-- Tous les modes : 1204 objets et 27 PNJ (`items` / `npcs` de `WikiData/stats.json`).
+- Tous les modes : 1204 objets et 28 PNJ (`items` / `npcs` de `WikiData/stats.json`).
 - Full Fandom en plus : 473 objets et 49 PNJ (`fullItems` / `fullNpcs`).
 - 858 valeurs identiques à Calamity 2.0.1.005 : Full Fandom seulement (ce n'est que l'ancien Calamity).
-- 22 écarts extrêmes tranchés avec l'utilisateur (`tools/stats_decisions.json`).
-- **2 écarts extrêmes (> x5) à trancher** : Full Fandom seulement en attendant.
+- 24 écarts extrêmes tranchés avec l'utilisateur (`tools/stats_decisions.json`).
+- **0 écarts extrêmes (> x5) à trancher** : Full Fandom seulement en attendant.
 - Gérés dans le code : Ravager.
 
 ## Écarts extrêmes à trancher
 
-| Page | Classe | Champ | Wiki | Code actuel |
-|---|---|---|---|---|
-| Ceaseless Void | CeaselessVoid | defense | 0 | 80 |
-| Exorcism | Exorcism | useAnimation | 19 | 96 |
+Aucun.
 
 ## Écarts extrêmes tranchés
 
@@ -23,10 +20,12 @@ _Généré par `tools/gen_stats.py`._ Règles : `docs/decisions.md`, section « 
 | Anti-materiel Rifle | AntiMaterielRifle | damage | 324 | 1818 | tous les modes |
 | Cannonball Jellyfish | CannonballJellyfish | life | 10000 | 400 | tous les modes |
 | Cannonball Jellyfish | CannonballJellyfish | defense | 100 | 0 | tous les modes |
+| Ceaseless Void | CeaselessVoid | defense | 0 | 80 | tous les modes |
 | Clockwork Bow | ClockworkBow | damage | 36 | 770 | tous les modes |
 | Clockwork Bow | ClockworkBow | useAnimation | 5 | 30 | tous les modes |
 | Coral Spout | CoralSpout | mana | 4 | 30 | tous les modes |
 | Desert Scourge | DesertScourgeHead | life | 350000 | 4000 | tous les modes |
+| Exorcism | Exorcism | useAnimation | 19 | 96 | Full Fandom seulement |
 | Grand Dad | GrandDad | damage | 777 | 5577 | tous les modes |
 | Great Sand Shark | GreatSandShark | life | 100000 | 9200 | tous les modes |
 | Halibut Cannon | HalibutCannon | damage | 1000 | 100 | tous les modes |

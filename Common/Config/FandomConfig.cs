@@ -5,14 +5,21 @@ using Terraria.ModLoader.Config;
 
 namespace CalamityFandom.Common.Config
 {
-    /// <summary>Niveau de fidélité au wiki Fandom. Voir docs/MODES.md.</summary>
+    /// <summary>Mode effectif, en interne. Voir docs/MODES.md.</summary>
     public enum FandomAccuracy
     {
-        /// <summary>Uniquement ce qui est écrit sur le wiki : nouveautés de Calamity d'après 2.0.1.005 masquées, valeurs du wiki sans garde-fou.</summary>
+        /// <summary>Uniquement ce qui est écrit sur le wiki : nouveautés de Calamity d'après 2.0.1.005 masquées, valeurs de 2022 comprises.</summary>
         FullFandom,
-        /// <summary>Calamity actuel + ajouts du wiki + correctifs quand le wiki est impossible ou muet.</summary>
+        /// <summary>Couche interne (debug) : Calamity actuel + ce qui est propre au Fandom, sans l'équilibrage de Calamity++.</summary>
         Minimal,
-        /// <summary>Minimal + vrai travail d'équilibrage pour que tout soit jouable.</summary>
+        /// <summary>Calamity actuel + ce qui est propre au Fandom + équilibrage (Balance/).</summary>
+        CalamityPlus,
+    }
+
+    /// <summary>Les deux modes proposés aux joueurs.</summary>
+    public enum PlayerAccuracy
+    {
+        FullFandom,
         CalamityPlus,
     }
 
@@ -22,15 +29,23 @@ namespace CalamityFandom.Common.Config
 
         // Tout se décide au chargement (noms, recettes, existence des objets) : changer de mode recharge le mod
         [ReloadRequired]
-        [DefaultValue(FandomAccuracy.Minimal)]
-        public FandomAccuracy Accuracy { get; set; } = FandomAccuracy.Minimal;
+        [DefaultValue(PlayerAccuracy.CalamityPlus)]
+        public PlayerAccuracy Accuracy { get; set; } = PlayerAccuracy.CalamityPlus;
 
         /// <summary>Un monde se souvient du mode avec lequel il a été créé.</summary>
         [DefaultValue(true)]
         public bool WarnOnWorldModeMismatch { get; set; } = true;
+
+        /// <summary>Debug : Calamity++ sans sa couche d'équilibrage (= mode interne Minimal), pour comparer.</summary>
+        [Header("Debug")]
+        [ReloadRequired]
+        [DefaultValue(false)]
+        public bool DisableBalanceLayer { get; set; }
     }
 
-    /// <summary>Mode actif pour toute la session. CALFANDOM_MODE (FullFandom/Minimal/CalamityPlus) le force, pour l'auto-test.</summary>
+    /// <summary>
+    /// Mode actif pour toute la session. CALFANDOM_MODE (FullFandom/Minimal/CalamityPlus) le force, pour l'auto-test.
+    /// </summary>
     public static class FandomMode
     {
         public static FandomAccuracy Current
@@ -40,7 +55,12 @@ namespace CalamityFandom.Common.Config
                 string forced = Environment.GetEnvironmentVariable("CALFANDOM_MODE");
                 if (!string.IsNullOrEmpty(forced) && Enum.TryParse<FandomAccuracy>(forced, true, out var mode))
                     return mode;
-                return ModContent.GetInstance<FandomConfig>()?.Accuracy ?? FandomAccuracy.Minimal;
+                var config = ModContent.GetInstance<FandomConfig>();
+                if (config == null)
+                    return FandomAccuracy.CalamityPlus;
+                if (config.Accuracy == PlayerAccuracy.FullFandom)
+                    return FandomAccuracy.FullFandom;
+                return config.DisableBalanceLayer ? FandomAccuracy.Minimal : FandomAccuracy.CalamityPlus;
             }
         }
 
