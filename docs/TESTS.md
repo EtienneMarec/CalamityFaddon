@@ -47,13 +47,14 @@ Astuces : Cheat Sheet / Hero's Mod pour faire apparaître objets et PNJ ; `/calf
 ### 1.2 Stats du wiki (`WikiData/stats.json`, 1204 objets, 67 PNJ)
 
 Contrôlé automatiquement par `tools/selftest.py` (toutes les valeurs du JSON). En jeu, vérifier surtout le ressenti :
-- [ ] Graydron (Murasama) : 3001 dégâts, 50 % de critique dans l'infobulle
-- [ ] Ark of the Cosmos : 2000 dégâts
-- [ ] Un objet modifié en vitesse (ex. Absolute Zero, `use` 19) frappe à la bonne cadence, sans bug d'animation
-- [ ] Une arme à plusieurs tirs par usage (ex. Clockwork Bow) tire toujours correctement
-- [ ] Un ennemi modifié (ex. Aero Slime, défense 10) : PV et défense cohérents avec le wiki (`/` Cheat Sheet → NPC)
-- [ ] Rien de cassé côté prix de vente (vendre un objet modifié à un PNJ)
-- [ ] Une arme de spy (rogue) a aussi les stats du wiki : Garnet (ex-Malachite) 65 dégâts, Cinquedea 36 ; et une
+- [x] Graydron (Murasama) : 50 % de critique ; dégâts **2200 en Calamity++** (validé 21/10), **3001 en Full Fandom**
+      (3001 était sa valeur dans Calamity 2022 : Full Fandom seulement, page `{{mode|3001|2200}}`) — à vérifier en Full
+- [x] Ark of the Cosmos : 2000 dégâts
+- [x] Un objet modifié en vitesse (ex. Absolute Zero, `use` 20 → 19) frappe à la bonne cadence, sans bug d'animation
+- [x] Une arme à plusieurs tirs par usage (ex. Clockwork Bow) tire toujours correctement
+- [x] Un ennemi modifié (ex. Aero Slime, défense 10) : PV et défense cohérents avec le wiki (`/` Cheat Sheet → NPC)
+- [x] Rien de cassé côté prix de vente (pas d'exemple précis testé, semble bon)
+- [x] Une arme de spy (rogue) a aussi les stats du wiki : Garnet (ex-Malachite) 65 dégâts, Cinquedea 36 ; et une
       épée « tenue » : Galileo Gladius `use` 10 (ces objets étaient oubliés avant la correction du 21/10)
 
 ### 1.3 Recettes du wiki (`WikiData/recipes.json`, bilan dans `reports/recipes.md`)

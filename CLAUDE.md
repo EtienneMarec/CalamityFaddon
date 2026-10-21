@@ -122,6 +122,8 @@ Tester les trois couches : `python tools/selftest.py --mode all`. Référence «
 6. Relancer `wiki_index.py`, puis `dotnet build` (pour vérifier la compilation C# : l'erreur TML003 quand le jeu est
    ouvert est normale, l'utilisateur fait lui-même ses Build + Reload).
 7. Ajouter les vérifications à faire en jeu dans `docs/TESTS.md`, dans la section de la passe en cours.
+   Quand une règle change (modes, stats...), **relire les tests existants** qu'elle touche et corriger leurs valeurs
+   attendues (ex. Graydron : 3001 n'était plus attendu en Calamity++ après la règle « valeurs 2022 »).
 
 Une dépendance absente (ingrédient, debuff, boss qui droppe l'objet) se traite d'abord ou se note en `TODO` dans le code.
 
