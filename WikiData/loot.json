@@ -1,0 +1,10581 @@
+{
+ "_generated_by": "tools/gen_loot.py",
+ "npcs": {
+  "Abyssal Jewel": {
+   "page": "Abyssal Jewel.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Laceline",
+     "min": 50,
+     "max": 70,
+     "chance": 1.0
+    },
+    {
+     "item": "Esseric Bar",
+     "min": 20,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Jewel Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Cutter's Gift",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Abysscent Derailer",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Evercoldance",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Cored Line",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Lacerang",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Abyssal Jewel Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Accidated Slime": {
+   "page": "Accidated Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Accidated Reactive Essence",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Acid Eel": {
+   "page": "Acid Eel.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Sulphuric Scale",
+     "min": 1,
+     "max": 3,
+     "chance": 0.5
+    },
+    {
+     "item": "Slithering Eels",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "note": "(Tiers 2 & 3)"
+    },
+    {
+     "item": "Vitriolic Viper",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "note": "(Tier 3)"
+    }
+   ]
+  },
+  "Acidsighter": {
+   "page": "Acidsighter.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Pungent Bomber",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Acid Bow",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Caustic Claw",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Corrosive Eye Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Razor Teeth",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    }
+   ]
+  },
+  "Adult Eidolon Wyrm": {
+   "page": "Adult Eidolon Wyrm.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Voidstone",
+     "min": 80,
+     "max": 100,
+     "chance": 1.0
+    },
+    {
+     "item": "Subnautical Plate",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating<br/>Moon Lord)"
+    },
+    {
+     "item": "Lumenyl",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Ectoplasm",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating<br/>Plantera)"
+    },
+    {
+     "item": "Eidolic Wail",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Soul Edge",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Halibut Cannon",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Omega Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Aero Slime": {
+   "page": "Aero Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Aerialite Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    },
+    {
+     "item": "Skyline Wings",
+     "min": 1,
+     "max": 1,
+     "chance": 0.03
+    }
+   ]
+  },
+  "Aether Valkyrie": {
+   "page": "Aether Valkyrie.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Aerialite Ore",
+     "min": 45,
+     "max": 60,
+     "chance": 1.0
+    },
+    {
+     "item": "Storm Saber",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Eye of the Storm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    }
+   ]
+  },
+  "Aetherial Guardian, Olistene": {
+   "page": "Aetherial Guardian_ Olistene.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Compressed Mana",
+     "min": 15,
+     "max": 25,
+     "chance": 1.0
+    },
+    {
+     "item": "Starspite",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Stardust Cannon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Abyssal Sky",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Astrosphere Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Incandescent Nox",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Olistene Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Caelus (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Amazon": {
+   "page": "Amazon.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Delicious Meat",
+     "min": 15000,
+     "max": 25000,
+     "chance": 1.0
+    },
+    {
+     "item": "Kindle Fire",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Amazon Alexa",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Dragon's Breath",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Stardrops - The Pink Stuff - The Miracle All Purpose Cleaning Paste",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Yharim's Gun",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Budget Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Coupon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "WalMart Badge",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Golden Shower",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Poo",
+     "min": 50000,
+     "max": 50000,
+     "chance": 1.0
+    },
+    {
+     "item": "Auric Bar",
+     "min": 50000,
+     "max": 50000,
+     "chance": 1.0
+    },
+    {
+     "item": "Amazon (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Angry Dog": {
+   "page": "Angry Dog.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Leather",
+     "min": 1,
+     "max": 2,
+     "chance": 0.5
+    },
+    {
+     "item": "Essence of Eleum",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "note": "(After defeating<br/>Cryogen)"
+    }
+   ]
+  },
+  "Anthozoan Crab": {
+   "page": "Anthozoan Crab.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Corroded Fossil",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0667
+    }
+   ]
+  },
+  "Aquatic Scourge": {
+   "page": "Aquatic Scourge.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Bleached Angling Kit",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Sulphurous Sand",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Submarine Shocker",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Barinautical",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Downpour",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Deepsea Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Scourge of the Seas",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Aquatic Emblem",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Corrosive Spine",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1111
+    },
+    {
+     "item": "Sea's Searing",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Deep Diver",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Greater Healing Potion",
+     "min": 8,
+     "max": 14,
+     "chance": 1.0
+    },
+    {
+     "item": "Aquatic Scourge Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Aquatic Scourge Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Aquatic Scourge (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Sulphur Sea (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Aquatic Urchin": {
+   "page": "Aquatic Urchin.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Urchin Stinger",
+     "min": 15,
+     "max": 25,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Aries": {
+   "page": "Aries.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Titan Finger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Stellar Knife",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "note": "(After defeating Astrum Aureus)"
+    }
+   ]
+  },
+  "Armored Digger": {
+   "page": "Armored Digger.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Draedon's Remote",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Eye of Excavator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Reloadable Rapid-Fire Shooter",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Energized Scrap Spikes",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Demonic Bone Ash",
+     "min": 2,
+     "max": 4,
+     "chance": 1.0
+    },
+    {
+     "item": "Mysterious Circuitry",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Dubious Plating",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Arsenous Slime": {
+   "page": "Arsenous Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Arsenic Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Astrageldon Slime": {
+   "page": "Astrageldon Slime.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Stardust",
+     "min": 30,
+     "max": 40,
+     "chance": 1.0
+    },
+    {
+     "item": "Astral Jelly",
+     "min": 9,
+     "max": 12,
+     "chance": 1.0
+    },
+    {
+     "item": "Astral Lash",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Super Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Astrageldon Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Astrageldon Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Astrageldon (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Astral Deus": {
+   "page": "Astral Deus.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Stardust",
+     "min": 55,
+     "max": 95,
+     "chance": 1.0
+    },
+    {
+     "item": "Fallen Star",
+     "min": 25,
+     "max": 40,
+     "chance": 1.0
+    },
+    {
+     "item": "Solar Fragment",
+     "min": 16,
+     "max": 24,
+     "chance": 1.0
+    },
+    {
+     "item": "Vortex Fragment",
+     "min": 16,
+     "max": 24,
+     "chance": 1.0
+    },
+    {
+     "item": "Nebula Fragment",
+     "min": 16,
+     "max": 24,
+     "chance": 1.0
+    },
+    {
+     "item": "Stardust Fragment",
+     "min": 16,
+     "max": 24,
+     "chance": 1.0
+    },
+    {
+     "item": "The Microwave",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Star Sputter",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Starfall",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Godspawn Helix Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Regulus Riot",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Quasar",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Hide of Astral Deus",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Greater Healing Potion",
+     "min": 8,
+     "max": 14,
+     "chance": 1.0
+    },
+    {
+     "item": "Chromatic Orb",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Astral Deus Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Astral Deus Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Astral Infection (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Astral Deus (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Astral Head": {
+   "page": "Astral Head.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stardust",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    }
+   ]
+  },
+  "Astral Probe": {
+   "page": "Astral Probe.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Titan Finger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    }
+   ]
+  },
+  "Astral Slime": {
+   "page": "Astral Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stardust",
+     "min": 1,
+     "max": 3,
+     "chance": 0.5
+    },
+    {
+     "item": "Astral Ore",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating<br/>Astrum Deus)"
+    },
+    {
+     "item": "Titan Finger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Abandoned Slime Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "note": "(After defeating<br/>Astrum Aureus)"
+    }
+   ]
+  },
+  "Astralachnea": {
+   "page": "Astralachnea.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stardust",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Titan Finger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Astralachnea Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "note": "(After defeating Astrum Aureus)"
+    }
+   ]
+  },
+  "Astrum Aureus": {
+   "page": "Astrum Aureus.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Soul of Bright",
+     "min": 20,
+     "max": 40,
+     "chance": 1.0
+    },
+    {
+     "item": "Hallowed Key",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Aureus Cell",
+     "min": 9,
+     "max": 12,
+     "chance": 1.0
+    },
+    {
+     "item": "Stardust",
+     "min": 20,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Fallen Star",
+     "min": 18,
+     "max": 24,
+     "chance": 1.0
+    },
+    {
+     "item": "Alula Australis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Aurora Blazer",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Auroradical Throw",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Borealis Bomber",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Nebulash",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Gravistar Sabaton",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Suspicious Looking Jelly Bean",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating Moon Lord)"
+    },
+    {
+     "item": "Leonid Progenitor",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Supreme Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Astrum Aureus Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Astrum Aureus Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Astrum Aureus (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Asura": {
+   "page": "Asura.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Exodium Cluster",
+     "min": 2,
+     "max": 2,
+     "chance": 0.5
+    }
+   ]
+  },
+  "Atlas": {
+   "page": "Atlas.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stardust",
+     "min": 6,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Titan Finger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.15
+    },
+    {
+     "item": "Titan Heart",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Titan Arm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "note": "(After defeating Astrum Aureus)"
+    }
+   ]
+  },
+  "Auric Slime": {
+   "page": "Auric Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Auric Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Aurora Spirit": {
+   "page": "Aurora Spirit.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Eleum",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    }
+   ]
+  },
+  "BOHLDOHR": {
+   "page": "BOHLDOHR.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Lihzahrd Power Cell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Lihzahrd Brick",
+     "min": 10,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Solar Tablet Fragment",
+     "min": 1,
+     "max": 3,
+     "chance": 0.1429
+    }
+   ]
+  },
+  "Barocrab": {
+   "page": "Barocrab.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Baroclaw",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    }
+   ]
+  },
+  "Barocraw": {
+   "page": "Barocraw.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Baroclaw",
+     "min": 1,
+     "max": 1,
+     "chance": 0.125
+    },
+    {
+     "item": "Baronacre",
+     "min": 1,
+     "max": 1,
+     "chance": 0.75,
+     "note": "(After defeating<br/>Calamitas)"
+    }
+   ]
+  },
+  "Belching Coral": {
+   "page": "Belching Coral.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Corroded Fossil",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0667
+    },
+    {
+     "item": "Belching Saxophone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Big Sightseer": {
+   "page": "Big Sightseer.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stardust",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Titan Finger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Astral Pearl",
+     "min": 1,
+     "max": 1,
+     "chance": 0.15
+    }
+   ]
+  },
+  "Birdest Up, Kulu-Yharon-Ku": {
+   "page": "Birdest Up_ Kulu-Yharon-Ku.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "A Will To Live",
+     "min": 0,
+     "max": 0,
+     "chance": 0.0
+    },
+    {
+     "item": "Auric Tesla Bar",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Genesis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "group": 1,
+     "groupAlways": true
+    }
+   ]
+  },
+  "Blighted Eye": {
+   "page": "Blighted Eye.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Blighted Lens",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    }
+   ]
+  },
+  "Blinded Angler": {
+   "page": "Blinded Angler.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Prism Shard",
+     "min": 5,
+     "max": 9,
+     "chance": 1.0
+    },
+    {
+     "item": "Clam Chowder",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Eutrophic Scimitar",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    }
+   ]
+  },
+  "Bloatfish": {
+   "page": "Bloatfish.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Voidstone",
+     "min": 10,
+     "max": 20,
+     "chance": 1.0
+    },
+    {
+     "item": "Depth Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    }
+   ]
+  },
+  "Blockhound": {
+   "page": "Blockhound.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Exo Dogtooth",
+     "min": 1,
+     "max": 1,
+     "chance": 0.125
+    },
+    {
+     "item": "Adhesive Bandage",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    }
+   ]
+  },
+  "Bloody Burrower": {
+   "page": "Bloody Burrower.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Vertebra",
+     "min": 1,
+     "max": 1,
+     "chance": 0.333
+    }
+   ]
+  },
+  "Bloom Slime": {
+   "page": "Bloom Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Tarragon Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Blue Demon": {
+   "page": "Blue Demon.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Blue Demon Head",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Boar Cat": {
+   "page": "Boar Cat.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Babil",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Disgusting Meat",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Bobbit Worm": {
+   "page": "Bobbit Worm.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Depth Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Bobbit Hook",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "note": "(After defeating<br/>Polterghast)"
+    }
+   ]
+  },
+  "Box Jellyfish": {
+   "page": "Box Jellyfish.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Abyss Shocker",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "note": "(After defeating Skeletron)"
+    },
+    {
+     "item": "Jellyfish Necklace",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    }
+   ]
+  },
+  "Brimstone Elemental": {
+   "page": "Brimstone Elemental.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Essence of Chaos",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Bloodstone",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Once [[Providence, the Profaned Goddess"
+    },
+    {
+     "item": "Brimlance",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Seething Discharge",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Dormant Brimseeker",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Gehenna",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Brimrose",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating [[Providence, the Profaned Goddess"
+    },
+    {
+     "item": "Abaddon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    },
+    {
+     "item": "Rose Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Hellborn",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Flame-Licked Shell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Greater Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Brimstone Elemental Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Brimstone Elemental Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Brimstone Crag (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Brimstone Elemental (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Bronze Serpent": {
+   "page": "Bronze Serpent.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Demonic Bone Ash",
+     "min": 5,
+     "max": 7,
+     "chance": 1.0
+    },
+    {
+     "item": "Cog",
+     "min": 20,
+     "max": 40,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Calamitas": {
+   "page": "Calamitas.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Ashes of Annihilation",
+     "min": 9,
+     "max": 14,
+     "chance": 1.0
+    },
+    {
+     "item": "Essence of Chaos",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Blighted Lens",
+     "min": 5,
+     "max": 12,
+     "chance": 1.0
+    },
+    {
+     "item": "Broken Hero Sword",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Bloodstone",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Once Providence is defeated)"
+    },
+    {
+     "item": "Animosity",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Lashes of Chaos",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Oblivion",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Entropy's Vigil",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Void of Calamity",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Chaos Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Regenator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Greater Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Calamitas Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Hood of Calamity",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "group": 2,
+     "groupAlways": true
+    },
+    {
+     "item": "Calamitas Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Calamitas Clone (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Calamity Eye": {
+   "page": "Calamity Eye.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Lens",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    },
+    {
+     "item": "Blighted Lens",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(In Hardmode)"
+    },
+    {
+     "item": "Essence of Chaos",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "note": "(In Hardmode)"
+    },
+    {
+     "item": "Bloodstone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating Providence)"
+    }
+   ]
+  },
+  "Cannonball Jellyfish": {
+   "page": "Cannonball Jellyfish.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Jellyfish Cannonball",
+     "min": 15,
+     "max": 15,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Carcinogen": {
+   "page": "Carcinogen.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Plague Cell Canister",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Soul of Carcinogen",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Carcinogen Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Carcinogen Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Cryogen (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Catfish (enemy)": {
+   "page": "Catfish _enemy_.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Diving Helmet",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04
+    }
+   ]
+  },
+  "Ceaseless Void": {
+   "page": "Ceaseless Void.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Dark Plasma",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Mirror Blade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Void Concentration Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "The Evolution",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Tree-Crown Wings",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Supreme Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Ceaseless Void Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Ancient God Slayer Helm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Ceaseless Void Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "The Sentinels of the Devourer (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill if Storm Weaver<br/>and Signus are defeated)"
+    }
+   ]
+  },
+  "Ceasing Void": {
+   "page": "Ceasing Void.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Steel Blade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Concentration Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "The Unchanging",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Ceasing Void Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "God Slayer Helmet",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Ceasing Void Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Chaos Slime": {
+   "page": "Chaos Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Scoria Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Chaotic Puffer": {
+   "page": "Chaotic Puffer.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Scoria Ore",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating<br/>Golem)"
+    }
+   ]
+  },
+  "Charm Gar": {
+   "page": "Charm Gar.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Blood Orb",
+     "min": 30,
+     "max": 75,
+     "chance": 1.0
+    },
+    {
+     "item": "Bloodstone",
+     "min": 35,
+     "max": 50,
+     "chance": 1.0
+    },
+    {
+     "item": "Bloodstone Bar",
+     "min": 8,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Bloodflare Rod",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    }
+   ]
+  },
+  "Charred Slime": {
+   "page": "Charred Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Charred Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    },
+    {
+     "item": "Essence of Chaos",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Bloodstone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating Providence)"
+    }
+   ]
+  },
+  "Chasm Beast": {
+   "page": "Chasm Beast.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Sallowrack",
+     "min": 30,
+     "max": 50,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Clam": {
+   "page": "Clam.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Navystone",
+     "min": 8,
+     "max": 12,
+     "chance": 1.0
+    },
+    {
+     "item": "Mollusk Husk",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(Hardmode-only)"
+    },
+    {
+     "item": "Clam Chowder",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "note": "(Hardmode-only)"
+    },
+    {
+     "item": "Ghast Relic",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Clamitas": {
+   "page": "Clamitas.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Brimstone Slag",
+     "min": 25,
+     "max": 35,
+     "chance": 1.0
+    },
+    {
+     "item": "Brimstone Sword",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Mollusk Husk",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(In Hardmode)"
+    },
+    {
+     "item": "Brimlash",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "note": "(In Hardmode only)",
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Brimstone Fury",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "note": "(In Hardmode only)",
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Burning Sea",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "note": "(In Hardmode only)",
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Igneous Exaltation",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "note": "(In Hardmode only)",
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Brimblade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "note": "(In Hardmode only)",
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Slagspitter Pauldron",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(In Hardmode)"
+    },
+    {
+     "item": "Eye of Desolation",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(in Hardmode only)"
+    }
+   ]
+  },
+  "Clockwork Bat": {
+   "page": "Clockwork Bat.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Cog",
+     "min": 2,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Metal Feather",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    }
+   ]
+  },
+  "Cnidrion": {
+   "page": "Cnidrion.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Desert Medallion",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    },
+    {
+     "item": "Amidias' Spark",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    }
+   ]
+  },
+  "Colossal Squid": {
+   "page": "Colossal Squid.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Black Ink",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "The Food Chain",
+     "min": 1,
+     "max": 1,
+     "chance": 0.15
+    },
+    {
+     "item": "Depth Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Ink Bomb",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Calamari's Lament",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "note": "(After defeating Polterghast)"
+    }
+   ]
+  },
+  "Cosmic Elemental": {
+   "page": "Cosmic Elemental.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Bone Sword",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04
+    },
+    {
+     "item": "Starfury",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Enchanted Sword",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    },
+    {
+     "item": "Arkhalis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.005
+    },
+    {
+     "item": "Cosmic Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Cosmic Guardian": {
+   "page": "Cosmic Guardian.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Cosmilite Slag",
+     "min": 5,
+     "max": 10,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Cosmilite Slime": {
+   "page": "Cosmilite Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Cosmilite Slag",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Crabulon": {
+   "page": "Crabulon.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Glowing Mushroom",
+     "min": 20,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Mushroom Grass Seeds",
+     "min": 3,
+     "max": 6,
+     "chance": 1.0
+    },
+    {
+     "item": "Mycoroot",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Hyphae Rod",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Mycelial Claws",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Fungicide",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Infested Clawmerang",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Puff Shroom",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Fungal Clump",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Delicious Meat",
+     "min": 4,
+     "max": 7,
+     "chance": 1.0
+    },
+    {
+     "item": "Leaves of Crabulon",
+     "min": 4,
+     "max": 7,
+     "chance": 1.0
+    },
+    {
+     "item": "Crabulon Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Crabulon Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Crabulon (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Cragmaw Mire": {
+   "page": "Cragmaw Mire.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Septic Skewer",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    }
+   ]
+  },
+  "Crimson Kaiju": {
+   "page": "Crimson Kaiju.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Darksun Fragment",
+     "min": 35,
+     "max": 45,
+     "chance": 1.0
+    },
+    {
+     "item": "Red Wings",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Crimson Slime Spawn": {
+   "page": "Crimson Slime Spawn.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Blindfold",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    }
+   ]
+  },
+  "Cryo Slime": {
+   "page": "Cryo Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Cryonic Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Cryogen": {
+   "page": "Cryogen.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Frozen Key",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Essence of Eleum",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Effluvium Bow",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Glacial Crusher",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Icebreaker",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Avalanche",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Snowstorm Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Soul of Cryogen",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Cryo Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Frost Flare",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Cold Divinity",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Greater Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Cryogen Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Cryogen Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Cryogen (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Cryon": {
+   "page": "Cryon.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Eleum",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    }
+   ]
+  },
+  "Cuboid Curse": {
+   "page": "Cuboid Curse.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Darksun Fragment",
+     "min": 1,
+     "max": 3,
+     "chance": 0.75
+    },
+    {
+     "item": "Guardians Wrath",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    }
+   ]
+  },
+  "Cultist Assassin": {
+   "page": "Cultist Assassin.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Chaos",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Bloodstone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating Providence)"
+    }
+   ]
+  },
+  "Cumulomenace": {
+   "page": "Cumulomenace.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Aerialite Ore",
+     "min": 85,
+     "max": 100,
+     "chance": 1.0
+    },
+    {
+     "item": "Cumulomenace (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Nimbus Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Glaive o' Gusts",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "The Tempest's Box",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Brume Striders",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Cumulomenace Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857
+    },
+    {
+     "item": "Cumulomenace Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Cuttlefish": {
+   "page": "Cuttlefish.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Anechoic Coating",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    },
+    {
+     "item": "Ink Bomb",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    }
+   ]
+  },
+  "Cyber Draedon": {
+   "page": "Cyber Draedon.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Dubious Plating",
+     "min": 20,
+     "max": 50,
+     "chance": 1.0
+    },
+    {
+     "item": "Mysterious Circuitry",
+     "min": 20,
+     "max": 50,
+     "chance": 1.0
+    },
+    {
+     "item": "Schematic",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(When defeated in the Sunken Sea)"
+    },
+    {
+     "item": "Encrypted Schematic (Planetoid)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(When defeated in Space during Hardmode)"
+    },
+    {
+     "item": "Encrypted Schematic (Jungle)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(When defeated in the Jungle post-Golem])"
+    },
+    {
+     "item": "Encrypted Schematic (Hell)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(When defeated in Underworld post-Providence)"
+    },
+    {
+     "item": "Encrypted Schematic (Ice)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(When defeated in Ice biome post-Devourer of Gods)"
+    },
+    {
+     "item": "Suspicious Scrap",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Prototype Plasma Drive Core",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "note": "(When defeated in Space during Hardmode)"
+    },
+    {
+     "item": "Graydron",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    }
+   ]
+  },
+  "Cyrogen": {
+   "page": "Cyrogen.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Frozen Key",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Essence of Eleum",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Effluvium Bow",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Glacial Crusher",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Icebreaker",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Avalanche",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Snowstorm Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Soul of Cyrogen",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Cryo Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Frost Flare",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Cold Divinity",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Greater Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Cyrogen Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Cyrogen Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Cyrogen (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "DWN-∞, Zero": {
+   "page": "DWN-__ Zero.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Z-Saber",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Death Slime": {
+   "page": "Death Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Phantoplasm",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    },
+    {
+     "item": "Apocalyptic Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    },
+    {
+     "item": "Ectoplasm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    }
+   ]
+  },
+  "Depressed Cephalopod": {
+   "page": "Depressed Cephalopod.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Darksun Fragment",
+     "min": 1,
+     "max": 3,
+     "chance": 0.75
+    },
+    {
+     "item": "Squidbeak Shotgun",
+     "min": 1,
+     "max": 1,
+     "chance": 0.12
+    }
+   ]
+  },
+  "Desert Scourge": {
+   "page": "Desert Scourge.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Sandy Angling Kit",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Parched Scale",
+     "min": 7,
+     "max": 14,
+     "chance": 1.0
+    },
+    {
+     "item": "Profaned Shard",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Coral",
+     "min": 5,
+     "max": 9,
+     "chance": 1.0
+    },
+    {
+     "item": "Seashell",
+     "min": 5,
+     "max": 9,
+     "chance": 1.0
+    },
+    {
+     "item": "Starfish",
+     "min": 5,
+     "max": 9,
+     "chance": 1.0
+    },
+    {
+     "item": "Abyss Bar",
+     "min": 3,
+     "max": 8,
+     "chance": 1.0,
+     "note": "(Post-Golem)"
+    },
+    {
+     "item": "Sand Block",
+     "min": 261,
+     "max": 820,
+     "chance": 1.0
+    },
+    {
+     "item": "Conquest Fragment",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Seabound Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Barinade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Storm Spray",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Aquatic Discharge",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Scourge of the Desert",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Ocean Crest",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Delicious Meat",
+     "min": 4,
+     "max": 4,
+     "chance": 0.2
+    },
+    {
+     "item": "Sand Cloak",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Lesser Healing Potion",
+     "min": 8,
+     "max": 14,
+     "chance": 1.0
+    },
+    {
+     "item": "Desert Scourge Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Desert Scourge Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "The Desert Scourge (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Despair Stone": {
+   "page": "Despair Stone.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Chaos",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "note": "(In Hardmode)"
+    },
+    {
+     "item": "Slagspitter Pauldron",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "note": "(In Hardmode)"
+    },
+    {
+     "item": "Bloodstone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating Providence)"
+    }
+   ]
+  },
+  "Destroyer of Sanity": {
+   "page": "Destroyer of Sanity.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Pulsating Flesh",
+     "min": 30,
+     "max": 40,
+     "chance": 1.0
+    },
+    {
+     "item": "Soul of Might",
+     "min": 30,
+     "max": 45,
+     "chance": 1.0
+    },
+    {
+     "item": "Soul of Fright",
+     "min": 30,
+     "max": 45,
+     "chance": 1.0
+    },
+    {
+     "item": "Soul of Sight",
+     "min": 30,
+     "max": 45,
+     "chance": 1.0
+    },
+    {
+     "item": "Bleeding Influx",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Draftogen",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Fleshly Megaphone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Neural Whipper-Snapper",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Hemorr-Rang",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Brain of Cthulhu Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Brain of Cthulhu Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Destroyer of Sanity (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Treasure Bag (Destroyer of Sanity)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Destroyer of Sanity)"
+    }
+   ]
+  },
+  "Devil Fish": {
+   "page": "Devil Fish.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Depth Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Lumenyl",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Scoria Ore",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating<br/>Golem)"
+    }
+   ]
+  },
+  "Devil of Vehemence": {
+   "page": "Devil of Vehemence.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Vehemence",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Dihidrogen Monoxide": {
+   "page": "Dihidrogen Monoxide.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Better Sea Prism",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Surf Clam but Better",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Soul of Dihydrogen Monoxide",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Dihydrogen Monoxide Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Dihydrogen Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Dihidrogen Monoxide (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Dihydrogen Monoxide": {
+   "page": "Dihydrogen Monoxide.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Better Sea Prism",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Surf Clam but Better",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Soul of Dihydrogen Monoxide",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Dihydrogen Monoxide Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Dihydrogen Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Dihidrogen Monoxide (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Disgusting Creature: Dron": {
+   "page": "Disgusting Creature_ Dron.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Sandy Angling Kit",
+     "min": 5,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Bleached Angling Kit",
+     "min": 2,
+     "max": 2,
+     "chance": 1.0
+    },
+    {
+     "item": "Particles of Dron",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Glowing Mushroom",
+     "min": 10,
+     "max": 10,
+     "chance": 1.0
+    },
+    {
+     "item": "Exo Prism",
+     "min": 80,
+     "max": 120,
+     "chance": 1.0
+    },
+    {
+     "item": "Cosmilite Bar",
+     "min": 100,
+     "max": 150,
+     "chance": 1.0
+    },
+    {
+     "item": "Navyplate",
+     "min": 148,
+     "max": 148,
+     "chance": 1.0
+    },
+    {
+     "item": "Cinderplate",
+     "min": 148,
+     "max": 148,
+     "chance": 1.0
+    },
+    {
+     "item": "Plagueplate",
+     "min": 148,
+     "max": 148,
+     "chance": 1.0
+    },
+    {
+     "item": "Chaosplate",
+     "min": 148,
+     "max": 148,
+     "chance": 1.0
+    },
+    {
+     "item": "Elumplate",
+     "min": 148,
+     "max": 148,
+     "chance": 1.0
+    },
+    {
+     "item": "Aeroplate",
+     "min": 148,
+     "max": 148,
+     "chance": 1.0
+    },
+    {
+     "item": "Stone Block",
+     "min": 2,
+     "max": 2,
+     "chance": 0.8
+    },
+    {
+     "item": "Disgusting Meat",
+     "min": 112,
+     "max": 314,
+     "chance": 1.0
+    },
+    {
+     "item": "Lesser Healing Potion",
+     "min": 2,
+     "max": 7,
+     "chance": 1.0
+    },
+    {
+     "item": "Draedon Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Dron Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Dron, the Enigmatic Entity (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Distortion Essence Sphere": {
+   "page": "Distortion Essence Sphere.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Arean Conduit Plating",
+     "min": 25,
+     "max": 50,
+     "chance": 1.0
+    },
+    {
+     "item": "Martian Conduit Plating",
+     "min": 40,
+     "max": 100,
+     "chance": 1.0
+    },
+    {
+     "item": "Cosmilite Slag",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Phantoplasm",
+     "min": 10,
+     "max": 13,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Diviner Valkyrie": {
+   "page": "Diviner Valkyrie.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Spear of Liberty",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Sky Fracture",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    }
+   ]
+  },
+  "Dragon": {
+   "page": "Dragon.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Auric Soul",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Earth Elemental": {
+   "page": "Earth Elemental.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Aftershock",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Earthen Pike",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Slag Magnum",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Earthen Clicker",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Metamorphic Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    }
+   ]
+  },
+  "Eidolist": {
+   "page": "Eidolist.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Eidolon Tablet",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "note": "(If the Lunar Events<br/>are not currently active)"
+    },
+    {
+     "item": "Lumenyl",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Ectoplasm",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating<br/>Plantera)"
+    },
+    {
+     "item": "Lunar Cultist Hood",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Lunar Cultist Robe",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Eidolon Wyrm": {
+   "page": "Eidolon Wyrm.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Voidstone",
+     "min": 30,
+     "max": 40,
+     "chance": 1.0
+    },
+    {
+     "item": "Eidolon Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Lumenyl",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Ectoplasm",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating<br/>Plantera)"
+    },
+    {
+     "item": "Eidolic Wail",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "note": "(After defeating Polterghast)"
+    },
+    {
+     "item": "Soul Edge",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "note": "(After defeating Polterghast)"
+    }
+   ]
+  },
+  "Empyreon": {
+   "page": "Empyreon.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Martian Conduit Plating",
+     "min": 300,
+     "max": 600,
+     "chance": 1.0
+    },
+    {
+     "item": "Arean Conduit Plating",
+     "min": 100,
+     "max": 200,
+     "chance": 1.0
+    },
+    {
+     "item": "Supreme Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Strange Matter",
+     "min": 15,
+     "max": 22,
+     "chance": 1.0
+    },
+    {
+     "item": "Empyreon Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Esseric Slime": {
+   "page": "Esseric Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Esseric Ore",
+     "min": 1,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Laceline",
+     "min": 1,
+     "max": 4,
+     "chance": 1.0
+    },
+    {
+     "item": "Voidstone",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Eutrophic Ray": {
+   "page": "Eutrophic Ray.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Eutrophic Shank",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "note": "(After defeating Desert Scourge)"
+    },
+    {
+     "item": "Clam Chowder",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "note": "(Hardmode-only)"
+    }
+   ]
+  },
+  "Everquartz": {
+   "page": "Everquartz.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Unholy Essence",
+     "min": 10,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Chrononimbus",
+     "min": 1,
+     "max": 1,
+     "chance": 0.15,
+     "note": "(After defeating<br/>The Starborn Moth)"
+    },
+    {
+     "item": "The Everquartz",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    }
+   ]
+  },
+  "Evil Animatronic": {
+   "page": "Evil Animatronic.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Darksun Fragment",
+     "min": 1,
+     "max": 3,
+     "chance": 0.75
+    },
+    {
+     "item": "Pizza Wheel",
+     "min": 1,
+     "max": 1,
+     "chance": 0.12
+    },
+    {
+     "item": "Animatronic Head",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0087,
+     "group": 1,
+     "groupAlways": true
+    }
+   ]
+  },
+  "Exo Armada": {
+   "page": "Exo Armada.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Exo Prism",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Exo Landmaster": {
+   "page": "Exo Landmaster.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Exo Prism",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Exo Mine": {
+   "page": "Exo Mine.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Exo Core",
+     "min": 5,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Exo Prism",
+     "min": 10,
+     "max": 15,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Exo Obelisk": {
+   "page": "Exo Obelisk.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Exo Prism",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Exo Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Exo Sentry": {
+   "page": "Exo Sentry.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Exo Prism",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Exo Sphere": {
+   "page": "Exo Sphere.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Exo Prism",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Exodygen": {
+   "page": "Exodygen.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Neutron Star",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Gem of Exodygen",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "ExodygenRelic",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Suspicious Looking Chicken Nugget",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Exoquartz": {
+   "page": "Exoquartz.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Exo Prism",
+     "min": 10,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Chrononimbus",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating<br/>The Starborn Moth)"
+    },
+    {
+     "item": "Draedon's Heart",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    }
+   ]
+  },
+  "Famine Slime": {
+   "page": "Famine Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Sulphuric Scale",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    },
+    {
+     "item": "Apocalyptic Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    },
+    {
+     "item": "Urchin Stinger",
+     "min": 15,
+     "max": 25,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Fat Blighted Eye": {
+   "page": "Fat Blighted Eye.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Lens",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    },
+    {
+     "item": "Pungent Bomber",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Acid Bow",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Caustic Claw",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Corrosive Eye Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Razor Teeth",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    }
+   ]
+  },
+  "Fearless Goldfish Warrior": {
+   "page": "Fearless Goldfish Warrior.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Tin Helmet",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Flak Crab": {
+   "page": "Flak Crab.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Flak Toxicannon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    },
+    {
+     "item": "Cadaverous Carrion",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Floating Biomass": {
+   "page": "Floating Biomass.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Lens",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    }
+   ]
+  },
+  "Flounder": {
+   "page": "Flounder.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Flounder Mortar",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0667
+    },
+    {
+     "item": "Anechoic Coating",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    }
+   ]
+  },
+  "Frigidemon": {
+   "page": "Frigidemon.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Frozen Hellstone",
+     "min": 5,
+     "max": 7,
+     "chance": 1.0
+    },
+    {
+     "item": "Hailberd",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0333
+    }
+   ]
+  },
+  "Frogfish": {
+   "page": "Frogfish.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Anechoic Coating",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    }
+   ]
+  },
+  "Frost Hog": {
+   "page": "Frost Hog.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Eleum",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Delicious Meat",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Frost Imp": {
+   "page": "Frost Imp.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Frozen Hellstone",
+     "min": 6,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Icicle Ring",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    }
+   ]
+  },
+  "Fusion Feeder": {
+   "page": "Fusion Feeder.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stardust",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Titan Finger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    }
+   ]
+  },
+  "Future bosses": {
+   "page": "Future bosses.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Blue Solution",
+     "min": 500,
+     "max": 500,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Gamma Slime": {
+   "page": "Gamma Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Lead Core",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0333
+    }
+   ]
+  },
+  "Garon": {
+   "page": "Garon.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Garon Scale Fragment",
+     "min": 15,
+     "max": 22,
+     "chance": 1.0
+    },
+    {
+     "item": "Garon's Fishnado Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "The Final Dusk",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Gar Breath",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Gar Splash Barrage",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "The Burning Gar",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Wrathfin",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Gar Rage",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Gar Cannon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Gar Fin Barrage",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Garon's Gift",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Drew's Fins",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Crystalized Gar",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Omega Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Forgotten Gar Egg",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Garon Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Garon Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Chicken Nugget",
+     "min": 5000,
+     "max": 5000,
+     "chance": 1.0
+    },
+    {
+     "item": "Garon (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Ghost Bell": {
+   "page": "Ghost Bell.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Voltaic Jelly",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "note": "(After defeating Desert Scourge)"
+    },
+    {
+     "item": "Clam Chowder",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "note": "(Hardmode-only)"
+    }
+   ]
+  },
+  "Giant Clam": {
+   "page": "Giant Clam.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Navystone",
+     "min": 25,
+     "max": 35,
+     "chance": 1.0
+    },
+    {
+     "item": "Mollusk Husk",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(In Hardmode)"
+    },
+    {
+     "item": "Clam Chowder",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(Hardmode-only)"
+    },
+    {
+     "item": "Poseidon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "note": "(In Hardmode only)",
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Clamor Rifle",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "note": "(In Hardmode only)",
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Shellfish Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "note": "(In Hardmode only)",
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Clam Crusher",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "note": "(In Hardmode only)",
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Amidias' Pendant",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "note": "(After defeating Desert Scourge)"
+    },
+    {
+     "item": "Giant Pearl",
+     "min": 1,
+     "max": 1,
+     "chance": 0.6667,
+     "note": "(After defeating Desert Scourge)"
+    }
+   ]
+  },
+  "Giant Skeleton": {
+   "page": "Giant Skeleton.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Bone",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Leather",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Giant Squid": {
+   "page": "Giant Squid.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Depth Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Lumenyl",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Ink Bomb",
+     "min": 1,
+     "max": 1,
+     "chance": 0.025
+    }
+   ]
+  },
+  "Glacial Slime": {
+   "page": "Glacial Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Frozen Hellstone",
+     "min": 3,
+     "max": 6,
+     "chance": 1.0
+    },
+    {
+     "item": "Gel",
+     "min": 23,
+     "max": 30,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Glitch": {
+   "page": "Glitch.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Darksun Fragment",
+     "min": 4,
+     "max": 6,
+     "chance": 1.0
+    },
+    {
+     "item": "Creature Capsule",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Everflute",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Gnasher": {
+   "page": "Gnasher.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Turtle Shell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "note": "(In Hardmode)"
+    }
+   ]
+  },
+  "Godseeker, Yharim": {
+   "page": "Godseeker_ Yharim.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Primordial Light Shard",
+     "min": 20,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Yharim's Ultimate Sword",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "The God Seeker",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Draconic Knowledge",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Auric Dragon Stave",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Heaven Reaper",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Omega Healing Potion",
+     "min": 10,
+     "max": 20,
+     "chance": 1.0
+    },
+    {
+     "item": "Godseeker's Helm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Godseeker Yharim Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Epilogue (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Goozma": {
+   "page": "Goozma.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Auric Sludge Remnant",
+     "min": 24,
+     "max": 32,
+     "chance": 1.0
+    },
+    {
+     "item": "Omega Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Genesis Auric Soul",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Red Umbrella",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Sewage Slime Cannon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Contagion Gauntlet",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Reformed Slime Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Splatterspit Kunai",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Vassal's Royal Litter",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Super Slime Soaker",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Goozma (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)",
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Goozma Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Grand Thunder Cnidrion": {
+   "page": "Grand Thunder Cnidrion.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Thunder Talon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Storm-Cnidriling Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Didgeridoo",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Talon Burst",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Sea Stone Bar",
+     "min": 15,
+     "max": 20,
+     "chance": 1.0
+    },
+    {
+     "item": "Grand Thunder Cnidrion Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Grand Thunder Cnidrion Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Great Sand Shark": {
+   "page": "Great Sand Shark.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Duststorm in a Bottle",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Sand Sharknado Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Sandslasher",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Sandstorm (weapon)",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Shifting Sands",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Tumbleweed",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Sand Shark Tooth Necklace",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Forbidden Fragment",
+     "min": 1,
+     "max": 3,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Green Demon": {
+   "page": "Green Demon.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Green Demon Head",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Zumbo Sauce",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Green Phantom": {
+   "page": "Green Phantom.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Ancient Bone Dust",
+     "min": 100,
+     "max": 255,
+     "chance": 1.0
+    },
+    {
+     "item": "Bone",
+     "min": 25,
+     "max": 75,
+     "chance": 1.0
+    },
+    {
+     "item": "Demonic Bone Ash",
+     "min": 5,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Skull",
+     "min": 7,
+     "max": 12,
+     "chance": 1.0
+    },
+    {
+     "item": "Carton of Milk",
+     "min": 500,
+     "max": 700,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Gulper Eel": {
+   "page": "Gulper Eel.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Depth Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Lumenyl",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    }
+   ]
+  },
+  "Hadarian": {
+   "page": "Hadarian.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stardust",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Titan Finger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Hadarian Membrane",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating Astrum Aureus)"
+    }
+   ]
+  },
+  "Heat Spirit": {
+   "page": "Heat Spirit.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Chaos",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "note": "(In Hardmode)"
+    }
+   ]
+  },
+  "Heavenly Ogsculite": {
+   "page": "Heavenly Ogsculite.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Heaven's Crown",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Hive Cyst": {
+   "page": "Hive Cyst.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Demonite Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Hive (Enemy)": {
+   "page": "Hive _Enemy_.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stardust",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Titan Finger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Hive Pod",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "note": "(After defeating Astrum Aureus)"
+    }
+   ]
+  },
+  "Horseslimes of the Goopocalypse": {
+   "page": "Horseslimes of the Goopocalypse.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Quark-Gluon Sludge",
+     "min": 30,
+     "max": 45,
+     "chance": 1.0
+    },
+    {
+     "item": "Omega Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Goomageddon Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Goomageddon (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Hydrogen": {
+   "page": "Hydrogen.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Sea Prism",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Surf Clam",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Soul of Hydrogen",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Hydrogen Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Hydrogen Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Cryogen (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Hyperfish": {
+   "page": "Hyperfish.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Esseric Ore",
+     "min": 1,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Skylac Stone",
+     "min": 2,
+     "max": 5,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Ice Clasper": {
+   "page": "Ice Clasper.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Eleum",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Ancient Ice Chunk",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Frost Barrier",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Illuminal Crystalfish": {
+   "page": "Illuminal Crystalfish.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stratostone",
+     "min": 2,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Skylac Crystal",
+     "min": 2,
+     "max": 5,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Impious Immolator": {
+   "page": "Impious Immolator.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Unholy Essence",
+     "min": 2,
+     "max": 4,
+     "chance": 1.0
+    },
+    {
+     "item": "Energy Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0667
+    },
+    {
+     "item": "Elder Berry",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "note": "(Once the player has used all [[Stamina Meter"
+    }
+   ]
+  },
+  "Ionogen": {
+   "page": "Ionogen.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Essence of Sunlight",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Soul of Ionogen",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Ionogen Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Ionogen Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Cryogen (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Irate Bones": {
+   "page": "Irate Bones.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Bone",
+     "min": 1,
+     "max": 3,
+     "chance": 0.5
+    },
+    {
+     "item": "Bone Wand",
+     "min": 1,
+     "max": 1,
+     "chance": 0.004
+    },
+    {
+     "item": "Golden Key",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Irradiated Slime": {
+   "page": "Irradiated Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Lead Core",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0333
+    }
+   ]
+  },
+  "Jungle Dragon Yharon": {
+   "page": "Jungle Dragon_ Yharon.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Yharon Soul Fragment",
+     "min": 15,
+     "max": 22,
+     "chance": 1.0
+    },
+    {
+     "item": "Yharon's Kindle Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "The Final Dawn",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Dragon's Breath",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Phoenix Flame Barrage",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "The Burning Sky",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Wrathwing",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Dragon Rage",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Chicken Cannon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Dragon Flame Barrage",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Yharim's Gift",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Drew's Wings",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Yharim's Crystal",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Omega Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Forgotten Dragon Egg",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "McNuggets",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Yharon Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Yharon Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Chicken Nugget",
+     "min": 5000,
+     "max": 5000,
+     "chance": 1.0
+    },
+    {
+     "item": "Jungle Dragon, Yharon (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "King of Constellations, Tenryu": {
+   "page": "King of Constellations_ Tenryu.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Ruinous Soul",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Exodium Cluster",
+     "min": 5,
+     "max": 17,
+     "chance": 1.0
+    },
+    {
+     "item": "Lumenyl",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    }
+   ]
+  },
+  "La Ruga": {
+   "page": "La Ruga.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "22 Hornet Round",
+     "min": 19,
+     "max": 22,
+     "chance": 1.0
+    },
+    {
+     "item": "Scoria Ore",
+     "min": 20,
+     "max": 50,
+     "chance": 1.0
+    },
+    {
+     "item": "Terminus",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Laserfish": {
+   "page": "Laserfish.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Lumenyl",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating Calamitas)"
+    }
+   ]
+  },
+  "Lava Squid": {
+   "page": "Lava Squid.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Depth Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Torch God's Favor",
+     "min": 99,
+     "max": 100,
+     "chance": 0.025
+    }
+   ]
+  },
+  "Leviathan and Anahita": {
+   "page": "Leviathan and Anahita.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Anahita's Arpeggio",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Atlantis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Brackish Flask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Gastric Belcher Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Greentide",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Leviathan Teeth",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Leviatitan",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Leviathan Ambergris",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Pearl of Enthrallment",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "The Community",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Bottomless Water Bucket",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Hotline Fishing Hook",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Super Absorbant Sponge",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Crate Potion",
+     "min": 5,
+     "max": 8,
+     "chance": 0.2
+    },
+    {
+     "item": "Fishing Potion",
+     "min": 5,
+     "max": 8,
+     "chance": 0.2
+    },
+    {
+     "item": "Sonar Potion",
+     "min": 5,
+     "max": 8,
+     "chance": 0.2
+    },
+    {
+     "item": "Greater Healing Potion",
+     "min": 10,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Anahita Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Leviathan Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Anahita Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Leviathan Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Life Slime": {
+   "page": "Life Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Life Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Lizard": {
+   "page": "Lizard.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stone Block",
+     "min": 3,
+     "max": 4,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Luminous Corvina": {
+   "page": "Luminous Corvina.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Voidstone",
+     "min": 8,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Depth Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Lumenyl",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating Calamitas)"
+    }
+   ]
+  },
+  "Magnetostorm Shuttle": {
+   "page": "Magnetostorm Shuttle.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Magnetic Meltdown",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Mantis Shrimp": {
+   "page": "Mantis Shrimp.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Mantis Claws",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "note": "(After defeating Plantera)"
+    }
+   ]
+  },
+  "Mantis": {
+   "page": "Mantis.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stardust",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Titan Finger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Astral Scythe",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "note": "(After defeating Astrum Aureus)"
+    }
+   ]
+  },
+  "Mauler": {
+   "page": "Mauler.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Shark Fin",
+     "min": 1,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Sulphuric Acid Cannon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Fetid Emesis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Prehistoric Tablet",
+     "min": 1,
+     "max": 1,
+     "chance": 0.08
+    }
+   ]
+  },
+  "Mechawyrm": {
+   "page": "Mechawyrm.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Arean Conduit Plating",
+     "min": 50,
+     "max": 100,
+     "chance": 1.0
+    },
+    {
+     "item": "Martian Conduit Plating",
+     "min": 80,
+     "max": 200,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Mega Flocko": {
+   "page": "Mega Flocko.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Snowball",
+     "min": 2,
+     "max": 5,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Melter": {
+   "page": "Melter.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Plague Cell Canister",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Mirage Jelly": {
+   "page": "Mirage Jelly.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Depth Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Abyss Shocker",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "note": "(After defeating Skeletron)"
+    },
+    {
+     "item": "Jellyfish Necklace",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    },
+    {
+     "item": "Life Jelly",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Mana Jelly",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Mirage Jelly (item)",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Vital Jelly",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    }
+   ]
+  },
+  "Mirage Mallah": {
+   "page": "Mirage Mallah.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Accursed Artifact",
+     "min": 4,
+     "max": 6,
+     "chance": 1.0
+    },
+    {
+     "item": "Forbidden Fragment",
+     "min": 1,
+     "max": 3,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Monstro": {
+   "page": "Monstro.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Monstro's Tooth",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Basement Blaster",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Sob Story",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Cat o' Nine Tails",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "The Creeper",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Lesser Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Monstro Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Monstro Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Monstro (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Moray Eel": {
+   "page": "Moray Eel.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Depth Crusher",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0667
+    },
+    {
+     "item": "Flipper",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04
+    }
+   ]
+  },
+  "Mushroom Elemental": {
+   "page": "Mushroom Elemental.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Glowing Mushroom",
+     "min": 6,
+     "max": 12,
+     "chance": 0.9
+    }
+   ]
+  },
+  "Mysterious Manager": {
+   "page": "Mysterious Manager.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Wing Ding Gaster",
+     "min": 6,
+     "max": 6,
+     "chance": 1.0
+    },
+    {
+     "item": "Anomaly 109",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    }
+   ]
+  },
+  "Nightmare Burrower": {
+   "page": "Nightmare Burrower.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Rotten Chunk",
+     "min": 1,
+     "max": 1,
+     "chance": 0.333
+    }
+   ]
+  },
+  "Nihil, the Fathomless Seeker": {
+   "page": "Nihil_ the Fathomless Seeker.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Hyperboreal",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Unfathomable",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Solitarius",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Glazepiercer",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Bathysphere",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Omega Healing Potion",
+     "min": 10,
+     "max": 30,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Nova": {
+   "page": "Nova.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stardust",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Titan Finger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Glorious End",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Stellar Cannon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "note": "(After defeating Astrum Aureus)"
+    },
+    {
+     "item": "Comet Shard",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(When running into Astral Ore)"
+    }
+   ]
+  },
+  "Nuclear Terror": {
+   "page": "Nuclear Terror.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Phosphorescent Gauntlet",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Gamma Heart",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Microxodonta",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Sulfuric Scale",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Nuclear Toad": {
+   "page": "Nuclear Toad.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Sulphuric Scale",
+     "min": 1,
+     "max": 3,
+     "chance": 0.5
+    }
+   ]
+  },
+  "Oarfish": {
+   "page": "Oarfish.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Depth Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    }
+   ]
+  },
+  "Ogsculian Burrower": {
+   "page": "Ogsculian Burrower.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Desert Feather",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Onyx Kinsman": {
+   "page": "Onyx Kinsman.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Mud Block",
+     "min": 30,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Stone Block",
+     "min": 7,
+     "max": 7,
+     "chance": 1.0
+    },
+    {
+     "item": "Cog",
+     "min": 15,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Onyx Shiv",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    },
+    {
+     "item": "Metamorphic Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    },
+    {
+     "item": "Onyx Excavator Key",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Orthocera": {
+   "page": "Orthocera.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Orthocera Shell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Overloaded Soldier": {
+   "page": "Overloaded Soldier.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Ancient Bone Dust",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Phantoplasm",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Godseeker Mode)"
+    }
+   ]
+  },
+  "Oxygen": {
+   "page": "Oxygen.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Essence of Babil",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Soul of Oxygen",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Oxygen Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Oxygen Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Cryogen (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Pandora, the Hypnotized Witch": {
+   "page": "Pandora_ the Hypnotized Witch.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Shattered Start Block",
+     "min": 5,
+     "max": 6,
+     "chance": 1.0
+    },
+    {
+     "item": "Severed Eye.exe",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Fina's Gun",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Corrupt Hypno Flute",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Pandora's Chest",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Mambel-Jambo",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Pandora Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Pandora Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Pandora, the Hypnotized Witch (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Pathogen": {
+   "page": "Pathogen.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Blood Sample",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Soul of Pathogen",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Pathogen Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Pathogen Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Cryogen (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Perennial Slime": {
+   "page": "Perennial Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Perennial Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Perforator Cyst": {
+   "page": "Perforator Cyst.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Crimtane Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Pestilent Slime": {
+   "page": "Pestilent Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Plague Cell Canister",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    },
+    {
+     "item": "Apocalyptic Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    },
+    {
+     "item": "Stinger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    }
+   ]
+  },
+  "Phantom Debris": {
+   "page": "Phantom Debris.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Ancient Bone Dust",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Phantoplasm",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Godseeker Mode)"
+    }
+   ]
+  },
+  "Phytogen": {
+   "page": "Phytogen.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Obsidian",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Soul of Phytogen",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Phytogen Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Phytogen Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Phytogen (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Plague Charger": {
+   "page": "Plague Charger.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stinger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Plague Cell Canister",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Plague Emperor": {
+   "page": "Plague Emperor.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Plague Cell Canister",
+     "min": 56,
+     "max": 230,
+     "chance": 1.0
+    },
+    {
+     "item": "Luminite Bar",
+     "min": 56,
+     "max": 230,
+     "chance": 1.0
+    },
+    {
+     "item": "Infected Armor Plating",
+     "min": 20,
+     "max": 36,
+     "chance": 1.0
+    },
+    {
+     "item": "Plague Caller",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Plague Caller MK III",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    }
+   ]
+  },
+  "Plaguebringer": {
+   "page": "Plaguebringer.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Plague Cell Canister",
+     "min": 8,
+     "max": 12,
+     "chance": 1.0
+    },
+    {
+     "item": "Plagued Fuel Pack",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Plague Caller",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    }
+   ]
+  },
+  "Plagueshell": {
+   "page": "Plagueshell.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Plague Cell Canister",
+     "min": 3,
+     "max": 4,
+     "chance": 1.0
+    },
+    {
+     "item": "Vacuillium Ore",
+     "min": 11,
+     "max": 13,
+     "chance": 0.33
+    }
+   ]
+  },
+  "Polyphemalus": {
+   "page": "Polyphemalus.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Eye of Cthulhu Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Heterochromia",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(When Astigmageddon is defeated last)"
+    },
+    {
+     "item": "Chain-Saw",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(When Exotrexia is defeated last)"
+    },
+    {
+     "item": "Nystagmus",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(When Conjunctivirus is defeated last)"
+    },
+    {
+     "item": "Tetrachromancy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(When Cataractacomb is defeated last)"
+    },
+    {
+     "item": "Polypebral Shield",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(When Shield of Cthulhu is equpped as active dash)"
+    }
+   ]
+  },
+  "Poobis Prime": {
+   "page": "Poobis Prime.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Dollarbob",
+     "min": 20,
+     "max": 40,
+     "chance": 1.0
+    },
+    {
+     "item": "Poobis Bar",
+     "min": 30,
+     "max": 40,
+     "chance": 1.0
+    },
+    {
+     "item": "Poobis Prime (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Tectonite",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Poobis Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Poobis Prime Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857
+    },
+    {
+     "item": "Poobis Prime Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Primal Aspid": {
+   "page": "Primal Aspid.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Chaos",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Cryo Key",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Aspid Blaster",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Primordial Rainbow Slime": {
+   "page": "Primordial Rainbow Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Copper Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Tin Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Iron Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Lead Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Silver Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Tungsten Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Gold Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Platinum Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Demonite Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Crimtane Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Sea Prism",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Meteorite",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Obsidian",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Hellstone",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Aerialite Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Arsenic Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Silicon Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Cobalt Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Palladium Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Mythril Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Orichalcum Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Charred Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Adamantite Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Titanium Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Cryonic Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Hallowed Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Chlorophyte Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Perennial Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Scoria Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Apocalyptic Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Life Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Astral Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Luminite",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Exodium Cluster",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Cosmilite Slag",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Tarragon Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Auric Ore",
+     "min": 20,
+     "max": 52,
+     "chance": 0.1622,
+     "group": 1,
+     "groupAlways": true
+    }
+   ]
+  },
+  "Prism-Back": {
+   "page": "Prism-Back.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Prism Shard",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating Desert Scourge)"
+    }
+   ]
+  },
+  "Profaned Energy": {
+   "page": "Profaned Energy.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Unholy Essence",
+     "min": 2,
+     "max": 4,
+     "chance": 1.0
+    },
+    {
+     "item": "Elder Berry",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "note": "(Once the player has used all [[Stamina Meter"
+    }
+   ]
+  },
+  "Profaned Guardians": {
+   "page": "Profaned Guardians.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Warbanner of the Sun",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Super Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Profaned Guardian Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Profaned Guardian Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "The Profaned Guardians (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Profusion, the Viral God": {
+   "page": "Profusion_ the Viral God.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Mushroom",
+     "min": 4999,
+     "max": 9999,
+     "chance": 1.0
+    },
+    {
+     "item": "Supreme Glowing Mushroom",
+     "min": 10,
+     "max": 22,
+     "chance": 1.0
+    },
+    {
+     "item": "Supreme Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Profusion Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Profusion Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Profusion (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Providence, the Profaned Goddess": {
+   "page": "Providence_ the Profaned Goddess.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Rune of Kos",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Unholy Essence",
+     "min": 20,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Blissful Bombardier",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Dazzling Stabber Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Holy Collider",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Molten Amputator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Profaned Nucleus",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Purge Guzzler",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Telluric Glare",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Solar Flare",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Purgatory Blaster",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Blazing Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Elysian Wings",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(When summoned in The Hallow<br/>or when defeated at Night)"
+    },
+    {
+     "item": "Elysian Aegis",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(When summoned in The Underworld<br/>or when defeated at Night)"
+    },
+    {
+     "item": "Pristine Annihilation",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Supreme Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Providence Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Providence Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Providence, the Profaned Goddess (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Profaned Core Fragment",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Province Pilferer": {
+   "page": "Province Pilferer.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Bone",
+     "min": 9,
+     "max": 13,
+     "chance": 1.0
+    },
+    {
+     "item": "Fleshy Geode",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Purgatory Arbiter, Umbrus": {
+   "page": "Purgatory Arbiter_ Umbrus.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Umbren Sprayer",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Eldritch Pie Recipe",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Omega Healing Potion",
+     "min": 15,
+     "max": 25,
+     "chance": 1.0
+    },
+    {
+     "item": "Entropic Frond",
+     "min": 25,
+     "max": 35,
+     "chance": 1.0
+    },
+    {
+     "item": "Entropic Bar",
+     "min": 15,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Entropic Skull",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    },
+    {
+     "item": "Entropic Tunic",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    },
+    {
+     "item": "Entropic Boots",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    }
+   ]
+  },
+  "Pyrogen": {
+   "page": "Pyrogen.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Essence of Chaos",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Core of Sunlight",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Core of Chaos",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Core of Eleum",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Obsidigun",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Seared Shredder",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Molten Piercer",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "The Generator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Hell's Bells",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Soul of Pyrogen",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Pyro Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Hell Flare",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Heated Profanity",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Greater Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Pyrogen Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Pyrogen Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Pyrogen (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Radiator": {
+   "page": "Radiator.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Sulphuric Scale",
+     "min": 1,
+     "max": 3,
+     "chance": 0.5
+    }
+   ]
+  },
+  "Reactive Guardian, Sodis": {
+   "page": "Reactive Guardian_ Sodis.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Bloodred Reactive Core",
+     "min": 5,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Accidated Reactive Core",
+     "min": 5,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Noctic Reactive Core",
+     "min": 5,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Waterfreeze Reactive Core",
+     "min": 5,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Bloodsharper",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Reactor Accelerator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Spiralis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Microsodic Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Sodis Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "group": 1,
+     "groupAlways": true
+    }
+   ]
+  },
+  "Reaper Shark": {
+   "page": "Reaper Shark.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Voidstone",
+     "min": 40,
+     "max": 50,
+     "chance": 1.0
+    },
+    {
+     "item": "Anechoic Coating",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Depth Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Deep Sea Dumbbell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "note": "(After defeating Polterghast)"
+    },
+    {
+     "item": "Valediction",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "note": "(After defeating Polterghast)"
+    },
+    {
+     "item": "The Reaper",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "note": "(After defeating Polterghast)"
+    }
+   ]
+  },
+  "Repair Unit": {
+   "page": "Repair Unit.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Draedon Power Cell",
+     "min": 2,
+     "max": 4,
+     "chance": 0.5
+    }
+   ]
+  },
+  "Rodent.tmod": {
+   "page": "Rodent_tmod.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Darksun Fragment",
+     "min": 2,
+     "max": 3,
+     "chance": 0.75
+    }
+   ]
+  },
+  "Rotdog": {
+   "page": "Rotdog.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Rotten Dogtooth",
+     "min": 1,
+     "max": 1,
+     "chance": 0.125
+    },
+    {
+     "item": "Adhesive Bandage",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    }
+   ]
+  },
+  "Sand Tortoise": {
+   "page": "Sand Tortoise.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Turtle Shell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Scorn Eater": {
+   "page": "Scorn Eater.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Unholy Essence",
+     "min": 2,
+     "max": 4,
+     "chance": 1.0
+    },
+    {
+     "item": "Elder Berry",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "note": "(Once the player has used all [[Stamina Meter"
+    }
+   ]
+  },
+  "Scryllar": {
+   "page": "Scryllar.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Chaos",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "note": "(In Hardmode)"
+    },
+    {
+     "item": "Bloodstone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating Providence)"
+    }
+   ]
+  },
+  "Sea Floaty": {
+   "page": "Sea Floaty.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Clam Chowder",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "note": "(Hardmode-only)"
+    }
+   ]
+  },
+  "Sea Serpent": {
+   "page": "Sea Serpent.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Serpentine",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Clam Chowder",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Sea Urchin": {
+   "page": "Sea Urchin.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Urchin Stinger",
+     "min": 15,
+     "max": 25,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Seeker": {
+   "page": "Seeker.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Soul of the universe",
+     "min": 5,
+     "max": 10,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Shadowspec Slime": {
+   "page": "Shadowspec Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Shadowspec Ore",
+     "min": 2,
+     "max": 5,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Shockstorm Shuttle": {
+   "page": "Shockstorm Shuttle.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Sunlight",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "The Transformer",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Martian Conduit Plating",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating Golem)"
+    },
+    {
+     "item": "Arean Conduit Plating",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(After defeating The Starborn Moth)"
+    },
+    {
+     "item": "Shock Grenade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.009,
+     "note": "(After defeating Golem)"
+    },
+    {
+     "item": "Wingman",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0033,
+     "note": "(After defeating Golem)"
+    },
+    {
+     "item": "Xenopopper",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0016,
+     "note": "(After defeating Golem)"
+    },
+    {
+     "item": "Xeno Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0016,
+     "note": "(After defeating Golem)"
+    },
+    {
+     "item": "Laser Machinegun",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0016,
+     "note": "(After defeating Golem)"
+    },
+    {
+     "item": "Electrosphere Launcher",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0016,
+     "note": "(After defeating Golem)"
+    },
+    {
+     "item": "Influx Waver",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0016,
+     "note": "(After defeating Golem)"
+    },
+    {
+     "item": "Cosmic Car Key",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0016,
+     "note": "(After defeating Golem)"
+    },
+    {
+     "item": "Nullification Pistol",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0016,
+     "note": "(After defeating Golem)"
+    },
+    {
+     "item": "Strange Matter",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0016,
+     "note": "(After defeating The Starborn Moth)"
+    }
+   ]
+  },
+  "Side Mollusk": {
+   "page": "Side Mollusk.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Exodium Cluster",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Sigmund": {
+   "page": "Sigmund.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Nether",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Steel Kunai",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "A Lamp",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Veil",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Supreme Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Sigmund Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "God Slayer Helm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Sigmund Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "The Sentinels of the Devourer (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill if Storm Weaver<br/>and Ceaseless Void are defeated)"
+    }
+   ]
+  },
+  "Signus, Envoy of the Devourer": {
+   "page": "Signus_ Envoy of the Devourer.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Twisting Nether",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Cosmic Kunai",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Cosmilamp",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Spectral Veil",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Supreme Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Signus Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Ancient God Slayer Helm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Signus Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "The Sentinels of the Devourer (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill if Storm Weaver<br/>and Ceaseless Void are defeated)"
+    }
+   ]
+  },
+  "Silicic Slime": {
+   "page": "Silicic Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Silicon Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Sky Lacian": {
+   "page": "Sky Lacian.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stratostone",
+     "min": 2,
+     "max": 5,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Skyfin": {
+   "page": "Skyfin.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Sulphuric Scale",
+     "min": 1,
+     "max": 3,
+     "chance": 0.5
+    },
+    {
+     "item": "Skyfin Bombers",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "note": "(Tiers 2 & 3)"
+    }
+   ]
+  },
+  "Skylac Dustfish": {
+   "page": "Skylac Dustfish.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Skylac Sand",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Stratostone",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Skyline Shark": {
+   "page": "Skyline Shark.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Skylac Stone",
+     "min": 2,
+     "max": 5,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Small Sightseer": {
+   "page": "Small Sightseer.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stardust",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    },
+    {
+     "item": "Titan Finger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Astral Pearl",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Soul Slurper": {
+   "page": "Soul Slurper.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Chaos",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "note": "(In Hardmode)"
+    },
+    {
+     "item": "Slagspitter Pauldron",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "note": "(In Hardmode)"
+    },
+    {
+     "item": "Bloodstone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating Providence)"
+    }
+   ]
+  },
+  "Spiked Crimson Slime Spawn": {
+   "page": "Spiked Crimson Slime Spawn.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Blindfold",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    }
+   ]
+  },
+  "Stellar Culex": {
+   "page": "Stellar Culex.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Titan Finger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Starbuster Core",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "note": "(On collision with a Unicorn)"
+    }
+   ]
+  },
+  "Stiriatic Walkie": {
+   "page": "Stiriatic Walkie.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stiriatic Ore",
+     "min": 2,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Crystallised Stiriatic Chunk",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Stormlion": {
+   "page": "Stormlion.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Stormjaw Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    }
+   ]
+  },
+  "Stratosoul": {
+   "page": "Stratosoul.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Skylac Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Sulphurous Skater": {
+   "page": "Sulphurous Skater.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Sulphurous Grabber",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Sun Bat": {
+   "page": "Sun Bat.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Sunlight",
+     "min": 1,
+     "max": 1,
+     "chance": 0.33
+    }
+   ]
+  },
+  "Sunskater": {
+   "page": "Sunskater.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Sunlight",
+     "min": 1,
+     "max": 1,
+     "chance": 0.33,
+     "note": "(In Hardmode)"
+    }
+   ]
+  },
+  "Tall Man": {
+   "page": "Tall Man.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Darksun Fragment",
+     "min": 7,
+     "max": 7,
+     "chance": 1.0
+    },
+    {
+     "item": "Sign of the Operator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Blank Stare",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Tempest Toddler": {
+   "page": "Tempest Toddler.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Desert Feather",
+     "min": 2,
+     "max": 4,
+     "chance": 1.0
+    }
+   ]
+  },
+  "The Calamity": {
+   "page": "The Calamity.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Calamitous Certificate",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "The Cauldron": {
+   "page": "The Cauldron.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Molten Matter",
+     "min": 25,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Hellstone",
+     "min": 9,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Ash Grass Seeds",
+     "min": 2,
+     "max": 4,
+     "chance": 1.0
+    },
+    {
+     "item": "Molten Bar",
+     "min": 8,
+     "max": 12,
+     "chance": 1.0
+    },
+    {
+     "item": "Flame",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(In Hardmode)"
+    },
+    {
+     "item": "Hellrain Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Scorching Dagger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Perfect Light",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Steamthrower",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Magmadrop Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Melt Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Hot Ball",
+     "min": 30,
+     "max": 50,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Cauldron's Contents",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Kevlar Glove",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Burnt Eyeball",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "The Cauldron Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "The Cauldron Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "The Cauldron (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "The Derellect": {
+   "page": "The Derellect.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Soul of Plight",
+     "min": 20,
+     "max": 40,
+     "chance": 1.0
+    },
+    {
+     "item": "Hallowed Bar",
+     "min": 30,
+     "max": 40,
+     "chance": 1.0
+    },
+    {
+     "item": "The Derellect (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Neuralink",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Lobotomy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Derellect Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857
+    },
+    {
+     "item": "Derellect Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "The Fabricational Quartet": {
+   "page": "The Fabricational Quartet.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Delicious Meat",
+     "min": 4800,
+     "max": 6400,
+     "chance": 1.0
+    },
+    {
+     "item": "Draedon's Heart",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Exo Box",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Draedon Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857
+    },
+    {
+     "item": "The Exo Mechs (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Miracle Matter (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "The Exosphere (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill) {{fantag"
+    },
+    {
+     "item": "Photon Ripper",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "The Jailor",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Ares' Exoskeleton",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Ares Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857,
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Ares Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Surge Driver",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 2,
+     "groupAlways": false
+    },
+    {
+     "item": "The Atom Splitter",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 2,
+     "groupAlways": false
+    },
+    {
+     "item": "Artemis Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857,
+     "group": 2,
+     "groupAlways": false
+    },
+    {
+     "item": "Apollo Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857,
+     "group": 2,
+     "groupAlways": false
+    },
+    {
+     "item": "Artemis Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 2,
+     "groupAlways": false
+    },
+    {
+     "item": "Apollo Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 2,
+     "groupAlways": false
+    },
+    {
+     "item": "Spine of Thanatos",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 3,
+     "groupAlways": false
+    },
+    {
+     "item": "Refraction Rotor",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 3,
+     "groupAlways": false
+    },
+    {
+     "item": "P.G.D.R.",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 3,
+     "groupAlways": false
+    },
+    {
+     "item": "Thanatos Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857,
+     "group": 3,
+     "groupAlways": false
+    },
+    {
+     "item": "Thanatos Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "The Fallen Ascended Master, Xeroc": {
+   "page": "The Fallen Ascended Master_ Xeroc.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Xeroc's Guan Dao",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Primordial Soul",
+     "min": 10,
+     "max": 25,
+     "chance": 1.0
+    },
+    {
+     "item": "Ascension",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Xeroc's Grand Rock",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "The Forbidden Lantern": {
+   "page": "The Forbidden Lantern.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Aquatic Shardstone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Shattered Prism",
+     "min": 20,
+     "max": 25,
+     "chance": 1.0
+    },
+    {
+     "item": "Sea Prism",
+     "min": 65,
+     "max": 75,
+     "chance": 1.0
+    },
+    {
+     "item": "Shattered Pistol",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    },
+    {
+     "item": "The Forbidden Lantern Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Shattered Module",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "The Inventors": {
+   "page": "The Inventors.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Egbert Grappling Gun",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Egbert Metal Scrap",
+     "min": 16,
+     "max": 20,
+     "chance": 1.0
+    },
+    {
+     "item": "Egbert Core",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    },
+    {
+     "item": "Egbert Orb",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Lesser Healing Potion",
+     "min": 8,
+     "max": 14,
+     "chance": 1.0
+    },
+    {
+     "item": "Conquest Fragment",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Wulfrum Egbert",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Wulfrum Blunderbert",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Wulfrum Egthesis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Wulfrum Egbert Array",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Wulfrum Shock Egbert",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "John Egbert Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Jane Egbert Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "John Egbert Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Jane Egbert Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "The Inventors (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Wulfrum Hardhat",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Pacifist Drop)"
+    },
+    {
+     "item": "Treasure Bag (The Inventors)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "The Magnificent Lightning Avian": {
+   "page": "The Magnificent Lightning Avian.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Effulgent Feather",
+     "min": 11,
+     "max": 17,
+     "chance": 1.0
+    },
+    {
+     "item": "Rouge Slash",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Gilded Proboscis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Golden Eagle",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Dynamo Stem Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Folly Feed",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Swordsplosion",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Supreme Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Magnificent Lightning Avian Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Magnificent Lightning Avian Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "The Magnificent Lightning Avian (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "The Old Duke": {
+   "page": "The Old Duke.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Insidious Impaler",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Fetid Emesis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Septic Skewer",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Vitriolic Viper",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Cadaverous Carrion",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Toxicant Twister",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Mutated Truffle",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "The Reaper",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Sulfuric Scale",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Supreme Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Old Duke Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Old Duke Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Old Duke (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "The Perforators": {
+   "page": "The Perforators.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Blood Sample",
+     "min": 25,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Vertebrae",
+     "min": 3,
+     "max": 9,
+     "chance": 1.0
+    },
+    {
+     "item": "Crimson Seeds",
+     "min": 2,
+     "max": 4,
+     "chance": 1.0
+    },
+    {
+     "item": "Crimtane Bar",
+     "min": 2,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Ichor",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(In Hardmode)"
+    },
+    {
+     "item": "Aorta",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Sausage Maker",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Bloody Rupture",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Blood Bath",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Vein Burster",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Eviscerator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Blood Clot Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Tooth Ball",
+     "min": 30,
+     "max": 50,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Bloody Worm Tooth",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Bloodstained Glove",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Bloody Vein",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Perforator Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Perforator Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "The Perforators and their Hive (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "The Plaguebringer Goliath": {
+   "page": "The Plaguebringer Goliath.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Infected Armor Plating",
+     "min": 13,
+     "max": 17,
+     "chance": 1.0
+    },
+    {
+     "item": "Plague Cell Canister",
+     "min": 10,
+     "max": 14,
+     "chance": 1.0
+    },
+    {
+     "item": "Stinger",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Virulence",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Disease",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Diseased Pike",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Metal Ball",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Pandemic",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Sewer Brewer",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Malevolence",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Reemergence",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Pestilent Defiler",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Blight Spewer",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "The Hive",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Blow Pipe",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Plague Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Toxic Wisdom",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "The Needler",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Plaguecom Tablet",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Fuel Cell Bundle",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Infected Remote",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Decomposition",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Cirrhotipede",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "The Inflator's Controller",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Poison I-Bee",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Phlegm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Contaminated Dish",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Infected Dagger Misses No Skeptics",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Li'l Mine",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Death-Needle Stinger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Trash of Magnus",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Hi-Scan Camera",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Varroa Hack",
+     "min": 999,
+     "max": 3996,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Romulus",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    },
+    {
+     "item": "Toxic Heart",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "The Syringe",
+     "min": 15,
+     "max": 30,
+     "chance": 0.5
+    },
+    {
+     "item": "Flask of Plague",
+     "min": 5,
+     "max": 15,
+     "chance": 0.1
+    },
+    {
+     "item": "Greater Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Bad Apple",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Surgical Glove",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Plague Caller",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Plague Balloon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Tapehook",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Honey Cooling Cell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    },
+    {
+     "item": "Jungle Key",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Plaguebringer Goliath Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Plaguebringer Goliath Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Psy Rod",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(When summoned in the Jungle Bio-center Lab<br/>in the Glowing Mushroom biome)"
+    },
+    {
+     "item": "The Plaguebringer Goliath (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "The Scrapyard Ensemble": {
+   "page": "The Scrapyard Ensemble.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Wulfrum Bar",
+     "min": 120,
+     "max": 240,
+     "chance": 1.0
+    },
+    {
+     "item": "Wulfraprism",
+     "min": 25,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Box of Schematics",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Draedon Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857
+    },
+    {
+     "item": "The Scrapyard Ensemble (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Cloak of Shards",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Unstable Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Elemental Miniblaster",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Wulfrares' Ribcage",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 1,
+     "groupAlways": false
+    },
+    {
+     "item": "Wulfrares Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857
+    },
+    {
+     "item": "Wulfrares Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Sight Seer",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 2,
+     "groupAlways": false
+    },
+    {
+     "item": "Wulfrum Jaws",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 2,
+     "groupAlways": false
+    },
+    {
+     "item": "Oversized Flame Blaster",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 2,
+     "groupAlways": false
+    },
+    {
+     "item": "Wulfrartemis Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857,
+     "group": 2,
+     "groupAlways": false
+    },
+    {
+     "item": "Wulfrapollo Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857,
+     "group": 2,
+     "groupAlways": false
+    },
+    {
+     "item": "Wulfrartemis Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 2,
+     "groupAlways": false
+    },
+    {
+     "item": "Wulfrapollo Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Energized Lasher",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 3,
+     "groupAlways": false
+    },
+    {
+     "item": "The Chomper",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 3,
+     "groupAlways": false
+    },
+    {
+     "item": "Wulfranatos Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857,
+     "group": 3,
+     "groupAlways": false
+    },
+    {
+     "item": "Wulfranatos Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "group": 3,
+     "groupAlways": false
+    }
+   ]
+  },
+  "The Slime God": {
+   "page": "The Slime God.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Gel",
+     "min": 180,
+     "max": 250,
+     "chance": 1.0
+    },
+    {
+     "item": "Overloaded Blaster",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Abyssal Tome",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Eldritch Tome",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Crimslime Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Corroslime Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Slime Puppet Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Mana Polarizer",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Purified Jam",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Once per player and world)"
+    },
+    {
+     "item": "Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Slime God Mask (Crimson)",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0714
+    },
+    {
+     "item": "Slime God Mask (Corruption)",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0714
+    },
+    {
+     "item": "Slime God Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "The Slime God (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "The Unimaginable Deity, Yald'xoroath": {
+   "page": "The Unimaginable Deity_ Yald_xoroath.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "The Lightmare",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Slithering Scepter",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Abyssal Reaper",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Staff Of Trapped Souls",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Indignation",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Falsehood",
+     "min": 1,
+     "max": 1,
+     "chance": 0.96
+    },
+    {
+     "item": "False Deity God (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "The Wall of Bronze": {
+   "page": "The Wall of Bronze.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Omega Healing Potion",
+     "min": 8,
+     "max": 14,
+     "chance": 1.0
+    },
+    {
+     "item": "Large Father",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "A M S",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "The WOBbler",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Wall of Bronze Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Wall of Bronze Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "The Wall of Bronze (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "The Wall of Gifts": {
+   "page": "The Wall of Gifts.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Omega Healing Potion",
+     "min": 8,
+     "max": 14,
+     "chance": 1.0
+    },
+    {
+     "item": "Present",
+     "min": 2,
+     "max": 5,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Toxic Minnow": {
+   "page": "Toxic Minnow.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Depth Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    }
+   ]
+  },
+  "Trasher": {
+   "page": "Trasher.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Gatligator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "note": "(In Hardmode)"
+    },
+    {
+     "item": "Diving Helmet",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    },
+    {
+     "item": "Trash Can (pet)",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Trilobite": {
+   "page": "Trilobite.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Toxicant Twister",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    }
+   ]
+  },
+  "Ungodly Serpent": {
+   "page": "Ungodly Serpent.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Unholy Essence",
+     "min": 3,
+     "max": 6,
+     "chance": 1.0
+    },
+    {
+     "item": "Energy Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Unstable Calamity": {
+   "page": "Unstable Calamity.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Calamitous Certificate EX",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Calamitea",
+     "min": 3,
+     "max": 3,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Viperfish": {
+   "page": "Viperfish.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Depth Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "note": "(After defeating<br/>Calamitas)"
+    },
+    {
+     "item": "Lumenyl",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "note": "(After defeating Calamitas)"
+    }
+   ]
+  },
+  "Viruling": {
+   "page": "Viruling.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Plague Cell Canister",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Vision of the Tyrant": {
+   "page": "Vision of the Tyrant.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Rock",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Genesis",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Volcanic Reaper Shark": {
+   "page": "Volcanic Reaper Shark.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Voidstone",
+     "min": 40,
+     "max": 50,
+     "chance": 1.0
+    },
+    {
+     "item": "Abyss Ore",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2222,
+     "note": "(After defeating<br/>Golem)"
+    },
+    {
+     "item": "Abyss Bar",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2222,
+     "note": "(After defeating Polterghast)"
+    }
+   ]
+  },
+  "War Slime": {
+   "page": "War Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Brimstone Slag",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    },
+    {
+     "item": "Apocalyptic Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0
+    },
+    {
+     "item": "Charred Ore",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    }
+   ]
+  },
+  "Wulfrum Drone": {
+   "page": "Wulfrum Drone.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Wulfrum Bar",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Energy Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(While supercharged)"
+    },
+    {
+     "item": "Wulfrum Battery",
+     "min": 1,
+     "max": 1,
+     "chance": 0.07
+    }
+   ]
+  },
+  "Wulfrum Excavator": {
+   "page": "Wulfrum Excavator.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Wulfrum Bar",
+     "min": 16,
+     "max": 20,
+     "chance": 1.0
+    },
+    {
+     "item": "Energy Core",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    },
+    {
+     "item": "Energy Orb",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Conquest Fragment",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Wulfrum Screwdriver",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Wulfrum Blunderbuss",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Wulfrum Prosthesis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Wulfrum Fusion Array",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Wulfrum Shock Cutter",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Wulfrum Treasure Pinger",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Lesser Healing Potion",
+     "min": 8,
+     "max": 14,
+     "chance": 1.0
+    },
+    {
+     "item": "Wulfrum Lenses",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Pacifist Drop)"
+    },
+    {
+     "item": "The Wulfrum Excavator (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Wulfrum Lure",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(While supercharged)"
+    },
+    {
+     "item": "Wulfrum Excavator Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    }
+   ]
+  },
+  "Wulfrum Gyrator": {
+   "page": "Wulfrum Gyrator.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Wulfrum Bar",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    },
+    {
+     "item": "Energy Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(While supercharged)"
+    },
+    {
+     "item": "Wulfrum Battery",
+     "min": 1,
+     "max": 1,
+     "chance": 0.07
+    }
+   ]
+  },
+  "Wulfrum Hovercraft": {
+   "page": "Wulfrum Hovercraft.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Wulfrum Bar",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Energy Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(While supercharged)"
+    },
+    {
+     "item": "Wulfrum Battery",
+     "min": 1,
+     "max": 1,
+     "chance": 0.07
+    }
+   ]
+  },
+  "Wulfrum Megamechwyrm": {
+   "page": "Wulfrum Megamechwyrm.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Refined Wulfrum Bar",
+     "min": 155,
+     "max": 265,
+     "chance": 1.0
+    },
+    {
+     "item": "Wulfrum Greatblade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Vortex",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Thundering Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Extermination",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Piercing Gale",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Staff of the Megamechworm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "group": 1,
+     "groupAlways": true
+    },
+    {
+     "item": "Supercharged Heart",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Electrical Discharge",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Omega Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Wulfrum Megamechwyrm Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Wulfrum Megamechwyrm Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Wulfrum Megamechwyrm (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    }
+   ]
+  },
+  "Wulfrum Mine": {
+   "page": "Wulfrum Mine.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Energy Core",
+     "min": 5,
+     "max": 5,
+     "chance": 1.0
+    },
+    {
+     "item": "Wulfrum Metal Scrap",
+     "min": 10,
+     "max": 15,
+     "chance": 1.0
+    },
+    {
+     "item": "Wulfrum Battery",
+     "min": 1,
+     "max": 1,
+     "chance": 0.07
+    }
+   ]
+  },
+  "Wulfrum Pylon": {
+   "page": "Wulfrum Pylon.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Wulfrum Bar",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0
+    },
+    {
+     "item": "Energy Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Wulfrum Battery",
+     "min": 1,
+     "max": 1,
+     "chance": 0.07
+    }
+   ]
+  },
+  "Wulfrum Rover": {
+   "page": "Wulfrum Rover.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Wulfrum Bar",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Energy Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(While supercharged)"
+    },
+    {
+     "item": "Rover Drive",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Wulfrum Battery",
+     "min": 1,
+     "max": 1,
+     "chance": 0.07
+    }
+   ]
+  },
+  "Wulfrum Slime": {
+   "page": "Wulfrum Slime.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Wulfrum Metal Scrap",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Energy Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(While supercharged)"
+    },
+    {
+     "item": "Gel",
+     "min": 1,
+     "max": 3,
+     "chance": 1.0
+    }
+   ]
+  },
+  "XB-10 HuY": {
+   "page": "XB-10 HuY.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Exo Prism",
+     "min": 24,
+     "max": 32,
+     "chance": 1.0
+    },
+    {
+     "item": "Miracle Plating",
+     "min": 15,
+     "max": 21,
+     "chance": 1.0
+    },
+    {
+     "item": "Draedon's Heart",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Exo Box",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Draedon Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.287
+    },
+    {
+     "item": "XB-10 HuY (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Exo Dragonblade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Titanslayer",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Spectral Assassin",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Witch Hunt",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "HuY Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857
+    },
+    {
+     "item": "HuY Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "XC-39 \"Oizys\"": {
+   "page": "XC-39 Oizys.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Exo Prism",
+     "min": 20,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Ashes of Annihilation",
+     "min": 15,
+     "max": 20,
+     "chance": 1.0
+    }
+   ]
+  },
+  "XP-00 Hypnos": {
+   "page": "XP-00 Hypnos.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Exo Prism",
+     "min": 24,
+     "max": 32,
+     "chance": 1.0
+    },
+    {
+     "item": "Draedon's Heart",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Exo Box",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Draedon Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857
+    },
+    {
+     "item": "The Exo Mechs (Lore)",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Always on first kill)"
+    },
+    {
+     "item": "Neuraze",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Aergian Technistaff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Planetarium",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    },
+    {
+     "item": "Hypnos Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857
+    },
+    {
+     "item": "Hypnos Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Xernocaloxusatros": {
+   "page": "Xernocaloxusatros.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "frozen Axe or maybe Hammer",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Yggdrasil Ent": {
+   "page": "Yggdrasil Ent.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "Profaned Shard",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Unholy Essence",
+     "min": 6,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Pearlwood",
+     "min": 56,
+     "max": 230,
+     "chance": 1.0
+    },
+    {
+     "item": "Elder Berry",
+     "min": 1,
+     "max": 1,
+     "chance": 0.15,
+     "note": "(Once the player has used all [[Stamina Meter"
+    },
+    {
+     "item": "Yggdrasil Core",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    }
+   ]
+  },
+  "???": {
+   "page": "___.txt",
+   "boss": true,
+   "drops": [
+    {
+     "item": "Aquatic Heart",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25
+    }
+   ]
+  }
+ },
+ "aliases": {
+  "Providence, the Profaned Goddess": [
+   "A Profaned Guardian",
+   "Holy Inferno",
+   "Icarus' Folly",
+   "Profaned Guardian (Defense)",
+   "Profaned Guardian (Healer)",
+   "Profaned Guardian (Offense)",
+   "Providence",
+   "Providence, the Profaned God",
+   "Providence"
+  ],
+  "XP-00 Hypnos": [
+   "Aergia Neuron",
+   "Hypnos",
+   "XP-00 Hypnos Aergia Neuron",
+   "XP-00 Hypnos Plug"
+  ],
+  "Aquatic Scourge": [
+   "Aquatic Scourge Body",
+   "Aquatic Scourge Head",
+   "Aquatic Scourge Tail"
+  ],
+  "Armored Digger": [
+   "Armored Digger Body",
+   "Armored Digger Head",
+   "Armored Digger Tail"
+  ],
+  "Goozma": [
+   "Asgeliath Vassal",
+   "Crimglop Vassal",
+   "Crimuwular Slom",
+   "Divingoop Vassal",
+   "Ebonmuck Vassal",
+   "Gelrrupt Palagel",
+   "Glurpy Glop",
+   "Gragathoth"
+  ],
+  "The Wall of Bronze": [
+   "Bronze Claw",
+   "Bronze Laser",
+   "Bronze Turret",
+   "Wall of Bronze Face",
+   "Wall of Bronze"
+  ],
+  "Calamitas": [
+   "Calamitas Clone",
+   "Calamitas Doppelganger",
+   "Calamitas2",
+   "Cataclysm",
+   "Catastrophe",
+   "Clonelamitas"
+  ],
+  "Brimstone Elemental": [
+   "Calamity Elemental"
+  ],
+  "Empyreon": [
+   "Celestial Energy"
+  ],
+  "Giant Clam": [
+   "Clamity"
+  ],
+  "Signus, Envoy of the Devourer": [
+   "Cosmic Lantern",
+   "Cosmic Mine",
+   "Signus",
+   "Sigmus, Envoy of the Devourer"
+  ],
+  "Crabulon": [
+   "Crab Shroom"
+  ],
+  "Cryogen": [
+   "Cryogen's Shield"
+  ],
+  "The Derellect": [
+   "Derellect Plug",
+   "Derellect",
+   "Signal Drone"
+  ],
+  "Tempest Toddler": [
+   "Draconic Swarmer"
+  ],
+  "Disgusting Creature: Dron": [
+   "Dron"
+  ],
+  "Side Mollusk": [
+   "Exodium Mollusk"
+  ],
+  "Luminous Corvina": [
+   "Fish Alert"
+  ],
+  "Great Sand Shark": [
+   "GSS"
+  ],
+  "Aetherial Guardian, Olistene": [
+   "Light Cluster",
+   "Light Floater",
+   "Light Pod",
+   "Light Portal",
+   "Light Slime"
+  ],
+  "Acidsighter": [
+   "Mutated Eye"
+  ],
+  "Exodygen": [
+   "Omega Sighter"
+  ],
+  "The Plaguebringer Goliath": [
+   "PBG",
+   "Plague Homing Missile",
+   "Plague Mine",
+   "Plaguebringer Goliath"
+  ],
+  "Rotdog": [
+   "Pitbull"
+  ],
+  "Plague Charger": [
+   "Plague Bee"
+  ],
+  "Plaguebringer": [
+   "Plaguebringer Shade"
+  ],
+  "Wulfrum Rover": [
+   "Rover"
+  ],
+  "La Ruga": [
+   "Scorinfestation"
+  ],
+  "The Magnificent Lightning Avian": [
+   "The Dragonfolly"
+  ],
+  "The Forbidden Lantern": [
+   "The Shadow Shatter"
+  ],
+  "Purgatory Arbiter, Umbrus": [
+   "Umbrus"
+  ],
+  "Catfish (enemy)": [
+   "Catfish"
+  ],
+  "Grand Thunder Cnidrion": [
+   "George Floyd"
+  ],
+  "Hive (Enemy)": [
+   "Hive"
+  ],
+  "Jungle Dragon Yharon": [
+   "Jungle Dragon, Yharon"
+  ],
+  "Mysterious Manager": [
+   "Wing Ding Gaster"
+  ],
+  "The Fallen Ascended Master, Xeroc": [
+   "Ascended Master, Xeroc"
+  ]
+ }
+}

@@ -46,3 +46,14 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - Sprites de plus de 96 px réduits par un facteur entier (ex. « Mars Bars », une photo).
 - Un matériau dont le nom existe déjà en vanilla n'est pas créé (ex. page wiki d'un objet vanilla).
 - Pour donner un comportement à l'un d'eux (se poser, effet...), lui écrire sa propre classe et l'exclure du générateur.
+
+## Butin du wiki (`tools/gen_loot.py`, `Common/WikiData/WikiLoot.cs`)
+
+- **Additif** : on ajoute seulement les objets que le PNJ ne lâche pas déjà ; les chances des drops existants ne sont
+  pas modifiées et rien n'est retiré.
+- Chance et quantité du mode normal (premier terme de `{{dv}}`).
+- Drops avec une condition en note (« Post-Golem », « Tier 3 », « Always on first kill »...) : **non appliqués**,
+  listés dans `reports/loot.md`. À traduire en conditions de drop plus tard.
+- Boss : ajouts limités au mode normal ; les sacs de trésor (Expert) ne sont pas encore modifiés.
+- « One of the following N items » : un objet au hasard parmi le groupe, sauf si le jeu en donne déjà un.
+- Un seul PNJ par page (celui qui a déjà le plus de butin) : évite de multiplier le butin des vers et des alias.

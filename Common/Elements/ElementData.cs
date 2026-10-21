@@ -68,9 +68,6 @@ namespace CalamityFandom.Common.Elements
             var itemsByName = new Dictionary<string, List<int>>();
             for (int type = 1; type < ItemLoader.ItemCount; type++)
                 AddName(itemsByName, Lang.GetItemNameValue(type), type);
-            var npcsByName = new Dictionary<string, List<int>>();
-            for (int type = 1; type < NPCLoader.NPCCount; type++)
-                AddName(npcsByName, Lang.GetNPCNameValue(type), type);
 
             foreach (var (title, names) in data.Items)
             {
@@ -89,7 +86,8 @@ namespace CalamityFandom.Common.Elements
                     row[(int)e] = -1;
                 foreach (var e in Parse(affinity.Vulnerable))
                     row[(int)e] = 1;
-                var npcTypes = LookupWithAliases(npcsByName, title);
+                data.Aliases.TryGetValue(title, out var npcAliases);
+                var npcTypes = WikiNames.FindNPCs(title, npcAliases);
                 if (npcTypes.Count == 0)
                     UnresolvedNPCs.Add(title);
                 foreach (int type in npcTypes)

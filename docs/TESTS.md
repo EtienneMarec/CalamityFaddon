@@ -74,3 +74,11 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
 - [ ] Alloy Bar se fabrique (recette du wiki) et sert dans d'autres recettes (guide)
 - [ ] Le prix de vente et la rareté (couleur du nom) sont cohérents
 - [ ] Aucun sprite n'est énorme ou décalé dans l'inventaire
+
+### 1.6 Butin du wiki (bilan dans `reports/loot_applied.md`)
+
+- [ ] Aero Slime peut lâcher Skyline Wings (3 %) — voir le bestiaire
+- [ ] Desert Scourge (mode normal) lâche Parched Scale, Profaned Shard, Ocean Crest ; **pas** d'Abyss Bar (condition Post-Golem ignorée)
+- [ ] En Expert, un boss ne lâche pas en double ce qui est déjà dans son sac
+- [ ] Les entrées du bestiaire affichent les nouveaux drops sans planter
+- [ ] Un ver (Aquatic Scourge) ne lâche son butin qu'une fois

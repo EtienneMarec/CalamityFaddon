@@ -47,7 +47,7 @@ def split_all(body):
     positional, named = [], {}
     for p in parts[1:]:
         p = re.sub(r"<!--.*?-->", "", p, flags=re.S).strip()
-        m = re.match(r"^([a-zA-Z ]+?)\s*=\s*(.*)$", p, re.S)
+        m = re.match(r"^([a-zA-Z][a-zA-Z0-9 _]*?)\s*=\s*(.*)$", p, re.S)
         if m:
             named[m.group(1).strip().lower()] = m.group(2).strip()
         elif p:

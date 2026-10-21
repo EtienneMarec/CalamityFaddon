@@ -179,7 +179,7 @@ namespace CalamityFandom.Common.WikiData
             }
         }
 
-        private static int ResolveItem(string name)
+        public static int ResolveItem(string name)
         {
             string n = Normalize(name);
             if (itemsByName.TryGetValue(n, out int type))

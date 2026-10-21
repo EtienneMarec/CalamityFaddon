@@ -61,6 +61,9 @@ Sous PowerShell, `$env:PYTHONIOENCODING="utf-8"` évite les accents cassés dans
 - `WikiData/items.json` — matériaux simples du wiki (généré par `gen_items.py` avec leurs sprites dans
   `Assets/WikiItems/` et leurs textes dans `Mods.CalamityFandom.WikiItems.hjson`), instanciés par
   `Content/Items/WikiMaterial.cs` : pas de classe par objet. Comptent comme implémentés dans les rapports.
+- `WikiData/loot.json` — butin des infobox de PNJ (généré par `gen_loot.py`), ajouté par
+  `Common/WikiData/WikiLoot.cs` (additif, mode normal, conditions en note ignorées). Bilan : `reports/loot_applied.md`.
+- `Common/WikiData/WikiNames.cs` — résolution nom du wiki → types de PNJ (à utiliser à partir de PostAddRecipes).
 - `tools/build_data.py` relance tous les générateurs dans l'ordre.
 
 ## Rapports (générés, ne pas éditer)

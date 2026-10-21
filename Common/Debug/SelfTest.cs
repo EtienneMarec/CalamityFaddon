@@ -46,6 +46,7 @@ namespace CalamityFandom.Common.Debug
             CheckRecipes();
             CheckElements();
             CheckMaterials();
+            CheckLoot();
             foreach (var check in ExtraChecks)
                 check(this);
 
@@ -195,6 +196,18 @@ namespace CalamityFandom.Common.Debug
             else
                 Expect(false, "AlloyBar introuvable");
             Report($"matériaux : {count} objets créés depuis le wiki");
+        }
+
+        private void CheckLoot()
+        {
+            foreach (var (npc, rule, what) in WikiLoot.Added)
+                Expect(Main.ItemDropsDB.GetRulesForNPCID(npc, false).Contains(rule), $"butin de {Lang.GetNPCNameValue(npc)} absent : {what}");
+            Expect(WikiLoot.Added.Count > 50, $"drops ajoutés : {WikiLoot.Added.Count}");
+            string reports = Environment.GetEnvironmentVariable("CALFANDOM_REPORTS");
+            if (!string.IsNullOrEmpty(reports))
+                WikiLoot.WriteReport(reports);
+            Report($"butin : {WikiLoot.Added.Count} drops ajoutés, {WikiLoot.AlreadyDropped} déjà présents, {WikiLoot.Conditional} conditionnels ignorés, "
+                + $"{WikiLoot.MissingNPCs.Count} PNJ et {WikiLoot.MissingItems.Count} objets introuvables");
         }
 
         private void CheckNPCStats()

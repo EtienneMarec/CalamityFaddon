@@ -1,0 +1,123 @@
+# Butin du wiki appliqué en jeu
+
+_Généré par l'auto-test à partir de `WikiData/loot.json`._
+
+- 70 drops ajoutés sur 36 PNJ
+- 206 drops du wiki déjà présents dans le jeu (inchangés)
+- 127 drops à condition écrite en note, non appliqués (voir `reports/loot.md`)
+- 170 PNJ du wiki absents du jeu, 73 objets introuvables
+
+## Ajouts
+
+- **Aero Slime** : Skyline Wings 1-1 à 3.0%
+- **Aquatic Scourge** : Sulphurous Sand 5-15 à 100.0% (mode normal) ; Aquatic Emblem 1-1 à 100.0% (mode normal) ; Deep Diver 1-1 à 10.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal)
+- **Astral Deus** : Stardust 55-95 à 100.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal)
+- **Astral Slime** : Stardust 1-3 à 50.0%
+- **Astralachnea** : Stardust 2-3 à 100.0%
+- **Astrum Aureus** : Soul of Bright 20-40 à 100.0% (mode normal) ; Hallowed Key 1-1 à 20.0% (mode normal) ; Stardust 20-30 à 100.0% (mode normal) ; Fallen Star 18-24 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal)
+- **Atlas** : Stardust 6-8 à 100.0%
+- **Bohldohr** : Lihzahrd Brick 10-30 à 100.0%
+- **Brimstone Elemental** : Essence of Chaos 4-8 à 100.0% (mode normal) ; Abaddon 1-1 à 50.0% (mode normal) ; Flame-Licked Shell 1-1 à 10.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal)
+- **Calamitas Clone** : Ashes of Annihilation 9-14 à 100.0% (mode normal) ; Essence of Chaos 4-8 à 100.0% (mode normal) ; Blighted Lens 5-12 à 100.0% (mode normal) ; Broken Hero Sword 1-1 à 100.0% (mode normal) ; Void of Calamity 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Calamitas Trophy 1-1 à 10.0% (mode normal)
+- **Ceaseless Void** : The Evolution 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal)
+- **Cnidrion** : Desert Medallion 1-1 à 50.0%
+- **Crabulon** : Glowing Mushroom 20-30 à 100.0% (mode normal) ; Mushroom Grass Seeds 3-6 à 100.0% (mode normal) ; Fungal Clump 1-1 à 100.0% (mode normal) ; Delicious Meat 4-7 à 100.0% (mode normal)
+- **Cragmaw Mire** : Septic Skewer 1-1 à 25.0%
+- **Crimson Slime Spawn** : Blindfold 1-1 à 1.0%
+- **Cryogen** : Frozen Key 1-1 à 20.0% (mode normal) ; Soul of Cryogen 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal)
+- **Desert Scourge** : Parched Scale 7-14 à 100.0% (mode normal) ; Profaned Shard 1-1 à 100.0% (mode normal) ; Sand Block 261-820 à 100.0% (mode normal) ; Ocean Crest 1-1 à 100.0% (mode normal) ; Delicious Meat 4-4 à 20.0% (mode normal) ; Lesser Healing Potion 8-14 à 100.0% (mode normal)
+- **Eidolist** : Lunar Cultist Hood 1-1 à 10.0% ; Lunar Cultist Robe 1-1 à 10.0%
+- **Flak Crab** : Cadaverous Carrion 1-1 à 5.0%
+- **Fusion Feeder** : Stardust 2-3 à 100.0%
+- **Great Sand Shark** : Sand Shark Tooth Necklace 1-1 à 25.0% (mode normal) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Shifting Sands, Tumbleweed (mode normal)
+- **Hadarian** : Stardust 2-3 à 100.0%
+- **Mantis** : Stardust 2-3 à 100.0%
+- **Mauler** : Fetid Emesis 1-1 à 25.0%
+- **Moray Eel** : Depth Crusher 1-1 à 6.7%
+- **Nova** : Stardust 2-3 à 100.0%
+- **Perforator Cyst** : Crimtane Ore 10-26 à 100.0%
+- **Pestilent Slime** : Apocalyptic Ore 10-26 à 100.0%
+- **Providence, the Profaned Goddess** : Supreme Healing Potion 5-15 à 100.0% (mode normal)
+- **Shockstorm Shuttle** : The Transformer 1-1 à 10.0%
+- **Signus** : Spectral Veil 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal)
+- **Tempest Toddler** : Desert Feather 2-4 à 100.0%
+- **The Old Duke** : Supreme Healing Potion 5-15 à 100.0% (mode normal)
+- **The Plaguebringer Goliath** : Toxic Heart 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Jungle Key 1-1 à 100.0% (mode normal)
+- **The Slime God** : Mana Polarizer 1-1 à 100.0% ; Healing Potion 5-15 à 100.0%
+- **Trilobite** : Toxicant Twister 1-1 à 5.0%
+
+## Objets introuvables (contenu à créer)
+
+- Titan Finger — 10
+- Clam Chowder — 2
+- Lead Core — 2
+- Sulfuric Scale — 2
+- Aftershock — 1
+- Amidias' Spark — 1
+- Aquatic Discharge — 1
+- Bad Apple — 1
+- Blazing Core — 1
+- Bleached Angling Kit — 1
+- Blow Pipe — 1
+- Calamitas Mask — 1
+- Cirrhotipede — 1
+- Cold Divinity — 1
+- Contaminated Dish — 1
+- Corroslime Staff — 1
+- Crimslime Staff — 1
+- Death-Needle Stinger — 1
+- Decomposition — 1
+- Disease — 1
+- Diseased Pike — 1
+- Earthen Clicker — 1
+- Effluvium Bow — 1
+- Energy Staff — 1
+- Eutrophic Scimitar — 1
+- Flask of Plague — 1
+- Gehenna — 1
+- Ghast Relic — 1
+- Glacial Crusher — 1
+- Godspawn Helix Staff — 1
+- Gravistar Sabaton — 1
+- Hi-Scan Camera — 1
+- Hide of Astral Deus — 1
+- Honey Cooling Cell — 1
+- Infected Dagger Misses No Skeptics — 1
+- Jellyfish Cannonball — 1
+- Leaves of Crabulon — 1
+- Li'l Mine — 1
+- Mana Jelly — 1
+- Metal Ball — 1
+- Metamorphic Stone — 1
+- Microxodonta — 1
+- Mirage Jelly (item) — 1
+- Phlegm — 1
+- Plague Balloon — 1
+- Plaguecom Tablet — 1
+- Poison I-Bee — 1
+- Prehistoric Tablet — 1
+- Profaned Nucleus — 1
+- Purgatory Blaster — 1
+- Quasar — 1
+- Reemergence — 1
+- Regenator — 1
+- Romulus — 1
+- Sandslasher — 1
+- Sandstorm (weapon) — 1
+- Sandy Angling Kit — 1
+- Seabound Staff — 1
+- Sewer Brewer — 1
+- Solar Flare — 1
+- Starfall — 1
+- Storm Spray — 1
+- Surgical Glove — 1
+- Tapehook — 1
+- The Food Chain — 1
+- The Inflator's Controller — 1
+- The Needler — 1
+- The Reaper — 1
+- Toxic Wisdom — 1
+- Trash of Magnus — 1
+- Tree-Crown Wings — 1
+- Vacuillium Ore — 1
+- Varroa Hack — 1
