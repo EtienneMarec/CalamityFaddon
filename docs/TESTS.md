@@ -62,13 +62,13 @@ Contrôlé automatiquement par `tools/selftest.py` (toutes les valeurs du JSON).
 Chaque recette changée est vérifiée par l'auto-test ; en jeu, contrôler surtout le comportement :
 - [x] Aerospec Breastplate : 11 Aerialite Bar, 10 Cloud, 5 Rain Cloud, 2 Feather au **Sky Mill**
 - [x] Abyss Candle : Lumenyl au lieu de Torch
-- [ ] Une recette avec groupe « A/B » accepte les deux objets. Exemple : **Crystal of the Wicked** (« Shadow Scale /
+- [x] Une recette avec groupe « A/B » accepte les deux objets. Exemple : **Crystal of the Wicked** (« Shadow Scale /
       Tissue Sample ») : le jeu n'affiche que l'objet représentatif du groupe (Shadow Scale), comme « Any Iron Bar ».
       Tester : avoir des **Tissue Sample** et aucune Shadow Scale (+ le reste) → la recette doit être fabricable ; le
       survol de l'ingrédient affiche « Shadow Scale / Tissue Sample »
-- [ ] **En Calamity++** : une recette d'origine absente du wiki est toujours là (ex. Acidwood depuis Acidwood Wall).
+- [x] **En Calamity++** : une recette d'origine absente du wiki est toujours là (ex. Acidwood depuis Acidwood Wall).
       (En Full Fandom elle disparaît : vérifié le 21/10.)
-- [ ] Les recettes de Calamity à condition gardent leur condition. Exemple : **Decryption Computer** (recette modifiée
+- [x] Les recettes de Calamity à condition gardent leur condition. Exemple : **Decryption Computer** (recette modifiée
       par le wiki : 10 Dubious Plating, 10 Any Copper Bar, 15 Glass à l'enclume) est verrouillée au palier 1 de
       l'arsenal de Draedon : dans un monde neuf, la recette affiche sa condition et n'est pas fabricable ; après
       avoir utilisé une **Schematic (Sunken Sea)** (Cheat Sheet), elle le devient
@@ -165,4 +165,6 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 - [x] Écarts de stats extrêmes : tous tranchés (`tools/stats_decisions.json`)
 - [ ] Les chiffres du système d'éléments (`docs/decisions.md`) : à juger en jouant.
+- [ ] Full Fandom : cacher aussi les anciens objets (avant 2022) dont le wiki ne parle pas (67 sans aucune mention,
+      101 cités seulement dans le texte ou un changelog, comme Acidwood Wall) ?
 - [ ] Les addons (Tranquility, Community Remix...) : voir `docs/ROADMAP.md`, phase 5.
