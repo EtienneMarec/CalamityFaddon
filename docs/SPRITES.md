@@ -12,7 +12,7 @@ Format Terraria : pixel art, fond transparent ; animation = images empilées ver
 
 ## Optionnel : améliorations
 
-- [ ] **Yharim Bar au sol** — dessiné aujourd'hui en agrandissant x16 le sprite de 30×24 ; l'image « The item in-game »
+- [x] **Yharim Bar au sol** (fait le 22/10 : détourage de l'image du wiki, réduit en 480×384 par `gen_items.py`) — dessiné aujourd'hui en agrandissant x16 le sprite de 30×24 ; l'image « The item in-game »
       du wiki (`Yharimbaringame.png`) montre une version géante plus détaillée, mais floue et sur un fond de décor,
       donc inutilisable telle quelle. Attendu : version détaillée ~120×96 (dessinée x4 en jeu) ou 480×384, fond
       transparent. Fichier : `wiki_sprites_custom/Yharim Bar (world).png` (le code à brancher est simple : texture

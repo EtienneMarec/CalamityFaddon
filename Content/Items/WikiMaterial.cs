@@ -34,6 +34,8 @@ namespace CalamityFandom.Content.Items
             public int Value { get; set; }
             /// <summary>Taille au sol (dessin et ramassage), d'après une image du wiki ; 1 = normale.</summary>
             public float WorldScale { get; set; } = 1f;
+            /// <summary>Version détaillée pour le sol (Assets/WikiItems/&lt;Nom&gt;_World.png), à la taille de la hitbox.</summary>
+            public bool WorldTexture { get; set; }
         }
 
         private class ItemsFile
@@ -86,15 +88,18 @@ namespace CalamityFandom.Content.Items
             Item.rare = WikiStats.ResolveRarity(data.Rare);
         }
 
-        /// <summary>Objet géant au sol (Yharim Bar) : dessiné à l'échelle de sa hitbox, posé sur sa base.</summary>
+        /// <summary>Objet géant au sol (Yharim Bar) : dessiné à la taille de sa hitbox, posé sur sa base ; version détaillée si fournie.</summary>
         public override bool PreDrawInWorld(SpriteBatch spriteBatch, Color lightColor, Color alphaColor, ref float rotation, ref float scale, int whoAmI)
         {
             if (data.WorldScale == 1f)
                 return true;
-            Texture2D texture = TextureAssets.Item[Type].Value;
-            Rectangle frame = Main.itemAnimations[Type]?.GetFrame(texture) ?? texture.Frame();
+            Texture2D texture = data.WorldTexture
+                ? ModContent.Request<Texture2D>(Texture + "_World").Value
+                : TextureAssets.Item[Type].Value;
+            Rectangle frame = data.WorldTexture ? texture.Frame() : Main.itemAnimations[Type]?.GetFrame(texture) ?? texture.Frame();
+            float drawScale = scale * Item.width / frame.Width;
             spriteBatch.Draw(texture, Item.Bottom - Main.screenPosition, frame, alphaColor, rotation,
-                new Vector2(frame.Width / 2f, frame.Height), scale * data.WorldScale, SpriteEffects.None, 0f);
+                new Vector2(frame.Width / 2f, frame.Height), drawScale, SpriteEffects.None, 0f);
             return false;
         }
     }

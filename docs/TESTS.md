@@ -103,6 +103,7 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
 - [x] Aucun sprite n'est énorme ou décalé dans l'inventaire
 - [x] **Yharim Bar jeté au sol** : géant (x16, comme l'image de sa page), posé sur le sol, ramassable en touchant
       n'importe quelle partie ; taille normale dans l'inventaire (ajouté le 22/10, les deux modes)
+- [ ] Yharim Bar au sol : version **détaillée** (celle de l'image du wiki), plus le sprite agrandi
 
 ### 1.6 Butin du wiki (bilan dans `reports/loot_applied.md`)
 

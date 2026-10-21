@@ -29,7 +29,8 @@ ASSETS = os.path.join(ROOT, "Assets", "WikiItems")
 LOC = os.path.join(ROOT, "Localization", "en-US", "Mods.CalamityFandom.WikiItems.hjson")
 MATERIAL_TYPES = {"crafting material", "crafting materials", "bar", "soul"}
 MAX_SPRITE = 96  # au-delà, réduction par un facteur entier (illustrations du wiki, ex. « Mars Bars »)
-# Objets dessinés (et ramassables) en plus grand au sol, d'après une image du wiki (décision du 22/10, docs/decisions.md)
+# Objets dessinés (et ramassables) en plus grand au sol, d'après une image du wiki (décision du 22/10, docs/decisions.md).
+# Version détaillée facultative : wiki_sprites_custom/<titre> (world).png -> Assets/WikiItems/<Nom>_World.png
 WORLD_SCALE = {
     "Yharim Bar": 16,  # « Yharimbaringame.png » (« The item in-game ») : ~480 px de large pour un sprite de 30
 }
@@ -98,6 +99,14 @@ def convert(src, dest):
     return w, h, len(unique), ticks
 
 
+def convert_world(src, dest, size):
+    """Version géante dessinée au sol (wiki_sprites_custom/<titre> (world).png, détourée par l'utilisateur) : recadrée
+    sur sa partie visible et mise à la taille de la hitbox au sol."""
+    img = Image.open(src).convert("RGBA")
+    img = img.crop(img.getchannel("A").getbbox())
+    img.resize(size, Image.LANCZOS).save(dest, "PNG")
+
+
 def main():
     index = json.load(open(os.path.join(ROOT, "data", "wiki_index.json"), encoding="utf-8"))
     os.makedirs(ASSETS, exist_ok=True)
@@ -133,6 +142,11 @@ def main():
         })
         if title in WORLD_SCALE:
             items[-1]["worldScale"] = WORLD_SCALE[title]
+            world = os.path.join(CUSTOM, title + " (world).png")
+            if os.path.exists(world):
+                scale = WORLD_SCALE[title]
+                convert_world(world, os.path.join(ASSETS, name + "_World.png"), (w * scale, h * scale))
+                items[-1]["worldTexture"] = True
         entry = {"DisplayName": title}
         tooltip = clean_text(f.get("tooltip"))
         entry["Tooltip"] = tooltip if tooltip else ""
@@ -145,7 +159,7 @@ def main():
         with open(LOC, "w", encoding="utf-8") as fh:
             fh.write(hjson.dumps(loc, indent="\t", ensure_ascii=False) + "\n")
     # Sprites d'objets qui ne sont plus générés
-    names = {i["name"] + ".png" for i in items}
+    names = {i["name"] + ".png" for i in items} | {i["name"] + "_World.png" for i in items if i.get("worldTexture")}
     for stale in set(os.listdir(ASSETS)) - names:
         os.remove(os.path.join(ASSETS, stale))
     print(f"{len(items)} matériaux générés ({sum(i['frames'] > 1 for i in items)} animés)")
