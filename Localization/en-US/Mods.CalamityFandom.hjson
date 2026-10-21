@@ -4,14 +4,18 @@ Items: {
 		Tooltip: ""
 	}
 
-	Weapons.Rogue.NightsGaze: {
-		DisplayName: Night's Gaze
-		Tooltip:
-			'''
-			Strike your foes with this spear of the night
-			Throws a spear that shatters when it hits an enemy
-			Stealth strikes cause the spear to summon homing stars as it flies
-			'''
+	Weapons: {
+		Rogue: {
+			NightsGaze: {
+				DisplayName: Night's Gaze
+				Tooltip:
+					'''
+					Strike your foes with this spear of the night
+					Throws a spear that shatters when it hits an enemy
+					Stealth strikes cause the spear to summon homing stars as it flies
+					'''
+			}
+		}
 	}
 }
 
@@ -145,6 +149,25 @@ Configs: {
 		WarnOnWorldModeMismatch: {
 			Label: Warn on world mode mismatch
 			Tooltip: Warn when entering a world that was created with another accuracy mode.
+		}
+	}
+
+	FandomAccuracy: {
+		Tooltip: ""
+
+		FullFandom: {
+			Label: Full Fandom
+			Tooltip: ""
+		}
+
+		Minimal: {
+			Label: Minimal
+			Tooltip: ""
+		}
+
+		CalamityPlus: {
+			Label: Calamity Plus
+			Tooltip: ""
 		}
 	}
 }

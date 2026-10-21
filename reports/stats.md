@@ -2,8 +2,8 @@
 
 _Généré par `tools/gen_stats.py`._
 
-- 1204 objets et 67 PNJ de Calamity modifiés (`WikiData/stats.json`).
-- 49 écarts extrêmes (> x5) : appliqués **seulement en mode Full Fandom**, ci-dessous.
+- 1204 objets et 68 PNJ de Calamity modifiés (`WikiData/stats.json`).
+- 48 écarts extrêmes (> x5) : appliqués **seulement en mode Full Fandom**, ci-dessous.
 - 35 valeurs appliquées sans valeur littérale dans le code pour comparer.
 
 ## Écarts extrêmes à trancher
@@ -20,7 +20,6 @@ Pour appliquer quand même : ajouter le titre de la page dans `tools/stats_force
 | Clockwork Bow | ClockworkBow | damage | 36 | 770 | x0.05 |
 | Clockwork Bow | ClockworkBow | useAnimation | 5 | 30 | x0.17 |
 | Coral Spout | CoralSpout | mana | 4 | 30 | x0.13 |
-| Desert Scourge | DesertScourgeHead | life | 350000 | 4000 | x87.50 |
 | Eidolic Wail | EidolicWail | damage | 126 | 943 | x0.13 |
 | Eidolic Wail | EidolicWail | mana | 10 | 90 | x0.11 |
 | Elephant Killer | ElephantKiller | damage | 2000 | 135 | x14.81 |

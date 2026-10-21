@@ -19,6 +19,8 @@ from PIL import Image, ImageSequence
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from wiki_index import ROOT, SPRITES  # noqa: E402
+
+CUSTOM = os.path.join(ROOT, "wiki_sprites_custom")
 from gen_stats import number, sell_copper  # noqa: E402
 
 OUT = os.path.join(ROOT, "WikiData", "items.json")
@@ -55,17 +57,23 @@ def clean_text(raw):
 
 
 def sprite_file(page):
+    """Chemin du sprite : d'abord wiki_sprites_custom/<titre>.png (sprites faits par l'utilisateur, voir
+    docs/SPRITES.md), puis l'image indiquée par l'infobox, puis celle trouvée par wiki_index.py."""
+    for title in (page["title"], re.sub(r"\s*\([^)]*\)$", "", page["title"])):
+        custom = os.path.join(CUSTOM, title + ".png")
+        if os.path.exists(custom):
+            return custom
     image = (page["fields"].get("image") or "").strip()
     if image:
         candidate = image.replace("[[File:", "").split("|")[0].strip(" ]").replace(" ", "_")
         if os.path.exists(os.path.join(SPRITES, candidate)):
-            return candidate
-    return page.get("sprite")
+            return os.path.join(SPRITES, candidate)
+    return os.path.join(SPRITES, page["sprite"]) if page.get("sprite") else None
 
 
 def convert(src, dest):
     """WebP (fixe ou animé) -> PNG ; renvoie (largeur, hauteur d'une frame, nombre de frames, ticks par frame)."""
-    img = Image.open(os.path.join(SPRITES, src))
+    img = Image.open(src)
     frames = [f.convert("RGBA") for f in ImageSequence.Iterator(img)]
     # Les frames identiques successives (GIF ralenti) ne servent à rien
     unique = [frames[0]] + [f for prev, f in zip(frames, frames[1:]) if f.tobytes() != prev.tobytes()]

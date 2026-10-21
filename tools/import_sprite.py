@@ -20,6 +20,11 @@ SPRITES = os.path.join(ROOT, "fandom_sprites")
 
 
 def find_sprite(name):
+    # Sprites faits à la main (docs/SPRITES.md) prioritaires sur ceux du wiki
+    for c in (name, os.path.splitext(name)[0].replace("_", " ") + ".png"):
+        custom = os.path.join(ROOT, "wiki_sprites_custom", c)
+        if os.path.isfile(custom):
+            return custom
     candidates = [name, name.replace(" ", "_")]
     for c in candidates:
         p = os.path.join(SPRITES, c)
