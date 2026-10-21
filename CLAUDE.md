@@ -1,6 +1,6 @@
 # CLAUDE.md — Calamity Fandom
 
-Addon tModLoader pour Calamity Mod (v2.2.2) qui rend le jeu conforme au **wiki Fandom** de Calamity, tel qu'il est
+Addon tModLoader pour Calamity Mod (v2.2.2, **version finale** : le développement de Calamity s'est arrêté) qui rend le jeu conforme au **wiki Fandom** de Calamity, tel qu'il est
 devenu après le départ de la communauté vers wiki.gg (pages vandalisées, inventées, renommées). Le wiki est la
 spécification ; le code de Calamity est le point de départ.
 

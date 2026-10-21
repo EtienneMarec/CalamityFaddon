@@ -3,6 +3,10 @@
 À dérouler après chaque passe. Une section par passe ; on coche `[x]` ce qui est validé, on note `KO :` + description
 sous une ligne qui ne va pas. Les tests restés ouverts des passes précédentes restent à faire.
 
+**Périmètre** : ce fichier couvre **tout ce qui est implémenté**. Ce qui n'est pas encore fait (portage des 264 autres
+contenus retirés, équilibrage Calamity++, sacs de trésor, barres posables...) est dans `docs/ROADMAP.md` et n'a rien à
+tester ici. Les décisions qui t'attendent sont en bas de ce fichier.
+
 Astuces : Cheat Sheet / Hero's Mod pour faire apparaître objets et PNJ ; `/calfandom` n'existe pas (encore).
 
 ---
@@ -14,8 +18,8 @@ Astuces : Cheat Sheet / Hero's Mod pour faire apparaître objets et PNJ ; `/calf
 - [x] Coups alternés : un vers le bas, le même vers le haut, orientés vers le curseur
 - [x] Des étoiles (Stratus Star) tombent du ciel sur l'ennemi touché
 - [ ] L'ennemi touché reçoit le debuff Moon Burnt (= Nightwither de Calamity), 3 s, particules violettes
-- [ ] Recette au Cosmic Anvil : Stratus Sphere, Galileo Gladius, Crescent Moon, 25 Lumenyl, 37 Depth Cells,
-      4 Ascendant Spirit Essence, 8 Auric Bar (Night's Gaze manquant volontairement)
+- [ ] Recette au Cosmic Anvil : Stratus Sphere, Galileo Gladius, Crescent Moon, **Night's Gaze**, 25 Lumenyl,
+      37 Depth Cells, 4 Ascendant Spirit Essence, 8 Auric Bar (recette du wiki, voir 2.1)
 
 ---
 
@@ -33,7 +37,7 @@ Astuces : Cheat Sheet / Hero's Mod pour faire apparaître objets et PNJ ; `/calf
 - [ ] Draconic Swarmer (invoqué par la Dragonfolly) → **Tempest Toddler**
 - [ ] Les balises dans les infobulles s'affichent toujours (icônes `[i:...]`, buffs colorés `[cbuff:...]`)
 
-### 1.2 Stats du wiki (`WikiData/stats.json`, 1033 objets, 67 PNJ)
+### 1.2 Stats du wiki (`WikiData/stats.json`, 1204 objets, 67 PNJ)
 
 Contrôlé automatiquement par `tools/selftest.py` (toutes les valeurs du JSON). En jeu, vérifier surtout le ressenti :
 - [ ] Graydron (Murasama) : 3001 dégâts, 50 % de critique dans l'infobulle
@@ -42,7 +46,8 @@ Contrôlé automatiquement par `tools/selftest.py` (toutes les valeurs du JSON).
 - [ ] Une arme à plusieurs tirs par usage (ex. Clockwork Bow) tire toujours correctement
 - [ ] Un ennemi modifié (ex. Aero Slime, défense 10) : PV et défense cohérents avec le wiki (`/` Cheat Sheet → NPC)
 - [ ] Rien de cassé côté prix de vente (vendre un objet modifié à un PNJ)
-- [ ] **À décider** : les 38 écarts extrêmes de `reports/stats.md` (Desert Scourge 350 000 PV, Ravager 1 PV...)
+- [ ] Une arme de spy (rogue) a aussi les stats du wiki : Garnet (ex-Malachite) 65 dégâts, Cinquedea 36 ; et une
+      épée « tenue » : Galileo Gladius `use` 10 (ces objets étaient oubliés avant la correction du 21/10)
 
 ### 1.3 Recettes du wiki (`WikiData/recipes.json`, bilan dans `reports/recipes.md`)
 
@@ -93,6 +98,10 @@ Contrôlé par `python tools/selftest.py --mode all`. En jeu :
 - [ ] Full Fandom : un objet récent de Calamity (voir `reports/baseline.md`, section « masqués ») n'a plus de recette
 - [ ] Full Fandom : le Desert Scourge a ses 350 000 PV du wiki (ratio x87,5)
 - [ ] Full Fandom : Acidwood ne se fabrique plus depuis Acidwood Wall (recette absente du wiki)
+- [ ] Full Fandom : un PNJ récent masqué (liste « PNJ » de `reports/baseline.md`) n'apparaît plus naturellement
+- [ ] Full Fandom : les marchands ne vendent plus d'objet masqué ; un objet masqué déjà dans l'inventaire reste utilisable
+- [ ] Full Fandom : les boss récents ne s'invoquent plus (leur objet d'invocation n'a plus de recette ni de drop)
+- [ ] Calamity++ : pour l'instant identique à Minimal (aucun équilibrage écrit)
 - [ ] Retour en Minimal : tout revient comme avant
 
 ### 2.1 Premier contenu porté : Night's Gaze
@@ -102,3 +111,13 @@ Contrôlé par `python tools/selftest.py --mode all`. En jeu :
 - [ ] Attaque furtive : la lance sème des étoiles à tête chercheuse
 - [ ] Recette à l'Ancient Manipulator : Daybreak, 7 Lumenyl, 4 Ruinous Soul, 12 Exodium Cluster
 - [ ] Zweihandromeda : la recette demande maintenant aussi Night's Gaze
+
+---
+
+## Décisions en attente (pas des tests)
+
+- [ ] Les 49 écarts de stats extrêmes de `reports/stats.md` (Desert Scourge 350 000 PV, Ravager 1 PV...) : appliqués
+      seulement en Full Fandom aujourd'hui. Les garder ainsi, les forcer partout (`tools/stats_force.json`), ou
+      corriger les pages (`wiki_edits/`) ?
+- [ ] Les chiffres du système d'éléments (`docs/decisions.md`) : à juger en jouant.
+- [ ] Les addons (Tranquility, Community Remix...) : voir `docs/ROADMAP.md`, phase 5.

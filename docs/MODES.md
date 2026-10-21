@@ -8,6 +8,13 @@ Mode par défaut : **Minimal**.
 Dans le code : `FandomMode.Current`, `FandomMode.IsFull`, `FandomMode.IsPlus` (`Common/Config/FandomConfig.cs`).
 La variable d'environnement `CALFANDOM_MODE` force un mode (auto-test : `python tools/selftest.py --mode all`).
 
+## Calamity est terminé
+
+D'après l'utilisateur (21/10/2026), le développement de Calamity s'est arrêté et l'équipe s'est séparée : **2.2.2 est
+la version finale**. « Calamity actuel » (modes Minimal et Calamity++) désigne donc 2.2.2, une cible figée : plus de
+mise à jour à suivre (`tools/extract_calamity_dll.py` ne devrait plus servir). Les droits restent à Azafure, LLC, ce qui
+ne change rien à la question des assets pour une publication, mais trouver un interlocuteur sera peut-être plus difficile.
+
 ## Les trois modes
 
 | | Full Fandom | Minimal | Calamity++ |
