@@ -8,7 +8,7 @@ Marqueurs :
 - **[choix]** : le wiki ne dit rien ou se contredit, décision prise par Claude, **à valider** en jeu ;
 - **[technique]** : imposé par l'implémentation (tModLoader, Calamity), sans effet de design voulu.
 
-Une page corrigée ou créée va dans `wiki_edits/` (même nom de fichier) et se référence ici.
+Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/WIKI.md`) ; ce registre garde le pourquoi.
 
 ---
 
@@ -201,3 +201,12 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** Test Swords : 18 (une par élément + Moon Burnt), 10 dégâts, `use` 15, autoswing, couleur de l'élément ;
   suivent les règles du mode (chances en Calamity++).
 - **[technique]** Sprites vanilla réutilisés (bouteille d'eau, mannequin, épée de cuivre) : pas de sprite à faire.
+
+## 10. Notre wiki (`wiki/`, `docs/WIKI.md`)
+
+- **[validé 21/10]** Copie complète du wiki Fandom dans `wiki/`, éditée au fil du projet ; le dump d'origine reste la
+  référence du Full Fandom. Remplace `wiki_edits/`.
+- **[validé 21/10]** Notre wiki décrit les deux modes, avec `{{mode|Full Fandom|Calamity++}}` quand ils diffèrent.
+- **[choix]** Pas copiés : discussions et pages utilisateur. Les 18 pages écrasées par Windows remplacent leur
+  redirection homonyme (la redirection à la casse près est perdue).
+- **[choix]** Un `{{mode}}` sur une page passe avant les règles automatiques des stats.

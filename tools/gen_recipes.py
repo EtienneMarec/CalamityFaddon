@@ -15,7 +15,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from wiki_index import EDITS, ROOT, WIKI, extract_template  # noqa: E402
+from wiki_index import OUR_MAIN, ROOT, extract_template  # noqa: E402
 
 OUT = os.path.join(ROOT, "WikiData", "recipes.json")
 # Pages qui ne décrivent pas de vraies recettes d'artisanat
@@ -85,9 +85,7 @@ def redirect_aliases(names):
 
 
 def main():
-    pages = {os.path.basename(p): p for p in glob.glob(os.path.join(WIKI, "Recipes_*egister.txt"))}
-    if os.path.isdir(EDITS):
-        pages.update({os.path.basename(p): p for p in glob.glob(os.path.join(EDITS, "Recipes_*egister.txt"))})
+    pages = {os.path.basename(p): p for p in glob.glob(os.path.join(OUR_MAIN, "Recipes_*egister.txt"))}
 
     recipes, problems = [], []
     named_keys = collections.Counter()

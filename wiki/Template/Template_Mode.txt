@@ -1,0 +1,16 @@
+<span class="mode-fandom" title="Full Fandom">{{{1|}}}</span>{{#if:{{{2|}}}| / <span class="mode-plus" title="Calamity++">{{{2}}}</span>}}<noinclude>
+{{Documentation}}
+'''Mode''' shows a value that differs between the two accuracy modes of Calamity Fandom, the same way {{tl|dv}} shows values that differ between difficulties.
+
+== Usage ==
+<pre>{{mode|value in Full Fandom|value in Calamity++}}</pre>
+
+* '''Full Fandom''': only what the original Fandom wiki says, with Calamity content added after the wiki was abandoned (2.0.1.005) hidden.
+* '''Calamity++''': current Calamity, plus everything the Fandom wiki adds or changes, balanced so that everything is playable.
+
+Example: <code>| damage = <nowiki>{{mode|68|3170}}</nowiki></code> gives {{mode|68|3170}}.
+
+The mod's data tools read this template directly: the first value is used in Full Fandom, the second in Calamity++.
+A field without this template has the same value in both modes.
+[[Category:Templates]]
+</noinclude>

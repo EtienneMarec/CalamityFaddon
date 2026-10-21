@@ -1,4 +1,4 @@
-"""Indexe le dump du wiki Fandom et le compare au code de Calamity.
+"""Indexe notre wiki (wiki/, copie éditée du wiki Fandom) et le compare au code de Calamity.
 
 Produit :
   data/wiki_index.json        une entrée par page (type, infobox, correspondance Calamity, écarts)
@@ -8,10 +8,9 @@ Produit :
   reports/addons.md           pages marquées {{Addon|...}}
   reports/renames.md          objets officiels renommés par le wiki (détectés via les redirections)
 
-Les pages de fandom_dump_extra/Main/ (pages écrasées dans le dump, cf. fetch_missing_pages.py) s'ajoutent au dump,
-et celles de wiki_edits/ (même nommage) remplacent tout le reste.
+Une page est marquée « edited » si elle diffère de la page d'origine dans fandom_dump_txt/.
 
-Usage : python -I tools/wiki_index.py
+Usage : python tools/wiki_index.py
 """
 import collections
 import glob
@@ -20,9 +19,12 @@ import os
 import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-WIKI = os.path.join(ROOT, "fandom_dump_txt")
-EXTRA_MAIN = os.path.join(ROOT, "fandom_dump_extra", "Main")
-EDITS = os.path.join(ROOT, "wiki_edits")
+# fandom_dump_txt/ : le wiki Fandom d'origine, jamais modifié (référence du mode Full Fandom)
+FANDOM = os.path.join(ROOT, "fandom_dump_txt")
+WIKI = FANDOM  # ancien nom, gardé pour init_wiki.py
+# wiki/ : notre wiki (copie du Fandom éditée au fil du projet, voir docs/WIKI.md) ; c'est lui que les outils lisent
+OUR_WIKI = os.path.join(ROOT, "wiki")
+OUR_MAIN = os.path.join(OUR_WIKI, "Main")
 SPRITES = os.path.join(ROOT, "fandom_sprites")
 CALAMITY = os.path.join(ROOT, "CalamityModPublic")
 LOCALIZATION = os.path.join(CALAMITY, "Localization", "en-US")
@@ -78,6 +80,21 @@ def file_to_title(stem):
     t = t.replace("_ ", ": ")              # Godseeker_ Yharim -> Godseeker: Yharim
     t = t.replace("_", "/")                # Recipes_Anvil -> Recipes/Anvil
     return t
+
+
+MODE_RE = re.compile(r"\{\{\s*mode\s*\|([^{}|]*)\|([^{}|]*)\}\}", re.I)
+
+
+def pick_mode(raw, mode):
+    """Résout {{mode|valeur Full Fandom|valeur Calamity++}} (wiki/Template/Template_Mode.txt) pour mode « fandom » ou
+    « plus » ; un texte sans {{mode}} est renvoyé tel quel (même valeur dans les deux modes)."""
+    if raw is None:
+        return None
+    return MODE_RE.sub(lambda m: (m.group(1) if mode == "fandom" else m.group(2)).strip(), raw)
+
+
+def has_mode(raw):
+    return bool(raw and MODE_RE.search(raw))
 
 
 def norm(name):
@@ -282,22 +299,18 @@ def main():
     sprites = {norm(os.path.splitext(f)[0]): f for f in os.listdir(SPRITES)}
     implemented = load_implemented()
 
-    # Priorité : wiki_edits/ (nos corrections) > fandom_dump_extra/Main (pages perdues du dump) > dump d'origine
-    sources = {f: WIKI for f in os.listdir(WIKI) if f.endswith(".txt")}
-    if os.path.isdir(EXTRA_MAIN):
-        sources.update({f: EXTRA_MAIN for f in os.listdir(EXTRA_MAIN) if f.endswith(".txt")})
-    if os.path.isdir(EDITS):
-        sources.update({f: EDITS for f in os.listdir(EDITS) if f.endswith(".txt")})
-
+    # Notre wiki : wiki/Main ; titres exacts dans wiki/index.json. « edited » = différente de la page du Fandom.
+    titles = json.load(open(os.path.join(OUR_WIKI, "index.json"), encoding="utf-8"))
     index = {}
-    for fname in sorted(sources):
+    for fname in sorted(f for f in os.listdir(OUR_MAIN) if f.endswith(".txt")):
         stem = fname[:-4]
-        text = open(os.path.join(sources[fname], fname), encoding="utf-8", errors="replace").read()
+        text = open(os.path.join(OUR_MAIN, fname), encoding="utf-8", errors="replace").read()
         page = parse_page(text)
-        title = file_to_title(stem)
+        title = titles.get(f"Main/{fname}") or file_to_title(stem)
         page["file"] = fname
         page["title"] = title
-        if sources[fname] == EDITS:
+        original = os.path.join(FANDOM, fname)
+        if not os.path.exists(original) or open(original, encoding="utf-8", errors="replace").read() != text:
             page["edited"] = True
         if fname in implemented:
             page["implemented"] = implemented[fname]
@@ -362,7 +375,7 @@ def write_reports(index):
         f.write(f"| contenu inconnu de Calamity avec infobox | {len(new)} |\n")
         f.write(f"| dont avec sprite trouvé | {sum(1 for p in new if p.get('sprite'))} |\n")
         f.write(f"| pages marquées addon / fantag | {len(addons)} |\n")
-        f.write(f"| pages corrigées/créées dans wiki_edits/ | {sum(1 for p in pages if p.get('edited'))} |\n")
+        f.write(f"| pages de wiki/ modifiées ou créées par rapport au Fandom | {sum(1 for p in pages if p.get('edited'))} |\n")
         f.write(f"| **pages implémentées dans le mod** | **{sum(1 for p in pages if p.get('implemented'))}** |\n\n")
         f.write("## Types d'infobox (contenu nouveau)\n\n| Type | Nombre |\n|---|---|\n")
         for t, n in collections.Counter((p.get("type") or "?") for p in new).most_common():

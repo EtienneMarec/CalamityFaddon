@@ -28,7 +28,7 @@ ne change rien à la question des assets pour une publication, mais trouver un i
 | Recettes du jeu absentes du wiki | désactivées | conservées | conservées |
 | Butin du jeu absent de la page du PNJ | retiré | conservé | conservé |
 | Effets d'éléments | à chaque coup | à chaque coup | avec une chance (`Balance/elements.json`) |
-| Pages incohérentes (`wiki_edits/`) | non (le wiki tel quel) | oui | oui |
+| Pages corrigées dans `wiki/` | valeur d'origine (1re de `{{mode}}`) | valeur corrigée | valeur corrigée |
 | Noms, vocabulaire, éléments, matériaux, butin ajouté | oui | oui | oui (équilibrage possible) |
 
 « Masqué » ne détruit rien : un objet masqué présent dans un inventaire reste là, il n'est simplement plus obtenable.
@@ -39,7 +39,7 @@ Les PNJ créés en combat ne sont jamais supprimés (un boss retravaillé peut d
 - [x] Config + verrou par monde, auto-test des trois modes
 - [x] Full Fandom : masquage (`WikiData/baseline.json`, `tools/gen_baseline.py`), stats extrêmes, recettes et butin hors wiki retirés
 - [x] Calamity++ : couche `Balance/stats.json` (vide : l'équilibrage reste à faire)
-- [ ] `wiki_edits/` ignoré en Full Fandom (aucune page corrigée pour l'instant, donc sans effet)
+- [x] Notre wiki `wiki/` avec `{{mode|Full Fandom|Calamity++}}` (`docs/WIKI.md`) ; lu par les stats
 - [ ] Portage du contenu retiré : 265 objets/PNJ avec page wiki (`reports/baseline.md`) — outil `tools/legacy_extract.py`
       prêt, 1 fait (Night's Gaze), méthode dans CLAUDE.md
 - [ ] Calamity++ : recettes, butin, éléments équilibrés (mêmes principes de couches)

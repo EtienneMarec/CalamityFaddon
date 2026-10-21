@@ -4,11 +4,12 @@ Addon tModLoader pour Calamity Mod (v2.2.2, **version finale** : le développeme
 devenu après le départ de la communauté vers wiki.gg (pages vandalisées, inventées, renommées). Le wiki est la
 spécification ; le code de Calamity est le point de départ.
 
-## Sources (lecture seule, jamais modifiées, jamais empaquetées)
+## Sources (jamais empaquetées ; seul `wiki/` se modifie)
 
 | Dossier | Contenu |
 |---|---|
-| `fandom_dump_txt/` | 8643 pages en wikitexte. Nom de fichier = titre avec `'` → `_s`, `(x)` → `_x_`, `:` → `_`, `/` → `_` |
+| `wiki/` | **Notre wiki** (copie du Fandom éditée, décrit le mod dans ses deux modes) : c'est lui que lisent les outils. Voir `docs/WIKI.md` |
+| `fandom_dump_txt/` | Le wiki Fandom d'origine, référence du mode Full Fandom : 8643 pages en wikitexte. Nom de fichier = titre avec `'` → `_s`, `(x)` → `_x_`, `:` → `_`, `/` → `_` |
 | `fandom_dump_extra/` | Complément téléchargé par `tools/fetch_missing_pages.py` : `Main/` = 18 pages que Windows avait écrasées dans le dump (titres identiques à la casse près, ex. *Death Mode*, *Statigel armor*) ; `Template/`, `Guide/` (dont **Mod progression** et des stratégies de boss inventés), `Category/`, `User/`, `Talk/`, `Module/`... ; `index.json` = titre → fichier |
 | `fandom_sprites/` | ~8500 médias. **Les `.png`/`.gif` sont en réalité du WebP** : passer par `tools/import_sprite.py` |
 | `CalamityModPublic/` | Source de Calamity, même version que la DLL de `lib/` |
@@ -106,8 +107,8 @@ Tester les trois couches : `python tools/selftest.py --mode all`. Référence «
 
 1. Regarder son entrée dans `data/wiki_index.json` (statut, classe Calamity, écarts, sprite).
 2. Lire la page entière : infobox, texte, *Notes*, *Trivia* — les comportements sont souvent décrits seulement en prose.
-3. Modèles : un `{{Nom}}` dans la page renvoie à `fandom_dump_extra/Template/Template_Nom.txt` (navbox, listes).
-   Recettes : `fandom_dump_txt/Recipes_<station>_register.txt` (blocs `{{recipes/register | result = ...}}`).
+3. Modèles : un `{{Nom}}` dans la page renvoie à `wiki/Template/Template_Nom.txt` (navbox, listes).
+   Recettes : `wiki/Main/Recipes_<station>_register.txt` (blocs `{{recipes/register | result = ...}}`).
    Butin : dans l'infobox du PNJ (lignes `| Objet|quantité|chance`).
 4. Selon le statut :
    - `new` → nouvelle classe dans `Content/`, rangée comme dans Calamity (`Content/Items/Weapons/Melee/...`).
@@ -131,9 +132,10 @@ concerné, avec son marqueur : **[validé]** (tranché avec l'utilisateur, avec 
 ## Quand le wiki est incohérent
 
 Le wiki se contredit souvent (Godseeker Yharim à « 3 PV », Desert Scourge boss Hardmode à 350 000 PV, etc.).
-On a le droit de **corriger ou créer des pages** : copier la page dans `wiki_edits/` sous le même nom de fichier,
-la modifier, et noter la décision dans `docs/decisions.md` (page, problème, choix). `wiki_index.py` lit
-`wiki_edits/` en priorité. Ne jamais toucher à `fandom_dump_txt/`.
+On a le droit de **corriger ou créer des pages** : directement dans `wiki/` (le diff Git par rapport au commit
+`c27190c` montre tout ce qui a changé), en notant le pourquoi dans `docs/decisions.md`. Quand Full Fandom et
+Calamity++ diffèrent : `{{mode|valeur Full Fandom|valeur Calamity++}}` (`docs/WIKI.md`). Ne jamais toucher à
+`fandom_dump_txt/`.
 
 ## Conventions
 

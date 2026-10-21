@@ -16,7 +16,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from wiki_index import ROOT, WIKI, EDITS, EXTRA_MAIN, INFOBOX_RE, extract_template  # noqa: E402
+from wiki_index import ROOT, OUR_MAIN, INFOBOX_RE, extract_template  # noqa: E402
 from gen_recipes import split_all, clean_name  # noqa: E402
 
 OUT = os.path.join(ROOT, "WikiData", "loot.json")
@@ -98,10 +98,7 @@ def parse_drops(positional):
 
 
 def main():
-    sources = {f: WIKI for f in os.listdir(WIKI) if f.endswith(".txt")}
-    for folder in (EXTRA_MAIN, EDITS):
-        if os.path.isdir(folder):
-            sources.update({f: folder for f in os.listdir(folder) if f.endswith(".txt")})
+    sources = {f: OUR_MAIN for f in os.listdir(OUR_MAIN) if f.endswith(".txt")}
     index = {p["file"]: p for p in json.load(open(os.path.join(ROOT, "data", "wiki_index.json"), encoding="utf-8")).values()}
 
     npcs, problems, conditional = {}, {}, []

@@ -21,7 +21,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from wiki_index import ROOT, load_calamity_classes  # noqa: E402
+from wiki_index import ROOT, has_mode, load_calamity_classes, pick_mode  # noqa: E402
 from gen_baseline import BASELINE, BASELINE_NAME, classes_at, sources_at  # noqa: E402
 
 OUT = os.path.join(ROOT, "WikiData", "stats.json")
@@ -88,6 +88,22 @@ def npc_code(text):
     }
 
 
+# Champ C# -> champ d'infobox du wiki
+ITEM_WIKI_FIELD = {"damage": "damage", "useAnimation": "use", "knockBack": "knockback", "crit": "critical",
+                   "shootSpeed": "velocity", "mana": "mana", "defense": "defense", "rare": "rare", "value": "sell"}
+
+
+def item_value(k, raw):
+    """Valeur C# d'un champ d'objet à partir du texte de l'infobox (mêmes conversions que pour le cas général)."""
+    if k == "value":
+        copper = sell_copper(raw)
+        return None if copper is None else copper * 5
+    v = number(raw)
+    if v is not None and k == "crit":
+        v = max(0.0, v - 4)
+    return v
+
+
 def extreme(wiki, code):
     if code is None or wiki is None:
         return False
@@ -108,7 +124,7 @@ def main():
     old_texts = sources_at(BASELINE, [path for _, path in old_classes.values()])
 
     items, npcs, full_items, full_npcs = {}, {}, {}, {}
-    era, pending, decided, unverified = [], [], [], []
+    era, pending, decided, unverified, explicit = [], [], [], [], []
 
     def place(cls, page, k, value, target, layer_all, layer_full):
         layer = layer_full if target == "full" else layer_all
@@ -119,7 +135,8 @@ def main():
             continue
         if page["title"] in by_code:
             continue  # comportement géré dans le code C# (ex. Ravager / Meatmetal Sans)
-        f = page["fields"]
+        raw_fields = page["fields"]
+        f = {k: pick_mode(v, "plus") for k, v in raw_fields.items()}
         for match in page.get("calamity", []):
             cls = match["class"]
             if cls not in classes:
@@ -173,6 +190,16 @@ def main():
                     if w is None:
                         continue
                     c = code.get(k)
+                    raw = raw_fields.get(ITEM_WIKI_FIELD[k])
+                    if has_mode(raw):
+                        # {{mode|Full Fandom|Calamity++}} : décision écrite sur la page, prioritaire sur les règles
+                        explicit.append((page["title"], cls, k))
+                        if c is None or abs(c - w) > 1e-6:
+                            items.setdefault(cls, {"page": page["file"]})[k] = int(w) if k not in ("knockBack", "shootSpeed") else w
+                        full = item_value(k, pick_mode(raw, "fandom"))
+                        if full is not None and abs(full - w) > 1e-6:
+                            full_items.setdefault(cls, {"page": page["file"]})[k] = int(full) if k not in ("knockBack", "shootSpeed") else full
+                        continue
                     if c is not None and abs(c - w) < 1e-6:
                         continue  # identique au code : rien à faire
                     if c is None and k in ("damage", "useAnimation"):
@@ -185,6 +212,14 @@ def main():
                 old = npc_code(old_text) if old_text else {}
                 for k in ("life", "damage"):
                     w, c = number(f.get(k)), code.get(k)
+                    if has_mode(raw_fields.get(k)) and w is not None and c:
+                        explicit.append((page["title"], cls, k))
+                        if abs(w - c) > 1e-6:
+                            npcs.setdefault(cls, {"page": page["file"]})[k + "Ratio"] = round(w / c, 4)
+                        full = number(pick_mode(raw_fields.get(k), "fandom"))
+                        if full is not None and abs(full - w) > 1e-6:
+                            full_npcs.setdefault(cls, {"page": page["file"]})[k + "Ratio"] = round(full / c, 4)
+                        continue
                     if w is None or c is None or c == 0 or abs(w - c) < 1e-6:
                         continue
                     place(cls, page, k + "Ratio", round(w / c, 4), target_for(k, w, c, old.get(k)), npcs, full_npcs)
@@ -215,6 +250,7 @@ def main():
         fh.write(f"- {len(era)} valeurs identiques à Calamity {BASELINE_NAME} : Full Fandom seulement (ce n'est que l'ancien Calamity).\n")
         fh.write(f"- {len(decided)} écarts extrêmes tranchés avec l'utilisateur (`tools/stats_decisions.json`).\n")
         fh.write(f"- **{len(pending)} écarts extrêmes (> x{MAX_RATIO:g}) à trancher** : Full Fandom seulement en attendant.\n")
+        fh.write(f"- {len(explicit)} valeurs fixées sur les pages de wiki/ avec {{{{mode|Full Fandom|Calamity++}}}}.\n")
         fh.write(f"- Gérés dans le code : {', '.join(sorted(by_code)) or 'aucun'}.\n\n")
         fh.write("## Écarts extrêmes à trancher\n\n" + (table(pending) if pending else "Aucun.\n"))
         fh.write("\n## Écarts extrêmes tranchés\n\n" + table(decided, "Où"))

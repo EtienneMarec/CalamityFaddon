@@ -7,6 +7,7 @@ _Généré par `tools/gen_stats.py`._ Règles : `docs/decisions.md`, section « 
 - 858 valeurs identiques à Calamity 2.0.1.005 : Full Fandom seulement (ce n'est que l'ancien Calamity).
 - 24 écarts extrêmes tranchés avec l'utilisateur (`tools/stats_decisions.json`).
 - **0 écarts extrêmes (> x5) à trancher** : Full Fandom seulement en attendant.
+- 0 valeurs fixées sur les pages de wiki/ avec {{mode|Full Fandom|Calamity++}}.
 - Gérés dans le code : Ravager.
 
 ## Écarts extrêmes à trancher

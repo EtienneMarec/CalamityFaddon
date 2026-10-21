@@ -22,6 +22,7 @@ from wiki_index import ROOT, SPRITES  # noqa: E402
 
 CUSTOM = os.path.join(ROOT, "wiki_sprites_custom")
 from gen_stats import number, sell_copper  # noqa: E402
+from gen_localization import flatten_file  # noqa: E402
 
 OUT = os.path.join(ROOT, "WikiData", "items.json")
 ASSETS = os.path.join(ROOT, "Assets", "WikiItems")
@@ -133,8 +134,10 @@ def main():
 
     with open(OUT, "w", encoding="utf-8") as fh:
         json.dump({"_generated_by": "tools/gen_items.py", "materials": items}, fh, ensure_ascii=False, indent=1)
-    with open(LOC, "w", encoding="utf-8") as fh:
-        fh.write(hjson.dumps(loc, indent="\t", ensure_ascii=False) + "\n")
+    # tModLoader reformate ce fichier à son chargement : on ne le réécrit que si le contenu change vraiment
+    if not os.path.exists(LOC) or flatten_file(LOC) != {f"{k}.{f}": v for k, e in loc.items() for f, v in e.items()}:
+        with open(LOC, "w", encoding="utf-8") as fh:
+            fh.write(hjson.dumps(loc, indent="\t", ensure_ascii=False) + "\n")
     # Sprites d'objets qui ne sont plus générés
     names = {i["name"] + ".png" for i in items}
     for stale in set(os.listdir(ASSETS)) - names:
