@@ -54,6 +54,7 @@ namespace CalamityFandom.Common.Debug
             CheckLoot();
             CheckLegacy();
             CheckDebugItems();
+            CheckRecipeConditions();
             foreach (var check in ExtraChecks)
                 check(this);
 
@@ -250,6 +251,17 @@ namespace CalamityFandom.Common.Debug
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == zwei && r.requiredItem.Any(i => i.type == gaze)),
                 "la recette de Zweihandromeda demande Night's Gaze");
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == gaze), "Night's Gaze a une recette");
+        }
+
+        private void CheckRecipeConditions()
+        {
+            // Recette de Calamity verrouillée (palier 1 de l'arsenal de Draedon) et modifiée par le wiki : la condition reste
+            if (ModContent.TryFind<ModItem>("CalamityMod", "DecryptionComputer", out var computer))
+            {
+                var recipes = Main.recipe.Take(Recipe.numRecipes).Where(r => !r.Disabled && r.createItem.type == computer.Type).ToList();
+                Expect(recipes.Count > 0 && recipes.All(r => r.Conditions.Count > 0),
+                    $"Decryption Computer garde sa condition de palier : {string.Join(", ", recipes.Select(r => r.Conditions.Count))}");
+            }
         }
 
         private void CheckDebugItems()

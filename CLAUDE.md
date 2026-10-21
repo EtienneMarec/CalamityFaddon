@@ -110,6 +110,8 @@ Tester les trois couches : `python tools/selftest.py --mode all`. Référence «
 
 1. Regarder son entrée dans `data/wiki_index.json` (statut, classe Calamity, écarts, sprite).
 2. Lire la page entière : infobox, texte, *Notes*, *Trivia* — les comportements sont souvent décrits seulement en prose.
+   Les références internes ne sont pas toujours en lien `[[...]]` alors que la page existe : chercher aussi les noms
+   en texte brut (pour savoir si le wiki connaît un objet, toujours chercher dans le texte, pas seulement les liens).
 3. Modèles : un `{{Nom}}` dans la page renvoie à `wiki/Template/Template_Nom.txt` (navbox, listes).
    Recettes : `wiki/Main/Recipes_<station>_register.txt` (blocs `{{recipes/register | result = ...}}`).
    Butin : dans l'infobox du PNJ (lignes `| Objet|quantité|chance`).

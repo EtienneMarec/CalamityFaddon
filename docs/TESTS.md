@@ -60,13 +60,20 @@ Contrôlé automatiquement par `tools/selftest.py` (toutes les valeurs du JSON).
 ### 1.3 Recettes du wiki (`WikiData/recipes.json`, bilan dans `reports/recipes.md`)
 
 Chaque recette changée est vérifiée par l'auto-test ; en jeu, contrôler surtout le comportement :
-- [ ] Aerospec Breastplate : 11 Aerialite Bar, 10 Cloud, 5 Rain Cloud, 2 Feather au **Sky Mill**
-- [ ] Abyss Candle : Lumenyl au lieu de Torch
-- [ ] Une recette avec groupe « A/B » du wiki (chercher « / » dans `reports/recipes.md`) accepte bien les deux objets
-- [ ] Une recette d'origine absente du wiki est toujours là (ex. Acidwood depuis Acidwood Wall)
-- [ ] Les recettes de Calamity à condition (ex. objets Draedon, Revengeance) gardent leurs conditions
-- [ ] Shimmer : une transmutation du wiki fonctionne (liste dans `WikiData/recipes.json` → `shimmer`)
-- [ ] Le guide (« Guide → objets craftables ») ne plante pas et affiche les nouvelles recettes
+- [x] Aerospec Breastplate : 11 Aerialite Bar, 10 Cloud, 5 Rain Cloud, 2 Feather au **Sky Mill**
+- [x] Abyss Candle : Lumenyl au lieu de Torch
+- [ ] Une recette avec groupe « A/B » accepte les deux objets. Exemple : **Crystal of the Wicked** (« Shadow Scale /
+      Tissue Sample ») : le jeu n'affiche que l'objet représentatif du groupe (Shadow Scale), comme « Any Iron Bar ».
+      Tester : avoir des **Tissue Sample** et aucune Shadow Scale (+ le reste) → la recette doit être fabricable ; le
+      survol de l'ingrédient affiche « Shadow Scale / Tissue Sample »
+- [ ] **En Calamity++** : une recette d'origine absente du wiki est toujours là (ex. Acidwood depuis Acidwood Wall).
+      (En Full Fandom elle disparaît : vérifié le 21/10.)
+- [ ] Les recettes de Calamity à condition gardent leur condition. Exemple : **Decryption Computer** (recette modifiée
+      par le wiki : 10 Dubious Plating, 10 Any Copper Bar, 15 Glass à l'enclume) est verrouillée au palier 1 de
+      l'arsenal de Draedon : dans un monde neuf, la recette affiche sa condition et n'est pas fabricable ; après
+      avoir utilisé une **Schematic (Sunken Sea)** (Cheat Sheet), elle le devient
+- [x] Shimmer : une transmutation du wiki fonctionne (Unpurified Gel) (liste dans `WikiData/recipes.json` → `shimmer`)
+- [x] Le guide (« Guide → objets craftables ») ne plante pas et affiche les nouvelles recettes
 
 ### 1.4 Système d'éléments (`Common/Elements/`, `WikiData/elements.json`)
 
