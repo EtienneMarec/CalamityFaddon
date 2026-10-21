@@ -19,13 +19,9 @@ namespace CalamityFandom.Common.Elements
             Main.debuff[Type] = true;
             Main.buffNoSave[Type] = true;
             ElementData.StatusBuffs[(int)Element] = Type;
-            // Affiché au-dessus des boss avec les debuffs de Calamity (option « Debuff Display » de Calamity)
-            int type = Type;
-            CalamityMod.NPCs.CalamityGlobalNPC.moddedDebuffTextureList.Add((Texture, npc => npc.HasBuff(type)));
+            // Volontairement absent de l'affichage de debuffs de Calamity (décision du 21/10 : trop chargé à l'écran) ;
+            // le retour visuel passe par les particules et la teinte (ElementGlobalNPC.DrawEffects)
         }
-
-        public override void Unload() =>
-            CalamityMod.NPCs.CalamityGlobalNPC.moddedDebuffTextureList.RemoveAll(entry => entry.Item1 == Texture);
 
         public override void Update(NPC npc, ref int buffIndex)
         {

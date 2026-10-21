@@ -27,6 +27,7 @@ ne change rien à la question des assets pour une publication, mais trouver un i
 | Stats du wiki | toutes, y compris les valeurs de 2022 | propres au wiki (extrêmes : au cas par cas) | Minimal + `Balance/stats.json` |
 | Recettes du jeu absentes du wiki | désactivées | conservées | conservées |
 | Butin du jeu absent de la page du PNJ | retiré | conservé | conservé |
+| Effets d'éléments | à chaque coup | à chaque coup | avec une chance (`Balance/elements.json`) |
 | Pages incohérentes (`wiki_edits/`) | non (le wiki tel quel) | oui | oui |
 | Noms, vocabulaire, éléments, matériaux, butin ajouté | oui | oui | oui (équilibrage possible) |
 

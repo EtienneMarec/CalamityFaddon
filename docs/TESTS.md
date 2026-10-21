@@ -18,9 +18,9 @@ Astuces : Cheat Sheet / Hero's Mod pour faire apparaître objets et PNJ ; `/calf
 - [x] Coups alternés : un vers le bas, le même vers le haut, orientés vers le curseur
 - [x] Des étoiles (Stratus Star) tombent du ciel sur l'ennemi touché
 - [x] L'ennemi touché reçoit le debuff Moon Burnt (= Nightwither de Calamity), 3 s, particules violettes
-- [ ] L'icône du debuff Moon Burnt est celle du wiki (flamme bleue), plus celle de Calamity (`Assets/Overrides/`)
+- [x] L'icône du debuff Moon Burnt est celle du wiki (flamme bleue), plus celle de Calamity (`Assets/Overrides/`)
       KO (21/10) : l'icône au-dessus des boss venait de l'affichage de Calamity, qui ne passait pas par le remplacement.
-      Corrigé : retester sur un boss et dans ta barre de buffs avec la Fandom Test Vial (voir 1.1)
+      Corrigé et validé le 21/10
 - [x] Recette au Cosmic Anvil : Stratus Sphere, Galileo Gladius, Crescent Moon, **Night's Gaze**, 25 Lumenyl,
       37 Depth Cells, 4 Ascendant Spirit Essence, 8 Auric Bar (recette du wiki, voir 2.1)
 
@@ -34,13 +34,13 @@ Astuces : Cheat Sheet / Hero's Mod pour faire apparaître objets et PNJ ; `/calf
 - [x] Murasama s'appelle **Graydron**
 - [x] Uelibloom Bar/Ore → **Tarragon Bar/Ore** ; Uelibloom Brick garde son nom
 - [x] Astrum Deus (boss, barre de vie, sac, trophée, masque) → **Astral Deus** ; Hide of Astrum Deus garde son nom
-- [ ] Nightwither → **Moon Burnt** : le jeu n'affiche pas les debuffs d'un ennemi au survol. Prendre la
+- [x] Nightwither → **Moon Burnt** : le jeu n'affiche pas les debuffs d'un ennemi au survol. Prendre la
       **Fandom Test Vial** (Cheat Sheet, objet de debug) : clic droit pour choisir « Moon Burnt », clic gauche pour
       se l'appliquer → nom « Moon Burnt », icône bleue du wiki et description dans ta barre de buffs
 - [x] Rogue Emblem → **Spy Emblem** ; infobulles des armes rogue : « spy damage », « Spy » au lieu de « Rogue »
 - [x] Contrôles : « Covering Ability 1..7 » au lieu de « Accessory Ability »
 - [x] Draconic Swarmer (invoqué par la Dragonfolly) → **Tempest Toddler**
-- [ ] Les textes réécrits gardent leurs mises en forme : survoler **Chalice of the Blood God** → la ligne
+- [x] Les textes réécrits gardent leurs mises en forme : survoler **Chalice of the Blood God** → la ligne
       « Grants immunity to Bleeding, Burning Blood... » montre les noms de debuffs en couleur (pas de texte brut
       du genre `[cbuffplr:Bleeding]`), et la phrase dit « this covering » au lieu de « this accessory »
 
@@ -74,7 +74,9 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
 - [ ] Zweihandromeda : « Elements: Dark, Magic, Stab »
 - [ ] Frapper un Aero Slime (vulnérable Fire/Dark) avec une arme Fire : texte « Vulnerable! », dégâts doublés
 - [ ] Avec une arme Poison sur l'Aero Slime : texte « Resisted », pas de debuff Envenomed
-- [ ] Les debuffs apparaissent sur l'ennemi (icônes d'éléments du wiki), avec particules colorées
+- [ ] Effets d'éléments sans icône au-dessus des ennemis : particules propres à l'élément (glace pour Cold, sang pour
+      Stab/Slash, étincelles pour Electricity, fumée sombre pour Dark...) et légère teinte de l'ennemi
+- [ ] Full Fandom : chaque coup applique tous les effets ; Calamity++ : seulement de temps en temps (25 % / 15 %)
 - [ ] Un ennemi Chilled/Shocked est visiblement ralenti ; un boss l'est moins
 - [ ] Les projectiles d'une arme élémentaire (arc, bâton) appliquent aussi les effets
 - [ ] Multijoueur (si possible) : les debuffs se voient chez les deux joueurs
@@ -123,9 +125,9 @@ Contrôlé par `python tools/selftest.py --mode all`. En jeu :
 
 ### 2.2 Décisions du 21/10 : stats par mode, Meatmetal Sans, outils de test
 
-- [ ] **Fandom Test Vial** (Cheat Sheet) : clic droit = debuff suivant (nom affiché), clic gauche = appliqué à toi et à
+- [x] **Fandom Test Vial** (Cheat Sheet) : clic droit = debuff suivant (nom affiché), clic gauche = appliqué à toi et à
       l'ennemi le plus proche (message dans le chat). Liste : Moon Burnt, Marked, puis les 15 statuts d'éléments
-- [ ] Sur un boss (option « Debuff Display » de Calamity activée) : les statuts d'éléments s'affichent au-dessus de lui
+- [ ] Sur un boss : Moon Burnt garde son icône du wiki au-dessus de lui, mais **pas** d'icône d'élément
 
 - [ ] Ravager (Meatmetal Sans) : il faut exactement 23 coups pour le tuer, chaque coup ne retire qu'1 PV
 - [ ] Il « esquive » : les coups rapprochés (moins de 0,5 s) ne comptent pas

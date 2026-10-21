@@ -46,10 +46,29 @@ namespace CalamityFandom.Common.Elements
         public static List<string> UnresolvedItems { get; } = new();
         public static List<string> UnresolvedNPCs { get; } = new();
 
+        private class BalanceFile
+        {
+            public Dictionary<string, float> ProcChance { get; set; } = new();
+        }
+
+        /// <summary>
+        /// Chance qu'un coup inflige l'effet d'un élément : 100 % (le wiki : « weapons inflict effects characteristic of
+        /// their element »), sauf en Calamity++ où Balance/elements.json la fixe par élément.
+        /// </summary>
+        public static readonly float[] ProcChance = Enumerable.Repeat(1f, ElementInfo.Count).ToArray();
+
         public override void Load()
         {
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             data = JsonSerializer.Deserialize<ElementsFile>(Mod.GetFileBytes("WikiData/elements.json"), options);
+            Array.Fill(ProcChance, 1f);
+            if (Config.FandomMode.IsPlus && Mod.FileExists("Balance/elements.json"))
+            {
+                var balance = JsonSerializer.Deserialize<BalanceFile>(Mod.GetFileBytes("Balance/elements.json"), options);
+                foreach (var (name, chance) in balance.ProcChance)
+                    if (Enum.TryParse<Element>(name, true, out var e))
+                        ProcChance[(int)e] = Math.Clamp(chance, 0f, 1f);
+            }
         }
 
         public override void Unload()

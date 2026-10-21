@@ -21,7 +21,11 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 
 - **Plusieurs éléments sur une arme** : multiplicateurs multipliés entre eux (feu vulnérable + poison résistant =
   neutre), bornés entre x0,25 et x4.
-- **Statut** : chaque coup applique 2 s du statut de chaque élément de l'arme (sauf PNJ résistant, immunisé).
+- **Statut** : 2 s du statut de chaque élément de l'arme (sauf PNJ résistant, immunisé). Full Fandom : à chaque coup.
+  Calamity++ : avec une chance par coup (`Balance/elements.json` : 25 % dégâts sur la durée, 15 % contrôles), décidé le
+  21/10 car « tous d'un coup c'est déséquilibré ».
+- **Pas d'icône** au-dessus des ennemis (trop chargé à l'écran) : particules propres à chaque élément (glace, sang,
+  étincelles, fumée sombre...) et légère teinte de l'ennemi.
   Wind et Bomb n'ont pas de statut durable : leurs effets s'appliquent au coup.
 - **Dégâts sur la durée** par palier de progression (pré-Hardmode / Hardmode / après Moon Lord) :
   Holy, Unholy 10/30/100 ; Radioactive, Slash 8/25/80 ; Fire, Electricity 6/20/60 ; Poison 5/15/45 ;

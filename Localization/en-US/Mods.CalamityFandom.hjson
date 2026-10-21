@@ -12,7 +12,7 @@ Items: {
 			Left click: inflicts the selected debuff on you and on the nearest enemy (10 seconds)
 			Right click: selects the next debuff
 			'''
-		Selected: "Selected debuff: {0}"
+		Selected: Selected debuff: {0}
 		Applied: "{0} applied to you and to: {1}"
 	}
 

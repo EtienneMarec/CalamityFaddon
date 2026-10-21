@@ -68,18 +68,29 @@ namespace CalamityFandom.Common.Elements
                 npc.position -= npc.velocity * slow;
         }
 
+        /// <summary>
+        /// Retour visuel des statuts, sans icône (décision du 21/10) : particules propres à chaque élément et légère teinte
+        /// de l'ennemi (couleurs mélangées si plusieurs éléments).
+        /// </summary>
         public override void DrawEffects(NPC npc, ref Color drawColor)
         {
+            Vector3 tint = Vector3.Zero;
+            int active = 0;
             for (int i = 0; i < NPC.maxBuffs; i++)
             {
-                if (npc.buffTime[i] > 0 && ModContent.GetModBuff(npc.buffType[i]) is ElementStatus status && Main.rand.NextBool(6))
+                if (npc.buffTime[i] <= 0 || ModContent.GetModBuff(npc.buffType[i]) is not ElementStatus status)
+                    continue;
+                tint += ElementInfo.Colors[(int)status.Element].ToVector3();
+                active++;
+                if (Main.rand.NextBool(5))
                 {
-                    var dust = Dust.NewDustDirect(npc.position, npc.width, npc.height, DustID.TintableDustLighted, 0f, -1f, 100,
-                        ElementInfo.Colors[(int)status.Element], 1.1f);
-                    dust.noGravity = true;
+                    var dust = Dust.NewDustDirect(npc.position, npc.width, npc.height, ElementInfo.Dusts[(int)status.Element], 0f, -1f, 100, default, 1.1f);
+                    dust.noGravity = status.Element is not (Element.Stab or Element.Slash); // le sang tombe
                     dust.velocity *= 0.4f;
                 }
             }
+            if (active > 0)
+                drawColor = Color.Lerp(drawColor, new Color(tint / active).MultiplyRGBA(drawColor), 0.35f);
         }
 
         public override void ModifyIncomingHit(NPC npc, ref NPC.HitModifiers modifiers)
@@ -146,7 +157,7 @@ namespace CalamityFandom.Common.Elements
             foreach (var e in elements)
             {
                 int buff = ElementData.StatusBuffs[(int)e];
-                if (buff >= 0)
+                if (buff >= 0 && Main.rand.NextFloat() < ElementData.ProcChance[(int)e])
                     npc.AddBuff(buff, ElementInfo.StatusTime); // ignoré si le PNJ est résistant (immunité)
             }
 

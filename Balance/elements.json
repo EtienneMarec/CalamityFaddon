@@ -1,0 +1,20 @@
+{
+  "_doc": "Équilibrage Calamity++ du système d'éléments (écrit à la main). procChance : chance qu'un coup inflige l'effet de chaque élément de l'arme (en Full Fandom : 100 %, tous les effets à chaque coup). Proposition du 21/10, à ajuster après les tests : 25 % pour les dégâts sur la durée, 15 % pour les contrôles (ralentir, désorienter, faire rater, affaiblir).",
+  "procChance": {
+    "Cold": 0.15,
+    "Fire": 0.25,
+    "Water": 0.25,
+    "Poison": 0.25,
+    "Acid": 0.25,
+    "Radioactive": 0.25,
+    "Electricity": 0.25,
+    "Stab": 0.25,
+    "Slash": 0.25,
+    "Smash": 0.15,
+    "Magic": 0.25,
+    "Dark": 0.15,
+    "Holy": 0.25,
+    "Unholy": 0.25,
+    "Machine": 0.15
+  }
+}

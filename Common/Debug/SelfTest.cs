@@ -79,6 +79,9 @@ namespace CalamityFandom.Common.Debug
             // Valeur qui n'est que celle de Calamity 2.0.1.005 : Full Fandom seulement
             WikiStats.Items.TryGetValue("Starfleet", out var starfleet);
             Expect((starfleet?.Damage == 68) == full, $"Starfleet à 68 dégâts (valeur 2022, Full seulement) : {starfleet?.Damage}");
+            // Éléments : tous les effets à chaque coup en Full (et Minimal, sans équilibrage), chance en Calamity++
+            float coldChance = ElementData.ProcChance[(int)Element.Cold];
+            Expect(FandomMode.IsPlus ? coldChance == 0.15f : coldChance == 1f, $"chance de l'effet Cold : {coldChance}");
             // Ravager = Meatmetal Sans : 23 coups pour le tuer, dans tous les modes
             if (ModContent.TryFind<ModNPC>("CalamityMod", "RavagerBody", out var ravager))
                 Expect(ContentSamples.NpcsByNetId[ravager.Type].lifeMax == Common.NPCs.MeatmetalSans.HitsToKill,

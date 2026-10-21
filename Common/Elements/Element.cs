@@ -1,5 +1,6 @@
 using Microsoft.Xna.Framework;
 using Terraria;
+using Terraria.ID;
 
 namespace CalamityFandom.Common.Elements
 {
@@ -72,6 +73,28 @@ namespace CalamityFandom.Common.Elements
             new(Dps: new[] { 10, 30, 100 }),                                             // Holy : châtiment
             new(Dps: new[] { 10, 30, 100 }),                                             // Unholy : malédiction
             new(DamageDown: 0.10f),                                                      // Machine : enraye
+        };
+
+        /// <summary>Particules affichées sur un ennemi touché par l'élément (seul retour visuel : pas d'icône).</summary>
+        public static readonly int[] Dusts =
+        {
+            DustID.IceTorch,      // Cold
+            DustID.Torch,         // Fire
+            DustID.Cloud,         // Wind (pas de statut durable)
+            DustID.Water,         // Water
+            DustID.Poisoned,      // Poison
+            DustID.CursedTorch,   // Acid
+            DustID.GreenTorch,    // Radioactive
+            DustID.Electric,      // Electricity
+            DustID.Blood,         // Stab
+            DustID.Blood,         // Slash
+            DustID.Stone,         // Smash
+            DustID.Smoke,         // Bomb (pas de statut durable)
+            DustID.PinkTorch,     // Magic
+            DustID.Shadowflame,   // Dark
+            DustID.GoldFlame,     // Holy
+            DustID.CrimsonTorch,  // Unholy
+            DustID.Iron,          // Machine
         };
 
         public static string Hex(Element e) => Colors[(int)e].Hex3();
