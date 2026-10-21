@@ -3531,6 +3531,11 @@
    "rare": 1,
    "value": 10000
   },
+  "MartianDistressRemote": {
+   "page": "Martian Distress Beacon.txt",
+   "rare": 8,
+   "value": 500000
+  },
   "McNuggets": {
    "page": "McNuggets.txt",
    "rare": 15,
@@ -5949,6 +5954,11 @@
    "knockBack": 50.0,
    "rare": 16,
    "value": 2000000
+  },
+  "TheEtomer": {
+   "page": "Triboluminescent Etomer.txt",
+   "rare": 3,
+   "value": 40000
   },
   "TrinketofChi": {
    "page": "Trinket of Chi.txt",

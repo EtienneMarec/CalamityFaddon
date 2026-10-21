@@ -159,12 +159,20 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Le Ravager s'appelle **Meatmetal Sans** (boss, masque, trophée, relique, sac)
 - [ ] Ceaseless Void : 0 de défense
 
+### 2.3 Décision du 21/10 : contenu ancien cité nulle part
+
+- [ ] Full Fandom : **The Old Reaper** (ancienne arme de spy, citée nulle part sur le wiki) n'a plus de recette ni de
+      drop ; les **Astral / Sulphurous / Sunken Pylon** ne sont plus vendus (liste complète : `reports/baseline.md`,
+      section « Antérieurs, cités nulle part »)
+- [ ] Full Fandom : Acidwood Wall existe toujours (cité dans un changelog du wiki)
+- [ ] Renommages trouvés au passage : The Etomer → **Triboluminescent Etomer**, Martian Distress Remote → **Martian
+      Distress Beacon** (dans tous les modes)
+
 ---
 
 ## Décisions en attente (pas des tests)
 
 - [x] Écarts de stats extrêmes : tous tranchés (`tools/stats_decisions.json`)
 - [ ] Les chiffres du système d'éléments (`docs/decisions.md`) : à juger en jouant.
-- [ ] Full Fandom : cacher aussi les anciens objets (avant 2022) dont le wiki ne parle pas (67 sans aucune mention,
-      101 cités seulement dans le texte ou un changelog, comme Acidwood Wall) ?
+- [x] Full Fandom : anciens objets dont le wiki ne parle nulle part → masqués aussi (tranché le 21/10, tests en 2.3)
 - [ ] Les addons (Tranquility, Community Remix...) : voir `docs/ROADMAP.md`, phase 5.

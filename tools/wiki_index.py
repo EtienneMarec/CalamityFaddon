@@ -141,9 +141,9 @@ def norm(name):
 
 # --------------------------------------------------------------------------- Calamity
 
-def load_calamity_names():
-    """DisplayName -> liste de (catégorie de localisation, nom de classe)."""
-    names = collections.defaultdict(list)
+def calamity_display_names():
+    """Liste de (nom affiché brut, catégorie de localisation, nom de classe), depuis les hjson de Calamity."""
+    entries = []
     for path in glob.glob(os.path.join(LOCALIZATION, "Mods.CalamityMod.*.hjson")):
         category = os.path.basename(path)[len("Mods.CalamityMod."):-len(".hjson")]
         stack = []
@@ -151,7 +151,7 @@ def load_calamity_names():
             s = line.strip()
             m = re.match(r"^([\w.]+)\.DisplayName:\s*(.+)$", s)
             if m:
-                names[norm(m.group(2).strip('"'))].append((category, m.group(1).split(".")[-1]))
+                entries.append((m.group(2).strip('"'), category, m.group(1).split(".")[-1]))
                 continue
             m = re.match(r"^([\w.]+):\s*\{\s*$", s)
             if m:
@@ -162,7 +162,15 @@ def load_calamity_names():
                 continue
             m = re.match(r"^DisplayName:\s*(.+)$", s)
             if m and stack:
-                names[norm(m.group(1).strip('"'))].append((category, stack[-1].split(".")[-1]))
+                entries.append((m.group(1).strip('"'), category, stack[-1].split(".")[-1]))
+    return entries
+
+
+def load_calamity_names():
+    """DisplayName -> liste de (catégorie de localisation, nom de classe)."""
+    names = collections.defaultdict(list)
+    for display, category, cls in calamity_display_names():
+        names[norm(display)].append((category, cls))
     return names
 
 
@@ -377,6 +385,16 @@ def main():
             target.setdefault("renamed_from", []).append(page["title"])
             if "calamity" not in target:
                 attach_calamity(target, matches, cal_classes)
+    # Renommages sans redirection, vérifiés à la main (tools/glossary.json → renames, ex. The Etomer ->
+    # Triboluminescent Etomer) : la page n'est pas du nouveau contenu
+    glossary = json.load(open(os.path.join(ROOT, "tools", "glossary.json"), encoding="utf-8"))
+    for old, new in glossary["renames"].items():
+        matches = cal_names.get(norm(old), [])
+        target = by_title.get(norm(new))
+        if matches and target and target["status"] == "new":
+            target["status"] = "renamed"
+            target["renamed_from"] = [old]
+            attach_calamity(target, matches, cal_classes)
     # Plusieurs noms officiels vers une même page = page de regroupement (Beds, Aerospec armor...)
     for page in index.values():
         if page.get("status") == "renamed" and len(page["renamed_from"]) > 1:

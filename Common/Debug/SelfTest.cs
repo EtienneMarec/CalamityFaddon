@@ -36,6 +36,8 @@ namespace CalamityFandom.Common.Debug
             ("npc", "AstrumDeusHead", "Astral Deus"),
             ("npc", "DraconicSwarmer", "Tempest Toddler"),
             ("npc", "RavagerBody", "Meatmetal Sans"),
+            ("item", "TheEtomer", "Triboluminescent Etomer"),
+            ("item", "MartianDistressRemote", "Martian Distress Beacon"),
         };
 
         public override void PostSetupRecipes()
@@ -89,6 +91,11 @@ namespace CalamityFandom.Common.Debug
                 Expect(ContentSamples.NpcsByNetId[ravager.Type].lifeMax == Common.NPCs.MeatmetalSans.HitsToKill,
                     $"vie de Meatmetal Sans : {ContentSamples.NpcsByNetId[ravager.Type].lifeMax}");
             Expect((FullFandomHiding.HiddenItems.Count > 400) == full, $"objets masqués : {FullFandomHiding.HiddenItems.Count}");
+            // Contenu ancien : masqué s'il n'est cité nulle part (The Old Reaper), gardé s'il est cité en texte (Acidwood Wall)
+            if (ModContent.TryFind<ModItem>("CalamityMod", "TheOldReaper", out var reaper))
+                Expect(FullFandomHiding.HiddenItems.Contains(reaper.Type) == full, "The Old Reaper masqué en Full Fandom seulement");
+            if (ModContent.TryFind<ModItem>("CalamityMod", "AcidwoodWallItem", out var acidWall))
+                Expect(!FullFandomHiding.HiddenItems.Contains(acidWall.Type), "Acidwood Wall jamais masqué (cité dans un changelog)");
             if (full)
             {
                 var leaks = Main.recipe.Take(Recipe.numRecipes)

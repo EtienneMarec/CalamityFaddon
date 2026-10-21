@@ -22,6 +22,7 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Hive (Enemy) | Hiveling | Hiveling |
 | Hive (disambiguation) | Hive | Hive |
 | Marked | Marked for Death | MarkedforDeath |
+| Martian Distress Beacon | Martian Distress Remote | MartianDistressRemote |
 | Moon Burnt | Nightwither | Nightwither |
 | Parched Scale | Grand Scale | GrandScale |
 | Pristine Annihilation | Pristine Fury | PristineFury |
@@ -33,5 +34,6 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Tarragon Ore | Uelibloom Ore | UelibloomOre |
 | Tempest Toddler | Draconic Swarmer | DraconicSwarmer |
 | Trash Can (pet | Danny Devito | DannyDevito |
+| Triboluminescent Etomer | The Etomer | TheEtomer |
 | Victide Bar | Sea Remains | SeaRemains |
 | Wulfrum Bar | Wulfrum Metal Scrap | WulfrumMetalScrap |

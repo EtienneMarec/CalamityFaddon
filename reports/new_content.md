@@ -1398,7 +1398,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Youkai Miko — pas de sprite
 - [ ] Zeratros — addon: Calamity: Community Remix
 
-## Summoning (25)
+## Summoning (24)
 
 - [ ] Artificial Reactive Matter — addon: Calamity: Tales of the Aquatic
 - [ ] Astral Communicator — addon: Deimos, the Starborn Princess
@@ -1416,7 +1416,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Jungle Dragon Egg
 - [ ] Kos Fragment
 - [ ] Lantern Shard — addon: Calamity: Tales of the Aquatic
-- [ ] Martian Distress Beacon — addon: Deimos, the Starborn Princess
 - [ ] Nameless Fish of Light
 - [ ] Oddest Mushroom
 - [ ] Old Power Cell
@@ -1533,21 +1532,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] The Unimaginable Deity, Yald'xoroath — addon: Wrath of the God's
 - [ ] Vision of the Tyrant — addon: Calamity: Community Remix
 
-## Pet Summon (12)
-
-- [ ] Batfly Bait
-- [ ] Celestial Clump — addon: Deimos, the Starborn Princess
-- [ ] Cool Item — addon: Calamity: Tales of the Aquatic
-- [ ] Crystallised Stiriatic Chunk — addon: Calamity: Tales of the Aquatic
-- [ ] Cute Scales — addon: Calamity: Tales of the Aquatic
-- [ ] Disgusting Seawater
-- [ ] Elemental Delight — addon: Deimos, the Starborn Princess
-- [ ] Everflute
-- [ ] Heavy Metal Trash Can
-- [ ] Suspicious Looking Chicken Nugget
-- [ ] Triboluminescent Etomer
-- [ ] Violet Heart of Calamity — addon: Calamity: Community Remix
-
 ## Aquatic (11)
 
 - [ ] Aquatic Parasite
@@ -1561,6 +1545,20 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Skylac Dustfish — addon: Calamity: Tales of the Aquatic
 - [ ] Skyline Shark — addon: Calamity: Tales of the Aquatic
 - [ ] Stratosoul — addon: Calamity: Tales of the Aquatic
+
+## Pet Summon (11)
+
+- [ ] Batfly Bait
+- [ ] Celestial Clump — addon: Deimos, the Starborn Princess
+- [ ] Cool Item — addon: Calamity: Tales of the Aquatic
+- [ ] Crystallised Stiriatic Chunk — addon: Calamity: Tales of the Aquatic
+- [ ] Cute Scales — addon: Calamity: Tales of the Aquatic
+- [ ] Disgusting Seawater
+- [ ] Elemental Delight — addon: Deimos, the Starborn Princess
+- [ ] Everflute
+- [ ] Heavy Metal Trash Can
+- [ ] Suspicious Looking Chicken Nugget
+- [ ] Violet Heart of Calamity — addon: Calamity: Community Remix
 
 ## Item (11)
 

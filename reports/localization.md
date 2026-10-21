@@ -2,7 +2,7 @@
 
 _Généré par `tools/gen_localization.py`._
 
-160 textes modifiés, dont 46 noms.
+162 textes modifiés, dont 48 noms.
 
 Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom Brick Wall, Hide of Astrum Deus, Uelibloom Brick, Realm Ravager, going rogue, goes rogue, gone rogue, went rogue, go rogue.
 
@@ -34,6 +34,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Projectiles.Rogue.MalachiteProj.DisplayName` | Malachite | Garnet |
 | `Projectiles.Rogue.MalachiteStealth.DisplayName` | Malachite | Garnet |
 | `Buffs.MarkedforDeath.DisplayName` | Marked for Death | Marked |
+| `Items.SummonItems.MartianDistressRemote.DisplayName` | Martian Distress Remote | Martian Distress Beacon |
 | `Items.Weapons.Melee.Murasama.DisplayName` | Murasama | Graydron |
 | `Buffs.Nightwither.DisplayName` | Nightwither | Moon Burnt |
 | `Items.Materials.PearlShard.DisplayName` | Pearl Shard | Conquest Fragment |
@@ -47,6 +48,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Materials.ScoriaBar.DisplayName` | Scoria Bar | Abyss Bar |
 | `Items.Placeables.ScoriaOre.DisplayName` | Scoria Ore | Abyss Ore |
 | `Items.Materials.SeaRemains.DisplayName` | Sea Remains | Victide Bar |
+| `Items.Pets.TheEtomer.DisplayName` | The Etomer | Triboluminescent Etomer |
 | `Items.Lore.LoreRavager.DisplayName` | The Ravager | The Meatmetal Sans |
 | `Items.TreasureBags.AstrumDeusBag.DisplayName` | Treasure Bag (Astrum Deus) | Treasure Bag (Astral Deus) |
 | `Items.TreasureBags.RavagerBag.DisplayName` | Treasure Bag (Ravager) | Treasure Bag (Meatmetal Sans) |

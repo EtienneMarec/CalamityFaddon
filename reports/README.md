@@ -8,11 +8,11 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | content | 3619 |
 | changelog | 222 |
 | contenu correspondant à Calamity | 1384 |
-| contenu officiel renommé (via redirection) | 31 |
+| contenu officiel renommé (via redirection) | 33 |
 | pages regroupant plusieurs objets officiels | 74 |
 | officiel ou renommé avec stats divergentes | 718 |
-| contenu inconnu de Calamity avec infobox | 1595 |
-| dont avec sprite trouvé | 1498 |
+| contenu inconnu de Calamity avec infobox | 1593 |
+| dont avec sprite trouvé | 1496 |
 | pages marquées addon / fantag | 778 |
 | pages de wiki/ modifiées ou créées par rapport au Fandom | 547 |
 | **pages implémentées dans le mod** | **237** |
@@ -34,14 +34,14 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | Ammunition | 29 |
 | Furniture | 28 |
 | NPC | 27 |
-| Summoning | 25 |
+| Summoning | 24 |
 | ? | 23 |
 | Armor | 22 |
 | Grab bag | 17 |
 | Slime | 17 |
 | Superboss | 13 |
-| Pet Summon | 12 |
 | Aquatic | 11 |
+| Pet Summon | 11 |
 | Item | 11 |
 | Wall | 10 |
 | Burrowing Enemy | 9 |

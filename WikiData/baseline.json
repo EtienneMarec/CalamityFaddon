@@ -83,6 +83,7 @@
    "AstraglomerateBanner",
    "AstralGrassSeeds",
    "AstralProjector",
+   "AstralPylon",
    "AstralTorch",
    "Auger",
    "AuguroftheVoid",
@@ -101,6 +102,7 @@
    "BabyCannonballJellyfishBanner",
    "BabyCannonballJellyfishBowl",
    "BabyCannonballJellyfishItem",
+   "BabyFlakCrabCage",
    "BaconOil",
    "Bakidon",
    "Barberry",
@@ -429,6 +431,7 @@
    "RepairUnitCage",
    "Respiteblock",
    "Riftburst",
+   "RimehoundBanner",
    "RoundedAnodizedWulfrumPanelWall",
    "RoundedAnodizedWulfrumPanels",
    "Runestone",
@@ -486,11 +489,13 @@
    "Stohne",
    "StygianShield",
    "SulflounderBanner",
+   "SulphurPylon",
    "SulphurousCrate",
    "SulphurousSeaWorldSideChanger",
    "SulphurousShale",
    "SulphurousShaleWall",
    "SulphurousTorch",
+   "SunkenPylon",
    "SunkenSinker",
    "SuperradiantSlaughterer",
    "SuspiciousLookingNOU",
@@ -511,6 +516,7 @@
    "TheGrandGarment",
    "TheHousingContract",
    "TheMonument",
+   "TheOldReaper",
    "ThePact",
    "ThePointer",
    "TheSandwich",
@@ -626,6 +632,17 @@
    "Toxicatfish",
    "VolatileSlime"
   ]
+ },
+ "unmentioned": {
+  "items": [
+   "AstralPylon",
+   "BabyFlakCrabCage",
+   "RimehoundBanner",
+   "SulphurPylon",
+   "SunkenPylon",
+   "TheOldReaper"
+  ],
+  "npcs": []
  },
  "removed": [
   {

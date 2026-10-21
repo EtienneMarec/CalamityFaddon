@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 903 objets dont les recettes ont changé : 807 recettes modifiées, 149 créées
+- 904 objets dont les recettes ont changé : 808 recettes modifiées, 149 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 324 recettes du wiki déjà identiques au jeu
 - 60 transmutations Shimmer ajoutées
@@ -907,6 +907,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Tradewinds | 10 Aerialite Bar @ Bookcases → 1 | 6 Aerialite Bar, 5 Sunplate Block, 3 Feather @ Bookcases → 1 |
 | Tranquility Candle | 1 Peace Candle, 1 Zen Potion, 2 Essence of Eleum @ WorkBenches → 1 | 3 Torch, 3 Living Fire Block, 2 Copper Coin, 1 Water Candle @ WorkBenches → 1 |
 | Triactis' True Paladinian Mage-Hammer of Might | 1 Galaxy Smasher, 5 Shadowspec Bar, 5 Life Alloy @ DraedonsForge → 1 | 1 Galaxy Smasher, 30 Soul of Might, 5 Shadowspec Bar @ DraedonsForge → 1 |
+| Triboluminescent Etomer | 8 Any Gold Bar, 5 Prism Shard, 5 Scorched Bone @ Anvils → 1 | 5 Prism Shard, 8 Any Gold Bar, 1 Demonic Bone Ash @ Anvils → 1 |
 | True Biome Blade | 1 Biome Blade, 18 Astral Bar, 6 Life Alloy, 3 Core of Calamity @ LunarCraftingStation → 1 | 1 Biome Blade, 1 Broken Hero Sword, 3 Astral Bar, 3 Life Alloy, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | Tundra Flame Blossoms Staff | 1 Cinder Blossom Staff, 1 Frost Blossom Staff, 5 Any Mythril Bar @ MythrilAnvil → 1 | 1 Cinder Blossom Staff, 1 Frost Blossom Staff, 5 Soul of Light @ MythrilAnvil → 1 |
 | Turbulance | 10 Aerialite Bar @ Anvils → 1 | 5 Aerialite Bar, 3 Sunplate Block, 4 Cloud @ SkyMill → 1 |

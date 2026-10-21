@@ -33,6 +33,12 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
   dépendre.
 - **[choix]** Un objet récent n'est pas masqué si le wiki le connaît d'une façon ou d'une autre : page, redirection
   (« Aerospec Hat » → « Aerospec armor ») ou recette du wiki qui le produit (cas des objets de lore).
+- **[validé 21/10]** Full Fandom masque aussi le contenu **plus ancien** (déjà là en 2.0.1.005) quand le wiki n'en parle
+  **nulle part** : ni page, ni redirection, ni recette, ni simple mention dans le texte d'une page (tous espaces de noms,
+  changelogs compris ; les références internes ne sont pas toujours des liens). Cité seulement en texte (ex. Acidwood
+  Wall, dans un changelog) → gardé. Noms cherchés : nom actuel, nom de 2.0.1.005, renommages et alias du glossaire.
+  Liste : `reports/baseline.md`, section « Antérieurs, cités nulle part ».
+- **[technique]** Classes de base abstraites (BaseDye, HeldOnlyItem) ignorées : ce ne sont pas des objets.
 - **[validé 21/10]** Calamity 2.2.2 est la version finale (développement arrêté) : cible figée.
 
 ## 2. Noms et vocabulaire (`tools/glossary.json`, `Localization/en-US/Mods.CalamityMod.hjson`)
@@ -45,6 +51,10 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
 - **[choix]** Faux renommages écartés (la redirection pointe vers une autre chose ou un regroupement) : Holy Flame →
   Divine Intervention, Hiveling → Hive, Star Swallower, Cosmilite Sconce → Sconce, Rage/Adrenaline Mode → Meter,
   Astral Chest → Biome Chest, Danny Devito → Trash Can, et les pages de regroupement (Beds, Chairs, armures...).
+- **[choix]** Renommages trouvés sans redirection (le wiki a une page « nouvelle » qui décrit un objet officiel :
+  même infobulle, même usage) : The Etomer → Triboluminescent Etomer, Martian Distress Remote → Martian Distress
+  Beacon. Le sac de la Leviathan est connu du wiki sous « Treasure Bag (The Leviathan) » : simple alias (le renommage
+  en jeu ne passe pas, le nom finit par une parenthèse).
 - **[validé 21/10]** Ravager → **Meatmetal Sans** partout (boss, masque, trophée, relique, sac, lore). Un renommage décidé
   passe avant la protection ci-dessous.
 - **[choix]** Vocabulaire appliqué à tous les textes de Calamity : rogue → spy, accessory → covering, post-Moon Lord →
