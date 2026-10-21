@@ -31,7 +31,8 @@ Les PNJ créés en combat ne sont jamais supprimés (un boss retravaillé peut d
 - [x] Full Fandom : masquage (`WikiData/baseline.json`, `tools/gen_baseline.py`), stats extrêmes, recettes et butin hors wiki retirés
 - [x] Calamity++ : couche `Balance/stats.json` (vide : l'équilibrage reste à faire)
 - [ ] `wiki_edits/` ignoré en Full Fandom (aucune page corrigée pour l'instant, donc sans effet)
-- [ ] Portage du contenu retiré : 281 objets/PNJ avec page wiki (`reports/baseline.md`, `tools/legacy_extract.py`)
+- [ ] Portage du contenu retiré : 265 objets/PNJ avec page wiki (`reports/baseline.md`) — outil `tools/legacy_extract.py`
+      prêt, 1 fait (Night's Gaze), méthode dans CLAUDE.md
 - [ ] Calamity++ : recettes, butin, éléments équilibrés (mêmes principes de couches)
 
 ## Portage du vieux code de Calamity

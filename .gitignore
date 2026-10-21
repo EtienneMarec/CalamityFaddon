@@ -10,3 +10,6 @@ lib/
 
 # Généré par tools/wiki_index.py
 data/
+
+# Code de Calamity extrait pour portage (tools/legacy_extract.py)
+legacy_src/

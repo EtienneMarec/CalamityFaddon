@@ -47,6 +47,22 @@ fonctionnalité doit dire ce qu'elle fait dans chaque mode, et **les différence
 (sections `full*` des JSON, `Balance/` pour Calamity++), pour pouvoir être documentées sur un futur wiki.
 Tester les trois : `python tools/selftest.py --mode all`. Référence « abandon du wiki » : Calamity 2.0.1.005.
 
+## Portage du contenu retiré de Calamity (depuis 2.0.1.005)
+
+1. `python tools/legacy_extract.py --list` : candidats (retirés depuis 2.0.1.005 et documentés sur le wiki).
+2. `python tools/legacy_extract.py Classe` : code + textures de 2.0.1.005 dans `legacy_src/Classe/` (ignoré par git,
+   jamais compilé) et `PORTAGE.md` (classes référencées : encore dans Calamity → réutiliser, retirées → porter aussi).
+3. Porter dans `Content/Legacy/` (même arborescence que Calamity) ; en tête de chaque fichier :
+   `// Adapté de Calamity Mod 2.0.1.005, © Azafure, LLC — https://github.com/CalamityTeam/CalamityModPublic`
+   (exigé par la licence ; les sprites restent propriété d'Azafure, voir `docs/MODES.md`).
+4. API à moderniser : `DisplayName/Tooltip.SetDefault` → hjson (le nom anglais exact du wiki, indispensable pour la
+   résolution par nom) ; `SacrificeTotal` → `Item.ResearchUnlockCount` ; `OnHitNPC(NPC, NPC.HitInfo, int)` ;
+   `OnHitPvp` → `OnHitPlayer(Player, Player.HurtInfo)` ; `Kill` → `OnKill` ; membres `internal` de Calamity
+   (`RogueDamageClass.Instance`...) → `ModContent.GetInstance<T>()` ; prix privés → `Item.sellPrice` du wiki.
+5. Valeurs du wiki là où elles diffèrent du vieux code ; **pas d'`AddRecipes`** si le wiki a une recette (WikiRecipes
+   s'en charge), pas d'éléments en dur (système d'éléments). `/// Wiki : Page.txt` sur la classe principale.
+6. Ajouter un contrôle à l'auto-test si le contenu sert ailleurs (recette, butin). Exemple complet : Night's Gaze.
+
 ## Données appliquées en jeu
 
 - `Localization/en-US/Mods.CalamityMod.hjson` — textes de Calamity réécrits (généré par `gen_localization.py`

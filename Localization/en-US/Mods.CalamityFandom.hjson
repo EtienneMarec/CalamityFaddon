@@ -3,11 +3,24 @@ Items: {
 		DisplayName: Zweihandromeda
 		Tooltip: ""
 	}
+
+	Weapons.Rogue.NightsGaze: {
+		DisplayName: Night's Gaze
+		Tooltip:
+			'''
+			Strike your foes with this spear of the night
+			Throws a spear that shatters when it hits an enemy
+			Stealth strikes cause the spear to summon homing stars as it flies
+			'''
+	}
 }
 
 Projectiles: {
 	StratusStar.DisplayName: Stratus Star
 	ZweihandromedaSwing.DisplayName: Zweihandromeda Swing
+	NightsGazeProjectile.DisplayName: Night's Gaze
+	NightsGazeStar.DisplayName: Night's Gaze Star
+	NightsGazeSpark.DisplayName: Night's Gaze Spark
 }
 
 Elements: {

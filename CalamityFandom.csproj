@@ -6,7 +6,7 @@
 	<PropertyGroup>
 		<AssemblyName>CalamityFandom</AssemblyName>
 		<!-- Matériel de référence volumineux : hors compilation et hors explorateur de solution -->
-		<DefaultItemExcludes>$(DefaultItemExcludes);CalamityModPublic\**;fandom_dump_txt\**;fandom_dump_extra\**;fandom_sprites\**;data\**;reports\**;wiki_edits\**;lib\**</DefaultItemExcludes>
+		<DefaultItemExcludes>$(DefaultItemExcludes);CalamityModPublic\**;fandom_dump_txt\**;fandom_dump_extra\**;fandom_sprites\**;data\**;reports\**;wiki_edits\**;legacy_src\**;lib\**</DefaultItemExcludes>
 	</PropertyGroup>
 
 	<!-- CalamityMod.dll extraite du .tmod du Workshop par tools/extract_calamity_dll.py -->
@@ -25,6 +25,7 @@
 		<AdditionalFiles Remove="fandom_sprites\**" />
 		<AdditionalFiles Remove="reports\**" />
 		<AdditionalFiles Remove="wiki_edits\**" />
+		<AdditionalFiles Remove="legacy_src\**" />
 	</ItemGroup>
 
 </Project>

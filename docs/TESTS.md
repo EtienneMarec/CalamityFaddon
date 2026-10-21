@@ -94,3 +94,11 @@ Contrôlé par `python tools/selftest.py --mode all`. En jeu :
 - [ ] Full Fandom : le Desert Scourge a ses 350 000 PV du wiki (ratio x87,5)
 - [ ] Full Fandom : Acidwood ne se fabrique plus depuis Acidwood Wall (recette absente du wiki)
 - [ ] Retour en Minimal : tout revient comme avant
+
+### 2.1 Premier contenu porté : Night's Gaze
+
+- [ ] Night's Gaze existe (Cheat Sheet), sprite + glowmask, infobulle du wiki, « Elements: Dark, Magic, Stab »
+- [ ] Lancer : la lance part, se brise sur un ennemi en étoiles et étincelles, Moon Burnt sur la cible
+- [ ] Attaque furtive : la lance sème des étoiles à tête chercheuse
+- [ ] Recette à l'Ancient Manipulator : Daybreak, 7 Lumenyl, 4 Ruinous Soul, 12 Exodium Cluster
+- [ ] Zweihandromeda : la recette demande maintenant aussi Night's Gaze

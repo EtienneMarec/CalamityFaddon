@@ -6,4 +6,4 @@ sortAfter = CalamityMod
 hideCode = false
 hideResources = false
 includeSource = true
-buildIgnore = *.csproj, *.sln, *.user, *.md, .git*, .vs\*, .vscode\*, .claude\*, bin\*, obj\*, Properties\*, lib\*, tools\*, data\*, reports\*, docs\*, wiki_edits\*, CalamityModPublic\*, fandom_dump_txt\*, fandom_dump_extra\*,fandom_sprites\*
+buildIgnore = *.csproj, *.sln, *.user, *.md, .git*, .vs\*, .vscode\*, .claude\*, bin\*, obj\*, Properties\*, lib\*, tools\*, data\*, reports\*, docs\*, wiki_edits\*, legacy_src\*,CalamityModPublic\*, fandom_dump_txt\*, fandom_dump_extra\*,fandom_sprites\*

@@ -51,6 +51,7 @@ namespace CalamityFandom.Common.Debug
             CheckElements();
             CheckMaterials();
             CheckLoot();
+            CheckLegacy();
             foreach (var check in ExtraChecks)
                 check(this);
 
@@ -225,6 +226,17 @@ namespace CalamityFandom.Common.Debug
             else
                 Expect(false, "AlloyBar introuvable");
             Report($"matériaux : {count} objets créés depuis le wiki");
+        }
+
+        private void CheckLegacy()
+        {
+            // Contenu porté depuis Calamity 2.0.1.005 : trouvable par son nom du wiki, intégré aux recettes du wiki
+            int gaze = WikiRecipes.ResolveItem("Night's Gaze");
+            Expect(gaze > 0 && ItemLoader.GetItem(gaze)?.Mod == Mod, "Night's Gaze porté et trouvable par son nom");
+            int zwei = ModContent.ItemType<Content.Items.Weapons.Melee.Zweihandromeda>();
+            Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == zwei && r.requiredItem.Any(i => i.type == gaze)),
+                "la recette de Zweihandromeda demande Night's Gaze");
+            Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == gaze), "Night's Gaze a une recette");
         }
 
         private void CheckLoot()

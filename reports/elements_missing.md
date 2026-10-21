@@ -163,7 +163,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (554)
+## Objets (553)
 
 - A M S
 - AAMG "Disperse"
@@ -470,7 +470,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Neural Whipper-Snapper
 - Neuraze
 - Neutron Star
-- Night's Gaze
 - Night's Stabber
 - Nighterrial Dart
 - Nightic Blaster

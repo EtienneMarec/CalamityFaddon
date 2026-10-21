@@ -1,8 +1,5 @@
 using CalamityFandom.Content.Projectiles.Melee;
 using CalamityMod;
-using CalamityMod.Items.Materials;
-using CalamityMod.Items.Weapons.Melee;
-using CalamityMod.Items.Weapons.Typeless;
 using CalamityMod.Rarities;
 using Microsoft.Xna.Framework;
 using Terraria;
@@ -16,7 +13,7 @@ namespace CalamityFandom.Content.Items.Weapons.Melee
     /// Wiki : Zweihandromeda.txt — épée true melee géante liée à Stratus.
     /// Coups alternés vers le bas puis vers le haut (« back and forth »), portés par le projectile tenu
     /// <see cref="ZweihandromedaSwing"/>. Invoque des étoiles depuis le ciel quand elle touche et inflige
-    /// Moon Burnt (= Nightwither) 3 s.
+    /// Moon Burnt (= Nightwither) 3 s. Recette fournie par le wiki (WikiRecipes), Night's Gaze compris.
     /// </summary>
     public class Zweihandromeda : ModItem
     {
@@ -49,21 +46,6 @@ namespace CalamityFandom.Content.Items.Weapons.Melee
             Projectile.NewProjectile(source, player.MountedCenter, velocity, type, damage, knockback, player.whoAmI, nextSwingSide);
             nextSwingSide = -nextSwingSide;
             return false;
-        }
-
-        public override void AddRecipes()
-        {
-            // TODO : Night's Gaze (javelot retiré de Calamity, présent sur le wiki) quand il sera recréé.
-            CreateRecipe()
-                .AddIngredient<StratusSphere>()
-                .AddIngredient<GalileoGladius>()
-                .AddIngredient<CrescentMoon>()
-                .AddIngredient<Lumenyl>(25)
-                .AddIngredient<DepthCells>(37)
-                .AddIngredient<AscendantSpiritEssence>(4)
-                .AddIngredient<AuricBar>(8)
-                .AddTile(ModContent.TileType<CalamityMod.Tiles.Furniture.CraftingStations.CosmicAnvil>())
-                .Register();
         }
     }
 }

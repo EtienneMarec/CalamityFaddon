@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 900 objets dont les recettes ont changé : 806 recettes modifiées, 147 créées
+- 903 objets dont les recettes ont changé : 807 recettes modifiées, 149 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 324 recettes du wiki déjà identiques au jeu
 - 60 transmutations Shimmer ajoutées
-- 182 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 256 recettes
+- 181 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 254 recettes
 
 ## Recettes changées
 
@@ -296,6 +296,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Duke Fishron | 1 Duke Fishron Trophy @ Bookcases → 1 | 1 Duke Fishron Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Dustplate | (nouvelle) | 1 Stardust, 3 Obsidian @ Hellforge → 3 |
 | Early Bloom Rod | 8 Tarragon Bar @ MythrilAnvil → 1 | 1 Wood Fishing Pole, 10 Tarragon Bar @ LunarCraftingStation → 1 |
+| Eclipse's Fall | 1 Vega, 5 Auric Bar, 15 Darksun Fragment @ CosmicAnvil → 1 | 1 Night's Gaze, 12 Core of Sunlight, 8 Cosmilite Bar, 8 Darksun Fragment @ CosmicAnvil → 1 |
 | Effervescence | 1 Bubble Gun, 5 Luminite Bar, 10 Aetherium Block @ MythrilAnvil → 1 | 1 Bubble Gun, 1 Xenopopper, 5 Luminite Bar, 15 Sea Prism, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Effigy of Decay | (nouvelle) | 20 Sulphuric Scale, 10 Acidwood @ Anvils → 1 |
 | Effulgent Feather | (nouvelle) | 3 Desert Feather, 1 Life Alloy @ LunarCraftingStation → 3 |
@@ -540,6 +541,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Necroplasmic Beacon | 25 Any Wood, 50 Necroplasm @ MythrilAnvil → 1 | 25 Acidwood, 75 Ectoplasm @ LunarCraftingStation → 1 |
 | Neptune's Bounty | 1 Abyss Blade, 6 Reaper Tooth, 5 Ruinous Soul @ MythrilAnvil → 1 | 1 Abyss Blade, 5 Ruinous Soul, 5 Phantoplasm, 15 Depth Cells, 15 Lumenyl, 5 Tenebris @ LunarCraftingStation → 1 |
 | Nettlevine Greatbow | 12 Tarragon Bar @ MythrilAnvil → 1 | 12 Tarragon Bar @ LunarCraftingStation → 1 |
+| Night's Gaze | (nouvelle) | 7 Lumenyl, 4 Ruinous Soul, 12 Exodium Cluster, 1 Daybreak @ LunarCraftingStation → 1 |
 | Night's Ray | 1 Vilethorn, 1 Magic Missile, 1 Wand of Frosting, 1 Amber Staff, 10 Purified Gel @ DemonAltar → 1 | 1 Wand of Sparking, 1 Vilethorn, 1 Amber Staff, 1 Magic Missile, 15 Rotten Matter, 10 Purified Gel @ DemonAltar → 1 |
 | Nightmare Dye | 3 Bottled Water, 5 Nightmare Fuel @ DyeVat → 3 | 2 Bottled Water, 5 Nightmare Fuel @ DyeVat → 2 |
 | Nucleogenesis | 1 Star-Tainted Generator, 1 Statis' Curse, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Star-Tainted Generator, 1 Statis' Curse, 8 Luminite Bar, 4 Galactica Singularity, 4 Ascendant Spirit Essence, 4 Yharim Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
@@ -965,6 +967,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Zerg Potion | 1 Bottled Water, 2 Purified Gel, 2 Fireblossom @ AlchemyTable → 1 | 1 Bottled Water, 256 Delicious Meat, 1 Demonic Bone Ash @ AlchemyTable → 1 |
 | Zerg Potion | 1 Bottled Water, 5 Blood Orb, 2 Purified Gel @ AlchemyTable → 1 | 1 Bottled Water, 2 Unholy Core, 256 Delicious Meat @ AlchemyTable → 1 |
 | Zotplate | (nouvelle) | 1 Essence of Zot, 3 Obsidian @ Hellforge → 3 |
+| Zweihandromeda | (nouvelle) | 1 Stratus Sphere, 1 Galileo Gladius, 1 Crescent Moon, 1 Night's Gaze, 25 Lumenyl, 37 Depth Cells, 4 Ascendant Spirit Essence, 8 Auric Bar @ CosmicAnvil → 1 |
 
 ## Noms introuvables (par nombre de recettes bloquées)
 
@@ -986,7 +989,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Excelsus — 2
 - objet : Hemagrape — 2
 - objet : Luminous Striker — 2
-- objet : Night's Gaze — 2
 - objet : Phangasm — 2
 - objet : Shattered Sun — 2
 - objet : Silver — 2

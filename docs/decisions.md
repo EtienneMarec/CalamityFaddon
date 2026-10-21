@@ -7,7 +7,8 @@ Une entrée par décision : page(s), problème, choix, et la page corrigée dans
 
 - **Problème** : la recette (`Recipes_Cosmic Anvil_register.txt`) demande Night's Gaze, un javelot qui n'existe plus
   dans Calamity 2.2.2 mais qui a sa page sur le wiki.
-- **Choix** : recette provisoire sans Night's Gaze (TODO dans le code), à compléter quand Night's Gaze sera recréé.
+- ~~Recette provisoire sans Night's Gaze~~ → résolu : Night's Gaze porté depuis 2.0.1.005 ; la recette vient
+  maintenant des données du wiki (plus de recette codée à la main).
 - **Choix** : « swings in a back and forth pattern » = projectile tenu qui alterne un coup vers le bas et le même
   coup vers le haut, orienté vers le curseur (arc de ~220°). Le swing vanilla est inutilisable avec un sprite de
   232×230 : il place l'arme loin de la main.
@@ -66,3 +67,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   depuis le vieux code ; Minimal par défaut.
 - Un objet ajouté après 2.0.1.005 n'est pas masqué si le wiki le connaît d'une façon ou d'une autre : page, redirection
   (« Aerospec Hat » → « Aerospec armor ») ou recette du wiki qui le produit.
+
+## Night's Gaze (premier contenu porté)
+
+- Code de Calamity 2.0.1.005, valeurs du wiki là où elles diffèrent : `use` 19 (au lieu de 20), vente 26 or,
+  Moon Burnt 5 s sur la lance (l'ancien code appliquait le temps de vie restant du projectile).
+- Recette et éléments (Dark, Magic, Stab) fournis par les données du wiki.
