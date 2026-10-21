@@ -107,3 +107,31 @@ Buffs: {
 		Description: Attacks are weakened
 	}
 }
+
+Modes: {
+	FullFandom: Full Fandom
+	Minimal: Minimal
+	CalamityPlus: Calamity++
+	Mismatch: This world was created in {0} mode, but the mod is currently in {1} mode. Change the Calamity Fandom config and reload to play it as intended.
+}
+
+Configs: {
+	FandomConfig: {
+		DisplayName: Calamity Fandom
+
+		Accuracy: {
+			Label: Fandom accuracy
+			Tooltip:
+				'''
+				Full Fandom: only what the Fandom wiki says. Calamity content added after the wiki was abandoned (2.0.1.005) is hidden, and extreme wiki values are applied as written.
+				Minimal: current Calamity, plus everything the wiki adds, with fixes where the wiki is impossible or silent.
+				Calamity++: Minimal plus real balancing, so that everything is playable.
+				'''
+		}
+
+		WarnOnWorldModeMismatch: {
+			Label: Warn on world mode mismatch
+			Tooltip: Warn when entering a world that was created with another accuracy mode.
+		}
+	}
+}

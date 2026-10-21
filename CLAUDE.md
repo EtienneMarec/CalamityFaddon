@@ -40,6 +40,13 @@ chaque nouveau système via `SelfTest.ExtraChecks`.
 Python : ne pas lancer avec `-I` (Pillow est installé dans le site-packages utilisateur).
 Sous PowerShell, `$env:PYTHONIOENCODING="utf-8"` évite les accents cassés dans la console.
 
+## Modes de fidélité (lire `docs/MODES.md`)
+
+Trois modes (Full Fandom / Minimal / Calamity++), config serveur avec rechargement, Minimal par défaut. Toute nouvelle
+fonctionnalité doit dire ce qu'elle fait dans chaque mode, et **les différences entre modes passent par des données**
+(sections `full*` des JSON, `Balance/` pour Calamity++), pour pouvoir être documentées sur un futur wiki.
+Tester les trois : `python tools/selftest.py --mode all`. Référence « abandon du wiki » : Calamity 2.0.1.005.
+
 ## Données appliquées en jeu
 
 - `Localization/en-US/Mods.CalamityMod.hjson` — textes de Calamity réécrits (généré par `gen_localization.py`

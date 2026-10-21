@@ -57,3 +57,12 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - Boss : ajouts limités au mode normal ; les sacs de trésor (Expert) ne sont pas encore modifiés.
 - « One of the following N items » : un objet au hasard parmi le groupe, sauf si le jeu en donne déjà un.
 - Un seul PNJ par page (celui qui a déjà le plus de butin) : évite de multiplier le butin des vers et des alias.
+
+## Modes de fidélité (voir `docs/MODES.md`)
+
+- **Référence « abandon du wiki » = Calamity 2.0.1.005** (commit `3ec8f553ed`, 30/12/2022) : des 29 objets ajoutés
+  juste avant, 19 ont une page ; des 77 ajoutés par 2.0.2.001 (février 2023), un seul. Dernier changelog du Fandom : 2.0.1.002.
+- Choix de l'utilisateur (21/10) : config serveur + monde verrouillé ; un seul mod à 3 modes ; contenu retiré porté
+  depuis le vieux code ; Minimal par défaut.
+- Un objet ajouté après 2.0.1.005 n'est pas masqué si le wiki le connaît d'une façon ou d'une autre : page, redirection
+  (« Aerospec Hat » → « Aerospec armor ») ou recette du wiki qui le produit.

@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using CalamityFandom.Common.Config;
 using CalamityFandom.Common.Elements;
+using CalamityFandom.Common.Modes;
 using CalamityFandom.Common.WikiData;
 using Terraria;
 using Terraria.ID;
@@ -40,7 +42,9 @@ namespace CalamityFandom.Common.Debug
             if (!Enabled)
                 return;
 
+            Report($"mode : {FandomMode.Current}");
             CheckNames();
+            CheckModes();
             CheckItemStats();
             CheckNPCStats();
             CheckRecipes();
@@ -59,6 +63,31 @@ namespace CalamityFandom.Common.Debug
 
         /// <summary>Vérifications ajoutées par d'autres systèmes (recettes, éléments...).</summary>
         public static readonly List<Action<SelfTest>> ExtraChecks = new();
+
+        /// <summary>Les rapports de reports/ décrivent le mode par défaut (Minimal) : rien n'est écrit dans les autres modes.</summary>
+        private static string ReportsFolder => FandomMode.Current == FandomAccuracy.Minimal
+            ? Environment.GetEnvironmentVariable("CALFANDOM_REPORTS") : null;
+
+        private void CheckModes()
+        {
+            bool full = FandomMode.IsFull;
+            WikiStats.NPCs.TryGetValue("DesertScourgeHead", out var scourge);
+            Expect((scourge?.LifeRatio == 87.5f) == full, $"vie du Desert Scourge (x87,5 seulement en Full) : {scourge?.LifeRatio}");
+            Expect((FullFandomHiding.HiddenItems.Count > 400) == full, $"objets masqués : {FullFandomHiding.HiddenItems.Count}");
+            if (full)
+            {
+                var leaks = Main.recipe.Take(Recipe.numRecipes)
+                    .Where(r => !r.Disabled && FullFandomHiding.HiddenItems.Contains(r.createItem.type))
+                    .Select(r => Lang.GetItemNameValue(r.createItem.type)).Distinct().ToList();
+                Expect(leaks.Count == 0, $"recettes actives d'objets masqués : {string.Join(", ", leaks)}");
+                Expect(WikiRecipes.DisabledNotOnWiki > 0 && WikiRecipes.Kept == 0, $"recettes hors wiki désactivées : {WikiRecipes.DisabledNotOnWiki}");
+                Report($"full fandom : {FullFandomHiding.HiddenItems.Count} objets et {FullFandomHiding.HiddenNPCs.Count} PNJ masqués, "
+                    + $"{FullFandomHiding.DisabledRecipes} recettes et {FullFandomHiding.RemovedDrops} règles de butin retirées ; "
+                    + $"{WikiRecipes.DisabledNotOnWiki} recettes hors wiki désactivées, {WikiLoot.RemovedNotOnWiki} drops hors wiki retirés");
+            }
+            else
+                Expect(WikiRecipes.DisabledNotOnWiki == 0 && WikiLoot.RemovedNotOnWiki == 0, "rien n'est retiré hors du mode Full");
+        }
 
         public void Expect(bool condition, string description)
         {
@@ -125,7 +154,7 @@ namespace CalamityFandom.Common.Debug
                 foreach (var w in wanted)
                     Expect(actual.Contains(WikiRecipes.Signature(w)), $"recette de {Lang.GetItemNameValue(result)} absente ({w.Page})");
             }
-            string reports = Environment.GetEnvironmentVariable("CALFANDOM_REPORTS");
+            string reports = ReportsFolder;
             if (!string.IsNullOrEmpty(reports))
                 WikiRecipes.WriteReport(reports);
             Report($"recettes : {WikiRecipes.Applied.Count} objets changés, {WikiRecipes.Edited} modifiées, {WikiRecipes.Created} créées, "
@@ -163,7 +192,7 @@ namespace CalamityFandom.Common.Debug
             Expect(ElementData.ItemElements.Count > 600, $"objets avec éléments : {ElementData.ItemElements.Count}");
             Report($"éléments : {ElementData.ItemElements.Count} objets et {ElementData.NPCAffinity.Count} PNJ en jeu ; "
                 + $"{ElementData.UnresolvedItems.Count} objets et {ElementData.UnresolvedNPCs.Count} PNJ du wiki pas encore dans le jeu");
-            string reports = Environment.GetEnvironmentVariable("CALFANDOM_REPORTS");
+            string reports = ReportsFolder;
             if (!string.IsNullOrEmpty(reports))
             {
                 var sb = new System.Text.StringBuilder();
@@ -203,7 +232,7 @@ namespace CalamityFandom.Common.Debug
             foreach (var (npc, rule, what) in WikiLoot.Added)
                 Expect(Main.ItemDropsDB.GetRulesForNPCID(npc, false).Contains(rule), $"butin de {Lang.GetNPCNameValue(npc)} absent : {what}");
             Expect(WikiLoot.Added.Count > 50, $"drops ajoutés : {WikiLoot.Added.Count}");
-            string reports = Environment.GetEnvironmentVariable("CALFANDOM_REPORTS");
+            string reports = ReportsFolder;
             if (!string.IsNullOrEmpty(reports))
                 WikiLoot.WriteReport(reports);
             Report($"butin : {WikiLoot.Added.Count} drops ajoutés, {WikiLoot.AlreadyDropped} déjà présents, {WikiLoot.Conditional} conditionnels ignorés, "

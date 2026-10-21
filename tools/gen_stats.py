@@ -6,8 +6,9 @@
 Seules les valeurs nettes sont reprises (« 42 », « 7.5 », « 19% », « {{dv|normal|expert|...}} », « {{value|...}} ») ;
 les infobox à paliers (« Tier 1 / Tier 2 », « pre-Astrum Aureus ») sont ignorées.
 
-Garde-fou : un écart supérieur à x5 (ou inférieur à /5) par rapport au code n'est PAS appliqué ; il est listé dans
-reports/stats.md pour décision (corriger la page dans wiki_edits/ ou l'ajouter à tools/stats_force.json).
+Garde-fou : un écart supérieur à x5 (ou inférieur à /5) par rapport au code n'est appliqué qu'en mode Full Fandom
+(sections fullItems / fullNpcs) ; il est listé dans reports/stats.md. Pour l'appliquer dans tous les modes :
+l'ajouter à tools/stats_force.json ; pour le corriger : copier la page dans wiki_edits/.
 
 Usage : python tools/gen_stats.py   (après wiki_index.py)
 """
@@ -98,6 +99,8 @@ def main():
     force = set(json.load(open(FORCE, encoding="utf-8"))) if os.path.exists(FORCE) else set()
 
     items, npcs = {}, {}
+    # Écarts extrêmes : appliqués seulement en mode Full Fandom (« uniquement ce qui est écrit »)
+    full_items, full_npcs = {}, {}
     review, unverified = [], []
 
     for page in sorted(index.values(), key=lambda p: p["title"]):
@@ -145,6 +148,7 @@ def main():
                         continue  # identique au code : rien à faire
                     if k in ("damage", "useAnimation", "mana", "defense") and extreme(w, c) and not forced:
                         review.append((page["title"], cls, k, w, c))
+                        full_items.setdefault(cls, {"page": page["file"]})[k] = int(w)
                         continue
                     if c is None and k in ("damage", "useAnimation"):
                         unverified.append((page["title"], cls, k, w))
@@ -161,6 +165,7 @@ def main():
                         continue
                     if extreme(w, c) and not forced:
                         review.append((page["title"], cls, k, w, c))
+                        full_npcs.setdefault(cls, {"page": page["file"]})[k + "Ratio"] = round(w / c, 4)
                         continue
                     entry[k + "Ratio"] = round(w / c, 4)
                 w, c = number(f.get("defense")), code.get("defense")
@@ -171,12 +176,13 @@ def main():
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as fh:
-        json.dump({"_generated_by": "tools/gen_stats.py", "items": items, "npcs": npcs}, fh, indent=1, ensure_ascii=False)
+        json.dump({"_generated_by": "tools/gen_stats.py", "items": items, "npcs": npcs,
+                   "fullItems": full_items, "fullNpcs": full_npcs}, fh, indent=1, ensure_ascii=False)
 
     with open(REPORT, "w", encoding="utf-8") as fh:
         fh.write("# Stats du wiki appliquées\n\n_Généré par `tools/gen_stats.py`._\n\n")
         fh.write(f"- {len(items)} objets et {len(npcs)} PNJ de Calamity modifiés (`WikiData/stats.json`).\n")
-        fh.write(f"- {len(review)} écarts extrêmes (> x{MAX_RATIO:g}) **non appliqués**, ci-dessous.\n")
+        fh.write(f"- {len(review)} écarts extrêmes (> x{MAX_RATIO:g}) : appliqués **seulement en mode Full Fandom**, ci-dessous.\n")
         fh.write(f"- {len(unverified)} valeurs appliquées sans valeur littérale dans le code pour comparer.\n\n")
         fh.write("## Écarts extrêmes à trancher\n\nPour appliquer quand même : ajouter le titre de la page dans "
                  "`tools/stats_force.json`. Pour corriger le wiki : copier la page dans `wiki_edits/`.\n\n")

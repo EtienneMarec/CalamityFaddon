@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text.Json;
+using CalamityFandom.Common.Config;
 using CalamityMod.Rarities;
 using Terraria;
 using Terraria.ModLoader;
@@ -37,17 +38,57 @@ namespace CalamityFandom.Common.WikiData
         {
             public Dictionary<string, ItemStats> Items { get; set; } = new();
             public Dictionary<string, NPCStats> Npcs { get; set; } = new();
+            /// <summary>Écarts extrêmes (> x5), appliqués seulement en mode Full Fandom.</summary>
+            public Dictionary<string, ItemStats> FullItems { get; set; } = new();
+            public Dictionary<string, NPCStats> FullNpcs { get; set; } = new();
         }
 
         public static Dictionary<string, ItemStats> Items { get; private set; } = new();
         public static Dictionary<string, NPCStats> NPCs { get; private set; } = new();
 
+        /// <summary>
+        /// Couches selon le mode : stats du wiki, puis écarts extrêmes (Full Fandom) ou équilibrage manuel de
+        /// Balance/stats.json (Calamity++). Une valeur de la couche supérieure remplace celle du dessous.
+        /// </summary>
         public override void Load()
         {
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             var file = JsonSerializer.Deserialize<StatsFile>(Mod.GetFileBytes("WikiData/stats.json"), options);
             Items = file.Items;
             NPCs = file.Npcs;
+            if (FandomMode.IsFull)
+                Overlay(file.FullItems, file.FullNpcs);
+            if (FandomMode.IsPlus && Mod.FileExists("Balance/stats.json"))
+            {
+                var balance = JsonSerializer.Deserialize<StatsFile>(Mod.GetFileBytes("Balance/stats.json"), options);
+                Overlay(balance.Items, balance.Npcs);
+            }
+        }
+
+        private static void Overlay(Dictionary<string, ItemStats> items, Dictionary<string, NPCStats> npcs)
+        {
+            foreach (var (name, top) in items)
+            {
+                if (!Items.TryGetValue(name, out var s))
+                    Items[name] = s = new ItemStats();
+                s.Damage = top.Damage ?? s.Damage;
+                s.UseAnimation = top.UseAnimation ?? s.UseAnimation;
+                s.KnockBack = top.KnockBack ?? s.KnockBack;
+                s.Crit = top.Crit ?? s.Crit;
+                s.ShootSpeed = top.ShootSpeed ?? s.ShootSpeed;
+                s.Mana = top.Mana ?? s.Mana;
+                s.Defense = top.Defense ?? s.Defense;
+                s.Rare = top.Rare ?? s.Rare;
+                s.Value = top.Value ?? s.Value;
+            }
+            foreach (var (name, top) in npcs)
+            {
+                if (!NPCs.TryGetValue(name, out var s))
+                    NPCs[name] = s = new NPCStats();
+                s.LifeRatio = top.LifeRatio ?? s.LifeRatio;
+                s.DamageRatio = top.DamageRatio ?? s.DamageRatio;
+                s.Defense = top.Defense ?? s.Defense;
+            }
         }
 
         public override void Unload()

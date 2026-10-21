@@ -1,0 +1,2592 @@
+{
+ "_generated_by": "tools/gen_baseline.py",
+ "baseline": "2.0.1.005",
+ "commit": "3ec8f553ed",
+ "hidden": {
+  "items": [
+   "AbyssTreasureChest",
+   "AcidwoodBow",
+   "AcidwoodHammer",
+   "AcidwoodSword",
+   "AcrobaticBobber",
+   "ActivatedAuricPanel",
+   "AerialiteOreDisenchanted",
+   "AgedBiolightItem",
+   "AgedBlacklightItem",
+   "AgedCinderlightItem",
+   "AgedFlamelightItem",
+   "AgedFloodlightItem",
+   "AgedFrostlightItem",
+   "AgedLablightItem",
+   "AlchemicalDecanter",
+   "AlgalPrismTorch",
+   "AlphaDraconis",
+   "AmphibiansGuitar",
+   "AncientNavystoneBathtub",
+   "AncientNavystoneBed",
+   "AncientNavystoneBench",
+   "AncientNavystoneBookcase",
+   "AncientNavystoneCandelabra",
+   "AncientNavystoneCandle",
+   "AncientNavystoneChair",
+   "AncientNavystoneChandelier",
+   "AncientNavystoneChest",
+   "AncientNavystoneClock",
+   "AncientNavystoneDoor",
+   "AncientNavystoneDresser",
+   "AncientNavystoneLamp",
+   "AncientNavystoneLantern",
+   "AncientNavystonePiano",
+   "AncientNavystonePlatform",
+   "AncientNavystoneSink",
+   "AncientNavystoneTable",
+   "AncientNavystoneWorkBench",
+   "AncientSmoothNavystone",
+   "AncientSmoothNavystoneWall",
+   "AnodizedWulfrumBathtub",
+   "AnodizedWulfrumBookcase",
+   "AnodizedWulfrumChair",
+   "AnodizedWulfrumChandelier",
+   "AnodizedWulfrumChest",
+   "AnodizedWulfrumDeskLight",
+   "AnodizedWulfrumDoor",
+   "AnodizedWulfrumDresser",
+   "AnodizedWulfrumJukebox",
+   "AnodizedWulfrumLamp",
+   "AnodizedWulfrumLantern",
+   "AnodizedWulfrumMetal",
+   "AnodizedWulfrumPanels",
+   "AnodizedWulfrumPlatform",
+   "AnodizedWulfrumSink",
+   "AnodizedWulfrumSleepingPod",
+   "AnodizedWulfrumSofa",
+   "AnodizedWulfrumTable",
+   "AnodizedWulfrumToilet",
+   "AnodizedWulfrumTrim",
+   "AnodizedWulfrumTrimWall",
+   "AnodizedWulfrumWorkBench",
+   "Apathanull",
+   "Apollyon",
+   "AquasScepter",
+   "AqueousHunterDrone",
+   "ArcFlashRing",
+   "ArcNovaDiffuser",
+   "AridSoil",
+   "Arietes41",
+   "AscendantInsignia",
+   "AshenAccentSlab",
+   "AstralGrassSeeds",
+   "AstralProjector",
+   "AstralTorch",
+   "Auger",
+   "AuguroftheVoid",
+   "AuricAbsorber",
+   "AuricConsole",
+   "AuricDisplay",
+   "AuricLandMine",
+   "AuricPanel",
+   "AuricPlatform",
+   "AuricReinforcedCrate",
+   "AuricRepulserPanel",
+   "AuricScreen",
+   "AuricServer",
+   "AuricTerminal",
+   "BabyCannonballJellyfishBowl",
+   "BabyCannonballJellyfishItem",
+   "BaconOil",
+   "Bakidon",
+   "Barberry",
+   "Basalt",
+   "BasaltSlab",
+   "BatholithBangle",
+   "BlackGlassBand",
+   "BlackPearlPile",
+   "BlasphemousDonut",
+   "BlightedCleaver",
+   "BlightedSlimeStaff",
+   "BlueDistortedMonolith",
+   "BossRushMonolith",
+   "BotanicPiercer",
+   "BottledPanacea",
+   "BrimstoneLavaFountainItem",
+   "BrimstoneSlab",
+   "BrimstoneSlabWall",
+   "BrittleStarStaff",
+   "BubonicRound",
+   "BurningRevelation",
+   "BurrowerController",
+   "Buzzkill",
+   "CagedBiolightItem",
+   "CagedBlacklightItem",
+   "CagedCinderlightItem",
+   "CagedFlamelightItem",
+   "CagedFloodlightItem",
+   "CagedFrostlightItem",
+   "CagedLablightItem",
+   "CalamitasCloneBag",
+   "CalamitasCloneMask",
+   "CalamitasCloneTrophy",
+   "CalamitasCoffer",
+   "CalamityCanvas2023",
+   "CalamityCanvas2024",
+   "CausticTorch",
+   "ChaliceOfTheBloodGod",
+   "ChargedWulfrumEnergyBarrier",
+   "ChargedWulfrumEnergyBarrierWall",
+   "ChargedWulfrumWallMountedBulb",
+   "ChromaticEruption",
+   "ChronomancersScythe",
+   "CinderArrow",
+   "CinderBlossomSeeds",
+   "CleansingJelly",
+   "Cometfruit",
+   "CorinthPrime",
+   "CountermeasureMitt",
+   "CrushingEgo",
+   "CyanCoral",
+   "DarkMatterSheath",
+   "DeadSunsWind",
+   "DeepSeaAnchor",
+   "DeepcoreGK2",
+   "DefiledGreatsword",
+   "DialogueDisplayDebugItem",
+   "DiamondOfTheDeep",
+   "DisgustingSlop",
+   "DivineProvidence",
+   "DraconicIncense",
+   "DraedonExoSelectMusicBox",
+   "DraedonTalkMusicBox",
+   "Driftwood",
+   "DriftwoodBaroqueCello",
+   "DriftwoodBathtub",
+   "DriftwoodBed",
+   "DriftwoodBookcase",
+   "DriftwoodBow",
+   "DriftwoodCandelabra",
+   "DriftwoodCandle",
+   "DriftwoodChair",
+   "DriftwoodChandelier",
+   "DriftwoodChest",
+   "DriftwoodDoor",
+   "DriftwoodDresser",
+   "DriftwoodHammer",
+   "DriftwoodLamp",
+   "DriftwoodLantern",
+   "DriftwoodPlatform",
+   "DriftwoodSink",
+   "DriftwoodSofa",
+   "DriftwoodSundial",
+   "DriftwoodSword",
+   "DriftwoodTable",
+   "DriftwoodToilet",
+   "DriftwoodWall",
+   "DriftwoodWorkBench",
+   "DryadsTear",
+   "Dunesand",
+   "EldenDiorama",
+   "EnchantedConch",
+   "EnchantedKnifeStaff",
+   "EssenceofHavoc",
+   "EutrophicCrate",
+   "EutrophicGlass",
+   "EutrophicGlassWall",
+   "ExaltedOathblade",
+   "ExoArmamentsKit",
+   "ExoAuricPanel",
+   "FadedIdolatry",
+   "FeralBobber",
+   "FireTurret",
+   "FishStocks",
+   "FlaskOfCrumbling",
+   "FlaskOfHolyFlames",
+   "ForgivenessPainting",
+   "FragmentsOfAnotherWorld",
+   "FreedomStar",
+   "FrigidMonolith",
+   "FrostyBatBottle",
+   "FrozenCube",
+   "GlacialEmbrace",
+   "GleamingCucumber",
+   "GloomTorch",
+   "GluttonyBlender",
+   "Gorecodile",
+   "GrandMarquisBait",
+   "GreedPot",
+   "HailstormBullet",
+   "HallowPointRound",
+   "HardenedEutrophicSand",
+   "Havocplate",
+   "HavocplateWall",
+   "HoarfrostBow",
+   "HolofibreImmolator",
+   "HostileFireTurret",
+   "HostileIceTurret",
+   "HostileLabTurret",
+   "HostileLaserTurret",
+   "HostileOnyxTurret",
+   "HostilePlagueTurret",
+   "HostileWaterTurret",
+   "HydrothermalCrate",
+   "HyperdeathRiftScepter",
+   "IVDripOnTheRocks",
+   "IceTurret",
+   "IlmerisSpark",
+   "InfectedJewel",
+   "InfernalSuevite",
+   "InterstellarStompers",
+   "IronBall",
+   "Jackfruit",
+   "KelpTorch",
+   "KingofConstellationsTenryu",
+   "Kingsbane",
+   "LanternCenter",
+   "LaserTurret",
+   "LavaChickenBroth",
+   "LegionofCelestia",
+   "Lightspeed",
+   "LiliesOfFinality",
+   "LimeCoral",
+   "Limestone",
+   "LimestoneWall",
+   "LivingPlagueFireBlock",
+   "Lotus",
+   "LucisBoots",
+   "LucisHairstyle",
+   "LucisMilitaryUniform",
+   "LucisSight",
+   "LunicCorpsBoots",
+   "LunicCorpsHelmet",
+   "LunicCorpsVest",
+   "M1Garand",
+   "MagentaCoral",
+   "Mangosteen",
+   "Manhattan",
+   "MarkofProvidence",
+   "MarksmanRound",
+   "MarniteBathtub",
+   "MarniteBed",
+   "MarniteBookcase",
+   "MarniteCandelabra",
+   "MarniteCandle",
+   "MarniteChair",
+   "MarniteChandelier",
+   "MarniteChest",
+   "MarniteClock",
+   "MarniteDoor",
+   "MarniteDresser",
+   "MarniteLamp",
+   "MarniteLantern",
+   "MarniteLight",
+   "MarniteOrgan",
+   "MarniteSink",
+   "MarniteSofa",
+   "MarniteTable",
+   "MarniteToilet",
+   "MarniteWorkBench",
+   "MiniAgedBiolightItem",
+   "MiniAgedBlacklightItem",
+   "MiniAgedCinderlightItem",
+   "MiniAgedFlamelightItem",
+   "MiniAgedFloodlightItem",
+   "MiniAgedFrostlightItem",
+   "MiniAgedLablightItem",
+   "MiniCagedBiolightItem",
+   "MiniCagedBlacklightItem",
+   "MiniCagedCinderlightItem",
+   "MiniCagedFlamelightItem",
+   "MiniCagedFloodlightItem",
+   "MiniCagedFrostlightItem",
+   "MiniCagedLablightItem",
+   "MirrorofKalandra",
+   "MoltenFishron",
+   "MonolithBow",
+   "MonolithCrate",
+   "MonolithHammer",
+   "MonolithSword",
+   "MossyStone",
+   "NaiadsWarhorn",
+   "NavyPrismTorch",
+   "NavystoneBathtub",
+   "NavystoneBed",
+   "NavystoneBookcase",
+   "NavystoneCandelabra",
+   "NavystoneCandle",
+   "NavystoneChair",
+   "NavystoneChandelier",
+   "NavystoneChest",
+   "NavystoneClock",
+   "NavystoneDoor",
+   "NavystoneDresser",
+   "NavystoneLamp",
+   "NavystoneLantern",
+   "NavystoneLyre",
+   "NavystonePlatform",
+   "NavystoneSink",
+   "NavystoneTable",
+   "NavystoneToilet",
+   "NavystoneTriclinium",
+   "NavystoneWorkBench",
+   "NebulousCataclysm",
+   "Nidhogg",
+   "NitroExpressRifle",
+   "NuclearFuelRod",
+   "Nucleosynthesis",
+   "OasisElementalinaBottle",
+   "OldFashioned",
+   "Omicron",
+   "OmniGun",
+   "OntologicalDespoiler",
+   "OnyxSeekingMechanism",
+   "OnyxTurret",
+   "Onyxplate",
+   "OnyxplateWall",
+   "OrangeCoral",
+   "Orderbringer",
+   "Ozzathoth",
+   "PhalanxSurge",
+   "PiggyCageGold",
+   "PiggyGoldItem",
+   "PinkPearlPile",
+   "PlagueHumidifier",
+   "PlagueTaintedSMG",
+   "PlagueTurret",
+   "PlanebreakersPouch",
+   "PolishedMarniteBlock",
+   "PolishedMarnitePlatform",
+   "PolishedMarniteWall",
+   "PolishedNavystoneBrick",
+   "PolypSand",
+   "PrismCrate",
+   "ProtolithBangle",
+   "PurpleDistortedMonolith",
+   "PurpleHaze",
+   "PyreMantle",
+   "PyreMantleMolten",
+   "PyreMantleWall",
+   "QualitySlop",
+   "Radiance",
+   "RageBait",
+   "RefractivePrismTorch",
+   "Regenerator",
+   "RepairUnitCage",
+   "Respiteblock",
+   "Riftburst",
+   "RoundedAnodizedWulfrumPanelWall",
+   "RoundedAnodizedWulfrumPanels",
+   "Runestone",
+   "RunestoneTerracotta",
+   "RunestoneWall",
+   "SacredStrawberry",
+   "SaharaSlicers",
+   "Salak",
+   "SanctifiedSpark",
+   "Sandblaster",
+   "SandstreamScepter",
+   "SanguineTangerine",
+   "ScionsCurio",
+   "ScorchedBone",
+   "ScorchedBoneWall",
+   "ScorchedRemains",
+   "SeaPrismBrick",
+   "SeaSpiritAmulet",
+   "ShellTrimBrick",
+   "ShellTrimBrickWall",
+   "Shellstone",
+   "ShellstoneSlab",
+   "ShellstoneSlabWall",
+   "ShellstoneWall",
+   "ShieldoftheHighRuler",
+   "ShortCircuit",
+   "ShroomBowl",
+   "ShroombleCage",
+   "ShroombleItem",
+   "SlagCrate",
+   "SlagfireDouser",
+   "SlagsplitterPauldron",
+   "SmokingComet",
+   "SpecularSturgeon",
+   "SpineSapling",
+   "SpringStool",
+   "SproutingArrow",
+   "Squidoom",
+   "StarShower",
+   "StarSwallowerUnit",
+   "StarblightSoot",
+   "Starmageddon",
+   "StarspawnHelixStaff",
+   "StellarTorusStaff",
+   "Stohne",
+   "StygianShield",
+   "SulphurousCrate",
+   "SulphurousSeaWorldSideChanger",
+   "SulphurousShale",
+   "SulphurousShaleWall",
+   "SulphurousTorch",
+   "SunkenSinker",
+   "SuperradiantSlaughterer",
+   "SuspiciousLookingNOU",
+   "Sylvestaff",
+   "TaintedBlade",
+   "TaintedCloudberry",
+   "TauCannon",
+   "TeslasAmulet",
+   "Teslastaff",
+   "TheComb",
+   "TheCommandersCap",
+   "TheConcoction",
+   "TheDarkMaster",
+   "TheElixir",
+   "TheFormalFootwear",
+   "TheGift",
+   "TheGrandGarment",
+   "TheHousingContract",
+   "TheMonument",
+   "ThePact",
+   "ThePointer",
+   "TheSandwich",
+   "ThermalTorch",
+   "ThermoclineBlaster",
+   "ThreadOfEradication",
+   "ToastyBatBottle",
+   "TrustyOldRod",
+   "UnholyTonic",
+   "UnstableCastersGauntlet",
+   "V8000Engine",
+   "V8Engine",
+   "VanishingPoint",
+   "VengefulSunStaff",
+   "VeriumBolt",
+   "VernalBolter",
+   "VernalSoil",
+   "ViciousTonic",
+   "VoidEaterMarionette",
+   "VoidEdge",
+   "VoidTorch",
+   "VolcanicSand",
+   "VolcanicSinker",
+   "Volterion",
+   "Vulcan",
+   "WarbanneroftheRighteous",
+   "WaterTurret",
+   "WhitePearlPile",
+   "WhiteSeekingMechanism",
+   "WildfireBloom",
+   "WillOWisp",
+   "WulfrumBathtub",
+   "WulfrumBed",
+   "WulfrumBobber",
+   "WulfrumBookcase",
+   "WulfrumCandelabra",
+   "WulfrumCandle",
+   "WulfrumChair",
+   "WulfrumChandelier",
+   "WulfrumClock",
+   "WulfrumComplexPanelWall",
+   "WulfrumDresser",
+   "WulfrumEnergyBarrier",
+   "WulfrumEnergyBarrierWall",
+   "WulfrumLabstationItem",
+   "WulfrumLamp",
+   "WulfrumLantern",
+   "WulfrumPanelWall",
+   "WulfrumPanels",
+   "WulfrumPiano",
+   "WulfrumPillar",
+   "WulfrumPlatform",
+   "WulfrumPlating",
+   "WulfrumPlatingWall",
+   "WulfrumSheetWall",
+   "WulfrumSheets",
+   "WulfrumSiding",
+   "WulfrumSidingWall",
+   "WulfrumSink",
+   "WulfrumSofa",
+   "WulfrumTable",
+   "WulfrumToilet",
+   "WulfrumWallMountedBulb",
+   "WulfrumWorkBench",
+   "YellowCoral",
+   "YharonEgg",
+   "ZenithThrone"
+  ],
+  "npcs": [
+   "Astraglomerate",
+   "BabyCannonballJellyfish",
+   "BloodBomb",
+   "BrainIllusion",
+   "BucketZombie",
+   "CladCrab",
+   "CloudElemental",
+   "CrimulanPaladin",
+   "DesertNuisanceHeadYoung",
+   "DivineSwine",
+   "EbonianPaladin",
+   "FalseBrain",
+   "Glomerling",
+   "HiveTumor",
+   "HorribleHog",
+   "InfernalCongealment",
+   "KingSlimeJewelRuby",
+   "PrimordialWyrmHead",
+   "ProfanedRocks",
+   "RenegadeWarlock",
+   "ShadySalesman",
+   "Shroomble",
+   "SightseerCollider",
+   "SightseerSpitter",
+   "SlabCrab",
+   "SplitCrimulanPaladin",
+   "SplitEbonianPaladin",
+   "Sulflounder",
+   "TownPiggy",
+   "Toxicatfish",
+   "VolatileSlime"
+  ]
+ },
+ "removed": [
+  {
+   "class": "AbandonedWulfrumHelmet",
+   "kind": "ModItem",
+   "name": "Abandoned Wulfrum Helmet",
+   "path": "Items/Accessories/Vanity/AbandonedWulfrumHelmet.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "AbyssTorch",
+   "kind": "ModItem",
+   "name": "Abyss Torch",
+   "path": "Items/Placeables/FurnitureAbyss/AbyssTorch.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AbyssalAmulet",
+   "kind": "ModItem",
+   "name": "Abyssal Amulet",
+   "path": "Items/Accessories/AbyssalAmulet.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AbyssalCrate",
+   "kind": "ModItem",
+   "name": "Abyssal Crate",
+   "path": "Items/Fishing/SulphurCatches/AbyssalCrate.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AbyssalDivingSuit",
+   "kind": "ModItem",
+   "name": "Abyssal Diving Suit",
+   "path": "Items/Accessories/AbyssalDivingSuit.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AccelerationRound",
+   "kind": "ModItem",
+   "name": "Acceleration Round",
+   "path": "Items/Ammo/AccelerationRound.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AcidRound",
+   "kind": "ModItem",
+   "name": "Acid Round",
+   "path": "Items/Ammo/AcidRound.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AdultEidolonWyrmBody",
+   "kind": "ModNPC",
+   "name": "Adult Eidolon Wyrm",
+   "path": "NPCs/AdultEidolonWyrm/AdultEidolonWyrmBody.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AdultEidolonWyrmBodyAlt",
+   "kind": "ModNPC",
+   "name": "Adult Eidolon Wyrm",
+   "path": "NPCs/AdultEidolonWyrm/AdultEidolonWyrmBodyAlt.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AdultEidolonWyrmHead",
+   "kind": "ModNPC",
+   "name": "Adult Eidolon Wyrm",
+   "path": "NPCs/AdultEidolonWyrm/AdultEidolonWyrmHead.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AdultEidolonWyrmTail",
+   "kind": "ModNPC",
+   "name": "Adult Eidolon Wyrm",
+   "path": "NPCs/AdultEidolonWyrm/AdultEidolonWyrmTail.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Aftershock",
+   "kind": "ModItem",
+   "name": "Aftershock",
+   "path": "Items/Weapons/Melee/Aftershock.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AlchemicalFlask",
+   "kind": "ModItem",
+   "name": "Alchemical Flask",
+   "path": "Items/Accessories/AlchemicalFlask.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AlphaRay",
+   "kind": "ModItem",
+   "name": "Alpha Ray",
+   "path": "Items/Weapons/Magic/AlphaRay.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AmidiasSpark",
+   "kind": "ModItem",
+   "name": "Amidias' Spark",
+   "path": "Items/Accessories/AmidiasSpark.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AquaticDischarge",
+   "kind": "ModItem",
+   "name": "Aquatic Discharge",
+   "path": "Items/Weapons/Melee/AquaticDischarge.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AquaticHeart",
+   "kind": "ModItem",
+   "name": "Aquatic Heart",
+   "path": "Items/Accessories/AquaticHeart.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ArcticArrow",
+   "kind": "ModItem",
+   "name": "Arctic Arrow",
+   "path": "Items/Ammo/ArcticArrow.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ArmoredDiggerBody",
+   "kind": "ModNPC",
+   "name": "Armored Digger",
+   "path": "NPCs/NormalNPCs/ArmoredDiggerBody.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ArmoredDiggerHead",
+   "kind": "ModNPC",
+   "name": "Armored Digger",
+   "path": "NPCs/NormalNPCs/ArmoredDiggerHead.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ArmoredDiggerTail",
+   "kind": "ModNPC",
+   "name": "Armored Digger",
+   "path": "NPCs/NormalNPCs/ArmoredDiggerTail.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AsteroidStaff",
+   "kind": "ModItem",
+   "name": "Asteroid Staff",
+   "path": "Items/Weapons/Magic/AsteroidStaff.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AstralArcanum",
+   "kind": "ModItem",
+   "name": "Astral Arcanum",
+   "path": "Items/Accessories/AstralArcanum.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AstralBlade",
+   "kind": "ModItem",
+   "name": "Astral Blade",
+   "path": "Items/Weapons/Melee/AstralBlade.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AstralRepeater",
+   "kind": "ModItem",
+   "name": "Astral Bow",
+   "path": "Items/Weapons/Ranged/AstralRepeater.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "AuguroftheElements",
+   "kind": "ModItem",
+   "name": "Augur of the Elements",
+   "path": "Items/Weapons/Magic/AuguroftheElements.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "AureateBooster",
+   "kind": "ModItem",
+   "name": "Aureate Booster",
+   "path": "Items/Accessories/Wings/AureateBooster.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Azathoth",
+   "kind": "ModItem",
+   "name": "Azathoth",
+   "path": "Items/Weapons/Melee/Azathoth.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BalefulHarvester",
+   "kind": "ModItem",
+   "name": "Baleful Harvester",
+   "path": "Items/Weapons/Melee/BalefulHarvester.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Basher",
+   "kind": "ModItem",
+   "name": "Basher",
+   "path": "Items/Weapons/Melee/Basher.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Bazooka",
+   "kind": "ModItem",
+   "name": "Bazooka",
+   "path": "Items/Weapons/Typeless/FiniteUse/Bazooka.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BeetleJuice",
+   "kind": "ModItem",
+   "name": "Beetle Juice",
+   "path": "Items/Materials/BeetleJuice.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BigSightseer",
+   "kind": "ModNPC",
+   "name": "Big Sightseer",
+   "path": "NPCs/Astral/BigSightseer.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BlazingCore",
+   "kind": "ModItem",
+   "name": "Blazing Core",
+   "path": "Items/Accessories/BlazingCore.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BleachedAnglingKit",
+   "kind": "ModItem",
+   "name": "Bleached Angling Kit",
+   "path": "Items/TreasureBags/MiscGrabBags/BleachedAnglingKit.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BloodClotStaff",
+   "kind": "ModItem",
+   "name": "Blood Clot Staff",
+   "path": "Items/Weapons/Summon/BloodClotStaff.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BloodOrange",
+   "kind": "ModItem",
+   "name": "Blood Orange",
+   "path": "Items/PermanentBoosters/BloodOrange.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BloodSample",
+   "kind": "ModItem",
+   "name": "Blood Sample",
+   "path": "Items/Materials/BloodSample.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BloodstoneCore",
+   "kind": "ModItem",
+   "name": "Bloodstone Core",
+   "path": "Items/Materials/BloodstoneCore.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BloodyEdge",
+   "kind": "ModItem",
+   "name": "Bloody Edge",
+   "path": "Items/Weapons/Melee/BloodyEdge.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BlossomFlux",
+   "kind": "ModItem",
+   "name": "Blossom Flux",
+   "path": "Items/Weapons/Ranged/BlossomFlux.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BlueBrickWallUnsafe",
+   "kind": "ModItem",
+   "name": "Blue Brick Wall Unsafe",
+   "path": "Items/Placeables/Walls/BlueBrickWallUnsafe.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BlueSlabWallUnsafe",
+   "kind": "ModItem",
+   "name": "Blue Slab Wall Unsafe",
+   "path": "Items/Placeables/Walls/BlueSlabWallUnsafe.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BlueTiledWallUnsafe",
+   "kind": "ModItem",
+   "name": "Blue Tiled Wall Unsafe",
+   "path": "Items/Placeables/Walls/BlueTiledWallUnsafe.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Brimlish",
+   "kind": "ModItem",
+   "name": "Brimlish",
+   "path": "Items/Fishing/BrimstoneCragCatches/Brimlish.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BrimstoneFish",
+   "kind": "ModItem",
+   "name": "Brimstone Fish",
+   "path": "Items/Fishing/BrimstoneCragCatches/BrimstoneFish.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "BrokenBiomeBlade",
+   "kind": "ModItem",
+   "name": "Broken Biome Blade",
+   "path": "Items/Weapons/Melee/BrokenBiomeBlade.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Bumblefuck",
+   "kind": "ModNPC",
+   "name": "The Dragonfolly",
+   "path": "NPCs/Bumblebirb/Bumblefuck.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Butcher",
+   "kind": "ModItem",
+   "name": "Butcher",
+   "path": "Items/Weapons/Ranged/Butcher.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CadancePotion",
+   "kind": "ModItem",
+   "name": "Cadance Potion",
+   "path": "Items/Potions/CadancePotion.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CalamitasBag",
+   "kind": "ModItem",
+   "name": "Treasure Bag (Calamitas)",
+   "path": "Items/TreasureBags/CalamitasBag.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CalamitasMask",
+   "kind": "ModItem",
+   "name": "Calamitas Mask",
+   "path": "Items/Armor/Vanity/CalamitasMask.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CarnageRay",
+   "kind": "ModItem",
+   "name": "Carnage Ray",
+   "path": "Items/Weapons/Magic/CarnageRay.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CatastropheClaymore",
+   "kind": "ModItem",
+   "name": "Catastrophe Claymore",
+   "path": "Items/Weapons/Melee/CatastropheClaymore.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Catfish",
+   "kind": "ModNPC",
+   "name": "Catfish",
+   "path": "NPCs/SulphurousSea/Catfish.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CelestialJewel",
+   "kind": "ModItem",
+   "name": "Celestial Jewel",
+   "path": "Items/Accessories/CelestialJewel.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CelestialTracers",
+   "kind": "ModItem",
+   "name": "Celestial Tracers",
+   "path": "Items/Accessories/Wings/CelestialTracers.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Chaosplate",
+   "kind": "ModItem",
+   "name": "Chaosplate",
+   "path": "Items/Placeables/Plates/Chaosplate.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ChaosplateWall",
+   "kind": "ModItem",
+   "name": "Chaosplate Wall",
+   "path": "Items/Placeables/Walls/ChaosplateWall.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ChaoticFish",
+   "kind": "ModItem",
+   "name": "Chaotic Fish",
+   "path": "Items/Fishing/BrimstoneCragCatches/ChaoticFish.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CharredOre",
+   "kind": "ModItem",
+   "name": "Charred Ore",
+   "path": "Items/Placeables/Ores/CharredOre.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CharredSlime",
+   "kind": "ModNPC",
+   "name": "Charred Slime",
+   "path": "NPCs/Crags/CharredSlime.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CindersOfLament",
+   "kind": "ModItem",
+   "name": "Cinders of Lament",
+   "path": "Items/Weapons/Summon/CindersOfLament.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CirrusDress",
+   "kind": "ModItem",
+   "name": "Cirrus' Dress",
+   "path": "Items/Armor/CirrusDress.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ClamorNoctus",
+   "kind": "ModItem",
+   "name": "Clamor Noctus",
+   "path": "Items/Weapons/Magic/ClamorNoctus.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ClockGatlignum",
+   "kind": "ModItem",
+   "name": "Clock Gatlignum",
+   "path": "Items/Weapons/Ranged/ClockGatlignum.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ColdDivinity",
+   "kind": "ModItem",
+   "name": "Cold Divinity",
+   "path": "Items/Weapons/Summon/ColdDivinity.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CometQuasher",
+   "kind": "ModItem",
+   "name": "Comet Quasher",
+   "path": "Items/Weapons/Melee/CometQuasher.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CoralCannon",
+   "kind": "ModItem",
+   "name": "Coral Cannon",
+   "path": "Items/Weapons/Ranged/CoralCannon.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CoreOfTheBloodGod",
+   "kind": "ModItem",
+   "name": "Core of the Blood God",
+   "path": "Items/Accessories/CoreOfTheBloodGod.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CoreofChaos",
+   "kind": "ModItem",
+   "name": "Core of Chaos",
+   "path": "Items/Materials/CoreofChaos.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CoreofEleum",
+   "kind": "ModItem",
+   "name": "Core of Eleum",
+   "path": "Items/Materials/CoreofEleum.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CoreofSunlight",
+   "kind": "ModItem",
+   "name": "Core of Sunlight",
+   "path": "Items/Materials/CoreofSunlight.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CorroslimeStaff",
+   "kind": "ModItem",
+   "name": "Corroslime Staff",
+   "path": "Items/Weapons/Summon/CorroslimeStaff.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CorruptFlask",
+   "kind": "ModItem",
+   "name": "Corrupt Flask",
+   "path": "Items/Accessories/CorruptFlask.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CosmicBolter",
+   "kind": "ModItem",
+   "name": "Cosmic Bolter",
+   "path": "Items/Weapons/Ranged/CosmicBolter.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "CosmicElemental",
+   "kind": "ModNPC",
+   "name": "Cosmic Elemental",
+   "path": "NPCs/NormalNPCs/CosmicElemental.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CosmicGuardianBody",
+   "kind": "ModNPC",
+   "name": "Cosmic Guardian",
+   "path": "NPCs/DevourerofGods/CosmicGuardianBody.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CosmicGuardianHead",
+   "kind": "ModNPC",
+   "name": "Cosmic Guardian",
+   "path": "NPCs/DevourerofGods/CosmicGuardianHead.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CosmicGuardianTail",
+   "kind": "ModNPC",
+   "name": "Cosmic Guardian",
+   "path": "NPCs/DevourerofGods/CosmicGuardianTail.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CrimslimeStaff",
+   "kind": "ModItem",
+   "name": "Crimslime Staff",
+   "path": "Items/Weapons/Summon/CrimslimeStaff.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CrimsonFlask",
+   "kind": "ModItem",
+   "name": "Crimson Flask",
+   "path": "Items/Accessories/CrimsonFlask.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CrimulanSlimeGod",
+   "kind": "ModNPC",
+   "name": "Crimulan Slime God",
+   "path": "NPCs/SlimeGod/CrimulanSlimeGod.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CultistAssassin",
+   "kind": "ModNPC",
+   "name": "Cultist Assassin",
+   "path": "NPCs/Crags/CultistAssassin.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "CursedCapper",
+   "kind": "ModItem",
+   "name": "Cursed Capper",
+   "path": "Items/Weapons/Ranged/CursedCapper.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "DarkGodsSheath",
+   "kind": "ModItem",
+   "name": "Dark God's Sheath",
+   "path": "Items/Accessories/DarkGodsSheath.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "DeathhailStaff",
+   "kind": "ModItem",
+   "name": "Deathhail Staff",
+   "path": "Items/Weapons/Magic/DeathhailStaff.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Deathwind",
+   "kind": "ModItem",
+   "name": "Deathwind",
+   "path": "Items/Weapons/Ranged/Deathwind.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "DemonicBoneAsh",
+   "kind": "ModItem",
+   "name": "Demonic Bone Ash",
+   "path": "Items/Materials/DemonicBoneAsh.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "DesertFeather",
+   "kind": "ModItem",
+   "name": "Desert Feather",
+   "path": "Items/Materials/DesertFeather.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Devastation",
+   "kind": "ModItem",
+   "name": "Devastation",
+   "path": "Items/Weapons/Melee/Devastation.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "DimensionalSoulArtifact",
+   "kind": "ModItem",
+   "name": "Dimensional Soul Artifact",
+   "path": "Items/Accessories/DimensionalSoulArtifact.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "DiseasedPike",
+   "kind": "ModItem",
+   "name": "Diseased Pike",
+   "path": "Items/Weapons/Melee/DiseasedPike.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Disseminator",
+   "kind": "ModItem",
+   "name": "Disseminator",
+   "path": "Items/Weapons/Ranged/Disseminator.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "DivineRetribution",
+   "kind": "ModItem",
+   "name": "Divine Retribution",
+   "path": "Items/Weapons/Magic/DivineRetribution.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "DodusHandcannon",
+   "kind": "ModItem",
+   "name": "Dodu's Handcannon",
+   "path": "Items/Weapons/Ranged/DodusHandcannon.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "DraconicElixir",
+   "kind": "ModItem",
+   "name": "Draconic Elixir",
+   "path": "Items/Potions/DraconicElixir.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "DraedonsAmbienceMusicBox",
+   "kind": "ModItem",
+   "name": "Music Box (Draedon's Ambience)",
+   "path": "Items/Placeables/MusicBoxes/DraedonsAmbienceMusicBox.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "Dragonfruit",
+   "kind": "ModItem",
+   "name": "Dragonfruit",
+   "path": "Items/PermanentBoosters/Dragonfruit.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "DrewsWings",
+   "kind": "ModItem",
+   "name": "Drew's Wings",
+   "path": "Items/Accessories/Wings/DrewsWings.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Earth",
+   "kind": "ModItem",
+   "name": "Earth",
+   "path": "Items/Weapons/Melee/Earth.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "EbonianSlimeGod",
+   "kind": "ModNPC",
+   "name": "Ebonian Slime God",
+   "path": "NPCs/SlimeGod/EbonianSlimeGod.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EffluviumBow",
+   "kind": "ModItem",
+   "name": "Effluvium Bow",
+   "path": "Items/Weapons/Ranged/EffluviumBow.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Elderberry",
+   "kind": "ModItem",
+   "name": "Elderberry",
+   "path": "Items/PermanentBoosters/Elderberry.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EldritchSoulArtifact",
+   "kind": "ModItem",
+   "name": "Eldritch Soul Artifact",
+   "path": "Items/Accessories/EldritchSoulArtifact.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ElementalAxe",
+   "kind": "ModItem",
+   "name": "Elemental Axe",
+   "path": "Items/Weapons/Summon/ElementalAxe.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ElementalBlaster",
+   "kind": "ModItem",
+   "name": "Elemental Blaster",
+   "path": "Items/Weapons/Ranged/ElementalBlaster.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ElementalEruption",
+   "kind": "ModItem",
+   "name": "Elemental Eruption",
+   "path": "Items/Weapons/Ranged/ElementalEruption.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ElementalExcalibur",
+   "kind": "ModItem",
+   "name": "Elemental Excalibur",
+   "path": "Items/Weapons/Melee/ElementalExcalibur.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ElementalLance",
+   "kind": "ModItem",
+   "name": "Elemental Lance",
+   "path": "Items/Weapons/Melee/ElementalLance.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ElementalQuiver",
+   "kind": "ModItem",
+   "name": "Elemental Quiver",
+   "path": "Items/Accessories/ElementalQuiver.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ElementalRay",
+   "kind": "ModItem",
+   "name": "Elemental Ray",
+   "path": "Items/Weapons/Magic/ElementalRay.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ElementalShiv",
+   "kind": "ModItem",
+   "name": "Elemental Shiv",
+   "path": "Items/Weapons/Melee/ElementalShiv.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ElephantKiller",
+   "kind": "ModItem",
+   "name": "Elephant Killer",
+   "path": "Items/Weapons/Typeless/FiniteUse/ElephantKiller.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ElysianTracers",
+   "kind": "ModItem",
+   "name": "Elysian Tracers",
+   "path": "Items/Accessories/Wings/ElysianTracers.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ElysianWings",
+   "kind": "ModItem",
+   "name": "Elysian Wings",
+   "path": "Items/Accessories/Wings/ElysianWings.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EnergyStaff",
+   "kind": "ModItem",
+   "name": "Energy Staff",
+   "path": "Items/Weapons/Summon/EnergyStaff.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EnhancedNanoRound",
+   "kind": "ModItem",
+   "name": "Enhanced Nano Round",
+   "path": "Items/Ammo/EnhancedNanoRound.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EssenceofChaos",
+   "kind": "ModItem",
+   "name": "Essence of Chaos",
+   "path": "Items/Materials/EssenceofChaos.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicBathtub",
+   "kind": "ModItem",
+   "name": "Eutrophic Bathtub",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicBathtub.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicBed",
+   "kind": "ModItem",
+   "name": "Eutrophic Bed",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicBed.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicBench",
+   "kind": "ModItem",
+   "name": "Eutrophic Bench",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicBench.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicBookcase",
+   "kind": "ModItem",
+   "name": "Eutrophic Bookcase",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicBookcase.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicCandelabra",
+   "kind": "ModItem",
+   "name": "Eutrophic Candelabra",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicCandelabra.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicCandle",
+   "kind": "ModItem",
+   "name": "Eutrophic Candle",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicCandle.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicChair",
+   "kind": "ModItem",
+   "name": "Eutrophic Chair",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicChair.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicChandelier",
+   "kind": "ModItem",
+   "name": "Eutrophic Chandelier",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicChandelier.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicChest",
+   "kind": "ModItem",
+   "name": "Eutrophic Chest",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicChest.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicClock",
+   "kind": "ModItem",
+   "name": "Eutrophic Clock",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicClock.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicDoor",
+   "kind": "ModItem",
+   "name": "Eutrophic Door",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicDoor.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicDresser",
+   "kind": "ModItem",
+   "name": "Eutrophic Dresser",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicDresser.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicLamp",
+   "kind": "ModItem",
+   "name": "Eutrophic Lamp",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicLamp.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicLantern",
+   "kind": "ModItem",
+   "name": "Eutrophic Lantern",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicLantern.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicPiano",
+   "kind": "ModItem",
+   "name": "Eutrophic Piano",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicPiano.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicPlatform",
+   "kind": "ModItem",
+   "name": "Eutrophic Platform",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicPlatform.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicSandfish",
+   "kind": "ModItem",
+   "name": "Eutrophic Sandfish",
+   "path": "Items/Fishing/SunkenSeaCatches/EutrophicSandfish.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicScimitar",
+   "kind": "ModItem",
+   "name": "Eutrophic Scimitar",
+   "path": "Items/Weapons/Melee/EutrophicScimitar.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicSink",
+   "kind": "ModItem",
+   "name": "Eutrophic Sink",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicSink.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicTable",
+   "kind": "ModItem",
+   "name": "Eutrophic Table",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicTable.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EutrophicWorkBench",
+   "kind": "ModItem",
+   "name": "Eutrophic Work Bench",
+   "path": "Items/Placeables/FurnitureEutrophic/EutrophicWorkBench.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "EvilSmasher",
+   "kind": "ModItem",
+   "name": "Evil Smasher",
+   "path": "Items/Weapons/Melee/EvilSmasher.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Excelsus",
+   "kind": "ModItem",
+   "name": "Excelsus",
+   "path": "Items/Weapons/Melee/Excelsus.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ExodusWings",
+   "kind": "ModItem",
+   "name": "Exodus Wings",
+   "path": "Items/Accessories/Wings/ExodusWings.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ExplosiveShells",
+   "kind": "ModItem",
+   "name": "Explosive Shotgun Shell",
+   "path": "Items/Ammo/FiniteUse/ExplosiveShells.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "FAP",
+   "kind": "ModNPC",
+   "name": "Drunk Princess",
+   "path": "NPCs/TownNPCs/FAP.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Fabsol",
+   "kind": "ModItem",
+   "name": "Princess Spirit in a Bottle",
+   "path": "Items/Mounts/Fabsol.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "FabsolsVodka",
+   "kind": "ModItem",
+   "name": "Fabsol's Vodka",
+   "path": "Items/Potions/Alcohol/FabsolsVodka.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Fabstaff",
+   "kind": "ModItem",
+   "name": "Fabstaff",
+   "path": "Items/Weapons/Magic/Fabstaff.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "FishofEleum",
+   "kind": "ModItem",
+   "name": "Fish of Eleum",
+   "path": "Items/Fishing/FishofEleum.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "FishofLight",
+   "kind": "ModItem",
+   "name": "Fish of Light",
+   "path": "Items/Fishing/FishofLight.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "FishofNight",
+   "kind": "ModItem",
+   "name": "Fish of Night",
+   "path": "Items/Fishing/FishofNight.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Flounder",
+   "kind": "ModNPC",
+   "name": "Flounder",
+   "path": "NPCs/SulphurousSea/Flounder.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "FungalCarapace",
+   "kind": "ModItem",
+   "name": "Fungal Carapace",
+   "path": "Items/Accessories/FungalCarapace.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GalacticaSingularity",
+   "kind": "ModItem",
+   "name": "Galactica Singularity",
+   "path": "Items/Materials/GalacticaSingularity.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GalileoGladius",
+   "kind": "ModItem",
+   "name": "Galileo Gladius",
+   "path": "Items/Weapons/Melee/GalileoGladius.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GatlingLaser",
+   "kind": "ModItem",
+   "name": "Gatling Laser",
+   "path": "Items/Weapons/DraedonsArsenal/GatlingLaser.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GaussDagger",
+   "kind": "ModItem",
+   "name": "Gauss Dagger",
+   "path": "Items/Weapons/DraedonsArsenal/GaussDagger.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GaussPistol",
+   "kind": "ModItem",
+   "name": "Gauss Pistol",
+   "path": "Items/Weapons/DraedonsArsenal/GaussPistol.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GaussRifle",
+   "kind": "ModItem",
+   "name": "Gauss Rifle",
+   "path": "Items/Weapons/DraedonsArsenal/GaussRifle.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Gehenna",
+   "kind": "ModItem",
+   "name": "Gehenna",
+   "path": "Items/Accessories/Gehenna.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Genisis",
+   "kind": "ModItem",
+   "name": "Genisis",
+   "path": "Items/Weapons/Magic/Genisis.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GildedProboscis",
+   "kind": "ModItem",
+   "name": "Gilded Proboscis",
+   "path": "Items/Weapons/Melee/GildedProboscis.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GodlySoulArtifact",
+   "kind": "ModItem",
+   "name": "Godly Soul Artifact",
+   "path": "Items/Accessories/GodlySoulArtifact.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GodsBellows",
+   "kind": "ModItem",
+   "name": "God's Bellows",
+   "path": "Items/Weapons/Ranged/GodsBellows.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GodspawnHelixStaff",
+   "kind": "ModItem",
+   "name": "Godspawn Helix Staff",
+   "path": "Items/Weapons/Summon/GodspawnHelixStaff.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GoldenGun",
+   "kind": "ModItem",
+   "name": "Golden Gun",
+   "path": "Items/Weapons/Typeless/GoldenGun.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GrandGuardian",
+   "kind": "ModItem",
+   "name": "Grand Guardian",
+   "path": "Items/Weapons/Melee/GrandGuardian.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "GravistarSabaton",
+   "kind": "ModItem",
+   "name": "Gravistar Sabaton",
+   "path": "Items/Accessories/GravistarSabaton.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GreatswordofBlah",
+   "kind": "ModItem",
+   "name": "Greatsword of Blah",
+   "path": "Items/Weapons/Melee/GreatswordofBlah.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GreenBrickWallUnsafe",
+   "kind": "ModItem",
+   "name": "Green Brick Wall Unsafe",
+   "path": "Items/Placeables/Walls/GreenBrickWallUnsafe.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GreenSlabWallUnsafe",
+   "kind": "ModItem",
+   "name": "Green Slab Wall Unsafe",
+   "path": "Items/Placeables/Walls/GreenSlabWallUnsafe.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GreenTiledWallUnsafe",
+   "kind": "ModItem",
+   "name": "Green Tiled Wall Unsafe",
+   "path": "Items/Placeables/Walls/GreenTiledWallUnsafe.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "GrenadeRounds",
+   "kind": "ModItem",
+   "name": "Grenade Shell",
+   "path": "Items/Ammo/FiniteUse/GrenadeRounds.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "GruesomeEminence",
+   "kind": "ModItem",
+   "name": "Gruesome Eminence",
+   "path": "Items/Weapons/Magic/GruesomeEminence.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "HadalMantle",
+   "kind": "ModItem",
+   "name": "Hadal Mantle",
+   "path": "Items/Accessories/Wings/HadalMantle.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "HadarianWings",
+   "kind": "ModItem",
+   "name": "Hadarian Wings",
+   "path": "Items/Accessories/Wings/HadarianWings.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "HeavyLaserRifle",
+   "kind": "ModItem",
+   "name": "Heavy Laser Rifle",
+   "path": "Items/Weapons/DraedonsArsenal/HeavyLaserRifle.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Hellkite",
+   "kind": "ModItem",
+   "name": "Hellkite",
+   "path": "Items/Weapons/Melee/Hellkite.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "HiveCyst",
+   "kind": "ModNPC",
+   "name": "Hive Cyst",
+   "path": "NPCs/HiveMind/HiveCyst.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "HiveEnemy",
+   "kind": "ModNPC",
+   "name": "Hive",
+   "path": "NPCs/Astral/HiveEnemy.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Hiveling",
+   "kind": "ModNPC",
+   "name": "Hiveling",
+   "path": "NPCs/Astral/Hiveling.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "HolyCollider",
+   "kind": "ModItem",
+   "name": "Holy Collider",
+   "path": "Items/Weapons/Melee/HolyCollider.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "HolyWrathPotion",
+   "kind": "ModItem",
+   "name": "Holy Wrath Potion",
+   "path": "Items/Potions/HolyWrathPotion.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "IcyBullet",
+   "kind": "ModItem",
+   "name": "Icy Bullet",
+   "path": "Items/Ammo/IcyBullet.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "JungleDragonEgg",
+   "kind": "ModItem",
+   "name": "Jungle Dragon Egg",
+   "path": "Items/SummonItems/JungleDragonEgg.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Lazhar",
+   "kind": "ModItem",
+   "name": "Lazhar",
+   "path": "Items/Weapons/Magic/Lazhar.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "LightningHawk",
+   "kind": "ModItem",
+   "name": "Lightning Hawk",
+   "path": "Items/Weapons/Typeless/FiniteUse/LightningHawk.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Lucrecia",
+   "kind": "ModItem",
+   "name": "Lucrecia",
+   "path": "Items/Weapons/Melee/Lucrecia.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "LumenousAmulet",
+   "kind": "ModItem",
+   "name": "Lumenous Amulet",
+   "path": "Items/Accessories/LumenousAmulet.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "MOAB",
+   "kind": "ModItem",
+   "name": "MOAB",
+   "path": "Items/Accessories/Wings/MOAB.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "MagicalConch",
+   "kind": "ModItem",
+   "name": "Magical Conch",
+   "path": "Items/Weapons/Summon/MagicalConch.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "MagnaStriker",
+   "kind": "ModItem",
+   "name": "Magna Striker",
+   "path": "Items/Weapons/Ranged/MagnaStriker.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Magnum",
+   "kind": "ModItem",
+   "name": "Magnum",
+   "path": "Items/Weapons/Typeless/FiniteUse/Magnum.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "MagnumRounds",
+   "kind": "ModItem",
+   "name": "Magnum Round",
+   "path": "Items/Ammo/FiniteUse/MagnumRounds.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "MajesticGuard",
+   "kind": "ModItem",
+   "name": "Majestic Guard",
+   "path": "Items/Weapons/Melee/MajesticGuard.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "ManaJelly",
+   "kind": "ModItem",
+   "name": "Mana Jelly",
+   "path": "Items/Accessories/ManaJelly.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "MantisClaws",
+   "kind": "ModItem",
+   "name": "Mantis Claws",
+   "path": "Items/Weapons/Melee/MantisClaws.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "MatterModulator",
+   "kind": "ModItem",
+   "name": "Matter Modulator",
+   "path": "Items/Weapons/DraedonsArsenal/MatterModulator.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "MeldConstruct",
+   "kind": "ModItem",
+   "name": "Meld Construct",
+   "path": "Items/Materials/MeldConstruct.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Metastasis",
+   "kind": "ModItem",
+   "name": "Metastasis",
+   "path": "Items/Weapons/Summon/Metastasis.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Minigun",
+   "kind": "ModItem",
+   "name": "Minigun",
+   "path": "Items/Weapons/Ranged/Minigun.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "MirrorBlade",
+   "kind": "ModItem",
+   "name": "Mirror Blade",
+   "path": "Items/Weapons/Melee/MirrorBlade.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "MolecularManipulator",
+   "kind": "ModItem",
+   "name": "Molecular Manipulator",
+   "path": "Items/Weapons/Ranged/MolecularManipulator.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "MurkyPaste",
+   "kind": "ModItem",
+   "name": "Murky Paste",
+   "path": "Items/Materials/MurkyPaste.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "NapalmArrow",
+   "kind": "ModItem",
+   "name": "Napalm Arrow",
+   "path": "Items/Ammo/NapalmArrow.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "NuclearRod",
+   "kind": "ModItem",
+   "name": "Nuclear Rod",
+   "path": "Items/Accessories/NuclearRod.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "OldLordOathsword",
+   "kind": "ModItem",
+   "name": "Old Lord Oathsword",
+   "path": "Items/Weapons/Melee/OldLordOathsword.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "OldPowerCell",
+   "kind": "ModItem",
+   "name": "Old Power Cell",
+   "path": "Items/SummonItems/OldPowerCell.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "PenumbraPotion",
+   "kind": "ModItem",
+   "name": "Penumbra Potion",
+   "path": "Items/Potions/PenumbraPotion.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Phangasm",
+   "kind": "ModItem",
+   "name": "Phangasm",
+   "path": "Items/Weapons/Ranged/Phangasm.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Phantoplasm",
+   "kind": "ModItem",
+   "name": "Phantoplasm",
+   "path": "Items/Materials/Phantoplasm.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "PinkBrickWallUnsafe",
+   "kind": "ModItem",
+   "name": "Pink Brick Wall Unsafe",
+   "path": "Items/Placeables/Walls/PinkBrickWallUnsafe.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "PinkSlabWallUnsafe",
+   "kind": "ModItem",
+   "name": "Pink Slab Wall Unsafe",
+   "path": "Items/Placeables/Walls/PinkSlabWallUnsafe.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "PinkTiledWallUnsafe",
+   "kind": "ModItem",
+   "name": "Pink Tiled Wall Unsafe",
+   "path": "Items/Placeables/Walls/PinkTiledWallUnsafe.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "PlagueHive",
+   "kind": "ModItem",
+   "name": "Plague Hive",
+   "path": "Items/Accessories/PlagueHive.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "PlagueKeeper",
+   "kind": "ModItem",
+   "name": "Plague Keeper",
+   "path": "Items/Weapons/Melee/PlagueKeeper.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Popo",
+   "kind": "ModItem",
+   "name": "Magic Scarf and Hat",
+   "path": "Items/Accessories/Vanity/Popo.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "PristineFury",
+   "kind": "ModItem",
+   "name": "Pristine Fury",
+   "path": "Items/Weapons/Ranged/PristineFury.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ProfanedRagePotion",
+   "kind": "ModItem",
+   "name": "Profaned Rage Potion",
+   "path": "Items/Potions/ProfanedRagePotion.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ProfanedSoulCrystal",
+   "kind": "ModItem",
+   "name": "Profaned Soul Crystal",
+   "path": "Items/Accessories/ProfanedSoulCrystal.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "PurpleSeekingMechanism",
+   "kind": "ModItem",
+   "name": "Purple Seeking Mechanism",
+   "path": "Items/LabFinders/PurpleSeekingMechanism.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Rancor",
+   "kind": "ModItem",
+   "name": "Rancor",
+   "path": "Items/Weapons/Magic/Rancor.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "RedtideSpear",
+   "kind": "ModItem",
+   "name": "Redtide Spear",
+   "path": "Items/Weapons/Melee/RedtideSpear.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Regenator",
+   "kind": "ModItem",
+   "name": "Regenator",
+   "path": "Items/Accessories/Regenator.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "RottenMatter",
+   "kind": "ModItem",
+   "name": "Rotten Matter",
+   "path": "Items/Materials/RottenMatter.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "RuneofKos",
+   "kind": "ModItem",
+   "name": "Rune of Kos",
+   "path": "Items/SummonItems/RuneofKos.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "RustyMedallion",
+   "kind": "ModItem",
+   "name": "Rusty Medallion",
+   "path": "Items/Accessories/RustyMedallion.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SHPC",
+   "kind": "ModItem",
+   "name": "SHPC",
+   "path": "Items/Weapons/Magic/SHPC.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SandstormGun",
+   "kind": "ModItem",
+   "name": "Sandstorm",
+   "path": "Items/Weapons/Ranged/SandstormGun.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SandyAnglingKit",
+   "kind": "ModItem",
+   "name": "Sandy Angling Kit",
+   "path": "Items/TreasureBags/MiscGrabBags/SandyAnglingKit.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SeaUrchin",
+   "kind": "ModNPC",
+   "name": "Sea Urchin",
+   "path": "NPCs/NormalNPCs/SeaUrchin.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SeaboundStaff",
+   "kind": "ModItem",
+   "name": "Seabound Staff",
+   "path": "Items/Weapons/Summon/SeaboundStaff.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SeraphTracers",
+   "kind": "ModItem",
+   "name": "Seraph Tracers",
+   "path": "Items/Accessories/Wings/SeraphTracers.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Serpentuna",
+   "kind": "ModItem",
+   "name": "Serpentuna",
+   "path": "Items/Fishing/SunkenSeaCatches/Serpentuna.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "ShroomiteVisage",
+   "kind": "ModItem",
+   "name": "Shroomite Visage",
+   "path": "Items/Armor/ShroomiteVisage.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SilvaWings",
+   "kind": "ModItem",
+   "name": "Silva Wings",
+   "path": "Items/Accessories/Wings/SilvaWings.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SkylineWings",
+   "kind": "ModItem",
+   "name": "Skyline Wings",
+   "path": "Items/Accessories/Wings/SkylineWings.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Slurpfish",
+   "kind": "ModItem",
+   "name": "Slurpfish",
+   "path": "Items/Fishing/BrimstoneCragCatches/Slurpfish.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SmallSightseer",
+   "kind": "ModNPC",
+   "name": "Small Sightseer",
+   "path": "NPCs/Astral/SmallSightseer.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SolarFlare",
+   "kind": "ModItem",
+   "name": "Solar Flare",
+   "path": "Items/Weapons/Melee/SolarFlare.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SoulEdge",
+   "kind": "ModItem",
+   "name": "Soul Edge",
+   "path": "Items/Weapons/Melee/SoulEdge.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SoulofCryogen",
+   "kind": "ModItem",
+   "name": "Soul of Cryogen",
+   "path": "Items/Accessories/Wings/SoulofCryogen.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Spadefish",
+   "kind": "ModItem",
+   "name": "Spadefish",
+   "path": "Items/Fishing/Spadefish.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SplitCrimulanSlimeGod",
+   "kind": "ModNPC",
+   "name": "Crimulan Slime God",
+   "path": "NPCs/SlimeGod/SplitCrimulanSlimeGod.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SplitEbonianSlimeGod",
+   "kind": "ModNPC",
+   "name": "Ebonian Slime God",
+   "path": "NPCs/SlimeGod/SplitEbonianSlimeGod.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "StaffoftheMechworm",
+   "kind": "ModItem",
+   "name": "Staff of the Mechworm",
+   "path": "Items/Weapons/Summon/StaffoftheMechworm.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "StarSwallowerContainmentUnit",
+   "kind": "ModItem",
+   "name": "Star Swallower Containment Unit",
+   "path": "Items/Weapons/DraedonsArsenal/StarSwallowerContainmentUnit.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Stardust",
+   "kind": "ModItem",
+   "name": "Stardust",
+   "path": "Items/Materials/Stardust.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Starfall",
+   "kind": "ModItem",
+   "name": "Starfall",
+   "path": "Items/Weapons/Magic/Starfall.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "StarlightWings",
+   "kind": "ModItem",
+   "name": "Starlight Wings",
+   "path": "Items/Accessories/Wings/StarlightWings.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "StellarStriker",
+   "kind": "ModItem",
+   "name": "Stellar Striker",
+   "path": "Items/Weapons/Melee/StellarStriker.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "StormDragoon",
+   "kind": "ModItem",
+   "name": "Storm Dragoon",
+   "path": "Items/Weapons/Ranged/StormDragoon.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "StormSpray",
+   "kind": "ModItem",
+   "name": "Storm Spray",
+   "path": "Items/Weapons/Magic/StormSpray.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SunGodStaff",
+   "kind": "ModItem",
+   "name": "Sun God Staff",
+   "path": "Items/Weapons/Summon/SunGodStaff.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SunbeamFish",
+   "kind": "ModItem",
+   "name": "Sunbeam Fish",
+   "path": "Items/Fishing/SunbeamFish.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SunkenCrate",
+   "kind": "ModItem",
+   "name": "Sunken Crate",
+   "path": "Items/Fishing/SunkenSeaCatches/SunkenCrate.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SuperballBullet",
+   "kind": "ModItem",
+   "name": "Superball Bullet",
+   "path": "Items/Ammo/SuperballBullet.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "SupremeCalamitasCoffer",
+   "kind": "ModItem",
+   "name": "Treasure Coffer (Supreme Calamitas)",
+   "path": "Items/TreasureBags/SupremeCalamitasCoffer.cs",
+   "wikiPage": false
+  },
+  {
+   "class": "SurfClam",
+   "kind": "ModItem",
+   "name": "Surf Clam",
+   "path": "Items/Fishing/SunkenSeaCatches/SurfClam.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TarragonWings",
+   "kind": "ModItem",
+   "name": "Tarragon Wings",
+   "path": "Items/Accessories/Wings/TarragonWings.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Taser",
+   "kind": "ModItem",
+   "name": "Taser",
+   "path": "Items/Weapons/DraedonsArsenal/Taser.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Tenebris",
+   "kind": "ModItem",
+   "name": "Tenebris",
+   "path": "Items/Placeables/Tenebris.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TerraArrow",
+   "kind": "ModItem",
+   "name": "Terra Arrow",
+   "path": "Items/Ammo/TerraArrow.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TerraBullet",
+   "kind": "ModItem",
+   "name": "Terra Bullet",
+   "path": "Items/Ammo/TerraBullet.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TerraEdge",
+   "kind": "ModItem",
+   "name": "Terra Edge",
+   "path": "Items/Weapons/Melee/TerraEdge.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TerraFlameburster",
+   "kind": "ModItem",
+   "name": "Terra Flameburster",
+   "path": "Items/Weapons/Ranged/TerraFlameburster.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TerraLance",
+   "kind": "ModItem",
+   "name": "Terra Lance",
+   "path": "Items/Weapons/Melee/TerraLance.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TerraRay",
+   "kind": "ModItem",
+   "name": "Terra Ray",
+   "path": "Items/Weapons/Magic/TerraRay.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TeslaPotion",
+   "kind": "ModItem",
+   "name": "Tesla Potion",
+   "path": "Items/Potions/TeslaPotion.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TheEnforcer",
+   "kind": "ModItem",
+   "name": "The Enforcer",
+   "path": "Items/Weapons/Melee/TheEnforcer.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TheMutilator",
+   "kind": "ModItem",
+   "name": "The Mutilator",
+   "path": "Items/Weapons/Melee/TheMutilator.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Thunderstorm",
+   "kind": "ModItem",
+   "name": "Thunderstorm",
+   "path": "Items/Weapons/Magic/Thunderstorm.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TitanScalePotion",
+   "kind": "ModItem",
+   "name": "Titan Scale Potion",
+   "path": "Items/Potions/TitanScalePotion.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TomeofFates",
+   "kind": "ModItem",
+   "name": "Tome of Fates",
+   "path": "Items/Weapons/Magic/TomeofFates.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TrapperBulb",
+   "kind": "ModItem",
+   "name": "Trapper Bulb",
+   "path": "Items/Materials/TrapperBulb.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TriumphPotion",
+   "kind": "ModItem",
+   "name": "Triumph Potion",
+   "path": "Items/Potions/TriumphPotion.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TrueBiomeBlade",
+   "kind": "ModItem",
+   "name": "Biome Blade",
+   "path": "Items/Weapons/Melee/TrueBiomeBlade.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TrueBloodyEdge",
+   "kind": "ModItem",
+   "name": "True Bloody Edge",
+   "path": "Items/Weapons/Melee/TrueBloodyEdge.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TrueForbiddenOathblade",
+   "kind": "ModItem",
+   "name": "True Forbidden Oathblade",
+   "path": "Items/Weapons/Melee/TrueForbiddenOathblade.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TrueTyrantYharimsUltisword",
+   "kind": "ModItem",
+   "name": "True Tyrant's Ultisword",
+   "path": "Items/Weapons/Melee/TrueTyrantYharimsUltisword.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "TyrantYharimsUltisword",
+   "kind": "ModItem",
+   "name": "Tyrant Yharim's Ultisword",
+   "path": "Items/Weapons/Melee/TyrantYharimsUltisword.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "UrchinFlail",
+   "kind": "ModItem",
+   "name": "Urchin Flail",
+   "path": "Items/Weapons/Melee/UrchinFlail.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Verdant",
+   "kind": "ModItem",
+   "name": "Verdant",
+   "path": "Items/Weapons/Melee/Verdant.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "VeriumBullet",
+   "kind": "ModItem",
+   "name": "Verium Bullet",
+   "path": "Items/Ammo/VeriumBullet.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "VoidofExtinction",
+   "kind": "ModItem",
+   "name": "Void of Extinction",
+   "path": "Items/Accessories/VoidofExtinction.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "WarbanneroftheSun",
+   "kind": "ModItem",
+   "name": "Warbanner of the Sun",
+   "path": "Items/Accessories/WarbanneroftheSun.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "WifeinaBottlewithBoobs",
+   "kind": "ModItem",
+   "name": "Rare Elemental in a Bottle",
+   "path": "Items/Accessories/WifeinaBottlewithBoobs.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "WrathoftheAncients",
+   "kind": "ModItem",
+   "name": "Wrath of the Ancients",
+   "path": "Items/Weapons/Magic/WrathoftheAncients.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "Xerocodile",
+   "kind": "ModItem",
+   "name": "Xerocodile",
+   "path": "Items/Fishing/Xerocodile.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "YanmeisKnife",
+   "kind": "ModItem",
+   "name": "Yanmei's Knife",
+   "path": "Items/Weapons/Typeless/YanmeisKnife.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "YharimsInsignia",
+   "kind": "ModItem",
+   "name": "Yharim's Insignia",
+   "path": "Items/Accessories/YharimsInsignia.cs",
+   "wikiPage": true
+  },
+  {
+   "class": "YharimsStimulants",
+   "kind": "ModItem",
+   "name": "Yharim's Stimulants",
+   "path": "Items/Potions/YharimsStimulants.cs",
+   "wikiPage": true
+  }
+ ]
+}

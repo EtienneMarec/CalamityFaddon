@@ -82,3 +82,15 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
 - [ ] En Expert, un boss ne lâche pas en double ce qui est déjà dans son sac
 - [ ] Les entrées du bestiaire affichent les nouveaux drops sans planter
 - [ ] Un ver (Aquatic Scourge) ne lâche son butin qu'une fois
+
+---
+
+## Passe 2 — Modes de fidélité (`docs/MODES.md`)
+
+Contrôlé par `python tools/selftest.py --mode all`. En jeu :
+- [ ] Config « Calamity Fandom » : option « Fandom accuracy » (3 choix, Minimal par défaut), le mod demande un rechargement
+- [ ] Monde créé en Minimal puis ouvert en Full Fandom : message orange à l'entrée
+- [ ] Full Fandom : un objet récent de Calamity (voir `reports/baseline.md`, section « masqués ») n'a plus de recette
+- [ ] Full Fandom : le Desert Scourge a ses 350 000 PV du wiki (ratio x87,5)
+- [ ] Full Fandom : Acidwood ne se fabrique plus depuis Acidwood Wall (recette absente du wiki)
+- [ ] Retour en Minimal : tout revient comme avant

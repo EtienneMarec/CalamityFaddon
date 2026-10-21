@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
+using CalamityFandom.Common.Config;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -67,7 +68,7 @@ namespace CalamityFandom.Common.WikiData
         public static Dictionary<int, List<Resolved>> Applied { get; } = new();
         /// <summary>Noms introuvables (objets, stations) → nombre de recettes bloquées.</summary>
         public static Dictionary<string, int> Missing { get; } = new();
-        public static int Unchanged, Edited, Created, Kept, ShimmerSet;
+        public static int Unchanged, Edited, Created, Kept, DisabledNotOnWiki, ShimmerSet;
         /// <summary>Détail lisible des changements (objet, avant, après) pour le rapport.</summary>
         public static List<(int result, string before, string after)> Changes { get; } = new();
 
@@ -107,6 +108,7 @@ namespace CalamityFandom.Common.WikiData
             Applied.Clear();
             Missing.Clear();
             Changes.Clear();
+            Unchanged = Edited = Created = Kept = DisabledNotOnWiki = ShimmerSet = 0;
         }
 
         public override void AddRecipeGroups()
@@ -323,7 +325,7 @@ namespace CalamityFandom.Common.WikiData
                 else
                     remainingWanted.Add(target);
             }
-            if (remainingWanted.Count == 0)
+            if (remainingWanted.Count == 0 && (unmatched.Count == 0 || !FandomMode.IsFull))
                 return;
 
             Applied[result] = wanted;
@@ -355,8 +357,19 @@ namespace CalamityFandom.Common.WikiData
                 Rewrite(recipe, target);
                 Changes.Add((result, before, Describe(recipe)));
             }
-            // Recettes du jeu absentes du wiki (souvent des recettes inverses mur -> bloc) : conservées
-            Kept += unmatched.Count;
+            // Recettes du jeu absentes du wiki (souvent des recettes inverses mur -> bloc) : conservées, sauf en Full
+            // Fandom où seul ce qui est écrit sur le wiki existe
+            if (FandomMode.IsFull)
+            {
+                foreach (var extra in unmatched)
+                {
+                    Changes.Add((result, Describe(extra), "(désactivée : absente du wiki)"));
+                    extra.DisableRecipe();
+                    DisabledNotOnWiki++;
+                }
+            }
+            else
+                Kept += unmatched.Count;
         }
 
         private static int Similarity(Recipe recipe, Resolved target)
@@ -426,7 +439,7 @@ namespace CalamityFandom.Common.WikiData
             sb.AppendLine("# Recettes du wiki appliquées en jeu").AppendLine();
             sb.AppendLine("_Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._").AppendLine();
             sb.AppendLine($"- {Applied.Count} objets dont les recettes ont changé : {Edited} recettes modifiées, {Created} créées");
-            sb.AppendLine($"- {Kept} recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc)");
+            sb.AppendLine($"- {Kept} recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom");
             sb.AppendLine($"- {Unchanged} recettes du wiki déjà identiques au jeu");
             sb.AppendLine($"- {ShimmerSet} transmutations Shimmer ajoutées");
             sb.AppendLine($"- {Missing.Count} noms introuvables (contenu à créer ou nom à corriger), qui bloquent {Missing.Values.Sum()} recettes").AppendLine();

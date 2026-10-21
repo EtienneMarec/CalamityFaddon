@@ -6347,5 +6347,152 @@
    "page": "Wulfrum Rover.txt",
    "lifeRatio": 0.8
   }
+ },
+ "fullItems": {
+  "AntiMaterielRifle": {
+   "page": "Anti-materiel Rifle.txt",
+   "damage": 324
+  },
+  "Apotheosis": {
+   "page": "Apotheosis.txt",
+   "mana": 42
+  },
+  "ArtAttack": {
+   "page": "Art Attack.txt",
+   "mana": 10
+  },
+  "BlissfulBombardier": {
+   "page": "Blissful Bombardier.txt",
+   "damage": 80
+  },
+  "ClockworkBow": {
+   "page": "Clockwork Bow.txt",
+   "damage": 36,
+   "useAnimation": 5
+  },
+  "CoralSpout": {
+   "page": "Coral Spout.txt",
+   "mana": 4
+  },
+  "EidolicWail": {
+   "page": "Eidolic Wail.txt",
+   "damage": 126,
+   "mana": 10
+  },
+  "Eternity": {
+   "page": "Eternity.txt",
+   "mana": 30
+  },
+  "HalibutCannon": {
+   "page": "Halibut Cannon.txt",
+   "damage": 1000
+  },
+  "Hellborn": {
+   "page": "Hellborn.txt",
+   "damage": 7
+  },
+  "Norfleet": {
+   "page": "Norfleet.txt",
+   "damage": 354
+  },
+  "PhantasmalFury": {
+   "page": "Phantasmal Fury.txt",
+   "mana": 20
+  },
+  "PrimordialAncient": {
+   "page": "Primordial Ancient.txt",
+   "damage": 170,
+   "mana": 20
+  },
+  "RelicofRuin": {
+   "page": "Relic of Ruin.txt",
+   "damage": 1
+  },
+  "RubicoPrime": {
+   "page": "Rubico Prime.txt",
+   "useAnimation": 300
+  },
+  "RustyBeaconPrototype": {
+   "page": "Rusty Beacon Prototype.txt",
+   "damage": 0
+  },
+  "SanguineFlare": {
+   "page": "Sanguine Flare.txt",
+   "damage": 143
+  },
+  "SeekingScorcher": {
+   "page": "Seeking Scorcher.txt",
+   "damage": 177
+  },
+  "ShadecrystalBarrage": {
+   "page": "Shadecrystal Barrage.txt",
+   "mana": 4
+  },
+  "SlimePuppetStaff": {
+   "page": "Slime Puppet Staff.txt",
+   "damage": 0
+  },
+  "SomaPrime": {
+   "page": "Soma Prime.txt",
+   "damage": 130
+  },
+  "Starfleet": {
+   "page": "Starfleet.txt",
+   "damage": 68
+  },
+  "Starmada": {
+   "page": "Starmada.txt",
+   "damage": 135
+  },
+  "StormjawStaff": {
+   "page": "Stormjaw Staff.txt",
+   "damage": 0
+  },
+  "Svantechnical": {
+   "page": "Svantechnical.txt",
+   "useAnimation": 24
+  },
+  "TemporalUmbrella": {
+   "page": "Temporal Umbrella.txt",
+   "mana": 520
+  },
+  "VenusianTrident": {
+   "page": "Venusian Trident.txt",
+   "damage": 108
+  },
+  "VitriolicViper": {
+   "page": "Vitriolic Viper.txt",
+   "damage": 93
+  },
+  "Voidragon": {
+   "page": "Voidragon.txt",
+   "damage": 73
+  }
+ },
+ "fullNpcs": {
+  "CannonballJellyfish": {
+   "page": "Cannonball Jellyfish.txt",
+   "lifeRatio": 25.0
+  },
+  "DesertScourgeHead": {
+   "page": "Desert Scourge.txt",
+   "lifeRatio": 87.5
+  },
+  "GreatSandShark": {
+   "page": "Great Sand Shark.txt",
+   "lifeRatio": 10.8696
+  },
+  "PolterPhantom": {
+   "page": "Polterghast.txt",
+   "lifeRatio": 5.6
+  },
+  "RavagerBody": {
+   "page": "Ravager.txt",
+   "lifeRatio": 0.0
+  },
+  "THELORDE": {
+   "page": "THE LORDE.txt",
+   "lifeRatio": 10.0
+  }
  }
 }

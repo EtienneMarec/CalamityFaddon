@@ -3,7 +3,7 @@
 _Généré par `tools/gen_stats.py`._
 
 - 1033 objets et 67 PNJ de Calamity modifiés (`WikiData/stats.json`).
-- 38 écarts extrêmes (> x5) **non appliqués**, ci-dessous.
+- 38 écarts extrêmes (> x5) : appliqués **seulement en mode Full Fandom**, ci-dessous.
 - 31 valeurs appliquées sans valeur littérale dans le code pour comparer.
 
 ## Écarts extrêmes à trancher

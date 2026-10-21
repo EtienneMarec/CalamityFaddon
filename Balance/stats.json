@@ -1,0 +1,5 @@
+{
+  "_doc": "Équilibrage manuel du mode Calamity++ (écrit à la main, pas généré). Même format que WikiData/stats.json : items/npcs indexés par nom de classe Calamity. Chaque valeur remplace celle du wiki. Noter la raison de chaque changement dans docs/decisions.md.",
+  "items": {},
+  "npcs": {}
+}

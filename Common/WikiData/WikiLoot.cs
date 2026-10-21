@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
+using CalamityFandom.Common.Config;
 using Terraria;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ModLoader;
@@ -46,7 +47,7 @@ namespace CalamityFandom.Common.WikiData
 
         /// <summary>Règles ajoutées (type de PNJ, règle, description), pour l'auto-test et le rapport.</summary>
         public static List<(int npc, IItemDropRule rule, string what)> Added { get; } = new();
-        public static int AlreadyDropped, Conditional;
+        public static int AlreadyDropped, Conditional, RemovedNotOnWiki;
         public static SortedDictionary<string, int> MissingItems { get; } = new();
         public static List<string> MissingNPCs { get; } = new();
 
@@ -62,7 +63,7 @@ namespace CalamityFandom.Common.WikiData
             Added.Clear();
             MissingItems.Clear();
             MissingNPCs.Clear();
-            AlreadyDropped = Conditional = 0;
+            AlreadyDropped = Conditional = RemovedNotOnWiki = 0;
         }
 
         // Après les recettes : les noms traduits sont disponibles et la base de butin est remplie
@@ -97,6 +98,8 @@ namespace CalamityFandom.Common.WikiData
 
         private static void ApplyToNPC(int npc, NPCData npcData)
         {
+            if (FandomMode.IsFull)
+                RemoveNotOnWiki(npc, npcData);
             var current = CurrentDrops(npc);
             var groups = new Dictionary<int, List<int>>();
             foreach (var drop in npcData.Drops)
@@ -142,6 +145,27 @@ namespace CalamityFandom.Common.WikiData
                 var rule = items.Count == 1 ? ItemDropRule.Common(items[0]) : ItemDropRule.OneFromOptionsNotScalingWithLuck(1, items.ToArray());
                 Register(npc, npcData.Boss, rule, "un parmi : " + string.Join(", ", items.Select(Lang.GetItemNameValue)));
                 current.UnionWith(items);
+            }
+        }
+
+        /// <summary>
+        /// Full Fandom : retire les règles de butin du jeu dont aucun objet n'est sur la page (conditions comprises).
+        /// Rien n'est retiré si aucun objet de la page n'est reconnu, pour ne pas vider un PNJ mal résolu.
+        /// </summary>
+        private static void RemoveNotOnWiki(int npc, NPCData npcData)
+        {
+            var onWiki = npcData.Drops.Select(d => WikiRecipes.ResolveItem(d.Item)).Where(t => t > 0).ToHashSet();
+            if (onWiki.Count == 0)
+                return;
+            foreach (var rule in Main.ItemDropsDB.GetRulesForNPCID(npc, false).ToList())
+            {
+                var rates = new List<DropRateInfo>();
+                rule.ReportDroprates(rates, new DropRateInfoChainFeed(1f));
+                if (rates.Count > 0 && !rates.Any(r => onWiki.Contains(r.itemId)))
+                {
+                    Main.ItemDropsDB.RemoveFromNPC(npc, rule);
+                    RemovedNotOnWiki++;
+                }
             }
         }
 
