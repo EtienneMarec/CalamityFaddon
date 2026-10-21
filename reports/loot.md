@@ -2,9 +2,9 @@
 
 _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports/loot_applied.md`.
 
-- 282 PNJ, 1322 entrées de butin
-- 210 entrées avec condition en note (non appliquées)
-- 92 infobox avec des paramètres non compris
+- 284 PNJ, 1363 entrées de butin
+- 211 entrées avec condition en note (non appliquées)
+- 89 infobox avec des paramètres non compris
 
 ## Entrées conditionnelles
 
@@ -215,6 +215,7 @@ _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports
 | Wulfrum Gyrator | Energy Core | (While supercharged) |
 | Wulfrum Hovercraft | Energy Core | (While supercharged) |
 | Wulfrum Megamechwyrm | Wulfrum Megamechwyrm (Lore) | (Always on first kill) |
+| Wulfrum Megamechwyrm | Genesis | (Provided no checklist mods are activated) |
 | Wulfrum Rover | Energy Core | (While supercharged) |
 | Wulfrum Slime | Energy Core | (While supercharged) |
 | XB-10 HuY | XB-10 HuY (Lore) | (Always on first kill) |
@@ -224,11 +225,11 @@ _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports
 ## Paramètres non compris
 
 - Abyssal Jewel : Abyssal Jewel Relic, Treasure Bag(Abyssal Jewel)
-- Acidsighter : 7 Acid Sighter=Acid Sighter, Treasure Bag (Acidsighter)
+- Acidsighter : 7 Acid Sighter=Acid Sighter, {{expert|100%}}
 - Adult Eidolon Wyrm : -
-- Aerbunny : 4=White String, 6=2.5%
+- Aerbunny : 5=1, 6=2.5%
 - Aerwhale : custom
-- Amazon : Treasure Bag (Amazon)
+- Amazon : {{expert|100%}}
 - Amazon Prime : <nowiki>280px]]</nowiki> | type = Boss | environment = Jungle | ai = Amazon AI | damage = {{dv, 660, 759}} (Contact)<br/>{{dv, 332, 348}} (Fast Shipping)<br/>{{dv, 376, 396}} (Jungle Strike)<br/>{{dv, 548, 564}} (Glamazon)<br/>{{dv, 332, 348}} (Phase 1 Glitter Bomb)<br/>{{dv, 464, 476}} (Phase 2 Package Pow)<br/>{{dv, 464, 476}} (Big Ol'Box)<br/>{{dv, 550, 632}} (Death Flare Bomb Ring) | life = {{dv, 29,080,000}} | defense = 950 | dr = 22 | knockback = 100 | debuff = Terror | debufftip = You feel sick to your stomach | duration = 3 seconds | debuffchance = 100% | immune1 = Confused | immune2 = Pearl Aura | immune3 = On Fire! | immune4 = Gun | vulnerable1 = Magic | vulnerable2 = Dark | resistant1 = Holy | resistant2 = Fire | resistant3 = Machine | money = {{value, 0, 42800-65000, 22000000000-28000000000000}}|100%
 |group|One of the followin, 25%, 33.33%}}
 | Alexa the Great|1|{{dv, 25%, 33.33%}}
@@ -239,19 +240,17 @@ _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports
 | image2 = Yharon map.png
 | image2caption = Map Icon
 
-- Aries : Stardust
-- Astrageldon Slime : Treasure Pod (Astrageldon )
-- Astral Probe : Stardust
-- Astrum Aureus : Treasure Bag (Astrum Aureus)
+- Aries : 50%<br/>{{expert|100%}}
+- Astrageldon Slime : {{expert|100%}}
+- Astral Probe : 50%<br/>{{expert|100%}}
+- Astrum Aureus : {{expert|100%}}
 - Banana Clown : Banana Clown armor
-- Brimstone Elemental : Treasure Bag (Brimstone Elemental)
-- Calamitas : Blood Element, Treasure Bag (Calamitas)
-- Ceaseless Void : custom, {{item|Treasure Bag (Ceaseless Void)|Treasure Bag|@@note:(Ce
-- Ceasing Void : custom, {{item|Treasure Bag (Ceasing Void)|Treasure Bag|@@note:(Ceas
+- Brimstone Elemental : {{expert|100%}}
+- Calamitas : Blood Element, {{expert|100%}} {{fantag|Catalyst}}
 - Chaotic Puffer : -
 - Cinder : post-ml = yes
 - Cosmic Elemental : Arcanoid Orb
-- Crabulon : Treasure Bag (Crabulon), Crabulon Relic
+- Crabulon : {{expert|100%}}, {{dv|||100%|||100%}}
 - Cragmaw Mire : -, Spent Fuel Container, Nuclear Rod, Nucleate Gello
 - Cryogen : -
 - Cumulomenace : -, -
@@ -268,28 +267,27 @@ Dung Defender Stagger.png, Staggered
 - Exo Obelisk : -
 - Exo Sentry : -
 - Exo Sphere : -
-- Exodygen : Exodygen Boss Bag
+- Exodygen : {{expert|100%}}
 - Fearless Goldfish Warrior : Magic Dagger
 - Flak Crab : -, Corroded Fossil
-- Floating Biomass : Essence of Babil, Babil Destruction Core
-- Garon : Yharim Bar, Treasure Bag (Garon)
-- Godseeker, Yharim : -, Yharim Bar, Tyrant Shield, Yharim's Last Gift
-- Goozma : -, -, Aristocratic Dainty, Treasure Trunk (Goozma)
+- Floating Biomass : 50%/{{expert|100%}}, Babil Destruction Core
+- Garon : Yharim Bar, {{expert|100%}}
+- Godseeker, Yharim : -, Yharim Bar, Tyrant Shield, {{expert|100%}}
+- Goozma : -, -, {{dv|||100%||100%}}, {{expert|100%}}
 - Goozmageldon : Stardust, 12=100%, 13=Goozmageldon Mask, 14=1, 15=14.29%, 16=Goozmageldon Trophy, 17=1, 18=10%, 19=custom, 20={{item|Goozmageldon (Lore)|@@note:(Always on first kill)|, 21=100%, 22=custom, 24={{expert|100%}}
 - Hyperfish : -, Fries
-- Jungle Dragon Yharon : Yharim Bar, Treasure Bag (Jungle Dragon, Yharon)
+- Jungle Dragon Yharon : Yharim Bar, {{expert|100%}}
 - Leviathan and Anahita : Crocodile Scale, 71=20-40, 72=100%, 73=custom, 74={{item|The Ocean (Lore)|@@note:(Always on first kill)|wra, 75=100%, 76=custom, 77={{item|Leviathan and Anahita (Lore)|@@note:(Always on fir, 78=100%
 - Mechawyrm : -
 - Mushroom Elemental : Vicious Mushroom, Vile Mushroom
 - Nihil, the Fathomless Seeker : Essence of Nihility, 50〜75, 100%
 - Nuclear Toad : Caustic Croaker Staff
 - Orthocera : Corroded Fossil
-- Pandora, the Hypnotized Witch : -, Shattered Message Block, {{revengeance|7-10|}}, {{Revengeance|100%}}, custom, {{item|Treasure Bag (Pandora)|Treasure Bag|@@note:(Pandora)|
-- Phyg : 4=Bacon, 6=100%, 7=Feather, 8=1-2, 9=100%
+- Pandora, the Hypnotized Witch : -, Shattered Message Block, {{revengeance|7-10|}}, {{Revengeance|100%}}
+- Phyg : 5=1-3, 6=100%, 7=Feather, 8=1-2, 9=100%
 - Polterghast : -, -
 - Primordial Rainbow Slime : Primordial Ore
-- Profaned Guardians : Relic items<br/><small>(See Bosses)</small>, 1, 90%
-- Providence, the Profaned Goddess : -, Profaned Soul Crystal, Profaned Moonlight Dye
+- Providence, the Profaned Goddess : -, {{expert|100%}}, 100% / {{malice|100%}}
 - Purgatory Arbiter, Umbrus : Chaotic Grapes
 - Radiator : Radiating Crystal
 - Ravager : -
@@ -297,33 +295,33 @@ Dung Defender Stagger.png, Staggered
 - Scryllar : custom
 - Seeker : 10-30, 100%
 - Serial Designation N : A, 1
-- Sigmund : Treasure Bag (Sigmund)
-- Signus, Envoy of the Devourer : Treasure Bag (Signus)
+- Sigmund : {{expert|100%}} {{fantag|Catalyst}}
+- Signus, Envoy of the Devourer : {{expert|100%}} {{fantag|Catalyst}}
 - Soul Slurper : Slurper Pole
-- Stellar Culex : Stardust
+- Stellar Culex : 50%<br/>{{expert|100%}}
 - Stormlion : Stormlion Mandible
 - Stratosoul : -
 - Sulphurous Skater : -, Corroded Fossil
 - Supreme Calamitas : -
 - The Calamity : -
-- The Fabricational Quartet : Draedon Relic, Yharim Bar
-- The Fallen Ascended Master, Xeroc : Ascended Master, Xeroc Boss Bag
-- The Forbidden Lantern : Treasure Bag (The Forbidden Lantern), The Forbidden Lantern Relic
-- The Inventors : The Inventors Relic
-- The Magnificent Lightning Avian : Treasure Bag (The Magnificent Lightning Avian)
-- The Plaguebringer Goliath : -, Expired Medication, Plagueplate, Plague Station, Plagued Minecart
+- The Fabricational Quartet : {{dv|||100%|||100%}}, Yharim Bar
+- The Fallen Ascended Master, Xeroc : {{expert|10%}}
+- The Forbidden Lantern : Treasure Bag (The Forbidden Lantern), {{dv|||100%||100%}}
+- The Inventors : {{dv|||100%||100%}}
+- The Magnificent Lightning Avian : {{expert|100%}}
+- The Plaguebringer Goliath : -, {{Death|100%}}, Plagueplate, Plague Station, Plagued Minecart
 - The Rot : Rotting matter, 5={{dv|4-8|5-9}}, 6=100%, 7=group
-- The Scrapyard Ensemble : Draedon Relic
-- The Slime God : Treasure Bag (The Slime God)
-- The Unimaginable Deity, Yald'xoroath : The Unimaginable Deity, Yald'xoroath Boss Bag
-- The Wall of Bronze : -, Treasure Crate
+- The Scrapyard Ensemble : {{dv|||100%|||100%}}
+- The Slime God : {{expert|100%}}
+- The Unimaginable Deity, Yald'xoroath : {{expert|100%}}
+- The Wall of Bronze : -, {{expert|100%}}
 - Trilobite : Corroded Fossil
 - Water Leech : Parasitic Scepter
 - Wulfrum Drone : -
 - Wulfrum Excavator : -
 - Wulfrum Gyrator : -
 - Wulfrum Hovercraft : -
-- Wulfrum Megamechwyrm : Yharim Bar, {{revengeance|1-3}}, 100% {{fantag|Calamity: Community Remix}}, Treasure Bag (Wulfrum Megamechwyrm), {{item|Genesis|@@note:(Provided no checklist mods are activa, 100%
+- Wulfrum Megamechwyrm : Yharim Bar, {{revengeance|1-3}}, 100% {{fantag|Calamity: Community Remix}}
 - Wulfrum Rover : -, -
 - Wulfrum Slime : -
 - XC-39 "Oizys" : vulnerable

@@ -6610,6 +6610,14 @@
   "Viruling": {
    "page": "Viruling.txt",
    "defense": 38
+  },
+  "DesertScourgeBody": {
+   "page": "Desert Scourge.txt",
+   "lifeRatio": 87.5
+  },
+  "DesertScourgeTail": {
+   "page": "Desert Scourge.txt",
+   "lifeRatio": 87.5
   }
  },
  "fullItems": {
@@ -9041,6 +9049,38 @@
   "WulfrumRover": {
    "page": "Wulfrum Rover.txt",
    "lifeRatio": 0.8
+  },
+  "AquaticScourgeBody": {
+   "page": "Aquatic Scourge.txt",
+   "lifeRatio": 0.9625
+  },
+  "AquaticScourgeBodyAlt": {
+   "page": "Aquatic Scourge.txt",
+   "lifeRatio": 0.9625
+  },
+  "AquaticScourgeTail": {
+   "page": "Aquatic Scourge.txt",
+   "lifeRatio": 0.9625
+  },
+  "DevourerofGodsBody": {
+   "page": "The Devourer of Gods.txt",
+   "lifeRatio": 1.185
+  },
+  "DevourerofGodsTail": {
+   "page": "The Devourer of Gods.txt",
+   "lifeRatio": 1.185
+  },
+  "ProfanedEnergyLantern": {
+   "page": "Profaned Energy.txt",
+   "lifeRatio": 1.8
+  },
+  "StormWeaverBody": {
+   "page": "Storm Weaver.txt",
+   "lifeRatio": 1.0006
+  },
+  "StormWeaverTail": {
+   "page": "Storm Weaver.txt",
+   "lifeRatio": 1.0006
   }
  }
 }

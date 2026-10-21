@@ -6,6 +6,7 @@ using CalamityFandom.Common.Elements;
 using CalamityFandom.Common.Modes;
 using CalamityFandom.Common.WikiData;
 using Terraria;
+using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
@@ -295,6 +296,26 @@ namespace CalamityFandom.Common.Debug
             foreach (var (npc, rule, what) in WikiLoot.Added)
                 Expect(Main.ItemDropsDB.GetRulesForNPCID(npc, false).Contains(rule), $"butin de {Lang.GetNPCNameValue(npc)} absent : {what}");
             Expect(WikiLoot.Added.Count > 50, $"drops ajoutés : {WikiLoot.Added.Count}");
+            // Bestiaire recopié après nos changements : autant de lignes de butin que de drops réels
+            foreach (int npc in WikiLoot.Added.Select(a => a.npc).Distinct())
+            {
+                var rates = new List<DropRateInfo>();
+                foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(npc, false))
+                    r.ReportDroprates(rates, new DropRateInfoChainFeed(1f));
+                int shown = Main.BestiaryDB.FindEntryByNPCID(npc).Info.Count(e => e is Terraria.GameContent.Bestiary.ItemDropBestiaryInfoElement);
+                Expect(shown == rates.Count, $"bestiaire de {Lang.GetNPCNameValue(npc)} : {shown} lignes pour {rates.Count} drops");
+            }
+            // Sac au trésor jamais retiré (documenté par la page Treasure Bag), même en Full Fandom
+            if (ModContent.TryFind<ModNPC>("CalamityMod", "DesertScourgeHead", out var scourge) && ModContent.TryFind<ModItem>("CalamityMod", "DesertScourgeBag", out var bag))
+            {
+                var rates = new List<DropRateInfo>();
+                foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(scourge.Type, false))
+                    r.ReportDroprates(rates, new DropRateInfoChainFeed(1f));
+                Expect(rates.Any(r => r.itemId == bag.Type), "Desert Scourge lâche toujours son sac en Expert");
+            }
+            // Segments de ver : même ratio de vie que la tête (sinon la tête s'aligne sur la vie du corps)
+            foreach (string segment in new[] { "DesertScourgeBody", "DesertScourgeTail" })
+                Expect(WikiStats.NPCs.TryGetValue(segment, out var st) && st.LifeRatio == 87.5f, $"ratio de vie de {segment} : {st?.LifeRatio}");
             string reports = ReportsFolder;
             if (!string.IsNullOrEmpty(reports))
                 WikiLoot.WriteReport(reports);

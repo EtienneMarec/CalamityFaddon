@@ -6,7 +6,9 @@ using System.Text;
 using System.Text.Json;
 using CalamityFandom.Common.Config;
 using Terraria;
+using Terraria.GameContent.Bestiary;
 using Terraria.GameContent.ItemDropRules;
+using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace CalamityFandom.Common.WikiData
@@ -28,6 +30,8 @@ namespace CalamityFandom.Common.WikiData
             public string Note { get; set; }
             public int Group { get; set; }
             public bool GroupAlways { get; set; }
+            /// <summary>Objet seulement cité (ligne « custom » sans chance : sac, relique) : pas ajouté, pas retiré.</summary>
+            public bool Listed { get; set; }
             /// <summary>Drop propre à un mode (« fandom » / « plus »), tiré d'un {{mode}} ; vide = les deux.</summary>
             public List<string> Modes { get; set; }
         }
@@ -106,7 +110,7 @@ namespace CalamityFandom.Common.WikiData
             var groups = new Dictionary<int, List<int>>();
             foreach (var drop in npcData.Drops)
             {
-                if (!FandomMode.Applies(drop.Modes))
+                if (!FandomMode.Applies(drop.Modes) || drop.Listed)
                     continue;
                 if (!string.IsNullOrEmpty(drop.Note))
                 {
@@ -155,6 +159,8 @@ namespace CalamityFandom.Common.WikiData
         /// <summary>
         /// Full Fandom : retire les règles de butin du jeu dont aucun objet n'est sur la page (conditions comprises).
         /// Rien n'est retiré si aucun objet de la page n'est reconnu, pour ne pas vider un PNJ mal résolu.
+        /// Les sacs au trésor restent : la page « Treasure Bag » du wiki documente celui de chaque boss (les sacs des
+        /// boss récents sont masqués par FullFandomHiding).
         /// </summary>
         private static void RemoveNotOnWiki(int npc, NPCData npcData)
         {
@@ -165,7 +171,7 @@ namespace CalamityFandom.Common.WikiData
             {
                 var rates = new List<DropRateInfo>();
                 rule.ReportDroprates(rates, new DropRateInfoChainFeed(1f));
-                if (rates.Count > 0 && !rates.Any(r => onWiki.Contains(r.itemId)))
+                if (rates.Count > 0 && !rates.Any(r => onWiki.Contains(r.itemId) || ItemID.Sets.BossBag[r.itemId]))
                 {
                     Main.ItemDropsDB.RemoveFromNPC(npc, rule);
                     RemovedNotOnWiki++;
@@ -185,6 +191,28 @@ namespace CalamityFandom.Common.WikiData
             }
             Main.ItemDropsDB.RegisterToNPC(npc, final);
             Added.Add((npc, final, what));
+        }
+
+        /// <summary>
+        /// Le bestiaire copie le butin une seule fois, avant les recettes (ModContent.SetupBestiary) : nos ajouts et
+        /// retraits (ici et dans FullFandomHiding, faits en PostAddRecipes) n'y apparaîtraient pas. On recopie le butin
+        /// de chaque PNJ une fois tout appliqué, comme BestiaryDatabase.ExtractDropsForNPC.
+        /// </summary>
+        public override void PostSetupRecipes()
+        {
+            for (int npc = -65; npc < NPCLoader.NPCCount; npc++)
+            {
+                var entry = Main.BestiaryDB.FindEntryByNPCID(npc);
+                if (entry == null)
+                    continue;
+                entry.Info.RemoveAll(e => e is ItemDropBestiaryInfoElement);
+                var rates = new List<DropRateInfo>();
+                var feed = new DropRateInfoChainFeed(1f);
+                foreach (var rule in Main.ItemDropsDB.GetRulesForNPCID(npc, false))
+                    rule.ReportDroprates(rates, feed);
+                foreach (var rate in rates)
+                    entry.Info.Add(new ItemDropBestiaryInfoElement(rate));
+            }
         }
 
         public static void WriteReport(string folder)

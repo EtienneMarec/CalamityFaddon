@@ -89,6 +89,9 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
   Tool, Ammunition : les accessoires et blocs ne reçoivent que défense, rareté et prix.
 - **[choix]** PNJ : vie et dégâts appliqués en **ratio** wiki / code (mode normal), pour garder la montée en difficulté
   de Calamity (Expert, Revengeance, Death) ; défense en valeur absolue.
+- **[technique]** Segments de ver et variantes qui reprennent le nom d'un autre PNJ (`GetText("NPCs.XHead.DisplayName")`) :
+  même ratio de vie que lui. Sans ça, la tête du Desert Scourge s'aligne sur la vie du segment suivant (5 000 PV sur
+  350 000 en jeu, passe 1.6). Concerne aussi Aquatic Scourge, Devourer of Gods, Storm Weaver (Full Fandom), Profaned Energy.
 - **[choix]** Rareté du wiki : 0-11 vanilla, 12 Turquoise, 13 Pure Green, 14 Cosmic Purple, 15 Burnished Auric,
   16 Hot Pink, 17 Calamity Red ; rareté inventée (« C2 »...) → 0. Prix d'achat = prix de vente du wiki × 5.
 
@@ -188,6 +191,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** Boss : ajouts en mode normal seulement (en Expert, le butin passe par le sac, pas encore géré).
 - **[choix]** « One of the following N items » : un objet au hasard parmi le groupe, sauf si le jeu en donne déjà un.
 - **[choix]** Un seul PNJ par page, celui qui a déjà le plus de butin (vers, alias) ; titres sans nom (« ??? ») ignorés.
+- **[choix]** Full Fandom : le **sac au trésor** d'un boss n'est jamais retiré, même si l'infobox du boss ne le cite pas
+  (Desert Scourge, Cryogen...) : la page « Treasure Bag » documente le sac de chaque boss et son contenu. Sans ça, un
+  boss en Expert ne lâchait plus rien (passe 1.6).
+- **[technique]** Lignes `custom` sans chance (sac, relique : « Crabulon Relic ») : objet seulement cité, ni ajouté ni
+  retiré. Avant, elles étaient mal lues et avalaient la ligne suivante.
+- **[technique]** Le bestiaire est recopié depuis la base de butin après nos changements (tModLoader le remplit avant
+  les recettes, donc avant nos ajouts et retraits).
 
 ## 8. Contenu créé ou porté
 

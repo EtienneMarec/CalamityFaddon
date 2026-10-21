@@ -239,6 +239,23 @@ def main():
                 elif w is not None and (c is None or abs(w - c) > 1e-6):
                     place(cls, page, "defense", int(w), target_for("defense", w, c, old.get("defense")), npcs, full_npcs)
 
+    # Segments de ver (et variantes) qui reprennent le nom d'un autre PNJ (GetText("NPCs.XHead.DisplayName")) : même
+    # ratio de vie que lui. Sinon le corps garde sa vie d'origine et la tête, qui s'aligne sur le segment suivant,
+    # apparaît avec 5 000 PV sur 350 000 (Desert Scourge, passe 1.6).
+    shares_name = {}
+    for cls, (path, kind) in classes.items():
+        if kind != "ModNPC":
+            continue
+        text = open(os.path.join(ROOT, path), encoding="utf-8-sig", errors="replace").read()
+        m = re.search(r'GetText\("NPCs\.(\w+)\.DisplayName"\)', text)
+        if m and m.group(1) != cls:
+            shares_name[cls] = m.group(1)
+    for layer in (npcs, full_npcs):
+        for cls, owner in shares_name.items():
+            ratio = layer.get(owner, {}).get("lifeRatio")
+            if ratio is not None and "lifeRatio" not in layer.get(cls, {}):
+                layer.setdefault(cls, {"page": layer[owner]["page"]})["lifeRatio"] = ratio
+
     with open(os.path.join(ROOT, "data", "stats_full_only.json"), "w", encoding="utf-8") as fh:
         json.dump(full_only_fields, fh, ensure_ascii=False, indent=0)
 

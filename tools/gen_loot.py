@@ -3,6 +3,8 @@
 Formats rencontrés dans les infobox (paramètres sans nom, dans l'ordre) :
   | Objet | 7-14 | 100%                              -> objet, quantité, chance
   | custom | {{item|Objet|note=(Post-Golem)}} | 10%  -> objet avec condition écrite en note
+  | custom | {{item|Treasure Bag (Crabulon)|...}}     -> sans chance : objet seulement cité (« listed » : sac, relique),
+                                                        pas ajouté mais pas retiré en Full Fandom
   | group | One of the following 5 items... | 5     -> les 5 entrées suivantes forment un groupe
 Quantités et chances en {{dv|normal|expert|...}} : valeur du mode normal.
 L'application en jeu (Common/WikiData/WikiLoot.cs) est additive : seuls les objets que le PNJ ne lâche pas déjà sont
@@ -63,13 +65,19 @@ def parse_drops(positional):
             i += 3
             continue
         note = None
-        if tok.lower() == "custom" and i + 2 < len(positional):
+        if tok.lower() == "custom" and i + 1 < len(positional):
             m = re.search(r"\{\{\s*item\s*\|([^|}]*)(.*?)\}\}", positional[i + 1], re.I | re.S)
             name = clean_name(m.group(1)) if m else clean_name(positional[i + 1])
             if m:
                 n = re.search(r"(?:note\s*=|@@note:)\s*([^|}]*)", m.group(2))
                 note = clean_name(n.group(1)) if n else None
-            qty, chance = (1, 1), parse_chance(positional[i + 2])
+            chance = parse_chance(positional[i + 2]) if i + 2 < len(positional) else None
+            if chance is None:
+                # Ligne « custom » sans chance (sac, relique) : l'objet est cité, rien à tirer au sort
+                drops.append({"item": name, "listed": True})
+                i += 2
+                continue
+            qty = (1, 1)
             i += 3
         elif i + 1 < len(positional) and positional[i + 1].startswith(NOTE) and i + 3 < len(positional):
             # « | Abyss Bar|note=(Post-Golem)|3-8|100% » : condition en ligne

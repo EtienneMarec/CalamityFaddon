@@ -2,8 +2,8 @@
 
 _Généré par `tools/gen_stats.py`._ Règles : `docs/decisions.md`, section « Stats ».
 
-- Tous les modes : 1206 objets et 28 PNJ (`items` / `npcs` de `WikiData/stats.json`).
-- Full Fandom en plus : 473 objets et 49 PNJ (`fullItems` / `fullNpcs`).
+- Tous les modes : 1206 objets et 30 PNJ (`items` / `npcs` de `WikiData/stats.json`).
+- Full Fandom en plus : 473 objets et 57 PNJ (`fullItems` / `fullNpcs`).
 - 30 valeurs identiques à Calamity 2.0.1.005 : Full Fandom seulement (ce n'est que l'ancien Calamity).
 - 21 écarts extrêmes tranchés avec l'utilisateur (`tools/stats_decisions.json`).
 - **0 écarts extrêmes (> x5) à trancher** : Full Fandom seulement en attendant.

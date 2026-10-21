@@ -142,6 +142,10 @@
      "min": 1,
      "max": 1,
      "chance": 0.25
+    },
+    {
+     "item": "Treasure Bag (Acidsighter)",
+     "listed": true
     }
    ]
   },
@@ -199,6 +203,16 @@
      "min": 5,
      "max": 15,
      "chance": 1.0
+    }
+   ]
+  },
+  "Aerbunny": {
+   "page": "Aerbunny.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "4=White String",
+     "listed": true
     }
    ]
   },
@@ -397,6 +411,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Treasure Bag (Amazon)",
+     "listed": true
     }
    ]
   },
@@ -562,6 +580,10 @@
    "boss": false,
    "drops": [
     {
+     "item": "Stardust",
+     "listed": true
+    },
+    {
      "item": "Titan Finger",
      "min": 1,
      "max": 1,
@@ -688,6 +710,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Treasure Pod (Astrageldon )",
+     "listed": true
     }
    ]
   },
@@ -839,6 +865,10 @@
    "page": "Astral Probe.txt",
    "boss": false,
    "drops": [
+    {
+     "item": "Stardust",
+     "listed": true
+    },
     {
      "item": "Titan Finger",
      "min": 1,
@@ -1021,6 +1051,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Treasure Bag (Astrum Aureus)",
+     "listed": true
     }
    ]
   },
@@ -1491,6 +1525,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Treasure Bag (Brimstone Elemental)",
+     "listed": true
     }
    ]
   },
@@ -1629,6 +1667,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Treasure Bag (Calamitas)",
+     "listed": true
     }
    ]
   },
@@ -1792,6 +1834,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill if Storm Weaver<br/>and Signus are defeated)"
+    },
+    {
+     "item": "Treasure Bag (Ceaseless Void)",
+     "listed": true
     }
    ]
   },
@@ -1842,6 +1888,10 @@
      "min": 1,
      "max": 1,
      "chance": 0.1
+    },
+    {
+     "item": "Treasure Bag (Ceasing Void)",
+     "listed": true
     }
    ]
   },
@@ -2287,6 +2337,14 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Treasure Bag (Crabulon)",
+     "listed": true
+    },
+    {
+     "item": "Crabulon Relic",
+     "listed": true
     }
    ]
   },
@@ -3726,6 +3784,10 @@
      "chance": 1.0
     },
     {
+     "item": "Exodygen Boss Bag",
+     "listed": true
+    },
+    {
      "item": "ExodygenRelic",
      "min": 1,
      "max": 1,
@@ -3869,6 +3931,10 @@
      "min": 1,
      "max": 1,
      "chance": 0.5
+    },
+    {
+     "item": "Essence of Babil",
+     "listed": true
     }
    ]
   },
@@ -4132,6 +4198,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Treasure Bag (Garon)",
+     "listed": true
     }
    ]
   },
@@ -4404,6 +4474,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Yharim's Last Gift",
+     "listed": true
     }
    ]
   },
@@ -4487,6 +4561,10 @@
      "groupAlways": true
     },
     {
+     "item": "Aristocratic Dainty",
+     "listed": true
+    },
+    {
      "item": "Goozma (Lore)",
      "min": 1,
      "max": 1,
@@ -4500,6 +4578,10 @@
      "min": 1,
      "max": 1,
      "chance": 1.0
+    },
+    {
+     "item": "Treasure Trunk (Goozma)",
+     "listed": true
     }
    ]
   },
@@ -5150,6 +5232,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Treasure Bag (Jungle Dragon, Yharon)",
+     "listed": true
     }
    ]
   },
@@ -6075,6 +6161,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Treasure Bag (Pandora)",
+     "listed": true
     }
    ]
   },
@@ -6179,6 +6269,16 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Godseeker Mode)"
+    }
+   ]
+  },
+  "Phyg": {
+   "page": "Phyg.txt",
+   "boss": false,
+   "drops": [
+    {
+     "item": "4=Bacon",
+     "listed": true
     }
    ]
   },
@@ -6774,6 +6874,16 @@
    "boss": true,
    "drops": [
     {
+     "item": "Relic items<br/><small>(See Bosses)</small>",
+     "listed": true
+    },
+    {
+     "item": "Profaned Core",
+     "min": 1,
+     "max": 1,
+     "chance": 0.9
+    },
+    {
      "item": "Warbanner of the Sun",
      "min": 1,
      "max": 1,
@@ -6988,6 +7098,14 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Profaned Soul Crystal",
+     "listed": true
+    },
+    {
+     "item": "Profaned Moonlight Dye",
+     "listed": true
     },
     {
      "item": "Profaned Core Fragment",
@@ -7651,6 +7769,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill if Storm Weaver<br/>and Ceaseless Void are defeated)"
+    },
+    {
+     "item": "Treasure Bag (Sigmund)",
+     "listed": true
     }
    ]
   },
@@ -7714,6 +7836,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill if Storm Weaver<br/>and Ceaseless Void are defeated)"
+    },
+    {
+     "item": "Treasure Bag (Signus)",
+     "listed": true
     }
    ]
   },
@@ -7857,6 +7983,10 @@
    "page": "Stellar Culex.txt",
    "boss": false,
    "drops": [
+    {
+     "item": "Stardust",
+     "listed": true
+    },
     {
      "item": "Titan Finger",
      "min": 1,
@@ -8234,6 +8364,10 @@
      "note": "(Always on first kill) {{fantag"
     },
     {
+     "item": "Draedon Relic",
+     "listed": true
+    },
+    {
      "item": "Photon Ripper",
      "min": 1,
      "max": 1,
@@ -8364,6 +8498,10 @@
    "boss": true,
    "drops": [
     {
+     "item": "Ascended Master, Xeroc Boss Bag",
+     "listed": true
+    },
+    {
      "item": "Xeroc's Guan Dao",
      "min": 1,
      "max": 1,
@@ -8422,6 +8560,10 @@
      "min": 1,
      "max": 1,
      "chance": 0.1
+    },
+    {
+     "item": "The Forbidden Lantern Relic",
+     "listed": true
     },
     {
      "item": "Shattered Module",
@@ -8554,6 +8696,10 @@
      "min": 1,
      "max": 1,
      "chance": 1.0
+    },
+    {
+     "item": "The Inventors Relic",
+     "listed": true
     }
    ]
   },
@@ -8633,6 +8779,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Treasure Bag (The Magnificent Lightning Avian)",
+     "listed": true
     }
    ]
   },
@@ -9212,6 +9362,10 @@
      "chance": 1.0
     },
     {
+     "item": "Expired Medication",
+     "listed": true
+    },
+    {
      "item": "Plaguebringer Goliath Mask",
      "min": 1,
      "max": 1,
@@ -9273,6 +9427,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Draedon Relic",
+     "listed": true
     },
     {
      "item": "Cloak of Shards",
@@ -9507,6 +9665,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Treasure Bag (The Slime God)",
+     "listed": true
     }
    ]
   },
@@ -9514,6 +9676,10 @@
    "page": "The Unimaginable Deity_ Yald_xoroath.txt",
    "boss": true,
    "drops": [
+    {
+     "item": "The Unimaginable Deity, Yald'xoroath Boss Bag",
+     "listed": true
+    },
     {
      "item": "The Lightmare",
      "min": 1,
@@ -9604,6 +9770,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Treasure Crate",
+     "listed": true
     }
    ]
   },
@@ -10089,6 +10259,17 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)"
+    },
+    {
+     "item": "Treasure Bag (Wulfrum Megamechwyrm)",
+     "listed": true
+    },
+    {
+     "item": "Genesis",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "note": "(Provided no checklist mods are activated)"
     }
    ]
   },

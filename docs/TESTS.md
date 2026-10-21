@@ -107,11 +107,17 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
 
 ### 1.6 Butin du wiki (bilan dans `reports/loot_applied.md`)
 
-- [ ] Aero Slime peut lâcher Skyline Wings (3 %) — voir le bestiaire
-- [ ] Desert Scourge (mode normal) lâche Parched Scale, Profaned Shard, Ocean Crest ; **pas** d'Abyss Bar (condition Post-Golem ignorée)
-- [ ] En Expert, un boss ne lâche pas en double ce qui est déjà dans son sac
-- [ ] Les entrées du bestiaire affichent les nouveaux drops sans planter
-- [ ] Un ver (Aquatic Scourge) ne lâche son butin qu'une fois
+- [x] Aero Slime peut lâcher Skyline Wings (3 %)
+- [ ] Desert Scourge (mode **normal**, monde Classic) lâche Parched Scale, Profaned Shard, Ocean Crest ; **pas** d'Abyss
+      Bar (condition Post-Golem ignorée)
+- [ ] Desert Scourge en **Expert**, Full Fandom comme Calamity++ : lâche son **sac** (corrigé le 22/10 : le Full Fandom
+      retirait le sac, absent de l'infobox du boss mais documenté par la page Treasure Bag)
+- [ ] Desert Scourge : apparaît avec toute sa vie (barre pleine), pas 5 000 sur 750 000 (corrigé le 22/10 : les
+      segments du ver n'avaient pas le ratio de vie de la tête)
+- [x] En Expert, un boss ne lâche pas en double ce qui est déjà dans son sac
+- [ ] Le bestiaire affiche les nouveaux drops (Skyline Wings sur l'Aero Slime, Parched Scale sur le Desert Scourge) et,
+      en Full Fandom, plus ceux qui ont été retirés (corrigé le 22/10)
+- [x] Un ver (Eater of Worlds) ne lâche son butin qu'une fois
 
 ---
 
