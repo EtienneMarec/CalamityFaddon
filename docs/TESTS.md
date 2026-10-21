@@ -17,8 +17,9 @@ Astuces : Cheat Sheet / Hero's Mod pour faire apparaître objets et PNJ ; `/calf
 - [x] L'épée est tenue par la poignée, dans la main
 - [x] Coups alternés : un vers le bas, le même vers le haut, orientés vers le curseur
 - [x] Des étoiles (Stratus Star) tombent du ciel sur l'ennemi touché
-- [ ] L'ennemi touché reçoit le debuff Moon Burnt (= Nightwither de Calamity), 3 s, particules violettes
-- [ ] Recette au Cosmic Anvil : Stratus Sphere, Galileo Gladius, Crescent Moon, **Night's Gaze**, 25 Lumenyl,
+- [x] L'ennemi touché reçoit le debuff Moon Burnt (= Nightwither de Calamity), 3 s, particules violettes
+- [ ] L'icône du debuff Moon Burnt est celle du wiki (flamme bleue), plus celle de Calamity (`Assets/Overrides/`)
+- [x] Recette au Cosmic Anvil : Stratus Sphere, Galileo Gladius, Crescent Moon, **Night's Gaze**, 25 Lumenyl,
       37 Depth Cells, 4 Ascendant Spirit Essence, 8 Auric Bar (recette du wiki, voir 2.1)
 
 ---
@@ -96,7 +97,7 @@ Contrôlé par `python tools/selftest.py --mode all`. En jeu :
 - [ ] Config « Calamity Fandom » : option « Fandom accuracy » (3 choix, Minimal par défaut), le mod demande un rechargement
 - [ ] Monde créé en Minimal puis ouvert en Full Fandom : message orange à l'entrée
 - [ ] Full Fandom : un objet récent de Calamity (voir `reports/baseline.md`, section « masqués ») n'a plus de recette
-- [ ] Full Fandom : le Desert Scourge a ses 350 000 PV du wiki (ratio x87,5)
+- [ ] Desert Scourge : 350 000 PV du wiki (ratio x87,5) **dans tous les modes** (validé le 21/10)
 - [ ] Full Fandom : Acidwood ne se fabrique plus depuis Acidwood Wall (recette absente du wiki)
 - [ ] Full Fandom : un PNJ récent masqué (liste « PNJ » de `reports/baseline.md`) n'apparaît plus naturellement
 - [ ] Full Fandom : les marchands ne vendent plus d'objet masqué ; un objet masqué déjà dans l'inventaire reste utilisable
@@ -110,13 +111,13 @@ Contrôlé par `python tools/selftest.py --mode all`. En jeu :
 - [ ] Lancer : la lance part, se brise sur un ennemi en étoiles et étincelles, Moon Burnt sur la cible
 - [ ] Attaque furtive : la lance sème des étoiles à tête chercheuse
 - [ ] Recette à l'Ancient Manipulator : Daybreak, 7 Lumenyl, 4 Ruinous Soul, 12 Exodium Cluster
-- [ ] Zweihandromeda : la recette demande maintenant aussi Night's Gaze
+- [x] Zweihandromeda : la recette demande maintenant aussi Night's Gaze
 
 ---
 
 ## Décisions en attente (pas des tests)
 
-- [ ] Les 49 écarts de stats extrêmes de `reports/stats.md` (Desert Scourge 350 000 PV, Ravager 1 PV...) : appliqués
+- [ ] Les 48 autres écarts de stats extrêmes de `reports/stats.md` (Desert Scourge 350 000 PV, Ravager 1 PV...) : appliqués
       seulement en Full Fandom aujourd'hui. Les garder ainsi, les forcer partout (`tools/stats_force.json`), ou
       corriger les pages (`wiki_edits/`) ?
 - [ ] Les chiffres du système d'éléments (`docs/decisions.md`) : à juger en jouant.
