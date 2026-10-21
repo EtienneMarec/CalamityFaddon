@@ -32,6 +32,8 @@ namespace CalamityFandom.Common.WikiData
             public List<string> Stations { get; set; } = new();
             public List<IngredientData> Ingredients { get; set; } = new();
             public string Page { get; set; }
+            /// <summary>Recette propre à un mode (« fandom » / « plus »), tirée d'un {{mode}} ; vide = les deux.</summary>
+            public List<string> Modes { get; set; }
         }
 
         private class ShimmerData
@@ -39,6 +41,7 @@ namespace CalamityFandom.Common.WikiData
             public string From { get; set; }
             public string To { get; set; }
             public string Station { get; set; }
+            public List<string> Modes { get; set; }
         }
 
         private class RecipesFile
@@ -140,6 +143,8 @@ namespace CalamityFandom.Common.WikiData
             var byResult = new Dictionary<int, List<Resolved>>();
             foreach (var recipe in data.Recipes)
             {
+                if (!FandomMode.Applies(recipe.Modes))
+                    continue;
                 var resolved = Resolve(recipe);
                 if (resolved == null)
                     continue;
@@ -422,6 +427,8 @@ namespace CalamityFandom.Common.WikiData
         {
             foreach (var s in data.Shimmer)
             {
+                if (!FandomMode.Applies(s.Modes))
+                    continue;
                 string station = Normalize(s.Station ?? "");
                 if (station != "shimmer" && station != "shimmer transmutation")
                     continue; // « Sanguine Shimmer » est une mécanique inventée : pas le Shimmer vanilla

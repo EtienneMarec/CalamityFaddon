@@ -217,3 +217,5 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   autres pages de notre wiki s'éditent à la main.
 - **[choix]** Une stat partagée par plusieurs classes d'une même page n'est écrite en `{{mode}}` que si la règle vaut
   pour toutes ces classes (sinon la règle continue de s'appliquer, cas de Polterghast).
+- **[choix]** Dans `{{mode}}`, une valeur vide veut dire « absent dans ce mode » (ingrédient, recette entière, drop,
+  élément). Une page dont les deux vues sont identiques produit une seule entrée de données, valable dans les deux modes.

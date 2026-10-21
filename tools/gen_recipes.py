@@ -15,7 +15,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from wiki_index import OUR_MAIN, ROOT, extract_template  # noqa: E402
+from wiki_index import OUR_MAIN, ROOT, extract_template, has_mode, pick_mode  # noqa: E402
 
 OUT = os.path.join(ROOT, "WikiData", "recipes.json")
 # Pages qui ne décrivent pas de vraies recettes d'artisanat
@@ -84,6 +84,54 @@ def redirect_aliases(names):
     return aliases
 
 
+MODES = ("fandom", "plus")
+
+
+def build_recipe(positional, named, fname, problems):
+    """Recette du wiki à partir des paramètres d'un {{recipes/register}}, ou None (vide, vandalisée)."""
+    result = clean_name(named.get("result", ""))
+    if not result:
+        return None
+    # Une paire (ingrédient, quantité) vide des deux côtés = absente dans ce mode ({{mode|Objet|}} | {{mode|1|}})
+    pairs = [(n, q) for n, q in zip(positional[0::2], positional[1::2]) if n.strip() or q.strip()]
+    if len(positional) % 2:
+        problems.append((fname, result, "nombre impair de paramètres"))
+    ingredients = []
+    for name, qty in pairs:
+        q = parse_qty(qty)
+        alternatives = [clean_name(n) for n in name.split("/") if clean_name(n)]
+        if q is None or q <= 0 or not alternatives:
+            problems.append((fname, result, f"ingrédient illisible : {name} | {qty}"))
+            return None  # recette vandalisée (ex. « sqrt(-1) » Alloy Bars) : on garde celle du jeu
+        ingredients.append({"items": alternatives, "stack": q})
+    stations = [clean_name(st) for st in re.split(r"\s*(?:/|<br\s*/?>|\band\b)\s*", named.get("station", "")) if clean_name(st)]
+    recipe = {
+        "result": result,
+        "amount": parse_qty(named.get("amount")) or 1,
+        "stations": stations,
+        "ingredients": ingredients,
+        "page": fname,
+    }
+    extra = {k: v for k, v in named.items() if k not in ("station", "result", "amount")}
+    if extra:
+        recipe["extra"] = extra
+    return recipe
+
+
+def recipes_by_mode(positional, named, fname, problems):
+    """Recettes d'un {{recipes/register}} : une seule si la page est la même dans les deux modes, sinon une par mode
+    (marquée « modes ») quand un paramètre contient {{mode|Full Fandom|Calamity++}}."""
+    if not any(has_mode(v) for v in positional + list(named.values())):
+        recipe = build_recipe(positional, named, fname, problems)
+        return [recipe] if recipe else []
+    views = {mode: build_recipe([pick_mode(v, mode) for v in positional],
+                                {k: pick_mode(v, mode) for k, v in named.items()}, fname, problems)
+             for mode in MODES}
+    if views["fandom"] == views["plus"]:
+        return [views["plus"]] if views["plus"] else []
+    return [{**recipe, "modes": [mode]} for mode, recipe in views.items() if recipe]
+
+
 def main():
     pages = {os.path.basename(p): p for p in glob.glob(os.path.join(OUR_MAIN, "Recipes_*egister.txt"))}
 
@@ -96,36 +144,11 @@ def main():
         for m in re.finditer(r"\{\{\s*[Rr]ecipes/register\s*\|", text):
             positional, named = split_all(extract_template(text, m.start()))
             named_keys.update(named.keys())
-            result = clean_name(named.get("result", ""))
-            if not result:
-                continue
-            if len(positional) % 2:
-                problems.append((fname, result, "nombre impair de paramètres"))
-                positional = positional[:-1]
-            ingredients, unreadable = [], False
-            for name, qty in zip(positional[0::2], positional[1::2]):
-                q = parse_qty(qty)
-                alternatives = [clean_name(n) for n in name.split("/") if clean_name(n)]
-                if q is None or q <= 0 or not alternatives:
-                    problems.append((fname, result, f"ingrédient illisible : {name} | {qty}"))
-                    unreadable = True
-                    continue
-                ingredients.append({"items": alternatives, "stack": q})
-            if unreadable:
-                continue  # recette vandalisée (ex. « sqrt(-1) » Alloy Bars) : on garde celle du jeu
-            stations = [clean_name(s) for s in re.split(r"\s*(?:/|<br\s*/?>|\band\b)\s*", named.get("station", "")) if clean_name(s)]
-            recipes.append({
-                "result": result,
-                "amount": parse_qty(named.get("amount")) or 1,
-                "stations": stations,
-                "ingredients": ingredients,
-                "page": fname,
-                **({"extra": {k: v for k, v in named.items() if k not in ("station", "result", "amount")}}
-                   if set(named) - {"station", "result", "amount"} else {}),
-            })
+            recipes += recipes_by_mode(positional, named, fname, problems)
 
     # Transmutations du Shimmer : ce ne sont pas des recettes d'artisanat
-    shimmer = [{"from": r["ingredients"][0]["items"][0], "to": r["result"], "station": r["stations"][0], "page": r["page"]}
+    shimmer = [{"from": r["ingredients"][0]["items"][0], "to": r["result"], "station": r["stations"][0], "page": r["page"],
+                **({"modes": r["modes"]} if "modes" in r else {})}
                for r in recipes if any("shimmer" in st.lower() for st in r["stations"]) and r["ingredients"]]
     recipes = [r for r in recipes if not any("shimmer" in st.lower() for st in r["stations"])]
 

@@ -16,7 +16,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from wiki_index import ROOT, OUR_MAIN, INFOBOX_RE, extract_template  # noqa: E402
+from wiki_index import ROOT, OUR_MAIN, INFOBOX_RE, extract_template, has_mode, pick_mode  # noqa: E402
 from gen_recipes import split_all, clean_name  # noqa: E402
 
 OUT = os.path.join(ROOT, "WikiData", "loot.json")
@@ -97,6 +97,25 @@ def parse_drops(positional):
     return drops, problems
 
 
+def drops_by_mode(positional):
+    """Butin d'une infobox ; avec {{mode|Full Fandom|Calamity++}} dans un paramètre, chaque drop qui n'est pas le même
+    dans les deux modes est marqué de son mode (« modes »). Un {{mode|...|}} vide retire le paramètre dans ce mode."""
+    if not any(has_mode(p) for p in positional):
+        return parse_drops(positional)
+    views = {}
+    bad = []
+    for mode in ("fandom", "plus"):
+        tokens = [t for t in (pick_mode(p, mode) for p in positional) if t.strip()]
+        views[mode], b = parse_drops(tokens)
+        bad += b
+    key = lambda d: json.dumps(d, sort_keys=True)
+    fandom_keys = {key(d) for d in views["fandom"]}
+    plus_keys = {key(d) for d in views["plus"]}
+    drops = [d if key(d) in fandom_keys else {**d, "modes": ["plus"]} for d in views["plus"]]
+    drops += [{**d, "modes": ["fandom"]} for d in views["fandom"] if key(d) not in plus_keys]
+    return drops, sorted(set(bad))
+
+
 def main():
     sources = {f: OUR_MAIN for f in os.listdir(OUR_MAIN) if f.endswith(".txt")}
     index = {p["file"]: p for p in json.load(open(os.path.join(ROOT, "data", "wiki_index.json"), encoding="utf-8")).values()}
@@ -113,7 +132,7 @@ def main():
         # « |note=... » est un paramètre nommé pour MediaWiki, mais il qualifie le drop qui le précède : on le garde
         body = re.sub(r"\|\s*note\s*=", "|" + NOTE, extract_template(text, m.start()))
         positional, _ = split_all(body)
-        drops, bad = parse_drops(positional)
+        drops, bad = drops_by_mode(positional)
         if bad:
             problems[page["title"]] = bad
         if drops:

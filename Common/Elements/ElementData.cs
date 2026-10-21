@@ -21,6 +21,9 @@ namespace CalamityFandom.Common.Elements
             public Dictionary<string, AffinityData> Npcs { get; set; } = new();
             /// <summary>Titre de page -> autres noms qui y redirigent (ou alias manuels du glossaire).</summary>
             public Dictionary<string, List<string>> Aliases { get; set; } = new();
+            /// <summary>Pages dont les éléments diffèrent en Full Fandom ({{mode}} sur la page) : remplacent Items / Npcs.</summary>
+            public Dictionary<string, List<string>> FullItems { get; set; } = new();
+            public Dictionary<string, AffinityData> FullNpcs { get; set; } = new();
         }
 
         private class AffinityData
@@ -87,6 +90,14 @@ namespace CalamityFandom.Common.Elements
             var itemsByName = new Dictionary<string, List<int>>();
             for (int type = 1; type < ItemLoader.ItemCount; type++)
                 AddName(itemsByName, Lang.GetItemNameValue(type), type);
+
+            if (Config.FandomMode.IsFull)
+            {
+                foreach (var (title, names) in data.FullItems)
+                    data.Items[title] = names;
+                foreach (var (title, affinity) in data.FullNpcs)
+                    data.Npcs[title] = affinity;
+            }
 
             foreach (var (title, names) in data.Items)
             {

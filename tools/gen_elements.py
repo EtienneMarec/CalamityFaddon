@@ -14,7 +14,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from wiki_index import ROOT  # noqa: E402
+from wiki_index import ROOT, has_mode, pick_mode  # noqa: E402
 
 OUT = os.path.join(ROOT, "WikiData", "elements.json")
 REPORT = os.path.join(ROOT, "reports", "elements.md")
@@ -41,7 +41,7 @@ def values(fields, prefix):
 
 def main():
     index = json.load(open(os.path.join(ROOT, "data", "wiki_index.json"), encoding="utf-8"))
-    items, npcs = {}, {}
+    items, npcs, full_items, full_npcs = {}, {}, {}, {}
     infobox_names = []  # (nom de l'infobox, titre) : alias quand le titre diffère
     rejected = collections.Counter()
     for page in index.values():
@@ -50,23 +50,38 @@ def main():
         box = page.get("infobox", "")
         name = page["fields"].get("name") or page["title"]
         name = re.sub(r"\s+", " ", re.sub(r"<[^>]*>|\[\[|\]\]", "", name)).strip()
+        # {{mode|Full Fandom|Calamity++}} dans un champ : la vue Calamity++ va dans items/npcs, la vue Full Fandom dans
+        # fullItems/fullNpcs quand elle diffère
+        views = {mode: {k: pick_mode(v, mode) for k, v in page["fields"].items()} for mode in ("plus", "fandom")}
+        moded = any(has_mode(v) for v in page["fields"].values())
         if box.startswith("item"):
-            elements, bad = values(page["fields"], "element")
-            rejected.update(bad)
-            if elements:
-                items[page["title"]] = elements
+            per_mode = {}
+            for mode, fields in views.items():
+                elements, bad = values(fields, "element")
+                if mode == "plus":
+                    rejected.update(bad)
+                per_mode[mode] = elements
+            if per_mode["plus"]:
+                items[page["title"]] = per_mode["plus"]
+            if moded and per_mode["fandom"] != per_mode["plus"]:
+                full_items[page["title"]] = per_mode["fandom"]
         elif box.startswith("npc"):
-            resist, bad1 = values(page["fields"], "resistant")
-            vuln, bad2 = values(page["fields"], "vulnerable")
-            rejected.update(bad1 + bad2)
-            both = set(resist) & set(vuln)  # contradiction : on ignore l'élément
-            resist = [e for e in resist if e not in both]
-            vuln = [e for e in vuln if e not in both]
-            if resist or vuln:
-                entry = {"resistant": resist, "vulnerable": vuln}
+            per_mode = {}
+            for mode, fields in views.items():
+                resist, bad1 = values(fields, "resistant")
+                vuln, bad2 = values(fields, "vulnerable")
+                if mode == "plus":
+                    rejected.update(bad1 + bad2)
+                both = set(resist) & set(vuln)  # contradiction : on ignore l'élément
+                per_mode[mode] = {"resistant": [e for e in resist if e not in both],
+                                  "vulnerable": [e for e in vuln if e not in both]}
+            entry = per_mode["plus"]
+            if entry["resistant"] or entry["vulnerable"]:
                 npcs[page["title"]] = entry
-                if name != page["title"]:
-                    infobox_names.append((name, page["title"]))
+            if moded and per_mode["fandom"] != entry:
+                full_npcs[page["title"]] = per_mode["fandom"]
+            if (page["title"] in npcs or page["title"] in full_npcs) and name != page["title"]:
+                infobox_names.append((name, page["title"]))
 
     # Alias : le jeu nomme parfois autrement (« Signus » pour « Signus, Envoy of the Devourer ») ; on ajoute les
     # redirections du wiki et les alias manuels de tools/glossary.json, sans écraser une vraie page.
@@ -75,13 +90,20 @@ def main():
     aliases += list(glossary.get("aliases", {}).items()) + infobox_names
     alias_map = {}
     for source, target in aliases:
-        if (target in items or target in npcs) and source not in items and source not in npcs:
+        known = (target in items or target in npcs or target in full_items or target in full_npcs)
+        if known and source not in items and source not in npcs:
             alias_map.setdefault(target, []).append(source)
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
-        json.dump({"_generated_by": "tools/gen_elements.py", "elements": ELEMENTS, "items": items, "npcs": npcs,
-                   "aliases": alias_map}, f, ensure_ascii=False, indent=1)
+        out = {"_generated_by": "tools/gen_elements.py", "elements": ELEMENTS, "items": items, "npcs": npcs,
+               "aliases": alias_map}
+        # Sections Full Fandom seulement si une page en a besoin (fichier inchangé sinon)
+        if full_items:
+            out["fullItems"] = full_items
+        if full_npcs:
+            out["fullNpcs"] = full_npcs
+        json.dump(out, f, ensure_ascii=False, indent=1)
 
     usage = collections.Counter(e for els in items.values() for e in els)
     with open(REPORT, "w", encoding="utf-8") as f:

@@ -66,5 +66,12 @@ namespace CalamityFandom.Common.Config
 
         public static bool IsFull => Current == FandomAccuracy.FullFandom;
         public static bool IsPlus => Current == FandomAccuracy.CalamityPlus;
+
+        /// <summary>Vue du wiki à lire : « fandom » (1re valeur de {{mode}}) en Full Fandom, « plus » sinon.</summary>
+        public static string WikiView => IsFull ? "fandom" : "plus";
+
+        /// <summary>Une entrée de données marquée « modes » (générée depuis un {{mode}}) vaut-elle pour le mode courant ?</summary>
+        public static bool Applies(System.Collections.Generic.ICollection<string> modes) =>
+            modes == null || modes.Count == 0 || modes.Contains(WikiView);
     }
 }

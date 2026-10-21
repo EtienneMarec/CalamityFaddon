@@ -23,9 +23,21 @@ le mod tel qu'il est (les deux modes) : le jour où le mod est publié, son wiki
 ```
 
 Première valeur : Full Fandom ; seconde : Calamity++ (page du modèle : `wiki/Template/Template_Mode.txt`).
-Les outils (`tools/gen_stats.py` pour l'instant) lisent ce modèle directement : c'est une **décision explicite**, qui
-passe avant les règles automatiques (« valeur 2022 → Full seulement », écarts extrêmes...). Un champ sans `{{mode}}`
-vaut pour les deux modes.
+Tous les générateurs le lisent : c'est une **décision explicite**, qui passe avant les règles automatiques
+(« valeur 2022 → Full seulement », écarts extrêmes...). Un champ sans `{{mode}}` vaut pour les deux modes.
+**Une valeur vide = absent dans ce mode.** Un `{{mode}}` tient dans un seul paramètre (pas de `|` du modèle parent dedans).
+
+| Où | Exemple | Effet |
+|---|---|---|
+| Stat d'infobox | `\| damage = {{mode|68|3170}}` | 68 en Full Fandom, 3170 en Calamity++ |
+| Quantité d'ingrédient | `\| Lumenyl \| {{mode|25|10}}` | 25 / 10 |
+| Ingrédient | `\| {{mode|Night's Gaze|}} \| {{mode|1|}}` | ingrédient en Full Fandom seulement |
+| Recette entière | `\| result = {{mode|Thing|}}` | recette en Full Fandom seulement |
+| Drop d'infobox de PNJ | `\| {{mode|Skyline Wings|}}\|{{mode|1|}}\|{{mode|3%|}}` | drop en Full Fandom seulement |
+| Chance de drop | `\| Aerialite Ore\|10-26\| {{mode|100%|50%}}` | 100 % / 50 % |
+| Élément, affinité | `\| element2 = {{mode|Machine|}}` | élément en Full Fandom seulement |
+
+Tests : `python tools/test_modes.py` (lancé par `build_data.py`).
 
 ## Pages générées
 
@@ -58,5 +70,6 @@ Full Fandom (« le wiki à la lettre ») s'écrit `{{mode|valeur d'origine|nouve
   - Meatmetal Sans (page Ravager) et Zweihandromeda : comportement tel qu'implémenté ;
   - nouvelle page « Fandom Accuracy » (les deux modes) et `Template:Mode`.
   - Pas sur le wiki : les outils de debug.
-- [ ] 4. `{{mode}}` lu aussi par les recettes, le butin et les éléments
+- [x] 4. `{{mode}}` lu par les stats, les recettes (et le Shimmer), le butin et les éléments ; tests dans
+      `tools/test_modes.py`
 - [ ] 5. Le jour venu : export vers wiki.gg (les pages sont déjà en wikitexte MediaWiki)

@@ -28,6 +28,8 @@ namespace CalamityFandom.Common.WikiData
             public string Note { get; set; }
             public int Group { get; set; }
             public bool GroupAlways { get; set; }
+            /// <summary>Drop propre à un mode (« fandom » / « plus »), tiré d'un {{mode}} ; vide = les deux.</summary>
+            public List<string> Modes { get; set; }
         }
 
         private class NPCData
@@ -104,6 +106,8 @@ namespace CalamityFandom.Common.WikiData
             var groups = new Dictionary<int, List<int>>();
             foreach (var drop in npcData.Drops)
             {
+                if (!FandomMode.Applies(drop.Modes))
+                    continue;
                 if (!string.IsNullOrEmpty(drop.Note))
                 {
                     Conditional++;
