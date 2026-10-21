@@ -9,3 +9,101 @@ Projectiles: {
 	StratusStar.DisplayName: Stratus Star
 	ZweihandromedaSwing.DisplayName: Zweihandromeda Swing
 }
+
+Elements: {
+	Tooltip: Elements: {0}
+	Cold: Cold
+	Fire: Fire
+	Wind: Wind
+	Water: Water
+	Poison: Poison
+	Acid: Acid
+	Radioactive: Radioactive
+	Electricity: Electricity
+	Stab: Stab
+	Slash: Slash
+	Smash: Smash
+	Bomb: Bomb
+	Magic: Magic
+	Dark: Dark
+	Holy: Holy
+	Unholy: Unholy
+	Machine: Machine
+}
+
+Buffs: {
+	Chilled: {
+		DisplayName: Chilled
+		Description: Slowed down and weakened by the cold
+	}
+
+	Ablaze: {
+		DisplayName: Ablaze
+		Description: Burning, with lowered defense
+	}
+
+	Drowning: {
+		DisplayName: Drowning
+		Description: Slowed down and beginning to drown
+	}
+
+	Envenomed: {
+		DisplayName: Envenomed
+		Description: Poisoned and weakened
+	}
+
+	Corroded: {
+		DisplayName: Corroded
+		Description: Speed, damage and defense eaten away by acid
+	}
+
+	Irradiated: {
+		DisplayName: Irradiated
+		Description: Heavy damage, lowered defense, no regeneration
+	}
+
+	Shocked: {
+		DisplayName: Shocked
+		Description: Slowed down by electricity
+	}
+
+	Punctured: {
+		DisplayName: Punctured
+		Description: Slowed down, organs punctured
+	}
+
+	Lacerated: {
+		DisplayName: Lacerated
+		Description: Bleeding heavily
+	}
+
+	Discombobulated: {
+		DisplayName: Discombobulated
+		Description: Confused, with lowered defense
+	}
+
+	Hexed: {
+		DisplayName: Hexed
+		Description: Damaged and weakened by a hex
+	}
+
+	Incapacitated: {
+		DisplayName: Incapacitated
+		Description: Attacks tend to miss
+	}
+
+	Smitten: {
+		DisplayName: Smitten
+		Description: Smitten by holy light
+	}
+
+	Cursed: {
+		DisplayName: Cursed
+		Description: Consumed by an unholy curse
+	}
+
+	Malfunctioning: {
+		DisplayName: Malfunctioning
+		Description: Attacks are weakened
+	}
+}

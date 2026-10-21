@@ -32,6 +32,6 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Tarragon Bar | Uelibloom Bar | UelibloomBar |
 | Tarragon Ore | Uelibloom Ore | UelibloomOre |
 | Tempest Toddler | Draconic Swarmer | DraconicSwarmer |
-| Trash Can (pet) | Danny Devito | DannyDevito |
+| Trash Can (pet | Danny Devito | DannyDevito |
 | Victide Bar | Sea Remains | SeaRemains |
 | Wulfrum Bar | Wulfrum Metal Scrap | WulfrumMetalScrap |

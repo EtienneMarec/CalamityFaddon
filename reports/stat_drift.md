@@ -67,7 +67,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Archerfish | Archerfish | damage | 23 | 16 |
 | Archerfish | Archerfish | use | 10 | 11 |
 | Arctic Bear Paw | ArcticBearPaw | damage | 100 | 80 |
-| Ares: Exoskeleton | AresExoskeleton | damage | 625 | 550 |
+| Ares' Exoskeleton | AresExoskeleton | damage | 625 | 550 |
 | Aries | Aries | defense | 14 | 22 |
 | Ark of the Ancients | TrueArkoftheAncients | damage | 188 | 100 |
 | Ark of the Cosmos | ArkoftheCosmos | damage | 2000 | 1700 |
@@ -118,7 +118,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Axe of Purity | AxeofPurity | use | 14 | 15 |
 | BOHLDOHR | Bohldohr | life | 300 | 600 |
 | BOHLDOHR | Bohldohr | defense | 28 | 32 |
-| Ball O: Fugu | BallOFugu | damage | 40 | 25 |
+| Ball O' Fugu | BallOFugu | damage | 40 | 25 |
 | Banshee Hook | BansheeHook | damage | 238 | 250 |
 | Barinade | Barinade | damage | 9 | 5 |
 | Barinade | Barinade | use | 26 | 24 |
@@ -698,7 +698,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Prismatic Breaker | PrismaticBreaker | damage | 662 | 425 |
 | Profaned Energy | ProfanedEnergyBody | life | 4500 | 2500 |
 | Profaned Shard | ProfanedShard | use | 45 | 10 |
-| Providence: the Profaned Goddess | LoreProvidence | life | 312500 | 250000 |
+| Providence, the Profaned Goddess | LoreProvidence | life | 312500 | 250000 |
 | Pulse Turret Remote | PulseTurretRemote | damage | 100 | 150 |
 | Pulse Turret Remote | PulseTurretRemote | knockback | 0 | 0.25 |
 | Pumpler | Pumpler | damage | 27 | 26 |
@@ -975,7 +975,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Tradewinds | Tradewinds | damage | 31 | 23 |
 | Tradewinds | Tradewinds | velocity | 20 | 25 |
 | Tradewinds | Tradewinds | mana | 5 | 6 |
-| Triactis: True Paladinian Mage-Hammer of Might | TriactisTruePaladinianMageHammerofMight | knockback | 50 | 14 |
+| Triactis' True Paladinian Mage-Hammer of Might | TriactisTruePaladinianMageHammerofMight | knockback | 50 | 14 |
 | True Biome Blade | OmegaBiomeBlade | use | 17 | 18 |
 | True Biome Blade | OmegaBiomeBlade | velocity | 12 | 15 |
 | Tumbleweed | Tumbleweed | damage | 125 | 78 |

@@ -55,6 +55,11 @@ Sous PowerShell, `$env:PYTHONIOENCODING="utf-8"` évite les accents cassés dans
   manque. `reports/recipes.md` (écrit par l'auto-test) liste les changements et les **noms introuvables** : c'est la
   meilleure liste de priorités pour le nouveau contenu (ce qui débloque le plus de recettes).
 
+- `WikiData/elements.json` — éléments des armes et affinités des PNJ (généré par `gen_elements.py`), appliqués par
+  `Common/Elements/`. Résolution par nom anglais puis par les redirections du wiki / `glossary.json` → `aliases`.
+  Chiffres choisis (le wiki n'en donne pas) : voir `docs/decisions.md`.
+- `tools/build_data.py` relance tous les générateurs dans l'ordre.
+
 ## Rapports (générés, ne pas éditer)
 
 - `reports/README.md` — chiffres globaux et avancement.
@@ -119,6 +124,6 @@ la modifier, et noter la décision dans `docs/decisions.md` (page, problème, ch
 | Tarragon Bar/Ore | Uelibloom Bar/Ore |
 | Abyss Bar/Ore | Scoria Bar/Ore |
 | Conquest Fragment | Pearl Shard |
-| Elemental System, `element1..n` | n'existe pas — système à créer |
+| Elemental System, `element1..n`, `resistantN`/`vulnerableN` | créé dans `Common/Elements/` |
 
 Liste complète des renommages : `reports/renames.md`.

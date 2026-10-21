@@ -49,8 +49,29 @@ NPC_FIELDS = {
 
 # --------------------------------------------------------------------------- titres
 
+_TITLES = None
+
+
 def file_to_title(stem):
-    """Reconstitue le titre de la page à partir du nom de fichier du dump."""
+    """Retrouve le vrai titre de la page à partir du nom de fichier du dump.
+
+    Le dump remplace la ponctuation par « _ » (« : », « , », « ' », « ( »...) : on cherche le titre exact dans
+    fandom_dump_extra/titles.json (liste de l'API), sinon on reconstitue au mieux.
+    """
+    global _TITLES
+    if _TITLES is None:
+        _TITLES = {}
+        path = os.path.join(ROOT, "fandom_dump_extra", "titles.json")
+        if os.path.exists(path):
+            for title in json.load(open(path, encoding="utf-8")):
+                _TITLES.setdefault(norm(title), []).append(title)
+    candidates = _TITLES.get(norm(stem), [])
+    if len(candidates) > 1:
+        # Homonymes à la casse près : celui dont les lettres correspondent exactement
+        letters = re.sub(r"[^0-9A-Za-z]", "", stem)
+        candidates = [c for c in candidates if re.sub(r"[^0-9A-Za-z]", "", c) == letters] or candidates
+    if candidates:
+        return candidates[0]
     t = stem
     t = re.sub(r"_s\b", "'s", t)          # Arkhalis_s -> Arkhalis's
     t = re.sub(r" _([^_]+)_$", r" (\1)", t)  # Dragon Egg _pet_ -> Dragon Egg (pet)

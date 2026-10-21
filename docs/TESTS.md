@@ -54,3 +54,15 @@ Chaque recette changée est vérifiée par l'auto-test ; en jeu, contrôler surt
 - [ ] Les recettes de Calamity à condition (ex. objets Draedon, Revengeance) gardent leurs conditions
 - [ ] Shimmer : une transmutation du wiki fonctionne (liste dans `WikiData/recipes.json` → `shimmer`)
 - [ ] Le guide (« Guide → objets craftables ») ne plante pas et affiche les nouvelles recettes
+
+### 1.4 Système d'éléments (`Common/Elements/`, `WikiData/elements.json`)
+
+Données et immunités vérifiées par l'auto-test ; en jeu :
+- [ ] Infobulle de Graydron : ligne « Elements: Slash, Machine » colorée, sous les dégâts
+- [ ] Zweihandromeda : « Elements: Dark, Magic, Stab »
+- [ ] Frapper un Aero Slime (vulnérable Fire/Dark) avec une arme Fire : texte « Vulnerable! », dégâts doublés
+- [ ] Avec une arme Poison sur l'Aero Slime : texte « Resisted », pas de debuff Envenomed
+- [ ] Les debuffs apparaissent sur l'ennemi (icônes d'éléments du wiki), avec particules colorées
+- [ ] Un ennemi Chilled/Shocked est visiblement ralenti ; un boss l'est moins
+- [ ] Les projectiles d'une arme élémentaire (arc, bâton) appliquent aussi les effets
+- [ ] Multijoueur (si possible) : les debuffs se voient chez les deux joueurs

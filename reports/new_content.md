@@ -5,7 +5,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 ## Weapon (522)
 
 - [ ] A M S
-- [ ] AAMG (Disperse) — pas de sprite; addon: Calamity: Tales of the Aquatic
+- [ ] AAMG "Disperse" — pas de sprite; addon: Calamity: Tales of the Aquatic
 - [ ] Abysscent Derailer — addon: Calamity: Tales of the Aquatic
 - [ ] Abysscent Pistol — addon: Calamity: Tales of the Aquatic
 - [ ] Ace's Low — addon: Calamity: Community Remix
@@ -58,7 +58,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Brimlash Buster
 - [ ] Brimstone Flameblaster
 - [ ] Bucket of Coal — addon: Calamity: Community Remix
-- [ ] Bundle o: Bones — addon: Calamity: Community Remix
+- [ ] Bundle o' Bones — addon: Calamity: Community Remix
 - [ ] Butcher (weapon)
 - [ ] Calamitous Vortex — addon: Calamity: Tales of the Aquatic
 - [ ] Calamity Sword
@@ -220,8 +220,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Gravitonomy Pike
 - [ ] Greatsword of Blah
 - [ ] Guardians Wrath
-- [ ] H/S Trident
-- [ ] HPST (Malign) — pas de sprite; addon: Calamity: Tales of the Aquatic
+- [ ] H.S Trident
+- [ ] HPST "Malign" — pas de sprite; addon: Calamity: Tales of the Aquatic
 - [ ] Hadopelagic Echo
 - [ ] Hailberd
 - [ ] Hailstorm
@@ -260,7 +260,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Lazinator
 - [ ] Lead Wizard
 - [ ] Leeching Dagger
-- [ ] Li/l Mine — addon: Calamity: Community Remix
+- [ ] Li'l Mine — addon: Calamity: Community Remix
 - [ ] Lightning Hawk
 - [ ] Luminous Striker
 - [ ] Lunatic Beats — addon: Calamity: Community Remix
@@ -282,7 +282,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Metal Ball
 - [ ] Microcell Cut — addon: Calamity: Tales of the Aquatic
 - [ ] Microhavoc — addon: Calamity: Tales of the Aquatic
-- [ ] Midas: Handshake
+- [ ] Midas' Handshake
 - [ ] Minigun
 - [ ] Miracle Smacker — addon: Calamitous Journeys
 - [ ] Molecular Manipulator
@@ -301,7 +301,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Noxcalibur
 - [ ] Nychthemeron
 - [ ] Nystagmus — addon: Polyphemalus
-- [ ] OPFT (Sublimate) — pas de sprite
+- [ ] OPFT "Sublimate" — pas de sprite
 - [ ] Obsidigun
 - [ ] Ogscule — addon: Calamity's Vanities
 - [ ] Old Lord Oathsword
@@ -313,7 +313,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Ore Spawner Staff
 - [ ] Outplanetary Dartshooter — addon: Calamity: Tales of the Aquatic
 - [ ] Overloaded Combatant Blaster — addon: Calamity: Tales of the Aquatic
-- [ ] P/G/D/R/
+- [ ] P.G.D.R.
 - [ ] Pandora's Chest — addon: Calamity: Community Remix
 - [ ] Pastranion
 - [ ] Pearl Gloves
@@ -356,7 +356,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Redtide Spear
 - [ ] Redtide Sword
 - [ ] Reemergence
-- [ ] Revolvin: Mc/Coy — addon: Calamity: Community Remix
+- [ ] Revolvin' Mc'Coy — addon: Calamity: Community Remix
 - [ ] Ribbon Flintlock Rifle Cannon
 - [ ] Rivers of Frost — addon: Calamity: Community Remix
 - [ ] Rods from God
@@ -373,7 +373,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Seabow
 - [ ] Seared Shredder
 - [ ] Seashell Boomerang
-- [ ] Severed Eye/exe — addon: Calamity: Community Remix
+- [ ] Severed Eye.exe — addon: Calamity: Community Remix
 - [ ] Sewer Brewer
 - [ ] Shading Manual — addon: Calamity: Tales of the Aquatic
 - [ ] Shadow's Descent
@@ -521,7 +521,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Wulfrum Leech Dagger
 - [ ] Wulfrum Shock Cutter — addon: Calamity: Community Remix
 - [ ] Wulfrum Staff — addon: Calamity: Community Remix
-- [ ] XB-: Hekate — addon: Calamity: Community Remix
+- [ ] XB-∞ Hekate — addon: Calamity: Community Remix
 - [ ] Xemilumeniscent Staff — addon: Tranquility Mod
 - [ ] Xenon Cutlass — addon: Calamity: Community Remix
 - [ ] Yanmei's Knife
@@ -684,7 +684,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Abyssal Amulet
 - [ ] Aegis Core — addon: Calamity: Tales of the Aquatic
 - [ ] Alchemical Flask
-- [ ] Amidias: Spark
+- [ ] Amidias' Spark
 - [ ] Ancient Essence of Merge — addon: Calamity: Tales of the Aquatic
 - [ ] Aquatic Shardstone — addon: Calamity: Tales of the Aquatic
 - [ ] Arcanoid Orb — addon: Calamity: Tales of the Aquatic
@@ -957,7 +957,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Bagel Nuts
 - [ ] Barolegs
 - [ ] Cadance Potion
-- [ ] Calamitas: Brew
+- [ ] Calamitas' Brew
 - [ ] Calamitea
 - [ ] Carnal Corn
 - [ ] Chaotic Grapes — addon: Calamity: Tales of the Aquatic
@@ -1019,11 +1019,11 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 ## Boss (60)
 
 - [ ] Acidsighter
-- [ ] Aetherial Guardian: Olistene — addon: Deimos, the Starborn Princess
+- [ ] Aetherial Guardian, Olistene — addon: Deimos, the Starborn Princess
 - [ ] Amazon
-- [ ] Artificial Sentience System: AX-P03 — pas de sprite
+- [ ] Artificial Sentience System, AX-P03 — pas de sprite
 - [ ] Astrageldon Slime
-- [ ] Birdest Up: Kulu-Yharon-Ku — pas de sprite
+- [ ] Birdest Up, Kulu-Yharon-Ku — pas de sprite
 - [ ] Carcinogen
 - [ ] Ceasing Void
 - [ ] Cumulomenace
@@ -1035,25 +1035,25 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Empyreon — addon: Deimos, the Starborn Princess
 - [ ] Fatal Circuit — pas de sprite
 - [ ] Garon — addon: Calamity: Community Remix
-- [ ] Godseeker: Yharim — stub; addon: Calamity: Community Remix, Calamity: Community Remix
+- [ ] Godseeker, Yharim — stub; addon: Calamity: Community Remix, Calamity: Community Remix
 - [ ] Goozma — addon: Fargo’s Souls DLC (Fargo Souls Mod x Calamity)
 - [ ] Goozmageldon — pas de sprite
 - [ ] Grand Thunder Cnidrion
 - [ ] Horseslimes of the Goopocalypse — pas de sprite; addon: Deimos, the Starborn Princess, Calamity Loot Swap
 - [ ] Hydrogen
 - [ ] Ionogen
-- [ ] Jungle Dragon: Yharon — addon: Fargo’s Souls DLC (Fargo Souls Mod x Calamity), Calamity: Community Remix
+- [ ] Jungle Dragon Yharon — addon: Fargo’s Souls DLC (Fargo Souls Mod x Calamity), Calamity: Community Remix
 - [ ] Mechanical Horde — pas de sprite; addon: Calamity: Community Remix
 - [ ] Mirage Mallah
 - [ ] Monstro
 - [ ] Necron — pas de sprite
 - [ ] Oxygen
-- [ ] Pandora: the Hypnotized Witch — pas de sprite
+- [ ] Pandora, the Hypnotized Witch — pas de sprite
 - [ ] Pathogen
 - [ ] Phytogen
 - [ ] Polyphemalus — addon: Polyphemalus
 - [ ] Profaned Guardians
-- [ ] Profusion: the Viral God — stub
+- [ ] Profusion, the Viral God — stub
 - [ ] Provig — stub; addon: Wrath of the Gods
 - [ ] Pyrogen
 - [ ] Serial Designation N — addon: Sloome
@@ -1068,13 +1068,13 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] The Starborn Moth — stub; addon: Deimos, the Starborn Princess
 - [ ] The Wall of Bronze
 - [ ] The Wall of Gifts — pas de sprite
-- [ ] Twisted Tyrant: Bizhaarim
+- [ ] Twisted Tyrant, Bizhaarim
 - [ ] Unstable Calamity
 - [ ] Void Hydra — pas de sprite; stub
 - [ ] Wulfrum Excavator
 - [ ] Wulfrum Megamechwyrm — addon: Calamity: Community Remix
 - [ ] XB-10 HuY — pas de sprite
-- [ ] XC-39 Oizys — stub; addon: Calamity: Community Remix
+- [ ] XC-39 "Oizys" — stub; addon: Calamity: Community Remix
 - [ ] XP-00 Hypnos
 - [ ] Xernocaloxusatros — addon: Wrath of the Mammoth
 - [ ] Yharim Worm
@@ -1118,7 +1118,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Green Demon
 - [ ] Heavenly Ogsculite
 - [ ] Hive Cyst
-- [ ] King of Constellations: Tenryu — addon: Calamity: Community Remix
+- [ ] King of Constellations, Tenryu — addon: Calamity: Community Remix
 - [ ] La Ruga — addon: Calamity: Community Remix
 - [ ] Lizard — addon: Calamity: Community Remix
 - [ ] Mosquito
@@ -1131,8 +1131,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Plague Emperor
 - [ ] Province Pilferer
 - [ ] Puff enemies — pas de sprite
-- [ ] R/OST
-- [ ] Rodent/tmod
+- [ ] R.OST
+- [ ] Rodent.tmod
 - [ ] Sand Tortoise
 - [ ] Sea Urchin
 - [ ] Stiriatic Walkie — addon: Calamity: Tales of the Aquatic
@@ -1175,7 +1175,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Onyx Overlord's Gunsaw — addon: Calamity: Community Remix
 - [ ] Protective Shield — pas de sprite; addon: Tranquility Mod
 - [ ] Psy Rod — addon: Calamity: Community Remix
-- [ ] Q/C/S/T/T/ — stub; addon: Deimos, the Starborn Princess, Calamity: Distorted Memories
+- [ ] Q.C.S.T.T. — stub; addon: Deimos, the Starborn Princess, Calamity: Distorted Memories
 - [ ] Reactive Pickaxe — addon: Calamity: Tales of the Aquatic
 - [ ] Revengeance
 - [ ] Ripper Shark
@@ -1239,7 +1239,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Noctactricity — addon: Calamity: Tales of the Aquatic
 - [ ] Oiled — pas de sprite
 - [ ] Omnislime — addon: Deimos, the Starborn Princess
-- [ ] On Fire/ — pas de sprite
+- [ ] On Fire — pas de sprite
 - [ ] Poisoned — pas de sprite
 - [ ] Punishment
 - [ ] Reactive Flames — addon: Calamity: Tales of the Aquatic
@@ -1259,7 +1259,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Aquatic Seeker
 - [ ] Astral Head
 - [ ] Astrum Deus Probe
-- [ ] Baby Skeletron Head/exe — addon: Calamity: Community Remix
+- [ ] Baby Skeletron Head.exe — addon: Calamity: Community Remix
 - [ ] Big Sightseer
 - [ ] Blighted Eye
 - [ ] Charm Gar — addon: Deimos, the Starborn Princess
@@ -1506,16 +1506,16 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 - [ ] Abyssal Jewel — addon: Calamity: Tales of the Aquatic
 - [ ] Adult Eidolon Wyrm — addon: Apotheosis and Friends
-- [ ] DWN-/: Zero
+- [ ] DWN-∞, Zero
 - [ ] Disgusting Creature: Dron — stub
 - [ ] Esserwyrm — addon: Calamity: Tales of the Aquatic
 - [ ] Exodygen
-- [ ] Nihil: the Fathomless Seeker — pas de sprite
+- [ ] Nihil, the Fathomless Seeker — pas de sprite
 - [ ] Poobis Prime — pas de sprite; addon: Buh Deez
-- [ ] Purgatory Arbiter: Umbrus — addon: Calamity Loot Swap
-- [ ] Reactive Guardian: Sodis — addon: Calamity: Tales of the Aquatic
-- [ ] The Fallen Ascended Master: Xeroc
-- [ ] The Unimaginable Deity: Yald/xoroath — addon: Wrath of the God's
+- [ ] Purgatory Arbiter, Umbrus — addon: Calamity Loot Swap
+- [ ] Reactive Guardian, Sodis — addon: Calamity: Tales of the Aquatic
+- [ ] The Fallen Ascended Master, Xeroc
+- [ ] The Unimaginable Deity, Yald'xoroath — addon: Wrath of the God's
 - [ ] Vision of the Tyrant — addon: Calamity: Community Remix
 
 ## Pet Summon (12)
@@ -1580,7 +1580,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Bronze Serpent
 - [ ] Devourer Spawn
 - [ ] Dried Seeker
-- [ ] Lav/e Rugamarius — addon: Polyphemalus
+- [ ] Lav'e Rugamarius — addon: Polyphemalus
 - [ ] Mechanical Leech
 - [ ] Mechawyrm — addon: Deimos, the Starborn Princess
 - [ ] Secretary

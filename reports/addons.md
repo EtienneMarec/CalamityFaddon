@@ -20,7 +20,7 @@ _Généré par `tools/wiki_index.py`._
 - Astral Pearl
 - Aurikia-5220
 - Babilfish
-- Baby Skeletron Head/exe
+- Baby Skeletron Head.exe
 - Baow
 - Bars
 - Bellwings
@@ -37,7 +37,7 @@ _Généré par `tools/wiki_index.py`._
 - Brimstone Witch
 - Bucket of Coal
 - Buffs
-- Bundle o: Bones
+- Bundle o' Bones
 - Burning Sea
 - Caelus
 - Calamitous Certificate
@@ -128,7 +128,7 @@ _Généré par `tools/wiki_index.py`._
 - Genesis (event)
 - Glittering Astral Eye
 - Gloomy Trident
-- Godseeker: Yharim
+- Godseeker, Yharim
 - Gourdler
 - Grand Purification
 - Grarble Bayonet
@@ -152,14 +152,14 @@ _Généré par `tools/wiki_index.py`._
 - JOOZ
 - Jet Engine
 - Jungle
-- Jungle Dragon: Yharon
-- King of Constellations: Tenryu
+- Jungle Dragon Yharon
+- King of Constellations, Tenryu
 - Klepticoin
 - La Ruga
 - Lab Hologram Projector
 - Leaves of Crabulon
 - Leviathan and Anahita
-- Li/l Mine
+- Li'l Mine
 - Life Ore
 - List of NPCs by Hit Sound
 - Lizard
@@ -205,14 +205,14 @@ _Généré par `tools/wiki_index.py`._
 - Quiver of Madness
 - Ram's Revenge
 - Rarity
-- Revolvin: Mc/Coy
+- Revolvin' Mc'Coy
 - Rivers of Frost
 - Rose Bow
 - Rox
 - SAUS
 - Schematics
 - Secret player names
-- Severed Eye/exe
+- Severed Eye.exe
 - Shattered Message Block
 - Shattered Start Block
 - Shimmer
@@ -290,8 +290,8 @@ _Généré par `tools/wiki_index.py`._
 - Wulfrum Shock Cutter
 - Wulfrum Staff
 - Wulfrum Treasure Pinger
-- XB-: Hekate
-- XC-39 Oizys
+- XB-∞ Hekate
+- XC-39 "Oizys"
 - Xenon Cutlass
 - YashBrowns
 - Yharim (disambiguation)
@@ -302,7 +302,7 @@ _Généré par `tools/wiki_index.py`._
 
 ## Calamity: Tales of the Aquatic (242)
 
-- AAMG (Disperse)
+- AAMG "Disperse"
 - Abandoned Bronze Plating
 - Abyssal Jelly
 - Abyssal Jewel
@@ -408,7 +408,7 @@ _Généré par `tools/wiki_index.py`._
 - Gluehunter
 - Gluelic Blade
 - Godterminal Arcanoid Base
-- HPST (Malign)
+- HPST "Malign"
 - Haunted Brick
 - Haunted Ore
 - Helios Partisan
@@ -464,7 +464,7 @@ _Généré par `tools/wiki_index.py`._
 - Purgatory Blaster
 - Rampart of Deicide
 - Reactive Flames
-- Reactive Guardian: Sodis
+- Reactive Guardian, Sodis
 - Reactive Pickaxe
 - Reactor Accelerator
 - Regeterrence
@@ -548,7 +548,7 @@ _Généré par `tools/wiki_index.py`._
 ## Deimos, the Starborn Princess (110)
 
 - Abyss
-- Aetherial Guardian: Olistene
+- Aetherial Guardian, Olistene
 - Apocalyptic Slime Statue
 - Armageddon Wings
 - Astral Communicator
@@ -627,7 +627,7 @@ _Généré par `tools/wiki_index.py`._
 - Primordial Rainbow Slime
 - Profaned Energy
 - Prominence
-- Q/C/S/T/T/
+- Q.C.S.T.T.
 - Quark-Gluon Sludge
 - Quintessence Cannon
 - Rarity
@@ -702,7 +702,7 @@ _Généré par `tools/wiki_index.py`._
 - Shadowspec Ore
 - Shimmer
 - Sigmund
-- Signus: Envoy of the Devourer
+- Signus, Envoy of the Devourer
 - Snow biome
 - Sparkling Empress
 - Stamina Meter
@@ -742,7 +742,7 @@ _Généré par `tools/wiki_index.py`._
 - Dead Star's Laser Rifle
 - Deadlock
 - Deathwish
-- Deniquyne: the Sand Elemental
+- Deniquyne, the Sand Elemental
 - Dialogues
 - Elemental Souls
 - Elemental in a Bottle
@@ -819,7 +819,7 @@ _Généré par `tools/wiki_index.py`._
 - Enemies
 - Fused Eye
 - Heterochromia
-- Lav/e Rugamarius
+- Lav'e Rugamarius
 - List of NPCs by Hit Sound
 - Miscellaneous
 - Nystagmus
@@ -847,7 +847,7 @@ _Généré par `tools/wiki_index.py`._
 - Planetoid
 - Primordial Ore
 - Primordial Rainbow Slime
-- Purgatory Arbiter: Umbrus
+- Purgatory Arbiter, Umbrus
 - Shadowspec Ore
 - Shimmer
 - Starborn Princess
@@ -878,7 +878,7 @@ _Généré par `tools/wiki_index.py`._
 - Cryogen
 - Desert Scourge
 - Goozma
-- Jungle Dragon: Yharon
+- Jungle Dragon Yharon
 - The Devourer of Gods
 - The Rot
 
@@ -888,7 +888,7 @@ _Généré par `tools/wiki_index.py`._
 - Char Matter
 - Communication
 - Derelict Brick
-- Q/C/S/T/T/
+- Q.C.S.T.T.
 - XO-Tell
 
 ## Calamity Tales of the Aquatic (4)
@@ -929,7 +929,7 @@ _Généré par `tools/wiki_index.py`._
 
 ## Voidmaster's Threnody (2)
 
-- Darukum: Tormented Plane
+- Darukum, Tormented Plane
 - Voidmaster's Threnody
 
 ## Profaned Birb (2)
@@ -1016,7 +1016,7 @@ _Généré par `tools/wiki_index.py`._
 
 ## Wrath of the God's (1)
 
-- The Unimaginable Deity: Yald/xoroath
+- The Unimaginable Deity, Yald'xoroath
 
 ## Wakasagihime (1)
 

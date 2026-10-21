@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using CalamityFandom.Common.Elements;
 using CalamityFandom.Common.WikiData;
 using Terraria;
 using Terraria.ID;
@@ -43,6 +44,7 @@ namespace CalamityFandom.Common.Debug
             CheckItemStats();
             CheckNPCStats();
             CheckRecipes();
+            CheckElements();
             foreach (var check in ExtraChecks)
                 check(this);
 
@@ -126,6 +128,53 @@ namespace CalamityFandom.Common.Debug
                 WikiRecipes.WriteReport(reports);
             Report($"recettes : {WikiRecipes.Applied.Count} objets changés, {WikiRecipes.Edited} modifiées, {WikiRecipes.Created} créées, "
                 + $"{WikiRecipes.Kept} conservées hors wiki, {WikiRecipes.Unchanged} identiques, {WikiRecipes.ShimmerSet} shimmer, {WikiRecipes.Missing.Count} noms introuvables");
+        }
+
+        private void CheckElements()
+        {
+            Element[] ElementsOf(string mod, string name) =>
+                ModContent.TryFind<ModItem>(mod, name, out var i) && ElementData.ItemElements.TryGetValue(i.Type, out var e) ? e : Array.Empty<Element>();
+
+            var graydron = ElementsOf("CalamityMod", "Murasama");
+            Expect(graydron.SequenceEqual(new[] { Element.Slash, Element.Machine }), $"éléments de Graydron : {string.Join(",", graydron)}");
+            var zwei = ElementsOf("CalamityFandom", "Zweihandromeda");
+            Expect(zwei.SequenceEqual(new[] { Element.Dark, Element.Magic, Element.Stab }), $"éléments de Zweihandromeda : {string.Join(",", zwei)}");
+
+            for (int e = 0; e < ElementInfo.Count; e++)
+            {
+                bool hasStatus = ElementInfo.Effects[e] != null;
+                Expect((ElementData.StatusBuffs[e] >= 0) == hasStatus, $"statut de l'élément {(Element)e} : buff {ElementData.StatusBuffs[e]}");
+            }
+
+            // Aero Slime : résistant Poison/Holy, vulnérable Fire/Dark
+            if (ModContent.TryFind<ModNPC>("CalamityMod", "AeroSlime", out var slime))
+            {
+                Expect(ElementData.Multiplier(new[] { Element.Fire }, slime.Type) == 2f, "Aero Slime vulnérable au feu");
+                Expect(ElementData.Multiplier(new[] { Element.Poison }, slime.Type) == 0.5f, "Aero Slime résistant au poison");
+                Expect(ElementData.Multiplier(new[] { Element.Fire, Element.Poison }, slime.Type) == 1f, "Aero Slime feu + poison = neutre");
+                Expect(NPCID.Sets.SpecificDebuffImmunity[slime.Type][ModContent.BuffType<Envenomed>()] == true, "Aero Slime immunisé contre Envenomed");
+                Expect(NPCID.Sets.SpecificDebuffImmunity[slime.Type][ModContent.BuffType<Ablaze>()] != true, "Aero Slime sensible à Ablaze");
+            }
+            else
+                Expect(false, "Aero Slime introuvable");
+
+            Expect(ElementData.ItemElements.Count > 600, $"objets avec éléments : {ElementData.ItemElements.Count}");
+            Report($"éléments : {ElementData.ItemElements.Count} objets et {ElementData.NPCAffinity.Count} PNJ en jeu ; "
+                + $"{ElementData.UnresolvedItems.Count} objets et {ElementData.UnresolvedNPCs.Count} PNJ du wiki pas encore dans le jeu");
+            string reports = Environment.GetEnvironmentVariable("CALFANDOM_REPORTS");
+            if (!string.IsNullOrEmpty(reports))
+            {
+                var sb = new System.Text.StringBuilder();
+                sb.AppendLine("# Éléments du wiki sans objet/PNJ en jeu").AppendLine();
+                sb.AppendLine("_Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.").AppendLine();
+                sb.AppendLine($"## PNJ ({ElementData.UnresolvedNPCs.Count})").AppendLine();
+                foreach (string name in ElementData.UnresolvedNPCs.OrderBy(x => x))
+                    sb.AppendLine($"- {name}");
+                sb.AppendLine().AppendLine($"## Objets ({ElementData.UnresolvedItems.Count})").AppendLine();
+                foreach (string name in ElementData.UnresolvedItems.OrderBy(x => x))
+                    sb.AppendLine($"- {name}");
+                System.IO.File.WriteAllText(System.IO.Path.Combine(reports, "elements_missing.md"), sb.ToString());
+            }
         }
 
         private void CheckNPCStats()

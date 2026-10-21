@@ -1,0 +1,9066 @@
+{
+ "_generated_by": "tools/gen_elements.py",
+ "elements": [
+  "Cold",
+  "Fire",
+  "Wind",
+  "Water",
+  "Poison",
+  "Acid",
+  "Radioactive",
+  "Electricity",
+  "Stab",
+  "Slash",
+  "Smash",
+  "Bomb",
+  "Magic",
+  "Dark",
+  "Holy",
+  "Unholy",
+  "Machine"
+ ],
+ "items": {
+  "A M S": [
+   "Fire",
+   "Bomb"
+  ],
+  "AAMG \"Disperse\"": [
+   "Unholy",
+   "Dark",
+   "Magic"
+  ],
+  "Abandoned Slime Staff": [
+   "Magic",
+   "Poison",
+   "Holy",
+   "Smash"
+  ],
+  "Absolute Zero": [
+   "Cold",
+   "Slash"
+  ],
+  "Abyss Blade": [
+   "Water",
+   "Dark"
+  ],
+  "Abyss Shocker": [
+   "Water",
+   "Electricity"
+  ],
+  "Abyssal Mirror": [
+   "Dark",
+   "Water"
+  ],
+  "Abyssal Tome": [
+   "Unholy",
+   "Poison"
+  ],
+  "Abyssal Warhammer": [
+   "Smash"
+  ],
+  "Abysscent Derailer": [
+   "Cold",
+   "Water",
+   "Dark",
+   "Bomb"
+  ],
+  "Abysscent Pistol": [
+   "Water",
+   "Dark"
+  ],
+  "Ace's High": [
+   "Fire",
+   "Stab"
+  ],
+  "Ace's Low": [
+   "Fire",
+   "Stab"
+  ],
+  "Acid Bow": [
+   "Acid",
+   "Radioactive"
+  ],
+  "Acid Gun": [
+   "Acid"
+  ],
+  "Acidic Rain Barrel": [
+   "Acid",
+   "Radioactive",
+   "Fire",
+   "Smash",
+   "Bomb"
+  ],
+  "Adamantite Particle Accelerator": [
+   "Fire",
+   "Machine"
+  ],
+  "Adamantite Throwing Axe": [
+   "Slash"
+  ],
+  "Aegis Blade": [
+   "Fire",
+   "Holy",
+   "Slash"
+  ],
+  "Aegis Core": [
+   "Dark",
+   "Cold",
+   "Magic"
+  ],
+  "Aergian Technistaff": [
+   "Holy",
+   "Electricity"
+  ],
+  "Aerial Hamaxe": [
+   "Smash"
+  ],
+  "Aero Bolt": [
+   "Holy",
+   "Cold",
+   "Wind"
+  ],
+  "Aero Dynamite": [
+   "Holy",
+   "Bomb"
+  ],
+  "Aestheticus": [
+   "Cold"
+  ],
+  "Aether's Whisper": [
+   "Dark",
+   "Magic"
+  ],
+  "Aetherflux Cannon": [
+   "Holy",
+   "Magic"
+  ],
+  "Aflaming Crystalliser": [
+   "Fire"
+  ],
+  "Aftershock": [
+   "Slash"
+  ],
+  "Air Spinner": [
+   "Holy"
+  ],
+  "Alluvion": [
+   "Water",
+   "Cold",
+   "Dark"
+  ],
+  "Alpha Ray": [
+   "Magic"
+  ],
+  "Alpha Virus": [
+   "Poison",
+   "Smash",
+   "Machine"
+  ],
+  "Alula Australis": [
+   "Magic",
+   "Machine"
+  ],
+  "Amalgamated Brain": [
+   "Unholy",
+   "Water"
+  ],
+  "Amidias' Pendant": [
+   "Magic"
+  ],
+  "Amidias' Spark": [
+   "Magic",
+   "Fire"
+  ],
+  "Amidias' Trident": [
+   "Water",
+   "Stab",
+   "Holy"
+  ],
+  "Anahita's Arpeggio": [
+   "Water",
+   "Holy"
+  ],
+  "Anarchy Blade": [
+   "Fire",
+   "Unholy"
+  ],
+  "Ancient Ice Chunk": [
+   "Cold",
+   "Smash"
+  ],
+  "Ancient Shiv": [
+   "Water",
+   "Stab"
+  ],
+  "Angel's Thesis": [
+   "Unholy",
+   "Holy"
+  ],
+  "Angelic Alliance": [
+   "Holy",
+   "Fire"
+  ],
+  "Angelic Shotgun": [
+   "Holy",
+   "Stab"
+  ],
+  "Animosity": [
+   "Fire",
+   "Unholy"
+  ],
+  "Animus": [
+   "Fire",
+   "Unholy",
+   "Slash"
+  ],
+  "Anti-materiel Rifle": [
+   "Stab",
+   "Dark"
+  ],
+  "Aorta": [
+   "Fire"
+  ],
+  "Apoctolith": [
+   "Smash",
+   "Dark",
+   "Water"
+  ],
+  "Apoctosis Array": [
+   "Fire"
+  ],
+  "Apotheosis": [
+   "Magic",
+   "Cold",
+   "Unholy"
+  ],
+  "Aquamarine Staff": [
+   "Water"
+  ],
+  "Aquarel Pistol": [
+   "Water",
+   "Stab",
+   "Cold"
+  ],
+  "Aquashard Shotgun": [
+   "Water",
+   "Stab"
+  ],
+  "Aquatic Discharge": [
+   "Water",
+   "Stab"
+  ],
+  "Aquatic Dissolution": [
+   "Water",
+   "Slash"
+  ],
+  "Aquatic Heart": [
+   "Cold"
+  ],
+  "Aquatic Shardstone": [
+   "Water",
+   "Electricity"
+  ],
+  "Arbalest": [
+   "Stab"
+  ],
+  "Arcanoid Orb": [
+   "Magic",
+   "Smash"
+  ],
+  "Arch Amaryllis": [
+   "Poison"
+  ],
+  "Archerfish": [
+   "Water",
+   "Dark"
+  ],
+  "Arctic Bear Paw": [
+   "Cold",
+   "Slash"
+  ],
+  "Ares' Exoskeleton": [
+   "Fire",
+   "Poison",
+   "Electricity",
+   "Machine"
+  ],
+  "Ark of the Ancients": [
+   "Magic",
+   "Slash"
+  ],
+  "Ark of the Cosmos": [
+   "Magic",
+   "Slash",
+   "Holy"
+  ],
+  "Ark of the Elements": [
+   "Magic",
+   "Slash"
+  ],
+  "Arkflammator": [
+   "Unholy",
+   "Dark"
+  ],
+  "Arngren": [
+   "Unholy"
+  ],
+  "Art Attack": [
+   "Magic"
+  ],
+  "Arterial Assault": [
+   "Fire",
+   "Unholy"
+  ],
+  "Ashen Stalactite": [
+   "Unholy",
+   "Fire",
+   "Stab"
+  ],
+  "Aspect of the End": [
+   "Magic",
+   "Slash"
+  ],
+  "Aspid Blaster": [
+   "Poison"
+  ],
+  "Asteroid Staff": [
+   "Magic",
+   "Fire"
+  ],
+  "Astral Arcanoid Base": [
+   "Magic",
+   "Smash"
+  ],
+  "Astral Axe": [
+   "Magic",
+   "Slash"
+  ],
+  "Astral Blade": [
+   "Magic",
+   "Slash"
+  ],
+  "Astral Blaster": [
+   "Magic",
+   "Poison"
+  ],
+  "Astral Bow": [
+   "Magic",
+   "Stab"
+  ],
+  "Astral Hamaxe": [
+   "Magic",
+   "Slash",
+   "Smash"
+  ],
+  "Astral Hammer": [
+   "Magic",
+   "Smash"
+  ],
+  "Astral Pearl": [
+   "Magic"
+  ],
+  "Astral Pickaxe": [
+   "Magic",
+   "Stab"
+  ],
+  "Astral Pike": [
+   "Magic",
+   "Stab"
+  ],
+  "Astral Scythe": [
+   "Magic",
+   "Slash"
+  ],
+  "Astral Staff": [
+   "Magic",
+   "Poison"
+  ],
+  "Astralachnea Staff": [
+   "Magic",
+   "Poison"
+  ],
+  "Astralence": [
+   "Unholy",
+   "Poison",
+   "Slash"
+  ],
+  "Astreal Defeat": [
+   "Dark",
+   "Holy"
+  ],
+  "Ataraxia": [
+   "Dark",
+   "Slash"
+  ],
+  "Atlantis": [
+   "Water",
+   "Stab"
+  ],
+  "Atlas Munitions Beacon": [
+   "Magic",
+   "Holy",
+   "Machine"
+  ],
+  "Augar of the Elements": [
+   "Magic"
+  ],
+  "Auralis": [
+   "Cold",
+   "Magic"
+  ],
+  "Auric Sword": [
+   "Slash"
+  ],
+  "Aurora Blazer": [
+   "Fire",
+   "Magic",
+   "Machine"
+  ],
+  "Auroradical Throw": [
+   "Magic",
+   "Fire",
+   "Smash"
+  ],
+  "Avalanche": [
+   "Cold",
+   "Slash"
+  ],
+  "Axe of Purity": [
+   "Holy",
+   "Slash"
+  ],
+  "Axisdriver": [
+   "Cold",
+   "Slash",
+   "Machine"
+  ],
+  "Azathoth": [
+   "Magic",
+   "Cold",
+   "Unholy"
+  ],
+  "Bad Apple": [
+   "Poison",
+   "Fire"
+  ],
+  "Baleful Harvester": [
+   "Fire",
+   "Dark",
+   "Slash"
+  ],
+  "Ball O' Fugu": [
+   "Poison",
+   "Dark",
+   "Water",
+   "Smash"
+  ],
+  "Ballistic Poison Bomb": [
+   "Poison",
+   "Dark",
+   "Bomb"
+  ],
+  "Banshee Hook": [
+   "Dark",
+   "Slash"
+  ],
+  "Baow": [
+   "Unholy",
+   "Holy"
+  ],
+  "Barinade": [
+   "Water"
+  ],
+  "Barinautical": [
+   "Water"
+  ],
+  "Baroclaw": [
+   "Poison",
+   "Unholy",
+   "Water"
+  ],
+  "Barracuda Gun": [
+   "Water",
+   "Dark"
+  ],
+  "Basher": [
+   "Radioactive",
+   "Smash"
+  ],
+  "Bazooka": [
+   "Fire",
+   "Bomb"
+  ],
+  "Belching Saxophone": [
+   "Poison",
+   "Acid",
+   "Radioactive",
+   "Water"
+  ],
+  "Belladonna Spirit Staff": [
+   "Poison",
+   "Dark"
+  ],
+  "Biofusillade": [
+   "Poison"
+  ],
+  "Biome Blade": [
+   "Slash"
+  ],
+  "Black Anurian": [
+   "Poison",
+   "Dark",
+   "Water"
+  ],
+  "Black Hawk Remote": [
+   "Stab"
+  ],
+  "Blade of Enmity": [
+   "Unholy",
+   "Fire"
+  ],
+  "Bladecrest Oathsword": [
+   "Unholy",
+   "Slash"
+  ],
+  "Bladedge Railbow": [
+   "Poison",
+   "Stab"
+  ],
+  "Blast Barrel": [
+   "Fire",
+   "Smash",
+   "Bomb"
+  ],
+  "Blazing Core": [
+   "Fire",
+   "Holy"
+  ],
+  "Blazing Powder": [
+   "Fire"
+  ],
+  "Blazing Star": [
+   "Fire",
+   "Slash"
+  ],
+  "Bleeding Influx": [
+   "Unholy",
+   "Slash"
+  ],
+  "Blight Spewer": [
+   "Poison",
+   "Fire",
+   "Machine"
+  ],
+  "Blissful Bombardier": [
+   "Holy",
+   "Fire",
+   "Bomb"
+  ],
+  "Blobfish Plushie": [
+   "Water"
+  ],
+  "Blood Bath": [
+   "Unholy"
+  ],
+  "Blood Boiler": [
+   "Unholy",
+   "Fire"
+  ],
+  "Blood Clot Staff": [
+   "Unholy"
+  ],
+  "Blood Element": [
+   "Unholy",
+   "Cold"
+  ],
+  "Bloodfire Bullet": [
+   "Unholy"
+  ],
+  "Bloodinator 1": [
+   "Stab"
+  ],
+  "Bloodsoaked Crasher": [
+   "Unholy",
+   "Fire",
+   "Smash"
+  ],
+  "Bloody Edge": [
+   "Unholy",
+   "Slash"
+  ],
+  "Bloody Rupture": [
+   "Unholy",
+   "Stab"
+  ],
+  "Blossom Flux": [
+   "Poison"
+  ],
+  "Blow Pipe": [
+   "Poison",
+   "Stab"
+  ],
+  "Blunder Booster": [
+   "Fire",
+   "Poison",
+   "Dark",
+   "Electricity"
+  ],
+  "Bolide Launcher": [
+   "Stab",
+   "Magic",
+   "Holy"
+  ],
+  "Bonebreaker": [
+   "Poison",
+   "Stab"
+  ],
+  "Borealis Bomber": [
+   "Magic",
+   "Poison",
+   "Bomb",
+   "Machine"
+  ],
+  "Bouncing Betty": [
+   "Fire",
+   "Bomb"
+  ],
+  "Bouncing Eyeball": [
+   "Unholy",
+   "Smash"
+  ],
+  "Bouncy Spiky Ball": [
+   "Stab"
+  ],
+  "Brackish Flask": [
+   "Water",
+   "Poison",
+   "Smash"
+  ],
+  "Braxaxe": [
+   "Smash",
+   "Stab"
+  ],
+  "Breakthrough": [
+   "Cold",
+   "Stab"
+  ],
+  "Brimblade": [
+   "Unholy",
+   "Fire",
+   "Slash"
+  ],
+  "Brimlance": [
+   "Unholy",
+   "Fire",
+   "Stab"
+  ],
+  "Brimlash Buster": [
+   "Unholy",
+   "Fire",
+   "Slash"
+  ],
+  "Brimlash": [
+   "Unholy",
+   "Fire",
+   "Slash"
+  ],
+  "Brimrose Staff": [
+   "Unholy",
+   "Fire",
+   "Poison"
+  ],
+  "Brimstone Flameblaster": [
+   "Fire",
+   "Unholy"
+  ],
+  "Brimstone Fury": [
+   "Unholy",
+   "Fire",
+   "Stab"
+  ],
+  "Brimstone Sword": [
+   "Unholy",
+   "Fire",
+   "Slash",
+   "Stab"
+  ],
+  "Briny Baron": [
+   "Water",
+   "Slash"
+  ],
+  "Broken Biome Blade": [
+   "Slash"
+  ],
+  "Bucket of Coal": [
+   "Dark",
+   "Unholy",
+   "Smash"
+  ],
+  "Bullet-Filled Shotgun": [
+   "Stab"
+  ],
+  "Bundle o' Bones": [
+   "Unholy"
+  ],
+  "Burning Sea": [
+   "Fire",
+   "Unholy",
+   "Water"
+  ],
+  "Burning Strife": [
+   "Dark",
+   "Fire"
+  ],
+  "Burnt Sienna": [
+   "Holy",
+   "Slash"
+  ],
+  "Butcher (weapon)": [
+   "Unholy"
+  ],
+  "Butcher's Glove": [
+   "Unholy",
+   "Stab",
+   "Dark",
+   "Slash"
+  ],
+  "Cadaverous Carrion": [
+   "Poison",
+   "Water"
+  ],
+  "Calamari's Lament": [
+   "Water",
+   "Dark"
+  ],
+  "Calamitous Vortex": [
+   "Unholy"
+  ],
+  "Calamity Sword": [
+   "Slash",
+   "Fire"
+  ],
+  "Calamity": [
+   "Fire",
+   "Unholy"
+  ],
+  "Caliburn": [
+   "Holy",
+   "Stab"
+  ],
+  "Carapace Hammer": [
+   "Smash"
+  ],
+  "Carnage Ray": [
+   "Dark"
+  ],
+  "Carnage": [
+   "Dark",
+   "Slash"
+  ],
+  "Catarachedrae": [
+   "Unholy",
+   "Stab"
+  ],
+  "Catastrophe Claybore": [
+   "Magic",
+   "Stab"
+  ],
+  "Catastrophe Claycore": [
+   "Magic",
+   "Poison",
+   "Bomb",
+   "Smash"
+  ],
+  "Catastrophe Claymore": [
+   "Magic",
+   "Slash"
+  ],
+  "Catastrophe Clayscore": [
+   "Magic",
+   "Slash"
+  ],
+  "Catastrophe Claysiphonophore": [
+   "Magic",
+   "Poison",
+   "Water"
+  ],
+  "Catastrophe Clayspore": [
+   "Magic",
+   "Poison"
+  ],
+  "Caustic Claw": [
+   "Acid",
+   "Radioactive",
+   "Stab"
+  ],
+  "Caustic Croaker Staff": [
+   "Radioactive",
+   "Fire"
+  ],
+  "Caustic Edge": [
+   "Poison",
+   "Slash"
+  ],
+  "Caustic Staff": [
+   "Poison",
+   "Stab"
+  ],
+  "Celestial Nuke": [
+   "Magic",
+   "Water",
+   "Electricity",
+   "Bomb"
+  ],
+  "Celestial Reaper": [
+   "Magic",
+   "Dark",
+   "Slash"
+  ],
+  "Celestus": [
+   "Cold",
+   "Fire",
+   "Slash",
+   "Machine"
+  ],
+  "Cent Striker": [
+   "Stab"
+  ],
+  "Chain Spear": [
+   "Fire",
+   "Poison",
+   "Stab"
+  ],
+  "Chain-Saw": [
+   "Dark",
+   "Slash"
+  ],
+  "Charged Dart Blaster": [
+   "Poison",
+   "Fire"
+  ],
+  "Charity": [
+   "Stab"
+  ],
+  "Chemicircle": [
+   "Poison",
+   "Machine"
+  ],
+  "Chicken Cannon": [
+   "Fire",
+   "Holy",
+   "Bomb"
+  ],
+  "Chilled Soda Blade": [
+   "Water",
+   "Slash",
+   "Stab"
+  ],
+  "Christmas Carol": [
+   "Holy",
+   "Cold"
+  ],
+  "Chrononimbus": [
+   "Fire",
+   "Magic",
+   "Holy"
+  ],
+  "Cinder Blossom Staff": [
+   "Fire"
+  ],
+  "Cinders of Lament": [
+   "Unholy",
+   "Fire",
+   "Smash",
+   "Slash"
+  ],
+  "Cinquedea": [
+   "Stab"
+  ],
+  "Cirnogenic Staff": [
+   "Cold",
+   "Holy"
+  ],
+  "Cirrhotipede": [
+   "Poison",
+   "Slash"
+  ],
+  "Clam Crusher": [
+   "Cold",
+   "Smash"
+  ],
+  "Clamor Noctus": [
+   "Dark",
+   "Magic"
+  ],
+  "Clamor Noxus": [
+   "Dark",
+   "Magic"
+  ],
+  "Clamor Rifle": [
+   "Water"
+  ],
+  "Claret Cannon": [
+   "Unholy",
+   "Dark"
+  ],
+  "Cleansing Blaze": [
+   "Magic",
+   "Fire"
+  ],
+  "Clockwork Bow": [
+   "Stab",
+   "Machine"
+  ],
+  "Clothier's Wrath": [
+   "Dark"
+  ],
+  "Cnidarian": [
+   "Water"
+  ],
+  "Cobadium Rifle": [
+   "Stab"
+  ],
+  "Cobalt Kunai": [
+   "Stab",
+   "Water"
+  ],
+  "Cold Divinity": [
+   "Cold",
+   "Stab",
+   "Holy"
+  ],
+  "Coldant Firestarter": [
+   "Cold",
+   "Water",
+   "Dark"
+  ],
+  "Coldetecht": [
+   "Cold",
+   "Water",
+   "Dark"
+  ],
+  "Coldheart Icicle": [
+   "Cold",
+   "Stab"
+  ],
+  "Comet Quasher": [
+   "Magic",
+   "Slash"
+  ],
+  "Condemnation": [
+   "Unholy",
+   "Stab"
+  ],
+  "Confection": [
+   "Holy",
+   "Cold",
+   "Smash"
+  ],
+  "Conference Call": [
+   "Stab"
+  ],
+  "Consecrated Water": [
+   "Water",
+   "Holy"
+  ],
+  "Consequences of Power": [
+   "Stab",
+   "Fire",
+   "Machine"
+  ],
+  "Contagion": [
+   "Poison",
+   "Unholy"
+  ],
+  "Contaminated Bile": [
+   "Poison"
+  ],
+  "Contaminated Dish": [
+   "Poison",
+   "Smash"
+  ],
+  "Continental Greatbow": [
+   "Fire"
+  ],
+  "Coral Cannon": [
+   "Water"
+  ],
+  "Coral Spout": [
+   "Water"
+  ],
+  "Cored Line": [
+   "Cold",
+   "Water",
+   "Dark"
+  ],
+  "Corpus Avertor": [
+   "Unholy",
+   "Stab"
+  ],
+  "Corroded Caustibow": [
+   "Acid",
+   "Radioactive",
+   "Water"
+  ],
+  "Corrosive Spine": [
+   "Poison",
+   "Radioactive"
+  ],
+  "Corroslime Staff": [
+   "Unholy",
+   "Poison",
+   "Smash"
+  ],
+  "Corrupt Hypno Flute": [
+   "Magic",
+   "Unholy"
+  ],
+  "Corrupted Crusher Blade": [
+   "Unholy",
+   "Slash"
+  ],
+  "Corvid Harbinger Staff": [
+   "Dark"
+  ],
+  "Cosmic Discharge": [
+   "Magic",
+   "Cold",
+   "Smash"
+  ],
+  "Cosmic Immaterializer": [
+   "Cold",
+   "Magic",
+   "Stab",
+   "Machine"
+  ],
+  "Cosmic Kunai": [
+   "Dark",
+   "Magic"
+  ],
+  "Cosmic Rainbow": [
+   "Magic",
+   "Holy"
+  ],
+  "Cosmic Shiv": [
+   "Magic",
+   "Cold",
+   "Stab"
+  ],
+  "Cosmic Viper Engine": [
+   "Magic",
+   "Dark"
+  ],
+  "Cosmilamp": [
+   "Magic",
+   "Dark"
+  ],
+  "Crackshot Colt": [
+   "Unholy",
+   "Stab"
+  ],
+  "Cranium Smasher": [
+   "Unholy",
+   "Smash"
+  ],
+  "Craw Carapace": [
+   "Stab",
+   "Water"
+  ],
+  "Creature Capsule": [
+   "Magic",
+   "Smash"
+  ],
+  "Crescent Moon": [
+   "Magic",
+   "Dark",
+   "Smash"
+  ],
+  "Crimslime Staff": [
+   "Unholy",
+   "Poison",
+   "Smash"
+  ],
+  "Crimson Crusher Blade": [
+   "Unholy",
+   "Slash"
+  ],
+  "Crius Prime": [
+   "Fire",
+   "Stab",
+   "Magic"
+  ],
+  "Cruel Jewel": [
+   "Magic",
+   "Dark"
+  ],
+  "Crushsaw Crasher": [
+   "Unholy",
+   "Slash"
+  ],
+  "Crustalline": [
+   "Stab",
+   "Unholy"
+  ],
+  "Cryogenic Staff": [
+   "Cold"
+  ],
+  "Cryophobia": [
+   "Cold"
+  ],
+  "Crystal Blade": [
+   "Holy"
+  ],
+  "Crystal Flare Staff": [
+   "Cold",
+   "Fire",
+   "Holy"
+  ],
+  "Crystal Piercer": [
+   "Holy"
+  ],
+  "Crystallic Coin Gun": [
+   "Holy",
+   "Stab"
+  ],
+  "Crystalline": [
+   "Stab"
+  ],
+  "Cursed Capper": [
+   "Unholy",
+   "Stab"
+  ],
+  "Cursed Dagger": [
+   "Unholy",
+   "Fire",
+   "Stab"
+  ],
+  "Cursed Spear": [
+   "Unholy",
+   "Fire",
+   "Stab"
+  ],
+  "Cyberlight Striker": [
+   "Stab",
+   "Holy"
+  ],
+  "Daedalus Golem Staff": [
+   "Holy"
+  ],
+  "Daemon's Flame": [
+   "Dark",
+   "Fire"
+  ],
+  "Dank Staff": [
+   "Unholy"
+  ],
+  "Dark Energy Staff": [
+   "Dark"
+  ],
+  "Dark God's Sheath": [
+   "Magic",
+   "Dark"
+  ],
+  "Dark Harvest Staff": [
+   "Dark",
+   "Fire"
+  ],
+  "Darkecho Greatbow": [
+   "Holy",
+   "Stab"
+  ],
+  "Darklight Greatsword": [
+   "Magic",
+   "Cold",
+   "Slash"
+  ],
+  "Dart Sun": [
+   "Stab",
+   "Magic"
+  ],
+  "Dazzling Stabber Staff": [
+   "Holy",
+   "Stab"
+  ],
+  "Deadflower": [
+   "Unholy"
+  ],
+  "Death Valley Duster": [
+   "Fire"
+  ],
+  "Death Whistle": [
+   "Unholy"
+  ],
+  "Death-Needle Stinger": [
+   "Poison",
+   "Stab"
+  ],
+  "Death's Ascension": [
+   "Dark",
+   "Slash"
+  ],
+  "Deathhail Staff": [
+   "Magic",
+   "Fire"
+  ],
+  "Deathstare Rod": [
+   "Unholy",
+   "Stab"
+  ],
+  "Deathwind": [
+   "Magic",
+   "Cold"
+  ],
+  "Deck of Souls": [
+   "Dark"
+  ],
+  "Decomposition": [
+   "Poison",
+   "Machine"
+  ],
+  "Decreator": [
+   "Unholy",
+   "Poison"
+  ],
+  "Deeepscale Bomb": [
+   "Dark",
+   "Water",
+   "Bomb"
+  ],
+  "Deep Sea Dumbbell": [
+   "Water",
+   "Dark",
+   "Unholy",
+   "Smash"
+  ],
+  "Deep Wounder": [
+   "Dark",
+   "Water",
+   "Slash"
+  ],
+  "Deepsea Staff": [
+   "Water",
+   "Smash"
+  ],
+  "Defective Sphere": [
+   "Dark"
+  ],
+  "Deicide": [
+   "Unholy",
+   "Dark",
+   "Poison",
+   "Smash"
+  ],
+  "Deific Amulet": [
+   "Magic",
+   "Holy"
+  ],
+  "Deific Thunderbolt": [
+   "Holy",
+   "Stab",
+   "Electricity"
+  ],
+  "Demon Core": [
+   "Dark",
+   "Radioactive",
+   "Smash"
+  ],
+  "Depth Crusher": [
+   "Water",
+   "Dark",
+   "Smash"
+  ],
+  "Desecrated Water": [
+   "Unholy",
+   "Water"
+  ],
+  "Destinary": [
+   "Stab",
+   "Magic",
+   "Machine"
+  ],
+  "Dethermination": [
+   "Unholy"
+  ],
+  "Devastation": [
+   "Magic",
+   "Slash"
+  ],
+  "Devil's Devastation": [
+   "Unholy",
+   "Dark",
+   "Slash"
+  ],
+  "Devil's Sunrise": [
+   "Unholy",
+   "Slash"
+  ],
+  "Devious Aestheticus": [
+   "Holy",
+   "Slash"
+  ],
+  "Digital Cheese Spear": [
+   "Stab",
+   "Holy"
+  ],
+  "Disease": [
+   "Poison",
+   "Stab",
+   "Machine"
+  ],
+  "Diseased Pike": [
+   "Poison",
+   "Stab",
+   "Machine"
+  ],
+  "Disseminator": [
+   "Stab"
+  ],
+  "Dissfusion Disk": [
+   "Fire",
+   "Water",
+   "Acid",
+   "Unholy"
+  ],
+  "Divine Hunters Staff": [
+   "Fire"
+  ],
+  "Divine Intervention": [
+   "Holy",
+   "Unholy",
+   "Fire",
+   "Slash"
+  ],
+  "Divine Retribution": [
+   "Fire",
+   "Holy"
+  ],
+  "Doctrine Spear": [
+   "Magic",
+   "Stab"
+  ],
+  "Dodu's Handcannon": [
+   "Poison",
+   "Fire",
+   "Bomb"
+  ],
+  "Dormant Brimseeker": [
+   "Unholy",
+   "Fire"
+  ],
+  "Downpour": [
+   "Water"
+  ],
+  "Draconic Destruction": [
+   "Fire",
+   "Cold",
+   "Slash"
+  ],
+  "Draftogen": [
+   "Poison",
+   "Fire"
+  ],
+  "Dragon Flame Barrage": [
+   "Holy",
+   "Fire"
+  ],
+  "Dragon Pow": [
+   "Fire",
+   "Water",
+   "Poison",
+   "Smash"
+  ],
+  "Dragon Rage": [
+   "Fire"
+  ],
+  "Dragon Scales": [
+   "Fire",
+   "Holy"
+  ],
+  "Dragon's Breath": [
+   "Fire",
+   "Stab"
+  ],
+  "Dragonblood Disgorger": [
+   "Unholy",
+   "Fire"
+  ],
+  "Dragoon Drizzlefish": [
+   "Fire"
+  ],
+  "Drained Catarachedrae": [
+   "Stab"
+  ],
+  "Drataliornus": [
+   "Fire",
+   "Stab"
+  ],
+  "Dreadmine Staff": [
+   "Dark",
+   "Water"
+  ],
+  "Driftorcher": [
+   "Fire",
+   "Slash"
+  ],
+  "Dual Cane": [
+   "Unholy",
+   "Holy"
+  ],
+  "Dualpoon": [
+   "Stab"
+  ],
+  "Duke's Decapitator": [
+   "Water",
+   "Slash"
+  ],
+  "Duststorm in a Bottle": [
+   "Fire"
+  ],
+  "Dynamic Pursuer": [
+   "Fire",
+   "Slash"
+  ],
+  "Dynamo Stem Cells": [
+   "Fire",
+   "Poison"
+  ],
+  "EXO-LOTL Staff": [
+   "Cold",
+   "Fire",
+   "Machine"
+  ],
+  "Earthen Clicker": [
+   "Stab"
+  ],
+  "Earthen Pike": [
+   "Stab"
+  ],
+  "Earthshooter": [
+   "Stab",
+   "Poison"
+  ],
+  "Eclipse Mirror": [
+   "Dark",
+   "Unholy",
+   "Magic"
+  ],
+  "Eclipse's Fall": [
+   "Magic",
+   "Dark",
+   "Stab"
+  ],
+  "Ecological Collapse": [
+   "Water",
+   "Dark",
+   "Smash"
+  ],
+  "Edgeterrence": [
+   "Unholy",
+   "Dark",
+   "Fire"
+  ],
+  "Effervescence": [
+   "Poison",
+   "Water"
+  ],
+  "Effluvium Bow": [
+   "Cold",
+   "Water"
+  ],
+  "Eidolic Wail": [
+   "Dark",
+   "Water"
+  ],
+  "Eidolon Staff": [
+   "Water",
+   "Dark"
+  ],
+  "Eldritch Tome": [
+   "Unholy"
+  ],
+  "Electrical Discharge": [
+   "Machine",
+   "Electricity",
+   "Smash"
+  ],
+  "Electrician's Glove": [
+   "Magic",
+   "Fire"
+  ],
+  "Elemental Axe": [
+   "Magic",
+   "Slash"
+  ],
+  "Elemental Bow": [
+   "Magic"
+  ],
+  "Elemental Claymore": [
+   "Magic",
+   "Slash"
+  ],
+  "Elemental Disk": [
+   "Magic",
+   "Slash"
+  ],
+  "Elemental Eruption": [
+   "Magic",
+   "Fire"
+  ],
+  "Elemental Excalibur": [
+   "Magic",
+   "Slash",
+   "Stab",
+   "Fire",
+   "Poison",
+   "Water",
+   "Cold",
+   "Holy",
+   "Unholy",
+   "Dark"
+  ],
+  "Elemental Lance": [
+   "Magic",
+   "Stab"
+  ],
+  "Elemental Ray": [
+   "Magic"
+  ],
+  "Elemental Saw Launcher": [
+   "Slash",
+   "Magic"
+  ],
+  "Elemental Shiv": [
+   "Magic",
+   "Stab"
+  ],
+  "Elemental in a Bottle": [
+   "Poison",
+   "Slash"
+  ],
+  "Elephant Killer": [
+   "Stab"
+  ],
+  "Elusive Feather": [
+   "Cold"
+  ],
+  "Empyrean Knives": [
+   "Unholy",
+   "Stab"
+  ],
+  "Enchanted Axe": [
+   "Magic",
+   "Slash"
+  ],
+  "Endentant Bow": [
+   "Unholy"
+  ],
+  "Endo Hydra Staff": [
+   "Cold"
+  ],
+  "Endogenesis": [
+   "Cold",
+   "Stab"
+  ],
+  "Energy Staff": [
+   "Holy",
+   "Fire"
+  ],
+  "Entropic Claymore": [
+   "Dark",
+   "Poison",
+   "Slash"
+  ],
+  "Entropy's Vigil": [
+   "Unholy",
+   "Fire",
+   "Smash"
+  ],
+  "Epidemic Shredder": [
+   "Poison",
+   "Slash",
+   "Machine"
+  ],
+  "Equanimity": [
+   "Holy",
+   "Unholy",
+   "Smash"
+  ],
+  "Eradicator": [
+   "Magic",
+   "Cold",
+   "Slash"
+  ],
+  "Essence Flayer": [
+   "Magic",
+   "Dark",
+   "Slash"
+  ],
+  "Eternal Blizzard": [
+   "Cold",
+   "Stab"
+  ],
+  "Eternity": [
+   "Magic"
+  ],
+  "Ethereal Knives": [
+   "Magic",
+   "Stab"
+  ],
+  "Ethereal Subjugator": [
+   "Dark"
+  ],
+  "Eutrophic Scimitar": [
+   "Water",
+   "Slash"
+  ],
+  "Eutrophic Shank": [
+   "Water",
+   "Stab"
+  ],
+  "Event Horizon": [
+   "Magic",
+   "Dark"
+  ],
+  "Evercoldance": [
+   "Cold",
+   "Water",
+   "Dark"
+  ],
+  "Everglade Spray": [
+   "Poison"
+  ],
+  "Evil Smasher": [
+   "Holy",
+   "Dark",
+   "Smash"
+  ],
+  "Eviscerator": [
+   "Unholy"
+  ],
+  "Exactory Dartshooter": [
+   "Stab",
+   "Cold",
+   "Fire",
+   "Machine"
+  ],
+  "Excelsus": [
+   "Magic",
+   "Cold",
+   "Slash"
+  ],
+  "Executioner's Blade": [
+   "Magic",
+   "Dark",
+   "Slash"
+  ],
+  "Exif Fist": [
+   "Magic",
+   "Smash",
+   "Bomb"
+  ],
+  "Exo Dragonblade": [
+   "Fire",
+   "Slash"
+  ],
+  "Exo Gladius": [
+   "Cold",
+   "Stab",
+   "Machine"
+  ],
+  "Exoblade": [
+   "Cold",
+   "Slash",
+   "Machine"
+  ],
+  "Exodimus": [
+   "Holy",
+   "Cold",
+   "Stab"
+  ],
+  "Exorcism": [
+   "Holy",
+   "Smash"
+  ],
+  "Exotic Beacon": [
+   "Stab",
+   "Fire"
+  ],
+  "Exterminative Dart": [
+   "Magic"
+  ],
+  "Exterminator": [
+   "Dark",
+   "Unholy"
+  ],
+  "Eye of Light": [
+   "Holy",
+   "Smash"
+  ],
+  "Eye of Magnus": [
+   "Magic"
+  ],
+  "Eye of Night": [
+   "Unholy"
+  ],
+  "Eye of the Storm": [
+   "Slash",
+   "Wind"
+  ],
+  "Face Melter": [
+   "Fire"
+  ],
+  "Fakenado Staff": [
+   "Water",
+   "Unholy"
+  ],
+  "Fallen Paladin's Hammer": [
+   "Unholy",
+   "Fire",
+   "Smash"
+  ],
+  "Fantasy Talisman": [
+   "Dark"
+  ],
+  "Fate's Reveal": [
+   "Dark",
+   "Fire"
+  ],
+  "Fault Line": [
+   "Fire"
+  ],
+  "Feather Crown": [
+   "Magic",
+   "Stab"
+  ],
+  "Feather Knife": [
+   "Holy",
+   "Stab"
+  ],
+  "Feller of Evergreens": [
+   "Slash"
+  ],
+  "Feralthorn Claymore": [
+   "Poison",
+   "Stab"
+  ],
+  "Fetid Emesis": [
+   "Poison",
+   "Water",
+   "Unholy"
+  ],
+  "Firestorm Cannon": [
+   "Fire",
+   "Smash"
+  ],
+  "First Crescent": [
+   "Magic",
+   "Dark"
+  ],
+  "Fishbone Boomerang": [
+   "Water",
+   "Slash"
+  ],
+  "Flah Round": [
+   "Unholy",
+   "Holy",
+   "Fire"
+  ],
+  "Flak Kraken": [
+   "Dark",
+   "Water"
+  ],
+  "Flak Toxicannon": [
+   "Poison",
+   "Fire"
+  ],
+  "Flame Boy Popsicle": [
+   "Fire",
+   "Cold",
+   "Unholy",
+   "Smash"
+  ],
+  "Flame-Licked Shell": [
+   "Fire"
+  ],
+  "Flaming Ice Bow": [
+   "Fire",
+   "Cold",
+   "Unholy"
+  ],
+  "Flamsteed Ring": [
+   "Magic",
+   "Slash",
+   "Machine"
+  ],
+  "Flare Blade": [
+   "Fire",
+   "Slash"
+  ],
+  "Flare Bolt": [
+   "Fire"
+  ],
+  "Flarefrost Blade": [
+   "Fire",
+   "Cold",
+   "Slash"
+  ],
+  "Flarewing Bow": [
+   "Fire",
+   "Unholy"
+  ],
+  "Flarrow": [
+   "Unholy",
+   "Holy",
+   "Fire"
+  ],
+  "Flesh of Infidelity": [
+   "Unholy",
+   "Smash"
+  ],
+  "Fleshly Megaphone": [
+   "Unholy",
+   "Dark"
+  ],
+  "Flint": [
+   "Fire",
+   "Unholy",
+   "Smash"
+  ],
+  "Floodtide": [
+   "Water",
+   "Unholy"
+  ],
+  "Flounder Mortar": [
+   "Poison",
+   "Fire"
+  ],
+  "Flowers of Mortality": [
+   "Magic",
+   "Poison"
+  ],
+  "Flurrystorm Cannon": [
+   "Cold",
+   "Stab"
+  ],
+  "Forbidden Oathblade": [
+   "Unholy",
+   "Dark",
+   "Slash"
+  ],
+  "Forbidden Sun": [
+   "Fire"
+  ],
+  "Forgotten Apex Wand": [
+   "Dark",
+   "Fire",
+   "Smash"
+  ],
+  "Forsaken Saber": [
+   "Fire",
+   "Slash"
+  ],
+  "Fracture Staff": [
+   "Holy",
+   "Stab"
+  ],
+  "Fractured Ark": [
+   "Magic",
+   "Slash"
+  ],
+  "Fracturing Fist": [
+   "Holy",
+   "Smash",
+   "Bomb"
+  ],
+  "Frequency Manipulator": [
+   "Fire",
+   "Slash",
+   "Machine"
+  ],
+  "Frightshooter": [
+   "Stab",
+   "Unholy"
+  ],
+  "Frigidflash Bolt": [
+   "Fire",
+   "Cold"
+  ],
+  "Frost Blade": [
+   "Cold",
+   "Slash"
+  ],
+  "Frost Blossom Staff": [
+   "Cold"
+  ],
+  "Frost Bolt": [
+   "Cold"
+  ],
+  "Frostbite Blaster": [
+   "Cold",
+   "Stab"
+  ],
+  "Frostcrush Valari": [
+   "Cold",
+   "Slash",
+   "Stab"
+  ],
+  "Frostflow Edge": [
+   "Cold",
+   "Slash",
+   "Water"
+  ],
+  "Frosty Flare": [
+   "Cold"
+  ],
+  "Fuel Cell Bundle": [
+   "Poison",
+   "Holy",
+   "Machine"
+  ],
+  "Fulguration Halberd": [
+   "Unholy",
+   "Stab",
+   "Slash"
+  ],
+  "Fungal Carapace": [
+   "Poison"
+  ],
+  "Fungal Symbiote": [
+   "Poison",
+   "Stab",
+   "Water"
+  ],
+  "Fungicide": [
+   "Poison"
+  ],
+  "Gacruxian Mollusk": [
+   "Poison",
+   "Magic",
+   "Smash"
+  ],
+  "Gael's Greatsword": [
+   "Dark",
+   "Fire",
+   "Slash"
+  ],
+  "Galactus Blade": [
+   "Magic",
+   "Holy"
+  ],
+  "Galaxia": [
+   "Fire",
+   "Magic"
+  ],
+  "Galaxy Smasher": [
+   "Magic",
+   "Cold",
+   "Smash"
+  ],
+  "Galeforce": [
+   "Holy"
+  ],
+  "Galileo Gladius": [
+   "Magic",
+   "Dark",
+   "Stab"
+  ],
+  "Galvanizing Glaive": [
+   "Slash",
+   "Machine"
+  ],
+  "Gamma Heart": [
+   "Acid",
+   "Radioactive"
+  ],
+  "Gamma Ray Burst": [
+   "Slash",
+   "Magic",
+   "Holy"
+  ],
+  "Garnet": [
+   "Poison",
+   "Stab"
+  ],
+  "Garth": [
+   "Slash",
+   "Poison",
+   "Fire",
+   "Cold"
+  ],
+  "Gastric Belcher Staff": [
+   "Water",
+   "Poison"
+  ],
+  "Gatling Laser": [
+   "Fire",
+   "Machine"
+  ],
+  "Gauss Dagger": [
+   "Stab",
+   "Unholy",
+   "Machine"
+  ],
+  "Gauss Pistol": [
+   "Stab",
+   "Electricity",
+   "Machine"
+  ],
+  "Gauss Rifle": [
+   "Fire",
+   "Slash",
+   "Machine"
+  ],
+  "Gearwork Shield": [
+   "Dark",
+   "Magic",
+   "Smash",
+   "Machine"
+  ],
+  "Gehenna": [
+   "Fire",
+   "Unholy"
+  ],
+  "Gel Dart": [
+   "Stab",
+   "Poison"
+  ],
+  "Gel Sword": [
+   "Slash",
+   "Poison"
+  ],
+  "Gel Wand": [
+   "Smash"
+  ],
+  "Gelitic Blade": [
+   "Slash",
+   "Poison"
+  ],
+  "Genisis": [
+   "Magic"
+  ],
+  "Ghast Relic": [
+   "Magic",
+   "Water"
+  ],
+  "Ghastly Visage": [
+   "Dark"
+  ],
+  "Ghoststreaker": [
+   "Water",
+   "Fire"
+  ],
+  "Ghoulish Gouger": [
+   "Dark",
+   "Slash"
+  ],
+  "Giant Tortoise Shell": [
+   "Stab",
+   "Poison"
+  ],
+  "Gift of the Red": [
+   "Unholy",
+   "Stab",
+   "Smash"
+  ],
+  "Gilded Dagger": [
+   "Stab"
+  ],
+  "Gilded Proboscis": [
+   "Poison",
+   "Stab",
+   "Electricity"
+  ],
+  "Glacial Crusher": [
+   "Cold",
+   "Slash"
+  ],
+  "Gladiator's Locket": [
+   "Stab",
+   "Holy"
+  ],
+  "Glaive": [
+   "Slash"
+  ],
+  "Gleaming Dagger": [
+   "Stab"
+  ],
+  "Gleaming Magnolia": [
+   "Poison"
+  ],
+  "Glittering Astral Eye": [
+   "Fire",
+   "Magic"
+  ],
+  "Gloomy Trident": [
+   "Stab",
+   "Dark",
+   "Water",
+   "Unholy",
+   "Wind",
+   "Electricity"
+  ],
+  "Glorious End": [
+   "Magic"
+  ],
+  "Gluehunter": [
+   "Cold",
+   "Water",
+   "Dark"
+  ],
+  "Gluelic Blade": [
+   "Cold",
+   "Water",
+   "Dark"
+  ],
+  "God Slayer Slug": [
+   "Magic",
+   "Cold"
+  ],
+  "God's Bellows": [
+   "Dark",
+   "Fire"
+  ],
+  "God's Paranoia": [
+   "Magic",
+   "Cold",
+   "Stab"
+  ],
+  "Godspawn Helix Staff": [
+   "Magic",
+   "Fire"
+  ],
+  "Golden Eagle": [
+   "Fire",
+   "Stab"
+  ],
+  "Golden Gun": [
+   "Unholy"
+  ],
+  "Goldplume Spear": [
+   "Holy",
+   "Stab"
+  ],
+  "Goobow": [
+   "Stab",
+   "Poison"
+  ],
+  "Gourdler": [
+   "Fire",
+   "Poison",
+   "Bomb"
+  ],
+  "Grand Gar": [
+   "Magic",
+   "Holy",
+   "Slash"
+  ],
+  "Grand Purification": [
+   "Magic",
+   "Holy",
+   "Fire",
+   "Cold"
+  ],
+  "Grand Reef": [
+   "Water",
+   "Dark",
+   "Smash"
+  ],
+  "Grarble Bayonet": [
+   "Stab"
+  ],
+  "Grarble Spear": [
+   "Stab"
+  ],
+  "Grave Grimreaver": [
+   "Dark",
+   "Fire",
+   "Slash"
+  ],
+  "Gravitonomy Pike": [
+   "Cold",
+   "Stab",
+   "Machine"
+  ],
+  "Grax": [
+   "Poison",
+   "Slash",
+   "Holy"
+  ],
+  "Graydron": [
+   "Slash",
+   "Machine"
+  ],
+  "Greatsword of Blah": [
+   "Cold",
+   "Holy"
+  ],
+  "Greatsword of Judgement": [
+   "Cold",
+   "Holy"
+  ],
+  "Greentide": [
+   "Poison",
+   "Water"
+  ],
+  "Gruesome Eminence": [
+   "Unholy",
+   "Dark"
+  ],
+  "Guardians Wrath": [
+   "Dark",
+   "Water",
+   "Stab",
+   "Electricity"
+  ],
+  "Guidelight of Oblivion": [
+   "Dark",
+   "Fire"
+  ],
+  "Gunk Shot": [
+   "Stab",
+   "Poison"
+  ],
+  "Gusthammer": [
+   "Smash"
+  ],
+  "HPST \"Malign\"": [
+   "Unholy",
+   "Dark",
+   "Magic"
+  ],
+  "H.S Trident": [
+   "Holy",
+   "Water",
+   "Stab"
+  ],
+  "Hadal Urn": [
+   "Dark",
+   "Water"
+  ],
+  "Hadopelagic Echo": [
+   "Dark",
+   "Water"
+  ],
+  "Hailberd": [
+   "Cold",
+   "Magic",
+   "Unholy",
+   "Stab"
+  ],
+  "Hailstorm": [
+   "Cold"
+  ],
+  "Halberd of the Holidays": [
+   "Fire",
+   "Poison"
+  ],
+  "Halibut Cannon": [
+   "Water",
+   "Holy",
+   "Stab"
+  ],
+  "Halley's Inferno": [
+   "Dark",
+   "Magic",
+   "Fire"
+  ],
+  "Hallowed Rune": [
+   "Magic",
+   "Holy"
+  ],
+  "Hand Hook": [
+   "Water",
+   "Slash"
+  ],
+  "Hand of God": [
+   "Magic",
+   "Dark",
+   "Smash"
+  ],
+  "Handheld Tank": [
+   "Fire",
+   "Stab",
+   "Machine",
+   "Bomb"
+  ],
+  "Hardened Honeycomb": [
+   "Poison",
+   "Smash"
+  ],
+  "Harvest Staff": [
+   "Fire",
+   "Poison"
+  ],
+  "Haunted Scroll": [
+   "Holy",
+   "Dark",
+   "Smash"
+  ],
+  "Havoc's Breath": [
+   "Fire",
+   "Unholy"
+  ],
+  "Heart of the Elements": [
+   "Cold",
+   "Fire",
+   "Poison",
+   "Stab",
+   "Slash",
+   "Dark",
+   "Water",
+   "Unholy"
+  ],
+  "Heavenfallen Stardisk": [
+   "Magic",
+   "Holy",
+   "Slash"
+  ],
+  "Heavenly Gale": [
+   "Holy",
+   "Cold",
+   "Stab",
+   "Machine"
+  ],
+  "Heavenwing Staff": [
+   "Fire",
+   "Holy"
+  ],
+  "Heavy Laser Rifle": [
+   "Fire",
+   "Machine"
+  ],
+  "Helios Partisan": [
+   "Fire",
+   "Holy",
+   "Stab"
+  ],
+  "Helium Flash": [
+   "Fire",
+   "Magic"
+  ],
+  "Hell Burst": [
+   "Fire"
+  ],
+  "Hell's Bells": [
+   "Fire",
+   "Unholy"
+  ],
+  "Hell's Sun": [
+   "Holy",
+   "Stab"
+  ],
+  "Hellborn": [
+   "Fire",
+   "Stab"
+  ],
+  "Hellfire Flamberge": [
+   "Fire",
+   "Slash"
+  ],
+  "Hellion Flower Spear": [
+   "Poison",
+   "Stab"
+  ],
+  "Hellkite": [
+   "Fire",
+   "Dark",
+   "Slash"
+  ],
+  "Hellwing Staff": [
+   "Fire",
+   "Unholy"
+  ],
+  "Helstorm": [
+   "Fire",
+   "Stab"
+  ],
+  "Hematemesis": [
+   "Unholy",
+   "Dark"
+  ],
+  "Hemorr-Rang": [
+   "Stab",
+   "Dark"
+  ],
+  "Heresy": [
+   "Unholy",
+   "Dark"
+  ],
+  "Herring Staff": [
+   "Water",
+   "Dark",
+   "Smash"
+  ],
+  "Heterochromia": [
+   "Dark",
+   "Fire"
+  ],
+  "Hi-Scan Camera": [
+   "Poison",
+   "Machine"
+  ],
+  "Hive Pod": [
+   "Magic",
+   "Poison",
+   "Cold"
+  ],
+  "Holy Collider": [
+   "Fire",
+   "Holy"
+  ],
+  "Holy Mackerel Staff": [
+   "Holy",
+   "Water",
+   "Smash"
+  ],
+  "Holy Napalm Launcher": [
+   "Holy",
+   "Water",
+   "Bomb"
+  ],
+  "Howl's Heart": [
+   "Fire",
+   "Magic"
+  ],
+  "Hydra": [
+   "Fire",
+   "Stab"
+  ],
+  "Hydraulic Volt Crasher": [
+   "Electricity",
+   "Smash",
+   "Machine"
+  ],
+  "Hyperhavoc": [
+   "Unholy",
+   "Fire"
+  ],
+  "Hyphae Rod": [
+   "Poison"
+  ],
+  "Hypothermia": [
+   "Cold",
+   "Dark",
+   "Stab"
+  ],
+  "Ice Barrage": [
+   "Cold",
+   "Dark"
+  ],
+  "Ice Star": [
+   "Cold",
+   "Stab"
+  ],
+  "Icebreaker": [
+   "Cold",
+   "Magic",
+   "Smash"
+  ],
+  "Ichor Dagger": [
+   "Unholy",
+   "Stab"
+  ],
+  "Ichor Spear": [
+   "Unholy",
+   "Stab"
+  ],
+  "Icicle Staff": [
+   "Cold",
+   "Stab"
+  ],
+  "Icicle Trident": [
+   "Cold",
+   "Stab"
+  ],
+  "Ifflamator": [
+   "Unholy",
+   "Poison"
+  ],
+  "Igneous Exaltation": [
+   "Unholy",
+   "Stab",
+   "Fire"
+  ],
+  "Illustrious Knives": [
+   "Magic",
+   "Stab"
+  ],
+  "Impact Adjuster": [
+   "Smash"
+  ],
+  "Impaler": [
+   "Dark",
+   "Holy",
+   "Stab",
+   "Fire"
+  ],
+  "Incandescent Nox": [
+   "Stab",
+   "Fire",
+   "Holy"
+  ],
+  "Infected Dagger Misses No Skeptics": [
+   "Poison",
+   "Stab"
+  ],
+  "Infected Remote": [
+   "Poison",
+   "Stab",
+   "Dark",
+   "Machine"
+  ],
+  "Inferna Cutter": [
+   "Fire",
+   "Slash"
+  ],
+  "Infernal Kris": [
+   "Fire",
+   "Stab"
+  ],
+  "Infernal Rift": [
+   "Fire",
+   "Unholy",
+   "Stab"
+  ],
+  "Infernum Kris": [
+   "Dark",
+   "Fire",
+   "Stab"
+  ],
+  "Infested Clawmerang": [
+   "Poison",
+   "Slash"
+  ],
+  "Infinity": [
+   "Magic"
+  ],
+  "Ink Bomb": [
+   "Water",
+   "Dark"
+  ],
+  "Insidious Impaler": [
+   "Poison",
+   "Stab"
+  ],
+  "Interfacer Staff": [
+   "Magic",
+   "Unholy"
+  ],
+  "Ion Blaster": [
+   "Fire"
+  ],
+  "Iron Francisca": [
+   "Slash"
+  ],
+  "Jaws of Oblivion": [
+   "Dark",
+   "Water",
+   "Stab"
+  ],
+  "Jet Engine": [
+   "Dark",
+   "Smash"
+  ],
+  "Justice and Splendor": [
+   "Holy",
+   "Slash"
+  ],
+  "Karasawa": [
+   "Fire",
+   "Poison"
+  ],
+  "Keelhaul": [
+   "Water"
+  ],
+  "Kelvin Catalyst": [
+   "Cold",
+   "Stab"
+  ],
+  "Kylie": [
+   "Slash"
+  ],
+  "Lacelinous Nocturne": [
+   "Cold",
+   "Water"
+  ],
+  "Lacerator": [
+   "Dark",
+   "Unholy",
+   "Poison"
+  ],
+  "Lacescent Pistol": [
+   "Water",
+   "Dark",
+   "Cold"
+  ],
+  "Large Father": [
+   "Fire",
+   "Stab"
+  ],
+  "Lashes of Chaos": [
+   "Unholy",
+   "Dark"
+  ],
+  "Latcher Mine": [
+   "Fire",
+   "Bomb"
+  ],
+  "Lazhar": [
+   "Holy",
+   "Fire"
+  ],
+  "Lazinator": [
+   "Magic"
+  ],
+  "Lead Tomahawk": [
+   "Slash"
+  ],
+  "Leeching Dagger": [
+   "Unholy",
+   "Stab"
+  ],
+  "Leonid Progenitor": [
+   "Magic",
+   "Dark",
+   "Cold",
+   "Machine"
+  ],
+  "Leviathan Ambergris": [
+   "Water",
+   "Poison"
+  ],
+  "Leviathan Teeth": [
+   "Poison",
+   "Water",
+   "Stab"
+  ],
+  "Leviatitan": [
+   "Water",
+   "Poison"
+  ],
+  "Li'l Mine": [
+   "Poison",
+   "Machine"
+  ],
+  "Lifehunt Scythe": [
+   "Poison",
+   "Slash"
+  ],
+  "Light God's Brilliance": [
+   "Holy"
+  ],
+  "Lightning Hawk": [
+   "Stab"
+  ],
+  "Lion Heart": [
+   "Slash",
+   "Electricity",
+   "Machine"
+  ],
+  "Lionfish": [
+   "Poison",
+   "Dark",
+   "Water"
+  ],
+  "Lithos Pickaxe": [
+   "Fire",
+   "Stab"
+  ],
+  "Lucrecia": [
+   "Poison",
+   "Stab"
+  ],
+  "Luminous Striker": [
+   "Magic",
+   "Cold",
+   "Stab"
+  ],
+  "Lunarian Bow": [
+   "Magic",
+   "Dark"
+  ],
+  "Lunatic Beats": [
+   "Smash",
+   "Fire",
+   "Cold",
+   "Magic"
+  ],
+  "Lunic Eye": [
+   "Dark"
+  ],
+  "Luxor's Gift": [
+   "Stab",
+   "Holy"
+  ],
+  "Mad Alchemist's Cocktail Glove": [
+   "Poison"
+  ],
+  "Magical Conch": [
+   "Water",
+   "Smash"
+  ],
+  "Magna Cannon": [
+   "Magic"
+  ],
+  "Magna Striker": [
+   "Magic",
+   "Holy"
+  ],
+  "Magnetic Meltdown": [
+   "Magic",
+   "Electricity"
+  ],
+  "Magnic Circularity": [
+   "Unholy",
+   "Poison",
+   "Electricity"
+  ],
+  "Magnomaly Cannon": [
+   "Magic",
+   "Cold",
+   "Fire",
+   "Bomb",
+   "Machine"
+  ],
+  "Magnum": [
+   "Stab"
+  ],
+  "Majestic Gar": [
+   "Holy",
+   "Slash"
+  ],
+  "Malevolence": [
+   "Poison",
+   "Stab",
+   "Machine"
+  ],
+  "Mambel-Jambo": [
+   "Stab",
+   "Slash"
+  ],
+  "Mana Rose": [
+   "Poison"
+  ],
+  "Mandible Bow": [
+   "Stab",
+   "Fire"
+  ],
+  "Mandible Claws": [
+   "Slash",
+   "Fire"
+  ],
+  "Mangrove Chakram": [
+   "Poison",
+   "Slash"
+  ],
+  "Mantis Claws": [
+   "Slash",
+   "Water"
+  ],
+  "Mariana": [
+   "Water",
+   "Slash"
+  ],
+  "Marked Magnum": [
+   "Dark"
+  ],
+  "Marksman Bow": [
+   "Magic"
+  ],
+  "Marnite Bayonet": [
+   "Stab"
+  ],
+  "Marnite Spear": [
+   "Stab"
+  ],
+  "Matter Modulator": [
+   "Poison",
+   "Machine"
+  ],
+  "Megalodon": [
+   "Water",
+   "Dark",
+   "Stab"
+  ],
+  "Megaskeet": [
+   "Holy",
+   "Stab"
+  ],
+  "Meowthrower": [
+   "Magic",
+   "Fire"
+  ],
+  "Meridian": [
+   "Magic",
+   "Dark",
+   "Holy",
+   "Stab"
+  ],
+  "Metal Ball": [
+   "Poison",
+   "Smash"
+  ],
+  "Metal Monstrosity": [
+   "Stab",
+   "Dark"
+  ],
+  "Metastasis": [
+   "Unholy",
+   "Dark",
+   "Smash"
+  ],
+  "Meteor Fist": [
+   "Fire",
+   "Smash",
+   "Bomb"
+  ],
+  "Miasma": [
+   "Poison"
+  ],
+  "Microcell Cut": [
+   "Unholy",
+   "Poison",
+   "Stab"
+  ],
+  "Microxodonta": [
+   "Poison",
+   "Water"
+  ],
+  "Midas Prime": [
+   "Holy",
+   "Stab"
+  ],
+  "Midas' Handshake": [
+   "Holy"
+  ],
+  "Midnight Sun Beacon": [
+   "Dark",
+   "Holy",
+   "Magic",
+   "Electricity"
+  ],
+  "Mineral Mortar": [
+   "Fire",
+   "Dark",
+   "Smash",
+   "Bomb"
+  ],
+  "Minigun": [
+   "Stab"
+  ],
+  "Miracle Smacker": [
+   "Cold",
+   "Fire",
+   "Holy",
+   "Machine"
+  ],
+  "Mirror Blade": [
+   "Magic",
+   "Slash"
+  ],
+  "Mistlestorm": [
+   "Poison",
+   "Cold"
+  ],
+  "Molecular Manipulator": [
+   "Magic"
+  ],
+  "Molten Amputator": [
+   "Holy",
+   "Fire",
+   "Slash"
+  ],
+  "Molten Piercer": [
+   "Fire",
+   "Stab"
+  ],
+  "Monkey Darts": [
+   "Stab"
+  ],
+  "Monsoon": [
+   "Water"
+  ],
+  "Monstrous Knives": [
+   "Stab"
+  ],
+  "Moonstone Crown": [
+   "Magic"
+  ],
+  "Moonstone Knives": [
+   "Magic",
+   "Stab"
+  ],
+  "Morpho Doomblade": [
+   "Holy",
+   "Fire",
+   "Slash"
+  ],
+  "Mounted Scanner": [
+   "Fire",
+   "Machine"
+  ],
+  "Mourningstar": [
+   "Fire",
+   "Holy",
+   "Smash",
+   "Bomb"
+  ],
+  "Mutated Truffle": [
+   "Poison",
+   "Water"
+  ],
+  "Mycelial Claws": [
+   "Slash",
+   "Poison"
+  ],
+  "Mycoroot": [
+   "Poison",
+   "Stab"
+  ],
+  "Mythril Knife": [
+   "Poison",
+   "Stab"
+  ],
+  "Nadir": [
+   "Dark",
+   "Stab"
+  ],
+  "Nano Purge": [
+   "Dark",
+   "Magic"
+  ],
+  "Nanoblack Reaper": [
+   "Dark",
+   "Slash",
+   "Machine"
+  ],
+  "Nanotech": [
+   "Slash",
+   "Dark"
+  ],
+  "Nasty Cholla": [
+   "Poison",
+   "Stab"
+  ],
+  "Navy Fishing Rod": [
+   "Water",
+   "Magic"
+  ],
+  "Nebulash": [
+   "Magic",
+   "Machine"
+  ],
+  "Nebulous Core": [
+   "Magic",
+   "Dark"
+  ],
+  "Needler": [
+   "Poison"
+  ],
+  "Neptune's Bounty": [
+   "Water",
+   "Dark",
+   "Slash"
+  ],
+  "Nettlevine Greatbow": [
+   "Poison"
+  ],
+  "Neural Whipper-Snapper": [
+   "Dark",
+   "Electricity"
+  ],
+  "Neuraze": [
+   "Fire"
+  ],
+  "Neutron Star": [
+   "Magic",
+   "Fire"
+  ],
+  "Night's Gaze": [
+   "Dark",
+   "Magic",
+   "Stab"
+  ],
+  "Night's Ray": [
+   "Unholy"
+  ],
+  "Night's Stabber": [
+   "Unholy",
+   "Stab"
+  ],
+  "Nighterrial Dart": [
+   "Water"
+  ],
+  "Nightic Blaster": [
+   "Stab",
+   "Magic"
+  ],
+  "Noctic Weaver": [
+   "Cold",
+   "Water",
+   "Dark"
+  ],
+  "Nocturnal Odyssey": [
+   "Unholy"
+  ],
+  "Norfleet": [
+   "Magic",
+   "Machine"
+  ],
+  "Noxcalibur": [
+   "Unholy",
+   "Slash"
+  ],
+  "Nuclear Fury": [
+   "Water",
+   "Magic",
+   "Wind"
+  ],
+  "Nucleogenesis": [
+   "Cold",
+   "Magic",
+   "Dark"
+  ],
+  "Nullification Pistol": [
+   "Magic",
+   "Electricity",
+   "Machine"
+  ],
+  "Nychthemeron": [
+   "Dark",
+   "Holy"
+  ],
+  "Nystagmus": [
+   "Dark"
+  ],
+  "OPFT \"Sublimate\"": [
+   "Unholy",
+   "Dark",
+   "Magic"
+  ],
+  "Oblivion": [
+   "Unholy",
+   "Fire"
+  ],
+  "Obsidigun": [
+   "Fire",
+   "Dark"
+  ],
+  "Ogscule": [
+   "Fire",
+   "Holy",
+   "Unholy"
+  ],
+  "Old Lord Oathsword": [
+   "Unholy",
+   "Fire",
+   "Slash"
+  ],
+  "Omega Ray": [
+   "Magic",
+   "Holy",
+   "Unholy",
+   "Fire"
+  ],
+  "Omniblade": [
+   "Holy",
+   "Slash"
+  ],
+  "Onyx Chain Blaster": [
+   "Dark",
+   "Stab"
+  ],
+  "Onyx Gunblade": [
+   "Dark",
+   "Slash"
+  ],
+  "Onyx Minigun": [
+   "Dark",
+   "Stab"
+  ],
+  "Onyx Overlord's Gunsaw": [
+   "Dark",
+   "Unholy",
+   "Stab",
+   "Machine"
+  ],
+  "Onyx Purge": [
+   "Dark",
+   "Magic"
+  ],
+  "Onyx Staff": [
+   "Dark"
+  ],
+  "Onyxia": [
+   "Dark",
+   "Stab"
+  ],
+  "Opal Striker": [
+   "Holy"
+  ],
+  "Orichalcum Spiked Gemstone": [
+   "Poison",
+   "Stab"
+  ],
+  "Orthocera Shell": [
+   "Poison",
+   "Unholy"
+  ],
+  "Outplanetary Dartshooter": [
+   "Stab",
+   "Magic"
+  ],
+  "Overloaded Blaster": [
+   "Poison",
+   "Fire"
+  ],
+  "Overloaded Combatant Blaster": [
+   "Holy",
+   "Water"
+  ],
+  "P90": [
+   "Stab"
+  ],
+  "P.G.D.R.": [
+   "Fire",
+   "Machine"
+  ],
+  "Palladium Javelin": [
+   "Stab"
+  ],
+  "Pandemic": [
+   "Poison",
+   "Machine"
+  ],
+  "Pandora's Chest": [
+   "Magic",
+   "Poison",
+   "Cold",
+   "Fire",
+   "Unholy"
+  ],
+  "Parasitic Scepter": [
+   "Poison"
+  ],
+  "Pastranion": [
+   "Fire",
+   "Slash",
+   "Unholy",
+   "Machine"
+  ],
+  "Pearl God": [
+   "Holy",
+   "Water",
+   "Machine"
+  ],
+  "Pearl of Enthrallment": [
+   "Cold",
+   "Water"
+  ],
+  "Penumbra": [
+   "Dark",
+   "Smash"
+  ],
+  "Perdition": [
+   "Unholy",
+   "Fire"
+  ],
+  "Perfect Dark": [
+   "Unholy",
+   "Slash"
+  ],
+  "Pestilent Defiler": [
+   "Poison",
+   "Machine"
+  ],
+  "Phangasm": [
+   "Magic",
+   "Dark",
+   "Machine"
+  ],
+  "Phantasmal Fury": [
+   "Dark"
+  ],
+  "Phantasmal Ruin": [
+   "Dark",
+   "Stab"
+  ],
+  "Phantasmal Rune": [
+   "Magic",
+   "Fire"
+  ],
+  "Phantom Lance": [
+   "Dark",
+   "Stab"
+  ],
+  "Phantomic Soul Artifact": [
+   "Poison",
+   "Magic",
+   "Dark"
+  ],
+  "Phaseslayer": [
+   "Fire",
+   "Slash",
+   "Machine"
+  ],
+  "Phlegm": [
+   "Poison",
+   "Stab",
+   "Machine"
+  ],
+  "Phoenix Blade": [
+   "Fire",
+   "Slash"
+  ],
+  "Phoenix Flame Barrage": [
+   "Fire",
+   "Holy"
+  ],
+  "Phosphorescent Gauntlet": [
+   "Poison",
+   "Acid",
+   "Radioactive",
+   "Smash"
+  ],
+  "Photon Ripper": [
+   "Slash",
+   "Machine"
+  ],
+  "Phototerminator": [
+   "Holy",
+   "Water"
+  ],
+  "Photoviscerator": [
+   "Cold",
+   "Holy",
+   "Fire",
+   "Machine"
+  ],
+  "Pine's Penetrator": [
+   "Cold",
+   "Poison"
+  ],
+  "Pizza Wheel": [
+   "Fire",
+   "Dark"
+  ],
+  "Plague Caller MK III": [
+   "Poison",
+   "Machine"
+  ],
+  "Plague Hive": [
+   "Poison",
+   "Stab"
+  ],
+  "Plague Keeper": [
+   "Poison",
+   "Slash",
+   "Machine"
+  ],
+  "Plague Staff": [
+   "Poison",
+   "Stab"
+  ],
+  "Plaguecom Tablet": [
+   "Poison",
+   "Magic",
+   "Machine"
+  ],
+  "Plagued Minecart": [
+   "Poison"
+  ],
+  "Plaguenade": [
+   "Poison",
+   "Machine",
+   "Bomb"
+  ],
+  "Planetarium": [
+   "Magic"
+  ],
+  "Plantation Staff": [
+   "Poison"
+  ],
+  "Planterror Staff": [
+   "Unholy"
+  ],
+  "Plasma Caster": [
+   "Poison",
+   "Electricity",
+   "Machine"
+  ],
+  "Plasma Grenade": [
+   "Poison",
+   "Electricity",
+   "Machine",
+   "Bomb"
+  ],
+  "Plasma Rifle": [
+   "Poison"
+  ],
+  "Plasma Rod": [
+   "Dark"
+  ],
+  "Plasmaflash Bolt": [
+   "Poison",
+   "Electricity",
+   "Wind",
+   "Cold"
+  ],
+  "Plumage Pow": [
+   "Poison",
+   "Unholy",
+   "Smash",
+   "Electricity"
+  ],
+  "Poison I-Bee": [
+   "Poison",
+   "Slash",
+   "Machine"
+  ],
+  "Poison Pack": [
+   "Poison",
+   "Stab"
+  ],
+  "Polaris Parrotfish": [
+   "Magic",
+   "Water"
+  ],
+  "Pole Warper": [
+   "Slash",
+   "Machine"
+  ],
+  "Polyp Launcher": [
+   "Water",
+   "Stab"
+  ],
+  "Porpoise Pistol": [
+   "Holy"
+  ],
+  "Poseidon": [
+   "Water",
+   "Stab"
+  ],
+  "Prehistoric Tablet": [
+   "Poison",
+   "Stab",
+   "Water"
+  ],
+  "Prideful Hunter's Planar Ripper": [
+   "Holy",
+   "Stab",
+   "Machine"
+  ],
+  "Primordial Ancient": [
+   "Fire",
+   "Dark"
+  ],
+  "Primordial Earth": [
+   "Fire"
+  ],
+  "Prism Destroyer": [
+   "Magic"
+  ],
+  "Prismalline": [
+   "Water",
+   "Stab"
+  ],
+  "Prismatic Breaker": [
+   "Magic",
+   "Slash"
+  ],
+  "Pristine Annihilation": [
+   "Holy",
+   "Fire"
+  ],
+  "Profaned Crystal Dart": [
+   "Holy"
+  ],
+  "Profaned Fire Dart": [
+   "Fire"
+  ],
+  "Profaned Nucleus": [
+   "Holy",
+   "Fire",
+   "Bomb"
+  ],
+  "Profaned Partisan": [
+   "Holy",
+   "Stab"
+  ],
+  "Prominence": [
+   "Fire",
+   "Magic",
+   "Holy"
+  ],
+  "Puff Shroom": [
+   "Smash",
+   "Poison"
+  ],
+  "Pulse Dragon": [
+   "Cold",
+   "Smash",
+   "Machine"
+  ],
+  "Pulse Pistol": [
+   "Stab",
+   "Electricity",
+   "Machine"
+  ],
+  "Pulse Rifle": [
+   "Dark",
+   "Stab",
+   "Machine"
+  ],
+  "Pulse Turret Remote": [
+   "Dark",
+   "Stab",
+   "Machine"
+  ],
+  "Pumpler": [
+   "Poison",
+   "Fire",
+   "Bomb"
+  ],
+  "Pumplerfaust": [
+   "Fire",
+   "Holy",
+   "Poison",
+   "Bomb"
+  ],
+  "Pungent Bomber": [
+   "Poison",
+   "Slash"
+  ],
+  "Purgatory Blaster": [
+   "Stab",
+   "Holy"
+  ],
+  "Purge Guzzler": [
+   "Holy",
+   "Fire"
+  ],
+  "Pwnagehammer": [
+   "Holy",
+   "Smash"
+  ],
+  "Quadlens Staff": [
+   "Magic",
+   "Poison"
+  ],
+  "Quagmire": [
+   "Poison"
+  ],
+  "Quantum Flahium Ejection Device": [
+   "Fire",
+   "Poison",
+   "Slash",
+   "Unholy"
+  ],
+  "Quantum Flahium Militia Device": [
+   "Fire",
+   "Poison",
+   "Unholy"
+  ],
+  "Quantum Flahium Shock Device": [
+   "Fire",
+   "Poison",
+   "Unholy"
+  ],
+  "Quintessence Cannon": [
+   "Cold",
+   "Machine",
+   "Fire"
+  ],
+  "RGB Graydron": [
+   "Slash",
+   "Machine"
+  ],
+  "Radiant Star": [
+   "Magic",
+   "Stab"
+  ],
+  "Raider's Glory": [
+   "Stab"
+  ],
+  "Rainbow Party Cannon": [
+   "Magic",
+   "Fire"
+  ],
+  "Raito": [
+   "Magic",
+   "Slash"
+  ],
+  "Ram's Revenge": [
+   "Dark"
+  ],
+  "Rampart of Deicide": [
+   "Unholy",
+   "Dark"
+  ],
+  "Rampart of Deities": [
+   "Cold",
+   "Magic"
+  ],
+  "Rancor": [
+   "Fire",
+   "Dark",
+   "Unholy"
+  ],
+  "Razor Teeth": [
+   "Poison",
+   "Stab"
+  ],
+  "Reactive Pickaxe": [
+   "Water",
+   "Poison",
+   "Fire",
+   "Dark"
+  ],
+  "Reactor Accelerator": [
+   "Cold",
+   "Water",
+   "Dark"
+  ],
+  "Realm Ravager": [
+   "Fire",
+   "Dark"
+  ],
+  "Recitation of the Beast": [
+   "Dark",
+   "Holy"
+  ],
+  "Red Bow": [
+   "Holy"
+  ],
+  "Red Sun": [
+   "Fire",
+   "Holy"
+  ],
+  "Redtide Spear": [
+   "Water",
+   "Stab"
+  ],
+  "Redtide Sword": [
+   "Water",
+   "Slash"
+  ],
+  "Reed Blowgun": [
+   "Water"
+  ],
+  "Reefclaw Hamaxe": [
+   "Smash",
+   "Stab"
+  ],
+  "Reemergence": [
+   "Poison",
+   "Machine"
+  ],
+  "Refraction Rotor": [
+   "Slash",
+   "Dark",
+   "Machine"
+  ],
+  "Regeterrence": [
+   "Unholy",
+   "Dark",
+   "Fire"
+  ],
+  "Regulus Riot": [
+   "Magic",
+   "Poison"
+  ],
+  "Relic of Deliverance": [
+   "Holy",
+   "Fire",
+   "Stab"
+  ],
+  "Relic of Ruin": [
+   "Fire",
+   "Dark",
+   "Slash"
+  ],
+  "Rem's Revenge": [
+   "Dark",
+   "Fire",
+   "Smash"
+  ],
+  "Resurrection Butterfly": [
+   "Dark",
+   "Poison",
+   "Slash"
+  ],
+  "Revolvin' Mc'Coy": [
+   "Stab",
+   "Poison"
+  ],
+  "Ribbon Flintlock Rifle Cannon": [
+   "Holy",
+   "Magic",
+   "Dark",
+   "Machine"
+  ],
+  "Riptide": [
+   "Water",
+   "Slash"
+  ],
+  "Rivers of Frost": [
+   "Cold",
+   "Slash"
+  ],
+  "Rods from God": [
+   "Stab",
+   "Holy"
+  ],
+  "Rose Bow": [
+   "Holy",
+   "Poison",
+   "Slash"
+  ],
+  "Rose Stone": [
+   "Fire",
+   "Unholy"
+  ],
+  "Rot Ball": [
+   "Unholy"
+  ],
+  "Rouge Slash": [
+   "Fire",
+   "Slash"
+  ],
+  "Rox": [
+   "Holy",
+   "Stab",
+   "Smash"
+  ],
+  "Roxcalibur": [
+   "Holy",
+   "Slash"
+  ],
+  "Rubico Prime": [
+   "Fire",
+   "Stab"
+  ],
+  "Rusty Beacon Prototype": [
+   "Poison",
+   "Machine"
+  ],
+  "Rusty Flamethrower": [
+   "Fire"
+  ],
+  "Rusty Medallion": [
+   "Poison",
+   "Water"
+  ],
+  "SDFMG": [
+   "Water",
+   "Magic"
+  ],
+  "SDOMG": [
+   "Magic",
+   "Water",
+   "Dark"
+  ],
+  "SHPC": [
+   "Magic",
+   "Machine"
+  ],
+  "Sacrifice": [
+   "Dark",
+   "Unholy"
+  ],
+  "Salt Booklet": [
+   "Poison"
+  ],
+  "Salt Water Bolt": [
+   "Water",
+   "Poison"
+  ],
+  "Sand Dollar": [
+   "Water",
+   "Slash"
+  ],
+  "Sand Sharknado Staff": [
+   "Fire",
+   "Smash"
+  ],
+  "Sandslasher": [
+   "Fire",
+   "Slash"
+  ],
+  "Sandstorm (weapon)": [
+   "Fire"
+  ],
+  "Sanguine Flare": [
+   "Unholy",
+   "Fire"
+  ],
+  "Sanguined Catarachedrae": [
+   "Unholy",
+   "Stab",
+   "Dark"
+  ],
+  "Saros Possession": [
+   "Holy",
+   "Dark",
+   "Magic"
+  ],
+  "Sausage Maker": [
+   "Unholy",
+   "Stab"
+  ],
+  "Scab Ripper": [
+   "Unholy",
+   "Stab"
+  ],
+  "Scorched Earth": [
+   "Fire",
+   "Dark",
+   "Bomb"
+  ],
+  "Scorpio": [
+   "Fire",
+   "Bomb"
+  ],
+  "Scourge of the Cosmos": [
+   "Magic",
+   "Cold",
+   "Stab"
+  ],
+  "Scourge of the Desert": [
+   "Fire",
+   "Stab"
+  ],
+  "Scourge of the Seas": [
+   "Poison",
+   "Water",
+   "Stab"
+  ],
+  "Sea's Searing": [
+   "Poison",
+   "Water",
+   "Smash"
+  ],
+  "Seabound Staff": [
+   "Water",
+   "Smash"
+  ],
+  "Seabow": [
+   "Water"
+  ],
+  "Seadragon": [
+   "Water",
+   "Fire",
+   "Stab"
+  ],
+  "Seafoam Bomb": [
+   "Water",
+   "Bomb"
+  ],
+  "Sealed Singularity": [
+   "Dark",
+   "Smash"
+  ],
+  "Seared Shredder": [
+   "Fire",
+   "Slash"
+  ],
+  "Seashell Boomerang": [
+   "Water",
+   "Slash"
+  ],
+  "Seashine Sword": [
+   "Water"
+  ],
+  "Seeking Scorcher": [
+   "Holy",
+   "Fire",
+   "Slash"
+  ],
+  "Seething Discharge": [
+   "Fire",
+   "Unholy"
+  ],
+  "Seismic Hampick": [
+   "Smash",
+   "Stab"
+  ],
+  "Septic Skewer": [
+   "Poison",
+   "Stab"
+  ],
+  "Seraphim": [
+   "Holy",
+   "Stab"
+  ],
+  "Serpentine": [
+   "Water"
+  ],
+  "Severed Eye.exe": [
+   "Unholy",
+   "Dark",
+   "Smash"
+  ],
+  "Sewer Brewer": [
+   "Poison",
+   "Stab",
+   "Machine"
+  ],
+  "Shadecrystal Barrage": [
+   "Holy",
+   "Dark"
+  ],
+  "Shaderain Staff": [
+   "Unholy"
+  ],
+  "Shadethrower": [
+   "Unholy",
+   "Fire"
+  ],
+  "Shading Manual": [
+   "Holy",
+   "Water"
+  ],
+  "Shadow's Descent": [
+   "Dark",
+   "Stab",
+   "Smash"
+  ],
+  "Shadowbolt Staff": [
+   "Dark"
+  ],
+  "Shadowdrop Staff": [
+   "Unholy",
+   "Water"
+  ],
+  "Shard of Antumbra": [
+   "Dark",
+   "Stab"
+  ],
+  "Shattered Module": [
+   "Water",
+   "Electricity"
+  ],
+  "Shattered Pistol": [
+   "Water",
+   "Stab"
+  ],
+  "Shattered Sun": [
+   "Holy",
+   "Fire",
+   "Stab"
+  ],
+  "Shellfish Staff": [
+   "Water",
+   "Smash"
+  ],
+  "Shellshooter": [
+   "Water",
+   "Stab"
+  ],
+  "Shifting Sands": [
+   "Fire"
+  ],
+  "Shimmerspark": [
+   "Holy",
+   "Stab"
+  ],
+  "Shinobi Blade": [
+   "Water",
+   "Stab"
+  ],
+  "Shock Grenade": [
+   "Magic",
+   "Electricity",
+   "Bomb"
+  ],
+  "Shredder": [
+   "Magic"
+  ],
+  "Shroomer": [
+   "Stab",
+   "Poison"
+  ],
+  "Shroomerang": [
+   "Poison",
+   "Slash"
+  ],
+  "Sign of the Operator": [
+   "Dark"
+  ],
+  "Sillyshark": [
+   "Unholy",
+   "Poison"
+  ],
+  "Sirius": [
+   "Magic",
+   "Dark",
+   "Cold"
+  ],
+  "Skull Fracture": [
+   "Holy"
+  ],
+  "Sky Clearer": [
+   "Holy",
+   "Water"
+  ],
+  "Sky Glaze": [
+   "Holy"
+  ],
+  "Sky Stabber": [
+   "Holy",
+   "Stab"
+  ],
+  "Skyfin Bombers": [
+   "Radioactive",
+   "Water",
+   "Bomb"
+  ],
+  "Slag Magnum": [
+   "Stab"
+  ],
+  "Slick Cane": [
+   "Dark",
+   "Slash"
+  ],
+  "Slime Puppet Staff": [
+   "Poison"
+  ],
+  "Slimelgamation": [
+   "Poison",
+   "Dark",
+   "Unholy"
+  ],
+  "Slithering Eels": [
+   "Poison"
+  ],
+  "Sludge Splotch": [
+   "Poison",
+   "Dark"
+  ],
+  "Smoldering Seahorses": [
+   "Fire"
+  ],
+  "Snake Eyes": [
+   "Fire",
+   "Machine"
+  ],
+  "Snap Clam": [
+   "Water"
+  ],
+  "Snowgrave": [
+   "Cold",
+   "Dark"
+  ],
+  "Snowstorm Staff": [
+   "Cold",
+   "Stab"
+  ],
+  "Solar Flare": [
+   "Holy",
+   "Fire"
+  ],
+  "Solstice Claymore": [
+   "Magic",
+   "Slash"
+  ],
+  "Soma Prime": [
+   "Stab"
+  ],
+  "Soul Edge": [
+   "Dark",
+   "Water"
+  ],
+  "Soul Harvester": [
+   "Poison",
+   "Dark",
+   "Slash"
+  ],
+  "Soul Piercer": [
+   "Magic",
+   "Cold",
+   "Stab"
+  ],
+  "Soul of Cryogen": [
+   "Cold",
+   "Stab"
+  ],
+  "Spadefish": [
+   "Water"
+  ],
+  "Spark Spreader": [
+   "Fire"
+  ],
+  "Sparkling Empress": [
+   "Water",
+   "Stab"
+  ],
+  "Spear of Destiny": [
+   "Holy",
+   "Stab"
+  ],
+  "Spear of Liberty": [
+   "Unholy",
+   "Stab"
+  ],
+  "Spear of Paleolith": [
+   "Dark",
+   "Fire",
+   "Stab"
+  ],
+  "Spectralstorm Cannon": [
+   "Dark",
+   "Fire",
+   "Smash"
+  ],
+  "Spectre Rifle": [
+   "Dark"
+  ],
+  "Speed Blaster": [
+   "Stab"
+  ],
+  "Spent Fuel Container": [
+   "Poison",
+   "Fire",
+   "Bomb"
+  ],
+  "Spikecrag Staff": [
+   "Dark",
+   "Stab"
+  ],
+  "Spine of Thanatos": [
+   "Stab",
+   "Holy",
+   "Machine"
+  ],
+  "Spore Knife": [
+   "Poison",
+   "Stab"
+  ],
+  "Spyker": [
+   "Poison",
+   "Stab"
+  ],
+  "Squirrel Baron Staff": [
+   "Unholy",
+   "Dark",
+   "Water"
+  ],
+  "Squirrel Count Staff": [
+   "Unholy",
+   "Dark",
+   "Fire"
+  ],
+  "Squirrel Duke Staff": [
+   "Unholy",
+   "Dark",
+   "Poison"
+  ],
+  "Squirrel King Staff": [
+   "Holy"
+  ],
+  "Squirrel Knight Staff": [
+   "Unholy",
+   "Dark",
+   "Slash"
+  ],
+  "Squirrel Prince Staff": [
+   "Unholy",
+   "Dark",
+   "Holy"
+  ],
+  "Squirrel Squire Staff": [
+   "Unholy",
+   "Dark",
+   "Magic"
+  ],
+  "Squirrel Viscount Staff": [
+   "Unholy",
+   "Dark",
+   "Stab"
+  ],
+  "Staff of Blushie": [
+   "Water",
+   "Fire",
+   "Magic"
+  ],
+  "Staff of Necrosteocytes": [
+   "Dark",
+   "Smash"
+  ],
+  "Staff of the Mechworm": [
+   "Magic",
+   "Cold",
+   "Unholy"
+  ],
+  "Star Cannon EX": [
+   "Magic"
+  ],
+  "Star Flare": [
+   "Magic",
+   "Dark",
+   "Holy"
+  ],
+  "Star Sputter": [
+   "Magic",
+   "Smash"
+  ],
+  "Star Struck Water": [
+   "Magic",
+   "Water"
+  ],
+  "Star Swallower Containment Unit": [
+   "Poison",
+   "Dark",
+   "Machine"
+  ],
+  "Star of Destruction": [
+   "Dark",
+   "Slash"
+  ],
+  "Starfall": [
+   "Magic"
+  ],
+  "Starfleet": [
+   "Magic"
+  ],
+  "Starmada": [
+   "Magic",
+   "Dark",
+   "Bomb"
+  ],
+  "Starnight Lance": [
+   "Holy",
+   "Stab"
+  ],
+  "Statis' Void Sash": [
+   "Dark",
+   "Magic"
+  ],
+  "Steel Blade": [
+   "Slash"
+  ],
+  "Steel Kunai": [
+   "Dark"
+  ],
+  "Stellar Cannon": [
+   "Magic",
+   "Fire",
+   "Smash",
+   "Stab",
+   "Machine"
+  ],
+  "Stellar Contempt": [
+   "Magic",
+   "Dark",
+   "Smash"
+  ],
+  "Stellar Knife": [
+   "Magic",
+   "Stab"
+  ],
+  "Stellar Kunai": [
+   "Magic",
+   "Stab"
+  ],
+  "Stellar Striker": [
+   "Magic",
+   "Dark"
+  ],
+  "Sticky Spiky Ball": [
+   "Stab",
+   "Poison",
+   "Holy"
+  ],
+  "Storm Dragoon": [
+   "Magic",
+   "Stab",
+   "Electricity"
+  ],
+  "Storm Ruler": [
+   "Holy",
+   "Wind"
+  ],
+  "Storm Saber": [
+   "Water"
+  ],
+  "Storm Spray": [
+   "Water"
+  ],
+  "Storm Surge": [
+   "Water",
+   "Electricity"
+  ],
+  "Stormfront Razor": [
+   "Holy",
+   "Stab",
+   "Electricity"
+  ],
+  "Stormjaw Staff": [
+   "Water",
+   "Stab",
+   "Electricity"
+  ],
+  "Stratoctrine Spear": [
+   "Water",
+   "Stab"
+  ],
+  "Stratus Sphere": [
+   "Magic",
+   "Dark"
+  ],
+  "Stream Gouge": [
+   "Stab",
+   "Magic"
+  ],
+  "Stringstreaker": [
+   "Stab",
+   "Dark"
+  ],
+  "Subduction Slicer": [
+   "Fire",
+   "Slash"
+  ],
+  "Submarine Shocker": [
+   "Water",
+   "Poison",
+   "Stab"
+  ],
+  "Subsuming Vortex": [
+   "Magic",
+   "Cold",
+   "Slash",
+   "Machine"
+  ],
+  "Sulphuric Acid Cannon": [
+   "Poison",
+   "Acid",
+   "Smash"
+  ],
+  "Sulphurous Grabber": [
+   "Poison",
+   "Water"
+  ],
+  "Summit Breaker": [
+   "Fire",
+   "Slash"
+  ],
+  "Sun God Staff": [
+   "Holy",
+   "Fire"
+  ],
+  "Sun Spirit Staff": [
+   "Holy"
+  ],
+  "Supercharged Dart Blaster": [
+   "Stab",
+   "Magic"
+  ],
+  "Supernova": [
+   "Cold",
+   "Fire",
+   "Magic",
+   "Smash",
+   "Machine"
+  ],
+  "Surge Driver": [
+   "Magic",
+   "Fire",
+   "Machine"
+  ],
+  "Svantechnical": [
+   "Stab"
+  ],
+  "Swift Sword": [
+   "Holy",
+   "Slash"
+  ],
+  "Swordsplosion": [
+   "Magic",
+   "Slash"
+  ],
+  "Sylvan Slasher": [
+   "Slash",
+   "Holy"
+  ],
+  "System Bane": [
+   "Stab",
+   "Electricity",
+   "Machine"
+  ],
+  "Tactical Plague Engine": [
+   "Poison",
+   "Stab",
+   "Machine"
+  ],
+  "Tactician's Trump Card": [
+   "Slash"
+  ],
+  "Tarragon Throwing Dart": [
+   "Stab",
+   "Poison"
+  ],
+  "Taser": [
+   "Stab",
+   "Electricity",
+   "Machine"
+  ],
+  "Teardrop Cleaver": [
+   "Water",
+   "Slash"
+  ],
+  "Tears of Heaven": [
+   "Holy",
+   "Water"
+  ],
+  "Technicate": [
+   "Dark",
+   "Water"
+  ],
+  "Technomagica": [
+   "Dark",
+   "Water",
+   "Electricity"
+  ],
+  "Telluric Glare": [
+   "Holy",
+   "Fire",
+   "Stab"
+  ],
+  "Temporal Floe Sword": [
+   "Magic",
+   "Slash"
+  ],
+  "Temporal Umbrella": [
+   "Magic",
+   "Stab",
+   "Slash"
+  ],
+  "Tendon Tides": [
+   "Unholy",
+   "Dark",
+   "Fire",
+   "Stab"
+  ],
+  "Tenebreus Tides": [
+   "Dark",
+   "Water",
+   "Stab"
+  ],
+  "Tenebris Tides": [
+   "Water",
+   "Dark",
+   "Poison",
+   "Stab"
+  ],
+  "Terra Bow": [
+   "Poison",
+   "Magic"
+  ],
+  "Terra Disk": [
+   "Poison",
+   "Slash"
+  ],
+  "Terra Edge": [
+   "Poison",
+   "Slash"
+  ],
+  "Terra Flameburster": [
+   "Poison",
+   "Stab"
+  ],
+  "Terra Lance": [
+   "Poison",
+   "Stab"
+  ],
+  "Terra Ray": [
+   "Poison",
+   "Stab"
+  ],
+  "Terra Shiv": [
+   "Poison",
+   "Stab"
+  ],
+  "Terra-cotta": [
+   "Fire",
+   "Slash"
+  ],
+  "Terratomere": [
+   "Poison",
+   "Holy",
+   "Slash"
+  ],
+  "Terrestrial Dart": [
+   "Poison"
+  ],
+  "Terreye Staff": [
+   "Poison"
+  ],
+  "Terriblade": [
+   "Unholy",
+   "Slash"
+  ],
+  "Terror Blade": [
+   "Dark"
+  ],
+  "Terror Talons": [
+   "Dark",
+   "Slash",
+   "Stab"
+  ],
+  "Tesla Cannon": [
+   "Slash",
+   "Electricity",
+   "Machine"
+  ],
+  "Tetrachromancy": [
+   "Dark"
+  ],
+  "The Absorber": [
+   "Poison"
+  ],
+  "The Amalgam": [
+   "Fire",
+   "Poison",
+   "Stab",
+   "Magic",
+   "Holy",
+   "Unholy",
+   "Water"
+  ],
+  "The Anomaly's Nanogun": [
+   "Machine"
+  ],
+  "The Archalis": [
+   "Dark",
+   "Slash"
+  ],
+  "The Atom Splitter": [
+   "Magic",
+   "Slash",
+   "Stab",
+   "Machine"
+  ],
+  "The Ballista": [
+   "Dark",
+   "Stab",
+   "Fire"
+  ],
+  "The Burning Sky": [
+   "Fire",
+   "Slash"
+  ],
+  "The Dance of Light": [
+   "Holy",
+   "Slash"
+  ],
+  "The Dreaming Ghost": [
+   "Magic",
+   "Poison",
+   "Slash"
+  ],
+  "The Enforcer": [
+   "Fire",
+   "Slash",
+   "Magic"
+  ],
+  "The Evolution": [
+   "Magic"
+  ],
+  "The Final Dawn": [
+   "Fire",
+   "Slash"
+  ],
+  "The First Fracturer": [
+   "Holy"
+  ],
+  "The Food Chain": [
+   "Water",
+   "Dark"
+  ],
+  "The Generator": [
+   "Fire"
+  ],
+  "The God's Gambit": [
+   "Poison"
+  ],
+  "The Godfather": [
+   "Cold",
+   "Fire",
+   "Stab",
+   "Dark"
+  ],
+  "The Hive": [
+   "Poison",
+   "Fire",
+   "Bomb",
+   "Machine"
+  ],
+  "The Inflator's Controller": [
+   "Poison",
+   "Acid",
+   "Water",
+   "Wind",
+   "Machine"
+  ],
+  "The Insacred Texts": [
+   "Unholy"
+  ],
+  "The Jailor": [
+   "Fire",
+   "Magic",
+   "Electricity",
+   "Machine"
+  ],
+  "The King's Gambit": [
+   "Poison"
+  ],
+  "The Last Lightice": [
+   "Cold",
+   "Holy"
+  ],
+  "The Last Mourning": [
+   "Fire",
+   "Slash",
+   "Dark"
+  ],
+  "The Maelstrom": [
+   "Water",
+   "Dark"
+  ],
+  "The Microwave": [
+   "Magic",
+   "Fire",
+   "Poison"
+  ],
+  "The Mutilator": [
+   "Unholy",
+   "Slash"
+  ],
+  "The Needler": [
+   "Poison",
+   "Stab",
+   "Machine"
+  ],
+  "The Obliterator": [
+   "Magic",
+   "Cold"
+  ],
+  "The Ones Striker": [
+   "Holy",
+   "Stab"
+  ],
+  "The Oracle": [
+   "Fire",
+   "Holy",
+   "Electricity"
+  ],
+  "The Otherside": [
+   "Magic",
+   "Slash"
+  ],
+  "The Pack": [
+   "Fire",
+   "Bomb"
+  ],
+  "The Prince": [
+   "Poison",
+   "Fire"
+  ],
+  "The Princess": [
+   "Poison",
+   "Fire",
+   "Dark"
+  ],
+  "The Reaper": [
+   "Poison",
+   "Slash"
+  ],
+  "The Sevens Striker": [
+   "Unholy",
+   "Poison",
+   "Stab"
+  ],
+  "The Sponge": [
+   "Fire",
+   "Stab",
+   "Magic",
+   "Poison",
+   "Machine"
+  ],
+  "The Storm": [
+   "Magic",
+   "Holy",
+   "Electricity"
+  ],
+  "The Swarmer": [
+   "Poison",
+   "Stab"
+  ],
+  "The Verboten One": [
+   "Cold",
+   "Fire",
+   "Poison",
+   "Stab",
+   "Slash",
+   "Magic",
+   "Dark",
+   "Water",
+   "Holy",
+   "Unholy"
+  ],
+  "The WOBbler": [
+   "Cold",
+   "Slash"
+  ],
+  "The Wand": [
+   "Fire"
+  ],
+  "The Watered Pew Pew": [
+   "Cold",
+   "Water"
+  ],
+  "Throwing Brick": [
+   "Cold"
+  ],
+  "Thunder Bolt": [
+   "Electricity"
+  ],
+  "Thunderstorm": [
+   "Water",
+   "Fire",
+   "Electricity"
+  ],
+  "Time Bolt": [
+   "Magic",
+   "Stab",
+   "Electricity"
+  ],
+  "Titan Arm": [
+   "Magic",
+   "Smash"
+  ],
+  "Titan Tides": [
+   "Magic",
+   "Cold",
+   "Dark",
+   "Stab"
+  ],
+  "Titanium Railgun": [
+   "Magic",
+   "Machine"
+  ],
+  "Titanium Shuriken": [
+   "Dark",
+   "Slash"
+  ],
+  "Tome of Fates": [
+   "Dark",
+   "Fire"
+  ],
+  "Tooth Ball": [
+   "Unholy"
+  ],
+  "Totality Breakers": [
+   "Fire",
+   "Unholy",
+   "Smash"
+  ],
+  "Totality Tides": [
+   "Cold",
+   "Magic",
+   "Holy",
+   "Machine"
+  ],
+  "Toxibow": [
+   "Poison"
+  ],
+  "Toxic Heart": [
+   "Poison"
+  ],
+  "Toxic Wisdom": [
+   "Poison",
+   "Water",
+   "Machine"
+  ],
+  "Toxicant Twister": [
+   "Poison",
+   "Slash"
+  ],
+  "Tracking Disk": [
+   "Slash",
+   "Fire",
+   "Electricity",
+   "Machine"
+  ],
+  "Tradewinds": [
+   "Holy",
+   "Stab"
+  ],
+  "Trash of Magnus": [
+   "Poison"
+  ],
+  "Triactis' True Paladinian Mage-Hammer of Might": [
+   "Holy",
+   "Magic",
+   "Smash"
+  ],
+  "Trinity": [
+   "Holy"
+  ],
+  "Triploon": [
+   "Poison",
+   "Stab",
+   "Dark"
+  ],
+  "True Biome Blade": [
+   "Slash"
+  ],
+  "True Bloody Edge": [
+   "Unholy",
+   "Slash"
+  ],
+  "True Caliburn": [
+   "Holy",
+   "Stab"
+  ],
+  "True Caustic Edge": [
+   "Poison",
+   "Slash"
+  ],
+  "True Forbidden Oathblade": [
+   "Fire",
+   "Dark",
+   "Unholy"
+  ],
+  "True Night's Stabber": [
+   "Unholy",
+   "Stab"
+  ],
+  "True Tyrant's Ultisword": [
+   "Unholy",
+   "Slash",
+   "Poison"
+  ],
+  "Tumbleweed": [
+   "Poison",
+   "Fire",
+   "Smash"
+  ],
+  "Tundra Flame Blossoms Staff": [
+   "Fire",
+   "Cold"
+  ],
+  "Turbulance": [
+   "Holy",
+   "Slash",
+   "Stab"
+  ],
+  "Twentloon": [
+   "Poison",
+   "Stab",
+   "Water"
+  ],
+  "Twenty-Twloon": [
+   "Cold",
+   "Fire",
+   "Poison",
+   "Stab",
+   "Dark",
+   "Unholy",
+   "Machine"
+  ],
+  "Twin Cranes": [
+   "Magic",
+   "Holy"
+  ],
+  "Twisted Netherite Axe": [
+   "Dark",
+   "Slash"
+  ],
+  "Twisted Netherite Pickaxe": [
+   "Dark",
+   "Stab"
+  ],
+  "Twisted Netherite Scythe": [
+   "Dark",
+   "Slash"
+  ],
+  "Twisted Netherite Shovel": [
+   "Dark"
+  ],
+  "Twisted Netherite Sword": [
+   "Dark",
+   "Slash"
+  ],
+  "Typhon's Greed": [
+   "Dark",
+   "Water"
+  ],
+  "Tyranny's End": [
+   "Holy",
+   "Stab"
+  ],
+  "Tyrant Shield": [
+   "Holy",
+   "Poison",
+   "Smash"
+  ],
+  "Tyrant Yharim's Ultisword": [
+   "Unholy",
+   "Poison",
+   "Slash"
+  ],
+  "Ultima": [
+   "Magic",
+   "Dark",
+   "Stab"
+  ],
+  "Ultimus Cleaver": [
+   "Fire",
+   "Dark",
+   "Slash",
+   "Stab"
+  ],
+  "Ultra Liquidator": [
+   "Holy",
+   "Water",
+   "Stab"
+  ],
+  "Undine's Retribution": [
+   "Holy",
+   "Water",
+   "Dark",
+   "Stab"
+  ],
+  "Unending Void": [
+   "Dark"
+  ],
+  "Universal Genesis": [
+   "Magic",
+   "Stab"
+  ],
+  "Universe Splitter": [
+   "Magic",
+   "Fire",
+   "Machine"
+  ],
+  "Unloxcalibur": [
+   "Slash"
+  ],
+  "Unsealed Singularity": [
+   "Dark",
+   "Smash"
+  ],
+  "Urchin Flail": [
+   "Water",
+   "Poison",
+   "Stab"
+  ],
+  "Urchin Mace": [
+   "Water",
+   "Poison",
+   "Slash"
+  ],
+  "Urchin Spear": [
+   "Water",
+   "Poison",
+   "Stab"
+  ],
+  "Urchin Stinger": [
+   "Water",
+   "Poison",
+   "Stab"
+  ],
+  "UserGrahkon/Sandbox": [
+   "Magic",
+   "Dark",
+   "Slash"
+  ],
+  "Utensil Poker": [
+   "Fire",
+   "Stab"
+  ],
+  "Valediction": [
+   "Dark",
+   "Water",
+   "Slash"
+  ],
+  "Valkyrie Ray": [
+   "Holy",
+   "Stab"
+  ],
+  "Varroa Hack": [
+   "Poison",
+   "Unholy",
+   "Machine"
+  ],
+  "Vehemence": [
+   "Unholy",
+   "Poison",
+   "Stab"
+  ],
+  "Vehement Gemstone": [
+   "Magic",
+   "Cold",
+   "Slash",
+   "Machine"
+  ],
+  "Vein Burster": [
+   "Unholy"
+  ],
+  "Venerated Locket": [
+   "Magic",
+   "Dark"
+  ],
+  "Venus Flytrap": [
+   "Poison",
+   "Stab"
+  ],
+  "Venusian Trident": [
+   "Unholy",
+   "Fire"
+  ],
+  "Verdant": [
+   "Poison"
+  ],
+  "Vermillion Angel": [
+   "Fire",
+   "Dark"
+  ],
+  "Vesuvius": [
+   "Fire"
+  ],
+  "Vigilance": [
+   "Unholy",
+   "Fire"
+  ],
+  "Vile Feeder": [
+   "Unholy"
+  ],
+  "Violence": [
+   "Fire",
+   "Dark",
+   "Unholy",
+   "Smash"
+  ],
+  "Viral Sprout": [
+   "Poison",
+   "Stab"
+  ],
+  "Virid Vangar": [
+   "Poison",
+   "Slash"
+  ],
+  "Virulence": [
+   "Poison",
+   "Slash",
+   "Machine"
+  ],
+  "Viscera": [
+   "Unholy",
+   "Dark"
+  ],
+  "Vitreomance": [
+   "Holy",
+   "Magic",
+   "Poison",
+   "Machine"
+  ],
+  "Vitriolic Viper": [
+   "Poison",
+   "Stab"
+  ],
+  "Vivid Clarity": [
+   "Fire",
+   "Magic",
+   "Cold",
+   "Machine"
+  ],
+  "Void Artifact": [
+   "Dark"
+  ],
+  "Void Concentration Staff": [
+   "Dark"
+  ],
+  "Void Vortex": [
+   "Magic",
+   "Dark"
+  ],
+  "Void of Calamity": [
+   "Fire",
+   "Unholy"
+  ],
+  "Void of Extinction": [
+   "Fire",
+   "Unholy"
+  ],
+  "Voidragon": [
+   "Dark",
+   "Magic"
+  ],
+  "Voltaic Climax": [
+   "Magic",
+   "Electricity"
+  ],
+  "Vortex Dart": [
+   "Wind"
+  ],
+  "Vortexpopper": [
+   "Magic",
+   "Water"
+  ],
+  "Vulcanite Lance": [
+   "Fire",
+   "Stab"
+  ],
+  "Wakasagihime": [
+   "Water",
+   "Unholy"
+  ],
+  "War Staff": [
+   "Stab"
+  ],
+  "Waraxe": [
+   "Slash"
+  ],
+  "Warbell": [
+   "Slash"
+  ],
+  "Warblade": [
+   "Slash"
+  ],
+  "Warbow": [
+   "Stab"
+  ],
+  "Warglaive": [
+   "Slash"
+  ],
+  "Waterfrosia": [
+   "Cold",
+   "Water",
+   "Dark"
+  ],
+  "Waterfrost Dart": [
+   "Cold"
+  ],
+  "Wave Pounder": [
+   "Smash",
+   "Machine",
+   "Bomb"
+  ],
+  "Wave Skipper": [
+   "Water",
+   "Stab"
+  ],
+  "Waywasher": [
+   "Water"
+  ],
+  "Web Ball": [
+   "Poison",
+   "Smash"
+  ],
+  "Whipped Bouquet Blade": [
+   "Holy",
+   "Slash"
+  ],
+  "Wind Blade": [
+   "Wind",
+   "Slash"
+  ],
+  "Wind Turbine Blade": [
+   "Holy",
+   "Slash",
+   "Stab"
+  ],
+  "Wingman": [
+   "Magic"
+  ],
+  "Winter Breeze": [
+   "Cold",
+   "Stab"
+  ],
+  "Winter's Fury": [
+   "Cold"
+  ],
+  "Wither Blossoms Staff": [
+   "Poison"
+  ],
+  "Wooden Butterfly Staff": [
+   "Poison"
+  ],
+  "Worst Prism": [
+   "Holy",
+   "Unholy"
+  ],
+  "Wrath of the Ancients": [
+   "Dark"
+  ],
+  "Wrath of the Cosmos": [
+   "Fire",
+   "Magic"
+  ],
+  "Wrath of the Dragons": [
+   "Fire"
+  ],
+  "Wrath of the Eldritch": [
+   "Fire",
+   "Dark"
+  ],
+  "Wrath of the Gods": [
+   "Fire",
+   "Unholy"
+  ],
+  "Wrathwing": [
+   "Fire",
+   "Stab"
+  ],
+  "Wreath of Belial": [
+   "Cold",
+   "Poison",
+   "Dark"
+  ],
+  "Wrecking Ball": [
+   "Stab",
+   "Smash"
+  ],
+  "Wulfrum Blade": [
+   "Slash"
+  ],
+  "Wulfrum Blunderbuss": [
+   "Stab",
+   "Machine"
+  ],
+  "Wulfrum Bow": [
+   "Stab"
+  ],
+  "Wulfrum Controller": [
+   "Stab"
+  ],
+  "Wulfrum Digging Turtle": [
+   "Fire",
+   "Machine"
+  ],
+  "Wulfrum Fusion Array": [
+   "Stab",
+   "Machine"
+  ],
+  "Wulfrum Hammer": [
+   "Smash"
+  ],
+  "Wulfrum Knife": [
+   "Stab"
+  ],
+  "Wulfrum Leech Dagger": [
+   "Stab",
+   "Machine"
+  ],
+  "Wulfrum Lure": [
+   "Fire",
+   "Magic"
+  ],
+  "Wulfrum Prosthesis": [
+   "Stab",
+   "Machine"
+  ],
+  "Wulfrum Shock Cutter": [
+   "Stab",
+   "Machine"
+  ],
+  "Wulfrum Staff": [
+   "Stab"
+  ],
+  "Wyvern's Call": [
+   "Holy"
+  ],
+  "XB-∞ Hekate": [
+   "Fire",
+   "Slash",
+   "Unholy",
+   "Machine"
+  ],
+  "Xenon Cutlass": [
+   "Holy",
+   "Slash",
+   "Magic"
+  ],
+  "Yanmei's Knife": [
+   "Poison",
+   "Slash"
+  ],
+  "Yateveo Bloom": [
+   "Poison",
+   "Stab"
+  ],
+  "Yharim's Crystal": [
+   "Holy",
+   "Fire"
+  ],
+  "Yharon's Kindle Staff": [
+   "Holy",
+   "Fire"
+  ],
+  "Yin-Yo": [
+   "Unholy",
+   "Holy"
+  ],
+  "Zenith Arcanum": [
+   "Cold",
+   "Fire",
+   "Poison",
+   "Stab",
+   "Slash",
+   "Magic",
+   "Dark",
+   "Water",
+   "Holy",
+   "Unholy"
+  ],
+  "Zweihandromeda": [
+   "Dark",
+   "Magic",
+   "Stab"
+  ]
+ },
+ "npcs": {
+  "Acid Eel": {
+   "resistant": [
+    "Water",
+    "Poison",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Slash",
+    "Machine"
+   ]
+  },
+  "Acidsighter": {
+   "resistant": [
+    "Poison",
+    "Unholy",
+    "Dark",
+    "Acid",
+    "Radioactive"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Holy",
+    "Machine"
+   ]
+  },
+  "Aero Slime": {
+   "resistant": [
+    "Poison",
+    "Holy"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Dark"
+   ]
+  },
+  "Aether Valkyrie": {
+   "resistant": [
+    "Fire",
+    "Water",
+    "Holy",
+    "Wind",
+    "Electricity"
+   ],
+   "vulnerable": [
+    "Magic",
+    "Cold",
+    "Unholy"
+   ]
+  },
+  "Aetherial Guardian, Olistene": {
+   "resistant": [
+    "Stab",
+    "Magic",
+    "Holy"
+   ],
+   "vulnerable": [
+    "Dark",
+    "Unholy"
+   ]
+  },
+  "Amazon": {
+   "resistant": [
+    "Holy",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Magic",
+    "Dark",
+    "Machine"
+   ]
+  },
+  "Angry Dog": {
+   "resistant": [
+    "Cold",
+    "Stab",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Machine"
+   ]
+  },
+  "Anthozoan Crab": {
+   "resistant": [
+    "Poison",
+    "Water",
+    "Slash",
+    "Smash"
+   ],
+   "vulnerable": [
+    "Stab"
+   ]
+  },
+  "Aquatic Aberration": {
+   "resistant": [
+    "Water",
+    "Dark",
+    "Fire",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Cold",
+    "Machine"
+   ]
+  },
+  "Aquatic Parasite": {
+   "resistant": [
+    "Poison",
+    "Water"
+   ],
+   "vulnerable": [
+    "Slash"
+   ]
+  },
+  "Aquatic Scourge": {
+   "resistant": [
+    "Acid",
+    "Poison",
+    "Radioactive"
+   ],
+   "vulnerable": [
+    "Machine"
+   ]
+  },
+  "Aquatic Seeker": {
+   "resistant": [
+    "Water",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Cold"
+   ]
+  },
+  "Aquatic Urchin": {
+   "resistant": [
+    "Water",
+    "Poison",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Cold"
+   ]
+  },
+  "Arc": {
+   "resistant": [
+    "Dark",
+    "Cold",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Slash"
+   ]
+  },
+  "Aries": {
+   "resistant": [
+    "Poison",
+    "Magic",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Water",
+    "Slash"
+   ]
+  },
+  "Armored Digger": {
+   "resistant": [
+    "Machine"
+   ],
+   "vulnerable": []
+  },
+  "Arsenous Slime": {
+   "resistant": [
+    "Slash",
+    "Cold",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab"
+   ]
+  },
+  "Artificial Sentience System, AX-P03": {
+   "resistant": [
+    "Fire",
+    "Cold",
+    "Poison",
+    "Slash",
+    "Stab",
+    "Magic",
+    "Dark",
+    "Water",
+    "Holy",
+    "Unholy",
+    "Machine",
+    "Electricity",
+    "Smash"
+   ],
+   "vulnerable": []
+  },
+  "Astral Probe": {
+   "resistant": [
+    "Poison",
+    "Magic",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Water",
+    "Cold"
+   ]
+  },
+  "Astral Slime": {
+   "resistant": [
+    "Magic",
+    "Poison",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Slash"
+   ]
+  },
+  "Astralachnea": {
+   "resistant": [
+    "Poison",
+    "Magic",
+    "Dark",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Water"
+   ]
+  },
+  "Astrum Aureus": {
+   "resistant": [
+    "Poison",
+    "Magic",
+    "Slash",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Water",
+    "Fire",
+    "Stab"
+   ]
+  },
+  "Asura": {
+   "resistant": [
+    "Cold",
+    "Stab",
+    "Slash",
+    "Poison",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Water"
+   ]
+  },
+  "Atlas": {
+   "resistant": [
+    "Cold",
+    "Poison",
+    "Magic",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Holy"
+   ]
+  },
+  "Aureus Spawn": {
+   "resistant": [
+    "Poison",
+    "Magic"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Water"
+   ]
+  },
+  "Auric Slime": {
+   "resistant": [
+    "Poison",
+    "Holy"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Unholy",
+    "Machine"
+   ]
+  },
+  "Aurora Spirit": {
+   "resistant": [
+    "Cold",
+    "Water",
+    "Magic"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Slash",
+    "Machine"
+   ]
+  },
+  "BOHLDOHR": {
+   "resistant": [
+    "Holy",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Water",
+    "Stab",
+    "Cold",
+    "Machine"
+   ]
+  },
+  "Banana Clown": {
+   "resistant": [
+    "Dark",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Holy",
+    "Cold",
+    "Machine"
+   ]
+  },
+  "Barocrab": {
+   "resistant": [
+    "Poison",
+    "Water",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Magic"
+   ]
+  },
+  "Barocraw": {
+   "resistant": [
+    "Poison",
+    "Dark",
+    "Water"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Magic",
+    "Machine"
+   ]
+  },
+  "Belching Coral": {
+   "resistant": [
+    "Water",
+    "Poison",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Cold",
+    "Machine"
+   ]
+  },
+  "Big Sightseer": {
+   "resistant": [
+    "Poison",
+    "Magic",
+    "Holy",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Water",
+    "Cold"
+   ]
+  },
+  "Birdest Up, Kulu-Yharon-Ku": {
+   "resistant": [],
+   "vulnerable": [
+    "Holy"
+   ]
+  },
+  "Blighted Eye": {
+   "resistant": [
+    "Fire",
+    "Dark",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Water"
+   ]
+  },
+  "Blinded Angler": {
+   "resistant": [
+    "Water",
+    "Slash",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Poison",
+    "Machine"
+   ]
+  },
+  "Bloatfish": {
+   "resistant": [
+    "Water",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Poison",
+    "Stab",
+    "Machine"
+   ]
+  },
+  "Blockhound": {
+   "resistant": [
+    "Holy",
+    "Cold",
+    "Poison",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Unholy",
+    "Magic"
+   ]
+  },
+  "Bloody Burrower": {
+   "resistant": [
+    "Poison",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Magic",
+    "Fire"
+   ]
+  },
+  "Bloom Slime": {
+   "resistant": [
+    "Poison",
+    "Holy"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Cold",
+    "Slash",
+    "Machine"
+   ]
+  },
+  "Blue Demon": {
+   "resistant": [
+    "Unholy",
+    "Magic",
+    "Stab"
+   ],
+   "vulnerable": [
+    "Holy"
+   ]
+  },
+  "Boar Cat": {
+   "resistant": [
+    "Poison",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Cold",
+    "Dark",
+    "Holy",
+    "Machine"
+   ]
+  },
+  "Bobbit Worm": {
+   "resistant": [
+    "Water",
+    "Dark",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Cold",
+    "Machine"
+   ]
+  },
+  "Box Jellyfish": {
+   "resistant": [
+    "Water",
+    "Poison",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Stab",
+    "Machine"
+   ]
+  },
+  "Brimling": {
+   "resistant": [
+    "Unholy",
+    "Fire",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Water",
+    "Holy",
+    "Machine"
+   ]
+  },
+  "Brimstone Elemental": {
+   "resistant": [
+    "Unholy",
+    "Fire",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Water",
+    "Holy",
+    "Smash"
+   ]
+  },
+  "Bronze Serpent": {
+   "resistant": [
+    "Cold",
+    "Unholy",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Holy",
+    "Smash"
+   ]
+  },
+  "Calamitas": {
+   "resistant": [
+    "Fire",
+    "Unholy",
+    "Magic",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Water",
+    "Holy"
+   ]
+  },
+  "Calamity Eye": {
+   "resistant": [
+    "Fire",
+    "Dark",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Water",
+    "Stab"
+   ]
+  },
+  "Cannonball Jellyfish": {
+   "resistant": [
+    "Water",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Holy",
+    "Machine"
+   ]
+  },
+  "Carcinogen": {
+   "resistant": [
+    "Fire",
+    "Unholy",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Magic"
+   ]
+  },
+  "Catfish (enemy)": {
+   "resistant": [
+    "Poison",
+    "Water"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Slash",
+    "Machine"
+   ]
+  },
+  "Ceaseless Void": {
+   "resistant": [
+    "Magic",
+    "Dark",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Slash"
+   ]
+  },
+  "Ceasing Void": {
+   "resistant": [
+    "Dark",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Magic"
+   ]
+  },
+  "Chaotic Puffer": {
+   "resistant": [
+    "Fire",
+    "Water"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Cold",
+    "Machine"
+   ]
+  },
+  "Charm Gar": {
+   "resistant": [
+    "Fire",
+    "Water",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Poison",
+    "Stab",
+    "Machine"
+   ]
+  },
+  "Charred Slime": {
+   "resistant": [
+    "Unholy",
+    "Fire",
+    "Smash"
+   ],
+   "vulnerable": [
+    "Water",
+    "Slash"
+   ]
+  },
+  "Chasm Beast": {
+   "resistant": [
+    "Dark",
+    "Unholy",
+    "Water"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Magic"
+   ]
+  },
+  "Cinder": {
+   "resistant": [
+    "Holy",
+    "Fire",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Water",
+    "Unholy",
+    "Smash"
+   ]
+  },
+  "Cinderlamitas": {
+   "resistant": [
+    "Holy",
+    "Fire",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Water"
+   ]
+  },
+  "Clam": {
+   "resistant": [
+    "Water",
+    "Cold",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Poison",
+    "Stab",
+    "Machine"
+   ]
+  },
+  "Clamitas": {
+   "resistant": [
+    "Fire",
+    "Unholy",
+    "Cold",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Water",
+    "Holy",
+    "Stab",
+    "Smash",
+    "Machine"
+   ]
+  },
+  "Clockwork Bat": {
+   "resistant": [
+    "Cold",
+    "Unholy",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Holy"
+   ]
+  },
+  "Cnidrion": {
+   "resistant": [
+    "Fire",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Water",
+    "Slash"
+   ]
+  },
+  "Colossal Squid": {
+   "resistant": [
+    "Dark",
+    "Water",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Slash",
+    "Unholy",
+    "Machine"
+   ]
+  },
+  "Corrupt Slime Spawn": {
+   "resistant": [
+    "Unholy",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Water"
+   ]
+  },
+  "Cosmic Elemental": {
+   "resistant": [
+    "Magic"
+   ],
+   "vulnerable": [
+    "Water",
+    "Stab"
+   ]
+  },
+  "Cosmilite Slime": {
+   "resistant": [
+    "Poison",
+    "Magic"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Fire"
+   ]
+  },
+  "Crabulon": {
+   "resistant": [
+    "Cold",
+    "Fire",
+    "Poison",
+    "Stab",
+    "Slash",
+    "Magic",
+    "Dark",
+    "Water",
+    "Holy",
+    "Unholy"
+   ],
+   "vulnerable": []
+  },
+  "Cragmaw Mire": {
+   "resistant": [
+    "Poison",
+    "Water",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Slash"
+   ]
+  },
+  "Crimson Kaiju": {
+   "resistant": [
+    "Unholy",
+    "Dark",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Cold",
+    "Stab"
+   ]
+  },
+  "Crimson Slime Spawn": {
+   "resistant": [
+    "Poison",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Fire"
+   ]
+  },
+  "Crown Jewel (enemy)": {
+   "resistant": [
+    "Fire",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Smash"
+   ]
+  },
+  "Cryo Slime": {
+   "resistant": [
+    "Poison",
+    "Holy"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Machine"
+   ]
+  },
+  "Cryogen": {
+   "resistant": [
+    "Fire",
+    "Water",
+    "Magic",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Stab",
+    "Unholy",
+    "Smash"
+   ]
+  },
+  "Cryon": {
+   "resistant": [
+    "Cold"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Slash",
+    "Machine"
+   ]
+  },
+  "Cuboid Curse": {
+   "resistant": [
+    "Dark",
+    "Slash",
+    "Stab"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Fire"
+   ]
+  },
+  "Cultist Assassin": {
+   "resistant": [
+    "Dark",
+    "Fire",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Water",
+    "Holy"
+   ]
+  },
+  "Cumulomenace": {
+   "resistant": [
+    "Slash",
+    "Fire",
+    "Water",
+    "Poison",
+    "Smash"
+   ],
+   "vulnerable": [
+    "Magic",
+    "Cold",
+    "Dark",
+    "Stab",
+    "Unholy"
+   ]
+  },
+  "Cuttlefish": {
+   "resistant": [
+    "Fire",
+    "Water"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Slash",
+    "Machine"
+   ]
+  },
+  "Cyber Draedon": {
+   "resistant": [
+    "Slash",
+    "Stab",
+    "Dark",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Water",
+    "Magic"
+   ]
+  },
+  "Cyrogen": {
+   "resistant": [
+    "Cold",
+    "Water",
+    "Magic",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Unholy"
+   ]
+  },
+  "DWN-∞, Zero": {
+   "resistant": [
+    "Fire",
+    "Wind",
+    "Water",
+    "Poison",
+    "Acid",
+    "Radioactive",
+    "Electricity",
+    "Stab",
+    "Slash",
+    "Smash",
+    "Bomb",
+    "Magic",
+    "Dark",
+    "Holy",
+    "Unholy",
+    "Machine"
+   ],
+   "vulnerable": []
+  },
+  "Dark Statis": {
+   "resistant": [
+    "Dark",
+    "Fire",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Water"
+   ]
+  },
+  "Darkscule": {
+   "resistant": [
+    "Dark"
+   ],
+   "vulnerable": [
+    "Magic"
+   ]
+  },
+  "Death Slime": {
+   "resistant": [
+    "Dark",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Slash"
+   ]
+  },
+  "Depressed Cephalopod": {
+   "resistant": [
+    "Water",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Dark",
+    "Cold",
+    "Stab"
+   ]
+  },
+  "Despair Stone": {
+   "resistant": [
+    "Fire",
+    "Slash",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Water",
+    "Stab",
+    "Smash"
+   ]
+  },
+  "Destroyer of Sanity": {
+   "resistant": [
+    "Dark",
+    "Machine",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Magic",
+    "Holy"
+   ]
+  },
+  "Devil Fish": {
+   "resistant": [
+    "Water",
+    "Fire",
+    "Unholy",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Machine"
+   ]
+  },
+  "Devil of Vehemence": {
+   "resistant": [
+    "Unholy",
+    "Magic",
+    "Slash",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Water",
+    "Holy",
+    "Stab"
+   ]
+  },
+  "Dihidrogen Monoxide": {
+   "resistant": [
+    "Water",
+    "Unholy"
+   ],
+   "vulnerable": []
+  },
+  "Dihydrogen Monoxide": {
+   "resistant": [
+    "Water",
+    "Unholy"
+   ],
+   "vulnerable": []
+  },
+  "Disgusting Creature: Dron": {
+   "resistant": [
+    "Machine"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Fire",
+    "Poison",
+    "Stab",
+    "Slash",
+    "Smash",
+    "Magic",
+    "Dark",
+    "Water",
+    "Holy",
+    "Unholy",
+    "Electricity"
+   ]
+  },
+  "Distortion Essence Sphere": {
+   "resistant": [
+    "Magic",
+    "Slash",
+    "Dark",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Stab"
+   ]
+  },
+  "Diviner Valkyrie": {
+   "resistant": [
+    "Cold",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Machine"
+   ]
+  },
+  "Dragon": {
+   "resistant": [],
+   "vulnerable": [
+    "Cold",
+    "Machine"
+   ]
+  },
+  "Dust Mite": {
+   "resistant": [],
+   "vulnerable": [
+    "Wind"
+   ]
+  },
+  "Earth Elemental": {
+   "resistant": [
+    "Fire",
+    "Poison",
+    "Slash",
+    "Stab"
+   ],
+   "vulnerable": [
+    "Water",
+    "Cold",
+    "Unholy",
+    "Machine"
+   ]
+  },
+  "Eidolist": {
+   "resistant": [
+    "Dark",
+    "Water",
+    "Cold",
+    "Magic",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Poison",
+    "Slash",
+    "Electricity"
+   ]
+  },
+  "Empyreon": {
+   "resistant": [
+    "Cold",
+    "Magic",
+    "Stab",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Dark",
+    "Unholy"
+   ]
+  },
+  "Eutrophic Ray": {
+   "resistant": [
+    "Water"
+   ],
+   "vulnerable": [
+    "Poison",
+    "Cold",
+    "Machine"
+   ]
+  },
+  "Everquartz": {
+   "resistant": [
+    "Fire",
+    "Holy",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Dark",
+    "Water",
+    "Machine"
+   ]
+  },
+  "Evil Animatronic": {
+   "resistant": [
+    "Cold",
+    "Poison",
+    "Magic",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Slash"
+   ]
+  },
+  "Exo Armada": {
+   "resistant": [
+    "Poison",
+    "Water",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Magic"
+   ]
+  },
+  "Exo Cube": {
+   "resistant": [
+    "Poison",
+    "Water",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Magic"
+   ]
+  },
+  "Exo Landmaster": {
+   "resistant": [
+    "Poison",
+    "Water",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Magic"
+   ]
+  },
+  "Exo Mine": {
+   "resistant": [
+    "Poison",
+    "Water",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Magic"
+   ]
+  },
+  "Exo Obelisk": {
+   "resistant": [
+    "Poison",
+    "Water",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Magic"
+   ]
+  },
+  "Exo Sentry": {
+   "resistant": [
+    "Poison",
+    "Water",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Magic"
+   ]
+  },
+  "Exo Sphere": {
+   "resistant": [
+    "Poison",
+    "Water",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Magic"
+   ]
+  },
+  "Exodygen": {
+   "resistant": [
+    "Water",
+    "Holy",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Slash"
+   ]
+  },
+  "Exoquartz": {
+   "resistant": [
+    "Cold",
+    "Poison",
+    "Unholy",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Slash",
+    "Magic"
+   ]
+  },
+  "Famine Slime": {
+   "resistant": [
+    "Poison"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Cold",
+    "Slash"
+   ]
+  },
+  "Fat Blighted Eye": {
+   "resistant": [],
+   "vulnerable": [
+    "Machine"
+   ]
+  },
+  "Fatal Circuit": {
+   "resistant": [
+    "Acid",
+    "Radioactive",
+    "Poison",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Water",
+    "Fire"
+   ]
+  },
+  "Fearless Goldfish Warrior": {
+   "resistant": [
+    "Poison",
+    "Water"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Fire",
+    "Machine"
+   ]
+  },
+  "Flak Crab": {
+   "resistant": [
+    "Poison",
+    "Water",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Stab",
+    "Machine"
+   ]
+  },
+  "Floating Biomass": {
+   "resistant": [
+    "Holy",
+    "Dark",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Slash",
+    "Cold",
+    "Fire",
+    "Machine"
+   ]
+  },
+  "Flounder": {
+   "resistant": [
+    "Poison",
+    "Water"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Slash"
+   ]
+  },
+  "Frigidemon": {
+   "resistant": [
+    "Cold",
+    "Unholy",
+    "Smash"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Fire"
+   ]
+  },
+  "Frogfish": {
+   "resistant": [
+    "Water",
+    "Holy"
+   ],
+   "vulnerable": [
+    "Poison",
+    "Cold"
+   ]
+  },
+  "Frost Hog": {
+   "resistant": [
+    "Cold"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Slash",
+    "Machine"
+   ]
+  },
+  "Frost Imp": {
+   "resistant": [
+    "Cold",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Holy"
+   ]
+  },
+  "Fusion Feeder": {
+   "resistant": [
+    "Magic",
+    "Fire",
+    "Poison",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Water"
+   ]
+  },
+  "Gamma Slime": {
+   "resistant": [
+    "Poison"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Slash",
+    "Stab"
+   ]
+  },
+  "Garon": {
+   "resistant": [
+    "Acid",
+    "Water",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Magic",
+    "Holy",
+    "Machine"
+   ]
+  },
+  "Ghost Bell": {
+   "resistant": [
+    "Water",
+    "Electricity"
+   ],
+   "vulnerable": [
+    "Poison",
+    "Cold",
+    "Slash"
+   ]
+  },
+  "Giant Clam": {
+   "resistant": [
+    "Cold",
+    "Water",
+    "Slash",
+    "Magic"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Poison",
+    "Machine"
+   ]
+  },
+  "Giant Skeleton": {
+   "resistant": [
+    "Poison"
+   ],
+   "vulnerable": []
+  },
+  "Giant Squid": {
+   "resistant": [
+    "Water",
+    "Dark",
+    "Stab"
+   ],
+   "vulnerable": [
+    "Poison",
+    "Cold",
+    "Machine"
+   ]
+  },
+  "Glacial Slime": {
+   "resistant": [
+    "Cold",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Fire",
+    "Smash"
+   ]
+  },
+  "Glitch": {
+   "resistant": [
+    "Unholy",
+    "Dark",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Water",
+    "Fire",
+    "Magic"
+   ]
+  },
+  "Glowflies": {
+   "resistant": [
+    "Holy",
+    "Dark",
+    "Unholy",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Water",
+    "Fire"
+   ]
+  },
+  "Gnasher": {
+   "resistant": [
+    "Poison",
+    "Slash",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Machine"
+   ]
+  },
+  "Godseeker, Yharim": {
+   "resistant": [
+    "Poison"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Magic",
+    "Water"
+   ]
+  },
+  "Goozma": {
+   "resistant": [
+    "Poison",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Slash"
+   ]
+  },
+  "Grand Thunder Cnidrion": {
+   "resistant": [
+    "Fire"
+   ],
+   "vulnerable": [
+    "Water",
+    "Slash"
+   ]
+  },
+  "Great Sand Shark": {
+   "resistant": [
+    "Fire",
+    "Slash",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Water",
+    "Cold"
+   ]
+  },
+  "Green Demon": {
+   "resistant": [
+    "Unholy",
+    "Magic",
+    "Stab"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Fire"
+   ]
+  },
+  "Green Phantom": {
+   "resistant": [
+    "Unholy",
+    "Poison",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Holy"
+   ]
+  },
+  "Hadarian": {
+   "resistant": [
+    "Poison",
+    "Magic",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Water",
+    "Stab"
+   ]
+  },
+  "Heat Spirit": {
+   "resistant": [
+    "Fire"
+   ],
+   "vulnerable": [
+    "Water",
+    "Cold"
+   ]
+  },
+  "Heavenly Ogsculite": {
+   "resistant": [
+    "Unholy",
+    "Dark",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Magic",
+    "Holy",
+    "Stab"
+   ]
+  },
+  "Hive Cyst": {
+   "resistant": [
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Holy"
+   ]
+  },
+  "Hive (Enemy)": {
+   "resistant": [
+    "Poison",
+    "Magic",
+    "Fire",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Water",
+    "Cold"
+   ]
+  },
+  "Hydrogen": {
+   "resistant": [
+    "Water",
+    "Unholy",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Magic",
+    "Cold"
+   ]
+  },
+  "Ice Clasper": {
+   "resistant": [
+    "Cold",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab"
+   ]
+  },
+  "Impious Immolator": {
+   "resistant": [
+    "Fire",
+    "Holy",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Water",
+    "Cold"
+   ]
+  },
+  "Ionogen": {
+   "resistant": [
+    "Water",
+    "Unholy",
+    "Electricity"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Magic"
+   ]
+  },
+  "Irradiated Slime": {
+   "resistant": [
+    "Poison"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Slash",
+    "Fire"
+   ]
+  },
+  "Jungle Dragon Yharon": {
+   "resistant": [
+    "Holy",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Magic",
+    "Dark",
+    "Machine"
+   ]
+  },
+  "King of Constellations, Tenryu": {
+   "resistant": [
+    "Fire",
+    "Water"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Cold"
+   ]
+  },
+  "La Ruga": {
+   "resistant": [
+    "Dark",
+    "Fire",
+    "Water",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Cold"
+   ]
+  },
+  "Laserfish": {
+   "resistant": [
+    "Holy",
+    "Water",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Poison",
+    "Machine"
+   ]
+  },
+  "Lav'e Rugamarius": {
+   "resistant": [
+    "Fire",
+    "Water",
+    "Poison",
+    "Magic",
+    "Stab",
+    "Dark",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Slash",
+    "Holy"
+   ]
+  },
+  "Lava Squid": {
+   "resistant": [
+    "Water",
+    "Dark",
+    "Stab"
+   ],
+   "vulnerable": [
+    "Poison",
+    "Cold",
+    "Machine"
+   ]
+  },
+  "Life Slime": {
+   "resistant": [
+    "Poison"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Slash",
+    "Machine"
+   ]
+  },
+  "Lizard": {
+   "resistant": [
+    "Slash"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Water",
+    "Fire"
+   ]
+  },
+  "Luminous Corvina": {
+   "resistant": [
+    "Water",
+    "Dark",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Poison",
+    "Machine"
+   ]
+  },
+  "Magnetostorm Shuttle": {
+   "resistant": [
+    "Poison",
+    "Cold",
+    "Electricity",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Water"
+   ]
+  },
+  "Mantis Shrimp": {
+   "resistant": [
+    "Water",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Poison",
+    "Machine"
+   ]
+  },
+  "Mantis": {
+   "resistant": [
+    "Magic",
+    "Poison",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Water",
+    "Cold",
+    "Fire"
+   ]
+  },
+  "Mastaba": {
+   "resistant": [
+    "Dark",
+    "Unholy",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Water"
+   ]
+  },
+  "Mauler": {
+   "resistant": [
+    "Poison",
+    "Water",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Machine"
+   ]
+  },
+  "Mechanical Leech": {
+   "resistant": [],
+   "vulnerable": [
+    "Holy",
+    "Fire"
+   ]
+  },
+  "Mechawyrm": {
+   "resistant": [
+    "Fire",
+    "Magic",
+    "Dark",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Stab"
+   ]
+  },
+  "Mega Flocko": {
+   "resistant": [
+    "Cold"
+   ],
+   "vulnerable": [
+    "Fire"
+   ]
+  },
+  "Melter": {
+   "resistant": [
+    "Poison"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Fire"
+   ]
+  },
+  "Metal Maw": {
+   "resistant": [],
+   "vulnerable": [
+    "Holy",
+    "Fire"
+   ]
+  },
+  "Mirage Jelly": {
+   "resistant": [
+    "Water",
+    "Dark",
+    "Holy",
+    "Electricity"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Stab",
+    "Machine"
+   ]
+  },
+  "Monstro": {
+   "resistant": [
+    "Unholy",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Slash",
+    "Water",
+    "Machine"
+   ]
+  },
+  "Moray Eel": {
+   "resistant": [
+    "Water",
+    "Dark",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Slash",
+    "Machine"
+   ]
+  },
+  "Mushroom Elemental": {
+   "resistant": [
+    "Poison",
+    "Water",
+    "Holy"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Cold",
+    "Unholy",
+    "Machine"
+   ]
+  },
+  "Mysterious Manager": {
+   "resistant": [
+    "Holy",
+    "Dark",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Fire"
+   ]
+  },
+  "Nightmare Burrower": {
+   "resistant": [
+    "Poison",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Magic",
+    "Cold"
+   ]
+  },
+  "Nihil, the Fathomless Seeker": {
+   "resistant": [
+    "Cold",
+    "Dark",
+    "Magic",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Holy",
+    "Unholy"
+   ]
+  },
+  "Nova": {
+   "resistant": [
+    "Magic",
+    "Poison",
+    "Fire",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Water",
+    "Slash"
+   ]
+  },
+  "Nuclear Terror": {
+   "resistant": [
+    "Radioactive",
+    "Fire",
+    "Dark",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Magic",
+    "Holy"
+   ]
+  },
+  "Nuclear Toad": {
+   "resistant": [
+    "Poison",
+    "Water"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Stab",
+    "Slash",
+    "Machine"
+   ]
+  },
+  "Ogsculian Burrower": {
+   "resistant": [
+    "Magic",
+    "Unholy",
+    "Holy",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Water",
+    "Fire",
+    "Cold",
+    "Stab",
+    "Slash"
+   ]
+  },
+  "Onyx Kinsman": {
+   "resistant": [
+    "Poison",
+    "Unholy",
+    "Slash",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Water",
+    "Stab",
+    "Machine"
+   ]
+  },
+  "Orthocera": {
+   "resistant": [
+    "Poison",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Slash",
+    "Cold",
+    "Magic",
+    "Machine"
+   ]
+  },
+  "Overloaded Soldier": {
+   "resistant": [
+    "Dark",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Stab",
+    "Water"
+   ]
+  },
+  "Oxygen": {
+   "resistant": [
+    "Cold",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Magic"
+   ]
+  },
+  "Pandora, the Hypnotized Witch": {
+   "resistant": [
+    "Fire",
+    "Unholy",
+    "Magic",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Poison",
+    "Holy",
+    "Radioactive",
+    "Acid",
+    "Stab"
+   ]
+  },
+  "Parasea": {
+   "resistant": [
+    "Poison",
+    "Water"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Slash",
+    "Machine"
+   ]
+  },
+  "Pathogen": {
+   "resistant": [
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Magic",
+    "Slash",
+    "Stab"
+   ]
+  },
+  "Perennial Slime": {
+   "resistant": [
+    "Poison",
+    "Holy"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Slash",
+    "Cold",
+    "Machine"
+   ]
+  },
+  "Perforator Cyst": {
+   "resistant": [
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Slash"
+   ]
+  },
+  "Pestilent Slime": {
+   "resistant": [
+    "Poison",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Magic"
+   ]
+  },
+  "Phantom Debris": {
+   "resistant": [
+    "Dark",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Fire",
+    "Stab",
+    "Water"
+   ]
+  },
+  "Phytogen": {
+   "resistant": [
+    "Water",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Magic",
+    "Machine"
+   ]
+  },
+  "Plague Charger": {
+   "resistant": [
+    "Poison",
+    "Slash",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Water",
+    "Magic"
+   ]
+  },
+  "Plague Emperor": {
+   "resistant": [
+    "Poison",
+    "Stab",
+    "Dark",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Water"
+   ]
+  },
+  "Plaguebringer": {
+   "resistant": [
+    "Poison",
+    "Slash",
+    "Dark",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Water"
+   ]
+  },
+  "Plagueshell": {
+   "resistant": [
+    "Cold",
+    "Poison",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Water",
+    "Magic",
+    "Smash"
+   ]
+  },
+  "Polterghast": {
+   "resistant": [
+    "Dark",
+    "Cold",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Slash"
+   ]
+  },
+  "Polyphemalus": {
+   "resistant": [
+    "Unholy",
+    "Magic"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Slash",
+    "Dark"
+   ]
+  },
+  "Poobis Prime": {
+   "resistant": [
+    "Poison",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Smash"
+   ]
+  },
+  "Primal Aspid": {
+   "resistant": [
+    "Poison",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Slash",
+    "Dark",
+    "Machine"
+   ]
+  },
+  "Primordial Rainbow Slime": {
+   "resistant": [
+    "Fire",
+    "Cold",
+    "Holy"
+   ],
+   "vulnerable": [
+    "Dark",
+    "Unholy"
+   ]
+  },
+  "Prism-Back": {
+   "resistant": [
+    "Slash",
+    "Water",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Poison"
+   ]
+  },
+  "Profaned Energy": {
+   "resistant": [
+    "Fire",
+    "Holy",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Water",
+    "Cold"
+   ]
+  },
+  "Profusion, the Viral God": {
+   "resistant": [
+    "Poison",
+    "Water",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Slash",
+    "Machine"
+   ]
+  },
+  "Providence, the Profaned Goddess": {
+   "resistant": [
+    "Holy",
+    "Fire",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Magic",
+    "Unholy"
+   ]
+  },
+  "Provig": {
+   "resistant": [
+    "Fire",
+    "Magic",
+    "Holy"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Unholy"
+   ]
+  },
+  "Province Pilferer": {
+   "resistant": [
+    "Dark",
+    "Cold",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Holy",
+    "Water",
+    "Machine"
+   ]
+  },
+  "Purgatory Arbiter, Umbrus": {
+   "resistant": [
+    "Dark",
+    "Unholy",
+    "Magic",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Stab"
+   ]
+  },
+  "Pyrogen": {
+   "resistant": [
+    "Cold",
+    "Unholy",
+    "Magic",
+    "Slash",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Water",
+    "Stab",
+    "Smash"
+   ]
+  },
+  "R.OST": {
+   "resistant": [
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Stab",
+    "Smash",
+    "Holy"
+   ]
+  },
+  "Radiator": {
+   "resistant": [
+    "Poison",
+    "Water"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Slash",
+    "Fire"
+   ]
+  },
+  "Reaper Shark": {
+   "resistant": [
+    "Dark",
+    "Water",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab",
+    "Unholy",
+    "Machine"
+   ]
+  },
+  "Rotdog": {
+   "resistant": [],
+   "vulnerable": [
+    "Machine"
+   ]
+  },
+  "Sand Tortoise": {
+   "resistant": [],
+   "vulnerable": [
+    "Machine",
+    "Smash"
+   ]
+  },
+  "Sea Floaty": {
+   "resistant": [],
+   "vulnerable": [
+    "Machine"
+   ]
+  },
+  "Sea Urchin": {
+   "resistant": [
+    "Poison"
+   ],
+   "vulnerable": [
+    "Machine"
+   ]
+  },
+  "Serial Designation N": {
+   "resistant": [
+    "Stab",
+    "Slash",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Water",
+    "Magic",
+    "Smash"
+   ]
+  },
+  "Shockstorm Shuttle": {
+   "resistant": [
+    "Electricity",
+    "Machine"
+   ],
+   "vulnerable": []
+  },
+  "Side Mollusk": {
+   "resistant": [
+    "Magic",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab"
+   ]
+  },
+  "Sigmund": {
+   "resistant": [
+    "Magic",
+    "Dark",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Cold"
+   ]
+  },
+  "Signus, Envoy of the Devourer": {
+   "resistant": [
+    "Magic",
+    "Dark",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Cold"
+   ]
+  },
+  "Skyfin": {
+   "resistant": [
+    "Radioactive",
+    "Water",
+    "Wind"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Machine"
+   ]
+  },
+  "Soul of the Eternal Intellect of Infinite Verboten Knowledge": {
+   "resistant": [
+    "Cold",
+    "Poison",
+    "Magic"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Unholy"
+   ]
+  },
+  "Starborn Princess": {
+   "resistant": [
+    "Holy",
+    "Magic",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Unholy"
+   ]
+  },
+  "Stellar Culex": {
+   "resistant": [
+    "Machine"
+   ],
+   "vulnerable": []
+  },
+  "Storm Weaver": {
+   "resistant": [
+    "Magic",
+    "Cold",
+    "Water",
+    "Electricity"
+   ],
+   "vulnerable": [
+    "Stab"
+   ]
+  },
+  "Stormlion": {
+   "resistant": [
+    "Electricity"
+   ],
+   "vulnerable": [
+    "Machine"
+   ]
+  },
+  "Sulphurous Skater": {
+   "resistant": [
+    "Acid",
+    "Poison",
+    "Radioactive"
+   ],
+   "vulnerable": [
+    "Machine"
+   ]
+  },
+  "Sun Bat": {
+   "resistant": [],
+   "vulnerable": [
+    "Machine"
+   ]
+  },
+  "Sunskater": {
+   "resistant": [],
+   "vulnerable": [
+    "Machine"
+   ]
+  },
+  "Supreme Calamitas": {
+   "resistant": [
+    "Fire",
+    "Dark",
+    "Unholy"
+   ],
+   "vulnerable": [
+    "Cold",
+    "Water",
+    "Stab",
+    "Holy"
+   ]
+  },
+  "Tempest Toddler": {
+   "resistant": [
+    "Water",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Fire",
+    "Machine"
+   ]
+  },
+  "The Cauldron": {
+   "resistant": [
+    "Unholy",
+    "Dark",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Water"
+   ]
+  },
+  "The Derellect": {
+   "resistant": [
+    "Cold",
+    "Poison",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Water",
+    "Fire",
+    "Smash"
+   ]
+  },
+  "The Fallen Ascended Master, Xeroc": {
+   "resistant": [
+    "Unholy",
+    "Holy",
+    "Poison",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Slash"
+   ]
+  },
+  "The Forbidden Lantern": {
+   "resistant": [
+    "Holy",
+    "Water",
+    "Cold",
+    "Magic"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Smash",
+    "Bomb"
+   ]
+  },
+  "The Hive Mind": {
+   "resistant": [
+    "Unholy",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Holy"
+   ]
+  },
+  "The Magnificent Lightning Avian": {
+   "resistant": [
+    "Holy",
+    "Fire",
+    "Electricity"
+   ],
+   "vulnerable": [
+    "Magic",
+    "Dark",
+    "Machine"
+   ]
+  },
+  "The Plaguebringer Goliath": {
+   "resistant": [
+    "Poison",
+    "Slash",
+    "Dark",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Water",
+    "Smash"
+   ]
+  },
+  "The Rot": {
+   "resistant": [
+    "Fire",
+    "Water",
+    "Magic",
+    "Slash"
+   ],
+   "vulnerable": []
+  },
+  "The Starborn Moth": {
+   "resistant": [
+    "Fire",
+    "Magic",
+    "Holy"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Unholy"
+   ]
+  },
+  "The Unimaginable Deity, Yald'xoroath": {
+   "resistant": [
+    "Holy",
+    "Unholy",
+    "Dark",
+    "Cold",
+    "Acid",
+    "Water"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Slash",
+    "Fire",
+    "Wind"
+   ]
+  },
+  "The Wall of Bronze": {
+   "resistant": [
+    "Slash",
+    "Stab",
+    "Fire",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Smash",
+    "Water",
+    "Electricity"
+   ]
+  },
+  "Toxic Minnow": {
+   "resistant": [],
+   "vulnerable": [
+    "Machine"
+   ]
+  },
+  "Trasher": {
+   "resistant": [],
+   "vulnerable": [
+    "Machine"
+   ]
+  },
+  "Trilobite": {
+   "resistant": [],
+   "vulnerable": [
+    "Machine",
+    "Smash"
+   ]
+  },
+  "Twisted Tyrant, Bizhaarim": {
+   "resistant": [
+    "Cold",
+    "Poison",
+    "Holy"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Unholy",
+    "Magic",
+    "Machine"
+   ]
+  },
+  "Viperfish": {
+   "resistant": [],
+   "vulnerable": [
+    "Machine"
+   ]
+  },
+  "Viruling": {
+   "resistant": [],
+   "vulnerable": [
+    "Smash"
+   ]
+  },
+  "Vision of the Tyrant": {
+   "resistant": [
+    "Poison"
+   ],
+   "vulnerable": [
+    "Water",
+    "Holy"
+   ]
+  },
+  "Void Hydra": {
+   "resistant": [
+    "Water",
+    "Cold",
+    "Acid",
+    "Wind"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Fire"
+   ]
+  },
+  "Volcanic Reaper Shark": {
+   "resistant": [
+    "Fire",
+    "Stab",
+    "Unholy",
+    "Dark",
+    "Cold"
+   ],
+   "vulnerable": [
+    "Water"
+   ]
+  },
+  "Wulfrum Drone": {
+   "resistant": [
+    "Machine"
+   ],
+   "vulnerable": [
+    "Smash"
+   ]
+  },
+  "Wulfrum Gyrator": {
+   "resistant": [
+    "Machine"
+   ],
+   "vulnerable": [
+    "Smash"
+   ]
+  },
+  "Wulfrum Hovercraft": {
+   "resistant": [
+    "Machine"
+   ],
+   "vulnerable": [
+    "Smash"
+   ]
+  },
+  "Wulfrum Mine": {
+   "resistant": [
+    "Machine"
+   ],
+   "vulnerable": [
+    "Smash"
+   ]
+  },
+  "Wulfrum Pylon": {
+   "resistant": [
+    "Machine"
+   ],
+   "vulnerable": [
+    "Smash"
+   ]
+  },
+  "Wulfrum Rover": {
+   "resistant": [
+    "Machine"
+   ],
+   "vulnerable": [
+    "Smash"
+   ]
+  },
+  "Wulfrum Slime": {
+   "resistant": [
+    "Machine",
+    "Smash"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Slash"
+   ]
+  },
+  "XB-10 HuY": {
+   "resistant": [
+    "Machine",
+    "Smash",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Stab",
+    "Water",
+    "Fire"
+   ]
+  },
+  "XC-39 \"Oizys\"": {
+   "resistant": [
+    "Fire",
+    "Unholy",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Magic"
+   ]
+  },
+  "XP-00 Hypnos": {
+   "resistant": [
+    "Cold",
+    "Poison",
+    "Magic",
+    "Machine"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Unholy"
+   ]
+  },
+  "Yharim Worm": {
+   "resistant": [
+    "Unholy"
+   ],
+   "vulnerable": []
+  },
+  "Youkai Miko": {
+   "resistant": [
+    "Holy",
+    "Magic",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Unholy"
+   ]
+  },
+  "???": {
+   "resistant": [
+    "Water",
+    "Cold",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Poison",
+    "Slash"
+   ]
+  }
+ },
+ "aliases": {
+  "Providence, the Profaned Goddess": [
+   "A Profaned Guardian",
+   "Holy Inferno",
+   "Icarus' Folly",
+   "Profaned Guardian (Defense)",
+   "Profaned Guardian (Healer)",
+   "Profaned Guardian (Offense)",
+   "Providence",
+   "Providence, the Profaned God",
+   "Providence"
+  ],
+  "Anti-materiel Rifle": [
+   "AMR"
+  ],
+  "The Absorber": [
+   "Absorber"
+  ],
+  "Abyssal Mirror": [
+   "Abyssal Evade Cooldown"
+  ],
+  "Incandescent Nox": [
+   "Abyssal Incandescence"
+  ],
+  "Elemental Disk": [
+   "Accretion Disk",
+   "Elemental Disk (Melee)",
+   "Elemental Disk (Rogue)",
+   "Elemental Disk (Throwing)"
+  ],
+  "XP-00 Hypnos": [
+   "Aergia Neuron",
+   "Hypnos",
+   "XP-00 Hypnos Aergia Neuron",
+   "XP-00 Hypnos Plug"
+  ],
+  "The Amalgam": [
+   "Amalgam"
+  ],
+  "Pearl of Enthrallment": [
+   "Anahita (buff)",
+   "Lure of Enthrallment",
+   "Siren Lure (buff)",
+   "Siren Lure"
+  ],
+  "Anahita's Arpeggio": [
+   "Anahita's Song",
+   "Siren's Song"
+  ],
+  "Death Whistle": [
+   "Ancient Medallion"
+  ],
+  "Forgotten Apex Wand": [
+   "Ancient Mineral Shark (buff)",
+   "Ancient Mineral Shark"
+  ],
+  "Flamsteed Ring": [
+   "Andromeda Cripple",
+   "Andromeda (buff)",
+   "Andromeda"
+  ],
+  "Yharon's Kindle Staff": [
+   "Angry Chicken Staff",
+   "Angry Chicken",
+   "Fiery Draconid"
+  ],
+  "Ark of the Cosmos": [
+   "AotC"
+  ],
+  "Ark of the Elements": [
+   "AotE"
+  ],
+  "Aquatic Heart": [
+   "Aquatic Heart (buff)",
+   "Ice Shield Cooldown",
+   "Ice Shield (buff)",
+   "Ocean's Blessing",
+   "Siren (Blue)",
+   "Siren (buff)",
+   "Siren's Heart",
+   "Water Elemental (buff)"
+  ],
+  "Aquatic Scourge": [
+   "Aquatic Scourge Body",
+   "Aquatic Scourge Head",
+   "Aquatic Scourge Tail"
+  ],
+  "Aquatic Seeker": [
+   "Aquatic Seeker Body",
+   "Aquatic Seeker Head",
+   "Aquatic Seeker Tail"
+  ],
+  "Deepsea Staff": [
+   "Aquatic Star (buff)"
+  ],
+  "Ares' Exoskeleton": [
+   "Ares' Cannons"
+  ],
+  "Armored Digger": [
+   "Armored Digger Body",
+   "Armored Digger Head",
+   "Armored Digger Tail"
+  ],
+  "Goozma": [
+   "Asgeliath Vassal",
+   "Crimglop Vassal",
+   "Crimuwular Slom",
+   "Divingoop Vassal",
+   "Ebonmuck Vassal",
+   "Gelrrupt Palagel",
+   "Glurpy Glop",
+   "Gragathoth"
+  ],
+  "Abandoned Slime Staff": [
+   "Astral Jelly (buff)"
+  ],
+  "Godspawn Helix Staff": [
+   "Astral Probe (buff)"
+  ],
+  "Astral Bow": [
+   "Astral Repeater"
+  ],
+  "The Atom Splitter": [
+   "Atom Splitter"
+  ],
+  "Corpus Avertor": [
+   "Avertor Bonus",
+   "Corpus Avertor (Melee)",
+   "Corpus Avertor (Rogue)"
+  ],
+  "Scab Ripper": [
+   "Baby Blood Crawler (buff)"
+  ],
+  "Stormjaw Staff": [
+   "Baby Stormlion (buff)"
+  ],
+  "Drataliornus": [
+   "Backfire"
+  ],
+  "Angelic Alliance": [
+   "Banishing Fire",
+   "Divine Bless Cooldown",
+   "Divine Bless",
+   "Divine Recharge"
+  ],
+  "The Hive": [
+   "Bee RPG",
+   "Goliath Rocket",
+   "Hive Bomb",
+   "Hive Missile"
+  ],
+  "Belladonna Spirit Staff": [
+   "Belladonna Spirit (buff)",
+   "Belladonna Staff"
+  ],
+  "Temporal Umbrella": [
+   "Ben's Umbrella",
+   "Magic Hat (buff)",
+   "Magic Hat (minion)"
+  ],
+  "Black Hawk Remote": [
+   "Black Hawk (buff)"
+  ],
+  "Defective Sphere": [
+   "Bladed Spheres",
+   "Blue Thruster Spheres",
+   "Spiked Spheres",
+   "Yellow Thruster Spheres"
+  ],
+  "Bladedge Railbow": [
+   "Bladedge Greatbow"
+  ],
+  "Entropy's Vigil": [
+   "Blighted Eye Staff",
+   "Blighted Eyes (buff)"
+  ],
+  "Blood Clot Staff": [
+   "Blood Clot (buff)"
+  ],
+  "Dormant Brimseeker": [
+   "Brimseeker (buff)"
+  ],
+  "Rose Stone": [
+   "Brimstone Elemental (buff)",
+   "Brimstone Waifu (buff)",
+   "Miss Brimmy (buff)"
+  ],
+  "Havoc's Breath": [
+   "Brimstone Flamesprayer"
+  ],
+  "Seabound Staff": [
+   "Brittle Star (buff)"
+  ],
+  "The Wall of Bronze": [
+   "Bronze Claw",
+   "Bronze Laser",
+   "Bronze Turret",
+   "Wall of Bronze Face",
+   "Wall of Bronze"
+  ],
+  "The Burning Sky": [
+   "Burning Sky"
+  ],
+  "Calamari's Lament": [
+   "Calamari (buff)"
+  ],
+  "Calamitas": [
+   "Calamitas Clone",
+   "Calamitas Doppelganger",
+   "Calamitas2",
+   "Cataclysm",
+   "Catastrophe",
+   "Clonelamitas"
+  ],
+  "Lashes of Chaos": [
+   "Calamitas' Inferno"
+  ],
+  "Brimstone Elemental": [
+   "Calamity Elemental"
+  ],
+  "Void of Calamity": [
+   "Calamity Ring"
+  ],
+  "Howl's Heart": [
+   "Calcifier",
+   "Howl",
+   "Howl's Heart (buff)",
+   "Turnip-Head"
+  ],
+  "Caustic Staff": [
+   "Caustic Dragon (buff)"
+  ],
+  "Empyreon": [
+   "Celestial Energy"
+  ],
+  "Starborn Princess": [
+   "Celestial"
+  ],
+  "Fault Line": [
+   "Chaotrix"
+  ],
+  "Chilled Soda Blade": [
+   "Chilled Soda Rapier"
+  ],
+  "Cinder Blossom Staff": [
+   "Cinder Blossom (buff)",
+   "Cinder Blossom"
+  ],
+  "Giant Clam": [
+   "Clamity"
+  ],
+  "Snap Clam": [
+   "Clammed"
+  ],
+  "Eye of the Storm": [
+   "Cloud Elemental (buff)",
+   "Cloudy Waifu (buff)",
+   "Cloudy Waifu",
+   "Miss Cloudy (buff)"
+  ],
+  "Cold Divinity": [
+   "Cold Divinity (buff)"
+  ],
+  "Void Concentration Staff": [
+   "Concentrated Void"
+  ],
+  "Corroslime Staff": [
+   "Corro Slime (buff)"
+  ],
+  "Corrupt Slime Spawn": [
+   "Corrupt Slime Spawn (Without Wings)"
+  ],
+  "Cosmic Immaterializer": [
+   "Cosmic Energy (buff)"
+  ],
+  "Cosmic Discharge": [
+   "Cosmic Freeze"
+  ],
+  "Signus, Envoy of the Devourer": [
+   "Cosmic Lantern",
+   "Cosmic Mine",
+   "Signus",
+   "Sigmus, Envoy of the Devourer"
+  ],
+  "Cosmic Viper Engine": [
+   "Cosmic Viper (buff)"
+  ],
+  "Cosmilamp": [
+   "Cosmilamp (buff)"
+  ],
+  "Crabulon": [
+   "Crab Shroom"
+  ],
+  "Crimslime Staff": [
+   "Crim slime (buff)",
+   "Crim slime (buff)"
+  ],
+  "Cryogen": [
+   "Cryogen's Shield"
+  ],
+  "Gluelic Blade": [
+   "Cutter's Gift"
+  ],
+  "Daedalus Golem Staff": [
+   "Daedalus Golem (buff)",
+   "Daedalus Golem"
+  ],
+  "The Dance of Light": [
+   "Dance of Light"
+  ],
+  "Dank Staff": [
+   "Dank Creeper (buff)",
+   "Dank Creeper (minion)"
+  ],
+  "The Hive Mind": [
+   "Dank Creeper",
+   "Dark Heart",
+   "Hive Blob",
+   "Hive Mind"
+  ],
+  "Cruel Jewel": [
+   "Dark Spark"
+  ],
+  "Dazzling Stabber Staff": [
+   "Dazzling Stabber (buff)"
+  ],
+  "Depth Crusher": [
+   "Depth Blade"
+  ],
+  "The Derellect": [
+   "Derellect Plug",
+   "Derellect",
+   "Signal Drone"
+  ],
+  "Tempest Toddler": [
+   "Draconic Swarmer"
+  ],
+  "Pulse Rifle": [
+   "Draedon's Pulse Rifle"
+  ],
+  "Disgusting Creature: Dron": [
+   "Dron"
+  ],
+  "Wave Skipper": [
+   "Dune Hopper"
+  ],
+  "Eclipse Mirror": [
+   "Eclipse Evade Cooldown"
+  ],
+  "Edgeterrence": [
+   "Edgeterrance"
+  ],
+  "Elemental Axe": [
+   "Elemental Axe (buff)"
+  ],
+  "Elemental Saw Launcher": [
+   "Elemental Blaster",
+   "Elemental Shredder"
+  ],
+  "Empyrean Knives": [
+   "Empyrean Knives (Melee)",
+   "Empyrean Knives (Rogue)",
+   "Empyrean Knives (Throwing)"
+  ],
+  "Endogenesis": [
+   "Endo Cooper (buff)",
+   "Endo Cooper"
+  ],
+  "Endo Hydra Staff": [
+   "Endo Hydra (buff)"
+  ],
+  "Lion Heart": [
+   "Energy Shell Cooldown"
+  ],
+  "The Enforcer": [
+   "Enforcer"
+  ],
+  "Eradicator": [
+   "Eradicator (Melee)"
+  ],
+  "Ethereal Subjugator": [
+   "Ethereal Subjucator",
+   "Phantom (buff)",
+   "Phantom (minion)"
+  ],
+  "The Evolution": [
+   "Evolution"
+  ],
+  "Metastasis": [
+   "Exhumed Brimstone Heart",
+   "Sepulcher (buff)"
+  ],
+  "Exoblade": [
+   "Exo Blade"
+  ],
+  "Side Mollusk": [
+   "Exodium Mollusk"
+  ],
+  "Vulcanite Lance": [
+   "Exsanguination Lance"
+  ],
+  "Eye of Night": [
+   "Eye of Night (buff)"
+  ],
+  "Flame-Licked Shell": [
+   "Fabled Tortoise Shell"
+  ],
+  "Fallen Paladin's Hammer": [
+   "Fallen Paladin's Hammer (Melee)",
+   "Fallen Paladin's Hammer (Rogue)",
+   "True Paladin's Hammer"
+  ],
+  "The Final Dawn": [
+   "Final Dawn"
+  ],
+  "Luminous Corvina": [
+   "Fish Alert"
+  ],
+  "Subduction Slicer": [
+   "Flame Scythe (Melee)",
+   "Flame Scythe (Rogue)",
+   "Flame Scythe (Throwing)",
+   "Flame Scythe",
+   "Subduction Slicer (Melee)",
+   "Subduction Slicer (Rogue)"
+  ],
+  "Seismic Hampick": [
+   "Flamebeak Hampick"
+  ],
+  "Flesh of Infidelity": [
+   "Flesh Ball (buff)",
+   "Flesh Ball"
+  ],
+  "Flowers of Mortality": [
+   "Flowers of Mortality (buff)"
+  ],
+  "Frost Blossom Staff": [
+   "Frost Blossom (buff)",
+   "Frost Blossom"
+  ],
+  "Great Sand Shark": [
+   "GSS"
+  ],
+  "Galactus Blade": [
+   "Galactica Blade"
+  ],
+  "Galaxy Smasher": [
+   "Galaxy Smasher (Melee)",
+   "Galaxy Smasher (Rogue)"
+  ],
+  "Biofusillade": [
+   "Gamma Fusillade"
+  ],
+  "Gamma Heart": [
+   "Gamma Hydra (buff)"
+  ],
+  "Gastric Belcher Staff": [
+   "Gastric Abberation",
+   "Gastric Aberration (buff)"
+  ],
+  "Gladiator's Locket": [
+   "Gladiator Swords (buff)",
+   "Gladiator Swords"
+  ],
+  "The God's Gambit": [
+   "God's Gambit"
+  ],
+  "Dart Sun": [
+   "Godterminal Infernatory Blaster"
+  ],
+  "Grax": [
+   "Grax Boost"
+  ],
+  "Continental Greatbow": [
+   "Greatbow of Turmoil"
+  ],
+  "Hallowed Rune": [
+   "Hallowed Defense",
+   "Hallowed Power",
+   "Hallowed Regen"
+  ],
+  "Haunted Scroll": [
+   "Haunted Dishes (buff)"
+  ],
+  "Heart of the Elements": [
+   "Heart of the Elements (buff)",
+   "HoTE"
+  ],
+  "XB-∞ Hekate": [
+   "Hekate"
+  ],
+  "Divine Intervention": [
+   "Hell Judgement",
+   "Holy Flame"
+  ],
+  "Magical Conch": [
+   "Hermit Crab (buff)"
+  ],
+  "Herring Staff": [
+   "Herring (buff)"
+  ],
+  "Ancient Ice Chunk": [
+   "Ice Clasper (Buff)"
+  ],
+  "Igneous Exaltation": [
+   "Igneous Blade (buff)",
+   "Igneous Blade"
+  ],
+  "Illustrious Knives": [
+   "Illustrious Knives (Melee)",
+   "Illustrious Knives (Rogue)",
+   "Illustrious Knives (Throwing)",
+   "Royal Knives"
+  ],
+  "Wrathwing": [
+   "Infernal Spear",
+   "Profaned Trident"
+  ],
+  "Ink Bomb": [
+   "Ink Bomb Cooldown"
+  ],
+  "The Jailor": [
+   "Jailor"
+  ],
+  "Yanmei's Knife": [
+   "Kami Flu",
+   "Kami Injection"
+  ],
+  "Elemental in a Bottle": [
+   "Lady in a Bottle",
+   "Miss Sandy (buff)",
+   "Sand Elemental (buff)",
+   "Sandy Waifu (buff)",
+   "Waifu in a Bottle"
+  ],
+  "The Last Mourning": [
+   "Last Mourning"
+  ],
+  "Lifehunt Scythe": [
+   "Lifefruit Scythe"
+  ],
+  "Aetherial Guardian, Olistene": [
+   "Light Cluster",
+   "Light Floater",
+   "Light Pod",
+   "Light Portal",
+   "Light Slime"
+  ],
+  "Garnet": [
+   "Malachite"
+  ],
+  "Mangrove Chakram": [
+   "Mangrove Chakram (Melee)",
+   "Mangrove Chakram (Rogue)",
+   "Mangrove Chakram (Throwing)"
+  ],
+  "Marnite Bayonet": [
+   "Marnite Rifle Spear"
+  ],
+  "Staff of the Mechworm": [
+   "Mechworm (buff)",
+   "Mechworm"
+  ],
+  "Voidragon": [
+   "Megafleet"
+  ],
+  "Blight Spewer": [
+   "Mephetic Sprayer"
+  ],
+  "The Microwave": [
+   "Microwave"
+  ],
+  "Midnight Sun Beacon": [
+   "Midnight Sun UFO (buff)"
+  ],
+  "Mutated Truffle": [
+   "Mini Old Duke (buff)"
+  ],
+  "Fuel Cell Bundle": [
+   "Mini Plaguebringer (buff)"
+  ],
+  "Deathstare Rod": [
+   "Miniature Eye of Cthulhu (buff)",
+   "Miniature Eye of Cthulhu"
+  ],
+  "Vesuvius": [
+   "Molten"
+  ],
+  "Monkey Darts": [
+   "Monkey Dart"
+  ],
+  "Mounted Scanner": [
+   "Mounted Scanner (buff)"
+  ],
+  "Graydron": [
+   "Murasama"
+  ],
+  "Acidsighter": [
+   "Mutated Eye"
+  ],
+  "The Mutilator": [
+   "Mutilator"
+  ],
+  "Nanoblack Reaper": [
+   "Nanoblack Reaper (Melee)",
+   "Nanoblack Reaper (Rogue)"
+  ],
+  "Polterghast": [
+   "Necroghast",
+   "Necroplasm",
+   "Phantom",
+   "Polterghast Hook",
+   "Polterghast (Clone)",
+   "Poltergaster"
+  ],
+  "Nettlevine Greatbow": [
+   "Nettleline Greatbow"
+  ],
+  "Lacerator": [
+   "Not Viable",
+   "Viable?"
+  ],
+  "The Obliterator": [
+   "Obliterator"
+  ],
+  "Exodygen": [
+   "Omega Sighter"
+  ],
+  "The Oracle": [
+   "Oracle"
+  ],
+  "The Plaguebringer Goliath": [
+   "PBG",
+   "Plague Homing Missile",
+   "Plague Mine",
+   "Plaguebringer Goliath"
+  ],
+  "Consequences of Power": [
+   "PW-MK1 (buff)"
+  ],
+  "Cobadium Rifle": [
+   "Palladium Dartshooter"
+  ],
+  "Perdition": [
+   "Perdition (buff)"
+  ],
+  "Phantomic Soul Artifact": [
+   "Phantomic Artifact",
+   "Phantomic Empowerment",
+   "Phantomic Regen",
+   "Phantomic Shield"
+  ],
+  "Rotdog": [
+   "Pitbull"
+  ],
+  "Plague Charger": [
+   "Plague Bee"
+  ],
+  "Infected Remote": [
+   "Plague Elemental (buff)",
+   "Virili (buff)"
+  ],
+  "Plaguebringer": [
+   "Plaguebringer Shade"
+  ],
+  "Plantation Staff": [
+   "Plantation"
+  ],
+  "Polaris Parrotfish": [
+   "Polaris Boost"
+  ],
+  "Pole Warper": [
+   "Pole Warper (buff)"
+  ],
+  "Pristine Annihilation": [
+   "Pristine Fury"
+  ],
+  "Brimstone Sword": [
+   "Profaned Sword"
+  ],
+  "Puff Shroom": [
+   "Puff Warrior (buff)"
+  ],
+  "Pwnagehammer": [
+   "Pwnagehammer (Melee)",
+   "Pwnagehammer (Rogue)",
+   "Pwnagehammer (Throwing)"
+  ],
+  "Rancor": [
+   "Rancor Burn"
+  ],
+  "Corvid Harbinger Staff": [
+   "Raven (buff)"
+  ],
+  "Reefclaw Hamaxe": [
+   "Reefclaw Axe"
+  ],
+  "Resurrection Butterfly": [
+   "Resurrection Butterfly (buff)"
+  ],
+  "Wulfrum Rover": [
+   "Rover"
+  ],
+  "Rusty Beacon Prototype": [
+   "Rusty Drone (buff)"
+  ],
+  "Sulphuric Acid Cannon": [
+   "SAC"
+  ],
+  "Supreme Calamitas": [
+   "SCal",
+   "Supreme Calamitas Phase 2",
+   "Supreme Witch, Calamitas"
+  ],
+  "Subsuming Vortex": [
+   "SSV"
+  ],
+  "Viral Sprout": [
+   "Sage Poison",
+   "Sage Spirit (buff)",
+   "Sage Spirit"
+  ],
+  "Sand Sharknado Staff": [
+   "Sandnado (buff)"
+  ],
+  "Saros Possession": [
+   "Saros Possession (buff)"
+  ],
+  "La Ruga": [
+   "Scorinfestation"
+  ],
+  "Scourge of the Cosmos": [
+   "Scourge of the Cosmos (Melee)",
+   "Scourge of the Cosmos (Rogue)",
+   "Scourge of the Cosmos (Throwing)"
+  ],
+  "Seashell Boomerang": [
+   "Seashell Boomerang (Melee)",
+   "Seashell Boomerang (Rogue)",
+   "Seashell Boomerang (Throwing)"
+  ],
+  "Shadecrystal Barrage": [
+   "Shadecrystal Tome"
+  ],
+  "Shellfish Staff": [
+   "Shellfish Claps",
+   "Shellfish (buff)"
+  ],
+  "Soma Prime": [
+   "Shred",
+   "THIS WEAPON IS A REFERENCE TO WARFRAME OH MAH GAWD"
+  ],
+  "Sirius": [
+   "Sirius (buff)"
+  ],
+  "Dragonblood Disgorger": [
+   "Skeletal Dragons (buff)"
+  ],
+  "Staff of Necrosteocytes": [
+   "Small Skeleton (buff)"
+  ],
+  "Snake Eyes": [
+   "Snake Eyes (buff)"
+  ],
+  "Sun God Staff": [
+   "Solar God Spirit (buff)"
+  ],
+  "Sun Spirit Staff": [
+   "Solar Spirit (buff)"
+  ],
+  "Vigilance": [
+   "Soul Seeker (buff)"
+  ],
+  "SDFMG": [
+   "Space Duke Fishron Machine Gun"
+  ],
+  "Elemental Lance": [
+   "Spatial Lance"
+  ],
+  "The Sponge": [
+   "Sponge"
+  ],
+  "Squirrel Squire Staff": [
+   "Squirrel Squire (buff)"
+  ],
+  "Star Swallower Containment Unit": [
+   "Star Swallower (buff)",
+   "Star Swallower"
+  ],
+  "The Starborn Moth": [
+   "Starborn Moth"
+  ],
+  "Eidolon Staff": [
+   "Stardust Staff"
+  ],
+  "Statis' Void Sash": [
+   "Statis' Belt of Curses"
+  ],
+  "Stellar Contempt": [
+   "Stellar Contempt (Melee)",
+   "Stellar Contempt (Rogue)"
+  ],
+  "Storm Weaver": [
+   "Storm Weaver Body (Naked)",
+   "Storm Weaver Body",
+   "Storm Weaver Head",
+   "Storm Weaver Tail (Naked)",
+   "Storm Weaver Tail",
+   "Storm Weaver (Naked)"
+  ],
+  "Helios Partisan": [
+   "Sunscreamed"
+  ],
+  "SHPC": [
+   "Super Heated Plasma Cannon"
+  ],
+  "The Swarmer": [
+   "Swarmer"
+  ],
+  "Aetherflux Cannon": [
+   "T1000"
+  ],
+  "The Verboten One": [
+   "TVO",
+   "Verboten One"
+  ],
+  "Tactical Plague Engine": [
+   "Tactical Plague Engine (buff)"
+  ],
+  "The Magnificent Lightning Avian": [
+   "The Dragonfolly"
+  ],
+  "God's Bellows": [
+   "The Empyrean"
+  ],
+  "Oblivion": [
+   "The Eye of Calamitas"
+  ],
+  "The Otherside": [
+   "The Gateway"
+  ],
+  "The Forbidden Lantern": [
+   "The Shadow Shatter"
+  ],
+  "Time Bolt": [
+   "Time Distortion"
+  ],
+  "Triactis' True Paladinian Mage-Hammer of Might": [
+   "Triactis' True Paladinian Mage-Hammer of Might (Melee)",
+   "Triactis' True Paladinian Mage-Hammer of Might (Rogue)",
+   "Triactis' True Paladinian Mage-Hammer of Might (Throwing)"
+  ],
+  "Ark of the Ancients": [
+   "True Ark of the Ancients"
+  ],
+  "Tundra Flame Blossoms Staff": [
+   "Tundra Flame Blossom (buff)",
+   "Tundra Flame Blossom"
+  ],
+  "Purgatory Arbiter, Umbrus": [
+   "Umbrus"
+  ],
+  "Universe Splitter": [
+   "Universe Splitter Cooldown"
+  ],
+  "Vile Feeder": [
+   "Vile Feeder (buff)"
+  ],
+  "Virulence": [
+   "Virulent Katana"
+  ],
+  "Void of Extinction": [
+   "VoE"
+  ],
+  "Wither Blossoms Staff": [
+   "Wither Blossoms"
+  ],
+  "Rem's Revenge": [
+   "Wither"
+  ],
+  "Wulfrum Controller": [
+   "Wulfrum Droid (buff)"
+  ],
+  "Entropic Claymore": [
+   "Xeroc Greatsword"
+  ],
+  "Shard of Antumbra": [
+   "Xeroc Pitchfork"
+  ],
+  "Catfish (enemy)": [
+   "Catfish"
+  ],
+  "Crown Jewel (enemy)": [
+   "Crown Jewel"
+  ],
+  "Grand Thunder Cnidrion": [
+   "George Floyd"
+  ],
+  "Hive (Enemy)": [
+   "Hive"
+  ],
+  "Jungle Dragon Yharon": [
+   "Jungle Dragon, Yharon"
+  ],
+  "Mysterious Manager": [
+   "Wing Ding Gaster"
+  ],
+  "The Fallen Ascended Master, Xeroc": [
+   "Ascended Master, Xeroc"
+  ]
+ }
+}
