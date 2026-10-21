@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using CalamityMod.NPCs;
 using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Content;
 using Terraria;
@@ -45,11 +47,33 @@ namespace CalamityFandom.Common.WikiData
                     Mod.Logger.Warn($"Texture de remplacement sans cible dans Calamity : {file}");
                     continue;
                 }
+                string path = $"CalamityFandom/{Root}{kind}/{cls}";
                 replaced.Add((target.array, target.index, target.array[target.index]));
-                target.array[target.index] = ModContent.Request<Texture2D>($"CalamityFandom/{Root}{kind}/{cls}");
+                target.array[target.index] = ModContent.Request<Texture2D>(path);
+                if (kind == "Buffs")
+                    ReplaceInDebuffDisplay(ModContent.Find<ModBuff>("CalamityMod", cls).Texture, path);
                 Applied++;
             }
         }
+
+        /// <summary>
+        /// Calamity dessine les debuffs au-dessus des boss avec sa propre liste de chemins de textures
+        /// (CalamityGlobalNPC.moddedDebuffTextureList), sans passer par TextureAssets.Buff : on y remplace aussi le chemin.
+        /// </summary>
+        private void ReplaceInDebuffDisplay(string originalPath, string newPath)
+        {
+            var list = CalamityGlobalNPC.moddedDebuffTextureList;
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].Item1 == originalPath)
+                {
+                    displayReplaced.Add((i, list[i]));
+                    list[i] = (newPath, list[i].Item2);
+                }
+            }
+        }
+
+        private readonly List<(int index, (string, Predicate<NPC>) original)> displayReplaced = new();
 
         public override void Unload()
         {
@@ -57,6 +81,11 @@ namespace CalamityFandom.Common.WikiData
                 if (index < array.Length)
                     array[index] = original;
             replaced.Clear();
+            var list = CalamityGlobalNPC.moddedDebuffTextureList;
+            foreach (var (index, original) in displayReplaced)
+                if (index < list.Count)
+                    list[index] = original;
+            displayReplaced.Clear();
         }
     }
 }

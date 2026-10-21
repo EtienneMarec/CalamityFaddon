@@ -4,6 +4,18 @@ Items: {
 		Tooltip: ""
 	}
 
+	FandomTestVial: {
+		DisplayName: Fandom Test Vial
+		Tooltip:
+			'''
+			[c/FF8040:Debug item]
+			Left click: inflicts the selected debuff on you and on the nearest enemy (10 seconds)
+			Right click: selects the next debuff
+			'''
+		Selected: "Selected debuff: {0}"
+		Applied: "{0} applied to you and to: {1}"
+	}
+
 	Weapons: {
 		Rogue: {
 			NightsGaze: {
@@ -154,6 +166,20 @@ Configs: {
 		DisableBalanceLayer: {
 			Label: Disable Calamity++ balancing
 			Tooltip: Debug only. Calamity++ without its balance layer, to compare the raw Fandom changes with the balanced ones.
+		}
+	}
+
+	PlayerAccuracy: {
+		Tooltip: ""
+
+		FullFandom: {
+			Label: Full Fandom
+			Tooltip: ""
+		}
+
+		CalamityPlus: {
+			Label: Calamity Plus
+			Tooltip: ""
 		}
 	}
 }

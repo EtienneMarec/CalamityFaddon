@@ -19,6 +19,8 @@ Astuces : Cheat Sheet / Hero's Mod pour faire apparaître objets et PNJ ; `/calf
 - [x] Des étoiles (Stratus Star) tombent du ciel sur l'ennemi touché
 - [x] L'ennemi touché reçoit le debuff Moon Burnt (= Nightwither de Calamity), 3 s, particules violettes
 - [ ] L'icône du debuff Moon Burnt est celle du wiki (flamme bleue), plus celle de Calamity (`Assets/Overrides/`)
+      KO (21/10) : l'icône au-dessus des boss venait de l'affichage de Calamity, qui ne passait pas par le remplacement.
+      Corrigé : retester sur un boss et dans ta barre de buffs avec la Fandom Test Vial (voir 1.1)
 - [x] Recette au Cosmic Anvil : Stratus Sphere, Galileo Gladius, Crescent Moon, **Night's Gaze**, 25 Lumenyl,
       37 Depth Cells, 4 Ascendant Spirit Essence, 8 Auric Bar (recette du wiki, voir 2.1)
 
@@ -28,15 +30,19 @@ Astuces : Cheat Sheet / Hero's Mod pour faire apparaître objets et PNJ ; `/calf
 
 ### 1.1 Vocabulaire et renommages du wiki (`Localization/en-US/Mods.CalamityMod.hjson`)
 
-- [ ] Le mod se charge sans erreur de localisation (pas de fichier renommé en `.legacy` dans `Localization/`)
-- [ ] Murasama s'appelle **Graydron**
-- [ ] Uelibloom Bar/Ore → **Tarragon Bar/Ore** ; Uelibloom Brick garde son nom
-- [ ] Astrum Deus (boss, barre de vie, sac, trophée, masque) → **Astral Deus** ; Hide of Astrum Deus garde son nom
-- [ ] Nightwither → **Moon Burnt** (survol du debuff sur un ennemi)
-- [ ] Rogue Emblem → **Spy Emblem** ; infobulles des armes rogue : « spy damage », « Spy » au lieu de « Rogue »
-- [ ] Contrôles : « Covering Ability 1..7 » au lieu de « Accessory Ability »
-- [ ] Draconic Swarmer (invoqué par la Dragonfolly) → **Tempest Toddler**
-- [ ] Les balises dans les infobulles s'affichent toujours (icônes `[i:...]`, buffs colorés `[cbuff:...]`)
+- [x] Le mod se charge sans erreur de localisation (pas de fichier renommé en `.legacy` dans `Localization/`)
+- [x] Murasama s'appelle **Graydron**
+- [x] Uelibloom Bar/Ore → **Tarragon Bar/Ore** ; Uelibloom Brick garde son nom
+- [x] Astrum Deus (boss, barre de vie, sac, trophée, masque) → **Astral Deus** ; Hide of Astrum Deus garde son nom
+- [ ] Nightwither → **Moon Burnt** : le jeu n'affiche pas les debuffs d'un ennemi au survol. Prendre la
+      **Fandom Test Vial** (Cheat Sheet, objet de debug) : clic droit pour choisir « Moon Burnt », clic gauche pour
+      se l'appliquer → nom « Moon Burnt », icône bleue du wiki et description dans ta barre de buffs
+- [x] Rogue Emblem → **Spy Emblem** ; infobulles des armes rogue : « spy damage », « Spy » au lieu de « Rogue »
+- [x] Contrôles : « Covering Ability 1..7 » au lieu de « Accessory Ability »
+- [x] Draconic Swarmer (invoqué par la Dragonfolly) → **Tempest Toddler**
+- [ ] Les textes réécrits gardent leurs mises en forme : survoler **Chalice of the Blood God** → la ligne
+      « Grants immunity to Bleeding, Burning Blood... » montre les noms de debuffs en couleur (pas de texte brut
+      du genre `[cbuffplr:Bleeding]`), et la phrase dit « this covering » au lieu de « this accessory »
 
 ### 1.2 Stats du wiki (`WikiData/stats.json`, 1204 objets, 67 PNJ)
 
@@ -115,7 +121,11 @@ Contrôlé par `python tools/selftest.py --mode all`. En jeu :
 - [ ] Recette à l'Ancient Manipulator : Daybreak, 7 Lumenyl, 4 Ruinous Soul, 12 Exodium Cluster
 - [x] Zweihandromeda : la recette demande maintenant aussi Night's Gaze
 
-### 2.2 Décisions du 21/10 : stats par mode, Meatmetal Sans
+### 2.2 Décisions du 21/10 : stats par mode, Meatmetal Sans, outils de test
+
+- [ ] **Fandom Test Vial** (Cheat Sheet) : clic droit = debuff suivant (nom affiché), clic gauche = appliqué à toi et à
+      l'ennemi le plus proche (message dans le chat). Liste : Moon Burnt, Marked, puis les 15 statuts d'éléments
+- [ ] Sur un boss (option « Debuff Display » de Calamity activée) : les statuts d'éléments s'affichent au-dessus de lui
 
 - [ ] Ravager (Meatmetal Sans) : il faut exactement 23 coups pour le tuer, chaque coup ne retire qu'1 PV
 - [ ] Il « esquive » : les coups rapprochés (moins de 0,5 s) ne comptent pas
