@@ -56,6 +56,56 @@ The primary elements are as follows: <!-- May I suggest a "corrosion" element wh
 
 Each of these elements has its own unique characteristics and properties.
 
+<!-- gen_element_pages : début (généré, ne pas éditer) -->
+== Status effects ==
+Every hit from an elemental weapon can inflict the lasting effect of each of its elements on the enemy, for 2 seconds. In '''Full Fandom''' every hit inflicts every effect; in '''Calamity++''' each effect has its own chance per hit (see [[Fandom Accuracy]]). Enemies resistant to an element are immune to its effect.
+
+{| class="terraria lined"
+! Element !! Debuff !! Effect !! Chance per hit
+|-
+| [[File:Cold (element).png|link=Cold (element)]] [[Cold (element)|Cold]] || [[Numbed]] || Moves 20% slower (half as much on bosses)<br/>Contact damage reduced by 10% || {{mode|100%|15%}}
+|-
+| [[File:Fire (element).png|link=Fire (element)]] [[Fire (element)|Fire]] || [[Ablaze]] || Loses 6 / 20 / 60 life per second (pre-[[Hardmode]] / [[Hardmode]] / after the [[Moon Lord]])<br/>Defense reduced by 10% || {{mode|100%|25%}}
+|-
+| [[File:Wind (element).png|link=Wind (element)]] [[Wind (element)|Wind]] || — || No lasting effect: hits push enemies away 50% harder. || —
+|-
+| [[File:Water (element).png|link=Water (element)]] [[Water (element)|Water]] || [[Waterlogged]] || Loses 3 / 10 / 30 life per second (pre-[[Hardmode]] / [[Hardmode]] / after the [[Moon Lord]])<br/>Moves 10% slower (half as much on bosses) || {{mode|100%|25%}}
+|-
+| [[File:Poison (element).png|link=Poison (element)]] [[Poison (element)|Poison]] || [[Envenomed]] || Loses 5 / 15 / 45 life per second (pre-[[Hardmode]] / [[Hardmode]] / after the [[Moon Lord]])<br/>Contact damage reduced by 10% || {{mode|100%|25%}}
+|-
+| [[File:Acid (element).png|link=Acid (element)]] [[Acid (element)|Acid]] || [[Corroded]] || Loses 3 / 10 / 30 life per second (pre-[[Hardmode]] / [[Hardmode]] / after the [[Moon Lord]])<br/>Moves 10% slower (half as much on bosses)<br/>Contact damage reduced by 10%<br/>Defense reduced by 10% || {{mode|100%|25%}}
+|-
+| [[File:Radioactive (element).png|link=Radioactive (element)]] [[Radioactive (element)|Radioactive]] || [[Radiation Sickness]] || Loses 8 / 25 / 80 life per second (pre-[[Hardmode]] / [[Hardmode]] / after the [[Moon Lord]])<br/>Defense reduced by 15%<br/>Cannot regenerate life || {{mode|100%|25%}}
+|-
+| [[File:Electricity (element).png|link=Electricity (element)]] [[Electricity (element)|Electricity]] || [[Shocked]] || Loses 6 / 20 / 60 life per second (pre-[[Hardmode]] / [[Hardmode]] / after the [[Moon Lord]])<br/>Moves 15% slower (half as much on bosses) || {{mode|100%|25%}}
+|-
+| [[File:Stab (element).png|link=Stab (element)]] [[Stab (element)|Stab]] || [[Punctured]] || Loses 4 / 12 / 40 life per second (pre-[[Hardmode]] / [[Hardmode]] / after the [[Moon Lord]])<br/>Moves 10% slower (half as much on bosses) || {{mode|100%|25%}}
+|-
+| [[File:Slash (element).png|link=Slash (element)]] [[Slash (element)|Slash]] || [[Lacerated]] || Loses 8 / 25 / 80 life per second (pre-[[Hardmode]] / [[Hardmode]] / after the [[Moon Lord]]) || {{mode|100%|25%}}
+|-
+| [[File:Smash (element).png|link=Smash (element)]] [[Smash (element)|Smash]] || [[Discombobulated]] || Defense reduced by 15%<br/>[[Confused]]: moves erratically || {{mode|100%|15%}}
+|-
+| [[File:Bomb (element).png|link=Bomb (element)]] [[Bomb (element)|Bomb]] || — || No lasting effect: critical hits deal twice the usual bonus and are 50% more likely; each enemy already hit by the same explosion that tick adds 10% damage (up to 2x). || —
+|-
+| [[File:Magic (element).png|link=Magic (element)]] [[Magic (element)|Magic]] || [[Hexed]] || Loses 4 / 12 / 40 life per second (pre-[[Hardmode]] / [[Hardmode]] / after the [[Moon Lord]])<br/>Contact damage reduced by 10% || {{mode|100%|25%}}
+|-
+| [[File:Dark (element).png|link=Dark (element)]] [[Dark (element)|Dark]] || [[Incapacitated]] || 20% chance to miss its contact attacks || {{mode|100%|15%}}
+|-
+| [[File:Holy (element).png|link=Holy (element)]] [[Holy (element)|Holy]] || [[Smitten]] || Loses 10 / 30 / 100 life per second (pre-[[Hardmode]] / [[Hardmode]] / after the [[Moon Lord]]) || {{mode|100%|25%}}
+|-
+| [[File:Unholy (element).png|link=Unholy (element)]] [[Unholy (element)|Unholy]] || [[Damned]] || Loses 10 / 30 / 100 life per second (pre-[[Hardmode]] / [[Hardmode]] / after the [[Moon Lord]]) || {{mode|100%|25%}}
+|-
+| [[File:Machine (element).png|link=Machine (element)]] [[Machine (element)|Machine]] || [[Malfunctioning]] || Contact damage reduced by 10% || {{mode|100%|15%}}
+|}
+
+=== Rules ===
+* A weapon with several elements multiplies their damage modifiers: a fire weapon against an enemy vulnerable to fire and resistant to poison deals normal damage if it is also a poison weapon. The total is kept between 25% and 400%.
+* Projectiles carry the elements of the weapon (or projectile) that fired them.
+* Attacks whose damage is changed by an affinity show '''Vulnerable!''' or '''Resisted''' above the enemy.
+* Machine weapons also increase the player's damage and critical strike chance by 5% while they are being used.
+* Enemies affected by elemental debuffs show particles of the element and take a slight tint of its color; no debuff icon is displayed.
+<!-- gen_element_pages : fin -->
+
 == Elemental Attributes ==
 * Resistant: Enemies that are resistant to a specific element take 50% damage from attacks of that element. They are also immune to its effect.
 * Neutral: Enemies with neutral affinity do not have any special resistance or vulnerability to any specific element. They take standard damage from the element in question.

@@ -949,6 +949,73 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Yharim Bar — addon: Calamity: Community Remix
 - [x] Zotplate
 
+## Debuff (64)
+
+- [x] Ablaze — pas de sprite
+- [ ] Abyssal Flames
+- [ ] Accelerated Photosynthesis
+- [ ] Ancient Astral Blight
+- [ ] Astral Infection (debuff)
+- [ ] Bleeding — pas de sprite
+- [ ] Blood Frenzy Cooldown
+- [ ] Bloodflare Soul Cooldown
+- [ ] Chaos State — pas de sprite
+- [ ] Confused — pas de sprite
+- [x] Corroded — pas de sprite
+- [ ] Cursed Inferno — pas de sprite
+- [x] Damned — pas de sprite
+- [ ] Darkness — pas de sprite
+- [ ] Deadlock — pas de sprite; addon: Tranquility Mod
+- [ ] Defiled One
+- [ ] Demon Flames
+- [x] Discombobulated — pas de sprite
+- [ ] Electrified — pas de sprite
+- [ ] Embers of Civilization
+- [ ] Embers of Duality — addon: Deimos, the Starborn Princess
+- [x] Envenomed — pas de sprite
+- [ ] Envoidment — addon: Tranquility Mod
+- [ ] Eradication — addon: Calamity: Tales of the Aquatic
+- [ ] Evercold — addon: Calamity: Tales of the Aquatic
+- [ ] Flahmes
+- [ ] Flesh Totem Cooldown
+- [ ] Flight Curse — addon: Tranquility Mod
+- [ ] Freezing Weather
+- [ ] Frostburn — pas de sprite
+- [ ] Glacial State
+- [ ] God Slayer Cooldown
+- [ ] Heat Exhaustion
+- [ ] Hemophilia
+- [ ] Hemorrhaging
+- [x] Hexed — pas de sprite
+- [ ] Horror
+- [ ] Ichor (debuff) — pas de sprite
+- [x] Incapacitated — pas de sprite
+- [x] Lacerated — pas de sprite
+- [ ] Lunar Aura
+- [x] Malfunctioning — pas de sprite
+- [ ] Nightclear — addon: Calamity: Tales of the Aquatic
+- [ ] Noctactricity — addon: Calamity: Tales of the Aquatic
+- [x] Numbed — pas de sprite
+- [ ] Oiled — pas de sprite
+- [ ] Omnislime — addon: Deimos, the Starborn Princess
+- [ ] On Fire — pas de sprite
+- [ ] Poisoned — pas de sprite
+- [x] Punctured — pas de sprite
+- [ ] Punishment
+- [x] Radiation Sickness — pas de sprite
+- [ ] Reactive Flames — addon: Calamity: Tales of the Aquatic
+- [x] Shocked — pas de sprite
+- [ ] Silva Stun
+- [ ] Slow — pas de sprite
+- [x] Smitten — pas de sprite
+- [ ] Tarragon Cloak Cooldown
+- [ ] Tarragon Immunity Cooldown
+- [ ] Umbric Fumes — addon: Apotheosis and Friends
+- [ ] Venom — pas de sprite
+- [ ] War Cleave
+- [x] Waterlogged — pas de sprite
+- [ ] Webbed — pas de sprite
+
 ## Potion (64)
 
 - [ ] Active Healing Potion — addon: Calamity: Tales of the Aquatic
@@ -1199,58 +1266,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Wulfrum Axe
 - [ ] Wulfrum Hammer
 - [ ] XO-Tell — addon: Calamity: Distorted Memories
-
-## Debuff (49)
-
-- [ ] Abyssal Flames
-- [ ] Accelerated Photosynthesis
-- [ ] Ancient Astral Blight
-- [ ] Astral Infection (debuff)
-- [ ] Bleeding — pas de sprite
-- [ ] Blood Frenzy Cooldown
-- [ ] Bloodflare Soul Cooldown
-- [ ] Chaos State — pas de sprite
-- [ ] Confused — pas de sprite
-- [ ] Cursed Inferno — pas de sprite
-- [ ] Darkness — pas de sprite
-- [ ] Deadlock — pas de sprite; addon: Tranquility Mod
-- [ ] Defiled One
-- [ ] Demon Flames
-- [ ] Electrified — pas de sprite
-- [ ] Embers of Civilization
-- [ ] Embers of Duality — addon: Deimos, the Starborn Princess
-- [ ] Envoidment — addon: Tranquility Mod
-- [ ] Eradication — addon: Calamity: Tales of the Aquatic
-- [ ] Evercold — addon: Calamity: Tales of the Aquatic
-- [ ] Flahmes
-- [ ] Flesh Totem Cooldown
-- [ ] Flight Curse — addon: Tranquility Mod
-- [ ] Freezing Weather
-- [ ] Frostburn — pas de sprite
-- [ ] Glacial State
-- [ ] God Slayer Cooldown
-- [ ] Heat Exhaustion
-- [ ] Hemophilia
-- [ ] Hemorrhaging
-- [ ] Horror
-- [ ] Ichor (debuff) — pas de sprite
-- [ ] Lunar Aura
-- [ ] Nightclear — addon: Calamity: Tales of the Aquatic
-- [ ] Noctactricity — addon: Calamity: Tales of the Aquatic
-- [ ] Oiled — pas de sprite
-- [ ] Omnislime — addon: Deimos, the Starborn Princess
-- [ ] On Fire — pas de sprite
-- [ ] Poisoned — pas de sprite
-- [ ] Punishment
-- [ ] Reactive Flames — addon: Calamity: Tales of the Aquatic
-- [ ] Silva Stun
-- [ ] Slow — pas de sprite
-- [ ] Tarragon Cloak Cooldown
-- [ ] Tarragon Immunity Cooldown
-- [ ] Umbric Fumes — addon: Apotheosis and Friends
-- [ ] Venom — pas de sprite
-- [ ] War Cleave
-- [ ] Webbed — pas de sprite
 
 ## Flying Enemy (35)
 

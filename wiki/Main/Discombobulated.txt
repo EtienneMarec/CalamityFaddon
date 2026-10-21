@@ -1,0 +1,24 @@
+{{buff infobox
+| type = Debuff
+| image = Smash (element).png
+| effects = Defense reduced by 15%<br/>[[Confused]]: moves erratically
+| tooltip = Confused, with lowered defense
+}}
+
+'''Discombobulated''' is a [[debuff]] of the [[Elemental System]], inflicted on enemies by [[Smash (element)|Smash]] weapons. It lasts 2 seconds and is refreshed by every new hit that inflicts it.
+
+== Effects ==
+* Defense reduced by 15%
+* [[Confused]]: moves erratically
+
+== Causes ==
+* Any hit from a weapon with the Smash element (or from its projectiles), with a {{mode|100%|15%}} chance per hit (Full Fandom / Calamity++, see [[Fandom Accuracy]]).
+* Enemies [[Elemental System#Elemental Attributes|resistant]] to Smash are immune.
+
+== Notes ==
+* Enemies affected by elemental debuffs show particles of the element's color instead of a debuff icon.
+* Effects of several elemental debuffs add up, capped at 50% for slowing, damage reduction, defense reduction and missing.
+
+{{Master Template Elements}}
+[[Category:Debuffs]]
+[[Category:Elemental debuffs]]

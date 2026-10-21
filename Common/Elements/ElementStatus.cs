@@ -30,19 +30,19 @@ namespace CalamityFandom.Common.Elements
         }
     }
 
-    public class Numbed : ElementStatus { public override Element Element => Element.Cold; }
-    public class Ablaze : ElementStatus { public override Element Element => Element.Fire; }
-    public class Waterlogged : ElementStatus { public override Element Element => Element.Water; }
-    public class Envenomed : ElementStatus { public override Element Element => Element.Poison; }
-    public class Corroded : ElementStatus { public override Element Element => Element.Acid; }
-    public class RadiationSickness : ElementStatus { public override Element Element => Element.Radioactive; }
-    public class Shocked : ElementStatus { public override Element Element => Element.Electricity; }
-    public class Punctured : ElementStatus { public override Element Element => Element.Stab; }
-    public class Lacerated : ElementStatus { public override Element Element => Element.Slash; }
-    public class Discombobulated : ElementStatus { public override Element Element => Element.Smash; }
-    public class Hexed : ElementStatus { public override Element Element => Element.Magic; }
-    public class Incapacitated : ElementStatus { public override Element Element => Element.Dark; }
-    public class Smitten : ElementStatus { public override Element Element => Element.Holy; }
-    public class Damned : ElementStatus { public override Element Element => Element.Unholy; }
-    public class Malfunctioning : ElementStatus { public override Element Element => Element.Machine; }
+    public class Numbed : ElementStatus { public override Element Element => Element.Cold; } // Wiki : Numbed.txt
+    public class Ablaze : ElementStatus { public override Element Element => Element.Fire; } // Wiki : Ablaze.txt
+    public class Waterlogged : ElementStatus { public override Element Element => Element.Water; } // Wiki : Waterlogged.txt
+    public class Envenomed : ElementStatus { public override Element Element => Element.Poison; } // Wiki : Envenomed.txt
+    public class Corroded : ElementStatus { public override Element Element => Element.Acid; } // Wiki : Corroded.txt
+    public class RadiationSickness : ElementStatus { public override Element Element => Element.Radioactive; } // Wiki : Radiation Sickness.txt
+    public class Shocked : ElementStatus { public override Element Element => Element.Electricity; } // Wiki : Shocked.txt
+    public class Punctured : ElementStatus { public override Element Element => Element.Stab; } // Wiki : Punctured.txt
+    public class Lacerated : ElementStatus { public override Element Element => Element.Slash; } // Wiki : Lacerated.txt
+    public class Discombobulated : ElementStatus { public override Element Element => Element.Smash; } // Wiki : Discombobulated.txt
+    public class Hexed : ElementStatus { public override Element Element => Element.Magic; } // Wiki : Hexed.txt
+    public class Incapacitated : ElementStatus { public override Element Element => Element.Dark; } // Wiki : Incapacitated.txt
+    public class Smitten : ElementStatus { public override Element Element => Element.Holy; } // Wiki : Smitten.txt
+    public class Damned : ElementStatus { public override Element Element => Element.Unholy; } // Wiki : Damned.txt
+    public class Malfunctioning : ElementStatus { public override Element Element => Element.Machine; } // Wiki : Malfunctioning.txt
 }

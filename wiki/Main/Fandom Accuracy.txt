@@ -1,0 +1,24 @@
+'''Fandom Accuracy''' is the main setting of '''Calamity Fandom''', found in the mod's server configuration. It decides how literally the mod follows the Calamity Mod Fandom wiki. Changing it requires reloading the mod, since names, recipes and items are set when the mod loads.
+
+== Modes ==
+{| class="terraria lined"
+! Mode !! What it does
+|-
+| '''Full Fandom''' || Only what the Fandom wiki says. Calamity content added after the wiki was abandoned (Calamity 2.0.1.005, December 2022) is hidden: it can no longer be crafted, dropped, bought or found. Values are applied exactly as the wiki shows them, including the 2022 balance of Calamity, and recipes or drops that the wiki does not list are removed. Every hit of an [[Elemental System|elemental]] weapon inflicts all of its effects.
+|-
+| '''Calamity++''' (default) || Current Calamity, plus everything the Fandom wiki adds or changes, balanced so that everything is playable. Values that are only Calamity's 2022 balance are not applied, recipes and drops that the wiki does not mention are kept, and elemental effects have a chance to trigger on each hit.
+|}
+
+Some things are the same in both modes: names and vocabulary (for example [[Graydron]], [[Tarragon Bar]], [[Spy]], [[Covering|coverings]]), the [[Elemental System]], items and drops added by the wiki, and the bosses as the wiki describes them, such as [[Desert Scourge|the Desert Scourge]] with 350,000 life or [[Ravager|Meatmetal Sans]].
+
+== Reading this wiki ==
+When a value differs between the two modes, pages show both with the {{tl|mode}} template: {{mode|68|3170}} means 68 in Full Fandom and 3170 in Calamity++. A value without it is the same in both modes.
+
+== Worlds ==
+A world remembers the mode it was created in. Entering it with the other mode shows a warning in the chat, but the world can still be played.
+
+== Debug option ==
+''Disable Calamity++ balancing'' keeps Calamity++ without its balancing changes, to compare them with the raw changes of the wiki. It is meant for testing.
+
+[[Category:Game mechanics]]
+[[Category:Calamity Fandom]]

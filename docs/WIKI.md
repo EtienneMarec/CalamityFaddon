@@ -27,6 +27,13 @@ Les outils (`tools/gen_stats.py` pour l'instant) lisent ce modèle directement :
 passe avant les règles automatiques (« valeur 2022 → Full seulement », écarts extrêmes...). Un champ sans `{{mode}}`
 vaut pour les deux modes.
 
+## Pages générées
+
+- `tools/gen_element_pages.py` : section « Status effects » d'« Elemental System » (entre marqueurs) et pages des
+  debuffs d'éléments, depuis `Common/Elements/` et `Balance/elements.json`. Ne pas les éditer à la main.
+- `tools/apply_modes.py` : écrit en `{{mode}}` les stats que les règles réservent au Full Fandom. À relancer à la main
+  si de nouvelles pages ou règles en produisent (`reports/stats.md` → « valeurs 2022 »), puis vérifier le diff.
+
 ## Éditer le wiki
 
 **Règle** : les outils ne lisent que `wiki/`, pour les deux modes. Une correction qui ne doit **pas** toucher le
@@ -42,8 +49,14 @@ Full Fandom (« le wiki à la lettre ») s'écrit `{{mode|valeur d'origine|nouve
 
 - [x] 1. Copie exacte du Fandom dans `wiki/`, commitée seule (`c27190c`)
 - [x] 2. Les outils lisent `wiki/` ; `{{mode}}` pris en charge pour les stats ; `wiki_edits/` supprimé
-- [ ] 3. Reporter les décisions sur les pages : chiffres et debuffs d'éléments (page « Elemental System » + une page par
-      debuff : Chilled, Ablaze...), Meatmetal Sans tel qu'implémenté, valeurs 2022 en `{{mode}}` (génération
-      automatique pour les ~860 stats), Zweihandromeda, matériaux sans comportement, nouveaux objets de test exclus
+- [x] 3. Décisions reportées sur les pages :
+  - 830 stats « Full Fandom seulement » en `{{mode}}` (`tools/apply_modes.py`, données identiques avant/après) ; 30
+    restent gérées par la règle (valeur actuelle calculée dans le code, ou page partagée avec une classe décidée
+    autrement, comme Polterghast) ;
+  - « Elemental System » (section « Status effects ») et une page par debuff d'élément, **générées depuis le code**
+    (`tools/gen_element_pages.py`, lancé par `build_data.py`) ;
+  - Meatmetal Sans (page Ravager) et Zweihandromeda : comportement tel qu'implémenté ;
+  - nouvelle page « Fandom Accuracy » (les deux modes) et `Template:Mode`.
+  - Pas sur le wiki : les outils de debug.
 - [ ] 4. `{{mode}}` lu aussi par les recettes, le butin et les éléments
 - [ ] 5. Le jour venu : export vers wiki.gg (les pages sont déjà en wikitexte MediaWiki)

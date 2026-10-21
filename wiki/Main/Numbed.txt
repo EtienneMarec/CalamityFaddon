@@ -1,0 +1,24 @@
+{{buff infobox
+| type = Debuff
+| image = Cold (element).png
+| effects = Moves 20% slower (half as much on bosses)<br/>Contact damage reduced by 10%
+| tooltip = Slowed down and weakened by the cold
+}}
+
+'''Numbed''' is a [[debuff]] of the [[Elemental System]], inflicted on enemies by [[Cold (element)|Cold]] weapons. It lasts 2 seconds and is refreshed by every new hit that inflicts it.
+
+== Effects ==
+* Moves 20% slower (half as much on bosses)
+* Contact damage reduced by 10%
+
+== Causes ==
+* Any hit from a weapon with the Cold element (or from its projectiles), with a {{mode|100%|15%}} chance per hit (Full Fandom / Calamity++, see [[Fandom Accuracy]]).
+* Enemies [[Elemental System#Elemental Attributes|resistant]] to Cold are immune.
+
+== Notes ==
+* Enemies affected by elemental debuffs show particles of the element's color instead of a debuff icon.
+* Effects of several elemental debuffs add up, capped at 50% for slowing, damage reduction, defense reduction and missing.
+
+{{Master Template Elements}}
+[[Category:Debuffs]]
+[[Category:Elemental debuffs]]

@@ -108,13 +108,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 
   | Élément | Debuff | Effet (pré-HM / HM / après Moon Lord pour les dégâts par seconde) |
   |---|---|---|
-  | Cold | Chilled | ralenti 20 %, dégâts de contact -10 % |
+  | Cold | Numbed | ralenti 20 %, dégâts de contact -10 % |
   | Fire | Ablaze | 6 / 20 / 60 par s, défense -10 % |
   | Wind | — | recul x1,5 au coup (« hurting them when they land » pas encore fait) |
-  | Water | Drowning | 3 / 10 / 30 par s, ralenti 10 % |
+  | Water | Waterlogged | 3 / 10 / 30 par s, ralenti 10 % |
   | Poison | Envenomed | 5 / 15 / 45 par s, dégâts de contact -10 % |
   | Acid | Corroded | 3 / 10 / 30 par s, ralenti 10 %, dégâts -10 %, défense -10 % |
-  | Radioactive | Irradiated | 8 / 25 / 80 par s, défense -15 %, pas de régénération |
+  | Radioactive | Radiation Sickness | 8 / 25 / 80 par s, défense -15 %, pas de régénération |
   | Electricity | Shocked | 6 / 20 / 60 par s, ralenti 15 % |
   | Stab | Punctured | 4 / 12 / 40 par s, ralenti 10 % |
   | Slash | Lacerated | 8 / 25 / 80 par s |
@@ -123,9 +123,12 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   | Magic | Hexed | 4 / 12 / 40 par s, dégâts de contact -10 % |
   | Dark | Incapacitated | 20 % de chances de rater le contact |
   | Holy | Smitten | 10 / 30 / 100 par s |
-  | Unholy | Cursed | 10 / 30 / 100 par s |
+  | Unholy | Damned | 10 / 30 / 100 par s |
   | Machine | Malfunctioning | dégâts de contact -10 % ; et pour le joueur : +5 % dégâts et critique pendant l'usage |
 
+- **[choix]** Debuffs d'éléments renommés (21/10) pour ne pas porter le nom d'un autre debuff : Chilled → **Numbed**
+  (vanilla), Drowning → **Waterlogged** (mécanique vanilla), Irradiated → **Radiation Sickness** (Calamity),
+  Cursed → **Damned** (vanilla, et l'effet est tout autre). À valider.
 - **[choix]** Effets cumulés plafonnés : ralentissement 50 % (moitié sur les boss), affaiblissement 50 %, défense 50 %,
   ratés 50 %.
 - **[choix]** Plusieurs éléments sur une arme : multiplicateurs multipliés (feu vulnérable + poison résistant = neutre),
@@ -210,3 +213,7 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** Pas copiés : discussions et pages utilisateur. Les 18 pages écrasées par Windows remplacent leur
   redirection homonyme (la redirection à la casse près est perdue).
 - **[choix]** Un `{{mode}}` sur une page passe avant les règles automatiques des stats.
+- **[choix]** Les pages des debuffs d'éléments et la section « Status effects » sont générées depuis le code ; les
+  autres pages de notre wiki s'éditent à la main.
+- **[choix]** Une stat partagée par plusieurs classes d'une même page n'est écrite en `{{mode}}` que si la règle vaut
+  pour toutes ces classes (sinon la règle continue de s'appliquer, cas de Polterghast).

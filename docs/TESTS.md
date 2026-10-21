@@ -74,6 +74,8 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
 - [ ] Zweihandromeda : « Elements: Dark, Magic, Stab »
 - [ ] Frapper un Aero Slime (vulnérable Fire/Dark) avec une arme Fire : texte « Vulnerable! », dégâts doublés
 - [ ] Avec une arme Poison sur l'Aero Slime : texte « Resisted », pas de debuff Envenomed
+- [ ] Noms des debuffs d'éléments (Fandom Test Vial) : Numbed, Ablaze, Waterlogged, Envenomed, Corroded, Radiation Sickness,
+      Shocked, Punctured, Lacerated, Discombobulated, Hexed, Incapacitated, Smitten, Damned, Malfunctioning
 - [ ] Effets d'éléments sans icône au-dessus des ennemis : particules propres à l'élément (glace pour Cold, sang pour
       Stab/Slash, étincelles pour Electricity, fumée sombre pour Dark...) et légère teinte de l'ennemi
 - [ ] Full Fandom : chaque coup applique tous les effets ; Calamity++ : seulement de temps en temps (25 % / 15 %)

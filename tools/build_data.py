@@ -1,4 +1,5 @@
-"""Régénère toutes les données du wiki, dans l'ordre : index, textes, stats, recettes, éléments, objets simples, butin.
+"""Régénère toutes les données du wiki, dans l'ordre : pages d'éléments du wiki (depuis le code), index, textes, stats, recettes, éléments, objets simples, butin.
+tools/apply_modes.py n'est pas lancé ici : il réécrit des pages, à lancer exprès (docs/WIKI.md).
 
 Usage : python tools/build_data.py
 Ensuite : dotnet build CalamityFandom.csproj, puis python tools/selftest.py (jeu fermé).
@@ -7,7 +8,7 @@ import os
 import subprocess
 import sys
 
-STEPS = ["wiki_index.py", "gen_localization.py", "gen_stats.py", "gen_recipes.py", "gen_baseline.py", "gen_elements.py", "gen_items.py", "gen_loot.py"]
+STEPS = ["gen_element_pages.py", "wiki_index.py", "gen_localization.py", "gen_stats.py", "gen_recipes.py", "gen_baseline.py", "gen_elements.py", "gen_items.py", "gen_loot.py"]
 
 
 def main():

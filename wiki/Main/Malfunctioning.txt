@@ -1,0 +1,23 @@
+{{buff infobox
+| type = Debuff
+| image = Machine (element).png
+| effects = Contact damage reduced by 10%
+| tooltip = Attacks are weakened
+}}
+
+'''Malfunctioning''' is a [[debuff]] of the [[Elemental System]], inflicted on enemies by [[Machine (element)|Machine]] weapons. It lasts 2 seconds and is refreshed by every new hit that inflicts it.
+
+== Effects ==
+* Contact damage reduced by 10%
+
+== Causes ==
+* Any hit from a weapon with the Machine element (or from its projectiles), with a {{mode|100%|15%}} chance per hit (Full Fandom / Calamity++, see [[Fandom Accuracy]]).
+* Enemies [[Elemental System#Elemental Attributes|resistant]] to Machine are immune.
+
+== Notes ==
+* Enemies affected by elemental debuffs show particles of the element's color instead of a debuff icon.
+* Effects of several elemental debuffs add up, capped at 50% for slowing, damage reduction, defense reduction and missing.
+
+{{Master Template Elements}}
+[[Category:Debuffs]]
+[[Category:Elemental debuffs]]
