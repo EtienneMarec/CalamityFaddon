@@ -2,8 +2,8 @@
 (Common/Debug/SelfTest.cs).
 Écrit aussi les bilans calculés en jeu dans reports/ (ex. reports/recipes.md). Le mod doit avoir été construit (dotnet build) et le jeu fermé.
 
-Usage : python tools/selftest.py [--mode Minimal|FullFandom|CalamityPlus|all]   (Minimal par défaut)
-Les rapports de reports/ ne sont écrits qu'en mode Minimal (le mode par défaut du mod).
+Usage : python tools/selftest.py [--mode Minimal|FullFandom|CalamityPlus|all]   (CalamityPlus par défaut ; all = les trois couches)
+Les rapports de reports/ ne sont écrits qu'en mode CalamityPlus (le mode par défaut du mod).
 Code de sortie : 0 si tout passe, 1 sinon.
 """
 import os
@@ -35,7 +35,7 @@ def stale_tmod():
 def main():
     if stale_tmod():
         sys.exit("Le .tmod est plus ancien que les sources : relancer dotnet build avec le jeu fermé (erreur TML003 sinon).")
-    mode = sys.argv[sys.argv.index("--mode") + 1] if "--mode" in sys.argv else "Minimal"
+    mode = sys.argv[sys.argv.index("--mode") + 1] if "--mode" in sys.argv else "CalamityPlus"
     results = [run(m) for m in (MODES if mode == "all" else [mode])]
     sys.exit(0 if all(results) else 1)
 

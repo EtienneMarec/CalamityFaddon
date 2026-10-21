@@ -66,8 +66,8 @@ namespace CalamityFandom.Common.Debug
         /// <summary>Vérifications ajoutées par d'autres systèmes (recettes, éléments...).</summary>
         public static readonly List<Action<SelfTest>> ExtraChecks = new();
 
-        /// <summary>Les rapports de reports/ décrivent le mode par défaut (Minimal) : rien n'est écrit dans les autres modes.</summary>
-        private static string ReportsFolder => FandomMode.Current == FandomAccuracy.Minimal
+        /// <summary>Les rapports de reports/ décrivent le mode par défaut (Calamity++) : rien n'est écrit dans les autres modes.</summary>
+        private static string ReportsFolder => FandomMode.Current == FandomAccuracy.CalamityPlus
             ? Environment.GetEnvironmentVariable("CALFANDOM_REPORTS") : null;
 
         private void CheckModes()
