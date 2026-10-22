@@ -318,7 +318,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** « Attacks inflict X » sans durée : 5 s. « Hits drain 3% health » : 3 % de la vie restante de l'ennemi, au plus
   5 fois les dégâts du coup. Projectile « au coup » : moitié des dégâts du coup.
 - **[validé 22/10]** Affichage : jauge dessinée par l'utilisateur (`Assets/UI/ShortstrikeMeter.png`, source x6 dans
-  `wiki_sprites_custom/`), placée comme la rage et l'adrénaline de Calamity (sous l'adrénaline par défaut, déplaçable
+  `wiki_sprites_custom/`), placée comme les jauges de Calamity (par défaut à droite de sa jauge de vol, à la même
+  hauteur : sous l'adrénaline elle couvrait le texte des PNJ ; déplaçable
   sauf si Calamity verrouille ses jauges, position dans la config client du mod). **[choix]** Visible en tenant une épée
   courte ; les épées sortent quand elle devient pleine. **[validé 22/10]** Dessinée à 2× ; pendant un Shortflurry elle
   se vide sur la durée de l'attaque en tremblant (amplitude « RipperMeterShake » de Calamity), comme ses jauges. Aura orange pulsante autour du joueur. Points sauvegardés.

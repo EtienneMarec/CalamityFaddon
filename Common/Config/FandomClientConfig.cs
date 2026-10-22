@@ -10,9 +10,15 @@ namespace CalamityFandom.Common.Config
 
         public static FandomClientConfig Instance;
 
-        /// <summary>Par défaut juste sous la jauge d'adrénaline de Calamity (même écart que rage → adrénaline).</summary>
-        public const float DefaultShortstrikePosX = 35.77406f;
-        public const float DefaultShortstrikePosY = 13.117703f;
+        /// <summary>
+        /// Par défaut à droite de la jauge de vol de Calamity (40,94 % / 7,22 %, 34×70 px), à la même hauteur : sous
+        /// l'adrénaline, elle passait sur le texte des PNJ (retour de test du 22/10).
+        /// </summary>
+        public const float DefaultShortstrikePosX = 46.25f;
+        public const float DefaultShortstrikePosY = 7.2222223f;
+
+        /// <summary>Première position par défaut (sous l'adrénaline) : remplacée si le joueur ne l'avait pas changée.</summary>
+        private const float OldDefaultPosX = 35.77406f, OldDefaultPosY = 13.117703f;
 
         [Header("Meters")]
         [Range(0f, 100f)]
@@ -22,5 +28,15 @@ namespace CalamityFandom.Common.Config
         [Range(0f, 100f)]
         [DefaultValue(DefaultShortstrikePosY)]
         public float ShortstrikeMeterPosY { get; set; } = DefaultShortstrikePosY;
+
+        public override void OnLoaded()
+        {
+            Instance = this;
+            if (System.Math.Abs(ShortstrikeMeterPosX - OldDefaultPosX) < 0.001f && System.Math.Abs(ShortstrikeMeterPosY - OldDefaultPosY) < 0.001f)
+            {
+                ShortstrikeMeterPosX = DefaultShortstrikePosX;
+                ShortstrikeMeterPosY = DefaultShortstrikePosY;
+            }
+        }
     }
 }
