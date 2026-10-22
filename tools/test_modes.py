@@ -78,5 +78,16 @@ full = values({k: pick_mode(v, "fandom") for k, v in fields.items()}, "element")
 plus = values({k: pick_mode(v, "plus") for k, v in fields.items()}, "element")[0]
 check(full == ["Slash", "Machine"] and plus == ["Slash"], "éléments : élément en Full Fandom seulement")
 
+# --- localisation : un .hjson mal formé empêche tout le mod de se charger (22/10 : chaîne coupée par un vrai retour à la ligne)
+import glob  # noqa: E402
+import hjson  # noqa: E402
+for path in glob.glob(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Localization", "**", "*.hjson"), recursive=True):
+    try:
+        hjson.load(open(path, encoding="utf-8-sig"))
+        readable = True
+    except Exception:  # noqa: BLE001
+        readable = False
+    check(readable, f"localisation lisible : {os.path.basename(path)}")
+
 print(f"\n{len(failures)} échec(s)")
 sys.exit(1 if failures else 0)

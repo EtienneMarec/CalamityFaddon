@@ -209,10 +209,11 @@ Projectiles: {
 	}
 }
 
-Shortstrike: {
-	Gauge: "Shortstrike: {0}/{1}
-Right click with a shortsword when full: Shortflurry"
-}
+Shortstrike.Gauge:
+	'''
+	Shortstrike: {0}/{1}
+	Right click with a shortsword when full: Shortflurry
+	'''
 
 Elements: {
 	Tooltip: Elements: {0}
