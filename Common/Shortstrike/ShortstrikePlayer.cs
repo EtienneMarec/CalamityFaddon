@@ -34,6 +34,8 @@ namespace CalamityFandom.Common.Shortstrike
 
         public bool Full => Points >= ShortstrikeData.Current.MaxPoints;
         public bool FlurryActive => flurryTimer > 0;
+        /// <summary>Part du Shortflurry encore à venir (1 → 0) : la jauge se vide au même rythme.</summary>
+        public float FlurryRemaining => FlurryActive ? flurryTimer / (float)flurryDuration : 0f;
 
         private static ShortstrikeData.Rules Rules => ShortstrikeData.Current;
 

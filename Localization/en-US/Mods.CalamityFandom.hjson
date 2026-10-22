@@ -374,6 +374,21 @@ Configs: {
 			Tooltip: ""
 		}
 	}
+
+	FandomClientConfig: {
+		DisplayName: Fandom Client Config
+		Headers.Meters: Meters Header
+
+		ShortstrikeMeterPosX: {
+			Label: Shortstrike Meter Pos X
+			Tooltip: ""
+		}
+
+		ShortstrikeMeterPosY: {
+			Label: Shortstrike Meter Pos Y
+			Tooltip: ""
+		}
+	}
 }
 
 NPCs.FandomTestDummy.DisplayName: Fandom Test Dummy

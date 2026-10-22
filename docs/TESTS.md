@@ -147,10 +147,10 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
       s'appelle **Godspawn Helix Staff**
 - [x] Cinquième lot : Starfall (5 étoiles tombent sur le curseur), Storm Dragoon (rafale, consomme peu de balles),
       Soul Edge (âmes fantomatiques, Crush Depth)
-- [ ] Devil Fish (bestiaire) : Depth Cells « After defeating Calamitas » (1-2), Abyss Ore « After defeating Golem » (3-9),
+- [x] Devil Fish (bestiaire) : Depth Cells « After defeating Calamitas » (1-2), Abyss Ore « After defeating Golem » (3-9),
       une seule ligne d'Abyss Ore (corrigé le 22/10)
-- [ ] Diseased Pike : la lance pointe dans la bonne direction (corrigé le 22/10)
-- [ ] Energy Staff : la tourelle reste là où on la pose (corrigé le 22/10 : ancienne tourelle immobile)
+- [x] Diseased Pike : la lance pointe dans la bonne direction (corrigé le 22/10)
+- [x] Energy Staff : la tourelle reste là où on la pose (corrigé le 22/10 : ancienne tourelle immobile)
 - [ ] Desert Scourge (mode normal) : peut aussi lâcher Seabound Staff, Storm Spray ou Aquatic Discharge (25 % chacun)
 - [ ] Conquest Fragment (Pearl Shard) : sprite du wiki (éclat bleu et doré) dans l'inventaire et au sol, **dans les
       deux modes** ; idem Victide Bar, Divine Bar, Parched Scale (liste : `reports/sprites.md`)
@@ -223,7 +223,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 - [ ] Avec une **Copper Shortsword** : la jauge dessinée apparaît sous l'adrénaline ; elle se remplit en frappant
       (survol : « Shortstrike: N/100 »), les épées sortent quand elle est pleine ; on peut la déplacer si les jauges de
-      Calamity ne sont pas verrouillées ; changer d'arme la garde ; elle reste après avoir quitté et relancé le personnage
+      Calamity ne sont pas verrouillées ; taille comparable aux jauges de Calamity (2×) ; pendant le Shortflurry, elle se
+      vide en tremblant ; changer d'arme la garde ; elle reste après avoir quitté et relancé le personnage
 - [ ] En tenant une épée courte : dégâts et défense augmentent avec la jauge (Full Fandom : +20 % / +33 à 100 points ;
       Calamity++ : +10 % / +16) ; avec une autre arme, plus de bonus
 - [ ] Jauge pleine : son, aura orange pulsante ; **clic droit** = Shortflurry : 3 clones orange frappent en 1 s, la

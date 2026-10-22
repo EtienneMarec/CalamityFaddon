@@ -320,7 +320,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[validé 22/10]** Affichage : jauge dessinée par l'utilisateur (`Assets/UI/ShortstrikeMeter.png`, source x6 dans
   `wiki_sprites_custom/`), placée comme la rage et l'adrénaline de Calamity (sous l'adrénaline par défaut, déplaçable
   sauf si Calamity verrouille ses jauges, position dans la config client du mod). **[choix]** Visible en tenant une épée
-  courte ; les épées sortent quand elle devient pleine. Aura orange pulsante autour du joueur. Points sauvegardés.
+  courte ; les épées sortent quand elle devient pleine. **[validé 22/10]** Dessinée à 2× ; pendant un Shortflurry elle
+  se vide sur la durée de l'attaque en tremblant (amplitude « RipperMeterShake » de Calamity), comme ses jauges. Aura orange pulsante autour du joueur. Points sauvegardés.
 - **[technique]** Les points ne sont pas synchronisés en multijoueur : les autres joueurs ne voient pas l'aura (les clones,
   eux, sont synchronisés).
 

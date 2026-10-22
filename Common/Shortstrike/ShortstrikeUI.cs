@@ -26,6 +26,8 @@ namespace CalamityFandom.Common.Shortstrike
         private const int FirstFullFrame = 37;
         private const int TicksPerFullFrame = 4;
         private const float DragEpsilon = 0.05f;
+        /// <summary>Dessin à 2× (pixel art agrandi comme les jauges de Calamity ; retour de test du 22/10).</summary>
+        private const float Scale = 2f;
 
         private static Asset<Texture2D> meter;
         private static Vector2? dragOffset;
@@ -60,9 +62,18 @@ namespace CalamityFandom.Common.Shortstrike
             Texture2D texture = meter.Value;
             int frameHeight = texture.Height / Frames;
 
-            // Image : remplissage, puis sortie des épées une fois pleine (et on garde la dernière)
+            // Image : remplissage, puis sortie des épées une fois pleine (et on garde la dernière) ; pendant un Shortflurry,
+            // la jauge se vide sur la durée de l'attaque en tremblant, comme la rage et l'adrénaline de Calamity
             int frame;
-            if (modPlayer.Full)
+            Vector2 shake = Vector2.Zero;
+            if (modPlayer.FlurryActive)
+            {
+                fullTimer = 0;
+                frame = (int)Math.Round(modPlayer.FlurryRemaining * LastFillFrame);
+                float amount = CalamityClientConfig.Instance?.RipperMeterShake ?? 2f;
+                shake = new Vector2(Main.rand.NextFloat(-amount, amount), Main.rand.NextFloat(-amount, amount));
+            }
+            else if (modPlayer.Full)
             {
                 fullTimer++;
                 frame = Math.Min(Frames - 1, FirstFullFrame + fullTimer / TicksPerFullFrame);
@@ -82,10 +93,10 @@ namespace CalamityFandom.Common.Shortstrike
 
             float pulse = modPlayer.Full && frame == Frames - 1 ? 0.85f + 0.15f * (float)Math.Sin(Main.GlobalTimeWrappedHourly * 6f) : 1f;
             var source = new Rectangle(0, frame * frameHeight, texture.Width, frameHeight);
-            Main.spriteBatch.Draw(texture, screenPos, source, Color.White * pulse, 0f, source.Size() / 2f, 1f, SpriteEffects.None, 0f);
+            Main.spriteBatch.Draw(texture, screenPos + shake, source, Color.White * pulse, 0f, source.Size() / 2f, Scale, SpriteEffects.None, 0f);
 
             // Survol : texte ; glisser pour déplacer (comme les jauges de Calamity)
-            Rectangle area = Utils.CenteredRectangle(screenPos, new Vector2(texture.Width, frameHeight));
+            Rectangle area = Utils.CenteredRectangle(screenPos, new Vector2(texture.Width, frameHeight) * Scale);
             bool locked = CalamityClientConfig.Instance?.MeterPosLock ?? true;
             if (!area.Contains(Main.MouseScreen.ToPoint()) && !dragOffset.HasValue)
                 return true;
