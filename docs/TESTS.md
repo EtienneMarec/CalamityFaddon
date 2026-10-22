@@ -138,7 +138,7 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
       Seabound Staff (une étoile de mer sbire au curseur), Effluvium Bow (2 flèches, flèches en bois → Mist Arrow),
       Regenator (vie max divisée par 2, régénération rapide), Storm Spray (jet d'eau qui goutte), Aquatic Discharge
       (estoc, étincelles au sol quand un ennemi meurt)
-- [ ] Second lot : Solar Flare (yoyo, explosions sacrées), Diseased Pike (lance, Plague Seekers), Crimslime Staff et
+- [x] Second lot : Solar Flare (yoyo, explosions sacrées), Diseased Pike (lance, Plague Seekers), Crimslime Staff et
       Corroslime Staff (un slime sbire chacun, le buff disparaît quand le slime meurt)
 - [x] Troisième lot : Gehenna (deux boules de feu tombent du ciel toutes les 10 s, explosion rouge persistante),
       Shock Grenade (explose en éclairs ; furtive : aura électrique et éclairs à tête chercheuse ; se fabrique par 100)
