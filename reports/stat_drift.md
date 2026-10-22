@@ -519,6 +519,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | God Slayer Slug | GodSlayerSlug | damage | 28 | 18 |
 | God's Paranoia | GodsParanoia | damage | 98 | 163 |
 | God's Paranoia | GodsParanoia | velocity | 5 | 10 |
+| Godspawn Helix Staff | StarspawnHelixStaff | damage | 60 | 103 |
 | Golden Eagle | GoldenEagle | damage | 85 | 88 |
 | Golden Eagle | GoldenEagle | use | 19 | 18 |
 | Goldplume Spear | GoldplumeSpear | damage | 57 | 26 |

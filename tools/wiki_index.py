@@ -340,8 +340,11 @@ def attach_calamity(page, matches, cal_classes):
 # --------------------------------------------------------------------------- main
 
 def main():
-    cal_names = load_calamity_names()
     cal_classes = load_calamity_classes()
+    # Noms restés dans la localisation de Calamity sans classe derrière (objets retirés, ex. Beetle Juice) : ignorés,
+    # sinon la page passerait pour « officielle » alors que l'objet est à porter
+    cal_names = {name: kept for name, matches in load_calamity_names().items()
+                 if (kept := [(cat, cls) for cat, cls in matches if cls in cal_classes])}
     sprites = {norm(os.path.splitext(f)[0]): f for f in os.listdir(SPRITES)}
     implemented = load_implemented()
 

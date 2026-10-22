@@ -18,6 +18,7 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Divine Intervention | Holy Flame | HolyFlame |
 | Exo Mechs | Draedon | Draedon |
 | Garnet | Malachite | Malachite |
+| Godspawn Helix Staff | Starspawn Helix Staff | StarspawnHelixStaff |
 | Graydron | Murasama | Murasama |
 | Hive (Enemy) | Hiveling | Hiveling |
 | Hive (disambiguation) | Hive | Hive |

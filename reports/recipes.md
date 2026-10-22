@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 906 objets dont les recettes ont changé : 809 recettes modifiées, 150 créées
-- 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
+- 909 objets dont les recettes ont changé : 813 recettes modifiées, 150 créées
+- 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 324 recettes du wiki déjà identiques au jeu
 - 60 transmutations Shimmer ajoutées
-- 177 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 250 recettes
+- 173 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 245 recettes
 
 ## Recettes changées
 
@@ -439,6 +439,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Herbal Mixture | (nouvelle) | 20 Flah, 20 Moonglow, 20 Daybloom, 20 Fireblossom, 20 Waterleaf, 20 Shiverthorn, 20 Blinkroot @ BotanicPlanter → 1 |
 | Heron Rod | 8 Aerialite Bar @ Anvils → 1 | 7 Aerialite Bar, 5 Sunplate Block @ SkyMill → 1 |
 | Holy Fire Bullet | 333 Exploding Bullet, 1 Unholy Essence @ MythrilAnvil → 333 | 100 Exploding Bullet, 1 Unholy Essence @ LunarCraftingStation → 100 |
+| Honey Dew | 10 Bottled Honey, 3 Bee Wax, 6 Jungle Spores @ Anvils → 1 | 1 Living Dew, 10 Bottled Honey, 3 Beetle Juice, 2 Trapper Bulb, 1 Butterfly Dust @ MythrilAnvil → 1 |
 | Hydra | 1 Quad-Barrel Shotgun, 25 Nanites, 25 Vial of Venom @ MythrilAnvil → 1 | 1 Shotgun, 20 Any Iron Bar, 1 Illegal Gun Parts, 20 Ectoplasm @ MythrilAnvil → 1 |
 | Hydrothermic Armor | 20 Abyss Bar @ MythrilAnvil → 1 | 15 Abyss Bar, 8 Hellstone Bar, 3 Core of Chaos, 5 Grandiose Gland @ MythrilAnvil → 1 |
 | Hydrothermic Headgear | 10 Abyss Bar @ MythrilAnvil → 1 | 7 Abyss Bar, 4 Hellstone Bar, 1 Core of Chaos, 5 Grandiose Gland @ MythrilAnvil → 1 |
@@ -594,7 +595,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Perfect Dark | (nouvelle) | 5 Rotten Chunk, 5 Demonite Bar, 15 Rotten Matter @ DemonAltar → 1 |
 | Phantasmal Fury | 1 Spectre Staff, 2 Ruinous Soul, 1 Dark Plasma @ MythrilAnvil → 1 | 1 Spectre Staff, 2 Haunted Bar, 1 Dark Plasma @ LunarCraftingStation → 1 |
 | Phaseslayer | 15 Mysterious Circuitry, 25 Dubious Plating, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Reassembled Electronics, 8 Cosmilite Bar, 2 Ascendant Spirit Essence, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
-| Photosynthesis Potion | 1 Bottled Water, 3 Daybloom, 1 Essence of Sunlight @ AlchemyTable → 1 | 1 Bottled Water, 4 Unholy Core, 1 Essence of Sunlight @ AlchemyTable → 1 |
+| Photosynthesis Potion | 1 Bottled Water, 3 Daybloom, 1 Essence of Sunlight @ AlchemyTable → 1 | 1 Bottled Water, 1 Beetle Juice, 1 Vine, 1 Essence of Sunlight @ AlchemyTable → 1 |
+| Photosynthesis Potion | 1 Bottled Water, 5 Blood Orb, 1 Essence of Sunlight @ AlchemyTable → 1 | 1 Bottled Water, 4 Unholy Core, 1 Essence of Sunlight @ AlchemyTable → 1 |
 | Piggy Cage | 1 Terrarium, 1 Piggy @ main → 1 | 1 Terrarium, 1 Piggy Bank @ main → 1 |
 | Pink Cosmic Flame Dye | 3 Bottled Water, 1 Cosmilite Bar @ DyeVat → 3 | 2 Bottled Water, 1 Cosmilite Bar @ DyeVat → 2 |
 | Plague Cell Canister | (nouvelle) | 1 Any Iron Bar, 1 Coyote Venom @ MythrilAnvil → 1 |
@@ -867,6 +869,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Terror Blade | (nouvelle) | 5 Haunted Bar @ LunarCraftingStation → 1 |
 | Terror Talons | 5 Chlorophyte Bar, 10 Leather @ MythrilAnvil → 1 | 1 Feral Claws, 5 Chlorophyte Bar, 10 Soul of Fright @ MythrilAnvil → 1 |
 | Tesla Cannon | 25 Mysterious Circuitry, 15 Dubious Plating, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Reassembled Electronics, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |
+| The Absorber | 1 Grand Gelatin, 1 Baroclaw, 1 Giant Tortoise Shell, 5 Mollusk Husk, 14 Meld Blob @ LunarCraftingStation → 1 | 1 Grand Gelatin, 1 Craw Carapace / Giant Shell, 1 Fungal Carapace, 1 Giant Tortoise Shell, 1 Regenator, 1 Rover Drive, 15 Depth Cells, 15 Lumenyl, 5 Tenebris, 5 Mollusk Husk, 10 Essential Essence Bar, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | The Anomaly's Nanogun | 20 Mysterious Circuitry, 20 Dubious Plating, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Reassembled Electronics, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | The Ballista | 1 Marrow, 1 Forbidden Fragment, 5 Ectoplasm @ MythrilAnvil → 1 | 1 Marrow, 1 Forbidden Fragment, 10 Ectoplasm @ MythrilAnvil → 1 |
 | The Brain of Cthulhu | 1 Brain of Cthulhu Trophy @ Bookcases → 1 | 1 Brain of Cthulhu Trophy, 10 Conquest Fragment @ Bookcases → 1 |
@@ -894,6 +897,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | The Profaned Guardians | 1 Profaned Guardian Trophy @ Bookcases → 1 | 1 Profaned Guardian Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Sevens Striker | 1 Coin Gun, 7 Platinum Coin, 77 Gold Coin, 12 Luminite Bar, 3 Twisting Nether @ MythrilAnvil → 1 | 1 Coin Gun, 1 Clockwork Bar, 1 Orange Zapinator, 7 Platinum Coin, 77 Gold Coin, 5 Twisted Tendril @ CosmicAnvil → 1 |
 | The Slime God | 1 Slime God Trophy @ Bookcases → 1 | 1 Slime God Trophy, 10 Conquest Fragment @ Bookcases → 1 |
+| The Sponge | 1 Rover Drive, 10 Mysterious Circuitry, 20 Dubious Plating, 5 Cosmilite Bar, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 The Absorber, 1 Aquatic Heart, 1 Flame-Licked Shell, 1 Trinket of Chi, 1 Amidias' Spark, 1 Ursa Sergeant, 1 Permafrost's Concoction, 1 Reassembled Electronics, 5 Cosmilite Bar, 4 Ascendant Spirit Essence, 100 Yharim Bar, 5 Crystal of the Dryad @ CosmicAnvil → 1 |
 | The Swarmer | 1 Bee Gun, 1 Wasp Gun, 6 Stardust Fragment @ LunarCraftingStation → 1 | 20 Vortex Fragment, 1 Bee Gun, 1 Wasp Gun @ LunarCraftingStation → 1 |
 | The sword is inside the core | (nouvelle) | 1 Broken Hero Sword, 1 Frost Core, 1 Forbidden Fragment @ MythrilAnvil → 1 |
 | The Twins | 1 Retinazer Trophy @ Bookcases → 1 | 1 Spazmatism Trophy / Retinazer Trophy, 10 Conquest Fragment @ Bookcases → 1 |
@@ -984,7 +988,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Char Matter — 4
 - station : Aquatic Hypercomputer ERM — 4
 - objet : Any Hardmode Evil Component — 2
-- objet : Beetle Juice — 2
 - objet : Corrupt Flask — 2
 - objet : Crab — 2
 - objet : Crimson Flask — 2
@@ -1004,7 +1007,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Alchemical Flask — 1
 - objet : Alien Biomass — 1
 - objet : Alpha Virus — 1
-- objet : Amidias' Spark — 1
 - objet : Any Evil Flask — 1
 - objet : Any Mana Flowers — 1
 - objet : Any Wings — 1
@@ -1066,7 +1068,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Flare Blade — 1
 - objet : Flounder Mortar — 1
 - objet : Frost Blade — 1
-- objet : Fungal Carapace — 1
 - objet : Gel Armor — 1
 - objet : Gel Cap — 1
 - objet : Gel Greaves — 1
@@ -1093,7 +1094,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Lightning Hawk — 1
 - objet : Lithos Pickaxe — 1
 - objet : Lumenous Amulet — 1
-- objet : Mana Jelly — 1
 - objet : Megaskeet — 1
 - objet : Minigun — 1
 - objet : Minnows Prime — 1

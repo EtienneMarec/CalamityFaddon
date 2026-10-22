@@ -266,6 +266,18 @@
    "value": 0
   },
   {
+   "name": "BeetleJuice",
+   "displayName": "Beetle Juice",
+   "page": "Beetle Juice.txt",
+   "width": 18,
+   "height": 28,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 5,
+   "maxStack": 9999,
+   "value": 8000
+  },
+  {
    "name": "BlankScroll",
    "displayName": "Blank Scroll",
    "page": "Blank Scroll.txt",

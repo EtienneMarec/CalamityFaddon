@@ -277,6 +277,12 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   CalamityPlayer remplacés par le buff du sbire). Valeurs identiques au vieux code sauf mention.
   Troisième lot : **Gehenna** (Brimstone Flames 10 s du wiki au lieu de 4 s ; compte à rebours dans un ModPlayer),
   **Shock Grenade** (use 17, pile 9999, recette du wiki : 2 Grenade, 1 Bomb, 5 Stratus Brick → 100).
+  Quatrième lot : **Mana Jelly**, **Fungal Carapace**, **Amidias' Spark** (effets « quand on est touché » repris du
+  vieux CalamityPlayer dans un ModPlayer), **Energy Staff** (remplacé par la Sanctified Spark en 2023 ; réutilise sa
+  tourelle Profaned Energy). **Beetle Juice** : matériau simple, généré par `gen_items.py` comme les autres.
+  **[choix]** Renommage : Starspawn Helix Staff → **Godspawn Helix Staff** (Calamity l'a seulement renommé).
+  **[technique]** L'index ignore les noms restés dans la localisation de Calamity sans classe derrière (Beetle Juice,
+  Cosmic Guardian, Exo Freeze passaient pour « officiels » alors qu'ils sont à porter).
 - **[choix]** Groupe « One of the following N items » dont le jeu ne donne qu'une partie (Desert Scourge : Calamity a
   gardé Barinade et Scourge of the Desert, remplacé les autres) : les objets absents sont ajoutés un par un avec leur
   chance de la page (Seabound Staff, Storm Spray, Aquatic Discharge à 25 %), en plus du groupe du jeu.

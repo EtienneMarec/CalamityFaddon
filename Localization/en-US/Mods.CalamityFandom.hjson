@@ -91,6 +91,30 @@ Items: {
 		Tooltip: Fires plague seekers on hit
 	}
 
+	ManaJelly: {
+		DisplayName: Mana Jelly
+		Tooltip:
+			'''
+			+20 max mana
+			Standing still boosts mana regen
+			'''
+	}
+
+	FungalCarapace: {
+		DisplayName: Fungal Carapace
+		Tooltip: You emit a mushroom spore explosion when you are hit
+	}
+
+	AmidiasSpark: {
+		DisplayName: Amidias' Spark
+		Tooltip: Taking damage releases a blast of sparks
+	}
+
+	EnergyStaff: {
+		DisplayName: Energy Staff
+		Tooltip: Summons a profaned energy turret to fight for you
+	}
+
 	Gehenna: {
 		DisplayName: Gehenna
 		Tooltip: Drops brimstone fireballs from the sky occasionally

@@ -163,7 +163,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (543)
+## Objets (539)
 
 - A M S
 - AAMG "Disperse"
@@ -180,7 +180,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aftershock
 - Alpha Ray
 - Alpha Virus
-- Amidias' Spark
 - Ancient Shiv
 - Angel's Thesis
 - Animus
@@ -327,7 +326,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Elemental Shiv
 - Elusive Feather
 - Endentant Bow
-- Energy Staff
 - Eradicator
 - Ethereal Knives
 - Eutrophic Scimitar
@@ -361,7 +359,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Frost Blade
 - Frostflow Edge
 - Fulguration Halberd
-- Fungal Carapace
 - Gamma Ray Burst
 - Garth
 - Gatling Laser
@@ -381,7 +378,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Gluelic Blade
 - God's Bellows
 - God's Paranoia
-- Godspawn Helix Staff
 - Golden Gun
 - Gourdler
 - Grand Gar

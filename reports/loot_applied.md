@@ -2,17 +2,18 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 149 drops ajoutés sur 69 PNJ
+- 154 drops ajoutés sur 73 PNJ
 - 92 ajouts dans 23 sacs
-- 478 drops du wiki déjà présents dans le jeu (inchangés)
+- 479 drops du wiki déjà présents dans le jeu (inchangés)
 - 91 drops avec leur condition (boss vaincu, biome, premier kill)
 - 26 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 185 PNJ du wiki absents du jeu, 126 objets introuvables
+- 185 PNJ du wiki absents du jeu, 120 objets introuvables
 
 ## Ajouts
 
 - **Aero Slime** : Skyline Wings 1-1 à 3.0%
 - **Angry Trapper** : Trapper Bulb 1-1 à 33.0%
+- **Anomura Fungus** : Fungal Carapace 1-1 à 15.0%
 - **Aquatic Scourge** : Bleached Angling Kit 1-1 à 100.0% (mode normal) ; Sulphurous Sand 5-15 à 100.0% (mode normal) ; Aquatic Emblem 1-1 à 100.0% (mode normal) ; Deep Diver 1-1 à 10.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal)
 - **Astral Deus** : Stardust 55-95 à 100.0% (mode normal) ; Hide of Astrum Deus 1-1 à 100.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal) ; Hide of Astrum Deus 1-1 à 100.0% (mode normal)
 - **Astral Slime** : Stardust 1-3 à 50.0%
@@ -25,11 +26,12 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Calamitas Clone** : Ashes of Annihilation 9-14 à 100.0% (mode normal) ; Essence of Chaos 4-8 à 100.0% (mode normal) ; Blighted Lens 5-12 à 100.0% (mode normal) ; Broken Hero Sword 1-1 à 100.0% (mode normal) ; Bloodstone 1-1 à 100.0% [Once Providence is defeated] (mode normal) ; Void of Calamity 1-1 à 100.0% (mode normal) ; Regenator 1-1 à 10.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Calamitas Trophy 1-1 à 10.0% (mode normal) ; Catastrophe Clay Ore 10-26 à 100.0% (mode normal) ; Crushsaw Crasher 1-1 à 8.3% (mode normal) ; Havoc's Breath 1-1 à 8.3% (mode normal)
 - **Calamity Eye** : Blighted Lens 1-1 à 50.0% [In Hardmode] ; Essence of Chaos 1-1 à 33.3% [In Hardmode]
 - **Ceaseless Void** : The Evolution 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal)
-- **Cnidrion** : Desert Medallion 1-1 à 50.0% ; Profaned Shard 2-5 à 10.0%
+- **Cnidrion** : Desert Medallion 1-1 à 50.0% ; Amidias' Spark 1-1 à 25.0% ; Profaned Shard 2-5 à 10.0%
 - **Crabulon** : Glowing Mushroom 20-30 à 100.0% (mode normal) ; Mushroom Grass Seeds 3-6 à 100.0% (mode normal) ; Fungal Clump 1-1 à 100.0% (mode normal) ; Delicious Meat 4-7 à 100.0% (mode normal) ; Shroomerang 1-1 à 25.0% (mode normal)
 - **Cragmaw Mire** : Septic Skewer 1-1 à 25.0%
 - **Crimson Slime Spawn** : Blindfold 1-1 à 1.0%
 - **Cryogen** : Frozen Key 1-1 à 20.0% (mode normal) ; Soul of Cryogen 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Effluvium Bow 1-1 à 25.0% (mode normal)
+- **Derpling** : Beetle Juice 1-1 à 25.0%
 - **Desert Scourge** : Sandy Angling Kit 1-1 à 100.0% (mode normal) ; Parched Scale 7-14 à 100.0% (mode normal) ; Profaned Shard 1-1 à 100.0% (mode normal) ; Abyss Bar 3-8 à 100.0% (mode normal) ; Sand Block 261-820 à 100.0% (mode normal) ; Ocean Crest 1-1 à 100.0% (mode normal) ; Delicious Meat 4-4 à 20.0% (mode normal) ; Lesser Healing Potion 8-14 à 100.0% (mode normal) ; Aero Stone 1-1 à 20.0% (mode normal) ; Seabound Staff 1-1 à 25.0% (mode normal) ; Storm Spray 1-1 à 25.0% (mode normal) ; Aquatic Discharge 1-1 à 25.0% (mode normal)
 - **Despair Stone** : Essence of Chaos 1-1 à 33.3% [In Hardmode]
 - **Devil Fish** : Lumenyl 1-1 à 50.0% [After defeating Calamitas]
@@ -47,12 +49,14 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Hadarian** : Stardust 2-3 à 100.0% ; Hadarian Membrane 1-1 à 50.0% [After defeating Astrum Aureus]
 - **Heat Spirit** : Essence of Chaos 1-1 à 25.0% [In Hardmode]
 - **Hemogoblin Shark** : Grandiose Gland 1-2 à 50.0%
+- **Impious Immolator** : Energy Staff 1-1 à 6.7%
 - **Laserfish** : Lumenyl 1-1 à 50.0% [After defeating Calamitas]
 - **Mantis** : Stardust 2-3 à 100.0%
 - **Martian Officer** : Shock Grenade 3-8 à 25.0%
 - **Martian Saucer** : Nullification Pistol 1-1 à 14.3% (mode normal) ; Nullification Pistol 1-1 à 25.0% (Expert, direct)
 - **Martian Walker** : Wingman 1-1 à 14.3%
 - **Mauler** : Fetid Emesis 1-1 à 25.0%
+- **Mirage Jelly** : Mana Jelly 1-1 à 14.3%
 - **Moon Lord** : Celestial Onion 1-1 à 100.0% (mode normal) ; Celestial Onion 1-1 à 100.0% (Expert, direct) ; Utensil Poker 1-1 à 25.0% (mode normal) ; Utensil Poker 1-1 à 33.3% (Expert, direct)
 - **Moray Eel** : Depth Crusher 1-1 à 6.7%
 - **Nova** : Stardust 2-3 à 100.0%
@@ -141,10 +145,8 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Toxic Wisdom — 2
 - Trash of Magnus — 2
 - Aftershock — 1
-- Amidias' Spark — 1
 - Ancient Shiv — 1
 - Ash's Cloak — 1
-- Beetle Juice — 1
 - Bittercold Staff — 1
 - Blood Clot Staff — 1
 - Bloody Rupture — 1
@@ -164,15 +166,12 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Divine Intervention — 1
 - Earthen Clicker — 1
 - Empress Flah — 1
-- Energy Staff — 1
 - Eradicator — 1
 - Eutrophic Scimitar — 1
 - Eutrophic Shank — 1
 - Excelsus — 1
 - Frigid Bar — 1
-- Fungal Carapace — 1
 - Ghast Relic — 1
-- Godspawn Helix Staff — 1
 - Hi-Scan Camera — 1
 - Holiday Halberd — 1
 - Holy Purge — 1
@@ -182,7 +181,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Kos Fragment — 1
 - Leaves of Crabulon — 1
 - Li'l Mine — 1
-- Mana Jelly — 1
 - Metamorphic Stone — 1
 - Microxodonta — 1
 - Mirage Jelly (item) — 1

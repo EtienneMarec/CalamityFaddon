@@ -2,7 +2,7 @@
 
 _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne correspond à aucun DisplayName de Calamity. Attention : des objets vanilla ou des pages renommées peuvent s'y glisser.
 
-## Weapon (522)
+## Weapon (521)
 
 - [ ] A M S
 - [ ] AAMG "Disperse" — pas de sprite; addon: Calamity: Tales of the Aquatic
@@ -163,7 +163,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Elemental Shiv
 - [ ] Elusive Feather
 - [ ] Endentant Bow — addon: Calamity: Tales of the Aquatic
-- [ ] Energy Staff
+- [x] Energy Staff
 - [ ] Eradicator
 - [ ] Ethereal Knives
 - [ ] Eutrophic Scimitar
@@ -209,7 +209,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Gluehunter — addon: Calamity: Tales of the Aquatic
 - [ ] Gluelic Blade — addon: Calamity: Tales of the Aquatic
 - [ ] God's Bellows
-- [ ] Godspawn Helix Staff
 - [ ] Golden Gun
 - [ ] Gourdler — addon: Calamity: Community Remix
 - [ ] Grand Gar
@@ -527,7 +526,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Yanmei's Knife
 - [x] Zweihandromeda
 
-## Crafting material (149)
+## Crafting material (150)
 
 - [x] Absolute Gel
 - [x] Absolute Spirit Essence
@@ -541,6 +540,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Astral Pearl — addon: Calamity: Community Remix
 - [x] Auric Soul
 - [x] Baronacre — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [x] Beetle Juice
 - [x] Blank Scroll — addon: Deimos, the Starborn Princess
 - [x] Blessed Flah
 - [x] Blighted Lens
@@ -684,7 +684,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Abyssal Amulet
 - [ ] Aegis Core — addon: Calamity: Tales of the Aquatic
 - [ ] Alchemical Flask
-- [ ] Amidias' Spark
+- [x] Amidias' Spark
 - [ ] Ancient Essence of Merge — addon: Calamity: Tales of the Aquatic
 - [ ] Aquatic Shardstone — addon: Calamity: Tales of the Aquatic
 - [ ] Arcanoid Orb — addon: Calamity: Tales of the Aquatic
@@ -740,7 +740,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Fathomless Soul Artifact
 - [ ] Ferro Claws
 - [ ] Frigid Bulwark
-- [ ] Fungal Carapace
+- [x] Fungal Carapace
 - [x] Gehenna
 - [ ] Ghast Relic — addon: Calamity: Tales of the Aquatic
 - [ ] Gift of the Red — addon: Calamity: Tales of the Aquatic
@@ -757,7 +757,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Lumenous Amulet
 - [ ] Lunarspectre Tracers — addon: Calamity: Tales of the Aquatic
 - [ ] Magna Core — addon: Calamity: Community Remix
-- [ ] Mana Jelly
+- [x] Mana Jelly
 - [ ] Metamorphic Stone
 - [ ] Microxodonta
 - [ ] Mirage Jelly (item)
@@ -949,7 +949,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Yharim Bar — addon: Calamity: Community Remix
 - [x] Zotplate
 
-## Debuff (64)
+## Debuff (65)
 
 - [x] Ablaze — pas de sprite
 - [ ] Abyssal Flames
@@ -976,6 +976,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Envoidment — addon: Tranquility Mod
 - [ ] Eradication — addon: Calamity: Tales of the Aquatic
 - [ ] Evercold — addon: Calamity: Tales of the Aquatic
+- [ ] Exo Freeze
 - [ ] Flahmes
 - [ ] Flesh Totem Cooldown
 - [ ] Flight Curse — addon: Tranquility Mod
@@ -1587,10 +1588,11 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Reinforced Noctiplate Wall — addon: Calamity: Tales of the Aquatic
 - [ ] Reinforced Redplate Wall — addon: Calamity: Tales of the Aquatic
 
-## Burrowing Enemy (9)
+## Burrowing Enemy (10)
 
 - [ ] Armored Digger
 - [ ] Bronze Serpent
+- [ ] Cosmic Guardian — addon: Deimos, the Starborn Princess
 - [ ] Devourer Spawn
 - [ ] Dried Seeker
 - [ ] Lav'e Rugamarius — addon: Polyphemalus

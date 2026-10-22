@@ -7,25 +7,25 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | redirect | 4818 |
 | content | 3619 |
 | changelog | 222 |
-| contenu correspondant à Calamity | 1384 |
-| contenu officiel renommé (via redirection) | 33 |
+| contenu correspondant à Calamity | 1381 |
+| contenu officiel renommé (via redirection) | 34 |
 | pages regroupant plusieurs objets officiels | 74 |
-| officiel ou renommé avec stats divergentes | 718 |
-| contenu inconnu de Calamity avec infobox | 1593 |
-| dont avec sprite trouvé | 1496 |
+| officiel ou renommé avec stats divergentes | 719 |
+| contenu inconnu de Calamity avec infobox | 1595 |
+| dont avec sprite trouvé | 1498 |
 | pages marquées addon / fantag | 778 |
 | pages de wiki/ modifiées ou créées par rapport au Fandom | 548 |
-| **pages implémentées dans le mod** | **250** |
+| **pages implémentées dans le mod** | **255** |
 
 ## Types d'infobox (contenu nouveau)
 
 | Type | Nombre |
 |---|---|
-| Weapon | 522 |
-| Crafting material | 149 |
+| Weapon | 521 |
+| Crafting material | 150 |
 | Covering | 149 |
 | Block | 115 |
-| Debuff | 64 |
+| Debuff | 65 |
 | Potion | 64 |
 | Boss | 60 |
 | Enemy | 59 |
@@ -44,7 +44,7 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | Pet Summon | 11 |
 | Item | 11 |
 | Wall | 10 |
-| Burrowing Enemy | 9 |
+| Burrowing Enemy | 10 |
 | Critter | 7 |
 | Bait | 7 |
 | Buff | 6 |

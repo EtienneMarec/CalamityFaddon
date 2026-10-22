@@ -2,7 +2,7 @@
 
 _Généré par `tools/gen_localization.py`._
 
-162 textes modifiés, dont 48 noms.
+163 textes modifiés, dont 49 noms.
 
 Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom Brick Wall, Hide of Astrum Deus, Uelibloom Brick, Realm Ravager, going rogue, goes rogue, gone rogue, went rogue, go rogue.
 
@@ -48,6 +48,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Materials.ScoriaBar.DisplayName` | Scoria Bar | Abyss Bar |
 | `Items.Placeables.ScoriaOre.DisplayName` | Scoria Ore | Abyss Ore |
 | `Items.Materials.SeaRemains.DisplayName` | Sea Remains | Victide Bar |
+| `Items.Weapons.Summon.StarspawnHelixStaff.DisplayName` | Starspawn Helix Staff | Godspawn Helix Staff |
 | `Items.Pets.TheEtomer.DisplayName` | The Etomer | Triboluminescent Etomer |
 | `Items.Lore.LoreRavager.DisplayName` | The Ravager | The Meatmetal Sans |
 | `Items.TreasureBags.AstrumDeusBag.DisplayName` | Treasure Bag (Astrum Deus) | Treasure Bag (Astral Deus) |
