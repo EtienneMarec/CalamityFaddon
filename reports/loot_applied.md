@@ -2,16 +2,17 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 70 drops ajoutés sur 36 PNJ
-- 206 drops du wiki déjà présents dans le jeu (inchangés)
-- 127 drops à condition écrite en note, non appliqués (voir `reports/loot.md`)
-- 170 PNJ du wiki absents du jeu, 73 objets introuvables
+- 76 drops ajoutés sur 37 PNJ
+- 69 ajouts dans 20 sacs
+- 378 drops du wiki déjà présents dans le jeu (inchangés)
+- 126 drops à condition écrite en note, non appliqués (voir `reports/loot.md`)
+- 172 PNJ du wiki absents du jeu, 87 objets introuvables
 
 ## Ajouts
 
 - **Aero Slime** : Skyline Wings 1-1 à 3.0%
 - **Aquatic Scourge** : Sulphurous Sand 5-15 à 100.0% (mode normal) ; Aquatic Emblem 1-1 à 100.0% (mode normal) ; Deep Diver 1-1 à 10.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal)
-- **Astral Deus** : Stardust 55-95 à 100.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal)
+- **Astral Deus** : Stardust 55-95 à 100.0% (mode normal) ; Hide of Astrum Deus 1-1 à 100.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal)
 - **Astral Slime** : Stardust 1-3 à 50.0%
 - **Astralachnea** : Stardust 2-3 à 100.0%
 - **Astrum Aureus** : Soul of Bright 20-40 à 100.0% (mode normal) ; Hallowed Key 1-1 à 20.0% (mode normal) ; Stardust 20-30 à 100.0% (mode normal) ; Fallen Star 18-24 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal)
@@ -25,11 +26,11 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Cragmaw Mire** : Septic Skewer 1-1 à 25.0%
 - **Crimson Slime Spawn** : Blindfold 1-1 à 1.0%
 - **Cryogen** : Frozen Key 1-1 à 20.0% (mode normal) ; Soul of Cryogen 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal)
-- **Desert Scourge** : Parched Scale 7-14 à 100.0% (mode normal) ; Profaned Shard 1-1 à 100.0% (mode normal) ; Sand Block 261-820 à 100.0% (mode normal) ; Ocean Crest 1-1 à 100.0% (mode normal) ; Delicious Meat 4-4 à 20.0% (mode normal) ; Lesser Healing Potion 8-14 à 100.0% (mode normal)
+- **Desert Scourge** : Sandy Angling Kit 1-1 à 100.0% (mode normal) ; Parched Scale 7-14 à 100.0% (mode normal) ; Profaned Shard 1-1 à 100.0% (mode normal) ; Abyss Bar 3-8 à 100.0% (mode normal) ; Sand Block 261-820 à 100.0% (mode normal) ; Ocean Crest 1-1 à 100.0% (mode normal) ; Delicious Meat 4-4 à 20.0% (mode normal) ; Lesser Healing Potion 8-14 à 100.0% (mode normal)
 - **Eidolist** : Lunar Cultist Hood 1-1 à 10.0% ; Lunar Cultist Robe 1-1 à 10.0%
 - **Flak Crab** : Cadaverous Carrion 1-1 à 5.0%
 - **Fusion Feeder** : Stardust 2-3 à 100.0%
-- **Great Sand Shark** : Sand Shark Tooth Necklace 1-1 à 25.0% (mode normal) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Shifting Sands, Tumbleweed (mode normal)
+- **Great Sand Shark** : Sand Shark Tooth Necklace 1-1 à 25.0% (mode normal) ; Sand Shark Tooth Necklace 1-1 à 33.3% (Expert, direct) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Shifting Sands, Tumbleweed (mode normal) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Shifting Sands, Tumbleweed (Expert, direct)
 - **Hadarian** : Stardust 2-3 à 100.0%
 - **Mantis** : Stardust 2-3 à 100.0%
 - **Mauler** : Fetid Emesis 1-1 à 25.0%
@@ -37,6 +38,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Nova** : Stardust 2-3 à 100.0%
 - **Perforator Cyst** : Crimtane Ore 10-26 à 100.0%
 - **Pestilent Slime** : Apocalyptic Ore 10-26 à 100.0%
+- **Plagueshell** : Apocalyptic Ore 11-13 à 33.0%
 - **Providence, the Profaned Goddess** : Supreme Healing Potion 5-15 à 100.0% (mode normal)
 - **Shockstorm Shuttle** : The Transformer 1-1 à 10.0%
 - **Signus** : Spectral Veil 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal)
@@ -46,78 +48,115 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **The Slime God** : Mana Polarizer 1-1 à 100.0% ; Healing Potion 5-15 à 100.0%
 - **Trilobite** : Toxicant Twister 1-1 à 5.0%
 
+## Ajouts dans les sacs
+
+- **Treasure Bag (Aquatic Scourge)** : Sulphurous Sand 5-15 à 100.0% ; Deep Diver 1-1 à 10.0% ; Greater Healing Potion 8-14 à 100.0% ; Aquatic Scourge Trophy 1-1 à 10.0%
+- **Treasure Bag (Astral Deus)** : Stardust 65-105 à 100.0% ; Solar Fragment 20-32 à 100.0% ; Vortex Fragment 20-32 à 100.0% ; Nebula Fragment 20-32 à 100.0% ; Stardust Fragment 20-32 à 100.0% ; Greater Healing Potion 8-14 à 100.0% ; Astral Deus Trophy 1-1 à 10.0%
+- **Treasure Bag (Astrum Aureus)** : Hallowed Key 1-1 à 20.0% (page Treasure Bag) ; Stardust 30-40 à 100.0% (page Treasure Bag) ; Soul of Bright 35-50 à 100.0% ; Supreme Healing Potion 5-15 à 100.0% ; Astrum Aureus Trophy 1-1 à 10.0%
+- **Treasure Bag (Brimstone Elemental)** : Abaddon 1-1 à 100.0% (page Treasure Bag) ; Essence of Chaos 5-9 à 100.0% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Brimstone Elemental Trophy 1-1 à 10.0%
+- **Treasure Bag (Calamitas Clone)** : Essence of Chaos 5-9 à 100.0% (page Treasure Bag) ; Blighted Lens 1-3 à 100.0% (page Treasure Bag) ; Ashes of Annihilation 14-18 à 100.0% ; Broken Hero Sword 1-1 à 100.0% ; Greater Healing Potion 5-15 à 100.0% ; Calamitas Trophy 1-1 à 10.0%
+- **Treasure Bag (Ceaseless Void)** : Supreme Healing Potion 5-15 à 100.0% ; Ceaseless Void Trophy 1-1 à 10.0%
+- **Treasure Bag (Crabulon)** : Shroomerang 1-1 à 33.3% (page Treasure Bag) ; Delicious Meat 4-7 à 100.0% ; Crabulon Trophy 1-1 à 10.0%
+- **Treasure Bag (Cryogen)** : Frozen Key 1-1 à 20.0% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Cryogen Trophy 1-1 à 10.0%
+- **Treasure Bag (Desert Scourge)** : Aero Stone 1-1 à 20.0% (page Treasure Bag) ; Sandy Angling Kit 1-1 à 100.0% (page Treasure Bag) ; Parched Scale 10-16 à 100.0% ; Profaned Shard 1-1 à 100.0% ; Abyss Bar 10-17 à 100.0% ; Sand Block 261-820 à 100.0% ; Delicious Meat 4-4 à 20.0% ; Lesser Healing Potion 8-14 à 100.0% ; Desert Scourge Trophy 1-1 à 10.0%
+- **Treasure Bag (Leviathan and Anahita)** : Hotline Fishing Hook 1-1 à 10.0% (page Treasure Bag) ; Super Absorbant Sponge 1-1 à 10.0% (page Treasure Bag) ; Bottomless Water Bucket 1-1 à 10.0% (page Treasure Bag) ; Crate Potion 5-8 à 20.0% (page Treasure Bag) ; Fishing Potion 5-8 à 20.0% (page Treasure Bag) ; Sonar Potion 5-8 à 20.0% (page Treasure Bag)
+- **Treasure Bag (Polterghast)** : Phantoplasm 40-50 à 100.0% (page Treasure Bag)
+- **Treasure Bag (Providence, the Profaned Goddess)** : Supreme Healing Potion 5-15 à 100.0% ; Providence Trophy 1-1 à 10.0%
+- **Treasure Bag (Signus)** : Supreme Healing Potion 5-15 à 100.0% ; Signus Trophy 1-1 à 10.0%
+- **Treasure Bag (The Devourer of Gods)** : Norfleet 1-1 à 10.0% (page Treasure Bag) ; Cosmic Worm 30-39 à 100.0% (page Treasure Bag)
+- **Treasure Bag (The Dragonfolly)** : Swordsplosion 1-1 à 10.0% (page Treasure Bag)
+- **Treasure Bag (The Hive Mind)** : Rotten Matter 30-40 à 100.0% (page Treasure Bag)
+- **Treasure Bag (The Old Duke)** : Supreme Healing Potion 5-15 à 100.0% ; Old Duke Trophy 1-1 à 10.0%
+- **Treasure Bag (The Perforators)** : Blood Sample 30-40 à 100.0% (page Treasure Bag)
+- **Treasure Bag (The Plaguebringer Goliath)** : Pestilent Defiler 1-1 à 33.3% (page Treasure Bag) ; Pandemic 1-1 à 33.3% (page Treasure Bag) ; The Hive 1-1 à 33.3% (page Treasure Bag) ; Blight Spewer 1-1 à 33.3% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Jungle Key 1-1 à 100.0% ; Plaguebringer Goliath Trophy 1-1 à 10.0%
+- **Treasure Bag (The Slime God)** : Slime Puppet Staff 1-1 à 33.3% (page Treasure Bag)
+
 ## Objets introuvables (contenu à créer)
 
 - Titan Finger — 10
+- Aquatic Discharge — 2
+- Bad Apple — 2
+- Blazing Core — 2
+- Bleached Angling Kit — 2
+- Blow Pipe — 2
+- Calamitas Mask — 2
 - Clam Chowder — 2
+- Cold Divinity — 2
+- Corroslime Staff — 2
+- Crimslime Staff — 2
+- Decomposition — 2
+- Disease — 2
+- Diseased Pike — 2
+- Effluvium Bow — 2
+- Flask of Plague — 2
+- Gehenna — 2
+- Glacial Crusher — 2
+- Gravistar Sabaton — 2
+- Honey Cooling Cell — 2
 - Lead Core — 2
+- Metal Ball — 2
+- Phlegm — 2
+- Plague Balloon — 2
+- Poison I-Bee — 2
+- Reemergence — 2
+- Regenator — 2
+- Romulus — 2
+- Seabound Staff — 2
+- Sewer Brewer — 2
+- Solar Flare — 2
+- Storm Spray — 2
 - Sulfuric Scale — 2
+- Surgical Glove — 2
+- The Needler — 2
+- Toxic Wisdom — 2
+- Trash of Magnus — 2
 - Aftershock — 1
 - Amidias' Spark — 1
-- Aquatic Discharge — 1
-- Bad Apple — 1
-- Blazing Core — 1
-- Bleached Angling Kit — 1
-- Blow Pipe — 1
-- Calamitas Mask — 1
+- Blood Clot Staff — 1
+- Bloody Rupture — 1
+- Brackish Flask — 1
 - Cirrhotipede — 1
-- Cold Divinity — 1
 - Contaminated Dish — 1
-- Corroslime Staff — 1
-- Crimslime Staff — 1
 - Death-Needle Stinger — 1
-- Decomposition — 1
-- Disease — 1
-- Diseased Pike — 1
+- Deathhail Staff — 1
+- Deathwind — 1
 - Earthen Clicker — 1
-- Effluvium Bow — 1
 - Energy Staff — 1
+- Eradicator — 1
 - Eutrophic Scimitar — 1
-- Flask of Plague — 1
-- Gehenna — 1
+- Excelsus — 1
 - Ghast Relic — 1
-- Glacial Crusher — 1
 - Godspawn Helix Staff — 1
-- Gravistar Sabaton — 1
 - Hi-Scan Camera — 1
-- Hide of Astral Deus — 1
-- Honey Cooling Cell — 1
 - Infected Dagger Misses No Skeptics — 1
 - Jellyfish Cannonball — 1
 - Leaves of Crabulon — 1
 - Li'l Mine — 1
 - Mana Jelly — 1
-- Metal Ball — 1
 - Metamorphic Stone — 1
 - Microxodonta — 1
 - Mirage Jelly (item) — 1
-- Phlegm — 1
-- Plague Balloon — 1
 - Plaguecom Tablet — 1
-- Poison I-Bee — 1
 - Prehistoric Tablet — 1
 - Profaned Nucleus — 1
 - Purgatory Blaster — 1
 - Quasar — 1
-- Reemergence — 1
-- Regenator — 1
-- Romulus — 1
 - Sandslasher — 1
 - Sandstorm (weapon) — 1
-- Sandy Angling Kit — 1
-- Seabound Staff — 1
-- Sewer Brewer — 1
-- Solar Flare — 1
+- Shadowdrop Staff — 1
+- Staff of the Mechworm — 1
 - Starfall — 1
-- Storm Spray — 1
-- Surgical Glove — 1
+- Storm Dragoon — 1
 - Tapehook — 1
 - The Food Chain — 1
 - The Inflator's Controller — 1
-- The Needler — 1
 - The Reaper — 1
-- Toxic Wisdom — 1
-- Trash of Magnus — 1
+- Thunderstorm — 1
+- Treasure Bag (Astrum Deus) — 1
+- Treasure Bag (Jungle Dragon, Yharon) — 1
+- Treasure Bag (Ravager) — 1
+- Treasure Bag (The Fabricational Quartet) — 1
+- Treasure Bag (The Inventors) — 1
+- Treasure Coffer — 1
 - Tree-Crown Wings — 1
-- Vacuillium Ore — 1
 - Varroa Hack — 1

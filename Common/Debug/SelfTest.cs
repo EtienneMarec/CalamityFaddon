@@ -307,14 +307,16 @@ namespace CalamityFandom.Common.Debug
             foreach (var (npc, rule, what) in WikiLoot.Added)
                 Expect(Main.ItemDropsDB.GetRulesForNPCID(npc, false).Contains(rule), $"butin de {Lang.GetNPCNameValue(npc)} absent : {what}");
             Expect(WikiLoot.Added.Count > 50, $"drops ajoutés : {WikiLoot.Added.Count}");
-            // Bestiaire recopié après nos changements : autant de lignes de butin que de drops réels
+            // Bestiaire recopié après nos changements (Calamity ajoute ensuite un drop « God Seed » en PostSetupRecipes,
+            // absent du bestiaire comme en jeu normal) : les PNJ modifiés qui ont leur entrée ont bien été recopiés
             foreach (int npc in WikiLoot.Added.Select(a => a.npc).Distinct())
             {
-                var rates = new List<DropRateInfo>();
-                foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(npc, false))
-                    r.ReportDroprates(rates, new DropRateInfoChainFeed(1f));
-                int shown = Main.BestiaryDB.FindEntryByNPCID(npc).Info.Count(e => e is Terraria.GameContent.Bestiary.ItemDropBestiaryInfoElement);
-                Expect(shown == rates.Count, $"bestiaire de {Lang.GetNPCNameValue(npc)} : {shown} lignes pour {rates.Count} drops");
+                var entry = Main.BestiaryDB.FindEntryByNPCID(npc);
+                if (!entry.Info.OfType<Terraria.GameContent.Bestiary.NPCNetIdBestiaryInfoElement>().Any(e => e.NetId == npc))
+                    continue;
+                int shown = entry.Info.Count(e => e is Terraria.GameContent.Bestiary.ItemDropBestiaryInfoElement);
+                Expect(WikiLoot.BestiaryLines.TryGetValue(npc, out int lines) && shown == lines,
+                    $"bestiaire de {Lang.GetNPCNameValue(npc)} : {shown} lignes pour {lines} drops recopiés");
             }
             // Sac au trésor jamais retiré (documenté par la page Treasure Bag), même en Full Fandom
             if (ModContent.TryFind<ModNPC>("CalamityMod", "DesertScourgeHead", out var scourge) && ModContent.TryFind<ModItem>("CalamityMod", "DesertScourgeBag", out var bag))

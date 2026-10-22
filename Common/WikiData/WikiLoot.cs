@@ -73,6 +73,8 @@ namespace CalamityFandom.Common.WikiData
         /// <summary>Règles ajoutées aux sacs (type du sac, règle, description).</summary>
         public static List<(int bag, IItemDropRule rule, string what)> AddedToBags { get; } = new();
         public static int AlreadyDropped, Conditional, RemovedNotOnWiki, RemovedFromBags;
+        /// <summary>Lignes de butin écrites dans le bestiaire, par PNJ qui a sa propre entrée (pour l'auto-test).</summary>
+        public static Dictionary<int, int> BestiaryLines { get; } = new();
         public static SortedDictionary<string, int> MissingItems { get; } = new();
         public static List<string> MissingNPCs { get; } = new();
 
@@ -87,6 +89,7 @@ namespace CalamityFandom.Common.WikiData
             data = null;
             Added.Clear();
             AddedToBags.Clear();
+            BestiaryLines.Clear();
             MissingItems.Clear();
             MissingNPCs.Clear();
             AlreadyDropped = Conditional = RemovedNotOnWiki = RemovedFromBags = 0;
@@ -112,6 +115,7 @@ namespace CalamityFandom.Common.WikiData
                 int target = types.OrderByDescending(t => Main.ItemDropsDB.GetRulesForNPCID(t, false).Count).ThenBy(t => t).First();
                 ApplyToNPC(target, npcData);
             }
+            RefreshBestiary();
         }
 
         // ------------------------------------------------------------------ outils
@@ -367,19 +371,24 @@ namespace CalamityFandom.Common.WikiData
 
         /// <summary>
         /// Le bestiaire copie le butin une seule fois, avant les recettes (ModContent.SetupBestiary) : nos ajouts et
-        /// retraits (ici et dans FullFandomHiding, faits en PostAddRecipes) n'y apparaîtraient pas. On recopie le butin
-        /// de chaque PNJ une fois tout appliqué, comme BestiaryDatabase.ExtractDropsForNPC.
+        /// retraits n'y apparaîtraient pas. On recopie le butin de chaque PNJ une fois tout appliqué, comme
+        /// BestiaryDatabase.ExtractDropsForNPC. Appelé à la fin de notre PostAddRecipes : tModLoader appelle les systèmes
+        /// dans l'ordre alphabétique de leur nom complet, donc après FullFandomHiding (Common.Modes) et avant tout
+        /// PostSetupRecipes (dont l'auto-test).
         /// </summary>
-        public override void PostSetupRecipes()
+        private static void RefreshBestiary()
         {
             for (int npc = -65; npc < NPCLoader.NPCCount; npc++)
             {
                 var entry = Main.BestiaryDB.FindEntryByNPCID(npc);
-                if (entry == null)
+                // Sans entrée propre (variantes cachées), FindEntryByNPCID rend une entrée « poubelle » partagée
+                if (entry == null || !entry.Info.OfType<NPCNetIdBestiaryInfoElement>().Any(e => e.NetId == npc))
                     continue;
                 entry.Info.RemoveAll(e => e is ItemDropBestiaryInfoElement);
-                foreach (var rate in Rates(Main.ItemDropsDB.GetRulesForNPCID(npc, false)))
+                var rates = Rates(Main.ItemDropsDB.GetRulesForNPCID(npc, false));
+                foreach (var rate in rates)
                     entry.Info.Add(new ItemDropBestiaryInfoElement(rate));
+                BestiaryLines[npc] = rates.Count;
             }
         }
 
