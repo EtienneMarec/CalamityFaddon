@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 
-## PNJ (158)
+## PNJ (152)
 
 - Acidsighter
 - Aether Valkyrie
@@ -20,7 +20,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Banana Clown
 - Barocrab
 - Barocraw
-- Big Sightseer
 - Birdest Up, Kulu-Yharon-Ku
 - Blighted Eye
 - Blockhound
@@ -32,7 +31,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Catfish (enemy)
 - Ceasing Void
 - Charm Gar
-- Charred Slime
 - Chasm Beast
 - Cinder
 - Cinderlamitas
@@ -43,7 +41,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Crimson Kaiju
 - Crown Jewel (enemy)
 - Cuboid Curse
-- Cultist Assassin
 - Cumulomenace
 - Cyber Draedon
 - Cyrogen
@@ -77,7 +74,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Fat Blighted Eye
 - Fatal Circuit
 - Floating Biomass
-- Flounder
 - Frigidemon
 - Frost Hog
 - Frost Imp
@@ -92,8 +88,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Green Demon
 - Green Phantom
 - Heavenly Ogsculite
-- Hive (Enemy)
-- Hive Cyst
 - Hydrogen
 - Ionogen
 - Jungle Dragon Yharon
@@ -163,7 +157,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (536)
+## Objets (493)
 
 - A M S
 - AAMG "Disperse"
@@ -200,12 +194,10 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Augar of the Elements
 - Auric Sword
 - Axisdriver
-- Azathoth
 - Bad Apple
 - Baow
 - Bazooka
 - Blade of Enmity
-- Blazing Core
 - Blazing Powder
 - Bleeding Influx
 - Blobfish Plushie
@@ -218,7 +210,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Bolide Launcher
 - Bouncing Betty
 - Bouncy Spiky Ball
-- Brackish Flask
 - Braxaxe
 - Breakthrough
 - Brimlash Buster
@@ -255,7 +246,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Clamor Noctus
 - Clamor Noxus
 - Cobadium Rifle
-- Cold Divinity
 - Coldant Firestarter
 - Coldetecht
 - Confection
@@ -276,19 +266,15 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Cursed Spear
 - Cyberlight Striker
 - Dark Energy Staff
-- Dark God's Sheath
 - Dark Harvest Staff
 - Dart Sun
 - Deadflower
 - Death-Needle Stinger
-- Deathhail Staff
-- Deathwind
 - Deck of Souls
 - Decomposition
 - Decreator
 - Deeepscale Bomb
 - Deicide
-- Deific Thunderbolt
 - Demon Core
 - Destinary
 - Dethermination
@@ -314,25 +300,17 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Ecological Collapse
 - Edgeterrence
 - Electrical Discharge
-- Elemental Axe
 - Elemental Bow
 - Elemental Claymore
-- Elemental Disk
-- Elemental Eruption
 - Elemental Excalibur
-- Elemental Lance
-- Elemental Ray
 - Elemental Saw Launcher
-- Elemental Shiv
 - Elusive Feather
 - Endentant Bow
-- Eradicator
 - Ethereal Knives
 - Eutrophic Scimitar
 - Eutrophic Shank
 - Evercoldance
 - Exactory Dartshooter
-- Excelsus
 - Exif Fist
 - Exo Dragonblade
 - Exo Gladius
@@ -354,7 +332,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Flounder Mortar
 - Fracture Staff
 - Fracturing Fist
-- Frequency Manipulator
 - Frightshooter
 - Frost Blade
 - Frostflow Edge
@@ -364,7 +341,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Gatling Laser
 - Gauss Dagger
 - Gauss Pistol
-- Gauss Rifle
 - Gearwork Shield
 - Gel Sword
 - Gel Wand
@@ -376,7 +352,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Gloomy Trident
 - Gluehunter
 - Gluelic Blade
-- God's Bellows
 - God's Paranoia
 - Golden Gun
 - Gourdler
@@ -386,7 +361,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Grarble Bayonet
 - Grarble Spear
 - Gravitonomy Pike
-- Greatsword of Blah
 - Guardians Wrath
 - Gusthammer
 - H.S Trident
@@ -397,7 +371,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Hand Hook
 - Hand of God
 - Heavenwing Staff
-- Heavy Laser Rifle
 - Helios Partisan
 - Hell Burst
 - Hell's Bells
@@ -431,7 +404,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Lithos Pickaxe
 - Luminous Striker
 - Lunatic Beats
-- Magical Conch
 - Magna Striker
 - Magnic Circularity
 - Magnum
@@ -443,14 +415,12 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Marked Magnum
 - Marnite Bayonet
 - Marnite Spear
-- Matter Modulator
 - Megaskeet
 - Meridian
 - Metal Ball
 - Microcell Cut
 - Microxodonta
 - Midas' Handshake
-- Minigun
 - Miracle Smacker
 - Molecular Manipulator
 - Molten Piercer
@@ -470,7 +440,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Nystagmus
 - Obsidigun
 - Ogscule
-- Old Lord Oathsword
 - Omega Ray
 - Onyx Gunblade
 - Onyx Minigun
@@ -483,7 +452,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - P.G.D.R.
 - Pandora's Chest
 - Pastranion
-- Phangasm
 - Phantasmal Rune
 - Phantom Lance
 - Phlegm
@@ -556,13 +524,11 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Shadowdrop Staff
 - Shattered Module
 - Shattered Pistol
-- Shattered Sun
 - Sign of the Operator
 - Sillyshark
 - Skull Fracture
 - Sky Clearer
 - Sky Stabber
-- Slick Cane
 - Slimelgamation
 - Smoldering Seahorses
 - Snowgrave
@@ -575,10 +541,8 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Squirrel Knight Staff
 - Squirrel Prince Staff
 - Squirrel Viscount Staff
-- Staff of the Mechworm
 - Star Cannon EX
 - Star Flare
-- Star Swallower Containment Unit
 - Steel Blade
 - Steel Kunai
 - Stellar Kunai
@@ -586,22 +550,16 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Stratoctrine Spear
 - Stringstreaker
 - Summit Breaker
-- Sun God Staff
 - Supercharged Dart Blaster
 - Swift Sword
 - Sylvan Slasher
-- Taser
 - Technicate
 - Technomagica
 - Temporal Floe Sword
 - Tendon Tides
 - Tenebris Tides
 - Terra Bow
-- Terra Disk
 - Terra Edge
-- Terra Flameburster
-- Terra Lance
-- Terra Ray
 - Terra Shiv
 - Terra-cotta
 - Terrestrial Dart
@@ -628,21 +586,16 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - The Watered Pew Pew
 - The WOBbler
 - Thunder Bolt
-- Thunderstorm
 - Titan Tides
-- Tome of Fates
 - Totality Tides
 - Toxic Wisdom
-- Tracking Disk
 - Trash of Magnus
 - Trinity
 - Triploon
 - True Bloody Edge
 - True Caliburn
 - True Caustic Edge
-- True Forbidden Oathblade
 - True Night's Stabber
-- True Tyrant's Ultisword
 - Twentloon
 - Twenty-Twloon
 - Twin Cranes
@@ -652,7 +605,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Twisted Netherite Shovel
 - Twisted Netherite Sword
 - Tyrant Shield
-- Tyrant Yharim's Ultisword
 - Unending Void
 - Unloxcalibur
 - Unsealed Singularity
@@ -667,7 +619,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Virid Vangar
 - Vitreomance
 - Void Artifact
-- Void of Extinction
 - Vortex Dart
 - Wakasagihime
 - War Staff

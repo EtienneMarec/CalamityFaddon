@@ -336,7 +336,8 @@ namespace CalamityFandom.Common.WikiData
             foreach (var rule in Main.ItemDropsDB.GetRulesForNPCID(npc, false).ToList())
             {
                 var rates = Rates(new[] { rule });
-                if (rates.Count > 0 && rates.All(r => r.itemId == item))
+                // Nos propres règles restent (un objet cité deux fois, sur la page du PNJ et sur la sienne)
+                if (rates.Count > 0 && rates.All(r => r.itemId == item) && !Added.Any(a => a.npc == npc && a.rule == rule))
                 {
                     Main.ItemDropsDB.RemoveFromNPC(npc, rule);
                     removed++;
