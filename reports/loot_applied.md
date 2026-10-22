@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 142 drops ajoutés sur 68 PNJ
-- 87 ajouts dans 23 sacs
+- 146 drops ajoutés sur 68 PNJ
+- 91 ajouts dans 23 sacs
 - 478 drops du wiki déjà présents dans le jeu (inchangés)
 - 90 drops avec leur condition (boss vaincu, biome, premier kill)
 - 26 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 185 PNJ du wiki absents du jeu, 132 objets introuvables
+- 185 PNJ du wiki absents du jeu, 128 objets introuvables
 
 ## Ajouts
 
@@ -63,7 +63,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Pestilent Slime** : Apocalyptic Ore 10-26 à 100.0%
 - **Plagueshell** : Apocalyptic Ore 11-13 à 33.0%
 - **Plantera** : Essence of Babil 4-8 à 100.0% (mode normal)
-- **Providence, the Profaned Goddess** : Supreme Healing Potion 5-15 à 100.0% (mode normal)
+- **Providence, the Profaned Goddess** : Supreme Healing Potion 5-15 à 100.0% (mode normal) ; Solar Flare 1-1 à 25.0% (mode normal)
 - **Reaper Shark** : Cloaking Gland 2-3 à 100.0%
 - **Red Devil** : Essence of Chaos 1-1 à 50.0%
 - **Scryllar** : Essence of Chaos 1-1 à 33.3% [In Hardmode]
@@ -72,8 +72,8 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Soul Slurper** : Essence of Chaos 1-1 à 33.3% [In Hardmode]
 - **Tempest Toddler** : Desert Feather 2-4 à 100.0%
 - **The Old Duke** : Supreme Healing Potion 5-15 à 100.0% (mode normal)
-- **The Plaguebringer Goliath** : Toxic Heart 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Jungle Key 1-1 à 100.0% (mode normal) ; Pandemic 1-1 à 25.0% (mode normal) ; Pestilent Defiler 1-1 à 25.0% (mode normal) ; Blight Spewer 1-1 à 25.0% (mode normal) ; The Hive 1-1 à 25.0% (mode normal)
-- **The Slime God** : Mana Polarizer 1-1 à 100.0% (mode normal) ; Healing Potion 5-15 à 100.0% (mode normal) ; Slime Puppet Staff 1-1 à 25.0% (mode normal)
+- **The Plaguebringer Goliath** : Toxic Heart 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Jungle Key 1-1 à 100.0% (mode normal) ; Diseased Pike 1-1 à 25.0% (mode normal) ; Pandemic 1-1 à 25.0% (mode normal) ; Pestilent Defiler 1-1 à 25.0% (mode normal) ; Blight Spewer 1-1 à 25.0% (mode normal) ; The Hive 1-1 à 25.0% (mode normal)
+- **The Slime God** : Mana Polarizer 1-1 à 100.0% (mode normal) ; Healing Potion 5-15 à 100.0% (mode normal) ; Crimslime Staff 1-1 à 25.0% (mode normal) ; Corroslime Staff 1-1 à 25.0% (mode normal) ; Slime Puppet Staff 1-1 à 25.0% (mode normal)
 - **Trilobite** : Toxicant Twister 1-1 à 5.0%
 - **Viperfish** : Lumenyl 1-1 à 25.0% [After defeating Calamitas]
 - **Wall of Flesh** : Twisted Tendril 3-5 à 100.0% (mode normal)
@@ -95,15 +95,15 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (Leviathan and Anahita)** : Hotline Fishing Hook 1-1 à 10.0% (page Treasure Bag) ; Super Absorbant Sponge 1-1 à 10.0% (page Treasure Bag) ; Bottomless Water Bucket 1-1 à 10.0% (page Treasure Bag) ; Crate Potion 5-8 à 20.0% (page Treasure Bag) ; Fishing Potion 5-8 à 20.0% (page Treasure Bag) ; Sonar Potion 5-8 à 20.0% (page Treasure Bag)
 - **Treasure Bag (Plantera)** : Essence of Babil 5-9 à 100.0%
 - **Treasure Bag (Polterghast)** : Phantoplasm 40-50 à 100.0% (page Treasure Bag)
-- **Treasure Bag (Providence, the Profaned Goddess)** : Supreme Healing Potion 5-15 à 100.0% ; Providence Trophy 1-1 à 10.0%
+- **Treasure Bag (Providence, the Profaned Goddess)** : Solar Flare 1-1 à 33.3% (page Treasure Bag) ; Supreme Healing Potion 5-15 à 100.0% ; Providence Trophy 1-1 à 10.0%
 - **Treasure Bag (Signus)** : Supreme Healing Potion 5-15 à 100.0% ; Signus Trophy 1-1 à 10.0%
 - **Treasure Bag (The Devourer of Gods)** : Norfleet 1-1 à 10.0% (page Treasure Bag) ; Cosmic Worm 30-39 à 100.0% (page Treasure Bag)
 - **Treasure Bag (The Dragonfolly)** : Swordsplosion 1-1 à 10.0% (page Treasure Bag)
 - **Treasure Bag (The Hive Mind)** : Rotten Matter 30-40 à 100.0% (page Treasure Bag)
 - **Treasure Bag (The Old Duke)** : Supreme Healing Potion 5-15 à 100.0% ; Old Duke Trophy 1-1 à 10.0%
 - **Treasure Bag (The Perforators)** : Blood Sample 30-40 à 100.0% (page Treasure Bag)
-- **Treasure Bag (The Plaguebringer Goliath)** : Pestilent Defiler 1-1 à 33.3% (page Treasure Bag) ; Pandemic 1-1 à 33.3% (page Treasure Bag) ; The Hive 1-1 à 33.3% (page Treasure Bag) ; Blight Spewer 1-1 à 33.3% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Jungle Key 1-1 à 100.0% ; Plaguebringer Goliath Trophy 1-1 à 10.0%
-- **Treasure Bag (The Slime God)** : Slime Puppet Staff 1-1 à 33.3% (page Treasure Bag) ; Gel 180-250 à 100.0% ; Healing Potion 5-15 à 100.0% ; Slime God Trophy 1-1 à 10.0%
+- **Treasure Bag (The Plaguebringer Goliath)** : Pestilent Defiler 1-1 à 33.3% (page Treasure Bag) ; Pandemic 1-1 à 33.3% (page Treasure Bag) ; The Hive 1-1 à 33.3% (page Treasure Bag) ; Diseased Pike 1-1 à 33.3% (page Treasure Bag) ; Blight Spewer 1-1 à 33.3% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Jungle Key 1-1 à 100.0% ; Plaguebringer Goliath Trophy 1-1 à 10.0%
+- **Treasure Bag (The Slime God)** : Crimslime Staff 1-1 à 33.3% (page Treasure Bag) ; Corroslime Staff 1-1 à 33.3% (page Treasure Bag) ; Slime Puppet Staff 1-1 à 33.3% (page Treasure Bag) ; Gel 180-250 à 100.0% ; Healing Potion 5-15 à 100.0% ; Slime God Trophy 1-1 à 10.0%
 - **Treasure Bag (Wall of Flesh)** : Twisted Tendril 5-8 à 100.0%
 
 ## Objets introuvables (contenu à créer)
@@ -116,11 +116,8 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Blazing Core — 2
 - Blow Pipe — 2
 - Cold Divinity — 2
-- Corroslime Staff — 2
-- Crimslime Staff — 2
 - Decomposition — 2
 - Disease — 2
-- Diseased Pike — 2
 - Flask of Plague — 2
 - Gehenna — 2
 - Glacial Crusher — 2
@@ -136,7 +133,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Sewer Brewer — 2
 - Shock Grenade — 2
 - Slagspitter Pauldron — 2
-- Solar Flare — 2
 - Sulfuric Scale — 2
 - Surgical Glove — 2
 - The Insacred Texts — 2

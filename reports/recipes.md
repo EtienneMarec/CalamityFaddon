@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 904 objets dont les recettes ont changé : 808 recettes modifiées, 149 créées
+- 905 objets dont les recettes ont changé : 809 recettes modifiées, 149 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 324 recettes du wiki déjà identiques au jeu
 - 60 transmutations Shimmer ajoutées
-- 179 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 252 recettes
+- 178 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 251 recettes
 
 ## Recettes changées
 
@@ -886,6 +886,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | The Mechanical Trio | 1 Destroyer Trophy @ Bookcases → 1 | 1 Destroyer Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Mechanical Trio | 1 Retinazer Trophy @ Bookcases → 1 | 1 Spazmatism Trophy / Retinazer Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Mutilator | 25 Bloodstone, 10 Blood Orb @ MythrilAnvil → 1 | 5 Bloodstone Bar, 5 Unholy Blood Cells @ LunarCraftingStation → 1 |
+| The Oracle | 1 Burning Revelation, 1 The Obliterator, 5 Auric Bar @ CosmicAnvil → 1 | 1 The Obliterator, 1 Solar Flare, 5 Auric Bar @ CosmicAnvil → 1 |
 | The Pack | 1 Scorpio, 50 Smooth Marble Block, 8 Cosmilite Bar, 20 Endothermic Energy, 4 Armored Shell @ CosmicAnvil → 1 | 1 Scorpio, 50 Smooth Marble Block, 4 Armored Shell, 8 Cosmilite Bar, 20 Endothermic Energy, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | The Perforators and Their Hive | 1 Perforator Trophy @ Bookcases → 1 | 1 Perforator Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Prince | 1 Arch Amaryllis, 15 Divine Bar, 10 Unholy Essence @ MythrilAnvil → 1 | 1 Arch Amaryllis, 15 Divine Bar, 10 Unholy Essence, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
@@ -1121,7 +1122,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Salt Water Bolt — 1
 - objet : Shock Grenade — 1
 - objet : Skyalcon Spallation — 1
-- objet : Solar Flare — 1
 - objet : Spectre Rifle — 1
 - objet : Staff of the Mechworm — 1
 - objet : Star Cannon EX — 1

@@ -163,7 +163,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (549)
+## Objets (545)
 
 - A M S
 - AAMG "Disperse"
@@ -264,11 +264,9 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Contaminated Dish
 - Coral Cannon
 - Cored Line
-- Corroslime Staff
 - Corrupt Hypno Flute
 - Corrupted Crusher Blade
 - Creature Capsule
-- Crimslime Staff
 - Crimson Crusher Blade
 - Crius Prime
 - Crustalline
@@ -299,7 +297,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Devious Aestheticus
 - Digital Cheese Spear
 - Disease
-- Diseased Pike
 - Disseminator
 - Dissfusion Disk
 - Divine Hunters Staff
@@ -575,7 +572,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Slimelgamation
 - Smoldering Seahorses
 - Snowgrave
-- Solar Flare
 - Soul Edge
 - Spear of Liberty
 - Spectre Rifle

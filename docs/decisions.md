@@ -272,6 +272,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   **Regenator** (effet disparu du code actuel : repris de 2.0.1.005, vie max x0,5, régénération +12), **Storm Spray**,
   **Aquatic Discharge** (use 12 ; étincelles quand le coup **tue**, comme le dit la page, au lieu de chaque coup).
   **[technique]** « Calamitas Mask » = l'actuel Calamitas Clone Mask : simple alias.
+  Second lot : **Solar Flare** (yoyo de Providence), **Diseased Pike** (lance de la Plaguebringer Goliath),
+  **Crimslime Staff** / **Corroslime Staff** (The Slime God ; use 29 du wiki ; leurs indicateurs du vieux
+  CalamityPlayer remplacés par le buff du sbire). Valeurs identiques au vieux code sauf mention.
 - **[choix]** Groupe « One of the following N items » dont le jeu ne donne qu'une partie (Desert Scourge : Calamity a
   gardé Barinade et Scourge of the Desert, remplacé les autres) : les objets absents sont ajoutés un par un avec leur
   chance de la page (Seabound Staff, Storm Spray, Aquatic Discharge à 25 %), en plus du groupe du jeu.

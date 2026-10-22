@@ -77,6 +77,30 @@ Items: {
 		Tooltip: Fires a spray of water that drips extra trails of water
 	}
 
+	SolarFlare: {
+		DisplayName: Solar Flare
+		Tooltip:
+			'''
+			Emits large holy explosions on hit
+			A very agile yoyo
+			'''
+	}
+
+	DiseasedPike: {
+		DisplayName: Diseased Pike
+		Tooltip: Fires plague seekers on hit
+	}
+
+	CrimslimeStaff: {
+		DisplayName: Crimslime Staff
+		Tooltip: Summons a crim slime to fight for you
+	}
+
+	CorroslimeStaff: {
+		DisplayName: Corroslime Staff
+		Tooltip: Summons a corro slime to fight for you
+	}
+
 	AquaticDischarge: {
 		DisplayName: Aquatic Discharge
 		Tooltip:
@@ -111,6 +135,10 @@ Projectiles: {
 	WaterStreamDrip.DisplayName: Stream
 	AquaticDischargeProj.DisplayName: Aquatic Discharge
 	AquaticDischargeSpark.DisplayName: Spark
+	SolarFlareYoyo.DisplayName: Solar Flare
+	DiseasedPikeSpear.DisplayName: Pike
+	CrimslimeMinion.DisplayName: Crimslime
+	CorroslimeMinion.DisplayName: Corroslime
 }
 
 Elements: {
@@ -135,6 +163,16 @@ Elements: {
 }
 
 Buffs: {
+	Crimslime: {
+		DisplayName: Crimslime
+		Description: The crimslime will protect you
+	}
+
+	Corroslime: {
+		DisplayName: Corroslime
+		Description: The corroslime will protect you
+	}
+
 	Numbed: {
 		DisplayName: Numbed
 		Description: Slowed down and weakened by the cold

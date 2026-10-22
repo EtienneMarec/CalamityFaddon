@@ -96,12 +96,12 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Coral Cannon
 - [ ] Cored Line — addon: Calamity: Tales of the Aquatic
 - [ ] Corrosive Eye Staff
-- [ ] Corroslime Staff
+- [x] Corroslime Staff
 - [ ] Corrupt Hypno Flute — addon: Calamity: Community Remix
 - [ ] Corrupted Crusher Blade
 - [ ] Creature Capsule
 - [ ] Crimsaber
-- [ ] Crimslime Staff
+- [x] Crimslime Staff
 - [ ] Crimson Crusher Blade
 - [ ] Crius Prime — addon: Deimos, the Starborn Princess
 - [ ] Crustalline
@@ -133,7 +133,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Diminishing Victory
 - [ ] Dirt Clump
 - [ ] Disease
-- [ ] Diseased Pike
+- [x] Diseased Pike
 - [ ] Disseminator
 - [ ] Dissfusion Disk — addon: Calamity: Tales of the Aquatic
 - [ ] Divine Retribution
@@ -392,7 +392,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Slime Gun EX
 - [ ] Smoldering Seahorses
 - [ ] Snowgrave — addon: Apotheosis and Friends
-- [ ] Solar Flare
+- [x] Solar Flare
 - [ ] Soul Edge
 - [ ] Spear of Liberty — addon: Calamity: Community Remix, Calamity: Community Remix
 - [ ] Spectre Rifle
