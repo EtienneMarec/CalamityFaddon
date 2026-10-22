@@ -280,6 +280,7 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Quatrième lot : **Mana Jelly**, **Fungal Carapace**, **Amidias' Spark** (effets « quand on est touché » repris du
   vieux CalamityPlayer dans un ModPlayer), **Energy Staff** (remplacé par la Sanctified Spark en 2023 ; réutilise sa
   tourelle Profaned Energy). **Beetle Juice** : matériau simple, généré par `gen_items.py` comme les autres.
+  Cinquième lot : **Starfall** (50 dégâts du wiki au lieu de 57), **Storm Dragoon**, **Soul Edge** (use 22).
   **[choix]** Renommage : Starspawn Helix Staff → **Godspawn Helix Staff** (Calamity l'a seulement renommé).
   **[technique]** L'index ignore les noms restés dans la localisation de Calamity sans classe derrière (Beetle Juice,
   Cosmic Guardian, Exo Freeze passaient pour « officiels » alors qu'ils sont à porter).

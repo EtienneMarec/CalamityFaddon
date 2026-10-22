@@ -392,7 +392,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Smoldering Seahorses
 - [ ] Snowgrave — addon: Apotheosis and Friends
 - [x] Solar Flare
-- [ ] Soul Edge
+- [x] Soul Edge
 - [ ] Spear of Liberty — addon: Calamity: Community Remix, Calamity: Community Remix
 - [ ] Spectre Rifle
 - [ ] Squirrel Baron Staff
@@ -405,12 +405,12 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Staff of the Mechworm
 - [ ] Star Cannon EX
 - [ ] Star Flare — addon: Deimos, the Starborn Princess, Sloome
-- [ ] Starfall
+- [x] Starfall
 - [ ] Steel Blade
 - [ ] Steel Kunai
 - [ ] Stellar Kunai
 - [ ] Sticky Spiky Ball
-- [ ] Storm Dragoon
+- [x] Storm Dragoon
 - [x] Storm Spray
 - [ ] Stratoctrine Spear — addon: Calamity: Tales of the Aquatic
 - [ ] Stringstreaker — addon: Calamity: Tales of the Aquatic

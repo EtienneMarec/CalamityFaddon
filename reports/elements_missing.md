@@ -163,7 +163,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (539)
+## Objets (536)
 
 - A M S
 - AAMG "Disperse"
@@ -566,7 +566,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Slimelgamation
 - Smoldering Seahorses
 - Snowgrave
-- Soul Edge
 - Spear of Liberty
 - Spectre Rifle
 - Squirrel Baron Staff
@@ -580,12 +579,10 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Star Cannon EX
 - Star Flare
 - Star Swallower Containment Unit
-- Starfall
 - Steel Blade
 - Steel Kunai
 - Stellar Kunai
 - Sticky Spiky Ball
-- Storm Dragoon
 - Stratoctrine Spear
 - Stringstreaker
 - Summit Breaker

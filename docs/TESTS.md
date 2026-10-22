@@ -145,6 +145,8 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
 - [ ] Quatrième lot : Mana Jelly (+20 mana, régénération à l'arrêt), Fungal Carapace (spores quand on est touché),
       Amidias' Spark (étincelles quand on est touché), Energy Staff (tourelle), Beetle Juice ; le Starspawn Helix Staff
       s'appelle **Godspawn Helix Staff**
+- [ ] Cinquième lot : Starfall (5 étoiles tombent sur le curseur), Storm Dragoon (rafale, consomme peu de balles),
+      Soul Edge (âmes fantomatiques, Crush Depth)
 - [ ] Desert Scourge (mode normal) : peut aussi lâcher Seabound Staff, Storm Spray ou Aquatic Discharge (25 % chacun)
 - [ ] Conquest Fragment (Pearl Shard) : sprite du wiki (éclat bleu et doré) dans l'inventaire et au sol, **dans les
       deux modes** ; idem Victide Bar, Divine Bar, Parched Scale (liste : `reports/sprites.md`)

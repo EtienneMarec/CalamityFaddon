@@ -274,7 +274,7 @@ namespace CalamityFandom.Common.Debug
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Sandy Angling Kit")), "le Desert Scourge lâche le Sandy Angling Kit");
             Expect(kit > 0 && Main.ItemDropsDB.GetRulesForItemID(kit).Count > 0, "le Sandy Angling Kit a un contenu");
             // Lot de portages du 22/10 : trouvables par leur nom du wiki, et lâchés là où le wiki le dit
-            foreach (string name in new[] { "Bleached Angling Kit", "Seabound Staff", "Effluvium Bow", "Regenator", "Storm Spray", "Aquatic Discharge", "Solar Flare", "Diseased Pike", "Crimslime Staff", "Corroslime Staff", "Gehenna", "Shock Grenade", "Mana Jelly", "Fungal Carapace", "Amidias' Spark", "Energy Staff" })
+            foreach (string name in new[] { "Bleached Angling Kit", "Seabound Staff", "Effluvium Bow", "Regenator", "Storm Spray", "Aquatic Discharge", "Solar Flare", "Diseased Pike", "Crimslime Staff", "Corroslime Staff", "Gehenna", "Shock Grenade", "Mana Jelly", "Fungal Carapace", "Amidias' Spark", "Energy Staff", "Starfall", "Storm Dragoon", "Soul Edge" })
             {
                 int type = WikiRecipes.ResolveItem(name);
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté et trouvable par son nom");

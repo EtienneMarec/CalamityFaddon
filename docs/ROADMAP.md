@@ -48,7 +48,7 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 
 ## Portage du contenu retiré de Calamity (en cours)
 
-20 objets portés (liste : `docs/MODES.md`) ; ~245 restent. Base commune quand plusieurs objets se ressemblent (kits de
+23 objets portés (liste : `docs/MODES.md`) ; ~240 restent. Base commune quand plusieurs objets se ressemblent (kits de
 pêche, bâtons à slimes). Effets disparus du code actuel : repris du vieux CalamityPlayer dans un ModPlayer.
 
 ## Phase 4 — Nouveau contenu (`reports/new_content.md`)

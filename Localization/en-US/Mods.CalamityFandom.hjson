@@ -115,6 +115,25 @@ Items: {
 		Tooltip: Summons a profaned energy turret to fight for you
 	}
 
+	Starfall: {
+		DisplayName: Starfall
+		Tooltip: Casts a spread of astral blight stars at the mouse cursor
+	}
+
+	StormDragoon: {
+		DisplayName: Storm Dragoon
+		Tooltip:
+			'''
+			Fires a spray of bullets
+			90% chance to not consume ammo
+			'''
+	}
+
+	SoulEdge: {
+		DisplayName: Soul Edge
+		Tooltip: Fires the ghastly souls of long-deceased abyss dwellers
+	}
+
 	Gehenna: {
 		DisplayName: Gehenna
 		Tooltip: Drops brimstone fireballs from the sky occasionally

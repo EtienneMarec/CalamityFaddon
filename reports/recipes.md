@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 909 objets dont les recettes ont changé : 813 recettes modifiées, 150 créées
+- 910 objets dont les recettes ont changé : 814 recettes modifiées, 150 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 324 recettes du wiki déjà identiques au jeu
 - 60 transmutations Shimmer ajoutées
-- 173 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 245 recettes
+- 172 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 244 recettes
 
 ## Recettes changées
 
@@ -332,6 +332,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Eutrophic Sand | (nouvelle) | 4 Unsafe Eutrophic Sand Wall @ WorkBenches → 1 |
 | Eutrophic Shelf | 10 Ancient Smooth Navystone, 5 Sea Prism, 5 Prism Shard, 3 Conquest Fragment @ Sawmill → 1 | 10 Navystone, 5 Sea Prism, 5 Prism Shard @ WorkBenches → 1 |
 | Evasion Scarf | 1 Counter Scarf, 5 Soul of Light, 5 Soul of Night, 15 Silk @ MythrilAnvil → 1 | 1 Counter Scarf, 5 Soul of Light, 5 Soul of Night @ MythrilAnvil → 1 |
+| Event Horizon | 1 Star Shower, 1 Nuclear Fury, 1 Relic of Ruin, 3 Dark Plasma @ Bookcases → 1 | 1 Starfall, 1 Nuclear Fury, 8 Cosmilite Bar, 8 Darksun Fragment @ Bookcases → 1 |
 | Everclear | (nouvelle) | 5 Margarita, 10 Blood Orb, 1 Aureus Cell @ AlchemyTable → 5 |
 | Everclear | 20 Bottle, 1 Black Lens, 10 Soul of Night @ Kegs → 20 | 5 Margarita, 20 Hay, 1 Aureus Cell @ Kegs → 5 |
 | Everglade Spray | 1 Golden Shower, 10 Perennial Bar @ Bookcases → 1 | 1 Golden Shower, 1 Cursed Flames, 3 Perennial Bar @ Bookcases → 1 |
@@ -1125,7 +1126,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Spectre Rifle — 1
 - objet : Staff of the Mechworm — 1
 - objet : Star Cannon EX — 1
-- objet : Starfall — 1
 - objet : Sulfuric Scale — 1
 - objet : Sun God Staff — 1
 - objet : Supreme Calamitas Trophy — 1

@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 154 drops ajoutés sur 73 PNJ
-- 92 ajouts dans 23 sacs
+- 156 drops ajoutés sur 74 PNJ
+- 94 ajouts dans 24 sacs
 - 479 drops du wiki déjà présents dans le jeu (inchangés)
-- 91 drops avec leur condition (boss vaincu, biome, premier kill)
+- 92 drops avec leur condition (boss vaincu, biome, premier kill)
 - 26 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 185 PNJ du wiki absents du jeu, 120 objets introuvables
+- 185 PNJ du wiki absents du jeu, 117 objets introuvables
 
 ## Ajouts
 
@@ -15,7 +15,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Angry Trapper** : Trapper Bulb 1-1 à 33.0%
 - **Anomura Fungus** : Fungal Carapace 1-1 à 15.0%
 - **Aquatic Scourge** : Bleached Angling Kit 1-1 à 100.0% (mode normal) ; Sulphurous Sand 5-15 à 100.0% (mode normal) ; Aquatic Emblem 1-1 à 100.0% (mode normal) ; Deep Diver 1-1 à 10.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal)
-- **Astral Deus** : Stardust 55-95 à 100.0% (mode normal) ; Hide of Astrum Deus 1-1 à 100.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal) ; Hide of Astrum Deus 1-1 à 100.0% (mode normal)
+- **Astral Deus** : Stardust 55-95 à 100.0% (mode normal) ; Hide of Astrum Deus 1-1 à 100.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal) ; Hide of Astrum Deus 1-1 à 100.0% (mode normal) ; Starfall 1-1 à 25.0% (mode normal)
 - **Astral Slime** : Stardust 1-3 à 50.0%
 - **Astralachnea** : Stardust 2-3 à 100.0%
 - **Astrum Aureus** : Soul of Bright 20-40 à 100.0% (mode normal) ; Hallowed Key 1-1 à 20.0% (mode normal) ; Stardust 20-30 à 100.0% (mode normal) ; Fallen Star 18-24 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal)
@@ -40,6 +40,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Duke Fishron** : Delicious Meat 45-92 à 50.0% (mode normal)
 - **Eater of Worlds** : Disgusting Meat 2-5 à 100.0%
 - **Eidolist** : Lunar Cultist Hood 1-1 à 10.0% ; Lunar Cultist Robe 1-1 à 10.0%
+- **Eidolon Wyrm** : Soul Edge 1-1 à 33.3% [After defeating Polterghast]
 - **Flak Crab** : Cadaverous Carrion 1-1 à 5.0%
 - **Fusion Feeder** : Stardust 2-3 à 100.0%
 - **Giant Squid** : Lumenyl 1-1 à 50.0% [After defeating Calamitas]
@@ -88,7 +89,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 ## Ajouts dans les sacs
 
 - **Treasure Bag (Aquatic Scourge)** : Bleached Angling Kit 1-1 à 100.0% (page Treasure Bag) ; Sulphurous Sand 5-15 à 100.0% ; Deep Diver 1-1 à 10.0% ; Greater Healing Potion 8-14 à 100.0% ; Aquatic Scourge Trophy 1-1 à 10.0%
-- **Treasure Bag (Astral Deus)** : Stardust 65-105 à 100.0% ; Solar Fragment 20-32 à 100.0% ; Vortex Fragment 20-32 à 100.0% ; Nebula Fragment 20-32 à 100.0% ; Stardust Fragment 20-32 à 100.0% ; Greater Healing Potion 8-14 à 100.0% ; Astral Deus Trophy 1-1 à 10.0%
+- **Treasure Bag (Astral Deus)** : Stardust 65-105 à 100.0% ; Solar Fragment 20-32 à 100.0% ; Vortex Fragment 20-32 à 100.0% ; Nebula Fragment 20-32 à 100.0% ; Stardust Fragment 20-32 à 100.0% ; Greater Healing Potion 8-14 à 100.0% ; Astral Deus Trophy 1-1 à 10.0% ; Starfall 1-1 à 33.3%
 - **Treasure Bag (Astrum Aureus)** : Hallowed Key 1-1 à 20.0% (page Treasure Bag) ; Stardust 30-40 à 100.0% (page Treasure Bag) ; Soul of Bright 35-50 à 100.0% ; Supreme Healing Potion 5-15 à 100.0% ; Astrum Aureus Trophy 1-1 à 10.0%
 - **Treasure Bag (Brimstone Elemental)** : Gehenna 1-1 à 100.0% (page Treasure Bag) ; Abaddon 1-1 à 100.0% (page Treasure Bag) ; Essence of Chaos 5-9 à 100.0% (page Treasure Bag) ; Bloodstone 1-1 à 100.0% [Once Providence, the Profaned Goddess] ; Brimrose 1-1 à 100.0% [After defeating Providence, the Profaned Goddess] ; Greater Healing Potion 5-15 à 100.0% ; Brimstone Elemental Trophy 1-1 à 10.0%
 - **Treasure Bag (Calamitas Clone)** : Regenator 1-1 à 10.0% (page Treasure Bag) ; Essence of Chaos 5-9 à 100.0% (page Treasure Bag) ; Blighted Lens 1-3 à 100.0% (page Treasure Bag) ; Ashes of Annihilation 14-18 à 100.0% ; Broken Hero Sword 1-1 à 100.0% ; Bloodstone 1-1 à 100.0% [Once Providence is defeated] ; Greater Healing Potion 5-15 à 100.0% ; Calamitas Trophy 1-1 à 10.0% ; Catastrophe Clay Ore 10-26 à 100.0% ; Crushsaw Crasher 1-1 à 10.0% ; Havoc's Breath 1-1 à 10.0%
@@ -102,6 +103,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (Polterghast)** : Phantoplasm 40-50 à 100.0% (page Treasure Bag)
 - **Treasure Bag (Providence, the Profaned Goddess)** : Solar Flare 1-1 à 33.3% (page Treasure Bag) ; Supreme Healing Potion 5-15 à 100.0% ; Providence Trophy 1-1 à 10.0%
 - **Treasure Bag (Signus)** : Supreme Healing Potion 5-15 à 100.0% ; Signus Trophy 1-1 à 10.0%
+- **Treasure Bag (Storm Weaver)** : Storm Dragoon 1-1 à 33.3% (page Treasure Bag)
 - **Treasure Bag (The Devourer of Gods)** : Norfleet 1-1 à 10.0% (page Treasure Bag) ; Cosmic Worm 30-39 à 100.0% (page Treasure Bag)
 - **Treasure Bag (The Dragonfolly)** : Swordsplosion 1-1 à 10.0% (page Treasure Bag)
 - **Treasure Bag (The Hive Mind)** : Rotten Matter 30-40 à 100.0% (page Treasure Bag)
@@ -206,10 +208,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Sea Shell — 1
 - Set of Calamity — 1
 - Shadowdrop Staff — 1
-- Soul Edge — 1
 - Staff of the Mechworm — 1
-- Starfall — 1
-- Storm Dragoon — 1
 - Tapehook — 1
 - Terra-cotta — 1
 - The Desert Scourge (Lore) — 1
