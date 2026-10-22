@@ -221,7 +221,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 ### 2.4 Shortstrike (page Shortstrike, 22/10)
 
-- [ ] Avec une **Copper Shortsword** : la jauge dessinée apparaît à droite de la jauge de vol, sans couvrir le texte des
+- [x] Avec une **Copper Shortsword** : la jauge dessinée apparaît à droite de la jauge de vol, sans couvrir le texte des
       PNJ ; elle se remplit en frappant
       (survol : « Shortstrike: N/100 »), les épées sortent quand elle est pleine ; on peut la déplacer si les jauges de
       Calamity ne sont pas verrouillées ; taille comparable aux jauges de Calamity (2×) ; pendant le Shortflurry, elle se

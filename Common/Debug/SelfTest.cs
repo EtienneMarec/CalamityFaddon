@@ -310,7 +310,7 @@ namespace CalamityFandom.Common.Debug
             Expect(!Common.Shortstrike.ShortstrikeData.IsShortsword(ContentSamples.ItemsByType[ItemID.CopperBroadsword]), "la Copper Broadsword n'en est pas une");
             int sahara = WikiRecipes.ResolveItem("Sahara Slicers");
             if (sahara > 0)
-                Expect(byItem.ContainsKey(sahara) == FandomMode.IsPlus, "Shortflurry des Sahara Slicers en Calamity++ seulement");
+                Expect(byItem.ContainsKey(sahara) == !FandomMode.IsFull, "Shortflurry des Sahara Slicers hors Full Fandom (Calamity++ et sa couche Minimal)");
             Report($"shortstrike : {byItem.Count} épées courtes du tableau en jeu, {Common.Shortstrike.ShortstrikeData.MissingWeapons.Count} absentes ("
                 + string.Join(", ", Common.Shortstrike.ShortstrikeData.MissingWeapons) + "), noms non résolus : "
                 + string.Join(" ; ", Common.Shortstrike.ShortstrikeData.MissingNames));
