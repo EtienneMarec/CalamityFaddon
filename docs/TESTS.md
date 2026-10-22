@@ -215,6 +215,20 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Renommages trouvés au passage : The Etomer → **Triboluminescent Etomer**, Martian Distress Remote → **Martian
       Distress Beacon** (dans tous les modes)
 
+### 2.4 Shortstrike (page Shortstrike, 22/10)
+
+- [ ] Avec une **Copper Shortsword** : une petite barre apparaît sous le joueur ; elle se remplit en frappant (survol :
+      « Shortstrike: N/100 ») ; changer d'arme la garde ; elle reste après avoir quitté et relancé le personnage
+- [ ] En tenant une épée courte : dégâts et défense augmentent avec la jauge (Full Fandom : +20 % / +33 à 100 points ;
+      Calamity++ : +10 % / +16) ; avec une autre arme, plus de bonus
+- [ ] Jauge pleine : son, aura orange pulsante ; **clic droit** = Shortflurry : 3 clones orange frappent en 1 s, la
+      jauge retombe à 0, buff « Shortflurry », +5 défense pendant la durée (Copper)
+- [ ] **Aquatic Discharge** : Shortflurry de 5 coups, les ennemis touchés sont Electrified
+- [ ] **Galileo Gladius** : 7 coups, immunité à Moon Burnt 20 s, +30 % de critique au corps à corps pendant 3 s
+- [ ] **Cosmic Shiv** : 20 coups en 6 s, buff Cosmic Freeze 20 s
+- [ ] Calamity++ : **Sahara Slicers** ont leur Shortflurry (éclats de sable) ; Full Fandom : l'arme est masquée
+- [ ] Une Copper Broadsword n'affiche pas la barre et ne déclenche rien au clic droit
+
 ---
 
 ## Décisions en attente (pas des tests)

@@ -2,7 +2,7 @@
 
 For every 10 damage dealt using a shortsword, and for every swing of a shortsword that hits an enemy, the player gains a shortstrike point. Up to 100 shortstrike points can be gained through these methods. When the player reaches the maximum amount of shortstrikes, a sound effect will play and the player will gain an orange pulsing aura around themselves; right clicking with the shortsword while in this state will perform a special attack called a '''Shortflurry'''. A Shortflurry typically consists of a rapid barrage of swings from the weapon, typically done through separate magic clones, which provide a large damage boost, and occasionally additional player buffs or extra projectiles.
 
-As the player's Shortstrike counter increases they also gain 1% damage for every 5 points, and 1 defense for every 3, totalling for a boost of 20% damage and 33 defense by the time the Shortstrike counter has been maxed out.
+As the player's Shortstrike counter increases they also gain 1% damage for every {{mode|5|10}} points, and 1 defense for every {{mode|3|6}}, totalling for a boost of {{mode|20%|10%}} damage and {{mode|33|16}} defense by the time the Shortstrike counter has been maxed out. The counter is shown as a small bar under the player while a shortsword is held.
 
 Switching to any other weapon will not reduce the Shortstrike counter. However, the stat boosts gained from Shortstrike points will only apply if a shortsword is the player's currently held weapon.
 
@@ -85,5 +85,7 @@ A full list of Shortflurry attacks can be found below:
 |-
 |}
 {{collapse bottom}}
+
+Shortswords from other mods use a basic Shortflurry: 10% damage boost, 3 hits over 1 second, no extra effect.{{mode||<br/>The [[Sahara Slicers]] perform a Shortflurry of 5 hits over 2 seconds with a 25% damage boost, each hit releasing sand slicers.}}
 
 {{Game mechanics}}

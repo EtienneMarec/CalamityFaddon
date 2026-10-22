@@ -10,8 +10,8 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Melee
     /// <summary>
     /// Wiki : Aquatic Discharge.txt — épée courte du Desert Scourge, retirée de Calamity. Valeurs du wiki : use 12 (18 dans
     /// le vieux code), vente 40 argent. Comportement de la page : étincelles électriques quand un ennemi meurt (le vieux
-    /// code en lançait à chaque coup). TODO : « Shortstrike » / « Shortflurry » (Electrified 5 s), système du wiki pas
-    /// encore créé. Lâchée par le Desert Scourge (butin du wiki), éléments Water/Stab par le système d'éléments.
+    /// code en lançait à chaque coup). Shortflurry (Electrified 5 s) : Common/Shortstrike, données de la page Shortstrike.
+    /// Lâchée par le Desert Scourge (butin du wiki), éléments Water/Stab par le système d'éléments.
     /// </summary>
     public class AquaticDischarge : ModItem
     {

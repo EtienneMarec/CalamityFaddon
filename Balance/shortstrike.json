@@ -1,0 +1,7 @@
+{
+  "_doc": "Équilibrage Calamity++ du Shortstrike (décision du 22/10) : bonus passifs de la jauge divisés par deux (+1 % de dégâts tous les 10 points, +1 défense tous les 6 : +10 % et +16 au maximum). Les Shortflurry sont ceux du wiki.",
+  "rules": {
+    "pointsPerDamagePercent": 10,
+    "pointsPerDefense": 6
+  }
+}

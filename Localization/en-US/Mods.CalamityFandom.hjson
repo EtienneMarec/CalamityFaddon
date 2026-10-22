@@ -201,6 +201,17 @@ Projectiles: {
 	ShockGrenadeProjectile.DisplayName: Shock Grenade
 	ShockGrenadeBolt.DisplayName: Bolt
 	ShockGrenadeExplosion.DisplayName: Shock Grenade Explosion
+	ShortflurryClone.DisplayName: Shortflurry
+
+	Melee: {
+		AquaticDischargeProj.DisplayName: Aquatic Discharge Proj
+		DiseasedPikeSpear.DisplayName: Diseased Pike Spear
+	}
+}
+
+Shortstrike: {
+	Gauge: "Shortstrike: {0}/{1}
+Right click with a shortsword when full: Shortflurry"
 }
 
 Elements: {
@@ -225,6 +236,11 @@ Elements: {
 }
 
 Buffs: {
+	ShortflurryBuff: {
+		DisplayName: Shortflurry
+		Description: Magic clones strike alongside you
+	}
+
 	Crimslime: {
 		DisplayName: Crimslime
 		Description: The crimslime will protect you

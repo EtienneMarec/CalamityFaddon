@@ -26,7 +26,7 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 - [ ] Éléments des armures (« Elements » des Coverings) → résistances du joueur
 - [ ] Classe Spy : proficiency, Level Meters, stealth tel que décrit (pages `Spy.txt`, `Level Meters`)
 - [ ] Wind : dégâts à l'atterrissage
-- [ ] **Shortstrike / Shortflurry** (jauge des épées courtes et attaques spéciales, page Shortstrike)
+- [x] **Shortstrike / Shortflurry** (22/10) — reste : 17 effets spéciaux (`reports/shortstrike.md`) et les armes manquantes
 - [ ] Autres pages « Game mechanics » (catégorie dans l'index)
 
 ## Phase 3 — Compléter les fondations de données

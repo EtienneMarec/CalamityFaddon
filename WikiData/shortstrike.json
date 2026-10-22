@@ -1,0 +1,585 @@
+{
+ "_generated_by": "tools/gen_shortstrike.py",
+ "rules": {
+  "maxPoints": 100,
+  "damagePerPoint": 10,
+  "pointPerHitSwing": 1,
+  "pointsPerDamagePercent": 5,
+  "pointsPerDefense": 3
+ },
+ "generic": {
+  "damageBoost": 0.1,
+  "hits": 3,
+  "seconds": 1.0
+ },
+ "attacks": [
+  {
+   "weapon": "Copper Shortsword",
+   "damageBoost": 0.1,
+   "hits": 3,
+   "seconds": 1.0,
+   "effects": [
+    {
+     "type": "defense",
+     "value": 5
+    }
+   ],
+   "todo": [],
+   "text": "Increases player defense by 5"
+  },
+  {
+   "weapon": "Tin Shortsword",
+   "damageBoost": 0.1,
+   "hits": 3,
+   "seconds": 1.0,
+   "effects": [
+    {
+     "type": "damageReduction",
+     "value": 0.02
+    }
+   ],
+   "todo": [],
+   "text": "Increases player damage reduction by 2%"
+  },
+  {
+   "weapon": "Iron Shortsword",
+   "damageBoost": 0.12,
+   "hits": 3,
+   "seconds": 1.0,
+   "effects": [
+    {
+     "type": "defense",
+     "value": 6
+    }
+   ],
+   "todo": [],
+   "text": "Increases player defense by 6"
+  },
+  {
+   "weapon": "Lead Shortsword",
+   "damageBoost": 0.12,
+   "hits": 3,
+   "seconds": 1.0,
+   "effects": [
+    {
+     "type": "damageReduction",
+     "value": 0.03
+    }
+   ],
+   "todo": [],
+   "text": "Increases player damage reduction by 3%"
+  },
+  {
+   "weapon": "Silver Shortsword",
+   "damageBoost": 0.14,
+   "hits": 3,
+   "seconds": 1.0,
+   "effects": [
+    {
+     "type": "defense",
+     "value": 8
+    }
+   ],
+   "todo": [],
+   "text": "Increases player defense by 8"
+  },
+  {
+   "weapon": "Tungsten Shortsword",
+   "damageBoost": 0.14,
+   "hits": 3,
+   "seconds": 1.0,
+   "effects": [
+    {
+     "type": "damageReduction",
+     "value": 0.04
+    }
+   ],
+   "todo": [],
+   "text": "Increases player damage reduction by 4%"
+  },
+  {
+   "weapon": "Gold Shortsword",
+   "damageBoost": 0.2,
+   "hits": 4,
+   "seconds": 1.2,
+   "effects": [
+    {
+     "type": "defense",
+     "value": 10
+    }
+   ],
+   "todo": [],
+   "text": "Increases player defense by 10"
+  },
+  {
+   "weapon": "Platinum Shortsword",
+   "damageBoost": 0.2,
+   "hits": 4,
+   "seconds": 1.2,
+   "effects": [
+    {
+     "type": "damageReduction",
+     "value": 0.06
+    }
+   ],
+   "todo": [],
+   "text": "Increases player damage reduction by 6%"
+  },
+  {
+   "weapon": "Umbrella",
+   "damageBoost": 0.25,
+   "hits": 4,
+   "seconds": 3.0,
+   "effects": [
+    {
+     "type": "inflict",
+     "name": "Wet",
+     "seconds": 20.0
+    }
+   ],
+   "todo": [],
+   "text": "Attacks inflict [[Wet]] for 20 seconds"
+  },
+  {
+   "weapon": "Tragic Umbrella",
+   "damageBoost": 0.15,
+   "hits": 4,
+   "seconds": 3.0,
+   "effects": [
+    {
+     "type": "inflict",
+     "name": "Temporal Sadness",
+     "seconds": 1.0
+    }
+   ],
+   "todo": [],
+   "text": "Attacks inflict [[Temporal Sadness]] for 1 second"
+  },
+  {
+   "weapon": "Wulfrum Leech Dagger",
+   "damageBoost": 0.0,
+   "hits": 2,
+   "seconds": 0.5,
+   "effects": [],
+   "todo": [
+    "Wulfrum Leech Daggers become unconsumable for 3 seconds"
+   ],
+   "text": "Wulfrum Leech Daggers become unconsumable for 3 seconds"
+  },
+  {
+   "weapon": "Aquatic Discharge",
+   "damageBoost": 0.1,
+   "hits": 5,
+   "seconds": 1.5,
+   "effects": [
+    {
+     "type": "inflict",
+     "name": "Electrified",
+     "seconds": 5.0
+    }
+   ],
+   "todo": [],
+   "text": "Attacks inflict [[Electrified]] for 5 seconds"
+  },
+  {
+   "weapon": "Eutrophic Shank",
+   "damageBoost": 0.15,
+   "hits": 4,
+   "seconds": 1.5,
+   "effects": [
+    {
+     "type": "inflict",
+     "name": "Eutrophication",
+     "seconds": 2.0
+    }
+   ],
+   "todo": [],
+   "text": "Attacks inflict [[Eutrophication]] for 2 seconds"
+  },
+  {
+   "weapon": "Ruler",
+   "damageBoost": 0.15,
+   "hits": 2,
+   "seconds": 0.5,
+   "effects": [
+    {
+     "type": "inflict",
+     "name": "On Fire!",
+     "seconds": 5.0
+    }
+   ],
+   "todo": [],
+   "text": "Attacks inflict [[On Fire!]] for 5 seconds"
+  },
+  {
+   "weapon": "Spore Knife",
+   "damageBoost": 0.05,
+   "hits": 4,
+   "seconds": 4.0,
+   "effects": [
+    {
+     "type": "inflict",
+     "name": "Poisoned",
+     "seconds": 2.0
+    }
+   ],
+   "todo": [
+    "Attacks spawn 4 tile long vines on hit"
+   ],
+   "text": "Attacks inflict [[Poisoned]] for 2 seconds<br/>Attacks spawn 4 tile long vines on hit"
+  },
+  {
+   "weapon": "Bloody Rupture",
+   "damageBoost": 0.25,
+   "hits": 5,
+   "seconds": 2.0,
+   "effects": [
+    {
+     "type": "spawnOnHit",
+     "projectile": "BloodBombExplosion"
+    }
+   ],
+   "todo": [],
+   "text": "Creates bloodsplosions on enemy hits"
+  },
+  {
+   "weapon": "Leeching Dagger",
+   "damageBoost": 0.15,
+   "hits": 4,
+   "seconds": 2.0,
+   "effects": [
+    {
+     "type": "healPerHit",
+     "value": 5
+    }
+   ],
+   "todo": [],
+   "text": "Heals the player for 5 health per hit"
+  },
+  {
+   "weapon": "Gladius",
+   "damageBoost": 0.1,
+   "hits": 4,
+   "seconds": 0.5,
+   "effects": [
+    {
+     "type": "moveSpeed",
+     "value": 0.2
+    }
+   ],
+   "todo": [],
+   "text": "Increases player movement speed by 20%"
+  },
+  {
+   "weapon": "Ancient Shiv",
+   "damageBoost": 0.25,
+   "hits": 7,
+   "seconds": 4.0,
+   "effects": [
+    {
+     "type": "meleeSpeed",
+     "value": 0.05
+    }
+   ],
+   "todo": [],
+   "text": "Increases player melee speed by 5%"
+  },
+  {
+   "weapon": "Tomutus",
+   "damageBoost": 0.3,
+   "hits": 5,
+   "seconds": 4.0,
+   "effects": [
+    {
+     "type": "inflict",
+     "name": "Hellfire",
+     "seconds": null
+    }
+   ],
+   "todo": [],
+   "text": "Attacks inflict [[Hellfire]]"
+  },
+  {
+   "weapon": "Night's Stabber",
+   "damageBoost": 0.35,
+   "hits": 6,
+   "seconds": 2.0,
+   "effects": [
+    {
+     "type": "healPerHit",
+     "value": 3
+    },
+    {
+     "type": "meleeSpeed",
+     "value": 0.05
+    }
+   ],
+   "todo": [
+    "Attacks spawn 5 tile long nightshade vines and inflict [[Cursed Inferno]]"
+   ],
+   "text": "Heals the player for 3 health per hit<br/>Attacks spawn 5 tile long nightshade vines and inflict [[Cursed Inferno]]<br/>Increases player melee speed by 5%"
+  },
+  {
+   "weapon": "Coldheart Icicle",
+   "damageBoost": 0.0,
+   "hits": 3,
+   "seconds": 2.0,
+   "effects": [
+    {
+     "type": "drainPercent",
+     "value": 0.03
+    }
+   ],
+   "todo": [],
+   "text": "Hits drain 3% health"
+  },
+  {
+   "weapon": "Submarine Shocker",
+   "damageBoost": 0.3,
+   "hits": 6,
+   "seconds": 2.0,
+   "effects": [],
+   "todo": [
+    "Spawns [[Sulphuric Poisoning]]-inflicting stationary clouds"
+   ],
+   "text": "Spawns [[Sulphuric Poisoning]]-inflicting stationary clouds"
+  },
+  {
+   "weapon": "Caliburn",
+   "damageBoost": 0.3,
+   "hits": 7,
+   "seconds": 2.0,
+   "effects": [
+    {
+     "type": "damageReduction",
+     "value": 0.05
+    }
+   ],
+   "todo": [
+    "Hits spawn vertical beams of holy light"
+   ],
+   "text": "Hits spawn vertical beams of holy light<br/>Increases player damage reduction by 5%"
+  },
+  {
+   "weapon": "True Caliburn",
+   "damageBoost": 0.4,
+   "hits": 9,
+   "seconds": 3.0,
+   "effects": [
+    {
+     "type": "damageReduction",
+     "value": 0.1
+    }
+   ],
+   "todo": [
+    "Hits spawn a beam that creates vertical light beams as it travels",
+    "The beam lasts for 20 tiles"
+   ],
+   "text": "Hits spawn a beam that creates vertical light beams as it travels<br/>The beam lasts for 20 tiles<br/>Increases player damage reduction by 10%"
+  },
+  {
+   "weapon": "True Night's Stabber",
+   "damageBoost": 0.4,
+   "hits": 7,
+   "seconds": 3.0,
+   "effects": [
+    {
+     "type": "meleeSpeed",
+     "value": 0.1
+    }
+   ],
+   "todo": [
+    "Hits spawn an infinitely piercing beam that heals nearby players 5 health per hit",
+    "The beam also passively shoots cursed fireballs for every 5 tiles",
+    "The beam lasts for 15 tiles"
+   ],
+   "text": "Hits spawn an infinitely piercing beam that heals nearby players 5 health per hit<br/>The beam also passively shoots cursed fireballs for every 5 tiles<br/>The beam lasts for 15 tiles<br/>Increases player melee speed by 10%"
+  },
+  {
+   "weapon": "Terra Shiv",
+   "damageBoost": 0.5,
+   "hits": 12,
+   "seconds": 5.0,
+   "effects": [
+    {
+     "type": "meleeSpeed",
+     "value": 0.15
+    },
+    {
+     "type": "damageReduction",
+     "value": 0.15
+    }
+   ],
+   "todo": [
+    "Hits spawn a 30 tile beam that splits into 3 more beams that deal 20% damage.",
+    "These beams inflict [[Ichor (debuff)|Ichor]] and healing 5 life per hit"
+   ],
+   "text": "Hits spawn a 30 tile beam that splits into 3 more beams that deal 20% damage.<br/>These beams inflict [[Ichor (debuff)|Ichor]] and healing 5 life per hit<br/>Increases player melee speed and damage reduction by 15%"
+  },
+  {
+   "weapon": "Lucrecia",
+   "damageBoost": 0.2,
+   "hits": 3,
+   "seconds": 2.0,
+   "effects": [
+    {
+     "type": "lifeRegen",
+     "value": 1,
+     "seconds": 5
+    }
+   ],
+   "todo": [
+    "Greatly increases the range of Lucrecia's DNA and removes its life penalty for 5 seconds"
+   ],
+   "text": "Greatly increases the range of Lucrecia's DNA and removes its life penalty for 5 seconds<br/>Provides 1 life regeneration for 5 seconds"
+  },
+  {
+   "weapon": "Disease",
+   "damageBoost": 0.5,
+   "hits": 7,
+   "seconds": 2.0,
+   "effects": [
+    {
+     "type": "spawnOnHit",
+     "projectile": "PlagueSeeker"
+    }
+   ],
+   "todo": [],
+   "text": "Hits spawn homing plague seekers for each hit"
+  },
+  {
+   "weapon": "Elemental Shiv",
+   "damageBoost": 0.8,
+   "hits": 15,
+   "seconds": 6.0,
+   "effects": [
+    {
+     "type": "meleeSpeed",
+     "value": 0.15
+    },
+    {
+     "type": "defensePercent",
+     "value": 0.15
+    },
+    {
+     "type": "damageReduction",
+     "value": 0.15
+    }
+   ],
+   "todo": [
+    "Beams split 5 times and heal the player 8 health per hit"
+   ],
+   "text": "Beams split 5 times and heal the player 8 health per hit<br/>Increases player melee speed, defense, and damage reduction by 15%"
+  },
+  {
+   "weapon": "Galileo Gladius",
+   "damageBoost": 1.2,
+   "hits": 7,
+   "seconds": 3.0,
+   "effects": [
+    {
+     "type": "immune",
+     "name": "Nightwither",
+     "seconds": 20
+    },
+    {
+     "type": "meleeCrit",
+     "value": 30
+    }
+   ],
+   "todo": [
+    "Crescent hits spawn moons"
+   ],
+   "text": "Crescent hits spawn moons<br/>Player becomes immune to [[Nightwither]] for 20 seconds<br/>Increases player melee crit chance by 30%"
+  },
+  {
+   "weapon": "Cosmic Shiv",
+   "damageBoost": 1.5,
+   "hits": 20,
+   "seconds": 6.0,
+   "effects": [
+    {
+     "type": "gainBuff",
+     "name": "Cosmic Freeze",
+     "seconds": 20
+    },
+    {
+     "type": "meleeSpeed",
+     "value": 0.2
+    },
+    {
+     "type": "defensePercent",
+     "value": 0.2
+    },
+    {
+     "type": "damageReduction",
+     "value": 0.2
+    }
+   ],
+   "todo": [
+    "20% chance to shoot a second beam"
+   ],
+   "text": "20% chance to shoot a second beam<br/>Player gains the [[Cosmic Freeze]] buff for 20 seconds<br/>Increases player melee speed, defense, and damage reduction by 20%"
+  },
+  {
+   "weapon": "Exo Gladius",
+   "damageBoost": 2.0,
+   "hits": 32,
+   "seconds": 7.0,
+   "effects": [
+    {
+     "type": "immuneAll",
+     "seconds": 20
+    },
+    {
+     "type": "meleeSpeed",
+     "value": 0.3
+    },
+    {
+     "type": "defensePercent",
+     "value": 0.3
+    },
+    {
+     "type": "damageReduction",
+     "value": 0.3
+    }
+   ],
+   "todo": [
+    "Every 5th strike sends out a shotgun blast of 8 healing exo comets"
+   ],
+   "text": "Every 5th strike sends out a shotgun blast of 8 healing exo comets<br/>Player gains immunity to most debuffs for 20 seconds<br/>Increases player melee speed, defense, and damage reduction by 30%"
+  },
+  {
+   "weapon": "Microcell Cut",
+   "damageBoost": 2.5,
+   "hits": 40,
+   "seconds": 8.0,
+   "effects": [
+    {
+     "type": "spawnOnHit",
+     "projectile": "AstralStar"
+    }
+   ],
+   "todo": [],
+   "text": "Hits spawn homing astral stars for each hit"
+  },
+  {
+   "weapon": "Sahara Slicers",
+   "damageBoost": 0.25,
+   "hits": 5,
+   "seconds": 2.0,
+   "modes": [
+    "plus"
+   ],
+   "text": "Hits spawn sand slicers",
+   "effects": [
+    {
+     "type": "spawnOnHit",
+     "projectile": "SaharaSlicersBolt"
+    }
+   ],
+   "todo": [],
+   "offWiki": true
+  }
+ ]
+}

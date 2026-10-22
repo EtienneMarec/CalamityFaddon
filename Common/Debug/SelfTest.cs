@@ -59,6 +59,7 @@ namespace CalamityFandom.Common.Debug
             CheckLegacy();
             CheckDebugItems();
             CheckRecipeConditions();
+            CheckShortstrike();
             foreach (var check in ExtraChecks)
                 check(this);
 
@@ -288,6 +289,31 @@ namespace CalamityFandom.Common.Debug
             // Abyss Bar : « note=(Post-Golem) » invisible sur le wiki, donc sans condition (décision du 22/10)
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith(Lang.GetItemNameValue(WikiRecipes.ResolveItem("Abyss Bar")) + " 3-8")),
                 "le Desert Scourge lâche des Abyss Bar sans condition");
+        }
+
+        private void CheckShortstrike()
+        {
+            // Wiki : Shortstrike.txt — jauge (Balance/ en Calamity++) et Shortflurry des épées courtes du tableau
+            var rules = Common.Shortstrike.ShortstrikeData.Current;
+            Expect(rules.MaxPoints == 100 && rules.PointsPerDamagePercent == (FandomMode.IsPlus ? 10 : 5) && rules.PointsPerDefense == (FandomMode.IsPlus ? 6 : 3),
+                $"règles du Shortstrike : {rules.PointsPerDamagePercent} points/% dégâts, {rules.PointsPerDefense} points/défense");
+            var byItem = Common.Shortstrike.ShortstrikeData.ByItem;
+            Expect(byItem.TryGetValue(ItemID.CopperShortsword, out var copper) && copper.Hits == 3 && copper.Effects.Any(e => e.Type == "defense" && e.Value == 5),
+                "Shortflurry de la Copper Shortsword (+10 %, 3 coups, +5 défense)");
+            int discharge = WikiRecipes.ResolveItem("Aquatic Discharge");
+            Expect(byItem.TryGetValue(discharge, out var aquatic) && aquatic.Effects.Any(e => e.Type == "inflict" && e.BuffType == BuffID.Electrified),
+                "Shortflurry de l'Aquatic Discharge : Electrified");
+            int galileo = WikiRecipes.ResolveItem("Galileo Gladius");
+            Expect(byItem.TryGetValue(galileo, out var gladius) && gladius.Effects.Any(e => e.Type == "immune" && e.BuffType > 0),
+                "Shortflurry du Galileo Gladius : immunité à Nightwither (Moon Burnt) résolue");
+            Expect(Common.Shortstrike.ShortstrikeData.IsShortsword(ContentSamples.ItemsByType[ItemID.CopperShortsword]), "la Copper Shortsword est une épée courte");
+            Expect(!Common.Shortstrike.ShortstrikeData.IsShortsword(ContentSamples.ItemsByType[ItemID.CopperBroadsword]), "la Copper Broadsword n'en est pas une");
+            int sahara = WikiRecipes.ResolveItem("Sahara Slicers");
+            if (sahara > 0)
+                Expect(byItem.ContainsKey(sahara) == FandomMode.IsPlus, "Shortflurry des Sahara Slicers en Calamity++ seulement");
+            Report($"shortstrike : {byItem.Count} épées courtes du tableau en jeu, {Common.Shortstrike.ShortstrikeData.MissingWeapons.Count} absentes ("
+                + string.Join(", ", Common.Shortstrike.ShortstrikeData.MissingWeapons) + "), noms non résolus : "
+                + string.Join(" ; ", Common.Shortstrike.ShortstrikeData.MissingNames));
         }
 
         private void CheckRecipeConditions()

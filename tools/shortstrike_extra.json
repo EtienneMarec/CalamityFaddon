@@ -1,0 +1,19 @@
+{
+  "_doc": "Shortflurry hors wiki (décision du 22/10, docs/decisions.md, [choix] à valider) : la page Shortstrike ne liste que ses armes. 'generic' : épées courtes des autres mods. 'attacks' : épées courtes de Calamity absentes de la page (modes : 'plus' = Calamity++ seulement). 'text' suit la syntaxe des effets de la page ; 'effects' ajoute des effets en données directement.",
+  "generic": {
+    "damageBoost": 0.1,
+    "hits": 3,
+    "seconds": 1.0
+  },
+  "attacks": [
+    {
+      "weapon": "Sahara Slicers",
+      "damageBoost": 0.25,
+      "hits": 5,
+      "seconds": 2.0,
+      "modes": ["plus"],
+      "text": "Hits spawn sand slicers",
+      "effects": [{"type": "spawnOnHit", "projectile": "SaharaSlicersBolt"}]
+    }
+  ]
+}

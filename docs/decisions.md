@@ -287,8 +287,34 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** Groupe « One of the following N items » dont le jeu ne donne qu'une partie (Desert Scourge : Calamity a
   gardé Barinade et Scourge of the Desert, remplacé les autres) : les objets absents sont ajoutés un par un avec leur
   chance de la page (Seabound Staff, Storm Spray, Aquatic Discharge à 25 %), en plus du groupe du jeu.
-- **À faire** : « Shortstrike » / « Shortflurry » (page Shortstrike : jauge des épées courtes, attaque spéciale), système
-  inventé par le wiki dont dépend l'Aquatic Discharge ; Gravistar Sabaton et Blazing Core (effets à recréer).
+- **À faire** : Gravistar Sabaton et Blazing Core (effets à recréer). Le Shortstrike est fait (section 8 bis).
+
+## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
+
+- **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par
+  coup qui touche), bonus en tenant une épée courte, Shortflurry au clic droit quand elle est pleine. Le tableau de la page
+  est lu par le générateur ; chaque effet écrit en anglais devient une donnée (défense, réduction de dégâts, vitesses,
+  critique, debuff au coup, soin par coup, vol de vie, buff, immunités, projectile au coup). 17 effets pas encore traduits
+  (rayons, lianes, lunes, nuages... : `reports/shortstrike.md`), surtout pour des armes qui n'existent pas encore.
+- **[validé 22/10]** Calamity++ : bonus de la jauge divisés par deux (`Balance/shortstrike.json` : +1 % tous les 10 points,
+  +1 défense tous les 6) ; Shortflurry identiques au wiki.
+- **[validé 22/10]** Armes du tableau absentes du jeu (Tomutus, Night's Stabber, Terra Shiv...) : créées plus tard, une
+  par une ; leur ligne est prête.
+- **[choix]** Épées courtes hors tableau : un Shortflurry générique (+10 %, 3 coups, 1 s) pour les autres mods ; un seul
+  sur mesure, **Sahara Slicers** (Calamity++, l'arme est masquée en Full Fandom) : +25 %, 5 coups, 2 s, chaque coup relance
+  ses éclats de sable (`tools/shortstrike_extra.json`). Toutes les épées courtes vanilla et de Calamity sont déjà dans le
+  tableau, la liste n'a donc pas de doublon.
+- **[choix]** « Épée courte » = arme du tableau, ou arme maniée en estoc (useStyle Rapier) ou qui tire un projectile
+  d'épée courte de Calamity.
+- **[choix]** Clones magiques : l'épée part du joueur vers le curseur (écart aléatoire de ±20°) et revient, teinte orange
+  translucide ; les coups sont répartis sur la durée ; un coup par clone et par ennemi. Les clones ne remplissent pas la
+  jauge. Effets de stats actifs pendant la durée du Shortflurry ; buffs et immunités « for N seconds » à leur propre durée.
+- **[choix]** « Attacks inflict X » sans durée : 5 s. « Hits drain 3% health » : 3 % de la vie restante de l'ennemi, au plus
+  5 fois les dégâts du coup. Projectile « au coup » : moitié des dégâts du coup.
+- **[choix]** Affichage : petite barre sous le joueur en tenant une épée courte (survol : texte d'aide), aura orange
+  pulsante quand elle est pleine. Points sauvegardés avec le personnage.
+- **[technique]** Les points ne sont pas synchronisés en multijoueur : les autres joueurs ne voient pas l'aura (les clones,
+  eux, sont synchronisés).
 
 ## 9. Outils de debug (`Content/Debug/`, sans recette)
 
