@@ -470,18 +470,6 @@
    "value": 200000
   },
   {
-   "name": "Chaosplate",
-   "displayName": "Chaosplate",
-   "page": "Chaosplate.txt",
-   "width": 16,
-   "height": 16,
-   "frames": 1,
-   "ticksPerFrame": 5,
-   "rare": 3,
-   "maxStack": 9999,
-   "value": 1500
-  },
-  {
    "name": "ChaoticBrick",
    "displayName": "Chaotic Brick",
    "page": "Chaotic Brick.txt",
@@ -504,18 +492,6 @@
    "rare": 1,
    "maxStack": 9999,
    "value": 400
-  },
-  {
-   "name": "CharredOre",
-   "displayName": "Charred Ore",
-   "page": "Charred Ore.txt",
-   "width": 24,
-   "height": 20,
-   "frames": 1,
-   "ticksPerFrame": 5,
-   "rare": 5,
-   "maxStack": 9999,
-   "value": 6000
   },
   {
    "name": "CloakingGland",
@@ -966,18 +942,6 @@
    "displayName": "Essence of Babil",
    "page": "Essence of Babil.txt",
    "width": 38,
-   "height": 24,
-   "frames": 1,
-   "ticksPerFrame": 5,
-   "rare": 5,
-   "maxStack": 9999,
-   "value": 20000
-  },
-  {
-   "name": "EssenceOfChaos",
-   "displayName": "Essence of Chaos",
-   "page": "Essence of Chaos.txt",
-   "width": 34,
    "height": 24,
    "frames": 1,
    "ticksPerFrame": 5,
@@ -1886,18 +1850,6 @@
    "value": 2500000
   },
   {
-   "name": "Phantoplasm",
-   "displayName": "Phantoplasm",
-   "page": "Phantoplasm.txt",
-   "width": 32,
-   "height": 38,
-   "frames": 5,
-   "ticksPerFrame": 5,
-   "rare": 11,
-   "maxStack": 9999,
-   "value": 50000
-  },
-  {
    "name": "PrimordialLife",
    "displayName": "Primordial Life",
    "page": "Primordial Life.txt",
@@ -2304,18 +2256,6 @@
    "rare": 7,
    "maxStack": 9999,
    "value": 3000000
-  },
-  {
-   "name": "Stardust",
-   "displayName": "Stardust",
-   "page": "Stardust.txt",
-   "width": 30,
-   "height": 26,
-   "frames": 1,
-   "ticksPerFrame": 5,
-   "rare": 5,
-   "maxStack": 9999,
-   "value": 1500
   },
   {
    "name": "StiriaticBar",

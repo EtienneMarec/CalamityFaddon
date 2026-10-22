@@ -182,7 +182,9 @@ namespace CalamityFandom.Common.WikiData
                 string name = Normalize(Lang.GetItemNameValue(type));
                 if (name.Length == 0)
                     continue;
-                int rank = Rank(type);
+                // Un objet masqué dans ce mode passe après son homonyme (Night's Gaze : notre portage en Full Fandom, la
+                // Vega de Calamity renommée en Calamity++)
+                int rank = Rank(type) + (Modes.FullFandomHiding.HiddenItems.Contains(type) ? 10 : 0);
                 if (!ranks.TryGetValue(name, out int best) || rank < best)
                 {
                     ranks[name] = rank;

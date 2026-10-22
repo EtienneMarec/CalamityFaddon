@@ -51,6 +51,28 @@ namespace CalamityFandom.Common.NPCs
         public override void OnHitPlayer(NPC npc, Player target, Player.HurtInfo hurtInfo) => target.AddBuff(BuffID.Poisoned, 300);
     }
 
+    /// <summary>
+    /// Tête, griffes et jambes du Ravager de Calamity : absentes du Meatmetal Sans du wiki (« he will stand in place »),
+    /// et tant qu'elles vivent le corps est invulnérable (barre de vie à 210 023 au lieu de 23, test du 22/10). Retirées
+    /// dès leur apparition, sans butin ([choix], en attendant le vrai combat : voir docs/ROADMAP.md).
+    /// </summary>
+    public class MeatmetalSansParts : GlobalNPC
+    {
+        private static readonly string[] Parts = { "RavagerHead", "RavagerHead2", "RavagerClawLeft", "RavagerClawRight", "RavagerLegLeft", "RavagerLegRight" };
+
+        public override bool AppliesToEntity(NPC entity, bool lateInstantiation) =>
+            lateInstantiation && entity.ModNPC is { Mod.Name: "CalamityMod" } modNPC && System.Array.IndexOf(Parts, modNPC.Name) >= 0;
+
+        public override bool PreAI(NPC npc)
+        {
+            npc.active = false;
+            npc.life = 0;
+            if (Main.netMode == NetmodeID.Server)
+                NetMessage.SendData(MessageID.SyncNPC, number: npc.whoAmI);
+            return false;
+        }
+    }
+
     /// <summary>Les projectiles de Meatmetal Sans font aussi 1 dégât et empoisonnent.</summary>
     public class MeatmetalSansProjectile : GlobalProjectile
     {

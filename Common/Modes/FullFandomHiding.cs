@@ -13,12 +13,15 @@ namespace CalamityFandom.Common.Modes
     /// (WikiData/baseline.json, généré par tools/gen_baseline.py). Masquer = plus de recette, plus de butin, plus
     /// d'apparition naturelle, plus de vente. Les PNJ créés en combat ne sont pas touchés : un boss retravaillé peut
     /// dépendre d'un sbire récent.
+    /// Calamity++ (et Minimal) : masque nos portages d'objets que Calamity a seulement renommés ou refaits depuis
+    /// (« plusHidden » : Night's Gaze = Vega...) : l'objet actuel les remplace, sous le nom du wiki (décision du 23/10).
     /// </summary>
     public class FullFandomHiding : ModSystem
     {
         private class BaselineFile
         {
             public HiddenData Hidden { get; set; } = new();
+            public HiddenData PlusHidden { get; set; } = new();
         }
 
         private class HiddenData
@@ -40,22 +43,20 @@ namespace CalamityFandom.Common.Modes
 
         public override void PostSetupContent()
         {
-            if (!FandomMode.IsFull)
-                return;
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             var file = JsonSerializer.Deserialize<BaselineFile>(Mod.GetFileBytes("WikiData/baseline.json"), options);
-            foreach (string name in file.Hidden.Items)
-                if (ModContent.TryFind<ModItem>("CalamityMod", name, out var item))
+            // Full Fandom : contenu de Calamity ; sinon : nos portages remplacés par l'objet actuel de Calamity
+            var (data, owner) = FandomMode.IsFull ? (file.Hidden, "CalamityMod") : (file.PlusHidden, Mod.Name);
+            foreach (string name in data.Items)
+                if (ModContent.TryFind<ModItem>(owner, name, out var item))
                     HiddenItems.Add(item.Type);
-            foreach (string name in file.Hidden.Npcs)
-                if (ModContent.TryFind<ModNPC>("CalamityMod", name, out var npc))
+            foreach (string name in data.Npcs)
+                if (ModContent.TryFind<ModNPC>(owner, name, out var npc))
                     HiddenNPCs.Add(npc.Type);
         }
 
         public override void PostAddRecipes()
         {
-            if (!FandomMode.IsFull)
-                return;
             foreach (var recipe in Main.recipe.Take(Recipe.numRecipes))
             {
                 if (!recipe.Disabled && HiddenItems.Contains(recipe.createItem.type))

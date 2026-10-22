@@ -398,6 +398,16 @@ def main():
             target["status"] = "renamed"
             target["renamed_from"] = [old]
             attach_calamity(target, matches, cal_classes)
+    # Renommages de Calamity depuis 2.0.1.005 (historique git, tools/calamity_renames.py) : la page du wiki décrit
+    # l'objet actuel sous son ancien nom (Essence of Chaos = Essence of Havoc)
+    from calamity_renames import load as load_renames, wiki_known  # import tardif : calamity_renames importe ce module
+    for r in wiki_known(load_renames(), {norm(p["title"]): p for p in index.values()}):
+        target = by_title.get(norm(r["page"]))
+        matches = [m for m in cal_names.get(norm(r["newName"]), []) if m[1] == r["new"]]
+        if target and matches and target["status"] == "new":
+            target["status"] = "renamed"
+            target["renamed_from"] = [r["newName"]]
+            attach_calamity(target, matches, cal_classes)
     # Plusieurs noms officiels vers une même page = page de regroupement (Beds, Aerospec armor...)
     for page in index.values():
         if page.get("status") == "renamed" and len(page["renamed_from"]) > 1:

@@ -2,17 +2,27 @@
 
 _Généré par `tools/gen_stats.py`._ Règles : `docs/decisions.md`, section « Stats ».
 
-- Tous les modes : 1207 objets et 30 PNJ (`items` / `npcs` de `WikiData/stats.json`).
-- Full Fandom en plus : 473 objets et 57 PNJ (`fullItems` / `fullNpcs`).
+- Tous les modes : 1301 objets et 36 PNJ (`items` / `npcs` de `WikiData/stats.json`).
+- Full Fandom en plus : 482 objets et 57 PNJ (`fullItems` / `fullNpcs`).
 - 30 valeurs identiques à Calamity 2.0.1.005 : Full Fandom seulement (ce n'est que l'ancien Calamity).
 - 21 écarts extrêmes tranchés avec l'utilisateur (`tools/stats_decisions.json`).
-- **0 écarts extrêmes (> x5) à trancher** : Full Fandom seulement en attendant.
+- **9 écarts extrêmes (> x5) à trancher** : Full Fandom seulement en attendant.
 - 831 valeurs fixées sur les pages de wiki/ avec {{mode|Full Fandom|Calamity++}}.
 - Gérés dans le code : Ravager.
 
 ## Écarts extrêmes à trancher
 
-Aucun.
+| Page | Classe | Champ | Wiki | Code actuel |
+|---|---|---|---|---|
+| Deathhail Staff | HyperdeathRiftScepter | damage | 328 | 4100 |
+| Deathwind | ThreadOfEradication | damage | 248 | 1500 |
+| Energy Staff | SanctifiedSpark | mana | 10 | 100 |
+| Excelsus | MawOfInfinity | damage | 279 | 2080 |
+| Greatsword of Blah | Orderbringer | damage | 138 | 700 |
+| Minigun | Kingsbane | damage | 16 | 249 |
+| Sun God Staff | VengefulSunStaff | damage | 210 | 38 |
+| Taser | ShortCircuit | damage | 998.2 | 11 |
+| Thunderstorm | Volterion | damage | 132 | 890 |
 
 ## Écarts extrêmes tranchés
 
@@ -108,6 +118,7 @@ Aucun.
 | Scorched Earth | ScorchedEarth | useAnimation | 32 |
 | Scorpio | Scorpio | useAnimation | 39 |
 | Seashine Sword | SeashineSword | useAnimation | 19 |
+| Terra Flameburster | WildfireBloom | useAnimation | 15 |
 | The Anomaly's Nanogun | TheAnomalysNanogun | useAnimation | 140 |
 | The Hive | TheHive | useAnimation | 21 |
 | True Biome Blade | OmegaBiomeBlade | damage | 400 |

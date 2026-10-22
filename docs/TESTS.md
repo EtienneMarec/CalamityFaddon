@@ -151,37 +151,40 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
       une seule ligne d'Abyss Ore (corrigé le 22/10)
 - [x] Diseased Pike : la lance pointe dans la bonne direction (corrigé le 22/10)
 - [x] Energy Staff : la tourelle reste là où on la pose (corrigé le 22/10 : ancienne tourelle immobile)
-- [ ] Desert Scourge (mode normal) : peut aussi lâcher Seabound Staff, Storm Spray ou Aquatic Discharge (25 % chacun)
+- [x] Desert Scourge (mode normal) : peut aussi lâcher Seabound Staff, Storm Spray ou Aquatic Discharge (25 % chacun)
 - [ ] Conquest Fragment (Pearl Shard) : sprite du wiki (éclat bleu et doré) dans l'inventaire et au sol, **dans les
       deux modes** ; idem Victide Bar, Divine Bar, Parched Scale (liste : `reports/sprites.md`)
-- [ ] **Full Fandom** : des objets au sprite refait depuis 2022 reprennent celui du wiki (ex.
+- [x] **Full Fandom** : des objets au sprite refait depuis 2022 reprennent celui du wiki (ex.
       The Ballista, Purified Gel, Exoblade, Radiant Star) ; **Calamity++** : sprites actuels
-- [ ] Aucun sprite remplacé n'est coupé, décalé ou énorme dans l'inventaire (en Full Fandom, parcourir Cheat Sheet)
+- [x] Aucun sprite remplacé n'est coupé, décalé ou énorme dans l'inventaire (en Full Fandom, parcourir Cheat Sheet)
 
 ---
 
 ## Passe 2 — Modes de fidélité (`docs/MODES.md`)
 
 Contrôlé par `python tools/selftest.py --mode all`. En jeu :
-- [ ] Config « Calamity Fandom » : « Fandom accuracy » à 2 choix (Full Fandom / Calamity++, Calamity++ par défaut) +
+- [x] Config « Calamity Fandom » : « Fandom accuracy » à 2 choix (Full Fandom / Calamity++, Calamity++ par défaut) +
       option de debug « Disable Calamity++ balancing » ; changer demande un rechargement
-- [ ] Monde créé en Calamity++ puis ouvert en Full Fandom : message orange à l'entrée (pas de message entre
+- [x] Monde créé en Calamity++ puis ouvert en Full Fandom : message orange à l'entrée (pas de message entre
       Calamity++ et son option de debug)
-- [ ] Full Fandom : un objet récent de Calamity (voir `reports/baseline.md`, section « masqués ») n'a plus de recette
-- [ ] Desert Scourge : 350 000 PV du wiki (ratio x87,5) **dans tous les modes** (validé le 21/10)
-- [ ] Full Fandom : Acidwood ne se fabrique plus depuis Acidwood Wall (recette absente du wiki)
-- [ ] Full Fandom : un PNJ récent masqué (liste « PNJ » de `reports/baseline.md`) n'apparaît plus naturellement
-- [ ] Full Fandom : les marchands ne vendent plus d'objet masqué ; un objet masqué déjà dans l'inventaire reste utilisable
-- [ ] Full Fandom : les boss récents ne s'invoquent plus (leur objet d'invocation n'a plus de recette ni de drop)
-- [ ] Full Fandom : Starfleet à 68 dégâts (valeur de 2022) ; en Calamity++ elle garde ses dégâts actuels
+- [ ] Full Fandom : un objet récent de Calamity n'a plus de recette. Exemple : **Acidwood Sword** (établi, Acidwood) ;
+      en Calamity++ elle se fabrique
+- [x] Desert Scourge : 350 000 PV du wiki (ratio x87,5) **dans tous les modes** (validé le 21/10)
+- [x] Full Fandom : Acidwood ne se fabrique plus depuis Acidwood Wall (recette absente du wiki)
+- [ ] Full Fandom : un PNJ récent masqué n'apparaît plus naturellement. Exemple : **Slab Crab** (couches de l'Abysse)
+- [ ] Full Fandom : les marchands ne vendent plus d'objet masqué. Exemple : la **Dryad** ne vend plus d'**Astral Grass
+      Seeds** en Hardmode (Calamity++ : oui) ; un objet masqué déjà dans l'inventaire reste utilisable
+- [x] Full Fandom : les boss récents ne s'invoquent plus — sans objet : le seul boss récent sans page est le Horrible
+      Hog, qui naît d'un cochon ; les autres « nouveaux » boss sont des renommages (23/10)
+- [x] Full Fandom : Starfleet à 68 dégâts (valeur de 2022) ; en Calamity++ elle garde ses dégâts actuels
 - [ ] Retour en Calamity++ : tout revient comme avant
 
 ### 2.1 Premier contenu porté : Night's Gaze
 
-- [ ] Night's Gaze existe (Cheat Sheet), sprite + glowmask, infobulle du wiki, « Elements: Dark, Magic, Stab »
-- [ ] Lancer : la lance part, se brise sur un ennemi en étoiles et étincelles, Moon Burnt sur la cible
-- [ ] Attaque furtive : la lance sème des étoiles à tête chercheuse
-- [ ] Recette à l'Ancient Manipulator : Daybreak, 7 Lumenyl, 4 Ruinous Soul, 12 Exodium Cluster
+- [x] Night's Gaze existe (Cheat Sheet), sprite + glowmask, infobulle du wiki, « Elements: Dark, Magic, Stab »
+- [x] Lancer : la lance part, se brise sur un ennemi en étoiles et étincelles, Moon Burnt sur la cible
+- [x] Attaque furtive : la lance sème des étoiles à tête chercheuse
+- [x] Recette à l'Ancient Manipulator : Daybreak, 7 Lumenyl, 4 Ruinous Soul, 12 Exodium Cluster
 - [x] Zweihandromeda : la recette demande maintenant aussi Night's Gaze
 
 ### 2.2 Décisions du 21/10 : stats par mode, Meatmetal Sans, outils de test
@@ -190,9 +193,9 @@ Contrôlé par `python tools/selftest.py --mode all`. En jeu :
 géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments ; clic droit : les retire) et 18
 **Test Swords** (une par élément + Moon Burnt, de la couleur de l'élément, 10 dégâts).
 
-- [ ] Le mannequin se pose, ne bouge pas, ne fait pas de dégâts, se régénère quand il descend sous 10 % de ses PV
-- [ ] Test Sword: Moon Burnt sur le mannequin → icône bleue du wiki au-dessus de lui
-- [ ] Chaque Test Sword d'élément (Cold, Fire, Water, Poison, Acid, Radioactive, Electricity, Stab, Slash, Smash, Magic,
+- [x] Le mannequin se pose, ne bouge pas, ne fait pas de dégâts, se régénère quand il descend sous 10 % de ses PV
+- [x] Test Sword: Moon Burnt sur le mannequin → icône bleue du wiki au-dessus de lui
+- [x] Chaque Test Sword d'élément (Cold, Fire, Water, Poison, Acid, Radioactive, Electricity, Stab, Slash, Smash, Magic,
       Dark, Holy, Unholy, Machine) : particules de l'élément et teinte sur le mannequin, pas d'icône ; infobulle
       « Elements: X » ; en Full Fandom à chaque coup, en Calamity++ seulement de temps en temps
 - [ ] Test Sword: Wind repousse plus fort (sans effet sur le mannequin, qui ne recule pas : tester sur un ennemi normal)
@@ -200,15 +203,19 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 - [x] **Fandom Test Vial** (Cheat Sheet) : clic droit = debuff suivant (nom affiché), clic gauche = appliqué à toi et à
       l'ennemi le plus proche (message dans le chat). Liste : Moon Burnt, Marked, puis les 15 statuts d'éléments
-- [ ] Sur un boss : Moon Burnt garde son icône du wiki au-dessus de lui, mais **pas** d'icône d'élément
+- [x] Sur un boss : Moon Burnt garde son icône du wiki au-dessus de lui, mais **pas** d'icône d'élément
 
-- [ ] Ravager (Meatmetal Sans) : il faut exactement 23 coups pour le tuer, chaque coup ne retire qu'1 PV
+- [ ] Ravager (Meatmetal Sans) : seul (ni tête, ni griffes, ni jambes), barre de vie à 23 ; exactement 23 coups pour le
+      tuer, chaque coup ne retire qu'1 PV (corrigé le 23/10)
 - [ ] Il « esquive » : les coups rapprochés (moins de 0,5 s) ne comptent pas
 - [ ] Ses attaques (contact et projectiles) ne font qu'1 dégât mais empoisonnent
-- [ ] Temporal Umbrella : coûte 520 mana, utilisable une fois le mana max assez boosté
-- [ ] Relic of Ruin et Stormjaw Staff gardent leurs dégâts en Calamity++ (1 et 0 en Full Fandom)
-- [ ] Le Ravager s'appelle **Meatmetal Sans** (boss, masque, trophée, relique, sac)
-- [ ] Ceaseless Void : 0 de défense
+- [ ] Temporal Umbrella : coûte 520 mana. Pour 520 : 200 de base + capuche mage Auric Tesla (ou Silva, Tarragon, Bloodflare)
+      +100, Ethereal Talisman +60, Sigil of Calamitas +60, Moonstone Crown +40, Mana Polarizer +40, Band of Starpower +20
+- [ ] Relic of Ruin (validée) et Stormjaw Staff gardent leurs dégâts en Calamity++ ; en Full Fandom **1** (0,1 du wiki arrondi
+      à 1 le 23/10) : les étincelles du sbire font 1 dégât, l'infobulle est dans le bon ordre
+- [x] Le Ravager s'appelle **Meatmetal Sans** (boss, masque, trophée, relique, sac)
+- [x] Ceaseless Void : 0 de défense (plus les 50 % de réduction de dégâts de Calamity, cohérents
+      avec la page : 9 dégâts → 4)
 
 ### 2.3 Décision du 21/10 : contenu ancien cité nulle part
 
@@ -218,6 +225,15 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Full Fandom : Acidwood Wall existe toujours (cité dans un changelog du wiki)
 - [ ] Renommages trouvés au passage : The Etomer → **Triboluminescent Etomer**, Martian Distress Remote → **Martian
       Distress Beacon** (dans tous les modes)
+
+### 2.5 Renommages de Calamity (23/10)
+
+- [ ] **Essence of Havoc** s'appelle **Essence of Chaos** (deux modes) ; en Full Fandom elle existe toujours (recettes, butin)
+- [ ] Le sac de **Calamitas** (Calamitas Clone) s'appelle « Treasure Bag (Calamitas) » et tombe en Expert en Full Fandom
+- [ ] Calamity++ : la **Vega** s'appelle **Night's Gaze** (c'est elle qui est utilisée) ; notre ancienne version n'a plus de
+      recette ; Full Fandom : c'est notre Night's Gaze de 2022, la Vega est masquée. Idem Star Shower → Starfall, Burning
+      Revelation → Solar Flare, Sandstream Scepter → Storm Spray, Doomsday Device → Shock Grenade...
+- [ ] Crimulan Paladin / Ebonian Paladin s'appellent Crimulan / Ebonian Slime God
 
 ### 2.4 Shortstrike (page Shortstrike, 22/10)
 

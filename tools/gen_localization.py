@@ -124,6 +124,23 @@ def main():
         if new != value:
             changed[key] = (value, new)
 
+    # Objets renommés par Calamity depuis 2.0.1.005 (tools/calamity_renames.py, décision du 23/10) : ils reprennent le
+    # nom de leur page. Le nom seul : beaucoup de nouveaux noms sont des mots courants (« Radiance ») qu'une substitution
+    # dans tous les textes abîmerait. Un nouveau nom qui a sa propre page sur le wiki est gardé.
+    from calamity_renames import load as load_renames, wiki_known
+    pages = {re.sub(r"[^a-z0-9]", "", p["title"].lower()): p for p in index.values()}
+    strings = load_calamity_strings()
+    by_class = {}
+    for key in strings:
+        if key.endswith(".DisplayName"):
+            by_class.setdefault(key.split(".")[-2], key)
+    for r in wiki_known(load_renames(), pages):
+        own_page = pages.get(re.sub(r"[^a-z0-9]", "", r["newName"].lower()))
+        key = by_class.get(r["new"])
+        if r["newName"] == r["oldName"] or not key or (own_page and own_page.get("kind") == "content"):
+            continue
+        changed[key] = (strings[key], r["oldName"])
+
     prefix = "Mods.CalamityMod."
     wanted = {k[len(prefix):]: v[1] for k, v in sorted(changed.items())}
     # tModLoader reformate ce fichier à son chargement : on ne le réécrit que si le contenu change vraiment

@@ -43,6 +43,23 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
 
 ## 2. Noms et vocabulaire (`tools/glossary.json`, `Localization/en-US/Mods.CalamityMod.hjson`)
 
+- **[validé 23/10]** **Objets renommés par Calamity depuis 2.0.1.005** (historique git, `tools/calamity_renames.py` :
+  170 connus du wiki sous l'ancien nom, dont ~147 avec un nom affiché différent : Essence of Chaos → Essence of Havoc,
+  Crimulan Slime God → Crimulan Paladin, sac/masque/trophée de Calamitas, Elemental/Terra X...) : même objet. Il reprend
+  le nom de sa page **dans les deux modes** (le nom seul, pas une substitution dans tous les textes : beaucoup de
+  nouveaux noms sont des mots courants) et n'est plus masqué en Full Fandom. Un renommage ne compte que si la page du
+  wiki est du bon type (objet / PNJ). Un nouveau nom qui a sa propre page est gardé.
+- **[validé 23/10]** Objets **portés** alors que Calamity les avait seulement renommés ou refaits (12 : Night's Gaze =
+  Vega, Starfall = Star Shower, Solar Flare = Burning Revelation, Effluvium Bow = Hoarfrost Bow, Energy Staff = Sanctified
+  Spark, Amidias' Spark = Ilmeris' Spark, Regenator = Regenerator, Corroslime Staff = Blighted Slime Staff ; refontes :
+  Storm Spray = Sandstream Scepter, Seabound Staff = Brittle Star Staff, Shock Grenade = Doomsday Device, Mana Jelly =
+  Cleansing Jelly) : **Full Fandom** = notre portage (2022, ce que décrit le wiki), l'objet actuel masqué ;
+  **Calamity++** = l'objet actuel sous le nom du wiki, notre portage masqué (`plusHidden` de `WikiData/baseline.json`).
+  **[technique]** La recherche par nom (recettes, butin...) passe l'objet masqué dans le mode en cours après son homonyme.
+- **[technique]** Les stats d'une page renommée s'appliquent à l'objet actuel ; 9 écarts extrêmes viennent d'objets
+  refaits (Taser 998 dégâts au wiki contre 11, Deathhail Staff 328 contre 4100...) : Full Fandom seulement en attendant
+  (`reports/stats.md`, à trancher).
+
 - **[choix]** Renommages retenus après lecture de chaque page cible (`reports/renames.md`) : Scoria → Abyss Bar/Ore,
   Astrum Deus → Astral Deus, Brimstone Crags → Brimstone Crag, Pearl Shard → Conquest Fragment, Dark Spark → Cruel Jewel,
   Divine Geode → Divine Bar, Malachite → Garnet, Murasama → Graydron, Marked for Death → Marked, Nightwither → Moon Burnt,
@@ -55,6 +72,9 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
   même infobulle, même usage) : The Etomer → Triboluminescent Etomer, Martian Distress Remote → Martian Distress
   Beacon. Le sac de la Leviathan est connu du wiki sous « Treasure Bag (The Leviathan) » : simple alias (le renommage
   en jeu ne passe pas, le nom finit par une parenthèse).
+- **[choix]** (test du 23/10) Meatmetal Sans : la tête, les griffes et les jambes du Ravager de Calamity sont retirées dès
+  leur apparition (sans butin) : le wiki n'en parle pas (« he will stand in place ») et, vivantes, elles rendaient le corps
+  invulnérable (barre à 210 023 PV). En attendant le vrai combat (feuille de route).
 - **[validé 21/10]** Ravager → **Meatmetal Sans** partout (boss, masque, trophée, relique, sac, lore). Un renommage décidé
   passe avant la protection ci-dessous.
 - **[choix]** Vocabulaire appliqué à tous les textes de Calamity : rogue → spy, accessory → covering, post-Moon Lord →
@@ -198,7 +218,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   wiki remplace la règle du jeu, si cette règle ne donne que cet objet. Dans les deux modes (valeur propre au wiki).
   **[technique]** Lignes `custom` : la quantité écrite après le modèle (« {{item|Depth Cells|...}} (1-2) ») est lue ; un
   objet cité sous deux noms (Scoria Ore / Abyss Ore) n'est plus compté deux fois.
-  **[technique]** Premier kill et biome ne se vérifient pas à l'ouverture d'un sac : ces drops tombent directement en
+- **[technique]** Valeurs de dégâts du wiki entre 0 et 1 (Stormjaw Staff 0,1) arrondies à 1 : à 0, l'arme ne fait plus
+  rien et l'infobulle se dérègle (test du 23/10).
+- **[technique]** Premier kill et biome ne se vérifient pas à l'ouverture d'un sac : ces drops tombent directement en
   Expert, même en Calamity++.
 - **[choix]** (remarque de l'utilisateur, 22/10) Une condition écrite `| Objet|note=(...)|...` **hors** d'un `{{item}}` est
   un paramètre nommé de l'infobox que le modèle n'affiche pas : sur le wiki affiché il n'y a pas de condition, le drop

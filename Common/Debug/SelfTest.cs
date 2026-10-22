@@ -259,9 +259,15 @@ namespace CalamityFandom.Common.Debug
 
         private void CheckLegacy()
         {
-            // Contenu porté depuis Calamity 2.0.1.005 : trouvable par son nom du wiki, intégré aux recettes du wiki
+            // Contenu porté depuis Calamity 2.0.1.005 : trouvable par son nom du wiki, intégré aux recettes du wiki.
+            // Portages d'objets que Calamity a seulement renommés ou refaits (décision du 23/10) : notre version en Full
+            // Fandom, l'objet actuel de Calamity (sous le nom du wiki) dans les autres modes
+            var replacedByCalamity = new HashSet<string> { "Night's Gaze", "Seabound Staff", "Effluvium Bow", "Regenator", "Storm Spray",
+                "Solar Flare", "Corroslime Staff", "Shock Grenade", "Mana Jelly", "Amidias' Spark", "Energy Staff", "Starfall" };
+            string ExpectedOwner(string name) => replacedByCalamity.Contains(name) && !FandomMode.IsFull ? "CalamityMod" : Mod.Name;
             int gaze = WikiRecipes.ResolveItem("Night's Gaze");
-            Expect(gaze > 0 && ItemLoader.GetItem(gaze)?.Mod == Mod, "Night's Gaze porté et trouvable par son nom");
+            Expect(gaze > 0 && ItemLoader.GetItem(gaze)?.Mod.Name == ExpectedOwner("Night's Gaze"),
+                $"Night's Gaze : {ItemLoader.GetItem(gaze)?.FullName} ({ExpectedOwner("Night's Gaze")} attendu)");
             int zwei = ModContent.ItemType<Content.Items.Weapons.Melee.Zweihandromeda>();
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == zwei && r.requiredItem.Any(i => i.type == gaze)),
                 "la recette de Zweihandromeda demande Night's Gaze");
@@ -278,9 +284,20 @@ namespace CalamityFandom.Common.Debug
             foreach (string name in new[] { "Bleached Angling Kit", "Seabound Staff", "Effluvium Bow", "Regenator", "Storm Spray", "Aquatic Discharge", "Solar Flare", "Diseased Pike", "Crimslime Staff", "Corroslime Staff", "Gehenna", "Shock Grenade", "Mana Jelly", "Fungal Carapace", "Amidias' Spark", "Energy Staff", "Starfall", "Storm Dragoon", "Soul Edge" })
             {
                 int type = WikiRecipes.ResolveItem(name);
-                Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté et trouvable par son nom");
+                Expect(type > 0 && ItemLoader.GetItem(type)?.Mod.Name == ExpectedOwner(name), $"{name} : {ItemLoader.GetItem(type)?.FullName} ({ExpectedOwner(name)} attendu)");
             }
-            Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Seabound Staff")), "le Desert Scourge lâche le Seabound Staff (groupe partiel)");
+            if (FandomMode.IsFull)
+                Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Seabound Staff")), "le Desert Scourge lâche le Seabound Staff (groupe partiel)");
+            // Renommages de Calamity depuis 2022 : nom du wiki rendu, plus masqués en Full Fandom
+            if (ModContent.TryFind<ModItem>("CalamityMod", "EssenceofHavoc", out var havoc))
+            {
+                Expect(Lang.GetItemNameValue(havoc.Type) == "Essence of Chaos", $"Essence of Havoc s'appelle {Lang.GetItemNameValue(havoc.Type)}");
+                Expect(!Common.Modes.FullFandomHiding.HiddenItems.Contains(havoc.Type), "Essence of Chaos n'est pas masquée");
+            }
+            if (ModContent.TryFind<ModItem>("CalamityMod", "Vega", out var vega))
+                Expect(Common.Modes.FullFandomHiding.HiddenItems.Contains(vega.Type) == FandomMode.IsFull, "Vega masquée en Full Fandom seulement (notre Night's Gaze la remplace)");
+            Expect(Common.Modes.FullFandomHiding.HiddenItems.Contains(ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.NightsGaze>()) == !FandomMode.IsFull,
+                "notre Night's Gaze masquée hors Full Fandom");
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Bleached Angling Kit")), "l'Aquatic Scourge lâche le Bleached Angling Kit");
             int grenade = WikiRecipes.ResolveItem("Shock Grenade");
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == grenade && r.createItem.stack == 100),

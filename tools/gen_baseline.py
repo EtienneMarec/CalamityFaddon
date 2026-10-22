@@ -77,6 +77,16 @@ def legacy_display_names(commit):
     return names
 
 
+def ported_classes():
+    """Classes de notre mod portées depuis 2.0.1.005 (Content/Legacy)."""
+    classes = set()
+    for folder, _, files in os.walk(os.path.join(ROOT, "Content", "Legacy")):
+        for f in files:
+            if f.endswith(".cs"):
+                classes |= set(re.findall(r"\bclass (\w+)\b", open(os.path.join(folder, f), encoding="utf-8-sig").read()))
+    return classes
+
+
 def words(text):
     """Texte en minuscules, mots séparés par une seule espace (pour chercher un nom sans tenir compte de la ponctuation)."""
     return " " + re.sub(r"[^a-z0-9]+", " ", text.lower()).strip() + " "
@@ -126,13 +136,30 @@ def main():
         recipe_results = {norm(r["result"]) for r in json.load(open(recipes_path, encoding="utf-8"))["recipes"]}
     known = titles | redirects | recipe_results
 
+    # Classes renommées depuis (historique git, décision du 23/10) : même objet, que le wiki connaît sous l'ancien nom.
+    # S'il a été porté (Content/Legacy, classe au nom de la page), le portage le remplace en Full Fandom, et c'est le
+    # portage qui est masqué en Calamity++.
+    from calamity_renames import load as load_renames, wiki_known
+    all_renames = load_renames()
+    renamed_old = {r["old"] for r in all_renames}
+    wiki_renames = {r["new"]: r for r in wiki_known(all_renames, {norm(p["title"]): p for p in index.values()})}
+    ported = ported_classes()
+    plus_hidden = {"items": [], "npcs": []}
+
     # Ajoutés depuis : masqués en Full Fandom sauf si le wiki les connaît
     hidden = {"items": [], "npcs": []}
     for cls in sorted(set(new) - set(old)):
         kind, _ = new[cls]
-        has_page = cls in documented_classes or norm(current_names.get(cls, "")) in known
+        key = "items" if kind == "ModItem" else "npcs"
+        rename = wiki_renames.get(cls)
+        port = re.sub(r"[^A-Za-z0-9]", "", rename["oldName"]) if rename else None
+        if port in ported:
+            hidden[key].append(cls)
+            plus_hidden[key].append(port)
+            continue
+        has_page = cls in documented_classes or norm(current_names.get(cls, "")) in known or rename is not None
         if not has_page:
-            hidden["items" if kind == "ModItem" else "npcs"].append(cls)
+            hidden[key].append(cls)
 
     # Plus anciens (déjà là à l'abandon du wiki), sans page et cités nulle part : masqués aussi (décision du 21/10).
     # Cités en texte seulement (changelog, liste...) : gardés, le wiki les connaît.
@@ -165,7 +192,7 @@ def main():
     for cls in sorted(set(old) - set(new)):
         kind, path = old[cls]
         display = old_display(cls)
-        if norm(display) in current_by_display or cls.endswith("Banner"):
+        if norm(display) in current_by_display or cls.endswith("Banner") or cls in renamed_old:
             renamed.append((cls, display))
             continue
         page = norm(display) in titles or norm(display) in redirects
@@ -173,7 +200,8 @@ def main():
 
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump({"_generated_by": "tools/gen_baseline.py", "baseline": BASELINE_NAME, "commit": BASELINE,
-                   "hidden": hidden, "unmentioned": unmentioned, "removed": removed}, f, ensure_ascii=False, indent=1)
+                   "hidden": hidden, "unmentioned": unmentioned, "plusHidden": plus_hidden, "removed": removed},
+                  f, ensure_ascii=False, indent=1)
 
     with_page = [r for r in removed if r["wikiPage"]]
     with open(REPORT, "w", encoding="utf-8") as f:
@@ -182,6 +210,9 @@ def main():
                 f"{len(unmentioned['items'])} objets et {len(unmentioned['npcs'])} PNJ antérieurs à {BASELINE_NAME} "
                 "cités nulle part dans le wiki\n")
         f.write(f"- **Retirés depuis** : {len(removed)} ({len(with_page)} avec une page wiki → à porter en priorité)\n")
+        f.write(f"- **Renommés depuis** (même objet, nom du wiki rendu en jeu) : {len(wiki_renames)} connus du wiki ; "
+                f"portages masqués en Calamity++ (l'objet renommé de Calamity les remplace) : "
+                f"{', '.join(plus_hidden['items'] + plus_hidden['npcs']) or 'aucun'}\n")
         f.write(f"- Simples renommages de classe ou bannières ignorés : {len(renamed)}\n\n")
         f.write("## Retirés depuis, avec page wiki (à porter)\n\n| Classe | Nom | Ancien fichier |\n|---|---|---|\n")
         for r in with_page:

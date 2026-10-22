@@ -57,6 +57,20 @@
    "rare": 3,
    "value": 40000
   },
+  "VoidTorch": {
+   "page": "Abyss Torch.txt",
+   "value": 500
+  },
+  "SeaSpiritAmulet": {
+   "page": "Abyssal Amulet.txt",
+   "rare": 3,
+   "value": 40000
+  },
+  "SulphurousCrate": {
+   "page": "Abyssal Crate.txt",
+   "rare": 2,
+   "value": 50000
+  },
   "AbyssalDivingGear": {
    "page": "Abyssal Diving Gear.txt",
    "rare": 7,
@@ -102,6 +116,12 @@
    "damage": 17,
    "rare": 2,
    "value": 20000
+  },
+  "BubonicRound": {
+   "page": "Acid Round.txt",
+   "damage": 20,
+   "rare": 8,
+   "value": 1250
   },
   "Acidwood": {
    "page": "Acidwood.txt",
@@ -184,6 +204,11 @@
    "rare": 3,
    "value": 40000
   },
+  "AlchemicalDecanter": {
+   "page": "Alchemical Flask.txt",
+   "rare": 8,
+   "value": 600000
+  },
   "AldebaranAlewife": {
    "page": "Aldebaran Alewife.txt",
    "rare": 1,
@@ -224,6 +249,11 @@
    "page": "Amidias_ Pendant.txt",
    "rare": 2,
    "value": 20000
+  },
+  "IlmerisSpark": {
+   "page": "Amidias_ Spark.txt",
+   "rare": 1,
+   "value": 10000
   },
   "AmidiasTrident": {
    "page": "Amidias_ Trident.txt",
@@ -478,6 +508,12 @@
    "rare": 15,
    "value": 45000
   },
+  "Radiance": {
+   "page": "Astral Arcanum.txt",
+   "defense": 12,
+   "rare": 13,
+   "value": 1300000
+  },
   "AstralBar": {
    "page": "Astral Bar.txt",
    "rare": 9,
@@ -693,6 +729,12 @@
    "rare": 4,
    "value": 120000
   },
+  "Ozzathoth": {
+   "page": "Azathoth.txt",
+   "damage": 50,
+   "rare": 16,
+   "value": 5000000
+  },
   "BadgeofBravery": {
    "page": "Badge of Bravery.txt",
    "rare": 12,
@@ -724,6 +766,11 @@
    "useAnimation": 25,
    "rare": 7,
    "value": 600000
+  },
+  "BurrowerBanner": {
+   "page": "Banners.txt",
+   "rare": 1,
+   "value": 1000
   },
   "BansheeHook": {
    "page": "Banshee Hook.txt",
@@ -834,6 +881,11 @@
    "useAnimation": 21,
    "rare": 4,
    "value": 120000
+  },
+  "DivineProvidence": {
+   "page": "Blazing Core.txt",
+   "rare": 12,
+   "value": 1200000
   },
   "BlazingStar": {
    "page": "Blazing Star.txt",
@@ -995,6 +1047,13 @@
    "page": "Bounding Potion.txt",
    "rare": 1,
    "value": 20000
+  },
+  "Whitewater": {
+   "page": "Brackish Flask.txt",
+   "damage": 60,
+   "shootSpeed": 12.0,
+   "rare": 7,
+   "value": 600000
   },
   "Brimblade": {
    "page": "Brimblade.txt",
@@ -1166,6 +1225,12 @@
    "rare": 13,
    "value": 20000
   },
+  "InfectedJewel": {
+   "page": "Celestial Jewel.txt",
+   "defense": 8,
+   "rare": 7,
+   "value": 480000
+  },
   "CelestialOnion": {
    "page": "Celestial Onion.txt",
    "rare": 10
@@ -1183,6 +1248,11 @@
   "CelestialRemainsWall": {
    "page": "Celestial Remains Wall.txt",
    "rare": 0
+  },
+  "SeraphTracers": {
+   "page": "Celestial Tracers.txt",
+   "rare": 10,
+   "value": 1000000
   },
   "Celestus": {
    "page": "Celestus.txt",
@@ -1204,6 +1274,20 @@
    "rare": 7,
    "value": 480000
   },
+  "Havocplate": {
+   "page": "Chaosplate.txt",
+   "rare": 3,
+   "value": 1500
+  },
+  "HavocplateWall": {
+   "page": "Chaosplate Wall.txt",
+   "rare": 0
+  },
+  "Havocfish": {
+   "page": "Chaotic Fish.txt",
+   "rare": 2,
+   "value": 5000
+  },
   "ChargingStationItem": {
    "page": "Charging Station.txt",
    "value": 500000
@@ -1216,6 +1300,11 @@
    "page": "Charred Lasher.txt",
    "rare": 3,
    "value": 500000
+  },
+  "InfernalSuevite": {
+   "page": "Charred Ore.txt",
+   "rare": 5,
+   "value": 6000
   },
   "CharredRelic": {
    "page": "Charred Relic.txt",
@@ -1324,6 +1413,13 @@
    "rare": 1,
    "value": 10000
   },
+  "GlacialEmbrace": {
+   "page": "Cold Divinity.txt",
+   "useAnimation": 24,
+   "crit": 0,
+   "rare": 5,
+   "value": 240000
+  },
   "ColdheartIcicle": {
    "page": "Coldheart Icicle.txt",
    "damage": 1,
@@ -1396,6 +1492,11 @@
    "rare": 8,
    "value": 200000
   },
+  "ChaliceOfTheBloodGod": {
+   "page": "Core of the Blood God.txt",
+   "rare": 14,
+   "value": 1400000
+  },
   "CorpusAvertor": {
    "page": "Corpus Avertor.txt",
    "useAnimation": 14,
@@ -1416,6 +1517,18 @@
    "page": "Corrosive Spine.txt",
    "rare": 5,
    "value": 360000
+  },
+  "BlightedSlimeStaff": {
+   "page": "Corroslime Staff.txt",
+   "damage": 24,
+   "useAnimation": 29,
+   "rare": 4,
+   "value": 120000
+  },
+  "UnholyTonic": {
+   "page": "Corrupt Flask.txt",
+   "rare": 2,
+   "value": 20000
   },
   "CorruptionEffigy": {
    "page": "Corruption Effigy.txt",
@@ -1537,6 +1650,11 @@
    "rare": 3,
    "value": 90000
   },
+  "ViciousTonic": {
+   "page": "Crimson Flask.txt",
+   "rare": 2,
+   "value": 20000
+  },
   "CrownJewel": {
    "page": "Crown Jewel.txt",
    "rare": 1,
@@ -1644,6 +1762,11 @@
    "rare": 3,
    "value": 40000
   },
+  "DarkMatterSheath": {
+   "page": "Dark God_s Sheath.txt",
+   "rare": 9,
+   "value": 800000
+  },
   "DarkPlasma": {
    "page": "Dark Plasma.txt",
    "rare": 12,
@@ -1705,11 +1828,24 @@
    "rare": 13,
    "value": 1300000
   },
+  "HyperdeathRiftScepter": {
+   "page": "Deathhail Staff.txt",
+   "useAnimation": 22,
+   "mana": 16,
+   "rare": 14,
+   "value": 1400000
+  },
   "DeathstareRod": {
    "page": "Deathstare Rod.txt",
    "useAnimation": 34,
    "rare": 2,
    "value": 20000
+  },
+  "ThreadOfEradication": {
+   "page": "Deathwind.txt",
+   "useAnimation": 14,
+   "rare": 14,
+   "value": 1400000
   },
   "DecapoditaSprout": {
    "page": "Decapodita Sprout.txt",
@@ -1751,6 +1887,12 @@
    "page": "Deific Amulet.txt",
    "rare": 9,
    "value": 800000
+  },
+  "TwistingThunder": {
+   "page": "Deific Thunderbolt.txt",
+   "useAnimation": 20,
+   "rare": 12,
+   "value": 1200000
   },
   "DeliciousMeat": {
    "page": "Delicious Meat.txt",
@@ -1794,6 +1936,11 @@
    "damage": 480,
    "rare": 12,
    "value": 1200000
+  },
+  "CrushingEgo": {
+   "page": "Dimensional Soul Artifact.txt",
+   "rare": 14,
+   "value": 1400000
   },
   "DisgustingMeat": {
    "page": "Disgusting Meat.txt",
@@ -1867,6 +2014,10 @@
    "rare": 12,
    "value": 1200000
   },
+  "SacredStrawberry": {
+   "page": "Dragonfruit.txt",
+   "rare": 15
+  },
   "DragoonDrizzlefish": {
    "page": "Dragoon Drizzlefish.txt",
    "rare": 3,
@@ -1882,6 +2033,11 @@
    "useAnimation": 24,
    "rare": 7,
    "value": 600000
+  },
+  "WingsofRebirth": {
+   "page": "Drew_s Wings.txt",
+   "rare": 15,
+   "value": 1500000
   },
   "DubiousPlating": {
    "page": "Dubious Plating.txt",
@@ -1944,6 +2100,13 @@
    "rare": 3,
    "value": 90000
   },
+  "HoarfrostBow": {
+   "page": "Effluvium Bow.txt",
+   "damage": 56,
+   "useAnimation": 25,
+   "rare": 5,
+   "value": 360000
+  },
   "EffulgentFeather": {
    "page": "Effulgent Feather.txt",
    "rare": 11,
@@ -1965,6 +2128,11 @@
    "page": "Eidolon Tablet.txt",
    "rare": 9
   },
+  "FragmentsOfAnotherWorld": {
+   "page": "Eldritch Soul Artifact.txt",
+   "rare": 11,
+   "value": 1100000
+  },
   "EldritchTome": {
    "page": "Eldritch Tome.txt",
    "rare": 4,
@@ -1979,10 +2147,60 @@
    "page": "Electrolyte Gel Pack.txt",
    "rare": 4
   },
+  "LegionofCelestia": {
+   "page": "Elemental Axe.txt",
+   "useAnimation": 14,
+   "rare": 11,
+   "value": 1100000
+  },
+  "ReboundingRainbow": {
+   "page": "Elemental Disk.txt",
+   "damage": 100,
+   "useAnimation": 14,
+   "shootSpeed": 13.0,
+   "rare": 11,
+   "value": 1100000
+  },
+  "ChromaticEruption": {
+   "page": "Elemental Eruption.txt",
+   "damage": 77,
+   "useAnimation": 14,
+   "shootSpeed": 10.0,
+   "rare": 11,
+   "value": 1100000
+  },
   "ElementalGauntlet": {
    "page": "Elemental Gauntlet.txt",
    "rare": 14,
    "value": 1400000
+  },
+  "VanishingPoint": {
+   "page": "Elemental Lance.txt",
+   "damage": 160,
+   "useAnimation": 30,
+   "rare": 11,
+   "value": 1100000
+  },
+  "PlanebreakersPouch": {
+   "page": "Elemental Quiver.txt",
+   "rare": 14,
+   "value": 1400000
+  },
+  "Nucleosynthesis": {
+   "page": "Elemental Ray.txt",
+   "damage": 90,
+   "mana": 18,
+   "rare": 11,
+   "value": 1100000
+  },
+  "Lightspeed": {
+   "page": "Elemental Shiv.txt",
+   "damage": 168,
+   "useAnimation": 10,
+   "knockBack": 8.5,
+   "shootSpeed": 14.0,
+   "rare": 11,
+   "value": 1100000
   },
   "ElementalinaBottle": {
    "page": "Elemental in a Bottle.txt",
@@ -2013,6 +2231,11 @@
    "page": "Elysian Arrow.txt",
    "rare": 11,
    "value": 2000
+  },
+  "VoidStriders": {
+   "page": "Elysian Tracers.txt",
+   "rare": 14,
+   "value": 1400000
   },
   "ElysianWings": {
    "page": "Elysian Wings.txt",
@@ -2070,6 +2293,13 @@
    "rare": 1,
    "value": 400
   },
+  "SanctifiedSpark": {
+   "page": "Energy Staff.txt",
+   "damage": 128,
+   "useAnimation": 14,
+   "rare": 11,
+   "value": 1100000
+  },
   "EntropicClaymore": {
    "page": "Entropic Claymore.txt",
    "useAnimation": 25,
@@ -2094,11 +2324,24 @@
    "rare": 4,
    "value": 120000
   },
+  "DimensionTearingDisk": {
+   "page": "Eradicator.txt",
+   "damage": 564,
+   "useAnimation": 32,
+   "shootSpeed": 10.5,
+   "rare": 14,
+   "value": 1400000
+  },
   "EssenceFlayer": {
    "page": "Essence Flayer.txt",
    "useAnimation": 18,
    "rare": 14,
    "value": 1800000
+  },
+  "EssenceofHavoc": {
+   "page": "Essence of Chaos.txt",
+   "rare": 5,
+   "value": 20000
   },
   "EssenceofEleum": {
    "page": "Essence of Eleum.txt",
@@ -2188,6 +2431,12 @@
    "page": "Eviscerator.txt",
    "rare": 3,
    "value": 40000
+  },
+  "MawOfInfinity": {
+   "page": "Excelsus.txt",
+   "useAnimation": 14,
+   "rare": 14,
+   "value": 1400000
   },
   "ExecutionersBlade": {
    "page": "Executioner_s Blade.txt",
@@ -2447,6 +2696,11 @@
    "rare": 11,
    "value": 1100000
   },
+  "PurpleHaze": {
+   "page": "Fluorescent Vodka.txt",
+   "rare": 4,
+   "value": 26000
+  },
   "FlurrystormCannon": {
    "page": "Flurrystorm Cannon.txt",
    "useAnimation": 8,
@@ -2501,6 +2755,13 @@
    "damage": 80,
    "rare": 4,
    "value": 120000
+  },
+  "PulseGrenade": {
+   "page": "Frequency Manipulator.txt",
+   "damage": 80,
+   "useAnimation": 55,
+   "knockBack": 5.0,
+   "value": 240000
   },
   "FrigidflashBolt": {
    "page": "Frigidflash Bolt.txt",
@@ -2641,6 +2902,14 @@
    "rare": 7,
    "value": 480000
   },
+  "Nidhogg": {
+   "page": "Gauss Rifle.txt",
+   "damage": 150,
+   "useAnimation": 32,
+   "knockBack": 30.0,
+   "shootSpeed": 27.0,
+   "value": 600000
+  },
   "GazeOfCrysthamyr": {
    "page": "Gaze of Crysthamyr.txt",
    "rare": 14,
@@ -2667,7 +2936,11 @@
   },
   "Genesis": {
    "page": "Genesis.txt",
-   "rare": 15
+   "rare": 10,
+   "damage": 56,
+   "useAnimation": 4,
+   "mana": 4,
+   "value": 1000000
   },
   "GenesisPickaxe": {
    "page": "Genesis Pickaxe.txt",
@@ -2772,12 +3045,25 @@
    "rare": 14,
    "value": 140
   },
+  "DeadSunsWind": {
+   "page": "God_s Bellows.txt",
+   "damage": 80,
+   "useAnimation": 18,
+   "shootSpeed": 9.0,
+   "rare": 9,
+   "value": 950000
+  },
   "GodsParanoia": {
    "page": "God_s Paranoia.txt",
    "damage": 98,
    "useAnimation": 14,
    "rare": 14,
    "value": 180000
+  },
+  "FadedIdolatry": {
+   "page": "Godly Soul Artifact.txt",
+   "rare": 15,
+   "value": 1500000
   },
   "StarspawnHelixStaff": {
    "page": "Godspawn Helix Staff.txt",
@@ -2825,6 +3111,11 @@
    "rare": 6,
    "value": 360000
   },
+  "InterstellarStompers": {
+   "page": "Gravistar Sabaton.txt",
+   "rare": 7,
+   "value": 480000
+  },
   "GravityNormalizerPotion": {
    "page": "Gravity Normalizer Potion.txt",
    "rare": 7,
@@ -2848,6 +3139,14 @@
    "useAnimation": 15,
    "rare": 2,
    "value": 20000
+  },
+  "Orderbringer": {
+   "page": "Greatsword of Blah.txt",
+   "useAnimation": 17,
+   "knockBack": 7.0,
+   "shootSpeed": 6.0,
+   "rare": 14,
+   "value": 1400000
   },
   "GreatswordofJudgement": {
    "page": "Greatsword of Judgement.txt",
@@ -3009,6 +3308,12 @@
    "useAnimation": 11,
    "rare": 15,
    "value": 1500000
+  },
+  "PhalanxSurge": {
+   "page": "Heavy Laser Rifle.txt",
+   "damage": 185,
+   "useAnimation": 25,
+   "value": 1200000
   },
   "HeliumFlash": {
    "page": "Helium Flash.txt",
@@ -3181,6 +3486,13 @@
    "rare": 5,
    "value": 360000
   },
+  "HailstormBullet": {
+   "page": "Icy Bullet.txt",
+   "damage": 10,
+   "shootSpeed": 5.0,
+   "rare": 6,
+   "value": 80
+  },
   "IgneousExaltation": {
    "page": "Igneous Exaltation.txt",
    "rare": 5,
@@ -3276,6 +3588,10 @@
    "page": "Joyful Heart.txt",
    "rare": 5,
    "value": 50000
+  },
+  "YharonEgg": {
+   "page": "Jungle Dragon Egg.txt",
+   "rare": 14
   },
   "Karasawa": {
    "page": "Karasawa.txt",
@@ -3438,6 +3754,11 @@
    "rare": 8,
    "value": 800000
   },
+  "DiamondOfTheDeep": {
+   "page": "Lumenous Amulet.txt",
+   "rare": 7,
+   "value": 480000
+  },
   "Lumenyl": {
    "page": "Lumenyl.txt",
    "rare": 6,
@@ -3476,6 +3797,12 @@
    "rare": 5,
    "value": 240000
   },
+  "EnchantedConch": {
+   "page": "Magical Conch.txt",
+   "useAnimation": 34,
+   "rare": 2,
+   "value": 20000
+  },
   "MagnaCannon": {
    "page": "Magna Cannon.txt",
    "rare": 2,
@@ -3496,6 +3823,11 @@
    "page": "Malevolence.txt",
    "rare": 8,
    "value": 800000
+  },
+  "CleansingJelly": {
+   "page": "Mana Jelly.txt",
+   "rare": 1,
+   "value": 10000
   },
   "ManaPolarizer": {
    "page": "Mana Polarizer.txt",
@@ -3542,6 +3874,14 @@
    "page": "Martian Distress Beacon.txt",
    "rare": 8,
    "value": 500000
+  },
+  "HolofibreImmolator": {
+   "page": "Matter Modulator.txt",
+   "damage": 84,
+   "useAnimation": 33,
+   "knockBack": 11.0,
+   "shootSpeed": 7.0,
+   "value": 240000
   },
   "McNuggets": {
    "page": "McNuggets.txt",
@@ -3605,6 +3945,14 @@
    "page": "Mineral Mortar.txt",
    "rare": 5,
    "value": 360000
+  },
+  "Kingsbane": {
+   "page": "Minigun.txt",
+   "useAnimation": 1,
+   "knockBack": 0.0,
+   "shootSpeed": 22.0,
+   "rare": 15,
+   "value": 100000
   },
   "MiracleFruit": {
    "page": "Miracle Fruit.txt",
@@ -3752,6 +4100,12 @@
    "rare": 14,
    "value": 1400000
   },
+  "CinderArrow": {
+   "page": "Napalm Arrow.txt",
+   "damage": 14,
+   "rare": 3,
+   "value": 60
+  },
   "NastyCholla": {
    "page": "Nasty Cholla.txt",
    "damage": 9,
@@ -3817,6 +4171,13 @@
    "rare": 12,
    "value": 1200000
   },
+  "Vega": {
+   "page": "Night_s Gaze.txt",
+   "damage": 531,
+   "useAnimation": 19,
+   "rare": 13,
+   "value": 1300000
+  },
   "NightsRay": {
    "page": "Night_s Ray.txt",
    "rare": 4,
@@ -3845,6 +4206,11 @@
    "page": "Nuclear Fury.txt",
    "rare": 10,
    "value": 1000000
+  },
+  "NuclearFuelRod": {
+   "page": "Nuclear Rod.txt",
+   "rare": 5,
+   "value": 240000
   },
   "Nucleogenesis": {
    "page": "Nucleogenesis.txt",
@@ -3882,6 +4248,14 @@
   },
   "OldDie": {
    "page": "Old Die.txt",
+   "rare": 3,
+   "value": 40000
+  },
+  "OldLordClaymore": {
+   "page": "Old Lord Oathsword.txt",
+   "damage": 60,
+   "useAnimation": 23,
+   "knockBack": 7.0,
    "rare": 3,
    "value": 40000
   },
@@ -4045,6 +4419,12 @@
    "rare": 8,
    "value": 800000
   },
+  "Riftburst": {
+   "page": "Phangasm.txt",
+   "damage": 110,
+   "rare": 14,
+   "value": 1800000
+  },
   "PhantasmalFury": {
    "page": "Phantasmal Fury.txt",
    "rare": 13,
@@ -4059,6 +4439,11 @@
   "PhantomHeart": {
    "page": "Phantom Heart.txt",
    "rare": 13
+  },
+  "Necroplasm": {
+   "page": "Phantoplasm.txt",
+   "rare": 11,
+   "value": 50000
   },
   "Phaseslayer": {
    "page": "Phaseslayer.txt",
@@ -4401,6 +4786,11 @@
    "rare": 15,
    "value": 1500000
   },
+  "OasisElementalinaBottle": {
+   "page": "Rare Elemental in a Bottle.txt",
+   "rare": 5,
+   "value": 240000
+  },
   "RealmRavager": {
    "page": "Realm Ravager.txt",
    "rare": 8,
@@ -4453,6 +4843,12 @@
    "useAnimation": 16,
    "rare": 15,
    "value": 1500000
+  },
+  "Regenerator": {
+   "page": "Regenator.txt",
+   "defense": 10,
+   "rare": 7,
+   "value": 480000
   },
   "RegulusRiot": {
    "page": "Regulus Riot.txt",
@@ -4589,6 +4985,10 @@
    "page": "Rum.txt",
    "rare": 4,
    "value": 13000
+  },
+  "MarkofProvidence": {
+   "page": "Rune of Kos.txt",
+   "rare": 12
   },
   "RunicProfanedBrick": {
    "page": "Runic Profaned Brick.txt",
@@ -4756,6 +5156,14 @@
    "rare": 5,
    "value": 240000
   },
+  "BrittleStarStaff": {
+   "page": "Seabound Staff.txt",
+   "damage": 11,
+   "useAnimation": 34,
+   "knockBack": 2.0,
+   "rare": 2,
+   "value": 20000
+  },
   "Seadragon": {
    "page": "Seadragon.txt",
    "rare": 12,
@@ -4813,11 +5221,6 @@
    "shootSpeed": 25.0,
    "rare": 13,
    "value": 1300000
-  },
-  "SeraphTracers": {
-   "page": "Seraph Tracers.txt",
-   "rare": 10,
-   "value": 1000000
   },
   "Seraphim": {
    "page": "Seraphim.txt",
@@ -4893,6 +5296,12 @@
    "rare": 16,
    "value": 2000000
   },
+  "ShatteredDawn": {
+   "page": "Shattered Sun.txt",
+   "useAnimation": 11,
+   "rare": 12,
+   "value": 1200000
+  },
   "ShellfishStaff": {
    "page": "Shellfish Staff.txt",
    "useAnimation": 24,
@@ -4927,6 +5336,15 @@
    "useAnimation": 14,
    "rare": 3,
    "value": 40000
+  },
+  "DoomsdayDevice": {
+   "page": "Shock Grenade.txt",
+   "damage": 90,
+   "useAnimation": 17,
+   "knockBack": 1.0,
+   "shootSpeed": 12.5,
+   "rare": 8,
+   "value": 10000
   },
   "Shredder": {
    "page": "Shredder.txt",
@@ -5004,6 +5422,14 @@
    "page": "Slag Magnum.txt",
    "rare": 5,
    "value": 360000
+  },
+  "WalkingCane": {
+   "page": "Slick Cane.txt",
+   "damage": 27,
+   "useAnimation": 25,
+   "knockBack": 5.0,
+   "rare": 4,
+   "value": 120000
   },
   "SlimePuppetStaff": {
    "page": "Slime Puppet Staff.txt",
@@ -5084,6 +5510,12 @@
    "page": "Soaring Potion.txt",
    "rare": 4,
    "value": 20000
+  },
+  "BurningRevelation": {
+   "page": "Solar Flare.txt",
+   "damage": 71,
+   "rare": 12,
+   "value": 1200000
   },
   "SolarVeil": {
    "page": "Solar Veil.txt",
@@ -5227,6 +5659,14 @@
    "rare": 3,
    "value": 40000
   },
+  "VoidEaterMarionette": {
+   "page": "Staff of the Mechworm.txt",
+   "damage": 161,
+   "useAnimation": 9,
+   "shootSpeed": 10.0,
+   "rare": 14,
+   "value": 1400000
+  },
   "StarBeamRye": {
    "page": "Star Beam Rye.txt",
    "rare": 7,
@@ -5263,6 +5703,18 @@
   "Starcore": {
    "page": "Starcore.txt",
    "rare": 9
+  },
+  "StarblightSoot": {
+   "page": "Stardust.txt",
+   "rare": 5,
+   "value": 1500
+  },
+  "StarShower": {
+   "page": "Starfall.txt",
+   "damage": 50,
+   "shootSpeed": 12.0,
+   "rare": 9,
+   "value": 950000
   },
   "Starfleet": {
    "page": "Starfleet.txt",
@@ -5371,6 +5823,16 @@
    "useAnimation": 22,
    "rare": 5,
    "value": 360000
+  },
+  "SandstreamScepter": {
+   "page": "Storm Spray.txt",
+   "damage": 14,
+   "useAnimation": 33,
+   "knockBack": 2.0,
+   "shootSpeed": 10.0,
+   "mana": 8,
+   "rare": 2,
+   "value": 20000
   },
   "StormSurge": {
    "page": "Storm Surge.txt",
@@ -5497,6 +5959,12 @@
    "rare": 2,
    "value": 20000
   },
+  "VengefulSunStaff": {
+   "page": "Sun God Staff.txt",
+   "useAnimation": 24,
+   "rare": 6,
+   "value": 480000
+  },
   "SunSpiritStaff": {
    "page": "Sun Spirit Staff.txt",
    "damage": 110,
@@ -5508,6 +5976,11 @@
    "page": "Sunbeam Fish.txt",
    "rare": 2,
    "value": 5000
+  },
+  "PrismCrate": {
+   "page": "Sunken Crate.txt",
+   "rare": 2,
+   "value": 50000
   },
   "SunkenSailfish": {
    "page": "Sunken Sailfish.txt",
@@ -5602,6 +6075,13 @@
    "rare": 12,
    "value": 1200000
   },
+  "ShortCircuit": {
+   "page": "Taser.txt",
+   "useAnimation": 28,
+   "knockBack": 280.0,
+   "shootSpeed": 15.0,
+   "value": 40000
+  },
   "TeardropCleaver": {
    "page": "Teardrop Cleaver.txt",
    "damage": 90,
@@ -5655,6 +6135,48 @@
   "Terminus": {
    "page": "Terminus.txt",
    "rare": 1
+  },
+  "SproutingArrow": {
+   "page": "Terra Arrow.txt",
+   "damage": 15,
+   "rare": 7,
+   "value": 100
+  },
+  "DryadsTear": {
+   "page": "Terra Bullet.txt",
+   "damage": 9,
+   "shootSpeed": 10.0,
+   "rare": 7,
+   "value": 2000
+  },
+  "SamsaraSlicer": {
+   "page": "Terra Disk.txt",
+   "damage": 100,
+   "useAnimation": 15,
+   "shootSpeed": 12.0,
+   "rare": 8,
+   "value": 800000
+  },
+  "WildfireBloom": {
+   "page": "Terra Flameburster.txt",
+   "damage": 43,
+   "useAnimation": 15,
+   "shootSpeed": 7.5,
+   "rare": 8,
+   "value": 800000
+  },
+  "BotanicPiercer": {
+   "page": "Terra Lance.txt",
+   "damage": 88,
+   "rare": 8,
+   "value": 800000
+  },
+  "Photosynthesis": {
+   "page": "Terra Ray.txt",
+   "damage": 50,
+   "useAnimation": 24,
+   "rare": 8,
+   "value": 800000
   },
   "Terratomere": {
    "page": "Terratomere.txt",
@@ -5876,6 +6398,14 @@
    "rare": 0,
    "value": 50
   },
+  "Volterion": {
+   "page": "Thunderstorm.txt",
+   "useAnimation": 24,
+   "shootSpeed": 6.0,
+   "mana": 50,
+   "rare": 12,
+   "value": 1200000
+  },
   "TimeBolt": {
    "page": "Time Bolt.txt",
    "useAnimation": 19,
@@ -5908,6 +6438,16 @@
    "useAnimation": 8,
    "rare": 4,
    "value": 2000
+  },
+  "Apathanull": {
+   "page": "Tome of Fates.txt",
+   "damage": 110,
+   "knockBack": 3.5,
+   "crit": 3,
+   "shootSpeed": 17.0,
+   "mana": 8,
+   "rare": 9,
+   "value": 950000
   },
   "ToothBall": {
    "page": "Tooth Ball.txt",
@@ -5944,6 +6484,13 @@
    "rare": 13,
    "value": 1300000
   },
+  "AerialTracker": {
+   "page": "Tracking Disk.txt",
+   "damage": 25,
+   "useAnimation": 41,
+   "shootSpeed": 10.0,
+   "value": 40000
+  },
   "Tradewinds": {
    "page": "Tradewinds.txt",
    "shootSpeed": 20.0,
@@ -5979,6 +6526,24 @@
    "shootSpeed": 12.0,
    "rare": 9,
    "value": 800000
+  },
+  "ExaltedOathblade": {
+   "page": "True Forbidden Oathblade.txt",
+   "damage": 150,
+   "useAnimation": 22,
+   "knockBack": 7.5,
+   "shootSpeed": 3.0,
+   "rare": 8,
+   "value": 800000
+  },
+  "DefiledGreatsword": {
+   "page": "True Tyrant_s Ultisword.txt",
+   "damage": 112,
+   "useAnimation": 17,
+   "knockBack": 7.5,
+   "shootSpeed": 12.0,
+   "rare": 12,
+   "value": 1200000
   },
   "Tumbleweed": {
    "page": "Tumbleweed.txt",
@@ -6023,6 +6588,15 @@
    "useAnimation": 55,
    "rare": 15,
    "value": 1500000
+  },
+  "BlightedCleaver": {
+   "page": "Tyrant Yharim_s Ultisword.txt",
+   "damage": 64,
+   "useAnimation": 25,
+   "knockBack": 5.5,
+   "shootSpeed": 12.0,
+   "rare": 8,
+   "value": 800000
   },
   "UelibloomBrick": {
    "page": "Uelibloom Brick.txt",
@@ -6153,6 +6727,12 @@
    "rare": 13,
    "value": 1400000
   },
+  "VeriumBolt": {
+   "page": "Verium Bullet.txt",
+   "damage": 9,
+   "rare": 3,
+   "value": 60
+  },
   "VerstaltiteFishingRod": {
    "page": "Verstaltite Fishing Rod.txt",
    "useAnimation": 7,
@@ -6244,6 +6824,11 @@
    "page": "Void of Calamity.txt",
    "rare": 7,
    "value": 480000
+  },
+  "Apollyon": {
+   "page": "Void of Extinction.txt",
+   "rare": 8,
+   "value": 600000
   },
   "Voidragon": {
    "page": "Voidragon.txt",
@@ -6452,6 +7037,11 @@
    "rare": 5,
    "value": 360000
   },
+  "Gorecodile": {
+   "page": "Xerocodile.txt",
+   "rare": 2,
+   "value": 5000
+  },
   "YateveoBloom": {
    "page": "Yateveo Bloom.txt",
    "damage": 57,
@@ -6471,6 +7061,11 @@
    "page": "Yharim_s Gift.txt",
    "rare": 11,
    "value": 1500000
+  },
+  "AscendantInsignia": {
+   "page": "Yharim_s Insignia.txt",
+   "rare": 11,
+   "value": 1200000
   },
   "YharonSoulFragment": {
    "page": "Yharon Soul Fragment.txt",
@@ -6501,6 +7096,10 @@
   }
  },
  "npcs": {
+  "PrimordialWyrmHead": {
+   "page": "Adult Eidolon Wyrm.txt",
+   "lifeRatio": 0.805
+  },
   "AeroSlime": {
    "page": "Aero Slime.txt",
    "defense": 10
@@ -6563,10 +7162,18 @@
    "page": "Eutrophic Ray.txt",
    "defense": 15
   },
+  "Sulflounder": {
+   "page": "Flounder.txt",
+   "lifeRatio": 0.6667
+  },
   "GreatSandShark": {
    "page": "Great Sand Shark.txt",
    "lifeRatio": 10.8696,
    "defense": 35
+  },
+  "HiveTumor": {
+   "page": "Hive Cyst.txt",
+   "lifeRatio": 0.5
   },
   "Mauler": {
    "page": "Mauler.txt",
@@ -6625,6 +7232,18 @@
   "DesertScourgeTail": {
    "page": "Desert Scourge.txt",
    "lifeRatio": 87.5
+  },
+  "PrimordialWyrmBody": {
+   "page": "Adult Eidolon Wyrm.txt",
+   "lifeRatio": 0.805
+  },
+  "PrimordialWyrmBodyAlt": {
+   "page": "Adult Eidolon Wyrm.txt",
+   "lifeRatio": 0.805
+  },
+  "PrimordialWyrmTail": {
+   "page": "Adult Eidolon Wyrm.txt",
+   "lifeRatio": 0.805
   }
  },
  "fullItems": {
@@ -7153,9 +7772,17 @@
    "damage": 1350,
    "useAnimation": 30
   },
+  "HyperdeathRiftScepter": {
+   "page": "Deathhail Staff.txt",
+   "damage": 328
+  },
   "DeathstareRod": {
    "page": "Deathstare Rod.txt",
    "damage": 33
+  },
+  "ThreadOfEradication": {
+   "page": "Deathwind.txt",
+   "damage": 248
   },
   "DeepDiver": {
    "page": "Deep Diver.txt",
@@ -7257,6 +7884,10 @@
    "page": "Endo Hydra Staff.txt",
    "damage": 225
   },
+  "SanctifiedSpark": {
+   "page": "Energy Staff.txt",
+   "mana": 10
+  },
   "EntropysVigil": {
    "page": "Entropy_s Vigil.txt",
    "damage": 40,
@@ -7303,6 +7934,10 @@
   "Eviscerator": {
    "page": "Eviscerator.txt",
    "damage": 65
+  },
+  "MawOfInfinity": {
+   "page": "Excelsus.txt",
+   "damage": 279
   },
   "ExecutionersBlade": {
    "page": "Executioner_s Blade.txt",
@@ -7557,6 +8192,10 @@
   "Murasama": {
    "page": "Graydron.txt",
    "damage": 3001
+  },
+  "Orderbringer": {
+   "page": "Greatsword of Blah.txt",
+   "damage": 138
   },
   "GreatswordofJudgement": {
    "page": "Greatsword of Judgement.txt",
@@ -7880,6 +8519,10 @@
    "useAnimation": 33,
    "knockBack": 5.0,
    "shootSpeed": 14.0
+  },
+  "Kingsbane": {
+   "page": "Minigun.txt",
+   "damage": 16
   },
   "Mistlestorm": {
    "page": "Mistlestorm.txt",
@@ -8502,7 +9145,7 @@
   },
   "StormjawStaff": {
    "page": "Stormjaw Staff.txt",
-   "damage": 0
+   "damage": 1
   },
   "SubductionSlicer": {
    "page": "Subduction Slicer.txt",
@@ -8520,6 +9163,10 @@
   "SulphurousGrabber": {
    "page": "Sulphurous Grabber.txt",
    "damage": 82
+  },
+  "VengefulSunStaff": {
+   "page": "Sun God Staff.txt",
+   "damage": 210
   },
   "Supernova": {
    "page": "Supernova.txt",
@@ -8544,6 +9191,10 @@
   "TarragonThrowingDart": {
    "page": "Tarragon Throwing Dart.txt",
    "shootSpeed": 12.0
+  },
+  "ShortCircuit": {
+   "page": "Taser.txt",
+   "damage": 998
   },
   "TearsofHeaven": {
    "page": "Tears of Heaven.txt",
@@ -8666,6 +9317,10 @@
   "ThrowingBrick": {
    "page": "Throwing Brick.txt",
    "shootSpeed": 12.0
+  },
+  "Volterion": {
+   "page": "Thunderstorm.txt",
+   "damage": 132
   },
   "TimeBolt": {
    "page": "Time Bolt.txt",

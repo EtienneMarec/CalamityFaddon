@@ -2,7 +2,7 @@
 
 _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne correspond à aucun DisplayName de Calamity. Attention : des objets vanilla ou des pages renommées peuvent s'y glisser.
 
-## Weapon (521)
+## Weapon (472)
 
 - [ ] A M S
 - [ ] AAMG "Disperse" — pas de sprite; addon: Calamity: Tales of the Aquatic
@@ -37,7 +37,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Augar of the Elements
 - [ ] Auric Sword
 - [ ] Axisdriver
-- [ ] Azathoth
 - [ ] Bad Apple
 - [ ] Baow — addon: Calamity: Community Remix
 - [ ] Bazooka
@@ -53,7 +52,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Bolide Launcher — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [ ] Bouncing Betty
 - [ ] Bouncy Spiky Ball
-- [ ] Brackish Flask
 - [ ] Breakthrough
 - [ ] Brimlash Buster
 - [ ] Brimstone Flameblaster
@@ -86,7 +84,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Clamor Noctus
 - [ ] Clamor Noxus — addon: Calamity: Community Remix
 - [ ] Cobadium Rifle — addon: Calamity: Tales of the Aquatic
-- [ ] Cold Divinity
 - [ ] Coldant Firestarter
 - [ ] Coldetecht — addon: Calamity: Tales of the Aquatic
 - [ ] Conclave Crossfire
@@ -96,7 +93,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Coral Cannon
 - [ ] Cored Line — addon: Calamity: Tales of the Aquatic
 - [ ] Corrosive Eye Staff
-- [x] Corroslime Staff
 - [ ] Corrupt Hypno Flute — addon: Calamity: Community Remix
 - [ ] Corrupted Crusher Blade
 - [ ] Creature Capsule
@@ -116,14 +112,11 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Dart Sun — addon: Calamity: Tales of the Aquatic
 - [ ] Dead Star's Laser Rifle — addon: Tranquility Mod
 - [ ] Death-Needle Stinger — addon: Calamity: Community Remix
-- [ ] Deathhail Staff
-- [ ] Deathwind
 - [ ] Deck of Souls — pas de sprite; addon: Apotheosis and Friends
 - [ ] Decomposition
 - [ ] Decreator — addon: Calamity: Tales of the Aquatic
 - [ ] Deeepscale Bomb
 - [ ] Deicide — addon: Calamity: Community Remix
-- [ ] Deific Thunderbolt
 - [ ] Demon Core — addon: Calamity: Community Remix
 - [ ] Demonic Pitchfork
 - [ ] Dethermination — addon: Calamity: Tales of the Aquatic
@@ -149,28 +142,18 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Earthen Clicker
 - [ ] Earthshooter — addon: Calamity: Tales of the Aquatic
 - [ ] Ecological Collapse
-- [x] Effluvium Bow
 - [ ] Electrical Discharge
-- [ ] Elemental Axe
 - [ ] Elemental Bow
 - [ ] Elemental Claymore
-- [ ] Elemental Disk
-- [ ] Elemental Eruption
 - [ ] Elemental Excalibur
-- [ ] Elemental Lance
-- [ ] Elemental Ray
 - [ ] Elemental Saw Launcher
-- [ ] Elemental Shiv
 - [ ] Elusive Feather
 - [ ] Endentant Bow — addon: Calamity: Tales of the Aquatic
-- [x] Energy Staff
-- [ ] Eradicator
 - [ ] Ethereal Knives
 - [ ] Eutrophic Scimitar
 - [ ] Eutrophic Shank
 - [ ] Evercoldance — addon: Calamity: Tales of the Aquatic
 - [ ] Exactory Dartshooter — addon: Calamity: Tales of the Aquatic
-- [ ] Excelsus
 - [ ] Exif Fist
 - [ ] Exo Dragonblade
 - [ ] Exo Gladius
@@ -188,7 +171,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Flounder Mortar — addon: Calamity: Community Remix
 - [ ] Fracture Staff — addon: Calamity: Community Remix
 - [ ] Fracturing Fist — addon: Calamity: Community Remix
-- [ ] Frequency Manipulator
 - [ ] Frightshooter — addon: Calamity: Tales of the Aquatic
 - [ ] Frost Blade
 - [ ] Frostflow Edge — addon: Calamity: Tales of the Aquatic
@@ -198,17 +180,14 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Gatling Laser
 - [ ] Gauss Dagger
 - [ ] Gauss Pistol
-- [ ] Gauss Rifle
 - [ ] Gearwork Shield — addon: Calamity: Community Remix
 - [ ] Gel Sword
 - [ ] Gel Wand
-- [ ] Genisis
 - [ ] Ghoststreaker — addon: Calamity: Tales of the Aquatic
 - [ ] Glacial Crusher
 - [ ] Gloomy Trident — addon: Calamity: Community Remix
 - [ ] Gluehunter — addon: Calamity: Tales of the Aquatic
 - [ ] Gluelic Blade — addon: Calamity: Tales of the Aquatic
-- [ ] God's Bellows
 - [ ] Golden Gun
 - [ ] Gourdler — addon: Calamity: Community Remix
 - [ ] Grand Gar
@@ -217,7 +196,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Grarble Bayonet — addon: Calamity: Community Remix
 - [ ] Grarble Spear — addon: Calamity: Community Remix
 - [ ] Gravitonomy Pike
-- [ ] Greatsword of Blah
 - [ ] Guardians Wrath
 - [ ] H.S Trident
 - [ ] HPST "Malign" — pas de sprite; addon: Calamity: Tales of the Aquatic
@@ -229,7 +207,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Hand of God
 - [ ] Heart Rapier
 - [ ] Heavenwing Staff
-- [ ] Heavy Laser Rifle
 - [ ] Helios Partisan — addon: Calamity: Tales of the Aquatic
 - [ ] Hell Burst
 - [ ] Hell's Bells
@@ -263,7 +240,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Lightning Hawk
 - [ ] Luminous Striker
 - [ ] Lunatic Beats — addon: Calamity: Community Remix
-- [ ] Magical Conch
 - [ ] Magna Striker
 - [ ] Magnic Circularity — addon: Calamity: Tales of the Aquatic
 - [ ] Magnum
@@ -275,14 +251,12 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Marked Magnum
 - [ ] Marnite Bayonet
 - [ ] Marnite Spear
-- [ ] Matter Modulator
 - [ ] Megaskeet — addon: Apotheosis and Friends
 - [ ] Meridian — addon: Calamity: Community Remix
 - [ ] Metal Ball
 - [ ] Microcell Cut — addon: Calamity: Tales of the Aquatic
 - [ ] Microhavoc — addon: Calamity: Tales of the Aquatic
 - [ ] Midas' Handshake
-- [ ] Minigun
 - [ ] Miracle Smacker — addon: Calamitous Journeys
 - [ ] Molecular Manipulator
 - [ ] Molten Piercer
@@ -292,7 +266,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Neural Whipper-Snapper — addon: Calamity: Community Remix
 - [ ] Neuraze — addon: Hypnos in Calamity
 - [ ] Neutron Star
-- [x] Night's Gaze
 - [ ] Night's Stabber
 - [ ] Nightic Blaster — addon: Calamity: Tales of the Aquatic
 - [ ] Noctic Weaver — addon: Calamity: Tales of the Aquatic
@@ -303,7 +276,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] OPFT "Sublimate" — pas de sprite
 - [ ] Obsidigun
 - [ ] Ogscule — addon: Calamity's Vanities
-- [ ] Old Lord Oathsword
 - [ ] Omega Ray — addon: Calamity: Community Remix
 - [ ] Onyx Gunblade — addon: Calamity: Community Remix
 - [ ] Onyx Minigun
@@ -316,7 +288,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Pandora's Chest — addon: Calamity: Community Remix
 - [ ] Pastranion
 - [ ] Pearl Gloves
-- [ ] Phangasm
 - [ ] Phantom Lance
 - [ ] Phlegm
 - [ ] Phoenix Blade
@@ -368,7 +339,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Sandstorm (weapon)
 - [ ] Sea Stone Shuriken
 - [ ] Sea Stone Sickle
-- [x] Seabound Staff
 - [ ] Seabow
 - [ ] Seared Shredder
 - [ ] Seashell Boomerang
@@ -378,8 +348,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Shadow's Descent
 - [ ] Shadowdrop Staff
 - [ ] Shattered Pistol — addon: Calamity: Tales of the Aquatic
-- [ ] Shattered Sun
-- [x] Shock Grenade
 - [ ] Sign of the Operator
 - [ ] Sillyshark
 - [ ] Sister's Toy Rifle — addon: Calamity: Community Remix
@@ -387,11 +355,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Skullmasher
 - [ ] Sky Clearer — addon: Calamity: Tales of the Aquatic
 - [ ] Sky Stabber
-- [ ] Slick Cane
 - [ ] Slime Gun EX
 - [ ] Smoldering Seahorses
 - [ ] Snowgrave — addon: Apotheosis and Friends
-- [x] Solar Flare
 - [x] Soul Edge
 - [ ] Spear of Liberty — addon: Calamity: Community Remix, Calamity: Community Remix
 - [ ] Spectre Rifle
@@ -402,36 +368,27 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Squirrel Knight Staff
 - [ ] Squirrel Prince Staff
 - [ ] Squirrel Viscount Staff
-- [ ] Staff of the Mechworm
 - [ ] Star Cannon EX
 - [ ] Star Flare — addon: Deimos, the Starborn Princess, Sloome
-- [x] Starfall
 - [ ] Steel Blade
 - [ ] Steel Kunai
 - [ ] Stellar Kunai
 - [ ] Sticky Spiky Ball
 - [x] Storm Dragoon
-- [x] Storm Spray
 - [ ] Stratoctrine Spear — addon: Calamity: Tales of the Aquatic
 - [ ] Stringstreaker — addon: Calamity: Tales of the Aquatic
 - [ ] Summit Breaker
-- [ ] Sun God Staff
 - [ ] Supercharged Dart Blaster
 - [ ] Swift Sword
 - [ ] Sylvan Slasher
 - [ ] Talon Burst
-- [ ] Taser
 - [ ] Technicate — addon: Calamity: Tales of the Aquatic
 - [ ] Technomagica — addon: Calamity: Tales of the Aquatic
 - [ ] Temporal Floe Sword
 - [ ] Tendon Tides — addon: Catalyst
 - [ ] Tenebris Tides — addon: Catalyst
 - [ ] Terra Bow
-- [ ] Terra Disk
 - [ ] Terra Edge
-- [ ] Terra Flameburster
-- [ ] Terra Lance
-- [ ] Terra Ray
 - [ ] Terra Shiv
 - [ ] Terra-cotta
 - [ ] Terreye Staff — addon: Calamity: Community Remix
@@ -454,31 +411,25 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] The Reaper
 - [ ] The Watered Pew Pew — addon: Calamity: Tales of the Aquatic
 - [ ] Thunder Bolt — addon: Cataclysm
-- [ ] Thunderstorm
 - [ ] Tiny Planet
 - [ ] Titan Tides — addon: Catalyst
 - [ ] Titanslayer
 - [ ] Tomatus
-- [ ] Tome of Fates
 - [ ] Totality Tides — addon: Calamity: Community Remix
 - [ ] Toxic Wisdom
-- [ ] Tracking Disk
 - [ ] Trash of Magnus
 - [ ] Trinity
 - [ ] Triploon
 - [ ] True Bloody Edge
 - [ ] True Caliburn
 - [ ] True Caustic Edge
-- [ ] True Forbidden Oathblade
 - [ ] True Night's Stabber
-- [ ] True Tyrant's Ultisword
 - [ ] Twentloon
 - [ ] Twenty-Twloon
 - [ ] Twin Cranes — addon: Calamity: Community Remix
 - [ ] Twisted Netherite Scythe — addon: Calamity: Community Remix
 - [ ] Twisted Netherite Sword — addon: Calamity: Community Remix
 - [ ] Tyrant Shield — addon: Calamity: Community Remix
-- [ ] Tyrant Yharim's Ultisword
 - [ ] Unending Void
 - [ ] Unloxcalibur — addon: Calamity: Community Remix
 - [ ] Unsealed Singularity — addon: Calamity: Community Remix
@@ -526,7 +477,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Yanmei's Knife
 - [x] Zweihandromeda
 
-## Crafting material (150)
+## Crafting material (147)
 
 - [x] Absolute Gel
 - [x] Absolute Spirit Essence
@@ -580,7 +531,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Essence Core
 - [x] Essence of Absolute — addon: Calamitous Absolution
 - [x] Essence of Babil — addon: Calamity: Community Remix
-- [x] Essence of Chaos — addon: Catalyst
 - [x] Essence of Crystal
 - [x] Essence of Law
 - [x] Essence of Myst
@@ -641,7 +591,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Orb of Surt — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [x] Orb of Zot — addon: Deimos, the Starborn Princess
 - [x] Ornate Cloth
-- [x] Phantoplasm — addon: Calamity: Community Remix, Deimos, the Starborn Princess
 - [x] Primordial Life
 - [x] Primordial Light Shard
 - [x] Prototype Plasma Drive Core — addon: Calamity: Community Remix
@@ -663,7 +612,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Soul Flux
 - [x] Soul of Bright
 - [x] Soul of Plight — addon: Calamity: Community Remix
-- [x] Stardust
 - [x] Stiriatic Bar — addon: Calamity: Tales of the Aquatic
 - [x] Strange Matter — addon: Deimos, the Starborn Princess
 - [x] Subnautical Plate
@@ -679,12 +627,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Waterfreeze Reactive Essence — addon: Calamity: Tales of the Aquatic
 - [x] Weaver Lac — addon: Calamity: Tales of the Aquatic
 
-## Covering (149)
+## Covering (124)
 
-- [ ] Abyssal Amulet
 - [ ] Aegis Core — addon: Calamity: Tales of the Aquatic
-- [ ] Alchemical Flask
-- [x] Amidias' Spark
 - [ ] Ancient Essence of Merge — addon: Calamity: Tales of the Aquatic
 - [ ] Aquatic Shardstone — addon: Calamity: Tales of the Aquatic
 - [ ] Arcanoid Orb — addon: Calamity: Tales of the Aquatic
@@ -692,12 +637,10 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Archangel Wings
 - [ ] Armageddon Wings — addon: Deimos, the Starborn Princess
 - [ ] Assortegelatin
-- [ ] Astral Arcanum
 - [ ] Astral Bulwark
 - [ ] BFB
 - [ ] Babil Destruction Core — addon: Calamity: Tales of the Aquatic
 - [ ] Bellwings — addon: Calamity: Community Remix
-- [ ] Blazing Core
 - [ ] Blazing Powder — addon: Calamity: Community Remix
 - [ ] Blood Element — addon: Calamity: Tales of the Aquatic
 - [ ] Bloodflare Wings
@@ -708,29 +651,18 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Calamitous Orbit — addon: Calamity: Tales of the Aquatic
 - [ ] Calamitous Soul Artifact — addon: Calamity: Community Remix
 - [ ] Catarachedrae — addon: Calamity: Tales of the Aquatic
-- [ ] Celestial Jewel
-- [ ] Celestial Tracers
 - [ ] Cobalt Night Circuit — addon: Calamity: Tales of the Aquatic
-- [ ] Core of the Blood God
-- [ ] Corrupt Flask
 - [ ] Cosmic Stone
-- [ ] Crimson Flask
-- [ ] Dark God's Sheath
 - [ ] Deteriorating Lens — pas de sprite
 - [ ] Determination Breaker
-- [ ] Dimensional Soul Artifact
 - [ ] Disorderful Soul Artifact
 - [ ] Drained Catarachedrae — addon: Calamity: Tales of the Aquatic
 - [ ] Dread Bone — addon: Calamity: Tales of the Aquatic
 - [ ] Dreamy Belt — addon: Calamity: Community Remix
 - [ ] Drew's Fins
-- [ ] Drew's Wings
 - [ ] Earth Destruction Core — addon: Calamity: Tales of the Aquatic
 - [ ] Edgeterrence — addon: Calamity: Tales of the Aquatic
-- [ ] Eldritch Soul Artifact
-- [ ] Elemental Quiver
 - [ ] Elementary Orbit — addon: Calamity: Tales of the Aquatic
-- [ ] Elysian Tracers
 - [ ] Enchanted Tumor — addon: Deimos, the Starborn Princess
 - [ ] Essence of Merge — addon: Calamity: Tales of the Aquatic
 - [ ] Eternal Pillow — addon: Calamity: Community Remix
@@ -744,8 +676,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Gehenna
 - [ ] Ghast Relic — addon: Calamity: Tales of the Aquatic
 - [ ] Gift of the Red — addon: Calamity: Tales of the Aquatic
-- [ ] Godly Soul Artifact
-- [ ] Gravistar Sabaton
 - [ ] Holy Mantle — addon: Calamity: Community Remix
 - [ ] Icicle Ring
 - [ ] Inverted Gar
@@ -754,10 +684,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Lead Core
 - [ ] Level Meters — pas de sprite
 - [ ] Lul
-- [ ] Lumenous Amulet
 - [ ] Lunarspectre Tracers — addon: Calamity: Tales of the Aquatic
 - [ ] Magna Core — addon: Calamity: Community Remix
-- [x] Mana Jelly
 - [ ] Metamorphic Stone
 - [ ] Microxodonta
 - [ ] Mirage Jelly (item)
@@ -766,7 +694,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Nameless Rat — addon: Calamity: Community Remix
 - [ ] Night Cloak — addon: Calamity: Tales of the Aquatic
 - [ ] Nightform — addon: Calamity: Tales of the Aquatic
-- [ ] Nuclear Rod
 - [ ] Nucleate Gello
 - [ ] Oil Bottle
 - [ ] Palladium Light Circuit — addon: Calamity: Tales of the Aquatic
@@ -782,11 +709,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Quantum Flahium Transcendental Device
 - [ ] Quiver of Madness — addon: Calamity: Community Remix
 - [ ] Rampart of Deicide — addon: Calamity: Tales of the Aquatic
-- [ ] Rare Elemental in a Bottle — addon: Tranquility Mod
 - [ ] Ravenous Soul Artifact
 - [ ] Red Bow
 - [ ] Red Wings
-- [x] Regenator
 - [ ] Regeterrence — addon: Calamity: Tales of the Aquatic
 - [ ] Rusty Medallion
 - [ ] Sanguined Catarachedrae — addon: Calamity: Tales of the Aquatic
@@ -821,17 +746,15 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Tree-Crown Wings
 - [ ] Universal Stone — addon: Calamity: Community Remix
 - [ ] Void Artifact — addon: Calamity: Tales of the Aquatic
-- [ ] Void of Extinction
 - [ ] Warbanner of the Sun
 - [ ] Wings — pas de sprite
 - [ ] Worm Meal
 - [ ] Wrath of the Machines
 - [ ] Yggdrasil Core — addon: Calamity: Tales of the Aquatic
 - [ ] Yharim's Curse — addon: Calamity: Community Remix
-- [ ] Yharim's Insignia
 - [ ] Zenith Arcanum — addon: Calamity: Community Remix
 
-## Block (115)
+## Block (113)
 
 - [x] Abandoned Bronze Plating — addon: Calamity: Tales of the Aquatic
 - [x] Aegisalt Ore
@@ -856,9 +779,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Bloodstone Ore — addon: Calamity: Tales of the Aquatic
 - [ ] Brinerack
 - [x] Catastrophe Clay Ore
-- [x] Chaosplate
 - [x] Chaotic Brick
-- [x] Charred Ore
 - [x] Compressed Mana — addon: Deimos, the Starborn Princess
 - [ ] Compressed Stone Blocks — pas de sprite
 - [x] Cosmilite Slag — addon: Calamity Loot Swap, Deimos, the Starborn Princess
@@ -1017,7 +938,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Waterlogged — pas de sprite
 - [ ] Webbed — pas de sprite
 
-## Potion (64)
+## Potion (62)
 
 - [ ] Active Healing Potion — addon: Calamity: Tales of the Aquatic
 - [ ] Adrenaline of the Gods — addon: Catalyst
@@ -1040,14 +961,12 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Demon Potion
 - [ ] Demon Trophy — addon: Calamity: Community Remix
 - [ ] Draconic Elixir
-- [ ] Dragonfruit
 - [ ] Dust Bunny — addon: Catalyst, Deimos, the Starborn Princess
 - [ ] Elder Berry
 - [ ] Esseric Skin Potion — addon: Calamity: Tales of the Aquatic
 - [ ] Ever Ink — addon: Catalyst, Deimos, the Starborn Princess
 - [ ] Expired Medication
 - [ ] Flask of Plague
-- [ ] Fluorescent Vodka — pas de sprite; addon: Apotheosis and Friends, Calamity: Community Remix
 - [ ] Ham Pie
 - [ ] Hemagrape
 - [ ] Holy Wrath Potion
@@ -1147,7 +1066,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Xernocaloxusatros — addon: Wrath of the Mammoth
 - [ ] Yharim Worm
 
-## Enemy (59)
+## Enemy (57)
 
 - [ ] Angry Dog
 - [ ] Asura
@@ -1163,7 +1082,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Crazed Mechanic — pas de sprite; addon: Tranquility Mod
 - [ ] Crimson Kaiju
 - [ ] Cuboid Curse
-- [ ] Cultist Assassin
 - [ ] Cyber Draedon — addon: Calamity: Community Remix
 - [ ] Darkscule
 - [ ] Depressed Cephalopod
@@ -1185,7 +1103,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Glowflies
 - [ ] Green Demon
 - [ ] Heavenly Ogsculite
-- [ ] Hive Cyst
 - [ ] King of Constellations, Tenryu — addon: Calamity: Community Remix
 - [ ] La Ruga — addon: Calamity: Community Remix
 - [ ] Lizard — addon: Calamity: Community Remix
@@ -1268,7 +1185,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Wulfrum Hammer
 - [ ] XO-Tell — addon: Calamity: Distorted Memories
 
-## Flying Enemy (35)
+## Flying Enemy (33)
 
 - [ ] Aether Valkyrie
 - [ ] Angery Flame
@@ -1276,7 +1193,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Astral Head
 - [ ] Astrum Deus Probe
 - [ ] Baby Skeletron Head.exe — addon: Calamity: Community Remix
-- [ ] Big Sightseer
 - [ ] Blighted Eye
 - [ ] Charm Gar — addon: Deimos, the Starborn Princess
 - [ ] Cinderlamitas — addon: Deimos, the Starborn Princess
@@ -1301,73 +1217,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Primal Aspid — addon: Catalyst
 - [ ] Primordial Rainbow Slime — addon: Deimos, the Starborn Princess, Calamity Loot Swap
 - [ ] Siren Clone
-- [ ] Small Sightseer
 - [ ] Stasis Probe
 - [ ] Sun Bat
 - [ ] Volcanic Reaper Shark — addon: Polyphemalus
-
-## Ammunition (29)
-
-- [ ] 22 Hornet Round — addon: Calamity: Community Remix, Polyphemalus
-- [ ] Acceleration Round
-- [ ] Acid Round
-- [ ] Arctic Arrow
-- [ ] Cosmilite Coin — addon: Calamity: Community Remix
-- [ ] Enhanced Nano Round
-- [ ] Explosive Shotgun Shell
-- [ ] Exterminative Dart — addon: Calamity: Tales of the Aquatic
-- [ ] Flah Round
-- [ ] Flarrow
-- [ ] Frostspark Bullet
-- [ ] Grenade Shells
-- [ ] Icy Bullet
-- [ ] Jellyfish Cannonball
-- [ ] Klepticoin — addon: Calamity: Community Remix
-- [ ] Magnum Rounds
-- [ ] Miracle Coin — addon: Calamity: Tales of the Aquatic
-- [ ] Napalm Arrow
-- [ ] Nighterrial Dart — addon: Calamity: Tales of the Aquatic
-- [ ] Profaned Crystal Dart — addon: Calamity: Tales of the Aquatic
-- [ ] Profaned Fire Dart — addon: Calamity: Tales of the Aquatic
-- [ ] Superball Bullet
-- [ ] Terra Arrow
-- [ ] Terra Bullet
-- [ ] Terrestrial Dart — addon: Calamity: Tales of the Aquatic
-- [ ] Verium Bullet
-- [ ] Vortex Dart — addon: Calamity: Tales of the Aquatic
-- [ ] War Arrow
-- [ ] Waterfrost Dart — addon: Calamity: Tales of the Aquatic
-
-## Furniture (28)
-
-- [ ] Abyss Torch
-- [ ] Advanced Void Condenser — addon: Calamity: Tales of the Aquatic
-- [ ] Ancient Console
-- [ ] Anomaly 109
-- [ ] Apocalyptic Slime Statue — addon: Deimos, the Starborn Princess
-- [ ] Aquatic Hypercomputer — stub; addon: Calamity: Tales of the Aquatic
-- [ ] Astral Effigy
-- [ ] Banners — pas de sprite
-- [ ] Bronze Smelter
-- [ ] Cave Entrance
-- [ ] Condenser
-- [ ] Deimos Plushie — addon: Deimos, the Starborn Princess
-- [ ] Effigies — pas de sprite
-- [ ] Effulgent Manipulator
-- [ ] Emergency Door
-- [ ] Entropic Refiner — addon: Deimos, the Starborn Princess
-- [ ] Forgotten Chest
-- [ ] Hallow Effigy
-- [ ] Luminous Altar — addon: Deimos, the Starborn Princess
-- [ ] Particle Accelerator
-- [ ] Plague Torch
-- [ ] Portative Forging Station — pas de sprite; addon: Tranquility Mod
-- [ ] Pots — pas de sprite
-- [ ] Scroll Press — addon: Deimos, the Starborn Princess
-- [ ] Strange Meteorite
-- [ ] Tables (CTotA) — pas de sprite; addon: Calamity: Tales of the Aquatic
-- [ ] Work Benches (CTotA) — pas de sprite; addon: Calamity: Tales of the Aquatic
-- [ ] Wulfrum Signal Transmitter
 
 ## NPC (27)
 
@@ -1399,32 +1251,60 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Youkai Miko — pas de sprite
 - [ ] Zeratros — addon: Calamity: Community Remix
 
-## Summoning (24)
+## Furniture (26)
 
-- [ ] Artificial Reactive Matter — addon: Calamity: Tales of the Aquatic
-- [ ] Astral Communicator — addon: Deimos, the Starborn Princess
-- [ ] Astralination — addon: Deimos, the Starborn Princess
-- [ ] Blood Relic
-- [ ] Calamitous Certificate EX — addon: Calamity: Community Remix
-- [ ] Celestial Geode — addon: Deimos, the Starborn Princess
-- [ ] Disassembly Signal — addon: Sloome
-- [ ] Draedon Power Pie
-- [ ] Draedon's Remote — addon: Calamity: Community Remix
-- [ ] Eschaton — addon: Sloome
-- [ ] Fleshly Horn — addon: Calamity: Community Remix
-- [ ] Fused Eye — addon: Polyphemalus
-- [ ] Gooz Sayer's Coin — addon: Deimos, the Starborn Princess
-- [ ] Jungle Dragon Egg
-- [ ] Kos Fragment
-- [ ] Lantern Shard — addon: Calamity: Tales of the Aquatic
-- [ ] Nameless Fish of Light
-- [ ] Oddest Mushroom
-- [ ] Old Power Cell
-- [ ] Poisoned Sclera
-- [ ] Puffy Abomination
-- [ ] Rune of Kos
-- [ ] Tar Gar
-- [ ] Vehement Prayer
+- [ ] Advanced Void Condenser — addon: Calamity: Tales of the Aquatic
+- [ ] Ancient Console
+- [ ] Anomaly 109
+- [ ] Apocalyptic Slime Statue — addon: Deimos, the Starborn Princess
+- [ ] Aquatic Hypercomputer — stub; addon: Calamity: Tales of the Aquatic
+- [ ] Astral Effigy
+- [ ] Bronze Smelter
+- [ ] Cave Entrance
+- [ ] Condenser
+- [ ] Deimos Plushie — addon: Deimos, the Starborn Princess
+- [ ] Effigies — pas de sprite
+- [ ] Effulgent Manipulator
+- [ ] Emergency Door
+- [ ] Entropic Refiner — addon: Deimos, the Starborn Princess
+- [ ] Forgotten Chest
+- [ ] Hallow Effigy
+- [ ] Luminous Altar — addon: Deimos, the Starborn Princess
+- [ ] Particle Accelerator
+- [ ] Plague Torch
+- [ ] Portative Forging Station — pas de sprite; addon: Tranquility Mod
+- [ ] Pots — pas de sprite
+- [ ] Scroll Press — addon: Deimos, the Starborn Princess
+- [ ] Strange Meteorite
+- [ ] Tables (CTotA) — pas de sprite; addon: Calamity: Tales of the Aquatic
+- [ ] Work Benches (CTotA) — pas de sprite; addon: Calamity: Tales of the Aquatic
+- [ ] Wulfrum Signal Transmitter
+
+## Ammunition (23)
+
+- [ ] 22 Hornet Round — addon: Calamity: Community Remix, Polyphemalus
+- [ ] Acceleration Round
+- [ ] Arctic Arrow
+- [ ] Cosmilite Coin — addon: Calamity: Community Remix
+- [ ] Enhanced Nano Round
+- [ ] Explosive Shotgun Shell
+- [ ] Exterminative Dart — addon: Calamity: Tales of the Aquatic
+- [ ] Flah Round
+- [ ] Flarrow
+- [ ] Frostspark Bullet
+- [ ] Grenade Shells
+- [ ] Jellyfish Cannonball
+- [ ] Klepticoin — addon: Calamity: Community Remix
+- [ ] Magnum Rounds
+- [ ] Miracle Coin — addon: Calamity: Tales of the Aquatic
+- [ ] Nighterrial Dart — addon: Calamity: Tales of the Aquatic
+- [ ] Profaned Crystal Dart — addon: Calamity: Tales of the Aquatic
+- [ ] Profaned Fire Dart — addon: Calamity: Tales of the Aquatic
+- [ ] Superball Bullet
+- [ ] Terrestrial Dart — addon: Calamity: Tales of the Aquatic
+- [ ] Vortex Dart — addon: Calamity: Tales of the Aquatic
+- [ ] War Arrow
+- [ ] Waterfrost Dart — addon: Calamity: Tales of the Aquatic
 
 ## ? (23)
 
@@ -1477,33 +1357,37 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Wulfrum Mining Helmet
 - [ ] Wulfrum armor
 
-## Grab bag (17)
+## Summoning (22)
 
-- [ ] Abyssal Crate
-- [ ] Babilfish — addon: Calamity: Community Remix
-- [x] Bleached Angling Kit
-- [ ] Chaotic Fish
-- [ ] Contusion Fish — addon: Deimos, the Starborn Princess
-- [ ] Crates — pas de sprite; addon: Calamity: Community Remix
-- [ ] Fish of Light
-- [ ] Fish of Night
-- [ ] Flahr
-- [ ] Front Gar
-- [ ] Rear Gar
-- [ ] Robo Puffer
-- [x] Sandy Angling Kit
-- [ ] Shattered Carp — addon: Calamity: Tales of the Aquatic
-- [ ] Side Gar
-- [ ] Sunken Crate
-- [ ] Xerocodile
+- [ ] Artificial Reactive Matter — addon: Calamity: Tales of the Aquatic
+- [ ] Astral Communicator — addon: Deimos, the Starborn Princess
+- [ ] Astralination — addon: Deimos, the Starborn Princess
+- [ ] Blood Relic
+- [ ] Calamitous Certificate EX — addon: Calamity: Community Remix
+- [ ] Celestial Geode — addon: Deimos, the Starborn Princess
+- [ ] Disassembly Signal — addon: Sloome
+- [ ] Draedon Power Pie
+- [ ] Draedon's Remote — addon: Calamity: Community Remix
+- [ ] Eschaton — addon: Sloome
+- [ ] Fleshly Horn — addon: Calamity: Community Remix
+- [ ] Fused Eye — addon: Polyphemalus
+- [ ] Gooz Sayer's Coin — addon: Deimos, the Starborn Princess
+- [ ] Kos Fragment
+- [ ] Lantern Shard — addon: Calamity: Tales of the Aquatic
+- [ ] Nameless Fish of Light
+- [ ] Oddest Mushroom
+- [ ] Old Power Cell
+- [ ] Poisoned Sclera
+- [ ] Puffy Abomination
+- [ ] Tar Gar
+- [ ] Vehement Prayer
 
-## Slime (17)
+## Slime (16)
 
 - [ ] Accidated Slime
 - [ ] Arsenous Slime
 - [ ] Auric Slime
 - [ ] Chaos Slime
-- [ ] Charred Slime
 - [ ] Cosmilite Slime — addon: Calamity Loot Swap
 - [ ] Death Slime
 - [ ] Esseric Slime — addon: Calamity: Tales of the Aquatic
@@ -1517,10 +1401,25 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] War Slime
 - [ ] Wulfrum Slime
 
-## Superboss (13)
+## Grab bag (13)
+
+- [ ] Babilfish — addon: Calamity: Community Remix
+- [x] Bleached Angling Kit
+- [ ] Contusion Fish — addon: Deimos, the Starborn Princess
+- [ ] Crates — pas de sprite; addon: Calamity: Community Remix
+- [ ] Fish of Light
+- [ ] Fish of Night
+- [ ] Flahr
+- [ ] Front Gar
+- [ ] Rear Gar
+- [ ] Robo Puffer
+- [x] Sandy Angling Kit
+- [ ] Shattered Carp — addon: Calamity: Tales of the Aquatic
+- [ ] Side Gar
+
+## Superboss (12)
 
 - [ ] Abyssal Jewel — addon: Calamity: Tales of the Aquatic
-- [ ] Adult Eidolon Wyrm — addon: Apotheosis and Friends
 - [ ] DWN-∞, Zero
 - [ ] Disgusting Creature: Dron — stub
 - [ ] Esserwyrm — addon: Calamity: Tales of the Aquatic
@@ -1532,20 +1431,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] The Fallen Ascended Master, Xeroc
 - [ ] The Unimaginable Deity, Yald'xoroath — addon: Wrath of the God's
 - [ ] Vision of the Tyrant — addon: Calamity: Community Remix
-
-## Aquatic (11)
-
-- [ ] Aquatic Parasite
-- [ ] Catfish (enemy)
-- [ ] Flounder
-- [ ] Hyperfish — addon: Calamity: Tales of the Aquatic
-- [ ] Illuminal Crystalfish — addon: Calamity: Tales of the Aquatic
-- [ ] Lava Squid
-- [ ] Sealed One — pas de sprite; addon: Tranquility Mod
-- [ ] Sky Lacian — addon: Calamity: Tales of the Aquatic
-- [ ] Skylac Dustfish — addon: Calamity: Tales of the Aquatic
-- [ ] Skyline Shark — addon: Calamity: Tales of the Aquatic
-- [ ] Stratosoul — addon: Calamity: Tales of the Aquatic
 
 ## Pet Summon (11)
 
@@ -1575,18 +1460,18 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Uncharged Flahium
 - [ ] Washed Flah
 
-## Wall (10)
+## Aquatic (10)
 
-- [ ] Abandoned Bronze Wall
-- [ ] Aeroplate Wall — addon: Calamity: Community Remix
-- [ ] Chaosplate Wall
-- [ ] Chaotic Brick Wall
-- [ ] Dungeon Wall Unsafe — pas de sprite
-- [ ] Mossy Gravel Wall — pas de sprite
-- [ ] Reinforced Acidplate Wall — addon: Calamity: Tales of the Aquatic
-- [ ] Reinforced Freezeplate Wall — addon: Calamity: Tales of the Aquatic
-- [ ] Reinforced Noctiplate Wall — addon: Calamity: Tales of the Aquatic
-- [ ] Reinforced Redplate Wall — addon: Calamity: Tales of the Aquatic
+- [ ] Aquatic Parasite
+- [ ] Catfish (enemy)
+- [ ] Hyperfish — addon: Calamity: Tales of the Aquatic
+- [ ] Illuminal Crystalfish — addon: Calamity: Tales of the Aquatic
+- [ ] Lava Squid
+- [ ] Sealed One — pas de sprite; addon: Tranquility Mod
+- [ ] Sky Lacian — addon: Calamity: Tales of the Aquatic
+- [ ] Skylac Dustfish — addon: Calamity: Tales of the Aquatic
+- [ ] Skyline Shark — addon: Calamity: Tales of the Aquatic
+- [ ] Stratosoul — addon: Calamity: Tales of the Aquatic
 
 ## Burrowing Enemy (10)
 
@@ -1600,6 +1485,18 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Mechawyrm — addon: Deimos, the Starborn Princess
 - [ ] Secretary
 - [ ] Ungodly Serpent
+
+## Wall (9)
+
+- [ ] Abandoned Bronze Wall
+- [ ] Aeroplate Wall — addon: Calamity: Community Remix
+- [ ] Chaotic Brick Wall
+- [ ] Dungeon Wall Unsafe — pas de sprite
+- [ ] Mossy Gravel Wall — pas de sprite
+- [ ] Reinforced Acidplate Wall — addon: Calamity: Tales of the Aquatic
+- [ ] Reinforced Freezeplate Wall — addon: Calamity: Tales of the Aquatic
+- [ ] Reinforced Noctiplate Wall — addon: Calamity: Tales of the Aquatic
+- [ ] Reinforced Redplate Wall — addon: Calamity: Tales of the Aquatic
 
 ## Critter (7)
 

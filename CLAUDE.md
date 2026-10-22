@@ -33,6 +33,7 @@ python tools/gen_stats.py                       # infobox -> WikiData/stats.json
 python tools/gen_recipes.py                     # Recipes_*_register -> WikiData/recipes.json
 python tools/gen_element_pages.py               # code des éléments -> pages du wiki (lancé par build_data.py)
 python tools/gen_sprites.py                     # sprites du wiki -> Assets/Overrides/Generated/ (renommés ; Full Fandom)
+python tools/calamity_renames.py                # objets renommés par Calamity depuis 2022 (historique git)
 python tools/apply_modes.py                     # stats « Full Fandom seulement » -> {{mode}} sur les pages (à la main)
 python tools/test_modes.py                      # tests de {{mode}} dans les générateurs (lancé par build_data.py)
 python tools/selftest.py                        # serveur sans interface + Common/Debug/SelfTest.cs (jeu fermé :
@@ -56,7 +57,9 @@ Tester les trois couches : `python tools/selftest.py --mode all`. Référence «
 
 ## Portage du contenu retiré de Calamity (depuis 2.0.1.005)
 
-1. `python tools/legacy_extract.py --list` : candidats (retirés depuis 2.0.1.005 et documentés sur le wiki).
+1. `python tools/legacy_extract.py --list` : candidats (retirés depuis 2.0.1.005 et documentés sur le wiki). Les objets
+   seulement **renommés** depuis (historique git, `python tools/calamity_renames.py`) n'y sont pas : ils existent encore
+   et reprennent le nom du wiki. Ne jamais porter un objet sans vérifier qu'il n'a pas été renommé.
 2. `python tools/legacy_extract.py Classe` : code + textures de 2.0.1.005 dans `legacy_src/Classe/` (ignoré par git,
    jamais compilé) et `PORTAGE.md` (classes référencées : encore dans Calamity → réutiliser, retirées → porter aussi).
 3. Porter dans `Content/Legacy/` (même arborescence que Calamity) ; en tête de chaque fichier :

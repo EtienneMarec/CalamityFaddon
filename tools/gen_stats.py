@@ -104,6 +104,17 @@ def item_value(k, raw):
     return v
 
 
+def to_game(k, value):
+    """Valeur du wiki -> valeur en jeu. Des dégâts entre 0 et 1 (Stormjaw Staff : 0,1) deviennent 1 : à 0, l'arme ne fait
+    plus rien et Terraria retire la ligne « Damage » de l'infobulle, ce qui dérange les lignes ajoutées par Calamity
+    (test du 22/10, [technique])."""
+    if k in ("knockBack", "shootSpeed"):
+        return value
+    if k == "damage" and 0 < value < 1:
+        return 1
+    return int(value)
+
+
 def extreme(wiki, code):
     if code is None or wiki is None:
         return False
@@ -200,16 +211,16 @@ def main():
                         # {{mode|Full Fandom|Calamity++}} : décision écrite sur la page, prioritaire sur les règles
                         explicit.append((page["title"], cls, k))
                         if c is None or abs(c - w) > 1e-6:
-                            items.setdefault(cls, {"page": page["file"]})[k] = int(w) if k not in ("knockBack", "shootSpeed") else w
+                            items.setdefault(cls, {"page": page["file"]})[k] = to_game(k, w)
                         full = item_value(k, pick_mode(raw, "fandom"))
                         if full is not None and abs(full - w) > 1e-6:
-                            full_items.setdefault(cls, {"page": page["file"]})[k] = int(full) if k not in ("knockBack", "shootSpeed") else full
+                            full_items.setdefault(cls, {"page": page["file"]})[k] = to_game(k, full)
                         continue
                     if c is not None and abs(c - w) < 1e-6:
                         continue  # identique au code : rien à faire
                     if c is None and k in ("damage", "useAnimation"):
                         unverified.append((page["title"], cls, k, w))
-                    value = int(w) if k not in ("knockBack", "shootSpeed") else w
+                    value = to_game(k, w)
                     place(cls, page, k, value, target_for(k, w, c, old.get(k)), items, full_items)
 
             elif kind == "ModNPC":
