@@ -2,9 +2,10 @@
 
 _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports/loot_applied.md`.
 
-- 284 PNJ, 1363 entrées de butin
-- 210 entrées avec condition en note (non appliquées)
-- 89 infobox avec des paramètres non compris
+- 365 PNJ, 1685 entrées de butin
+- 249 entrées avec condition en note (appliquées quand `parse_condition` la comprend, voir `reports/loot_applied.md`)
+- Pages d'objets (infobox « item drops ») : 322 drops ajoutés aux PNJ, 27 sources génériques ignorées (« any Jungle enemy »...)
+- 161 infobox avec des paramètres non compris
 
 ## Entrées conditionnelles
 
@@ -220,6 +221,45 @@ _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports
 | XB-10 HuY | XB-10 HuY (Lore) | (Always on first kill) |
 | XP-00 Hypnos | The Exo Mechs (Lore) | (Always on first kill) |
 | Yggdrasil Ent | Elder Berry | (Once the player has used all [[Stamina Meter |
+| BOHLDOHR | SYNTAX ERROR | (After defeating Supreme Calamitas) |
+| Chaotic Puffer | Abyss Ore | (After Golem has been defeated) |
+| Cyber Draedon | Schematics | (in their respective biomes and progression points) |
+| Devil Fish | Abyss Ore | (After Golem has been defeated) |
+| La Ruga | Abyss Ore | (After Golem has been defeated) |
+| Profaned Guardians | Relic of Convergence | (Crystal) |
+| Profaned Guardians | Relic of Resilience | (Rock) |
+| Scryllar | Guidelight of Oblivion | (after Providence has been defeated) |
+| ??? | Baronacre | (After Calamitas has been defeated) |
+| ??? | Bloodflare Core | (After Providence, the Profaned Goddess has been defeated) |
+| ??? | Chain-Saw | (When Exotrexia is defeated last) |
+| ??? | Deep Sea Dumbbell | (After Polterghast has been defeated) |
+| ??? | Demon Trophy | (if the world is not in Hardmode) |
+| ??? | Depth Cells | (After Calamitas has been defeated) |
+| ??? | Energy Core | (When Supercharged) |
+| ??? | Exo Core | (When supercharged) |
+| ??? | Heterochromia | (When Astigmageddon is defeated last) |
+| ??? | IOU an item | (In Pre-Hardmode) |
+| ??? | Mantis Claws | (Once Plantera has been defeated) |
+| ??? | Nystagmus | (When Conjunctivirus is defeated last) |
+| ??? | Polypebral Shield | (When defeated using only the Sheild of Cthulhu) |
+| ??? | Schematics | (Exosphere) |
+| ??? | Slagspitter Pauldron | (in Hardmode) |
+| ??? | Solar Veil | (After Calamitas or Plantera have been defeated) |
+| ??? | Tetrachromancy | (When Cataractacomb is defeated last) |
+| ??? | Valediction | (After Polterghast has been defeated) |
+| The Twins | Dubious Plating | (Draedon's Remote) |
+| The Twins | Mysterious Circuitry | (Draedon's Remote) |
+| Mouse | Cheese | (in Godseeker Mode) |
+| Rat | Cheese | (in Godseeker Mode) |
+| The Destroyer | Dubious Plating | (Draedon's Remote) |
+| The Destroyer | Mysterious Circuitry | (Draedon's Remote) |
+| Skeletron Prime | Dubious Plating | (Draedon's Remote) |
+| Skeletron Prime | Mysterious Circuitry | (Draedon's Remote) |
+| Hive | Hive Pod | (After Astrum Aureus has been defeated) |
+| Giant Cursed Skull | Keelhaul | (After Leviathan and Anahita have been defeated) |
+| Dolphin | Porpoise Pistol | (Hardmode) |
+| Harpy | Sky Glaze | (After the Eye of Cthulhu has been defeated) |
+| Dune Splicer | Terra-cotta | (After Plantera has been defeated) |
 
 ## Paramètres non compris
 
@@ -239,27 +279,56 @@ _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports
 | image2 = Yharon map.png
 | image2caption = Map Icon
 
+- Aorta (page d'objet) : 1= The Perforators | 2=1 | 3={{dv|25%|33.33%}}
+- Arcanoid Orb (page d'objet) : Cosmic Elemental | 1 | {{Expert|5%}}
+- Arcanum of the Void (page d'objet) : Ceaseless Void | 1 | {{expert|100%}}
 - Aries : 50%<br/>{{expert|100%}}
 - Astrageldon Slime : {{expert|100%}}
+- Astral Bulwark (page d'objet) : Astrum Deus | 1 | {{expert|100%}}
 - Astral Probe : 50%<br/>{{expert|100%}}
 - Astrum Aureus : {{expert|100%}}
 - Banana Clown : Banana Clown armor
+- Banana Clown armor (page d'objet) : Banana Clown | 1 | 33% (per piece)
+- Barolegs (page d'objet) : Abyss enemies | 1 | varies
+- Blood Bath (page d'objet) : 1= The Perforators | 2=1 | 3={{dv|25%|33.33%}}
+- Blood Element (page d'objet) : Dreadnautilus | 1 | {{revengeance|100%}}
+- Bloodletting Essence (page d'objet) : Face Monster<br/>Herpling | 1 | 20% /{{expert| 25%}}
 - Brimstone Elemental : {{expert|100%}}
+- Brimstone Jewel (page d'objet) : Supreme Calamitas | 1 | {{expert|100%}}
+- Burden Breaker (page d'objet) : Skeletron Prime | 1 | {{malice|100%}}
 - Calamitas : Blood Element, {{expert|100%}} {{fantag|Catalyst}}
+- Caustic Croaker Staff (page d'objet) : Nuclear Toad | 1 | 5% (Tier 1)<br/>1% (Tiers 2 & 3)
+- Chaotic Grapes (page d'objet) : Purgatory Arbiter, Umbrus | 1 | {{revengeance|100%}}<br>(Always on first kill)
 - Chaotic Puffer : -
+- Charred Relic (page d'objet) : Brimstone Elemental | 1 | {{revengeance|100%}}
 - Cinder : post-ml = yes
+- Clothier's Wrath (page d'objet) : Clothier | 1 | 100% (In [[Hardmode]])
+- Corroded Fossil (page d'objet) : Flak Crab<br/>Orthocera<br/>Sulphurous Skater<br/>Trilobite | 1-3 | 33.33% (Tier
 - Cosmic Elemental : Arcanoid Orb
+- Cosmic Plushie (page d'objet) : The Devourer of Gods | 1 | {{death| 100%}}
 - Crabulon : {{expert|100%}}, {{dv|||100%|||100%}}
 - Cragmaw Mire : -, Spent Fuel Container, Nuclear Rod, Nucleate Gello
 - Cryogen : -
 - Cumulomenace : -, -
 - Cyrogen : -
 - Dark Statis : Plague Keeper
+- Dead Star's Laser Rifle (page d'objet) : Astrum Deus | 1 | {{dv||||100%}}
+- Desert Feather (page d'objet) : The Dragonfolly | 11-17 / {{expert|15-21}} | 100%
 - Devil Fish : -, -
+- Dread Bone (page d'objet) : Blood Zombie | 1 | {{Expert|1%}}
 - Dung Defender : Hunter's Journal
 Dung Defender Idle.png, Idle
 Dung Defender Stagger.png, Staggered
 </gallery>
+- Dust Bunny (page d'objet) : Deerclops | 1 | {{revengeance|100%}}
+- Ectoheart (page d'objet) : Polterghast | 1 | {{revengeance|100%}}
+- Elder Berry (page d'objet) : Profaned Energy<br/>Impious Immolator<br/>Scorn Eater | 1 | {{revengeance|5%}}
+- Electrolyte Gel Pack (page d'objet) : The Slime God | 1 | {{revengeance|100%}}
+- Entropic Armor (page d'objet) : Purgatory Arbiter, Umbrus | 1 piece of armor | 50%
+- Essence of Babil (page d'objet) : Angry Trapper | 4 | 100% (during a [[Windy Day]])
+- Essence of Chaos (page d'objet) : Despair Stone<br/>Scryllar<br/>Soul Slurper<br/>Calamity Eye<br/>Cultist Assassi
+- Essence of Rend (page d'objet) : Angry Bones<br/>Dungeon Slime | 1 | 33.33% in [[Hardmode]]
+- Ever Ink (page d'objet) : Signus, Envoy of the Devourer | 1 | {{revengeance|100%}}
 - Exo Armada : -
 - Exo Cube : Exo Prism, Soma Prime
 - Exo Landmaster : -
@@ -267,36 +336,74 @@ Dung Defender Stagger.png, Staggered
 - Exo Sentry : -
 - Exo Sphere : -
 - Exodygen : {{expert|100%}}
+- Fancy Flesh Skull (page d'objet) : Wall of Flesh | 1 | {{death|10%}}
 - Fearless Goldfish Warrior : Magic Dagger
 - Flak Crab : -, Corroded Fossil
+- Fleshy Geode (page d'objet) : Ravager | 1 | 100% (Before defeating [[Providence]])
 - Floating Biomass : 50%/{{expert|100%}}, Babil Destruction Core
+- Fox Drive (page d'objet) : Jungle Dragon, Yharon | 1 | {{revengeance|100%}}
+- Gael's Greatsword (page d'objet) : Supreme Calamitas | 1 | {{malice|100%}}
 - Garon : Yharim Bar, {{expert|100%}}
 - Godseeker, Yharim : -, Yharim Bar, Tyrant Shield, {{expert|100%}}
 - Goozma : -, -, {{dv|||100%||100%}}, {{expert|100%}}
 - Goozmageldon : Stardust, 12=100%, 13=Goozmageldon Mask, 14=1, 15=14.29%, 16=Goozmageldon Trophy, 17=1, 18=10%, 19=custom, 20={{item|Goozmageldon (Lore)|@@note:(Always on first kill)|, 21=100%, 22=custom, 24={{expert|100%}}
+- Grand Dad (page d'objet) : Moon Lord | 1 | {{malice|100%}}
+- Gypsy Powder (page d'objet) : Moth | 1 | 50% / {{expert|100%}}
+- Hardened Honeycomb (page d'objet) : Queen Bee | 30-50 /<br/>{{expert|50-75}} | {{dv|25%|33.33%}}
+- Hermit's Box of One Hundred Medicines (page d'objet) : Wall of Flesh | 1 | 100% (first time)<br/>10% (subsequent kills)
 - Hyperfish : -, Fries
+- Infernal Blood (page d'objet) : Ravager | 1 | {{revengeance|100%}}
 - Jungle Dragon Yharon : Yharim Bar, {{expert|100%}}
+- Lead Wizard (page d'objet) : Golem | 1 | {{malice|100%}}
+- Levi (page d'objet) : Supreme Calamitas | 1 | {{death|100%}}
 - Leviathan and Anahita : Crocodile Scale, 71=20-40, 72=100%, 73=custom, 74={{item|The Ocean (Lore)|@@note:(Always on first kill)|wra, 75=100%, 76=custom, 77={{item|Leviathan and Anahita (Lore)|@@note:(Always on fir, 78=100%
+- Living Shard (page d'objet) : Plantera | 6-9 / {{expert|8-11}} | 100%
+- Lumenyl (page d'objet) : Devil Fish<br/>Eidolist<br/>Adult Eidolon Wyrm<br/>Eidolon Wyrm<br/>Giant Squid<
+- Magma Booster (page d'objet) : Calamitas | 1 | {{revengeance|100%}}
+- Maneater Bulb (page d'objet) : Man Eater | 1 | 33% / {{expert|50%}}
+- Mantis Leg Plate (page d'objet) : Reactive Guardian, Sodis | 1 | {{Revengeance|100%}}
 - Mechawyrm : -
+- Metabolic Converter (page d'objet) : The Inventors | 1 | {{revengeance|100%}}
 - Mushroom Elemental : Vicious Mushroom, Vile Mushroom
+- Mushroom Plasma Root (page d'objet) : Crabulon | 1 | {{revengeance|100%}}
+- Mutated Truffle (page d'objet) : Pigron | 1 | 10% (post-[[Polterghast]])
+- Necromantic Geode (page d'objet) : Ravager | 1 | 100% (After defeating [[Providence]])
 - Nihil, the Fathomless Seeker : Essence of Nihility, 50〜75, 100%
+- Nuclear Rod (page d'objet) : Cragmaw Mire | 1 | 100% (Tier 2)<br/>10% (Tier 3)
 - Nuclear Toad : Caustic Croaker Staff
+- Nucleate Gello (page d'objet) : Cragmaw Mire | 1 | 100% (Tier 2)<br/>10% (Tier 3)
+- Ogscule (page d'objet) : Demon Eye | 1 | 10% <br/>(while a full set of [[Ebonwood Chair]] is equipped)
 - Orthocera : Corroded Fossil
 - Pandora, the Hypnotized Witch : -, Shattered Message Block, {{revengeance|7-10|}}, {{Revengeance|100%}}
+- Parasitic Scepter (page d'objet) : Water Leech | 1 | 5% (Tier 1)<br/>1% (Tiers 2 & 3)
 - Phyg : 5=1-3, 6=100%, 7=Feather, 8=1-2, 9=100%
+- Plague Keeper (page d'objet) : Dark Statis | 1 | 100%<br/>(Pre-[[Wall of Flesh]])
+- Plagued Minecart (page d'objet) : The Plaguebringer Goliath | 1 | {{revengeance|10%}}
 - Polterghast : -, -
+- Primordial Ore (page d'objet) : Primordial Rainbow Slime | 10-26 | 100%<br/><small>(When killed with any weapon 
 - Primordial Rainbow Slime : Primordial Ore
 - Providence, the Profaned Goddess : -, {{expert|100%}}, 100% / {{malice|100%}}
 - Purgatory Arbiter, Umbrus : Chaotic Grapes
 - Radiator : Radiating Crystal
 - Ravager : -
 - Reactive Guardian, Sodis : Mantis Leg Plate, Sodis Relic, Treasure Bag(Reactive Guardian, Sodis)
+- Red Lightning Container (page d'objet) : The Dragonfolly | 1 | {{revengeance|100%}}
+- Regeterrence (page d'objet) : Hemogoblin Shark, Blood Eel | 1 | {{Revengeance|20%}}, Wandering Eye Fish, Zombie Merman | 1 | {{Revengeance|5%}}
+- Rot Ball (page d'objet) : 1= The Hive Mind | 2=30-50 / {{expert|50-75}} | 3={{dv|25%|33.33%}}
+- Rotten Matter (page d'objet) : The Hive Mind | 25-30 / {{expert|30-40}} | 100%
 - Scryllar : custom
 - Seeker : 10-30, 100%
 - Serial Designation N : A, 1
+- Shattered Message Block (page d'objet) : Pandora, the Hypnotized Witch | {{revengeance|7-10|}} | 100%
 - Sigmund : {{expert|100%}} {{fantag|Catalyst}}
 - Signus, Envoy of the Devourer : {{expert|100%}} {{fantag|Catalyst}}
+- Skullmasher (page d'objet) : The Devourer of Gods | 1 | {{malice|100%}}
+- Soma Prime (page d'objet) : Exo Cube | {{dv|1}} | 0.5% (Post-[[The Fabricational Quartet]]/[[Supreme Calamit
 - Soul Slurper : Slurper Pole
+- Spent Fuel Container (page d'objet) : Cragmaw Mire | 1 | 100% (Tier 2)<br/>10% (Tier 3)
+- Star Flare (page d'objet) : Starborn Princess | 1 | 100%<br/><small>(After [[Purgatory Arbiter, Umbrus]] has
+- Stardust (page d'objet) : All Astral Infection enemies | [[Stardust#Drop Chance List|Varies]] | Varies
+- Starlight Fuel Cell (page d'objet) : Astrum Aureus | 1 | {{revengeance|100%}}
 - Stellar Culex : 50%<br/>{{expert|100%}}
 - Stormlion : Stormlion Mandible
 - Stratosoul : -
@@ -315,6 +422,10 @@ Dung Defender Stagger.png, Staggered
 - The Unimaginable Deity, Yald'xoroath : {{expert|100%}}
 - The Wall of Bronze : -, {{expert|100%}}
 - Trilobite : Corroded Fossil
+- Violet Heart of Calamity (page d'objet) : Supreme Calamitas | 1 | {{revengeance|100%}}
+- War Arrow (page d'objet) : Goblin Archer | 25-68/{{expert|37-120}} | {{dv|2.5%|5%}}
+- Waraxe (page d'objet) : Skeleton<br/>Hoplite<br/>Armored Skeleton<br/>Skeleton Archer | 1 | 5% / {{exper
+- Warglaive (page d'objet) : Goblin Thief | 25-68/{{expert|37-120}} | {{dv|2.5%|5%}}
 - Water Leech : Parasitic Scepter
 - Wulfrum Drone : -
 - Wulfrum Excavator : -
@@ -324,3 +435,4 @@ Dung Defender Stagger.png, Staggered
 - Wulfrum Rover : -, -
 - Wulfrum Slime : -
 - XC-39 "Oizys" : vulnerable
+- Yharim Bar (page d'objet) : The Devourer of Gods | {{revengeance|1-3}} | 100%, Jungle Dragon, Yharon | {{expert|5-7}}/{{revengeance|6-8}} | 100%

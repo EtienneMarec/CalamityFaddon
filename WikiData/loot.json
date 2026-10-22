@@ -152,6 +152,14 @@
     {
      "item": "Treasure Bag (Acidsighter)",
      "listed": true
+    },
+    {
+     "item": "Deteriorating Lens",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Deteriorating Lens.txt",
+     "chanceExpert": 0.3333
     }
    ]
   },
@@ -280,6 +288,13 @@
      "max": 1,
      "chance": 0.25,
      "chanceExpert": 0.3333
+    },
+    {
+     "item": "Essence of Sunlight",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0,
+     "itemPage": "Essence of Sunlight.txt"
     }
    ]
   },
@@ -949,6 +964,13 @@
       "firstKill": true
      },
      "conditionText": "Always on first kill"
+    },
+    {
+     "item": "Hide of Astrum Deus",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Hide of Astrum Deus.txt"
     }
    ]
   },
@@ -1301,6 +1323,14 @@
      "min": 1,
      "max": 3,
      "chance": 0.1429
+    },
+    {
+     "item": "SYNTAX ERROR",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "SYNTAX ERROR.txt",
+     "note": "(After defeating Supreme Calamitas)"
     }
    ]
   },
@@ -1907,6 +1937,51 @@
     {
      "item": "Treasure Bag (Calamitas)",
      "listed": true
+    },
+    {
+     "item": "Brimstone Flameblaster",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0833,
+     "itemPage": "Brimstone Flameblaster.txt",
+     "chanceExpert": 0.1
+    },
+    {
+     "item": "Calamity Spawner",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Calamity Spawner.txt"
+    },
+    {
+     "item": "Catastrophe Clay Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0,
+     "itemPage": "Catastrophe Clay Ore.txt"
+    },
+    {
+     "item": "Crushsaw Crasher",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0833,
+     "itemPage": "Crushsaw Crasher.txt",
+     "chanceExpert": 0.1
+    },
+    {
+     "item": "Havoc's Breath",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0833,
+     "itemPage": "Havoc_s Breath.txt",
+     "chanceExpert": 0.1
+    },
+    {
+     "item": "Set of Calamity",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Set of Calamity.txt"
     }
    ]
   },
@@ -2197,6 +2272,20 @@
       ]
      },
      "conditionText": "After defeating Golem"
+    },
+    {
+     "item": "Abyss Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0,
+     "itemPage": "Abyss Ore.txt",
+     "note": "(After Golem has been defeated)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After Golem has been defeated"
     }
    ]
   },
@@ -2485,6 +2574,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.25
+    },
+    {
+     "item": "Profaned Shard",
+     "min": 2,
+     "max": 5,
+     "chance": 0.1,
+     "itemPage": "Profaned Shard.txt"
     }
    ]
   },
@@ -2723,6 +2819,14 @@
     {
      "item": "Crabulon Relic",
      "listed": true
+    },
+    {
+     "item": "Shroomerang",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Shroomerang.txt",
+     "chanceExpert": 0.3333
     }
    ]
   },
@@ -2897,6 +3001,23 @@
       "firstKill": true
      },
      "conditionText": "Always on first kill"
+    },
+    {
+     "item": "Bittercold Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Bittercold Staff.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Frigid Bar",
+     "min": 15,
+     "max": 25,
+     "chance": 1.0,
+     "itemPage": "Frigid Bar.txt",
+     "minExpert": 20,
+     "maxExpert": 40
     }
    ]
   },
@@ -3143,6 +3264,14 @@
      "min": 1,
      "max": 1,
      "chance": 0.01
+    },
+    {
+     "item": "Schematics",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Schematics.txt",
+     "note": "(in their respective biomes and progression points)"
     }
    ]
   },
@@ -3480,6 +3609,13 @@
       "firstKill": true
      },
      "conditionText": "Always on first kill"
+    },
+    {
+     "item": "Aero Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Aero Stone.txt"
     }
    ]
   },
@@ -3675,6 +3811,20 @@
       ]
      },
      "conditionText": "After defeating Golem"
+    },
+    {
+     "item": "Abyss Ore",
+     "min": 3,
+     "max": 9,
+     "chance": 1.0,
+     "itemPage": "Abyss Ore.txt",
+     "note": "(After Golem has been defeated)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After Golem has been defeated"
     }
    ]
   },
@@ -3946,6 +4096,15 @@
      "chance": 1.0,
      "minExpert": 12,
      "maxExpert": 17
+    },
+    {
+     "item": "Cosmilite Bar",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Cosmilite Bar.txt",
+     "minExpert": 4,
+     "maxExpert": 6
     }
    ]
   },
@@ -4545,6 +4704,13 @@
     {
      "item": "Essence of Babil",
      "listed": true
+    },
+    {
+     "item": "Babil Destruction Core",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Babil Destruction Core.txt"
     }
    ]
   },
@@ -5196,6 +5362,15 @@
     {
      "item": "Yharim's Last Gift",
      "listed": true
+    },
+    {
+     "item": "Yharim Bar",
+     "min": 15,
+     "max": 20,
+     "chance": 1.0,
+     "itemPage": "Yharim Bar.txt",
+     "minExpert": 20,
+     "maxExpert": 25
     }
    ]
   },
@@ -5315,6 +5490,38 @@
     {
      "item": "Treasure Trunk (Goozma)",
      "listed": true
+    },
+    {
+     "item": "Gel Wand",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Gel Wand.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Pearl Gloves",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Pearl Gloves.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Slime Gun EX",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Slime Gun EX.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Tiny Planet",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Tiny Planet.txt",
+     "chanceExpert": 0.3333
     }
    ]
   },
@@ -6093,6 +6300,20 @@
      "min": 1,
      "max": 1,
      "chance": 1.0
+    },
+    {
+     "item": "Abyss Ore",
+     "min": 20,
+     "max": 50,
+     "chance": 1.0,
+     "itemPage": "Abyss Ore.txt",
+     "note": "(After Golem has been defeated)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After Golem has been defeated"
     }
    ]
   },
@@ -6292,6 +6513,20 @@
      "min": 1,
      "max": 1,
      "chance": 0.1
+    },
+    {
+     "item": "Crocodile Scale",
+     "min": 20,
+     "max": 30,
+     "chance": 1.0,
+     "itemPage": "Crocodile Scale.txt"
+    },
+    {
+     "item": "Lightly Weathered Waxed Copper Brick",
+     "min": 20,
+     "max": 40,
+     "chance": 1.0,
+     "itemPage": "Lightly Weathered Waxed Copper Brick.txt"
     }
    ]
   },
@@ -6711,6 +6946,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.25
+    },
+    {
+     "item": "Mystery Meat",
+     "min": 6,
+     "max": 6,
+     "chance": 1.0,
+     "itemPage": "Mystery Meat.txt"
     }
    ]
   },
@@ -6940,6 +7182,14 @@
      "min": 1,
      "max": 1,
      "chance": 0.05
+    },
+    {
+     "item": "Insidious Impaler",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Insidious Impaler.txt",
+     "chanceExpert": 0.06
     }
    ]
   },
@@ -7927,6 +8177,13 @@
       ]
      },
      "conditionText": "After defeating Desert Scourge"
+    },
+    {
+     "item": "Clam Chowder",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "itemPage": "Clam Chowder.txt"
     }
    ]
   },
@@ -7997,6 +8254,36 @@
       "firstKill": true
      },
      "conditionText": "Always on first kill"
+    },
+    {
+     "item": "Relic of Convergence",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Relic of Convergence.txt",
+     "note": "(Crystal)"
+    },
+    {
+     "item": "Relic of Deliverance",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Relic of Deliverance.txt"
+    },
+    {
+     "item": "Relic of Resilience",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Relic of Resilience.txt",
+     "note": "(Rock)"
+    },
+    {
+     "item": "Relic of Ruin",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Relic of Ruin.txt"
     }
    ]
   },
@@ -8224,6 +8511,22 @@
       "firstKill": true
      },
      "conditionText": "Always on first kill"
+    },
+    {
+     "item": "Holy Purge",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Holy Purge.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Profaned Whiplash",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Profaned Whiplash.txt",
+     "chanceExpert": 0.3333
     }
    ]
   },
@@ -8596,6 +8899,13 @@
       ]
      },
      "conditionText": "After defeating Polterghast"
+    },
+    {
+     "item": "Cloaking Gland",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0,
+     "itemPage": "Cloaking Gland.txt"
     }
    ]
   },
@@ -8702,6 +9012,20 @@
       ]
      },
      "conditionText": "After defeating Providence"
+    },
+    {
+     "item": "Guidelight of Oblivion",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Guidelight of Oblivion.txt",
+     "note": "(after Providence has been defeated)",
+     "condition": {
+      "downed": [
+       "providence"
+      ]
+     },
+     "conditionText": "after Providence has been defeated"
     }
    ]
   },
@@ -8937,6 +9261,13 @@
      "max": 1,
      "chance": 0.0016,
      "note": "(After defeating The Starborn Moth)"
+    },
+    {
+     "item": "Oracle Headphones",
+     "min": 1,
+     "max": 1,
+     "chance": 0.08,
+     "itemPage": "Oracle Headphones.txt"
     }
    ]
   },
@@ -9180,6 +9511,13 @@
      "min": 2,
      "max": 5,
      "chance": 1.0
+    },
+    {
+     "item": "Skyline Tooth",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Skyline Tooth.txt"
     }
    ]
   },
@@ -9251,6 +9589,13 @@
       ]
      },
      "conditionText": "After defeating Providence"
+    },
+    {
+     "item": "Slurper Pole",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Slurper Pole.txt"
     }
    ]
   },
@@ -9317,6 +9662,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.2
+    },
+    {
+     "item": "Stormlion Mandible",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Stormlion Mandible.txt"
     }
    ]
   },
@@ -9408,6 +9760,13 @@
      "min": 2,
      "max": 4,
      "chance": 1.0
+    },
+    {
+     "item": "Effulgent Feather",
+     "min": 2,
+     "max": 4,
+     "chance": 1.0,
+     "itemPage": "Effulgent Feather.txt"
     }
    ]
   },
@@ -9830,6 +10189,15 @@
      "min": 1,
      "max": 1,
      "chance": 1.0
+    },
+    {
+     "item": "Exo Prism",
+     "min": 24,
+     "max": 32,
+     "chance": 1.0,
+     "itemPage": "Exo Prism.txt",
+     "minExpert": 30,
+     "maxExpert": 40
     }
    ]
   },
@@ -10056,6 +10424,38 @@
     {
      "item": "The Inventors Relic",
      "listed": true
+    },
+    {
+     "item": "Wulfrum Blunderbuss",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Wulfrum Blunderbuss.txt",
+     "chanceExpert": 0.33
+    },
+    {
+     "item": "Wulfrum Fusion Array",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Wulfrum Fusion Array.txt",
+     "chanceExpert": 0.33
+    },
+    {
+     "item": "Wulfrum Prosthesis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Wulfrum Prosthesis.txt",
+     "chanceExpert": 0.33
+    },
+    {
+     "item": "Wulfrum Shock Cutter",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Wulfrum Shock Cutter.txt",
+     "chanceExpert": 0.33
     }
    ]
   },
@@ -10149,6 +10549,13 @@
     {
      "item": "Treasure Bag (The Magnificent Lightning Avian)",
      "listed": true
+    },
+    {
+     "item": "Disgusting Meat",
+     "min": 236,
+     "max": 650,
+     "chance": 0.55,
+     "itemPage": "Disgusting Meat.txt"
     }
    ]
   },
@@ -10833,6 +11240,20 @@
       "firstKill": true
      },
      "conditionText": "Always on first kill"
+    },
+    {
+     "item": "Oil Bottle",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0005,
+     "itemPage": "Oil Bottle.txt"
+    },
+    {
+     "item": "Plague Station",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Plague Station.txt"
     }
    ]
   },
@@ -11242,6 +11663,20 @@
     {
      "item": "Treasure Crate",
      "listed": true
+    },
+    {
+     "item": "Heavy Metal Trash Can",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Heavy Metal Trash Can.txt"
+    },
+    {
+     "item": "Oil Bottle",
+     "min": 1,
+     "max": 1,
+     "chance": 0.001,
+     "itemPage": "Oil Bottle.txt"
     }
    ]
   },
@@ -11629,6 +12064,38 @@
      "min": 1,
      "max": 1,
      "chance": 0.1
+    },
+    {
+     "item": "Wulfrum Bow",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Wulfrum Bow.txt",
+     "chanceExpert": 0.33
+    },
+    {
+     "item": "Wulfrum Controller",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Wulfrum Controller.txt",
+     "chanceExpert": 0.33
+    },
+    {
+     "item": "Wulfrum Knife",
+     "min": 100,
+     "max": 150,
+     "chance": 0.25,
+     "itemPage": "Wulfrum Knife.txt",
+     "chanceExpert": 0.33
+    },
+    {
+     "item": "Wulfrum Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Wulfrum Staff.txt",
+     "chanceExpert": 0.33
     }
    ]
   },
@@ -12148,8 +12615,2670 @@
      "min": 1,
      "max": 1,
      "chance": 0.25
+    },
+    {
+     "item": "Abyssal Jelly",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Abyssal Jelly.txt"
+    },
+    {
+     "item": "Abysscent Derailer",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Abysscent Derailer.txt"
+    },
+    {
+     "item": "Affliction",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Affliction.txt"
+    },
+    {
+     "item": "Ancient Bone Dust",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Ancient Bone Dust.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Ancient God Slayer armor",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Ancient God Slayer armor.txt"
+    },
+    {
+     "item": "Anechoic Coating",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "itemPage": "Anechoic Coating.txt"
+    },
+    {
+     "item": "Angelinite Ore",
+     "min": 25,
+     "max": 34,
+     "chance": 1.0,
+     "itemPage": "Angelinite Ore.txt"
+    },
+    {
+     "item": "Armored Shell",
+     "min": 5,
+     "max": 8,
+     "chance": 1.0,
+     "itemPage": "Armored Shell.txt",
+     "minExpert": 7,
+     "maxExpert": 10
+    },
+    {
+     "item": "Ashen Horns",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "itemPage": "Ashen Horns.txt"
+    },
+    {
+     "item": "Ashes of Annihilation",
+     "min": 20,
+     "max": 30,
+     "chance": 1.0,
+     "itemPage": "Ashes of Annihilation.txt",
+     "minExpert": 30,
+     "maxExpert": 40
+    },
+    {
+     "item": "Ashes of Calamity",
+     "min": 18,
+     "max": 27,
+     "chance": 1.0,
+     "itemPage": "Ashes of Calamity.txt",
+     "minExpert": 25,
+     "maxExpert": 35
+    },
+    {
+     "item": "Banshee Hook",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Banshee Hook.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Baronacre",
+     "min": 1,
+     "max": 3,
+     "chance": 0.75,
+     "itemPage": "Baronacre.txt",
+     "minExpert": 2,
+     "maxExpert": 5,
+     "chanceExpert": 1.0,
+     "note": "(After Calamitas has been defeated)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After Calamitas has been defeated"
+    },
+    {
+     "item": "Bladecrest Oathsword",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Bladecrest Oathsword.txt",
+     "chanceExpert": 0.0667
+    },
+    {
+     "item": "Blighted Gel",
+     "min": 15,
+     "max": 16,
+     "chance": 1.0,
+     "itemPage": "Blighted Gel.txt"
+    },
+    {
+     "item": "Blighted Lens",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "itemPage": "Blighted Lens.txt"
+    },
+    {
+     "item": "Blood Orb",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Blood Orb.txt"
+    },
+    {
+     "item": "Blood Pact",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Blood Pact.txt",
+     "chanceExpert": 0.5
+    },
+    {
+     "item": "Bloodflare Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Bloodflare Core.txt",
+     "note": "(After Providence, the Profaned Goddess has been defeated)",
+     "condition": {
+      "downed": [
+       "providence"
+      ]
+     },
+     "conditionText": "After Providence, the Profaned Goddess has been defeated"
+    },
+    {
+     "item": "Bloodstone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "itemPage": "Bloodstone.txt"
+    },
+    {
+     "item": "Bolide Launcher",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Bolide Launcher.txt",
+     "chanceExpert": 0.5
+    },
+    {
+     "item": "Calamitea",
+     "min": 10,
+     "max": 10,
+     "chance": 1.0,
+     "itemPage": "Calamitea.txt"
+    },
+    {
+     "item": "Calamitous set",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "itemPage": "Calamitous set.txt"
+    },
+    {
+     "item": "Calamity",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Calamity.txt"
+    },
+    {
+     "item": "Celestial Clump",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Celestial Clump.txt"
+    },
+    {
+     "item": "Chain-Saw",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Chain-Saw.txt",
+     "note": "(When Exotrexia is defeated last)"
+    },
+    {
+     "item": "Cheese",
+     "min": 1,
+     "max": 1,
+     "chance": 0.15,
+     "itemPage": "Cheese.txt"
+    },
+    {
+     "item": "Chrononimbus",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Chrononimbus.txt",
+     "chanceExpert": 0.5
+    },
+    {
+     "item": "Cloaking Gland",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "itemPage": "Cloaking Gland.txt"
+    },
+    {
+     "item": "Condemnation",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Condemnation.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Cored Line",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Cored Line.txt"
+    },
+    {
+     "item": "Corpus Avertor",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Corpus Avertor.txt"
+    },
+    {
+     "item": "Corroded Fossil",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0667,
+     "itemPage": "Corroded Fossil.txt"
+    },
+    {
+     "item": "Cosmic Discharge",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Cosmic Discharge.txt"
+    },
+    {
+     "item": "Cosmilite Brick",
+     "min": 155,
+     "max": 265,
+     "chance": 1.0,
+     "itemPage": "Cosmilite Brick.txt",
+     "minExpert": 205,
+     "maxExpert": 335
+    },
+    {
+     "item": "Cosmilite Slag",
+     "min": 25,
+     "max": 40,
+     "chance": 1.0,
+     "itemPage": "Cosmilite Slag.txt",
+     "minExpert": 40,
+     "maxExpert": 60
+    },
+    {
+     "item": "Cranium Smasher",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Cranium Smasher.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Crocodile Scale",
+     "min": 2,
+     "max": 2,
+     "chance": 1.0,
+     "itemPage": "Crocodile Scale.txt"
+    },
+    {
+     "item": "Cute Scales",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Cute Scales.txt"
+    },
+    {
+     "item": "Daemon's Flame",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Daemon_s Flame.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Dank Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Dank Staff.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Deathhail Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Deathhail Staff.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Deathwind",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Deathwind.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Deep Sea Dumbbell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Deep Sea Dumbbell.txt",
+     "note": "(After Polterghast has been defeated)",
+     "condition": {
+      "downed": [
+       "polterghast"
+      ]
+     },
+     "conditionText": "After Polterghast has been defeated"
+    },
+    {
+     "item": "Demon Trophy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Demon Trophy.txt",
+     "note": "(if the world is not in Hardmode)"
+    },
+    {
+     "item": "Demonic Bone Ash",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Demonic Bone Ash.txt",
+     "chanceExpert": 0.5
+    },
+    {
+     "item": "Depth Cells",
+     "min": 1,
+     "max": 2,
+     "chance": 0.5,
+     "itemPage": "Depth Cells.txt",
+     "minExpert": 2,
+     "maxExpert": 3,
+     "note": "(After Calamitas has been defeated)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After Calamitas has been defeated"
+    },
+    {
+     "item": "Discordian Sigil",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Discordian Sigil.txt"
+    },
+    {
+     "item": "Ectoblood",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "itemPage": "Ectoblood.txt",
+     "minExpert": 1,
+     "maxExpert": 2
+    },
+    {
+     "item": "Energy Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Energy Core.txt",
+     "note": "(When Supercharged)"
+    },
+    {
+     "item": "Eradicator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Eradicator.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Essence of Babil",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Essence of Babil.txt"
+    },
+    {
+     "item": "Essence of Chaos",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Essence of Chaos.txt"
+    },
+    {
+     "item": "Essence of Eleum",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Essence of Eleum.txt",
+     "chanceExpert": 0.5
+    },
+    {
+     "item": "Essence of Rend",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Essence of Rend.txt"
+    },
+    {
+     "item": "Essence of Sunlight",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Essence of Sunlight.txt"
+    },
+    {
+     "item": "Esseric Scale",
+     "min": 15,
+     "max": 25,
+     "chance": 1.0,
+     "itemPage": "Esseric Scale.txt"
+    },
+    {
+     "item": "Ethereal Subjugator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Ethereal Subjugator.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Evercoldance",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Evercoldance.txt"
+    },
+    {
+     "item": "Excelsus",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Excelsus.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Exo Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Exo Core.txt",
+     "note": "(When supercharged)"
+    },
+    {
+     "item": "Exo Prism",
+     "min": 1,
+     "max": 3,
+     "chance": 1.0,
+     "itemPage": "Exo Prism.txt"
+    },
+    {
+     "item": "Fae Dust",
+     "min": 15,
+     "max": 30,
+     "chance": 1.0,
+     "itemPage": "Fae Dust.txt",
+     "minExpert": 20,
+     "maxExpert": 45
+    },
+    {
+     "item": "Fate's Reveal",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Fate_s Reveal.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Fetid Essence",
+     "min": 1,
+     "max": 1,
+     "chance": 0.33,
+     "itemPage": "Fetid Essence.txt",
+     "chanceExpert": 0.5
+    },
+    {
+     "item": "Filthy Glove",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Filthy Glove.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Flesh Totem",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Flesh Totem.txt",
+     "chanceExpert": 0.5
+    },
+    {
+     "item": "Gamma Ray Burst",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Gamma Ray Burst.txt",
+     "chanceExpert": 0.5
+    },
+    {
+     "item": "Geyser Shell",
+     "min": 28,
+     "max": 76,
+     "chance": 0.05,
+     "itemPage": "Geyser Shell.txt"
+    },
+    {
+     "item": "Ghastly Visage",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Ghastly Visage.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Ghoulish Gouger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Ghoulish Gouger.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Gluelic Blade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Gluelic Blade.txt"
+    },
+    {
+     "item": "Grandiose Gland",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "itemPage": "Grandiose Gland.txt"
+    },
+    {
+     "item": "Hematemesis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Hematemesis.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Heresy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Heresy.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Heterochromia",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Heterochromia.txt",
+     "note": "(When Astigmageddon is defeated last)"
+    },
+    {
+     "item": "IOU an item",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "IOU an item.txt",
+     "note": "(In Pre-Hardmode)"
+    },
+    {
+     "item": "Ink Bomb",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01,
+     "itemPage": "Ink Bomb.txt",
+     "chanceExpert": 0.02
+    },
+    {
+     "item": "Jewel Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Jewel Core.txt"
+    },
+    {
+     "item": "Lacoplasm",
+     "min": 2,
+     "max": 2,
+     "chance": 1.0,
+     "itemPage": "Lacoplasm.txt"
+    },
+    {
+     "item": "Lead Core",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0333,
+     "itemPage": "Lead Core.txt"
+    },
+    {
+     "item": "Leeching Dagger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Leeching Dagger.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Little Light",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Little Light.txt",
+     "chanceExpert": 0.125
+    },
+    {
+     "item": "Living Dew Droplet",
+     "min": 1,
+     "max": 3,
+     "chance": 0.33,
+     "itemPage": "Living Dew Droplet.txt",
+     "minExpert": 2,
+     "maxExpert": 4
+    },
+    {
+     "item": "Mana Jelly",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "itemPage": "Mana Jelly.txt",
+     "chanceExpert": 0.2
+    },
+    {
+     "item": "Mandible Bow",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "itemPage": "Mandible Bow.txt",
+     "chanceExpert": 0.0333
+    },
+    {
+     "item": "Mandible Claws",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "itemPage": "Mandible Claws.txt",
+     "chanceExpert": 0.0333
+    },
+    {
+     "item": "Mantis Claws",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Mantis Claws.txt",
+     "note": "(Once Plantera has been defeated)",
+     "condition": {
+      "downed": [
+       "plantera"
+      ]
+     },
+     "conditionText": "Once Plantera has been defeated"
+    },
+    {
+     "item": "Meld Blob",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Meld Blob.txt",
+     "chanceExpert": 0.25
+    },
+    {
+     "item": "Murky Paste",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Murky Paste.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Murky Sludge",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Murky Sludge.txt",
+     "chanceExpert": 0.5
+    },
+    {
+     "item": "Nebulous Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Nebulous Core.txt"
+    },
+    {
+     "item": "Norfleet",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Norfleet.txt"
+    },
+    {
+     "item": "Nystagmus",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Nystagmus.txt",
+     "note": "(When Conjunctivirus is defeated last)"
+    },
+    {
+     "item": "Oil Bottle",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0,
+     "itemPage": "Oil Bottle.txt"
+    },
+    {
+     "item": "Omega Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0,
+     "itemPage": "Omega Healing Potion.txt"
+    },
+    {
+     "item": "Perdition",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Perdition.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Perfect Dark",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Perfect Dark.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Phantoplasm",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Phantoplasm.txt"
+    },
+    {
+     "item": "Plague Cell Canister",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0,
+     "itemPage": "Plague Cell Canister.txt"
+    },
+    {
+     "item": "Polypebral Shield",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Polypebral Shield.txt",
+     "note": "(When defeated using only the Sheild of Cthulhu)"
+    },
+    {
+     "item": "Prominence",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Prominence.txt",
+     "chanceExpert": 0.5
+    },
+    {
+     "item": "Radiating Crystal",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Radiating Crystal.txt"
+    },
+    {
+     "item": "Realm Ravager",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Realm Ravager.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Rotten Brain",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Rotten Brain.txt"
+    },
+    {
+     "item": "Rotting Eyeball",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Rotting Eyeball.txt"
+    },
+    {
+     "item": "Rusted Jingle Bell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Rusted Jingle Bell.txt"
+    },
+    {
+     "item": "Sacrifice",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Sacrifice.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Schematics",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Schematics.txt",
+     "note": "(Exosphere)"
+    },
+    {
+     "item": "Scuttler's Jewel",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Scuttler_s Jewel.txt"
+    },
+    {
+     "item": "Shaderain Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Shaderain Staff.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Shadethrower",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Shadethrower.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Shadowdrop Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Shadowdrop Staff.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Shock Grenade",
+     "min": 1,
+     "max": 4,
+     "chance": 0.2,
+     "itemPage": "Shock Grenade.txt",
+     "chanceExpert": 0.25
+    },
+    {
+     "item": "Skylac Stone",
+     "min": 2,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Skylac Stone.txt"
+    },
+    {
+     "item": "Slagspitter Pauldron",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Slagspitter Pauldron.txt",
+     "note": "(in Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "in Hardmode"
+    },
+    {
+     "item": "Solar Veil",
+     "min": 1,
+     "max": 4,
+     "chance": 0.5,
+     "itemPage": "Solar Veil.txt",
+     "chanceExpert": 0.75,
+     "note": "(After Calamitas or Plantera have been defeated)"
+    },
+    {
+     "item": "Spikecrag Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Spikecrag Staff.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Storm Dragoon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Storm Dragoon.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Strange Matter",
+     "min": 2,
+     "max": 6,
+     "chance": 1.0,
+     "itemPage": "Strange Matter.txt"
+    },
+    {
+     "item": "Stratostone",
+     "min": 2,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Stratostone.txt"
+    },
+    {
+     "item": "Sulphuric Scale",
+     "min": 1,
+     "max": 3,
+     "chance": 0.5,
+     "itemPage": "Sulphuric Scale.txt"
+    },
+    {
+     "item": "Supreme Healing Potion",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0,
+     "itemPage": "Supreme Healing Potion.txt"
+    },
+    {
+     "item": "Supreme Strange Brew",
+     "min": 5,
+     "max": 15,
+     "chance": 1.0,
+     "itemPage": "Supreme Strange Brew.txt"
+    },
+    {
+     "item": "Suspicious Looking Jelly Bean",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Suspicious Looking Jelly Bean.txt"
+    },
+    {
+     "item": "Terror Blade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Terror Blade.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Tetrachromancy",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Tetrachromancy.txt",
+     "note": "(When Cataractacomb is defeated last)"
+    },
+    {
+     "item": "The Obliterator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "The Obliterator.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "The Progression",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "The Progression.txt"
+    },
+    {
+     "item": "The Storm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "The Storm.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Thunderstorm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Thunderstorm.txt"
+    },
+    {
+     "item": "Titan Finger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "itemPage": "Titan Finger.txt"
+    },
+    {
+     "item": "Twisted Tendril",
+     "min": 1,
+     "max": 2,
+     "chance": 0.5,
+     "itemPage": "Twisted Tendril.txt",
+     "minExpert": 2,
+     "maxExpert": 3
+    },
+    {
+     "item": "Ultimus Cleaver",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Ultimus Cleaver.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Unholy Essence",
+     "min": 2,
+     "max": 4,
+     "chance": 1.0,
+     "itemPage": "Unholy Essence.txt"
+    },
+    {
+     "item": "Urchin Stinger",
+     "min": 15,
+     "max": 25,
+     "chance": 1.0,
+     "itemPage": "Urchin Stinger.txt"
+    },
+    {
+     "item": "Valediction",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Valediction.txt",
+     "note": "(After Polterghast has been defeated)",
+     "condition": {
+      "downed": [
+       "polterghast"
+      ]
+     },
+     "conditionText": "After Polterghast has been defeated"
+    },
+    {
+     "item": "Verdantium Ore",
+     "min": 10,
+     "max": 26,
+     "chance": 1.0,
+     "itemPage": "Verdantium Ore.txt"
+    },
+    {
+     "item": "Vesuvius",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Vesuvius.txt"
+    },
+    {
+     "item": "Vigilance",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Vigilance.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Violence",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Violence.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Vital Jelly",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "itemPage": "Vital Jelly.txt",
+     "chanceExpert": 0.2
+    },
+    {
+     "item": "Voidwave Ink",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Voidwave Ink.txt"
+    },
+    {
+     "item": "Wulfrum Bar",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0,
+     "itemPage": "Wulfrum Bar.txt"
+    },
+    {
+     "item": "Wulfrum Battery",
+     "min": 1,
+     "max": 1,
+     "chance": 0.07,
+     "itemPage": "Wulfrum Battery.txt"
+    },
+    {
+     "item": "Yharim Bar",
+     "min": 6,
+     "max": 8,
+     "chance": 1.0,
+     "itemPage": "Yharim Bar.txt",
+     "minExpert": 7,
+     "maxExpert": 9
     }
    ]
+  },
+  "Golem": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Aegis Blade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Aegis Blade.txt"
+    },
+    {
+     "item": "Essence of Sunlight",
+     "min": 5,
+     "max": 10,
+     "chance": 1.0,
+     "itemPage": "Essence of Sunlight.txt",
+     "minExpert": 8,
+     "maxExpert": 13
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Dark Caster": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Ancient Shiv",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Ancient Shiv.txt",
+     "chanceExpert": 0.0667
+    },
+    {
+     "item": "Shinobi Blade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Shinobi Blade.txt",
+     "chanceExpert": 0.0667
+    },
+    {
+     "item": "Staff of Necrosteocytes",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Staff of Necrosteocytes.txt",
+     "chanceExpert": 0.0667
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Antlion": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Antlion Ore",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0,
+     "itemPage": "Antlion Ore.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Antlion Charger": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Antlion Ore",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0,
+     "itemPage": "Antlion Ore.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Antlion Swarmer": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Antlion Ore",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0,
+     "itemPage": "Antlion Ore.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "The Twins": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Arbalest",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Arbalest.txt"
+    },
+    {
+     "item": "Dubious Plating",
+     "min": 8,
+     "max": 16,
+     "chance": 1.0,
+     "itemPage": "Dubious Plating.txt",
+     "note": "(Draedon's Remote)"
+    },
+    {
+     "item": "Mysterious Circuitry",
+     "min": 8,
+     "max": 16,
+     "chance": 1.0,
+     "itemPage": "Mysterious Circuitry.txt",
+     "note": "(Draedon's Remote)"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Bone Serpent": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Ash's Cloak",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Ash_s Cloak.txt"
+    },
+    {
+     "item": "Old Lord Oathsword",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0833,
+     "itemPage": "Old Lord Oathsword.txt",
+     "chanceExpert": 0.1429
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Fire Imp": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Ashen Stalactite",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Ashen Stalactite.txt",
+     "chanceExpert": 0.16
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Derpling": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Beetle Juice",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Beetle Juice.txt",
+     "chanceExpert": 0.3333
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Wall of Flesh": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Black Hawk Remote",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Black Hawk Remote.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Blast Barrel",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Blast Barrel.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Carnage",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Carnage.txt"
+    },
+    {
+     "item": "Meowthrower",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Meowthrower.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Nightform",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Nightform.txt"
+    },
+    {
+     "item": "Spy Emblem",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Spy Emblem.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Twisted Tendril",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Twisted Tendril.txt",
+     "minExpert": 5,
+     "maxExpert": 8
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Plantera": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Bloom Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Bloom Stone.txt"
+    },
+    {
+     "item": "Blossom Flux",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Blossom Flux.txt"
+    },
+    {
+     "item": "Essence of Babil",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0,
+     "itemPage": "Essence of Babil.txt",
+     "minExpert": 5,
+     "maxExpert": 9
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Drippler": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Bouncing Eyeball",
+     "min": 1,
+     "max": 1,
+     "chance": 0.025,
+     "itemPage": "Bouncing Eyeball.txt",
+     "chanceExpert": 0.05
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Duke Fishron": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Briny Baron",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Briny Baron.txt"
+    },
+    {
+     "item": "Delicious Meat",
+     "min": 45,
+     "max": 92,
+     "chance": 0.5,
+     "itemPage": "Delicious Meat.txt"
+    },
+    {
+     "item": "Duke's Decapitator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Duke_s Decapitator.txt",
+     "chanceExpert": 0.3333
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Goblin Summoner": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Burning Strife",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Burning Strife.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "The First Shadowflame",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "The First Shadowflame.txt",
+     "chanceExpert": 0.3333
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Tomb Crawler": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Burnt Sienna",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Burnt Sienna.txt",
+     "chanceExpert": 0.0667
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Supreme Catastrophe": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Catastrophe Clay Ore",
+     "min": 100,
+     "max": 260,
+     "chance": 1.0,
+     "itemPage": "Catastrophe Clay Ore.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Moon Lord": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Celestial Onion",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Celestial Onion.txt"
+    },
+    {
+     "item": "Cheese",
+     "min": 4,
+     "max": 6,
+     "chance": 0.05,
+     "itemPage": "Cheese.txt"
+    },
+    {
+     "item": "Devious Aestheticus",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Devious Aestheticus.txt"
+    },
+    {
+     "item": "Utensil Poker",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Utensil Poker.txt",
+     "chanceExpert": 0.3333
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Mouse": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Cheese",
+     "min": 1,
+     "max": 2,
+     "chance": 0.0001,
+     "itemPage": "Cheese.txt",
+     "note": "(in Godseeker Mode)",
+     "condition": {
+      "downed": [
+       "moon lord"
+      ]
+     },
+     "conditionText": "in Godseeker Mode"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Rat": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Cheese",
+     "min": 1,
+     "max": 2,
+     "chance": 0.0005,
+     "itemPage": "Cheese.txt",
+     "note": "(in Godseeker Mode)",
+     "condition": {
+      "downed": [
+       "moon lord"
+      ]
+     },
+     "conditionText": "in Godseeker Mode"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Primordial Wither Spawn": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Core of Babil",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Core of Babil.txt"
+    },
+    {
+     "item": "Orb of Zot",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Orb of Zot.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Primordial Hell Spawn": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Core of Chaos",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Core of Chaos.txt"
+    },
+    {
+     "item": "Orb of Surt",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Orb of Surt.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Primordial Ice Spawn": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Core of Eleum",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Core of Eleum.txt"
+    },
+    {
+     "item": "Orb of Myst",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Orb of Myst.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Primordial Impact Spawn": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Core of Rend",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Core of Rend.txt"
+    },
+    {
+     "item": "Orb of Crystal",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Orb of Crystal.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Primordial Light Spawn": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Core of Sunlight",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Core of Sunlight.txt"
+    },
+    {
+     "item": "Orb of Law",
+     "min": 3,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Orb of Law.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Wolf": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Coyote Venom",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Coyote Venom.txt",
+     "chanceExpert": 0.3333
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Crawdad": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Craw Carapace",
+     "min": 1,
+     "max": 1,
+     "chance": 0.15,
+     "itemPage": "Craw Carapace.txt",
+     "chanceExpert": 0.25
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "King Slime": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Crown Jewel",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Crown Jewel.txt"
+    },
+    {
+     "item": "The King's Gambit",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "itemPage": "The King_s Gambit.txt",
+     "chanceExpert": 0.6666
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Crystal Crawler": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Crystal Blade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Crystal Blade.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Clinger": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Cursed Dagger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Cursed Dagger.txt",
+     "chanceExpert": 0.0667
+    },
+    {
+     "item": "Cursed Spear",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Cursed Spear.txt",
+     "chanceExpert": 0.0667
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Eye of Cthulhu": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Deathstare Rod",
+     "min": 1,
+     "max": 1,
+     "chance": 0.25,
+     "itemPage": "Deathstare Rod.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Teardrop Cleaver",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Teardrop Cleaver.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Deadly Sphere": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Defective Sphere",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Defective Sphere.txt",
+     "chanceExpert": 0.33
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Zombie": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Disgusting Meat",
+     "min": 1,
+     "max": 2,
+     "chance": 0.25,
+     "itemPage": "Disgusting Meat.txt"
+    },
+    {
+     "item": "The Insacred Texts",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "The Insacred Texts.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Eater of Worlds": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Disgusting Meat",
+     "min": 2,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Disgusting Meat.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Party Girl": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Disgusting Meat",
+     "min": 30,
+     "max": 30,
+     "chance": 1.0,
+     "itemPage": "Disgusting Meat.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Meteor Head": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Divine Intervention",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Divine Intervention.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "XB-10 Losbaf": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Draedon's Heart",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Draedon_s Heart.txt"
+    },
+    {
+     "item": "Exo Box",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Exo Box.txt"
+    },
+    {
+     "item": "Exo Prism",
+     "min": 24,
+     "max": 32,
+     "chance": 1.0,
+     "itemPage": "Exo Prism.txt",
+     "minExpert": 30,
+     "maxExpert": 40
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "The Destroyer": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Dubious Plating",
+     "min": 8,
+     "max": 16,
+     "chance": 1.0,
+     "itemPage": "Dubious Plating.txt",
+     "note": "(Draedon's Remote)"
+    },
+    {
+     "item": "Mysterious Circuitry",
+     "min": 8,
+     "max": 16,
+     "chance": 1.0,
+     "itemPage": "Mysterious Circuitry.txt",
+     "note": "(Draedon's Remote)"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Skeletron Prime": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Dubious Plating",
+     "min": 8,
+     "max": 16,
+     "chance": 1.0,
+     "itemPage": "Dubious Plating.txt",
+     "note": "(Draedon's Remote)"
+    },
+    {
+     "item": "Mysterious Circuitry",
+     "min": 8,
+     "max": 16,
+     "chance": 1.0,
+     "itemPage": "Mysterious Circuitry.txt",
+     "note": "(Draedon's Remote)"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Sand Elemental": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Elemental in a Bottle",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Elemental in a Bottle.txt",
+     "chanceExpert": 0.3333
+    },
+    {
+     "item": "Rare Elemental in a Bottle",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Rare Elemental in a Bottle.txt",
+     "chanceExpert": 0.1667
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Empress of Light": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Empress Flah",
+     "min": 2,
+     "max": 4,
+     "chance": 0.125,
+     "itemPage": "Empress Flah.txt",
+     "chanceExpert": 0.1429
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Red Devil": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Chaos",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "itemPage": "Essence of Chaos.txt",
+     "chanceExpert": 1.0
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Ice Golem": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Eleum",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0,
+     "itemPage": "Essence of Eleum.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Paladin": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Rend",
+     "min": 2,
+     "max": 3,
+     "chance": 1.0,
+     "itemPage": "Essence of Rend.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Wyvern": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Essence of Sunlight",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Essence of Sunlight.txt",
+     "minExpert": 1,
+     "maxExpert": 2
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Anomura Fungus": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Fungal Carapace",
+     "min": 1,
+     "max": 1,
+     "chance": 0.15,
+     "itemPage": "Fungal Carapace.txt",
+     "chanceExpert": 0.25
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Giant Shelly": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Giant Shell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.15,
+     "itemPage": "Giant Shell.txt",
+     "chanceExpert": 0.25
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Giant Tortoise": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Giant Tortoise Shell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.15,
+     "itemPage": "Giant Tortoise Shell.txt",
+     "chanceExpert": 0.25
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Hemogoblin Shark": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Grandiose Gland",
+     "min": 1,
+     "max": 2,
+     "chance": 0.5,
+     "itemPage": "Grandiose Gland.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Blood Eel": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Grandiose Gland",
+     "min": 2,
+     "max": 4,
+     "chance": 0.75,
+     "itemPage": "Grandiose Gland.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Dreadnautilus": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Grandiose Gland",
+     "min": 5,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Grandiose Gland.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Hive": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Hive Pod",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "itemPage": "Hive Pod.txt",
+     "note": "(After Astrum Aureus has been defeated)",
+     "condition": {
+      "downed": [
+       "astrum aureus"
+      ]
+     },
+     "conditionText": "After Astrum Aureus has been defeated"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Present Mimic": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Holiday Halberd",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "itemPage": "Holiday Halberd.txt",
+     "chanceExpert": 0.2
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Ichor Sticker": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Ichor Dagger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Ichor Dagger.txt",
+     "chanceExpert": 0.0667
+    },
+    {
+     "item": "Ichor Spear",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Ichor Spear.txt",
+     "chanceExpert": 0.0667
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Shark": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Joyful Heart",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Joyful Heart.txt",
+     "chanceExpert": 0.0667
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Giant Cursed Skull": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Keelhaul",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Keelhaul.txt",
+     "chanceExpert": 0.0667,
+     "note": "(After Leviathan and Anahita have been defeated)"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Skeletron": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Kos Fragment",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Kos Fragment.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Pink Jellyfish": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Life Jelly",
+     "min": 1,
+     "max": 1,
+     "chance": 0.075,
+     "itemPage": "Life Jelly.txt",
+     "chanceExpert": 0.125
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Moss Hornet": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Needler",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Needler.txt",
+     "chanceExpert": 0.0667
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Martian Saucer": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Nullification Pistol",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "itemPage": "Nullification Pistol.txt",
+     "chanceExpert": 0.25
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Sad Phantom Spirit": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Phantoplasm",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0,
+     "itemPage": "Phantoplasm.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Angry Phantom Spirit": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Phantoplasm",
+     "min": 1,
+     "max": 3,
+     "chance": 1.0,
+     "itemPage": "Phantoplasm.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Happy Phantom Spirit": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Phantoplasm",
+     "min": 2,
+     "max": 4,
+     "chance": 1.0,
+     "itemPage": "Phantoplasm.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Goldfish": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Pineapple",
+     "min": 1,
+     "max": 1,
+     "chance": 0.002,
+     "itemPage": "Pineapple.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Goblin Sorcerer": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Plasma Rod",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Plasma Rod.txt",
+     "chanceExpert": 0.0667
+    },
+    {
+     "item": "War Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "War Staff.txt",
+     "chanceExpert": 0.1
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Tim": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Plasma Rod",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333,
+     "itemPage": "Plasma Rod.txt",
+     "chanceExpert": 0.5
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Dolphin": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Porpoise Pistol",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Porpoise Pistol.txt",
+     "chanceExpert": 0.05,
+     "note": "(Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "Hardmode"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Possessed Armor": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Psychotic Amulet",
+     "min": 1,
+     "max": 1,
+     "chance": 0.025,
+     "itemPage": "Psychotic Amulet.txt",
+     "chanceExpert": 0.05
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Pirate Crossbower": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Raider's Glory",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Raider_s Glory.txt",
+     "chanceExpert": 0.0667
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Sea Snail": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Sea Shell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "itemPage": "Sea Shell.txt",
+     "chanceExpert": 1.0
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Martian Officer": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Shock Grenade",
+     "min": 3,
+     "max": 8,
+     "chance": 0.25,
+     "itemPage": "Shock Grenade.txt",
+     "chanceExpert": 0.3333
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Harpy": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Sky Glaze",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02,
+     "itemPage": "Sky Glaze.txt",
+     "chanceExpert": 0.0333,
+     "note": "(After the Eye of Cthulhu has been defeated)"
+    },
+    {
+     "item": "Wakasagihime",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Wakasagihime.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Dune Splicer": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Terra-cotta",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Terra-cotta.txt",
+     "chanceExpert": 0.0667,
+     "note": "(After Plantera has been defeated)",
+     "condition": {
+      "downed": [
+       "plantera"
+      ]
+     },
+     "conditionText": "After Plantera has been defeated"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Queen Bee": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "The Bee",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "The Bee.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Demon Eye": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "The Insacred Texts",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "The Insacred Texts.txt"
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Snow Balla": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "The Last Lightice",
+     "min": 1,
+     "max": 1,
+     "chance": 0.025,
+     "itemPage": "The Last Lightice.txt",
+     "chanceExpert": 0.05
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Angry Trapper": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Trapper Bulb",
+     "min": 1,
+     "max": 1,
+     "chance": 0.33,
+     "itemPage": "Trapper Bulb.txt",
+     "chanceExpert": 0.5
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Goblin Peon": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Warbell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.025,
+     "itemPage": "Warbell.txt",
+     "chanceExpert": 0.05
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Goblin Warrior": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Warblade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Warblade.txt",
+     "chanceExpert": 0.0667
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Goblin Archer": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Warbow",
+     "min": 1,
+     "max": 1,
+     "chance": 0.025,
+     "itemPage": "Warbow.txt",
+     "chanceExpert": 0.05
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Martian Walker": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Wingman",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429,
+     "itemPage": "Wingman.txt",
+     "chanceExpert": 0.25
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Necromancer": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Wrath of the Ancients",
+     "min": 1,
+     "max": 1,
+     "chance": 0.04,
+     "itemPage": "Wrath of the Ancients.txt",
+     "chanceExpert": 0.0667
+    }
+   ],
+   "itemPagesOnly": true
   }
  },
  "bags": {

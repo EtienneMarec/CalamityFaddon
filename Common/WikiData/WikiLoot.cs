@@ -50,6 +50,9 @@ namespace CalamityFandom.Common.WikiData
         {
             public string Page { get; set; }
             public bool Boss { get; set; }
+            /// <summary>PNJ connu seulement par les infobox « item drops » des pages d'objets (Wall of Flesh...) : sa
+            /// liste de butin est incomplète, le Full Fandom ne lui retire rien.</summary>
+            public bool ItemPagesOnly { get; set; }
             public List<DropData> Drops { get; set; } = new();
         }
 
@@ -200,10 +203,12 @@ namespace CalamityFandom.Common.WikiData
 
         private static void ApplyToNPC(int npc, NPCData npcData)
         {
-            if (FandomMode.IsFull)
+            if (FandomMode.IsFull && !npcData.ItemPagesOnly)
                 RemoveNotOnWiki(npc, npcData);
             var avail = Availability(Main.ItemDropsDB.GetRulesForNPCID(npc, false));
-            int bag = npcData.Boss ? BossBag(npc) : -1;
+            // Boss vanilla sans page sur ce wiki (Wall of Flesh, cité par des pages d'objets) : reconnu par le jeu
+            bool boss = npcData.Boss || ContentSamples.NpcsByNetId.TryGetValue(npc, out var sample) && sample.boss;
+            int bag = boss ? BossBag(npc) : -1;
             var bagAvail = bag > 0 ? Availability(Main.ItemDropsDB.GetRulesForItemID(bag)) : new();
             // En Expert, le drop tombe directement en Full Fandom, ou faute de sac ; sinon il va dans le sac
             bool expertDirect = FandomMode.IsFull || bag <= 0;
@@ -240,7 +245,7 @@ namespace CalamityFandom.Common.WikiData
 
                 string when = condition == null ? "" : $" [{drop.ConditionText}]";
                 string what = Describe(item, drop.Min, drop.Max, drop.Chance) + when;
-                if (!npcData.Boss)
+                if (!boss)
                 {
                     if (avail.ContainsKey(item))
                         AlreadyDropped++;
@@ -276,7 +281,7 @@ namespace CalamityFandom.Common.WikiData
                 bool InNormal() => items.Any(i => avail.TryGetValue(i, out var a) && a.normal);
                 bool InExpert() => items.Any(i => avail.TryGetValue(i, out var a) && a.expert);
 
-                if (!npcData.Boss)
+                if (!boss)
                 {
                     if (items.Any(avail.ContainsKey))
                         AlreadyDropped += items.Length;

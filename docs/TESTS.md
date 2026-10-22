@@ -131,6 +131,9 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
       Gulper Eel : Lumenyl « After defeating Calamitas » ; Heat Spirit : Essence of Chaos « In Hardmode ») ; avant
       Calamitas, un Devil Fish ne lâche pas de Lumenyl de ce drop, après oui (Boss Checklist / Cheat Sheet pour marquer
       le boss vaincu)
+- [ ] **Butin des pages d'objets** (nuit du 22/10) : le Wall of Flesh lâche aussi 3-5 Twisted Tendril, Plantera 4-8
+      Essence of Babil, les Zombies parfois de la Disgusting Meat (visible dans le bestiaire) ; en Full Fandom, le Wall
+      of Flesh garde tout son butin vanilla
 - [ ] Conquest Fragment (Pearl Shard) : sprite du wiki (éclat bleu et doré) dans l'inventaire et au sol, **dans les
       deux modes** ; idem Victide Bar, Divine Bar, Parched Scale (liste : `reports/sprites.md`)
 - [ ] **Full Fandom** : des objets au sprite refait depuis 2022 reprennent celui du wiki (ex.

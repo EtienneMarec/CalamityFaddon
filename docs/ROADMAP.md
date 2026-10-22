@@ -33,8 +33,8 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 - [x] **Conditions de butin** en note : 177 notes comprises (boss vaincus, biome, premier kill), 19 drops encore en
       attente (boss inventés, « While supercharged »...) — nuit du 22/10
 - [x] **Sacs de trésor** (Expert) : page « Treasure Bag » + drops des boss selon le mode (22/10)
-- [ ] Infobox « item drops » des pages d'objets (« Conquest Fragment : Any Boss 100 % ») : sources de butin absentes
-      des pages de PNJ
+- [x] Infobox « item drops » des pages d'objets : 322 drops ajoutés (nuit du 22/10)
+- [ ] Sources génériques de ces infobox (« Any Boss », « any Jungle enemy » : 27) et variantes d'un même nom (Zombie)
 - [ ] **Barres posables** : tuiles pour les matériaux « Block » (Alloy Bar...), puis blocs/murs/meubles du wiki
 - [ ] Recettes vanilla modifiées par le wiki (exclues pour l'instant)
 - [ ] Infobulles du wiki sur les objets officiels (quand le comportement correspond)

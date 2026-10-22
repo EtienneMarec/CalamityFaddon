@@ -210,6 +210,12 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
     reste. **[choix]** Son contenu = la section de la page Treasure Bag seulement (le reste du sac est retiré, même
     règle que le butin des PNJ).
   En mode normal, rien ne change : drops de la page du boss, directement.
+- **[choix]** Infobox « item drops » des **pages d'objets** (« Twisted Tendril : Wall of Flesh 3-5 100 % ») : ajoutées au
+  butin du PNJ quand sa page ne les cite pas (322 drops), même règles (conditions entre parenthèses, Expert, sacs).
+  Un PNJ connu **seulement** par ces infobox (Wall of Flesh, Plantera, Zombie...) n'est jamais vidé en Full Fandom :
+  ces pages ne listent pas tout son butin. Sources génériques (« any Jungle enemy », « Any Boss ») : pas encore
+  appliquées (27). Un nom partagé par plusieurs PNJ (Zombie) : le drop va à une seule variante, celle qui a déjà le plus
+  de butin.
 - **[choix]** Boss sans sac (mini-boss) : les drops du wiki tombent directement en Expert aussi, dans les deux modes.
 - **[technique]** « Déjà donné en normal / en Expert » se lit dans les conditions des règles du jeu (NotExpert / IsExpert).
   Le sac d'une section de la page Treasure Bag est trouvé par son nom, sinon par le boss de la section (« Treasure Coffer »).

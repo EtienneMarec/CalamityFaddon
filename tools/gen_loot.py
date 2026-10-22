@@ -239,6 +239,73 @@ def drops_by_mode(positional):
     return drops, sorted(set(bad))
 
 
+ITEM_DROPS_RE = re.compile(r"\{\{\s*item drops infobox", re.I)
+
+
+def add_item_page_drops(index, npcs, problems):
+    """Infobox « item drops » des pages d'objets (« | [[Devil Fish]] (After Golem has been defeated) | 3-9 | 100% ») :
+    ajoute au butin des PNJ ce que leur propre page ne cite pas. Un PNJ connu seulement par ces infobox (Wall of Flesh,
+    Plantera...) est marqué « itemPagesOnly » : le Full Fandom ne lui retire rien (sa page ne liste pas tout son butin).
+    Sources génériques (« any Jungle enemy », « Any Boss ») ignorées pour l'instant."""
+    norm = lambda t: re.sub(r"[^a-z0-9]", "", t.lower())
+    redirects = {norm(p["title"]): p.get("target", "").split("#")[0] for p in index.values() if p.get("kind") == "redirect"}
+    by_norm = {norm(t): t for t in npcs}
+    known = {(norm(t), norm(d["item"])) for t, v in npcs.items() for d in v["drops"]}
+    added, generic, unread = 0, 0, 0
+    for page in sorted(index.values(), key=lambda p: p.get("title", "")):
+        if page.get("kind") != "content" or not page.get("infobox", "").startswith("item"):
+            continue
+        text = open(os.path.join(OUR_MAIN, page["file"]), encoding="utf-8", errors="replace").read()
+        m = ITEM_DROPS_RE.search(text)
+        if not m:
+            continue
+        body = extract_template(text, m.start())
+        if has_mode(body):
+            unread += 1  # pas encore de {{mode}} dans ces infobox
+            continue
+        tokens = [t.strip() for t in split_all(body)[0]]
+        item = page["title"]
+        for i in range(0, len(tokens) - 2, 3):
+            source, qty_raw, chance_raw = tokens[i], tokens[i + 1], tokens[i + 2]
+            source = re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r"\1", source)
+            cm = re.match(r"^(.*?)\s*\((.*)\)\s*$", source)
+            name, cond_raw = (cm.group(1), cm.group(2)) if cm else (source, None)
+            name = clean_name(name)
+            if not name or name.lower().startswith("any "):
+                generic += 1
+                continue
+            # Le PNJ sous son titre du wiki (redirections suivies : « Plaguebringer Goliath » -> « The Plaguebringer Goliath »)
+            title = by_norm.get(norm(name)) or by_norm.get(norm(redirects.get(norm(name), ""))) or name
+            if (norm(title), norm(item)) in known:
+                continue
+            qty, chance = parse_qty(qty_raw), parse_chance(chance_raw)
+            if qty is None or chance is None:
+                problems.setdefault(item + " (page d'objet)", []).append(f"{name} | {qty_raw} | {chance_raw}"[:80])
+                continue
+            drop = {"item": item, "min": qty[0], "max": qty[1], "chance": round(chance, 4), "itemPage": page["file"]}
+            qty_x, chance_x = parse_qty(qty_raw, True) or qty, parse_chance(chance_raw, True)
+            if qty_x != qty:
+                drop["minExpert"], drop["maxExpert"] = qty_x
+            if chance_x is not None and abs(chance_x - chance) > 1e-6:
+                drop["chanceExpert"] = round(chance_x, 4)
+            if cond_raw:
+                note = f"({cond_raw})"
+                drop["note"] = note
+                condition = parse_condition(note)
+                if condition:
+                    drop["condition"] = condition
+                    drop["conditionText"] = condition_text(note)
+            if title not in npcs:
+                target = index.get(title + ".txt") or {}
+                npcs[title] = {"page": None, "boss": "boss" in (target.get("type") or "").lower(), "drops": [],
+                               "itemPagesOnly": True}
+                by_norm[norm(title)] = title
+            npcs[title]["drops"].append(drop)
+            known.add((norm(title), norm(item)))
+            added += 1
+    return {"added": added, "generic": generic, "unread": unread}
+
+
 def main():
     sources = {f: OUR_MAIN for f in os.listdir(OUR_MAIN) if f.endswith(".txt")}
     index = {p["file"]: p for p in json.load(open(os.path.join(ROOT, "data", "wiki_index.json"), encoding="utf-8")).values()}
@@ -262,6 +329,9 @@ def main():
             npcs[page["title"]] = {"page": fname, "boss": "boss" in (page.get("type") or "").lower(), "drops": drops}
             conditional += [(page["title"], d["item"], d["note"]) for d in drops if d.get("note")]
 
+    item_page_stats = add_item_page_drops(index, npcs, problems)
+    conditional += [(t, d["item"], d["note"]) for t, v in npcs.items() for d in v["drops"] if d.get("note") and d.get("itemPage")]
+
     # Alias de noms de PNJ (comme pour les éléments) : redirections, glossaire, nom de l'infobox
     elements = json.load(open(os.path.join(ROOT, "WikiData", "elements.json"), encoding="utf-8"))
     aliases = {t: a for t, a in elements.get("aliases", {}).items() if t in npcs}
@@ -282,7 +352,10 @@ def main():
     total = sum(len(v["drops"]) for v in npcs.values())
     with open(REPORT, "w", encoding="utf-8") as f:
         f.write("# Butin du wiki\n\n_Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports/loot_applied.md`.\n\n")
-        f.write(f"- {len(npcs)} PNJ, {total} entrées de butin\n- {len(conditional)} entrées avec condition en note (non appliquées)\n")
+        f.write(f"- {len(npcs)} PNJ, {total} entrées de butin\n- {len(conditional)} entrées avec condition en note "
+                "(appliquées quand `parse_condition` la comprend, voir `reports/loot_applied.md`)\n")
+        f.write(f"- Pages d'objets (infobox « item drops ») : {item_page_stats['added']} drops ajoutés aux PNJ, "
+                f"{item_page_stats['generic']} sources génériques ignorées (« any Jungle enemy »...)\n")
         f.write(f"- {len(problems)} infobox avec des paramètres non compris\n\n## Entrées conditionnelles\n\n")
         f.write("| PNJ | Objet | Condition |\n|---|---|---|\n")
         for npc, item, note in conditional:
@@ -291,7 +364,8 @@ def main():
         for npc, bad in sorted(problems.items()):
             f.write(f"- {npc} : {', '.join(bad)}\n")
     print(f"{len(npcs)} PNJ, {total} entrées ({len(conditional)} conditionnelles), {len(problems)} infobox avec restes ; "
-          f"{len(bags)} sacs ({sum(len(b['drops']) for b in bags.values())} objets)")
+          f"{len(bags)} sacs ({sum(len(b['drops']) for b in bags.values())} objets) ; pages d'objets : "
+          f"{item_page_stats['added']} drops ajoutés, {item_page_stats['generic']} sources génériques ignorées")
 
 
 if __name__ == "__main__":
