@@ -163,7 +163,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (545)
+## Objets (543)
 
 - A M S
 - AAMG "Disperse"
@@ -369,7 +369,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Gauss Pistol
 - Gauss Rifle
 - Gearwork Shield
-- Gehenna
 - Gel Sword
 - Gel Wand
 - Genisis
@@ -562,7 +561,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Shattered Module
 - Shattered Pistol
 - Shattered Sun
-- Shock Grenade
 - Sign of the Operator
 - Sillyshark
 - Skull Fracture

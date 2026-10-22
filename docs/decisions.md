@@ -275,6 +275,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Second lot : **Solar Flare** (yoyo de Providence), **Diseased Pike** (lance de la Plaguebringer Goliath),
   **Crimslime Staff** / **Corroslime Staff** (The Slime God ; use 29 du wiki ; leurs indicateurs du vieux
   CalamityPlayer remplacés par le buff du sbire). Valeurs identiques au vieux code sauf mention.
+  Troisième lot : **Gehenna** (Brimstone Flames 10 s du wiki au lieu de 4 s ; compte à rebours dans un ModPlayer),
+  **Shock Grenade** (use 17, pile 9999, recette du wiki : 2 Grenade, 1 Bomb, 5 Stratus Brick → 100).
 - **[choix]** Groupe « One of the following N items » dont le jeu ne donne qu'une partie (Desert Scourge : Calamity a
   gardé Barinade et Scourge of the Desert, remplacé les autres) : les objets absents sont ajoutés un par un avec leur
   chance de la page (Seabound Staff, Storm Spray, Aquatic Discharge à 25 %), en plus du groupe du jeu.

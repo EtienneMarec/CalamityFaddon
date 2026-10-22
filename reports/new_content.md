@@ -380,7 +380,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Shadowdrop Staff
 - [ ] Shattered Pistol — addon: Calamity: Tales of the Aquatic
 - [ ] Shattered Sun
-- [ ] Shock Grenade
+- [x] Shock Grenade
 - [ ] Sign of the Operator
 - [ ] Sillyshark
 - [ ] Sister's Toy Rifle — addon: Calamity: Community Remix
@@ -741,7 +741,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Ferro Claws
 - [ ] Frigid Bulwark
 - [ ] Fungal Carapace
-- [ ] Gehenna
+- [x] Gehenna
 - [ ] Ghast Relic — addon: Calamity: Tales of the Aquatic
 - [ ] Gift of the Red — addon: Calamity: Tales of the Aquatic
 - [ ] Godly Soul Artifact

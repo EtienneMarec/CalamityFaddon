@@ -91,6 +91,11 @@ Items: {
 		Tooltip: Fires plague seekers on hit
 	}
 
+	Gehenna: {
+		DisplayName: Gehenna
+		Tooltip: Drops brimstone fireballs from the sky occasionally
+	}
+
 	CrimslimeStaff: {
 		DisplayName: Crimslime Staff
 		Tooltip: Summons a crim slime to fight for you
@@ -112,6 +117,15 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			ShockGrenade: {
+				DisplayName: Shock Grenade
+				Tooltip:
+					'''
+					Throws a grenade that explodes into a burst of lightning
+					Stealth strikes cause the grenade to leave an electrifying aura when it explodes
+					'''
+			}
+
 			NightsGaze: {
 				DisplayName: Night's Gaze
 				Tooltip:
@@ -139,6 +153,11 @@ Projectiles: {
 	DiseasedPikeSpear.DisplayName: Pike
 	CrimslimeMinion.DisplayName: Crimslime
 	CorroslimeMinion.DisplayName: Corroslime
+	GehennaFireball.DisplayName: Hellfire
+	GehennaExplosion.DisplayName: Explosion
+	ShockGrenadeProjectile.DisplayName: Shock Grenade
+	ShockGrenadeBolt.DisplayName: Bolt
+	ShockGrenadeExplosion.DisplayName: Shock Grenade Explosion
 }
 
 Elements: {

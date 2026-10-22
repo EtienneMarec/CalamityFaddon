@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 905 objets dont les recettes ont changé : 809 recettes modifiées, 149 créées
+- 906 objets dont les recettes ont changé : 809 recettes modifiées, 150 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 324 recettes du wiki déjà identiques au jeu
 - 60 transmutations Shimmer ajoutées
-- 178 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 251 recettes
+- 177 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 250 recettes
 
 ## Recettes changées
 
@@ -723,6 +723,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Shardlight Pickaxe | 18 Cryonic Bar @ MythrilAnvil → 1 | 7 Cryonic Bar @ MythrilAnvil → 1 |
 | Shatterite Bar | (nouvelle) | 3 Shatterite Ore, 1 Shattered Prism, 1 Hallowed Bar, 1 Victide Bar @ MythrilAnvil → 1 |
 | Shimmerspark | 12 Cryonic Bar @ MythrilAnvil → 1 | 6 Cryonic Bar @ MythrilAnvil → 1 |
+| Shock Grenade | (nouvelle) | 2 Grenade, 1 Bomb, 5 Stratus Brick @ WorkBenches → 100 |
 | SHPC | 1 Prototype Plasma Drive, 4 Suspicious Scrap, 10 Any Mythril Bar, 5 Soul of Fright, 5 Soul of Might, 5 Soul of Sight @ MythrilAnvil → 1 | 1 Prototype Plasma Drive Core, 4 Suspicious Scrap, 10 Any Mythril Bar @ MythrilAnvil → 1 |
 | Shredder | 1 Frostbite Blaster, 1 Bullet-Filled Shotgun, 5 Luminite Bar @ MythrilAnvil → 1 | 1 Frostbite Blaster, 1 Shotgun, 5 Galactica Singularity, 5 Life Alloy, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Shroomer | 1 Sniper Rifle, 1 Fungicide, 6 Stardust Fragment @ LunarCraftingStation → 1 | 1 Sniper Rifle, 11 Shroomite Bar, 15 Vortex Fragment, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
@@ -1120,7 +1121,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Rose Bow — 1
 - objet : Rusty Medallion — 1
 - objet : Salt Water Bolt — 1
-- objet : Shock Grenade — 1
 - objet : Skyalcon Spallation — 1
 - objet : Spectre Rifle — 1
 - objet : Staff of the Mechworm — 1

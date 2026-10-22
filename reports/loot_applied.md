@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 146 drops ajoutés sur 68 PNJ
-- 91 ajouts dans 23 sacs
+- 149 drops ajoutés sur 69 PNJ
+- 92 ajouts dans 23 sacs
 - 478 drops du wiki déjà présents dans le jeu (inchangés)
-- 90 drops avec leur condition (boss vaincu, biome, premier kill)
+- 91 drops avec leur condition (boss vaincu, biome, premier kill)
 - 26 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 185 PNJ du wiki absents du jeu, 128 objets introuvables
+- 185 PNJ du wiki absents du jeu, 126 objets introuvables
 
 ## Ajouts
 
@@ -21,7 +21,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Atlas** : Stardust 6-8 à 100.0%
 - **Blood Eel** : Grandiose Gland 2-4 à 75.0%
 - **Bohldohr** : Lihzahrd Brick 10-30 à 100.0%
-- **Brimstone Elemental** : Essence of Chaos 4-8 à 100.0% (mode normal) ; Bloodstone 1-1 à 100.0% [Once Providence, the Profaned Goddess] (mode normal) ; Brimrose 1-1 à 100.0% [After defeating Providence, the Profaned Goddess] (mode normal) ; Abaddon 1-1 à 50.0% (mode normal) ; Flame-Licked Shell 1-1 à 10.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal)
+- **Brimstone Elemental** : Essence of Chaos 4-8 à 100.0% (mode normal) ; Bloodstone 1-1 à 100.0% [Once Providence, the Profaned Goddess] (mode normal) ; Gehenna 1-1 à 100.0% (mode normal) ; Brimrose 1-1 à 100.0% [After defeating Providence, the Profaned Goddess] (mode normal) ; Abaddon 1-1 à 50.0% (mode normal) ; Flame-Licked Shell 1-1 à 10.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal)
 - **Calamitas Clone** : Ashes of Annihilation 9-14 à 100.0% (mode normal) ; Essence of Chaos 4-8 à 100.0% (mode normal) ; Blighted Lens 5-12 à 100.0% (mode normal) ; Broken Hero Sword 1-1 à 100.0% (mode normal) ; Bloodstone 1-1 à 100.0% [Once Providence is defeated] (mode normal) ; Void of Calamity 1-1 à 100.0% (mode normal) ; Regenator 1-1 à 10.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Calamitas Trophy 1-1 à 10.0% (mode normal) ; Catastrophe Clay Ore 10-26 à 100.0% (mode normal) ; Crushsaw Crasher 1-1 à 8.3% (mode normal) ; Havoc's Breath 1-1 à 8.3% (mode normal)
 - **Calamity Eye** : Blighted Lens 1-1 à 50.0% [In Hardmode] ; Essence of Chaos 1-1 à 33.3% [In Hardmode]
 - **Ceaseless Void** : The Evolution 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal)
@@ -49,6 +49,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Hemogoblin Shark** : Grandiose Gland 1-2 à 50.0%
 - **Laserfish** : Lumenyl 1-1 à 50.0% [After defeating Calamitas]
 - **Mantis** : Stardust 2-3 à 100.0%
+- **Martian Officer** : Shock Grenade 3-8 à 25.0%
 - **Martian Saucer** : Nullification Pistol 1-1 à 14.3% (mode normal) ; Nullification Pistol 1-1 à 25.0% (Expert, direct)
 - **Martian Walker** : Wingman 1-1 à 14.3%
 - **Mauler** : Fetid Emesis 1-1 à 25.0%
@@ -67,7 +68,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Reaper Shark** : Cloaking Gland 2-3 à 100.0%
 - **Red Devil** : Essence of Chaos 1-1 à 50.0%
 - **Scryllar** : Essence of Chaos 1-1 à 33.3% [In Hardmode]
-- **Shockstorm Shuttle** : The Transformer 1-1 à 10.0% ; Wingman 1-1 à 0.3% [After defeating Golem] ; Xenopopper 1-1 à 0.2% [After defeating Golem] ; Xeno Staff 1-1 à 0.2% [After defeating Golem] ; Laser Machinegun 1-1 à 0.2% [After defeating Golem] ; Electrosphere Launcher 1-1 à 0.2% [After defeating Golem] ; Influx Waver 1-1 à 0.2% [After defeating Golem] ; Cosmic Car Key 1-1 à 0.2% [After defeating Golem] ; Nullification Pistol 1-1 à 0.2% [After defeating Golem]
+- **Shockstorm Shuttle** : The Transformer 1-1 à 10.0% ; Shock Grenade 1-1 à 0.9% [After defeating Golem] ; Wingman 1-1 à 0.3% [After defeating Golem] ; Xenopopper 1-1 à 0.2% [After defeating Golem] ; Xeno Staff 1-1 à 0.2% [After defeating Golem] ; Laser Machinegun 1-1 à 0.2% [After defeating Golem] ; Electrosphere Launcher 1-1 à 0.2% [After defeating Golem] ; Influx Waver 1-1 à 0.2% [After defeating Golem] ; Cosmic Car Key 1-1 à 0.2% [After defeating Golem] ; Nullification Pistol 1-1 à 0.2% [After defeating Golem]
 - **Signus** : Spectral Veil 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal)
 - **Soul Slurper** : Essence of Chaos 1-1 à 33.3% [In Hardmode]
 - **Tempest Toddler** : Desert Feather 2-4 à 100.0%
@@ -85,7 +86,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (Aquatic Scourge)** : Bleached Angling Kit 1-1 à 100.0% (page Treasure Bag) ; Sulphurous Sand 5-15 à 100.0% ; Deep Diver 1-1 à 10.0% ; Greater Healing Potion 8-14 à 100.0% ; Aquatic Scourge Trophy 1-1 à 10.0%
 - **Treasure Bag (Astral Deus)** : Stardust 65-105 à 100.0% ; Solar Fragment 20-32 à 100.0% ; Vortex Fragment 20-32 à 100.0% ; Nebula Fragment 20-32 à 100.0% ; Stardust Fragment 20-32 à 100.0% ; Greater Healing Potion 8-14 à 100.0% ; Astral Deus Trophy 1-1 à 10.0%
 - **Treasure Bag (Astrum Aureus)** : Hallowed Key 1-1 à 20.0% (page Treasure Bag) ; Stardust 30-40 à 100.0% (page Treasure Bag) ; Soul of Bright 35-50 à 100.0% ; Supreme Healing Potion 5-15 à 100.0% ; Astrum Aureus Trophy 1-1 à 10.0%
-- **Treasure Bag (Brimstone Elemental)** : Abaddon 1-1 à 100.0% (page Treasure Bag) ; Essence of Chaos 5-9 à 100.0% (page Treasure Bag) ; Bloodstone 1-1 à 100.0% [Once Providence, the Profaned Goddess] ; Brimrose 1-1 à 100.0% [After defeating Providence, the Profaned Goddess] ; Greater Healing Potion 5-15 à 100.0% ; Brimstone Elemental Trophy 1-1 à 10.0%
+- **Treasure Bag (Brimstone Elemental)** : Gehenna 1-1 à 100.0% (page Treasure Bag) ; Abaddon 1-1 à 100.0% (page Treasure Bag) ; Essence of Chaos 5-9 à 100.0% (page Treasure Bag) ; Bloodstone 1-1 à 100.0% [Once Providence, the Profaned Goddess] ; Brimrose 1-1 à 100.0% [After defeating Providence, the Profaned Goddess] ; Greater Healing Potion 5-15 à 100.0% ; Brimstone Elemental Trophy 1-1 à 10.0%
 - **Treasure Bag (Calamitas Clone)** : Regenator 1-1 à 10.0% (page Treasure Bag) ; Essence of Chaos 5-9 à 100.0% (page Treasure Bag) ; Blighted Lens 1-3 à 100.0% (page Treasure Bag) ; Ashes of Annihilation 14-18 à 100.0% ; Broken Hero Sword 1-1 à 100.0% ; Bloodstone 1-1 à 100.0% [Once Providence is defeated] ; Greater Healing Potion 5-15 à 100.0% ; Calamitas Trophy 1-1 à 10.0% ; Catastrophe Clay Ore 10-26 à 100.0% ; Crushsaw Crasher 1-1 à 10.0% ; Havoc's Breath 1-1 à 10.0%
 - **Treasure Bag (Ceaseless Void)** : Supreme Healing Potion 5-15 à 100.0% ; Ceaseless Void Trophy 1-1 à 10.0%
 - **Treasure Bag (Crabulon)** : Shroomerang 1-1 à 33.3% (page Treasure Bag) ; Delicious Meat 4-7 à 100.0% ; Crabulon Trophy 1-1 à 10.0%
@@ -119,7 +120,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Decomposition — 2
 - Disease — 2
 - Flask of Plague — 2
-- Gehenna — 2
 - Glacial Crusher — 2
 - Gravistar Sabaton — 2
 - Honey Cooling Cell — 2
@@ -131,7 +131,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Reemergence — 2
 - Romulus — 2
 - Sewer Brewer — 2
-- Shock Grenade — 2
 - Slagspitter Pauldron — 2
 - Sulfuric Scale — 2
 - Surgical Glove — 2
