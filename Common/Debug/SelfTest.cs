@@ -264,6 +264,14 @@ namespace CalamityFandom.Common.Debug
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == zwei && r.requiredItem.Any(i => i.type == gaze)),
                 "la recette de Zweihandromeda demande Night's Gaze");
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == gaze), "Night's Gaze a une recette");
+            // Sandy Angling Kit : porté, lâché par le Desert Scourge (butin du wiki), se vide d'objets de pêche
+            int kit = WikiRecipes.ResolveItem("Sandy Angling Kit");
+            Expect(kit > 0 && ItemLoader.GetItem(kit)?.Mod == Mod, "Sandy Angling Kit porté et trouvable par son nom");
+            Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Sandy Angling Kit")), "le Desert Scourge lâche le Sandy Angling Kit");
+            Expect(kit > 0 && Main.ItemDropsDB.GetRulesForItemID(kit).Count > 0, "le Sandy Angling Kit a un contenu");
+            // Abyss Bar : « note=(Post-Golem) » invisible sur le wiki, donc sans condition (décision du 22/10)
+            Expect(WikiLoot.Added.Any(a => a.what.StartsWith(Lang.GetItemNameValue(WikiRecipes.ResolveItem("Abyss Bar")) + " 3-8")),
+                "le Desert Scourge lâche des Abyss Bar sans condition");
         }
 
         private void CheckRecipeConditions()

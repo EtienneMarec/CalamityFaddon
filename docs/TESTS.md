@@ -123,6 +123,10 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
 - [x] Le bestiaire affiche les nouveaux drops (Skyline Wings sur l'Aero Slime, Parched Scale sur le Desert Scourge) et,
       en Full Fandom, plus ceux qui ont été retirés (corrigé le 22/10)
 - [x] Un ver (Eater of Worlds) ne lâche son butin qu'une fois
+- [ ] Desert Scourge (mode normal) lâche aussi **3-8 Abyss Bar** (la condition « Post-Golem » n'est pas affichée sur
+      le wiki : supprimée le 22/10) et un **Sandy Angling Kit** (porté le 22/10) ; Conquest Fragment : 25-30
+- [ ] Sandy Angling Kit : clic droit = objets de pêche (Tackle Box, Angler Hat, potions de pêche...), Golden Bug Net
+      seulement après Skeletron ; sprite de 2022
 
 ---
 

@@ -1490,7 +1490,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Front Gar
 - [ ] Rear Gar
 - [ ] Robo Puffer
-- [ ] Sandy Angling Kit
+- [x] Sandy Angling Kit
 - [ ] Shattered Carp — addon: Calamity: Tales of the Aquatic
 - [ ] Side Gar
 - [ ] Sunken Crate

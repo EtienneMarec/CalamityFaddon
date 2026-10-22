@@ -35,6 +35,15 @@ Items: {
 			'''
 	}
 
+	SandyAnglingKit: {
+		DisplayName: Sandy Angling Kit
+		Tooltip:
+			'''
+			Has a chance to contain various fishing gear
+			{$CommonItemTooltip.RightClickToOpen}
+			'''
+	}
+
 	Weapons: {
 		Rogue: {
 			NightsGaze: {

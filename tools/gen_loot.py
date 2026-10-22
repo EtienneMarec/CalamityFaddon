@@ -20,7 +20,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from wiki_index import ROOT, OUR_MAIN, INFOBOX_RE, extract_template, has_mode, pick_mode  # noqa: E402
-from gen_recipes import split_all, clean_name  # noqa: E402
+from gen_recipes import split_all, clean_name, redirect_aliases  # noqa: E402
 
 OUT = os.path.join(ROOT, "WikiData", "loot.json")
 NOTE = "@@note:"  # marqueur d'une condition « note=... » placée entre deux paramètres
@@ -74,7 +74,7 @@ def parse_drops(positional):
                 group_left = 0
             i += 3
             continue
-        note = None
+        note = hidden_note = None
         if tok.lower() == "custom" and i + 1 < len(positional):
             m = re.search(r"\{\{\s*item\s*\|([^|}]*)(.*?)\}\}", positional[i + 1], re.I | re.S)
             name = clean_name(m.group(1)) if m else clean_name(positional[i + 1])
@@ -90,8 +90,10 @@ def parse_drops(positional):
             qty_raw, chance_raw = "1", positional[i + 2]
             i += 3
         elif i + 1 < len(positional) and positional[i + 1].startswith(NOTE) and i + 3 < len(positional):
-            # « | Abyss Bar|note=(Post-Golem)|3-8|100% » : condition en ligne
-            name, note = clean_name(tok), clean_name(positional[i + 1][len(NOTE):])
+            # « | Abyss Bar|note=(Post-Golem)|3-8|100% » : hors d'un {{item}}, « note= » est un paramètre nommé de
+            # l'infobox, que le modèle n'affiche pas : sur le wiki affiché, il n'y a pas de condition (décision du 22/10)
+            name = clean_name(tok)
+            hidden_note = clean_name(positional[i + 1][len(NOTE):])
             qty_raw, chance_raw = positional[i + 2], positional[i + 3]
             i += 4
         elif i + 2 < len(positional) and parse_qty(positional[i + 1]) is not None:
@@ -114,6 +116,8 @@ def parse_drops(positional):
             drop["chanceExpert"] = round(chance_x, 4)
         if note:
             drop["note"] = note
+        if hidden_note:
+            drop["hiddenNote"] = hidden_note  # pour le rapport seulement
         if group and group_left > 0:
             drop["group"] = group["id"]
             drop["groupAlways"] = group["always"]
@@ -210,8 +214,15 @@ def main():
     bag_page = os.path.join(OUR_MAIN, "Treasure Bag.txt")
     bags = bags_by_mode(open(bag_page, encoding="utf-8").read()) if os.path.exists(bag_page) else {}
 
+    # Noms d'objets du butin qui sont d'anciens noms (« Victory Shard » -> Pearl Shard) : redirections du wiki, puis
+    # renommages du glossaire (Pearl Shard -> Conquest Fragment, le nom en jeu)
+    names = {d["item"] for v in npcs.values() for d in v["drops"]} | {d["item"] for b in bags.values() for d in b["drops"]}
+    renames = json.load(open(os.path.join(ROOT, "tools", "glossary.json"), encoding="utf-8"))["renames"]
+    item_aliases = {k: renames.get(v, v) for k, v in redirect_aliases(names).items()}
+
     with open(OUT, "w", encoding="utf-8") as f:
-        json.dump({"_generated_by": "tools/gen_loot.py", "npcs": npcs, "bags": bags, "aliases": aliases},
+        json.dump({"_generated_by": "tools/gen_loot.py", "npcs": npcs, "bags": bags, "aliases": aliases,
+                   "itemAliases": item_aliases},
                   f, ensure_ascii=False, indent=1)
     total = sum(len(v["drops"]) for v in npcs.values())
     with open(REPORT, "w", encoding="utf-8") as f:

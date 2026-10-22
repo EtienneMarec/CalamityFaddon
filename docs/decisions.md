@@ -188,6 +188,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   **[validé 21/10]** En Full Fandom, les drops du jeu absents de la page sont en plus retirés.
 - **[choix]** Chance et quantité du mode normal. Drops avec une condition en note (« Post-Golem », « Tier 3 »,
   « Always on first kill ») : non appliqués pour l'instant (`reports/loot.md`).
+- **[choix]** (remarque de l'utilisateur, 22/10) Une condition écrite `| Objet|note=(...)|...` **hors** d'un `{{item}}` est
+  un paramètre nommé de l'infobox que le modèle n'affiche pas : sur le wiki affiché il n'y a pas de condition, le drop
+  s'applique. Un seul cas : **Abyss Bar** du Desert Scourge (« Post-Golem » invisible), donc 3-8 Abyss Bar dès le
+  premier Desert Scourge, dans les deux modes (valeur propre au wiki). Les 210 autres conditions sont dans des
+  `{{item|...|note=...}}`, affichées, et restent non appliquées.
+- **[technique]** Anciens noms d'objets dans le butin (« Victory Shard » sur la page Treasure Bag) : redirections du
+  wiki puis renommages du glossaire (→ Conquest Fragment).
 - **[validé 22/10]** Boss en Expert (le wiki se contredit : la page du boss donne des quantités Expert `{{dv}}` sans
   citer de sac, la page « Treasure Bag » donne un autre contenu) :
   - **Calamity++** : le sac reçoit les drops de la page du boss (quantités/chances Expert) et ce que liste la page
@@ -233,6 +240,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de
   debuffs de Calamity au-dessus des boss.
+
+- **[choix]** **Sandy Angling Kit** porté depuis 2.0.1.005 (retiré de Calamity, lâché par le Desert Scourge sur le
+  wiki) : chances du vieux code, identiques à la page ; pile 9999 et sans valeur (infobox).
 
 ## 9. Outils de debug (`Content/Debug/`, sans recette)
 

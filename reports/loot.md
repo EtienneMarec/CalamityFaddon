@@ -3,7 +3,7 @@
 _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports/loot_applied.md`.
 
 - 284 PNJ, 1363 entrées de butin
-- 211 entrées avec condition en note (non appliquées)
+- 210 entrées avec condition en note (non appliquées)
 - 89 infobox avec des paramètres non compris
 
 ## Entrées conditionnelles
@@ -71,7 +71,6 @@ _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports
 | Cyber Draedon | Encrypted Schematic (Ice) | (When defeated in Ice biome post-Devourer of Gods) |
 | Cyber Draedon | Prototype Plasma Drive Core | (When defeated in Space during Hardmode) |
 | Cyrogen | Cyrogen (Lore) | (Always on first kill) |
-| Desert Scourge | Abyss Bar | (Post-Golem) |
 | Desert Scourge | The Desert Scourge (Lore) | (Always on first kill) |
 | Despair Stone | Essence of Chaos | (In Hardmode) |
 | Despair Stone | Slagspitter Pauldron | (In Hardmode) |

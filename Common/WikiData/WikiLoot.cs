@@ -62,6 +62,8 @@ namespace CalamityFandom.Common.WikiData
             /// <summary>Page « Treasure Bag » : titre du boss -> sac et contenu.</summary>
             public Dictionary<string, BagData> Bags { get; set; } = new();
             public Dictionary<string, List<string>> Aliases { get; set; } = new();
+            /// <summary>Anciens noms d'objets (redirections du wiki, renommages) : « Victory Shard » -> Conquest Fragment.</summary>
+            public Dictionary<string, string> ItemAliases { get; set; } = new();
         }
 
         private static LootFile data;
@@ -144,6 +146,8 @@ namespace CalamityFandom.Common.WikiData
         private static int Resolve(DropData drop)
         {
             int item = WikiRecipes.ResolveItem(drop.Item);
+            if (item <= 0 && data.ItemAliases.TryGetValue(drop.Item, out string alias))
+                item = WikiRecipes.ResolveItem(alias);
             if (item <= 0)
             {
                 MissingItems.TryGetValue(drop.Item, out int n);
@@ -288,7 +292,8 @@ namespace CalamityFandom.Common.WikiData
         /// </summary>
         private static void RemoveNotOnWiki(int npc, NPCData npcData)
         {
-            var onWiki = npcData.Drops.Select(d => WikiRecipes.ResolveItem(d.Item)).Where(t => t > 0).ToHashSet();
+            var onWiki = npcData.Drops.Select(d => WikiRecipes.ResolveItem(data.ItemAliases.GetValueOrDefault(d.Item, d.Item)))
+                .Concat(npcData.Drops.Select(d => WikiRecipes.ResolveItem(d.Item))).Where(t => t > 0).ToHashSet();
             if (onWiki.Count == 0)
                 return;
             foreach (var rule in Main.ItemDropsDB.GetRulesForNPCID(npc, false).ToList())
