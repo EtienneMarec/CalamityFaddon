@@ -108,14 +108,19 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
 ### 1.6 Butin du wiki (bilan dans `reports/loot_applied.md`)
 
 - [x] Aero Slime peut lâcher Skyline Wings (3 %)
-- [ ] Desert Scourge (mode **normal**, monde Classic) lâche Parched Scale, Profaned Shard, Ocean Crest ; **pas** d'Abyss
+- [x] Desert Scourge (mode **normal**, monde Classic) lâche Parched Scale, Profaned Shard, Ocean Crest ; **pas** d'Abyss
       Bar (condition Post-Golem ignorée)
-- [ ] Desert Scourge en **Expert**, Full Fandom comme Calamity++ : lâche son **sac** (corrigé le 22/10 : le Full Fandom
+- [x] Desert Scourge en **Expert**, Full Fandom comme Calamity++ : lâche son **sac** (corrigé le 22/10 : le Full Fandom
       retirait le sac, absent de l'infobox du boss mais documenté par la page Treasure Bag)
-- [ ] Desert Scourge : apparaît avec toute sa vie (barre pleine), pas 5 000 sur 750 000 (corrigé le 22/10 : les
+- [x] Desert Scourge : apparaît avec toute sa vie (barre pleine), pas 5 000 sur 750 000 (corrigé le 22/10 : les
       segments du ver n'avaient pas le ratio de vie de la tête)
+- [ ] **Calamity++, Expert** : le sac du Desert Scourge contient en plus Parched Scale (10-16), Profaned Shard, Coral /
+      Seashell / Starfish (7-11), Aero Stone... (drops de sa page + page Treasure Bag) ; rien ne tombe en double
+- [ ] **Full Fandom, Expert** : le Desert Scourge lâche **directement** Parched Scale (10-16), Profaned Shard, Ocean
+      Crest, une arme... **et** son sac, qui ne contient que ce que liste la page Treasure Bag (Ocean Crest, masque,
+      armes à 33 %, Aero Stone, Sand Cloak, Coral / Seashell / Starfish ; pas de Victory Shard, objet introuvable)
 - [x] En Expert, un boss ne lâche pas en double ce qui est déjà dans son sac
-- [ ] Le bestiaire affiche les nouveaux drops (Skyline Wings sur l'Aero Slime, Parched Scale sur le Desert Scourge) et,
+- [x] Le bestiaire affiche les nouveaux drops (Skyline Wings sur l'Aero Slime, Parched Scale sur le Desert Scourge) et,
       en Full Fandom, plus ceux qui ont été retirés (corrigé le 22/10)
 - [x] Un ver (Eater of Worlds) ne lâche son butin qu'une fois
 

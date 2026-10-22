@@ -188,7 +188,17 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   **[validé 21/10]** En Full Fandom, les drops du jeu absents de la page sont en plus retirés.
 - **[choix]** Chance et quantité du mode normal. Drops avec une condition en note (« Post-Golem », « Tier 3 »,
   « Always on first kill ») : non appliqués pour l'instant (`reports/loot.md`).
-- **[choix]** Boss : ajouts en mode normal seulement (en Expert, le butin passe par le sac, pas encore géré).
+- **[validé 22/10]** Boss en Expert (le wiki se contredit : la page du boss donne des quantités Expert `{{dv}}` sans
+  citer de sac, la page « Treasure Bag » donne un autre contenu) :
+  - **Calamity++** : le sac reçoit les drops de la page du boss (quantités/chances Expert) et ce que liste la page
+    Treasure Bag, en plus de son contenu actuel ;
+  - **Full Fandom** : les drops de la page du boss tombent aussi **directement** en Expert (quantités Expert), et le sac
+    reste. **[choix]** Son contenu = la section de la page Treasure Bag seulement (le reste du sac est retiré, même
+    règle que le butin des PNJ).
+  En mode normal, rien ne change : drops de la page du boss, directement.
+- **[choix]** Boss sans sac (mini-boss) : les drops du wiki tombent directement en Expert aussi, dans les deux modes.
+- **[technique]** « Déjà donné en normal / en Expert » se lit dans les conditions des règles du jeu (NotExpert / IsExpert).
+  Le sac d'une section de la page Treasure Bag est trouvé par son nom, sinon par le boss de la section (« Treasure Coffer »).
 - **[choix]** « One of the following N items » : un objet au hasard parmi le groupe, sauf si le jeu en donne déjà un.
 - **[choix]** Un seul PNJ par page, celui qui a déjà le plus de butin (vers, alias) ; titres sans nom (« ??? ») ignorés.
 - **[choix]** Full Fandom : le **sac au trésor** d'un boss n'est jamais retiré, même si l'infobox du boss ne le cite pas

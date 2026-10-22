@@ -6,7 +6,8 @@ Formats rencontrés dans les infobox (paramètres sans nom, dans l'ordre) :
   | custom | {{item|Treasure Bag (Crabulon)|...}}     -> sans chance : objet seulement cité (« listed » : sac, relique),
                                                         pas ajouté mais pas retiré en Full Fandom
   | group | One of the following 5 items... | 5     -> les 5 entrées suivantes forment un groupe
-Quantités et chances en {{dv|normal|expert|...}} : valeur du mode normal.
+Quantités et chances en {{dv|normal|expert|...}} : valeur du mode normal, et valeur Expert (minExpert, maxExpert,
+chanceExpert) quand elle diffère. Page « Treasure Bag » : contenu de chaque sac (« bags »).
 L'application en jeu (Common/WikiData/WikiLoot.cs) est additive : seuls les objets que le PNJ ne lâche pas déjà sont
 ajoutés, et les entrées avec une note de condition ne sont pas appliquées (listées dans le rapport).
 
@@ -24,16 +25,25 @@ from gen_recipes import split_all, clean_name  # noqa: E402
 OUT = os.path.join(ROOT, "WikiData", "loot.json")
 NOTE = "@@note:"  # marqueur d'une condition « note=... » placée entre deux paramètres
 REPORT = os.path.join(ROOT, "reports", "loot.md")
+# Page « Treasure Bag » : tableau d'un boss, objet, ligne, cellule
+TABLE_RE = r'\{\|\s*class="terraria"\s*id="([^"]+)"(.*?)\n\|\}'
+ITEM_RE = r"\{\{\s*item\s*\|([^|}]+)[^}]*\}\}"
+ROW_RE = r"\n\|-[^\n]*"
+CELL_RE = r"\|\||\n\|"
 
 
-def first_dv(raw):
+def first_dv(raw, expert=False):
+    """Valeur du mode normal d'un {{dv|normal|expert|...}} ; avec expert=True, celle de l'Expert (vide = la même)."""
     raw = re.sub(r"<!--.*?-->", "", raw or "", flags=re.S).strip()
     m = re.match(r"^\{\{\s*dv\s*\|([^{}]*)\}\}", raw, re.I)
-    return m.group(1).split("|")[0].strip() if m else raw
+    if not m:
+        return raw
+    values = [v.strip() for v in m.group(1).split("|")]
+    return values[1] if expert and len(values) > 1 and values[1] else values[0]
 
 
-def parse_qty(raw):
-    v = first_dv(raw).replace(",", "")
+def parse_qty(raw, expert=False):
+    v = first_dv(raw, expert).replace(",", "")
     m = re.fullmatch(r"(\d+)\s*(?:[-–]\s*(\d+))?", v)
     if not m:
         return None
@@ -41,8 +51,8 @@ def parse_qty(raw):
     return lo, int(m.group(2) or lo)
 
 
-def parse_chance(raw):
-    v = first_dv(raw).replace(",", ".")
+def parse_chance(raw, expert=False):
+    v = first_dv(raw, expert).replace(",", ".")
     m = re.fullmatch(r"(\d+(?:\.\d+)?)\s*%", v)
     if m:
         return min(float(m.group(1)) / 100, 1.0)
@@ -77,24 +87,31 @@ def parse_drops(positional):
                 drops.append({"item": name, "listed": True})
                 i += 2
                 continue
-            qty = (1, 1)
+            qty_raw, chance_raw = "1", positional[i + 2]
             i += 3
         elif i + 1 < len(positional) and positional[i + 1].startswith(NOTE) and i + 3 < len(positional):
             # « | Abyss Bar|note=(Post-Golem)|3-8|100% » : condition en ligne
             name, note = clean_name(tok), clean_name(positional[i + 1][len(NOTE):])
-            qty, chance = parse_qty(positional[i + 2]) or (1, 1), parse_chance(positional[i + 3])
+            qty_raw, chance_raw = positional[i + 2], positional[i + 3]
             i += 4
         elif i + 2 < len(positional) and parse_qty(positional[i + 1]) is not None:
-            name, qty, chance = clean_name(tok), parse_qty(positional[i + 1]), parse_chance(positional[i + 2])
+            name, qty_raw, chance_raw = clean_name(tok), positional[i + 1], positional[i + 2]
             i += 3
         else:
             problems.append(tok[:60])
             i += 1
             continue
+        qty, chance = parse_qty(qty_raw) or (1, 1), parse_chance(chance_raw)
         if not name or chance is None:
             problems.append(name or tok[:60])
             continue
         drop = {"item": name, "min": qty[0], "max": qty[1], "chance": round(chance, 4)}
+        # Valeurs Expert du {{dv}} (sac ou drop direct en Expert, voir WikiLoot.cs), seulement si elles diffèrent
+        qty_x, chance_x = parse_qty(qty_raw, True) or qty, parse_chance(chance_raw, True)
+        if qty_x != qty:
+            drop["minExpert"], drop["maxExpert"] = qty_x
+        if chance_x is not None and abs(chance_x - chance) > 1e-6:
+            drop["chanceExpert"] = round(chance_x, 4)
         if note:
             drop["note"] = note
         if group and group_left > 0:
@@ -103,6 +120,45 @@ def parse_drops(positional):
             group_left -= 1
         drops.append(drop)
     return drops, problems
+
+
+def parse_bags(text):
+    """Page « Treasure Bag » : un tableau par boss (id = titre du boss), en-tête = le sac, lignes = objet || chance ||
+    quantité. Renvoie {boss: {"bag": nom du sac, "drops": [...]}}."""
+    bags = {}
+    for boss, body in re.findall(TABLE_RE, text, re.S):
+        head = re.search(ITEM_RE, body)
+        if not head:
+            continue
+        drops = []
+        for row in re.split(ROW_RE, body)[1:]:
+            m = re.search(ITEM_RE, row)
+            if not m:
+                continue
+            cells = [c.strip() for c in re.split(CELL_RE, row[m.end():]) if c.strip()]
+            chance = parse_chance(cells[0]) if cells else None
+            if chance is None:
+                continue
+            qty = (parse_qty(cells[1]) if len(cells) > 1 else None) or (1, 1)
+            drops.append({"item": clean_name(m.group(1)), "min": qty[0], "max": qty[1], "chance": round(chance, 4)})
+        bags[boss] = {"bag": clean_name(head.group(1)), "drops": drops}
+    return bags
+
+
+def bags_by_mode(text):
+    """Sacs avec {{mode}} : chaque objet qui diffère entre les deux modes est marqué de son mode (comme le butin)."""
+    if not has_mode(text):
+        return parse_bags(text)
+    views = {mode: parse_bags(pick_mode(text, mode)) for mode in ("fandom", "plus")}
+    bags = {}
+    key = lambda d: json.dumps(d, sort_keys=True)
+    for boss in set(views["fandom"]) | set(views["plus"]):
+        f, p = views["fandom"].get(boss, {"drops": []}), views["plus"].get(boss, {"drops": []})
+        fk, pk = {key(d) for d in f["drops"]}, {key(d) for d in p["drops"]}
+        drops = [d if key(d) in fk else {**d, "modes": ["plus"]} for d in p["drops"]]
+        drops += [{**d, "modes": ["fandom"]} for d in f["drops"] if key(d) not in pk]
+        bags[boss] = {"bag": p.get("bag") or f.get("bag"), "drops": drops}
+    return bags
 
 
 def drops_by_mode(positional):
@@ -151,8 +207,12 @@ def main():
     elements = json.load(open(os.path.join(ROOT, "WikiData", "elements.json"), encoding="utf-8"))
     aliases = {t: a for t, a in elements.get("aliases", {}).items() if t in npcs}
 
+    bag_page = os.path.join(OUR_MAIN, "Treasure Bag.txt")
+    bags = bags_by_mode(open(bag_page, encoding="utf-8").read()) if os.path.exists(bag_page) else {}
+
     with open(OUT, "w", encoding="utf-8") as f:
-        json.dump({"_generated_by": "tools/gen_loot.py", "npcs": npcs, "aliases": aliases}, f, ensure_ascii=False, indent=1)
+        json.dump({"_generated_by": "tools/gen_loot.py", "npcs": npcs, "bags": bags, "aliases": aliases},
+                  f, ensure_ascii=False, indent=1)
     total = sum(len(v["drops"]) for v in npcs.values())
     with open(REPORT, "w", encoding="utf-8") as f:
         f.write("# Butin du wiki\n\n_Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports/loot_applied.md`.\n\n")
@@ -164,7 +224,8 @@ def main():
         f.write("\n## Paramètres non compris\n\n")
         for npc, bad in sorted(problems.items()):
             f.write(f"- {npc} : {', '.join(bad)}\n")
-    print(f"{len(npcs)} PNJ, {total} entrées ({len(conditional)} conditionnelles), {len(problems)} infobox avec restes")
+    print(f"{len(npcs)} PNJ, {total} entrées ({len(conditional)} conditionnelles), {len(problems)} infobox avec restes ; "
+          f"{len(bags)} sacs ({sum(len(b['drops']) for b in bags.values())} objets)")
 
 
 if __name__ == "__main__":

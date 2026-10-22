@@ -105,6 +105,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.05,
+     "chanceExpert": 0.06,
      "note": "(Tier 3)"
     }
    ]
@@ -117,31 +118,36 @@
      "item": "Pungent Bomber",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.33
     },
     {
      "item": "Acid Bow",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.33
     },
     {
      "item": "Caustic Claw",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.33
     },
     {
      "item": "Corrosive Eye Staff",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.33
     },
     {
      "item": "Razor Teeth",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.33
     },
     {
      "item": "Treasure Bag (Acidsighter)",
@@ -254,7 +260,8 @@
      "item": "Eye of the Storm",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     }
    ]
   },
@@ -266,13 +273,16 @@
      "item": "Compressed Mana",
      "min": 15,
      "max": 25,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 25,
+     "maxExpert": 35
     },
     {
      "item": "Starspite",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -281,6 +291,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -289,6 +300,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -297,6 +309,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -305,6 +318,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -331,13 +345,16 @@
      "item": "Delicious Meat",
      "min": 15000,
      "max": 25000,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 22,
+     "maxExpert": 28
     },
     {
      "item": "Kindle Fire",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -346,6 +363,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -354,6 +372,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -361,7 +380,8 @@
      "item": "Stardrops - The Pink Stuff - The Miracle All Purpose Cleaning Paste",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Yharim's Gun",
@@ -470,6 +490,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -478,6 +499,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -486,6 +508,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -494,6 +517,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -502,6 +526,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -515,7 +540,8 @@
      "item": "Corrosive Spine",
      "min": 1,
      "max": 1,
-     "chance": 0.1111
+     "chance": 0.1111,
+     "chanceExpert": 0.125
     },
     {
      "item": "Sea's Searing",
@@ -678,7 +704,9 @@
      "item": "Astral Jelly",
      "min": 9,
      "max": 12,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 12,
+     "maxExpert": 16
     },
     {
      "item": "Astral Lash",
@@ -725,43 +753,56 @@
      "item": "Stardust",
      "min": 55,
      "max": 95,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 65,
+     "maxExpert": 105
     },
     {
      "item": "Fallen Star",
      "min": 25,
      "max": 40,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 30,
+     "maxExpert": 50
     },
     {
      "item": "Solar Fragment",
      "min": 16,
      "max": 24,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 20,
+     "maxExpert": 32
     },
     {
      "item": "Vortex Fragment",
      "min": 16,
      "max": 24,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 20,
+     "maxExpert": 32
     },
     {
      "item": "Nebula Fragment",
      "min": 16,
      "max": 24,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 20,
+     "maxExpert": 32
     },
     {
      "item": "Stardust Fragment",
      "min": 16,
      "max": 24,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 20,
+     "maxExpert": 32
     },
     {
      "item": "The Microwave",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -770,6 +811,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -778,6 +820,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -786,6 +829,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -794,6 +838,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -885,7 +930,8 @@
      "item": "Stardust",
      "min": 1,
      "max": 3,
-     "chance": 0.5
+     "chance": 0.5,
+     "chanceExpert": 1.0
     },
     {
      "item": "Astral Ore",
@@ -917,7 +963,9 @@
      "item": "Stardust",
      "min": 2,
      "max": 3,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 3,
+     "maxExpert": 4
     },
     {
      "item": "Titan Finger",
@@ -942,7 +990,9 @@
      "item": "Soul of Bright",
      "min": 20,
      "max": 40,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 35,
+     "maxExpert": 50
     },
     {
      "item": "Hallowed Key",
@@ -954,25 +1004,32 @@
      "item": "Aureus Cell",
      "min": 9,
      "max": 12,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 12,
+     "maxExpert": 16
     },
     {
      "item": "Stardust",
      "min": 20,
      "max": 30,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 30,
+     "maxExpert": 40
     },
     {
      "item": "Fallen Star",
      "min": 18,
      "max": 24,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 20,
+     "maxExpert": 30
     },
     {
      "item": "Alula Australis",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -981,6 +1038,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -989,6 +1047,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -997,6 +1056,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -1005,6 +1065,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -1078,7 +1139,9 @@
      "item": "Stardust",
      "min": 6,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 7,
+     "maxExpert": 9
     },
     {
      "item": "Titan Finger",
@@ -1176,6 +1239,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.75,
+     "chanceExpert": 1.0,
      "note": "(After defeating<br/>Calamitas)"
     }
    ]
@@ -1206,7 +1270,9 @@
      "item": "Stardust",
      "min": 2,
      "max": 3,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 3,
+     "maxExpert": 4
     },
     {
      "item": "Titan Finger",
@@ -1319,7 +1385,8 @@
      "item": "Adhesive Bandage",
      "min": 1,
      "max": 1,
-     "chance": 0.01
+     "chance": 0.01,
+     "chanceExpert": 0.02
     }
    ]
   },
@@ -1406,6 +1473,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.02,
+     "chanceExpert": 0.025,
      "note": "(After defeating Skeletron)"
     },
     {
@@ -1424,7 +1492,9 @@
      "item": "Essence of Chaos",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Bloodstone",
@@ -1438,6 +1508,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -1446,6 +1517,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -1454,6 +1526,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -1474,7 +1547,8 @@
      "item": "Abaddon",
      "min": 1,
      "max": 1,
-     "chance": 0.5
+     "chance": 0.5,
+     "chanceExpert": 1.0
     },
     {
      "item": "Rose Stone",
@@ -1558,19 +1632,25 @@
      "item": "Ashes of Annihilation",
      "min": 9,
      "max": 14,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 14,
+     "maxExpert": 18
     },
     {
      "item": "Essence of Chaos",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Blighted Lens",
      "min": 5,
      "max": 12,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 10,
+     "maxExpert": 16
     },
     {
      "item": "Broken Hero Sword",
@@ -1590,6 +1670,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -1598,6 +1679,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -1606,6 +1688,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -1614,6 +1697,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -1727,7 +1811,9 @@
      "item": "Plague Cell Canister",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Soul of Carcinogen",
@@ -1776,19 +1862,23 @@
      "item": "Dark Plasma",
      "min": 2,
      "max": 3,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 4,
+     "maxExpert": 6
     },
     {
      "item": "Mirror Blade",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Void Concentration Staff",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "The Evolution",
@@ -1849,13 +1939,15 @@
      "item": "Steel Blade",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Concentration Staff",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "The Unchanging",
@@ -1940,13 +2032,16 @@
      "item": "Bloodstone Bar",
      "min": 8,
      "max": 15,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 10,
+     "maxExpert": 20
     },
     {
      "item": "Bloodflare Rod",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.5
     }
    ]
   },
@@ -2209,7 +2304,8 @@
      "item": "Cosmic Stone",
      "min": 1,
      "max": 1,
-     "chance": 0.05
+     "chance": 0.05,
+     "chanceExpert": 0.1
     }
    ]
   },
@@ -2221,7 +2317,9 @@
      "item": "Cosmilite Slag",
      "min": 5,
      "max": 10,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 20,
+     "maxExpert": 25
     }
    ]
   },
@@ -2245,19 +2343,24 @@
      "item": "Glowing Mushroom",
      "min": 20,
      "max": 30,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 25,
+     "maxExpert": 35
     },
     {
      "item": "Mushroom Grass Seeds",
      "min": 3,
      "max": 6,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 10
     },
     {
      "item": "Mycoroot",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2266,6 +2369,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2274,6 +2378,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2282,6 +2387,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2290,6 +2396,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2298,6 +2405,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2356,7 +2464,8 @@
      "item": "Septic Skewer",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.33
     }
    ]
   },
@@ -2386,7 +2495,8 @@
      "item": "Blindfold",
      "min": 1,
      "max": 1,
-     "chance": 0.01
+     "chance": 0.01,
+     "chanceExpert": 0.02
     }
    ]
   },
@@ -2416,13 +2526,16 @@
      "item": "Essence of Eleum",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Effluvium Bow",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2431,6 +2544,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2439,6 +2553,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2447,6 +2562,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2455,6 +2571,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2566,7 +2683,9 @@
      "item": "Aerialite Ore",
      "min": 85,
      "max": 100,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 100,
+     "maxExpert": 135
     },
     {
      "item": "Cumulomenace (Lore)",
@@ -2627,7 +2746,8 @@
      "item": "Ink Bomb",
      "min": 1,
      "max": 1,
-     "chance": 0.01
+     "chance": 0.01,
+     "chanceExpert": 0.02
     }
    ]
   },
@@ -2717,13 +2837,16 @@
      "item": "Essence of Eleum",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Effluvium Bow",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2732,6 +2855,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2740,6 +2864,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2748,6 +2873,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2756,6 +2882,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2842,7 +2969,8 @@
      "item": "Ectoplasm",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.5
     }
    ]
   },
@@ -2878,7 +3006,9 @@
      "item": "Parched Scale",
      "min": 7,
      "max": 14,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 10,
+     "maxExpert": 16
     },
     {
      "item": "Profaned Shard",
@@ -2890,25 +3020,33 @@
      "item": "Coral",
      "min": 5,
      "max": 9,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 7,
+     "maxExpert": 11
     },
     {
      "item": "Seashell",
      "min": 5,
      "max": 9,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 7,
+     "maxExpert": 11
     },
     {
      "item": "Starfish",
      "min": 5,
      "max": 9,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 7,
+     "maxExpert": 11
     },
     {
      "item": "Abyss Bar",
      "min": 3,
      "max": 8,
      "chance": 1.0,
+     "minExpert": 10,
+     "maxExpert": 17,
      "note": "(Post-Golem)"
     },
     {
@@ -2928,6 +3066,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2936,6 +3075,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2944,6 +3084,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2952,6 +3093,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2960,6 +3102,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -2979,7 +3122,8 @@
      "item": "Sand Cloak",
      "min": 1,
      "max": 1,
-     "chance": 0.1
+     "chance": 0.1,
+     "chanceExpert": 0.1111
     },
     {
      "item": "Lesser Healing Potion",
@@ -3068,6 +3212,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -3076,6 +3221,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -3084,6 +3230,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -3092,6 +3239,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -3100,6 +3248,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -3178,7 +3327,9 @@
      "item": "Better Sea Prism",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Surf Clam but Better",
@@ -3221,7 +3372,9 @@
      "item": "Better Sea Prism",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Surf Clam but Better",
@@ -3276,13 +3429,17 @@
      "item": "Particles of Dron",
      "min": 1,
      "max": 1,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 2,
+     "maxExpert": 2
     },
     {
      "item": "Glowing Mushroom",
      "min": 10,
      "max": 10,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 12,
+     "maxExpert": 12
     },
     {
      "item": "Exo Prism",
@@ -3342,7 +3499,9 @@
      "item": "Disgusting Meat",
      "min": 112,
      "max": 314,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 335,
+     "maxExpert": 716
     },
     {
      "item": "Lesser Healing Potion",
@@ -3379,7 +3538,9 @@
      "item": "Arean Conduit Plating",
      "min": 25,
      "max": 50,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 50,
+     "maxExpert": 100
     },
     {
      "item": "Martian Conduit Plating",
@@ -3391,13 +3552,17 @@
      "item": "Cosmilite Slag",
      "min": 3,
      "max": 5,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 4,
+     "maxExpert": 6
     },
     {
      "item": "Phantoplasm",
      "min": 10,
      "max": 13,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 12,
+     "maxExpert": 17
     }
    ]
   },
@@ -3415,7 +3580,8 @@
      "item": "Sky Fracture",
      "min": 1,
      "max": 1,
-     "chance": 0.2
+     "chance": 0.2,
+     "chanceExpert": 0.3333
     }
    ]
   },
@@ -3463,7 +3629,8 @@
      "item": "Metamorphic Stone",
      "min": 1,
      "max": 1,
-     "chance": 0.2
+     "chance": 0.2,
+     "chanceExpert": 0.3333
     }
    ]
   },
@@ -3560,13 +3727,17 @@
      "item": "Martian Conduit Plating",
      "min": 300,
      "max": 600,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 600,
+     "maxExpert": 900
     },
     {
      "item": "Arean Conduit Plating",
      "min": 100,
      "max": 200,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 200,
+     "maxExpert": 300
     },
     {
      "item": "Supreme Healing Potion",
@@ -3578,7 +3749,9 @@
      "item": "Strange Matter",
      "min": 15,
      "max": 22,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 22,
+     "maxExpert": 30
     },
     {
      "item": "Empyreon Trophy",
@@ -3864,31 +4037,36 @@
      "item": "Pungent Bomber",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.33
     },
     {
      "item": "Acid Bow",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.33
     },
     {
      "item": "Caustic Claw",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.33
     },
     {
      "item": "Corrosive Eye Staff",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.33
     },
     {
      "item": "Razor Teeth",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.33
     }
    ]
   },
@@ -3918,7 +4096,8 @@
      "item": "Cadaverous Carrion",
      "min": 1,
      "max": 1,
-     "chance": 0.05
+     "chance": 0.05,
+     "chanceExpert": 0.06
     }
    ]
   },
@@ -3946,7 +4125,8 @@
      "item": "Flounder Mortar",
      "min": 1,
      "max": 1,
-     "chance": 0.0667
+     "chance": 0.0667,
+     "chanceExpert": 0.1
     },
     {
      "item": "Anechoic Coating",
@@ -4030,7 +4210,9 @@
      "item": "Stardust",
      "min": 2,
      "max": 3,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 3,
+     "maxExpert": 4
     },
     {
      "item": "Titan Finger",
@@ -4072,13 +4254,16 @@
      "item": "Garon Scale Fragment",
      "min": 15,
      "max": 22,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 22,
+     "maxExpert": 28
     },
     {
      "item": "Garon's Fishnado Staff",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4087,6 +4272,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4095,6 +4281,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4103,6 +4290,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4111,6 +4299,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4119,6 +4308,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4127,6 +4317,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4135,6 +4326,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4142,7 +4334,8 @@
      "item": "Gar Fin Barrage",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Garon's Gift",
@@ -4341,7 +4534,8 @@
      "item": "Ink Bomb",
      "min": 1,
      "max": 1,
-     "chance": 0.025
+     "chance": 0.025,
+     "chanceExpert": 0.04
     }
    ]
   },
@@ -4408,13 +4602,16 @@
      "item": "Primordial Light Shard",
      "min": 20,
      "max": 30,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 30,
+     "maxExpert": 40
     },
     {
      "item": "Yharim's Ultimate Sword",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": false
     },
@@ -4423,6 +4620,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": false
     },
@@ -4431,6 +4629,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": false
     },
@@ -4439,6 +4638,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": false
     },
@@ -4447,6 +4647,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": false
     },
@@ -4489,7 +4690,9 @@
      "item": "Auric Sludge Remnant",
      "min": 24,
      "max": 32,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 30,
+     "maxExpert": 40
     },
     {
      "item": "Omega Healing Potion",
@@ -4509,6 +4712,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4517,6 +4721,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4525,6 +4730,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4533,6 +4739,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4541,6 +4748,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4642,6 +4850,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4650,6 +4859,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4658,6 +4868,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4666,6 +4877,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4674,6 +4886,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4682,6 +4895,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -4689,13 +4903,16 @@
      "item": "Sand Shark Tooth Necklace",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Forbidden Fragment",
      "min": 1,
      "max": 3,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 3,
+     "maxExpert": 5
     }
    ]
   },
@@ -4781,7 +4998,9 @@
      "item": "Stardust",
      "min": 2,
      "max": 3,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 3,
+     "maxExpert": 4
     },
     {
      "item": "Titan Finger",
@@ -4843,7 +5062,9 @@
      "item": "Stardust",
      "min": 2,
      "max": 3,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 3,
+     "maxExpert": 4
     },
     {
      "item": "Titan Finger",
@@ -4868,7 +5089,9 @@
      "item": "Quark-Gluon Sludge",
      "min": 30,
      "max": 45,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 45,
+     "maxExpert": 60
     },
     {
      "item": "Omega Healing Potion",
@@ -4899,7 +5122,9 @@
      "item": "Sea Prism",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Surf Clam",
@@ -5027,7 +5252,9 @@
      "item": "Essence of Sunlight",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Soul of Ionogen",
@@ -5100,13 +5327,16 @@
      "item": "Yharon Soul Fragment",
      "min": 15,
      "max": 22,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 22,
+     "maxExpert": 28
     },
     {
      "item": "Yharon's Kindle Staff",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5115,6 +5345,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5123,6 +5354,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5131,6 +5363,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5139,6 +5372,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5147,6 +5381,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5155,6 +5390,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5163,6 +5399,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5170,7 +5407,8 @@
      "item": "Dragon Flame Barrage",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Yharim's Gift",
@@ -5315,7 +5553,8 @@
      "item": "Torch God's Favor",
      "min": 99,
      "max": 100,
-     "chance": 0.025
+     "chance": 0.025,
+     "chanceExpert": 0.04
     }
    ]
   },
@@ -5328,6 +5567,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5336,6 +5576,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5344,6 +5585,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5352,6 +5594,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5360,6 +5603,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5368,6 +5612,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5376,6 +5621,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5389,7 +5635,8 @@
      "item": "Pearl of Enthrallment",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "The Community",
@@ -5548,7 +5795,9 @@
      "item": "Stardust",
      "min": 2,
      "max": 3,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 3,
+     "maxExpert": 4
     },
     {
      "item": "Titan Finger",
@@ -5585,7 +5834,8 @@
      "item": "Fetid Emesis",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Prehistoric Tablet",
@@ -5603,7 +5853,9 @@
      "item": "Arean Conduit Plating",
      "min": 50,
      "max": 100,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 100,
+     "maxExpert": 150
     },
     {
      "item": "Martian Conduit Plating",
@@ -5665,25 +5917,29 @@
      "item": "Life Jelly",
      "min": 1,
      "max": 1,
-     "chance": 0.1429
+     "chance": 0.1429,
+     "chanceExpert": 0.2
     },
     {
      "item": "Mana Jelly",
      "min": 1,
      "max": 1,
-     "chance": 0.1429
+     "chance": 0.1429,
+     "chanceExpert": 0.2
     },
     {
      "item": "Mirage Jelly (item)",
      "min": 1,
      "max": 1,
-     "chance": 0.1429
+     "chance": 0.1429,
+     "chanceExpert": 0.2
     },
     {
      "item": "Vital Jelly",
      "min": 1,
      "max": 1,
-     "chance": 0.1429
+     "chance": 0.1429,
+     "chanceExpert": 0.2
     }
    ]
   },
@@ -5695,13 +5951,17 @@
      "item": "Accursed Artifact",
      "min": 4,
      "max": 6,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 7,
+     "maxExpert": 9
     },
     {
      "item": "Forbidden Fragment",
      "min": 1,
      "max": 3,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 3,
+     "maxExpert": 5
     }
    ]
   },
@@ -5713,13 +5973,16 @@
      "item": "Monstro's Tooth",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Basement Blaster",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5728,6 +5991,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5736,6 +6000,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5744,6 +6009,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -5784,7 +6050,8 @@
      "item": "Depth Crusher",
      "min": 1,
      "max": 1,
-     "chance": 0.0667
+     "chance": 0.0667,
+     "chanceExpert": 0.1
     },
     {
      "item": "Flipper",
@@ -5886,7 +6153,9 @@
      "item": "Stardust",
      "min": 2,
      "max": 3,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 3,
+     "maxExpert": 4
     },
     {
      "item": "Titan Finger",
@@ -6009,13 +6278,15 @@
      "item": "Onyx Shiv",
      "min": 1,
      "max": 1,
-     "chance": 0.5
+     "chance": 0.5,
+     "chanceExpert": 1.0
     },
     {
      "item": "Metamorphic Stone",
      "min": 1,
      "max": 1,
-     "chance": 0.05
+     "chance": 0.05,
+     "chanceExpert": 0.1
     },
     {
      "item": "Onyx Excavator Key",
@@ -6064,7 +6335,9 @@
      "item": "Essence of Babil",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Soul of Oxygen",
@@ -6101,13 +6374,16 @@
      "item": "Shattered Start Block",
      "min": 5,
      "max": 6,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 8,
+     "maxExpert": 10
     },
     {
      "item": "Severed Eye.exe",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -6116,6 +6392,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -6124,6 +6401,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -6132,6 +6410,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -6140,6 +6419,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -6176,7 +6456,9 @@
      "item": "Blood Sample",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Soul of Pathogen",
@@ -6249,7 +6531,8 @@
      "item": "Stinger",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.5
     }
    ]
   },
@@ -6290,7 +6573,9 @@
      "item": "Obsidian",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Soul of Phytogen",
@@ -6327,7 +6612,8 @@
      "item": "Stinger",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.5
     },
     {
      "item": "Plague Cell Canister",
@@ -6345,19 +6631,25 @@
      "item": "Plague Cell Canister",
      "min": 56,
      "max": 230,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 89,
+     "maxExpert": 270
     },
     {
      "item": "Luminite Bar",
      "min": 56,
      "max": 230,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 89,
+     "maxExpert": 270
     },
     {
      "item": "Infected Armor Plating",
      "min": 20,
      "max": 36,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 36,
+     "maxExpert": 45
     },
     {
      "item": "Plague Caller",
@@ -6470,7 +6762,9 @@
      "item": "Dollarbob",
      "min": 20,
      "max": 40,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 35,
+     "maxExpert": 50
     },
     {
      "item": "Poobis Bar",
@@ -6519,7 +6813,9 @@
      "item": "Essence of Chaos",
      "min": 2,
      "max": 3,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 3,
+     "maxExpert": 4
     },
     {
      "item": "Cryo Key",
@@ -6544,6 +6840,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6552,6 +6851,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6560,6 +6862,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6568,6 +6873,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6576,6 +6884,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6584,6 +6895,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6592,6 +6906,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6600,6 +6917,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6608,6 +6928,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6616,6 +6939,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6624,6 +6950,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6632,6 +6961,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6640,6 +6972,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6648,6 +6983,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6656,6 +6994,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6664,6 +7005,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6672,6 +7016,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6680,6 +7027,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6688,6 +7038,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6696,6 +7049,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6704,6 +7060,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6712,6 +7071,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6720,6 +7082,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6728,6 +7093,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6736,6 +7104,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6744,6 +7115,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6752,6 +7126,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6760,6 +7137,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6768,6 +7148,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6776,6 +7159,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6784,6 +7170,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6792,6 +7181,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6800,6 +7192,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6808,6 +7203,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6816,6 +7214,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6824,6 +7225,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     },
@@ -6832,6 +7236,9 @@
      "min": 20,
      "max": 52,
      "chance": 0.1622,
+     "minExpert": 40,
+     "maxExpert": 104,
+     "chanceExpert": 0.2162,
      "group": 1,
      "groupAlways": true
     }
@@ -6974,13 +7381,16 @@
      "item": "Unholy Essence",
      "min": 20,
      "max": 30,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 25,
+     "maxExpert": 35
     },
     {
      "item": "Blissful Bombardier",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -6989,6 +7399,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -6997,6 +7408,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -7005,6 +7417,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -7013,6 +7426,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -7021,6 +7435,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -7029,6 +7444,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -7037,6 +7453,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -7045,6 +7462,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -7160,13 +7578,17 @@
      "item": "Entropic Frond",
      "min": 25,
      "max": 35,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 35,
+     "maxExpert": 45
     },
     {
      "item": "Entropic Bar",
      "min": 15,
      "max": 30,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 25,
+     "maxExpert": 40
     },
     {
      "item": "Entropic Skull",
@@ -7196,31 +7618,40 @@
      "item": "Essence of Chaos",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Core of Sunlight",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Core of Chaos",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Core of Eleum",
      "min": 4,
      "max": 8,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 5,
+     "maxExpert": 9
     },
     {
      "item": "Obsidigun",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -7229,6 +7660,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -7237,6 +7669,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -7245,6 +7678,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -7253,6 +7687,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -7327,25 +7762,33 @@
      "item": "Bloodred Reactive Core",
      "min": 5,
      "max": 5,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 10,
+     "maxExpert": 10
     },
     {
      "item": "Accidated Reactive Core",
      "min": 5,
      "max": 5,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 10,
+     "maxExpert": 10
     },
     {
      "item": "Noctic Reactive Core",
      "min": 5,
      "max": 5,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 10,
+     "maxExpert": 10
     },
     {
      "item": "Waterfreeze Reactive Core",
      "min": 5,
      "max": 5,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 10,
+     "maxExpert": 10
     },
     {
      "item": "Bloodsharper",
@@ -7473,7 +7916,8 @@
      "item": "Adhesive Bandage",
      "min": 1,
      "max": 1,
-     "chance": 0.01
+     "chance": 0.01,
+     "chanceExpert": 0.02
     }
    ]
   },
@@ -7717,19 +8161,23 @@
      "item": "Nether",
      "min": 2,
      "max": 3,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 3,
+     "maxExpert": 4
     },
     {
      "item": "Steel Kunai",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "A Lamp",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Veil",
@@ -7784,19 +8232,23 @@
      "item": "Twisting Nether",
      "min": 2,
      "max": 3,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 3,
+     "maxExpert": 4
     },
     {
      "item": "Cosmic Kunai",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Cosmilamp",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Spectral Veil",
@@ -7924,7 +8376,9 @@
      "item": "Stardust",
      "min": 1,
      "max": 2,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 2,
+     "maxExpert": 3
     },
     {
      "item": "Titan Finger",
@@ -7975,7 +8429,8 @@
      "item": "Blindfold",
      "min": 1,
      "max": 1,
-     "chance": 0.01
+     "chance": 0.01,
+     "chanceExpert": 0.02
     }
    ]
   },
@@ -8137,13 +8592,17 @@
      "item": "Molten Matter",
      "min": 25,
      "max": 30,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 30,
+     "maxExpert": 40
     },
     {
      "item": "Hellstone",
      "min": 9,
      "max": 15,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 10,
+     "maxExpert": 20
     },
     {
      "item": "Ash Grass Seeds",
@@ -8155,7 +8614,9 @@
      "item": "Molten Bar",
      "min": 8,
      "max": 12,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 9,
+     "maxExpert": 14
     },
     {
      "item": "Flame",
@@ -8169,6 +8630,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8177,6 +8639,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8185,6 +8648,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8193,6 +8657,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8201,6 +8666,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8209,6 +8675,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8217,6 +8684,9 @@
      "min": 30,
      "max": 50,
      "chance": 0.25,
+     "minExpert": 50,
+     "maxExpert": 75,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8230,7 +8700,8 @@
      "item": "Kevlar Glove",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Healing Potion",
@@ -8273,7 +8744,9 @@
      "item": "Soul of Plight",
      "min": 20,
      "max": 40,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 35,
+     "maxExpert": 50
     },
     {
      "item": "Hallowed Bar",
@@ -8322,7 +8795,9 @@
      "item": "Delicious Meat",
      "min": 4800,
      "max": 6400,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 6000,
+     "maxExpert": 8000
     },
     {
      "item": "Draedon's Heart",
@@ -8535,19 +9010,24 @@
      "item": "Aquatic Shardstone",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Shattered Prism",
      "min": 20,
      "max": 25,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 30,
+     "maxExpert": 35
     },
     {
      "item": "Sea Prism",
      "min": 65,
      "max": 75,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 85,
+     "maxExpert": 100
     },
     {
      "item": "Shattered Pistol",
@@ -8587,7 +9067,9 @@
      "item": "Egbert Metal Scrap",
      "min": 16,
      "max": 20,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 20,
+     "maxExpert": 26
     },
     {
      "item": "Egbert Core",
@@ -8618,6 +9100,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8626,6 +9109,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8634,6 +9118,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8642,6 +9127,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8650,6 +9136,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8711,13 +9198,16 @@
      "item": "Effulgent Feather",
      "min": 11,
      "max": 17,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 15,
+     "maxExpert": 21
     },
     {
      "item": "Rouge Slash",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8726,6 +9216,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8734,6 +9225,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8747,7 +9239,8 @@
      "item": "Folly Feed",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Swordsplosion",
@@ -8795,6 +9288,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8803,6 +9297,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8811,6 +9306,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8819,6 +9315,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8827,6 +9324,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8835,6 +9333,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8891,13 +9390,17 @@
      "item": "Blood Sample",
      "min": 25,
      "max": 30,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 30,
+     "maxExpert": 40
     },
     {
      "item": "Vertebrae",
      "min": 3,
      "max": 9,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 10,
+     "maxExpert": 20
     },
     {
      "item": "Crimson Seeds",
@@ -8909,7 +9412,9 @@
      "item": "Crimtane Bar",
      "min": 2,
      "max": 5,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 9,
+     "maxExpert": 14
     },
     {
      "item": "Ichor",
@@ -8923,6 +9428,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8931,6 +9437,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8939,6 +9446,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8947,6 +9455,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8955,6 +9464,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8963,6 +9473,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8971,6 +9482,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8979,6 +9491,9 @@
      "min": 30,
      "max": 50,
      "chance": 0.25,
+     "minExpert": 50,
+     "maxExpert": 75,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -8992,7 +9507,8 @@
      "item": "Bloodstained Glove",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Healing Potion",
@@ -9035,25 +9551,32 @@
      "item": "Infected Armor Plating",
      "min": 13,
      "max": 17,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 16,
+     "maxExpert": 20
     },
     {
      "item": "Plague Cell Canister",
      "min": 10,
      "max": 14,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 13,
+     "maxExpert": 17
     },
     {
      "item": "Stinger",
      "min": 3,
      "max": 5,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 4,
+     "maxExpert": 8
     },
     {
      "item": "Virulence",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9062,6 +9585,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9070,6 +9594,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9078,6 +9603,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9086,6 +9612,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9094,6 +9621,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9102,6 +9630,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9110,6 +9639,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9118,6 +9648,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9126,6 +9657,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9134,6 +9666,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9142,6 +9675,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9150,6 +9684,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9158,6 +9693,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9166,6 +9702,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9174,6 +9711,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9182,6 +9720,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9190,6 +9729,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9198,6 +9738,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9206,6 +9747,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9214,6 +9756,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9222,6 +9765,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9230,6 +9774,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9238,6 +9783,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9246,6 +9792,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9254,6 +9801,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9262,6 +9810,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9270,6 +9819,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9278,6 +9828,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9286,6 +9837,7 @@
      "min": 999,
      "max": 3996,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9401,13 +9953,17 @@
      "item": "Wulfrum Bar",
      "min": 120,
      "max": 240,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 380,
+     "maxExpert": 760
     },
     {
      "item": "Wulfraprism",
      "min": 25,
      "max": 30,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 40,
+     "maxExpert": 60
     },
     {
      "item": "Box of Schematics",
@@ -9579,6 +10135,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9587,6 +10144,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9595,6 +10153,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9603,6 +10162,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9611,6 +10171,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9619,6 +10180,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -9738,19 +10300,22 @@
      "item": "Large Father",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "A M S",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "The WOBbler",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Wall of Bronze Mask",
@@ -9841,7 +10406,8 @@
      "item": "Toxicant Twister",
      "min": 1,
      "max": 1,
-     "chance": 0.05
+     "chance": 0.05,
+     "chanceExpert": 0.06
     }
    ]
   },
@@ -9977,7 +10543,8 @@
      "item": "Charred Ore",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.5
     }
    ]
   },
@@ -10014,7 +10581,9 @@
      "item": "Wulfrum Bar",
      "min": 16,
      "max": 20,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 20,
+     "maxExpert": 26
     },
     {
      "item": "Energy Core",
@@ -10039,6 +10608,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -10047,6 +10617,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -10055,6 +10626,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -10063,6 +10635,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -10071,6 +10644,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -10173,13 +10747,16 @@
      "item": "Refined Wulfrum Bar",
      "min": 155,
      "max": 265,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 205,
+     "maxExpert": 335
     },
     {
      "item": "Wulfrum Greatblade",
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -10188,6 +10765,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -10196,6 +10774,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -10204,6 +10783,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -10212,6 +10792,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -10220,6 +10801,7 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
+     "chanceExpert": 0.3333,
      "group": 1,
      "groupAlways": true
     },
@@ -10385,13 +10967,17 @@
      "item": "Exo Prism",
      "min": 24,
      "max": 32,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 30,
+     "maxExpert": 40
     },
     {
      "item": "Miracle Plating",
      "min": 15,
      "max": 21,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 26,
+     "maxExpert": 41
     },
     {
      "item": "Draedon's Heart",
@@ -10422,25 +11008,29 @@
      "item": "Exo Dragonblade",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Titanslayer",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Spectral Assassin",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "Witch Hunt",
      "min": 1,
      "max": 1,
-     "chance": 0.25
+     "chance": 0.25,
+     "chanceExpert": 0.3333
     },
     {
      "item": "HuY Mask",
@@ -10482,7 +11072,9 @@
      "item": "Exo Prism",
      "min": 24,
      "max": 32,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 30,
+     "maxExpert": 40
     },
     {
      "item": "Draedon's Heart",
@@ -10573,7 +11165,9 @@
      "item": "Pearlwood",
      "min": 56,
      "max": 230,
-     "chance": 1.0
+     "chance": 1.0,
+     "minExpert": 89,
+     "maxExpert": 270
     },
     {
      "item": "Elder Berry",
@@ -10599,6 +11193,2041 @@
      "min": 1,
      "max": 1,
      "chance": 0.25
+    }
+   ]
+  }
+ },
+ "bags": {
+  "The Inventors": {
+   "bag": "Treasure Bag (The Inventors)",
+   "drops": [
+    {
+     "item": "Metabolic Converter",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Wulfrum Grappling Gun",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "John Wulfrum Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Jane Wulfrum Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Wulfrum Screwdriver",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Wulfrum Blunderbuss",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Wulfrum Prosthesis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Wulfrum Fusion Array",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Wulfrum Shock Cutter",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Wulfrum Metal Scrap",
+     "min": 20,
+     "max": 26,
+     "chance": 1.0
+    },
+    {
+     "item": "Energy Core",
+     "min": 1,
+     "max": 2,
+     "chance": 1.0
+    },
+    {
+     "item": "Energy Orb",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Desert Scourge": {
+   "bag": "Treasure Bag (Desert Scourge)",
+   "drops": [
+    {
+     "item": "Ocean Crest",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Desert Scourge Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Seabound Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Aquatic Discharge",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Barinade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Storm Spray",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Scourge of the Desert",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Aero Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Sand Cloak",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1111
+    },
+    {
+     "item": "Victory Shard",
+     "min": 10,
+     "max": 16,
+     "chance": 1.0
+    },
+    {
+     "item": "Coral",
+     "min": 7,
+     "max": 11,
+     "chance": 1.0
+    },
+    {
+     "item": "Seashell",
+     "min": 7,
+     "max": 11,
+     "chance": 1.0
+    },
+    {
+     "item": "Starfish",
+     "min": 7,
+     "max": 11,
+     "chance": 1.0
+    },
+    {
+     "item": "Sandy Angling Kit",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Crabulon": {
+   "bag": "Treasure Bag (Crabulon)",
+   "drops": [
+    {
+     "item": "Mushroom Plasma Root",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Fungal Clump",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Crabulon Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Hyphae Rod",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Mycelial Claws",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Fungicide",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Shroomerang",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Mycoroot",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Glowing Mushroom",
+     "min": 25,
+     "max": 35,
+     "chance": 1.0
+    },
+    {
+     "item": "Mushroom Grass Seeds",
+     "min": 5,
+     "max": 10,
+     "chance": 1.0
+    }
+   ]
+  },
+  "The Hive Mind": {
+   "bag": "Treasure Bag (The Hive Mind)",
+   "drops": [
+    {
+     "item": "Rotten Brain",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Rotting Eyeball",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Hive Mind Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Shadowdrop Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Shaderain Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Perfect Dark",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Shadethrower",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Rot Ball",
+     "min": 50,
+     "max": 75,
+     "chance": 0.3333
+    },
+    {
+     "item": "Dank Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Filthy Glove",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Rotten Chunk",
+     "min": 10,
+     "max": 20,
+     "chance": 1.0
+    },
+    {
+     "item": "Demonite Bar",
+     "min": 9,
+     "max": 14,
+     "chance": 1.0
+    },
+    {
+     "item": "Rotten Matter",
+     "min": 30,
+     "max": 40,
+     "chance": 1.0
+    }
+   ]
+  },
+  "The Perforators": {
+   "bag": "Treasure Bag (The Perforators)",
+   "drops": [
+    {
+     "item": "Bloody Worm Tooth",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Bloody Vein",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Perforator Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Blood Bath",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Aorta",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Bloody Rupture",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Sausage Maker",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Vein Burster",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Eviscerator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Tooth Ball",
+     "min": 50,
+     "max": 75,
+     "chance": 0.3333
+    },
+    {
+     "item": "Blood Clot Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Bloodstained Glove",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Vertebrae",
+     "min": 10,
+     "max": 20,
+     "chance": 1.0
+    },
+    {
+     "item": "Crimtane Bar",
+     "min": 9,
+     "max": 14,
+     "chance": 1.0
+    },
+    {
+     "item": "Blood Sample",
+     "min": 30,
+     "max": 40,
+     "chance": 1.0
+    }
+   ]
+  },
+  "The Slime God": {
+   "bag": "Treasure Bag (The Slime God)",
+   "drops": [
+    {
+     "item": "Electrolyte Gel Pack",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Mana Polarizer",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Slime God Mask (Corruption)",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0714
+    },
+    {
+     "item": "Slime God Mask (Crimson)",
+     "min": 1,
+     "max": 1,
+     "chance": 0.0714
+    },
+    {
+     "item": "Overloaded Blaster",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Abyssal Tome",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Eldritch Tome",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Crimslime Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Corroslime Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Slime Puppet Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Purified Gel",
+     "min": 40,
+     "max": 52,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Cryogen": {
+   "bag": "Treasure Bag (Cryogen)",
+   "drops": [
+    {
+     "item": "Soul of Cryogen",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Frost Flare",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Cryo Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Cold Divinity",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Cryogen Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Glacial Crusher",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Effluvium Bow",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Avalanche",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Icebreaker",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Snowstorm Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Frozen Key",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Essence of Eleum",
+     "min": 5,
+     "max": 9,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Aquatic Scourge": {
+   "bag": "Treasure Bag (Aquatic Scourge)",
+   "drops": [
+    {
+     "item": "Aquatic Emblem",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Corrosive Spine",
+     "min": 1,
+     "max": 1,
+     "chance": 0.125
+    },
+    {
+     "item": "Sea's Searing",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Aquatic Scourge Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Submarine Shocker",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Barinautical",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Downpour",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Deepsea Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Scourge of the Seas",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Bleached Angling Kit",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Brimstone Elemental": {
+   "bag": "Treasure Bag (Brimstone Elemental)",
+   "drops": [
+    {
+     "item": "Charred Relic",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Gehenna",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Rose Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Flame-Licked Shell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Hellborn",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Brimstone Elemental Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Brimlance",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Dormant Brimseeker",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Seething Discharge",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Abaddon",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Essence of Chaos",
+     "min": 5,
+     "max": 9,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Calamitas": {
+   "bag": "Treasure Bag (Calamitas)",
+   "drops": [
+    {
+     "item": "Void of Calamity",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Chaos Stone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Regenator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Hood of Calamity",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Robes of Calamity",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Calamitas Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Animosity",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Lashes of Chaos",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Oblivion",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Entropy's Vigil",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Ashes of Calamity",
+     "min": 14,
+     "max": 18,
+     "chance": 1.0
+    },
+    {
+     "item": "Essence of Chaos",
+     "min": 5,
+     "max": 9,
+     "chance": 1.0
+    },
+    {
+     "item": "Blighted Lens",
+     "min": 1,
+     "max": 3,
+     "chance": 1.0
+    }
+   ]
+  },
+  "The Leviathan": {
+   "bag": "Treasure Bag (The Leviathan)",
+   "drops": [
+    {
+     "item": "Leviathan Ambergris",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "The Community",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Leviathan Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Atlantis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Brackish Flask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Leviatitan",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Anahita's Arpeggio",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Greentide",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Pearl of Enthrallment",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Leviathan Teeth",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Hotline Fishing Hook",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Super Absorbant Sponge",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Bottomless Water Bucket",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Crate Potion",
+     "min": 5,
+     "max": 8,
+     "chance": 0.2
+    },
+    {
+     "item": "Fishing Potion",
+     "min": 5,
+     "max": 8,
+     "chance": 0.2
+    },
+    {
+     "item": "Sonar Potion",
+     "min": 5,
+     "max": 8,
+     "chance": 0.2
+    }
+   ]
+  },
+  "Astrum Aureus": {
+   "bag": "Treasure Bag (Astrum Aureus)",
+   "drops": [
+    {
+     "item": "Starlight Fuel Cell",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Gravistar Sabaton",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Leonid Progenitor",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Astrum Aureus Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Alula Australis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Aurora Blazer",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Auroradical Throw",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Borealis Bomber",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Nebulash",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Hallowed Key",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Aureus Cell",
+     "min": 12,
+     "max": 16,
+     "chance": 1.0
+    },
+    {
+     "item": "Stardust",
+     "min": 30,
+     "max": 40,
+     "chance": 1.0
+    },
+    {
+     "item": "Fallen Star",
+     "min": 20,
+     "max": 30,
+     "chance": 1.0
+    }
+   ]
+  },
+  "The Plaguebringer Goliath": {
+   "bag": "Treasure Bag (The Plaguebringer Goliath)",
+   "drops": [
+    {
+     "item": "Toxic Heart",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Plague Caller",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Plague Balloon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Bad Apple",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Surgical Glove",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Malachite",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Plaguebringer Goliath Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Pestilent Defiler",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Pandemic",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "The Hive",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Malevolence",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Diseased Pike",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Virulence",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Disease",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Metal Ball",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Reemergence",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Blight Spewer",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Plague Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Fuel Cell Bundle",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Trash of Magnus",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Decomposition",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Toxic Wisdom",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Phlegm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "The Needler",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Blow Pipe",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Sewer Brewer",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Poison I-Bee",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Infected Remote",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "The Syringe",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Stinger",
+     "min": 4,
+     "max": 8,
+     "chance": 1.0
+    },
+    {
+     "item": "Plague Cell Canister",
+     "min": 13,
+     "max": 17,
+     "chance": 1.0
+    },
+    {
+     "item": "Infected Armor Plating",
+     "min": 16,
+     "max": 20,
+     "chance": 1.0
+    },
+    {
+     "item": "Flask of Plague",
+     "min": 5,
+     "max": 15,
+     "chance": 0.1
+    },
+    {
+     "item": "Honey Cooling Cell",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01
+    },
+    {
+     "item": "Romulus",
+     "min": 1,
+     "max": 1,
+     "chance": 0.02
+    }
+   ]
+  },
+  "Ravager": {
+   "bag": "Treasure Bag (Ravager)",
+   "drops": [
+    {
+     "item": "Infernal Blood",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Vesuvius",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Corpus Avertor",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    },
+    {
+     "item": "Ravager Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Ultimus Cleaver",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Realm Ravager",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Hematemesis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Spikecrag Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Cranium Smasher",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Blood Pact",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    },
+    {
+     "item": "Flesh Totem",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5
+    }
+   ]
+  },
+  "Astrum Deus": {
+   "bag": "Treasure Bag (Astrum Deus)",
+   "drops": [
+    {
+     "item": "Hide of Astrum Deus",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Chromatic Orb",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2
+    },
+    {
+     "item": "Astrum Deus Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "The Microwave",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Star Sputter",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Godspawn Helix Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Starfall",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Regulus Riot",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Stardust",
+     "min": 60,
+     "max": 90,
+     "chance": 1.0
+    },
+    {
+     "item": "Fallen Star",
+     "min": 30,
+     "max": 50,
+     "chance": 1.0
+    }
+   ]
+  },
+  "The Dragonfolly": {
+   "bag": "Treasure Bag (The Dragonfolly)",
+   "drops": [
+    {
+     "item": "Red Lightning Container",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Dynamo Stem Cells",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Folly Feed",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Swordsplosion",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Dragonfolly Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Rouge Slash",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Gilded Proboscis",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Golden Eagle",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Effulgent Feather",
+     "min": 15,
+     "max": 21,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Providence, the Profaned Goddess": {
+   "bag": "Treasure Bag (Providence)",
+   "drops": [
+    {
+     "item": "Blazing Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Pristine Annihilation",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Providence Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Blissful Bombardier",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Dazzling Stabber Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Holy Collider",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Molten Amputator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Solar Flare",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Purge Guzzler",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Telluric Glare",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Divine Geode",
+     "min": 20,
+     "max": 30,
+     "chance": 1.0
+    },
+    {
+     "item": "Unholy Essence",
+     "min": 25,
+     "max": 35,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Ceaseless Void": {
+   "bag": "Treasure Bag (Ceaseless Void)",
+   "drops": [
+    {
+     "item": "The Evolution",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Ancient God Slayer Helm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    },
+    {
+     "item": "Ancient God Slayer Chestplate",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    },
+    {
+     "item": "Ancient God Slayer Leggings",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    },
+    {
+     "item": "Ceaseless Void Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Mirror Blade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Void Concentration Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Dark Plasma",
+     "min": 4,
+     "max": 6,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Storm Weaver": {
+   "bag": "Treasure Bag (Storm Weaver)",
+   "drops": [
+    {
+     "item": "Little Light",
+     "min": 1,
+     "max": 1,
+     "chance": 0.125
+    },
+    {
+     "item": "Thunderstorm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Ancient God Slayer Helm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    },
+    {
+     "item": "Ancient God Slayer Chestplate",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    },
+    {
+     "item": "Ancient God Slayer Leggings",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    },
+    {
+     "item": "Storm Weaver Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "The Storm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Storm Dragoon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Armored Shell",
+     "min": 7,
+     "max": 10,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Signus, Envoy of the Devourer": {
+   "bag": "Treasure Bag (Signus)",
+   "drops": [
+    {
+     "item": "Spectral Veil",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Ancient God Slayer Helm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    },
+    {
+     "item": "Ancient God Slayer Chestplate",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    },
+    {
+     "item": "Ancient God Slayer Leggings",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05
+    },
+    {
+     "item": "Signus Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Cosmic Kunai",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Cosmilamp",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Twisting Nether",
+     "min": 3,
+     "max": 4,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Polterghast": {
+   "bag": "Treasure Bag (Polterghast)",
+   "drops": [
+    {
+     "item": "Ectoheart",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Affliction",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Polterghast Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Banshee Hook",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Daemon's Flame",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Ethereal Subjugator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Fate's Reveal",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Ghastly Visage",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Ghoulish Gouger",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Terror Blade",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Ruinous Soul",
+     "min": 10,
+     "max": 20,
+     "chance": 1.0
+    },
+    {
+     "item": "Phantoplasm",
+     "min": 40,
+     "max": 50,
+     "chance": 1.0
+    }
+   ]
+  },
+  "The Devourer of Gods": {
+   "bag": "Treasure Bag (The Devourer of Gods)",
+   "drops": [
+    {
+     "item": "Nebulous Core",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Cosmic Discharge",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Norfleet",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Devourer of Gods Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Deathhail Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Eradicator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Excelsus",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "The Obliterator",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Deathwind",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Staff of the Mechworm",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Cosmic Worm",
+     "min": 30,
+     "max": 39,
+     "chance": 1.0
+    },
+    {
+     "item": "Cosmilite Brick",
+     "min": 200,
+     "max": 320,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Jungle Dragon, Yharon": {
+   "bag": "Treasure Bag (Jungle Dragon, Yharon)",
+   "drops": [
+    {
+     "item": "Fox Drive",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Yharim's Gift",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Forgotten Dragon Egg",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "McNuggets",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Yharim's Crystal",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1
+    },
+    {
+     "item": "Yharon Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Yharon's Kindle Staff",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "The Final Dawn",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Dragon's Breath",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Phoenix Flame Barrage",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Dragon Rage",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Chicken Cannon",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Wrathwing",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "The Burning Sky",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Yharon Soul Fragment",
+     "min": 22,
+     "max": 28,
+     "chance": 1.0
+    }
+   ]
+  },
+  "The Fabricational Quartet": {
+   "bag": "Treasure Bag (The Fabricational Quartet)",
+   "drops": [
+    {
+     "item": "Draedon's Heart",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Exo Box",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Photon Ripper",
+     "min": 1,
+     "max": 1,
+     "chance": 0.6667
+    },
+    {
+     "item": "The Jailor",
+     "min": 1,
+     "max": 1,
+     "chance": 0.6667
+    },
+    {
+     "item": "Ares Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857
+    },
+    {
+     "item": "Spine of Thanatos",
+     "min": 1,
+     "max": 1,
+     "chance": 0.6667
+    },
+    {
+     "item": "Refraction Rotor",
+     "min": 1,
+     "max": 1,
+     "chance": 0.6667
+    },
+    {
+     "item": "Thanatos Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857
+    },
+    {
+     "item": "Surge Driver",
+     "min": 1,
+     "max": 1,
+     "chance": 0.6667
+    },
+    {
+     "item": "The Atom Splitter",
+     "min": 1,
+     "max": 1,
+     "chance": 0.6667
+    },
+    {
+     "item": "Artemis Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857
+    },
+    {
+     "item": "Apollo Mask",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2857
+    },
+    {
+     "item": "Exo Prism",
+     "min": 30,
+     "max": 40,
+     "chance": 1.0
+    }
+   ]
+  },
+  "Supreme Calamitas": {
+   "bag": "Treasure Coffer",
+   "drops": [
+    {
+     "item": "Brimstone Jewel",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Calamity",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0
+    },
+    {
+     "item": "Ashen Horns",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Calamitous Hood",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Calamitous Robes",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Calamitous Boots",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1429
+    },
+    {
+     "item": "Violence",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Condemnation",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Heresy",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Vehemence",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Perdition",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Vigilance",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Sacrifice",
+     "min": 1,
+     "max": 1,
+     "chance": 0.3333
+    },
+    {
+     "item": "Ashes of Annihilation",
+     "min": 25,
+     "max": 35,
+     "chance": 1.0
     }
    ]
   }

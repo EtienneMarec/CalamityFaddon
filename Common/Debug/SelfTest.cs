@@ -312,14 +312,24 @@ namespace CalamityFandom.Common.Debug
                 foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(scourge.Type, false))
                     r.ReportDroprates(rates, new DropRateInfoChainFeed(1f));
                 Expect(rates.Any(r => r.itemId == bag.Type), "Desert Scourge lâche toujours son sac en Expert");
+                // Expert (décision du 22/10) : Parched Scale dans le sac en Calamity++, directement en Full Fandom
+                int scale = WikiRecipes.ResolveItem("Parched Scale");
+                var bagRates = new List<DropRateInfo>();
+                foreach (var r in Main.ItemDropsDB.GetRulesForItemID(bag.Type))
+                    r.ReportDroprates(bagRates, new DropRateInfoChainFeed(1f));
+                bool direct = rates.Any(r => r.itemId == scale && r.conditions?.Any(c => c is Conditions.IsExpert) == true);
+                bool inBag = bagRates.Any(r => r.itemId == scale);
+                Expect(FandomMode.IsFull ? direct : inBag, $"Parched Scale en Expert (direct : {direct}, dans le sac : {inBag})");
             }
+            foreach (var (bagType, rule, what) in WikiLoot.AddedToBags)
+                Expect(Main.ItemDropsDB.GetRulesForItemID(bagType).Contains(rule), $"contenu de {Lang.GetItemNameValue(bagType)} absent : {what}");
             // Segments de ver : même ratio de vie que la tête (sinon la tête s'aligne sur la vie du corps)
             foreach (string segment in new[] { "DesertScourgeBody", "DesertScourgeTail" })
                 Expect(WikiStats.NPCs.TryGetValue(segment, out var st) && st.LifeRatio == 87.5f, $"ratio de vie de {segment} : {st?.LifeRatio}");
             string reports = ReportsFolder;
             if (!string.IsNullOrEmpty(reports))
                 WikiLoot.WriteReport(reports);
-            Report($"butin : {WikiLoot.Added.Count} drops ajoutés, {WikiLoot.AlreadyDropped} déjà présents, {WikiLoot.Conditional} conditionnels ignorés, "
+            Report($"butin : {WikiLoot.Added.Count} drops ajoutés, {WikiLoot.AddedToBags.Count} dans les sacs ({WikiLoot.RemovedFromBags} retirés), {WikiLoot.AlreadyDropped} déjà présents, {WikiLoot.Conditional} conditionnels ignorés, "
                 + $"{WikiLoot.MissingNPCs.Count} PNJ et {WikiLoot.MissingItems.Count} objets introuvables");
         }
 

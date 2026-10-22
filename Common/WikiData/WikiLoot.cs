@@ -14,10 +14,13 @@ using Terraria.ModLoader;
 namespace CalamityFandom.Common.WikiData
 {
     /// <summary>
-    /// Butin des infobox de PNJ du wiki (WikiData/loot.json, généré par tools/gen_loot.py). Additif : seuls les objets
-    /// que le PNJ ne lâche pas déjà sont ajoutés, avec la chance et la quantité du mode normal. Les entrées avec une
-    /// condition en note (« Post-Golem », « Tier 3 ») ne sont pas appliquées. Sur un boss, l'ajout est limité au mode
-    /// normal (en Expert, le butin passe par le sac, pas encore géré).
+    /// Butin des infobox de PNJ du wiki et contenu des sacs de la page « Treasure Bag » (WikiData/loot.json, généré par
+    /// tools/gen_loot.py). Additif : seuls les objets que le PNJ (ou le sac) ne donne pas déjà sont ajoutés. Les entrées
+    /// avec une condition en note (« Post-Golem », « Tier 3 ») ne sont pas appliquées.
+    /// Boss (décision du 22/10) : en mode normal, les drops de la page tombent directement. En Expert :
+    /// - Calamity++ : ils vont dans le sac (quantités Expert du {{dv}}), avec ce que liste la page Treasure Bag ;
+    /// - Full Fandom : ils tombent aussi directement (quantités Expert), et le sac contient ce que liste la page
+    ///   Treasure Bag, rien d'autre.
     /// </summary>
     public class WikiLoot : ModSystem
     {
@@ -27,6 +30,10 @@ namespace CalamityFandom.Common.WikiData
             public int Min { get; set; } = 1;
             public int Max { get; set; } = 1;
             public double Chance { get; set; }
+            /// <summary>Valeurs Expert du {{dv}}, quand elles diffèrent du mode normal.</summary>
+            public int? MinExpert { get; set; }
+            public int? MaxExpert { get; set; }
+            public double? ChanceExpert { get; set; }
             public string Note { get; set; }
             public int Group { get; set; }
             public bool GroupAlways { get; set; }
@@ -43,9 +50,17 @@ namespace CalamityFandom.Common.WikiData
             public List<DropData> Drops { get; set; } = new();
         }
 
+        private class BagData
+        {
+            public string Bag { get; set; }
+            public List<DropData> Drops { get; set; } = new();
+        }
+
         private class LootFile
         {
             public Dictionary<string, NPCData> Npcs { get; set; } = new();
+            /// <summary>Page « Treasure Bag » : titre du boss -> sac et contenu.</summary>
+            public Dictionary<string, BagData> Bags { get; set; } = new();
             public Dictionary<string, List<string>> Aliases { get; set; } = new();
         }
 
@@ -53,7 +68,9 @@ namespace CalamityFandom.Common.WikiData
 
         /// <summary>Règles ajoutées (type de PNJ, règle, description), pour l'auto-test et le rapport.</summary>
         public static List<(int npc, IItemDropRule rule, string what)> Added { get; } = new();
-        public static int AlreadyDropped, Conditional, RemovedNotOnWiki;
+        /// <summary>Règles ajoutées aux sacs (type du sac, règle, description).</summary>
+        public static List<(int bag, IItemDropRule rule, string what)> AddedToBags { get; } = new();
+        public static int AlreadyDropped, Conditional, RemovedNotOnWiki, RemovedFromBags;
         public static SortedDictionary<string, int> MissingItems { get; } = new();
         public static List<string> MissingNPCs { get; } = new();
 
@@ -67,14 +84,16 @@ namespace CalamityFandom.Common.WikiData
         {
             data = null;
             Added.Clear();
+            AddedToBags.Clear();
             MissingItems.Clear();
             MissingNPCs.Clear();
-            AlreadyDropped = Conditional = RemovedNotOnWiki = 0;
+            AlreadyDropped = Conditional = RemovedNotOnWiki = RemovedFromBags = 0;
         }
 
         // Après les recettes : les noms traduits sont disponibles et la base de butin est remplie
         public override void PostAddRecipes()
         {
+            ApplyBags();
             foreach (var (title, npcData) in data.Npcs)
             {
                 if (!title.Any(char.IsLetter))
@@ -93,21 +112,92 @@ namespace CalamityFandom.Common.WikiData
             }
         }
 
-        private static HashSet<int> CurrentDrops(int npc)
+        // ------------------------------------------------------------------ outils
+
+        private static List<DropRateInfo> Rates(IEnumerable<IItemDropRule> rules)
         {
             var rates = new List<DropRateInfo>();
             var feed = new DropRateInfoChainFeed(1f);
-            foreach (var rule in Main.ItemDropsDB.GetRulesForNPCID(npc, false))
+            foreach (var rule in rules)
                 rule.ReportDroprates(rates, feed);
-            return rates.Select(r => r.itemId).ToHashSet();
+            return rates;
         }
+
+        /// <summary>Pour chaque objet donné par ces règles : tombe-t-il en mode normal, en Expert ?</summary>
+        private static Dictionary<int, (bool normal, bool expert)> Availability(IEnumerable<IItemDropRule> rules)
+        {
+            var result = new Dictionary<int, (bool normal, bool expert)>();
+            foreach (var rate in Rates(rules))
+            {
+                bool normalOnly = rate.conditions?.Any(c => c is Conditions.NotExpert) == true;
+                bool expertOnly = rate.conditions?.Any(c => c is Conditions.IsExpert) == true;
+                result.TryGetValue(rate.itemId, out var prev);
+                result[rate.itemId] = (prev.normal || !expertOnly, prev.expert || !normalOnly);
+            }
+            return result;
+        }
+
+        /// <summary>Sac au trésor qu'un boss lâche en Expert (ou -1).</summary>
+        private static int BossBag(int npc) =>
+            Rates(Main.ItemDropsDB.GetRulesForNPCID(npc, false)).Select(r => r.itemId).FirstOrDefault(i => ItemID.Sets.BossBag[i], -1);
+
+        private static int Resolve(DropData drop)
+        {
+            int item = WikiRecipes.ResolveItem(drop.Item);
+            if (item <= 0)
+            {
+                MissingItems.TryGetValue(drop.Item, out int n);
+                MissingItems[drop.Item] = n + 1;
+            }
+            return item;
+        }
+
+        private static IItemDropRule Drop(int item, int min, int max, double chance)
+        {
+            int numerator = Math.Clamp((int)Math.Round(chance * 10000), 1, 10000);
+            return new CommonDrop(item, 10000, Math.Max(1, min), Math.Max(min, max), numerator);
+        }
+
+        private static IItemDropRule NormalDrop(int item, DropData d) => Drop(item, d.Min, d.Max, d.Chance);
+
+        private static IItemDropRule ExpertDrop(int item, DropData d) =>
+            Drop(item, d.MinExpert ?? d.Min, d.MaxExpert ?? d.Max, d.ChanceExpert ?? d.Chance);
+
+        private static IItemDropRule When(IItemDropRuleCondition condition, IItemDropRule rule)
+        {
+            var leading = new LeadingConditionRule(condition);
+            leading.OnSuccess(rule);
+            return leading;
+        }
+
+        private static void RegisterNPC(int npc, IItemDropRule rule, string what)
+        {
+            Main.ItemDropsDB.RegisterToNPC(npc, rule);
+            Added.Add((npc, rule, what));
+        }
+
+        private static void RegisterBag(int bag, IItemDropRule rule, string what)
+        {
+            Main.ItemDropsDB.RegisterToItem(bag, rule);
+            AddedToBags.Add((bag, rule, what));
+        }
+
+        private static string Describe(int item, int min, int max, double chance) =>
+            $"{Lang.GetItemNameValue(item)} {min}-{max} à {chance:P1}";
+
+        // ------------------------------------------------------------------ PNJ
 
         private static void ApplyToNPC(int npc, NPCData npcData)
         {
             if (FandomMode.IsFull)
                 RemoveNotOnWiki(npc, npcData);
-            var current = CurrentDrops(npc);
-            var groups = new Dictionary<int, List<int>>();
+            var avail = Availability(Main.ItemDropsDB.GetRulesForNPCID(npc, false));
+            int bag = npcData.Boss ? BossBag(npc) : -1;
+            var bagAvail = bag > 0 ? Availability(Main.ItemDropsDB.GetRulesForItemID(bag)) : new();
+            // En Expert, le drop tombe directement en Full Fandom, ou faute de sac ; sinon il va dans le sac
+            bool expertDirect = FandomMode.IsFull || bag <= 0;
+            var groups = new Dictionary<int, List<(int item, DropData drop)>>();
+
             foreach (var drop in npcData.Drops)
             {
                 if (!FandomMode.Applies(drop.Modes) || drop.Listed)
@@ -117,42 +207,76 @@ namespace CalamityFandom.Common.WikiData
                     Conditional++;
                     continue;
                 }
-                int item = WikiRecipes.ResolveItem(drop.Item);
+                int item = Resolve(drop);
                 if (item <= 0)
-                {
-                    MissingItems.TryGetValue(drop.Item, out int n);
-                    MissingItems[drop.Item] = n + 1;
                     continue;
-                }
                 if (drop.Group > 0 && drop.GroupAlways)
                 {
                     if (!groups.TryGetValue(drop.Group, out var list))
                         groups[drop.Group] = list = new();
-                    list.Add(item);
+                    list.Add((item, drop));
                     continue;
                 }
-                if (current.Contains(item))
+
+                string what = Describe(item, drop.Min, drop.Max, drop.Chance);
+                if (!npcData.Boss)
                 {
-                    AlreadyDropped++;
+                    if (avail.ContainsKey(item))
+                        AlreadyDropped++;
+                    else
+                        RegisterNPC(npc, NormalDrop(item, drop), what);
                     continue;
                 }
-                int numerator = Math.Clamp((int)Math.Round(drop.Chance * 10000), 1, 10000);
-                var rule = new CommonDrop(item, 10000, Math.Max(1, drop.Min), Math.Max(drop.Min, drop.Max), numerator);
-                Register(npc, npcData.Boss, rule, $"{Lang.GetItemNameValue(item)} {drop.Min}-{drop.Max} à {drop.Chance:P1}");
-                current.Add(item);
+                if (avail.TryGetValue(item, out var a) && a.normal)
+                    AlreadyDropped++;
+                else
+                    RegisterNPC(npc, When(new Conditions.NotExpert(), NormalDrop(item, drop)), what + " (mode normal)");
+
+                string expertWhat = Describe(item, drop.MinExpert ?? drop.Min, drop.MaxExpert ?? drop.Max, drop.ChanceExpert ?? drop.Chance);
+                if (expertDirect)
+                {
+                    if (!(avail.TryGetValue(item, out a) && a.expert))
+                        RegisterNPC(npc, When(new Conditions.IsExpert(), ExpertDrop(item, drop)), expertWhat + " (Expert, direct)");
+                }
+                else if (!bagAvail.ContainsKey(item))
+                {
+                    RegisterBag(bag, ExpertDrop(item, drop), expertWhat);
+                    bagAvail[item] = (true, true);
+                }
             }
 
             // « One of the following N items will always drop » : un parmi le groupe, sauf si le jeu en donne déjà un
-            foreach (var items in groups.Values)
+            foreach (var entries in groups.Values)
             {
-                if (items.Any(current.Contains))
+                int[] items = entries.Select(e => e.item).ToArray();
+                IItemDropRule OneOf() => items.Length == 1 ? ItemDropRule.Common(items[0]) : ItemDropRule.OneFromOptionsNotScalingWithLuck(1, items);
+                string what = "un parmi : " + string.Join(", ", items.Select(Lang.GetItemNameValue));
+                bool InNormal() => items.Any(i => avail.TryGetValue(i, out var a) && a.normal);
+                bool InExpert() => items.Any(i => avail.TryGetValue(i, out var a) && a.expert);
+
+                if (!npcData.Boss)
                 {
-                    AlreadyDropped += items.Count;
+                    if (items.Any(avail.ContainsKey))
+                        AlreadyDropped += items.Length;
+                    else
+                        RegisterNPC(npc, OneOf(), what);
                     continue;
                 }
-                var rule = items.Count == 1 ? ItemDropRule.Common(items[0]) : ItemDropRule.OneFromOptionsNotScalingWithLuck(1, items.ToArray());
-                Register(npc, npcData.Boss, rule, "un parmi : " + string.Join(", ", items.Select(Lang.GetItemNameValue)));
-                current.UnionWith(items);
+                if (InNormal())
+                    AlreadyDropped += items.Length;
+                else
+                    RegisterNPC(npc, When(new Conditions.NotExpert(), OneOf()), what + " (mode normal)");
+                if (expertDirect)
+                {
+                    if (!InExpert())
+                        RegisterNPC(npc, When(new Conditions.IsExpert(), OneOf()), what + " (Expert, direct)");
+                }
+                else if (!items.Any(bagAvail.ContainsKey))
+                {
+                    RegisterBag(bag, OneOf(), what);
+                    foreach (int i in items)
+                        bagAvail[i] = (true, true);
+                }
             }
         }
 
@@ -169,8 +293,7 @@ namespace CalamityFandom.Common.WikiData
                 return;
             foreach (var rule in Main.ItemDropsDB.GetRulesForNPCID(npc, false).ToList())
             {
-                var rates = new List<DropRateInfo>();
-                rule.ReportDroprates(rates, new DropRateInfoChainFeed(1f));
+                var rates = Rates(new[] { rule });
                 if (rates.Count > 0 && !rates.Any(r => onWiki.Contains(r.itemId) || ItemID.Sets.BossBag[r.itemId]))
                 {
                     Main.ItemDropsDB.RemoveFromNPC(npc, rule);
@@ -179,18 +302,62 @@ namespace CalamityFandom.Common.WikiData
             }
         }
 
-        private static void Register(int npc, bool boss, IItemDropRule rule, string what)
+        // ------------------------------------------------------------------ sacs (page « Treasure Bag »)
+
+        /// <summary>Sac d'une section de la page : par son nom, sinon celui que lâche le boss de la section.</summary>
+        private static int ResolveBag(string boss, BagData bagData)
         {
-            IItemDropRule final = rule;
-            if (boss)
+            int bag = WikiRecipes.ResolveItem(bagData.Bag);
+            if (bag > 0 && ItemID.Sets.BossBag[bag])
+                return bag;
+            data.Aliases.TryGetValue(boss, out var aliases);
+            foreach (int npc in WikiNames.FindNPCs(boss, aliases))
+                if (BossBag(npc) is int found && found > 0)
+                    return found;
+            return -1;
+        }
+
+        /// <summary>
+        /// Contenu des sacs listé par la page : ajouté s'il manque. En Full Fandom, le reste du sac est retiré (même
+        /// règle que le butin des PNJ : rien n'est retiré si aucun objet de la section n'est reconnu).
+        /// </summary>
+        private static void ApplyBags()
+        {
+            foreach (var (boss, bagData) in data.Bags)
             {
-                var notExpert = new LeadingConditionRule(new Conditions.NotExpert());
-                notExpert.OnSuccess(rule);
-                final = notExpert;
-                what += " (mode normal)";
+                int bag = ResolveBag(boss, bagData);
+                if (bag <= 0)
+                {
+                    MissingItems.TryGetValue(bagData.Bag, out int n);
+                    MissingItems[bagData.Bag] = n + 1;
+                    continue;
+                }
+                var drops = bagData.Drops.Where(d => FandomMode.Applies(d.Modes)).Select(d => (item: Resolve(d), drop: d)).Where(e => e.item > 0).ToList();
+                if (FandomMode.IsFull && drops.Count > 0)
+                {
+                    var onPage = drops.Select(e => e.item).ToHashSet();
+                    foreach (var rule in Main.ItemDropsDB.GetRulesForItemID(bag).ToList())
+                    {
+                        var rates = Rates(new[] { rule });
+                        if (rates.Count > 0 && !rates.Any(r => onPage.Contains(r.itemId)))
+                        {
+                            Main.ItemDropsDB.RemoveFromItem(bag, rule);
+                            RemovedFromBags++;
+                        }
+                    }
+                }
+                var avail = Availability(Main.ItemDropsDB.GetRulesForItemID(bag));
+                foreach (var (item, drop) in drops)
+                {
+                    if (avail.ContainsKey(item))
+                    {
+                        AlreadyDropped++;
+                        continue;
+                    }
+                    RegisterBag(bag, NormalDrop(item, drop), Describe(item, drop.Min, drop.Max, drop.Chance) + " (page Treasure Bag)");
+                    avail[item] = (true, true);
+                }
             }
-            Main.ItemDropsDB.RegisterToNPC(npc, final);
-            Added.Add((npc, final, what));
         }
 
         /// <summary>
@@ -206,11 +373,7 @@ namespace CalamityFandom.Common.WikiData
                 if (entry == null)
                     continue;
                 entry.Info.RemoveAll(e => e is ItemDropBestiaryInfoElement);
-                var rates = new List<DropRateInfo>();
-                var feed = new DropRateInfoChainFeed(1f);
-                foreach (var rule in Main.ItemDropsDB.GetRulesForNPCID(npc, false))
-                    rule.ReportDroprates(rates, feed);
-                foreach (var rate in rates)
+                foreach (var rate in Rates(Main.ItemDropsDB.GetRulesForNPCID(npc, false)))
                     entry.Info.Add(new ItemDropBestiaryInfoElement(rate));
             }
         }
@@ -221,12 +384,16 @@ namespace CalamityFandom.Common.WikiData
             sb.AppendLine("# Butin du wiki appliqué en jeu").AppendLine();
             sb.AppendLine("_Généré par l'auto-test à partir de `WikiData/loot.json`._").AppendLine();
             sb.AppendLine($"- {Added.Count} drops ajoutés sur {Added.Select(a => a.npc).Distinct().Count()} PNJ");
+            sb.AppendLine($"- {AddedToBags.Count} ajouts dans {AddedToBags.Select(a => a.bag).Distinct().Count()} sacs");
             sb.AppendLine($"- {AlreadyDropped} drops du wiki déjà présents dans le jeu (inchangés)");
             sb.AppendLine($"- {Conditional} drops à condition écrite en note, non appliqués (voir `reports/loot.md`)");
             sb.AppendLine($"- {MissingNPCs.Count} PNJ du wiki absents du jeu, {MissingItems.Count} objets introuvables").AppendLine();
             sb.AppendLine("## Ajouts").AppendLine();
             foreach (var group in Added.GroupBy(a => a.npc).OrderBy(g => Lang.GetNPCNameValue(g.Key)))
                 sb.AppendLine($"- **{Lang.GetNPCNameValue(group.Key)}** : {string.Join(" ; ", group.Select(a => a.what))}");
+            sb.AppendLine().AppendLine("## Ajouts dans les sacs").AppendLine();
+            foreach (var group in AddedToBags.GroupBy(a => a.bag).OrderBy(g => Lang.GetItemNameValue(g.Key)))
+                sb.AppendLine($"- **{Lang.GetItemNameValue(group.Key)}** : {string.Join(" ; ", group.Select(a => a.what))}");
             sb.AppendLine().AppendLine("## Objets introuvables (contenu à créer)").AppendLine();
             foreach (var (item, count) in MissingItems.OrderByDescending(kv => kv.Value))
                 sb.AppendLine($"- {item} — {count}");
