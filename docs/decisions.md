@@ -193,6 +193,11 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   (Sunken Sea, Space, Jungle, Underworld, Ice), premier kill (compteur du bestiaire, qui compte le kill avant le butin).
   Les autres (boss inventés comme The Starborn Moth, « While supercharged », « Tiers 2 & 3 », « Pacifist Drop »...)
   restent non appliquées. Un drop à condition dans un groupe « One of... » : non appliqué.
+  **[choix]** (retour de test du 22/10) Quand le jeu donne déjà l'objet avec une autre condition (Devil Fish : Depth
+  Cells après Leviathan dans Calamity, après Calamitas sur le wiki ; Abyss Ore après Golem sans texte), la version du
+  wiki remplace la règle du jeu, si cette règle ne donne que cet objet. Dans les deux modes (valeur propre au wiki).
+  **[technique]** Lignes `custom` : la quantité écrite après le modèle (« {{item|Depth Cells|...}} (1-2) ») est lue ; un
+  objet cité sous deux noms (Scoria Ore / Abyss Ore) n'est plus compté deux fois.
   **[technique]** Premier kill et biome ne se vérifient pas à l'ouverture d'un sac : ces drops tombent directement en
   Expert, même en Calamity++.
 - **[choix]** (remarque de l'utilisateur, 22/10) Une condition écrite `| Objet|note=(...)|...` **hors** d'un `{{item}}` est
@@ -279,7 +284,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   **Shock Grenade** (use 17, pile 9999, recette du wiki : 2 Grenade, 1 Bomb, 5 Stratus Brick → 100).
   Quatrième lot : **Mana Jelly**, **Fungal Carapace**, **Amidias' Spark** (effets « quand on est touché » repris du
   vieux CalamityPlayer dans un ModPlayer), **Energy Staff** (remplacé par la Sanctified Spark en 2023 ; réutilise sa
-  tourelle Profaned Energy). **Beetle Juice** : matériau simple, généré par `gen_items.py` comme les autres.
+  tourelle Profaned Energy ; remplacé le 22/10 par la tourelle **immobile** de 2.0.1.005, la version actuelle suit le
+  joueur). **Beetle Juice** : matériau simple, généré par `gen_items.py` comme les autres.
   Cinquième lot : **Starfall** (50 dégâts du wiki au lieu de 57), **Storm Dragoon**, **Soul Edge** (use 22).
   **[choix]** Renommage : Starspawn Helix Staff → **Godspawn Helix Staff** (Calamity l'a seulement renommé).
   **[technique]** L'index ignore les noms restés dans la localisation de Calamity sans classe derrière (Beetle Juice,
@@ -311,8 +317,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   jauge. Effets de stats actifs pendant la durée du Shortflurry ; buffs et immunités « for N seconds » à leur propre durée.
 - **[choix]** « Attacks inflict X » sans durée : 5 s. « Hits drain 3% health » : 3 % de la vie restante de l'ennemi, au plus
   5 fois les dégâts du coup. Projectile « au coup » : moitié des dégâts du coup.
-- **[choix]** Affichage : petite barre sous le joueur en tenant une épée courte (survol : texte d'aide), aura orange
-  pulsante quand elle est pleine. Points sauvegardés avec le personnage.
+- **[validé 22/10]** Affichage : jauge dessinée par l'utilisateur (`Assets/UI/ShortstrikeMeter.png`, source x6 dans
+  `wiki_sprites_custom/`), placée comme la rage et l'adrénaline de Calamity (sous l'adrénaline par défaut, déplaçable
+  sauf si Calamity verrouille ses jauges, position dans la config client du mod). **[choix]** Visible en tenant une épée
+  courte ; les épées sortent quand elle devient pleine. Aura orange pulsante autour du joueur. Points sauvegardés.
 - **[technique]** Les points ne sont pas synchronisés en multijoueur : les autres joueurs ne voient pas l'aura (les clones,
   eux, sont synchronisés).
 

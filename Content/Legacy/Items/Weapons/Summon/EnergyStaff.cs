@@ -1,5 +1,5 @@
 // Adapté de Calamity Mod 2.0.1.005, © Azafure, LLC — https://github.com/CalamityTeam/CalamityModPublic
-using CalamityMod.Projectiles.Summon;
+using CalamityFandom.Content.Legacy.Projectiles.Summon;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.DataStructures;
@@ -9,9 +9,9 @@ using Terraria.ModLoader;
 namespace CalamityFandom.Content.Legacy.Items.Weapons.Summon
 {
     /// <summary>
-    /// Wiki : Energy Staff.txt — bâton de tourelle de Providence, remplacé dans Calamity par la Sanctified Spark (2023)
-    /// qui garde la tourelle Profaned Energy, réutilisée ici. Valeurs de l'infobox (identiques au vieux code ; rareté 11,
-    /// vente 22 or).
+    /// Wiki : Energy Staff.txt — bâton de tourelle (lâché par l'Impious Immolator), remplacé dans Calamity par la
+    /// Sanctified Spark (2023). Sa tourelle immobile de 2.0.1.005 est portée (ProfanedEnergyTurret) : celle de la Sanctified
+    /// Spark suit le joueur. Valeurs de l'infobox (identiques au vieux code ; rareté 11, vente 22 or).
     /// </summary>
     public class EnergyStaff : ModItem
     {
@@ -36,7 +36,7 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Summon
             Item.value = Item.sellPrice(gold: 22);
             Item.rare = ItemRarityID.Purple;
             Item.autoReuse = true;
-            Item.shoot = ModContent.ProjectileType<ProfanedEnergy>();
+            Item.shoot = ModContent.ProjectileType<ProfanedEnergyTurret>();
         }
 
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)

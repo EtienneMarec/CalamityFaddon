@@ -360,6 +360,11 @@ namespace CalamityFandom.Common.Debug
             // Conditions écrites en note (« After defeating Calamitas », « In Hardmode »...) : appliquées
             Expect(WikiLoot.Conditioned > 50, $"drops du wiki avec leur condition : {WikiLoot.Conditioned}");
             Expect(WikiLoot.Added.Any(a => a.what.Contains("[After defeating Calamitas]")), "Lumenyl après Calamitas (ennemis des abysses)");
+            // Devil Fish : la condition du wiki remplace celle du jeu (Depth Cells après Calamitas, Abyss Ore après Golem)
+            Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Depth Cells") && a.what.Contains("[After defeating Calamitas]")),
+                "Devil Fish : Depth Cells après Calamitas (et non après Leviathan)");
+            Expect(WikiLoot.Added.Any(a => a.what.Contains("3-9") && a.what.Contains("[After defeating Golem]")),
+                "Devil Fish : Abyss Ore 3-9 après Golem, condition affichée");
             // Sac au trésor jamais retiré (documenté par la page Treasure Bag), même en Full Fandom
             if (ModContent.TryFind<ModNPC>("CalamityMod", "DesertScourgeHead", out var scourge) && ModContent.TryFind<ModItem>("CalamityMod", "DesertScourgeBag", out var bag))
             {

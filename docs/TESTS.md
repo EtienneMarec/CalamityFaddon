@@ -127,26 +127,30 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
       le wiki : supprimée le 22/10) et un **Sandy Angling Kit** (porté le 22/10) ; Conquest Fragment : 25-30
 - [x] Sandy Angling Kit : clic droit = objets de pêche (Tackle Box, Angler Hat, potions de pêche...), Golden Bug Net
       seulement après Skeletron ; sprite de 2022
-- [ ] **Conditions de butin** (nuit du 22/10) : dans le bestiaire, des drops affichent leur condition (ex. Devil Fish,
+- [x] **Conditions de butin** (nuit du 22/10) : dans le bestiaire, des drops affichent leur condition (ex. Devil Fish,
       Gulper Eel : Lumenyl « After defeating Calamitas » ; Heat Spirit : Essence of Chaos « In Hardmode ») ; avant
       Calamitas, un Devil Fish ne lâche pas de Lumenyl de ce drop, après oui (Boss Checklist / Cheat Sheet pour marquer
       le boss vaincu)
-- [ ] **Butin des pages d'objets** (nuit du 22/10) : le Wall of Flesh lâche aussi 3-5 Twisted Tendril, Plantera 4-8
+- [x] **Butin des pages d'objets** (nuit du 22/10) : le Wall of Flesh lâche aussi 3-5 Twisted Tendril, Plantera 4-8
       Essence of Babil, les Zombies parfois de la Disgusting Meat (visible dans le bestiaire) ; en Full Fandom, le Wall
       of Flesh garde tout son butin vanilla
-- [ ] **Portages de la nuit du 22/10** (Cheat Sheet) : Bleached Angling Kit (clic droit, lâché par l'Aquatic Scourge),
+- [x] **Portages de la nuit du 22/10** (Cheat Sheet) : Bleached Angling Kit (clic droit, lâché par l'Aquatic Scourge),
       Seabound Staff (une étoile de mer sbire au curseur), Effluvium Bow (2 flèches, flèches en bois → Mist Arrow),
       Regenator (vie max divisée par 2, régénération rapide), Storm Spray (jet d'eau qui goutte), Aquatic Discharge
       (estoc, étincelles au sol quand un ennemi meurt)
 - [ ] Second lot : Solar Flare (yoyo, explosions sacrées), Diseased Pike (lance, Plague Seekers), Crimslime Staff et
       Corroslime Staff (un slime sbire chacun, le buff disparaît quand le slime meurt)
-- [ ] Troisième lot : Gehenna (deux boules de feu tombent du ciel toutes les 10 s, explosion rouge persistante),
+- [x] Troisième lot : Gehenna (deux boules de feu tombent du ciel toutes les 10 s, explosion rouge persistante),
       Shock Grenade (explose en éclairs ; furtive : aura électrique et éclairs à tête chercheuse ; se fabrique par 100)
-- [ ] Quatrième lot : Mana Jelly (+20 mana, régénération à l'arrêt), Fungal Carapace (spores quand on est touché),
+- [x] Quatrième lot : Mana Jelly (+20 mana, régénération à l'arrêt), Fungal Carapace (spores quand on est touché),
       Amidias' Spark (étincelles quand on est touché), Energy Staff (tourelle), Beetle Juice ; le Starspawn Helix Staff
       s'appelle **Godspawn Helix Staff**
-- [ ] Cinquième lot : Starfall (5 étoiles tombent sur le curseur), Storm Dragoon (rafale, consomme peu de balles),
+- [x] Cinquième lot : Starfall (5 étoiles tombent sur le curseur), Storm Dragoon (rafale, consomme peu de balles),
       Soul Edge (âmes fantomatiques, Crush Depth)
+- [ ] Devil Fish (bestiaire) : Depth Cells « After defeating Calamitas » (1-2), Abyss Ore « After defeating Golem » (3-9),
+      une seule ligne d'Abyss Ore (corrigé le 22/10)
+- [ ] Diseased Pike : la lance pointe dans la bonne direction (corrigé le 22/10)
+- [ ] Energy Staff : la tourelle reste là où on la pose (corrigé le 22/10 : ancienne tourelle immobile)
 - [ ] Desert Scourge (mode normal) : peut aussi lâcher Seabound Staff, Storm Spray ou Aquatic Discharge (25 % chacun)
 - [ ] Conquest Fragment (Pearl Shard) : sprite du wiki (éclat bleu et doré) dans l'inventaire et au sol, **dans les
       deux modes** ; idem Victide Bar, Divine Bar, Parched Scale (liste : `reports/sprites.md`)
@@ -217,8 +221,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 ### 2.4 Shortstrike (page Shortstrike, 22/10)
 
-- [ ] Avec une **Copper Shortsword** : une petite barre apparaît sous le joueur ; elle se remplit en frappant (survol :
-      « Shortstrike: N/100 ») ; changer d'arme la garde ; elle reste après avoir quitté et relancé le personnage
+- [ ] Avec une **Copper Shortsword** : la jauge dessinée apparaît sous l'adrénaline ; elle se remplit en frappant
+      (survol : « Shortstrike: N/100 »), les épées sortent quand elle est pleine ; on peut la déplacer si les jauges de
+      Calamity ne sont pas verrouillées ; changer d'arme la garde ; elle reste après avoir quitté et relancé le personnage
 - [ ] En tenant une épée courte : dégâts et défense augmentent avec la jauge (Full Fandom : +20 % / +33 à 100 points ;
       Calamity++ : +10 % / +16) ; avec une autre arme, plus de bonus
 - [ ] Jauge pleine : son, aura orange pulsante ; **clic droit** = Shortflurry : 3 clones orange frappent en 1 s, la

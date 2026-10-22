@@ -87,7 +87,10 @@ def parse_drops(positional):
                 drops.append({"item": name, "listed": True})
                 i += 2
                 continue
-            qty_raw, chance_raw = "1", positional[i + 2]
+            # Quantité écrite après le modèle : « {{item|Depth Cells|...}} ({{dv|1-2|2-3}}) »
+            after = positional[i + 1][m.end():] if m else ""
+            qm = re.search(r"\((.*)\)", after)
+            qty_raw, chance_raw = (qm.group(1).strip() if qm else "1"), positional[i + 2]
             i += 3
         elif i + 1 < len(positional) and positional[i + 1].startswith(NOTE) and i + 3 < len(positional):
             # « | Abyss Bar|note=(Post-Golem)|3-8|100% » : hors d'un {{item}}, « note= » est un paramètre nommé de
@@ -250,7 +253,15 @@ def add_item_page_drops(index, npcs, problems):
     norm = lambda t: re.sub(r"[^a-z0-9]", "", t.lower())
     redirects = {norm(p["title"]): p.get("target", "").split("#")[0] for p in index.values() if p.get("kind") == "redirect"}
     by_norm = {norm(t): t for t in npcs}
-    known = {(norm(t), norm(d["item"])) for t, v in npcs.items() for d in v["drops"]}
+    # Un objet peut avoir deux noms sur le wiki (« Scoria Ore » sur la page du Devil Fish, « Abyss Ore » sur sa propre
+    # page) : on compare les noms ramenés au même objet (redirections, puis renommages du glossaire)
+    renames = {norm(k): v for k, v in json.load(open(os.path.join(ROOT, "tools", "glossary.json"), encoding="utf-8"))["renames"].items()}
+
+    def canon(name):
+        target = redirects.get(norm(name)) or name
+        return norm(renames.get(norm(target), target))
+
+    known = {(norm(t), canon(d["item"])) for t, v in npcs.items() for d in v["drops"]}
     added, generic, unread = 0, 0, 0
     for page in sorted(index.values(), key=lambda p: p.get("title", "")):
         if page.get("kind") != "content" or not page.get("infobox", "").startswith("item"):
@@ -276,7 +287,7 @@ def add_item_page_drops(index, npcs, problems):
                 continue
             # Le PNJ sous son titre du wiki (redirections suivies : « Plaguebringer Goliath » -> « The Plaguebringer Goliath »)
             title = by_norm.get(norm(name)) or by_norm.get(norm(redirects.get(norm(name), ""))) or name
-            if (norm(title), norm(item)) in known:
+            if (norm(title), canon(item)) in known:
                 continue
             qty, chance = parse_qty(qty_raw), parse_chance(chance_raw)
             if qty is None or chance is None:
@@ -301,7 +312,7 @@ def add_item_page_drops(index, npcs, problems):
                                "itemPagesOnly": True}
                 by_norm[norm(title)] = title
             npcs[title]["drops"].append(drop)
-            known.add((norm(title), norm(item)))
+            known.add((norm(title), canon(item)))
             added += 1
     return {"added": added, "generic": generic, "unread": unread}
 

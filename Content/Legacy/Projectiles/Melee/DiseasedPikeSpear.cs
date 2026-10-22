@@ -16,7 +16,6 @@ namespace CalamityFandom.Content.Legacy.Projectiles.Melee
         {
             Projectile.width = 40;
             Projectile.height = 40;
-            Projectile.aiStyle = ProjAIStyleID.Spear;
             Projectile.DamageType = ModContent.GetInstance<TrueMeleeDamageClass>();
             Projectile.timeLeft = 90;
             Projectile.friendly = true;

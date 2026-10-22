@@ -78,7 +78,7 @@ namespace CalamityFandom.Common.WikiData
         public static List<(int npc, IItemDropRule rule, string what)> Added { get; } = new();
         /// <summary>Règles ajoutées aux sacs (type du sac, règle, description).</summary>
         public static List<(int bag, IItemDropRule rule, string what)> AddedToBags { get; } = new();
-        public static int AlreadyDropped, Conditional, Conditioned, RemovedNotOnWiki, RemovedFromBags;
+        public static int AlreadyDropped, Conditional, Conditioned, RemovedNotOnWiki, RemovedFromBags, ReplacedByCondition;
         /// <summary>Lignes de butin écrites dans le bestiaire, par PNJ qui a sa propre entrée (pour l'auto-test).</summary>
         public static Dictionary<int, int> BestiaryLines { get; } = new();
         public static SortedDictionary<string, int> MissingItems { get; } = new();
@@ -98,7 +98,7 @@ namespace CalamityFandom.Common.WikiData
             BestiaryLines.Clear();
             MissingItems.Clear();
             MissingNPCs.Clear();
-            AlreadyDropped = Conditional = Conditioned = RemovedNotOnWiki = RemovedFromBags = 0;
+            AlreadyDropped = Conditional = Conditioned = RemovedNotOnWiki = RemovedFromBags = ReplacedByCondition = 0;
         }
 
         // Après les recettes : les noms traduits sont disponibles et la base de butin est remplie
@@ -246,6 +246,14 @@ namespace CalamityFandom.Common.WikiData
 
             void AddOne(int item, DropData drop, WikiLootCondition condition)
             {
+                // Condition du wiki pour un objet que le jeu donne déjà autrement (Depth Cells du Devil Fish : après
+                // Calamitas sur le wiki, après Leviathan dans Calamity) : la version du wiki remplace la règle du jeu,
+                // si cette règle ne donne que cet objet ([choix] du 22/10)
+                if (condition != null && avail.ContainsKey(item) && RemoveSingleItemRules(npc, item) > 0)
+                {
+                    avail.Remove(item);
+                    ReplacedByCondition++;
+                }
                 IItemDropRule If(IItemDropRule rule) => condition == null ? rule : When(condition, rule);
                 string when = condition == null ? "" : $" [{drop.ConditionText}]";
                 string what = Describe(item, drop.Min, drop.Max, drop.Chance) + when;
@@ -319,6 +327,22 @@ namespace CalamityFandom.Common.WikiData
                         bagAvail[i] = (true, true);
                 }
             }
+        }
+
+        /// <summary>Retire les règles du PNJ qui ne donnent que cet objet ; renvoie leur nombre.</summary>
+        private static int RemoveSingleItemRules(int npc, int item)
+        {
+            int removed = 0;
+            foreach (var rule in Main.ItemDropsDB.GetRulesForNPCID(npc, false).ToList())
+            {
+                var rates = Rates(new[] { rule });
+                if (rates.Count > 0 && rates.All(r => r.itemId == item))
+                {
+                    Main.ItemDropsDB.RemoveFromNPC(npc, rule);
+                    removed++;
+                }
+            }
+            return removed;
         }
 
         /// <summary>
@@ -433,7 +457,7 @@ namespace CalamityFandom.Common.WikiData
             sb.AppendLine($"- {Added.Count} drops ajoutés sur {Added.Select(a => a.npc).Distinct().Count()} PNJ");
             sb.AppendLine($"- {AddedToBags.Count} ajouts dans {AddedToBags.Select(a => a.bag).Distinct().Count()} sacs");
             sb.AppendLine($"- {AlreadyDropped} drops du wiki déjà présents dans le jeu (inchangés)");
-            sb.AppendLine($"- {Conditioned} drops avec leur condition (boss vaincu, biome, premier kill)");
+            sb.AppendLine($"- {Conditioned} drops avec leur condition (boss vaincu, biome, premier kill), dont {ReplacedByCondition} qui remplacent la règle du jeu");
             sb.AppendLine($"- {Conditional} drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)");
             sb.AppendLine($"- {MissingNPCs.Count} PNJ du wiki absents du jeu, {MissingItems.Count} objets introuvables").AppendLine();
             sb.AppendLine("## Ajouts").AppendLine();

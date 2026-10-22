@@ -175,9 +175,11 @@
     },
     {
      "item": "Subnautical Plate",
-     "min": 1,
-     "max": 1,
+     "min": 22,
+     "max": 34,
      "chance": 1.0,
+     "minExpert": 32,
+     "maxExpert": 44,
      "note": "(After defeating<br/>Moon Lord)",
      "condition": {
       "downed": [
@@ -188,9 +190,11 @@
     },
     {
      "item": "Lumenyl",
-     "min": 1,
-     "max": 1,
+     "min": 50,
+     "max": 108,
      "chance": 1.0,
+     "minExpert": 65,
+     "maxExpert": 135,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -201,8 +205,8 @@
     },
     {
      "item": "Ectoplasm",
-     "min": 1,
-     "max": 1,
+     "min": 21,
+     "max": 32,
      "chance": 1.0,
      "note": "(After defeating<br/>Plantera)",
      "condition": {
@@ -964,13 +968,6 @@
       "firstKill": true
      },
      "conditionText": "Always on first kill"
-    },
-    {
-     "item": "Hide of Astrum Deus",
-     "min": 1,
-     "max": 1,
-     "chance": 1.0,
-     "itemPage": "Hide of Astrum Deus.txt"
     }
    ]
   },
@@ -1015,9 +1012,11 @@
     },
     {
      "item": "Astral Ore",
-     "min": 1,
-     "max": 1,
+     "min": 8,
+     "max": 12,
      "chance": 1.0,
+     "minExpert": 11,
+     "maxExpert": 16,
      "note": "(After defeating<br/>Astrum Deus)",
      "condition": {
       "downed": [
@@ -1359,8 +1358,10 @@
     {
      "item": "Baronacre",
      "min": 1,
-     "max": 1,
+     "max": 3,
      "chance": 0.75,
+     "minExpert": 2,
+     "maxExpert": 5,
      "chanceExpert": 1.0,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
@@ -1492,9 +1493,11 @@
     },
     {
      "item": "Depth Cells",
-     "min": 1,
-     "max": 1,
+     "min": 5,
+     "max": 7,
      "chance": 0.5,
+     "minExpert": 7,
+     "maxExpert": 10,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -1584,9 +1587,11 @@
    "drops": [
     {
      "item": "Depth Cells",
-     "min": 1,
-     "max": 1,
+     "min": 5,
+     "max": 7,
      "chance": 0.5,
+     "minExpert": 7,
+     "maxExpert": 10,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -1650,9 +1655,11 @@
     },
     {
      "item": "Bloodstone",
-     "min": 1,
-     "max": 1,
+     "min": 20,
+     "max": 30,
      "chance": 1.0,
+     "minExpert": 25,
+     "maxExpert": 35,
      "note": "(Once [[Providence, the Profaned Goddess",
      "condition": {
       "downed": [
@@ -1832,9 +1839,11 @@
     },
     {
      "item": "Bloodstone",
-     "min": 1,
-     "max": 1,
+     "min": 30,
+     "max": 40,
      "chance": 1.0,
+     "minExpert": 35,
+     "maxExpert": 45,
      "note": "(Once Providence is defeated)",
      "condition": {
       "downed": [
@@ -1975,13 +1984,6 @@
      "chance": 0.0833,
      "itemPage": "Havoc_s Breath.txt",
      "chanceExpert": 0.1
-    },
-    {
-     "item": "Set of Calamity",
-     "min": 1,
-     "max": 1,
-     "chance": 0.1,
-     "itemPage": "Set of Calamity.txt"
     }
    ]
   },
@@ -2262,8 +2264,8 @@
    "drops": [
     {
      "item": "Scoria Ore",
-     "min": 1,
-     "max": 1,
+     "min": 10,
+     "max": 26,
      "chance": 1.0,
      "note": "(After defeating<br/>Golem)",
      "condition": {
@@ -2272,20 +2274,6 @@
       ]
      },
      "conditionText": "After defeating Golem"
-    },
-    {
-     "item": "Abyss Ore",
-     "min": 10,
-     "max": 26,
-     "chance": 1.0,
-     "itemPage": "Abyss Ore.txt",
-     "note": "(After Golem has been defeated)",
-     "condition": {
-      "downed": [
-       "golem"
-      ]
-     },
-     "conditionText": "After Golem has been defeated"
     }
    ]
   },
@@ -2427,8 +2415,8 @@
     },
     {
      "item": "Mollusk Husk",
-     "min": 1,
-     "max": 1,
+     "min": 8,
+     "max": 15,
      "chance": 1.0,
      "note": "(In Hardmode)",
      "condition": {
@@ -2602,9 +2590,11 @@
     },
     {
      "item": "Depth Cells",
-     "min": 1,
-     "max": 1,
+     "min": 26,
+     "max": 38,
      "chance": 0.5,
+     "minExpert": 31,
+     "maxExpert": 45,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -3264,14 +3254,6 @@
      "min": 1,
      "max": 1,
      "chance": 0.01
-    },
-    {
-     "item": "Schematics",
-     "min": 1,
-     "max": 1,
-     "chance": 1.0,
-     "itemPage": "Schematics.txt",
-     "note": "(in their respective biomes and progression points)"
     }
    ]
   },
@@ -3776,8 +3758,10 @@
     {
      "item": "Depth Cells",
      "min": 1,
-     "max": 1,
+     "max": 2,
      "chance": 0.5,
+     "minExpert": 2,
+     "maxExpert": 3,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -3801,8 +3785,8 @@
     },
     {
      "item": "Scoria Ore",
-     "min": 1,
-     "max": 1,
+     "min": 3,
+     "max": 9,
      "chance": 1.0,
      "note": "(After defeating<br/>Golem)",
      "condition": {
@@ -3811,20 +3795,6 @@
       ]
      },
      "conditionText": "After defeating Golem"
-    },
-    {
-     "item": "Abyss Ore",
-     "min": 3,
-     "max": 9,
-     "chance": 1.0,
-     "itemPage": "Abyss Ore.txt",
-     "note": "(After Golem has been defeated)",
-     "condition": {
-      "downed": [
-       "golem"
-      ]
-     },
-     "conditionText": "After Golem has been defeated"
     }
    ]
   },
@@ -4189,9 +4159,11 @@
     },
     {
      "item": "Lumenyl",
-     "min": 1,
-     "max": 1,
+     "min": 8,
+     "max": 10,
      "chance": 1.0,
+     "minExpert": 10,
+     "maxExpert": 14,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -4202,8 +4174,8 @@
     },
     {
      "item": "Ectoplasm",
-     "min": 1,
-     "max": 1,
+     "min": 3,
+     "max": 5,
      "chance": 1.0,
      "note": "(After defeating<br/>Plantera)",
      "condition": {
@@ -4245,9 +4217,11 @@
     },
     {
      "item": "Lumenyl",
-     "min": 1,
-     "max": 1,
+     "min": 6,
+     "max": 8,
      "chance": 1.0,
+     "minExpert": 8,
+     "maxExpert": 11,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -4258,8 +4232,8 @@
     },
     {
      "item": "Ectoplasm",
-     "min": 1,
-     "max": 1,
+     "min": 8,
+     "max": 12,
      "chance": 1.0,
      "note": "(After defeating<br/>Plantera)",
      "condition": {
@@ -5043,8 +5017,8 @@
     },
     {
      "item": "Mollusk Husk",
-     "min": 1,
-     "max": 1,
+     "min": 6,
+     "max": 11,
      "chance": 1.0,
      "note": "(In Hardmode)",
      "condition": {
@@ -5179,9 +5153,11 @@
    "drops": [
     {
      "item": "Depth Cells",
-     "min": 1,
-     "max": 1,
+     "min": 2,
+     "max": 4,
      "chance": 0.5,
+     "minExpert": 3,
+     "maxExpert": 6,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -5708,9 +5684,11 @@
    "drops": [
     {
      "item": "Depth Cells",
-     "min": 1,
-     "max": 1,
+     "min": 6,
+     "max": 8,
      "chance": 0.5,
+     "minExpert": 8,
+     "maxExpert": 11,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -5721,9 +5699,11 @@
     },
     {
      "item": "Lumenyl",
-     "min": 1,
-     "max": 1,
+     "min": 2,
+     "max": 3,
      "chance": 0.5,
+     "minExpert": 3,
+     "maxExpert": 4,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -5754,8 +5734,8 @@
     },
     {
      "item": "Hadarian Membrane",
-     "min": 1,
-     "max": 1,
+     "min": 2,
+     "max": 3,
      "chance": 0.5,
      "note": "(After defeating Astrum Aureus)",
      "condition": {
@@ -6300,20 +6280,6 @@
      "min": 1,
      "max": 1,
      "chance": 1.0
-    },
-    {
-     "item": "Abyss Ore",
-     "min": 20,
-     "max": 50,
-     "chance": 1.0,
-     "itemPage": "Abyss Ore.txt",
-     "note": "(After Golem has been defeated)",
-     "condition": {
-      "downed": [
-       "golem"
-      ]
-     },
-     "conditionText": "After Golem has been defeated"
     }
    ]
   },
@@ -6342,9 +6308,11 @@
    "drops": [
     {
      "item": "Depth Cells",
-     "min": 1,
-     "max": 1,
+     "min": 2,
+     "max": 4,
      "chance": 0.5,
+     "minExpert": 3,
+     "maxExpert": 6,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -6567,8 +6535,10 @@
     {
      "item": "Depth Cells",
      "min": 1,
-     "max": 1,
+     "max": 2,
      "chance": 0.5,
+     "minExpert": 2,
+     "maxExpert": 3,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -6737,9 +6707,11 @@
    "drops": [
     {
      "item": "Depth Cells",
-     "min": 1,
-     "max": 1,
+     "min": 5,
+     "max": 7,
      "chance": 0.5,
+     "minExpert": 10,
+     "maxExpert": 14,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -7104,9 +7076,11 @@
    "drops": [
     {
      "item": "Depth Cells",
-     "min": 1,
-     "max": 1,
+     "min": 3,
+     "max": 5,
      "chance": 0.5,
+     "minExpert": 4,
+     "maxExpert": 7,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -8168,7 +8142,7 @@
     {
      "item": "Prism Shard",
      "min": 1,
-     "max": 1,
+     "max": 3,
      "chance": 1.0,
      "note": "(After defeating Desert Scourge)",
      "condition": {
@@ -8850,9 +8824,11 @@
     },
     {
      "item": "Depth Cells",
-     "min": 1,
-     "max": 1,
+     "min": 10,
+     "max": 17,
      "chance": 0.5,
+     "minExpert": 14,
+     "maxExpert": 22,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -9120,8 +9096,8 @@
     },
     {
      "item": "Martian Conduit Plating",
-     "min": 1,
-     "max": 1,
+     "min": 10,
+     "max": 29,
      "chance": 1.0,
      "note": "(After defeating Golem)",
      "condition": {
@@ -9133,15 +9109,15 @@
     },
     {
      "item": "Arean Conduit Plating",
-     "min": 1,
-     "max": 1,
+     "min": 10,
+     "max": 29,
      "chance": 1.0,
      "note": "(After defeating The Starborn Moth)"
     },
     {
      "item": "Shock Grenade",
-     "min": 1,
-     "max": 1,
+     "min": 5,
+     "max": 20,
      "chance": 0.009,
      "note": "(After defeating Golem)",
      "condition": {
@@ -9257,8 +9233,8 @@
     },
     {
      "item": "Strange Matter",
-     "min": 1,
-     "max": 1,
+     "min": 2,
+     "max": 3,
      "chance": 0.0016,
      "note": "(After defeating The Starborn Moth)"
     },
@@ -9818,9 +9794,11 @@
     },
     {
      "item": "Flame",
-     "min": 1,
-     "max": 1,
+     "min": 10,
+     "max": 20,
      "chance": 1.0,
+     "minExpert": 15,
+     "maxExpert": 30,
      "note": "(In Hardmode)",
      "condition": {
       "downed": [
@@ -10702,9 +10680,11 @@
     },
     {
      "item": "Ichor",
-     "min": 1,
-     "max": 1,
+     "min": 10,
+     "max": 20,
      "chance": 1.0,
+     "minExpert": 15,
+     "maxExpert": 30,
      "note": "(In Hardmode)",
      "condition": {
       "downed": [
@@ -11508,8 +11488,8 @@
     },
     {
      "item": "Purified Jam",
-     "min": 1,
-     "max": 1,
+     "min": 6,
+     "max": 8,
      "chance": 1.0,
      "note": "(Once per player and world)"
     },
@@ -11704,9 +11684,11 @@
    "drops": [
     {
      "item": "Depth Cells",
-     "min": 1,
-     "max": 1,
+     "min": 2,
+     "max": 3,
      "chance": 0.5,
+     "minExpert": 4,
+     "maxExpert": 6,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -11804,8 +11786,10 @@
     {
      "item": "Depth Cells",
      "min": 1,
-     "max": 1,
+     "max": 2,
      "chance": 0.5,
+     "minExpert": 2,
+     "maxExpert": 3,
      "note": "(After defeating<br/>Calamitas)",
      "condition": {
       "downed": [
@@ -11871,9 +11855,11 @@
     },
     {
      "item": "Abyss Ore",
-     "min": 1,
-     "max": 1,
+     "min": 22,
+     "max": 33,
      "chance": 0.2222,
+     "minExpert": 32,
+     "maxExpert": 43,
      "note": "(After defeating<br/>Golem)",
      "condition": {
       "downed": [
@@ -11884,9 +11870,11 @@
     },
     {
      "item": "Abyss Bar",
-     "min": 1,
-     "max": 1,
+     "min": 21,
+     "max": 22,
      "chance": 0.2222,
+     "minExpert": 22,
+     "maxExpert": 23,
      "note": "(After defeating Polterghast)",
      "condition": {
       "downed": [
@@ -11929,7 +11917,7 @@
     {
      "item": "Wulfrum Bar",
      "min": 1,
-     "max": 1,
+     "max": 3,
      "chance": 1.0
     },
     {
@@ -12355,7 +12343,7 @@
     {
      "item": "Wulfrum Metal Scrap",
      "min": 1,
-     "max": 1,
+     "max": 2,
      "chance": 1.0
     },
     {

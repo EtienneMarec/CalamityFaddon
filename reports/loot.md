@@ -2,10 +2,10 @@
 
 _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports/loot_applied.md`.
 
-- 365 PNJ, 1685 entrées de butin
-- 249 entrées avec condition en note (appliquées quand `parse_condition` la comprend, voir `reports/loot_applied.md`)
-- Pages d'objets (infobox « item drops ») : 322 drops ajoutés aux PNJ, 27 sources génériques ignorées (« any Jungle enemy »...)
-- 161 infobox avec des paramètres non compris
+- 365 PNJ, 1679 entrées de butin
+- 245 entrées avec condition en note (appliquées quand `parse_condition` la comprend, voir `reports/loot_applied.md`)
+- Pages d'objets (infobox « item drops ») : 316 drops ajoutés aux PNJ, 27 sources génériques ignorées (« any Jungle enemy »...)
+- 160 infobox avec des paramètres non compris
 
 ## Entrées conditionnelles
 
@@ -222,10 +222,6 @@ _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports
 | XP-00 Hypnos | The Exo Mechs (Lore) | (Always on first kill) |
 | Yggdrasil Ent | Elder Berry | (Once the player has used all [[Stamina Meter |
 | BOHLDOHR | SYNTAX ERROR | (After defeating Supreme Calamitas) |
-| Chaotic Puffer | Abyss Ore | (After Golem has been defeated) |
-| Cyber Draedon | Schematics | (in their respective biomes and progression points) |
-| Devil Fish | Abyss Ore | (After Golem has been defeated) |
-| La Ruga | Abyss Ore | (After Golem has been defeated) |
 | Profaned Guardians | Relic of Convergence | (Crystal) |
 | Profaned Guardians | Relic of Resilience | (Rock) |
 | Scryllar | Guidelight of Oblivion | (after Providence has been defeated) |
@@ -324,7 +320,6 @@ Dung Defender Stagger.png, Staggered
 - Ectoheart (page d'objet) : Polterghast | 1 | {{revengeance|100%}}
 - Elder Berry (page d'objet) : Profaned Energy<br/>Impious Immolator<br/>Scorn Eater | 1 | {{revengeance|5%}}
 - Electrolyte Gel Pack (page d'objet) : The Slime God | 1 | {{revengeance|100%}}
-- Entropic Armor (page d'objet) : Purgatory Arbiter, Umbrus | 1 piece of armor | 50%
 - Essence of Babil (page d'objet) : Angry Trapper | 4 | 100% (during a [[Windy Day]])
 - Essence of Chaos (page d'objet) : Despair Stone<br/>Scryllar<br/>Soul Slurper<br/>Calamity Eye<br/>Cultist Assassi
 - Essence of Rend (page d'objet) : Angry Bones<br/>Dungeon Slime | 1 | 33.33% in [[Hardmode]]
