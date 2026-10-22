@@ -244,8 +244,14 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** **Sandy Angling Kit** porté depuis 2.0.1.005 (retiré de Calamity, lâché par le Desert Scourge sur le
   wiki) : chances du vieux code, identiques à la page ; pile 9999 et sans valeur (infobox).
 
-- **[choix]** Conquest Fragment (Pearl Shard) : sprite du wiki (`Assets/Overrides/Items/PearlShard.png`), dans tous les
-  modes, comme son nom. Icône seulement : la taille de la hitbox reste celle de Calamity.
+- **[validé 22/10]** **Sprites du wiki** pour les objets de Calamity dont l'image diffère (`tools/gen_sprites.py`,
+  `reports/sprites.md`) : objets **renommés** (Conquest Fragment, Divine Bar, Victide Bar...) → sprite du wiki dans
+  **tous les modes**, comme leur nom ; objets **officiels** au sprite refait par Calamity depuis 2022 → sprite du wiki en
+  **Full Fandom** seulement (Calamity++ garde le sprite actuel).
+  **[technique]** Icône seulement (la hitbox garde sa taille). Images « presque identiques » (compression WebP, x2)
+  comptées comme identiques. Ignorés : objets animés de Calamity (76, dont Abyss Bar, Cruel Jewel, Graydron : le wiki
+  n'a qu'une image fixe, et Graydron dessine ses propres textures), murs (le wiki montre le mur posé), illustrations
+  de plus de 96 px. Une image faite à la main dans `Assets/Overrides/Items/` passe avant.
 
 ## 9. Outils de debug (`Content/Debug/`, sans recette)
 

@@ -127,7 +127,11 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
       le wiki : supprimée le 22/10) et un **Sandy Angling Kit** (porté le 22/10) ; Conquest Fragment : 25-30
 - [x] Sandy Angling Kit : clic droit = objets de pêche (Tackle Box, Angler Hat, potions de pêche...), Golden Bug Net
       seulement après Skeletron ; sprite de 2022
-- [ ] Conquest Fragment (Pearl Shard) : sprite du wiki (éclat bleu et doré) dans l'inventaire et au sol
+- [ ] Conquest Fragment (Pearl Shard) : sprite du wiki (éclat bleu et doré) dans l'inventaire et au sol, **dans les
+      deux modes** ; idem Victide Bar, Divine Bar, Parched Scale (liste : `reports/sprites.md`)
+- [ ] **Full Fandom** : des objets au sprite refait depuis 2022 reprennent celui du wiki (ex.
+      The Ballista, Purified Gel, Exoblade, Radiant Star) ; **Calamity++** : sprites actuels
+- [ ] Aucun sprite remplacé n'est coupé, décalé ou énorme dans l'inventaire (en Full Fandom, parcourir Cheat Sheet)
 
 ---
 

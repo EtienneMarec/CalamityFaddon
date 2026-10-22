@@ -1,4 +1,4 @@
-"""Régénère toutes les données du wiki, dans l'ordre : pages d'éléments du wiki (depuis le code), index, textes, stats, recettes, éléments, objets simples, butin.
+"""Régénère toutes les données du wiki, dans l'ordre : pages d'éléments du wiki (depuis le code), index, textes, stats, recettes, éléments, objets simples, butin, sprites.
 tools/apply_modes.py n'est pas lancé ici : il réécrit des pages, à lancer exprès (docs/WIKI.md).
 
 Usage : python tools/build_data.py
@@ -8,7 +8,7 @@ import os
 import subprocess
 import sys
 
-STEPS = ["test_modes.py", "gen_element_pages.py", "wiki_index.py", "gen_localization.py", "gen_stats.py", "gen_recipes.py", "gen_baseline.py", "gen_elements.py", "gen_items.py", "gen_loot.py"]
+STEPS = ["test_modes.py", "gen_element_pages.py", "wiki_index.py", "gen_localization.py", "gen_stats.py", "gen_recipes.py", "gen_baseline.py", "gen_elements.py", "gen_items.py", "gen_loot.py", "gen_sprites.py"]
 
 
 def main():

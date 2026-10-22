@@ -264,6 +264,9 @@ namespace CalamityFandom.Common.Debug
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == zwei && r.requiredItem.Any(i => i.type == gaze)),
                 "la recette de Zweihandromeda demande Night's Gaze");
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == gaze), "Night's Gaze a une recette");
+            // Sprites du wiki (tools/gen_sprites.py) : présents dans le .tmod (le serveur ne les applique pas)
+            Expect(Mod.FileExists("Assets/Overrides/Generated/Items/PearlShard.rawimg"), "sprite du wiki de Conquest Fragment (tous les modes)");
+            Expect(Mod.GetFileNames().Count(f => f.StartsWith("Assets/Overrides/Generated/Full/Items/")) > 200, "sprites du wiki réservés au Full Fandom");
             // Sandy Angling Kit : porté, lâché par le Desert Scourge (butin du wiki), se vide d'objets de pêche
             int kit = WikiRecipes.ResolveItem("Sandy Angling Kit");
             Expect(kit > 0 && ItemLoader.GetItem(kit)?.Mod == Mod, "Sandy Angling Kit porté et trouvable par son nom");

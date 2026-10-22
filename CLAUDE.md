@@ -32,6 +32,7 @@ python tools/gen_localization.py                # glossary.json -> textes de Cal
 python tools/gen_stats.py                       # infobox -> WikiData/stats.json (stats appliquées en jeu)
 python tools/gen_recipes.py                     # Recipes_*_register -> WikiData/recipes.json
 python tools/gen_element_pages.py               # code des éléments -> pages du wiki (lancé par build_data.py)
+python tools/gen_sprites.py                     # sprites du wiki -> Assets/Overrides/Generated/ (renommés ; Full Fandom)
 python tools/apply_modes.py                     # stats « Full Fandom seulement » -> {{mode}} sur les pages (à la main)
 python tools/test_modes.py                      # tests de {{mode}} dans les générateurs (lancé par build_data.py)
 python tools/selftest.py                        # serveur sans interface + Common/Debug/SelfTest.cs (jeu fermé :
