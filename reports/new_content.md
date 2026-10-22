@@ -24,7 +24,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Angel's Thesis — addon: Calamity: Community Remix
 - [ ] Animus
 - [ ] Aquarel Pistol — addon: Calamity: Tales of the Aquatic
-- [ ] Aquatic Discharge
+- [x] Aquatic Discharge
 - [ ] Aquatic Dissolution
 - [ ] Arkflammator — addon: Calamity: Tales of the Aquatic
 - [ ] Arngren — addon: Calamity: Community Remix
@@ -149,7 +149,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Earthen Clicker
 - [ ] Earthshooter — addon: Calamity: Tales of the Aquatic
 - [ ] Ecological Collapse
-- [ ] Effluvium Bow
+- [x] Effluvium Bow
 - [ ] Electrical Discharge
 - [ ] Elemental Axe
 - [ ] Elemental Bow
@@ -369,7 +369,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Sandstorm (weapon)
 - [ ] Sea Stone Shuriken
 - [ ] Sea Stone Sickle
-- [ ] Seabound Staff
+- [x] Seabound Staff
 - [ ] Seabow
 - [ ] Seared Shredder
 - [ ] Seashell Boomerang
@@ -412,7 +412,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Stellar Kunai
 - [ ] Sticky Spiky Ball
 - [ ] Storm Dragoon
-- [ ] Storm Spray
+- [x] Storm Spray
 - [ ] Stratoctrine Spear — addon: Calamity: Tales of the Aquatic
 - [ ] Stringstreaker — addon: Calamity: Tales of the Aquatic
 - [ ] Summit Breaker
@@ -786,7 +786,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Ravenous Soul Artifact
 - [ ] Red Bow
 - [ ] Red Wings
-- [ ] Regenator
+- [x] Regenator
 - [ ] Regeterrence — addon: Calamity: Tales of the Aquatic
 - [ ] Rusty Medallion
 - [ ] Sanguined Catarachedrae — addon: Calamity: Tales of the Aquatic
@@ -1480,7 +1480,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 - [ ] Abyssal Crate
 - [ ] Babilfish — addon: Calamity: Community Remix
-- [ ] Bleached Angling Kit
+- [x] Bleached Angling Kit
 - [ ] Chaotic Fish
 - [ ] Contusion Fish — addon: Deimos, the Starborn Princess
 - [ ] Crates — pas de sprite; addon: Calamity: Community Remix

@@ -163,7 +163,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (553)
+## Objets (549)
 
 - A M S
 - AAMG "Disperse"
@@ -185,7 +185,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Angel's Thesis
 - Animus
 - Aquarel Pistol
-- Aquatic Discharge
 - Aquatic Dissolution
 - Aquatic Shardstone
 - Arcanoid Orb
@@ -318,7 +317,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Earthshooter
 - Ecological Collapse
 - Edgeterrence
-- Effluvium Bow
 - Electrical Discharge
 - Elemental Axe
 - Elemental Bow
@@ -556,7 +554,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Sandstorm (weapon)
 - Sanguined Catarachedrae
 - SDOMG
-- Seabound Staff
 - Seabow
 - Seared Shredder
 - Seashell Boomerang
@@ -599,7 +596,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Stellar Kunai
 - Sticky Spiky Ball
 - Storm Dragoon
-- Storm Spray
 - Stratoctrine Spear
 - Stringstreaker
 - Summit Breaker

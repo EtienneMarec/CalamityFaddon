@@ -134,6 +134,11 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
 - [ ] **Butin des pages d'objets** (nuit du 22/10) : le Wall of Flesh lâche aussi 3-5 Twisted Tendril, Plantera 4-8
       Essence of Babil, les Zombies parfois de la Disgusting Meat (visible dans le bestiaire) ; en Full Fandom, le Wall
       of Flesh garde tout son butin vanilla
+- [ ] **Portages de la nuit du 22/10** (Cheat Sheet) : Bleached Angling Kit (clic droit, lâché par l'Aquatic Scourge),
+      Seabound Staff (une étoile de mer sbire au curseur), Effluvium Bow (2 flèches, flèches en bois → Mist Arrow),
+      Regenator (vie max divisée par 2, régénération rapide), Storm Spray (jet d'eau qui goutte), Aquatic Discharge
+      (estoc, étincelles au sol quand un ennemi meurt)
+- [ ] Desert Scourge (mode normal) : peut aussi lâcher Seabound Staff, Storm Spray ou Aquatic Discharge (25 % chacun)
 - [ ] Conquest Fragment (Pearl Shard) : sprite du wiki (éclat bleu et doré) dans l'inventaire et au sol, **dans les
       deux modes** ; idem Victide Bar, Divine Bar, Parched Scale (liste : `reports/sprites.md`)
 - [ ] **Full Fandom** : des objets au sprite refait depuis 2022 reprennent celui du wiki (ex.

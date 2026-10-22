@@ -15,7 +15,7 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 ## Phase 1 — « Ça ressemble au wiki » (fait, nuit du 21/10)
 
 - [x] Renommages et vocabulaire (Graydron, Tarragon, Spy, Coverings...) — `tools/glossary.json`
-- [x] Stats des infobox sur 1033 objets et 67 PNJ — **38 écarts extrêmes à trancher** (`reports/stats.md`)
+- [x] Stats des infobox sur 1033 objets et 67 PNJ — écarts extrêmes tranchés (`tools/stats_decisions.json`)
 - [x] Recettes du wiki : 900 objets (Calamity + matériaux du wiki), Shimmer
 - [x] Matériaux du wiki générés automatiquement (218)
 - [x] Butin du wiki ajouté (additif)
@@ -26,6 +26,7 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 - [ ] Éléments des armures (« Elements » des Coverings) → résistances du joueur
 - [ ] Classe Spy : proficiency, Level Meters, stealth tel que décrit (pages `Spy.txt`, `Level Meters`)
 - [ ] Wind : dégâts à l'atterrissage
+- [ ] **Shortstrike / Shortflurry** (jauge des épées courtes et attaques spéciales, page Shortstrike)
 - [ ] Autres pages « Game mechanics » (catégorie dans l'index)
 
 ## Phase 3 — Compléter les fondations de données
@@ -60,6 +61,8 @@ laisser de côté ceux qui existent réellement sur le Workshop.
 
 ## Décisions en attente (pour l'utilisateur)
 
-1. Les 38 écarts de stats extrêmes (`reports/stats.md`) : appliquer, ignorer, ou corriger la page.
+Voir aussi `docs/TESTS.md` → « Décisions en attente » et les marqueurs **[choix]** de `docs/decisions.md`.
+
+1. ~~Les écarts de stats extrêmes~~ : tous tranchés (`tools/stats_decisions.json`).
 2. Les choix d'équilibrage du système d'éléments (`docs/decisions.md`) : à valider en jeu.
 3. Le sort des addons (phase 5).

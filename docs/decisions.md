@@ -266,6 +266,18 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   n'a qu'une image fixe, et Graydron dessine ses propres textures), murs (le wiki montre le mur posé), illustrations
   de plus de 96 px. Une image faite à la main dans `Assets/Overrides/Items/` passe avant.
 
+- **[choix]** Portages de la nuit du 22/10 (vieux code de 2.0.1.005, valeurs du wiki là où elles diffèrent) :
+  **Bleached Angling Kit** (table de sa page), **Seabound Staff** (réutilise le sbire et le buff du Brittle Star
+  Staff actuel), **Effluvium Bow** (Mist Arrow de Calamity ; l'option « tir à bout portant » n'existe plus),
+  **Regenator** (effet disparu du code actuel : repris de 2.0.1.005, vie max x0,5, régénération +12), **Storm Spray**,
+  **Aquatic Discharge** (use 12 ; étincelles quand le coup **tue**, comme le dit la page, au lieu de chaque coup).
+  **[technique]** « Calamitas Mask » = l'actuel Calamitas Clone Mask : simple alias.
+- **[choix]** Groupe « One of the following N items » dont le jeu ne donne qu'une partie (Desert Scourge : Calamity a
+  gardé Barinade et Scourge of the Desert, remplacé les autres) : les objets absents sont ajoutés un par un avec leur
+  chance de la page (Seabound Staff, Storm Spray, Aquatic Discharge à 25 %), en plus du groupe du jeu.
+- **À faire** : « Shortstrike » / « Shortflurry » (page Shortstrike : jauge des épées courtes, attaque spéciale), système
+  inventé par le wiki dont dépend l'Aquatic Discharge ; Gravistar Sabaton et Blazing Core (effets à recréer).
+
 ## 9. Outils de debug (`Content/Debug/`, sans recette)
 
 - **[choix]** Fandom Test Vial : applique 10 s le debuff choisi au joueur et à l'ennemi le plus proche (Moon Burnt,

@@ -35,12 +35,54 @@ Items: {
 			'''
 	}
 
+	BleachedAnglingKit: {
+		DisplayName: Bleached Angling Kit
+		Tooltip:
+			'''
+			Has a chance to contain various fishing gear
+			{$CommonItemTooltip.RightClickToOpen}
+			'''
+	}
+
 	SandyAnglingKit: {
 		DisplayName: Sandy Angling Kit
 		Tooltip:
 			'''
 			Has a chance to contain various fishing gear
 			{$CommonItemTooltip.RightClickToOpen}
+			'''
+	}
+
+	SeaboundStaff: {
+		DisplayName: Seabound Staff
+		Tooltip: Summons a brittle star to fight for you
+	}
+
+	EffluviumBow: {
+		DisplayName: Effluvium Bow
+		Tooltip:
+			'''
+			Fires two arrows at once
+			Converts wooden arrows into mist arrows
+			'''
+	}
+
+	Regenator: {
+		DisplayName: Regenator
+		Tooltip: Reduces max HP by 50% but greatly improves life regeneration
+	}
+
+	StormSpray: {
+		DisplayName: Storm Spray
+		Tooltip: Fires a spray of water that drips extra trails of water
+	}
+
+	AquaticDischarge: {
+		DisplayName: Aquatic Discharge
+		Tooltip:
+			'''
+			Enemies release electric sparks on death
+			Shortflurry attacks paralyze enemies
 			'''
 	}
 
@@ -65,6 +107,10 @@ Projectiles: {
 	NightsGazeProjectile.DisplayName: Night's Gaze
 	NightsGazeStar.DisplayName: Night's Gaze Star
 	NightsGazeSpark.DisplayName: Night's Gaze Spark
+	WaterStream.DisplayName: Stream
+	WaterStreamDrip.DisplayName: Stream
+	AquaticDischargeProj.DisplayName: Aquatic Discharge
+	AquaticDischargeSpark.DisplayName: Spark
 }
 
 Elements: {

@@ -6,7 +6,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 324 recettes du wiki déjà identiques au jeu
 - 60 transmutations Shimmer ajoutées
-- 181 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 254 recettes
+- 179 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 252 recettes
 
 ## Recettes changées
 
@@ -1045,7 +1045,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Divine Intervention — 1
 - objet : Draedon's Remote — 1
 - objet : Dual Cane — 1
-- objet : Effluvium Bow — 1
 - objet : Elemental Axe — 1
 - objet : Elemental Bow — 1
 - objet : Elemental Claymore — 1
@@ -1116,7 +1115,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Quintessence Cannon — 1
 - objet : Ram's Revenge — 1
 - objet : Rare Elemental in a Bottle — 1
-- objet : Regenator — 1
 - objet : Rogue Emblem — 1
 - objet : Rose Bow — 1
 - objet : Rusty Medallion — 1

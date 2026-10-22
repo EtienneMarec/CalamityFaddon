@@ -272,6 +272,15 @@ namespace CalamityFandom.Common.Debug
             Expect(kit > 0 && ItemLoader.GetItem(kit)?.Mod == Mod, "Sandy Angling Kit porté et trouvable par son nom");
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Sandy Angling Kit")), "le Desert Scourge lâche le Sandy Angling Kit");
             Expect(kit > 0 && Main.ItemDropsDB.GetRulesForItemID(kit).Count > 0, "le Sandy Angling Kit a un contenu");
+            // Lot de portages du 22/10 : trouvables par leur nom du wiki, et lâchés là où le wiki le dit
+            foreach (string name in new[] { "Bleached Angling Kit", "Seabound Staff", "Effluvium Bow", "Regenator", "Storm Spray", "Aquatic Discharge" })
+            {
+                int type = WikiRecipes.ResolveItem(name);
+                Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté et trouvable par son nom");
+            }
+            Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Seabound Staff")), "le Desert Scourge lâche le Seabound Staff (groupe partiel)");
+            Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Bleached Angling Kit")), "l'Aquatic Scourge lâche le Bleached Angling Kit");
+            Expect(!WikiLoot.MissingItems.ContainsKey("Calamitas Mask"), "Calamitas Mask = Calamitas Clone Mask (alias du butin)");
             // Abyss Bar : « note=(Post-Golem) » invisible sur le wiki, donc sans condition (décision du 22/10)
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith(Lang.GetItemNameValue(WikiRecipes.ResolveItem("Abyss Bar")) + " 3-8")),
                 "le Desert Scourge lâche des Abyss Bar sans condition");

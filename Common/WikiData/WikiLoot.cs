@@ -229,7 +229,6 @@ namespace CalamityFandom.Common.WikiData
                         continue;
                     }
                 }
-                IItemDropRule If(IItemDropRule rule) => condition == null ? rule : When(condition, rule);
                 int item = Resolve(drop);
                 if (item <= 0)
                     continue;
@@ -242,7 +241,12 @@ namespace CalamityFandom.Common.WikiData
                     list.Add((item, drop));
                     continue;
                 }
+                AddOne(item, drop, condition);
+            }
 
+            void AddOne(int item, DropData drop, WikiLootCondition condition)
+            {
+                IItemDropRule If(IItemDropRule rule) => condition == null ? rule : When(condition, rule);
                 string when = condition == null ? "" : $" [{drop.ConditionText}]";
                 string what = Describe(item, drop.Min, drop.Max, drop.Chance) + when;
                 if (!boss)
@@ -251,7 +255,7 @@ namespace CalamityFandom.Common.WikiData
                         AlreadyDropped++;
                     else
                         RegisterNPC(npc, If(NormalDrop(item, drop)), what);
-                    continue;
+                    return;
                 }
                 if (avail.TryGetValue(item, out var a) && a.normal)
                     AlreadyDropped++;
@@ -272,9 +276,19 @@ namespace CalamityFandom.Common.WikiData
                 }
             }
 
-            // « One of the following N items will always drop » : un parmi le groupe, sauf si le jeu en donne déjà un
+            // « One of the following N items will always drop » : un parmi le groupe, sauf si le jeu en donne déjà un. Si le
+            // jeu n'en donne qu'une partie (Calamity a remplacé des armes du Desert Scourge), les objets absents sont
+            // ajoutés un par un avec leur chance de la page.
             foreach (var entries in groups.Values)
             {
+                var missing = entries.Where(e => !avail.ContainsKey(e.item)).ToList();
+                if (missing.Count > 0 && missing.Count < entries.Count)
+                {
+                    AlreadyDropped += entries.Count - missing.Count;
+                    foreach (var (item, drop) in missing)
+                        AddOne(item, drop, null);
+                    continue;
+                }
                 int[] items = entries.Select(e => e.item).ToArray();
                 IItemDropRule OneOf() => items.Length == 1 ? ItemDropRule.Common(items[0]) : ItemDropRule.OneFromOptionsNotScalingWithLuck(1, items);
                 string what = "un parmi : " + string.Join(", ", items.Select(Lang.GetItemNameValue));
