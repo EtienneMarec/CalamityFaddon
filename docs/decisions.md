@@ -244,6 +244,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** **Sandy Angling Kit** porté depuis 2.0.1.005 (retiré de Calamity, lâché par le Desert Scourge sur le
   wiki) : chances du vieux code, identiques à la page ; pile 9999 et sans valeur (infobox).
 
+- **[choix]** Conquest Fragment (Pearl Shard) : sprite du wiki (`Assets/Overrides/Items/PearlShard.png`), dans tous les
+  modes, comme son nom. Icône seulement : la taille de la hitbox reste celle de Calamity.
+
 ## 9. Outils de debug (`Content/Debug/`, sans recette)
 
 - **[choix]** Fandom Test Vial : applique 10 s le debuff choisi au joueur et à l'ennemi le plus proche (Moon Burnt,
