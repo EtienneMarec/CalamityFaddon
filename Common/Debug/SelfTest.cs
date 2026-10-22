@@ -318,6 +318,9 @@ namespace CalamityFandom.Common.Debug
                 Expect(WikiLoot.BestiaryLines.TryGetValue(npc, out int lines) && shown == lines,
                     $"bestiaire de {Lang.GetNPCNameValue(npc)} : {shown} lignes pour {lines} drops recopiés");
             }
+            // Conditions écrites en note (« After defeating Calamitas », « In Hardmode »...) : appliquées
+            Expect(WikiLoot.Conditioned > 50, $"drops du wiki avec leur condition : {WikiLoot.Conditioned}");
+            Expect(WikiLoot.Added.Any(a => a.what.Contains("[After defeating Calamitas]")), "Lumenyl après Calamitas (ennemis des abysses)");
             // Sac au trésor jamais retiré (documenté par la page Treasure Bag), même en Full Fandom
             if (ModContent.TryFind<ModNPC>("CalamityMod", "DesertScourgeHead", out var scourge) && ModContent.TryFind<ModItem>("CalamityMod", "DesertScourgeBag", out var bag))
             {
@@ -342,7 +345,7 @@ namespace CalamityFandom.Common.Debug
             string reports = ReportsFolder;
             if (!string.IsNullOrEmpty(reports))
                 WikiLoot.WriteReport(reports);
-            Report($"butin : {WikiLoot.Added.Count} drops ajoutés, {WikiLoot.AddedToBags.Count} dans les sacs ({WikiLoot.RemovedFromBags} retirés), {WikiLoot.AlreadyDropped} déjà présents, {WikiLoot.Conditional} conditionnels ignorés, "
+            Report($"butin : {WikiLoot.Added.Count} drops ajoutés, {WikiLoot.AddedToBags.Count} dans les sacs ({WikiLoot.RemovedFromBags} retirés), {WikiLoot.AlreadyDropped} déjà présents, {WikiLoot.Conditioned} avec condition, {WikiLoot.Conditional} conditionnels ignorés, "
                 + $"{WikiLoot.MissingNPCs.Count} PNJ et {WikiLoot.MissingItems.Count} objets introuvables");
         }
 

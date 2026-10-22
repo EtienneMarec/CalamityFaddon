@@ -35,6 +35,9 @@ namespace CalamityFandom.Common.WikiData
             public int? MaxExpert { get; set; }
             public double? ChanceExpert { get; set; }
             public string Note { get; set; }
+            /// <summary>Condition de la note comprise par gen_loot.py (boss vaincus, biome, premier kill).</summary>
+            public WikiLootCondition.Data Condition { get; set; }
+            public string ConditionText { get; set; }
             public int Group { get; set; }
             public bool GroupAlways { get; set; }
             /// <summary>Objet seulement cité (ligne « custom » sans chance : sac, relique) : pas ajouté, pas retiré.</summary>
@@ -72,7 +75,7 @@ namespace CalamityFandom.Common.WikiData
         public static List<(int npc, IItemDropRule rule, string what)> Added { get; } = new();
         /// <summary>Règles ajoutées aux sacs (type du sac, règle, description).</summary>
         public static List<(int bag, IItemDropRule rule, string what)> AddedToBags { get; } = new();
-        public static int AlreadyDropped, Conditional, RemovedNotOnWiki, RemovedFromBags;
+        public static int AlreadyDropped, Conditional, Conditioned, RemovedNotOnWiki, RemovedFromBags;
         /// <summary>Lignes de butin écrites dans le bestiaire, par PNJ qui a sa propre entrée (pour l'auto-test).</summary>
         public static Dictionary<int, int> BestiaryLines { get; } = new();
         public static SortedDictionary<string, int> MissingItems { get; } = new();
@@ -92,7 +95,7 @@ namespace CalamityFandom.Common.WikiData
             BestiaryLines.Clear();
             MissingItems.Clear();
             MissingNPCs.Clear();
-            AlreadyDropped = Conditional = RemovedNotOnWiki = RemovedFromBags = 0;
+            AlreadyDropped = Conditional = Conditioned = RemovedNotOnWiki = RemovedFromBags = 0;
         }
 
         // Après les recettes : les noms traduits sont disponibles et la base de butin est remplie
@@ -210,14 +213,23 @@ namespace CalamityFandom.Common.WikiData
             {
                 if (!FandomMode.Applies(drop.Modes) || drop.Listed)
                     continue;
+                // Condition en note : appliquée si le jeu sait la vérifier, sinon le drop reste de côté (rapport)
+                WikiLootCondition condition = null;
                 if (!string.IsNullOrEmpty(drop.Note))
                 {
-                    Conditional++;
-                    continue;
+                    condition = WikiLootCondition.TryCreate(drop.Condition, drop.ConditionText);
+                    if (condition == null || drop.Group > 0 && drop.GroupAlways)
+                    {
+                        Conditional++;
+                        continue;
+                    }
                 }
+                IItemDropRule If(IItemDropRule rule) => condition == null ? rule : When(condition, rule);
                 int item = Resolve(drop);
                 if (item <= 0)
                     continue;
+                if (condition != null)
+                    Conditioned++;
                 if (drop.Group > 0 && drop.GroupAlways)
                 {
                     if (!groups.TryGetValue(drop.Group, out var list))
@@ -226,29 +238,31 @@ namespace CalamityFandom.Common.WikiData
                     continue;
                 }
 
-                string what = Describe(item, drop.Min, drop.Max, drop.Chance);
+                string when = condition == null ? "" : $" [{drop.ConditionText}]";
+                string what = Describe(item, drop.Min, drop.Max, drop.Chance) + when;
                 if (!npcData.Boss)
                 {
                     if (avail.ContainsKey(item))
                         AlreadyDropped++;
                     else
-                        RegisterNPC(npc, NormalDrop(item, drop), what);
+                        RegisterNPC(npc, If(NormalDrop(item, drop)), what);
                     continue;
                 }
                 if (avail.TryGetValue(item, out var a) && a.normal)
                     AlreadyDropped++;
                 else
-                    RegisterNPC(npc, When(new Conditions.NotExpert(), NormalDrop(item, drop)), what + " (mode normal)");
+                    RegisterNPC(npc, When(new Conditions.NotExpert(), If(NormalDrop(item, drop))), what + " (mode normal)");
 
-                string expertWhat = Describe(item, drop.MinExpert ?? drop.Min, drop.MaxExpert ?? drop.Max, drop.ChanceExpert ?? drop.Chance);
-                if (expertDirect)
+                string expertWhat = Describe(item, drop.MinExpert ?? drop.Min, drop.MaxExpert ?? drop.Max, drop.ChanceExpert ?? drop.Chance) + when;
+                // Premier kill, biome : à vérifier sur le boss lui-même, pas à l'ouverture du sac
+                if (expertDirect || condition is { WorksInBag: false })
                 {
                     if (!(avail.TryGetValue(item, out a) && a.expert))
-                        RegisterNPC(npc, When(new Conditions.IsExpert(), ExpertDrop(item, drop)), expertWhat + " (Expert, direct)");
+                        RegisterNPC(npc, When(new Conditions.IsExpert(), If(ExpertDrop(item, drop))), expertWhat + " (Expert, direct)");
                 }
                 else if (!bagAvail.ContainsKey(item))
                 {
-                    RegisterBag(bag, ExpertDrop(item, drop), expertWhat);
+                    RegisterBag(bag, If(ExpertDrop(item, drop)), expertWhat);
                     bagAvail[item] = (true, true);
                 }
             }
@@ -400,7 +414,8 @@ namespace CalamityFandom.Common.WikiData
             sb.AppendLine($"- {Added.Count} drops ajoutés sur {Added.Select(a => a.npc).Distinct().Count()} PNJ");
             sb.AppendLine($"- {AddedToBags.Count} ajouts dans {AddedToBags.Select(a => a.bag).Distinct().Count()} sacs");
             sb.AppendLine($"- {AlreadyDropped} drops du wiki déjà présents dans le jeu (inchangés)");
-            sb.AppendLine($"- {Conditional} drops à condition écrite en note, non appliqués (voir `reports/loot.md`)");
+            sb.AppendLine($"- {Conditioned} drops avec leur condition (boss vaincu, biome, premier kill)");
+            sb.AppendLine($"- {Conditional} drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)");
             sb.AppendLine($"- {MissingNPCs.Count} PNJ du wiki absents du jeu, {MissingItems.Count} objets introuvables").AppendLine();
             sb.AppendLine("## Ajouts").AppendLine();
             foreach (var group in Added.GroupBy(a => a.npc).OrderBy(g => Lang.GetNPCNameValue(g.Key)))

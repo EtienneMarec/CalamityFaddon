@@ -170,21 +170,39 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(After defeating<br/>Moon Lord)"
+     "note": "(After defeating<br/>Moon Lord)",
+     "condition": {
+      "downed": [
+       "moon lord"
+      ]
+     },
+     "conditionText": "After defeating Moon Lord"
     },
     {
      "item": "Lumenyl",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Ectoplasm",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(After defeating<br/>Plantera)"
+     "note": "(After defeating<br/>Plantera)",
+     "condition": {
+      "downed": [
+       "plantera"
+      ]
+     },
+     "conditionText": "After defeating Plantera"
     },
     {
      "item": "Eidolic Wail",
@@ -333,7 +351,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -430,7 +452,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Treasure Bag (Amazon)",
@@ -453,7 +479,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.3333,
-     "note": "(After defeating<br/>Cryogen)"
+     "note": "(After defeating<br/>Cryogen)",
+     "condition": {
+      "downed": [
+       "cryogen"
+      ]
+     },
+     "conditionText": "After defeating Cryogen"
     }
    ]
   },
@@ -578,14 +610,22 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Sulphur Sea (Lore)",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -620,7 +660,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.1429,
-     "note": "(After defeating Astrum Aureus)"
+     "note": "(After defeating Astrum Aureus)",
+     "condition": {
+      "downed": [
+       "astrum aureus"
+      ]
+     },
+     "conditionText": "After defeating Astrum Aureus"
     }
    ]
   },
@@ -737,7 +783,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Treasure Pod (Astrageldon )",
@@ -883,14 +933,22 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Astral Deus (Lore)",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -938,7 +996,13 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(After defeating<br/>Astrum Deus)"
+     "note": "(After defeating<br/>Astrum Deus)",
+     "condition": {
+      "downed": [
+       "astrum deus"
+      ]
+     },
+     "conditionText": "After defeating Astrum Deus"
     },
     {
      "item": "Titan Finger",
@@ -951,7 +1015,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.05,
-     "note": "(After defeating<br/>Astrum Aureus)"
+     "note": "(After defeating<br/>Astrum Aureus)",
+     "condition": {
+      "downed": [
+       "astrum aureus"
+      ]
+     },
+     "conditionText": "After defeating Astrum Aureus"
     }
    ]
   },
@@ -978,7 +1048,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.1429,
-     "note": "(After defeating Astrum Aureus)"
+     "note": "(After defeating Astrum Aureus)",
+     "condition": {
+      "downed": [
+       "astrum aureus"
+      ]
+     },
+     "conditionText": "After defeating Astrum Aureus"
     }
    ]
   },
@@ -1080,7 +1156,13 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(After defeating Moon Lord)"
+     "note": "(After defeating Moon Lord)",
+     "condition": {
+      "downed": [
+       "moon lord"
+      ]
+     },
+     "conditionText": "After defeating Moon Lord"
     },
     {
      "item": "Leonid Progenitor",
@@ -1111,7 +1193,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Treasure Bag (Astrum Aureus)",
@@ -1160,7 +1246,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.1429,
-     "note": "(After defeating Astrum Aureus)"
+     "note": "(After defeating Astrum Aureus)",
+     "condition": {
+      "downed": [
+       "astrum aureus"
+      ]
+     },
+     "conditionText": "After defeating Astrum Aureus"
     }
    ]
   },
@@ -1240,7 +1332,13 @@
      "max": 1,
      "chance": 0.75,
      "chanceExpert": 1.0,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     }
    ]
   },
@@ -1367,7 +1465,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     }
    ]
   },
@@ -1453,14 +1557,26 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Bobbit Hook",
      "min": 1,
      "max": 1,
      "chance": 0.3333,
-     "note": "(After defeating<br/>Polterghast)"
+     "note": "(After defeating<br/>Polterghast)",
+     "condition": {
+      "downed": [
+       "polterghast"
+      ]
+     },
+     "conditionText": "After defeating Polterghast"
     }
    ]
   },
@@ -1474,7 +1590,13 @@
      "max": 1,
      "chance": 0.02,
      "chanceExpert": 0.025,
-     "note": "(After defeating Skeletron)"
+     "note": "(After defeating Skeletron)",
+     "condition": {
+      "downed": [
+       "skeletron"
+      ]
+     },
+     "conditionText": "After defeating Skeletron"
     },
     {
      "item": "Jellyfish Necklace",
@@ -1501,7 +1623,13 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Once [[Providence, the Profaned Goddess"
+     "note": "(Once [[Providence, the Profaned Goddess",
+     "condition": {
+      "downed": [
+       "providence"
+      ]
+     },
+     "conditionText": "Once Providence, the Profaned Goddess"
     },
     {
      "item": "Brimlance",
@@ -1541,7 +1669,13 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(After defeating [[Providence, the Profaned Goddess"
+     "note": "(After defeating [[Providence, the Profaned Goddess",
+     "condition": {
+      "downed": [
+       "providence"
+      ]
+     },
+     "conditionText": "After defeating Providence, the Profaned Goddess"
     },
     {
      "item": "Abaddon",
@@ -1591,14 +1725,22 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Brimstone Elemental (Lore)",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Treasure Bag (Brimstone Elemental)",
@@ -1663,7 +1805,13 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Once Providence is defeated)"
+     "note": "(Once Providence is defeated)",
+     "condition": {
+      "downed": [
+       "providence"
+      ]
+     },
+     "conditionText": "Once Providence is defeated"
     },
     {
      "item": "Animosity",
@@ -1750,7 +1898,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Treasure Bag (Calamitas)",
@@ -1773,21 +1925,39 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     },
     {
      "item": "Essence of Chaos",
      "min": 1,
      "max": 1,
      "chance": 0.3333,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     },
     {
      "item": "Bloodstone",
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating Providence)"
+     "note": "(After defeating Providence)",
+     "condition": {
+      "downed": [
+       "providence"
+      ]
+     },
+     "conditionText": "After defeating Providence"
     }
    ]
   },
@@ -1838,7 +2008,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -1923,7 +2097,15 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill if Storm Weaver<br/>and Signus are defeated)"
+     "note": "(Always on first kill if Storm Weaver<br/>and Signus are defeated)",
+     "condition": {
+      "firstKill": true,
+      "downed": [
+       "storm weaver",
+       "signus"
+      ]
+     },
+     "conditionText": "Always on first kill if Storm Weaver and Signus are defeated"
     },
     {
      "item": "Treasure Bag (Ceaseless Void)",
@@ -2008,7 +2190,13 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(After defeating<br/>Golem)"
+     "note": "(After defeating<br/>Golem)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After defeating Golem"
     }
    ]
   },
@@ -2066,7 +2254,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating Providence)"
+     "note": "(After defeating Providence)",
+     "condition": {
+      "downed": [
+       "providence"
+      ]
+     },
+     "conditionText": "After defeating Providence"
     }
    ]
   },
@@ -2097,14 +2291,26 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(Hardmode-only)"
+     "note": "(Hardmode-only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "Hardmode-only"
     },
     {
      "item": "Clam Chowder",
      "min": 1,
      "max": 1,
      "chance": 0.1,
-     "note": "(Hardmode-only)"
+     "note": "(Hardmode-only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "Hardmode-only"
     },
     {
      "item": "Ghast Relic",
@@ -2135,7 +2341,13 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     },
     {
      "item": "Brimlash",
@@ -2143,6 +2355,12 @@
      "max": 1,
      "chance": 0.25,
      "note": "(In Hardmode only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode only",
      "group": 1,
      "groupAlways": false
     },
@@ -2152,6 +2370,12 @@
      "max": 1,
      "chance": 0.25,
      "note": "(In Hardmode only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode only",
      "group": 1,
      "groupAlways": false
     },
@@ -2161,6 +2385,12 @@
      "max": 1,
      "chance": 0.25,
      "note": "(In Hardmode only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode only",
      "group": 1,
      "groupAlways": false
     },
@@ -2170,6 +2400,12 @@
      "max": 1,
      "chance": 0.25,
      "note": "(In Hardmode only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode only",
      "group": 1,
      "groupAlways": false
     },
@@ -2179,6 +2415,12 @@
      "max": 1,
      "chance": 0.25,
      "note": "(In Hardmode only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode only",
      "group": 1,
      "groupAlways": false
     },
@@ -2187,14 +2429,26 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     },
     {
      "item": "Eye of Desolation",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(in Hardmode only)"
+     "note": "(in Hardmode only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "in Hardmode only"
     }
    ]
   },
@@ -2255,7 +2509,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Ink Bomb",
@@ -2268,7 +2528,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.3333,
-     "note": "(After defeating Polterghast)"
+     "note": "(After defeating Polterghast)",
+     "condition": {
+      "downed": [
+       "polterghast"
+      ]
+     },
+     "conditionText": "After defeating Polterghast"
     }
    ]
   },
@@ -2444,7 +2710,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Treasure Bag (Crabulon)",
@@ -2622,7 +2892,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -2671,7 +2945,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating Providence)"
+     "note": "(After defeating Providence)",
+     "condition": {
+      "downed": [
+       "providence"
+      ]
+     },
+     "conditionText": "After defeating Providence"
     }
    ]
   },
@@ -2692,7 +2972,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Nimbus Staff",
@@ -2772,35 +3056,67 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(When defeated in the Sunken Sea)"
+     "note": "(When defeated in the Sunken Sea)",
+     "condition": {
+      "biome": "sunkensea"
+     },
+     "conditionText": "When defeated in the Sunken Sea"
     },
     {
      "item": "Encrypted Schematic (Planetoid)",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(When defeated in Space during Hardmode)"
+     "note": "(When defeated in Space during Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ],
+      "biome": "space"
+     },
+     "conditionText": "When defeated in Space during Hardmode"
     },
     {
      "item": "Encrypted Schematic (Jungle)",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(When defeated in the Jungle post-Golem])"
+     "note": "(When defeated in the Jungle post-Golem])",
+     "condition": {
+      "downed": [
+       "golem"
+      ],
+      "biome": "jungle"
+     },
+     "conditionText": "When defeated in the Jungle post-Golem"
     },
     {
      "item": "Encrypted Schematic (Hell)",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(When defeated in Underworld post-Providence)"
+     "note": "(When defeated in Underworld post-Providence)",
+     "condition": {
+      "downed": [
+       "providence"
+      ],
+      "biome": "underworld"
+     },
+     "conditionText": "When defeated in Underworld post-Providence"
     },
     {
      "item": "Encrypted Schematic (Ice)",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(When defeated in Ice biome post-Devourer of Gods)"
+     "note": "(When defeated in Ice biome post-Devourer of Gods)",
+     "condition": {
+      "downed": [
+       "devourer of gods"
+      ],
+      "biome": "snow"
+     },
+     "conditionText": "When defeated in Ice biome post-Devourer of Gods"
     },
     {
      "item": "Suspicious Scrap",
@@ -2813,7 +3129,14 @@
      "min": 1,
      "max": 1,
      "chance": 0.1,
-     "note": "(When defeated in Space during Hardmode)"
+     "note": "(When defeated in Space during Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ],
+      "biome": "space"
+     },
+     "conditionText": "When defeated in Space during Hardmode"
     },
     {
      "item": "Graydron",
@@ -2933,7 +3256,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -3148,7 +3475,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -3161,21 +3492,39 @@
      "min": 1,
      "max": 1,
      "chance": 0.3333,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     },
     {
      "item": "Slagspitter Pauldron",
      "min": 1,
      "max": 1,
      "chance": 0.05,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     },
     {
      "item": "Bloodstone",
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating Providence)"
+     "note": "(After defeating Providence)",
+     "condition": {
+      "downed": [
+       "providence"
+      ]
+     },
+     "conditionText": "After defeating Providence"
     }
    ]
   },
@@ -3269,7 +3618,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Treasure Bag (Destroyer of Sanity)",
@@ -3289,21 +3642,39 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Lumenyl",
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Scoria Ore",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(After defeating<br/>Golem)"
+     "note": "(After defeating<br/>Golem)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After defeating Golem"
     }
    ]
   },
@@ -3360,7 +3731,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -3405,7 +3780,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -3526,7 +3905,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -3650,14 +4033,26 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Ectoplasm",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(After defeating<br/>Plantera)"
+     "note": "(After defeating<br/>Plantera)",
+     "condition": {
+      "downed": [
+       "plantera"
+      ]
+     },
+     "conditionText": "After defeating Plantera"
     },
     {
      "item": "Lunar Cultist Hood",
@@ -3694,28 +4089,52 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Ectoplasm",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(After defeating<br/>Plantera)"
+     "note": "(After defeating<br/>Plantera)",
+     "condition": {
+      "downed": [
+       "plantera"
+      ]
+     },
+     "conditionText": "After defeating Plantera"
     },
     {
      "item": "Eidolic Wail",
      "min": 1,
      "max": 1,
      "chance": 0.3333,
-     "note": "(After defeating Polterghast)"
+     "note": "(After defeating Polterghast)",
+     "condition": {
+      "downed": [
+       "polterghast"
+      ]
+     },
+     "conditionText": "After defeating Polterghast"
     },
     {
      "item": "Soul Edge",
      "min": 1,
      "max": 1,
      "chance": 0.3333,
-     "note": "(After defeating Polterghast)"
+     "note": "(After defeating Polterghast)",
+     "condition": {
+      "downed": [
+       "polterghast"
+      ]
+     },
+     "conditionText": "After defeating Polterghast"
     }
    ]
   },
@@ -3794,14 +4213,26 @@
      "min": 1,
      "max": 1,
      "chance": 0.3333,
-     "note": "(After defeating Desert Scourge)"
+     "note": "(After defeating Desert Scourge)",
+     "condition": {
+      "downed": [
+       "desert scourge"
+      ]
+     },
+     "conditionText": "After defeating Desert Scourge"
     },
     {
      "item": "Clam Chowder",
      "min": 1,
      "max": 1,
      "chance": 0.02,
-     "note": "(Hardmode-only)"
+     "note": "(Hardmode-only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "Hardmode-only"
     }
    ]
   },
@@ -4390,7 +4821,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Treasure Bag (Garon)",
@@ -4407,14 +4842,26 @@
      "min": 1,
      "max": 1,
      "chance": 0.2,
-     "note": "(After defeating Desert Scourge)"
+     "note": "(After defeating Desert Scourge)",
+     "condition": {
+      "downed": [
+       "desert scourge"
+      ]
+     },
+     "conditionText": "After defeating Desert Scourge"
     },
     {
      "item": "Clam Chowder",
      "min": 1,
      "max": 1,
      "chance": 0.02,
-     "note": "(Hardmode-only)"
+     "note": "(Hardmode-only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "Hardmode-only"
     }
    ]
   },
@@ -4433,14 +4880,26 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     },
     {
      "item": "Clam Chowder",
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(Hardmode-only)"
+     "note": "(Hardmode-only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "Hardmode-only"
     },
     {
      "item": "Poseidon",
@@ -4448,6 +4907,12 @@
      "max": 1,
      "chance": 0.25,
      "note": "(In Hardmode only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode only",
      "group": 1,
      "groupAlways": false
     },
@@ -4457,6 +4922,12 @@
      "max": 1,
      "chance": 0.25,
      "note": "(In Hardmode only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode only",
      "group": 1,
      "groupAlways": false
     },
@@ -4466,6 +4937,12 @@
      "max": 1,
      "chance": 0.25,
      "note": "(In Hardmode only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode only",
      "group": 1,
      "groupAlways": false
     },
@@ -4475,6 +4952,12 @@
      "max": 1,
      "chance": 0.25,
      "note": "(In Hardmode only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode only",
      "group": 1,
      "groupAlways": false
     },
@@ -4483,14 +4966,26 @@
      "min": 1,
      "max": 1,
      "chance": 0.3333,
-     "note": "(After defeating Desert Scourge)"
+     "note": "(After defeating Desert Scourge)",
+     "condition": {
+      "downed": [
+       "desert scourge"
+      ]
+     },
+     "conditionText": "After defeating Desert Scourge"
     },
     {
      "item": "Giant Pearl",
      "min": 1,
      "max": 1,
      "chance": 0.6667,
-     "note": "(After defeating Desert Scourge)"
+     "note": "(After defeating Desert Scourge)",
+     "condition": {
+      "downed": [
+       "desert scourge"
+      ]
+     },
+     "conditionText": "After defeating Desert Scourge"
     }
    ]
   },
@@ -4521,14 +5016,26 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Lumenyl",
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Ink Bomb",
@@ -4590,7 +5097,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.1,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     }
    ]
   },
@@ -4674,7 +5187,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Yharim's Last Gift",
@@ -4705,7 +5222,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Red Umbrella",
@@ -4778,6 +5299,10 @@
      "max": 1,
      "chance": 1.0,
      "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill",
      "group": 1,
      "groupAlways": true
     },
@@ -4979,14 +5504,26 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Lumenyl",
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     }
    ]
   },
@@ -5013,7 +5550,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating Astrum Aureus)"
+     "note": "(After defeating Astrum Aureus)",
+     "condition": {
+      "downed": [
+       "astrum aureus"
+      ]
+     },
+     "conditionText": "After defeating Astrum Aureus"
     }
    ]
   },
@@ -5026,7 +5569,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.25,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     }
    ]
   },
@@ -5077,7 +5626,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.1429,
-     "note": "(After defeating Astrum Aureus)"
+     "note": "(After defeating Astrum Aureus)",
+     "condition": {
+      "downed": [
+       "astrum aureus"
+      ]
+     },
+     "conditionText": "After defeating Astrum Aureus"
     }
    ]
   },
@@ -5110,7 +5665,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -5155,7 +5714,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -5279,7 +5842,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -5469,7 +6036,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Treasure Bag (Jungle Dragon, Yharon)",
@@ -5534,7 +6105,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating Calamitas)"
+     "note": "(After defeating Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     }
    ]
   },
@@ -5547,7 +6124,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Torch God's Favor",
@@ -5751,14 +6334,26 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Lumenyl",
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating Calamitas)"
+     "note": "(After defeating Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     }
    ]
   },
@@ -5783,7 +6378,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.2,
-     "note": "(After defeating Plantera)"
+     "note": "(After defeating Plantera)",
+     "condition": {
+      "downed": [
+       "plantera"
+      ]
+     },
+     "conditionText": "After defeating Plantera"
     }
    ]
   },
@@ -5810,7 +6411,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.1429,
-     "note": "(After defeating Astrum Aureus)"
+     "note": "(After defeating Astrum Aureus)",
+     "condition": {
+      "downed": [
+       "astrum aureus"
+      ]
+     },
+     "conditionText": "After defeating Astrum Aureus"
     }
    ]
   },
@@ -5898,14 +6505,26 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Abyss Shocker",
      "min": 1,
      "max": 1,
      "chance": 0.1,
-     "note": "(After defeating Skeletron)"
+     "note": "(After defeating Skeletron)",
+     "condition": {
+      "downed": [
+       "skeletron"
+      ]
+     },
+     "conditionText": "After defeating Skeletron"
     },
     {
      "item": "Jellyfish Necklace",
@@ -6038,7 +6657,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -6174,7 +6797,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.1429,
-     "note": "(After defeating Astrum Aureus)"
+     "note": "(After defeating Astrum Aureus)",
+     "condition": {
+      "downed": [
+       "astrum aureus"
+      ]
+     },
+     "conditionText": "After defeating Astrum Aureus"
     },
     {
      "item": "Comet Shard",
@@ -6236,7 +6865,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     }
    ]
   },
@@ -6323,7 +6958,13 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Godseeker Mode)"
+     "note": "(Godseeker Mode)",
+     "condition": {
+      "downed": [
+       "moon lord"
+      ]
+     },
+     "conditionText": "Godseeker Mode"
     }
    ]
   },
@@ -6362,7 +7003,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -6440,7 +7085,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Treasure Bag (Pandora)",
@@ -6483,7 +7132,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -6551,7 +7204,13 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Godseeker Mode)"
+     "note": "(Godseeker Mode)",
+     "condition": {
+      "downed": [
+       "moon lord"
+      ]
+     },
+     "conditionText": "Godseeker Mode"
     }
    ]
   },
@@ -6600,7 +7259,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -6777,7 +7440,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Tectonite",
@@ -7253,7 +7920,13 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(After defeating Desert Scourge)"
+     "note": "(After defeating Desert Scourge)",
+     "condition": {
+      "downed": [
+       "desert scourge"
+      ]
+     },
+     "conditionText": "After defeating Desert Scourge"
     }
    ]
   },
@@ -7319,7 +7992,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -7362,7 +8039,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -7375,7 +8056,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Unholy Essence",
@@ -7515,7 +8200,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Profaned Soul Crystal",
@@ -7530,7 +8219,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -7738,7 +8431,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -7853,28 +8550,52 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Deep Sea Dumbbell",
      "min": 1,
      "max": 1,
      "chance": 0.3333,
-     "note": "(After defeating Polterghast)"
+     "note": "(After defeating Polterghast)",
+     "condition": {
+      "downed": [
+       "polterghast"
+      ]
+     },
+     "conditionText": "After defeating Polterghast"
     },
     {
      "item": "Valediction",
      "min": 1,
      "max": 1,
      "chance": 0.3333,
-     "note": "(After defeating Polterghast)"
+     "note": "(After defeating Polterghast)",
+     "condition": {
+      "downed": [
+       "polterghast"
+      ]
+     },
+     "conditionText": "After defeating Polterghast"
     },
     {
      "item": "The Reaper",
      "min": 1,
      "max": 1,
      "chance": 0.1,
-     "note": "(After defeating Polterghast)"
+     "note": "(After defeating Polterghast)",
+     "condition": {
+      "downed": [
+       "polterghast"
+      ]
+     },
+     "conditionText": "After defeating Polterghast"
     }
    ]
   },
@@ -7961,14 +8682,26 @@
      "min": 1,
      "max": 1,
      "chance": 0.3333,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     },
     {
      "item": "Bloodstone",
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating Providence)"
+     "note": "(After defeating Providence)",
+     "condition": {
+      "downed": [
+       "providence"
+      ]
+     },
+     "conditionText": "After defeating Providence"
     }
    ]
   },
@@ -7981,7 +8714,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.02,
-     "note": "(Hardmode-only)"
+     "note": "(Hardmode-only)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "Hardmode-only"
     }
    ]
   },
@@ -8060,7 +8799,13 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(After defeating Golem)"
+     "note": "(After defeating Golem)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After defeating Golem"
     },
     {
      "item": "Arean Conduit Plating",
@@ -8074,63 +8819,117 @@
      "min": 1,
      "max": 1,
      "chance": 0.009,
-     "note": "(After defeating Golem)"
+     "note": "(After defeating Golem)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After defeating Golem"
     },
     {
      "item": "Wingman",
      "min": 1,
      "max": 1,
      "chance": 0.0033,
-     "note": "(After defeating Golem)"
+     "note": "(After defeating Golem)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After defeating Golem"
     },
     {
      "item": "Xenopopper",
      "min": 1,
      "max": 1,
      "chance": 0.0016,
-     "note": "(After defeating Golem)"
+     "note": "(After defeating Golem)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After defeating Golem"
     },
     {
      "item": "Xeno Staff",
      "min": 1,
      "max": 1,
      "chance": 0.0016,
-     "note": "(After defeating Golem)"
+     "note": "(After defeating Golem)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After defeating Golem"
     },
     {
      "item": "Laser Machinegun",
      "min": 1,
      "max": 1,
      "chance": 0.0016,
-     "note": "(After defeating Golem)"
+     "note": "(After defeating Golem)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After defeating Golem"
     },
     {
      "item": "Electrosphere Launcher",
      "min": 1,
      "max": 1,
      "chance": 0.0016,
-     "note": "(After defeating Golem)"
+     "note": "(After defeating Golem)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After defeating Golem"
     },
     {
      "item": "Influx Waver",
      "min": 1,
      "max": 1,
      "chance": 0.0016,
-     "note": "(After defeating Golem)"
+     "note": "(After defeating Golem)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After defeating Golem"
     },
     {
      "item": "Cosmic Car Key",
      "min": 1,
      "max": 1,
      "chance": 0.0016,
-     "note": "(After defeating Golem)"
+     "note": "(After defeating Golem)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After defeating Golem"
     },
     {
      "item": "Nullification Pistol",
      "min": 1,
      "max": 1,
      "chance": 0.0016,
-     "note": "(After defeating Golem)"
+     "note": "(After defeating Golem)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After defeating Golem"
     },
     {
      "item": "Strange Matter",
@@ -8216,7 +9015,15 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill if Storm Weaver<br/>and Ceaseless Void are defeated)"
+     "note": "(Always on first kill if Storm Weaver<br/>and Ceaseless Void are defeated)",
+     "condition": {
+      "firstKill": true,
+      "downed": [
+       "ceaseless void",
+       "storm weaver"
+      ]
+     },
+     "conditionText": "Always on first kill if Storm Weaver and Ceaseless Void are defeated"
     },
     {
      "item": "Treasure Bag (Sigmund)",
@@ -8287,7 +9094,15 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill if Storm Weaver<br/>and Ceaseless Void are defeated)"
+     "note": "(Always on first kill if Storm Weaver<br/>and Ceaseless Void are defeated)",
+     "condition": {
+      "firstKill": true,
+      "downed": [
+       "ceaseless void",
+       "storm weaver"
+      ]
+     },
+     "conditionText": "Always on first kill if Storm Weaver and Ceaseless Void are defeated"
     },
     {
      "item": "Treasure Bag (Signus)",
@@ -8403,21 +9218,39 @@
      "min": 1,
      "max": 1,
      "chance": 0.3333,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     },
     {
      "item": "Slagspitter Pauldron",
      "min": 1,
      "max": 1,
      "chance": 0.05,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     },
     {
      "item": "Bloodstone",
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating Providence)"
+     "note": "(After defeating Providence)",
+     "condition": {
+      "downed": [
+       "providence"
+      ]
+     },
+     "conditionText": "After defeating Providence"
     }
    ]
   },
@@ -8532,7 +9365,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.33,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     }
    ]
   },
@@ -8623,7 +9462,13 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     },
     {
      "item": "Hellrain Staff",
@@ -8732,7 +9577,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -8759,7 +9608,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Neuralink",
@@ -8822,21 +9675,33 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Miracle Matter (Lore)",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "The Exosphere (Lore)",
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill) {{fantag"
+     "note": "(Always on first kill) {{fantag",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Draedon Relic",
@@ -9169,7 +10034,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Wulfrum Hardhat",
@@ -9271,7 +10140,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Treasure Bag (The Magnificent Lightning Avian)",
@@ -9378,7 +10251,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -9421,7 +10298,13 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     },
     {
      "item": "Aorta",
@@ -9539,7 +10422,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -9941,7 +10828,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     }
    ]
   },
@@ -9982,7 +10873,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Draedon Relic",
@@ -10226,7 +11121,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Treasure Bag (The Slime God)",
@@ -10334,7 +11233,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Treasure Crate",
@@ -10369,7 +11272,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     }
    ]
   },
@@ -10382,7 +11291,13 @@
      "min": 1,
      "max": 1,
      "chance": 0.1,
-     "note": "(In Hardmode)"
+     "note": "(In Hardmode)",
+     "condition": {
+      "downed": [
+       "wall of flesh"
+      ]
+     },
+     "conditionText": "In Hardmode"
     },
     {
      "item": "Diving Helmet",
@@ -10456,14 +11371,26 @@
      "min": 1,
      "max": 1,
      "chance": 0.5,
-     "note": "(After defeating<br/>Calamitas)"
+     "note": "(After defeating<br/>Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     },
     {
      "item": "Lumenyl",
      "min": 1,
      "max": 1,
      "chance": 0.25,
-     "note": "(After defeating Calamitas)"
+     "note": "(After defeating Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ]
+     },
+     "conditionText": "After defeating Calamitas"
     }
    ]
   },
@@ -10512,14 +11439,26 @@
      "min": 1,
      "max": 1,
      "chance": 0.2222,
-     "note": "(After defeating<br/>Golem)"
+     "note": "(After defeating<br/>Golem)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After defeating Golem"
     },
     {
      "item": "Abyss Bar",
      "min": 1,
      "max": 1,
      "chance": 0.2222,
-     "note": "(After defeating Polterghast)"
+     "note": "(After defeating Polterghast)",
+     "condition": {
+      "downed": [
+       "polterghast"
+      ]
+     },
+     "conditionText": "After defeating Polterghast"
     }
    ]
   },
@@ -10672,7 +11611,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Wulfrum Lure",
@@ -10840,7 +11783,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Treasure Bag (Wulfrum Megamechwyrm)",
@@ -11002,7 +11949,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Exo Dragonblade",
@@ -11099,7 +12050,11 @@
      "min": 1,
      "max": 1,
      "chance": 1.0,
-     "note": "(Always on first kill)"
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true
+     },
+     "conditionText": "Always on first kill"
     },
     {
      "item": "Neuraze",

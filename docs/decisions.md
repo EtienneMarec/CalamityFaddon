@@ -186,8 +186,15 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 
 - **[choix]** Additif : seuls les objets que le PNJ ne lâche pas déjà sont ajoutés ; chances existantes inchangées.
   **[validé 21/10]** En Full Fandom, les drops du jeu absents de la page sont en plus retirés.
-- **[choix]** Chance et quantité du mode normal. Drops avec une condition en note (« Post-Golem », « Tier 3 »,
-  « Always on first kill ») : non appliqués pour l'instant (`reports/loot.md`).
+- **[choix]** Chance et quantité du mode normal (Expert : voir les sacs ci-dessous).
+- **[choix]** Conditions écrites en note (`{{item|X|note=(After defeating Golem)}}`) : appliquées quand le jeu sait les
+  vérifier (`tools/gen_loot.py` → `parse_condition`, `Common/WikiData/WikiLootCondition.cs`) : boss vaincus (vanilla et
+  Calamity ; « Hardmode » = Wall of Flesh, « Godseeker Mode » = Moon Lord, « Calamitas » = le clone), biome du joueur
+  (Sunken Sea, Space, Jungle, Underworld, Ice), premier kill (compteur du bestiaire, qui compte le kill avant le butin).
+  Les autres (boss inventés comme The Starborn Moth, « While supercharged », « Tiers 2 & 3 », « Pacifist Drop »...)
+  restent non appliquées. Un drop à condition dans un groupe « One of... » : non appliqué.
+  **[technique]** Premier kill et biome ne se vérifient pas à l'ouverture d'un sac : ces drops tombent directement en
+  Expert, même en Calamity++.
 - **[choix]** (remarque de l'utilisateur, 22/10) Une condition écrite `| Objet|note=(...)|...` **hors** d'un `{{item}}` est
   un paramètre nommé de l'infobox que le modèle n'affiche pas : sur le wiki affiché il n'y a pas de condition, le drop
   s'applique. Un seul cas : **Abyss Bar** du Desert Scourge (« Post-Golem » invisible), donc 3-8 Abyss Bar dès le

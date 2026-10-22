@@ -116,6 +116,10 @@ def parse_drops(positional):
             drop["chanceExpert"] = round(chance_x, 4)
         if note:
             drop["note"] = note
+            condition = parse_condition(note)
+            if condition:
+                drop["condition"] = condition
+                drop["conditionText"] = condition_text(note)
         if hidden_note:
             drop["hiddenNote"] = hidden_note  # pour le rapport seulement
         if group and group_left > 0:
@@ -124,6 +128,57 @@ def parse_drops(positional):
             group_left -= 1
         drops.append(drop)
     return drops, problems
+
+
+# Conditions de butin écrites en note (« (After defeating Golem) ») que le jeu sait vérifier : boss vaincus (noms du
+# wiki, en minuscules ; le C# les relie aux indicateurs du jeu), biome du joueur, premier kill. Une note dont une partie
+# n'est pas comprise reste non appliquée (rapport).
+BOSSES = ["wall of flesh", "skeletron", "plantera", "golem", "moon lord", "desert scourge", "cryogen", "calamitas",
+          "astrum aureus", "astrum deus", "astral deus", "providence", "polterghast", "storm weaver", "ceaseless void",
+          "signus", "devourer of gods"]
+BIOMES = {"sunken sea": "sunkensea", "space": "space", "jungle": "jungle", "underworld": "underworld", "ice biome": "snow"}
+
+
+def condition_text(note):
+    """Note du wiki lisible en jeu (bestiaire) : « (After defeating<br/>[[Golem]]) » -> « After defeating Golem »."""
+    t = re.sub(r"<br\s*/?>", " ", note)
+    t = re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]?\]?", r"\1", t)
+    t = re.sub(r"\{\{.*", "", t)
+    t = re.sub(r"[()\[\]]", "", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def parse_condition(note):
+    """« (After defeating<br/>Golem) » -> {"downed": ["golem"]} ; None si la note n'est pas entièrement comprise."""
+    t = re.sub(r"<br\s*/?>", " ", note)
+    t = re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]?\]?", r"\1", t)  # liens, même mal fermés
+    t = re.sub(r"\{\{.*", "", t)  # modèles décoratifs en fin de note ({{fantag...)
+    t = re.sub(r"[()\[\]]", " ", t).lower()
+    t = re.sub(r"\s+", " ", t).strip()
+    cond, rest = {}, t
+    if "first kill" in rest:
+        cond["firstKill"] = True
+        rest = rest.replace("always on first kill", "")
+    if "hardmode" in rest:
+        cond.setdefault("downed", []).append("wall of flesh")
+        rest = re.sub(r"hardmode(?:[- ]only)?", "", rest)
+    if "godseeker mode" in rest:
+        cond.setdefault("downed", []).append("moon lord")
+        rest = rest.replace("godseeker mode", "")
+    for name in sorted(BOSSES, key=len, reverse=True):
+        if name in rest:
+            cond.setdefault("downed", []).append(name)
+            rest = rest.replace(name, "")
+    for name, key in BIOMES.items():
+        if name in rest:
+            cond["biome"] = key
+            rest = rest.replace(name, "")
+    # Ce qui reste ne doit être que des mots de liaison (« after defeating », « when defeated in the », « post- »)
+    leftover = re.sub(r"\b(?:after|defeating|once|is|are|has|have|been|defeated|post|the|and|if|when|in|only|during|"
+                      r"profaned|goddess)\b|[-,]", " ", rest)
+    if not cond or leftover.strip():
+        return None
+    return cond
 
 
 def parse_bags(text):

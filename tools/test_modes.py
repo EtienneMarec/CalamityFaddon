@@ -8,7 +8,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from wiki_index import extract_template, has_mode, pick_mode  # noqa: E402
 from gen_recipes import recipes_by_mode, split_all  # noqa: E402
-from gen_loot import drops_by_mode  # noqa: E402
+from gen_loot import drops_by_mode, parse_condition  # noqa: E402
 from gen_elements import values  # noqa: E402
 from gen_stats import item_value, number  # noqa: E402
 
@@ -64,6 +64,13 @@ check(any(d["item"] == "Skyline Wings" and d["modes"] == ["fandom"] for d in dro
 chance = "{{npc infobox | type = Enemy | Aerialite Ore|10-26| {{mode|100%|50%}} }}"
 drops, _ = drops_by_mode(params(chance)[0])
 check({d["modes"][0]: d["chance"] for d in drops} == {"fandom": 1.0, "plus": 0.5}, "butin : chance par mode")
+
+# --- conditions de butin (pas des {{mode}}, mais lues par le même générateur)
+check(parse_condition("(After defeating<br/>Golem)") == {"downed": ["golem"]}, "condition : boss vaincu")
+check(parse_condition("(When defeated in Space during Hardmode)") == {"downed": ["wall of flesh"], "biome": "space"},
+      "condition : biome + Hardmode")
+check(parse_condition("(Always on first kill)") == {"firstKill": True}, "condition : premier kill")
+check(parse_condition("(After defeating The Starborn Moth)") is None, "condition : boss inconnu -> non appliquée")
 
 # --- éléments
 fields = {"element1": "Slash", "element2": "{{mode|Machine|}}"}
