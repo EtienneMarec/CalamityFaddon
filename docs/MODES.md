@@ -40,7 +40,10 @@ Les PNJ créés en combat ne sont jamais supprimés (un boss retravaillé peut d
 - [x] Full Fandom : masquage (`WikiData/baseline.json`, `tools/gen_baseline.py`), stats extrêmes, recettes et butin hors wiki retirés
 - [x] Calamity++ : couche `Balance/stats.json` (vide : l'équilibrage reste à faire)
 - [x] Notre wiki `wiki/` avec `{{mode|Full Fandom|Calamity++}}` (`docs/WIKI.md`) ; lu par les stats
-- [ ] Portage du contenu retiré : 265 objets/PNJ avec page wiki (`reports/baseline.md`) — outil `tools/legacy_extract.py`
+- [ ] Portage du contenu retiré : 265 objets/PNJ avec page wiki (`reports/baseline.md`) — outil `tools/legacy_extract.py`.
+      Faits : Night's Gaze, Sandy/Bleached Angling Kit, Seabound Staff, Effluvium Bow, Regenator, Storm Spray,
+      Aquatic Discharge, Solar Flare, Diseased Pike, Crimslime/Corroslime Staff, Gehenna, Shock Grenade. Priorité : ceux
+      qui débloquent une recette ou un drop (`reports/recipes.md`, `reports/loot_applied.md` → introuvables)
       prêt, 1 fait (Night's Gaze), méthode dans CLAUDE.md
 - [ ] Calamity++ : recettes, butin, éléments équilibrés (mêmes principes de couches)
 

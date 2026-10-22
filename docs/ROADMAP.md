@@ -46,6 +46,11 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
       2 phases, apparence ; version minimale déjà en place
 - [ ] **Slime Puppet Staff** : boules de slime qui servent de barrières reliées entre elles (0 dégât, 10 max)
 
+## Portage du contenu retiré de Calamity (en cours)
+
+15 objets portés (liste : `docs/MODES.md`) ; ~250 restent. Base commune quand plusieurs objets se ressemblent (kits de
+pêche, bâtons à slimes). Effets disparus du code actuel : repris du vieux CalamityPlayer dans un ModPlayer.
+
 ## Phase 4 — Nouveau contenu (`reports/new_content.md`)
 
 Prioriser avec `reports/recipes.md` → « Noms introuvables » et `reports/loot_applied.md` → « Objets introuvables » :
