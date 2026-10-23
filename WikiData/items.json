@@ -2772,5 +2772,215 @@
    "foodSeconds": 1800,
    "useTime": 17
   }
+ ],
+ "wings": [
+  {
+   "name": "AncientEssenceOfMerge",
+   "displayName": "Ancient Essence of Merge",
+   "page": "Ancient Essence of Merge.txt",
+   "width": 76,
+   "height": 56,
+   "rare": 3,
+   "value": 40000,
+   "horizontal": 6.0,
+   "acceleration": 1.0,
+   "flightTime": 80,
+   "vertical": "average",
+   "extras": [],
+   "todo": [
+    "Enemies that can drop Essences will always drop them"
+   ],
+   "equipSprite": true
+  },
+  {
+   "name": "ArchangelWings",
+   "displayName": "Archangel Wings",
+   "page": "Archangel Wings.txt",
+   "width": 30,
+   "height": 18,
+   "rare": 12,
+   "value": 1200000,
+   "horizontal": 9.5,
+   "acceleration": 2.5,
+   "flightTime": 250,
+   "vertical": "great",
+   "extras": [],
+   "todo": [
+    "\"I'LL SHOW YOU DIVINE JUSTICE!\""
+   ],
+   "equipSprite": true
+  },
+  {
+   "name": "ArmageddonWings",
+   "displayName": "Armageddon Wings",
+   "page": "Armageddon Wings.txt",
+   "width": 32,
+   "height": 28,
+   "rare": 14,
+   "value": 1400000,
+   "horizontal": 11.0,
+   "acceleration": 2.9,
+   "flightTime": 300,
+   "vertical": "excellent",
+   "extras": [
+    {
+     "type": "moveSpeed",
+     "value": 15
+    }
+   ],
+   "todo": [
+    "Grants 7% increased damage and critical strike chance, as well as 2 minion slots while wearing the Horseslime armor"
+   ],
+   "equipSprite": true
+  },
+  {
+   "name": "Bellwings",
+   "displayName": "Bellwings",
+   "page": "Bellwings.txt",
+   "width": 26,
+   "height": 29,
+   "rare": 15,
+   "value": 1500000,
+   "horizontal": 12.0,
+   "acceleration": 3.0,
+   "flightTime": 361,
+   "vertical": "excellent",
+   "extras": [],
+   "todo": [
+    "You monster."
+   ],
+   "equipSprite": false
+  },
+  {
+   "name": "BloodflareWings",
+   "displayName": "Bloodflare Wings",
+   "page": "Bloodflare Wings.txt",
+   "width": 24,
+   "height": 26,
+   "rare": 13,
+   "value": 1200000,
+   "horizontal": 9.5,
+   "acceleration": 2.5,
+   "flightTime": 250,
+   "vertical": "great",
+   "extras": [],
+   "todo": [
+    "+20% max life while wearing Bloodflare Armor"
+   ],
+   "equipSprite": true
+  },
+  {
+   "name": "DrewsFins",
+   "displayName": "Drew's Fins",
+   "page": "Drew_s Fins.txt",
+   "width": 38,
+   "height": 30,
+   "rare": 15,
+   "value": 1500000,
+   "horizontal": 12.0,
+   "acceleration": 3.0,
+   "flightTime": 361,
+   "vertical": "excellent",
+   "extras": [],
+   "todo": [
+    "Absolutely Fishulous"
+   ],
+   "equipSprite": true
+  },
+  {
+   "name": "EssenceOfMerge",
+   "displayName": "Essence of Merge",
+   "page": "Essence of Merge.txt",
+   "width": 50,
+   "height": 50,
+   "rare": 3,
+   "value": 40000,
+   "horizontal": 6.0,
+   "acceleration": 1.0,
+   "flightTime": 80,
+   "vertical": "average",
+   "extras": [],
+   "todo": [
+    "Enemies that can drop Essences will always drop them"
+   ],
+   "equipSprite": true
+  },
+  {
+   "name": "HolyMantle",
+   "displayName": "Holy Mantle",
+   "page": "Holy Mantle.txt",
+   "width": 34,
+   "height": 30,
+   "rare": 15,
+   "value": 1500000,
+   "horizontal": 14.0,
+   "acceleration": 3.2,
+   "flightTime": -1,
+   "vertical": "excellent",
+   "extras": [],
+   "todo": [
+    "Delirious thoughts...",
+    "Flight time:"
+   ],
+   "equipSprite": true
+  },
+  {
+   "name": "RedWings",
+   "displayName": "Red Wings",
+   "page": "Red Wings.txt",
+   "width": 50,
+   "height": 22,
+   "rare": 14,
+   "value": 1500000,
+   "horizontal": 15.0,
+   "acceleration": 3.0,
+   "flightTime": 190,
+   "vertical": "great",
+   "extras": [
+    {
+     "type": "moveSpeed",
+     "value": 20
+    }
+   ],
+   "todo": [],
+   "equipSprite": true
+  },
+  {
+   "name": "StaticWings",
+   "displayName": "Static Wings",
+   "page": "Static Wings.txt",
+   "width": 32,
+   "height": 30,
+   "rare": 4,
+   "value": 50000,
+   "horizontal": 5.0,
+   "acceleration": 1.5,
+   "flightTime": 80,
+   "vertical": "good",
+   "extras": [],
+   "todo": [
+    "15% increased jump speed while wearing the Statigel Armor"
+   ],
+   "equipSprite": true
+  },
+  {
+   "name": "TreeCrownWings",
+   "displayName": "Tree-Crown Wings",
+   "page": "Tree-Crown Wings.txt",
+   "width": 24,
+   "height": 34,
+   "rare": 13,
+   "value": 1500000,
+   "horizontal": 13.0,
+   "acceleration": 3.6,
+   "flightTime": 321,
+   "vertical": "excellent",
+   "extras": [],
+   "todo": [
+    "Grants power, but swallows the soul... It devours, stealing any sense of self...",
+    "10% increased damage and excellent flight stats at the cost of 30% increased damage taken"
+   ],
+   "equipSprite": true
+  }
  ]
 }

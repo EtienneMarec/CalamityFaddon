@@ -170,17 +170,91 @@ def main():
         entry["Tooltip"] = tooltip if tooltip else ""
         loc[name] = entry
 
+    wings = build_wings(index, used, loc)
+
     with open(OUT, "w", encoding="utf-8") as fh:
-        json.dump({"_generated_by": "tools/gen_items.py", "materials": items}, fh, ensure_ascii=False, indent=1)
+        json.dump({"_generated_by": "tools/gen_items.py", "materials": items, "wings": wings}, fh, ensure_ascii=False, indent=1)
     # tModLoader reformate ce fichier à son chargement : on ne le réécrit que si le contenu change vraiment
     if not os.path.exists(LOC) or flatten_file(LOC) != {f"{k}.{f}": v for k, e in loc.items() for f, v in e.items()}:
         with open(LOC, "w", encoding="utf-8") as fh:
             fh.write(hjson.dumps(loc, indent="\t", ensure_ascii=False) + "\n")
     # Sprites d'objets qui ne sont plus générés
     names = {i["name"] + ".png" for i in items} | {i["name"] + "_World.png" for i in items if i.get("worldTexture")}
+    names |= {w["name"] + ".png" for w in wings} | {w["name"] + "_Wings.png" for w in wings}
     for stale in set(os.listdir(ASSETS)) - names:
         os.remove(os.path.join(ASSETS, stale))
-    print(f"{len(items)} matériaux générés ({sum(i['frames'] > 1 for i in items)} animés)")
+    print(f"{len(items)} matériaux générés ({sum(i['frames'] > 1 for i in items)} animés), {len(wings)} ailes "
+          f"({sum(1 for w in wings if not w['equipSprite'])} sans image portée)")
+
+
+# Ailes (24/10) : coverings du wiki dont l'infobulle donne les stats de vol. Vitesse verticale : mots du wiki traduits en
+# réglages de VerticalWingSpeeds dans Content/Items/WikiWings.cs ([choix], docs/decisions.md).
+WING_STAT = {
+    "horizontal": r"horizontal speed:\s*([\d.]+)",
+    "acceleration": r"acceleration multiplier:\s*([\d.]+)",
+    "flight": r"flight time:\s*([\d.]+|\{\{infinity\}\})",
+    "vertical": r"(average|good|great|excellent) vertical speed",
+}
+# Lignes de stats en plus, traduites quand elles sont simples ; les autres restent dans « todo »
+WING_EXTRAS = [
+    (r"^\+?(\d+)% (?:increased )?movement speed$", "moveSpeed"),
+    (r"^(\d+)% increased jump speed$", "jumpSpeed"),
+    (r"^(\d+)% increased damage$", "damage"),
+    (r"^(\d+) defense$", "defense"),
+]
+
+
+def build_wings(index, used, loc):
+    wings = []
+    for page in sorted(index.values(), key=lambda p: p["title"]):
+        f = page.get("fields") or {}
+        tooltip = f.get("tooltip") or ""
+        if page.get("status") != "new" or not page.get("infobox", "").startswith("item") or "flight time" not in tooltip.lower():
+            continue
+        stats = {k: re.search(p, tooltip, re.I) for k, p in WING_STAT.items()}
+        if not (stats["horizontal"] and stats["acceleration"] and stats["flight"]):
+            continue
+        sprite = sprite_file(page)
+        if not sprite:
+            continue
+        title = page["title"]
+        name = internal_name(title, used)
+        w, h, _, _ = convert(sprite, os.path.join(ASSETS, name + ".png"))
+        # Image portée (une seule pose sur le wiki) : planche de 4 images identiques, comme les ailes de Terraria
+        base = os.path.splitext(os.path.basename(sprite))[0]
+        equipped = os.path.join(SPRITES, base + "_(equipped).png")
+        equip_sprite = os.path.exists(equipped)
+        frame = Image.open(equipped).convert("RGBA") if equip_sprite else Image.new("RGBA", (2, 2), (0, 0, 0, 0))
+        sheet = Image.new("RGBA", (frame.width, frame.height * 4), (0, 0, 0, 0))
+        for i in range(4):
+            sheet.paste(frame, (0, i * frame.height))
+        sheet.save(os.path.join(ASSETS, name + "_Wings.png"), "PNG")
+        flight = stats["flight"].group(1)
+        extras, todo = [], []
+        for line in re.split(r"<br\s*/?>", tooltip):
+            line = clean_text(line).strip()
+            low = line.lower()
+            if not line or any(re.search(p, line, re.I) for p in WING_STAT.values()):
+                continue
+            for pattern, kind in WING_EXTRAS:
+                m = re.match(pattern, low)
+                if m:
+                    extras.append({"type": kind, "value": int(m.group(1))})
+                    break
+            else:
+                todo.append(line)
+        rare, copper = number(f.get("rare")), sell_copper(f.get("sell"))
+        wings.append({
+            "name": name, "displayName": title, "page": page["file"], "width": w, "height": h,
+            "rare": int(rare) if rare is not None and -1 <= rare <= 17 else 0,
+            "value": copper * 5 if copper is not None else 0,
+            "horizontal": float(stats["horizontal"].group(1)), "acceleration": float(stats["acceleration"].group(1)),
+            "flightTime": -1 if "infinity" in flight else int(float(flight)),
+            "vertical": stats["vertical"].group(1).lower() if stats["vertical"] else "average",
+            "extras": extras, "todo": todo, "equipSprite": equip_sprite,
+        })
+        loc[name] = {"DisplayName": title, "Tooltip": clean_text(tooltip) or ""}
+    return wings
 
 
 if __name__ == "__main__":

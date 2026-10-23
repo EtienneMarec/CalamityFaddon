@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 240 drops ajoutés sur 104 PNJ
-- 85 ajouts dans 24 sacs
+- 241 drops ajoutés sur 104 PNJ
+- 86 ajouts dans 24 sacs
 - 530 drops du wiki déjà présents dans le jeu (inchangés)
 - 107 drops avec leur condition (boss vaincu, biome, premier kill), dont 58 qui remplacent la règle du jeu
 - 26 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 175 PNJ du wiki absents du jeu, 100 objets introuvables
+- 175 PNJ du wiki absents du jeu, 99 objets introuvables
 
 ## Ajouts
 
@@ -33,7 +33,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Brimstone Elemental** : Bloodstone 20-30 à 100.0% [Once Providence, the Profaned Goddess] (mode normal) ; Gehenna 1-1 à 100.0% (mode normal) ; Brimrose 1-1 à 100.0% [After defeating Providence, the Profaned Goddess] (mode normal) ; Abaddon 1-1 à 50.0% (mode normal) ; Flame-Licked Shell 1-1 à 10.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Brimstone Elemental 1-1 à 100.0% [Always on first kill] (mode normal) ; Brimstone Elemental 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **Calamitas** : Ashes of Annihilation 9-14 à 100.0% (mode normal) ; Blighted Lens 5-12 à 100.0% (mode normal) ; Broken Hero Sword 1-1 à 100.0% (mode normal) ; Bloodstone 30-40 à 100.0% [Once Providence is defeated] (mode normal) ; Void of Calamity 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Calamitas Clone 1-1 à 100.0% [Always on first kill] (mode normal) ; Calamitas Clone 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Catastrophe Clay Ore 10-26 à 100.0% (mode normal) ; Crushsaw Crasher 1-1 à 8.3% (mode normal) ; Havoc's Breath 1-1 à 8.3% (mode normal)
 - **Calamity Eye** : Blighted Lens 1-1 à 50.0% [In Hardmode] ; Essence of Chaos 1-1 à 33.3% [In Hardmode] ; Bloodstone 1-1 à 50.0% [After defeating Providence]
-- **Ceaseless Void** : The Evolution 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal)
+- **Ceaseless Void** : The Evolution 1-1 à 100.0% (mode normal) ; Tree-Crown Wings 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal)
 - **Chaotic Puffer** : Abyss Ore 10-26 à 100.0% [After defeating Golem]
 - **Charred Slime** : Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Clam** : Mollusk Husk 1-1 à 50.0% [Hardmode-only] ; Clam Chowder 1-1 à 10.0% [Hardmode-only]
@@ -123,7 +123,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (Astrum Aureus)** : Hallowed Key 1-1 à 20.0% (page Treasure Bag) ; Soul of Bright 35-50 à 100.0% ; Supreme Healing Potion 5-15 à 100.0% ; Astrum Aureus Trophy 1-1 à 10.0%
 - **Treasure Bag (Brimstone Elemental)** : Gehenna 1-1 à 100.0% (page Treasure Bag) ; Abaddon 1-1 à 100.0% (page Treasure Bag) ; Bloodstone 25-35 à 100.0% [Once Providence, the Profaned Goddess] ; Brimrose 1-1 à 100.0% [After defeating Providence, the Profaned Goddess] ; Greater Healing Potion 5-15 à 100.0% ; Brimstone Elemental Trophy 1-1 à 10.0%
 - **Treasure Bag (Calamitas)** : Blighted Lens 1-3 à 100.0% (page Treasure Bag) ; Ashes of Annihilation 14-18 à 100.0% ; Broken Hero Sword 1-1 à 100.0% ; Bloodstone 35-45 à 100.0% [Once Providence is defeated] ; Greater Healing Potion 5-15 à 100.0% ; Calamitas Trophy 1-1 à 10.0% ; Catastrophe Clay Ore 10-26 à 100.0% ; Crushsaw Crasher 1-1 à 10.0% ; Havoc's Breath 1-1 à 10.0%
-- **Treasure Bag (Ceaseless Void)** : Supreme Healing Potion 5-15 à 100.0% ; Ceaseless Void Trophy 1-1 à 10.0%
+- **Treasure Bag (Ceaseless Void)** : Tree-Crown Wings 1-1 à 100.0% ; Supreme Healing Potion 5-15 à 100.0% ; Ceaseless Void Trophy 1-1 à 10.0%
 - **Treasure Bag (Crabulon)** : Shroomerang 1-1 à 33.3% (page Treasure Bag) ; Delicious Meat 4-7 à 100.0% ; Crabulon Trophy 1-1 à 10.0%
 - **Treasure Bag (Cryogen)** : Frozen Key 1-1 à 20.0% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Cryogen Trophy 1-1 à 10.0%
 - **Treasure Bag (Desert Scourge)** : Aquatic Discharge 1-1 à 33.3% (page Treasure Bag) ; Aero Stone 1-1 à 20.0% (page Treasure Bag) ; Sandy Angling Kit 1-1 à 100.0% (page Treasure Bag) ; Parched Scale 10-16 à 100.0% ; Profaned Shard 1-1 à 100.0% ; Abyss Bar 10-17 à 100.0% ; Sand Block 261-820 à 100.0% ; Delicious Meat 4-4 à 20.0% ; Lesser Healing Potion 8-14 à 100.0% ; Desert Scourge Trophy 1-1 à 10.0%
@@ -237,7 +237,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Treasure Bag (Ravager) — 1
 - Treasure Bag (The Fabricational Quartet) — 1
 - Treasure Bag (The Inventors) — 1
-- Tree-Crown Wings — 1
 - Varroa Hack — 1
 - Wakasagihime — 1
 - War Staff — 1

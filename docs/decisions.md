@@ -206,6 +206,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   flottent au sol comme les âmes.
 - **[choix]** Un matériau dont le nom existe déjà en vanilla n'est pas créé.
 - **[choix]** (24/10) Type « Energy Source » (Char Matter) traité comme un matériau simple.
+- **[choix]** (24/10) **Ailes** du wiki générées (11, `WikiWings`) : stats de l'infobulle ; vitesse verticale Average/Good/
+  Great/Excellent = réglages choisis ; image portée = la pose unique du wiki répétée (pas de battement) ; Bellwings sans image
+  portée (invisible). Bonus d'armure de set et phrases d'ambiance non traduits.
 - **[choix]** (24/10) **Aliments** générés comme les matériaux : potion du wiki dont le buff est Well Fed / Plenty Satisfied /
   Exquisitely Stuffed, avec la durée de l'infobox (11 : Titan Finger, Clam Chowder, Cheese, Crimtato, Yharic Delight...).
   Leurs effets en plus écrits en prose (Yharic Delight « Instantly heals the user to full health ») ne sont pas encore faits.

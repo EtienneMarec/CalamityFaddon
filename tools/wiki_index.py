@@ -314,7 +314,8 @@ def load_implemented():
     # Objets générés sans classe dédiée (tools/gen_items.py)
     generated = os.path.join(ROOT, "WikiData", "items.json")
     if os.path.exists(generated):
-        for entry in json.load(open(generated, encoding="utf-8")).get("materials", []):
+        generated_data = json.load(open(generated, encoding="utf-8"))
+        for entry in generated_data.get("materials", []) + generated_data.get("wings", []):
             done.setdefault(entry["page"], "WikiData/items.json")
     return done
 

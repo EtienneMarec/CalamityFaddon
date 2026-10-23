@@ -1193,4 +1193,138 @@
 		DisplayName: Zumbo Sauce
 		Tooltip: ""
 	}
+	AncientEssenceOfMerge:
+	{
+		DisplayName: Ancient Essence of Merge
+		Tooltip:
+			'''
+			Horizontal speed: 6
+			Acceleration multiplier: 1
+			Average Vertical Speed
+			Flight time: 80
+			Enemies that can drop Essences will always drop them
+			'''
+	}
+	ArchangelWings:
+	{
+		DisplayName: Archangel Wings
+		Tooltip:
+			'''
+			"I'LL SHOW YOU DIVINE JUSTICE!"
+			Horizontal speed: 9.5
+			Acceleration multiplier: 2.5
+			Great vertical speed
+			Flight time: 250
+			'''
+	}
+	ArmageddonWings:
+	{
+		DisplayName: Armageddon Wings
+		Tooltip:
+			'''
+			Horizontal speed: 11
+			Acceleration multiplier: 2.9
+			Excellent vertical speed
+			Flight time: 300
+			+15% movement speed
+			Grants 7% increased damage and critical strike chance, as well as 2 minion slots while wearing the Horseslime armor
+			'''
+	}
+	Bellwings:
+	{
+		DisplayName: Bellwings
+		Tooltip:
+			'''
+			You monster.
+			Horizontal speed: 12
+			Acceleration multiplier: 3
+			Excellent vertical speed
+			Flight time: 361
+			'''
+	}
+	BloodflareWings:
+	{
+		DisplayName: Bloodflare Wings
+		Tooltip:
+			'''
+			Horizontal speed: 9.5
+			Acceleration multiplier: 2.5
+			Great vertical speed
+			Flight time: 250
+			+20% max life while wearing Bloodflare Armor
+			'''
+	}
+	DrewsFins:
+	{
+		DisplayName: Drew's Fins
+		Tooltip:
+			'''
+			Absolutely Fishulous
+			Horizontal speed: 12
+			Acceleration multiplier: 3
+			Excellent vertical speed
+			Flight time: 361
+			'''
+	}
+	EssenceOfMerge:
+	{
+		DisplayName: Essence of Merge
+		Tooltip:
+			'''
+			Horizontal speed: 6
+			Acceleration multiplier: 1
+			Average Vertical Speed
+			Flight time: 80
+			Enemies that can drop Essences will always drop them
+			'''
+	}
+	HolyMantle:
+	{
+		DisplayName: Holy Mantle
+		Tooltip:
+			'''
+			Delirious thoughts...
+			Horizontal speed: 14
+			Acceleration multiplier: 3.2
+			Excellent vertical speed
+			Flight time:
+			'''
+	}
+	RedWings:
+	{
+		DisplayName: Red Wings
+		Tooltip:
+			'''
+			Horizontal speed: 15
+			Acceleration multiplier: 3
+			Great vertical speed
+			Flight time: 190
+			20% increased movement speed
+			'''
+	}
+	StaticWings:
+	{
+		DisplayName: Static Wings
+		Tooltip:
+			'''
+			Horizontal speed: 5
+			Acceleration multiplier: 1.5
+			Good vertical speed
+			Flight time: 80
+			15% increased jump speed while wearing the Statigel Armor
+			'''
+	}
+	TreeCrownWings:
+	{
+		DisplayName: Tree-Crown Wings
+		Tooltip:
+			'''
+			Grants power, but swallows the soul... It devours, stealing any sense of self...
+			Horizontal speed: 13
+			Acceleration multiplier: 3.6
+			Excellent vertical speed
+			Flight time: 321
+			10% increased damage and excellent flight stats at the cost of 30% increased damage taken
+			'''
+	}
 }

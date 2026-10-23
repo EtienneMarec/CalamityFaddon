@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1002 objets dont les recettes ont changé : 903 recettes modifiées, 160 créées
+- 1006 objets dont les recettes ont changé : 903 recettes modifiées, 164 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
-- 60 transmutations Shimmer ajoutées
-- 144 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 170 recettes
+- 62 transmutations Shimmer ajoutées
+- 146 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 173 recettes
 
 ## Recettes changées
 
@@ -86,6 +86,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Aquatic Scourge | 1 Aquatic Scourge Trophy @ Bookcases → 1 | 1 Aquatic Scourge Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Arch Amaryllis | 1 Gleaming Magnolia, 12 Nebula Fragment @ LunarCraftingStation → 1 | 1 Gleaming Magnolia, 10 Nebula Fragment, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | Archaic Powder | 1 Ancient Fossil, 1 Ancient Chisel, 3 Ancient Bone Dust, 10 Scorched Bone, 15 Bone @ Anvils → 1 | 1 Ancient Fossil, 1 Demonic Bone Ash, 3 Ancient Bone Dust, 15 Bone @ Anvils → 1 |
+| Archangel Wings | (nouvelle) | 4 Divine Bar, 2 Profaned Core, 1 Angel Wings @ LunarCraftingStation → 1 |
 | Arid Artifact | 50 Any Sand Block, 10 Any Adamantite Bar, 3 Ancient Cloth @ MythrilAnvil → 1 | 50 Sand Block, 10 Any Adamantite Bar, 5 Forbidden Fragment, 2 Essential Essence Bar @ MythrilAnvil → 1 |
 | Ark of the Ancients | 1 Fractured Ark, 1 Starfury, 1 Broken Hero Sword @ MythrilAnvil → 1 | 1 Fractured Ark, 1 Baroclaw, 1 Core of Calamity, 3 Living Shard, 15 Essential Essence Bar @ MythrilAnvil → 1 |
 | Ark of the Elements | 1 Ark of the Ancients, 5 Luminite Bar, 5 Life Alloy, 5 Solar Fragment @ MythrilAnvil → 1 | 1 Ark of the Ancients, 5 Galactica Singularity, 10 Elemental Bar, 5 Core of Calamity, 5 Life Alloy, 5 Luminite Bar @ LunarCraftingStation → 1 |
@@ -157,6 +158,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Bloodflare Hydra Hood | 25 Bloodstone, 10 Blood Orb, 2 Ruinous Soul @ MythrilAnvil → 1 | 11 Bloodstone Bar, 3 Haunted Bar @ LunarCraftingStation → 1 |
 | Bloodflare Imp Mask | 25 Bloodstone, 10 Blood Orb, 2 Ruinous Soul @ MythrilAnvil → 1 | 11 Bloodstone Bar, 3 Haunted Bar @ LunarCraftingStation → 1 |
 | Bloodflare Ram Mask | 25 Bloodstone, 10 Blood Orb, 2 Ruinous Soul @ MythrilAnvil → 1 | 11 Bloodstone Bar, 3 Haunted Bar @ LunarCraftingStation → 1 |
+| Bloodflare Wings | (nouvelle) | 7 Bloodstone Bar, 3 Haunted Bar @ LunarCraftingStation → 1 |
 | Bloodflare Wyvern Helm | 25 Bloodstone, 10 Blood Orb, 2 Ruinous Soul @ MythrilAnvil → 1 | 11 Bloodstone Bar, 3 Haunted Bar @ LunarCraftingStation → 1 |
 | Bloodplate | (nouvelle) | 1 Bloody Vein, 70 Obsidian @ Hellforge → 100 |
 | Bloodplate | (nouvelle) | 1 Blood Sample, 3 Obsidian @ Hellforge → 3 |
@@ -480,6 +482,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Herbal Mixture | (nouvelle) | 20 Flah, 20 Moonglow, 20 Daybloom, 20 Fireblossom, 20 Waterleaf, 20 Shiverthorn, 20 Blinkroot @ BotanicPlanter → 1 |
 | Heron Rod | 8 Aerialite Bar @ Anvils → 1 | 7 Aerialite Bar, 5 Sunplate Block @ SkyMill → 1 |
 | Holy Fire Bullet | 333 Exploding Bullet, 1 Unholy Essence @ MythrilAnvil → 333 | 100 Exploding Bullet, 1 Unholy Essence @ LunarCraftingStation → 100 |
+| Holy Mantle | (nouvelle) | 20 Soul of Flight, 5 Ashes of Annihilation, 1 Yharim Bar, 1 Shadowspec Bar @ CosmicAnvil → 1 |
 | Honey Dew | 10 Bottled Honey, 3 Bee Wax, 6 Jungle Spores @ Anvils → 1 | 1 Living Dew, 10 Bottled Honey, 3 Beetle Juice, 2 Trapper Bulb, 1 Butterfly Dust @ MythrilAnvil → 1 |
 | Hydra | 1 Quad-Barrel Shotgun, 25 Nanites, 25 Vial of Venom @ MythrilAnvil → 1 | 1 Shotgun, 20 Any Iron Bar, 1 Illegal Gun Parts, 20 Ectoplasm @ MythrilAnvil → 1 |
 | Hydrothermic Armor | 20 Abyss Bar @ MythrilAnvil → 1 | 15 Abyss Bar, 8 Hellstone Bar, 3 Core of Chaos, 5 Grandiose Gland @ MythrilAnvil → 1 |
@@ -855,6 +858,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Starlight Wings | 20 Soul of Flight, 10 Cryonic Bar @ MythrilAnvil → 1 | 5 Cryonic Bar, 1 Coyote Venom, 20 Soul of Flight @ MythrilAnvil → 1 |
 | Starmada | 1 Starfleet, 5 Auric Bar, 25 Exodium Cluster @ CosmicAnvil → 1 | 1 Aquashard Shotgun, 1 Starfleet, 1 Star Sputter, 15 Exodium Cluster, 8 Cosmilite Bar, 8 Darksun Fragment, 5 Crystal of the Wicked, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Static Refiner | 10 Statigel Block @ Solidifier → 1 | 100 Gel, 5 Dynamite @ Anvils → 1 |
+| Static Wings | (nouvelle) | 9 Purified Gel, 15 Aerialite Bar, 4 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Bathtub | 14 Statigel Block @ Solidifier → 1 | 14 Statigel Block, 3 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Bed | 15 Statigel Block, 5 Silk @ Solidifier → 1 | 15 Statigel Block, 5 Silk, 2 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Block | 1 Purified Gel @ Solidifier → 25 | 1 Purified Gel, 1 Alloy Bar @ StaticRefiner → 10 |
@@ -1089,6 +1093,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Silver — 2
 - station : Aquatic Hypercomputer Vault — 2
 - station : Bronze Smelter — 2
+- station : Entropic Refiner — 2
 - objet : Abandoned Bronze Platform — 1
 - objet : Abandoned Bronze Wall — 1
 - objet : Ace's Low — 1
@@ -1214,6 +1219,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Twisted Netherite Scythe — 1
 - objet : Unsealed Singularity — 1
 - objet : Urchin Flail — 1
+- objet : Violet Heart of Calamity — 1
 - objet : Visceral Biomass — 1
 - objet : Windslasher — 1
 - objet : Wrath of the Ancients — 1
@@ -1221,4 +1227,4 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Wulfrum Bow — 1
 - objet : Wulfrum Leech Dagger — 1
 - station : Aquatic Hypercomputer — 1
-- station : Entropic Refiner — 1
+- station : Aquatic Hypercomputer Static — 1

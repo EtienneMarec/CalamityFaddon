@@ -33,6 +33,9 @@ def stale_tmod():
 
 
 def main():
+    enabled = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))), "Mods", "enabled.json")
+    if os.path.exists(enabled) and "CalamityFandom" not in open(enabled, encoding="utf-8").read():
+        sys.exit("CalamityFandom n'est pas activé (Mods/enabled.json) : tModLoader le désactive après un plantage au chargement.")
     if stale_tmod():
         sys.exit("Le .tmod est plus ancien que les sources : relancer dotnet build avec le jeu fermé (erreur TML003 sinon).")
     mode = sys.argv[sys.argv.index("--mode") + 1] if "--mode" in sys.argv else "CalamityPlus"

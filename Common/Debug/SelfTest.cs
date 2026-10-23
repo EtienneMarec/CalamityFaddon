@@ -258,6 +258,15 @@ namespace CalamityFandom.Common.Debug
             }
             else
                 Expect(false, "TitanFinger introuvable");
+            // Ailes du wiki (24/10) : Red Wings = vitesse 15, accélération 3, 190 de temps de vol
+            if (Mod.TryFind<ModItem>("RedWings", out var redWings))
+            {
+                int slot = ContentSamples.ItemsByType[redWings.Type].wingSlot;
+                var stats = slot > 0 ? ArmorIDs.Wing.Sets.Stats[slot] : default;
+                Expect(slot > 0 && stats.FlyTime == 190 && stats.AccRunSpeedOverride == 15f, $"Red Wings : emplacement {slot}, vol {stats.FlyTime}, vitesse {stats.AccRunSpeedOverride}");
+            }
+            else
+                Expect(false, "RedWings introuvable");
             // Yharim Bar géant au sol (image « The item in-game » du wiki), ramassage compris : hitbox x16
             if (Mod.TryFind<ModItem>("YharimBar", out var yharim))
                 Expect(ContentSamples.ItemsByType[yharim.Type].width == 480, $"largeur de Yharim Bar au sol : {ContentSamples.ItemsByType[yharim.Type].width}");
