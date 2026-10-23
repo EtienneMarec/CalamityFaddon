@@ -12,7 +12,7 @@ using Terraria.ModLoader;
 namespace CalamityFandom.Content.Items
 {
     /// <summary>
-    /// Matériau d'artisanat du wiki, sans comportement propre : une instance par entrée de WikiData/items.json
+    /// Matériau d'artisanat (ou aliment, s'il a un buff de nourriture) du wiki, sans comportement propre : une instance par entrée de WikiData/items.json
     /// (généré par tools/gen_items.py, sprite dans Assets/WikiItems/, textes dans Mods.CalamityFandom.WikiItems.hjson).
     /// Un matériau qui doit faire plus (se poser, avoir un effet) mérite sa propre classe : le retirer alors de la
     /// génération via tools/gen_items.py.
@@ -36,6 +36,10 @@ namespace CalamityFandom.Content.Items
             public float WorldScale { get; set; } = 1f;
             /// <summary>Version détaillée pour le sol (Assets/WikiItems/&lt;Nom&gt;_World.png), à la taille de la hitbox.</summary>
             public bool WorldTexture { get; set; }
+            /// <summary>Aliment (24/10) : buff de nourriture vanilla (WellFed, WellFed2, WellFed3), durée en secondes, use.</summary>
+            public string FoodBuff { get; set; }
+            public int FoodSeconds { get; set; }
+            public int UseTime { get; set; } = 17;
         }
 
         private class ItemsFile
@@ -86,6 +90,15 @@ namespace CalamityFandom.Content.Items
             Item.maxStack = data.MaxStack;
             Item.value = data.Value;
             Item.rare = WikiStats.ResolveRarity(data.Rare);
+            if (data.FoodBuff != null && BuffID.Search.TryGetId(data.FoodBuff, out int buff))
+            {
+                // DefaultToFood remet taille, pile et prix : on les reprend du wiki
+                Item.DefaultToFood(Item.width, Item.height, buff, data.FoodSeconds * 60);
+                Item.useTime = Item.useAnimation = data.UseTime;
+                Item.maxStack = data.MaxStack;
+                Item.value = data.Value;
+                Item.rare = WikiStats.ResolveRarity(data.Rare);
+            }
         }
 
         /// <summary>Objet géant au sol (Yharim Bar) : dessiné à la taille de sa hitbox, posé sur sa base ; version détaillée si fournie.</summary>

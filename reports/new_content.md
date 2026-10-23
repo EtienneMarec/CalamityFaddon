@@ -488,7 +488,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Astral Arcanoid Base — addon: Calamity: Tales of the Aquatic
 - [x] Astral Pearl — addon: Calamity: Community Remix
 - [x] Auric Soul
-- [ ] Baby Flak Crab
+- [x] Baby Flak Crab
 - [x] Baronacre — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [x] Beetle Juice
 - [x] Blank Scroll — addon: Deimos, the Starborn Princess
@@ -524,7 +524,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Eldritch Pie Recipe
 - [x] Electrolyte Matter — addon: Calamity: Tales of the Aquatic
 - [x] Enchanted Metal
-- [ ] Energy Orb — addon: Calamity: Community Remix
+- [x] Energy Orb — addon: Calamity: Community Remix
 - [x] Enhanced Plasma Drive Core
 - [x] Entropic Bar
 - [x] Entropic Frond
@@ -591,7 +591,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Orb of Surt — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [x] Orb of Zot — addon: Deimos, the Starborn Princess
 - [x] Ornate Cloth
-- [ ] Piggy
+- [x] Piggy
 - [x] Primordial Life
 - [x] Primordial Light Shard
 - [x] Pulsing Night Essence — addon: Calamity: Tales of the Aquatic
@@ -1010,19 +1010,19 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Adrenaline of the Gods — addon: Catalyst
 - [ ] Ashes of the Sunken Sea — addon: Calamity: Community Remix
 - [ ] Bagel Nuts
-- [ ] Barolegs
+- [x] Barolegs
 - [ ] Cadance Potion
 - [ ] Calamitas' Brew
-- [ ] Calamitea
-- [ ] Carnal Corn
+- [x] Calamitea
+- [x] Carnal Corn
 - [ ] Chaotic Grapes — addon: Calamity: Tales of the Aquatic
-- [ ] Cheese
+- [x] Cheese
 - [ ] Chez
-- [ ] Clam Chowder
+- [x] Clam Chowder
 - [ ] Cobalt Skin Potion — addon: Calamity: Tales of the Aquatic
 - [ ] Coco's Feather — addon: Deimos, the Starborn Princess
 - [ ] Cookie Bunny — addon: Calamity: Community Remix
-- [ ] Crimtato — addon: Calamity: Community Remix
+- [x] Crimtato — addon: Calamity: Community Remix
 - [ ] Crumbling Potion
 - [ ] Demon Potion
 - [ ] Demon Trophy — addon: Calamity: Community Remix
@@ -1041,7 +1041,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] KEX
 - [ ] Leaves of Crabulon — addon: Calamity: Community Remix
 - [ ] Magma Booster — addon: Catalyst, Deimos, the Starborn Princess
-- [ ] Meld Chip Ice Cream
+- [x] Meld Chip Ice Cream
 - [ ] Meld Skin Potion — addon: Calamity: Tales of the Aquatic
 - [ ] Metabolic Converter — addon: Catalyst
 - [ ] Penumbra Potion
@@ -1055,19 +1055,19 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Sacred Meat — pas de sprite
 - [ ] Sambucus Fruit
 - [ ] Shattering Potion
-- [ ] Slagspitter Pauldron — addon: Deimos, the Starborn Princess, Calamity: Community Remix
+- [x] Slagspitter Pauldron — addon: Deimos, the Starborn Princess, Calamity: Community Remix
 - [ ] Stamina of the Vengeful — addon: Catalyst
 - [ ] Stratus Beverage
 - [ ] Sugars of Calamity — addon: Calamity: Community Remix
 - [ ] Sunwitch — addon: Catalyst
 - [ ] Supreme Strange Brew — addon: Deimos, the Starborn Princess
-- [ ] Titan Finger
+- [x] Titan Finger
 - [ ] Titan Scale Potion
 - [ ] Triumph Potion
 - [ ] YashBrowns — addon: Calamity: Community Remix
-- [ ] Yharic Delight
+- [x] Yharic Delight
 - [ ] Yharim's Stimulants
-- [ ] Zumbo Sauce
+- [x] Zumbo Sauce
 
 ## Enemy (58)
 
@@ -1599,7 +1599,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 ## Energy Source (1)
 
-- [ ] Char Matter — addon: Calamity: Distorted Memories
+- [x] Char Matter — addon: Calamity: Distorted Memories
 
 ## Crafting material. (1)
 

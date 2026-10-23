@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 997 objets dont les recettes ont changé : 900 recettes modifiées, 158 créées
-- 27 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
+- 1002 objets dont les recettes ont changé : 903 recettes modifiées, 160 créées
+- 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 60 transmutations Shimmer ajoutées
-- 145 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 174 recettes
+- 144 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 170 recettes
 
 ## Recettes changées
 
@@ -401,6 +401,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Feralthorn Claymore | 10 Perennial Bar @ MythrilAnvil → 1 | 12 Perennial Bar, 1 Chlorophyte Saber, 1 Chlorophyte Claymore @ MythrilAnvil → 1 |
 | Filthy Glove | (nouvelle) | 5 Rotten Matter, 4 Rotten Chunk, 4 Demonite Bar @ DemonAltar → 1 |
 | Fireball | 10 Bottle, 50 Living Fire Block, 10 Stardust @ Kegs → 10 | 5 Ale, 40 Blood Orb, 1 Unicorn Horn @ AlchemyTable → 5 |
+| Firestorm Cannon | 1 Flare Gun, 10 Hellstone Bar, 1 Illegal Gun Parts @ Anvils → 1 | 5 Char Matter, 1 Flare Gun, 1 Boomstick, 10 Any Gold Bar, 10 Parched Scale @ Anvils → 1 |
 | Flahium Component | (nouvelle) | 3 Alloy Bar, 16 Aerialite Ore, 16 Arsenic Ore, 16 Charred Ore, 16 Cryonic Ore, 16 Perennial Ore, 16 Apocalyptic Ore, 16 Abyss Ore, 16 Life Ore, 16 Astral Ore, 15 Meld Blob, 100 Stardust, 75 Blood Orb, 15 Parched Scale, 15 Rotten Matter, 15 Blood Sample, 15 Purified Gel, 15 Ashes of Calamity, 15 Living Shard, 15 Plague Cell Canister, 10 Core of Calamity, 10 Orb of Boon, 15 Life Alloy, 22 Delicious Meat, 22 Disgusting Meat, 8 Soul of Plight, 8 Soul of Bright, 8 Soul of Night, 8 Soul of Light, 8 Soul of Flight, 8 Soul of Sight, 8 Soul of Might, 8 Soul of Fright, 5 Herb Bag, 1 Bloody Vein @ Autohammer → 2 |
 | Flahium Slag | (nouvelle) | 1 Reclaimed Flah, 2 Exo Prism, 1 Miracle Matter, 2 Ashes of Annihilation, 120 Any Silt Block, 1 Flahium Component @ DraedonsForge → 12 |
 | Flak Kraken | 1 Flak Toxicannon, 20 Voidstone, 20 Depth Cells @ MythrilAnvil → 1 | 1 Flak Toxicannon, 20 Depth Cells, 10 Lumenyl, 10 Crocodile Scale @ MythrilAnvil → 1 |
@@ -415,6 +416,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Flurrystorm Cannon | 1 Snowball Cannon, 1 Illegal Gun Parts, 10 Aerialite Bar, 10 Bone, 10 Conquest Fragment @ Anvils → 1 | 1 Snowball Cannon, 10 Aerialite Bar, 50 Bone, 70 Prism Shard, 30 Water Bucket, 6 Illegal Gun Parts @ Anvils → 1 |
 | Forbidden Oathblade | 1 Bladecrest Oathsword, 1 Old Lord Oathsword, 8 Unholy Core, 8 Essence of Chaos @ MythrilAnvil → 1 | 1 Bladecrest Oathsword, 1 Old Lord Oathsword, 5 Soul of Fright @ MythrilAnvil → 1 |
 | Forbidden Sun | 1 Spell Tome, 10 Abyss Bar @ Bookcases → 1 | 1 Spell Tome, 6 Abyss Bar @ Bookcases → 1 |
+| Fractured Ark | 1 Enchanted Sword, 10 Purified Gel, 10 Any Copper Bar @ Anvils → 1 | 10 Char Matter, 1 Starfury, 1 Enchanted Sword / Arkhalis, 5 Gel, 10 Diamond, 12 Alloy Bar @ Anvils → 1 |
 | Frigidflash Bolt | 1 Frost Bolt, 1 Flare Bolt, 5 Essence of Chaos, 5 Essence of Eleum @ Bookcases → 1 | 1 Frost Bolt, 1 Flare Bolt, 2 Essence of Eleum, 2 Essence of Chaos @ Bookcases → 1 |
 | Frost Blossom Staff | 50 Any Ice Block, 10 Boreal Wood, 5 Shiverthorn @ Anvils → 1 | 5 Shiverthorn, 5 Any Snow Block, 5 Any Ice Block @ Anvils → 1 |
 | Frost Bolt | 20 Any Ice Block, 10 Any Snow Block, 2 Shiverthorn, 1 Sapphire @ Bookcases → 1 | 20 Any Ice Block, 2 Shiverthorn, 10 Any Snow Block, 1 Water Bucket @ Bookcases → 1 |
@@ -693,6 +695,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Prismatic Helmet | 3 Armored Shell, 5 Exodium Cluster, 4 Divine Bar, 300 Nanites @ MythrilAnvil → 1 | 3 Armored Shell, 5 Exodium Cluster, 4 Divine Bar, 8 Ornate Cloth, 300 Nanites, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Prismatic Regalia | 3 Armored Shell, 5 Exodium Cluster, 8 Divine Bar, 300 Nanites @ MythrilAnvil → 1 | 3 Armored Shell, 5 Exodium Cluster, 8 Divine Bar, 8 Ornate Cloth, 300 Nanites, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Profaned Bench | 8 Profaned Rock @ ProfanedCrucible → 1 | 5 Profaned Rock, 2 Silk @ ProfanedCrucible → 1 |
+| Profaned Core | (nouvelle) | 5 Core of Calamity, 2 Unholy Essence, 1 Char Matter, 1 Profaned Guardian Trophy @ LunarCraftingStation → 1 |
 | Profaned Crucible | 10 Profaned Rock, 5 Unholy Essence @ MythrilAnvil → 1 | 10 Profaned Rock, 5 Unholy Essence @ LunarCraftingStation → 1 |
 | Profaned Crystal | 50 Glass, 1 Unholy Essence @ AdamantiteForge → 50 | 1 Unholy Essence, 20 Glass @ LunarCraftingStation → 20 |
 | Profaned Flame Dye | 3 Bottled Water, 5 Unholy Essence @ DyeVat → 3 | 2 Bottled Water, 3 Unholy Essence @ DyeVat → 2 |
@@ -834,6 +837,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Something | (nouvelle) | 5 Absolute Gel, 5 Absolute Spirit Essence, 5 Hardened Chitin, 5 Ornate Cloth, 5 Reassembled Electronics @ DraedonsForge → 1 |
 | Soul Flux | (nouvelle) | 5 Soul of Light, 5 Soul of Night, 5 Soul of Flight, 5 Soul of Might, 5 Soul of Sight, 5 Soul of Fright, 5 Soul of Plight @ MythrilAnvil → 1 |
 | Soul Piercer | 10 Cosmilite Bar @ CosmicAnvil → 1 | 12 Cosmilite Bar @ CosmicAnvil → 1 |
+| Spark Spreader | 10 Any Gold Bar, 1 Ruby, 12 Gel @ Anvils → 1 | 1 Char Matter, 1 Flare Gun, 1 Ruby, 12 Gel @ Anvils → 1 |
 | Spear of Destiny | 1 Cursed Dagger, 7 Hallowed Bar, 5 Soul of Fright, 5 Soul of Might, 5 Soul of Sight @ MythrilAnvil → 1 | 7 Hallowed Bar, 5 Soul of Light, 5 Soul of Fright @ MythrilAnvil → 1 |
 | Spectralstorm Cannon | 1 Firestorm Cannon, 6 Solar Fragment, 10 Ectoplasm @ LunarCraftingStation → 1 | 1 Firestorm Cannon, 20 Vortex Fragment, 10 Ectoplasm @ LunarCraftingStation → 1 |
 | Speed Blaster | 1 Paintball Gun, 1 Illegal Gun Parts, 5 Any Mythril Bar @ MythrilAnvil → 1 | 1 Paintball Gun, 5 Soul of Sight @ MythrilAnvil → 1 |
@@ -1063,6 +1067,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Wulfrum Screwdriver | 10 Wulfrum Bar @ Anvils → 1 | 5 Screwdriver, 30 Wulfrum Bar, 5 Vortex Fragment @ Kegs → 5 |
 | Wulfrum Treasure Pinger | 10 Wulfrum Bar @ main → 1 | 50 Wulfrum Bar, 3 Energy Core, 1 Energy Orb @ Anvils → 1 |
 | Yellow Seeking Mechanism | 1 Lab Seeking Mechanism, 20 Cloud @ Anvils → 1 | 1 Lab Seeking Mechanism, 50 Ice Block @ Anvils → 1 |
+| Yharic Delight | (nouvelle) | 1 Yharim Bar, 1 Yharon Soul Fragment @ CookingPots → 20 |
 | Yin-Yo | 1 Valor, 1 Dark Shard, 1 Light Shard, 7 Soul of Light, 7 Soul of Night @ Anvils → 1 | 1 Dark Shard, 1 Light Shard @ Anvils → 1 |
 | Zen Potion | 1 Bottled Water, 2 Purified Gel, 3 Daybloom @ AlchemyTable → 1 | 256 Delicious Meat, 1 Pink Gel, 1 Daybloom, 1 Bottled Water @ AlchemyTable → 1 |
 | Zen Potion | 1 Bottled Water, 5 Blood Orb, 2 Purified Gel @ AlchemyTable → 1 | 1 Bottled Water, 2 Unholy Core, 256 Delicious Meat @ AlchemyTable → 1 |
@@ -1076,7 +1081,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - station : Aquatic Hypercomputer Capsules — 9
 - objet : Psychotic Amulet — 5
 - station : Aquatic Hypercomputer Finished — 5
-- objet : Char Matter — 4
 - station : Aquatic Hypercomputer ERM — 4
 - objet : Crab — 2
 - objet : Disseminator — 2

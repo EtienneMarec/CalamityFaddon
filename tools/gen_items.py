@@ -27,6 +27,17 @@ from gen_localization import flatten_file  # noqa: E402
 OUT = os.path.join(ROOT, "WikiData", "items.json")
 ASSETS = os.path.join(ROOT, "Assets", "WikiItems")
 LOC = os.path.join(ROOT, "Localization", "en-US", "Mods.CalamityFandom.WikiItems.hjson")
+# Aliments (24/10) : potions du wiki dont le buff est un buff de nourriture vanilla -> objet à manger généré
+FOOD_BUFFS = {"well fed": "WellFed", "plenty satisfied": "WellFed2", "exquisitely stuffed": "WellFed3"}
+DURATION_UNITS = {"second": 1, "minute": 60, "hour": 3600, "day": 86400}
+
+
+def duration_seconds(raw):
+    """« 4 minutes », « 4 hours », « 22 days » -> secondes (None si illisible)."""
+    m = re.match(r"\s*([\d.]+)\s*(second|minute|hour|day)s?", raw or "", re.I)
+    return int(float(m.group(1)) * DURATION_UNITS[m.group(2).lower()]) if m else None
+
+
 MATERIAL_TYPES = {"crafting material", "crafting materials", "bar", "soul", "energy source"}  # Char Matter : énergie de Draedon
 MAX_SPRITE = 96  # au-delà, réduction par un facteur entier (illustrations du wiki, ex. « Mars Bars »)
 # Objets dessinés (et ramassables) en plus grand au sol, d'après une image du wiki (décision du 22/10, docs/decisions.md).
@@ -119,7 +130,11 @@ def main():
         if page.get("status") != "new" or page.get("kind") != "content" or not page.get("infobox", "").startswith("item"):
             continue
         kind = (page.get("type") or "").strip().lower().rstrip(".")
-        if kind not in MATERIAL_TYPES and not (kind == "block" and page["title"].lower() in ingredients):
+        food = FOOD_BUFFS.get(clean_text(page["fields"].get("buff")).lower()) if kind == "potion" else None
+        seconds = duration_seconds(page["fields"].get("duration")) if food else None
+        if food and not seconds:
+            food = None
+        if kind not in MATERIAL_TYPES and not food and not (kind == "block" and page["title"].lower() in ingredients):
             continue
         sprite = sprite_file(page)
         if not sprite:
@@ -140,6 +155,9 @@ def main():
             "maxStack": int(min(max(stack or 9999, 1), 9999)),
             "value": copper * 5 if copper is not None else 0,
         })
+        if food:
+            use = number(f.get("use"))
+            items[-1].update({"foodBuff": food, "foodSeconds": seconds, "useTime": int(use) if use else 17})
         if title in WORLD_SCALE:
             items[-1]["worldScale"] = WORLD_SCALE[title]
             world = os.path.join(CUSTOM, title + " (world).png")

@@ -266,6 +266,21 @@
    "value": 3000
   },
   {
+   "name": "Barolegs",
+   "displayName": "Barolegs",
+   "page": "Barolegs.txt",
+   "width": 34,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 5,
+   "maxStack": 999,
+   "value": 100000,
+   "foodBuff": "WellFed",
+   "foodSeconds": 1200,
+   "useTime": 17
+  },
+  {
    "name": "Baronacre",
    "displayName": "Baronacre",
    "page": "Baronacre.txt",
@@ -458,6 +473,36 @@
    "value": 2000000
   },
   {
+   "name": "Calamitea",
+   "displayName": "Calamitea",
+   "page": "Calamitea.txt",
+   "width": 34,
+   "height": 22,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 10,
+   "maxStack": 999,
+   "value": 0,
+   "foodBuff": "WellFed3",
+   "foodSeconds": 900,
+   "useTime": 17
+  },
+  {
+   "name": "CarnalCorn",
+   "displayName": "Carnal Corn",
+   "page": "Carnal Corn.txt",
+   "width": 36,
+   "height": 38,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 7,
+   "maxStack": 999,
+   "value": 200000,
+   "foodBuff": "WellFed2",
+   "foodSeconds": 7200,
+   "useTime": 17
+  },
+  {
    "name": "CatastropheClayOre",
    "displayName": "Catastrophe Clay Ore",
    "page": "Catastrophe Clay Ore.txt",
@@ -516,6 +561,36 @@
    "rare": 1,
    "maxStack": 9999,
    "value": 400
+  },
+  {
+   "name": "Cheese",
+   "displayName": "Cheese",
+   "page": "Cheese.txt",
+   "width": 30,
+   "height": 32,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 3,
+   "maxStack": 999,
+   "value": 75000,
+   "foodBuff": "WellFed3",
+   "foodSeconds": 1800,
+   "useTime": 17
+  },
+  {
+   "name": "ClamChowder",
+   "displayName": "Clam Chowder",
+   "page": "Clam Chowder.txt",
+   "width": 30,
+   "height": 22,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 5,
+   "maxStack": 999,
+   "value": 100000,
+   "foodBuff": "WellFed2",
+   "foodSeconds": 480,
+   "useTime": 17
   },
   {
    "name": "CloakingGland",
@@ -672,6 +747,21 @@
    "rare": 5,
    "maxStack": 9999,
    "value": 8000
+  },
+  {
+   "name": "Crimtato",
+   "displayName": "Crimtato",
+   "page": "Crimtato.txt",
+   "width": 30,
+   "height": 30,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 7,
+   "maxStack": 999,
+   "value": 5200000,
+   "foodBuff": "WellFed3",
+   "foodSeconds": 14400,
+   "useTime": 17
   },
   {
    "name": "CrocodileScale",
@@ -1634,6 +1724,21 @@
    "value": 60000
   },
   {
+   "name": "MeldChipIceCream",
+   "displayName": "Meld Chip Ice Cream",
+   "page": "Meld Chip Ice Cream.txt",
+   "width": 36,
+   "height": 40,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 7,
+   "maxStack": 999,
+   "value": 500000,
+   "foodBuff": "WellFed3",
+   "foodSeconds": 240,
+   "useTime": 17
+  },
+  {
    "name": "MeldOre",
    "displayName": "Meld Ore",
    "page": "Meld Ore.txt",
@@ -2234,6 +2339,21 @@
    "value": 100000
   },
   {
+   "name": "SlagspitterPauldron",
+   "displayName": "Slagspitter Pauldron",
+   "page": "Slagspitter Pauldron.txt",
+   "width": 28,
+   "height": 26,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 7,
+   "maxStack": 999,
+   "value": 0,
+   "foodBuff": "WellFed3",
+   "foodSeconds": 960,
+   "useTime": 17
+  },
+  {
    "name": "SmoothSkylacStone",
    "displayName": "Smooth Skylac Stone",
    "page": "Smooth Skylac Stone.txt",
@@ -2400,6 +2520,21 @@
    "rare": 0,
    "maxStack": 9999,
    "value": 25000000
+  },
+  {
+   "name": "TitanFinger",
+   "displayName": "Titan Finger",
+   "page": "Titan Finger.txt",
+   "width": 30,
+   "height": 22,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 5,
+   "maxStack": 999,
+   "value": 250000,
+   "foodBuff": "WellFed2",
+   "foodSeconds": 240,
+   "useTime": 17
   },
   {
    "name": "TrapperBulb",
@@ -2582,6 +2717,21 @@
    "value": 100000
   },
   {
+   "name": "YharicDelight",
+   "displayName": "Yharic Delight",
+   "page": "Yharic Delight.txt",
+   "width": 22,
+   "height": 24,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 15,
+   "maxStack": 9999,
+   "value": 0,
+   "foodBuff": "WellFed3",
+   "foodSeconds": 1900800,
+   "useTime": 17
+  },
+  {
    "name": "YharimBar",
    "displayName": "Yharim Bar",
    "page": "Yharim Bar.txt",
@@ -2606,6 +2756,21 @@
    "rare": 3,
    "maxStack": 9999,
    "value": 1500
+  },
+  {
+   "name": "ZumboSauce",
+   "displayName": "Zumbo Sauce",
+   "page": "Zumbo Sauce.txt",
+   "width": 18,
+   "height": 24,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 6,
+   "maxStack": 9999,
+   "value": 250000,
+   "foodBuff": "WellFed3",
+   "foodSeconds": 1800,
+   "useTime": 17
   }
  ]
 }

@@ -206,6 +206,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   flottent au sol comme les âmes.
 - **[choix]** Un matériau dont le nom existe déjà en vanilla n'est pas créé.
 - **[choix]** (24/10) Type « Energy Source » (Char Matter) traité comme un matériau simple.
+- **[choix]** (24/10) **Aliments** générés comme les matériaux : potion du wiki dont le buff est Well Fed / Plenty Satisfied /
+  Exquisitely Stuffed, avec la durée de l'infobox (11 : Titan Finger, Clam Chowder, Cheese, Crimtato, Yharic Delight...).
+  Leurs effets en plus écrits en prose (Yharic Delight « Instantly heals the user to full health ») ne sont pas encore faits.
 - **[validé 22/10]** **Yharim Bar géant au sol** (x16, d'après l'image « The item in-game » de sa page : ~480 px de large
   pour un sprite de 30), **dans les deux modes**, zone de ramassage comprise (hitbox x16). Taille normale dans
   l'inventaire. Données : `WORLD_SCALE` dans `tools/gen_items.py` → `worldScale` de `WikiData/items.json`.

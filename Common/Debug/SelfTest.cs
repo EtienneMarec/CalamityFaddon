@@ -249,6 +249,15 @@ namespace CalamityFandom.Common.Debug
             }
             else
                 Expect(false, "AlloyBar introuvable");
+            // Aliments du wiki (24/10) : Titan Finger = Plenty Satisfied 4 minutes, lâché par Atlas (butin des pages d'objets)
+            if (Mod.TryFind<ModItem>("TitanFinger", out var finger))
+            {
+                var sample = ContentSamples.ItemsByType[finger.Type];
+                Expect(sample.buffType == BuffID.WellFed2 && sample.buffTime == 240 * 60 && sample.consumable, $"Titan Finger : buff {sample.buffType}, {sample.buffTime} ticks");
+                Expect(!WikiLoot.MissingItems.ContainsKey("Titan Finger"), "Titan Finger trouvé par le butin");
+            }
+            else
+                Expect(false, "TitanFinger introuvable");
             // Yharim Bar géant au sol (image « The item in-game » du wiki), ramassage compris : hitbox x16
             if (Mod.TryFind<ModItem>("YharimBar", out var yharim))
                 Expect(ContentSamples.ItemsByType[yharim.Type].width == 480, $"largeur de Yharim Bar au sol : {ContentSamples.ItemsByType[yharim.Type].width}");

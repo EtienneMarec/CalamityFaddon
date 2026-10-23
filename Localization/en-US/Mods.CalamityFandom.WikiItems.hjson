@@ -109,6 +109,16 @@
 		DisplayName: Baby Flak Crab
 		Tooltip: ""
 	}
+	Barolegs:
+	{
+		DisplayName: Barolegs
+		Tooltip:
+			'''
+			The meat actually looks to have come from a barocraw. Not that it matters, it's rancid all the same
+			Varying improvements to all stats
+			Increases life regeneration
+			'''
+	}
 	Baronacre:
 	{
 		DisplayName: Baronacre
@@ -189,6 +199,24 @@
 		DisplayName: Broken Modem
 		Tooltip: It's making nonsensical noises. It sounds like it's trying to speak.
 	}
+	Calamitea:
+	{
+		DisplayName: Calamitea
+		Tooltip:
+			'''
+			Quite the calamity
+			Grants Exquisitely Stuffed
+			'''
+	}
+	CarnalCorn:
+	{
+		DisplayName: Carnal Corn
+		Tooltip:
+			'''
+			Medium improvements to all stats
+			Increases life regeneration
+			'''
+	}
 	CatastropheClayOre:
 	{
 		DisplayName: Catastrophe Clay Ore
@@ -213,6 +241,21 @@
 	{
 		DisplayName: Charged Wulfrum Battery
 		Tooltip: ""
+	}
+	Cheese:
+	{
+		DisplayName: Cheese
+		Tooltip: I wish I could fly?
+	}
+	ClamChowder:
+	{
+		DisplayName: Clam Chowder
+		Tooltip:
+			'''
+			New Ilmeris style
+			Medium improvements to all stats
+			Increases life regeneration
+			'''
 	}
 	CloakingGland:
 	{
@@ -278,6 +321,15 @@
 	{
 		DisplayName: Coyote Venom
 		Tooltip: Try not to drink it
+	}
+	Crimtato:
+	{
+		DisplayName: Crimtato
+		Tooltip:
+			'''
+			Medium improvements to all stats
+			Increases life regeneration
+			'''
 	}
 	CrocodileScale:
 	{
@@ -695,6 +747,16 @@
 		DisplayName: Meld Bar
 		Tooltip: ""
 	}
+	MeldChipIceCream:
+	{
+		DisplayName: Meld Chip Ice Cream
+		Tooltip:
+			'''
+			Better eat it before it melds
+			Major improvements to all stats
+			Increases life regeneration
+			'''
+	}
 	MeldOre:
 	{
 		DisplayName: Meld Ore
@@ -945,6 +1007,11 @@
 		DisplayName: Skyline Tooth
 		Tooltip: '''"Glowing tooth filled with laceline, Allows sharks to stick to their targets"'''
 	}
+	SlagspitterPauldron:
+	{
+		DisplayName: Slagspitter Pauldron
+		Tooltip: Major improvements to all stats
+	}
 	SmoothSkylacStone:
 	{
 		DisplayName: Smooth Skylac Stone
@@ -1014,6 +1081,16 @@
 	{
 		DisplayName: Thorium Ore
 		Tooltip: '''"Used in durable structures and as nuclear fuel."'''
+	}
+	TitanFinger:
+	{
+		DisplayName: Titan Finger
+		Tooltip:
+			'''
+			Contact with the nefarious anglerfish
+			Medium improvements to all stats
+			Increases life regeneration
+			'''
 	}
 	TrapperBulb:
 	{
@@ -1090,6 +1167,17 @@
 		DisplayName: Weaver Lac
 		Tooltip: '''"Delicious glowing substance, good for painting"'''
 	}
+	YharicDelight:
+	{
+		DisplayName: Yharic Delight
+		Tooltip:
+			'''
+			Major improvements to all stats
+			'Such a delicacy could only be created with a dragon soul'
+			Increases life regeneration
+			Instantly heals the user to full health when used
+			'''
+	}
 	YharimBar:
 	{
 		DisplayName: Yharim Bar
@@ -1099,5 +1187,10 @@
 	{
 		DisplayName: Zotplate
 		Tooltip: It resonates with otherworldly energy.
+	}
+	ZumboSauce:
+	{
+		DisplayName: Zumbo Sauce
+		Tooltip: ""
 	}
 }
