@@ -520,6 +520,10 @@
 						Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
 						'''
 				}
+				BloodflareHeadRanged:
+				{
+					DisplayName: Bloodflare Horned Helm
+				}
 				EmpyreanMask:
 				{
 					SetBonus:
@@ -603,6 +607,26 @@
 		}
 		DraedonItems:
 		{
+			DraedonsLogHell:
+			{
+				DisplayName: Draedon's Log - Hell
+			}
+			DraedonsLogJungle:
+			{
+				DisplayName: Draedon's Log - The Jungle and Plague
+			}
+			DraedonsLogPlanetoid:
+			{
+				DisplayName: Draedon's Log - Space
+			}
+			DraedonsLogSnowBiome:
+			{
+				DisplayName: Draedon's Log - The Frozen Wasteland
+			}
+			DraedonsLogSunkenSea:
+			{
+				DisplayName: Draedon's Log - Study on Sunken Aquatic Life
+			}
 			WhiteSeekingMechanism:
 			{
 				DisplayName: Purple Seeking Mechanism
@@ -675,6 +699,10 @@
 			{
 				DisplayName: Conquest Fragment
 			}
+			PlasmaDriveCore:
+			{
+				DisplayName: Prototype Plasma Drive Core
+			}
 			ScoriaBar:
 			{
 				DisplayName: Abyss Bar
@@ -698,6 +726,10 @@
 		}
 		Misc:
 		{
+			BabyGhostBellItem:
+			{
+				DisplayName: Baby Ghost Bell
+			}
 			CelestialOnion:
 			{
 				Tooltip:
@@ -748,6 +780,14 @@
 			CalamitasCloneTrophy:
 			{
 				DisplayName: Calamitas Trophy
+			}
+			CataclysmTrophy:
+			{
+				DisplayName: Cataclysm Trophy
+			}
+			CatastropheTrophy:
+			{
+				DisplayName: Catastrophe Trophy
 			}
 			Havocplate:
 			{
@@ -865,9 +905,17 @@
 			{
 				DisplayName: BigSightseerBanner
 			}
+			SilvaBasin:
+			{
+				DisplayName: Effulgent Manipulator
+			}
 			SulflounderBanner:
 			{
 				DisplayName: FlounderBanner
+			}
+			SupremeCalamitasTrophy:
+			{
+				DisplayName: Supreme Calamitas Trophy
 			}
 			ToxicatfishBanner:
 			{
@@ -1004,6 +1052,10 @@
 			{
 				DisplayName: Treasure Bag (Meatmetal Sans)
 			}
+			YharonBag:
+			{
+				DisplayName: Treasure Bag (Jungle Dragon, Yharon)
+			}
 		}
 		Weapons:
 		{
@@ -1032,6 +1084,14 @@
 				PulseGrenade:
 				{
 					DisplayName: Frequency Manipulator
+				}
+				PulsePistol:
+				{
+					DisplayName: Pulse Pistol
+				}
+				PulseRifle:
+				{
+					DisplayName: Pulse Rifle
 				}
 				ShortCircuit:
 				{
@@ -1317,9 +1377,25 @@
 		{
 			DisplayName: Tempest Toddler
 		}
+		CalamitasClone:
+		{
+			DisplayName: Calamitas
+		}
+		Cataclysm:
+		{
+			DisplayName: Cataclysm
+		}
+		Catastrophe:
+		{
+			DisplayName: Catastrophe
+		}
 		CrimulanPaladin:
 		{
 			DisplayName: Crimulan Slime God
+		}
+		DesertNuisanceHead:
+		{
+			DisplayName: A Desert Nuisance
 		}
 		DraconicSwarmer:
 		{
@@ -1370,6 +1446,10 @@
 		{
 			DisplayName: Big Sightseer
 		}
+		Signus:
+		{
+			DisplayName: Signus, Envoy of the Devourer
+		}
 		SplitCrimulanPaladin:
 		{
 			DisplayName: Crimulan Slime God
@@ -1382,9 +1462,17 @@
 		{
 			DisplayName: Flounder
 		}
+		SupremeCalamitas:
+		{
+			DisplayName: Supreme Calamitas
+		}
 		WildBumblebirb:
 		{
 			DisplayName: Tempest Toddler
+		}
+		Yharon:
+		{
+			DisplayName: Jungle Dragon, Yharon
 		}
 	}
 	Projectiles:

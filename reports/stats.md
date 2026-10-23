@@ -2,9 +2,9 @@
 
 _Généré par `tools/gen_stats.py`._ Règles : `docs/decisions.md`, section « Stats ».
 
-- Tous les modes : 1301 objets et 36 PNJ (`items` / `npcs` de `WikiData/stats.json`).
-- Full Fandom en plus : 482 objets et 57 PNJ (`fullItems` / `fullNpcs`).
-- 30 valeurs identiques à Calamity 2.0.1.005 : Full Fandom seulement (ce n'est que l'ancien Calamity).
+- Tous les modes : 1304 objets et 37 PNJ (`items` / `npcs` de `WikiData/stats.json`).
+- Full Fandom en plus : 485 objets et 57 PNJ (`fullItems` / `fullNpcs`).
+- 39 valeurs identiques à Calamity 2.0.1.005 : Full Fandom seulement (ce n'est que l'ancien Calamity).
 - 21 écarts extrêmes tranchés avec l'utilisateur (`tools/stats_decisions.json`).
 - **9 écarts extrêmes (> x5) à trancher** : Full Fandom seulement en attendant.
 - 831 valeurs fixées sur les pages de wiki/ avec {{mode|Full Fandom|Calamity++}}.
@@ -76,12 +76,21 @@ _Généré par `tools/gen_stats.py`._ Règles : `docs/decisions.md`, section « 
 | Opal Striker | OpalStriker | useAnimation | 20 | - |
 | Photoviscerator | Photoviscerator | useAnimation | 10 | - |
 | Polterghast | Polterghast | life | 350000 | 280000 |
+| Pulse Pistol | PulsePistol | damage | 26 | 42 |
+| Pulse Pistol | PulsePistol | useAnimation | 20 | 64 |
+| Pulse Pistol | PulsePistol | knockBack | 0 | 3 |
+| Pulse Pistol | PulsePistol | shootSpeed | 5.2 | 8 |
+| Pulse Rifle | PulseRifle | useAnimation | 35 | 55 |
+| Pulse Rifle | PulseRifle | knockBack | 0 | 0.25 |
 | Saros Possession | SarosPossession | shootSpeed | 10 | - |
 | Scorched Earth | ScorchedEarth | useAnimation | 32 | - |
 | Sirius | Sirius | shootSpeed | 10 | - |
 | Stellar Striker | StellarStriker | shootSpeed | 12 | - |
 | The Hive | TheHive | useAnimation | 21 | - |
 | The Sponge | TheSponge | defense | 20 | - |
+| True Caustic Edge | TrueCausticEdge | damage | 150 | 100 |
+| True Caustic Edge | TrueCausticEdge | knockBack | 5.75 | 6 |
+| True Caustic Edge | TrueCausticEdge | shootSpeed | 16 | 12 |
 | Ursa Sergeant | UrsaSergeant | defense | 20 | - |
 | Wulfrum Controller | WulfrumController | shootSpeed | 10 | - |
 

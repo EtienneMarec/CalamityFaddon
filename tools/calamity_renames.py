@@ -62,6 +62,19 @@ def compute():
             continue
         renames.append({"old": old, "new": new, "kind": kind, "oldName": old_names.get(path) or old,
                         "newName": current.get(new, new), "similarity": score[old]})
+    # Même classe, nom affiché changé (SilvaBasin : « Effulgent Manipulator » en 2022, « Silva Basin » aujourd'hui).
+    # Seulement quand l'ancien nom est connu (DisplayName.SetDefault du vieux code).
+    # Le vieux nom est lu par fichier : un fichier qui déclarait plusieurs objets (casque + plastron) ne compte pas.
+    per_path = {}
+    for kind, path in old_classes.values():
+        per_path[path] = per_path.get(path, 0) + 1
+    for cls in sorted(set(old_classes) & set(new_classes)):
+        kind, path = old_classes[cls]
+        before, now = old_names.get(path), current.get(cls)
+        if not before or not now or now.startswith("{$") or per_path[path] != 1:
+            continue
+        if norm(before) != norm(now) and new_classes[cls][0] == kind:
+            renames.append({"old": cls, "new": cls, "kind": kind, "oldName": before, "newName": now, "similarity": 100})
     return renames
 
 

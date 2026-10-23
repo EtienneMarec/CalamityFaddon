@@ -234,6 +234,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       recette ; Full Fandom : c'est notre Night's Gaze de 2022, la Vega est masquée. Idem Star Shower → Starfall, Burning
       Revelation → Solar Flare, Sandstream Scepter → Storm Spray, Doomsday Device → Shock Grenade...
 - [ ] Crimulan Paladin / Ebonian Paladin s'appellent Crimulan / Ebonian Slime God
+- [ ] Calamitas Clone s'appelle **Calamitas**, Cataclysmic Construct **Cataclysm**, Signus **Signus, Envoy of the Devourer**
+- [ ] La Silva Basin s'appelle **Effulgent Manipulator** et fabrique les meubles Silva
 
 ### 2.4 Shortstrike (page Shortstrike, 22/10)
 

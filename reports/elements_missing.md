@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 
-## PNJ (152)
+## PNJ (151)
 
 - Acidsighter
 - Aether Valkyrie
@@ -90,7 +90,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Heavenly Ogsculite
 - Hydrogen
 - Ionogen
-- Jungle Dragon Yharon
 - King of Constellations, Tenryu
 - La Ruga
 - Lav'e Rugamarius
@@ -157,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (493)
+## Objets (491)
 
 - A M S
 - AAMG "Disperse"
@@ -477,8 +476,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Profaned Fire Dart
 - Profaned Nucleus
 - Prominence
-- Pulse Pistol
-- Pulse Rifle
 - Pumplerfaust
 - Pungent Bomber
 - Purgatory Blaster

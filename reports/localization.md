@@ -2,12 +2,13 @@
 
 _Généré par `tools/gen_localization.py`._
 
-302 textes modifiés, dont 188 noms.
+324 textes modifiés, dont 210 noms.
 
 Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom Brick Wall, Hide of Astrum Deus, Uelibloom Brick, Realm Ravager, going rogue, goes rogue, gone rogue, went rogue, go rogue.
 
 | Clé | Avant | Après |
 |---|---|---|
+| `Items.Weapons.DraedonsArsenal.PulseRifle.DisplayName` | A-PLS: Pulse Rifle | Pulse Rifle |
 | `Keybinds.Accessory1.DisplayName` | Accessory Ability 1 | Covering Ability 1 |
 | `Keybinds.Accessory2.DisplayName` | Accessory Ability 2 | Covering Ability 2 |
 | `Keybinds.Accessory3.DisplayName` | Accessory Ability 3 | Covering Ability 3 |
@@ -29,13 +30,21 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.SummonItems.YharonEgg.DisplayName` | Blessed Phoenix Egg | Jungle Dragon Egg |
 | `Items.Weapons.Melee.BlightedCleaver.DisplayName` | Blighted Cleaver | Tyrant Yharim's Ultisword |
 | `Items.Weapons.Summon.BlightedSlimeStaff.DisplayName` | Blighted Slime Staff | Corroslime Staff |
+| `Items.Armor.PostMoonLord.BloodflareHeadRanged.DisplayName` | Bloodflare Demon Helm | Bloodflare Horned Helm |
+| `Items.Misc.BabyGhostBellItem.DisplayName` | Blue Baby Ghost Bell | Baby Ghost Bell |
 | `Items.Weapons.Melee.BotanicPiercer.DisplayName` | Botanic Piercer | Terra Lance |
 | `Biomes.BrimstoneCragsBiome.DisplayName` | Brimstone Crags | Brimstone Crag |
 | `Items.Weapons.Summon.BrittleStarStaff.DisplayName` | Brittle Star Staff | Seabound Staff |
 | `Items.Ammo.BubonicRound.DisplayName` | Bubonic Round | Acid Round |
 | `Items.Weapons.Melee.BurningRevelation.DisplayName` | Burning Revelation | Solar Flare |
+| `NPCs.CalamitasClone.DisplayName` | Calamitas Clone | Calamitas |
 | `Items.Armor.Vanity.CalamitasCloneMask.DisplayName` | Calamitas Clone Mask | Calamitas Mask |
 | `Items.Placeables.CalamitasCloneTrophy.DisplayName` | Calamitas Clone Trophy | Calamitas Trophy |
+| `Items.Placeables.SupremeCalamitasTrophy.DisplayName` | Calamitas Trophy | Supreme Calamitas Trophy |
+| `NPCs.Cataclysm.DisplayName` | Cataclysmic Construct | Cataclysm |
+| `Items.Placeables.CataclysmTrophy.DisplayName` | Cataclysmic Construct Trophy | Cataclysm Trophy |
+| `NPCs.Catastrophe.DisplayName` | Catastrophic Construct | Catastrophe |
+| `Items.Placeables.CatastropheTrophy.DisplayName` | Catastrophic Construct Trophy | Catastrophe Trophy |
 | `Items.Accessories.ChaliceOfTheBloodGod.DisplayName` | Chalice of the Blood God | Core of the Blood God |
 | `Items.Weapons.Ranged.ChromaticEruption.DisplayName` | Chromatic Eruption | Elemental Eruption |
 | `Items.Ammo.CinderArrow.DisplayName` | Cinder Arrow | Napalm Arrow |
@@ -43,11 +52,13 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `NPCs.CrimulanPaladin.DisplayName` | Crimulan Paladin | Crimulan Slime God |
 | `NPCs.SplitCrimulanPaladin.DisplayName` | Crimulan Paladin | Crimulan Slime God |
 | `Items.Accessories.CrushingEgo.DisplayName` | Crushing Ego | Dimensional Soul Artifact |
+| `Items.DraedonItems.DraedonsLogSnowBiome.DisplayName` | Cryonic Material Log | Draedon's Log - The Frozen Wasteland |
 | `Items.Accessories.DarkMatterSheath.DisplayName` | Dark Matter Sheath | Dark God's Sheath |
 | `Items.Weapons.Magic.DarkSpark.DisplayName` | Dark Spark | Cruel Jewel |
 | `Projectiles.Magic.DarkSparkBeam.DisplayName` | Dark Spark Beam | Cruel Jewel Beam |
 | `Items.Weapons.Ranged.DeadSunsWind.DisplayName` | Dead Sun's Wind | God's Bellows |
 | `Items.Weapons.Melee.DefiledGreatsword.DisplayName` | Defiled Greatsword | True Tyrant's Ultisword |
+| `NPCs.DesertNuisanceHead.DisplayName` | Desert Nuisance | A Desert Nuisance |
 | `Items.Accessories.DiamondOfTheDeep.DisplayName` | Diamond of the Deep | Lumenous Amulet |
 | `Items.Weapons.Rogue.DimensionTearingDisk.DisplayName` | Dimension-Tearing Disk | Eradicator |
 | `Items.Materials.DivineGeode.DisplayName` | Divine Geode | Divine Bar |
@@ -60,6 +71,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `NPCs.EbonianPaladin.DisplayName` | Ebonian Paladin | Ebonian Slime God |
 | `NPCs.SplitEbonianPaladin.DisplayName` | Ebonian Paladin | Ebonian Slime God |
 | `Items.Weapons.Summon.EnchantedConch.DisplayName` | Enchanted Conch | Magical Conch |
+| `Items.DraedonItems.DraedonsLogHell.DisplayName` | Environmental Pollution Log | Draedon's Log - Hell |
 | `Items.Materials.EssenceofHavoc.DisplayName` | Essence of Havoc | Essence of Chaos |
 | `Items.Weapons.Melee.ExaltedOathblade.DisplayName` | Exalted Oathblade | True Forbidden Oathblade |
 | `Items.Accessories.FadedIdolatry.DisplayName` | Faded Idolatry | Godly Soul Artifact |
@@ -83,11 +95,13 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.Ranged.Kingsbane.DisplayName` | Kingsbane | Minigun |
 | `Items.Weapons.Summon.LegionofCelestia.DisplayName` | Legion of Celestia | Elemental Axe |
 | `Items.Weapons.Melee.Lightspeed.DisplayName` | Lightspeed | Elemental Shiv |
+| `Items.DraedonItems.DraedonsLogPlanetoid.DisplayName` | Low Orbit Study Log | Draedon's Log - Space |
 | `Projectiles.Rogue.LuxorsGiftRogue.DisplayName` | Luxor's Rogue | Luxor's Spy |
 | `Items.Weapons.Rogue.Malachite.DisplayName` | Malachite | Garnet |
 | `Projectiles.Rogue.MalachiteBolt.DisplayName` | Malachite | Garnet |
 | `Projectiles.Rogue.MalachiteProj.DisplayName` | Malachite | Garnet |
 | `Projectiles.Rogue.MalachiteStealth.DisplayName` | Malachite | Garnet |
+| `Items.DraedonItems.DraedonsLogSunkenSea.DisplayName` | Marine Biology Log | Draedon's Log - Study on Sunken Aquatic Life |
 | `Items.SummonItems.MarkofProvidence.DisplayName` | Mark of Providence | Rune of Kos |
 | `Buffs.MarkedforDeath.DisplayName` | Marked for Death | Marked |
 | `Items.SummonItems.MartianDistressRemote.DisplayName` | Martian Distress Remote | Martian Distress Beacon |
@@ -122,14 +136,17 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.Melee.Orderbringer.DisplayName` | Orderbringer | Greatsword of Blah |
 | `Items.Weapons.Melee.Ozzathoth.DisplayName` | Ozzathoth | Azathoth |
 | `Items.Weapons.DraedonsArsenal.AerialTracker.DisplayName` | P-LSR: Aerial Tracker | Tracking Disk |
+| `Items.Weapons.DraedonsArsenal.PulsePistol.DisplayName` | P-PLS: Pulse Pistol | Pulse Pistol |
 | `Items.Weapons.DraedonsArsenal.AqueousHunterDrone.DisplayName` | P-PMA: Aqueous Hunter Drone | Star Swallower Containment Unit |
 | `Items.Weapons.DraedonsArsenal.ShortCircuit.DisplayName` | P-TSL: Short Circuit | Taser |
 | `Items.Materials.PearlShard.DisplayName` | Pearl Shard | Conquest Fragment |
 | `Items.Weapons.Magic.Photosynthesis.DisplayName` | Photosynthesis | Terra Ray |
+| `Items.DraedonItems.DraedonsLogJungle.DisplayName` | Plague Nanomachine Log | Draedon's Log - The Jungle and Plague |
 | `Items.Accessories.PlanebreakersPouch.DisplayName` | Planebreaker's Pouch | Elemental Quiver |
 | `NPCs.PrimordialWyrmHead.DisplayName` | Primordial Wyrm | Adult Eidolon Wyrm |
 | `Items.Fishing.PrismCrate.DisplayName` | Prism Crate | Sunken Crate |
 | `Items.Weapons.Ranged.PristineFury.DisplayName` | Pristine Fury | Pristine Annihilation |
+| `Items.Materials.PlasmaDriveCore.DisplayName` | Prototype Plasma Drive | Prototype Plasma Drive Core |
 | `Items.Potions.PurpleHaze.DisplayName` | Purple Haze | Fabsol's Vodka |
 | `Items.Weapons.DraedonsArsenal.PulseGrenade.DisplayName` | R-PLS: Pulse Grenade | Frequency Manipulator |
 | `Items.Weapons.DraedonsArsenal.HolofibreImmolator.DisplayName` | R-PMA: Holofibre Immolator | Matter Modulator |
@@ -155,12 +172,15 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.Rogue.ShatteredDawn.DisplayName` | Shattered Dawn | Shattered Sun |
 | `NPCs.SightseerCollider.DisplayName` | Sightseer Collider | Small Sightseer |
 | `NPCs.SightseerSpitter.DisplayName` | Sightseer Spitter | Big Sightseer |
+| `NPCs.Signus.DisplayName` | Signus | Signus, Envoy of the Devourer |
+| `Items.Placeables.SilvaBasin.DisplayName` | Silva Basin | Effulgent Manipulator |
 | `Items.Ammo.SproutingArrow.DisplayName` | Sprouting Arrow | Terra Arrow |
 | `Items.Weapons.Magic.StarShower.DisplayName` | Star Shower | Starfall |
 | `Items.Materials.StarblightSoot.DisplayName` | Starblight Soot | Stardust |
 | `Items.Weapons.Summon.StarspawnHelixStaff.DisplayName` | Starspawn Helix Staff | Godspawn Helix Staff |
 | `NPCs.Sulflounder.DisplayName` | Sulflounder | Flounder |
 | `Items.Fishing.SulphurousCrate.DisplayName` | Sulphurous Crate | Abyssal Crate |
+| `NPCs.SupremeCalamitas.DisplayName` | Supreme Witch, Calamitas | Supreme Calamitas |
 | `Items.Weapons.Melee.TaintedBlade.DisplayName` | Tainted Blade | Caustic Edge |
 | `Items.Pets.TheEtomer.DisplayName` | The Etomer | Triboluminescent Etomer |
 | `Items.Lore.LoreRavager.DisplayName` | The Ravager | The Meatmetal Sans |
@@ -168,6 +188,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.TreasureBags.AstrumDeusBag.DisplayName` | Treasure Bag (Astrum Deus) | Treasure Bag (Astral Deus) |
 | `Items.TreasureBags.CalamitasCloneBag.DisplayName` | Treasure Bag (Calamitas Clone) | Treasure Bag (Calamitas) |
 | `Items.TreasureBags.RavagerBag.DisplayName` | Treasure Bag (Ravager) | Treasure Bag (Meatmetal Sans) |
+| `Items.TreasureBags.YharonBag.DisplayName` | Treasure Cache (Yharon) | Treasure Bag (Jungle Dragon, Yharon) |
 | `Items.Weapons.Rogue.TwistingThunder.DisplayName` | Twisting Thunder | Deific Thunderbolt |
 | `Items.Materials.UelibloomBar.DisplayName` | Uelibloom Bar | Tarragon Bar |
 | `Items.Placeables.UelibloomOre.DisplayName` | Uelibloom Ore | Tarragon Ore |
@@ -188,6 +209,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.Ranged.WildfireBloom.DisplayName` | Wildfire Bloom | Terra Flameburster |
 | `Items.Accessories.Wings.WingsofRebirth.DisplayName` | Wings of Rebirth | Drew's Wings |
 | `Items.Materials.WulfrumMetalScrap.DisplayName` | Wulfrum Metal Scrap | Wulfrum Bar |
+| `NPCs.Yharon.DisplayName` | Yharon, Dragon of Rebirth | Jungle Dragon, Yharon |
 | `DamageClasses.RogueDamageClass.DisplayName` | rogue damage | spy damage |
 | `Items.Placeables.BurrowerBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | ArmoredDiggerBanner |
 | `Items.Placeables.SightseerSpitterBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | BigSightseerBanner |

@@ -47,9 +47,11 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Dimensional Soul Artifact | Crushing Ego | CrushingEgo |
 | Divine Bar | Divine Geode | DivineGeode |
 | Divine Intervention | Holy Flame | HolyFlame |
+| Draedon's Logs | Environmental Pollution Log | DraedonsLogHell |
 | Dragonfruit | Sacred Strawberry | SacredStrawberry |
 | Drew's Wings | Wings of Rebirth | WingsofRebirth |
 | Effluvium Bow | Hoarfrost Bow | HoarfrostBow |
+| Effulgent Manipulator | Silva Basin | SilvaBasin |
 | Eldritch Soul Artifact | Fragments of Another World | FragmentsOfAnotherWorld |
 | Elemental Axe | Legion of Celestia | LegionofCelestia |
 | Elemental Disk | Rebounding Rainbow | ReboundingRainbow |
@@ -82,6 +84,7 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Hive Cyst | Hive Tumor | HiveTumor |
 | Icy Bullet | Hailstorm Bullet | HailstormBullet |
 | Jungle Dragon Egg | Blessed Phoenix Egg | YharonEgg |
+| Jungle Dragon Yharon | Yharon, Dragon of Rebirth | Yharon |
 | Lumenous Amulet | Diamond of the Deep | DiamondOfTheDeep |
 | Magical Conch | Enchanted Conch | EnchantedConch |
 | Mana Jelly | Cleansing Jelly | CleansingJelly |
@@ -98,6 +101,9 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Phangasm | Riftburst | Riftburst |
 | Phantoplasm | Necroplasm | Necroplasm |
 | Pristine Annihilation | Pristine Fury | PristineFury |
+| Prototype Plasma Drive Core | Prototype Plasma Drive | PlasmaDriveCore |
+| Pulse Pistol | P-PLS: Pulse Pistol | PulsePistol |
+| Pulse Rifle | A-PLS: Pulse Rifle | PulseRifle |
 | Rage Meter | Rage Mode | RageMode |
 | Rare Elemental in a Bottle | Oasis Elemental in a Bottle | OasisElementalinaBottle |
 | Regenator | Regenerator | Regenerator |
@@ -132,6 +138,7 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Tracking Disk | P-LSR: Aerial Tracker | AerialTracker |
 | Trash Can (pet | Danny Devito | DannyDevito |
 | Triboluminescent Etomer | The Etomer | TheEtomer |
+| True Caustic Edge | Caustic Edge | TrueCausticEdge |
 | True Forbidden Oathblade | Exalted Oathblade | ExaltedOathblade |
 | True Tyrant's Ultisword | Defiled Greatsword | DefiledGreatsword |
 | Tyrant Yharim's Ultisword | Blighted Cleaver | BlightedCleaver |

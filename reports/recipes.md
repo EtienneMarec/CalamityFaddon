@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 952 objets dont les recettes ont changé : 857 recettes modifiées, 150 créées
-- 30 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
+- 980 objets dont les recettes ont changé : 885 recettes modifiées, 152 créées
+- 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 340 recettes du wiki déjà identiques au jeu
 - 59 transmutations Shimmer ajoutées
-- 156 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 223 recettes
+- 152 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 196 recettes
 
 ## Recettes changées
 
@@ -14,6 +14,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 |---|---|---|
 | Abaddon | (nouvelle) | 1 Any Gold Crown, 5 Unholy Core, 100 Delicious Meat @ MythrilAnvil → 1 |
 | Abombination | 20 Plague Cell Canister, 12 Mysterious Circuitry @ MythrilAnvil → 1 | 20 Plague Cell Canister, 8 Any Iron Bar, 5 Stinger, 50 Bomb, 2 Essential Essence Bar @ MythrilAnvil → 1 |
+| Absolute Spirit Essence | (nouvelle) | 20 Ascendant Spirit Essence, 20 Essence Core, 20 Condensed Energy @ SilvaBasin → 1 |
 | Abyss Bar | 4 Abyss Ore @ AdamantiteForge → 1 | 4 Abyss Ore, 1 Chaos Serpent Shard, 1 Core of Chaos @ AdamantiteForge → 1 |
 | Abyss Blade | 1 Depth Crusher, 20 Voidstone, 20 Depth Cells @ MythrilAnvil → 1 | 1 Depth Crusher, 1 Broken Hero Sword, 15 Depth Cells, 10 Lumenyl, 5 Crocodile Scale, 5 Essential Essence Bar @ MythrilAnvil → 1 |
 | Abyss Candelabra | 5 Smooth Abyss Gravel, 3 Torch @ VoidCondenser → 1 | 5 Smooth Abyss Gravel, 3 Lumenyl @ VoidCondenser → 1 |
@@ -130,6 +131,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Auric Tesla Body Armor | 1 God Slayer Chestplate, 1 Bloodflare Body Armor, 1 Tarragon Breastplate, 20 Auric Bar @ CosmicAnvil → 1 | 1 Silva Armor / God Slayer Chestplate, 1 Bloodflare Body Armor, 1 Tarragon Breastplate, 18 Auric Bar, 1 Frost Barrier, 20 Soul of Plight, 35 Yharim Bar @ CosmicAnvil → 1 |
 | Auric Tesla Cuisses | 1 God Slayer Leggings, 1 Bloodflare Cuisses, 1 Tarragon Leggings, 1 Flying Carpet, 15 Auric Bar @ CosmicAnvil → 1 | 1 Silva Leggings / God Slayer Leggings, 1 Bloodflare Cuisses, 1 Tarragon Leggings, 15 Auric Bar, 1 Flying Carpet, 15 Soul of Plight, 35 Yharim Bar @ CosmicAnvil → 1 |
 | Azathoth | 1 Terrarian, 5 Shadowspec Bar, 2 Core of Calamity @ DraedonsForge → 1 | 1 Terrarian, 5 Shadowspec Bar, 3 Profaned Core @ DraedonsForge → 1 |
+| Baby Ghost Bell Jar | 1 Baby Ghost Bell, 1 Bottled Water @ main → 1 | 1 Bottle, 1 Baby Ghost Bell @ main → 1 |
 | Badge of Bravery | 1 Warrior Emblem, 12 Tarragon Bar @ MythrilAnvil → 1 | 2 Tarragon Bar, 1 Feral Claws @ LunarCraftingStation → 1 |
 | Baguette | 20 Hay @ Furnaces → 1 | 1 Artisan Loaf @ Furnaces → 25 |
 | Ballistic Poison Bomb | 1 Seafoam Bomb, 10 Sulphurous Sand, 10 Voidstone, 20 Depth Cells @ MythrilAnvil → 1 | 1 Seafoam Bomb, 10 Depth Cells, 20 Sulphurous Sand, 10 Crocodile Scale @ MythrilAnvil → 1 |
@@ -150,6 +152,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Bloodflare Body Armor | 50 Bloodstone, 20 Blood Orb, 4 Ruinous Soul @ MythrilAnvil → 1 | 16 Bloodstone Bar, 5 Haunted Bar @ LunarCraftingStation → 1 |
 | Bloodflare Cuisses | 35 Bloodstone, 15 Blood Orb, 3 Ruinous Soul @ MythrilAnvil → 1 | 13 Bloodstone Bar, 4 Haunted Bar @ LunarCraftingStation → 1 |
 | Bloodflare Dye | 3 Bottled Water, 5 Bloodstone @ DyeVat → 3 | 2 Bottled Water, 3 Bloodstone @ DyeVat → 2 |
+| Bloodflare Horned Helm | 25 Bloodstone, 10 Blood Orb, 2 Ruinous Soul @ MythrilAnvil → 1 | 11 Bloodstone Bar, 3 Haunted Bar @ LunarCraftingStation → 1 |
 | Bloodflare Hydra Hood | 25 Bloodstone, 10 Blood Orb, 2 Ruinous Soul @ MythrilAnvil → 1 | 11 Bloodstone Bar, 3 Haunted Bar @ LunarCraftingStation → 1 |
 | Bloodflare Imp Mask | 25 Bloodstone, 10 Blood Orb, 2 Ruinous Soul @ MythrilAnvil → 1 | 11 Bloodstone Bar, 3 Haunted Bar @ LunarCraftingStation → 1 |
 | Bloodflare Ram Mask | 25 Bloodstone, 10 Blood Orb, 2 Ruinous Soul @ MythrilAnvil → 1 | 11 Bloodstone Bar, 3 Haunted Bar @ LunarCraftingStation → 1 |
@@ -205,6 +208,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Broken Water Filter | (nouvelle) | 20 Sulphurous Sand, 10 Any Iron Bar @ Anvils → 1 |
 | Bullet-Filled Shotgun | 100 Musket Ball, 7 Any Iron Bar, 3 Aerialite Bar @ Anvils → 1 | 500 Musket Ball, 12 Any Iron Bar, 3 Hellstone Bar @ Anvils → 1 |
 | Burning Sea | 1 Spell Tome, 8 Unholy Core @ Bookcases → 1 | 1 Spell Tome, 5 Unholy Core @ Bookcases → 1 |
+| Calamitas | 1 Supreme Calamitas Trophy @ Bookcases → 1 | 1 Supreme Calamitas Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Calamitas Clone | 1 Calamitas Trophy @ Bookcases → 1 | 1 Calamitas Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Calcium Potion | 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Calcium Potion | 1 Bottled Water, 1 Ancient Bone Dust @ Bottles → 1 | 1 Bottled Water, 1 Bone @ Bottles → 1 |
@@ -232,6 +236,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Codebreaker Base | 1 Charging Station, 20 Mysterious Circuitry, 35 Dubious Plating @ Anvils → 1 | 15 Any Iron Bar, 5 Dubious Plating @ Anvils → 1 |
 | Coin of Deceit | 12 Any Copper Bar, 8 Any Evil Bar @ Anvils → 1 | 10 Gold Coin, 5 Silver Bar, 5 Acidwood @ Anvils → 1 |
 | Comet Quasher | 20 Meteorite Bar, 4 Essence of Sunlight, 5 Fallen Star, 12 Stardust @ Anvils → 1 | 25 Meteorite Bar, 5 Ectoplasm @ MythrilAnvil → 1 |
+| Condensed Energy | (nouvelle) | 20 Dark Plasma, 20 Primordial Light Shard, 20 Ruinous Soul, 20 Twisting Nether @ SilvaBasin → 1 |
 | Conference Call | 1 Tactical Shotgun, 12 Vortex Fragment @ LunarCraftingStation → 1 | 1 Handgun, 7 Luminite Bar, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Contaminated Bile | (nouvelle) | 1 Bottled Water, 10 Urchin Stinger @ Bottles → 1 |
 | Continental Greatbow | 10 Abyss Bar @ MythrilAnvil → 1 | 10 Abyss Bar, 5 Grandiose Gland @ MythrilAnvil → 1 |
@@ -312,6 +317,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Effervescence | 1 Bubble Gun, 5 Luminite Bar, 10 Aetherium Block @ MythrilAnvil → 1 | 1 Bubble Gun, 1 Xenopopper, 5 Luminite Bar, 15 Sea Prism, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Effigy of Decay | (nouvelle) | 20 Sulphuric Scale, 10 Acidwood @ Anvils → 1 |
 | Effulgent Feather | (nouvelle) | 3 Desert Feather, 1 Life Alloy @ LunarCraftingStation → 3 |
+| Effulgent Manipulator | 10 Silva Crystal, 5 Any Gold Bar @ GlassKiln → 1 | 10 Silva Crystal, 5 Any Gold Bar @ LunarCraftingStation → 1 |
 | Eidolon Staff | (nouvelle) | 1 Stardust Dragon Staff, 20 Reaper Tooth, 20 Lumenyl, 20 Tenebris, 5 Subnautical Plate, 17 Yharim Bar @ CosmicAnvil → 1 |
 | Eldritch Soul Artifact | 5 Phantoplasm, 25 Navyplate, 25 Exodium Cluster @ MythrilAnvil → 1 | 10 Soul Flux, 25 Navyplate, 5 Phantoplasm, 25 Exodium Cluster @ DemonAltar → 1 |
 | Electrician's Glove | 1 Filthy Glove, 100 Wire, 5 Any Mythril Bar @ MythrilAnvil → 1 | 1 Bloodstained Glove / Filthy Glove, 100 Wire, 5 Any Mythril Bar @ MythrilAnvil → 1 |
@@ -691,6 +697,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Providence, the Profaned Goddess | 1 Providence Trophy @ Bookcases → 1 | 1 Providence Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Proviplate | (nouvelle) | 1 Unholy Essence, 3 Obsidian @ Hellforge → 3 |
 | Pulse Dragon | 12 Mysterious Circuitry, 18 Dubious Plating, 8 Tarragon Bar, 4 Luminite Bar @ MythrilAnvil → 1 | 1 Reassembled Electronics, 8 Tarragon Bar, 4 Luminite Bar, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
+| Pulse Pistol | 5 Mysterious Circuitry, 7 Dubious Plating, 4 Aerialite Bar, 7 Sea Prism @ Anvils → 1 | 7 Dubious Plating @ Anvils → 1 |
+| Pulse Rifle | 20 Mysterious Circuitry, 20 Dubious Plating, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Reassembled Electronics, 8 Cosmilite Bar, 2 Ascendant Spirit Essence, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Pulse Turret Remote | 12 Mysterious Circuitry, 18 Dubious Plating, 5 Life Alloy, 10 Infected Armor Plating @ MythrilAnvil → 1 | 1 Reassembled Electronics, 5 Life Alloy @ MythrilAnvil → 1 |
 | Pumpler | 1 Illegal Gun Parts, 30 Pumpkin, 5 Pumpkin Seed @ Anvils → 1 | 30 Pumpkin, 5 Grenade, 1 Illegal Gun Parts @ Anvils → 1 |
 | Purple Seeking Mechanism | 1 Lab Seeking Mechanism, 50 Any Ice Block @ Anvils → 1 | 1 Lab Seeking Mechanism, 20 Cloud @ Anvils → 1 |
@@ -757,15 +765,37 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Shatterite Bar | (nouvelle) | 3 Shatterite Ore, 1 Shattered Prism, 1 Hallowed Bar, 1 Victide Bar @ MythrilAnvil → 1 |
 | Shimmerspark | 12 Cryonic Bar @ MythrilAnvil → 1 | 6 Cryonic Bar @ MythrilAnvil → 1 |
 | Shock Grenade | (nouvelle) | 2 Grenade, 1 Bomb, 5 Stratus Brick @ WorkBenches → 100 |
-| SHPC | 1 Prototype Plasma Drive, 4 Suspicious Scrap, 10 Any Mythril Bar, 5 Soul of Fright, 5 Soul of Might, 5 Soul of Sight @ MythrilAnvil → 1 | 1 Prototype Plasma Drive Core, 4 Suspicious Scrap, 10 Any Mythril Bar @ MythrilAnvil → 1 |
+| SHPC | 1 Prototype Plasma Drive Core, 4 Suspicious Scrap, 10 Any Mythril Bar, 5 Soul of Fright, 5 Soul of Might, 5 Soul of Sight @ MythrilAnvil → 1 | 1 Prototype Plasma Drive Core, 4 Suspicious Scrap, 10 Any Mythril Bar @ MythrilAnvil → 1 |
 | Shredder | 1 Frostbite Blaster, 1 Bullet-Filled Shotgun, 5 Luminite Bar @ MythrilAnvil → 1 | 1 Frostbite Blaster, 1 Shotgun, 5 Galactica Singularity, 5 Life Alloy, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Shroomer | 1 Sniper Rifle, 1 Fungicide, 6 Stardust Fragment @ LunarCraftingStation → 1 | 1 Sniper Rifle, 11 Shroomite Bar, 15 Vortex Fragment, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Sigil of Calamitas | 1 Celestial Emblem, 8 Abyss Bar, 15 Ashes of Calamity @ MythrilAnvil → 1 | 1 Celestial Emblem, 5 Ashes of Calamity, 5 Core of Chaos, 2 Abyss Bar, 10 Any Evil Water @ MythrilAnvil → 1 |
+| Silva Bathtub | 14 Silva Crystal @ GlassKiln → 1 | 14 Silva Crystal @ SilvaBasin → 1 |
+| Silva Bed | 15 Silva Crystal, 5 Silk @ GlassKiln → 1 | 15 Silva Crystal, 5 Silk @ SilvaBasin → 1 |
+| Silva Bench | 8 Silva Crystal @ GlassKiln → 1 | 10 Silva Crystal @ SilvaBasin → 1 |
+| Silva Bookcase | 20 Silva Crystal, 10 Book @ GlassKiln → 1 | 20 Silva Crystal, 10 Book @ SilvaBasin → 1 |
+| Silva Candelabra | 5 Silva Crystal, 3 Torch @ GlassKiln → 1 | 5 Silva Crystal, 3 Effulgent Feather @ SilvaBasin → 1 |
+| Silva Candle | 4 Silva Crystal, 1 Torch @ GlassKiln → 1 | 4 Silva Crystal, 1 Effulgent Feather @ SilvaBasin → 1 |
+| Silva Chair | 4 Silva Crystal @ GlassKiln → 1 | 4 Silva Crystal @ SilvaBasin → 1 |
+| Silva Chandelier | 4 Silva Crystal, 4 Torch, 1 Chain @ GlassKiln → 1 | 4 Silva Crystal, 4 Effulgent Feather, 1 Any Gold Bar @ SilvaBasin → 1 |
+| Silva Chest | 8 Silva Crystal, 2 Any Iron Bar @ GlassKiln → 1 | 8 Silva Crystal, 1 Any Gold Bar @ SilvaBasin → 1 |
+| Silva Clock | 10 Silva Crystal, 3 Any Iron Bar, 6 Glass @ GlassKiln → 1 | 10 Silva Crystal, 6 Glass, 3 Any Gold Bar @ SilvaBasin → 1 |
 | Silva Crystal | 200 Glass, 4 Planty Mush, 1 Effulgent Feather @ CosmicAnvil → 200 | 200 Crystal Block, 25 Any Gold Bar, 5 Effulgent Feather, 1 Darksun Fragment @ CosmicAnvil → 400 |
+| Silva Crystal | 2 Silva Platform @ main → 1 | 2 Silva Platform @ SilvaBasin → 1 |
+| Silva Crystal | 4 Silva Wall @ WorkBenches → 1 | 4 Silva Wall @ SilvaBasin → 1 |
+| Silva Door | 6 Silva Crystal @ GlassKiln → 1 | 6 Silva Crystal @ SilvaBasin → 1 |
+| Silva Dresser | 16 Silva Crystal @ GlassKiln → 1 | 16 Silva Crystal @ SilvaBasin → 1 |
 | Silva Horned Hood | 30 Planty Mush, 8 Effulgent Feather, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 12 Ornate Cloth, 5 Any Gold Bar, 6 Tenebris, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |
+| Silva Lamp | 3 Silva Crystal, 1 Torch @ GlassKiln → 1 | 3 Silva Crystal, 1 Effulgent Feather @ SilvaBasin → 1 |
+| Silva Lantern | 6 Silva Crystal, 1 Torch @ GlassKiln → 1 | 6 Silva Crystal, 1 Effulgent Feather @ SilvaBasin → 1 |
 | Silva Leggings | 60 Planty Mush, 10 Effulgent Feather, 3 Ascendant Spirit Essence @ CosmicAnvil → 1 | 12 Ornate Cloth, 7 Any Gold Bar, 9 Tenebris, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | Silva Masked Cap | 30 Planty Mush, 8 Effulgent Feather, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 12 Ornate Cloth, 5 Any Gold Bar, 6 Tenebris, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |
+| Silva Piano | 15 Silva Crystal, 4 Bone, 1 Book @ GlassKiln → 1 | 15 Silva Crystal, 4 Bone, 1 Book @ SilvaBasin → 1 |
+| Silva Platform | 1 Silva Crystal @ main → 2 | 1 Silva Crystal @ SilvaBasin → 2 |
+| Silva Sink | 6 Silva Crystal, 1 Water Bucket @ GlassKiln → 1 | 6 Silva Crystal, 1 Water Bucket @ SilvaBasin → 1 |
+| Silva Table | 8 Silva Crystal @ GlassKiln → 1 | 8 Silva Crystal @ SilvaBasin → 1 |
+| Silva Wall | 1 Silva Crystal @ WorkBenches → 4 | 1 Silva Crystal @ SilvaBasin → 4 |
 | Silva Wings | 20 Soul of Flight, 45 Planty Mush, 10 Effulgent Feather, 3 Ascendant Spirit Essence @ CosmicAnvil → 1 | 12 Ornate Cloth, 3 Any Gold Bar, 3 Tenebris, 5 Darksun Fragment @ CosmicAnvil → 1 |
+| Silva Work Bench | 10 Silva Crystal @ GlassKiln → 1 | 10 Silva Crystal @ SilvaBasin → 1 |
 | Sirenproof Earmuffs | 2 Flinx Fur, 5 Silk @ Anvils → 1 | 2 Living Shard, 5 Silk @ Anvils → 1 |
 | Sirius | 1 Sun God Staff, 8 Lumenyl, 4 Ruinous Soul, 20 Exodium Cluster @ MythrilAnvil → 1 | 5 Lumenyl, 2 Ruinous Soul, 12 Exodium Cluster, 1 Sun God Staff @ LunarCraftingStation → 1 |
 | Skeletron | 1 Skeletron Trophy @ Bookcases → 1 | 1 Skeletron Trophy, 10 Conquest Fragment @ Bookcases → 1 |
@@ -1022,7 +1052,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 
 ## Noms introuvables (par nombre de recettes bloquées)
 
-- station : Effulgent Manipulator — 24
 - station : Aquatic Hypercomputer Capsules — 9
 - objet : Energy Orb — 7
 - objet : Fluorescent Vodka — 6
@@ -1060,9 +1089,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Augar of the Elements — 1
 - objet : Auric Sludge Remnant — 1
 - objet : Axisdriver — 1
-- objet : Baby Ghost Bell — 1
 - objet : Blazing Powder — 1
-- objet : Bloodflare Horned Helm — 1
 - objet : Blow Pipe — 1
 - objet : Braxaxe — 1
 - objet : Carapace Hammer — 1
@@ -1156,7 +1183,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Spectre Rifle — 1
 - objet : Star Cannon EX — 1
 - objet : Sulfuric Scale — 1
-- objet : Supreme Calamitas Trophy — 1
 - objet : Surgical Glove — 1
 - objet : Terra Edge — 1
 - objet : Terra Shiv — 1

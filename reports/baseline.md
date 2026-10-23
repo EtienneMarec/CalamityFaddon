@@ -4,7 +4,7 @@ _Généré par `tools/gen_baseline.py`._
 
 - **Masqués en Full Fandom** : 479 objets, 20 PNJ, dont 6 objets et 0 PNJ antérieurs à 2.0.1.005 cités nulle part dans le wiki
 - **Retirés depuis** : 131 (122 avec une page wiki → à porter en priorité)
-- **Renommés depuis** (même objet, nom du wiki rendu en jeu) : 170 connus du wiki ; portages masqués en Calamity++ (l'objet renommé de Calamity les remplace) : CorroslimeStaff, SeaboundStaff, SolarFlare, ManaJelly, ShockGrenade, EffluviumBow, AmidiasSpark, Regenator, EnergyStaff, StormSpray, Starfall, NightsGaze
+- **Renommés depuis** (même objet, nom du wiki rendu en jeu) : 193 connus du wiki ; portages masqués en Calamity++ (l'objet renommé de Calamity les remplace) : CorroslimeStaff, SeaboundStaff, SolarFlare, ManaJelly, ShockGrenade, EffluviumBow, AmidiasSpark, Regenator, EnergyStaff, StormSpray, Starfall, NightsGaze
 - Simples renommages de classe ou bannières ignorés : 235
 
 ## Retirés depuis, avec page wiki (à porter)

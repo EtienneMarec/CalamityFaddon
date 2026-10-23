@@ -2,7 +2,7 @@
 
 _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne correspond à aucun DisplayName de Calamity. Attention : des objets vanilla ou des pages renommées peuvent s'y glisser.
 
-## Weapon (472)
+## Weapon (469)
 
 - [ ] A M S
 - [ ] AAMG "Disperse" — pas de sprite; addon: Calamity: Tales of the Aquatic
@@ -308,8 +308,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Profaned Nucleus — addon: Calamity: Community Remix
 - [ ] Profaned Whiplash — addon: Tranquility Mod
 - [ ] Prominence — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
-- [ ] Pulse Pistol
-- [ ] Pulse Rifle
 - [ ] Pumplerfaust — addon: Calamity: Community Remix
 - [ ] Pungent Bomber
 - [ ] Purgatory Blaster — addon: Calamity: Tales of the Aquatic
@@ -422,7 +420,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Triploon
 - [ ] True Bloody Edge
 - [ ] True Caliburn
-- [ ] True Caustic Edge
 - [ ] True Night's Stabber
 - [ ] Twentloon
 - [ ] Twenty-Twloon
@@ -477,7 +474,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Yanmei's Knife
 - [x] Zweihandromeda
 
-## Crafting material (147)
+## Crafting material (146)
 
 - [x] Absolute Gel
 - [x] Absolute Spirit Essence
@@ -593,7 +590,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Ornate Cloth
 - [x] Primordial Life
 - [x] Primordial Light Shard
-- [x] Prototype Plasma Drive Core — addon: Calamity: Community Remix
 - [x] Pulsing Night Essence — addon: Calamity: Tales of the Aquatic
 - [x] Quark-Gluon Sludge — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [x] Rare Plantera Fruit
@@ -1003,7 +999,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Yharim's Stimulants
 - [ ] Zumbo Sauce
 
-## Boss (60)
+## Boss (59)
 
 - [ ] Acidsighter
 - [ ] Aetherial Guardian, Olistene — addon: Deimos, the Starborn Princess
@@ -1029,7 +1025,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Horseslimes of the Goopocalypse — pas de sprite; addon: Deimos, the Starborn Princess, Calamity Loot Swap
 - [ ] Hydrogen
 - [ ] Ionogen
-- [ ] Jungle Dragon Yharon — addon: Fargo’s Souls DLC (Fargo Souls Mod x Calamity), Calamity: Community Remix
 - [ ] Mechanical Horde — pas de sprite; addon: Calamity: Community Remix
 - [ ] Mirage Mallah
 - [ ] Monstro
@@ -1251,7 +1246,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Youkai Miko — pas de sprite
 - [ ] Zeratros — addon: Calamity: Community Remix
 
-## Furniture (26)
+## Furniture (25)
 
 - [ ] Advanced Void Condenser — addon: Calamity: Tales of the Aquatic
 - [ ] Ancient Console
@@ -1264,7 +1259,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Condenser
 - [ ] Deimos Plushie — addon: Deimos, the Starborn Princess
 - [ ] Effigies — pas de sprite
-- [ ] Effulgent Manipulator
 - [ ] Emergency Door
 - [ ] Entropic Refiner — addon: Deimos, the Starborn Princess
 - [ ] Forgotten Chest
@@ -1573,11 +1567,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Deadflower — addon: Calamity: Tales of the Aquatic
 - [ ] Flower of Happiness — addon: Calamity: Tales of the Aquatic
 
-## Miscellaneous (2)
-
-- [ ] Divine Core — addon: Calamity: Community Remix
-- [ ] Draedon's Logs — pas de sprite
-
 ## Challenge (2)
 
 - [ ] Future bosses — pas de sprite
@@ -1610,6 +1599,10 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 ## Fixable Item (1)
 
 - [ ] Derelict Brick — addon: Calamity: Distorted Memories
+
+## Miscellaneous (1)
+
+- [ ] Divine Core — addon: Calamity: Community Remix
 
 ## Seeds (1)
 

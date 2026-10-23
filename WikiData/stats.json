@@ -1205,10 +1205,10 @@
   "TrueCausticEdge": {
    "page": "Caustic Edge.txt",
    "damage": 70,
-   "useAnimation": 26,
+   "useAnimation": 27,
    "knockBack": 5.0,
-   "rare": 2,
-   "value": 20000
+   "rare": 4,
+   "value": 120000
   },
   "CausticStaff": {
    "page": "Caustic Staff.txt",
@@ -2111,6 +2111,10 @@
    "page": "Effulgent Feather.txt",
    "rare": 11,
    "value": 65000
+  },
+  "SilvaBasin": {
+   "page": "Effulgent Manipulator.txt",
+   "rare": 0
   },
   "EidolicWail": {
    "page": "Eidolic Wail.txt",
@@ -4708,6 +4712,15 @@
    "page": "Pulse Dragon.txt",
    "value": 1200000
   },
+  "PulsePistol": {
+   "page": "Pulse Pistol.txt",
+   "value": 40000
+  },
+  "PulseRifle": {
+   "page": "Pulse Rifle.txt",
+   "damage": 1420,
+   "value": 1400000
+  },
   "PulseTurretRemote": {
    "page": "Pulse Turret Remote.txt",
    "damage": 100,
@@ -7175,6 +7188,10 @@
    "page": "Hive Cyst.txt",
    "lifeRatio": 0.5
   },
+  "Yharon": {
+   "page": "Jungle Dragon_ Yharon.txt",
+   "lifeRatio": 1.085
+  },
   "Mauler": {
    "page": "Mauler.txt",
    "lifeRatio": 1.8333
@@ -8763,6 +8780,18 @@
    "page": "Puff Shroom.txt",
    "useAnimation": 35
   },
+  "PulsePistol": {
+   "page": "Pulse Pistol.txt",
+   "damage": 26,
+   "useAnimation": 20,
+   "knockBack": 0.0,
+   "shootSpeed": 5.2
+  },
+  "PulseRifle": {
+   "page": "Pulse Rifle.txt",
+   "useAnimation": 35,
+   "knockBack": 0.0
+  },
   "PulseTurretRemote": {
    "page": "Pulse Turret Remote.txt",
    "useAnimation": 24,
@@ -9353,6 +9382,12 @@
    "damage": 31,
    "useAnimation": 12,
    "mana": 5
+  },
+  "TrueCausticEdge": {
+   "page": "True Caustic Edge.txt",
+   "damage": 150,
+   "knockBack": 5.75,
+   "shootSpeed": 16.0
   },
   "Tumbleweed": {
    "page": "Tumbleweed.txt",

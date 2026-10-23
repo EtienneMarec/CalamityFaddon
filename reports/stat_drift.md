@@ -701,6 +701,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Iron Francisca | IronFrancisca | use | 14 | 20 |
 | Jaws of Oblivion | JawsOfOblivion | use | 14 | 15 |
 | Jungle Dragon Egg | YharonEgg | use | 45 | 10 |
+| Jungle Dragon Yharon | Yharon | life | 1.085e+06 | 1e+06 |
 | Karasawa | Karasawa | damage | 900 | 2400 |
 | Keelhaul | Keelhaul | use | 29 | 30 |
 | Keelhaul | Keelhaul | mana | 50 | 40 |
@@ -930,6 +931,11 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Profaned Partisan | ProfanedPartisan | use | 17 | 21 |
 | Profaned Partisan | ProfanedPartisan | critical | 19 | 15 |
 | Profaned Shard | ProfanedShard | use | 45 | 10 |
+| Pulse Pistol | PulsePistol | damage | 26 | 42 |
+| Pulse Pistol | PulsePistol | knockback | 0 | 3 |
+| Pulse Pistol | PulsePistol | velocity | 5.2 | 8 |
+| Pulse Rifle | PulseRifle | damage | 1420 | 530 |
+| Pulse Rifle | PulseRifle | knockback | 0 | 0.25 |
 | Pulse Turret Remote | PulseTurretRemote | damage | 100 | 150 |
 | Pulse Turret Remote | PulseTurretRemote | knockback | 0 | 0.25 |
 | Pumpler | Pumpler | damage | 27 | 26 |
@@ -1320,6 +1326,10 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Triactis' True Paladinian Mage-Hammer of Might | TriactisTruePaladinianMageHammerofMight | knockback | 50 | 14 |
 | True Biome Blade | OmegaBiomeBlade | use | 17 | 18 |
 | True Biome Blade | OmegaBiomeBlade | velocity | 12 | 15 |
+| True Caustic Edge | TrueCausticEdge | damage | 150 | 100 |
+| True Caustic Edge | TrueCausticEdge | use | 27 | 28 |
+| True Caustic Edge | TrueCausticEdge | knockback | 5.75 | 6 |
+| True Caustic Edge | TrueCausticEdge | velocity | 16 | 12 |
 | True Forbidden Oathblade | ExaltedOathblade | damage | 150 | 90 |
 | True Forbidden Oathblade | ExaltedOathblade | knockback | 7.5 | 5.5 |
 | True Tyrant's Ultisword | DefiledGreatsword | damage | 112 | 111 |

@@ -8,31 +8,31 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | content | 3619 |
 | changelog | 222 |
 | contenu correspondant à Calamity | 1381 |
-| contenu officiel renommé (via redirection) | 137 |
+| contenu officiel renommé (via redirection) | 144 |
 | pages regroupant plusieurs objets officiels | 74 |
-| officiel ou renommé avec stats divergentes | 780 |
-| contenu inconnu de Calamity avec infobox | 1492 |
-| dont avec sprite trouvé | 1397 |
+| officiel ou renommé avec stats divergentes | 784 |
+| contenu inconnu de Calamity avec infobox | 1485 |
+| dont avec sprite trouvé | 1391 |
 | pages marquées addon / fantag | 778 |
 | pages de wiki/ modifiées ou créées par rapport au Fandom | 549 |
-| **pages implémentées dans le mod** | **259** |
+| **pages implémentées dans le mod** | **254** |
 
 ## Types d'infobox (contenu nouveau)
 
 | Type | Nombre |
 |---|---|
-| Weapon | 472 |
-| Crafting material | 147 |
+| Weapon | 469 |
+| Crafting material | 146 |
 | Covering | 124 |
 | Block | 113 |
 | Debuff | 65 |
 | Potion | 62 |
-| Boss | 60 |
+| Boss | 59 |
 | Enemy | 57 |
 | Tool | 56 |
 | Flying Enemy | 33 |
 | NPC | 27 |
-| Furniture | 26 |
+| Furniture | 25 |
 | Ammunition | 23 |
 | ? | 23 |
 | Armor | 22 |
@@ -55,7 +55,6 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | Miscellanous | 2 |
 | Misc | 2 |
 | Equipment | 2 |
-| Miscellaneous | 2 |
 | Challenge | 2 |
 | Coverings | 1 |
 | Crafting materials | 1 |
@@ -64,6 +63,7 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | Crafting material. | 1 |
 | Junk | 1 |
 | Fixable Item | 1 |
+| Miscellaneous | 1 |
 | Seeds | 1 |
 | Background Object | 1 |
 | critter | 1 |

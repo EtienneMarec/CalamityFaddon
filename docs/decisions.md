@@ -49,6 +49,10 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
   le nom de sa page **dans les deux modes** (le nom seul, pas une substitution dans tous les textes : beaucoup de
   nouveaux noms sont des mots courants) et n'est plus masqué en Full Fandom. Un renommage ne compte que si la page du
   wiki est du bon type (objet / PNJ). Un nouveau nom qui a sa propre page est gardé.
+  Aussi les changements de **nom affiché** sans changement de classe (24, ex. Calamitas Clone → Calamitas, Cataclysmic
+  Construct → Cataclysm, Signus → Signus, Envoy of the Devourer, journaux de Draedon) ; ancien nom lu dans le vieux code
+  (un fichier qui déclarait plusieurs objets ne compte pas). **[choix]** Silva Basin → Effulgent Manipulator ajouté à la
+  main au glossaire (le vieux code n'avait pas de nom déclaré) : débloque la station des meubles Silva (24 recettes).
 - **[validé 23/10]** Objets **portés** alors que Calamity les avait seulement renommés ou refaits (12 : Night's Gaze =
   Vega, Starfall = Star Shower, Solar Flare = Burning Revelation, Effluvium Bow = Hoarfrost Bow, Energy Staff = Sanctified
   Spark, Amidias' Spark = Ilmeris' Spark, Regenator = Regenerator, Corroslime Staff = Blighted Slime Staff ; refontes :
