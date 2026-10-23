@@ -49,6 +49,8 @@ namespace CalamityFandom.Common.WikiData
             public List<RecipeData> Recipes { get; set; } = new();
             public List<ShimmerData> Shimmer { get; set; } = new();
             public Dictionary<string, string> Aliases { get; set; } = new();
+            /// <summary>Groupes de la page « Alternative crafting ingredients » (« Any Evil Flesh » : Shadow Scale, Tissue Sample).</summary>
+            public Dictionary<string, List<string>> Groups { get; set; } = new();
         }
 
         /// <summary>Recette résolue : types d'objets, groupes, tuiles et conditions prêts à appliquer.</summary>
@@ -135,6 +137,20 @@ namespace CalamityFandom.Common.WikiData
                 int id = existing?.RegisteredId ?? RecipeGroup.RegisterGroup($"CalamityFandom:{key}",
                     new RecipeGroup(() => string.Join(" / ", types.Select(Lang.GetItemNameValue)), types.ToArray()));
                 groupsByText[key] = id;
+            }
+
+            // Groupes « Any X » du wiki que le jeu n'a pas sous ce nom (ni par alias) : créés depuis leur liste sur la page
+            // « Alternative crafting ingredients » (Any Evil Flesh = Shadow Scale / Tissue Sample)
+            foreach (var (name, items) in data.Groups)
+            {
+                string n = Normalize(name);
+                if (groupsByText.ContainsKey(n) || aliases.TryGetValue(n, out string alias) && groupsByText.ContainsKey(Normalize(alias)))
+                    continue;
+                var types = items.Select(ResolveItem).Where(t => t > 0).Distinct().ToArray();
+                if (types.Length == 0)
+                    continue;
+                string text = name;
+                groupsByText[n] = RecipeGroup.RegisterGroup($"CalamityFandom:{n}", new RecipeGroup(() => text, types));
             }
         }
 

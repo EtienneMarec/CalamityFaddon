@@ -494,6 +494,18 @@
    "value": 0
   },
   {
+   "name": "CharMatter",
+   "displayName": "Char Matter",
+   "page": "Char Matter.txt",
+   "width": 20,
+   "height": 24,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0
+  },
+  {
    "name": "ChargedWulfrumBattery",
    "displayName": "Charged Wulfrum Battery",
    "page": "Charged Wulfrum Battery.txt",

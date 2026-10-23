@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 991 objets dont les recettes ont changé : 894 recettes modifiées, 158 créées
+- 997 objets dont les recettes ont changé : 900 recettes modifiées, 158 créées
 - 27 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
-- 342 recettes du wiki déjà identiques au jeu
+- 344 recettes du wiki déjà identiques au jeu
 - 60 transmutations Shimmer ajoutées
-- 149 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 182 recettes
+- 145 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 174 recettes
 
 ## Recettes changées
 
@@ -215,6 +215,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Calcium Potion | 1 Bottled Water, 1 Ancient Bone Dust @ Bottles → 1 | 1 Bottled Water, 1 Bone @ Bottles → 1 |
 | Caribbean Rum | (nouvelle) | 5 Vodka, 20 Blood Orb, 1 Living Shard @ AlchemyTable → 5 |
 | Caribbean Rum | 20 Bottle, 1 Ice Feather @ Kegs → 20 | 5 Vodka, 20 Bamboo, 1 Living Shard @ Kegs → 5 |
+| Caustic Edge | 10 Acidwood, 8 Shadow Scale or Tissue Sample, 2 Deathweed @ Anvils → 1 | 10 Acidwood, 8 Any Evil Flesh, 2 Deathweed, 1 Lava Bucket @ DemonAltar → 1 |
+| Caustic Staff | 10 Any Evil Bar, 10 Cursed Flame or Ichor, 10 Soul of Night @ DemonAltar → 1 | 5 Any Evil Flask, 2 Deathweed, 10 Soul of Night, 10 Any Evil Bar @ DemonAltar → 1 |
 | Caustic Tear | 1 Sulphuric Scale @ main + eau → 1 | 5 Water Bucket @ main + eau → 1 |
 | Ceaseless Hunger Potion | 4 Bottled Water, 1 Dark Plasma @ AlchemyTable → 4 | 4 Bottled Water, 1 Dark Plasma, 1 Meld Blob @ AlchemyTable → 4 |
 | Ceaseless Hunger Potion | 8 Bottled Water, 10 Blood Orb, 1 Dark Plasma @ AlchemyTable → 8 | 4 Bottled Water, 2 Unholy Core, 1 Dark Plasma @ AlchemyTable → 4 |
@@ -340,6 +342,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Enchanted Axe | 1 Iron Francisca, 5 Fallen Star, 10 Conquest Fragment, 30 Bone @ Anvils → 1 | 100 Iron Francisca / Lead Tomahawk, 5 Fallen Star, 5 Essence of Law, 30 Bone @ Anvils → 1 |
 | Enchanted Butterfly | 1 Gold Butterfly, 1 Monarch Butterfly, 1 Purple Emperor Butterfly, 1 Red Admiral Butterfly, 1 Ulysses Butterfly, 1 Sulphur Butterfly, 1 Tree Nymph Butterfly, 1 Zebra Swallowtail Butterfly, 1 Julia Butterfly, 1 Hell Butterfly @ CrystalBall → 1 | 1 Gold Butterfly, 1 Monarch Butterfly, 1 Purple Emperor Butterfly, 1 Red Admiral Butterfly, 1 Ulysses Butterfly, 1 Sulphur Butterfly, 1 Tree Nymph Butterfly, 1 Zebra Swallowtail Butterfly, 1 Julia Butterfly @ CrystalBall → 1 |
 | Enchanted Metal | (nouvelle) | 3 Frozen Hellstone, 1 Obsidian @ Hellforge → 2 |
+| Enchanted Pearl | 1 White Pearl, 10 Sea Prism, 3 Victide Bar @ Anvils → 1 | 1 Fishing Potion, 8 Crate Potion, 5 Any Evil Flesh, 10 Sea Prism, 3 Victide Bar @ Anvils → 1 |
 | Encrypted Schematic (Ice) | 10 Mysterious Circuitry, 10 Dubious Plating, 50 Glass @ Anvils → 1 | 10 Dubious Plating, 10 Mysterious Circuitry, 10 Any Iron Bar @ Anvils → 1 |
 | Encrypted Schematic (Jungle) | 10 Mysterious Circuitry, 10 Dubious Plating, 50 Glass @ Anvils → 1 | 10 Dubious Plating, 10 Mysterious Circuitry, 10 Any Iron Bar @ Anvils → 245 |
 | Encrypted Schematic (Planetoid) | 10 Mysterious Circuitry, 10 Dubious Plating, 50 Glass @ Anvils → 1 | 10 Dubious Plating, 10 Mysterious Circuitry, 10 Any Iron Bar @ Anvils → 1 |
@@ -759,6 +762,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Seashine Sword | 3 Conquest Fragment, 7 Sea Prism, 10 Navystone @ Anvils → 1 | 7 Sea Prism, 10 Navystone @ Anvils → 1 |
 | Security Chest | 8 Laboratory Plating, 2 Any Iron Bar @ Anvils → 1 | 4 Mysterious Circuitry, 4 Dubious Plating, 10 Laboratory Plating, 2 Any Iron Bar @ Anvils → 1 |
 | Seeking Scorcher | 1 Possessed Hatchet, 5 Divine Bar, 8 Unholy Essence @ MythrilAnvil → 1 | 1 Possessed Hatchet, 5 Divine Bar, 3 Profaned Core, 9 Tarragon Bar, 8 Unholy Essence @ LunarCraftingStation → 1 |
+| Seraph Tracers | 1 Elysian Tracers, 5 Auric Bar, 3 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Any Wings, 1 Angel Treads, 3 Core of Calamity, 5 Life Alloy, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Shadecrystal Barrage | 1 Crystal Storm, 12 Cryonic Bar @ Bookcases → 1 | 1 Crystal Storm, 6 Cryonic Bar @ Bookcases → 1 |
 | Shaderain Staff | (nouvelle) | 2 Rotten Chunk, 3 Demonite Bar, 12 Rotten Matter @ DemonAltar → 1 |
 | Shadethrower | (nouvelle) | 3 Rotten Chunk, 7 Demonite Bar, 10 Rotten Matter @ DemonAltar → 1 |
@@ -809,6 +813,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Skyfringe Pickaxe | 15 Aerialite Bar @ Anvils → 1 | 7 Aerialite Bar, 3 Sunplate Block @ SkyMill → 1 |
 | Skyline Wings | 10 Aerialite Bar, 5 Feather @ Anvils → 1 | 1 Fledgling Wings, 5 Feather, 3 Fallen Star, 5 Sunplate Block @ Anvils → 1 |
 | Slime God Dye | 1 Pink Statigel Dye, 1 Blue Statigel Dye @ DyeVat → 2 | 1 Pink Statigel Dye, 1 Blue Statigel Dye, 1 Purified Gel @ DyeVat → 2 |
+| Sludge Splotch | 50 Blighted Gel, 8 Shadow Scale or Tissue Sample @ main → 1 | 15 Blighted Gel, 1 Any Evil Flesh @ main → 100 |
 | Smooth Abyss Gravel | 2 Smooth Abyss Gravel Platform @ main → 1 | 2 Smooth Abyss Gravel Platform @ VoidCondenser → 1 |
 | Smooth Abyss Gravel | 4 Smooth Abyss Gravel Wall @ WorkBenches → 1 | 4 Smooth Abyss Gravel Wall @ VoidCondenser → 1 |
 | Smooth Abyss Gravel Platform | 1 Smooth Abyss Gravel @ main → 2 | 1 Smooth Abyss Gravel @ VoidCondenser → 2 |
@@ -1002,6 +1007,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Uelibloom Brick | 4 Uelibloom Brick Wall @ WorkBenches → 1 | 4 Uelibloom Brick Wall @ BotanicPlanter → 1 |
 | Uelibloom Brick | 50 Any Stone Block, 1 Tarragon Ore @ AdamantiteForge → 50 | 1 Tarragon Ore, 1 Any Stone Block @ Furnaces → 1 |
 | Uelibloom Brick Wall | 1 Uelibloom Brick @ WorkBenches → 4 | 1 Uelibloom Brick @ BotanicPlanter → 4 |
+| Ultra Liquidator | 1 Infernal Rift, 1 Aqua Scepter, 5 Luminite Bar, 5 Nebula Fragment @ MythrilAnvil → 1 | 1 Infernal Rift, 1 Aqua Scepter, 20 Any Hardmode Evil Component, 10 Sea Prism, 5 Galactica Singularity, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Umbraphile Boots | 14 Solar Veil, 11 Hallowed Bar @ MythrilAnvil → 1 | 14 Solar Veil, 11 Hallowed Bar, 5 Essence of Rend @ MythrilAnvil → 1 |
 | Umbraphile Hood | 12 Solar Veil, 8 Hallowed Bar @ MythrilAnvil → 1 | 12 Solar Veil, 8 Hallowed Bar, 3 Essence of Rend @ MythrilAnvil → 1 |
 | Umbraphile Regalia | 18 Solar Veil, 15 Hallowed Bar @ MythrilAnvil → 1 | 18 Solar Veil, 15 Hallowed Bar, 8 Essence of Rend @ MythrilAnvil → 1 |
@@ -1070,10 +1076,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - station : Aquatic Hypercomputer Capsules — 9
 - objet : Psychotic Amulet — 5
 - station : Aquatic Hypercomputer Finished — 5
-- objet : Any Evil Flesh — 4
 - objet : Char Matter — 4
 - station : Aquatic Hypercomputer ERM — 4
-- objet : Any Hardmode Evil Component — 2
 - objet : Crab — 2
 - objet : Disseminator — 2
 - objet : Hemagrape — 2
@@ -1087,10 +1091,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Aeroplate Wall — 1
 - objet : Alien Biomass — 1
 - objet : Alpha Virus — 1
-- objet : Any Evil Flask — 1
 - objet : Any Mana Flowers — 1
 - objet : Any Quivers — 1
-- objet : Any Wings — 1
 - objet : Aquatic Biomass — 1
 - objet : Arcanoid Orb — 1
 - objet : Arngren — 1

@@ -27,7 +27,7 @@ from gen_localization import flatten_file  # noqa: E402
 OUT = os.path.join(ROOT, "WikiData", "items.json")
 ASSETS = os.path.join(ROOT, "Assets", "WikiItems")
 LOC = os.path.join(ROOT, "Localization", "en-US", "Mods.CalamityFandom.WikiItems.hjson")
-MATERIAL_TYPES = {"crafting material", "crafting materials", "bar", "soul"}
+MATERIAL_TYPES = {"crafting material", "crafting materials", "bar", "soul", "energy source"}  # Char Matter : énergie de Draedon
 MAX_SPRITE = 96  # au-delà, réduction par un facteur entier (illustrations du wiki, ex. « Mars Bars »)
 # Objets dessinés (et ramassables) en plus grand au sol, d'après une image du wiki (décision du 22/10, docs/decisions.md).
 # Version détaillée facultative : wiki_sprites_custom/<titre> (world).png -> Assets/WikiItems/<Nom>_World.png

@@ -132,6 +132,21 @@ def recipes_by_mode(positional, named, fname, problems):
     return [{**recipe, "modes": [mode]} for mode, recipe in views.items() if recipe]
 
 
+def recipe_groups():
+    """Groupes de la page « Alternative crafting ingredients » : « ===Any Evil Flesh=== » suivi d'un {{itemlist}}.
+    Le jeu ne s'en sert que pour les groupes qu'il n'a pas déjà sous ce nom (WikiRecipes.cs)."""
+    path = os.path.join(ROOT, "wiki", "Main", "Alternative crafting ingredients.txt")
+    if not os.path.exists(path):
+        return {}
+    text = open(path, encoding="utf-8").read()
+    groups = {}
+    for m in re.finditer(r"^===\s*(Any [^=]+?)\s*===\s*\n(.*?)(?=^==|\Z)", text, re.M | re.S):
+        items = [clean_name(i) for i in re.findall(r"\{\{item\|([^|}]+)", m.group(2))]
+        if items:
+            groups[m.group(1).strip()] = items
+    return groups
+
+
 def main():
     pages = {os.path.basename(p): p for p in glob.glob(os.path.join(OUR_MAIN, "Recipes_*egister.txt"))}
 
@@ -162,7 +177,8 @@ def main():
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
-        json.dump({"_generated_by": "tools/gen_recipes.py", "recipes": recipes, "shimmer": shimmer, "aliases": aliases},
+        json.dump({"_generated_by": "tools/gen_recipes.py", "recipes": recipes, "shimmer": shimmer, "aliases": aliases,
+                   "groups": recipe_groups()},
                   f, ensure_ascii=False, indent=1)
     print(f"{len(recipes)} recettes, {len(shimmer)} transmutations Shimmer, {len(problems)} problèmes de lecture")
     print("paramètres nommés :", dict(named_keys))

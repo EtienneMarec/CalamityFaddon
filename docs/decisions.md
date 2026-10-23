@@ -129,6 +129,9 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
 - **[choix]** Une recette existante qui diffère du wiki est **modifiée sur place** (ses conditions et effets spéciaux
   de Calamity sont conservés) ; on choisit la recette existante la plus proche (ingrédients ou station en commun).
 - **[validé 21/10]** Recettes du jeu absentes du wiki : conservées en Calamity++, désactivées en Full Fandom.
+- **[technique]** (24/10) Groupes « Any X » : ceux de la page « Alternative crafting ingredients » que le jeu n'a pas sous ce
+  nom sont créés depuis la liste de la page (Any Evil Flesh = Shadow Scale / Tissue Sample, Any Hardmode Evil Component =
+  Cursed Flame / Ichor...). Un groupe que le jeu connaît déjà n'est pas touché.
 - **[choix]** Rien n'est changé si un ingrédient ou une station du wiki n'existe pas encore en jeu.
 - **[choix]** Recettes vandalisées illisibles (« sqrt(-1) » Alloy Bars, « -1 ») : ignorées, le jeu garde la sienne.
 - **[choix]** Recette en double sur deux pages du wiki : comptée une fois.
@@ -202,6 +205,7 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** Animation : frames identiques successives fusionnées, vitesse tirée du GIF du wiki ; les matériaux animés
   flottent au sol comme les âmes.
 - **[choix]** Un matériau dont le nom existe déjà en vanilla n'est pas créé.
+- **[choix]** (24/10) Type « Energy Source » (Char Matter) traité comme un matériau simple.
 - **[validé 22/10]** **Yharim Bar géant au sol** (x16, d'après l'image « The item in-game » de sa page : ~480 px de large
   pour un sprite de 30), **dans les deux modes**, zone de ramassage comprise (hitbox x16). Taille normale dans
   l'inventaire. Données : `WORLD_SCALE` dans `tools/gen_items.py` → `worldScale` de `WikiData/items.json`.

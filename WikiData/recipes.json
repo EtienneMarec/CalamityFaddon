@@ -73242,5 +73242,258 @@
   "Yellow Seeking Mechanism": "Seeking Mechanisms",
   "Yharon Trophy": "Trophies",
   "Sand": "Sand Block"
+ },
+ "groups": {
+  "Any Wood": [
+   "Wood",
+   "Rich Mahogany",
+   "Ebonwood",
+   "Shadewood",
+   "Pearlwood",
+   "Palm Wood",
+   "Boreal Wood",
+   "Spooky Wood",
+   "Acidwood"
+  ],
+  "Any Sand": [
+   "Sand Block",
+   "Pearlsand Block",
+   "Crimsand Block",
+   "Ebonsand Block",
+   "Hardened Sand Block",
+   "Astral Sand",
+   "Skylac Sand",
+   "Eutrophic Sand",
+   "Sulphurous Sand",
+   "Plagued Sand",
+   "Grimesand",
+   "Baronsand",
+   "Darksand"
+  ],
+  "Any Firefly": [
+   "Firefly",
+   "Lightning Bug",
+   "Twinkler"
+  ],
+  "Any Copper Bar": [
+   "Copper Bar",
+   "Tin Bar"
+  ],
+  "Any Gold Ore": [
+   "Gold Ore",
+   "Platinum Ore"
+  ],
+  "Any Gold Bar": [
+   "Gold Bar",
+   "Platinum Bar"
+  ],
+  "Any Evil Block": [
+   "Ebonstone Block",
+   "Ebonsand Block",
+   "Ebonsandstone Block",
+   "Hardened Ebonsand Block",
+   "Purple Ice Block",
+   "Crimstone Block",
+   "Crimsand Block",
+   "Crimsandstone Block",
+   "Hardened Crimsand Block",
+   "Red Ice Block"
+  ],
+  "Any Evil Powder": [
+   "Vicious Powder",
+   "Vile Powder"
+  ],
+  "Any Evil Bar": [
+   "Demonite Bar",
+   "Crimtane Bar"
+  ],
+  "Any Cobalt Bar": [
+   "Cobalt Bar",
+   "Palladium Bar"
+  ],
+  "Any Mythril Bar": [
+   "Mythril Bar",
+   "Orichalcum Bar"
+  ],
+  "Any Adamantite Bar": [
+   "Adamantite Bar",
+   "Titanium Bar"
+  ],
+  "Any Evil Flesh": [
+   "Shadow Scale",
+   "Tissue Sample"
+  ],
+  "Any Evil Flask": [
+   "Flask of Cursed Flames",
+   "Flask of Ichor"
+  ],
+  "Any Evil Water": [
+   "Unholy Water",
+   "Blood Water"
+  ],
+  "Any Hardmode Evil Component": [
+   "Cursed Flame",
+   "Ichor"
+  ],
+  "Any Ice Block": [
+   "Ice Block",
+   "Purple Ice Block",
+   "Red Ice Block",
+   "Pink Ice Block",
+   "Astral Ice"
+  ],
+  "Any Snow Block": [
+   "Snow Block",
+   "Astral Snow",
+   "Titanic Snow"
+  ],
+  "Any Silt Block": [
+   "Silt Block",
+   "Slush Block",
+   "Novae Slag",
+   "Plagued Silt"
+  ],
+  "Any Stone Block": [
+   "Stone Block",
+   "Ebonstone Block",
+   "Crimstone Block",
+   "Pearlstone Block",
+   "Astral Stone",
+   "Plagued Stone",
+   "Voidstone",
+   "Skylac Stone",
+   "Overgrown Plagued Stone",
+   "Stratostone",
+   "Sallowrack",
+   "Titanic Shale",
+   "Navystone",
+   "Brinerack"
+  ],
+  "Any Hallowed Helmet": [
+   "Hallowed Headgear",
+   "Hallowed Helmet",
+   "Hallowed Mask"
+  ],
+  "Any Hardmode Anvil": [
+   "Mythril Anvil",
+   "Orichalcum Anvil"
+  ],
+  "Any Hardmode Forge": [
+   "Adamantite Forge",
+   "Titanium Forge"
+  ],
+  "Any Lunar Pickaxe": [
+   "Solar Flare Pickaxe",
+   "Vortex Pickaxe",
+   "Nebula Pickaxe",
+   "Stardust Pickaxe",
+   "Genesis Pickaxe"
+  ],
+  "Any Lunar Hamaxe": [
+   "Solar Flare Hamaxe",
+   "Vortex Hamaxe",
+   "Nebula Hamaxe",
+   "Stardust Hamaxe"
+  ],
+  "Any Large Gem": [
+   "Large Amber",
+   "Large Amethyst",
+   "Large Diamond",
+   "Large Emerald",
+   "Large Ruby",
+   "Large Sapphire",
+   "Large Topaz"
+  ],
+  "Any Food Item": [
+   "Cooked Fish",
+   "Cooked Marshmallow",
+   "Pad Thai",
+   "Pho",
+   "Cooked Shrimp",
+   "Sashimi",
+   "Bacon",
+   "Bowl of Soup",
+   "Grub Soup",
+   "Gingerbread Cookie",
+   "Sugar Cookie",
+   "Christmas Pudding",
+   "Pumpkin Pie",
+   "Baguette",
+   "Delicious Meat",
+   "Hadal Stew",
+   "Yharic Delight",
+   "Cheese",
+   "Barolegs",
+   "Carnal Corn",
+   "Crimtato",
+   "Meld Chip Ice Cream",
+   "Seafood",
+   "Slagspitter Pauldron",
+   "Zumbo Sauce",
+   "Clam Chowder",
+   "Calamitea",
+   "Titan Finger"
+  ],
+  "Any Wings": [
+   "Demon Wings",
+   "Angel Wings",
+   "Red's Wings",
+   "Butterfly Wings",
+   "Fairy Wings",
+   "Harpy Wings",
+   "Bone Wings",
+   "Flame Wings",
+   "Frozen Wings",
+   "Spectre Wings",
+   "Steampunk Wings",
+   "Leaf Wings",
+   "Bat Wings",
+   "Bee Wings",
+   "D-Town's Wings",
+   "Will's Wings",
+   "Crowno's Wings",
+   "Cenx's Wings",
+   "Tattered Fairy Wings",
+   "Spooky Wings",
+   "Hoverboard",
+   "Festive Wings",
+   "Beetle Wings",
+   "Fin Wings",
+   "Fishron Wings",
+   "Mothron Wings",
+   "Solar Wings",
+   "Vortex Booster",
+   "Nebula Mantle",
+   "Stardust Wings",
+   "Yoraiz0r's Spell",
+   "Jim's Wings",
+   "Skiphs' Paws",
+   "Loki's Wings",
+   "Betsy's Wings",
+   "Arkhalis's Lightwings",
+   "Skyline Wings",
+   "Static Wings",
+   "Starlight Wings",
+   "Aureate Booster",
+   "Hadal Mantle",
+   "Exodus Wings",
+   "Hadarian Wings",
+   "Tarragon Wings",
+   "Archangel Wings",
+   "Bloodflare Wings",
+   "Silva Wings",
+   "Armageddon Wings",
+   "Essence of Merge",
+   "Ancient Essence of Merge"
+  ],
+  "Any Wooden Sword": [
+   "Wooden Sword",
+   "Boreal Wood Sword",
+   "Rich Mahogany Sword",
+   "Palm Wood Sword",
+   "Ebonwood Sword",
+   "Shadewood Sword",
+   "Pearlwood Sword"
+  ]
  }
 }
