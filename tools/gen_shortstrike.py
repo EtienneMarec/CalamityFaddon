@@ -116,6 +116,12 @@ def main():
         # « effects » écrits à la main : le texte n'est alors qu'une description
         effects, todo = parse_effects(entry.get("text", "")) if "effects" not in entry else ([], [])
         attacks.append({**entry, "effects": entry.get("effects", []) + effects, "todo": todo, "offWiki": True})
+    # Effets écrits à la main pour des phrases de la page non traduites (projectile choisi : [choix], docs/decisions.md)
+    for attack in attacks:
+        override = extra.get("overrides", {}).get(attack["weapon"])
+        if override:
+            attack["effects"] = attack["effects"] + override["effects"]
+            attack["todo"] = [t for t in attack["todo"] if t not in override["todo"]]
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump({"_generated_by": "tools/gen_shortstrike.py", "rules": RULES, "generic": extra["generic"], "attacks": attacks},
                   f, ensure_ascii=False, indent=1)

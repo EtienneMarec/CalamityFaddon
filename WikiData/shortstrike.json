@@ -221,11 +221,13 @@
      "type": "inflict",
      "name": "Poisoned",
      "seconds": 2.0
+    },
+    {
+     "type": "vine",
+     "value": 4
     }
    ],
-   "todo": [
-    "Attacks spawn 4 tile long vines on hit"
-   ],
+   "todo": [],
    "text": "Attacks inflict [[Poisoned]] for 2 seconds<br/>Attacks spawn 4 tile long vines on hit"
   },
   {
@@ -338,10 +340,14 @@
    "damageBoost": 0.3,
    "hits": 6,
    "seconds": 2.0,
-   "effects": [],
-   "todo": [
-    "Spawns [[Sulphuric Poisoning]]-inflicting stationary clouds"
+   "effects": [
+    {
+     "type": "cloud",
+     "name": "Sulphuric Poisoning",
+     "seconds": 3
+    }
    ],
+   "todo": [],
    "text": "Spawns [[Sulphuric Poisoning]]-inflicting stationary clouds"
   },
   {
@@ -485,11 +491,13 @@
     {
      "type": "meleeCrit",
      "value": 30
+    },
+    {
+     "type": "spawnOnHit",
+     "projectile": "GalileosMoon"
     }
    ],
-   "todo": [
-    "Crescent hits spawn moons"
-   ],
+   "todo": [],
    "text": "Crescent hits spawn moons<br/>Player becomes immune to [[Nightwither]] for 20 seconds<br/>Increases player melee crit chance by 30%"
   },
   {
@@ -514,11 +522,14 @@
     {
      "type": "damageReduction",
      "value": 0.2
+    },
+    {
+     "type": "spawnForward",
+     "projectile": "CosmicShivTrail",
+     "value": 0.2
     }
    ],
-   "todo": [
-    "20% chance to shoot a second beam"
-   ],
+   "todo": [],
    "text": "20% chance to shoot a second beam<br/>Player gains the [[Cosmic Freeze]] buff for 20 seconds<br/>Increases player melee speed, defense, and damage reduction by 20%"
   },
   {

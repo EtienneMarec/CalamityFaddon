@@ -354,6 +354,11 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   sauf si Calamity verrouille ses jauges, position dans la config client du mod). **[choix]** Visible en tenant une épée
   courte ; les épées sortent quand elle devient pleine. **[validé 22/10]** Dessinée à 2× ; pendant un Shortflurry elle
   se vide sur la durée de l'attaque en tremblant (amplitude « RipperMeterShake » de Calamity), comme ses jauges. Aura orange pulsante autour du joueur. Points sauvegardés.
+- **[choix]** (nuit du 24/10) Effets des phrases non traduites, pour les armes qui existent (`tools/shortstrike_extra.json` →
+  `overrides`) : Galileo Gladius « Crescent hits spawn moons » = `GalileosMoon` de Calamity à chaque coup ; Cosmic Shiv « 20%
+  chance to shoot a second beam » = son rayon `CosmicShivTrail`, tiré vers le curseur ; Submarine Shocker « stationary clouds »
+  = nuage immobile de 4 blocs, 3 s, Sulphuric Poisoning, quart des dégâts ; Spore Knife « 4 tile long vines » = liane de 4
+  blocs sous l'ennemi, 2 s, Poisoned, quart des dégâts. Reste Lucrecia (portée de son ADN) et les armes absentes.
 - **[technique]** Les points ne sont pas synchronisés en multijoueur : les autres joueurs ne voient pas l'aura (les clones,
   eux, sont synchronisés).
 

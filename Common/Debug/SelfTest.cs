@@ -324,6 +324,14 @@ namespace CalamityFandom.Common.Debug
             Expect(byItem.TryGetValue(galileo, out var gladius) && gladius.Effects.Any(e => e.Type == "immune" && e.BuffType > 0),
                 "Shortflurry du Galileo Gladius : immunité à Nightwither (Moon Burnt) résolue");
             Expect(Common.Shortstrike.ShortstrikeData.IsShortsword(ContentSamples.ItemsByType[ItemID.CopperShortsword]), "la Copper Shortsword est une épée courte");
+            // Effets écrits à la main (tools/shortstrike_extra.json → overrides) : projectiles et debuffs résolus
+            foreach (var (weapon, type) in new[] { ("Galileo Gladius", "spawnOnHit"), ("Cosmic Shiv", "spawnForward"), ("Submarine Shocker", "cloud"), ("Spore Knife", "vine") })
+            {
+                int item = WikiRecipes.ResolveItem(weapon);
+                var effect = byItem.TryGetValue(item, out var attack) ? attack.Effects.FirstOrDefault(e => e.Type == type) : null;
+                Expect(effect != null && (effect.Projectile == null || effect.ProjectileType > 0) && (effect.Name == null || effect.BuffType > 0),
+                    $"Shortflurry de {weapon} : effet {type} résolu");
+            }
             Expect(!Common.Shortstrike.ShortstrikeData.IsShortsword(ContentSamples.ItemsByType[ItemID.CopperBroadsword]), "la Copper Broadsword n'en est pas une");
             int sahara = WikiRecipes.ResolveItem("Sahara Slicers");
             if (sahara > 0)

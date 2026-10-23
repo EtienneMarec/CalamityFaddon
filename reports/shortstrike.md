@@ -3,14 +3,12 @@
 _Généré par `tools/gen_shortstrike.py` depuis la page Shortstrike._
 
 - 35 Shortflurry (1 hors wiki)
-- 17 effets pas encore traduits en données (à faire à la main dans le C#)
+- 13 effets pas encore traduits en données (à faire à la main dans le C#)
 
 ## Effets à faire
 
 - **Wulfrum Leech Dagger** : Wulfrum Leech Daggers become unconsumable for 3 seconds
-- **Spore Knife** : Attacks spawn 4 tile long vines on hit
 - **Night's Stabber** : Attacks spawn 5 tile long nightshade vines and inflict [[Cursed Inferno]]
-- **Submarine Shocker** : Spawns [[Sulphuric Poisoning]]-inflicting stationary clouds
 - **Caliburn** : Hits spawn vertical beams of holy light
 - **True Caliburn** : Hits spawn a beam that creates vertical light beams as it travels
 - **True Caliburn** : The beam lasts for 20 tiles
@@ -21,6 +19,4 @@ _Généré par `tools/gen_shortstrike.py` depuis la page Shortstrike._
 - **Terra Shiv** : These beams inflict [[Ichor (debuff)|Ichor]] and healing 5 life per hit
 - **Lucrecia** : Greatly increases the range of Lucrecia's DNA and removes its life penalty for 5 seconds
 - **Elemental Shiv** : Beams split 5 times and heal the player 8 health per hit
-- **Galileo Gladius** : Crescent hits spawn moons
-- **Cosmic Shiv** : 20% chance to shoot a second beam
 - **Exo Gladius** : Every 5th strike sends out a shotgun blast of 8 healing exo comets

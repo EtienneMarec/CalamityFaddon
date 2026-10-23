@@ -254,6 +254,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] **Cosmic Shiv** : 20 coups en 6 s, buff Cosmic Freeze 20 s
 - [ ] Calamity++ : **Sahara Slicers** ont leur Shortflurry (éclats de sable) ; Full Fandom : l'arme est masquée
 - [ ] Une Copper Broadsword n'affiche pas la barre et ne déclenche rien au clic droit
+- [ ] Shortflurry du **Galileo Gladius** : des lunes apparaissent sur les ennemis touchés ; **Cosmic Shiv** : parfois un
+      rayon en plus vers le curseur ; **Submarine Shocker** : petits nuages verts immobiles (Sulphuric Poisoning) ;
+      **Spore Knife** : liane verte au sol sous l'ennemi (24/10)
 
 ---
 

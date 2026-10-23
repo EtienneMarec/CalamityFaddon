@@ -1,5 +1,5 @@
 {
-  "_doc": "Shortflurry hors wiki (décision du 22/10, docs/decisions.md, [choix] à valider) : la page Shortstrike ne liste que ses armes. 'generic' : épées courtes des autres mods. 'attacks' : épées courtes de Calamity absentes de la page (modes : 'plus' = Calamity++ seulement). 'text' suit la syntaxe des effets de la page ; 'effects' ajoute des effets en données directement.",
+  "_doc": "Shortflurry hors wiki (décision du 22/10, docs/decisions.md, [choix] à valider) : la page Shortstrike ne liste que ses armes. 'generic' : épées courtes des autres mods. 'attacks' : épées courtes de Calamity absentes de la page (modes : 'plus' = Calamity++ seulement). 'text' suit la syntaxe des effets de la page ; 'effects' ajoute des effets en données directement. 'overrides' : effets écrits à la main pour des phrases de la page que le générateur ne sait pas traduire ('todo' = texte exact de la page qu'ils remplacent).",
   "generic": {
     "damageBoost": 0.1,
     "hits": 3,
@@ -11,9 +11,64 @@
       "damageBoost": 0.25,
       "hits": 5,
       "seconds": 2.0,
-      "modes": ["plus"],
+      "modes": [
+        "plus"
+      ],
       "text": "Hits spawn sand slicers",
-      "effects": [{"type": "spawnOnHit", "projectile": "SaharaSlicersBolt"}]
+      "effects": [
+        {
+          "type": "spawnOnHit",
+          "projectile": "SaharaSlicersBolt"
+        }
+      ]
     }
-  ]
+  ],
+  "overrides": {
+    "Galileo Gladius": {
+      "todo": [
+        "Crescent hits spawn moons"
+      ],
+      "effects": [
+        {
+          "type": "spawnOnHit",
+          "projectile": "GalileosMoon"
+        }
+      ]
+    },
+    "Cosmic Shiv": {
+      "todo": [
+        "20% chance to shoot a second beam"
+      ],
+      "effects": [
+        {
+          "type": "spawnForward",
+          "projectile": "CosmicShivTrail",
+          "value": 0.2
+        }
+      ]
+    },
+    "Submarine Shocker": {
+      "todo": [
+        "Spawns [[Sulphuric Poisoning]]-inflicting stationary clouds"
+      ],
+      "effects": [
+        {
+          "type": "cloud",
+          "name": "Sulphuric Poisoning",
+          "seconds": 3
+        }
+      ]
+    },
+    "Spore Knife": {
+      "todo": [
+        "Attacks spawn 4 tile long vines on hit"
+      ],
+      "effects": [
+        {
+          "type": "vine",
+          "value": 4
+        }
+      ]
+    }
+  }
 }

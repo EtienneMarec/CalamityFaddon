@@ -89,6 +89,21 @@ namespace CalamityFandom.Content.Shortstrike
                             Main.rand.NextVector2CircularEdge(8f, 8f), effect.ProjectileType, Projectile.damage / 2, 2f, Projectile.owner);
                         spawned.DamageType = Projectile.DamageType;
                         break;
+                    case "spawnForward" when effect.ProjectileType > 0 && Projectile.owner == Main.myPlayer && Main.rand.NextFloat() < effect.Value:
+                        // « 20% chance to shoot a second beam » : tiré du joueur vers le curseur
+                        Vector2 aim = (Main.MouseWorld - owner.Center).SafeNormalize(Vector2.UnitX * owner.direction) * 8f;
+                        var beam = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), owner.Center, aim, effect.ProjectileType,
+                            Projectile.damage, Projectile.knockBack, Projectile.owner);
+                        beam.DamageType = Projectile.DamageType;
+                        break;
+                    case "cloud" when Projectile.owner == Main.myPlayer:
+                        Projectile.NewProjectile(Projectile.GetSource_FromThis(), target.Center, Vector2.Zero, ModContent.ProjectileType<ShortflurryCloud>(),
+                            Projectile.damage / 4, 0f, Projectile.owner, effect.BuffType, (effect.Seconds ?? 3f) * 60);
+                        break;
+                    case "vine" when Projectile.owner == Main.myPlayer:
+                        Projectile.NewProjectile(Projectile.GetSource_FromThis(), target.Bottom, Vector2.Zero, ModContent.ProjectileType<ShortflurryVine>(),
+                            Projectile.damage / 4, 0f, Projectile.owner, effect.Value);
+                        break;
                 }
             }
         }
@@ -108,6 +123,86 @@ namespace CalamityFandom.Content.Shortstrike
                 frame.Size() / 2f, Projectile.scale, SpriteEffects.None, 0);
             return false;
         }
+    }
+
+    /// <summary>
+    /// Nuage immobile d'un Shortflurry (Submarine Shocker : « stationary clouds » qui infligent Sulphuric Poisoning) :
+    /// ai[0] = debuff, ai[1] = durée en ticks ; touche toutes les demi-secondes ([choix]).
+    /// </summary>
+    public class ShortflurryCloud : ModProjectile
+    {
+        public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
+
+        public override void SetDefaults()
+        {
+            Projectile.width = Projectile.height = 64;
+            Projectile.friendly = true;
+            Projectile.penetrate = -1;
+            Projectile.tileCollide = false;
+            Projectile.ignoreWater = true;
+            Projectile.timeLeft = 180;
+            Projectile.usesLocalNPCImmunity = true;
+            Projectile.localNPCHitCooldown = 30;
+            Projectile.DamageType = DamageClass.Melee;
+        }
+
+        public override void AI()
+        {
+            if (Projectile.localAI[0] == 0f)
+            {
+                Projectile.localAI[0] = 1f;
+                if (Projectile.ai[1] > 0f)
+                    Projectile.timeLeft = (int)Projectile.ai[1];
+            }
+            if (Main.rand.NextBool(2))
+            {
+                var dust = Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, DustID.GreenTorch, 0f, -0.5f, 150, default, 1.4f);
+                dust.noGravity = true;
+                dust.velocity *= 0.3f;
+            }
+        }
+
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        {
+            if (Projectile.ai[0] > 0f)
+                target.AddBuff((int)Projectile.ai[0], 180);
+        }
+    }
+
+    /// <summary>Liane d'un Shortflurry (Spore Knife : « 4 tile long vines ») : ai[0] blocs de long, posée sous l'ennemi, 2 s.</summary>
+    public class ShortflurryVine : ModProjectile
+    {
+        public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
+
+        public override void SetDefaults()
+        {
+            Projectile.width = 16;
+            Projectile.height = 12;
+            Projectile.friendly = true;
+            Projectile.penetrate = -1;
+            Projectile.tileCollide = false;
+            Projectile.ignoreWater = true;
+            Projectile.timeLeft = 120;
+            Projectile.usesLocalNPCImmunity = true;
+            Projectile.localNPCHitCooldown = 20;
+            Projectile.DamageType = DamageClass.Melee;
+        }
+
+        public override void AI()
+        {
+            if (Projectile.localAI[0] == 0f)
+            {
+                Projectile.localAI[0] = 1f;
+                // Liane horizontale centrée sous l'ennemi
+                Vector2 bottom = Projectile.Center;
+                Projectile.width = (int)(16 * System.Math.Max(1f, Projectile.ai[0]));
+                Projectile.Center = bottom;
+            }
+            if (Main.rand.NextBool(2))
+                Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, DustID.JungleGrass, 0f, -0.3f, 100, default, 1.1f).noGravity = true;
+        }
+
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) => target.AddBuff(BuffID.Poisoned, 120);
     }
 
     /// <summary>Affiche la durée d'un Shortflurry en cours (ses effets sont appliqués par ShortstrikePlayer).</summary>
