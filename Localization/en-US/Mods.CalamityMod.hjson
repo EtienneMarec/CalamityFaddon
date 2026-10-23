@@ -609,23 +609,23 @@
 		{
 			DraedonsLogHell:
 			{
-				DisplayName: Draedon's Log - Hell
+				DisplayName: Draedon's Logs
 			}
 			DraedonsLogJungle:
 			{
-				DisplayName: Draedon's Log - The Jungle and Plague
+				DisplayName: Draedon's Logs
 			}
 			DraedonsLogPlanetoid:
 			{
-				DisplayName: Draedon's Log - Space
+				DisplayName: Draedon's Logs
 			}
 			DraedonsLogSnowBiome:
 			{
-				DisplayName: Draedon's Log - The Frozen Wasteland
+				DisplayName: Draedon's Logs
 			}
 			DraedonsLogSunkenSea:
 			{
-				DisplayName: Draedon's Log - Study on Sunken Aquatic Life
+				DisplayName: Draedon's Logs
 			}
 			WhiteSeekingMechanism:
 			{
@@ -775,7 +775,7 @@
 			}
 			BurrowerBanner:
 			{
-				DisplayName: ArmoredDiggerBanner
+				DisplayName: Banners
 			}
 			CalamitasCloneTrophy:
 			{
@@ -795,11 +795,11 @@
 			}
 			HavocplateWall:
 			{
-				DisplayName: ChaosplateWall
+				DisplayName: Chaosplate Wall
 			}
 			InfernalCongealmentBanner:
 			{
-				DisplayName: CharredSlimeBanner
+				DisplayName: Banners
 			}
 			InfernalSuevite:
 			{
@@ -891,7 +891,7 @@
 			}
 			RenegadeWarlockBanner:
 			{
-				DisplayName: CultistAssassinBanner
+				DisplayName: Banners
 			}
 			ScoriaOre:
 			{
@@ -899,11 +899,11 @@
 			}
 			SightseerColliderBanner:
 			{
-				DisplayName: SmallSightseerBanner
+				DisplayName: Banners
 			}
 			SightseerSpitterBanner:
 			{
-				DisplayName: BigSightseerBanner
+				DisplayName: Banners
 			}
 			SilvaBasin:
 			{
@@ -911,7 +911,7 @@
 			}
 			SulflounderBanner:
 			{
-				DisplayName: FlounderBanner
+				DisplayName: Banners
 			}
 			SupremeCalamitasTrophy:
 			{
@@ -919,7 +919,7 @@
 			}
 			ToxicatfishBanner:
 			{
-				DisplayName: CatfishBanner
+				DisplayName: Banners
 			}
 			UelibloomOre:
 			{
@@ -927,7 +927,7 @@
 			}
 			VoidTorch:
 			{
-				DisplayName: AbyssTorch
+				DisplayName: Abyss Torch
 			}
 		}
 		Potions:
@@ -946,7 +946,7 @@
 			}
 			PurpleHaze:
 			{
-				DisplayName: Fabsol's Vodka
+				DisplayName: Fluorescent Vodka
 			}
 		}
 		SummonItems:
@@ -1391,11 +1391,11 @@
 		}
 		CrimulanPaladin:
 		{
-			DisplayName: Crimulan Slime God
+			DisplayName: The Slime God
 		}
 		DesertNuisanceHead:
 		{
-			DisplayName: A Desert Nuisance
+			DisplayName: Desert Scourge
 		}
 		DraconicSwarmer:
 		{
@@ -1403,11 +1403,11 @@
 		}
 		EbonianPaladin:
 		{
-			DisplayName: Ebonian Slime God
+			DisplayName: The Slime God
 		}
 		Glomerling:
 		{
-			DisplayName: Hiveling
+			DisplayName: Hive (Enemy)
 		}
 		HiveTumor:
 		{
@@ -1452,11 +1452,11 @@
 		}
 		SplitCrimulanPaladin:
 		{
-			DisplayName: Crimulan Slime God
+			DisplayName: The Slime God
 		}
 		SplitEbonianPaladin:
 		{
-			DisplayName: Ebonian Slime God
+			DisplayName: The Slime God
 		}
 		Sulflounder:
 		{
@@ -1472,7 +1472,7 @@
 		}
 		Yharon:
 		{
-			DisplayName: Jungle Dragon, Yharon
+			DisplayName: Jungle Dragon Yharon
 		}
 	}
 	Projectiles:

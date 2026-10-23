@@ -65,6 +65,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Aquashard Shotgun | AquashardShotgun | velocity | 22 | 30 |
 | Aquatic Aberration | AquaticAberration | damage | 72 | 50 |
 | Aquatic Aberration | AquaticAberration | defense | 20 | 14 |
+| Aquatic Scourge | AquaticScourgeHead | life | 77000 | 80000 |
 | Arbalest | Arbalest | damage | 29 | 28 |
 | Arbalest | Arbalest | use | 28 | 21 |
 | Arch Amaryllis | ArchAmaryllis | damage | 75 | 58 |
@@ -93,6 +94,9 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Astral Pickaxe | AstralPickaxe | use | 9 | 10 |
 | Astral Pickaxe | AstralPickaxe | critical | 29 | 25 |
 | Astral Pike | AstralPike | critical | 29 | 25 |
+| Astral Probe | AstralProbe | life | 50 | 120 |
+| Astral Probe | AstralProbe | damage | 20 | 0 |
+| Astral Probe | AstralProbe | defense | 10 | 20 |
 | Astral Scythe | AstralScythe | damage | 120 | 80 |
 | Astral Slime | AstralSlime | life | 200 | 240 |
 | Astral Slime | AstralSlime | defense | 8 | 18 |
@@ -101,6 +105,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Astralachnea Staff | AstralachneaStaff | damage | 50 | 55 |
 | Astralachnea Staff | AstralachneaStaff | mana | 19 | 16 |
 | Astreal Defeat | AstrealDefeat | damage | 153 | 160 |
+| Astrum Aureus | AstrumAureus | life | 89200 | 75000 |
 | Ataraxia | Ataraxia | damage | 710 | 325 |
 | Ataraxia | Ataraxia | velocity | 9 | 10 |
 | Atlantis | Atlantis | damage | 70 | 81 |
@@ -184,6 +189,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Brimlance | Brimlance | damage | 58 | 50 |
 | Brimlash | Brimlash | damage | 70 | 60 |
 | Brimlash | Brimlash | use | 24 | 30 |
+| Brimling | Brimling | life | 2000 | 1000 |
 | Brimrose Staff | BrimroseStaff | damage | 20 | 45 |
 | Brimrose Staff | BrimroseStaff | mana | 14 | 12 |
 | Brimstone Crate | BrimstoneCrate | use | 14 | 15 |
@@ -214,6 +220,9 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Caustic Edge | TrueCausticEdge | use | 26 | 28 |
 | Caustic Edge | TrueCausticEdge | knockback | 5 | 6 |
 | Caustic Staff | CausticStaff | damage | 15 | 18 |
+| Ceaseless Void | CeaselessVoid | life | 64400 | 50000 |
+| Ceaseless Void | CeaselessVoid | damage | 150 | 180 |
+| Ceaseless Void | CeaselessVoid | defense | 0 | 80 |
 | Celestial Reaper | CelestialReaper | use | 30 | 31 |
 | Chaotic Puffer | ChaoticPuffer | life | 5625 | 5600 |
 | Charred Idol | CharredIdol | use | 45 | 10 |
@@ -270,7 +279,11 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Cosmic Shiv | CosmicShiv | damage | 218 | 155 |
 | Cosmic Viper Engine | CosmicViperEngine | damage | 138 | 255 |
 | Cosmic Worm | CosmicWorm | use | 45 | 10 |
+| Cosmilamp | Cosmilamp | damage | 89 | 95 |
 | Cosmolight | Cosmolight | use | 20 | 9 |
+| Crabulon | Crabulon | life | 3350 | 3500 |
+| Crabulon | Crabulon | damage | 0 | 40 |
+| Crabulon | Crabulon | defense | 12 | 8 |
 | Crackshot Colt | CrackshotColt | damage | 13 | 18 |
 | Cranium Smasher | CraniumSmasher | damage | 120 | 140 |
 | Crescent Moon | CrescentMoon | damage | 300 | 1000 |
@@ -338,6 +351,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Depth Crusher | DepthCrusher | knockback | 5.25 | 7.25 |
 | Desecrated Water | DesecratedWater | use | 28 | 29 |
 | Desert Medallion | DesertMedallion | use | 45 | 10 |
+| Desert Scourge | DesertScourgeHead | life | 350000 | 4000 |
 | Despair Stone | DespairStone | life | 120 | 180 |
 | Devil Fish | DevilFish | life | 400 | 800 |
 | Devil's Devastation | DevilsDevastation | damage | 166 | 333 |
@@ -407,6 +421,8 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Energy Staff | SanctifiedSpark | damage | 128 | 100 |
 | Energy Staff | SanctifiedSpark | mana | 10 | 100 |
 | Entropic Claymore | EntropicClaymore | use | 25 | 30 |
+| Entropy's Vigil | EntropysVigil | damage | 40 | 38 |
+| Entropy's Vigil | EntropysVigil | velocity | 10 | 1 |
 | Epidemic Shredder | EpidemicShredder | use | 15 | 16 |
 | Equanimity | Equanimity | damage | 40 | 84 |
 | Equanimity | Equanimity | velocity | 30 | 3 |
@@ -482,6 +498,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Floodtide | Floodtide | use | 20 | 24 |
 | Flounder | Sulflounder | life | 40 | 60 |
 | Flounder | Sulflounder | damage | 10 | 0 |
+| Flowers of Mortality | FlowersOfMortality | damage | 140 | 70 |
 | Flurrystorm Cannon | FlurrystormCannon | damage | 12 | 10 |
 | Flurrystorm Cannon | FlurrystormCannon | use | 8 | 16 |
 | Forbidden Oathblade | ForbiddenOathblade | damage | 110 | 58 |
@@ -659,6 +676,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Hypothermia | Hypothermia | use | 20 | 12 |
 | Hypothermia | Hypothermia | critical | 20 | 16 |
 | Ice Barrage | IceBarrage | mana | 180 | 300 |
+| Ice Clasper | IceClasper | life | 600 | 500 |
 | Ice Star | IceStar | damage | 45 | 35 |
 | Ice Star | IceStar | use | 11 | 17 |
 | Ice Star | IceStar | critical | 11 | 3 |
@@ -799,6 +817,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Monstrous Knives | MonstrousKnives | use | 20 | 21 |
 | Mortar Round | MortarRound | damage | 20 | 8 |
 | Mortar Round | MortarRound | knockback | 7.5 | 7 |
+| Mounted Scanner | MountedScanner | damage | 41 | 24 |
 | Mourningstar | Mourningstar | damage | 127 | 112 |
 | Mutated Truffle | MutatedTruffle | damage | 1200 | 250 |
 | Mycelial Claws | MycelialClaws | damage | 20 | 28 |
@@ -866,6 +885,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Penumbra | Penumbra | use | 39 | 35 |
 | Penumbra | Penumbra | critical | 20 | 16 |
 | Penumbra | Penumbra | velocity | 8 | 9 |
+| Perdition | Perdition | damage | 444 | 375 |
 | Perennial Slime | PerennialSlime | life | 150 | 360 |
 | Perennial Slime | PerennialSlime | defense | 12 | 20 |
 | Perfect Dark | PerfectDark | damage | 48 | 24 |
@@ -907,6 +927,9 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Polaris Parrotfish | PolarisParrotfish | damage | 50 | 35 |
 | Polaris Parrotfish | PolarisParrotfish | knockback | 2.25 | 0.5 |
 | Polaris Parrotfish | PolarisParrotfish | velocity | 15 | 10 |
+| Pole Warper | PoleWarper | damage | 310 | 207 |
+| Polterghast | Polterghast | life | 350000 | 280000 |
+| Polterghast | Polterghast | damage | 150 | 120 |
 | Polyp Launcher | PolypLauncher | knockback | 0 | 0.25 |
 | Portabulb | Portabulb | use | 45 | 10 |
 | Poseidon | Poseidon | damage | 48 | 52 |
@@ -931,6 +954,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Profaned Partisan | ProfanedPartisan | use | 17 | 21 |
 | Profaned Partisan | ProfanedPartisan | critical | 19 | 15 |
 | Profaned Shard | ProfanedShard | use | 45 | 10 |
+| Providence, the Profaned Goddess | Providence | life | 312500 | 250000 |
 | Pulse Pistol | PulsePistol | damage | 26 | 42 |
 | Pulse Pistol | PulsePistol | knockback | 0 | 3 |
 | Pulse Pistol | PulsePistol | velocity | 5.2 | 8 |
@@ -973,6 +997,8 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Relic of Ruin | RelicofRuin | knockback | 0 | 4.25 |
 | Relic of Ruin | RelicofRuin | velocity | 30 | 5 |
 | Rem's Revenge | RemsRevenge | damage | 375 | 188 |
+| Resurrection Butterfly | ResurrectionButterfly | damage | 65 | 66 |
+| Riptide | Riptide | damage | 16 | 12 |
 | Rot Ball | RotBall | damage | 26 | 16 |
 | Rot Ball | RotBall | use | 12 | 16 |
 | Rot Ball | RotBall | critical | 12 | 8 |
@@ -1004,6 +1030,8 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Sanguine Flare | SanguineFlare | damage | 143 | 1050 |
 | Sanguine Flare | SanguineFlare | velocity | 14 | 21 |
 | Sanguine Flare | SanguineFlare | mana | 22 | 36 |
+| Saros Possession | SarosPossession | damage | 171 | 66 |
+| Saros Possession | SarosPossession | knockback | 4 | 1.15 |
 | Sausage Maker | SausageMaker | damage | 36 | 27 |
 | Scab Ripper | ScabRipper | damage | 15 | 10 |
 | Scorched Earth | ScorchedEarth | damage | 500 | 550 |
@@ -1085,6 +1113,9 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Shroomer | Shroomer | use | 27 | 35 |
 | Shroomer | Shroomer | critical | 39 | 35 |
 | Silva armor | SilvaArmor | defense | 104 | 38 |
+| Sirius | Sirius | damage | 300 | 90 |
+| Sirius | Sirius | knockback | 3 | 10 |
+| Sirius | Sirius | mana | 20 | 10 |
 | Sky Glaze | SkyGlaze | damage | 15 | 10 |
 | Sky Glaze | SkyGlaze | mana | 8 | 9 |
 | Skyfin | Skyfin | life | 70 | 50 |
@@ -1103,6 +1134,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Slurper Pole | SlurperPole | use | 7 | 8 |
 | Small Sightseer | SightseerCollider | life | 310 | 320 |
 | Small Sightseer | SightseerCollider | defense | 16 | 28 |
+| Snake Eyes | SnakeEyes | damage | 36 | 160 |
 | Snap Clam | SnapClam | use | 24 | 25 |
 | Snowstorm Staff | SnowstormStaff | damage | 53 | 39 |
 | Snowstorm Staff | SnowstormStaff | mana | 13 | 40 |
@@ -1173,6 +1205,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Storm Spray | SandstreamScepter | mana | 8 | 7 |
 | Storm Surge | StormSurge | damage | 22 | 18 |
 | Storm Surge | StormSurge | use | 15 | 18 |
+| Storm Weaver | StormWeaverHead | life | 825500 | 825000 |
 | Stormfront Razor | StormfrontRazor | damage | 50 | 38 |
 | Stormfront Razor | StormfrontRazor | use | 14 | 20 |
 | Stormfront Razor | StormfrontRazor | critical | 12 | 8 |
@@ -1200,6 +1233,8 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Supernova | Supernova | damage | 675 | 5200 |
 | Supernova | Supernova | use | 23 | 70 |
 | Supernova | Supernova | knockback | 8 | 18 |
+| Supreme Calamitas | SupremeCalamitas | life | 900000 | 750000 |
+| Supreme Calamitas | SupremeCalamitas | damage | 350 | 210 |
 | Surge Driver | SurgeDriver | damage | 156 | 140 |
 | Svantechnical | Svantechnical | damage | 150 | 232 |
 | Svantechnical | Svantechnical | use | 24 | 4 |
@@ -1208,6 +1243,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Swordsplosion | Swordsplosion | use | 29 | 30 |
 | System Bane | SystemBane | use | 14 | 15 |
 | THE LORDE | THELORDE | life | 2.5e+07 | 2.5e+06 |
+| Tactical Plague Engine | TacticalPlagueEngine | damage | 52 | 110 |
 | Tarragon Throwing Dart | TarragonThrowingDart | use | 10 | 11 |
 | Tarragon Throwing Dart | TarragonThrowingDart | velocity | 12 | 15 |
 | Taser | ShortCircuit | damage | 998.2 | 11 |
@@ -1250,15 +1286,16 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | The Ballista | TheBallista | use | 22 | 28 |
 | The Burning Sky | TheBurningSky | damage | 244 | 147 |
 | The Burning Sky | TheBurningSky | use | 9 | 8 |
-| The Cauldron | TheCauldron | damage | 35 | 56 |
-| The Cauldron | TheCauldron | knockback | 100 | 8 |
 | The Dance of Light | TheDanceofLight | damage | 415 | 515 |
 | The Dance of Light | TheDanceofLight | critical | 24 | 20 |
 | The Dance of Light | TheDanceofLight | mana | 6 | 26 |
 | The Devourer of Cods | TheDevourerofCods | use | 7 | 8 |
+| The Devourer of Gods | DevourerofGodsHead | life | 888750 | 750000 |
 | The Final Dawn | TheFinalDawn | damage | 1500 | 2500 |
 | The God's Gambit | TheGodsGambit | damage | 29 | 28 |
 | The Hive | TheHive | damage | 80 | 92 |
+| The Hive Mind | HiveMind | life | 7800 | 5000 |
+| The Hive Mind | HiveMind | damage | 20 | 40 |
 | The Jailor | TheJailor | damage | 360 | 235 |
 | The Jailor | TheJailor | velocity | 14.5 | 28 |
 | The Last Mourning | TheLastMourning | damage | 360 | 600 |
@@ -1268,6 +1305,9 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | The Mutilator | TheMutilator | damage | 483 | 1005 |
 | The Mutilator | TheMutilator | use | 17 | 30 |
 | The Obliterator | TheObliterator | damage | 255 | 370 |
+| The Old Duke | OldDuke | life | 412500 | 400000 |
+| The Old Duke | OldDuke | damage | 200 | 140 |
+| The Old Duke | OldDuke | defense | 100 | 90 |
 | The Oracle | TheOracle | damage | 170 | 201 |
 | The Pack | ThePack | use | 52 | 53 |
 | The Pack | ThePack | critical | 12 | 8 |
@@ -1276,6 +1316,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | The Plaguebringer Goliath | PlaguebringerGoliath | defense | 40 | 50 |
 | The Prince | ThePrince | damage | 166 | 180 |
 | The Prince | ThePrince | mana | 12 | 16 |
+| The Slime God | SlimeGodCore | life | 10800 | 420 |
 | The Storm | TheStorm | damage | 24 | 40 |
 | The Storm | TheStorm | use | 14 | 20 |
 | The Storm | TheStorm | velocity | 28 | 12 |
@@ -1372,6 +1413,7 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Vesuvius | Vesuvius | damage | 60 | 55 |
 | Vesuvius | Vesuvius | mana | 6 | 8 |
 | Vigilance | Vigilance | damage | 150 | 115 |
+| Vile Feeder | VileFeeder | damage | 9 | 10 |
 | Violence | Violence | damage | 404 | 485 |
 | Violence | Violence | use | 25 | 60 |
 | Viperfish | Viperfish | life | 320 | 400 |

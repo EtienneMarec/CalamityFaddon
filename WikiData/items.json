@@ -254,6 +254,18 @@
    "value": 450
   },
   {
+   "name": "BabyFlakCrab",
+   "displayName": "Baby Flak Crab",
+   "page": "Baby Flak Crab.txt",
+   "width": 24,
+   "height": 30,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 6,
+   "maxStack": 9999,
+   "value": 3000
+  },
+  {
    "name": "Baronacre",
    "displayName": "Baronacre",
    "page": "Baronacre.txt",
@@ -876,6 +888,18 @@
    "rare": 7,
    "maxStack": 9999,
    "value": 1500
+  },
+  {
+   "name": "EnergyOrb",
+   "displayName": "Energy Orb",
+   "page": "Energy Orb.txt",
+   "width": 22,
+   "height": 22,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 8,
+   "maxStack": 999,
+   "value": 125000
   },
   {
    "name": "EnhancedPlasmaDriveCore",
@@ -1848,6 +1872,18 @@
    "rare": 1,
    "maxStack": 9999,
    "value": 2500000
+  },
+  {
+   "name": "Piggy",
+   "displayName": "Piggy",
+   "page": "Piggy.txt",
+   "width": 36,
+   "height": 24,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 1,
+   "maxStack": 9999,
+   "value": 500000
   },
   {
    "name": "PrimordialLife",

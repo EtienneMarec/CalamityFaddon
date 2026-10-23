@@ -2,9 +2,9 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 211 drops ajoutés sur 93 PNJ
+- 213 drops ajoutés sur 94 PNJ
 - 85 ajouts dans 24 sacs
-- 532 drops du wiki déjà présents dans le jeu (inchangés)
+- 530 drops du wiki déjà présents dans le jeu (inchangés)
 - 98 drops avec leur condition (boss vaincu, biome, premier kill), dont 58 qui remplacent la règle du jeu
 - 26 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
 - 175 PNJ du wiki absents du jeu, 104 objets introuvables
@@ -63,9 +63,10 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Hadarian** : Hadarian Membrane 2-3 à 50.0% [After defeating Astrum Aureus]
 - **Heat Spirit** : Essence of Chaos 1-1 à 25.0% [In Hardmode]
 - **Hemogoblin Shark** : Grandiose Gland 1-2 à 50.0%
-- **Hive** : Hive Pod 1-1 à 14.3% [After defeating Astrum Aureus]
+- **Hive** : Hive Pod 1-1 à 14.3% [After Astrum Aureus has been defeated]
+- **Hive (Enemy)** : Stardust 2-3 à 100.0% ; Hive Pod 1-1 à 14.3% [After defeating Astrum Aureus]
 - **Hive Cyst** : Demonite Ore 10-26 à 100.0%
-- **Jungle Dragon, Yharon** : Yharim's Gift 1-1 à 100.0% (mode normal) ; Omega Healing Potion 5-15 à 100.0% (mode normal) ; Chicken Nugget 5000-5000 à 100.0% (mode normal)
+- **Jungle Dragon Yharon** : Yharim's Gift 1-1 à 100.0% (mode normal) ; Omega Healing Potion 5-15 à 100.0% (mode normal) ; Chicken Nugget 5000-5000 à 100.0% (mode normal)
 - **Laserfish** : Lumenyl 1-1 à 50.0% [After defeating Calamitas]
 - **Mantis** : Astral Scythe 1-1 à 14.3% [After defeating Astrum Aureus]
 - **Mantis Shrimp** : Mantis Claws 1-1 à 20.0% [After defeating Plantera]

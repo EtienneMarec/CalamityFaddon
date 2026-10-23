@@ -19,6 +19,7 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Astral Arcanum | Radiance | Radiance |
 | Astral Deus | Astrum Deus | LoreAstrumDeus |
 | Azathoth | Ozzathoth | Ozzathoth |
+| Baby Ghost Bell | Blue Baby Ghost Bell | BabyGhostBellItem |
 | Banners | {$Items.Placeables.FormattedBannerName} | BurrowerBanner |
 | Big Sightseer | Sightseer Spitter | SightseerSpitter |
 | Biome Chest | Astral Chest | AstralChest |
@@ -121,8 +122,10 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Stardust | Starblight Soot | StarblightSoot |
 | Starfall | Star Shower | StarShower |
 | Storm Spray | Sandstream Scepter | SandstreamScepter |
+| Sulphurous Sea | Microbial Cluster | MicrobialCluster |
 | Sun God Staff | Vengeful Sun Staff | VengefulSunStaff |
 | Sunken Crate | Prism Crate | PrismCrate |
+| Supreme Calamitas | Supreme Witch, Calamitas | SupremeCalamitas |
 | Tarragon Bar | Uelibloom Bar | UelibloomBar |
 | Tarragon Ore | Uelibloom Ore | UelibloomOre |
 | Taser | P-TSL: Short Circuit | ShortCircuit |
@@ -144,7 +147,10 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Tyrant Yharim's Ultisword | Blighted Cleaver | BlightedCleaver |
 | Verium Bullet | Verium Bolt | VeriumBolt |
 | Victide Bar | Sea Remains | SeaRemains |
+| Vigorous Candle | Vigor | PinkCandleBuff |
 | Void of Extinction | Apollyon | Apollyon |
+| Water Leech | Heavy Bleeding | HeavyBleeding |
+| Weightless Candle | Limber | BlueCandleBuff |
 | Wulfrum Bar | Wulfrum Metal Scrap | WulfrumMetalScrap |
 | Xerocodile | Gorecodile | Gorecodile |
 | Yharim's Insignia | Ascendant Insignia | AscendantInsignia |

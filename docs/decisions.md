@@ -53,6 +53,11 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
   Construct → Cataclysm, Signus → Signus, Envoy of the Devourer, journaux de Draedon) ; ancien nom lu dans le vieux code
   (un fichier qui déclarait plusieurs objets ne compte pas). **[choix]** Silva Basin → Effulgent Manipulator ajouté à la
   main au glossaire (le vieux code n'avait pas de nom déclaré) : débloque la station des meubles Silva (24 recettes).
+  **[technique]** Le nom rendu est le titre de la page (redirections suivies : Fabsol's Vodka → Fluorescent Vodka), sauf
+  redirection vers une page de groupe (Treasure Bag (Calamitas) → Treasure Bag : l'ancien nom reste).
+- **[technique]** Une page d'objet ne se relie qu'à un objet de Calamity, une page de PNJ qu'à un PNJ (Energy Orb,
+  Shroomerang, Spectral Feather... étaient reliés à un projectile ou un buff homonyme ; Energy Orb est maintenant un
+  matériau généré).
 - **[validé 23/10]** Objets **portés** alors que Calamity les avait seulement renommés ou refaits (12 : Night's Gaze =
   Vega, Starfall = Star Shower, Solar Flare = Burning Revelation, Effluvium Bow = Hoarfrost Bow, Energy Staff = Sanctified
   Spark, Amidias' Spark = Ilmeris' Spark, Regenator = Regenerator, Corroslime Staff = Blighted Slime Staff ; refontes :

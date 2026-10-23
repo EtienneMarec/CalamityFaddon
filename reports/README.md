@@ -7,34 +7,34 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | redirect | 4818 |
 | content | 3619 |
 | changelog | 222 |
-| contenu correspondant à Calamity | 1381 |
-| contenu officiel renommé (via redirection) | 144 |
-| pages regroupant plusieurs objets officiels | 74 |
-| officiel ou renommé avec stats divergentes | 784 |
-| contenu inconnu de Calamity avec infobox | 1485 |
-| dont avec sprite trouvé | 1391 |
+| contenu correspondant à Calamity | 1360 |
+| contenu officiel renommé (via redirection) | 150 |
+| pages regroupant plusieurs objets officiels | 76 |
+| officiel ou renommé avec stats divergentes | 812 |
+| contenu inconnu de Calamity avec infobox | 1498 |
+| dont avec sprite trouvé | 1401 |
 | pages marquées addon / fantag | 778 |
 | pages de wiki/ modifiées ou créées par rapport au Fandom | 549 |
-| **pages implémentées dans le mod** | **254** |
+| **pages implémentées dans le mod** | **253** |
 
 ## Types d'infobox (contenu nouveau)
 
 | Type | Nombre |
 |---|---|
-| Weapon | 469 |
-| Crafting material | 146 |
-| Covering | 124 |
+| Weapon | 470 |
+| Crafting material | 149 |
+| Covering | 125 |
 | Block | 113 |
 | Debuff | 65 |
+| Boss | 62 |
 | Potion | 62 |
-| Boss | 59 |
-| Enemy | 57 |
+| Enemy | 58 |
 | Tool | 56 |
 | Flying Enemy | 33 |
 | NPC | 27 |
 | Furniture | 25 |
+| ? | 24 |
 | Ammunition | 23 |
-| ? | 23 |
 | Armor | 22 |
 | Summoning | 22 |
 | Slime | 16 |
@@ -43,10 +43,10 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | Pet Summon | 11 |
 | Item | 11 |
 | Aquatic | 10 |
+| Bait | 10 |
 | Burrowing Enemy | 10 |
 | Wall | 9 |
 | Critter | 7 |
-| Bait | 7 |
 | Buff | 6 |
 | Soul | 6 |
 | Vanity | 5 |

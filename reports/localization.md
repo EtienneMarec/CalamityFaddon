@@ -49,16 +49,16 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.Ranged.ChromaticEruption.DisplayName` | Chromatic Eruption | Elemental Eruption |
 | `Items.Ammo.CinderArrow.DisplayName` | Cinder Arrow | Napalm Arrow |
 | `Items.Accessories.CleansingJelly.DisplayName` | Cleansing Jelly | Mana Jelly |
-| `NPCs.CrimulanPaladin.DisplayName` | Crimulan Paladin | Crimulan Slime God |
-| `NPCs.SplitCrimulanPaladin.DisplayName` | Crimulan Paladin | Crimulan Slime God |
+| `NPCs.CrimulanPaladin.DisplayName` | Crimulan Paladin | The Slime God |
+| `NPCs.SplitCrimulanPaladin.DisplayName` | Crimulan Paladin | The Slime God |
 | `Items.Accessories.CrushingEgo.DisplayName` | Crushing Ego | Dimensional Soul Artifact |
-| `Items.DraedonItems.DraedonsLogSnowBiome.DisplayName` | Cryonic Material Log | Draedon's Log - The Frozen Wasteland |
+| `Items.DraedonItems.DraedonsLogSnowBiome.DisplayName` | Cryonic Material Log | Draedon's Logs |
 | `Items.Accessories.DarkMatterSheath.DisplayName` | Dark Matter Sheath | Dark God's Sheath |
 | `Items.Weapons.Magic.DarkSpark.DisplayName` | Dark Spark | Cruel Jewel |
 | `Projectiles.Magic.DarkSparkBeam.DisplayName` | Dark Spark Beam | Cruel Jewel Beam |
 | `Items.Weapons.Ranged.DeadSunsWind.DisplayName` | Dead Sun's Wind | God's Bellows |
 | `Items.Weapons.Melee.DefiledGreatsword.DisplayName` | Defiled Greatsword | True Tyrant's Ultisword |
-| `NPCs.DesertNuisanceHead.DisplayName` | Desert Nuisance | A Desert Nuisance |
+| `NPCs.DesertNuisanceHead.DisplayName` | Desert Nuisance | Desert Scourge |
 | `Items.Accessories.DiamondOfTheDeep.DisplayName` | Diamond of the Deep | Lumenous Amulet |
 | `Items.Weapons.Rogue.DimensionTearingDisk.DisplayName` | Dimension-Tearing Disk | Eradicator |
 | `Items.Materials.DivineGeode.DisplayName` | Divine Geode | Divine Bar |
@@ -68,22 +68,22 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `NPCs.WildBumblebirb.DisplayName` | Draconic Swarmer | Tempest Toddler |
 | `NPCs.Bumblefuck2.DisplayName` | Draconic Swarmer | Tempest Toddler |
 | `Items.Ammo.DryadsTear.DisplayName` | Dryad's Tear | Terra Bullet |
-| `NPCs.EbonianPaladin.DisplayName` | Ebonian Paladin | Ebonian Slime God |
-| `NPCs.SplitEbonianPaladin.DisplayName` | Ebonian Paladin | Ebonian Slime God |
+| `NPCs.EbonianPaladin.DisplayName` | Ebonian Paladin | The Slime God |
+| `NPCs.SplitEbonianPaladin.DisplayName` | Ebonian Paladin | The Slime God |
 | `Items.Weapons.Summon.EnchantedConch.DisplayName` | Enchanted Conch | Magical Conch |
-| `Items.DraedonItems.DraedonsLogHell.DisplayName` | Environmental Pollution Log | Draedon's Log - Hell |
+| `Items.DraedonItems.DraedonsLogHell.DisplayName` | Environmental Pollution Log | Draedon's Logs |
 | `Items.Materials.EssenceofHavoc.DisplayName` | Essence of Havoc | Essence of Chaos |
 | `Items.Weapons.Melee.ExaltedOathblade.DisplayName` | Exalted Oathblade | True Forbidden Oathblade |
 | `Items.Accessories.FadedIdolatry.DisplayName` | Faded Idolatry | Godly Soul Artifact |
 | `Items.Accessories.FragmentsOfAnotherWorld.DisplayName` | Fragments of Another World | Eldritch Soul Artifact |
 | `Items.Weapons.Summon.GlacialEmbrace.DisplayName` | Glacial Embrace | Cold Divinity |
-| `NPCs.Glomerling.DisplayName` | Glomerling | Hiveling |
+| `NPCs.Glomerling.DisplayName` | Glomerling | Hive (Enemy) |
 | `Items.Fishing.Gorecodile.DisplayName` | Gorecodile | Xerocodile |
 | `Items.Materials.GrandScale.DisplayName` | Grand Scale | Parched Scale |
 | `Items.Ammo.HailstormBullet.DisplayName` | Hailstorm Bullet | Icy Bullet |
 | `Items.Fishing.Havocfish.DisplayName` | Havocfish | Chaotic Fish |
 | `Items.Placeables.Havocplate.DisplayName` | Havocplate | Chaosplate |
-| `Items.Placeables.HavocplateWall.DisplayName` | Havocplate Wall | ChaosplateWall |
+| `Items.Placeables.HavocplateWall.DisplayName` | Havocplate Wall | Chaosplate Wall |
 | `NPCs.HiveTumor.DisplayName` | Hive Tumor | Hive Cyst |
 | `Items.Weapons.Ranged.HoarfrostBow.DisplayName` | Hoarfrost Bow | Effluvium Bow |
 | `Items.Weapons.Magic.HyperdeathRiftScepter.DisplayName` | Hyperdeath Rift Scepter | Deathhail Staff |
@@ -95,13 +95,13 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.Ranged.Kingsbane.DisplayName` | Kingsbane | Minigun |
 | `Items.Weapons.Summon.LegionofCelestia.DisplayName` | Legion of Celestia | Elemental Axe |
 | `Items.Weapons.Melee.Lightspeed.DisplayName` | Lightspeed | Elemental Shiv |
-| `Items.DraedonItems.DraedonsLogPlanetoid.DisplayName` | Low Orbit Study Log | Draedon's Log - Space |
+| `Items.DraedonItems.DraedonsLogPlanetoid.DisplayName` | Low Orbit Study Log | Draedon's Logs |
 | `Projectiles.Rogue.LuxorsGiftRogue.DisplayName` | Luxor's Rogue | Luxor's Spy |
 | `Items.Weapons.Rogue.Malachite.DisplayName` | Malachite | Garnet |
 | `Projectiles.Rogue.MalachiteBolt.DisplayName` | Malachite | Garnet |
 | `Projectiles.Rogue.MalachiteProj.DisplayName` | Malachite | Garnet |
 | `Projectiles.Rogue.MalachiteStealth.DisplayName` | Malachite | Garnet |
-| `Items.DraedonItems.DraedonsLogSunkenSea.DisplayName` | Marine Biology Log | Draedon's Log - Study on Sunken Aquatic Life |
+| `Items.DraedonItems.DraedonsLogSunkenSea.DisplayName` | Marine Biology Log | Draedon's Logs |
 | `Items.SummonItems.MarkofProvidence.DisplayName` | Mark of Providence | Rune of Kos |
 | `Buffs.MarkedforDeath.DisplayName` | Marked for Death | Marked |
 | `Items.SummonItems.MartianDistressRemote.DisplayName` | Martian Distress Remote | Martian Distress Beacon |
@@ -141,13 +141,13 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.DraedonsArsenal.ShortCircuit.DisplayName` | P-TSL: Short Circuit | Taser |
 | `Items.Materials.PearlShard.DisplayName` | Pearl Shard | Conquest Fragment |
 | `Items.Weapons.Magic.Photosynthesis.DisplayName` | Photosynthesis | Terra Ray |
-| `Items.DraedonItems.DraedonsLogJungle.DisplayName` | Plague Nanomachine Log | Draedon's Log - The Jungle and Plague |
+| `Items.DraedonItems.DraedonsLogJungle.DisplayName` | Plague Nanomachine Log | Draedon's Logs |
 | `Items.Accessories.PlanebreakersPouch.DisplayName` | Planebreaker's Pouch | Elemental Quiver |
 | `NPCs.PrimordialWyrmHead.DisplayName` | Primordial Wyrm | Adult Eidolon Wyrm |
 | `Items.Fishing.PrismCrate.DisplayName` | Prism Crate | Sunken Crate |
 | `Items.Weapons.Ranged.PristineFury.DisplayName` | Pristine Fury | Pristine Annihilation |
 | `Items.Materials.PlasmaDriveCore.DisplayName` | Prototype Plasma Drive | Prototype Plasma Drive Core |
-| `Items.Potions.PurpleHaze.DisplayName` | Purple Haze | Fabsol's Vodka |
+| `Items.Potions.PurpleHaze.DisplayName` | Purple Haze | Fluorescent Vodka |
 | `Items.Weapons.DraedonsArsenal.PulseGrenade.DisplayName` | R-PLS: Pulse Grenade | Frequency Manipulator |
 | `Items.Weapons.DraedonsArsenal.HolofibreImmolator.DisplayName` | R-PMA: Holofibre Immolator | Matter Modulator |
 | `Items.Accessories.Radiance.DisplayName` | Radiance | Astral Arcanum |
@@ -200,7 +200,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Accessories.ViciousTonic.DisplayName` | Vicious Tonic | Crimson Flask |
 | `Items.Weapons.Summon.VoidEaterMarionette.DisplayName` | Void Eater Marionette | Staff of the Mechworm |
 | `Items.Accessories.Wings.VoidStriders.DisplayName` | Void Striders | Elysian Tracers |
-| `Items.Placeables.VoidTorch.DisplayName` | Void Torch | AbyssTorch |
+| `Items.Placeables.VoidTorch.DisplayName` | Void Torch | Abyss Torch |
 | `Items.Weapons.Magic.Volterion.DisplayName` | Volterion | Thunderstorm |
 | `Items.Weapons.DraedonsArsenal.PhalanxSurge.DisplayName` | W-LSR: Phalanx Surge | Heavy Laser Rifle |
 | `Items.Weapons.Rogue.WalkingCane.DisplayName` | Walking Cane | Slick Cane |
@@ -209,12 +209,12 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.Ranged.WildfireBloom.DisplayName` | Wildfire Bloom | Terra Flameburster |
 | `Items.Accessories.Wings.WingsofRebirth.DisplayName` | Wings of Rebirth | Drew's Wings |
 | `Items.Materials.WulfrumMetalScrap.DisplayName` | Wulfrum Metal Scrap | Wulfrum Bar |
-| `NPCs.Yharon.DisplayName` | Yharon, Dragon of Rebirth | Jungle Dragon, Yharon |
+| `NPCs.Yharon.DisplayName` | Yharon, Dragon of Rebirth | Jungle Dragon Yharon |
 | `DamageClasses.RogueDamageClass.DisplayName` | rogue damage | spy damage |
-| `Items.Placeables.BurrowerBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | ArmoredDiggerBanner |
-| `Items.Placeables.SightseerSpitterBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | BigSightseerBanner |
-| `Items.Placeables.ToxicatfishBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | CatfishBanner |
-| `Items.Placeables.InfernalCongealmentBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | CharredSlimeBanner |
-| `Items.Placeables.RenegadeWarlockBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | CultistAssassinBanner |
-| `Items.Placeables.SulflounderBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | FlounderBanner |
-| `Items.Placeables.SightseerColliderBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | SmallSightseerBanner |
+| `Items.Placeables.BurrowerBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |
+| `Items.Placeables.SightseerSpitterBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |
+| `Items.Placeables.ToxicatfishBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |
+| `Items.Placeables.InfernalCongealmentBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |
+| `Items.Placeables.RenegadeWarlockBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |
+| `Items.Placeables.SulflounderBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |
+| `Items.Placeables.SightseerColliderBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |

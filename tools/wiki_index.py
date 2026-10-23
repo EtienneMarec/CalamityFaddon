@@ -370,6 +370,12 @@ def main():
             if sprite:
                 page["sprite"] = sprite
             matches = cal_names.get(norm(title), [])
+            # Une page d'objet ne décrit qu'un objet, une page de PNJ qu'un PNJ (« Energy Orb » est aussi un projectile)
+            box = page.get("infobox") or ""
+            if box.startswith("item"):
+                matches = [m for m in matches if m[0].startswith("Items")]
+            elif box.startswith("npc"):
+                matches = [m for m in matches if m[0].startswith("NPCs")]
             if matches:
                 attach_calamity(page, matches, cal_classes)
             page["status"] = "official" if matches else "new"

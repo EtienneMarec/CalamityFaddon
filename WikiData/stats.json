@@ -735,6 +735,11 @@
    "rare": 16,
    "value": 5000000
   },
+  "BabyGhostBellItem": {
+   "page": "Baby Ghost Bell.txt",
+   "rare": 2,
+   "value": 3000
+  },
   "BadgeofBravery": {
    "page": "Badge of Bravery.txt",
    "rare": 12,
@@ -7212,6 +7217,14 @@
   "RepairUnitCritter": {
    "page": "Repair Unit.txt",
    "defense": 0
+  },
+  "MicrobialCluster": {
+   "page": "Sulphurous Sea.txt",
+   "defense": 0
+  },
+  "SupremeCalamitas": {
+   "page": "Supreme Calamitas.txt",
+   "lifeRatio": 1.2
   },
   "THELORDE": {
    "page": "THE LORDE.txt",

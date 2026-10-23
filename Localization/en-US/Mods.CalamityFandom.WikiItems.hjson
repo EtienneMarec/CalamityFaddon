@@ -104,6 +104,11 @@
 		DisplayName: Auric Soul
 		Tooltip: ""
 	}
+	BabyFlakCrab:
+	{
+		DisplayName: Baby Flak Crab
+		Tooltip: ""
+	}
 	Baronacre:
 	{
 		DisplayName: Baronacre
@@ -367,6 +372,11 @@
 	{
 		DisplayName: Endoplate
 		Tooltip: It resonates with hypothermic energy.
+	}
+	EnergyOrb:
+	{
+		DisplayName: Energy Orb
+		Tooltip: ""
 	}
 	EnhancedPlasmaDriveCore:
 	{
@@ -784,6 +794,11 @@
 	{
 		DisplayName: Ornate Cloth
 		Tooltip: A beautiful sheet of silk.
+	}
+	Piggy:
+	{
+		DisplayName: Piggy
+		Tooltip: ""
 	}
 	PrimordialLife:
 	{

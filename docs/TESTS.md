@@ -236,6 +236,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Crimulan Paladin / Ebonian Paladin s'appellent Crimulan / Ebonian Slime God
 - [ ] Calamitas Clone s'appelle **Calamitas**, Cataclysmic Construct **Cataclysm**, Signus **Signus, Envoy of the Devourer**
 - [ ] La Silva Basin s'appelle **Effulgent Manipulator** et fabrique les meubles Silva
+- [ ] La Purple Haze s'appelle **Fluorescent Vodka** ; **Energy Orb** existe (matériau, Cheat Sheet)
 
 ### 2.4 Shortstrike (page Shortstrike, 22/10)
 

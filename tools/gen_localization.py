@@ -139,7 +139,11 @@ def main():
         key = by_class.get(r["new"])
         if r["newName"] == r["oldName"] or not key or (own_page and own_page.get("kind") == "content"):
             continue
-        changed[key] = (strings[key], r["oldName"])
+        # Titre de la page (redirections suivies : Fabsol's Vodka -> Fluorescent Vodka), sauf page de groupe (« Treasure
+        # Bag (Calamitas) » -> « Treasure Bag ») où l'ancien nom reste ; sans parenthèse de désambiguïsation « (weapon) »
+        target = pages.get(re.sub(r"[^a-z0-9]", "", r["page"].lower()), {})
+        name = r["oldName"] if target.get("status") == "group" else re.sub(r"\s*\([a-z][^)]*\)$", "", r["page"])
+        changed[key] = (strings[key], name)
 
     prefix = "Mods.CalamityMod."
     wanted = {k[len(prefix):]: v[1] for k, v in sorted(changed.items())}
