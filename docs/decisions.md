@@ -71,6 +71,9 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
   Objets de lore absents du tableau (Signus, Storm Weaver, Empress of Light, Queen Slime, Awakening, Cynosure) : masqués
   en Full Fandom. Les lignes vandalisées « The Eater of Ireland » / « The Destroyer of Ireland » (paroles de chanson à la
   place du texte) ne renomment rien : les redirections « The Eater of Worlds (Lore) » / « The Destroyer (Lore) » existent.
+- **[technique]** Recettes : « Silver/Tungsten Bar » = Silver Bar ou Tungsten Bar (un mot seul reprend la fin du dernier
+  nom). Alias ajoutés : Any Quivers / Any Mana Flowers → groupes de Calamity au singulier (le changelog 2.0.0.003 dit que
+  le pluriel était une faute), Dirt → Dirt Block, Ancient Cultist Trophy → Lunatic Cultist Trophy (nom de vanilla 1.4).
 - **[technique]** Alias de noms du butin et des recettes : le glossaire est aussi appliqué aux noms du wiki (« Treasure Bag
   (Astrum Deus) » → Treasure Bag (Astral Deus), « Rogue Emblem » → Spy Emblem), comme aux textes du jeu.
 - **[technique]** Une page d'objet ne se relie qu'à un objet de Calamity, une page de PNJ qu'à un PNJ (Energy Orb,
@@ -313,6 +316,23 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** Version minimale : 23 PV (= 23 coups, 12 + 10 + 1 de la page), chaque coup retire 1 PV, esquive 0,5 s
   après chaque coup, défense 0, attaques (contact et projectiles) à 1 dégât + Poisoned 5 s. Pas encore fait : ignorer
   l'invincibilité du joueur, os, Gaster Blasters, écran noir, Handheld Tank (`docs/ROADMAP.md`).
+
+### Portages du 26/10 (`Content/Legacy/`, objets qui débloquent des recettes ou du butin)
+
+- **[choix]** **Psychotic Amulet** : retiré de Calamity en juin 2022, avant 2.0.1.005 (porté depuis le commit qui le
+  supprimait). Furtivité de la Shroomite armor de vanilla (même drapeau : ne se cumule pas avec elle, donne la partie
+  ranged) + partie spy du vieux code (+20 % de dégâts, +10 % de critique) et +50 % de recul spy (totaux de la page).
+  Le ralentissement du vieux code (vitesse divisée par deux pendant la furtivité) n'est pas porté : le wiki n'en parle pas.
+  [technique] L'interdiction du bonus de la Vortex armor décrite par la page n'est pas codée (à vérifier en jeu).
+- **[choix]** **Disseminator** : comportement du texte et du gif de la page (salve de l'arme + salves d'au-dessus et d'en
+  dessous vers le curseur, qui traversent les blocs) plutôt que celui du code de 2.0.1.005 (jusqu'à 8 ennemis visés).
+  4 plombs par salve et 70 % des dégâts pour les salves extérieures : chiffres du vieux code, le wiki n'en donne pas.
+- **[choix]** **Lazhar** : le wiki dit que l'explosion inflige On Fire! 3 s ; l'explosion réutilisée de Calamity ne le fait
+  pas, c'est donc le rayon qui l'inflige à l'ennemi touché.
+- **[technique]** **Eutrophic Scimitar** : Eutrophication 0,5 s (infobox) au lieu de 1 s (vieux code). **Astral Bow** :
+  classe AstralRepeater (nom de 2.0.1.005), les tirs à bout portant de Calamity n'existent plus.
+- **[à trancher]** Plague Hive : demande Alchemical Flask, que Calamity a remplacé par l'Alchemical Decanter
+  (`[LegacyName]`) ; dépend de la décision sur les remplacements `[LegacyName]` (section 2).
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

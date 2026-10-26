@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (491)
+## Objets (481)
 
 - A M S
 - AAMG "Disperse"
@@ -170,7 +170,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aero Bolt
 - Aero Dynamite
 - Aflaming Crystalliser
-- Aftershock
 - Alpha Ray
 - Alpha Virus
 - Ancient Shiv
@@ -184,10 +183,8 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Arngren
 - Aspect of the End
 - Aspid Blaster
-- Asteroid Staff
 - Astral Axe
 - Astral Blade
-- Astral Bow
 - Astral Hammer
 - Astralence
 - Augar of the Elements
@@ -221,7 +218,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Calamity Sword
 - Caliburn
 - Carapace Hammer
-- Carnage Ray
 - Catarachedrae
 - Catastrophe Claybore
 - Catastrophe Claycore
@@ -281,7 +277,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Devious Aestheticus
 - Digital Cheese Spear
 - Disease
-- Disseminator
 - Dissfusion Disk
 - Divine Hunters Staff
 - Divine Intervention
@@ -306,7 +301,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Elusive Feather
 - Endentant Bow
 - Ethereal Knives
-- Eutrophic Scimitar
 - Eutrophic Shank
 - Evercoldance
 - Exactory Dartshooter
@@ -395,7 +389,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Lacescent Pistol
 - Large Father
 - Latcher Mine
-- Lazhar
 - Lazinator
 - Leeching Dagger
 - Li'l Mine
@@ -452,7 +445,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Pandora's Chest
 - Pastranion
 - Phantasmal Rune
-- Phantom Lance
 - Phlegm
 - Phoenix Blade
 - Phototerminator
@@ -507,7 +499,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Rusty Medallion
 - Salt Booklet
 - Salt Water Bolt
-- Sandslasher
 - Sandstorm (weapon)
 - Sanguined Catarachedrae
 - SDOMG
@@ -631,7 +622,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Winter Breeze
 - Wooden Butterfly Staff
 - Worst Prism
-- Wrath of the Ancients
 - Wrath of the Cosmos
 - Wrath of the Dragons
 - Wrath of the Eldritch

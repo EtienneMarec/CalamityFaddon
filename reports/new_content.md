@@ -16,7 +16,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Aero Bolt — addon: Calamity: Community Remix
 - [ ] Aero Dynamite
 - [ ] Aflaming Crystalliser
-- [ ] Aftershock
+- [x] Aftershock
 - [ ] Alpha Ray
 - [ ] Alpha Virus
 - [ ] Ancient Crusher
@@ -30,9 +30,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Arngren — addon: Calamity: Community Remix
 - [ ] Aspect of the End — addon: Calamity: Community Remix
 - [ ] Aspid Blaster
-- [ ] Asteroid Staff
+- [x] Asteroid Staff
 - [ ] Astral Blade
-- [ ] Astral Bow
+- [x] Astral Bow
 - [ ] Astralence — addon: Calamity: Tales of the Aquatic
 - [ ] Augar of the Elements
 - [ ] Auric Sword
@@ -61,7 +61,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Calamitous Vortex — addon: Calamity: Tales of the Aquatic
 - [ ] Calamity Sword
 - [ ] Caliburn
-- [ ] Carnage Ray
+- [x] Carnage Ray
 - [ ] Catastrophe Claycore
 - [ ] Catastrophe Claymore
 - [ ] Catastrophe Clayscore
@@ -127,7 +127,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Dirt Clump
 - [ ] Disease
 - [x] Diseased Pike
-- [ ] Disseminator
+- [x] Disseminator
 - [ ] Dissfusion Disk — addon: Calamity: Tales of the Aquatic
 - [ ] Divine Retribution
 - [ ] Doctrine Spear — addon: Calamity: Tales of the Aquatic
@@ -150,7 +150,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Elusive Feather
 - [ ] Endentant Bow — addon: Calamity: Tales of the Aquatic
 - [ ] Ethereal Knives
-- [ ] Eutrophic Scimitar
+- [x] Eutrophic Scimitar
 - [ ] Eutrophic Shank
 - [ ] Evercoldance — addon: Calamity: Tales of the Aquatic
 - [ ] Exactory Dartshooter — addon: Calamity: Tales of the Aquatic
@@ -232,7 +232,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Lacelinous Nocturne — addon: Calamity: Tales of the Aquatic
 - [ ] Lacescent Pistol — addon: Calamity: Tales of the Aquatic
 - [ ] Latcher Mine
-- [ ] Lazhar
+- [x] Lazhar
 - [ ] Lazinator
 - [ ] Lead Wizard
 - [ ] Leeching Dagger
@@ -288,7 +288,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Pandora's Chest — addon: Calamity: Community Remix
 - [ ] Pastranion
 - [ ] Pearl Gloves
-- [ ] Phantom Lance
+- [x] Phantom Lance
 - [ ] Phlegm
 - [ ] Phoenix Blade
 - [ ] Phototerminator
@@ -333,7 +333,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] SDOMG
 - [ ] Salt Booklet — addon: Cataclysm
 - [ ] Salt Water Bolt — addon: Cataclysm
-- [ ] Sandslasher
+- [x] Sandslasher
 - [ ] Sandstorm (weapon)
 - [ ] Sea Stone Shuriken
 - [ ] Sea Stone Sickle
@@ -455,7 +455,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Wisdom of Survival — addon: Calamity: Tales of the Aquatic
 - [ ] Wooden Butterfly Staff
 - [ ] Worst Prism
-- [ ] Wrath of the Ancients
+- [x] Wrath of the Ancients
 - [ ] Wrath of the Cosmos — addon: Calamity: Community Remix
 - [ ] Wrath of the Dragons — addon: Calamity: Community Remix
 - [ ] Wrath of the Eldritch — addon: Calamity: Community Remix
@@ -702,7 +702,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Plague Hive
 - [ ] Polypebral Shield
 - [ ] Prehistoric Tablet
-- [ ] Psychotic Amulet
+- [x] Psychotic Amulet
 - [ ] Quantum Flahium Ejection Device
 - [ ] Quantum Flahium Militia Device
 - [ ] Quantum Flahium Shock Device

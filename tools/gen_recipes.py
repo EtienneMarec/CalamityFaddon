@@ -111,6 +111,10 @@ def build_recipe(positional, named, fname, problems):
     for name, qty in pairs:
         q = parse_qty(qty)
         alternatives = [clean_name(n) for n in name.split("/") if clean_name(n)]
+        # Forme abrégée « Silver/Tungsten Bar » = Silver Bar ou Tungsten Bar : un mot seul reprend la fin du dernier nom
+        if len(alternatives) > 1 and " " in alternatives[-1]:
+            suffix = alternatives[-1].split(" ", 1)[1]
+            alternatives = [a if " " in a else f"{a} {suffix}" for a in alternatives]
         if q is None or q <= 0 or not alternatives:
             problems.append((fname, result, f"ingrédient illisible : {name} | {qty}"))
             return None  # recette vandalisée (ex. « sqrt(-1) » Alloy Bars) : on garde celle du jeu

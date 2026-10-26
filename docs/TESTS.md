@@ -269,6 +269,21 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Premier kill de Cryogen : lâche le lore « Cryogen » (une seule fois, pas de doublon)
 - [ ] Le sac d'Astral Deus et celui de Meatmetal Sans reçoivent leur contenu du wiki (page Treasure Bag) : trophée à 10 %
       dans le sac d'Astral Deus, Greater Healing Potion...
+- [ ] Portages du 26/10 (Cheat Sheet) :
+  - [ ] **Psychotic Amulet** : +5 % dégâts/critique spy et ranged ; immobile, on devient invisible (comme la Shroomite) et
+        les bonus montent ; se fabrique dans les casques Auric Tesla ; lâché par la Possessed Armor
+  - [ ] **Disseminator** : salve de l'arme + une salve tombée d'au-dessus et une montée d'en dessous vers le curseur, qui
+        traversent les blocs ; une munition sur deux n'est pas consommée
+  - [ ] **Wrath of the Ancients** : pose une pulsation au curseur qui libère des esprits à tête chercheuse ; une seule à la
+        fois ; lâché par les Necromancer
+  - [ ] **Astral Bow** (rafale de 3 flèches), **Lazhar** (rayons qui rebondissent et explosent, On Fire!), **Carnage Ray**
+        (rayon de sang), **Phantom Lance** (javelots qui sèment des âmes, se fabriquent par 100), **Eutrophic Scimitar**
+        (deux décharges qui étourdissent, lâché par le Blinded Angler)
+  - [ ] **Aftershock** (un rocher tombe du ciel à chaque coup, Armor Crunch ; lâché par les Earth Elemental),
+        **Sandslasher** (shuriken qui accélère à l'horizontale ; furtif : nuages de sable), **Asteroid Staff** (3 astéroïdes
+        verts vers le curseur, qui explosent)
+- [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
+      Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 
 ---
 

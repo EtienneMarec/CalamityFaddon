@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 257 drops ajoutés sur 104 PNJ
+- 261 drops ajoutés sur 107 PNJ
 - 86 ajouts dans 24 sacs
 - 551 drops du wiki déjà présents dans le jeu (inchangés)
 - 115 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 26 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 175 PNJ du wiki absents du jeu, 90 objets introuvables
+- 175 PNJ du wiki absents du jeu, 85 objets introuvables
 
 ## Ajouts
 
@@ -24,7 +24,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Astrum Aureus** : Soul of Bright 20-40 à 100.0% (mode normal) ; Hallowed Key 1-1 à 20.0% (mode normal) ; Stardust 20-30 à 100.0% (mode normal) ; Fallen Star 18-24 à 100.0% (mode normal) ; Gravistar Sabaton 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; Astrum Aureus 1-1 à 100.0% [Always on first kill] (mode normal) ; Astrum Aureus 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **Atlas** : Titan Finger 1-1 à 15.0% ; Titan Arm 1-1 à 14.3% [After defeating Astrum Aureus]
 - **Big Sightseer** : Titan Finger 1-1 à 2.0% ; Astral Pearl 1-1 à 15.0%
-- **Blinded Angler** : Clam Chowder 1-1 à 2.0%
+- **Blinded Angler** : Clam Chowder 1-1 à 2.0% ; Eutrophic Scimitar 1-1 à 25.0%
 - **Bloatfish** : Depth Cells 5-7 à 50.0% [After defeating Calamitas]
 - **Blood Eel** : Grandiose Gland 2-4 à 75.0%
 - **Bobbit Worm** : Depth Cells 5-7 à 50.0% [After defeating Calamitas] ; Bobbit Hook 1-1 à 33.3% [After defeating Polterghast]
@@ -51,6 +51,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Dreadnautilus** : Grandiose Gland 5-5 à 100.0%
 - **Drippler** : Bouncing Eyeball 1-1 à 2.5%
 - **Duke Fishron** : Delicious Meat 45-92 à 50.0% (mode normal)
+- **Earth Elemental** : Aftershock 1-1 à 25.0%
 - **Eater of Worlds** : Disgusting Meat 2-5 à 100.0%
 - **Eidolist** : Lunar Cultist Hood 1-1 à 10.0% ; Lunar Cultist Robe 1-1 à 10.0%
 - **Eidolon Wyrm** : Soul Edge 1-1 à 33.3% [After defeating Polterghast]
@@ -62,7 +63,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Giant Squid** : Depth Cells 2-4 à 50.0% [After defeating Calamitas] ; Lumenyl 1-1 à 50.0% [After defeating Calamitas]
 - **Giant Tortoise** : Giant Tortoise Shell 1-1 à 15.0%
 - **Gnasher** : Turtle Shell 1-1 à 10.0% [In Hardmode]
-- **Great Sand Shark** : Sand Shark Tooth Necklace 1-1 à 25.0% (mode normal) ; Sand Shark Tooth Necklace 1-1 à 33.3% (Expert, direct) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Shifting Sands, Tumbleweed (mode normal) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Shifting Sands, Tumbleweed (Expert, direct)
+- **Great Sand Shark** : Sand Shark Tooth Necklace 1-1 à 25.0% (mode normal) ; Sand Shark Tooth Necklace 1-1 à 33.3% (Expert, direct) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Sandslasher, Shifting Sands, Tumbleweed (mode normal) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Sandslasher, Shifting Sands, Tumbleweed (Expert, direct)
 - **Gulper Eel** : Depth Cells 6-8 à 50.0% [After defeating Calamitas] ; Lumenyl 2-3 à 50.0% [After defeating Calamitas]
 - **Hadarian** : Titan Finger 1-1 à 2.0% ; Hadarian Membrane 2-3 à 50.0% [After defeating Astrum Aureus]
 - **Heat Spirit** : Essence of Chaos 1-1 à 25.0% [In Hardmode]
@@ -81,6 +82,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Moon Lord** : Celestial Onion 1-1 à 100.0% (mode normal) ; Celestial Onion 1-1 à 100.0% (Expert, direct) ; Cheese 4-6 à 5.0% (mode normal) ; Cheese 4-6 à 5.0% (Expert, direct) ; Utensil Poker 1-1 à 25.0% (mode normal) ; Utensil Poker 1-1 à 33.3% (Expert, direct)
 - **Moray Eel** : Depth Crusher 1-1 à 6.7%
 - **Mouse** : Cheese 1-2 à 0.0% [in Godseeker Mode]
+- **Necromancer** : Wrath of the Ancients 1-1 à 4.0%
 - **Nova** : Titan Finger 1-1 à 2.0%
 - **Oarfish** : Depth Cells 3-5 à 50.0% [After defeating Calamitas]
 - **Orthocera** : Insidious Impaler 1-1 à 5.0%
@@ -91,6 +93,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Pestilent Slime** : Apocalyptic Ore 10-26 à 100.0%
 - **Plagueshell** : Apocalyptic Ore 11-13 à 33.0%
 - **Plantera** : Essence of Babil 4-8 à 100.0% (mode normal)
+- **Possessed Armor** : Psychotic Amulet 1-1 à 2.5%
 - **Prism-Back** : Prism Shard 1-3 à 100.0% [After defeating Desert Scourge] ; Clam Chowder 1-1 à 2.0%
 - **Providence, the Profaned Goddess** : Rune of Kos 1-1 à 100.0% [Always on first kill] (mode normal) ; Rune of Kos 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Blazing Core 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; Providence, the Profaned Goddess 1-1 à 100.0% [Always on first kill] (mode normal) ; Providence, the Profaned Goddess 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **Rat** : Cheese 1-2 à 0.1% [in Godseeker Mode]
@@ -168,7 +171,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - The Reaper — 2
 - Toxic Wisdom — 2
 - Trash of Magnus — 2
-- Aftershock — 1
 - Ancient Shiv — 1
 - Ash's Cloak — 1
 - Bittercold Staff — 1
@@ -186,7 +188,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Dragon Flame Barrage — 1
 - Earthen Clicker — 1
 - Empress Flah — 1
-- Eutrophic Scimitar — 1
 - Eutrophic Shank — 1
 - Flounder Mortar — 1
 - Frigid Bar — 1
@@ -212,11 +213,9 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Profaned Core Fragment — 1
 - Profaned Nucleus — 1
 - Profaned Whiplash — 1
-- Psychotic Amulet — 1
 - Purgatory Blaster — 1
 - Quasar — 1
 - Raider's Glory — 1
-- Sandslasher — 1
 - Sandstorm (weapon) — 1
 - Sea Shell — 1
 - Shadowdrop Staff — 1
@@ -234,4 +233,3 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Warbell — 1
 - Warblade — 1
 - Warbow — 1
-- Wrath of the Ancients — 1

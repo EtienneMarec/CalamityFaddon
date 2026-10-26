@@ -321,6 +321,20 @@ namespace CalamityFandom.Common.Debug
             }
             if (FandomMode.IsFull)
                 Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Seabound Staff")), "le Desert Scourge lâche le Seabound Staff (groupe partiel)");
+            // Lot du 26/10 : objets qui débloquent des recettes ou du butin du wiki
+            foreach (string name in new[] { "Psychotic Amulet", "Disseminator", "Wrath of the Ancients", "Astral Bow", "Lazhar", "Carnage Ray", "Phantom Lance", "Eutrophic Scimitar", "Aftershock", "Sandslasher", "Asteroid Staff" })
+            {
+                int type = WikiRecipes.ResolveItem(name);
+                Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
+                Expect(!WikiRecipes.Missing.ContainsKey("objet : " + name) && !WikiLoot.MissingItems.ContainsKey(name), $"{name} n'est plus introuvable");
+            }
+            int amulet = WikiRecipes.ResolveItem("Psychotic Amulet");
+            Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.requiredItem.Any(i => i.type == amulet)
+                && Lang.GetItemNameValue(r.createItem.type).StartsWith("Auric Tesla")), "les casques Auric Tesla demandent le Psychotic Amulet");
+            Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Psychotic Amulet")), "la Possessed Armor lâche le Psychotic Amulet");
+            // Alternatives abrégées du wiki (« Silver/Tungsten Bar ») et groupes au pluriel (« Any Quivers »)
+            Expect(!WikiRecipes.Missing.ContainsKey("objet : Silver") && !WikiRecipes.Missing.ContainsKey("objet : Any Quivers"),
+                "« Silver/Tungsten Bar » et « Any Quivers » résolus");
             // Renommages de Calamity depuis 2022 : nom du wiki rendu, plus masqués en Full Fandom
             if (ModContent.TryFind<ModItem>("CalamityMod", "EssenceofHavoc", out var havoc))
             {

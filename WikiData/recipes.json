@@ -9800,7 +9800,7 @@
     },
     {
      "items": [
-      "Musket",
+      "Musket Undertaker",
       "The Undertaker"
      ],
      "stack": 1
@@ -48004,7 +48004,7 @@
    "ingredients": [
     {
      "items": [
-      "Adamantite",
+      "Adamantite Sword",
       "Titanium Sword"
      ],
      "stack": 1
@@ -56166,14 +56166,14 @@
     },
     {
      "items": [
-      "Silver",
+      "Silver Bar",
       "Tungsten Bar"
      ],
      "stack": 10
     },
     {
      "items": [
-      "Silver",
+      "Silver Axe",
       "Tungsten Axe"
      ],
      "stack": 1
@@ -72476,7 +72476,7 @@
   "Ancient Bookcase": "Bookcases",
   "Ancient Chair": "Chairs",
   "Ancient Chandelier": "Chandeliers",
-  "Ancient Cultist Trophy": "Trophies",
+  "Ancient Cultist Trophy": "Lunatic Cultist Trophy",
   "Ancient Door": "Doors",
   "Ancient Dresser": "Dressers",
   "Ancient Lamp": "Lamps",
@@ -73242,6 +73242,9 @@
   "Yellow Seeking Mechanism": "Seeking Mechanisms",
   "Yharon Trophy": "Trophies",
   "Sand": "Sand Block",
+  "Any Quivers": "Any Quiver",
+  "Any Mana Flowers": "Any Mana Flower",
+  "Dirt": "Dirt Block",
   "Rogue Emblem": "Spy Emblem"
  },
  "groups": {
