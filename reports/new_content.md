@@ -681,13 +681,13 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Inverted Gar
 - [ ] Jewel Core — addon: Calamity: Tales of the Aquatic
 - [ ] Landscapist Mobilite Fragment — addon: Calamity: Tales of the Aquatic
-- [ ] Lead Core
+- [x] Lead Core
 - [ ] Level Meters — pas de sprite
 - [ ] Lul
 - [ ] Lunarspectre Tracers — addon: Calamity: Tales of the Aquatic
 - [ ] Magna Core — addon: Calamity: Community Remix
 - [ ] Metamorphic Stone
-- [ ] Microxodonta
+- [x] Microxodonta
 - [ ] Mirage Jelly (item)
 - [ ] Mobilite Core — addon: Calamity: Tales of the Aquatic
 - [ ] Music Boxes — pas de sprite
@@ -698,7 +698,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Oil Bottle
 - [ ] Palladium Light Circuit — addon: Calamity: Tales of the Aquatic
 - [ ] Phantasmal Rune — addon: Calamity: Tales of the Aquatic
-- [ ] Plague Balloon
+- [x] Plague Balloon
 - [ ] Plague Hive
 - [ ] Polypebral Shield
 - [ ] Prehistoric Tablet
@@ -735,8 +735,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Spy Emblem
 - [ ] Spy's Lootbox — addon: Calamity: Community Remix
 - [x] Static Wings
-- [ ] Sulfuric Scale
-- [ ] Surgical Glove
+- [x] Sulfuric Scale
+- [x] Surgical Glove
 - [ ] Terraformance — addon: Calamity: Tales of the Aquatic
 - [ ] The Everquartz — stub; addon: Catalyst
 - [ ] The Godfather — addon: Calamity: Community Remix
@@ -1004,7 +1004,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Xernocaloxusatros — addon: Wrath of the Mammoth
 - [ ] Yharim Worm
 
-## Potion (62)
+## Potion (60)
 
 - [ ] Active Healing Potion — addon: Calamity: Tales of the Aquatic
 - [ ] Adrenaline of the Gods — addon: Catalyst
@@ -1032,9 +1032,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Esseric Skin Potion — addon: Calamity: Tales of the Aquatic
 - [ ] Ever Ink — addon: Catalyst, Deimos, the Starborn Princess
 - [ ] Expired Medication
-- [ ] Flask of Plague
+- [x] Flask of Plague
 - [ ] Ham Pie
-- [ ] Hemagrape
 - [ ] Holy Wrath Potion
 - [ ] JOOZ — addon: Calamity: Community Remix
 - [ ] Juzie
@@ -1053,7 +1052,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Revivify Potion
 - [ ] SAUS — addon: Calamity: Community Remix
 - [ ] Sacred Meat — pas de sprite
-- [ ] Sambucus Fruit
 - [ ] Shattering Potion
 - [x] Slagspitter Pauldron — addon: Deimos, the Starborn Princess, Calamity: Community Remix
 - [ ] Stamina of the Vengeful — addon: Catalyst

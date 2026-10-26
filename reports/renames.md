@@ -80,6 +80,7 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Graydron | Murasama | Murasama |
 | Greatsword of Blah | Orderbringer | Orderbringer |
 | Heavy Laser Rifle | W-LSR: Phalanx Surge | PhalanxSurge |
+| Hemagrape | Sanguine Tangerine | SanguineTangerine |
 | Hive (Enemy) | Hiveling | Hiveling |
 | Hive (disambiguation) | Hive | Hive |
 | Hive Cyst | Hive Tumor | HiveTumor |
@@ -110,6 +111,7 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Regenator | Regenerator | Regenerator |
 | Rune of Kos | Mark of Providence | MarkofProvidence |
 | SYNTAX ERROR | NO | NO |
+| Sambucus Fruit | Tainted Cloudberry | TaintedCloudberry |
 | Sconce | Cosmilite Sconce | CosmiliteSconce |
 | Seabound Staff | Brittle Star Staff | BrittleStarStaff |
 | Shattered Sun | Shattered Dawn | ShatteredDawn |

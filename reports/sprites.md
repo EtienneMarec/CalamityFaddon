@@ -2,7 +2,7 @@
 
 _Généré par `tools/gen_sprites.py`._
 
-- 863 objets ont déjà le sprite du wiki
+- 865 objets ont déjà le sprite du wiki
 - 57 objets renommés : sprite du wiki dans tous les modes
 - 296 objets officiels : sprite du wiki en Full Fandom seulement
 - 91 ignorés (image du wiki inutilisable)

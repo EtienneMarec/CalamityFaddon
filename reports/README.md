@@ -8,14 +8,14 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | content | 3619 |
 | changelog | 222 |
 | contenu correspondant à Calamity | 1360 |
-| contenu officiel renommé (via redirection) | 150 |
+| contenu officiel renommé (via redirection) | 152 |
 | pages regroupant plusieurs objets officiels | 76 |
 | officiel ou renommé avec stats divergentes | 812 |
-| contenu inconnu de Calamity avec infobox | 1498 |
-| dont avec sprite trouvé | 1401 |
+| contenu inconnu de Calamity avec infobox | 1496 |
+| dont avec sprite trouvé | 1399 |
 | pages marquées addon / fantag | 778 |
 | pages de wiki/ modifiées ou créées par rapport au Fandom | 549 |
-| **pages implémentées dans le mod** | **290** |
+| **pages implémentées dans le mod** | **296** |
 
 ## Types d'infobox (contenu nouveau)
 
@@ -27,7 +27,7 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | Block | 113 |
 | Debuff | 65 |
 | Boss | 62 |
-| Potion | 62 |
+| Potion | 60 |
 | Enemy | 58 |
 | Tool | 56 |
 | Flying Enemy | 33 |

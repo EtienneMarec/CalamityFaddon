@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 261 drops ajoutés sur 107 PNJ
-- 86 ajouts dans 24 sacs
+- 269 drops ajoutés sur 110 PNJ
+- 90 ajouts dans 24 sacs
 - 551 drops du wiki déjà présents dans le jeu (inchangés)
 - 115 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 26 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 175 PNJ du wiki absents du jeu, 85 objets introuvables
+- 175 PNJ du wiki absents du jeu, 79 objets introuvables
 
 ## Ajouts
 
@@ -58,6 +58,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Eutrophic Ray** : Clam Chowder 1-1 à 2.0% [Hardmode-only]
 - **Flak Crab** : Cadaverous Carrion 1-1 à 5.0%
 - **Fusion Feeder** : Titan Finger 1-1 à 2.0%
+- **Gamma Slime** : Lead Core 1-1 à 3.3%
 - **Ghost Bell** : Voltaic Jelly 1-1 à 20.0% [After defeating Desert Scourge] ; Clam Chowder 1-1 à 2.0% [Hardmode-only]
 - **Giant Clam** : Clam Chowder 1-1 à 50.0% [Hardmode-only] ; Amidias' Pendant 1-1 à 33.3% [After defeating Desert Scourge] ; Giant Pearl 1-1 à 66.7% [After defeating Desert Scourge]
 - **Giant Squid** : Depth Cells 2-4 à 50.0% [After defeating Calamitas] ; Lumenyl 1-1 à 50.0% [After defeating Calamitas]
@@ -71,6 +72,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Hive** : Hive Pod 1-1 à 14.3% [After Astrum Aureus has been defeated]
 - **Hive (Enemy)** : Stardust 2-3 à 100.0% ; Titan Finger 1-1 à 2.0% ; Hive Pod 1-1 à 14.3% [After defeating Astrum Aureus]
 - **Hive Cyst** : Demonite Ore 10-26 à 100.0%
+- **Irradiated Slime** : Lead Core 1-1 à 3.3%
 - **Jungle Dragon Yharon** : Yharim's Gift 1-1 à 100.0% (mode normal) ; Omega Healing Potion 5-15 à 100.0% (mode normal) ; Chicken Nugget 5000-5000 à 100.0% (mode normal) ; Jungle Dragon, Yharon 1-1 à 100.0% [Always on first kill] (mode normal) ; Jungle Dragon, Yharon 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **Laserfish** : Lumenyl 1-1 à 50.0% [After defeating Calamitas]
 - **Mantis** : Titan Finger 1-1 à 2.0% ; Astral Scythe 1-1 à 14.3% [After defeating Astrum Aureus]
@@ -84,6 +86,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Mouse** : Cheese 1-2 à 0.0% [in Godseeker Mode]
 - **Necromancer** : Wrath of the Ancients 1-1 à 4.0%
 - **Nova** : Titan Finger 1-1 à 2.0%
+- **Nuclear Terror** : Microxodonta 1-1 à 33.3% ; Sulfuric Scale 1-1 à 10.0%
 - **Oarfish** : Depth Cells 3-5 à 50.0% [After defeating Calamitas]
 - **Orthocera** : Insidious Impaler 1-1 à 5.0%
 - **Overloaded Soldier** : Phantoplasm 1-1 à 100.0% [Godseeker Mode]
@@ -108,8 +111,8 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Stellar Culex** : Titan Finger 1-1 à 2.0%
 - **Sunskater** : Essence of Sunlight 1-1 à 33.0% [In Hardmode]
 - **Tempest Toddler** : Desert Feather 2-4 à 100.0%
-- **The Old Duke** : Supreme Healing Potion 5-15 à 100.0% (mode normal) ; Old Duke 1-1 à 100.0% [Always on first kill] (mode normal) ; Old Duke 1-1 à 100.0% [Always on first kill] (Expert, direct)
-- **The Plaguebringer Goliath** : Toxic Heart 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Jungle Key 1-1 à 100.0% (mode normal) ; The Plaguebringer Goliath 1-1 à 100.0% [Always on first kill] (mode normal) ; The Plaguebringer Goliath 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Diseased Pike 1-1 à 25.0% (mode normal) ; Pandemic 1-1 à 25.0% (mode normal) ; Pestilent Defiler 1-1 à 25.0% (mode normal) ; Blight Spewer 1-1 à 25.0% (mode normal) ; The Hive 1-1 à 25.0% (mode normal)
+- **The Old Duke** : Sulfuric Scale 1-1 à 10.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; Old Duke 1-1 à 100.0% [Always on first kill] (mode normal) ; Old Duke 1-1 à 100.0% [Always on first kill] (Expert, direct)
+- **The Plaguebringer Goliath** : Toxic Heart 1-1 à 100.0% (mode normal) ; Flask of Plague 5-15 à 10.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Surgical Glove 1-1 à 10.0% (mode normal) ; Plague Balloon 1-1 à 10.0% (mode normal) ; Jungle Key 1-1 à 100.0% (mode normal) ; The Plaguebringer Goliath 1-1 à 100.0% [Always on first kill] (mode normal) ; The Plaguebringer Goliath 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Diseased Pike 1-1 à 25.0% (mode normal) ; Pandemic 1-1 à 25.0% (mode normal) ; Pestilent Defiler 1-1 à 25.0% (mode normal) ; Blight Spewer 1-1 à 25.0% (mode normal) ; The Hive 1-1 à 25.0% (mode normal)
 - **The Slime God** : Mana Polarizer 1-1 à 100.0% (mode normal) ; Healing Potion 5-15 à 100.0% (mode normal) ; The Slime God 1-1 à 100.0% [Always on first kill] (mode normal) ; The Slime God 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Crimslime Staff 1-1 à 25.0% (mode normal) ; Slime Puppet Staff 1-1 à 25.0% (mode normal)
 - **Toxic Minnow** : Depth Cells 2-3 à 50.0% [After defeating Calamitas]
 - **Trasher** : Gatligator 1-1 à 10.0% [In Hardmode]
@@ -140,9 +143,9 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (The Devourer of Gods)** : Norfleet 1-1 à 10.0% (page Treasure Bag) ; Cosmic Worm 30-39 à 100.0% (page Treasure Bag)
 - **Treasure Bag (The Dragonfolly)** : Swordsplosion 1-1 à 10.0% (page Treasure Bag)
 - **Treasure Bag (The Hive Mind)** : Rotten Matter 30-40 à 100.0% (page Treasure Bag)
-- **Treasure Bag (The Old Duke)** : Supreme Healing Potion 5-15 à 100.0% ; Old Duke Trophy 1-1 à 10.0%
+- **Treasure Bag (The Old Duke)** : Sulfuric Scale 1-1 à 10.0% ; Supreme Healing Potion 5-15 à 100.0% ; Old Duke Trophy 1-1 à 10.0%
 - **Treasure Bag (The Perforators)** : Blood Sample 30-40 à 100.0% (page Treasure Bag)
-- **Treasure Bag (The Plaguebringer Goliath)** : Pestilent Defiler 1-1 à 33.3% (page Treasure Bag) ; Pandemic 1-1 à 33.3% (page Treasure Bag) ; The Hive 1-1 à 33.3% (page Treasure Bag) ; Diseased Pike 1-1 à 33.3% (page Treasure Bag) ; Blight Spewer 1-1 à 33.3% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Jungle Key 1-1 à 100.0% ; Plaguebringer Goliath Trophy 1-1 à 10.0%
+- **Treasure Bag (The Plaguebringer Goliath)** : Plague Balloon 1-1 à 10.0% (page Treasure Bag) ; Surgical Glove 1-1 à 10.0% (page Treasure Bag) ; Pestilent Defiler 1-1 à 33.3% (page Treasure Bag) ; Pandemic 1-1 à 33.3% (page Treasure Bag) ; The Hive 1-1 à 33.3% (page Treasure Bag) ; Diseased Pike 1-1 à 33.3% (page Treasure Bag) ; Blight Spewer 1-1 à 33.3% (page Treasure Bag) ; Flask of Plague 5-15 à 10.0% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Jungle Key 1-1 à 100.0% ; Plaguebringer Goliath Trophy 1-1 à 10.0%
 - **Treasure Bag (The Slime God)** : Crimslime Staff 1-1 à 33.3% (page Treasure Bag) ; Slime Puppet Staff 1-1 à 33.3% (page Treasure Bag) ; Gel 180-250 à 100.0% ; Healing Potion 5-15 à 100.0% ; Slime God Trophy 1-1 à 10.0%
 - **Treasure Bag (Wall of Flesh)** : Twisted Tendril 5-8 à 100.0%
 
@@ -153,19 +156,14 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Blow Pipe — 2
 - Decomposition — 2
 - Disease — 2
-- Flask of Plague — 2
 - Glacial Crusher — 2
 - Honey Cooling Cell — 2
-- Lead Core — 2
 - Metal Ball — 2
 - Phlegm — 2
-- Plague Balloon — 2
 - Poison I-Bee — 2
 - Reemergence — 2
 - Romulus — 2
 - Sewer Brewer — 2
-- Sulfuric Scale — 2
-- Surgical Glove — 2
 - The Insacred Texts — 2
 - The Needler — 2
 - The Reaper — 2
@@ -202,7 +200,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Leaves of Crabulon — 1
 - Li'l Mine — 1
 - Metamorphic Stone — 1
-- Microxodonta — 1
 - Mirage Jelly (item) — 1
 - Nightform — 1
 - Oil Bottle — 1

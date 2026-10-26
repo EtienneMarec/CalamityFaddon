@@ -2,7 +2,7 @@
 
 _Généré par `tools/gen_localization.py`._
 
-340 textes modifiés, dont 226 noms.
+344 textes modifiés, dont 228 noms.
 
 Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom Brick Wall, Hide of Astrum Deus, Uelibloom Brick, Realm Ravager, going rogue, goes rogue, gone rogue, went rogue, go rogue.
 
@@ -174,6 +174,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.Rogue.SamsaraSlicer.DisplayName` | Samsara Slicer | Terra Disk |
 | `Items.Weapons.Summon.SanctifiedSpark.DisplayName` | Sanctified Spark | Energy Staff |
 | `Items.Weapons.Magic.SandstreamScepter.DisplayName` | Sandstream Scepter | Storm Spray |
+| `Items.Misc.SanguineTangerine.DisplayName` | Sanguine Tangerine | Hemagrape |
 | `Items.Materials.ScoriaBar.DisplayName` | Scoria Bar | Abyss Bar |
 | `Items.Placeables.ScoriaOre.DisplayName` | Scoria Ore | Abyss Ore |
 | `Items.Materials.SeaRemains.DisplayName` | Sea Remains | Victide Bar |
@@ -191,6 +192,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Fishing.SulphurousCrate.DisplayName` | Sulphurous Crate | Abyssal Crate |
 | `NPCs.SupremeCalamitas.DisplayName` | Supreme Witch, Calamitas | Supreme Calamitas |
 | `Items.Weapons.Melee.TaintedBlade.DisplayName` | Tainted Blade | Caustic Edge |
+| `Items.Misc.TaintedCloudberry.DisplayName` | Tainted Cloudberry | Sambucus Fruit |
 | `Items.Lore.LoreAbyss.DisplayName` | The Abyss | The Ocean |
 | `Items.Lore.LoreArchmage.DisplayName` | The Archmage | Cryogen |
 | `Items.Pets.TheEtomer.DisplayName` | The Etomer | Triboluminescent Etomer |

@@ -53,6 +53,8 @@ namespace CalamityFandom.Common.Debug
             ("item", "NavystoneChair", "Eutrophic Chair"),
             ("item", "SightseerSpitterBanner", "Big Sightseer Banner"),
             ("npc", "CrimulanPaladin", "Crimulan Slime God"),
+            ("item", "SanguineTangerine", "Hemagrape"),
+            ("item", "TaintedCloudberry", "Sambucus Fruit"),
         };
 
         public override void PostSetupRecipes()
@@ -330,7 +332,7 @@ namespace CalamityFandom.Common.Debug
             if (FandomMode.IsFull)
                 Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Seabound Staff")), "le Desert Scourge lâche le Seabound Staff (groupe partiel)");
             // Lot du 26/10 : objets qui débloquent des recettes ou du butin du wiki
-            foreach (string name in new[] { "Psychotic Amulet", "Disseminator", "Wrath of the Ancients", "Astral Bow", "Lazhar", "Carnage Ray", "Phantom Lance", "Eutrophic Scimitar", "Aftershock", "Sandslasher", "Asteroid Staff" })
+            foreach (string name in new[] { "Psychotic Amulet", "Disseminator", "Wrath of the Ancients", "Astral Bow", "Lazhar", "Carnage Ray", "Phantom Lance", "Eutrophic Scimitar", "Aftershock", "Sandslasher", "Asteroid Staff", "Lead Core", "Surgical Glove", "Sulfuric Scale", "Flask of Plague", "Plague Balloon", "Microxodonta" })
             {
                 int type = WikiRecipes.ResolveItem(name);
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");

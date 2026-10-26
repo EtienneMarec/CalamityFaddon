@@ -62,6 +62,10 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
   « The Slime God ») ; (3) **ancien nom non déclaré** dans le vieux code : c'est le nom de classe découpé que tModLoader
   affichait (« Eutrophic Bathtub », « Big Sightseer Banner » ; avant : « EutrophicBathtub », « Banners ») ; (4) **nom de
   classe repris** par un autre objet (NavystoneWallSafe → NavystoneWall) : pas un changement de nom de la même classe.
+- **[choix 26/10]** Fruits de vie : **Hemagrape** = Blood Orange de 2022 = Sanguine Tangerine de Calamity, **Sambucus
+  Fruit** = Elderberry = Tainted Cloudberry (infobulles identiques mot pour mot ; un changelog cite `[[Hemagrape|Blood
+  Orange]]`). Renommages ajoutés au glossaire. La page « Elder Berry » (redirection d'Elderberry) décrit un autre objet,
+  inventé (un dash).
 - **[choix 26/10]** Renommages aussi lus dans les attributs **`[LegacyName]`** de Calamity (la sauvegarde garde l'objet),
   que l'historique git rate quand le fichier a été réécrit. Comme c'est souvent un objet différent (Gehenna → Slagsplitter
   Pauldron, Soul Edge → Void Edge, Holy Wrath Potion → Flask of Holy Flames), seulement quand le nom affiché de 2022
@@ -338,6 +342,19 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   pas, c'est donc le rayon qui l'inflige à l'ennemi touché.
 - **[technique]** **Eutrophic Scimitar** : Eutrophication 0,5 s (infobox) au lieu de 1 s (vieux code). **Astral Bow** :
   classe AstralRepeater (nom de 2.0.1.005), les tirs à bout portant de Calamity n'existent plus.
+- **[technique]** **Lead Core** : retiré de Calamity en avril 2022 (porté depuis le commit qui le supprimait).
+- **[choix]** **Surgical Glove** et **Sulfuric Scale** : coverings inventés par le wiki, écrits d'après la page
+  (`Content/Items/Accessories/`). Surgical Glove : « ne se cumule pas avec la Titan Glove et ses améliorations » = pas de
+  bonus true melee quand l'effet de recul de la Titan Glove est actif ; Plague sur les attaques de mêlée et leurs
+  projectiles (durées des Notes). Sulfuric Scale : « debuff qui fait perdre de la vie » = régénération négative ; sprite
+  du wiki (`Sulfuric_Scale.png`).
+- **[choix]** **Flask of Plague** : inventée par le wiki, faite comme les flasks de Calamity (un seul buff de flask à la
+  fois) ; Plague 3 s sur les coups de mêlée, de fouet et spy (y compris leurs projectiles). Texte gardé tel quel
+  (« Rogue », comme la page). Pas encore dans les caisses de jungle (Notes de la page).
+- **[choix]** **Microxodonta** (inventé) : « en vol » = ailes en cours d'utilisation ; la Microbial Cluster amicale reprend
+  la texture et le mouvement du PNJ de Calamity, dure 5 s, 300 dégâts fixes (ni bonus, ni critique, ni défense).
+  **Plague Balloon** (inventé) : l'image portée est celle de l'objet, la nuée d'abeilles à la mort est de la poussière
+  verte.
 - **[à trancher]** Plague Hive : demande Alchemical Flask, que Calamity a remplacé par l'Alchemical Decanter
   (`[LegacyName]`) ; dépend de la décision sur les remplacements `[LegacyName]` (section 2).
 

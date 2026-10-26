@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1061 objets dont les recettes ont changé : 951 recettes modifiées, 173 créées
+- 1064 objets dont les recettes ont changé : 954 recettes modifiées, 175 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 130 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 151 recettes
+- 125 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 145 recettes
 
 ## Recettes changées
 
@@ -351,6 +351,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Elemental Quiver | 1 Any Quiver, 1 Deadshot Brooch, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Any Quiver, 1 Deadshot Brooch, 8 Luminite Bar, 4 Galactica Singularity, 4 Ascendant Spirit Essence, 4 Yharim Bar @ CosmicAnvil → 1 |
 | Elumplate | 25 Obsidian, 1 Essence of Eleum @ Hellforge → 25 | 1 Essence of Eleum, 3 Obsidian @ Hellforge → 3 |
 | Elysian Arrow | 150 Holy Arrow, 1 Unholy Essence @ MythrilAnvil → 150 | 1 Unholy Essence, 150 Holy Arrow @ LunarCraftingStation → 150 |
+| Elysian Tracers | 1 Moon Walkers, 3 Armored Shell, 3 Twisting Nether, 3 Dark Plasma @ LunarCraftingStation → 1 | 1 Seraph Tracers, 1 Elysian Wings, 1 Gravistar Sabaton, 1 Microxodonta, 5 Cosmilite Bar, 4 Ascendant Spirit Essence, 4 Yharim Bar @ CosmicAnvil → 1 |
 | Empyrean Cloak | 20 Meld Blob, 16 Luminite Bar @ LunarCraftingStation → 1 | 22 Meld Bar, 16 Luminite Bar, 5 Core of Babil @ LunarCraftingStation → 1 |
 | Empyrean Cuisses | 15 Meld Blob, 12 Luminite Bar @ LunarCraftingStation → 1 | 18 Meld Bar, 12 Luminite Bar, 3 Core of Babil @ LunarCraftingStation → 1 |
 | Empyrean Knives | 1 Vampire Knives, 1 Monstrous Knives, 3 Twisting Nether @ MythrilAnvil → 1 | 1 Vampire Knives, 1 Monstrous Knives, 8 Cosmilite Bar, 8 Darksun Fragment @ CosmicAnvil → 1 |
@@ -437,7 +438,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Feral Double Rod | 8 Perennial Bar @ MythrilAnvil → 1 | 10 Perennial Bar, 20 Chlorophyte Bar, 2 Variegated Lardfish @ MythrilAnvil → 1 |
 | Feralthorn Claymore | 10 Perennial Bar @ MythrilAnvil → 1 | 12 Perennial Bar, 1 Chlorophyte Saber, 1 Chlorophyte Claymore @ MythrilAnvil → 1 |
 | Filthy Glove | (nouvelle) | 5 Rotten Matter, 4 Rotten Chunk, 4 Demonite Bar @ DemonAltar → 1 |
-| Fireball | 10 Bottle, 50 Living Fire Block, 10 Stardust @ Kegs → 10 | 5 Ale, 40 Blood Orb, 1 Unicorn Horn @ AlchemyTable → 5 |
+| Fireball | (nouvelle) | 5 Ale, 40 Blood Orb, 1 Unicorn Horn @ AlchemyTable → 5 |
+| Fireball | 10 Bottle, 50 Living Fire Block, 10 Stardust @ Kegs → 10 | 5 Ale, 1 Hemagrape, 1 Unicorn Horn @ Kegs → 5 |
 | Firestorm Cannon | 1 Flare Gun, 10 Hellstone Bar, 1 Illegal Gun Parts @ Anvils → 1 | 5 Char Matter, 1 Flare Gun, 1 Boomstick, 10 Any Gold Bar, 10 Parched Scale @ Anvils → 1 |
 | Flahium Component | (nouvelle) | 3 Alloy Bar, 16 Aerialite Ore, 16 Arsenic Ore, 16 Charred Ore, 16 Cryonic Ore, 16 Perennial Ore, 16 Apocalyptic Ore, 16 Abyss Ore, 16 Life Ore, 16 Astral Ore, 15 Meld Blob, 100 Stardust, 75 Blood Orb, 15 Parched Scale, 15 Rotten Matter, 15 Blood Sample, 15 Purified Gel, 15 Ashes of Calamity, 15 Living Shard, 15 Plague Cell Canister, 10 Core of Calamity, 10 Orb of Boon, 15 Life Alloy, 22 Delicious Meat, 22 Disgusting Meat, 8 Soul of Plight, 8 Soul of Bright, 8 Soul of Night, 8 Soul of Light, 8 Soul of Flight, 8 Soul of Sight, 8 Soul of Might, 8 Soul of Fright, 5 Herb Bag, 1 Bloody Vein @ Autohammer → 2 |
 | Flahium Slag | (nouvelle) | 1 Reclaimed Flah, 2 Exo Prism, 1 Miracle Matter, 2 Ashes of Annihilation, 120 Any Silt Block, 1 Flahium Component @ DraedonsForge → 12 |
@@ -800,7 +802,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Sausage Maker | (nouvelle) | 8 Blood Sample, 4 Vertebra, 5 Crimtane Bar @ DemonAltar → 1 |
 | Scorched Earth | 1 Scorpio, 15 Any Adamantite Bar, 10 Darksun Fragment, 50 Solar Fragment @ CosmicAnvil → 1 | 1 Blissful Bombardier, 10 Darksun Fragment, 50 Solar Fragment, 15 Any Adamantite Bar, 99 Yharim Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Scorpio | 1 Snowman Cannon, 6 Nebula Fragment, 100 Nanites @ LunarCraftingStation → 1 | 1 Snowman Cannon, 1 Grenade Launcher, 1 Rocket Launcher, 20 Vortex Fragment @ MythrilAnvil → 1 |
-| Screwdriver | 10 Bottle, 1 Diamond @ Kegs → 10 | 5 Fluorescent Vodka, 30 Blood Orb, 5 Hallowed Ore @ AlchemyTable → 5 |
+| Screwdriver | (nouvelle) | 5 Fluorescent Vodka, 30 Blood Orb, 5 Hallowed Ore @ AlchemyTable → 5 |
+| Screwdriver | 10 Bottle, 1 Diamond @ Kegs → 10 | 5 Fluorescent Vodka, 1 Hemagrape, 5 Hallowed Ore @ Kegs → 5 |
 | SDFMG | 1 S.D.M.G., 8 Cosmilite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 | 1 S.D.M.G., 1 Fetid Emesis, 10 Sea Prism, 10 Depth Cells, 10 Lumenyl, 5 Tenebris, 8 Cosmilite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 |
 | Sea Minnow Jar | 1 Sea Minnow, 1 Bottled Water @ main → 1 | 1 Bottle, 1 Sea Minnow @ main → 1 |
 | Seafoam Bomb | 25 Bomb, 10 Sea Prism, 1 Conquest Fragment @ Anvils → 1 | 25 Bomb, 10 Sea Prism @ Anvils → 1 |
@@ -826,6 +829,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Shredder | 1 Frostbite Blaster, 1 Bullet-Filled Shotgun, 5 Luminite Bar @ MythrilAnvil → 1 | 1 Frostbite Blaster, 1 Shotgun, 5 Galactica Singularity, 5 Life Alloy, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Shroomer | 1 Sniper Rifle, 1 Fungicide, 6 Stardust Fragment @ LunarCraftingStation → 1 | 1 Sniper Rifle, 11 Shroomite Bar, 15 Vortex Fragment, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Sigil of Calamitas | 1 Celestial Emblem, 8 Abyss Bar, 15 Ashes of Calamity @ MythrilAnvil → 1 | 1 Celestial Emblem, 5 Ashes of Calamity, 5 Core of Chaos, 2 Abyss Bar, 10 Any Evil Water @ MythrilAnvil → 1 |
+| Silva Armor | 90 Planty Mush, 12 Effulgent Feather, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 12 Ornate Cloth, 1 Lead Core, 10 Any Gold Bar, 12 Tenebris, 3 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | Silva Bathtub | 14 Silva Crystal @ GlassKiln → 1 | 14 Silva Crystal @ SilvaBasin → 1 |
 | Silva Bed | 15 Silva Crystal, 5 Silk @ GlassKiln → 1 | 15 Silva Crystal, 5 Silk @ SilvaBasin → 1 |
 | Silva Bench | 8 Silva Crystal @ GlassKiln → 1 | 10 Silva Crystal @ SilvaBasin → 1 |
@@ -1129,6 +1133,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Wulfrum Treasure Pinger | 10 Wulfrum Bar @ main → 1 | 50 Wulfrum Bar, 3 Energy Core, 1 Energy Orb @ Anvils → 1 |
 | Yellow Seeking Mechanism | 1 Lab Seeking Mechanism, 20 Cloud @ Anvils → 1 | 1 Lab Seeking Mechanism, 50 Ice Block @ Anvils → 1 |
 | Yharic Delight | (nouvelle) | 1 Yharim Bar, 1 Yharon Soul Fragment @ CookingPots → 20 |
+| Yharim's Insignia | 1 Soaring Insignia, 5 Effulgent Feather, 5 Divine Bar, 10 Soul of Flight @ MythrilAnvil → 1 | 10 Luminite Bar, 3 Astral Bar, 1 Surgical Glove, 1 Delicious Meat @ LunarCraftingStation → 1 |
 | Yin-Yo | 1 Valor, 1 Dark Shard, 1 Light Shard, 7 Soul of Light, 7 Soul of Night @ Anvils → 1 | 1 Dark Shard, 1 Light Shard @ Anvils → 1 |
 | Zen Potion | 1 Bottled Water, 2 Purified Gel, 3 Daybloom @ AlchemyTable → 1 | 256 Delicious Meat, 1 Pink Gel, 1 Daybloom, 1 Bottled Water @ AlchemyTable → 1 |
 | Zen Potion | 1 Bottled Water, 5 Blood Orb, 2 Purified Gel @ AlchemyTable → 1 | 1 Bottled Water, 2 Unholy Core, 256 Delicious Meat @ AlchemyTable → 1 |
@@ -1143,7 +1148,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - station : Aquatic Hypercomputer Finished — 5
 - station : Aquatic Hypercomputer ERM — 4
 - objet : Crab — 2
-- objet : Hemagrape — 2
 - objet : Luminous Striker — 2
 - station : Aquatic Hypercomputer Vault — 2
 - station : Bronze Smelter — 2
@@ -1216,11 +1220,9 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Inverted Gar — 1
 - objet : Jet Engine — 1
 - objet : Large Father — 1
-- objet : Lead Core — 1
 - objet : Lightning Hawk — 1
 - objet : Lithos Pickaxe — 1
 - objet : Megaskeet — 1
-- objet : Microxodonta — 1
 - objet : Minnows Prime — 1
 - objet : Miracle Smacker — 1
 - objet : Mirage Jelly (item) — 1
@@ -1248,8 +1250,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Skyalcon Spallation — 1
 - objet : Spectre Rifle — 1
 - objet : Star Cannon EX — 1
-- objet : Sulfuric Scale — 1
-- objet : Surgical Glove — 1
 - objet : Terra Edge — 1
 - objet : Terra Shiv — 1
 - objet : Terra-cotta — 1

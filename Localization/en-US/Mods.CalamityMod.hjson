@@ -803,6 +803,14 @@
 			{
 				DisplayName: Dragonfruit
 			}
+			SanguineTangerine:
+			{
+				DisplayName: Hemagrape
+			}
+			TaintedCloudberry:
+			{
+				DisplayName: Sambucus Fruit
+			}
 		}
 		Pets:
 		{
@@ -1426,6 +1434,8 @@
 		GFBRogueLowercase: spy
 		GFBRogueUppercase: Spy
 		HotkeyNotEquipped: an Covering Ability hotkey
+		SanguineTangerineText: You have already consumed a Hemagrape. Eating any more would make your blood too thick to flow.
+		TaintedCloudberryText: You have already consumed a Sambucus Fruit. Your body would become dust if you ate more than one.
 	}
 	NPCs:
 	{

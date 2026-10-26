@@ -270,6 +270,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Noms corrigés (26/10) : **Caustic Edge** (l'ancienne, pré-Hardmode) et **True Caustic Edge** sont deux objets
       distincts ; les 5 journaux de Draedon ont chacun leur nom (« Draedon's Log - Hell »...) ; meubles **Eutrophic**
       (Eutrophic Chair, Bathtub...) au lieu de « EutrophicChair » ; bannières Big/Small Sightseer, Flounder, Catfish...
+- [ ] Fruits de vie : la Sanguine Tangerine s'appelle **Hemagrape**, la Tainted Cloudberry **Sambucus Fruit** (+25 PV max
+      chacune, message en cas de deuxième usage avec le nouveau nom) ; la recette de Keg Fireball / Screwdriver demande la
+      Hemagrape
 - [ ] Le sac d'Astral Deus et celui de Meatmetal Sans reçoivent leur contenu du wiki (page Treasure Bag) : trophée à 10 %
       dans le sac d'Astral Deus, Greater Healing Potion...
 - [ ] Portages du 26/10 (Cheat Sheet) :
@@ -285,6 +288,16 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
   - [ ] **Aftershock** (un rocher tombe du ciel à chaque coup, Armor Crunch ; lâché par les Earth Elemental),
         **Sandslasher** (shuriken qui accélère à l'horizontale ; furtif : nuages de sable), **Asteroid Staff** (3 astéroïdes
         verts vers le curseur, qui explosent)
+  - [ ] **Lead Core** (immunité Irradiated, Irradiated/Gamma Slime), **Surgical Glove** (+12 % vitesse et dégâts de
+        mêlée, ennemis touchés en mêlée : Plague ; lâché par le Plaguebringer Goliath), **Sulfuric Scale** (immunité
+        Poisoned/Venom/Sulphuric Poisoning ; dégâts en hausse quand on perd de la vie ou sous 75/50/25 % de vie ; Nuclear
+        Terror)
+  - [ ] **Flask of Plague** (lâchée par le Plaguebringer Goliath) : buff « Weapon Imbue: Plague » 20 min, remplace les
+        autres flasks ; un coup d'épée, de fouet ou d'arme spy inflige la Plague
+  - [ ] **Plague Balloon** (vanité, Plaguebringer Goliath) : le ballon se voit sur le joueur (vérifier sa position) ; à la
+        mort, nuée verte
+  - [ ] **Microxodonta** (Nuclear Terror) : course bien plus rapide ; en volant avec des ailes, des grappes vertes
+        restent derrière et infligent 300 aux ennemis
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 
@@ -296,3 +309,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Les chiffres du système d'éléments (`docs/decisions.md`) : à juger en jouant.
 - [x] Full Fandom : anciens objets dont le wiki ne parle nulle part → masqués aussi (tranché le 21/10, tests en 2.3)
 - [ ] Les addons (Tranquility, Community Remix...) : voir `docs/ROADMAP.md`, phase 5.
+- [ ] (26/10) Objets que Calamity a **remplacés** par un autre (`[LegacyName]`, `python tools/calamity_renames.py`) :
+      les traiter comme les refontes du 23/10 (portage en Full Fandom, objet actuel sous le nom du wiki en Calamity++) ?
+      Probables : Warbanner of the Sun → Warbanner of the Righteous, Urchin Flail → Urchin Mace, Rusty Medallion → Scions
+      Curio, Luminous Striker → Reality Rupture, Cursed Capper → Thermocline Blaster, Alchemical Flask → Alchemical
+      Decanter (bloque Plague Hive). Déjà portés dans les deux modes : Gehenna (→ Slagsplitter Pauldron), Aquatic
+      Discharge (→ Sahara Slicers), Soul Edge (→ Void Edge), Crimslime Staff (→ Blighted Slime Staff). Fusions, à garder
+      à part : Holy Wrath / Profaned Rage Potion → Flask of Holy Flames, Bloodstone Core → Bloodstone.
