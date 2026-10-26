@@ -266,6 +266,22 @@
 		Tooltip: Summons a diseased hive to protect you
 	}
 
+	MetalBall: {
+		DisplayName: Metal Ball
+		Tooltip: Throws out a ball of plague nanometal that is affected by gravity which moves based on your movements
+	}
+
+	SewerBrewer: {
+		DisplayName: Sewer Brewer
+		Tooltip:
+			'''
+			Hold the attack button to charge the drill, release to fire a drill bit that increases in size and damage the more it is charged
+			Fully charged drill bits home in towards enemies
+			Drill bits slow down while hitting enemies
+			Enemies hit by the drill bit are infected with the Plague
+			'''
+	}
+
 	PsychoticAmulet: {
 		DisplayName: Psychotic Amulet
 		Tooltip:
@@ -403,6 +419,9 @@
 
 Projectiles: {
 	StratusStar.DisplayName: Stratus Star
+	MetalBallProj.DisplayName: Metal Ball
+	SewerBrewerHeld.DisplayName: Sewer Brewer
+	SewerDrillBit.DisplayName: Drill Bit
 	DecompositionHive.DisplayName: Plague Hive
 	PoisonIBeeDisk.DisplayName: Poison I-Bee Disk
 	IBeeThorn.DisplayName: I-Bee-Thorn

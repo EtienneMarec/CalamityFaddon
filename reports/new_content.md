@@ -253,7 +253,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Marnite Spear
 - [ ] Megaskeet — addon: Apotheosis and Friends
 - [ ] Meridian — addon: Calamity: Community Remix
-- [ ] Metal Ball
+- [x] Metal Ball
 - [ ] Microcell Cut — addon: Calamity: Tales of the Aquatic
 - [ ] Microhavoc — addon: Calamity: Tales of the Aquatic
 - [ ] Midas' Handshake
@@ -341,7 +341,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Seared Shredder
 - [ ] Seashell Boomerang
 - [ ] Severed Eye.exe — addon: Calamity: Community Remix
-- [ ] Sewer Brewer
+- [x] Sewer Brewer
 - [ ] Shading Manual — addon: Calamity: Tales of the Aquatic
 - [ ] Shadow's Descent
 - [ ] Shadowdrop Staff

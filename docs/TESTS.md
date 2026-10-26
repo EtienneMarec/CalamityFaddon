@@ -314,6 +314,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
   - [ ] **Poison I-Bee** (Plaguebringer) : disque boomerang, épines au contact ; en furtif, graines en tous sens
   - [ ] **Decomposition** (tourelle, Plaguebringer) : ruche posée au curseur, tombe au sol, lâche des abeilles de peste
         vers les ennemis proches
+  - [ ] **Metal Ball** (Plaguebringer) : bouton tenu, boule au bout d'une chaîne qui pend et suit les mouvements (courir en
+        rond la fait tourner) ; **Sewer Brewer** : bouton tenu = charge (son à pleine charge), relâcher = foret plus gros
+        et plus fort selon la charge, qui cherche les ennemis à pleine charge
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 

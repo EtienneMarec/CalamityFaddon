@@ -332,7 +332,7 @@ namespace CalamityFandom.Common.Debug
             if (FandomMode.IsFull)
                 Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Seabound Staff")), "le Desert Scourge lâche le Seabound Staff (groupe partiel)");
             // Lot du 26/10 : objets qui débloquent des recettes ou du butin du wiki
-            foreach (string name in new[] { "Psychotic Amulet", "Disseminator", "Wrath of the Ancients", "Astral Bow", "Lazhar", "Carnage Ray", "Phantom Lance", "Eutrophic Scimitar", "Aftershock", "Sandslasher", "Asteroid Staff", "Lead Core", "Surgical Glove", "Sulfuric Scale", "Flask of Plague", "Plague Balloon", "Microxodonta", "Sea Shell", "Mirage Jelly (item)", "Inverted Gar", "Glacial Crusher", "Trash of Magnus", "Blow Pipe", "The Needler", "Disease", "Reemergence", "Phlegm", "Toxic Wisdom", "Poison I-Bee", "Decomposition" })
+            foreach (string name in new[] { "Psychotic Amulet", "Disseminator", "Wrath of the Ancients", "Astral Bow", "Lazhar", "Carnage Ray", "Phantom Lance", "Eutrophic Scimitar", "Aftershock", "Sandslasher", "Asteroid Staff", "Lead Core", "Surgical Glove", "Sulfuric Scale", "Flask of Plague", "Plague Balloon", "Microxodonta", "Sea Shell", "Mirage Jelly (item)", "Inverted Gar", "Glacial Crusher", "Trash of Magnus", "Blow Pipe", "The Needler", "Disease", "Reemergence", "Phlegm", "Toxic Wisdom", "Poison I-Bee", "Decomposition", "Metal Ball", "Sewer Brewer" })
             {
                 int type = WikiRecipes.ResolveItem(name);
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");

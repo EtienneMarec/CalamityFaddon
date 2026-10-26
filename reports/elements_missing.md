@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (469)
+## Objets (467)
 
 - A M S
 - AAMG "Disperse"
@@ -405,7 +405,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Marnite Spear
 - Megaskeet
 - Meridian
-- Metal Ball
 - Microcell Cut
 - Midas' Handshake
 - Miracle Smacker
@@ -498,7 +497,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Seared Shredder
 - Seashell Boomerang
 - Severed Eye.exe
-- Sewer Brewer
 - Shading Manual
 - Shadow's Descent
 - Shadowdrop Staff
