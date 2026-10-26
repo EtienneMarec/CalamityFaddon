@@ -256,6 +256,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Une Copper Broadsword n'affiche pas la barre et ne déclenche rien au clic droit
 - [ ] Aliments du wiki (Cheat Sheet) : **Titan Finger** se mange, donne Plenty Satisfied 4 minutes ; Cheese, Clam Chowder,
       Crimtato... ; les ennemis astraux lâchent parfois des Titan Fingers (24/10)
+- [ ] **Ailes du wiki** (Cheat Sheet : Red Wings, Archangel Wings, Holy Mantle...) : s'équipent, se voient (une seule pose,
+      pas de battement), Red Wings rapides (vitesse 15) et +20 % de déplacement ; Holy Mantle vole sans fin ; Bellwings
+      invisibles une fois portées (pas d'image)
 - [ ] Shortflurry du **Galileo Gladius** : des lunes apparaissent sur les ennemis touchés ; **Cosmic Shiv** : parfois un
       rayon en plus vers le curseur ; **Submarine Shocker** : petits nuages verts immobiles (Sulphuric Poisoning) ;
       **Spore Knife** : liane verte au sol sous l'ennemi (24/10)

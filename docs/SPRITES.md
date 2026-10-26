@@ -18,6 +18,13 @@ Format Terraria : pixel art, fond transparent ; animation = images empilées ver
       transparent. Fichier : `wiki_sprites_custom/Yharim Bar (world).png` (le code à brancher est simple : texture
       séparée pour le dessin au sol)
 
+## Ailes du wiki (images portées)
+
+- [ ] **Bellwings** : pas d'image « (equipped) » sur le wiki : invisibles une fois portées. Attendu : planche verticale de 4
+      images (battement), comme les ailes de Terraria. Fichier : `wiki_sprites_custom/Bellwings (equipped).png`
+- [ ] Optionnel : les 10 autres ailes n'ont qu'une pose sur le wiki (pas de battement) ; une planche de 4 images par paire
+      les animerait (`wiki_sprites_custom/<Nom> (equipped).png`, le code est à brancher)
+
 ## Images du wiki impossibles à récupérer
 
 - [ ] `AAMG "Disperse"`, `HPST "Malign"`, `OPFT "Sublimate"` (refusées par le CDN de Fandom) et `Moai.jpg` (sans fichier).
